@@ -13,38 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Familia | **Materia:** Familia
 
-## Los bienes familiares1
-
-
-Sumario:
-1.- Concepto
-2.- Características3.- Bienes que pueden declararse familiares
-
-## 3.1. El inmueble que sirve de residencia principal de la familia
-
-
-## 3.2. Los muebles que guarnecen la residencia principal de la familia
-
-
-## 3.3. Derechos o acciones en una sociedad propietaria del inmueble que sirva de
-
-residencia principal a la familia
-4.- Declaración de afectación de un bien como familiar
-
-## 4.1. Afectación por declaración judicial
-
-
-## 4.2. Afectación por declaración unilateral solemne
-
-
-## 4.3. El fraude en la afectación
-
-5.- Efectos de la declaración de un bien como familiar
-
-## 5.1. Cogestión de los bienes familiares
-
-
 ## 5.2. Constitución de derechos reales de goce
+
+**Definición Canónica:** 6.- Limitaciones a la ejecución. Beneficio de excusión
+7.- Desafectación de un bien como familiar
+7.1. Formas de desafectación.
+7.2. Desafectación convencional.
+7.3. Desafectación judicial.
+7.4. Desafectación legal por enajenación.
+7.5. Posibilidad de reafectación.
+8.- Cuestionario.
+**Concordancias Legales:** artículos 141; artículo 141 del Código Civil; artículo 145 del Código de Bello; artículo 141 del Código Civil. Lo anterior dado que; artículo 149; artículo 141 del Código Civil incorporado por la Ley 19.335 di; artículo 141 del Código Civil para declarar como bien familiar; artículo 147; artículo 815 inciso 3; artículo 141 inciso 1; artículo 146; artículo 1344; Ley N° 20.830; Ley Nº 19.335; Ley 19.335; Ley N° 19.335; constitución
 
 6.- Limitaciones a la ejecución. Beneficio de excusión
 7.- Desafectación de un bien como familiar
@@ -497,6 +476,16 @@ requisito se cumple cuando éste es copropietario junto a uno o varias personas.
 respuesta a esta interrogante debe ser en términos afirmativos desde que, por una
 
 ## parte, el artículo 141 del Código Civil no distingue y, por ende, no es lícito hacerlo
+
+**Definición Canónica:** rediciendo el campo de aplicación de la norma y porque, además, así lo determina la
+historia fidedigna del establecimiento de la Ley N° 19.335. En efecto, el tema fue
+discutido en la Comisión de Constitución del Senado, donde se consideró la posibilidad
+de que el inmueble familiar perteneciera a varios comuneros, estimándose que ‘esta
+situación queda entregada a las reglas generales, en que cualquier comunero puede
+pedir la partición, excepto del cónyuge con esta calidad, quien necesitaría la voluntad
+de su consorte’ (Primer Informe Comisión Constitución Senado)”.
+        Si se trata de un inm
+**Concordancias Legales:** artículos 1749; artículo 141 del Código Civil; artículo 32 de la Ley N; artículo 141 del Código Civil emplea la forma verbal; artículo 141 inciso 1; artículo 65 del Código Civil que; artículo 83 de la Ley N; artículos 141; artículo 55 de la Ley de Matrimonio Civil; artículo 141 del Código Civil. Termina la recurrente señalando; artículo 141 del Código Civil dispone que; artículo 142; artículo 141; artículos 764; artículo 815 del Código Civil; artículo 141 del Código Civil sigue vigente y cita una sentenc; artículo 141 del Código Civil. En efecto; artículo 785 del Código de Procedimiento Civil; artículo 141 del Código Civil. Así se ha sostenido por esta Co; artículo 67 de la Ley N; Ley N° 19.335; Ley N° 19.968; Ley 19.335; Ley N° 19.947; Ley Nº 19.335; Ley N° 20.830; Constitución
 
 rediciendo el campo de aplicación de la norma y porque, además, así lo determina la
 historia fidedigna del establecimiento de la Ley N° 19.335. En efecto, el tema fue
@@ -1261,6 +1250,16 @@ han sido afectados.”14 La misma tesis sustenta Ramos Pazos, aseverando: “Por
 
 ## parte, antes de resolver lo del inventario, creo pertinente formular una pregunta
 
+**Definición Canónica:** previa. Cuando el artículo 141 habla de los bienes que guarnecen el hogar, ¿se está
+refiriendo a bienes muebles perfectamente individualizados, existentes en el momento
+en que se pide la declaración o se está pensando en una universalidad de hecho, de tal
+suerte que si los bienes muebles originarios se enajenan, puedan ser reemplazados por
+los que el cónyuge propietario vaya adquiriendo en su reemplazo? Personalmente me
+parece mejor solución la segunda, pues lo contrario implicaría hacer un inventario al
+momento de producirse la afectación y posteriormente tener que estar concurriendo a
+los tr
+**Concordancias Legales:** artículo 141; artículo 574 del Código Civil; artículo 141 del Código civil
+
 previa. Cuando el artículo 141 habla de los bienes que guarnecen el hogar, ¿se está
 refiriendo a bienes muebles perfectamente individualizados, existentes en el momento
 en que se pide la declaración o se está pensando en una universalidad de hecho, de tal
@@ -1320,8 +1319,9 @@ guarnecen el hogar -la voz “hogar”, recuérdese, fue suprimida- (inciso 1º 
 141 del Código civil). Además, estimamos que esta interpretación se aviene más con la
 naturaleza y finalidad de la institución en estudio”.17
 
-
 ## 3.3. Derechos o acciones en una sociedad propietaria del inmueble que sirva de
+
+**Definición Canónica:** residencia principal a la familia.
 
 residencia principal a la familia.
 
@@ -1381,6 +1381,16 @@ Orgánico de Tribunales).
         El tenor primitivo de la ley establecía que el procedimiento sería breve y
 
 ## sumario (antiguo tenor del art. 141, inc. 2º). En otras palabras, atendido lo dispuesto
+
+**Definición Canónica:** en el artículo 680 número 1 del Código de Procedimiento Civil, el procedimiento que
+debía aplicarse era el sumario. Sin embargo, con la promulgación y vigencia de la Ley
+N° 19.968, que crea los Tribunales de Familia (publicada en el Diario Oficial de fecha
+20 de agosto de 2004), la materia debe sujetarse al procedimiento establecido en esta
+última normativa. El art. 8, N° 14, letra b) de la misma, dispone que, entre otros
+asuntos, serán de competencia de los Juzgados de Familia, “Las causas sobre
+declaración y desafectación de bienes familiares y la constitución de derechos de
+usufructo, uso o
+**Concordancias Legales:** artículo 680; artículos 59; artículos 62; artículo 141; artículo 21 del Código Civil; artículo 19; artículo 141 inc. 3; artículo 146; artículo 4; artículo 1687; artículo 707; artículos 141; artículo 680 del Código de Procedimiento Civil; Ley N° 19.968; Ley N° 19.335; Ley 19.335; Ley N° 20.286; Ley N° 20.830; Ley N° 19.947; Ley N° 19.585; constitución; constitucion
 
 en el artículo 680 número 1 del Código de Procedimiento Civil, el procedimiento que
 debía aplicarse era el sumario. Sin embargo, con la promulgación y vigencia de la Ley
@@ -1873,12 +1883,19 @@ si se trataba de bienes muebles, el del domicilio del cónyuge demandado (o sea,
 propietario). Agregaba que el procedimiento sería el del juicio ordinario, o, cuando se
 consideraba aplicable el artículo 680 del Código de Procedimiento Civil, el juicio
 
-## sumario. Claudia Schmidt consideraba en cambio que había de ser el del juicio
-
-
 ## sumario.42
 
-        Ramos Pazos, por su parte, siguiendo a Leslie Tomasello, señalaba que el juez
+**Definición Canónica:** Ramos Pazos, por su parte, siguiendo a Leslie Tomasello, señalaba que el juez
+llamado a conocer del juicio de alimentos entre los cónyuges, tendría competencia para
+constituir estos derechos. Respecto del procedimiento, distinguía según se habían
+pedido o no en el juicio de alimentos. Si se pedían en el juicio de alimentos, el
+procedimiento sería el que corresponda a ese juicio; si se demandaba fuera de un
+juicio de alimentos, debía aplicarse el juicio sumario, en conformidad al art. 680, inc.
+1º del Código de Procedimiento Civil.43
+        Rosso discrepaba de todos los enfoques anteriores. Af
+**Concordancias Legales:** artículo 147; artículo 332 del Código Civil; Ley N° 19.968; constitución
+
+Ramos Pazos, por su parte, siguiendo a Leslie Tomasello, señalaba que el juez
 llamado a conocer del juicio de alimentos entre los cónyuges, tendría competencia para
 constituir estos derechos. Respecto del procedimiento, distinguía según se habían
 pedido o no en el juicio de alimentos. Si se pedían en el juicio de alimentos, el
@@ -1969,6 +1986,16 @@ usufructo alimenticio podrá constituirse en favor del cónyuge y los hijos. Por
 
 ## parte, el derecho real de usufructo que se obtiene en virtud del art. 147 podría en
 
+**Definición Canónica:** teoría transferirse por su titular, lo que no puede ocurrir con el derecho a percibir una
+pensión de alimentos. Finalmente, los derechos reales constituidos de conformidad al
+art. 147 son temporales, según veremos en el párrafo que sigue. En cambio, la
+pensión alimenticia tiene en principio un carácter indefinido, dura lo que dure la vida
+del o de los alimentarios.
+        La compatibilidad entre la pensión de alimentos consistente en el pago de
+dinero en efectivo y la constitución de un derecho real conforme al art. 147, se ratifica
+en un fallo de la Corte Suprema de 16 de agosto de 2000, aut
+**Concordancias Legales:** artículo 147 del Código Civil; artículo 321; artículos 10; artículo 10; Ley N° 14.908; constitución
+
 teoría transferirse por su titular, lo que no puede ocurrir con el derecho a percibir una
 pensión de alimentos. Finalmente, los derechos reales constituidos de conformidad al
 art. 147 son temporales, según veremos en el párrafo que sigue. En cambio, la
@@ -1994,6 +2021,16 @@ posible acoger la demanda sin infringir el referido artículo 10 [hoy art. 7°] 
 14.908, toda vez que el demandado está ya obligado a pagar el 50% de sus ingresos a
 
 ## título de alimentos y la citada norma, precisamente, prohíbe toda pensión que supere
+
+**Definición Canónica:** dicho porcentaje. Ello importa, según la recurrente, un error de derecho, pues el
+fundamento del artículo 147 del Código Civil es distinto del que inspira al artículo 11
+[hoy art. 9°] de la Ley N° 14.908 y, por ende, no es aplicable al caso sub lite el límite
+mencionado”. La Corte consigna en su fallo: “Cuarto: Que de la norma transcrita [art.
+147] se desprende que ella no es de naturaleza propiamente alimenticia y no
+constituye tampoco una simple repetición del artículo 11 [hoy art. 9°] de la Ley N°
+14.908, pues mientras ésta última tiene como fin asegurar el pago de una pensión de
+alimentos,
+**Concordancias Legales:** artículo 147 del Código Civil es distinto del que inspira al a; artículo 11; artículo 147 del Código Civil un fundamento de carácter alimen; artículo 10; Ley N° 14.908; Ley 19.335; Ley N° 19.741; constitución
 
 dicho porcentaje. Ello importa, según la recurrente, un error de derecho, pues el
 fundamento del artículo 147 del Código Civil es distinto del que inspira al artículo 11
@@ -2126,6 +2163,16 @@ sin autorización del juez. Si se tratare de un bien raíz, la resolución judic
 
 ## título para inscribir los derechos reales y la prohibición de enajenar o gravar en los
 
+**Definición Canónica:** registros correspondientes” (inc. 2º). Agrega la disposición que “La constitución de los
+mencionados derechos reales no perjudicará a los acreedores del alimentante cuyos
+créditos tengan una causa anterior a su inscripción” (inc. 3º). El precepto exonera
+asimismo al alimentario en cuyo favor se constituya el derecho real de usufructo, de
+uso o de habitación, a prestar caución de conservación y restitución, aun cuando sí
+exige confeccionar un inventario simple, disponiendo al efecto que “En estos casos, el
+usufructuario, el usuario y el que goce del derecho de habitación estarán exentos de
+las 
+**Concordancias Legales:** artículos 775; artículos 819; artículo 147 del Código Civil respecto de los mismos bienes; artículo 147; Ley N° 14.908; Ley 14.908; constitución
+
 registros correspondientes” (inc. 2º). Agrega la disposición que “La constitución de los
 mencionados derechos reales no perjudicará a los acreedores del alimentante cuyos
 créditos tengan una causa anterior a su inscripción” (inc. 3º). El precepto exonera
@@ -2188,6 +2235,16 @@ de la Ley N° 14.908: “Si bien lo dicho protege ciertamente a los terceros acr
 deja al mismo tiempo en absoluta indefensión al cónyuge no propietario. Por una
 
 ## parte, porque se verá privado del bien a pesar de haber obtenido la declaración de
+
+**Definición Canónica:** familiar; pero además, es posible que el propietario, antes de la constitución efectiva
+del derecho real (...) adquiera deudas con el solo objeto de lograr que en definitiva
+sean realizados los bienes familiares gravados con el respectivo derecho real, pudiendo
+estar o no coludido con los acreedores”.52
+        Explicado el origen de la reforma, cabe subrayar la disímil regulación de los
+arts. 9º de la Ley N° 14.908 y 147 del Código Civil: en este último, basta haber tenido
+la calidad de acreedor del cónyuge propietario, a la fecha de la constitución del
+derecho real de usufructo, uso o habita
+**Concordancias Legales:** artículo 9; artículo 142 del Código Civil; artículo 3; artículos 141; artículos 142; artículo 145 del Código Civil; artículo 141; artículos 1; Artículo 131; Artículo 134; artículo 141 del Código Civil autoriza la afectación de un inm; artículo 141 del Código Civil no habría sido fiel al reconocim; artículo 145 del Código Civil para desafectar de la condición; artículo 141 del Código Civil; artículo 141 del Código Civil de momento que la contra pretens; Ley N° 14.908; Ley 19.335; Ley 19.947; Ley N° 19.968; constitución
 
 familiar; pero además, es posible que el propietario, antes de la constitución efectiva
 del derecho real (...) adquiera deudas con el solo objeto de lograr que en definitiva
@@ -2668,6 +2725,15 @@ ejercido derecho en contra del actor que, en la actualidad tiene 100 años de ed
 
 ## parte de su excónyuge 40 años menor y de los hijos mayores de ambos. En razón de
 
+**Definición Canónica:** lo anterior, entonces, corresponde hacer lugar a la demanda de desafectación de bien
+familiar solicitada en los términos del artículo 145 del Código Civil.
+Y VISTO, además, lo dispuesto en los artículos 141 y 145 del Código Civil; 28, 32, 33,
+50 y 67 de la Ley N°19.968, SE REVOCA la sentencia apelada de veintiocho de
+noviembre de dos mil dieciocho que incide en los autos RIT C-3092-2018 del Segundo
+Juzgado de Familia de San Miguel y en su lugar se declara que SE ACOGE, sin costas,
+la demanda deducida por doña (…), en representación de (…), en contra de (…).
+**Concordancias Legales:** artículo 145 del Código Civil. Y VISTO; artículos 141; Ley N°19.968; Ley N° 19.968
+
 lo anterior, entonces, corresponde hacer lugar a la demanda de desafectación de bien
 familiar solicitada en los términos del artículo 145 del Código Civil.
 Y VISTO, además, lo dispuesto en los artículos 141 y 145 del Código Civil; 28, 32, 33,
@@ -2748,6 +2814,16 @@ bien familiar. En un caso, el banco acreedor que se adjudicó el inmueble en la 
 con cargo a su crédito, demandó ante el 2° Juzgado Civil de Coquimbo en juicio
 
 ## sumario, para que se declare que ha operado ipso facto la desafectación de la calidad
+
+**Definición Canónica:** de bien familiar del inmueble y en virtud de ello se ordene la cancelación de la
+anotación marginal de la declaración de bien familiar. La demanda fue acogida por
+sentencia de 30 de septiembre de 2006, confirmada por resolución de la Corte de La
+Serena de 15 de marzo de 2007. En contra de este fallo, la demandada dedujo
+casación en el fondo, que se fundamenta, esencialmente, en haberse dictado la
+sentencia por tribunal incompetente, pues correspondía conocer del asunto a un Juez
+de Familia y en un procedimiento ordinario. La Corte Suprema, por sentencia de 14 de
+julio de 2008, autos Rol N° 2.0
+**Concordancias Legales:** Ley N° 19.968
 
 de bien familiar del inmueble y en virtud de ello se ordene la cancelación de la
 anotación marginal de la declaración de bien familiar. La demanda fue acogida por

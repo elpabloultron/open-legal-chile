@@ -13,20 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Procesal | **Materia:** Procesal
 
-## 56           Peritajes
-
-             en procedimientos
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             reformados:
+                  electrónica
+             análisis
+                  de causas
+             y valoración
+             Gonzalo Andrés Aguilera Chaparro
+             Héctor Flavio Galleguillos Carmona
 
-                  Tramitación
+Tramitación
              reformados:
                   electrónica
              análisis
@@ -86,37 +84,9 @@ Materiales Docentes                                                       ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Aspectos generales sobre la prueba pericial
-
-## 31      Capítulo 2
-
-        Aspectos comunes en la admisibilidad
-        de la prueba pericial
-
-## 63      Capítulo 3
-
-        Regulación de la prueba pericial en el proceso penal
-
-## 94      Capítulo 4
-
-        Aspectos problemáticos en la regulación de la prueba pericial
-        en los procesos de familia y laboral
-
-## 124     Capítulo 5
-
-        La valoración del conocimiento experto
-        y otros asuntos finales
-
-## 160     Referencias
-
-
-Materiales Docentes                                                            Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Aspectos generales sobre la prueba pericial
 
 Aspectos generales sobre la prueba pericial
 
@@ -136,8 +106,11 @@ experto que se pretende utilizar judicialmente, entre otros tópicos. En
 dicho paradigmático debate judicial3 se puso sobre la mesa el cuestionamiento de la cientificidad de la prueba pericial, un asunto que no ha sido
 pacífico hasta nuestros días y no solo en la cultura jurídica anglosajona.
 
-
 ## 1 En dicha trilogía, como se referirá en el capítulo pertinente, el precedente central
+
+**Definición Canónica:** deriva del famoso caso Duber con Merell Dow Pharmaceuticals Inc. En su estudio se
+suele complementar, para conformar dicho trío, con los casos General Electric con
+Joiner y Kumho Tire Co. con Carmichael.
 
 deriva del famoso caso Duber con Merell Dow Pharmaceuticals Inc. En su estudio se
 suele complementar, para conformar dicho trío, con los casos General Electric con
@@ -145,11 +118,21 @@ Joiner y Kumho Tire Co. con Carmichael.
 
 ## 2 Dicho testigo experto, además de ser de un destacado sicólogo e inventor en su
 
+**Definición Canónica:** época, ha mantenido fama por su rol de creador de historietas, entre las que destaca
+la conocida Wonder Woman (Mujer Maravilla) que anecdóticamente utilizaba un
+lazo que obligaba a decir la verdad, muy en sintonía con el citado detector de mentiras inventado por el mismo autor.
+
 época, ha mantenido fama por su rol de creador de historietas, entre las que destaca
 la conocida Wonder Woman (Mujer Maravilla) que anecdóticamente utilizaba un
 lazo que obligaba a decir la verdad, muy en sintonía con el citado detector de mentiras inventado por el mismo autor.
 
 ## 3 Obviamente antecede incluso a las expresas reglas de evidencia sobre prueba
+
+**Definición Canónica:** pericial para el sistema federal estadounidense, en especial la famosa Regla 702 de
+las Reglas Federales de Evidencia (F.R.E). No obstante, el caso Frye tiene su mayor
+impacto en la década del setenta en que tiene un mayor uso tanto a nivel federal
+como estatal (Vásquez, 2015: 95).
+Materiales Docentes                                                         Capítulo 1
 
 pericial para el sistema federal estadounidense, en especial la famosa Regla 702 de
 las Reglas Federales de Evidencia (F.R.E). No obstante, el caso Frye tiene su mayor
@@ -183,8 +166,12 @@ en el desarrollado por las comunidades científicas.
 de tradición germánico-romana,6 la prueba pericial ha tenido presencia
 y cierto protagonismo, ahondándose cada vez más en sus usos, bonda-
 
-
 ## 4 La literatura es generosa en ejemplos de duelos judiciales, ordalías o juicios de
+
+**Definición Canónica:** Dios: desde caminar en brasas calientes sin sufrir lesión, recoger piedras en agua
+hirviendo, enfrentar en el encierro a un acusado con una fiera y un largo etcétera.
+Todo lo antedicho como mecanismos jurídicos para fijar hechos.
+ 5 En este sentido, véase Jeruland, referido en Duce (2017: 16).
 
 Dios: desde caminar en brasas calientes sin sufrir lesión, recoger piedras en agua
 hirviendo, enfrentar en el encierro a un acusado con una fiera y un largo etcétera.
@@ -192,6 +179,8 @@ Todo lo antedicho como mecanismos jurídicos para fijar hechos.
  5 En este sentido, véase Jeruland, referido en Duce (2017: 16).
 
 ## 6 Sobre el parangón detallado de la prueba pericial entre el modelo anglosajón y el
+
+**Definición Canónica:** germánico-romano, véase Vásquez (2015).
 
 germánico-romano, véase Vásquez (2015).
 
@@ -213,8 +202,15 @@ procedimientos reformados —y pese a la libertad de medios probatorios que rein
 problemas prácticos sobre su aplicación, muchas veces por la ausencia
 de conciencia de los fines procesales de las reglas.9
 
-
 ## 7 En el antiguo Código de Procedimiento Penal se regulaba en los artículos 471 y
+
+**Definición Canónica:** siguientes, tarifándose un valor probatorio como plena prueba, con la satisfacción
+de determinados requisitos. El Código de Procedimiento Civil, desde su versión
+original, ha reglamentado con detalle la prueba pericial, pero siempre entregando
+su valoración a la sana crítica, en contraflujo a la tarifación en la valoración de los
+medios de prueba reinante en dicho cuerpo legal (véase el actual artículo 425).
+ 8 Y en otros códigos y leyes especiales, como ocurría con el antiguo procedimiento laboral previsto en el Código del Trabajo y la Ley de Menores.
+**Concordancias Legales:** artículo 425
 
 siguientes, tarifándose un valor probatorio como plena prueba, con la satisfacción
 de determinados requisitos. El Código de Procedimiento Civil, desde su versión
@@ -225,6 +221,7 @@ medios de prueba reinante en dicho cuerpo legal (véase el actual artículo 425)
 
 ## 9 En dicho sentido, y en particular sobre la prueba pericial, véase Aguilera (2016)
 
+**Definición Canónica:** Materiales Docentes                                                          Capítulo 1
 
 Materiales Docentes                                                          Capítulo 1
 
@@ -286,8 +283,11 @@ el modo en que la prueba se constituye, en el proceso y fuera de él; c)
 la valoración de las pruebas, en la que la libertad significa ausencia de
 normas que predeterminen, vinculando a la judicatura y a las partes el
 
-
 ## 11 Sobre los fundamentos y distinciones entre los modelos reglados y los modelos
+
+**Definición Canónica:** de libertad probatoria, véase en extenso Taruffo (2005: 341 y ss.) y Devis Echandía
+(2007: 242-243).
+**Concordancias Legales:** artículo 31 de la Ley 19.968 previene causales de exclusión de; artículo 454; artículo 276 del Código Procesal Penal. En lo atingente a la f; artículos 28; artículos 295; artículos 453; Ley 19.968
 
 de libertad probatoria, véase en extenso Taruffo (2005: 341 y ss.) y Devis Echandía
 (2007: 242-243).
@@ -318,13 +318,9 @@ determinados medios confirmatorios que podemos calificar de prueba
 típica y reglada, tales como la testimonial y la pericial, en los tres procedimientos reformados.13 En lo concerniente a la valoración de los medios
 de confirmación procesal, se acude al concepto de sana crítica, que reconoce límites en las máximas de experiencias, conocimientos científi-
 
-
-## 12 Con cierto debate al inicio de la reforma procesal laboral, en lo concerniente a
-
-la redacción normativa sobre la prueba ilícita, al referirse por texto a la valoración lo
-que generó ciertas vacilaciones iniciales.
-
 ## 13 O la declaración de parte en la Ley 19.968 que crea los Tribunales de Familia y
+
+**Definición Canónica:** la absolución de posiciones en sede laboral.
 
 la absolución de posiciones en sede laboral.
 
@@ -355,18 +351,9 @@ normas de tarifación de su ponderación para el juicio de los hechos; o
 d) previniendo su concurrencia para la acreditación de determinados
 extremos fácticos. De ahí que convivan, por un lado, la prueba no regulada o atípica y, por otro lado, la prueba reglada por el legislador.18
 
-
-## 14 Los artículos 297 del Código Procesal Penal, 456 del Código del Trabajo y 32 de
-
-la Ley 19.968, establecen dichos límites.
-  15 Artículo 177 del Código del Trabajo.
-  16 Artículo 55 de la Ley 19.947, aunque con ciertas interpretaciones jurisprudenciales menos estrictas.
-
-## 17 Artículos 32 Ley 19.968 que crea los Tribunales de Familia, 459 número 4 del
-
-Código del Trabajo y 297 del Código Procesal Penal.
-
 ## 18 Sobre la coexistencia entre prueba reglada y prueba no reglada y las técnicas
+
+**Definición Canónica:** legislativas utilizadas véase Torres Traba (2007: 751-752).
 
 legislativas utilizadas véase Torres Traba (2007: 751-752).
 
@@ -392,6 +379,14 @@ modalidades previstas por el mismo legislador. Como sostiene Cavallone, «si no 
  19 La alocución la tomamos del procesalista y profesor Raúl Tavolari Oliveros.
 
 ## 20 Alvarado Velloso (2009: 385) en lo concerniente a la función de garantía de las
+
+**Definición Canónica:** formas procesales, a propósito de la regularidad de los actos procedimentales y de
+su contrafaz, los actos irregulares y de la nulidad procesal como sanción imputable
+a dicha irregularidad, señala: «ya es hora de intentar un acercamiento a la definición
+de declaración de nulidad: es la sanción (repito que utilizo el vocablo con una significación muy genérica) que priva de efectos (eficacia) a un acto procedimental en
+cuya estructura no se han guardado los elementos ejemplares de modelo, en tanto
+ellos constituyen garantías de los derechos justiciables».
+ 21 Sobre la libertad versus la legalida
 
 formas procesales, a propósito de la regularidad de los actos procedimentales y de
 su contrafaz, los actos irregulares y de la nulidad procesal como sanción imputable
@@ -466,6 +461,8 @@ imparcialidad del perito,24 buena parte del éxito de la incorporación del
 
 ## 24 La distinción entre diversos capítulos de imparcialidad de la persona experta
 
+**Definición Canónica:** Materiales Docentes                                                          Capítulo 1
+**Concordancias Legales:** artículos 45; artículos 314; artículo 453; Ley 19.968
 
 Materiales Docentes                                                          Capítulo 1
 
@@ -576,6 +573,15 @@ la comprensión común y en la que la libre valoración de la prueba por
 
 ## parte de los juzgadores es una ilusión, por el condicionamiento que se
 
+**Definición Canónica:** gesta por una deferencia epistémica en favor de la persona experta.28
+   Con todo, también existen en la doctrina contrapuntos u opiniones
+que matizan el riesgo de sustitución, en lo que se ha denominado paternalismo epistémico sobre las y los jueces.29 Se señala en este hilo de ideas
+que la utilización de exigentes controles sobre la calidad de las pericias
+que ingresan a un proceso judicial se sustenta en el cuestionamiento
+de la competencia del juzgador de los hechos. Dicha mirada divergente
+postula con agudeza que los estudios de campo o de corte empírico se
+han realizado más bien en el mu
+
 gesta por una deferencia epistémica en favor de la persona experta.28
    Con todo, también existen en la doctrina contrapuntos u opiniones
 que matizan el riesgo de sustitución, en lo que se ha denominado paternalismo epistémico sobre las y los jueces.29 Se señala en este hilo de ideas
@@ -590,8 +596,13 @@ al menos en las pericias de mayor estandarización— lo que no ocurre
 con los jurados,31 en que dicha falta de habitualidad de vincularse cognitivamente con expertos podría justificar una mayor desconfianza. El
 aludido paternalismo epistémico importaría un exceso de celo para proteger al decisor de sus malas decisiones y guía, de alguna manera, la propia toma de decisiones, resguardando a las y los jueces de sí mismos.32
 
-
 ## 27 Se citan como ejemplos habituales a las personas expertas que opinan sobre la
+
+**Definición Canónica:** culpabilidad o inocencia de una persona acusada en sede penal o los casos en que
+el razonamiento judicial sobre la credibilidad de algún testigo es sustituido por opiniones expertas sobre las mismas en los cuestionados peritajes de credibilidad de
+relato. Véase ejemplos en Duce (2017: 45).
+ 28 En dicho sentido, véase Taruffo, citado en Duce (2017: 46).
+ 29 En extenso, véase Vásquez (2015: 140-145).
 
 culpabilidad o inocencia de una persona acusada en sede penal o los casos en que
 el razonamiento judicial sobre la credibilidad de algún testigo es sustituido por opiniones expertas sobre las mismas en los cuestionados peritajes de credibilidad de
@@ -601,12 +612,17 @@ relato. Véase ejemplos en Duce (2017: 45).
 
 ## 30 De hecho, Vásquez critica expresamente a Duce señalando que utiliza datos de
 
+**Definición Canónica:** investigaciones empíricas en Estados Unidos y Canadá sobre la fácil persuasión de los
+jurados legos, sin mayores argumentaciones para los casos de jueces profesionales.
+ 31 Los jueces profesionales —para parafrasear denominaciones del mundo anglosajón— se conforman como repeat player en los procesos judiciales.
+
 investigaciones empíricas en Estados Unidos y Canadá sobre la fácil persuasión de los
 jurados legos, sin mayores argumentaciones para los casos de jueces profesionales.
  31 Los jueces profesionales —para parafrasear denominaciones del mundo anglosajón— se conforman como repeat player en los procesos judiciales.
 
 ## 32 Por cierto, otra estrategia diversa al paternalismo epistémico consistiría en
 
+**Definición Canónica:** Materiales Docentes                                                            Capítulo 1
 
 Materiales Docentes                                                            Capítulo 1
 
@@ -631,11 +647,24 @@ por expertos, a los expertos por supra expertos y así hasta el infinito. En igu
 
 ## 33 Se citan como ejemplos de posibles pericias que pueden generar dicho riesgo
 
+**Definición Canónica:** de error las opiniones que emanan de una ciencia novel o en estado de desarrollo y
+consolidación; la denominada ciencia basura (junk science), que no satisface mínimos estándares para tener un reconocimiento en la comunidad científica respectiva;
+o las pericias realizadas fuera de los protocolos aceptados por la disciplina respectiva para conferirle validez. Véase los ejemplos en Duce (2017: 47).
+
 de error las opiniones que emanan de una ciencia novel o en estado de desarrollo y
 consolidación; la denominada ciencia basura (junk science), que no satisface mínimos estándares para tener un reconocimiento en la comunidad científica respectiva;
 o las pericias realizadas fuera de los protocolos aceptados por la disciplina respectiva para conferirle validez. Véase los ejemplos en Duce (2017: 47).
 
 ## 34 En sentido similar y respecto del peligro de sobrevaloración en sede penal, el
+
+**Definición Canónica:** profesor Manuel Miranda, en lo que denomina el mito de las pruebas científicas,
+afirma que este protagonismo ha estado acompañado de un aura de infalibilidad,
+lo que debería cuestionarse acudiendo a criterios estadísticos, especialmente. Este
+autor denomina a dicha denuncia como sobredimensión epistémica y semántica
+de las pruebas científicas y las comunidades jurídicas deberían tomar conciencia
+en el momento de fijar el objeto y acordar la práctica de estas pruebas, así como de
+valorar sus resultados. Para Miranda (2012: 358-359), la «sobredimensión» produce
+en el proceso un riesgo de sobreva
 
 profesor Manuel Miranda, en lo que denomina el mito de las pruebas científicas,
 afirma que este protagonismo ha estado acompañado de un aura de infalibilidad,
@@ -680,6 +709,10 @@ de prueba como estándar de garantía.
 
 ## 35 En especial sobre el Innocence Project, véase Duce (2017: 47-49). Valen también
 
+**Definición Canónica:** las mismas críticas realizadas por Vásquez (2015: 147) y ya señaladas supra.
+ 36 En el caso de las partes, piénsese en la confección de los denominados metaperitajes para confrontar un peritaje en juicio. A su vez, en algunas materias, la judicatura puede acudir a profesionales que colaboren para la aprehensión de un conocimiento experto pericial, como ocurre con los consejeros técnicos en los Tribunales
+de Familia. Todo lo señalado, son ejemplos de costos en el sistema en general.
+
 las mismas críticas realizadas por Vásquez (2015: 147) y ya señaladas supra.
  36 En el caso de las partes, piénsese en la confección de los denominados metaperitajes para confrontar un peritaje en juicio. A su vez, en algunas materias, la judicatura puede acudir a profesionales que colaboren para la aprehensión de un conocimiento experto pericial, como ocurre con los consejeros técnicos en los Tribunales
 de Familia. Todo lo señalado, son ejemplos de costos en el sistema en general.
@@ -720,6 +753,8 @@ de alimentos; pericias sicológicas sobre habilidades parentales en los ca-
 
 ## 38 Tanta es su habitualidad que tiene normas legales expresas: artículos 199 y 199
 
+**Definición Canónica:** bis del Código Civil.
+
 bis del Código Civil.
 
 Materiales Docentes                                                        Capítulo 1
@@ -749,6 +784,8 @@ relevantes como las juezas, jueces y funcionarios judiciales.
 liquidaciones, etcétera.
 
 ## 40 Piénsese en algunas categorías de remuneraciones, como las gratificaciones o
+
+**Definición Canónica:** la participación, o en algunas asignaciones no remuneracionales previstas en contratos individuales o colectivos.
 
 la participación, o en algunas asignaciones no remuneracionales previstas en contratos individuales o colectivos.
 
@@ -781,8 +818,11 @@ medios de confirmación procesal se producen en la audiencia de juicio
 oral, teñidos por ellos. Además, se instauró como regla el sistema de
 doble audiencia (preparatoria y juicio oral),41 en la audiencia preliminar
 
-
 ## 41 Obviamente hay excepciones, pero con procedimientos excepcionales, como
+
+**Definición Canónica:** ocurre con el procedimiento monitorio laboral que se desarrolla en una audiencia
+única.
+**Concordancias Legales:** artículo 46 de la Ley 19.968; artículo 9; artículo 315 del Código Procesal Penal. El acuerdo de las part; Ley 20.286.44; Ley 19.968; Ley 20.286
 
 ocurre con el procedimiento monitorio laboral que se desarrolla en una audiencia
 única.
@@ -814,19 +854,24 @@ a ser el medio de prueba de manera excepcional; particularmente, el
 acuerdo de las partes y la regla del artículo 315 del Código Procesal Penal. El acuerdo de las partes se previene como una excepción en los tres
 tipos de procedimiento reformado,47 haciendo la prevención respecto
 
-
 ## 42 Puede haber matices. En sede penal, el ofrecimiento de los medios probatorios
+
+**Definición Canónica:** de cargo se realiza con el acto de postulación procesal, la acusación.
+ 43 Lo que no implica que dicho informe pericial no tenga un importante rol procesal.
+ 44 En este punto se sigue a Aguilera (2016: 135-137).
+ 45 El antiguo artículo 46 —antes de la Ley 20.286— rezaba: «Sin perjuicio del deber de los peritos de concurrir a declarar ante el juez acerca de su informe».
+**Concordancias Legales:** artículo 46; Ley 20.286
 
 de cargo se realiza con el acto de postulación procesal, la acusación.
  43 Lo que no implica que dicho informe pericial no tenga un importante rol procesal.
  44 En este punto se sigue a Aguilera (2016: 135-137).
  45 El antiguo artículo 46 —antes de la Ley 20.286— rezaba: «Sin perjuicio del deber de los peritos de concurrir a declarar ante el juez acerca de su informe».
 
-## 46 Volveremos sobre las particularidades de la Ley 19.968 que crea los Tribunales
-
-de Familia en el capítulo cuarto de este trabajo.
-
 ## 47 Artículo 331 b) del Código Procesal Penal, artículo 453 número 8 inciso cuarto
+
+**Definición Canónica:** del Código del Trabajo y artículos 46 y 49 de la Ley 19.968 que crea los Tribunales
+de Familia.
+**Concordancias Legales:** artículos 46; artículo 315 del Código Procesal Penal es aplicable solamente; artículo 46 de la Ley 19.968 que crea los Tribunales de Familia; artículo 315 del Código Procesal Penal fue incorporado por la; artículo 331; Ley 19.968; Ley 20.086; Ley 20.074
 
 del Código del Trabajo y artículos 46 y 49 de la Ley 19.968 que crea los Tribunales
 de Familia.
@@ -861,13 +906,11 @@ no comparecencia del perito fuese imputable al acusado.49
 debe ponerse a disposición de las partes el dictamen pericial de manera
 previa al juicio oral.50 Lo anterior, sin perjuicio del deber de compare-
 
-
-## 48 Sobre un distingo entre peritaje científico y peritaje de opinión, véase Alvarado
-
-(2009b: 128).
- 49 Se regresará sobre estas hipótesis propias del sistema penal, en el capítulo respectivo.
-
 ## 50 Artículo 453 número 8 inciso cuarto del Código del Trabajo, artículo 46 de
+
+**Definición Canónica:** la Ley 19.968 que crea los Tribunales de Familia. En el Código Procesal Penal no
+existe una norma expresa, pero de los artículos 315 y 316 del Código Procesal Penal
+**Concordancias Legales:** artículos 315; artículo 332 del Código Procesal Penal y; artículo 332; artículo 63 bis de la Ley 19.968. El corolario evidente ante el; Ley 19.968
 
 la Ley 19.968 que crea los Tribunales de Familia. En el Código Procesal Penal no
 existe una norma expresa, pero de los artículos 315 y 316 del Código Procesal Penal
@@ -930,8 +973,12 @@ informe, como todo documento, no puede ser contraexaminado.
 del conocimiento experto, idoneidad del perito y confiabilidad del peritaje. Por la importancia del tema, se concederá un capítulo autónomo
 en este libro para dichos requisitos.
 
-
 ## 51 Los artículos 49 de la Ley 19.968 que crea los Tribunales de Familia, 453 número
+
+**Definición Canónica:** 8 inciso cuarto del Código del Trabajo y 319 del Código Procesal Penal señalan que
+en la declaración de los peritos se aplican las normas de los testigos, lo que incluye
+el interrogatorio cruzado (cross-examination) de los litigantes.
+**Concordancias Legales:** Ley 19.968
 
 8 inciso cuarto del Código del Trabajo y 319 del Código Procesal Penal señalan que
 en la declaración de los peritos se aplican las normas de los testigos, lo que incluye
@@ -955,12 +1002,17 @@ de la imparcialidad de la persona experta: la imparcialidad de origen.54
 de la prueba de peritos. Mientras que en materias de familia y laboral
 procede la prueba decretada de oficio,55 en sede penal las pruebas son
 
-
-## 52 Artículo 314 del Código Procesal Penal y artículo 45 de la Ley 19.968 que crea
-
-los Tribunales de Familia.
-
 ## 53 El Código del Trabajo no previene en su texto a los peritos de confianza en
+
+**Definición Canónica:** su reforma procesal y, por el reenvío del artículo 432 al Libro I y II del Código de
+Procedimiento Civil, resultan aplicables los artículos 416 y 416 bis del Código de
+Procedimiento Civil. Seguramente, se podría decir que dicho nombramiento del
+listado ocurre por texto normativo solo cuando la designación la realiza el tribunal,
+pero este ocurre cada vez que las partes no están de acuerdo con el nombramiento
+(artículos 414 y 415), lo que echa por tierra la característica propia de un perito de
+confianza: basta la mera oposición e incluso la no comparecencia a la audiencia de
+nombramiento para 
+**Concordancias Legales:** artículo 432; artículos 416; artículos 414
 
 su reforma procesal y, por el reenvío del artículo 432 al Libro I y II del Código de
 Procedimiento Civil, resultan aplicables los artículos 416 y 416 bis del Código de
@@ -971,11 +1023,10 @@ pero este ocurre cada vez que las partes no están de acuerdo con el nombramient
 confianza: basta la mera oposición e incluso la no comparecencia a la audiencia de
 nombramiento para que se deba acudir al listado oficial.
 
-## 54 Se volverá sobre el control de idoneidad y sobre la imparcialidad del experto en
-
-los capítulos correspondientes.
-
 ## 55 Artículos 429 y 453 número 9 del Código del Trabajo y artículos 29 y 61 número
+
+**Definición Canónica:** 8 de la Ley 19.968 que crea los Tribunales de Familia.
+**Concordancias Legales:** artículo 332 del Código Procesal Penal; Ley 19.968
 
 8 de la Ley 19.968 que crea los Tribunales de Familia.
 
@@ -1003,13 +1054,12 @@ declaración niegue lo afirmado previamente en su informe puede acudirse al inst
 su testimonio. Incluso en sede penal puede utilizarse directamente el
 artículo 332 del Código Procesal Penal (inciso segundo) para demostrar
 
-
-## 56 Por lo mismo, se distingue entre la dirección formal del proceso y la dirección
-
-material del proceso, reservándose esta última categoría para la actividad oficiosa
-que un juez o jueza realiza en el ámbito confirmatorio de los hechos.
-
 ## 57 En la Ley 19.968 que crea los Tribunales de Familia se previene el plazo de cinco
+
+**Definición Canónica:** días antes del juicio (artículo 46) mientras que el Código del Trabajo previene el
+plazo de cinco días antes del juicio (artículo 453 número 8 inciso cuarto).
+  58 Artículo 63 bis inciso segundo de la Ley 19.968 que crea los Tribunales de Familia y artículo 336 inciso segundo del Código Procesal Penal. La redacción es idéntica.
+**Concordancias Legales:** artículo 46; artículo 453; Artículo 63 bis; artículo 336; Ley 19.968
 
 días antes del juicio (artículo 46) mientras que el Código del Trabajo previene el
 plazo de cinco días antes del juicio (artículo 453 número 8 inciso cuarto).
@@ -1023,8 +1073,11 @@ control cruzado sobre el testimonio de la persona experta.
 
 Materiales Docentes                                                        Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Aspectos comunes en la admisibilidad
+de la prueba pericial
+**Concordancias Legales:** artículo 31 de la Ley 19.968 previene causales de exclusión de; artículo 453; artículo 276 del Código Procesal Penal.1 Se establecen así; Ley 19.968
 
 Aspectos comunes en la admisibilidad
 de la prueba pericial
@@ -1046,8 +1099,13 @@ Procesal Penal.1
 de exclusión probatoria, si bien no son totalmente idénticas en los tres
 procedimientos, existen algunas categorías comunes, a saber: imperti-
 
-
 ## 1 Obviamente dichas normas sobre inadmisibilidad de medios probatorios se
+
+**Definición Canónica:** aprecian como mínimas si se comparan con las reglas de exclusión probatoria del
+sistema anglosajón, las que tienen un desarrollo muchos más profuso, anclado en un
+sistema de decisión entregado en principio a un jurado lego sin una mayor exigencia
+de fundamentación.
+**Concordancias Legales:** Ley 19.968
 
 aprecian como mínimas si se comparan con las reglas de exclusión probatoria del
 sistema anglosajón, las que tienen un desarrollo muchos más profuso, anclado en un
@@ -1074,20 +1132,22 @@ su tenor literal se puede colegir sin forzamiento.5 Existen otras categorías
 generales y comunes entre la Ley 19.968 y el Código Procesal Penal, toda
 vez que ambos cuerpos legales aluden a la exclusión de prueba tanto sobre hechos públicos y notorios como respecto de prueba sobreabundante.6
 
-
-## 2 Infracción e inobservancia son las denominaciones en que difieren en el texto, lo
-
-que no arroja mayores discrepancias, al menos desde el texto legal.
-
 ## 3 El artículo 453 alude a la etapa previa al juicio oral o audiencia preparatoria. Si se
+
+**Definición Canónica:** buscase establecer una regla solamente de valoración dicha regla se ubicaría más acertadamente o en el articulado sobre el juicio oral (artículo 454) o en las normas posteriores sobre la valoración de la prueba o sobre requisitos de la sentencia definitiva.
+**Concordancias Legales:** artículo 454
 
 buscase establecer una regla solamente de valoración dicha regla se ubicaría más acertadamente o en el articulado sobre el juicio oral (artículo 454) o en las normas posteriores sobre la valoración de la prueba o sobre requisitos de la sentencia definitiva.
 
-## 4 A mayor abundamiento el numeral 4 del artículo 453 del Código del Trabajo
-
-apunta específicamente a la admisibilidad general de los medios probatorios.
-
 ## 5 El ya citado artículo 453 número 4 del Código del Trabajo establece en su inicio
+
+**Definición Canónica:** que el juez o la jueza «resolverá fundadamente sobre la pertinencia de la prueba
+ofrecida», agregando más adelante que «solo se admitirán las pruebas que tengan
+relación directa con el asunto sometido al conocimiento del tribunal y siempre que
+sean necesarias para su resolución».
+ 6 Aunque el Código Procesal Penal no utiliza la denominación prueba sobreabundante, igualmente regula su exclusión en el artículo 276 —con algunas exigencias de
+base— para la prueba documental y testimonial.
+**Concordancias Legales:** artículo 276
 
 que el juez o la jueza «resolverá fundadamente sobre la pertinencia de la prueba
 ofrecida», agregando más adelante que «solo se admitirán las pruebas que tengan
@@ -1125,8 +1185,12 @@ como ocurre con algunas categorías que atenderemos en su oportunidad, como la p
 una interpretación amplia—, pueden convivir criterios de relevancia y
 criterios diversos para sustentar una determinada exclusión probatoria.
 
-
 ## 7 Obviamente dicha operatividad es algo distinta en procedimientos especiales
+
+**Definición Canónica:** concentradísimos como ocurre, por ejemplo, en el procedimiento monitorio laboral
+con una única audiencia.
+ 8 En dicho sentido, véase Taruffo (2005: 364).
+**Concordancias Legales:** Ley 19.968
 
 concentradísimos como ocurre, por ejemplo, en el procedimiento monitorio laboral
 con una única audiencia.
@@ -1160,11 +1224,12 @@ Procedimiento Civil, sino que también al Libro II—11 es algo más borro-
 
  9 En dicho sentido, véase Taruffo (2005: 364 y ss.) y Vásquez (2015: 157).
 
-## 10 Los artículos 45 y siguientes de la Ley 19.968 son similares a los artículos 314 y
-
-siguientes del Código Procesal Penal.
-
 ## 11 El reenvío al Libro II del Código de Procedimiento Civil —por norma expresa
+
+**Definición Canónica:** en el artículo 432 del Código del Trabajo— es problemático, ya que un tipo de procedimiento regido por la oralidad, inmediación y concentración hace aplicable supletoriamente las normas de otro tipo de procedimiento (ordinario civil), reinado por
+principios contrarios, lo que genera más dudas que certezas sobre la operatividad de
+dicho reenvío; máxime cuando un límite de base para el reenvío es, precisamente, la
+**Concordancias Legales:** artículo 432 del Código del Trabajo; artículos 45 de la Ley 19.968 y 314 del Código Procesal Penal; artículos 409; Ley 19.968
 
 en el artículo 432 del Código del Trabajo— es problemático, ya que un tipo de procedimiento regido por la oralidad, inmediación y concentración hace aplicable supletoriamente las normas de otro tipo de procedimiento (ordinario civil), reinado por
 principios contrarios, lo que genera más dudas que certezas sobre la operatividad de
@@ -1222,12 +1287,13 @@ las partes y postula que menos información es mejor cognitivamente.20
    En tercer lugar, este requisito de necesidad no debe confundirse con
 una suerte de juicio sobre la suficiencia probatoria, ya que esto último
 
-
-## 14 Las razones pueden reconducirse a los peligros implícitos en la prueba pericial
-
-enunciados en el capítulo 1.
-
 ## 15 Por cierto, en los casos de jueces y juezas que, además de ser abogados, tengan
+
+**Definición Canónica:** otra profesión u experiencia técnica puede ser relevante este asunto. Piénsese en una
+jueza que además es sicóloga y se enfrenta a una pericia de dicha especialidad; o en
+una jueza que tiene conocimientos sólidos de cerrajería o de composición musical,
+de cara a una pericia referida a dichos ámbitos.
+  16 Sobre este aspecto, vinculándolo con la desconfianza en las capacidades cognitivas del juzgador, véase Vásquez (2015: 163 y ss.).
 
 otra profesión u experiencia técnica puede ser relevante este asunto. Piénsese en una
 jueza que además es sicóloga y se enfrenta a una pericia de dicha especialidad; o en
@@ -1237,12 +1303,21 @@ de cara a una pericia referida a dichos ámbitos.
 
 ## 17 Por ejemplo, un cambio de juez entre la etapa de admisibilidad y la rendición de
 
+**Definición Canónica:** la prueba pericial, o lo problemático que resulta conciliar la pericia ofrecida por las
+partes con un aspecto tan subjetivo de un juez o jueza en concreto.
+  18 En este sentido, véase Vásquez (2015: 164).
+  19 En dicho hilo de ideas, toda inferencia sobre la verdad o la falsedad de los hechos debe hacerla el juzgador y no un perito (Vásquez 2015: 164).
+
 la prueba pericial, o lo problemático que resulta conciliar la pericia ofrecida por las
 partes con un aspecto tan subjetivo de un juez o jueza en concreto.
   18 En este sentido, véase Vásquez (2015: 164).
   19 En dicho hilo de ideas, toda inferencia sobre la verdad o la falsedad de los hechos debe hacerla el juzgador y no un perito (Vásquez 2015: 164).
 
 ## 20 Esta posición es planteada por Nance (Vásquez 2015: 165 y ss.). Con todo, se le
+
+**Definición Canónica:** critica que es una postura más apropiada para el common law y no tan útil en derecho romano-germánico, ya que es menos problemática la gestión de recursos cognitivos por un juez profesional y no por un jurado no habituado a una importante
+cantidad de evidencia en el contexto judicial.
+**Concordancias Legales:** artículos 45 de la Ley 19.968 y 314 del Código Procesal Penal; artículos 413; artículo 416 bis del Código de Procedimiento Civil.24 Ciertame; Ley 19.968
 
 critica que es una postura más apropiada para el common law y no tan útil en derecho romano-germánico, ya que es menos problemática la gestión de recursos cognitivos por un juez profesional y no por un jurado no habituado a una importante
 cantidad de evidencia en el contexto judicial.
@@ -1272,13 +1347,15 @@ el listado oficial del artículo 416 bis del Código de Procedimiento Civil.24
     Ciertamente, el control o filtro para probar la idoneidad de la persona
 experta que incorporara su opinión al proceso en nuestro país ha segui-
 
-
-## 21 Que tiene como condición necesaria la aceptación del reenvío a las normas del
-
-Código de Procedimiento Civil sobre la prueba de peritos.
- 22 Artículo 413 del Código de Procedimiento Civil.
-
 ## 23 Por cierto, no sería aplicable el número 1 del citado artículo 413 del Código de
+
+**Definición Canónica:** Procedimiento Civil, referido a quienes sean inhábiles para declarar como testigos.
+Las inhabilidades de los testigos, absolutas o relativas, no son aplicables en la reforma laboral al prohibirse la formulación de tachas (454 número 5 inciso quinto del
+Código del Trabajo) y, en añadidura por texto expreso, a la declaración de los peritos se aplican las normas de los testigos (453 número 8 inciso quinto del Código del
+Trabajo). Por dicha razón, no se aplica en este punto la supletoriedad del Libro II del
+Código de Procedimiento Civil.
+ 24 Artículos 414 al 416 bis del Código de Procedimiento Civ
+**Concordancias Legales:** Artículos 414; artículo 321 del Código Procesal Penal; artículo 45 de la Ley 19.968 distingue la ubicación y tratamien; artículo 4; artículo 45 de la Ley 19.968; artículo 45; artículo 45 de la Ley 19.968 reduce a los peritos de confianza; artículos 316 del Código Procesal Penal y 47 de la Ley 19.968; artículo 314 del Código Procesal Penal y tanto del inciso terc; artículo 417 del Código de Procedimiento Civil; Ley 19.968; Ley 20.032
 
 Procedimiento Civil, referido a quienes sean inhábiles para declarar como testigos.
 Las inhabilidades de los testigos, absolutas o relativas, no son aplicables en la reforma laboral al prohibirse la formulación de tachas (454 número 5 inciso quinto del
@@ -1447,11 +1524,10 @@ exigencias profesionales y disciplinares de rigurosidad técnica.31
 
  29 El énfasis es nuestro.
 
-## 30 No puede pasarse por alto que el juramento del perito —en la regulación del
-
-Código de Procedimiento Civil— ocurre después de su nombramiento, es decir luego de eventuales debates sobre su admisibilidad.
-
 ## 31 En un sentido similar, vinculando la fidelidad en el desempeño del cargo con
+
+**Definición Canónica:** una exigencia profesional, a propósito de textos similares en el Derecho Comparado: Duce (2017: 80).
+**Concordancias Legales:** artículos 314 del Código Procesal Penal y 45 de la Ley 19.968 q; Artículo 45; artículo 314; Ley 19.968
 
 una exigencia profesional, a propósito de textos similares en el Derecho Comparado: Duce (2017: 80).
 
@@ -1608,12 +1684,15 @@ probatoria y el derecho a prueba como componente del debido proceso. Dicha liber
 utilización de cualquier medio confirmatorio, sean reglados o atípicos;
 lo que daría margen a la utilización indistinta de cualquier medio confirmatorio para la incorporación de evidencia, de manera que serán las
 
-
-## 41 Mecanismos legales de control presentes en los tres procedimientos reformados
-
-en análisis.
-
 ## 42 Sobre algunas citas doctrinales que pueden directa o indirectamente referirse
+
+**Definición Canónica:** al debate en colación, en una posición de postergación del control a las etapas de
+alegación y valoración, véase principalmente Taruffo (2005: 379-282, 410, 411 y 430).
+En una posición de resguardo, a nivel de admisibilidad, de la prueba producida sin
+los controles de las partes, véase Alvarado (2009a: 163-164). Respecto del específico
+control de la formación de la prueba pericial, en etapas anteriores a la de valoración,
+véase Berizonce (2009: 346-347) y Carbone (2009: 351 y ss.). En una posición que alzaprima la idoneidad del medio probatorio de mejor fiabilidad ab initio en perjuicio
+de otr
 
 al debate en colación, en una posición de postergación del control a las etapas de
 alegación y valoración, véase principalmente Taruffo (2005: 379-282, 410, 411 y 430).
@@ -1687,9 +1766,9 @@ pueda preconcebir, atribuyéndole al medio de confirmación subrogante
 control en su producción o en su incorporación al proceso, y de mayor
 confiabilidad).43
 
-
 ## 43 Lo antedicho aun cuando en la motivación de la sentencia pueda sostenerse
 
+**Definición Canónica:** Aspecto teleológico y de garantías de las formas procesales
 
 Aspecto teleológico y de garantías de las formas procesales
 
@@ -1713,6 +1792,14 @@ tales como «se valorará el informe pericial como documental y no como pericial
 pueda ser una frase meramente retórica.
 
 ## 44 Como señala Taruffo (2005: 381): «La existencia de procedimientos legales de
+
+**Definición Canónica:** formación de la prueba excluye que la prueba se forme en modalidades distintas
+“en ese contexto”, pero no excluye en absoluto que se sigan modalidades diversas en
+otros contextos y que, a pesar de ello, se obtengan elementos de prueba utilizables
+en juicio. Tómese el ejemplo […] de la prueba testifical. Si se trata de una prueba
+testifical en sentido estricto, puede formarse únicamente en el proceso y por medio
+de la aplicación puntual de las normas que regulan su producción. Pero estas normas valen “en el proceso”, no fuera del mismo, de modo que frente a una declaración
+de contenido testific
 
 formación de la prueba excluye que la prueba se forme en modalidades distintas
 “en ese contexto”, pero no excluye en absoluto que se sigan modalidades diversas en
@@ -1762,8 +1849,9 @@ la presencia personal del juez o jueza respecto de la prueba rendida—
 como la denominada inmediación material —que exige que la decisión
 y fundamentación se extraiga directamente de la prueba presenciada
 
-
 ## 45 Ver artículos 28 y 54 de la Ley 19.968 que crea los Tribunales de Familia, 295 y
+
+**Definición Canónica:** 323 del Código Procesal Penal y 453 número 4 y 454 número 8 del Código del Trabajo.
 
 323 del Código Procesal Penal y 453 número 4 y 454 número 8 del Código del Trabajo.
 
@@ -1826,8 +1914,11 @@ importante para algún punto sobre el que testificará. En esta hipótesis,
 a mayor experticia debe ampliarse la permisibilidad para que pueda ser
 interrogado sobre opiniones y conclusiones en su esfera de conocimiento especializado, lo que no importa que la ampliación masiva de esta
 
-
 ## 46 En dicho sentido, véase Vásquez (2015: 48), quien coherentemente ubica a la
+
+**Definición Canónica:** prueba pericial como evidencia testimonial y diferencia —en el itinerario de un
+testimonio— entre hechos externos, hechos percibidos y hechos interpretados, este
+último es el corolario final entregado a los juzgadores.
 
 prueba pericial como evidencia testimonial y diferencia —en el itinerario de un
 testimonio— entre hechos externos, hechos percibidos y hechos interpretados, este
@@ -1856,12 +1947,10 @@ la audiencia preliminar, ni preguntas de opinión durante el interrogatorio dire
 
  47 En dicha opinión, véase Duce (2017: 31-33).
 
-## 48 Nótese que en algunos países se alude a dicha expresión para los peritos de
-
-partes o simplemente se genera una confusión por la traducción de la denominación para los «peritos» utilizada en países anglosajones, como bien advierte Duce
-(2017: 31).
-
 ## 49 Sin duda, en un debate de objeción de preguntas (por tratarse de una pregunta
+
+**Definición Canónica:** de opinión y no sobre hechos en este caso) durante el juicio oral, igualmente lo que
+sucede, en el fondo, es un debate de admisibilidad probatoria más reducido.
 
 de opinión y no sobre hechos en este caso) durante el juicio oral, igualmente lo que
 sucede, en el fondo, es un debate de admisibilidad probatoria más reducido.
@@ -1926,8 +2015,11 @@ una pericia intrusiva ofrecida por una de las partes, la judicatura —ante
 petición al efecto— podría excluir por ilicitud, pero a reglón seguido la
 podría decretar como prueba oficiosa del tribunal: pasa de ser custo-
 
-
 ## 51 Paradojalmente, toda la teoría de la prueba ilícita por infracción de garantías
+
+**Definición Canónica:** fundamentales nace como un control o resguardo respecto de los actos de autoridad, cuando no mero poder, del Estado.
+ 52 El único que puede relevar del secreto al profesional es el propio paciente.
+**Concordancias Legales:** artículo 199 del Código Civil
 
 fundamentales nace como un control o resguardo respecto de los actos de autoridad, cuando no mero poder, del Estado.
  52 El único que puede relevar del secreto al profesional es el propio paciente.
@@ -1959,6 +2051,12 @@ de secreto.55
 en la investigación filiativa.
 
 ## 54 Piénsese, en sede familiar, en un profesional de un programa de diagnóstico
+
+**Definición Canónica:** ambulatorio (DAM) que ha tratado a una de las partes y tiene información recolectada en la intervención.
+ 55 En sentido similar, Cerda (2012: 76) distingue —en lo tocante al deber de secreto de los testigos en sede penal— entre los profesionales del sector privado, respecto
+de quienes indudablemente pesa dicho deber, y los profesionales funcionarios o de
+aquellos que ejercen funciones oficiales, inclinándose por la negativa en lo tocante
+**Concordancias Legales:** artículo 332 del Código al deber de secreto. En efecto
 
 ambulatorio (DAM) que ha tratado a una de las partes y tiene información recolectada en la intervención.
  55 En sentido similar, Cerda (2012: 76) distingue —en lo tocante al deber de secreto de los testigos en sede penal— entre los profesionales del sector privado, respecto
@@ -1995,6 +2093,13 @@ al deber de secreto. En efecto, afirma que uno de los elementos fundamentales pa
 la configuración de la garantía del deber de secreto profesional es la relación de confianza entre el profesional y su cliente.
 
 ## 56 Artículo 453 número 8 inciso cuarto del Código del Trabajo, artículo 46 de
+
+**Definición Canónica:** la Ley 19.968 que crea los Tribunales de Familia. En el Código Procesal Penal no
+existe una norma expresa, pero de los artículos 315 y 316 del Código Procesal Penal
+se colige que el informe debe presentarse ante el juez de garantía en la preparación
+de juicio. En similar sentido, incluso aludiendo a la historia de la ley, véase Horvitz
+(2005: 296-297).
+**Concordancias Legales:** artículos 315; artículo 332; artículo 63 bis de la Ley 19.968. Para el evento de incumplimien; Ley 19.968
 
 la Ley 19.968 que crea los Tribunales de Familia. En el Código Procesal Penal no
 existe una norma expresa, pero de los artículos 315 y 316 del Código Procesal Penal
@@ -2069,11 +2174,9 @@ explicación de posibles errores u omisiones que puedan poner en jaque
  57 Utilizado como criterio para la exclusión probatoria de la prueba encubierta.
  58 Como la Regla 403 de las Reglas Federales de Evidencia de Estados Unidos.
 
-## 59 Cita como ejemplo una pericia sicológica en que se describe a un acusado de
-
-delitos de pedofilia contra niños y niñas, como alguien de perfil homosexual.
-
 ## 60 Utiliza como ejemplo pericias sobre credibilidad del relato en que se corre el
+
+**Definición Canónica:** riesgo de que sea valorada como prueba de fondo.
 
 riesgo de que sea valorada como prueba de fondo.
 
@@ -2136,12 +2239,10 @@ inconvenientes.
 RUC 0500244993-7, 11 de julio de 2006 y sentencia del Tribunal Oral en lo Penal de
 Concepción, RUC 0600448639-9, 6 de diciembre de 2008.
 
-## 63 A modo ejemplar, sentencia del Tribunal Oral en lo Penal de Puente Alto, RUC
-
-0700630049-3, 11 de agosto de 2009.
-
-
 ## Capítulo 3
+
+**Definición Canónica:** Regulación de la prueba pericial en el proceso penal
+**Concordancias Legales:** artículo 315; artículo 43 de la Ley 20.000.1 Elaboración; artículo 314 del Código Procesal Penal que; Artículo 43; artículos 188; artículo 316; artículo 317 del Código Procesal Penal no podrán desempeñar la; artículo 302 del Código Procesal Penal establece quiénes están; artículo 303 del Código Procesal Penal establece quiénes están; artículo 319 del Código Procesal Penal; artículo 329; Artículo 1; artículo 5; artículo 22; artículo 23; artículo 12; Artículo 11; artículo 320 del Código Procesal Penal; artículo 373; artículo 43 de la Ley 20.000 no estableció la pureza o con; artículo 4; artículo 340 del Código Procesal Penal respecto de la lesivida; artículo 43 de la Ley 20.000; artículos 455; artículo 458; artículo 343 del Código Procesal Penal dispone que; artículos 2; artículo 14; artículo 200 del Código Procesal Penal obliga a toda p; artículos 198; artículos 361; Artículo 200 del Código Procesal Penal. 10 Artículo 198 del C; artículo 199 bis del Código Procesal Penal; artículo 315 del Código Procesal Penal establece en una redacc; Ley 20.000.1; Ley 20.065; Ley 20.580; Ley 20.000; constitucion
 
 Regulación de la prueba pericial en el proceso penal
 
@@ -3262,8 +3363,11 @@ para los organismos técnicos encargados.
 Academia Judicial de Chile                        Peritajes en procedimientos reformados
 Materiales Docentes                                                            Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Aspectos problemáticos en la regulación de la
+prueba pericial en los procesos de familia y laboral
+**Concordancias Legales:** Ley 19.968
 
 Aspectos problemáticos en la regulación de la
 prueba pericial en los procesos de familia y laboral
@@ -3282,12 +3386,13 @@ procesal en derecho familiar se recoge buena parte de la regulación del
 Código Procesal Penal para este medio probatorio en particular. Existe
 coincidencia general, por ende, en lo que hemos denominado aspectos
 
-
-## 1 La Ley 19.968 que crea los Tribunales de Familia, se publica el 30 de agosto del
-
-2004.
-
 ## 2 Solo a modo de ejemplo, el artículo 63 bis de la Ley 19.968 que crea los Tribunales
+
+**Definición Canónica:** de Familia, si bien fue introducido por la reforma de la Ley 20.286, es idéntico al
+artículo 336 del Código Procesal Penal.
+ 3 En ambos ámbitos los procedimientos ordinarios tienen una estructura de doble audiencia: una preliminar para preparar el juicio y la segunda derechamente de
+juicio oral.
+**Concordancias Legales:** artículo 336 del Código Procesal Penal. 3 En ambos ámbitos lo; Ley 20.286
 
 de Familia, si bien fue introducido por la reforma de la Ley 20.286, es idéntico al
 artículo 336 del Código Procesal Penal.
@@ -3295,6 +3400,12 @@ artículo 336 del Código Procesal Penal.
 juicio oral.
 
 ## 4 Los reenvíos que existen son: i) el inciso final del artículo 62 de la Ley 19.968
+
+**Definición Canónica:** que reenvía al artículo 336 del Código Procesal Penal (aunque luego se introduce
+el actual artículo 63 bis en la primera ley, sin derogar el reenvío) y ii) el inciso final
+del artículo 45 de la Ley 19.968 que hace aplicable el artículo 315 del Código Procesal
+Penal.
+**Concordancias Legales:** artículo 336 del Código Procesal Penal; artículo 63 bis; artículo 45 de la Ley 19.968 que hace aplicable el artículo 315; artículo 45 de la Ley 19.968 se refiere a 5 Artículo 31. 6 V; artículo 45 de la Ley 19.968 deben; artículo 45 de la Ley 19.968 distingue la ubicación y tratamien; Ley 19.968
 
 que reenvía al artículo 336 del Código Procesal Penal (aunque luego se introduce
 el actual artículo 63 bis en la primera ley, sin derogar el reenvío) y ii) el inciso final
@@ -3384,8 +3495,16 @@ inciso) y los peritos de órgano público o expertos institucionales (cuarto
 inciso).10 Es efectivo que la exigencia de acompañar antecedentes que
 acrediten la idoneidad solo se ubica en el inciso referido a los peritos de
 
-
 ## 9 El artículo 64 de la Ley 19.968 permite el interrogatorio de las partes tras la
+
+**Definición Canónica:** exposición de su informe y, a su vez, el artículo 48 de la misma ley faculta realizar
+preguntas respecto de la idoneidad. A la misma conclusión se llegaría por el reenvío
+a las normas de los testigos, del artículo 49, en particular al artículo 40, ambas del
+mismo cuerpo legal. Obviamente, dichas preguntas deben realizarse en los exámenes directos y contraexámenes (además el inciso segundo del artículo 64 es claro), ya
+que solo luego de la exposición previa de la persona experta esas preguntas pueden
+ser más exitosas (no han faltado jueces que dividen los interrogatorios –sin asidero
+legal y an
+**Concordancias Legales:** artículo 48; artículo 49; artículo 40; artículo 64; artículo 4; artículo 45 de la Ley 19.968; artículo 45; artículo 45 de la Ley 19.968 reduce a los peritos de confianza; artículo 31 de la Ley 19.968 que crea los Tribunales de Familia; artículo 46 de la Ley 19.968; artículo 46; artículo 9 de la Ley que crea los Tribunales de Familia; artículo 9; Ley 20.032; Ley 19.968; Ley 20.286
 
 exposición de su informe y, a su vez, el artículo 48 de la misma ley faculta realizar
 preguntas respecto de la idoneidad. A la misma conclusión se llegaría por el reenvío
@@ -3493,13 +3612,17 @@ reglada, que resguardan el control en la formación probatoria, y el coste
 por las deficiencias de recursos de los organismos estatales o paraestatales no puede ser asumido por los justiciables, que verían menguados
 sus garantías de defensa en un juicio.14 Se suma a lo señalado, que en el
 
-
-## 13 El reenvío al artículo 315 del Código Procesal Penal y el acuerdo de las partes al
-
-tenor del artículo 48 de la ley 19.968.
-
 ## 14 Se señaló en el capítulo 2 que lo costoso de la prueba pericial puede recogerse a
 
+**Definición Canónica:** caso de peritos institucionales, al no exigirse acreditación previa de idoneidad en la audiencia preparatoria de juicio, la única oportunidad para
+verificar este requisito el interrogatorio cruzado en el juicio mismo.15
+   La vía de incorporación directa del informe pericial como prueba
+solo procede en dos hipótesis excepcionales: reenvío al artículo 315 del
+Código Procesal Penal y acuerdo de las partes, al tenor del artículo 49
+de la Ley 19.968.
+   El reenvío al artículo 315 del Código Procesal Penal se incorpora con
+la reforma de la Ley 20.286, precisamente, para relevar por ley la comparece
+**Concordancias Legales:** artículo 315 del Código Procesal Penal y acuerdo de las partes; artículo 49 de la Ley 19.968. El reenvío al artículo 315 del; artículo 315 del Código Procesal Penal; artículo 49 de la Ley 19.968; artículo 46 de la Ley 19.968; Ley 19.968; Ley 20.286; Ley 20.074
 
 caso de peritos institucionales, al no exigirse acreditación previa de idoneidad en la audiencia preparatoria de juicio, la única oportunidad para
 verificar este requisito el interrogatorio cruzado en el juicio mismo.15
@@ -3528,12 +3651,11 @@ nivel de una admisibilidad más estricta, sea al ampliar el concepto de pertinen
 agregar la categoría de pertinencia legal utilizada por Duce (2017: 59) o al recurrir al
 requisito de necesidad del conocimiento experto.
 
-## 15 En este ámbito problemático ingresa la comparecencia de un solo perito para el
-
-evento de confección de la pericia por más de un experto, como en las denominadas
-«duplas sicosociales».
-
 ## 16 Sobre la falibilidad de la prueba de ADN, los casos de error han sido de falsos
+
+**Definición Canónica:** negativos y no falsos positivos. Sin embargo, dicho margen de error —en sede familia— se resguarda con el derecho a pedir segundo peritaje biológico, al tenor del
+artículo del 199 Código Civil.
+**Concordancias Legales:** artículo 49; artículo 46; artículo 46 de la Ley 19.968. Uso del informe pericial El art; artículo 332 del Código Procesal Penal; artículo 332; artículo 63 bis de la Ley 19.968. El corolario evidente ante el; artículo 46 de la Ley de Tribunales de Familia; artículo 315 del Código Procesal Penal o artículo 49 de la Ley; artículo 11 de la Ley 19.968; artículo 20 de la Ley 19.968; artículo 11; Ley 19.968
 
 negativos y no falsos positivos. Sin embargo, dicho margen de error —en sede familia— se resguarda con el derecho a pedir segundo peritaje biológico, al tenor del
 artículo del 199 Código Civil.
@@ -3636,13 +3758,11 @@ si el litigante proponente no quisiese su incorporación bastaría el retiro
 o desistimiento de la prueba.
    El problema se relaciona con la posibilidad o no de valoración judicial de la conducta procesal de las partes en el proceso, particularmente de su contumacia o resistencia. Es un asunto problemático dada la
 
-
-## 18 En otros pasajes de la Ley 19.968 también se distingue entre prueba ordenada
-
-por la judicatura y prueba de las partes: artículo 64. Por si alguien quisiese decir que
-la prueba decretada por el tribunal incluye la de las partes.
-
 ## 19 En abono de lo expuesto, tras la reforma de la Ley 20.286 incluso se entrega la
+
+**Definición Canónica:** actividad de diligenciar la respuesta de los oficios pedidos a través del tribunal (inciso segundo del artículo 29 de la Ley de Tribunales de Familia), lo que refuerza que
+la labor de obtención de la prueba es de las partes.
+**Concordancias Legales:** artículo 29 de la Ley de Tribunales de Familia; artículo 724; artículo 349 del Código de Procedimiento Civil; Ley 19.968
 
 actividad de diligenciar la respuesta de los oficios pedidos a través del tribunal (inciso segundo del artículo 29 de la Ley de Tribunales de Familia), lo que refuerza que
 la labor de obtención de la prueba es de las partes.
@@ -3666,8 +3786,16 @@ adversas al litigante contumaz en la actividad probatoria, en general, lo
 ha establecido de manera clara y expresa. A vía ejemplar, tenemos normas sobre la negativa a exhibir documentos (artículo 349 del Código de
 Procedimiento Civil); sobre la negativa a absolver posiciones (artículo
 
-
 ## 20 El artículo 116 del Código Procesal Civil italiano de 1940, sin perjuicios de otras
+
+**Definición Canónica:** disposiciones en igual sentido, rezaba: «El juez debe valorar las pruebas según su
+prudente apreciación, salvo que la ley disponga otra cosa. El juez puede deducir
+argumentos de prueba de las respuestas que las partes le dan a tenor del artículo
+siguiente, de su negativa injustificada a consentir inspecciones que él ha ordenado y,
+en general, de comportamiento de dichas partes en el proceso». En similar sentido,
+destaca también el artículo 118 del mismo código.
+ 21 Por vía ejemplar, el texto del artículo 165 inciso quinto, tercer párrafo, del Código Procesal Civil y Comercial de la Nación en A
+**Concordancias Legales:** artículo 118; artículo 165; Ley 22.434
 
 disposiciones en igual sentido, rezaba: «El juez debe valorar las pruebas según su
 prudente apreciación, salvo que la ley disponga otra cosa. El juez puede deducir
@@ -3681,6 +3809,11 @@ sustanciación del proceso podrá constituir un elemento de convicción corrobor
 de las pruebas, para juzgar la procedencia de las respectivas pretensiones».
 
 ## 22 Reza dicha norma: «La prueba se apreciará en la forma ordinaria. Pero podrá el
+
+**Definición Canónica:** tribunal, en casos calificados, estimarla conforme a conciencia, y según la impresión
+que le haya merecido la conducta de las partes durante el juicio y la buena o mala fe
+con que hayan litigado en él».
+**Concordancias Legales:** artículos 273; artículo 52; artículo 199 del Código Civil; artículos 63; artículo 32; artículo 66; Ley 19.968
 
 tribunal, en casos calificados, estimarla conforme a conciencia, y según la impresión
 que le haya merecido la conducta de las partes durante el juicio y la buena o mala fe
@@ -3714,12 +3847,11 @@ de toda la prueba rendida en la fundamentación del juicio de los hechos,
 lo cual tiene como palmario contrafaz que solo podrá hacerse cargo de
 la prueba efectivamente rendida en el juicio oral. A su vez, el artículo 66
 
-
-## 23 Incluso la doctrina procesal especializada, reconoce que pueden existir deberes
-
-procesales sin sanciones. Por todos, véase Carreta (2008).
-
 ## 24 Salvo excepciones, como la prueba anticipada que se produce en la audiencia
+
+**Definición Canónica:** de preparación de juicio (artículo 61 número 9) o la prueba nueva que se incorpora
+al juicio sin oferta previa en la etapa intermedia (artículo 63 bis).
+**Concordancias Legales:** artículo 61; artículo 63 bis; artículo 14 de la Ley 19.968 tampoco es óbice para lo expuesto; artículo 543 del Código de Procedimiento Civil como; artículo 48 de la Ley de Menores reenvía al artículo 66 del mis; artículo 543 del Código de Procedimiento Civil; artículo 66 de la Ley de Menores hace referencia al artículo 54; artículo 5; artículo 543 del Código de Procedimiento Civil. A su vez; artículo 543 del Código de Procedimiento Civil el legislador e; artículo 14 de la Ley de Alimentos permite su arresto; artículo 13; artículo 94 de la Ley de Tribunales de Familia permite el arres; artículo 71 de la Ley 19.968 señala expresamente la posibilidad; artículo 27 de la Ley de Tribunales de Familia; artículo 543 del Código de Procedimiento Civil.26 Ante la f; artículo 238 del Código de Procedimiento Civil; artículo 175 del Código de Procedimiento Civil; Ley 19.968
 
 de preparación de juicio (artículo 61 número 9) o la prueba nueva que se incorpora
 al juicio sin oferta previa en la etapa intermedia (artículo 63 bis).
@@ -3807,23 +3939,11 @@ emitidos en juicio, así como la determinación de los que haya de decretarse y 
    Con todo, cabe acentuar algunos aspectos relacionados con la configuración de su rol en relación con la prueba pericial. En primer lugar,
 pese a la prohibición de emitir informes periciales, no puede perderse
 
-
-## 27 Sobre el carácter de auxiliares de la administración de justicia, véase el artículo
-
-457 del Código Orgánico de Tribunales.
- 28 En dicho sentido, véase Henríquez (2017: 135).
-
-## 29 Además del artículo 457 del Código Orgánico de Tribunales y los artículos 5 al
-
-7 de la Ley 19.968, pueden citarse las Actas 93-05, 98-09, 71-16 y 76-16, entre otras
-normas variopintas.
-
-## 30 Artículo 7 de la Ley 19.968, en sintonía con el artículo 289 del Código Orgánico
-
-de Tribunales.
- 31 Se ha destacado la exigencia, por ley, de tener una formación de postgrado universitario, no bastando la formación de pregrado (Henríquez, 2017: 139).
-
 ## 32 El Acta 92-2005 es la norma más sistemática sobre el Consejo Técnico, aunque
+
+**Definición Canónica:** sin rango legal.
+ 33 Artículo 2 del Acta 92-2005.
+**Concordancias Legales:** Artículo 2 del Acta 92; artículo 5; artículo 64; Ley 19.968
 
 sin rango legal.
  33 Artículo 2 del Acta 92-2005.
@@ -3857,6 +3977,13 @@ de peritos.38 Si bien no está de manera tan explícita en la ley, puede cole-
  34 En dicho sentido, véase Henríquez (2017: 146).
 
 ## 35 Texto expreso de la letra a) del artículo 5 de la Ley 19.968, circunscrito solo a
+
+**Definición Canónica:** las audiencias de juicio. Obviamente la admisibilidad probatoria se verifica en la
+audiencia preparatoria de juicio.
+ 36 Artículo 1 letra c).
+ 37 Artículo 2.
+ 38 Nuevamente en el artículo 2.
+**Concordancias Legales:** Artículo 1; Artículo 2; artículo 64 de la Ley 19.968 que faculta al juez para; artículo 64 de la Ley 19.968; Ley 19.968
 
 las audiencias de juicio. Obviamente la admisibilidad probatoria se verifica en la
 audiencia preparatoria de juicio.
@@ -3897,6 +4024,10 @@ hay norma que prevenga algunas soluciones de textos de las reformas
  39 Lo que es coherente con el texto expreso del citado artículo 64 de la Ley 19.968.
 
 ## 40 A modo ejemplar, véase la sentencia de la Ilustrísima Corte de Apelaciones de
+
+**Definición Canónica:** Rancagua, rol IC 143-2012, 29 de julio del 2012.
+ 41 Artículo 453 y 454 del Código del Trabajo, respectivamente.
+**Concordancias Legales:** Artículo 453; artículos 413; artículo 413 del Código de Procedimiento Civil; artículo 454
 
 Rancagua, rol IC 143-2012, 29 de julio del 2012.
  41 Artículo 453 y 454 del Código del Trabajo, respectivamente.
@@ -3966,8 +4097,10 @@ libro segundo del Código de Procedimiento Civil.
    El segundo eje se configura ante la falta de acuerdo de las partes sobre
 el nombramiento de peritos, en cuyo caso el nombramiento lo realiza
 
-
 ## 43 Que tiene como condición necesaria la aceptación del reenvío a las normas del
+
+**Definición Canónica:** Código de Procedimiento Civil sobre la prueba de peritos.
+**Concordancias Legales:** artículo 416 bis del Código de Procedimiento Civil.44 Dos notas; artículo 414 del Código del Trabajo; Artículos 414
 
 Código de Procedimiento Civil sobre la prueba de peritos.
 
@@ -4009,6 +4142,9 @@ Procedimiento Civil no ha sido especialmente problemática en los otros
 
 ## 45 En la denominación del procedimiento civil: audiencia de nombramiento de
 
+**Definición Canónica:** peritos.
+**Concordancias Legales:** artículo 432 del Código del Trabajo tiene dos límites o exigen; artículo 432 del Código del Trabajo. Lo antedicho tiñe de d
+
 peritos.
 
 Materiales Docentes                                                         Capítulo 4
@@ -4035,8 +4171,14 @@ de la norma expresa del artículo 432 del Código del Trabajo.
 reglan precisamente en dicho acápite del código. En materia de medios
 de prueba, si bien el Código del Trabajo establece una regulación específica, resulta muchas veces escueta y con algunos vacíos, para lo cual
 
-
 ## 46 A modo ejemplar, salta a la vista el uso cotidiano que en sede penal tiene, para
+
+**Definición Canónica:** debatir las solicitudes del Ministerio Público de ampliación del plazo de investigación fijado judicialmente, la utilización del artículo 67 del Código de Procedimiento
+Civil sobre prórroga de plazos judiciales, ante la ausencia de norma especial sobre
+dicho particular en el Código Procesal Penal.
+ 47 Un ejemplo cotidiano es la aplicación del artículo 261 del Código de Procedimiento Civil, sobre rectificación de la demanda, aplicado al procedimiento de aplicación general en sede laboral, ante la ausencia de norma específica en el propio
+Código del Trabajo.
+**Concordancias Legales:** artículo 67 del Código de Procedimiento Civil sobre prórroga; artículo 261 del Código de Procedimiento Civil; artículo 453; artículo 454 del Código del Trabajo. Por lo mismo; artículos 453; artículo 454; artículos 454; artículo 545
 
 debatir las solicitudes del Ministerio Público de ampliación del plazo de investigación fijado judicialmente, la utilización del artículo 67 del Código de Procedimiento
 Civil sobre prórroga de plazos judiciales, ante la ausencia de norma especial sobre
@@ -4076,8 +4218,9 @@ cruzado por las partes en el juicio oral con la facultad judicial para formular 
    d) El artículo 545 número 7 del Código del Trabajo previene ante la
 falta de evacuación del informe pericial antes del juicio oral y su contenido fuese relevante para la resolución del asunto, la judicatura tomará
 
-
 ## 48 Se seguirá el orden de aparición en el texto legal y no un orden sistemático
+
+**Definición Canónica:** procesal.
 
 procesal.
 
@@ -4093,6 +4236,15 @@ relevancia, pero debería aplicarse excepcionalmente, ya que afecta las
 posibilidades de tomar decisiones estratégicas en el juicio oral. Por otra
 
 ## parte, la referida norma nada dice sobre el deber de comparecencia de
+
+**Definición Canónica:** la persona experta al juicio, por lo que continuaría aplicándose la regla
+general sobre este aspecto, es decir, el deber de comparecer del perito
+a exponer su pericia, con interrogatorio cruzado, salvo acuerdo de las
+partes. Finalmente, la eventual fijación de una audiencia específica solo
+para la recepción del informe pericial debería interpretarse como una
+continuación del juicio oral solo para dicha actividad probatoria, pero
+con la relación de las actuaciones posteriores propia de todo proceso:
+alegaciones finales o alegatos de cierre y eventual dictación de la sentencia definitiva en audi
 
 la persona experta al juicio, por lo que continuaría aplicándose la regla
 general sobre este aspecto, es decir, el deber de comparecer del perito
@@ -4114,6 +4266,8 @@ de juicio para la pericia se fijase antes del vencimiento del plazo legal para d
 fallo, lo que no resiste análisis.
 
 ## 50 Aunque el reenvío en los otros procedimientos reformados es al artículo 315 del
+
+**Definición Canónica:** Código Procesal Penal, por lo que acá no entra en el aspecto problemático planteado.
 
 Código Procesal Penal, por lo que acá no entra en el aspecto problemático planteado.
 
@@ -4172,16 +4326,13 @@ de la demanda, la conciliación, se despliega toda la actividad probatoria
 y se dicta, al final, la sentencia definitiva del caso.53 Además, el término de emplazamiento es más breve que en el procedimiento de aplicación general,54 el deber de fundamentación en la sentencia definitiva es
 más atenuado55 y, por último, no proceden todos los recursos procesales
 
-
-## 52 Párrafo 7 del capítulo 2 del título 1 del libro quinto de la jurisdicción laboral en
-
-el Código del Trabajo.
-
-## 53 Excepcionalmente, por aplicación del inciso final del artículo 501 del Código
-
-del Trabajo, puede dictarse la sentencia definitiva en el plazo de tres días de terminada la audiencia.
-
 ## 54 Entre la notificación de la demanda y la realización de la audiencia única deben
+
+**Definición Canónica:** mediar a lo menos cinco días. Claramente es un tiempo menor para preparar la defensa técnica que el prevenido en el procedimiento de aplicación general. Con todo,
+antes de la Ley 20.074, publicada el 3 de diciembre del 2016, ni siquiera se prevenía
+en la ley ese tiempo mínimo, lo que generó muchos problemas prácticos por denuncias de indefensión de partes demandadas ante notificaciones a veces de un par de
+días antes de la audiencia única.
+**Concordancias Legales:** Ley 20.074
 
 mediar a lo menos cinco días. Claramente es un tiempo menor para preparar la defensa técnica que el prevenido en el procedimiento de aplicación general. Con todo,
 antes de la Ley 20.074, publicada el 3 de diciembre del 2016, ni siquiera se prevenía
@@ -4189,6 +4340,9 @@ en la ley ese tiempo mínimo, lo que generó muchos problemas prácticos por den
 días antes de la audiencia única.
 
 ## 55 En los requisitos de la sentencia definitiva, atento a lo prevenido en el artículo
+
+**Definición Canónica:** 501 del Código del Trabajo, no se exige el requisito del numeral 4 del artículo 459, lo
+**Concordancias Legales:** artículo 459
 
 501 del Código del Trabajo, no se exige el requisito del numeral 4 del artículo 459, lo
 
@@ -4213,16 +4367,22 @@ que implica que la judicatura no debe hacerse cargo pormenorizadamente de cada
 medio probatorio. Si bien esto no lo exime del deber de fundamentación, atempera
 el rigor de su cumplimiento, lo que cobra fuerza y vigor en un procedimiento mucho más presto y concentrado.
 
-## 56 No procede el recurso de unificación de jurisprudencia, según lo reglado en el
-
-artículo 502 del Código del Trabajo.
-
 ## 57 Por el reenvío del artículo 496 del Código del Trabajo al artículo 201 del mismo
+
+**Definición Canónica:** código. Ya existe cierto consenso en no hacer operativo el reenvío a las hipótesis de
+demandas de desafuero por maternidad, en cuyos casos no concurre dicha necesidad de urgencia, además de razones de técnica de reenvío que impiden dicha operatividad. Esto último no fue pacífico al inicio de la reforma procesal laboral.
 
 código. Ya existe cierto consenso en no hacer operativo el reenvío a las hipótesis de
 demandas de desafuero por maternidad, en cuyos casos no concurre dicha necesidad de urgencia, además de razones de técnica de reenvío que impiden dicha operatividad. Esto último no fue pacífico al inicio de la reforma procesal laboral.
 
 ## 58 En el Juzgado del Trabajo de Concepción, durante el 2021 ingresaron 1.435 casos
+
+**Definición Canónica:** por el procedimiento de aplicación general y 902 por el procedimiento monitorio;
+mientras que entre el 2 de enero y el 26 de abril de 2022 ingresaron 574 casos por el
+procedimiento aplicación general y 299 por procedimiento monitorio. En el Juzgado del Trabajo de Valparaíso, durante el 2021 ingresaron 1.511 casos por el procedimiento de aplicación general y 944 por el procedimiento monitorio; mientras que
+entre el 2 de enero y el 26 de abril de 2022, ingresaron 564 casos por el procedimiento aplicación general y 216 por procedimiento monitorio. En el Primer Juzgado del
+Trabajo de Santiago, dur
+**Concordancias Legales:** Artículo 8 de la Ley 21.226. 60 La Ley 21.394; artículo 5; Ley 21.226; Ley 21.394
 
 por el procedimiento de aplicación general y 902 por el procedimiento monitorio;
 mientras que entre el 2 de enero y el 26 de abril de 2022 ingresaron 574 casos por el
@@ -4289,14 +4449,20 @@ de algunos jueces y juezas de petición previa de otros medios de prueba
 conflictivos, como ocurre con la exhibición de documentos, absolución
 de posiciones y oficios, lo que salva el conflicto inicial, pero no tiene
 
-
 ## 61 Por lo mismo es que algunos jueces laborales han exigido que en la demanda se
+
+**Definición Canónica:** solicite inmediatamente la absolución de posiciones o la exhibición de documentos,
+ante la dificultad de previsión para la contraria y por la concentración de la audiencia única monitoria. Es una solución por cierto muy cuestionable por razones que
+exceden este trabajo.
 
 solicite inmediatamente la absolución de posiciones o la exhibición de documentos,
 ante la dificultad de previsión para la contraria y por la concentración de la audiencia única monitoria. Es una solución por cierto muy cuestionable por razones que
 exceden este trabajo.
 
 ## 62 Lo que implicaría que el perito concurra a declarar a la audiencia única, salvo
+
+**Definición Canónica:** acuerdo de las partes en contrario.
+**Concordancias Legales:** artículo 545; artículo 432; artículos 281
 
 acuerdo de las partes en contrario.
 
@@ -4326,8 +4492,16 @@ al procedimiento monitorio y su derecho a prueba, que pudiese afectarse
 en dicho procedimiento ultra concentrado en el que podría no caber una
 solicitud in tempore de la prueba de expertos dentro de la audiencia única.
 
-
 ## 63 Nótese que en los procedimientos reformados, cuando se ha querido exigir que
+
+**Definición Canónica:** junto al acto de postulación procesal se señalen medios probatorios, se ha señalado
+expresamente por la ley, como ocurre con la acusación penal y el señalamiento de
+medios de prueba, según indica el artículo 259 del Código Procesal Penal. También
+en sede civil y en procedimientos hiperconcentrados cuando se ha querido exigir
+que la demanda contenga los medios probatorios se ha señalado por la ley claramente, como ocurre con los denominados interdictos posesorios, según previene
+el artículo 551 del Código de Procedimiento Civil. El Código del Trabajo no señala
+norma análoga.
+**Concordancias Legales:** artículo 259 del Código Procesal Penal. También en sede civil; artículo 551 del Código de Procedimiento Civil. El Código del
 
 junto al acto de postulación procesal se señalen medios probatorios, se ha señalado
 expresamente por la ley, como ocurre con la acusación penal y el señalamiento de
@@ -4339,8 +4513,10 @@ norma análoga.
 
 Materiales Docentes                                                    Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** La valoración del conocimiento experto
+y otros asuntos finales
 
 La valoración del conocimiento experto
 y otros asuntos finales
@@ -4435,9 +4611,12 @@ las máximas de la experiencia:
   Esta importancia es radical si se piensa que abolida la prohibición de
 no admitir otros hechos que los probados en el juicio,2 se puede afec-
 
-
 ## 2 Incluso algunos autores señalan, en sentido contrario, que la sana crítica —en su
 
+**Definición Canónica:** tar seriamente el principio de contradictoriedad, pilar fundamental del
+modelo acusatorio. Además, la decisión así adoptada, sobre la base de
+un hecho que no ha sido objeto de prueba ni debate, escapa al control de
+la motivación de la sentencia que exige al juez o jueza:
 
 tar seriamente el principio de contradictoriedad, pilar fundamental del
 modelo acusatorio. Además, la decisión así adoptada, sobre la base de
@@ -4619,8 +4798,10 @@ un tribunal diligente puede apreciar:
   A diferencia de los defectos posibles en el reconocimiento de la prueba pericial, el examen del raciocinio lógico que se usó para llegar a las
 conclusiones debiese poder ser realizado por el mismo tribunal al valo-
 
-
 ## 3 Sobre este particular, cobra especial relevancia la utilización de metaperitajes
+
+**Definición Canónica:** que han sido ampliamente aceptados en la jurisprudencia.
+**Concordancias Legales:** artículo 277; artículo 374; artículo 373; artículo 43 de la Ley 20.000 no se estableció la pureza o conce; artículo 340 del Código Procesal Penal respecto de la le; artículo 475 del Código del Trabajo. En contra de la resolució; artículo 19; artículo 477 del Código del Trabajo; artículo 478; artículo 67; Ley 20.000; Ley 19.968; Constitucion; Constitución Política
 
 que han sido ampliamente aceptados en la jurisprudencia.
 
@@ -4898,8 +5079,10 @@ la misma Fiscalía:
       perito judicial de la Corte de Apelaciones de Santiago; cuenta con cur-
       sos en la PDI y Carabineros; y está acreditado por McAfee. El profesio-
 
-
 ## 6 Felipe Díaz, «Operación Huracán: peritaje de experto contradice versión de
+
+**Definición Canónica:** hacker que trabajó con Carabineros», La Tercera, 7 de febrero de 2018. Disponible
+en https://bit.ly/3Aade4h.
 
 hacker que trabajó con Carabineros», La Tercera, 7 de febrero de 2018. Disponible
 en https://bit.ly/3Aade4h.
@@ -4931,12 +5114,10 @@ incluso pertenecientes a disciplinas que no presentan problemas de confiabilidad
 respectiva disciplina. Es decir, el problema se da en la manera en que los
 expertos reportan e interpretan los resultados obtenidos en sus operaciones al momento de entregar sus testimonios en las audiencias de juicio (Garret y Naufeld, 2009: 6-8).8 El estudio de ambos autores analiza
 
-
-## 7 Felipe Díaz, «Operación Huracán: peritaje de experto contradice versión de
-
-hacker que trabajó con Carabineros».
-
 ## 8 Por ejemplo, en el estudio se determina que en un 27% de los casos en que se
+
+**Definición Canónica:** presentaron analistas de ADN, una tecnología ampliamente validada por la ciencia,
+hubo declaraciones inválidas en la audiencia de parte de los expertos que comparecieron (p. 15). Siguiendo con este ejemplo, Peter Gill, conocido como uno de los padres fundadores de la disciplina de la técnica del ADN forense, ha sostenido: «Hay
 
 presentaron analistas de ADN, una tecnología ampliamente validada por la ciencia,
 hubo declaraciones inválidas en la audiencia de parte de los expertos que comparecieron (p. 15). Siguiendo con este ejemplo, Peter Gill, conocido como uno de los padres fundadores de la disciplina de la técnica del ADN forense, ha sostenido: «Hay
@@ -5077,7 +5258,13 @@ y la posibilidad de contrastar con lo obrado en la entrevista.
 
 ## parte, que se regule una regla específica que establezca exigencias de
 
-      admisibilidad especiales a este tipo de prueba y que se contemple otra
+**Definición Canónica:** admisibilidad especiales a este tipo de prueba y que se contemple otra
+      que de manera directa le permita al juez excluir o no admitir la prueba
+      pericial presentada en la APJO que no cumpla con estos requisitos es-
+      peciales.
+**Concordancias Legales:** artículo 315 del CPP que regula esta materia contiene ex; artículo 329; artículo 4 de la Ley 20.184; Ley 20.184; Ley 20.000
+
+admisibilidad especiales a este tipo de prueba y que se contemple otra
       que de manera directa le permita al juez excluir o no admitir la prueba
       pericial presentada en la APJO que no cumpla con estos requisitos es-
       peciales.
@@ -5515,8 +5702,10 @@ dicho aparato:
 
    Luego reprocha no haber realizado pruebas complementarias. Como
 
-
 ## 12 Sentencia absolutoria, Cuarto Tribunal Oral en lo Penal de Santiago, causa RIT
+
+**Definición Canónica:** 282-2012.
+ 13 Sentencia absolutoria, causa RIT 282-2012.
 
 282-2012.
  13 Sentencia absolutoria, causa RIT 282-2012.

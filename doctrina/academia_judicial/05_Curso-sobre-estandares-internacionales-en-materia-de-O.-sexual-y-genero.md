@@ -13,19 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos                                                          09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Curso sobre
+               estándares
+               internacionales
+               en materia de
+                   orientación
+                   sexual e
+                   identidad
+                   de género:
 
-               Curso sobre
+Curso sobre
                estándares
                internacionales
                en materia de
@@ -41,19 +40,22 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Ximena
+                             Gauché
+                             Marchetti
+                         Abogada. Licenciada en Ciencias Ju-
+                         rídicas y Sociales por la Universidad
+                         de Concepción (Chile). Doctora en
+                         Derecho, Sobresaliente cum laude, por
+                         la Universidad Autónoma de Madrid
+                         (España). Diplomada en Educación en
+                         Derechos Humanos por el Instituto
+                         Interamericano de Derechos Huma-
+                         nos, San J
 
-                         Ximena
+Ximena
                              Gauché
                              Marchetti
                          Abogada. Licenciada en Ciencias Ju-
@@ -127,91 +129,35 @@ Chile 2020               para el período 2019-2021.
 
                                          1. Marco teórico y conceptual sobre sexo, orientación sexual e identidad de género                           11
 
-
-## 1.1 Distintas perspectivas de análisis sobre la sexualidad humana                                        12
-
-
-
 ## 1.2 Sexualidad e identidad                                                                               30
 
-
-                                           1.3 Los aspectos biológicos, afectivos y sociales de la sexualidad humana. Hablando de sexo,
+**Definición Canónica:** 1.3 Los aspectos biológicos, afectivos y sociales de la sexualidad humana. Hablando de sexo,
                                          		    de orientación sexual y de identidad de género.                                                       40
 
-
-## 1.4 Desarrollos en torno al concepto de género                                                           54
-
-
-                                         2. Estándares internacionales en materia de igualdad y no discriminación                                    67
-
-
-## 2.1 La igualdad y la prohibición de discriminación en el derecho internacional de los derechos humanos   68
-
-
-
-## 2.2 Principales instrumentos internacionales y el trabajo de órganos internacionales en el
-
-                                         		    Sistema Interamericano de Protección de Derechos Humanos                                              80
-
+1.3 Los aspectos biológicos, afectivos y sociales de la sexualidad humana. Hablando de sexo,
+                                         		    de orientación sexual y de identidad de género.                                                       40
 
 ## 2.3 Principal jurisprudencia sobre igualdad y no discriminación en el Sistema Interamericano
 
-                                         		    de Derechos Humanos                                                                                   87
+**Definición Canónica:** de Derechos Humanos                                                                                   87
+
+de Derechos Humanos                                                                                   87
 
                                          3. La orientación sexual y la identidad de género en el derecho internacional de los derechos humanos       95
 
-
-## 3.1 Evolución y desarrollos en el sistema universal y europeo de derechos humanos en torno a la
-
-                                         		    orientación sexual y la identidad de género. Criterios y estándares fijados.                          96
-
-
-## 3.2 El Sistema Interamericano de Derechos Humanos en relación a la orientación sexual y la
-
-                                         		    identidad de género. Criterios y estándares fijados.                                                  103
-
-
 ## 3.3 Otras iniciativas del Sistema Interamericano a favor de la igualdad y no discriminación por
 
-                                         		    orientación sexual e identidad de género                                                              127
+**Definición Canónica:** orientación sexual e identidad de género                                                              127
+
+orientación sexual e identidad de género                                                              127
 
                                          4. Análisis del caso de Karen Atala y niñas contra Chile                                                    129
 
-
-## 4.1 Hechos del caso, alegaciones jurídicas y el contexto nacional en que se insertan                     130
-
-
-
-## 4.2 El caso internacional: cronología y análisis de la sentencia                                         136
-
-
-
-## 4.3 Estado de cumplimiento de la sentencia y sus proyecciones en Chile                                   154
-
-
-                                         5. Principal regulación nacional en materia de orientación sexual e identidad de género                     156
-
-
-## 5.1 Marco constitucional y nacional sobre igualdad y no discriminación en relación a género              157
-
-
-
-## 5.2 Ley 20.609, que establece medidas contra la discriminación. Descripción general.                     159
-
-
-
-## 5.3 Ley 20.830, sobre acuerdo de unión civil. Descripción general.                                       167
-
-
-
-## 5.4 Ley 21.120, que reconoce y da protección al derecho a la identidad de género. Descripción general.   173
-
-Orientación sexual e                                                               Índice                                                                        5
-
-
 ## 6. Aplicación jurisprudencial de estándares internacionales sobre orientación sexual e
 
-                                            identidad de género por el Poder Judicial chileno                                                             176
+**Definición Canónica:** identidad de género por el Poder Judicial chileno                                                             176
+
+identidad de género por el Poder Judicial chileno                                                             176
 
                                             6.1 Estándares internacionales de derechos humanos y derecho nacional                                         177
 
@@ -221,11 +167,11 @@ Chile 2020               para el período 2019-2021.
 
                                             6.4 Perspectiva de género en la función jurisdiccional                                                        196
 
-
 ## 6.5 Propuestas para revisión jurisprudencial de sentencias dictadas por tribunales superiores de
 
+**Definición Canónica:** justicia y sus fundamentos                                                                                 199
 
-                                         		    justicia y sus fundamentos                                                                                 199
+justicia y sus fundamentos                                                                                 199
 
                                          Bibliografía201
 
@@ -277,7 +223,12 @@ Chile 2020               para el período 2019-2021.
 
 ## parte, ha creado a través su jurisprudencia ciertos estándares que
 
-                                         los Estados Partes deberían tener en cuenta, tanto al momento
+**Definición Canónica:** los Estados Partes deberían tener en cuenta, tanto al momento
+                                         de legislar, de adoptar políticas públicas o de ejercer la función
+                                         jurisdiccional.
+**Concordancias Legales:** Ley 20.609; Ley 20.830; Ley 21.120
+
+los Estados Partes deberían tener en cuenta, tanto al momento
                                          de legislar, de adoptar políticas públicas o de ejercer la función
                                          jurisdiccional.
 
@@ -412,10 +363,11 @@ el caso Atala                                                        de género
                                            la unidad
                                                          ——    Recorridos teórico-conceptuales sobre género
 
-
 ## 1.1        Distintas perspectivas de análisis
 
-                                                                    sobre la sexualidad humana
+**Definición Canónica:** sobre la sexualidad humana
+
+sobre la sexualidad humana
 
                                                                     En la actualidad, resulta frecuente que la sexualidad humana, y las
                                                                     dimensiones o contenidos que de ella derivan, estén presentes en
@@ -439,10 +391,15 @@ el caso Atala                                                        de género
 identidad de género:                                                            sexo, orientación sexual e identidad
 el caso Atala                                                                   de género
 
-
 ## 1.1.1 La sexualidad en las manifestaciones
 
-                                                                               cotidianas de la cultura humana
+**Definición Canónica:** cotidianas de la cultura humana
+                                         Lo que se puede                       En general, cuando se habla de “cultura”, se piensa en su acepción
+                                                                               más clásica, como constitutiva de aquello que Giddens llama “los
+                                         observar es que ha                    aspectos mentales más elevados”, como el arte, la literatura, la mú-
+                                         sido principalmente                   sica y la pintura. Sin embargo, también debemos ent
+
+cotidianas de la cultura humana
                                          Lo que se puede                       En general, cuando se habla de “cultura”, se piensa en su acepción
                                                                                más clásica, como constitutiva de aquello que Giddens llama “los
                                          observar es que ha                    aspectos mentales más elevados”, como el arte, la literatura, la mú-
@@ -496,7 +453,13 @@ el caso Atala                                                                   
 
 ## parte medular de la colección de los reyes españoles de la Casa de los
 
-                                                                                       Austrias que alberga el Museo del Prado en Madrid. Desde las inmor-
+**Definición Canónica:** Austrias que alberga el Museo del Prado en Madrid. Desde las inmor-
+                                         El gran masturbador, de Salvador
+                                         Dalí (1929)                                   tales Majas, del alabado Francisco de Goya, hasta Las tres gracias, ninfas
+                                                                                       y sátiros o el significativo trabajo denominado El rapto de Ganimides, de
+                                                                                       Peter Paul Rubens; pasando por Venus, el amor y 
+
+Austrias que alberga el Museo del Prado en Madrid. Desde las inmor-
                                          El gran masturbador, de Salvador
                                          Dalí (1929)                                   tales Majas, del alabado Francisco de Goya, hasta Las tres gracias, ninfas
                                                                                        y sátiros o el significativo trabajo denominado El rapto de Ganimides, de
@@ -524,10 +487,13 @@ el caso Atala                                                                   
                                                                                        siempre presente en la narrativa o en las diversas manifestaciones de
                                                                                        la escritura1.
 
-
 ## 1     La segunda obra inmortal de Ovidio, Las metamorfosis, recoge en quince volúmenes una serie de leyendas y
 
-                                                   relatos mitológicos de claro contenido erótico que narran desde esa óptica la creación e historia del mundo
+**Definición Canónica:** relatos mitológicos de claro contenido erótico que narran desde esa óptica la creación e historia del mundo
+                                                   de la mitología, sirviendo hasta estos días de obra básica de referencia para quienes se aproximan a estudiar
+                                                   ese universo de los mitos y las leyendas del antiguo mundo.
+
+relatos mitológicos de claro contenido erótico que narran desde esa óptica la creación e historia del mundo
                                                    de la mitología, sirviendo hasta estos días de obra básica de referencia para quienes se aproximan a estudiar
                                                    ese universo de los mitos y las leyendas del antiguo mundo.
 
@@ -807,7 +773,11 @@ el caso Atala                                                                 de
 
 ## parte de las investigaciones científico-académicas sobre sexualidad
 
-                                           con marcado carácter biológico, gran revolución en su tiempo causó
+**Definición Canónica:** con marcado carácter biológico, gran revolución en su tiempo causó
+                                           el estadounidense Alfred Kinsey con sus masivas encuestas sobre
+                                           conducta sexual en plena década de los 40 en su país. Su metodolo-
+
+con marcado carácter biológico, gran revolución en su tiempo causó
                                            el estadounidense Alfred Kinsey con sus masivas encuestas sobre
                                            conducta sexual en plena década de los 40 en su país. Su metodolo-
 
@@ -1016,10 +986,14 @@ el caso Atala                                                           de géne
 identidad de género:                                                   sexo, orientación sexual e identidad
 el caso Atala                                                          de género
 
-
 ## 1. Comentario a La historia de la sexualidad, partes 1, 2 y 3. Por Darin
 
-                                                                         Mcnabb, 2013.
+**Definición Canónica:** Mcnabb, 2013.
+                                                                         https://www.youtube.com/watch?v=kDovxD3TSMA
+                                                                         https://www.youtube.com/watch?v=4CiW1u_hsxE
+                                                                         https://www.youtube.com/watch?v=PtmU3_Gz1Rg
+
+Mcnabb, 2013.
                                                                          https://www.youtube.com/watch?v=kDovxD3TSMA
                                                                          https://www.youtube.com/watch?v=4CiW1u_hsxE
                                                                          https://www.youtube.com/watch?v=PtmU3_Gz1Rg
@@ -1170,15 +1144,16 @@ el caso Atala                                                          de géner
 identidad de género:                              sexo, orientación sexual e identidad
 el caso Atala                                     de género
 
-
-## 1.2     Sexualidad
-
-                                                 e identidad
-
-
 ## 1.2.1 El concepto de identidad y cómo se construye
 
-                                                 Para el Diccionario de la Real Academia de la Lengua Española,
+**Definición Canónica:** Para el Diccionario de la Real Academia de la Lengua Española,
+                                                 identidad es el “conjunto de rasgos propios de una persona o de
+                                                 una colectividad que los caracteriza frente a los demás”. En forma
+                                                 adicional, señala que es la “conciencia que una persona tiene de ser
+                                                 ella misma y distinta a las demás”.
+**Concordancias Legales:** artículo 29; constitución
+
+Para el Diccionario de la Real Academia de la Lengua Española,
                                                  identidad es el “conjunto de rasgos propios de una persona o de
                                                  una colectividad que los caracteriza frente a los demás”. En forma
                                                  adicional, señala que es la “conciencia que una persona tiene de ser
@@ -1368,10 +1343,17 @@ el caso Atala                                                      de género
                                            condición indispensable para el libre desarrollo de la personalidad.
                                            (Gauché Marchetti, 2018 págs. 175-222).
 
-
 ## 1.2.2 Sexualidad e identidad sexual en
 
-                                           niños, niñas y adolescentes.
+**Definición Canónica:** niños, niñas y adolescentes.
+                                           Desde hace varios años a la fecha, el mundo ha ido presenciando la
+                                           aparición en público de personas menores de edad que, desde muy
+                                           temprano, han reclamado que su identidad no está conforme con
+                                           el sexo asignado al nacer, o que se sienten atraídos por otros niños
+                                           o niñas de su mismo sexo y que, además, sufren violencia y discri-
+                           
+
+niños, niñas y adolescentes.
                                            Desde hace varios años a la fecha, el mundo ha ido presenciando la
                                            aparición en público de personas menores de edad que, desde muy
                                            temprano, han reclamado que su identidad no está conforme con
@@ -1390,10 +1372,16 @@ el caso Atala                                                      de género
 
 Orientación sexual e                     1. Marco teórico y conceptual sobre                                    35
 
-
 ## 1. Encuesta Nacional de Clima Escolar en Chile 2016, realizada por
 
-                                              la Fundación Todo Mejora.
+**Definición Canónica:** la Fundación Todo Mejora.
+                                              https://todomejora.org/wp-content/uploads/2016/08/Encues
+                                              ta-de-Clima-Escolar-2016-Fundacion-TODO-MEJORA.pdf
+                                           2. Encuesta T, desarrollada por iniciativa de OTD.
+                                              https://otdchile.org/encuesta-t-primer-estudio-que-caracteri
+                                              za-a-la-poblacion-trans-en-chile/
+
+la Fundación Todo Mejora.
                                               https://todomejora.org/wp-content/uploads/2016/08/Encues
                                               ta-de-Clima-Escolar-2016-Fundacion-TODO-MEJORA.pdf
                                            2. Encuesta T, desarrollada por iniciativa de OTD.
@@ -1469,10 +1457,13 @@ el caso Atala                                                      de género
                                                    autoerotismo. Para Freud, esta actividad está vinculada al placer
                                                    y la sexualidad.
 
-
 ## 3. Tercero, desde los 3 a 5 años. Es la “etapa fálica”, pues todo gira
 
-                                                   en torno al pene y los niños exhiben interés en sus genitales. De
+**Definición Canónica:** en torno al pene y los niños exhiben interés en sus genitales. De
+                                                   este modo, la principal sensación placentera sería la de orinar, pero
+                                                   también se originaría en esta fase el inicio de la curiosidad por las
+
+en torno al pene y los niños exhiben interés en sus genitales. De
                                                    este modo, la principal sensación placentera sería la de orinar, pero
                                                    también se originaría en esta fase el inicio de la curiosidad por las
 
@@ -1482,21 +1473,33 @@ el caso Atala                                                      de género
                                                      las evidentes diferencias observadas en la forma de los genitales
                                                      y terminando en intereses, modos de ser y de vestir, etcétera.
 
-
 ## 4. Cuarto, desde los 6 a 11 años. En este tiempo, los niños entran en
 
-                                                   la etapa que califica de “latencia”, pues no hay impulsos sexuales
+**Definición Canónica:** la etapa que califica de “latencia”, pues no hay impulsos sexuales
+                                                   activos. Aparecen los primeros cambios fisiológicos y algunos con-
+                                                   flictos mentales: son adultos-infantiles a la vez, hay inestabilidad
+                                                   de la afectividad, se produce el inicio de la relación con grupos
+                                                   del mismo sexo. Por ello es importante fortalecer autoestima y
+                                                   valoración po
+
+la etapa que califica de “latencia”, pues no hay impulsos sexuales
                                                    activos. Aparecen los primeros cambios fisiológicos y algunos con-
                                                    flictos mentales: son adultos-infantiles a la vez, hay inestabilidad
                                                    de la afectividad, se produce el inicio de la relación con grupos
                                                    del mismo sexo. Por ello es importante fortalecer autoestima y
                                                    valoración positiva de la amistad.
 
-
 ## 5. Quinto, en la pubertad. Entran los niños en una “etapa genital”
 
+**Definición Canónica:** en que comienza el verdadero interés sexual a partir de activida-
+                                                   des sexuales con los genitales, especialmente teniendo relaciones
+                                                   sexuales. La zona erógena relacionada con este momento vital
+                                                   vuelve a ser la de los genitales, pero a diferencia de lo que ocurre
+                                                   en la fase fálica, aquí ya se han desarrollado las competencias ne-
+                                                   cesarias para e
+**Concordancias Legales:** constitucion
 
-                                                   en que comienza el verdadero interés sexual a partir de activida-
+en que comienza el verdadero interés sexual a partir de activida-
                                                    des sexuales con los genitales, especialmente teniendo relaciones
                                                    sexuales. La zona erógena relacionada con este momento vital
                                                    vuelve a ser la de los genitales, pero a diferencia de lo que ocurre
@@ -1580,10 +1583,15 @@ el caso Atala                                                       de género
                                            constitucional (“Identidad de género de niños, niñas y adolescentes:
                                            una cuestión de derechos”, 2019).
 
-
 ## 1. Informe “Violencia contra personas LGTBI”, Comisión Intera-
 
-                                              mericana de Derechos Humanos, OAS/Ser.L/V/II.rev.2. Doc. 36.
+**Definición Canónica:** mericana de Derechos Humanos, OAS/Ser.L/V/II.rev.2. Doc. 36.
+                                              12 noviembre 2015. CAPÍTULO 5 | VIOLENCIA E INTERSEC-
+                                              CIÓN CON OTROS GRUPOS. D. Niños, niñas y adolescentes,
+                                              párrafos 301-330.
+                                              http://www.oas.org/es/cidh/informes/pdfs/violenciapersonaslgbti.pdf
+
+mericana de Derechos Humanos, OAS/Ser.L/V/II.rev.2. Doc. 36.
                                               12 noviembre 2015. CAPÍTULO 5 | VIOLENCIA E INTERSEC-
                                               CIÓN CON OTROS GRUPOS. D. Niños, niñas y adolescentes,
                                               párrafos 301-330.
@@ -1593,29 +1601,33 @@ el caso Atala                                                       de género
 
 ## 1. Mónica González Contró (Abogada, académica UNAM)
 
-                                              https://vimeo.com/436433948/94197f23b6
+**Definición Canónica:** https://vimeo.com/436433948/94197f23b6
                                               https://vimeo.com/436221341/72237d9e60
                                               https://vimeo.com/436220009/e7d5050a8c
 
+https://vimeo.com/436433948/94197f23b6
+                                              https://vimeo.com/436221341/72237d9e60
+                                              https://vimeo.com/436220009/e7d5050a8c
 
 ## 2. Mónica Flores (Psicóloga, Fundación Renaciendo)
 
-                                              https://vimeo.com/436485617/273e2d7354
+**Definición Canónica:** https://vimeo.com/436485617/273e2d7354
+
+https://vimeo.com/436485617/273e2d7354
 
 Orientación sexual e                                                1. Marco teórico y conceptual sobre                                   40
 identidad de género:                                                   sexo, orientación sexual e identidad
 el caso Atala                                                          de género
 
-
-## 1.3         Los aspectos biológicos, afectivos y sociales
-
-                                                                      de la sexualidad humana. Hablando de sexo, de
-                                                                      orientación sexual y de identidad de género.
-
-
 ## 1.3.1 La variedad infinita de la diversidad sexual
 
-                                         La sexualidad humana         La sexualidad humana involucra más que el sexo de una persona.
+**Definición Canónica:** La sexualidad humana         La sexualidad humana involucra más que el sexo de una persona.
+                                         involucra más que el         Incluye cómo se ve a sí misma desde las construcciones sociales, su
+                                                                      orientación sexual, lo erótico, el amor, las formas de reproducción,
+                                         sexo de una persona.         las formas de manifestar el deseo sexual y otros aspectos que son, a la
+                                         Incluye cómo se ve           vez, contenido y pr
+
+La sexualidad humana         La sexualidad humana involucra más que el sexo de una persona.
                                          involucra más que el         Incluye cómo se ve a sí misma desde las construcciones sociales, su
                                                                       orientación sexual, lo erótico, el amor, las formas de reproducción,
                                          sexo de una persona.         las formas de manifestar el deseo sexual y otros aspectos que son, a la
@@ -1704,10 +1716,14 @@ el caso Atala                                                          de géner
                                                 provisionalidad, sin asumir ni defender ninguna posición conceptual
                                                 y menos aún irreductible” (párrafo 31).
 
-
 ## 1.3.2 El sexo de las personas y sus distintas expresiones
 
-                                           En general, supone la referencia a los aspectos biológicos de cada
+**Definición Canónica:** En general, supone la referencia a los aspectos biológicos de cada
+                                           persona: el cuerpo. Es decir, las diferencias que se proyectan en la
+                                           anatomía, la fisiología y la respuesta sexual.
+**Concordancias Legales:** artículo 1
+
+En general, supone la referencia a los aspectos biológicos de cada
                                            persona: el cuerpo. Es decir, las diferencias que se proyectan en la
                                            anatomía, la fisiología y la respuesta sexual.
 
@@ -1804,10 +1820,15 @@ el caso Atala                                                      de género
                                            limita la expresión de las identidades (Saldivia, 2009 págs. 98-119,
                                            2017 págs. 35-61).
 
-
 ## 1.3.3 La orientación sexual
 
-                                           La orientación sexual de una persona tiene que ver con la atracción
+**Definición Canónica:** La orientación sexual de una persona tiene que ver con la atracción
+                                           amorosa, afectiva, erótica o sexual hacia otras personas, con carác-
+                                           ter relativamente permanente o estable. No queda así definida la
+                                           orientación sexual de una persona por un comportamiento sexual
+                                           determinado en un solo momento:
+
+La orientación sexual de una persona tiene que ver con la atracción
                                            amorosa, afectiva, erótica o sexual hacia otras personas, con carác-
                                            ter relativamente permanente o estable. No queda así definida la
                                            orientación sexual de una persona por un comportamiento sexual
@@ -1932,26 +1953,37 @@ el caso Atala                                                      de género
                                                                   sido manifestado en un estudio académico realizado en el medio
                                                                   chileno (Lorenzini, 2010).
 
-
 ## 1. Nota de prensa “Stonewall, la histórica noche en que los gays se
 
-                                                                     rebelaron en un bar de Nueva York y cambiaron millones de vidas”.
+**Definición Canónica:** rebelaron en un bar de Nueva York y cambiaron millones de vidas”.
+                                                                     https://www.bbc.com/mundo/noticias-internacional-48718688
+                                                                     (acceso: 27 de febrero de 2020)
+
+rebelaron en un bar de Nueva York y cambiaron millones de vidas”.
                                                                      https://www.bbc.com/mundo/noticias-internacional-48718688
                                                                      (acceso: 27 de febrero de 2020)
 
 ## 2. Mapa sobre la orientación sexual en el mundo, diciembre de 2019
 
-                                                                     (Fuente: ILGA, o la Asociación Internacional de Lesbianas, Gays,
+**Definición Canónica:** (Fuente: ILGA, o la Asociación Internacional de Lesbianas, Gays,
+                                                                     Transexuales e Intersex en español).
+                                                                     Puede ser reproducido citando la fuente: https://ilga.org/es/
+                                                                     mapas-legislacion-sobre-orientacion-sexual
+
+(Fuente: ILGA, o la Asociación Internacional de Lesbianas, Gays,
                                                                      Transexuales e Intersex en español).
                                                                      Puede ser reproducido citando la fuente: https://ilga.org/es/
                                                                      mapas-legislacion-sobre-orientacion-sexual
 
 Orientación sexual e                     1. Marco teórico y conceptual sobre                                        48
 
-
 ## 1.3.4 La identidad de género
 
-                                           La identidad de género tiene que ver con cómo se siente cada persona
+**Definición Canónica:** La identidad de género tiene que ver con cómo se siente cada persona
+                                           consigo misma, la adscripción individual a lo que cada sociedad
+                                           considera que es lo masculino o lo femenino.
+
+La identidad de género tiene que ver con cómo se siente cada persona
                                            consigo misma, la adscripción individual a lo que cada sociedad
                                            considera que es lo masculino o lo femenino.
 
@@ -2069,18 +2101,27 @@ el caso Atala                                                        de género
                                             o clasificación de personas, lo que debe evitarse cuidadosamente” (Hu-
                                             manas, 2017).
 
-
 ## 1. Opinión Consultiva 24/17 de la Corte Interamericana de Derechos
 
-                                              Humanos, de 24 de noviembre de 2017. Específicamente ver el
+**Definición Canónica:** Humanos, de 24 de noviembre de 2017. Específicamente ver el
                                               apartado “Glosario”, párrafos 30 y siguientes.
                                               http://www.corteidh.or.cr/docs/opiniones/seriea_24_esp.pdf
                                               (acceso: 24 de febrero de 2020)
 
+Humanos, de 24 de noviembre de 2017. Específicamente ver el
+                                              apartado “Glosario”, párrafos 30 y siguientes.
+                                              http://www.corteidh.or.cr/docs/opiniones/seriea_24_esp.pdf
+                                              (acceso: 24 de febrero de 2020)
 
 ## 1.3.4.2 Identidad de género y orientación sexual
 
-                                           Si un hombre transexual:
+**Definición Canónica:** Si un hombre transexual:
+                                           ——       Siente atracción amorosa y erótica por los hombres, se estará
+                                                    en presencia de un transexual masculino gay.
+                                           ——       Siente atracción amorosa y erótica por las mujeres se
+                                                    identificará como un transexual masculino heterosexual.
+
+Si un hombre transexual:
                                            ——       Siente atracción amorosa y erótica por los hombres, se estará
                                                     en presencia de un transexual masculino gay.
                                            ——       Siente atracción amorosa y erótica por las mujeres se
@@ -2098,10 +2139,16 @@ el caso Atala                                                        de género
                                            ——       Siente atracción por ambos sexos, se estará en presencia de
                                                     una persona trans bisexual.
 
-
 ## 1.3.4.3 Identidad de género y disforia de género
 
-                                           Durante muchos años, la transexualidad ha sido vista como una enfer-
+**Definición Canónica:** Durante muchos años, la transexualidad ha sido vista como una enfer-
+                                           medad, bajo el concepto de disforia de género. En términos simples,
+                                           se podría caracterizar que la disforia de género ha sido entendida y
+                                           tratada médicamente como la identificación persistente con un sexo
+                                           diverso al asignado al nacer, asociada a malestar, ansiedad, irritabilidad
+                                           o depresión. Por ello, hay que aclara
+
+Durante muchos años, la transexualidad ha sido vista como una enfer-
                                            medad, bajo el concepto de disforia de género. En términos simples,
                                            se podría caracterizar que la disforia de género ha sido entendida y
                                            tratada médicamente como la identificación persistente con un sexo
@@ -2150,15 +2197,14 @@ el caso Atala                                                        de género
 identidad de género:                                                sexo, orientación sexual e identidad
 el caso Atala                                                       de género
 
-
-## 1.4     Desarrollos en torno al
-
-                                                                   concepto de género
-
-
 ## 1.4.1 De los estudios de mujeres a los estudios
 
-                                                                   de género: recorridos teórico-conceptuales
+**Definición Canónica:** de género: recorridos teórico-conceptuales
+                                                                   La realidad, como ha ido quedado en evidencia con los contenidos de
+                                                                   esta unidad, muestra que cuando hablamos de “asuntos de género”,
+                                                                   hay que ir más allá de los “asuntos de mujeres”.
+
+de género: recorridos teórico-conceptuales
                                                                    La realidad, como ha ido quedado en evidencia con los contenidos de
                                                                    esta unidad, muestra que cuando hablamos de “asuntos de género”,
                                                                    hay que ir más allá de los “asuntos de mujeres”.
@@ -2189,8 +2235,11 @@ el caso Atala                                                       de género
 
 ## Lgtbiq+
 
+**Definición Canónica:** Orientación sexual e                                               1. Marco teórico y conceptual sobre                                   55
+identidad de género:                                                  sexo, orientación sexual e identidad
+el caso Atala                                                         de género
 
-Orientación sexual e                                               1. Marco teórico y conceptual sobre                                   55
+Orientación sexual e                                               1. Marco teórico y conceptual sobre                                   55
 identidad de género:                                                  sexo, orientación sexual e identidad
 el caso Atala                                                         de género
 
@@ -2199,7 +2248,11 @@ el caso Atala                                                         de género
 
 ## parte de la llamada teoría crítica, caracterizada por una posición
 
-                                                                     crítica con aquellas estructuras que producen desigualdad o discri-
+**Definición Canónica:** crítica con aquellas estructuras que producen desigualdad o discri-
+                                                                     minación, y que busca explicar la realidad y desvelar los mecanismos
+                                                                     y dispositivos de la opresión.
+
+crítica con aquellas estructuras que producen desigualdad o discri-
                                                                      minación, y que busca explicar la realidad y desvelar los mecanismos
                                                                      y dispositivos de la opresión.
 
@@ -2227,10 +2280,14 @@ el caso Atala                                                         de género
                                                                      ——       Un conjunto heterogéneo de teorías sociales que critican la
                                                                               posición desigual de las mujeres respecto a los hombres.
 
-
 ## 1.4.1.3 Diferentes tipos de feminismos
 
-                                                                     Algunos tipos de feminismos son:
+**Definición Canónica:** Algunos tipos de feminismos son:
+                                                                     ——       Feminismos de la igualdad: se levantan sobre la idea de que
+                                                                              las mujeres son oprimidas porque no se les trata de la misma
+                                                                              manera que a los hombres.
+
+Algunos tipos de feminismos son:
                                                                      ——       Feminismos de la igualdad: se levantan sobre la idea de que
                                                                               las mujeres son oprimidas porque no se les trata de la misma
                                                                               manera que a los hombres.
@@ -2349,7 +2406,10 @@ el caso Atala                                                           de géne
 
 ## parte sus instituciones se han construido sobre una matriz sin mayores
 
-                                           matices, no sólo adultocéntrica, sino principalmente androcéntrica y
+**Definición Canónica:** matices, no sólo adultocéntrica, sino principalmente androcéntrica y
+                                           patriarcal, generando así modelos normativos hetero y cisnormativos.
+
+matices, no sólo adultocéntrica, sino principalmente androcéntrica y
                                            patriarcal, generando así modelos normativos hetero y cisnormativos.
 
                                            ¿Qué es el adultocentrismo?
@@ -2402,10 +2462,14 @@ el caso Atala                                                               de g
                                                                               distribución del poder en la sociedad y de participación en los
                                                                               procesos de adopción de decisiones en todas las esferas y niveles.
 
-
 ## 1.4.1.7 Órdenes, regímenes e ideologías de género
 
-                                                                           Las relaciones de poder que existen en la sociedad, vistas desde un
+**Definición Canónica:** Las relaciones de poder que existen en la sociedad, vistas desde un
+                                                                           enfoque de género, permiten visibilizar la existencia de órdenes, re-
+                                                                           gímenes e ideologías de género que inciden en los comportamientos
+                                                                           sociales.
+
+Las relaciones de poder que existen en la sociedad, vistas desde un
                                                                            enfoque de género, permiten visibilizar la existencia de órdenes, re-
                                                                            gímenes e ideologías de género que inciden en los comportamientos
                                                                            sociales.
@@ -2473,10 +2537,15 @@ el caso Atala                                                                 de
                                            de actuación para la atención en justicia con enfoque de género y
                                            diversidad, Universidad de Concepción. Marco teórico.
 
-
 ## 1.4.2 Perspectivas críticas del género
 
-                                           Con todo, y los aportes de la categoría social del género para explicar
+**Definición Canónica:** Con todo, y los aportes de la categoría social del género para explicar
+                                           la realidad y la superación en buena medida de la perspectiva bio-
+                                           lógica para ver la sexualidad, los roles y las expectativas construidas
+                                           en torno a las personas, con los años, han venido siendo también
+                                           sometidas a críticas o a nuevas miradas.
+
+Con todo, y los aportes de la categoría social del género para explicar
                                            la realidad y la superación en buena medida de la perspectiva bio-
                                            lógica para ver la sexualidad, los roles y las expectativas construidas
                                            en torno a las personas, con los años, han venido siendo también
@@ -2543,17 +2612,13 @@ el caso Atala                                                                 de
                                            Material de apoyo para escuchar y comprender la teoría de Judith
                                            Butler:
 
-## 1. Sobre la perfomatividad del género
-
-                                              https://www.youtube.com/watch?v=4d-87MV05ZY
-
-## 2. Entrevista a Butler
-
-                                              https://www.youtube.com/watch?v=qhVWedXlk80
-
 ## 3. Documental
 
-                                              https://www.youtube.com/watch?v=KkB8O7-jGoM
+**Definición Canónica:** https://www.youtube.com/watch?v=KkB8O7-jGoM
+                                              https://www.youtube.com/watch?v=z0bpayvVy58
+                                              https://www.youtube.com/watch?v=F40x7h3YX8U
+
+https://www.youtube.com/watch?v=KkB8O7-jGoM
                                               https://www.youtube.com/watch?v=z0bpayvVy58
                                               https://www.youtube.com/watch?v=F40x7h3YX8U
 
@@ -2598,11 +2663,16 @@ el caso Atala                                                                 de
                                                 destacada, encierra la posibilidad de una democratización radical de
                                                 la esfera personal.
 
-
 ## 2. Jeffrey Weeks
 
+**Definición Canónica:** El escocés Jeffrey ha aportado nuevos desarrollos a la idea de que la
+                                                sexualidad es algo construido históricamente a partir de los distintos
+                                                desarrollos socioculturales. En su planteamiento, las prácticas sexuales
+                                                constituyen un producto histórico y social, más que una consecuen-
+                                                cia universal de nuestra biología común. La sociedad opera como el
+                                                principio in
 
-                                                El escocés Jeffrey ha aportado nuevos desarrollos a la idea de que la
+El escocés Jeffrey ha aportado nuevos desarrollos a la idea de que la
                                                 sexualidad es algo construido históricamente a partir de los distintos
                                                 desarrollos socioculturales. En su planteamiento, las prácticas sexuales
                                                 constituyen un producto histórico y social, más que una consecuen-
@@ -2624,11 +2694,16 @@ el caso Atala                                                                 de
 
 Orientación sexual e                     1. Marco teórico y conceptual sobre                                           65
 
-
 ## 3. Pierre Bourdieu
 
+**Definición Canónica:** El orden de las cosas, que se entiende como uno natural, no es tal, sino
+                                                una construcción mental. Es una forma de ver y entender el mundo
+                                                desde el hombre satisfaciendo su necesidad de dominio. La mujer, la
+                                                víctima, ha asumido esta forma de actuar a tal punto que acepta de
+                                                manera inconsciente su inferioridad. El autor hace su análisis basado
+                                                en la sociedad ca
 
-                                                El orden de las cosas, que se entiende como uno natural, no es tal, sino
+El orden de las cosas, que se entiende como uno natural, no es tal, sino
                                                 una construcción mental. Es una forma de ver y entender el mundo
                                                 desde el hombre satisfaciendo su necesidad de dominio. La mujer, la
                                                 víctima, ha asumido esta forma de actuar a tal punto que acepta de
@@ -2651,11 +2726,16 @@ el caso Atala                                                                 de
                                                 concepciones o representaciones individuales y sociales que se traducen
                                                 en prácticas donde el pasado se perpetúa en la mitología colectiva.
 
-
 ## 4. R.W. Connell
 
+**Definición Canónica:** Académica trans que antes de su transición fue conocida como Robert
+                                                Williams Connell. Todas sus publicaciones anteriores las suscribió con
+                                                el nombre neutral de género “R.W. Connell”. Desde el año 2006, en
+                                                todas sus publicaciones aparece como Raewyn Connell. Es pionera
+                                                en el desarrollo del campo de investigación que trata la masculinidad
+                                                como construcción soc
 
-                                                Académica trans que antes de su transición fue conocida como Robert
+Académica trans que antes de su transición fue conocida como Robert
                                                 Williams Connell. Todas sus publicaciones anteriores las suscribió con
                                                 el nombre neutral de género “R.W. Connell”. Desde el año 2006, en
                                                 todas sus publicaciones aparece como Raewyn Connell. Es pionera
@@ -2709,10 +2789,12 @@ el caso Atala                                                        y no discri
 
                                            la unidad     ——    Referencias a jurisprudencia relevante
 
-
 ## 2.1        La igualdad y la prohibición de discriminación en el
 
-                                                                    derecho internacional de los derechos humanos
+**Definición Canónica:** derecho internacional de los derechos humanos
+**Concordancias Legales:** artículo 27; constitucion
+
+derecho internacional de los derechos humanos
 
                                                                     Hasta mitad del siglo XX, el Derecho Internacional (DI) se limitaba
                                                                     a regular las relaciones interestatales, esto es, a establecer derechos
@@ -2821,8 +2903,9 @@ el caso Atala                                                 y no discriminaci�
 
 ## (oea)
 
+**Definición Canónica:** — Africano, desarrollado al alero de la Unión Africana
 
-                                                               — Africano, desarrollado al alero de la Unión Africana
+— Africano, desarrollado al alero de la Unión Africana
 
 Orientación sexual e                                                        2. Estándares internacionales                                                 71
 identidad de género:                                                           en materia de igualdad
@@ -2843,7 +2926,11 @@ el caso Atala                                                                  y
 
 ## 1. La Declaración Universal de los Derechos Humanos (1948). El
 
-                                         Carta Internacional                     artículo 1° establece que “todos los seres humanos nacen libres e
+**Definición Canónica:** Carta Internacional                     artículo 1° establece que “todos los seres humanos nacen libres e
+                                         de Derechos
+**Concordancias Legales:** artículo 1; artículo 2; artículo 7; artículo 10; artículo 16; artículo 23
+
+Carta Internacional                     artículo 1° establece que “todos los seres humanos nacen libres e
                                          de Derechos
 
                                                                                  iguales en dignidad y derechos”, mientras que el artículo 2° agrega
@@ -2867,10 +2954,12 @@ el caso Atala                                                                  y
                                                                                  caso de la disolución del mismo. El artículo 23, en tanto, garantiza
                                                                                  a todos el derecho a igual salario por trabajo igual.
 
-
 ## 2. El Pacto Internacional de Derechos Civiles y Políticos (PIDCP)
 
-                                                                                 y el Pacto Internacional de Derechos Económicos, Sociales y
+**Definición Canónica:** y el Pacto Internacional de Derechos Económicos, Sociales y
+                                                                                 Culturales (PIDESC), ambos de 1966 y en vigor de 19763.
+
+y el Pacto Internacional de Derechos Económicos, Sociales y
                                                                                  Culturales (PIDESC), ambos de 1966 y en vigor de 19763.
 
                                            3   Chile firmó el PIDCP el 16 de septiembre de 1969 y lo ratificó el 10 de febrero de 1972. D.O. 29/04/1989. Por
@@ -2882,17 +2971,22 @@ el caso Atala                                                                  y
 identidad de género:                                                         en materia de igualdad
 el caso Atala                                                                y no discriminación
 
-
 ## 3. El PIDCP se complementa con dos Protocolos Facultativos. El
 
-                                                                               primero (en vigor desde 1976) incluye el mecanismo de quejas
+**Definición Canónica:** primero (en vigor desde 1976) incluye el mecanismo de quejas
                                                                                individuales4. El segundo (en vigor desde 1991) va destinado a
                                                                                abolir la pena de muerte5.
 
+primero (en vigor desde 1976) incluye el mecanismo de quejas
+                                                                               individuales4. El segundo (en vigor desde 1991) va destinado a
+                                                                               abolir la pena de muerte5.
 
 ## 4. El PIDESC, en tanto, cuenta con un Protocolo Facultativo de
 
-                                                                               2008 para quejas individuales, en vigor desde 20136.
+**Definición Canónica:** 2008 para quejas individuales, en vigor desde 20136.
+**Concordancias Legales:** artículos 2; artículo 2; artículo 26; Artículo 3; artículo 16; Artículo 4; Artículo 14; Artículo 20; artículo 19; artículo 22; Artículo 23; Artículo 24; Artículo 25; Artículo 27; artículo 28; Artículo 7; Artículo 10; Artículo 13; artículo 2.2
+
+2008 para quejas individuales, en vigor desde 20136.
 
                                                                             Además de la Carta Internacional de Derechos Humanos, existe un
                                                                             conjunto de tratados específicos, algunos adoptados incluso antes
@@ -3212,14 +3306,12 @@ el caso Atala                                                                 y 
 
                                                                              Material de apoyo (Academia Judicial):
 
-## 1. Prof. Nicolás Espejo (ONU), Igualdad y no discriminación en el
-
-                                                                                sistema universal.
-                                                                                https://vimeo.com/435889961/8528b83689
-
 ## 2. Prof. Tomás Vial (UDP), Igualdad y no discriminación en el sis-
 
-                                                                                tema europeo.
+**Definición Canónica:** tema europeo.
+                                                                                https://vimeo.com/435889892/e3f7888ce4
+
+tema europeo.
                                                                                 https://vimeo.com/435889892/e3f7888ce4
 
                                          12   Doc. NU E/C.12/2000/13.
@@ -3231,10 +3323,13 @@ el caso Atala                                                                 y 
 identidad de género:                                               en materia de igualdad
 el caso Atala                                                      y no discriminación
 
-
 ## 2.2        Principales instrumentos internacionales y el
 
-                                                                  trabajo de órganos internacionales en el Sistema
+**Definición Canónica:** trabajo de órganos internacionales en el Sistema
+                                                                  Interamericano de Protección de Derechos Humanos
+**Concordancias Legales:** artículo 3; artículo 45; artículo 9; artículo 2; artículo 64 de la Convención; artículo 20; artículo 18; artículo 1; Artículo 8; artículo 62; artículo 21; Artículo 13; Artículo 17; Artículo 22; Artículo 23; Artículo 24; Artículo 25; Artículo 27
+
+trabajo de órganos internacionales en el Sistema
                                                                   Interamericano de Protección de Derechos Humanos
 
                                          La Carta de la           La Carta de la Organización de Estados Americanos, en el artículo
@@ -3446,20 +3541,33 @@ el caso Atala                                                                 y 
                                                    condición de salud mental o física, incluyendo infectocontagiosa,
                                                    psíquica incapacitante o cualquier otra.
 
-
 ## 3. Discriminación indirecta es la que se produce, en la esfera públi-
 
-                                                   ca o privada, cuando una disposición, un criterio o una práctica,
+**Definición Canónica:** ca o privada, cuando una disposición, un criterio o una práctica,
+                                                   aparentemente neutro es susceptible de implicar una desventaja
+                                                   particular para las personas que pertenecen a un grupo específico,
+                                                   o los pone en desventaja, a menos que dicha disposición, criterio
+                                                   o práctica tenga un objetivo o justificación razonable y legítimo a
+                                                   la luz del dere
+
+ca o privada, cuando una disposición, un criterio o una práctica,
                                                    aparentemente neutro es susceptible de implicar una desventaja
                                                    particular para las personas que pertenecen a un grupo específico,
                                                    o los pone en desventaja, a menos que dicha disposición, criterio
                                                    o práctica tenga un objetivo o justificación razonable y legítimo a
                                                    la luz del derecho internacional de los derechos humanos.
 
-
 ## 4. Discriminación múltiple o agravada es cualquier preferencia, dis-
 
-                                                   tinción, exclusión o restricción basada, de forma concomitante, en
+**Definición Canónica:** tinción, exclusión o restricción basada, de forma concomitante, en
+                                                   dos o más de los motivos mencionados en el artículo 1.1 u otros
+                                                   reconocidos en instrumentos internacionales que tenga por obje-
+                                                   tivo o efecto anular o limitar, el reconocimiento, goce o ejercicio,
+                                                   en condiciones de igualdad, de uno o más derechos humanos y
+                                                   libertades fundamenta
+**Concordancias Legales:** artículo 1.1
+
+tinción, exclusión o restricción basada, de forma concomitante, en
                                                    dos o más de los motivos mencionados en el artículo 1.1 u otros
                                                    reconocidos en instrumentos internacionales que tenga por obje-
                                                    tivo o efecto anular o limitar, el reconocimiento, goce o ejercicio,
@@ -3468,10 +3576,16 @@ el caso Atala                                                                 y 
                                                    nacionales aplicables a los Estados Partes, en cualquier ámbito de
                                                    la vida pública o privada.
 
-
 ## 5. No constituyen discriminación las medidas especiales o acciones
 
-                                                   afirmativas adoptadas para garantizar en condiciones de igualdad,
+**Definición Canónica:** afirmativas adoptadas para garantizar en condiciones de igualdad,
+                                                   el goce o ejercicio de uno o más derechos humanos y libertades
+                                                   fundamentales de grupos que así lo requieran, siempre que tales
+                                                   medidas no impliquen el mantenimiento de derechos separados
+                                                   para grupos distintos y que no se perpetúen después de alcanzados
+                                                   sus objetivos.
+
+afirmativas adoptadas para garantizar en condiciones de igualdad,
                                                    el goce o ejercicio de uno o más derechos humanos y libertades
                                                    fundamentales de grupos que así lo requieran, siempre que tales
                                                    medidas no impliquen el mantenimiento de derechos separados
@@ -3480,10 +3594,16 @@ el caso Atala                                                                 y 
 
 Orientación sexual e                     2. Estándares internacionales                                            86
 
-
 ## 6. Intolerancia es el acto o conjunto de actos o manifestaciones que
 
-                                                   expresan el irrespeto, rechazo o desprecio de la dignidad, carac-
+**Definición Canónica:** expresan el irrespeto, rechazo o desprecio de la dignidad, carac-
+                                                   terísticas, convicciones u opiniones de los seres humanos por ser
+                                                   diferentes o contrarias. Puede manifestarse como marginación
+                                                   y exclusión de la participación en cualquier ámbito de la vida
+                                                   pública o privada de grupos en condiciones de vulnerabilidad o
+                                                   como violencia contra ello
+
+expresan el irrespeto, rechazo o desprecio de la dignidad, carac-
                                                    terísticas, convicciones u opiniones de los seres humanos por ser
                                                    diferentes o contrarias. Puede manifestarse como marginación
                                                    y exclusión de la participación en cualquier ámbito de la vida
@@ -3494,10 +3614,13 @@ el caso Atala                                                                 y 
 identidad de género:                                          en materia de igualdad
 el caso Atala                                                 y no discriminación
 
-
 ## 2.3           Principal jurisprudencia sobre igualdad
 
-                                                               y no discriminación en el Sistema
+**Definición Canónica:** y no discriminación en el Sistema
+                                                               Interamericano de Derechos Humanos
+**Concordancias Legales:** Constitución
+
+y no discriminación en el Sistema
                                                                Interamericano de Derechos Humanos
 
                                          Principales sentencias de la Corte Interamericana de DDHH
@@ -3569,10 +3692,16 @@ el caso Atala                                                y no discriminació
                                                                 admisible crear diferencias de tratamiento entre seres humanos
                                                                 que no se correspondan con su única e idéntica naturaleza.
 
-
 ## 56. Sin embargo, por lo mismo que la igualdad y la no discrimina-
 
-                                                                ción se desprenden de la idea de unidad de dignidad y naturaleza
+**Definición Canónica:** ción se desprenden de la idea de unidad de dignidad y naturaleza
+                                                                de la persona es preciso concluir que no todo tratamiento jurí-
+                                                                dico diferente es propiamente discriminatorio, porque no toda
+                                                                distinción de trato puede considerarse ofensiva, por sí misma,
+                                                                de la dignidad humana. Ya la Corte Europea de Derechos Hu-
+                               
+
+ción se desprenden de la idea de unidad de dignidad y naturaleza
                                                                 de la persona es preciso concluir que no todo tratamiento jurí-
                                                                 dico diferente es propiamente discriminatorio, porque no toda
                                                                 distinción de trato puede considerarse ofensiva, por sí misma,
@@ -3594,10 +3723,12 @@ el caso Atala                                                y no discriminació
                                                gozar de salud mental, no están en condiciones de ejercerla sin
                                                riesgo de su propio patrimonio.
 
-
 ## 57. No habrá, pues, discriminación si una distinción de tratamiento
 
-                                               está orientada legítimamente, es decir, si no conduce a situaciones
+**Definición Canónica:** está orientada legítimamente, es decir, si no conduce a situaciones
+                                               contrarias a la justicia, a la razón o a la naturaleza de las cosas.
+
+está orientada legítimamente, es decir, si no conduce a situaciones
                                                contrarias a la justicia, a la razón o a la naturaleza de las cosas.
 
                                                De ahí que no pueda afirmarse que exista discriminación en toda
@@ -3610,10 +3741,16 @@ el caso Atala                                                y no discriminació
                                                que de alguna manera repugnen a la esencial unidad y dignidad
                                                de la naturaleza humana.
 
-
 ## 58. Si bien no puede desconocerse que las circunstancias de
 
-                                               hecho pueden hacer más o menos difícil apreciar si se está o
+**Definición Canónica:** hecho pueden hacer más o menos difícil apreciar si se está o
+                                               no en presencia de una situación como la descrita en el párrafo
+                                               anterior, es también cierto que, partiendo de la base de la esen-
+                                               cial unidad de la dignidad del ser humano, es posible apreciar
+                                               circunstancias en que los imperativos del bien común puedan
+                                               justificar un mayor o menor grado de distinciones q
+
+hecho pueden hacer más o menos difícil apreciar si se está o
                                                no en presencia de una situación como la descrita en el párrafo
                                                anterior, es también cierto que, partiendo de la base de la esen-
                                                cial unidad de la dignidad del ser humano, es posible apreciar
@@ -3624,10 +3761,14 @@ el caso Atala                                                y no discriminació
                                                que están llamados a materializarse y que dejan un cierto margen
                                                de apreciación para la expresión que deben asumir en cada caso.
 
-
 ## 59. En esa perspectiva, la corte reitera el ya expresado señala-
 
-                                               miento según el cual, a los efectos del otorgamiento de la na-
+**Definición Canónica:** miento según el cual, a los efectos del otorgamiento de la na-
+                                               turalización, es el Estado que la concede el llamado a apreciar
+                                               en qué medida existen y cómo deben apreciarse las condiciones
+**Concordancias Legales:** artículo 1.1 de la Convención Americana obliga a los Estados a r
+
+miento según el cual, a los efectos del otorgamiento de la na-
                                                turalización, es el Estado que la concede el llamado a apreciar
                                                en qué medida existen y cómo deben apreciarse las condiciones
 
@@ -3655,10 +3796,17 @@ el caso Atala                                                y no discriminació
 
                                                (…)
 
-
 ## 55. Se puede concluir, que en razón de las condiciones en las
 
-                                               que se encuentran los niños, el trato diferente que se otorga a
+**Definición Canónica:** que se encuentran los niños, el trato diferente que se otorga a
+                                               los mayores y a los menores de edad no es per se discriminatorio,
+                                               en el sentido proscrito por la convención. Por el contrario, sirve
+                                               al propósito de permitir el cabal ejercicio de los derechos reco-
+                                               nocidos al niño. Se entiende que, en virtud de los artículos 1.1 y
+                                               24 de la convención, los Estados no
+**Concordancias Legales:** artículos 1.1
+
+que se encuentran los niños, el trato diferente que se otorga a
                                                los mayores y a los menores de edad no es per se discriminatorio,
                                                en el sentido proscrito por la convención. Por el contrario, sirve
                                                al propósito de permitir el cabal ejercicio de los derechos reco-
@@ -3677,19 +3825,29 @@ el caso Atala                                                y no discriminació
 
 Orientación sexual e                     2. Estándares internacionales                                           91
 
-
 ## 95. Las garantías consagradas en los artículos 8º y 25 de la con-
 
-                                               vención se reconocen a todas las personas por igual, y deben
+**Definición Canónica:** vención se reconocen a todas las personas por igual, y deben
+                                               correlacionarse con los derechos específicos que estatuye, además,
+                                               el artículo 19, en forma que se reflejen en cualesquiera procesos
+                                               administrativos o judiciales en los que se discuta algún derecho
+                                               de un niño.
+**Concordancias Legales:** artículo 19
+
+vención se reconocen a todas las personas por igual, y deben
                                                correlacionarse con los derechos específicos que estatuye, además,
                                                el artículo 19, en forma que se reflejen en cualesquiera procesos
                                                administrativos o judiciales en los que se discuta algún derecho
                                                de un niño.
 
-
 ## 96. Es evidente que las condiciones en las que participa un niño
 
-                                               en un proceso no son las mismas en que lo hace un adulto. Si
+**Definición Canónica:** en un proceso no son las mismas en que lo hace un adulto. Si
+                                               se sostuviera otra cosa se desconocería la realidad y se omitiría
+                                               la adopción de medidas especiales para la protección de los
+                                               niños, con grave perjuicio para estos mismos. Por lo tanto, es
+
+en un proceso no son las mismas en que lo hace un adulto. Si
                                                se sostuviera otra cosa se desconocería la realidad y se omitiría
                                                la adopción de medidas especiales para la protección de los
                                                niños, con grave perjuicio para estos mismos. Por lo tanto, es
@@ -3698,10 +3856,16 @@ el caso Atala                                                y no discriminació
                                                corresponden a diferencias de situación, entre quienes participan
                                                en un procedimiento.
 
-
 ## 97. A este respecto, conviene recordar que la corte señaló en la
 
-                                               Opinión Consultiva acerca del derecho a la información sobre
+**Definición Canónica:** Opinión Consultiva acerca del derecho a la información sobre
+                                               la asistencia consular en el marco de las garantías del debido
+                                               proceso legal cuando abordó esta materia desde una perspectiva
+                                               general, que, para alcanzar sus objetivos, el proceso debe reco-
+                                               nocer y resolver los factores de desigualdad real de quienes son
+                                               llevados ante la justicia. Es así como se atiend
+
+Opinión Consultiva acerca del derecho a la información sobre
                                                la asistencia consular en el marco de las garantías del debido
                                                proceso legal cuando abordó esta materia desde una perspectiva
                                                general, que, para alcanzar sus objetivos, el proceso debe reco-
@@ -3720,10 +3884,12 @@ el caso Atala                                                y no discriminació
                                                nefician de un debido proceso legal en condiciones de igualdad
                                                con quienes no afrontan esas desventajas.
 
-
 ## 98. En definitiva, si bien los derechos procesales y sus correla-
 
-                                               tivas garantías son aplicables a todas las personas, en el caso de
+**Definición Canónica:** tivas garantías son aplicables a todas las personas, en el caso de
+                                               los niños el ejercicio de aquéllos supone, por las condiciones
+
+tivas garantías son aplicables a todas las personas, en el caso de
                                                los niños el ejercicio de aquéllos supone, por las condiciones
 
 Orientación sexual e                     2. Estándares internacionales                                             92
@@ -3740,10 +3906,16 @@ el caso Atala                                                y no discriminació
 
                                                (…)
 
-
 ## 83. La no discriminación, junto con la igualdad ante la ley y la igual
 
-                                               protección de la ley a favor de todas las personas, son elementos
+**Definición Canónica:** protección de la ley a favor de todas las personas, son elementos
+                                               constitutivos de un principio básico y general relacionado con la
+                                               protección de los derechos humanos. El elemento de la igualdad
+                                               es difícil de desligar de la no discriminación. Incluso, los instru-
+                                               mentos ya citados (…) al hablar de igualdad ante la ley, señalan
+                                               que este principio debe garantizarse
+
+protección de la ley a favor de todas las personas, son elementos
                                                constitutivos de un principio básico y general relacionado con la
                                                protección de los derechos humanos. El elemento de la igualdad
                                                es difícil de desligar de la no discriminación. Incluso, los instru-
@@ -3790,7 +3962,11 @@ el caso Atala                                                y no discriminació
 
 ## parte del derecho internacional general. En la actual etapa de la
 
-                                               evolución del derecho internacional, el principio fundamental
+**Definición Canónica:** evolución del derecho internacional, el principio fundamental
+                                               de igualdad y no discriminación ha ingresado en el dominio del
+                                               jus cogens”.
+
+evolución del derecho internacional, el principio fundamental
                                                de igualdad y no discriminación ha ingresado en el dominio del
                                                jus cogens”.
 
@@ -3805,10 +3981,17 @@ el caso Atala                                                y no discriminació
 
 Orientación sexual e                     2. Estándares internacionales                                      94
 
-
 ## 1. Comisión Interamericana de Derechos Humanos. Violencia y
 
-                                              discriminación contra mujeres, niñas y adolescentes, 2019.
+**Definición Canónica:** discriminación contra mujeres, niñas y adolescentes, 2019.
+                                              http://www.oas.org/es/cidh/informes/pdfs/ViolenciaMujeresNNA.
+                                              pdf
+                                           2. Violencia y discriminación contra mujeres, niñas y adolescentes.
+                                              Anexo 1. Estándares y recomendaciones, 2019.
+                                              http://www.oas.org/es/cidh/informes/pdfs/violencia-discrimina-
+                                              cion-mujeres-Anexo1-es.pdf
+
+discriminación contra mujeres, niñas y adolescentes, 2019.
                                               http://www.oas.org/es/cidh/informes/pdfs/ViolenciaMujeresNNA.
                                               pdf
                                            2. Violencia y discriminación contra mujeres, niñas y adolescentes.
@@ -3827,13 +4010,20 @@ el caso Atala                                                y no discriminació
 
 ## 5. Comisión Interamericana de Derechos Humanos. Reconocimiento
 
-                                              de derechos de personas LGBTI, 2019.
+**Definición Canónica:** de derechos de personas LGBTI, 2019.
+                                              http://www.oas.org/es/cidh/informes/pdfs/LGBTI-Reconocimien-
+                                              toDerechos2019.pdf
+
+de derechos de personas LGBTI, 2019.
                                               http://www.oas.org/es/cidh/informes/pdfs/LGBTI-Reconocimien-
                                               toDerechos2019.pdf
 
 ## 6. Comisión Interamericana de Derechos Humanos. Estándares
 
-                                              jurídicos: igualdad de género y derechos de las mujeres, 2015.
+**Definición Canónica:** jurídicos: igualdad de género y derechos de las mujeres, 2015.
+                                              http://www.oas.org/es/cidh/informes/pdfs/EstandaresJuridicos.pdf
+
+jurídicos: igualdad de género y derechos de las mujeres, 2015.
                                               http://www.oas.org/es/cidh/informes/pdfs/EstandaresJuridicos.pdf
 
                                          La orientación sexual
@@ -3855,10 +4045,14 @@ el caso Atala                                                         de los der
                                                          ——     Principales desarrollos del Sistema Interamericano
                                            la unidad
 
-
 ## 3.1         Evolución y desarrollos en el sistema universal
 
-                                                                     y europeo de derechos humanos en torno
+**Definición Canónica:** y europeo de derechos humanos en torno
+                                                                     a la orientación sexual y la identidad de
+                                                                     género. Criterios y estándares fijados.
+**Concordancias Legales:** artículo 17 del PIDCP; artículo 2.1; artículo 1
+
+y europeo de derechos humanos en torno
                                                                      a la orientación sexual y la identidad de
                                                                      género. Criterios y estándares fijados.
 
@@ -3970,7 +4164,10 @@ el caso Atala                                 de los derechos humanos
 
 ## 1. La discriminación en el derecho a la privacidad de las rela-
 
-                                              ciones personales.
+**Definición Canónica:** ciones personales.
+                                                ——       Caso Dudgeon contra Reino Unido, promovido en 1976
+
+ciones personales.
                                                 ——       Caso Dudgeon contra Reino Unido, promovido en 1976
 
                                                          y fallado el 22 de octubre de 1981.
@@ -3987,10 +4184,12 @@ el caso Atala                                 de los derechos humanos
                                                 a la privacidad y que no existían las justificaciones suficientes a
                                                 las injerencias en este derecho a que apelaban los Estados.
 
-
 ## 2. La discriminación en el ámbito de la familia
 
-                                                Sobre custodia de hijos o hijas por homosexuales:
+**Definición Canónica:** Sobre custodia de hijos o hijas por homosexuales:
+                                                ——       Caso Salgueiro de Silva Mouta contra Portugal (1999)
+
+Sobre custodia de hijos o hijas por homosexuales:
                                                 ——       Caso Salgueiro de Silva Mouta contra Portugal (1999)
 
                                                 Sobre adopción de hijos o hijas por homosexuales:
@@ -4014,10 +4213,15 @@ el caso Atala                                                        de los dere
 
                                                                          ——       Caso Orlandi y otros contra Italia (2017)
 
-
 ## 3. La discriminación en la actividad militar
 
-                                                                         ——       Caso Smith & Grady contra Reino Unido (1999)
+**Definición Canónica:** ——       Caso Smith & Grady contra Reino Unido (1999)
+                                                                         ——       Caso Lustig Prean y Beckett contra Reino Unido (1999)
+                                                                         ——       Caso Brown contra Reino Unido (2003)
+                                                                         ——       Caso Hunt and Miller contra Reino Unido (2009)
+**Concordancias Legales:** artículo 8; artículo 12 del TEDH
+
+——       Caso Smith & Grady contra Reino Unido (1999)
                                                                          ——       Caso Lustig Prean y Beckett contra Reino Unido (1999)
                                                                          ——       Caso Brown contra Reino Unido (2003)
                                                                          ——       Caso Hunt and Miller contra Reino Unido (2009)
@@ -4050,10 +4254,13 @@ el caso Atala                                                        de los dere
                                            final situaciones de exclusión o limitación de personas trans en el
                                            goce de algunos derechos.
 
-
 ## 1. El primer caso: Caso Van Oosterwijck contra Bélgica (1980)
 
-                                              La primera ocasión para que el TEDH entrara a esta temática
+**Definición Canónica:** La primera ocasión para que el TEDH entrara a esta temática
+                                              fue a partir de la reclamación de un varón transexual que había
+**Concordancias Legales:** artículos 8; artículo 3
+
+La primera ocasión para que el TEDH entrara a esta temática
                                               fue a partir de la reclamación de un varón transexual que había
 
                                               recibido tratamiento hormonal y cirugía para la reasignación,
@@ -4068,10 +4275,16 @@ el caso Atala                                                        de los dere
                                               agotado los recursos internos por lo cual no se pudo conocer
                                               cuál habría sido su postura de fondo frente a esta presentación.
 
-
 ## 2. La discriminación en el derecho a la vida privada (primera
 
-                                              etapa jurisprudencial)
+**Definición Canónica:** etapa jurisprudencial)
+                                              Las primeras veces que se planteó esta cuestión ante este tribunal
+                                              con éxito fue en:
+                                                ——       Caso Rees contra Reino Unido (1986)
+                                                ——       Caso Cossey contra Reino Unido (1990)
+**Concordancias Legales:** artículo 8.1 del CEDH; artículo 8
+
+etapa jurisprudencial)
                                               Las primeras veces que se planteó esta cuestión ante este tribunal
                                               con éxito fue en:
                                                 ——       Caso Rees contra Reino Unido (1986)
@@ -4092,7 +4305,15 @@ el caso Atala                                                        de los dere
 
 ## 3. La discriminación en el derecho a la vida privada (segunda
 
-                                              etapa jurisprudencial)
+**Definición Canónica:** etapa jurisprudencial)
+                                              El punto de inflexión en el derecho de los transexuales al matri-
+                                              monio y el inicio de una segunda línea argumental por el sistema
+                                              europeo de derechos humanos, lo marcan las sentencias de los
+                                              siguientes asuntos:
+                                                ——       Casos I. y Christine Goodwin contra Reino Unido (2002).
+                                                         El TEDH dej
+
+etapa jurisprudencial)
                                               El punto de inflexión en el derecho de los transexuales al matri-
                                               monio y el inicio de una segunda línea argumental por el sistema
                                               europeo de derechos humanos, lo marcan las sentencias de los
@@ -4117,10 +4338,13 @@ el caso Atala                                                        de los dere
 identidad de género:                                                género en el derecho internacional
 el caso Atala                                                       de los derechos humanos
 
-
 ## 3.2      El Sistema Interamericano de Derechos Humanos
 
-                                                                   en relación a la orientación sexual y la identidad
+**Definición Canónica:** en relación a la orientación sexual y la identidad
+                                                                   de género. Criterios y estándares fijados.
+**Concordancias Legales:** artículo 225 del Código Civil de la época
+
+en relación a la orientación sexual y la identidad
                                                                    de género. Criterios y estándares fijados.
 
                                                                    El primer caso. Marta Álvarez Giraldo contra Colombia (1996)
@@ -4188,14 +4412,12 @@ el caso Atala                                                       de los derec
                                            niño o niña y no asumir, a modo de prejuicios, ideas preconcebidas
                                            sobre los hechos.
 
-
-## 1. Sentencia de la Cuarta Sala de la Corte Suprema de Chile, de
-
-                                              fecha 31 de mayo de 2004, Causa Rol 1193-03.
-
 ## 2. Fallo de la Cuarta Sala de la Corte Suprema, de fecha 31 de mayo
 
-                                              de 2004, Santiago:
+**Definición Canónica:** de 2004, Santiago:
+**Concordancias Legales:** artículos 224; artículo 236; artículo 234; artículo 19 de la Constitución Política; artículo 222; artículos 3; artículo 242; artículo 225 del Código Civil; artículos 545; artículo 545 del Código Orgánico de Tribunales; artículo 225 del Código Civil que en lo pertinente dispone; artículo 225; artículo 42 de la Ley de Menores; artículo 226 del Código Civil; artículo 545 del Código; constitucion; Constitución Política; Constitución
+
+de 2004, Santiago:
 
                                                 Vistos y teniendo unicamente presente:
                                                 PRIMERO.- Que don Jaime López Allende ha recurrido de
@@ -4630,7 +4852,10 @@ el caso Atala                                                       de los derec
 
 ## 1. Caso Duque contra Colombia
 
-                                                   Sentencia de excepciones preliminares, fondo, reparaciones
+**Definición Canónica:** Sentencia de excepciones preliminares, fondo, reparaciones
+                                                   y costas, de 26 de febrero de 2016.
+
+Sentencia de excepciones preliminares, fondo, reparaciones
                                                    y costas, de 26 de febrero de 2016.
 
                                                      El caso se refiere a la exclusión del señor Duque de la po-
@@ -4656,10 +4881,12 @@ el caso Atala                                                       de los derec
                                                               docs/supervisiones/duque_12_03_20.pdf (acceso: 13
                                                               de abril 2020)
 
-
 ## 2. Caso Flor Freire contra Ecuador
 
-                                                   Sentencia de excepción preliminar, fondo, reparaciones y
+**Definición Canónica:** Sentencia de excepción preliminar, fondo, reparaciones y
+                                                   costas, de 31 de agosto de 2016.
+
+Sentencia de excepción preliminar, fondo, reparaciones y
                                                    costas, de 31 de agosto de 2016.
 
                                                      El caso se refiere a la separación de don Homero Flor Freire
@@ -4686,10 +4913,12 @@ el caso Atala                                                       de los derec
                                                               risprudencia2/ficha_tecnica.cfm?nId_Ficha=418&lan-
                                                               g=es (acceso: 13 de abril 2020)
 
-
 ## 3. Caso Azul contra Perú
 
-                                                   Sentencia de excepciones preliminares, fondo, reparaciones
+**Definición Canónica:** Sentencia de excepciones preliminares, fondo, reparaciones
+                                                   y costas, de 12 de marzo de 2020.
+
+Sentencia de excepciones preliminares, fondo, reparaciones
                                                    y costas, de 12 de marzo de 2020.
 
                                                      El caso se relacionó con la alegada privación de libertad ilegal,
@@ -4718,15 +4947,16 @@ el caso Atala                                                       de los derec
 
                                            Material de apoyo (Academia Judicial):
 
-## 1. Abogada Daniela Santana Silva, Comentario a Casos Duque y
-
-                                              Freire.
-                                              https://www.youtube.com/watch?v=lqyes6RcKLA
-
-
 ## 2. Fernández, Mariano, “La protección contra la discriminación por
 
-                                              orientación sexual e identidad de género en la jurisprudencia de
+**Definición Canónica:** orientación sexual e identidad de género en la jurisprudencia de
+                                              la Corte Interamericana”, en “Género y Derechos”, Maffia, Diana
+                                              y Gómez, Patricia (coordinadora), en Revista Jurídica de Buenos Aires,
+                                              año 43, número 97, Facultad de Derecho, Universidad de Buenos
+                                              Aires, Departamento de Publicaciones, Abeledo Perrot, 2018.
+                                              http://www.derecho.uba.ar/publicaciones/rev_juri
+
+orientación sexual e identidad de género en la jurisprudencia de
                                               la Corte Interamericana”, en “Género y Derechos”, Maffia, Diana
                                               y Gómez, Patricia (coordinadora), en Revista Jurídica de Buenos Aires,
                                               año 43, número 97, Facultad de Derecho, Universidad de Buenos
@@ -4740,7 +4970,11 @@ el caso Atala                                                       de los derec
 
 ## 4. Corte Interamericana de Derechos Humanos. Cuadernillos de
 
-                                              Jurisprudencia. Sobre LGBTI.
+**Definición Canónica:** Jurisprudencia. Sobre LGBTI.
+                                               http://www.corteidh.or.cr/sitios/libros/todos/docs/cuadernillo19.pdf
+**Concordancias Legales:** artículos 1.1; artículo 64 de la Convención Americana sobre; artículos 11.2; artículo 17; artículo 1; artículo 54 del Código Civil de la República de Costa Rica
+
+Jurisprudencia. Sobre LGBTI.
                                                http://www.corteidh.or.cr/sitios/libros/todos/docs/cuadernillo19.pdf
 
                                                 Una opinión consultiva de la Corte Interamericana de Dere-
@@ -5065,38 +5299,49 @@ el caso Atala                                                       de los derec
                                                           desconocer otras manifestaciones de expresión de género,
                                                           identidad de género u orientación sexual”.
 
-
 ## 1. Landa, César. “De los derechos fundamentales de los grupos
 
-                                              vulnerables en la jurisprudencia de la Corte Interamericana de
+**Definición Canónica:** vulnerables en la jurisprudencia de la Corte Interamericana de
+                                              Derechos Humanos” pp. 227-258, en el libro La América de los
+                                              derechos, Pablo Santolaya e Isabel Wences (coordinadores), Centro
+                                              de Estudios Políticos y Constitucionales, Madrid, 2016.
+**Concordancias Legales:** Constitucion
+
+vulnerables en la jurisprudencia de la Corte Interamericana de
                                               Derechos Humanos” pp. 227-258, en el libro La América de los
                                               derechos, Pablo Santolaya e Isabel Wences (coordinadores), Centro
                                               de Estudios Políticos y Constitucionales, Madrid, 2016.
 
-## 2. Troncoso, Camila y Morales, Natalia. “Caso Duque con Colom-
-
-                                              bia: un caso de discriminación estructural”. Anuario de Derechos
-                                              Humanos, Universidad de Chile, núm. 13, 2017, pp. 135-145.
-
 ## 3. Arrubia, Eduardo y Brocca, Mariana. “La construcción del estigma
 
-                                              como límite a los derechos sociales de las personas trans desde
+**Definición Canónica:** como límite a los derechos sociales de las personas trans desde
+                                              una perspectiva internacional”. Anuario de Derechos Humanos,
+                                              Universidad de Chile, núm. 13, 2017, pp. 87-96.
+
+como límite a los derechos sociales de las personas trans desde
                                               una perspectiva internacional”. Anuario de Derechos Humanos,
                                               Universidad de Chile, núm. 13, 2017, pp. 87-96.
 
 ## 4. Piovesan, Flavia; “Prohibición de la discriminación por orienta-
 
-                                              ción sexual en los sistemas regionales: La sentencia de la Corte
+**Definición Canónica:** ción sexual en los sistemas regionales: La sentencia de la Corte
+                                              Interamericana de Derechos Humanos en el caso Atala Riffo vs.
+                                              Chile”. Anuario de Derecho Público, Universidad Diego Portales,
+                                              2013.
+
+ción sexual en los sistemas regionales: La sentencia de la Corte
                                               Interamericana de Derechos Humanos en el caso Atala Riffo vs.
                                               Chile”. Anuario de Derecho Público, Universidad Diego Portales,
                                               2013.
 
 Orientación sexual e                     3. La orientación sexual y la identidad de                            126
 
-
 ## 5. Estefan Vargas, Soraya; “Discriminación estatal de la población
 
-                                              LGTB. Casos de transgresiones a los derechos humanos en Lati-
+**Definición Canónica:** LGTB. Casos de transgresiones a los derechos humanos en Lati-
+                                              noamérica”. Revista Sociedad y Economía N° 25. 2013, pp. 183-204.
+
+LGTB. Casos de transgresiones a los derechos humanos en Lati-
                                               noamérica”. Revista Sociedad y Economía N° 25. 2013, pp. 183-204.
 
                                            A abril del año 2020, ante la Corte Interamericana se encuentra
@@ -5113,7 +5358,14 @@ el caso Atala                                                       de los derec
 
 ## parte, el contexto de violencia y discriminación contra personas
 
-                                           lesbianas, gay, bisexuales y trans en Honduras, con alta incidencia
+**Definición Canónica:** lesbianas, gay, bisexuales y trans en Honduras, con alta incidencia
+                                           de actos cometidos por la fuerza pública y, por otra, el contexto del
+                                           golpe de Estado ocurrido en el año 2009. La comisión consideró
+                                           que tomando en cuenta tales contextos, el hecho de que las calles
+                                           estaban bajo control total de la fuerza pública, así como la falta de
+                                           esclarecimiento judicial de lo sucedido, existen
+
+lesbianas, gay, bisexuales y trans en Honduras, con alta incidencia
                                            de actos cometidos por la fuerza pública y, por otra, el contexto del
                                            golpe de Estado ocurrido en el año 2009. La comisión consideró
                                            que tomando en cuenta tales contextos, el hecho de que las calles
@@ -5128,10 +5380,13 @@ el caso Atala                                                       de los derec
                                            La Comisión Interamericana sometió el caso a la jurisdicción de la
                                            corte el 30 de abril de 2019.
 
-
 ## 1. Comunicado de prensa CIDH, “CIDH presenta caso sobre Hon-
 
-                                              duras a la Corte IDH”.
+**Definición Canónica:** duras a la Corte IDH”.
+                                              https://www.oas.org/es/cidh/prensa/comunicados/2019/112.asp
+                                              (acceso: 12 de marzo de 2020)
+
+duras a la Corte IDH”.
                                               https://www.oas.org/es/cidh/prensa/comunicados/2019/112.asp
                                               (acceso: 12 de marzo de 2020)
 
@@ -5139,16 +5394,15 @@ el caso Atala                                                       de los derec
 identidad de género:                                                      género en el derecho internacional
 el caso Atala                                                             de los derechos humanos
 
-
-## 3.3          Otras iniciativas del Sistema Interamericano
-
-                                                                         a favor de la igualdad y no discriminación por
-                                                                         orientación sexual e identidad de género
-
-
 ## 1. Creación de la Unidad para los De-         a. Su plan de trabajo inicial incluyó la preparación de un
 
-                                            rechos de las Lesbianas, los Gays             informe hemisférico sobre esta materia y la elaboración
+**Definición Canónica:** rechos de las Lesbianas, los Gays             informe hemisférico sobre esta materia y la elaboración
+                                            y las Personas Bisexuales, Trans e            de un glosario de términos adoptado por la Comisión
+                                            Intersexo, por la Comisión Intera-            Interamericana de Derechos Humanos.
+                                            mericana de Derechos Humanos.
+                                                                                            Glosario de términos “Orientación sexual, identidad
+
+rechos de las Lesbianas, los Gays             informe hemisférico sobre esta materia y la elaboración
                                             y las Personas Bisexuales, Trans e            de un glosario de términos adoptado por la Comisión
                                             Intersexo, por la Comisión Intera-            Interamericana de Derechos Humanos.
                                             mericana de Derechos Humanos.
@@ -5169,10 +5423,14 @@ el caso Atala                                                             de los
                                                                                           pdfs/LGBTI-ReconocimientoDerechos2019.pdf (ac-
                                                                                           ceso: 4 marzo 2020).
 
-
 ## 2. El Programa Interamericano para            En junio de 2008, se aprobó una resolución que adopta este
 
-                                            el Registro Civil Universal y “De-         programa, dando lugar al Programa de Universalización
+**Definición Canónica:** el Registro Civil Universal y “De-         programa, dando lugar al Programa de Universalización
+                                            recho a la identidad”, que se viene        de la Identidad Civil en las Américas (PUICA), enmarcado
+                                            trabajando en la OEA desde 2007.           en el Departamento para la Gestión Pública Efectiva de
+                                                                                       la Secretaría de Asuntos Políticos de la OEA.
+
+el Registro Civil Universal y “De-         programa, dando lugar al Programa de Universalización
                                             recho a la identidad”, que se viene        de la Identidad Civil en las Américas (PUICA), enmarcado
                                             trabajando en la OEA desde 2007.           en el Departamento para la Gestión Pública Efectiva de
                                                                                        la Secretaría de Asuntos Políticos de la OEA.
@@ -5190,10 +5448,14 @@ el caso Atala                                                             de los
 identidad de género:                                                     género en el derecho internacional
 el caso Atala                                                            de los derechos humanos
 
-
 ## 3. Desde 2008, la adopción de las            Entre otros puntos, en esta resolución los Estados ma-
 
-                                            resoluciones de la OEA sobre dere-        nifestaron su preocupación por los actos de violencia y
+**Definición Canónica:** resoluciones de la OEA sobre dere-        nifestaron su preocupación por los actos de violencia y
+                                            chos humanos, orientación sexual          violaciones de derechos humanos relacionadas, cometi-
+                                            e identidad de género, en el marco        dos contra individuos a causa de su orientación sexual o
+                                            de la asamblea general cada año.          identidad de género.
+
+resoluciones de la OEA sobre dere-        nifestaron su preocupación por los actos de violencia y
                                             chos humanos, orientación sexual          violaciones de derechos humanos relacionadas, cometi-
                                             e identidad de género, en el marco        dos contra individuos a causa de su orientación sexual o
                                             de la asamblea general cada año.          identidad de género.
@@ -5202,11 +5464,16 @@ el caso Atala                                                            de los 
                                                                                       tacion_sexual_identidad_genero_resoluciones_AG.asp
                                                                                       (acceso: 4 marzo 2020)
 
-
 ## 4. En 2013, se aprueban en la OEA            a) AG/RES. 2804 (XLIII-O/13) 5 de junio de 2013. Con-
 
+**Definición Canónica:** dos nuevas convenciones para el           vención Interamericana contra Toda Forma de Discrimi-
+                                            Sistema Interamericano que defi-          nación e Intolerancia:
+                                            nen discriminación e incluyen la
+                                            orientación sexual y la identidad y       “2. La discriminación puede estar basada en motivos de
+                                            expresión de género en el listado         nacionalidad, edad, sexo, orientación sexual, identidad y
+                                 
 
-                                            dos nuevas convenciones para el           vención Interamericana contra Toda Forma de Discrimi-
+dos nuevas convenciones para el           vención Interamericana contra Toda Forma de Discrimi-
                                             Sistema Interamericano que defi-          nación e Intolerancia:
                                             nen discriminación e incluyen la
                                             orientación sexual y la identidad y       “2. La discriminación puede estar basada en motivos de
@@ -5244,10 +5511,12 @@ identidad de género:                                                   y niñas
                                             la unidad
                                                           ——    Estado de cumplimiento por Chile
 
-
 ## 4.1         Hechos del caso, alegaciones jurídicas y el
 
-                                                                      contexto nacional en que se insertan
+**Definición Canónica:** contexto nacional en que se insertan
+**Concordancias Legales:** Artículo 8; Artículo 11; Artículo 17; Artículo 24; Artículo 25; artículos 1; artículos 19
+
+contexto nacional en que se insertan
 
                                          El caso internacional        El caso internacional fue motivado por la alegada responsabilidad
                                          fue motivado                 internacional del Estado por el trato discriminatorio y la interferencia
@@ -5301,20 +5570,28 @@ identidad de género:                                                   y niñas
                                                    de los cónyuges en el marco de la necesaria protección de los
                                                    hijos) en relación a los derechos de las niñas
 
-
 ## 1. Informe 42/08 Admisibilidad Caso 12.502, Karen Atala e hijas
 
-                                              contra Chile, 23 julio 2008.
+**Definición Canónica:** contra Chile, 23 julio 2008.
+                                              http://www.cidh.org/annualrep/2008sp/Chile12502.sp.htm
+                                              (acceso: 12 de marzo 2020)
+
+contra Chile, 23 julio 2008.
                                               http://www.cidh.org/annualrep/2008sp/Chile12502.sp.htm
                                               (acceso: 12 de marzo 2020)
 
 Orientación sexual e                                              4. Análisis del caso de Karen Atala 		                                132
 identidad de género:                                                 y niñas contra chile
 
-
 ## 2. Muñoz, Fernando; “El núcleo fundamental de la sociedad: los
 
-                                                                       argumentos contra la crianza homoparental en los casos Atala
+**Definición Canónica:** argumentos contra la crianza homoparental en los casos Atala
+                                                                       y Peralta”, Revista Ius et Praxis, Año 19, Nº 1, 2013, pp. 7 – 34.
+                                                                       ISSN 0717 – 2877. Universidad de Talca, Facultad de Ciencias
+                                                                       Jurídicas y Sociales.
+**Concordancias Legales:** artículos 11
+
+argumentos contra la crianza homoparental en los casos Atala
                                                                        y Peralta”, Revista Ius et Praxis, Año 19, Nº 1, 2013, pp. 7 – 34.
                                                                        ISSN 0717 – 2877. Universidad de Talca, Facultad de Ciencias
                                                                        Jurídicas y Sociales.
@@ -5347,7 +5624,13 @@ identidad de género:                                                 y niñas c
 
 ## 25 N° 1 del Pacto de San José de Costa Rica en relación con el 1° N°
 
-                                                                    1, recomendando al Estado reparar integralmente a Karen Atala y sus
+**Definición Canónica:** 1, recomendando al Estado reparar integralmente a Karen Atala y sus
+                                                                    hijas por las violaciones a sus derechos, tomando en consideración sus
+                                                                    perspectivas y necesidades; y adoptar legislación, políticas públicas,
+                                                                    programas y directivas para prohibir y erradicar la discriminación con
+                                                                    base en orientación sexual en todas las esferas
+
+1, recomendando al Estado reparar integralmente a Karen Atala y sus
                                                                     hijas por las violaciones a sus derechos, tomando en consideración sus
                                                                     perspectivas y necesidades; y adoptar legislación, políticas públicas,
                                                                     programas y directivas para prohibir y erradicar la discriminación con
@@ -5381,10 +5664,16 @@ identidad de género:                                                 y niñas c
                                            El primero, para el 29 de junio de 2010, y el segundo, para el 29 de
                                            agosto siguiente.
 
-
 ## 1. En el primero de estos informes, el Estado dio cuenta de las
 
-                                              reuniones de la mesa de trabajo en que habían participado repre-
+**Definición Canónica:** reuniones de la mesa de trabajo en que habían participado repre-
+                                              sentantes del Ministerio de Justicia, Ministerio Secretaria General
+                                              de Gobierno, Ministerio Secretaría General de la Presidencia,
+                                              Servicio Nacional de la Mujer, Consejo de Defensa del Estado y
+                                              Ministerio de Relaciones Exteriores. Asimismo, dio cuenta que
+                                              esta mesa proponía a la Sra. Atala promover un jui
+
+reuniones de la mesa de trabajo en que habían participado repre-
                                               sentantes del Ministerio de Justicia, Ministerio Secretaria General
                                               de Gobierno, Ministerio Secretaría General de la Presidencia,
                                               Servicio Nacional de la Mujer, Consejo de Defensa del Estado y
@@ -5411,7 +5700,10 @@ identidad de género:                                                 y niñas c
 
 ## 2. En su segundo informe, el de finales de agosto de 2010, el Estado
 
-                                              hizo explícita referencia a la no participación del Poder Judicial
+**Definición Canónica:** hizo explícita referencia a la no participación del Poder Judicial
+                                              en la mesa de trabajo. Expresamente, dijo el informe de Chile,
+
+hizo explícita referencia a la no participación del Poder Judicial
                                               en la mesa de trabajo. Expresamente, dijo el informe de Chile,
 
                                               que la Corte Suprema señaló que “carece de iniciativa legal y
@@ -5436,23 +5728,26 @@ identidad de género:                                                 y niñas c
                                            condena por la violación de los artículos antes señalados y a partir
                                            de ello que se ordenara al Estado que:
 
-## 1. Reparara el daño material e inmaterial causado como consecuencia
-
-                                              de las violaciones alegadas en la demanda.
-
-Orientación sexual e                     4. Análisis del caso de Karen Atala 		                                135
-
-
 ## 2. Investigara e impusiera las consecuencias legales que correspon-
 
-                                              dan por el actuar de funcionarios judiciales que discriminaron
+**Definición Canónica:** dan por el actuar de funcionarios judiciales que discriminaron
+                                              e interfirieron arbitrariamente en la vida privada y familiar de
+                                              Karen Atala, y que incumplieron sus obligaciones internacionales
+                                              de asegurar el interés superior de las niñas.
+
+dan por el actuar de funcionarios judiciales que discriminaron
                                               e interfirieron arbitrariamente en la vida privada y familiar de
                                               Karen Atala, y que incumplieron sus obligaciones internacionales
                                               de asegurar el interés superior de las niñas.
 
 ## 3. Reconociera públicamente su responsabilidad internacional y
 
-                                              publique las partes pertinentes de la sentencia que eventualmente
+**Definición Canónica:** publique las partes pertinentes de la sentencia que eventualmente
+                                              emita el tribunal.
+                                           4. Dispusiera medidas de rehabilitación.
+                                           5. Adoptara medidas de no repetición que incluyan legislación,
+
+publique las partes pertinentes de la sentencia que eventualmente
                                               emita el tribunal.
                                            4. Dispusiera medidas de rehabilitación.
                                            5. Adoptara medidas de no repetición que incluyan legislación,
@@ -5462,25 +5757,33 @@ identidad de género:                                                 y niñas c
                                               esferas del ejercicio del poder público, incluyendo la administra-
                                               ción de justicia; y pague las costas y gastos legales.
 
-
 ## 1. Macarena Sáez, abogada y profesora universitaria. Comentario
 
-                                              sobre el contexto de preparación de la estrategia de litigación
+**Definición Canónica:** sobre el contexto de preparación de la estrategia de litigación
+                                              internacional en el caso Atala.
+                                              https://vimeo.com/436132386/dadda714f6
+
+sobre el contexto de preparación de la estrategia de litigación
                                               internacional en el caso Atala.
                                               https://vimeo.com/436132386/dadda714f6
 
 ## 2. Karen Atala, abogada, jueza y víctima. Comentarios sobre la he-
 
-                                              teronormatividad en el derecho chileno.
+**Definición Canónica:** teronormatividad en el derecho chileno.
+                                              https://vimeo.com/436432783/320093ed05
+
+teronormatividad en el derecho chileno.
                                               https://vimeo.com/436432783/320093ed05
 
 Orientación sexual e                                                4. Análisis del caso de Karen Atala 		                                       136
 identidad de género:                                                   y niñas contra chile
 
-
 ## 4.2           El caso internacional: cronología
 
-                                                                      y análisis de la sentencia
+**Definición Canónica:** y análisis de la sentencia
+**Concordancias Legales:** Artículos 8.1; artículos 1; Artículos 11.2
+
+y análisis de la sentencia
 
                                                                       La cronología
 
@@ -5527,7 +5830,14 @@ identidad de género:                                                   y niñas
 
 ## 1. El Estado es responsable por la violación del derecho a la igualdad
 
-                                              y la no discriminación consagrado en el artículo 24, en relación
+**Definición Canónica:** y la no discriminación consagrado en el artículo 24, en relación
+                                              con el artículo 1° N° 1 de la Convención Americana sobre Dere-
+                                              chos Humanos, en perjuicio de Karen Atala Riffo, de conformidad
+                                              con lo establecido en los párrafos 94 a 99, 107 a 146 y 218 a 222
+                                              de esta Sentencia.
+**Concordancias Legales:** artículo 24; artículo 1
+
+y la no discriminación consagrado en el artículo 24, en relación
                                               con el artículo 1° N° 1 de la Convención Americana sobre Dere-
                                               chos Humanos, en perjuicio de Karen Atala Riffo, de conformidad
                                               con lo establecido en los párrafos 94 a 99, 107 a 146 y 218 a 222
@@ -5537,8 +5847,13 @@ identidad de género:                                                   y niñas
 
 ## 2. El Estado es responsable por la violación del derecho a la igualdad
 
+**Definición Canónica:** y la no discriminación consagrado en el artículo 24, en relación
+                                              con los artículos 19 y 1° N° 1 de la Convención Americana, en
+                                              perjuicio de las niñas M., V. y R., de conformidad con lo estable-
+                                              cido en los párrafos 150 a 155 de esta sentencia.
+**Concordancias Legales:** artículo 24; artículos 19
 
-                                              y la no discriminación consagrado en el artículo 24, en relación
+y la no discriminación consagrado en el artículo 24, en relación
                                               con los artículos 19 y 1° N° 1 de la Convención Americana, en
                                               perjuicio de las niñas M., V. y R., de conformidad con lo estable-
                                               cido en los párrafos 150 a 155 de esta sentencia.
@@ -5547,7 +5862,13 @@ identidad de género:                                                   y niñas
 
 ## 3. El Estado es responsable por la violación del derecho a la vida
 
-                                              privada consagrado en el artículo 11 N° 2, en relación con el artí-
+**Definición Canónica:** privada consagrado en el artículo 11 N° 2, en relación con el artí-
+                                              culo 1° N° 1 de la Convención Americana, en perjuicio de Karen
+                                              Atala Riffo, de conformidad con lo establecido en los párrafos
+                                              161 a 167 y 225 a 230 de esta sentencia.
+**Concordancias Legales:** artículo 11
+
+privada consagrado en el artículo 11 N° 2, en relación con el artí-
                                               culo 1° N° 1 de la Convención Americana, en perjuicio de Karen
                                               Atala Riffo, de conformidad con lo establecido en los párrafos
                                               161 a 167 y 225 a 230 de esta sentencia.
@@ -5562,7 +5883,13 @@ identidad de género:                                                   y niñas
 
 ## 4. El Estado es responsable de la violación de los artículos 11 N° 2
 
-                                              y 17 N° 1, en relación con el artículo 1° N° 1 de la Convención
+**Definición Canónica:** y 17 N° 1, en relación con el artículo 1° N° 1 de la Convención
+                                              Americana en perjuicio de Karen Atala Riffo y de las niñas M.,
+                                              V. y R., de conformidad con lo establecido en los párrafos 168 a
+                                              178 de esta sentencia.
+**Concordancias Legales:** artículo 1
+
+y 17 N° 1, en relación con el artículo 1° N° 1 de la Convención
                                               Americana en perjuicio de Karen Atala Riffo y de las niñas M.,
                                               V. y R., de conformidad con lo establecido en los párrafos 168 a
                                               178 de esta sentencia.
@@ -5573,7 +5900,13 @@ identidad de género:                                                   y niñas
 
 ## 5. El Estado es responsable por la violación del derecho a ser oído
 
-                                              consagrado en el artículo 8° N° 1, en relación con los artículos 19
+**Definición Canónica:** consagrado en el artículo 8° N° 1, en relación con los artículos 19
+                                              y 1° N° 1 de la Convención Americana en perjuicio de las niñas
+                                              M., V. y R., de conformidad con lo establecido en los párrafos 196
+                                              a 208 de esta sentencia.
+**Concordancias Legales:** artículo 8; artículos 19
+
+consagrado en el artículo 8° N° 1, en relación con los artículos 19
                                               y 1° N° 1 de la Convención Americana en perjuicio de las niñas
                                               M., V. y R., de conformidad con lo establecido en los párrafos 196
                                               a 208 de esta sentencia.
@@ -5582,7 +5915,11 @@ identidad de género:                                                   y niñas
 
 ## 6. El Estado es responsable por la violación de la garantía de im-
 
-                                              parcialidad consagrada en el artículo 8° N° 1, en relación con
+**Definición Canónica:** parcialidad consagrada en el artículo 8° N° 1, en relación con
+                                              el artículo 1° N° 1 de la Convención Americana, respecto a la
+**Concordancias Legales:** artículo 8; artículo 1
+
+parcialidad consagrada en el artículo 8° N° 1, en relación con
                                               el artículo 1° N° 1 de la Convención Americana, respecto a la
 
                                               investigación disciplinaria, en perjuicio de Karen Atala Riffo, de
@@ -5593,7 +5930,13 @@ identidad de género:                                                   y niñas
 
 ## 7. El Estado no violó la garantía judicial de imparcialidad consagrada
 
-                                              en el artículo 8° N° 1 de la Convención Americana, en relación
+**Definición Canónica:** en el artículo 8° N° 1 de la Convención Americana, en relación
+                                              con las decisiones de la Corte Suprema de Justicia y el Juzgado
+                                              de Menores de Villarrica, en los términos de los párrafos 187 a
+                                              192 de la presente sentencia.
+**Concordancias Legales:** artículo 8
+
+en el artículo 8° N° 1 de la Convención Americana, en relación
                                               con las decisiones de la Corte Suprema de Justicia y el Juzgado
                                               de Menores de Villarrica, en los términos de los párrafos 187 a
                                               192 de la presente sentencia.
@@ -5606,14 +5949,22 @@ identidad de género:                                                   y niñas
 
 ## 2. El Estado debe brindar, la atención médica y psicológica o psi-
 
-                                              quiátrica gratuita y de forma inmediata, adecuada y efectiva, a
+**Definición Canónica:** quiátrica gratuita y de forma inmediata, adecuada y efectiva, a
+                                              través de sus instituciones públicas de salud especializadas a las
+                                              víctimas que así lo soliciten, de conformidad con lo establecido
+                                              en los párrafos 254 y 255 de la presente sentencia.
+
+quiátrica gratuita y de forma inmediata, adecuada y efectiva, a
                                               través de sus instituciones públicas de salud especializadas a las
                                               víctimas que así lo soliciten, de conformidad con lo establecido
                                               en los párrafos 254 y 255 de la presente sentencia.
 
 ## 3. El Estado debe realizar las publicaciones indicadas en el párrafo
 
-                                              259 de la presente sentencia, en el plazo de seis meses contado
+**Definición Canónica:** 259 de la presente sentencia, en el plazo de seis meses contado
+                                              a partir de la notificación de la misma.
+
+259 de la presente sentencia, en el plazo de seis meses contado
                                               a partir de la notificación de la misma.
 
 Orientación sexual e                     4. Análisis del caso de Karen Atala 		                                       139
@@ -5632,10 +5983,17 @@ identidad de género:                                                   y niñas
                                                      —— la presente sentencia en su integridad, disponible por un
                                                         período de un año, en un sitio web oficial’.
 
-
 ## 4. El Estado debe realizar un acto público de reconocimiento de
 
-                                              responsabilidad internacional por los hechos del presente caso,
+**Definición Canónica:** responsabilidad internacional por los hechos del presente caso,
+                                              de conformidad con lo establecido en los párrafos 263 y 264 de
+                                              la presente sentencia.
+                                                    ‘263. La corte ha determinado que en ciertos casos se justifica
+                                                    que los Estados realicen un reconocimiento de responsabilidad
+                                                    que debe realizarse en un acto público para que surta sus efectos
+          
+
+responsabilidad internacional por los hechos del presente caso,
                                               de conformidad con lo establecido en los párrafos 263 y 264 de
                                               la presente sentencia.
                                                     ‘263. La corte ha determinado que en ciertos casos se justifica
@@ -5652,10 +6010,14 @@ identidad de género:                                                   y niñas
                                                     víctimas. Para cumplir con esta obligación el Estado cuenta con un
                                                     plazo de un año a partir de la notificación de la presente sentencia.
 
-
 ## 264. En cuanto a las autoridades estatales que deberán estar pre-
 
-                                                    sentes o participar en dicho acto, el tribunal, como lo ha hecho en
+**Definición Canónica:** sentes o participar en dicho acto, el tribunal, como lo ha hecho en
+                                                    otros casos, señala que deberán ser de alto rango. Corresponderá
+                                                    al Estado definir a quienes se encomienda tal tarea. Sin embargo,
+                                                    deberá existir representación del Poder Judicial en el acto’.
+
+sentes o participar en dicho acto, el tribunal, como lo ha hecho en
                                                     otros casos, señala que deberán ser de alto rango. Corresponderá
                                                     al Estado definir a quienes se encomienda tal tarea. Sin embargo,
                                                     deberá existir representación del Poder Judicial en el acto’.
@@ -5682,10 +6044,16 @@ identidad de género:                                                   y niñas
                                                     públicos a nivel regional y nacional, y particularmente a funciona-
                                                     rios judiciales de todas las áreas y escalafones de la rama judicial.
 
-
 ## 272. Dentro de dichos programas y cursos de capacitación debe-
 
-                                                    rá hacerse una especial mención a la presente sentencia y a los
+**Definición Canónica:** rá hacerse una especial mención a la presente sentencia y a los
+                                                    diversos precedentes del corpus iuris de los derechos humanos
+                                                    relativos a la proscripción de la discriminación por orientación
+                                                    sexual y a la obligación de todas las autoridades y funcionarios de
+                                                    garantizar que todas las personas, sin discriminación por su orien-
+                                                    tación sexual
+
+rá hacerse una especial mención a la presente sentencia y a los
                                                     diversos precedentes del corpus iuris de los derechos humanos
                                                     relativos a la proscripción de la discriminación por orientación
                                                     sexual y a la obligación de todas las autoridades y funcionarios de
@@ -5697,10 +6065,16 @@ identidad de género:                                                   y niñas
                                                     efectos discriminatorios en el ejercicio de derechos por personas
                                                     pertenecientes a las minorías sexuales’.
 
-
 ## 6. El Estado debe pagar las cantidades fijadas en los párrafos 294 y
 
-                                              299 de la presente sentencia, por concepto de indemnización por
+**Definición Canónica:** 299 de la presente sentencia, por concepto de indemnización por
+                                              daño material e inmaterial y por el reintegro de costas y gastos,
+                                              según corresponda, en los términos del párrafo 306 de la misma.
+                                                    ‘294. Finalmente, en relación a los gastos relacionados con el trata-
+                                                    miento médico y la compra de medicamentos, la corte observa que
+                                                    obra prueba en el expedi
+
+299 de la presente sentencia, por concepto de indemnización por
                                               daño material e inmaterial y por el reintegro de costas y gastos,
                                               según corresponda, en los términos del párrafo 306 de la misma.
                                                     ‘294. Finalmente, en relación a los gastos relacionados con el trata-
@@ -5730,10 +6104,16 @@ identidad de género:                                                   y niñas
                                                     base en un criterio de equidad, la suma de US$ 10.000 por con-
                                                     cepto de los gastos ya realizados por atención médica y psicológica.
 
-
 ## 299. Al respecto, la corte observa que las violaciones declaradas
 
-                                                    generaron en las víctimas diversos daños en su cotidianidad,
+**Definición Canónica:** generaron en las víctimas diversos daños en su cotidianidad,
+                                                    diversos niveles de estigmatización y desasosiego. En atención a
+                                                    las indemnizaciones ordenadas por el tribunal en otros casos, y
+                                                    en consideración de las circunstancias del presente caso, los su-
+                                                    frimientos ocasionados a las víctimas, así como el cambio en las
+                                                    condiciones de vida
+
+generaron en las víctimas diversos daños en su cotidianidad,
                                                     diversos niveles de estigmatización y desasosiego. En atención a
                                                     las indemnizaciones ordenadas por el tribunal en otros casos, y
                                                     en consideración de las circunstancias del presente caso, los su-
@@ -5763,10 +6143,15 @@ identidad de género:                                                   y niñas
                                                     te del Estado, de los gastos razonables en que incurran en dicha
                                                     etapa procesal’.
 
-
 ## 7. El Estado debe, dentro del plazo de un año contado a partir de
 
-                                              la notificación de esta sentencia, rendir al tribunal un informe
+**Definición Canónica:** la notificación de esta sentencia, rendir al tribunal un informe
+                                              sobre las medidas adoptadas para cumplir con la misma.
+                                           8. La corte supervisará el cumplimiento íntegro de esta sentencia,
+                                              en ejercicio de sus atribuciones y en cumplimiento de sus deberes
+                                              conforme a la Convención Americana sobre Derechos Humanos,
+
+la notificación de esta sentencia, rendir al tribunal un informe
                                               sobre las medidas adoptadas para cumplir con la misma.
                                            8. La corte supervisará el cumplimiento íntegro de esta sentencia,
                                               en ejercicio de sus atribuciones y en cumplimiento de sus deberes
@@ -5785,17 +6170,14 @@ identidad de género:                                                   y niñas
                                            truidos por la corte en esta sentencia internacional.
                                            1. Sobre los alcances del derecho a la igualdad y no discriminación.
 
-## 2. Sobre la orientación sexual como una categoría protegida por el
-
-                                              artículo 1° N° 1 de la Convención Americana.
-
-## 3. Si existió en el caso una diferencia de trato basada en la orien-
-
-                                              tación sexual.
-
 ## 4. Si dicha diferencia de trato constituyó discriminación, para lo
 
-                                              cual se evaluó por la Corte en forma estricta las razones que se
+**Definición Canónica:** cual se evaluó por la Corte en forma estricta las razones que se
+                                              alegaron para justificar dicha diferencia de trato en razón del
+                                              interés superior del niño y las presunciones de riesgo y daño en
+                                              perjuicio de las tres niñas.
+
+cual se evaluó por la Corte en forma estricta las razones que se
                                               alegaron para justificar dicha diferencia de trato en razón del
                                               interés superior del niño y las presunciones de riesgo y daño en
                                               perjuicio de las tres niñas.
@@ -5830,10 +6212,12 @@ identidad de género:                         y niñas contra chile
                                             la precisión de qué va a entender como discriminación en el caso
                                             (párrafos 81 y siguientes).
 
-
 ## 2. Sobre la orientación sexual como una categoría protegida por el
 
-                                            artículo 1° N° 1 de la Convención Americana:
+**Definición Canónica:** artículo 1° N° 1 de la Convención Americana:
+**Concordancias Legales:** artículo 1; artículo 29 de la Convención; artículo 29
+
+artículo 1° N° 1 de la Convención Americana:
 
                                             La Corte va a concluir que la Convención Americana incorpora la
                                             orientación sexual en el listado de categorías protegidas. Señala
@@ -5931,10 +6315,11 @@ identidad de género:                         y niñas contra chile
 Orientación sexual e                                             4. Análisis del caso de Karen Atala 		                                146
 identidad de género:                                                y niñas contra chile
 
-
 ## 3. Si existió en el caso una diferencia de trato basada en la orienta-
 
-                                                                  ción sexual:
+**Definición Canónica:** ción sexual:
+
+ción sexual:
 
                                                                    El tribunal resalta que para comprobar que una diferenciación de trato
                                                                    ha sido utilizada en una decisión particular, no es necesario que la
@@ -5963,7 +6348,14 @@ identidad de género:                                                y niñas co
 
 ## 4. Si dicha diferencia de trato constituyó discriminación, para lo
 
-                                         principal la             cual se evaluó por la corte en forma estricta las razones que se
+**Definición Canónica:** principal la             cual se evaluó por la corte en forma estricta las razones que se
+                                         orientación sexual       alegaron para justificar dicha diferencia de trato en razón del
+                                         de la señora             interés superior del niño y las presunciones de riesgo y daño en
+                                                                  perjuicio de las tres niñas:
+                                         Karen Atala, entra
+                                         a analizar si la         Como la Corte Interamericana
+
+principal la             cual se evaluó por la corte en forma estricta las razones que se
                                          orientación sexual       alegaron para justificar dicha diferencia de trato en razón del
                                          de la señora             interés superior del niño y las presunciones de riesgo y daño en
                                                                   perjuicio de las tres niñas:
@@ -6000,7 +6392,10 @@ identidad de género:                                                y niñas co
 
 ## 1. La protección del interés superior del niño es un fin legítimo e im-
 
-                                              perioso (párrafo 108):
+**Definición Canónica:** perioso (párrafo 108):
+**Concordancias Legales:** artículo 19 de la Convención; artículo 24; artículo 1
+
+perioso (párrafo 108):
 
                                                “El objetivo general de proteger el principio del interés superior del
                                                niño es, en sí mismo, un fin legítimo y es, además, imperioso. En re-
@@ -6115,28 +6510,20 @@ identidad de género:                                                    y niña
                                                                        orientación sexual y el análisis de la corte para ver si se cumplió
                                                                        el fin del “interés superior del niño”
 
-## 1. Presunta discriminación social a las niñas (párrafos 115 a 122)
-
-
-## 2. Alegada confusión de roles (párrafos 123 a 131)
-
-
-## 3. Alegado privilegio de intereses de la madre por sobre las niñas
-
-                                                                          (párrafos 132 a 140)
-
-
 ## 4. El alegado derecho a una familia “normal y tradicional” (párrafos
 
-                                                                          141 a 145)
+**Definición Canónica:** 141 a 145)
+
+141 a 145)
 
                                                                        Alcances de la sentencia y los estándares fijados en otras materias
                                                                        a propósito del juicio de tuición
 
-
 ## 1. Sobre el derecho a la vida privada, sus restricciones y la propor-
 
-                                                                      cionalidad en ella (párrafos 164 y 165):
+**Definición Canónica:** cionalidad en ella (párrafos 164 y 165):
+
+cionalidad en ella (párrafos 164 y 165):
 
                                          “164. El tribunal ha         “164. El tribunal ha establecido en su jurisprudencia que el derecho
                                          establecido en su            a la vida privada no es un derecho absoluto y, por lo tanto, puede
@@ -6169,7 +6556,10 @@ identidad de género:                         y niñas contra chile
 
 ## parte de aquellos magistrados que ejercen funciones de revisión o
 
-                                            apelación . Además, la garantía de la independencia judicial abarca la
+**Definición Canónica:** apelación . Además, la garantía de la independencia judicial abarca la
+                                            garantía contra presiones externas, de tal forma que el Estado debe
+
+apelación . Además, la garantía de la independencia judicial abarca la
                                             garantía contra presiones externas, de tal forma que el Estado debe
 
                                             abstenerse de realizar injerencias indebidas en el Poder Judicial o en
@@ -6177,10 +6567,17 @@ identidad de género:                         y niñas contra chile
                                             y debe prevenir dichas injerencias e investigar y sancionar a quienes
                                             las cometan.
 
-
 ## 187. La corte considera que en este caso no existen suficientes ele-
 
-                                            mentos probatorios que permitan inferir la existencia de presiones
+**Definición Canónica:** mentos probatorios que permitan inferir la existencia de presiones
+                                            externas contra los jueces que conocieron de la causa dirigidas a fallar
+                                            en contra de la señora Atala. Por otra parte, dado que los jueces de
+                                            la Corte de Apelaciones de Temuco que fueron sancionados por el
+                                            recurso de queja no son presuntas víctimas en el presente caso, ello
+                                            limita el pronunciamiento que puede ha
+**Concordancias Legales:** artículo 8
+
+mentos probatorios que permitan inferir la existencia de presiones
                                             externas contra los jueces que conocieron de la causa dirigidas a fallar
                                             en contra de la señora Atala. Por otra parte, dado que los jueces de
                                             la Corte de Apelaciones de Temuco que fueron sancionados por el
@@ -6189,10 +6586,12 @@ identidad de género:                         y niñas contra chile
                                             con una posible violación del artículo 8° N° 1 de la convención por
                                             dicha decisión sancionatoria”.
 
-
 ## 3. Sobre el alcance del “derecho de los niños a ser oídos” (párrafos
 
-                                            196 y siguientes):
+**Definición Canónica:** 196 y siguientes):
+**Concordancias Legales:** artículo 19; artículo 8; artículo 12 de la Convención sobre los Derechos del Niño
+
+196 y siguientes):
 
                                             “196. La corte resalta que los niños y las niñas son titulares de los
                                             derechos establecidos en la Convención Americana, además de
@@ -6218,10 +6617,12 @@ identidad de género:                          y niñas contra chile
                                              relación al proceso disciplinario llevado adelante contra la señora
                                              Atala por el Poder Judicial chileno
 
-
 ## 1. Sobre las verdaderas consideraciones en el informe: la orientación
 
-                                            sexual y el uso de implementos del juzgado para uso personal
+**Definición Canónica:** sexual y el uso de implementos del juzgado para uso personal
+                                            (párrafo 218):
+
+sexual y el uso de implementos del juzgado para uso personal
                                             (párrafo 218):
 
                                              “218. El tribunal nota que la Corte de Apelaciones de Temuco re-
@@ -6241,10 +6642,12 @@ identidad de género:                          y niñas contra chile
                                              la señora Atala era constatar lo manifestado por las publicaciones
                                              de prensa respecto a su orientación sexual”.
 
-
 ## 2. Sobre el fin legítimo de la investigación y la protección de la
 
-                                            imagen del Poder Judicial de Chile (párrafo 221):
+**Definición Canónica:** imagen del Poder Judicial de Chile (párrafo 221):
+**Concordancias Legales:** artículo 11; artículo 1
+
+imagen del Poder Judicial de Chile (párrafo 221):
 
                                              “221. Ahora bien, respecto al fin legítimo que se perseguía con dicha
                                              investigación, en el informe presentado no fue precisado con claridad
@@ -6286,10 +6689,12 @@ identidad de género:                          y niñas contra chile
 Orientación sexual e                       4. Análisis del caso de Karen Atala 		                                  154
 identidad de género:                          y niñas contra chile
 
-
 ## 4.3   Estado de cumplimiento de la sentencia
 
-                                               y sus proyecciones en Chile
+**Definición Canónica:** y sus proyecciones en Chile
+**Concordancias Legales:** Constitucion
+
+y sus proyecciones en Chile
 
                                                La Corte Interamericana estableció, entre las medidas de reparación,
                                                que Chile debe continuar implementando, en un plazo razonable,
@@ -6377,10 +6782,12 @@ el caso Atala                                                        e Identidad
                                            la unidad
                                                                Unión Civil, discriminación e Identidad de género
 
-
 ## 5.1        Marco constitucional y nacional sobre igualdad
 
-                                                                    y no discriminación en relación a género
+**Definición Canónica:** y no discriminación en relación a género
+**Concordancias Legales:** artículo 19; artículo 1; Ley 19.284; Ley 20.348; Ley 20.422; Ley 20.609; Ley 20.830; Ley 21.120; Ley 20.005; Constitución Política; Constitución
+
+y no discriminación en relación a género
 
                                                                     En materia de igualdad y no discriminación, la Constitución Política
                                                                     consagra la igualdad ante la ley y la prohibición de diferencias arbi-
@@ -6419,10 +6826,12 @@ el caso Atala                                                        e Identidad
 identidad de género:                                                   materia de Orientación Sexual
 el caso Atala                                                          e Identidad de Género
 
-
 ## 5.2         Ley 20.609, que establece medidas contra
 
-                                                                      la discriminación. Descripción general.
+**Definición Canónica:** la discriminación. Descripción general.
+**Concordancias Legales:** constitucion
+
+la discriminación. Descripción general.
 
                                                                       El contexto
 
@@ -6437,7 +6846,10 @@ el caso Atala                                                          e Identid
 
 ## 13 N° 2), Venezuela (art. 21), Puerto Rico (art. 2°, sección 1), Brasil
 
-                                                                      (art. 3° N° 4) Ecuador (art. 11 N° 2).
+**Definición Canónica:** (art. 3° N° 4) Ecuador (art. 11 N° 2).
+**Concordancias Legales:** artículo 19 de la Constitución Política de; artículo 19 de la CP 1980 o en otra causa; artículo 6; artículos 485; Ley 20.609; Constitución Política; constitucion; Constitución
+
+(art. 3° N° 4) Ecuador (art. 11 N° 2).
 
                                                                       También, al tiempo de su discusión legislativa, se tuvo en cuenta an-
                                                                       tecedentes de derecho europeo (Directiva del Consejo UE 2000/78/
@@ -6684,7 +7096,16 @@ el caso Atala                                                          e Identid
 
 ## 1. Casas, Lidia, y Lagos, Catalina. “Análisis crítico de la acción de no
 
-                                              discriminación arbitraria a la luz de los primeros casos”, Anuario
+**Definición Canónica:** discriminación arbitraria a la luz de los primeros casos”, Anuario
+                                              de Derechos Humanos, Universidad de Chile, 2014, pp. 127-137.
+                                              http://www.anuariocdh.uchile.cl/index.php/ADH/article/viewFi-
+                                              le/31699/33500
+                                           2. Muñoz León, Fernando. “No a ‘separados pero iguales’ en Chile:
+                                              un análisis del derecho antidiscriminación chileno a partir de
+                                      
+**Concordancias Legales:** Constitucion
+
+discriminación arbitraria a la luz de los primeros casos”, Anuario
                                               de Derechos Humanos, Universidad de Chile, 2014, pp. 127-137.
                                               http://www.anuariocdh.uchile.cl/index.php/ADH/article/viewFi-
                                               le/31699/33500
@@ -6697,17 +7118,28 @@ el caso Atala                                                          e Identid
 
 Orientación sexual e                     5. Principal regulación nacional en 		                                    166
 
-
 ## 3. Muñoz León, Fernando. “La Ley Zamudio en acción: sentencias
 
-                                              de primera instancia sobre acción antidiscriminación emitidas
+**Definición Canónica:** de primera instancia sobre acción antidiscriminación emitidas
+                                              entre diciembre 2012 y marzo 2015”, Anuario de Derecho Público,
+                                              Universidad Diego Portales, 2015, pp. 172-190.
+                                              http://derecho.udp.cl/wp-content/uploads/2016/08/Anuario2015.pdf
+
+de primera instancia sobre acción antidiscriminación emitidas
                                               entre diciembre 2012 y marzo 2015”, Anuario de Derecho Público,
                                               Universidad Diego Portales, 2015, pp. 172-190.
                                               http://derecho.udp.cl/wp-content/uploads/2016/08/Anuario2015.pdf
 
 ## 4. Muñoz León, Fernando. “Estándares conceptuales y cargas proce-
 
-                                              sales en el litigio antidiscriminación. Análisis crítico de la jurispru-
+**Definición Canónica:** sales en el litigio antidiscriminación. Análisis crítico de la jurispru-
+                                              dencia sobre Ley Zamudio entre 2012 y 2015”, Revista de Derecho
+                                              (Valdivia), Volumen XXVIII, número 2, diciembre 2015, Centro de
+                                              Estudios Constitucionales Universidad de Talca, 2013, pp. 145-167.
+                                              http://www.scielo.cl/scielo.php?pi-
+**Concordancias Legales:** Constitucion
+
+sales en el litigio antidiscriminación. Análisis crítico de la jurispru-
                                               dencia sobre Ley Zamudio entre 2012 y 2015”, Revista de Derecho
                                               (Valdivia), Volumen XXVIII, número 2, diciembre 2015, Centro de
                                               Estudios Constitucionales Universidad de Talca, 2013, pp. 145-167.
@@ -6717,14 +7149,25 @@ el caso Atala                                                          e Identid
 
 ## 5. Muñoz León, Fernando. “La necesidad de una interpretación
 
-                                              pro discriminado de la acción judicial contra la discriminación”,
+**Definición Canónica:** pro discriminado de la acción judicial contra la discriminación”,
+                                              Revista de Derecho, Vol. XXXI, N° 2, diciembre 2018, pp. 175-192.
+                                              https://scielo.conicyt.cl/scielo.php?script=sci_abstract&pi-
+                                              d=S0718-09502018000200175&lng=pt&nrm=iso
+
+pro discriminado de la acción judicial contra la discriminación”,
                                               Revista de Derecho, Vol. XXXI, N° 2, diciembre 2018, pp. 175-192.
                                               https://scielo.conicyt.cl/scielo.php?script=sci_abstract&pi-
                                               d=S0718-09502018000200175&lng=pt&nrm=iso
 
 ## 6. Dirección de Estudios Corte Suprema (2018). “Análisis Estadís-
 
-                                              tico de la Ley 20.609: Una mirada desde el acceso a la justicia a
+**Definición Canónica:** tico de la Ley 20.609: Una mirada desde el acceso a la justicia a
+                                              cinco años de su vigencia”, Revista DECS: 74-121.
+                                              http://decs.pjud.cl/analisis-estadistico-de-la-ley-20-609-una-mi-
+                                              rada-desde-el-acceso-a-la-justicia-a-cinco-anos-de-su-vigencia/
+**Concordancias Legales:** Ley 20.609
+
+tico de la Ley 20.609: Una mirada desde el acceso a la justicia a
                                               cinco años de su vigencia”, Revista DECS: 74-121.
                                               http://decs.pjud.cl/analisis-estadistico-de-la-ley-20-609-una-mi-
                                               rada-desde-el-acceso-a-la-justicia-a-cinco-anos-de-su-vigencia/
@@ -6733,10 +7176,12 @@ el caso Atala                                                          e Identid
 identidad de género:                              materia de Orientación Sexual
 el caso Atala                                     e Identidad de Género
 
-
 ## 5.3     Ley 20.830, sobre acuerdo de unión
 
-                                                 civil. Descripción general.
+**Definición Canónica:** civil. Descripción general.
+**Concordancias Legales:** artículo 42 del Código Civil; artículos 26; artículos 1; artículo 2; artículo 17; artículo 102 del Código; Ley 20.830; Ley 19.947; Constitucion; Constitución Política; Constitución
+
+civil. Descripción general.
 
                                                  El contexto
 
@@ -6948,24 +7393,24 @@ el caso Atala                                                        e Identidad
                                            1. Manuel Vivanco, Crítica a la moral conservadora. Editorial LOM.
                                               2015.
 
-## 2. Mauro Basaure y Manfred Svensson (editores), Matrimonio en
-
-                                              conflicto. Visiones rivales sobre el matrimonio entre personas del mismo
-                                              sexo. Editorial Cuarto Propio, 2015.
-
 ## 3. Ximena Erazo, Ximena Gauché, José Jara (editores), Derechos
 
-                                              humanos, diversidad sexual y políticas públicas en América Latina. Edi-
+**Definición Canónica:** humanos, diversidad sexual y políticas públicas en América Latina. Edi-
+                                              torial LOM, 2015.
+
+humanos, diversidad sexual y políticas públicas en América Latina. Edi-
                                               torial LOM, 2015.
 
 Orientación sexual e                       5. Principal regulación nacional en 		                                  173
 identidad de género:                          materia de Orientación Sexual
 el caso Atala                                 e Identidad de Género
 
-
 ## 5.4   Ley 21.120, que reconoce y da protección al derecho
 
-                                               a la identidad de género. Descripción general.
+**Definición Canónica:** a la identidad de género. Descripción general.
+**Concordancias Legales:** artículos 9; artículos 12; Ley 26.743; Ley 21.120; Ley 19.968; constitucion
+
+a la identidad de género. Descripción general.
 
                                                El contexto
 
@@ -7110,10 +7555,12 @@ el caso Atala                                                          de géner
                                                           ——     Perspectiva de género en la función jurisdiccional: importancia
                                                                  y herramientas prácticas
 
-
 ## 6.1         Estándares internacionales de derechos
 
-                                                                      humanos y derecho nacional
+**Definición Canónica:** humanos y derecho nacional
+**Concordancias Legales:** artículo 5; artículo 29 de la Convención Americana; Constitución Política
+
+humanos y derecho nacional
 
                                          Chile ha                     Chile ha firmado tratados internacionales sobre derechos humanos
                                          firmado tratados             y ha aceptado, en algunos casos, la competencia de los órganos
@@ -7205,7 +7652,13 @@ el caso Atala                                                         de género
 
 ## parte el Estado al que      Respecto de la Convención Americana de Derechos Humanos, la
 
-                                                                     Comisión Interamericana de Derechos Humanos ha interpretado que
+**Definición Canónica:** Comisión Interamericana de Derechos Humanos ha interpretado que
+                                         pertenecen, lo cual les     existen dos tipos de medidas: la supresión de las normas y prácticas de
+                                         obliga a velar por el       cualquier naturaleza que entrañen la violación a las garantías previstas
+                                         respeto de los efectos      en la convención o que desconozcan los derechos allí reconocidos u
+                                         de las disposiciones        obstaculicen su ejercicio, y la expedición de no
+
+Comisión Interamericana de Derechos Humanos ha interpretado que
                                          pertenecen, lo cual les     existen dos tipos de medidas: la supresión de las normas y prácticas de
                                          obliga a velar por el       cualquier naturaleza que entrañen la violación a las garantías previstas
                                          respeto de los efectos      en la convención o que desconozcan los derechos allí reconocidos u
@@ -7322,10 +7775,19 @@ identidad de género:                        internacionales sobre orientación 
                                            que ver con la aplicación de las normas internacionales en los casos
                                            concretos que se resuelven a nivel doméstico.
 
-
 ## 1. Documentos y textos de consulta sobre control de convencio-
 
-                                              nalidad:
+**Definición Canónica:** nalidad:
+                                               ——       Corte Interamericana de Derechos Humanos. Cuadernillos
+                                                        de Jurisprudencia. Sobre Control de Convencionalidad.
+                                                        Año 2019.
+                                                        http://www.corteidh.or.cr/sitios/libros/todos/docs/cua-
+                                                        dernillo7.pdf
+                                               ——       Henríquez, Miriam y Morales, Mariela (coordinadoras); El
+         
+**Concordancias Legales:** constitucion
+
+nalidad:
                                                ——       Corte Interamericana de Derechos Humanos. Cuadernillos
                                                         de Jurisprudencia. Sobre Control de Convencionalidad.
                                                         Año 2019.
@@ -7366,7 +7828,14 @@ identidad de género:                        internacionales sobre orientación 
 
 ## (2018-i)/82555137005/
 
-                                               ——       Mesa, Alvaro; “El control de convenciona-
+**Definición Canónica:** ——       Mesa, Alvaro; “El control de convenciona-
+                                                        lidad: ¿un acto racional o irracional?”, Estu-
+                                                        dios Constitucionales, año 16, N° 1, 2018
+                                                        https://scielo.conicyt.cl/pdf/estconst/v16n1/0718-5200-
+                                                        estconst-16-01-00129.pdf
+**Concordancias Legales:** Constitucion
+
+——       Mesa, Alvaro; “El control de convenciona-
                                                         lidad: ¿un acto racional o irracional?”, Estu-
                                                         dios Constitucionales, año 16, N° 1, 2018
                                                         https://scielo.conicyt.cl/pdf/estconst/v16n1/0718-5200-
@@ -7376,10 +7845,11 @@ identidad de género:                        internacionales sobre orientación 
 identidad de género:                                                  internacionales sobre orientación sexual e identidad
 el caso Atala                                                         de género por el Poder Judicial chileno
 
-
 ## 6.2         Política de Igualdad de Género y No
 
-                                                                     Discriminación del Poder Judicial chileno
+**Definición Canónica:** Discriminación del Poder Judicial chileno
+
+Discriminación del Poder Judicial chileno
 
                                          En Chile, en febrero        En Chile, en febrero de 2015, el Pleno de la Excelentísima Corte
                                                                      Suprema de Justicia de Chile aprobó una propuesta de trabajo con
@@ -7479,20 +7949,23 @@ identidad de género:                        internacionales sobre orientación 
                                            ——       No violencia de género
                                            ——       Participación e inclusión
 
-
 ## 1. Política de Igualdad de Género y No Discriminación del Poder
 
-                                              Judicial.
+**Definición Canónica:** Judicial.
+                                              http://secretariadegenero.pjud.cl/index.php/politica-genero-pjud
+
+Judicial.
                                               http://secretariadegenero.pjud.cl/index.php/politica-genero-pjud
 
 Orientación sexual e                                             6. Aplicación jurisprudencial de estándares                            187
 identidad de género:                                                internacionales sobre orientación sexual e identidad
 el caso Atala                                                       de género por el Poder Judicial chileno
 
-
 ## 6.3       Estereotipos e imparcialidad judicial en relación al
 
-                                                                   acceso a la justicia de mujeres y personas LGBTIQ+
+**Definición Canónica:** acceso a la justicia de mujeres y personas LGBTIQ+
+
+acceso a la justicia de mujeres y personas LGBTIQ+
 
                                                                    El acceso a la justicia es un derecho humano esencial y autónomo
                                                                    que favorece el cumplimiento de la igualdad entre las personas.
@@ -7717,10 +8190,16 @@ el caso Atala                                              de género por el Pod
                                                              B.3 Utilización de estereotipos de género perjudiciales durante la in-
                                                              vestigación y juzgamiento.
 
-
 ## 235. La Corte reitera que el estereotipo de género se refiere a una
 
-                                                             pre-concepción de atributos, conductas o características poseídas o
+**Definición Canónica:** pre-concepción de atributos, conductas o características poseídas o
+                                                             papeles que no son o deberían ser ejecutados por hombres y mujeres
+                                                             respectivamente, y que es posible asociar la subordinación de la mujer a
+                                                             prácticas basadas en estereotipos de género socialmente dominantes
+                                                             y socialmente persistentes. En este sentido, su creación y uso se con-
+          
+
+pre-concepción de atributos, conductas o características poseídas o
                                                              papeles que no son o deberían ser ejecutados por hombres y mujeres
                                                              respectivamente, y que es posible asociar la subordinación de la mujer a
                                                              prácticas basadas en estereotipos de género socialmente dominantes
@@ -7752,10 +8231,15 @@ el caso Atala                                              de género por el Pod
 identidad de género:                                         internacionales sobre orientación sexual e identidad
 el caso Atala                                                de género por el Poder Judicial chileno
 
-
 ## 264. Ahora bien, es necesario resaltar que el proceso penal por casos
 
-                                                               de violencia sexual lleva ínsito una serie de dificultades técnicas pro-
+**Definición Canónica:** de violencia sexual lleva ínsito una serie de dificultades técnicas pro-
+                                                               pias que hacen difícil su enjuiciamiento. Es común que existan escasas
+                                                               pruebas sobre lo sucedido, que el acusado afirme su inocencia, y que
+                                                               la discusión se circunscriba a la palabra de una persona contra otra.
+                                                               A ello se suman los prejuicios e ideas preconcebidas y estereotip
+
+de violencia sexual lleva ínsito una serie de dificultades técnicas pro-
                                                                pias que hacen difícil su enjuiciamiento. Es común que existan escasas
                                                                pruebas sobre lo sucedido, que el acusado afirme su inocencia, y que
                                                                la discusión se circunscriba a la palabra de una persona contra otra.
@@ -7769,7 +8253,10 @@ el caso Atala                                                de género por el P
 
 ## V.R.P, V.P.C y
 
-                                         otros contra
+**Definición Canónica:** otros contra
+**Concordancias Legales:** Artículo 8
+
+otros contra
 
                                                                         Antecedentes del caso:
                                           Nicaragua
@@ -7883,10 +8370,11 @@ identidad de género:                        internacionales sobre orientación 
 identidad de género:                                                 internacionales sobre orientación sexual e identidad
 el caso Atala                                                        de género por el Poder Judicial chileno
 
-
 ## 6.4        Perspectiva de género en
 
-                                                                    la función jurisdiccional
+**Definición Canónica:** la función jurisdiccional
+
+la función jurisdiccional
 
                                                                     La Política de Igualdad de Género y No Discriminación del Poder
                                                                     Judicial chileno ha sido construida a partir de un diagnóstico
@@ -7960,7 +8448,14 @@ el caso Atala                                                         de género
 
 ## 1. Política de Igualdad de Género y No Discriminación del Poder
 
-                                         que hacer frente a las         Judicial.
+**Definición Canónica:** que hacer frente a las         Judicial.
+                                         desigualdades entre            http://secretariadegenero.pjud.cl/index.php/politica-genero-pjud
+                                         mujeres y hombres y
+                                         a la discriminación a       6.4.1 ¿Qué es la perspectiva de género?
+                                         mujeres, siendo vista       Se suele asimilar con la expresión inglesa gender mainstreaming, tra-
+                                         como un paso más en         ducida al español como “perspectiva de géner
+
+que hacer frente a las         Judicial.
                                          desigualdades entre            http://secretariadegenero.pjud.cl/index.php/politica-genero-pjud
                                          mujeres y hombres y
                                          a la discriminación a       6.4.1 ¿Qué es la perspectiva de género?
@@ -8020,16 +8515,15 @@ el caso Atala                                                               de g
 identidad de género:                              internacionales sobre orientación sexual e identidad
 el caso Atala                                     de género por el Poder Judicial chileno
 
-
-## 6.5     Propuestas para revisión jurisprudencial
-
-                                                 de sentencias dictadas por tribunales
-                                                 superiores de justicia y sus fundamentos
-
-
 ## 1. Propuestas metodológicas
 
-                                                 ——       Cuaderno de buenas prácticas para incorporar la perspectiva de
+**Definición Canónica:** ——       Cuaderno de buenas prácticas para incorporar la perspectiva de
+                                                          género en las sentencias (agosto 2018), Corte Suprema de
+                                                          Justicia, Chile.
+                                                           ——       Matriz para aplicar los principios de igualdad, no dis-
+                                                                    criminación y perspectiva de género en las sentencias
+
+——       Cuaderno de buenas prácticas para incorporar la perspectiva de
                                                           género en las sentencias (agosto 2018), Corte Suprema de
                                                           Justicia, Chile.
                                                            ——       Matriz para aplicar los principios de igualdad, no dis-
@@ -8052,7 +8546,14 @@ el caso Atala                                     de género por el Poder Judici
 
 ## 2. Ejemplos de jurisprudencia para revisar
 
-                                                 ——       Corte Suprema y Cortes de Apelaciones:
+**Definición Canónica:** ——       Corte Suprema y Cortes de Apelaciones:
+                                                           ——       Jurisprudencia en materia de reconocimiento al dere-
+                                                                    cho a la identidad de género. Ejemplo: Rol 38.238-16
+                                                                    (Corte Suprema).
+                                                           ——       Jurisprudencia en materia de relaciones homoparen-
+                                                                    tales. Ejemplo: Rol 99.861-16 (Corte S
+
+——       Corte Suprema y Cortes de Apelaciones:
                                                            ——       Jurisprudencia en materia de reconocimiento al dere-
                                                                     cho a la identidad de género. Ejemplo: Rol 38.238-16
                                                                     (Corte Suprema).
@@ -8062,31 +8563,21 @@ el caso Atala                                     de género por el Poder Judici
 Orientación sexual e                     6. Aplicación jurisprudencial de estándares                                200
 identidad de género:                        internacionales sobre orientación sexual e identidad
 
-
-## 1. Ronconi, Leticia y Vita, Liliana (2013). “La perspectiva de género
-
-                                              en la formación de jueces y juezas”. Revista sobre enseñanza del
-                                              derecho, 11(22), 115.
-
 ## 2. MacKinnon, Catharine, Feminismo inmodificado. Discursos sobre la
 
-                                              vida y el derecho. 2ª Edición, Colección Política y Derecho, Siglo
+**Definición Canónica:** vida y el derecho. 2ª Edición, Colección Política y Derecho, Siglo
                                               Veintiuno editores, Argentina, 2014 (edición original 1987, tra-
                                               ducción de Teresa Beatriz Arijón) ISBN 978-987-629-368-6.
 
-
-## 3. Pitch, T., Un derecho para dos: la construcción jurídica de género, sexo y
-
-                                              sexualidad. Traducción de Cristina García Pascual, Editorial Trotta,
-                                              Madrid, 2003.
-
-## 4. Segato, Rita, La guerra contra las mujeres. Prometeo Editorial, Pri-
-
-                                              mera Edición, Madrid, 2016.
+vida y el derecho. 2ª Edición, Colección Política y Derecho, Siglo
+                                              Veintiuno editores, Argentina, 2014 (edición original 1987, tra-
+                                              ducción de Teresa Beatriz Arijón) ISBN 978-987-629-368-6.
 
 ## 5. Entrevista a Alda Facio sobre políticas públicas y actuar del Poder
 
-                                              Judicial en la igualdad entre hombres y mujeres, 2011.
+**Definición Canónica:** Judicial en la igualdad entre hombres y mujeres, 2011.
+
+Judicial en la igualdad entre hombres y mujeres, 2011.
 
                                            https://www.youtube.com/watch?v=wj6gKlXPg5o
 
@@ -8105,19 +8596,28 @@ identidad de género:                        internacionales sobre orientación 
                                          2.    Benítez Piraino, Dinka. 2018. Filiación y mujeres          derechos de los niños, niñas y adolescentes en
                                                lesbianas (Santiago, Rubicón Editores, 2018).              Chile (Santiago, s.n., 2017).
 
-
 ## 3.    Carmona, Encarnación. 2015. La perspectiva de          13. Gauché Marchetti, Ximena. 2011. Sexualidad
 
-                                               género en los Sistemas Europeo e Interamericano            Diversa y Discriminación. Una mirada desde el
+**Definición Canónica:** género en los Sistemas Europeo e Interamericano            Diversa y Discriminación. Una mirada desde el
+                                               de Derecho Humanos (Madrid, Serie Cuadernos                Derecho internacional de los derechos humanos
+                                               y Debates. N° 243, Centro de Estudios Políticos y          (Saarbrücken, Alemania, Editorial Académica
+**Concordancias Legales:** Constitucion
+
+género en los Sistemas Europeo e Interamericano            Diversa y Discriminación. Una mirada desde el
                                                de Derecho Humanos (Madrid, Serie Cuadernos                Derecho internacional de los derechos humanos
                                                y Debates. N° 243, Centro de Estudios Políticos y          (Saarbrücken, Alemania, Editorial Académica
 
                                                Constitucionales, 2015).                                   Española, 2011).
 
-
 ## 4.    Cook, Rebeca y Cusack, Simone. 2009. Estereoti-        14. Gavilán Macías, Juan. 2016. “Modelo sociocul-
 
-                                               pos de género, perspectivas legales tradicionales          tural para la intervención en la transexualidad
+**Definición Canónica:** pos de género, perspectivas legales tradicionales          tural para la intervención en la transexualidad
+                                               (s.l., Universidad de Pennsylvania, 2009).                 infantil”. [aut. libro] Aranzazu, Gallego y Espino-
+                                                                                                          sa, María (editoras). Miradas no adultocéntricas
+                                         5.    De Beauvoir, Simone. 1999. El segundo sexo.                sobre la infancia y la adolescencia (Granada,
+                            
+
+pos de género, perspectivas legales tradicionales          tural para la intervención en la transexualidad
                                                (s.l., Universidad de Pennsylvania, 2009).                 infantil”. [aut. libro] Aranzazu, Gallego y Espino-
                                                                                                           sa, María (editoras). Miradas no adultocéntricas
                                          5.    De Beauvoir, Simone. 1999. El segundo sexo.                sobre la infancia y la adolescencia (Granada,
@@ -8140,25 +8640,37 @@ identidad de género:                        internacionales sobre orientación 
 
 ## 9.    Fries, Lorena y Lacrampette, Nicole. 2013. “Femi-
 
-                                               nismos, género y derecho”. Derechos Humanos y          19.   Humanos, Corte Interamericana de Derechos.
+**Definición Canónica:** nismos, género y derecho”. Derechos Humanos y          19.   Humanos, Corte Interamericana de Derechos.
+                                               Mujeres: Teoría y Práctica. s.l. : Centro de Dere-           2012. Artavia Murillo y otros contra Costa Rica.
+                                               chos Humanos, Universidad de Chile, 2013.                    Serie C 257, s.l., Corte Interamericana de Dere-
+                                                                                                            chos Humanos, 2012.
+
+nismos, género y derecho”. Derechos Humanos y          19.   Humanos, Corte Interamericana de Derechos.
                                                Mujeres: Teoría y Práctica. s.l. : Centro de Dere-           2012. Artavia Murillo y otros contra Costa Rica.
                                                chos Humanos, Universidad de Chile, 2013.                    Serie C 257, s.l., Corte Interamericana de Dere-
                                                                                                             chos Humanos, 2012.
 
 ## 10. Gauché Marchetti, Ximena. 2014. “Análisis crítico
 
-                                             a la ley 20.609, que establece medidas contra la         20. —. 2012. Sentencia Atala Riffo y niñas contra
+**Definición Canónica:** a la ley 20.609, que establece medidas contra la         20. —. 2012. Sentencia Atala Riffo y niñas contra
+                                             discriminación, a la luz del DIDH y las convencio-           Chile. Serie C 239, 239. s.l. : Corte Interamericana
+                                             nes de la OEA contra la discriminación”. Revista             de Derechos Humanos, 24 de Febrero de 2012.
+                                             Chilena de Derecho y Ciencia Política. Enero-abril           Párrafo 271.
+**Concordancias Legales:** ley 20.609
+
+a la ley 20.609, que establece medidas contra la         20. —. 2012. Sentencia Atala Riffo y niñas contra
                                              discriminación, a la luz del DIDH y las convencio-           Chile. Serie C 239, 239. s.l. : Corte Interamericana
                                              nes de la OEA contra la discriminación”. Revista             de Derechos Humanos, 24 de Febrero de 2012.
                                              Chilena de Derecho y Ciencia Política. Enero-abril           Párrafo 271.
 
-## 2014. Vol. 5, pp. 11. (Temuco: s.n., Enero-Abril de
-
-                                             2014).                                                   21. Humanos, Corte Interamerinaca de Derechos.
-
 ## 2017. Opinión Consultiva OC 24/17 Identidad de
 
-                                         11.   Gauché Marchetti, Ximena. 2018. “Comentarios               género e igualdad y no discriminación a parejas
+**Definición Canónica:** 11.   Gauché Marchetti, Ximena. 2018. “Comentarios               género e igualdad y no discriminación a parejas
+                                               a la Opinión Consultiva 24/17 de la Corte Inte-            del mismo sexo. OC 24/17, s.l., Corte Interamerica-
+                                               ramericana de Derechos Humanos en materia                  na de Derechos Humanos, 2017.
+                                               de identidad de género”. [aut. libro] Universidad
+
+11.   Gauché Marchetti, Ximena. 2018. “Comentarios               género e igualdad y no discriminación a parejas
                                                a la Opinión Consultiva 24/17 de la Corte Inte-            del mismo sexo. OC 24/17, s.l., Corte Interamerica-
                                                ramericana de Derechos Humanos en materia                  na de Derechos Humanos, 2017.
                                                de identidad de género”. [aut. libro] Universidad
@@ -8173,13 +8685,24 @@ identidad de género:                        internacionales sobre orientación 
 
 ## 35. Strong, B., y otros. 2005. Human Sexuality. Diver-
 
-                                         23. Kagan, Robert. 2003. Poder y debilidad. Europa y           sity in Contemporary America. Fifth edition. (New
+**Definición Canónica:** 23. Kagan, Robert. 2003. Poder y debilidad. Europa y           sity in Contemporary America. Fifth edition. (New
+                                             Estados Unidos en el nuevo orden mundial (Ma-              York, Mc. Graw Hill, 2005).
+                                             drid, Taurus, 2003).
+
+23. Kagan, Robert. 2003. Poder y debilidad. Europa y           sity in Contemporary America. Fifth edition. (New
                                              Estados Unidos en el nuevo orden mundial (Ma-              York, Mc. Graw Hill, 2005).
                                              drid, Taurus, 2003).
 
 ## 36. Vander Zanden, James. 1986. Manual de psicolo-
 
-                                         24. Lamas, Marta. 2014. Cuerpo, sexo y política                gía social. 1a. 5a. reimpresión. (Barcelona, Paidós,
+**Definición Canónica:** 24. Lamas, Marta. 2014. Cuerpo, sexo y política                gía social. 1a. 5a. reimpresión. (Barcelona, Paidós,
+                                             (México, Océano - Colección Debate Feminista,              1986).
+                                             2014).
+                                                                                                    37.   Viñuales, Olga. 2002. Lesbofobia. (Barcelona,
+                                         25. Lorenzini, Kena. 2010. Parejas lésbicas. Tramas              Bellaterra, 2002).
+                                            
+
+24. Lamas, Marta. 2014. Cuerpo, sexo y política                gía social. 1a. 5a. reimpresión. (Barcelona, Paidós,
                                              (México, Océano - Colección Debate Feminista,              1986).
                                              2014).
                                                                                                     37.   Viñuales, Olga. 2002. Lesbofobia. (Barcelona,
@@ -8188,24 +8711,24 @@ identidad de género:                        internacionales sobre orientación 
                                              narios en la subjetividad femenina (Santiago,
                                              Cuarto Propio, 2010).
 
-
 ## 26. Arena, Federico. 2016. “Los estereotipos norma-
 
-                                             tivos en la decisión judicial. Una exploración con-
+**Definición Canónica:** tivos en la decisión judicial. Una exploración con-
                                              ceptual”. Valdivia, s.n., 2016. Revista de Derecho,
                                              Vol. XXIX (1), pp. 51-75.
 
-
-## 27.   Niño, Comité de Derechos del. 2003. Observación
-
-                                               General N° 14 sobre el derecho del Niño a que su
-                                               interés superior sea una consideración primordial.
-                                               2003.
-
+tivos en la decisión judicial. Una exploración con-
+                                             ceptual”. Valdivia, s.n., 2016. Revista de Derecho,
+                                             Vol. XXIX (1), pp. 51-75.
 
 ## 28. Osborne, Raquel y Guasch, Oscar. 2003. “Avances
 
-                                             en sociología de la sexualidad”. Sociología de la
+**Definición Canónica:** en sociología de la sexualidad”. Sociología de la
+                                             sexualidad. 1a. (Madrid, Centro de Investigacio-
+                                             nes Sociológicas, Siglo XXI de España Editores,
+                                             2003).
+
+en sociología de la sexualidad”. Sociología de la
                                              sexualidad. 1a. (Madrid, Centro de Investigacio-
                                              nes Sociológicas, Siglo XXI de España Editores,
                                              2003).
@@ -8213,18 +8736,26 @@ identidad de género:                        internacionales sobre orientación 
                                          29. Renau, M. Dolors. 2008. Ciudadanas y políticas.
                                              1a. (s.l., Fundación Rafael Campalans, 2008).
 
-
 ## 30. Saldivia, Laura. 2009. “Reexaminando la cons-
 
-                                             trucción binaria de la sexualidad”. [aut. libro]
+**Definición Canónica:** trucción binaria de la sexualidad”. [aut. libro]
+                                             SELA. Derecho y sexualidades. Seminario en Lati-
+                                             noamérica de Teoría Constitucional y Política. pp.
+                                             98-119 (Buenos Aires, Libraria, 2009).
+**Concordancias Legales:** Constitucion
+
+trucción binaria de la sexualidad”. [aut. libro]
                                              SELA. Derecho y sexualidades. Seminario en Lati-
                                              noamérica de Teoría Constitucional y Política. pp.
                                              98-119 (Buenos Aires, Libraria, 2009).
 
-
 ## 31. Sanz, Susana. 2003. “A propósito de las senten-
 
-                                             cia Goodwin e I o el debate sobre el matrimonio
+**Definición Canónica:** cia Goodwin e I o el debate sobre el matrimonio
+                                             de transexuales ante el TEDH”. Revista Española
+                                             de Derecho Internacional, Vol. LV.
+
+cia Goodwin e I o el debate sobre el matrimonio
                                              de transexuales ante el TEDH”. Revista Española
                                              de Derecho Internacional, Vol. LV.
 
@@ -8232,24 +8763,12 @@ identidad de género:                        internacionales sobre orientación 
                                              derecho a la identidad de género. (Buenos Aires,
                                              UNGS, 2017).
 
-
 ## 33. Shibley Hide, J. y DeLamater, J.,. 2006. Sexuali-
 
-                                             dad humana. [trad.] Susana Margarita Olivares
+**Definición Canónica:** dad humana. [trad.] Susana Margarita Olivares
                                              Bari y Gloria Estela Padilla Sierra. 9a. (s.l., Mc
                                              Graw Hill, 2006).
 
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl
+dad humana. [trad.] Susana Margarita Olivares
+                                             Bari y Gloria Estela Padilla Sierra. 9a. (s.l., Mc
+                                             Graw Hill, 2006).

@@ -15,6 +15,20 @@ extraccion: pdftotext
 
 ## El contrato de fianza1
 
+**Definición Canónica:** Sumario:
+1.- Concepto, origen y regulación.
+2.- Características del contrato de fianza.
+3.- La subfianza.
+4.- Clases de fianza.
+5.- Requisitos del contrato de fianza.
+6.- Personas obligadas a rendir fianza.
+7.- Requisitos del fiador.
+8.- Efectos del contrato de fianza.
+8.1. Efectos entre acreedor y fiador.
+8.2. Efectos entre fiador y deudor.
+8.3. Efectos entre los co-fiadores.
+9.- Extinción de la fianza.
+**Concordancias Legales:** artículo 2335; artículo 2336; artículos 1708; artículos 854; artículo 1440; constitución
 
 Sumario:
 1.- Concepto, origen y regulación.
@@ -160,6 +174,16 @@ no debemos olvidar que el artículo 1440, al definir el contrato oneroso, exige 
 
 ## parte se grave a favor de la otra, lo que no ocurre si es un tercero ajeno al contrato quien
 
+**Definición Canónica:** se obliga a pagar una remuneración al fiador. López Santa María discrepa de la conclusión
+de Meza Barros, poniendo el énfasis del contrato oneroso en la utilidad que obtengan
+ambos contratantes, aunque uno de ellos se beneficie por la prestación de un tercero y no
+de su contraparte.8
+        Podría sostenerse que la fianza sería un contrato bilateral y además oneroso,
+cuando es el acreedor y no el deudor principal quien remunera al fiador por sus servicios,
+pero en verdad, opina Somarriva, en este caso no estaríamos frente a una fianza, sino más
+bien ante un contrato innominado muy semejante a
+**Concordancias Legales:** artículo 1397; artículo 2351; artículo 2354; artículo 2344
+
 se obliga a pagar una remuneración al fiador. López Santa María discrepa de la conclusión
 de Meza Barros, poniendo el énfasis del contrato oneroso en la utilidad que obtengan
 ambos contratantes, aunque uno de ellos se beneficie por la prestación de un tercero y no
@@ -224,11 +248,16 @@ a pagar en dinero efectivo o con un determinado tipo de moneda, mientras que el 
 principal no tiene dicha limitación.
 5º En cuanto a la pena: en dos casos sería más gravosa la obligación del fiador:
 
-## 5.1. Si el fiador se sujeta a una pena para el cumplimiento de su obligación, pero dicha
-
-pena no afecta al deudor principal;
-
 ## 5.2. Cuando ambos deudores, principal y fiador, se sujetan a una pena, pero la del fiador
+
+**Definición Canónica:** es más grave.
+          En todos los casos en que la obligación del fiador sea más gravosa que la obligación
+principal, la sanción correspondiente será la reducción de la fianza a los mismos términos
+que la obligación principal.
+          Nada impide, en todo caso, que el fiador se obligue en términos más eficaces que
+el deudor principal, cuando se constituye por ejemplo una fianza hipotecaria (o sea, una
+fianza y una hipoteca), aunque la obligación principal no la tenga.
+**Concordancias Legales:** artículo 2352; artículo 2340; artículo 2335; artículo 89; artículo 374; artículo 755; artículo 932; artículo 1292; artículo 1315; artículo 2337; constitución
 
 es más grave.
           En todos los casos en que la obligación del fiador sea más gravosa que la obligación
@@ -313,6 +342,8 @@ ii.- Tratándose de la fianza judicial, no se puede oponer el beneficio de excus
 
 ## 2358 Nº 4).15
 
+**Definición Canónica:** b) Fianza personal, hipotecaria o prendaria.
+**Concordancias Legales:** artículo 2344; artículo 2347; artículos 1522; artículo 2345; artículo 2350; artículo 2342; artículo 404; artículo 260; artículo 1749; artículo 1792; artículo 2343; artículo 2358; artículo 2339; artículo 2173; artículo 2373; artículo 2377; artículo 2356; artículo 2357; artículo 12; artículo 2360; artículo 1514; artículos 2429; artículo 2365; artículo 44; artículo 303 del Código de Procedimiento Civil; artículo 2363; artículo 2359; artículo 1464; artículo 2361; artículo 2366; artículo 2362; artículo 2372; artículo 1591; artículo 2378; artículo 2367; artículo 1511; artículo 2368; artículos 2355; artículo 1546 del Código Civil; artículos 2376
 
 b) Fianza personal, hipotecaria o prendaria.
 

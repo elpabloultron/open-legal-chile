@@ -13,13 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## LEY Nº 19.537 SOBRE
-
-
 ## Copropiedad inmobiliaria1
 
+**Definición Canónica:** Juan Andrés Orrego Acuña
+**Concordancias Legales:** artículos 1; artículos 17; artículos 36; artículos 39; artículos 47; artículos 7; artículo 14 bis; artículos 8; artículos 46 bis; artículos 2; artículo 46; artículo 14 ter; artículos 1 bis; artículos 5; artículo 8; artículo 9; artículo 10; artículo 11; artículo 12; artículos 13; artículos 20; artículo 32; artículo 33; artículos 34; Ley Nº 19.5372; Ley Nº 6.071; Ley Nº 19.537; Ley N° 19.537; Ley N° 19.838; Ley N° 19.839; Ley N° 20.168; Ley N° 20.296; Ley N° 20.579; Ley N° 20.703; Ley N° 20.741; Ley N° 20.808; Ley N° 20.841; Constitucion
 
-                                                                       Juan Andrés Orrego Acuña
+Juan Andrés Orrego Acuña
 
         La Ley Nº 19.5372, publicada en el Diario Oficial con fecha 16 de diciembre de
 1997, regula lo concerniente a un régimen especial de propiedad inmobiliaria. La citada
@@ -117,6 +116,17 @@ los condominios acogidos al régimen de copropiedad inmobiliaria:
 
 ## 1. Normas constitucionales
 
+**Definición Canónica:** ● Art. 1°, inc. 3°: “El Estado reconoce y ampara a los grupos intermedios a través de los
+cuales se organiza y estructura la sociedad y les garantiza la adecuada autonomía para
+cumplir sus propios fines específicos”.
+        Los copropietarios, en efecto, organizados bajo el sistema de copropiedad
+inmobiliaria, constituyen un “grupo intermedio” merecedor del reconocimiento y de la
+protección del Estado (sentencia del Tribunal Constitucional de 17 de enero de 2015, Rol
+Nº 2.688-14, que se resume más adelante).
+● Art. 19 N° 15, derecho de asociarse sin permiso previo.
+        Los copropietarios 
+**Concordancias Legales:** Constitucion
+
 ● Art. 1°, inc. 3°: “El Estado reconoce y ampara a los grupos intermedios a través de los
 cuales se organiza y estructura la sociedad y les garantiza la adecuada autonomía para
 cumplir sus propios fines específicos”.
@@ -139,6 +149,17 @@ encuentra en la utilidad pública, uno de los factores de la función social de 
 
 ## 2. Normas legales
 
+**Definición Canónica:** ● Ley N° 19.537 sobre Copropiedad Inmobiliaria.
+● Ley General de Urbanismo y Construcciones (DFL N° 458, publicado en el Diario Oficial
+de fecha 13 de abril de 1976).
+● Ley Nº 18.287, establece procedimiento ante los Juzgados de Policía Local.
+● Código Civil (aplicación supletoria).
+● Código del Trabajo (trabajadores del condominio).
+● Legislación previsional (trabajadores del condominio).
+● Código de Procedimiento Civil, Título I del Libro III, del “Juicio ejecutivo de las
+obligaciones de dar” (cobro de gastos comunes).
+**Concordancias Legales:** Ley N° 19.537; Ley Nº 18.287; DFL N° 458
+
 ● Ley N° 19.537 sobre Copropiedad Inmobiliaria.
 ● Ley General de Urbanismo y Construcciones (DFL N° 458, publicado en el Diario Oficial
 de fecha 13 de abril de 1976).
@@ -150,6 +171,10 @@ de fecha 13 de abril de 1976).
 obligaciones de dar” (cobro de gastos comunes).
 
 ## 3. Normas reglamentarias
+
+**Definición Canónica:** ● Decreto Supremo N° 46 del Ministerio de Vivienda y Urbanismo, Reglamento de la Ley
+N° 19.537.
+**Concordancias Legales:** Ley N° 19.537
 
 ● Decreto Supremo N° 46 del Ministerio de Vivienda y Urbanismo, Reglamento de la Ley
 N° 19.537.
@@ -172,6 +197,17 @@ Generados por Fuentes que Indica”.
 
 ## 4. Resoluciones y Circulares
 
+**Definición Canónica:** ● Circulares Generales de la División de Desarrollo Urbano, del Ministerio de Vivienda y
+Urbanismo.
+● Resolución Exenta N° 1.250 de 2009, de la Superintendencia de Electricidad y
+Combustible, que “Establece procedimiento para la autorización y control de entidades
+de certificación de instalaciones interiores de gas”.
+● Circular N° 33 de 20 de junio de 2013, del Servicio de Impuestos Internos, que
+“Actualiza los procedimientos para determinar el avalúo fiscal de bienes raíces acogidos al
+régimen de copropiedad inmobiliaria establecido en la Ley N° 19.537”, complementada
+por la Circular del mism
+**Concordancias Legales:** Ley N° 19.537
+
 ● Circulares Generales de la División de Desarrollo Urbano, del Ministerio de Vivienda y
 Urbanismo.
 ● Resolución Exenta N° 1.250 de 2009, de la Superintendencia de Electricidad y
@@ -184,7 +220,17 @@ por la Circular del mismo Servicio Nº 68 de 26 de diciembre de 2014.
 
 ## 5. Reglamento de copropiedad del condominio
 
-        Según veremos, tiene naturaleza contractual y por ende es una ley para los
+**Definición Canónica:** Según veremos, tiene naturaleza contractual y por ende es una ley para los
+copropietarios (art. 1545 del Código Civil), bajo el entendido que sus cláusulas no
+contravengan las normas de la Ley N° 19.537 ni las de su Reglamento ni otros preceptos
+legales o reglamentarios aplicables a los condominios. Sin perjuicio de lo anterior, el
+reglamento de copropiedad ha de ser el primer instrumento que debe examinar el juez
+llamado a resolver un litigio originado al interior de una comunidad, pues en él se fija el
+marco de derechos y de obligaciones que los copropietarios detentan y deben observar,
+resp
+**Concordancias Legales:** Ley N° 19.537
+
+Según veremos, tiene naturaleza contractual y por ende es una ley para los
 copropietarios (art. 1545 del Código Civil), bajo el entendido que sus cláusulas no
 contravengan las normas de la Ley N° 19.537 ni las de su Reglamento ni otros preceptos
 legales o reglamentarios aplicables a los condominios. Sin perjuicio de lo anterior, el
@@ -198,7 +244,16 @@ acuerdo sea modificatorio del reglamento).
 
 ## 6. Acuerdos de las asambleas de copropietarios
 
-        Los acuerdos adoptados con las mayorías exigidas en la Ley o en su Reglamento
+**Definición Canónica:** Los acuerdos adoptados con las mayorías exigidas en la Ley o en su Reglamento
+obligan a todos los copropietarios (art. 20° de la Ley).
+7. Acuerdos del Comité de Administración.
+        El Comité, por ejemplo, podrá acordar normas destinadas a facilitar el buen orden
+y administración del condominio (art. 21° de la Ley). Tales normas pueden referirse a un
+“Reglamento Interno” de la comunidad, destinado a regular con mayor detalle la
+convivencia al interior de la misma.
+**Concordancias Legales:** artículos 2304; artículo 10; artículo 9; artículo 44; artículo 46; Artículo 1; Artículo 2; Artículo 3; Artículo 4; Ley N° 19.537; Ley N° 20.741; Ley N° 20.841; Ley N° 6.071; Ley 6.071; Ley N° 16.742; Ley N° 3.516; Ley 19.537; Ley 3.516
+
+Los acuerdos adoptados con las mayorías exigidas en la Ley o en su Reglamento
 obligan a todos los copropietarios (art. 20° de la Ley).
 7. Acuerdos del Comité de Administración.
         El Comité, por ejemplo, podrá acordar normas destinadas a facilitar el buen orden
@@ -543,6 +598,15 @@ que facilita su administración al separarlos en sectores con alícuotas con pro
 
 ## 2. Aquellos que permitan a los copropietarios el uso y goce de las unidades de su dominio
 
+**Definición Canónica:** exclusivo (por ejemplo, terrenos de dominio común diferentes a los indicados en el punto
+1 precedente, circulaciones horizontales y verticales, terrazas comunes y aquellas que en
+todo o parte sirvan de techo a la unidad del piso inferior, dependencias de servicios
+comunes, oficinas o dependencias destinadas al funcionamiento de la administración y a
+la habitación del personal).
+3. Los terrenos y espacios de dominio común colindantes con una unidad del condominio,
+diferentes a los señalados en los puntos 1 y 2 precedentes (por ejemplo,
+estacionamientos).
+
 exclusivo (por ejemplo, terrenos de dominio común diferentes a los indicados en el punto
 1 precedente, circulaciones horizontales y verticales, terrazas comunes y aquellas que en
 todo o parte sirvan de techo a la unidad del piso inferior, dependencias de servicios
@@ -552,12 +616,17 @@ la habitación del personal).
 diferentes a los señalados en los puntos 1 y 2 precedentes (por ejemplo,
 estacionamientos).
 
-## 4. Los bienes muebles o inmuebles destinados permanentemente al servicio, la
-
-recreación y el esparcimiento comunes de los copropietarios (por ejemplo, sala de
-eventos, gimnasio, piscina, etc.); y
-
 ## 5. Aquellos a los que se les otorgue tal carácter en el Reglamento de Copropiedad o que
+
+**Definición Canónica:** los copropietarios determinen, siempre que no sean de aquellos a que se refieren los
+numerales que anteceden. En este numeral, se establecen dos hipótesis:
+i.- Una, que se refiere a bienes comunes señalados en el Reglamento de Copropiedad,
+distintos de aquellos contemplados en los cuatro casos precedentemente descritos; y
+ii.- Otra, que alude a los bienes comunes “que los copropietarios determinen”, siempre
+que no sea de aquellos contemplados en los cuatro primeros casos ni de bienes comunes
+signados como tales en el Reglamento de Copropiedad distintos de esas cuatro
+categorías. ¿Qué bienes so
+**Concordancias Legales:** artículo 1; artículo 3; Artículo 4; artículo 934 del Código Civil; artículos 18; artículo 2003; artículo 2328 del Código Civil; artículos 148; artículo 5; Ley N° 19.537; Ley N° 18.010; Ley Nº 6.071
 
 los copropietarios determinen, siempre que no sean de aquellos a que se refieren los
 numerales que anteceden. En este numeral, se establecen dos hipótesis:
@@ -984,6 +1053,15 @@ manera copulativa, deben cumplirse:
 
 ## 1. Que la medida esté expresamente contemplada en el reglamento de copropiedad del
 
+**Definición Canónica:** condominio. Respecto de este primer requisito, cabe consignar, para los condominios
+regidos por reglamentos de copropiedad otorgados durante la vigencia de la Ley Nº 6.071
+sobre “Propiedad Horizontal”, que antecedió a la Ley Nº 19.537, lo dispuesto en el inc. 2º
+del art. 49 de esta última ley, en cuanto señala que “En los casos en que esta ley exija que
+una determinada facultad o derecho esté establecida en el reglamento de copropiedad se
+presumirá tal autorización respecto de los reglamentos de copropiedad formulados con
+anterioridad a la vigencia de esta ley, salvo acuerdo en contrario de un
+**Concordancias Legales:** Ley Nº 6.071; Ley Nº 19.537
+
 condominio. Respecto de este primer requisito, cabe consignar, para los condominios
 regidos por reglamentos de copropiedad otorgados durante la vigencia de la Ley Nº 6.071
 sobre “Propiedad Horizontal”, que antecedió a la Ley Nº 19.537, lo dispuesto en el inc. 2º
@@ -1000,6 +1078,13 @@ de copropietarios.
 
 ## 2. Que el reglamento de copropiedad autorice al administrador para que suspenda o
 
+**Definición Canónica:** requiera la suspensión del servicio eléctrico que se suministra a la unidad respectiva.
+Cabe formular al respecto la misma observación hecha en el punto anterior, respecto de
+los reglamentos de copropiedad otorgados antes de la vigencia de la Ley Nº 19.537.
+3. Que el propietario de la unidad se encuentre en mora en el pago de tres o más cuotas,
+continuas o discontinuas, de los gastos comunes; y
+**Concordancias Legales:** Ley Nº 19.537
+
 requiera la suspensión del servicio eléctrico que se suministra a la unidad respectiva.
 Cabe formular al respecto la misma observación hecha en el punto anterior, respecto de
 los reglamentos de copropiedad otorgados antes de la vigencia de la Ley Nº 19.537.
@@ -1007,6 +1092,14 @@ los reglamentos de copropiedad otorgados antes de la vigencia de la Ley Nº 19.5
 continuas o discontinuas, de los gastos comunes; y
 
 ## 4. Que el administrador obtenga el acuerdo previo del Comité de Administración, el que
+
+**Definición Canónica:** debe otorgarse para cada caso en particular y no en términos genéricos y a priori. 29
+        Dispone la Ley que el hecho de que un copropietario no haga uso efectivo de un
+determinado servicio o bien de dominio común, o de que la unidad correspondiente
+permanezca desocupada por cualquier tiempo, no lo exime, en caso alguno, de la
+obligación de contribuir oportunamente al pago de los gastos comunes correspondientes
+(art. 5º, inc. 2º).
+**Concordancias Legales:** Ley N° 19.537; Constitucion
 
 debe otorgarse para cada caso en particular y no en términos genéricos y a priori. 29
         Dispone la Ley que el hecho de que un copropietario no haga uso efectivo de un
@@ -1106,6 +1199,11 @@ acta respectiva.
 
 ## Título I del Libro Tercero del Código de Procedimiento Civil y su conocimiento
 
+**Definición Canónica:** corresponderá al juez de letras respectivo (art. 33º, último inciso).
+        El requerimiento de pago al deudor, conjuntamente con la orden de embargo, se
+le notificará personalmente o por cédula dejada en el domicilio que hubiere registrado en
+**Concordancias Legales:** artículo 9; artículo 3; Ley N° 19.537; ley 11.622; Ley N° 11.622
+
 corresponderá al juez de letras respectivo (art. 33º, último inciso).
         El requerimiento de pago al deudor, conjuntamente con la orden de embargo, se
 le notificará personalmente o por cédula dejada en el domicilio que hubiere registrado en
@@ -1158,6 +1256,11 @@ bienes comunes; pero no podrán extenderse, en caso alguno, a los gastos de repa
 bienes comunes”. La referencia a la Ley N° 11.622, que “REGLAMENTA EL ARRENDAMIENTO DE INMUEBLES
 
 ## Por casas o departamentos, piezas, secciones o locales y fija la renta maxima que se podra
+
+**Definición Canónica:** COBRAR POR DICHOS ARRENDAMIENTOS”, se entiende con la lectura de sus tres primeros artículos:
+“Artículo 1.o La renta anual máxima de habitaciones, locales comerciales o industriales, oficinas y predios
+urbanos, en general, no podrá exceder del 11% del avalúo vigente para el pago del impuesto territorial. Para
+**Concordancias Legales:** Artículo 1; artículo 1940; artículo 2; Artículo 3; artículo 4; artículo 24; artículo 11 de la Ley 19.537 señala que los planos del condomin; artículo 10; artículo 118; artículo 144; artículo 38; Ley N° 19.537; Ley Nº 19.537; ley 19.880; Ley 19.537; Ley N° 19.880
 
 COBRAR POR DICHOS ARRENDAMIENTOS”, se entiende con la lectura de sus tres primeros artículos:
 “Artículo 1.o La renta anual máxima de habitaciones, locales comerciales o industriales, oficinas y predios
@@ -1406,6 +1509,16 @@ copropietarios para modificar o dejar sin efecto dicha declaración, caso en el 
 
 ## “establece bases de los procedimientos administrativos que rigen los actos
 
+**Definición Canónica:** DE LOS ORGANOS DE LA ADMINISTRACION DEL ESTADO” 41, salvo que la solicitud para
+acoger un condominio al régimen de copropiedad se formulare conjuntamente con una
+gestión de aquellas que sí tienen un término reglado en la citada Ley General de
+Urbanismo y Construcciones, en cuyo caso el plazo, por regla general, será de 30 días.
+       La Ley N° 20.841, por su parte, publicada en el Diario Oficial de 30 de mayo de
+2015, interpreta el inc. 1° del art. 10 de la Ley, “en materia de espacios que sean bienes
+nacionales de uso público y los de dominio comunitario en el régimen de copropiedad
+inmobili
+**Concordancias Legales:** artículos 66; artículo 24 de la Ley N; artículo 10 de la Ley N; Artículo 24; Ley N° 20.841; Ley N° 19.880; Ley N° 19.537; Constitucion
+
 DE LOS ORGANOS DE LA ADMINISTRACION DEL ESTADO” 41, salvo que la solicitud para
 acoger un condominio al régimen de copropiedad se formulare conjuntamente con una
 gestión de aquellas que sí tienen un término reglado en la citada Ley General de
@@ -1461,6 +1574,15 @@ Construcciones, “De la subdivisión y la Urbanización del Suelo”, que forma
 
 ## Título II de dicha ley, “De la planificación urbana”. El art. 66 alude a la formación de
 
+**Definición Canónica:** nuevas poblaciones, barrios, grupos o conjuntos habitacionales. El art. 67, a los proyectos
+de subdivisión, loteos, urbanización o modificación de deslindes de terrenos. El art. 70, se
+refiere a la cesión gratuita y obligatoria que debe hacerse en toda urbanización de
+terrenos, para circulación, áreas verdes, desarrollo de actividades deportivas y
+recreacionales, y para el equipamiento, las superficies que señala la Ordenanza General,
+las que no podrán exceder del 44% de la superficie total del terreno original.
+        Los artículos 134, 135 y 136, forman parte del Capítulo II de la Ley Gener
+**Concordancias Legales:** artículos 134; artículo 70 de la Ley General de Urbanismo y Construcciones par; artículo 138 bis de la Ley General de Urbanismo y Construcción; Ley N° 20.841; Ley N° 20.741; Ley N° 19.537
+
 nuevas poblaciones, barrios, grupos o conjuntos habitacionales. El art. 67, a los proyectos
 de subdivisión, loteos, urbanización o modificación de deslindes de terrenos. El art. 70, se
 refiere a la cesión gratuita y obligatoria que debe hacerse en toda urbanización de
@@ -1513,12 +1635,13 @@ regulador.
 obtener también un rol único tributario. Conforme a la información disponible en la
 página del Servicio de Impuestos Internos, será necesario para ello:
 
-## 1. Presentar el Formulario 4415, relativo a “Inscripción al Rol Único tributario y/o
-
-Declaración Jurada de Inicio de Actividades”.
-2. Acreditar domicilio.
-
 ## 3. En el trámite de obtención de Rut deben participar todos los miembros o integrantes
+
+**Definición Canónica:** de la comunidad, firmando cada uno de ellos la solicitud y exhibiendo su respectiva
+cédula nacional de identidad. La solicitud también puede ser firmada por un
+administrador, representante o mandatario común, el que deberá presentar su cédula
+nacional de identidad y el documento firmado y autorizado ante Notario en que conste
+su designación como tal.
 
 de la comunidad, firmando cada uno de ellos la solicitud y exhibiendo su respectiva
 cédula nacional de identidad. La solicitud también puede ser firmada por un
@@ -1527,6 +1650,11 @@ nacional de identidad y el documento firmado y autorizado ante Notario en que co
 su designación como tal.
 
 ## 4. El administrador deberá presentar el acta (original o fotocopia simple) de su
+
+**Definición Canónica:** nombramiento, reducida a escritura pública.
+       La materia está regulada por la Circular N° 31 de 1 de junio de 2007, del Servicio
+de Impuestos Internos.
+**Concordancias Legales:** artículo 4; artículo 2.4.2. de la Ordenanza General de Urbanismo y Construccion; artículos 8; artículo 2.4.2; artículo 18 de la Ley General de Urbanismo y Construcciones; artículos 1.2.2; Ley N° 20.841; Ley N° 19.537; Ley Nº 19.472
 
 nombramiento, reducida a escritura pública.
        La materia está regulada por la Circular N° 31 de 1 de junio de 2007, del Servicio
@@ -1692,6 +1820,14 @@ son los siguientes: de 7 a 21 horas, 55 decibeles, y de 21 a 7 horas, 45 decibel
 dispone: “Cuando dos o más unidades independientes de una edificación colectiva o condominio, que sean
 
 ## parte de la fuente emisora de ruido, generen emisiones sonoras en forma simultánea, los límites máximos
+
+**Definición Canónica:** permisibles de ruido serán aplicables a la emisión conjunta de dichas unidades, y la responsabilidad de su
+cumplimiento recaerá sobre la respectiva administración, conforme lo establece la Ley de Copropiedad
+Inmobiliaria u otras leyes especiales”. De acuerdo al art. 20, corresponderá a la Superintendencia del Medio
+Ambiente fiscalizar el cumplimiento de las disposiciones contempladas en el Decreto.
+   Ver en “Criterios jurisprudenciales” sentencia N° 28, dictada por la Corte Suprema con fecha 11 de febrero
+de 2016.
+**Concordancias Legales:** artículo 32; artículo 15; artículo 17; artículo 11; artículo 1.1.2 de la Ordenanza General de la Ley General de Urbani; artículo 21; artículo 28; artículo 31; artículos 30; artículos 34; artículos 41; artículo 46; artículos 52; Ley N° 19.537; Ley N° 20.741; Ley N° 6.071; Ley N° 20.168; constitución; constitucion
 
 permisibles de ruido serán aplicables a la emisión conjunta de dichas unidades, y la responsabilidad de su
 cumplimiento recaerá sobre la respectiva administración, conforme lo establece la Ley de Copropiedad
@@ -2363,23 +2499,29 @@ tratarse en asambleas extraordinarias, con excepción de las señaladas en los n
 del inc. 5° del art. 17° de la ley. De esta manera, las reglas concernientes a la consulta por
 escrito son las siguientes:
 
-## 1. Las materias que pueden ser objeto de consulta, son las contempladas en los números
-
-1 (con la salvedad indicada), 5, 6, 7, 8 y 9 del inc. 5° del art. 17° de la Ley.
-
 ## 2. La consulta será firmada por el Presidente del Comité de Administración y por el
+
+**Definición Canónica:** administrador del condominio y se notificará a cada uno de los copropietarios en igual
+forma que la citación a asamblea.
+3. La consulta deberá ser acompañada de los antecedentes que faciliten su comprensión,
+junto con el proyecto de acuerdo correspondiente, para su aceptación o rechazo por los
 
 administrador del condominio y se notificará a cada uno de los copropietarios en igual
 forma que la citación a asamblea.
 3. La consulta deberá ser acompañada de los antecedentes que faciliten su comprensión,
 junto con el proyecto de acuerdo correspondiente, para su aceptación o rechazo por los
 
-## 4. La consulta se entenderá aprobada cuando obtenga la aceptación por escrito y firmada
-
-de los copropietarios que representen a lo menos el 75% de los derechos en el
-condominio.
-
 ## 5. El acuerdo correspondiente deberá reducirse a escritura pública suscrita por el
+
+**Definición Canónica:** Presidente del Comité de Administración y por el administrador del condominio,
+debiendo protocolizarse los antecedentes que respalden el acuerdo, dejándose
+constancia de dicha protocolización en la respectiva escritura.
+6. En caso de rechazo de la consulta, ella no podrá renovarse antes de 6 meses.
+● Casos en los cuáles puede omitirse la asamblea extraordinaria: no se requerirá sesión
+extraordinaria de asamblea respecto de las materias comprendidas en los números 10,
+11, 12 y 13 del inc. 5° del art. 17°, cuando el reglamento de copropiedad establezca
+normas que las regulen y se trate de obras 
+**Concordancias Legales:** artículo 17; artículo 17 de la Ley; artículo 18; Ley N° 19.537
 
 Presidente del Comité de Administración y por el administrador del condominio,
 debiendo protocolizarse los antecedentes que respalden el acuerdo, dejándose
@@ -2441,17 +2583,28 @@ lapso no inferior a media hora ni superior a 6 horas (inc. 6°).
 
 ## 1. Regla general: se constituirán en primera citación con la asistencia de los
 
+**Definición Canónica:** copropietarios que representen, a lo menos, el 80% de los derechos en el condominio; y
+en segunda citación, con la asistencia de los copropietarios que representen, a lo menos,
+el 60% de los derechos en el condominio (inc. 2°).
+
 copropietarios que representen, a lo menos, el 80% de los derechos en el condominio; y
 en segunda citación, con la asistencia de los copropietarios que representen, a lo menos,
 el 60% de los derechos en el condominio (inc. 2°).
 
 ## 2. Para tratar las materias señaladas en los números 1 al 5 del inc. 5° del art. 17º, se
 
+**Definición Canónica:** requerirá para constituirse la asamblea, tanto en primera como en segunda citación, de la
+asistencia de los copropietarios que representen, a lo menos, el 80% de los derechos en
+el condominio (inc. 3°).
+
 requerirá para constituirse la asamblea, tanto en primera como en segunda citación, de la
 asistencia de los copropietarios que representen, a lo menos, el 80% de los derechos en
 el condominio (inc. 3°).
 
 ## 3. Las asambleas extraordinarias para tratar modificaciones al reglamento de
+
+**Definición Canónica:** copropiedad que incidan en la alteración del porcentaje de los derechos de los
+**Concordancias Legales:** Ley N° 19.537
 
 copropiedad que incidan en la alteración del porcentaje de los derechos de los
 
@@ -2461,6 +2614,17 @@ asistencia de los copropietarios que representen, a lo menos, el 90% de los dere
 el condominio (inc. 4°).
 
 ## 4. En las asambleas extraordinarias, entre la primera y segunda citación deberá mediar un
+
+**Definición Canónica:** lapso no inferior a 5 ni superior a 15 días (inc. 6°).
+● Condominios de viviendas sociales: tratándose de esta clase de condominios, tanto las
+asambleas ordinarias como las extraordinarias requerirán para constituirse la asistencia
+de los copropietarios que representen, a lo menos, el 50% de los derechos en el
+condominio. En caso de condominios de viviendas sociales con subadministraciones por
+bloques, las asambleas podrán desarrollarse de manera independiente en cada
+subadministración (inc. 5°).
+● Si no se reunieren los quórum necesarios para sesionar, el administrador o cualquier
+copropietar
+**Concordancias Legales:** artículo 33 de la Ley; artículo 19; Ley N° 19.537; Ley N° 20.741; Ley N° 6.071; Ley N° 20.830
 
 lapso no inferior a 5 ni superior a 15 días (inc. 6°).
 ● Condominios de viviendas sociales: tratándose de esta clase de condominios, tanto las
@@ -2622,58 +2786,50 @@ g) Principales funciones del Comité de Administración.
 siguientes funciones que la Ley y el Reglamento de ésta, confían al Comité de
 Administración:
 
-## 1. Representar a la asamblea con todas sus facultades, excepto aquellas que deban ser
-
-materia de asamblea extraordinaria y no hubieren sido delegadas por ésta conforme al
-art. 17 (art. 21°).
-
 ## 2. Autorizar al administrador para suspender o requerir la suspensión del servicio
+
+**Definición Canónica:** eléctrico que se suministra a aquellas unidades cuyos copropietarios se encuentren
+morosos en el pago de tres o más cuotas, continuas o discontinuas, de los gastos
+comunes. Lo anterior, en la medida que el reglamento de copropiedad así lo autorice (art.
+5°, inc. 3°).
 
 eléctrico que se suministra a aquellas unidades cuyos copropietarios se encuentren
 morosos en el pago de tres o más cuotas, continuas o discontinuas, de los gastos
 comunes. Lo anterior, en la medida que el reglamento de copropiedad así lo autorice (art.
 5°, inc. 3°).
 
-## 3. Aprobar los presupuestos estimativos de gastos comunes por períodos anticipados
-
-confeccionados por el administrador, siempre que así lo establezca el reglamento de
-copropiedad (art. 6°, inc. 2°).
-
 ## 4. Disponer que los recursos del fondo de reserva se mantengan en depósito en una
+
+**Definición Canónica:** cuenta corriente bancaria o en una cuenta de ahorro o que se inviertan en instrumentos
+financieros que operen en el mercado de capitales (art. 7°, inc. 2°).
+5. Disponer que se cite a asamblea ordinaria o extraordinaria de copropietarios (arts. 17,
+inc. 4° y art. 18°, inc. 1°).
 
 cuenta corriente bancaria o en una cuenta de ahorro o que se inviertan en instrumentos
 financieros que operen en el mercado de capitales (art. 7°, inc. 2°).
 5. Disponer que se cite a asamblea ordinaria o extraordinaria de copropietarios (arts. 17,
 inc. 4° y art. 18°, inc. 1°).
 
-## 6. Disponer una consulta por escrito a los copropietarios, en las materias autorizadas por
-
-la Ley (art. 17°, inc. 6°).
-7. Fijar el lugar en que se lleven a cabo las asambleas de copropietarios (art. 18°, inc. 2°).
-
-## 8. Proceder al cumplimiento de los acuerdos adoptados por la asamblea de
-
-copropietarios (art. 20°, inc. 4°).
-
-            Ley N° 19.537, sobre Copropiedad Inmobiliaria – Juan Andrés Orrego Acuña       55
-
 ## 9. Dejar constancia de los acuerdos de la asamblea en un libro de actas foliado, que
+
+**Definición Canónica:** deberán firmar todos los miembros del comité de administración y que quedará bajo
+custodia del Presidente del mismo (art. 20°, inc. 5°).
+10. Dictar normas que faciliten el buen orden y administración del condominio (art. 21°).
 
 deberán firmar todos los miembros del comité de administración y que quedará bajo
 custodia del Presidente del mismo (art. 20°, inc. 5°).
 10. Dictar normas que faciliten el buen orden y administración del condominio (art. 21°).
 
-## 11. Imponer las multas que estuvieren contempladas en el reglamento de copropiedad a
-
-quienes infrinjan las obligaciones de la Ley de Copropiedad Inmobiliaria, del Reglamento
-de la Ley y del reglamento de copropiedad (art. 21°).
-
-## 12. Aceptar la propuesta del administrador o presentar una alternativa distinta, en el
-
-plazo de 10 días hábiles, respecto de la certificación de las instalaciones de gas de la
-comunidad (art. 23°, inc. 3°).
-
 ## 13. Aceptar la propuesta del administrador o presentar una alternativa distinta, en el
+
+**Definición Canónica:** plazo de 10 días hábiles, respecto de la mantención y la certificación de los ascensores,
+montacargas y escaleras o rampas mecánicas y sus instalaciones (art. 23°, inc. 4°).
+14. Disponer la apertura de una cuenta corriente bancaria o una cuenta de ahorro (art.
+23°, inc. 6°).
+15. Solicitar al administrador que rinda cuenta de su gestión, en cualquier tiempo (art.
+23°, inc. 7°).
+16. Autorizar la copia del acta de la asamblea en que se hayan acordado gastos comunes,
+para conferirle mérito ejecutivo (art. 27°, inc. 1°).
 
 plazo de 10 días hábiles, respecto de la mantención y la certificación de los ascensores,
 montacargas y escaleras o rampas mecánicas y sus instalaciones (art. 23°, inc. 4°).
@@ -2684,21 +2840,11 @@ montacargas y escaleras o rampas mecánicas y sus instalaciones (art. 23°, inc.
 16. Autorizar la copia del acta de la asamblea en que se hayan acordado gastos comunes,
 para conferirle mérito ejecutivo (art. 27°, inc. 1°).
 
-## 17. Denunciar las infracciones a lo prevenido en el art. 32°, dentro de los tres meses
-
-siguientes a su ocurrencia (art. 32°, inc. 3°).
-
-## 18. Confeccionar un plan de emergencia ante siniestros, como incendios, terremotos y
-
-semejantes, que deberá someterse a la aprobación de una asamblea extraordinaria
-citada especialmente a ese efecto, dentro de los tres primeros meses de su
-nombramiento (art. 36°, inc. 3°).
-
-## 19. Actualizar anualmente el plan de emergencia, junto con los planos del condominio
-
-detallados según necesidad (art. 36°, inc. 4°).
-
 ## 20. Entregar copia del plan de emergencia y de los planos respectivos a la unidad de
+
+**Definición Canónica:** Carabineros y de bomberos más cercana, las que podrán hacer llegar al Comité de
+Administración las observaciones que estimen pertinentes (art. 36°, inc. 4°).61
+**Concordancias Legales:** artículo 20; Ley N° 19.537
 
 Carabineros y de bomberos más cercana, las que podrán hacer llegar al Comité de
 Administración las observaciones que estimen pertinentes (art. 36°, inc. 4°).61
@@ -2723,6 +2869,14 @@ evacuación, así como un plano que incluya dichas vías, la indicación de los 
 
 ## 21. Fijarle al copropietario de una unidad que fuere omiso en efectuar las reparaciones
 
+**Definición Canónica:** de desperfectos que puedan producir daño en otras unidades o en bienes de dominio
+común, un plazo para llevarlas a cabo. Si no se ejecutaren dichas reparaciones
+transcurrido el plazo, el Comité procederá conforme a los incisos 3° y 4° del art. 32° de la
+Ley, es decir, se hará la denuncia pertinente al Juez de Policía Local para que se imponga
+una sanción al infractor, consistente en multa de una a tres unidades tributarias
+mensuales, que podrán elevarse al doble en caso de reincidencia (art. 6°, inc. 3° del
+Reglamento de la Ley).
+
 de desperfectos que puedan producir daño en otras unidades o en bienes de dominio
 común, un plazo para llevarlas a cabo. Si no se ejecutaren dichas reparaciones
 transcurrido el plazo, el Comité procederá conforme a los incisos 3° y 4° del art. 32° de la
@@ -2731,17 +2885,11 @@ una sanción al infractor, consistente en multa de una a tres unidades tributari
 mensuales, que podrán elevarse al doble en caso de reincidencia (art. 6°, inc. 3° del
 Reglamento de la Ley).
 
-## 22. Encomendar la recaudación de los gastos comunes a una entidad de derecho público
-
-o privado que estén facultadas para prestar este servicio (art. 16°, inc. 3° del Reglamento
-de la Ley).
-
-## 23. Tomar medidas, a propuesta del administrador, tendientes a precaver la ocurrencia
-
-de accidentes y a resguardar la integridad personal de los copropietarios y sus familias,
-así como sus bienes, dentro del condominio (art. 26° del Reglamento de la Ley).
-
 ## 24. Cuando corresponda, confeccionar un reglamento interno de Orden, Higiene y
+
+**Definición Canónica:** Seguridad, aplicable a los trabajadores del condominio, y someterlo a la aprobación de la
+asamblea de copropietarios (cuando el condominio tenga 10 o más trabajadores, art.
+153° del Código del Trabajo).
 
 Seguridad, aplicable a los trabajadores del condominio, y someterlo a la aprobación de la
 asamblea de copropietarios (cuando el condominio tenga 10 o más trabajadores, art.
@@ -2751,6 +2899,14 @@ h) Funciones del Presidente del Comité de Administración.
 
 ## 1. Comparecer, conjuntamente con el administrador, en representación de la asamblea
 
+**Definición Canónica:** de copropietarios, a la celebración de actos y contratos que tengan por finalidad la
+enajenación, el arrendamiento o la constitución de gravámenes de bienes comunes (art.
+14°, inc. 3°).
+2. Previa decisión del Comité de Administración, firmar, junto con el administrador,
+consulta por escrito a los copropietarios, en aquellas materias autorizadas por la Ley (art.
+17°, inc. 6°).
+**Concordancias Legales:** constitución
+
 de copropietarios, a la celebración de actos y contratos que tengan por finalidad la
 enajenación, el arrendamiento o la constitución de gravámenes de bienes comunes (art.
 14°, inc. 3°).
@@ -2758,25 +2914,11 @@ enajenación, el arrendamiento o la constitución de gravámenes de bienes comun
 consulta por escrito a los copropietarios, en aquellas materias autorizadas por la Ley (art.
 17°, inc. 6°).
 
-## 3. Suscribir junto con el administrador, la escritura pública a la que se reduzca el acuerdo
-
-de los copropietarios respecto de la consulta escrita que se les haya formulado (art. 17°,
-inc. 6°).
-
-## 4. Previo acuerdo del Comité de Administración, deberá citar a asamblea a todos los
-
-copropietarios o apoderados (art. 18°, inc. 1°).
-5. Presidir la asamblea de copropietarios (art. 18°, inc. 2°).
-
-## 6. Custodiar el libro de actas foliado, en el que constan los acuerdos de las asambleas de
-
-copropietarios (art. 20°, inc. 5°).
-
-## 7. Actuar como administrador, a falta de designación del mismo por la asamblea de
-
-copropietarios (art. 22°, inc. 1°).
-
 ## 8. Suscribir –previo acuerdo adoptado en asamblea extraordinaria especialmente citada
+
+**Definición Canónica:** al efecto- un convenio de administración conjunta con otro u otros condominios ubicados
+en la misma comuna (art. 26°, inc. 2°).
+**Concordancias Legales:** Ley N° 19.537
 
 al efecto- un convenio de administración conjunta con otro u otros condominios ubicados
 en la misma comuna (art. 26°, inc. 2°).
@@ -2839,12 +2981,11 @@ las que específicamente le conceda la asamblea de copropietarios, tales como (a
 9° de la Ley y 26º y 32° de su Reglamento):
 1. Cuidar los bienes de dominio común.
 
-## 2. Cerciorarse de que la infraestructura de soporte de redes de telecomunicaciones no
-
-sea intervenida por terceros con el objeto o efecto de impedir el ingreso de distintos
-operadores de telecomunicaciones.
-
 ## 3. Efectuar los actos necesarios para realizar la certificación de las instalaciones de gas 65 y
+
+**Definición Canónica:** el mantenimiento y certificación de los ascensores, tanto verticales como inclinados o
+funiculares, montacargas y escaleras o rampas mecánicas y sus instalaciones.66
+**Concordancias Legales:** Artículo 35; Artículo 36; artículo 32; Artículo 37; Artículo 38; artículo 33; ley 19.537; Ley N° 19.537
 
 el mantenimiento y certificación de los ascensores, tanto verticales como inclinados o
 funiculares, montacargas y escaleras o rampas mecánicas y sus instalaciones.66
@@ -2940,21 +3081,23 @@ comprobar el estado de las instalaciones de gas o verificar sus condiciones oper
 
                Ley N° 19.537, sobre Copropiedad Inmobiliaria – Juan Andrés Orrego Acuña                          60
 
-## 4. Ejecutar los actos de administración y conservación y los de carácter urgente sin
-
-recabar previamente acuerdo de la asamblea, sin perjuicio de su posterior ratificación.
-
-## 5. Cobrar y recaudar los gastos comunes y las sumas que correspondan al fondo común
-
-de reserva y primas de seguros de incendios, previstos en la Ley y su Reglamento.
-
 ## 6. Velar por la observancia de las disposiciones legales y reglamentarias sobre
+
+**Definición Canónica:** copropiedad inmobiliaria y las del reglamento de copropiedad y poner en conocimiento
+del Comité de Administración las transgresiones que detecte, caso en el cual dicho
+órgano podrá imponer la multa correspondiente, conforme al art. 21.
 
 copropiedad inmobiliaria y las del reglamento de copropiedad y poner en conocimiento
 del Comité de Administración las transgresiones que detecte, caso en el cual dicho
 órgano podrá imponer la multa correspondiente, conforme al art. 21.
 
 ## 7. Representar en juicio, activa y pasivamente, a los copropietarios, con las facultades del
+
+**Definición Canónica:** inciso 1º del art. 7º del Código de Procedimiento Civil, en las causas concernientes a la
+administración y conservación del condominio, sea que se promuevan con cualquiera de
+ellos o con terceros; de esta manera, las demandas que interponga el condominio deben
+presentarse por el administrador y aquellas que se enderecen en contra del condominio,
+**Concordancias Legales:** Artículo 159 bis; artículos 20; artículo 4.1.11; Ley N° 19.537
 
 inciso 1º del art. 7º del Código de Procedimiento Civil, en las causas concernientes a la
 administración y conservación del condominio, sea que se promuevan con cualquiera de
@@ -3005,32 +3148,21 @@ ambos casos, actuando en representación de la comunidad.
 
 ## 9. Pedir al tribunal competente que aplique los apremios o sanciones que procedan al
 
+**Definición Canónica:** copropietario u ocupante que infrinja las limitaciones o restricciones que en el uso de su
+unidad le imponen la Ley de Copropiedad Inmobiliaria, su Reglamento y el reglamento de
+copropiedad (art. 26 N° 10 del Reglamento).
+
 copropietario u ocupante que infrinja las limitaciones o restricciones que en el uso de su
 unidad le imponen la Ley de Copropiedad Inmobiliaria, su Reglamento y el reglamento de
 copropiedad (art. 26 N° 10 del Reglamento).
 
-## 10. Mantener en el condominio una nómina actualizada de los copropietarios, con sus
-
-respectivos domicilios registrados.
-
-## 11. Mantener actualizado el archivo de documentos del condominio y a disposición de los
-
-
-## 12. En el caso a que se refiere el inc. 1º del art. 36 de la Ley, contratar por cuenta y cargo
-
-del copropietario el seguro de incendio de la respectiva unidad en el caso que aquél no lo
-hiciere.
-
-## 13. Velar por el cumplimiento de las medidas de seguridad a que se refiere el art. 32 de la
-
-Ley.
-
-## 14. Adoptar o proponer al Comité de Administración, medidas tendientes a precaver la
-
-ocurrencia de accidentes y a resguardar la integridad personal de los copropietarios y sus
-familias, así como sus bienes, dentro del condominio (art. 26° del Reglamento de la Ley).67
-
 ## 15. Denunciar la ocurrencia de todo hecho ilícito acaecido al interior del Condominio, a
+
+**Definición Canónica:** Carabineros, Investigaciones o al juez competente (art. 26° del Reglamento de la Ley).
+16. Mantener una lista actualizada de teléfonos y direcciones de servicios de urgencia,
+hospitales, clínicas y médicos, para casos de traslado o atención de enfermos o
+accidentados, así como del Cuerpo de Bomberos, que correspondan a la localidad donde
+está ubicado el condominio.
 
 Carabineros, Investigaciones o al juez competente (art. 26° del Reglamento de la Ley).
 16. Mantener una lista actualizada de teléfonos y direcciones de servicios de urgencia,
@@ -3038,20 +3170,14 @@ hospitales, clínicas y médicos, para casos de traslado o atención de enfermos
 accidentados, así como del Cuerpo de Bomberos, que correspondan a la localidad donde
 está ubicado el condominio.
 
-## 17. Velar por la debida iluminación de espacios de circulación interiores y perimetrales
-
-del condominio.
-
-## 18. Fiscalizar que se respeten las horas de descanso nocturno establecidas en el
-
-reglamento de copropiedad.
-
-## 19. Poner en conocimiento del Comité de Administración cualquier acto de ocupación
-
-ilícito o de daño a los bienes comunes o a las unidades, sea por copropietarios o por
-terceros.
-
 ## 20. Si se viere comprometida la seguridad o conservación de los bienes comunes o de las
+
+**Definición Canónica:** unidades, por efecto de filtraciones, inundaciones, emanaciones de gas u otros
+desperfectos, no encontrándose el propietario, arrendatario u ocupante que facilite o
+permita el acceso, el administrador, conforme a la facultad que le confiere el inciso 6° del
+artículo 36 de la Ley, podrá ingresar forzadamente a una unidad, acompañado de un
+miembro del Comité de Administración.
+**Concordancias Legales:** artículo 36 de la Ley; Ley N° 19.537
 
 unidades, por efecto de filtraciones, inundaciones, emanaciones de gas u otros
 desperfectos, no encontrándose el propietario, arrendatario u ocupante que facilite o
@@ -3070,20 +3196,28 @@ Privada.
 
 ## 21. Proponer al Comité de Administración la adopción de medidas para resguardar el
 
+**Definición Canónica:** ingreso al condominio de personas ajenas a éste, sea en calidad de visitantes o de
+prestadores de servicios.
+22. Autorizar cambios en las instalaciones interiores de una unidad.
+23. Velar por la seguridad y expedición de las vías de acceso al condominio.
+
 ingreso al condominio de personas ajenas a éste, sea en calidad de visitantes o de
 prestadores de servicios.
 22. Autorizar cambios en las instalaciones interiores de una unidad.
 23. Velar por la seguridad y expedición de las vías de acceso al condominio.
 
-## 24. Proporcionar al Juez de Policía Local que así se lo requiera, la nómina de
-
-copropietarios del condominio (art. 33°).
-
-## 25. Certificar, a petición del propietario de la unidad, que éste no adeuda gastos
-
-comunes.
-
 ## 26. Poner en conocimiento de todos los copropietarios, la demanda interpuesta por uno
+
+**Definición Canónica:** de ellos, con el objeto de modificar el reglamento de copropiedad, conforme al art. 31 de
+la Ley y al art. 8 del Reglamento de la Ley.
+27. En general, todas aquellas otras funciones que específicamente le encomiende la Ley,
+el Reglamento de la Ley, el reglamento de copropiedad, o le asigne el Comité de
+Administración.68
+         La obligación de cerciorarse de que la infraestructura de soporte de redes de
+telecomunicaciones no sea intervenida por terceros con el objeto o efecto de impedir el
+ingreso de distintos operadores de telecomunicaciones es aplicable tanto al titular del
+proyecto, duran
+**Concordancias Legales:** artículo 22 inciso 1; artículo 28; artículo 7; artículo 4 de la Ley N; artículo 2132 del Código Civil; Ley N° 19.537; Ley N° 20.296; Ley N° 6.071; D.F.L. N° 458; D.F.L. 458
 
 de ellos, con el objeto de modificar el reglamento de copropiedad, conforme al art. 31 de
 la Ley y al art. 8 del Reglamento de la Ley.
@@ -3376,6 +3510,15 @@ b) Características.
 
 ## 2. Contrato oneroso: el contrato reporta utilidad para todos los contratantes, quienes
 
+**Definición Canónica:** también se gravan cada uno a beneficio de los otros.
+3. Contrato conmutativo: lo que cada una de las partes se obliga a dar, hacer y no hacer,
+se mira como equivalente a lo que las otras partes deben dar, hacer y no hacer a su vez.
+El contrato genera obligaciones tanto de dar (por ejemplo, pago de gastos comunes), de
+hacer (por ejemplo, asistencia a las asambleas de copropietarios) y de no hacer (por
+ejemplo, abstenerse de ejecutar acto alguno que perturbe la tranquilidad de los
+copropietarios).
+4. Contrato principal: subsiste por sí mismo, sin necesidad de otra convención.
+
 también se gravan cada uno a beneficio de los otros.
 3. Contrato conmutativo: lo que cada una de las partes se obliga a dar, hacer y no hacer,
 se mira como equivalente a lo que las otras partes deben dar, hacer y no hacer a su vez.
@@ -3385,23 +3528,23 @@ ejemplo, abstenerse de ejecutar acto alguno que perturbe la tranquilidad de los
 copropietarios).
 4. Contrato principal: subsiste por sí mismo, sin necesidad de otra convención.
 
-## 5. Contrato solemne: pues debe celebrarse cumpliendo las solemnidades previstas en la
-
-ley, a saber: que conste por escrito, que se reduzca a escritura pública y se inscriba en el
-Registro de Hipotecas y Gravámenes del Conservador de Bienes Raíces respectivo.
-
 ## 6. Contrato plurilateral: se presenta esta variante de los contratos bilaterales, pues
+
+**Definición Canónica:** además de celebrarse por dos o más partes, todas ellas contraen las mismas obligaciones
+y adquieren similares derechos respecto de todos los demás. Además, las partes no son
+“rígidas”, sino que van mutando, según se retiren e ingresen a la comunidad
 
 además de celebrarse por dos o más partes, todas ellas contraen las mismas obligaciones
 y adquieren similares derechos respecto de todos los demás. Además, las partes no son
 “rígidas”, sino que van mutando, según se retiren e ingresen a la comunidad
 
-## 7. Contrato forzoso: pues la ley ordena a los copropietarios celebrarlo. Corresponde a un
-
-contrato forzoso “ortodoxo” o “propiamente tal”, pues si bien la ley obliga a celebrarlo y
-con quienes, admite a las partes fijar libremente parte de su contenido.
-
 ## 8. Contrato dirigido o normado por el legislador: aunque la ley otorga algún margen a la
+
+**Definición Canónica:** autonomía de la voluntad y la libertad contractual, la última en lo que se refiere a la
+libertad de configuración del contrato, parte importante de éste, sin embargo, debe
+estipularse obedeciendo a preceptos de carácter imperativo. Pero no sólo es un contrato
+dirigido en lo que se refiere a su contenido, sino también en lo relativo a las personas con
+quienes debe celebrarse: los demás copropietarios que integran el condominio.
 
 autonomía de la voluntad y la libertad contractual, la última en lo que se refiere a la
 libertad de configuración del contrato, parte importante de éste, sin embargo, debe
@@ -3409,12 +3552,11 @@ estipularse obedeciendo a preceptos de carácter imperativo. Pero no sólo es un
 dirigido en lo que se refiere a su contenido, sino también en lo relativo a las personas con
 quienes debe celebrarse: los demás copropietarios que integran el condominio.
 
-## 9. Contrato de duración indefinida: el contrato subsistirá, mientras subsista el condominio
-
-acogido a la Ley de Copropiedad Inmobiliaria.
-10. Contrato nominado o típico: que la Ley llama “reglamento de copropiedad” 77.
-
 ## 11. Contrato libremente discutido, para quienes concurren a su celebración: sin perjuicio
+
+**Definición Canónica:** de las materias que imperativamente impone el legislador, los términos del reglamento
+pueden ser discutidos y acordados libremente por los copropietarios. Ello, en el
+**Concordancias Legales:** Ley N° 19.537
 
 de las materias que imperativamente impone el legislador, los términos del reglamento
 pueden ser discutidos y acordados libremente por los copropietarios. Ello, en el
@@ -3435,6 +3577,14 @@ pasó por el tamiz de la deliberación de los copropietarios.
 
 ## 12. Contrato de adhesión, cuando se trate del reglamento de copropiedad dictado por el
 
+**Definición Canónica:** dueño de la obra que después se acogió al régimen de copropiedad inmobiliaria: según
+dijimos, el acto jurídico por el cual se dicta este primer reglamento es unilateral,
+consistente en una oferta de contrato. Este a su vez se originará, una vez que se enajene
+la primera unidad. Para tal adquirente y para todos los que adquieran las demás unidades
+en el futuro, el contrato será también de adhesión. Pero ello será así, mientras no se
+verifique la aludida asamblea prevista en el art. 30° de la Ley, una vez enajenado el 75%
+de las unidades que formen el condominio. Realizada tal asamblea, el contr
+
 dueño de la obra que después se acogió al régimen de copropiedad inmobiliaria: según
 dijimos, el acto jurídico por el cual se dicta este primer reglamento es unilateral,
 consistente en una oferta de contrato. Este a su vez se originará, una vez que se enajene
@@ -3448,6 +3598,15 @@ copropiedad será, temporalmente, un contrato de adhesión, pero no de manera
 permanente. Después de la primera asamblea, dejará de tener tal carácter.78
 
 ## 13. Contrato colectivo: el contrato obligará no sólo a quienes hayan concurrido con su
+
+**Definición Canónica:** voluntad a convenirlo, sino que también a todos los copropietarios que con
+posterioridad, adquieran a cualquier título y modo, unidades en el condominio. Para él,
+este contrato será obligatorio en su integridad, pues nada puede discutir de su contenido
+(salvo si fuere contrario a la ley, pues en tal caso podrá impugnarlo ante el juez de policía
+local y forzar su modificación). Por ello se ha dicho que “las cláusulas del reglamento de
+copropiedad (…) integran el título de cada uno de los copropietarios y resultan
+obligatorias por el solo hecho de ser titulares de dominio” 79. Lo anterior no deb
+**Concordancias Legales:** artículos 33; artículo 30 de la Ley N; artículos 32; Artículo 9; Artículo 50; artículo 2003 del Código Civil; artículo 18; artículo 143 de la Ley General de Urbanismo y Construcciones; artículo 19 de la Ley General de Urbanismo y Construcciones; artículo 223 del Código Orgánico de Tribunales. El árbitro deb; artículos 51; artículos 2314; artículos 698; artículos 703; Ley N° 19.537; Ley N° 18.287; Ley N° 19.496; ley Nº 18.287; Ley N° 20.016
 
 voluntad a convenirlo, sino que también a todos los copropietarios que con
 posterioridad, adquieran a cualquier título y modo, unidades en el condominio. Para él,
@@ -3952,10 +4111,12 @@ hubiere recurrido o recurriera al juez de policía local o a un árbitro, confor
 dispuesto en los arts. 33 y 34 de la Ley, o si hubiere demandado en sede civil, cuando
 fuere procedente.
 
-
 ## Titulo iii: de la seguridad del condominio y del termino o modificacion de
 
-                          LA COPROPIEDAD INMOBILIARIA.
+**Definición Canónica:** LA COPROPIEDAD INMOBILIARIA.
+**Concordancias Legales:** artículo 153; artículo 153 del Código del Trabajo; artículos 37; artículo 168; artículo 62 bis; artículos 6.1.1; artículos 110; Ley N° 19.537; Ley N° 16.744; Ley 19.537; Ley N° 19.759; Ley N° 20.741; Ley Nº 2.552; Ley Nº 19.418; Ley Nº 19.537; Ley Nº 6.071; DFL Nº 458; constitución
+
+LA COPROPIEDAD INMOBILIARIA.
 
 1.- De la seguridad del condominio (art. 36º).
 
@@ -4521,9 +4682,10 @@ subadministración deberá constar en un plano complementario de aquel aprobado 
 Dirección de Obras Municipales al acogerse el edificio o conjunto de viviendas a la Ley de
 Propiedad Horizontal.
 
-
 ## Criterios jurisprudenciales
 
+**Definición Canónica:** 1.- Sentencia del Tribunal Constitucional de 27 de enero de 2015, autos Rol N° 2.688-14.
+**Concordancias Legales:** artículo 5; artículo 19; artículo 19 de la Ley Fundamental; artículo 19 de la Constitución; artículo 93; Ley N° 19.537; Ley N° 17.997; Constitucion; Constitución Política; Constitución
 
 1.- Sentencia del Tribunal Constitucional de 27 de enero de 2015, autos Rol N° 2.688-14.
 
@@ -4655,13 +4817,17 @@ decimoprimero, y en las demás disposiciones citadas y pertinentes de la Constit
 Política de la República y de la Ley N° 17.997, Orgánica Constitucional del Tribunal
 Constitucional,
 
-## Se resuelve: que se acoge el requerimiento de inaplicabilidad deducido en
-
-
-## Estos autos, en razón de resultar la norma legal objetada, en su aplicación
-
-
 ## Al caso concreto sub lite, contraria al párrafo primero del número 3° del
+
+**Definición Canónica:** ARTÍCULO 19 CONSTITUCIONAL”.
+        Los Ministros Sres. Raúl Bertelsen Repetto y Juan José Romero Guzmán,
+previnieron que compartían lo expresado en los considerandos 4° y 5° del voto por
+acoger, y que “… consideran que el mencionado precepto legal vulnera los incisos
+primero y sexto del numeral 3° del artículo 19, y el artículo 19, N° 24°, inciso segundo, de
+la Constitución Política de la República…”. Entre otras argumentaciones, indican ambos
+Ministros “Que la aplicación de la norma impugnada interfiere en una relación
+contractual de suministro eléctrico sin que operen los resguardos normat
+**Concordancias Legales:** artículo 19; artículo 5; artículo 88 de la Ley Orgánica de este Tribunal; artículos 5; artículo 14; artículo 1; artículo 49 de la Ley 19.537; artículo 19 de la Constitución Política de la República; artículo 10; artículo 19 de la Carta Fundamental; Ley N° 19.537; Ley 6.071; Ley 19.537; Ley N° 3.516; Ley N° 6.071; Constitución Política; Constitución; constitucion
 
 ARTÍCULO 19 CONSTITUCIONAL”.
         Los Ministros Sres. Raúl Bertelsen Repetto y Juan José Romero Guzmán,
@@ -4868,6 +5034,11 @@ Fundamental.
 
 ## 2. La recurrente funda su acción en la Ley de Copropiedad Inmobiliaria, remitiéndose a su
 
+**Definición Canónica:** art. 5°, inc. 3°. Sin embargo, en la especie, las disposiciones de esta ley no resultan
+aplicables, toda vez que el condominio de que se trata se compone de parcelas de agrado
+emplazadas fuera del área urbana, cuestión que no ha sido controvertida en autos (se
+**Concordancias Legales:** Ley N° 19.537
+
 art. 5°, inc. 3°. Sin embargo, en la especie, las disposiciones de esta ley no resultan
 aplicables, toda vez que el condominio de que se trata se compone de parcelas de agrado
 emplazadas fuera del área urbana, cuestión que no ha sido controvertida en autos (se
@@ -4877,6 +5048,14 @@ emplazadas fuera del área urbana, cuestión que no ha sido controvertida en aut
 N° 19.537).
 
 ## 3. Que al informar la recurrida, argumenta no haber incurrido en actos ilegales o
+
+**Definición Canónica:** arbitrarios, pues el actor no sólo adeuda gastos comunes, sino que además mantiene una
+deuda vigente por concepto de consumo de agua y energía eléctrica, haciendo presente
+que el condominio sólo cuenta con un medidor general de luz y agua; por lo tanto, la
+deuda que se cobra al mismo involucra el consumo total de los vecinos, el que luego es
+prorrateado entre los dueños de las parcelas que se emplazan al interior del condominio,
+según la información que arrojan los marcadores individuales. Señala también que su
+conducta se sustenta en la facultad establecida en el reglamento que se han dado lo
 
 arbitrarios, pues el actor no sólo adeuda gastos comunes, sino que además mantiene una
 deuda vigente por concepto de consumo de agua y energía eléctrica, haciendo presente
@@ -4890,6 +5069,12 @@ individual.
 
 ## 4. Que a fojas 21 rola una copia del Reglamento de Uso de Bienes y Servicios Comunes –
 
+**Definición Canónica:** de 6 de junio de 1995-, de la Sociedad Agrícola e Inmobiliaria (…), dueña de los predios
+que conforman el condominio (…), cuyo artículo décimo estatuye: “El administrador del
+loteo queda expresamente facultado para suspender los servicios de aquellos lotes o
+parcelas cuyos ocupantes hayan dejado de pagar oportunamente dos cuentas
+consecutivas de consumo o gastos comunes”.
+
 de 6 de junio de 1995-, de la Sociedad Agrícola e Inmobiliaria (…), dueña de los predios
 que conforman el condominio (…), cuyo artículo décimo estatuye: “El administrador del
 loteo queda expresamente facultado para suspender los servicios de aquellos lotes o
@@ -4898,6 +5083,12 @@ consecutivas de consumo o gastos comunes”.
 
 ## 5. Que por un lado se denuncia a través de la presente acción constitucional el corte de
 
+**Definición Canónica:** energía eléctrica que afecta al inmueble en que vive el recurrente y su familia. Sin
+embargo, durante el transcurso de la causa se ha concretado además el corte de agua
+potable de la propiedad, según consta en acta de diligencia suscrita por el Notario Titular
+de la segunda Notaría de Colina, documento acompañado a fojas 105, en el que se indica
+que la Parcela N° 34, se encuentra sin suministro de dicho servicio básico.
+
 energía eléctrica que afecta al inmueble en que vive el recurrente y su familia. Sin
 embargo, durante el transcurso de la causa se ha concretado además el corte de agua
 potable de la propiedad, según consta en acta de diligencia suscrita por el Notario Titular
@@ -4905,6 +5096,16 @@ de la segunda Notaría de Colina, documento acompañado a fojas 105, en el que s
 que la Parcela N° 34, se encuentra sin suministro de dicho servicio básico.
 
 ## 6. Que expuesta así la controversia, resulta necesario examinar la legalidad de la
+
+**Definición Canónica:** conducta desplegada por los recurridos. Ellos fundan su actuar en la facultad que les
+otorga el mencionado reglamento de copropietarios al administrador del condominio.
+Surge así la necesidad de establecer si es lícito o no, plasmar semejante voluntad en un
+instrumento de estas características.
+        Un primer análisis del tema podría llevar a la errada conclusión que en virtud del
+principio de la autonomía de la voluntad, los vecinos pueden darse la organización que
+crean conveniente, y que justamente es sobre la base de ese antecedente que en el caso
+concreto se otorgaron al administrador 
+**Concordancias Legales:** artículo 19 de la Carta Fundamental. 7. Sin perjuicio de lo ant; artículo 19 de la Carta Fundamental. Segundo; artículo 1; artículo 49; artículo 26; artículo 20 de la Constitución Política de la República y en el; artículos 13; artículo 32 de la Ley de Copropiedad Inmobiliaria en la parte f; Ley N° 19.537; Ley Nº 19.537; Ley N° 6.071; Ley Nº 18.287; Ley 15.231; Ley Nº 15.231; Ley 18.287; ley 19.537; constitucion; Constitución Política
 
 conducta desplegada por los recurridos. Ellos fundan su actuar en la facultad que les
 otorga el mencionado reglamento de copropietarios al administrador del condominio.
@@ -5087,6 +5288,16 @@ policía local para conocer de todas las contiendas entre copropietarios –las 
 ley 19.537- ordenando que ellas se sujeten al procedimiento establecido en dicha ley
 
 ## 18.287. Pues bien, esta última ley, en su art. 9º previene que “El juez será competente
+
+**Definición Canónica:** para conocer de la acción civil siempre que se interponga oportunamente dentro del
+procedimiento contravencional”. Tal es la situación de autos al tenor de lo expresamente
+demandado en el primer otrosí del libelo de fs. 55. 96
+SÉPTIMO.- Que es evidente que se impone como verdadero axioma de hermenéutica
+legal aquel según el cual la ley debe interpretarse siempre en el sentido que produzca
+efectos y no en el que no los produzca o los enerve a priori. Útil parece ser entonces
+consignar el autorizado pensamiento doctrinal contenido en el libro “Interpretación
+Jurídica”, del prof. Carlos Ducci Cla
+**Concordancias Legales:** artículos 186; artículos 32; artículo 13; artículo 2; artículo 133 de la Ley General de Urbanismo y Construcciones; artículo 32 de la Ley 18.287; artículo 19; artículo 19 de la Carta Fundamental. Ley N; artículo 1; artículo 20 de la Constitución Política. Segundo; Ley N° 19.537; Ley N° 18.287; Ley Nº 19.537; Ley 19.537; Ley 18.287; constitucion; Constitución Política
 
 para conocer de la acción civil siempre que se interponga oportunamente dentro del
 procedimiento contravencional”. Tal es la situación de autos al tenor de lo expresamente
@@ -5294,6 +5505,11 @@ depresión que actualmente le afecta, la que derivó del cáncer de mamas sufrid
 
 ## 2009. Esta prohibición le ha producido una perturbación psicológica, por el estrés y la
 
+**Definición Canónica:** presión de perder el único ser vivo con el que comparte diariamente.
+        -La del artículo 19 N° 2, esto es la igualdad ante la ley, por cuanto al decidir en la
+forma expuesta, el recurrido la ha discriminado en forma arbitraria en relación a dos
+**Concordancias Legales:** artículo 19; artículo 7; artículo 1; artículo 27 de la Ley N; artículos 434; artículos 27 de la Ley N; Ley N° 19.537; Constitución Política
+
 presión de perder el único ser vivo con el que comparte diariamente.
         -La del artículo 19 N° 2, esto es la igualdad ante la ley, por cuanto al decidir en la
 forma expuesta, el recurrido la ha discriminado en forma arbitraria en relación a dos
@@ -5458,11 +5674,18 @@ de Concepción, por sentencia de 26 de mayo de 2015, lo confirmó.
 fondo, cuyos fundamentos son los siguientes:
 a) La recurrente denuncia la infracción de los artículos 27 de la Ley N° 19.537, 434 N° 7 y
 
-## 464 N° 7 del Código de Procedimiento Civil, argumentando que los sentenciadores
-
-incurren en error de derecho al no reconocérsele mérito ejecutivo al aviso de cobro,
-
 ## título fundante de la ejecución, en circunstancias que el mismo cumple con las exigencias
+
+**Definición Canónica:** legales para tales efectos.
+b) Señala la recurrente que la sentencia impugnada sólo considera la escritura de
+transacción celebrada por la inmobiliaria, el comité de administración y los copropietarios
+como un instrumento donde se hace referencia a la renuncia de acciones, cesiones de
+pólizas de seguro y/o indemnizaciones, entre otras, sin analizar el establecimiento de
+cobro de gastos comunes de las obras de reparaciones originadas por el terremoto del 27
+de febrero de 2010, yerro que los ha llevado a acoger la excepción del numeral 7° del
+artículo 464 del Código de Procedimiento Civil.
+     
+**Concordancias Legales:** artículo 464 del Código de Procedimiento Civil. El fa; artículo 464 del Código de Procedimiento Civil; artículo 20 de la Ley N; Ley N° 19.537
 
 legales para tales efectos.
 b) Señala la recurrente que la sentencia impugnada sólo considera la escritura de
@@ -5499,6 +5722,15 @@ no haber ratificado su parte tal transacción, no resulta obligada a la misma y 
 aplicación lo dispuesto por el artículo 20 de la Ley N° 19.537 98. Además, sostiene que el
 
 ## título en cuestión no tiene el carácter de ejecutivo en relación al artículo 27 de la citada
+
+**Definición Canónica:** ley, ya que los cobros o gastos de que se trata y que tienen su origen en la mencionada
+transacción no tienen el carácter de gastos comunes o extraordinarios. En efecto, ni en
+dicho acuerdo ni en la asamblea extraordinaria que tuvo lugar para su aprobación o
+ratificación se indica que los costos de la ejecución de las obras a los que se obligó la
+inmobiliaria (…) S. A., tendrían dicho carácter, jamás se discutió ni votó este aspecto, por
+lo que no puede por esta vía crearse un título ejecutivo no contemplado en la ley.
+c) Que el fallo impugnado acogió la excepción en estudio por considerar que
+**Concordancias Legales:** artículo 27 de la Ley N; Ley N° 19.537
 
 ley, ya que los cobros o gastos de que se trata y que tienen su origen en la mencionada
 transacción no tienen el carácter de gastos comunes o extraordinarios. En efecto, ni en
@@ -5541,6 +5773,16 @@ reconoce mérito suficiente para, por su intermedio, exigir el cumplimiento de l
 obligación que allí aparece. Esta misma Corte –consigna el fallo- ha expresado que por
 
 ## título ejecutivo ha de entenderse aquel que da cuenta de un derecho indubitable al cual
+
+**Definición Canónica:** la ley le otorga suficiencia necesaria para exigir el cumplimiento forzado de una
+obligación de dar, hacer o no hacer en él contenida, obligación que debe además tener
+las características de ser líquida, actualmente exigible y de no hallarse prescrita. De lo
+anterior se desprende que los títulos ejecutivos sólo pueden ser creados por ley y tienen
+siempre el carácter de solemnes.
+e) Que cabe señalar que es la ley la que confiere el carácter ejecutivo a un título, aspecto
+en el que, por lo tanto, la voluntad de las partes no tiene espacio, debiendo ellas limitarse
+a fijar su contenido. En otras 
+**Concordancias Legales:** artículo 434; artículo 27; artículo 2; artículo 464 del Código de Enjuiciamiento Civil; artículos 2494; Ley N° 19.537; constitución
 
 la ley le otorga suficiencia necesaria para exigir el cumplimiento forzado de una
 obligación de dar, hacer o no hacer en él contenida, obligación que debe además tener
@@ -5628,6 +5870,9 @@ Inmobiliaria (…), la que cesó en el pago de los gastos comunes desde el mes d
 
 ## 1996. Sostiene que siendo el banco el actual titular de 77 unidades del Edificio, y por ser
 
+**Definición Canónica:** los gastos comunes una carga inherente al derecho de dominio, la deuda originaria de la
+**Concordancias Legales:** artículo 464 del Código de Procedimiento Civil; artículo 2515 del Código Civil para la prescripción de la acció; Ley N° 19.537
+
 los gastos comunes una carga inherente al derecho de dominio, la deuda originaria de la
 
            Ley N° 19.537, sobre Copropiedad Inmobiliaria – Juan Andrés Orrego Acuña    116
@@ -5649,6 +5894,17 @@ excepción, expone que el banco carece de legitimación pasiva respecto de un el
 número de títulos invocados, puesto que a la fecha de notificación de la demanda su
 
 ## parte no era dueña de todas las unidades que se indican en la demanda, por lo que el
+
+**Definición Canónica:** título no le empece.
+        Se tuvo por evacuado el traslado de las excepciones en rebeldía del ejecutante.
+        Por sentencia de 31 de enero de 2005, el Tribunal acogió la excepción de
+prescripción de la acción ejecutiva, sin costas por estimar que la ejecutante tuvo motivos
+plausibles para litigar.
+        Apelado el fallo por la actora, una de las Salas de la Corte de Apelaciones de
+Valparaíso, por sentencia de 22 de marzo de 2006, lo confirmó.
+        En contra de esta última decisión, la citada parte dedujo recurso de casación en el
+fondo. En él, se señalan como infringidos los artícu
+**Concordancias Legales:** artículos 2518; artículo 4; Ley N° 19.537
 
 título no le empece.
         Se tuvo por evacuado el traslado de las excepciones en rebeldía del ejecutante.
@@ -5673,6 +5929,13 @@ reconocimiento expreso de la deuda, del mismo modo como lo es, el envío de una 
 donde se solicita la remisión o condonación de la deuda que mantiene el recurrido con su
 
 ## parte. Añade que, en el peor de los casos, el envío de dicha correspondencia constituye a
+
+**Definición Canónica:** lo menos un reconocimiento tácito de la deuda al tenor de la disposición infringida.
+        A continuación, asevera que la sentencia censurada ha infringido el art. 2494 del
+Código Civil, al resolver como lo hizo, puesto que con la misiva enviada por parte del
+Banco del Estado a su parte el 28 de septiembre de 2001, ha existido un reconocimiento
+expreso de la deuda que mantenía la ejecutada con la demandante. Añade que a esa
+**Concordancias Legales:** artículo 2493 del Código Civil que debe ser alegada; Ley N° 19.537
 
 lo menos un reconocimiento tácito de la deuda al tenor de la disposición infringida.
         A continuación, asevera que la sentencia censurada ha infringido el art. 2494 del
@@ -5800,6 +6063,16 @@ titularidad del derecho de dominio.
 comunes son obligaciones que siguen al inmueble, tal como señala el art. 4° de la Ley N°
 
 ## 19.537. En la especie, la misiva que se viene analizando, es un reconocimiento por parte
+
+**Definición Canónica:** del deudor ejecutado de que adeuda ciertos gastos comunes, atendida la naturaleza de la
+obligación de que se trata –y como los adeuda, pide su condonación. Al efecto el
+diccionario de la R.A.E. de la lengua define condonar como ‘Perdonar o remitir una pena
+de muerte o una deuda’99 y la deuda es una obligación que alguien tiene que pagar,
+satisfacer o reintegrar a otra persona, luego no se puede condonar aquello que no se
+debe. UNDÉCIMO: Que, desprendiéndose del tenor de la carta en estudio un
+reconocimiento por parte del deudor del derecho del acreedor, encontrándose a la fecha
+de la misma, 28
+**Concordancias Legales:** artículo 2518 del Código Civil; artículos 1683; artículo 2494 del Código Civil. En dicho rol el mismo banco que; artículo 464 del Código de Procedimiento Civil; artículo 2515 del Código Civil para la prescripción de la acció; artículo 208 del Código de Procedimiento Civil; artículo 4; artículos 160; artículo 464; artículo 471 del Código de Procedimiento Civil; artículos 17; artículo 19; artículo 7; artículo 19 de la Constitución Política de la República; artículo 17 de la Ley N; artículo 33; artículos 29; artículos 478; artículo 477 del Código del Trabajo; artículo 183; artículos 1; artículo 23 de la Ley 19.537 sobre Copropiedad Inmobiliaria; artículo 30 de la Ley Cuarto; artículos 477; artículo 30 de la Ley N; artículos 2; artículo 30; artículo 15 de la Ley de Copropiedad Inmobiliaria; artículo 5; artículo 2; artículo 13; artículos 6; artículo 20 de la Constitución Política de la República y lo di; artículo 27 de la Ley N; artículos 27 de la Ley N; artículo 27 de la Ley de Copropiedad Inmobiliaria; artículo 438 del Código de Procedimiento Civil; artículo 1546 del Código Civil cuando prescribe que los contrat; artículo 438 del Código de Enjuiciamiento Civil; artículos 15
 
 del deudor ejecutado de que adeuda ciertos gastos comunes, atendida la naturaleza de la
 obligación de que se trata –y como los adeuda, pide su condonación. Al efecto el
@@ -6689,6 +6962,16 @@ no puede contradecir las normas de la Ordenanza citada.
 
 ## parte recurrente, por lo que solicita el rechazo del recurso de protección en todas sus
 
+**Definición Canónica:** partes, con costas.
+        A fojas (…), don (…), abogado, por la recurrida doña Karin (…), informa el recurso,
+requiriendo, en primer lugar, que éste sea declarado extemporáneo por cuando la
+administración del loteo tomó conocimiento de la instalación de la estructura soportante
+de la proyectada antena, a lo menos, el día 21 de junio de 2011, de modo que, a la data
+de interposición del mismo el 26 de julio del mismo año, transcurrió el plazo fijado para
+ello. Luego, invoca falta de legitimación activa de quien recurre toda vez que, a su
+parecer, la comunidad “Condominio (…)”, que es la entida
+**Concordancias Legales:** artículo 19; artículos 15; artículo 20 de la Ley Fundamental concede la acción de protecci; artículo 15 de la Ley 18.168; Ley N° 19.537; Ley 18.168; constitucion
+
 partes, con costas.
         A fojas (…), don (…), abogado, por la recurrida doña Karin (…), informa el recurso,
 requiriendo, en primer lugar, que éste sea declarado extemporáneo por cuando la
@@ -6761,6 +7044,15 @@ regulado en el artículo 15 de la Ley 18.168, presentando los distintos document
 autorizaciones ante las autoridades respectivas. En ese sentido y de acuerdo al artículo
 
 ## 5.1.2 Nº 7 de la Ordenanza General de Urbanismo y Construcciones sólo es necesario el
+
+**Definición Canónica:** aviso de instalación de la antena que debe efectuar la concesionaria a la Dirección de
+Obras Municipales, lo que en la especie se cumplió, según se constata con el documento
+de fojas 63. 10.- Que, por otra parte, referente a las alegaciones que dicen relación con
+[se alude al mandatario del Condominio], cabe precisar que ellas en nada atentan contra
+el derecho a propiedad (sic) y es ajeno a la acción las eventuales desvalorizaciones que
+pueden sufrir los otros inmuebles colindantes a la parcela número (…) del Condominio
+(…). 11.- Que, de esta forma, apreciando los antecedentes conforme a las n
+**Concordancias Legales:** artículo 19 de la Carta Fundamental; artículo 49 de la Ley de Copropiedad Inmobiliaria Nº 19.537 dis; Artículo 32; artículo 5; artículo 19; artículo 20 de la Constitución Política de la República; artículo 19 de la Constitución Política de la República de que; artículo 20 de la Constitución Política de la República y en el; artículo 20; artículo 20 de la Ley de Copropiedad Inmobiliaria que en su inc; artículo 19 de la Carta Fundamental reconocen a los recurrentes; artículo 20 de la Constitución Política de la República y el Au; artículos 1; Ley N° 19.537; Ley Nº 18.168; Ley Nº 19.537; Ley 19.537; Constitución Política; constitucion
 
 aviso de instalación de la antena que debe efectuar la concesionaria a la Dirección de
 Obras Municipales, lo que en la especie se cumplió, según se constata con el documento
@@ -7020,6 +7312,16 @@ referido fallo por vía de apelación deducida por los demandantes y adhesión d
 demandadas, por sentencia de 3 de octubre de 2009, revocó la de primera instancia, en la
 
 ## parte que había rechazado la demanda, y en su lugar la acogió, condenando
+
+**Definición Canónica:** solidariamente a las demandadas a pagar las sumas que indica, por concepto de
+indemnización de perjuicios y daño moral.
+        En contra de esta última sentencia, las demandadas deducen recurso de casación
+en el fondo, conforme a los siguientes argumentos:
+        “Primero: Que el recurrente denuncia el quebrantamiento de los artículos 23 de la
+Ley N° 19.537 y 26 de su Reglamento, además del artículo 1545 del Código Civil.
+        Respecto a la primera de dichas normas, argumenta que la controversia de fondo
+versa sobre la legitimidad activa de los propietarios para demandar indemnización por
+**Concordancias Legales:** artículos 23 de la Ley N; artículo 1545 del Código Civil. Respecto a la primera d; artículo 7; artículo 23; artículo 23 de la Ley N; artículo 26 del Reglamento de la Ley de Copropiedad; artículo 23 de la Ley; artículo 1545 del Código Civil; artículos 19; artículos 18; artículo 426 del Código de Procedimiento Civil. g; artículo 426 del Código de Procedimiento Civil; artículos 582; artículo 583; artículos 1; artículo 2332 del Código Civil a su respecto y en relación con; Ley N° 19.537; Ley N° 20.016; Ley N° 19.472
 
 solidariamente a las demandadas a pagar las sumas que indica, por concepto de
 indemnización de perjuicios y daño moral.
@@ -7340,6 +7642,16 @@ establecida en el art. 768 N° 5 del Código de Procedimiento Civil, en relació
 
 ## 170 N° 6 del mismo texto legal, esto es, le reprocha al fallo haber omitido la decisión del
 
+**Definición Canónica:** asunto controvertido.
+        La demandante explica que su parte se alzó contra la sentencia de primer grado,
+pidiendo que se acogiera la demanda en contra de ambas demandadas, condenándolas
+solidariamente al pago de las sumas y por los conceptos que señala. Indica que la
+sentencia recurrida confirmó la de primer grado, con declaración relativa al monto a
+solucionar, rechazando su apelación en cuanto a condenar a pagar las cifras solicitadas y
+el daño moral, por estimar que este último no se acreditó suficientemente, no
+pronunciándose de ninguna forma respecto de su petición concreta de conden
+**Concordancias Legales:** artículo 18 de la Ley General de Urbanismo y Construcciones es; artículo 170 del Código de Procedimiento Civil; artículo 18 de la Ley General de Urbanismo y Construcciones; artículo 19; Ley N° 19.537; constitucion
+
 asunto controvertido.
         La demandante explica que su parte se alzó contra la sentencia de primer grado,
 pidiendo que se acogiera la demanda en contra de ambas demandadas, condenándolas
@@ -7403,6 +7715,15 @@ estacionamientos para evacuar aguas lluvias, cambio de cerámicas sueltas en el 
 quincho y la instalación de sensores de humo establecidos en el informe pericial forman
 
 ## parte de los bienes comunes, de manera que a su respecto los actores carecen de
+
+**Definición Canónica:** titularidad para accionar, correspondiéndole a la Comunidad, representada por el
+Administrador o el Presidente de la Junta de Administración (sic), en su defecto (…).
+        Tercero: Que, en primer lugar, corresponde considerar que el artículo 18 de la Ley
+General de Urbanismo y Construcciones, en la redacción vigente a la época en que se
+concede el permiso de edificación –septiembre de 2001-, época que fija la legislación
+aplicable al efecto, establece en su inciso tercero: ‘Sin perjuicio de lo establecido en el Nº
+3 del artículo 2003 del Código Civil, los constructores serán responsables po
+**Concordancias Legales:** artículo 18 de la Ley General de Urbanismo y Construcciones; artículo 2003 del Código Civil; artículo 2332 del Código Civil; artículos 2314; artículo 2329 del Código Civil; artículo 32 de la Ley Nº 19.537 sobre Copropiedad Inmobiliaria; artículos 32; artículo 27 del Reglamento Interno; artículo 30; artículo 5; artículo 3; artículo 33; artículo 20 de la Constitución Política de la República y el Au; artículo 19 de la Constitución Política de la República. Pide s; artículo 19 de la Constitución Política; artículo 10 de la Ley Sobre Cuentas Corrientes Bancarias y Cheq; artículo 93 de la Constitución política; artículo 19; artículo 1; artículo 19 del Estatuto Político; artículo 4; artículo 23; artículo 23 de la Ley N; artículos 144; Ley N° 19.537; Ley Nº 19.537; constitucion; Constitución Política; Constitución
 
 titularidad para accionar, correspondiéndole a la Comunidad, representada por el
 Administrador o el Presidente de la Junta de Administración (sic), en su defecto (…).
@@ -8044,6 +8365,16 @@ a una cantidad superior a $10.000.000.- Producto del remate, se logró el pago s
 
 ## parte de la deuda de gastos comunes que existía, por $5.022.519.-, quedando por tanto
 
+**Definición Canónica:** un saldo impago. Indica que la recurrente, desde que adquirió el inmueble, fue pagando
+los gastos comunes mensuales, tratando de desatenderse de la deuda que el inmueble
+mantenía por concepto de gastos comunes y que ahora son de su exclusiva
+responsabilidad. Después de habérsele enviado mensualmente los avisos de cobro de las
+referidas expensas, en los que se comunica expresamente la deuda que su inmueble
+mantiene, se procedió con fecha 12 de abril de 2013 al corte del suministro eléctrico,
+derecho que tiene la comunidad que representa, en virtud del artículo 5° de la Ley de
+Copropiedad Inmobi
+**Concordancias Legales:** artículo 5; artículos 4; artículo 20 de la Constitución Política de la República y en el; artículo 27 de la Ley N; Ley N° 19.537; constitucion; Constitución Política
+
 un saldo impago. Indica que la recurrente, desde que adquirió el inmueble, fue pagando
 los gastos comunes mensuales, tratando de desatenderse de la deuda que el inmueble
 mantenía por concepto de gastos comunes y que ahora son de su exclusiva
@@ -8220,6 +8551,16 @@ a un copropietario. Es importante recalcar que el artículo 27 de la Ley N° 19.
 
 ## título ejecutivo especial para el cobro de gastos comunes, noción última cuya definición
 
+**Definición Canónica:** se encuentra contemplada en el artículo 2° números 4 y 5 de dicha ley, en la que se hace
+referencia a los gastos comunes ordinarios y extraordinarios. Al tenor de dichas normas,
+se desprende que la parte ejecutante malamente puede perseguir el pago de las multas
+pretendidas, toda vez que dicho rubro no se halla contenido en ninguna de las
+definiciones de gastos comunes que ofrece la Ley N° 19.537, cuerpo normativo del que la
+ejecutante se ha premunido para obtener el pago de su acreencia. A su vez, en estos
+autos ejecutivos, la demandante se ha valido del aviso de cobro de gastos comunes, el
+q
+**Concordancias Legales:** artículo 2; Ley N° 19.537
+
 se encuentra contemplada en el artículo 2° números 4 y 5 de dicha ley, en la que se hace
 referencia a los gastos comunes ordinarios y extraordinarios. Al tenor de dichas normas,
 se desprende que la parte ejecutante malamente puede perseguir el pago de las multas
@@ -8236,6 +8577,10 @@ han omitido valorar todas las pruebas rendidas y éstas, a su vez, en su integri
 efecto, del examen del fallo impugnado, se advierte una evidente falta de ponderación de
 
 ## parte de la documental agregada a los autos, esto es, el aviso de cobro de gastos
+
+**Definición Canónica:** comunes, los comprobantes de pago efectuados por el demandado, el acta de comité de
+administración que impone multas al ejecutado, el acta de asamblea que acuerda
+**Concordancias Legales:** artículo 2; artículo 464 del Código de Procedimiento Civil; Ley N° 19.537
 
 comunes, los comprobantes de pago efectuados por el demandado, el acta de comité de
 administración que impone multas al ejecutado, el acta de asamblea que acuerda
@@ -8271,6 +8616,16 @@ medular de la argumentación transcrita, se expresa: “OCTAVO: Que, estas
 consideraciones dan la razón a la parte demandada de estos autos en cuanto a que el
 
 ## título invocado por su contraparte carece de mérito ejecutivo en lo que dice relación con
+
+**Definición Canónica:** las multas que ésta pretende cobrar al ejecutado. De ahí que, a juicio de esta Corte,
+procede acoger la excepción contemplada en el numeral 7° del artículo 464 del Código de
+Enjuiciamiento Civil, invocada por el ejecutado (…) Por estas consideraciones (…) I.- Se
+revoca la sentencia de seis de marzo de dos mil quince (…) en tanto por ella se acogió la
+excepción de pago y, en su lugar se la rechaza. II.- Se acoge la excepción del número 7°
+del artículo 464 del Código de Procedimiento Civil y, en consecuencia, se rechaza la
+demanda interpuesta en estos autos, con costas.
+        Pronunciada por l
+**Concordancias Legales:** artículo 464 del Código de Enjuiciamiento Civil; artículo 464 del Código de Procedimiento Civil y; Ley N° 19.537; Ley N° 6.071; Constitución Política
 
 las multas que ésta pretende cobrar al ejecutado. De ahí que, a juicio de esta Corte,
 procede acoger la excepción contemplada en el numeral 7° del artículo 464 del Código de
@@ -8386,6 +8741,9 @@ condominio se encuentra únicamente facultado para suspender el suministro eléc
 aquellos comuneros que adeuden tres o más cuotas de gastos comunes, y que, por otra
 
 ## parte, no existe norma legal alguna que lo habilite para proceder al corte del suministro
+
+**Definición Canónica:** de agua potable en un caso análogo.
+**Concordancias Legales:** Ley N° 19.537; Ley 19.537; Constitución Política
 
 de agua potable en un caso análogo.
 
@@ -8652,6 +9010,11 @@ menos semitransparente, para evitar así que el departamento quede sin visual ha
 exterior y no se le prive de la luminosidad necesaria para una vida plena. Concluye que su
 
 ## parte puso total énfasis en la calidad de la malla de la propaganda, velando y
+
+**Definición Canónica:** supervisando, junto con la Municipalidad, de que fuera aquella que se estipuló en el
+contrato y de las mismas características que se propuso al Comité, es decir, un tejido con
+aperturas libres, que permite el paso de aire y luz.
+**Concordancias Legales:** artículos 25; Ley N° 19.537; constitución; constitucion; Constitución Política
 
 supervisando, junto con la Municipalidad, de que fuera aquella que se estipuló en el
 contrato y de las mismas características que se propuso al Comité, es decir, un tejido con
@@ -8931,6 +9294,9 @@ esta vía de protección, razón por la cual el presente recurso será acogido.
 h) Por estas consideraciones, disposiciones citadas y especialmente lo previsto en los arts.
 
 ## 19 N° 24 inc. 2° y 20 de nuestra Constitución Política, art. 582 del Código Civil y art. 9 del
+
+**Definición Canónica:** Reglamento de la Ley N° 19.537, se acoge el recurso de protección deducido por doña
+**Concordancias Legales:** artículos 33; artículo 19; artículo 5; artículo 20 de la Constitución Política de la República. CUARTO; artículo 2; artículo 13; artículo 7; artículo 20 de la Constitución Política de la República y Auto; artículos 19; artículos 32; artículo 19 de la Constitución Política de la República. Segund; artículo 20 de la Constitución Política y Auto Acordado de la E; artículo 36 inciso 5; artículo 32 inciso 3 de la Ley N; artículo 32; artículo 32 inciso 3; Ley N° 19.537; Ley 19.537; Ley N°19.537; Ley N° 19.587; Constitución Política; constitucion; Constitución
 
 Reglamento de la Ley N° 19.537, se acoge el recurso de protección deducido por doña
 
@@ -9675,6 +10041,16 @@ Reglamento Interno de la Comunidad de Edificio Hernán Cortés 2675, que en su a
 
 ## 26 N° 10 reconoce como función del Administrador el efectuar la denuncia ante el
 
+**Definición Canónica:** tribunal para que apliquen las sanciones y apremio al copropietario que infrinja las
+limitaciones o restricciones que en el uso de su unidad le imponen el reglamento y las
+normas legales y reglamentarias.
+Cuarto: Que la conclusión consignada en el motivo anterior lleva a declarar que el actuar
+del Comité de Administración recurrido resulta ilegal y arbitraria, toda vez que excede las
+facultades que por ley y por el propio instrumento privado que lo regula posee, ya que
+debió limitarse a denunciar los hechos al Juzgado de Policía Local respectivo, y no erigirse
+en una especie de Comisión Especi
+**Concordancias Legales:** artículo 19; artículo 20 de la Constitución Política de la República y en el; artículos 1437; Ley N° 19.537; Constitución Política
+
 tribunal para que apliquen las sanciones y apremio al copropietario que infrinja las
 limitaciones o restricciones que en el uso de su unidad le imponen el reglamento y las
 normas legales y reglamentarias.
@@ -9723,8 +10099,17 @@ departamento al dueño de otra unidad del Condominio.
 perjuicios, condenándose al demandado al pago de un total de $4.040.313.- Expresa la
 sentencia:
 
-
 ## “vistos
+
+**Definición Canónica:** Se ha iniciado esta causa Rol N°19.636-2013, por demanda de indemnización de
+perjuicios, interpuesta por doña Verónica Araya Klare, ingeniero comercial, domiciliada
+en Cerro el Plomo 5630, oficina 1601, Comuna de Las Condes, en contra de don Xavier
+Robino Monzo, médico, domiciliado en Mardoqueo Fernández 171, Departamento 1604,
+Comuna de Providencia.
+         Funda su demanda en que con fecha 8 de mayo de 2010, interpuso una denuncia
+por infracciones a la Ley de Copropiedad y Reglamento de Copropiedad en contra del
+demandado, por dar éste mal uso al techo del edificio ubicado en calle Mardoque
+**Concordancias Legales:** artículo 13 de la Ley 19.537; artículo 2314 del Código Civil establece que; artículo 2332 del Código Civil; artículo 2 de La ley sobre Copropiedad inmobiliaria; Ley N° 19.537; Ley 19.537
 
 Se ha iniciado esta causa Rol N°19.636-2013, por demanda de indemnización de
 perjuicios, interpuesta por doña Verónica Araya Klare, ingeniero comercial, domiciliada
@@ -9868,6 +10253,16 @@ ley sobre Copropiedad inmobiliaria, son de dominio común.
          En consecuencia, al tratarse de un bien común, como lo señaló tanto la propia
 
 ## parte demandante y la sentencia dictada por la Ilustrísima Corte de Apelaciones de
+
+**Definición Canónica:** Santiago, como además lo acreditara en su oportunidad, corresponde de acuerdo artículo
+2 y 23 de la Ley de Copropiedad Inmobiliaria N° 19.537, a la Administración del edificio,
+responder respecto al cuidado de los bienes de dominio común, quedando ella obligada a
+ejecutar todos los actos de administración y conservación que fueren necesarios para
+lograr tal objetivo y más aún, efectuar aquellos de carácter urgente, sin previo acuerdo de
+la asamblea, obteniéndola con posterioridad.
+         Hace presente que si bien en su oportunidad, en el año 1998, se produjo una
+filtración importante de agua
+**Concordancias Legales:** artículo 2; artículo 1698 del Código Civil; artículo 160 del Código de Procedimiento Civil; artículo 2332 del Código Civil; artículo 9; artículo 2332 del Código Civil se cuenta desde la comisión del; Artículo 3; Artículo 5; Artículo 10; Artículo 18; Artículo 22; Ley N° 19.537; ley 18.287
 
 Santiago, como además lo acreditara en su oportunidad, corresponde de acuerdo artículo
 2 y 23 de la Ley de Copropiedad Inmobiliaria N° 19.537, a la Administración del edificio,
@@ -10268,6 +10663,16 @@ demandante al Administrador del Edificio, rolante a fojas 189.
 
 ## En cuanto a la excepcion de prescripcion
 
+**Definición Canónica:** TERCERO: Que la parte demandada opuso la excepción de prescripción de la acción,
+fundada en lo dispuesto en el artículo 2332 del Código Civil, por cuanto desde la
+perpetración de los actos, por los cuales se habrían generado ciertos daños al
+departamento de la actora, en el mes de noviembre del año 1998, fecha en que
+supuestamente el demandado hizo un uso indebido del techo que cubre la propiedad de
+la actora y hasta la notificación de la demanda, en el mes de mayo de 2014, habría
+transcurrido con creces el plazo de prescripción. En subsidio, y de acuerdo a lo indicado
+por la propia demandante
+**Concordancias Legales:** artículo 2332 del Código Civil; artículo 9 de la Ley 18.287. CUARTO; artículo 2514 del Código Civil; artículo 2.332 del Código Civil; Ley 18.287; Ley N° 19.537
+
 TERCERO: Que la parte demandada opuso la excepción de prescripción de la acción,
 fundada en lo dispuesto en el artículo 2332 del Código Civil, por cuanto desde la
 perpetración de los actos, por los cuales se habrían generado ciertos daños al
@@ -10337,6 +10742,16 @@ que resultan ajenos a la acción u omisión de mismo agente.
          Que sin embargo, las hipótesis descritas no se configuran en la especie, por una
 
 ## parte, porque las causas que lo provocan, no resultan independientes de su ejecutor, sino
+
+**Definición Canónica:** exigen el despliegue de una necesaria actividad del mismo, como por ejemplo activar un
+riego y por otra, por cuanto no ha sido una sola la conducta desplegada por el
+demandado, sino una reiteración de la misma, constituyendo cada episodio un hecho
+independiente que causa el consiguiente daño.
+         Que entonces, el computo del plazo de prescripción no puede ser otro que el
+señalado en la norma del artículo 2.332, es decir debe contabilizarse desde la
+perpetración del acto, entendiéndose que este momento, es aquel en que se produce el
+daño como consecuencia del acto infraccional por parte de
+**Concordancias Legales:** artículo 2.332; artículo 9; artículos 1437; artículo 1698 del Código Civil; artículos 13; artículo 2.320 del Código Civil; artículo 32 de la Ley de Copropiedad Inmobiliaria; artículos 44; Ley N° 19.537; Ley 18.287
 
 exigen el despliegue de una necesaria actividad del mismo, como por ejemplo activar un
 riego y por otra, por cuanto no ha sido una sola la conducta desplegada por el
@@ -10585,12 +11000,16 @@ resuelto.
 160, 170, 342, 346, 426 del Código de Procedimiento Civil; artículos 1437, 1698, 2314,
 2320, 2332 y 2514 del Código Civil; se declara:
 
-## En cuanto a las excepciones
-
-I.- Que se rechazan las excepciones de prescripción y de falta legitimidad pasiva,
-deducidas por la demandada a fojas 141 y siguientes, con costas.
-
 ## En cuanto al fondo
+
+**Definición Canónica:** II.- Que se acoge la demanda deducida a lo principal de fojas 14 y siguientes, solo en
+cuanto a que se condena al demandado Xavier Robino Monzo a pagar a la demandante
+Verónica Araya Klare, una indemnización de perjuicios por responsabilidad
+extracontractual por la suma de $1.040.313.- por concepto de daño emergente y
+$3.000.000.- por concepto de daño moral desechándose en lo demás.
+III.- Que las sumas ordenadas pagar deberán ser reajustadas conforme a la variación que
+experimente el índice de precios al consumidor y los intereses corrientes, desde la fecha
+de dictación de este fallo y su pago
 
 II.- Que se acoge la demanda deducida a lo principal de fojas 14 y siguientes, solo en
 cuanto a que se condena al demandado Xavier Robino Monzo a pagar a la demandante
@@ -10603,6 +11022,11 @@ de dictación de este fallo y su pago efectivo.
 IV. Que se condena en costas al demandado.
 
 ## Registrese y notifiquese
+
+**Definición Canónica:** Rol N° C-19.636-2013.
+DICTADA POR DOÑA CLAUDIA PAMELA SALGADO RUBILAR,
+JUEZ SUPLENTE”.
+**Concordancias Legales:** artículo 32 de la Ley 19.537. Explica que la extensión de la lo; artículo 32 de la Ley 19.547. Lo anterior demuestra que los mie; artículo 116 de la Ley de Copropiedad112 y la Ley General de Urb; artículos 32 de la Ley 19.547 y 14 y 32 de la Ley 18.297; artículos 14; artículo 19; artículo 33 de la Ley N; artículo 21 de la Ley 19.537; artículo 48 del Reglamento Interno se regula el horario de us; artículo 2; Artículo 42; Artículo 48; artículo 31; artículo 33; artículo 20 de la Constitución Política de la República y Auto; artículo 11; Ley N° 19.537; Ley 19.537; Ley 19.547; Ley 18.297; Ley Nº 18.287; Ley N°19.537; constitucion; Constitución Política; Constitución
 
 Rol N° C-19.636-2013.
 DICTADA POR DOÑA CLAUDIA PAMELA SALGADO RUBILAR,
@@ -11082,6 +11506,13 @@ ejercer el derecho de dominio que implica, por un lado, la propiedad exclusiva s
 
 ## parte del inmueble – cada unidad o departamento- y por otro, la propiedad de las áreas
 
+**Definición Canónica:** comunes.
+        En efecto, el primer inciso del artículo 3° de la Ley N° 19.537, prescribe que “cada
+copropietario será dueño exclusivo de su unidad y comunero en los bienes de dominio
+común”, entendiendo como unidad, según la definición que da el artículo 2 N° 2 de esa
+ley, “los inmuebles que forman parte de un condominio y sobre los cuales es posible
+**Concordancias Legales:** artículo 3; artículo 2; artículos 3; artículo 17 de la Ley N; artículo 17; artículo 32; artículo 19; artículos 17; artículos 14; artículo 20 de la Constitución Política de la República y Auto; artículo 10 inciso 2; artículo 30 de la Ley N; artículo 31; Ley N° 19.537; Ley N°19.537; constitución; Constitución Política; constitucion
+
 comunes.
         En efecto, el primer inciso del artículo 3° de la Ley N° 19.537, prescribe que “cada
 copropietario será dueño exclusivo de su unidad y comunero en los bienes de dominio
@@ -11334,10 +11765,10 @@ arrendada por el denunciante.
 
        En contra de esta resolución, ambas partes deducen recurso de apelación. La
 
-## parte denunciada, para que se deje sin efecto la multa y la condena por daño moral. La
-
-
 ## parte denunciante, para que se aumente la suma fijada por indemnización de daño
+
+**Definición Canónica:** moral.
+**Concordancias Legales:** artículo 5 inciso 3 de la Ley N; artículo 10 del Reglamento de Copropiedad de la Comunidad San; artículo 5 de la Ley N; artículo 23; artículos 186; artículos 5; artículo 49; artículo 13; artículo 15; artículos 4; artículos 1444; artículo 49 de la Ley 19.537. En segundo lugar reclama; artículos 1712; artículo 49 de la Ley 19.537. Indica que tales infracci; artículo 49 de la Ley de Copropiedad Inmobiliaria; artículos 811; artículo 9; artículo 13 de la Ley 19.537 para resolver la controversia; artículo 426 del Código de Procedimiento Civil; artículo 49 de la Ley 19.537; artículo 13 de la Ley 19.537; artículo 13 de la Ley N; artículo 4; artículo 12; artículos 13; artículos 1712 del Código Civil y 426 del Código de Procedimient; artículo 49 de la Ley 19.537 que establece una presunción legal; artículos 764; Ley N° 19.547; Ley N° 19.537; Ley N°19.537; Ley N° 6.071; Ley 6.071; Ley 19.537; constitucion; constitución
 
 moral.
 
@@ -11883,6 +12314,16 @@ Pasaje Matte, no contiene una norma expresa que regule la constitución de los d
 de uso y goce exclusivo sobre bienes comunes, de acuerdo a lo dispuesto en su artículo
 
 ## 15 N° 6 inciso 2°, que indica que todo acuerdo de los propietarios reunidos en asamblea
+
+**Definición Canónica:** que conduzca a una sensible alteración en el goce de bienes comunes requiere para su
+aprobación de la unanimidad de los concurrentes, se colige que la concesión en favor de
+uno o más propietarios de derechos de uso y goce exclusivos sobre bienes comunes, en
+cuanto importa una sensible alteración en el goce de los mismos bienes para los
+propietarios no beneficiados, requería ser acordada en una asamblea de propietarios y
+por la unanimidad de los concurrentes, lo que no se cumplió en la especie.
+4°) Que por consiguiente los derechos de uso y goce exclusivo que los demandantes
+reclaman sobre los 
+**Concordancias Legales:** artículo 13; Ley N° 19.537; constitución
 
 que conduzca a una sensible alteración en el goce de bienes comunes requiere para su
 aprobación de la unanimidad de los concurrentes, se colige que la concesión en favor de

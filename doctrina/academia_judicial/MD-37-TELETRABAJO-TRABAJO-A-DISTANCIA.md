@@ -13,19 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Laboral | **Materia:** Laboral
 
-37           Teletrabajo,
-             trabajo a distancia
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             y nuevas formas
+                  electrónica
+             de organización
+                  de causas
+             Caterina Guidi Moggia
+**Concordancias Legales:** Ley 21.220
 
-                  Tramitación
+Tramitación
              y nuevas formas
                   electrónica
              de organización
@@ -83,56 +81,12 @@ Materiales Docentes                                                       ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Tecnologías de la información, formas de organización
-        del trabajo y tipos de jornadas laborales
-
-## 28      Capítulo 2
-
-        El trabajo a distancia y el teletrabajo. Conceptos básicos
-
-## 34      Capítulo 3
-
-        Consagración legal del trabajo a domicilio, del trabajo a
-        distancia y del teletrabajo en nuestro ordenamiento jurídico
-
-## 52      Capítulo 4
-
-        Concepto legal y elementos definitorios y característicos
-        del trabajo a distancia y del teletrabajo
-
-## 64      Capítulo 5
-
-        Contenido del contrato de trabajo a distancia y de teletrabajo.
-        Pacto de trabajo a distancia y teletrabajo
-
-## 82      Capítulo 6
-
-        La jornada laboral en el trabajo a distancia
-        y en el teletrabajo
-
-## 106     Capítulo 7
-
-        Contenido del contrato de trabajo a distancia y de teletrabajo.
-        Deberes del empleador
-
-## 131     Capítulo 8
-
-        Ciudadanía del trabajador en la empresa, trabajo a distancia
-        y teletrabajo
-
-## 177     Conclusiones
-
-
-## 185     Referencias
-
-
-Materiales Docentes                                               Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Tecnologías de la información,
+formas de organización del trabajo
+y tipos de jornadas laborales
+**Concordancias Legales:** artículos 152; artículo 22 del Código del Trabajo; Ley 21.220
 
 Tecnologías de la información,
 formas de organización del trabajo
@@ -176,13 +130,24 @@ sanitaria ha modificado la forma en que se desarrolla actualmente el trabajo, co
 con una incipiente regulación en el artículo 22 del Código del Trabajo,
 fue acelerada a raíz de la pandemia y la dificultad del trabajo presencial.2
 
-
 ## 1 Por ejemplo, como ocurría en nuestro país con el trabajo que se presta a través
+
+**Definición Canónica:** de plataformas digitales de servicios. El 11 de marzo de 2022, fue publicada en el Diario Oficial la Ley 21.431, que modifica el Código del Trabajo regulando el contrato de
+trabajadores de empresas de plataformas digitales de servicios. Esta ley incorpora el
+**Concordancias Legales:** Ley 21.431
 
 de plataformas digitales de servicios. El 11 de marzo de 2022, fue publicada en el Diario Oficial la Ley 21.431, que modifica el Código del Trabajo regulando el contrato de
 trabajadores de empresas de plataformas digitales de servicios. Esta ley incorpora el
 
 ## Capítulo X, «Del trabajo mediante plataformas digitales de servicios», en el Título
+
+**Definición Canónica:** II, «De los contratos especiales», del Libro I del Código del Trabajo. En todo caso,
+cabe precisar que conforme a la regulación establecida en la nueva ley, el trabajador de plataformas digitales puede ser considerado como trabajador dependiente o
+independiente, según concurran o no los requisitos establecidos en el artículo 7 del
+Código del Trabajo, especialmente el vínculo de subordinación y dependencia. A
+nuestro juicio, lo anterior entraña importantes riesgos de evasión normativa, ya que
+las empresas de plataformas digitales de servicios podrían intentar adaptar los términos y condiciones 
+**Concordancias Legales:** artículo 7 del Código del Trabajo; artículo 376 del Código del Trabajo; artículos 77; artículos 159
 
 II, «De los contratos especiales», del Libro I del Código del Trabajo. En todo caso,
 cabe precisar que conforme a la regulación establecida en la nueva ley, el trabajador de plataformas digitales puede ser considerado como trabajador dependiente o
@@ -261,11 +226,13 @@ contrato contempladas en los artículos 159 y siguientes del Código del
 Trabajo. En otras palabras, se trata de un contrato que no está sujeto a
 una modalidad anticipada de término, como sería el plazo o la conclusión de una obra o servicio.3
 
-
 ## 3 Existen razones históricas y legislativas que permiten calificar al contrato de
 
+**Definición Canónica:** Academia Judicial de Chile                                                 Teletrabajo
+Materiales Docentes                                                         Capítulo 1
+**Concordancias Legales:** artículos 40 bis; artículo 206 del Código del Trabajo. Estas trabajadoras habían; artículo 44; artículo 38; Ley 19.759
 
-Academia Judicial de Chile                                                 Teletrabajo
+Academia Judicial de Chile                                                 Teletrabajo
 Materiales Docentes                                                         Capítulo 1
 
    Por su parte, en lo que nos concierne, al ser un contrato de jornada
@@ -330,12 +297,10 @@ formalmente en el sector privado tenían un contrato por 45 horas a la
 semana y trabajaban habitualmente ese número de horas. Menos del
 15 % trabajaba en jornada parcial.7 En 2017, del total de trabajadores ocu-
 
-
-## 6 Véase «43 million people across the EU are in part-time employment, this being
-
-4,8 million more than ten years ago. Who, where and why?». Red de Servicios Públicos Europeos de Empleo, noviembre de 2019, disponible en https://bit.ly/3FIQCua.
-
 ## 7 Véase «Jornada laboral efectiva en Chile se ha reducido 20 % en los últimos 30
+
+**Definición Canónica:** años». Noticias UAI, 4 de octubre de 2019, disponible en https://bit.ly/3Neeh8s.
+**Concordancias Legales:** artículo 40 bis; artículo 9; artículo 3; artículo 1 del Convenio 175 de la Organización Internacional; artículo 1 del Convenio 175 de la OIT puede ser computada; Ley 21.165; Ley 16.744
 
 años». Noticias UAI, 4 de octubre de 2019, disponible en https://bit.ly/3Neeh8s.
 
@@ -437,8 +402,10 @@ atendiendo al lugar y a la rama de actividad en que se prestan los servicios (Ca
       calcular en horas, días, semanas, en el mes o en el año. Según el
       artículo 1 del Convenio 175 de la OIT puede ser computada «se-
 
-
 ## 9 Convenio 175 de la OIT de 1994 sobre el Trabajo a Tiempo Parcial. Disponible
+
+**Definición Canónica:** en https://bit.ly/3lfK5NW.
+**Concordancias Legales:** artículo 1; artículo 40 bis del Código del Trabajo define el contrato a jorna; artículo 22; artículo 8 del Código del Trabajo contempla la presunción de; artículo 7 del Código del Trabajo; artículo 40 bis; artículo 50; artículo 195; artículo 163; artículos 42; artículo 44; artículo 10; artículo 10 de la Ley 21.227 establecía que los pactos de reduc; Ley 21.227; Ley 19.728; Ley 20.940
 
 en https://bit.ly/3lfK5NW.
 
@@ -706,6 +673,13 @@ publicada el 8 de septiembre de 2016. Disponible en https://bit.ly/3ww26Nz.
 
 ## 15 Esta visión entiende que la negociación colectiva es «un mecanismo idóneo
 
+**Definición Canónica:** para mejorar la calidad de vida de los trabajadores y alcanzar la paz social», véase
+Gamonal (2020: 247). Sin embargo, compartimos la opinión de Gamonal, quien
+entiende que «la visión unidimensional de la negociación colectiva se mantiene reforzada a nivel legal», porque pese a que tras las reformas introducidas por la Ley
+20.940 al ordenamiento jurídico colectivo y, en específico, al contenido de la negociación colectiva que, conforme al inciso segundo del artículo 306 del Código del
+Trabajo puede contemplar «acuerdos para la conciliación del trabajo con las responsabilidades familiares, al e
+**Concordancias Legales:** artículo 306 del Código del Trabajo puede contemplar; artículo 374 del Código del Trabajo; artículo 375 del Código del Trabajo. La citada norma legal fac; artículo 38 del Código del Trabajo; artículo 376 del Código del Trabajo regula los pactos para tra; artículo 22; artículo 1; artículo 377 del Código del Trabajo; artículos 408; Ley 20.940; Ley 21.220; constitución
+
 para mejorar la calidad de vida de los trabajadores y alcanzar la paz social», véase
 Gamonal (2020: 247). Sin embargo, compartimos la opinión de Gamonal, quien
 entiende que «la visión unidimensional de la negociación colectiva se mantiene reforzada a nivel legal», porque pese a que tras las reformas introducidas por la Ley
@@ -876,8 +850,14 @@ del título I del libro V del Código del Trabajo.
    Cabe mencionar que según lo dispuesto en los artículos 408 y siguientes del Código del Trabajo, las federaciones y confederaciones también
 pueden celebrar pactos sobre condiciones especiales de trabajo.19 Lo
 
-
 ## 19 El artículo 408 del Código del Trabajo establece lo siguiente: «Presentación
+
+**Definición Canónica:** efectuada por federaciones y confederaciones, contenido y reglas generales. Las federaciones y confederaciones podrán, en cualquier momento y sin sujeción a reglas
+de procedimiento, previo acuerdo con uno o más empleadores, o con una o más
+asociaciones gremiales de empleadores, suscribir convenios colectivos y/o pactos
+sobre condiciones especiales de trabajo de que trata este Código. Con todo, las federaciones o confederaciones que definan negociar conforme a las disposiciones de
+este título deberán presentar su propuesta por escrito a los empleadores o a las asociaciones gremiales respectivas
+**Concordancias Legales:** artículo 306; artículo 374; artículo 409 del Código del Trabajo; artículo 372
 
 efectuada por federaciones y confederaciones, contenido y reglas generales. Las federaciones y confederaciones podrán, en cualquier momento y sin sujeción a reglas
 de procedimiento, previo acuerdo con uno o más empleadores, o con una o más
@@ -912,8 +892,11 @@ caso de no existir regulación estatutaria aplicable, deberán ser aprobados en 
 
 Materiales Docentes                                                      Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** El trabajo a distancia y el teletrabajo.
+Conceptos básicos
+**Concordancias Legales:** artículo 1; artículo 22 del Código del Trabajo se refiere a ellos para ex; Ley 21.220
 
 El trabajo a distancia y el teletrabajo.
 Conceptos básicos
@@ -1029,8 +1012,13 @@ TIC para el contacto entre el trabajador y la institución. Pudiendo ser
 realizado por cualquier persona, independiente de su género, edad y
 condición física» (Salazar-Concha, 2007: 89).
 
-
 ## 3 OIT, «Las dificultades y oportunidades del teletrabajo para los trabajadores y
+
+**Definición Canónica:** empleadores en los sectores de servicios de tecnología de la información y las comunicaciones (TIC) y financiero», 2016. Disponible en http://bcn.cl/274gn, citado
+por Álvarez (2018: 2).
+ 4 Artículo 13 del Estatuto de Trabajadores de España, citado por Álvarez (2018:
+15).
+**Concordancias Legales:** Artículo 13 del Estatuto de Trabajadores de España; artículos 21; Ley 20.744
 
 empleadores en los sectores de servicios de tecnología de la información y las comunicaciones (TIC) y financiero», 2016. Disponible en http://bcn.cl/274gn, citado
 por Álvarez (2018: 2).
@@ -1071,8 +1059,10 @@ de teletrabajo, que transcribimos a continuación:
       contrato o de una relación de trabajo, en la cual un trabajo que podría
       ser realizado igualmente en los locales de la empresa se efectúa fuera de
 
-
 ## 5 Según consigna el propio documento, este manual es fruto de las experiencias y
+
+**Definición Canónica:** recomendaciones que surgieron a propósito del Programa Piloto de Seguimiento y
+Promoción del Teletrabajo en Empresas Privadas (Propet), que se desarrolló principalmente en Argentina. Disponible en https://bit.ly/3LeqU1H.
 
 recomendaciones que surgieron a propósito del Programa Piloto de Seguimiento y
 Promoción del Teletrabajo en Empresas Privadas (Propet), que se desarrolló principalmente en Argentina. Disponible en https://bit.ly/3LeqU1H.
@@ -1087,8 +1077,12 @@ Materiales Docentes                                                     Capítul
 
 Materiales Docentes                                                     Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Consagración legal del trabajo a domicilio,
+del trabajo a distancia y del teletrabajo en nuestro
+ordenamiento jurídico
+**Concordancias Legales:** artículo 22 del Código del Trabajo por la Ley 19.759 de 2001; artículo 22 del Código del Trabajo; Ley 19.759
 
 Consagración legal del trabajo a domicilio,
 del trabajo a distancia y del teletrabajo en nuestro
@@ -1115,8 +1109,10 @@ especializadas en la gestión de call centers.1
    Por lo demás, en un fallo del 2012, la jurisprudencia judicial entendió
 que de su definición legal y de su regulación como una excepción al lí-
 
-
 ## 1 Juzgado de Letras de Talca, RIT I-8-2018 del 20 de abril de 2018, considerando
+
+**Definición Canónica:** séptimo.
+**Concordancias Legales:** artículo 22; artículo 22 del Código del Trabajo fue muy flexible y poco pr; artículo 22 del Código del Trabajo entre las labores o servic; Ley 21.220
 
 séptimo.
 
@@ -1191,8 +1187,10 @@ trato respecto de los demás trabajadores de la empresa.4
 el Poder Legislativo, los tribunales de justicia y derecho comparado, deben ser abordados y considerados al regular sistemáticamente esta figura para que se desarrolle en un contexto de trabajo decente que asegure
 la debida protección de los teletrabajadores.
 
-
 ## 4 Juzgado de Letras del Trabajo de Chillán, RIT O-118-2009, del 22 de febrero de
+
+**Definición Canónica:** 2010. Considerando decimotercero.
+**Concordancias Legales:** artículos 152; artículo 22 del Código del Trabajo era insuficiente. Se enten; Ley 21.220
 
 2010. Considerando decimotercero.
 
@@ -1220,13 +1218,19 @@ aprobación de este proyecto de ley generaría las certezas necesarias para
 promover el trabajo a distancia y el teletrabajo.6
    En consonancia con lo expuesto y como consecuencia de estas premisas, perseguía la modernización de nuestra legislación laboral, la incorporación al mercado de trabajo de personas que por diferentes razones
 
-
 ## 5 En otros países, como Argentina, España, Bélgica, Italia y Estados Unidos, se ha
+
+**Definición Canónica:** implementado esta modalidad contractual a través de convenios colectivos o políticas públicas. De hecho, esto ha permitido su implementación en el sector público,
+como un mecanismo que posibilita conciliar trabajo y familia (Álvarez, 2018: 1).
 
 implementado esta modalidad contractual a través de convenios colectivos o políticas públicas. De hecho, esto ha permitido su implementación en el sector público,
 como un mecanismo que posibilita conciliar trabajo y familia (Álvarez, 2018: 1).
 
 ## 6 Historia de la Ley 21.220, que modifica el Código del Trabajo en materia de
+
+**Definición Canónica:** Trabajo a Distancia, publicada el 26 de marzo de 2020. Disponible en https://bit.
+ly/3sEVZVP.
+**Concordancias Legales:** constitucion
 
 Trabajo a Distancia, publicada el 26 de marzo de 2020. Disponible en https://bit.
 ly/3sEVZVP.
@@ -1248,8 +1252,17 @@ y Seguridad Pública, el estado de excepción constitucional de catástrofe,
 por calamidad pública, en todo el territorio nacional. Lo anterior tenía
 como antecedente el Decreto Supremo 4 del 8 de febrero de 2020, del
 
-
 ## 7 Menciona los siguientes ejemplos: «Personas que viven en zonas alejadas de
+
+**Definición Canónica:** centros urbanos; madres o padres que tienen a su cargo el cuidado de los hijos;
+adultos que están a cargo de familiares enfermos o de edad avanzada; personas con
+discapacidad que tienen dificultades de traslado y movilidad; personas de la tercera
+edad que, estando activas, no tienen facilidad de movimiento; y jóvenes que deben
+compatibilizar el trabajo con sus estudios, entre otros segmentos de la población que
+tienen la necesidad imperiosa de que existan modalidades de trabajo debidamente
+reguladas que se adapten de mejor manera a sus necesidades particulares». Historia
+de la Ley 21.220, que 
+**Concordancias Legales:** Ley 21.220
 
 centros urbanos; madres o padres que tienen a su cargo el cuidado de los hijos;
 adultos que están a cargo de familiares enfermos o de edad avanzada; personas con
@@ -1261,6 +1274,14 @@ reguladas que se adapten de mejor manera a sus necesidades particulares». Histo
 de la Ley 21.220, que modifica el Código del Trabajo en materia de Trabajo a Distancia, publicada el 26 de marzo de 2020.
 
 ## 8 Esto porque entre los beneficios del trabajo a distancia destacan «la reducción
+
+**Definición Canónica:** de los tiempos de desplazamiento desde la casa al trabajo, el aumento de la autonomía en cuanto al tiempo de trabajo, lo que permite una mayor flexibilidad de la
+organización del tiempo de trabajo, la mejora de la conciliación entre la vida laboral
+y la personal en general y el aumento de la productividad». Informe «Trabajar en
+cualquier momento y en cualquier lugar: Consecuencias en el ámbito laboral» realizado por la Organización Internacional del Trabajo y la Fundación Europea para
+la Mejora de las Condiciones de Vida y de Trabajo (2019), citado en Historia de la
+Ley 21.220, que modifica el
+**Concordancias Legales:** artículo 76 del Código del Trabajo; Ley 21.220
 
 de los tiempos de desplazamiento desde la casa al trabajo, el aumento de la autonomía en cuanto al tiempo de trabajo, lo que permite una mayor flexibilidad de la
 organización del tiempo de trabajo, la mejora de la conciliación entre la vida laboral
@@ -1297,8 +1318,13 @@ de pactos sobre horarios diferidos de ingreso y salida de los trabajadores para 
 de feriado colectivo según lo dispuesto en el artículo 76 del Código del
 Trabajo, la celebración de acuerdos tendientes a anticipar el feriado le-
 
-
 ## 10 Véase «Teletrabajo: La ley que la crisis del covid-19 ayudó a aprobar». Palabra
+
+**Definición Canónica:** Pública, 8 de abril de 2020, disponible en https://bit.ly/3FPi6hP. En la legislación
+francesa, «ante circunstancias excepcionales, en particular la amenaza de una epidemia o en caso de fuerza mayor, la implementación del teletrabajo se puede considerar como un diseño de estación de trabajo necesario para permitir la continuidad
+de la actividad de la empresa y garantizar la protección de los empleados» (Álvarez,
+2018: 8).
+**Concordancias Legales:** artículo 2; artículo 1; artículo 22 del Código del Trabajo; Ley 21.220
 
 Pública, 8 de abril de 2020, disponible en https://bit.ly/3FPi6hP. En la legislación
 francesa, «ante circunstancias excepcionales, en particular la amenaza de una epidemia o en caso de fuerza mayor, la implementación del teletrabajo se puede considerar como un diseño de estación de trabajo necesario para permitir la continuidad
@@ -1365,8 +1391,14 @@ la consagración legal de la figura del teletrabajo —a través de su incorpora
 despejar la discusión, aún presente en algunos países, relativa a determinar si podía considerarse a esta modalidad contractual como una forma
 subordinada de prestar servicios «por no encuadrar en el sistema de los
 
-
 ## 12 Por ejemplo, en Francia la normativa vigente establece que «esta modalidad en
+
+**Definición Canónica:** la administración pública sea una práctica a petición del trabajador y previo acuerdo con el jefe de departamento. Se puede rescindir en cualquier momento, sujeto a
+un período de aviso. Los funcionarios teletrabajadores gozarán de los mismos derechos establecidos por las leyes y reglamentos aplicables a los funcionarios públicos.
+Posteriormente se dictó el Decreto de aplicación 2016-151 del 11 de febrero de 2016,
+relativo a las condiciones y modalidades de implementación del teletrabajo en el
+servicio civil y el Poder Judicial» (Álvarez, 2018: 9 y 10). Por su parte, en Italia, la legislación s
+**Concordancias Legales:** artículos 7; Ley 21.220
 
 la administración pública sea una práctica a petición del trabajador y previo acuerdo con el jefe de departamento. Se puede rescindir en cualquier momento, sujeto a
 un período de aviso. Los funcionarios teletrabajadores gozarán de los mismos derechos establecidos por las leyes y reglamentos aplicables a los funcionarios públicos.
@@ -1405,6 +1437,9 @@ que caracteriza esta modalidad no presencial de prestación de servicios.
 considerando decimosegundo.
 
 ## 14 Juzgado de Letras del Trabajo de Iquique, O-190-2012 del 24 de septiembre de
+
+**Definición Canónica:** 2012, considerando noveno.
+**Concordancias Legales:** artículo 1; Ley 21.220; Ley 20.005; Ley 21.280
 
 2012, considerando noveno.
 
@@ -1476,6 +1511,15 @@ Materiales Docentes                                                 Capítulo 3
    Por consiguiente, al no existir en el Estatuto Administrativo algún
 
 ## capítulo o norma que pugne con la nueva regulación contemplada en
+
+**Definición Canónica:** el Código del Trabajo a propósito de estas modalidades no presenciales de prestación laboral, no se advierte cómo estas normas que buscan
+proteger a los trabajadores que prestan servicios a través del trabajo a
+distancia y teletrabajo podrían ser incompatibles con lo dispuesto en el
+estatuto especial que rige a estos funcionarios.
+   Un último argumento en favor de la tesis propuesta está contemplado
+en el considerando decimocuarto de la sentencia en comento donde se
+analiza el tenor literal del artículo 1 del Código del Trabajo, haciendo presente que no cabe duda de que los funcionarios públi
+**Concordancias Legales:** artículo 1 del Código del Trabajo; artículo 1; artículo 19 de la Constitución Política de la República. Agr; artículo 5 del Código Orgánico de Tribunales; artículo 6; artículo 7; artículo 8; artículo 9; artículo 11; artículo 12; artículo 4; artículo 13; artículo 17; artículo 5; artículo 15; artículo 21; artículos 22; artículos 25; Ley 2.200; Ley 18.575; Constitucion; Constitución Política
 
 el Código del Trabajo a propósito de estas modalidades no presenciales de prestación laboral, no se advierte cómo estas normas que buscan
 proteger a los trabajadores que prestan servicios a través del trabajo a
@@ -1680,8 +1724,12 @@ privadas de libertad.
 
 Materiales Docentes                                                  Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Concepto legal y elementos definitorios
+y característicos del trabajo a distancia
+y del teletrabajo
+**Concordancias Legales:** artículo 152; artículo 12 del Código del Trabajo; artículo 1 de la Ley 18.168; artículo 22; Ley 21.142; Ley 19.223; Ley 18.168; Ley 21.220; Ley 19.759
 
 Concepto legal y elementos definitorios
 y característicos del trabajo a distancia
@@ -2047,8 +2095,12 @@ Materiales Docentes                                              Capítulo 4
 
 Materiales Docentes                                                          Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Contenido del contrato de trabajo a distancia
+y de teletrabajo. Pacto de trabajo a distancia
+y teletrabajo
+**Concordancias Legales:** artículo 152
 
 Contenido del contrato de trabajo a distancia
 y de teletrabajo. Pacto de trabajo a distancia
@@ -2070,8 +2122,16 @@ se acordó con posterioridad al inicio de la relación laboral, cualquiera
 de las partes puede unilateralmente volver a las condiciones originales,
 previo aviso por escrito a su contraparte con 30 días de anticipación.1
 
-
 ## 1 Durante el tiempo en que esté vigente la alerta sanitaria decretada con ocasión
+
+**Definición Canónica:** del brote del covid-19, es necesario tener presente las disposiciones de la Ley 21.342,
+publicada en el Diario Oficial el 1 de junio de 2021, que establece el Protocolo de Seguridad Sanitaria Laboral para el Retorno Gradual y Seguro al Trabajo en el marco
+de la Alerta Sanitaria decretada con ocasión de la Enfermedad de covid-19 en el país
+y otras materias que indica. Al respecto, contempla una serie de obligaciones para los
+empleadores. Entre ellas y en lo pertinente, la de crear e implementar un protocolo
+de seguridad sanitaria laboral, sin el cual, no podrán retomar o continuar la actividad
+
+**Concordancias Legales:** artículo 11 del Código del Trabajo. A diferencia de lo que; artículo 152; Ley 21.342; Ley 21.220
 
 del brote del covid-19, es necesario tener presente las disposiciones de la Ley 21.342,
 publicada en el Diario Oficial el 1 de junio de 2021, que establece el Protocolo de Seguridad Sanitaria Laboral para el Retorno Gradual y Seguro al Trabajo en el marco
@@ -2158,6 +2218,9 @@ servicios a distancia o a través del teletrabajo.4 En otras palabras, la modali
 
 ## 4 Dirección del Trabajo, Dictamen Ord. 1654 del 14 de junio de 2021, disponible
 
+**Definición Canónica:** en https://bit.ly/3wQ6cQM.
+**Concordancias Legales:** artículo 376 del Código 5 Corte de Apelaciones de Iquique; artículo 376; artículo 152; artículo 10 del Código del Trabajo; Ley 21.220; constitucion
+
 en https://bit.ly/3wQ6cQM.
 
 Materiales Docentes                                                     Capítulo 5
@@ -2214,6 +2277,16 @@ del Código del Trabajo, a saber:
 
 ## 1. En una cláusula del contrato de trabajo o del anexo, en su caso, se
 
+**Definición Canónica:** debe indicar expresamente que las partes han acordado la modalidad de
+trabajo a distancia o teletrabajo, especificando si es total o parcial. En
+caso de ser parcial, debe figurar la forma de combinación entre ambos
+mecanismos, esto es, entre trabajo presencial y trabajo a distancia o teletrabajo.
+   No se ha especificado en la norma ni se contempla en la legislación
+ninguna regla que establezca algún porcentaje mínimo que deba respetarse al combinar estas modalidades, sin perjuicio de que previo a
+la dictación de la Ley 21.220 la jurisprudencia hablaba del principio de
+«habitualidad» y de lo c
+**Concordancias Legales:** artículo 22; Ley 21.220
+
 debe indicar expresamente que las partes han acordado la modalidad de
 trabajo a distancia o teletrabajo, especificando si es total o parcial. En
 caso de ser parcial, debe figurar la forma de combinación entre ambos
@@ -2224,6 +2297,11 @@ la dictación de la Ley 21.220 la jurisprudencia hablaba del principio de
 «habitualidad» y de lo comentado a propósito del inciso cuarto del artículo 22 del código del ramo.
 
 ## 2. El lugar o lugares donde el trabajador prestará los servicios, que
+
+**Definición Canónica:** podrá corresponder al domicilio del trabajador u otro sitio determinado
+en el documento respectivo, siempre que sea distinto de los establecimientos, instalaciones o faenas de la empresa, según lo dispuesto en el
+artículo 152 quáter G al definir trabajo a distancia y teletrabajo.
+**Concordancias Legales:** artículo 152
 
 podrá corresponder al domicilio del trabajador u otro sitio determinado
 en el documento respectivo, siempre que sea distinto de los establecimientos, instalaciones o faenas de la empresa, según lo dispuesto en el
@@ -2254,6 +2332,13 @@ dos o tres días a la semana en casa y el resto lo hacen en la oficina» (Álvar
 
 ## 3. El período de duración de este acuerdo, que puede ser indefinido
 
+**Definición Canónica:** —sin perjuicio de las normas de reversibilidad ya revisadas— o por un
+tiempo determinado, ya sea que se celebre a plazo o por obra o faena
+determinada.
+   En todo caso, al pactar la modalidad de trabajo a distancia o teletrabajo en un anexo de contrato, es conveniente regular —individual
+o colectivamente— las modalidades de la reversibilidad, las que debieran incluir «las condiciones de restitución de los elementos, materiales y
+Materiales Docentes                                               Capítulo 5
+
 —sin perjuicio de las normas de reversibilidad ya revisadas— o por un
 tiempo determinado, ya sea que se celebre a plazo o por obra o faena
 determinada.
@@ -2267,6 +2352,14 @@ desgaste de herramientas en el trabajo a distancia)» (Lizama y Lizama,
 2020: 145).
 
 ## 4. Los mecanismos de control o supervisión que usará el empleador
+
+**Definición Canónica:** respecto de los servicios personales convenidos con el trabajador.
+   En su ejercicio el empleador debe tomar los resguardos necesarios
+para no afectar los derechos fundamentales de los trabajadores a distancia o de los teletrabajadores. Adicionalmente, debe respetar la normativa constitucional y legal vigente sobre la materia, en especial lo dispuesto en el artículo 19 números 4 y 5 de la Constitución Política de la
+República y en los artículos 5, 153, 154 y 154 bis del Código del Trabajo.
+   Así, por ejemplo, no es posible que controle al trabajador a distancia
+o al teletrabajador en su domi
+**Concordancias Legales:** artículo 19; artículos 5; constitucion; Constitución Política
 
 respecto de los servicios personales convenidos con el trabajador.
    En su ejercicio el empleador debe tomar los resguardos necesarios
@@ -2296,11 +2389,27 @@ acápite sobre Teletrabajo y acoso laboral.
 
 ## 5. La circunstancia de haberse acordado que el trabajador a distancia
 
+**Definición Canónica:** puede distribuir su jornada laboral en el horario que mejor se adapte a
+sus necesidades o que el teletrabajador se encuentra excluido de la limitación de jornada conforme al inciso cuarto del artículo 22 del Código
+del Trabajo.
+**Concordancias Legales:** artículo 22 del Código del Trabajo
+
 puede distribuir su jornada laboral en el horario que mejor se adapte a
 sus necesidades o que el teletrabajador se encuentra excluido de la limitación de jornada conforme al inciso cuarto del artículo 22 del Código
 del Trabajo.
 
 ## 6. En los supuestos anteriores, también debe establecerse el tiempo
+
+**Definición Canónica:** de desconexión contemplado en el artículo 152 quáter J del Código del
+Trabajo.
+   Aunque la Ley 21.220 no lo explicita en ninguna de las disposiciones
+que incorporó al Código del Trabajo, las partes también podrían convenir que el trabajador a distancia se encuentre excluido de la limitación
+de jornada laboral de conformidad a lo dispuesto en el inciso segundo
+del artículo 22 del mismo cuerpo legal, que comprende dentro de las
+excepciones a los trabajadores «contratados de acuerdo con este código
+para prestar servicios en su domicilio o en un lugar libremente elegido
+por ellos». Existe una ant
+**Concordancias Legales:** artículo 152; artículo 22; artículo 22 del Código del Trabajo; artículo 22 del Código del Trabajo. Esto; Ley 21.220
 
 de desconexión contemplado en el artículo 152 quáter J del Código del
 Trabajo.
@@ -2361,8 +2470,10 @@ los 15 días corridos contados desde que se acuerde alguna de estas modalidades,
 anexo, el empleador debe registrar este pacto de manera electrónica en
 la Dirección del Trabajo (contrato o anexo),6 quien remitirá copia de
 
-
 ## 6 Actualmente este trámite debe realizarse en línea por el empleador a través del
+
+**Definición Canónica:** Portal de la Dirección del Trabajo. En la página web de la Dirección del Trabajo exis-
+**Concordancias Legales:** artículo 2; artículo 152; artículo 2 del Decreto 18 del 3 de julio de 2020; artículo 5 del Código del Trabajo; artículo 5; Ley 16.744; Ley 19.799
 
 Portal de la Dirección del Trabajo. En la página web de la Dirección del Trabajo exis-
 
@@ -2454,8 +2565,12 @@ de los trabajadores en relación con la supervisión o control funcional y
 directo que puede ejercer el empleador sobre la forma y oportunidad en
 que el trabajador desarrolla sus labores y, en definitiva, acerca de la po-
 
-
 ## 7 El inciso primero del artículo 5 del Código del Trabajo «hace referencia a las
+
+**Definición Canónica:** garantías constitucionales, por tanto, se comprenden los derechos fundamentales
+propiamente laborales, como la libertad sindical, y los inespecíficos (derechos civiles y políticos con proyección dentro del contrato de trabajo), como, entre otros,
+los que el mismo legislador señala en dicho artículo» (Gamonal y Guidi, 2020: 77).
+**Concordancias Legales:** artículo 5; artículo 152; artículo 225 del Código del Trabajo. Cualquiera que sea el cas; artículo 231; artículo 25 del Decreto Supremo 54 de 1969; artículo 13.5 del Estatuto de los Trabajadores español que pres; constitucion; constitución
 
 garantías constitucionales, por tanto, se comprenden los derechos fundamentales
 propiamente laborales, como la libertad sindical, y los inespecíficos (derechos civiles y políticos con proyección dentro del contrato de trabajo), como, entre otros,
@@ -2642,8 +2757,11 @@ y Wiegand, 2021: 72).
 
 Materiales Docentes                                               Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** La jornada laboral en el trabajo a distancia
+y en el teletrabajo
+**Concordancias Legales:** artículo 152; artículos 22; artículos 35; artículo 33 del Código del Trabajo; artículo 22; artículo 33; artículo 20; artículos 152
 
 La jornada laboral en el trabajo a distancia
 y en el teletrabajo
@@ -2730,8 +2848,11 @@ limitación de jornada laboral a los trabajadores «contratados de acuerdo con e
 libremente elegido por ellos», vale decir, trabajadores a distancia (de
 conformidad a los artículos 152 quáter G y 152 quáter H), quienes, por
 
-
 ## 1 Fundación Europea para la Mejora de las Condiciones de Vida y de Trabajo
+
+**Definición Canónica:** (Eurofound) y Organización Internacional del Trabajo (OIT), en el informe «Trabajando en cualquier momento y en cualquier lugar: Consecuencias en el ámbito
+laboral», elaborado en 2019, citado por Jünemann y Wiegand (2021: 89).
+**Concordancias Legales:** artículo 152; artículo 22; artículo 22 del Código del Trabajo; artículo 22 del Código del Trabajo. Lo anterior por dos razon; artículo 28; artículo 22 del Código del Trabajo. Entonces; artículos 22
 
 (Eurofound) y Organización Internacional del Trabajo (OIT), en el informe «Trabajando en cualquier momento y en cualquier lugar: Consecuencias en el ámbito
 laboral», elaborado en 2019, citado por Jünemann y Wiegand (2021: 89).
@@ -2855,8 +2976,11 @@ u obras de otro, y es «superior» cuando se ubica en una posición de preeminen
    A propósito de este criterio, también se ha sostenido que existe fiscalización superior inmediata si se cumplen las siguientes condiciones
 copulativas:
 
-
 ## 2 Dirección del Trabajo, Circular 63 del 29 de julio de 2020, que informa aspectos
+
+**Definición Canónica:** relevantes de la Ley 21.220 y su Reglamento y establece consideraciones importantes
+en materia de fiscalización. Disponible en https://bit.ly/3a2l5aK.
+**Concordancias Legales:** artículo 38 del Código del Trabajo y así lo acuerden las part; artículo 28; Ley 21.220
 
 relevantes de la Ley 21.220 y su Reglamento y establece consideraciones importantes
 en materia de fiscalización. Disponible en https://bit.ly/3a2l5aK.
@@ -2892,8 +3016,11 @@ los trabajadores que nos ocupan exceptuados de la limitación de jornada, esta, 
 inciso primero del precitado artículo 28» (Lizama y Lizama, 2020: 137).
 En relación con este párrafo del dictamen agrega:
 
-
 ## 3 Dirección del Trabajo, Circular 63 del 29 de julio de 2020, que informa aspectos
+
+**Definición Canónica:** relevantes de la Ley 21.220 y su Reglamento y establece consideraciones importantes
+en materia de fiscalización.
+**Concordancias Legales:** artículo 22 del Código del Trabajo no carecen de jornada labo; artículo 25 del Código del Trabajo; artículo 152; artículo 22; artículo 42; Ley 21.220
 
 relevantes de la Ley 21.220 y su Reglamento y establece consideraciones importantes
 en materia de fiscalización.
@@ -3029,6 +3156,8 @@ La Segunda, 27 de mayo de 2014, disponible en https://bit.ly/3PPAOdC.
 
 ## 5 Este informe constituye un importante precedente de la ley francesa «El Khomri»
 
+**Definición Canónica:** o Loi Travail de 2016, que regula la desconexión laboral.
+
 o Loi Travail de 2016, que regula la desconexión laboral.
 
 Academia Judicial de Chile                                                Teletrabajo
@@ -3065,6 +3194,9 @@ fundamentales de la personalidad» (Reche, 2019: 36), entre los que se
 leyes y políticas en una perspectiva global comparativa», citado por Aguilera y Cristóbal (2017: 12).
 
 ## 7 Caterina Guidi, «El régimen de trabajo 996», RH Management, 15 de mayo de
+
+**Definición Canónica:** 2019, disponible en https://bit.ly/3NFEmxd.
+**Concordancias Legales:** artículo 32 del Código del Trabajo; artículo 152; artículos 25; artículo 149; artículo 152 bis; constitucion
 
 2019, disponible en https://bit.ly/3NFEmxd.
 
@@ -3237,8 +3369,10 @@ solo a garantizar el tiempo en el cual los trabajadores a distancia y los
 teletrabajadores no estarán obligados a responder las comunicaciones,
 órdenes o requerimientos de su empleador. En otras palabras, como «el
 
-
 ## 10 Tribunal Superior de Justicia de Asturias, en la causa rol del recurso 252/2022
+
+**Definición Canónica:** de 29 de marzo de 2022.
+**Concordancias Legales:** artículo 160 del Código del Trabajo
 
 de 29 de marzo de 2022.
 
@@ -3271,8 +3405,15 @@ importante en la materia, no obstante, sus verdaderos alcances dependerán de su
    Como ya sostuvimos, si la naturaleza de las funciones lo permite, las
 partes pueden pactar que el trabajador a distancia distribuya libremente
 
-
 ## 11 En este contexto, «el estudio español sobre “Teletrabajo/Trabajo Presencial”
+
+**Definición Canónica:** (2020) que encuesta a 400 profesionales españoles, muestra, por un lado, que el 46 %
+evalúa que lo peor de teletrabajar es el “tener que estar conectado”, y el 33 % declara
+que “le han faltado momentos de desconexión”. Esto hace patente la importancia y
+necesidad del derecho a la desconexión. Asimismo, es fundamental considerar momentos de descanso para las personas que teletrabajan, ya que el 28 % dice que lo que
+más extraña del trabajo presencial son “los momentos de descanso, como almuerzo,
+café y otros”» (Jünemann y Wiegand, 2021: 66).
+**Concordancias Legales:** artículo 152; artículo 22 del Código del Trabajo. Sobre el particular; artículo 10 del Código del Trabajo; Ley 21.220; ley 11110
 
 (2020) que encuesta a 400 profesionales españoles, muestra, por un lado, que el 46 %
 evalúa que lo peor de teletrabajar es el “tener que estar conectado”, y el 33 % declara
@@ -3339,8 +3480,17 @@ modificaciones habría quedado redactado de la siguiente manera:
       que en la empresa existiera el sistema de trabajo por turno, caso en el
       cual se estará a lo dispuesto en el reglamento interno; Deberá quedar
 
-
 ## 12 A propósito de los trabajadores de plataformas digitales que presten servicios
+
+**Definición Canónica:** como independientes, la Ley 21.431, del 11 de marzo de 2022, incorporó al Código del
+Trabajo los artículos 152 quáter X y 152 quáter Z (vigentes desde el 1 de septiembre
+de 2022). El primero se refiere a las estipulaciones que debe contener el contrato
+de prestación de servicios de trabajadores de plataformas digitales independientes,
+entre las cuales, incluye en su letra f) el tiempo máximo de conexión continua y la
+obligación de desconexión que debe cumplir la empresa de plataforma digital de
+servicios (EPD). Por su parte, el artículo 152 quáter Z establece que la empresa de
+plataforma digit
+**Concordancias Legales:** artículos 152; artículo 152; artículo 306 del Código del Trabajo; artículo 32; artículo 22; artículo 22 del Código del Trabajo. Existe; artículo 22 del Código del Trabajo. En derecho comparado e; artículo 2 del Código del Trabajo. Agrega; Ley 21.431; Ley 21.220
 
 como independientes, la Ley 21.431, del 11 de marzo de 2022, incorporó al Código del
 Trabajo los artículos 152 quáter X y 152 quáter Z (vigentes desde el 1 de septiembre
@@ -3440,15 +3590,11 @@ que el trabajador no tenga que ocuparse de otros aspectos de la relación labora
 remitir comunicaciones, pese a que estas no respondan a una solicitud
 inmediata del empleador».13
 
-
-## 13 Dirección del Trabajo, Dictamen Ord. 1162/24 del 7 de julio de 2022. Disponible
-
-en https://www.dt.gob.cl/legislacion/1624/w3-article-122408.html.
-
-Materiales Docentes                                                       Capítulo 7
-
-
 ## Capítulo 7
+
+**Definición Canónica:** Contenido del contrato de trabajo a distancia
+y de teletrabajo. Deberes del empleador
+**Concordancias Legales:** artículo 152; artículo 3 del Código del Trabajo.2 En el mismo sentido
 
 Contenido del contrato de trabajo a distancia
 y de teletrabajo. Deberes del empleador
@@ -3480,6 +3626,9 @@ la ajenidad de los medios de producción que son de propiedad del em-
  1 Dirección del Trabajo, Dictamen Ord. 8177/331 del 18 de diciembre de 1995. Disponible en https://bit.ly/3lV1nk4.
 
 ## 2 El artículo 3 letra a) del Código del Trabajo define empleador como «la persona
+
+**Definición Canónica:** natural o jurídica que utiliza los servicios intelectuales o materiales de una o más
+personas en virtud de un contrato de trabajo».
 
 natural o jurídica que utiliza los servicios intelectuales o materiales de una o más
 personas en virtud de un contrato de trabajo».
@@ -3522,6 +3671,13 @@ Unificación de Jurisprudencia rol 3.687-2013, se indica que
 de la prestación de servicios convenida, ya que esta obligación forma
 
 ## parte del contenido personal del contrato de trabajo, específicamente
+
+**Definición Canónica:** del deber de ocupación adecuada y efectiva, que permite al trabajador
+exigir a su empleador que le proporcione los elementos necesarios para
+la prestación de los servicios y le impone una prohibición al empleador
+de dejarlo inactivo, salvo que exista caso fortuito o fuerza mayor u otra
+causa eximente de responsabilidad (Lizama, 2003: 67).
+**Concordancias Legales:** artículo 152; artículo 41 del Código del Trabajo. Las primeras para comp; artículo 41; artículo 10 del Decreto 18 del Ministerio del Trabajo y Previ; artículo 7; artículo 171 del Código del Trabajo. Incluso; artículo 157; artículo 42; artículo 43; artículo 5 del Código del Trabajo; artículo 184 del Código del Trabajo en el contexto del trabajo; artículo 184 del Código del Trabajo. Hay que tener presente qu; artículo 184 del Código del Trabajo; artículos 152; artículo 184 del Código del Trabajo. El Decreto 18 del Mini; artículo 3; artículo 12; artículo 4; artículo 5; Ley 21.220; Ley 16.744
 
 del deber de ocupación adecuada y efectiva, que permite al trabajador
 exigir a su empleador que le proporcione los elementos necesarios para
@@ -3835,8 +3991,14 @@ se puede requerir la asesoría técnica del organismo administrador de la
 Ley 16.744. En esta matriz constarán los peligros asociados a la función
 a desempeñar junto a la evaluación de cada uno de estos riesgos.5
 
-
 ## 4 Según la Superintendencia de Seguridad Social, Dictamen 3572 del 15 de enero
+
+**Definición Canónica:** de 2021, este instrumento cuenta con dos partes: una, obligatoria, que consta de dieciocho preguntas destinadas a identificar los peligros inherentes al puesto de trabajo
+en específico y que necesariamente deben ser considerados en la confección de la
+matriz de riesgo y en el programa preventivo, y una segunda parte, voluntaria, que
+se llama «autoevaluación adicional», que a través de catorce preguntas permite identificar aquellos peligros que no son intrínsecos a la actividad a desarrollar, pero que
+igual deben ser conocidos por el trabajador. No es imprescindible que estos últimos
+sean consi
 
 de 2021, este instrumento cuenta con dos partes: una, obligatoria, que consta de dieciocho preguntas destinadas a identificar los peligros inherentes al puesto de trabajo
 en específico y que necesariamente deben ser considerados en la confección de la
@@ -3846,6 +4008,9 @@ igual deben ser conocidos por el trabajador. No es imprescindible que estos últ
 sean considerados en la confección de la matriz de riesgo y en el programa preventivo, a diferencia de los primeros. Disponible en https://bit.ly/3lV41pW.
 
 ## 5 Dirección del Trabajo, Circular 63 del 29 de julio de 2020, que informa aspectos
+
+**Definición Canónica:** relevantes de la Ley 21.220 y su Reglamento y establece consideraciones importantes
+**Concordancias Legales:** artículo 19 de la Constitución Política de la República. La; artículos 5; artículo 8; artículo 152; artículo 10; artículo 9; Ley 21.220; Ley 16.744; Constitución Política; constitucion
 
 relevantes de la Ley 21.220 y su Reglamento y establece consideraciones importantes
 
@@ -3980,8 +4145,14 @@ metodologías que permitan un adecuado aprendizaje, y debe ser evaluado. Por dis
 distancia y teletrabajo, la cobertura de prestaciones del seguro de accidentes del trabajo y enfermedades profesionales contemplada en la Ley
 16.744, los procedimientos, recursos e instancias de reclamación rela-
 
-
 ## 7 Según esta misma disposición, la periodicidad estará definida en el programa
+
+**Definición Canónica:** preventivo, con el límite de que no podrá exceder de dos años. Por su parte, según
+lo dispuesto en el artículo 11 inciso primero del Decreto Supremo 18, anualmente
+debe evaluar el cumplimiento del programa preventivo, especialmente la eficacia de
+las acciones programadas, disponiendo las medidas de mejora continua que sean
+necesarias.
+**Concordancias Legales:** artículo 11; artículo 11 del Decreto Supremo 18. Es posible ejecutar es; artículo 19; artículo 13; artículo 5 de la Ley 16.744; artículo 5; artículo 7; artículo 18 del Decreto Supremo 109; Ley 16.744; Constitución Política
 
 preventivo, con el límite de que no podrá exceder de dos años. Por su parte, según
 lo dispuesto en el artículo 11 inciso primero del Decreto Supremo 18, anualmente
@@ -4077,8 +4248,10 @@ profesión o el trabajo que realice una persona y que produzca, en la víctima, 
       sionales contempla un listado de agentes específicos que entrañan
       el riesgo de producir enfermedades de origen profesional.8
 
-
 ## 8 En esta disposición se enumeran agentes químicos, físicos, biológicos y polvos
+
+**Definición Canónica:** que entrañan el riesgo de producir enfermedades profesionales. Por su parte, el citado reglamento en su artículo 19 señala las enfermedades que se entenderán como
+**Concordancias Legales:** artículo 19; artículo 152; artículo 6; artículo 3; Ley 21.220; Ley 16.744
 
 que entrañan el riesgo de producir enfermedades profesionales. Por su parte, el citado reglamento en su artículo 19 señala las enfermedades que se entenderán como
 
@@ -4287,8 +4460,11 @@ seguridad. Por último, desde una perspectiva empírica
 
 Materiales Docentes                                                Capítulo 8
 
-
 ## Capítulo 8
+
+**Definición Canónica:** Ciudadanía del trabajador en la empresa,
+trabajo a distancia y teletrabajo
+**Concordancias Legales:** artículos 5; artículo 22 del Código del Trabajo; artículo 5 del Código del Trabajo; artículo 154; artículo 153 del Código del ramo; artículos 153; Ley 19.759; constitucion
 
 Ciudadanía del trabajador en la empresa,
 trabajo a distancia y teletrabajo
@@ -4414,6 +4590,11 @@ citada por Mercader (2002: 109).
 
 ## 2 Se trata de un acuerdo voluntario cuyo objetivo consistía en negociar convenios
 
+**Definición Canónica:** para modernizar la organización del trabajo y establecer un marco general a nivel
+europeo, incluyendo acuerdos de trabajo flexible para mejorar la productividad y la
+competitividad de las empresas y lograr el equilibrio necesario entre flexibilidad y
+**Concordancias Legales:** artículo 154 bis del Código del Trabajo que dispone que; artículo 19; artículo 2 del Código del Trabajo. Es así como; artículos 153; artículo 19 de la Constitución Política de la República; Ley 19.759; Constitución Política; constitucion
+
 para modernizar la organización del trabajo y establecer un marco general a nivel
 europeo, incluyendo acuerdos de trabajo flexible para mejorar la productividad y la
 competitividad de las empresas y lograr el equilibrio necesario entre flexibilidad y
@@ -4514,8 +4695,11 @@ por qué se requiere la información» (Cerda, 2003: 7), por ejemplo, a través 
 control» (Mercader, 2002: 111). En el contexto laboral, caracterizado por
 la subordinación y dependencia, lo dicho cobra especial relevancia porque el reconocimiento de este derecho impediría que el consentimiento
 
-
 ## 4 Este derecho, también conocido como libertad informática, consiste no solo en
+
+**Definición Canónica:** la «libertad de negar información sobre los propios hechos privados o datos personales, sino la libertad de controlar el uso de esos mismos datos insertos en un programa informático», según la Sentencia del Tribunal Constitucional español STC
+254/1993 del 20 de julio, citada por Mercader (2002: 108).
+**Concordancias Legales:** Constitucion
 
 la «libertad de negar información sobre los propios hechos privados o datos personales, sino la libertad de controlar el uso de esos mismos datos insertos en un programa informático», según la Sentencia del Tribunal Constitucional español STC
 254/1993 del 20 de julio, citada por Mercader (2002: 108).
@@ -4549,8 +4733,11 @@ revisión de las cookies, lo que según la teoría del mosaico (Herrera, 2016:
 del trabajador, resurgiendo, por un lado, el problema de la violación de
 correspondencia (pero con nuevas aristas) (González, 2001: 170)5 y, por
 
-
 ## 5 En este sentido, la inviolabilidad de las comunicaciones privadas «comprende
+
+**Definición Canónica:** la protección de la correspondencia o mensajes epistolares, telegráficos, telefónicos,
+radiales, electrónicos, télex y los emitidos por cualquier otro medio, y la inviolabilidad de los documentos privados ampara todos aquellos que las personas lleven
+**Concordancias Legales:** artículo 19 de la Constitución Política de la República; constitucion; Constitución Política
 
 la protección de la correspondencia o mensajes epistolares, telegráficos, telefónicos,
 radiales, electrónicos, télex y los emitidos por cualquier otro medio, y la inviolabilidad de los documentos privados ampara todos aquellos que las personas lleven
@@ -4611,8 +4798,14 @@ de la empresa, de acuerdo con las facultades con que cuenta para administrar su 
 ha sostenido la dogmática nacional, esto se vincula con los alcances del
 uso extraproductivo del correo electrónico (Gamonal, 2006: 225). En
 
-
 ## 6 Por ejemplo, el Segundo Juzgado de Letras del Trabajo de Santiago, en la Causa
+
+**Definición Canónica:** RIT T-385-2011, caratulada Negrete Herrera, Jorge con Gesfor S. A., del 15 de diciembre de 2011, sostuvo, en su considerando séptimo, lo siguiente: «Cabe señalar que el
+carácter de privado del documento en cuestión no se ve afectado por el hecho que
+la empresa sea dueña de la casilla institucional a la cual se envió, puesto que lo que
+le da el carácter de privado es que tanto el remitente como los demás destinatarios
+tenían la legítima expectativa de que su comunicación no fuera interceptada ni conocida por personas diversas a las que el correo fuera dirigido». Agrega, que «tampoco pierde el c
+**Concordancias Legales:** artículos 153
 
 RIT T-385-2011, caratulada Negrete Herrera, Jorge con Gesfor S. A., del 15 de diciembre de 2011, sostuvo, en su considerando séptimo, lo siguiente: «Cabe señalar que el
 carácter de privado del documento en cuestión no se ve afectado por el hecho que
@@ -4686,6 +4879,16 @@ demás compañeros de trabajo.
 revisión del producto de una determinada herramienta tecnológica por
 
 ## parte del empleador se ajusta o no a derecho. La premisa básica es la
+
+**Definición Canónica:** siguiente: mientras más altas sean las expectativas de privacidad del trabajador, menores serán las facultades de revisión del empleador.
+   Aplicando este criterio, sostiene que el trabajador tendrá una alta
+expectativa de privacidad respecto al contenido de su casilla de correo
+electrónico corporativo si no existe regulación relativa a su uso y si no es
+utilizada en forma colaborativa o conjunta. En caso contrario, de existir
+regulación que limite su utilización o si es usada de manera colaborativa
+o conjunta, estas expectativas necesariamente disminuirán. Lo propio
+ocurriría, a juicio de es
+**Concordancias Legales:** artículo 19; artículo 485 del Código del Trabajo en su inciso primero se re; artículo 485; artículo 146 del Código Penal si el empleador revisa los corre; artículo 36; artículo 2; artículo 146; artículo 8 del Convenio para la Protección de los Derechos y; artículo 22 del Código del Trabajo; artículos 485; artículo 2 del Código del Trabajo; Ley 18.168; Ley 19.223; Constitución Política; Constitución; constitucion
 
 siguiente: mientras más altas sean las expectativas de privacidad del trabajador, menores serán las facultades de revisión del empleador.
    Aplicando este criterio, sostiene que el trabajador tendrá una alta
@@ -4861,8 +5064,16 @@ de obligaciones económicas, financieras, bancarias o comerciales que,
 de conformidad a la ley, puedan ser comunicadas por los responsables
 de registros o bancos de datos personales, ni exigir para dichos fines declaración ni certificado alguno, salvo los casos que se mencionan en la
 
-
 ## 10 Según Iturriaga, esta tesis se basa en «una interpretación armónica y coherente
+
+**Definición Canónica:** de las distintas normas legales, constitucionales e internacionales que se refieren a
+este tema», al estatuto de responsabilidad contractual que correspondería aplicar a
+los daños generados al postulante a un empleo que negocia con el empleador, y al
+principio de buena fe (Iturriaga, 2016: 66). Además, «la interpretación en favor de la
+tutela precontractual estaría acorde con los principios pro libertate (como presunción general en favor de la libertad del ciudadano) y pro homine (siempre en favor
+del individuo), ambos contextualizados en materia laboral por la regla in dubio pro
+operario, dad
+**Concordancias Legales:** artículo 485 del Código del Trabajo; artículo 194 del Código del Trabajo; artículo 7 de la Ley 19.779 de 2001; artículos 1; artículo 1; artículo 2; artículo 485; Ley 20.940; Ley 19.779; Ley 21.422; constitucion
 
 de las distintas normas legales, constitucionales e internacionales que se refieren a
 este tema», al estatuto de responsabilidad contractual que correspondería aplicar a
@@ -4932,6 +5143,17 @@ distintas. La primera dice relación con el acceso a las redes sociales por
 
 ## parte del trabajador durante la jornada de trabajo, siempre que —como
 
+**Definición Canónica:** adelantamos—, el trabajador no se encuentre excluido de esta en virtud
+de lo dispuesto en el artículo 22 del Código del Trabajo y, la segunda se
+vincula con la actividad en redes sociales y sus eventuales consecuencias
+desde una perspectiva laboral.
+   El primer problema enunciado se enlaza con las llamadas «licencias
+comportamentales», relativas a «aspectos que, si bien se verifican en el
+puesto de trabajo o con ocasión de la prestación de servicios, se expresan
+en las naturales pausas que toda actividad humana supone […] y que,
+como tales, no tienen por qué ser conocidas por el empleador» (G
+**Concordancias Legales:** artículo 22 del Código del Trabajo y
+
 adelantamos—, el trabajador no se encuentre excluido de esta en virtud
 de lo dispuesto en el artículo 22 del Código del Trabajo y, la segunda se
 vincula con la actividad en redes sociales y sus eventuales consecuencias
@@ -4966,8 +5188,13 @@ sociales que vigilar al trabajador. En este sentido la doctrina y jurisprudencia
 políticas de uso de herramientas informáticas que fijen unas directrices
 claras para los empleados, mediante la aplicación de prohibiciones absolutas o parciales» (Grande y Gordillo, 2013: 11 y 12).14
 
-
 ## 14 Esta conclusión la desprenden de los siguientes fallos: Sentencia del Tribunal
+
+**Definición Canónica:** Superior de Justicia de La Rioja, 2011: Ratifica la procedencia de un despido disciplinario por un acceso abusivo a redes sociales (Facebook y Tuenti) durante el horario
+de trabajo. Entiende que hay un incumplimiento grave y culpable de las obligaciones, quebranto de la buena fe contractual y un abuso de confianza, quedando,
+además, acreditado que la empresa había realizado previas advertencias al trabajador para que cesara en su conducta. Sentencia del Tribunal Superior de Justicia de
+Asturias, 2011: Declara procedente el despido de un trabajador por acceder, durante
+su jornada, a webs ajenas
 
 Superior de Justicia de La Rioja, 2011: Ratifica la procedencia de un despido disciplinario por un acceso abusivo a redes sociales (Facebook y Tuenti) durante el horario
 de trabajo. Entiende que hay un incumplimiento grave y culpable de las obligaciones, quebranto de la buena fe contractual y un abuso de confianza, quedando,
@@ -5076,8 +5303,11 @@ puede tener acceso al mismo (Carro y Espinoza, 2012: 120).
 razonamiento, como la vinculación directa entre lo publicado y su autor,
 el número de personas que se puede haber enterado de los comentarios, la veracidad y magnitud de lo publicado, y si los comentarios están
 
-
 ## 15 La actividad concertada protegida o acción concertada está consagrada en la
+
+**Definición Canónica:** National Labor Relations Act y ha permitido interesantes acciones colectivas de los
+trabajadores en defensa de sus derechos, incluyendo las redes sociales. Véase Gamonal y Rosado (2019: 48).
+**Concordancias Legales:** artículo 184 del Código del Trabajo; artículo 2 del Código del Trabajo define acoso laboral como; artículos 160; artículos 485; artículos 171; Ley 20.607
 
 National Labor Relations Act y ha permitido interesantes acciones colectivas de los
 trabajadores en defensa de sus derechos, incluyendo las redes sociales. Véase Gamonal y Rosado (2019: 48).
@@ -5197,8 +5427,10 @@ organismo
       cicio intensivo bajo un escenario tecnológico, podría afectar los límites
       del espacio personal del trabajador.16
 
-
 ## 16 Dirección del Trabajo, Dictamen Ord. 1389/007 del 8 de abril de 2020, citado
+
+**Definición Canónica:** por Jünemann y Wiegand (2021: 84).
+**Concordancias Legales:** artículo 152; artículo 19 de la Constitución Política de la República; artículo 24 del DFL 1; artículo 3; artículos 157 bis; artículo 16 de la Ley 18.600 de 1987; artículo 157 bis; artículo 157 ter; artículo 2 de la Ley 19.885. Solo se considerarán razones fund; Ley 21.220; Ley 16.744; Ley 21.015; Ley 18.600; Ley 19.885; Constitución Política
 
 por Jünemann y Wiegand (2021: 84).
 
@@ -5330,8 +5562,10 @@ en Chile»,18 del Instituto de Administración de la Universidad Austral
 de Chile, y que se estuvo aplicando desde diciembre de 2006, constató
 que frente a la pregunta efectuada a personas con discapacidad «¿Estaría
 
-
 ## 18 Esta encuesta estuvo dirigida a personas mayores de 20 años con algún tipo
+
+**Definición Canónica:** de discapacidad, ya sea física, visual, auditiva o multidéficit en los niveles de leve,
+moderada o severa (Salazar, Rojas y Contreras, 2007: 3).
 
 de discapacidad, ya sea física, visual, auditiva o multidéficit en los niveles de leve,
 moderada o severa (Salazar, Rojas y Contreras, 2007: 3).
@@ -5396,8 +5630,12 @@ La perspectiva de género no ha estado presente en el relato fundacional del sur
 tiempo que el hombre a lo que se conoce como «trabajo doméstico no
 remunerado» (desde la Plataforma de Acción de Beijing de 1995 de la Organización de Naciones Unidas), o como «trabajo doméstico del cuidado».
 
-
 ## 19 Dingel y Neiman, en un estudio realizado en abril de 2020, afirmaron que el
+
+**Definición Canónica:** 37 % de los trabajos en Estados Unidos se pueden realizar completamente en el domicilio del trabajador. Véase Maureen Soyars Hicks, «The number of people who
+can telework is higher than was estimated». Monthly Labor Review, junio de 2020,
+disponible en https://bit.ly/3QmESCE.
+**Concordancias Legales:** Ley 3.186
 
 37 % de los trabajos en Estados Unidos se pueden realizar completamente en el domicilio del trabajador. Véase Maureen Soyars Hicks, «The number of people who
 can telework is higher than was estimated». Monthly Labor Review, junio de 2020,
@@ -5445,6 +5683,14 @@ Valenzuela, 2012: 80).
    Esta visión sesgada del rol de la mujer limitada al cuidado de la familia y el hogar dificulta su inserción laboral (Caamaño, 2014: 14). Por su
 
 ## parte, obsta al ejercicio de la corresponsabilidad parental, vale decir, a
+
+**Definición Canónica:** que el padre y la madre se responsabilicen y participen de manera activa, equitativa y permanente en la crianza y educación de sus hijos, sea
+que vivan juntos o separados y cualquiera que sea la forma en que hayan
+distribuido el cuidado personal de sus hijos (Acuña, 2013: 29 y 31).
+   Los datos obtenidos y las estimaciones realizadas en el «Primer estudio nacional de valoración económica del trabajo doméstico: ¿Cuánto
+aportamos al PIB?», elaborado en 2020 por Comunidad Mujer —por
+iniciativa de Juntas en Acción, plataforma de organizaciones por los derechos de las mujeres, que contó con el apoy
+**Concordancias Legales:** Ley 21.220
 
 que el padre y la madre se responsabilicen y participen de manera activa, equitativa y permanente en la crianza y educación de sus hijos, sea
 que vivan juntos o separados y cualquiera que sea la forma en que hayan
@@ -5497,8 +5743,14 @@ a su cargo familiares enfermos o de edad avanzada; sin embargo, esta ley
 no avanzó hacia la corresponsabilidad parental, requisito indispensable
 para una real y verdadera corresponsabilidad laboral.
 
-
 ## 22 Para determinar este valor se utilizó la Encuesta Nacional del Uso de Tiempo
+
+**Definición Canónica:** (Enut), la Encuesta Casen y el PIB, todos de 2015. Por su parte, el procesamiento de
+datos contempló las siguientes etapas: 1) Identificación del tiempo de trabajo doméstico y de cuidado no remunerado, a partir de las subtareas contempladas en la
+Enut. 2) Cálculo de la cantidad de dinero que tendría que gastar cada hogar si tuviera que pagarle a una persona externa para que realizara estas labores, considerando
+para estos efectos el salario promedio por hora que se le paga a las personas que
+se dedican a estas actividades en el mercado. 3) Relación entre el valor del trabajo
+doméstico no remun
 
 (Enut), la Encuesta Casen y el PIB, todos de 2015. Por su parte, el procesamiento de
 datos contempló las siguientes etapas: 1) Identificación del tiempo de trabajo doméstico y de cuidado no remunerado, a partir de las subtareas contempladas en la
@@ -5543,12 +5795,11 @@ participación femenina bajó de un 58 % a un 44,9 % en solo un año.
 mujeres destinaban un promedio de seis horas semanales más que los
 hombres al cuidado no remunerado de sus hijos menores, cifra que au-
 
-
-## 23 Estos indicadores son: brecha salarial de género, participación femenina en la
-
-fuerza laboral, brecha entre la participación de hombres y mujeres en la fuerza laboral, desempleo femenino y tasa de empleo femenino a tiempo completo.
-
 ## 24 Véase «PwC Women in Work Index: Chile es el país de la OCDE que más
+
+**Definición Canónica:** retrocede en indicadores laborales femeninos producto del covid-19», TVN, 8 de
+marzo de 2021, disponible en https://pwc.to/3zdOwRA.
+**Concordancias Legales:** artículo 41 de la Constitución de Irlanda; Constitución
 
 retrocede en indicadores laborales femeninos producto del covid-19», TVN, 8 de
 marzo de 2021, disponible en https://pwc.to/3zdOwRA.
@@ -5576,13 +5827,13 @@ de cuidado a través de políticas públicas que las aborden como derechos
 de 2020 sostuvo que el ejercicio del derecho de sala cuna no es incompatible con la modalidad de trabajo a distancia o teletrabajo. En vistas a la
 emergencia sanitaria que esta ocasionó, señaló que este derecho puede
 
-
-## 25 Véase «PwC Women in Work Index: Chile es el país de la OCDE que más
-
-retrocede en indicadores laborales femeninos producto del covid-19», TVN, 8 de
-marzo de 2021, disponible en https://pwc.to/3zdOwRA.
-
 ## 26 Véase Mario Marcel, «Presentación del informe de política monetaria ante la
+
+**Definición Canónica:** Comisión de Hacienda del honorable Senado de la República», 9 de junio de 2021,
+disponible en https://bit.ly/3wXv61V.
+ 27 Véase Felipe Avilés-Lucero, «Estimación trabajo doméstico no remunerado»,
+Banco Central, Gerencia de Estadísticas Macroeconómicas, División de Estadísticas, 2020, disponible en https://bit.ly/3PKjDdH.
+**Concordancias Legales:** artículo 203 del Código del Trabajo permite concluir que la de; artículo 3 de la Convención sobre los Derechos del Niño
 
 Comisión de Hacienda del honorable Senado de la República», 9 de junio de 2021,
 disponible en https://bit.ly/3wXv61V.
@@ -5611,8 +5862,17 @@ son vinculantes para el Estado en virtud de los tratados internacionales
 suscritos por Chile y que se encuentran actualmente vigentes. En este
 sentido cita el artículo 3 de la Convención sobre los Derechos del Niño
 
-
 ## 28 Corte Suprema, rol 5185-21 del 22 de junio de 2021. Al conocer un recurso
+
+**Definición Canónica:** de apelación deducido por la Asociación de Profesionales del Servicio de Salud de
+Osorno en favor de sus funcionarias, que prestaban servicios en modalidad remota,
+en contra de la sentencia que rechazó el recurso de protección deducido por ellas, en
+contra del rechazo de su solicitud de que se les pagase un bono compensatorio del
+derecho de sala cuna, sostuvo lo siguiente: «El otorgamiento del derecho a sala cuna,
+o la compensación equivalente que corresponda, supone la separación entre madre
+e hijo con motivo u ocasión del cumplimiento de las cargas propias de la función
+pública que a esta im
+**Concordancias Legales:** artículo 11 de la Convención sobre la Eliminación de Todas las; artículo 11; artículo 206 bis; artículo 56; artículos 13; artículo 197 bis del Código del Trabajo; artículo 206 bis del Código del Trabajo; artículo 206 bis del Código del Trabajo.30 Sin duda estas leyes; Ley 19.728; Ley 21.247; Ley 21.227; Ley 21.351; Ley 21.391; Ley 20.422; Ley 21391; Ley 21.220; constitucion
 
 de apelación deducido por la Asociación de Profesionales del Servicio de Salud de
 Osorno en favor de sus funcionarias, que prestaban servicios en modalidad remota,
@@ -5799,9 +6059,10 @@ parcial y la opción de acordar el tipo de trabajo y su distribución, han
 permitido o no un mayor equilibrio entre trabajo, vida privada y familia
 (Jünemann y Wiegand, 2021: 56 y ss.).31
 
-
 ## 31 A propósito de esta última alternativa, Jünemann y Wiegand citan como ejem-
 
+**Definición Canónica:** Materiales Docentes                                                                    ﻿
+**Concordancias Legales:** artículo 375 del Código del Trabajo; artículo 376; artículo 22 del Código del Trabajo era insuficiente y no gene; artículo 152; artículo 22; artículo 22 del Código del Trabajo; artículos 5; Ley 20.940; Ley 21.220; constitucion
 
 Materiales Docentes                                                                    ﻿
 

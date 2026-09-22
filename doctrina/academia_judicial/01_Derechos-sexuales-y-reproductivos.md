@@ -13,19 +13,13 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos                                                          09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Derechos
+                sexuales y
+                reproductivos
 
-             Derechos
+Derechos
                 sexuales y
                 reproductivos
 
@@ -40,19 +34,23 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Hernán
+                               López
+                               Hernández
+                          Licenciado en Ciencias Jurídicas y
+                          Sociales y Diplomado en Litigación
+                          Oral por la Universidad Autóno-
+                          ma de Chile, Abogado y Máster en
+                          Derecho de Familia e Infancia por la
+                          Universidad de Barcelona, España.
+                          Profesor de Derecho Civil y Filosofía
+                          del Derecho en diversas casas de es-
+                          
+**Concordancias Legales:** Constitucion; Constitución Política
 
-                          Hernán
+Hernán
                                López
                                Hernández
                           Licenciado en Ciencias Jurídicas y
@@ -171,66 +169,32 @@ Chile 2020                Providencia, sede Santiago.
                                                         de contar con información, educación y medios para lograrlo (autonomía reproductiva)                 60
 Derechos sexuales                                                                   Índice                                                                    5
 
-
-## 3.1.8   Tener relaciones sexuales consensuadas                                                         65
-
-
-
-## 3.1.9   Pleno respeto por la integridad física del cuerpo y sus expresiones sexuales                   71
-
-
-
-## 3.1.10 Vivir la sexualidad sin violencia, coacción, abuso, explotación o acoso                         73
-
-
-
-## 3.1.11 Tomar decisiones relativas a la reproducción libres de coerción y violencia                     76
-
-
-
-## 3.1.12 Elección libre del tipo de familia que se quiere constituir                                     78
-
-
-
-## 3.1.13 Decidir con libertad si se contrae matrimonio, se convive con la pareja o se mantiene solo      86
-
-
-                                           3.2 Igualdad y no discriminación                                                                            90
-
-
 ## 3.2.1   Discriminación con base en la identidad de género, orientación sexual y expresión de género    91
 
+**Definición Canónica:** 3.2.2 	Derecho a no sufrir discriminaciones o tratos desiguales en el estudio, trabajo y dentro
+                                                         de la familia debido al embarazo o maternidad                                                  96
 
-                                                 3.2.2 	Derecho a no sufrir discriminaciones o tratos desiguales en el estudio, trabajo y dentro
+3.2.2 	Derecho a no sufrir discriminaciones o tratos desiguales en el estudio, trabajo y dentro
                                                          de la familia debido al embarazo o maternidad                                                  96
 
                                            3.3 Derechos sociales (derecho a la salud)                                                                  111
 
-
-## 3.3.1   Contar con servicios educativos y de información en materia reproductiva                      118
-
-
-
-## 3.3.2   Acceso a servicios de salud sexual de calidad                                                 120
-
-
-
 ## 3.3.3   Acceso a métodos anticonceptivos seguros, aceptables y eficaces                               122
 
-
-                                                 3.3.4 	Acceso a servicios de salud o atención médica que garanticen una maternidad segura,
+**Definición Canónica:** 3.3.4 	Acceso a servicios de salud o atención médica que garanticen una maternidad segura,
                                                          libre de riesgos en los períodos de gestación, parto y lactancia, brindándose la máxima
                                                          posibilidad de tener hijos sanos                                                              128
 
-
-## 3.3.5   Protección del embarazo y de las enfermedades e infecciones de transmisión sexual             131
-
-
+3.3.4 	Acceso a servicios de salud o atención médica que garanticen una maternidad segura,
+                                                         libre de riesgos en los períodos de gestación, parto y lactancia, brindándose la máxima
+                                                         posibilidad de tener hijos sanos                                                              128
 
 ## 3.3.6   Interrupción legal y segura del embarazo en circunstancias específicas                        134
 
+**Definición Canónica:** 4. Protección de los derechos sexuales y reproductivos en grupos específicos                                   142
+**Concordancias Legales:** Constitución
 
-                                        4. Protección de los derechos sexuales y reproductivos en grupos específicos                                   142
+4. Protección de los derechos sexuales y reproductivos en grupos específicos                                   142
 
                                            4.1 Derechos sexuales y reproductivos en adultos mayores                                                    144
 
@@ -352,7 +316,13 @@ Chile 2020                Providencia, sede Santiago.
 
 ## 2. Derecho al reconocimiento de la familia como núcleo fundamen-
 
-                                                                               tal de la sociedad y el deber del Estado de promover y protegerla
+**Definición Canónica:** tal de la sociedad y el deber del Estado de promover y protegerla
+                                                                               (art. 1°).
+                                                                            3. Derecho a la vida y a la integridad física y psíquica de la persona.
+                                                                               La ley protege la vida del que está por nacer. Prohibición de todo
+                                                                               apremio ilegítimo (art. 19 N° 1).
+
+tal de la sociedad y el deber del Estado de promover y protegerla
                                                                                (art. 1°).
                                                                             3. Derecho a la vida y a la integridad física y psíquica de la persona.
                                                                                La ley protege la vida del que está por nacer. Prohibición de todo
@@ -360,56 +330,42 @@ Chile 2020                Providencia, sede Santiago.
 
 ## 4. La igualdad ante la ley e igual protección de la ley en el ejercicio
 
-                                                                               de los derechos. Prohibición de toda forma de discriminación
+**Definición Canónica:** de los derechos. Prohibición de toda forma de discriminación
+                                                                               arbitraria. Hombres y mujeres son iguales ante la ley (art. 19 N°
+                                                                               2 y 3).
+
+de los derechos. Prohibición de toda forma de discriminación
                                                                                arbitraria. Hombres y mujeres son iguales ante la ley (art. 19 N°
                                                                                2 y 3).
 
 ## 5. El derecho a participar con igualdad de oportunidades en la vida
 
-                                                                               nacional (art. 1°).
+**Definición Canónica:** nacional (art. 1°).
+
+nacional (art. 1°).
 
                                           6   Comité contra la Tortura (2007), párrafo 1; en GAUCHÉ (2012), pp. 55-56.
 
 Derechos sexuales                       Introducción                                                              9
 
-
-## 6. Derecho a la protección y respeto de la vida privada y la honra
-
-                                           de la persona y su familia y la protección de sus datos personales
-                                           (art. 19 N° 4).
-
-## 7. Derecho a la libertad de conciencia y libertad de culto (art. 19
-
-                                           N° 6).
-
 ## 8. Derecho a la libertad personal y la seguridad individual (art. 19
 
-                                           N° 7).
+**Definición Canónica:** N° 7).
+                                        9. Derecho a la protección de la salud (art. 19 N° 9).
+                                        10. Derecho a la educación (art. 19 N° 10).
+
+N° 7).
                                         9. Derecho a la protección de la salud (art. 19 N° 9).
                                         10. Derecho a la educación (art. 19 N° 10).
 
                                         11. Derecho a la libertad de emitir opinión (art.19 N° 12).
 
-## 12. Derecho a presentar peticiones a la autoridad, sobre asuntos de
-
-                                            interés público o privado (art. 19 N° 14).
-
-## 13. Derecho a la libertad de trabajo y su protección. Prohibición
-
-                                            de cualquier discriminación que no se base en la capacidad, o
-                                            idoneidad personal (art. 19 N° 16).
-
-## 14. Derecho a la seguridad social. Deber del Estado de supervigilar el
-
-                                            adecuado ejercicio del derecho a la seguridad social (art. 19 N° 18).
-
-## 15. Derecho de propiedad en sus diversas especies sobre toda clase
-
-                                            de bienes corporales e incorporales (art. 19 N° 24).
-
 ## 16. La esencialidad de los derechos. La no afectación en su esencia
 
-                                            de los derechos reconocidos constitucionalmente (art. 19 N° 26).
+**Definición Canónica:** de los derechos reconocidos constitucionalmente (art. 19 N° 26).
+**Concordancias Legales:** constitucion
+
+de los derechos reconocidos constitucionalmente (art. 19 N° 26).
 
                                         De los derechos y principios anteriormente señalados, se pueden
                                         desprender los lineamientos sobre los cuales se enmarcan los dere-
@@ -468,10 +424,11 @@ Chile 2020                Providencia, sede Santiago.
 Derechos sexuales                                                            1. Aspectos y definiciones                                                    12
 y reproductivos                                                                  generales
 
-
 ## 1.1            Diversos aspectos sobre la terminología
 
-                                                                               “derechos sexuales y reproductivos”
+**Definición Canónica:** “derechos sexuales y reproductivos”
+
+“derechos sexuales y reproductivos”
 
                                                                                1.1.1 ¿Qué son los derechos sexuales?
                                                                                Los derechos sexuales11 comenzaron a ser discutidos a fines de la
@@ -505,7 +462,13 @@ y reproductivos                                                                 
 
 ## 14   Maria Betânia Ávila, doctora en Sociología e investigadora en SOS CORPO Instituto Feminista para la De-
 
-                                               mocracia, y una de sus fundadoras en 1981. Es militante de Articulación de Mujeres Brasileñas (AMB) y de la
+**Definición Canónica:** mocracia, y una de sus fundadoras en 1981. Es militante de Articulación de Mujeres Brasileñas (AMB) y de la
+                                               Articulación Feminista Marcosur (AFM) y miembro del grupo de trabajo CLACSO “Feminismos, resistencias
+                                               y procesos emancipatorios”. Es autora de libros y textos sobre trabajo productivo y reproductivo, trabajo
+                                               doméstico, feminismo y derechos reproductivos y derechos sexuales.
+                                          15   CORREA y ÁVILA (2003), p. 21.
+
+mocracia, y una de sus fundadoras en 1981. Es militante de Articulación de Mujeres Brasileñas (AMB) y de la
                                                Articulación Feminista Marcosur (AFM) y miembro del grupo de trabajo CLACSO “Feminismos, resistencias
                                                y procesos emancipatorios”. Es autora de libros y textos sobre trabajo productivo y reproductivo, trabajo
                                                doméstico, feminismo y derechos reproductivos y derechos sexuales.
@@ -548,10 +511,15 @@ y reproductivos                                                                 
                                                                                   se dé en el sentido de ampliarlos a un concepto positivo, que vaya más
                                                                                   allá del combate a las discriminaciones y abusos cometidos contra
 
-
 ## 16   Rosalind Petchesky, politóloga y teórica líder en derechos reproductivos internacionales. Basándose en la
 
-                                                ética, la filosofía política, la teoría feminista, la historia, la ciencia política, la sociología, la demografía, la
+**Definición Canónica:** ética, la filosofía política, la teoría feminista, la historia, la ciencia política, la sociología, la demografía, la
+                                                semiótica y el derecho, Petchesky integra muchos tipos de análisis académicos para aclarar el tema de los
+                                                derechos reproductivos. Es autora de The Individual’s Rights and International Organization (1966), Abortion
+                                                and Women’s Choice: The State, Sexuality, and Reproductive Freedom (1984, 2d rev. Ed., 1990), y Global Pres-
+              
+
+ética, la filosofía política, la teoría feminista, la historia, la ciencia política, la sociología, la demografía, la
                                                 semiótica y el derecho, Petchesky integra muchos tipos de análisis académicos para aclarar el tema de los
                                                 derechos reproductivos. Es autora de The Individual’s Rights and International Organization (1966), Abortion
                                                 and Women’s Choice: The State, Sexuality, and Reproductive Freedom (1984, 2d rev. Ed., 1990), y Global Pres-
@@ -598,7 +566,13 @@ y reproductivos                                                                 
 
 ## 22   Rebecca Cook, profesora emérita y codirectora del Programa Internacional de Derecho en Salud Sexual y
 
-                                               Reproductiva de la Facultad de Derecho de la Universidad de Toronto. Es LL.M y J.S.D de la Universidad de
+**Definición Canónica:** Reproductiva de la Facultad de Derecho de la Universidad de Toronto. Es LL.M y J.S.D de la Universidad de
+                                               Columbia, además de profesora en la Facultad de Derecho, la Facultad de Medicina y el Centro Asociado
+                                               de Bioética de la Universidad de Toronto. Es coeditora en asuntos legales y éticos de la revista International
+                                               Journal of Gynecology and Obstetrics y forma parte de los consejos asesores de las publicaciones Human
+                                     
+
+Reproductiva de la Facultad de Derecho de la Universidad de Toronto. Es LL.M y J.S.D de la Universidad de
                                                Columbia, además de profesora en la Facultad de Derecho, la Facultad de Medicina y el Centro Asociado
                                                de Bioética de la Universidad de Toronto. Es coeditora en asuntos legales y éticos de la revista International
                                                Journal of Gynecology and Obstetrics y forma parte de los consejos asesores de las publicaciones Human
@@ -657,26 +631,31 @@ y reproductivos                                                              gen
 
 Derechos sexuales                                                          1. Aspectos y definiciones                                                    17
 
-
-## 1.2            Análisis y contexto de aplicación de términos
-
-                                                                             relevantes como sexo, género, orientación sexual,
-                                                                             identidad de género y expresión de género26
-
-
 ## 1.2.1 Sexo: En un sentido estricto, el término “sexo” se refiere “a
 
-                                                                             las diferencias biológicas entre el hombre y la mujer”27, a sus carac-
+**Definición Canónica:** las diferencias biológicas entre el hombre y la mujer”27, a sus carac-
+                                                                             terísticas fisiológicas28, a “la suma de las características biológicas
+                                                                             que define el espectro de los humanos personas como mujeres y
+                                                                             hombres”29, o a “la construcción biológica que se refiere a las carac-
+                                                                             terísticas genét
+
+las diferencias biológicas entre el hombre y la mujer”27, a sus carac-
                                                                              terísticas fisiológicas28, a “la suma de las características biológicas
                                                                              que define el espectro de los humanos personas como mujeres y
                                                                              hombres”29, o a “la construcción biológica que se refiere a las carac-
                                                                              terísticas genéticas, hormonales, anatómicas y fisiológicas sobre cuya
                                                                              base una persona es clasificada como macho o hembra al nacer”30.
 
-
 ## 1.2.1.1 Personas intersex: Desde la perspectiva del sexo, además
 
-                                                                             de los hombres y las mujeres, se entiende que se alude también a las
+**Definición Canónica:** de los hombres y las mujeres, se entiende que se alude también a las
+                                                                             personas intersex. En la doctrina, se ha definido la intersexualidad
+                                                                             como “todas aquellas situaciones en las que el cuerpo sexuado de
+                                                                             un individuo varía respecto al standard de corporalidad femenina o
+                                                                             masculina culturalment
+**Concordancias Legales:** Ley N° 20.609; Constitucion
+
+de los hombres y las mujeres, se entiende que se alude también a las
                                                                              personas intersex. En la doctrina, se ha definido la intersexualidad
                                                                              como “todas aquellas situaciones en las que el cuerpo sexuado de
                                                                              un individuo varía respecto al standard de corporalidad femenina o
@@ -700,7 +679,12 @@ y reproductivos                                                              gen
 
 ## 33   En medicina, se consideran tres tipos de hermafroditismo: seudohermafroditismo femenino, seudoherma-
 
-                                             froditismo masculino y hermafroditismo verdadero. Estas diversas categorías médicas fueron estudiadas en
+**Definición Canónica:** froditismo masculino y hermafroditismo verdadero. Estas diversas categorías médicas fueron estudiadas en
+                                             1999 por la Corte Constitucional de Colombia, basándose en diversos libros y revistas médicas especializadas
+                                             sobre el tema. Véase, entre otros, WILSON y REINER (1998), p. 360.
+**Concordancias Legales:** Constitucion
+
+froditismo masculino y hermafroditismo verdadero. Estas diversas categorías médicas fueron estudiadas en
                                              1999 por la Corte Constitucional de Colombia, basándose en diversos libros y revistas médicas especializadas
                                              sobre el tema. Véase, entre otros, WILSON y REINER (1998), p. 360.
 
@@ -714,7 +698,13 @@ y reproductivos                                                                 
 
 ## 1.2.2 Género: La diferencia entre sexo y género radica en que el
 
-                                        internacionales                          primero se concibe como un dato biológico, y el segundo, como una
+**Definición Canónica:** internacionales                          primero se concibe como un dato biológico, y el segundo, como una
+                                        y demás cuerpos                          construcción social. El Comité de Naciones Unidas que monitorea
+                                        normativos que al                        el cumplimiento con la Convención sobre la Eliminación de Todas
+                                        momento de su                            las Formas de Discriminación contra la Mujer (CEDAW, por sus
+                                                             
+
+internacionales                          primero se concibe como un dato biológico, y el segundo, como una
                                         y demás cuerpos                          construcción social. El Comité de Naciones Unidas que monitorea
                                         normativos que al                        el cumplimiento con la Convención sobre la Eliminación de Todas
                                         momento de su                            las Formas de Discriminación contra la Mujer (CEDAW, por sus
@@ -753,7 +743,13 @@ y reproductivos                                                                 
 
 ## 37   Por ejemplo, en interpretación de la CEDAW, su comité ha indicado que “[s]i bien en la Convención solo se
 
-                                                menciona la discriminación por motivos de sexo, al interpretar el artículo 1° junto con el párrafo f) del artículo
+**Definición Canónica:** menciona la discriminación por motivos de sexo, al interpretar el artículo 1° junto con el párrafo f) del artículo
+                                                2° y el párrafo a) del artículo 5° se pone de manifiesto que la Convención abarca la discriminación contra la
+                                                mujer por motivos de género”. Comité para la Eliminación de Todas las Formas de Discriminación contra la
+                                                Mujer, CEDAW (2010), párrafo 5.
+**Concordancias Legales:** artículo 1; artículo 2; artículo 5
+
+menciona la discriminación por motivos de sexo, al interpretar el artículo 1° junto con el párrafo f) del artículo
                                                 2° y el párrafo a) del artículo 5° se pone de manifiesto que la Convención abarca la discriminación contra la
                                                 mujer por motivos de género”. Comité para la Eliminación de Todas las Formas de Discriminación contra la
                                                 Mujer, CEDAW (2010), párrafo 5.
@@ -764,10 +760,15 @@ y reproductivos                                                                 
                                                                              la categoría “sexo” comprende también la categoría “género”, con el
                                                                              fin de asegurar el objeto útil de la protección jurídica integral.
 
-
 ## 1.2.3 Orientación sexual: La orientación sexual de una persona es
 
-                                                                             independiente del sexo biológico o de la identidad de género. Se ha
+**Definición Canónica:** independiente del sexo biológico o de la identidad de género. Se ha
+                                                                             definido como “la capacidad de cada persona de sentir una profunda
+                                                                             atracción emocional, afectiva y sexual por personas de un género
+                                                                             diferente al suyo, o de su mismo género, o de más de un género, así
+                                                                             como a la capacidad de m
+
+independiente del sexo biológico o de la identidad de género. Se ha
                                                                              definido como “la capacidad de cada persona de sentir una profunda
                                                                              atracción emocional, afectiva y sexual por personas de un género
                                                                              diferente al suyo, o de su mismo género, o de más de un género, así
@@ -782,17 +783,24 @@ y reproductivos                                                                 
                                                                              términos “heterosexualidad”, “homosexualidad” y “bisexualidad”, los
                                                                              cuales pueden describirse de la siguiente manera:
 
-
 ## 1.2.3.1 Heterosexualidad: Hace referencia a la capacidad de una
 
-                                                                             persona de sentir una profunda atracción emocional, afectiva y se-
+**Definición Canónica:** persona de sentir una profunda atracción emocional, afectiva y se-
                                                                              xual por personas de un género diferente al suyo y a la capacidad de
                                                                              mantener relaciones íntimas y sexuales con estas personas.
 
+persona de sentir una profunda atracción emocional, afectiva y se-
+                                                                             xual por personas de un género diferente al suyo y a la capacidad de
+                                                                             mantener relaciones íntimas y sexuales con estas personas.
 
 ## 1.2.3.2 Homosexualidad: Hace referencia a la capacidad de cada
 
-                                                                             persona de sentir una profunda atracción emocional, afectiva y se-
+**Definición Canónica:** persona de sentir una profunda atracción emocional, afectiva y se-
+                                                                             xual por personas de un mismo género y a la capacidad mantener
+                                                                             relaciones íntimas y sexuales con estas personas. De la información
+                                                                             recibida por la Comisión se observa una tendencia en el movimiento
+
+persona de sentir una profunda atracción emocional, afectiva y se-
                                                                              xual por personas de un mismo género y a la capacidad mantener
                                                                              relaciones íntimas y sexuales con estas personas. De la información
                                                                              recibida por la Comisión se observa una tendencia en el movimiento
@@ -806,25 +814,35 @@ y reproductivos                                                                 
                                                                              (para hacer referencia a la homosexualidad femenina) y “gay” o “gai”42
                                                                              (para hacer referencia a la homosexualidad masculina o femenina).
 
-
 ## 1.2.3.3 Bisexualidad: Hace referencia a la capacidad de una per-
 
-                                                                             sona de sentir una profunda atracción emocional, afectiva y sexual
+**Definición Canónica:** sona de sentir una profunda atracción emocional, afectiva y sexual
                                                                              por personas de un género diferente al suyo o también de su mismo
                                                                              género, así como a la capacidad mantener relaciones íntimas y se-
                                                                              xuales con estas personas43.
 
+sona de sentir una profunda atracción emocional, afectiva y sexual
+                                                                             por personas de un género diferente al suyo o también de su mismo
+                                                                             género, así como a la capacidad mantener relaciones íntimas y se-
+                                                                             xuales con estas personas43.
 
 ## 1.2.4 Identidad de género: De conformidad con los Principios de
 
-                                                                             Yogyakarta44 (principios sobre la aplicación de la legislación interna-
+**Definición Canónica:** Yogyakarta44 (principios sobre la aplicación de la legislación interna-
+
+Yogyakarta44 (principios sobre la aplicación de la legislación interna-
 
                                                                              cional de derechos humanos en relación con la orientación sexual y la
 
-
 ## 40   Desde el 17 de mayo de 1990, la Organización Mundial de la Salud (OMS) excluyó la homosexualidad de la
 
-                                             Clasificación Estadística Internacional de Enfermedades y Otros Problemas de Salud. El término “homose-
+**Definición Canónica:** Clasificación Estadística Internacional de Enfermedades y Otros Problemas de Salud. El término “homose-
+                                             xualidad” tiende a asociarse con la patología homosexualismo que por mucho tiempo existió en las clasifica-
+                                             ciones de enfermedades psiquiátricas. En este sentido, desde el movimiento social se rechaza este término,
+                                             prefiriéndose el término “gay”.
+                                        41   En los países angloparlantes, se tiende a utilizar “gay” en forma ind
+
+Clasificación Estadística Internacional de Enfermedades y Otros Problemas de Salud. El término “homose-
                                              xualidad” tiende a asociarse con la patología homosexualismo que por mucho tiempo existió en las clasifica-
                                              ciones de enfermedades psiquiátricas. En este sentido, desde el movimiento social se rechaza este término,
                                              prefiriéndose el término “gay”.
@@ -920,10 +938,15 @@ y reproductivos                                                                 
                                                                              presentan las definiciones mayormente aceptadas en relación con
                                                                              esta perspectiva.
 
-
 ## 1.2.4.1 Transgenerismo o trans: Este término “paragua” –que in-
 
-                                                                             cluye la subcategoría transexualidad y otras variaciones– es utilizado
+**Definición Canónica:** cluye la subcategoría transexualidad y otras variaciones– es utilizado
+                                                                             para describir las diferentes variantes de la identidad de género, cuyo
+                                                                             común denominador es la no conformidad entre el sexo biológico de
+                                                                             la persona y la identidad de género que le ha sido tradicionalmente
+                                                                             asignada48. Una
+
+cluye la subcategoría transexualidad y otras variaciones– es utilizado
                                                                              para describir las diferentes variantes de la identidad de género, cuyo
                                                                              común denominador es la no conformidad entre el sexo biológico de
                                                                              la persona y la identidad de género que le ha sido tradicionalmente
@@ -931,10 +954,15 @@ y reproductivos                                                                 
                                                                              independientemente de intervenciones quirúrgicas o tratamientos
                                                                              médicos49.
 
-
 ## 1.2.4.2 Transexualismo: Las personas transexuales se sienten y
 
-                                                                             se conciben a sí mismas como pertenecientes al género opuesto
+**Definición Canónica:** se conciben a sí mismas como pertenecientes al género opuesto
+                                                                             que social y culturalmente se asigna a su sexo biológico. Producto
+                                                                             de esto, optan por una intervención médica –hormonal, quirúrgica
+                                                                             o ambas– para adecuar su apariencia física–biológica a su realidad
+                                                                             psíquica, espiritual y social.
+
+se conciben a sí mismas como pertenecientes al género opuesto
                                                                              que social y culturalmente se asigna a su sexo biológico. Producto
                                                                              de esto, optan por una intervención médica –hormonal, quirúrgica
                                                                              o ambas– para adecuar su apariencia física–biológica a su realidad
@@ -953,17 +981,26 @@ y reproductivos                                                                 
 
 ## 49   Véase, por ejemplo, la Ley de Identidad de Género, Uruguay, 12 de octubre de 2009, que en su artículo 3°
 
-                                             (requisitos) establece que “[e]n ningún caso se exigirá cirugía de reasignación sexual para la concesión de la
+**Definición Canónica:** (requisitos) establece que “[e]n ningún caso se exigirá cirugía de reasignación sexual para la concesión de la
+                                             adecuación registral de la mención del nombre o del sexo que fuere disonante de la identidad de género de
+                                             la persona a que se hace referencia en dicho documento”.
+
+(requisitos) establece que “[e]n ningún caso se exigirá cirugía de reasignación sexual para la concesión de la
                                              adecuación registral de la mención del nombre o del sexo que fuere disonante de la identidad de género de
                                              la persona a que se hace referencia en dicho documento”.
 
 Derechos sexuales                                                       1. Aspectos y definiciones                                          23
 y reproductivos                                                             generales
 
-
 ## 1.2.4.3 Intersexualidad: Integra a las personas que poseen caracte-
 
-                                                                          rísticas genéticas de hombres y mujeres, y se ha definido como “todas
+**Definición Canónica:** rísticas genéticas de hombres y mujeres, y se ha definido como “todas
+                                                                          aquellas situaciones en las que el cuerpo sexuado de un individuo
+                                                                          varía respecto al estándar de corporalidad femenina o masculina
+                                                                          culturalmente vigente”. Históricamente, la comprensión de esta
+                                                                          identidad biológica específica se ha deno
+
+rísticas genéticas de hombres y mujeres, y se ha definido como “todas
                                                                           aquellas situaciones en las que el cuerpo sexuado de un individuo
                                                                           varía respecto al estándar de corporalidad femenina o masculina
                                                                           culturalmente vigente”. Históricamente, la comprensión de esta
@@ -979,10 +1016,11 @@ y reproductivos                                                             gene
 
 Derechos sexuales                                                          1. Aspectos y definiciones                                                    24
 
-
 ## 1.3            Otras
 
-                                                                             subcategorías
+**Definición Canónica:** subcategorías
+
+subcategorías
 
                                                                              Entre estas categorías se encontraría a las personas travestis, lo que
                                                                              en términos generales51 se refiere a quienes expresan su identidad
@@ -1060,13 +1098,24 @@ y reproductivos                                                                 
 
 ## 55   El movimiento LGBTI, y en particular el movimiento trans, se han movilizado en rechazo a las categorías
 
-                                               médicas-psiquiátricas en las que se les ha clasificado. Ejemplo de ello es el movimiento Stop Trans Patholo-
+**Definición Canónica:** médicas-psiquiátricas en las que se les ha clasificado. Ejemplo de ello es el movimiento Stop Trans Patholo-
+                                               gization 2012 que busca eliminar del DSM de la APA las categorías “disforia de género” y “desórdenes de la
+                                               identidad de género”.
+
+médicas-psiquiátricas en las que se les ha clasificado. Ejemplo de ello es el movimiento Stop Trans Patholo-
                                                gization 2012 que busca eliminar del DSM de la APA las categorías “disforia de género” y “desórdenes de la
                                                identidad de género”.
 
 ## 56   En la información que ha recibido la CIDH, tanto en el marco de audiencias como información allegada por
 
-                                               informes remitidos y denuncias de alegadas violaciones a los derechos humanos, se han conocido una serie
+**Definición Canónica:** informes remitidos y denuncias de alegadas violaciones a los derechos humanos, se han conocido una serie
+                                               de denominaciones y auto denominaciones que varían debido a factores como el sector social LGTBI, el país
+                                               de origen, la posición social o económica, o el nivel de educación. No obstante, existe un cierto consenso en
+                                               algunas referencias y autorreferencias que permiten armonizar dichos criterios por razones prácticas.
+                                    
+**Concordancias Legales:** artículo 1
+
+informes remitidos y denuncias de alegadas violaciones a los derechos humanos, se han conocido una serie
                                                de denominaciones y auto denominaciones que varían debido a factores como el sector social LGTBI, el país
                                                de origen, la posición social o económica, o el nivel de educación. No obstante, existe un cierto consenso en
                                                algunas referencias y autorreferencias que permiten armonizar dichos criterios por razones prácticas.
@@ -1149,10 +1198,11 @@ y reproductivos                                                                 
 Derechos sexuales                                                      1. Aspectos y definiciones                                             28
 y reproductivos                                                            generales
 
-
 ## 1.4     Derecho a la autodeterminación
 
-                                                                         sexual y reproductiva62
+**Definición Canónica:** sexual y reproductiva62
+
+sexual y reproductiva62
 
                                                                          Este derecho se basa en el derecho a planear la propia familia, el
                                                                          derecho a estar libre de interferencias en la toma de decisiones repro-
@@ -1182,26 +1232,31 @@ y reproductivos                                                            gener
 
 Derechos sexuales                                                          1. Aspectos y definiciones                                                     29
 
-
-## 1.5            Derecho a la intimidad y
-
-                                                                             propia imagen
-
-
 ## 1.5.1 Derecho a la intimidad
 
-                                                                             La Comisión Interamericana de Derechos Humanos ha establecido
+**Definición Canónica:** La Comisión Interamericana de Derechos Humanos ha establecido
+                                                                             la vinculación entre el derecho a la integridad y a la intimidad, de-
+                                                                             clarando que la protección a la intimidad se fundamenta como “la
+                                                                             protección a la integridad física y moral de la persona y garantiza
+                                                                             una esfera que nadie puede 
+
+La Comisión Interamericana de Derechos Humanos ha establecido
                                                                              la vinculación entre el derecho a la integridad y a la intimidad, de-
                                                                              clarando que la protección a la intimidad se fundamenta como “la
                                                                              protección a la integridad física y moral de la persona y garantiza
                                                                              una esfera que nadie puede invadir, un campo de actividad que es
                                                                              absolutamente propio de cada individuo”63.
 
-
 ## 1.5.2 Derecho a la propia imagen
 
+**Definición Canónica:** Para el autor Humberto Nogueira Alcalá, “El derecho fundamental
+                                                                             a la propia imagen garantiza un ámbito de libertad respecto de sus
+                                                                             atributos más característicos y propios de la persona, que la identifican
+                                                                             en cuanto tal, como es la imagen física visible. Asimismo, protege
+                                                                             el poder de decisión
+**Concordancias Legales:** artículos 12; artículos 18; artículos 11; artículo 16 de la Convención; Constitucion
 
-                                                                             Para el autor Humberto Nogueira Alcalá, “El derecho fundamental
+Para el autor Humberto Nogueira Alcalá, “El derecho fundamental
                                                                              a la propia imagen garantiza un ámbito de libertad respecto de sus
                                                                              atributos más característicos y propios de la persona, que la identifican
                                                                              en cuanto tal, como es la imagen física visible. Asimismo, protege
@@ -1239,10 +1294,11 @@ y reproductivos                             generales
 Derechos sexuales                                                   1. Aspectos y definiciones                                          31
 y reproductivos                                                         generales
 
-
 ## 1.6     La autonomía progresiva de los derechos
 
-                                                                      del niño, niña y adolescente66
+**Definición Canónica:** del niño, niña y adolescente66
+
+del niño, niña y adolescente66
 
                                                                       La autonomía progresiva es un concepto que reconoce a las niñas,
                                                                       niños y adolescentes como personas sujetas de derechos, lo cual
@@ -1282,10 +1338,12 @@ y reproductivos                                                         generale
                                         normativo
 Derechos sexuales                                                         2. Marco normativo                                                         33
 
-
 ## 2.1           Normativa
 
-                                                                            nacional
+**Definición Canónica:** nacional
+**Concordancias Legales:** constitucion
+
+nacional
 
                                                                             En nuestro ordenamiento jurídico nacional67, no existen preceptos
                                                                             de rango constitucional o legal68 que establezcan explícitamente qué
@@ -1300,7 +1358,13 @@ y reproductivos                                                         generale
 
 ## 68   El 19 de octubre del año 2000, en el gobierno del Presidente Ricardo Lagos, la Cámara de Diputados pre-
 
-                                             sentó el proyecto de Ley Marco sobre Derechos Sexuales y Reproductivos (Boletín N°2608-11), el cual fue
+**Definición Canónica:** sentó el proyecto de Ley Marco sobre Derechos Sexuales y Reproductivos (Boletín N°2608-11), el cual fue
+                                             archivado el año 2016, encontrándose en su etapa inicial de revisión por la Comisión de Salud de la Cámara
+                                             de Diputados.
+                                        69   Adicionalmente, se destacan algunos decretos que regulan la salud sexual y reproductiva en nuestro país,
+                                             para asegurar así el acceso adecuado e informado, y la entrega de calidad de políticas púb
+
+sentó el proyecto de Ley Marco sobre Derechos Sexuales y Reproductivos (Boletín N°2608-11), el cual fue
                                              archivado el año 2016, encontrándose en su etapa inicial de revisión por la Comisión de Salud de la Cámara
                                              de Diputados.
                                         69   Adicionalmente, se destacan algunos decretos que regulan la salud sexual y reproductiva en nuestro país,
@@ -1335,53 +1399,47 @@ y reproductivos                                                         generale
 
 Derechos sexuales                                                          2. Marco normativo                                                           34
 
-
-## 1. Constitución Política de la República
-
-
-## 2. Código Civil
-
-
-## 3. Código Penal
-
-
-## 4. Código del Trabajo
-
-
-## 5. Código Sanitario
-
-
 ## 6. Ley N° 19.585. Modifica el Código Civil y otros cuerpos legales
 
-                                                                                en materia de filiación (1998).
+**Definición Canónica:** en materia de filiación (1998).
+                                                                             7. Ley N° 19.620. Dicta norma sobre adopción de menores (1999).
+**Concordancias Legales:** Ley N° 19.620; Ley N° 19.628
+
+en materia de filiación (1998).
                                                                              7. Ley N° 19.620. Dicta norma sobre adopción de menores (1999).
 
                                                                              8. Ley N° 19.628. Sobre protección de la vida privada (1999).
 
-## 9. Ley N° 19.779. Establece normas relativas al virus de inmuno-
-
-                                                                                deficiencia humana VIH (2001).
-
 ## 10. Ley N° 19.874. Facilita la denuncia en caso de atentados sexuales
 
-                                                                                 y permite una mejor investigación del delito (2003).
+**Definición Canónica:** y permite una mejor investigación del delito (2003).
+                                                                             11. Ley N° 19.947. Establece nueva Ley de Matrimonio Civil (2004)70.
+                                                                             12. Ley N° 19.966. Establece un régimen de garantías en salud (2004).
+                                                                             13. Ley N° 20.066. Establece Ley de Violencia Intrafamiliar (2005)71.
+**Concordancias Legales:** Ley N° 19.947; Ley N° 19.966; Ley N° 20.066
+
+y permite una mejor investigación del delito (2003).
                                                                              11. Ley N° 19.947. Establece nueva Ley de Matrimonio Civil (2004)70.
                                                                              12. Ley N° 19.966. Establece un régimen de garantías en salud (2004).
                                                                              13. Ley N° 20.066. Establece Ley de Violencia Intrafamiliar (2005)71.
 
 ## 14. Ley N° 20.077. Reestablece la bonificación fiscal para enferme-
 
-                                                                                 dades catastróficas establecida en la Ley Nº 19.779 (2005).
+**Definición Canónica:** dades catastróficas establecida en la Ley Nº 19.779 (2005).
+                                                                             15. Ley N° 20.120. Sobre la investigación científica en el ser humano,
+                                                                                 su genoma, y prohíbe la clonación humana (2006).
+**Concordancias Legales:** Ley Nº 19.779; Ley N° 20.120
+
+dades catastróficas establecida en la Ley Nº 19.779 (2005).
                                                                              15. Ley N° 20.120. Sobre la investigación científica en el ser humano,
                                                                                  su genoma, y prohíbe la clonación humana (2006).
 
-## 16. Ley N° 20.203. Modifica normas relativas al subsidio familiar y
-
-                                                                                 a la adopción (2007).
-
 ## 17. Ley N° 20.348. Resguarda el derecho a la igualdad en las remu-
 
-                                                                                 neraciones (2009).
+**Definición Canónica:** neraciones (2009).
+**Concordancias Legales:** Ley N° 20.130
+
+neraciones (2009).
 
                                         70   Actualmente, se discute en el Senado chileno el proyecto de ley que modifica diversos cuerpos legales para
                                              regular, en igualdad de condiciones, el matrimonio de parejas del mismo sexo. El proyecto de ley de matrimonio
@@ -1392,79 +1450,36 @@ y reproductivos                                                         generale
 
 Derechos sexuales                                                         2. Marco normativo                                                           35
 
-
-## 18. Ley Nº 20.379. Aprueba reglamento del subsistema de protección
-
-                                                                                integral a la infancia “Chile crece contigo” (2009).
-
-## 19. Ley N° 20.418. Fija normas sobre información, orientación y
-
-                                                                                prestaciones en materia de regulación de la fertilidad (2010).
-
 ## 20. Ley N° 20.480. Modifica el Código Penal y la Ley Nº 20.066 sobre
 
-                                                                                violencia intrafamiliar, estableciendo el “femicidio”, aumentando
+**Definición Canónica:** violencia intrafamiliar, estableciendo el “femicidio”, aumentando
                                                                                 las penas aplicables a este delito y reforma las normas sobre
                                                                                 parricidio (2010).
 
-## 21. Ley Nº 20.545 Modifica las normas sobre protección a la mater-
-
-                                                                                nidad e incorpora el permiso postnatal parental (2011).
-
-
-## 22. Ley N° 20.584. Regula los derechos y deberes que tienen las
-
-                                                                                personas en relación con acciones vinculadas a su atención en
-                                                                                salud (2012).
-
-## 23. Ley N° 20.609. Establece medidas contra la discriminación, Ley
-
-                                                                                Zamudio (2012).
-                                                                            24. Ley N° 20.670. Crea el sistema “Elige vivir sano” (2013).
-
-## 25. Ley N° 20.820. Crea el Ministerio de la Mujer y la Equidad de
-
-                                                                                Género (2015).
-                                                                            26. Ley N°20.830. Crea el Acuerdo de Unión Civil (2015).
-
-## 27. Ley N° 20.987. Modifica la Ley N° 19.779. Establece normas re-
-
-                                                                                lativas al virus de inmunodeficiencia humana y crea bonificación
-                                                                                fiscal para enfermedades catastróficas (2017).
-
-## 28. Ley N° 21.030. Regula la despenalización de la interrupción
-
-                                                                                voluntaria del embarazo en tres causales (2017).
-
-## 29. Ley N° 21.096. Consagra el derecho a protección de los datos
-
-                                                                                personales. Modifica el art. 19 N° 4 de la Constitución (2018).
+violencia intrafamiliar, estableciendo el “femicidio”, aumentando
+                                                                                las penas aplicables a este delito y reforma las normas sobre
+                                                                                parricidio (2010).
 
 ## 30. Ley N° 21.120. Reconoce y da protección al derecho a la identidad
 
-                                                                                de género (2018)72.
+**Definición Canónica:** de género (2018)72.
+**Concordancias Legales:** artículo 3
+
+de género (2018)72.
 
                                         72   La Ley No 21.120 entró en vigencia el 27 de diciembre de 2019, de conformidad a lo establecido en su artículo
                                              3° transitorio.
 
 Derechos sexuales                                                      2. Marco normativo                                                     36
 
-
-## 31. Ley N° 21.129. Fuero maternal para Fuerzas Armadas, de Orden
-
-                                                                             y Seguridad Pública (2019).
-
-## 32. Ley N° 21.153. Modifica el Código Penal para tipificar el delito
-
-                                                                             de acoso sexual en espacios públicos (2019).
-
-## 33. Ley N° 21.155. Establece medidas de protección a la lactancia
-
-                                                                             materna y su ejercicio (2019).
-
 ## 34. Ley N° 21.197. Modifica la Ley Nº 19.712, Ley del Deporte, la
 
-                                                                             Ley Nº 20.019, que regula las sociedades anónimas deportivas
+**Definición Canónica:** Ley Nº 20.019, que regula las sociedades anónimas deportivas
+                                                                             profesionales, y la Ley Nº 20.686, que crea el Ministerio del
+                                                                             Deporte, para establecer el deber de contar con un protocolo
+**Concordancias Legales:** Ley Nº 20.019; Ley Nº 20.686; Ley N° 21.212; Ley N° 18.216; constitucion
+
+Ley Nº 20.019, que regula las sociedades anónimas deportivas
                                                                              profesionales, y la Ley Nº 20.686, que crea el Ministerio del
                                                                              Deporte, para establecer el deber de contar con un protocolo
 
@@ -1497,10 +1512,11 @@ y reproductivos                                                         generale
 
 Derechos sexuales                                                            2. Marco normativo                                                           37
 
-
 ## 2.2           Normativa
 
-                                                                               internacional
+**Definición Canónica:** internacional
+
+internacional
 
                                         En el plano                            En el plano internacional, Chile ha suscrito acuerdos generales y
                                         internacional, Chile                   específicos en temáticas de derechos sexuales y reproductivos, que
@@ -1510,7 +1526,12 @@ y reproductivos                                                         generale
 
 ## 1. Declaración Universal de Derechos Humanos (1948)
 
-                                        en temáticas de
+**Definición Canónica:** en temáticas de
+                                        derechos sexuales                      2. Convención Internacional sobre la Eliminación de Todas las
+                                                                                  Formas de Discriminación Racial (1965)
+                                        y reproductivos,
+
+en temáticas de
                                         derechos sexuales                      2. Convención Internacional sobre la Eliminación de Todas las
                                                                                   Formas de Discriminación Racial (1965)
                                         y reproductivos,
@@ -1528,38 +1549,23 @@ y reproductivos                                                         generale
                                                                                7. Convención contra la Tortura y Otros Tratos o Penas Crueles,
                                                                                   Inhumanos o Degradantes (1984) y su protocolo facultativo (2002)
 
-## 8. Convención de los Derechos del Niño (1989) y sus tres protocolos
-
-                                                                                  facultativos (2000)
-
-## 9. Convenio 169 de la Organización Internacional del Trabajo (1989)
-
-
-## 10. Convención Internacional sobre la Protección de los Derechos
-
-                                                                                   de Todos los Trabajadores Migratorios y de sus Familiares (1990)
-
-## 11. Convención Interamericana para Prevenir, Sancionar y Erradicar
-
-                                                                                   la Violencia contra la Mujer, Belém do Pará (1994)
-
 ## 12. Convención Interamericana para la Eliminación de Todas las
 
-                                                                                   Formas de Discriminación contra las Personas con Disca-
+**Definición Canónica:** Formas de Discriminación contra las Personas con Disca-
+                                                                                   pacidad (1999)
+
+Formas de Discriminación contra las Personas con Disca-
                                                                                    pacidad (1999)
 
                                            74   Listado confeccionado por los autores, extraído de la página web de la Biblioteca del Congreso Nacional.
 
 Derechos sexuales                                                         2. Marco normativo                                                          38
 
-
-## 13. Convención sobre los Derechos de las Personas con Discapacidad
-
-                                                                                (2006) y su protocolo facultativo (2006)
-
 ## 14. Convención Interamericana sobre la Protección de los Derechos
 
-                                                                                Humanos de las Personas Mayores (2015)
+**Definición Canónica:** Humanos de las Personas Mayores (2015)
+
+Humanos de las Personas Mayores (2015)
 
                                                                             Se destacan de manera complementaria los instrumentos interna-
                                                                             cionales mencionados, los protocolos, declaraciones o programas
@@ -1617,10 +1623,11 @@ y reproductivos                                                         generale
 Derechos sexuales                                                        3. Intereses tutelados mediante                                         41
 y reproductivos                                                              el reconocimiento de los derechos
 
-
 ## 3.1           Libertades y
 
-                                                                           autonomías
+**Definición Canónica:** autonomías
+
+autonomías
 
                                                                            La autonomía78, derecho esencial de las personas, es un eje funda-
                                                                            mental en la salud sexual y la salud reproductiva. Forma parte del
@@ -1658,7 +1665,9 @@ y reproductivos                                                              el 
 
 ## 79   Amnistía Internacional es un movimiento global que nace en 1961, fundado por el abogado británico Peter
 
-                                             Benenson.
+**Definición Canónica:** Benenson.
+
+Benenson.
 
 Derechos sexuales                       3. Intereses tutelados mediante                                        42
 
@@ -1694,10 +1703,16 @@ y reproductivos                                                              el 
                                           realidad estos derechos, y a veces sufren discriminación y violencia
                                           por la forma en que se expresan”.
 
-
 ## 3.1.1 Expresar libre y autónomamente
 
-                                          la orientación sexual
+**Definición Canónica:** la orientación sexual
+                                          El derecho a expresar libre y autónomamente la orientación sexual se
+                                          debe garantizar en todos los espacios e instituciones, sin que por ello
+                                          la persona quede expuesta a prejuicios, estigmas, discriminaciones
+                                          y/o exclusiones. En el sector salud, es clave para que la persona reciba
+                                          una mejor atención y los servicios cumplan con sus necesidades y
+
+la orientación sexual
                                           El derecho a expresar libre y autónomamente la orientación sexual se
                                           debe garantizar en todos los espacios e instituciones, sin que por ello
                                           la persona quede expuesta a prejuicios, estigmas, discriminaciones
@@ -1765,10 +1780,16 @@ y reproductivos                                                                 
                                                                                la comunidad homosexual ha sufrido discriminación y sus miembros
                                                                                han sido condenados a muerte, linchados, masacrados o perseguidos82.
 
-
 ## 3.1.2. Reconocimiento de la identidad de género
 
-                                                                               La Ley No 21.120, o Ley de Identidad de Género, entiende la identi-
+**Definición Canónica:** La Ley No 21.120, o Ley de Identidad de Género, entiende la identi-
+                                                                               dad de género como “la convicción personal e interna de ser hombre
+                                                                               o mujer, tal como la persona se percibe a sí misma. Eso puede o no
+                                                                               corresponder con el sexo y nombre que figura en el acta de inscripción
+                                                                               del nacimie
+**Concordancias Legales:** artículo 4
+
+La Ley No 21.120, o Ley de Identidad de Género, entiende la identi-
                                                                                dad de género como “la convicción personal e interna de ser hombre
                                                                                o mujer, tal como la persona se percibe a sí misma. Eso puede o no
                                                                                corresponder con el sexo y nombre que figura en el acta de inscripción
@@ -1811,7 +1832,14 @@ y reproductivos                                                               el
 
 ## parte, la normativa alemana de 1980 exigía que el peticionario no
 
-                                                                            estuviera casado y que fuera estéril87. Paulatinamente, la jurispruden-
+**Definición Canónica:** estuviera casado y que fuera estéril87. Paulatinamente, la jurispruden-
+                                                                            cia constitucional alemana fue declarando inconstitucionales estas
+                                                                            exigencias. Así, en el año 2009, a raíz de una sentencia del Tribunal
+                                                                            Constitucional de 2008, se dicta una ley que permite el cambio de
+                                                                            sexo sin necesidad de
+**Concordancias Legales:** constitucion
+
+estuviera casado y que fuera estéril87. Paulatinamente, la jurispruden-
                                                                             cia constitucional alemana fue declarando inconstitucionales estas
                                                                             exigencias. Así, en el año 2009, a raíz de una sentencia del Tribunal
                                                                             Constitucional de 2008, se dicta una ley que permite el cambio de
@@ -1821,10 +1849,16 @@ y reproductivos                                                               el
                                                                             alemán dicta una ley que permite indicar como “indeterminado” el
                                                                             sexo del nacido89.
 
-
 ## 85   En Chile, Corral opina lo contrario: “Los problemas del transexualismo no cabe enfocarlos con una óptica
 
-                                             centrada únicamente en el deseo subjetivo y en la situación aislada del tran-sexual (...). No parece que pue-
+**Definición Canónica:** centrada únicamente en el deseo subjetivo y en la situación aislada del tran-sexual (...). No parece que pue-
+                                             dan descuidarse, por ejemplo, los intereses del cónyuge o de los hijos de la persona que sustituye su sexo,
+                                             por el contrario. Tampoco puede ser ignorado o minusvalorado el interés de la comunidad en la preservación
+                                             de la diferenciación sexual procreativa en el matrimonio y la certeza jurídica en las relaciones conyugales y
+                              
+**Concordancias Legales:** artículo 1; artículo 3
+
+centrada únicamente en el deseo subjetivo y en la situación aislada del tran-sexual (...). No parece que pue-
                                              dan descuidarse, por ejemplo, los intereses del cónyuge o de los hijos de la persona que sustituye su sexo,
                                              por el contrario. Tampoco puede ser ignorado o minusvalorado el interés de la comunidad en la preservación
                                              de la diferenciación sexual procreativa en el matrimonio y la certeza jurídica en las relaciones conyugales y
@@ -1912,10 +1946,12 @@ y reproductivos                                                              el 
                                                                            y del reconocimiento de los derechos amparados en instrumentos
                                                                            internacionales ratificados por Chile, actualmente vigentes.
 
-
 ## 90   Para efectos de este material, no se mencionan causas tramitadas bajo la Ley No 21.120 por reserva en el
 
-                                             acceso de los antecedentes en sede de Tribunales de Familia.
+**Definición Canónica:** acceso de los antecedentes en sede de Tribunales de Familia.
+**Concordancias Legales:** artículo 19 de la Constitución Política de la República; Constitución Política
+
+acceso de los antecedentes en sede de Tribunales de Familia.
 
 Derechos sexuales                                                         3. Intereses tutelados mediante                                        48
 y reproductivos                                                               el reconocimiento de los derechos
@@ -1943,10 +1979,15 @@ y reproductivos                                                               el
                                                                             la personalidad -en este caso a la imagen, a la identidad, al nombre-
                                                                             como uno de los principios rectores de todo el sistema jurídico”91.
 
-
 ## 3.1.3 Autonomía para adoptar
 
-                                                                            decisiones sobre la sexualidad
+**Definición Canónica:** decisiones sobre la sexualidad
+                                                                            En su más reciente recapitulación respecto de la naturaleza92, com-
+                                                                            posición y efectos del principio del interés superior del niño, niña
+                                                                            y adolescente93, el Comité de Derechos del Niño de las Naciones
+                                                                            Unidas ha identificado la triple caracterización de este princip
+
+decisiones sobre la sexualidad
                                                                             En su más reciente recapitulación respecto de la naturaleza92, com-
                                                                             posición y efectos del principio del interés superior del niño, niña
                                                                             y adolescente93, el Comité de Derechos del Niño de las Naciones
@@ -1955,7 +1996,11 @@ y reproductivos                                                               el
 
 ## 1. Como un derecho sustantivo, del cual surge la obligación corre-
 
-                                                                               lativa del Estado de garantizar que el interés superior del NNA
+**Definición Canónica:** lativa del Estado de garantizar que el interés superior del NNA
+                                                                               se integre de manera adecuada y se aplique sistemáticamente en
+**Concordancias Legales:** Constitucion
+
+lativa del Estado de garantizar que el interés superior del NNA
                                                                                se integre de manera adecuada y se aplique sistemáticamente en
 
                                         91   Diario Constitucional, 2018.
@@ -1972,7 +2017,13 @@ y reproductivos                                                               el
 
 ## 2. Como un principio jurídico interpretativo del que se colige
 
-                                                                               la obligación de velar por que todas las decisiones judiciales y
+**Definición Canónica:** la obligación de velar por que todas las decisiones judiciales y
+                                                                               administrativas, las políticas y la legislación relacionadas con
+                                                                               los niños dejen patente que el interés superior de estos ha sido
+                                                                               una consideración primordial (lo que incluye explicar cómo se
+                                                                               ha examinado y evaluado el 
+
+la obligación de velar por que todas las decisiones judiciales y
                                                                                administrativas, las políticas y la legislación relacionadas con
                                                                                los niños dejen patente que el interés superior de estos ha sido
                                                                                una consideración primordial (lo que incluye explicar cómo se
@@ -1981,8 +2032,13 @@ y reproductivos                                                               el
 
 ## 3. Como una norma de procedimiento que genera la obligación de
 
+**Definición Canónica:** garantizar que el interés del NNA sea evaluado y que constituya
+                                                                               una consideración primordial en las decisiones y medidas adop-
+                                                                               tadas, inclusive por el sector privado, incluidos los proveedores
+                                                                               de servicios, o cualquier otra entidad o institución privadas que
+                                                                               tomen decisiones que conc
 
-                                                                               garantizar que el interés del NNA sea evaluado y que constituya
+garantizar que el interés del NNA sea evaluado y que constituya
                                                                                una consideración primordial en las decisiones y medidas adop-
                                                                                tadas, inclusive por el sector privado, incluidos los proveedores
                                                                                de servicios, o cualquier otra entidad o institución privadas que
@@ -2011,29 +2067,17 @@ y reproductivos                                                               el
 
 Derechos sexuales                       3. Intereses tutelados mediante                                       50
 
-
-## 1. Si tiene la capacidad de decidir de manera autónoma y con res-
-
-                                             ponsabilidad.
-
-## 2. Si se siente con la preparación necesaria para tener relaciones
-
-                                             sexuales y no está siendo objeto de presiones de parte de la pareja,
-                                             las amistades, la familia, etc., para iniciarse sexualmente.
-
-## 3. Si posee la información adecuada sobre las relaciones sexuales y
-
-                                             sus posibles consecuencias.
-
-## 4. Si conoce los medios de protección existentes, así como su forma
-
-                                             de uso, para evitar la transmisión de ITS/VIH y para prevenir un
-                                             embarazo no planeado.
-
-
 ## 5. Si ha hablado con su pareja sobre los riesgos de tener relaciones
 
-                                             sexuales, y si han decidido sobre las medidas de protección que
+**Definición Canónica:** sexuales, y si han decidido sobre las medidas de protección que
+                                             usarán.
+                                          6. Si ha comunicado a su pareja las experiencias sexuales previas,
+                                             especialmente las relaciones de riesgo. En caso de que uno o
+                                             ambos miembros de la pareja haya tenido experiencias sexuales
+                                             de alto riesgo, determinar si se han realizado los chequeos mé-
+                                             dicos a
+
+sexuales, y si han decidido sobre las medidas de protección que
                                              usarán.
                                           6. Si ha comunicado a su pareja las experiencias sexuales previas,
                                              especialmente las relaciones de riesgo. En caso de que uno o
@@ -2041,19 +2085,16 @@ y reproductivos                                                               el
                                              de alto riesgo, determinar si se han realizado los chequeos mé-
                                              dicos adecuados.
 
-## 7. Si ha conversado con su pareja sobre los temores, dudas o preo-
-
-                                             cupaciones y el deseo de tener relaciones.
-
-## 8. Si conoce la atención que puede obtener en los servicios públicos
-
-                                             para proteger la salud sexual y reproductiva y qué inconvenientes
-                                             tendría para acudir.
-
-
 ## 3.1.5 Elección de las y los compañeros sexuales
 
-                                          La sexualidad es principalmente la construcción social de un impulso
+**Definición Canónica:** La sexualidad es principalmente la construcción social de un impulso
+                                          biológico que es, además, multidimensional y dinámico; es decir, la
+                                          experiencia que una persona tenga de la sexualidad está mediada
+                                          por la biología, los roles de género y las relaciones de poder, como
+                                          también por factores tales como la edad y la condición social y
+                                          económica. Sin embargo, la influencia social más profund
+
+La sexualidad es principalmente la construcción social de un impulso
                                           biológico que es, además, multidimensional y dinámico; es decir, la
                                           experiencia que una persona tenga de la sexualidad está mediada
                                           por la biología, los roles de género y las relaciones de poder, como
@@ -2102,10 +2143,12 @@ y reproductivos                                                                 
                                         como tiempo de vida                    junto al bagaje socio-cultural, modelará la permanencia y continuidad
                                         tenga esa unión.                       que devenga.
 
-
 ## 98   Fabiana Porracin, licenciada, psicóloga y antropóloga egresada de la Universidad de Buenos Aires. Ha tra-
 
-                                                bajado en el Hospital Bernardino Rivadavia de la Ciudad de Buenos Aires, y en el Hospital Enrique Erril de la
+**Definición Canónica:** bajado en el Hospital Bernardino Rivadavia de la Ciudad de Buenos Aires, y en el Hospital Enrique Erril de la
+                                                localidad de Escobar, Provincia de Buenos Aires.
+
+bajado en el Hospital Bernardino Rivadavia de la Ciudad de Buenos Aires, y en el Hospital Enrique Erril de la
                                                 localidad de Escobar, Provincia de Buenos Aires.
 
 Derechos sexuales                       3. Intereses tutelados mediante                                        52
@@ -2137,10 +2180,18 @@ y reproductivos                                                                 
                                           mantenimiento/alejamiento de la unión requiere de un alineamiento
                                           de esta complejidad.
 
-
 ## 3.1.6 Decisión libre y responsable sobre el
 
-                                          hecho de convertirse en madre o padre
+**Definición Canónica:** hecho de convertirse en madre o padre
+                                          Este derecho puede ser consecuencia indirecta de la autonomía para
+                                          decidir con quién se desea tener relaciones sexuales, reforzando la
+                                          convicción libre y, sobre todo, responsable del ser humano de con-
+                                          vertirse en padre o madre. Si bien está relacionado con la autonomía
+                                          reproductiva, es necesario distinguir que no es lo mismo decidir te-
+            
+**Concordancias Legales:** artículo 19; artículo 16; constitucion; Constitución
+
+hecho de convertirse en madre o padre
                                           Este derecho puede ser consecuencia indirecta de la autonomía para
                                           decidir con quién se desea tener relaciones sexuales, reforzando la
                                           convicción libre y, sobre todo, responsable del ser humano de con-
@@ -2190,10 +2241,12 @@ y reproductivos                                                                e
                                                                              hijos; en todos los casos, los intereses de los hijos serán la conside-
                                                                              ración primordial. (…)
 
-
 ## 99   En el caso de la Constitución de España (artículo 18), se incluye de manera expresa el reconocimiento al
 
-                                               derecho a la intimidad, el honor y la propia imagen.
+**Definición Canónica:** derecho a la intimidad, el honor y la propia imagen.
+**Concordancias Legales:** artículo 183 del Código Civil; Artículo 183; Artículo 182
+
+derecho a la intimidad, el honor y la propia imagen.
 
 Derechos sexuales                       3. Intereses tutelados mediante                                       54
 
@@ -2274,8 +2327,11 @@ y reproductivos                                                        el recono
 
 ## 101 rojas pascual (2015)
 
+**Definición Canónica:** Derechos sexuales                                                             3. Intereses tutelados mediante                                              56
+y reproductivos                                                                   el reconocimiento de los derechos
+**Concordancias Legales:** Artículo 1; artículo 179 del Código Civil señala; Ley N° 19.620; DFL. Nº01
 
-Derechos sexuales                                                             3. Intereses tutelados mediante                                              56
+Derechos sexuales                                                             3. Intereses tutelados mediante                                              56
 y reproductivos                                                                   el reconocimiento de los derechos
 
                                         Actualmente en                          La Ley de Adopción en Chile (Ley N° 19.620) permite no sólo ad-
@@ -2339,7 +2395,14 @@ y reproductivos                                                                e
 
 ## 2. Alta complejidad: existen dos técnicas para producir embriones
 
-                                                                                fuera del cuerpo de la madre.
+**Definición Canónica:** fuera del cuerpo de la madre.
+                                                                             ——       Fertilización in vitro (FIV): fertilización del óvulo por el esper-
+                                                                                      matozoide en un medio artificial, pero producido naturalmente
+                                                                                      a través de la incubación de los espermatozoides con el óvulo.
+                                                                             ——       Inyección intracitoplasmática de 
+**Concordancias Legales:** artículo 5; artículo 224 del Código Civil; Artículo 224; artículo 2.320
+
+fuera del cuerpo de la madre.
                                                                              ——       Fertilización in vitro (FIV): fertilización del óvulo por el esper-
                                                                                       matozoide en un medio artificial, pero producido naturalmente
                                                                                       a través de la incubación de los espermatozoides con el óvulo.
@@ -2437,10 +2500,17 @@ y reproductivos                                                      el reconoci
 Derechos sexuales                                                    3. Intereses tutelados mediante                                      60
 y reproductivos                                                          el reconocimiento de los derechos
 
-
 ## 3.1.7 Decisión libre y responsable sobre el número
 
-                                                                       de hijos y el intervalo entre ellos, además de
+**Definición Canónica:** de hijos y el intervalo entre ellos, además de
+                                                                       contar con información, educación y medios
+                                                                       para lograrlo (autonomía reproductiva)
+                                                                       La decisión libre y responsable sobre el número de hijos e intervalos
+                                                                       entre ellos se enmarca en el derecho a la autonomía sexual de cada
+                                                  
+**Concordancias Legales:** artículo 16
+
+de hijos y el intervalo entre ellos, además de
                                                                        contar con información, educación y medios
                                                                        para lograrlo (autonomía reproductiva)
                                                                        La decisión libre y responsable sobre el número de hijos e intervalos
@@ -2482,7 +2552,14 @@ y reproductivos                                                        el recono
 
 ## 1. Los Estados Partes adoptarán todas las medidas adecuadas para
 
-                                                                     eliminar la discriminación contra la mujer en todos los asuntos rela-
+**Definición Canónica:** eliminar la discriminación contra la mujer en todos los asuntos rela-
+                                                                     cionados con el matrimonio y las relaciones familiares y, en particular,
+                                                                     asegurarán en condiciones de igualdad entre hombres y mujeres:
+                                                                     e) Los mismos derechos a decidir libre y responsablemente el número
+                                                                     de sus hijos y el intervalo entre los nacimientos 
+**Concordancias Legales:** artículo 16
+
+eliminar la discriminación contra la mujer en todos los asuntos rela-
                                                                      cionados con el matrimonio y las relaciones familiares y, en particular,
                                                                      asegurarán en condiciones de igualdad entre hombres y mujeres:
                                                                      e) Los mismos derechos a decidir libre y responsablemente el número
@@ -2536,8 +2613,13 @@ y reproductivos                                                               el
 
 ## 21. Las obligaciones de la mujer de tener hijos y criarlos afectan a
 
+**Definición Canónica:** su derecho a la educación, al empleo y a otras actividades referentes
+                                                                            a su desarrollo personal, además de imponerle una carga de trabajo
+                                                                            injusta. El número y espaciamiento de los hijos repercuten de forma
+                                                                            análoga en su vida y también afectan su salud física y mental, así como
+                                                                            la de sus hijos. Po
 
-                                                                            su derecho a la educación, al empleo y a otras actividades referentes
+su derecho a la educación, al empleo y a otras actividades referentes
                                                                             a su desarrollo personal, además de imponerle una carga de trabajo
                                                                             injusta. El número y espaciamiento de los hijos repercuten de forma
                                                                             análoga en su vida y también afectan su salud física y mental, así como
@@ -2546,7 +2628,14 @@ y reproductivos                                                               el
 
 ## 22. En algunos informes se revelan prácticas coercitivas que tienen
 
-                                                                            graves consecuencias para la mujer, como el embarazo, el aborto o
+**Definición Canónica:** graves consecuencias para la mujer, como el embarazo, el aborto o
+                                                                            la esterilización forzados110. La decisión de tener hijos, si bien de
+                                                                            preferencia debe adoptarse en consulta con el cónyuge o el compa-
+                                                                            ñero, no debe, sin embargo, estar limitada por el cónyuge, el padre,
+                                                                            el compañero o el gobiern
+**Concordancias Legales:** artículo 10 de la Convención
+
+graves consecuencias para la mujer, como el embarazo, el aborto o
                                                                             la esterilización forzados110. La decisión de tener hijos, si bien de
                                                                             preferencia debe adoptarse en consulta con el cónyuge o el compa-
                                                                             ñero, no debe, sin embargo, estar limitada por el cónyuge, el padre,
@@ -2563,7 +2652,14 @@ y reproductivos                                                               el
 
 ## 108   El comité también formula recomendaciones sobre cualquier cuestión que afecte a las mujeres, a la que
 
-                                              considere que los Estados Partes deberían dedicar más atención.
+**Definición Canónica:** considere que los Estados Partes deberían dedicar más atención.
+                                        109   CEDAW (1994), párrafos 21 a 23.
+                                        110   En materia de esterilizaciones forzosas se destacan los siguientes fallos internacionales:
+                                              Caso María Mamérita Mestanza Chávez vs. Perú, de 3 de octubre de 2000. Comisión Interamericana de De-
+                                              rechos Humanos.
+                                              Caso Paulina del Carmen Ramírez Jacinto vs. México, de 8 de marzo
+
+considere que los Estados Partes deberían dedicar más atención.
                                         109   CEDAW (1994), párrafos 21 a 23.
                                         110   En materia de esterilizaciones forzosas se destacan los siguientes fallos internacionales:
                                               Caso María Mamérita Mestanza Chávez vs. Perú, de 3 de octubre de 2000. Comisión Interamericana de De-
@@ -2574,10 +2670,16 @@ y reproductivos                                                               el
 Derechos sexuales                                                            3. Intereses tutelados mediante                                         63
 y reproductivos                                                                  el reconocimiento de los derechos
 
-
 ## 23. Hay amplio acuerdo en que cuando se dispone libremente de
 
-                                                                               medidas apropiadas para la regulación voluntaria de la fecundidad,
+**Definición Canónica:** medidas apropiadas para la regulación voluntaria de la fecundidad,
+                                                                               mejoran la salud, el desarrollo y el bienestar de todas las personas de
+                                                                               la familia. Además, estos servicios mejoran la calidad general de la vida
+                                                                               y la salud de la población, y la regulación voluntaria del crecimiento
+                                                                               
+**Concordancias Legales:** artículo 3; artículo 7; artículo 16
+
+medidas apropiadas para la regulación voluntaria de la fecundidad,
                                                                                mejoran la salud, el desarrollo y el bienestar de todas las personas de
                                                                                la familia. Además, estos servicios mejoran la calidad general de la vida
                                                                                y la salud de la población, y la regulación voluntaria del crecimiento
@@ -2671,7 +2773,10 @@ y reproductivos                                                                e
 
 ## parte, más de la mitad de las mujeres de 30 a 34 años (el 52%) no
 
-                                                                             ha tenido aún hijos. El porcentaje de mujeres que aún no ha sido
+**Definición Canónica:** ha tenido aún hijos. El porcentaje de mujeres que aún no ha sido
+**Concordancias Legales:** constitucion
+
+ha tenido aún hijos. El porcentaje de mujeres que aún no ha sido
 
                                                                              madre se reduce al 27,8% en las que tienen de 35 a 39 años y al 19%
                                                                              en las de 40 años y más”116.
@@ -2686,10 +2791,15 @@ y reproductivos                                                                e
                                                                              una tendencia a reconocer que la noción de derechos reproductivos
                                                                              incluye la reproducción asistida”117.
 
-
 ## 3.1.8 Tener relaciones sexuales consensuadas
 
-                                                                             El consentimiento sexual es un acuerdo para participar en una
+**Definición Canónica:** El consentimiento sexual es un acuerdo para participar en una
+                                                                             actividad sexual. Antes de mantener relaciones sexuales con otra
+                                                                             persona, debes saber si esta persona está de acuerdo. Es importante
+                                                                             destacar como eje central la honestidad con la pareja sobre lo que
+                                                                             se desea hacer y lo que no.
+
+El consentimiento sexual es un acuerdo para participar en una
                                                                              actividad sexual. Antes de mantener relaciones sexuales con otra
                                                                              persona, debes saber si esta persona está de acuerdo. Es importante
                                                                              destacar como eje central la honestidad con la pareja sobre lo que
@@ -2715,15 +2825,25 @@ y reproductivos                                                            el re
 
 ## 1. Claro. El consentimiento es activo. Se expresa mediante palabras
 
+**Definición Canónica:** o acciones que crean una autorización mutuamente comprensible.
+                                                                            No es implícito, la ausencia de un “no” no es un “sí”. Decir “no
+                                                                            estoy segura/o”, “no sé”, “quizás” o frases similares NO significa
+                                                                            dar consentimiento118.
 
-                                                                            o acciones que crean una autorización mutuamente comprensible.
+o acciones que crean una autorización mutuamente comprensible.
                                                                             No es implícito, la ausencia de un “no” no es un “sí”. Decir “no
                                                                             estoy segura/o”, “no sé”, “quizás” o frases similares NO significa
                                                                             dar consentimiento118.
 
 ## 2. Coherente. La gente incapacitada por las drogas o el alcohol
 
-                                                                            NO pueden dar su consentimiento. Alguien que no puede tomar
+**Definición Canónica:** NO pueden dar su consentimiento. Alguien que no puede tomar
+                                                                            decisiones racionales y razonables debido a que no tiene la ca-
+                                                                            pacidad para entender el “quién, qué, cuándo, dónde, por qué y
+                                                                            cómo” de la situación, no puede dar su consentimiento. La gente
+                                                                            que está dormida, inconsciente o en cualquier
+
+NO pueden dar su consentimiento. Alguien que no puede tomar
                                                                             decisiones racionales y razonables debido a que no tiene la ca-
                                                                             pacidad para entender el “quién, qué, cuándo, dónde, por qué y
                                                                             cómo” de la situación, no puede dar su consentimiento. La gente
@@ -2732,7 +2852,13 @@ y reproductivos                                                            el re
 
 ## 3. Voluntario. El consentimiento jamás se otorga bajo presión. No
 
-                                                                            puede obtenerse bajo manipulación psicológica o emocional;
+**Definición Canónica:** puede obtenerse bajo manipulación psicológica o emocional;
+                                                                            tampoco mediante violencia física o amenaza. Está basado en una
+                                                                            equidad de poderes, alguien menor de edad, inconsciente, en una
+                                                                            posición de subordinación o cualquier otra que sea vulnerable,
+                                                                            no puede otorgar consentimiento120.
+
+puede obtenerse bajo manipulación psicológica o emocional;
                                                                             tampoco mediante violencia física o amenaza. Está basado en una
                                                                             equidad de poderes, alguien menor de edad, inconsciente, en una
                                                                             posición de subordinación o cualquier otra que sea vulnerable,
@@ -2745,10 +2871,13 @@ y reproductivos                                                            el re
 Derechos sexuales                                                    3. Intereses tutelados mediante                                      67
 y reproductivos                                                          el reconocimiento de los derechos
 
-
 ## 4. Continuo. El consentimiento debe ser otorgado en todo mo-
 
-                                                                          mento, debe obtenerse a cada paso de intimidad física. Si alguien
+**Definición Canónica:** mento, debe obtenerse a cada paso de intimidad física. Si alguien
+                                                                          consiente a una actividad sexual, puede que ella o él no quiera ir
+                                                                          más allá. Consentir en una cosa no significa consentir en todo”121.
+
+mento, debe obtenerse a cada paso de intimidad física. Si alguien
                                                                           consiente a una actividad sexual, puede que ella o él no quiera ir
                                                                           más allá. Consentir en una cosa no significa consentir en todo”121.
 
@@ -2773,7 +2902,14 @@ y reproductivos                                                          el reco
 
 ## parte de adultos mayores a cambio de bienes y favores, por lo que los
 
-                                                                       y las adolescentes de ambientes sociales desfavorables se ven espe-
+**Definición Canónica:** y las adolescentes de ambientes sociales desfavorables se ven espe-
+                                                                       cialmente en riesgo. De esta forma podemos encontrar situaciones
+                                                                       en que, a cambio de favores sexuales, se entregue una determinada
+                                                                       suma de dinero, que dependiendo del contexto y vulnerabilidad de
+                                                                       la persona pueda cubrir necesidades que, desde la de
+**Concordancias Legales:** artículos 352; artículos 76
+
+y las adolescentes de ambientes sociales desfavorables se ven espe-
                                                                        cialmente en riesgo. De esta forma podemos encontrar situaciones
                                                                        en que, a cambio de favores sexuales, se entregue una determinada
                                                                        suma de dinero, que dependiendo del contexto y vulnerabilidad de
@@ -2917,8 +3053,10 @@ y reproductivos                                                                e
 
 ## 129   Sexual Offence Act Barbados (2002), sec. 9
 
+**Definición Canónica:** Derechos sexuales                                                           3. Intereses tutelados mediante                                       71
+y reproductivos                                                                 el reconocimiento de los derechos
 
-Derechos sexuales                                                           3. Intereses tutelados mediante                                       71
+Derechos sexuales                                                           3. Intereses tutelados mediante                                       71
 y reproductivos                                                                 el reconocimiento de los derechos
 
                                                                               está ausente, o se vulnera, cuando se fuerza una práctica sexual; la
@@ -2926,15 +3064,24 @@ y reproductivos                                                                 
 
 ## parte del lenguaje cotidiano para reivindicar posturas en tensión: las
 
-                                                                              mujeres deciden cubrir su cuerpo o mostrarlo; eligen quedarse con
+**Definición Canónica:** mujeres deciden cubrir su cuerpo o mostrarlo; eligen quedarse con
                                                                               su pareja golpeadora o dejar una relación violenta; escogen con quién
                                                                               tener relaciones sexuales, cuándo y cómo o mantenerse vírgenes
                                                                               hasta el matrimonio130.
 
+mujeres deciden cubrir su cuerpo o mostrarlo; eligen quedarse con
+                                                                              su pareja golpeadora o dejar una relación violenta; escogen con quién
+                                                                              tener relaciones sexuales, cuándo y cómo o mantenerse vírgenes
+                                                                              hasta el matrimonio130.
 
 ## 3.1.9 Pleno respeto por la integridad física
 
-                                                                              del cuerpo y sus expresiones sexuales
+**Definición Canónica:** del cuerpo y sus expresiones sexuales
+                                                                              Dentro de los derechos básicos de la persona, se encuentran el
+                                                                              derecho a mantener su integridad física y moral. En cuanto a la
+**Concordancias Legales:** Constitucion; Constitución
+
+del cuerpo y sus expresiones sexuales
                                                                               Dentro de los derechos básicos de la persona, se encuentran el
                                                                               derecho a mantener su integridad física y moral. En cuanto a la
 
@@ -2995,7 +3142,14 @@ y reproductivos                                                               el
 
 ## parte de nuestra identidad y privacidad, que debe respetarse por igual
 
-                                                                            en los espacios escolares, familiares, sociales, digitales, laborales y
+**Definición Canónica:** en los espacios escolares, familiares, sociales, digitales, laborales y
+                                                                            los servicios de salud, entre otros. El Estado tiene la obligación de
+                                                                            resguardar la información personal de forma confidencial, por lo que,
+                                                                            en el ámbito escolar, de salud, digital y laboral debe estar protegida y
+                                                                            cualquier p
+**Concordancias Legales:** Artículo 5; artículo 1; artículo 19
+
+en los espacios escolares, familiares, sociales, digitales, laborales y
                                                                             los servicios de salud, entre otros. El Estado tiene la obligación de
                                                                             resguardar la información personal de forma confidencial, por lo que,
                                                                             en el ámbito escolar, de salud, digital y laboral debe estar protegida y
@@ -3118,17 +3272,16 @@ y reproductivos                                                                e
                                         protegidos contra toda               sobre los Derechos del Niño, de 1989, (art. 19 y art. 34) y la Carta de
                                         forma de violencia.                  los Derechos Fundamentales de la Unión Europea, de 2000 (art. 24).
 
-
-## 138   Las traducciones de la convención a otros idiomas no incluyen necesariamente un equivalente exacto del
-
-                                                término inglés “violence”.
-
-Derechos sexuales                       3. Intereses tutelados mediante                                           76
-
-
 ## 3.1.11 Tomar decisiones relativas a la
 
-                                          reproducción libres de coerción y violencia
+**Definición Canónica:** reproducción libres de coerción y violencia
+                                          Este derecho se encuentra estrictamente relacionado con el derecho
+                                          a la vida, la integridad física y psíquica, la dignidad y a la intimidad de
+                                          la persona, teniendo el derecho a decidir libremente sobre su vida
+                                          sexual y reproductiva, sin interferencia de fuerza, violencia o amenaza.
+**Concordancias Legales:** Artículo 2; Artículo 390; Ley Nº 20.480; Ley N° 20.480; Ley Nº 20.066; Ley N° 21.212; Ley N° 18.216
+
+reproducción libres de coerción y violencia
                                           Este derecho se encuentra estrictamente relacionado con el derecho
                                           a la vida, la integridad física y psíquica, la dignidad y a la intimidad de
                                           la persona, teniendo el derecho a decidir libremente sobre su vida
@@ -3233,7 +3386,14 @@ y reproductivos                                                                 
 
 ## 3.1.12 Elección libre del tipo de familia
 
-                                        de familia. Podemos                    que se quiere constituir
+**Definición Canónica:** de familia. Podemos                    que se quiere constituir
+                                        vincular este derecho                  ​En Chile no existe normativa que defina el concepto de familia.
+                                        a la elección libre del                Podemos vincular este derecho a la elección libre del tipo de familia,
+                                        tipo de familia, con                   con el ya desarrollado derecho a la intimidad. Constitucionalmente
+                                                                               hablando, tampoco
+**Concordancias Legales:** artículo 1; artículo 19; artículo 23 del Pacto Internacional de Derechos Civiles y Pol; Ley N° 19.947; Constitucion; Constitución
+
+de familia. Podemos                    que se quiere constituir
                                         vincular este derecho                  ​En Chile no existe normativa que defina el concepto de familia.
                                         a la elección libre del                Podemos vincular este derecho a la elección libre del tipo de familia,
                                         tipo de familia, con                   con el ya desarrollado derecho a la intimidad. Constitucionalmente
@@ -3311,22 +3471,16 @@ y reproductivos                                                                 
                                                                               cos consagra, en sus cuatro numerales, la familia bajo los siguientes
                                                                               términos:
 
-
-## 1. La familia es el elemento natural y fundamental de la sociedad y
-
-                                                                                 tiene derecho a la protección de la sociedad y del Estado.
-
-## 2. Se reconoce el derecho del hombre y de la mujer a contraer
-
-                                                                                 matrimonio y a fundar una familia si tienen edad para ello.
-
-## 3. El matrimonio no podrá celebrarse sin el libre y pleno consen-
-
-                                                                                 timiento de los contrayentes.
-
 ## 4. Los Estados Partes en el presente pacto tomarán las medidas
 
-                                                                                 apropiadas para asegurar la igualdad de derechos y de responsa-
+**Definición Canónica:** apropiadas para asegurar la igualdad de derechos y de responsa-
+                                                                                 bilidades de ambos esposos en cuanto al matrimonio, durante
+                                                                                 el matrimonio y en caso de disolución del mismo. En caso de
+                                                                                 disolución, se adoptarán disposiciones que aseguren la protección
+                                                                                 necesaria a los hijos.
+**Concordancias Legales:** artículo 17
+
+apropiadas para asegurar la igualdad de derechos y de responsa-
                                                                                  bilidades de ambos esposos en cuanto al matrimonio, durante
                                                                                  el matrimonio y en caso de disolución del mismo. En caso de
                                                                                  disolución, se adoptarán disposiciones que aseguren la protección
@@ -3339,36 +3493,46 @@ y reproductivos                                                                 
 
 ## 1. La familia es el elemento natural y fundamental de la sociedad y
 
-                                                                              debe ser protegida por la sociedad y el Estado.
+**Definición Canónica:** debe ser protegida por la sociedad y el Estado.
+**Concordancias Legales:** Constitucion
+
+debe ser protegida por la sociedad y el Estado.
 
                                         145   Tribunal Constitucional Chile, rol 2435, considerandos 5o y 6o.
 
 Derechos sexuales                                                3. Intereses tutelados mediante                                          81
 y reproductivos                                                      el reconocimiento de los derechos
 
-
 ## 2. Se reconoce el derecho del hombre y la mujer a contraer matrimo-
 
-                                                                   nio y a fundar una familia si tienen la edad y las condiciones requeridas
+**Definición Canónica:** nio y a fundar una familia si tienen la edad y las condiciones requeridas
                                                                    para ello por las leyes internas, en la medida en que éstas no afecten
                                                                    al principio de no discriminación establecido en esta Convención.
 
-## 3. El matrimonio no puede celebrarse sin el libre y pleno consenti-
-
-                                                                   miento de los contrayentes.
+nio y a fundar una familia si tienen la edad y las condiciones requeridas
+                                                                   para ello por las leyes internas, en la medida en que éstas no afecten
+                                                                   al principio de no discriminación establecido en esta Convención.
 
 ## 4. Los Estados Partes deben tomar medidas apropiadas para asegurar
 
-                                                                   la igualdad de derechos y la adecuada equivalencia de responsabili-
+**Definición Canónica:** la igualdad de derechos y la adecuada equivalencia de responsabili-
                                                                    dades de los cónyuges en cuanto al matrimonio, durante el matri-
                                                                    monio y en caso de disolución del mismo. En caso de disolución, se
                                                                    adoptarán disposiciones que aseguren la protección necesaria de los
                                                                    hijos, sobre la base única del interés y conveniencia de ellos.
 
+la igualdad de derechos y la adecuada equivalencia de responsabili-
+                                                                   dades de los cónyuges en cuanto al matrimonio, durante el matri-
+                                                                   monio y en caso de disolución del mismo. En caso de disolución, se
+                                                                   adoptarán disposiciones que aseguren la protección necesaria de los
+                                                                   hijos, sobre la base única del interés y conveniencia de ellos.
 
 ## 5. La ley debe reconocer iguales derechos tanto a los hijos nacidos
 
-                                                                   fuera de matrimonio como a los nacidos dentro del mismo”.
+**Definición Canónica:** fuera de matrimonio como a los nacidos dentro del mismo”.
+**Concordancias Legales:** artículo 1; artículo 5; artículo 23; Ley N° 20.066
+
+fuera de matrimonio como a los nacidos dentro del mismo”.
 
                                         Sin embargo,               Sin embargo, actualmente este concepto de familia vinculado sola-
                                         actualmente este           mente a la unión matrimonial queda obsoleto, toda vez que existen
@@ -3468,7 +3632,14 @@ y reproductivos                                                              el 
 
 ## 177. Sin perjuicio de su importancia trascendental, la Corte también
 
-                                                                           hace notar que la existencia de la familia no ha estado al margen
+**Definición Canónica:** hace notar que la existencia de la familia no ha estado al margen
+                                                                           del desarrollo de las sociedades. Su conceptualización ha variado y
+                                                                           evolucionado conforme al cambio de los tiempos. Por ejemplo, has-
+                                                                           ta hace algunas décadas, todavía se consideraba legítimo distinguir
+                                                                           entre hijos nacidos dentro o fue
+**Concordancias Legales:** Artículo 2; artículo 3; Ley N°18.611; Ley Nº 18.020; Ley N° 18.020
+
+hace notar que la existencia de la familia no ha estado al margen
                                                                            del desarrollo de las sociedades. Su conceptualización ha variado y
                                                                            evolucionado conforme al cambio de los tiempos. Por ejemplo, has-
                                                                            ta hace algunas décadas, todavía se consideraba legítimo distinguir
@@ -3555,10 +3726,14 @@ y reproductivos                                                                e
                                                                              Nº 21151, sobre la igualdad en el matrimonio y en las relaciones fa-
                                                                              miliares, señaló en su párrafo 20:
 
-
 ## 150   El comité también formula recomendaciones sobre cualquier cuestión que afecte a las mujeres, a la que
 
-                                              considere que los Estados Partes deberían dedicar más atención.
+**Definición Canónica:** considere que los Estados Partes deberían dedicar más atención.
+                                        151   Sobre la igualdad en el matrimonio y en las relaciones familiares. 13º período de sesiones (04-02-1994). Pá-
+                                              rrafo 21-23. Subrayado no es parte del texto original.
+**Concordancias Legales:** artículo 402153 del Código Civil y de Comercio; artículos 102155; artículo 1; artículo 20 de la Ley de Matrimonio Civil; Artículo 102 del Código Civil. El matrimonio como tal está def; artículo 102 del Código Civil que reza; artículo 42 del Código Civil. Su celebración conferirá el est; artículo 26; Ley Nº 19.947; Ley N° 20.830; constitucion
+
+considere que los Estados Partes deberían dedicar más atención.
                                         151   Sobre la igualdad en el matrimonio y en las relaciones familiares. 13º período de sesiones (04-02-1994). Pá-
                                               rrafo 21-23. Subrayado no es parte del texto original.
 
@@ -3721,10 +3896,12 @@ y reproductivos                                                                 
 Derechos sexuales                             3. Intereses tutelados mediante                                         90
 y reproductivos                                   el reconocimiento de los derechos
 
-
 ## 3.2     Igualdad y no
 
-                                                discriminación
+**Definición Canónica:** discriminación
+**Concordancias Legales:** Artículo 2; Artículo 26; Artículo 3; Artículo 1; Constitucion
+
+discriminación
 
                                                 En el ámbito internacional, este derecho de igualdad y no discrimi-
                                                 nación se encuentra consagrado en el:
@@ -3767,7 +3944,12 @@ y reproductivos                                                                 
 
 ## 1. La igualdad ante la ley e igual protección de la ley en el ejercicio
 
-                                                                                    de los derechos. Prohibición de toda forma de discriminación
+**Definición Canónica:** de los derechos. Prohibición de toda forma de discriminación
+                                        La discriminación                           arbitraria. Hombres y mujeres son iguales ante la ley (art. 19 N°
+                                        es toda distinción,                         2 y 3).
+**Concordancias Legales:** artículo 19
+
+de los derechos. Prohibición de toda forma de discriminación
                                         La discriminación                           arbitraria. Hombres y mujeres son iguales ante la ley (art. 19 N°
                                         es toda distinción,                         2 y 3).
 
@@ -3820,15 +4002,24 @@ y reproductivos                                                                 
                                                                               “sexo”161, y en las cláusulas abiertas de discriminación, como aquellas
                                                                               que se manifiestan por “cualquier otra condición social”162.
 
-
 ## 160 La CIDH entiende que esta discriminación puede manifestarse de manera directa (intencional o “por objeto”)
 
-                                            e indirecta (involuntaria o “por resultado”), y que puede ser de facto –cuando se manifiesta de hecho o en la
+**Definición Canónica:** e indirecta (involuntaria o “por resultado”), y que puede ser de facto –cuando se manifiesta de hecho o en la
+                                            práctica– o de jure –cuando se origina en la ley o norma.
+
+e indirecta (involuntaria o “por resultado”), y que puede ser de facto –cuando se manifiesta de hecho o en la
                                             práctica– o de jure –cuando se origina en la ley o norma.
 
 ## 161 La discriminación por sexo ha sido entendida dentro el Sistema Universal de Protección de los Derechos
 
-                                            Humanos como aquella que, además de incluir los rasgos biológicos-fisiológicos, incluye situaciones de
+**Definición Canónica:** Humanos como aquella que, además de incluir los rasgos biológicos-fisiológicos, incluye situaciones de
+                                            discriminación por razones de género, orientación sexual, identidad de género y expresión de género. En el
+                                            Caso Toonen vs. Australia de abril de 1994, el comité de Derechos Civiles y Políticos de las Naciones Unidas
+                                            afirma que “el Estado parte ha solicitado la guía del Comité para aclarar si la orientación sexual puede ser
+                                        
+**Concordancias Legales:** artículo 26; artículo 2.1 del Pacto. El comité se limitará a señalar; artículos 2.1; artículo 1.1 de la Convención Americana. El artículo 1.1 de la C; artículo 2.2 del Pacto; artículo 14 del Convenio Europeo de Derechos Humanos. El artí; artículo 1.1 de la Convención Americana de Derechos Humanos; artículo 1.1 de la Convención Americana; artículo 29; artículo 24; artículo 1.1; artículo 11; artículo 2; artículo 17; artículo 3; Ley N° 20.309; Constitución
+
+Humanos como aquella que, además de incluir los rasgos biológicos-fisiológicos, incluye situaciones de
                                             discriminación por razones de género, orientación sexual, identidad de género y expresión de género. En el
                                             Caso Toonen vs. Australia de abril de 1994, el comité de Derechos Civiles y Políticos de las Naciones Unidas
                                             afirma que “el Estado parte ha solicitado la guía del Comité para aclarar si la orientación sexual puede ser
@@ -4013,10 +4204,14 @@ y reproductivos                                                              el 
                                                                            ante el juez de letras de su domicilio o ante el del domicilio del
                                                                            responsable de dicha acción u omisión” 170.
 
-
 ## 3.2.2 Derecho a no sufrir discriminaciones o tratos
 
-                                                                           desiguales en el estudio, trabajo y dentro de la
+**Definición Canónica:** desiguales en el estudio, trabajo y dentro de la
+                                                                           familia debido al embarazo o maternidad
+                                                                           La Convención sobre la Eliminación de Todas las Formas de Discri-
+**Concordancias Legales:** artículos 1; Artículo 2; constitucion
+
+desiguales en el estudio, trabajo y dentro de la
                                                                            familia debido al embarazo o maternidad
                                                                            La Convención sobre la Eliminación de Todas las Formas de Discri-
 
@@ -4041,10 +4236,12 @@ y reproductivos                                                              el 
                                                                            del hombre y de la mujer y asegurar por ley u otros medios apropiados
                                                                            la realización práctica de ese principio;
 
-
 ## 170   En esta materia, revisar causas: Rol C-20750-2012 del 22º Juzgado de Letras de Santiago; Rol C-41-2013
 
-                                              del Juzgado de Letras de Constitución; Rol 6332-2013 del 1er Juzgado de Letras de Antofagasta.
+**Definición Canónica:** del Juzgado de Letras de Constitución; Rol 6332-2013 del 1er Juzgado de Letras de Antofagasta.
+**Concordancias Legales:** Artículo 4; Constitución
+
+del Juzgado de Letras de Constitución; Rol 6332-2013 del 1er Juzgado de Letras de Antofagasta.
 
 Derechos sexuales                       3. Intereses tutelados mediante                                       97
 
@@ -4073,7 +4270,14 @@ y reproductivos                                                              el 
 
 ## 1. La adopción por los Estados Partes de medidas especiales de
 
-                                          carácter temporal encaminadas a acelerar la igualdad de facto entre
+**Definición Canónica:** carácter temporal encaminadas a acelerar la igualdad de facto entre
+                                          el hombre y la mujer no se considerará discriminación en la forma
+                                          definida en la presente Convención, pero de ningún modo entra-
+                                          ñará, como consecuencia, el mantenimiento de normas desiguales
+                                          o separadas; estas medidas cesarán cuando se hayan alcanzado los
+                                          objetivos de igualdad de oportunidad y trato.
+
+carácter temporal encaminadas a acelerar la igualdad de facto entre
                                           el hombre y la mujer no se considerará discriminación en la forma
                                           definida en la presente Convención, pero de ningún modo entra-
                                           ñará, como consecuencia, el mantenimiento de normas desiguales
@@ -4082,14 +4286,22 @@ y reproductivos                                                              el 
 
 ## 2. La adopción por los Estados Partes de medidas especiales, incluso
 
-                                          las contenidas en la presente Convención, encaminadas a proteger
+**Definición Canónica:** las contenidas en la presente Convención, encaminadas a proteger
+                                          la maternidad no se considerará discriminatoria”.
+**Concordancias Legales:** Artículo 11
+
+las contenidas en la presente Convención, encaminadas a proteger
                                           la maternidad no se considerará discriminatoria”.
 
                                           “Artículo 11.
 
 ## 1. Los Estados Partes adoptarán todas las medidas apropiadas para
 
-                                          eliminar la discriminación contra la mujer en la esfera del empleo a
+**Definición Canónica:** eliminar la discriminación contra la mujer en la esfera del empleo a
+                                          fin de asegurar, en condiciones de igualdad entre hombres y mujeres,
+                                          los mismos derechos, en particular:
+
+eliminar la discriminación contra la mujer en la esfera del empleo a
                                           fin de asegurar, en condiciones de igualdad entre hombres y mujeres,
                                           los mismos derechos, en particular:
 
@@ -4119,10 +4331,17 @@ y reproductivos                                                              el 
                                                    condiciones de trabajo, incluso la salvaguardia de la función
                                                    de reproducción.
 
-
 ## 2. A fin de impedir la discriminación contra la mujer por razones de
 
-                                          matrimonio o maternidad y asegurar la efectividad de su derecho a
+**Definición Canónica:** matrimonio o maternidad y asegurar la efectividad de su derecho a
+                                          trabajar, los Estados Partes tomarán medidas adecuadas para:
+                                          ——       Prohibir, bajo pena de sanciones, el despido por motivo de
+                                                   embarazo o licencia de maternidad y la discriminación en los
+                                                   despidos sobre la base de estado civil;
+                                          ——       Implantar la licencia de maternidad con sueldo pagado o con
+       
+
+matrimonio o maternidad y asegurar la efectividad de su derecho a
                                           trabajar, los Estados Partes tomarán medidas adecuadas para:
                                           ——       Prohibir, bajo pena de sanciones, el despido por motivo de
                                                    embarazo o licencia de maternidad y la discriminación en los
@@ -4144,10 +4363,14 @@ y reproductivos                                                                e
                                                                                       en los tipos de trabajos que se haya probado puedan resultar
                                                                                       perjudiciales para ella.
 
-
 ## 3. La legislación protectora relacionada con las cuestiones compren-
 
-                                                                             didas en este artículo será examinada periódicamente a la luz de los
+**Definición Canónica:** didas en este artículo será examinada periódicamente a la luz de los
+                                                                             conocimientos científicos y tecnológicos y será revisada, derogada o
+                                                                             ampliada según corresponda”.
+**Concordancias Legales:** Artículo 2; artículo 19 de la Constitución Política; Constitución Política; constitucion; Constitución
+
+didas en este artículo será examinada periódicamente a la luz de los
                                                                              conocimientos científicos y tecnológicos y será revisada, derogada o
                                                                              ampliada según corresponda”.
 
@@ -4257,10 +4480,13 @@ y reproductivos                                                       el reconoc
                                                                              la ley (art. 19 N° 2 y 3)
                                                                     ——       Derecho a la protección de la salud (art. 19 N° 6)
 
-
 ## 3.2.2.1 Discriminación en la familia
 
-                                                                    La ONU, en este punto, es categórica en señalar que la violencia y
+**Definición Canónica:** La ONU, en este punto, es categórica en señalar que la violencia y
+                                                                    discriminación dentro de las familias son una amenaza para las mu-
+                                                                    jeres. “Si bien los derechos de las mujeres han avanzado a lo largo
+
+La ONU, en este punto, es categórica en señalar que la violencia y
                                                                     discriminación dentro de las familias son una amenaza para las mu-
                                                                     jeres. “Si bien los derechos de las mujeres han avanzado a lo largo
 
@@ -4291,10 +4517,15 @@ y reproductivos                                                                 
                                                                                 nera explícita que las familias son un espacio contradictorio para las
                                                                                 mujeres y las niñas es uno de los objetivos clave de este informe”173.
 
-
 ## 3.2.2.2 Discriminación en el trabajo
 
-                                                                                Relacionado con el derecho al empleo y a la seguridad social. A no
+**Definición Canónica:** Relacionado con el derecho al empleo y a la seguridad social. A no
+                                                                                ser discriminada en temas laborales por el embarazo o maternidad,
+                                                                                derecho a protección de la maternidad en materia laboral; a no ser
+                                                                                despedida por causa de embarazo.
+**Concordancias Legales:** Artículo 194; Artículo 195; artículos 19; artículo 201; artículo 198; artículo 197; artículo 1; artículo 62 bis; Ley Nº 19.620; Ley N° 20.348; Constitución
+
+Relacionado con el derecho al empleo y a la seguridad social. A no
                                                                                 ser discriminada en temas laborales por el embarazo o maternidad,
                                                                                 derecho a protección de la maternidad en materia laboral; a no ser
                                                                                 despedida por causa de embarazo.
@@ -4409,10 +4640,15 @@ y reproductivos                                                               el
                                                                             las remuneraciones que se funden, entre otras razones, en las capa-
                                                                             cidades, calificaciones, idoneidad, responsabilidad o productividad”.
 
-
 ## 3.2.2.3 Discriminación en los estudios
 
-                                                                            El artículo 1° de la Ley N° 21.091 sobre educación superior estable-
+**Definición Canónica:** El artículo 1° de la Ley N° 21.091 sobre educación superior estable-
+                                                                            ce la prohibición de discriminación arbitraria en materia de acceso
+                                                                            al sistema de educación superior, reconocido este último como un
+                                                                            derecho.
+**Concordancias Legales:** artículo 1; Ley N° 21.091; Constitución
+
+El artículo 1° de la Ley N° 21.091 sobre educación superior estable-
                                                                             ce la prohibición de discriminación arbitraria en materia de acceso
                                                                             al sistema de educación superior, reconocido este último como un
                                                                             derecho.
@@ -4430,11 +4666,13 @@ y reproductivos                                                               el
                                                                             las más desfavorecidas, aunque en algunas regiones los niños se
                                                                             encuentran en desventaja (…) Entre los numerosos obstáculos que
 
-
 ## 175   Cámara de Diputados (2019). Boletín 11.791-13
 
+**Definición Canónica:** Derechos sexuales                                                           3. Intereses tutelados mediante                                      106
+y reproductivos                                                                 el reconocimiento de los derechos
+**Concordancias Legales:** artículo 11; Artículo 11. inciso 1; Ley N° 20.370
 
-Derechos sexuales                                                           3. Intereses tutelados mediante                                      106
+Derechos sexuales                                                           3. Intereses tutelados mediante                                      106
 y reproductivos                                                                 el reconocimiento de los derechos
 
                                                                               impiden a las niñas y mujeres ejercer su derecho a estudiar, obtener
@@ -4551,21 +4789,21 @@ y reproductivos                                                        el recono
 
                                           Ejemplos:
 
-## 1. JUNAEB con su Programa de apoyo a la retención escolar para
-
-                                             embarazadas, madres y padres adolescentes.
-
 ## 2. JUNJI otorga acceso preferencial en su red de jardines y salas
 
-                                             cunas a las madres y padres que están en el sistema escolar.
+**Definición Canónica:** cunas a las madres y padres que están en el sistema escolar.
+
+cunas a las madres y padres que están en el sistema escolar.
 
 Derechos sexuales                                                         3. Intereses tutelados mediante                                    109
 y reproductivos                                                               el reconocimiento de los derechos
 
-
 ## 3. Oficina de Protección de Derechos de Niños, Niñas y Adoles-
 
-                                                                               centes”179.
+**Definición Canónica:** centes”179.
+**Concordancias Legales:** artículo 2; Artículo 3; Ley Nº 18.962
+
+centes”179.
 
                                                                             Complementa la normativa anterior la Resolución Exenta N° 0193
                                                                             del año 2018, que aprueba la circular normativa sobre alumnas em-
@@ -4634,10 +4872,11 @@ y reproductivos                                                               el
 Derechos sexuales                                                     3. Intereses tutelados mediante                                       111
 y reproductivos                                                           el reconocimiento de los derechos
 
-
 ## 3.3         Derechos sociales
 
-                                                                        (derecho a la salud)
+**Definición Canónica:** (derecho a la salud)
+
+(derecho a la salud)
 
                                                                         Tener información sobre todos los aspectos relacionados con la se-
                                                                         xualidad, conocer cómo funciona el aparato reproductor femenino
@@ -4906,13 +5145,11 @@ y reproductivos                                                            el re
                                                                             límites, donde se pone énfasis al protagonismo del adolescente
                                                                             en el desarrollo de su bienestar;
 
-## 2. Se organiza atención con horarios flexibles adecuados a gusto
-
-                                                                            juvenil y riesgo;
-
 ## 3. Hermoseamiento de las dependencias de acuerdo a la edad y
 
-                                                                            gusto de los y las adolescentes”195.
+**Definición Canónica:** gusto de los y las adolescentes”195.
+
+gusto de los y las adolescentes”195.
 
                                                                          En estos dos últimos ejemplos citados196, se puede confirmar que
                                                                          las demandas de la población adolescente respecto de la confiden-
@@ -4927,10 +5164,16 @@ y reproductivos                                                            el re
 Derechos sexuales                                                         3. Intereses tutelados mediante                                       118
 y reproductivos                                                               el reconocimiento de los derechos
 
-
 ## 3.3.1 Contar con servicios educativos y de
 
-                                                                            información en materia reproductiva
+**Definición Canónica:** información en materia reproductiva
+                                                                            Para el Instituto Interamericano de Derechos Humanos,“este derecho
+                                                                            incluye el derecho de toda persona a que se le dé información clara
+                                                                            sobre su Estado de salud, sus derechos y responsabilidades en mate-
+                                                                            ria de sexualidad y reproducción y acerca de los benefici
+**Concordancias Legales:** artículo 16
+
+información en materia reproductiva
                                                                             Para el Instituto Interamericano de Derechos Humanos,“este derecho
                                                                             incluye el derecho de toda persona a que se le dé información clara
                                                                             sobre su Estado de salud, sus derechos y responsabilidades en mate-
@@ -4946,7 +5189,14 @@ y reproductivos                                                               el
 
 ## 1. Los Estados Partes adoptarán todas las medidas adecuadas para
 
-                                                                            eliminar la discriminación contra la mujer en todos los asuntos rela-
+**Definición Canónica:** eliminar la discriminación contra la mujer en todos los asuntos rela-
+                                                                            cionados con el matrimonio y las relaciones familiares y, en particular,
+                                                                            asegurarán en condiciones de igualdad entre hombres y mujeres:
+                                                                            e) Los mismos derechos a decidir libre y responsablemente el número
+                                                                            de sus hijos y el inte
+**Concordancias Legales:** artículo 10 de la Convención; Artículo 1; Ley N° 20.418
+
+eliminar la discriminación contra la mujer en todos los asuntos rela-
                                                                             cionados con el matrimonio y las relaciones familiares y, en particular,
                                                                             asegurarán en condiciones de igualdad entre hombres y mujeres:
                                                                             e) Los mismos derechos a decidir libre y responsablemente el número
@@ -5020,10 +5270,16 @@ y reproductivos                                                             el r
                                                                           el efectivo resguardo al derecho a recibir educación en sexualidad,
                                                                           afectividad y género”199.
 
-
 ## 3.3.2 Acceso a servicios de salud sexual de calidad
 
-                                                                          Para el Consejo Económico y Social de la ONU, “El derecho a la sa-
+**Definición Canónica:** Para el Consejo Económico y Social de la ONU, “El derecho a la sa-
+                                                                          lud está estrechamente vinculado con el ejercicio de otros derechos
+                                                                          humanos y depende de esos derechos, que se enuncian en la Carta
+                                                                          Internacional de Derechos, en particular el derecho a la alimenta-
+                                                                          ción, a la vivienda, al trabajo, a la 
+**Concordancias Legales:** Ley N° 19.779; Ley N° 19.966; Ley N° 20.077; Ley Nº 19.779; Ley Nº 20.379; Ley N° 20.418; Ley N° 20.584; Ley N° 20.670; Ley N° 20.987; Ley N° 21.155
+
+Para el Consejo Económico y Social de la ONU, “El derecho a la sa-
                                                                           lud está estrechamente vinculado con el ejercicio de otros derechos
                                                                           humanos y depende de esos derechos, que se enuncian en la Carta
                                                                           Internacional de Derechos, en particular el derecho a la alimenta-
@@ -5119,10 +5375,17 @@ y reproductivos                                                          el reco
                                                                        enfoque, este no ha primado en las aproximaciones que la sociedad
                                                                        general realiza sobre la adolescencia.
 
-
 ## 3.3.3 Acceso a métodos anticonceptivos
 
-                                                                       seguros, aceptables y eficaces
+**Definición Canónica:** seguros, aceptables y eficaces
+                                                                       Este derecho dice relación con el derecho a la vida, la integridad
+                                                                       física y psíquica, al derecho a acceso a la salud y, específicamente,
+                                                                       a la salud reproductiva. Además, contempla el derecho a la educa-
+                                                                       ción sexual y reproductiva, y el derecho a recibir información sobre
+             
+**Concordancias Legales:** artículo 13
+
+seguros, aceptables y eficaces
                                                                        Este derecho dice relación con el derecho a la vida, la integridad
                                                                        física y psíquica, al derecho a acceso a la salud y, específicamente,
                                                                        a la salud reproductiva. Además, contempla el derecho a la educa-
@@ -5163,14 +5426,27 @@ y reproductivos                                                               el
 
 ## 1. Toda persona tiene derecho a la libertad de pensamiento y de
 
-                                                                            expresión. Este derecho comprende la libertad de buscar, recibir y
+**Definición Canónica:** expresión. Este derecho comprende la libertad de buscar, recibir y
+                                                                            difundir informaciones e ideas de toda índole, sin consideración de
+                                                                            fronteras, ya sea oralmente, por escrito o en forma impresa o artística,
+                                                                            o por cualquier otro procedimiento de su elección.
+
+expresión. Este derecho comprende la libertad de buscar, recibir y
                                                                             difundir informaciones e ideas de toda índole, sin consideración de
                                                                             fronteras, ya sea oralmente, por escrito o en forma impresa o artística,
                                                                             o por cualquier otro procedimiento de su elección.
 
 ## 2. El ejercicio del derecho previsto en el inciso precedente no puede
 
-                                                                            estar sujeto a previa censura sino a responsabilidades ulteriores, las
+**Definición Canónica:** estar sujeto a previa censura sino a responsabilidades ulteriores, las
+                                                                            que deben estar expresamente fijadas por la ley y ser necesarias para
+                                                                            asegurar:
+                                                                            a) el respeto a los derechos o a la reputación de los demás, o
+                                                                            b) la protección de la seguridad nacional, el orden público o la salud
+           
+**Concordancias Legales:** artículo 12 del Pacto Internacional de Derechos
+
+estar sujeto a previa censura sino a responsabilidades ulteriores, las
                                                                             que deben estar expresamente fijadas por la ley y ser necesarias para
                                                                             asegurar:
                                                                             a) el respeto a los derechos o a la reputación de los demás, o
@@ -5230,10 +5506,13 @@ y reproductivos                                                              el 
                                                                              intencionalmente la información relacionada con la salud, incluida
                                                                              la educación sexual y la información al respecto (…)”.
 
-
 ## 206 Tabla de creación propia en base a la información obtenida de las Normas Nacionales sobre Regulación de
 
-                                            la Fertilidad (2017) del Ministerio de Salud y del Instituto Chileno de Medicina Reproductiva.
+**Definición Canónica:** la Fertilidad (2017) del Ministerio de Salud y del Instituto Chileno de Medicina Reproductiva.
+                                        207 ONU, Consejo Económico y Social (2000), párrafo 34.
+**Concordancias Legales:** artículo 119 del Código de Derecho Sanitario según el cual; Ley N° 20.418; Constitucion
+
+la Fertilidad (2017) del Ministerio de Salud y del Instituto Chileno de Medicina Reproductiva.
                                         207 ONU, Consejo Económico y Social (2000), párrafo 34.
 
 Derechos sexuales                                                             3. Intereses tutelados mediante                                             125
@@ -5315,10 +5594,13 @@ y reproductivos                                                                e
                                                                              del día después’ o ‘píldoras de la mañana siguiente’) previenen un
                                                                              embarazo después de una relación sexual. No son abortivas”213.
 
-
 ## 210   Revista Chilena de Obstetricia y Ginecología (2013), p. 79
 
-                                        211   Información extraída por los autores del sitio web de la Biblioteca del Congreso Nacional.
+**Definición Canónica:** 211   Información extraída por los autores del sitio web de la Biblioteca del Congreso Nacional.
+                                        212   Revista Chilena de Obstetricia y Ginecología (2013), p. 79.
+                                        213   En opinión de la Oficina de Investigación en Temas de Población de la Universidad de Princeton.
+
+211   Información extraída por los autores del sitio web de la Biblioteca del Congreso Nacional.
                                         212   Revista Chilena de Obstetricia y Ginecología (2013), p. 79.
                                         213   En opinión de la Oficina de Investigación en Temas de Población de la Universidad de Princeton.
 
@@ -5361,10 +5643,17 @@ y reproductivos                                                                e
 
 Derechos sexuales                       3. Intereses tutelados mediante                                     128
 
-
 ## 3.3.4 Acceso a servicios de salud o atención médica
 
-                                          que garanticen una maternidad segura, libre de
+**Definición Canónica:** que garanticen una maternidad segura, libre de
+                                          riesgos en los períodos de gestación, parto y lactancia,
+                                          brindándose la máxima posibilidad de tener hijos sanos
+                                          El derecho a la salud reproductiva está sin duda relacionado direc-
+                                          tamente con los derechos a la vida, la integridad física y psíquica, y
+                                          con el derecho a la salud de la persona.
+**Concordancias Legales:** artículo 25
+
+que garanticen una maternidad segura, libre de
                                           riesgos en los períodos de gestación, parto y lactancia,
                                           brindándose la máxima posibilidad de tener hijos sanos
                                           El derecho a la salud reproductiva está sin duda relacionado direc-
@@ -5379,7 +5668,14 @@ y reproductivos                                                                e
 
 ## 1. Toda persona tiene derecho a un nivel de vida adecuado que le
 
-                                          asegure, así como a su familia, la salud y el bienestar, y en especial
+**Definición Canónica:** asegure, así como a su familia, la salud y el bienestar, y en especial
+                                          la alimentación, el vestido, la vivienda, la asistencia médica y los
+                                          servicios sociales necesarios; tiene asimismo derecho a los seguros
+                                          en caso de desempleo, enfermedad, invalidez, viudez, vejez u otros
+                                          casos de pérdida de sus medios de subsistencia por circunstancias
+                                          independientes de su voluntad.
+
+asegure, así como a su familia, la salud y el bienestar, y en especial
                                           la alimentación, el vestido, la vivienda, la asistencia médica y los
                                           servicios sociales necesarios; tiene asimismo derecho a los seguros
                                           en caso de desempleo, enfermedad, invalidez, viudez, vejez u otros
@@ -5388,7 +5684,11 @@ y reproductivos                                                                e
 
 ## 2. La maternidad y la infancia tienen derecho a cuidados y asistencia
 
-                                          especiales. Todos los niños y niñas, nacidos de matrimonio o fuera
+**Definición Canónica:** especiales. Todos los niños y niñas, nacidos de matrimonio o fuera
+                                          de matrimonio, tienen derecho a igual protección social”.
+**Concordancias Legales:** artículo 6; Artículo 12
+
+especiales. Todos los niños y niñas, nacidos de matrimonio o fuera
                                           de matrimonio, tienen derecho a igual protección social”.
 
                                           El Pacto Internacional de Derechos Civiles y Políticos, respecto al
@@ -5404,15 +5704,26 @@ y reproductivos                                                                e
 
 ## 1. Los Estados Partes en el presente Pacto reconocen el derecho de
 
-                                          toda persona al disfrute del más alto nivel posible de salud física y
+**Definición Canónica:** toda persona al disfrute del más alto nivel posible de salud física y
+                                          mental.
+
+toda persona al disfrute del más alto nivel posible de salud física y
                                           mental.
 
 Derechos sexuales                       3. Intereses tutelados mediante                                      129
 
-
 ## 2. Entre las medidas que deberán adoptar los Estados Partes en el
 
-                                          Pacto a fin de asegurar la plena efectividad de este derecho, figurarán
+**Definición Canónica:** Pacto a fin de asegurar la plena efectividad de este derecho, figurarán
+                                          las necesarias para:
+                                          a) La reducción de la mortinatalidad y de la mortalidad infantil, y el
+                                          sano desarrollo de los niños y niñas;
+                                          b) El mejoramiento en todos sus aspectos de la higiene del trabajo
+                                          y del medio ambiente;
+                                          c) La prevención y el tratamiento de las enfermedades epi
+**Concordancias Legales:** artículo 4; artículo 12 de la Convención sobre la Eliminación de Todas las; Artículo 12
+
+Pacto a fin de asegurar la plena efectividad de este derecho, figurarán
                                           las necesarias para:
                                           a) La reducción de la mortinatalidad y de la mortalidad infantil, y el
                                           sano desarrollo de los niños y niñas;
@@ -5439,14 +5750,25 @@ y reproductivos                                                                e
 
 ## 1. Los Estados Partes adoptarán todas las medidas apropiadas para
 
-                                          eliminar la discriminación contra la mujer en la esfera de la atención
+**Definición Canónica:** eliminar la discriminación contra la mujer en la esfera de la atención
+                                          médica a fin de asegurar, en condiciones de igualdad entre hombres
+                                          y mujeres, el acceso a servicios de atención médica, inclusive los que
+                                          se refieren a la planificación de la familia.
+
+eliminar la discriminación contra la mujer en la esfera de la atención
                                           médica a fin de asegurar, en condiciones de igualdad entre hombres
                                           y mujeres, el acceso a servicios de atención médica, inclusive los que
                                           se refieren a la planificación de la familia.
 
 ## 2. Sin perjuicio de lo dispuesto en el párrafo 1 supra, los Estados
 
-                                          Partes garantizarán a la mujer servicios apropiados en relación con
+**Definición Canónica:** Partes garantizarán a la mujer servicios apropiados en relación con
+                                          el embarazo, el parto y el período posterior al parto, proporcionando
+                                          servicios gratuitos cuando fuere necesario, y le asegurarán una nutri-
+                                          ción adecuada durante el embarazo y la lactancia”.
+**Concordancias Legales:** artículo 12; artículo 1
+
+Partes garantizarán a la mujer servicios apropiados en relación con
                                           el embarazo, el parto y el período posterior al parto, proporcionando
                                           servicios gratuitos cuando fuere necesario, y le asegurarán una nutri-
                                           ción adecuada durante el embarazo y la lactancia”.
@@ -5515,23 +5837,24 @@ y reproductivos                                                                e
                                                                              “Artículo 1º. Objetivos de la ley. Esta ley tiene como objetivos prin-
                                                                              cipales:
 
-## 1. Reconocer el valor fundamental de la maternidad y del derecho a
-
-                                                                             la lactancia materna, como un derecho de la niñez.
-
-## 2. Consagrar el derecho de la niñez al acceso a la leche humana y el
-
-                                                                             derecho de las madres a amamantar libremente a sus hijos e hijas.
-
 ## 3. Garantizar el libre ejercicio de la lactancia materna y del amaman-
 
-                                                                             tamiento libre, sancionando cualquier discriminación arbitraria que
+**Definición Canónica:** tamiento libre, sancionando cualquier discriminación arbitraria que
                                                                              cause privación, perturbación o amenaza a estos derechos”.
 
+tamiento libre, sancionando cualquier discriminación arbitraria que
+                                                                             cause privación, perturbación o amenaza a estos derechos”.
 
 ## 3.3.5 Protección del embarazo y de las enfermedades
 
-                                                                             e infecciones de transmisión sexual
+**Definición Canónica:** e infecciones de transmisión sexual
+                                                                             Los derechos sexuales y reproductivos, como ya se ha dicho, son con-
+                                                                             siderados actualmente por algunos autores como derechos humanos219
+                                                                             que incluyen el derecho de toda persona a vivir y tener control sobre
+                                                                             su sexualidad, contemplando la salud sexual y repr
+**Concordancias Legales:** constitucion
+
+e infecciones de transmisión sexual
                                                                              Los derechos sexuales y reproductivos, como ya se ha dicho, son con-
                                                                              siderados actualmente por algunos autores como derechos humanos219
                                                                              que incluyen el derecho de toda persona a vivir y tener control sobre
@@ -5655,10 +5978,16 @@ y reproductivos                                                                 
                                           riesgo sexual asumido por este colectivo. La orientación sexual podría
                                           tener un efecto predictivo en el uso que se hace del preservativo.
 
-
 ## 3.3.6 Interrupción legal y segura del embarazo
 
-                                          en circunstancias específicas
+**Definición Canónica:** en circunstancias específicas
+                                          Actualmente en Chile, bajo la Ley N° 21.030 del año 2017, se des-
+                                          penaliza la interrupción del embarazo voluntaria, en tres causales.
+                                          Anterior a esta ley, el aborto era sancionado en toda situación como
+                                          delito.
+**Concordancias Legales:** artículo 19; artículo 1; Ley N° 21.030; Constitución; Constitucion
+
+en circunstancias específicas
                                           Actualmente en Chile, bajo la Ley N° 21.030 del año 2017, se des-
                                           penaliza la interrupción del embarazo voluntaria, en tres causales.
                                           Anterior a esta ley, el aborto era sancionado en toda situación como
@@ -5710,10 +6039,14 @@ y reproductivos                                                                e
 
                                                                              Incorpóranse las siguientes modificaciones en el Código Sanitario:
 
-
 ## 225   Tribunal Constitucional. Requerimiento de inconstitucionalidad presentado por un grupo de senadores que
 
-                                              representan más de la cuarta parte de los miembros en ejercicio, respecto del proyecto de ley que regula la
+**Definición Canónica:** representan más de la cuarta parte de los miembros en ejercicio, respecto del proyecto de ley que regula la
+                                              despenalización de la interrupción voluntaria del embarazo en tres causales, correspondiente al Boletín N°
+                                              9895-11.
+**Concordancias Legales:** artículo 119; artículo 15; artículo 69; artículos 8; artículo 143; artículo 30 de la Ley Nº 20.584. Ante este; artículos 3; artículo 4.1 de la Convención; artículo 4.1; Ley Nº 20.584; Ley Nº 20.422; Ley Nº 20.609
+
+representan más de la cuarta parte de los miembros en ejercicio, respecto del proyecto de ley que regula la
                                               despenalización de la interrupción voluntaria del embarazo en tres causales, correspondiente al Boletín N°
                                               9895-11.
 
@@ -5981,10 +6314,12 @@ y reproductivos                                                                 
 Derechos sexuales                                                        4. Protección de los derechos                                        144
 y reproductivos                                                              sexuales y reproductivos en
 
-
 ## 4.1          Derechos sexuales y reproductivos
 
-                                                                           en adultos mayores232
+**Definición Canónica:** en adultos mayores232
+**Concordancias Legales:** artículo 2; artículo 5; artículo 6; artículo 11; artículo 16; artículo 19; artículo 30
+
+en adultos mayores232
 
                                                                            La Convención Interamericana sobre la Protección de los Derechos
                                                                            Humanos de las Personas Mayores define, en su cuerpo normativo,
@@ -6106,7 +6441,10 @@ y reproductivos                                                                 
 
 ## 238   The Lancet es una revista médica británica publicada semanalmente por the Lancet Publishing Group. Toma
 
-                                                su nombre del instrumento quirúrgico llamado “lanceta”. El actual editor es Richard Horton de Elsevier Pro-
+**Definición Canónica:** su nombre del instrumento quirúrgico llamado “lanceta”. El actual editor es Richard Horton de Elsevier Pro-
+                                                perties S.A. En 2016, The Lancet ocupa el segundo lugar en factor de impacto.
+
+su nombre del instrumento quirúrgico llamado “lanceta”. El actual editor es Richard Horton de Elsevier Pro-
                                                 perties S.A. En 2016, The Lancet ocupa el segundo lugar en factor de impacto.
 
 Derechos sexuales                                                     4. Protección de los derechos                                          147
@@ -6143,10 +6481,12 @@ y reproductivos                                                           sexual
 Derechos sexuales                                                    4. Protección de los derechos                                         148
 y reproductivos                                                          sexuales y reproductivos en
 
-
 ## 4.2        Derechos sexuales y reproductivos en las personas
 
-                                                                       con capacidades diferentes240
+**Definición Canónica:** con capacidades diferentes240
+**Concordancias Legales:** artículo 1; artículo 9; artículo 25 de la CPCD se establece lo siguiente; artículo 23 de la CDPD establece lo siguiente
+
+con capacidades diferentes240
 
                                                                        Según la Convención Interamericana para la Eliminación de Todas
                                                                        las Formas de Discriminación Contra las Personas con Discapaci-
@@ -6391,10 +6731,12 @@ y reproductivos                             sexuales y reproductivos en
 Derechos sexuales                                                         4. Protección de los derechos                                            154
 y reproductivos                                                               sexuales y reproductivos en
 
-
 ## 4.3           Derechos sexuales y reproductivos en
 
-                                                                            los pueblos originarios o etnias242
+**Definición Canónica:** los pueblos originarios o etnias242
+**Concordancias Legales:** artículo N° 7; Artículo 7; Ley N° 20.584
+
+los pueblos originarios o etnias242
 
                                                                             Según el Ministerio de Salud, “Chile no ha estado exento de impor-
                                                                             tantes cambios culturales, económicos, políticos y sociales que han
@@ -6453,7 +6795,13 @@ y reproductivos                             sexuales y reproductivos en
 
 ## 2. El mejoramiento de las condiciones de vida y de trabajo y del nivel
 
-                                          de salud y educación de los pueblos interesados, con su participación
+**Definición Canónica:** de salud y educación de los pueblos interesados, con su participación
+                                          y cooperación, deberá ser prioritario en los planes de desarrollo
+                                          económico global de las regiones donde habitan. Los proyectos es-
+                                          peciales de desarrollo para estas regiones deberán también elaborarse
+                                          de modo que promuevan dicho mejoramiento.
+
+de salud y educación de los pueblos interesados, con su participación
                                           y cooperación, deberá ser prioritario en los planes de desarrollo
                                           económico global de las regiones donde habitan. Los proyectos es-
                                           peciales de desarrollo para estas regiones deberán también elaborarse
@@ -6461,7 +6809,14 @@ y reproductivos                             sexuales y reproductivos en
 
 ## 3. Los gobiernos deberán velar por que, siempre que haya lugar, se
 
-                                          efectúen estudios, en cooperación con los pueblos interesados, a fin
+**Definición Canónica:** efectúen estudios, en cooperación con los pueblos interesados, a fin
+                                          de evaluar la incidencia social, espiritual y cultural y sobre el medio
+                                          ambiente que las actividades de desarrollo previstas puedan tener
+                                          sobre esos pueblos. Los resultados de estos estudios deberán ser
+                                          considerados como criterios fundamentales para la ejecución de las
+                                          actividades mencionadas.
+
+efectúen estudios, en cooperación con los pueblos interesados, a fin
                                           de evaluar la incidencia social, espiritual y cultural y sobre el medio
                                           ambiente que las actividades de desarrollo previstas puedan tener
                                           sobre esos pueblos. Los resultados de estos estudios deberán ser
@@ -6470,7 +6825,11 @@ y reproductivos                             sexuales y reproductivos en
 
 ## 4. Los gobiernos deberán tomar medidas, en cooperación con los
 
-                                          pueblos interesados, para proteger y preservar el medio ambiente de
+**Definición Canónica:** pueblos interesados, para proteger y preservar el medio ambiente de
+                                          los territorios que habitan”.
+**Concordancias Legales:** artículo 25
+
+pueblos interesados, para proteger y preservar el medio ambiente de
                                           los territorios que habitan”.
 
                                           De igual forma, el artículo 25 del convenio, en temas de seguridad
@@ -6487,7 +6846,13 @@ y reproductivos                                                       sexuales y
 
 ## 2. Los servicios de salud deberán organizarse, en la medida de lo
 
-                                                                    posible, a nivel comunitario. Estos servicios deberán planearse y
+**Definición Canónica:** posible, a nivel comunitario. Estos servicios deberán planearse y
+                                                                    administrarse en cooperación con los pueblos interesados y tener
+                                                                    en cuenta sus condiciones económicas, geográficas, sociales y cul-
+                                                                    turales, así como sus métodos de prevención, prácticas curativas y
+                                                                    medicamentos tradicionales.
+
+posible, a nivel comunitario. Estos servicios deberán planearse y
                                                                     administrarse en cooperación con los pueblos interesados y tener
                                                                     en cuenta sus condiciones económicas, geográficas, sociales y cul-
                                                                     turales, así como sus métodos de prevención, prácticas curativas y
@@ -6495,15 +6860,22 @@ y reproductivos                                                       sexuales y
 
 ## 3. El sistema de asistencia sanitaria deberá dar la preferencia a la
 
+**Definición Canónica:** formación y al empleo de personal sanitario de la comunidad local
+                                                                    y centrarse en los cuidados primarios de salud, manteniendo al mis-
+                                                                    mo tiempo estrechos vínculos con los demás niveles de asistencia
+                                                                    sanitaria.
 
-                                                                    formación y al empleo de personal sanitario de la comunidad local
+formación y al empleo de personal sanitario de la comunidad local
                                                                     y centrarse en los cuidados primarios de salud, manteniendo al mis-
                                                                     mo tiempo estrechos vínculos con los demás niveles de asistencia
                                                                     sanitaria.
 
 ## 4. La prestación de tales servicios de salud deberá coordinarse con
 
-                                                                    las demás medidas sociales, económicas y culturales que se tomen
+**Definición Canónica:** las demás medidas sociales, económicas y culturales que se tomen
+                                                                    en el país”.
+
+las demás medidas sociales, económicas y culturales que se tomen
                                                                     en el país”.
 
                                         El Ministerio de Salud,     El Ministerio de Salud, el año 2017, en su Plan de Apoyo para Pueblos
@@ -6519,28 +6891,36 @@ y reproductivos                                                       sexuales y
                                         vez también plantea         3. Elaboración de una Política de Salud y Pueblos Indígenas con
                                         desafíos pendientes en      participación de los pueblos indígenas.
 
-## 4. Mecanismos de participación indígena para la implementación de
-
-                                        la materia.                 la Política de Salud y pueblos indígenas y Norma N° 16.
-
 ## 5. Enfoque de derechos para avanzar en las demandas indígenas
 
-                                                                    sectoriales y en la satisfacción de las necesidades de salud de los
+**Definición Canónica:** sectoriales y en la satisfacción de las necesidades de salud de los
+                                                                    pueblos indígenas.
+
+sectoriales y en la satisfacción de las necesidades de salud de los
                                                                     pueblos indígenas.
 
 Derechos sexuales                                                            4. Protección de los derechos                                         157
 y reproductivos                                                                  sexuales y reproductivos en
 
-
 ## 6. Proceso de adecuación y modificaciones normativas sectoriales
 
-                                                                               que incorporan la interculturalidad en los programas de salud, en
+**Definición Canónica:** que incorporan la interculturalidad en los programas de salud, en
+                                                                               el modelo de atención y la complementariedad con los sistemas de
+                                                                               salud indígena, con participación indígena.
+
+que incorporan la interculturalidad en los programas de salud, en
                                                                                el modelo de atención y la complementariedad con los sistemas de
                                                                                salud indígena, con participación indígena.
 
 ## 7. Recursos humanos especializados para implementar a nivel mi-
 
-                                                                               nisterial la política de interculturalidad en salud:
+**Definición Canónica:** nisterial la política de interculturalidad en salud:
+                                                                               a) La Política de Salud y Pueblos indígenas a nivel nacional y regional
+                                                                               en las áreas de mayor concentración de pueblos indígenas,
+                                                                               b) Las tareas específicas del Programa de Salud y Pueblos Indígenas
+                                                                               en las Redes Asistenciales del Mi
+
+nisterial la política de interculturalidad en salud:
                                                                                a) La Política de Salud y Pueblos indígenas a nivel nacional y regional
                                                                                en las áreas de mayor concentración de pueblos indígenas,
                                                                                b) Las tareas específicas del Programa de Salud y Pueblos Indígenas
@@ -6556,25 +6936,28 @@ y reproductivos                                                                 
 
 ## 8. Experiencias de administración de servicios de salud por parte de
 
-                                                                               asociaciones indígenas bajo su propia responsabilidad con medios
+**Definición Canónica:** asociaciones indígenas bajo su propia responsabilidad con medios
+                                                                               económicos otorgados por el Estado.
+                                                                               9. Transversalización de programas de salud con pertinencia cultural.
+                                                                               En programas como Salud Mental, de la Mujer, ‘Chile crece contigo’,
+                                                                               entre otros, han sido focalizados y trabajado
+
+asociaciones indígenas bajo su propia responsabilidad con medios
                                                                                económicos otorgados por el Estado.
                                                                                9. Transversalización de programas de salud con pertinencia cultural.
                                                                                En programas como Salud Mental, de la Mujer, ‘Chile crece contigo’,
                                                                                entre otros, han sido focalizados y trabajados, mostrando cambios
                                                                                importantes.
 
-## 10. Relación de sistemas de salud estatal con sistemas de salud indígena
-
-                                                                               en experiencias.
-
-## 11. Propuesta de ley que reconoce y salvaguarda los sistemas cultura-
-
-                                                                               les de salud de los pueblos indígenas, que están trabajando líderes y
-                                                                               asociaciones indígenas (Minsal, 2012).
-
 ## 12. Proceso de participación y consulta de la propuesta reglamentaria
 
-                                                                               del artículo 7° de la Ley Derechos y Deberes Nº 20.584 (2012) con
+**Definición Canónica:** del artículo 7° de la Ley Derechos y Deberes Nº 20.584 (2012) con
+                                                                               participación local de servicios de salud y Secretarías Regionales
+                                                                               Ministeriales (SEREMI), junto con las organizaciones de pueblos
+                                                                               indígenas de acuerdo a los servicios de salud involucrados”244.
+**Concordancias Legales:** artículo 7
+
+del artículo 7° de la Ley Derechos y Deberes Nº 20.584 (2012) con
                                                                                participación local de servicios de salud y Secretarías Regionales
                                                                                Ministeriales (SEREMI), junto con las organizaciones de pueblos
                                                                                indígenas de acuerdo a los servicios de salud involucrados”244.
@@ -6615,14 +6998,24 @@ y reproductivos                                                             Naci
 
 ## 1. Boletín 3810-18 y 4.149-18, refundidos. Proyecto de ley que
 
-                                                                               modifica la Ley N° 4.808, sobre Registro Civil, estableciendo
+**Definición Canónica:** modifica la Ley N° 4.808, sobre Registro Civil, estableciendo
+                                                                               que el apellido de la madre anteceda al del padre, ingresado el
+                                                                               16 de marzo, 2005.
+**Concordancias Legales:** Ley N° 4.808
+
+modifica la Ley N° 4.808, sobre Registro Civil, estableciendo
                                                                                que el apellido de la madre anteceda al del padre, ingresado el
                                                                                16 de marzo, 2005.
 
 ## 2. Boletín N° 7.567-07. Proyecto de ley que modifica Código Civil
 
+**Definición Canónica:** y otras leyes, regulando el régimen patrimonial de sociedad con-
+                                                                               yugal, ingresado el 5 de abril de 2011.
+                                                                            3. Boletín N° 9715-07. Proyecto de ley que modifica las Leyes No.
+                                                                               19.968 y 20.066 para incorporar una medida cautelar especial en
+                                                                               favor de las víctimas de violencia intrafamiliar y f
 
-                                                                               y otras leyes, regulando el régimen patrimonial de sociedad con-
+y otras leyes, regulando el régimen patrimonial de sociedad con-
                                                                                yugal, ingresado el 5 de abril de 2011.
                                                                             3. Boletín N° 9715-07. Proyecto de ley que modifica las Leyes No.
                                                                                19.968 y 20.066 para incorporar una medida cautelar especial en
@@ -6632,99 +7025,98 @@ y reproductivos                                                             Naci
 
 ## 4. Boletín N° 10.911-04. Proyecto de ley que establece un régimen
 
-                                                                               de protección para las embarazadas que cursen estudios de edu-
+**Definición Canónica:** de protección para las embarazadas que cursen estudios de edu-
                                                                                cación superior, y para los estudiantes del mismo nivel que sean
                                                                                madres, padres o se encuentren a cargo del cuidado personal de
                                                                                un menor de edad, ingresado el 29 de septiembre de 2016.
 
-## 5. Boletín N° 11.077-07. Sobre el derecho de las mujeres a una vida
-
-                                                                               libre de violencia, ingresado el 5 de enero de 2017.
-
-## 6. Boletín N° 11.576. Regula la gestación por subrogación o gestación
-
-                                                                               subrogada como mecanismo de reproducción asistida, ingresado
-                                                                               el 10 de enero de 2018.
-
-
-## 246   Información obtenida por los autores en el sitio web de la Cámara de Diputados de Chile, y del Senado de
-
-                                              Chile, respectivamente.
-
-Derechos sexuales                       Agenda Legislativa                                                 160
-y reproductivos                         Nacional
-
+de protección para las embarazadas que cursen estudios de edu-
+                                                                               cación superior, y para los estudiantes del mismo nivel que sean
+                                                                               madres, padres o se encuentren a cargo del cuidado personal de
+                                                                               un menor de edad, ingresado el 29 de septiembre de 2016.
 
 ## 7. Boletín N° 11.758-07. Reforma Constitucional: busca avanzar
 
-                                           en el reconocimiento de la igualdad entre hombres y mujeres,
+**Definición Canónica:** en el reconocimiento de la igualdad entre hombres y mujeres,
                                            consagrando, explícitamente, el deber del Estado de promover
                                            la igualdad de derechos entre hombres y mujeres, ingresado el
                                            29 de mayo de 2018.
 
-## 8. Boletín 11.791-13. Proyecto de ley que modifica el Código del
-
-                                           Trabajo para extender la duración del permiso postnatal del padre,
-                                           ingresado el 6 de junio de 2018.
-
-## 9. Boletín N° 11.797-04. Proyecto de ley que sanciona el acoso se-
-
-                                           xual en escenarios educativos, ingresado el 12 de junio de 2018.
-
+en el reconocimiento de la igualdad entre hombres y mujeres,
+                                           consagrando, explícitamente, el deber del Estado de promover
+                                           la igualdad de derechos entre hombres y mujeres, ingresado el
+                                           29 de mayo de 2018.
 
 ## 10. Boletín N° 11.126-07 y 11.522-07. Proyecto de ley que modifica
 
-                                            el Código Civil para permitir que la mujer embarazada contraiga
+**Definición Canónica:** el Código Civil para permitir que la mujer embarazada contraiga
+                                            segundas nupcias y regula la presunción de paternidad, ingresado
+                                            el 19 de junio de 2018.
+
+el Código Civil para permitir que la mujer embarazada contraiga
                                             segundas nupcias y regula la presunción de paternidad, ingresado
                                             el 19 de junio de 2018.
 
 ## 11. Boletín N° 11.144-07 y 11.092. Proyecto de ley que modifica la
 
-                                            Ley No 19.628, sobre protección de la vida privada para regular el
+**Definición Canónica:** Ley No 19.628, sobre protección de la vida privada para regular el
+                                            tratamiento de los datos personales, estableciendo nuevas formas
+                                            de protección y crea la agencia de protección de datos personales.
+
+Ley No 19.628, sobre protección de la vida privada para regular el
                                             tratamiento de los datos personales, estableciendo nuevas formas
                                             de protección y crea la agencia de protección de datos personales.
 
 ## 12. Boletín N° 11.850-04. Proyecto de ley que modifica la Ley Gene-
 
-                                            ral de Educación, con el objeto de propiciar la participación de
+**Definición Canónica:** ral de Educación, con el objeto de propiciar la participación de
                                             mujeres y hombres en igualdad de derechos en las comunidades
                                             educativas, ingresado el 20 de junio de 2018.
 
-## 13. Boletín N° 11.845-04. Proyecto de ley sobre prevención de la
-
-                                            violencia de género y respeto de la diversidad sexual en estable-
-                                            cimientos educacionales, ingresado el 20 de junio de 2018.
+ral de Educación, con el objeto de propiciar la participación de
+                                            mujeres y hombres en igualdad de derechos en las comunidades
+                                            educativas, ingresado el 20 de junio de 2018.
 
 ## 14. Boletín N° 12.024-11. Proyecto de ley que modifica el decreto
 
-                                            con fuerza de Ley N°1, de 2005 del Ministerio de Salud, para
+**Definición Canónica:** con fuerza de Ley N°1, de 2005 del Ministerio de Salud, para
+                                            impedir que la fertilidad y el embarazo sean considerados para
+                                            determinar el precio de los planes de salud de las mujeres mayores
+                                            de 40 años, ingresado el 16 de agosto de 2018.
+
+con fuerza de Ley N°1, de 2005 del Ministerio de Salud, para
                                             impedir que la fertilidad y el embarazo sean considerados para
                                             determinar el precio de los planes de salud de las mujeres mayores
                                             de 40 años, ingresado el 16 de agosto de 2018.
 
 ## 15. Boletín N° 12.026-13. Proyecto de ley que crea el beneficio social
 
-                                            de educación en el nivel de sala cuna, financiado por un fondo
+**Definición Canónica:** de educación en el nivel de sala cuna, financiado por un fondo
+                                            solidario, ingresado el 16 de agosto de 2018.
+
+de educación en el nivel de sala cuna, financiado por un fondo
                                             solidario, ingresado el 16 de agosto de 2018.
 
 Derechos sexuales                       Agenda Legislativa                                                   161
 y reproductivos                         Nacional
 
-
-## 16. Boletín N° 12.038-34. Proyecto de ley que modifica el Código
-
-                                            Penal, para despenalizar el aborto consentido por la mujer dentro
-                                            de las primeras catorce semanas de gestación.
-
 ## 17. Boletín N° 12.148-11. Proyecto de ley que establece derechos en
 
-                                            el ámbito de la gestación, preparto, parto, postparto, aborto, salud
+**Definición Canónica:** el ámbito de la gestación, preparto, parto, postparto, aborto, salud
+                                            ginecológica y sexual, y sanciona la violencia gineco-obstétrica,
+                                            ingresado el 2 de octubre de 2018.
+
+el ámbito de la gestación, preparto, parto, postparto, aborto, salud
                                             ginecológica y sexual, y sanciona la violencia gineco-obstétrica,
                                             ingresado el 2 de octubre de 2018.
 
 ## 18. Boletín N° 12.335-11. Proyecto de ley que modifica la Ley N°
 
-                                            20.585, sobre otorgamiento y uso de licencias médicas, para agi-
+**Definición Canónica:** 20.585, sobre otorgamiento y uso de licencias médicas, para agi-
+                                            lizar la tramitación de apelaciones presentadas por mujeres que
+                                            hacen uso de los permisos laborales que se indican, ingresado el
+
+20.585, sobre otorgamiento y uso de licencias médicas, para agi-
                                             lizar la tramitación de apelaciones presentadas por mujeres que
                                             hacen uso de los permisos laborales que se indican, ingresado el
 
@@ -6732,24 +7124,35 @@ y reproductivos                         Nacional
 
 ## 19. Boletín No 12.338-34. Proyecto de ley que modifica el Código
 
-                                            Civil para incorporar el concepto de femicidio en las causales de
+**Definición Canónica:** Civil para incorporar el concepto de femicidio en las causales de
+                                            indignidad para suceder al difunto, ingresado el 18 de diciembre
+                                            de 2018.
+
+Civil para incorporar el concepto de femicidio en las causales de
                                             indignidad para suceder al difunto, ingresado el 18 de diciembre
                                             de 2018.
 
 ## 20. Boletín N° 12.430-04. Proyecto de ley que modifica la Ley
 
-                                            N°20.370, que establece la Ley General de Educación, para exi-
+**Definición Canónica:** N°20.370, que establece la Ley General de Educación, para exi-
                                             gir a todo establecimiento educacional la implementación de
                                             lineamientos y protocolos de prevención de abuso sexual infantil,
                                             ingresado el 31 de enero de 2019.
 
-## 21. Boletín N° 12.473-07. Proyecto de ley que sanciona el acoso por
-
-                                            cualquier medio, ingresado el 14 de marzo de 2019.
+N°20.370, que establece la Ley General de Educación, para exi-
+                                            gir a todo establecimiento educacional la implementación de
+                                            lineamientos y protocolos de prevención de abuso sexual infantil,
+                                            ingresado el 31 de enero de 2019.
 
 ## 22. Boletín N° 12.542-04. Proyecto de ley que modifica la Ley N°
 
-                                            20.418, que fija normas sobre información, orientación y pres-
+**Definición Canónica:** 20.418, que fija normas sobre información, orientación y pres-
+                                            taciones en materia de regulación de la fertilidad, para obligar
+                                            a los establecimientos educacionales reconocidos por el Estado
+                                            a extender sus programas de educación sexual, a la educación
+                                            básica, ingresado el 04 de abril de 2019.
+
+20.418, que fija normas sobre información, orientación y pres-
                                             taciones en materia de regulación de la fertilidad, para obligar
                                             a los establecimientos educacionales reconocidos por el Estado
                                             a extender sus programas de educación sexual, a la educación
@@ -6757,30 +7160,44 @@ y reproductivos                         Nacional
 
 ## 23. Boletín N° 12.600-34. Proyecto de ley que modifica el Código del
 
-                                            Trabajo, para otorgar a la trabajadora embarazada y a la trabajadora
+**Definición Canónica:** Trabajo, para otorgar a la trabajadora embarazada y a la trabajadora
+                                            o trabajador que ella designe, un permiso laboral para asistir a
+                                            controles prenatales, ingresado el 25 de abril de 2019.
+
+Trabajo, para otorgar a la trabajadora embarazada y a la trabajadora
                                             o trabajador que ella designe, un permiso laboral para asistir a
                                             controles prenatales, ingresado el 25 de abril de 2019.
 
 Derechos sexuales                       Agenda Legislativa                                                  162
 y reproductivos                         Nacional
 
-
 ## 24. Boletín N° 12.702-34. Proyecto de ley que modifica la Ley
 
-                                            N°18.892, General de Pesca y Acuicultura, para establecer una
+**Definición Canónica:** N°18.892, General de Pesca y Acuicultura, para establecer una
+                                            cuota de género en la integración de los órganos y el registro
+                                            pesquero artesanal que ella regula, y adecua definiciones a un
+                                            lenguaje inclusivo, ingresado el 6 de junio de 2019.
+
+N°18.892, General de Pesca y Acuicultura, para establecer una
                                             cuota de género en la integración de los órganos y el registro
                                             pesquero artesanal que ella regula, y adecua definiciones a un
                                             lenguaje inclusivo, ingresado el 6 de junio de 2019.
 
 ## 25. Boletín 12.707-11. Proyecto de ley que establece, garantiza y pro-
 
-                                            mueve los derechos gineco-obstétricos de la mujer en el ámbito
+**Definición Canónica:** mueve los derechos gineco-obstétricos de la mujer en el ámbito
+                                            de las prestaciones de salud, y sanciona su vulneración, ingresado
+                                            el 11 de junio de 2019.
+
+mueve los derechos gineco-obstétricos de la mujer en el ámbito
                                             de las prestaciones de salud, y sanciona su vulneración, ingresado
                                             el 11 de junio de 2019.
 
 ## 26. Boletín N° 12.854-18. Proyecto de ley que modifica la Ley
 
-                                            N°14.908, sobre abandono de familia y pago de pensiones alimen-
+**Definición Canónica:** N°14.908, sobre abandono de familia y pago de pensiones alimen-
+
+N°14.908, sobre abandono de familia y pago de pensiones alimen-
 
                                             ticias, para incorporar como medida de apremio al alimentante
                                             deudor de pensión alimenticia, la negativa de renovación de
@@ -6789,13 +7206,23 @@ y reproductivos                         Nacional
 
 ## 27. Boletín N° 12.955-04. Proyecto de ley que establece bases
 
-                                            generales para la educación afectiva y sexual de niños, niñas y
+**Definición Canónica:** generales para la educación afectiva y sexual de niños, niñas y
+                                            adolescentes, en los establecimientos educacionales, y modifica
+                                            normas legales que indica, ingresado el 12 de septiembre de 2019.
+
+generales para la educación afectiva y sexual de niños, niñas y
                                             adolescentes, en los establecimientos educacionales, y modifica
                                             normas legales que indica, ingresado el 12 de septiembre de 2019.
 
 ## 28. Boletín N° 13.018-13. Proyecto de ley que modifica el Código del
 
-                                            Trabajo y la Ley General de Urbanismo y Construcciones, para
+**Definición Canónica:** Trabajo y la Ley General de Urbanismo y Construcciones, para
+                                            establecer la obligación de contar con salas de amamantamiento
+                                            o lactancia en todo lugar de trabajo, edificios de uso público, y
+                                            otros, en las condiciones que señala, ingresado el 10 de octubre
+                                            de 2019.
+
+Trabajo y la Ley General de Urbanismo y Construcciones, para
                                             establecer la obligación de contar con salas de amamantamiento
                                             o lactancia en todo lugar de trabajo, edificios de uso público, y
                                             otros, en las condiciones que señala, ingresado el 10 de octubre
@@ -6803,14 +7230,23 @@ y reproductivos                         Nacional
 
 ## 29. Boletín N° 13.080-34. Proyecto de ley que modifica el Código
 
-                                            Civil para exigir que se informe a la mujer, previamente a contraer
+**Definición Canónica:** Civil para exigir que se informe a la mujer, previamente a contraer
+                                            matrimonio bajo régimen de sociedad conyugal, sobre los efec-
+                                            tos e implicancias del patrimonio reservado de la mujer casada,
+                                            ingresado el 12 de noviembre de 2019.
+
+Civil para exigir que se informe a la mujer, previamente a contraer
                                             matrimonio bajo régimen de sociedad conyugal, sobre los efec-
                                             tos e implicancias del patrimonio reservado de la mujer casada,
                                             ingresado el 12 de noviembre de 2019.
 
 ## 30. Boletín N° 13.285-34. Proyecto de ley que modifica la Ley
 
-                                            N°19.968, que crea los Tribunales de Familia, y la Ley N°20.066,
+**Definición Canónica:** N°19.968, que crea los Tribunales de Familia, y la Ley N°20.066,
+                                            que establece la Ley de Violencia Intrafamiliar, para posibilitar
+**Concordancias Legales:** Ley N°20.066
+
+N°19.968, que crea los Tribunales de Familia, y la Ley N°20.066,
                                             que establece la Ley de Violencia Intrafamiliar, para posibilitar
 
 Derechos sexuales                                                             Agenda Legislativa                                                         163
@@ -6875,7 +7311,10 @@ y reproductivos                                                               Na
 
 ## 250 Proclamación de Teherán (adoptada en la Conferencia Internacional de Derechos Humanos en Teherán 13 de
 
-                                            mayo de 1968), párrafo 16.
+**Definición Canónica:** mayo de 1968), párrafo 16.
+**Concordancias Legales:** constitucion
+
+mayo de 1968), párrafo 16.
 
 Derechos sexuales                                                               Reflexiones finales                                                          165
 
@@ -7117,7 +7556,13 @@ y reproductivos                                                               Na
 
 ## 13. CATTANEO, Victoria; LEONE, Constanza; MU-
 
-                                        5.   ARAYA, Claudio; GONZALEZ, Javier (2019): “Valo-            SACCHIO, Ofelia; WASYLYK, Fedyszak (2017):
+**Definición Canónica:** 5.   ARAYA, Claudio; GONZALEZ, Javier (2019): “Valo-            SACCHIO, Ofelia; WASYLYK, Fedyszak (2017):
+                                             raciones discursivas en torno a la discusión acer-         “Derechos sexuales y derechos reproductivos
+                                             ca del matrimonio igualitario en Chile”. Disponible        de las personas con discapacidad”. Disponi-
+                                             en: https://scielo.conicyt.cl/scielo.php?script=s-         ble en: http://www.salud.gob.ar/dels/entradas/
+                                             c
+
+5.   ARAYA, Claudio; GONZALEZ, Javier (2019): “Valo-            SACCHIO, Ofelia; WASYLYK, Fedyszak (2017):
                                              raciones discursivas en torno a la discusión acer-         “Derechos sexuales y derechos reproductivos
                                              ca del matrimonio igualitario en Chile”. Disponible        de las personas con discapacidad”. Disponi-
                                              en: https://scielo.conicyt.cl/scielo.php?script=s-         ble en: http://www.salud.gob.ar/dels/entradas/
@@ -7146,10 +7591,16 @@ y reproductivos                                                               Na
 
 Derechos sexuales                                                                                    Bibliografía                                          172
 
-
 ## 17.   Comité de Derechos del Niño (2013): “Observa-          25. Comité de Derechos Económicos, Sociales
 
-                                              ción General N° 14. Sobre el derecho del niño a            y Culturales de las Naciones Unidas (1990):
+**Definición Canónica:** ción General N° 14. Sobre el derecho del niño a            y Culturales de las Naciones Unidas (1990):
+                                              que su interés superior sea una consideración              “Observación General N° 19. La familia (artí-
+                                              primordial (artículo 3°, párrafo 1)”. Disponible en:       culo 23). Disponible en: http://ccprcentre.org/
+                                              https://www.unicef.org/UNICEF-Observacio-                  page/view/general_comments/27791 [visitado el
+                                          
+**Concordancias Legales:** artículo 3
+
+ción General N° 14. Sobre el derecho del niño a            y Culturales de las Naciones Unidas (1990):
                                               que su interés superior sea una consideración              “Observación General N° 19. La familia (artí-
                                               primordial (artículo 3°, párrafo 1)”. Disponible en:       culo 23). Disponible en: http://ccprcentre.org/
                                               https://www.unicef.org/UNICEF-Observacio-                  page/view/general_comments/27791 [visitado el
@@ -7158,7 +7609,14 @@ y reproductivos                                                               Na
 
 ## 26. Consejo Económico y Social de las Naciones
 
-                                        18. CEDAW- Comité para la Eliminación de Todas                   Unidas (2000): “Observación General Nº 14, sobre
+**Definición Canónica:** 18. CEDAW- Comité para la Eliminación de Todas                   Unidas (2000): “Observación General Nº 14, sobre
+                                            las Formas de Discriminación contra la Mujer                 el derecho a la salud del Pacto Internacional de
+                                            (2010): “Recomendación General Nº 28, relativa al            los Derechos Económicos, Sociales y Culturales”.
+                                            artículo 2° de la Convención sobre la Eliminación            Disponible en: https://www.acnur.org/fileadmin/
+                         
+**Concordancias Legales:** artículo 2
+
+18. CEDAW- Comité para la Eliminación de Todas                   Unidas (2000): “Observación General Nº 14, sobre
                                             las Formas de Discriminación contra la Mujer                 el derecho a la salud del Pacto Internacional de
                                             (2010): “Recomendación General Nº 28, relativa al            los Derechos Económicos, Sociales y Culturales”.
                                             artículo 2° de la Convención sobre la Eliminación            Disponible en: https://www.acnur.org/fileadmin/
@@ -7173,7 +7631,14 @@ y reproductivos                                                               Na
 
 ## 21. Sobre la igualdad en el matrimonio y en las
 
-                                              relaciones familiares”. Disponible en: https://www.    28. CORRÊA, Sonia; ÁVILA, María (2003): “Direi-
+**Definición Canónica:** relaciones familiares”. Disponible en: https://www.    28. CORRÊA, Sonia; ÁVILA, María (2003): “Direi-
+                                              ohchr.org/SP/HRBodies/CEDAW/Pages/Recom-                   tos Sexuais e Reprodutivos”, en: Pauta Global e
+                                              mendations.aspx [visitado el 19/02/2020].                  Percursos Brasileiros Sexo & Vida: Panorama da
+                                                                                                         Saúde Reprodutiva no Brasil. Campinas, SP: Edi-
+                                       
+**Concordancias Legales:** artículo 2; constitucion
+
+relaciones familiares”. Disponible en: https://www.    28. CORRÊA, Sonia; ÁVILA, María (2003): “Direi-
                                               ohchr.org/SP/HRBodies/CEDAW/Pages/Recom-                   tos Sexuais e Reprodutivos”, en: Pauta Global e
                                               mendations.aspx [visitado el 19/02/2020].                  Percursos Brasileiros Sexo & Vida: Panorama da
                                                                                                          Saúde Reprodutiva no Brasil. Campinas, SP: Edi-
@@ -7196,10 +7661,15 @@ y reproductivos                                                               Na
                                             CEDAW/Pages/Recommendations.aspx [visitado                   persona y de la familia”, en: Revista de Derecho y
                                             el 19/02/2020].                                              Ciencias Penales (N° 9), pp. 79-85.
 
-
 ## 23. CEDAW. 69° período de sesiones en Ginebra                32. D’ANGELO, Cettina; ALIAGA, Gustavo; MOREI-
 
-                                            (Suiza). (2018). Disponible en: http://tbinternet.           RA, Jazmín; VALENZUELA, Susana; VARGAS,
+**Definición Canónica:** (Suiza). (2018). Disponible en: http://tbinternet.           RA, Jazmín; VALENZUELA, Susana; VARGAS,
+                                            ohchr.org/_layouts/treatybodyexternal/Down-                  Patricia (2008): “Estudio barreras de acceso
+                                            load.aspx?symbolno=CEDAW%2fC%2fCHL%2f-                       a los servicios de salud para la prevención del
+                                            CO%2f7&Lang=en [visitado el 18/01/2020].                     embarazo adolescente en Chile”. Disponible en:
+                                            
+
+(Suiza). (2018). Disponible en: http://tbinternet.           RA, Jazmín; VALENZUELA, Susana; VARGAS,
                                             ohchr.org/_layouts/treatybodyexternal/Down-                  Patricia (2008): “Estudio barreras de acceso
                                             load.aspx?symbolno=CEDAW%2fC%2fCHL%2f-                       a los servicios de salud para la prevención del
                                             CO%2f7&Lang=en [visitado el 18/01/2020].                     embarazo adolescente en Chile”. Disponible en:
@@ -7207,7 +7677,14 @@ y reproductivos                                                               Na
 
 ## 24. Comité de Derechos Económicos, Sociales y                    077631463de04001011e011b94.pdf [visitado el
 
-                                            Culturales de las Naciones Unidas (2009): “Reco-             23/01/2020].
+**Definición Canónica:** Culturales de las Naciones Unidas (2009): “Reco-             23/01/2020].
+                                            mendación General Nº 20. La no discriminación y
+                                            los derechos económicos, sociales y culturales”.
+                                            Disponible en: https://www.ohchr.org/sp/hrbo-
+                                            dies/cescr/pages/cescrindex.aspx [visitado el
+                                            20/02/2020].
+
+Culturales de las Naciones Unidas (2009): “Reco-             23/01/2020].
                                             mendación General Nº 20. La no discriminación y
                                             los derechos económicos, sociales y culturales”.
                                             Disponible en: https://www.ohchr.org/sp/hrbo-
@@ -7216,10 +7693,16 @@ y reproductivos                                                               Na
 
 Derechos sexuales                                                                                 Bibliografía                                         173
 
-
 ## 33. DE BELMONTE, L.R.; GUTIERREZ, E.; MAGNANI             40. FREEDMAN, L.; ISAACS, S. (1993): “Human Rights
 
-                                            R.; LIPOVSEK V. (2000): “Barriers to Adolescents’         and Reproductive Choice” en: Studies in Family
+**Definición Canónica:** R.; LIPOVSEK V. (2000): “Barriers to Adolescents’         and Reproductive Choice” en: Studies in Family
+                                            Use of Reproductive Health Services in Three              Planning, (v. 24, n. 1), pp. 18-30.
+                                            Bolivian Cities”. Disponible en: https://euro-
+                                            pepmc.org/article/pmc/pmc4124555 [visitado el         41. Fundación Humanas (2016): “Nueva Constitución,
+                                            21/02/2020].                                              y derechos sexu
+**Concordancias Legales:** Constitución
+
+R.; LIPOVSEK V. (2000): “Barriers to Adolescents’         and Reproductive Choice” en: Studies in Family
                                             Use of Reproductive Health Services in Three              Planning, (v. 24, n. 1), pp. 18-30.
                                             Bolivian Cities”. Disponible en: https://euro-
                                             pepmc.org/article/pmc/pmc4124555 [visitado el         41. Fundación Humanas (2016): “Nueva Constitución,
@@ -7228,14 +7711,22 @@ y reproductivos                                                               Na
 
 ## 34. DE BLOOM, A.; BÖRSCH-SUPAN , P. (2012): “En-              uploads/2016/08/Booklet-NC-DDSSRR.pdf [visi-
 
-                                            vejecimiento de la población: macro desafíos y            tado el 08/02/2020].
+**Definición Canónica:** vejecimiento de la población: macro desafíos y            tado el 08/02/2020].
+                                            respuestas políticas” en: Foro Económico Mun-
+                                            dial : Ginebra , pp. 35–38.                           42. GAUCHÉ, Ximena (2016): Estándares sobre
+                                                                                                      derechos sexuales y reproductivos en el derecho
+
+vejecimiento de la población: macro desafíos y            tado el 08/02/2020].
                                             respuestas políticas” en: Foro Económico Mun-
                                             dial : Ginebra , pp. 35–38.                           42. GAUCHÉ, Ximena (2016): Estándares sobre
                                                                                                       derechos sexuales y reproductivos en el derecho
 
 ## 35. Diario Constitucional (2018): Disponible en:              internacional de los derechos humanos. Aportes
 
-                                            https://www.diarioconstitucional.cl/noticias/             para su consideración en la discusión en Chile del
+**Definición Canónica:** https://www.diarioconstitucional.cl/noticias/             para su consideración en la discusión en Chile del
+**Concordancias Legales:** constitucion
+
+https://www.diarioconstitucional.cl/noticias/             para su consideración en la discusión en Chile del
 
                                             asuntos-de-interes-publico/2018/12/13/juzga-              proyecto de ley que despenaliza la interrupción
                                             do-de-letras-de-punta-arenas-ordena-cam-                  voluntaria del embarazo en tres causales. Dis-
@@ -7253,7 +7744,14 @@ y reproductivos                                                               Na
 
 ## 37.   ESPEJO, Nicolás y LATHROP, Fabiola
 
-                                              (2015): “Identidad de género, relaciones fa-        44. Institute of Medicine (2011); The Health of
+**Definición Canónica:** (2015): “Identidad de género, relaciones fa-        44. Institute of Medicine (2011); The Health of
+                                              miliares y derechos de niños, niñas y adoles-           Lesbian, Gay, Bisexual, and Transgender People:
+                                              centes: comentarios al proyecto de ley que              Building a Foundation for Better Understanding,
+                                              reconoce y da protección al derecho a la iden-          The National Academies Press. Disponible en:
+                                              tidad d
+**Concordancias Legales:** Constitución
+
+(2015): “Identidad de género, relaciones fa-        44. Institute of Medicine (2011); The Health of
                                               miliares y derechos de niños, niñas y adoles-           Lesbian, Gay, Bisexual, and Transgender People:
                                               centes: comentarios al proyecto de ley que              Building a Foundation for Better Understanding,
                                               reconoce y da protección al derecho a la iden-          The National Academies Press. Disponible en:
@@ -7281,10 +7779,15 @@ y reproductivos                                                               Na
 
 Derechos sexuales                                                                                Bibliografía                                          174
 
-
 ## 48. La Tercera (2019). Nota de Prensa: “Inédito: Corte   56. Ministerio de Educación (2019): “Comisión por
 
-                                            de Apelaciones ordena a isapre dejar de conside-         una educación con equidad de género. Propues-
+**Definición Canónica:** de Apelaciones ordena a isapre dejar de conside-         una educación con equidad de género. Propues-
+                                            rar la transexualidad como una enfermedad”. Dis-         tas de acción”. Disponible en: https://equidadde-
+                                            ponible en: https://www.latercera.com/nacional/          genero.mineduc.cl/assets/pdf/propuestas-com-
+                                            noticia/inedito-corte-apelaciones-ordena-isa-            pressed.pdf [visitado el 21/02/2020].
+                                            pre-dejar-conside
+
+de Apelaciones ordena a isapre dejar de conside-         una educación con equidad de género. Propues-
                                             rar la transexualidad como una enfermedad”. Dis-         tas de acción”. Disponible en: https://equidadde-
                                             ponible en: https://www.latercera.com/nacional/          genero.mineduc.cl/assets/pdf/propuestas-com-
                                             noticia/inedito-corte-apelaciones-ordena-isa-            pressed.pdf [visitado el 21/02/2020].
@@ -7294,7 +7797,13 @@ y reproductivos                                                               Na
 
 ## 49. La Vanguardia (2019). Nota de Prensa: “La                  nible en: https://www.minsal.cl/wp-content/
 
-                                            primera inyección anticonceptiva para hom-                 uploads/2015/09/2018.01.30_NORMAS-REGU-
+**Definición Canónica:** primera inyección anticonceptiva para hom-                 uploads/2015/09/2018.01.30_NORMAS-REGU-
+                                            bres podría estar disponible en seis meses”.               LACION-DE-LA-FERTILIDAD.pdf [visitado el
+                                            Disponible en: https://www.lavanguardia.com/               20/02/2020].
+                                            vida/20191121/471774282166/anticoncepti-
+                                            vo-masculino-india-ensayos-investigacion.html        58. Ministerio de Salud (2017-2): “Plan para Pueblos
+
+primera inyección anticonceptiva para hom-                 uploads/2015/09/2018.01.30_NORMAS-REGU-
                                             bres podría estar disponible en seis meses”.               LACION-DE-LA-FERTILIDAD.pdf [visitado el
                                             Disponible en: https://www.lavanguardia.com/               20/02/2020].
                                             vida/20191121/471774282166/anticoncepti-
@@ -7305,16 +7814,23 @@ y reproductivos                                                               Na
 
 ## 50. LOZANO, I. (2009): “El significado de homose-            www.minsal.cl/wp-content/uploads/2017/04/
 
-                                            xualidad en jóvenes de la ciudad de México”.             PPI-_Chile_HESSP-7-de-abril-2017-MINSAL-OK.
+**Definición Canónica:** xualidad en jóvenes de la ciudad de México”.             PPI-_Chile_HESSP-7-de-abril-2017-MINSAL-OK.
                                             Disponible en: http://www.redalyc.org/articulo.          pdf [visitado el 20/02/2020].
                                             oa?id=29214111 [visitado el 17/02/2020].
 
-## 59. Ministerio de Salud (2018) Subsecretaría de
-
+xualidad en jóvenes de la ciudad de México”.             PPI-_Chile_HESSP-7-de-abril-2017-MINSAL-OK.
+                                            Disponible en: http://www.redalyc.org/articulo.          pdf [visitado el 20/02/2020].
+                                            oa?id=29214111 [visitado el 17/02/2020].
 
 ## 51. LUSTI-NARASIMHAN, M; BEARD, JR.                          Salud Pública: “Política Nacional de Salud Sexual
 
-                                            (2013): “Salud sexual en mujeres mayores”.               y Salud Reproductiva”. Disponible en: https://
+**Definición Canónica:** (2013): “Salud sexual en mujeres mayores”.               y Salud Reproductiva”. Disponible en: https://
+                                            Disponible en: https://www.who.int/bulletin/             diprece.minsal.cl/wrdprss_minsal/wp-content/
+                                            volumes/86/12/08-059394/es/ [visitado el                 uploads/2018/03/POLITICA-NACIONAL-DE-SA-
+                                            18/02/2020].                                             LUD-SEXUAL-Y-REPRODUCTIVA-..pdf [visitado
+                                                                 
+
+(2013): “Salud sexual en mujeres mayores”.               y Salud Reproductiva”. Disponible en: https://
                                             Disponible en: https://www.who.int/bulletin/             diprece.minsal.cl/wrdprss_minsal/wp-content/
                                             volumes/86/12/08-059394/es/ [visitado el                 uploads/2018/03/POLITICA-NACIONAL-DE-SA-
                                             18/02/2020].                                             LUD-SEXUAL-Y-REPRODUCTIVA-..pdf [visitado
@@ -7322,16 +7838,28 @@ y reproductivos                                                               Na
 
 ## 52. MADDALENO, Matilde; SCHUTT–AINE, Jessie
 
-                                            (2003): “Salud sexual y desarrollo de adolescen-     60. Ministerio de Salud (2019): “Ley N°21.030 a 2
+**Definición Canónica:** (2003): “Salud sexual y desarrollo de adolescen-     60. Ministerio de Salud (2019): “Ley N°21.030 a 2
+                                            tes y jóvenes en las Américas: implicaciones en          años de su entrada en vigencia”. Disponible en:
+                                            programas y políticas”. Disponible en: http://ns.        https://www.minsal.cl/ley-n21-030-a-2-anos-
+                                            desastres.hn/docum/ops/pdf/SSRA.pdf [visitado            de-su-entrada-en-vigencia-ive/ [visitado el
+                                            el 22/02/2020]
+**Concordancias Legales:** Ley N°21.030
+
+(2003): “Salud sexual y desarrollo de adolescen-     60. Ministerio de Salud (2019): “Ley N°21.030 a 2
                                             tes y jóvenes en las Américas: implicaciones en          años de su entrada en vigencia”. Disponible en:
                                             programas y políticas”. Disponible en: http://ns.        https://www.minsal.cl/ley-n21-030-a-2-anos-
                                             desastres.hn/docum/ops/pdf/SSRA.pdf [visitado            de-su-entrada-en-vigencia-ive/ [visitado el
                                             el 22/02/2020].                                          31/01/2020].
 
-
 ## 53. MATTAR, Laura (2008): “Reconocimiento jurídico       61. MONTAÑO, Sonia; CALDERON, Coral (2010): “El
 
-                                            de los derechos sexuales: un análisis comparativo        cuidado en acción entre el derecho y el trabajo”.
+**Definición Canónica:** de los derechos sexuales: un análisis comparativo        cuidado en acción entre el derecho y el trabajo”.
+                                            con los derechos reproductivos”. Disponible en:          Disponible en: https://repositorio.cepal.org/hand-
+                                            http://www.scielo.br/scielo.php?script=sci_ar-           le/11362/27845 [visitado el 18/02/2020].
+                                            ttext&pid=S1806-64452008000100004&ln-
+                                            g=en&nrm=iso [visitado el 26/12/2019].               62. MORALES, Alexand
+
+de los derechos sexuales: un análisis comparativo        cuidado en acción entre el derecho y el trabajo”.
                                             con los derechos reproductivos”. Disponible en:          Disponible en: https://repositorio.cepal.org/hand-
                                             http://www.scielo.br/scielo.php?script=sci_ar-           le/11362/27845 [visitado el 18/02/2020].
                                             ttext&pid=S1806-64452008000100004&ln-
@@ -7340,7 +7868,13 @@ y reproductivos                                                               Na
 
 ## 54. MINYERSKY, NELLY: Derechos sexuales y repro-             go sexual entre adolescentes heterosexuales
 
-                                            ductivos: el aborto legal y seguro. En KEMELMA-          y no heterosexuales?”. Disponible en: http://
+**Definición Canónica:** ductivos: el aborto legal y seguro. En KEMELMA-          y no heterosexuales?”. Disponible en: http://
+                                            JER DE CARLUCCI, AÍDA y PÉREZ GALLARDO,                  scielo.isciii.es/scielo.php?script=sci_arttext&pi-
+                                            LEONARDO B. (2006): Nuevos perfiles del dere-            d=S1578-908X2013000200013&lng=es&nrm=i-
+                                            cho de familia. Libro homenaje a la profesora Dra.       so [visitado el 31/12/2019].
+                                            Olga Mesa Castillo, Rubinzal-C
+
+ductivos: el aborto legal y seguro. En KEMELMA-          y no heterosexuales?”. Disponible en: http://
                                             JER DE CARLUCCI, AÍDA y PÉREZ GALLARDO,                  scielo.isciii.es/scielo.php?script=sci_arttext&pi-
                                             LEONARDO B. (2006): Nuevos perfiles del dere-            d=S1578-908X2013000200013&lng=es&nrm=i-
                                             cho de familia. Libro homenaje a la profesora Dra.       so [visitado el 31/12/2019].
@@ -7362,21 +7896,22 @@ y reproductivos                                                               Na
                                             org.co/pdf/jusju/v10n1/v10n1a02.pdf [visitado el           18/02/2020].
                                             20/02/2020].
 
-## 73. OMS (2018): “Anticoncepción de urgencia”. Dis-
-
-
 ## 65. OEA (1994): “Mujer y educación en América                  ponible en: https://www.who.int/es/news-room/
 
-                                            Latina: Hacia la igualdad de oportunidades”.               fact-sheets/detail/emergency-contraception
+**Definición Canónica:** Latina: Hacia la igualdad de oportunidades”.               fact-sheets/detail/emergency-contraception
                                             Disponible en: https://rieoei.org/historico/oeivirt/       [visitado el 23/02/2020].
                                             rie06a01.htm [Visitado el 05/01/2020].
 
-## 74. ONU (1994): “Report of the International Confe-
-
+Latina: Hacia la igualdad de oportunidades”.               fact-sheets/detail/emergency-contraception
+                                            Disponible en: https://rieoei.org/historico/oeivirt/       [visitado el 23/02/2020].
+                                            rie06a01.htm [Visitado el 05/01/2020].
 
 ## 66. OEA. Comisión Interamericana de Derechos                   rence on Population and Development”. Disponi-
 
-                                            Humanos (2017): “Exhorta a todos los Estados a             ble en: https://www.un.org/en/development/desa/
+**Definición Canónica:** Humanos (2017): “Exhorta a todos los Estados a             ble en: https://www.un.org/en/development/desa/
+                                            adoptar medidas integrales e inmediatas para               population/events/pdf/expert/27/SupportingDo-
+
+Humanos (2017): “Exhorta a todos los Estados a             ble en: https://www.un.org/en/development/desa/
                                             adoptar medidas integrales e inmediatas para               population/events/pdf/expert/27/SupportingDo-
 
                                             respetar y garantizar los derechos sexuales y              cuments/A_CONF.171_13_Rev.1.pdf [visitado el
@@ -7402,7 +7937,13 @@ y reproductivos                                                               Na
 
 ## 69. OMS (2002): Defining Sexual Health, Report of a              nible en: http://www.unhcr.org/refworld/doci-
 
-                                            Technical Consultation on Sexual Health. Dispo-              d/4551c0d04.html [visitado el 21/02/2020].
+**Definición Canónica:** Technical Consultation on Sexual Health. Dispo-              d/4551c0d04.html [visitado el 21/02/2020].
+                                            nible en: https://www.who.int/reproductivehealth/
+                                            publications/sexual_health/defining_sexual_            78. ONU, Alto comisionado de los Derechos Huma-
+                                            health.pdf [Visitado el 05/01/2020].                       nos (2006): “Declaración de la Oficina del Alto
+                                                                                                       C
+
+Technical Consultation on Sexual Health. Dispo-              d/4551c0d04.html [visitado el 21/02/2020].
                                             nible en: https://www.who.int/reproductivehealth/
                                             publications/sexual_health/defining_sexual_            78. ONU, Alto comisionado de los Derechos Huma-
                                             health.pdf [Visitado el 05/01/2020].                       nos (2006): “Declaración de la Oficina del Alto
@@ -7423,10 +7964,16 @@ y reproductivos                                                               Na
 
 Derechos sexuales                                                                                Bibliografía                                          176
 
-
 ## 80. ONU, Alto comisionado de los Derechos Huma-          88. REDLAC (2019): “¿Qué es la autonomía progre-
 
-                                            nos (2013): “Orientación sexual e identidad de           siva?”. Disponible en: http://jovenesredlac.org/
+**Definición Canónica:** nos (2013): “Orientación sexual e identidad de           siva?”. Disponible en: http://jovenesredlac.org/
+                                            género en el derecho internacional de los de-            que-es-la-autonomia-progresiva/ [visitado el
+                                            rechos humanos”. Disponible en: http://acnudh.           22/02/2020].
+                                            org/wp-content/uploads/2013/11/orentaci%-
+                                            C3%B3n-sexual-e-identidad-de-g%C3%A9ne-              89. RESÉNDEZ, Pedro (2016): “Protección del dere-
+ 
+
+nos (2013): “Orientación sexual e identidad de           siva?”. Disponible en: http://jovenesredlac.org/
                                             género en el derecho internacional de los de-            que-es-la-autonomia-progresiva/ [visitado el
                                             rechos humanos”. Disponible en: http://acnudh.           22/02/2020].
                                             org/wp-content/uploads/2013/11/orentaci%-
@@ -7436,7 +7983,14 @@ y reproductivos                                                               Na
 
 ## 81. ONU (2019): Nota de prensa. “La violencia y              scielo.org.mx/scielo.php?script=sci_arttext&pi-
 
-                                            discriminación dentro de las familias son una            d=S1405-91932016000200307 [visitado el
+**Definición Canónica:** discriminación dentro de las familias son una            d=S1405-91932016000200307 [visitado el
+                                            amenaza para las mujeres”. Noticias ONU.                 19/02/2020].
+                                            Disponible en: https://news.un.org/es/au-
+                                            dio/2019/06/1458391 [visitado el 21/01/2020].        90. Revista Chilena de Obstetricia y Ginecología
+                                                                                                     (2013): “Ley 20.418: historia de una ley por la dig-
+**Concordancias Legales:** Ley 20.418
+
+discriminación dentro de las familias son una            d=S1405-91932016000200307 [visitado el
                                             amenaza para las mujeres”. Noticias ONU.                 19/02/2020].
                                             Disponible en: https://news.un.org/es/au-
                                             dio/2019/06/1458391 [visitado el 21/01/2020].        90. Revista Chilena de Obstetricia y Ginecología
@@ -7451,7 +8005,14 @@ y reproductivos                                                               Na
 
 ## 83. ORJUELA, Liliana; RODRÍGUEZ, Bartolomé                   Disponible en: https://www.dt.gob.cl/portal/1629/
 
-                                            (2012): “Violencia sexual contra los niños y las         articles-103042_archivo_01.pdf [visitado el
+**Definición Canónica:** (2012): “Violencia sexual contra los niños y las         articles-103042_archivo_01.pdf [visitado el
+                                            niñas. Abuso y explotación infantil”. Disponible         21/02/2020].
+                                            en: https://www.savethechildren.es/sites/default/
+                                            files/imce/docs/violencia_sexual_contra_losni-       92. SAETEROS HERNÁNDEZ, Rosa del Carmen; SA-
+                                            nosylasninas.pdf [visitado el 20/02/2020].               NABRIA RAMOS, Giselda; PÉREZ PINERO, Julia
+     
+
+(2012): “Violencia sexual contra los niños y las         articles-103042_archivo_01.pdf [visitado el
                                             niñas. Abuso y explotación infantil”. Disponible         21/02/2020].
                                             en: https://www.savethechildren.es/sites/default/
                                             files/imce/docs/violencia_sexual_contra_losni-       92. SAETEROS HERNÁNDEZ, Rosa del Carmen; SA-
@@ -7460,7 +8021,13 @@ y reproductivos                                                               Na
 
 ## 84. PELAEZ, Jorge (2008): “Salud sexual y reproduc-          estudiantes de politécnicos ecuatorianos”. Dispo-
 
-                                            tiva de adolescentes y jóvenes: una mirada desde         nible en: http://scielo.sld.cu/scielo.php?script=sci_
+**Definición Canónica:** tiva de adolescentes y jóvenes: una mirada desde         nible en: http://scielo.sld.cu/scielo.php?script=sci_
+                                            la óptica de los derechos humanos”. Disponible           arttext&pid=S0864-34662014000400006&ln-
+                                            en: http://scielo.sld.cu/scielo.php?script=sci_ar-       g=es&nrm=iso [visitado el 30/12/2019].
+                                            ttext&pid=S0138-600X2008000200005&ln-
+                                            g=es&nrm=iso [visitado el 29/01/2020].               93. Salud y diversidad sexual
+
+tiva de adolescentes y jóvenes: una mirada desde         nible en: http://scielo.sld.cu/scielo.php?script=sci_
                                             la óptica de los derechos humanos”. Disponible           arttext&pid=S0864-34662014000400006&ln-
                                             en: http://scielo.sld.cu/scielo.php?script=sci_ar-       g=es&nrm=iso [visitado el 30/12/2019].
                                             ttext&pid=S0138-600X2008000200005&ln-
@@ -7469,7 +8036,13 @@ y reproductivos                                                               Na
 
 ## 85. PEREZ, Yolinliztli (2016): “Consentimiento sexual:       uruguay.unfpa.org/sites/default/files/pub-pdf/
 
-                                            un análisis con perspectiva de género”. Disponible       Salud%20y%20Diversidad%20Sexual.pdf [visi-
+**Definición Canónica:** un análisis con perspectiva de género”. Disponible       Salud%20y%20Diversidad%20Sexual.pdf [visi-
+                                            en: http://www.scielo.org.mx/scielo.php?script=s-        tado el 20/02/2020].
+                                            ci_arttext&pid=S0188-25032016000400741&l-
+                                            ng=es&nrm=iso [visitado el 19/02/2020].              94. STEINER, Achim (2020): Día Internacional de
+                                                                                                     la Mujer 2020. Declaración del Día Internacio-
+
+un análisis con perspectiva de género”. Disponible       Salud%20y%20Diversidad%20Sexual.pdf [visi-
                                             en: http://www.scielo.org.mx/scielo.php?script=s-        tado el 20/02/2020].
                                             ci_arttext&pid=S0188-25032016000400741&l-
                                             ng=es&nrm=iso [visitado el 19/02/2020].              94. STEINER, Achim (2020): Día Internacional de
@@ -7477,7 +8050,13 @@ y reproductivos                                                               Na
 
 ## 86. PETCHESKY, R.P. (1999): “Direitos Sexuais: um            nal de la Mujer, 8 de marzo de 2020. Tema: “Soy
 
-                                            Novo Conceito na Prática Política Internacional”,        Generación Igualdad: por los derechos de las
+**Definición Canónica:** Novo Conceito na Prática Política Internacional”,        Generación Igualdad: por los derechos de las
+                                            en: Sexualidades pelo Avesso: Direitos, Identi-          mujeres”, en consonancia con la campaña Ge-
+                                            dades e Poder. Río de Janeiro: IMS/UERJ; (San            neración Igualdad de ONU Mujeres. Disponible
+                                            Pablo: Ed. 34), pp. 16-25.                               en: https://www.undp.org/content/undp/es/home/
+                                                           
+
+Novo Conceito na Prática Política Internacional”,        Generación Igualdad: por los derechos de las
                                             en: Sexualidades pelo Avesso: Direitos, Identi-          mujeres”, en consonancia con la campaña Ge-
                                             dades e Poder. Río de Janeiro: IMS/UERJ; (San            neración Igualdad de ONU Mujeres. Disponible
                                             Pablo: Ed. 34), pp. 16-25.                               en: https://www.undp.org/content/undp/es/home/
@@ -7493,26 +8072,35 @@ y reproductivos                                                               Na
 
 Derechos sexuales                                                                                  Bibliografía                                              177
 
-
 ## 96. UNESCO (2019): “Educación e igualdad de                104. WILSON, Bruce; REINER, William (1998): “Ma-
 
-                                            género”. Disponible en: https://es.unesco.org/              nagement of Intersex: a Shifting Paradigm” en:
+**Definición Canónica:** género”. Disponible en: https://es.unesco.org/              nagement of Intersex: a Shifting Paradigm” en:
                                             themes/educacion-igualdad-genero [visitado el               The Journal of Clinical Ethics, (Vol 9, No 4), pp.
                                             21/02/2020].                                                360-399.
 
+género”. Disponible en: https://es.unesco.org/              nagement of Intersex: a Shifting Paradigm” en:
+                                            themes/educacion-igualdad-genero [visitado el               The Journal of Clinical Ethics, (Vol 9, No 4), pp.
+                                            21/02/2020].                                                360-399.
 
 ## 97.   UNICEF (2014): “Ocultos a plena luz. Un análi-       105. ZÚÑIGA, Francisco (2012): “Comentario de la
 
-                                              sis estadístico de la violencia contra los niños”.        sentencia de la Corte Interamericana de Dere-
+**Definición Canónica:** sis estadístico de la violencia contra los niños”.        sentencia de la Corte Interamericana de Dere-
+                                              Disponible en: https://www.unicef.es/publica-             chos Humanos, Caso Atala Riffo y niñas vs. Chile,
+                                              cion/ocultos-plena-luz-un-analisis-estadisti-             de 24 de febrero de 2012”. Disponible en: https://
+                                              co-de-la-violencia-contra-los-ninos [visitado el          scielo.conicyt.cl/pdf/estconst/v10n1/art12.pdf
+                                    
+
+sis estadístico de la violencia contra los niños”.        sentencia de la Corte Interamericana de Dere-
                                               Disponible en: https://www.unicef.es/publica-             chos Humanos, Caso Atala Riffo y niñas vs. Chile,
                                               cion/ocultos-plena-luz-un-analisis-estadisti-             de 24 de febrero de 2012”. Disponible en: https://
                                               co-de-la-violencia-contra-los-ninos [visitado el          scielo.conicyt.cl/pdf/estconst/v10n1/art12.pdf
                                               11/02/2020].                                              [visitado el 20/02/2020].
 
-
 ## 98. UNICEF (2014): Guía regional sobre adolescen-          106. Canal 24 Horas (2019). Nota de Prensa. “Lle-
 
-                                            tes. Disponible en: https://www.unicef.org/lac/             gará al mercado primera inyección anticon-
+**Definición Canónica:** tes. Disponible en: https://www.unicef.org/lac/             gará al mercado primera inyección anticon-
+
+tes. Disponible en: https://www.unicef.org/lac/             gará al mercado primera inyección anticon-
 
                                             media/2646/file/PDF%20Edad%20m%C3%AD-                       ceptiva para hombres” Disponible en: https://
                                             nima%20para%20el%20consentimiento%20                        www.24horas.cl/tendencias/ciencia-tecnologia/
@@ -7530,7 +8118,15 @@ y reproductivos                                                               Na
 
 ## 100. VALENZUELA, Cecilia; VILLAVICENCIO, Luis
 
-                                                                                                        1996.
+**Definición Canónica:** 1996.
+                                             (2015): “La constitucionalización de los derechos
+                                             sexuales y reproductivos. Hacia una igual ciu-        2.   Caso “Comunidad Indígena Sawhoyamaxa vs.
+                                             dadanía para las mujeres”. Disponible en: http://          Paraguay” (2005), de 3 de febrero de 2005. Corte
+                                             www.revistaiepraxis.cl/index.php/iepraxis/article/         Interamericana de Derechos Humanos (sentencia
+                                             view/3
+**Concordancias Legales:** constitucion
+
+1996.
                                              (2015): “La constitucionalización de los derechos
                                              sexuales y reproductivos. Hacia una igual ciu-        2.   Caso “Comunidad Indígena Sawhoyamaxa vs.
                                              dadanía para las mujeres”. Disponible en: http://          Paraguay” (2005), de 3 de febrero de 2005. Corte
@@ -7548,15 +8144,27 @@ y reproductivos                                                               Na
 
 ## 102. VONSTRITZKY, Johannes (2013): “El desarrollo
 
-                                             de la protección jurídica de las personas homo-       5.   Caso “Fontevecchia y D’amico vs. Argentina”
+**Definición Canónica:** de la protección jurídica de las personas homo-       5.   Caso “Fontevecchia y D’amico vs. Argentina”
+                                             sexuales, bisexuales, transexuales e intersexua-           (2010) de 10 de diciembre de 2010. Corte Intera-
+                                             les (LGBT) en Alemania”, en: Revista General de            mericana de Derechos Humanos (sentencia de 29
+                                             Derecho Constitucional (N° 17), pp. 1-29.                  de noviembre de 2011).
+**Concordancias Legales:** Constitucion
+
+de la protección jurídica de las personas homo-       5.   Caso “Fontevecchia y D’amico vs. Argentina”
                                              sexuales, bisexuales, transexuales e intersexua-           (2010) de 10 de diciembre de 2010. Corte Intera-
                                              les (LGBT) en Alemania”, en: Revista General de            mericana de Derechos Humanos (sentencia de 29
                                              Derecho Constitucional (N° 17), pp. 1-29.                  de noviembre de 2011).
 
-
 ## 103. WARENIUS, LU; FAXELID, EA; CHISHIMBA, PN;             6.   Caso “Artavia Murillo y otros vs. Costa Rica”
 
-                                             MUSANDU, JO; ONG’ANY, AA; NISSEN, EBM.                     (2011), de 29 de julio de 2011. Corte Interameri-
+**Definición Canónica:** MUSANDU, JO; ONG’ANY, AA; NISSEN, EBM.                     (2011), de 29 de julio de 2011. Corte Interameri-
+                                             (2006): “Nurse-midwives’ Attitudes Towards Ado-            cana de Derechos Humanos (sentencia de 28 de
+                                             lescent Sexual and Reproductive Health Needs in            noviembre de 2012).
+                                             Kenya and Zambia. Reproductive Health Matters”.
+                                             Disponible en: https://www.ncbi.nlm.nih.gov/pmc/
+                               
+
+MUSANDU, JO; ONG’ANY, AA; NISSEN, EBM.                     (2011), de 29 de julio de 2011. Corte Interameri-
                                              (2006): “Nurse-midwives’ Attitudes Towards Ado-            cana de Derechos Humanos (sentencia de 28 de
                                              lescent Sexual and Reproductive Health Needs in            noviembre de 2012).
                                              Kenya and Zambia. Reproductive Health Matters”.
@@ -7565,10 +8173,17 @@ y reproductivos                                                               Na
 
 Derechos sexuales                                                                                      Bibliografía                                              178
 
-
 ## 7.    Opinión Consultiva oc-24/17 de 24 de noviembre                 Referencias electrónicas
 
-                                              de 2017 solicitada por la República de Costa Rica.
+**Definición Canónica:** de 2017 solicitada por la República de Costa Rica.
+                                              Identidad de género, e igualdad y no discrimi-           1.    Biblioteca del Congreso Nacional: www.bcn.cl
+                                              nación a parejas del mismo sexo obligaciones
+                                                                                                       2.    Biblioteca Nacional de Medicina de EE.UU.:
+                                              estatales en relación con el cambio de nombre,
+                                                           
+**Concordancias Legales:** artículos 1.1; artículo 1; Constitucion
+
+de 2017 solicitada por la República de Costa Rica.
                                               Identidad de género, e igualdad y no discrimi-           1.    Biblioteca del Congreso Nacional: www.bcn.cl
                                               nación a parejas del mismo sexo obligaciones
                                                                                                        2.    Biblioteca Nacional de Medicina de EE.UU.:
@@ -7593,37 +8208,39 @@ y reproductivos                                                               Na
                                               Salvador” (2000) de 24 de enero de 2000. Comi-                 http://icmer.org
                                               sión Interamericana de Derechos Humanos.
 
-## 8.    Instituto Nacional de Estadísticas: www.ine.cl
-
-
-## 10. Caso “Luis Rolando Cuscul Pivaral y otras per-
-
-
 ## 9.    Senado de Chile: www.senado.cl
 
-                                            sonas afectadas por el VIH/SIDA vs. Guatemala”
+**Definición Canónica:** sonas afectadas por el VIH/SIDA vs. Guatemala”
                                             (2003) de 26 de agosto de 2003. Comisión Inte-             10. Superintendencia de Educación: www.supereduc.cl
                                             ramericana de Derechos Humanos.
 
-## 11.   Tribunal Constitucional de Chile: www.tribunal-
-
+sonas afectadas por el VIH/SIDA vs. Guatemala”
+                                            (2003) de 26 de agosto de 2003. Comisión Inte-             10. Superintendencia de Educación: www.supereduc.cl
+                                            ramericana de Derechos Humanos.
 
 ## 11.   Caso “Paulina del Carmen Ramírez Jacinto vs.                   constitucional.cl
 
-                                              México” (2002), de 8 de marzo de 2002. Comisión
+**Definición Canónica:** México” (2002), de 8 de marzo de 2002. Comisión
                                               Interamericana de Derechos Humanos (acuerdo              12. Universidad de Princeton: Oficina de Investiga-
                                               de solución amistosa de 9 de marzo de 2007).                 ción en Temas de Población https://ec.princeton.
                                                                                                            edu/info_es/privacy.html
 
-## 12. Caso “Zapata con Sociedad Comercial Marín Li-
-
-                                            mitada”. Rol 17314-2012, Tercer Juzgado Civil de
-                                            Santiago (sentencia 5 de diciembre de 2012).
-
+México” (2002), de 8 de marzo de 2002. Comisión
+                                              Interamericana de Derechos Humanos (acuerdo              12. Universidad de Princeton: Oficina de Investiga-
+                                              de solución amistosa de 9 de marzo de 2007).                 ción en Temas de Población https://ec.princeton.
+                                                                                                           edu/info_es/privacy.html
 
 ## 13. Caso “Majmud c/ Ministerio de Obras Publicas”.                   Normas jurídicas citadas
 
-                                            Rol C-5451-2013, 4° Juzgado Civil de Antofa-
+**Definición Canónica:** Rol C-5451-2013, 4° Juzgado Civil de Antofa-
+                                                                                                       1.    Constitución Política de la República de Chile,
+                                            gasta. Sentencia 30 de junio de 2014. En Se-
+                                                                                                             Diario Oficial, 1980, Reforma de 22 de septiembre
+                                            gunda Instancia Rol Corte 824-2014, Corte de
+                                                             
+**Concordancias Legales:** Constitución Política
+
+Rol C-5451-2013, 4° Juzgado Civil de Antofa-
                                                                                                        1.    Constitución Política de la República de Chile,
                                             gasta. Sentencia 30 de junio de 2014. En Se-
                                                                                                              Diario Oficial, 1980, Reforma de 22 de septiembre
@@ -7635,23 +8252,35 @@ y reproductivos                                                               Na
 
 ## 14. Caso “O.B.C”. Rol 70584-16, Corte Suprema (sen-
 
-                                            tencia 29 de mayo de 2018).                                3.    Código Penal de Chile, Diario Oficial, 1874. Última
+**Definición Canónica:** tencia 29 de mayo de 2018).                                3.    Código Penal de Chile, Diario Oficial, 1874. Última
+                                                                                                             versión de 4 de marzo de 2020.
+
+tencia 29 de mayo de 2018).                                3.    Código Penal de Chile, Diario Oficial, 1874. Última
                                                                                                              versión de 4 de marzo de 2020.
 
 ## 15. Caso “F.P.M”. Rol 8712-2018, Corte de Apelacio-
 
-                                            nes de Santiago (sentencia 1 de abril de 2019).            4.    Código del Trabajo de Chile, Diario Oficial 1931.
+**Definición Canónica:** nes de Santiago (sentencia 1 de abril de 2019).            4.    Código del Trabajo de Chile, Diario Oficial 1931.
+                                                                                                             Última versión de 29 de febrero de 2020.
+
+nes de Santiago (sentencia 1 de abril de 2019).            4.    Código del Trabajo de Chile, Diario Oficial 1931.
                                                                                                              Última versión de 29 de febrero de 2020.
 
 ## 16. Tribunal Constitucional de Chile. Roles: STC 1732
 
-                                            c. 23; STC 1990 c. 32 y 33; STC 521 c. 20; STC             5.    Código Sanitario de Chile, Diario Oficial, 1968.
+**Definición Canónica:** c. 23; STC 1990 c. 32 y 33; STC 521 c. 20; STC             5.    Código Sanitario de Chile, Diario Oficial, 1968.
                                             2867, c.42 y 15.                                                 Última versión 8 de enero de 2020.
 
+c. 23; STC 1990 c. 32 y 33; STC 521 c. 20; STC             5.    Código Sanitario de Chile, Diario Oficial, 1968.
+                                            2867, c.42 y 15.                                                 Última versión 8 de enero de 2020.
 
 ## 6.    Ley N° 19.585. Modifica el Código Civil y otros
 
-                                                                                                             cuerpos legales en materia de filiación, Diario
+**Definición Canónica:** cuerpos legales en materia de filiación, Diario
+                                                                                                             Oficial, 26 de octubre de 1998.
+**Concordancias Legales:** Ley N° 19.620; Ley N° 20.480; Ley N° 19.628; Ley Nº 20.545; Ley N° 19.779; Ley N° 20.584; Ley N° 19.874
+
+cuerpos legales en materia de filiación, Diario
                                                                                                              Oficial, 26 de octubre de 1998.
 
 Derechos sexuales                                                                                     Bibliografía                                            179
@@ -7677,7 +8306,14 @@ y reproductivos                                                               Na
 
 ## 23. Ley N° 20.609. Establece medidas contra la
 
-                                        11.   Ley N° 19.947. Establece nueva Ley de Matrimo-              discriminación, Diario Oficial, 24 de julio de 2012.
+**Definición Canónica:** 11.   Ley N° 19.947. Establece nueva Ley de Matrimo-              discriminación, Diario Oficial, 24 de julio de 2012.
+                                              nio Civil, Diario Oficial, 17 de mayo 2004. Última          Última versión 2 de mayo de 2019.
+                                              versión 22 de octubre de 2015.
+                                                                                                      24. Ley N° 20.670. Crea el sistema “Elige vivir sano”,
+                                        12. Ley N° 19.966. Establece un régimen de garantías              D
+**Concordancias Legales:** Ley N° 19.947; Ley N° 20.670; Ley N° 19.966; Ley N° 20.066; Ley N° 20.820; Ley N° 20.077; Ley N°20.830; Ley Nº 19.779
+
+11.   Ley N° 19.947. Establece nueva Ley de Matrimo-              discriminación, Diario Oficial, 24 de julio de 2012.
                                               nio Civil, Diario Oficial, 17 de mayo 2004. Última          Última versión 2 de mayo de 2019.
                                               versión 22 de octubre de 2015.
                                                                                                       24. Ley N° 20.670. Crea el sistema “Elige vivir sano”,
@@ -7693,7 +8329,14 @@ y reproductivos                                                               Na
 
 ## 27.   Ley N° 20.987. Modifica Ley N° 19.779. Establece
 
-                                        15. Ley N° 20.120. Sobre la investigación científica                normas relativas al virus de inmunodeficiencia
+**Definición Canónica:** 15. Ley N° 20.120. Sobre la investigación científica                normas relativas al virus de inmunodeficiencia
+                                            en el ser humano, su genoma, y prohíbe la clona-                humana y crea bonificación fiscal para enferme-
+                                            ción humana, Diario Oficial, 22 de septiembre de                dades catastróficas, Diario Oficial, 19 de enero
+                                            2006.                                                           de 2017.
+                                        16. Ley N° 20.2
+**Concordancias Legales:** Ley N° 20.120; Ley N° 20.203; Ley N° 21.030; Ley N° 20.348; Ley N° 21.096; Constitución
+
+15. Ley N° 20.120. Sobre la investigación científica                normas relativas al virus de inmunodeficiencia
                                             en el ser humano, su genoma, y prohíbe la clona-                humana y crea bonificación fiscal para enferme-
                                             ción humana, Diario Oficial, 22 de septiembre de                dades catastróficas, Diario Oficial, 19 de enero
                                             2006.                                                           de 2017.
@@ -7707,7 +8350,14 @@ y reproductivos                                                               Na
 
 ## 18. Ley Nº 20.379. Aprueba reglamento del subsis-
 
-                                            tema de protección integral a la infancia “Chile          30. Ley N° 21.120. Reconoce y da protección al dere-
+**Definición Canónica:** tema de protección integral a la infancia “Chile          30. Ley N° 21.120. Reconoce y da protección al dere-
+                                            crece contigo”, Diario Oficial, 12 de septiembre              cho a la identidad de género, Diario Oficial, 10 de
+                                            de 2009. Última versión 2 de mayo de 2019.                    diciembre de 2018. Última versión 27 de diciem-
+                                                                                                          bre de 2019.
+                                        19.   Ley N° 20.41
+**Concordancias Legales:** Ley N° 21.120; Ley N° 20.418; Ley N° 21.129; Ley N° 21.153; Ley N° 21.155; Ley N° 21.197; Ley Nº 19.712; Ley Nº 20.019; Ley 2010
+
+tema de protección integral a la infancia “Chile          30. Ley N° 21.120. Reconoce y da protección al dere-
                                             crece contigo”, Diario Oficial, 12 de septiembre              cho a la identidad de género, Diario Oficial, 10 de
                                             de 2009. Última versión 2 de mayo de 2019.                    diciembre de 2018. Última versión 27 de diciem-
                                                                                                           bre de 2019.
@@ -7738,7 +8388,14 @@ y reproductivos                                                               Na
 
 ## 47. Decreto N° 927. Aprueba reglamento del examen
 
-                                        35. Ley N° 21.212. Modifica el Código Penal, el Código          para la detección del virus de la inmunodeficien-
+**Definición Canónica:** 35. Ley N° 21.212. Modifica el Código Penal, el Código          para la detección del virus de la inmunodeficien-
+                                            Procesal Penal y la Ley N° 18.216 en materia de             cia humana en personas privadas de libertad,
+                                            tipificación del femicidio, Diario Oficial, 4 de            Diario Oficial, 3 de marzo de 2016.
+                                            marzo de 2020.
+                                                                                                    48. Decreto Nº 67. Modifica Decreto Nº
+**Concordancias Legales:** Ley N° 21.212; Ley N° 18.216
+
+35. Ley N° 21.212. Modifica el Código Penal, el Código          para la detección del virus de la inmunodeficien-
                                             Procesal Penal y la Ley N° 18.216 en materia de             cia humana en personas privadas de libertad,
                                             tipificación del femicidio, Diario Oficial, 4 de            Diario Oficial, 3 de marzo de 2016.
                                             marzo de 2020.
@@ -7748,24 +8405,25 @@ y reproductivos                                                               Na
                                             febrero de 2007.                                            carentes de recursos o indigentes, Diario Oficial,
                                                                                                         10 de marzo de 2016.
 
-## 37.   Decreto N° 7. Aprueba texto que actualiza las
-
-                                              normas nacionales sobre regulación de la fertili-
-                                              dad, Diario Oficial 3 de febrero de 2007.
-
-
 ## 38. Decreto N° 206. Reglamento sobre infecciones de              Instrumentos Internacionales
 
-                                            transmisión sexual, Diario Oficial, 8 de mayo de
+**Definición Canónica:** transmisión sexual, Diario Oficial, 8 de mayo de
                                                                                                     1.   Declaración Universal de Derechos Humanos (1948).
                                             2007.
 
-## 2.   Convención Internacional sobre la Eliminación de
-
+transmisión sexual, Diario Oficial, 8 de mayo de
+                                                                                                    1.   Declaración Universal de Derechos Humanos (1948).
+                                            2007.
 
 ## 39. Decreto N° 182. Reglamento del examen para
 
-                                                                                                         Todas las Formas de Discriminación Racial (1965).
+**Definición Canónica:** Todas las Formas de Discriminación Racial (1965).
+                                            la detección del virus de la inmunodeficiencia
+                                            humana, Diario Oficial, 19 de noviembre de 2011;        3.   Pacto Internacional de Derechos Civiles y Políti-
+                                            y sus modificaciones.                                        cos (1966) y sus protocolos facultativos (1966 y
+                                                                                                         1989).
+
+Todas las Formas de Discriminación Racial (1965).
                                             la detección del virus de la inmunodeficiencia
                                             humana, Diario Oficial, 19 de noviembre de 2011;        3.   Pacto Internacional de Derechos Civiles y Políti-
                                             y sus modificaciones.                                        cos (1966) y sus protocolos facultativos (1966 y
@@ -7773,96 +8431,38 @@ y reproductivos                                                               Na
 
 ## 40. Decreto N° 10. Crea comisión nacional obstétrica
 
-                                            y neonatal, Diario Oficial, 14 de junio de 2011.        4.   Pacto Internacional de Derechos Económicos,
+**Definición Canónica:** y neonatal, Diario Oficial, 14 de junio de 2011.        4.   Pacto Internacional de Derechos Económicos,
+                                                                                                         Sociales y Políticos (1966) y su protocolo faculta-
+
+y neonatal, Diario Oficial, 14 de junio de 2011.        4.   Pacto Internacional de Derechos Económicos,
                                                                                                          Sociales y Políticos (1966) y su protocolo faculta-
 
 ## 41. Decreto N° 31. Aprueba reglamento sobre entre-
 
-                                                                                                         tivo (2008).
+**Definición Canónica:** tivo (2008).
+                                            ga de información y expresión de consentimien-
+                                            to informado en las atenciones de salud, Diario         5.   Convención Americana de Derechos Humanos (1969).
+                                            Oficial, 26 de noviembre de 2012.
+
+tivo (2008).
                                             ga de información y expresión de consentimien-
                                             to informado en las atenciones de salud, Diario         5.   Convención Americana de Derechos Humanos (1969).
                                             Oficial, 26 de noviembre de 2012.
 
 ## 6.   Convención sobre la Eliminación de Todas las
 
-                                        42. Decreto N° 41. Aprueba reglamento sobre fichas               Formas de Discriminación contra la Mujer (1979) y
+**Definición Canónica:** 42. Decreto N° 41. Aprueba reglamento sobre fichas               Formas de Discriminación contra la Mujer (1979) y
+                                            clínicas, Diario Oficial, 15 de diciembre de 2012.           su protocolo facultativo (1999).
+
+42. Decreto N° 41. Aprueba reglamento sobre fichas               Formas de Discriminación contra la Mujer (1979) y
                                             clínicas, Diario Oficial, 15 de diciembre de 2012.           su protocolo facultativo (1999).
 
 ## 43. Decreto N° 38. Aprueba reglamento sobre dere-           7.   Convención contra la Tortura y Otros Tratos o
 
-                                            chos y deberes de las personas en relación a las             Penas Crueles, Inhumanos o Degradantes (1984)
+**Definición Canónica:** chos y deberes de las personas en relación a las             Penas Crueles, Inhumanos o Degradantes (1984)
                                             actividades vinculadas con su atención de salud,             y su protocolo facultativo (2002).
                                             Diario Oficial, 26 de diciembre de 2012.
 
-## 8.   Convención de los Derechos del Niño (1989) y sus
-
-                                                                                                         tres protocolos facultativos (2000).
-
-Derechos sexuales                                                                                Bibliografía   181
-
-
-## 9.    Convenio 169 de la Organización Internacional
-
-                                              del Trabajo (1989).
-
-
-## 10. Convención Internacional sobre la Protección de
-
-                                            los Derechos de Todos los Trabajadores Migrato-
-                                            rios y de sus Familiares (1990).
-
-
-## 11.   Conferencia de Naciones Unidas sobre Derechos
-
-                                              Humanos celebrada en Viena (1993).
-
-
-## 12. Conferencia sobre Población y Desarrollo cele-
-
-                                            brada en El Cairo (1994).
-
-
-## 13. Conferencia Internacional sobre la Mujer, realiza-
-
-                                            da en Beijing (1995).
-
-
-## 14. Convención Interamericana para Prevenir, San-
-
-                                            cionar y Erradicar la Violencia contra la Mujer,
-                                            Belém do Pará (1994).
-
-
-## 15. Convención Interamericana para la Eliminación
-
-                                            de Todas las Formas de Discriminación contra las
-                                            Personas con Discapacidad (1999).
-
-
-## 16. Convención sobre los Derechos de las Personas
-
-                                            con Discapacidad (2006) y su protocolo faculta-
-                                            tivo (2006).
-
-
-## 17.   Convención Interamericana sobre la Protección
-
-                                              de los Derechos Humanos de las Personas Mayo-
-                                              res (2015).
-
-Derechos sexuales                       Bibliografía   182
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl
+chos y deberes de las personas en relación a las             Penas Crueles, Inhumanos o Degradantes (1984)
+                                            actividades vinculadas con su atención de salud,             y su protocolo facultativo (2002).
+                                            Diario Oficial, 26 de diciembre de 2012.

@@ -13,19 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Constitucional | **Materia:** Constitucional
 
-## Serie de
-
-
-## Documentos                                                             09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Las personas
+             con discapacidad
+                en el
+                razonamiento
+                judicial
 
-             Las personas
+Las personas
              con discapacidad
                 en el
                 razonamiento
@@ -50,19 +46,23 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Claudio
+                                Agüero
+                                San Juan (coord.)
+                          Abogado y licenciado en Ciencias
+                          Jurídicas de la Universidad Católica
+                          de Temuco. Máster en educación por
+                          la Universidad de la Frontera, magís-
+                          ter en derecho por la Universidad de
+                          Génova (Italia). Es doctor en Ciencias
+                          Humanas con mención en discurso y
+                          cultura por la Universidad Austral de
+    
+**Concordancias Legales:** constitucion
 
-                          Claudio
+Claudio
                                 Agüero
                                 San Juan (coord.)
                           Abogado y licenciado en Ciencias
@@ -105,19 +105,22 @@ ISBN Nº                   Derecho y Derecho Penal de la misma
 Chile 2020                al proyecto liberal de ciudadanía y el
                           principio de igualdad.
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Sebastián
+                                Sandoval
+                                Ayala
+                          Es abogado y licenciado en Ciencias
+                          Jurídicas y Sociales de la Universidad
+                          Alber to Hur tado. Cursa el magíster
+                          en Derecho Público por la Universi-
+                          dad de Chile y el magíster en Estado
+                          d e D e rec h o G l o ba l y D e m o c ra cia
+                          Constitucional por las universidades
+                          de Génova (Italia) y de Girona (Es-
+**Concordancias Legales:** Constitucion
 
-                          Sebastián
+Sebastián
                                 Sandoval
                                 Ayala
                           Es abogado y licenciado en Ciencias
@@ -184,308 +187,44 @@ Chile 2020
 
                   Introducción                                                                                     8
 
-
-## 1. La discapacidad como concepto médico y social                                                11
-
-
-                        1.1 ¿Qué es una discapacidad?                                                             12
-
-
 ## 1.2 La discapacidad como concepto médico: la visión de la OMS                             13
 
+**Definición Canónica:** 1.3 ¿Qué diferencias hay entre una persona con discapacidad y un enfermo?                 26
 
-                        1.3 ¿Qué diferencias hay entre una persona con discapacidad y un enfermo?                 26
+1.3 ¿Qué diferencias hay entre una persona con discapacidad y un enfermo?                 26
 
                         1.4 ¿Qué diferencias hay entre una persona con discapacidad y un paciente?                27
 
-
-## 1.5 Críticas al modelo de la OMS                                                          29
-
-
-
-## 1.6 El concepto de diversidad funcional                                                   33
-
-
-
 ## 1.7 Material complementario sobre el capítulo                                             35
 
+**Definición Canónica:** Preguntas sobre el capítulo 1                                                             37
 
-                        Preguntas sobre el capítulo 1                                                             37
+Preguntas sobre el capítulo 1                                                             37
 
                   2. ¿Son relevantes el derecho a la vida y el derecho a la salud en los casos de discapacidad?   40
 
-
-## 2.1 Presentación                                                                          41
-
-
-
-## 2.2 El derecho a la vida                                                                  42
-
-
-
-## 2.2.1 Confusión entre el derecho a la vida y el derecho a la salud                   44
-
-
-
-## 2.2.2 Confusión entre el derecho a la vida y la integridad física y psíquica         44
-
-
-                             2.2.3 ¿Existe una sexta concepción del derecho a la vida?                            45
-
-
-## 2.2.4 Configuraciones posibles y un par de prevenciones                              49
-
-
-
-## 2.3 El derecho a la protección de la salud                                                51
-
-
-
-## 2.4 Posible conexión entre el derecho a la vida y el derecho a la salud                   54
-
-
-
-## 2.5 Material complementario sobre el capítulo                                             59
-
-
-                        Preguntas sobre el capítulo 2                                                             60
-
-
-## 3. El concepto de igualdad y el principio de igualdad                                           65
-
-
-
-## 3.1 Presentación                                                                          66
-
-
-
-## 3.2 El concepto de igualdad                                                               67
-
-
-                             3.2.1 ¿Por qué es difícil definir la igualdad?                                       67
-
-
-## 3.2.2 Las concepciones sobre la igualdad                                             68
-
-
-
-## 3.3 La igualdad ante la ley en el derecho chileno                                         87
-
-
-
-## 3.3.1 La igualdad ante la ley como prohibición de discriminación arbitraria          89
-
-
-
-## 3.3.2 La igualdad ante la ley como igualdad formal e igualdad sustantiva             91
-
-Las personas con                                                 Índice                                                            6
-
-
-## 3.3.3 Igualdad en la ley e igualdad ante la ley                                                95
-
-
-
-## 3.4 Análisis de una sentencia                                                                       97
-
-
-
-## 3.4.1 Reproducción de la sentencia                                                             97
-
-
-
-## 3.4.2 Análisis de la sentencia                                                                103
-
-
-
-## 3.4.3 Pasos para hacer una especificación                                                     105
-
-
-
-## 3.5 Material complementario sobre el capítulo                                                       110
-
-
-                        Preguntas sobre el capítulo 3                                                                       111
-
-
-## 4. La discapacidad en la legislación chilena                                                              114
-
-
-
-## 4.1 Presentación                                                                                    115
-
-
-
-## 4.2 Regulación internacional                                                                        116
-
-
-
-## 4.2.1 Conceptos fundamentales de los tratados vigentes                                        118
-
-
-
-## 4.3 Regulación nacional                                                                             122
-
-
-
-## 4.3.1 Legislación                                                                             122
-
-
-
-## 4.3.2 Decretos y reglamentos                                                                  126
-
-
-
-## 4.4 Análisis del panorama de textos normativos en la legislación chilena                            129
-
-
-
-## 4.5 La discapacidad como hecho                                                                      131
-
-
-                              4.5.1 ¿Cómo debería organizarse un punto de prueba sobre la existencia de una discapacidad?   133
-
-
-## 4.6 La discapacidad como estatus jurídico                                                           135
-
-
-
-## 4.6.1 Normas especiales sobre la discapacidad                                                 135
-
-
-
-## 4.6.2 Normas civiles con posible impacto en la discapacidad                                   146
-
-
-
-## 4.6.3 Normas penales con posible impacto en la discapacidad                                   150
-
-
-
-## 4.7 Material complementario sobre el capítulo                                                       153
-
-
-                        Preguntas sobre el capítulo 4                                                                       154
-
-
-## 5. La discapacidad en el razonamiento judicial                                                            156
-
-
-
-## 5.1 Presentación                                                                                    157
-
-
-
-## 5.2 Primera parte. Cómo es el razonamiento de un juez.                                              158
-
-
-
-## 5.2.1 Observando más de cerca                                                                 160
-
-
-
-## 5.3 Segunda parte. Conceptos básicos del razonamiento judicial.                                     167
-
-
-                              5.3.1 ¿Qué es el razonamiento jurídico?                                                       167
-
-
 ## 5.3.2 Los materiales jurídicos y la interpretación                                            170
 
+**Definición Canónica:** 5.3.3 ¿Qué se espera de las decisiones judiciales?                                            174
 
-                              5.3.3 ¿Qué se espera de las decisiones judiciales?                                            174
+5.3.3 ¿Qué se espera de las decisiones judiciales?                                            174
 
 Las personas con                                                                    Índice                                      7
 
-
-## 5.3.4 Razonamiento con principios                                      177
-
-
-
-## 5.3.5 Razonamiento probatorio                                          185
-
-
-
-## 5.4 Tercera parte. La redacción de las sentencias y el lenguaje claro.       192
-
-
-
-## 5.4.1 El lenguaje claro como propósito de la sentencia judicial        193
-
-
-                                                  5.4.2 ¿Cómo escribir un auto de prueba?                                196
-
-
-## 5.4.3 Estructura de las sentencias                                     197
-
-
-
-## 5.4.4 Recomendaciones de uso de lenguaje inclusivo en las sentencias   200
-
-
-
 ## 5.5 Material complementario sobre el capítulo                                202
 
+**Definición Canónica:** Preguntas sobre el capítulo 5                                                203
 
-                                            Preguntas sobre el capítulo 5                                                203
+Preguntas sobre el capítulo 5                                                203
 
                                             Anexo capítulo 5: sentencia CA rol 1574-2018                                 205
 
-
-## 6. Anexos finales                                                               212
-
-
-
-## 6.1 Casos resueltos                                                          213
-
-
-
-## 6.2 Respuestas a las preguntas de cada capítulo                              223
-
-
-
-## 6.2.1 Respuestas capítulo 1                                            223
-
-
-
-## 6.2.2 Respuestas capítulo 2                                            226
-
-
-
-## 6.1.3 Respuestas capítulo 3                                            229
-
-
-
-## 6.1.4 Respuestas capítulo 4                                            232
-
-
-
-## 6.1.5 Respuestas capítulo 5                                            236
-
-
-                                         Glosario                                                                        242
-
-
-## Capítulo 1                                                                   242
-
-
-
-## Capítulo 2                                                                   249
-
-
-
-## Capítulo 3                                                                   252
-
-
-
-## Capítulo 4                                                                   254
-
-
-
 ## Capítulo 5                                                                   257
 
+**Definición Canónica:** Bibliografía262
+**Concordancias Legales:** constitucion
 
-                                         Bibliografía262
+Bibliografía262
 
 Las personas con                                                                                                     8
 
@@ -591,10 +330,13 @@ Chile 2020
                                                                            tor poco familiarizado interiorizarse de forma sencilla con algunos
                                                                            conceptos y las referencias bibliográficas utilizadas.1
 
-
 ## 1   En este trabajo usamos la recomendación sobre el uso de pronombres de la Real Academia Española y la
 
-                                             Asociación de Academias de la Lengua Española. (2001) p. 82. Esta decisión se justifica porque es un texto
+**Definición Canónica:** Asociación de Academias de la Lengua Española. (2001) p. 82. Esta decisión se justifica porque es un texto
+                                             colaborativo donde otras normas de estilo sobre inclusividad de género dificultaban una redacción partici-
+                                             pativa en el tiempo disponible.
+
+Asociación de Academias de la Lengua Española. (2001) p. 82. Esta decisión se justifica porque es un texto
                                              colaborativo donde otras normas de estilo sobre inclusividad de género dificultaban una redacción partici-
                                              pativa en el tiempo disponible.
 
@@ -637,10 +379,11 @@ discapacidad en el                                                         conce
 Las personas con                                                          1. La discapacidad como                                                       13
 discapacidad en el                                                           concepto médico y social
 
-
 ## 1.2           La discapacidad como concepto
 
-                                                                            médico: la visión de la OMS
+**Definición Canónica:** médico: la visión de la OMS
+
+médico: la visión de la OMS
 
                                                                             La OMS tiene dos instrumentos vigentes relacionados a la discapa-
                                                                             cidad: la Clasificación Internacional de Discapacidades y Minusvalías
@@ -845,7 +588,14 @@ discapacidad en el                                                            co
 
 ## parte de una persona” como caminar, correr, escribir, ir al cine o
 
-                                                                             estudiar. Entonces, una limitación de una actividad es una (o varias)
+**Definición Canónica:** estudiar. Entonces, una limitación de una actividad es una (o varias)
+                                                                             dificultad(es) que existe(n) al realizar estas actividades. Por su parte,
+                                                                             participar es “el acto de involucrarse en una situación vital” y la res-
+                                                                             tricción de participación son los problemas o costos al intervenir en
+                                                                             cualq
+**Concordancias Legales:** Constitución
+
+estudiar. Entonces, una limitación de una actividad es una (o varias)
                                                                              dificultad(es) que existe(n) al realizar estas actividades. Por su parte,
                                                                              participar es “el acto de involucrarse en una situación vital” y la res-
                                                                              tricción de participación son los problemas o costos al intervenir en
@@ -1186,7 +936,9 @@ discapacidad en el                                                             c
 
 ## 38   A pesar de ser numerosos los documentos encontrados en los que se referencia esta definición, no se ha
 
-                                              encontrado la fuente primaria.
+**Definición Canónica:** encontrado la fuente primaria.
+
+encontrado la fuente primaria.
 
 Las personas con                                                           1. La discapacidad como                                                      27
 discapacidad en el                                                            concepto médico y social
@@ -1259,15 +1011,18 @@ discapacidad en el                                                           con
 
 ## 44   Estos dos casos generan un tratamiento normativo parcialmente diverso. Tratamos este problema en el ca-
 
-                                              pítulo cuatro.
+**Definición Canónica:** pítulo cuatro.
+
+pítulo cuatro.
 
 Las personas con                                                               1. La discapacidad como                                                         29
 discapacidad en el                                                                concepto médico y social
 
-
 ## 1.5           Críticas al modelo
 
-                                                                                 de la OMS
+**Definición Canónica:** de la OMS
+
+de la OMS
 
                                                                                  Las ciencias sociales y las humanidades ofrecen una mirada crítica
                                                                                  frente a los criterios usados por la medicina. Plantean que las dis-
@@ -1298,13 +1053,13 @@ discapacidad en el                                                              
                                          de normalidad según                     las personas con discapacidad tienen escasa relación y contacto con
                                          cierto canon.                           las instituciones médicas, a menos que se internen de por vida.47
 
-
-## 45   Por todos, hay que revisar GARCÍA (2003); SCHALOCK (1997); CAMPBELL y OLIVER (1996); LONGMORE y
-
-
 ## Umansky (2000); dejong (1979)
 
-                                            46   La declaración de principios de UPIAS (1974) se puede consultar (en inglés) en https://disability-studies.leeds.
+**Definición Canónica:** 46   La declaración de principios de UPIAS (1974) se puede consultar (en inglés) en https://disability-studies.leeds.
+                                                 ac.uk/wp-content/uploads/sites/40/library/UPIAS-UPIAS.pdf
+                                            47   MANDUJANO et al. (2007), p. 942.
+
+46   La declaración de principios de UPIAS (1974) se puede consultar (en inglés) en https://disability-studies.leeds.
                                                  ac.uk/wp-content/uploads/sites/40/library/UPIAS-UPIAS.pdf
                                             47   MANDUJANO et al. (2007), p. 942.
 
@@ -1414,10 +1169,11 @@ discapacidad en el                                                          conc
 Las personas con                                                           1. La discapacidad como                                                       33
 discapacidad en el                                                            concepto médico y social
 
-
 ## 1.6           El concepto de
 
-                                                                             diversidad funcional
+**Definición Canónica:** diversidad funcional
+
+diversidad funcional
 
                                                                              La noción de diversidad funcional surge en el Foro de Vida Indepen-
                                                                              diente (FVI) en España55, que es una versión del movimiento Vida
@@ -1497,16 +1253,20 @@ discapacidad en el                                                         conce
 
 ## 60   Así lo han señalado diversos autores, entre los que destacan ROMAÑACH y LOBATO (2005); PALACIOS y
 
-                                              ROMAÑACH (2006), (2008); PIÉ (2012), (2014).
+**Definición Canónica:** ROMAÑACH (2006), (2008); PIÉ (2012), (2014).
+                                         61   CANIMAS (2015).
+
+ROMAÑACH (2006), (2008); PIÉ (2012), (2014).
                                          61   CANIMAS (2015).
 
 Las personas con                               1. La discapacidad como                                               35
 discapacidad en el                                concepto médico y social
 
-
 ## 1.7     Material complementario
 
-                                                 sobre el capítulo
+**Definición Canónica:** sobre el capítulo
+
+sobre el capítulo
 
                                                  Videos de la OMS
                                                  A continuación, se presentan tres videos cortos en que aparecen
@@ -1645,11 +1405,17 @@ discapacidad en el                                                        concep
 Las personas con                               2. ¿Son relevantes el derecho a la vida y el derecho                    41
 discapacidad en el                                a la salud en los casos de discapacidad?
 
-
 ## 2.1     Presentación
 
+**Definición Canónica:** El objetivo de este capítulo es doble. En primer lugar, demostrar que
+                                                 el derecho a la vida se distingue de la noción de calidad de vida y, en-
+                                                 tonces, que no es aplicable en la mayoría de los casos de discapacidad.
+                                                 En segundo lugar, demostrar que, en el derecho a la salud, sólo dos
+                                                 de las tres obligaciones constitucionales explícitas son relevantes en
+                                                 l
+**Concordancias Legales:** constitucion
 
-                                                 El objetivo de este capítulo es doble. En primer lugar, demostrar que
+El objetivo de este capítulo es doble. En primer lugar, demostrar que
                                                  el derecho a la vida se distingue de la noción de calidad de vida y, en-
                                                  tonces, que no es aplicable en la mayoría de los casos de discapacidad.
                                                  En segundo lugar, demostrar que, en el derecho a la salud, sólo dos
@@ -1664,10 +1430,12 @@ discapacidad en el                                a la salud en los casos de dis
 Las personas con                                                            2. ¿Son relevantes el derecho a la vida y el derecho                            42
 discapacidad en el                                                             a la salud en los casos de discapacidad?
 
-
 ## 2.2           El derecho
 
-                                                                              a la vida
+**Definición Canónica:** a la vida
+**Concordancias Legales:** artículos 6; Constitución; constitucion
+
+a la vida
 
                                                                               El derecho a la vida no está definido en la Constitución ni en la le-
                                                                               gislación nacional. Hay intentos de definición en la jurisprudencia y
@@ -1759,10 +1527,14 @@ discapacidad en el                                                          a la
                                                                            tamos la posibilidad de que todas estas concepciones coexistan en
                                                                            nuestro derecho.
 
-
 ## 2.2.1 Confusión entre el derecho a la
 
-                                                                           vida y el derecho a la salud
+**Definición Canónica:** vida y el derecho a la salud
+                                                                           A juicio de Figueroa, el derecho a la salud no significa el derecho a
+                                                                           estar sano o a recuperar la salud porque eso puede ser imposible.
+                                                                           El derecho a la salud consiste en el derecho a recibir prestaciones
+
+vida y el derecho a la salud
                                                                            A juicio de Figueroa, el derecho a la salud no significa el derecho a
                                                                            estar sano o a recuperar la salud porque eso puede ser imposible.
                                                                            El derecho a la salud consiste en el derecho a recibir prestaciones
@@ -1782,10 +1554,15 @@ discapacidad en el                                                          a la
                                                                            su derecho a la salud, pero no su derecho a la vida. Naturalmente,
                                                                            también es posible infringir ambos derechos de forma simultánea.
 
-
 ## 2.2.2 Confusión entre el derecho a la vida
 
-                                                                           y la integridad física y psíquica
+**Definición Canónica:** y la integridad física y psíquica
+                                                                           Figueroa también rechaza la confusión entre el derecho a la vida
+                                                                           y el derecho a la integridad física y psíquica.74 Critica la confusión
+                                                                           usando dos argumentos. Sostiene que si lo que se quiere decir es
+                                                                           que la tortura o la mutilación de una persona afecta su calidad d
+
+y la integridad física y psíquica
                                                                            Figueroa también rechaza la confusión entre el derecho a la vida
                                                                            y el derecho a la integridad física y psíquica.74 Critica la confusión
                                                                            usando dos argumentos. Sostiene que si lo que se quiere decir es
@@ -1797,7 +1574,10 @@ discapacidad en el                                                          a la
 
 ## 74   Por ejemplo, VERDUGO, PFEFFER y NOGUEIRA (2005), p. 198, señalan: “Si una persona es mutilada o tortu-
 
-                                              rada, ya sea física o psicológicamente, se está atentando en contra de su vida”.
+**Definición Canónica:** rada, ya sea física o psicológicamente, se está atentando en contra de su vida”.
+**Concordancias Legales:** artículo 19; constitucion; Constitución
+
+rada, ya sea física o psicológicamente, se está atentando en contra de su vida”.
 
 Las personas con                                                 2. ¿Son relevantes el derecho a la vida y el derecho                         45
 discapacidad en el                                                  a la salud en los casos de discapacidad?
@@ -1969,10 +1749,16 @@ discapacidad en el                                                  a la salud e
 Las personas con                         2. ¿Son relevantes el derecho a la vida y el derecho                   49
 discapacidad en el                          a la salud en los casos de discapacidad?
 
-
 ## 2.2.4 Configuraciones posibles y un par de prevenciones
 
-                                           El modelo de análisis propuesto por Figueroa no excluye la posibi-
+**Definición Canónica:** El modelo de análisis propuesto por Figueroa no excluye la posibi-
+                                           lidad de que diversas concepciones del derecho convivan pacífica-
+                                           mente dentro de la jurisprudencia, manifestando una concepción
+                                           más general sobre el derecho a la vida. De los seis significados que
+                                           hemos desarrollado, resultan incompatibles (de forma absoluta) la
+                                           cuarta y quinta concepción. La cuarta, que plantea que
+
+El modelo de análisis propuesto por Figueroa no excluye la posibi-
                                            lidad de que diversas concepciones del derecho convivan pacífica-
                                            mente dentro de la jurisprudencia, manifestando una concepción
                                            más general sobre el derecho a la vida. De los seis significados que
@@ -2040,10 +1826,12 @@ discapacidad en el                          a la salud en los casos de discapaci
 Las personas con                                                              2. ¿Son relevantes el derecho a la vida y el derecho                         51
 discapacidad en el                                                               a la salud en los casos de discapacidad?
 
-
 ## 2.3           El derecho a la protección
 
-                                                                                de la salud
+**Definición Canónica:** de la salud
+**Concordancias Legales:** artículos 6; Constitución; constitucion
+
+de la salud
 
                                          El objeto del                          La Constitución de 1980 establece el derecho a “la protección de la
                                          derecho a la salud                     salud”. Ni en el texto constitucional ni en el legal hay una definición
@@ -2167,10 +1955,12 @@ discapacidad en el                                                        a la s
 Las personas con                                                           2. ¿Son relevantes el derecho a la vida y el derecho                       54
 discapacidad en el                                                            a la salud en los casos de discapacidad?
 
-
 ## 2.4           Posible conexión entre el derecho a
 
-                                                                             la vida y el derecho a la salud
+**Definición Canónica:** la vida y el derecho a la salud
+**Concordancias Legales:** Constitución
+
+la vida y el derecho a la salud
 
                                                                              El cumplimiento de esta obligación es progresivo y el Estado tiene un
                                                                              margen de discrecionalidad para ejecutar las prestaciones. Siguiendo
@@ -2246,10 +2036,16 @@ discapacidad en el                                                              
                                                                                 prestación en sentido estricto, vale decir que su satisfacción requiere
                                                                                 del uso de recursos económicos estatales. Por otro, existen otros
 
-
 ## 99   Siguiendo el análisis de ZÚÑIGA (en imprenta) no “es exagerado sostener que 2018 ha sido el año de la
 
-                                                 judicialización de la salud”. La Corte Suprema, continúa la autora, ha acogido acciones de protección desti-
+**Definición Canónica:** judicialización de la salud”. La Corte Suprema, continúa la autora, ha acogido acciones de protección desti-
+                                                 nadas a asegurar la cobertura de tratamientos médicos argumentando que: i) el derecho a la vida puede ser
+                                                 afectado tanto por actos como por omisiones (rol N° 25.009-18, de 2 de enero de 2019 y N° 17.043-18, de 6
+                                                 de noviembre de 2018), y ii) el derecho a la vida debe prevalecer ante consideraciones económicas (rol N°
+                          
+**Concordancias Legales:** artículo 1; Ley N° 19.966; Constitución; constitucion; Constitución Política
+
+judicialización de la salud”. La Corte Suprema, continúa la autora, ha acogido acciones de protección desti-
                                                  nadas a asegurar la cobertura de tratamientos médicos argumentando que: i) el derecho a la vida puede ser
                                                  afectado tanto por actos como por omisiones (rol N° 25.009-18, de 2 de enero de 2019 y N° 17.043-18, de 6
                                                  de noviembre de 2018), y ii) el derecho a la vida debe prevalecer ante consideraciones económicas (rol N°
@@ -2371,10 +2167,12 @@ discapacidad en el                                                             a
 Las personas con                               2. ¿Son relevantes el derecho a la vida y el derecho                        59
 discapacidad en el                                a la salud en los casos de discapacidad?
 
-
 ## 2.5     Material complementario
 
-                                                 sobre el capítulo
+**Definición Canónica:** sobre el capítulo
+**Concordancias Legales:** Constitucion; Constitución
+
+sobre el capítulo
 
                                                  Para profundizar en los temas tratados y antes de responder a las
                                                  preguntas sobre este capítulo, se recomienda leer los siguientes textos:
@@ -2553,11 +2351,17 @@ discapacidad en el                                                        a la s
 Las personas con                               3. El concepto de igualdad y el                                              66
 discapacidad en el                                principio de igualdad
 
-
 ## 3.1     Presentación
 
+**Definición Canónica:** Hasta aquí hemos descartado que el tratamiento de los casos sobre dis-
+                                                 capacidad se relacione principalmente con el derecho a la vida y con el
+                                                 derecho a la salud. En el presente capítulo sostendremos que un trata-
+                                                 miento adecuado de estos casos requiere una acabada comprensión del
+                                                 concepto de igualdad y del principio de igualdad. Por esta razón, el capítulo
+                                            
+**Concordancias Legales:** constitucion
 
-                                                 Hasta aquí hemos descartado que el tratamiento de los casos sobre dis-
+Hasta aquí hemos descartado que el tratamiento de los casos sobre dis-
                                                  capacidad se relacione principalmente con el derecho a la vida y con el
                                                  derecho a la salud. En el presente capítulo sostendremos que un trata-
                                                  miento adecuado de estos casos requiere una acabada comprensión del
@@ -2575,10 +2379,12 @@ discapacidad en el                                principio de igualdad
 Las personas con                                                             3. El concepto de igualdad y el                                               67
 discapacidad en el                                                              principio de igualdad
 
-
 ## 3.2            El concepto
 
-                                                                               de igualdad
+**Definición Canónica:** de igualdad
+**Concordancias Legales:** constitucion
+
+de igualdad
 
                                                                                Esta parte del capítulo tiene dos objetivos teóricos: construir una defini-
                                                                                ción de la igualdad y describir las principales concepciones o formas en
@@ -2743,10 +2549,15 @@ discapacidad en el                                                              
                                                                                criterio primario de decisión y la forma de salir del conflicto es la
                                                                                ponderación de la igualdad con los otros principios en juego.110
 
-
 ## 3.2.2.2 La igualdad comunitarista
 
-                                                                               Los críticos de la igualdad liberal cuestionan la norma prohibitiva
+**Definición Canónica:** Los críticos de la igualdad liberal cuestionan la norma prohibitiva
+                                                                               y/o la norma imperativa. En contra de la prohibición, los comunita-
+                                                                               ristas radicales alegan que es necesario considerar cualidades de ser
+                                                                               y pertenecer en las instituciones jurídicas. Estas cualidades (sexo,
+                                                                               género, e
+
+Los críticos de la igualdad liberal cuestionan la norma prohibitiva
                                                                                y/o la norma imperativa. En contra de la prohibición, los comunita-
                                                                                ristas radicales alegan que es necesario considerar cualidades de ser
                                                                                y pertenecer en las instituciones jurídicas. Estas cualidades (sexo,
@@ -2817,10 +2628,13 @@ discapacidad en el                                                             p
                                                                               subordinado, cuando está justificado, al derecho grupal de sostener
                                                                               sus doctrinas religiosas.
 
-
 ## 112   KYMLICKA también analiza el caso de la comunidad amish en Estados Unidos. Esta comunidad ha defendido
 
-                                               ante la Corte Suprema estadounidense, con éxito, el derecho de retirar a sus niños de las escuelas antes de
+**Definición Canónica:** ante la Corte Suprema estadounidense, con éxito, el derecho de retirar a sus niños de las escuelas antes de
+                                               que termine el período de escolaridad obligatoria. Véase KYMLICKA (2002), p. 238.
+**Concordancias Legales:** constitucion
+
+ante la Corte Suprema estadounidense, con éxito, el derecho de retirar a sus niños de las escuelas antes de
                                                que termine el período de escolaridad obligatoria. Véase KYMLICKA (2002), p. 238.
 
 Las personas con                                                          3. El concepto de igualdad y el                                            73
@@ -2971,10 +2785,15 @@ discapacidad en el                                                              
                                                                                    de los derechos colectivos. Por esta razón, no hay ningún sistema
                                                                                    jurídico que la haya implementado completamente.
 
-
 ## 3.2.2.3 El concepto de grupos desventajados o vulnerables
 
-                                                                               Cada día se incrementan los estudios en torno al derecho a la justa
+**Definición Canónica:** Cada día se incrementan los estudios en torno al derecho a la justa
+                                                                               “igualdad de oportunidades”, destacándose la necesidad de que se
+                                                                               contemple la protección contra las limitaciones sociales impuestas a
+                                                                               las personas por motivos de discriminación racial, étnica, económica,
+                                                                               de sexo, etc
+
+Cada día se incrementan los estudios en torno al derecho a la justa
                                                                                “igualdad de oportunidades”, destacándose la necesidad de que se
                                                                                contemple la protección contra las limitaciones sociales impuestas a
                                                                                las personas por motivos de discriminación racial, étnica, económica,
@@ -3018,10 +2837,15 @@ discapacidad en el                                                             p
                                                                               esquema cooperativo que les permita obtener aún más beneficios de
                                                                               formas que no contribuyan al bien de los demás.
 
-
 ## 3.2.2.4 Lotes y grupos
 
-                                                                              En muchos casos, no se distinguen individuos, sino que conjuntos
+**Definición Canónica:** En muchos casos, no se distinguen individuos, sino que conjuntos
+                                                                              de ellos. Etiquetas como la estatura, el sexo, el género, el desempeño
+                                                                              laboral y otras semejantes sirven para hacer estas diferencias. No es
+                                                                              lo mismo distinguir entre quienes son jardineros y quienes no lo son,
+                                                                              que distingu
+
+En muchos casos, no se distinguen individuos, sino que conjuntos
                                                                               de ellos. Etiquetas como la estatura, el sexo, el género, el desempeño
                                                                               laboral y otras semejantes sirven para hacer estas diferencias. No es
                                                                               lo mismo distinguir entre quienes son jardineros y quienes no lo son,
@@ -3067,10 +2891,18 @@ discapacidad en el                                                             p
                                            cantidad es una política pública para un lote y no una medida de
                                            discriminación positiva.
 
-
 ## 3.2.2.5 Grupos aventajados o privilegiados y grupos des-
 
-                                           ventajados o vulnerables
+**Definición Canónica:** ventajados o vulnerables
+                                           A partir de la pertenencia a determinados grupos, se deriva la exis-
+                                           tencia o ausencia de un conjunto de propiedades que nos diferencian
+                                           de otros y nos identifican como pertenecientes a determinado sector.
+                                           Algunas de estas propiedades reciben una valoración positiva, tales
+                                           como la acumulación de dinero, la pertenencia a determinado sexo
+                     
+**Concordancias Legales:** constitución
+
+ventajados o vulnerables
                                            A partir de la pertenencia a determinados grupos, se deriva la exis-
                                            tencia o ausencia de un conjunto de propiedades que nos diferencian
                                            de otros y nos identifican como pertenecientes a determinado sector.
@@ -3173,21 +3005,25 @@ discapacidad en el                                                              
                                                   partes que forman el implante coclear, algunas de las cuales se colocan en el interior del cráneo y otras en
                                                   el exterior.
 
-## 122   Puesto que la inmensa mayoría de los niños con implantes cocleares recibidos en edades tempranas (antes
-
-                                                  de los 3 años) desarrolla una capacidad auditiva y una comprensión plenas sin ayuda de la lengua de signos,
-
 ## parte de la comunidad de sordos (Cultura Sorda) rechaza este procedimiento médico pues teme que dicha
 
-                                                  comunidad desaparezca.
+**Definición Canónica:** comunidad desaparezca.
+
+comunidad desaparezca.
 
 Las personas con                                                            3. El concepto de igualdad y el                                             81
 discapacidad en el                                                             principio de igualdad
 
-
 ## 3.2.2.6 Interseccionalidad
 
-                                                                              La existencia de desigualdades importa una relación de ventajas y
+**Definición Canónica:** La existencia de desigualdades importa una relación de ventajas y
+                                                                              desventajas entre sujetos o grupos que se ven afectados respecto a
+                                                                              un estándar común. Esta relación de (des)ventaja no es irrelevante al
+                                                                              derecho constitucional y, en la medida de que carezca de fundamen-
+                                                                              tación suficiente,
+**Concordancias Legales:** constitucion
+
+La existencia de desigualdades importa una relación de ventajas y
                                                                               desventajas entre sujetos o grupos que se ven afectados respecto a
                                                                               un estándar común. Esta relación de (des)ventaja no es irrelevante al
                                                                               derecho constitucional y, en la medida de que carezca de fundamen-
@@ -3298,10 +3134,15 @@ discapacidad en el                                                          prin
                                          eliminando la                     una diferenciación (mediante acciones afirmativas) o eliminando la
                                          diferencia existente.             diferencia existente.
 
-
 ## 3.2.2.7 Desigualdad estructural
 
-                                                                           Otra categoría relevante, cuyo sentido y alcance debe ser establecido,
+**Definición Canónica:** Otra categoría relevante, cuyo sentido y alcance debe ser establecido,
+                                                                           es la noción de desigualdad estructural. De acuerdo con la posición
+                                                                           de Saba129, la desigualdad estructural implica superar, o al menos
+                                                                           complementar, la igualdad como no arbitrariedad o no discriminación.
+                                                                           Para ello, entiende a la 
+
+Otra categoría relevante, cuyo sentido y alcance debe ser establecido,
                                                                            es la noción de desigualdad estructural. De acuerdo con la posición
                                                                            de Saba129, la desigualdad estructural implica superar, o al menos
                                                                            complementar, la igualdad como no arbitrariedad o no discriminación.
@@ -3346,7 +3187,13 @@ discapacidad en el                                                           pri
 
 ## parte, en una transferencia, sistemática y no recíproca de poderes
 
-                                                                            de las mujeres a los hombres. Basta reconocer que ellos pueden
+**Definición Canónica:** de las mujeres a los hombres. Basta reconocer que ellos pueden
+                                                                            funcionar con relativa tranquilidad en el espacio público gracias a
+                                                                            que ellas trabajan para ellos en la esfera privada. Todas las penosas y
+                                                                            cansadoras tareas domésticas sin las cuales, claro está, los hombres no
+                                                                            podrían desempeñarse 
+
+de las mujeres a los hombres. Basta reconocer que ellos pueden
                                                                             funcionar con relativa tranquilidad en el espacio público gracias a
                                                                             que ellas trabajan para ellos en la esfera privada. Todas las penosas y
                                                                             cansadoras tareas domésticas sin las cuales, claro está, los hombres no
@@ -3382,10 +3229,15 @@ discapacidad en el                                                           pri
                                                                             toma de decisiones, modificando la forma en que se divide el trabajo
                                                                             entre los sexos.
 
-
 ## 3.2.2.8 Acción afirmativa y discriminación indirecta
 
-                                                                            Son varias las nuevas categorías que sirven para enriquecer el modo
+**Definición Canónica:** Son varias las nuevas categorías que sirven para enriquecer el modo
+                                                                            en que se comprende la igualdad en su dimensión diferenciadora.
+                                                                            En primer lugar, están aquellas medidas que se pueden agrupar bajo
+                                                                            la etiqueta de acción afirmativa. Se entiende por acción afirmativa
+                                                                            “una política adoptada por al
+
+Son varias las nuevas categorías que sirven para enriquecer el modo
                                                                             en que se comprende la igualdad en su dimensión diferenciadora.
                                                                             En primer lugar, están aquellas medidas que se pueden agrupar bajo
                                                                             la etiqueta de acción afirmativa. Se entiende por acción afirmativa
@@ -3440,10 +3292,12 @@ discapacidad en el                                                             p
 Las personas con                                                           3. El concepto de igualdad y el                                          87
 discapacidad en el                                                            principio de igualdad
 
-
 ## 3.3           La igualdad ante la
 
-                                                                             ley en el derecho chileno
+**Definición Canónica:** ley en el derecho chileno
+**Concordancias Legales:** artículos 6; Constitución; Constitucion
+
+ley en el derecho chileno
 
                                                                              La Constitución de 1980 establece la igualdad ante la ley. El titular del
                                                                              derecho, según el texto normativo, es toda persona. El destinatario
@@ -3528,10 +3382,16 @@ discapacidad en el                                                              
                                                                                 una vulneración al derecho a la libertad de culto, al libre desarrollo
                                                                                 de la personalidad o a la libertad de expresión.
 
-
 ## 3.3.1 La igualdad ante la ley como prohibición
 
-                                                                                de discriminación arbitraria
+**Definición Canónica:** de discriminación arbitraria
+                                                                                La dogmática nacional entiende que la discriminación arbitraria es
+                                                                                aquella diferenciación que no tiene un fundamento, que no tiene
+                                                                                una justificación jurídicamente atendible o cuya justificación es des-
+                                                                                proporcionada. Lo arbitrario es entendido como ca
+**Concordancias Legales:** artículo 19; Artículo 3; artículo 20; artículos 1; artículo 6 de la Constitución.149 De este modo; Ley Nº 20.609; Ley N° 19.496; Constitución; constitucion; Constitución Política
+
+de discriminación arbitraria
                                                                                 La dogmática nacional entiende que la discriminación arbitraria es
                                                                                 aquella diferenciación que no tiene un fundamento, que no tiene
                                                                                 una justificación jurídicamente atendible o cuya justificación es des-
@@ -3629,10 +3489,15 @@ discapacidad en el                                                              
                                                                                 Más adelante en este mismo trabajo se tratarán detalladamente los
                                                                                 problemas de la discriminación arbitraria en casos de discapacidad.
 
-
 ## 3.3.2 La igualdad ante la ley como igualdad
 
-                                                                                formal e igualdad sustantiva
+**Definición Canónica:** formal e igualdad sustantiva
+                                                                                La igualdad formal, en su concepción histórica, hace referencia a
+                                                                                un atributo que debe tener la ley: no puede destinarse a privile-
+                                                                                giar a determinados grupos o estamentos sociales en desmedro de
+**Concordancias Legales:** artículo 6 de la Constitución; artículo 2; Ley Nº 20.609; Constitución; Constitución Política; Constitucion
+
+formal e igualdad sustantiva
                                                                                 La igualdad formal, en su concepción histórica, hace referencia a
                                                                                 un atributo que debe tener la ley: no puede destinarse a privile-
                                                                                 giar a determinados grupos o estamentos sociales en desmedro de
@@ -3792,10 +3657,15 @@ discapacidad en el                                                              
                                            diversos colectivos, existiendo además instrumentos internacionales
                                            que se refieren a su uso.
 
-
 ## 3.3.3 Igualdad en la ley e igualdad ante la ley
 
-                                           Otra clasificación relevante de la igualdad atiende a lo que debe ser
+**Definición Canónica:** Otra clasificación relevante de la igualdad atiende a lo que debe ser
+                                           igual, vale decir, al objeto de la igualdad. Dijimos que la igualdad es
+                                           un concepto normativo y relacional. En este último sentido, recalca-
+                                           mos que no existe una igualdad atribuible a conceptos totalizadores
+**Concordancias Legales:** constitucion
+
+Otra clasificación relevante de la igualdad atiende a lo que debe ser
                                            igual, vale decir, al objeto de la igualdad. Dijimos que la igualdad es
                                            un concepto normativo y relacional. En este último sentido, recalca-
                                            mos que no existe una igualdad atribuible a conceptos totalizadores
@@ -3843,19 +3713,23 @@ discapacidad en el                                                              
 Las personas con                                    3. El concepto de igualdad y el                                             97
 discapacidad en el                                     principio de igualdad
 
-
 ## 3.4          Análisis de
 
-                                                      una sentencia
+**Definición Canónica:** una sentencia
+
+una sentencia
 
                                                       En esta sección analizaremos una sentencia desde el punto de vista
                                                       del razonamiento necesario para colmar el principio de igualdad.
 
-
 ## 3.4.1 Reproducción de la sentencia
 
+**Definición Canónica:** Vistos:
+                                         En autos Rol C-1907-2017, del Tercer Juzgado de Letras de Iquique, sobre acción de
+                                         no discriminación arbitraria, caratulados “Torres con Universidad Arturo Prat”, por
+**Concordancias Legales:** artículo 2 de la Ley 20.609 en relación con el N; artículo 19 de la Constitución Política de la República; artículo 7 de la Ley 20.422 en; artículo 24; artículo 39; artículo 19 de la Constitución; artículo 19; artículo 2; artículo 2 de la Ley 20.609 entiende por discriminación arbitr; artículo 19 de la Constitución Política; artículo 7 de la Ley; artículo 7 de la Ley 20.422 establece; artículo 7 de la Ley 20.422; artículo 24 de la Convención ya individualizada; artículo 39 de la Ley 20.422 que exige a las instituciones de e; artículos 764; Ley 20.609; Ley 20.422; Ley N° 20.422; Constitución Política; constitucion
 
-                                         Vistos:
+Vistos:
                                          En autos Rol C-1907-2017, del Tercer Juzgado de Letras de Iquique, sobre acción de
                                          no discriminación arbitraria, caratulados “Torres con Universidad Arturo Prat”, por
 
@@ -4104,21 +3978,33 @@ discapacidad en el                                     principio de igualdad
 
                                          Regístrese y devuélvase.
 
-
 ## N° 11.978-2018.-
 
+**Definición Canónica:** Pronunciado por la Cuarta Sala de la Corte Suprema integrada por los Ministros señoras
+                                         Gloria Ana Chevesich R., Andrea Muñoz S., señor Mauricio Silva C., señora María Angélica
+                                         Cecilia Repetto G., y la Abogada Integrante señora Leonor Etcheberry C. No firman el
+                                         Ministro señor Silva C., y la Abogada Integrante señora Etcheberry, no obstante haber
+                                         ambos concurrido a la vista del recurso y acuerdo del fallo, por estar haciendo uso de
+  
 
-                                         Pronunciado por la Cuarta Sala de la Corte Suprema integrada por los Ministros señoras
+Pronunciado por la Cuarta Sala de la Corte Suprema integrada por los Ministros señoras
                                          Gloria Ana Chevesich R., Andrea Muñoz S., señor Mauricio Silva C., señora María Angélica
                                          Cecilia Repetto G., y la Abogada Integrante señora Leonor Etcheberry C. No firman el
                                          Ministro señor Silva C., y la Abogada Integrante señora Etcheberry, no obstante haber
                                          ambos concurrido a la vista del recurso y acuerdo del fallo, por estar haciendo uso de
                                          su feriado legal el primero, y encontrarse ausente la segunda.
 
-
 ## 3.4.2 Análisis de la sentencia
 
-                                                      En esta sección realizamos un análisis general del razonamiento ju-
+**Definición Canónica:** En esta sección realizamos un análisis general del razonamiento ju-
+                                                      dicial de la sentencia que finaliza el caso rol C-1907-2017, del Tercer
+                                                      Juzgado de Letras de Iquique, sobre acción de no discriminación
+                                                      arbitraria. No realizamos un análisis detallado, porque eso implicaría
+                                                      analizar el voto concurrente de la ministra Chevesich y esto dificul-
+                                       
+**Concordancias Legales:** constitucion
+
+En esta sección realizamos un análisis general del razonamiento ju-
                                                       dicial de la sentencia que finaliza el caso rol C-1907-2017, del Tercer
                                                       Juzgado de Letras de Iquique, sobre acción de no discriminación
                                                       arbitraria. No realizamos un análisis detallado, porque eso implicaría
@@ -4174,7 +4060,14 @@ discapacidad en el                                                              
 
 ## 153   Un razonamiento es una secuencia de enunciados donde al menos uno desempeña la función de conclusión
 
-                                               y los restantes desempeñan la función de premisas o argumentos en favor de dicha conclusión. General-
+**Definición Canónica:** y los restantes desempeñan la función de premisas o argumentos en favor de dicha conclusión. General-
+                                               mente, el razonamiento jurídico se formula en torno a la existencia de normas explícitas que actúan como
+                                               las premisas, mientras que la norma implícita constituye su conclusión. Una simplificación de esto puede
+                                               retratarse mediante el siguiente ejemplo: (P1) El que mate a otro será sancionado con 10 años de cárcel +
+                                         
+**Concordancias Legales:** Constitucion
+
+y los restantes desempeñan la función de premisas o argumentos en favor de dicha conclusión. General-
                                                mente, el razonamiento jurídico se formula en torno a la existencia de normas explícitas que actúan como
                                                las premisas, mientras que la norma implícita constituye su conclusión. Una simplificación de esto puede
                                                retratarse mediante el siguiente ejemplo: (P1) El que mate a otro será sancionado con 10 años de cárcel +
@@ -4184,7 +4077,13 @@ discapacidad en el                                                              
 
 ## 154   Los principios jurídicos son normas configuradas sobre una elección valorativa en la base de producción
 
-                                               del derecho (por el legislador), en la fase de aplicación del derecho (por los jueces) o en la elaboración de un
+**Definición Canónica:** del derecho (por el legislador), en la fase de aplicación del derecho (por los jueces) o en la elaboración de un
+                                               razonamiento jurídico (jueces y dogmática). En las dos últimas perspectivas, los principios son funcionales
+                                               a la utilización de técnicas interpretativas y argumentativas que deben ser concretizadas en su aplicación.
+                                               Ver COMANDUCCI (1998), pp. 89-104, pp. 90-100.
+                                         155   Según lo planteado por DÍAZ DE VALDÉ
+
+del derecho (por el legislador), en la fase de aplicación del derecho (por los jueces) o en la elaboración de un
                                                razonamiento jurídico (jueces y dogmática). En las dos últimas perspectivas, los principios son funcionales
                                                a la utilización de técnicas interpretativas y argumentativas que deben ser concretizadas en su aplicación.
                                                Ver COMANDUCCI (1998), pp. 89-104, pp. 90-100.
@@ -4193,10 +4092,16 @@ discapacidad en el                                                              
 Las personas con                                                            3. El concepto de igualdad y el                                          105
 discapacidad en el                                                             principio de igualdad
 
-
 ## 3.4.3 Pasos para hacer una especificación
 
-                                                                              Metodológicamente, la especificación de todo principio constitu-
+**Definición Canónica:** Metodológicamente, la especificación de todo principio constitu-
+                                                                              cional (y en especial el de la igualdad constitucional), no ha sido
+                                                                              tratada con suficiencia por la doctrina nacional, lo que complejiza
+                                                                              establecer una guía sobre cómo debe ejecutarse la especificación de
+                                                                              este principio.156 
+**Concordancias Legales:** artículo 19; artículo 7 de la Ley Nº 20.422; Ley Nº 20.422; Ley Nº 19.712; Ley Nº 21.015; constitucion; Constitución
+
+Metodológicamente, la especificación de todo principio constitu-
                                                                               cional (y en especial el de la igualdad constitucional), no ha sido
                                                                               tratada con suficiencia por la doctrina nacional, lo que complejiza
                                                                               establecer una guía sobre cómo debe ejecutarse la especificación de
@@ -4406,10 +4311,12 @@ discapacidad en el                                                             p
 Las personas con                               3. El concepto de igualdad y el                                       110
 discapacidad en el                                principio de igualdad
 
-
 ## 3.5     Material complementario
 
-                                                 sobre el capítulo
+**Definición Canónica:** sobre el capítulo
+**Concordancias Legales:** Constitucion
+
+sobre el capítulo
 
                                                  Para profundizar en los temas tratados y antes de responder a las
                                                  preguntas este capítulo, se recomienda leer los siguientes textos:
@@ -4512,11 +4419,16 @@ discapacidad en el                                                       princip
 Las personas con                                                            4. La discapacidad en la                                                  115
 discapacidad en el                                                             legislación chilena
 
-
 ## 4.1           Presentación
 
+**Definición Canónica:** Atendiendo al criterio jurisprudencial sobre la jerarquía infracons-
+                                                                              titucional y supralegal de los tratados internacionales de derechos
+                                                                              fundamentales, la sistemática de los textos que tratan la discapacidad
+                                                                              en nuestro sistema jurídico debería iniciar con el análisis de la Cons-
+                                                                              titución
+**Concordancias Legales:** constitucion
 
-                                                                              Atendiendo al criterio jurisprudencial sobre la jerarquía infracons-
+Atendiendo al criterio jurisprudencial sobre la jerarquía infracons-
                                                                               titucional y supralegal de los tratados internacionales de derechos
                                                                               fundamentales, la sistemática de los textos que tratan la discapacidad
                                                                               en nuestro sistema jurídico debería iniciar con el análisis de la Cons-
@@ -4534,10 +4446,12 @@ discapacidad en el                                                             l
 Las personas con                           4. La discapacidad en la                                                116
 discapacidad en el                            legislación chilena
 
-
 ## 4.2   Regulación
 
-                                               internacional
+**Definición Canónica:** internacional
+**Concordancias Legales:** artículo 1; artículo 2
+
+internacional
 
                                                Tres son los instrumentos internacionales que tratan la discapacidad
                                                de forma explícita. Por razones de espacio, no los analizaremos en
@@ -4617,8 +4531,10 @@ discapacidad en el                            legislación chilena
 
 ## 2001. Este documento no ha sido oficialmente promulgado como
 
+**Definición Canónica:** Las personas con                                                           4. La discapacidad en la                                                118
+discapacidad en el                                                            legislación chilena
 
-Las personas con                                                           4. La discapacidad en la                                                118
+Las personas con                                                           4. La discapacidad en la                                                118
 discapacidad en el                                                            legislación chilena
 
                                                                                   norma en el derecho, porque su función es técnica en el área de
@@ -4626,10 +4542,15 @@ discapacidad en el                                                            le
                                                                                   es usada por el departamento de estadísticas e información de
                                                                                   salud del Ministerio de Salud.164
 
-
 ## 4.2.1 Conceptos fundamentales de los tratados vigentes
 
-                                                                             En materia de discapacidad, nuestro país ha ratificado dos instru-
+**Definición Canónica:** En materia de discapacidad, nuestro país ha ratificado dos instru-
+                                                                             mentos internacionales que se encuentran vigentes: la Convención
+                                                                             Internacional sobre los Derechos de las Personas con Discapacidad,
+                                                                             elaborada por la ONU y la Convención Interamericana para la Elimi-
+                                                                             nación de Todas las Formas
+
+En materia de discapacidad, nuestro país ha ratificado dos instru-
                                                                              mentos internacionales que se encuentran vigentes: la Convención
                                                                              Internacional sobre los Derechos de las Personas con Discapacidad,
                                                                              elaborada por la ONU y la Convención Interamericana para la Elimi-
@@ -4642,10 +4563,15 @@ discapacidad en el                                                            le
                                                                              ambos instrumentos: (i) discapacidad, (ii) discriminación por motivos
                                                                              de discapacidad y (iii) ajustes razonables.
 
-
 ## 4.2.1.1 Discapacidad
 
-                                                                             La Convención Interamericana consagra el modelo de la OMS y se-
+**Definición Canónica:** La Convención Interamericana consagra el modelo de la OMS y se-
+                                                                             ñala que discapacidad es “una deficiencia física, mental o sensorial,
+                                                                             ya sea de naturaleza permanente o temporal, que limita la capacidad
+                                                                             de ejercer una o más actividades esenciales de la vida diaria, que
+                                                                             puede ser causada o agr
+
+La Convención Interamericana consagra el modelo de la OMS y se-
                                                                              ñala que discapacidad es “una deficiencia física, mental o sensorial,
                                                                              ya sea de naturaleza permanente o temporal, que limita la capacidad
                                                                              de ejercer una o más actividades esenciales de la vida diaria, que
@@ -4660,10 +4586,13 @@ discapacidad en el                                                            le
                                                                              cipación plena y efectiva en la sociedad, en igualdad de condiciones
                                                                              con las demás”166.
 
-
 ## 164   Para más información, veáse www.deis.cl
 
-                                         165   Art. 1°, OEA.
+**Definición Canónica:** 165   Art. 1°, OEA.
+                                         166   Art. 1°, inc. 2°, ONU.
+**Concordancias Legales:** Ley Nº 20.422
+
+165   Art. 1°, OEA.
                                          166   Art. 1°, inc. 2°, ONU.
 
 Las personas con                                                           4. La discapacidad en la                                              119
@@ -4744,18 +4673,24 @@ discapacidad en el                                                             l
                                          la persona con                       el reconocimiento, goce o ejercicio de derechos fundamentales por
                                          discapacidad.                        parte de las personas con discapacidad.169
 
-
 ## 4.2.1.3 Ajustes razonables
 
-                                                                              La Convención Internacional utiliza el concepto de “ajustes razo-
+**Definición Canónica:** La Convención Internacional utiliza el concepto de “ajustes razo-
                                                                               nables” para dar cuenta de “las modificaciones y adaptaciones nece-
                                                                               sarias y adecuadas que no impongan una carga desproporcionada o
                                                                               indebida, cuando se requieran en un caso particular, para garantizar
 
+La Convención Internacional utiliza el concepto de “ajustes razo-
+                                                                              nables” para dar cuenta de “las modificaciones y adaptaciones nece-
+                                                                              sarias y adecuadas que no impongan una carga desproporcionada o
+                                                                              indebida, cuando se requieran en un caso particular, para garantizar
 
 ## 169   Esto es importante, porque la Ley Nº 20.422 sólo usa la palabra “consecuencia”. Más adelante se trata
 
-                                                 este punto.
+**Definición Canónica:** este punto.
+**Concordancias Legales:** Ley Nº 20.422
+
+este punto.
 
 Las personas con                         4. La discapacidad en la                                             121
 
@@ -4790,10 +4725,11 @@ discapacidad en el                                                             l
 Las personas con                                                              4. La discapacidad en la                                                          122
 discapacidad en el                                                               legislación chilena
 
-
 ## 4.3            Regulación
 
-                                                                                nacional
+**Definición Canónica:** nacional
+
+nacional
 
                                                                                 Al usar la mención explícita de la palabra “discapacidad”, o alguno de
                                                                                 sus sinónimos, hemos construido un listado preliminar y provisional
@@ -4801,10 +4737,12 @@ discapacidad en el                                                              
                                                                                 por 18 textos legales. Con el mismo criterio, listamos las normas de
                                                                                 rango reglamentario.
 
-
 ## 4.3.1 Legislación
 
-                                                                                1)	Ley Nº 17.238 (22/11/69). Concede a los profesionales y técnicos
+**Definición Canónica:** 1)	Ley Nº 17.238 (22/11/69). Concede a los profesionales y técnicos
+**Concordancias Legales:** Ley Nº 17.238; Ley Nº 16.768; Ley Nº 18.600
+
+1)	Ley Nº 17.238 (22/11/69). Concede a los profesionales y técnicos
 
                                                                                     chilenos que regresen definitivamente al país, en las condiciones
                                                                                     que señala, las franquicias aduaneras que indica para los bienes
@@ -4821,10 +4759,16 @@ discapacidad en el                                                              
                                                                                 3)	Ley Nº 18.600 (19/02/87). Establece normas sobre “deficiencias
                                                                                     mentales”.172
 
-
 ## 170   No se refiere a personas con discapacidad sino a personas lisiadas, lo que es un problema lingüístico en
 
-                                               términos de inclusión.
+**Definición Canónica:** términos de inclusión.
+                                         171   Artículo 5: Las personas lisiadas a las que se refiere el inciso anterior son aquellas que presentan incapacidad
+                                               permanente para la marcha normal, en virtud de lesiones orgánicas o funcionales, que afectan uno o los dos
+                                               miembros inferiores y, además, aquellas que conjuntamente a su incapacidad permanente para la marcha
+                                               normal, sufran de la incapacidad absoluta de uno de los miembros sup
+**Concordancias Legales:** Artículo 5; artículo 2; artículos 63; artículo 9; artículos 78; artículo 2 bis; artículo 13; artículo 35; artículo 12; artículo 91; artículo 6; Ley Nº 19.735; Ley Nº 18.700; Ley Nº 19.284; Ley Nº 20.422; Ley Nº 19.712; Ley Nº 19.947; Ley Nº 20.146; Ley Nº 20.255; Ley Nº 18.600; Ley Nº 20.379; Ley Nº 18.290; Ley N° 20.584; Ley Nº 20.609; Ley Nº 21.015; Ley Nº 21.021; DFL Nº 29; Constitucion; Constitución Política
+
+términos de inclusión.
                                          171   Artículo 5: Las personas lisiadas a las que se refiere el inciso anterior son aquellas que presentan incapacidad
                                                permanente para la marcha normal, en virtud de lesiones orgánicas o funcionales, que afectan uno o los dos
                                                miembros inferiores y, además, aquellas que conjuntamente a su incapacidad permanente para la marcha
@@ -4969,10 +4913,13 @@ discapacidad en el                                                              
                                                                                    en rehabilitación a las víctimas de explosión de minas u otros
                                                                                    artefactos explosivos militares abandonados o sin estallar.
 
-
 ## 4.3.2 Decretos y reglamentos
 
-                                                                               1)	Decreto Nº 1447/1980 (26/09/80). Establece normas para accesos
+**Definición Canónica:** 1)	Decreto Nº 1447/1980 (26/09/80). Establece normas para accesos
+                                                                                   de lisiados a edificios de la administración del Estado.177
+**Concordancias Legales:** artículo 1.1.2; artículo 2; Artículo 1; Ley Nº 18.600; Ley Nº 19.735; Ley N° 18.600
+
+1)	Decreto Nº 1447/1980 (26/09/80). Establece normas para accesos
                                                                                    de lisiados a edificios de la administración del Estado.177
 
                                                                                2)	Decreto Nº 47/1992 (5/06/92). Fija nuevo texto de la ordenanza
@@ -5014,7 +4961,11 @@ discapacidad en el                                                              
 
 ## 1992. En su artículo 26 establece la existencia de un asiento de
 
-                                                                                   fácil acceso para personas con discapacidad en el transporte
+**Definición Canónica:** fácil acceso para personas con discapacidad en el transporte
+                                                                                   público.
+**Concordancias Legales:** Artículo 1; Artículo 30; Artículo 10; Artículo 4; Ley Nº 19.284; Ley Nº 20.422; Ley N° 20.422; Ley Nº 20.422.184
+
+fácil acceso para personas con discapacidad en el transporte
                                                                                    público.
 
                                                                                6)	Decreto Nº 41/1995 (12/06/1995). Modifica decretos Nº 62, de
@@ -5081,10 +5032,12 @@ discapacidad en el                                                             l
 Las personas con                                                             4. La discapacidad en la                                                     129
 discapacidad en el                                                              legislación chilena
 
-
 ## 4.4            Análisis del panorama de textos
 
-                                                                               normativos en la legislación chilena
+**Definición Canónica:** normativos en la legislación chilena
+**Concordancias Legales:** Artículo 1; Ley Nº 18.600; Ley Nº 19.735; constitucion
+
+normativos en la legislación chilena
 
                                                                                El ejercicio de hacer coherente todo el material normativo dispo-
                                                                                nible excede los límites de este trabajo. Por ello, en esta sección
@@ -5166,10 +5119,12 @@ discapacidad en el                                                  legislación
 Las personas con                           4. La discapacidad en la                                                131
 discapacidad en el                            legislación chilena
 
-
 ## 4.5   La discapacidad
 
-                                               como hecho
+**Definición Canónica:** como hecho
+**Concordancias Legales:** artículos 19; artículo 5 de la Ley Nº 20.422 indepen; artículo 5 de la Ley Nº 20.422 no define; artículo 5; artículo 5 de la Ley Nº 20.422 no exige; Ley Nº 20.422
+
+como hecho
 
                                                Hay que distinguir con cuidado la noción de discapacidad y la de-
                                                finición de “personas con discapacidad”. La legislación chilena no
@@ -5333,10 +5288,12 @@ discapacidad en el                                                              
 Las personas con                           4. La discapacidad en la                                                      135
 discapacidad en el                            legislación chilena
 
-
 ## 4.6   La discapacidad
 
-                                               como estatus jurídico
+**Definición Canónica:** como estatus jurídico
+**Concordancias Legales:** Ley Nº 20.609; Ley Nº 20.584; Ley Nº 19.966; Ley Nº 20.422
+
+como estatus jurídico
 
                                                La fragmentación de las disposiciones que regulan la discapacidad
                                                impide realizar un tratamiento sistemático de la regulación sin
@@ -5355,18 +5312,26 @@ discapacidad en el                            legislación chilena
                                                vigentes. Esta operación de interpretación e integración normativa
                                                requiere una justificación cuidadosa.
 
-
 ## 4.6.1 Normas especiales sobre la discapacidad
 
-                                               En este apartado tratamos cuatro normas que pueden combinarse en
+**Definición Canónica:** En este apartado tratamos cuatro normas que pueden combinarse en
                                                los casos de discapacidad. No podemos abordarlas en profundidad,
                                                por esto buscaremos mostrar en qué sentido hay tensiones entre las
                                                normas y cómo podrían resolverse los conflictos potenciales.
 
+En este apartado tratamos cuatro normas que pueden combinarse en
+                                               los casos de discapacidad. No podemos abordarlas en profundidad,
+                                               por esto buscaremos mostrar en qué sentido hay tensiones entre las
+                                               normas y cómo podrían resolverse los conflictos potenciales.
 
 ## 4.6.1.1 Ley Nº 20.609, que establece medidas contra la
 
-                                               discriminación
+**Definición Canónica:** discriminación
+                                               No es una ley que trata la discapacidad de forma explícita. Su foco está
+                                               en la noción de discriminación arbitraria. El texto de la ley señala:
+**Concordancias Legales:** Artículo 2; artículo 19 de la Constitución Política; Constitución Política; constitucion
+
+discriminación
                                                No es una ley que trata la discapacidad de forma explícita. Su foco está
                                                en la noción de discriminación arbitraria. El texto de la ley señala:
 
@@ -5433,10 +5398,13 @@ discapacidad en el                                                             l
                                                                               derechos subjetivos. Por lo tanto, el inciso estaría expresando una
                                                                               norma permisiva implícita en la concepción liberal de la igualdad.
 
-
 ## 4.6.1.2 Ley Nº 20.584, de derechos y deberes de las per-
 
-                                                                              sonas en atención de salud
+**Definición Canónica:** sonas en atención de salud
+                                                                              Esta ley es relevante porque es frecuente que una persona con disca-
+**Concordancias Legales:** artículo 2; artículo 5; artículo 5 bis; artículo 14; artículo 27; Ley N° 20.584; Constitución
+
+sonas en atención de salud
                                                                               Esta ley es relevante porque es frecuente que una persona con disca-
 
                                                                               pacidad sea también paciente.190 La ley fija medidas protectoras a las
@@ -5506,10 +5474,15 @@ discapacidad en el                                                             l
                                                                                   pacidad puede ser sometida a tratamientos no consentidos. Para
                                                                                   ello se deben cumplir las siguientes condiciones:
 
-
 ## 193   La redacción es defectuosa porque parece suponer que toda persona con discapacidad tiene problemas de
 
-                                               comprensión lingüística.
+**Definición Canónica:** comprensión lingüística.
+                                         194   Organización Mundial de la Salud (Oficina Regional para Europa), Declaración para la promoción de los Dere-
+                                               chos de los Pacientes en Europa. Consulta europea sobre los Derechos de los Pacientes, Amsterdam, 28-30
+                                               de marzo de 1994.
+**Concordancias Legales:** artículo 28; artículo 24; artículo 26
+
+comprensión lingüística.
                                          194   Organización Mundial de la Salud (Oficina Regional para Europa), Declaración para la promoción de los Dere-
                                                chos de los Pacientes en Europa. Consulta europea sobre los Derechos de los Pacientes, Amsterdam, 28-30
                                                de marzo de 1994.
@@ -5564,10 +5537,15 @@ discapacidad en el                                                             l
                                                                               o intelectual sometidas a ellas tendrán garantizada la supervisión
                                                                               médica permanente.
 
-
 ## 4.6.1.3 Ley Nº 19.966, que establece un régimen de garan-
 
-                                                                              tías en salud (GES)
+**Definición Canónica:** tías en salud (GES)
+                                                                              Esta ley no regula la discapacidad de forma directa, pero contiene
+                                                                              normas que fijan la imputación de responsabilidad al Estado por
+                                                                              daños causados en el marco de contextos sanitarios.
+**Concordancias Legales:** Ley Nº 19.966; constitucion
+
+tías en salud (GES)
                                                                               Esta ley no regula la discapacidad de forma directa, pero contiene
                                                                               normas que fijan la imputación de responsabilidad al Estado por
                                                                               daños causados en el marco de contextos sanitarios.
@@ -5675,10 +5653,18 @@ discapacidad en el                                                            le
 
 Las personas con                         4. La discapacidad en la                                                143
 
-
 ## 4.6.1.4 Ley Nº 20.422, sobre igualdad de oportunidades e
 
-                                           inclusión de personas con discapacidad
+**Definición Canónica:** inclusión de personas con discapacidad
+                                           Esta ley es una especificación legal del derecho constitucional a la
+                                           igualdad, de las obligaciones del Estado en relación con el derecho
+                                           a la salud y de los tratados internacionales vigentes. En términos
+                                           generales, la ley establece varios mecanismos para promover la igual-
+                                           dad oportunidades. En su artículo 1 consagra que su objetivo es “...
+   
+**Concordancias Legales:** artículo 1; artículo 2; artículo 9; Ley Nº 19.966; constitucion
+
+inclusión de personas con discapacidad
                                            Esta ley es una especificación legal del derecho constitucional a la
                                            igualdad, de las obligaciones del Estado en relación con el derecho
                                            a la salud y de los tratados internacionales vigentes. En términos
@@ -5732,7 +5718,11 @@ discapacidad en el                                                          legi
 
 ## 21 Nº 3) e inclusión educacional (art. 21 Nº 3) e inclusión escolar
 
-                                                                           (título del párrafo 2º). Debido a que la ley no define el término, es
+**Definición Canónica:** (título del párrafo 2º). Debido a que la ley no define el término, es
+                                                                           necesario interpretarlo según el campo científico y/o artístico del
+**Concordancias Legales:** artículo 8
+
+(título del párrafo 2º). Debido a que la ley no define el término, es
                                                                            necesario interpretarlo según el campo científico y/o artístico del
 
                                                                            que proviene. Según Echeíta y Verdugo (2004) este término alude a
@@ -5823,10 +5813,15 @@ discapacidad en el                                                            le
 
                                                                              las circunstancias que el artículo lista.
 
-
 ## 4.6.2 Normas civiles con posible
 
-                                                                             impacto en la discapacidad
+**Definición Canónica:** impacto en la discapacidad
+                                                                             El sólo hecho de poseer una discapacidad no convierte a la persona
+                                                                             en incapaz de ejercicio. Un claro ejemplo es la persona discapacitada
+                                                                             debido a una condición física (necesidad de usar una silla de ruedas)
+                                                                             o comunicativa (sordomudez). Ella no es incapaz por ese só
+
+impacto en la discapacidad
                                                                              El sólo hecho de poseer una discapacidad no convierte a la persona
                                                                              en incapaz de ejercicio. Un claro ejemplo es la persona discapacitada
                                                                              debido a una condición física (necesidad de usar una silla de ruedas)
@@ -5836,10 +5831,13 @@ discapacidad en el                                                            le
                                                                              legislador exige, además de la condición (sordo o sordomudo), que
                                                                              la persona no pueda darse a entender claramente.
 
-
 ## 4.6.2.1 Discapacidad e interdicción por demencia
 
-                                                                             El caso de la persona con discapacidad psíquica o intelectual206 y su
+**Definición Canónica:** El caso de la persona con discapacidad psíquica o intelectual206 y su
+                                                                             eventual incapacidad de ejercicio, es más complejo.207 Aquí hay dos
+                                                                             situaciones posibles:
+
+El caso de la persona con discapacidad psíquica o intelectual206 y su
                                                                              eventual incapacidad de ejercicio, es más complejo.207 Aquí hay dos
                                                                              situaciones posibles:
 
@@ -5849,7 +5847,11 @@ discapacidad en el                                                            le
 
 ## 207 Existen dos procedimientos judiciales para la interdicción de una persona con discapacidad intelectual. El
 
-                                             juicio contencioso del Código Civil y del Código de Procedimiento Civil y el procedimiento voluntario de la
+**Definición Canónica:** juicio contencioso del Código Civil y del Código de Procedimiento Civil y el procedimiento voluntario de la
+                                             Ley Nº 18.600. Ver LATHROP (2019).
+**Concordancias Legales:** Ley Nº 18.600
+
+juicio contencioso del Código Civil y del Código de Procedimiento Civil y el procedimiento voluntario de la
                                              Ley Nº 18.600. Ver LATHROP (2019).
 
 Las personas con                                                           4. La discapacidad en la                                                      147
@@ -5892,10 +5894,13 @@ discapacidad en el                                                            le
                                                                                           casi normal.208 Sin embargo, puede ocurrir que padezca de
                                                                                           otra enfermedad que afecte su capacidad jurídica, como la
 
-
 ## 208 Esta afirmación no implica que los pacientes de esquizofrenia tengan un deterioro cognitivo que afecta su
 
-                                             calidad de vida y, entonces, que puedan ser entendidas como personas con discapacidad. Sobre la relación
+**Definición Canónica:** calidad de vida y, entonces, que puedan ser entendidas como personas con discapacidad. Sobre la relación
+                                             entre esquizofrenia y deterioro cognitivo, ver CAVIERES y VALDEBENITO (2005); BARRERA (2006).
+**Concordancias Legales:** constitucion
+
+calidad de vida y, entonces, que puedan ser entendidas como personas con discapacidad. Sobre la relación
                                              entre esquizofrenia y deterioro cognitivo, ver CAVIERES y VALDEBENITO (2005); BARRERA (2006).
 
 Las personas con                                                        4. La discapacidad en la                                               148
@@ -5949,10 +5954,14 @@ discapacidad en el                                                        legisl
                                                                          medida, no puede ser autónoma. Así, la interdicción completa debe
                                                                          ser una resolución fundada de forma muy robusta.211
 
-
 ## 4.6.2.2 Discapacidad e interdicción por disipación
 
-                                                                         El Código Civil autoriza la interdicción por disipación en el artículo
+**Definición Canónica:** El Código Civil autoriza la interdicción por disipación en el artículo
+                                                                         445, mediante un “juego habitual en que se arriesguen porciones
+                                                                         considerables del patrimonio, donaciones cuantiosas sin causa ade-
+**Concordancias Legales:** artículo 445; artículo 9; Ley Nº 19.995
+
+El Código Civil autoriza la interdicción por disipación en el artículo
                                                                          445, mediante un “juego habitual en que se arriesguen porciones
                                                                          considerables del patrimonio, donaciones cuantiosas sin causa ade-
 
@@ -5994,10 +6003,12 @@ discapacidad en el                                                        legisl
                                            total de prudencia”. De este modo, una persona discapacitada por
                                            esquizofrenia podría no calificar dentro de la categoría de disipador.
 
-
 ## 4.6.3 Normas penales con posible
 
-                                           impacto en la discapacidad
+**Definición Canónica:** impacto en la discapacidad
+**Concordancias Legales:** artículo 12
+
+impacto en la discapacidad
 
                                            La distinción entre enfermedad y discapacidad es útil cuando pensamos
                                            en el contexto penal, porque nos permite sostener ocho ideas básicas:
@@ -6121,10 +6132,12 @@ discapacidad en el                                                              
 Las personas con                               4. La discapacidad en la                                              153
 discapacidad en el                                legislación chilena
 
-
 ## 4.7     Material complementario
 
-                                                 sobre el capítulo
+**Definición Canónica:** sobre el capítulo
+**Concordancias Legales:** Ley Nº 20.422; Ley Nº 19.966; Ley Nº 20.580; Ley Nº 20.609
+
+sobre el capítulo
 
                                                  ZÚNIGA, Alejandra (2013): “La nueva Ley de Derechos del Paciente:
                                                  del modelo de la beneficencia al modelo de la autonomía”, en Revista
@@ -6212,11 +6225,17 @@ discapacidad en el                                                        legisl
 Las personas con                               5. La discapacidad en el                                              157
 discapacidad en el                                razonamiento judicial
 
-
 ## 5.1     Presentación
 
+**Definición Canónica:** El objetivo de este capítulo es doble. La primera parte introduce al
+                                                 lector a una serie de conceptos básicos sobre el razonamiento jurídico.
+                                                 Se inicia elucidando el concepto de “razonamiento” y señalando la
+                                                 especificidad del razonamiento judicial. Luego se abordan los prin-
+                                                 cipales problemas para la configuración de la premisa normativa y
+                                                 de la premisa 
+**Concordancias Legales:** Ley 20.422
 
-                                                 El objetivo de este capítulo es doble. La primera parte introduce al
+El objetivo de este capítulo es doble. La primera parte introduce al
                                                  lector a una serie de conceptos básicos sobre el razonamiento jurídico.
                                                  Se inicia elucidando el concepto de “razonamiento” y señalando la
                                                  especificidad del razonamiento judicial. Luego se abordan los prin-
@@ -6339,19 +6358,27 @@ discapacidad en el                                razonamiento judicial
                                            sólo ella trabaje desde su domicilio– es incoherente con el sistema
                                            jurídico y debe ser declarada discriminatoria.
 
-
 ## 5.2.1 Observando más de cerca
 
-                                           Para analizar el caso con más detalle, revisaremos el paso que da el
+**Definición Canónica:** Para analizar el caso con más detalle, revisaremos el paso que da el
+                                           tribunal en los considerandos tercero a noveno.
+
+Para analizar el caso con más detalle, revisaremos el paso que da el
                                            tribunal en los considerandos tercero a noveno.
 
 Las personas con                                                               5. La discapacidad en el                                                            161
 discapacidad en el                                                                razonamiento judicial
 
-
 ## 5.2.1.1 Considerando tercero
 
-                                                                                 El juez inicia su razonamiento con la finalidad de la Ley Nº 20.609.
+**Definición Canónica:** El juez inicia su razonamiento con la finalidad de la Ley Nº 20.609.
+                                                                                 Usa entonces una interpretación teleológica o finalista. Hace cohe-
+                                                                                 rente así el mencionado texto legal con el recurso de protección, e
+                                                                                 interpreta conforme a la Constitución las expresiones de la ley, que
+                                                                                 so
+**Concordancias Legales:** artículo 20 de la Carta Funda; Ley Nº 20.609; Constitución
+
+El juez inicia su razonamiento con la finalidad de la Ley Nº 20.609.
                                                                                  Usa entonces una interpretación teleológica o finalista. Hace cohe-
                                                                                  rente así el mencionado texto legal con el recurso de protección, e
                                                                                  interpreta conforme a la Constitución las expresiones de la ley, que
@@ -6359,10 +6386,13 @@ discapacidad en el                                                              
                                                                                  mental. Finaliza el considerando estableciendo las facultades del
                                                                                  tribunal bajo esa finalidad legislativa.215
 
-
 ## 5.2.1.2 Considerando cuarto
 
-                                                                                 En este considerando el juez hace dos movimientos argumentativos.
+**Definición Canónica:** En este considerando el juez hace dos movimientos argumentativos.
+                                                                                 En primer lugar, reproduce la lista de ejemplos de casos de discrimi-
+**Concordancias Legales:** artículo 2; Ley Nº 20.609; constitucion
+
+En este considerando el juez hace dos movimientos argumentativos.
                                                                                  En primer lugar, reproduce la lista de ejemplos de casos de discrimi-
 
                                                                                  nación arbitraria. En segundo, distingue estos casos de la hipótesis de
@@ -6387,7 +6417,14 @@ discapacidad en el                                                              
 
 ## 216   CUARTO: Que el artículo 2º de la ley enuncia ejemplarmente como casos de discriminación arbitraria ac-
 
-                                               tos fundados en motivos como la raza o etnia, la nacionalidad, la situación económico-social, el idioma, la
+**Definición Canónica:** tos fundados en motivos como la raza o etnia, la nacionalidad, la situación económico-social, el idioma, la
+                                               ideología u opinión política, la religión o creencia, la sindicación o participación en organizaciones gremiales
+                                               o la falta de ellas, el sexo, la orientación sexual, la identidad de género, el estado civil, la edad, la filiación, la
+                                               apariencia personal y la enfermedad o discapacidad.
+                                               Sin embargo, hay qu
+**Concordancias Legales:** artículo 12 del Código Penal. En efecto; Ley Nº 20.609
+
+tos fundados en motivos como la raza o etnia, la nacionalidad, la situación económico-social, el idioma, la
                                                ideología u opinión política, la religión o creencia, la sindicación o participación en organizaciones gremiales
                                                o la falta de ellas, el sexo, la orientación sexual, la identidad de género, el estado civil, la edad, la filiación, la
                                                apariencia personal y la enfermedad o discapacidad.
@@ -6402,10 +6439,16 @@ discapacidad en el                                                              
 Las personas con                                                             5. La discapacidad en el                                                        162
 discapacidad en el                                                              razonamiento judicial
 
-
 ## 5.2.1.3 Considerando quinto
 
-                                                                               Aquí el juez realiza dos movimientos argumentales. En primer
+**Definición Canónica:** Aquí el juez realiza dos movimientos argumentales. En primer
+                                                                               lugar, construye el problema como un conflicto del reconocimien-
+                                                                               to de diferencias. De esta forma, la acción del agente que ejecuta
+                                                                               una discriminación queda definida como una acción de subrayado.
+                                                                               Discrimina quien –buscando 
+**Concordancias Legales:** Ley N° 20.609.217
+
+Aquí el juez realiza dos movimientos argumentales. En primer
                                                                                lugar, construye el problema como un conflicto del reconocimien-
                                                                                to de diferencias. De esta forma, la acción del agente que ejecuta
                                                                                una discriminación queda definida como una acción de subrayado.
@@ -6419,10 +6462,16 @@ discapacidad en el                                                              
 
                                                                                Ley N° 20.609.217
 
-
 ## 5.2.1.4 Considerando sexto
 
-                                                                               En este considerando, el tribunal intenta distinguir enfermedad y
+**Definición Canónica:** En este considerando, el tribunal intenta distinguir enfermedad y
+                                                                               discapacidad. Como el concepto de discapacidad no ha sido definido
+                                                                               en la ley, el tribunal intenta colmar una laguna. La integración del
+                                                                               derecho se hace con dos nociones: una idea de no discriminación
+                                                                               teleológica o fina
+**Concordancias Legales:** artículo 1; artículo 2; artículos 1; Ley Nº 20.609; Ley Nº 20.422
+
+En este considerando, el tribunal intenta distinguir enfermedad y
                                                                                discapacidad. Como el concepto de discapacidad no ha sido definido
                                                                                en la ley, el tribunal intenta colmar una laguna. La integración del
                                                                                derecho se hace con dos nociones: una idea de no discriminación
@@ -6458,17 +6507,23 @@ discapacidad en el                                                              
                                                                                grave” que discriminar por factores que dependen de algún modo
                                                                                de la elección de la víctima.218
 
-
 ## 5.2.1.5 Considerando séptimo
 
-                                                                               Aquí el tribunal juzga el razonamiento del juez de primera instancia.
+**Definición Canónica:** Aquí el tribunal juzga el razonamiento del juez de primera instancia.
                                                                                El considerando es, entonces, una lista de aciertos en el razonamiento
                                                                                judicial que se revisa.219
 
+Aquí el tribunal juzga el razonamiento del juez de primera instancia.
+                                                                               El considerando es, entonces, una lista de aciertos en el razonamiento
+                                                                               judicial que se revisa.219
 
 ## 5.2.1.6 Considerando octavo
 
-                                                                               En este considerando se desechan las alegaciones del apelante.
+**Definición Canónica:** En este considerando se desechan las alegaciones del apelante.
+                                                                               Para esto se construye un contrafáctico. Incluso si la jefatura sólo
+**Concordancias Legales:** artículo 2; Ley Nº 20.609
+
+En este considerando se desechan las alegaciones del apelante.
                                                                                Para esto se construye un contrafáctico. Incluso si la jefatura sólo
 
                                                                                hubiese sugerido el trabajo a distancia, se hubiese discriminado a la
@@ -6496,7 +6551,14 @@ discapacidad en el                                                              
 
 ## 219   SÉPTIMO: Que tras una amplísima relación de los antecedentes, la sentencia enfoca correctamente el con-
 
-                                               cepto de discriminación arbitraria, en el considerando décimo cuarto, valora con propiedad la prueba y, en los
+**Definición Canónica:** cepto de discriminación arbitraria, en el considerando décimo cuarto, valora con propiedad la prueba y, en los
+                                               acápites décimo séptimo y décimo octavo, tiene por establecido que a la denunciante, pese a sobrellevar una
+                                               discapacidad visual, el 7 de junio de 2016 el Senado de la República, a sabiendas de tal déficit, le impuso el
+                                               deber de continuar su trabajo de telefonista desde su casa, mientras se tramitaba un sumario administrativo
+                     
+**Concordancias Legales:** Ley Nº 20.422
+
+cepto de discriminación arbitraria, en el considerando décimo cuarto, valora con propiedad la prueba y, en los
                                                acápites décimo séptimo y décimo octavo, tiene por establecido que a la denunciante, pese a sobrellevar una
                                                discapacidad visual, el 7 de junio de 2016 el Senado de la República, a sabiendas de tal déficit, le impuso el
                                                deber de continuar su trabajo de telefonista desde su casa, mientras se tramitaba un sumario administrativo
@@ -6547,7 +6609,14 @@ discapacidad en el                                                              
 
 ## 221   NOVENO: Que todos estos razonamientos conducen al rechazo de la apelación presentada por el Senado de
 
-                                                 Chile, pero también de la adhesión al recurso y la impugnación del auto de prueba formulados por la defensa
+**Definición Canónica:** Chile, pero también de la adhesión al recurso y la impugnación del auto de prueba formulados por la defensa
+                                                 de Ximena Amigo y Carlos Becerra. Quedó dicho que la adhesión reproduce en lo medular los argumentos
+                                                 del apelante, a los que añade nada más que la excepción de caducidad de la acción, certeramente descar-
+                                                 tada por la sentencia en su considerando décimo quinto. En cuanto a la apelación del auto de prueba, se
+                                    
+**Concordancias Legales:** artículo 1 de la Ley Nº 20.609; artículo 2 de la Ley Nº 20.609 consagra; Ley Nº 20.422; Ley Nº 20.609; constitucion
+
+Chile, pero también de la adhesión al recurso y la impugnación del auto de prueba formulados por la defensa
                                                  de Ximena Amigo y Carlos Becerra. Quedó dicho que la adhesión reproduce en lo medular los argumentos
                                                  del apelante, a los que añade nada más que la excepción de caducidad de la acción, certeramente descar-
                                                  tada por la sentencia en su considerando décimo quinto. En cuanto a la apelación del auto de prueba, se
@@ -6626,10 +6695,12 @@ discapacidad en el                                                              
 Las personas con                                                              5. La discapacidad en el                                                   167
 discapacidad en el                                                               razonamiento judicial
 
-
 ## 5.3           Segunda parte. Conceptos básicos
 
-                                                                                del razonamiento judicial.
+**Definición Canónica:** del razonamiento judicial.
+**Concordancias Legales:** constitucion
+
+del razonamiento judicial.
 
                                                                                 5.3.1 ¿Qué es el razonamiento jurídico?
                                                                                 El vocablo “razonamiento” se puede utilizar para denotar cosas dife-
@@ -6766,11 +6837,15 @@ discapacidad en el                                                             r
                                                                               debe afianzarse en un conjunto de materiales jurídicos que actúan
                                                                               como materia prima del razonamiento.
 
-
 ## 5.3.2 Los materiales jurídicos y la interpretación
 
+**Definición Canónica:** Los materiales jurídicos básicos son las disposiciones o textos norma-
+                                                                              tivos que generan las fuentes formales del derecho. Una disposición
+                                         En sentido amplio,                   es un enunciado lingüístico presente en algún texto normativo válido
+                                                                              o reconocido como fuente formal del derecho.230 Una norma es, en
+                                         usualmente                           cambio, el sign
 
-                                                                              Los materiales jurídicos básicos son las disposiciones o textos norma-
+Los materiales jurídicos básicos son las disposiciones o textos norma-
                                                                               tivos que generan las fuentes formales del derecho. Una disposición
                                          En sentido amplio,                   es un enunciado lingüístico presente en algún texto normativo válido
                                                                               o reconocido como fuente formal del derecho.230 Una norma es, en
@@ -6798,8 +6873,9 @@ discapacidad en el                                                             r
 
 ## 232   GUASTINI (2008), p.79
 
+**Definición Canónica:** Las personas con                         5. La discapacidad en el                                              171
 
-Las personas con                         5. La discapacidad en el                                              171
+Las personas con                         5. La discapacidad en el                                              171
 
                                            enunciado a interpretar y “S” es una norma jurídica que se adscribe
                                            a “P”. Las normas, bajo este concepto, son el resultado o producto
@@ -6877,17 +6953,17 @@ discapacidad en el                                                          razo
                                                                            la aplicación de determinados textos normativos. Revisaremos algo
                                                                            más al respecto al tratar la aplicación de reglas y principios.
 
-
-## 233   GUASTINI (2008), p. 79
-
-                                         234   GUASTINI (2008), p. 50.
-
-Las personas con                         5. La discapacidad en el                                               173
-
-
 ## 5.3.2.1 Técnicas de interpretación
 
-                                           Conforme a las disposiciones del Código Civil, hay un conjunto de
+**Definición Canónica:** Conforme a las disposiciones del Código Civil, hay un conjunto de
+                                           normas que regulan la interpretación de la ley. Aunque buena parte
+                                           de la doctrina sostiene que estas disposiciones son de alcance general,
+                                           es importante considerar que sectores importantes del ordenamien-
+                                           to tienen normas de interpretación diferenciadas, como el derecho
+                                           penal y el derecho laboral. Además, que la const
+**Concordancias Legales:** artículos 19; Ley Nº 20.422; constitucion; Constitución
+
+Conforme a las disposiciones del Código Civil, hay un conjunto de
                                            normas que regulan la interpretación de la ley. Aunque buena parte
                                            de la doctrina sostiene que estas disposiciones son de alcance general,
                                            es importante considerar que sectores importantes del ordenamien-
@@ -7041,10 +7117,14 @@ discapacidad en el                                                            ra
                                                                              plicado este reconocimiento, es necesario que un juez considere al
                                                                              menos tres puntos complementarios:
 
-
 ## 239   NUSSBAUM (1997), pp. 138-163: “Mi enfoque (...) enfatiza la necesidad del dominio técnico tanto como de
 
-                                               sentimientos e imaginación, e insiste también en que los segundos deben estar continuamente informados
+**Definición Canónica:** sentimientos e imaginación, e insiste también en que los segundos deben estar continuamente informados
+                                               y contenidos en los primeros”. Mucho más adelante, agrega: “En ausencia de esta capacidad (fantasear e
+                                               imaginar), las voces ‘largamente mudas’ que procuran hablar por medio de esa justicia permanecerán en
+                                               silencio, y el ‘sol naciente’ del juicio democrático quedará velado”.
+
+sentimientos e imaginación, e insiste también en que los segundos deben estar continuamente informados
                                                y contenidos en los primeros”. Mucho más adelante, agrega: “En ausencia de esta capacidad (fantasear e
                                                imaginar), las voces ‘largamente mudas’ que procuran hablar por medio de esa justicia permanecerán en
                                                silencio, y el ‘sol naciente’ del juicio democrático quedará velado”.
@@ -7065,10 +7145,16 @@ discapacidad en el                                                             r
                                                                               3)	La sentencia no debe asimilar a las personas con discapacidad a
                                                                                   la identidad mayoritaria o dominante en la sociedad.
 
-
 ## 5.3.4 Razonamiento con principios
 
-                                                                              Un asunto controvertido, respecto a la configuración de la premisa
+**Definición Canónica:** Un asunto controvertido, respecto a la configuración de la premisa
+                                                                              normativa, consiste en el uso de principios. Como ya hemos dicho,
+                                                                              se ha sostenido que en el mundo de las normas podemos hacer
+                                                                              una distinción entre reglas y principios.240 Los principios carecen
+                                                                              de la estructura condiciona
+**Concordancias Legales:** Constitución; constitucion
+
+Un asunto controvertido, respecto a la configuración de la premisa
                                                                               normativa, consiste en el uso de principios. Como ya hemos dicho,
                                                                               se ha sostenido que en el mundo de las normas podemos hacer
                                                                               una distinción entre reglas y principios.240 Los principios carecen
@@ -7132,10 +7218,13 @@ discapacidad en el                                                              
                                                                                principios. Ofrecemos a continuación un pequeño apartado con pasos
                                                                                que pueden guiar al juez en esta tarea de especificación.
 
-
 ## 242   Esto sería consecuencia directa de su alto grado de indeterminación respecto de las conductas que regula
 
-                                                 (supuesto de hecho abierto) y de cómo las regula (indeterminación respecto del consecuente). Para más
+**Definición Canónica:** (supuesto de hecho abierto) y de cómo las regula (indeterminación respecto del consecuente). Para más
+                                                 información, ver PINO (2010).
+**Concordancias Legales:** Constitución
+
+(supuesto de hecho abierto) y de cómo las regula (indeterminación respecto del consecuente). Para más
                                                  información, ver PINO (2010).
 
 Las personas con                                                 5. La discapacidad en el                                                       179
@@ -7221,10 +7310,15 @@ discapacidad en el                                                        razona
                                                                          de ellos es siempre caso a caso, de manera que no es posible antici-
                                                                          parse a su resultado.
 
-
 ## 5.3.4.1 Pasos para especificar un principio
 
-                                                                         Hemos visto que la aplicación o utilización de un principio en un
+**Definición Canónica:** Hemos visto que la aplicación o utilización de un principio en un
+                                                                         razonamiento judicial requiere de la realización de un método previo
+                                                                         denominado especificación. Un razonamiento de especificación no es
+                                                                         otra cosa que la justificación de la existencia de una regla implícita,
+                                                                         utilizando un principio como premi
+
+Hemos visto que la aplicación o utilización de un principio en un
                                                                          razonamiento judicial requiere de la realización de un método previo
                                                                          denominado especificación. Un razonamiento de especificación no es
                                                                          otra cosa que la justificación de la existencia de una regla implícita,
@@ -7286,10 +7380,16 @@ discapacidad en el                                                        razona
 Las personas con                                                            5. La discapacidad en el                                                   182
 discapacidad en el                                                             razonamiento judicial
 
-
 ## 5.3.4.2 Conflictos entre principios y ponderación
 
-                                                                              Como hemos visto, los conflictos o antinomias se producen cuando
+**Definición Canónica:** Como hemos visto, los conflictos o antinomias se producen cuando
+                                                                              dos o más normas conducen a resultados incompatibles, de modo que
+                                                                              no es posible aplicarlas a un mismo caso. Parece ser un lugar común,
+                                                                              en la doctrina constitucional moderna, que los criterios clásicos de
+                                                                              solución de antinom
+**Concordancias Legales:** constitucion
+
+Como hemos visto, los conflictos o antinomias se producen cuando
                                                                               dos o más normas conducen a resultados incompatibles, de modo que
                                                                               no es posible aplicarlas a un mismo caso. Parece ser un lugar común,
                                                                               en la doctrina constitucional moderna, que los criterios clásicos de
@@ -7412,10 +7512,15 @@ discapacidad en el                                                           raz
 
 Las personas con                         5. La discapacidad en el                                                     185
 
-
 ## 5.3.4.3 Los principios en los casos de discapacidad
 
-                                           Los tratados vigentes y las leyes relevantes para resolver casos de
+**Definición Canónica:** Los tratados vigentes y las leyes relevantes para resolver casos de
+                                           discapacidad incluyen disposiciones que pueden ser calificadas como
+                                           principios, conforme a la tipología anterior. Prima facie, los principios
+                                           más importantes son los que se detallan a continuación:
+**Concordancias Legales:** constitucion
+
+Los tratados vigentes y las leyes relevantes para resolver casos de
                                            discapacidad incluyen disposiciones que pueden ser calificadas como
                                            principios, conforme a la tipología anterior. Prima facie, los principios
                                            más importantes son los que se detallan a continuación:
@@ -7449,10 +7554,16 @@ discapacidad en el                                                           raz
                                               el juez puede recurrir a otros modelos de integración de la noción
                                               de discapacidad.
 
-
 ## 5.3.5 Razonamiento probatorio
 
-                                           Hasta aquí hemos visto que, para ser válido, un razonamiento judi-
+**Definición Canónica:** Hasta aquí hemos visto que, para ser válido, un razonamiento judi-
+                                           cial debe contener al menos una premisa normativa y, a lo menos,
+                                           una premisa fáctica que pueda subsumirse bajo el antecedente de
+                                           la premisa normativa. La justificación de esta premisa exige que
+                                           realicemos algunas precisiones y presentemos algunos problemas
+                                           sobre el razonamiento probatorio.
+
+Hasta aquí hemos visto que, para ser válido, un razonamiento judi-
                                            cial debe contener al menos una premisa normativa y, a lo menos,
                                            una premisa fáctica que pueda subsumirse bajo el antecedente de
                                            la premisa normativa. La justificación de esta premisa exige que
@@ -7562,10 +7673,17 @@ discapacidad en el                                                 razonamiento 
                                            valor que se debe asignar al material probatorio disponible, de manera
                                            que quien realiza el ejercicio valorativo es el legislador y no el juez.
 
-
 ## 5.3.5.1 La prueba en casos de discapacidad
 
-                                           La discapacidad no es difícil de probar, en la medida en que se trata
+**Definición Canónica:** La discapacidad no es difícil de probar, en la medida en que se trata
+                                           de una relación entre varios factores. Lo importante es que una per-
+                                           sona ve afectada su participación en la vida social debido a poseer
+                                           una cualidad. Esta consiste en una deficiencia provocada por una
+                                           condición de salud. Según la Ley Nº 20.422, esa cualidad se califica
+                                           y certifica por las comisiones de medicina p
+**Concordancias Legales:** artículo 5 de la Ley Nº 20.422 no hace depender; artículo 5 de la Ley Nº 20.422 no de; artículo 5 de la Ley Nº 20.422 no exige; Ley Nº 20.422
+
+La discapacidad no es difícil de probar, en la medida en que se trata
                                            de una relación entre varios factores. Lo importante es que una per-
                                            sona ve afectada su participación en la vida social debido a poseer
                                            una cualidad. Esta consiste en una deficiencia provocada por una
@@ -7702,10 +7820,11 @@ discapacidad en el                                                    razonamien
 Las personas con                           5. La discapacidad en el                                               192
 discapacidad en el                            razonamiento judicial
 
-
 ## 5.4   Tercera parte. La redacción de las
 
-                                               sentencias y el lenguaje claro.
+**Definición Canónica:** sentencias y el lenguaje claro.
+
+sentencias y el lenguaje claro.
 
                                                Las sentencias deben ser comprensibles por el ciudadano. Esto
                                                implica que su organización, estructura y estilo de escritura deben
@@ -7728,7 +7847,11 @@ discapacidad en el                            razonamiento judicial
 
 ## parte del proceso que posee una discapacidad no espera solamente
 
-                                               la resolución de un conflicto, sino que tiene la legítima expectativa
+**Definición Canónica:** la resolución de un conflicto, sino que tiene la legítima expectativa
+                                               de que el tribunal reafirme su igualdad dignidad como miembro de
+                                               la comunidad.
+
+la resolución de un conflicto, sino que tiene la legítima expectativa
                                                de que el tribunal reafirme su igualdad dignidad como miembro de
                                                la comunidad.
 
@@ -7758,10 +7881,18 @@ discapacidad en el                            razonamiento judicial
                                            Asimismo, daremos algunos patrones de uso de lenguaje inclusivo
                                            para evitar usos impropios.
 
-
 ## 5.4.1 El lenguaje claro como propósito
 
-                                           de la sentencia judicial
+**Definición Canónica:** de la sentencia judicial
+                                           La sentencia judicial no es sólo la expresión de un razonamiento
+                                           tecnificado por el lenguaje legal. Se trata de un documento que deja
+                                           constancia pública de las razones que justifican una decisión. Esas
+                                           razones deben ser fundadas en normas del derecho vigente y, para
+                                           asegurar el control ciudadano sobre la racionalidad de la decisión,
+                         
+**Concordancias Legales:** Ley Nº 20.422
+
+de la sentencia judicial
                                            La sentencia judicial no es sólo la expresión de un razonamiento
                                            tecnificado por el lenguaje legal. Se trata de un documento que deja
                                            constancia pública de las razones que justifican una decisión. Esas
@@ -7901,41 +8032,44 @@ discapacidad en el                                                              
                                                por término legal y se fijan los siguientes hechos sustanciales perti-
                                                nentes y controvertidos sobre los cuales deberá ella recaer:
 
-
-## 1. Efectividad que (…) fue objeto de hechos constitutivos de discrimi-
-
-                                                   nación arbitraria, al ser tratada del modo (…) Hechos, circunstancias
-                                                   que lo acreditan y derechos conculcados y afectación producida.
-
-
 ## 2. Efectividad de haber vulnerado los denunciados respecto de
 
-                                                   la denunciante, el principio de igualdad ante la ley consagrado
+**Definición Canónica:** la denunciante, el principio de igualdad ante la ley consagrado
+                                                   en la Constitución Política de la República, causando privación
+                                                   perturbación o amenaza en el ejercicio legítimo de los derechos
+                                                   consagrados en el artículo 19 numerales 1, 2, 3, 4, 16 y 24 de la
+                                                   Carta Fundamental y de los tratados internacionales ratificados
+                                                   por nuestro país.
+**Concordancias Legales:** artículo 19; Constitución Política
+
+la denunciante, el principio de igualdad ante la ley consagrado
                                                    en la Constitución Política de la República, causando privación
                                                    perturbación o amenaza en el ejercicio legítimo de los derechos
                                                    consagrados en el artículo 19 numerales 1, 2, 3, 4, 16 y 24 de la
                                                    Carta Fundamental y de los tratados internacionales ratificados
                                                    por nuestro país.
 
-
 ## 3. Existencia de un protocolo en el lugar de trabajo (…) Anteceden-
 
-                                                   tes, resultado de este y medidas adoptadas.
+**Definición Canónica:** tes, resultado de este y medidas adoptadas.
+
+tes, resultado de este y medidas adoptadas.
 
                                                 4. Efectividad de ser extemporánea la acción interpuesta en autos.
                                                    Antecedentes que dan cuenta de ello.
 
 Las personas con                         5. La discapacidad en el                                                    197
 
-
-## 5. Efectividad de encontrarse justificada la actuación de los deman-
-
-                                                   dados. Hechos, normativa y antecedentes que dan cuenta de ello.
-
-
 ## 6. Efectividad de que el/la demandante posee una discapacidad, esto
 
-                                                   es: la existencia de una condición de salud, su temporalidad y su
+**Definición Canónica:** es: la existencia de una condición de salud, su temporalidad y su
+                                                   existencia en el momento en que ocurrieron los hechos. Existen-
+                                                   cia de una deficiencia que es consecuencia de esa condición de
+                                                   salud y que genera limitaciones a la actividad y restricciones a la
+                                                   participación social de la demandante.
+**Concordancias Legales:** artículo 9; Ley Nº 20.609
+
+es: la existencia de una condición de salud, su temporalidad y su
                                                    existencia en el momento en que ocurrieron los hechos. Existen-
                                                    cia de una deficiencia que es consecuencia de esa condición de
                                                    salud y que genera limitaciones a la actividad y restricciones a la
@@ -7951,10 +8085,14 @@ discapacidad en el                                                              
                                            subdivide. Esta subdivisión analítica responde al modelo de la OMS,
                                            como ya lo hemos visto.
 
-
 ## 5.4.3 Estructura de las sentencias
 
-                                           Una pauta útil es seguir las recomendaciones del Protocolo para la
+**Definición Canónica:** Una pauta útil es seguir las recomendaciones del Protocolo para la
+                                           estructura y redacción de sentencias y otras recomendaciones sobre lenguaje y
+                                           comprensión de las actuaciones judiciales, de la Cumbre Judicial Iberoame-
+                                           ricana. El texto está disponible en www.cumbrejudicial.org.
+
+Una pauta útil es seguir las recomendaciones del Protocolo para la
                                            estructura y redacción de sentencias y otras recomendaciones sobre lenguaje y
                                            comprensión de las actuaciones judiciales, de la Cumbre Judicial Iberoame-
                                            ricana. El texto está disponible en www.cumbrejudicial.org.
@@ -8045,10 +8183,15 @@ discapacidad en el                                                              
 Las personas con                                                                5. La discapacidad en el                                                200
 discapacidad en el                                                                 razonamiento judicial
 
-
 ## 5.4.4 Recomendaciones de uso de lenguaje
 
-                                                                                  inclusivo en las sentencias
+**Definición Canónica:** inclusivo en las sentencias
+                                                                                  El Servicio Nacional de la Discapacidad (Senadis), en un documento
+                                                                                  titulado Recomendaciones para el uso del lenguaje en discapacidad, usa la
+                                                                                  siguiente tabla para ilustrar usos incorrectos del lenguaje y un uso
+                                                                                  inclusivo del mismo.254
+
+inclusivo en las sentencias
                                                                                   El Servicio Nacional de la Discapacidad (Senadis), en un documento
                                                                                   titulado Recomendaciones para el uso del lenguaje en discapacidad, usa la
                                                                                   siguiente tabla para ilustrar usos incorrectos del lenguaje y un uso
@@ -8081,11 +8224,12 @@ discapacidad en el                                                              
                                          — Personas con capacidades diferentes
                                          — Personas con necesidades especiales
 
-
 ## 254   El documento está disponible en: https://www.senadis.gob.cl/descarga/i/2989/documento
 
+**Definición Canónica:** Las personas con                                                           5. La discapacidad en el                                                            201
+discapacidad en el                                                            razonamiento judicial
 
-Las personas con                                                           5. La discapacidad en el                                                            201
+Las personas con                                                           5. La discapacidad en el                                                            201
 discapacidad en el                                                            razonamiento judicial
 
                                                                  Uso                                                          Uso
@@ -8127,10 +8271,12 @@ discapacidad en el                                                            ra
 Las personas con                               5. La discapacidad en el                                              202
 discapacidad en el                                razonamiento judicial
 
-
 ## 5.5     Material complementario
 
-                                                 sobre el capítulo
+**Definición Canónica:** sobre el capítulo
+**Concordancias Legales:** artículos 3; artículo 5; artículo 2; artículo 12 del Código penal. En efecto; artículo 1; artículos 1; artículos 186; Ley 20.609; Ley 20.422; constitucion
+
+sobre el capítulo
 
                                                  POBLETE, Claudia; FUENZALIDA, Pablo (2018): “Una mirada al
                                                  uso de lenguaje claro en el ámbito judicial latinoamericano”, en Re-
@@ -8464,10 +8610,12 @@ discapacidad en el                                              razonamiento jud
                                          Anexos finales
 Las personas con                                                         6. Anexos finales                                                     213
 
-
 ## 6.1          Casos
 
-                                                                           resueltos
+**Definición Canónica:** resueltos
+**Concordancias Legales:** artículo 2; artículos 16; artículo 8; artículo 5 bis de la Ley Nº 20.584 dispone que; artículo 2 de la Ley Nº 18.469 que regula el ejercicio; artículo 38 de la Ley Nº 19.966 que establece que; artículo 5; artículo 2 de la Ley Nº 18.469 que regula el ejercicio del; artículo 6; artículo 5 bis; artículos 19; artículo 19; artículo 20 de la Constitución; artículo 3; artículo 485; artículo 13; Ley Nº 18.469; Ley Nº 20.422; Ley Nº 20.584; Ley Nº 19.966; Ley Nº 20.609; constitucion; Constitución Política; Constitución
+
+resueltos
 
                                                                            A continuación se presentan cuatro casos resueltos, para que el lector
                                                                            tenga a la vista modelos de desempeño útiles para el curso en línea
@@ -8878,15 +9026,16 @@ discapacidad en el                                              razonamiento jud
 
 Las personas con                                                          6. Anexos finales                                                    223
 
-
-## 6.2     Respuestas a las preguntas de
-
-                                                                            cada capítulo
-
-
 ## 6.2.1 Respuestas capítulo 1
 
-                                                                            Pregunta 1)
+**Definición Canónica:** Pregunta 1)
+                                                                            La CIF pertenece a la “familia” de clasificaciones internacionales
+                                                                            desarrolladas por la Organización Mundial de la Salud (OMS) que
+                                                                            pueden ser aplicadas a varios aspectos de la salud. Esta familia de
+                                                                            clasificaciones de la OMS proporciona el marco conceptual para
+                      
+
+Pregunta 1)
                                                                             La CIF pertenece a la “familia” de clasificaciones internacionales
                                                                             desarrolladas por la Organización Mundial de la Salud (OMS) que
                                                                             pueden ser aplicadas a varios aspectos de la salud. Esta familia de
@@ -9010,10 +9159,17 @@ discapacidad en el                                              razonamiento jud
                                                                       personales, y los factores externos que representan las circunstancias
                                                                       en las que vive esa persona.269
 
-
 ## 6.2.2 Respuestas capítulo 2
 
-                                                                      Pregunta 1)
+**Definición Canónica:** Pregunta 1)
+                                                                      Esta frase es trivial o es errada. Si cuando usan la palabra vida se
+                                                                      refieren a la calidad de vida de la persona, es evidente que cuando se
+                                                                      tortura o mutila a alguien, se atenta contra su calidad de vida, pero
+                                                                      eso es trivial. Pero si se refieren al derecho a la vida esa frase es errada,
+                    
+**Concordancias Legales:** constitucion
+
+Pregunta 1)
                                                                       Esta frase es trivial o es errada. Si cuando usan la palabra vida se
                                                                       refieren a la calidad de vida de la persona, es evidente que cuando se
                                                                       tortura o mutila a alguien, se atenta contra su calidad de vida, pero
@@ -9127,17 +9283,24 @@ discapacidad en el                                              razonamiento jud
                                                                            corresponde a la conducta de terceros, que consiste en la obligación
                                                                            de no matar arbitrariamente. G no alude a la conducta del titular.281
 
-
 ## 6.1.3 Respuestas capítulo 3
 
-                                                                           Pregunta 1)
+**Definición Canónica:** Pregunta 1)
                                                                            Se puede decir que A es igual a B (A=B). Se trata de un sentido
                                                                            aritmético propio de la lógica formal.282
 
+Pregunta 1)
+                                                                           Se puede decir que A es igual a B (A=B). Se trata de un sentido
+                                                                           aritmético propio de la lógica formal.282
 
 ## 278   FIGUEROA (2008), pp. 262-263
 
-                                         279   FIGUEROA (2008), pp. 263-264.
+**Definición Canónica:** 279   FIGUEROA (2008), pp. 263-264.
+                                         280   FIGUEROA (2008), p. 278.
+                                         281   FIGUEROA (2008), p. 264.
+                                         282   FIGUEROA (2000), p. 11.
+
+279   FIGUEROA (2008), pp. 263-264.
                                          280   FIGUEROA (2008), p. 278.
                                          281   FIGUEROA (2008), p. 264.
                                          282   FIGUEROA (2000), p. 11.
@@ -9234,10 +9397,17 @@ discapacidad en el                                              razonamiento jud
                                                                            De otra forma, sería como si para cada caso hubiera un “derecho” y un
                                                                            “modo de resolver” ad-hoc, lo que es ciertamente discriminatorio.297
 
-
 ## 6.1.4 Respuestas capítulo 4
 
-                                                                           Pregunta 1)
+**Definición Canónica:** Pregunta 1)
+                                                                           “El término ‘discapacidad’ significa una deficiencia física, mental o
+                                                                           sensorial, ya sea de naturaleza permanente o temporal, que limita
+                                                                           la capacidad de ejercer una o más actividades esenciales de la vida
+                                                                           diaria, que puede ser causada o agravada por el entorno económico
+                  
+**Concordancias Legales:** artículo 13; artículo 1; artículo 11 de la Ley Nº 20.422 señala que; artículo 12; artículo 5 de la Ley Nº 20.609 señala plazo y forma de interpo; artículo 4; Ley Nº 20.422; Ley Nº 20.609; Constitución Política
+
+Pregunta 1)
                                                                            “El término ‘discapacidad’ significa una deficiencia física, mental o
                                                                            sensorial, ya sea de naturaleza permanente o temporal, que limita
                                                                            la capacidad de ejercer una o más actividades esenciales de la vida
@@ -9386,10 +9556,17 @@ discapacidad en el                                              razonamiento jud
                                                                           justificar, validar o exculpar situaciones o conductas contrarias a las
                                                                           leyes o al orden público”309.
 
-
 ## 6.1.5 Respuestas capítulo 5
 
-                                                                          Pregunta 1)
+**Definición Canónica:** Pregunta 1)
+                                                                          En el uso común, el vocablo “razonamiento” puede denotar indife-
+                                                                          rentemente: (i) un proceso mental: el proceso mental a través del cual
+                                                                          se llega a una conclusión o decisión; (ii) un discurso: el discurso con
+                                                                          el cual se argumenta o se justifica –se dan razones para sostener– tal
+             
+**Concordancias Legales:** Ley Nº 20.609
+
+Pregunta 1)
                                                                           En el uso común, el vocablo “razonamiento” puede denotar indife-
                                                                           rentemente: (i) un proceso mental: el proceso mental a través del cual
                                                                           se llega a una conclusión o decisión; (ii) un discurso: el discurso con
@@ -9539,11 +9716,13 @@ discapacidad en el                                              razonamiento jud
 
                                                                                Glosario
 
-
 ## Capítulo 1
 
+**Definición Canónica:** A Actividades: es la realización de una tarea o acción por una persona.     327
+                                                                                                                                                            Por
+                                                                               ejemplo, caminar o correr.328
 
-                                                                          A Actividades: es la realización de una tarea o acción por una persona.     327
+A Actividades: es la realización de una tarea o acción por una persona.     327
                                                                                                                                                             Por
                                                                                ejemplo, caminar o correr.328
 
@@ -9664,7 +9843,13 @@ discapacidad en el                                              razonamiento jud
 
 ## parte de ellas están insertadas en el contexto de la protección social en la
 
-                                                                             salud, requiriendo para ello de la evaluación del estado de salud de las per-
+**Definición Canónica:** salud, requiriendo para ello de la evaluación del estado de salud de las per-
+                                                                             sonas.345 Para efectos prácticos es posible ordenar sus funciones en cinco
+                                                                             grupos; (1) evaluación y pronunciamiento por incapacidades transitorias (2)
+                                                                             evaluación y pronunciamiento por incapacidades permanentes, (3) pronun-
+                                                                    
+
+salud, requiriendo para ello de la evaluación del estado de salud de las per-
                                                                              sonas.345 Para efectos prácticos es posible ordenar sus funciones en cinco
                                                                              grupos; (1) evaluación y pronunciamiento por incapacidades transitorias (2)
                                                                              evaluación y pronunciamiento por incapacidades permanentes, (3) pronun-
@@ -9762,22 +9947,21 @@ discapacidad en el                                              razonamiento jud
                                                                               concuerda con los conocimientos que se manejan respecto de la consti-
                                                                               tución de los tejidos o células, como sobre la composición a nivel celular o
 
-
 ## 352   Véase decreto del Ministerio de Relaciones Exteriores que promulga la Convención de las Naciones Unidas
 
-                                               sobre los derechos de las personas con Discapacidad y su protocolo facultativo. Disponible en: https://www.
+**Definición Canónica:** sobre los derechos de las personas con Discapacidad y su protocolo facultativo. Disponible en: https://www.
                                                leychile.cl/Navegar?idNorma=278018&idParte=0&idVersion=
 
-## 353   Documento disponible en https://www.senadis.gob.cl/pag/291/1547/constitucion_politica_y_tratados_inter-
-
-                                               nacionales_en_materia_de_discapacidad
-
-## 354   Documento disponible en https://www.leychile.cl/Navegar?idNorma=199523
-
+sobre los derechos de las personas con Discapacidad y su protocolo facultativo. Disponible en: https://www.
+                                               leychile.cl/Navegar?idNorma=278018&idParte=0&idVersion=
 
 ## 355   Documento disponible en https://www.senadis.gob.cl/pag/291/1547/constitucion_politica_y_tratados_inter-
 
-                                               nacionales_en_materia_de_discapacidad
+**Definición Canónica:** nacionales_en_materia_de_discapacidad
+                                         356   Clasificación Internacional del Funcionamiento, de la Discapacidad y la Salud (2001), p. 14.
+                                         357   Clasificación Internacional del Funcionamiento, de la Discapacidad y la Salud (2001), p. 13.
+
+nacionales_en_materia_de_discapacidad
                                          356   Clasificación Internacional del Funcionamiento, de la Discapacidad y la Salud (2001), p. 14.
                                          357   Clasificación Internacional del Funcionamiento, de la Discapacidad y la Salud (2001), p. 13.
 
@@ -9956,10 +10140,16 @@ discapacidad en el                                              razonamiento jud
 
 Las personas con                                                             Glosario                                                                      249
 
-
 ## Capítulo 2
 
-                                                                       D Derecho a la salud: el derecho a la salud no significa el derecho a estar
+**Definición Canónica:** D Derecho a la salud: el derecho a la salud no significa el derecho a estar
+                                                                             sano o a recuperar la salud, porque eso puede ser imposible. Por ejemplo,
+                                                                             una enfermedad incurable es, pues, incurable. El sólo hecho de padecerla no
+                                                                             implica que se vulneró o vulnera su derecho a la salud. Por lo tanto, el dere-
+                                                              
+**Concordancias Legales:** constitucion
+
+D Derecho a la salud: el derecho a la salud no significa el derecho a estar
                                                                              sano o a recuperar la salud, porque eso puede ser imposible. Por ejemplo,
                                                                              una enfermedad incurable es, pues, incurable. El sólo hecho de padecerla no
                                                                              implica que se vulneró o vulnera su derecho a la salud. Por lo tanto, el dere-
@@ -10015,7 +10205,10 @@ discapacidad en el                                              razonamiento jud
 
 ## 386   FIGUEROA (2013), p. 262-263
 
-                                         387   FIGUEROA (2013), p. 264.
+**Definición Canónica:** 387   FIGUEROA (2013), p. 264.
+**Concordancias Legales:** constitucion; constitución
+
+387   FIGUEROA (2013), p. 264.
 
 Las personas con                                                          Glosario                                                                          250
 
@@ -10149,10 +10342,13 @@ discapacidad en el                                              razonamiento jud
                                                                                rechos fundamentales. En el derecho constitucional la regla general es que
                                                                                todas las personas son capaces de ejercer sus derechos fundamentales406.
 
-
 ## Capítulo 3
 
-                                                                        A Analogía: juicio comparativo que permite resolver un problema empírico.
+**Definición Canónica:** A Analogía: juicio comparativo que permite resolver un problema empírico.
+                                                                               La conclusión del razonamiento es una probabilidad, porque la analogía es
+                                                                               una inducción que no garantiza la verdad de la conclusión. El razonamiento
+
+A Analogía: juicio comparativo que permite resolver un problema empírico.
                                                                                La conclusión del razonamiento es una probabilidad, porque la analogía es
                                                                                una inducción que no garantiza la verdad de la conclusión. El razonamiento
 
@@ -10296,17 +10492,26 @@ discapacidad en el                                              razonamiento jud
                                                                            respondían a una situación de discriminación interseccional que el derecho
                                                                            antidiscriminación estadounidense no era capaz de visibilizar.422
 
-
 ## Capítulo 4
 
-                                                                       C Convención de las Naciones Unidas sobre los Derechos de las Personas con
+**Definición Canónica:** C Convención de las Naciones Unidas sobre los Derechos de las Personas con
+                                                                           Discapacidad y su Protocolo facultativo: adoptada el 13 de diciembre de
+                                                                           2006 por la Asamblea General de la Organización de las Naciones Unidas,
+                                                                           promulgada el 17 de septiembre de 2008 y ratificada el 25 de agosto de
+
+C Convención de las Naciones Unidas sobre los Derechos de las Personas con
                                                                            Discapacidad y su Protocolo facultativo: adoptada el 13 de diciembre de
                                                                            2006 por la Asamblea General de la Organización de las Naciones Unidas,
                                                                            promulgada el 17 de septiembre de 2008 y ratificada el 25 de agosto de
 
 ## 2008.423 En ella se reconocen los derechos de todo individuo en especial para
 
-                                                                           las personas con discapacidad, a fin de que puedan vivir en forma indepen-
+**Definición Canónica:** las personas con discapacidad, a fin de que puedan vivir en forma indepen-
+                                                                           diente y participar plenamente en todos los aspectos de la vida. Además,
+                                                                           establece la obligación a los Estados parte de adoptar las medidas pertinen-
+                                                                           tes para asegurar a estas personas el acceso a la igualdad de condiciones
+
+las personas con discapacidad, a fin de que puedan vivir en forma indepen-
                                                                            diente y participar plenamente en todos los aspectos de la vida. Además,
                                                                            establece la obligación a los Estados parte de adoptar las medidas pertinen-
                                                                            tes para asegurar a estas personas el acceso a la igualdad de condiciones
@@ -10314,13 +10519,11 @@ discapacidad en el                                              razonamiento jud
                                          420   GONZÁLEZ (2019), p. 47.
                                          421   CUBILLOS (2015), p. 121.
 
-## 422   CUBILLOS (2015), p. 122
-
-
 ## 423   Documento disponible en https://www.leychile.cl/Navegar?idNorma=278018&idParte=0&idVersion=
 
+**Definición Canónica:** Las personas con                                                             Glosario                                                                       255
 
-Las personas con                                                             Glosario                                                                       255
+Las personas con                                                             Glosario                                                                       255
 
                                                                             con los demás, a la información y a las comunicaciones, junto a la instaura-
                                                                             ción de normas que contribuyan a eliminar la discriminación de las personas
@@ -10341,10 +10544,16 @@ discapacidad en el                                              razonamiento jud
                                                                             laboral o de cualquier otra índole, necesarias para eliminar la discriminación
                                                                             contra las personas con discapacidad; la promoción de la integración por
 
-
 ## parte de las autoridades gubernamentales y/o entidades privadas en la pres-
 
-                                                                            tación o suministro de bienes, servicios, instalaciones, programas y activida-
+**Definición Canónica:** tación o suministro de bienes, servicios, instalaciones, programas y activida-
+                                                                            des, tales como el empleo, el transporte, las comunicaciones, la vivienda, la
+                                                                            recreación, la educación, el deporte, el acceso a la justicia y los servicios poli-
+                                                                            ciales, y las actividades políticas y de administración; medidas para eliminar,
+                                                   
+**Concordancias Legales:** Ley Nº 20.422
+
+tación o suministro de bienes, servicios, instalaciones, programas y activida-
                                                                             des, tales como el empleo, el transporte, las comunicaciones, la vivienda, la
                                                                             recreación, la educación, el deporte, el acceso a la justicia y los servicios poli-
                                                                             ciales, y las actividades políticas y de administración; medidas para eliminar,
@@ -10373,17 +10582,14 @@ discapacidad en el                                              razonamiento jud
                                                                             nido y señala obligaciones para el Estado a fin de lograr su efectiva vigen-
                                                                             cia (deber de promover y de garantizar).428 Su texto define conceptos tales
 
-
-## 424   Documento disponible en https://www.senadis.gob.cl/pag/291/1547/constitucion_politica_y_tratados_inter-
-
-                                               nacionales_en_materia_de_discapacidad
-
-## 425   Documento disponible en https://www.leychile.cl/Navegar?idNorma=199523
-
-
 ## 426   Documento disponible en https://www.senadis.gob.cl/pag/291/1547/constitucion_politica_y_tratados_inter-
 
-                                               nacionales_en_materia_de_discapacidad
+**Definición Canónica:** nacionales_en_materia_de_discapacidad
+                                         427   Manual sobre la Ley Nº 20.422, p. 7.
+                                         428   Manual sobre la Ley Nº 20.422, p. 9.
+**Concordancias Legales:** Ley Nº 20.422; Ley Nº 20.609; Ley N° 20.584; Ley N° 19.966; Constitución Política
+
+nacionales_en_materia_de_discapacidad
                                          427   Manual sobre la Ley Nº 20.422, p. 7.
                                          428   Manual sobre la Ley Nº 20.422, p. 9.
 
@@ -10437,12 +10643,15 @@ discapacidad en el                                              razonamiento jud
 
                                          429 Manual sobre la Ley Nº 20.422, p. 7-8.
 
-## 430 Documento disponible en https://www.bcn.cl/leyfacil/recurso/ley-de-no-discriminacion
-
-
 ## 431 Documento disponible en http://www.supersalud.gob.cl/consultas/667/w3-article-7959.html
 
-                                         432 Ley de Derechos y Deberes del Paciente, Nº 20.584. Documento disponible en http://www.ssmso.cl/tmpArchivos/
+**Definición Canónica:** 432 Ley de Derechos y Deberes del Paciente, Nº 20.584. Documento disponible en http://www.ssmso.cl/tmpArchivos/
+                                             participacion/Escuelas/Leyes/Ley%20de%20Derechos%20y%20Deberes%20de%20los%20pacientes%20
+                                             Superintendencia%20de%20Salud.pdf
+                                         433 Ley de Derechos y Deberes del Paciente, Nº 20.584. Documento disponible en http://www.ssmso.cl/tmpArchivos/
+                                             participacion/Escuelas/Leyes/Ley%20de%20Derechos%20y%20Deberes%20de%20los%20p
+
+432 Ley de Derechos y Deberes del Paciente, Nº 20.584. Documento disponible en http://www.ssmso.cl/tmpArchivos/
                                              participacion/Escuelas/Leyes/Ley%20de%20Derechos%20y%20Deberes%20de%20los%20pacientes%20
                                              Superintendencia%20de%20Salud.pdf
                                          433 Ley de Derechos y Deberes del Paciente, Nº 20.584. Documento disponible en http://www.ssmso.cl/tmpArchivos/
@@ -10451,7 +10660,9 @@ discapacidad en el                                              razonamiento jud
 
 ## 434 Guía legal sobre Plan GES o AUGE. Ley de Derechos y Deberes del Paciente, Nº 20.584. Documento disponible
 
-                                             en https://www.bcn.cl/leyfacil/recurso/plan-ges-(ex-auge)
+**Definición Canónica:** en https://www.bcn.cl/leyfacil/recurso/plan-ges-(ex-auge)
+
+en https://www.bcn.cl/leyfacil/recurso/plan-ges-(ex-auge)
 
 Las personas con                                                               Glosario                                                                        257
 
@@ -10482,10 +10693,15 @@ discapacidad en el                                              razonamiento jud
                                                                                programas de beneficencia o caridad, y reconocer su condición de sujeto
                                                                                de derechos.438
 
-
 ## Capítulo 5
 
-                                                                           A Antinomia: conflicto de normas. Sucede cuando dos normas establecen,
+**Definición Canónica:** A Antinomia: conflicto de normas. Sucede cuando dos normas establecen,
+                                                                               para un mismo supuesto de hecho (una circunstancia o una combinación
+                                                                               de circunstancias), consecuencias jurídicas incompatibles entre sí. Dicho de
+                                                                               otro modo, existe una antinomia toda vez que un caso concreto es sus-
+                                                                            
+
+A Antinomia: conflicto de normas. Sucede cuando dos normas establecen,
                                                                                para un mismo supuesto de hecho (una circunstancia o una combinación
                                                                                de circunstancias), consecuencias jurídicas incompatibles entre sí. Dicho de
                                                                                otro modo, existe una antinomia toda vez que un caso concreto es sus-
@@ -10527,7 +10743,13 @@ discapacidad en el                                              razonamiento jud
 
 ## 19 Nº 7 letra i). Jorge Malem señala que el error judicial implica la existencia
 
-                                                                         de arbitrariedad.441 Por lo tanto, importa poco que la equivocación del juez
+**Definición Canónica:** de arbitrariedad.441 Por lo tanto, importa poco que la equivocación del juez
+                                                                         se deba a su propio dolo, culpa o falta de diligencia. Es indiferente cuál sea
+                                                                         el nivel jerárquico en el que se produce dicha equivocación. Tampoco es
+                                                                         necesario que el error sea evidente o manifiesto, ni que haya causado daño
+                                                                         a
+
+de arbitrariedad.441 Por lo tanto, importa poco que la equivocación del juez
                                                                          se deba a su propio dolo, culpa o falta de diligencia. Es indiferente cuál sea
                                                                          el nivel jerárquico en el que se produce dicha equivocación. Tampoco es
                                                                          necesario que el error sea evidente o manifiesto, ni que haya causado daño
@@ -10626,15 +10848,12 @@ discapacidad en el                                              razonamiento jud
                                          450   AGÜERO y ZAMBRANO (2009), p. 33.
                                          451   AGÜERO y ZAMBRANO (2009), p. 34.
 
-## 452   AGÜERO y ZAMBRANO (2009), p. 34
-
-
-## 453   AGÜERO y ZAMBRANO (2009), p. 34
-
-
 ## 454   AGÜERO y ZAMBRANO (2009), p. 34
 
-                                         455   AGÜERO y ZAMBRANO (2009), pp. 34-35.
+**Definición Canónica:** 455   AGÜERO y ZAMBRANO (2009), pp. 34-35.
+**Concordancias Legales:** Ley Nº 19.966
+
+455   AGÜERO y ZAMBRANO (2009), pp. 34-35.
 
 Las personas con                                                         Glosario                                                                      260
 
@@ -10761,301 +10980,91 @@ discapacidad en el                                              razonamiento jud
                                                (2020): “La falta de servicio en la Ley Nº 19.966 (GES) ”. Revista Ius et Praxis,
                                                26 (1), pp. 171-191.
 
-
-## 2.    AGÜERO, Claudio y ZAMBRANO, Juan Pablo (2009): “La narración en las
-
-                                               sentencias penales”, en Universum (Talca) Vol. 24 Nº 2, pp. 28-41.
-
-
-## 3.    ALEXY, Robert (2002): Teoría de los derechos fundamentales (Trad. Ernesto
-
-                                               Garzón Valdés), Madrid, Centro de Estudios Políticos y Constitucionales.
-
-
 ## 4.    ALEXY, Robert (1986): Teoría de los derechos fundamentales, Madrid, Centro
 
-                                               de Estudios Políticos y Constitucionales.
+**Definición Canónica:** de Estudios Políticos y Constitucionales.
+**Concordancias Legales:** Constitucion
+
+de Estudios Políticos y Constitucionales.
 
                                          5.    ATIENZA, Manuel y RUIZ MANERO, Juan (1991): “Sobre principios y reglas”,
                                                en Doxa, Cuadernos de filosofía del derecho Nº 10, pp. 101-120.
 
-
-## 6.    AURENQUE, Diana (2017): “El paciente sano: desafíos éticos de la medicina
-
-                                               preventiva”, en Revista Médica de Chile Vol. 145 Nº 6, pp. 790-794.
-
-
-## 7.    BARRERA, Álvaro (2006): “Los trastornos cognitivos de la esquizofrenia”, en
-
-                                               Revista Chilena de Neuro-psiquiatría Vol. 44 Nº 3), pp. 215-221.
-
-
-## 8.    BASCUÑÁN, Antonio (2004): “La licitud del aborto consentido en el derecho
-
-                                               chileno”, en Revista de Derecho y Humanidades Nº 10, pp. 143-181.
-
-
-## 9.    BOBBIO, Norberto (1987): Teoría general del derecho (Bogotá: Editorial Te-
-
-                                               mis).
-
-
-## 10. BUCHANAN, D., BROCK, W., DANIELS, N. y WIKLER, D. (2000): From Chance
-
-                                             to Choice: Genetics and Justice (Londres, Cambridge University Press).
-
-
-## 11.   CAMPBELL, Jane y OLIVER, Mike (1996): Disability Politics: Understanding
-
-                                               Our Past, Changing Our Future (Londres: Routledge).
-
-
-## 12. CANIMAS, Joan (2015): “¿Discapacidad o diversidad funcional?”, en Siglo
-
-                                             Cero, Revista Española sobre Discapacidad Intelectual Vol. 46 (2) Nº 254, pp.
-                                             79-97.
-
-
-## 13. CAVIERES, Álvaro y VALDEBENITO, Mónica (2005): “Funcionamiento cogni-
-
-                                             tivo y calidad de vida en la esquizofrenia”, en Revista Chilena de Neuro-psi-
-                                             quiatría Vol. 43 N° 2, pp. 97-108.
-
-
-## 14. CARMONA, Encarnación (1994): “El principio de igualdad material en la
-
-                                             jurisprudencia del Tribunal Constitucional”, en Revista de Estudios Políticos
-                                             Nº 84, pp. 265-285.
-
-
-## 15. CEA, José Luis (2004): Derecho Constitucional chileno (Santiago, Ediciones
-
-                                             Universidad Católica de Chile).
-
-
-## 16. COLOMA, Rodrigo (2009): “Estándares de prueba y juicios por violaciones
-
-                                             a los derechos humanos”, en Revista de Derecho Vol. XXII Nº 2 (Valdivia:
-                                             Universidad Austral), pp. 205-229.
-
-
 ## 17.   COMANDUCCI, Paolo (1998): “Principios jurídicos e indeterminación”, en
 
-                                               Doxa, Cuadernos de filosofía del derecho Nº 21 v2, pp. 89-104.
+**Definición Canónica:** Doxa, Cuadernos de filosofía del derecho Nº 21 v2, pp. 89-104.
+
+Doxa, Cuadernos de filosofía del derecho Nº 21 v2, pp. 89-104.
 
 Las personas con                               Bibliografía                                                               263
 
                                          18. COPI, Irving (2013): Introducción a la lógica (México, Limusa).
 
-
-## 19.   CÓRDOBA, Paul (2008): “Discapacidad y exclusión social. Propuesta teórica
-
-                                               de vinculación paradigmática”, en Tareas Nº 129, pp. 81-104.
-
-
-## 20. CORRAL, Hernán (2005): “El concepto jurídico de persona y su relevancia
-
-                                             para la protección del derecho a la vida”, en Revista Ius et Praxis Vol. 11 N°
-                                             1), pp. 37-53.
-
-
 ## 21. CORNEJO, Pablo (2011): “La importancia de las medidas afirmativas para la
 
-                                             igualdad sustantiva de grupos históricamente discriminados. Análisis des-
+**Definición Canónica:** igualdad sustantiva de grupos históricamente discriminados. Análisis des-
                                              de la perspectiva de la diversidad sexual”, en Igualdad sin discriminación.
                                              Estándares y mecanismos para la igualdad real, VV. AA. (Santiago, Instituto
                                              Nacional de Derechos Humanos).
 
-
-## 22. DARROW, Alice-Ann (2009): “Barriers to Effective Inclusion and Strategies
-
-                                             to Overcome Them”, en General Music Today Vol. 22 Nº 3, 29-31.
-
-
-## 23. DEJONG, Gerben (1979): “Independent Living: From Social Movement to
-
-                                             Analytic Paradigm”, en Archives of Physical Medicine and Rehabilitation
-                                             Philadelphia Nº 60, pp. 435-446.
-
-
-## 24. DÍAZ DE VALDÉS, José Manuel (2013): “¿Es la ley Zamudio verdaderamente
-
-                                             una ley general antidiscriminación?”, en Revista Actualidad Jurídica Nº 28,
-                                             pp. 279-297.
-
-
-## 25. DÍAZ DE VALDÉS, José Manuel (2014): “La prohibición de una discriminación
-
-                                             arbitraria entre privados”, en Revista de Derecho de la Pontificia Universi-
-                                             dad Católica de Valparaíso Vol. XLII N° 1, pp. 149-186.
-
+igualdad sustantiva de grupos históricamente discriminados. Análisis des-
+                                             de la perspectiva de la diversidad sexual”, en Igualdad sin discriminación.
+                                             Estándares y mecanismos para la igualdad real, VV. AA. (Santiago, Instituto
+                                             Nacional de Derechos Humanos).
 
 ## 26. DÍAZ DE VALDÉS, José Manuel (2017): “Cuatro años de la ley Zamudio: aná-
 
-                                             lisis crítico de su jurisprudencia”, en Estudios Constitucionales Vol. 15 Nº 2,
+**Definición Canónica:** lisis crítico de su jurisprudencia”, en Estudios Constitucionales Vol. 15 Nº 2,
+                                             pp. 447-488.
+**Concordancias Legales:** Constitucion
+
+lisis crítico de su jurisprudencia”, en Estudios Constitucionales Vol. 15 Nº 2,
                                              pp. 447-488.
 
                                          27.   DÍAZ GARCÍA, Iván (2012): “Igualdad en la aplicación de la ley. Concepto,
                                                iusfundamentalidad y consecuencias”, en Revista Ius et Praxis Vol. 18 N° 2,
                                                pp. 33-76.
 
-
-## 28. DONOSO, Archibaldo y SALINAS, Pablo (2009): “Demencias frontotempo-
-
-                                             rales: tres casos de la variante frontal”, en Revista Chilena de Neuro-psi-
-                                             quiatría Vol. 47 Nº 4, pp. 286-292.
-
-
-## 29. DOYHARÇABAL, Solange (1994): “El derecho a la vida del nasciturus en la
-
-                                             legislación chilena y comparada”, en Revista Chilena de Derecho Vol. 21 N°
-                                             2, pp. 307-319.
-
-
-## 30. DWORKIN, Ronald (1986): Law’s Empire (Massachusetts, Harvard University
-
-                                             Press).
-
-
-## 31. ECHEBURÚA, Enrique; SALABERRÍA, Karmele y CRUZ-SÁEZ, Marisol
-
-                                             (2014): “Nuevos retos en el tratamiento del juego patológico”, en Terapia
-                                             Psicolológica Vol. 32 Nº 1, pp. 31-40.
-
-
-## 32. ECHEÍTA, Gerardo y VERDUGO, Miguel (2004): La Declaración de
-
-                                             Salamanca sobre Necesidades Educativas Especiales 10 años después
-                                             (España: Publicaciones del INICO).
-
-
-## 33. EVANS, Enrique (2004): Derechos constitucionales (Santiago, Editorial
-
-                                             Jurídica).
-
-Las personas con                               Bibliografía                                                                 264
-
-
-## 34. FIGUEROA, Rodolfo (2000): “Igualdad y discriminación”, en Cuadernos de
-
-                                             Análisis Jurídico, Serie de Publicaciones Especiales Nº 10, pp. 9-64.
-
-
-## 35. FIGUEROA, Rodolfo (2008): “Concepto de derecho a la vida”, en Revista Ius
-
-                                             et Praxis Año 14 Nº 1, pp. 261-300.
-
-
-## 36. FIGUEROA, Rodolfo (2013): “El derecho a la salud”, en Estudios
-
-                                             Constitucionales Año 11 Nº 2, pp. 283-332.
-
-
-## 37.   FIGUEROA, Rodolfo (2015): “¿Son constitucionales las cuotas de género
-
-                                               para el parlamento?”, en Revista Chilena de Derecho Vol. 42 N° 1, pp. 189-
-                                               214.
-
-
-## 38. FINNIS, John (2000): Ley natural y derechos naturales (Trad. Cristóbal
-
-                                             Orrego Sánchez), Buenos Aires, Abeledo-Perrot.
-
-
-## 39. GALLIE, Walter (1956): “Essentially Contested Concepts”, en Proceedings of
-
-                                             the Aristotelian Society, New Series Vol. 56, pp. 167-198.
-
-
-## 40. GARCÍA, Alonso (2003): El movimiento de vida independiente (Madrid: Fun-
-
-                                             dación Luis Vives).
-
-
-## 41. GARCÍA, Gonzalo; CONTRERAS, Pablo y MARTÍNEZ, Victoria (2014): Diccio-
-
-                                             nario Constitucional Chileno (Santiago, Cuadernos del Tribunal Constitu-
-                                             cional).
-
-
 ## 42. GARCÍA, Sabina y VILLAVICENCIO, Luis (2016): “Alcances y límites del
 
-                                             multiculturalismo liberal desde un enfoque de género interseccional”, en
+**Definición Canónica:** multiculturalismo liberal desde un enfoque de género interseccional”, en
+                                             Convergencia, Revista de Ciencias Sociales N° 72, pp. 13-38.
+
+multiculturalismo liberal desde un enfoque de género interseccional”, en
                                              Convergencia, Revista de Ciencias Sociales N° 72, pp. 13-38.
 
                                          43. GÓMEZ, Erick y CASTILLO, Dídimo (2016): “Sociología de la discapacidad”,
                                              en Tlamelaua Vol. 10 Nº 40, pp. 176-194.
 
-
-## 44. GONZÁLEZ, Daniel (2019): Quaestio facti: ensayos sobre prueba, cuasali-
-
-                                             dad y acción (Madrid, Palestra Editores).
-
-
-## 45. GUARINONI, Ricardo (2011): “Razonamiento judicial e interpretación de la
-
-                                             ley”, en C.A.C. y R.L.V., Interpretación y argumentación: problemas y perspec-
-                                             tivas actuales (Madrid, Marcial Pons), pp. 211-226.
-
-
-## 46. GUASTINI, Riccardo (2011a): Disposición vs. norma (Madrid, Palestra Edito-
-
-                                             res).
-
-                                         47. GUASTINI, Riccardo (2011b): Interpretare e argomentare (Milán, Giuffrè).
-
-
-## 48. GUASTINI, Riccardo (2014a): Interpretar y argumentar (Madrid, Centro de
-
-                                             Estudios Políticos y Constitucionales).
-
-                                         49. GUASTINI, Riccardo (2014b): La sintaxis del derecho (Madrid, Marcial Pons).
-
-
-## 50. GUASTINI, Riccardo (2015): “Interpretación y construcción jurídica”, en Iso-
-
-                                             nomía Nº 43, pp. 11-48.
-
-
-## 51. GUASTINI, Riccardo (2018): “Aplicar principios constitucionales”, en Revista
-
-                                             Derecho Año 2 Nº 3, pp. 11-22.
-
-
 ## 52. HENRÍQUEZ, Ian (2006): “La regla de la ventaja para el concebido y el
 
-                                             aforismo infans conceptus pro iam nato habetur en el derecho civil chileno”,
+**Definición Canónica:** aforismo infans conceptus pro iam nato habetur en el derecho civil chileno”,
+                                             en Revista de Derecho de la Pontificia Universidad Católica de Valparaíso
+                                             Vol. XXVII, pp. 87-113.
+
+aforismo infans conceptus pro iam nato habetur en el derecho civil chileno”,
                                              en Revista de Derecho de la Pontificia Universidad Católica de Valparaíso
                                              Vol. XXVII, pp. 87-113.
 
 Las personas con                               Bibliografía                                                                 265
 
-
-## 53. HENRÍQUEZ, Miriam (2008): “Jerarquía de los tratados de derechos huma-
-
-                                             nos. Análisis jurisprudencial desde el método de casos”, en Estudios Consti-
-                                             tucionales Vol. 6 N° 2, pp. 73-119.
-
-
-## 54. HENRÍQUEZ, Miriam y NÚÑEZ, José Ignacio (2015): “Ley Zamudio: ¿pondera-
-
-                                             ción o subsunción? Comentario a la sentencia rol N° 1009-2014 de la Corte
-                                             de Apelaciones de Concepción”, en Revista de Derecho Vol. 6, pp. 239-244.
-
-
 ## 55. HERRERO, Sara (2016): “Formalización del concepto de salud a través de
 
-                                             la lógica: impacto del lenguaje formal en las ciencias de la salud”, en Ene,
+**Definición Canónica:** la lógica: impacto del lenguaje formal en las ciencias de la salud”, en Ene,
+                                             Revista de Enfermería Vol. 10 Nº 2.
+
+la lógica: impacto del lenguaje formal en las ciencias de la salud”, en Ene,
                                              Revista de Enfermería Vol. 10 Nº 2.
 
                                          56. HIERRO, Liborio (2002): “El concepto de justicia y la teoría de los derechos”,
                                              en Elías Díaz y José Luis Colomer (editores), Estado, Justicia, Derechos
                                              (Madrid, Alianza).
 
-
 ## 57.   IAÑEZ, Antonio (2009): “Vida independiente y diversidad funcional. Resul-
 
-                                               tados de una investigación social aplicada en la provincia de Sevilla”, en
+**Definición Canónica:** tados de una investigación social aplicada en la provincia de Sevilla”, en
+
+tados de una investigación social aplicada en la provincia de Sevilla”, en
 
                                                Portularia: Revista de Trabajo Social Vol. 9 Nº 1, pp. 93-103.
 
@@ -11063,30 +11072,23 @@ discapacidad en el                                              razonamiento jud
                                              Learning Experiences of Disabled Students at Winchester University”, en
                                              International Education Studies Vol. 7 N° 6, pp. 106-118.
 
-
-## 59. KYMLICKA, Will (2002): Contemporary Political Philosophy. An Introduction
-
-                                             (Oxford, Oxford University Press).
-
-
-## 60. LATHROP, Fabiola (2019): “Discapacidad intelectual: análisis crítico de la
-
-                                             interdicción por demencia en Chile”, en Revista de Derecho (Valdivia) Vol. 32
-                                             N° 1, pp. 117-137.
-
-
 ## 61. LEÓN, Francisco Javier (2012): “Ley de derechos y deberes de las personas
 
-                                             en la atención de salud: una mirada bioética”, en Revista Médica de Chile
+**Definición Canónica:** en la atención de salud: una mirada bioética”, en Revista Médica de Chile
+                                             Vol. 140 N° 11, pp. 1490-1494.
+
+en la atención de salud: una mirada bioética”, en Revista Médica de Chile
                                              Vol. 140 N° 11, pp. 1490-1494.
 
                                          62. LONGMORE, Paul y UMANSKY, Laurie (2000): The New Disability History:
                                              American Perspectives (Nueva York: New York University Press).
 
-
 ## 63. MALEM, Jorge; EZQUIAGA, Francisco y PERFECTO, Andrés (2009): El error
 
-                                             judicial. La formación de los jueces (Madrid, Fundación Coloquio Jurídico
+**Definición Canónica:** judicial. La formación de los jueces (Madrid, Fundación Coloquio Jurídico
+                                             Europeo).
+
+judicial. La formación de los jueces (Madrid, Fundación Coloquio Jurídico
                                              Europeo).
 
                                          64. MANDUJANO, Mario; ARROYO, Pedro; SÁNCHEZ, María y MUÑOZ-LEDO,
@@ -11094,26 +11096,13 @@ discapacidad en el                                              razonamiento jud
                                              CIVERA, Magalí y HERRERA, Martha: Estudios de Antropología Biológica
                                              Vol. 13, pp. 939-955.
 
-
-## 65. MARAÑA, Juan José (2004): Vida independiente. Nuevos modelos
-
-                                             organizativos (La Coruña: Asociación Iniciativas y Estudios Sociales).
-
-
-## 66. MAYER, Laura (2011): “La vida del que está por nacer como objeto de pro-
-
-                                             tección legal”, en Revista de Derechos Fundamentales Vol. 5, pp. 63-80.
-
-
-## 67.   MENDOZA, Alfonso (2017): “La relación médico paciente: consideraciones
-
-                                               bioéticas”, en Revista Peruana de Ginecología y Obstetricia Vol. 63 Nº 4, pp.
-                                               555-564.
-
-
 ## 68. MORESO, José Juan (2004): “Dos concepciones de la aplicación de las nor-
 
-                                             mas de derechos fundamentales” en Betegón, Jerónimo; Laporta, Francisco;
+**Definición Canónica:** mas de derechos fundamentales” en Betegón, Jerónimo; Laporta, Francisco;
+                                             Páramo, Juan Ramón, y Prieto Sanchís, Luis, compiladores (2004): Consti-
+**Concordancias Legales:** Constitucion
+
+mas de derechos fundamentales” en Betegón, Jerónimo; Laporta, Francisco;
                                              Páramo, Juan Ramón, y Prieto Sanchís, Luis, compiladores (2004): Consti-
 
 Las personas con                               Bibliografía                                                                  266
@@ -11121,37 +11110,35 @@ discapacidad en el                                              razonamiento jud
                                                tución y derechos fundamentales (Madrid, Centro de Estudios Políticos y
                                                Constitucionales).
 
-
-## 69. MORESO, José Juan (2010): “Conflictos entre derechos constitucionales y
-
-                                             maneras de resolverlos”, en ARBOR, Ciencia, Pensamiento y Cultura CLXXVI
-                                             Nº 745, pp. 821-832.
-
-
 ## 70. MUCCIO, Leah (2012): Head Start Instructional Professionals’ Perceptions
 
-                                             and Practices: Facilitators and Barriers for Including Young Children with
+**Definición Canónica:** and Practices: Facilitators and Barriers for Including Young Children with
                                              Disabilities (tesis de doctorado). George Mason University, Washington DC,
                                              EE. UU.
 
+and Practices: Facilitators and Barriers for Including Young Children with
+                                             Disabilities (tesis de doctorado). George Mason University, Washington DC,
+                                             EE. UU.
 
 ## 71.   MUÑOZ, Fernando (2015): “Estándares conceptuales, cargas procesales y
 
-                                               reparación en el litigio antidiscriminación. Análisis crítico de la jurispruden-
+**Definición Canónica:** reparación en el litigio antidiscriminación. Análisis crítico de la jurispruden-
                                                cia sobre ley Zamudio entre 2012 y 2015”, en Revista de Derecho Universi-
                                                dad de Valdivia Vol. 27 Nº 2, pp. 145-167.
 
-
-## 72. NOGUEIRA, Humberto (2006): “El derecho a la igualdad ante la ley, no
-
-
-                                             discriminación y acciones positivas”, en Revista de Derecho Universidad
-                                             Católica del Norte Vol. 13 Nº 2, pp. 61-100.
-
+reparación en el litigio antidiscriminación. Análisis crítico de la jurispruden-
+                                               cia sobre ley Zamudio entre 2012 y 2015”, en Revista de Derecho Universi-
+                                               dad de Valdivia Vol. 27 Nº 2, pp. 145-167.
 
 ## 73. NORAMBUENA, Rocío y SANDOVAL, Sebastián (2019): “Jurisprudencia
 
-                                             reciente de la Corte Suprema en materia de entrega de medicamentos: ni
+**Definición Canónica:** reciente de la Corte Suprema en materia de entrega de medicamentos: ni
+                                             tan novedosa, ni tan progresista”, en Diálogo sobre la protección jurisdicción
+                                             de los derechos a la salud, educación, trabajo, seguridad social y medio am-
+                                             biente sano en países de América Latina. Informe de Salud y Alimentación,
+                                             VV. AA. (Santiago, Centro de Estudios de Justicia de las Américas).
+
+reciente de la Corte Suprema en materia de entrega de medicamentos: ni
                                              tan novedosa, ni tan progresista”, en Diálogo sobre la protección jurisdicción
                                              de los derechos a la salud, educación, trabajo, seguridad social y medio am-
                                              biente sano en países de América Latina. Informe de Salud y Alimentación,
@@ -11159,105 +11146,71 @@ discapacidad en el                                              razonamiento jud
 
                                          74. NUSSBAUM, Martha (1997): Justicia poética (Santiago, Andrés Bello).
 
-
 ## 75. ORDÓÑEZ, David (2013): “El lenguaje judicial desde una perspectiva com-
 
-                                             parada y plurilingüe”, en Revista de Llengua i Dret Nº 59, pp. 2-41.
+**Definición Canónica:** parada y plurilingüe”, en Revista de Llengua i Dret Nº 59, pp. 2-41.
+
+parada y plurilingüe”, en Revista de Llengua i Dret Nº 59, pp. 2-41.
 
                                          76. PALACIOS, Agustina (2008): El modelo social de discapacidad: orígenes,
                                              caracterización y plasmación en la Convención Internacional sobre los De-
                                              rechos de las Personas con Discapacidad (Madrid: Cinca).
 
-
 ## 77.   PALACIOS, Agustina y ROMAÑACH, Javier (2006): El modelo de la diversi-
 
-                                               dad: la Bioética y los Derechos Humanos como herramientas para alcanzar
+**Definición Canónica:** dad: la Bioética y los Derechos Humanos como herramientas para alcanzar
                                                la plena dignidad en la diversidad funcional (Diversitás Ediciones-AIES).
                                                Consultado en https://sid.usal.es/idocs/F8/FDO18989/modelo_diversidad.
                                                pdf
 
+dad: la Bioética y los Derechos Humanos como herramientas para alcanzar
+                                               la plena dignidad en la diversidad funcional (Diversitás Ediciones-AIES).
+                                               Consultado en https://sid.usal.es/idocs/F8/FDO18989/modelo_diversidad.
+                                               pdf
 
 ## 78. PALACIOS, Agustina y ROMAÑACH, Javier (2008): “El modelo de la diver-
 
-                                             sidad: una nueva visión de la bioética desde la perspectiva de las personas
+**Definición Canónica:** sidad: una nueva visión de la bioética desde la perspectiva de las personas
                                              con diversidad funcional (discapacidad)”, en Intersticios. Revista Sociológi-
                                              ca de Pensamiento Crítico Vol. 2 Nº 2, pp. 37-47.
 
-
-## 79.   PÉREZ DE LA FUENTE, Óscar (2017): Igualdad. Una inmersión rápida
-
-                                               (Barcelona: Tibidabo Ediciones).
-
-
-## 80. PÉREZ LUÑO, Antonio (1987): “Concepto y concepción de los derechos
-
-                                             humanos”, en Doxa. Cuadernos de Filosofía del Derecho Vol. 4, pp. 47-66.
-
-
-## 81. PIÉ, Asun (2012): Deconstruyendo la dependencia. Propuestas para una vida
-
-                                             independiente (Barcelona: Editorial UOC).
-
+sidad: una nueva visión de la bioética desde la perspectiva de las personas
+                                             con diversidad funcional (discapacidad)”, en Intersticios. Revista Sociológi-
+                                             ca de Pensamiento Crítico Vol. 2 Nº 2, pp. 37-47.
 
 ## 82. PIÉ, Asun (2014): Por una corporeidad postmoderna. Nuevos tránsitos so-
 
-                                             ciales y educativos para la interdependencia (Barcelona: Editorial UOC).
+**Definición Canónica:** ciales y educativos para la interdependencia (Barcelona: Editorial UOC).
+
+ciales y educativos para la interdependencia (Barcelona: Editorial UOC).
 
 Las personas con                               Bibliografía                                                               267
 
-
-## 83. PINO, Giorgio (2010): Diritti e interpretazione. Il ragionamento giuridico nello
-
-                                             Stato costituzionale (Bologna, Il Mulino).
-
-
-## 84. POBLETE, Claudia y FUENZALIDA, Pablo (2018): “Una mirada al uso del
-
-                                             lenguaje claro en el ámbito judicial latinoamericano”, en Revista de Llengua
-                                             i Dret Nº 69, pp. 119-138.
-
-
-## 85. PRECHT, Jorge (1992): “Consideraciones ético-jurídicas sobre el aborto
-
-                                             terapéutico”, en Revista Chilena de Derecho Vol. 19, pp. 516-521.
-
-                                         86. RATTI, Giovanni (2009): Norme, principi, e lógica (Roma, Aracne).
-
-
 ## 87. RAWLS, John (1971): Una teoría de la justicia (México, Fondo de Cultura
 
-                                             Económica).
+**Definición Canónica:** Económica).
+
+Económica).
 
                                          88. RAWLS, John (2002): La justicia como equidad. Una reformulación (Trad.
                                              Andrés de Francisco), Barcelona, Paidós.
 
-
-## 89. Real Academia Española y Asociación de Academias de la Lengua Española
-
-
-                                             (2001): Nueva gramática de la lengua española, tomo Morfología y Sintaxis I.
-
-
 ## 90. ROMAÑACH, Javier y LOBATO, Manuel (2005): “Diversidad funcional, nuevo
 
-                                             término para la lucha por la dignidad en la diversidad del ser humano”, con-
+**Definición Canónica:** término para la lucha por la dignidad en la diversidad del ser humano”, con-
                                              sultado en http://centrodocumentaciondown.com/uploads/documentos/1d-
                                              cb1a899435d2b2806acdf5dbcf17aa941abd8d.pdf
 
-
-## 91. ROSS, Alf (2004): On Law and Justice (New Jersey: The Lawbook Ex-
-
-                                             change).
-
-
-## 92. RUIZ MANERO, Juan (2018): Imperio de la ley y ponderación de principios
-
-                                             (Buenos Aires: Astrea).
-
+término para la lucha por la dignidad en la diversidad del ser humano”, con-
+                                             sultado en http://centrodocumentaciondown.com/uploads/documentos/1d-
+                                             cb1a899435d2b2806acdf5dbcf17aa941abd8d.pdf
 
 ## 93. SABA, Roberto (2016): Más allá de la igualdad formal ante la ley. ¿Qué les
 
-                                             debe el Estado a los grupos desaventajados? (Buenos Aires, Siglo Veintiuno
+**Definición Canónica:** debe el Estado a los grupos desaventajados? (Buenos Aires, Siglo Veintiuno
+                                             editores).
+
+debe el Estado a los grupos desaventajados? (Buenos Aires, Siglo Veintiuno
                                              editores).
 
                                          94. SALINERO, Sebastián (2013): “La nueva agravante penal de discriminación:
@@ -11270,40 +11223,31 @@ discapacidad en el                                              razonamiento jud
                                          96. SEOANE, José Antonio (2011): “¿Qué es una persona con discapacidad?”,
                                              en Ágora. Papeles de Filosofía Vol. 30 Nº 1, pp. 143-161.
 
-
-## 97.   SERRANO, Enrique (2005): “La teoría aristotélica de la justicia”, en Isonomía
-
-                                               N° 22, pp. 123-160.
-
-
 ## 98. SCHALOCK, Robert (1997): “Can the concept of quality of life make a dif-
 
-                                             ference?”, en Robert Schalock (ed.), Quality of life. Application to Persons
+**Definición Canónica:** ference?”, en Robert Schalock (ed.), Quality of life. Application to Persons
                                              with Disabilities (Washington: American Association on Mental Retarda-
                                              tion).
 
-
-## 99. SUSSMAN, David (2005): “What’s Wrong with Torture?”, en Philoso-
-
-                                             phy and Public Affairs Vol. 33 Nº 1, pp. 1-33.
-
-
-## 100. THOMSON, Judith (1971): “A Defense of Abortion”, en Philosophy and Public
-
-                                              Affairs Vol. 1 Nº 1, pp. 46-66.
-
+ference?”, en Robert Schalock (ed.), Quality of life. Application to Persons
+                                             with Disabilities (Washington: American Association on Mental Retarda-
+                                             tion).
 
 ## 101. THOMSON, Judith (1999): “Physician-Assisted Suicide: Two Moral Argu-
 
+**Definición Canónica:** Las personas con                              Bibliografía                                                                    268
 
-Las personas con                              Bibliografía                                                                    268
+Las personas con                              Bibliografía                                                                    268
 
                                               ments”, en Ethics Vol. 109 Nº 3, pp.497-518.
 
-
 ## 102. VALENZUELA, Cecilia y ZÚÑIGA, Alejandra (2014): “Leyes de cuotas elec-
 
-                                              torales, Constitución y democracia”, en Revista de Derecho (Valdivia) Vol.
+**Definición Canónica:** torales, Constitución y democracia”, en Revista de Derecho (Valdivia) Vol.
+                                              XXVII N° 1, pp. 191-211.
+**Concordancias Legales:** Ley Nº 20.584; Constitución
+
+torales, Constitución y democracia”, en Revista de Derecho (Valdivia) Vol.
                                               XXVII N° 1, pp. 191-211.
 
                                          103. VALENZUELA, Sergio; ALIAGA, Verónica; BURDILES, Patricio; CARVALLO,
@@ -11312,69 +11256,23 @@ discapacidad en el                                              razonamiento jud
                                               para la investigación biomédica en Chile”, en Revista Médica de Chile Vol.
                                               143 Nº 1, pp. 96-100.
 
-
-## 104. VERDUGO, Mario; PFEFFER, Emilio y NOGUEIRA, Humberto (2005): Derecho
-
-                                              Constitucional (Santiago, Editorial Jurídica de Chile).
-
-
 ## 105. VILLAVICENCIO, Luis (2015): “Una concepción de la ciudadanía para una
 
-                                              nueva Constitución. El caso de las mujeres indígenas”, en Chia, E. y Queza-
+**Definición Canónica:** nueva Constitución. El caso de las mujeres indígenas”, en Chia, E. y Queza-
+                                              da, F. (eds.) Propuestas para una nueva Constitución (originada en demo-
+**Concordancias Legales:** Constitución
+
+nueva Constitución. El caso de las mujeres indígenas”, en Chia, E. y Queza-
                                               da, F. (eds.) Propuestas para una nueva Constitución (originada en demo-
 
                                               cracia), Santiago, Instituto Igualdad-Facultad de Derecho Universidad de
                                               Chile-Friedrich Ebert Stiftung, pp. 301-325.
 
-
-## 106. VILLAVICENCIO, Luis (2017): “Interculturalidad, derechos de la infancia y
-
-                                              Constitución”, en Quesille, Anuar (ed.) Constitución Política e Infancia (San-
-                                              tiago, UNICEF), pp. 355 -387.
-
-
-## 107. VILLAVICENCIO, Luis (2018): “Justicia social y el principio de igualdad”, en
-
-                                              Hybris. Revista de Filosofía Vol. 9, pp. 43-74.
-
-
-## 108. WIDOW, Felipe (2015): “La ley de Hume en Hume: la discusión de la inter-
-
-                                              pretación analítica de Treatise III, 1, i”, en Anales del seminario de historia de
-                                              la filosofía Vol. 32 Nº 2, pp. 415-434.
-
-
-## 109. YOUNG, Iris (2000): La justicia y la política de la diferencia (Trad. Silvina
-
-                                              Álvarez), Madrid, Cátedra.
-
-
-## 110. ZÚÑIGA, Alejandra (2010): “Una teoría de la justicia para el cuidado sa-
-
-                                              nitario: la protección de la salud en la Constitución después de la reforma
-                                              AUGE”, en Revista de Derecho (Valdivia) Vol. 23 N° 1, pp 113-130.
-
-
-## 111. ZÚÑIGA, Alejandra (2011): “El derecho a la vida y el derecho a la protección
-
-                                              de la salud en la Constitución: una relación necesaria”, en Revista del Cen-
-                                              tro de Estudios Constitucionales Año 9, N° 1, pp. 37-64.
-
-
-## 112. ZÚÑIGA, Yanira (2009): “Medida de protección terapéutica a favor de un
-
-                                              menor (Sentencias del Tribunal de Familia y de la Corte de Apelaciones de
-                                              Valdivia)”, en Revista de Derecho Vol. XXII Nº 1, pp. 279-290.
-
-
-## 113. ZÚÑIGA, Alejandra (2013): “Justicia y genética: compensando las diferen-
-
-                                              cias”, en Ideas Valores Vol. 62 Nº 151, pp. 115-128.
-
-
 ## 114. ZÚÑIGA, Alejandra (2020): “La Corte Suprema ante la judicialización de la
 
-                                              salud”, en Anuario de Derecho Público, Universidad Diego Portales.
+**Definición Canónica:** salud”, en Anuario de Derecho Público, Universidad Diego Portales.
+
+salud”, en Anuario de Derecho Público, Universidad Diego Portales.
 
 Las personas con                              Bibliografía                                                               269
 
@@ -11382,41 +11280,61 @@ discapacidad en el                                              razonamiento jud
 
 ## 1.   Comité de Derechos Económicos, Sociales y Culturales. Observa-
 
-                                              ción General Nº 12, 22º periodo de sesiones, Ginebra, 25 de abril a
+**Definición Canónica:** ción General Nº 12, 22º periodo de sesiones, Ginebra, 25 de abril a
                                               12 de mayo de 2000. Disponible en: https://www.refworld.org.es/
                                               type,GENERAL,,,47ebcce12,0.html
 
+ción General Nº 12, 22º periodo de sesiones, Ginebra, 25 de abril a
+                                              12 de mayo de 2000. Disponible en: https://www.refworld.org.es/
+                                              type,GENERAL,,,47ebcce12,0.html
 
 ## 2.   Comité de Derechos Económicos, Sociales y Culturales. Observación Gene-
 
-                                              ral Nº 14, parágrafo 9. 22º período de sesiones, Ginebra, 25 de abril a 12 de
+**Definición Canónica:** ral Nº 14, parágrafo 9. 22º período de sesiones, Ginebra, 25 de abril a 12 de
                                               mayo de 2000. Disponible en: https://www.refworld.org.es/publisher,CESCR,-
                                               GENERAL,,47ebcc492,0.html
 
+ral Nº 14, parágrafo 9. 22º período de sesiones, Ginebra, 25 de abril a 12 de
+                                              mayo de 2000. Disponible en: https://www.refworld.org.es/publisher,CESCR,-
+                                              GENERAL,,47ebcc492,0.html
 
 ## 3.   Organización Mundial de la Salud (Oficina Regional para Europa). Declara-
 
-                                              ción para la promoción de los Derechos de los Pacientes en Europa. 28-30
+**Definición Canónica:** ción para la promoción de los Derechos de los Pacientes en Europa. 28-30
+                                              de marzo de 1994.
+**Concordancias Legales:** Ley N° 19.966
+
+ción para la promoción de los Derechos de los Pacientes en Europa. 28-30
                                               de marzo de 1994.
 
                                               Normas jurídicas citadas
                                          1.   Ley N° 19.966, establece un Régimen de Garantías Explícitas en Salud.
                                               Diario Oficial, 3 de septiembre de 2004.
 
-
 ## 2.   Ley Nº 17.238, concede a los profesionales y técnicos chilenos que regre-
 
-                                              sen definitivamente al país, en las condiciones que señala, las franquicias
+**Definición Canónica:** sen definitivamente al país, en las condiciones que señala, las franquicias
+                                              aduaneras que indica para los bienes que estipula, y, asimismo, autoriza la
+                                              importación sin depósito y liberada de pago de todo derecho, impuestos,
+                                              tasas y demás gravámenes a los vehículos con características técnicas
+                                              especiales para ser usados por personas lisiadas.
+                                              Diario Oficial, 22 de novi
+
+sen definitivamente al país, en las condiciones que señala, las franquicias
                                               aduaneras que indica para los bienes que estipula, y, asimismo, autoriza la
                                               importación sin depósito y liberada de pago de todo derecho, impuestos,
                                               tasas y demás gravámenes a los vehículos con características técnicas
                                               especiales para ser usados por personas lisiadas.
                                               Diario Oficial, 22 de noviembre de 1969.
 
-
 ## 3.   Ley Nº 16.768, otorga el beneficio de pago del 50% del arancel aduanero
 
-                                              para importación de vehículos para personas con discapacidad física, se-
+**Definición Canónica:** para importación de vehículos para personas con discapacidad física, se-
+                                              gún las condiciones en ella establecidas.
+                                              Diario Oficial, 21 de marzo de 1968.
+**Concordancias Legales:** Ley Nº 18.600; Ley Nº 18.700
+
+para importación de vehículos para personas con discapacidad física, se-
                                               gún las condiciones en ella establecidas.
                                               Diario Oficial, 21 de marzo de 1968.
 
@@ -11426,25 +11344,25 @@ discapacidad en el                                              razonamiento jud
                                          5.   Ley Nº 18.700, sobre votaciones populares y escrutinios.
                                               Diario Oficial, 2 de mayo de 1988.
 
-
-## 6.   Ley Nº 19.284, establece normas para la plena integración social de perso-
-
-                                              nas con discapacidad.
-                                              Diario Oficial, 14 de enero de 1994.
-
-
 ## 7.   Ley Nº 19.712, establece un deber del Estado en relación al deporte para
 
-                                              personas en situación de discapacidad.
+**Definición Canónica:** personas en situación de discapacidad.
+                                              Diario Oficial, 9 de febrero de 2001.
+**Concordancias Legales:** Ley Nº 19.947
+
+personas en situación de discapacidad.
                                               Diario Oficial, 9 de febrero de 2001.
 
                                          8.   Ley Nº 19.947, establece nueva ley de matrimonio civil.
                                               Diario Oficial, 17 de mayo de 2004.
 
-
 ## 9.   Ley Nº 20.146, establece reglas especiales para la apelación en causas rela-
 
-                                              tivas a la discapacidad.
+**Definición Canónica:** tivas a la discapacidad.
+                                              Diario Oficial, 9 de enero de 2007.
+**Concordancias Legales:** Ley Nº 20.255
+
+tivas a la discapacidad.
                                               Diario Oficial, 9 de enero de 2007.
 
                                          10. Ley Nº 20.255, establece reforma previsional.
@@ -11452,23 +11370,23 @@ discapacidad en el                                              razonamiento jud
 
 Las personas con                               Bibliografía                                                                 270
 
-
 ## 11.   Ley Nº 20.379, crea sistema intersectorial de protección social e institu-
 
-                                               cionaliza el subsistema de protección integral a la infancia “Chile crece
+**Definición Canónica:** cionaliza el subsistema de protección integral a la infancia “Chile crece
                                                contigo”.
                                                Diario Oficial, 12 de septiembre de 2009.
 
-
-## 12. Ley Nº 18.290, fija texto refundido, coordinado y sistematizado de la ley de
-
-                                             tránsito.
-                                             Diario Oficial, 7 de noviembre de 2009.
-
+cionaliza el subsistema de protección integral a la infancia “Chile crece
+                                               contigo”.
+                                               Diario Oficial, 12 de septiembre de 2009.
 
 ## 13. Ley Nº 20.422, establece normas sobre igualdad de oportunidades e inclu-
 
-                                             sión social de personas con discapacidad.
+**Definición Canónica:** sión social de personas con discapacidad.
+                                             Diario Oficial, 10 de febrero de 2010.
+**Concordancias Legales:** Ley N° 20.584; Ley Nº 20.609
+
+sión social de personas con discapacidad.
                                              Diario Oficial, 10 de febrero de 2010.
 
                                          14. Ley N° 20.584, ley sobre derechos y deberes de los pacientes.
@@ -11477,67 +11395,33 @@ discapacidad en el                                              razonamiento jud
                                          15. Ley Nº 20.609, establece medidas contra la discriminación.
                                              Diario Oficial, 24 de julio de 2012.
 
-
-## 16. Ley Nº 21.015, incentiva la inclusión de personas con discapacidad al mundo
-
-                                             laboral. Diario Oficial, 15 de junio de 2017.
-
-
-## 17.   Ley Nº 21.021, proporciona reparación y asistencia en rehabilitación a las
-
-                                               víctimas de explosión de minas u otros artefactos explosivos militares
-                                               abandonados o sin estallar. Diario Oficial, 12 de agosto de 2017.
-
-
 ## 18. DFL Nº 2/1996, fija el texto refundido, coordinado y sistematizado del
 
-                                             Decreto con Fuerza de Ley Nº 2, de 1996, sobre subvención del Estado a
+**Definición Canónica:** Decreto con Fuerza de Ley Nº 2, de 1996, sobre subvención del Estado a
                                              establecimientos educacionales.
                                              Diario Oficial, 28 de noviembre de 1998.
 
-
-## 19.   DFL Nº 1/2003 (16/01/03), fija el texto refundido, coordinado y sistematiza-
-
-                                               do del Código del Trabajo.
-                                               Diario Oficial, 16 de enero de 2003.
-
-
-## 20. Decreto Nº 1447/1980, establece normas para accesos de “lisiados” a edifi-
-
-                                             cios de la administración del Estado.
-                                             Diario Oficial, 26 de septiembre de 1980.
-
-
-## 21. Decreto Nº 47/1992, fija nuevo texto de la ordenanza general de la Ley Ge-
-
-                                             neral de Urbanismo y Construcciones.
-                                             Diario Oficial, 5 de junio de 1992.
-
-
-## 22. Decreto Nº 48/1993, aprueba reglamento para la aplicación de la Ley Nº
-
-                                             18.600 sobre deficientes mentales.
-                                             Diario Oficial, 13 de septiembre de 1993.
-
+Decreto con Fuerza de Ley Nº 2, de 1996, sobre subvención del Estado a
+                                             establecimientos educacionales.
+                                             Diario Oficial, 28 de noviembre de 1998.
 
 ## 23. Decreto Nº 300/1994, autoriza la organización y funcionamiento de cursos
 
-                                             talleres básicos para mayores de 26 años con discapacidad.
+**Definición Canónica:** talleres básicos para mayores de 26 años con discapacidad.
+                                             Diario Oficial, 5 de agosto de 1994.
+
+talleres básicos para mayores de 26 años con discapacidad.
                                              Diario Oficial, 5 de agosto de 1994.
 
                                          24. Decreto Nº 141/1994, modifica el decreto Nº 212 de 1992.
                                              Diario Oficial, 2 de julio de 1994.
 
-
-## 25. Decreto Nº 41/1995, regula el sistema de postulación y venta de viviendas
-
-                                             en relación con personas con discapacidad.
-                                             Diario Oficial, 12 de junio de 1995.
-
-
 ## 26. Decreto Nº 1/1998, establece normas para la adecuación social e integra-
 
-                                             ción de personas con discapacidad en el sistema educacional y subven-
+**Definición Canónica:** ción de personas con discapacidad en el sistema educacional y subven-
+                                             ciones actualmente existentes conforme al capítulo II título IV de la Ley Nº
+
+ción de personas con discapacidad en el sistema educacional y subven-
                                              ciones actualmente existentes conforme al capítulo II título IV de la Ley Nº
 
 Las personas con                                                                Bibliografía                                                                 271
@@ -11546,69 +11430,68 @@ discapacidad en el                                              razonamiento jud
                                                                                 discapacidad.
                                                                                 Diario Oficial, 23 de junio de 1998.
 
-
 ## 27.   Decreto Nº 223/2006, aprueba reglamento de la Ley Nº 19.284, que regula
 
-                                                                                el uso de perros guías, de señal o de servicio por parte de las personas con
+**Definición Canónica:** el uso de perros guías, de señal o de servicio por parte de las personas con
                                                                                 discapacidad.
                                                                                 Diario Oficial, 5 de junio de 2007.
 
+el uso de perros guías, de señal o de servicio por parte de las personas con
+                                                                                discapacidad.
+                                                                                Diario Oficial, 5 de junio de 2007.
 
 ## 28. Decreto Nº 170/2010, fija normas para determinar los alumnos con necesi-
 
-                                                                              dades educativas especiales que serán beneficiarios de las subvenciones
+**Definición Canónica:** dades educativas especiales que serán beneficiarios de las subvenciones
                                                                               para educación especial.472
                                                                               Diario Oficial, 21 de abril de 2010.
 
-
-## 29. Decreto Nº 1253/2010, determina procedimientos y competencias para la
-
-                                                                              obtención de beneficios arancelarios y tributarios.
-                                                                              Diario Oficial, 21 de octubre de 2011.
-
+dades educativas especiales que serán beneficiarios de las subvenciones
+                                                                              para educación especial.472
+                                                                              Diario Oficial, 21 de abril de 2010.
 
 ## 30. Decreto Nº 142/2010, aprueba el reglamento de la Ley N° 20.422, que esta-
 
-                                                                              blece normas sobre igualdad de oportunidades e inclusión social de perso-
+**Definición Canónica:** blece normas sobre igualdad de oportunidades e inclusión social de perso-
+                                                                              nas con discapacidad, relativo al transporte público de pasajeros.
+                                                                              Diario Oficial, 9 de julio de 2011.
+
+blece normas sobre igualdad de oportunidades e inclusión social de perso-
                                                                               nas con discapacidad, relativo al transporte público de pasajeros.
                                                                               Diario Oficial, 9 de julio de 2011.
 
                                                                           31. Decreto Nº 945/2010, aprueba el reglamento nacional de discapacidad.
                                                                               Diario Oficial, 31 de marzo de 2012.
 
-
 ## 32. Decreto Nº 32/2011, aprueba reglamento que estable normas para la apli-
 
-                                                                              cación de mecanismos de comunicación audiovisual que posibiliten el ac-
+**Definición Canónica:** cación de mecanismos de comunicación audiovisual que posibiliten el ac-
                                                                               ceso a la programación televisiva para personas con discapacidad auditiva.
                                                                               Diario Oficial, 4 de febrero de 2012.
 
+cación de mecanismos de comunicación audiovisual que posibiliten el ac-
+                                                                              ceso a la programación televisiva para personas con discapacidad auditiva.
+                                                                              Diario Oficial, 4 de febrero de 2012.
 
 ## 33. Decreto Nº 47/2012, aprueba reglamento para la calificación y certificación
 
-                                                                              de la discapacidad conforme a la Ley Nº 20.422.
+**Definición Canónica:** de la discapacidad conforme a la Ley Nº 20.422.
+                                                                              Diario Oficial, 16 de octubre de 2013.
+**Concordancias Legales:** Ley Nº 20.422
+
+de la discapacidad conforme a la Ley Nº 20.422.
                                                                               Diario Oficial, 16 de octubre de 2013.
 
                                                                                 Jurisprudencia citada
 
-## 1.    E.V.I. con Fonasa (2010): Corte Suprema rol N° 9317-09, 28 de enero de
-
-                                                                                2010 (apelación protección).
-
-
-## 2.    J.L.V.G. con Hospital Hernán Henríquez Aravena de Temuco (2010): Corte
-
-                                                                                Suprema rol N° 1324-10, 25 de febrero de 2010 (apelación protección).
-
-
-## 3.    S.A.L.L. con Hospital Sótero del Río (2017): Corte Suprema rol N° 43.250-17
-
-                                                                                (apelación protección).
-
-
 ## 4.    Requerimiento de inconstitucionalidad presentado respecto del proyecto de
 
-                                                                                ley que regula la despenalización de la interrupción voluntaria del embara-
+**Definición Canónica:** ley que regula la despenalización de la interrupción voluntaria del embara-
+                                                                                zo en tres causales, correspondiente al boletín N° 9895-11 (2017): Tribunal
+                                                                                Constitucional rol N° 3729-17.
+**Concordancias Legales:** Artículo 1; Constitucion
+
+ley que regula la despenalización de la interrupción voluntaria del embara-
                                                                                 zo en tres causales, correspondiente al boletín N° 9895-11 (2017): Tribunal
                                                                                 Constitucional rol N° 3729-17.
 
@@ -11617,30 +11500,3 @@ discapacidad en el                                              razonamiento jud
                                                dades educativas especiales.”
 
 Las personas con                              Bibliografía                                                                 272
-
-
-## 5.   Y.A.A.A. con Fondo Nacional de Salud (2018): Corte Suprema rol N° 25.009-
-
-                                              2018 (apelación protección).
-
-
-## 6.   D.B.D.H. con Fondo Nacional de Salud, Servicio de Salud C. y Ministerio de
-
-                                              Salud (2018): Corte Suprema rol N° 17.043-18 (apelación protección).
-
-                                         7.   Sentencia Tribunal Constitucional: rol Nº 1687-10-INA, 1 de julio de 2010.
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl

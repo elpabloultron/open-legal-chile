@@ -15,6 +15,10 @@ extraccion: pdftotext
 
 ## De la sucesion por causa de muerte1
 
+**Definición Canónica:** Sumario:
+Primera Parte: conceptos fundamentales. Capítulo I: Aspectos generales. 1.-
+Concepto de Derecho Sucesorio y regulación. 2.- Principios que informan el Derecho
+Sucesorio chileno. 2.1. El principio de la continuación del causante por sus herederos.
 
 Sumario:
 Primera Parte: conceptos fundamentales. Capítulo I: Aspectos generales. 1.-
@@ -22,6 +26,15 @@ Concepto de Derecho Sucesorio y regulación. 2.- Principios que informan el Dere
 Sucesorio chileno. 2.1. El principio de la continuación del causante por sus herederos.
 
 ## 2.2. El principio de la unidad del patrimonio. 2.3. El principio de la igualdad. 2.4. El
+
+**Definición Canónica:** principio de la protección de la familia. 2.5. El principio de la libertad para testar. 2.6.
+El principio de la libertad para suceder. 3.- Acepciones de la expresión “sucesión por
+causa de muerte”. 4.- La sucesión por causa de muerte como modo de adquirir el
+dominio. 5.- Los asignatarios. 6.- De la apertura de la sucesión. 7.- De la delación de
+las asignaciones. 8.- Del derecho de transmisión. Capítulo II: El derecho real de
+herencia. 1.- Concepto de derecho real de herencia y relación entre el derecho real de
+herencia y el de dominio. 2.- Críticas al sistema dual de derechos. 3.- Cesión del
+d
 
 principio de la protección de la familia. 2.5. El principio de la libertad para testar. 2.6.
 El principio de la libertad para suceder. 3.- Acepciones de la expresión “sucesión por
@@ -46,16 +59,22 @@ herencia (art. 688 N° 2). 2.4. La inscripción especial del acto de partición 
 
 ## Capítulo V: Incapacidades e indignidades para suceder. 1.- Requisitos para
 
+**Definición Canónica:** suceder por causa de muerte. 2.- Capacidad para suceder por causa de muerte. 3.-
+Dignidad para suceder por causa de muerte. 4.- Paralelo entre las incapacidades e
+indignidades. 5.- Disposiciones comunes a las incapacidades e indignidades.
+CUESTIONARIO.
+
 suceder por causa de muerte. 2.- Capacidad para suceder por causa de muerte. 3.-
 Dignidad para suceder por causa de muerte. 4.- Paralelo entre las incapacidades e
 indignidades. 5.- Disposiciones comunes a las incapacidades e indignidades.
 CUESTIONARIO.
 
-
 ## Primera parte: conceptos fundamentales
 
+**Definición Canónica:** CAPITULO I: ASPECTOS GENERALES.
+**Concordancias Legales:** artículos 951; artículos 980; artículos 999; artículos 1056; artículos 1167; artículos 1212
 
-                         CAPITULO I: ASPECTOS GENERALES.
+CAPITULO I: ASPECTOS GENERALES.
 
 1.- Concepto de Derecho Sucesorio y regulación.
 
@@ -82,12 +101,29 @@ Título VI: de la revocación y reforma del testamento (artículos 1212 a 1220; 
 
 ## Título VII: de la apertura de la sucesión y de su aceptación, repudiación e inventario
 
+**Definición Canónica:** (artículos 1222 a 1269).
+Título VIII: de los ejecutores testamentarios (artículos 1270 a 1310).
+Título IX: de los albaceas fiduciarios (artículos 1311 a 1316).
+Título X: de la partición de bienes (artículos 1317 a 1353).
+**Concordancias Legales:** artículos 1222; artículos 1270; artículos 1311; artículos 1317
+
 (artículos 1222 a 1269).
 Título VIII: de los ejecutores testamentarios (artículos 1270 a 1310).
 Título IX: de los albaceas fiduciarios (artículos 1311 a 1316).
 Título X: de la partición de bienes (artículos 1317 a 1353).
 
 ## Título XI: del pago de las deudas hereditarias y testamentarias (artículos 1354 a
+
+**Definición Canónica:** 1377).
+Título XII: del beneficio de separación (artículos 1378 a 1385).
+        También cabe tener presente algunas leyes especiales que se refieren a la
+sucesión por causa de muerte, en particular, la Ley N° 19.903 y los artículos 877 a 883
+del Código de Procedimiento Civil (referidos a la tramitación de la posesión efectiva de
+la herencia), la Ley N° 16.271, de Impuestos a las Herencias, Donaciones y
+Asignaciones, así como también la Ley N° 19.947 de Matrimonio Civil, la Ley N°
+20.830 sobre Acuerdo de Unión Civil, la Ley Sobre el Efecto Retroactivo de las Leyes,
+la Ley N° 19.620 sobre Adopci
+**Concordancias Legales:** artículos 1378; artículos 877; artículos 955; artículos 982; artículos 1354; artículo 1337 del Código Civil. Se propende a que cada comunero; artículos 95; artículo 1097 del Código Civil en relación al artículo 951 de e; artículos 751 inciso 2; artículo 1279 del Código Civil; artículo 1095 del Código Civil; artículo 88 de la Ley N; Ley N° 19.903; Ley N° 16.271; Ley N° 19.947; Ley N° 20.830; Ley N° 19.620; Ley N° 19.587; Ley N° 16.744; constitución
 
 1377).
 Título XII: del beneficio de separación (artículos 1378 a 1385).
@@ -769,6 +805,16 @@ concluido algunas sentencias, como una de la Corte de Concepción de 5 de marzo 
 haberse inscrito el inmueble a favor del legatario, éste se encuentra privado de una
 
 ## parte de su posesión, como es la posesión material del inmueble. A esa conclusión
+
+**Definición Canónica:** llega una sentencia de la Corte Suprema de 22 de mayo de 2014, autos Rol N° 7.7692014.
+        Una segunda opción podría ser la de las acciones posesorias de restitución y
+amparo. En efecto, siendo el legatario un poseedor tranquilo de un inmueble y no
+interrumpido de un año y que la acción se interponga en tiempo oportuno, no se ven
+impedimentos para el ejercicio de dichas acciones. Con todo, podría plantearse un
+problema, en el caso de que el legatario sea también heredero, pues se ha discutido si
+pueden existir acciones posesorias ejercidas entre herederos. La acción debiera ser la
+restitut
+**Concordancias Legales:** artículos 95; artículo 79; artículo 149 del Código Orgánico de Tribunales. f; artículo 955 del Código Civil; artículo 957; artículo 577; Ley N° 16.271; Ley N° 19.903; Ley Nº 16.271
 
 llega una sentencia de la Corte Suprema de 22 de mayo de 2014, autos Rol N° 7.7692014.
         Una segunda opción podría ser la de las acciones posesorias de restitución y
@@ -1579,6 +1625,15 @@ por la partición los herederos radican su derecho al patrimonio del causante, o
 
 ## parte de él, en bienes determinados. Incluso, efectuada ésta, ella opera con efecto
 
+**Definición Canónica:** retroactivo, borrando el estado de indivisión que existió entre los herederos (Art.
+1344). El período de vigencia del derecho real de herencia fija también la época en que
+es posible efectuar su cesión. En consecuencia (…), ella no puede tener lugar antes de
+que por el fallecimiento del causante se produzcan la apertura de la sucesión y la
+delación de la herencia; la razón es que el Art. 1463 prohíbe los llamados pactos sobre
+sucesión futura (…). Y en seguida, una vez efectuada la partición, no es posible
+tampoco la cesión de derechos hereditarios, porque ya no existe un derecho del
+sucesor a 
+
 retroactivo, borrando el estado de indivisión que existió entre los herederos (Art.
 1344). El período de vigencia del derecho real de herencia fija también la época en que
 es posible efectuar su cesión. En consecuencia (…), ella no puede tener lugar antes de
@@ -1666,6 +1721,16 @@ ejemplo, a la venta que haga un heredero de la cuota que supuestamente (pues
 mientras no se realice la partición, en rigor no podemos asegurar que será dueño de
 
 ## parte alguna en el bien) tiene sobre un inmueble de la herencia. Refiere Olavarría que
+
+**Definición Canónica:** “Esta es la situación radicalmente opuesta a la de cesión de la totalidad o de cesión de
+la cuota-parte. Se requiere en este caso de la posesión efectiva dictada e inscrita y, en
+el caso de tratarse de bienes raíces, que se encuentren además practicadas las
+inscripciones especiales de herencia correspondientes, conforme lo requieren los
+artículos 688 del Código y 25 de la Ley N° 16.271, sobre Impuesto a las Herencias,
+Asignaciones y Donaciones. Se trata de un contrato eminentemente aleatorio, cuyo
+cumplimiento queda supeditado a la circunstancia de que el bien le resulte adjudicado
+en definiti
+**Concordancias Legales:** artículos 688 del Código y 25 de la Ley N; artículo 55 del Reglamento del Registro Conservatorio de Bien; artículo 688 del Código Civil; artículo 55 del Reglamento antes mencionado y en el artículo; artículo 1812 del Código Civil; Ley N° 16.271
 
 “Esta es la situación radicalmente opuesta a la de cesión de la totalidad o de cesión de
 la cuota-parte. Se requiere en este caso de la posesión efectiva dictada e inscrita y, en
@@ -1818,6 +1883,16 @@ sociedad, cada una de ellas podrá vender su cuota, aún sin el consentimiento d
 otras (…) Que, en consecuencia, al estimarse ajustada a derecho la enajenación por
 
 ## parte de uno de los miembros de la comunidad hereditaria, de la cuota que a éste
+
+**Definición Canónica:** correspondía en uno de los inmuebles hereditarios, sin que hubieran consentido en ello
+los demás coherederos, no han cometido los sentenciadores de la instancia los errores
+de derecho que se les atribuye en el recurso, motivo suficiente como para que la
+casación en el fondo intentada sea desestimada”. Este criterio jurisprudencial se ha
+confirmado por una sentencia de la Corte Suprema de fecha 14 de marzo de 2018,
+autos Rol N° 33.770-2017, en otra sentencia de la Corte de Apelaciones de Temuco de
+fecha 12 de junio de 2019, autos Rol Nº 1.068-2018 y en la sentencia de la Corte de
+Apelaciones de
+**Concordancias Legales:** artículos 877; artículo 881 del Código de Procedimiento Civil; artículos 382; artículo 46; artículos 687; artículos 1232; Ley N° 19.903; Ley N° 16.271; ley Nº16.271
 
 correspondía en uno de los inmuebles hereditarios, sin que hubieran consentido en ello
 los demás coherederos, no han cometido los sentenciadores de la instancia los errores
@@ -2194,6 +2269,17 @@ no se encuentran inscritos en Chile”. El art. 8 del Reglamento de la Ley dispo
 
 ## parte: “Para la determinación de los herederos del causante, el Servicio de Registro
 
+**Definición Canónica:** Civil e Identificación consultará, en cada caso, la base central de datos de su sistema
+automatizado”.
+vii.- En cuanto a la publicidad de la resolución, establece el art. 7 que la misma se
+publicará en extracto en un diario regional correspondiente a la Región en que se inició
+el trámite, el día 1 o 15 de cada mes o hábil siguiente.
+viii.- Una vez hecha la publicación, se ordenará inmediatamente la inscripción de la
+resolución en el Registro Nacional de Posesiones Efectivas (art. 8, inc. 1°).
+ix.- La inscripción se acreditará mediante un certificado y, con su mérito, los
+interesados podrán req
+**Concordancias Legales:** artículo 37 del Decreto Ley N; artículo 688 del Código Civil; Ley N° 19.903; Ley N° 20.285; ley N° 16.271; Ley N° 2079; Ley N° 16.271.88; constitución
+
 Civil e Identificación consultará, en cada caso, la base central de datos de su sistema
 automatizado”.
 vii.- En cuanto a la publicidad de la resolución, establece el art. 7 que la misma se
@@ -2454,6 +2540,14 @@ Por eso se afirma que la cesión del derecho de herencia propiamente tal, es la 
 
 ## título oneroso, única regida por los arts. 1909 y 1910. En cambio, si la cesión fuere a
 
+**Definición Canónica:** título gratuito, habrá que aplicar lo dispuesto en los arts. 1422 y 1423 del Código Civil,
+en las normas del contrato de donación.
+iii.- La cesión del derecho de herencia no implica ceder la calidad de heredero.
+Consecuencias respecto de las deudas hereditarias.
+        Cabe precisar que lo que en la cesión del derecho de herencia se cede no es la
+calidad de heredero o legatario, puesto que tales calidades dependen de las relaciones
+**Concordancias Legales:** artículo 1320; artículo 1635; artículo 1910; artículos 1340; artículo 1909 del Código Civil que indica; artículo 1635 del Código Civil en cuanto establece que; artículo 1910 del Código Civil; artículos 97; Ley N° 16.271
+
 título gratuito, habrá que aplicar lo dispuesto en los arts. 1422 y 1423 del Código Civil,
 en las normas del contrato de donación.
 iii.- La cesión del derecho de herencia no implica ceder la calidad de heredero.
@@ -2658,6 +2752,16 @@ motivo primero de este fallo se encuentra probado que se trata de la cesión de
 derechos de hereditarios, cuyo efecto fundamental es precisamente la tradición de
 
 ## parte de la universalidad jurídica al cesionario. Si bien existe consenso en doctrina que
+
+**Definición Canónica:** la cesión del derecho real de herencia no implica la cesión de la calidad de heredero,
+pues lo que se cede son los derechos asociados a tal calidad, existe también acuerdo
+en cuanto a que el cesionario pasa a ocupar la misma situación jurídica del cedente, de
+manera que el primero debe hacerse cargo del pasivo de la herencia, debiendo
+responder de las deudas hereditarias. Tercero: Que, lo recién indicado no significa que
+los acreedores hereditarios se encuentren obligados a aceptar un cambio de deudor.
+En este sentido, en la medida que los acreedores hereditarios no hayan sido parte en
+la conv
+**Concordancias Legales:** artículo 1635 del Código Civil como en virtud de lo establecido; artículo 1526; artículo 169 del Código Tributario; artículos 186; artículo 1909; artículo 686; artículo 19 del Código Civil; artículo 1146 del Código Civil; artículo 1185; artículo 1146; artículos 1140; Ley Nº 16.271; Ley N° 16.271
 
 la cesión del derecho real de herencia no implica la cesión de la calidad de heredero,
 pues lo que se cede son los derechos asociados a tal calidad, existe también acuerdo
@@ -3381,6 +3485,15 @@ han salido del patrimonio del testador al momento de su muerte. Y si la donació
 
 ## título universal se mira como una institución de heredero (art. 1142) y sólo tiene
 
+**Definición Canónica:** efecto por lo tanto a partir de la muerte del donante. Así entonces, no es correcta la
+afirmación del art. 1185 en el sentido que han de colacionarse las donaciones
+revocables hechas a un legitimario, porque el valor de las cosas donadas está en el
+patrimonio del donante y, por lo tanto, integrando el acervo líquido, de modo que no
+es posible volverlas a agregar. La conclusión precedente es aplicable incluso al caso en
+que las cosas donadas han sido entregadas en vida al legitimario. Ni aun así dejan de
+estar en el patrimonio del donante, ya que el art. 1140 manda que esa entrega no
+confiera a
+
 efecto por lo tanto a partir de la muerte del donante. Así entonces, no es correcta la
 afirmación del art. 1185 en el sentido que han de colacionarse las donaciones
 revocables hechas a un legitimario, porque el valor de las cosas donadas está en el
@@ -3588,12 +3701,10 @@ fallecimiento del causante.
         Revisaremos con mayor detalle los dos acervos imaginarios, cuando estudiemos
 las legítimas, en el marco de la sucesión forzosa (“Sucesorio 7”).
 
-
-## Capítulo iv: inscripciones a que da lugar
-
-
 ## La sucesión por causa de muerte117
 
+**Definición Canónica:** 1.- Fines en virtud de los cuales se exigen inscripciones a los herederos.
+**Concordancias Legales:** artículo 688 del Código Civil. La sucesión por causa de; Ley N° 19.903; Ley Nº 19.903
 
 1.- Fines en virtud de los cuales se exigen inscripciones a los herederos.
 
@@ -3650,8 +3761,10 @@ específico de las inscripciones del art. 688.
 hereditarios (o de los bienes muebles sujetos a inscripción en un registro público),
 mientras no proceda:
 
-
 ## 2.1. El decreto judicial o la resolución administrativa que da la posesión
+
+**Definición Canónica:** efectiva de la herencia (art. 688 N° 1).
+**Concordancias Legales:** artículos 866; artículo 1104 del Código Civil y que; artículos 1374; artículo 1114 del Código Civil; artículos 1290; artículo 1290 del Código Civil; artículo 420 del Código Orgánico de Tribunales los considera i; artículo 420; artículo 870 del Código de Procedimiento Civil reenvía en cuan; artículo 420 del Código Orgánico; artículo 50 bis; Ley N° 19.903; Ley N° 16.271; Ley 16.271
 
 efectiva de la herencia (art. 688 N° 1).
 
@@ -4115,6 +4228,8 @@ escritura de entrega del legado tampoco se solucionan las complicaciones que se
 
 ## 2004. Por ende, todos los testamentos otorgados ante Notario Público a partir de esa fecha o aquellos que se
 
+**Definición Canónica:** protocolicen en una Notaría después de dicha data, figuran en este Registro.
+
 protocolicen en una Notaría después de dicha data, figuran en este Registro.
 
                            Sucesorio 1- Juan Andrés Orrego Acuña                                         74
@@ -4143,18 +4258,12 @@ que se hiciere entrega del legado mediante escritura pública. Este criterio
 jurisprudencial, en consecuencia, confirma la primera doctrina.
         Un esquema de escritura de entrega de legado sería el que sigue:125
 
-## “REPERTORIO Nº _____________
-
-
-
-## Entrega de legados
-
-
-
 ## ___________________________________________ y otros
 
+**Definición Canónica:** A
+**Concordancias Legales:** artículo 957; artículo 74; artículo 739 del Código Civil; artículos 1062; artículo 489 del Código Penal; artículo 968 del Código Civil; artículo 968; artículo 970 del Código Civil; artículo 974; artículo 971; artículo 1192 del Código Civil; artículo 1300; artículo 124; artículo 203; artículo 1910; artículo 722 del Código Civil y se caracteriza por que la otor; artículo 700; artículo 975 del Código Civil se pregunta a qué tipo de posesi; artículo 722; artículos 975; artículo 975; artículo 977; Ley Nº 6.162; Ley Nº 16.952; Ley N° 5.750; Ley N° 19.335; Ley N° 20.830; constitución
 
-                                                      A
+A
 
                  ___________________________________________
 
@@ -5937,6 +6046,17 @@ Código Civil? C) ¿De qué manera limita este principio la facultad de disposic
 
 ## parte del testador?
 
+**Definición Canónica:** 10.- ¿En qué consiste el principio de la libertad para testar?
+11.- ¿En qué consiste el principio de la libertad para suceder?
+12.- A) ¿En qué acepciones se puede aludir a la “Sucesión por causa de muerte”? B)
+¿Cómo se define la sucesión por causa de muerte conforme a cada una de estas
+acepciones?
+13.- ¿Por qué se ha dicho por una parte de la doctrina que la sucesión por causa de
+muerte no puede ser concebida solamente como un modo de adquirir el dominio?
+14.- ¿Cómo se puede definir la sucesión por causa de muerte en cuanto modo de
+adquirir?
+15.- A) ¿Cómo se llama la persona que transmite su p
+
 10.- ¿En qué consiste el principio de la libertad para testar?
 11.- ¿En qué consiste el principio de la libertad para suceder?
 12.- A) ¿En qué acepciones se puede aludir a la “Sucesión por causa de muerte”? B)
@@ -5960,6 +6080,17 @@ bienes transmitidos por el causante?
 20.- ¿Por qué se afirma que la sucesión por causa de muerte es un modo de adquirir a
 
 ## título gratuito? Refiérase al fundamento de la doctrina tradicional y al planteado por los
+
+**Definición Canónica:** profesores Domínguez Benavente y Domínguez Águila.
+21.- ¿Por qué se afirma que la sucesión por causa de muerte es un modo que puede
+operar a título universal o a título singular?
+22.- ¿Por qué se afirma que la sucesión por causa de muerte es un modo que tiene
+una naturaleza mixta?
+23.- ¿Cómo se clasifican los asignatarios por causa de muerte?
+24.- ¿Qué se entiende por asignatarios a título universal?
+25.- ¿Qué elementos del activo del causante no se transmiten a sus herederos?
+26.- ¿Qué elementos del pasivo del causante no se transmiten a sus herederos?
+27.- ¿Qué criterios explican que ciertos
 
 profesores Domínguez Benavente y Domínguez Águila.
 21.- ¿Por qué se afirma que la sucesión por causa de muerte es un modo que puede

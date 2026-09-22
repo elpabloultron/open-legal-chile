@@ -13,20 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 54           Acceso
-
-             a la justicia:
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** nuevasTramitación
+                   electrónica
+             aproximaciones
+                   de causas
+             Jorge Sáez Martín
 
-             nuevasTramitación
+nuevasTramitación
                    electrónica
              aproximaciones
                    de causas
@@ -84,27 +79,9 @@ Materiales Docentes                                               ﻿
 
 Contenido
 
-
-## 5       Introducción
-
-
-## 6       Capítulo 1
-
-        La obediencia del derecho
-
-## 20      Capítulo 2
-
-        La justicia procesal
-
-## 42      Capítulo 3
-
-        Formas de aplicación de la justicia procesal
-
-## 90      A modo de conclusión
-
-
 ## 92      Referencias
 
+**Definición Canónica:** Materiales Docentes                                            Introducción
 
 Materiales Docentes                                            Introducción
 
@@ -134,8 +111,10 @@ comparadas como en nuestro país. Revisaremos también los esfuerzos
 realizados por el Poder Judicial chileno para implementar iniciativas
 que van en línea con la justicia procesal, aunque no necesariamente articuladas en el esfuerzo de materializar ese modelo.
 
-
 ## Capítulo 1
+
+**Definición Canónica:** La obediencia del derecho
+**Concordancias Legales:** artículo 294 bis del Código del Trabajo que dispone la publicación
 
 La obediencia del derecho
 
@@ -536,8 +515,9 @@ concebidas previamente sobre el actuar policial.
 
 Materiales Docentes                                                     Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** La justicia procesal
 
 La justicia procesal
 
@@ -561,8 +541,9 @@ desde luego, la provisión de los recursos necesarios para su funcionamiento, pe
    Fue necesario también que los jueces tomen conciencia de que forman parte de una misma rama y entiendan el sistema judicial como un
 todo orgánico más allá de la independencia individual de sus decisiones.
 
-
 ## 1 Se puede revisar con más detalle la evolución de este proceso de modernización
+
+**Definición Canónica:** en Sáez Martin (2007: 57 y ss.).
 
 en Sáez Martin (2007: 57 y ss.).
 
@@ -751,8 +732,15 @@ el derecho a ser oído no se ha construido en la doctrina como el derecho
 a ser escuchado y, por lo tanto, como el derecho a dirigirse verbalmente al tribunal para que este perciba por sus propios sentidos, de forma
 directa, lo que el interesado tiene que decirle respecto del conflicto jurídico.
 
-
 ## 2 En el mismo sentido, Toro explica que el derecho a ser oído «significa que se
+
+**Definición Canónica:** tiene derecho a acudir a tribunales para solicitar un pronunciamiento relativo a los
+derechos y obligaciones que han de determinarse. Este derecho implica la obligación para el Estado de que existan los órganos y procedimientos necesarios, y de
+que estos sean eficaces e idóneos para cumplir con su cometido. En este sentido, el
+derecho a acceder a la justicia se encuentra íntimamente relacionado con el derecho
+de petición que la Convención Americana sobre Derechos Humanos (CADH) consagra en su artículo 25 y que examinaremos al momento de analizar otros artículos
+relacionados con el artículo 8 d
+**Concordancias Legales:** artículo 25; artículo 8 de la CADH. De hecho; artículo 1.1; artículo 14; constitucion
 
 tiene derecho a acudir a tribunales para solicitar un pronunciamiento relativo a los
 derechos y obligaciones que han de determinarse. Este derecho implica la obligación para el Estado de que existan los órganos y procedimientos necesarios, y de
@@ -808,8 +796,10 @@ tiene en cuenta el derecho que tiene la persona a hablar públicamente
 frente al tribunal que decide su causa y únicamente se limita a ser oído a
 través de la lectura de sus escritos» (Carbajal, 2018: 11).
 
-
 ## 3 Corte Interamericana de Derechos Humanos. Caso Apitz Barbera y otros con
+
+**Definición Canónica:** Venezuela, Sentencia del 5 de agosto de 2008, párrafo 75.
+**Concordancias Legales:** artículo 12; artículo 28 de la Ley 21.430 sobre Garantías y Protección Integ; artículo 63 de la Ley de Tribunales de Familia dispone que; Ley 21.430
 
 Venezuela, Sentencia del 5 de agosto de 2008, párrafo 75.
 
@@ -952,17 +942,10 @@ tiene en términos de contextualizar la audiencia y explicarla a las partes
  5 El artículo 63 de la Ley de Tribunales de Familia dispone que «durante la audiencia, el juez procederá a señalar el objetivo de la audiencia, advirtiendo a las
 partes que deben estar atentas a todo lo que se expondrá en el juicio».
 
-## 6 Sobre esto, véase el artículo 61 de la Ley de Tribunales de Familia; el artículo 453
-
-del Código del Trabajo y el artículo 267 del Código Procesal Penal.
- 7 Véase el artículo 325 del Código Procesal Penal.
-
-## 8 La norma del artículo 63 de la Ley de Tribunales de Familia que ordena al juez
-
-señalar el objetivo de la audiencia, puede conducir a los jueces a hacer un resumen
-de las pretensiones de las partes.
-
 ## 9 El artículo 454 del Código del Trabajo dispone que la audiencia comienza con la
+
+**Definición Canónica:** rendición de las pruebas decretada por el tribunal.
+**Concordancias Legales:** artículo 263 del Código de Procedimiento Civil dista mucho de
 
 rendición de las pruebas decretada por el tribunal.
 
@@ -1030,8 +1013,10 @@ intervención del órgano jurisdiccional en su conflicto.
    El vínculo de poder autoridad-súbdito, característico del tratamiento
 entre el Estado y el ciudadano, ha sido reemplazado hace mucho tiem-
 
-
 ## 10 El artículo 263 del Código de Procedimiento Civil, señala «El juez obrará como
+
+**Definición Canónica:** amigable componedor. Tratará de obtener un avenimiento total o parcial en el litigio. Las opiniones que emita no lo inhabilitan para seguir conociendo de la causa».
+**Concordancias Legales:** artículo 93 del Código Procesal Penal; artículo 94 del Código Procesal Penal; artículo 135; artículo 137 del Código Procesal Penal se contempla la obligac; Artículo 25 del Código Orgánico de Tribunales. Por su parte; artículo 418 del Código del Trabajo dispone que; artículo 19; Constitución; constitucion
 
 amigable componedor. Tratará de obtener un avenimiento total o parcial en el litigio. Las opiniones que emita no lo inhabilitan para seguir conociendo de la causa».
 
@@ -1167,8 +1152,9 @@ que se adopten decisiones que afecten los derechos humanos, pero no
 exige una respuesta detallada a todo argumento suministrado por las
 partes (Salmón y Blanco, 2012: 191).12
 
-
 ## 12 Fundamentación y motivación son términos que, en ocasiones, se expresan
+
+**Definición Canónica:** como sinónimos, pero, en realidad, se refieren a dos cuestiones distintas. Con claridad lo explica Ovalle, «Desde un principio la exigencia de fundamentación ha sido
 
 como sinónimos, pero, en realidad, se refieren a dos cuestiones distintas. Con claridad lo explica Ovalle, «Desde un principio la exigencia de fundamentación ha sido
 
@@ -1289,8 +1275,9 @@ psiquiátricos.
   Esto último puede ser muy relevante para ser tomado en cuenta para
 mejorar el clima laboral, en el que jueces, juezas, administradoras y administradores tienen un papel muy relevante al interior de los juzgados.
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Formas de aplicación de la justicia procesal
 
 Formas de aplicación de la justicia procesal
 
@@ -1431,6 +1418,8 @@ Peña, Saba, Sanfuentes, y Obando, 2009: 75-85.
 
 ## 5 Un acabado estudio sobre el modelo de trabajo en esta Fiscalía se expone por
 
+**Definición Canónica:** Sánchez Mondaca, 2011.
+
 Sánchez Mondaca, 2011.
 
 do, está conformado por el juez, el Fiscal y el defensor.
@@ -1562,8 +1551,10 @@ oportunidades en que tuvieron contacto con el sistema penal.
 imputados que arriesgan penas de hasta 3 años de privación de libertad,
 rango dentro del cual la ley contempla otras alternativas que pueden
 
-
 ## 7 Hay que tener presente que la condición la deben cumplir imputados respecto
+
+**Definición Canónica:** de los cuales no hay un pronunciamiento judicial en relación con su culpabilidad.
+**Concordancias Legales:** artículo 238
 
 de los cuales no hay un pronunciamiento judicial en relación con su culpabilidad.
 
@@ -1639,6 +1630,13 @@ para las decisiones que se adoptan luego.
 que ha sido explicitada con claridad al inicio del programa. Por una
 
 ## parte, velará por el cumplimiento de las condiciones de la suspensión
+
+**Definición Canónica:** condicional del procedimiento, entre las cuales se encuentra el tratamiento contra la adicción, manteniendo la facultad de revocar la salida
+alternativa si se constata un incumplimiento o un cumplimiento parcial.
+Por otra parte, el tribunal tiene el rol de motivar en la persona beneficiaria su adherencia al tratamiento.
+   El elemento de respeto es muy relevante. Se configura en el tratamiento que el juez realiza a la persona beneficiaria. El juez o jueza, en
+algún sentido, deja de ser el órgano jurisdiccional para convertirse en el
+representante de un equipo terapéutico que también integran e
 
 condicional del procedimiento, entre las cuales se encuentra el tratamiento contra la adicción, manteniendo la facultad de revocar la salida
 alternativa si se constata un incumplimiento o un cumplimiento parcial.
@@ -1916,10 +1914,19 @@ judicial». El capítulo tercero destinado a la «Celebración de los actos
 judiciales», dedica la segunda sección a la «comprensión de actuaciones
 judiciales». Esta sección contiene 4 reglas:
 
-
 ## Sección 2ª.- Comprensión de actuaciones judiciales
 
-       (58) Se adoptarán las medidas necesarias para reducir las dificultades
+**Definición Canónica:** (58) Se adoptarán las medidas necesarias para reducir las dificultades
+      de comunicación que afecten a la comprensión del acto judicial en el
+      que participe una persona en condición de vulnerabilidad, garantizando
+      que ésta pueda comprender su alcance y significado.
+       1.- Notificaciones y requerimientos
+       (59) En las notificaciones y requerimientos, se usarán términos y es-
+      tructuras gramaticales simples y comprensibles, que respondan a las ne-
+      cesidades particulares de las personas en condición de vulnerabilidad
+      incluidas en estas Reglas. Asimismo, se
+
+(58) Se adoptarán las medidas necesarias para reducir las dificultades
       de comunicación que afecten a la comprensión del acto judicial en el
       que participe una persona en condición de vulnerabilidad, garantizando
       que ésta pueda comprender su alcance y significado.
@@ -1968,22 +1975,11 @@ trabajo, la Corte Suprema designó al Ministro Carlos Aránguiz Zúñiga.
        Para facilitar su comprensión, las resoluciones judiciales deberán fun-
       damentarse en términos sencillos y claros.
 
-## 1. Existencia de protocolos para la fundamentación o motivación de las
-
-      sentencias y resoluciones en lenguaje claro.
-
-## 2. Existencia de módulos de capacitación en fundamentación y moti-
-
-      vación de las sentencias y resoluciones.
-
-## 3. Número de cursos impartidos de capacitación y su carga horaria en
-
-      la materia.
-
 ## 4. Número de juezas y jueces con capacitación en la materia y su por-
 
+**Definición Canónica:** 12 Disponible en https://bit.ly/3chgYJk.
 
- 12 Disponible en https://bit.ly/3chgYJk.
+12 Disponible en https://bit.ly/3chgYJk.
 
 Academia Judicial de Chile                                       Acceso a la justicia
 Materiales Docentes                                                      Capítulo 3
@@ -1994,22 +1990,27 @@ Materiales Docentes                                                      Capítu
 abril de 2016, la Cumbre Judicial Iberoamericana señaló, en los puntos
 62 a 65, lo siguiente:13
 
-
-## 62. Aprobamos, con la redacción definitiva que se incorpora como Anexo
-
-      13 de esta declaración, la guía sobre lenguaje claro y accesible presentada
-      por el grupo de trabajo cuya coordinación estuvo a cargo de España y Chile;
-
 ## 63. Afirmamos que la legitimidad de la judicatura está ligada a la calidad y
 
-      claridad de las resoluciones judiciales, y que ello constituye un verdadero
+**Definición Canónica:** claridad de las resoluciones judiciales, y que ello constituye un verdadero
+      derecho fundamental del debido proceso; a tal efecto, entendemos que es
+      esencial el uso de un lenguaje claro, e inclusivo y no discriminatorio en las
+      resoluciones judiciales, y una argumentación fácilmente comprensible;
+
+claridad de las resoluciones judiciales, y que ello constituye un verdadero
       derecho fundamental del debido proceso; a tal efecto, entendemos que es
       esencial el uso de un lenguaje claro, e inclusivo y no discriminatorio en las
       resoluciones judiciales, y una argumentación fácilmente comprensible;
 
 ## 64. Entendemos que la elaboración y aprobación de un Diccionario Ju-
 
-      rídico Panhispánico o Panamericano se constituirá en una obra de suma
+**Definición Canónica:** rídico Panhispánico o Panamericano se constituirá en una obra de suma
+      importancia en la unificación del léxico jurídico del orbe Iberoameri-
+      cano; y creemos que en dicho diccionario, sujeto en su redacción a las
+      reglas de lexicografía, todos los países de habla hispana de Iberoamérica
+      han de encontrar la expresión de la diversidad de su vocabulario jurídico;
+
+rídico Panhispánico o Panamericano se constituirá en una obra de suma
       importancia en la unificación del léxico jurídico del orbe Iberoameri-
       cano; y creemos que en dicho diccionario, sujeto en su redacción a las
       reglas de lexicografía, todos los países de habla hispana de Iberoamérica
@@ -2017,7 +2018,11 @@ abril de 2016, la Cumbre Judicial Iberoamericana señaló, en los puntos
 
 ## 65. Exhortamos, por tanto, a los Poderes Judiciales de la Cumbre Judi-
 
-      cial Iberoamericana a unirse a esta gran empresa y participar activa-
+**Definición Canónica:** cial Iberoamericana a unirse a esta gran empresa y participar activa-
+      mente de los trabajos que se efectúen con tal fin.
+**Concordancias Legales:** artículo 2; artículo 5; artículo 10; artículo 8; ley 19.531; constitución; Constitucion
+
+cial Iberoamericana a unirse a esta gran empresa y participar activa-
       mente de los trabajos que se efectúen con tal fin.
 
    La Corte Suprema de Chile, motivada por sus compromisos internacionales, ha dado dos importantes pasos. El año 2015 creó la Comisión

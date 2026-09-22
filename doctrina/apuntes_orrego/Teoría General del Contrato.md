@@ -13,12 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Teoria general del contrato1
-
-
-Sumario:
-
 ## Capitulo i: aspectos generales
+
+**Definición Canónica:** 1.- Razón de ser de una doctrina general del contrato
+2.- Origen del concepto moderno de contrato como categoría genérica
+3.- El concepto moderno de contrato
+4.- El concepto de contrato en el Código Civil Chileno
+5.- Elementos del contrato
+6.- Funciones de los contratos
+7.- Clasificación de los contratos
 
 1.- Razón de ser de una doctrina general del contrato
 2.- Origen del concepto moderno de contrato como categoría genérica
@@ -28,15 +31,18 @@ Sumario:
 6.- Funciones de los contratos
 7.- Clasificación de los contratos
 
-## 7.1. Clasificaciones del Código Civil Chileno
-
-A) Contratos unilaterales y bilaterales
-B) Contratos gratuitos y onerosos.
-C) Contratos conmutativos y aleatorios
-D) Contratos principales y accesorios
-E) Contratos reales, solemnes y consensuales
-
 ## 7.2. Clasificaciones doctrinarias de los contratos
+
+**Definición Canónica:** A) Contratos nominados o típicos y contratos innominados o atípicos
+B) Contratos de ejecución instantánea, de ejecución diferida, de tracto sucesivo y de
+duración indefinida
+C) Contratos individuales y contratos colectivos
+D) Contratos libremente discutidos y contratos de adhesión
+E) Contratos preparatorios y contratos definitivos
+F) Contratos “intuitu personae” y contratos impersonales
+G) Contratos de familia y contratos puramente patrimoniales
+H) Contratos de formación instantánea y contratos de formación progresiva
+I) Contratos puros y simples y contratos sujetos a modalidades
 
 A) Contratos nominados o típicos y contratos innominados o atípicos
 B) Contratos de ejecución instantánea, de ejecución diferida, de tracto sucesivo y de
@@ -51,6 +57,14 @@ I) Contratos puros y simples y contratos sujetos a modalidades
 
 ## Capítulo ii: las categorías contractuales
 
+**Definición Canónica:** 1.- El contrato dirigido
+2.- El contrato forzoso
+3.- El contrato tipo
+4.- El contrato ley
+5.- El subcontrato
+6.- El autocontrato
+7.- El contrato por persona a nombrar y el contrato por cuenta de quien corresponda
+
 1.- El contrato dirigido
 2.- El contrato forzoso
 3.- El contrato tipo
@@ -60,6 +74,13 @@ I) Contratos puros y simples y contratos sujetos a modalidades
 7.- El contrato por persona a nombrar y el contrato por cuenta de quien corresponda
 
 ## Capítulo iii: principios fundamentales de la contratación
+
+**Definición Canónica:** 1.- La autonomía de la voluntad: su formulación original y su declinación
+2.- El principio del consensualismo contractual y su deterioro
+3.- El principio de la libertad contractual y su deterioro
+4.- El principio de la fuerza obligatoria del contrato. Ley y contrato
+5.- El principio del efecto relativo de los contratos
+6.- El principio de la buena fe contractual
 
 1.- La autonomía de la voluntad: su formulación original y su declinación
 2.- El principio del consensualismo contractual y su deterioro
@@ -72,22 +93,10 @@ I) Contratos puros y simples y contratos sujetos a modalidades
 
                          Teoría General del Contrato – Juan Andrés Orrego Acuña     1
 
-## Capítulo iv: interpretación de los contratos
-
-1.- Concepto
-2.- Carácter de las reglas legales de interpretación
-3.- Métodos de interpretación
-4.- Objetivo fundamental: intención de los contratantes
-5.- Reglas de interpretación de los contratos
-
-## Capítulo v: disolución de los contratos
-
-1.- Disolución por mutuo consentimiento de las partes: resciliación o disenso
-2.- Causas legales de disolución de los contratos
-
-
 ## Capitulo i: aspectos generales
 
+**Definición Canónica:** 1.- Razón de ser de una d ctrina general del c ntrat .
+**Concordancias Legales:** artículo 1437; artículo 1438; artículo 1101; artículo 957 del Código Civil y Comercial argentino; artículo 1351; artículo 1254 del Código Civil español; artículo 1463 del Código Civil; artículos 1437; artículo 20; artículo 22; artículo 1134 del Code; artículo 1460; artículo 1444; artículo 421 del Código Civil brasileño; artículo 1439 del Código Civil; artículo 1489; artículo 1184; artículos 2235; artículo 2396; Artículo 1033; Ley N° 18.010
 
 1.- Razón de ser de una d ctrina general del c ntrat .
 
@@ -1005,6 +1014,10 @@ dividido bienes con otros; c. sus respectivos antecesores, si han efectuado la c
 
 ## título oneroso”. “Artículo 1034.- Garantías comprendidas en la obligación de saneamiento. El obligado al
 
+**Definición Canónica:** saneamiento garantiza por evicción y por vicios ocultos conforme a lo dispuesto en esta Sección, sin perjuicio
+de las normas especiales”.
+**Concordancias Legales:** artículo 1889; artículo 8; artículo 6; Artículo 1447; artículo 46; artículo 2743 del Código Civil italiano; Ley N° 18.010
+
 saneamiento garantiza por evicción y por vicios ocultos conforme a lo dispuesto en esta Sección, sin perjuicio
 de las normas especiales”.
 
@@ -1350,6 +1363,11 @@ garantía general”, cuya validez, respecto de la fianza y la hipoteca, admiten
 
 ## 436. Señala al efecto: “…se ha observado que además del influjo del contrato principal sobre el accesorio (…)
 
+**Definición Canónica:** puede existir influjo del contrato accesorio sobre el principal como seguramente lo demuestran el artículo
+2743, donde se prevé que el acreedor puede pedir el pago inmediato si, habiendo perecido o habiéndose
+deteriorado la cosa dada en garantía, ésta no fuese reintegrada…”
+**Concordancias Legales:** artículo 2743; artículo 2385; artículo 4; artículo 1; artículo 1921; artículos 404; Ley N° 20.190; DL N° 993
+
 puede existir influjo del contrato accesorio sobre el principal como seguramente lo demuestran el artículo
 2743, donde se prevé que el acreedor puede pedir el pago inmediato si, habiendo perecido o habiéndose
 deteriorado la cosa dada en garantía, ésta no fuese reintegrada…”
@@ -1542,9 +1560,10 @@ correcta, excepto para el mutuo, siendo la correcta la expresión “entrega”,
 realidad, mejor habría sido que el Código hubiere dicho: “entrega o tradición”.
         Finalmente, cabe destacar que, en principio, los contratos reales son unilaterales.
 
-
 ## 7.2. Clasificaci nes d ctrinarias de l s c ntrat s.70
 
+**Definición Canónica:** A) Contratos nominados o típicos y contratos innominados o atípicos.71
+**Concordancias Legales:** artículo 170
 
 A) Contratos nominados o típicos y contratos innominados o atípicos.71
 
@@ -1673,6 +1692,10 @@ deben enviarse los documentos, en qué plazo debe responderse a las propuestas q
 
 ## parte formule, en qué plazo máximo debe concluir la negociación, sea que tenga un
 
+**Definición Canónica:** resultado feliz o que se frustre el objetivo perseguido, etc.). De existir un contrato de
+negociación y de infringir uno de los partícipes las cláusulas del mismo, la responsabilidad
+que pueda surgir deberá regularse por las normas de la responsabilidad contractual.
+
 resultado feliz o que se frustre el objetivo perseguido, etc.). De existir un contrato de
 negociación y de infringir uno de los partícipes las cláusulas del mismo, la responsabilidad
 que pueda surgir deberá regularse por las normas de la responsabilidad contractual.
@@ -1683,6 +1706,10 @@ opción de compra, que el arrendatario puede hacer efectiva al concluir el alqui
 ● Contrato de franquicia o de franchising: se entiende por tal el contrato por el cual una
 
 ## parte, que tiene el carácter de comerciante otorga a otro la licencia o permiso para que
+
+**Definición Canónica:** venda productos o servicios de los que es titular el primero. Las partes se denominan,
+respectivamente, franquiciante y franquiciado.
+**Concordancias Legales:** artículo 1956; artículo 1957 del Código Civil que; artículo 1519; artículos 1642; artículo 1649 del Código Civil; artículo 1365; artículos 1687; artículos 1545; artículo 1564; artículo 344 del Código del Trabajo que una vez suscrito el co; artículos 89; artículo 1545 del Código Civil; artículo 1546 del Código Civil; Ley N° 20.720; Ley N° 21.442
 
 venda productos o servicios de los que es titular el primero. Las partes se denominan,
 respectivamente, franquiciante y franquiciado.
@@ -2146,16 +2173,17 @@ teoría de la adhesión, pueden resumirse de la siguiente forma:
                         Teoría General del Contrato – Juan Andrés Orrego Acuña              43
 1. La oferta tiene un carácter general y permanente.
 
-## 2. La oferta emana de un contratante que goza de un monopolio de hecho o de derecho o de
-
-una gran potencia económica.
-3. El objeto del contrato es la prestación de un servicio privado de utilidad pública.
-
-## 4. La oferta se presenta bajo la forma de un contrato tipo cuyas cláusulas esenciales no
-
-pueden discutirse.
-
 ## 5. El contrato contiene una serie de cláusulas concebidas en exclusivo interés del
+
+**Definición Canónica:** ofertante.125
+        Para López Santa María, los signos distintivos del contrato de adhesión serían los
+siguientes:126
+1º Se trata de contratos estrictos o rígidos, en el sentido que el adherente nada puede
+cambiar, se encuentra ante un “contrato-tipo”. Existe un obvio desequilibrio en el poder
+negociador de los contratantes. El destinatario de la oferta, siendo el más débil, no puede
+discutirla, circunscribiéndose a aceptarla. Esta característica engloba los elementos de
+predisposición o redacción anticipada del contrato y de imposición de sus cláusulas.
+2º Son generales o impersonales, usua
 
 ofertante.125
         Para López Santa María, los signos distintivos del contrato de adhesión serían los
@@ -2181,8 +2209,17 @@ adhesión.
        La doctrina ha propuesto diversas vías para remediar los inconvenientes que surgen
 del contrato de adhesión. Las examinaremos a continuación:
 
-
 ## 1. Intervención del legislad r: como señala Brebbia, “El primer remedio y, tal vez el más
+
+**Definición Canónica:** eficaz, es la intervención legislativa en las relaciones contractuales, con el fin de nivelar la
+balanza caída del lado del contratante económicamente más fuerte. La voluntad privada
+debe ceder así ante la regla obligatoria de orden público.”127 A través de leyes y normas
+reglamentarias, se produce un “intervencionismo estatal tendiente a evitar situaciones de
+perjuicio y desigualdad para un determinado sector de la población (arrendatarios,
+consumidores, etc.) que, de otra manera, se vería aplastado por el poder económico superior
+de otro sector circunstancialmente preponderante.”128
+        
+**Concordancias Legales:** artículo 1
 
 eficaz, es la intervención legislativa en las relaciones contractuales, con el fin de nivelar la
 balanza caída del lado del contratante económicamente más fuerte. La voluntad privada
@@ -2259,8 +2296,11 @@ turno, y las circunstanciales mayorías parlamentarias que pueden tener, podría
 también, por la vía que analizamos, una grave ruptura al principio de la libertad contractual,
 siendo entonces, como dice al antiguo y sabio adagio, peor el remedio que la enfermedad.
 
-
 ## 2. H m l gación de l s c ntrat s: una segunda vía utilizada por el legislador para
+
+**Definición Canónica:** morigerar los efectos negativos de los contratos de adhesión, consiste en “La homologación
+por el poder público de los modelos de contratos estandarizados que van a ofrecerse
+**Concordancias Legales:** artículo 5; artículo 6; artículo 7; artículo 11; artículo 13; artículo 2
 
 morigerar los efectos negativos de los contratos de adhesión, consiste en “La homologación
 por el poder público de los modelos de contratos estandarizados que van a ofrecerse
@@ -2321,6 +2361,18 @@ citado organismo.
         Otro caso en nuestra legislación, es aquél contemplado en la Ley número 19.496,
 
 ## Título V, “Del sello SERNAC135, del servicio de atención al cliente y del Sistema de
+
+**Definición Canónica:** Solución de Controversias”. Este título fue introducido por la Ley número 20.555,
+publicada en el Diario Oficial de fecha 5 de diciembre de 2011, llamada “Ley de Sernac
+Financiero”. Conforme al artículo 55 de la Ley número 19.496, el Servicio Nacional del
+Consumidor deberá otorgar un “sello SERNAC” a los contratos de adhesión:
+● de los Bancos e instituciones financieras;
+● de los establecimientos comerciales;
+● de las compañías de seguros;
+● de las cajas de compensación;
+● de las cooperativas de ahorro y crédito;
+● de otros proveedores de servicios crediticios, de seguros, y en general, de cua
+**Concordancias Legales:** artículo 55 de la Ley número 19.496; artículo 55; artículo 58; artículo 57; artículo 3; artículo 86; artículo 87; artículo 38
 
 Solución de Controversias”. Este título fue introducido por la Ley número 20.555,
 publicada en el Diario Oficial de fecha 5 de diciembre de 2011, llamada “Ley de Sernac
@@ -2442,8 +2494,15 @@ requiere al proveedor responsable que cambie la cláusula o las cláusulas, impo
 sanción en caso que no lo haga. Si el proveedor no comparte los términos del dictamen de
 la autoridad, puede apelar ante la justicia, quien dirimirá definitivamente la cuestión.137
 
-
 ## 3. Establecimient de c ntrat s-tip bilaterales, ac rdad s p r grup s c n intereses
+
+**Definición Canónica:** antagónic s: López Santa María menciona esta tercera vía. Estos contratos-tipos,
+“visados”, por así decirlo, por los principales actores, servirían para subsanar las
+dificultades entre ambas partes o grupos opuestos. El texto aprobado de común acuerdo,
+será después empleado en la celebración de numerosos contratos individuales, calcados
+sobre el modelo preestablecido. El autor propone, como ejemplo, a fin de fijar las
+condiciones de la contratación masiva de los seguros voluntarios contra riesgos inherentes a
+la conducción de vehículos motorizados, que los automovilistas chilenos podrían agrup
 
 antagónic s: López Santa María menciona esta tercera vía. Estos contratos-tipos,
 “visados”, por así decirlo, por los principales actores, servirían para subsanar las
@@ -2479,8 +2538,16 @@ negociación de quienes demandan bienes y servicios en una economía moderna”.
 manera, agrega, se trata de que el contrato de adhesión “fuera negociado por un organismo
 representativo de los consumidores, pero ajeno a intereses partidistas”.139
 
-
 ## 4. Ampliación del ámbit de aplicación de la lesión en rme: a partir del Código Civil
+
+**Definición Canónica:** alemán de 1900 (artículo 138, citado), se ha abierto camino una nueva concepción de la
+lesión enorme, que permite neutralizar los casos ostensibles de abusos del oferente sobre el
+adherente. En tal sentido, frente a una concepción restringida de la lesión enorme en
+nuestro Derecho, circunscrita a muy pocos casos, el más importante de ello a la
+compraventa voluntaria de inmuebles, el Código Civil alemán declara nulo cualquier acto
+jurídico por el cual alguien, explotando la necesidad, la ligereza o la inexperiencia de otro,
+obtiene, a cambio de una prestación, ventajas patrimoniales que se hall
+**Concordancias Legales:** artículo 138; artículo 1823.144; artículo 45 de la Ley 19.620; artículos 1451; artículo 1494; artículo 1877; artículo 1879 del Código Civil. El modo es una carga es; Ley 19.620; constitución
 
 alemán de 1900 (artículo 138, citado), se ha abierto camino una nueva concepción de la
 lesión enorme, que permite neutralizar los casos ostensibles de abusos del oferente sobre el
@@ -2777,11 +2844,18 @@ impone al beneficiario de una liberalidad, y si bien no impide que adquiera su d
 obliga a ejercerlo bajo ciertas circunstancias que normalmente no pesan sobre el
 propietario.
 
-
 ## Capitulo ii: las categorias contractuales.150
 
+**Definición Canónica:** Hablamos de “categorías contractuales”, para referirnos a ciertas figuras que pueden
+presentarse en todo tipo de contratos, sin importar su clase. Son por ende figuras que tienen
+un carácter genérico. Poseen sin embargo un rasgo común: estas categorías afectan o
+alteran a algunos de los principios generales de la contratación o inciden en ellos. En
+efecto, las del contrato dirigido, del contrato forzoso y del contrato-tipo, afectan al principio
+de la libertad contractual; la del contrato-ley refuerza el principio de la fuerza obligatoria
+del contrato y la del autocontrato extiende éste princip
+**Concordancias Legales:** artículo 1355 del Código Civil peruano; Artículo 1355; artículo 1438; artículo 1445; artículo 89 del Código Civil; artículo 775 del Código Civil; artículo 1 de la Ley número 18.490; artículo 4; artículo 5; artículo 138 bis de la Ley General de Urbanismo y Construcciones; artículo 36; artículo 26 del Reglamento de la Ley de Copropiedad Inmobilia; Ley N° 19.537
 
-        Hablamos de “categorías contractuales”, para referirnos a ciertas figuras que pueden
+Hablamos de “categorías contractuales”, para referirnos a ciertas figuras que pueden
 presentarse en todo tipo de contratos, sin importar su clase. Son por ende figuras que tienen
 un carácter genérico. Poseen sin embargo un rasgo común: estas categorías afectan o
 alteran a algunos de los principios generales de la contratación o inciden en ellos. En
@@ -3108,7 +3182,17 @@ reclama un derecho. Atendiendo a este factor, visualizamos los siguientes casos:
 
 ## parte: “El administrador tendrá las funciones que se establezcan en el reglamento de
 
-        copropiedad y las que específicamente le conceda la asamblea de copropietarios. A
+**Definición Canónica:** copropiedad y las que específicamente le conceda la asamblea de copropietarios. A
+        falta de disposiciones en el reglamento de copropiedad y en el silencio de la
+        asamblea, serán funciones del administrador las siguientes: (…) 4. En el caso a que
+        se refiere el inciso primero del artículo 36 de la ley, contratar por cuenta y cargo del
+        copropietario el seguro de incendio de la respectiva unidad en el caso que aquel no
+        lo hiciere…”
+    ·   El del artículo 10 de la Ley N° 14.908, sobre abandono de familia y pago de
+        pensiones alimenticias: establece el a
+**Concordancias Legales:** artículo 36; artículo 10 de la Ley N; artículo 71; artículos 2358; artículo 847 del Código Civil; artículo 84; artículos 2305; artículo 2; artículo 17; artículo 89; Artículo 92; artículo 90; artículo 374; artículo 1315; artículo 30 de la Ley N; artículos 660; artículo 660; artículo 662; artículo 695 del Código de Procedimiento Civil; artículo 671 del Código Civil; artículo 1891; artículo 1851; artículo 1865; artículo 1801; artículo 410 del Código Orgánico de Tribunales; artículo 2401 del Código Civil; artículo 2401; artículo 2404; artículo 2393; artículo 1792; artículo 221; artículo 214 del Código de Aguas; artículo 212; artículo 214; artículo 258 del Código de Aguas; artículo 2151 del Código Civil; artículo 2178 del Código Civil; artículo 669 del Código Civil; artículo 627 del Código Civil; artículo 854 del Código Civil
+
+copropiedad y las que específicamente le conceda la asamblea de copropietarios. A
         falta de disposiciones en el reglamento de copropiedad y en el silencio de la
         asamblea, serán funciones del administrador las siguientes: (…) 4. En el caso a que
         se refiere el inciso primero del artículo 36 de la ley, contratar por cuenta y cargo del
@@ -3475,8 +3559,14 @@ Jurídica de Chile y Editorial Temis S.A., año 1992, número 701, p. 238.
 
         De las precedentes reflexiones, podemos proponer las siguientes conclusiones:
 
-
 ## 1. El acuerdo de las voluntades de los sujetos concernidos en un contrato, si bien
+
+**Definición Canónica:** corresponde a lo que usualmente acontece, no es un elemento de la esencia de la
+institución, pues hay numerosos casos en los cuales la ley obliga a contratar, forzando a las
+partes a manifestar su voluntad en determinado sentido, o incluso obliga a tener por
+celebrado un contrato, sin que las voluntades de los sujetos concernidos siquiera se hayan
+manifestado. Por lo tanto, el axioma acerca de que todo contrato supone un acuerdo de
+voluntades libremente alcanzado, es una premisa de alcance general pero no absoluto.
 
 corresponde a lo que usualmente acontece, no es un elemento de la esencia de la
 institución, pues hay numerosos casos en los cuales la ley obliga a contratar, forzando a las
@@ -3488,6 +3578,14 @@ voluntades libremente alcanzado, es una premisa de alcance general pero no absol
                      Teoría General del Contrato – Juan Andrés Orrego Acuña                70
 
 ## 2. La existencia de contratos forzosos, en principio cuestionable por consistir en una
+
+**Definición Canónica:** restricción a la libertad, se justifica empero por diversos factores, fundados en bienes
+jurídicos que se estiman superiores al principio de la autonomía de la voluntad y a la
+libertad contractual, pues ellos, usualmente, trasuntan un interés puramente individual. En
+algún sentido, así como la propiedad ha de cumplir una función social, lo mismo podríamos
+afirmar del contrato, en ciertas ocasiones. Podría estimarse que los contratos forzosos
+constituyen una manifestación de aquello que se ha denominado corriente moralizadora del
+Derecho, a que alude un trabajo del profesor Marco Antonio Sepúlv
 
 restricción a la libertad, se justifica empero por diversos factores, fundados en bienes
 jurídicos que se estiman superiores al principio de la autonomía de la voluntad y a la
@@ -3503,14 +3601,27 @@ servicio del Derecho. Este nuevo concepto de la voluntad permite justificar la i
 del legislador en aquellos casos en que la voluntad individual no se conforma con el bien
 común o con los principios de justicia considerados esenciales.”170
 
-
 ## 3. No parece posible aplicar a los contratos forzosos fictos o heterodoxos el distingo que
+
+**Definición Canónica:** formula el Código Civil en su artículo 1444, en cuanto discrimina entre elementos de la
+esencia, de la naturaleza y accidentales, pues el contrato ha nacido sin que los sujetos
+concernidos en el mismo hayan estado en condiciones de discutir sus cláusulas, excluir
+**Concordancias Legales:** artículo 1444
 
 formula el Código Civil en su artículo 1444, en cuanto discrimina entre elementos de la
 esencia, de la naturaleza y accidentales, pues el contrato ha nacido sin que los sujetos
 concernidos en el mismo hayan estado en condiciones de discutir sus cláusulas, excluir
 
 ## parte del contenido fijado por la ley o incorporar algún elemento accidental. En cambio, los
+
+**Definición Canónica:** contratos forzosos propiamente tales u ortodoxos, como ocurre en cualquier contrato,
+contienen elementos de la esencia, de la naturaleza y accidentales, y las partes poseen algún
+margen de libertad para modificar o excluir los segundos e incluir los terceros.
+         Un problema directamente vinculado con el contenido del contrato forzoso, es aquél
+que se refiere a la interpretación del mismo171, y en especial, en aquellos que hemos
+denominado fictos. En efecto, si las partes nada han podido estipular o decir, pues el
+contrato lo ha creado directamente la ley, se divisa la imposibilidad de ap
+**Concordancias Legales:** artículo 1560
 
 contratos forzosos propiamente tales u ortodoxos, como ocurre en cualquier contrato,
 contienen elementos de la esencia, de la naturaleza y accidentales, y las partes poseen algún
@@ -3524,8 +3635,15 @@ fundamental acerca de la interpretación de los contratos, en cuanto consigna el
 a lo literal de las palabras.” De esta forma, la “intención de los contratantes” no es otra que
 la intención que la ley les atribuye de manera imperativa.
 
-
 ## 4. Los contratos forzosos propiamente tales constituyen, con mucho, la regla general, y los
+
+**Definición Canónica:** contratos forzosos fictos son muy excepcionales. De los veintinueve casos que hemos
+revisado, veintidós corresponden a los primeros y sólo siete a los segundos (artículo 4º de la
+Ley número 18.490; artículo 71, inciso 1º del Código Tributario; artículos 660 y 662 del
+Código de Procedimiento Civil; artículos 2305 en relación al artículo 2081 del Código
+Civil; artículo 2401 del Código Civil; artículo 221, inciso 2° de la Ley N° 20.720; y artículo
+214 del Código de Aguas).
+**Concordancias Legales:** artículo 4; artículo 71; artículos 660; artículos 2305; artículo 2081 del Código Civil; artículo 2401 del Código Civil; artículo 221; artículo 214 del Código de Aguas; Ley N° 20.720
 
 contratos forzosos fictos son muy excepcionales. De los veintinueve casos que hemos
 revisado, veintidós corresponden a los primeros y sólo siete a los segundos (artículo 4º de la
@@ -3544,6 +3662,10 @@ observación acerca de este punto.
                        Teoría General del Contrato – Juan Andrés Orrego Acuña                           71
 
 ## 5. Los contratos forzosos constituyen una realidad insoslayable en el Derecho de los
+
+**Definición Canónica:** Contratos, y se constata su existencia en toda clase de materias. De ahí que resulte prudente
+y conveniente profundizar su estudio para precisar sus contornos y fijar algunos parámetros
+que resulten funcionales a la labor interpretativa de los jueces.
 
 Contratos, y se constata su existencia en toda clase de materias. De ahí que resulte prudente
 y conveniente profundizar su estudio para precisar sus contornos y fijar algunos parámetros
@@ -3603,7 +3725,16 @@ c) Diferencias entre el contrato tipo, el contrato colectivo y el contrato de ad
 
 ## parte, ambos, de categorías contrapuestas y organizadas de interesados. Se recurre
 
-          en cambio al contrato de adhesión cuando, faltando la organización de una de las
+**Definición Canónica:** en cambio al contrato de adhesión cuando, faltando la organización de una de las
+          categorías de interesados, la previa disposición no puede ser sino obra de una de las
+          partes, componente de la única categoría organizada.
+      ·   En el hecho, el esquema del contrato tipo puede ser el resultado de una elaboración
+          de su contenido desarrollada en paridad de condiciones por los representantes de las
+          dos categorías de los futuros contratantes interesados; en cambio, el esquema del
+          contrato de adhesión es elaborado siempre por la única parte que se h
+**Concordancias Legales:** artículos 2335; artículo 1947 del Código Civil advierte que el arrendatario res; artículo 1693 del Código Civil peruano; artículo 1595; artículo 1216 del Código Civil y argentino; artículo 1973; artículo 2138; artículo 2137; artículo 2355; Ley N° 18.392; Constitución Política; constitucion
+
+en cambio al contrato de adhesión cuando, faltando la organización de una de las
           categorías de interesados, la previa disposición no puede ser sino obra de una de las
           partes, componente de la única categoría organizada.
       ·   En el hecho, el esquema del contrato tipo puede ser el resultado de una elaboración
@@ -3854,6 +3985,16 @@ obligaciones emanados del contrato base, sin perjuicio que encomiende al tercer 
 
 ## parte de su tarea económica o que asuma parte de sus responsabilidades, para lo cual se
 
+**Definición Canónica:** crean mediante el subcontrato nuevos derechos y obligaciones que vinculan a las partes del
+subcontrato, pero no al primer contratante.
+        Hay entre el contrato base y el subcontrato una relación de simultaneidad,
+compuesta de dos unidades jurídicas que aunque dependientes, tienen existencia propia.
+Tratándose de la cesión de contrato, la relación es sustitutiva, no existen simultáneamente
+dos entidades jurídicas con existencia propia, sino que una sola, que después es
+reemplazada por otra.191
+        En el subcontrato, estamos ante un derecho que se separa del derecho atribuido por
+el con
+
 crean mediante el subcontrato nuevos derechos y obligaciones que vinculan a las partes del
 subcontrato, pero no al primer contratante.
         Hay entre el contrato base y el subcontrato una relación de simultaneidad,
@@ -3883,6 +4024,11 @@ derecho del intermediario, aunque formalmente, ante el causante, su derecho est�
 intervención de otra persona.195 Es aquél en que la actividad y la declaración de una sola
 
 ## parte, en dos distintas calidades (por ejemplo, representante que declara, por un lado, en
+
+**Definición Canónica:** nombre propio y, por otro lado, en nombre del representado), basta para entenderlo
+celebrado.196
+        En la doctrina, se le llama también a esta figura contrato consigo mismo.197
+**Concordancias Legales:** artículo 2145; artículo 412; artículo 1796; artículos 1473; artículos 467
 
 nombre propio y, por otro lado, en nombre del representado), basta para entenderlo
 celebrado.196
@@ -4089,6 +4235,11 @@ del estipulante y del tercero y, además, que el tercero no es parte del contrat
 de pr mesa de hech ajen , porque en ésta se obliga el promitente a una prestación por
 
 ## parte de un tercero, mientras que en el contrato por persona a nombrar se obliga a un hecho
+
+**Definición Canónica:** propio y eventualmente al hecho de un tercero, si se efectúa el nombramiento en el plazo
+respectivo; no es, finalmente, un c ntrat p r cuenta de quien c rresp nda, según se
+verá seguidamente.211
+**Concordancias Legales:** artículo 9; artículo 20 de la Ley número 18.101; Ley 17.213
 
 propio y eventualmente al hecho de un tercero, si se efectúa el nombramiento en el plazo
 respectivo; no es, finalmente, un c ntrat p r cuenta de quien c rresp nda, según se
@@ -4310,12 +4461,14 @@ b) Acepci nes del principi de la libertad c ntractual.
         Expresa Messineo que el principio de la libertad contractual puede tomarse en varias
 acepciones:
 
-## 1. Libertad contractual significa que ninguna de las partes puede imponer unilateralmente a
-
-la otra el contenido del contrato y que éste debe ser el resultado del libre debate entre ellas
-(contrato libremente discutido).
-
 ## 2. Libertad contractual significa que –con tal que se respeten las normas legales imperativas
+
+**Definición Canónica:** del régimen contractual general y particular, esto es, el relativo a cada uno de los contratos-
+    López Santa María, Jorge, ob. cit., pp. 247 y 248.
+    López Santa María, Jorge, ob. cit., pp. 248 a 256.
+    López Santa María, Jorge, ob. cit., p. 261.
+    López Santa María, Jorge, ob. cit., p. 261.
+    Messineo Francesco, ob. cit., Tomo I, p. 19.
 
 del régimen contractual general y particular, esto es, el relativo a cada uno de los contratos-
     López Santa María, Jorge, ob. cit., pp. 247 y 248.
@@ -4331,11 +4484,20 @@ configuración interna del contrato).
 
 ## 3. Un tercer significado de la libertad contractual, implícito en el anterior, es el de la
 
+**Definición Canónica:** facultad, dejada a las partes, de “derogar” las normas dispositivas o supletorias puestas
+especialmente para los contratos nominados singulares y de sustituir a ellas un régimen
+diverso fijado por la voluntad de las partes, esto es, una disciplina distinta de la legal.
+
 facultad, dejada a las partes, de “derogar” las normas dispositivas o supletorias puestas
 especialmente para los contratos nominados singulares y de sustituir a ellas un régimen
 diverso fijado por la voluntad de las partes, esto es, una disciplina distinta de la legal.
 
 ## 4. Otro significado concierne a los contratos innominados, en cuanto faculta a las partes a
+
+**Definición Canónica:** concluir contratos con finalidades aun no previstas por la ley, pero subordinando su
+reconocimiento a la condición de que el contrato innominado se dirija a realizar intereses
+merecedores de tulela, según el ordenamiento jurídico.238
+**Concordancias Legales:** artículo 1354 del Código Civil peruano; Artículo 1354; artículo 425 del Código Civil brasileño; Artículo 958; constitucion
 
 concluir contratos con finalidades aun no previstas por la ley, pero subordinando su
 reconocimiento a la condición de que el contrato innominado se dirija a realizar intereses
@@ -4382,17 +4544,12 @@ económico, fija imperativamente las cláusulas más relevantes de ciertos contr
 a las partes a celebrarlos, se produce una ruptura del principio de la libertad contractual.
         Messineo señala los siguientes límites a la libertad contractual:
 
-## 1. Un primer límite está constituido por los casos en que el esquema del contrato esté
-
-preparado, en todo o en parte, por uno solo de los contratantes, de manera que el otro no sea
-admitido a concurrir a su determinación (alude, por ende, al contrato de adhesión).
-
-## 2. El segundo límite dice relación a que la libertad de determinar el contrato está
-
-circunscrita por la exigencia del respeto a las normas legales imperativas (se refiere, por
-tanto, al contrato dirigido).
-
 ## 3. En un tercer significado, límite a la libertad contractual significa prohibición de concluir
+
+**Definición Canónica:** contratos que no tengan una disciplina particular, cuando con ellos se quiera realizar
+intereses no merecedores de tutela jurídica, según el ordenamiento jurídico, como son los
+contratos ilícitos, imposibles o en fraude de la ley.241
+**Concordancias Legales:** artículo 1134
 
 contratos que no tengan una disciplina particular, cuando con ellos se quiera realizar
 intereses no merecedores de tutela jurídica, según el ordenamiento jurídico, como son los
@@ -4440,6 +4597,14 @@ aplicable a las partes y la otra al juez:
 
 ## 1. Desde el momento en que un contrato no contiene nada contrario a las leyes, ni al orden
 
+**Definición Canónica:** público ni a las buenas costumbres, las partes están obligadas a respetarlo, a observarlo,
+como están obligadas a observar la ley. El acuerdo que se ha formado entre ellas las obliga
+como la ley obliga a los individuos. Dos aspectos derivan de esta primera consecuencia:
+● Los contratos sólo pueden ser revocados por el consentimiento mutuo de los contratantes
+(distractus o resciliación) o por las causas que la ley autoriza. Sólo de manera excepcional,
+el contrato podrá terminar por la voluntad de una sola de las partes;
+● Los contratos deben ser cumplidos de buena fe. Las partes deben, en el cu
+
 público ni a las buenas costumbres, las partes están obligadas a respetarlo, a observarlo,
 como están obligadas a observar la ley. El acuerdo que se ha formado entre ellas las obliga
 como la ley obliga a los individuos. Dos aspectos derivan de esta primera consecuencia:
@@ -4450,6 +4615,16 @@ el contrato podrá terminar por la voluntad de una sola de las partes;
 la convención, portarse honestamente, lealmente.
 
 ## 2. Por otra parte, el respeto a esta ley creada por la voluntad de los interesados se impone a
+
+**Definición Canónica:** los jueces encargados de interpretarla. Estos últimos no pueden modificar los términos de la
+convención ni cambiar sus elementos, como no podrían cambiar el texto de la ley, cuyo
+cumplimiento tienen por misión asegurar.244 De esta segunda consecuencia, derivan tres
+aspectos, según Colin y Capitant:
+● Cuando una ley nueva, dictada después de la celebración del contrato, modifica una
+disposición jurídica que las partes han adoptado como regla de su vínculo contractual, el
+juez no debe aplicar la ley nueva al contrato anteriormente celebrado, pues, al hacerlo,
+modificaría los términos del acuerdo
+**Concordancias Legales:** artículo 22 de la Ley sobre Efecto Retroactivo de las Leyes; artículo 1; Artículo 1879; Artículo 2180; Artículo 1559; Artículo 2396; Artículo 1826; artículo 10 de la Ley N; artículo 5; artículo 1438 del Código Civil; artículo 1122258; Ley Nº 17.663; Ley N° 18.010; Ley Nº 18.101; Ley N° 18.101; constitucion; Constitución Política
 
 los jueces encargados de interpretarla. Estos últimos no pueden modificar los términos de la
 convención ni cambiar sus elementos, como no podrían cambiar el texto de la ley, cuyo
@@ -4754,6 +4929,16 @@ comunes del deudor, cuando éste es una de las partes del contrato.
 
 ## 1. Situación de los causahabientes a título singular: reciben este nombre quienes suceden a
 
+**Definición Canónica:** una persona por acto entre vivos o por causa de muerte, en un bien determinado y no en la
+totalidad de su patrimonio ni en una cuota del mismo. Son causahabientes a título singular
+por acto entre vivos, por ejemplo, el comprador, el donatario, el mutuario. Lo son mortis
+causa, los legatarios. Como dicen Colin y Capitant, “El causahabiente a título particular
+sucede a su autor en lo que respecta al derecho transmitido; en otros términos, este derecho
+continúa sometido a todas las modalidades con que estaba gravado en el momento en que
+fue enajenado.”266
+        ¿Qué ocurre con el principio del 
+**Concordancias Legales:** artículos 2428; constitución
+
 una persona por acto entre vivos o por causa de muerte, en un bien determinado y no en la
 totalidad de su patrimonio ni en una cuota del mismo. Son causahabientes a título singular
 por acto entre vivos, por ejemplo, el comprador, el donatario, el mutuario. Lo son mortis
@@ -4809,6 +4994,11 @@ que la obligación convenida en relación con el bien en que sucede, le es inopo
 
 ## parte, a quien contrató con el causante, sólo le quedaría la posibilidad de demandarlo por
 
+**Definición Canónica:** incumplimiento de la obligación, pero no podría exigir el pago al causahabiente singular.270
+Así, por ejemplo, si el anterior propietario había prometido vender un inmueble, pero
+después lo enajena a una persona distinta del promitente comprador, el adquirente no estará
+obligado a respetar un contrato de promesa en el cual él no fue parte.271
+
 incumplimiento de la obligación, pero no podría exigir el pago al causahabiente singular.270
 Así, por ejemplo, si el anterior propietario había prometido vender un inmueble, pero
 después lo enajena a una persona distinta del promitente comprador, el adquirente no estará
@@ -4828,6 +5018,14 @@ quien se transfiera la cosa, a cualquier título”.
                         Teoría General del Contrato – Juan Andrés Orrego Acuña                              97
 
 ## 2. Los acreedores de las partes: ajenos a la relación jurídica, están por su parte los
+
+**Definición Canónica:** acreedores que no disponen de preferencias, vale decir los acreedores valistas o
+quirografarios. Se sostenía por una parte de la doctrina que tales acreedores se equiparaban
+a las partes, que tomaban el lugar de su deudor en los contratos celebrados por éste, pues
+dichos contratos repercuten en el derecho de prenda general de los acreedores (art. 2465),
+para beneficiarlos o perjudicarlos, según incrementen o disminuyan el patrimonio del
+deudor.272 273Hoy, la doctrina mayoritaria enfatiza que los acreedores son TERCEROS
+ABSOLUTOS en los contratos que su deudor celebre con otras personas, pues e
 
 acreedores que no disponen de preferencias, vale decir los acreedores valistas o
 quirografarios. Se sostenía por una parte de la doctrina que tales acreedores se equiparaban
@@ -4873,6 +5071,13 @@ acreedor: Messineo Francesco, ob. cit., Tomo II, p. 184.
 consistencia del patrimonio del deudor, pero no tiene sobre éste un derecho de naturaleza absoluta; ni, por otra
 
 ## parte, cuando se habla de efectos del contrato respecto de terceros se quiere hacer referencia al hecho de que
+
+**Definición Canónica:** el tercero pueda estar expuesto a sufrir directamente sus efectos pasivos o activos: en otros términos, que el
+tercero pueda suceder en tales efectos.”: Messineo Francesco, ob. cit., Tomo II, p. 184.
+    López Santa María, Jorge, ob. cit., tomo II, pp. 345 y 346.
+    Cfr. Messineo Francesco, ob. cit., Tomo II, pp. 186 y 187.
+    Messineo Francesco, ob. cit., Tomo II, pp. 186 y 187.
+**Concordancias Legales:** artículo 1576 del Código Civil; artículo 94 del Código Civil; artículo 976 del Código Civil que; artículo 976; artículo 2301; artículo 1259 del Código hispano; artículo 1119; artículo 1121; artículo 632 del Código Civil; artículo 99 del Código de Comercio; artículo 1437 del Código Civil; artículo 906 del Código francés; artículo 1056; artículos 1457; Ley N° 20.720; constitución
 
 el tercero pueda estar expuesto a sufrir directamente sus efectos pasivos o activos: en otros términos, que el
 tercero pueda suceder en tales efectos.”: Messineo Francesco, ob. cit., Tomo II, p. 184.
@@ -5243,6 +5448,15 @@ derecho, en el Título X del Libro Séptimo, Contrato a favor de tercero, artíc
 
 ## 1469. El artículo 1457 dispone: “Por el contrato en favor de tercero, el promitente se obliga
 
+**Definición Canónica:** frente al estipulante a cumplir una prestación en beneficio de tercera persona. / El
+estipulante debe tener interés propio en la celebración del contrato” (igual que en el Código
+Civil francés, en cuanto al interés propio, no exigido por nuestro Código). A su vez, el
+artículo 1458 consigna: “El derecho del tercero surge directa e inmediatamente de la
+celebración del contrato. Empero, será necesario que el tercero haga conocer al estipulante
+y el promitente su voluntad de hacer uso de ese derecho, para que sea exigible, operando
+esta declaración retroactivamente. / La declaración del beneficiar
+**Concordancias Legales:** artículo 1458; artículos 1458; artículo 1121
+
 frente al estipulante a cumplir una prestación en beneficio de tercera persona. / El
 estipulante debe tener interés propio en la celebración del contrato” (igual que en el Código
 Civil francés, en cuanto al interés propio, no exigido por nuestro Código). A su vez, el
@@ -5387,6 +5601,16 @@ liberalidad del estipulante para con el tercero beneficiario.”318
 tercero. Si el estipulante fuere el mandatario o representante legal del tercero, éste sería
 
 ## parte en el contrato. Jurídicamente, sólo intervendrían dos personas.319 Tampoco podría
+
+**Definición Canónica:** considerarse al beneficiario como un extraño, cuando sea heredero del estipulante (caso del
+seguro en que el beneficiario fuera la sucesión del estipulante; en cambio, si fuere una
+persona que no tiene la calidad de continuador legal del causante, estaríamos ante
+estipulación en favor de tercero).
++ El estipulante debe obrar a nombre propio.
+        En efecto, en caso de actuar sin poder pero a nombre del tercero beneficiario, el
+estipulante será un agente oficioso. No estipularía para otro, sino a nombre de otro.
+Recordemos que en el caso de la agencia oficiosa, el tercero se convertirá en ac
+**Concordancias Legales:** artículo 1757; artículos 225; artículo 1337; artículo 1736; artículos 255; Artículo 225 del Código Civil; Artículo 246 del Código Civil; Artículo 1707 del Código Civil; Artículo 1902 del Código Civil; Artículo 2114 del Código Civil; Artículo 2513 del Código Civil; artículo 25; artículo 32; artículo 59; artículo 1749 del Código Civil; artículo 1756; artículo 51 de la Ley de Matrimonio Civil; artículos 287; artículo 290; artículo 291; artículo 287; artículo 288; artículo 263; artículo 264; artículo 2; artículos 263; Ley Nº 18.490; Ley Nº 18.290; Ley 19.947; Ley N° 20.720; constitución
 
 considerarse al beneficiario como un extraño, cuando sea heredero del estipulante (caso del
 seguro en que el beneficiario fuera la sucesión del estipulante; en cambio, si fuere una
@@ -5809,6 +6033,15 @@ regula los procedimientos concursales de la Persona Deudora. Los artículos 263 
 
 ## Título 1, “Del procedimiento Concursal de Renegociación de la Persona Deudora”. El artículo 263, se refiere
 
+**Definición Canónica:** a la “Resolución de Admisibilidad” como aquella que declara admisible la solicitud de inicio del
+Procedimiento Concursal de Renegociación. El artículo 264 regula los efectos de dicha resolución.
+    En cambio, tratándose de la acción pauliana contemplada en el artículo 2468 del Código Civil, el plazo de
+prescripción es de un año, contado desde la fecha del acto o contrato. A su vez, el procedimiento aplicable a la
+acción pauliana del Código Civil es el ordinario, mientras que el que rige la acción revocatoria concursal, es
+el sumario.
+    López Santa María, Jorge, ob. cit., tomo II, p. 375.
+**Concordancias Legales:** artículo 264; artículo 2468 del Código Civil; artículo 255; artículo 407; artículo 23 del Código de Procedimiento Civil. De esta manera
+
 a la “Resolución de Admisibilidad” como aquella que declara admisible la solicitud de inicio del
 Procedimiento Concursal de Renegociación. El artículo 264 regula los efectos de dicha resolución.
     En cambio, tratándose de la acción pauliana contemplada en el artículo 2468 del Código Civil, el plazo de
@@ -6031,8 +6264,16 @@ b.2) Funci nes de la buena fe c ntractual.
        Se ha dicho que tres formas parecen reflejar de manera más idónea las funciones de
 la buena fe en las relaciones contractuales:369
 
-
 ## 1. Como un can n criteri para la interpretación de l s c ntrat s: la interpretación ha
+
+**Definición Canónica:** de hacerse de tal manera que el sentido que se atribuya a los contratos, sea el más apropiado
+para llegar a un desenvolvimiento leal de las relaciones contractuales. La noción de lealtad,
+dice Mereminskaya, se refiere al marco de expectativas que se establece en torno a una
+relación contractual. Tal marco traza los límites de lo que razonablemente pueda esperar un
+acreedor y de lo que es tolerable para un deudor, según la finalidad del contrato. Se dice
+que aun cuando en las normas de interpretación de los contratos no exista una norma que se
+refiera directamente a la buena fe, la aplicación d
+**Concordancias Legales:** artículo 1546
 
 de hacerse de tal manera que el sentido que se atribuya a los contratos, sea el más apropiado
 para llegar a un desenvolvimiento leal de las relaciones contractuales. La noción de lealtad,
@@ -6071,10 +6312,18 @@ citado a su vez por Mereminskaya, Elina, ob. cit., p. 259.
 mercaderías con un correo-express.”372
        Aquí entonces, la buena fe opera restringiend l pactad .
 
-
 ## 3. Como un criteri de c nducta, c nf rme al cual deben ser cumplidas las
 
-  bligaci nes: “en la buena fe puede basarse –refiere Mereminskaya- una ampliación del
+**Definición Canónica:** bligaci nes: “en la buena fe puede basarse –refiere Mereminskaya- una ampliación del
+deber de prestación, más allá de los términos resultantes del contexto del contrato o de la
+ley. Así, se reconoce en la doctrina chilena que ‘se deberá lo que no figura explícitamente y
+que resulta de aplicar los módulos buena fe y lealtad’”.373 Esta ampliación de deberes la
+realizará el juez, a través de una interpretación supletoria o integradora, mediante la que el
+juez añade, a lo estipulado por las partes, aquello que resulta necesario, para alcanzar los
+fines del convenio. Se afirma que esta interpretaci
+**Concordancias Legales:** artículos 1468; artículo 1460; artículo 320 del Código Civil alemán; artículo 422 del Código Civil brasileño; artículo 1362 del Código Civil peruano; Artículo 1362; artículo 1258 del Código Civil español; artículo 961 del Código Civil y Comercial argentino; Artículo 961; artículo 1291 del Código Civil uruguayo
+
+bligaci nes: “en la buena fe puede basarse –refiere Mereminskaya- una ampliación del
 deber de prestación, más allá de los términos resultantes del contexto del contrato o de la
 ley. Así, se reconoce en la doctrina chilena que ‘se deberá lo que no figura explícitamente y
 que resulta de aplicar los módulos buena fe y lealtad’”.373 Esta ampliación de deberes la
@@ -6267,6 +6516,8 @@ que según su naturaleza sean conformes a la equidad, al uso o a la ley.”
 
 ## Capitulo iv: interpretacion de los contratos.384
 
+**Definición Canónica:** 1.- C ncept .
+**Concordancias Legales:** artículo 1545 del Código Civil; artículos 1560; artículo 1545; artículo 1560 del Código Civil; artículos 19
 
 1.- C ncept .
 
@@ -6526,8 +6777,15 @@ interpretar contratos.
 
 5.- Reglas de interpretación de l s c ntrat s.
 
-
 ## 5.1. Regla de la aplicación restringida del texto contractual: art. 1561: “Por generales que
+
+**Definición Canónica:** sean los términos de un contrato, sólo se aplicarán a la materia sobre que se ha contratado.”
+        Referida al alcance de los términos generales del contrato. En el mismo sentido, art.
+2462, en la transacción: “Si la transacción recae sobre uno o más objetos específicos, la
+renuncia general de todo derecho, acción o pretensión deberá sólo entenderse de los
+derechos, acciones o pretensiones relativas al objeto u objetos sobre que se transige.”
+        Así, por ejemplo, si se celebra una transacción poniendo término a un litigio
+pendiente o precaviendo un litigio eventual por concesiones recí
 
 sean los términos de un contrato, sólo se aplicarán a la materia sobre que se ha contratado.”
         Referida al alcance de los términos generales del contrato. En el mismo sentido, art.
@@ -6548,8 +6806,16 @@ otorgamiento de fianzas dentro de la administración de los bienes del poderdant
 consecuencia, sale de los términos del mandato y no obliga al mandante la fianza otorgada
 por el Banco para asegurar el pago de letras propias de él mismo.396
 
-
 ## 5.2. Regla de la natural extensión de la declaración: art. 1565: “Cuando en un contrato se
+
+**Definición Canónica:** ha expresado un caso para explicar la obligación, no se entenderá por sólo eso haberse
+querido restringir la convención a ese caso, excluyendo los otros a que naturalmente se
+extienda.”
+       Fija una regla opuesta a la anterior, a primera impresión. Los ejemplos puestos en
+un contrato, no implican que se aplique sólo al caso que se coloca como ejemplo; es decir,
+no se entiende que las partes han querido limitar los efectos del contrato al caso o casos
+especialmente previstos. La oposición entre el art. 1561 y el art. 1565 es puramente
+aparente, puesto que son manifestaciones distintas de un 
 
 ha expresado un caso para explicar la obligación, no se entenderá por sólo eso haberse
 querido restringir la convención a ese caso, excluyendo los otros a que naturalmente se
@@ -6572,8 +6838,17 @@ mobiliario de las sucesiones que pudieren tocarles, esta cláusula no impide que
 ingresen a la comunidad todas las otras cosas que a ella entran según el derecho común,
 pues el caso colocado por las partes sólo fue agregado para evitar dudas sobre el particular.
 
-
 ## 5.3. Regla del objetivo práctico o utilidad de las cláusulas: art. 1562: “El sentido en que
+
+**Definición Canónica:** una cláusula pueda producir algún efecto, deberá preferirse a aquel en que no sea capaz de
+producir efecto alguno.”
+        Si una cláusula por su ambigüedad o por su oscuridad puede llevar a dos
+conclusiones distintas, pero una de estas no tiene significado alguno y solamente alguna de
+ellas puede producir algún efecto, deberá preferirse esta última interpretación, porque es
+lógico suponer que las partes estipularon esa cláusula para que produjera algún efecto. En
+otras palabras, es lógico suponer que las partes no han querido introducir en el contrato
+cláusulas inútiles o carentes de sentido
+**Concordancias Legales:** constitución
 
 una cláusula pueda producir algún efecto, deberá preferirse a aquel en que no sea capaz de
 producir efecto alguno.”
@@ -6621,8 +6896,17 @@ Chile, Editorial Jurídica de Chile, año 1997, tercera edición, Tomo V, p. 432
 en términos que produzca algún efecto legal y no contrario a la ley, desde que los terrenos
 de playa son bienes nacionales de uso público y su dominio pertenece a la nación toda.400
 
-
 ## 5.4. Regla del sentido natural: art. 1563, inciso 1º: “En aquellos casos en que no apareciere
+
+**Definición Canónica:** voluntad contraria deberá estarse a la interpretación que mejor cuadre con la naturaleza del
+contrato.”
+        Pothier, para expresar la misma idea, señalaba: “Cuando en un contrato los términos
+son susceptibles de dos sentidos, debe entendérselos en el sentido más conveniente a la
+naturaleza del contrato.”
+        Así, por ejemplo, si se fija que la renta de arrendamiento de un inmueble urbano
+será de $ 400.000.-, debe concluirse, aunque no se haya dicho, que se trata de una renta
+mensual y no anual o por el período que dure el contrato, pues es de la naturaleza de los
+arrendamientos de pred
 
 voluntad contraria deberá estarse a la interpretación que mejor cuadre con la naturaleza del
 contrato.”
@@ -6644,8 +6928,16 @@ distinguir entre las plantas de viña y los árboles frutales.401
 las cláusulas de uso común. López Santa María, en cambio, las concibe como una regla
 diferente, que denomina regla de las cláusulas usuales.
 
-
 ## 5.5. Regla de la armonía de las cláusulas: art. 1564, inciso 1º: “Las cláusulas de un
+
+**Definición Canónica:** contrato se interpretarán unas por otras, dándose a cada una el sentido que mejor convenga
+al contrato en su totalidad.”
+        Cualquier intérprete, comienza por observar el conjunto o la totalidad de aquello
+que debe interpretar. Normalmente, las cláusulas de un contrato se hallan subordinadas
+unas a otras. Así como la ley debe interpretarse de manera que haya entre todas sus
+disposiciones la debida correspondencia y armonía, porque la ley forma un todo que
+persigue un fin general, de la misma manera los contratos forman un todo único, que desde
+la primera hasta la última cláusula tienen un
 
 contrato se interpretarán unas por otras, dándose a cada una el sentido que mejor convenga
 al contrato en su totalidad.”
@@ -6684,8 +6976,17 @@ mantenido los efectos de la hipoteca constituida sobre los bienes del deudor, de
 subsistir la remisión estipulada de una parte de los créditos y del total de los intereses en
 provecho del deudor.405
 
-
 ## 5.6. Regla de la interpretación de un contrato por otro: art. 1564, inciso 2º: “Podrán
+
+**Definición Canónica:** también interpretarse (las cláusulas de un contrato) por las de otro contrato entre las mismas
+partes y sobre la misma materia.”
+        Se puede recurrir a otros contratos celebrados por las mismas partes sobre idéntica
+materia. La convención susceptible de ser considerada en la interpretación puede ser
+anterior o posterior al contrato objeto del litigio. Especial aplicación tiene esta regla en
+aquellos negocios que sólo llegan a realizarse mediante una serie de contratos, todos ellos
+referentes a la misma materia.
+        En un fallo de la Corte Suprema de agosto de 1920, se indica que esta 
+**Concordancias Legales:** artículo 1564; constitución
 
 también interpretarse (las cláusulas de un contrato) por las de otro contrato entre las mismas
 partes y sobre la misma materia.”
@@ -6776,8 +7077,17 @@ Chile, Editorial Jurídica de Chile, año 1997, tercera edición, Tomo V, p. 437
 un período de tiempo las partes, en otros negocios, los han pagado, debe entenderse en tal
 sentido la obligación.
 
-
 ## 5.8. Regla de las cláusulas usuales: art. 1563, inciso 2º: “Las cláusulas de uso común se
+
+**Definición Canónica:** presumen aunque no se expresen.”
+        El objetivo perseguido por la disposición consiste en incorporar en el contrato las
+cláusulas usuales, silenciadas en la declaración. En la práctica, sin embargo, se le ha
+atribuido un significado muy restringido. En efecto, se lo ha explicado de manera que sólo
+queden involucradas en las cláusulas usuales las cosas llamadas “de la naturaleza del
+contrato”, o sea, las cláusulas legales que se entienden incorporadas al contrato sin
+necesidad de una manifestación expresa de voluntad (en tal sentido, Alessandri y Meza
+Barros).
+        Pero tal aplicación n
 
 presumen aunque no se expresen.”
         El objetivo perseguido por la disposición consiste en incorporar en el contrato las
@@ -6800,8 +7110,17 @@ autor que “la idea de aplicar los usos del pueblo en el silencio del contrato 
 camino en Chile, ya que los espíritus, con demasiada frecuencia, siguen creyendo que no
 hay Derecho más allá de la ley.”414
 
-
 ## 5.9. Regla de la última alternativa: art. 1566: “No pudiendo aplicarse ninguna de las reglas
+
+**Definición Canónica:** precedentes de interpretación, se interpretarán las cláusulas ambiguas a favor del deudor. /
+Pero las cláusulas ambiguas que hayan sido extendidas o dictadas por una de las partes, sea
+acreedora o deudora, se interpretarán contra ella, siempre que la ambigüedad provenga de
+la falta de una explicación que haya debido darse por ella.”
+         Esta norma debe aplicarse en último término, como recurso final para dirimir la
+contienda relativa al alcance del contrato.
+         El inciso 1°, Más que descansar en la equidad, puesto que se da el favor al deudor,
+se relaciona con el art. 1698, en cuant
+**Concordancias Legales:** Artículo 1562; Artículo 1563; Artículo 1564; Artículo 1561; Artículo 1565; Artículo 1566; artículo 728 del Código Civil; artículo 2163; artículo 2103; artículo 2180; artículo 18 del Decreto Ley N; artículo 102; artículo 2190
 
 precedentes de interpretación, se interpretarán las cláusulas ambiguas a favor del deudor. /
 Pero las cláusulas ambiguas que hayan sido extendidas o dictadas por una de las partes, sea

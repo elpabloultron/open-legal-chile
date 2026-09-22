@@ -13,20 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Laboral | **Materia:** Laboral
 
-## 66           Derecho
-
-             colectivo
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** del trabajo
+             Catalina Condeza Lanata
+             Camila Kopplin Lanata
+             Gabriela Lanata Fuenzalida
 
-             del trabajo
+del trabajo
              Catalina Condeza Lanata
              Camila Kopplin Lanata
              Gabriela Lanata Fuenzalida
@@ -89,111 +83,10 @@ Materiales Docentes                                                      ﻿
 
 Contenido
 
-
-## 6       Introducción
-
-        Fuentes del derecho colectivo del trabajo y formas
-        que asume su interpretación por parte de la judicatura
-
-## 12      Capítulo 1
-
-        Libertad sindical como derecho fundamental y sus
-        manifestaciones en el derecho chileno
-
-## 12 Concepto de la libertad sindical
-
-
-## 13 Atributos o expresiones de la libertad sindical
-
-
-## 14 Contenido de la libertad sindical
-
-
-## 15 La libertad sindical en la Organización Internacional
-
-             del Trabajo
-
-## 22 Libertad sindical en la Constitución de 1980
-
-
-## 25 Tutela a través de recurso de protección
-
-
-## 29 Organizaciones sindicales
-
-
-## 52 Fuero sindical
-
-
-## 60 Delegado sindical
-
-
-## 61 Las infracciones a la libertad sindical
-
-
-## 78      Capítulo 2
-
-        La negociación colectiva y sus modalidades
-
-## 79 Regulación legal
-
-
-## 79 Ámbito de aplicación
-
-
-## 82 Tipos de procedimiento de negociación colectiva
-
-
-## 83 Formas de negociación colectiva
-
-
-## 125 Prácticas desleales en la negociación colectiva
-
-
-## 134     Capítulo 3
-
-        De los instrumentos colectivos y de la titularidad sindical
-
-## 135 Tipos de instrumentos colectivos
-
-
-Academia Judicial de Chile                                    Autocuidado
-Materiales Docentes                                                      ﻿
-
-
-## 135 Formalidades de los instrumentos colectivos (artículo 320)
-
-
-## 136 Contenido de los instrumentos colectivos
-
-
-## 136 Modificación del instrumento colectivo
-
-
-## 137 Efectos del instrumento colectivo
-
-
-## 142 Vinculación del trabajador con el instrumento colectivo
-
-
-## 143 Duración y vigencia de los instrumentos colectivos
-
-
-## 145 Mérito ejecutivo de los instrumentos colectivos
-
-
-## 147     Capítulo 4
-
-        La judicialización en el derecho colectivo del trabajo
-
-## 147 Acciones judiciales en materia sindical
-
-
-## 149 Acciones judiciales en materia de negociación colectiva
-
-
 ## 156     Referencias
 
+**Definición Canónica:** Materiales Docentes                                                      Introducción
+**Concordancias Legales:** artículo 459; artículo 19; artículo 5; artículos 26; artículos 8; Constitución Política; constitucion; Constitución
 
 Materiales Docentes                                                      Introducción
 
@@ -224,8 +117,10 @@ se determinó que:
       de igual forma el Convenio 87 de la [Organización Internacional del
       Trabajo] sobre la Libertad Sindical y la Protección del Derecho de Sindi-
 
-
 ## 1 En lo sucesivo, al citar artículos sin señalar una ley se entenderá que pertenecen
+
+**Definición Canónica:** al Código del Trabajo.
+**Concordancias Legales:** artículo 5 de la Constitución. Calificó de intolerables las ir; Constitución
 
 al Código del Trabajo.
 
@@ -256,12 +151,11 @@ práctica antisindical sancionada en el artículo 1.2 letra b) del Convenio
 98; en el artículo 3.2 del Convenio 87, y, en el derecho interno, en aquella
 establecida en la letra a) del artículo 289 del Código, que al referirse a las
 
-
-## 2 Sentencia del caso Pozo/Corporación Municipal de Educación, Salud, Cultura y
-
-Recreación de La Florida, Corte Suprema, rol 21164-2018, 20 de marzo de 2019.
-
 ## 3 Sentencia del caso Reyes con Carter, Corte Suprema, rol 6214-2018, 14 de agosto
+
+**Definición Canónica:** de 2018.
+ 4 Sentencia del caso Reyes con Carter, Corte de Apelaciones de Santiago, rol 22752017, 28 de febrero de 2018.
+**Concordancias Legales:** artículo 19; artículo 5; artículo 22.1 del Pacto Internacional de Derechos Civiles y Pol; artículo 16 de la Convención Americana sobre Derechos Humanos o; artículos 3.1; artículo 1 del Convenio 98. Si bien la decisión final se; Ley 19.296; Constitución; constitucion
 
 de 2018.
  4 Sentencia del caso Reyes con Carter, Corte de Apelaciones de Santiago, rol 22752017, 28 de febrero de 2018.
@@ -361,6 +255,8 @@ dirigido, sin que puedan extenderse sus efectos a otras personas. Como
 
 ## 7 Sentencia de reemplazo en el caso Soledad Astudillo Martínez con Codelco, rol
 
+**Definición Canónica:** 466-2021, 3 de febrero de 2022, considerando primero.
+
 466-2021, 3 de febrero de 2022, considerando primero.
 
 Academia Judicial de Chile                       Derecho colectivo del trabajo
@@ -370,8 +266,11 @@ se aprecia, se reconoció al contrato colectivo, en conformidad a la ley,
 más bien como una fuente contractual individual sin que en nuestro sistema pueda reconocerse como verdadera fuente del derecho colectivo
 del trabajo.
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Libertad sindical como derecho fundamental
+y sus manifestaciones en el derecho chileno
+**Concordancias Legales:** artículo 212 del Código del Trabajo que reconoce a las persona; artículo 214; artículo 215; artículo 236; artículos 231; artículo 295; artículos 213; artículo 11; artículo 2 del Convenio; artículo 9; artículo 2; artículo 7; artículos 2; artículo 5; artículo 3; artículo 4; artículo 8; artículo 6; artículo 22; artículo 26 de la Organización. El segundo corresponde al Co; artículo 19; artículo 65 de la Constitución señala que son de iniciativa exc; artículo 20 de la Constitución Política de la República señala; Ley 19.759; constitución; Constitución Política; constitucion
 
 Libertad sindical como derecho fundamental
 y sus manifestaciones en el derecho chileno
@@ -879,8 +778,10 @@ claridad respecto de la titularidad de los derechos que se reclaman, rechazando 
    Respecto de las demás recurrentes, el fallo analiza los estatutos en la
 parte pertinente al caso y concluye que la recurrida no acompañó antecedente alguno que diera cuenta del cumplimiento de los mecanismos
 
-
 ## 6 Sentencia del caso Martín Calderón Leyton contra Sindicato Forjadores de Ferias
+
+**Definición Canónica:** Libres, Corte de Apelaciones de Puerto Montt, rol 3881-2022, 11 octubre 2022, considerando noveno.
+**Concordancias Legales:** constitución
 
 Libres, Corte de Apelaciones de Puerto Montt, rol 3881-2022, 11 octubre 2022, considerando noveno.
 
@@ -946,8 +847,11 @@ representación, defensa y promoción de ese interés.
    Esta definición concuerda con el ordenamiento jurídico chileno en
 el sentido de que se trata de organizaciones de trabajadores y de tra-
 
-
 ## 8 Sentencia del caso Sindicato Nacional de Trabajadores de Empresa Santa Isabel
+
+**Definición Canónica:** S. A. con Rodríguez Medina y otros, Corte Suprema, rol 5136-2015, 13 de mayo de
+2015, considerando noveno.
+**Concordancias Legales:** artículo 216; artículo 233 bis; artículo 227; artículo 231; artículo 221.11; artículo 212 del Código del Trabajo reconoce este derecho para; artículo 1; artículo 212; artículo 217; artículo 304; artículo 214 del Código del Trabajo; artículo 214; artículo 215; artículo 216 del Código del Trabajo; artículo 10 del Convenio 87 de la Organización Internacional; artículo 220 del Código del Trabajo señala los fines principal; Ley 19.759; Ley 20.940; Ley 19.296; constitucion
 
 S. A. con Rodríguez Medina y otros, Corte Suprema, rol 5136-2015, 13 de mayo de
 2015, considerando noveno.
@@ -1099,14 +1003,9 @@ principales de las organizaciones sindicales.
 Academia Judicial de Chile                                 Derecho colectivo del trabajo
 Materiales Docentes                                                           Capítulo 1
 
-
-## 1. Negociar colectivamente, tanto en procesos reglados como no re-
-
-      glados, en el caso de sindicatos de trabajadores dependientes.
-
 ## 2. Representar judicial y extrajudicialmente a los trabajadores y las
 
-      trabajadoras en casos de incumplimiento de los contratos colecti-
+**Definición Canónica:** trabajadoras en casos de incumplimiento de los contratos colecti-
       vos de trabajo o por infracciones a normas legales o contractuales
       que afecten a la generalidad de los miembros del sindicato. Ade-
       más, podrán representar a quienes trabajan en el ejercicio de los
@@ -1115,22 +1014,29 @@ Materiales Docentes                                                           Ca
       bién actuarán como parte en juicios o reclamaciones que tengan
       por objeto denunciar prácticas desleales.
 
-## 3. Constituir mutualidades, fondos u otros servicios, y formar o aso-
-
-      ciarse a instituciones de carácter previsional o de salud, cualquiera
-      sea su naturaleza y participar en ellas.
-
-## 4. Propender al mejoramiento del nivel de empleo y participar en
-
-      funciones de colocación de trabajadores y trabajadoras.
-
-## 5. Pueden formular planteamientos y peticiones ante los comités pa-
-
-      ritarios de higiene y seguridad, y exigir su pronunciamiento.
+trabajadoras en casos de incumplimiento de los contratos colecti-
+      vos de trabajo o por infracciones a normas legales o contractuales
+      que afecten a la generalidad de los miembros del sindicato. Ade-
+      más, podrán representar a quienes trabajan en el ejercicio de los
+      derechos emanados del contrato individual de trabajo, cuando
+      sean requeridos por los asociados para ello.12 En este sentido, tam-
+      bién actuarán como parte en juicios o reclamaciones que tengan
+      por objeto denunciar prácticas desleales.
 
 ## 6. Los sindicatos actualmente pueden perseguir fines de lucro. Esto
 
-      se interpreta de la derogación de la Ley 19.069 que contenía esta
+**Definición Canónica:** se interpreta de la derogación de la Ley 19.069 que contenía esta
+      prohibición. Así lo determinó también la Dirección del Trabajo en
+      diversos dictámenes que señalan que pueden constituirse como
+      socios de una sociedad comercial, en la medida que las ganancias
+      se destinen a los fines sindicales (dictamen ordinario 7057 del 19
+      de diciembre de 1996).
+   Esta enumeración no es taxativa, ya que el último numerando de la
+disposición señala que «en general, realizar todas aquellas actividades
+contempladas en los estatutos y que no estuvieren prohibidas por la ley».
+**Concordancias Legales:** Ley 19.069
+
+se interpreta de la derogación de la Ley 19.069 que contenía esta
       prohibición. Así lo determinó también la Dirección del Trabajo en
       diversos dictámenes que señalan que pueden constituirse como
       socios de una sociedad comercial, en la medida que las ganancias
@@ -1140,8 +1046,15 @@ Materiales Docentes                                                           Ca
 disposición señala que «en general, realizar todas aquellas actividades
 contempladas en los estatutos y que no estuvieren prohibidas por la ley».
 
-
 ## 12 En la sentencia del caso Valenzuela con Administradora de Supermercados
+
+**Definición Canónica:** Hyper Ltda, Primer Juzgado de Letras del Trabajo de Santiago, rol O-965-2022, 23
+de enero de 2023, el tribunal estableció que es un requisito de la legitimación activa
+en aquellos casos en que se quiera asumir la representación de asociados en temas
+relativos al contrato individual de trabajo, la existencia de un requerimiento expreso
+por parte de los trabajadores afectados. Se determinó, asimismo, que como lo indica
+la ley, la afectación a la generalidad no dice relación con la mayor parte de los trabajadores de la empresa, sino de sus asociados.
+**Concordancias Legales:** artículo 220; artículo 227 del Código del Trabajo diferencia entre los tipos; artículo 226; artículo 3; artículo 3 del Código; artículo 228; artículo 227; artículo 221; artículos 227; artículo 243; artículo 7; artículos 2; artículo 19; artículo 222; artículo 223 del Código; artículos 221; artículo 231; Ley 20.760; Constitución; Constitución Política
 
 Hyper Ltda, Primer Juzgado de Letras del Trabajo de Santiago, rol O-965-2022, 23
 de enero de 2023, el tribunal estableció que es un requisito de la legitimación activa
@@ -1291,19 +1204,19 @@ citada especialmente para este efecto, en presencia de un ministro o ministra de
 absoluta de los afiliados que estén al día en el pago de las cuotas sindicales. Se aplican las normas de los artículos 221, 222, 223 para la aprobación de los estatutos.
    El artículo 231 señala que los estatutos deben contener especialmente:
 
-## 1. Los requisitos de afiliación y desafiliación, y los derechos y obliga-
-
-       ciones de sus miembros.
-    2. Los requisitos para ser elegido dirigente sindical.
-
-## 3. Los mecanismos de modificación del estatuto o de fusión del sin-
-
-       dicato.
-    4. El régimen disciplinario interno.
-
 ## 5. La clase o denominación de sindicato que lo identifique, la que no
 
-       puede sugerir el carácter de único o exclusivo.
+**Definición Canónica:** puede sugerir el carácter de único o exclusivo.
+   La Ley 20.940, en el marco de igualdad de oportunidades entre hombres y mujeres, estableció en el artículo 231 inciso tercero que los estatutos deben incorporar un mecanismo destinado a resguardar que el
+directorio esté integrado por directoras en una proporción no inferior a
+un tercio del total de sus integrantes con derecho al fuero y a las demás
+prerrogativas que establece el Código del Trabajo o por la proporción de
+directoras que corresponda al porcentaje de afiliación de trabajadoras
+en el total de afiliados, en el caso de ser menor.
+   
+**Concordancias Legales:** artículo 231; artículo 220; artículo 232; artículos 235; artículo 256; artículos 260; artículo 234; artículo 258; artículo 268; artículo 235; artículo 236; artículo 23; artículo 237; artículo 249; artículo 250; artículo 244; artículo 255 del Código y puede definirse como el organismo co; artículo 257; artículo 296; artículos 256; artículo 259; Ley 20.940; constitucion; Constitución Política; constitución
+
+puede sugerir el carácter de único o exclusivo.
    La Ley 20.940, en el marco de igualdad de oportunidades entre hombres y mujeres, estableció en el artículo 231 inciso tercero que los estatutos deben incorporar un mecanismo destinado a resguardar que el
 directorio esté integrado por directoras en una proporción no inferior a
 un tercio del total de sus integrantes con derecho al fuero y a las demás
@@ -1453,29 +1366,16 @@ sindicato podrán pasar a dominio de alguno o alguna de sus asociados
 o asociadas.
    De acuerdo con el artículo 256, el patrimonio sindical se compone de:
 
-## 1. Las cuotas o aportes ordinarios o extraordinarios que la asamblea
-
-      imponga a los asociados y las asociadas, conforme a los estatutos.
-
-## 2. Por el aporte o cuota sindical ordinaria del exafiliado o afiliada
-
-      que se mantenga afecto al instrumento colectivo negociado por la
-      organización, en los términos del inciso segundo del artículo 323.
-
-## 3. Por la cuota sindical ordinaria de quienes no estando afiliados ni
-
-      afiliadas hayan aceptado que se les aplique la extensión de benefi-
-      cios, de conformidad al artículo 322.
-
-## 4. Por las donaciones entre vivos o asignaciones por causa de muerte
-
-      que se le hicieran al sindicato.
-   5. Por el producto de sus bienes.
-   6. Por el producto de la venta de sus activos.
-
 ## 7. Por las multas cobradas a los asociados de conformidad a los es-
 
-      tatutos.
+**Definición Canónica:** tatutos.
+   8. Por las demás fuentes que prevean los estatutos.
+   La principal fuente de financiamiento del sindicato está constituida
+por las cuotas sindicales que deben pagar los socios y las socias con
+arreglo a los estatutos. Dichas cuotas pueden ser ordinarias o extraor-
+**Concordancias Legales:** artículo 260; artículo 262; artículo 323; artículo 63 del Código. Los estatutos deben establecer los; artículo 259
+
+tatutos.
    8. Por las demás fuentes que prevean los estatutos.
    La principal fuente de financiamiento del sindicato está constituida
 por las cuotas sindicales que deben pagar los socios y las socias con
@@ -1540,6 +1440,10 @@ viviendas, en la medida que este último beneficio no implique el traspaso de fo
 
 ## título, con la sola limitación de que dichos bienes no pasen al dominio
 
+**Definición Canónica:** de alguno de sus asociados y que sean utilizados en los objetivos y finalidades señalados en la ley y los estatutos, sin perjuicio de los requisitos
+exigidos a dichas entidades por el artículo 257 del Código, para la enajenación y demás convenciones enunciadas, que recaigan en un bien
+**Concordancias Legales:** artículo 257 del Código; artículos 295; artículo 295; artículos 296; Ley 2.756
+
 de alguno de sus asociados y que sean utilizados en los objetivos y finalidades señalados en la ley y los estatutos, sin perjuicio de los requisitos
 exigidos a dichas entidades por el artículo 257 del Código, para la enajenación y demás convenciones enunciadas, que recaigan en un bien
 
@@ -1563,13 +1467,25 @@ que pueden ser:
 
 ## 1. Por acuerdo —registrado en la Inspección del Trabajo— de la ma-
 
-      yoría absoluta de los afiliados y las afiliadas, celebrado en asam-
+**Definición Canónica:** yoría absoluta de los afiliados y las afiliadas, celebrado en asam-
+      blea extraordinaria y citada en conformidad a los estatutos.
+   2. Por incumplimiento grave de las obligaciones que impone la ley.
+
+yoría absoluta de los afiliados y las afiliadas, celebrado en asam-
       blea extraordinaria y citada en conformidad a los estatutos.
    2. Por incumplimiento grave de las obligaciones que impone la ley.
 
 ## 3. Por haber dejado de cumplir con los requisitos necesarios para su
 
-      constitución.
+**Definición Canónica:** constitución.
+   En los casos 2 y 3, la disolución del sindicato deberá ser declarada por
+sentencia del Tribunal de Trabajo de la jurisdicción en que tenga domicilio la respectiva organización. La solicitud de declaración de disolución debe ser fundada y puede realizarse por cualquiera de los socios y
+las socias o por la Dirección del Trabajo.
+   El procedimiento especial, tratado en el artículo 297, es breve, de única instancia, en el que se tienen a la vista los antecedentes proporcionados por el solicitante y oyendo al directorio sindical o en su rebeldía. Se
+puede abrir un término probator
+**Concordancias Legales:** artículo 297; artículo 295; artículo 213 del Código del Trabajo; artículo 5 del Convenio 87 de la Organización Internacional; artículo 268 del Código. Las federaciones y confederaciones; artículo 274; artículo 288; artículo 233 bis del Código del Trabajo y consiste en la unión de; artículo 231; artículo 233 bis; artículo 174 del Código del Trabajo; artículo 159; artículo 160 del Código. De esta forma; artículo 221 del Código del Trabajo; artículo 237 del Código del Trabajo; artículos 225; artículo 225; artículo 224; artículo 243; artículo 223; artículo 227; artículo 221; artículo 235; artículos 221; artículo 238; Ley 19.759; Ley 20.940; Ley 20.490; constitución
+
+constitución.
    En los casos 2 y 3, la disolución del sindicato deberá ser declarada por
 sentencia del Tribunal de Trabajo de la jurisdicción en que tenga domicilio la respectiva organización. La solicitud de declaración de disolución debe ser fundada y puede realizarse por cualquiera de los socios y
 las socias o por la Dirección del Trabajo.
@@ -1862,6 +1778,11 @@ rol 4871-2017, 23 de marzo de 2017.
 
 ## 16 Sentencia del caso Dirección Regional del Trabajo Metropolitana Oriente con
 
+**Definición Canónica:** Nestlé Chile S. A., Corte de Apelaciones de Santiago, rol 6-2018, 27 de marzo de 2017.
+La Corte Suprema en causa rol 7548-2019, 29 de abril de 2019, declaró inadmisible el
+recurso de unificación de jurisprudencia.
+**Concordancias Legales:** artículo 235; artículo 243; artículo 12; artículo 229 del Código del Trabajo; artículo 238 del Código del Trabajo; artículo 216; Ley 19.069; constitución
+
 Nestlé Chile S. A., Corte de Apelaciones de Santiago, rol 6-2018, 27 de marzo de 2017.
 La Corte Suprema en causa rol 7548-2019, 29 de abril de 2019, declaró inadmisible el
 recurso de unificación de jurisprudencia.
@@ -1951,6 +1872,16 @@ la designación de un representante denominado delegado sindical, por
 
 ## parte de los trabajadores y las trabajadoras de una empresa, cumpliendo
 
+**Definición Canónica:** con los requisitos que señala la ley.
+   Está regulado en el artículo 229 del Código del Trabajo y facilita a
+quienes trabajan en aquella empresa que no obtuvieron representación
+en el directorio tener una comunicación más fluida con su empleador.
+   El número de delegados que se puede elegir dependerá del número
+de trabajadores y trabajadoras de que se trate. De esta forma, si el sindicato tiene entre ocho y cincuenta afiliados, podrá elegir un delegado;
+si tiene entre cincuenta y uno y setenta y cinco afiliados, podrá elegir
+dos delegados, y si tiene setenta y seis o más afiliados, podrá ele
+**Concordancias Legales:** artículo 229 del Código del Trabajo y facilita a quienes traba; artículos 289; artículo 289 del Código del Trabajo
+
 con los requisitos que señala la ley.
    Está regulado en el artículo 229 del Código del Trabajo y facilita a
 quienes trabajan en aquella empresa que no obtuvieron representación
@@ -2033,6 +1964,13 @@ Están enumeradas en el artículo 289 del Código del Trabajo:
 
 ## 1. Obstaculizar la formación del sindicato: refiere a cualquier acción
 
+**Definición Canónica:** u omisión que tienda a evitar que quienes trabajan ejerzan su derecho a
+sindicalizarse. La ley ejemplifica como conductas típicas el ejercer presiones mediante la amenaza de pérdida del empleo o beneficios, o del
+cierre de la empresa, establecimiento o faena, en caso de acordarse su
+constitución.
+   2. Obstaculizar el funcionamiento del sindicato: esta práctica antisindical está destinada a complicar el adecuado funcionamiento del sindicato, impidiéndole realizar sus fines propios.
+**Concordancias Legales:** constitución
+
 u omisión que tienda a evitar que quienes trabajan ejerzan su derecho a
 sindicalizarse. La ley ejemplifica como conductas típicas el ejercer presiones mediante la amenaza de pérdida del empleo o beneficios, o del
 cierre de la empresa, establecimiento o faena, en caso de acordarse su
@@ -2041,8 +1979,15 @@ constitución.
 
 Materiales Docentes                                                         Capítulo 1
 
-
 ## 3. Ejecutar maliciosamente actos tendientes a alterar el quórum de
+
+**Definición Canónica:** un sindicato: se refiere esta práctica antisindical a la realización de cualquier acto que implique que el número de trabajadores afiliados a un
+sindicato disminuya, a través de, por ejemplo, el despido de trabajadores
+sindicalizados o determinar su traslado, de forma que no puedan permanecer en el mismo.
+   4. Despedir a trabajadores por manifestar su intención de sindicalizarse: esta hipótesis fue agregada por la Ley 20.940, aun cuando podía
+considerarse como constitutiva de práctica antisindical sin estar tipificada, ya que implica atentar contra el derecho de sindicalización.
+   5. «Las co
+**Concordancias Legales:** artículos 315; Ley 20.940; constitución
 
 un sindicato: se refiere esta práctica antisindical a la realización de cualquier acto que implique que el número de trabajadores afiliados a un
 sindicato disminuya, a través de, por ejemplo, el despido de trabajadores
@@ -2071,8 +2016,10 @@ también es considerada práctica desleal en la negociación colectiva.
    c) Ofrecer y otorgar beneficios especiales que signifiquen desestimular la formación de un sindicato: corresponde a un atentado a la libertad
 sindical de constitución.
 
-
 ## 20 Sentencia del caso Inspección Provincial del Trabajo de Valdivia/ Transportes
+
+**Definición Canónica:** O. S. G. Ltda, Corte de Apelaciones de Valdivia, rol 184-2022, 6 de octubre de 2022.
+**Concordancias Legales:** artículo 174; artículo 289.21; artículo 322 del Código. No constituye práctica antisindica
 
 O. S. G. Ltda, Corte de Apelaciones de Valdivia, rol 184-2022, 6 de octubre de 2022.
 
@@ -2138,6 +2085,9 @@ final del artículo 322 del Código.
  21 Sentencia del caso Del Río Acuña con Municipalidad de Florida, Corte de Apelaciones de Concepción, rol 81-2022, 29 de julio de 2022, considerando decimosexto.
 
 ## 22 Sentencia del caso Yáñez con Comercial CCU S. A., Corte de Apelaciones de
+
+**Definición Canónica:** Santiago, rol 3082-2021, 30 de agosto de 2022.
+**Concordancias Legales:** artículo 322; artículo 289; artículo 290 del Código del Trabajo; artículo 19; artículos 315; artículo 291; artículo 485 del Código del Trabajo; artículo 292; artículo 192; artículo 486; Ley 20.940; Ley 20.087; constitucion
 
 Santiago, rol 3082-2021, 30 de agosto de 2022.
 
@@ -2309,7 +2259,17 @@ De acuerdo con el artículo 192 inciso tercero, hay que estarse a lo señalado e
 
 ## 1. Cualquier trabajador u organización sindical que invocando un
 
-      derecho o interés legítimo considere lesionados derechos funda-
+**Definición Canónica:** derecho o interés legítimo considere lesionados derechos funda-
+      mentales en el ámbito de las relaciones jurídicas cuyo conocimien-
+      to corresponde a la jurisdicción laboral. Se puede concluir, ade-
+      más, que no es necesario que la infracción afecte directamente al
+      denunciante que trabaja, sino que perfectamente puede estimarse
+      que existe un interés legítimo cuando la vulneración la ha sufrido,
+      por ejemplo, otra persona que trabaja en la misma empresa. Lo
+      mismo ocurre con la organización sindical.
+   2. La persona afectada por la lesión de sus derechos fu
+
+derecho o interés legítimo considere lesionados derechos funda-
       mentales en el ámbito de las relaciones jurídicas cuyo conocimien-
       to corresponde a la jurisdicción laboral. Se puede concluir, ade-
       más, que no es necesario que la infracción afecte directamente al
@@ -2322,7 +2282,16 @@ De acuerdo con el artículo 192 inciso tercero, hay que estarse a lo señalado e
 
 ## 4. La Inspección del Trabajo: si actuando dentro del ámbito de sus
 
-      atribuciones y sin perjuicio de sus facultades fiscalizadoras toma
+**Definición Canónica:** atribuciones y sin perjuicio de sus facultades fiscalizadoras toma
+      conocimiento de una vulneración de derechos fundamentales,
+      debe denunciar los hechos ante el tribunal competente y acompa-
+      ñar el informe de fiscalización correspondiente.
+   Cabe preguntarse si podría formular la denuncia la parte empleadora, que puede verse también perjudicada por estas conductas. Si bien el
+procedimiento de tutela de los derechos fundamentales fue creado con
+la intención de proteger a los trabajadores y las trabajadoras, el derecho acá protegido es la libertad sindical, en cuyo desarrollo p
+**Concordancias Legales:** artículo 486; artículo 446; artículo 487; artículo 485; artículo 491; artículo 493 del Código del Trabajo ordena que; artículo 494; artículo 457; artículo 495; Ley 20.940
+
+atribuciones y sin perjuicio de sus facultades fiscalizadoras toma
       conocimiento de una vulneración de derechos fundamentales,
       debe denunciar los hechos ante el tribunal competente y acompa-
       ñar el informe de fiscalización correspondiente.
@@ -2416,21 +2385,32 @@ Se hace aplicable lo dispuesto en el artículo 457.
 requisitos comunes a toda sentencia y además en su parte resolutiva las
 menciones que señala el artículo 495, a saber:
 
-## 1. La declaración de existencia o no de la lesión de los derechos fun-
-
-      damentales. En este caso, deberá pronunciarse sobre la existencia
-      o no de la infracción a la libertad sindical.
-
 ## 2. En caso afirmativo deberá ordenar —si es que persiste la conducta
 
-      antijurídica al momento de la dictación del fallo— su cese inme-
+**Definición Canónica:** antijurídica al momento de la dictación del fallo— su cese inme-
+      diato, bajo el apercibimiento de aplicarse una multa de cincuenta
+      a cien unidades tributarias mensuales, que puede repetirse hasta el
+      cumplimiento de la medida decretada.
+
+antijurídica al momento de la dictación del fallo— su cese inme-
       diato, bajo el apercibimiento de aplicarse una multa de cincuenta
       a cien unidades tributarias mensuales, que puede repetirse hasta el
       cumplimiento de la medida decretada.
 
 ## 3. La indicación concreta de las medidas a que está obligada la parte
 
-      infractora, dirigidas a obtener la reparación de las consecuencias
+**Definición Canónica:** infractora, dirigidas a obtener la reparación de las consecuencias
+      derivadas de la vulneración de derechos fundamentales, bajo el
+      apercibimiento señalado en el artículo 492 inciso primero, inclui-
+      das las indemnizaciones que procedan. Para el caso que la con-
+      ducta denunciada haya sido el despido de un trabajador o una
+      trabajadora con fuero, el artículo 292 establece un apercibimiento
+      especial, consistente en una multa de cincuenta a cien unidades
+      tributarias mensuales, que puede ser sustituido o repetido hasta
+      obtener el cumplimiento íntegro de 
+**Concordancias Legales:** artículo 492; artículo 292; artículo 294 bis; artículo 488; artículo 489 del Código del Trabajo; artículo 294; artículo 489; artículo 215; Ley 20.940; constitución
+
+infractora, dirigidas a obtener la reparación de las consecuencias
       derivadas de la vulneración de derechos fundamentales, bajo el
       apercibimiento señalado en el artículo 492 inciso primero, inclui-
       das las indemnizaciones que procedan. Para el caso que la con-
@@ -2508,12 +2488,11 @@ considerando que el actor había pertenecido al sindicato desde hacía
 nueve años, teniendo siempre una actividad activa en el mismo, por lo
 que no se comprendería por qué habría sido ahora castigado por su actividad sindical. Agregó el fallo que no fue posible tener por acreditada
 
-
-## 26 Sentencia del caso Moya con Servicios Industriales SpA, Corte de Apelaciones
-
-de Antofagasta, rol 164-2022, 26 de agosto de 2022.
-
 ## 27 El texto previo a la reforma aludía a las conductas antisindicales o desleales
+
+**Definición Canónica:** tipificadas en el Código. Actualmente se refiere, en general, a represalias por su actividad sindical.
+  28 Sentencia del caso Fernando Elías Morales Muñoz con Corporación Educacional UDEC C. F. T., rol 49409-2021, 8 de septiembre de 2022, considerando sexto.
+**Concordancias Legales:** artículo 294
 
 tipificadas en el Código. Actualmente se refiere, en general, a represalias por su actividad sindical.
   28 Sentencia del caso Fernando Elías Morales Muñoz con Corporación Educacional UDEC C. F. T., rol 49409-2021, 8 de septiembre de 2022, considerando sexto.
@@ -2550,8 +2529,10 @@ de 2021, considerando decimoprimero.
  31 Sentencia del caso Marcela Araya Calderón contra Fundación Las Rosas de Ayuda Fraterna, Primer Juzgado de Letras del Trabajo de Santiago, rol T-176-2022, 23 de
 enero de 2023, no ejecutoriada, considerando décimo.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** La negociación colectiva y sus modalidades
+**Concordancias Legales:** artículo 19; artículos 303; artículo 304 del Código del Trabajo; artículo 3; artículo 304; artículo 305 del Código del Trabajo; artículo 504 del Código; artículo 82 del Código establece que; artículo 308 del Código del Trabajo establece plazos mínimos d; artículo 306 del Código del Trabajo indica que son materia de; artículo 322; artículo 306; artículo 327; artículo 364; artículo 365; artículo 408; artículo 314 del Código y la negociación de gru; artículo 303 del Código del Trabajo indica que las partes debe; artículos 289; artículo 312 del Código del Trabajo establece que todos los pl; artículo 351; artículo 313 del Código del ramo indica que para los efectos d; artículo 328 del Código del Trabajo señala que en el proyecto; artículo 323; artículo 331 del Código; artículos 332; artículo 334 del Código señala que; artículo 361 del Código; artículo 343; artículo 344; artículo 378 del Código; artículo 379 del Código podrá; artículo 345; Ley 20.940; Ley 3.476; Ley 3.166; Constitución Política; Constitución; Constitucion
 
 La negociación colectiva y sus modalidades
 
@@ -3100,7 +3081,11 @@ Materiales Docentes                                                             
 
 ## 22. En cualquie-
 
-                                                                                                 ra de ellos puede
+**Definición Canónica:** ra de ellos puede
+ 11           12           13          14           15               16             17             efectuarse la
+                                                                                                      votación.
+
+ra de ellos puede
  11           12           13          14           15               16             17             efectuarse la
                                                                                                       votación.
 
@@ -3194,6 +3179,16 @@ acto que podrá realizarse en la sede sindical, evitándose, en todo caso,
 alteraciones en el normal funcionamiento de la empresa. A su vez, la
 
 ## parte empleadora deberá facilitar que la votación se lleve a efecto con
+
+**Definición Canónica:** normalidad, debiendo otorgar los permisos necesarios para que los trabajadores y las trabajadoras puedan asistir a votar.
+   La votación debe efectuarse en forma personal, secreta y ante un
+ministro de fe. El acuerdo, ya sea por la huelga o por la última oferta,
+deberá tomarse por la mayoría absoluta de los trabajadores representados por el sindicato, debiendo descontarse del quórum las personas que
+trabajan que no estén prestando servicios a la empresa al momento de
+la votación y aquellos que estén fuera del lugar habitual donde presten
+servicios, por requerimientos de la empresa.
+   Si se ap
+**Concordancias Legales:** artículo 345; artículo 485; artículo 353; artículo 357 del Código; artículo 346; artículo 19; artículos 359; Ley 20.940; Constitución Política; Constitución
 
 normalidad, debiendo otorgar los permisos necesarios para que los trabajadores y las trabajadoras puedan asistir a votar.
    La votación debe efectuarse en forma personal, secreta y ante un
@@ -3405,6 +3400,9 @@ Romero Cordero (2018: 59-74), pues:
 
 ## 4 Mensaje de S. E. la presidenta de la República 1055-362 del 29 de diciembre de
 
+**Definición Canónica:** 2014 con el que se inicia proyecto de ley que moderniza el sistema de relaciones laborales introduciendo modificaciones al Código del Trabajo.
+**Concordancias Legales:** artículo 359 del Código establece que durante la huelga; artículo 362; constitución
+
 2014 con el que se inicia proyecto de ley que moderniza el sistema de relaciones laborales introduciendo modificaciones al Código del Trabajo.
 
    Si bien hay buenos argumentos para sustentar ambas posiciones, lo
@@ -3518,6 +3516,9 @@ cuyo respecto la Corte rechazó el recurso de nulidad.8
 
 ## 8 Sentencia del caso Suez Medioambiente Chile S. A. con Inspección Provincial del
 
+**Definición Canónica:** Trabajo de Rancagua, Corte de Apelaciones de Rancagua, rol 302-2020, 3 de noviembre de 2020.
+**Concordancias Legales:** artículo 402 del Código. Cabe agregar que una vez que se ef; artículo 19; artículo 362 del Código; artículo 359
+
 Trabajo de Rancagua, Corte de Apelaciones de Rancagua, rol 302-2020, 3 de noviembre de 2020.
 
 dan servicios de utilidad pública o cuya paralización cause grave daño a
@@ -3574,14 +3575,20 @@ prestación de servicios de utilidad pública.
    Lo dicho significa que debe efectuarse de común acuerdo por las partes y de no producirse este deberá formularse requerimiento a la Dirección Regional, cuya resolución podrá ser revisada por el director nacional de la repartición.
    La Dirección del Trabajo ha determinado que, al conocer del requerimiento, debe efectuarse una revisión de admisibilidad, considerando
 
-
 ## 9 Sentencia del caso Messer Chile Limitada/Ministerio de Economía, Fomento y
+
+**Definición Canónica:** Turismo, Ministerio de Trabajo y Previsión Social, y Ministerio de Defensa Nacional,
+Corte de Apelaciones de Santiago, rol 2327-2020, 10 de noviembre de 2022. Se determina rechazar la reclamación deducida por la empresa Messer Chile Limitada
+contra la resolución exenta 120 del 31 de julio de 2020.
 
 Turismo, Ministerio de Trabajo y Previsión Social, y Ministerio de Defensa Nacional,
 Corte de Apelaciones de Santiago, rol 2327-2020, 10 de noviembre de 2022. Se determina rechazar la reclamación deducida por la empresa Messer Chile Limitada
 contra la resolución exenta 120 del 31 de julio de 2020.
 
 ## 10 Se basó en la doctrina emanada de la Comisión de Expertos de la Organización
+
+**Definición Canónica:** Internacional del Trabajo y el Comité de Libertad Sindical.
+**Concordancias Legales:** artículo 359 del Código del Trabajo; artículo 360.11; artículo 360; artículo 360 del Código. Nada dice la norma respecto de la pos; artículo 363 del Código regula esta situación; artículo 387 del Código. Posición de la Corte Suprema respect; artículo 381 del Código del Trabajo; artículo 381
 
 Internacional del Trabajo y el Comité de Libertad Sindical.
 
@@ -3690,6 +3697,11 @@ del Trabajo de San Felipe, Corte Suprema, rol 4800-2010, 10 de noviembre de 2010
 
 ## 15 Sentencia del caso Actionline Chile S. A. con Yutronic, Corte de Apelaciones de
 
+**Definición Canónica:** Santiago, rol 1144-2015, 23 de octubre de 2015, por la que la acoge recurso de nulidad.
+ 16 Sentencia del caso Actionline Chile S. A. con Yutronic, Corte Suprema, rol 289192015, 7 de marzo de 2016, por la que la Corte Suprema declaró inadmisible recurso
+de unificación de jurisprudencia.
+**Concordancias Legales:** artículo 420; artículo 360; artículo 76; artículo 364; artículo 227; artículo 314; artículo 365; Ley 20.940; Constitución Política
+
 Santiago, rol 1144-2015, 23 de octubre de 2015, por la que la acoge recurso de nulidad.
  16 Sentencia del caso Actionline Chile S. A. con Yutronic, Corte Suprema, rol 289192015, 7 de marzo de 2016, por la que la Corte Suprema declaró inadmisible recurso
 de unificación de jurisprudencia.
@@ -3791,10 +3803,12 @@ al vencimiento de los cinco días para entregarle la copia y que esta notifique 
 
 Contenido mínimo del proyecto
 
-
 ## 1. Identificación de la organización que presenta el proyecto y la in-
 
-      dividualización de los miembros de la comisión negociadora sin-
+**Definición Canónica:** dividualización de los miembros de la comisión negociadora sin-
+**Concordancias Legales:** artículo 330
+
+dividualización de los miembros de la comisión negociadora sin-
 
       dical de conformidad a las reglas del artículo 330, con indicación
       de un domicilio y correo electrónico.
@@ -3803,7 +3817,9 @@ Contenido mínimo del proyecto
 
 ## 4. La determinación de la obra o faena o periodo comprendido en la
 
-      negociación.
+**Definición Canónica:** negociación.
+
+negociación.
 
 Respuesta del empleador
 
@@ -3812,20 +3828,13 @@ desde su presentación, enviando copia a la comisión negociadora sindical y a l
 
 Contenido mínimo de la contestación
 
-
-## 1. Individualización de la empresa, la comisión negociadora y una
-
-      dirección de correo electrónico para las comunicaciones que de-
-      ban producirse durante la negociación.
-
-## 2. Las cláusulas que se proponen celebrar, pudiendo incluir entre
-
-      ellas los pactos sobre condiciones especiales de trabajo a los que se
-      refiere el artículo 372.
-
 ## 3. En el caso que el proyecto de convenio colectivo se presente a dos
 
-      o más empresas, cada una de ellas deberá comunicar su decisión
+**Definición Canónica:** o más empresas, cada una de ellas deberá comunicar su decisión
+      de negociar en forma conjunta o separada.
+**Concordancias Legales:** artículos 374; artículo 142; artículo 365 del Código señala expresamente en su inciso; artículos 309; artículos 410; artículo 306; artículo 374; artículo 314 del Código del Trabajo; artículo 19; artículo 314 del Código; artículo 6; artículo 316; artículo 320; artículo 324; artículo 322 del Código; artículos 314; artículo 307; artículo 322 del Código. Como se ha señalado; artículo 320 del Código del ramo define el instrumento colecti; artículo 3 del Código del Trabajo estableciendo que dos o má; artículo 507; artículo 3; Ley 20.940; Ley 20.760; Constitución Política; Constitucion; Constitución
+
+o más empresas, cada una de ellas deberá comunicar su decisión
       de negociar en forma conjunta o separada.
 
 Reuniones
@@ -4117,14 +4126,15 @@ la sentencia, día en que se reanuda la negociación en la forma que el
 tribunal establezca.
    c) El contenido de la sentencia definitiva que acoja total o parcialmente dichas acciones es:
 
-## 1. Un pronunciamiento e individualización de las empresas conside-
-
-       radas como único empleador en conformidad a lo dispuesto en el
-       artículo 3 inciso cuarto.
-
 ## 2. La indicación concreta de las medidas a que esté obligado el em-
 
-       pleador a fin de materializar su calidad de tal, así como las me-
+**Definición Canónica:** pleador a fin de materializar su calidad de tal, así como las me-
+       didas destinadas al cumplimiento de las obligaciones laborales y
+       previsionales, y el pago de las prestaciones que correspondan, ello
+       bajo apercibimiento de multa de cincuenta a cien unidades tribu-
+       tarias mensuales.
+
+pleador a fin de materializar su calidad de tal, así como las me-
        didas destinadas al cumplimiento de las obligaciones laborales y
        previsionales, y el pago de las prestaciones que correspondan, ello
        bajo apercibimiento de multa de cincuenta a cien unidades tribu-
@@ -4132,7 +4142,17 @@ tribunal establezca.
 
 ## 3. La determinación acerca de si la alteración de la individualidad
 
-       de la entidad empleadora se debe o no a la simulación de contra-
+**Definición Canónica:** de la entidad empleadora se debe o no a la simulación de contra-
+       tación de trabajadores y trabajadoras a través de terceros o bien al
+       uso de subterfugios, ocultando, disfrazando o alterando su indivi-
+       dualización o patrimonio, y si ello ha tenido como resultado eludir
+       el cumplimiento de obligaciones laborales y previsionales. En caso
+       de que esto efectivamente sea determinado, la sentencia deberá
+       indicar en forma precisa cuáles son las conductas constitutivas de
+       simulación o subterfugio, así como los derechos laborales o previ-
+       sionales vu
+
+de la entidad empleadora se debe o no a la simulación de contra-
        tación de trabajadores y trabajadoras a través de terceros o bien al
        uso de subterfugios, ocultando, disfrazando o alterando su indivi-
        dualización o patrimonio, y si ello ha tenido como resultado eludir
@@ -4148,7 +4168,15 @@ cualquier alteración de mala fe realizada a través de:
 
 ## 2. La creación de identidades legales o la división de la empresa u
 
-      otras que signifiquen una disminución o pérdida de derechos in-
+**Definición Canónica:** otras que signifiquen una disminución o pérdida de derechos in-
+      dividuales (gratificaciones o indemnizaciones por años de servi-
+      cio) o colectivos (derecho a sindicalización o a negociar colectiva-
+      mente) para los trabajadores.
+  e) Efecto de la sentencia: esta se aplicará respecto de todas las personas de las empresas consideradas como único empleador.
+  f) Término de la calificación de único empleador: las empresas que
+hayan sido consideradas en la calificación de único empleador podrán
+
+otras que signifiquen una disminución o pérdida de derechos in-
       dividuales (gratificaciones o indemnizaciones por años de servi-
       cio) o colectivos (derecho a sindicalización o a negociar colectiva-
       mente) para los trabajadores.
@@ -4162,15 +4190,17 @@ Materiales Docentes                                                          Cap
 solicitar al Juzgado de Letras del Trabajo correspondiente el término de
 dicha calificación, siempre que:
 
-## 1. Las situaciones descritas en el artículo 3 inciso cuarto hayan sido
-
-modificadas sustancialmente con posterioridad a la declaración respectiva.
-
-## 2. Hayan transcurrido al menos dos años desde que la sentencia que
-
-declaró la unidad de empleador quedó firme.
-
 ## 3. Antes del plazo de dos años una de las empresas comprendidas en
+
+**Definición Canónica:** la declaración haya cambiado de dueño y no exista entre ellas un controlador común.
+   Presentada la solicitud respectiva, deberá procederse a la notificación
+de aquellos que fueron parte del juicio en que se declaró la unidad de
+empleador, siempre que se mantenga relación laboral vigente, así como
+a las organizaciones sindicales existentes y vigentes en las empresas
+comprendidas en la declaración.
+   Dentro del plazo de quince días estos podrán oponerse a dicha solicitud y hacerse parte del proceso.
+   Si no hay oposición dentro de dicho plazo, el tribunal deberá resolver
+con los antecedentes
 
 la declaración haya cambiado de dueño y no exista entre ellas un controlador común.
    Presentada la solicitud respectiva, deberá procederse a la notificación
@@ -4186,6 +4216,14 @@ quince días siguientes al vencimiento del plazo para oponerse y hacerse
 
 ## parte, y se sustanciará de acuerdo con las normas del procedimiento
 
+**Definición Canónica:** monitorio.
+   Si la solicitud es acogida, el tribunal deberá señalar en la sentencia
+respectiva las medidas concretas para materializar la situación.
+   g) Requerimiento de inaplicabilidad por inconstitucionalidad del artículo 3 incisos cuarto, sexto y octavo: en cuanto a la materia en estudio,
+resulta interesante la posición planteada por la empresa Inalen S. A., que
+dedujo una serie de requerimientos de inaplicabilidad por inconstitucionalidad en relación al artículo 3 incisos cuarto, sexto y octavo del Código—que fueron acogidos por el Tribunal Constitucional—19 declarán-
+**Concordancias Legales:** artículo 3; constitucion
+
 monitorio.
    Si la solicitud es acogida, el tribunal deberá señalar en la sentencia
 respectiva las medidas concretas para materializar la situación.
@@ -4193,8 +4231,13 @@ respectiva las medidas concretas para materializar la situación.
 resulta interesante la posición planteada por la empresa Inalen S. A., que
 dedujo una serie de requerimientos de inaplicabilidad por inconstitucionalidad en relación al artículo 3 incisos cuarto, sexto y octavo del Código—que fueron acogidos por el Tribunal Constitucional—19 declarán-
 
-
 ## 19 Según consta en sentencias pronunciadas por el Tribunal Constitucional en
+
+**Definición Canónica:** causas rol 11116-21, 11624-21, 11788-21, 11117-2111580-21, 11353-2021, 11385-21, 1103021, 11005-21, 11179-21, 3 de marzo de 2022; y causa rol 11124-21, 4 de marzo de 2022,
+en que se invoca una vulneración al artículo 19 número 2, 16, 21, 24 y 26 de la
+Constitución Política de la República, al haberse considerado a las demandadas
+como único empleador, particularmente en relación a los contratos individuales e
+**Concordancias Legales:** artículo 19; artículo 3; artículo 3 del Código; artículo 19 de la Constitución. Prácticas desleales en la nego; artículos 403; artículo 403 del Código del Trabajo establece que serán consid; artículo 303 del Código y que refiere a la norma que ordena a; Ley 20.940; Constitución Política; Constitución
 
 causas rol 11116-21, 11624-21, 11788-21, 11117-2111580-21, 11353-2021, 11385-21, 1103021, 11005-21, 11179-21, 3 de marzo de 2022; y causa rol 11124-21, 4 de marzo de 2022,
 en que se invoca una vulneración al artículo 19 número 2, 16, 21, 24 y 26 de la
@@ -4255,8 +4298,11 @@ una solución justa y pacífica.
    De ahí que se determina en el mencionado fallo que las partes deben
 actuar sin entorpecer las negociaciones y sin incurrir en acciones que
 
-
 ## 20 Sentencia del caso Sindicato Nacional de Trabajadores de Empresa Banco Ripley
+
+**Definición Canónica:** S. A./Banco Ripley, Primer Juzgado del Trabajo de Santiago, RIT S-53-2020, 21 de
+septiembre de 2021.
+**Concordancias Legales:** artículos 315; artículo 404 del Código del Trabajo se refiere a estas práctic; artículo 404; artículo 403; artículos 404; artículo 405; artículos 403; artículo 506; artículo 407 del Código del Trabajo. Titulares de la acción p; artículo 407 del Código del Trabajo; artículos 485; artículo 486; artículo 168; artículo 485; artículo 407; Ley 20.940
 
 S. A./Banco Ripley, Primer Juzgado del Trabajo de Santiago, RIT S-53-2020, 21 de
 septiembre de 2021.
@@ -4494,8 +4540,11 @@ tribunal enviará a la Dirección copia de los respectivos fallos.
 Transportes Córdova Limitada, Corte Suprema, rol 27681-2020, 19 de enero de 2022,
 en que se acoge recurso de unificación de jurisprudencia.
 
-
 ## Capítulo 3
+
+**Definición Canónica:** De los instrumentos colectivos
+y de la titularidad sindical
+**Concordancias Legales:** artículo 320; artículo 6; artículo 314 del Código del Trabajo; artículos 385
 
 De los instrumentos colectivos
 y de la titularidad sindical
@@ -4559,15 +4608,17 @@ Contenido de los instrumentos colectivos
 El artículo 321 del Código del Trabajo indica que todo instrumento colectivo podrá contener, a lo menos:
    1. La determinación precisa de las partes a quienes afecte.
 
-## 2. Las normas sobre remuneraciones, beneficios, condiciones de tra-
-
-      bajo y demás estipulaciones que se hayan acordado, especificán-
-      dolas detalladamente.
-   3. El período de vigencia.
-
 ## 4. El acuerdo de extensión de beneficios o la referencia de no haberse
 
-      alcanzado dicho acuerdo.
+**Definición Canónica:** alcanzado dicho acuerdo.
+   Es decir, las menciones indicadas necesariamente deben constar en
+todo instrumento colectivo, agregando la misma norma que aquel podrá contener la constitución de una comisión bipartita para la implementación y seguimiento del cumplimiento del instrumento colectivo
+o mecanismos de resolución de las controversias. Esta última se trata,
+por tanto, de una estipulación voluntaria, que podrá ser o no agregada
+al instrumento, dependiendo ello de la voluntad de las partes.
+**Concordancias Legales:** artículo 310 del Código del Trabajo; artículo 306; constitución
+
+alcanzado dicho acuerdo.
    Es decir, las menciones indicadas necesariamente deben constar en
 todo instrumento colectivo, agregando la misma norma que aquel podrá contener la constitución de una comisión bipartita para la implementación y seguimiento del cumplimiento del instrumento colectivo
 o mecanismos de resolución de las controversias. Esta última se trata,
@@ -4641,8 +4692,15 @@ pues dado su carácter contractual constituye una infracción al principio
 protector como forma de interpretarlos, recurriendo a la regla in dubio
 pro operario.3
 
-
 ## 1 Así fue reconocido en 2014 por la Corte de Apelaciones de Concepción, que
+
+**Definición Canónica:** consideró que la eficacia normativa importa que las normas del contrato colectivo
+se aplican por sobre lo dispuesto en los contratos individuales de trabajo. El efecto
+normativo se caracteriza por la imperatividad del contrato colectivo, que se refiere
+a la asimilación de la parte normativa del contrato colectivo a la ley, puesto que se
+aplica respecto del contrato individual como fuente heterónoma.
+ 2 Sentencia del caso Vera Sánchez y otros con París Administradora Sur Limitada,
+Corte de Apelaciones de Concepción, rol 411-2013, 27 de marzo de 2014, considerandos undécimo y duodécimo. Consider
 
 consideró que la eficacia normativa importa que las normas del contrato colectivo
 se aplican por sobre lo dispuesto en los contratos individuales de trabajo. El efecto
@@ -4654,6 +4712,10 @@ Corte de Apelaciones de Concepción, rol 411-2013, 27 de marzo de 2014, consider
 importar la fecha de la sentencia.
 
 ## 3 Sentencia del caso Fundación Educacional Colegios Asuncionistas con Inspección
+
+**Definición Canónica:** Comunal del Trabajo de Coronel, Corte de Apelaciones de Concepción, rol 161-2021,
+24 de agosto de 2021, considerando sexto.
+**Concordancias Legales:** artículo 311; Ley 20.940
 
 Comunal del Trabajo de Coronel, Corte de Apelaciones de Concepción, rol 161-2021,
 24 de agosto de 2021, considerando sexto.
@@ -4687,8 +4749,9 @@ miembros de la profesión, ajenos a su celebración.
 Código del Trabajo permitía a la parte empleadora hacer extensivos los
 beneficios del instrumento colectivo a aquellos que trabajan y que ocupasen cargos o desempeñasen funciones similares, quienes a su vez debían pagar al sindicato que hubiere obtenido dichos beneficios un 75%
 
-
 ## 4 Sentencia del caso López con Latam Airlines Goup S. A., Corte de Apelaciones
+
+**Definición Canónica:** de Santiago, rol 3248-2021, 11 de enero 2023, considerandos decimotercero y decimocuarto.
 
 de Santiago, rol 3248-2021, 11 de enero 2023, considerandos decimotercero y decimocuarto.
 
@@ -4706,24 +4769,18 @@ respecto de la aplicación general o parcial de las estipulaciones de dicho
 instrumento a terceros que no han participado en su celebración, y que
 podrían ser todos o parte de los trabajadores de la empresa o establecimiento de empresa, siempre que no tengan afiliación sindical. Sin embargo, para que ello proceda:
 
-## 1. Son las partes del instrumento colectivo (empresa y sindicato) las
-
-       que en dicho instrumento pueden acordar la aplicación general o
-       parcial de sus estipulaciones
-
-## 2. Se puede acordar la aplicación a todos o a parte de los trabajado-
-
-       res y las trabajadoras, pero siempre y cuando no tengan afiliación
-       sindical.
-
-## 3. Las personas en cuestión deberán aceptar la extensión y obligarse
-
-       a pagar todo o parte de la cuota ordinaria de la organización sin-
-       dical, según lo establezca el acuerdo.
-
 ## 4. El acuerdo de extensión deberá fijar criterios objetivos, generales
 
-       y no arbitrarios para extender los beneficios a quienes trabajan y
+**Definición Canónica:** y no arbitrarios para extender los beneficios a quienes trabajan y
+       que no tengan afiliación sindical.
+   Por su parte, la norma también admite que la empresa aplique a todas
+las personas que trabajan las cláusulas pactadas de reajuste de remuneraciones conforme a la variación del Índice de precios al consumidor
+determinado por el Instituto Nacional de Estadísticas o el que haga sus
+veces, siempre que dicho reajuste se haya contemplado en su respuesta al proyecto de contrato colectivo, sin señalarse si tendrá que existir
+aporte alguno de los beneficiados al sindicato en este caso.
+**Concordancias Legales:** artículo 325 del Código del Trabajo; artículo 323 del Código del Trabajo; artículo 307 del Código; artículo 333 del Código; artículo 324 del Código del Trabajo regula esta materia; artículo 342
+
+y no arbitrarios para extender los beneficios a quienes trabajan y
        que no tengan afiliación sindical.
    Por su parte, la norma también admite que la empresa aplique a todas
 las personas que trabajan las cláusulas pactadas de reajuste de remuneraciones conforme a la variación del Índice de precios al consumidor
@@ -4842,12 +4899,18 @@ Vigencia
 
 Respecto a los contratos colectivos:
 
-## 1. Si existe contrato colectivo o fallo arbitral anterior, la vigencia de los
-
-contratos colectivos se contará a partir del día siguiente al de la fecha de
-vencimiento del contrato colectivo o fallo arbitral anterior.
-
 ## 2. Si no existe instrumento colectivo anterior, la vigencia se contará a
+
+**Definición Canónica:** partir del día siguiente al de su suscripción.
+   Por otro lado, en el caso de los convenios colectivos, el Código del
+Trabajo permite a las partes regular el período de vigencia en la forma
+que les parezca, sin la obligación de sujetarse a lo dispuesto en el artículo
+324, por lo que podrían fijar el inicio de la vigencia del convenio en una
+oportunidad distinta a la establecida en la ley (Lizama Portal, 2016: 119).
+   Existe una excepción a la regla general para el caso en que se hubiera
+hecho efectiva la huelga. El artículo 324 en su inciso tercero distingue
+entre el inicio de la vigencia y
+**Concordancias Legales:** artículo 324; artículo 326 del Código del Trabajo indica que las copias orig; artículos 463; artículo 464 del Código; artículos 503; artículos 500; constitución
 
 partir del día siguiente al de su suscripción.
    Por otro lado, en el caso de los convenios colectivos, el Código del
@@ -4917,8 +4980,11 @@ del Código.
 dicha sentencia podrá ser impugnada por medio de todos los recursos
 establecidos en el Código del ramo, con excepción del recurso de unificación de jurisprudencia.
 
-
 ## Capítulo 4
+
+**Definición Canónica:** La judicialización en el derecho colectivo
+del trabajo1
+**Concordancias Legales:** artículo 222 del Código del Trabajo; Ley 20.940; constitución
 
 La judicialización en el derecho colectivo
 del trabajo1
@@ -4943,13 +5009,13 @@ al respecto al sindicato.
    Dentro del plazo de sesenta días contados desde la notificación, el
 sindicato puede:
 
-## 1. Subsanar los defectos de constitución o conformar sus estatutos a
-
-       las observaciones formuladas por la Inspección.
-
 ## 2. Reclamar de esas observaciones ante el Juzgado de Letras del Tra-
 
-       bajo respectivo, bajo apercibimiento de tener por caducada su per-
+**Definición Canónica:** bajo respectivo, bajo apercibimiento de tener por caducada su per-
+       sonalidad jurídica por el solo ministerio de la ley.
+**Concordancias Legales:** artículo 504 del Código. Este ordena que en todos aquellos cas; artículo 282 del Código del Trabajo; artículos 296; artículo 399 del Código del Trabajo otorga competencia para co; artículo 194 del Código de Procedimiento Civil; artículo 400 del Código del Trabajo contempla las medidas de r; artículo 345; artículo 406; artículo 362; artículo 402; artículo 303 del Código del Trabajo; artículo 3; artículo 305; artículo 504; artículo 319; artículo 326; artículo 506; artículos 503; artículo 337; artículos 339; artículo 354; artículos 496; artículo 497; artículo 387; artículo 377; Ley 20.940; constitución
+
+bajo respectivo, bajo apercibimiento de tener por caducada su per-
        sonalidad jurídica por el solo ministerio de la ley.
 
  1 Véase Lazama Fuentes (2016: 331).

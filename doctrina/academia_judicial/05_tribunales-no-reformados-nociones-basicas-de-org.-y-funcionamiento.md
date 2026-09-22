@@ -13,19 +13,13 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Reformados:
+               nociones básicas de
+               organización y
 
-             Reformados:
+Reformados:
                nociones básicas de
                organización y
 
@@ -47,19 +41,21 @@ extraccion: pdftotext
                                                           Cabezas
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Mario
+                                    Alruiz
+                                    Valenzuela
+                          Ingeniero Comercial de la Universidad
+                          de Talca y Magíster en Educación para
+                          la educación superior de la Universidad
+                          Santo Tomás, se desempeña en el Poder
+                          Judicial desde 2001 como administra‑
+                          dor de tribunal, sirviendo actualmente
+                          dicho cargo en el Juzgado de Letras del
+                          Trabajo de Talca. Desde 19
 
-                          Mario
+Mario
                                     Alruiz
                                     Valenzuela
                           Ingeniero Comercial de la Universidad
@@ -92,26 +88,22 @@ docente Nº 30             el año 2009 a la fecha, ejerce el cargo
 Santiago,                 de juez titular del Juzgado de Letras del
 Chile 2021                Trabajo de Talca.
 
-
-## Isbn n°
-
-
-## 2022-a-1848
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Nelson
+                               Lorca
+                               Poblete
+                          Abogado de la Universidad de Talca
+                          y Magíster en Derecho de esa misma
+                          casa de estudios, ingresó al Poder Ju‑
+                          dicial en 2006 y desde 2009 sirve el
+                          cargo de relator de la Corte de Apela‑
+                          ciones de Talca. Cuenta con experien‑
+                          cia de más de 15 años como docente
+                          de Derecho Procesal en la Universidad
+             
 
-                          Nelson
+Nelson
                                Lorca
                                Poblete
                           Abogado de la Universidad de Talca
@@ -170,251 +162,12 @@ Chile 2021                Academia Judicial.
 
                                         Tabla de abreviaturas                                                                8
 
-
-## 1. Poder Judicial y administración de justicia en general                            9
-
-
-
-## 1.1 Corte Suprema                                                                13
-
-
-
-## 1.2 Cortes de Apelaciones                                                        15
-
-
-
-## 1.3 Tribunales de primera instancia                                              16
-
-
-
-## 2. Concepto, organización y atribuciones de los juzgados no reformados              22
-
-
-
-## 2.1 Definición y normativa de los tribunales no reformados                       23
-
-
-
-## 2.2 Funcionamiento, composición y clasificación                                  27
-
-
-
-## 2.2.1 Aspectos comunes y diferencias                                       28
-
-
-
-## 2.3 Competencia de los juzgados no reformados                                    29
-
-
-
-## 3. Aspectos y definiciones generales                                                32
-
-
-
-## 3.1 Procedimiento ordinario                                                      33
-
-
-
-## 3.1.1 Procedimiento ordinario de mayor cuantía                             33
-
-
-
-## 3.1.2 Procedimiento ordinario de menor cuantía                             43
-
-
-
-## 3.1.3 Procedimiento ordinario de mínima cuantía                            44
-
-
-
-## 3.2 Procedimiento sumario                                                        46
-
-
-
-## 3.2.1 Estructura del procedimiento                                         46
-
-
-
-## 3.3 Procedimiento ejecutivo                                                      50
-
-
-
-## 3.3.1 Clasificación                                                        50
-
-
-
-## 3.3.2 Estructura básica                                                    50
-
-
-
-## 3.4 Actos judiciales no contenciosos                                             56
-
-
-
-## 3.4.1 Requisitos                                                           56
-
-
-
-## 3.4.2 Características                                                      56
-
-
-
-## 3.4.3 Tramitación                                                          56
-
-
-
-## 4. Procedimiento de tramitación vía carpeta electrónica                             62
-
-
-
-## 4.1 Ley Nº 20.886 (Auto Acordado N° 71-2016): principales características        63
-
-
-
-## 4.2 Dispositivos electrónicos: firma electrónica avanzada y georreferenciación   66
-
-
-
-## 4.3 Uso de los sistemas SITCI y SITMIX                                           73
-
-Tribunales No                                                                                                                                         6
-
-
-## 5. Sección o Unidad de Atención de Público                                                              77
-
-
-
-## 5.1 Integrantes y principales funciones de la atención de público                                    83
-
-
-
-## 5.1.1 Integrantes                                                                              83
-
-
-
-## 5.1.2 Funciones de la Unidad de Atención de Público                                            83
-
-
-
-## 5.2 Manejo de usuarios complejos                                                                     93
-
-
-
-## 5.3 Sistemas públicos de información para la atención de usuarios                                    94
-
-
-
-## 5.3.1 Página web del Poder Judicial                                                            94
-
-
-
-## 5.3.2 Sistema de traducción en línea                                                           96
-
-
-
-## 5.4 Notificaciones y citaciones                                                                      98
-
-
-
-## 5.5 Registro de información de instituciones relacionadas                                            100
-
-
-
-## 5.6 Documentación recibida y correspondencia despachada                                              102
-
-
-
-## 5.6.1 Principales documentos recibidos por los tribunales no reformados                        102
-
-
-
-## 5.6.2 Principales documentos despachados por los tribunales no reformados                      104
-
-
-
-## 6. Secciones o Unidad de Causas, Sala y Cumplimiento, según la tipología de tribunal                    107
-
-
-
-## 6.1   Organización y flujo de trabajo en los tribunales no reformados                                108
-
-
-
-## 6.1.1 Cargos y funciones                                                                       117
-
-
-
-## 6.2 Organización y flujo de trabajo en tribunales bicéfalos                                          129
-
-
-
-## 7. Gestión administrativa para tribunales no reformados                                                 138
-
-
-
-## 7.1 Planificación                                                                                    140
-
-
-
-## 7.1.2 Recursos humanos                                                                         140
-
-
-
-## 7.1.3 Servicios e infraestructura                                                              142
-
-
-
-## 7.1.4 Procesos                                                                                 143
-
-
-
-## 7.2 Organización                                                                                     145
-
-
-
-## 7.3 Dirección                                                                                        147
-
-
-
-## 7.4 Control                                                                                          148
-
-
-
-## 7.5 Procedimientos indispensables en la gestión administrativa de un juzgado no reformado            149
-
-
-
-## 7.5.1 Distribución del personal en las diferentes secciones o unidades y su dotación
-
-                                                       mínima para un funcionamiento adecuado                                                   149
-
-
-## 7.5.2 Modelo de polifuncionalidad y matriz de subrogaciones en los tribunales no reformados    154
-
-
-
-## 7.5.3 Procedimiento objetivo y general de distribución de causas y criterios de agendamiento
-
-                                                       de audiencias                                                                            158
-
-
-## 7.5.4 Protocolo de inducción al personal nuevo en un juzgado de letras no reformado            160
-
-Tribunales No                                                                                                                 7
-
-
-## 7.5.5   Decretos económicos                                                     166
-
-
-
-## 7.5.6   Metas de gestión de desempeño colectivo y de eficiencia institucional   167
-
-
-
 ## 7.5.7   Indicadores de gestión                                                  168
 
+**Definición Canónica:** Tribunales No                                                         8
+**Concordancias Legales:** artículo 76 de la Constitución Política de; artículo 4; artículo 76 de la Carta Fundamental; Constitución Política; constitucion; Constitución
 
-Tribunales No                                                         8
+Tribunales No                                                         8
 
                                      Tabla de abreviaturas
 
@@ -556,11 +309,12 @@ Reformados: nociones                                                            
 Tribunales No                                                          1. Poder Judicial y administración                                    13
 Reformados: nociones                                                      de justicia en general
 
-
 ## 1.1                  Corte Suprema
 
+**Definición Canónica:** Video       Cápsula audiovisual Poder Judicial
+**Concordancias Legales:** artículo 306 del Código Or; constitucion
 
-                                                               Video       Cápsula audiovisual Poder Judicial
+Video       Cápsula audiovisual Poder Judicial
 
                                                                          A la cabeza del Poder Judicial se encuentra la Corte Suprema de
                                                                          Justicia, tribunal colegiado con sede en la capital de la República
@@ -611,11 +365,11 @@ Reformados: nociones                                                      de jus
 Tribunales No                                                          1. Poder Judicial y administración                                     15
 Reformados: nociones                                                      de justicia en general
 
-
 ## 1.2                  Cortes de
 
+**Definición Canónica:** Apelaciones
 
-                                                                         Apelaciones
+Apelaciones
 
                                                                Video       Cápsula audiovisual Poder Judicial
 
@@ -642,11 +396,12 @@ Reformados: nociones                                                      de jus
 
 Tribunales No                                                  1. Poder Judicial y administración                                     16
 
-
 ## 1.3                  Tribunales de
 
+**Definición Canónica:** primera instancia
+**Concordancias Legales:** artículo 47 del COT; artículos 76; Ley Nº 19.968; Ley Nº 20.022; Ley Nº 17.322; Ley Nº 20.023; constitución
 
-                                                                 primera instancia
+primera instancia
 
                                                                  En la base del Poder Judicial se encuentran los tribunales de primera
                                                                  instancia, que, salvo excepciones, son los primeros en ser llamados a
@@ -872,11 +627,13 @@ Reformados: nociones                                                            
                                                                                    Cápsula audiovisual Poder Judicial
                                                                      Video
 
-
 ## 2.1                Definición y
 
+**Definición Canónica:** normativa de lostribunales no
+                                                                                 reformados
+**Concordancias Legales:** artículo 27; artículos 27 bis; artículo 34; Constitución
 
-                                                                                 normativa de lostribunales no
+normativa de lostribunales no
                                                                                  reformados
 
                                                       Los denominados            En principio, se debe establecer que los denominados tribunales
@@ -1011,10 +768,12 @@ Reformados: nociones                                              de los juzgado
 Tribunales No                                                        2. Concepto, organización y atribuciones                              27
 Reformados: nociones                                                    de los juzgados no reformados
 
-
 ## 2.2     Funcionamiento, composicióny
 
-                                                                       clasificación
+**Definición Canónica:** clasificación
+**Concordancias Legales:** artículos 27
+
+clasificación
 
                                                                        Como ya se dijo, los juzgados de letras se conforman por uno o más
                                                                        jueces con competencia en un mismo territorio jurisdiccional, si bien
@@ -1036,10 +795,16 @@ Reformados: nociones                                              de los juzgado
                                                                  Clasificación familias
                                                                  de cargos
 
-
 ## 2.2.1 Aspectos comunes y diferencias
 
-                                                                 Los juzgados de letras tienen en común que, principalmente, se
+**Definición Canónica:** Los juzgados de letras tienen en común que, principalmente, se
+                                                                 tramita por medio de un procedimiento escrito establecido en el
+                                                                 Código de Procedimiento Civil, sin perjuicio de aquellos establecidos
+                                                                 en leyes especiales y los especificados para determinadas audiencias
+                                                                 orales. Se debe litigar mediante abogado habilitado para el ejercicio
+    
+
+Los juzgados de letras tienen en común que, principalmente, se
                                                                  tramita por medio de un procedimiento escrito establecido en el
                                                                  Código de Procedimiento Civil, sin perjuicio de aquellos establecidos
                                                                  en leyes especiales y los especificados para determinadas audiencias
@@ -1055,10 +820,12 @@ Reformados: nociones                                              de los juzgado
 Tribunales No                                                                2. Concepto, organización y atribuciones                                  29
 Reformados: nociones                                                            de los juzgados no reformados
 
-
 ## 2.3             Competencia de los juzgadosno
 
-                                                                               reformados
+**Definición Canónica:** reformados
+**Concordancias Legales:** artículo 45 del Código Orgánico de Tribunales; Artículo 1; artículos 2
+
+reformados
 
                                                                Materias y procedimientos de mayor aplicación y/o uso en
                                                                tribunales de competencia civil
@@ -1174,19 +941,25 @@ Reformados: nociones                                                            
 Tribunales No                                                                              3. Concepto, organización y atribuciones                                       33
 Reformados: nociones                                                                          de los juzgados no reformados
 
-
 ## 3.1              Procedimiento ordinario
 
-
-                                                                                             El procedimiento ordinario es de naturaleza declarativa por excelencia. Si
+**Definición Canónica:** El procedimiento ordinario es de naturaleza declarativa por excelencia. Si
                                                                                              se atiende a la cuantía del juicio en particular, se puede clasificar este pro-
                                                                                              cedimiento en juicio ordinario de mayor, de menor o de mínima cuantía.5
                                                                                              El más utilizado de todos es el juicio ordinario de mayor cuantía.
 
+El procedimiento ordinario es de naturaleza declarativa por excelencia. Si
+                                                                                             se atiende a la cuantía del juicio en particular, se puede clasificar este pro-
+                                                                                             cedimiento en juicio ordinario de mayor, de menor o de mínima cuantía.5
+                                                                                             El más utilizado de todos es el juicio ordinario de mayor cuantía.
 
 ## 3.1.1 Procedimiento ordinario de mayor cuantía
 
-                                                                                             Regulado en los artículos 253 y siguientes del Código de Procedimien-
+**Definición Canónica:** Regulado en los artículos 253 y siguientes del Código de Procedimien-
+                                                                                             to Civil, este procedimiento presenta como una de sus características
+**Concordancias Legales:** artículos 253; artículo 3
+
+Regulado en los artículos 253 y siguientes del Código de Procedimien-
                                                                                              to Civil, este procedimiento presenta como una de sus características
 
                                                                                              más relevantes el ser supletorio, esto es, sus normas se aplican a otro
@@ -1208,10 +981,12 @@ Reformados: nociones                                                            
                                                                                                 contestación y en la dúplica se plantean las excepciones, defensas
                                                                                                 y alegaciones del demandado.
 
-
 ## 5        Mayor cuantía: 500 UTM o más; menor cuantía: más de 10 UTM y hasta 500 UTM; mínima cuantía: cuando
 
-                                                               no se exceda las 10 UTM, todo ello de acuerdo a los artículos 698 y 703 del Código de Procedimiento Civil.
+**Definición Canónica:** no se exceda las 10 UTM, todo ello de acuerdo a los artículos 698 y 703 del Código de Procedimiento Civil.
+**Concordancias Legales:** artículos 698
+
+no se exceda las 10 UTM, todo ello de acuerdo a los artículos 698 y 703 del Código de Procedimiento Civil.
 
 Tribunales No                                                                     3. Concepto, organización y atribuciones                            34
 Reformados: nociones                                                                 de los juzgados no reformados
@@ -1225,10 +1000,12 @@ Reformados: nociones                                                            
                                                                                       tencia definitiva por parte del tribunal, resolución que define
                                                                                       la cuestión o asunto que ha sido el objeto del juicio respectivo.
 
-
 ## 3.1.1.1 Trámites del procedimiento o
 
-                                                      La demanda
+**Definición Canónica:** La demanda
+**Concordancias Legales:** artículo 178 del Código Orgánico de Tribunales; artículo 254 del Código de Procedimiento Civil; Artículos 258; artículo 309 del Código de Procedimiento Civil. Ellos son; artículo 310 del Código de Procedimiento Civil; artículos 254; artículo 1698 del Código Civil; artículo 341 del Código de Procedimiento Civil; artículo 162; artículo 170 del Código de Procedimiento Civil. Tribunales N; Ley N° 18.120
+
+La demanda
 
                                                                              juicio ordinario de mayor cuantía
                                                       contiene la
@@ -1517,10 +1294,15 @@ Reformados: nociones                           de los juzgados no reformados
 Tribunales No                                                  3. Concepto, organización y atribuciones                                 43
 Reformados: nociones                                              de los juzgados no reformados
 
-
 ## 3.1.2 Procedimiento ordinario de menor cuantía
 
-                                                                 Encuentra su regulación en los artículos 698 y siguientes del Código
+**Definición Canónica:** Encuentra su regulación en los artículos 698 y siguientes del Código
+                                                                 de Procedimiento Civil, siendo aplicado siempre que el legislador no
+                                                                 haya previsto un procedimiento especial y cuando la cuantía del juicio
+                                                                 sea superior a 10 pero inferior a 500 Unidades Tributarias Mensuales.
+**Concordancias Legales:** artículos 698
+
+Encuentra su regulación en los artículos 698 y siguientes del Código
                                                                  de Procedimiento Civil, siendo aplicado siempre que el legislador no
                                                                  haya previsto un procedimiento especial y cuando la cuantía del juicio
                                                                  sea superior a 10 pero inferior a 500 Unidades Tributarias Mensuales.
@@ -1542,10 +1324,15 @@ Reformados: nociones                                              de los juzgado
                                                                  — El plazo para hacer observaciones a la prueba es de seis días.
                                                                  — El plazo para dictar sentencia definitiva es de quince días.
 
-
 ## 3.1.3 Procedimiento ordinario de mínima cuantía
 
-                                                                 Se encuentra regulado en el artículo 703 y siguientes del Código
+**Definición Canónica:** Se encuentra regulado en el artículo 703 y siguientes del Código
+                                                                 de Procedimiento Civil, siendo aplicado siempre que el legislador
+                                                                 no haya previsto un procedimiento especial y cuando la cuantía del
+                                                                 juicio no sea superior a 10 UTM.
+**Concordancias Legales:** artículo 703; artículo 725 del Código de Procedimiento Civil. Tribunales N
+
+Se encuentra regulado en el artículo 703 y siguientes del Código
                                                                  de Procedimiento Civil, siendo aplicado siempre que el legislador
                                                                  no haya previsto un procedimiento especial y cuando la cuantía del
                                                                  juicio no sea superior a 10 UTM.
@@ -1595,11 +1382,16 @@ Reformados: nociones                                              de los juzgado
 Tribunales No                                                        3. Concepto, organización y atribuciones                              46
 Reformados: nociones                                                    de los juzgados no reformados
 
-
 ## 3.2     Procedimiento sumario
 
+**Definición Canónica:** Se encuentra regulado en los artículos 680 y siguientes del Código
+                                                                       de Procedimiento Civil. En su formulación legal, caracterizada por la
+                                                                       aplicación de la oralidad, la existencia de una audiencia de contesta-
+                                                                       ción y conciliación, y plazos acotados de tramitación, se ve plasmada
+                                                                       una idea de celeridad en la resolución
+**Concordancias Legales:** artículos 680; artículo 680
 
-                                                                       Se encuentra regulado en los artículos 680 y siguientes del Código
+Se encuentra regulado en los artículos 680 y siguientes del Código
                                                                        de Procedimiento Civil. En su formulación legal, caracterizada por la
                                                                        aplicación de la oralidad, la existencia de una audiencia de contesta-
                                                                        ción y conciliación, y plazos acotados de tramitación, se ve plasmada
@@ -1623,21 +1415,25 @@ Reformados: nociones                                                    de los j
                                                                        las cuestiones relativas a las servidumbres legales y naturales; a los
                                                                        juicios sobre depósito necesario y comodato precario, etcétera.
 
-
-## 3.2.1 Estructura del procedimiento
-
-
-
 ## 3.2.1.1 Puede comenzar por una demanda o una
 
-                                                                       medida prejudicial. La demanda debe cumplir
+**Definición Canónica:** medida prejudicial. La demanda debe cumplir
+                                                                       con los requisitos del artículo 254 del Código de
+                                                                       Procedimiento Civil y con la Ley N° 18.120.
+**Concordancias Legales:** artículo 254 del Código de; Ley N° 18.120
+
+medida prejudicial. La demanda debe cumplir
                                                                        con los requisitos del artículo 254 del Código de
                                                                        Procedimiento Civil y con la Ley N° 18.120.
 
-
 ## 3.2.1.2 Ante una demanda que cumpla con los
 
-                                                                       requisitos previamente mencionados, el tribunal debe
+**Definición Canónica:** requisitos previamente mencionados, el tribunal debe
+                                                                       citar a las partes a una audiencia de contestación
+                                                                       y conciliación para el quinto día posterior a la
+**Concordancias Legales:** artículo 259 del Código de Procedimiento Civil
+
+requisitos previamente mencionados, el tribunal debe
                                                                        citar a las partes a una audiencia de contestación
                                                                        y conciliación para el quinto día posterior a la
 
@@ -1649,10 +1445,14 @@ Reformados: nociones                                              de los juzgado
                                                                  notificado el demandado, de conformidad con el
                                                                  artículo 259 del Código de Procedimiento Civil.
 
-
 ## 3.2.1.3 La audiencia tiene por objeto recibir
 
-                                                                 contestación del demandado, la que puede ser
+**Definición Canónica:** contestación del demandado, la que puede ser
+                                                                 escrita o verbal, y luego de ello procede el trámite
+                                                                 de la conciliación. Hay que distinguir si a la misma
+                                                                 asisten ambas partes o si solo asiste una de ellas.
+
+contestación del demandado, la que puede ser
                                                                  escrita o verbal, y luego de ello procede el trámite
                                                                  de la conciliación. Hay que distinguir si a la misma
                                                                  asisten ambas partes o si solo asiste una de ellas.
@@ -1669,17 +1469,26 @@ Reformados: nociones                                              de los juzgado
                                                                  — Solo asiste el demandado: el procedimiento continúa en rebeldía
                                                                    del demandante.
 
-
 ## 3.2.1.4 Concluida la audiencia de contestación y
 
-                                                                 conciliación, el tribunal debe recibir la causa a
+**Definición Canónica:** conciliación, el tribunal debe recibir la causa a
                                                                  prueba en caso de estimar que existen hechos
                                                                  sustanciales, pertinentes y controvertidos.
 
+conciliación, el tribunal debe recibir la causa a
+                                                                 prueba en caso de estimar que existen hechos
+                                                                 sustanciales, pertinentes y controvertidos.
 
 ## 3.2.1.5 El término probatorio es de ocho días, pues
 
-                                                                 se aplican las reglas de los incidentes en este
+**Definición Canónica:** se aplican las reglas de los incidentes en este
+                                                                 aspecto; el plazo antes indicado comienza a correr
+                                                                 desde la notificación de la resolución que recibe la
+                                                                 causa a prueba y, dentro de los dos primeros días
+                                                                 del término probatorio, se debe acompañar la lista
+                                                                 de testigos de los que
+
+se aplican las reglas de los incidentes en este
                                                                  aspecto; el plazo antes indicado comienza a correr
                                                                  desde la notificación de la resolución que recibe la
                                                                  causa a prueba y, dentro de los dos primeros días
@@ -1694,10 +1503,14 @@ Reformados: nociones                                              de los juzgado
 Tribunales No                                                  3. Concepto, organización y atribuciones             48
 Reformados: nociones                                              de los juzgados no reformados
 
-
 ## 3.2.1.7 La sentencia debe dictarse en el término
 
-                                                                 de diez días y, por aplicación supletoria,
+**Definición Canónica:** de diez días y, por aplicación supletoria,
+                                                                 debe cumplir con los requisitos del artículo
+                                                                 170 del Código de Procedimiento Civil.
+**Concordancias Legales:** artículo 170 del Código de Procedimiento Civil. Tribunales N
+
+de diez días y, por aplicación supletoria,
                                                                  debe cumplir con los requisitos del artículo
                                                                  170 del Código de Procedimiento Civil.
 
@@ -1707,10 +1520,11 @@ Reformados: nociones                                              de los juzgado
 Tribunales No                                                                               3. Concepto, organización y atribuciones                                       50
 Reformados: nociones                                                                           de los juzgados no reformados
 
-
 ## 3.3              Procedimiento
 
-                                                                                              ejecutivo
+**Definición Canónica:** ejecutivo
+
+ejecutivo
 
                                                                                               Como se explicitara con anterioridad, no basta solo con obtener la
                                                                                               dictación de una sentencia que acoja la demanda que ha presentado
@@ -1727,7 +1541,12 @@ Reformados: nociones                                                            
 
 ## 3.3.1 Clasificación
 
-                                                      o juicio ejecutivo                      El procedimiento o juicio ejecutivo reconoce su principal clasificación
+**Definición Canónica:** o juicio ejecutivo                      El procedimiento o juicio ejecutivo reconoce su principal clasificación
+                                                      reconoce                                en aquella que distingue entre juicio ejecutivo de obligación de dar,
+                                                      su principal                            de obligación de hacer y de obligación de no hacer, dependiendo de
+                                                      clasificación                           la naturaleza de la obligación que se trata de cumplir.
+
+o juicio ejecutivo                      El procedimiento o juicio ejecutivo reconoce su principal clasificación
                                                       reconoce                                en aquella que distingue entre juicio ejecutivo de obligación de dar,
                                                       su principal                            de obligación de hacer y de obligación de no hacer, dependiendo de
                                                       clasificación                           la naturaleza de la obligación que se trata de cumplir.
@@ -1781,10 +1600,14 @@ Reformados: nociones                                                           d
                                                                               debe procederse antes de la demanda con una gestión preparatoria
                                                                               para allanar la vía ejecutiva que se va a utilizar.
 
-
 ## 3.3.2.1 Cuaderno principal
 
-                                                                              Se inicia con la demanda ejecutiva, que debe cumplir con los requi-
+**Definición Canónica:** Se inicia con la demanda ejecutiva, que debe cumplir con los requi-
+                                                                              sitos del artículo 254 del Código de Procedimiento Civil y con la Ley
+                                                                              N° 18.120, sobre comparecencia en juicio.
+**Concordancias Legales:** artículo 254 del Código de Procedimiento Civil y con la Ley; artículo 464 del Código de Procedimiento; Ley N° 18.120
+
+Se inicia con la demanda ejecutiva, que debe cumplir con los requi-
                                                                               sitos del artículo 254 del Código de Procedimiento Civil y con la Ley
                                                                               N° 18.120, sobre comparecencia en juicio.
 
@@ -1823,10 +1646,14 @@ Reformados: nociones                                              de los juzgado
                                                                  pago o de remate, dependiendo de si es necesario o no realizar otros
                                                                  trámites para obtener el pago de lo adeudado.
 
-
 ## 3.3.2.2 Cuaderno de apremio
 
-                                                                 Se inicia con la resolución denominada mandamiento de ejecución
+**Definición Canónica:** Se inicia con la resolución denominada mandamiento de ejecución
+                                                                 y embargo. Si el ejecutado no paga al requerírsele de pago, se debe
+                                                                 proceder al embargo de sus bienes, diligencia que efectúa el receptor
+                                                                 judicial. El embargo puede recaer en bienes muebles y/o inmuebles.
+
+Se inicia con la resolución denominada mandamiento de ejecución
                                                                  y embargo. Si el ejecutado no paga al requerírsele de pago, se debe
                                                                  proceder al embargo de sus bienes, diligencia que efectúa el receptor
                                                                  judicial. El embargo puede recaer en bienes muebles y/o inmuebles.
@@ -1839,10 +1666,12 @@ Reformados: nociones                                              de los juzgado
                                                                  entre otras cosas, la debida publicidad del remate y la fijación de un
                                                                  precio mínimo del bien a subastar.
 
-
 ## 3.3.2.3 Cuaderno de tercerías
 
-                                                                 Las tercerías se refieren a la intervención de terceros en el procedi-
+**Definición Canónica:** Las tercerías se refieren a la intervención de terceros en el procedi-
+                                                                 miento ejecutivo y pueden ser:
+
+Las tercerías se refieren a la intervención de terceros en el procedi-
                                                                  miento ejecutivo y pueden ser:
 
 Tribunales No                                                  3. Concepto, organización y atribuciones                            53
@@ -1860,10 +1689,12 @@ Reformados: nociones                                              de los juzgado
                                                                  — Tercería de pago: es la que utiliza un acreedor valista o sin pri-
                                                                    vilegio, para poder pagarse a prorrata en el resultado del remate.
 
-
 ## 3.3.2.4 Cuaderno de incidentes
 
-                                                                 Se forma con las cuestiones accesorias que se promuevan por las
+**Definición Canónica:** Se forma con las cuestiones accesorias que se promuevan por las
+                                                                 partes a lo largo del procedimiento ejecutivo.
+
+Se forma con las cuestiones accesorias que se promuevan por las
                                                                  partes a lo largo del procedimiento ejecutivo.
 
 Tribunales No                                            3. Concepto, organización y atribuciones   54
@@ -1877,11 +1708,16 @@ Reformados: nociones                                        de los juzgados no r
 Tribunales No                                                        3. Concepto, organización y atribuciones                                 56
 Reformados: nociones                                                    de los juzgados no reformados
 
-
 ## 3.4     Actos judiciales no contenciosos
 
+**Definición Canónica:** Como adelantamos al inicio, los tribunales no solamente tienen
+                                                                       como función el resolver conflictos de relevancia jurídica, sino que
+                                                                       también deben intervenir, por disponerlo así la ley, en ciertos proce-
+                                                                       dimientos en que no existe conflicto alguno. Estos últimos son los
+                                                                       denominados actos judiciales no contenciosos y
+**Concordancias Legales:** artículo 817 del Código de Procedimiento Civil
 
-                                                                       Como adelantamos al inicio, los tribunales no solamente tienen
+Como adelantamos al inicio, los tribunales no solamente tienen
                                                                        como función el resolver conflictos de relevancia jurídica, sino que
                                                                        también deben intervenir, por disponerlo así la ley, en ciertos proce-
                                                                        dimientos en que no existe conflicto alguno. Estos últimos son los
@@ -1892,24 +1728,33 @@ Reformados: nociones                                                    de los j
 
                                                                        que inicia el procedimiento y quien plantea su solicitud al tribunal.
 
-
 ## 3.4.1 Requisitos
 
-                                                                       Para estar en presencia de un acto judicial no contencioso, una ley
+**Definición Canónica:** Para estar en presencia de un acto judicial no contencioso, una ley
                                                                        debe disponer que un tribunal intervenga en el asunto respectivo y,
                                                                        además, no debe existir contienda alguna entre partes.
 
+Para estar en presencia de un acto judicial no contencioso, una ley
+                                                                       debe disponer que un tribunal intervenga en el asunto respectivo y,
+                                                                       además, no debe existir contienda alguna entre partes.
 
 ## 3.4.2 Características
 
-                                                                       Son esencialmente revocables, lo que se consigue mediante el deno-
+**Definición Canónica:** Son esencialmente revocables, lo que se consigue mediante el deno-
                                                                        minado recurso de revocación o modificación. No afectan derechos
                                                                        de terceros.
 
+Son esencialmente revocables, lo que se consigue mediante el deno-
+                                                                       minado recurso de revocación o modificación. No afectan derechos
+                                                                       de terceros.
 
 ## 3.4.3 Tramitación
 
-                                                                       Si es un acto judicial no contencioso que tiene tramitación expresa en
+**Definición Canónica:** Si es un acto judicial no contencioso que tiene tramitación expresa en
+                                                                       el Código de Procedimiento Civil o en otra ley, se aplican esas reglas.
+**Concordancias Legales:** artículo 826 del Código de Procedimiento Civil; artículos 446; artículos 496; artículos 485; artículo 464 del Código del Trabajo; artículo 8; artículo 1; artículo 406 del Código Procesal; Ley N° 17.322; Ley N° 19.968; Ley N° 20.084; Ley Nº 20.886; Ley Nº 19.628; constitución
+
+Si es un acto judicial no contencioso que tiene tramitación expresa en
                                                                        el Código de Procedimiento Civil o en otra ley, se aplican esas reglas.
 
                                                                        Si no está regulado en el Código de Procedimiento Civil, pero se
@@ -2227,10 +2072,12 @@ Reformados: nociones                                              de los juzgado
 Tribunales No                                                        4. Concepto, organización y atribuciones                               66
 Reformados: nociones                                                    de los juzgados no reformados
 
-
 ## 4.2     Dispositivos electrónicos: firma
 
-                                                                       electrónicaavanzada y georreferenciación
+**Definición Canónica:** electrónicaavanzada y georreferenciación
+**Concordancias Legales:** Artículo 4; artículos 21; Artículo 21; Artículo 22; artículo 3; artículo 9; artículo 532 del Código; Ley Nº 20.886; Ley Nº 19.799
+
+electrónicaavanzada y georreferenciación
 
                                                                        [Ley Nº 20.886] Artículo 4º. Firma electrónica de resoluciones y
                                                                        actuaciones del tribunal y copias autorizadas. Las resoluciones y
@@ -2415,11 +2262,14 @@ Reformados: nociones                                              de los juzgado
 Tribunales No                                                        4. Concepto, organización y atribuciones                               73
 Reformados: nociones                                                    de los juzgados no reformados
 
-
 ## 4.3     Uso de los sistemasSITCI y SITMIX
 
+**Definición Canónica:** Para su tramitación, los juzgados de letras no reformados utilizan el
+                                                                       sistema informático designado con las siglas SITCI o SITMIX (Sis-
+                                                                       tema Informático de Tramitación Civil o Mixto, según corresponda).
+**Concordancias Legales:** Artículo 3; artículo 23 del Acta Nº 71; artículo 5; artículo 20 del Acta Nº 71; Artículo 24; Artículo 25; Artículo 26; Artículo 27; artículo 2; Artículo 28; Ley Nº 20.886
 
-                                                                       Para su tramitación, los juzgados de letras no reformados utilizan el
+Para su tramitación, los juzgados de letras no reformados utilizan el
                                                                        sistema informático designado con las siglas SITCI o SITMIX (Sis-
                                                                        tema Informático de Tramitación Civil o Mixto, según corresponda).
 
@@ -2564,10 +2414,12 @@ Reformados: nociones                                              de los juzgado
                                                                      procedimientos eficientes que permitan a las Cortes tener acceso
                                                                      a estos expedientes o piezas.
 
-
 ## Sección o Unidad de
 
-                                                               Atención de Público
+**Definición Canónica:** Atención de Público
+**Concordancias Legales:** artículo 33; Constitución
+
+Atención de Público
 
 Tribunales No                                                  5. Sección o Unidad de                                                  78
 
@@ -2745,15 +2597,15 @@ Reformados: nociones                                              de los juzgado
 Tribunales No                                                        5. Sección o Unidad de                                                  83
 Reformados: nociones                                                    Atención de Público
 
-
-## 5.1     Integrantes y principales funciones
-
-                                                                       de la atención de público
-
-
 ## 5.1.1 Integrantes
 
-                                                                       En los tribunales no reformados, considerando los distintos tipos
+**Definición Canónica:** En los tribunales no reformados, considerando los distintos tipos
+                                                                       de tribunales que existen dentro de la categoría y dependiendo de
+                                                                       sus tamaños e ingreso de causas, generalmente cuentan con uno o
+                                                                       dos funcionarios para labores de atención de público, muchas veces
+                                                                       divididos por secciones; por ejemplo, una persona par
+
+En los tribunales no reformados, considerando los distintos tipos
                                                                        de tribunales que existen dentro de la categoría y dependiendo de
                                                                        sus tamaños e ingreso de causas, generalmente cuentan con uno o
                                                                        dos funcionarios para labores de atención de público, muchas veces
@@ -2771,10 +2623,14 @@ Reformados: nociones                                                    Atenció
                                                                        en cualquiera de ellas y evitar así tener que derivarlos a la orientación
                                                                        de algún funcionario tramitador de las causas.
 
-
 ## 5.1.2 Funciones de la Unidad de Atención de Público
 
-                                                                       Antes de desarrollar más en detalle las principales funciones de aten-
+**Definición Canónica:** Antes de desarrollar más en detalle las principales funciones de aten-
+                                                                       ción de público de los tribunales no reformados, a continuación se
+                                                                       enumeran las funciones asignadas a los tipos de tribunales de letras
+                                                                       no reformados, según el último descriptor de cargos de la CAPJ.
+
+Antes de desarrollar más en detalle las principales funciones de aten-
                                                                        ción de público de los tribunales no reformados, a continuación se
                                                                        enumeran las funciones asignadas a los tipos de tribunales de letras
                                                                        no reformados, según el último descriptor de cargos de la CAPJ.
@@ -2879,10 +2735,17 @@ Reformados: nociones                                                    Atenció
                                                                  tintos tipos de tribunales no reformados se pueden circunscribir en
                                                                  las que se desglosan en los siguientes acápites.
 
-
 ## 5.1.2.1 Informar al público general acerca
 
-                                                                 del estado de las causas, audiencias y
+**Definición Canónica:** del estado de las causas, audiencias y
+                                                                 comparendos que se tramitan en el tribunal
+                                                                 Esta información de causas se entrega principalmente a través de
+                                                                 los sistemas informáticos de tramitación, que en cada caso están
+                                                                 contenidos en los siguientes sistemas:
+                                                                 — SITMIX para los juzgad
+**Concordancias Legales:** artículo 34; artículo 34 del Acta Nº 71
+
+del estado de las causas, audiencias y
                                                                  comparendos que se tramitan en el tribunal
                                                                  Esta información de causas se entrega principalmente a través de
                                                                  los sistemas informáticos de tramitación, que en cada caso están
@@ -2928,18 +2791,28 @@ Reformados: nociones                                                            
                                                       y fundados.              A través del incentivo de estas modalidades, el tribunal podrá disponer
                                                                                de mayores tiempos para otras funciones internas.
 
-
 ## 5.1.2.2 Confeccionar y mantener
 
-                                                                               actualizados los sistemas de atención de
+**Definición Canónica:** actualizados los sistemas de atención de
                                                                                información y orientación al usuario
                                                                                Incluye señalética, boletines informativos y folletería, entre otros
                                                                                medios. Esta función se desarrollará en detalle más adelante.
 
+actualizados los sistemas de atención de
+                                                                               información y orientación al usuario
+                                                                               Incluye señalética, boletines informativos y folletería, entre otros
+                                                                               medios. Esta función se desarrollará en detalle más adelante.
 
 ## 5.1.2.3 Entregar información sobre direcciones
 
-                                                                               de entidades, instituciones y organismos
+**Definición Canónica:** de entidades, instituciones y organismos
+                                                                               relacionados con el sistema de justicia
+                                                                               atingentes a su jurisdicción y materia
+                                                                               El Plan de Atención de Público establece la necesidad de contar con
+                                                                               información, generalmente en formato de folletería, de direcciones
+                             
+
+de entidades, instituciones y organismos
                                                                                relacionados con el sistema de justicia
                                                                                atingentes a su jurisdicción y materia
                                                                                El Plan de Atención de Público establece la necesidad de contar con
@@ -2957,10 +2830,13 @@ Reformados: nociones                                                            
                                                                  — Carabineros de Chile y Policía de Investigaciones.
                                                                  — Servicio Nacional de Menores (Sename).
 
-
 ## 5.1.2.4 Recibir documentación y
 
-                                                                 despacho de correspondencia
+**Definición Canónica:** despacho de correspondencia
+                                                                 Esta labor implica la distribución interna de documentos recibidos o
+                                                                 su ingreso para tramitación en el sistema informático, según corres-
+
+despacho de correspondencia
                                                                  Esta labor implica la distribución interna de documentos recibidos o
                                                                  su ingreso para tramitación en el sistema informático, según corres-
 
@@ -2969,10 +2845,16 @@ Reformados: nociones                                                            
                                                                  los tipos de documentos e información recibidas y despachadas que
                                                                  son más recurrentes en los juzgados no reformados.
 
-
 ## 5.1.2.5 Atender los llamados telefónicos
 
-                                                                 y traspasarlos a sus destinatarios
+**Definición Canónica:** y traspasarlos a sus destinatarios
+                                                                 Implica la atención telefónica de usuarios y, en caso de ser necesario,
+                                                                 su derivación de acuerdo a las necesidades o requerimientos que
+                                                                 presenten, siendo los más característicos los relacionados con con-
+                                                                 sultas por parte de abogados intervinientes en causas; generalmente
+                                 
+
+y traspasarlos a sus destinatarios
                                                                  Implica la atención telefónica de usuarios y, en caso de ser necesario,
                                                                  su derivación de acuerdo a las necesidades o requerimientos que
                                                                  presenten, siendo los más característicos los relacionados con con-
@@ -2982,10 +2864,16 @@ Reformados: nociones                                                            
                                                                  gado coordinador o jefe de Unidad de Causas, Sala y Cumplimiento,
                                                                  en los juzgados bicéfalos por ejemplo.
 
-
 ## 5.1.2.6 Escanear escritos, solicitudes e
 
-                                                                 informes excepcionalmente recibidos en
+**Definición Canónica:** informes excepcionalmente recibidos en
+                                                                 forma material e ingresarlos a los sistemas
+                                                                 de tramitación correspondientes
+                                                                 En las distintas materias que trabajan los juzgados no reformados
+                                                                 existen ciertas solicitudes cuyo ingreso manual se ha permitido
+                                                                 en la mayoría de los tribunale
+
+informes excepcionalmente recibidos en
                                                                  forma material e ingresarlos a los sistemas
                                                                  de tramitación correspondientes
                                                                  En las distintas materias que trabajan los juzgados no reformados
@@ -3022,10 +2910,16 @@ Reformados: nociones                                                            
                                                                  (crimen, menores, laborales antiguas) de los distintos tribunales,
                                                                  previas a la ley de tramitación electrónica.
 
-
 ## 5.1.2.7 Recibir escritos de causas de usuarios
 
-                                                                 autorizados para no tramitar por Oficina
+**Definición Canónica:** autorizados para no tramitar por Oficina
+                                                                 Judicial Virtual (OJV) y otras solicitudes
+                                                                 En este caso, puede tratarse de una persona autorizada por el tribunal
+                                                                 en razón de carecer aquella de los medios tecnológicos necesarios,
+                                                                 por lo que los escritos podrán presentarse al tribunal materialmente
+                                                 
+
+autorizados para no tramitar por Oficina
                                                                  Judicial Virtual (OJV) y otras solicitudes
                                                                  En este caso, puede tratarse de una persona autorizada por el tribunal
                                                                  en razón de carecer aquella de los medios tecnológicos necesarios,
@@ -3040,18 +2934,27 @@ Reformados: nociones                                                            
                                                                  Judicial Virtual, de manera de ir reduciendo cada vez más los casos
                                                                  excepcionales.
 
-
 ## 5.1.2.8 Publicar la información de las audiencias
 
-                                                                 diarias dónde y cuándo corresponda
+**Definición Canónica:** diarias dónde y cuándo corresponda
                                                                  Respecto de esta función, generalmente los tribunales contarán con
                                                                  ficheros en los que se informarán las audiencias semanales.
 
+diarias dónde y cuándo corresponda
+                                                                 Respecto de esta función, generalmente los tribunales contarán con
+                                                                 ficheros en los que se informarán las audiencias semanales.
 
 ## 5.1.2.9 Entregar copias de resoluciones, oficios, actas
 
+**Definición Canónica:** de audiencia y audios cuando hayan sido ordenadas
+                                                                 Sobre esta función, el artículo 35 del Acta Nº 71-2016 establece que
+                                                                 estas copias deberán ser obtenidas en la OJV. En casos excepciona-
+                                                                 les se entregará copia impresa de los registros pedidos a quienes se
+                                                                 encuentren autorizados por el tribunal a tramitar materialmente o
+                   
+**Concordancias Legales:** artículo 35 del Acta Nº 71
 
-                                                                 de audiencia y audios cuando hayan sido ordenadas
+de audiencia y audios cuando hayan sido ordenadas
                                                                  Sobre esta función, el artículo 35 del Acta Nº 71-2016 establece que
                                                                  estas copias deberán ser obtenidas en la OJV. En casos excepciona-
                                                                  les se entregará copia impresa de los registros pedidos a quienes se
@@ -3068,10 +2971,16 @@ Reformados: nociones                                                            
                                                                  la página web del Poder Judicial y la Oficina Judicial Virtual para
                                                                  obtener lo que requieran desde dichas plataformas.
 
-
 ## 5.1.2.10 Coordinar, en caso que se requiera, la
 
-                                                                 entrega de cheques o custodias valorizadas
+**Definición Canónica:** entrega de cheques o custodias valorizadas
+                                                                 Generalmente dependiendo del número de causas de los distintos
+                                                                 tribunales, cada uno tiene asociado un mayor o menor número de
+                                                                 entrega de cheques a través del giro de la cuenta corriente jurisdic-
+                                                                 cional, o de una custodia valorizada de cheque o vale vista a beneficio
+                             
+
+entrega de cheques o custodias valorizadas
                                                                  Generalmente dependiendo del número de causas de los distintos
                                                                  tribunales, cada uno tiene asociado un mayor o menor número de
                                                                  entrega de cheques a través del giro de la cuenta corriente jurisdic-
@@ -3088,17 +2997,26 @@ Reformados: nociones                                                            
                                                                  bunal o quien lo subroga, o bien está a cargo de algún funcionario
                                                                  administrativo, generalmente el oficial 1º.
 
-
 ## 5.1.2.12 Notificaciones
 
-                                                                 La Unidad de Atención de Público tiene funciones relacionadas con
+**Definición Canónica:** La Unidad de Atención de Público tiene funciones relacionadas con
                                                                  ciertos tipos de notificaciones y citaciones, las que se revisarán en
                                                                  detalle en el acápite 5.4 de este mismo capítulo.
 
+La Unidad de Atención de Público tiene funciones relacionadas con
+                                                                 ciertos tipos de notificaciones y citaciones, las que se revisarán en
+                                                                 detalle en el acápite 5.4 de este mismo capítulo.
 
 ## 5.1.2.13 Patrocinio y poder
 
-                                                                 Cuando alguno de los intervinientes presenta solicitud de autorización
+**Definición Canónica:** Cuando alguno de los intervinientes presenta solicitud de autorización
+                                                                 de patrocinio y poder a través del mesón de atención de usuarios,
+                                                                 los funcionarios solicitarán la concurrencia del ministro de fe del
+                                                                 tribunal, labor que le corresponde al secretario o quien lo subrogue,
+                                                                 el que exigirá las cédulas de identidad al abogado o la abogada y
+**Concordancias Legales:** constitución
+
+Cuando alguno de los intervinientes presenta solicitud de autorización
                                                                  de patrocinio y poder a través del mesón de atención de usuarios,
                                                                  los funcionarios solicitarán la concurrencia del ministro de fe del
                                                                  tribunal, labor que le corresponde al secretario o quien lo subrogue,
@@ -3113,10 +3031,11 @@ Reformados: nociones                                                            
                                                                  constitución del patrocinio y poder y que no implican la concurrencia
                                                                  de los intervinientes al tribunal.
 
-
 ## 5.1.2.14 Otras funciones realizadas en algunos juzgados
 
-                                                                 de letras no reformados e interesantes de considerar
+**Definición Canónica:** de letras no reformados e interesantes de considerar
+
+de letras no reformados e interesantes de considerar
 
                                                                  — Ingreso de exhortos y tramitación de los mismos a través de los
                                                                    sistemas informáticos.
@@ -3141,11 +3060,15 @@ Reformados: nociones                                                            
 Tribunales No                                                        5. Sección o Unidad de                                                 93
 Reformados: nociones                                                    Atención de Público
 
-
 ## 5.2     Manejo de usuarioscomplejos
 
+**Definición Canónica:** En los tribunales en general y en los juzgados no reformados en
+                                                                       particular, es muy importante contar con protocolos que permitan
+                                                                       tener claridad acerca de cómo actuar ante situaciones complejas
+                                                                       que pudieran producirse durante la atención de público, ya sea que
+                                                                       digan relación con los propios intervinientes de una cau
 
-                                                                       En los tribunales en general y en los juzgados no reformados en
+En los tribunales en general y en los juzgados no reformados en
                                                                        particular, es muy importante contar con protocolos que permitan
                                                                        tener claridad acerca de cómo actuar ante situaciones complejas
                                                                        que pudieran producirse durante la atención de público, ya sea que
@@ -3172,20 +3095,23 @@ Reformados: nociones                                                    Atenció
 Tribunales No                                                        5. Sección o Unidad de                                              94
 Reformados: nociones                                                    Atención de Público
 
-
 ## 5.3     Sistemas públicos de información
 
-                                                                       para la atención de usuarios
+**Definición Canónica:** para la atención de usuarios
+
+para la atención de usuarios
 
                                                                        Es importante señalar que los tribunales cuentan con una serie de
                                                                        sistemas que permiten la entrega de información a los usuarios con
                                                                        requerimientos respecto de juzgados no reformados. Entre esos
                                                                        sistemas están los dos que se detallan a continuación.
 
-
 ## 5.3.1 Página web del Poder Judicial
 
-                                                                       También llamado portal web del Poder Judicial, en la dirección de
+**Definición Canónica:** También llamado portal web del Poder Judicial, en la dirección de
+                                                                       internet pjud.cl se pueden encontrar distintas pestañas de navegación
+
+También llamado portal web del Poder Judicial, en la dirección de
                                                                        internet pjud.cl se pueden encontrar distintas pestañas de navegación
 
                                                                        que permiten acceder a las siguientes funciones:
@@ -3251,10 +3177,12 @@ Materiales docentes Academia Judicial                            5.3.2 Sistema d
 Tribunales No                                                        5. Sección o Unidad de                                                98
 Reformados: nociones                                                    Atención de Público
 
-
 ## 5.4     Notificaciones
 
-                                                                       y citaciones
+**Definición Canónica:** y citaciones
+**Concordancias Legales:** artículos 25 bis
+
+y citaciones
 
                                                                        En cuanto a las notificaciones y citaciones, la Unidad de Atención de
                                                                        Público tiene atribuidas las funciones que se desglosan a continuación.
@@ -3304,10 +3232,12 @@ Reformados: nociones                                                    Atenció
 Tribunales No                                                        5. Sección o Unidad de                                                100
 Reformados: nociones                                                    Atención de Público
 
-
 ## 5.5     Registro de información de
 
-                                                                       instituciones relacionadas
+**Definición Canónica:** instituciones relacionadas
+**Concordancias Legales:** artículo 33
+
+instituciones relacionadas
 
                                                                        Los tribunales del país deben contar con información de institucio-
                                                                        nes relacionadas a la materia correspondiente al tribunal, registros
@@ -3376,10 +3306,12 @@ Reformados: nociones                                                    Atenció
 Tribunales No                                                        5. Sección o Unidad de                                                102
 Reformados: nociones                                                    Atención de Público
 
-
 ## 5.6     Documentación recibida y
 
-                                                                       correspondencia despachada
+**Definición Canónica:** correspondencia despachada
+**Concordancias Legales:** Ley Nº 20.886
+
+correspondencia despachada
 
                                                                        Con la implementación de la ley de tramitación electrónica, el con-
                                                                        cepto de correspondencia recibida y despachada en los tribunales
@@ -3399,24 +3331,31 @@ Reformados: nociones                                                    Atenció
                                                                        en que los distintos tribunales manejan administrativamente estas
                                                                        labores de atención de público.
 
-
-## 5.6.1 Principales documentos recibidos
-
-                                                                       por los tribunales no reformados
-
-
 ## 5.6.1.1 Oficios de diversas instituciones
 
-                                                                       Se relacionan generalmente con respuestas de instituciones a soli-
+**Definición Canónica:** Se relacionan generalmente con respuestas de instituciones a soli-
+                                                                       citudes de información realizadas por los juzgados no reformados
+                                                                       respecto de requerimientos relacionados con las distintas causas
+                                                                       que se tramitan en ellos. Muchas de estas instituciones envían sus
+                                                                       respuestas por oficio vía despacho de correspondenci
+
+Se relacionan generalmente con respuestas de instituciones a soli-
                                                                        citudes de información realizadas por los juzgados no reformados
                                                                        respecto de requerimientos relacionados con las distintas causas
                                                                        que se tramitan en ellos. Muchas de estas instituciones envían sus
                                                                        respuestas por oficio vía despacho de correspondencia física.
 
-
 ## 5.6.1.2 Las demandas y escritos que pudieran
 
-                                                                       presentarse excepcionalmente de acuerdo a los artículos
+**Definición Canónica:** presentarse excepcionalmente de acuerdo a los artículos
+                                                                       5º y 6º de la Ley Nº 20.886 y al Acta N° 37-2016
+                                                                       El artículo 5º señala que, cuando las circunstancias así lo requieran
+                                                                       o se trate de una persona autorizada por el tribunal por carecer de
+                                                                       los medios tecnológicos necesarios, los escritos podrán presentarse
+     
+**Concordancias Legales:** artículos 5; artículo 5; artículo 6; artículo 41 del Acta Nº 71; Ley Nº 20.886
+
+presentarse excepcionalmente de acuerdo a los artículos
                                                                        5º y 6º de la Ley Nº 20.886 y al Acta N° 37-2016
                                                                        El artículo 5º señala que, cuando las circunstancias así lo requieran
                                                                        o se trate de una persona autorizada por el tribunal por carecer de
@@ -3435,10 +3374,11 @@ Reformados: nociones                                                    Atenció
                                                                  contener la información básica para ello, lo que verificará el funcio-
                                                                  nario designado para esta labor.
 
-
 ## 5.6.1.3 Documentación a través del
 
-                                                                 correo electrónico institucional
+**Definición Canónica:** correo electrónico institucional
+
+correo electrónico institucional
 
                                                                  Si bien este caso no se inscribe en una recepción física por mesón
                                                                  de atención de público, es relevante mencionarlo porque recibe un
@@ -3452,10 +3392,15 @@ Reformados: nociones                                                    Atenció
                                                                  como de instituciones privadas generalmente no intervinientes de
                                                                  las causas.
 
-
 ## 5.6.1.4 Otros
 
-                                                                 Se incluyen también, entre lo que se recibe, documentos relaciona-
+**Definición Canónica:** Se incluyen también, entre lo que se recibe, documentos relaciona-
+                                                                 dos con la Unidad de Servicios del tribunal, facturas, guías de des-
+                                                                 pacho, cobro de servicio de notificaciones, etcétera, en los casos de
+                                                                 tribunales que cuentan con administración dotada de disponibilidad
+                                                                 presupuestaria operacional.
+
+Se incluyen también, entre lo que se recibe, documentos relaciona-
                                                                  dos con la Unidad de Servicios del tribunal, facturas, guías de des-
                                                                  pacho, cobro de servicio de notificaciones, etcétera, en los casos de
                                                                  tribunales que cuentan con administración dotada de disponibilidad
@@ -3492,10 +3437,17 @@ Reformados: nociones                                                    Atenció
                                                                  resoluciones o que apoyan en resoluciones de mero trámite y en el
                                                                  ingreso de esta información.
 
-
 ## 5.6.2 Principales documentos despachados
 
-                                                                 por los tribunales no reformados
+**Definición Canónica:** por los tribunales no reformados
+                                                                 Los documentos despachados, en su gran mayoría, dicen relación
+                                                                 con solicitudes de información a distintas entidades públicas y pri-
+                                                                 vadas relacionadas con la materia de una causa, en forma de oficios,
+                                                                 resoluciones, citaciones por carta certificada, entre otras. A modo de
+                                   
+**Concordancias Legales:** artículo 437 del Código del Trabajo
+
+por los tribunales no reformados
                                                                  Los documentos despachados, en su gran mayoría, dicen relación
                                                                  con solicitudes de información a distintas entidades públicas y pri-
                                                                  vadas relacionadas con la materia de una causa, en forma de oficios,
@@ -3577,10 +3529,12 @@ Reformados: nociones                                                    Atenció
 Tribunales No                                                                             6. Secciones o Unidad de Causas, Sala y Cumplimiento,   108
 Reformados: nociones                                                                         según la tipología de tribunal
 
-
 ## 6.1               Organización y flujo de trabajo
 
-                                                                                            enlos tribunales no reformados
+**Definición Canónica:** enlos tribunales no reformados
+**Concordancias Legales:** Ley Nº 20.087; ley Nº 20.260; ley Nº 20.007
+
+enlos tribunales no reformados
 
                                                       Estructura
                                                       Organizacional
@@ -3702,15 +3656,17 @@ Reformados: nociones                                                      según
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                117
 Reformados: nociones                                              según la tipología de tribunal
 
-
-## 6.1.1 Cargos y funciones
-
-                                                                 Juez
-
-
 ## 1. Resolver y pronunciarse en única instancia sobre las causas que
 
-                                                                    han sido sometidas a su conocimiento o de aquellas en las que
+**Definición Canónica:** han sido sometidas a su conocimiento o de aquellas en las que
+                                                                    la ley le ordene hacerlo (art. 45 N° 1, literales a y b del COT).
+                                                                 2. Conocer y resolver en primera instancia (art. 45 N° 2 COT):
+                                                                     — De las causas civiles y de comercio cuya cuantía exceda las
+                                                                       10 UTM.
+                                                                  
+**Concordancias Legales:** artículo 494 del Código Civil
+
+han sido sometidas a su conocimiento o de aquellas en las que
                                                                     la ley le ordene hacerlo (art. 45 N° 1, literales a y b del COT).
                                                                  2. Conocer y resolver en primera instancia (art. 45 N° 2 COT):
                                                                      — De las causas civiles y de comercio cuya cuantía exceda las
@@ -3725,76 +3681,66 @@ Reformados: nociones                                              según la tipo
                                                                        corresponda a los juzgados de letras del trabajo, de cobranza
                                                                        laboral y previsional o de familia, respectivamente.
 
-## 3. Conocer y resolver en primera instancia de los asuntos que otras
-
-                                                                    leyes encomienden y no estén mencionados en el numeral an-
-                                                                    terior (art. 45 N° 3 COT).
-
-## 4. Los jueces de letras de comunas que sean asiento de Corte de
-
-                                                                    Apelaciones conocerán en primera instancia de las causas de
-                                                                    hacienda, cualquiera sea su cuantía (art. 48 COT).
-
-## 5. Revisar, aprobar y firmar el despacho de proyectos de resolución
-
-                                                                    provenientes de administrativos de causa y despacho diario con
-                                                                    resolución de mero trámite y de fondo.
-
-## 6. Dirigir las audiencias que se lleven a cabo en el tribunal, resol-
-
-                                                                    viendo en el acto según corresponda.
-
-## 7. Resolver incidentes que se promuevan en audiencias o en pruebas
-
-                                                                    testimoniales o de absolución.
-
 ## 8. Ejercer su autoridad una vez reclamada su intervención en forma
 
-                                                                    legal y en negocios de su competencia, no pudiendo excusarse ni
+**Definición Canónica:** legal y en negocios de su competencia, no pudiendo excusarse ni
+                                                                    aun por falta de ley que resuelva la contienda o asunto sometido
+                                                                    a su decisión.
+
+legal y en negocios de su competencia, no pudiendo excusarse ni
                                                                     aun por falta de ley que resuelva la contienda o asunto sometido
                                                                     a su decisión.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                 118
 Reformados: nociones                                              según la tipología de tribunal
 
-
 ## 9. Responder oficios provenientes tanto de la Iltma. Corte de
 
-                                                                    Apelaciones como de la Excma. Corte Suprema dentro de los
+**Definición Canónica:** Apelaciones como de la Excma. Corte Suprema dentro de los
                                                                     plazos establecidos, y solicitar oficios requeridos para la
                                                                     tramitación delas causas a organismos relacionados.
 
-## 10. Ejercer las facultades, disciplinarias y económicas para un mejor
-
-                                                                     funcionamiento del juzgado.
-                                                                 11. Organizar y dirigir los remates correspondientes al tribunal.
+Apelaciones como de la Excma. Corte Suprema dentro de los
+                                                                    plazos establecidos, y solicitar oficios requeridos para la
+                                                                    tramitación delas causas a organismos relacionados.
 
 ## 12. Por el mandato del artículo 402 del Código Orgánico de Tribu-
 
-                                                                     nales, autoriza permisos de notarios titulares de la jurisdicción
+**Definición Canónica:** nales, autoriza permisos de notarios titulares de la jurisdicción
+                                                                     que corresponda a la comuna, cuando esta no se encuentre en
+
+nales, autoriza permisos de notarios titulares de la jurisdicción
                                                                      que corresponda a la comuna, cuando esta no se encuentre en
 
                                                                      asiento de Ilma. Corte de Apelaciones.
 
 ## 13. Tomar juramento a los testigos y personas que intervengan en
 
-                                                                     una causa, según lo establecido por las leyes.
+**Definición Canónica:** una causa, según lo establecido por las leyes.
                                                                  14. Recibir en audiencia a las personas que lo soliciten.
                                                                  15. Subrogar, según corresponda, a jueces ausentes en otros tribunales.
 
-## 16. Supervisar el funcionamiento del tribunal, realizando además la
-
-                                                                     gestión de Recursos Humanos del mismo.
+una causa, según lo establecido por las leyes.
+                                                                 14. Recibir en audiencia a las personas que lo soliciten.
+                                                                 15. Subrogar, según corresponda, a jueces ausentes en otros tribunales.
 
 ## 17. Realizar visitas bimensuales a la secretaría del tribunal, con el
 
-                                                                     objetivo de controlar, supervisar y direccionar las labores del
+**Definición Canónica:** objetivo de controlar, supervisar y direccionar las labores del
+                                                                     secretario, velando por el cumplimiento de las metas de gestión
+                                                                     del tribunal.
+
+objetivo de controlar, supervisar y direccionar las labores del
                                                                      secretario, velando por el cumplimiento de las metas de gestión
                                                                      del tribunal.
 
 ## 18. Supervigilar el adecuado desarrollo de las labores del tribunal, en
 
-                                                                     pos del correcto cumplimiento de las metas de gestión asociadas
+**Definición Canónica:** pos del correcto cumplimiento de las metas de gestión asociadas
+                                                                     al mismo.
+**Concordancias Legales:** artículo 380 del Código Orgánico de Tribunales
+
+pos del correcto cumplimiento de las metas de gestión asociadas
                                                                      al mismo.
 
                                                                  Secretario
@@ -3803,35 +3749,46 @@ Reformados: nociones                                              según la tipo
 
 ## 1. Dar cuenta diariamente al juzgado de las solicitudes que pre-
 
-                                                                    sentan las partes.
+**Definición Canónica:** sentan las partes.
+
+sentan las partes.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                  119
 Reformados: nociones                                              según la tipología de tribunal
 
-
 ## 2. Autorizar las providencias o resoluciones que sobre dichas solici-
 
-                                                                    tudes recayeren y hacerlas saber a los interesados que acudiesen
+**Definición Canónica:** tudes recayeren y hacerlas saber a los interesados que acudiesen
+                                                                    a la oficina para tomar conocimiento de ellas, anotando en el
+                                                                    proceso las notificaciones que hiciesen, y practicar las notifica-
+                                                                    ciones por el estado diario.
+
+tudes recayeren y hacerlas saber a los interesados que acudiesen
                                                                     a la oficina para tomar conocimiento de ellas, anotando en el
                                                                     proceso las notificaciones que hiciesen, y practicar las notifica-
                                                                     ciones por el estado diario.
 
 ## 3. Dar conocimiento a cualquiera persona que lo solicite de los
 
-                                                                    procesos que tengan archivados en sus oficinas, y de todos los
+**Definición Canónica:** procesos que tengan archivados en sus oficinas, y de todos los
                                                                     actos emanados de la Corte o juzgado, salvo los casos en que el
                                                                     procedimiento deba ser secreto en virtud de una disposición
                                                                     expresa de la ley.
 
-## 4. Guardar con el conveniente arreglo los procesos y demás papeles
-
-
-                                                                    de su oficina, sujetándose a las órdenes e instrucciones que la
-                                                                    Corte o juzgado respectivo le diere sobre el particular.
+procesos que tengan archivados en sus oficinas, y de todos los
+                                                                    actos emanados de la Corte o juzgado, salvo los casos en que el
+                                                                    procedimiento deba ser secreto en virtud de una disposición
+                                                                    expresa de la ley.
 
 ## 5. Dentro de los seis meses de practicada la visita de que trata el
 
-                                                                    artículo 564 del COT, enviarán los procesos iniciados en su oficina
+**Definición Canónica:** artículo 564 del COT, enviarán los procesos iniciados en su oficina
+                                                                    y que estuvieren en estado, al archivo correspondiente.
+                                                                 6. Autorizar los poderes judiciales que puedan otorgarse ante ellos.
+                                                                 7. Las demás que les impongan las leyes.
+**Concordancias Legales:** artículo 564 del COT; artículo 381 del Código Orgánico de Tribunales
+
+artículo 564 del COT, enviarán los procesos iniciados en su oficina
                                                                     y que estuvieren en estado, al archivo correspondiente.
                                                                  6. Autorizar los poderes judiciales que puedan otorgarse ante ellos.
                                                                  7. Las demás que les impongan las leyes.
@@ -3839,14 +3796,16 @@ Reformados: nociones                                              según la tipo
                                                                  De acuerdo al artículo 381 del Código Orgánico de Tribunales, en
                                                                  tanto:
 
-## 1. Los secretarios de los juzgados de letras harán al juez la relación
-
-                                                                    de los incidentes y el despacho diario de mero trámite, el que
-                                                                    será revisado y firmado por el juez.
-
 ## 2. Las órdenes de citación a testigos o inculpados; las que se den
 
-                                                                    a la prefectura respectiva o a Carabineros para que procedan a
+**Definición Canónica:** a la prefectura respectiva o a Carabineros para que procedan a
+                                                                    practicar investigaciones; los oficios que se envíen para pedir datos
+                                                                    o antecedentes; el cúmplase de los exhortos de otros tribunales;
+                                                                    el acuse recibo de estos mismos exhortos, y las órdenes necesarias
+                                                                    para cumplirlos cuando no se encargue una detención o prisión,
+
+
+a la prefectura respectiva o a Carabineros para que procedan a
                                                                     practicar investigaciones; los oficios que se envíen para pedir datos
                                                                     o antecedentes; el cúmplase de los exhortos de otros tribunales;
                                                                     el acuse recibo de estos mismos exhortos, y las órdenes necesarias
@@ -3855,7 +3814,10 @@ Reformados: nociones                                              según la tipo
 
 ## 3. En los casos a que se refiere el artículo 381, la firma del secreta-
 
-                                                                    rio no necesita ser autorizada por ningún funcionario y deberá
+**Definición Canónica:** rio no necesita ser autorizada por ningún funcionario y deberá
+                                                                    anteponérsele las palabras “por el Juez”.
+
+rio no necesita ser autorizada por ningún funcionario y deberá
                                                                     anteponérsele las palabras “por el Juez”.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                120
@@ -3867,26 +3829,33 @@ Reformados: nociones                                              según la tipo
 
 ## 5. Los secretarios de los juzgados de letras llevarán también un libro
 
-                                                                    donde se estamparán, con la firma del juez, las resoluciones que
+**Definición Canónica:** donde se estamparán, con la firma del juez, las resoluciones que
+                                                                    miren al régimen económico y disciplinario del juzgado.
+
+donde se estamparán, con la firma del juez, las resoluciones que
                                                                     miren al régimen económico y disciplinario del juzgado.
 
                                                                  Suma, a las funciones anteriores, las siguientes:
 
 ## 1. Llevar de forma ordenada todos los libros de la secretaría, como
 
-                                                                    por ejemplo decretos económicos, visitas a la secretaría, visitas a
+**Definición Canónica:** por ejemplo decretos económicos, visitas a la secretaría, visitas a
+                                                                    notarías, documentos en custodia, remates, actas de fianza, entrega
+
+por ejemplo decretos económicos, visitas a la secretaría, visitas a
                                                                     notarías, documentos en custodia, remates, actas de fianza, entrega
 
                                                                     de expedientes a los defensores públicos, visitas semestrales y
                                                                     semanales de cárcel, y causas enviadas a la Corte.
 
-## 2. Controlar y supervisar que los funcionarios realicen las tareas
-
-                                                                    que les fueron asignadas.
-
 ## 3. Administrar la cuenta corriente del tribunal, lo que implica
 
-                                                                    custodiar la chequera del tribunal, girar los cheques, realizar la
+**Definición Canónica:** custodiar la chequera del tribunal, girar los cheques, realizar la
+                                                                    conciliación bancaria mensual e ingresar depósitos.
+                                                                 4. Posibilidad de aplicar el artículo 33 del CPC (juez sustanciador).
+**Concordancias Legales:** artículo 33 del CPC; artículo 5; Ley Nº 19.968
+
+custodiar la chequera del tribunal, girar los cheques, realizar la
                                                                     conciliación bancaria mensual e ingresar depósitos.
                                                                  4. Posibilidad de aplicar el artículo 33 del CPC (juez sustanciador).
 
@@ -3897,26 +3866,25 @@ Reformados: nociones                                              según la tipo
                                                                  asuntos sometidos a su conocimiento en el ámbito de su especialidad.
                                                                  En particular, tendrán las siguientes atribuciones:
 
-## 1. Asistir a las audiencias de juicio a las que sean citados, con el
-
-                                                                    objetivo de emitir las opiniones técnicas que le sean solicitadas.
-
-## 2. Asesorar al juez para la adecuada comparecencia y declaración
-
-                                                                    del niño, niña o adolescente.
-
 ## 3. Evaluar, a requerimiento del juez, la pertinencia de derivar a
 
-                                                                    mediación o aconsejar conciliación entre las partes, y sugerir los
+**Definición Canónica:** mediación o aconsejar conciliación entre las partes, y sugerir los
+                                                                    términos en que esta última pudiere llevarse a cabo.
+
+mediación o aconsejar conciliación entre las partes, y sugerir los
                                                                     términos en que esta última pudiere llevarse a cabo.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                     121
 Reformados: nociones                                              según la tipología de tribunal
 
-
 ## 4. Asesorar al juez, a requerimiento de este, en la evaluación del
 
-                                                                    riesgo a que se refiere el artículo 7º de la Ley Nº 20.066, sobre
+**Definición Canónica:** riesgo a que se refiere el artículo 7º de la Ley Nº 20.066, sobre
+                                                                    violencia intrafamiliar.
+                                                                 5. Asesorar al juez en todas las materias relacionadas con su especialidad.
+**Concordancias Legales:** artículo 7; Ley Nº 20.066
+
+riesgo a que se refiere el artículo 7º de la Ley Nº 20.066, sobre
                                                                     violencia intrafamiliar.
                                                                  5. Asesorar al juez en todas las materias relacionadas con su especialidad.
 
@@ -3945,37 +3913,33 @@ Reformados: nociones                                              según la tipo
 
                                                                  1. Subrogar al secretario en su ausencia.
 
-## 2. Colaborar en labores administrativas del secretario, como la
-
-                                                                    custodia de documentos, interviniendo en los procesos admi-
-                                                                    nistrativos velando por el adecuado funcionamiento del tribunal.
-
 ## 3. Informar al secretario respecto de la administración de perso-
 
-                                                                    nal y de dificultades que surjan en el tribunal, proponiendo y
+**Definición Canónica:** nal y de dificultades que surjan en el tribunal, proponiendo y
+                                                                    llevando a cabo las medidas correctivas, soluciones y/o modi-
+                                                                    ficaciones pertinentes.
+
+nal y de dificultades que surjan en el tribunal, proponiendo y
                                                                     llevando a cabo las medidas correctivas, soluciones y/o modi-
                                                                     ficaciones pertinentes.
 
 ## 4. Entregar el despacho para la firma del juez, velando por la correcta
 
-                                                                    y oportuna entrega de este.
+**Definición Canónica:** y oportuna entrega de este.
+
+y oportuna entrega de este.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                    122
 Reformados: nociones                                              según la tipología de tribunal
 
                                                                  5. Ingresar al METGE el inventario de causas y las estadísticas de estas.
 
-## 6. Controlar el correcto registro de las causas en sistema, velando
-
-                                                                    porque los datos de los sistemas se encuentren actualizados.
-
-## 7. Apoyar en la realización de informes y oficios solicitados por la
-
-                                                                    Ilma. Corte de Apelaciones de su jurisdicción.
-
 ## 8. Verificar la recepción de documentos de la Ilma. Corte de Ape-
 
-                                                                    laciones y otras entidades.
+**Definición Canónica:** laciones y otras entidades.
+                                                                     Administrativo de causas civiles (oficiales 2º a 4º)
+
+laciones y otras entidades.
                                                                      Administrativo de causas civiles (oficiales 2º a 4º)
 
                                                                  1. Confeccionar oficios ordenados por el juez en la causa.
@@ -3983,59 +3947,47 @@ Reformados: nociones                                              según la tipo
                                                                  2. Realizar el archivo de las causas en materia civil.
                                                                  3. Mantener actualizada la base de datos de las causas.
 
-## 4. Confeccionar proyectos de resolución en las causas relativas a la
-
-                                                                    materia a cargo.
-
-## 5. Desarchivar las causas cuando las partes lo soliciten, previa au-
-
-                                                                    torización del juez o del secretario.
-
-## 6. Realizar las modificaciones de los proyectos de resolución soli-
-
-                                                                    citadas por el juez.
-
 ## 7. Levantar actas de comparendos, remates, conciliación y aveni-
 
-                                                                    miento.
+**Definición Canónica:** miento.
+                                                                 8. Dar cumplimiento a las solicitudes remitidas a través de exhorto.
+                                                                 9. Confeccionar actas de audiencia de reconocimiento de deuda,
+                                                                    audiencia demanda de arriendo, audiencia de pariente, audiencia
+                                                                    de designación de juez árbitro, audiencia de designación de perito,
+                                                              
+
+miento.
                                                                  8. Dar cumplimiento a las solicitudes remitidas a través de exhorto.
                                                                  9. Confeccionar actas de audiencia de reconocimiento de deuda,
                                                                     audiencia demanda de arriendo, audiencia de pariente, audiencia
                                                                     de designación de juez árbitro, audiencia de designación de perito,
                                                                     audiencia de apertura de testamento, entre otras.
 
-## 10. Realizar análisis y estudio de los juicios ejecutivos para realizar
-
-                                                                     providencias, dar soporte en la dictación del fallo y su cumplimiento.
-
-## 11. Confeccionar oficios, exhortos y mandamientos de ejecución
-
-                                                                     de embargo.
-
 ## 12. Custodiar y tramitar las causas relacionadas con materia de quie-
 
-                                                                     bras, remates y otros.
+**Definición Canónica:** bras, remates y otros.
+
+bras, remates y otros.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                  123
 Reformados: nociones                                              según la tipología de tribunal
 
-
 ## 13. Preparar las causas que van a Ilma. Corte de Apelaciones, remi-
 
-                                                                     tiéndo vía interconexión los antecedentes, custodias y audios si
+**Definición Canónica:** tiéndo vía interconexión los antecedentes, custodias y audios si
+                                                                     los hubiere.
+
+tiéndo vía interconexión los antecedentes, custodias y audios si
                                                                      los hubiere.
 
                                                                  Administrativos de atención de público (oficiales 2º a 4º)
 
-
-## 1. Atender a los usuarios que ingresen al tribunal, orientándolos y
-
-                                                                    entregando información al público acerca de las labores y fun-
-                                                                    cionamiento propios del juzgado de letras.
-
 ## 2. Recepcionar las llamadas telefónicas, dando información a quien
 
-                                                                    lo solicite y distribuyendo las llamadas a los diferentes funciona-
+**Definición Canónica:** lo solicite y distribuyendo las llamadas a los diferentes funciona-
+                                                                    rios del tribunal, en los casos que corresponda.
+
+lo solicite y distribuyendo las llamadas a los diferentes funciona-
                                                                     rios del tribunal, en los casos que corresponda.
 
                                                                  3. Ingresar órdenes judiciales en los libros destinados para tal efecto.
@@ -4044,127 +3996,92 @@ Reformados: nociones                                              según la tipo
 
 ## 5. Estampar el timbre de cargo a los escritos presentados por las
 
-                                                                    partes y correspondencia, para dejarlos en el despacho de la causa
+**Definición Canónica:** partes y correspondencia, para dejarlos en el despacho de la causa
+                                                                    correspondiente.
+                                                                 6. Agregar escrito y documentación a las causas del tribunal.
+                                                                 7. Derivar a usuarios del tribunal hacia la unidad que corresponda.
+
+partes y correspondencia, para dejarlos en el despacho de la causa
                                                                     correspondiente.
                                                                  6. Agregar escrito y documentación a las causas del tribunal.
                                                                  7. Derivar a usuarios del tribunal hacia la unidad que corresponda.
 
                                                                  Administrativo de causas de garantía (oficiales 2º a 4º)
 
-
-## 1. Orientar al público sobre la situación en que se encuentra un
-
-                                                                    detenido o imputado.
-
 ## 2. Atender satisfactoriamente los requerimientos de información
 
-                                                                    y atención de los usuarios de la materia del juzgado de letras.
+**Definición Canónica:** y atención de los usuarios de la materia del juzgado de letras.
                                                                  3. Confeccionar oficios ordenados por el juez en una causa.
                                                                  4. Realizar el archivo de las causas en materia penal.
                                                                  5. Mantener actualizada la base de datos de las causas.
 
-## 6. Confeccionar proyectos de resolución en causas relativas a la
-
-                                                                    materia que tiene a cargo.
+y atención de los usuarios de la materia del juzgado de letras.
+                                                                 3. Confeccionar oficios ordenados por el juez en una causa.
+                                                                 4. Realizar el archivo de las causas en materia penal.
+                                                                 5. Mantener actualizada la base de datos de las causas.
 
 ## 7. Desarchivar las causas cuando las partes lo soliciten, previa au-
 
-                                                                    torización del juez o del secretario.
+**Definición Canónica:** torización del juez o del secretario.
+
+torización del juez o del secretario.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                   124
 Reformados: nociones                                              según la tipología de tribunal
 
-
-## 8. Realizar las modificaciones solicitadas por el juez en los proyectos
-
-                                                                    de resolución.
-
-## 9. Levantar actas de audiencia y los cumplimientos que se dictan
-
-                                                                    en audiencia.
-
-## 10. Preparar la sala de audiencias y los sistemas accesorios antes de
-
-                                                                     realizarse las sesiones de cada día, verificando el correcto fun-
-                                                                     cionamiento del equipo de audio.
-
-## 11. Verificar que se encuentre registrado el resultado de todas las
-
-                                                                     notificaciones.
-
 ## 12. Preparar la agenda de audiencias entregando la carpeta al juez con
 
+**Definición Canónica:** sus debidas notificaciones para la realización de las audiencias.
+                                                                 13. Dar cumplimiento a las solicitudes remitidas a través de exhorto.
+                                                                 14. Actualizar la base de datos correspondientes a la visita a cárceles.
 
-                                                                     sus debidas notificaciones para la realización de las audiencias.
+sus debidas notificaciones para la realización de las audiencias.
                                                                  13. Dar cumplimiento a las solicitudes remitidas a través de exhorto.
                                                                  14. Actualizar la base de datos correspondientes a la visita a cárceles.
 
                                                                  Administrativo de causas de familia (oficiales 2º a 4º)
 
-
 ## 1. Atender satisfactoriamente los requerimientos de información
 
-                                                                    y atención de los usuarios en materias de familia.
+**Definición Canónica:** y atención de los usuarios en materias de familia.
                                                                  2. Confeccionar oficios ordenados por el juez en una causa.
                                                                  3. Realizar el archivo de las causas en la materia a su cargo.
                                                                  4. Mantener actualizada la base de datos de las causas.
 
-## 5. Realizar estudio y análisis jurídico para confeccionar los proyectos
-
-                                                                    de resolución en causas relativas a materias de familia.
-
-## 6. Desarchivar las causas cuando las partes lo soliciten, previa au-
-
-                                                                    torización del juez o del secretario.
-
-## 7. Realizar las modificaciones solicitadas por el juez en los proyectos
-
-                                                                    de resolución.
-
-## 8. Levantar formularios de actas de audiencia y los cumplimientos
-
-                                                                    que se dictan en audiencia.
+y atención de los usuarios en materias de familia.
+                                                                 2. Confeccionar oficios ordenados por el juez en una causa.
+                                                                 3. Realizar el archivo de las causas en la materia a su cargo.
+                                                                 4. Mantener actualizada la base de datos de las causas.
 
 ## 9. Preparar la sala de audiencias y los sistemas accesorios antes de
 
-                                                                    realizarse las sesiones, verificando el correcto funcionamiento
+**Definición Canónica:** realizarse las sesiones, verificando el correcto funcionamiento
+                                                                    del equipo de audio.
+
+realizarse las sesiones, verificando el correcto funcionamiento
                                                                     del equipo de audio.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                    125
 Reformados: nociones                                              según la tipología de tribunal
 
-
-## 10. Realizar las grabaciones de audio de cada una de las audiencias
-
-                                                                     relativas a materias de familia.
-
-## 11. Verificar que se encuentre el registro del resultado de las notifi-
-
-                                                                     caciones efectuadas.
-
-## 12. Informar al juez de las diligencias pendientes con cinco días de
-
-                                                                     antelación, lo que permite al juez tomar decisiones respecto a
-                                                                     la audiencia a realizarse.
-
 ## 13. Preparar la agenda de audiencias entregando la carpeta al juez
 
-                                                                     con sus debidas notificaciones e informes para la realización de
+**Definición Canónica:** con sus debidas notificaciones e informes para la realización de
+                                                                     las audiencias.
+
+con sus debidas notificaciones e informes para la realización de
                                                                      las audiencias.
 
                                                                  14. Dar cumplimiento a las solicitudes remitidas a través de exhorto.
 
-## 15. Almacenar grabaciones de audiencias asociadas a materias de
-
-                                                                     familia.
-
-## 16. Confeccionar los oficios que contienen las diligencias decretadas
-
-                                                                     durante la audiencia.
-
 ## 17. Confeccionar el archivo y hacer una nómina de las causas que se
 
-                                                                     relacionen a materias de familia.
+**Definición Canónica:** relacionen a materias de familia.
+                                                                 18. Anotar y mantener registro de sentencias por causas de familia.
+                                                                 19. Ingresar al estado diario las causas correspondientes a la materia.
+                                                                 20. Despachar las diligencias decretadas en la etapa de cumplimiento.
+
+relacionen a materias de familia.
                                                                  18. Anotar y mantener registro de sentencias por causas de familia.
                                                                  19. Ingresar al estado diario las causas correspondientes a la materia.
                                                                  20. Despachar las diligencias decretadas en la etapa de cumplimiento.
@@ -4175,44 +4092,34 @@ Reformados: nociones                                              según la tipo
 
 ## 2. Atender y satisfacer los requerimientos de información y atención
 
-                                                                    de usuarios en la materia de competencia del juzgado de letras.
+**Definición Canónica:** de usuarios en la materia de competencia del juzgado de letras.
+                                                                 3. Confeccionar oficios ordenados por el juez en una causa.
+                                                                 4. Realizar el archivo de las causas en materia de familia.
+                                                                 5. Mantener actualizada la base de datos de las causas.
+
+de usuarios en la materia de competencia del juzgado de letras.
                                                                  3. Confeccionar oficios ordenados por el juez en una causa.
                                                                  4. Realizar el archivo de las causas en materia de familia.
                                                                  5. Mantener actualizada la base de datos de las causas.
 
 ## 6. Confeccionar proyectos de resolución en causas relativas a
 
-                                                                    la materia.
+**Definición Canónica:** la materia.
+
+la materia.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                    126
 Reformados: nociones                                              según la tipología de tribunal
 
-
-## 7. Desarchivar las causas cuando las partes lo soliciten, previa au-
-
-                                                                    torización del juez o secretario.
-
-## 8. Realizar las modificaciones solicitadas por el juez en los proyectos
-
-                                                                    de resolución.
-
-## 9. Levantar actas de audiencias y los cumplimientos que se dictan
-
-                                                                    en audiencia.
-
-## 10. Preparar la sala de audiencias y los sistemas accesorios antes de
-
-                                                                     realizarse las sesiones, verificando el correcto funcionamiento
-                                                                     del equipo de audio.
-
-## 11. Realizar las notificaciones correspondientes e incorporarlas a
-
-
-                                                                     la causa.
-
 ## 12. Preparar la agenda de audiencias entregando la carpeta al juez con
 
-                                                                     sus debidas notificaciones para la realización de las audiencias.
+**Definición Canónica:** sus debidas notificaciones para la realización de las audiencias.
+                                                                 13. Dar cumplimiento a las solicitudes remitidas a través de exhorto.
+                                                                 14. Ingresar las causas en el sistema METGE.
+                                                                 15. Confeccionar el informe bimestral.
+                                                                 16. Remitir el informe a la Ilma. Corte de Apelaciones de la jurisdicción.
+
+sus debidas notificaciones para la realización de las audiencias.
                                                                  13. Dar cumplimiento a las solicitudes remitidas a través de exhorto.
                                                                  14. Ingresar las causas en el sistema METGE.
                                                                  15. Confeccionar el informe bimestral.
@@ -4220,70 +4127,35 @@ Reformados: nociones                                              según la tipo
 
                                                                  Administrativo de custodia (oficiales 2º a 4º)
 
-
-## 1. Ingresar los expedientes de las causas con su contenido, clasifi-
-
-                                                                    carlos y registrarlos.
-
-## 2. Guardar los expedientes según el orden de clasificación
-
-                                                                    y custodiarlos.
-
-## 3. Facilitar o entregar los expedientes en custodia a quien tenga el
-
-                                                                    poder o autoridad para consultarlos.
-                                                                 4. Colaborar con la secretaría en la confección de certificaciones.
-
 ## 5. Controlar informática y físicamente los ingresos y egresos de
 
-                                                                    expedientes desde el lugar de guarda.
+**Definición Canónica:** expedientes desde el lugar de guarda.
+
+expedientes desde el lugar de guarda.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                 127
 Reformados: nociones                                              según la tipología de tribunal
 
-
-## 6. Buscar los expedientes para agregar escritos a cada causa
-
-                                                                    en custodia.
-                                                                 7. Recibir escritos.
-
-## 8. Asistir al juez en la providencia diaria de las presentaciones de
-
-                                                                    las partes en lo contencioso civil.
-
-## 9. Caratular, foliar y separar los documentos de las causas nuevas
-
-                                                                    en materia civil contenciosa.
-                                                                 10. Asistir al juez en proveer resoluciones de mero trámite.
-
-## 11. Bloquear las resoluciones y los mandamientos realizados cada
-
-
-                                                                     día, una vez firmados por el juez.
-
-## 12. Despachar, por orden del juez, oficios de fuerza pública en la
-
-                                                                     etapa de cumplimiento del fallo en materia civil contenciosa.
-
 ## 13. Asistir al juez en la confección de los oficios, exhortos, y manda-
 
-                                                                     mientos de ejecución y embargo.
+**Definición Canónica:** mientos de ejecución y embargo.
                                                                  14. Transcribir la resolución a la parte o las partes intervinientes,
                                                                      en materia civil contenciosa, una vez que haya sido firmada por
                                                                      el juez.
 
-## 15. Atender satisfactoriamente los requerimientos de información
-
-                                                                     y atención de usuarios del juzgado civil, en especial sobre causas
-                                                                     en tramitación a su cargo.
-
-## 16. Realizar proyectos de resolución en base a los antecedentes
-
-                                                                     entregados de las causas en tramitación.
+mientos de ejecución y embargo.
+                                                                 14. Transcribir la resolución a la parte o las partes intervinientes,
+                                                                     en materia civil contenciosa, una vez que haya sido firmada por
+                                                                     el juez.
 
 ## 17. Corregir devoluciones de proyectos de resolución realizados por
 
-                                                                     el magistrado.
+**Definición Canónica:** el magistrado.
+                                                                 18. Tramitar exhortos que llegan al tribunal.
+                                                                 19. Asistir en la toma de comparendos.
+                                                                 20. Realizar la revisión diaria del sistema SITCI.
+
+el magistrado.
                                                                  18. Tramitar exhortos que llegan al tribunal.
                                                                  19. Asistir en la toma de comparendos.
                                                                  20. Realizar la revisión diaria del sistema SITCI.
@@ -4293,16 +4165,24 @@ Reformados: nociones                                              según la tipo
 
                                                                  Auxiliar administrativo (oficial de sala)
 
-
 ## 1. Revisar el correo electrónico del tribunal y el del oficial 1°, para
 
-                                                                    verificar si existe alguna solicitud de fiscalía, defensoría, algún
+**Definición Canónica:** verificar si existe alguna solicitud de fiscalía, defensoría, algún
+                                                                    documento urgente de la Ilma. Corte de Apelaciones de la juris-
+                                                                    dicción o de la Corporación Administrativa del Poder Judicial.
+
+verificar si existe alguna solicitud de fiscalía, defensoría, algún
                                                                     documento urgente de la Ilma. Corte de Apelaciones de la juris-
                                                                     dicción o de la Corporación Administrativa del Poder Judicial.
 
 ## 2. Ingresar las órdenes del día al libro de Carabineros, lo que implica
 
-                                                                    todas aquellas órdenes que debe cumplir la fuerza pública por
+**Definición Canónica:** todas aquellas órdenes que debe cumplir la fuerza pública por
+                                                                    decreto del tribunal.
+                                                                 3. Revisar y actualizar diariamente los libros de secretaría, esto es,
+                                                                    el libro de correspondencia que ingresa o que se despacha desde
+
+todas aquellas órdenes que debe cumplir la fuerza pública por
                                                                     decreto del tribunal.
                                                                  3. Revisar y actualizar diariamente los libros de secretaría, esto es,
                                                                     el libro de correspondencia que ingresa o que se despacha desde
@@ -4313,26 +4193,22 @@ Reformados: nociones                                              según la tipo
                                                                  6. Oficiar y exhortar expedientes de causas, donde corresponda.
                                                                  7. Atender público presencial y telefónico.
 
-## 8. Preocuparse de tener los trípticos informativos necesarios para
-
-                                                                    entregar información al usuario.
-
-## 9. Realizar funciones de mensajería interna y externa, tales como
-
-                                                                    el proceso de notificación.
-
 ## 10. Sacar fotocopias tanto de uso interno como de las compulsas
 
-                                                                     solicitada por las partes (cuando no están disponibles a través
+**Definición Canónica:** solicitada por las partes (cuando no están disponibles a través
+                                                                     de la Oficina Judicial Virtual).
+
+solicitada por las partes (cuando no están disponibles a través
                                                                      de la Oficina Judicial Virtual).
 
 Tribunales No                                                                     6. Secciones o Unidad de Causas, Sala y Cumplimiento,                 129
 Reformados: nociones                                                                 según la tipología de tribunal
 
-
 ## 6.2           Organización y flujo de trabajoen
 
-                                                                                    tribunales bicéfalos
+**Definición Canónica:** tribunales bicéfalos
+
+tribunales bicéfalos
 
                                                       Los juzgados          Los juzgados de letras de competencia común y compuestos por dos
                                                       de letras de          jueces son llamados “bicéfalos”. Su particularidad radica en que están
@@ -4369,22 +4245,31 @@ Reformados: nociones                                                            
 
 ## 1. Poseen dos jueces (bicéfalos), uno de los cuales cumple el rol de
 
-                                                                                       juez presidente.
+**Definición Canónica:** juez presidente.
+                                                                                    2. Incorporan la figura de administrador y de jefe de unidad.
+
+juez presidente.
                                                                                     2. Incorporan la figura de administrador y de jefe de unidad.
 
 Tribunales No                                                       6. Secciones o Unidad de Causas, Sala y Cumplimiento,            130
 Reformados: nociones                                                   según la tipología de tribunal
 
-
 ## 3. Se suman a ellos los cargos de administrativo contable y admi-
 
-                                                                         nistrativo jefe.
+**Definición Canónica:** nistrativo jefe.
+                                                                      4. Desaparece el cargo de secretario.
+                                                                      5. El juez se aboca solo a lo jurisdiccional.
+
+nistrativo jefe.
                                                                       4. Desaparece el cargo de secretario.
                                                                       5. El juez se aboca solo a lo jurisdiccional.
 
 ## 6. Al tribunal se le otorga un presupuesto anual cuya gestión está
 
-                                                                         a cargo del administrador del juzgado.
+**Definición Canónica:** a cargo del administrador del juzgado.
+                                                                      7. Posee cuenta corriente operacional y jurisdiccional.
+
+a cargo del administrador del juzgado.
                                                                       7. Posee cuenta corriente operacional y jurisdiccional.
 
                                                                       El organigrama básico de estos juzgados es como se muestra a con-
@@ -4400,36 +4285,11 @@ Reformados: nociones                                              según la tipo
 
                                                                  Juez presidente
 
-
-## 1. Relacionarse con la Corporación Administrativa del Poder Judicial
-
-                                                                    en todas las materias relativas a la competencia de esta.
-
-## 2. Elaborar anualmente una cuenta de la gestión jurisdiccional del
-
-                                                                    juzgado.
-
-## 3. Aprobar los criterios de gestión administrativa que proponga el
-
-                                                                    administrador del tribunal y supervisar su ejecución.
-
-
-## 4. Aprobar la distribución del personal que le presente el adminis-
-
-                                                                    trador del tribunal.
-
-## 5. Calificar al personal, teniendo a la vista la evaluación que le pre-
-
-                                                                    sente el administrador del tribunal.
-
-## 6. Presentar al Presidente de la Ilma. Corte de Apelaciones una
-
-                                                                    terna para la designación del administrador del tribunal.
-                                                                 7. Evaluar anualmente la gestión del administrador.
-
 ## 8. Proponer al Presidente de la Ilma. Corte de Apelaciones la re-
 
-                                                                    moción del administrador.
+**Definición Canónica:** moción del administrador.
+
+moción del administrador.
 
                                                                  * Debe realizar las funciones jurisdiccionales correspondientes al
                                                                  cargo de juez.
@@ -4455,64 +4315,58 @@ Reformados: nociones                                              según la tipo
 
                                                                  Entre sus principales funciones, destacan:
 
-## 1. Dirigir las labores administrativas propias del funcionamiento
-
-                                                                    del tribunal o juzgado, bajo la supervisión del juez presidente.
-
 ## 2. Proponer al juez presidente la designación de los empleados
 
-                                                                    del tribunal (art. 389 A COT). Enlazado con ello debe efectuar
+**Definición Canónica:** del tribunal (art. 389 A COT). Enlazado con ello debe efectuar
+                                                                    propuestas al juez presidente para nombramientos de personal
+                                                                    transitorio.
+
+del tribunal (art. 389 A COT). Enlazado con ello debe efectuar
                                                                     propuestas al juez presidente para nombramientos de personal
                                                                     transitorio.
 
                                                                  3. Realizar las gestiones tendientes a proveer los cargos vacantes.
 
-## 4. Proponer al juez presidente la distribución del personal (art. 389
-
-                                                                    A COT).
-                                                                 5. Evaluar al personal a su cargo (art. 389 A COT).
-
-## 6. Remover al personal y ejercer las facultades disciplinarias que
-
-                                                                    correspondan, de conformidad al artículo 389 F (art. 389 A COT).
-
 ## 7. Llevar la contabilidad y administrar la cuenta corriente del
 
-                                                                    tribunal, de acuerdo a las instrucciones del juez presidente (art.
+**Definición Canónica:** tribunal, de acuerdo a las instrucciones del juez presidente (art.
+                                                                    389 A COT).
+                                                                 8. Supervisar la confección de la conciliación bancaria.
+
+tribunal, de acuerdo a las instrucciones del juez presidente (art.
                                                                     389 A COT).
                                                                  8. Supervisar la confección de la conciliación bancaria.
 
 ## 9. Supervisar la elaboración del informe contable que consolide la
 
-                                                                    información de la cuenta corriente de operaciones, de acuerdo
+**Definición Canónica:** información de la cuenta corriente de operaciones, de acuerdo
                                                                     a las instrucciones que imparta la Corporación Administrativa
                                                                     del Poder Judicial.
 
-## 10. Dar cuenta al juez presidente de la gestión administrativa del
-
-                                                                     tribunal (art. 389 A COT).
-
-## 11. Elaborar el presupuesto anual, que deberá ser presentado al juez
-
-                                                                     presidente a más tardar en el mes de mayo del año anterior al
-                                                                     ejercicio correspondiente.
+información de la cuenta corriente de operaciones, de acuerdo
+                                                                    a las instrucciones que imparta la Corporación Administrativa
+                                                                    del Poder Judicial.
 
 ## 12. Adquirir y abastecer de material de trabajo al tribunal, en confor-
 
-                                                                     midad con el plan presupuestario aprobado para el año respectivo
+**Definición Canónica:** midad con el plan presupuestario aprobado para el año respectivo
+                                                                     (art. 389 A COT ).
+
+midad con el plan presupuestario aprobado para el año respectivo
                                                                      (art. 389 A COT ).
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                133
 Reformados: nociones                                              según la tipología de tribunal
 
-
-## 13. Cumplir las funciones asignadas al secretario del Órgano Califi-
-
-                                                                     cador, según lo establecido en el artículo 274 del COT.
-
 ## 14. Implementar y dar cumplimiento a las políticas y directrices
 
-                                                                     generales que dicte el H. Consejo Superior de la Corporación
+**Definición Canónica:** generales que dicte el H. Consejo Superior de la Corporación
+                                                                     Administrativa del Poder Judicial en materias de selección de
+                                                                     personal, evaluación, administración de recursos materiales y de
+                                                                     personal, de diseño y análisis de información estadística y demás
+                                                                     que aquel dicte en el ejercicio de sus atribuciones propias.
+
+generales que dicte el H. Consejo Superior de la Corporación
                                                                      Administrativa del Poder Judicial en materias de selección de
                                                                      personal, evaluación, administración de recursos materiales y de
                                                                      personal, de diseño y análisis de información estadística y demás
@@ -4520,14 +4374,20 @@ Reformados: nociones                                              según la tipo
 
 ## 15. Observar y cumplir las instrucciones que, en uso de sus facultades
 
-                                                                     disciplinarias y conservadoras (administrativas y económicas),
+**Definición Canónica:** disciplinarias y conservadoras (administrativas y económicas),
+                                                                     dicten la Excma. Corte Suprema y la Ilma. Corte de Apelaciones
+
+disciplinarias y conservadoras (administrativas y económicas),
                                                                      dicten la Excma. Corte Suprema y la Ilma. Corte de Apelaciones
 
                                                                      respectiva.
 
 ## 16. Ejercer las demás funciones que le sean asignadas por el juez
 
-                                                                     presidente o que determinen las leyes (art. 389 A COT).
+**Definición Canónica:** presidente o que determinen las leyes (art. 389 A COT).
+                                                                 17. Controlar el adecuado funcionamiento del buzón de sugerencias.
+
+presidente o que determinen las leyes (art. 389 A COT).
                                                                  17. Controlar el adecuado funcionamiento del buzón de sugerencias.
 
                                                                  * Cumplir con las disposiciones establecidas en las actas de acuerdo
@@ -4535,148 +4395,65 @@ Reformados: nociones                                              según la tipo
 
                                                                  Jefe de la Unidad de Causas, Sala y Cumplimiento
 
-
-## 1. Dejar constancia de las subrogaciones que se produzcan en el
-
-                                                                    tribunal e informar mensualmente de ellas a la Ilma. Corte de
-                                                                    Apelaciones respectiva, de acuerdo al artículo 214 del COT.
-
-## 2. Autorizar el mandato judicial y efectuar las certificaciones que
-
-                                                                    la ley señale expresamente (art. 389 G COT).
-
 ## 3. Ratificar las firmas de las partes y sus mandatarios o delegados
 
-                                                                    para los efectos de ambos incisos del artículo 7° del Código de
+**Definición Canónica:** para los efectos de ambos incisos del artículo 7° del Código de
+                                                                    Procedimiento Civil, y para efectos de comparecencia en juicio
+                                                                    de conformidad al artículo 2º de la Ley Nº 18.120.
+**Concordancias Legales:** artículo 7; artículo 2; Ley Nº 18.120
+
+para los efectos de ambos incisos del artículo 7° del Código de
                                                                     Procedimiento Civil, y para efectos de comparecencia en juicio
                                                                     de conformidad al artículo 2º de la Ley Nº 18.120.
 
-## 4. Cumplir las tareas de ministro de fe de acuerdo a las normas que
-
-                                                                    establezcan las leyes o la Excma. Corte Suprema.
-
 ## 5. Velar por el manejo eficiente de la agenda y la coordinación de
 
-                                                                    audiencias.
+**Definición Canónica:** audiencias.
+
+audiencias.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                 134
 Reformados: nociones                                              según la tipología de tribunal
 
-
-## 6. Diseñar e implementar sistemas de control que permitan verificar
-
-                                                                    que se ha cumplido con los requisitos necesarios para la correcta
-                                                                    realización de la audiencia.
-
-## 7. Velar por el adecuado manejo y cumplimiento de las normas y
-
-                                                                    procedimientos establecidos para el ingreso de las causas y los
-                                                                    registros del proceso penal en el juzgado.
-
-## 8. Supervisar el cumplimiento de las notificaciones y citaciones a
-
-                                                                    las audiencias programadas.
-
-## 9. Ejercer las demás funciones que le asigne el juez presidente o el
-
-                                                                    administrador del tribunal.
-
-
 ## 10. Observar y cumplir las instrucciones que, en uso de sus facultades
 
-                                                                     disciplinarias y conservadoras (administrativas y económicas),
+**Definición Canónica:** disciplinarias y conservadoras (administrativas y económicas),
                                                                      dicten la Excma. Corte Suprema y la Ilma. Corte de Apelaciones
                                                                      respectiva.
 
-## 11. Supervisar el estado mensual de causas falladas y en estado de
-
-                                                                     fallo, a objeto de ser ingresados al METGE.
-
-                                                                 Administrativo jefe de garantía
-
-
-## 1. Organizar y controlar la carga de trabajo asignada a los funcio-
-
-                                                                    narios a cargo.
+disciplinarias y conservadoras (administrativas y económicas),
+                                                                     dicten la Excma. Corte Suprema y la Ilma. Corte de Apelaciones
+                                                                     respectiva.
 
 ## 2. Sacar fotocopias para los registros respectivos y para adjuntar
 
-                                                                    a los oficios, las cuales deben ser autorizadas por el ministro
+**Definición Canónica:** a los oficios, las cuales deben ser autorizadas por el ministro
                                                                     de fe del tribunal (cuando el funcionario no cuente con firma
                                                                     electrónica avanzada).
 
-## 3. Realizar seguimiento a las causas ejecutoriadas respecto de su
-
-                                                                    cumplimiento.
-
-## 4. Realizar seguimiento y verificar fecha de plazo de las causas por
-
-                                                                    suspensión condicional y acuerdos reparatorios para la dictación
-                                                                    del sobreseimiento definitivo.
-
-## 5. Atender e informar a usuarios del tribunal que requieran pagar mul-
-
-                                                                    tas, donde debe llenar formulario N°10 para la realización del pago.
+a los oficios, las cuales deben ser autorizadas por el ministro
+                                                                    de fe del tribunal (cuando el funcionario no cuente con firma
+                                                                    electrónica avanzada).
 
 ## 6. Realizar resoluciones de archivo de las causas que se encuentran
 
-                                                                    afinadas.
+**Definición Canónica:** afinadas.
+
+afinadas.
 
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                135
 Reformados: nociones                                              según la tipología de tribunal
 
                                                                  Administrativo jefe civil, laboral, cobranza y familia
 
-
-## 1. Apoyar al jefe de Unidad de Causas, Sala y Cumplimiento en las
-
-                                                                    labores de planificación, dirección, coordinación y control propias
-                                                                    de la gestión de causas.
-
-## 2. Distribuir la carga de trabajo entre los administrativos de causas
-
-                                                                    y los respectivos jueces.
-
-## 3. Asegurar el adecuado cumplimiento de las normas y procedi-
-
-                                                                    mientos establecidos para la tramitación de causas y los registros
-                                                                    de los procesos en el juzgado.
-
-## 4. Entregar asistencia a los requerimientos durante el desarrollo
-
-
-                                                                    de las audiencias.
-                                                                 5. Supervisar la confección de proyectos de resolución.
-
-## 6. Controlar la confección de compulsas, exhortos, oficios y remisión
-
-                                                                    oportuna de las causas, a objeto de ser enviados a la Ilma. Corte
-                                                                    de Apelaciones o Excma. Corte Suprema.
-
-## 7. Confeccionar el estado mensual de causas falladas y en estado
-
-                                                                    de fallo, a objeto de ser ingresados al METGE.
-
-## 8. Elaborar el registro de sentencias definitivas e interlocutorias
-
-                                                                    que se dicten en materia civil y laboral.
-
-                                                                 Administrativo contable
-
-
-## 1. Verificar diariamente si existe alguna dificultad externa con algún
-
-                                                                    proveedor.
-                                                                 2. Revisar diariamente en el sistema CGU los materiales en bodega.
-
-## 3. Realizar el proceso de requerimiento de material, realizando el
-
-                                                                    pedido correspondiente a los proveedores y cotizando cuando
-                                                                    corresponda.
-
 ## 4. Gestionar los procesos de contratación del tribunal, lo que incluye
 
-                                                                    los términos de referencia, el proceso de cotización, realizar el
+**Definición Canónica:** los términos de referencia, el proceso de cotización, realizar el
+                                                                    cuadro comparativo y la confección de la resolución de adjudi-
+                                                                    cación, para posteriormente ser firmada por el administrador
+                                                                    de tribunal.
+
+los términos de referencia, el proceso de cotización, realizar el
                                                                     cuadro comparativo y la confección de la resolución de adjudi-
                                                                     cación, para posteriormente ser firmada por el administrador
                                                                     de tribunal.
@@ -4684,59 +4461,33 @@ Reformados: nociones                                              según la tipo
 Tribunales No                                                  6. Secciones o Unidad de Causas, Sala y Cumplimiento,                   136
 Reformados: nociones                                              según la tipología de tribunal
 
-
-## 5. Recibir los productos, revisar facturas y verificar calidad y cantidad
-
-                                                                    del material recibido, para posteriormente registrar en el CGU
-                                                                    lo que se ingresó en bodega.
-
-## 6. Recepcionar por correo electrónico los requerimientos de ma-
-
-                                                                    terial por parte de los funcionarios del tribunal, para posterior
-                                                                    respaldo de lo que se retiró de bodega.
-
-## 7. Llevar un control de los materiales que les son entregados a los
-
-                                                                    funcionarios. Lo cual implica que el usuario interno debe firmar
-                                                                    un documento de egreso cuando hace retiro de algún material.
-
 ## 8. Realizar el inventario de bodega de acuerdo a lo establecido por
 
-
-                                                                    las normas de la Corporación Administrativa del Poder Judicial
+**Definición Canónica:** las normas de la Corporación Administrativa del Poder Judicial
                                                                     y remitirlo a esta acompañado de un oficio. Se deja copia, en
                                                                     archivo predeterminado, de ingreso y egreso de bodega.
 
-## 9. Manejar la cuenta corriente operacional y jurisdiccional, en con-
-
-                                                                    junto con la revisión de la conciliación bancaria.
+las normas de la Corporación Administrativa del Poder Judicial
+                                                                    y remitirlo a esta acompañado de un oficio. Se deja copia, en
+                                                                    archivo predeterminado, de ingreso y egreso de bodega.
 
 ## 10. Realizar el informe de cuadratura de lo devengado y lo existente
 
-                                                                     en bodega, al cierre de cada mes.
+**Definición Canónica:** en bodega, al cierre de cada mes.
                                                                  11. Custodiar las llaves del tribunal.
                                                                  12. Realizar soporte para cálculos en liquidaciones.
 
-## 13. Llevar un control y un registro del gasto de fotocopias del tribunal
-
-                                                                     y recibir pago de compulsas.
-
-## 14. Controlar el presupuesto asignado al tribunal, para el pago de
-
-                                                                     cuentas. Cuadrar y verificar que exista el pago para las diferentes
-                                                                     facturas.
-
-## 15. Controlar el dinero de “caja chica” que provee la Corporación
-
-                                                                     Administrativa del Poder Judicial.
-
-## 16. Gestionar el cumplimiento del artículo 515 del Código Orgánico
-
-                                                                     de Tribunales.
+en bodega, al cierre de cada mes.
+                                                                 11. Custodiar las llaves del tribunal.
+                                                                 12. Realizar soporte para cálculos en liquidaciones.
 
 ## 17. Observar y cumplir las instrucciones impartidas por el jefe directo
 
-                                                                     y aquellas que, en uso de sus facultades disciplinarias y conser-
+**Definición Canónica:** y aquellas que, en uso de sus facultades disciplinarias y conser-
+                                                                     vadoras (administrativas y económicas), dicten la Excma. Corte
+                                                                     Suprema y la Ilma. Corte de Apelaciones respectiva.
+
+y aquellas que, en uso de sus facultades disciplinarias y conser-
                                                                      vadoras (administrativas y económicas), dicten la Excma. Corte
                                                                      Suprema y la Ilma. Corte de Apelaciones respectiva.
 
@@ -4745,14 +4496,15 @@ Reformados: nociones                                              según la tipo
 
                                                                  Ayudante de Servicios
 
-
-## 1. Atender las consultas realizadas por los usuarios cuando cumpla
-
-                                                                    funciones de atención público.
-
 ## 2. Recibir, registrar, archivar y distribuir la correspondencia que
 
-                                                                    ingrese al tribunal de acuerdo a los procedimientos establecidos.
+**Definición Canónica:** ingrese al tribunal de acuerdo a los procedimientos establecidos.
+                                                                 3. Entregar materiales e insumos a los funcionarios.
+                                                                 4. Apoyar en labores de bodega.
+                                                                 5. Apoyo general en labores logística.
+                                                                 6. Entrega de materiales a los funcionarios del tribunal.
+
+ingrese al tribunal de acuerdo a los procedimientos establecidos.
                                                                  3. Entregar materiales e insumos a los funcionarios.
                                                                  4. Apoyar en labores de bodega.
                                                                  5. Apoyo general en labores logística.
@@ -4812,10 +4564,15 @@ Reformados: nociones                                                            
 Tribunales No                                                        7. Gestión administrativa para                                       140
 Reformados: nociones                                                   tribunales no reformados
 
-
 ## 7.1    Planificación
 
-                                                                      Esta fase es de alta relevancia a la hora de realizar una gestión admi-
+**Definición Canónica:** Esta fase es de alta relevancia a la hora de realizar una gestión admi-
+                                                                      nistrativa exitosa, para tener una claridad de hacia dónde queremos
+                                                               2      guiar nuestros esfuerzos. Define nuestros objetivos como tribunal al
+                                                                      corto, mediano y largo plazo, traduciéndolos en proyectos, propuestas
+                                                                      y procedimientos que permitan la mejora e
+
+Esta fase es de alta relevancia a la hora de realizar una gestión admi-
                                                                       nistrativa exitosa, para tener una claridad de hacia dónde queremos
                                                                2      guiar nuestros esfuerzos. Define nuestros objetivos como tribunal al
                                                                       corto, mediano y largo plazo, traduciéndolos en proyectos, propuestas
@@ -4839,10 +4596,16 @@ Reformados: nociones                                                   tribunale
                                                                       distintas áreas, que podemos agrupar como se hará en los tres
                                                                       próximos acápites.:
 
-
 ## 7.1.2 Recursos humanos
 
-                                                                      En esta área es fundamental una planificación a la hora de buscar
+**Definición Canónica:** En esta área es fundamental una planificación a la hora de buscar
+                                                                      el logro de objetivos por parte del tribunal, pues el recurso humano
+                                                                      es central en cada uno de los tribunales que conforman el Poder
+                                                                      Judicial. Algunos ejemplos que se pueden mencionar:
+                                                                      a. Mantener y consolidar un buen clima laboral en el tribunal,
+      
+
+En esta área es fundamental una planificación a la hora de buscar
                                                                       el logro de objetivos por parte del tribunal, pues el recurso humano
                                                                       es central en cada uno de los tribunales que conforman el Poder
                                                                       Judicial. Algunos ejemplos que se pueden mencionar:
@@ -4911,10 +4674,13 @@ Reformados: nociones                                                   tribunale
                                                                      — Reuniones de coordinación ampliadas con todos los integran-
                                                                        tes del tribunal, generalmente bimensuales o trimestrales.
 
-
 ## 7.1.3 Servicios e infraestructura
 
-                                                                Para desarrollar un trabajo adecuado se requiere contar con la infraes-
+**Definición Canónica:** Para desarrollar un trabajo adecuado se requiere contar con la infraes-
+                                                                tructura e implementación adecuada, razón por la cual se considera
+                                                                relevante fijar los siguientes objetivos respecto de esta área:
+
+Para desarrollar un trabajo adecuado se requiere contar con la infraes-
                                                                 tructura e implementación adecuada, razón por la cual se considera
                                                                 relevante fijar los siguientes objetivos respecto de esta área:
 
@@ -4937,10 +4703,16 @@ Reformados: nociones                                                   tribunale
 
 Tribunales No                                                  7. Gestión administrativa para                                         143
 
-
 ## 7.1.4 Procesos
 
-                                                                Los procesos de trabajo pasan a ser un apoyo muy importante para
+**Definición Canónica:** Los procesos de trabajo pasan a ser un apoyo muy importante para
+                                                                que todos los integrantes del tribunal tengan claridad respecto de
+                                                                las formas de hacer las cosas y las políticas que inspiran esas formas
+                                                                de trabajo, dándole fluidez a los actos administrativos, de donde la
+                                                                importancia de trabajar este aspecto de manera permanente.
+**Concordancias Legales:** artículo 18
+
+Los procesos de trabajo pasan a ser un apoyo muy importante para
                                                                 que todos los integrantes del tribunal tengan claridad respecto de
                                                                 las formas de hacer las cosas y las políticas que inspiran esas formas
                                                                 de trabajo, dándole fluidez a los actos administrativos, de donde la
@@ -5009,10 +4781,15 @@ Reformados: nociones                                                   tribunale
 Tribunales No                                                        7. Gestión administrativa para                                          145
 Reformados: nociones                                                   tribunales no reformados
 
-
 ## 7.2    Organización
 
-                                                                      Esta fase de la gestión administrativa se puede definir como la forma
+**Definición Canónica:** Esta fase de la gestión administrativa se puede definir como la forma
+                                                                      en que se distribuyen los distintos recursos humanos, económicos
+                                                               2      o financieros y técnicos con que se cuentan para lograr el objetivo
+                                                                      principal de administrar justicia.
+**Concordancias Legales:** artículo 498 del Código Orgánico de Tribunales
+
+Esta fase de la gestión administrativa se puede definir como la forma
                                                                       en que se distribuyen los distintos recursos humanos, económicos
                                                                2      o financieros y técnicos con que se cuentan para lograr el objetivo
                                                                       principal de administrar justicia.
@@ -5060,10 +4837,15 @@ Reformados: nociones                                                   tribunale
 Tribunales No                                                        7. Gestión administrativa para                                      147
 Reformados: nociones                                                   tribunales no reformados
 
-
 ## 7.3    Dirección
 
-                                                                      Esta fase de la gestión administrativa se puede definir como la ma-
+**Definición Canónica:** Esta fase de la gestión administrativa se puede definir como la ma-
+                                                                      nera en que las personas encargadas de dirigir administrativamente
+                                                               2      el tribunal hacen ejecutar lo planificado para alcanzar los objetivos
+                                                                      del tribunal y la administración de justicia a través de un proceso de
+                                                                      tramitación de causas eficiente y eficaz, de
+
+Esta fase de la gestión administrativa se puede definir como la ma-
                                                                       nera en que las personas encargadas de dirigir administrativamente
                                                                2      el tribunal hacen ejecutar lo planificado para alcanzar los objetivos
                                                                       del tribunal y la administración de justicia a través de un proceso de
@@ -5074,10 +4856,15 @@ Reformados: nociones                                                   tribunale
 Tribunales No                                                        7. Gestión administrativa para                                   148
 Reformados: nociones                                                   tribunales no reformados
 
-
 ## 7.4    Control
 
-                                                                      Esta fase de la gestión administrativa consiste en ir verificando y
+**Definición Canónica:** Esta fase de la gestión administrativa consiste en ir verificando y
+                                                                      midiendo los avances de lo planeado, corrigiendo y reorientando
+                                                               2      actividades de acuerdo a las necesidades. En esta etapa es muy per-
+                                                                      tinente definir de antemano indicadores de gestión, de manera que
+                                                                      todos los integrantes del tribunal estén en conocimien
+
+Esta fase de la gestión administrativa consiste en ir verificando y
                                                                       midiendo los avances de lo planeado, corrigiendo y reorientando
                                                                2      actividades de acuerdo a las necesidades. En esta etapa es muy per-
                                                                       tinente definir de antemano indicadores de gestión, de manera que
@@ -5098,15 +4885,15 @@ Reformados: nociones                                                   tribunale
 Tribunales No                                                                     7. Gestión administrativa para                                                          149
 Reformados: nociones                                                                tribunales no reformados
 
-
-## 7.5             Procedimientos indispensables en la gestión
-
-                                                                                      administrativa de un juzgado no reformado
-
-
 ## 7.5.1 Distribución del personal en las diferentes
 
-                                                                                      secciones o unidades y su dotación mínima
+**Definición Canónica:** secciones o unidades y su dotación mínima
+                                                                                      para un funcionamiento adecuado
+                                                                                      Como ya ha sido mencionado, el diseño organizacional para los
+                                                                                      distintos tipos de tribunales que se consideran como no reforma-
+                                                                                      dos se encuentra definido, y la mayor variación puede d
+
+secciones o unidades y su dotación mínima
                                                                                       para un funcionamiento adecuado
                                                                                       Como ya ha sido mencionado, el diseño organizacional para los
                                                                                       distintos tipos de tribunales que se consideran como no reforma-
@@ -5167,37 +4954,42 @@ Reformados: nociones                                                            
                                                        Cargo             Subunidad     Orientación general de sus funciones
                                                        Oficial 1º        ‑‑‑           1. Subrogar al secretario en su ausencia.
 
-
 ## 2. Colaborar en labores administrativas del secretario como es en la
 
-                                                                                       custodia de documentos, interviniendo en los procesos administrativos
+**Definición Canónica:** custodia de documentos, interviniendo en los procesos administrativos
                                                                                        velando por el adecuado funcionamiento del tribunal.
 
+custodia de documentos, interviniendo en los procesos administrativos
+                                                                                       velando por el adecuado funcionamiento del tribunal.
 
 ## 3. Informar al secretario respecto a la administración de personal y
 
-                                                                                       dificultades que surjan en el tribunal, proponiendo y llevando a cabo las
+**Definición Canónica:** dificultades que surjan en el tribunal, proponiendo y llevando a cabo las
                                                                                        medidas correctivas, soluciones y/o modificaciones pertinentes.
 
-
-## 4. Entregar el despacho para la firma del juez, velando por la correcta y
-
-                                                                                       oportuna entrega de este.
-
-                                                                                       5. Ingresar al METGE el inventario de causas y la estadística de estas.
-
+dificultades que surjan en el tribunal, proponiendo y llevando a cabo las
+                                                                                       medidas correctivas, soluciones y/o modificaciones pertinentes.
 
 ## 6. Controlar el correcto registro de las causas en sistema, velando por que
 
-                                                                                       los datos de los sistemas se encuentren actualizados.
+**Definición Canónica:** los datos de los sistemas se encuentren actualizados.
+
+los datos de los sistemas se encuentren actualizados.
 
                                                                                        7. Apoyar en la realización de informes y oficios solicitados por la Ilma.
                                                                                        Corte de Apelaciones de su jurisdicción.
 
-
 ## 8. Verificar la recepción de documentos de la Ilma. Corte de Apelaciones y
 
-                                                                                       otras entidades.
+**Definición Canónica:** otras entidades.
+                                                       Administrativo    ‑‑‑           Funciones de proveedor civil contencioso y civil voluntario, control
+                                                       de causas                       estadístico y metas de gestión.
+                                                       civiles
+                                                       Administrativo    ‑‑‑           Funciones de proveedor civil contencioso.
+                                                       de causas
+                                                   
+
+otras entidades.
                                                        Administrativo    ‑‑‑           Funciones de proveedor civil contencioso y civil voluntario, control
                                                        de causas                       estadístico y metas de gestión.
                                                        civiles
@@ -5298,10 +5090,9 @@ Reformados: nociones                                                            
                                                                  Subrogación del
                                                                  secretario.
 
-
 ## Sección Civil
 
-                                                                 Actividad o función            Subunidad   Dotación mínima
+**Definición Canónica:** Actividad o función            Subunidad   Dotación mínima
                                                                  crítica
                                                                  Funciones de                   ‑‑‑         funcionarios
                                                                  providencias
@@ -5309,10 +5100,25 @@ Reformados: nociones                                                            
                                                                  contenciosa y
                                                                  voluntaria.
 
+Actividad o función            Subunidad   Dotación mínima
+                                                                 crítica
+                                                                 Funciones de                   ‑‑‑         funcionarios
+                                                                 providencias
+                                                                 en materia civil
+                                                                 contenciosa y
+                                                                 voluntaria.
 
 ## Sección Laboral y Cobranza
 
-                                                                 Actividad o función            Subunidad   Dotación mínima
+**Definición Canónica:** Actividad o función            Subunidad   Dotación mínima
+                                                                 crítica
+                                                                 Funciones de                   ‑‑‑         1 funcionario
+                                                                 proveedor de cobranza
+                                                                 y laboral.
+                                                                 Funciones de toma de           ‑‑‑         1 funcionario
+                                                             
+
+Actividad o función            Subunidad   Dotación mínima
                                                                  crítica
                                                                  Funciones de                   ‑‑‑         1 funcionario
                                                                  proveedor de cobranza
@@ -5322,10 +5128,15 @@ Reformados: nociones                                                            
 
 Tribunales No                                                  7. Gestión administrativa para                                     154
 
-
 ## Sección Atención de Público
 
-                                                                 Área crítica                   Subunidad     Dotación mínima
+**Definición Canónica:** Área crítica                   Subunidad     Dotación mínima
+                                                                 Atención de consultas          ‑‑‑           funcionario
+                                                                 de distintos usuarios,
+                                                                 por mesón, telefónica,
+                                                                 correo electrónico.
+
+Área crítica                   Subunidad     Dotación mínima
                                                                  Atención de consultas          ‑‑‑           funcionario
                                                                  de distintos usuarios,
                                                                  por mesón, telefónica,
@@ -5334,10 +5145,14 @@ Reformados: nociones                                                            
                                                                  Recepción y despacho
                                                                  de correspondencia.
 
-
 ## 7.5.2 Modelo de polifuncionalidad y matriz de
 
-                                                                subrogaciones en los tribunales no reformados
+**Definición Canónica:** subrogaciones en los tribunales no reformados
+                                                                La implementación de modelos de polifuncionalidad nace de la
+                                                                necesidad de que los tribunales cuenten en todos los cargos con
+                                                                funcionarios con los conocimientos suficientes para garantizar la
+
+subrogaciones en los tribunales no reformados
                                                                 La implementación de modelos de polifuncionalidad nace de la
                                                                 necesidad de que los tribunales cuenten en todos los cargos con
                                                                 funcionarios con los conocimientos suficientes para garantizar la
@@ -5379,7 +5194,11 @@ Reformados: nociones                                                            
 
 ## sección o unidad, en la que mensualmente van realizando las
 
-                                                                   distintas funciones que contempla esa sección o unidad. Por
+**Definición Canónica:** distintas funciones que contempla esa sección o unidad. Por
+                                                                   ejemplo, en la sección civil las distintas funciones van siendo de-
+                                                                   sarrolladas por los distintos funcionarios que la integran; si tiene
+
+distintas funciones que contempla esa sección o unidad. Por
                                                                    ejemplo, en la sección civil las distintas funciones van siendo de-
                                                                    sarrolladas por los distintos funcionarios que la integran; si tiene
 
@@ -5397,7 +5216,14 @@ Reformados: nociones                                                            
 
 ## 1. La reasignación temporal de funciones se realizará durante el
 
-                                                                   año por periodos de tres meses, con evaluación conjunta con los
+**Definición Canónica:** año por periodos de tres meses, con evaluación conjunta con los
+                                                                   funcionarios involucrados para establecer la necesidad de prolon-
+                                                                   gar la misma por más tiempo, considerándose dicha extensión
+                                                                   si se observa que el funcionario respectivo requiere seguir pro-
+                                                                   fundizando y afianzando el desarrollo de las nuevas funciones o
+             
+
+año por periodos de tres meses, con evaluación conjunta con los
                                                                    funcionarios involucrados para establecer la necesidad de prolon-
                                                                    gar la misma por más tiempo, considerándose dicha extensión
                                                                    si se observa que el funcionario respectivo requiere seguir pro-
@@ -5408,7 +5234,12 @@ Reformados: nociones                                                            
 
 ## 2. Se establece para un año determinado, por ejemplo 2021, las
 
-                                                                   funciones en que se requiere afianzar a otros funcionarios, defi-
+**Definición Canónica:** funciones en que se requiere afianzar a otros funcionarios, defi-
+                                                                   niendo por ejemplo las siguientes:
+                                                                     — Toma de actas en audiencias de familia.
+                                                                     — Funciones de atención de público.
+
+funciones en que se requiere afianzar a otros funcionarios, defi-
                                                                    niendo por ejemplo las siguientes:
                                                                      — Toma de actas en audiencias de familia.
                                                                      — Funciones de atención de público.
@@ -5440,7 +5271,11 @@ Reformados: nociones                                                            
 
 ## 4. La polifuncionalidad además se deberá reflejar en los turnos de
 
-                                                                   día sábado, donde los funcionarios que asistan al mismo deberán
+**Definición Canónica:** día sábado, donde los funcionarios que asistan al mismo deberán
+                                                                   desarrollar todas las labores que esto implica, desde la atención
+                                                                   de público, proyectos de resolución, ingreso de exhortos, etcétera.
+
+día sábado, donde los funcionarios que asistan al mismo deberán
                                                                    desarrollar todas las labores que esto implica, desde la atención
                                                                    de público, proyectos de resolución, ingreso de exhortos, etcétera.
 
@@ -5476,11 +5311,13 @@ Reformados: nociones                                                            
 
                                                                Nombre del funcionario          Cargo                     Quien lo subroga        A quien subroga
 
-
 ## 1       Xxxxxxx                         Oficial 1º                1º xxxxxxx 2º xxxxxxx   1º xxxxxxxxxx
 
+**Definición Canónica:** Administrativo
+                                                       2       Xxxxxxx                                                   1º xxxxxxx 2º xxxxxxx   1º xxxxxxx 2º xxxxxxx
+                                                                                               causas Civiles
 
-                                                                                               Administrativo
+Administrativo
                                                        2       Xxxxxxx                                                   1º xxxxxxx 2º xxxxxxx   1º xxxxxxx 2º xxxxxxx
                                                                                                causas Civiles
 
@@ -5494,10 +5331,16 @@ Reformados: nociones                                                            
 
 Tribunales No                                                  7. Gestión administrativa para                                            158
 
-
 ## 7.5.3 Procedimiento objetivo y general de distribución
 
-                                                                de causas y criterios de agendamiento de audiencias
+**Definición Canónica:** de causas y criterios de agendamiento de audiencias
+                                                                La distribución de causas en los tribunales tiene alta relevancia, ya
+                                                                que una adecuada distribución incide directamente en los equilibrios
+                                                                de cargas de trabajo tanto de los jueces como de los funcionarios que
+                                                                son tramitadores o proveedores de las mismas. Dado lo anterior, los
+               
+
+de causas y criterios de agendamiento de audiencias
                                                                 La distribución de causas en los tribunales tiene alta relevancia, ya
                                                                 que una adecuada distribución incide directamente en los equilibrios
                                                                 de cargas de trabajo tanto de los jueces como de los funcionarios que
@@ -5560,53 +5403,61 @@ Reformados: nociones                                                            
                                                                      diencias, de manera de realizar una adecuada calendarización de
                                                                      las mismas, podemos tener en consideración lo siguiente:
 
-
-## 1. La cantidad de salas físicas con que se cuenta en el respectivo
-
-                                                                   juzgado.
-
-## 2. La necesidad de los jueces de contar con tiempo suficiente para
-
-                                                                   poder resolver el despacho diario, además de las distintas audien-
-                                                                   cias en las que cada uno debe tomar parte.
-
 ## 3. Los distintos tipos de audiencia que, de acuerdo a la materia que
 
-                                                                   el tribunal tiene como competencia; por ejemplo, en materia labo-
+**Definición Canónica:** el tribunal tiene como competencia; por ejemplo, en materia labo-
+                                                                   ral, si son audiencias preparatorias, de juicio o audiencias únicas.
+
+el tribunal tiene como competencia; por ejemplo, en materia labo-
                                                                    ral, si son audiencias preparatorias, de juicio o audiencias únicas.
 
 ## 4. La optimización del agendamiento en base a los tiempos esti-
 
-                                                                   mados de duración de cada una de las audiencias, teniendo en
+**Definición Canónica:** mados de duración de cada una de las audiencias, teniendo en
+                                                                   cuenta aspectos que dicen relación con la dictación de sentencia
+                                                                   de manera inmediata en algunas de estas.
+
+mados de duración de cada una de las audiencias, teniendo en
                                                                    cuenta aspectos que dicen relación con la dictación de sentencia
                                                                    de manera inmediata en algunas de estas.
 
 Tribunales No                                                  7. Gestión administrativa para                                       160
 
-
 ## 5. Además, se considera pertinente agendar de una forma que per-
 
-                                                                   mita prever, con cierta certeza, que la espera de los intervinientes
+**Definición Canónica:** mita prever, con cierta certeza, que la espera de los intervinientes
                                                                    entre una audiencia y otra sea lo programado, evitándose largas
                                                                    esperas por audiencias que tengan dictación de fallo en el acto u
                                                                    otros aspectos que pudieran extenderla más allá de lo planificado.
 
-## 6. Realizar un agendamiento que evite tope de audiencias de una
-
-                                                                   parte (abogado) en un mismo día y hora.
+mita prever, con cierta certeza, que la espera de los intervinientes
+                                                                   entre una audiencia y otra sea lo programado, evitándose largas
+                                                                   esperas por audiencias que tengan dictación de fallo en el acto u
+                                                                   otros aspectos que pudieran extenderla más allá de lo planificado.
 
 ## 7. La aplicación de la anticipación de audiencias, contemplada en
 
-                                                                   el artículo 56 del Acta Nº 71-2016; esto se hace necesario ante
+**Definición Canónica:** el artículo 56 del Acta Nº 71-2016; esto se hace necesario ante
+                                                                   la alta demanda de horas de audiencia por parte de los intervi-
+                                                                   nientes, lo que permitirá una optimización de la agenda y una
+**Concordancias Legales:** artículo 56 del Acta Nº 71
+
+el artículo 56 del Acta Nº 71-2016; esto se hace necesario ante
                                                                    la alta demanda de horas de audiencia por parte de los intervi-
                                                                    nientes, lo que permitirá una optimización de la agenda y una
 
                                                                    mejor distribución de cargas entre los magistrados.
 
-
 ## 7.5.4 Protocolo de inducción al personal nuevo
 
-                                                                en un juzgado de letras no reformado
+**Definición Canónica:** en un juzgado de letras no reformado
+                                                                La inducción al personal, también llamada socialización corporativa,
+                                                                se hace cada vez más importante en los tribunales, ya que se requiere
+                                                                que los nuevos integrantes adquieran actitudes, comportamientos
+                                                                y valores propios del tribunal y del Poder Judicial, además de servir
+                                  
+
+en un juzgado de letras no reformado
                                                                 La inducción al personal, también llamada socialización corporativa,
                                                                 se hace cada vez más importante en los tribunales, ya que se requiere
                                                                 que los nuevos integrantes adquieran actitudes, comportamientos
@@ -5636,10 +5487,14 @@ Reformados: nociones                                                            
                                                                 continuación considera los principales aspectos que debería contener
                                                                 un proceso de socialización al interior de los tribunales no reformados.
 
-
 ## 7.5.4.1   Descripción del proceso
 
-                                                                El procedimiento de inducción debe ser considerado en todos sus
+**Definición Canónica:** El procedimiento de inducción debe ser considerado en todos sus
+                                                                aspectos cuando se incorpore un nuevo funcionario al tribunal. Dicho
+                                                                protocolo contempla:
+                                                                 — Socialización sobre la estructura administrativa y aspectos gene-
+
+El procedimiento de inducción debe ser considerado en todos sus
                                                                 aspectos cuando se incorpore un nuevo funcionario al tribunal. Dicho
                                                                 protocolo contempla:
                                                                  — Socialización sobre la estructura administrativa y aspectos gene-
@@ -5651,23 +5506,24 @@ Reformados: nociones                                                            
                                                                 Las sucesivas etapas y detalles de la inducción se desarrollan a con-
                                                                 tinuación:
 
-
-## 1. Entrevista con el administrador del tribunal o quien
-
-                                                                         realice la labor de gestión administrativa
-
-
 ## 1.1 El administrador o quien corresponda, presentará al
 
-                                                                              nuevo funcionario al resto del personal del tribunal,
+**Definición Canónica:** nuevo funcionario al resto del personal del tribunal,
                                                                               lo que incluye jueces, jefes de unidad, funcionarios y
                                                                               personal de aseo. Esta actividad se realizará visitando
                                                                               las distintas dependencias u oficinas del tribunal.
 
+nuevo funcionario al resto del personal del tribunal,
+                                                                              lo que incluye jueces, jefes de unidad, funcionarios y
+                                                                              personal de aseo. Esta actividad se realizará visitando
+                                                                              las distintas dependencias u oficinas del tribunal.
 
 ## 1.2 Entrega de información general de utilidad para el
 
-                                                                              nuevo funcionario. Esta actividad involucra informar:
+**Definición Canónica:** nuevo funcionario. Esta actividad involucra informar:
+                                                                          — Detalle de dependencias del tribunal
+
+nuevo funcionario. Esta actividad involucra informar:
                                                                           — Detalle de dependencias del tribunal
 
                                                                           — Servicios higiénicos
@@ -5681,10 +5537,12 @@ Reformados: nociones                                                            
                                                                          — Entregar equipamiento y materiales de oficina básicos
                                                                            para ejercer la labor.
 
-
 ## 1.3 Presentación de aspectos administrativos del
 
-                                                                             tribunal, acompañada de una entrega de material
+**Definición Canónica:** tribunal, acompañada de una entrega de material
+                                                                             vía correo electrónico en los siguientes aspectos:
+
+tribunal, acompañada de una entrega de material
                                                                              vía correo electrónico en los siguientes aspectos:
 
                                                                          — Organigrama
@@ -5720,10 +5578,11 @@ Reformados: nociones                                                            
 
 Tribunales No                                                  7. Gestión administrativa para                                          163
 
-
 ## 2. Permanencia del funcionario en la Unidad de Atención
 
-                                                                        de Público
+**Definición Canónica:** de Público
+
+de Público
 
                                                                         La idea de la inducción es que el funcionario tenga una
                                                                         visión general de las labores que realiza esta unidad, serán
@@ -5741,10 +5600,11 @@ Reformados: nociones                                                            
 
                                                                          — Etcétera.
 
-
 ## 3. Permanencia del funcionario en la sección correspon-
 
-                                                                        diente o Unidad de Causas, Sala y Cumplimiento
+**Definición Canónica:** diente o Unidad de Causas, Sala y Cumplimiento
+
+diente o Unidad de Causas, Sala y Cumplimiento
 
                                                                         Bajo la misma metodología, se busca que el funcionario
                                                                         que se integra reciba una visión general de las labores que
@@ -5804,10 +5664,11 @@ Reformados: nociones                                                            
 
 Tribunales No                                                  7. Gestión administrativa para                                              165
 
-
 ## 4. Capacitación respecto de las funciones
 
-                                                                        específicas a desarrollar
+**Definición Canónica:** específicas a desarrollar
+
+específicas a desarrollar
 
                                                                         Esta capacitación deberá ser liderada por el jefe directo
                                                                         del funcionario, en el caso específico, el jefe de unidad co-
@@ -5816,11 +5677,11 @@ Reformados: nociones                                                            
                                                                         administrativa. La capacitación a realizar contempla la
                                                                         siguiente metodología:
 
-
 ## 4.1 Funcionario sin experiencia en tribunales de letras
 
+**Definición Canónica:** no reformados
 
-                                                                              no reformados
+no reformados
 
                                                                               El nuevo funcionario, con todos los elementos en-
                                                                               tregados más la información respecto a manuales,
@@ -5835,10 +5696,11 @@ Reformados: nociones                                                            
                                                                               función, teniendo la posibilidad de consultar cualquier
                                                                               duda que le pueda ir surgiendo.
 
-
 ## 4.2 Funcionario con experiencia en tribunales de letrasno
 
-                                                                              reformados
+**Definición Canónica:** reformados
+
+reformados
 
                                                                               La metodología es básicamente la misma descrita en
                                                                               el punto anterior, con la diferencia de que no existirá
@@ -5849,10 +5711,16 @@ Reformados: nociones                                                            
 
 Tribunales No                                                  7. Gestión administrativa para                                      166
 
-
 ## 7.5.5 Decretos económicos
 
-                                                                El registro de decretos económicos en los tribunales se puede definir
+**Definición Canónica:** El registro de decretos económicos en los tribunales se puede definir
+                                                                en términos sencillos como la historia del tribunal, desde la asunción
+                                                                de funciones del primer juez que lo inicia hasta el registro de todos
+                                                                los asuntos en que el juez presidente decreta algo relacionado con
+                                                                cualquier ámbito de acción del tribunal, de acuerdo a sus facultad
+**Concordancias Legales:** artículo 515 del Código Orgánico de Tribunales
+
+El registro de decretos económicos en los tribunales se puede definir
                                                                 en términos sencillos como la historia del tribunal, desde la asunción
                                                                 de funciones del primer juez que lo inicia hasta el registro de todos
                                                                 los asuntos en que el juez presidente decreta algo relacionado con
@@ -5896,10 +5764,15 @@ Reformados: nociones                                                        trib
                                                                            relacionados con los demás ámbitos jurisdiccionales y disciplinarios,
                                                                            a través del juez presidente del tribunal.
 
-
 ## 7.5.6 Metas de gestión de desempeño
 
-                                                                           colectivo y de eficiencia institucional
+**Definición Canónica:** colectivo y de eficiencia institucional
+                                                                           El Poder Judicial todos los años debe dar cumplimiento a metas de
+                                                                           gestión reguladas a través de un auto acordado, que generalmente
+                                                                           se aprueba en el mes de diciembre del año anterior al de aplicación
+                                                                           de dichas metas e involucra no solo a los tribunales, sino ta
+
+colectivo y de eficiencia institucional
                                                                            El Poder Judicial todos los años debe dar cumplimiento a metas de
                                                                            gestión reguladas a través de un auto acordado, que generalmente
                                                                            se aprueba en el mes de diciembre del año anterior al de aplicación
@@ -5975,10 +5848,15 @@ Reformados: nociones                                                            
                                                                                                                        Judicial, en línea con la nueva carrera
                                                                                                                        judicial.
 
-
 ## 7.5.7 Indicadores de gestión
 
-                                                                                         Establecer indicadores de gestión es una forma de medir si el tribunal
+**Definición Canónica:** Establecer indicadores de gestión es una forma de medir si el tribunal
+                                                                                         está logrando sus metas y objetivos estratégicos, y dice relación con
+                                                                                         la necesidad de disponer de información que sea medible y cuantifi-
+                                                                                         cable, por ejemplo, de modo de comparar la gestión del tribunal con
+                                                        
+
+Establecer indicadores de gestión es una forma de medir si el tribunal
                                                                                          está logrando sus metas y objetivos estratégicos, y dice relación con
                                                                                          la necesidad de disponer de información que sea medible y cuantifi-
                                                                                          cable, por ejemplo, de modo de comparar la gestión del tribunal con
@@ -5998,7 +5876,11 @@ Reformados: nociones                                                            
 
 ## 2. Stock de causas en tramitación. En este aspecto, el indicador va
 
-                                                                   generalmente asociado a disminuir los stock de causas en trami-
+**Definición Canónica:** generalmente asociado a disminuir los stock de causas en trami-
+                                                                   tación, priorizando las causas más antiguas, por ejemplo, fijando
+                                                                   como meta una reducción de 90 % en las causas en tramitación
+
+generalmente asociado a disminuir los stock de causas en trami-
                                                                    tación, priorizando las causas más antiguas, por ejemplo, fijando
                                                                    como meta una reducción de 90 % en las causas en tramitación
 
@@ -6006,20 +5888,35 @@ Reformados: nociones                                                            
 
 ## 3. Tiempos de firma de resoluciones. Por ejemplo, elaborar un indi-
 
-                                                                   cador de gestión que establezca un porcentaje de cumplimiento
+**Definición Canónica:** cador de gestión que establezca un porcentaje de cumplimiento
+                                                                   en base a un estándar de días de firma, para que el 90 % de las
+                                                                   resoluciones civiles se firmen a lo más dentro de cuatro días.
+
+cador de gestión que establezca un porcentaje de cumplimiento
                                                                    en base a un estándar de días de firma, para que el 90 % de las
                                                                    resoluciones civiles se firmen a lo más dentro de cuatro días.
 
 ## 4. Plazos de agendamiento. Establecer un indicador más exigente
 
-                                                                   que los plazos legales de agendamiento en las distintas materias.
+**Definición Canónica:** que los plazos legales de agendamiento en las distintas materias.
+                                                                   Por ejemplo, que el 90 % del agendamiento de las audiencias
+                                                                   preparatorias sea entre los 20 y 25 días, siendo que el plazo legal
+                                                                   es de máximo 35 días.
+
+que los plazos legales de agendamiento en las distintas materias.
                                                                    Por ejemplo, que el 90 % del agendamiento de las audiencias
                                                                    preparatorias sea entre los 20 y 25 días, siendo que el plazo legal
                                                                    es de máximo 35 días.
 
 ## 5. Tiempos de tramitación de causas. Se puede establecer un in-
 
-                                                                   dicador de gestión respecto de la duración de una causa en tra-
+**Definición Canónica:** dicador de gestión respecto de la duración de una causa en tra-
+                                                                   mitación, por ejemplo puede ser un determinado tipo de causas
+                                                                   de alguna materia y debe ser un indicador realista, porque no
+                                                                   necesariamente el juzgado podrá manejar de manera exclusiva
+                                                                   el tiempo de tramitación de las causas.
+
+dicador de gestión respecto de la duración de una causa en tra-
                                                                    mitación, por ejemplo puede ser un determinado tipo de causas
                                                                    de alguna materia y debe ser un indicador realista, porque no
                                                                    necesariamente el juzgado podrá manejar de manera exclusiva
@@ -6044,40 +5941,3 @@ Reformados: nociones                                                            
                                                                                             de resoluciones
                                                                                             dictadas durante
                                                                                             el año 2020.
-
-
-## Serie de
-
-Tribunales No                                       1.     DOCUMENTOS 172
-Reformados: nociones                                                    72
-
-## Materiales
-
-
-## Docentes
-
-
- ial
-  c
-  udi
-  J
-  a
-  mi
-  de
-  a
-  c
-  A
-  s
-  e
-  nt
-  e
-  c
-  do
-  s
-  al
-  e
-  ri
-  e
- Mat
-
-    Academia Judicial de Chile | www.academiajudicial.cl

@@ -13,10 +13,25 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-DECIMO TERCERA PARTE:
-
 ## De la particion de bienes1
 
+**Definición Canónica:** Sumario:
+1.- Concepto y reglamentación.
+2.- Objetivos de la partición.
+3.- Cuándo existe indivisión.
+4.- Casos en que se aplican estas normas.
+5.- Cuándo puede pedirse la partición.
+6.- Por quién puede ser hecha la partición.
+7.- Quiénes pueden designar juez partidor.
+8.- Requisitos del partidor nombrado por cualquiera de las personas citadas.
+9.- Carácter del partidor.
+10.- Aceptación del cargo y juramento por el partidor y plazo para su desempeño.
+11.- Responsabilidad del partidor.
+12.- El juicio de partición.
+13.- Efectos de la partición.
+14.- Nulidad de la partición.
+15.- ¿Procede demandar
+**Concordancias Legales:** artículos 1319; artículo 657 del Código de Enjuiciamiento Civil; artículo 657 del Código de Procedimiento Civil no contempla un; artículo 1325 del Código Civil se encuentra inspirada en un pri; artículos 1342 del Código Civil y 657 del Código de Procedimient; artículo 1342; Ley Nº19.585
 
 Sumario:
 1.- Concepto y reglamentación.
@@ -366,6 +381,16 @@ que el incapaz ya tenía un representante legal y éste igualmente tiene interé
 
 ## partición: “¿ES NECESARIO CURADOR ESPECIAL CUANDO EN LA PARTICIÓN HAY CONFLICTO DE
 
+**Definición Canónica:** INTERESES ENTRE EL REPRESENTANTE Y EL REPRESENTADO? Se habla de conflicto de intereses
+dentro de la representación cuando en el asunto en que debe actuar el representante
+velando por los intereses del representado también tiene intereses el primero (sea por
+cuenta personal o de terceros) potencialmente contrapuestos con los del segundo.
+Sabemos que disuelta la sociedad conyugal por muerte de uno de los cónyuges, se
+forma una comunidad entre el cónyuge sobreviviente y los herederos del difunto. En la
+partición de esta comunidad, ¿podría intervenir el cónyuge sobreviviente en su doble
+calidad de
+**Concordancias Legales:** artículo 506 inciso 3
+
 INTERESES ENTRE EL REPRESENTANTE Y EL REPRESENTADO? Se habla de conflicto de intereses
 dentro de la representación cuando en el asunto en que debe actuar el representante
 velando por los intereses del representado también tiene intereses el primero (sea por
@@ -436,8 +461,9 @@ acuerdo, lo designará el juez.
 alguno de los coasignatarios fuere incapaz, el nombramiento del partidor, que no haya
 sido hecho por el juez, debe ser aprobado por éste.
 
-
 ## 7.3. Situación, cuando entre los coasignatarios hay mujeres casadas en sociedad
+
+**Definición Canónica:** conyugal.
 
 conyugal.
 
@@ -470,8 +496,10 @@ Corral-, el que se permita a la mujer pedir autorización para “concurrir” a
 partición que ha sido provocada por otro coasignatario, y en la que el marido se niega
 a participar como administrador de los bienes propios de la mujer.
 
-
 ## 7.4. Obligación que pesa sobre los guardadores o sobre los padres de un hijo menor de
+
+**Definición Canónica:** edad.
+**Concordancias Legales:** artículo 396; artículos 1324; artículos 1330; artículo 1337; artículo 1528; artículo 1373; artículos 1338; Ley Nº 16.271
 
 edad.
 
@@ -869,6 +897,16 @@ deberá sujetarse en la distribución, en las adjudicaciones a lo que establece 
 
 ## 1337. Así lo manifiesta el legislador en el art. 1334, al decir (…). el art. 1334 transcrito
 
+**Definición Canónica:** es la confirmación más palpable de que en materia de partición la voluntad de las
+partes juega un rol preponderante, lo que hace que este juicio sea sui generis y
+partícipe en cierto modo de los caracteres de los contratos. Si no hay acuerdo en
+contrario, el partidor deberá ceñirse a lo dispuesto en el art. 1337”.13
+         Más adelante, el mismo Somarriva agrega: “En las enajenaciones el partidor es
+representante legal de la sucesión. Dispone el art. 659 del Código de Procedimiento
+Civil: ‘En las enajenaciones que se efectúen por conducto del partidor se considerará a
+éste representante lega
+**Concordancias Legales:** artículo 1344 inciso 1
+
 es la confirmación más palpable de que en materia de partición la voluntad de las
 partes juega un rol preponderante, lo que hace que este juicio sea sui generis y
 partícipe en cierto modo de los caracteres de los contratos. Si no hay acuerdo en
@@ -1133,6 +1171,16 @@ comunidad a dicho ochenta por ciento; pero la ley no dice que sólo reciba a tí
 herencia ese ochenta por ciento y que el exceso que se le obliga a pagar lo reciba a
 
 ## título de compraventa y que, por lo mismo, tratándose del objeto cuyo valor hace
+
+**Definición Canónica:** exceder del ochenta por ciento de lo que al comunero corresponde en la totalidad lo
+recibido por éste reciba como heredero y a título gratuito solamente una parte de ese
+efecto y que reciba el resto como comprador y a título oneroso”.25 Agrega más
+adelante: “Si el pago de un alcance en dinero del asignatario no modifica la naturaleza
+de la adjudicación cuando se refiere a una parte del valor de los efectos adjudicados
+que siempre se entenderán adquiridos a título gratuito, no hay razón para que la
+adjudicación desaparezca por el hecho de que represente la totalidad del efecto
+adjudicado en la 
+**Concordancias Legales:** artículo 1691; artículo 1489 del Código Civil para los contratos bilaterales y; artículo 1348; artículo 1489
 
 exceder del ochenta por ciento de lo que al comunero corresponde en la totalidad lo
 recibido por éste reciba como heredero y a título gratuito solamente una parte de ese
@@ -1497,6 +1545,8 @@ nuestra opinión, la palabra “rescinden” empleada en el art. 1348 no aludir�
 realidad a la nulidad relativa, y tampoco lo haría la palabra “rescinden” del epígrafe del
 
 ## Título XX del Libro IV. En ambos casos, la rescisión aludiría a un modo de extinguir
+
+**Definición Canónica:** autónomo de la nulidad, y en el caso del art. 1348, se emplea la palabra para precisar
 
 autónomo de la nulidad, y en el caso del art. 1348, se emplea la palabra para precisar
 

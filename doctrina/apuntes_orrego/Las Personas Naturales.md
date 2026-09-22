@@ -15,6 +15,16 @@ extraccion: pdftotext
 
 ## Las personas naturales1
 
+**Definición Canónica:** Sumario:
+1.- Nociones generales. 1.1. La personalidad. 1.2. Clasificación de las personas. 2.-
+Definición legal. 3.- Principio de la existencia de las personas naturales. 3.1.
+Existencia natural. 3.2. Existencia legal. 4.- Fin de la existencia de las personas
+naturales. 4.1. Acreditación de la muerte. 4.2. Los comurientes. 4.3. Efectos jurídicos
+de la muerte. 5.- La muerte presunta. 5.1. Concepto. 5.2. Objeto. 5.3. Condiciones
+para que tenga lugar la muerte presunta. 5.4. Períodos de la muerte presunta. 5.5.
+Quienes pueden pedir la declaración de muerte presunta. 5.6. Juez competente. 5.7.
+For
+**Concordancias Legales:** artículo 195 del Código del Trabajo; artículo 74; artículo 184; artículo 30; artículos 44; Ley N° 14.908; Ley N° 7.612; Ley N° 19.451; Ley N° 20.577; Ley N° 20.830; Constitución Política; constitucion
 
 Sumario:
 1.- Nociones generales. 1.1. La personalidad. 1.2. Clasificación de las personas. 2.-
@@ -456,8 +466,10 @@ para que cualquier juez de uno u otro domicilio, declare la muerte presunta.
       Si el desaparecido no hubiere tenido domicilio en Chile, nuestros jueces son
 incompetentes para declarar la muerte presunta.
 
-
 ## 5.7. Formalidades que deben cumplirse para obtener la declaración de muerte
+
+**Definición Canónica:** presunta.
+**Concordancias Legales:** artículo 81; artículo 82 del Código Civil; Ley Nº 20.577; constitucion
 
 presunta.
 

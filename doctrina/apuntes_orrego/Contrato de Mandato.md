@@ -15,6 +15,23 @@ extraccion: pdftotext
 
 ## El contrato de mandato1
 
+**Definición Canónica:** Sumario:
+1.- Definición, regulación y partes del contrato.
+2.- Requisitos del mandato.
+3.- Características del mandato.
+4.- Clases de mandato.
+4.1. Mandato general y especial.
+4.2. Mandato definido e indefinido.
+4.3. Mandato judicial y extrajudicial.
+5.- Efectos del mandato.
+5.1. Obligaciones del mandatario.
+5.2. Obligaciones del mandante.
+6.- Delegación del mandato.
+6.1. Concepto y naturaleza jurídica de la delegación.
+6.2. La delegación, elemento de la naturaleza del mandato.
+6.3. Efectos de la delegación.
+6.4. El mandante dispone de todas las acciones del mandatario en contra del delegado.
+
 
 Sumario:
 1.- Definición, regulación y partes del contrato.
@@ -37,19 +54,14 @@ Sumario:
 7.- Extinción del mandato.
 7.1. Por el desempeño del negocio para que fue constituido.
 
-## 7.2. Por la expiración del plazo extintivo o al cumplirse la condición resolutoria, prefijados
-
-para la terminación del mandato.
-7.3. Por la revocación del mandante.
-7.4. Por la renuncia del mandatario.
-7.5. Por la muerte del mandante o del mandatario.
-
-## 7.6. Por tener la calidad de deudor en un procedimiento concursal de liquidación, el
-
-mandante o el mandatario.
-7.7. Por la interdicción del mandante o del mandatario.
-
 ## 7.8. Por la cesación de las funciones del mandante si el mandato ha sido dado en ejercicio
+
+**Definición Canónica:** de ellas.
+8. Formatos de contrato de mandato.
+8.1. Mandato otorgado para toda clase de actos jurídicos.
+8.2. Mandato otorgado para un acto jurídico determinado.
+Cuestionario.
+**Concordancias Legales:** artículos 2116; artículos 2012; artículo 2120 del Código Civil; artículo 2167; artículos 142; artículo 2123; artículo 2158; artículos 2132; artículo 244; artículos 693; Ley N° 20.830; Ley N° 18.010
 
 de ellas.
 8. Formatos de contrato de mandato.
@@ -1468,6 +1480,16 @@ obligación de dar que ha nacido de la ejecución del mandato que se le ha confi
 
 ## título traslaticio de dominio, tal como la venta, sino que es errado hacerlo. El título, como se
 
+**Definición Canónica:** ha dicho, es el propio contrato de mandato y la tradición que se efectúe es el pago de lo que
+el mandatario debe a su mandante. Mediante tal pago -tradición- el mandatario extingue la
+obligación contraída para con éste a raíz del cumplimiento o desempeño de su cometido. Así
+lo ha resuelto la jurisprudencia.
+iii.- Traspaso de las deudas: el mandante debe cumplir las obligaciones contraídas por el
+mandatario a su propio nombre, en la medida que dichas obligaciones se enmarquen en el
+cometido encargado. Por eso, el mandante, junto con recibir los créditos y derechos reales,
+debe hacerse cargo de 
+**Concordancias Legales:** artículo 696; artículo 1450
+
 ha dicho, es el propio contrato de mandato y la tradición que se efectúe es el pago de lo que
 el mandatario debe a su mandante. Mediante tal pago -tradición- el mandatario extingue la
 obligación contraída para con éste a raíz del cumplimiento o desempeño de su cometido. Así
@@ -1801,6 +1823,13 @@ mandato o por la naturaleza del negocio apareciere que el encargo no debió cump
 
 ## parte sino solamente de forma íntegra), la ejecución parcial no obligará al mandante sino en
 
+**Definición Canónica:** cuanto le aprovechare. Así, por ejemplo, cuando una inmobiliaria encargó al mandatario
+comprar, simultáneamente, varios inmuebles contiguos, necesarios, atendida la sumatoria
+de sus superficies, para llevar adelante un proyecto inmobiliario.
+         De la inejecución del resto, responderá el mandatario ante el mandante, por los
+perjuicios que al último le ocasionare el incumplimiento parcial. Se responde igual que en el
+caso de renuncia del mandatario: art. 2167.
+
 cuanto le aprovechare. Así, por ejemplo, cuando una inmobiliaria encargó al mandatario
 comprar, simultáneamente, varios inmuebles contiguos, necesarios, atendida la sumatoria
 de sus superficies, para llevar adelante un proyecto inmobiliario.
@@ -1808,8 +1837,9 @@ de sus superficies, para llevar adelante un proyecto inmobiliario.
 perjuicios que al último le ocasionare el incumplimiento parcial. Se responde igual que en el
 caso de renuncia del mandatario: art. 2167.
 
-
 ## 5.2.2. Obligación de proveer al mandatario de lo necesario para la ejecución del
+
+**Definición Canónica:** mandato: art. 2158, Nº 1.
 
 mandato: art. 2158, Nº 1.
 
@@ -1824,8 +1854,9 @@ orden a empeñar recursos propios en la ejecución del cometido.
        Esta obligación y la anterior, son las únicas obligaciones del mandante que,
 usualmente, nunca pueden faltar.
 
-
 ## 5.2.3. Obligación de reembolsar al mandatario los gastos razonables causados por
+
+**Definición Canónica:** la ejecución del mandato: art. 2158 Nº 2.
 
 la ejecución del mandato: art. 2158 Nº 2.
 
@@ -1848,8 +1879,10 @@ falta de estipulación, será el juez quien determine los honorarios del mandata
 a lo usual en negocios similares. Para que el mandato sea gratuito, las partes expresamente
 deberán estipularlo.
 
-
 ## 5.2.5. Obligación de pagar al mandatario las anticipaciones de dinero, más los
+
+**Definición Canónica:** intereses corrientes devengados, que hubiere aportado éste al ejecutar su
+cometido: art. 2158 Nº 4.
 
 intereses corrientes devengados, que hubiere aportado éste al ejecutar su
 cometido: art. 2158 Nº 4.
@@ -1871,8 +1904,9 @@ hace y anticipa sus propios dineros para llevarlo a buen término, su celo e int
 premiados”. Los intereses se deben desde el día en que se anticiparon los dineros, concluye
 el autor citado32
 
-
 ## 5.2.6. Obligación de indemnizar al mandatario de las pérdidas en que haya
+
+**Definición Canónica:** incurrido sin culpa y por causa del mandato: art. 2158 Nº 5.
 
 incurrido sin culpa y por causa del mandato: art. 2158 Nº 5.
 
@@ -1994,8 +2028,9 @@ delegar.
 mandante, sin necesidad de ratificación. El procurador siempre podrá delegar su poder, a
 menos que el mandante se lo hubiere prohibido expresamente.
 
-
 ## 6.4. El mandante dispone de todas las acciones del mandatario en contra del
+
+**Definición Canónica:** delegado.
 
 delegado.
 
@@ -2058,6 +2093,9 @@ Santiago de Chile, Editorial Jurídica de Chile, 1997, p. 424.
                                    El Mandato – Juan Andrés Orrego Acuña                                         37
 
 ## 7.2. Por la expiración del plazo extintivo o al cumplirse la condición resolutoria
+
+**Definición Canónica:** prefijados para la terminación del mandato.
+**Concordancias Legales:** artículo 242 del Código de Comercio advierte que; artículo 240 del Código de Comercio establece que; artículo 2163 del Código Civil; artículos 2163; artículo 673 del Código Civil; artículo 1682; artículo 889 del Código Civil y disponer la restitución del in
 
 prefijados para la terminación del mandato.
 
@@ -2345,8 +2383,10 @@ la restitución del inmueble en cuestión, rechazando en lo demás la demanda”
         A la misma conclusión arriba otra sentencia de la Corte Suprema, de fecha 31 de
 marzo de 2016, autos Rol N° 7.996-2015.
 
-
 ## 7.6. Por tener la calidad de deudor en un procedimiento concursal de liquidación, el
+
+**Definición Canónica:** mandante o el mandatario.
+**Concordancias Legales:** artículo 1583 del Código Civil; artículo 2163; artículo 1586; Ley N° 20.720
 
 mandante o el mandatario.
 
@@ -2411,8 +2451,10 @@ iii.- Adicionalmente, en las normas del pago, el citado art. 1586 establece que 
 diputada para recibir se hace inhábil por la demencia o la interdicción, con lo que puede
 tratarse de cualquiera de esas hipótesis, o sea, habiendo o no interdicción.
 
-
 ## 7.8. Por la cesación de las funciones del mandante si el mandato ha sido dado en
+
+**Definición Canónica:** ejercicio de ellas.
+**Concordancias Legales:** artículo 216340; constitución
 
 ejercicio de ellas.
 
@@ -2467,17 +2509,11 @@ consentimiento (sentencia de la Corte Suprema de fecha 12 de abril de 2012, auto
 9.995-2011). De este fallo se desprende que el art. 2163 N° 5 prevalece por sobre el art.
 2173.
 
-
-## 8. Modelos de contrato de mandato.43
-
-
-8.1. Mandato otorgado para toda clase de actos jurídicos.
-
-
 ## Poder general44
 
+**Definición Canónica:** _______________________________________
 
-                        _______________________________________
+_______________________________________
 
                                                          A
 
@@ -2608,11 +2644,12 @@ ya señalado. -
 
 8.2. Mandato otorgado para un acto jurídico determinado.
 
-
 ## Poder especial
 
+**Definición Canónica:** El Mandato – Juan Andrés Orrego Acuña                             47
+                ____________________ y ____________________
 
-                              El Mandato – Juan Andrés Orrego Acuña                             47
+El Mandato – Juan Andrés Orrego Acuña                             47
                 ____________________ y ____________________
 
                                               A

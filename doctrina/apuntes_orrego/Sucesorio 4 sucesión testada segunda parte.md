@@ -15,6 +15,14 @@ extraccion: pdftotext
 
 ## 4.- del testamento menos solemne o privilegiado. 1
 
+**Definición Canónica:** a) Definición y clases.
+        Testamentos menos solemnes o privilegiados son aquellos en que puede
+omitirse algunas de las solemnidades establecidas por la ley, por consideración a
+circunstancias especiales, determinadas expresamente por el legislador. Art. 1008.
+        Están contemplados en el art. 1030. Ellos son:
+1º El testamento verbal.
+2º El testamento militar.
+3º El testamento marítimo.
 
 a) Definición y clases.
         Testamentos menos solemnes o privilegiados son aquellos en que puede
@@ -149,6 +157,17 @@ solemnidad del testamento su protocolización en el plazo fatal de 30 días.
 (i) Examen de los testigos: esta primera etapa está regulada por los arts. 1037 y
 
 ## 1038. Se ha fallado que no habiéndose señalado por la ley otras normas para el
+
+**Definición Canónica:** examen de los testigos que las de los dos arts. citados, la declaración debe hacerse
+exclusivamente de acuerdo con ellas, y no se aplican las disposiciones del Código de
+Procedimiento Civil relativas a la prueba testimonial.
+(ii) Resolución judicial: art. 1039. La resolución judicial es lo que constituye en
+definitiva el testamento verbal. El juez es soberano para dictarla, pero está sujeto a las
+limitaciones del inc. 1º del art. 1039.
+(iii) Protocolización (art. 1039): Finalmente, la resolución judicial, con los demás
+antecedentes, se protocoliza como testamento en una notaría.
+          Cabe
+**Concordancias Legales:** artículos 1074; artículo 1426; artículo 1427; Ley N° 19.335; Ley N° 19.947; constitución
 
 examen de los testigos que las de los dos arts. citados, la declaración debe hacerse
 exclusivamente de acuerdo con ellas, y no se aplican las disposiciones del Código de

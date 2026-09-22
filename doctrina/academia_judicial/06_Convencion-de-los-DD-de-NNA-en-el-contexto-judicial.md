@@ -13,19 +13,16 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Penal | **Materia:** Penal
 
-## Serie de
-
-
-## Documentos                                                          09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Convención de
+               Derechos de
+               Niños, Niñas y
+               Adolescentes
+                   en el Contexto
+               		Judicial
 
-               Convención de
+Convención de
                Derechos de
                Niños, Niñas y
                Adolescentes
@@ -43,19 +40,22 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Francesco
+                               Carretta
+                               Muñoz
+                          Doctor en Derecho y profesor de
+                          Derecho Procesal Civil de la Pontificia
+                          Universidad Católica de Valparaíso.
+                          Abogado formado en la Universidad
+                          Austral de Chile, se desempeña como
+                          magistrado en el Juzgado de Familia
+                          de Valparaíso y es autor de numero-
+                          sas publicaciones y ponencias en el
+                   
 
-                          Francesco
+Francesco
                                Carretta
                                Muñoz
                           Doctor en Derecho y profesor de
@@ -128,23 +128,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                                              3.3 Comité de los Derechos del Niño                                                                          28
 
-
-## 3.3.1   Informe del Comité al Estado chileno, 1 de junio de 2018                                       29
-
-
-
-## 3.3.2   Respuesta del Poder Judicial a las recomendaciones del Comité                                  41
-
-
-
-## 3.3.3   Respuesta del Estado de Chile al informe                                                       43
-
-
-
 ## 3.3.4   Pregunta orientadora                                                                           44
 
+**Definición Canónica:** 4. Documentos complementarios                                                                                   45
 
-                                          4. Documentos complementarios                                                                                   45
+4. Documentos complementarios                                                                                   45
 
                                           5. El análisis y comprensión de los principios contenidos en la CDN                                             48
 
@@ -162,144 +150,20 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                                              6.6 Delimitación del concepto                                                                                66
 
-
-## 6.6.1          Los derechos fundamentales de la infancia y adolescencia como concepto clave en la aplicación
-
-                                          		               de los principios de la infancia, y sobre todo el interés superior                             66
-
-
-## 6.6.2   Observación General N° 14                                                                      68
-
-
-
-## 6.6.3   El interés superior del niño como un derecho                                                   68
-
-
-
-## 6.6.4   El interés superior del niño como un principio                                                 69
-
-
-
-## 6.6.5   El interés superior del niño como una norma de procedimiento                                   72
-
-                           Convención de derechos                                     Índice                                                                  5
-
-
-## 6.7 El interés superior del niño en las decisiones judiciales                                             79
-
-
-
-## 6.7.1   Jurisprudencia nacional                                                                      79
-
-
-
-## 6.7.2   Jurisprudencia comparada                                                                     80
-
-
-                                          7. El principio de no discriminación                                                                         87
-
-
-## 7.1   Fundamentos                                                                                         90
-
-
-
-## 7.2   Consagración del principio en el derecho                                                            92
-
-
-
-## 7.3   Jurisprudencia                                                                                      94
-
-
-
-## 7.3.1   Sentencia caso Y. y B. vs. República Dominicana                                              94
-
-
-
-## 7.3.2   Sentencia “Niños de la Calle” (Villagrán Morales y otros vs. Guatemala)                      96
-
-
-
-## 7.3.3   Análisis general de las sentencias                                                           98
-
-
-                                          8. El derecho del niño a ser oído                                                                            99
-
-
-## 8.1 Consagración normativa en el derecho chileno                                                          102
-
-
-
-## 8.2 Condiciones para ejercer el derecho                                                                   103
-
-
-
-## 8.3 Conexión entre el derecho del niño a ser oído y la autonomía progresiva                               107
-
-
-
-## 8.4 La diligencia de la audiencia reservada: ¿se trata o no de un trámite esencial en el procedimiento?   110
-
-
-
-## 8.5 Las formas de producción de la declaración                                                            112
-
-
-
-## 8.6 La valoración del DNO                                                                                 114
-
-
-
 ## 8.7 El DNO y la ley que regula las entrevistas grabadas en video y otras medidas de resguardo a
 
-                                          		    menores de edad víctimas de delito sexuales                                                            117
+**Definición Canónica:** menores de edad víctimas de delito sexuales                                                            117
+
+menores de edad víctimas de delito sexuales                                                            117
 
                                           9. El derecho del NNA a la vida                                                                              122
 
-
-## 9.1 El ejercicio progresivo de los derechos de la infancia                                                124
-
-
-                                          10. Estudio de los derechos particulares contenidos en la CDN                                                127
-
-
-## 10.1.1 El derecho del niño a ser criado y educado por sus padres: la responsabilidad parental y el
-
-                                          		       deber subsidiario del Estado                                                                        129
-
-
-## 10.2.1 Explotación sexual comercial infantil (ESCI)                                                 139
-
-
-
-## 10.2.2 Situación de los NNA migrantes                                                               142
-
-
-
-## 10.2.3 Niños y adolescentes frente a la persecución de la responsabilidad penal por el Estado       147
-
-
-
-## 10.2.4 Secuestro internacional de menores                                                           148
-
-
-
-## 10.2.5. Protección del NNA respecto de sus propios padres                                           151
-
-                           Convención de derechos                                     Índice                                              6
-
-
-## 10.2.6. Protección de la salud del NNA                                          152
-
-
-
-## 10.3.1 El derecho a la libertad de pensamiento, conciencia y religión del NNA   154
-
-
-
 ## 10.3.2 La libertad de expresión, asociación, reunión pacífica y vida privada    155
 
+**Definición Canónica:** Glosario162
+**Concordancias Legales:** Ley N° 19.968
 
-                                          Glosario162
+Glosario162
 
                                           Bibliografía163
 
@@ -397,7 +261,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## parte nos detenemos para analizar el ejercicio de los derechos de los
 
-                                                           NNA para ante la autoridad (derecho a defensa, derecho del niño a
+**Definición Canónica:** NNA para ante la autoridad (derecho a defensa, derecho del niño a
+                                                           expresar su propia opinión, etcétera). A este respecto, se hacen varias
+                                                           aplicaciones de este principio (a través de casos y preguntas abiertas).
+
+NNA para ante la autoridad (derecho a defensa, derecho del niño a
                                                            expresar su propia opinión, etcétera). A este respecto, se hacen varias
                                                            aplicaciones de este principio (a través de casos y preguntas abiertas).
 
@@ -460,10 +328,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                infancia –cosa que hacía el proyecto de Polonia–, sino que centrarlo en
                                                                                el desarrollo de los derechos de la infancia.
 
-
 ## 1    Por esto, la Comisión de Derechos Humanos creó un grupo de trabajo compuesto básicamente por 48 de los
 
-                                                Estados miembros de la Comisión de Derechos Humanos y un gran número de ONG. NU fue cuidadosa en la
+**Definición Canónica:** Estados miembros de la Comisión de Derechos Humanos y un gran número de ONG. NU fue cuidadosa en la
+                                                negociación de este proyecto, lo que explica su rápida aprobación. De los dos países que no habían aprobado
+                                                este instrumento desde su inicio, sólo queda en la actualidad EE. UU.
+**Concordancias Legales:** Ley N° 2.675; Ley N° 5.750; Ley N° 14.908; Ley Nº 19.585; Ley N° 4.447
+
+Estados miembros de la Comisión de Derechos Humanos y un gran número de ONG. NU fue cuidadosa en la
                                                 negociación de este proyecto, lo que explica su rápida aprobación. De los dos países que no habían aprobado
                                                 este instrumento desde su inicio, sólo queda en la actualidad EE. UU.
 
@@ -600,7 +472,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 1962          Derechos del
 
-                                                                                                    de pensiones       menores, 1928
+**Definición Canónica:** de pensiones       menores, 1928
+                                                                   Niño, 1959
+                                                                                                 alimenticias, 1935
+
+de pensiones       menores, 1928
                                                                    Niño, 1959
                                                                                                  alimenticias, 1935
 
@@ -651,10 +527,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                 causa de la miseria. Derecho a la madre a lo largo de la infancia, a
                                                                                 su ímpetu de sacrificio que no ha sido equiparado ni por el celo
 
-
 ## 6     Disponible en http://www.gabrielamistralfoundation.org/web/index.php?option=com_content&task=view&i-
 
-                                                d=136&Itemid=145
+**Definición Canónica:** d=136&Itemid=145
+**Concordancias Legales:** constitucion
+
+d=136&Itemid=145
 
                            Convención de derechos          1. Génesis de la CDN e influencia                                      18
                            de niños, niñas y adolecentes      en el ordenamiento jurídico
@@ -725,7 +603,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## Parte que la ratifica.                 dicos y las observaciones particulares juegan un papel esencial en la
 
-                                                                               fiscalización de que este aspecto se cumpla. También se ha comenzado
+**Definición Canónica:** fiscalización de que este aspecto se cumpla. También se ha comenzado
+                                        Esto impulsa las                       a imponer en Chile un control de convencionalidad de las normas
+                                        reformas necesarias                    inferiores respecto de la CDN, aplicada por la jurisprudencia de la
+                                        en el ordenamiento                     Corte Interamericana de Justicia8.
+                                        nacional que produce
+                                                                  
+
+fiscalización de que este aspecto se cumpla. También se ha comenzado
                                         Esto impulsa las                       a imponer en Chile un control de convencionalidad de las normas
                                         reformas necesarias                    inferiores respecto de la CDN, aplicada por la jurisprudencia de la
                                         en el ordenamiento                     Corte Interamericana de Justicia8.
@@ -744,7 +629,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 8     En Latinoamérica este tema ha sido una de las principales preocupaciones de la doctrina. Hay distintos
 
-                                                autores que discuten en torno al alcance, legitimidad y limitaciones del control de convencionalidad. NASH
+**Definición Canónica:** autores que discuten en torno al alcance, legitimidad y limitaciones del control de convencionalidad. NASH
+                                                (2013), pp. 489-509; OLANO (2016), pp. 61-9; CASTILLA (2019), pp. 87-125.
+**Concordancias Legales:** Ley N° 19.585; Ley N° 19.968
+
+autores que discuten en torno al alcance, legitimidad y limitaciones del control de convencionalidad. NASH
                                                 (2013), pp. 489-509; OLANO (2016), pp. 61-9; CASTILLA (2019), pp. 87-125.
 
                            Convención de derechos                         1. Génesis de la CDN e influencia                                      20
@@ -909,10 +798,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                        3. Órganos que inciden en la                                          26
                            de niños, niñas y adolecentes                     aplicación de la Convención
 
-
 ## 3.1     Naciones
 
-                                                                           Unidas
+**Definición Canónica:** Unidas
+**Concordancias Legales:** Artículo 43
+
+Unidas
 
                                                                            A partir de la Carta de las Naciones Unidas de 1945, se crea este orga-
                                                                            nismo internacional cuyos múltiples objetivos apuntan a preservar la
@@ -929,10 +820,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                          3. Órganos que inciden en la                                    27
                            de niños, niñas y adolecentes                       aplicación de la Convención
 
-
 ## 3.2          Fondo de las Naciones Unidas
 
-                                                                             para la Infancia
+**Definición Canónica:** para la Infancia
+
+para la Infancia
 
                                                                              Es conocido por su sigla en inglés Unicef y, como su nombre lo
                                                                              indica, es un fondo creado por UN para “promover iniciativas que
@@ -940,25 +832,29 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                              una adecuada atención desde una edad temprana constituye la base
                                                                              más sólida del futuro de una persona”13.
 
-
 ## Parte como una ayuda a los niños afectados por la Segunda Gue-
 
-                                                                             rra Mundial y luego se convierte en un organismo permanente de
+**Definición Canónica:** rra Mundial y luego se convierte en un organismo permanente de
+
+rra Mundial y luego se convierte en un organismo permanente de
 
                                                                              Naciones Unidas. Como tal, hoy cumple una labor específica en la
                                                                              protección de la infancia y se rige por lo estipulado en la CDN.
 
-
 ## 13    Véase https://unicef.cl/web/unicef-en-el-mundo/
 
-
-                           Convención de derechos                3. Órganos que inciden en la                                      28
+**Definición Canónica:** Convención de derechos                3. Órganos que inciden en la                                      28
                            de niños, niñas y adolecentes             aplicación de la Convención
 
+Convención de derechos                3. Órganos que inciden en la                                      28
+                           de niños, niñas y adolecentes             aplicación de la Convención
 
 ## 3.3     Comité de los
 
-                                                                   Derechos del Niño
+**Definición Canónica:** Derechos del Niño
+**Concordancias Legales:** artículo 43
+
+Derechos del Niño
 
                                                                    Es el organismo contralor de la CDN que depende de Naciones
                                                                    Unidas. Conforme al artículo 43 del tratado, su rol es el de exami-
@@ -980,19 +876,25 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                            Unidas
                                                                                                         Convención
 
-
 ## Unicef
 
+**Definición Canónica:** Figura 5
 
-                                                                                                                              Figura 5
+Figura 5
 
                            Convención de derechos                              3. Órganos que inciden en la                                                    29
                            de niños, niñas y adolecentes                           aplicación de la Convención
 
-
 ## 3.3.1 Informe del Comité al Estado
 
-                                                                                 chileno, 1 de junio de 2018
+**Definición Canónica:** chileno, 1 de junio de 2018
+                                                                                 El Comité de los Derechos del Niño efectuó una investigación sobre
+                                                                                 eventuales violaciones graves o sistemáticas, por parte del Estado de
+                                                                                 Chile, de los derechos enunciados en la Convención sobre los De-
+                                                                                 rechos del Niño con respecto a un importante p
+**Concordancias Legales:** artículo 13 del Protocolo facultativo y en el artículo 36; artículo 13 del Protocolo facultativo de la Convención sobre; artículo 35; artículo 2 de la CDN; artículo 2; artículos 3.1; artículo 3.3 de la CDN; artículo 4 de la CDN; artículo 6 de la CDN; artículo 6; artículo 9 de la CDN; artículo 12; artículo 18 de la CDN; artículo 18 de la Convención por no prestar la asistencia aprop; artículo 19 de la CDN; artículo 23 de la CDN; artículo 24 de la CDN; artículo 28 de la CDN; artículo 31 de la CDN; artículo 34; artículo 37; ley 19.968
+
+chileno, 1 de junio de 2018
                                                                                  El Comité de los Derechos del Niño efectuó una investigación sobre
                                                                                  eventuales violaciones graves o sistemáticas, por parte del Estado de
                                                                                  Chile, de los derechos enunciados en la Convención sobre los De-
@@ -1361,28 +1263,41 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                              en situación de discapacidad en el Centro Alihuen de Santiago, co-
                                                              metidos por el director y funcionarios.
 
-
 ## 106. A inicios de 2017 el Fiscal a cargo de la investigación penal por la
 
-                                                             muerte de Lisette Villa de 11 años, en el Centro Galvarino, concluyó
+**Definición Canónica:** muerte de Lisette Villa de 11 años, en el Centro Galvarino, concluyó
                                                              que la niña habría fallecido producto del ejercicio de violencia física
                                                              por parte de personas responsables de su cuidado, formalizando en
                                                              marzo de 2017 la denuncia a ocho personas por delitos de tortura y
                                                              apremios ilegítimos.
 
+muerte de Lisette Villa de 11 años, en el Centro Galvarino, concluyó
+                                                             que la niña habría fallecido producto del ejercicio de violencia física
+                                                             por parte de personas responsables de su cuidado, formalizando en
+                                                             marzo de 2017 la denuncia a ocho personas por delitos de tortura y
+                                                             apremios ilegítimos.
 
 ## 107. Los NNA en las residencias han reportado prácticas de malos
 
-                                                             tratos como: maltrato psicológico, gritos, encierros, aislamiento social
+**Definición Canónica:** tratos como: maltrato psicológico, gritos, encierros, aislamiento social
                                                              o amenazas de violencia; maltrato físico leve, como tirones de cabello,
                                                              orejas, empujones, cachetadas; y maltrato físico grave, consistente en
                                                              golpes con correas, puños y objetos diversos, quemaduras con cigarro,
                                                              o agua caliente, hasta amenazas con cuchillos o armas.
 
+tratos como: maltrato psicológico, gritos, encierros, aislamiento social
+                                                             o amenazas de violencia; maltrato físico leve, como tirones de cabello,
+                                                             orejas, empujones, cachetadas; y maltrato físico grave, consistente en
+                                                             golpes con correas, puños y objetos diversos, quemaduras con cigarro,
+                                                             o agua caliente, hasta amenazas con cuchillos o armas.
 
 ## 108. El Comité considera que el Estado Parte viola el artículo 37 (a)
 
-                                                             de la Convención por: a) No proteger los NNA bajo su custodia de
+**Definición Canónica:** de la Convención por: a) No proteger los NNA bajo su custodia de
+                                                             torturas y o tratos crueles, inhumanos o degradantes, prácticas que son
+                                                             normalizadas y justificadas como formas de disciplina y contención.
+
+de la Convención por: a) No proteger los NNA bajo su custodia de
                                                              torturas y o tratos crueles, inhumanos o degradantes, prácticas que son
                                                              normalizadas y justificadas como formas de disciplina y contención.
 
@@ -1516,10 +1431,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                              que trabaja en el sistema, y su sanción y remoción ante casos de
                                                                              violaciones de los derechos de NNA”.
 
-
 ## 3.3.2 Respuesta del Poder Judicial a las
 
-                                                                             recomendaciones del Comité
+**Definición Canónica:** recomendaciones del Comité
+                                                                             El Poder Judicial encargó, a su grupo de trabajo para el establecimien-
+                                                                             to de una política para la efectivización de los derechos de niños,
+                                                                             niñas y adolescentes, la realización de un informe que identifique
+                                                                             las acciones actualmente en implementación y aquellas que 
+
+recomendaciones del Comité
                                                                              El Poder Judicial encargó, a su grupo de trabajo para el establecimien-
                                                                              to de una política para la efectivización de los derechos de niños,
                                                                              niñas y adolescentes, la realización de un informe que identifique
@@ -1547,10 +1467,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                              o penas crueles, inhumanas o degradantes), y Nº 17 (recomendación
                                                                              de adopción del paradigma de protección integral de la CDN).
 
-
 ## 17    Véase http://decs.pjud.cl/estado-de-chile-presenta-informe-sobre-medidas-a-adoptar-en-respues-
 
-                                                ta-a-los-resultados-de-la-investigacion-del-comite-de-los-derechos-del-nino-de-las-naciones-unidas/
+**Definición Canónica:** ta-a-los-resultados-de-la-investigacion-del-comite-de-los-derechos-del-nino-de-las-naciones-unidas/
+
+ta-a-los-resultados-de-la-investigacion-del-comite-de-los-derechos-del-nino-de-las-naciones-unidas/
 
                            Convención de derechos          3. Órganos que inciden en la                                           42
 
@@ -1596,10 +1517,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                          terinstitucional existentes en todas las jurisdicciones, entre
                                                                                          muchas otras” (Oficio Nº 000522, pp. 3 y 4).
 
-
 ## 3.3.3 Respuesta del Estado de Chile al informe
 
-                                                                                La respuesta del Poder Ejecutivo al mismo informe comprende
+**Definición Canónica:** La respuesta del Poder Ejecutivo al mismo informe comprende
+                                                                                varios acápites y contiene la participación de varios ministerios y el
+                                                                                Servicio Nacional de Menores (SENAME); el Servicio Nacional para
+                                                                                la Prevención y Rehabilitación del Consumo de Drogas y Alcohol
+                                                                                (Senda) y el Servicio
+
+La respuesta del Poder Ejecutivo al mismo informe comprende
                                                                                 varios acápites y contiene la participación de varios ministerios y el
                                                                                 Servicio Nacional de Menores (SENAME); el Servicio Nacional para
                                                                                 la Prevención y Rehabilitación del Consumo de Drogas y Alcohol
@@ -1622,10 +1548,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                    de procedimientos y mejoramiento del registro administrativo
                                                                                    (pp. 7-8).
 
-
 ## 18    Véase: http://decs.pjud.cl/estado-de-chile-presenta-informe-sobre-medidas-a-adoptar-en-respues-
 
-                                                ta-a-los-resultados-de-la-investigacion-del-comite-de-los-derechos-del-nino-de-las-naciones-unidas/
+**Definición Canónica:** ta-a-los-resultados-de-la-investigacion-del-comite-de-los-derechos-del-nino-de-las-naciones-unidas/
+                                          19    Esta es una de las labores que está relacionada con la Academia Judicial, por lo que el desarrollo de accio-
+                                                nes concretas comprende: “1. Reforzar contenidos sobre derechos de NNA en los programas de la Academia
+                                                Judicial, así como en toda capacitación que se realice. 2. Ampliar el acceso a becas para jueces, consejeros
+                                   
+
+ta-a-los-resultados-de-la-investigacion-del-comite-de-los-derechos-del-nino-de-las-naciones-unidas/
                                           19    Esta es una de las labores que está relacionada con la Academia Judicial, por lo que el desarrollo de accio-
                                                 nes concretas comprende: “1. Reforzar contenidos sobre derechos de NNA en los programas de la Academia
                                                 Judicial, así como en toda capacitación que se realice. 2. Ampliar el acceso a becas para jueces, consejeros
@@ -1636,10 +1567,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos          3. Órganos que inciden en la                                        44
 
-
 ## 3.3.4 Pregunta orientadora
 
-                                                             ¿Qué acciones concretas puede y debe actuar el Poder Judicial dado
+**Definición Canónica:** ¿Qué acciones concretas puede y debe actuar el Poder Judicial dado
+                                                             los tres documentos precedentemente planteados (con referencia
+                                                             expresa a acciones de su tribunal)?
+**Concordancias Legales:** artículo 44 de la CDN; artículos 2.1; artículo 2.1; artículo 4; artículo 5 de la CPR
+
+¿Qué acciones concretas puede y debe actuar el Poder Judicial dado
                                                              los tres documentos precedentemente planteados (con referencia
                                                              expresa a acciones de su tribunal)?
 
@@ -1815,10 +1750,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                     6. El interés superior                                               53
                            de niños, niñas y adolecentes                 del niño
 
-
 ## 6.1      Orígenes y
 
-                                                                        fundamentos
+**Definición Canónica:** fundamentos
+
+fundamentos
 
                                                                         Antes de hablar del interés superior del niño, que es un concepto
                                                                         jurídico, los tratadistas suelen hablar del fenómeno social a partir
@@ -1997,10 +1933,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                6. El interés superior                                                 58
                            de niños, niñas y adolecentes            del niño
 
-
 ## 6.2     Jerarquía y consagración
 
-                                                                   normativa
+**Definición Canónica:** normativa
+**Concordancias Legales:** artículo 5; constitucion; Constitución
+
+normativa
 
                                         Las normas de la           Es innegable que los derechos de los niños son derechos humanos y
                                         convención limitan         forman, por lo tanto, una parte esencial del sistema democrático. La
@@ -2020,10 +1958,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                        6. El interés superior                                                 59
                            de niños, niñas y adolecentes                    del niño
 
-
 ## 6.3        Consagración
 
-                                                                           internacional
+**Definición Canónica:** internacional
+**Concordancias Legales:** artículos 7; artículo 18.1; artículo 20.1; artículo 27; artículos 12; artículo 14; artículo 15; artículo 17; artículos 4; artículo 4 de la CDN y específicamente en ella se regulan el; artículos 28; artículo 24; artículo 26; artículo 4; artículo 12.2 de la CDN se refiere al derecho que tiene el; Artículo 3
+
+internacional
 
                                                                            El principio se consigna expresamente a partir de la Declaración
                                                                            Universal de los Derechos del Niño de 1959. Y en el texto aparece
@@ -2161,7 +2101,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 1. En todas las medidas
 
-                                                                                derecho del NNA a elegir una religión o rechazar otra. Ello se debe a
+**Definición Canónica:** derecho del NNA a elegir una religión o rechazar otra. Ello se debe a
+                                        concernientes a los                     que por medio del interés superior del NNA prevalecerá su derecho
+                                        niños que tomen las                     fundamental a la libertad religiosa sobre el interés del padre o madre.
+                                        instituciones públicas                  Asimismo, los derechos fundamentales del NNA deben protegerse,
+                                                                                tanto de 
+**Concordancias Legales:** artículo 3.1; Artículo 3; artículo 8; artículos 2
+
+derecho del NNA a elegir una religión o rechazar otra. Ello se debe a
                                         concernientes a los                     que por medio del interés superior del NNA prevalecerá su derecho
                                         niños que tomen las                     fundamental a la libertad religiosa sobre el interés del padre o madre.
                                         instituciones públicas                  Asimismo, los derechos fundamentales del NNA deben protegerse,
@@ -2193,10 +2140,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos              6. El interés superior                                                  64
                            de niños, niñas y adolecentes          del niño
 
-
 ## 6.4   Consagración
 
-                                                                   nacional
+**Definición Canónica:** nacional
+
+nacional
 
                                                                    En el ordenamiento jurídico chileno se encuentra expresamente
                                                                    consagrado en dieciséis normas que están diseminadas en el Código
@@ -2244,10 +2192,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                          6. El interés superior                                                    65
                            de niños, niñas y adolecentes                      del niño
 
-
 ## 6.5          Problemática del
 
-                                                                             concepto
+**Definición Canónica:** concepto
+
+concepto
 
                                                                              A estas alturas, las críticas sobre el significado del interés superior del
                                                                              niño han llegado a ser casi un axioma. Son abundantes y fundamen-
@@ -2277,19 +2226,24 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                          6. El interés superior                                                 66
                            de niños, niñas y adolecentes                      del niño
 
-
 ## 6.6          Delimitación del
 
-                                                                             concepto
+**Definición Canónica:** concepto
+
+concepto
 
                                                                              El principio general posee al menos dos parámetros por medio de
                                                                              los cuales es posible concretizarlo y demarcar sus límites. Se ven a
                                                                              continuación.
 
-
 ## 6.6.1 Los derechos fundamentales de la
 
-                                                                             infancia y adolescencia como concepto
+**Definición Canónica:** infancia y adolescencia como concepto
+                                                                             clave en la aplicación de los principios de la
+                                                                             infancia, y sobre todo el interés superior
+**Concordancias Legales:** Constitución
+
+infancia y adolescencia como concepto
                                                                              clave en la aplicación de los principios de la
                                                                              infancia, y sobre todo el interés superior
 
@@ -2378,10 +2332,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                         ejercicio progresivo                  al encontrarse sujetos a una tutela de protección45.
                                         de sus derechos, pero
 
-
 ## 6.6.2 Observación General N° 14
 
-                                        de una intensidad
+**Definición Canónica:** de una intensidad
+                                                                              El mejor intento por aclarar y concretizar el concepto, a parte de
+                                        inferior al encontrarse               la jurisprudencia que será analizada en el siguiente capítulo, es la
+                                        sujetos a una tutela de               Observación General N° 14 que el Comité ha redactado con tal fin.
+                                        protección.                           En ella se ha señalado primordialmente que el interés superior del
+ 
+
+de una intensidad
                                                                               El mejor intento por aclarar y concretizar el concepto, a parte de
                                         inferior al encontrarse               la jurisprudencia que será analizada en el siguiente capítulo, es la
                                         sujetos a una tutela de               Observación General N° 14 que el Comité ha redactado con tal fin.
@@ -2397,21 +2357,22 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                               procedimental, sobre todo respecto del derecho del NNA a ser oído
                                                                               y a su valoración.
 
-
 ## 6.6.3 El interés superior del niño como un derecho
 
-                                                                              El interés superior como un derecho quiere decir, o más bien reflejar,
+**Definición Canónica:** El interés superior como un derecho quiere decir, o más bien reflejar,
                                                                               según se desprende de la lectura de la OG, la preeminencia de los
                                                                               derechos del niño por sobre otros derechos de otras personas que pu-
 
-
-## 45   La forma de ejercer la autonomía privada depende de la edad del niño/adolescente, de su estado de madurez
-
-                                                y de la peligrosidad del acto. BARCIA (2013), pp. 3-52.
+El interés superior como un derecho quiere decir, o más bien reflejar,
+                                                                              según se desprende de la lectura de la OG, la preeminencia de los
+                                                                              derechos del niño por sobre otros derechos de otras personas que pu-
 
 ## 46   La función integradora de este principio ha sido uno de los aspectos fundamentales desarrollados por la
 
-                                                doctrina chilena. GREEVEN (2014); LATHROP (2014), pp. 197-229, y RAVETLLAT y PINOCHET (2015), pp. 903
+**Definición Canónica:** doctrina chilena. GREEVEN (2014); LATHROP (2014), pp. 197-229, y RAVETLLAT y PINOCHET (2015), pp. 903
+                                                a 934.
+
+doctrina chilena. GREEVEN (2014); LATHROP (2014), pp. 197-229, y RAVETLLAT y PINOCHET (2015), pp. 903
                                                 a 934.
 
                            Convención de derechos                          6. El interés superior                                                69
@@ -2448,10 +2409,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                              que se relacionan con otros derechos fundamentales que también
                                                                              deben ser considerados.
 
-
 ## 6.6.4 El interés superior del niño como un principio
 
-                                                                             Los principios son una categoría jurídica que implica ciertos in-
+**Definición Canónica:** Los principios son una categoría jurídica que implica ciertos in-
+                                                                             convenientes que es importante tener presente antes del análisis
+                                                                             pormenorizado de cada uno de ellos.
+**Concordancias Legales:** artículo 225.3; artículo 225; artículo 1; artículo 229; Ley N° 20.680
+
+Los principios son una categoría jurídica que implica ciertos in-
                                                                              convenientes que es importante tener presente antes del análisis
                                                                              pormenorizado de cada uno de ellos.
 
@@ -2578,10 +2543,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                              j. Cualquier otro antecedente que sea relevante atendido el interés
                                                                 superior del hijo”.
 
-
 ## 6.6.5 El interés superior del niño como
 
-                                                             una norma de procedimiento
+**Definición Canónica:** una norma de procedimiento
+                                                             Esta frase resulta incomprensible: ¿cómo puede ser el interés superior
+                                                             del niño una norma de procedimiento? Sucede que, como quedó ex-
+                                                             puesto en el párrafo anterior, según su estructura un principio y una
+                                                             norma de procedimiento son dos cuestiones distintas. Estas últimas
+                                                         
+
+una norma de procedimiento
                                                              Esta frase resulta incomprensible: ¿cómo puede ser el interés superior
                                                              del niño una norma de procedimiento? Sucede que, como quedó ex-
                                                              puesto en el párrafo anterior, según su estructura un principio y una
@@ -2632,7 +2603,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## parte de la autoridad
 
-                                                                             de los hechos que                      La forma como los hechos
+**Definición Canónica:** de los hechos que                      La forma como los hechos
+                                                                             afectan a los NNA                     han de verterse argumenta-
+                                                                                                                     tivamente en la decisión
+
+de los hechos que                      La forma como los hechos
                                                                              afectan a los NNA                     han de verterse argumenta-
                                                                                                                      tivamente en la decisión
 
@@ -2643,10 +2618,17 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                              A continuación se analizará el derecho de defensa, dada su especial
                                                              importancia práctica.
 
-
 ## 6.6.5.1 El derecho a la defensa como parte esencial del
 
-                                                             interés superior del niño como norma de procedimiento
+**Definición Canónica:** interés superior del niño como norma de procedimiento
+                                                             Con esto el Comité quiere decir dos cosas. Una, que en todo proceso
+                                                             los NNA deben estar asesorados por un abogado. Esto significa pro-
+                                                             curarse una defensa letrada para el NNA, sin relación a los abogados
+                                                             que puedan estar representando a sus progenitores. Tampoco se debe
+                               
+**Concordancias Legales:** artículo 19 de la Ley N; Artículo 19; artículo 109; artículo 332 del Código Civil; artículo 2; Ley N° 19.968; Ley N° 21.067
+
+interés superior del niño como norma de procedimiento
                                                              Con esto el Comité quiere decir dos cosas. Una, que en todo proceso
                                                              los NNA deben estar asesorados por un abogado. Esto significa pro-
                                                              curarse una defensa letrada para el NNA, sin relación a los abogados
@@ -2711,10 +2693,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                 fensoría de los Derechos de la Niñez tendrá por objeto la difusión,
                                                                                 promoción y protección de los derechos de que son titulares los
 
-
 ## 55    La sentencia de la Corte Suprema, rol N° 42.527-2017, de 12 de abril de 2018, reconoce expresamente este
 
-                                                derecho en los siguientes términos: “La evaluación del interés superior del niño debe abarcar el respeto de
+**Definición Canónica:** derecho en los siguientes términos: “La evaluación del interés superior del niño debe abarcar el respeto de
+                                                su derecho a expresar libremente su opinión y a que se tenga en cuenta en todos los asuntos que le afec-
+                                                tan (…). Por lo tanto, deben ser considerados como sujetos de derechos humanos y civiles, y al estar en las
+                                                condiciones que indica dicha norma, debe necesariamente escuchárseles de manera tal de establecer una
+                                 
+**Concordancias Legales:** artículo 366 del Código Orgánico de; artículo 19.3; artículo 345; artículo 154; artículo 124; Ley N° 19.968; Constitución Política
+
+derecho en los siguientes términos: “La evaluación del interés superior del niño debe abarcar el respeto de
                                                 su derecho a expresar libremente su opinión y a que se tenga en cuenta en todos los asuntos que le afec-
                                                 tan (…). Por lo tanto, deben ser considerados como sujetos de derechos humanos y civiles, y al estar en las
                                                 condiciones que indica dicha norma, debe necesariamente escuchárseles de manera tal de establecer una
@@ -2811,7 +2799,10 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 60    Véase https://app.leg.wa.gov/rcw/default.aspx?cite=26.12.175
 
-                                          61    VARGAS (2011), p. 186.
+**Definición Canónica:** 61    VARGAS (2011), p. 186.
+                                          62    COUSO (2006), p. 160.
+
+61    VARGAS (2011), p. 186.
                                           62    COUSO (2006), p. 160.
 
                            Convención de derechos          6. El interés superior                                              78
@@ -2824,20 +2815,23 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos                            6. El interés superior                                               79
 
-
 ## 6.7           El interés superior del niño
 
-                                                                               en las decisiones judiciales
+**Definición Canónica:** en las decisiones judiciales
+
+en las decisiones judiciales
 
                                                                                El mejor reflejo de los parámetros presentes en el concepto del
                                                                                interés superior del niño se encuentra en las decisiones que tanto
                                                                                tribunales nacionales como internacionales han tenido en asuntos
                                                                                que afectan los derechos de los NNA.
 
-
 ## 6.7.1 Jurisprudencia nacional
 
-                                                                               Un estudio cualitativo reciente efectuado por la Dirección de Estudios
+**Definición Canónica:** Un estudio cualitativo reciente efectuado por la Dirección de Estudios
+                                                                               de la Corte Suprema de Chile a partir de la jurisprudencia emanada
+
+Un estudio cualitativo reciente efectuado por la Dirección de Estudios
                                                                                de la Corte Suprema de Chile a partir de la jurisprudencia emanada
 
                                                                                de las salas segunda y cuarta del máximo tribunal, logró sintetizar
@@ -2866,20 +2860,26 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos                            6. El interés superior                                                80
 
-
 ## 6.7.2 Jurisprudencia comparada
 
-                                                                               Dos organismos que se dedican a la resolución de litigios interna-
+**Definición Canónica:** Dos organismos que se dedican a la resolución de litigios interna-
+                                                                               cionales referentes a causas donde aparecen vulnerados los derechos
+                                                                               de los NNA, son la Corte Interamericana de Derechos Humanos
+                                                                               (CIDH) y la Corte Europea de Derechos Humanos (ECHR). A con-
+                                                                               tinuación se analizarán algu
+
+Dos organismos que se dedican a la resolución de litigios interna-
                                                                                cionales referentes a causas donde aparecen vulnerados los derechos
                                                                                de los NNA, son la Corte Interamericana de Derechos Humanos
                                                                                (CIDH) y la Corte Europea de Derechos Humanos (ECHR). A con-
                                                                                tinuación se analizarán algunos fallos emanados de dichos tribunales
                                                                                relacionados a la CDN.
 
-
 ## 6.7.2.1 Sentencia caso Fornerón e Hija vs. Argentina, de 1
 
-                                                                               de octubre de 2011 (CIDH)64
+**Definición Canónica:** de octubre de 2011 (CIDH)64
+
+de octubre de 2011 (CIDH)64
 
                                                                                Los acontecimientos que motivaron el juicio fueron que un padre
 
@@ -2902,10 +2902,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                para asumir su función de madre, no puede constituir para la autoridad
                                                                                judicial interviniente una fundamentación para negar la paternidad.
 
-
 ## 94. Por el contrario, la Corte observa que tales afirmaciones respon-
 
-                                                                               den a ideas preconcebidas sobre el rol de un hombre y una mujer
+**Definición Canónica:** den a ideas preconcebidas sobre el rol de un hombre y una mujer
+                                                                               en cuanto a determinadas funciones o procesos reproductivos, en
+                                                                               relación con una futura maternidad y paternidad. Se trata de nocio-
+
+den a ideas preconcebidas sobre el rol de un hombre y una mujer
                                                                                en cuanto a determinadas funciones o procesos reproductivos, en
                                                                                relación con una futura maternidad y paternidad. Se trata de nocio-
 
@@ -2924,7 +2927,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 96. Las consideraciones del juez de primera instancia demuestran
 
-                                                             también una idea preconcebida de lo que es ser progenitor único,
+**Definición Canónica:** también una idea preconcebida de lo que es ser progenitor único,
+                                                             ya que al señor Fornerón se le cuestionó y condicionó su capacidad
+                                                             y posibilidad de ejercer su función de padre a la existencia de una
+
+también una idea preconcebida de lo que es ser progenitor único,
                                                              ya que al señor Fornerón se le cuestionó y condicionó su capacidad
                                                              y posibilidad de ejercer su función de padre a la existencia de una
 
@@ -2944,7 +2951,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 50. Recientemente, la Corte ha señalado que la determinación del
 
-                                                             interés superior del niño, en casos de cuidado y custodia de menores
+**Definición Canónica:** interés superior del niño, en casos de cuidado y custodia de menores
+                                                             de edad se debe hacer a partir de la evaluación de los comportamien-
+                                                             tos parentales específicos y su impacto negativo en el bienestar y
+                                                             desarrollo del niño según el caso, los daños o riesgos reales, proba-
+                                                             dos y no especulativos o imaginarios, en el bienestar del niño. Por
+             
+
+interés superior del niño, en casos de cuidado y custodia de menores
                                                              de edad se debe hacer a partir de la evaluación de los comportamien-
                                                              tos parentales específicos y su impacto negativo en el bienestar y
                                                              desarrollo del niño según el caso, los daños o riesgos reales, proba-
@@ -2963,7 +2977,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 100. Las decisiones judiciales analizadas no velaron efectivamente
 
-                                                             por el interés superior de la niña y por los derechos del padre y se
+**Definición Canónica:** por el interés superior de la niña y por los derechos del padre y se
+                                                             basaron en aseveraciones que revelan una idea predeterminada sobre
+                                                             las circunstancias en las que se produjo su paternidad, y sobre que
+                                                             un progenitor solo no puede hacerse cargo de un hijo.
+                                                             116. La Corte ya ha indicado que el derecho de protección a la familia,
+                          
+**Concordancias Legales:** artículo 17 de la Convención Americana conlleva
+
+por el interés superior de la niña y por los derechos del padre y se
                                                              basaron en aseveraciones que revelan una idea predeterminada sobre
                                                              las circunstancias en las que se produjo su paternidad, y sobre que
                                                              un progenitor solo no puede hacerse cargo de un hijo.
@@ -3014,10 +3036,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                                                                                para hacerse cargo de sus hijos que una madre.
 
-
 ## 6.7.2.2 Sentencia caso Khusnutdinov and X v. Russia de
 
-                                                                               18 de diciembre de 2018 (ECHR)66
+**Definición Canónica:** 18 de diciembre de 2018 (ECHR)66
+
+18 de diciembre de 2018 (ECHR)66
 
                                                                                La niña sobre la que versaba el caso tenía 13 años y estuvo durante
                                                                                un tiempo viviendo con su padre en Estados Unidos, luego que este
@@ -3074,10 +3097,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos                            6. El interés superior                                                     85
 
-
 ## 6.7.2.3 Sentencia caso S. L. and J. L. v. Croatia de 7 de
 
-                                                                               mayo de 2015 (ECHR)69
+**Definición Canónica:** mayo de 2015 (ECHR)69
+
+mayo de 2015 (ECHR)69
 
                                                                                El juicio se refería a un acuerdo para cambiar una villa junto al mar,
                                                                                perteneciente a dos niñas, por un piso (departamento) menos va-
@@ -3216,11 +3240,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                         7. El principio de no                                                 90
                            de niños, niñas y adolecentes                     discriminación
 
-
 ## 7.1          Fundamentos
 
+**Definición Canónica:** Una tesis novedosa de los fundamentos del derecho de no discrimi-
+                                                                            nación, de acuerdo con las ideas que se han expresado en el párrafo
+                                                                            anterior, es posible que guarde una estrecha relación con dos teorías
+                                                                            que desde antaño han tratado de explicar los derechos de los NNA.
+                                                                            Wikeley parte exponiendo l
+**Concordancias Legales:** artículo 2 de la Conven
 
-                                                                            Una tesis novedosa de los fundamentos del derecho de no discrimi-
+Una tesis novedosa de los fundamentos del derecho de no discrimi-
                                                                             nación, de acuerdo con las ideas que se han expresado en el párrafo
                                                                             anterior, es posible que guarde una estrecha relación con dos teorías
                                                                             que desde antaño han tratado de explicar los derechos de los NNA.
@@ -3301,15 +3330,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                            7. El principio de no                                                       92
                            de niños, niñas y adolecentes                        discriminación
 
-
-## 7.2              Consagración del principio
-
-                                                                                  en el derecho
-
-
 ## 1. Los Estados
 
-                                        Partes respetarán                         La CDN, en su artículo 2, confiere al derecho de no discriminación
+**Definición Canónica:** Partes respetarán                         La CDN, en su artículo 2, confiere al derecho de no discriminación
+                                                                                  dos alcances. Uno referido a su contenido que abre a otras situaciones
+                                        los derechos                              que pudieren ser constitutivas de discriminación.
+                                        enunciados en la
+                                        presente Convención                       Sobre esto resulta ilustradora la casuística que expone la Observac
+**Concordancias Legales:** artículo 2
+
+Partes respetarán                         La CDN, en su artículo 2, confiere al derecho de no discriminación
                                                                                   dos alcances. Uno referido a su contenido que abre a otras situaciones
                                         los derechos                              que pudieren ser constitutivas de discriminación.
                                         enunciados en la
@@ -3349,10 +3379,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                                   7. El principio de no                                                           93
                            de niños, niñas y adolecentes                               discriminación
 
-
 ## 2. Los Estados Partes                         2. Los Estados Partes tomarán todas las medidas apropiadas para
 
-                                        tomarán todas las                                garantizar que el niño se vea protegido contra toda forma de
+**Definición Canónica:** tomarán todas las                                garantizar que el niño se vea protegido contra toda forma de
+                                                                                         discriminación o castigo por causa de la condición, las activida-
+                                        medidas apropiadas                               des, las opiniones expresadas o las creencias de sus padres, o sus
+                                        para garantizar que el                           tutores o de sus familiares.
+                                        niño se vea protegido
+
+tomarán todas las                                garantizar que el niño se vea protegido contra toda forma de
                                                                                          discriminación o castigo por causa de la condición, las activida-
                                         medidas apropiadas                               des, las opiniones expresadas o las creencias de sus padres, o sus
                                         para garantizar que el                           tutores o de sus familiares.
@@ -3393,18 +3428,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                           7. El principio de no                                                     94
                            de niños, niñas y adolecentes                       discriminación
 
-
-## 7.3           Jurisprudencia
-
-
-                                                                              Dos sentencias de la CIDH marcan la pauta en esta materia. Se
-                                                                              revisan a continuación.
-
-
 ## 7.3.1 Sentencia caso Y. y B. vs. República Dominicana80
 
+**Definición Canónica:** El fallo se pronuncia sobre una disputa relacionada a la negativa del
+                                                                              Estado de República Dominicana a inscribir tardíamente el naci-
+                                                                              miento de dos niñas de ascendencia haitiana. La negativa se produjo
 
-                                                                              El fallo se pronuncia sobre una disputa relacionada a la negativa del
+El fallo se pronuncia sobre una disputa relacionada a la negativa del
                                                                               Estado de República Dominicana a inscribir tardíamente el naci-
                                                                               miento de dos niñas de ascendencia haitiana. La negativa se produjo
 
@@ -3426,7 +3456,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 171. En consideración del deber del Estado de otorgar la nacionalidad
 
-                                                                              a quienes nacieron en su territorio, la República Dominicana debió
+**Definición Canónica:** a quienes nacieron en su territorio, la República Dominicana debió
+                                                                              adoptar todas las medidas positivas necesarias para garantizar que
+                                                                              Y. y B., como niñas dominicanas de ascendencia haitiana, pudieran
+                                                                              acudir al procedimiento de inscripción tardía en condiciones de
+
+a quienes nacieron en su territorio, la República Dominicana debió
                                                                               adoptar todas las medidas positivas necesarias para garantizar que
                                                                               Y. y B., como niñas dominicanas de ascendencia haitiana, pudieran
                                                                               acudir al procedimiento de inscripción tardía en condiciones de
@@ -3442,13 +3477,23 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 172. Este Tribunal encuentra que en razón del tratamiento discrimi-
 
-                                                             natorio aplicado a las niñas, el Estado les denegó su nacionalidad y las
+**Definición Canónica:** natorio aplicado a las niñas, el Estado les denegó su nacionalidad y las
+                                                             dejó apátridas, lo cual, a su vez, les impuso una situación de continua
+                                                             vulnerabilidad que perduró hasta el 25 de septiembre de 2001 (…).
+
+natorio aplicado a las niñas, el Estado les denegó su nacionalidad y las
                                                              dejó apátridas, lo cual, a su vez, les impuso una situación de continua
                                                              vulnerabilidad que perduró hasta el 25 de septiembre de 2001 (…).
 
 ## 174. La Corte encuentra que por razones discriminatorias y contra-
 
-                                                             rias a la normativa interna pertinente, el Estado dejó de otorgar la
+**Definición Canónica:** rias a la normativa interna pertinente, el Estado dejó de otorgar la
+                                                             nacionalidad a las niñas, lo que constituyó una privación arbitraria
+                                                             de su nacionalidad, y las dejó apátridas por más de cuatro años y
+                                                             cuatro meses, en violación de los artículos 20 y 24 de la Convención
+**Concordancias Legales:** artículos 20; artículo 19; artículo 1.1; artículo 2 de la Con
+
+rias a la normativa interna pertinente, el Estado dejó de otorgar la
                                                              nacionalidad a las niñas, lo que constituyó una privación arbitraria
                                                              de su nacionalidad, y las dejó apátridas por más de cuatro años y
                                                              cuatro meses, en violación de los artículos 20 y 24 de la Convención
@@ -3489,10 +3534,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                        y Costas, a la niña Y., y la cantidad fijada en el mismo párrafo
                                                                        a la niña B.
 
-
 ## 7.3.2 Sentencia “Niños de la Calle” (Villagrán
 
-                                                             Morales y otros vs. Guatemala)
+**Definición Canónica:** Morales y otros vs. Guatemala)
+**Concordancias Legales:** artículo 19 de la Convención Americana la Corte
+
+Morales y otros vs. Guatemala)
 
                                                              El 15 de junio de 1990, desconocidos se acercaron en una camione-
                                                              ta a cuatro individuos, entre ellos tres menores de edad. Luego de
@@ -3520,7 +3567,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 194. Tanto la Convención Americana como la Convención sobre
 
-                                                             los Derechos del Niño forman parte de un muy comprensivo corpus
+**Definición Canónica:** los Derechos del Niño forman parte de un muy comprensivo corpus
+                                                             juris internacional de protección de los niños que debe servir a esta
+                                                             Corte para fijar el contenido y los alcances de la disposición general
+                                                             definida en el artículo 19 de la Convención Americana.
+**Concordancias Legales:** artículo 19 de la Convención Americana
+
+los Derechos del Niño forman parte de un muy comprensivo corpus
                                                              juris internacional de protección de los niños que debe servir a esta
                                                              Corte para fijar el contenido y los alcances de la disposición general
                                                              definida en el artículo 19 de la Convención Americana.
@@ -3528,10 +3581,17 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos          7. El principio de no                                                 97
                            de niños, niñas y adolecentes      discriminación
 
-
 ## 195. La Convención sobre los Derechos del Niño contiene diversas
 
-                                                             disposiciones que guardan relación con la situación de los ‘niños de
+**Definición Canónica:** disposiciones que guardan relación con la situación de los ‘niños de
+                                                             la calle’ que se examina en este caso y pueden arrojar luz, en conexión
+                                                             con el artículo 19 de la Convención Americana, sobre la conducta
+                                                             que el Estado debió haber observado ante la misma. (…)
+                                                             196. Las normas transcritas permiten precisar, en variadas direcciones,
+                       
+**Concordancias Legales:** artículo 19 de la Convención Americana; artículo 19 de la Convención Americana. Entre ellas merecen ser; artículo 2 de la Convención; artículo 19 de la Convención
+
+disposiciones que guardan relación con la situación de los ‘niños de
                                                              la calle’ que se examina en este caso y pueden arrojar luz, en conexión
                                                              con el artículo 19 de la Convención Americana, sobre la conducta
                                                              que el Estado debió haber observado ante la misma. (…)
@@ -3575,10 +3635,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                   con el fin de adecuar la normativa guatemalteca al artículo
                                                                                   19 de la Convención.
 
-
 ## 7.3.3 Análisis general de las sentencias
 
-                                                                        Como queda en evidencia a la lectura de los fallos, cuyos principales
+**Definición Canónica:** Como queda en evidencia a la lectura de los fallos, cuyos principales
+                                                                        argumentos se han consignado precedentemente, en ambos casos hay
+                                                                        una notoria infracción al artículo segundo consignado líneas arriba.
+                                                                        Específicamente, hay discriminación en base a la raza en el primer
+                                                                        caso y a la condición de pobreza, en el s
+**Concordancias Legales:** artículo 12 de la CDN en los
+
+Como queda en evidencia a la lectura de los fallos, cuyos principales
                                                                         argumentos se han consignado precedentemente, en ambos casos hay
                                                                         una notoria infracción al artículo segundo consignado líneas arriba.
                                                                         Específicamente, hay discriminación en base a la raza en el primer
@@ -3610,10 +3676,17 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                  Este derecho está concebido en el artículo 12 de la CDN en los
                                                                                  siguientes términos:
 
-
 ## 1. Los Estados                           1. Los Estados Partes garantizarán al niño que esté en condiciones
 
-                                                                                    de formarse un juicio propio el derecho de expresar su opinión
+**Definición Canónica:** de formarse un juicio propio el derecho de expresar su opinión
+                                        Partes garantizarán
+                                                                                    libremente en todos los asuntos que afectan al niño, teniéndose
+                                        al niño que esté                            debidamente en cuenta las opiniones del niño, en función de la
+                                        en condiciones de                           edad y madurez del niño.
+                                        formarse un juicio               
+**Concordancias Legales:** artículo 12
+
+de formarse un juicio propio el derecho de expresar su opinión
                                         Partes garantizarán
                                                                                     libremente en todos los asuntos que afectan al niño, teniéndose
                                         al niño que esté                            debidamente en cuenta las opiniones del niño, en función de la
@@ -3677,10 +3750,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                    8. El derecho del niño                                                     102
                            de niños, niñas y adolecentes                a ser oído
 
-
 ## 8.1       Consagración normativa
 
-                                                                       en el derecho chileno
+**Definición Canónica:** en el derecho chileno
+
+en el derecho chileno
 
                                                                        Los cuerpos normativos donde se consagra expresamente en derecho
                                                                        son la Ley de Matrimonio Civil, la Ley sobre Adopción, la Ley que
@@ -3709,10 +3783,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                8. El derecho del niño                                              103
                            de niños, niñas y adolecentes            a ser oído
 
-
 ## 8.2     Condiciones para ejercer
 
-                                                                   el derecho
+**Definición Canónica:** el derecho
+**Concordancias Legales:** artículo 12 de la CDN lo establece en términos simples y señala; artículos 227.1; Artículo 227.1; artículo 242.2; artículo 85.2 de la LMC; artículos 16.2; artículo 16.2; Artículo 69; artículos 72; Artículo 79; artículo 69 de la LTF ha establecido una audiencia confidencial; artículo 105 de la LTF; artículo 3 de la Ley de Adopción. En este sentido; Artículo 3
+
+el derecho
 
                                                                    El artículo 12 de la CDN lo establece en términos simples y señala
                                                                    dos cosas. Si se lee con atención la norma, esta habla de la habilita-
@@ -3860,16 +3936,20 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 85    Véase: https://www.unicef.org/ecuador/UNICEF-ObservacionesGeneralesDelComiteDeLosDerechosDelNi-
 
-                                                no-WEB.pdf, página 208.
+**Definición Canónica:** no-WEB.pdf, página 208.
+                                          86    CARRETTA (2018b), pp. 421 y 422.
+
+no-WEB.pdf, página 208.
                                           86    CARRETTA (2018b), pp. 421 y 422.
 
                            Convención de derechos                                8. El derecho del niño                                                            107
                            de niños, niñas y adolecentes                            a ser oído
 
-
 ## 8.3            Conexión entre el derecho del niño a ser
 
-                                                                                   oído y la autonomía progresiva
+**Definición Canónica:** oído y la autonomía progresiva
+
+oído y la autonomía progresiva
 
                                                                                    El DNO es una de las principales herramientas para que el juez valore
                                                                                    la autonomía progresiva de los NNA. Ello, porque la conexión entre
@@ -3899,7 +3979,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 2. Con tal fin, se dará en particular al niño opor-
 
-                                                                                                           ión apropiadas para que el niño ejerza los derechos
+**Definición Canónica:** ión apropiadas para que el niño ejerza los derechos
+                                             tunidad de ser escuchado en todo procedimiento
+                                                                                                           reconocidos en la presente Convención.
+                                             judicial o administrativo que afecte al niño, ya sea
+                                             directamente o por medio de un representante o de
+                                             un órgano apropiado, en consonancia con las normas
+                     
+
+ión apropiadas para que el niño ejerza los derechos
                                              tunidad de ser escuchado en todo procedimiento
                                                                                                            reconocidos en la presente Convención.
                                              judicial o administrativo que afecte al niño, ya sea
@@ -3967,10 +4055,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos            8. El derecho del niño                                                    110
                            de niños, niñas y adolecentes        a ser oído
 
-
 ## 8.4   La diligencia de la audiencia reservada: ¿se trata
 
-                                                                 o no de un trámite esencial en el procedimiento?
+**Definición Canónica:** o no de un trámite esencial en el procedimiento?
+**Concordancias Legales:** artículo 768; artículo 800; artículo 795; artículos 768
+
+o no de un trámite esencial en el procedimiento?
 
                                                                  Para analizar esto es necesario consignar un extracto de una sentencia
                                                                  de la Corte Suprema, del año 2015, que ha marcado un precedente
@@ -4026,10 +4116,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                           8. El derecho del niño                                                  112
                            de niños, niñas y adolecentes                       a ser oído
 
-
 ## 8.5           Las formas de producción
 
-                                                                              de la declaración
+**Definición Canónica:** de la declaración
+
+de la declaración
 
                                                                               La declaración de los NNA actualmente se puede producir en dos
                                                                               lugares. En las salas Gesell o en las salas ordinarias de audiencias.
@@ -4090,10 +4181,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                            8. El derecho del niño                                               114
                            de niños, niñas y adolecentes                        a ser oído
 
-
 ## 8.6             La valoración
 
-                                                                               del DNO
+**Definición Canónica:** del DNO
+**Concordancias Legales:** artículo 12 de la CDN establece el derecho; artículos 242.2; artículo 16 de la LTF reafirma esta interpretación; artículo 85.2; artículo 16 de la Ley Nº 19.968; artículo 12; artículo 3 de la Convención ya citada; Ley Nº 19.968
+
+del DNO
 
                                                                                El siguiente reto relevante para la dogmática jurisprudencial es po-
                                                                                der distinguir los criterios conforme a los cuales es posible valorar
@@ -4210,10 +4303,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                             8. El derecho del niño                                                         117
                            de niños, niñas y adolecentes                         a ser oído
 
-
 ## 8.7            El DNO y la ley que regula las entrevistas
 
-                                                                                grabadas en video y otras medidas de resguardo
+**Definición Canónica:** grabadas en video y otras medidas de resguardo
+                                                                                a menores de edad víctimas de delito sexuales
+**Concordancias Legales:** artículos 141; artículo 31; Ley N° 21.057; Ley Nº 21.057
+
+grabadas en video y otras medidas de resguardo
                                                                                 a menores de edad víctimas de delito sexuales
 
                                                                                 El 9 de enero de 2018 fue promulgada la Ley N° 21.057, que regula
@@ -4335,13 +4431,20 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 1. Planificación: en ella se analizan los aspectos generales que de-
 
-                                                                ben ser considerados al momento de la entrevista. Estos dicen
+**Definición Canónica:** ben ser considerados al momento de la entrevista. Estos dicen
+                                                                relación con las caracteristicas del NNA y el hecho denunciado.
+                                                                Es una fase informariva.
+
+ben ser considerados al momento de la entrevista. Estos dicen
                                                                 relación con las caracteristicas del NNA y el hecho denunciado.
                                                                 Es una fase informariva.
 
 ## 2. Primer contacto: las instrucciones en este caso son reducir el
 
-                                                                impacto visual que para un NNA pueden producir los agentes
+**Definición Canónica:** impacto visual que para un NNA pueden producir los agentes
+                                                                policiales. En ese sentido, no deben usar vestimenta policial ni
+
+impacto visual que para un NNA pueden producir los agentes
                                                                 policiales. En ese sentido, no deben usar vestimenta policial ni
 
                                                                 armas.
@@ -4349,12 +4452,17 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                              La siguiente fase se consigna íntegramente a continuación dada su
                                                              importancia:
 
-## 3. Desarrollo
-
-
 ## 3.1 Fase presustantiva. Una vez en la sala de entrevista, el en-
 
-                                                                trevistador se presentará nuevamente con el NNA, dándole la
+**Definición Canónica:** trevistador se presentará nuevamente con el NNA, dándole la
+                                                                bienvenida, y recordará la existencia de cámaras y micrófonos en
+                                                                la sala. Asimismo, si corresponde, le informará que la entrevista
+                                                                está siendo observada desde otra sala, explicándole los motivos
+                                                                de esto. Posteriormente, le expondrá las reglas básicas de la
+                           
+**Concordancias Legales:** artículo 305 del Código Procesal
+
+trevistador se presentará nuevamente con el NNA, dándole la
                                                                 bienvenida, y recordará la existencia de cámaras y micrófonos en
                                                                 la sala. Asimismo, si corresponde, le informará que la entrevista
                                                                 está siendo observada desde otra sala, explicándole los motivos
@@ -4373,7 +4481,10 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 3.2 Fase sustantiva El objetivo de esta fase es obtener un relato
 
-                                                                  lo más extenso y detallado posible sobre los hechos que se inves-
+**Definición Canónica:** lo más extenso y detallado posible sobre los hechos que se inves-
+                                                                  tigan. Para ello, el entrevistador formulará al NNA una pregunta
+
+lo más extenso y detallado posible sobre los hechos que se inves-
                                                                   tigan. Para ello, el entrevistador formulará al NNA una pregunta
 
                            Convención de derechos                 8. El derecho del niño                                                     121
@@ -4386,7 +4497,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 3.3 Fase de cierre. Esta fase está destinada a restablecer un esta-
 
-                                                                            do emocional positivo del NNA y verificar si existe algún tema
+**Definición Canónica:** do emocional positivo del NNA y verificar si existe algún tema
+                                                                            pendiente o información adicional que considerar. Para ello, el
+                                                                            entrevistador, luego de entregarle al NNA la oportunidad de hacer
+                                                                            alguna pregunta o entregar otros antecedentes, agradecerá su
+                                                                            participación a la vez que establecerá con
+
+do emocional positivo del NNA y verificar si existe algún tema
                                                                             pendiente o información adicional que considerar. Para ello, el
                                                                             entrevistador, luego de entregarle al NNA la oportunidad de hacer
                                                                             alguna pregunta o entregar otros antecedentes, agradecerá su
@@ -4429,10 +4546,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                          9. El derecho del NNA                                                 124
                            de niños, niñas y adolecentes                      a la vida
 
-
 ## 9.1            El ejercicio progresivo de los
 
-                                                                             derechos de la infancia
+**Definición Canónica:** derechos de la infancia
+**Concordancias Legales:** artículo 16.3 de la LTF permite; artículo 4; artículo 16; artículo 5; artículos 23 del Pacto Internacional de Derechos Civiles y Pol; Ley N° 21.067; constitucion
+
+derechos de la infancia
 
                                                                              En Chile, Varas sostiene que los derechos de la personalidad de la
                                                                              infancia admiten la representación legal de los padres. Ello, a pesar de
@@ -4589,10 +4708,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                  práctico, el estándar del artículo 5 influye en tres aspectos decisivos
                                                                                  del derecho de la infancia.
 
-
 ## 103   KAMCHEDZERA (2012), p. 1. De esta forma, el autor precedente señala que: “Second, the commentary adopts
 
-                                                a child rights-based approach in its analysis of the Article, other standards, previous works, and practices.
+**Definición Canónica:** a child rights-based approach in its analysis of the Article, other standards, previous works, and practices.
+                                                Third, the commentary uses the concept of progressive dignified life for the child as an analytical and orga-
+                                                nizing idea”.
+                                          104   En este sentido, Kamchedzera señala que: “…The uniqueness of Article 5 of the CRC [CDN] is prominent when
+                                                compared with other non-CRC international standards on child rights 
+
+a child rights-based approach in its analysis of the Article, other standards, previous works, and practices.
                                                 Third, the commentary uses the concept of progressive dignified life for the child as an analytical and orga-
                                                 nizing idea”.
                                           104   En este sentido, Kamchedzera señala que: “…The uniqueness of Article 5 of the CRC [CDN] is prominent when
@@ -4607,10 +4731,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                           10. Estudio de los derechos particulares                              129
                            de niños, niñas y adolecentes                        contenidos en la CDN
 
-
 ## 10.1               Derecho a la supervivencia
 
-                                                                              y el desarrollo
+**Definición Canónica:** y el desarrollo
+
+y el desarrollo
 
                                                                               Estos son derechos a los recursos, las aptitudes y las contribuciones
                                                                               necesarias para la supervivencia y el pleno desarrollo del niño. In-
@@ -4628,10 +4753,17 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                               atención médica asequible económicamente durante la infancia y
                                                                               en la edad adulta.
 
-
 ## 10.1.1 El derecho del niño a ser criado y
 
-                                                                              educado por sus padres: la responsabilidad
+**Definición Canónica:** educado por sus padres: la responsabilidad
+                                                                              parental y el deber subsidiario del Estado
+                                                                              Los artículos 18, 9, 28, 29 y 5 de la CDN establecen este derecho.
+                                                                              Se ha optado por presentarlo de esta forma porque en este orden
+                                                                              desarrolla de mejor forma su concepto, contenido y limitaciones. La
+   
+**Concordancias Legales:** artículos 18; Artículo 18
+
+educado por sus padres: la responsabilidad
                                                                               parental y el deber subsidiario del Estado
                                                                               Los artículos 18, 9, 28, 29 y 5 de la CDN establecen este derecho.
                                                                               Se ha optado por presentarlo de esta forma porque en este orden
@@ -4645,25 +4777,28 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                  y el desarrollo del niño. Su preocupación fundamental será el
                                                                                  interés superior del niño.
 
-
-## 105   Véase https://www.unicef.org/spanish/crc/index_30177.html
-
-
-                           Convención de derechos          10. Estudio de los derechos particulares                              130
-
-
 ## 2. A los efectos de garantizar y promover los derechos enunciados
 
-                                                                en la presente Convención, los Estados Partes prestarán la asis-
+**Definición Canónica:** en la presente Convención, los Estados Partes prestarán la asis-
                                                                 tencia apropiada a los padres y a los representantes legales para
                                                                 el desempeño de sus funciones en lo que respecta a la crianza
                                                                 del niño y velarán por la creación de instituciones, instalaciones
                                                                 y servicios para el cuidado de los niños.
 
+en la presente Convención, los Estados Partes prestarán la asis-
+                                                                tencia apropiada a los padres y a los representantes legales para
+                                                                el desempeño de sus funciones en lo que respecta a la crianza
+                                                                del niño y velarán por la creación de instituciones, instalaciones
+                                                                y servicios para el cuidado de los niños.
 
 ## 3. Los Estados Partes adoptarán todas las medidas apropiadas para
 
-                                                                que los niños cuyos padres trabajan tengan derecho a beneficiarse
+**Definición Canónica:** que los niños cuyos padres trabajan tengan derecho a beneficiarse
+                                                                de los servicios e instalaciones de guarda de niños para los que
+                                                                reúnan las condiciones requeridas”.
+**Concordancias Legales:** artículo 29 de la CDN especifica un poco más el contenido del; Artículo 29
+
+que los niños cuyos padres trabajan tengan derecho a beneficiarse
                                                                 de los servicios e instalaciones de guarda de niños para los que
                                                                 reúnan las condiciones requeridas”.
 
@@ -4712,7 +4847,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 2. Nada de lo dispuesto en el presente artículo o en el artículo 28
 
-                                                                                  se interpretará como una restricción de la libertad de los particu-
+**Definición Canónica:** se interpretará como una restricción de la libertad de los particu-
+                                                                                  lares y de las entidades para establecer y dirigir instituciones de
+                                                                                  enseñanza, a condición de que se respeten los principios enun-
+                                                                                  ciados en el párrafo 1 del presente artículo y de que la educación
+                                                                                  impart
+**Concordancias Legales:** artículo 27.2 de la CDN establece el contenido de la crianza y; Artículo 27; artículo 28 de la CDN se refiere al deber del Estado de proveer
+
+se interpretará como una restricción de la libertad de los particu-
                                                                                   lares y de las entidades para establecer y dirigir instituciones de
                                                                                   enseñanza, a condición de que se respeten los principios enun-
                                                                                   ciados en el párrafo 1 del presente artículo y de que la educación
@@ -4729,10 +4871,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos          10. Estudio de los derechos particulares                              132
 
-
 ## 2. A los padres u otras personas encargadas del niño les incumbe
 
-                                                                la responsabilidad primordial de proporcionar, dentro de sus
+**Definición Canónica:** la responsabilidad primordial de proporcionar, dentro de sus
+                                                                posibilidades y medios económicos, las condiciones de vida que
+                                                                sean necesarias para el desarrollo del niño (...)”.
+**Concordancias Legales:** artículo 18; artículo 9 de la CDN; Artículo 9
+
+la responsabilidad primordial de proporcionar, dentro de sus
                                                                 posibilidades y medios económicos, las condiciones de vida que
                                                                 sean necesarias para el desarrollo del niño (...)”.
 
@@ -4754,19 +4900,35 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 2. En cualquier procedimiento entablado de conformidad con el
 
-                                                                párrafo 1 del presente artículo, se ofrecerá a todas las partes in-
+**Definición Canónica:** párrafo 1 del presente artículo, se ofrecerá a todas las partes in-
+                                                                teresadas la oportunidad de participar en él y de dar a conocer
+                                                                sus opiniones.
+
+párrafo 1 del presente artículo, se ofrecerá a todas las partes in-
                                                                 teresadas la oportunidad de participar en él y de dar a conocer
                                                                 sus opiniones.
 
 ## 3. Los Estados Partes respetarán el derecho del niño que esté sepa-
 
-                                                                rado de uno o de ambos padres a mantener relaciones personales
+**Definición Canónica:** rado de uno o de ambos padres a mantener relaciones personales
+                                                                y contacto directo con ambos padres de modo regular, salvo si
+                                                                ello es contrario al interés superior del niño.
+
+rado de uno o de ambos padres a mantener relaciones personales
                                                                 y contacto directo con ambos padres de modo regular, salvo si
                                                                 ello es contrario al interés superior del niño.
 
 ## 4. Cuando esa separación sea resultado de una medida adoptada
 
-                                                                por un Estado Parte, como la detención, el encarcelamiento, el
+**Definición Canónica:** por un Estado Parte, como la detención, el encarcelamiento, el
+                                                                exilio, la deportación o la muerte (incluido el fallecimiento debido
+                                                                a cualquier causa mientras la persona está bajo la custodia del
+                                                                Estado) de uno de los padres del niño, o de ambos, o del niño,
+                                                                el Estado Parte proporcionará, cuando se le pida, a los padres,
+                     
+**Concordancias Legales:** artículo 5
+
+por un Estado Parte, como la detención, el encarcelamiento, el
                                                                 exilio, la deportación o la muerte (incluido el fallecimiento debido
                                                                 a cualquier causa mientras la persona está bajo la custodia del
                                                                 Estado) de uno de los padres del niño, o de ambos, o del niño,
@@ -4826,10 +4988,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos                            10. Estudio de los derechos particulares                                     135
 
-
 ## 10.2                Derecho a la protección
 
-                                                                               de los NNA
+**Definición Canónica:** de los NNA
+**Concordancias Legales:** artículo 19 de la Convención Americana sobre Derechos Humanos; artículo 1; Artículo 7
+
+de los NNA
 
                                                                                En general los casos que se analizan a continuación están integrados
                                                                                dentro del denominado Sistema Jurídico Interamericano, o el “corpus
@@ -4893,7 +5057,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 2. Los Estados Partes velarán por la aplicación de estos derechos
 
-                                                                 de conformidad con su legislación nacional y las obligaciones que
+**Definición Canónica:** de conformidad con su legislación nacional y las obligaciones que
+                                                                 hayan contraído en virtud de los instrumentos internacionales
+                                                                 pertinentes en esta esfera, sobre todo cuando el niño resultara
+                                                                 de otro modo apátrida.
+                                                                 Artículo 8. 1. Los Estados Partes se comprometen a respetar el
+                                                              
+**Concordancias Legales:** Artículo 8; Artículo 9
+
+de conformidad con su legislación nacional y las obligaciones que
                                                                  hayan contraído en virtud de los instrumentos internacionales
                                                                  pertinentes en esta esfera, sobre todo cuando el niño resultara
                                                                  de otro modo apátrida.
@@ -4921,20 +5093,33 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 2. En cualquier procedimiento entablado de conformidad con
 
-                                                                        el párrafo 1 del presente artículo se ofrecerá a todas las partes
+**Definición Canónica:** el párrafo 1 del presente artículo se ofrecerá a todas las partes
+                                                                        interesadas la oportunidad de participar en él y de dar a conocer
+                                                                        sus opiniones.
+
+el párrafo 1 del presente artículo se ofrecerá a todas las partes
                                                                         interesadas la oportunidad de participar en él y de dar a conocer
                                                                         sus opiniones.
 
 ## 3. Los Estados Partes respetarán el derecho del niño que esté
 
-                                                                        separado de uno o de ambos padres a mantener relaciones per-
+**Definición Canónica:** separado de uno o de ambos padres a mantener relaciones per-
+
+separado de uno o de ambos padres a mantener relaciones per-
 
                                                                         sonales y contacto directo con ambos padres de modo regular,
                                                                         salvo si ello es contrario al interés superior del niño.
 
 ## 4. Cuando esa separación sea resultado de una medida adoptada
 
-                                                                        por un Estado Parte, como la detención, el encarcelamiento, el
+**Definición Canónica:** por un Estado Parte, como la detención, el encarcelamiento, el
+                                                                        exilio, la deportación o la muerte (incluido el fallecimiento debido
+                                                                        a cualquier causa mientras la persona está bajo la custodia del
+                                                                        Estado) de uno de los padres del niño, o de ambos, o del niño,
+                                                                        el Estado Parte proporcionará, cuando se le pida, a l
+**Concordancias Legales:** artículo 19
+
+por un Estado Parte, como la detención, el encarcelamiento, el
                                                                         exilio, la deportación o la muerte (incluido el fallecimiento debido
                                                                         a cualquier causa mientras la persona está bajo la custodia del
                                                                         Estado) de uno de los padres del niño, o de ambos, o del niño,
@@ -4984,10 +5169,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                padres, de un representante legal o de cualquier otra persona que
                                                                                lo tenga a su cargo.
 
-
 ## 2. Esas medidas de protección deberían comprender, según corres-
 
-                                                                               ponda, procedimientos eficaces para el establecimiento de programas
+**Definición Canónica:** ponda, procedimientos eficaces para el establecimiento de programas
+                                                                               sociales con objeto de proporcionar la asistencia necesaria al niño y a
+                                                                               quienes cuidan de él, así como para otras formas de prevención y para
+                                                                               la identificación, notificación, remisión a una institución, investiga-
+                                                                               ci
+**Concordancias Legales:** artículos 17
+
+ponda, procedimientos eficaces para el establecimiento de programas
                                                                                sociales con objeto de proporcionar la asistencia necesaria al niño y a
                                                                                quienes cuidan de él, así como para otras formas de prevención y para
                                                                                la identificación, notificación, remisión a una institución, investiga-
@@ -5003,10 +5194,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos                            10. Estudio de los derechos particulares                                    139
 
-
 ## 10.2.1 Explotación sexual comercial infantil (ESCI)
 
-                                                                               La Organización Internacional del Trabajo ha señalado, respecto de
+**Definición Canónica:** La Organización Internacional del Trabajo ha señalado, respecto de
+                                                                               este flagelo:
+**Concordancias Legales:** Artículo 34
+
+La Organización Internacional del Trabajo ha señalado, respecto de
                                                                                este flagelo:
 
                                                                                “La explotación sexual comercial infantil es la explotación por un
@@ -5040,10 +5234,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                una forma de maltrato infantil; b) El carácter mercantil, consumista
                                                                                y abusivo del fenómeno112. El segundo elemento es fundamental,
 
-
 ## 111   Véase https://www.ilo.org/ipec/areas/CSEC/lang--es/index.htm
 
-                                          112   Rodríguez señala a este respecto que “el concepto de ESCI viene a reemplazar el uso de otros conceptos tales
+**Definición Canónica:** 112   Rodríguez señala a este respecto que “el concepto de ESCI viene a reemplazar el uso de otros conceptos tales
+                                                como prostitución, explotación o abuso sexual infantil, pues apunta a destacar que se trata de una forma de
+                                                explotación comercial basada en una relación de poder en la que los explotadores se aprovechan de la víctima
+                                                por su condición de menor, su condición de género, y su vulnerabilidad social”. RODRÍGUEZ (2012), p. 202.
+
+112   Rodríguez señala a este respecto que “el concepto de ESCI viene a reemplazar el uso de otros conceptos tales
                                                 como prostitución, explotación o abuso sexual infantil, pues apunta a destacar que se trata de una forma de
                                                 explotación comercial basada en una relación de poder en la que los explotadores se aprovechan de la víctima
                                                 por su condición de menor, su condición de género, y su vulnerabilidad social”. RODRÍGUEZ (2012), p. 202.
@@ -5073,10 +5271,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                         es decir no basta el                    a la venta de niños, prostitución infantil y la utilización de niños en
                                         consentimiento.                         la pornografía, de 2002.
 
-
 ## 113   En este sentido, Rodríguez señala que “en el segundo Congreso Mundial de Yokohama en 2001 se [concluyó]
 
-                                                 que sería recomendable dejar de usar la palabra ‘comercial’ para hacer referencia a la explotación sexual
+**Definición Canónica:** que sería recomendable dejar de usar la palabra ‘comercial’ para hacer referencia a la explotación sexual
+                                                 infantil en general. El hecho de que quienes abusan de los niños en un contexto que se podría considerar ‘no
+                                                 comercial’ a veces intentan obtener el consentimiento y/o silencio de los niños a cambio de dinero, obsequios
+                                                 o protección, dificulta enormemente la línea que separa la explotación sexual y comercial de la explotación
+                    
+**Concordancias Legales:** artículo 34 de la CDN con la Convención Suplementaria de 1956; Artículo 1; Artículo 4.1; Artículo 4; Artículo 11; artículo 44 de la Convención; artículo 12 del Protocolo facultativo de la Convención relati; artículo 8 del Protocolo facultativo de la Convención rel
+
+que sería recomendable dejar de usar la palabra ‘comercial’ para hacer referencia a la explotación sexual
                                                  infantil en general. El hecho de que quienes abusan de los niños en un contexto que se podría considerar ‘no
                                                  comercial’ a veces intentan obtener el consentimiento y/o silencio de los niños a cambio de dinero, obsequios
                                                  o protección, dificulta enormemente la línea que separa la explotación sexual y comercial de la explotación
@@ -5153,10 +5357,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                                                 ativo a la participación de niños en los conflictos
                                                                                                                 armados, según el caso.
 
-
 ## 10.2.2 Situación de los NNA migrantes
 
-                                                                                  Las estadísticas del Departamento de Extranjería y Migración (DEM)
+**Definición Canónica:** Las estadísticas del Departamento de Extranjería y Migración (DEM)
+                                                                                  en Chile señala que los inmigrantes suman 441.529 personas, siendo
+                                                                                  provenientes en su mayoría de Perú, Argentina, Colombia, Ecua-
+                                                                                  dor y, en menor medida, de Brasil, Republica Dominicana y Haití,
+                                                                                  entre otro
+
+Las estadísticas del Departamento de Extranjería y Migración (DEM)
                                                                                   en Chile señala que los inmigrantes suman 441.529 personas, siendo
                                                                                   provenientes en su mayoría de Perú, Argentina, Colombia, Ecua-
                                                                                   dor y, en menor medida, de Brasil, Republica Dominicana y Haití,
@@ -5165,10 +5374,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                              10. Estudio de los derechos particulares                                143
                            de niños, niñas y adolecentes                           contenidos en la CDN
 
-
 ## 10.2.2.1 Regulación de los NNA migrantes
 
-                                                                                  Los apartados reglamentarios sobre esta materia se pueden ver en
+**Definición Canónica:** Los apartados reglamentarios sobre esta materia se pueden ver en
+                                                                                  la siguiente tabla:
+**Concordancias Legales:** Ley N° 1.094; Ley N° 20.430; Ley N° 20.507
+
+Los apartados reglamentarios sobre esta materia se pueden ver en
                                                                                   la siguiente tabla:
 
                                                              a.   Decreto Supremo Nº 5.142 de 1960 sobre Nacionalización de Extranjeros.
@@ -5204,18 +5416,21 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                                                              l.   Circular Nº A-15 06, 9 de junio de 2015, del Ministerio de Salud115.
 
-
 ## 115   Véase https://www.extranjeria.gob.cl/leyes-migratorias/
 
-
-                           Convención de derechos                          10. Estudio de los derechos particulares                                  144
+**Definición Canónica:** Convención de derechos                          10. Estudio de los derechos particulares                                  144
                            de niños, niñas y adolecentes                       contenidos en la CDN
 
+Convención de derechos                          10. Estudio de los derechos particulares                                  144
+                           de niños, niñas y adolecentes                       contenidos en la CDN
 
 ## 10.2.2.2 Los derechos del NNA migrante
 
+**Definición Canónica:** a. Derecho a la nacionalidad (artículo 7 de la CDN). Esta norma
+                                                                                   dispone que:
+**Concordancias Legales:** artículo 7 de la CDN; Artículo 7
 
-                                                                                a. Derecho a la nacionalidad (artículo 7 de la CDN). Esta norma
+a. Derecho a la nacionalidad (artículo 7 de la CDN). Esta norma
                                                                                    dispone que:
 
                                                                                    “Artículo 7. 1. El niño será inscrito inmediatamente después de
@@ -5225,7 +5440,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 2. Los Estados Partes velarán por la aplicación de estos derechos
 
-                                                                                   de conformidad con su legislación nacional y las obligaciones que
+**Definición Canónica:** de conformidad con su legislación nacional y las obligaciones que
+                                                                                   hayan contraído en virtud de los instrumentos internacionales
+**Concordancias Legales:** artículo 10 de la CPR rige el ius solis. Esta situación fue cor; artículo 19
+
+de conformidad con su legislación nacional y las obligaciones que
                                                                                    hayan contraído en virtud de los instrumentos internacionales
 
                                                                                    pertinentes en esta esfera, sobre todo cuando el niño resultara
@@ -5274,10 +5493,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                            sobre todo en torno al derecho a vivir en familia en el contexto
                                                                            migratorio y en lo relativo al derecho a la nacionalidad e identidad.
 
-
 ## 10.2.2.2.1 Sentencia de la segunda sala (Penal) de la
 
-                                                                           Corte Suprema, rol Nº 38.337 de 12 de julio de 2016
+**Definición Canónica:** Corte Suprema, rol Nº 38.337 de 12 de julio de 2016
+**Concordancias Legales:** Artículo 2.2 de la Convención sobre; Constitución Política
+
+Corte Suprema, rol Nº 38.337 de 12 de julio de 2016
 
                                                                        El fallo precedente resolvió un recurso de reclamación contra la
                                                                        medida de expulsión, emanada del Ministerio del Interior, de una
@@ -5325,7 +5546,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 2018. Lo anterior, en consideración a las circunstancias personales
 
-                                                             y familiares de los reclamantes, quienes, tal como ya se ha señalado,
+**Definición Canónica:** y familiares de los reclamantes, quienes, tal como ya se ha señalado,
+                                                             son padres de dos hijos de corta edad, de manera que de ejecutarse el
+                                                             acto administrativo cuestionado ciertamente se lesionaría el interés
+                                                             superior de los niños, al dictaminarse una medida que implicará la
+                                                             separación de uno de sus padres y perturbará su identidad familiar y
+           
+**Concordancias Legales:** artículos 3.1; artículo 1; Constitución Política
+
+y familiares de los reclamantes, quienes, tal como ya se ha señalado,
                                                              son padres de dos hijos de corta edad, de manera que de ejecutarse el
                                                              acto administrativo cuestionado ciertamente se lesionaría el interés
                                                              superior de los niños, al dictaminarse una medida que implicará la
@@ -5340,10 +5569,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos                             10. Estudio de los derechos particulares                                        147
 
-
 ## 10.2.3 Niños y adolescentes frente a la persecución
 
-                                                                                de la responsabilidad penal por el Estado
+**Definición Canónica:** de la responsabilidad penal por el Estado
+                                                                                Como destaca Beloff, una de las principales aplicaciones de la CDN
+                                                                                a América Latina es el reemplazo de la “doctrina de la situación irre-
+                                                                                gular” por la “doctrina de la protección integral”118. Beloff critica que,
+                                                                                a pesar de ello y de algu
+**Concordancias Legales:** artículo 8 del Pacto de San José; artículo 8
+
+de la responsabilidad penal por el Estado
                                                                                 Como destaca Beloff, una de las principales aplicaciones de la CDN
                                                                                 a América Latina es el reemplazo de la “doctrina de la situación irre-
                                                                                 gular” por la “doctrina de la protección integral”118. Beloff critica que,
@@ -5367,7 +5602,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 119   La jurisprudencia de la Corte Interamericana de Derechos Humanos da cuenta de esto. La jurisprudencia se
 
-                                                ha centrado en los derechos del NNA, pero sobre todo en su protección ante casos de desaparición forzada,
+**Definición Canónica:** ha centrado en los derechos del NNA, pero sobre todo en su protección ante casos de desaparición forzada,
+                                                ejecuciones extrajudiciales, tortura, violación al debido proceso y los derechos del niño, derecho a la nacio-
+                                                nalidad y libertad de expresión, etcétera. GARCÍA-SAYÁN (2012), p. 2.
+                                          120   Los numerales 1 y 2 del artículo precedente establecen lo siguiente: “Artículo 8. Garantías Judiciales. 1. Toda
+                                                persona t
+**Concordancias Legales:** Artículo 8; artículo 31 de la Convención de Viena; artículo 31; artículos 7
+
+ha centrado en los derechos del NNA, pero sobre todo en su protección ante casos de desaparición forzada,
                                                 ejecuciones extrajudiciales, tortura, violación al debido proceso y los derechos del niño, derecho a la nacio-
                                                 nalidad y libertad de expresión, etcétera. GARCÍA-SAYÁN (2012), p. 2.
                                           120   Los numerales 1 y 2 del artículo precedente establecen lo siguiente: “Artículo 8. Garantías Judiciales. 1. Toda
@@ -5411,10 +5653,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                  público a la familia, mediante la adopción de medidas que promuevan
                                                                                  la unidad familiar”122.
 
-
 ## 10.2.4 Secuestro internacional de menores
 
-                                                                                 La restitución internacional de NNA es una de los principales deberes
+**Definición Canónica:** La restitución internacional de NNA es una de los principales deberes
+                                                                                 del Estado, como se desprende de los artículos 8 a 11 de la CDN.
+                                                                                 Esta se debe relacionar con la Convención de la Haya, que regula el
+                                                                                 secuestro internacional de niños123 y en su preámbulo y artículo 1
+                                                                                 destac
+**Concordancias Legales:** artículos 8; artículo 1; artículo 3; artículo 225; artículo 49 de la Ley de Protección de Meno; Ley N° 20.680125
+
+La restitución internacional de NNA es una de los principales deberes
                                                                                  del Estado, como se desprende de los artículos 8 a 11 de la CDN.
                                                                                  Esta se debe relacionar con la Convención de la Haya, que regula el
                                                                                  secuestro internacional de niños123 y en su preámbulo y artículo 1
@@ -5514,7 +5762,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 126    Esta discusión se daba en la lógica del derecho de visitas, que exigía para que se pudiese demandar de
 
-                                                restitución inmediata (y se aplicase la convención) que dichas visitas comprendiesen deberes de cuidado.
+**Definición Canónica:** restitución inmediata (y se aplicase la convención) que dichas visitas comprendiesen deberes de cuidado.
+                                                Pues bien, antes de la reforma se discutía sí el padre no custodio, aunque tuviese sólo derecho de visitas,
+                                                por la aplicación de una cláusula ne exeat incorporada por la ley era sujeto activo de la acción de secuestro
+                                                internacional. Así, Lovera y Lennon entendían que la autorización para salida de menores del Chile –que
+                             
+**Concordancias Legales:** artículos 8
+
+restitución inmediata (y se aplicase la convención) que dichas visitas comprendiesen deberes de cuidado.
                                                 Pues bien, antes de la reforma se discutía sí el padre no custodio, aunque tuviese sólo derecho de visitas,
                                                 por la aplicación de una cláusula ne exeat incorporada por la ley era sujeto activo de la acción de secuestro
                                                 internacional. Así, Lovera y Lennon entendían que la autorización para salida de menores del Chile –que
@@ -5528,10 +5783,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos          10. Estudio de los derechos particulares                                151
 
-
 ## 10.2.5. Protección del NNA respecto
 
-                                                             de sus propios padres
+**Definición Canónica:** de sus propios padres
+                                                             El principio del interés superior, en el caso de los NNA en peligro
+                                                             por una decisión de los padres, conduce a que los tribunales deban
+                                                             preferir su protección a cualquiera otra consideración.
+**Concordancias Legales:** artículo 5; artículos 19; Ley Nº 20.680; Ley Nº 20.584; Constitución; Constitución Política; constitucion
+
+de sus propios padres
                                                              El principio del interés superior, en el caso de los NNA en peligro
                                                              por una decisión de los padres, conduce a que los tribunales deban
                                                              preferir su protección a cualquiera otra consideración.
@@ -5580,10 +5840,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                los recurridos […], cédula de identidad Nº […] y […], cédula de
                                                                                identidad Nº […]”128.
 
-
 ## 10.2.6. Protección de la salud del NNA
 
-                                                                               La sentencia de la Corte de Apelaciones de Concepción, de 31 de
+**Definición Canónica:** La sentencia de la Corte de Apelaciones de Concepción, de 31 de
+                                                                               agosto de 2018, aplicando el principio del interés superior, ordena
+                                                                               al Estado proveer un medicamento excluido de la Ley Nº 20.850,
+                                                                               denominada Ricarte Soto. De este modo, el fallo en autos caratulados
+**Concordancias Legales:** artículo 19; artículo 3; Ley Nº 20.850; constitucion
+
+La sentencia de la Corte de Apelaciones de Concepción, de 31 de
                                                                                agosto de 2018, aplicando el principio del interés superior, ordena
                                                                                al Estado proveer un medicamento excluido de la Ley Nº 20.850,
                                                                                denominada Ricarte Soto. De este modo, el fallo en autos caratulados
@@ -5641,10 +5906,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                            Convención de derechos                           10. Estudio de los derechos particulares                               154
                            de niños, niñas y adolecentes                        contenidos en la CDN
 
-
 ## 10.3               Derecho a la
 
-                                                                              participación
+**Definición Canónica:** participación
+**Concordancias Legales:** artículo 14 de la CDN establece este derecho en los siguientes
+
+participación
 
                                                                               Los niños y niñas tienen derecho a la libertad de expresión y a expre-
                                                                               sar su opinión sobre cuestiones que afecten su vida social, económica,
@@ -5676,11 +5943,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                               aceptan el derecho a la libertad religiosa, pero sólo respecto de los
                                                                               adultos, ya que los menores debían seguir la religión de sus padres.
 
-
 ## 130   Véase https://www.unicef.org/spanish/crc/index_30177.html
 
+**Definición Canónica:** Convención de derechos                              10. Estudio de los derechos particulares                                         155
+                           de niños, niñas y adolecentes                           contenidos en la CDN
+**Concordancias Legales:** artículo 14.1 de la CDN impone el deber de respeto; artículo 14.2; artículo 14.3; artículo 18 de la Declaración Universal de Derechos Huma; artículos 3; artículo 16 de la CDN. Este derecho es fundamental; artículo 16 de la Convención; artículos 2.2; artículo 25 del Pacto de Derechos Civiles y Políticos de San; artículo 2.2 de la Convención sobre los Derechos del Niño establ; artículo 37; artículo 13.1 de la CDN; artículo 19.2 del Pacto de Derechos Civiles y Políticos; artículos 15; Artículo 15; Artículo 16
 
-                           Convención de derechos                              10. Estudio de los derechos particulares                                         155
+Convención de derechos                              10. Estudio de los derechos particulares                                         155
                            de niños, niñas y adolecentes                           contenidos en la CDN
 
                                                                                  Ante la oposición de dichos países, que consideraron que el pro-
@@ -5794,16 +6063,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                              arbitrarias o ilegales en su vida privada, su familia, su domicilio o su
                                                              correspondencia ni de ataques ilegales a su honra o a su reputación.
 
-## 2. El niño tiene derechos a la protección de la ley contra esas inje-
-
-                                                             rencias o ataques”.
-
-                           Convención de derechos                            10. Estudio de los derechos particulares                                    158
-
-
 ## 10.4                Ley N° 21.067, que crea la Defensoría
 
-                                                                               de los Derechos de la Niñez
+**Definición Canónica:** de los Derechos de la Niñez
+**Concordancias Legales:** artículo 2.2 de la CDN establece que los Estados; Artículo 403 bis; Artículo 403 ter; Artículo 403; artículo 39 ter; artículo 4; artículo 15; artículo 16; Ley N° 21.013; Ley N° 20.422; Constitución Política; constitucion
+
+de los Derechos de la Niñez
 
                                                                                Esta nueva normativa se promulga en cumplimiento de los tratados
                                                                                internacionales suscritos por Chile en materia de infancia. De hecho,
@@ -5934,16 +6199,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                                                Glosario
 
-
-## 1.   Interés superior del niño: principio jurídico funda-
-
-                                               mental que consiste en proporcionar a los NNA el
-                                               mayor bienestar posible.
-
-
 ## 2.   Derecho a ser oído: principio jurídico que confiere
 
-                                               el derecho a los NNA a ser escuchados por las au-
+**Definición Canónica:** el derecho a los NNA a ser escuchados por las au-
+                                               toridades y a ser tomadas en cuenta sus opinio-
+                                               nes en función de su edad y madurez.
+
+el derecho a los NNA a ser escuchados por las au-
                                                toridades y a ser tomadas en cuenta sus opinio-
                                                nes en función de su edad y madurez.
 
@@ -5954,16 +6216,9 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                general, salvo aplicación del interés superior del
                                                NNA, los adolescentes son capaces.
 
-
-## 4.   Explotación sexual comercial infantil: terminolo-
-
-                                               gía que se usa modernamente para la prostitución
-                                               infantil (ESCI).
-
-
 ## 5.   Derecho de participación: comprende el derecho a
 
-                                               la libertad de expresión y a expresar opinión sobre
+**Definición Canónica:** la libertad de expresión y a expresar opinión sobre
                                                cuestiones que afecten la vida social, económi-
                                                ca, religiosa, cultural y política del individuo. Los
                                                derechos a la participación incluyen el derecho a
@@ -5971,10 +6226,25 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                información y el derecho a la libertad de asocia-
                                                ción.
 
+la libertad de expresión y a expresar opinión sobre
+                                               cuestiones que afecten la vida social, económi-
+                                               ca, religiosa, cultural y política del individuo. Los
+                                               derechos a la participación incluyen el derecho a
+                                               emitir opiniones y a ser escuchado, el derecho a la
+                                               información y el derecho a la libertad de asocia-
+                                               ción.
 
 ## 6.   Derecho a la supervivencia y el desarrollo: son de-
 
-                                               rechos a los recursos, las aptitudes y las contribu-
+**Definición Canónica:** rechos a los recursos, las aptitudes y las contribu-
+                                               ciones necesarias para la supervivencia y el pleno
+                                               desarrollo del niño. Incluyen derechos a recibir una
+                                               alimentación adecuada, vivienda, agua potable,
+                                               educación oficial, atención primaria de la salud,
+                                               tiempo libre y recreación, actividades culturales e
+                                               información 
+
+rechos a los recursos, las aptitudes y las contribu-
                                                ciones necesarias para la supervivencia y el pleno
                                                desarrollo del niño. Incluyen derechos a recibir una
                                                alimentación adecuada, vivienda, agua potable,
@@ -5982,10 +6252,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                tiempo libre y recreación, actividades culturales e
                                                información sobre los derechos.
 
-
 ## 7.   Derecho a la vida: este derecho consiste en tener
 
-                                               derecho a la vida propiamente tal y poder ejercer-
+**Definición Canónica:** derecho a la vida propiamente tal y poder ejercer-
+                                               la y desarrollarla libremente.
+
+derecho a la vida propiamente tal y poder ejercer-
                                                la y desarrollarla libremente.
 
                            Convención de derechos                                                                                                                  163
@@ -6000,14 +6272,24 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 2.   BARBERO, Domenico (1967): Sistema de derecho
 
-                                               privado, tomo II, Derechos de la personalidad, de-             12. CASTILLA, Karlos (2019): “Control de convencio-
+**Definición Canónica:** privado, tomo II, Derechos de la personalidad, de-             12. CASTILLA, Karlos (2019): “Control de convencio-
+                                               recho de familia y derechos reales (Buenos Aires,                  nalidad interamericano: una propuesta de orden
+                                               Ediciones Jurídicas).                                              ante diez años de incertidumbre”, en Revista IIDH,
+                                                                                                                  pp. 87-125.
+
+privado, tomo II, Derechos de la personalidad, de-             12. CASTILLA, Karlos (2019): “Control de convencio-
                                                recho de familia y derechos reales (Buenos Aires,                  nalidad interamericano: una propuesta de orden
                                                Ediciones Jurídicas).                                              ante diez años de incertidumbre”, en Revista IIDH,
                                                                                                                   pp. 87-125.
 
 ## 3.   BARCIA, Rodrigo (2011): Fundamentos del de-
 
-                                               recho de familia e infancia (Santiago de Chile,                13. CILLERO, Miguel (2007): “El interés superior del
+**Definición Canónica:** recho de familia e infancia (Santiago de Chile,                13. CILLERO, Miguel (2007): “El interés superior del
+                                               Editorial Thomson).                                                niño en el marco de la convención internacional
+                                                                                                                  sobre los derechos del niño”, en revista Justicia y
+                                          4.   BARCIA, Rodrigo (2016): “Derechos fundamen-                        Derecho del Niño.
+
+recho de familia e infancia (Santiago de Chile,                13. CILLERO, Miguel (2007): “El interés superior del
                                                Editorial Thomson).                                                niño en el marco de la convención internacional
                                                                                                                   sobre los derechos del niño”, en revista Justicia y
                                           4.   BARCIA, Rodrigo (2016): “Derechos fundamen-                        Derecho del Niño.
@@ -6020,7 +6302,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 15. comité de los derechos del niño de
 
-                                               Chile, Thomson Reuters), pp. 211-220.
+**Definición Canónica:** Chile, Thomson Reuters), pp. 211-220.
+                                                                                                                  NACIONES UNIDAS (2005): Observación General
+                                          5.   BARCIA, Rodrigo (2020): Estructura del derecho                     N° 7. Realización de los derechos del niño en la
+                                               de familia e infancia (Santiago de Chile, Editorial                primera infancia.
+                                               Thomson), en proceso de publicación.
+
+Chile, Thomson Reuters), pp. 211-220.
                                                                                                                   NACIONES UNIDAS (2005): Observación General
                                           5.   BARCIA, Rodrigo (2020): Estructura del derecho                     N° 7. Realización de los derechos del niño en la
                                                de familia e infancia (Santiago de Chile, Editorial                primera infancia.
@@ -6028,13 +6316,24 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 16. comité de los derechos del niño de na-
 
-                                          6.   BARCIA, Rodrigo y MÉNDEZ, Daniela (2010): “El                      CIONES UNIDAS (2009): Observación General N°
+**Definición Canónica:** 6.   BARCIA, Rodrigo y MÉNDEZ, Daniela (2010): “El                      CIONES UNIDAS (2009): Observación General N°
+                                               principio del ejercicio progresivo de los derechos                 12. El derecho del niño a ser escuchado.
+                                               de la infancia y adolescencia desde la perspec-
+
+6.   BARCIA, Rodrigo y MÉNDEZ, Daniela (2010): “El                      CIONES UNIDAS (2009): Observación General N°
                                                principio del ejercicio progresivo de los derechos                 12. El derecho del niño a ser escuchado.
                                                de la infancia y adolescencia desde la perspec-
 
 ## 17.   comité de los derechos del niño de
 
-                                               tiva de dos sentencias paradigmáticas en el
+**Definición Canónica:** tiva de dos sentencias paradigmáticas en el
+                                                                                                                    NACIONES UNIDAS (2013): Observación General
+                                               derecho inglés de la familia”, en Revista Chilena
+                                                                                                                    N° 14. Sobre el derecho del niño a que su interés
+                                               de Derecho de Familia, Centro de Investigaciones
+                                     
+
+tiva de dos sentencias paradigmáticas en el
                                                                                                                     NACIONES UNIDAS (2013): Observación General
                                                derecho inglés de la familia”, en Revista Chilena
                                                                                                                     N° 14. Sobre el derecho del niño a que su interés
@@ -6046,7 +6345,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 7.   BELOFF, Mary (2008): “Los sistemas de respon-
 
-                                                                                                                  implementación de las salas Gesell.
+**Definición Canónica:** implementación de las salas Gesell.
+                                               sabilidad penal juvenil en América Latina”, en
+                                               GARCÍA, Emilio, y BELOFF, Mary (compiladores),                 19.   COUSO, Jaime (2006): “El niño como sujeto de
+                                               Infancia, ley y democracia en América Latina                         derechos y la nueva justicia de familia. Interés
+                                               (Bogotá/Buenos Aires Temis, Depalma), pp. 87-                        superior del niño, autonomía
+
+implementación de las salas Gesell.
                                                sabilidad penal juvenil en América Latina”, en
                                                GARCÍA, Emilio, y BELOFF, Mary (compiladores),                 19.   COUSO, Jaime (2006): “El niño como sujeto de
                                                Infancia, ley y democracia en América Latina                         derechos y la nueva justicia de familia. Interés
@@ -6056,12 +6361,22 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 8.   BEVAN, Hugh (1989): Child Law (London, But-
 
-                                               terworths).                                                    20. CREVILLÉN, Clemente (1995): Derechos de la
+**Definición Canónica:** terworths).                                                    20. CREVILLÉN, Clemente (1995): Derechos de la
+                                                                                                                  personalidad, honor, intimidad personal y fami-
+
+terworths).                                                    20. CREVILLÉN, Clemente (1995): Derechos de la
                                                                                                                   personalidad, honor, intimidad personal y fami-
 
 ## 9.   CARRETTA, Francesco (2018a): “Luces y sombras
 
-                                                                                                                  liar y propia imagen en la jurisprudencia (Madrid,
+**Definición Canónica:** liar y propia imagen en la jurisprudencia (Madrid,
+                                               de las cámaras Gesell en la justicia de familia
+                                                                                                                  Actualidad Editorial SA).
+                                               chilena”, en Revista CES Derecho (9), 1, enero-ju-
+                                               nio, pp. 118-142.                                              21. DÁVILA , Paulí y NAYA GARMENDIA, Luis María
+                                                          
+
+liar y propia imagen en la jurisprudencia (Madrid,
                                                de las cámaras Gesell en la justicia de familia
                                                                                                                   Actualidad Editorial SA).
                                                chilena”, en Revista CES Derecho (9), 1, enero-ju-
@@ -6070,7 +6385,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 10. CARRETTA, Francesco (2018b): “El derecho del
 
-                                                                                                                  cia: una visión internacional”, en Encounters on
+**Definición Canónica:** cia: una visión internacional”, en Encounters on
+                                              niño a ser oído en la justicia de familia: la esen-
+                                                                                                                  Education (Vol. 7), pp. 71-93.
+                                              cialidad del derecho versus la esencialidad del
+                                              trámite de la audiencia confidencial”, en Revista
+                                              Chilena de Derecho (Vol. 45 Nº 2), pp. 407-426.
+
+cia: una visión internacional”, en Encounters on
                                               niño a ser oído en la justicia de familia: la esen-
                                                                                                                   Education (Vol. 7), pp. 71-93.
                                               cialidad del derecho versus la esencialidad del
@@ -6084,12 +6406,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                               dios Infancia y Sociedad, Nº 27-28, Ministerio de             C. (Valladolid, Lex Nova), pp. 223-252.
                                               Asuntos Sociales, pp. 17 a 21 y 58.
 
-## 33. GARCÍA-SAYÁN, Diego (2012): Presentación de
-
-
 ## 23. DENYER, Roderick (1988): Children and Personal              los autores en YAKSIC, Nicolás y LEIVA, Car-
 
-                                              Injury Litigation (Jordan & Sons, Bristol, Gran             la (2012), Digesto de jurisprudencia de la Corte
+**Definición Canónica:** Injury Litigation (Jordan & Sons, Bristol, Gran             la (2012), Digesto de jurisprudencia de la Corte
+                                              Bretaña).                                                   Interamericana de Derechos Humanos (enero de
+                                                                                                          1984-febrero de 2012), Santiago de Chile, Abele-
+                                          24. DIRECCIÓN DE ESTUDIOS DE LA CORTE SU-                       do Perrot y Thomson Reuters.
+                                              PREM
+**Concordancias Legales:** Ley N° 19.585
+
+Injury Litigation (Jordan & Sons, Bristol, Gran             la (2012), Digesto de jurisprudencia de la Corte
                                               Bretaña).                                                   Interamericana de Derechos Humanos (enero de
                                                                                                           1984-febrero de 2012), Santiago de Chile, Abele-
                                           24. DIRECCIÓN DE ESTUDIOS DE LA CORTE SU-                       do Perrot y Thomson Reuters.
@@ -6110,24 +6436,26 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                               de las normas y principios de la Ley N° 19.585                nos fundamentales y problemas actuales de su
                                               (Santiago, Sernam).                                           actual normativa (Santiago de Chile, Librotecnia).
 
-
-## 27.   FARKAS, Chamarrita (2008): “Comunicación ges-         38. GUASP, Jaime y ARAGONESE, Pedro (1998): De-
-
-                                                tual en la infancia temprana: una revisión de su          recho procesal civil (Pamplona, Civitas).
-                                                desarrollo, relación con el lenguaje e implicancias
-
 ## 39. GUASTINI, Riccardo (2013): Distinguendo ancora
 
-                                                de su intervención”, en Revista Psykhe Vol. 2 N°
+**Definición Canónica:** de su intervención”, en Revista Psykhe Vol. 2 N°
                                                                                                           (Madrid, Marcial Pons).
                                                 16, pp. 107-115.
 
-## 40. HERRERO, María José (1984): “Algunas consi-
-
+de su intervención”, en Revista Psykhe Vol. 2 N°
+                                                                                                          (Madrid, Marcial Pons).
+                                                16, pp. 107-115.
 
 ## 28. FERRADA, Ricardo (1996): “El juez y la interpreta-
 
-                                                                                                          deraciones sobre la protección de la vivienda
+**Definición Canónica:** deraciones sobre la protección de la vivienda
+                                              ción y desarrollo de las cláusulas generales”, en
+                                                                                                          familiar en el Código Civil”, en Estudio de Dere-
+                                              Revista de Derecho de la Universidad Católica de
+                                                                                                          cho civil en homenaje al profesor J. Beltrán de
+                                              Valpara
+
+deraciones sobre la protección de la vivienda
                                               ción y desarrollo de las cláusulas generales”, en
                                                                                                           familiar en el Código Civil”, en Estudio de Dere-
                                               Revista de Derecho de la Universidad Católica de
@@ -6135,12 +6463,16 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                               Valparaíso XVII, pp. 229-237.
                                                                                                           Heredia y Castaño, pp. 291-340.
 
-## 29. FREEMAN, Michael (2007): “Article 3: The Best
-
-
 ## 41. HOIKKALA, Susanna y PÖSÖ, Tarja (2020): “The
 
-                                              Interests of the Child”, en A Commentary on the
+**Definición Canónica:** Interests of the Child”, en A Commentary on the
+                                                                                                          documented layer of children’s rights in care
+                                              United Nations Convention on the Rights of the
+                                                                                                          order decision-making”, en Child & Family Social
+                                              Child, editors André ALEN, Johan VANDE LANO-
+                                                             
+
+Interests of the Child”, en A Commentary on the
                                                                                                           documented layer of children’s rights in care
                                               United Nations Convention on the Rights of the
                                                                                                           order decision-making”, en Child & Family Social
@@ -6161,7 +6493,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 31. FUENZALIDA, Daniela (2017): “Estatuto jurídico
 
-                                                                                                          Convention on the Rights of the Child, Editors
+**Definición Canónica:** Convention on the Rights of the Child, Editors
+                                              del NNA con capacidades diferentes mentales
+                                                                                                          André ALEN, Johan VANDE LANOTTE, Eugeen
+                                              o físicas. Niños, niñas y adolescentes migrantes
+                                                                                                          VERHELLEN, Fiona ANG, Eva BERGHMANS, Mie-
+                                              en Chile: derecho y justicia
+
+Convention on the Rights of the Child, Editors
                                               del NNA con capacidades diferentes mentales
                                                                                                           André ALEN, Johan VANDE LANOTTE, Eugeen
                                               o físicas. Niños, niñas y adolescentes migrantes
@@ -6172,11 +6511,11 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
                                                                                                           Boston, Martinus Nijhoff Publishers).
                                               y adolescencia, Universidad de Chile.
 
-
 ## 32. GARCÍA, J. (2009): “Crisis matrimoniales y dere-
 
+**Definición Canónica:** Convención de derechos                                                      Bibliografía                                             165
 
-                           Convención de derechos                                                      Bibliografía                                             165
+Convención de derechos                                                      Bibliografía                                             165
 
                                           44. KOHM, Lisa (2008): “Tracing the Foundations                    del delincuente: estigmas y estereotipos”, en IX
                                               of the Best Interests of the Child Standard in                 Jornadas de Sociología, Facultad de Ciencias
@@ -6196,25 +6535,42 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 47. LUZZATI, Claudio (2012): Principi e principi. La             “Acuerdos pre y posmatrimoniales. Conceptos y
 
-                                              genericità nel diritto (Torino, Giappichelli Editore).       modelos de regulación”, en Revista de Derecho
+**Definición Canónica:** genericità nel diritto (Torino, Giappichelli Editore).       modelos de regulación”, en Revista de Derecho
                                                                                                            Vol. XXIX Nº 2 (diciembre), pp. 131-155.
 
+genericità nel diritto (Torino, Giappichelli Editore).       modelos de regulación”, en Revista de Derecho
+                                                                                                           Vol. XXIX Nº 2 (diciembre), pp. 131-155.
 
 ## 48. MACCORMICK, Neil (1982): “Children’s Rights: A
 
-                                              Test-Case for Theories of Right”, en Legal Right         59. ROCA TRÍAS, Encarna (1994): “Contestatió”, en
+**Definición Canónica:** Test-Case for Theories of Right”, en Legal Right         59. ROCA TRÍAS, Encarna (1994): “Contestatió”, en
+                                              and Social Democracy: Essays in Legal and Poli-              Revista Jurídica de Cataluña Nº 4, 1994.
+                                              tical Philosophy (Oxford, Clarendon Press).
+
+Test-Case for Theories of Right”, en Legal Right         59. ROCA TRÍAS, Encarna (1994): “Contestatió”, en
                                               and Social Democracy: Essays in Legal and Poli-              Revista Jurídica de Cataluña Nº 4, 1994.
                                               tical Philosophy (Oxford, Clarendon Press).
 
 ## 60. RODRÍGUEZ, María José (2012): “El código penal
 
-                                          49. MACCORMICK, Neil (2007): Intitutions of Law                  y la explotación sexual comercial infantil”, en
+**Definición Canónica:** 49. MACCORMICK, Neil (2007): Intitutions of Law                  y la explotación sexual comercial infantil”, en
+                                              (Oxford University Press).                                   Estudios penales y criminológicos Vol. XXXII, pp.
+                                                                                                           197-246.
+
+49. MACCORMICK, Neil (2007): Intitutions of Law                  y la explotación sexual comercial infantil”, en
                                               (Oxford University Press).                                   Estudios penales y criminológicos Vol. XXXII, pp.
                                                                                                            197-246.
 
 ## 50. NASH, Claudio (2013): “Control de convencionali-
 
-                                              dad. Precisiones conceptuales y desafíos a la luz        61. SCHAUER, Frederick (1991): Playing by the Rules
+**Definición Canónica:** dad. Precisiones conceptuales y desafíos a la luz        61. SCHAUER, Frederick (1991): Playing by the Rules
+                                              de la jurisprudencia de la Corte Interamericana              (Oxford, Clarendon Law Series).
+                                              de Derechos Humanos”, en Anuario de Derecho
+                                              Constitucional Latinoamericano (Año XIX, Bogo-           62. TORO, Mauricio (2006): “El fenómeno del soft law
+                                              tá), pp. 489-509.                                           
+**Concordancias Legales:** Constitucion
+
+dad. Precisiones conceptuales y desafíos a la luz        61. SCHAUER, Frederick (1991): Playing by the Rules
                                               de la jurisprudencia de la Corte Interamericana              (Oxford, Clarendon Law Series).
                                               de Derechos Humanos”, en Anuario de Derecho
                                               Constitucional Latinoamericano (Año XIX, Bogo-           62. TORO, Mauricio (2006): “El fenómeno del soft law
@@ -6228,7 +6584,14 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 64. VALDIVIESO, Patricio (2006): Dignidad humana
 
-                                              asegurar constitucionalmente los derechos de los
+**Definición Canónica:** asegurar constitucionalmente los derechos de los
+                                                                                                           y justicia: la historia de Chile, la política social y
+                                              niños”, en Ius et Praxis Vol. 23 N° 2, pp. 415-462.
+                                                                                                           el cristianismo 1880-1920 (Santiago, Ediciones
+                                          52. OLANO, Hernán (2016): “Teoría del control de                 Universidad Católica de Chile)
+**Concordancias Legales:** constitucion
+
+asegurar constitucionalmente los derechos de los
                                                                                                            y justicia: la historia de Chile, la política social y
                                               niños”, en Ius et Praxis Vol. 23 N° 2, pp. 415-462.
                                                                                                            el cristianismo 1880-1920 (Santiago, Ediciones
@@ -6237,7 +6600,13 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 65. VARAS, Juan Andrés (2009): “Decisiones vitales
 
-                                              Año 14(1), pp. 61-94.
+**Definición Canónica:** Año 14(1), pp. 61-94.
+                                                                                                           y representación parental: fundamento y límites”,
+                                          53. ORNELAS, Aracely (2020): “La concepción de la                en Estudios Derecho Civil V, Jornadas Nacionales
+                                              relación entre el Estado, los padres y el niño en            de Derecho Civil, Concepción, (Santiago de Chile,
+                                              los trabajos preparatorios de la Convención sobre            A
+
+Año 14(1), pp. 61-94.
                                                                                                            y representación parental: fundamento y límites”,
                                           53. ORNELAS, Aracely (2020): “La concepción de la                en Estudios Derecho Civil V, Jornadas Nacionales
                                               relación entre el Estado, los padres y el niño en            de Derecho Civil, Concepción, (Santiago de Chile,
@@ -6246,17 +6615,27 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 66. VARGAS, Macarena (2011): “La voz de los niños
 
-                                              (2020): Convención internacional de los derechos
+**Definición Canónica:** (2020): Convención internacional de los derechos
                                                                                                            en la justicia de familia de Chile”, en Ius et praxis,
                                               del niño (Santiago, Thomson Reuters), pp. 85-113.
                                                                                                            Nº 17-1, enero 2011, pp. 177-204.
 
-## 54. QUESADA, María Corona (1994): “De nuevo las
-
+(2020): Convención internacional de los derechos
+                                                                                                           en la justicia de familia de Chile”, en Ius et praxis,
+                                              del niño (Santiago, Thomson Reuters), pp. 85-113.
+                                                                                                           Nº 17-1, enero 2011, pp. 177-204.
 
 ## 67.   VERHELLEN, Eugeen (1994): Convention on the
 
-                                              pruebas biológicas, a propósito de la Sentencia
+**Definición Canónica:** pruebas biológicas, a propósito de la Sentencia
+                                                                                                             Rights of the Child; Background, Motivation,
+                                              del Tribunal Constitucional 7/1994, de 17 de ene-
+                                                                                                             Strategies, Main Themes (N. V., Belgium).
+                                              ro”, en Revista Jurídica de Catalunya, Vol. 93, Nº 3,
+                                              pp. 6
+**Concordancias Legales:** Constitucion
+
+pruebas biológicas, a propósito de la Sentencia
                                                                                                              Rights of the Child; Background, Motivation,
                                               del Tribunal Constitucional 7/1994, de 17 de ene-
                                                                                                              Strategies, Main Themes (N. V., Belgium).
@@ -6266,8 +6645,9 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 55. RAMOS, Luciana (2011): “La construcción visual
 
+**Definición Canónica:** Convención de derechos                                                    Bibliografía                                          166
 
-                           Convención de derechos                                                    Bibliografía                                          166
+Convención de derechos                                                    Bibliografía                                          166
 
                                                Sentencias citadas                                    2.    Directrices para el diseño de estrategias de ac-
                                                                                                            ción directa para combatir la explotación sexual
@@ -6280,7 +6660,15 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 3.   Segal con Levi (2011): Corte de Apelaciones de
 
-                                                                                                           comunicaciones (2011)
+**Definición Canónica:** comunicaciones (2011)
+                                               San Miguel, de 7 de diciembre del 2011 (recur-
+                                                                                                           https://www.bienestaryproteccioninfantil.es/ima-
+                                               so de casación en la forma), en rol N° 773-11,
+                                                                                                           genes/tablaContenidos03SubSec/Resolucion-
+                                               MJJ36106.
+                            
+
+comunicaciones (2011)
                                                San Miguel, de 7 de diciembre del 2011 (recur-
                                                                                                            https://www.bienestaryproteccioninfantil.es/ima-
                                                so de casación en la forma), en rol N° 773-11,
@@ -6290,50 +6678,73 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
 ## 4.   Clínica Bío Bío S.A. con Bustos y otro (2015): Cor-         pdf
 
-                                               te de Apelaciones de Concepción, 9 de octubre
+**Definición Canónica:** te de Apelaciones de Concepción, 9 de octubre
                                                del 2015 (recurso de protección), en rol N° 6735-
                                                15, MJJ42608.
                                                                                                            Normativa chilena
 
+te de Apelaciones de Concepción, 9 de octubre
+                                               del 2015 (recurso de protección), en rol N° 6735-
+                                               15, MJJ42608.
+                                                                                                           Normativa chilena
 
 ## 5.   Caso X con X (2016): Corte Suprema, rol de ingre-
 
-                                               so N° 38.337, de 12 de Julio de 2016.                 1.    Auto Acordado de la Excma. Corte Suprema N°
+**Definición Canónica:** so N° 38.337, de 12 de Julio de 2016.                 1.    Auto Acordado de la Excma. Corte Suprema N°
+                                                                                                           205, de 3 de diciembre del 2015.
+
+so N° 38.337, de 12 de Julio de 2016.                 1.    Auto Acordado de la Excma. Corte Suprema N°
                                                                                                            205, de 3 de diciembre del 2015.
 
 ## 6.   Fuentealba con Hospital Las Higueras de Talca-
 
-                                               huano y otros (2018): Corte de Apelaciones de         2.    Auto Acordado de la Excma. Corte Suprema N°
+**Definición Canónica:** huano y otros (2018): Corte de Apelaciones de         2.    Auto Acordado de la Excma. Corte Suprema N°
+                                               Concepción, 31 de agosto de 2018, (recurso de               325, de 30 de diciembre del 2015.
+                                               protección), en rol N° 3459-18, MJJ56979.
+
+huano y otros (2018): Corte de Apelaciones de         2.    Auto Acordado de la Excma. Corte Suprema N°
                                                Concepción, 31 de agosto de 2018, (recurso de               325, de 30 de diciembre del 2015.
                                                protección), en rol N° 3459-18, MJJ56979.
 
 ## 3.    Circular N° 1.179, 28 de enero de 2003, del Depar-
 
-                                          7.   CIDH: Caso Niñas Yean y Bosico vs. República                tamento de Extranjería y Migración.
+**Definición Canónica:** 7.   CIDH: Caso Niñas Yean y Bosico vs. República                tamento de Extranjería y Migración.
+                                               Dominicana Serie C Nº 130 Serie C Nº 156, 23 de
+                                               noviembre de 2006.                                    4.    Circular Nº A-15 06, 9 de junio de 2015, del Minis-
+                                                                                                           terio de Salud.
+
+7.   CIDH: Caso Niñas Yean y Bosico vs. República                tamento de Extranjería y Migración.
                                                Dominicana Serie C Nº 130 Serie C Nº 156, 23 de
                                                noviembre de 2006.                                    4.    Circular Nº A-15 06, 9 de junio de 2015, del Minis-
                                                                                                            terio de Salud.
 
 ## 8.   ECHR: Caso Khusnutdinov and X v. Russia, ECHR
 
-                                               435 (2018), de 18 de diciembre de 2018, disponi-      5.    Constitución Política de la Republica, 22 de
+**Definición Canónica:** 435 (2018), de 18 de diciembre de 2018, disponi-      5.    Constitución Política de la Republica, 22 de
+                                               ble en https://hudoc.echr.coe.int/                          septiembre de 2005 del Ministerio Secretaria
+                                                                                                           General de la Presidencia.
+**Concordancias Legales:** Constitución Política
+
+435 (2018), de 18 de diciembre de 2018, disponi-      5.    Constitución Política de la Republica, 22 de
                                                ble en https://hudoc.echr.coe.int/                          septiembre de 2005 del Ministerio Secretaria
                                                                                                            General de la Presidencia.
 
 ## 9.   ECHR: Caso S.L. AND J. L. v. Croatia, ECHR 153
 
-                                               (2015) de 7 de mayo de 2015, disponible en ht-        6.    Convención Americana de Derechos Huma-
+**Definición Canónica:** (2015) de 7 de mayo de 2015, disponible en ht-        6.    Convención Americana de Derechos Huma-
                                                tps://hudoc.echr.coe.int/.                                  nos-OEA, San José, 22 de noviembre de 1969.
 
-
-## 10. CIDH: Caso Fornerón e Hija vs. Argentina, Serie C      7.    Convención de la Haya que regula el secuestro
-
-                                              Nº 242, de 1 de octubre de 2011.                             internacional de niños
-
+(2015) de 7 de mayo de 2015, disponible en ht-        6.    Convención Americana de Derechos Huma-
+                                               tps://hudoc.echr.coe.int/.                                  nos-OEA, San José, 22 de noviembre de 1969.
 
 ## 8.    Convención Internacional sobre la protección de
 
-                                                                                                           los derechos de todos los trabajadores migrato-
+**Definición Canónica:** los derechos de todos los trabajadores migrato-
+                                                                                                           rios y de sus familiares-ONU: Asamblea General,
+                                               Instrumentos internacionales                                Nueva York, 18 de diciembre de 1990.
+**Concordancias Legales:** Ley N° 1.094
+
+los derechos de todos los trabajadores migrato-
                                                                                                            rios y de sus familiares-ONU: Asamblea General,
                                                Instrumentos internacionales                                Nueva York, 18 de diciembre de 1990.
 
@@ -6353,38 +6764,12 @@ Santiago,                 y leyes, siendo autor de diversos liChile 2020        
 
                            Convención de derechos                                                    Bibliografía   167
 
-
-## 12. Oficio circular Nº 6.232, 26 de mayo de 2003 del
-
-                                              Departamento de Extranjería y Migración.
-
-                                          13. Opinión Consultiva OC-21/14 de la Corte IDH.
-
-
 ## 14. Resolución Exenta N° 3.207 que Instruye sobre
 
-                                              anotación que indica, agosto 2014 del Ministerio
+**Definición Canónica:** anotación que indica, agosto 2014 del Ministerio
                                               de Justicia y Servicio de Registro Civil e Identifi-
                                               cación.
 
-
-## 15. Resolución Exenta, 9 de abril de 2008 del Depar-
-
-                                              tamento de Extranjería y Migración.
-
-                           Convención de derechos          Bibliografía   168
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl
+anotación que indica, agosto 2014 del Ministerio
+                                              de Justicia y Servicio de Registro Civil e Identifi-
+                                              cación.

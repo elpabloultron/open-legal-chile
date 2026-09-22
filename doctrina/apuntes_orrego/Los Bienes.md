@@ -15,6 +15,12 @@ extraccion: pdftotext
 
 ## Los bienes1
 
+**Definición Canónica:** Sumario:
+1.- Conceptos fundamentales
+a) Puntos de vista para estudiar los bienes
+b) Los bienes y su pertenencia al ámbito de los derechos reales
+c) Distinción entre cosa y bien
+2.- Clasificaciones de las cosas: razones prácticas y criterios
 
 Sumario:
 1.- Conceptos fundamentales
@@ -23,13 +29,15 @@ b) Los bienes y su pertenencia al ámbito de los derechos reales
 c) Distinción entre cosa y bien
 2.- Clasificaciones de las cosas: razones prácticas y criterios
 
-## 2.1. Cosas corporales e incorporales
-
-a) Críticas a la clasificación
-b) Los bienes incorporales
-c) Los bienes corporales
-
 ## 2.2. Bienes muebles e inmuebles
+
+**Definición Canónica:** a) Aspectos generales
+b) Importancia práctica de la distinción entre bienes muebles e inmuebles
+c) categorías de cosas corporales muebles e inmuebles
+d) Cosas corporales muebles
+e) Cosas corporales inmuebles
+f) Derechos muebles e inmuebles
+g) Acciones reales o personales, muebles e inmuebles
 
 a) Aspectos generales
 b) Importancia práctica de la distinción entre bienes muebles e inmuebles
@@ -39,19 +47,13 @@ e) Cosas corporales inmuebles
 f) Derechos muebles e inmuebles
 g) Acciones reales o personales, muebles e inmuebles
 
-## 2.3. Cosas específicas y genéricas
-
-a) Conceptos
-b) Importancia de la clasificación
-
-## 2.4. Cosas consumibles y no consumibles
-
-a) Las cosas muebles se dividen en consumibles y no consumibles
-b) Consumibilidad y no consumibilidad objetiva
-c) Consumibilidad y no consumibilidad subjetiva
-d) Bienes deteriorables y corruptibles
-
 ## 2.5. Cosas fungibles y no fungibles
+
+**Definición Canónica:** a) Concepto
+b) Fungibilidad objetiva
+c) Relación entre las cosas genéricas y las cosas fungibles
+d) Relación entre la consumibilidad y la fungibilidad
+e) Fungibilidad subjetiva o por voluntad de las partes
 
 a) Concepto
 b) Fungibilidad objetiva
@@ -59,27 +61,9 @@ c) Relación entre las cosas genéricas y las cosas fungibles
 d) Relación entre la consumibilidad y la fungibilidad
 e) Fungibilidad subjetiva o por voluntad de las partes
 
-## 2.6. Cosas principales y accesorias
-
-a) Concepto
-b) Criterios para determinar la cosa principal y accesoria
-c) Importancia de la clasificación
-
-## 2.7. Cosas divisibles e indivisibles
-
-a) Concepto
-b) Divisibilidad del derecho de dominio
-c) Importancia práctica de la clasificación
-
-## 2.8. Cosas presentes y futuras
-
-
-## 2.9. Cosas singulares y universales
-
-a) Conceptos
-b) Clases de cosas universales
-
 ## 2.10. Cosas comerciables e incomerciables
+
+**Definición Canónica:** a) Conceptos
 
 a) Conceptos
 
@@ -90,15 +74,14 @@ a) Conceptos
 c) Limitaciones a la facultad de disposición
 d) Las cosas consagradas al culto divino
 
-## 2.11. Cosas apropiables e inapropiables
-
-
-## 2.12. Cosas particulares y nacionales
-
-a) Conceptos
-b) Clases de bienes nacionales
-
 ## 2.13. Cosas registrables y no registrables
+
+**Definición Canónica:** a) Conceptos
+b) Clases de bienes registrales
+c) Razones por las que se exige el registro de ciertos bienes.
+2.14. Cosas valiosas o preciosas y cosas de poca monta o escaso valor.
+Cuestionario.
+**Concordancias Legales:** artículo 584 del Código Civil; artículos 565; artículo 19; artículo 565; artículo 576; Constitución Política
 
 a) Conceptos
 b) Clases de bienes registrales
@@ -263,6 +246,16 @@ e incorporales y luego se consagró en las Instituciones de Justiniano. En sus
 “Instituciones”, Gayo dirá: “12. Hay, además, cosas corporales y cosas incorporales.
 
 ## 13. Las cosas corporales son las que se pueden tocar, como un fundo, un esclavo, un
+
+**Definición Canónica:** vestido, el oro, la plata, y otras innumerables cosas. 14. Las cosas incorporales son las
+que no se pueden tocar, pues su consistencia proviene del derecho; esto es, la
+herencia, el usufructo, las obligaciones que se han contraído, no importa cómo. Y no
+viene al caso que haya incluidas en una herencia cosas corporales, ni que sean
+corporales los frutos que se perciben de un fundo, ni tampoco lo que se nos debe por
+alguna obligación, aunque la mayoría de todas esas cosas sean corporales, como los
+fundos, los esclavos, el dinero, puesto que el derecho mismo de la sucesión, el derecho
+de usufruct
+**Concordancias Legales:** artículos 576; artículo 576; artículos 577; Ley N° 20.930
 
 vestido, el oro, la plata, y otras innumerables cosas. 14. Las cosas incorporales son las
 que no se pueden tocar, pues su consistencia proviene del derecho; esto es, la
@@ -519,6 +512,16 @@ determinados (excepcionalmente, puede ocurrir que no lo estén, sino hasta que s
 haga efectivo el cobro o el pago de la obligación. Así, por ejemplo, el acreedor de un
 
 ## título de crédito al portador, estará indeterminado hasta el momento en que se
+
+**Definición Canónica:** presente un tenedor legítimo del mismo y lo cobre; o el deudor de una obligación
+consistente en gastos comunes o contribuciones de un inmueble, será aquél que
+detente el dominio del predio, cuando el acreedor exija el pago).
+b.3.2) En cuanto al objeto de la relación jurídica:
+        Dos implicancias cabe mencionar: en cuanto al contenido del objeto, y en
+cuanto a la determinación de la cosa.
+        En cuanto al contenido del objeto:
+i.- El objeto del derecho real es necesariamente una cosa.
+**Concordancias Legales:** artículos 1437; artículo 566; artículos 1443; artículo 686; artículo 684; artículos 393; artículos 2384; artículos 668; artículos 1916; artículo 1727; artículo 567; artículos 580; Ley Nº 18.101; Ley Nº 16.640; Ley Nº 3.516; Ley N° 18.101; Ley N° 16.640; constitución
 
 presente un tenedor legítimo del mismo y lo cobre; o el deudor de una obligación
 consistente en gastos comunes o contribuciones de un inmueble, será aquél que
@@ -1782,6 +1785,14 @@ natural. Son cosas intelectualmente divisibles aquellas que pueden dividirse en
 
 ## parte ideales o imaginarias (cuotas), aunque no lo puedan ser materialmente. Desde
 
+**Definición Canónica:** este punto de vista, todos los bienes corporales e incorporales, son intelectualmente
+divisibles. Los derechos, en razón de su misma naturaleza, sólo son susceptibles de
+división intelectual y no material. Sin embargo, hay algunos derechos que no admiten
+ni siquiera una división intelectual, como acontece con la servidumbre, pues se tiene
+íntegramente este derecho o no se tiene en absoluto (arts. 826 y 827). Los derechos
+de prenda y de hipoteca también son indivisibles (arts. 2405 y 2408) pero nada impide
+que las partes pacten divisibilidad. Los derechos personales son divisibles o indivisible
+
 este punto de vista, todos los bienes corporales e incorporales, son intelectualmente
 divisibles. Los derechos, en razón de su misma naturaleza, sólo son susceptibles de
 división intelectual y no material. Sin embargo, hay algunos derechos que no admiten
@@ -1877,6 +1888,10 @@ esperando que lleguen a existir en un cierto plazo. Las segundas son aquellas qu
 bien existen en el momento en que se otorga o celebra el acto jurídico, no forman
 
 ## parte del patrimonio de la persona que se obliga o que impone una obligación a un
+
+**Definición Canónica:** tercero, esperando que más adelante quien se obliga efectivamente adquiera el
+dominio de dicha cosa y se pueda entonces cumplir la obligación.
+**Concordancias Legales:** artículo 1618; artículo 1864; artículo 1984; Ley Nº 20.190; Ley N° 2.695
 
 tercero, esperando que más adelante quien se obliga efectivamente adquiera el
 dominio de dicha cosa y se pueda entonces cumplir la obligación.
@@ -2151,6 +2166,13 @@ consagradas”, entendiéndose por tales los bienes muebles e inmuebles que medi
 la consagración o bendición han sido dedicadas al culto divino. El art. 587, por su
 
 ## parte, deja en claro que estos bienes, ubicados en posesiones particulares, son bienes
+
+**Definición Canónica:** comerciables. Finalmente, el art. 1105 se refiere al legado de cosas pertenecientes al
+culto divino. También hay remisión al Derecho canónico. Este admite que los
+particulares puedan tener en dominio las cosas consagradas al culto divino, siempre
+que sean tratadas con reverencia y sin que se las pueda aplicar a usos profanos o
+impropios.
+**Concordancias Legales:** artículos 599; Artículo 64; Artículo 65; artículo 595; artículo 6; artículos 686; artículo 1735; artículo 2; Ley N° 18.695; Ley N° 1.939; Ley N° 2.222; Ley N° 18.916; Ley Nº 1.939; Ley N° 16.271; Ley N° 17.235; Ley N° 20.000; Ley N° 21.577; Ley N° 21.442; Ley N° 19.496; Ley N° 19.886; Ley Nº 2.222; Ley N° 18.290; Ley N° 3.918; Ley N° 18.046; Ley N° 17.798; Ley N° 19.039; Ley N° 17.336; Ley N° 21.020; Ley N° 2.695; Ley Nº 16.271; Ley N° 16.291; DL N° 1.939; Constitucion; constitución; Constitución Política
 
 comerciables. Finalmente, el art. 1105 se refiere al legado de cosas pertenecientes al
 culto divino. También hay remisión al Derecho canónico. Este admite que los

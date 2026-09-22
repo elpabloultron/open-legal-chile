@@ -13,19 +13,13 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Ley de
+             Identidad de
+             Género
 
-             Ley de
+Ley de
              Identidad de
              Género
 
@@ -35,19 +29,15 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Ximena
+                             Gauché
+                             Marchetti
+                         Doctora en derecho por la Universidad
+                         Autónoma de Madrid, es profesora de
 
-                         Ximena
+Ximena
                              Gauché
                              Marchetti
                          Doctora en derecho por la Universidad
@@ -72,13 +62,12 @@ docente Nº 28            de la Sociedad Chilena de Derecho InterSantiago,      
 Chile 2021               periodo en 2019. Forma parte de la red
                          académica ALAS (Academia, Género,
 
-## Isbn n°
-
-                         Derecho y Sexualidad).
-
 ## 2022-a-1846
 
-Ley de Identidad                                                                                          3
+**Definición Canónica:** Ley de Identidad                                                                                          3
+**Concordancias Legales:** Ley Nº 21.120
+
+Ley de Identidad                                                                                          3
 
                                         Este material docente fue elaborado por Ximena Gauché Marchetti
                                         en marzo de 2021.
@@ -125,182 +114,56 @@ Chile 2021               periodo en 2019. Forma parte de la red
 
                                         Introducción                                                                                                  7
 
-
-## 1. Marco teórico y conceptual sobre sexualidad e identidad de género                                        12
-
-
-
-## 1.1 Perspectivas culturales de análisis de la sexualidad humana                                          13
-
-
-
-## 1.1.1 La sexualidad en las manifestaciones cotidianas de la cultura humana                          14
-
-
-
 ## 1.1.2 La mirada desde los discursos científicos que explican la realidad social                     18
 
-
-                                           1.2 Aspectos biológicos, afectivos y sociales de la sexualidad humana. Hablando de sexo,
+**Definición Canónica:** 1.2 Aspectos biológicos, afectivos y sociales de la sexualidad humana. Hablando de sexo,
                                                de orientación sexual y de identidad de género.                                                      30
 
-
-## 1.2.1 La variedad infinita de la diversidad sexual                                                  30
-
-
-
-## 1.2.2 El sexo de las personas y sus distintas expresiones                                           32
-
-
-
-## 1.2.3 La orientación sexual                                                                         35
-
-
-
-## 1.2.4 Identidad de género                                                                           37
-
-
-
-## 1.3 Identidad de género                                                                                  39
-
-
-
-## 1.3.1 El concepto de identidad                                                                      39
-
-
-
-## 1.3.2 La diversidad en la identidad de género                                                       45
-
-
-
-## 1.3.3 Algunas precisiones conceptuales                                                               51
-
-
-
-## 1.4 Identidad de género en niños, niñas y adolescentes                                                   54
-
-
-
-## 2. Estándares internacionales para la protección del derecho a la identidad de género                       59
-
-
-
-## 2.1 La igualdad y la prohibición de discriminación en el derecho internacional de los derechos humanos   60
-
-
-
-## 2.1.1 Igualdad y no discriminación en los Pactos internacionales de 1966                            66
-
-
-
-## 2.1.2 Igualdad y no discriminación en el sistema interamericano                                      71
-
-
+1.2 Aspectos biológicos, afectivos y sociales de la sexualidad humana. Hablando de sexo,
+                                               de orientación sexual y de identidad de género.                                                      30
 
 ## 2.2 Principales instrumentos internacionales y el trabajo de órganos internacionales en los sistemas
 
-                                               universal e interamericano de protección de derechos humanos para el reconocimiento del derecho
+**Definición Canónica:** universal e interamericano de protección de derechos humanos para el reconocimiento del derecho
                                                a la identidad de género.                                                                            80
 
+universal e interamericano de protección de derechos humanos para el reconocimiento del derecho
+                                               a la identidad de género.                                                                            80
 
 ## 2.2.1 Evolución y desarrollos en el sistema universal y europeo de derechos humanos en torno
 
-                                                      a la orientación sexual y la identidad de género. Criterios y estándares fijados.             80
+**Definición Canónica:** a la orientación sexual y la identidad de género. Criterios y estándares fijados.             80
+
+a la orientación sexual y la identidad de género. Criterios y estándares fijados.             80
 
                                                 2.2.2 El sistema interamericano de derechos humanos en relación a la identidad de género.
                                                       Criterios y estándares fijados.                                                               84
 
-
-## 2.3 Estándares internacionales sobre identidad de género y su aplicabilidad para el Poder Judicial       109
-
-
-                                        3. Ley Nº 21.120, que reconoce y da protección al derecho a la identidad de género                          115
-
-
-## 3.1 La realidad de las personas trans en Chile                                                           116
-
-Ley de Identidad                                                                                                                                                6
-
-
-## 3.2 La protección constitucional a la identidad de género y jurisprudencia chilena sobre identidad
-
-                                                de género ante tribunales superiores y el Tribunal Constitucional, a 2020                                 121
-
-
-## 3.3 Antecedentes generales sobre el origen de la idea de legislar en la materia, los fundamentos
-
-                                                del proyecto de ley y la tramitación legislativa                                                          124
-
-
-## 3.3.1 Del origen y contexto de la idea de legislar en materia de identidad de género                     124
-
-
-
-## 3.3.2 De los fundamentos para la idea de legislar y las consideraciones tenidas en vista para elaborar
-
-                                                       el proyecto original                                                                               125
-
-
-## 3.3.3 De algunos aspectos de la tramitación legislativa                                                  125
-
-
-                                           3.4 Contenido de la Ley Nº 21.120                                                                              129
-
-
-## 3.4.1 Definición de identidad de género en la Ley Nº 21.120 y elementos para la apreciación judicial     129
-
-
-
-## 3.4.2 Principios relativos al derecho a la identidad de género                                           139
-
-
-
-## 3.4.3 Garantías asociadas al derecho a çla identidad de género                                           140
-
-
-
-## 3.4.5 Procedimientos de solicitud de reconocimiento previstos en la Ley Nº 21.120                        142
-
-
-
-## 3.4.6 Efectos de la rectificación de partida de nacimiento                                               142
-
-
-                                           3.5 De los procedimientos ante tribunales de justicia                                                          143
-
-
-## 3.5.1 Del procedimiento judicial para mayores de 14 años y menores de 18                                 143
-
-
-
 ## 3.5.2 Del procedimiento judicial para personas solicitantes con vínculo matrimonial vigente              155
 
+**Definición Canónica:** 3.6 El derecho a la identidad de género de personas menores de 14 años                                         157
+**Concordancias Legales:** Ley Nº 21.120
 
-                                           3.6 El derecho a la identidad de género de personas menores de 14 años                                         157
+3.6 El derecho a la identidad de género de personas menores de 14 años                                         157
 
                                            3.7 Jurisprudencia chilena relevante sobre Ley Nº 21.120                                                       165
 
-
-## 3.7.1 Información estadística                                                                            165
-
-
-
-## 3.7.2 Lineamientos jurisprudenciales                                                                     167
-
-
-
 ## 3.8 Referencias a otros Estados que establecen procedimientos para el reconocimiento de la identidad
 
-                                               de género de personas trans                                                                                180
+**Definición Canónica:** de género de personas trans                                                                                180
+
+de género de personas trans                                                                                180
 
                                         4. Políticas y estrategias del Poder Judicial asociadas a la identidad de género                                  181
 
                                            4.1 Política de Igualdad de Género y No discriminación del Poder Judicial chileno                              182
 
-
 ## 4.2 Acceso a la justicia de personas trans. Diferentes miradas desde las diversas funciones de
 
-                                                las personas integrantes del Poder Judicial: una propuesta concreta.                                      185
+**Definición Canónica:** las personas integrantes del Poder Judicial: una propuesta concreta.                                      185
+**Concordancias Legales:** artículo 5; artículos 12; artículo 23; artículo 16 de la Ley Nº 21.120; Ley Nº 21.120; Ley Nº 17.344; Ley Nº 4.808; Constitución Política
+
+las personas integrantes del Poder Judicial: una propuesta concreta.                                      185
 
                                            4.3 Perspectiva de género, estereotipos e imparcialidad judicial en casos que involucran a personas trans      186
 
@@ -508,10 +371,11 @@ de Género                                                                      
 
                                                                                —    Identidad de género e infancia y adolescencia
 
-
 ## 1.1               Perspectivas culturales de análisis
 
-                                                                                              de la sexualidad humana1
+**Definición Canónica:** de la sexualidad humana1
+
+de la sexualidad humana1
 
                                                                                               En la actualidad, resulta frecuente que la sexualidad humana y las
                                                                                               dimensiones o contenidos que de ella derivan estén presentes en los
@@ -539,10 +403,16 @@ de Género                                                         sexualidad e 
                                                                  ha sido relevado en otros espacios por esta misma autora (Gauché
                                                                  Marchetti, 2011; pp. 38-71).
 
-
 ## 1.1.1 La sexualidad en las manifestaciones
 
-                                                                 cotidianas de la cultura humana
+**Definición Canónica:** cotidianas de la cultura humana
+                                                                 En general, cuando se habla de “cultura” se piensa en su acepción más
+                                                                 “clásica”, como constitutiva de aquello que Giddens denomina “los
+                                                                 aspectos mentales más elevados”, llámense arte, literatura, música o
+                                                                 pintura. Sin embargo, también debemos entender como comprensiva
+                                       
+
+cotidianas de la cultura humana
                                                                  En general, cuando se habla de “cultura” se piensa en su acepción más
                                                                  “clásica”, como constitutiva de aquello que Giddens denomina “los
                                                                  aspectos mentales más elevados”, llámense arte, literatura, música o
@@ -741,10 +611,16 @@ de Género                                                         sexualidad e 
                                                                  manifestarse en torno al carácter sexuado de las personas. Existe un
                                                                  lenguaje oral y escrito del arte y sus expresiones que así lo evidencia.
 
-
 ## 1.1.2 La mirada desde los discursos científicos
 
-                                                                 que explican la realidad social
+**Definición Canónica:** que explican la realidad social
+                                                                 Además de las manifestaciones culturales que han ido expresando
+                                                                 visiones o miradas sobre la sexualidad, también los discursos de
+                                                                 variadas disciplinas que explican las realidades sociales la han in-
+                                                                 corporado en sus comprensiones. Ya sea para buscar explicaciones
+                                             
+
+que explican la realidad social
                                                                  Además de las manifestaciones culturales que han ido expresando
                                                                  visiones o miradas sobre la sexualidad, también los discursos de
                                                                  variadas disciplinas que explican las realidades sociales la han in-
@@ -1094,7 +970,13 @@ de Género                                                                      
 
 ## parte integrante en        ellas ha puesto el tema de las construcciones de nuevas formas de
 
-                                                      la construcción de         sexualidad en la discusión teórica desde los años 80 hacia adelante. En
+**Definición Canónica:** la construcción de         sexualidad en la discusión teórica desde los años 80 hacia adelante. En
+                                                                                 términos generales, esta teoría plantea un desarrollo de los estudios
+                                                      la identidad y las
+                                                                                 lésbicos y gays en un sentido crítico a tales categorías, cuando se les
+                                                      relaciones sociales        considera realidades cerradas que crean una
+
+la construcción de         sexualidad en la discusión teórica desde los años 80 hacia adelante. En
                                                                                  términos generales, esta teoría plantea un desarrollo de los estudios
                                                       la identidad y las
                                                                                  lésbicos y gays en un sentido crítico a tales categorías, cuando se les
@@ -1234,16 +1116,15 @@ de Género                                                         sexualidad e 
 Ley de Identidad                                                                           1. Marco teórico y conceptual sobre                                        30
 de Género                                                                                     sexualidad e identidad de género
 
-
-## 1.2              Aspectos biológicos, afectivos y sociales de
-
-                                                                                             la sexualidad humana. Hablando de sexo, de
-                                                                                             orientación sexual y de identidad de género.4
-
-
 ## 1.2.1 La variedad infinita de la diversidad sexual
 
-                                                                                             La sexualidad humana involucra más que el sexo de una persona, pues
+**Definición Canónica:** La sexualidad humana involucra más que el sexo de una persona, pues
+                                                                                             incluye cómo se percibe a sí misma desde las construcciones sociales,
+                                                                                             su orientación sexual, lo erótico, el amor, las formas de reproducción,
+                                                                                             las formas de manifestar el deseo sexual, y otros aspectos que son a la
+                                       
+
+La sexualidad humana involucra más que el sexo de una persona, pues
                                                                                              incluye cómo se percibe a sí misma desde las construcciones sociales,
                                                                                              su orientación sexual, lo erótico, el amor, las formas de reproducción,
                                                                                              las formas de manifestar el deseo sexual, y otros aspectos que son a la
@@ -1341,10 +1222,16 @@ de Género                                                         sexualidad e 
 
                                                                  irreductible” (párrafo 31).
 
-
 ## 1.2.2 El sexo de las personas y sus distintas expresiones
 
-                                                                 En general, supone la referencia a los aspectos biológicos de cada
+**Definición Canónica:** En general, supone la referencia a los aspectos biológicos de cada
+                                                                 persona: el cuerpo. Es decir, las diferencias que se proyectan en la
+                                                                 anatomía, la fisiología y la respuesta sexual. Se suele recoger en la
+                                                                 literatura ciertos componentes que marcan la pertenencia a un sexo
+                                                                 u otro:
+                                                           
+
+En general, supone la referencia a los aspectos biológicos de cada
                                                                  persona: el cuerpo. Es decir, las diferencias que se proyectan en la
                                                                  anatomía, la fisiología y la respuesta sexual. Se suele recoger en la
                                                                  literatura ciertos componentes que marcan la pertenencia a un sexo
@@ -1377,10 +1264,12 @@ de Género                                                         sexualidad e 
                                                                  en términos de hombre o mujer: cada uno determinado al nacer por
                                                                  la presencia de estas características.
 
-
 ## 1.2.2.1 La intersexualidad
 
-                                                                 En relación a los distintos componentes asociados a cada uno de
+**Definición Canónica:** En relación a los distintos componentes asociados a cada uno de
+**Concordancias Legales:** artículo 1
+
+En relación a los distintos componentes asociados a cada uno de
 
                                                                  los sexos que se suelen reconocer (hombre/mujer), hay que precisar
                                                                  que existen personas en que los cromosomas, gónadas y genitales
@@ -1454,10 +1343,15 @@ de Género                                                         sexualidad e 
 Ley de Identidad                                               1. Marco teórico y conceptual sobre                                       35
 de Género                                                         sexualidad e identidad de género
 
-
 ## 1.2.3 La orientación sexual
 
-                                                                 La orientación sexual de una persona tiene que ver con la atracción
+**Definición Canónica:** La orientación sexual de una persona tiene que ver con la atracción
+                                                                 amorosa, afectiva, erótica o sexual hacia otras personas, de carác-
+                                                                 ter relativamente permanente o estable. No queda así definida, la
+                                                                 orientación sexual de una persona, por un comportamiento sexual
+                                                                 determinado en un solo momento.
+
+La orientación sexual de una persona tiene que ver con la atracción
                                                                  amorosa, afectiva, erótica o sexual hacia otras personas, de carác-
                                                                  ter relativamente permanente o estable. No queda así definida, la
                                                                  orientación sexual de una persona, por un comportamiento sexual
@@ -1576,10 +1470,13 @@ de Género                                                         sexualidad e 
                                                                  sido manifestado en un estudio académico realizado en el medio
                                                                  chileno (Lorenzini, 2010).
 
-
 ## 1.2.4 Identidad de género
 
-                                                                 La identidad de género tiene que ver con cómo se siente cada per-
+**Definición Canónica:** La identidad de género tiene que ver con cómo se siente cada per-
+                                                                 sona consigo misma, la adscripción individual a lo que cada sociedad
+                                                                 considera es lo masculino o lo femenino.
+
+La identidad de género tiene que ver con cómo se siente cada per-
                                                                  sona consigo misma, la adscripción individual a lo que cada sociedad
                                                                  considera es lo masculino o lo femenino.
 
@@ -1620,15 +1517,16 @@ de Género                                                                      
 Ley de Identidad                                                     1. Marco teórico y conceptual sobre                                     39
 de Género                                                               sexualidad e identidad de género
 
-
-## 1.3     Identidad de
-
-                                                                       género
-
-
 ## 1.3.1 El concepto de identidad
 
-                                                                       Para el diccionario de la Real Academia Española, identidad es el
+**Definición Canónica:** Para el diccionario de la Real Academia Española, identidad es el
+                                                                       “conjunto de rasgos propios de un individuo o de una colectividad
+                                                                       que los caracteriza frente a los demás”. En forma adicional, señala
+                                                                       que es la “conciencia que una persona tiene de ser ella misma y
+                                                                       distinta a las demás”.
+**Concordancias Legales:** artículo 29; artículos 7; artículo 5; artículo 1; constitución; Constitucion
+
+Para el diccionario de la Real Academia Española, identidad es el
                                                                        “conjunto de rasgos propios de un individuo o de una colectividad
                                                                        que los caracteriza frente a los demás”. En forma adicional, señala
                                                                        que es la “conciencia que una persona tiene de ser ella misma y
@@ -1908,10 +1806,15 @@ de Género                                                         sexualidad e 
 
                                                                      Sentencia CS rol Nº 70.584-2016, 29 de mayo de 2018.
 
-
 ## 1.3.2 La diversidad en la identidad de género
 
-                                                                 La identidad de género, como se señaló, guarda relación con la manera
+**Definición Canónica:** La identidad de género, como se señaló, guarda relación con la manera
+                                                                 en que se siente cada persona frente a sí misma y con su adscripción
+                                                                 individual a lo que cada sociedad considera es lo masculino o lo feme-
+                                                                 nino. Es la vivencia interna e individual frente a lo que cada sociedad
+                                                                 considera es “lo masculino” o “lo femenino”, en cuanto rol
+
+La identidad de género, como se señaló, guarda relación con la manera
                                                                  en que se siente cada persona frente a sí misma y con su adscripción
                                                                  individual a lo que cada sociedad considera es lo masculino o lo feme-
                                                                  nino. Es la vivencia interna e individual frente a lo que cada sociedad
@@ -2055,10 +1958,11 @@ de Género                                                         sexualidad e 
                                                                  autopercepción y autodeterminación de la identidad de cada persona,
                                                                  desarrollado como un estándar en el mismo sistema interamericano.
 
-
 ## 93. En relación con la identidad de género y sexual, esta Corte
 
-                                                                     reitera que la misma también se encuentra ligada al concepto de
+**Definición Canónica:** reitera que la misma también se encuentra ligada al concepto de
+
+reitera que la misma también se encuentra ligada al concepto de
 
 Ley de Identidad                                               1. Marco teórico y conceptual sobre                                      49
 de Género                                                         sexualidad e identidad de género
@@ -2068,10 +1972,16 @@ de Género                                                         sexualidad e 
                                                                      tido a su existencia, conforme a sus propias convicciones, así como
                                                                      al derecho a la protección de la vida privada (Humanos, 2017).
 
-
 ## 94. En este punto, corresponde recordar que la identidad de
 
-                                                                     género ha sido definida en esta opinión como la vivencia interna
+**Definición Canónica:** género ha sido definida en esta opinión como la vivencia interna
+                                                                     e individual del género tal como cada persona la siente, la cual
+                                                                     podría corresponder o no con el sexo asignado al momento del
+                                                                     nacimiento. Lo anterior, conlleva también a la vivencia personal
+                                                                     del cuerpo y otras expresiones de género, como lo son la vesti-
+    
+
+género ha sido definida en esta opinión como la vivencia interna
                                                                      e individual del género tal como cada persona la siente, la cual
                                                                      podría corresponder o no con el sexo asignado al momento del
                                                                      nacimiento. Lo anterior, conlleva también a la vivencia personal
@@ -2084,10 +1994,15 @@ de Género                                                         sexualidad e 
                                                                      que es resultado de la decisión libre y autónoma de cada persona,
                                                                      sin que deba estar sujeta a su genitalidad (Humanos, 2017).
 
-
 ## 95. De esa forma, el sexo, así como las identidades, las funciones
 
-                                                                     y los atributos construidos socialmente que se atribuye a las di-
+**Definición Canónica:** y los atributos construidos socialmente que se atribuye a las di-
+                                                                     ferencias biológicas en torno al sexo asignado al nacer, lejos de
+                                                                     constituirse en componentes objetivos e inmutables del estado
+                                                                     civil que individualiza a la persona, por ser un hecho de la natu-
+                                                                     raleza física o biológica, terminan siendo rasgos que dependen 
+
+y los atributos construidos socialmente que se atribuye a las di-
                                                                      ferencias biológicas en torno al sexo asignado al nacer, lejos de
                                                                      constituirse en componentes objetivos e inmutables del estado
                                                                      civil que individualiza a la persona, por ser un hecho de la natu-
@@ -2169,13 +2084,17 @@ de Género                                                         sexualidad e 
                                                                        las identidades de género diversas reivindicadas en las
                                                                        Américas”; párrafos 66 y siguientes.
 
-
-## 1.3.3 Algunas precisiones conceptuales
-
-
 ## 1.3.3.1 Expresión de género
 
-                                                                 De acuerdo al sistema interamericano de derechos humanos, por
+**Definición Canónica:** De acuerdo al sistema interamericano de derechos humanos, por
+                                                                 expresión de género se entiende la manifestación externa del género
+                                                                 de una persona a través de su aspecto físico, la cual puede incluir
+                                                                 el modo de vestir, el peinado, la utilización de artículos cosméticos,
+                                                                 o a través de manerismos, en la forma de hablar, de patrones de
+       
+**Concordancias Legales:** artículo 13 del Pacto de San José de Costa Rica; artículo 4; Ley Nº 21.120
+
+De acuerdo al sistema interamericano de derechos humanos, por
                                                                  expresión de género se entiende la manifestación externa del género
                                                                  de una persona a través de su aspecto físico, la cual puede incluir
                                                                  el modo de vestir, el peinado, la utilización de artículos cosméticos,
@@ -2206,10 +2125,15 @@ de Género                                                         sexualidad e 
                                                                      hablar o vestir, modificaciones corporales, o formas de compor-
                                                                      tamiento e interacción social, entre otros aspectos.
 
-
 ## 1.3.3.2 Identidad de género y orientación sexual
 
-                                                                 Si un hombre trans:
+**Definición Canónica:** Si un hombre trans:
+                                                                 — siente atracción amorosa y erótica por los hombres, se estará en
+                                                                   presencia de una persona trans gay;
+                                                                 — siente atracción amorosa y erótica por las mujeres, se estará en
+                                                                   presencia de una persona trans heterosexual.
+
+Si un hombre trans:
                                                                  — siente atracción amorosa y erótica por los hombres, se estará en
                                                                    presencia de una persona trans gay;
                                                                  — siente atracción amorosa y erótica por las mujeres, se estará en
@@ -2226,10 +2150,16 @@ de Género                                                         sexualidad e 
                                                                  — siente atracción hacia personas de ambos sexos, se estará en
                                                                    presencia de una persona trans bisexual.
 
-
 ## 1.3.3.3 Identidad de género y disforia de género
 
-                                                                 Durante muchos años, la transexualidad ha sido vista como una
+**Definición Canónica:** Durante muchos años, la transexualidad ha sido vista como una
+                                                                 enfermedad bajo el concepto de “disforia de género”. En términos
+                                                                 simples, se podría caracterizar que la disforia de género ha sido en-
+                                                                 tendida y tratada médicamente como la identificación persistente
+                                                                 con un sexo diverso al asignado al nacer, asociándose a malestar,
+            
+
+Durante muchos años, la transexualidad ha sido vista como una
                                                                  enfermedad bajo el concepto de “disforia de género”. En términos
                                                                  simples, se podría caracterizar que la disforia de género ha sido en-
                                                                  tendida y tratada médicamente como la identificación persistente
@@ -2279,10 +2209,16 @@ de Género                                                         sexualidad e 
                                                                  hecho, desde el año 2009 existe un movimiento de nivel mundial
                                                                  conocido como STP, acrónimo del inglés “Stop Trans Pathologization”.
 
-
 ## 1.3.3.4 Cisnormatividad
 
-                                                                 La cisnormatividad ha sido conceptualizada por la Corte IDH como
+**Definición Canónica:** La cisnormatividad ha sido conceptualizada por la Corte IDH como
+                                                                 una “idea o expectativa de acuerdo a la cual, todas las personas son
+                                                                 cisgénero, y que aquellas personas a las que se les asignó el sexo
+                                                                 masculino al nacer siempre crecen para ser hombres y aquellas a las
+                                                                 que se les asignó el sexo o femenino al nacer siempre crecen para
+     
+
+La cisnormatividad ha sido conceptualizada por la Corte IDH como
                                                                  una “idea o expectativa de acuerdo a la cual, todas las personas son
                                                                  cisgénero, y que aquellas personas a las que se les asignó el sexo
                                                                  masculino al nacer siempre crecen para ser hombres y aquellas a las
@@ -2292,10 +2228,12 @@ de Género                                                         sexualidad e 
 Ley de Identidad                                                     1. Marco teórico y conceptual sobre                                  54
 de Género                                                               sexualidad e identidad de género
 
-
 ## 1.4     Identidad de género en niños, niñas y
 
-                                                                       adolescentes
+**Definición Canónica:** adolescentes
+**Concordancias Legales:** constitucion
+
+adolescentes
 
                                                                        Desde hace varios años, el mundo ha ido presenciando la aparición
                                                                        en público de personas menores de edad que, desde muy tempra-
@@ -2488,7 +2426,14 @@ de Género                                                         sexualidad e 
 
 ## 2015. Capítulo 5 (Violencia e intersección con otros gru-
 
-                                                                       pos), sección D (Niños, niñas y adolescentes), párrafos
+**Definición Canónica:** pos), sección D (Niños, niñas y adolescentes), párrafos
+                                                                       301-330.
+                                                                     — Encuesta Nacional de Clima Escolar en Chile 2016: rea-
+                                                                       lizada por la Fundación Todo Mejora.
+                                                                     — Encuesta T: desarrollada por iniciativa de OTD.
+                                                                     — Informe Anual de Derechos Humanos: Insti
+
+pos), sección D (Niños, niñas y adolescentes), párrafos
                                                                        301-330.
                                                                      — Encuesta Nacional de Clima Escolar en Chile 2016: rea-
                                                                        lizada por la Fundación Todo Mejora.
@@ -2522,10 +2467,12 @@ de Género                                                                      
 
                                                                                —    Jurisprudencia internacional relevante.
 
-
 ## 2.1               La igualdad y la prohibición de discriminación en el
 
-                                                                                              derecho internacional de los derechos humanos5
+**Definición Canónica:** derecho internacional de los derechos humanos5
+**Concordancias Legales:** artículo 27; artículo 1; artículo 2; artículo 7; artículo 10; artículo 16; artículo 23; constitucion
+
+derecho internacional de los derechos humanos5
 
                                                                                               Hasta mediados del siglo XX, el derecho internacional (DI) se limitaba
                                                                                               a regular las relaciones interestatales, esto es, a establecer derechos
@@ -2722,48 +2669,45 @@ de Género                                                                      
 
                                                                 Convenio                                                                    Año    Chile
 
-
-## 1. Convención de las Naciones Unidas sobre la eliminación de todas las      1965   Sí
-
-                                                                   formas de discriminación racial
-
-
 ## 2. Pacto Internacional de Derechos Civiles y Políticos                      1966   Sí
 
+**Definición Canónica:** Primer Protocolo Facultativo al PIDCP (1966, sobre quejas individuales)          Sí
 
-                                                                  Primer Protocolo Facultativo al PIDCP (1966, sobre quejas individuales)          Sí
+Primer Protocolo Facultativo al PIDCP (1966, sobre quejas individuales)          Sí
 
                                                                   Segundo Protocolo Facultativo al PIDCP (1989, para abolir pena de                Sí
                                                                   muerte)
 
-
-## 3. Pacto Internacional de Derechos Económicos, Sociales y Culturales        1966   Sí
-
-
-                                                                  Protocolo al Pacto Internacional de Derechos Económicos, Sociales y              No
-                                                                  Culturales (2008)
-
-
 ## 4. Convención sobre la Eliminación de Toda Forma de                         1979   Sí
 
-                                                                   Discriminación contra la Mujer
+**Definición Canónica:** Discriminación contra la Mujer
                                                                    Protocolo para Quejas Individuales a la Convención sobre la
                                                                    Eliminación de Toda Forma de Discriminación contra la Mujer (1979)
 
+Discriminación contra la Mujer
+                                                                   Protocolo para Quejas Individuales a la Convención sobre la
+                                                                   Eliminación de Toda Forma de Discriminación contra la Mujer (1979)
 
 ## 5. Convención contra la Tortura y Otros Tratos o Penas Inhumanas o          1966   Sí
 
-                                                                  Degradantes
+**Definición Canónica:** Degradantes
+
+Degradantes
 
                                                                   Primer Protocolo                                                                 Sí
 
                                                                   Segundo Protocolo                                                                No
 
-
 ## 6. Convención sobre los Derechos del Niño                                   1989   Sí
 
+**Definición Canónica:** Protocolo Facultativo relativo a la venta de niños, la prostitución
+                                                                                                                                                   Sí
+                                                                  infantil y la utilización de niños en la pornografía (2002)
+                                                                  Protocolo Facultativo relativo a la participación de los niños en los            Sí
+                                                                  conflictos armados (2002)
+              
 
-                                                                  Protocolo Facultativo relativo a la venta de niños, la prostitución
+Protocolo Facultativo relativo a la venta de niños, la prostitución
                                                                                                                                                    Sí
                                                                   infantil y la utilización de niños en la pornografía (2002)
                                                                   Protocolo Facultativo relativo a la participación de los niños en los            Sí
@@ -2771,32 +2715,28 @@ de Género                                                                      
                                                                   Protocolo Facultativo relativo al mecanismo de quejas individuales               Sí
                                                                   (2014)
 
-
-## 7. Convención de NU sobre la Protección de los Derechos de los              2003   Sí
-
-                                                                  Trabajadores Migratorios y sus Familias
-
-
-## 8. Convención de NU sobre los Derechos de las Personas con                  2006   Sí
-
-                                                                  Discapacidad
-
-                                                                  Protocolo Facultativo a la Convención (2006)                                     Sí
-
-
 ## 9. Convención de NU sobre la Desaparición Forzada                           2010   Sí
 
-                                                                  de Personas
+**Definición Canónica:** de Personas
+
+de Personas
 
                                                                Fuente: United Nations Treaty Collection.
 
 Ley de Identidad                                               2. Estándares internacionales para la protección                        66
 de Género                                                         del derecho a la identidad de género
 
-
 ## 2.1.1 Igualdad y no discriminación en los
 
-                                                                 Pactos internacionales de 1966
+**Definición Canónica:** Pactos internacionales de 1966
+                                                                 El Pacto Internacional de Derechos Civiles y
+                                                                 Políticos (PIDCP)
+                                                                 consagra las ideas de igualdad y no discriminación en varios de sus
+                                                                 artículos. Las normas más relevantes son, a estos fines, los artículos
+                                                                 2º.1 y 26.
+**Concordancias Legales:** artículos 2; artículo 2; artículo 26; artículo 16; artículo 19; artículo 22; artículo 28; artículo 2.2
+
+Pactos internacionales de 1966
                                                                  El Pacto Internacional de Derechos Civiles y
                                                                  Políticos (PIDCP)
                                                                  consagra las ideas de igualdad y no discriminación en varios de sus
@@ -3026,10 +2966,16 @@ de Género                                                                      
                                                                                                   — Igualdad y no discriminación en el sistema europeo:
                                                                                                     profesor Tomás Vial (investigador DD. HH.).
 
-
 ## 2.1.2 Igualdad y no discriminación en
 
-                                                                                              el sistema interamericano
+**Definición Canónica:** el sistema interamericano
+                                                                                              La Carta de la Organización de Estados Americanos, en su artículo
+                                                                                              3º.I, proclama la igualdad y no discriminación: “Los Estados Ameri-
+                                                                                              canos proclaman los derechos fundamentales de la persona humana,
+                                                                                             
+**Concordancias Legales:** artículo 3
+
+el sistema interamericano
                                                                                               La Carta de la Organización de Estados Americanos, en su artículo
                                                                                               3º.I, proclama la igualdad y no discriminación: “Los Estados Ameri-
                                                                                               canos proclaman los derechos fundamentales de la persona humana,
@@ -3039,7 +2985,10 @@ de Género                                                                      
 
 ## 17       Doc. NU E/C.12/GC/20
 
-                                                      18       Doc. NU E/C.12/GC/20, párrafo 7.
+**Definición Canónica:** 18       Doc. NU E/C.12/GC/20, párrafo 7.
+**Concordancias Legales:** artículo 45; artículo 9; artículo 2; artículo 64 de la Convención; artículo 20; artículo 18; artículo 1; Artículo 8; Artículo 13; Artículo 17; Artículo 22; artículo 62; artículo 21 de la Convención; Artículo 23; Artículo 24; Artículo 25; Artículo 27; artículo 3
+
+18       Doc. NU E/C.12/GC/20, párrafo 7.
 
 Ley de Identidad                                               2. Estándares internacionales para la protección                       72
 de Género                                                         del derecho a la identidad de género
@@ -3224,10 +3173,16 @@ de Género                                                         del derecho a
 
                                                                      AG/RES. 2804 (XLIII-O/13), 5 de junio de 2013
 
-
 ## 1. Discriminación es cualquier distinción, exclusión, restricción o
 
-                                                                    preferencia, en cualquier ámbito público o privado, que tenga el
+**Definición Canónica:** preferencia, en cualquier ámbito público o privado, que tenga el
+                                                                    objetivo o el efecto de anular o limitar el reconocimiento, goce
+                                                                    o ejercicio, en condiciones de igualdad, de uno o más derechos
+                                                                    humanos o libertades fundamentales consagrados en los instru-
+                                                                    mentos internacionales aplicables a los Estados Partes.
+                 
+
+preferencia, en cualquier ámbito público o privado, que tenga el
                                                                     objetivo o el efecto de anular o limitar el reconocimiento, goce
                                                                     o ejercicio, en condiciones de igualdad, de uno o más derechos
                                                                     humanos o libertades fundamentales consagrados en los instru-
@@ -3243,7 +3198,14 @@ de Género                                                         del derecho a
 
 ## 3. Discriminación indirecta es la que se produce, en la esfera públi-
 
-                                                                    ca o privada, cuando una disposición, un criterio o una práctica,
+**Definición Canónica:** ca o privada, cuando una disposición, un criterio o una práctica,
+                                                                    aparentemente neutro es susceptible de implicar una desventaja
+                                                                    particular para las personas que pertenecen a un grupo específico,
+                                                                    o los pone en desventaja, a menos que dicha disposición, criterio
+                                                                    o práctica tenga un objetivo o justificación razonable y legítimo 
+**Concordancias Legales:** artículo 1.1
+
+ca o privada, cuando una disposición, un criterio o una práctica,
                                                                     aparentemente neutro es susceptible de implicar una desventaja
                                                                     particular para las personas que pertenecen a un grupo específico,
                                                                     o los pone en desventaja, a menos que dicha disposición, criterio
@@ -3265,7 +3227,9 @@ de Género                                                         del derecho a
 
 ## 5. No constituyen discriminación las medidas especiales o acciones
 
-                                                                    afirmativas adoptadas para garantizar en condiciones de igualdad,
+**Definición Canónica:** afirmativas adoptadas para garantizar en condiciones de igualdad,
+
+afirmativas adoptadas para garantizar en condiciones de igualdad,
 
                                                                     el goce o ejercicio de uno o más derechos humanos y libertades
                                                                     fundamentales de grupos que así lo requieran, siempre que tales
@@ -3275,7 +3239,15 @@ de Género                                                         del derecho a
 
 ## 6. Intolerancia es el acto o conjunto de actos o manifestaciones que
 
-                                                                    expresan el irrespeto, rechazo o desprecio de la dignidad, carac-
+**Definición Canónica:** expresan el irrespeto, rechazo o desprecio de la dignidad, carac-
+                                                                    terísticas, convicciones u opiniones de los seres humanos por ser
+                                                                    diferentes o contrarias. Puede manifestarse como marginación
+                                                                    y exclusión de la participación en cualquier ámbito de la vida
+                                                                    pública o privada de grupos en condiciones de vulnerabilidad o
+         
+**Concordancias Legales:** Constitución
+
+expresan el irrespeto, rechazo o desprecio de la dignidad, carac-
                                                                     terísticas, convicciones u opiniones de los seres humanos por ser
                                                                     diferentes o contrarias. Puede manifestarse como marginación
                                                                     y exclusión de la participación en cualquier ámbito de la vida
@@ -3354,18 +3326,27 @@ de Género                                                         del derecho a
 Ley de Identidad                                                     2. Estándares internacionales para la protección                         80
 de Género                                                               del derecho a la identidad de género
 
-
 ## 2.2     Principales instrumentos internacionales y el
 
-                                                                       trabajo de órganos internacionales en los sistemas
+**Definición Canónica:** trabajo de órganos internacionales en los sistemas
                                                                        universal e interamericano de protecciónde
                                                                        derechos humanos para el reconocimiento del
                                                                        derecho a la identidad de género.
 
+trabajo de órganos internacionales en los sistemas
+                                                                       universal e interamericano de protecciónde
+                                                                       derechos humanos para el reconocimiento del
+                                                                       derecho a la identidad de género.
 
 ## 2.2.1 Evolución y desarrollos en el sistema
 
-                                                                       universal y europeo de derechos humanos en
+**Definición Canónica:** universal y europeo de derechos humanos en
+                                                                       torno a la orientación sexual y la identidad de
+                                                                       género. Criterios y estándares fijados.
+                                                                       Al iniciar el tiempo del desarrollo del derecho internacional de los
+**Concordancias Legales:** artículo 17 del PIDCP; artículo 2.1; artículo 1
+
+universal y europeo de derechos humanos en
                                                                        torno a la orientación sexual y la identidad de
                                                                        género. Criterios y estándares fijados.
                                                                        Al iniciar el tiempo del desarrollo del derecho internacional de los
@@ -3468,10 +3449,16 @@ de Género                                                         del derecho a
                                                                  expresión “otra condición social” que usa el artículo 1º del Pacto de
                                                                  San José de Costa Rica.
 
-
 ## 2.2.1.1 Casos emblemáticos del sistema europeo
 
-                                                                 en relación a la identidad de género
+**Definición Canónica:** en relación a la identidad de género
+                                                                 Así como la orientación sexual ha sido estimada por la jurispruden-
+                                                                 cia europea como parte integrante de la vida privada que protege el
+                                                                 artículo 8º del TEDH, lo mismo ha ocurrido respecto de la deter-
+                                                                 minación de la congruencia del sexo y género de una persona.
+**Concordancias Legales:** artículo 8; artículo 12 del TEDH; artículos 8; artículo 3; artículo 8.1 del CEDH
+
+en relación a la identidad de género
                                                                  Así como la orientación sexual ha sido estimada por la jurispruden-
                                                                  cia europea como parte integrante de la vida privada que protege el
                                                                  artículo 8º del TEDH, lo mismo ha ocurrido respecto de la deter-
@@ -3550,16 +3537,17 @@ de Género                                                         del derecho a
                                                                  propósito de las sentencias I. y Goodwin o el debate sobre el ma-
                                                                  trimonio de transexuales ante el TEDH, ver Sanz, Susana, 2003 (I).
 
-
-## 2.2.2 El sistema interamericano de derechos
-
-                                                                 humanos en relación a la identidad de
-                                                                 género. Criterios y estándares fijados.
-
-
 ## 2.2.2.1 Opinión Consultiva 24/17, de
 
-                                                                 24 de noviembre de 2017
+**Definición Canónica:** 24 de noviembre de 2017
+                                                                 Conforme indica el artículo 64 de la Convención Americana sobre
+                                                                 Derechos Humanos, los Estados miembros de la Organización de
+                                                                 Estados Americanos pueden consultar a la Corte IDH acerca de la
+                                                                 interpretación de la Convención o de otros tratados concernientes a
+                                                           
+**Concordancias Legales:** artículo 64 de la Convención Americana sobre; artículos 11.2; artículo 17; artículo 1; artículo 54 del Código Civil de la República de Costa Rica; artículos 1.1; artículo 1 de la Convención Americana sobre Derechos Humanos
+
+24 de noviembre de 2017
                                                                  Conforme indica el artículo 64 de la Convención Americana sobre
                                                                  Derechos Humanos, los Estados miembros de la Organización de
                                                                  Estados Americanos pueden consultar a la Corte IDH acerca de la
@@ -3616,10 +3604,16 @@ de Género                                                         del derecho a
                                                                  identidad en el sistema intera- mericano y su
                                                                  relación con otros derechos.
 
-
 ## 88. Ahora bien, un aspecto central del reconocimiento de la
 
-                                                                     dignidad lo constituye la posibilidad de todo ser humano de
+**Definición Canónica:** dignidad lo constituye la posibilidad de todo ser humano de
+                                                                     autodeterminarse y escoger libremente las opciones y circuns-
+                                                                     tancias que le dan sentido a su existencia, conforme a sus propias
+                                                                     opciones y convicciones. En este marco juega un papel funda-
+                                                                     mental el principio de la autonomía de la persona, el cual veda
+          
+
+dignidad lo constituye la posibilidad de todo ser humano de
                                                                      autodeterminarse y escoger libremente las opciones y circuns-
                                                                      tancias que le dan sentido a su existencia, conforme a sus propias
                                                                      opciones y convicciones. En este marco juega un papel funda-
@@ -3635,10 +3629,15 @@ de Género                                                         del derecho a
                                                                      de acuerdo con sus valores, creencias, convicciones e intereses.
                                                                      (Humanos, 2017; párrafo 88)
 
-
 ## 93. En relación con la identidad de género y sexual, esta Corte
 
-                                                                     reitera que la misma también se encuentra ligada al concepto de
+**Definición Canónica:** reitera que la misma también se encuentra ligada al concepto de
+                                                                     libertad y a la posibilidad de todo ser humano de autodetermi-
+                                                                     narse y escoger libremente las opciones y circunstancias que le
+                                                                     dan sentido a su existencia, conforme a sus propias convicciones,
+                                                                     así como al derecho a la protección de la vida privada (supra párr.
+
+reitera que la misma también se encuentra ligada al concepto de
                                                                      libertad y a la posibilidad de todo ser humano de autodetermi-
                                                                      narse y escoger libremente las opciones y circunstancias que le
                                                                      dan sentido a su existencia, conforme a sus propias convicciones,
@@ -3651,10 +3650,14 @@ de Género                                                         del derecho a
                                                                      la persona, la cual dependerá de cómo esta se autoidentifique.
                                                                      (Humanos, 2017; párrafo 93)
 
-
 ## 94. En este punto, corresponde recordar que la identidad de
 
-                                                                     género ha sido definida en esta opinión como la vivencia interna
+**Definición Canónica:** género ha sido definida en esta opinión como la vivencia interna
+                                                                     e individual del género tal como cada persona la siente, la cual
+                                                                     podría corresponder o no con el sexo asignado al momento del
+                                                                     nacimiento. Lo anterior, conlleva también a la vivencia personal
+
+género ha sido definida en esta opinión como la vivencia interna
                                                                      e individual del género tal como cada persona la siente, la cual
                                                                      podría corresponder o no con el sexo asignado al momento del
                                                                      nacimiento. Lo anterior, conlleva también a la vivencia personal
@@ -3671,10 +3674,12 @@ de Género                                                         del derecho a
                                                                      autónoma de cada persona, sin que deba estar sujeta a su geni-
                                                                      talidad. (Humanos, 2017; párrafo 94)
 
-
 ## 95. De esa forma, el sexo, así como las identidades, las funciones
 
-                                                                     y los atributos construidos socialmente que se atribuye a las di-
+**Definición Canónica:** y los atributos construidos socialmente que se atribuye a las di-
+                                                                     ferencias biológicas en torno al sexo asignado al nacer, lejos de
+
+y los atributos construidos socialmente que se atribuye a las di-
                                                                      ferencias biológicas en torno al sexo asignado al nacer, lejos de
 
                                                                      constituirse en componentes objetivos e inmutables del estado
@@ -3702,10 +3707,12 @@ de Género                                                         del derecho a
                                                                      frente a sí misma como su proyección ante la sociedad. (Huma-
                                                                      nos, 2017; párrafo 95)
 
-
 ## 96. Por otra parte, el Tribunal considera que el derecho a la iden-
 
-                                                                     tidad, y en particular la manifestación de la identidad, también se
+**Definición Canónica:** tidad, y en particular la manifestación de la identidad, también se
+**Concordancias Legales:** artículo 13
+
+tidad, y en particular la manifestación de la identidad, también se
 
 Ley de Identidad                                               2. Estándares internacionales para la protección                       88
 de Género                                                         del derecho a la identidad de género
@@ -3729,10 +3736,16 @@ de Género                                                         del derecho a
                                                                      su dignidad personal como miembro la comunidad Garífuna.
                                                                      (Humanos, 2017; párrafo 96)
 
-
 ## 97. En atención a lo previamente indicado, la Corte coincide con
 
-                                                                     la Comisión cuando esta señala que la falta de reconocimiento
+**Definición Canónica:** la Comisión cuando esta señala que la falta de reconocimiento
+                                                                     de la identidad de género o sexual podría resultar en una cen-
+                                                                     sura indirecta a las expresiones de género que se aparten de los
+                                                                     estándares cisnormativos, o heteronormativos con lo cual se
+                                                                     envía un mensaje generalizado de que aquellas personas que se
+            
+
+la Comisión cuando esta señala que la falta de reconocimiento
                                                                      de la identidad de género o sexual podría resultar en una cen-
                                                                      sura indirecta a las expresiones de género que se aparten de los
                                                                      estándares cisnormativos, o heteronormativos con lo cual se
@@ -3742,10 +3755,16 @@ de Género                                                         del derecho a
                                                                      de condiciones respecto de aquellas personas que no se aparten
                                                                      de los mismos. (Humanos, 2017; párrafo 97)
 
-
 ## 98. Visto lo anterior, esta Corte entiende que la identidad de gé-
 
-                                                                     nero es un elemento constitutivo y constituyente de la identidad
+**Definición Canónica:** nero es un elemento constitutivo y constituyente de la identidad
+                                                                     de las personas, en consecuencia, su reconocimiento por parte
+                                                                     del Estado resulta de vital importancia para garantizar el pleno
+                                                                     goce de los derechos humanos de las personas transgénero, in-
+                                                                     cluyendo la protección contra la violencia, tortura, malos tratos,
+   
+
+nero es un elemento constitutivo y constituyente de la identidad
                                                                      de las personas, en consecuencia, su reconocimiento por parte
                                                                      del Estado resulta de vital importancia para garantizar el pleno
                                                                      goce de los derechos humanos de las personas transgénero, in-
@@ -3769,11 +3788,16 @@ de Género                                                         del derecho a
                                                                      no cuente con constancia legal de su existencia, dificultando el
                                                                      pleno ejercicio de sus derechos. (Humanos, 2017; párrafo 98).
 
-
 ## 100. De acuerdo con ello, el Estado, en su calidad de garante de
 
+**Definición Canónica:** la pluralidad de derechos, debe respetar y garantizar la coexis-
+                                                                     tencia de individuos con distintas identidades, expresiones de
+                                                                     género y orientaciones sexuales, para lo cual debe asegurar que
+                                                                     todas ellas puedan vivir y desarrollarse con dignidad y el mismo
+                                                                     respeto al que tienen derecho todas las personas. La Corte opina
+  
 
-                                                                     la pluralidad de derechos, debe respetar y garantizar la coexis-
+la pluralidad de derechos, debe respetar y garantizar la coexis-
                                                                      tencia de individuos con distintas identidades, expresiones de
                                                                      género y orientaciones sexuales, para lo cual debe asegurar que
                                                                      todas ellas puedan vivir y desarrollarse con dignidad y el mismo
@@ -3784,10 +3808,12 @@ de Género                                                         del derecho a
                                                                      las personas cuya identidad de género es diferente a la que es
                                                                      asociada con el sexo que les fue asignado al nacer.
 
-
 ## 101. De conformidad con lo anterior, se puede concluir lo si-
 
-                                                                     guiente:
+**Definición Canónica:** guiente:
+**Concordancias Legales:** artículos 7
+
+guiente:
 
                                                                      a) Se desprende el derecho a la identidad del reconocimiento del
                                                                      libre desarrollo de la personalidad y del derecho a la vida privada
@@ -3862,10 +3888,17 @@ de Género                                                         del derecho a
                                                                  de solicitudes de reconocimiento dela
                                                                  identidad de género.
 
-
 ## 115. De conformidad con lo anterior, se puede concluir que
 
-                                                                     el derecho de cada persona a definir de manera autónoma su
+**Definición Canónica:** el derecho de cada persona a definir de manera autónoma su
+                                                                     identidad sexual y de género y a que los datos que figuran en los
+                                                                     registros, así como en los documentos de identidad sean acor-
+                                                                     des o correspondan a la definición que tienen de sí mismos, se
+                                                                     encuentra protegido por la Convención Americana a través de
+              
+**Concordancias Legales:** artículos 7; artículo 11.2; artículo 3; artículo 18
+
+el derecho de cada persona a definir de manera autónoma su
                                                                      identidad sexual y de género y a que los datos que figuran en los
                                                                      registros, así como en los documentos de identidad sean acor-
                                                                      des o correspondan a la definición que tienen de sí mismos, se
@@ -3893,10 +3926,15 @@ de Género                                                         del derecho a
 Ley de Identidad                                               2. Estándares internacionales para la protección                      92
 de Género                                                         del derecho a la identidad de género
 
-
 ## 116. De acuerdo a lo anterior, la respuesta a la primera
 
-                                                                     pregunta planteada por Costa Rica sobre la protección que
+**Definición Canónica:** pregunta planteada por Costa Rica sobre la protección que
+                                                                     brindan los artículos 11.2, 18 y 24 en relación con el artículo 1.1
+                                                                     de la Convención al reconocimiento de la identidad de género,
+                                                                     es la siguiente:
+**Concordancias Legales:** artículos 11.2; artículo 1.1 de la Convención al reconocimiento de la identidad; artículo 18; artículos 1.1; artículo 2 de la Convención
+
+pregunta planteada por Costa Rica sobre la protección que
                                                                      brindan los artículos 11.2, 18 y 24 en relación con el artículo 1.1
                                                                      de la Convención al reconocimiento de la identidad de género,
                                                                      es la siguiente:
@@ -3917,10 +3955,16 @@ de Género                                                         del derecho a
                                                                      de reconocer, regular, y establecer los procedimientos adecuados
                                                                      para tales fines. (Humanos, 2017; párrafo 116)
 
-
 ## 117. Con la finalidad de que las personas interesadas puedan
 
-                                                                     modificar los registros y los documentos de identidad para que
+**Definición Canónica:** modificar los registros y los documentos de identidad para que
+                                                                     estos sean acordes con su identidad de género autopercibida,
+                                                                     los procedimientos deben estar regulados e implementados de
+                                                                     conformidad con ciertas características mínimas, de manera que
+                                                                     ese derecho se vea efectivamente protegido, evitando, además,
+               
+
+modificar los registros y los documentos de identidad para que
                                                                      estos sean acordes con su identidad de género autopercibida,
                                                                      los procedimientos deben estar regulados e implementados de
                                                                      conformidad con ciertas características mínimas, de manera que
@@ -3928,10 +3972,16 @@ de Género                                                         del derecho a
                                                                      que mediante los mismos se violen derechos de terceras perso-
                                                                      nas contenidos en la Convención. (Humanos, 2017; párrafo 117)
 
-
 ## 120. En concordancia con lo expresado, en cuanto a los efectos de
 
-                                                                 los procedimientos de reconocimiento de identidad de género, el
+**Definición Canónica:** los procedimientos de reconocimiento de identidad de género, el
+                                                                 Tribunal recuerda que los mismos no deberán implicar la alteración
+                                                                 de la titularidad de los derechos y las obligaciones jurídicas que pu-
+                                                                 dieran corresponder a la persona con anterioridad a la inscripción
+                                                                 del cambio, ni las provenientes de las relaciones propias del derecho
+ 
+
+los procedimientos de reconocimiento de identidad de género, el
                                                                  Tribunal recuerda que los mismos no deberán implicar la alteración
                                                                  de la titularidad de los derechos y las obligaciones jurídicas que pu-
                                                                  dieran corresponder a la persona con anterioridad a la inscripción
@@ -3967,10 +4017,17 @@ de Género                                                         del derecho a
                                                                      g. Sobre la naturaleza del procedimiento. (Humanos, 2017;
                                                                         párrafos 121 a 161)
 
-
 ## 160. Los Estados cuentan con la posibilidad de establecer y
 
-                                                                     decidir sobre el procedimiento más adecuado de conformidad
+**Definición Canónica:** decidir sobre el procedimiento más adecuado de conformidad
+                                                                     con las características propias de cada contexto y de su derecho
+                                                                     interno, los trámites o procedimientos para el cambio de nom-
+                                                                     bre, adecuación de la imagen y rectificación de la referencia al
+                                                                     sexo o género, en los registros y en los documentos de identidad
+        
+**Concordancias Legales:** artículo 19 de la Convención
+
+decidir sobre el procedimiento más adecuado de conformidad
                                                                      con las características propias de cada contexto y de su derecho
                                                                      interno, los trámites o procedimientos para el cambio de nom-
                                                                      bre, adecuación de la imagen y rectificación de la referencia al
@@ -4037,10 +4094,13 @@ de Género                                                         del derecho a
                                                                  la materia, por el riesgo de encasillar a las personas, lo que debe ser
                                                                  evitado.
 
-
 ## 31. Esta Corte debe abordar estas temáticas teniendo en cuenta
 
-                                                                     que en ellos suelen utilizarse conceptos y definiciones acerca
+**Definición Canónica:** que en ellos suelen utilizarse conceptos y definiciones acerca
+                                                                     de los que no existe acuerdo entre los organismos nacionales,
+                                                                     internacionales, organizaciones y grupos que defienden sus res-
+
+que en ellos suelen utilizarse conceptos y definiciones acerca
                                                                      de los que no existe acuerdo entre los organismos nacionales,
                                                                      internacionales, organizaciones y grupos que defienden sus res-
 
@@ -4063,10 +4123,15 @@ de Género                                                         del derecho a
                                                                  Consultiva con un glosario de términos, como forma de orientar el
                                                                  uso de las expresiones que se hace en el sistema interamericano.
 
-
 ## 32. A mero título ilustrativo e incluso demostrativo de la dificultad
 
-                                                                     antes señalada –e insistiendo en que no los asume como propios
+**Definición Canónica:** antes señalada –e insistiendo en que no los asume como propios
+                                                                     en esta opinión–, la Corte recuerda que los siguientes conceptos,
+                                                                     tomados de diferentes fuentes orgánicas internacionales, al parecer
+                                                                     son los más corrientes en el plano internacional:
+**Concordancias Legales:** artículos 1.1; artículo 1; Constitucion
+
+antes señalada –e insistiendo en que no los asume como propios
                                                                      en esta opinión–, la Corte recuerda que los siguientes conceptos,
                                                                      tomados de diferentes fuentes orgánicas internacionales, al parecer
                                                                      son los más corrientes en el plano internacional:
@@ -4310,10 +4375,17 @@ de Género                                                         del derecho a
                                                                        humanos en Latinoamérica”, en Revista Sociedad y Economía
                                                                        N° 25, 2013, pp. 183-204.
 
-
 ## 2.2.2.2 Jurisprudencia contenciosa del sistema
 
-                                                                 interamericano de derechos humanos en
+**Definición Canónica:** interamericano de derechos humanos en
+                                                                 relación a la identidad de género
+                                                                 En materia de protección a las personas LGBTI en la jurisprudencia
+                                                                 contenciosa de la Corte IDH, el primer caso, considerado emblemá-
+                                                                 tico dentro del sistema interamericano, es el caso Atala Riffo y Niñas
+                                                                
+**Concordancias Legales:** artículo 225 del Código Civil de la época
+
+interamericano de derechos humanos en
                                                                  relación a la identidad de género
                                                                  En materia de protección a las personas LGBTI en la jurisprudencia
                                                                  contenciosa de la Corte IDH, el primer caso, considerado emblemá-
@@ -4541,10 +4613,12 @@ de Género                                                                      
                                                                                                      noviembre de 2020)
                                                                                                    — Audiencias Públicas (11 y 12 noviembre de 2020)
 
-
 ## 2.2.2.3 Otras iniciativas del sistema interamericano
 
-                                                                                              a favor de la igualdad y no discriminación por
+**Definición Canónica:** a favor de la igualdad y no discriminación por
+                                                                                              orientación sexual e identidad de género
+
+a favor de la igualdad y no discriminación por
                                                                                               orientación sexual e identidad de género
 
                                                        Creación de la Unidad para los         Su plan de trabajo inicial incluyó la preparación de un informe hemisférico
@@ -4601,10 +4675,12 @@ de Género                                                                      
 Ley de Identidad                                                     2. Estándares internacionales para la protección                    109
 de Género                                                               del derecho a la identidad de género
 
-
 ## 2.3     Estándares internacionales sobre identidad de
 
-                                                                       género y su aplicabilidad para el Poder Judicial
+**Definición Canónica:** género y su aplicabilidad para el Poder Judicial
+**Concordancias Legales:** artículo 5; Constitución Política
+
+género y su aplicabilidad para el Poder Judicial
 
                                                                        Chile ha firmado tratados internacionales sobre derechos humanos y
                                                                        ha aceptado en algunos casos la competencia de los órganos llamados
@@ -4670,7 +4746,14 @@ de Género                                                                      
 
 ## 83. La Corte ha establecido, al igual que el Tribunal Europeo de
 
-                                                      el Estado al que             Derechos Humanos, que los tratados de derechos humanos son
+**Definición Canónica:** el Estado al que             Derechos Humanos, que los tratados de derechos humanos son
+                                                      pertenecen, lo cual          instrumentos vivos, cuya interpretación tiene que acompañar la
+                                                      les obliga a velar           evolución de los tiempos y las condiciones de vida actuales. Tal
+                                                      por el respeto de            interpretación evolutiva es consecuente con las reglas generales
+                                                                      
+**Concordancias Legales:** artículo 29 de la Convención
+
+el Estado al que             Derechos Humanos, que los tratados de derechos humanos son
                                                       pertenecen, lo cual          instrumentos vivos, cuya interpretación tiene que acompañar la
                                                       les obliga a velar           evolución de los tiempos y las condiciones de vida actuales. Tal
                                                       por el respeto de            interpretación evolutiva es consecuente con las reglas generales
@@ -4751,10 +4834,16 @@ de Género                                                         del derecho a
                                                                  interpretación que del mismo ha hecho la Corte Interamericana,
                                                                  intérprete última de la Convención Americana (Humanos, 2012).
 
-
 ## 281. De otra parte, conforme lo ha establecido en su jurispru-
 
-                                                                     dencia previa, este Tribunal recuerda que es consciente que
+**Definición Canónica:** dencia previa, este Tribunal recuerda que es consciente que
+                                                                     las autoridades internas están sujetas al imperio de la ley y, por
+                                                                     ello, están obligadas a aplicar las disposiciones vigentes en el
+                                                                     ordenamiento jurídico. Pero cuando un Estado es Parte de un
+                                                                     tratado internacional como la Convención Americana, todos sus
+          
+
+dencia previa, este Tribunal recuerda que es consciente que
                                                                      las autoridades internas están sujetas al imperio de la ley y, por
                                                                      ello, están obligadas a aplicar las disposiciones vigentes en el
                                                                      ordenamiento jurídico. Pero cuando un Estado es Parte de un
@@ -4765,10 +4854,16 @@ de Género                                                         del derecho a
                                                                      la Convención no se vean mermados por la aplicación de normas
                                                                      contrarias a su objeto y fin.
 
-
 ## 282. Los jueces y órganos vinculados a la administración de
 
-                                                                     justicia en todos los niveles están en la obligación de ejercer ex
+**Definición Canónica:** justicia en todos los niveles están en la obligación de ejercer ex
+                                                                     officio un “control de convencionalidad” entre las normas inter-
+                                                                     nas y la Convención Americana, en el marco de sus respectivas
+                                                                     competencias y de las regulaciones procesales correspondientes.
+                                                                     En esta tarea, los jueces y órganos vinculados a la administración
+**Concordancias Legales:** Ley Nº 21.120; constitucion
+
+justicia en todos los niveles están en la obligación de ejercer ex
                                                                      officio un “control de convencionalidad” entre las normas inter-
                                                                      nas y la Convención Americana, en el marco de sus respectivas
                                                                      competencias y de las regulaciones procesales correspondientes.
@@ -4850,10 +4945,12 @@ de Género                                                                      
                                                           contenidos
                                                                         —   Jurisprudencia relevante sobre identidad de género
 
-
 ## 3.1         La realidad de las personas
 
-                                                                                    trans en Chile
+**Definición Canónica:** trans en Chile
+**Concordancias Legales:** Ley Nº 21.120
+
+trans en Chile
 
                                                                                     El principal problema jurídico en Chile para las personas trans ha
                                                                                     sido, en general, la falta de reconocimiento legal de la identidad de
@@ -5033,10 +5130,14 @@ de Género                                                         al derecho a 
 Ley de Identidad                                                     3. Ley Nº 21.120, que reconoce y da protección                          121
 de Género                                                               al derecho a la identidad de género
 
-
 ## 3.2     La protección constitucional a la identidad
 
-                                                                       de género y jurisprudencia chilena sobre
+**Definición Canónica:** de género y jurisprudencia chilena sobre
+                                                                       identidad de género ante tribunales superiores
+                                                                       y el Tribunal Constitucional, a 2020
+**Concordancias Legales:** artículo 19; artículo 1; artículo 2; artículo 17; artículo 12 del Código Penal; Ley N° 19.284; Ley N° 20.348; Ley N° 20.422; Ley N° 20.609; Ley N° 20.830; Ley N° 20.750; Ley N° 20.968; Ley Nº 20.940; Ley Nº 21.120; Ley N° 21.120; Ley N° 20.005; Ley N° 21.153; Ley N° 21.212; Ley 20.609; Constitucion; Constitución Política; Constitución
+
+de género y jurisprudencia chilena sobre
                                                                        identidad de género ante tribunales superiores
                                                                        y el Tribunal Constitucional, a 2020
 
@@ -5169,16 +5270,17 @@ de Género                                                         al derecho a 
 Ley de Identidad                                                     3. Ley Nº 21.120, que reconoce y da protección                         124
 de Género                                                               al derecho a la identidad de género
 
-
-## 3.3     Antecedentes generales sobre el origen de la
-
-                                                                       idea de legislar en la materia, los fundamentos
-                                                                       del proyecto de ley y la tramitación legislativa
-
-
 ## 3.3.1 Del origen y contexto de la idea de legislar
 
-                                                                       en materia de identidad de género
+**Definición Canónica:** en materia de identidad de género
+                                                                       El principal problema jurídico en Chile para las personas trans ha
+                                                                       sido la falta de reconocimiento legal de la identidad de género. Ello
+                                                                       provoca falta de reconocimiento social y contribuye a la discriminación
+                                                                       (en la forma de restricción o exclusión en el ejercicio de derechos)
+    
+**Concordancias Legales:** Ley N° 26.743; Ley Nº 21.120; constitucion
+
+en materia de identidad de género
                                                                        El principal problema jurídico en Chile para las personas trans ha
                                                                        sido la falta de reconocimiento legal de la identidad de género. Ello
                                                                        provoca falta de reconocimiento social y contribuye a la discriminación
@@ -5216,10 +5318,13 @@ de Género                                                               al dere
 Ley de Identidad                                               3. Ley Nº 21.120, que reconoce y da protección                     125
 de Género                                                         al derecho a la identidad de género
 
-
 ## 3.3.2 De los fundamentos para la idea de
 
-                                                                 legislar y las consideraciones tenidas en
+**Definición Canónica:** legislar y las consideraciones tenidas en
+                                                                 vista para elaborar el proyecto original
+**Concordancias Legales:** constitucion
+
+legislar y las consideraciones tenidas en
                                                                  vista para elaborar el proyecto original
 
                                                                  Consideraciones normativas nacionales
@@ -5248,10 +5353,13 @@ de Género                                                         al derecho a 
                                                                  — Estándares en materia de reconocimiento del derecho a la iden-
                                                                    tidad de género y otros derechos vinculados.
 
-
 ## 3.3.3 De algunos aspectos de la tramitación legislativa
 
-                                                                 Entre los principales temas discutidos durante la tramitación legis-
+**Definición Canónica:** Entre los principales temas discutidos durante la tramitación legis-
+                                                                 lativa, cabe distinguir:
+**Concordancias Legales:** artículo 42; Ley Nº 21.120; Ley N° 19.947; Ley Nº 17.344; Constitucion
+
+Entre los principales temas discutidos durante la tramitación legis-
                                                                  lativa, cabe distinguir:
 
 Ley de Identidad                                               3. Ley Nº 21.120, que reconoce y da protección                         126
@@ -5376,63 +5484,49 @@ de Género                                                         al derecho a 
 Ley de Identidad                                                     3. Ley Nº 21.120, que reconoce y da protección                                     129
 de Género                                                               al derecho a la identidad de género
 
-
 ## 3.4     Contenido de la
 
-                                                                       Ley Nº 21.120
+**Definición Canónica:** Ley Nº 21.120
+**Concordancias Legales:** Ley Nº 21.120
+
+Ley Nº 21.120
 
                                                                        Ley Nº 21.120
 
                                                                        7 títulos, 29 artículos y 3 disposiciones transitorias
 
-
-## Título I        Del derecho a la identidad de género.       Artículos 1º al 5º
-
-
-## Título II       Del procedimiento de rectificación de       Artículos 6º al 8º
-
-                                                                                       sexo y nombre registral.
-
-
 ## Título III      Del procedimiento administrativo de         Artículos 9º al 11
 
-                                                                                       rectificación de la inscripción relativa
+**Definición Canónica:** rectificación de la inscripción relativa
+                                                                                       al sexo y nombre solicitada por perso-
+                                                                                       na mayor de edad sin vínculo matri-
+
+rectificación de la inscripción relativa
                                                                                        al sexo y nombre solicitada por perso-
                                                                                        na mayor de edad sin vínculo matri-
 
                                                                                        monial vigente
 
-
-## Título IV       De los procedimientos judiciales de         Artículos 12 al 19
-
-                                                                                       rectificación de la inscripación relativa
-                                                                                       al sexo y nombre
-
-
 ## Título V        De la rectificación de la partida de na-    Artículos 20 al 22
 
-                                                                                       cimiento, de los nuevos documentos
+**Definición Canónica:** cimiento, de los nuevos documentos
                                                                                        de identificación y de los efectos de la
                                                                                        rectificación.
 
-
-## Título VI       Otras disposiciones.                        Artículos 1º al 5º
-
-
-## Título VII      Adecuación de diversos cuerpos legales.     Artículos 27 al 29
-
-
-                                                                                       Disposiciones transitorias.
-
-
-## 3.4.1 Definición de identidad de género en la Ley Nº
-
-                                                                       21.120 y elementos para la apreciación judicial
-
+cimiento, de los nuevos documentos
+                                                                                       de identificación y de los efectos de la
+                                                                                       rectificación.
 
 ## 3.4.1.1 Definición en el proyecto original
 
-                                                                       El proyecto, ingresado al Congreso Nacional el 7 de mayo de 2013,
+**Definición Canónica:** El proyecto, ingresado al Congreso Nacional el 7 de mayo de 2013,
+                                                                       seguía en su definición de identidad de género a los Principios de
+                                                                       Yogyakarta, instrumento internacional de referencia, a esa fecha, en
+                                                                       relación a la identidad de género. Así, se indicaba como definición
+                                                                       la siguiente:
+**Concordancias Legales:** Ley Nº 21.120
+
+El proyecto, ingresado al Congreso Nacional el 7 de mayo de 2013,
                                                                        seguía en su definición de identidad de género a los Principios de
                                                                        Yogyakarta, instrumento internacional de referencia, a esa fecha, en
                                                                        relación a la identidad de género. Así, se indicaba como definición
@@ -5452,16 +5546,12 @@ de Género                                                         al derecho a 
                                                                      escogida) y otras expresiones de género, incluyendo la vestimenta,
                                                                      el modo de hablar y los modales.
 
-
-## 3.4.1.2 Definición de identidad de
-
-                                                                 género en la Ley Nº 21.120
-                                                                 La Ley Nº 21.120 señala, en su artículo 1º:
-
-
 ## Derecho a la identidad de género y la rectifi-
 
-                                                                     CACIÓN DE SEXO Y NOMBRE REGISTRAL. El derecho a la
+**Definición Canónica:** CACIÓN DE SEXO Y NOMBRE REGISTRAL. El derecho a la
+                                                                     identidad de género consiste en la facultad de toda persona cuya
+
+CACIÓN DE SEXO Y NOMBRE REGISTRAL. El derecho a la
                                                                      identidad de género consiste en la facultad de toda persona cuya
 
                                                                      identidad de género no coincida con su sexo y nombre registral,
@@ -5485,10 +5575,14 @@ de Género                                                         al derecho a 
                                                                  no binario”, “género fluido”, o que se autoperciba de otra manera,
                                                                  sin la referencia expresa a la genitalidad.
 
-
 ## 3.4.1.3 Definición de identidad de género en el
 
-                                                                 sistema interamericano de derechos humanos
+**Definición Canónica:** sistema interamericano de derechos humanos
+                                                                 La Opinión Consultiva 24/17 define identidad de género en la letra f
+                                                                 del párrafo 32, correspondiente al glosario de términos que contiene.
+**Concordancias Legales:** Ley Nº 21.120
+
+sistema interamericano de derechos humanos
                                                                  La Opinión Consultiva 24/17 define identidad de género en la letra f
                                                                  del párrafo 32, correspondiente al glosario de términos que contiene.
 
@@ -5518,10 +5612,16 @@ de Género                                                         al derecho a 
                                                                  consultiva recién mencionada se desarrolla esta idea, desde un enfo-
                                                                  que de derechos humanos, en los párrafos 88 a 101 (Humanos, 2017).
 
-
 ## 88. Ahora bien, un aspecto central del reconocimiento de la
 
-                                                                     dignidad lo constituye la posibilidad de todo ser humano de
+**Definición Canónica:** dignidad lo constituye la posibilidad de todo ser humano de
+                                                                     autodeterminarse y escoger libremente las opciones y circuns-
+                                                                     tancias que le dan sentido a su existencia, conforme a sus propias
+                                                                     opciones y convicciones. En este marco juega un papel funda-
+                                                                     mental el principio de la autonomía de la persona, el cual veda
+          
+
+dignidad lo constituye la posibilidad de todo ser humano de
                                                                      autodeterminarse y escoger libremente las opciones y circuns-
                                                                      tancias que le dan sentido a su existencia, conforme a sus propias
                                                                      opciones y convicciones. En este marco juega un papel funda-
@@ -5535,10 +5635,12 @@ de Género                                                         al derecho a 
                                                                      cada persona es libre y autónoma de seguir un modelo de vida
                                                                      de acuerdo con sus valores, creencias, convicciones e intereses.
 
-
 ## 89. Por otra parte, y en ese orden de ideas, esta Corte ha interpre-
 
-                                                                     tado en forma amplia el artículo 7.1 de la Convención Americana
+**Definición Canónica:** tado en forma amplia el artículo 7.1 de la Convención Americana
+**Concordancias Legales:** artículo 7.1 de la Convención Americana Ley de Identidad; Ley Nº 21.120
+
+tado en forma amplia el artículo 7.1 de la Convención Americana
 
 Ley de Identidad                                               3. Ley Nº 21.120, que reconoce y da protección                           132
 de Género                                                         al derecho a la identidad de género
@@ -5564,10 +5666,17 @@ de Género                                                         al derecho a 
                                                                      autodetermina y se autogobierna, es decir, que es dueño de sí
                                                                      mismo y de sus actos.
 
-
 ## 90. Respecto al derecho a la identidad, esta Corte ha indicado
 
-                                                                     que puede ser conceptualizado, en general, como el conjunto de
+**Definición Canónica:** que puede ser conceptualizado, en general, como el conjunto de
+                                                                     atributos y características que permiten la individualización de
+                                                                     la persona en sociedad y que, en tal sentido, comprende varios
+                                                                     derechos según el sujeto de derechos de que se trate y las circuns-
+                                                                     tancias del caso. El derecho a la identidad puede verse afectado
+
+**Concordancias Legales:** artículos 7; Ley Nº 21.120
+
+que puede ser conceptualizado, en general, como el conjunto de
                                                                      atributos y características que permiten la individualización de
                                                                      la persona en sociedad y que, en tal sentido, comprende varios
                                                                      derechos según el sujeto de derechos de que se trate y las circuns-
@@ -5594,10 +5703,15 @@ de Género                                                         al derecho a 
                                                                      derecho a la vida privada y con el principio de autonomía de la
                                                                      persona (artículos 7 y 11 de la Convención Americana).
 
-
 ## 91. Asimismo, se puede entender que este derecho está íntima-
 
-                                                                     mente ligado a la persona en su individualidad específica y vida
+**Definición Canónica:** mente ligado a la persona en su individualidad específica y vida
+                                                                     privada, sustentadas ambas en una experiencia histórica, y bioló-
+                                                                     gica, así como en la forma en que se relaciona con los demás, a
+                                                                     través del desarrollo de vínculos en el plano familiar y social. Lo
+                                                                     anterior también implica que las personas pueden experimentar
+
+mente ligado a la persona en su individualidad específica y vida
                                                                      privada, sustentadas ambas en una experiencia histórica, y bioló-
                                                                      gica, así como en la forma en que se relaciona con los demás, a
                                                                      través del desarrollo de vínculos en el plano familiar y social. Lo
@@ -5617,10 +5731,16 @@ de Género                                                         al derecho a 
                                                                      vida y de la individualización de las personas es precisamente la
                                                                      identidad de género y sexual.
 
-
 ## 92. Por lo demás, el derecho a la identidad y, por tanto, el derecho
 
-                                                                     a la identidad sexual y de género, tiene entre sus implicaciones y
+**Definición Canónica:** a la identidad sexual y de género, tiene entre sus implicaciones y
+                                                                     alcances más relevantes, el de constituirse como un derecho con
+                                                                     carácter autónomo que alimenta su contenido tanto de las normas
+                                                                     del derecho internacional, como de aquellas que se deriven de
+                                                                     los rasgos culturales propios contemplados en el ordenamiento
+     
+
+a la identidad sexual y de género, tiene entre sus implicaciones y
                                                                      alcances más relevantes, el de constituirse como un derecho con
                                                                      carácter autónomo que alimenta su contenido tanto de las normas
                                                                      del derecho internacional, como de aquellas que se deriven de
@@ -5629,10 +5749,14 @@ de Género                                                         al derecho a 
                                                                      cificidad de la persona, con los derechos que lo hacen único,
                                                                      singular e identificable .
 
-
 ## 93. En relación con la identidad de género y sexual, esta Corte
 
-                                                                     reitera que la misma también se encuentra ligada al concepto de
+**Definición Canónica:** reitera que la misma también se encuentra ligada al concepto de
+                                                                     libertad y a la posibilidad de todo ser humano de autodetermi-
+                                                                     narse y escoger libremente las opciones y circunstancias que le
+**Concordancias Legales:** Ley Nº 21.120
+
+reitera que la misma también se encuentra ligada al concepto de
                                                                      libertad y a la posibilidad de todo ser humano de autodetermi-
                                                                      narse y escoger libremente las opciones y circunstancias que le
 
@@ -5648,10 +5772,12 @@ de Género                                                         al derecho a 
                                                                      intimidad, en el que también influye la orientación sexual de la
                                                                      persona, la cual dependerá de cómo esta se autoidentifique.
 
-
 ## 94. En este punto, corresponde recordar que la identidad de
 
-                                                                     género ha sido definida en esta opinión como la vivencia interna
+**Definición Canónica:** género ha sido definida en esta opinión como la vivencia interna
+                                                                     e individual del género tal como cada persona la siente, la cual
+
+género ha sido definida en esta opinión como la vivencia interna
                                                                      e individual del género tal como cada persona la siente, la cual
 
                                                                      podría corresponder o no con el sexo asignado al momento del na-
@@ -5664,10 +5790,16 @@ de Género                                                         al derecho a 
                                                                      identitaria que es resultado de la decisión libre y autónoma de
                                                                      cada persona, sin que deba estar sujeta a su genitalidad.
 
-
 ## 95. De esa forma, el sexo, así como las identidades, las funciones
 
-                                                                     y los atributos construidos socialmente que se atribuye a las di-
+**Definición Canónica:** y los atributos construidos socialmente que se atribuye a las di-
+                                                                     ferencias biológicas en torno al sexo asignado al nacer, lejos de
+                                                                     constituirse en componentes objetivos e inmutables del estado
+                                                                     civil que individualiza a la persona, por ser un hecho de la natu-
+                                                                     raleza física o biológica, terminan siendo rasgos que dependen 
+**Concordancias Legales:** Ley Nº 21.120
+
+y los atributos construidos socialmente que se atribuye a las di-
                                                                      ferencias biológicas en torno al sexo asignado al nacer, lejos de
                                                                      constituirse en componentes objetivos e inmutables del estado
                                                                      civil que individualiza a la persona, por ser un hecho de la natu-
@@ -5697,10 +5829,12 @@ de Género                                                         al derecho a 
                                                                      mayor medida, definen tanto la visión que la persona tiene frente
                                                                      a sí misma como su proyección ante la sociedad.
 
-
 ## 96. Por otra parte, el Tribunal considera que el derecho a la iden-
 
-                                                                     tidad, y en particular la manifestación de la identidad, también se
+**Definición Canónica:** tidad, y en particular la manifestación de la identidad, también se
+**Concordancias Legales:** artículo 13
+
+tidad, y en particular la manifestación de la identidad, también se
 
                                                                      encuentra protegido por el artículo 13 que reconoce el derecho a la
                                                                      libertad de expresión. Desde esta óptica, interferir arbitrariamente
@@ -5719,10 +5853,17 @@ de Género                                                         al derecho a 
                                                                      dicho vulneración adquirió una especial gravedad ya que afectó
                                                                      su dignidad personal como miembro la comunidad Garífuna.
 
-
 ## 97. En atención a lo previamente indicado, la Corte coincide con
 
-                                                                     la Comisión cuando esta señala que la falta de reconocimiento
+**Definición Canónica:** la Comisión cuando esta señala que la falta de reconocimiento
+                                                                     de la identidad de género o sexual podría resultar en una cen-
+                                                                     sura indirecta a las expresiones de género que se aparten de los
+                                                                     estándares cisnormativos, o heteronormativos con lo cual se
+                                                                     envía un mensaje generalizado de que aquellas personas que se
+            
+**Concordancias Legales:** Ley Nº 21.120
+
+la Comisión cuando esta señala que la falta de reconocimiento
                                                                      de la identidad de género o sexual podría resultar en una cen-
                                                                      sura indirecta a las expresiones de género que se aparten de los
                                                                      estándares cisnormativos, o heteronormativos con lo cual se
@@ -5735,10 +5876,16 @@ de Género                                                         al derecho a 
 Ley de Identidad                                               3. Ley Nº 21.120, que reconoce y da protección                         136
 de Género                                                         al derecho a la identidad de género
 
-
 ## 98. Visto lo anterior, esta Corte entiende que la identidad de gé-
 
-                                                                     nero es un elemento constitutivo y constituyente de la identidad
+**Definición Canónica:** nero es un elemento constitutivo y constituyente de la identidad
+                                                                     de las personas, en consecuencia, su reconocimiento por parte
+                                                                     del Estado resulta de vital importancia para garantizar el pleno
+                                                                     goce de los derechos humanos de las personas transgénero, in-
+                                                                     cluyendo la protección contra la violencia, tortura, malos tratos,
+   
+
+nero es un elemento constitutivo y constituyente de la identidad
                                                                      de las personas, en consecuencia, su reconocimiento por parte
                                                                      del Estado resulta de vital importancia para garantizar el pleno
                                                                      goce de los derechos humanos de las personas transgénero, in-
@@ -5759,10 +5906,16 @@ de Género                                                         al derecho a 
                                                                      no cuente con constancia legal de su existencia, dificultando el
                                                                      pleno ejercicio de sus derechos.
 
-
 ## 99. En ese mismo sentido, esta Corte comparte lo señalado por
 
-                                                                     el Comité Jurídico Interamericano el cual sostuvo que el derecho
+**Definición Canónica:** el Comité Jurídico Interamericano el cual sostuvo que el derecho
+                                                                     a la identidad posee “un valor instrumental para el ejercicio de
+                                                                     determinados derechos civiles, políticos, económicos, sociales y
+                                                                     culturales, de tal manera que su plena vigencia fortalece la demo-
+                                                                     cracia y el ejercicio de los derechos y libertades fundamental
+**Concordancias Legales:** Ley Nº 21.120
+
+el Comité Jurídico Interamericano el cual sostuvo que el derecho
                                                                      a la identidad posee “un valor instrumental para el ejercicio de
                                                                      determinados derechos civiles, políticos, económicos, sociales y
                                                                      culturales, de tal manera que su plena vigencia fortalece la demo-
@@ -5785,10 +5938,16 @@ de Género                                                         al derecho a 
                                                                      obstáculo frente al derecho que tiene toda persona al reconoci-
                                                                      miento pleno de su personalidad jurídica.
 
-
 ## 100. De acuerdo con ello, el Estado, en su calidad de garante de
 
-                                                                     la pluralidad de derechos, debe respetar y garantizar la coexis-
+**Definición Canónica:** la pluralidad de derechos, debe respetar y garantizar la coexis-
+                                                                     tencia de individuos con distintitas identidades, expresiones de
+                                                                     género y orientaciones sexuales, para lo cual debe asegurar que
+                                                                     todas ellas puedan vivir y desarrollarse con dignidad y el mismo
+                                                                     respeto al que tienen derecho todas las personas. La Corte opina
+
+
+la pluralidad de derechos, debe respetar y garantizar la coexis-
                                                                      tencia de individuos con distintitas identidades, expresiones de
                                                                      género y orientaciones sexuales, para lo cual debe asegurar que
                                                                      todas ellas puedan vivir y desarrollarse con dignidad y el mismo
@@ -5800,10 +5959,12 @@ de Género                                                         al derecho a 
                                                                      las personas cuya identidad de género es diferente a la que es
                                                                      asociada con el sexo que les fue asignado al nacer.
 
-
 ## 101. De conformidad con lo anterior, se puede concluir lo si-
 
-                                                                     guiente:
+**Definición Canónica:** guiente:
+**Concordancias Legales:** artículos 7; Ley Nº 21.120
+
+guiente:
 
                                                                      a) Se desprende el derecho a la identidad del reconocimiento del
                                                                      libre desarrollo de la personalidad y del derecho a la vida privada
@@ -5871,10 +6032,12 @@ de Género                                                         al derecho a 
 Ley de Identidad                                                                    3. Ley Nº 21.120, que reconoce y da protección                                139
 de Género                                                                              al derecho a la identidad de género
 
-
 ## 3.4.2 Principios relativos al derecho
 
-                                                                                      a la identidad de género
+**Definición Canónica:** a la identidad de género
+**Concordancias Legales:** artículo 2; Artículos 1; artículo 3; Ley Nº 21.120; Ley Nº 20.609; Ley Nº 19.628; Constitución Política
+
+a la identidad de género
 
                                                                                         De los principios (art. 5)
 
@@ -5959,10 +6122,12 @@ de Género                                                                      
                                                                                                                                             chado
                                                                                       que contempla esta ley.
 
-
 ## 3.4.3 Garantías asociadas al derecho
 
-                                                                                    a çla identidad de género
+**Definición Canónica:** a çla identidad de género
+**Concordancias Legales:** artículos 3; artículo 4; Ley Nº 21.120
+
+a çla identidad de género
 
                                                                                       De las garantías (artículos 3º y 4º)
 
@@ -5999,10 +6164,12 @@ de Género                                                                      
                                                        portamiento e interacción so-           La expresión de género de una persona puede o no corresponder con su
                                                        cial, entre otros aspectos.             identidad de género autopercibida.
 
-
 ## 3.4.4 Derechos de personas titulares del
 
-                                                                                          derecho a la identidad de género
+**Definición Canónica:** derecho a la identidad de género
+**Concordancias Legales:** Ley Nº 21.120
+
+derecho a la identidad de género
 
                                                                                           Los principales derechos que se reconocen para las personas en la
                                                                                           regulación legal y reglamentaria vigente en Chile, son:
@@ -6030,10 +6197,12 @@ de Género                                                                      
 Ley de Identidad                                                                    3. Ley Nº 21.120, que reconoce y da protección                               142
 de Género                                                                              al derecho a la identidad de género
 
-
 ## 3.4.5 Procedimientos de solicitud de
 
-                                                                                      reconocimiento previstos en la Ley Nº 21.120
+**Definición Canónica:** reconocimiento previstos en la Ley Nº 21.120
+**Concordancias Legales:** Ley Nº 21.120
+
+reconocimiento previstos en la Ley Nº 21.120
 
                                                        De los procedimientos en
                                                        la Ley Nº 21.120 para ac-        Procedimiento ante órgano administrativo
@@ -6047,11 +6216,14 @@ de Género                                                                      
                                                        congruente con su iden-          — Para las personas con vínculo matrimonial vigente
                                                        tidad de género.
 
-
 ## 3.4.6 Efectos de la rectificación
 
+**Definición Canónica:** de partida de nacimiento
+                                                                                        De la emisión de nuevos documentos y diligencias posteriores;
+                                                                                        artículo 20
+**Concordancias Legales:** artículo 20; artículo 21; artículo 22; Ley Nº 21.120
 
-                                                                                      de partida de nacimiento
+de partida de nacimiento
                                                                                         De la emisión de nuevos documentos y diligencias posteriores;
                                                                                         artículo 20
 
@@ -6089,15 +6261,17 @@ de Género                                                                      
 Ley de Identidad                                                     3. Ley Nº 21.120, que reconoce y da protección                        143
 de Género                                                               al derecho a la identidad de género
 
-
-## 3.5     De los procedimientos ante
-
-                                                                       tribunales de justicia
-
-
 ## 3.5.1 Del procedimiento judicial para
 
-                                                                       mayores de 14 años y menores de 18
+**Definición Canónica:** mayores de 14 años y menores de 18
+                                                                       El procedimiento judicial para mayores de 14 años y menores de 18
+                                                                       se regula en los artículos 12 al 17 de la Ley Nº 21.120 y en el Regla-
+                                                                       mento del Ministerio de Desarrollo Social y Familia publicado en el
+                                                                       Diario Oficial de 29 de agosto de 2019, en conformidad al artículo
+         
+**Concordancias Legales:** artículos 12; artículo 26; artículo 3; artículo 4; artículo 17 de la Ley Nº 21.120; artículo 23 de la Ley Nº 21.120; artículo 6; artículo 15; artículo 23; artículo 26 de la Ley Nº 21.120; artículo 17; Ley Nº 21.120; Ley Nº 19.968; Ley Nº 19.628; Ley Nº 20.584
+
+mayores de 14 años y menores de 18
                                                                        El procedimiento judicial para mayores de 14 años y menores de 18
                                                                        se regula en los artículos 12 al 17 de la Ley Nº 21.120 y en el Regla-
                                                                        mento del Ministerio de Desarrollo Social y Familia publicado en el
@@ -6478,10 +6652,17 @@ de Género                                                         al derecho a 
 Ley de Identidad                                               3. Ley Nº 21.120, que reconoce y da protección                      152
 de Género                                                         al derecho a la identidad de género
 
-
 ## parte del mismo y en cualquier circunstancia, cumplir con los
 
-                                                                     siguientes deberes:
+**Definición Canónica:** siguientes deberes:
+                                                                     a. Dar un trato digno al niño, niña o adolescente y su familia.
+                                                                     b. Comunicarse de manera clara con el niño, niña o adolescente
+                                                                        y su familia, teniendo siempre en consideración la edad y el
+                                                                        grado de madurez de los primeros.
+                                                                     c. Deja
+**Concordancias Legales:** artículo 6; artículo 23; artículo 17; artículo 9; Ley Nº 21.120; Constitución Política
+
+siguientes deberes:
                                                                      a. Dar un trato digno al niño, niña o adolescente y su familia.
                                                                      b. Comunicarse de manera clara con el niño, niña o adolescente
                                                                         y su familia, teniendo siempre en consideración la edad y el
@@ -6629,10 +6810,14 @@ de Género                                                         al derecho a 
 Ley de Identidad                                               3. Ley Nº 21.120, que reconoce y da protección                         155
 de Género                                                         al derecho a la identidad de género
 
-
 ## 3.5.2 Del procedimiento judicial para personas
 
-                                                                 solicitantes con vínculo matrimonial vigente
+**Definición Canónica:** solicitantes con vínculo matrimonial vigente
+                                                                 Se regula en los artículos 18 y 19 de la Ley Nº 21.120:
+                                                                 Tribunal competente (art. 18)
+**Concordancias Legales:** artículos 18; artículo 42 de la Ley de Matrimonio Civil; artículo 42; Ley Nº 21.120; Ley N° 19.947; Ley N° 19.968
+
+solicitantes con vínculo matrimonial vigente
                                                                  Se regula en los artículos 18 y 19 de la Ley Nº 21.120:
                                                                  Tribunal competente (art. 18)
 
@@ -6699,10 +6884,12 @@ de Género                                                         al derecho a 
 Ley de Identidad                                                              3. Ley Nº 21.120, que reconoce y da protección                        157
 de Género                                                                        al derecho a la identidad de género
 
-
 ## 3.6           El derecho a la identidad de género de
 
-                                                                                personas menores de 14 años
+**Definición Canónica:** personas menores de 14 años
+**Concordancias Legales:** artículos 12; artículo 23; artículo 76; artículo 16 de la Ley Nº 21.120; artículo 12 del Pacto Internacional de Derechos Económicos; artículo 24 de la Convención de Derechos; artículo 4; artículo 5; Ley Nº 21.120; Constitución Política
+
+personas menores de 14 años
 
                                                                                 El cambio de nombre y sexo legal para personas menores de 14 años
                                                                                 no fue incluido en la Ley Nº 21.120. Esta establece un procedimiento
@@ -6840,10 +7027,16 @@ de Género                                                         al derecho a 
                                                                  adolescentes en la Opinión Consultiva 24/17 de
                                                                  la Corte IDH (Humanos, 2017; párrafos 149-156)
 
-
 ## 149. En lo que respecta a la regulación de los procedimientos de
 
-                                                                     cambio de nombre, adecuación de la imagen y rectificación de la
+**Definición Canónica:** cambio de nombre, adecuación de la imagen y rectificación de la
+                                                                     referencia al sexo o género, en los registros y en los documentos de
+                                                                     identidad de niños y niñas, esta Corte recuerda en primer término
+                                                                     que conforme ha señalado en otros casos, los niños y las niñas
+                                                                     son titulares de los mismos derechos que los adultos y de todo
+**Concordancias Legales:** artículo 19 de la Convención; artículo 19
+
+cambio de nombre, adecuación de la imagen y rectificación de la
                                                                      referencia al sexo o género, en los registros y en los documentos de
                                                                      identidad de niños y niñas, esta Corte recuerda en primer término
                                                                      que conforme ha señalado en otros casos, los niños y las niñas
@@ -6861,10 +7054,17 @@ de Género                                                         al derecho a 
                                                                      para seres que por su desarrollo físico y emocional necesitan de
                                                                      protección especial”.
 
-
 ## 150. Asimismo, esta Corte ha entendido que la debida protección
 
-                                                                     de los derechos de las niñas y niños, en su calidad de sujetos de
+**Definición Canónica:** de los derechos de las niñas y niños, en su calidad de sujetos de
+                                                                     derechos, debe tomar en consideración sus características pro-
+                                                                     pias y la necesidad de propiciar su desarrollo, ofreciéndoles las
+                                                                     condiciones necesarias para que vivan y desarrollen sus aptitu-
+                                                                     des con pleno aprovechamiento de sus potencialidades. En este
+   
+**Concordancias Legales:** Ley Nº 21.120
+
+de los derechos de las niñas y niños, en su calidad de sujetos de
                                                                      derechos, debe tomar en consideración sus características pro-
                                                                      pias y la necesidad de propiciar su desarrollo, ofreciéndoles las
                                                                      condiciones necesarias para que vivan y desarrollen sus aptitu-
@@ -6880,10 +7080,16 @@ de Género                                                         al derecho a 
                                                                      o niños son especiales o más específicas que las que se decretan
                                                                      para el resto de las personas, es decir, los adultos.
 
-
 ## 151. Del mismo modo, de acuerdo a la jurisprudencia de esta
 
-                                                                     Corte, cuando se trata de la protección de los derechos de niñas
+**Definición Canónica:** Corte, cuando se trata de la protección de los derechos de niñas
+                                                                     y niños y de la adopción de medidas para lograr dicha protección,
+                                                                     además del principio de la autonomía progresiva que ya fuera
+                                                                     mencionado (supra párr. 150), los siguientes cuatro principios
+                                                                     rectores de la Convención sobre los Derechos del Niño deben
+         
+
+Corte, cuando se trata de la protección de los derechos de niñas
                                                                      y niños y de la adopción de medidas para lograr dicha protección,
                                                                      además del principio de la autonomía progresiva que ya fuera
                                                                      mencionado (supra párr. 150), los siguientes cuatro principios
@@ -6897,17 +7103,27 @@ de Género                                                         al derecho a 
                                                                      todo procedimiento que lo afecte, de modo que se garantice su
                                                                      participación.
 
-
 ## 152. Al respecto, resulta útil recordar que el principio de interés
 
-                                                                     superior implica, como criterio rector, tanto su consideración
+**Definición Canónica:** superior implica, como criterio rector, tanto su consideración
+                                                                     primordial en el diseño de las políticas públicas y en la elaboración
+                                                                     de normativa concerniente a la infancia, como su aplicación en
+                                                                     todos los órdenes relativos a la vida de la niña o del niño. Por otra
+
+superior implica, como criterio rector, tanto su consideración
                                                                      primordial en el diseño de las políticas públicas y en la elaboración
                                                                      de normativa concerniente a la infancia, como su aplicación en
                                                                      todos los órdenes relativos a la vida de la niña o del niño. Por otra
 
 ## parte, y en estrecha relación con el derecho a ser oído, la Corte se
 
-                                                                     ha referido en otras decisiones a la obligación de respetar plena-
+**Definición Canónica:** ha referido en otras decisiones a la obligación de respetar plena-
+                                                                     mente el derecho de la niña o del niño a ser escuchado en todas
+                                                                     las decisiones que afecten su vida. Sobre este punto en particular,
+                                                                     el Tribunal especificó también que el derecho a ser escuchado
+                                                                     de los niños y niñas constituye no solo un derecho en sí mismo,
+
+ha referido en otras decisiones a la obligación de respetar plena-
                                                                      mente el derecho de la niña o del niño a ser escuchado en todas
                                                                      las decisiones que afecten su vida. Sobre este punto en particular,
                                                                      el Tribunal especificó también que el derecho a ser escuchado
@@ -6915,10 +7131,16 @@ de Género                                                         al derecho a 
                                                                      sino que también debe tenerse en cuenta para interpretar y hacer
                                                                      respetar todos los demás derechos.
 
-
 ## 153. Por otro lado, en el marco de los casos contenciosos, este
 
-                                                                     Tribunal ha tenido la oportunidad de referirse al derecho a la
+**Definición Canónica:** Tribunal ha tenido la oportunidad de referirse al derecho a la
+                                                                     identidad de las niñas y niños reconocido por el artículo 8 de
+                                                                     la Convención sobre Derechos del Niño el cual establece en su
+                                                                     primer inciso que “[l]os Estados Partes se comprometen a res-
+                                                                     petar el derecho del niño a preservar su identidad, incluidos la
+**Concordancias Legales:** artículo 8; artículo 7.1 de la Convención; Ley Nº 21.120
+
+Tribunal ha tenido la oportunidad de referirse al derecho a la
                                                                      identidad de las niñas y niños reconocido por el artículo 8 de
                                                                      la Convención sobre Derechos del Niño el cual establece en su
                                                                      primer inciso que “[l]os Estados Partes se comprometen a res-
@@ -6940,10 +7162,17 @@ de Género                                                         al derecho a 
                                                                      de autodeterminarse y escoger libremente las opciones y circuns-
                                                                      tancias que le dan sentido a su existencia.
 
-
 ## 154. De conformidad con lo anterior, esta Corte entiende que
 
-                                                                     las consideraciones relacionadas con el derecho a la identidad
+**Definición Canónica:** las consideraciones relacionadas con el derecho a la identidad
+                                                                     de género que fueron desarrolladas supra también son aplicables
+                                                                     a los niños y niñas que deseen presentar solicitudes para que se
+                                                                     reconozca en los documentos y los registros su identidad de género
+                                                                     autopercibida. Este derecho debe ser entendido conforme a las
+   
+**Concordancias Legales:** artículo 19 de la Convención
+
+las consideraciones relacionadas con el derecho a la identidad
                                                                      de género que fueron desarrolladas supra también son aplicables
                                                                      a los niños y niñas que deseen presentar solicitudes para que se
                                                                      reconozca en los documentos y los registros su identidad de género
@@ -6965,10 +7194,13 @@ de Género                                                         al derecho a 
                                                                      a la libertad de expresión y a que se respete su integridad física y
                                                                      psicológica, su identidad de género y su autonomía emergente”.
 
-
 ## 155. En el mismo sentido, los principios de Yogyakarta han
 
-                                                                     establecido que “todas las personas, con independencia de su
+**Definición Canónica:** establecido que “todas las personas, con independencia de su
+                                                                     orientación sexual o identidad de género, tienen [...] derecho al
+**Concordancias Legales:** Ley Nº 21.120
+
+establecido que “todas las personas, con independencia de su
                                                                      orientación sexual o identidad de género, tienen [...] derecho al
 
 Ley de Identidad                                               3. Ley Nº 21.120, que reconoce y da protección                               163
@@ -6982,10 +7214,14 @@ de Género                                                         al derecho a 
                                                                      los asuntos que le afectan, teniéndose debidamente en cuenta las
                                                                      opiniones del niño o la niña, en función de su edad y madurez”.
 
-
 ## 156. Por último, y como un ejemplo de una buena práctica con
 
-                                                                     relación a este tema, el Tribunal no puede dejar de hacer mención
+**Definición Canónica:** relación a este tema, el Tribunal no puede dejar de hacer mención
+                                                                     a la Ley 26.743 de 23 de mayo de 2002 de Argentina “sobre el
+                                                                     derecho a la identidad de género de las personas” cuyo artículo 5
+**Concordancias Legales:** artículo 5; Ley 26.743; Ley Nº 21.120; Constitución Política; Constitucion
+
+relación a este tema, el Tribunal no puede dejar de hacer mención
                                                                      a la Ley 26.743 de 23 de mayo de 2002 de Argentina “sobre el
                                                                      derecho a la identidad de género de las personas” cuyo artículo 5
 
@@ -7038,16 +7274,16 @@ de Género                                                         al derecho a 
 Ley de Identidad                                                                    3. Ley Nº 21.120, que reconoce y da protección                        165
 de Género                                                                              al derecho a la identidad de género
 
-
-## 3.7                Jurisprudencia chilena relevante
-
-                                                                                      sobre Ley Nº 21.120
-
-
 ## 3.7.1 Información estadística
 
+**Definición Canónica:** Causas Terminadas por Ley Nº 21.120 que reconoce y da protección al Derecho
+                                                               a la identidad de género
+                                                               Periodo: diciembre de 2019 al 31 de marzo de 2020
+                                                               Fuente: Subdepartamento de Estadísticas del Departamento de Desarrollo Institucional (DDI) de
+                                                               la Corporación Administrativa del Poder Judicial (CAPJ)
+**Concordancias Legales:** Ley Nº 21.120
 
-                                                               Causas Terminadas por Ley Nº 21.120 que reconoce y da protección al Derecho
+Causas Terminadas por Ley Nº 21.120 que reconoce y da protección al Derecho
                                                                a la identidad de género
                                                                Periodo: diciembre de 2019 al 31 de marzo de 2020
                                                                Fuente: Subdepartamento de Estadísticas del Departamento de Desarrollo Institucional (DDI) de
@@ -7175,10 +7411,14 @@ de Género                                                                      
 Ley de Identidad                                                                            3. Ley Nº 21.120, que reconoce y da protección                             167
 de Género                                                                                      al derecho a la identidad de género
 
-
 ## 3.7.2 Lineamientos jurisprudenciales25
 
-                                                                                              Sobre el contenido de la solicitud y los
+**Definición Canónica:** Sobre el contenido de la solicitud y los
+                                                                                              antecedentes que se acompañen en el caso de
+                                                                                              personas mayores de 14 y menores de 18 años
+**Concordancias Legales:** artículo 15; artículo 3; artículo 4; artículo 17 de la Ley Nº 21.120; artículo 23 de la Ley Nº 21.120; artículo 17; Ley Nº 21.120
+
+Sobre el contenido de la solicitud y los
                                                                                               antecedentes que se acompañen en el caso de
                                                                                               personas mayores de 14 y menores de 18 años
 
@@ -7249,25 +7489,32 @@ de Género                                                         al derecho a 
 
                                                                     Documental:
 
-
 ## 1. Certificado de nacimiento del adolescente, en que consta que
 
-                                                                     XXXX, Run MMMMMMMMM, nació el día GG de VVVV de 20SS,
+**Definición Canónica:** XXXX, Run MMMMMMMMM, nació el día GG de VVVV de 20SS,
                                                                      inscrita con el N° PPPP, Registro S, año 20SS, Circunscripción
                                                                      de QQQQ, hija de VVVV y BBBB.
 
+XXXX, Run MMMMMMMMM, nació el día GG de VVVV de 20SS,
+                                                                     inscrita con el N° PPPP, Registro S, año 20SS, Circunscripción
+                                                                     de QQQQ, hija de VVVV y BBBB.
 
 ## 2. Certificado de psiquiatra DDDD que da cuenta de diagnóstico de
 
-                                                                     transexualismo y trastorno de la identidad sexual en adolescentes.
+**Definición Canónica:** transexualismo y trastorno de la identidad sexual en adolescentes.
+**Concordancias Legales:** Ley Nº 21.120
+
+transexualismo y trastorno de la identidad sexual en adolescentes.
 
 Ley de Identidad                                               3. Ley Nº 21.120, que reconoce y da protección                      169
 de Género                                                         al derecho a la identidad de género
 
-
 ## 3. Informe de atención psicológica, emitido por HHHH, que da
 
-                                                                     cuenta de atención al adolescente y a su familia.
+**Definición Canónica:** cuenta de atención al adolescente y a su familia.
+**Concordancias Legales:** artículo 5; artículo 1; artículo 12 de la Convención sobre los Derechos del niño señala; Ley N° 21.120; Ley Nº 21.120; ley 21.120; Ley Nº 17.344
+
+cuenta de atención al adolescente y a su familia.
 
                                                                      4.- Horas de atención de Hospital NN, con endocrinólogo.
 
@@ -7471,15 +7718,12 @@ de Género                                                         al derecho a 
                                                                      SÉPTIMO: Que de los antecedentes probatorios de autos se
                                                                      pueden tener por acreditados los siguientes hechos:(...)
 
-
-## 2. Ella ha podido transitar desde su origen biológico a reafirmar
-
-                                                                     su verdadera identidad gracias al constante apoyo familiar
-
-
 ## 3. Todos los informes acompañados como prueba dan cuenta de
 
-                                                                     que en este transitar FFFF ha recibido en particular el apoyo de
+**Definición Canónica:** que en este transitar FFFF ha recibido en particular el apoyo de
+**Concordancias Legales:** Ley Nº 21.120
+
+que en este transitar FFFF ha recibido en particular el apoyo de
 
 Ley de Identidad                                               3. Ley Nº 21.120, que reconoce y da protección                       174
 de Género                                                         al derecho a la identidad de género
@@ -7493,10 +7737,13 @@ de Género                                                         al derecho a 
                                                                      aceptó de buena manera su identificación desde el primer mo-
                                                                      mento y brindó un importante apoyo psicoemocional a FFFF.
 
-
 ## 4. El padre biológico de FFFF, cuya filiación no es desconocida
 
-                                                                     por ésta, es don UUUU. La adolescente manifiesta que no es su
+**Definición Canónica:** por ésta, es don UUUU. La adolescente manifiesta que no es su
+                                                                     intención modificar su filiación, sino asumir su nueva identidad
+**Concordancias Legales:** artículo 3; artículo 12; artículos 4; artículo 19; artículo 42; artículo 3 de la Ley N; artículo 3 de la Ley 21.120; Ley Nº 21.120; ley 21.120; Ley N° 21.120
+
+por ésta, es don UUUU. La adolescente manifiesta que no es su
                                                                      intención modificar su filiación, sino asumir su nueva identidad
 
                                                                      tal y como ella profundamente la ha experimentado, lo que in-
@@ -7740,10 +7987,13 @@ de Género                                                         al derecho a 
 Ley de Identidad                                                     3. Ley Nº 21.120, que reconoce y da protección                           180
 de Género                                                               al derecho a la identidad de género
 
-
 ## 3.8     Referencias a otros Estados que establecen
 
-                                                                       procedimientos para el reconocimiento de la
+**Definición Canónica:** procedimientos para el reconocimiento de la
+                                                                       identidad de género de personas trans
+**Concordancias Legales:** Ley Nº 26.743; Ley Nº 19.684; Ley Nº 21.120
+
+procedimientos para el reconocimiento de la
                                                                        identidad de género de personas trans
 
                                                                        En materia de establecimiento de procedimientos de solicitud de
@@ -7786,10 +8036,13 @@ de Género                                                               al dere
                                                                         asociadas a la
                                                                     identidad de género
 
-
 ## 26   Se recomienda revisar como complemento el apartado 6.1 Estándares internacionales
 
-                                                                    de derechos humanos y derecho nacional, del material docente “Curso sobre están-
+**Definición Canónica:** de derechos humanos y derecho nacional, del material docente “Curso sobre están-
+                                                                    dares internacionales en materia de orientación sexual e identidad de género. El Caso
+                                                                    Atala”, elaborado para la Academia Judicial por la misma autora.
+
+de derechos humanos y derecho nacional, del material docente “Curso sobre están-
                                                                     dares internacionales en materia de orientación sexual e identidad de género. El Caso
                                                                     Atala”, elaborado para la Academia Judicial por la misma autora.
 
@@ -7811,10 +8064,12 @@ de Género                                                                      
 
                                                                            Poder Judicial.
 
-
 ## 4.1         Política de Igualdad de Género y No
 
-                                                                                   discriminación del Poder Judicial chileno
+**Definición Canónica:** discriminación del Poder Judicial chileno
+**Concordancias Legales:** Ley Nº 21.120
+
+discriminación del Poder Judicial chileno
 
                                                                                    En Chile, en febrero de 2015, el pleno de la Excma. Corte Suprema
                                                                                    de Justicia de Chile aprobó una propuesta de trabajo con el objeto
@@ -7951,10 +8206,11 @@ de Género                                                               asociad
 Ley de Identidad                                                            3. Políticas y estrategias del Poder Judicial                          186
 de Género                                                                      asociadas a la identidad de género
 
-
 ## 4.3          Perspectiva de género, estereotipos e imparcialidad
 
-                                                                              judicial en casos que involucran a personas trans
+**Definición Canónica:** judicial en casos que involucran a personas trans
+
+judicial en casos que involucran a personas trans
 
                                                       El acceso a la          El acceso a la justicia es un derecho humano esencial y autónomo
                                                                               que favorece el cumplimiento de la igualdad entre las personas. Se
@@ -8010,10 +8266,15 @@ de Género                                                                      
                                                                                la Mujer, en su Recomendación General número 33 (2015), sobre el
                                                                                acceso de las mujeres a la justicia, ha indicado:
 
-
 ## 1. El derecho de acceso de las mujeres a la justicia es esencial para
 
-                                                                                    la realización de todos los derechos protegidos en virtud de la
+**Definición Canónica:** la realización de todos los derechos protegidos en virtud de la
+                                                                                    Convención sobre la Eliminación de Todas las Formas de Discri-
+                                                                                    minación contra la Mujer. Es un elemento fundamental del Estado
+                                                      Específicamente,              de derecho y la buena gobernanza, junto con la independencia,
+                                                      entre los obstáculos          la imparcia
+
+la realización de todos los derechos protegidos en virtud de la
                                                                                     Convención sobre la Eliminación de Todas las Formas de Discri-
                                                                                     minación contra la Mujer. Es un elemento fundamental del Estado
                                                       Específicamente,              de derecho y la buena gobernanza, junto con la independencia,
@@ -8162,24 +8423,31 @@ de Género                                                         asociadas a l
 
                                                                    Caso Atala vs. Chile (2012)
 
-
 ## 127. La consideración de la conducta parental, sólo es admisible cuando exis-
 
-                                                                 ten pruebas específicas que demuestren en concreto el impacto directo ne-
+**Definición Canónica:** ten pruebas específicas que demuestren en concreto el impacto directo ne-
                                                                  gativo de la conducta parental en el bienestar y desarrollo del niño o la niña.
 
+ten pruebas específicas que demuestren en concreto el impacto directo ne-
+                                                                 gativo de la conducta parental en el bienestar y desarrollo del niño o la niña.
 
 ## 142. En la Convención Americana no se encuentra determinado un concepto
 
-                                                                 cerrado de familia, ni mucho menos se protege sólo un modelo “tradicional”
+**Definición Canónica:** cerrado de familia, ni mucho menos se protege sólo un modelo “tradicional”
                                                                  de la misma(...) el concepto de vida familiar no está reducido únicamente al
                                                                  matrimonio y debe abarcar otros lazos familiares de hecho donde las partes
                                                                  tienen vida en común por fuera del matrimonio.
 
+cerrado de familia, ni mucho menos se protege sólo un modelo “tradicional”
+                                                                 de la misma(...) el concepto de vida familiar no está reducido únicamente al
+                                                                 matrimonio y debe abarcar otros lazos familiares de hecho donde las partes
+                                                                 tienen vida en común por fuera del matrimonio.
 
 ## 108. El objetivo general de proteger el principio del interés superior del niño
 
-                                                                 es, en sí mismo, un fin legítimo y es, además, imperioso.
+**Definición Canónica:** es, en sí mismo, un fin legítimo y es, además, imperioso.
+
+es, en sí mismo, un fin legítimo y es, además, imperioso.
 
 Ley de Identidad                                               3. Políticas y estrategias del Poder Judicial                                     191
 de Género                                                         asociadas a la identidad de género
@@ -8193,10 +8461,15 @@ de Género                                                         asociadas a l
                                                                 sobre características personales de los padres o preferencias culturales res-
                                                                 pecto a ciertos conceptos tradicionales de la familia.
 
-
 ## 110. En conclusión, la Corte Interamericana observa que al ser, en abstracto, el
 
-                                                                “interés superior del niño” un fin legítimo, la sola referencia al mismo sin probar,
+**Definición Canónica:** “interés superior del niño” un fin legítimo, la sola referencia al mismo sin probar,
+                                                                en concreto, los riesgos o daños que podrían conllevar la orientación sexual de
+                                                                la madre para las niñas, no puede servir de medida idónea para la restricción
+                                                                de un derecho protegido como el de poder ejercer todos los derechos huma-
+                                                                nos sin discriminación algu
+
+“interés superior del niño” un fin legítimo, la sola referencia al mismo sin probar,
                                                                 en concreto, los riesgos o daños que podrían conllevar la orientación sexual de
                                                                 la madre para las niñas, no puede servir de medida idónea para la restricción
                                                                 de un derecho protegido como el de poder ejercer todos los derechos huma-
@@ -8206,10 +8479,16 @@ de Género                                                         asociadas a l
                                                                 De este modo, el juzgador no puede tomar en consideración esta condición
                                                                 social como elemento para decidir sobre una tuición o custodia.
 
-
 ## 111. Una determinación a partir de presunciones infundadas y estereotipadas
 
-                                                                sobre la capacidad e idoneidad parental de poder garantizar y promover el
+**Definición Canónica:** sobre la capacidad e idoneidad parental de poder garantizar y promover el
+                                                                bienestar y desarrollo del niño no es adecuada para garantizar el fin legítimo
+                                                                de proteger el interés superior del niño. La Corte considera que no son admi-
+                                                                sibles las consideraciones basadas en estereotipos por la orientación sexual,
+                                                                es decir, preconcepciones de los at
+**Concordancias Legales:** Artículo 8.1
+
+sobre la capacidad e idoneidad parental de poder garantizar y promover el
                                                                 bienestar y desarrollo del niño no es adecuada para garantizar el fin legítimo
                                                                 de proteger el interés superior del niño. La Corte considera que no son admi-
                                                                 sibles las consideraciones basadas en estereotipos por la orientación sexual,
@@ -8292,10 +8571,16 @@ de Género                                                         asociadas a l
 
                                                                  El Comité de Derechos Humanos, por su parte, ha sostenido que:
 
-
 ## 21. El requisito de imparcialidad tiene dos aspectos. En primer
 
-                                                                      lugar, los jueces no deben permitir que su fallo esté influenciado
+**Definición Canónica:** lugar, los jueces no deben permitir que su fallo esté influenciado
+                                                                      por sesgos o prejuicios personales, ni tener ideas preconcebidas
+                                                                      en cuanto al asunto sometido a su estudio, ni actuar de manera
+                                                                      que indebidamente promueva los intereses de una de las partes
+                                                                      en detrimento de los de la otra. En segundo lugar, el tribunal
+**Concordancias Legales:** artículo 14
+
+lugar, los jueces no deben permitir que su fallo esté influenciado
                                                                       por sesgos o prejuicios personales, ni tener ideas preconcebidas
                                                                       en cuanto al asunto sometido a su estudio, ni actuar de manera
                                                                       que indebidamente promueva los intereses de una de las partes
@@ -8464,7 +8749,13 @@ de Género                                                         asociadas a l
 
 ## parte de la realidad. Estas reflexiones llevaron al surgimiento de la
 
-                                                                      perspectiva de género, la cual ha buscado contribuir para generar
+**Definición Canónica:** perspectiva de género, la cual ha buscado contribuir para generar
+                                                                      una nueva forma de creación del conocimiento; una en la que se
+                                                                      abandone la necesidad de pensarlo todo en términos del sujeto
+                                                                      aparentemente neutral, pero pensado desde el imaginario del
+**Concordancias Legales:** constitucion
+
+perspectiva de género, la cual ha buscado contribuir para generar
                                                                       una nueva forma de creación del conocimiento; una en la que se
                                                                       abandone la necesidad de pensarlo todo en términos del sujeto
                                                                       aparentemente neutral, pero pensado desde el imaginario del
@@ -8509,8 +8800,9 @@ de Género                                                         asociadas a l
 
 ## 2020. Suprema Corte de Justicia de la Nación, México; pp. 79-81.)
 
+**Definición Canónica:** ¿Qué hace la perspectiva de género?
 
-                                                                 ¿Qué hace la perspectiva de género?
+¿Qué hace la perspectiva de género?
 
                                                                  Cuestiona el paradigma de único “ser humano neutral y universal”
                                                                  basado en el hombre blanco, heterosexual, adulto sin discapacidad,
@@ -8541,7 +8833,9 @@ de Género                                                         asociadas a l
 
 ## Parte III: Guía para Juzgar con Perspectiva de Género
 
-                                                                        (pp. 137-252). Disponible online.
+**Definición Canónica:** (pp. 137-252). Disponible online.
+
+(pp. 137-252). Disponible online.
 
 Ley de Identidad                                               3. Políticas y estrategias del Poder Judicial                               199
 de Género                                                         asociadas a la identidad de género
@@ -8566,10 +8860,12 @@ de Género                                                         asociadas a l
 Ley de Identidad                                                     3. Políticas y estrategias del Poder Judicial                         200
 de Género                                                               asociadas a la identidad de género
 
-
 ## 4.4     Reconocimiento de identidad de género para
 
-                                                                       personas que integran el Poder Judicial
+**Definición Canónica:** personas que integran el Poder Judicial
+**Concordancias Legales:** Ley N° 21.120; Ley Nº 21.120; ley 20.609
+
+personas que integran el Poder Judicial
 
                                                                        En el marco de la política institucional y la entrada en vigencia de
                                                                        la Ley N° 21.120, a fin de regular adecuadamente el respeto al dere-
@@ -8627,21 +8923,36 @@ de Género                                                         asociadas a l
 
 ## 15.   Cook, Rebeca y Cusack, Simone. 2009. Estereo-
 
-                                        3.    Arango, Mónica. 2017. “Derechos sexuales y re-               tipos de género, perspectivas legales tradiciona-
+**Definición Canónica:** 3.    Arango, Mónica. 2017. “Derechos sexuales y re-               tipos de género, perspectivas legales tradiciona-
+                                              productivos y niños: obligaciones internacionales            les. s.l. : Universidad de Pennsylvania, 2009.
+
+3.    Arango, Mónica. 2017. “Derechos sexuales y re-               tipos de género, perspectivas legales tradiciona-
                                               productivos y niños: obligaciones internacionales            les. s.l. : Universidad de Pennsylvania, 2009.
 
                                               y responsabilidad parental”. En Lathrop, Fabiola y
 
 ## 16.   De Beauvoir, Simone. 1999. El Segundo Sexo
 
-                                              Espejo, Nicolás (coords.): Responsabilidad paren-
+**Definición Canónica:** Espejo, Nicolás (coords.): Responsabilidad paren-
+                                                                                                           [trad.] Juan García. 4ª ed. s.l. : Sudamericana,
+                                              tal. Santiago : Legal Publishing, 2017.
+                                                                                                           1999.
+
+Espejo, Nicolás (coords.): Responsabilidad paren-
                                                                                                            [trad.] Juan García. 4ª ed. s.l. : Sudamericana,
                                               tal. Santiago : Legal Publishing, 2017.
                                                                                                            1999.
 
 ## 4.    Benítez Piraíno, Dinka. 2018. Filiación y mujeres
 
-                                                                                                     17.   “De las violaciones masivas a los patrones es-
+**Definición Canónica:** 17.   “De las violaciones masivas a los patrones es-
+                                              lesbianas. Santiago : Rubicón Editores, 2018.
+                                                                                                           tructurales: nuevos enfoques y clásicas tensio-
+                                        5.    Carmona, Encarnación. 2015. “La perspectiva de               nes en el sistema Interamericano de Derechos
+                                              género en los Sistema Europeo e Interamericano               Humanos”. Abramovich, Víctor. 2019. En Re
+**Concordancias Legales:** Constitucion
+
+17.   “De las violaciones masivas a los patrones es-
                                               lesbianas. Santiago : Rubicón Editores, 2018.
                                                                                                            tructurales: nuevos enfoques y clásicas tensio-
                                         5.    Carmona, Encarnación. 2015. “La perspectiva de               nes en el sistema Interamericano de Derechos
@@ -8652,7 +8963,14 @@ de Género                                                         asociadas a l
 
 ## 18.   Discriminación, Secretaría Técnica de Igualdad
 
-                                        6.    Comisión Interamericana de Derechos Humanos.                 de Género y No. Política de Igualdad de Género y
+**Definición Canónica:** 6.    Comisión Interamericana de Derechos Humanos.                 de Género y No. Política de Igualdad de Género y
+                                              2012. Orientación sexual, Identidad de género y              No Discriminación. Disponible online.
+                                              Expresión de género: algunos términos y están-
+                                                                                                     19.   “Discursos sobre la identidad de género en la
+                                              dares relevantes. 2012.
+                       
+
+6.    Comisión Interamericana de Derechos Humanos.                 de Género y No. Política de Igualdad de Género y
                                               2012. Orientación sexual, Identidad de género y              No Discriminación. Disponible online.
                                               Expresión de género: algunos términos y están-
                                                                                                      19.   “Discursos sobre la identidad de género en la
@@ -8665,7 +8983,11 @@ de Género                                                         asociadas a l
 
 ## 8.    Comisión Interamericana de Derechos Huma-
 
-                                              nos. 2020. Personas Trans y de Género Diverso y        20.   Foucault, Michel. 2008. Historia de la Sexualidad.
+**Definición Canónica:** nos. 2020. Personas Trans y de Género Diverso y        20.   Foucault, Michel. 2008. Historia de la Sexualidad.
+                                              sus derechos económicos, sociales, culturales y              1. la voluntad de saber. [trad.] Ulises Guiñazú. 2a.
+                                              ambientales. 2020.                                           revisada. Buenos Aires : Siglo XXI Editores, 2008.
+
+nos. 2020. Personas Trans y de Género Diverso y        20.   Foucault, Michel. 2008. Historia de la Sexualidad.
                                               sus derechos económicos, sociales, culturales y              1. la voluntad de saber. [trad.] Ulises Guiñazú. 2a.
                                               ambientales. 2020.                                           revisada. Buenos Aires : Siglo XXI Editores, 2008.
 
@@ -8677,17 +8999,22 @@ de Género                                                         asociadas a l
 
 ## 2006. Sentencia Almonacid Arellano contra Chile.             nismos, Género y Derecho. Derechos Humanos y
 
-                                              154, 2006.                                                   Mujeres: Teoría y Práctica. s.l. : Centro de Dere-
+**Definición Canónica:** 154, 2006.                                                   Mujeres: Teoría y Práctica. s.l. : Centro de Dere-
                                                                                                            chos Humanos, Universidad de Chile, 2013.
                                         11.   Corte Interamericana de Derechos Humanos.
 
-## 2012. Sentencia Atala Riffo y Niñas contra Chile.      23.   Gauché Marchetti, Ximena. 2018. Comentarios a
-
-                                              Serie C 239, 239. s.l. : Corte IDH, 24 de Febrero de         la Opinión Consultiva 24/17 de la Corte IDH en
+154, 2006.                                                   Mujeres: Teoría y Práctica. s.l. : Centro de Dere-
+                                                                                                           chos Humanos, Universidad de Chile, 2013.
+                                        11.   Corte Interamericana de Derechos Humanos.
 
 ## 2012. Párrafo 271.                                           materia de identidad de género. [aut. libro]
 
-                                                                                                           Universidad Diego Portales. Anuario de Derecho
+**Definición Canónica:** Universidad Diego Portales. Anuario de Derecho
+                                        12.   Corte Interamericana de Derechos Humanos.
+Ley de Identidad                                                                                      Bibliografía                                              203
+**Concordancias Legales:** Constitución Política
+
+Universidad Diego Portales. Anuario de Derecho
                                         12.   Corte Interamericana de Derechos Humanos.
 Ley de Identidad                                                                                      Bibliografía                                              203
 
@@ -8703,7 +9030,12 @@ de Género                                                         asociadas a l
 
 ## 25.   Gauché Marchetti, Ximena. 2011. Sexualidad
 
-                                              Diversa y Discriminación. Una mirada desde el           38.   “Los estereotipos normativos en la decisión
+**Definición Canónica:** Diversa y Discriminación. Una mirada desde el           38.   “Los estereotipos normativos en la decisión
+                                              Derecho Internacional de los Derechos Humanos.                judicial. Una exploración conceptual”. Arena,
+                                              Saarbrücken, Alemania : Editorial Académica                   Federico. 2016. Valdivia : s.n., 2016. En Revista de
+                                              Española , 2011.                                              Derecho, Vol. XXIX (1), págs. 51-75.
+
+Diversa y Discriminación. Una mirada desde el           38.   “Los estereotipos normativos en la decisión
                                               Derecho Internacional de los Derechos Humanos.                judicial. Una exploración conceptual”. Arena,
                                               Saarbrücken, Alemania : Editorial Académica                   Federico. 2016. Valdivia : s.n., 2016. En Revista de
                                               Española , 2011.                                              Derecho, Vol. XXIX (1), págs. 51-75.
@@ -8717,7 +9049,12 @@ de Género                                                         asociadas a l
 
 ## 40.   Osborne, Raquel y Guasch, Oscar. 2003. Avances
 
-                                              Comares, 2016.
+**Definición Canónica:** Comares, 2016.
+                                                                                                            en sociología de la sexualidad. Sociología de la
+                                        27.   Giddens, Anthony. 2001. Sociología. 4a ed. Ma-                sexualidad. 1ª ed. Madrid : Centro de Investiga-
+                                              drid : Alianza, 2001.                                         ciones Sociológicas, Siglo XXI de España, 2003.
+
+Comares, 2016.
                                                                                                             en sociología de la sexualidad. Sociología de la
                                         27.   Giddens, Anthony. 2001. Sociología. 4a ed. Ma-                sexualidad. 1ª ed. Madrid : Centro de Investiga-
                                               drid : Alianza, 2001.                                         ciones Sociológicas, Siglo XXI de España, 2003.
@@ -8726,14 +9063,13 @@ de Género                                                         asociadas a l
                                               Museo del Prado. 1995. El Prado Erótico. Las ma-              1ª ed. s.l. : Fundación Rafael Campalans, 2008.
                                               jas de Goya y la Colección erótica del Museo del
 
-## 42.   Saldivia, Laura. 2009. “Reexaminando la cons-
-
-                                              Prado. s.l. : Del Autor, 1995.
-                                                                                                            trucción binaria de la sexualidad”. [aut. libro]
-
 ## 29.   Heim, Daniela. 2016. Mujeres y acceso a la jus-               SELA. Derecho y sexualidades. Seminario en
 
-                                              ticia: de la tradición formalista a un derecho no             Latinoamérica de Teoría Constitucional y Política.
+**Definición Canónica:** ticia: de la tradición formalista a un derecho no             Latinoamérica de Teoría Constitucional y Política.
+                                              androcéntrico. Argentina. 1a. s.l. : Didot, 2016.             Buenos Aires : Libraria, 2009, pp. 98-119.
+**Concordancias Legales:** Constitucion
+
+ticia: de la tradición formalista a un derecho no             Latinoamérica de Teoría Constitucional y Política.
                                               androcéntrico. Argentina. 1a. s.l. : Didot, 2016.             Buenos Aires : Libraria, 2009, pp. 98-119.
 
                                         30.   “Identidad de género de niños, niñas y adoles-          43.   Saldivia, Laura. 2017. Subordinaciones invertidas.
@@ -8743,7 +9079,14 @@ de Género                                                         asociadas a l
 
 ## 44.   Shibley Hide, J. y DeLamater, J.,. 2006. Sexua-
 
-                                              Revista Ius Et Praxis, Vol. 25, pp. 359-402.
+**Definición Canónica:** Revista Ius Et Praxis, Vol. 25, pp. 359-402.
+                                                                                                            lidad Humana. [trad.] Susana Margarita Olivares
+                                        31.   INDH. 2010. Informe Anual 2010: Situación de los              Bari y Gloria Estela Padilla Sierra. 9ª ed. s.l. : Mc
+                                              Derechos Humanos en Chile. Capítulo 2 “Igual-                 Graw Hill, 2006.
+                                              dad y No Discriminación. Diversidades Sexuales”.
+                 
+
+Revista Ius Et Praxis, Vol. 25, pp. 359-402.
                                                                                                             lidad Humana. [trad.] Susana Margarita Olivares
                                         31.   INDH. 2010. Informe Anual 2010: Situación de los              Bari y Gloria Estela Padilla Sierra. 9ª ed. s.l. : Mc
                                               Derechos Humanos en Chile. Capítulo 2 “Igual-                 Graw Hill, 2006.
@@ -8757,53 +9100,26 @@ de Género                                                         asociadas a l
 
 ## 46.   Strong, B., y otros. 2005. Human Sexuality. Diver-
 
-                                        33.   INDH. 2013. Informe Anual 2013: Situación de los              sity in Contemporary America. Fifth Edition. New
+**Definición Canónica:** 33.   INDH. 2013. Informe Anual 2013: Situación de los              sity in Contemporary America. Fifth Edition. New
+                                              Derechos Humanos en Chile. Capítulo 5 “Dere-                  York : Mc. Graw Hill,, 2005.
+                                              chos de las personas trans”. 2013.
+
+33.   INDH. 2013. Informe Anual 2013: Situación de los              sity in Contemporary America. Fifth Edition. New
                                               Derechos Humanos en Chile. Capítulo 5 “Dere-                  York : Mc. Graw Hill,, 2005.
                                               chos de las personas trans”. 2013.
 
 ## 47.   Vander Zanden, James. 1986. Manual de Psico-
 
-                                        34.   INDH. 2017. Informe Anual 2017: Situación de los              logía Social. 1ª ed. (5ª reimpresión). Barcelona :
+**Definición Canónica:** 34.   INDH. 2017. Informe Anual 2017: Situación de los              logía Social. 1ª ed. (5ª reimpresión). Barcelona :
+                                              Derechos Humanos en Chile. Capítulo 3 “Reali-                 Paidós, 1986.
+                                              dad y desafío: niños, niñas y adolescentes trans e
+                                                                                                      48.   Viñuales, Olga. 2002. Lesbofobia. Barcelona :
+                                              intersex en contextos de salud y educación”. 2017.
+           
+
+34.   INDH. 2017. Informe Anual 2017: Situación de los              logía Social. 1ª ed. (5ª reimpresión). Barcelona :
                                               Derechos Humanos en Chile. Capítulo 3 “Reali-                 Paidós, 1986.
                                               dad y desafío: niños, niñas y adolescentes trans e
                                                                                                       48.   Viñuales, Olga. 2002. Lesbofobia. Barcelona :
                                               intersex en contextos de salud y educación”. 2017.
                                                                                                             Bellaterra, 2002.
-
-## 35.   Kagan, Robert. 2003. Poder y debilidad. Europa y
-
-                                              Estados Unidos en el nuevo orden mundial. Ma-
-
-## Serie de
-
-Ley de Identidad                                    1.     DOCUMENTOS 205
-de Género                                                  MATERIALES   05
-
-
-## Docentes
-
-
- ial
-  c
-  udi
-  J
-  a
-  mi
-  de
-  a
-  c
-  A
-  s
-  e
-  nt
-  e
-  c
-  do
-  s
-  al
-  e
-  ri
-  e
- Mat
-
-    Academia Judicial de Chile | www.academiajudicial.cl

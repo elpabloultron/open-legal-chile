@@ -15,6 +15,8 @@ extraccion: pdftotext
 
 ## Capitulo viii: las personas juridicas1
 
+**Definición Canónica:** A) ORIGEN.
+**Concordancias Legales:** artículo 545; constitución
 
 A) ORIGEN.
 
@@ -87,9 +89,16 @@ E) NATURALEZA JURIDICA.
 
        Discutida en la Doctrina, hay teorías que aceptan y otras que niegan las personas jurídicas.
 
-
 ## 1. - teorias que la aceptan
 
+**Definición Canónica:** 1.1. - TEORIA DE LA FICCION, postula que solo existen las personas naturales, siendo las
+personas jurídicas entes ficticios. Esta teoría parte del supuesto que el derecho subjetivo es un
+poder atribuido a una voluntad y que en tal sentido solo un hombre puede ser naturalmente
+sujeto de derechos. Sin embargo, agrega Savigny, el derecho positivo puede modificar esta regla
+natural y considerar la capacidad jurídica en relación con otros seres ficticios a los cuales se les
+llama personas jurídicas. Esta teoría es la que acepta nuestro Código Civil, según se desprende
+del artículo 545 y de la histo
+**Concordancias Legales:** artículo 545; artículo 58 del Código Procesal Penal
 
 1.1. - TEORIA DE LA FICCION, postula que solo existen las personas naturales, siendo las
 personas jurídicas entes ficticios. Esta teoría parte del supuesto que el derecho subjetivo es un
@@ -130,10 +139,16 @@ al régimen de la propiedad individual. Por consiguiente, estas pretendidas pers
 aun de manera ficticia”2. Concluye Planiol afirmando que no puede haber sobre la tierra, otros
 titulares de derechos que los hombres.3
 
-
 ## 2.2. - teoria del patrimonio de afectacion
 
-        Propuesta por los alemanes Brinz y Bekker, a quienes ya citamos a propósito de la teoría
+**Definición Canónica:** Propuesta por los alemanes Brinz y Bekker, a quienes ya citamos a propósito de la teoría
+objetiva del patrimonio, postula esta teoría que los derechos y las obligaciones no tienen
+necesariamente por base a las personas. Existirían patrimonios sin dueño, basados en la
+afectación a un fin único de todos los bienes que forman parte de ellos (Vodanovic, Antonio, Ob.
+Cit., pág. 496). Como podemos observar, esta teoría es radicalmente opuesta a la de Planiol.
+**Concordancias Legales:** artículos 545; artículo 547; artículo 2497; Constitución; Constitucion
+
+Propuesta por los alemanes Brinz y Bekker, a quienes ya citamos a propósito de la teoría
 objetiva del patrimonio, postula esta teoría que los derechos y las obligaciones no tienen
 necesariamente por base a las personas. Existirían patrimonios sin dueño, basados en la
 afectación a un fin único de todos los bienes que forman parte de ellos (Vodanovic, Antonio, Ob.
@@ -227,8 +242,10 @@ tienen personalidad jurídica de derecho público. En realidad, son personas jur
 público los “establecimientos públicos”. Estos son ramas de los servicios generales del Estado o
 municipios, que se han desprendido del conjunto para erigirse en órganos dotados de vida propia.
 
-
 ## H) regulaciones juridicas de las personas juridicas de derecho
+
+**Definición Canónica:** PRIVADO.
+**Concordancias Legales:** artículos 545; artículos 2053; Artículos 348; artículo 545; artículo 545 del Código Civil; artículos 562; artículo 548; artículo 19; artículo 558; artículo 559; artículo 550; artículo 557; artículo 563 del Código Civil; artículos 549; artículo 551; artículo 552; artículo 553; artículo 555; artículo 556; artículo 963; artículo 1089 del Código Civil; artículo 549; artículo 1097; artículo 770 del Código Civil; artículos 557; artículo 9; artículo 8; artículo 563; artículo 564; artículo 561; artículos 8; artículos 9; artículo 11; artículo 12; Constitución; Constitución Política
 
 PRIVADO.
 
@@ -855,11 +872,18 @@ elección de sus órganos directivos. Sin embargo, en este último caso las pers
 podrán solicitar ser excluidas de dicha nómina si por causa no imputable a ellas no apareciere
 realizada la renovación o elección de sus órganos directivos (artículo 12, inciso 2º).
 
-
 ## J) responsabilidad de las personas jurídicas
 
+**Definición Canónica:** En nuestro derecho esta materia, por regla general, debe circunscribirse a la
+Responsabilidad Civil, puesto que la Responsabilidad Penal solo puede hacerse efectiva en las
+personas naturales, únicas capaces de cometer delitos. No obstante, una persona jurídica sí podrá
+responder civilmente por aquellos hechos punibles cometidos por aquellos que hubiesen actuado
+a nombre de la primera. Dispone al efecto el artículo 58 del Código Procesal Penal:
+“Responsabilidad penal. La acción penal, fuere pública o privada, no puede entablarse sino
+contra las personas responsables del delito. / La responsabil
+**Concordancias Legales:** artículo 58 del Código Procesal Penal
 
-        En nuestro derecho esta materia, por regla general, debe circunscribirse a la
+En nuestro derecho esta materia, por regla general, debe circunscribirse a la
 Responsabilidad Civil, puesto que la Responsabilidad Penal solo puede hacerse efectiva en las
 personas naturales, únicas capaces de cometer delitos. No obstante, una persona jurídica sí podrá
 responder civilmente por aquellos hechos punibles cometidos por aquellos que hubiesen actuado
@@ -872,6 +896,15 @@ intervenido en el acto punible, sin perjuicio de la responsabilidad civil que la
 lo dispuesto por la Ley número 20.393, publicada en el Diario Oficial de fecha 2 de diciembre de
 
 ## 2009. Esta responsabilidad sólo puede originarse por la comisión de los delitos de lavado de
+
+**Definición Canónica:** activos, financiamiento del terrorismo y cohecho a funcionario público nacional e internacional.
+Afecta a las personas jurídicas de derecho privado, con y sin fines de lucro, y a empresas del
+Estado. Esta responsabilidad se configurará cuando una de las personas naturales con facultad de
+dirección al interior de la empresa, algún subordinado de ella o algún funcionario que tenga
+facultades de administración y supervisión, cometa alguno de los delitos mencionados en interés
+o provecho directo de la empresa, y ésta no haya adoptado o implementado modelos de
+organización, administración y supervi
+**Concordancias Legales:** artículos 545; artículo 58 del Código Procesal Penal; artículos 2314; artículo 2320 del Código Civil
 
 activos, financiamiento del terrorismo y cohecho a funcionario público nacional e internacional.
 Afecta a las personas jurídicas de derecho privado, con y sin fines de lucro, y a empresas del

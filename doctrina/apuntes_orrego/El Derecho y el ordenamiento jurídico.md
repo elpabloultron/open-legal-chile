@@ -13,11 +13,16 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** General | **Materia:** General
 
-## El derecho y el ordenamiento juridico1
-
-
-
 ## Sumario: 1.- Necesidad de regular la conducta humana. 1.1. Necesidad del Derecho
+
+**Definición Canónica:** y del Ordenamiento Jurídico. 1.2. Distintas clases de normas. 2.- El Derecho. 2.1.
+Acepciones y posible origen de la palabra Derecho. 2.2. Derecho positivo y Derecho
+natural. 2.3. Derecho y moral. 2.4. Fundamento y fines del Derecho. 2.5. Derecho y
+justicia. 3.- El ordenamiento jurídico. 3.1. Concepto de ordenamiento jurídico. 3.2.
+Contenido del ordenamiento jurídico. 3.3. Características del ordenamiento jurídico. 3.4.
+Fuentes del ordenamiento jurídico. 4.- Definición y fines de la norma jurídica. 4.1.
+Definición de norma jurídica. 4.2. Fines de la norma jurídica. 5.- Naturaleza y
+estructura 
 
 y del Ordenamiento Jurídico. 1.2. Distintas clases de normas. 2.- El Derecho. 2.1.
 Acepciones y posible origen de la palabra Derecho. 2.2. Derecho positivo y Derecho
@@ -37,16 +42,25 @@ Clasificación de las normas jurídicas. 8.1. De Derecho público y de Derecho p
 
 ## 8.2. De orden público y de orden privado. 8.3. Interpretativas, declarativas o explicativas
 
+**Definición Canónica:** y supletorias o integradoras. 8.4. Reguladoras, completas o autónomas y de aplicación,
+de reenvío o incompletas. 8.5. De Derecho común y de Derecho excepcional. 8.6. De
+Derecho común y de Derecho especial. 8.7. De Derecho general y de Derecho especial.
+
 y supletorias o integradoras. 8.4. Reguladoras, completas o autónomas y de aplicación,
 de reenvío o incompletas. 8.5. De Derecho común y de Derecho excepcional. 8.6. De
 Derecho común y de Derecho especial. 8.7. De Derecho general y de Derecho especial.
 
-## 8.8. De Derecho permanente y de Derecho transitorio. 8.9. De carácter rígido y de
-
-carácter flexible. 9.- La costumbre. 9.1. Concepto. 9.2. Elementos de la costumbre.
-9.3. Diferencias entre la ley y la costumbre. 9.4. Distinción entre usos y costumbres.
-
 ## 9.5. Caracteres de la costumbre. 9.6. Clasificación de la costumbre. 9.7. Valor y fuerza
+
+**Definición Canónica:** obligatoria de la costumbre. 9.8. Prueba de la costumbre. 9.9. Diferencias entre la
+costumbre civil y la mercantil. 9.10. Mutación de la costumbre en ley. 10.- La
+jurisprudencia. 10.1. Concepto. 10.2. Valor de la jurisprudencia como fuente del
+Derecho. 11.- El Estado de Derecho. 11.1. Concepto de Estado de Derecho. 11.2.
+Origen y evolución de la noción de Estado de Derecho en la época previa al
+constitucionalismo moderno. 11.3. El Estado de Derecho en la época previa a la del
+constitucionalismo moderno. 11.4. El Estado de Derecho en el siglo XIX. 11.5. El “Estado
+legalista” del siglo XX. 11.6.
+**Concordancias Legales:** constitucion; constitución
 
 obligatoria de la costumbre. 9.8. Prueba de la costumbre. 9.9. Diferencias entre la
 costumbre civil y la mercantil. 9.10. Mutación de la costumbre en ley. 10.- La
@@ -702,12 +716,17 @@ Presidente Ortíz de Rosas designó al mencionado Azúa como primer rector. Lueg
 solemne y aparatosa instalación de la universidad de San Felipe se efectuó en la tarde
 del sábado 11 de marzo de 1747 con asistencia del Cabildo, de la Real Audiencia y de la
 
-## parte más caracterizada del vecindario”.43
-
-       Habría que esperar casi veinte años, para que, por fin, bajo la presidencia de don
-Manuel de Amat y Junient, se nombraren los primeros catedráticos el 19 de mayo de
-
 ## 1757. En las que correspondían a la enseñanza jurídica, se designó a los siguientes
+
+**Definición Canónica:** letrados: en la cátedra de “prima de Leyes”, el doctor don Santiago de Tordesillas,
+abogado de las audiencias de Lima y de Santiago, y secretario general de la gobernación;
+en la “prima de Cánones”, el doctor don Alonso de Guzmán, abogado de dichas
+audiencias; en la de “maestro de las Sentencias”, a fray Manuel Rodríguez, provincial de
+la orden de Santo Domingo y doctor teólogo; en la de “Decreto”, el doctor don Santiago
+Marín de Azúa, abogado de aquellas reales audiencias; y en la de “Instituta”, el doctor
+don José de Aldunate, abogado de la audiencia de Chile. Tales fueron pues las primeras
+
+**Concordancias Legales:** constitucion
 
 letrados: en la cátedra de “prima de Leyes”, el doctor don Santiago de Tordesillas,
 abogado de las audiencias de Lima y de Santiago, y secretario general de la gobernación;
@@ -756,6 +775,16 @@ mismo podían abreviarse mediante el pago de una suma de dinero: “siendo muy p
 los ramos de estudio de cada facultad, era fácil llegar en corto tiempo a la posesión del
 
 ## título deseado. Así, dos años bastaban para obtener el de médico, al que había terminado
+
+**Definición Canónica:** sus estudios de gramática, y cuatro para poseer el de abogado, incluyendo en ellos la
+práctica. A imitación de lo que se hacía en las universidades españolas, se dispensaban
+fácilmente estudios mediante un estipendio, lo que en el lenguaje universitario se
+llamaba acordar grados de propina; pero esta práctica llegó a desacreditar
+considerablemente los títulos universitarios, y nuevas ordenanzas reales vinieron a
+derogarlas virtualmente”.48
+        Con la “Patria Vieja”, llegará la creación del “Instituto Nacional” en 1813. A partir
+de este momento, los estudios de Derecho se cursan en este est
+**Concordancias Legales:** Constitución; Constitucion
 
 sus estudios de gramática, y cuatro para poseer el de abogado, incluyendo en ellos la
 práctica. A imitación de lo que se hacía en las universidades españolas, se dispensaban
@@ -937,6 +966,14 @@ del origen de la palabra ius: i) Para algunos autores, el término derivaría ef
 de “Iovis”, genitivo de “Iupiter”, abonando esta teoría una inscripción conservada en la
 
 ## parte antigua del foro que reza “Iovestad”, significando “lo justo”. ii) Otros autores
+
+**Definición Canónica:** conectan el término “ius” con “iungere” y “iungo”, significando lazo, unión o ligamen.
+Aducen a favor de esta tesis que en época histórica se usó “ius” para designar parentesco
+(“ius sanguinis”) o para designar lazos de matrimonio (“iura coniugalia”). iii) Otros,
+reconocen en el originario concepto de “ius” un elemento claro de referencia a la esfera
+sacral. Para Isabel Tapia, esta última parece ser la teoría correcta, señalando que
+etimológicamente el término “ius” tiene relación con una antiquísima raíz indoeuropea
+que significa “sagrado”. Tal palabra, “ishr”, habría derivado en “ius”. La id
 
 conectan el término “ius” con “iungere” y “iungo”, significando lazo, unión o ligamen.
 Aducen a favor de esta tesis que en época histórica se usó “ius” para designar parentesco
@@ -1542,7 +1579,15 @@ no es más que la aplicación silogística de la ley al caso concreto. La costum
 
 ## parte, no tiene valor jurídico sino en la medida en que la ley así lo permita.100
 
-        La escuela racionalista, señala Hernán Corral, “sigue afirmando la existencia de
+**Definición Canónica:** La escuela racionalista, señala Hernán Corral, “sigue afirmando la existencia de
+un derecho determinado por la naturaleza, pero se distancia de la escolástica en que
+piensa que la razón debe operar no sólo con autonomía sino con prescindencia de la
+experiencia y de las tradiciones culturales y religiosas, y que siendo todopoderosa, es
+capaz de establecer soluciones concretas para todas las situaciones que se presenten en
+la realidad. Así, el Derecho natural ya no es considerado como un componente de la
+legislación positiva, sino que se le estima un ordenamiento paralelo y completo al cual
+
+La escuela racionalista, señala Hernán Corral, “sigue afirmando la existencia de
 un derecho determinado por la naturaleza, pero se distancia de la escolástica en que
 piensa que la razón debe operar no sólo con autonomía sino con prescindencia de la
 experiencia y de las tradiciones culturales y religiosas, y que siendo todopoderosa, es
@@ -2605,6 +2650,15 @@ suma de las virtudes en las relaciones sociales; en cambio, la justicia particul
 
 ## parte del total de las virtudes, que tiene como objeto la distribución e intercambio de
 
+**Definición Canónica:** bienes, así como la violación de las normas que presiden dichas actividades”. 164
+         La noción de justicia universal deriva del paso de los hombres como animales
+sociales a animales políticos: “Esta diferenciación corresponde a la distinción entre oikos
+y polis. En el mito de Prometeo y Epimeteo, que narra Platón en el Protágoras, se plantea
+que si bien los hombres son espontáneamente sociales, sólo se convierten en seres
+políticos cuando tienen la capacidad de reunirse para definir conscientemente aquellas
+leyes que definen sus fines e identidad común, es decir, cuando adquieren el sent
+**Concordancias Legales:** artículos 6; Constitución Política; Constitución; constitucion
+
 bienes, así como la violación de las normas que presiden dichas actividades”. 164
          La noción de justicia universal deriva del paso de los hombres como animales
 sociales a animales políticos: “Esta diferenciación corresponde a la distinción entre oikos
@@ -3149,6 +3203,17 @@ jurídicas extranjeras. Podría ocurrir que parte de ese ordenamiento jurídico 
 integrado por normas contenidas en convenciones internacionales. Pero éstas formarán
 
 ## parte del ordenamiento jurídico nacional, sólo en la medida que el Estado de Chile las
+
+**Definición Canónica:** haya suscrito y ratificado. Si así fuere, pasarán a ser Derecho vigente en la República.
+ii.- Rige, además, con algunas excepciones, a todos quienes se encuentren en dicho
+territorio, sean o no nacionales del respectivo Estado.
+iii.- Por otra parte, este carácter territorial implica que nuestro ordenamiento jurídico no
+se aplicará, por regla general, a los chilenos que se encuentren en el extranjero. En tal
+caso, los connacionales se regirán por el ordenamiento jurídico del país en el que se
+encuentren.
+         Sin embargo, ninguno de estos aspectos es absoluto, todos tienen excepciones.
+En e
+**Concordancias Legales:** Ley N° 21.822; Constitución; Constitución Política; constitucion
 
 haya suscrito y ratificado. Si así fuere, pasarán a ser Derecho vigente en la República.
 ii.- Rige, además, con algunas excepciones, a todos quienes se encuentren en dicho
@@ -4262,6 +4327,18 @@ Sólo excepcionalmente el Juez podrá imponer la sanción de oficio y no a pedim
 
 ## parte interesada (por ejemplo, cuando la nulidad absoluta aparece de manifiesto en un
 
+**Definición Canónica:** acto o contrato, art. 1683 del Código Civil).
+         En el campo civil, para determinar la sanción aplicable, habría que formular un
+primer distingo, según se trate del Derecho civil patrimonial o extrapatrimonial. El
+primero, corresponde, en términos generales, al Derecho de los Bienes, de los Contratos
+y de las Obligaciones. El segundo, al Derecho de Familia. Cada uno de estos dos ámbitos,
+tiene un sistema de sanciones diverso.
+         En el ámbito del Derecho civil patrimonial, las sanciones más importantes, son
+las siguientes:
+i.- La ejecución forzada (cumplimiento por naturaleza).
+ii.-
+**Concordancias Legales:** artículos 1016; Constitución; constitucion
+
 acto o contrato, art. 1683 del Código Civil).
          En el campo civil, para determinar la sanción aplicable, habría que formular un
 primer distingo, según se trate del Derecho civil patrimonial o extrapatrimonial. El
@@ -4536,6 +4613,15 @@ y gestión político-administrativa queda fuera de la distinción, porque ni siq
 
 ## parte del ius. Lo anterior significa que dicha distinción no consiste en una división de
 
+**Definición Canónica:** alcance sistemático general ni es abarcadora. Sólo en la medida en que se encuentre
+una norma pública que estatuya sobre el ius se puede hablar de ius publicum; y nada
+más que la negocialidad jurídico-privada recibe la calificación de ius privatum. Fuere de
+ese ámbito la distinción cesa de tener virtualidad; y así, por ejemplo, carecería de
+sentido o al menos difícilmente sería correcto decir que los juristas escribían obras sobre
+ius privatum, no sólo porque aquéllas no recaían sobre cómo celebrar negocios jurídicos,
+sino, específicamente, porque el ius privatum no es escrito por los estudios
+**Concordancias Legales:** constitucion
+
 alcance sistemático general ni es abarcadora. Sólo en la medida en que se encuentre
 una norma pública que estatuya sobre el ius se puede hablar de ius publicum; y nada
 más que la negocialidad jurídico-privada recibe la calificación de ius privatum. Fuere de
@@ -4633,6 +4719,16 @@ rol tutelar que se la asigna al Estado y porque la mayoría de sus normas no son
 disponibles o susceptibles de ser modificadas por los particulares. Pero para otros, forma
 
 ## parte del Derecho privado, dado que los sujetos de la relación jurídica laboral son
+
+**Definición Canónica:** particulares. De cualquier manera, lo cierto es que el Derecho laboral tiene su origen en
+el Derecho civil, del cual se escindió en las últimas décadas del Siglo XIX y primeras del
+Siglo XX.
+        Otra rama que ha nacido en los últimos años es la del Derecho del consumo. En
+ella, es de esperar una controversia semejante, en cuanto a su adscripción al Derecho
+público o privado. Personalmente, creemos que forma parte del Derecho privado, aunque
+la mayoría de sus normas son de orden público (lo que no debe confundirse con el
+Derecho público). Fundamos esta opinión en la circunstancia de que las
+**Concordancias Legales:** artículos 6; artículo 19; constitucion; Constitución Política; Constitución
 
 particulares. De cualquier manera, lo cierto es que el Derecho laboral tiene su origen en
 el Derecho civil, del cual se escindió en las últimas décadas del Siglo XIX y primeras del
@@ -4991,8 +5087,10 @@ con la solución legal, pueden, de común acuerdo, dejarla sin efecto y convenir
 otra regulación de sus relaciones jurídicas. Este es un campo que queda enteramente
 librado al principio de la autonomía de la voluntad”.276
 
-
 ## 8.4. Reguladoras, completas o autónomas y de aplicación, de reenvío o
+
+**Definición Canónica:** incompletas.
+**Concordancias Legales:** artículo 2; Ley N° 1.939; Ley N° 18.101; Ley N° 21.442; Ley Nº 19.253; Ley Nº 18.392; Ley Nº 19.947; Constitución Política
 
 incompletas.
 
@@ -5560,6 +5658,16 @@ natural que en las monarquías, sin embargo, por princeps se entendiera al rex. 
 reservado exclusivamente a los monarcas.325 Fue en parte reacción a esta praxis, y en
 
 ## parte debido a su historicismo característico, que los romanistas alemanes de principios
+
+**Definición Canónica:** del siglo XIX volvieron a los textos del Digesto, que directamente reservaban al
+consensus populis el establecimiento de la costumbre. Solo que ellos interpretaron esta
+noción no en el sentido de aludir al pueblo en cuanto órgano legislador formal, reunido
+en comicios, sino en cuanto nación idealmente concebida y perdurante a través de las
+generaciones. El consensus populis, por ende, no significó ya una efectiva, aunque tácita
+aprobación, sino la convicción común sobre la existencia de una regla jurídica
+manifestada a través del comportamiento reiterado, convicción esta que recibió el
+nombre 
+**Concordancias Legales:** artículo 1; Constitución Política; constitución; constitucion
 
 del siglo XIX volvieron a los textos del Digesto, que directamente reservaban al
 consensus populis el establecimiento de la costumbre. Solo que ellos interpretaron esta
@@ -6620,6 +6728,15 @@ interpretativos de una declaración de voluntad, tendrán la consideración de c
 
 ## 4. Los principios generales del derecho se aplicarán en defecto de ley o costumbre, sin
 
+**Definición Canónica:** perjuicio de su carácter informador del ordenamiento jurídico. 5. Las normas jurídicas
+contenidas en los tratados internacionales no serán de aplicación directa en España en
+tanto no hayan pasado a formar parte del ordenamiento interno mediante su publicación
+íntegra en el «Boletín Oficial del Estado». 6. La jurisprudencia complementará el
+ordenamiento jurídico con la doctrina que, de modo reiterado, establezca el Tribunal
+Supremo al interpretar y aplicar la ley, la costumbre y los principios generales del
+derecho. 7. Los Jueces y Tribunales tienen el deber inexcusable de resolver en todo caso
+**Concordancias Legales:** Constitución
+
 perjuicio de su carácter informador del ordenamiento jurídico. 5. Las normas jurídicas
 contenidas en los tratados internacionales no serán de aplicación directa en España en
 tanto no hayan pasado a formar parte del ordenamiento interno mediante su publicación
@@ -6635,6 +6752,15 @@ rige deben ser resueltos según las leyes que resulten aplicables, conforme con 
 Constitución Nacional y los tratados de derechos humanos en los que la República sea
 
 ## parte. A tal efecto, se tendrá en cuenta la finalidad de la norma. Los usos, prácticas y
+
+**Definición Canónica:** costumbres son vinculantes cuando las leyes o los interesados se refieren a ellos o en
+situaciones no regladas legalmente, siempre que no sean contrarios a derecho”.
+        Con todo, el silencio de algunos Códigos Civiles respecto de la jurisprudencia, en
+ningún caso puede llevarnos a inducir que ésta carece de importancia. Al efecto, expresa
+Guillermo A. Borda, refiriéndose al valor de la jurisprudencia como fuente: “Se discute
+en la doctrina si la jurisprudencia debe o no ser considerada como una fuente del
+Derecho. Desde el punto de vista de la lógica estricta, la razón parece estar de par
+**Concordancias Legales:** artículo 1 del Código Civil; Artículo 477; Constitución; Constitucion
 
 costumbres son vinculantes cuando las leyes o los interesados se refieren a ellos o en
 situaciones no regladas legalmente, siempre que no sean contrarios a derecho”.
@@ -6850,11 +6976,16 @@ y esta infracción haya influido substancialmente en lo dispositivo de la senten
         En efecto, dispone el art. 477 de la Ley de Enjuiciamiento Civil española:
 “Artículo 477. Motivo del recurso de casación y resoluciones recurribles en casación.
 
-## 1. El recurso de casación habrá de fundarse, como motivo único, en la infracción de
-
-normas aplicables para resolver las cuestiones objeto del proceso.
-
 ## 2. Serán recurribles en casación las sentencias dictadas en segunda instancia por las
+
+**Definición Canónica:** Audiencias Provinciales, en los siguientes casos:
+1.º Cuando se dictaran para la tutela judicial civil de derechos fundamentales, excepto
+los que reconoce el artículo 24 de la Constitución.
+2.º Siempre que la cuantía del proceso excediere de 600.000 euros.
+3.º Cuando la cuantía del proceso no excediere de 600.000 euros o este se haya
+tramitado por razón de la materia, siempre que, en ambos casos, la resolución del
+recurso presente interés casacional.
+**Concordancias Legales:** artículo 24 de la Constitución. 2.º Siempre que la cuantía del; Constitución
 
 Audiencias Provinciales, en los siguientes casos:
 1.º Cuando se dictaran para la tutela judicial civil de derechos fundamentales, excepto
@@ -6865,6 +6996,9 @@ tramitado por razón de la materia, siempre que, en ambos casos, la resolución 
 recurso presente interés casacional.
 
 ## 3. Se considerará que un recurso presenta interés casacional cuando la sentencia
+
+**Definición Canónica:** recurrida se oponga a doctrina jurisprudencial del Tribunal Supremo o resuelva puntos
+**Concordancias Legales:** Constitucion
 
 recurrida se oponga a doctrina jurisprudencial del Tribunal Supremo o resuelva puntos
 
@@ -6985,8 +7119,10 @@ elementos vigentes en el ordenamiento jurídico, fundados en criterios de razona
 y de justicia, que aseguran la dignidad y la libertad de las personas, en el marco de un
 tratamiento igualitario que se dispensa a las mismas por el poder público.
 
-
 ## 11.2. Origen y evolución de la noción de Estado de Derecho en la época previa
+
+**Definición Canónica:** al constitucionalismo moderno.
+**Concordancias Legales:** constitucion
 
 al constitucionalismo moderno.
 
@@ -7078,8 +7214,10 @@ con el constitucionalismo. Entonces, se abrió en toda Hispanoamérica una crisi
 Estado de derecho, que con altibajos se prolonga hasta hoy. Manifestaciones de ella son
 la inestabilidad de los gobiernos y la indefensión de los gobernados”.410
 
-
 ## 11.3. El Estado de Derecho en la época previa a la del constitucionalismo
+
+**Definición Canónica:** moderno.
+**Concordancias Legales:** constitucion; constitución
 
 moderno.
 
@@ -7205,8 +7343,10 @@ someterlo a vínculos jurídicos, volvió jurisdiccionalmente controlable al Pod
 Legislativo…’. Sin duda este fue un avance notable, pues era imperativo lograr el control
 del Poder Legislativo, lo cual se logró gracias a la sujeción a la Constitución’”. 420
 
-
 ## 11.6. Elementos del Estado de Derecho en las normas internacionales
+
+**Definición Canónica:** promovidas después de la Segunda Guerra Mundial.
+**Concordancias Legales:** constitucion
 
 promovidas después de la Segunda Guerra Mundial.
 
@@ -7320,8 +7460,10 @@ congruente, en el plano externo, con los ordenamientos jurídicos internacionale
 han profundizado en el desarrollo de tales derechos y forman parte del ordenamiento
 jurídico de cada Estado después de los pertinentes actos de suscripción y de ratificación.
 
-
 ## 11.7. Algunos planteamientos acerca del Estado de Derecho en la doctrina
+
+**Definición Canónica:** nacional.
+**Concordancias Legales:** artículo 16 de la Declaración de los Derechos del Hombre y el C; artículo 76 inciso 2; artículo 34 del Código Civil; artículo 34 del Código Civil. Reflexiones en torno a la sente; artículo 34 del Código Civil para su aplicación en los casos; artículo 34 del Código Civil. Reflexiones en torno a la s; Ley N° 21.400; Ley N° 21.430; Constitución Política; constitución; Constitucion
 
 nacional.
 
@@ -8139,7 +8281,18 @@ de carácter biológico”.
 
 ## 1. De los orígenes a la Baja Edad Media, 14ª edición, Madrid, Alianza Universidad
 
-       Textos.
+**Definición Canónica:** Textos.
+   -   Vodanovic H., Antonio (1990), Derecho Civil. Parte Preliminar y Parte General,
+       Explicaciones basadas en las versiones de clases de los profesores de la
+       Universidad de Chile Arturo Alessandri R. y Manuel Somarriva U., redactadas,
+       ampliadas y actualizadas por Antonio Vodanovic H., Santiago de Chile, Ediar
+       Conosur Ltda., Tomo 1º, 5ª edición.
+   -   Williams Benavente, Jaime (2021a), Filosofía del Derecho. Sus fundamentos
+       griegos, Santiago de Chile, Ediciones Jurídicas de Santiago, tomo I, 2ª edición.
+   -   Williams Benavente, Jaime (2021b), Filos
+**Concordancias Legales:** artículos 6; Constitución Política; constitucion
+
+Textos.
    -   Vodanovic H., Antonio (1990), Derecho Civil. Parte Preliminar y Parte General,
        Explicaciones basadas en las versiones de clases de los profesores de la
        Universidad de Chile Arturo Alessandri R. y Manuel Somarriva U., redactadas,

@@ -13,15 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** General | **Materia:** General
 
-## La relación jurídica, el deber jurídico
-
-
-## Y los derechos subjetivos1
-
-
-Sumario: 1.- La relación jurídica. 1.1. Concepto. 1.2. Estructura de la relación jurídica.
-
 ## 1.3. Clases de relaciones jurídicas. 2.- El deber jurídico y su relación con los derechos
+
+**Definición Canónica:** subjetivos. 3.- Los derechos subjetivos. 3.1. Distinción entre derecho objetivo y derecho
+subjetivo. 3.2. Contenido de los derechos subjetivos. 3.3. Los derechos subjetivos ante
+la doctrina. 3.4. Clasificación de los derechos subjetivos. 3.5. Nacimiento, adquisición,
+modificación, extinción y pérdida de los derechos subjetivos. 3.6. Fuentes de los
+derechos subjetivos. 3.7. Ejercicio de los derechos subjetivos. Los límites en dicho
+ejercicio. El abuso del derecho y la teoría de los actos propios. Bibliografía. Cuestionario.
+**Concordancias Legales:** Ley N° 21.430; constitución; constitucion; Constitución Política
 
 subjetivos. 3.- Los derechos subjetivos. 3.1. Distinción entre derecho objetivo y derecho
 subjetivo. 3.2. Contenido de los derechos subjetivos. 3.3. Los derechos subjetivos ante
@@ -986,6 +986,16 @@ que se ejercen directamente sobre una cosa ‘sin respecto a determinada persona
 
 ## 577.1 CC). Usualmente se les califica de derechos ‘erga omnes’. Los derechos de eficacia
 
+**Definición Canónica:** relativa también deben ser respetados por la generalidad de las personas, pero tienen
+una prestación que sólo es exigible a una persona determinada y no al resto de los
+integrantes de la sociedad. Los derechos personales o de crédito son los típicos derechos
+de eficacia relativa (art. 578 CC)”.74
+        Señala Lasarte a su vez que “se habla de derecho absoluto o general cuando el
+derecho subjetivo otorga a su titular un ámbito de poder que, con carácter general, debe
+ser respetado y reconocido por todos los demás miembros de la colectividad.
+Tradicionalmente, el ejemplo paradigmático de tal t
+**Concordancias Legales:** artículo 578
+
 relativa también deben ser respetados por la generalidad de las personas, pero tienen
 una prestación que sólo es exigible a una persona determinada y no al resto de los
 integrantes de la sociedad. Los derechos personales o de crédito son los típicos derechos
@@ -1273,8 +1283,10 @@ que accesorium sequitur principale,97 para manifestar que la transmisión o exti
 derecho principal comporta paralelamente la misma consecuencia para el derecho
 accesorio”.98
 
-
 ## 3.5. Nacimiento, adquisición, modificación, extinción y pérdida de los derechos
+
+**Definición Canónica:** subjetivos.
+**Concordancias Legales:** artículo 1968 del Código Civil
 
 subjetivos.
 
@@ -1520,8 +1532,9 @@ origina es el hecho de la concepción (para nosotros) o del nacimiento (para otr
 el momento en que se produce la concepción (o el nacimiento para otra posición) se
 adquieren por la persona los derechos que precisamente se llaman “de la personalidad”.
 
-
 ## 3.7. Ejercicio de los derechos subjetivos. Los límites en dicho ejercicio. El abuso
+
+**Definición Canónica:** del derecho y la teoría de los actos propios.
 
 del derecho y la teoría de los actos propios.
 
@@ -1642,6 +1655,15 @@ y Postglosadores aplican esa idea de la «emulación» sólo a los particulares 
 ya con una connotación negativa, como entrañando una intencionalidad dañosa por
 
 ## parte del titular de un derecho frente a otros sujetos, por motivos de enemistad, de
+
+**Definición Canónica:** envidia o de simple maldad; a veces se calificaba incluso como acto emulativo la simple
+generación de daño a otra persona cuando el derecho ejercitado no le reportase interés
+o beneficio real alguno a su titular. En esta línea, Cino de Pistoya sostuvo que el ejercicio
+de un derecho sin utilidad propia y con daño ajeno debía considerarse abusivo y, por
+ello, rechazarse como incurso en iniquidad; le seguirían luego Bartolo y Baldo,
+reprochando al propietario de un predio la construcción de un muro desmesuradamente
+alto en uno de sus linderos con el fin de privar a su vecino de luces y vistas”.12
+**Concordancias Legales:** artículo 544; artículo 7 del Código Civil está inmediatamente precedido de; artículo 7; artículos 930; artículo 669; artículo 7.2. del Código Civil
 
 envidia o de simple maldad; a veces se calificaba incluso como acto emulativo la simple
 generación de daño a otra persona cuando el derecho ejercitado no le reportase interés

@@ -15,6 +15,29 @@ extraccion: pdftotext
 
 ## La posesión1
 
+**Definición Canónica:** Sumario:
+1.- Regulación y concepto.
+2.- Naturaleza Jurídica.
+3.- Elementos de la posesión.
+4.- La posesión en su relación con el dominio.
+5.- Ventajas de la posesión.
+6.- Cosas susceptibles de posesión.
+7.- Diversas clases de posesión.
+8.- La posesión regular.
+8.1. Justo título.
+8.2. La buena fe.
+8.3. La tradición.
+9.- La posesión irregular.
+10.- Las posesiones viciosas.
+11.- La mera tenencia.
+12.- La posesión no se transmite ni se transfiere.
+13.- Agregación de la posesión.
+14.- Adquisición, conservación y pérdida de la posesión.
+14.1. Generalidades.
+14.2. La posesión de los bienes muebles.
+1
+**Concordancias Legales:** artículo 701; Constitución Política
+
 Sumario:
 1.- Regulación y concepto.
 2.- Naturaleza Jurídica.
@@ -334,11 +357,13 @@ la posesión y que la tradición sólo es necesaria cuando se invoca un título 
 dominio.
         Seguidamente analizaremos los tres requisitos.
 
-
 ## 8.1. Justo título
 
+**Definición Canónica:** Peña Quiñones, Ernesto y Peña Rodríguez, Gabriel Ernesto, “El Derecho de Bienes”, Legis, primera
+reimpresión 2008, p. 403.
+**Concordancias Legales:** artículo 704; artículo 703
 
-  Peña Quiñones, Ernesto y Peña Rodríguez, Gabriel Ernesto, “El Derecho de Bienes”, Legis, primera
+Peña Quiñones, Ernesto y Peña Rodríguez, Gabriel Ernesto, “El Derecho de Bienes”, Legis, primera
 reimpresión 2008, p. 403.
 
                             La Posesión – Juan Andrés Orrego Acuña                              6
@@ -547,6 +572,16 @@ tenemos presente, resultaría que “los actos legales de partición” serían 
 
 ## título declarativo y no translaticio de dominio. ¿Cómo resolver este conflicto
 
+**Definición Canónica:** normativo? Hay tres respuestas:
+i.- Algunos entienden que estamos ante un título declarativo de dominio: intentando
+explicar el alcance del art. 703 en esta materia, se ha dicho que el legislador quiso
+aludir a que pertenecen a los títulos “derivativos de dominio”, en contraposición a los
+constitutivos, a los que se alude en los incisos 1º y 2º del artículo, entendiendo que en
+el caso de los derivativos, existió un dominio anterior. Claro Solar expresa al respecto:
+“La adjudicación en las particiones de bienes comunes no es atributiva sino declarativa
+de propiedad; y por consiguiente, no puede
+**Concordancias Legales:** artículo 1344
+
 normativo? Hay tres respuestas:
 i.- Algunos entienden que estamos ante un título declarativo de dominio: intentando
 explicar el alcance del art. 703 en esta materia, se ha dicho que el legislador quiso
@@ -647,6 +682,16 @@ En contra se ha sostenido que en materia posesoria, igual que en el dominio, la
 adjudicación tiene efecto declarativo (es título declarativo); es así por el tenor del art.
 
 ## 718. Y cuando el art. 703 la considera título traslaticio se estaría refiriendo a las
+
+**Definición Canónica:** ‘adjudicaciones’ efectuadas en el proceso particional a extraños. Esta última afirmación
+requiere una aclaración. En la práctica –y a veces en los textos legales-en el proceso
+particional suele emplearse impropiamente el término ‘adjudicación’ para designar a
+transferencias de bienes comunes a terceros (por ejemplo, por remate). Auténtica
+adjudicación existe sólo entre comuneros. Entonces, como el término suele usarse en
+ese sentido impropio, se estima que ése sería el sentido empleado en el 703 y se
+aplicaría, por tanto, sólo a esas ‘adjudicaciones’ a extraños. Por cierto, dirimir la
+disyunti
+**Concordancias Legales:** artículo 718; artículo 703; artículo 1344; Ley Nº 19.903
 
 ‘adjudicaciones’ efectuadas en el proceso particional a extraños. Esta última afirmación
 requiere una aclaración. En la práctica –y a veces en los textos legales-en el proceso
@@ -755,6 +800,8 @@ ii) Si no es heredero: la posesión carecerá de título en estricto rigor, apli
 
 ## 704 Nº 4: posesión con “título putativo” y eventualmente con justo título si se obtiene
 
+**Definición Canónica:** la posesión efectiva.
+
 la posesión efectiva.
 
 e) Títulos injustos
@@ -846,6 +893,16 @@ mandante, quien podrá ratificarlo (art. 2160).
 Si interpretamos el N° 2 de manera extensiva, la conclusión sería que se trata de un
 
 ## título injusto. Por el contrario, si interpretamos el numeral ateniéndonos estrictamente
+
+**Definición Canónica:** a su tenor, la conclusión sería que el título es justo, aunque, por supuesto, inoponible
+al mandante.
+       En la disyuntiva, nos inclinamos por la segunda conclusión, conforme al principio
+de que al estar ante una norma como la del art. 704, que establece excepciones, su
+interpretación debiera ceñirse a los estrictos términos de ella.
+       En relación a este caso, conviene precisar que, si alguien vende una cosa ajena,
+pero como propia, actuando por sí, el título es justo, por regla general, pues esta
+situación no está incluida en el art. 704, y por el contrario, está expresamente validada
+**Concordancias Legales:** Ley N° 19.947; Ley Nº 2.695
 
 a su tenor, la conclusión sería que el título es justo, aunque, por supuesto, inoponible
 al mandante.
@@ -1372,6 +1429,16 @@ c.2.) Es perpetua
 
 ## título lo será, por regla general (arts. 1097 y 1104). Ello, porque la condición jurídica
 
+**Definición Canónica:** del causahabiente (heredero o legatario, por ejemplo), será la misma que tenía su
+causante.
+        Sin embargo, esta característica puede desaparecer en el caso de los herederos,
+cuando fallezca el mero tenedor y los primeros entren a detentar la cosa bajo la
+creencia de que pertenecía al fallecido. En tal caso, los herederos serán poseedores de
+la cosa y podrán adquirirla por prescripción. Serán poseedores de buena fe y por ende
+tendrán posesión regular. En cambio, si al fallecimiento del causante sus herederos
+entran a detentar la cosa en calidad de poseedores, pero a sabiendas de que no le
+**Concordancias Legales:** Artículo 915 del Código Civil; artículo 1240 del Código Civil
+
 del causahabiente (heredero o legatario, por ejemplo), será la misma que tenía su
 causante.
         Sin embargo, esta característica puede desaparecer en el caso de los herederos,
@@ -1483,9 +1550,12 @@ también con sus vicios.
 
 14.- Adquisición, conservación y pérdida de la posesión
 
-
 ## 14.1. Generalidades
 
+**Definición Canónica:** a) La posesión puede adquirirse personalmente o también por intermedio de otra
+persona: art. 720.
+        El artículo no es más que una aplicación del principio general, contemplado en
+el art. 1448 del Código Civil.
 
 a) La posesión puede adquirirse personalmente o también por intermedio de otra
 persona: art. 720.
@@ -1532,9 +1602,9 @@ animus: arts. 700 y 723.
      Excepcionalmente, la “posesión legal” de la herencia no requiere corpus ni
 animus: art. 722.
 
-
 ## 14.2 La posesión de los bienes muebles
 
+**Definición Canónica:** a) Adquisición
 
 a) Adquisición
 
@@ -1581,11 +1651,11 @@ recobra su libertad natural).
 c.3.) Pérdida del animus.
         Tal es el caso de la constituto posesorio (art. 684, Nº 5, segunda parte).
 
-
 ## 14.3. La posesión de los bienes raíces
 
+**Definición Canónica:** Debemos distinguir entre los inmuebles no inscritos y los inscritos.
 
-       Debemos distinguir entre los inmuebles no inscritos y los inscritos.
+Debemos distinguir entre los inmuebles no inscritos y los inscritos.
 
 a) Adquisición de la posesión de los inmuebles no inscritos.
 
@@ -1638,36 +1708,36 @@ inmuebles inscritos o no inscritos).
 a.3.2) No hay unanimidad en la doctrina, cuando se trata de la posesión irregular de
 un predio no inscrito, en cuanto a si es necesario inscribir.
 
-## 1. Doctrina mayoritaria: postula la necesidad de inscribir, en base a las siguientes
-
-razones:
-
-## 1.1 El tenor del art. 724: la norma no distingue en cuanto a la naturaleza de la
-
-posesión, regular o irregular.
-
 ## 1.2. Como la ley no efectúa tal distinción, resulta que la inscripción, cuando se invoca
+
+**Definición Canónica:** un título traslaticio de dominio, no es simplemente un elemento de la posesión regular,
+sino un requisito indispensable para adquirir toda clase de posesión.
+1.3. El espíritu del legislador apunta a obtener que todas las propiedades se inscriban,
+de manera que posesión y propiedad sean conceptos sinónimos.
 
 un título traslaticio de dominio, no es simplemente un elemento de la posesión regular,
 sino un requisito indispensable para adquirir toda clase de posesión.
 1.3. El espíritu del legislador apunta a obtener que todas las propiedades se inscriban,
 de manera que posesión y propiedad sean conceptos sinónimos.
 
-## 2. Doctrina minoritaria: postula que no es necesario inscribir para entrar en posesión
-
-irregular de un inmueble:
-
-## 2.1. Porque el art. 724 se refiere sólo a los bienes raíces que ya han entrado al
-
-régimen de la propiedad inscrita. Así lo confirmarían el art. 728, inciso 2º y el art.
-
 ## 729. Estos artículos dejan en claro que la garantía que otorga la inscripción es para el
+
+**Definición Canónica:** poseedor inscrito exclusivamente. Si se reconoce que la posesión no inscrita se pierde
+por el apoderamiento violento o clandestino, es lógico suponer que también se pierda
+en virtud de un título traslaticio de dominio.
 
 poseedor inscrito exclusivamente. Si se reconoce que la posesión no inscrita se pierde
 por el apoderamiento violento o clandestino, es lógico suponer que también se pierda
 en virtud de un título traslaticio de dominio.
 
 ## 2.2. El art. 730 confirmaría que no es necesario inscribir: el inciso 1º no hace distinción
+
+**Definición Canónica:** alguna entre muebles e inmuebles, y el inciso 2º exige la inscripción a nombre del
+tercero adquirente sólo en el caso de que el usurpador tenga la cosa en lugar y a
+nombre de un poseedor inscrito. Y no cabe otra interpretación del art. 730, porque si
+se pretendiera que en su inciso 1º exige inscripción, forzosamente habría que conducir
+que el inciso 2º estaría de más.
+**Concordancias Legales:** artículos 686
 
 alguna entre muebles e inmuebles, y el inciso 2º exige la inscripción a nombre del
 tercero adquirente sólo en el caso de que el usurpador tenga la cosa en lugar y a
@@ -1726,6 +1796,16 @@ respecto de la posesión regular. Fundamentos:
 
 ## 1. Es verdad que la posesión no necesita de tradición, de inscripción; pero también lo
 
+**Definición Canónica:** es que la ley declara reiteradamente que el poseedor inscrito no pierde su posesión
+mientras subsiste la inscripción en su favor, y para que ésta no subsista es preciso que
+el adquirente obtenga una nueva inscripción en su favor (artículos 728, 729 -
+interpretado a contrario sensu-, 730 y 2505). Sin una nueva inscripción, no se
+adquiere ninguna clase de posesión. De seguir la opinión contraria, resultaría que el
+poseedor inscrito conservaría la posesión regular y al mismo tiempo el que adquiere
+materialmente el predio, tendría una posesión irregular. Tal situación es inadmisible,
+resultando ab
+**Concordancias Legales:** artículos 728
+
 es que la ley declara reiteradamente que el poseedor inscrito no pierde su posesión
 mientras subsiste la inscripción en su favor, y para que ésta no subsista es preciso que
 el adquirente obtenga una nueva inscripción en su favor (artículos 728, 729 -
@@ -1740,6 +1820,14 @@ poseedores, uno regular y el otro irregular, sobre la misma cosa.
 
 ## 2. Se infringiría el art. 2505: si la posesión irregular pudiera adquirirse sin la
 
+**Definición Canónica:** inscripción, habría prescripción contra título inscrito, invocándose prescripción
+extraordinaria. El art. 2505 rechaza sin embargo tanto la prescripción ordinaria como
+la extraordinaria, contra título inscrito.
+3. Atendiendo al Mensaje del Código Civil: “La inscripción es la que da la posesión real,
+efectiva; y mientras ella no se ha cancelado, el que no ha inscrito su título no posee:
+es un mero tenedor”. Dicho de otro modo: el que no ha inscrito, no es ni siquiera
+poseedor irregular.
+
 inscripción, habría prescripción contra título inscrito, invocándose prescripción
 extraordinaria. El art. 2505 rechaza sin embargo tanto la prescripción ordinaria como
 la extraordinaria, contra título inscrito.
@@ -1749,6 +1837,11 @@ es un mero tenedor”. Dicho de otro modo: el que no ha inscrito, no es ni siqui
 poseedor irregular.
 
 ## 4. Todo el sistema del Código tiende a que los inmuebles se incorporen al régimen
+
+**Definición Canónica:** conservatorio, y sería absurdo pensar que el legislador ha dejado las puertas abiertas
+para que un inmueble pudiera salir del régimen mediante la adquisición de la posesión
+sin mediar inscripción.
+**Concordancias Legales:** artículos 683; artículo 2505 del Código Civil se refiere sólo a la prescripció; artículos 457; artículo 467; artículos 728; artículo 704; artículo 728; Ley N° 21.633
 
 conservatorio, y sería absurdo pensar que el legislador ha dejado las puertas abiertas
 para que un inmueble pudiera salir del régimen mediante la adquisición de la posesión
@@ -2123,8 +2216,11 @@ que pueda cancelarse una inscripción por una nueva que se practica en virtud de
 
 ## título injusto, como sería el falsificado o el otorgado por una persona en calidad de
 
+**Definición Canónica:** Vial del Río, Víctor, La Tradición y la Prescripción Adquisitiva como Modo de Adquirir el Dominio, 2ª
+edición, Santiago de Chile, Ediciones Universidad católica de Chile, 2003, pp. 109 y 110.
+**Concordancias Legales:** artículo 728
 
-  Vial del Río, Víctor, La Tradición y la Prescripción Adquisitiva como Modo de Adquirir el Dominio, 2ª
+Vial del Río, Víctor, La Tradición y la Prescripción Adquisitiva como Modo de Adquirir el Dominio, 2ª
 edición, Santiago de Chile, Ediciones Universidad católica de Chile, 2003, pp. 109 y 110.
 
                              La Posesión – Juan Andrés Orrego Acuña                                 38
@@ -2194,6 +2290,16 @@ usurpador.
     Esta doctrina afirma que la “competente inscripción” no puede ser otra que la del
 
 ## título de enajenación derivado del usurpador, desde el momento que la ley admite que
+
+**Definición Canónica:** el poseedor inscrito puede perder la posesión como consecuencia de la enajenación de
+la cosa por el usurpador.
+    A juicio de esta doctrina, no ha podido referirse la ley a una inscripción que proceda
+del poseedor inscrito, pues a ese caso alude el art. 728, y el art. 730 se coloca en el
+supuesto de que no es el poseedor inscrito el que enajena la cosa, sino por el
+contrario, es el que la pierde por obra del usurpador. De otro modo, si se aceptara la
+primera doctrina, el art. 730, inc. 2º, estaría de más, no tendría aplicación, porque se
+ocuparía de un caso ya previsto y resuelto por el art. 
+**Concordancias Legales:** artículo 700; artículo 925 del Código Civil
 
 el poseedor inscrito puede perder la posesión como consecuencia de la enajenación de
 la cosa por el usurpador.
@@ -2325,11 +2431,19 @@ mucho menos probables en un sistema conservatorio de folio real.
 
 15.- Ficción y presunciones relativas a la prueba de la posesión
 
-
 ## 15.1. Ficción acerca de la continuidad en la posesión
 
+**Definición Canónica:** De acuerdo al art. 731, el que recupera legalmente la posesión perdida, se
+entiende haberla tenido durante todo el tiempo intermedio. El art. 2502, inciso final,
+repite la misma regla.
+        La ley concede las acciones posesorias para conservar o recuperar la posesión
+de los bienes raíces o de derechos reales constituidos en ellos. Además, otorga la
+acción publiciana, que ampara según vimos al poseedor regular, y que le permite,
+mediante su interposición, recuperar también la posesión de bienes muebles.
+      La ficción legal del art. 731, cobra importancia para la prescripción adquisitiva,
 
-        De acuerdo al art. 731, el que recupera legalmente la posesión perdida, se
+
+De acuerdo al art. 731, el que recupera legalmente la posesión perdida, se
 entiende haberla tenido durante todo el tiempo intermedio. El art. 2502, inciso final,
 repite la misma regla.
         La ley concede las acciones posesorias para conservar o recuperar la posesión
@@ -2342,11 +2456,15 @@ fijado por la ley. Una de las especies de interrupción natural de la posesión 
 haberla perdida por haber entrado en ella otra persona (art. 2502 Nº 2). Pero si se
 recupera legalmente, se entenderá que no hubo interrupción.
 
-
 ## 15.2. Presunciones para probar la posesión
 
+**Definición Canónica:** La ley establece algunas presunciones para facilitar la prueba de la posesión, en
+el art. 719.
+        Se trata de presunciones simplemente legales:
+a) Art. 719, inc. 1º: Si se ha empezado a poseer a nombre propio, se presume que
+esta posesión ha continuado hasta el momento en que se alega. La parte contraria
 
-        La ley establece algunas presunciones para facilitar la prueba de la posesión, en
+La ley establece algunas presunciones para facilitar la prueba de la posesión, en
 el art. 719.
         Se trata de presunciones simplemente legales:
 a) Art. 719, inc. 1º: Si se ha empezado a poseer a nombre propio, se presume que
@@ -2482,6 +2600,20 @@ sobre la que recae su posesión?
 
 ## título translaticio de dominio?
 
+**Definición Canónica:** 78.- ¿En qué caso un poseedor regular no requiere acreditar que se hizo en su favor
+tradición de la cosa?
+79.- ¿Qué se entiende por posesión irregular?
+80.- ¿Qué semejanzas y diferencias se observan entre la posesión regular y la posesión
+irregular?
+81.- ¿Cuáles son las posesiones viciosas?
+82.- ¿Qué se entiende por posesión violenta?
+83.- ¿En qué momento debe haber violencia, para calificar a la posesión como
+violenta?
+84.- ¿En qué caso la violencia posterior transforma a la posesión en violenta?
+85.- ¿Contra quién o quiénes podría emplearse la violencia al entrar una persona en
+posesión?
+86.
+
 78.- ¿En qué caso un poseedor regular no requiere acreditar que se hizo en su favor
 tradición de la cosa?
 79.- ¿Qué se entiende por posesión irregular?
@@ -2536,6 +2668,18 @@ representante legal?
 114.- A) ¿En qué casos se adquiere la posesión de un inmueble inscrito, sin invocar un
 
 ## título no traslaticio de dominio? B) ¿Exige la ley inscribir en este caso? Fundamente su
+
+**Definición Canónica:** respuesta.
+115.- ¿Qué se ha discutido acerca de la adquisición de la posesión de inmuebles,
+cuando el poseedor invoca un título translaticio de dominio?
+116.- ¿Qué debe ocurrir para que cese la posesión inscrita?
+117.- ¿Qué hipótesis de cancelación se establecen en el art. 728 del Código Civil?
+118.- ¿Cómo opera la cancelación de la inscripción “por voluntad de las partes”?
+119.- ¿En qué consisten la “cancelación virtual” y la “cancelación material” de una
+inscripción?
+120.- ¿Toda cancelación de una inscripción implica que se realice una nueva
+inscripción? Fundamente su respuesta.
+121.- ¿Qué r
 
 respuesta.
 115.- ¿Qué se ha discutido acerca de la adquisición de la posesión de inmuebles,

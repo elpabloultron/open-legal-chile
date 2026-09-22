@@ -13,20 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Laboral | **Materia:** Laboral
 
-## 47           Clima laboral
-
-             y calidad de vida
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             Alejandro Pérsico Paris
+                       electrónica
+             Fernando Castro  Sapiains
 
-                       Tramitación
+Tramitación
              Alejandro Pérsico Paris
                        electrónica
              Fernando Castro  Sapiains
@@ -86,50 +80,9 @@ Materiales Docentes                                                 ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Introducción
-
-## 7       Capítulo 2
-
-        Clima organizacional
-
-## 17      Capítulo 3
-
-        Gestión del clima organizacional en tribunales
-
-## 27      Capítulo 4
-
-        Política de Clima Laboral en tribunales
-
-## 31      Capítulo 5
-
-        Organizaciones
-
-## 34      Capítulo 6
-
-        Personas y organizaciones
-
-## 41      Capítulo 7
-
-        Perspectiva de género en el Poder Judicial
-
-## 43      Capítulo 8
-
-        Clima organizacional y atención a usuarios
-
-## 46      Capítulo 9
-
-        Liderazgo y clima organizacional
-
-## 53      Referencias
-
-
-Materiales Docentes                                                   Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Introducción
 
 Introducción
 
@@ -196,8 +149,9 @@ de modernización que ha implementado el Poder Judicial, el clima organizacional
 
 Materiales Docentes                                                    Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Clima organizacional
 
 Clima organizacional
 
@@ -534,8 +488,9 @@ Sistema de recompensas y sanciones
 Academia Judicial de Chile                         Clima laboral y calidad de vida
 Materiales Docentes                                                     Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Gestión del clima organizacional en tribunales
 
 Gestión del clima organizacional en tribunales
 
@@ -791,7 +746,10 @@ ellas? En los resultados, siempre prevalecen estas características:
 
 ## parte en las decisiones que les afectan
 
-    • Conocen su cultura. Eso determina su manera de tratar a las per-
+**Definición Canónica:** • Conocen su cultura. Eso determina su manera de tratar a las per-
+      sonas.
+
+• Conocen su cultura. Eso determina su manera de tratar a las per-
       sonas.
 
 Academia Judicial de Chile                                Clima laboral y calidad de vida
@@ -863,8 +821,9 @@ los siguientes comentarios en la sección cualitativa de la medición. Expectati
 
 Materiales Docentes                                                    Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Política de Clima Laboral en tribunales
 
 Política de Clima Laboral en tribunales
 
@@ -965,8 +924,9 @@ los Tribunales del país a través del fortalecimiento de la institución.
 
 Materiales Docentes                                                   Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Organizaciones
 
 Organizaciones
 
@@ -1063,8 +1023,9 @@ actividades realizadas, verificando y contrastándolas con lo planificado.
 
 Materiales Docentes                                                    Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** Personas y organizaciones
 
 Personas y organizaciones
 
@@ -1309,8 +1270,9 @@ Materiales Docentes                                                             
 
 Materiales Docentes                                                   Capítulo 7
 
-
 ## Capítulo 7
+
+**Definición Canónica:** Perspectiva de género en el Poder Judicial
 
 Perspectiva de género en el Poder Judicial
 
@@ -1349,8 +1311,9 @@ Materiales Docentes                                                        Capí
 
 Materiales Docentes                                                    Capítulo 8
 
-
 ## Capítulo 8
+
+**Definición Canónica:** Clima organizacional y atención a usuarios
 
 Clima organizacional y atención a usuarios
 
@@ -1441,8 +1404,9 @@ objetivo de brindar cada vez más, una mejor satisfacción usuaria.
 Academia Judicial de Chile                      Clima laboral y calidad de vida
 Materiales Docentes                                                  Capítulo 9
 
-
 ## Capítulo 9
+
+**Definición Canónica:** Liderazgo y clima organizacional
 
 Liderazgo y clima organizacional
 
@@ -1559,10 +1523,17 @@ Núm.   Situación que               Conductas comunicacionales          Impacto
        enfrenta la jefatura           de la jefatura directa
        directa                Efectivas            Perjudiciales
 
-
 ## 1      Frente a los cambios Al informar los        Informa que         El conocer las
 
-       que involucran a las cambios comunica       ocurrirán cambios   inquietudes del
+**Definición Canónica:** que involucran a las cambios comunica       ocurrirán cambios   inquietudes del
+       personas del tribunal que le es importante sin entregar         equipo, junto con
+                             conocer las           mayores detalles    ser un gesto de
+                             inquietudes del                           consideración,
+                             equipo frente a estos                     permite que
+                                                                       eventualmente el
+                                                                       trabajo se desar
+
+que involucran a las cambios comunica       ocurrirán cambios   inquietudes del
        personas del tribunal que le es importante sin entregar         equipo, junto con
                              conocer las           mayores detalles    ser un gesto de
                              inquietudes del                           consideración,
@@ -1574,7 +1545,15 @@ Núm.   Situación que               Conductas comunicacionales          Impacto
 
 ## 2      Cuando su jefatura     Comenta con el        Entrega la         Mientras mayor
 
-       directa entrega una    equipo acerca de la   instrucción        información y
+**Definición Canónica:** directa entrega una    equipo acerca de la   instrucción        información y
+       instrucción            tarea, preguntando lo sin mayor          contexto, mejor
+                              que necesitan para    información o      podrá desarrollar su
+                              desarrollarla         contexto           trabajo el equipo,
+                                                                       pues tendrá un mejor
+                                                                       entendimiento de la
+                                                                      
+
+directa entrega una    equipo acerca de la   instrucción        información y
        instrucción            tarea, preguntando lo sin mayor          contexto, mejor
                               que necesitan para    información o      podrá desarrollar su
                               desarrollarla         contexto           trabajo el equipo,
@@ -1584,7 +1563,12 @@ Núm.   Situación que               Conductas comunicacionales          Impacto
 
 ## 3      Cuando se requiere   Pide e incentiva       Comenta que es      Cuando las
 
-       generar propuestas o a participar en        necesario generar   propuestas vienen
+**Definición Canónica:** generar propuestas o a participar en        necesario generar   propuestas vienen
+       mejoras, su jefatura la entrega de          propuestas o        del equipo, el
+                            propuestas o           mejoras             compromiso que se
+                            mejoras                                    genera es mayor
+
+generar propuestas o a participar en        necesario generar   propuestas vienen
        mejoras, su jefatura la entrega de          propuestas o        del equipo, el
                             propuestas o           mejoras             compromiso que se
                             mejoras                                    genera es mayor
@@ -1596,10 +1580,16 @@ Núm.   Situación que                  Conductas comunicacionales              
        enfrenta la jefatura              de la jefatura directa
        directa                  Efectivas                Perjudiciales
 
-
 ## 4      Cuando el equipo      Orienta o entrega           Responde en          El orientar al
 
-       requiere información, la información              forma vaga con       equipo y entregar
+**Definición Canónica:** requiere información, la información              forma vaga con       equipo y entregar
+       su jefatura directa   necesaria,                  comentarios tales    la información que
+                             considerando las            como: luego lo       es clave para el
+                             inquietudes del             vemos                desarrollo de su
+                             equipo                                           trabajo, es esencial
+                                                                              para ejercer liderazgo
+
+requiere información, la información              forma vaga con       equipo y entregar
        su jefatura directa   necesaria,                  comentarios tales    la información que
                              considerando las            como: luego lo       es clave para el
                              inquietudes del             vemos                desarrollo de su
@@ -1608,7 +1598,15 @@ Núm.   Situación que                  Conductas comunicacionales              
 
 ## 5      Cuando una persona Pide información               Solicita que se      Escuchar al equipo y
 
-       o el equipo tiene una para resolver               resuelva             sus dificultades, es
+**Definición Canónica:** o el equipo tiene una para resolver               resuelva             sus dificultades, es
+       dificultad laboral    la situación,                                    tanto un mecanismo
+                             considerando las                                 de contención como
+                             inquietudes o                                    también de ayuda
+                             sugerencias del                                  en la conformación
+                             equipo                                           de buenos vínculos
+                         
+
+o el equipo tiene una para resolver               resuelva             sus dificultades, es
        dificultad laboral    la situación,                                    tanto un mecanismo
                              considerando las                                 de contención como
                              inquietudes o                                    también de ayuda
@@ -1618,7 +1616,15 @@ Núm.   Situación que                  Conductas comunicacionales              
 
 ## 6      Cuando una               Ofrece realizar          Le informa que       El dar el tiempo para
 
-       persona del equipo       acciones concretas       en el estado en      escuchar y entregar
+**Definición Canónica:** persona del equipo       acciones concretas       en el estado en      escuchar y entregar
+       está afectada            para apoyarla de         que se encuentra     apoyo es clave
+       emocionalmente, su       manera que pueda         no podrá realizar    en la contención
+       jefatura directa         reincorporarse           adecuadamente        emocional de otro,
+                                adecuadamente            su trabajo           pudiendo hacer
+                                a sus tareas. Le                              una gran diferencia
+                                c
+
+persona del equipo       acciones concretas       en el estado en      escuchar y entregar
        está afectada            para apoyarla de         que se encuentra     apoyo es clave
        emocionalmente, su       manera que pueda         no podrá realizar    en la contención
        jefatura directa         reincorporarse           adecuadamente        emocional de otro,
@@ -1633,7 +1639,13 @@ Núm.   Situación que                  Conductas comunicacionales              
 
 ## 7      Cuando es                Retroalimenta cómo       Específica el        La retroalimentación
 
-       necesario entregar       evitar que ocurra        error cometido,      como acción
+**Definición Canónica:** necesario entregar       evitar que ocurra        error cometido,      como acción
+       retroalimentación        nuevamente y ofrece      enfatizando que      comunicacional clave
+       frente a una             su ayuda si es           este no debe         facilita aprender
+       conducta                 necesario                repetirse            en conjunto con el
+       inadecuada o error                                                     equipo
+
+necesario entregar       evitar que ocurra        error cometido,      como acción
        retroalimentación        nuevamente y ofrece      enfatizando que      comunicacional clave
        frente a una             su ayuda si es           este no debe         facilita aprender
        conducta                 necesario                repetirse            en conjunto con el
@@ -1641,7 +1653,13 @@ Núm.   Situación que                  Conductas comunicacionales              
 
 ## 8      Cuando es           Felicita en forma             No realiza           Reconocer al otro, es
 
-       necesario entregar  afectuosa, individual         menciones al         un factor motivador
+**Definición Canónica:** necesario entregar  afectuosa, individual         menciones al         un factor motivador
+       retroalimentación   o grupalmente                 respecto             poderoso. Por ello
+       por una conducta o                                                     es fundamental dar
+       hecho destacado, su                                                    retroalimentación y
+       jefatura directa                                                       reconocimiento
+
+necesario entregar  afectuosa, individual         menciones al         un factor motivador
        retroalimentación   o grupalmente                 respecto             poderoso. Por ello
        por una conducta o                                                     es fundamental dar
        hecho destacado, su                                                    retroalimentación y
@@ -1649,7 +1667,15 @@ Núm.   Situación que                  Conductas comunicacionales              
 
 ## 9      Frente a situaciones     Declara que dicho        Menciona que         El adecuado clima
 
-       de trato inadecuado      tipo de trato no es      ese tipo de          laboral permite el
+**Definición Canónica:** de trato inadecuado      tipo de trato no es      ese tipo de          laboral permite el
+       al interior del equipo   aceptable, pues          situaciones son      adecuado desarrollo
+                                perjudica tanto las      normales en el       del trabajo. Si este
+                                relaciones como          trabajo. Expresa     no se gestiona,
+                                el desarrollo del        que en ocasiones     aparecen conductas
+                                trabajo. De forma        se debe recurrir     contraproductivas,
+                         
+
+de trato inadecuado      tipo de trato no es      ese tipo de          laboral permite el
        al interior del equipo   aceptable, pues          situaciones son      adecuado desarrollo
                                 perjudica tanto las      normales en el       del trabajo. Si este
                                 relaciones como          trabajo. Expresa     no se gestiona,
@@ -1678,15 +1704,16 @@ Núm.   Situación que                  Conductas comunicacionales           Imp
                                                                            equitativa y en base
                                                                            a criterios
 
-## 11     Frente a                 Indaga cómo se         Menciona que las    Es clave gestionar las
-
-       disconformidades         sienten                tendrá presentes    emociones propias y
-       planteadas por el                                                   del equipo
-       equipo
-
 ## 12     En el desarrollo de      Su comunicación         No comunica        Comunicar objetivos
 
-       reuniones de trabajo     enfoca las dinámicas objetivos de la       promueve su
+**Definición Canónica:** reuniones de trabajo     enfoca las dinámicas objetivos de la       promueve su
+                                de la reunión hacia el reunión ni dirige   cumplimiento
+                                logro de los objetivos, la conversación    Requiere mostrar
+                                considerando las        hacia estos        preocupación real por
+                                necesidades del                            las necesidades del
+                                equipo                                     equipo
+
+reuniones de trabajo     enfoca las dinámicas objetivos de la       promueve su
                                 de la reunión hacia el reunión ni dirige   cumplimiento
                                 logro de los objetivos, la conversación    Requiere mostrar
                                 considerando las        hacia estos        preocupación real por
@@ -1695,7 +1722,17 @@ Núm.   Situación que                  Conductas comunicacionales           Imp
 
 ## 13     Cuando el jefe ha        Da a conocer           No comenta nada Humildad y niveles
 
-       cometido un error        las causas y           acerca del hecho de horizontalidad,
+**Definición Canónica:** cometido un error        las causas y           acerca del hecho de horizontalidad,
+                                consecuencias del                       son fundamentales
+                                error, pidiéndole                       a la hora de ejercer
+                                participación                           liderazgo efectivo
+                                al equipo para
+                                evitar que ocurra
+                                nuevamente
+14     Frente a un conflicto    Pide al equipo         Da la instrucción   Trabajar en equipo,
+       
+
+cometido un error        las causas y           acerca del hecho de horizontalidad,
                                 consecuencias del                       son fundamentales
                                 error, pidiéndole                       a la hora de ejercer
                                 participación                           liderazgo efectivo
@@ -1715,7 +1752,15 @@ Núm.   Situación que                  Conductas comunicacionales           Imp
 
 ## 15     Cuando su jefe           Enfatiza la            Menciona la         El reforzar la
 
-       necesita generar         importancia del        necesidad de        importancia del
+**Definición Canónica:** necesita generar         importancia del        necesidad de        importancia del
+       compromiso               apoyo del equipo       comprometerse       equipo y su esfuerzo
+                                para el logro de los                       conjunto para la
+                                objetivos                                  consecución de
+                                                                           objetivos, refuerza
+                                                                           el compromiso y
+                                                    
+
+necesita generar         importancia del        necesidad de        importancia del
        compromiso               apoyo del equipo       comprometerse       equipo y su esfuerzo
                                 para el logro de los                       conjunto para la
                                 objetivos                                  consecución de
@@ -1726,7 +1771,12 @@ Núm.   Situación que                  Conductas comunicacionales           Imp
 
 ## 16     En lo cotidiano, la      Abarca tanto           Evita comunicarse Preocuparse por
 
-       comunicación de su       elementos              con su equipo     cómo están las
+**Definición Canónica:** comunicación de su       elementos              con su equipo     cómo están las
+       jefatura directa         personales como                          personas permite
+                                laborales                                mantener buenos
+                                                                         vínculos laborales
+
+comunicación de su       elementos              con su equipo     cómo están las
        jefatura directa         personales como                          personas permite
                                 laborales                                mantener buenos
                                                                          vínculos laborales

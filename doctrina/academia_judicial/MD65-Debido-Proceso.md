@@ -13,20 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 65           Debido
-
-             proceso
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+                       electrónica
+             Manuel Rodríguez Vega
+                       de causas
+             Rodrigo Bordachar Urrutia
 
-                       Tramitación
+Tramitación
                        electrónica
              Manuel Rodríguez Vega
                        de causas
@@ -83,127 +78,10 @@ Materiales Docentes                                                             
 
 Contenido
 
-
-## 9       Introducción
-
-
-## 13      Capítulo 1
-
-        Origen y conceptualización
-
-## 20      Capítulo 2
-
-        Contenido según la normativa y jurisprudencia
-        internacional y nacional
-
-## 25      Capítulo 3
-
-        Derechos fundamentales que derivan de la garantía
-        del debido proceso
-
-## 26      El derecho a la acción o tutela judicial efectiva
-
-
-## 35      Acceso a la justicia y acceso al derecho
-
-
-## 44      Derecho al juez o jueza natural
-
-
-## 47      Derecho a defensa
-
-
-## 51      Derecho a ser emplazado o emplazada
-
-
-## 53      Igualdad de partes y principio contradictorio
-
-
-## 56      Derecho a la prueba
-
-
-## 59      Derecho a ser juzgado o juzgada en un plazo razonable
-
-
-## 72      Derecho a la motivación de la decisión judicial
-
-
-## 78      Derecho a la no doble persecución (cosa juzgada)
-
-
-## 86      Derecho al recurso
-
-
-## 91      Garantías de tipo orgánicas y funcionales
-
-
-
-## 100     Capítulo 4
-
-        Resolución judicial ante la colisión de derechos
-        y garantías
-
-## 102     Operaciones comprendidas en la aplicación
-
-        		      de principios constitucionales
-
-## 108     Principio de proporcionalidad
-
-
-
-## 121   Capítulo 5
-
-      El debido proceso en los procedimientos civiles
-      y arbitrales
-
-## 122   Herramientas preventivas y correctivas
-
-      		    de vulneraciones al debido proceso
-      		    en el procedimiento civil
-
-## 178   El debido proceso en el arbitraje
-
-
-
-## 206 Capítulo 6
-
-    El debido proceso en los procedimientos administrativos
-
-## 215   Derecho a un órgano independiente e imparcial
-
-
-## 218   Derecho a defensa, respeto del contradictorio
-
-      		    y derecho a la prueba en el procedimiento administrativo
-
-## 220   Derecho a la fundamentación del acto administrativo
-
-
-## 228   Decisión dentro de un plazo razonable
-
-
-## 232   Derecho al recurso y a la impugnación del acto
-
-
-
-## 234   Capítulo 7
-
-      El debido proceso en los procedimientos penales
-
-## 235   Contenido del debido proceso en los procedimientos
-
-      		    penales y distinción de la mera infracción legal
-
-## 238   Principio de proporcionalidad en el procedimiento penal
-
-
-## 246   Herramientas procesales para el resguardo del debido
-
-      		    proceso en el procedimiento penal: Autorización judicial
-      		    previa, cautela de garantías, nulidad procesal, exclusión
-      		    de prueba ilícita, recurso de nulidad
-
 ## 255   Referencias
+
+**Definición Canónica:** Materiales Docentes                                              Introducción
+**Concordancias Legales:** artículo 8 de la Convención Americana.1 Junto con ello tam; constitucion
 
 Materiales Docentes                                              Introducción
 
@@ -263,8 +141,9 @@ imparcial y a obtener una decisión jurisdiccional dentro de un plazo
 razonable, entre muchos otros que le dan materialidad.
    Al final del día, el debido proceso nos permite decir que se hizo justicia. No basta que la decisión venga de un tribunal previamente establecido, sino que durante todo el proceso se debieron respetar las garantías
 
-
 ## 1 Corte Interamericana de Derechos Humanos, caso Tribunal Constitucional con
+
+**Definición Canónica:** Perú, 2001, párrafo 71.
 
 Perú, 2001, párrafo 71.
 
@@ -297,8 +176,15 @@ but should manifestly and undoubtedly be seen to be done». No debe
    Este caso releva uno de los principios del debido proceso: el derecho
 a un juez independiente e imparcial y que está contenido como una ga-
 
-
 ## 2 R versus Sussex Justices; ex parte McCarthy [1924] 1 KB 256, 259. Como hecho
+
+**Definición Canónica:** anecdótico para nuestro contexto nacional es que la misma Cámara de los Lores
+usó esta frase y principio en la decisión de enero de 1999 que anuló la sentencia que
+originalmente dio lugar a la extradición a España de Augusto Pinochet. Esto debido
+a los vínculos que tenía la mujer de Lord Hoffmann, uno de los jueces que participaron en el fallo original, con Amnistía Internacional y él mismo con una entidad
+de caridad ligada a esta ONG; vínculos que dicho juez no reveló antes de participar
+en el proceso de extradición.
+**Concordancias Legales:** constitucion
 
 anecdótico para nuestro contexto nacional es que la misma Cámara de los Lores
 usó esta frase y principio en la decisión de enero de 1999 que anuló la sentencia que
@@ -326,8 +212,10 @@ previamente se garantice un debido proceso.
 Academia Judicial de Chile                                  Debido proceso
 Materiales Docentes                                              Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Origen y conceptualización
+**Concordancias Legales:** artículos 7; artículo 7; artículo 9; artículo 6; artículo 16; artículo 19; constitución; constitucion; Constitución Política
 
 Origen y conceptualización
 
@@ -517,8 +405,12 @@ y cómo se ha ido concretizando en derechos y garantías específicas que
 deben ser respetadas por el Estado. Ahora bien, también ha ampliado
 su alcance y aplicación a órganos distintos de los tribunales, que even-
 
-
 ## 2 García Ramírez (2006: 667) cita varios fallos, como el caso Fermín Ramírez, de
+
+**Definición Canónica:** 18 de junio de 2005, párrafo 78, el caso Tribunal Constitucional de 31 de enero de
+2001, párrafo 68, como también la Opinión Consultiva OC-18/03, sobre condición
+jurídica y derechos de los migrantes indocumentados.
+**Concordancias Legales:** Constitucion
 
 18 de junio de 2005, párrafo 78, el caso Tribunal Constitucional de 31 de enero de
 2001, párrafo 68, como también la Opinión Consultiva OC-18/03, sobre condición
@@ -548,8 +440,11 @@ han visto afectados por decisiones o resoluciones de este tipo.
 
 Materiales Docentes                                                        Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Contenido según la normativa y jurisprudencia
+internacional y nacional
+**Concordancias Legales:** artículo 19; artículos 7; artículo 7; Constitución
 
 Contenido según la normativa y jurisprudencia
 internacional y nacional
@@ -570,8 +465,15 @@ contenido sustantivo de las leyes que los Estados dicten, pero también
 en la forma en que las personas pueden exigir, al Estado y sus órganos,
 la protección de los derechos establecidos en ellas por medio de actuaciones jurisdiccionales o peticiones administrativas.
 
-
 ## 1 Para García Pino y Contreras Vásquez el derecho a tutela judicial y el derecho
+
+**Definición Canónica:** al debido proceso no están reconocidos expresamente en la CPR y se trataría de
+derechos implícitos, esto es, surgen de la expansión del contenido de otros derechos
+sí explicitados, por la vía de interpretación jurisdiccional, al aplicarles supuestos
+fácticos nuevos.
+ 2 Aunque la Convención Americana sobre Derechos Humanos y el Pacto Internacional de Derechos Civiles y Políticos habían sido suscritos por Chile a fines de los
+años sesenta, por distintos motivos entraron en pleno vigor después de 1989.
+**Concordancias Legales:** artículo 8 de la DUDH manifieste que; artículo 8 de la Declaración habla de recurso; artículos 9; artículo 19 de la Constitución impone al legislador la obligaci; artículo 10 de la Declaración Universal de Derechos Humanos gar; constitución
 
 al debido proceso no están reconocidos expresamente en la CPR y se trataría de
 derechos implícitos, esto es, surgen de la expansión del contenido de otros derechos
@@ -603,8 +505,13 @@ limita al ámbito penal, ya que el concepto de determinación de sus derechos y 
 civiles como actuaciones ante autoridades administrativas que realicen
 actos propios de la jurisdicción.
 
-
 ## 3 El derecho al recurso no debe entenderse en un sentido procesal, es decir, como
+
+**Definición Canónica:** el derecho a un medio de impugnación de resoluciones jurisdiccionales o, como se
+ha dicho también, un derecho a la instancia. La noción detrás de esta disposición es
+más amplia, abarcando, por cierto, el derecho a la acción, pero no limitado a lo jurisdiccional, pues se ha entendido que también incluye el derecho general de petición
+a la autoridad administrativa.
+**Concordancias Legales:** artículo 11 de la Declaración garantiza la presunción de inocen; artículos 8; artículo 8.1 de la CADH parte señalando que; artículo 8; artículo 8.2; artículo 8 de la CADH se complementan con el derecho a la prot; artículo 25; Constitucion
 
 el derecho a un medio de impugnación de resoluciones jurisdiccionales o, como se
 ha dicho también, un derecho a la instancia. La noción detrás de esta disposición es
@@ -679,7 +586,18 @@ Guatemala ha sostenido que:
 
 ## 1. Toda persona tiene derecho a un recurso sencillo y rápido o a cual-
 
-          quier otro recurso efectivo ante los jueces o tribunales competentes,
+**Definición Canónica:** quier otro recurso efectivo ante los jueces o tribunales competentes,
+          que la ampare contra actos que violen sus derechos fundamentales
+          reconocidos por la Constitución, la ley o la presente Convención,
+          aun cuando tal violación sea cometida por personas que actúen en
+          ejercicio de sus funciones oficiales.
+       2. Los Estados parte se comprometen:
+         a) a garantizar que la autoridad competente prevista por el sistema
+            legal del Estado decidirá sobre los derechos de toda persona que
+            interponga tal recurso;
+**Concordancias Legales:** artículo 4; artículo 1.1; Artículo 1.1 de la CADH; Constitución; Constitucion
+
+quier otro recurso efectivo ante los jueces o tribunales competentes,
           que la ampare contra actos que violen sus derechos fundamentales
           reconocidos por la Constitución, la ley o la presente Convención,
           aun cuando tal violación sea cometida por personas que actúen en
@@ -725,8 +643,11 @@ alguna por motivos de raza, color, sexo, idioma, religión, opiniones políticas
 cualquier otra índole, origen nacional o social, posición económica, nacimiento o
 cualquier otra condición social».
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Derechos fundamentales que derivan de la garantía
+del debido proceso
+**Concordancias Legales:** artículo 19; artículos 8.1 de la Convención Americana sobre Derechos Humanos y; artículo 6 de la Constitución; artículo 8; artículo 14.1 del PIDCP sí dispone que; artículo 1 de la Constitución; artículo 14.1 del PIDCP. contribuir a crear las condiciones so; artículo 7 de la Constitución; constitucion; Constitución
 
 Derechos fundamentales que derivan de la garantía
 del debido proceso
@@ -807,6 +728,11 @@ que los tribunales de justicia forman parte del Estado y que la administración 
 
 ## parte integrante del Estado, estos se encuentran igualmente vinculados
 
+**Definición Canónica:** al principio de servicialidad, de modo que su acción debe poner a las
+personas en el centro. El Tribunal Constitucional dice también que el
+principio de servicialidad:
+**Concordancias Legales:** artículo 76 de la Constitución que consagra que los tribunales; Constitucion; Constitución
+
 al principio de servicialidad, de modo que su acción debe poner a las
 personas en el centro. El Tribunal Constitucional dice también que el
 principio de servicialidad:
@@ -826,8 +752,11 @@ principio de servicialidad:
 artículo 76 de la Constitución que consagra que los tribunales de justicia
 tienen la facultad exclusiva de conocer las causas civiles y criminales,
 
-
 ## 3 Sentencia Tribunal Constitucional 2.693, considerando decimoctavo, y en el
+
+**Definición Canónica:** mismo sentido, las sentencias del Tribunal Constitucional 2.921, considerando octavo y 3.028.
+ 4 Sentencia Tribunal Constitucional 3.146, considerando decimoctavo y decimonoveno, y sentencias 3.874; 5.025; 5.654; 7.015.
+**Concordancias Legales:** artículo 19; artículo 10; artículo 14.1; artículos 8.1; artículo 3; artículo 31; Constitucion; Constitución
 
 mismo sentido, las sentencias del Tribunal Constitucional 2.921, considerando octavo y 3.028.
  4 Sentencia Tribunal Constitucional 3.146, considerando decimoctavo y decimonoveno, y sentencias 3.874; 5.025; 5.654; 7.015.
@@ -929,8 +858,11 @@ todos los ámbitos» (el destacado es nuestro).
    Finalmente, el artículo 31 de dicha convención reitera casi de manera
 literal lo que expresan los demás textos internacionales precitados en
 
-
 ## 5 Promulgada por el Decreto 162 del Ministerio de Relaciones Exteriores de 1 de
+
+**Definición Canónica:** septiembre de 2017, publicado en el Diario Oficial de 7 de octubre de 2017. Texto
+oficial disponible en https://bcn.cl/2fl09.
+**Concordancias Legales:** artículo 12.2 de la Convención sobre los Derechos del Niño; artículo 50; Ley 21.430; Constitución Política
 
 septiembre de 2017, publicado en el Diario Oficial de 7 de octubre de 2017. Texto
 oficial disponible en https://bcn.cl/2fl09.
@@ -969,8 +901,10 @@ efectiva y especialización», que:
 
    Del texto expreso de la norma se puede leer que el legislador ha concretado por vía legislativa el derecho a la tutela judicial efectiva, estatu-
 
-
 ## 6 Promulgada por el Decreto 830 del Ministerio de Relaciones Exteriores de 14
+
+**Definición Canónica:** de agosto de 1990, publicada en el Diario Oficial de 27 de septiembre de 1990. Texto
+oficial disponible en https://bcn.cl/2fel2.
 
 de agosto de 1990, publicada en el Diario Oficial de 27 de septiembre de 1990. Texto
 oficial disponible en https://bcn.cl/2fel2.
@@ -1009,8 +943,10 @@ prueba rendida:
       Tercer Tribunal Tributario y Aduanero está delimitado por el acto recla-
       mado que contiene la pretensión de la administración del Servicio de
 
-
 ## 7 Sentencia de la Corte de Apelaciones de Santiago, 4 de enero de 2023, rol de
+
+**Definición Canónica:** ingreso 180-2022.
+**Concordancias Legales:** artículo 132; artículo 132 del Código Tributario. Quinto; artículo 19; artículo 76 de la Constitución. El acceso a la justicia y la in; artículo 76; artículo 10; Constitución Política; constitucion; Constitución
 
 ingreso 180-2022.
 
@@ -1163,8 +1099,10 @@ a la acción:9
       proponen los profesores Luis Guilherme Marinoni, Álvaro Pérez Ra-
       gone, y Raúl Núñez Ojeda, en su obra Fundamentos del proceso civil.
 
-
 ## 9 Sentencia Corte Suprema de 30 de diciembre de 2022, rol ingreso número
+
+**Definición Canónica:** 135.557-2022.
+**Concordancias Legales:** artículo 76 de la Constitución Política de la República; artículo 38 de la Carta Magna; artículo 19; artículo 31; artículos 8; artículo 8.1; artículo 6 de la Convención Europea de Derechos Humanos; artículo 25 de la Convención Americana consagra el derecho a la; artículos 25; artículo 18 bis; artículo 429 del Código del Trabajo; artículo 429; artículo 1.1 de la Convención; artículos 46.1; artículo 8.1 de la Convención; artículo 8.1 de la Convención. 51. El artículo 25 de la; Ley 19.880; Constitución Política; Constitución; constitucion
 
 135.557-2022.
 
@@ -1384,7 +1322,11 @@ su acción. Pero, según la misma autora, si lo hacen, estos no deben ser
 
 ## 52. El artículo 25 de la Convención también consagra el derecho de
 
-      acceso a la justicia. Al analizar el citado artículo 25 la Corte ha señalado
+**Definición Canónica:** acceso a la justicia. Al analizar el citado artículo 25 la Corte ha señalado
+      que este establece la obligación positiva del Estado de conceder a todas
+**Concordancias Legales:** artículo 25; Constitución; Constitucion
+
+acceso a la justicia. Al analizar el citado artículo 25 la Corte ha señalado
       que este establece la obligación positiva del Estado de conceder a todas
 
 Materiales Docentes                                                        Capítulo 3
@@ -1409,7 +1351,17 @@ Materiales Docentes                                                        Capí
 
 ## 2000. Serie C número 68, párrafo 101; y caso de los «Niños de la Calle»
 
-      —Villagrán Morales y otros— sentencia de 19 de noviembre de 1999. Serie
+**Definición Canónica:** —Villagrán Morales y otros— sentencia de 19 de noviembre de 1999. Serie
+      C número 63, párrafo 234), y que para que el Estado cumpla con lo dis-
+      puesto en el artículo 25 de la Convención no basta con que los recursos
+      existan formalmente, sino que los mismos deben tener efectividad (cfr.
+      caso Hilaire, Constantine y Benjamin y otros, supra nota 5, párrafo 186;
+      caso de la Comunidad Mayagna (Sumo) Awas Tingni, supra nota 96, pá-
+      rrafo 111-113; y caso del Tribunal Constitucional, supra nota 8, párrafo 90),
+      es decir, debe brindarse a la persona la posibilidad 
+**Concordancias Legales:** artículo 25 de la Convención no basta con que los recursos; artículo 25 de la Convención Americana.11; Constitucion
+
+—Villagrán Morales y otros— sentencia de 19 de noviembre de 1999. Serie
       C número 63, párrafo 234), y que para que el Estado cumpla con lo dis-
       puesto en el artículo 25 de la Convención no basta con que los recursos
       existan formalmente, sino que los mismos deben tener efectividad (cfr.
@@ -1427,8 +1379,11 @@ Materiales Docentes                                                        Capí
       trata constituye una violación del derecho al acceso a la justicia, bajo la
       modalidad consagrada en el artículo 25 de la Convención Americana.11
 
-
 ## 11 Caso Cantos con Argentina, 2002. Las notas incluidas en algunos párrafos del
+
+**Definición Canónica:** texto original del fallo han sido transcritas, entre paréntesis, donde era pertinente
+de modo que el lector cuente con las referencias citadas.
+**Concordancias Legales:** artículo 19; artículo 8 de la DUDH; artículo 8.1 de la Convención Americana; artículo 14.1 del PIDCP; artículo 19 de la CPR; Constitución; Constitucion
 
 texto original del fallo han sido transcritas, entre paréntesis, donde era pertinente
 de modo que el lector cuente con las referencias citadas.
@@ -1580,6 +1535,14 @@ las respectivas pretensiones. En segundo término y directamente relacionado est
 
 ## parte pueda controvertir tanto los elementos fácticos que sustentan la
 
+**Definición Canónica:** pretensión adversa como todos y cada uno de los medios de prueba que
+se presentan en el juicio, dentro del marco normativo que impone la ley.
+   No se debe confundir el derecho a defensa con que el legislador esté
+obligado a levantar todo tipo de ritualidades o formalidades del proceso
+que, eventualmente, pudieran embarazar el ejercicio de este derecho.
+Así, el Tribunal Constitucional ha fallado que:
+**Concordancias Legales:** Constitucion; Constitución
+
 pretensión adversa como todos y cada uno de los medios de prueba que
 se presentan en el juicio, dentro del marco normativo que impone la ley.
    No se debe confundir el derecho a defensa con que el legislador esté
@@ -1599,8 +1562,10 @@ Así, el Tribunal Constitucional ha fallado que:
       la ley. La Constitución no prohíbe reglas de ritualidad procesal; solo les
       exige que permitan la defensa y garanticen racionalidad y justicia.14
 
-
 ## 14 Sentencia del Tribunal Constitucional 977, considerando vigesimoprimero. En
+
+**Definición Canónica:** el mismo sentido las sentencia Tribunal Constitucional 2335 considerando decimo-
+**Concordancias Legales:** artículo 8.1; artículo 14.1; artículo 8; artículo 8.2; artículo 374 del Código Procesal Penal; Artículo 374; artículo 93; artículo 229 del Código Procesal Penal; artículo 231 del CPP; artículo 232; artículo 19; artículo 125 del Código Procesal Penal y al artículo 7 de la c; artículos 795; artículo 80 del CPC es el que habilita al litigante rebelde; artículos 40; artículo 768; artículos 765; artículo 6 del Convenio Europeo de Derechos Humanos; artículo 47 de la Carta de Derechos Fundamentales de la Unión E; Constitucion; Constitución
 
 el mismo sentido las sentencia Tribunal Constitucional 2335 considerando decimo-
 
@@ -1799,8 +1764,10 @@ Derechos Fundamentales de la Unión Europea.
    Este derecho, propio del principio contradictorio, garantiza la oportunidad procesal para controvertir las pruebas contrarias o para presentar las propias pretensiones. El Tribunal Europeo de Derechos Humanos
 (TEDH) ha sostenido que «la igualdad de armas tiene como finalidad
 
-
 ## 17 En los países anglosajones, incluso, los casos se denominan como «el Estado
+
+**Definición Canónica:** contra», graficando aún más el interés público de la acción penal.
+**Concordancias Legales:** Constitucion
 
 contra», graficando aún más el interés público de la acción penal.
 
@@ -1834,8 +1801,13 @@ debe acreditar que ha sufrido un perjuicio.
       versas disposiciones constitucionales. En primer lugar y principal lugar,
       la exigencia que la ley que establezca un procedimiento judicial trate a
 
-
 ## 18 Conclusiones del abogado general Pedro Cruz Villalón presentadas el 26 de
+
+**Definición Canónica:** junio de 2012. Asunto C-199/11 Unión Europea, representada por la Comisión Europea contra Otis NV, General Technic-Otis Sàrl (GTO), Kone Belgium NV, Kone
+Luxembourg Sàrl, Schindler NV, Schindler Sàrl, ThyssenKrupp Liften Ascenseurs
+NV, ThyssenKrupp Ascenseurs Luxembourg Sàrl (petición de decisión prejudicial
+planteada por el Rechtbank van koophandel te Brussel [Bélgica]). Disponible en
+https://bit.ly/3MXrEuX.
 
 junio de 2012. Asunto C-199/11 Unión Europea, representada por la Comisión Europea contra Otis NV, General Technic-Otis Sàrl (GTO), Kone Belgium NV, Kone
 Luxembourg Sàrl, Schindler NV, Schindler Sàrl, ThyssenKrupp Liften Ascenseurs
@@ -1844,6 +1816,9 @@ planteada por el Rechtbank van koophandel te Brussel [Bélgica]). Disponible en
 https://bit.ly/3MXrEuX.
 
 ## 19 Sentencia del Tribunal Constitucional 2856, considerando sexto. En el mismo
+
+**Definición Canónica:** sentido, sentencia del Tribunal Constitucional 3297, considerando décimo; sentencia Tribunal Constitucional 4313, considerando vigesimoprimero; sentencia Tribunal Constitucional 4034, considerando séptimo.
+**Concordancias Legales:** artículo 19; artículo 1 de la Declaración Universal de Derechos Humanos; artículo 1; artículo 1.1; artículo 24 de la CADH; artículo 8.2; artículo 8.2 de la CADH asegura el derecho a los medios adecuado; Constitucion; Constitución
 
 sentido, sentencia del Tribunal Constitucional 3297, considerando décimo; sentencia Tribunal Constitucional 4313, considerando vigesimoprimero; sentencia Tribunal Constitucional 4034, considerando séptimo.
 
@@ -1881,6 +1856,10 @@ otro, a presentarlos en juicio.
  20 Sentencia Tribunal Constitucional 2856, considerando undécimo.
 
 ## 21 Sentencia Tribunal Constitucional 2658, considerando decimoquinto. En el
+
+**Definición Canónica:** mismo sentido, sentencia Tribunal Constitucional 2586 considerando duodécimo;
+sentencia Tribunal Constitucional 4034 considerando décimo.
+**Concordancias Legales:** artículo 768 del CPC permite fundar el recurso en haberse falt; artículos 794; artículo 8.2; artículo 14 del PIDCP; artículo 8.1 de la CADH consagra el derecho de toda persona a se; artículo 77; artículo 8.1; artículo 8.1 de la Convención se debe apreciar en relación con l; artículo 6 del Convenio para la Protección de Derechos Human; Constitucion; Constitución
 
 mismo sentido, sentencia Tribunal Constitucional 2586 considerando duodécimo;
 sentencia Tribunal Constitucional 4034 considerando décimo.
@@ -2010,6 +1989,12 @@ del Convenio para la Protección de Derechos Humanos y las Libertades
 
 ## 26 Conforme con el artículo 387 del CPP si en un primer juicio oral se absolvió
 
+**Definición Canónica:** al acusado y se anuló, procedería un nuevo juicio oral. En principio, la sentencia
+que resulte de este segundo juicio oral no es recurrible, salvo que ahora se condene
+al acusado. En tal caso, solo él puede deducir recurso de nulidad en contra de este
+segundo fallo.
+**Concordancias Legales:** artículo 8 de la CIDH. El Tribunal Europeo ha señalado que la; artículo 6 del Convenio Europeo debe calificarse a la luz de; Artículo 6
+
 al acusado y se anuló, procedería un nuevo juicio oral. En principio, la sentencia
 que resulte de este segundo juicio oral no es recurrible, salvo que ahora se condene
 al acusado. En tal caso, solo él puede deducir recurso de nulidad en contra de este
@@ -2026,6 +2011,15 @@ juego para el solicitante en la disputa.28 En consonancia, la Corte Interamerica
   27 «Artículo 6. Derecho a un proceso equitativo.
 
 ## 1. Toda persona tiene derecho a que su causa sea oída equitativa, públicamente y
+
+**Definición Canónica:** dentro de un plazo razonable, por un tribunal independiente e imparcial, establecido
+por la ley, que decidirá los litigios sobre sus derechos y obligaciones de carácter civil
+o sobre el fundamento de cualquier acusación en materia penal dirigida contra ella.
+La sentencia debe ser pronunciada públicamente, pero el acceso a la sala de audiencia
+puede ser prohibido a la prensa y al público durante la totalidad o parte del proceso
+en interés de la moralidad, del orden público o de la seguridad nacional en una sociedad democrática, cuando los intereses de los menores o la protección de la vida
+priv
+**Concordancias Legales:** Constitucion
 
 dentro de un plazo razonable, por un tribunal independiente e imparcial, establecido
 por la ley, que decidirá los litigios sobre sus derechos y obligaciones de carácter civil
@@ -2076,8 +2070,16 @@ demora se encontraba, a más de lo anterior, justificada dentro de lo razonable,
       anotados, los jueces han obviado la ilegalidad y arbitrariedad cometida
       por la recurrida, basada en la duración excesiva del procedimiento ad-
 
-
 ## 29 El Digesto de la CIDH (disponible en https://bit.ly/3P6glDG) cita diversos casos
+
+**Definición Canónica:** en que se ponderaron estos cuatro criterios como, por ejemplo: Caso Granier y otros
+(Radio Caracas Televisión) con Venezuela. Excepciones preliminares, Fondo, Reparaciones y Costas. Sentencia de 22 de junio de 2015. Serie C número 293, § 255, Corte
+IDH. Caso Wong Ho Wing con Perú. Excepción preliminar, Fondo, Reparaciones y
+Costas. Sentencia de 30 de junio de 2015. Serie C número 297, § 209, Corte IDH. Caso
+Gonzales Lluy y otros con Ecuador. Excepciones preliminares, Fondo, Reparaciones y
+Costas. Sentencia de 1 de septiembre de 2015. Serie C número 298, § 298, Corte IDH.
+Caso García Ibarra y o
+**Concordancias Legales:** artículo 19; artículo 5; artículo 11; artículo 52; artículo 8 de la Carta Fundamental; artículo 53; artículo 62; artículo 27 de la Ley 19.880; artículo 27; Ley 19.880; Constitución; Constitucion; Constitución Política
 
 en que se ponderaron estos cuatro criterios como, por ejemplo: Caso Granier y otros
 (Radio Caracas Televisión) con Venezuela. Excepciones preliminares, Fondo, Reparaciones y Costas. Sentencia de 22 de junio de 2015. Serie C número 293, § 255, Corte
@@ -2247,6 +2249,11 @@ las formas de término de juicio, incluidas las demandas que se tienen
  30 Sentencia Corte Suprema, 20 de agosto de 2022, rol ingreso número 15.0312022.
 
 ## 31 Hay que hacer presente que las estadísticas oficiales del Poder Judicial no son
+
+**Definición Canónica:** de fácil interpretación. En algunas jurisdicciones, al consultar por la duración, los
+separan por tipos de procedimiento, en otras por materia o por forma de terminar
+el juicio. Disponible en https://bit.ly/3OGuTrP.
+**Concordancias Legales:** artículo 429 del CT consagra el principio de oficialidad en es; artículo 8.1 de la CADH. El problema viene al final cuando decla; artículo 429 del Código del Trabajo. En efecto; artículo 429; artículo 429 del CT por contravenir el derecho fundamental a u; artículo 429 del Código del Trabajo y que en esta oportu; artículo 8.1; artículo 201 del Código Tributario. El fundamento; artículo 170 del CPC que las sentencias definitivas de primera; artículo 342; artículo 297; artículo 459; artículo 768; artículo 170 del CPC y mientras que las sentencias dictadas po; artículo 67; artículo 66; artículo 768 del CPC; artículo 478; artículos 459; artículo 374; artículo 495; artículo 5; artículo 170; artículo 8.2; artículo 8.4 de la CADH consagra el derecho del inculpado absuel; artículo 14.7 del PIDCP; artículo 8.4; artículo 5 de la Constitución estaría reconocido; artículo 171 del Código Sanitario. Esta; artículos 3; artículo 21 del Reglamento de prevención de riesgos profesion; artículo 171 del Código Sanitario establece para; Ley 20.720; Ley 18.120; Ley 19.968; Constitucion; Constitución
 
 de fácil interpretación. En algunas jurisdicciones, al consultar por la duración, los
 separan por tipos de procedimiento, en otras por materia o por forma de terminar
@@ -2687,8 +2694,10 @@ procedimientos de trabajo seguro».
 la Corte de Apelaciones de Antofagasta confirmó dicho fallo. La de primera instancia declaró que la reclamación no se fundaba en ninguno
 de los supuestos que el artículo 171 del Código Sanitario establece para
 
-
 ## 37 Sentencia Tribunal Constitucional de 17 de enero de 2023, rol ingreso número
+
+**Definición Canónica:** 25.197-2022, sentencia de casación.
+**Concordancias Legales:** artículos 6; artículos 14; artículo 5 de la Constitución. Al resolver la casación en el f; artículo 171 del Código Sanitario; artículo 184 del Código del Trabajo; Constitución; Constitucion
 
 25.197-2022, sentencia de casación.
 
@@ -2794,8 +2803,10 @@ por acoger el recurso de casación en el fondo, por infracción a las normas pre
       métodos de control de los mismos y la circunstancia de que los trabaja-
       dores desempeñaran sus labores sin arnés de seguridad, también fueron
 
-
 ## 39 Sentencia Tribunal Constitucional de 17 de enero de 2023, rol ingreso número
+
+**Definición Canónica:** 25.197-2022, sentencia de reemplazo.
+**Concordancias Legales:** artículos 764; artículo 4 del Protocolo número 7 al Convenio Europeo de Der; Constitucion; Constitución
 
 25.197-2022, sentencia de reemplazo.
 
@@ -2844,17 +2855,28 @@ de excepción:
 
 ## 1. Cuando la actuación del tribunal que conoció originalmente el
 
-      caso y decidió sobreseer o absolver al responsable de una viola-
+**Definición Canónica:** caso y decidió sobreseer o absolver al responsable de una viola-
       ción a los derechos humanos o al derecho internacional obedeció
       al propósito de sustraer al acusado de su responsabilidad penal.
 
-## 2. Cuando el procedimiento no fue instruido independiente o im-
-
-      parcialmente de conformidad con las debidas garantías procesales.
+caso y decidió sobreseer o absolver al responsable de una viola-
+      ción a los derechos humanos o al derecho internacional obedeció
+      al propósito de sustraer al acusado de su responsabilidad penal.
 
 ## 3. Cuando no hubo intención real de someter al responsable a la ac-
 
-      ción de la justicia.
+**Definición Canónica:** ción de la justicia.
+   A juicio de la Corte Interamericana, cuando se da alguno de estos
+supuestos y una sentencia firme que produce el efecto de cosa juzgada
+(absolutoria incluso), se admitiría la reapertura del caso o un nuevo enjuiciamiento para la determinación de los responsables de violaciones
+a los derechos humanos. La cosa juzgada producto de un proceso con
+alguna de estas características es «aparente» o «fraudulenta» y por tanto
+admite la excepción al principio de non bis in idem.
+   Parece bastante claro que, en materia penal —e incluimos aquí todo
+asunto de naturaleza infraccional—
+**Concordancias Legales:** artículo 5; artículo 19; artículo 8; artículo 25; Constitución
+
+ción de la justicia.
    A juicio de la Corte Interamericana, cuando se da alguno de estos
 supuestos y una sentencia firme que produce el efecto de cosa juzgada
 (absolutoria incluso), se admitiría la reapertura del caso o un nuevo enjuiciamiento para la determinación de los responsables de violaciones
@@ -2929,7 +2951,18 @@ de las garantías fundamentales en sentido amplio, y no al recurso restringido a
 
 ## 1. Toda persona tiene derecho a un recurso sencillo y rápido o a cual-
 
-          quier otro recurso efectivo ante los jueces o tribunales competentes,
+**Definición Canónica:** quier otro recurso efectivo ante los jueces o tribunales competentes,
+          que la ampare contra actos que violen sus derechos fundamentales
+          reconocidos por la Constitución, la ley o la presente Convención,
+          aun cuando tal violación sea cometida por personas que actúen en
+          ejercicio de sus funciones oficiales.
+       2. Los Estados parte se comprometen:
+         a) a garantizar que la autoridad competente prevista por el sistema
+            legal del Estado decidirá sobre los derechos de toda persona que
+            interponga tal recurso;
+**Concordancias Legales:** artículo 8; artículo 14 del PIDCP que a su vez garantiza que; artículo 25; Constitución; constitucion
+
+quier otro recurso efectivo ante los jueces o tribunales competentes,
           que la ampare contra actos que violen sus derechos fundamentales
           reconocidos por la Constitución, la ley o la presente Convención,
           aun cuando tal violación sea cometida por personas que actúen en
@@ -2961,6 +2994,15 @@ recurso de amparo,41 ya establecido por la Constitución mexicana de
 
 ## 1857. De allí que se usara el verbo amparar en la redacción del artículo
 
+**Definición Canónica:** 25.
+   En el amparo, entendido como acción protectora de garantías fundamentales —tal como se ha recogido por nuestros tribunales superiores
+para la acción de protección— se requiere que el recurrente sea titular
+de un derecho indubitado y que la vulneración a las garantías constitucionales aparezca como manifiesta, de modo de asegurar una respuesta
+rápida del órgano jurisdiccional. Sin embargo, en la discusión de la Convención Constitucional se modificó la redacción propuesta, quedando
+como aparece hoy: de una manera más amplia. No solo hay el derecho
+a un amparo (recurso sencillo y rápido), 
+**Concordancias Legales:** constitucion
+
 25.
    En el amparo, entendido como acción protectora de garantías fundamentales —tal como se ha recogido por nuestros tribunales superiores
 para la acción de protección— se requiere que el recurrente sea titular
@@ -2969,8 +3011,11 @@ rápida del órgano jurisdiccional. Sin embargo, en la discusión de la Convenci
 como aparece hoy: de una manera más amplia. No solo hay el derecho
 a un amparo (recurso sencillo y rápido), sino a cualquier otro recurso
 
-
 ## 41 El amparo constitucional a nivel latinoamericano es homologable a nuestra
+
+**Definición Canónica:** acción o recurso de protección de garantías constitucionales, pero también incluye
+el habeas corpus («nuestro» recurso de amparo) y, ahora, el habeas data.
+**Concordancias Legales:** artículo 25; constitucion
 
 acción o recurso de protección de garantías constitucionales, pero también incluye
 el habeas corpus («nuestro» recurso de amparo) y, ahora, el habeas data.
@@ -3024,10 +3069,18 @@ era ni sencilla, ni rápida, ni efectiva para reclamar la protección de sus
 derechos constitucionales, ya que es un recurso extraordinario limitado,
 entre otros aspectos, en su legitimación activa.
 
-
 ## 91. La Corte observa que tanto la Comisión como los representantes
 
-      destacaron la ausencia de un recurso sencillo, rápido y efectivo para que
+**Definición Canónica:** destacaron la ausencia de un recurso sencillo, rápido y efectivo para que
+      la presunta víctima reclamara la protección de sus derechos reconocidos
+      por la Constitución, para sustentar la alegada violación del artículo 25
+      de la Convención. En este sentido, la Corte considera, al igual que la Co-
+      misión y el Estado, que el recurso de amparo interpuesto por la presunta
+      víctima no era la vía adecuada en ese caso, dada su improcedencia en
+      materia electoral.
+**Concordancias Legales:** artículo 25 de la Convención. En este sentido; Constitución
+
+destacaron la ausencia de un recurso sencillo, rápido y efectivo para que
       la presunta víctima reclamara la protección de sus derechos reconocidos
       por la Constitución, para sustentar la alegada violación del artículo 25
       de la Convención. En este sentido, la Corte considera, al igual que la Co-
@@ -3037,7 +3090,17 @@ entre otros aspectos, en su legitimación activa.
 
 ## 92. Este Tribunal estima que no es en sí mismo incompatible con la
 
-      Convención que un Estado limite el recurso de amparo a algunas mate-
+**Definición Canónica:** Convención que un Estado limite el recurso de amparo a algunas mate-
+      rias, siempre y cuando provea otro recurso de similar naturaleza e igual
+      alcance para aquellos derechos humanos que no sean de conocimiento
+      de la autoridad judicial por medio del amparo. Ello es particularmente
+      relevante en relación con los derechos políticos, derechos humanos de
+      tal importancia que la Convención Americana prohíbe su suspensión,
+      así como la de las garantías judiciales indispensables para su protección
+      (infra párrafo 140).
+**Concordancias Legales:** artículo 25; artículo 8.2; artículo 19; artículo 25 de la Convención Americana Sobre Derechos Hum; artículo 15; artículo 25 de la Convención Americana Sobre De; artículo 10; artículo 8; artículo 14.1; Ley 19.880; constitucion
+
+Convención que un Estado limite el recurso de amparo a algunas mate-
       rias, siempre y cuando provea otro recurso de similar naturaleza e igual
       alcance para aquellos derechos humanos que no sean de conocimiento
       de la autoridad judicial por medio del amparo. Ello es particularmente
@@ -3144,8 +3207,12 @@ resultar pedestre, resulta fundamental para entender la importancia de
 la independencia y la imparcialidad en el ejercicio de la función jurisdiccional. Quizás por lo básico y evidente de esta afirmación es un tema
 poco desarrollado en sí mismo respecto de los jueces.44 Si además lo
 
-
 ## 44 Sí hay un importante desarrollo doctrinario y jurisprudencial respecto de los
+
+**Definición Canónica:** jueces árbitros, dado que, por su carácter temporal y no permanente, tienen una
+mayor exposición a potenciales conflictos de intereses que pueden poner en duda
+su independencia e imparcialidad.
+**Concordancias Legales:** artículo 76; artículo 4 del Código Orgánico de Tribunales prohíbe al Pode; artículo 12; artículo 8.1 de la Convención; artículo 1.1; Constitución; Constitucion
 
 jueces árbitros, dado que, por su carácter temporal y no permanente, tienen una
 mayor exposición a potenciales conflictos de intereses que pueden poner en duda
@@ -3412,8 +3479,11 @@ de los justiciables, pero también del Poder Judicial y sus miembros.
 
 Materiales Docentes                                                 Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Resolución judicial ante la colisión de derechos
+y garantías
+**Concordancias Legales:** constitucion
 
 Resolución judicial ante la colisión de derechos
 y garantías
@@ -3467,8 +3537,15 @@ garantías de estos y los intereses de la sociedad, a lo que denominaremos
 en términos amplios como una colisión de derechos y garantías.
    Sobre la forma de resolver algunos de esos conflictos se ha pronunciado el legislador y la jurisprudencia. Así, la oposición entre el interés
 
-
 ## 1 En nuestro país, Aldunate (2008: 278 y 279) niega que la pugna de derechos sea
+
+**Definición Canónica:** conceptualmente posible puesto que, en su opinión, lo que colisiona nunca son derechos fundamentales sino, solamente, el ejercicio de la libertad de uno en desmedro
+de una libertad o derecho garantizado a otro, y como ese límite lo fija el derecho, la
+solución a la colisión de derechos tiene que ser buscada en el ordenamiento jurídico
+infraconstitucional, por cuanto el enfrentamiento entre derechos fundamentales significa, desde el punto de vista normativo constitucional, solo una cosa: la existencia
+de dos ámbitos de libertad jurídica igualmente protegidos, que debe ser resuelto a
+partir de l
+**Concordancias Legales:** constitucion
 
 conceptualmente posible puesto que, en su opinión, lo que colisiona nunca son derechos fundamentales sino, solamente, el ejercicio de la libertad de uno en desmedro
 de una libertad o derecho garantizado a otro, y como ese límite lo fija el derecho, la
@@ -3504,7 +3581,11 @@ constitucionales comprende (al menos) cuatro tipos de operaciones intelectuales:
 
 ## 1. La identificación de los principios en cuanto tales, vale decir, la
 
-       adscripción del estatus («valor») de principio a determinada dis-
+**Definición Canónica:** adscripción del estatus («valor») de principio a determinada dis-
+       posición constitucional;
+**Concordancias Legales:** artículo 5 de la Constitución; constitucion; Constitución
+
+adscripción del estatus («valor») de principio a determinada dis-
        posición constitucional;
 
  2 Desde luego deben considerarse dentro de estos principios todos aquellos que,
@@ -3577,12 +3658,15 @@ los principios contrarios a aquéllos, delineando límites inquebrantables
 o inderrotables de los derechos fundamentales, que no pueden ser superados en la operación de ponderación y que deben ser considerados en
 el test de proporcionalidad.6
 
-
-## 4 Por ejemplo, artículo 19 número 2 de la Constitución: «En Chile no hay persona
-
-ni grupo privilegiado».
-
 ## 5 Alexy (2003b: 131 y 132). Al respecto, Covarrubias (2018: 483), quien sostiene que
+
+**Definición Canónica:** ya no se podría afirmar tan categóricamente que las normas que contienen derechos
+fundamentales son siempre principios.
+  6 Como explica Covarrubias (2018: 517), para el Tribunal Constitucional Federal Alemán hay derechos fundamentales o aspectos medulares de su contenido que
+no son observados como mandatos derrotables, ya sea porque encarnan un bien
+intrínsecamente valioso, como la dignidad humana, ya sea porque estima que determinados aspectos de su esfera protegida, como es el contenido esencial, no son
+sacrificables frente a la contraposición de otro derecho o de cara a los fines regulativ
+**Concordancias Legales:** artículo 19; Constitucion; Constitución
 
 ya no se podría afirmar tan categóricamente que las normas que contienen derechos
 fundamentales son siempre principios.
@@ -3614,8 +3698,16 @@ Lo relevante en esta clase de colisión es que se enfrentan principios, esto
 es, mandatos de optimización que se deben cumplir en la mayor medida
 posible en circunstancias que no siempre resultan plenamente compa-
 
-
 ## 7 Rainer, Martínez y Zúñiga (2012: 83 y 84) apuntan que, en materia de conflictos
+
+**Definición Canónica:** o choques de derechos, existen al menos otros dos criterios: el de jerarquización y
+el de determinación del contenido esencial, y este último afirma que los derechos
+no colisionan, sino que tienen un contenido esencial que permite diferenciarlos de
+otros derechos, de otras instituciones jurídicas o de hechos. Ello implica que los
+derechos no son ilimitados, pues tal cosa no sería natural ni posible, ni fue esa la
+intención de los iniciadores del constitucionalismo, ni sería compatible con el sentido común. Por el contrario, los derechos están dotados de un contenido, y por
+ende de límites, y l
+**Concordancias Legales:** constitucion
 
 o choques de derechos, existen al menos otros dos criterios: el de jerarquización y
 el de determinación del contenido esencial, y este último afirma que los derechos
@@ -3728,8 +3820,12 @@ que, si bien no está escrito, ese tribunal entiende que está implícito en
 los fundamentos del sistema constitucional germano (Rainer, Martínez
 y Zúñiga, 2012: 67 y 68).9
 
-
 ## 9 Covarrubias (2018: 517) aclara que el Tribunal Constitucional Federal Alemán
+
+**Definición Canónica:** no asume los supuestos originarios de la propuesta de Alexy, ni emplea el test de
+proporcionalidad conforme al enfoque promovido por él, al no reconocer la distinción entre principios y reglas del modo formulado por dicho autor. Si bien admite
+que los derechos fundamentales son portadores de valores y principios, que pueden
+**Concordancias Legales:** artículo 27.1 de la Convención; artículos 13
 
 no asume los supuestos originarios de la propuesta de Alexy, ni emplea el test de
 proporcionalidad conforme al enfoque promovido por él, al no reconocer la distinción entre principios y reglas del modo formulado por dicho autor. Si bien admite
@@ -3773,6 +3869,11 @@ por el Gobierno de Costa Rica.
 
 ## 11 De 30 de enero de 1987, sobre el habeas corpus bajo suspensión de garantías
 
+**Definición Canónica:** (artículos 27.2, 25.1 y 7.6 de la Convención Americana sobre Derechos Humanos),
+solicitada por la Comisión Interamericana de Derechos Humanos.
+Materiales Docentes                                                      Capítulo 4
+**Concordancias Legales:** artículos 27.2; artículo 7; artículo 8; artículo 13; artículo 22; artículo 23; artículo 25
+
 (artículos 27.2, 25.1 y 7.6 de la Convención Americana sobre Derechos Humanos),
 solicitada por la Comisión Interamericana de Derechos Humanos.
 Materiales Docentes                                                      Capítulo 4
@@ -3804,18 +3905,21 @@ derecho de circulación y de residencia (artículo 22),17 derechos políticos
 número 111, párrafo 132.
  13 Caso Usón Ramírez con Venezuela, sentencia de 20 de noviembre de 2009.
 
-## 14 Caso Kimel con Argentina, sentencia de 2 de mayo de 2008; caso Usón Ramírez
-
-con Venezuela, sentencia de 20 de noviembre de 2009; caso López Mendoza con Venezuela, sentencia de 1 de septiembre de 2011.
- 15 Caso Kimel con Argentina, sentencia de 2 de mayo de 2008.
-
 ## 16 Caso Kimel con Argentina, sentencia de 2 de mayo de 2008; caso Usón Ramírez
+
+**Definición Canónica:** con Venezuela, sentencia de 20 de noviembre de 2009.
+ 17 Caso Ricardo Canese con Paraguay, sentencia de 31 de agosto de 2004.
+ 18 Caso Castañeda Gutman con Estados Unidos Mexicanos, sentencia de 6 de agosto de 2008; caso López Mendoza con Venezuela, sentencia de 1 de septiembre de 2011.
 
 con Venezuela, sentencia de 20 de noviembre de 2009.
  17 Caso Ricardo Canese con Paraguay, sentencia de 31 de agosto de 2004.
  18 Caso Castañeda Gutman con Estados Unidos Mexicanos, sentencia de 6 de agosto de 2008; caso López Mendoza con Venezuela, sentencia de 1 de septiembre de 2011.
 
 ## 19 Caso Castañeda Gutman con Estados Unidos Mexicanos, sentencia de 6 de
+
+**Definición Canónica:** agosto de 2008; caso López Mendoza con Venezuela, sentencia de 1 de septiembre
+de 2011; caso Usón Ramírez con Venezuela, sentencia de 20 de noviembre de 2009.
+**Concordancias Legales:** artículos 6; artículo 19; Constitución; Constitucion
 
 agosto de 2008; caso López Mendoza con Venezuela, sentencia de 1 de septiembre
 de 2011; caso Usón Ramírez con Venezuela, sentencia de 20 de noviembre de 2009.
@@ -3899,8 +4003,10 @@ Materiales Docentes                                                    Capítulo
       debe asumirse que determinadas valoraciones deben hacerse para esta-
       blecer una relación de prevalencia entre los principios en juego.21
 
-
 ## 21 Antes, en el mismo sentido, Sentencia Tribunal Constitucional rol 2744, de 8
+
+**Definición Canónica:** de octubre de 2015.
+**Concordancias Legales:** Constitución
 
 de octubre de 2015.
 
@@ -3959,10 +4065,19 @@ el arraigo familiar en Chile del inmigrante o el tiempo transcurrido desde la im
    Así en sentencia Corte Suprema rol 8946-2018, de 28 de mayo de 2018,
 se razonó y dispuso lo siguiente:
 
-
 ## 1. Que mediante el Decreto 975 de 13 de agosto de 2008 del Ministerio
 
-      del Interior, Departamento de Extranjería y Migración, se dispuso la
+**Definición Canónica:** del Interior, Departamento de Extranjería y Migración, se dispuso la
+      expulsión de la amparada por haber sido condenada el año 2002 por
+      un delito de tráfico de estupefacientes a la pena de 541 días de presidio
+      menor en su grado medio y multa, con el beneficio de la remisión con-
+      dicional de la pena. La resolución funda normativamente su decisión en
+      lo dispuesto en los artículos 17 en relación al 15 número 2. 84 y demás
+      pertinentes del Decreto Ley 1.094 y 30 en relación al 26 número 2, 167,
+      173, 174 y 175 del Reglamento de Extranjería.
+**Concordancias Legales:** artículos 17; Ley 1.094
+
+del Interior, Departamento de Extranjería y Migración, se dispuso la
       expulsión de la amparada por haber sido condenada el año 2002 por
       un delito de tráfico de estupefacientes a la pena de 541 días de presidio
       menor en su grado medio y multa, con el beneficio de la remisión con-
@@ -3973,7 +4088,14 @@ se razonó y dispuso lo siguiente:
 
 ## 2. Que, actualmente la recurrente se encuentra en territorio extranjero
 
-      y desea regresar a Chile, acreditó que vivió en el país desde su llegada
+**Definición Canónica:** y desea regresar a Chile, acreditó que vivió en el país desde su llegada
+      en el año 1958, formando una familia de la que se encuentra alejada
+      considerando que sus tres hijos y nietos residen en territorio nacional,
+      sumado a sus 77 años, siendo viuda y sin descendencia en el extranjero,
+      gozando una pensión de vejez otorgada por el Estado chileno, actual-
+      mente cobrada por una de sus hijas.
+
+y desea regresar a Chile, acreditó que vivió en el país desde su llegada
       en el año 1958, formando una familia de la que se encuentra alejada
       considerando que sus tres hijos y nietos residen en territorio nacional,
       sumado a sus 77 años, siendo viuda y sin descendencia en el extranjero,
@@ -3982,10 +4104,19 @@ se razonó y dispuso lo siguiente:
 
 Materiales Docentes                                                        Capítulo 4
 
-
 ## 3. Que, en este estado de cosas, aparece que mantener la medida de
 
-      expulsión decretada hace diez años, por un delito de tráfico de estupe-
+**Definición Canónica:** expulsión decretada hace diez años, por un delito de tráfico de estupe-
+      facientes y considerando la situación particular de la amparada, resulta
+      una medida desproporcionada e innecesaria puesto que las circunstancias
+      en que se encuentra la recurrente en la actualidad han variado respec-
+      to de aquellas tenidas en cuenta al momento de disponerla, vinculadas
+      a un delito ya sancionado y ocurrido el año 2000, por lo que su per-
+      manencia en Chile no reviste una gravedad y peligrosidad que amerite
+      mantenerla alejada de su grupo familiar, considerando su estad
+**Concordancias Legales:** Constitucion
+
+expulsión decretada hace diez años, por un delito de tráfico de estupe-
       facientes y considerando la situación particular de la amparada, resulta
       una medida desproporcionada e innecesaria puesto que las circunstancias
       en que se encuentra la recurrente en la actualidad han variado respec-
@@ -4148,8 +4279,14 @@ en su contra y, de ese modo, no pueda intervenir en él. O una solicitud
 de medidas precautorias prejudiciales, donde colisionan los derechos
 patrimoniales de los futuros demandante y demandado.
 
-
 ## 25 Véase sobre «derecho al olvido» sentencia Corte Suprema rol 25159-2018, de
+
+**Definición Canónica:** 21 de enero de 2019; sentencia Corte Suprema rol 5493-2019, de 23 de septiembre de
+2019 y sentencia Corte Suprema rol 34615-2021, de 26 de mayo de 2021. Y en lo concerniente a «expresiones objetivamente difamantes» disponibles en Google, sentencia Corte Suprema rol 39972-2017, de 4 de diciembre de 2017. En la sentencia Corte
+Suprema rol 18721-2019, de 25 de septiembre de 2019, se niega que se esté frente a una
+colisión de derechos fundamentales, porque «no es posible construir un “derecho a
+fumar” en aquellos espacios donde está expresamente permitido, sino únicamente
+una facultad individual p
 
 21 de enero de 2019; sentencia Corte Suprema rol 5493-2019, de 23 de septiembre de
 2019 y sentencia Corte Suprema rol 34615-2021, de 26 de mayo de 2021. Y en lo concerniente a «expresiones objetivamente difamantes» disponibles en Google, sentencia Corte Suprema rol 39972-2017, de 4 de diciembre de 2017. En la sentencia Corte
@@ -4168,8 +4305,11 @@ en base a un test con pasos lógicos y en forma escalonada, preestablecidos y co
 en lo esencial, evitando la impredecible discrecionalidad judicial o la
 resolución de manera intuitiva.
 
-
 ## Capítulo 5
+
+**Definición Canónica:** El debido proceso en los procedimientos civiles
+y arbitrales
+**Concordancias Legales:** artículos 6; artículo 83; artículo 84 del CPC; Constitución
 
 El debido proceso en los procedimientos civiles
 y arbitrales
@@ -4263,8 +4403,11 @@ que actuará de oficio por haberse incurrido en un error de procedimiento, de ac
       tir en el procedimiento de que se trata, según se explicará (la cursiva es
       nuestra).
 
-
 ## 2 A diferencia de lo previsto en la nulidad procesal en el CPP, cuyo artículo 164
+
+**Definición Canónica:** no admite el saneamiento de la nulidad tratándose de un vicio o defecto que hubiere impedido el pleno ejercicio de las garantías y de los derechos reconocidos en la
+Constitución, o en las demás leyes de la República.
+**Concordancias Legales:** artículo 84 del Código de Procedimiento Civil que autor; artículo 84; artículo 5 de la Constitución; Constitución; Constitucion
 
 no admite el saneamiento de la nulidad tratándose de un vicio o defecto que hubiere impedido el pleno ejercicio de las garantías y de los derechos reconocidos en la
 Constitución, o en las demás leyes de la República.
@@ -4365,6 +4508,14 @@ para corregir graves infracciones al debido proceso.8
 
 ## 7 El escrito mediante el cual se interpone un recurso de casación en la forma debe
 
+**Definición Canónica:** mencionar determinada y expresamente el vicio o defecto en que se funda, también
+del mismo modo la ley que concede el recurso por la causal que se invoca (artículo
+772 del CPC). Además, debe señalar cómo se ha preparado el recurso o las razones
+por las cuales su preparación no es necesaria (artículo 769 del CPC).
+  8 En sentencia Corte Suprema rol 67540-2022, de 11 de noviembre de 2022, se rechaza la causal del artículo 768 número 9, toda vez que «el demandado no ha relacionado la causal de casación formal invocada, con ninguno de los numerales de
+los artículos 795 y/u 800 del mismo cuerpo leg
+**Concordancias Legales:** artículo 772 del CPC; artículo 769 del CPC; artículo 768; artículos 795; artículo 795; artículo 166 del CPC; artículo 76 de la Constitución; artículo 7 de la Constitución; artículos 83; artículo 116 del Código Tributario; Constitucion; Constitución
+
 mencionar determinada y expresamente el vicio o defecto en que se funda, también
 del mismo modo la ley que concede el recurso por la causal que se invoca (artículo
 772 del CPC). Además, debe señalar cómo se ha preparado el recurso o las razones
@@ -4445,8 +4596,10 @@ de noviembre de 2009, se resolvió:
       ción de nulidad, lo que se hará en virtud de lo previsto en los artículos
       83 inciso primero y 84 inciso final del Código de Procedimiento Civil.11
 
-
 ## 11 En el mismo sentido sentencia Corte Suprema rol 1724-2008, de 14 de octubre
+
+**Definición Canónica:** de 2009, y sentencia Corte Suprema rol 440-2008, de 30 de noviembre de 2009.
+**Concordancias Legales:** artículo 161 del Código Tributario; artículo 116; artículo 84 del CPC; artículo 768
 
 de 2009, y sentencia Corte Suprema rol 440-2008, de 30 de noviembre de 2009.
 
@@ -4472,8 +4625,14 @@ la garantía del debido proceso, es el derecho —en un proceso o gestión
 judicial— a ser juzgado o determinado sus derechos y obligaciones por
 un tribunal que reúna, objetiva y subjetivamente, las condiciones de independencia e imparcialidad (García y Contreras, 2013: 260).
 
-
 ## 12 Sentencia Corte Suprema rol 7051-2007, de 13 de octubre de 2009. El fallo de
+
+**Definición Canónica:** reemplazo declara: «Que por los fundamentos señalados en los motivos de la sentencia de casación, solo cabe concluir que no existe en la especie ejercicio de facultades propiamente jurisdiccionales, sino que se está en presencia del uso de potestades
+administrativas sancionadoras cuya delegación está permitida en el artículo 6 letra
+B numeral 7 del Código Tributario, acorde con nuestro ordenamiento jurídico que
+reconoce expresamente la delegación de potestades administrativas, específicamente en el artículo 41 de la Ley 18.575, Orgánica Constitucional de Bases Generales de
+la Administración de
+**Concordancias Legales:** artículo 6; artículo 41 de la Ley 18.575; artículos 10 de la Declaración Universal de Derechos Humanos; artículos 5; Ley 18.575; Constitucion
 
 reemplazo declara: «Que por los fundamentos señalados en los motivos de la sentencia de casación, solo cabe concluir que no existe en la especie ejercicio de facultades propiamente jurisdiccionales, sino que se está en presencia del uso de potestades
 administrativas sancionadoras cuya delegación está permitida en el artículo 6 letra
@@ -4519,6 +4678,11 @@ Fondo, Reparaciones y Costas. Sentencia de 22 de noviembre de 2005.
 
 ## 14 De manera similar, en sentencia Tribunal Constitucional 783-07, de 31 de agosto
 
+**Definición Canónica:** de 2007, se declaró que todo juzgamiento que se ajuste a los principios de un debido
+proceso debe emanar de un órgano objetivamente independiente y subjetivamente
+imparcial, siendo estos, elementos consustanciales del concepto de racional y justo.
+**Concordancias Legales:** artículo 194 del Código Orgánico de Tribunales; artículo 199; artículo 200; artículo 125 del CPC. Así se ha dicho en Corte Suprema rol
+
 de 2007, se declaró que todo juzgamiento que se ajuste a los principios de un debido
 proceso debe emanar de un órgano objetivamente independiente y subjetivamente
 imparcial, siendo estos, elementos consustanciales del concepto de racional y justo.
@@ -4552,8 +4716,10 @@ lo obrado en el procedimiento, vuelve a pronunciar el fallo.15 También
 cuando dos miembros de la Corte de Apelaciones que dictan la sentencia recurrida ya habían conocido con anterioridad de otra causa seguida entre las mismas partes en la que se decidió acoger la excepción
 de cosa juzgada hecha valer por el demandado. Esto, sin ponerlo en
 
-
 ## 15 Sentencia Corte de Apelaciones de Valparaíso rol 3876-2001, de 11 de marzo de
+
+**Definición Canónica:** 2002.
+**Concordancias Legales:** artículos 195; artículo 195; artículo 19; artículo 5 de la Constitución permite realizar una interpretac; artículo 195 del COT que incluya por analogía; Constitución Política; Constitución
 
 2002.
 
@@ -4611,8 +4777,14 @@ Constitución permite realizar una interpretación extensiva del artículo
 195 del COT que incluya por analogía, en favor de la parte agraviada,
 otros casos similares a las causales de implicancia expresamente reco-
 
-
 ## 18 Obsérvese que la Corte Suprema, mediante Acta número 304-2008, de 23 de
+
+**Definición Canónica:** diciembre de 2008, complementada por Acta número 33-2009, de 30 de enero de
+2009, en resguardo de la probidad y transparencia en los concursos a los que postulen miembros del Poder Judicial, ordena que todos ellos «deben formular una declaración en la que señalen las personas respecto de las que se encuentran vinculados
+con una relación de parentesco o de matrimonio o de pareja con o sin convivencia».
+De esa manera, si alguna de esas relaciones puede inhabilitar a un juez para resolver
+un concurso al que postula con quien mantiene esa relación, al poner en riesgo el
+respeto de la probidad y tr
 
 diciembre de 2008, complementada por Acta número 33-2009, de 30 de enero de
 2009, en resguardo de la probidad y transparencia en los concursos a los que postulen miembros del Poder Judicial, ordena que todos ellos «deben formular una declaración en la que señalen las personas respecto de las que se encuentran vinculados
@@ -4623,6 +4795,9 @@ respeto de la probidad y transparencia del concurso, de igual forma cabe conclui
 lo inhabilita para decidir un conflicto jurídico del cual es parte, o patrocinante o apoderado de la parte, o fue fallado por un juez, con quien mantiene idéntica relación.
 
 ## 19 Como explican García y Contreras (2013: 235) el Tribunal Constitucional ha
+
+**Definición Canónica:** utilizado la técnica de reconocer derechos implícitos.
+**Concordancias Legales:** artículo 195; artículo 768; artículo 75 del COT; artículo 168; artículo 86 del COT; artículo 160 del CPC que dispone que
 
 utilizado la técnica de reconocer derechos implícitos.
 
@@ -4688,8 +4863,15 @@ haber sido pedido o no haberse planteado por las partes, no dio oportunidad a la
    Este vicio es una infracción a lo prescrito en el artículo 160 del CPC
 que dispone que «las sentencias se pronunciarán conforme al mérito del
 
-
 ## 21 Maturana (2015: 434) explica que existe ultra petita también cuando se altera la
+
+**Definición Canónica:** causa de pedir o el objeto pedido por las partes. Sin embargo, Mosquera y Maturana
+(2012: 255) enseñan que no se falla ultra petita si se resuelve sobre los presupuestos
+de la acción, porque los tribunales tienen el deber de examinar los presupuestos de
+una acción y solo acoger la misma si ellos se verifican, independiente y sin importar
+la actividad que haya adoptado el adversario. A lo dicho, por cierto, debe añadirse
+los casos en que el tribunal está facultado para realizar una declaración de oficio, lo
+que descarta el vicio en examen.
 
 causa de pedir o el objeto pedido por las partes. Sin embargo, Mosquera y Maturana
 (2012: 255) enseñan que no se falla ultra petita si se resuelve sobre los presupuestos
@@ -4700,6 +4882,10 @@ los casos en que el tribunal está facultado para realizar una declaración de o
 que descarta el vicio en examen.
 
 ## 22 Sentencia Tribunal Constitucional 3005, de 22 de noviembre de 2016, califica
+
+**Definición Canónica:** la bilateralidad de la audiencia como un presupuesto procesal esencial de lo que la
+Constitución entiende como un procedimiento racional y justo.
+**Concordancias Legales:** Constitución
 
 la bilateralidad de la audiencia como un presupuesto procesal esencial de lo que la
 Constitución entiende como un procedimiento racional y justo.
@@ -4721,7 +4907,17 @@ Suprema rol 27423-2020, de 19 de octubre de 2022:
 
 ## parte de la discusión, que se circunscribió únicamente a las materias
 
-      en las que los juzgadores han emitido pronunciamiento. En estas con-
+**Definición Canónica:** en las que los juzgadores han emitido pronunciamiento. En estas con-
+      diciones, resulta evidente que el demandante propone una casación de
+      fondo fundada en infracciones de ley o errores de derecho referidos a
+      materias que ciertamente derivan de hechos sobrevinientes y distintas
+      de las discutidas en el juicio, cuestiones que no fueron invocadas por las
+      partes en la etapa precursora, para efectos de conceder a la contraria la
+      posibilidad de manifestar su parecer sobre la pertinencia de aplicar las
+      normas que ahora postula, en los términos que indica —y ya
+**Concordancias Legales:** artículo 170 del CPC; Artículo 768; artículo 8; artículo 19; artículo 6; artículo 170 del CPC.26 Sin embargo; artículo 170 del CPC que se refiere a las exigencias y requisi; artículo 5; artículos 170; artículo 170; artículo 170 del Código de Procedimiento Civil; Ley 3.390; Constitucion; Constitución
+
+en las que los juzgadores han emitido pronunciamiento. En estas con-
       diciones, resulta evidente que el demandante propone una casación de
       fondo fundada en infracciones de ley o errores de derecho referidos a
       materias que ciertamente derivan de hechos sobrevinientes y distintas
@@ -4881,8 +5077,12 @@ Constitucional rol 4399, de 4 de diciembre de 2018.
       prema, 23 de octubre de 2018, rol número 40.732-2017; 30 mayo 2001. R.
       t. 98 sec. 1.ª, p. 125; y 23 agosto 1934. R., t. 34, sec. 1.ª, p. 412).28
 
-
 ## 28 Sobre el deber de fundamentar las sentencias, ver también sentencia Corte
+
+**Definición Canónica:** Suprema rol 3190-2009, de 21 de junio de 2010, sentencia Corte Suprema rol 149032019, de 4 de noviembre de 2019, sentencia Corte Suprema rol 21264-2020, de 14 de
+octubre de 2020, y sentencia Corte Suprema rol 4207-2001, del 23 de diciembre de
+2002.
+**Concordancias Legales:** artículo 170
 
 Suprema rol 3190-2009, de 21 de junio de 2010, sentencia Corte Suprema rol 149032019, de 4 de noviembre de 2019, sentencia Corte Suprema rol 21264-2020, de 14 de
 octubre de 2020, y sentencia Corte Suprema rol 4207-2001, del 23 de diciembre de
@@ -4941,13 +5141,20 @@ demanda en esta materia que la sentencia definitiva contenga:
       prueba, los hechos que se encuentren justificados con arreglo a la ley y
       los fundamentos que sirvan para estimarlos comprobados, haciéndose
 
-
 ## 31 La sentencia Corte Suprema rol 4135-1999, de 29 de enero de 2001, resuelve que
+
+**Definición Canónica:** se cumple con la exigencia de fundamentación cuando el fallo contiene consideraciones de hecho o de derecho relativas a cada uno de los puntos sometidos a debate,
+siempre que tales consideraciones no sean incompatibles entre sí y guarden concordancia con la conclusión a que arriba.
 
 se cumple con la exigencia de fundamentación cuando el fallo contiene consideraciones de hecho o de derecho relativas a cada uno de los puntos sometidos a debate,
 siempre que tales consideraciones no sean incompatibles entre sí y guarden concordancia con la conclusión a que arriba.
 
 ## 32 En sentencia Corte Suprema rol 2564-2009, de 12 de octubre de 2010, se estima
+
+**Definición Canónica:** que constituye la causal de casación en comento, el contener la sentencia la mera
+enumeración de la prueba aportada a la causa, pero sin analizar apropiadamente los
+antecedentes que de conformidad a las cargas procesales que a cada quien le venían
+asignadas, servían con mayor preponderancia para esclarecer el asunto controvertido.
 
 que constituye la causal de casación en comento, el contener la sentencia la mera
 enumeración de la prueba aportada a la causa, pero sin analizar apropiadamente los
@@ -4985,8 +5192,11 @@ que ejercen jurisdicción en el Estado.
       ble y, consecuencialmente, sobre la procedencia de las acciones y defen-
       sas planteadas.34
 
-
 ## 33 Sentencia Corte Suprema rol 3136-2005, de 29 de marzo de 2007. En sentencia
+
+**Definición Canónica:** Corte Suprema rol 3190-2009, de 21 de junio de 2010, igualmente se acoge la causal de
+casación ante la «palmaria carencia absoluta de motivaciones en el fallo impugnado».
+ 34 De manera similar, sentencia Corte Suprema rol 14903-2019, de 4 de noviembre de 2019 y sentencia Corte Suprema rol 31272-2018, de 29 de agosto 2019.
 
 Corte Suprema rol 3190-2009, de 21 de junio de 2010, igualmente se acoge la causal de
 casación ante la «palmaria carencia absoluta de motivaciones en el fallo impugnado».
@@ -5027,8 +5237,10 @@ de 2020:
       a los demandantes, por la naturaleza del perjuicio producido, de todo
       lo cual se concluye que, este tipo de menoscabo, no requiere ser fun-
 
-
 ## 35 En sentencia Corte Suprema rol 5554-2011, de 6 de junio de 2013, se explica que
+
+**Definición Canónica:** «considerar» implica la idea de reflexionar detenidamente sobre algo determinado,
+es decir, concreto.
 
 «considerar» implica la idea de reflexionar detenidamente sobre algo determinado,
 es decir, concreto.
@@ -5069,8 +5281,9 @@ violaciones a los derechos humanos—, el vínculo del demandante con
 el afectado directamente por la acción del demandado, sumado a otras
 circunstancias fácticas debidamente asentadas, pueda establecerse mediante el medio de prueba de las presunciones, pero este requiere hechos reales y probados que posibiliten esa inferencia.36 De esa manera,
 
-
 ## 36 Como se decidió en sentencia Corte Suprema rol 31272-2018, de 29 de agosto
+
+**Definición Canónica:** 2019, fallo que da por demostrado el daño moral sufrido por la conviviente del fa-
 
 2019, fallo que da por demostrado el daño moral sufrido por la conviviente del fa-
 
@@ -5130,8 +5343,16 @@ de pesos) para cada uno de los hijos, esto es, Isabel del Carmen y Osvaldo Manue
 fallo impugnado sí cuenta con las consideraciones que sirven de fundamento a los montos de indemnización fijados en lo resolutivo, motivo
 por el cual el recurso en estudio no podrá prosperar.37
 
-
 ## 37 De modo semejante, sentencia Corte Suprema rol 8106-2018, de 29 de enero
+
+**Definición Canónica:** de 2019, también rechazando un recurso de casación en la forma deducido contra la
+sentencia que rebaja el monto de la indemnización por daño moral, señala: «Cuarto:
+Que, en primer término, cabe reparar que los razonamientos desarrollados por el
+fallo de primer grado podrían servir tanto para fundar el monto de la indemnización
+fijada en esa instancia como aquella establecida en alzada, desde que discurren principalmente sobre la existencia del daño moral sufrido por los actores y no sobre qué
+monto, aproximadamente, podría estimarse como su justa reparación, asunto que sí
+trata expresamente la
+**Concordancias Legales:** artículo 2330 del Código Civil; artículo 541; artículo 768; artículo 177 del CPC es una sentencia contraria a la razón y j; artículo 27; Constitucion
 
 de 2019, también rechazando un recurso de casación en la forma deducido contra la
 sentencia que rebaja el monto de la indemnización por daño moral, señala: «Cuarto:
@@ -5323,6 +5544,12 @@ uno las partes».
 
 ## 43 Como explican Núñez y Pérez (2014: 252), ambas tienen en común que se trata
 
+**Definición Canónica:** de una resolución firme y ejecutoriada, sin embargo, en la cosa juzgada formal estamos frente a una resolución firme o ejecutoriada irrecurrible o inimpugnable en
+el proceso en el cual se dictó, pero que sí podría impugnarse a través de otro juicio
+declarativo. En la cosa juzgada material, en cambio, es indiscutible, lo que se decidió
+no puede ser recurrido o discutido en el mismo proceso ni rediscutido en un proceso diferente. La cosa juzgada material es la cosa juzgada en sentido estricto.
+**Concordancias Legales:** artículo 177 del Código de Procedimiento Civil sobre la normat; artículo 177; artículo 768
+
 de una resolución firme y ejecutoriada, sin embargo, en la cosa juzgada formal estamos frente a una resolución firme o ejecutoriada irrecurrible o inimpugnable en
 el proceso en el cual se dictó, pero que sí podría impugnarse a través de otro juicio
 declarativo. En la cosa juzgada material, en cambio, es indiscutible, lo que se decidió
@@ -5384,8 +5611,12 @@ Corte para pronunciarse sobre la apelación. De ese modo, de resolver
 igualmente la Corte el recurso desistido, no solo irá contra la voluntad
 del recurrente que se desiste, actuando de oficio en contradicción al principio de pasividad, sino que, como se dijo, actuará fuera de su competencia lo que implica una clara vulneración al derecho al debido proceso.
 
-
 ## 44 En sentencia Corte Suprema, rol 11673-2021, de 16 de diciembre de 2022, se
+
+**Definición Canónica:** explica que para que esta causal se presente «debe existir, a lo menos, más de una
+decisión respecto al fondo de lo que debía resolverse en el fallo recurrido; la contradicción que se invoque debe existir en su parte resolutiva y no en sus fundamentos, a
+menos que se trate de considerandos decisorios o resolutivos; y tales decisiones deben pugnar entre sí al punto de no ser posible su cumplimiento simultaneo, debido
+a que el cumplimiento de la una se opone a la resolución librada en la otra».
 
 explica que para que esta causal se presente «debe existir, a lo menos, más de una
 decisión respecto al fondo de lo que debía resolverse en el fallo recurrido; la contradicción que se invoque debe existir en su parte resolutiva y no en sus fundamentos, a
@@ -5393,6 +5624,11 @@ menos que se trate de considerandos decisorios o resolutivos; y tales decisiones
 a que el cumplimiento de la una se opone a la resolución librada en la otra».
 
 ## 45 Hay consenso en que para que se configure este vicio deben haberse hecho
+
+**Definición Canónica:** valer dos o más acciones o dos o más excepciones, pues si la cuestión controvertida
+es una sola, mal puede hablarse de pluralidad de decisiones y de contradicción entre
+ellas. Por todos, Casarino (1997: 308).
+**Concordancias Legales:** artículo 786; artículo 19; artículo 795 del CPC; artículo 795; Constitución; constitucion
 
 valer dos o más acciones o dos o más excepciones, pues si la cuestión controvertida
 es una sola, mal puede hablarse de pluralidad de decisiones y de contradicción entre
@@ -5454,8 +5690,16 @@ conflicto que ha dado origen a ella y los datos relativos a la persona a
 quien se busca notificar.49
    Determinar si una particular forma de notificación satisface el estándar constitucional del derecho al debido proceso debe examinarse,
 
-
 ## 46 Sentencia Tribunal Constitucional 5369, de 8 de octubre de 2019. De manera
+
+**Definición Canónica:** similar, sentencia Tribunal Constitucional 3969, de 21 de noviembre de 2018; sentencia Tribunal Constitucional 5516, de 8 de octubre de 2019 y sentencia Tribunal
+Constitucional 5820, de 8 de octubre de 2019.
+ 47 Sentencia Tribunal Constitucional 3969, de 21 de noviembre de 2018.
+ 48 Sentencia Tribunal Constitucional 6611, de 12 de noviembre de 2019.
+ 49 Sentencia Tribunal Constitucional 1368-09, de 18 de mayo de 2010. También,
+sentencia Tribunal Constitucional 2986, de 14 de marzo de 2017; sentencia Tribunal
+Constitucional 3969, de 21 de noviembre de 2018 y sentencia Tribunal Constitucional 66
+**Concordancias Legales:** Constitucion; constitución
 
 similar, sentencia Tribunal Constitucional 3969, de 21 de noviembre de 2018; sentencia Tribunal Constitucional 5516, de 8 de octubre de 2019 y sentencia Tribunal
 Constitucional 5820, de 8 de octubre de 2019.
@@ -5484,16 +5728,14 @@ grave perjuicio, como ocurre en los procedimientos de constitución
 de una propiedad minera, supuestos en que el Tribunal Constitucional
 ha decidido que la resolución de plano no vulnera el debido proceso.53
 
-
-## 50 Sentencia Tribunal Constitucional 2371, de 4 de noviembre de 2014; sentencia
-
-Tribunal Constitucional 2372, de 4 de noviembre de 2014 y sentencia Tribunal Constitucional 3013, de 18 de mayo de 2017
-
-## 51 Sentencia Tribunal Constitucional 2701, de 1 de septiembre de 2015 y sentencia
-
-Tribunal Constitucional 3470, de 18 de octubre de 2018.
-
 ## 52 Sentencia Tribunal Constitucional 1368, de 18 de mayo de 2010 y sentencia
+
+**Definición Canónica:** Tribunal Constitucional 2986, de 14 de marzo de 2017. La sentencia Tribunal Constitucional 2888, de 21 de julio de 2016, declara que la notificación por cédula que la
+Ley de Copropiedad Inmobiliaria requiere en los juicios de cobro de gastos comunes
+se halla establecida sobre la base de una presunción, en cuanto a que se supone que
+allí vive o mora el dueño del departamento respectivo, pero esta, en caso alguno impide al sujeto supuestamente agraviado probar lo contrario, prueba que corresponde
+ponderar al juez del fondo.
+**Concordancias Legales:** Constitucion
 
 Tribunal Constitucional 2986, de 14 de marzo de 2017. La sentencia Tribunal Constitucional 2888, de 21 de julio de 2016, declara que la notificación por cédula que la
 Ley de Copropiedad Inmobiliaria requiere en los juicios de cobro de gastos comunes
@@ -5502,6 +5744,10 @@ allí vive o mora el dueño del departamento respectivo, pero esta, en caso algu
 ponderar al juez del fondo.
 
 ## 53 Sentencia Tribunal Constitucional 1994, de 26 de abril de 2012. En el mismo
+
+**Definición Canónica:** sentido, sentencia Tribunal Constitucional 2053, de 14 de junio de 2012 y sentencia
+Tribunal Constitucional 2166, de 14 de enero de 2013. Descarta esa urgencia comen-
+**Concordancias Legales:** artículo 795; artículo 19; Constitucion; Constitución
 
 sentido, sentencia Tribunal Constitucional 2053, de 14 de junio de 2012 y sentencia
 Tribunal Constitucional 2166, de 14 de enero de 2013. Descarta esa urgencia comen-
@@ -5534,11 +5780,19 @@ se presenta.
 
 ## 57 Según Espinoza (1980: 153) procederá el recurso de casación en la forma si se
 
+**Definición Canónica:** practica una diligencia probatoria sin que el tribunal haya dictado una resolución
+que así lo ordene, o sin que esta resolución se notifique a las partes, o sin esperar que
+transcurran los tres días del término de citación.
+
 practica una diligencia probatoria sin que el tribunal haya dictado una resolución
 que así lo ordene, o sin que esta resolución se notifique a las partes, o sin esperar que
 transcurran los tres días del término de citación.
 
 ## 58 Para García y Contreras (2013: 267), el derecho a una adecuada defensa implica
+
+**Definición Canónica:** la aptitud procesal de presentar pruebas y tener derecho a impugnar aquellas que
+vulneren las pretensiones y derechos que se hagan valer.
+**Concordancias Legales:** artículo 775 del CPC constituye una herramienta para que los t; artículo 775; Constitucion; Constitución Política
 
 la aptitud procesal de presentar pruebas y tener derecho a impugnar aquellas que
 vulneren las pretensiones y derechos que se hagan valer.
@@ -5616,6 +5870,9 @@ de 13 de junio de 2019.
 
 ## 62 Sentencia Tribunal Constitucional rol 1718, de 14 de junio de 2011 y sentencia
 
+**Definición Canónica:** Tribunal Constitucional 2921 de 13 de octubre de 2016
+**Concordancias Legales:** artículo 5 de la Constitución. De otra manera; artículo 19; artículo 766 del CPC; artículo 768; Constitucion; Constitución
+
 Tribunal Constitucional 2921 de 13 de octubre de 2016
 
 ceso y, por ende, vulneraciones a un derecho fundamental, resulta obligatorio para dichos tribunales proceder a la invalidación oficiosa si es la
@@ -5676,8 +5933,10 @@ leyes especiales y, por ende, el cumplimiento del derecho a una sentencia fundad
 mediante este recurso ni ningún otro de cometerse esa omisión por el
 fallo de segunda instancia.64
 
-
 ## 64 Así lo ha resuelto el máximo tribunal declarando inadmisibles los recursos
+
+**Definición Canónica:** de casación en la forma sustentados en la causal del número 5 del artículo 768, en
+**Concordancias Legales:** artículo 768; artículo 170; artículo 5 de la CPR. Empero; artículo 772; artículo 464; Constitucion
 
 de casación en la forma sustentados en la causal del número 5 del artículo 768, en
 
@@ -5742,8 +6001,14 @@ debido proceso. Este recurso es declarado inadmisible porque:
       trio adolece de un vacío que la Corte no puede subsanar dado el carácter
       de derecho estricto que reviste el recurso intentado».68
 
-
 ## 68 Asimismo, en sentencia Corte Suprema rol 135481-2022, de 15 de diciembre de
+
+**Definición Canónica:** 2022, se declara inadmisible el recurso de casación en el fondo en el que se denuncia la infracción a las normas reguladoras de la prueba, y la afectación del debido
+proceso, al valorar la sentencia definitiva medios de prueba que no fueron rendidos
+durante el término probatorio, porque «versando la contienda sobre una acción de
+precario, la exigencia consignada en el motivo anterior [artículo 772 número 1 del
+CPC] obligaba al impugnante a explicar los contenidos jurídicos del instituto que se
+**Concordancias Legales:** artículo 772; artículos 152; artículo 2195 del Código Civil. Sin embargo
 
 2022, se declara inadmisible el recurso de casación en el fondo en el que se denuncia la infracción a las normas reguladoras de la prueba, y la afectación del debido
 proceso, al valorar la sentencia definitiva medios de prueba que no fueron rendidos
@@ -5762,6 +6027,15 @@ hizo valer en juicio, esto es el artículo 2195 del Código Civil. Sin embargo, 
 en su opinión el tribunal infringió dicho precepto legal al dictar su sentencia».
 
 ## 69 En Sentencia Corte Suprema rol número 38.439-2021, de 9 de diciembre de
+
+**Definición Canónica:** 2022, se rechaza también el recurso de casación en el fondo contra la sentencia que
+acoge el incidente de abandono de procedimiento promovido por la demandada, con
+el voto en contra del ministro Valderrama, quien estuvo por acoger ese arbitrio, porque «habiéndose pronunciado la sentencia definitiva de primera instancia con fecha
+25 de agosto de 2020 y deducido el incidente de abandono del procedimiento el 1 de
+marzo de 2021, ambos durante la vigencia del estado de excepción constitucional, la
+notificación del fallo a las partes debe calificarse como una actuación judicial cuya
+realización pued
+**Concordancias Legales:** artículo 19; artículos 14.3; constitucion
 
 2022, se rechaza también el recurso de casación en el fondo contra la sentencia que
 acoge el incidente de abandono de procedimiento promovido por la demandada, con
@@ -5813,8 +6087,16 @@ un plazo razonable, por un juez o tribunal competente, independiente
 e imparcial, establecido con anterioridad por la ley, en la sustanciación
 de cualquier acusación penal formulada contra ella, o para la determinación de sus derechos y obligaciones de orden civil, laboral, fiscal o
 
-
 ## 70 Una síntesis de la jurisprudencia de la CIDH sobre el derecho a ser juzgado
+
+**Definición Canónica:** en un plazo razonable y los aspectos considerandos para sus decisiones, en CIDH
+(s.f.: 117 y ss.). En sentencia Tribunal Constitucional rol 3338, de 20 de marzo de
+2018, se ha resuelto que un proceso judicial no puede continuar indefinidamente y
+carente de límites sin afectar la eficacia y el prestigio de la administración de justicia, así como el derecho al juzgamiento dentro de un plazo razonable, mientras que
+en sentencia Tribunal Constitucional rol 5669, de 28 de noviembre de 2019 explica
+que se trata de un derecho sostenido doblemente en los conceptos indeterminados
+de «razonable» e «inde
+**Concordancias Legales:** artículo 8; artículo 5 de la CPR; artículo 200; artículo 125 del Código Tributario; artículos 201; Constitucion
 
 en un plazo razonable y los aspectos considerandos para sus decisiones, en CIDH
 (s.f.: 117 y ss.). En sentencia Tribunal Constitucional rol 3338, de 20 de marzo de
@@ -5863,11 +6145,10 @@ y vigesimocuarto, inciso segundo del Código Tributario73 y, de esa ma-
 
  71 Sobre los fundamentos para fijar ese plazo, véase Rodríguez (2018: 223-228).
 
-## 72 Sentencia Corte Suprema rol 5165-2013, de 14 de abril de 2014 y sentencia Corte
-
-Suprema rol 13387-2014, de 18 de mayo de 2015.
-
 ## 73 Sentencia Corte Suprema rol 5165-2013, de 14 de abril de 2014 y sentencia Corte
+
+**Definición Canónica:** Suprema rol 13387-2014, de 18 de mayo de 2015.
+**Concordancias Legales:** artículo 5 de la CPR
 
 Suprema rol 13387-2014, de 18 de mayo de 2015.
 
@@ -5882,8 +6163,16 @@ dilucidarse caso a caso siguiendo los criterios que ha desarrollado la
 doctrina instaurada por la propia jurisprudencia emanada de los organismos internacionales competentes; esto es, la complejidad del asunto,
 la diligencia de las autoridades judiciales, y la actividad procesal del interesado.74
 
-
 ## 74 Sentencia Corte Suprema rol 37181-2015, de 29 de noviembre de 2016. Sobre esta
+
+**Definición Canónica:** temática, ver también sentencia Corte Suprema rol 5165-2013, de 14 de abril de 2014;
+sentencia Corte Suprema rol 11852-2015, de 6 de diciembre de 2016 y sentencia Corte
+Suprema rol 41099-2016, de 26 de diciembre de 2016. El Tribunal Constitucional, en
+sentencia rol 5669, de 28 de noviembre de 2019, igualmente desestima fijar un plazo
+máximo para la duración del procedimiento, expresando que «la aplicación de un
+criterio rígido como pudiera ser un plazo máximo, sino por la consideración de algunas variables: a) La complejidad objetiva del asunto; b) la actitud de las partes; c)
+el interés arrie
+**Concordancias Legales:** Constitucion
 
 temática, ver también sentencia Corte Suprema rol 5165-2013, de 14 de abril de 2014;
 sentencia Corte Suprema rol 11852-2015, de 6 de diciembre de 2016 y sentencia Corte
@@ -5931,6 +6220,14 @@ sentencia Corte Suprema rol 99964-2016, de 19 de diciembre de 2018.
 
 ## 75 Sobre la garantía constitucional del derecho a la prueba, véase Núñez y Pérez
 
+**Definición Canónica:** (2014: 102-105), quienes incluyen como manifestación de este derecho la posibilidad
+de proponer válidamente «todas las fuentes de prueba de que dispongan las partes»,
+explicando que el ordenamiento debe consagrar la posibilidad de que los elementos de prueba puedan ser trasladados al juicio «sin limitaciones», tratándose de un
+mandato dirigido al legislador, quien «no debiera restringir fuentes de prueba».
+ 76 Sobre estas dos verdades en el proceso civil, véase Pinochet (2019: 60-64).
+ 77 Como explica Jequier (2007: 464) tampoco en Estados Unidos, y entre los llamados sistemas continentales la
+**Concordancias Legales:** artículo 287 de la Ley de Enjuiciamiento Civil 1; artículo 349 del CPC; artículo 346; artículo 1545
+
 (2014: 102-105), quienes incluyen como manifestación de este derecho la posibilidad
 de proponer válidamente «todas las fuentes de prueba de que dispongan las partes»,
 explicando que el ordenamiento debe consagrar la posibilidad de que los elementos de prueba puedan ser trasladados al juicio «sin limitaciones», tratándose de un
@@ -5977,11 +6274,12 @@ infracción del artículo 1545 del CC, al no sujetarse el fallo impugnado
 
 procedimiento probatorio, pero sin afectación nuclear de derechos fundamentales.
 
-## 79 Se sigue en esta parte a Jequier (2007: 465), en el estudio de la prueba ilícita en
-
-el sistema procesal civil español.
-
 ## 80 Jequier (2007: 465) entrega como ejemplos del derecho español el caso de un
+
+**Definición Canónica:** testigo que declare bajo la coacción de alguna de las partes o de los investigadores
+privados que obtengan informes que se presenten como prueba documental vulnerando derechos fundamentales, sobre todo en el marco del derecho a la intimidad
+(intervención de comunicaciones telefónicas, inviolabilidad del domicilio, fundamentalmente).
+**Concordancias Legales:** artículo 346; artículo 772; artículo 1489 del Código Civil que se considera norma decisoria; artículo 83 del CPC; artículo 276 del Código de Procedimiento Civil ordena el allan; constitucion
 
 testigo que declare bajo la coacción de alguna de las partes o de los investigadores
 privados que obtengan informes que se presenten como prueba documental vulnerando derechos fundamentales, sobre todo en el marco del derecho a la intimidad
@@ -6015,6 +6313,11 @@ por alto que el deber de excluir la prueba ilícita o al menos no consi-
 como un receptor o un funcionario policial, reviste igualmente el carácter de actuación judicial pasible de invalidación.
 
 ## 82 Jequier (2007: 465) reconoce que incluso en el supuesto de que la actividad
+
+**Definición Canónica:** probatoria se lleve a cabo dentro del proceso por el juez, para incorporar las fuentes
+de prueba al mismo, puede suponer violación de derechos fundamentales absolutos
+si no se realiza al amparo de la ley.
+**Concordancias Legales:** artículo 5; artículo 6 de la CPR; artículo 19; artículos 6; artículos 276; Constitución; constitucion
 
 probatoria se lleve a cabo dentro del proceso por el juez, para incorporar las fuentes
 de prueba al mismo, puede suponer violación de derechos fundamentales absolutos
@@ -6077,6 +6380,15 @@ CPP, no hacen sino velar porque el ejercicio del ius puniendi respete la limitac
 impuesta por la propia CPR.
 
 ## 84 En materia laboral, el inciso final del número 4 del artículo 453 del Código del
+
+**Definición Canónica:** Trabajo, dispone que «Con todo, carecerán de valor probatorio y, en consecuencia,
+no podrán ser apreciadas por el tribunal las pruebas que las partes aporten y que
+se hubieren obtenido directa o indirectamente por medios ilícitos o a través de actos
+que impliquen violación de derechos fundamentales» (la cursiva es nuestra). Norma
+cuya infracción puede ser reclamada mediante el recurso de nulidad por la causal
+del artículo 477 del mismo código, lo que ha dado lugar a un amplio desarrollo jurisprudencial que no resulta posible examinar con detención aquí, que incluye los
+pronunciamientos del máx
+**Concordancias Legales:** artículo 477; artículo 483; artículo 3; artículo 31 de la Ley 19.968; artículo 31; artículo 780 del CPC; Ley 20.087; Ley 20.260; Ley 19.968
 
 Trabajo, dispone que «Con todo, carecerán de valor probatorio y, en consecuencia,
 no podrán ser apreciadas por el tribunal las pruebas que las partes aporten y que
@@ -6149,8 +6461,15 @@ por tribunales superiores. Sin embargo y, en ambos casos, dichos motivos deben s
 las partes adviertan que no se trata de un giro antojadizo sino fundado
 y que, por ende, entrega certeza que debiera prolongarse en el tiempo, lo que no descarta que en algún momento pueda volver a variar.87
 
-
 ## 86 Romero, Aguirrezabal y Baraona (2008: 226) recuerdan que el legislador de
+
+**Definición Canónica:** fines del siglo XIX estimó que, al introducir este instrumento, la Corte Suprema
+haría realidad el principio de igualdad ante la ley, a través de la unificación de la
+jurisprudencia.
+  87 García y Leturia (2006: 349) señalan que las buenas o malas decisiones judiciales generan un impacto ex ante sobre las expectativas de los individuos, incentivando o desincentivando conductas, como, por ejemplo, la redacción de contratos
+más completos y con menores espacios de interpretación o el establecimiento de
+cláusulas de arbitraje.
+**Concordancias Legales:** artículo 768; artículo 170; artículo 159 del CPC como infracción al debido proceso Indica; artículo 365 del CPC prescribe que; artículos 7
 
 fines del siglo XIX estimó que, al introducir este instrumento, la Corte Suprema
 haría realidad el principio de igualdad ante la ley, a través de la unificación de la
@@ -6224,6 +6543,9 @@ judiciales y no la aprecie el magistrado inmediatamente.
 
 ## 91 Sobre el principio de legalidad en materia de Derecho Procesal, véase Núñez y
 
+**Definición Canónica:** Pérez (2013: 87).
+**Concordancias Legales:** artículo 365; artículo 222 del COT; artículo 5; artículos 223; artículos 223 del COT y 637 del CPC hablan de; artículo 640 del CPC; Ley 19.971; Constitución
+
 Pérez (2013: 87).
 
 Materiales Docentes                                                 Capítulo 5
@@ -6288,6 +6610,13 @@ las razones de «prudencia o equidad» que fundan la sentencia.
 
 ## 93 La clasificación de los arbitrajes, según las facultades del compromisario, en
 
+**Definición Canónica:** árbitros de derecho y arbitradores es diferente a la que recoge la legislación comparada. En efecto, en otros ordenamientos —incluso en el sentido que le da nuestra Ley 19.971 sobre arbitraje comercial internacional— se entiende por árbitro de
+derecho a aquel que resuelve conforme la ley aplicable al contrato, pero siempre el
+procedimiento será el que definan las partes o el que, subsidiariamente, señala la ley
+de arbitraje. Es decir, en derecho comparado como en nuestra Ley de arbitraje comercial internacional, el árbitro de derechos es nuestro equivalente al árbitro mixto.
+Esto es así tanto 
+**Concordancias Legales:** artículo 441; Ley 19.971
+
 árbitros de derecho y arbitradores es diferente a la que recoge la legislación comparada. En efecto, en otros ordenamientos —incluso en el sentido que le da nuestra Ley 19.971 sobre arbitraje comercial internacional— se entiende por árbitro de
 derecho a aquel que resuelve conforme la ley aplicable al contrato, pero siempre el
 procedimiento será el que definan las partes o el que, subsidiariamente, señala la ley
@@ -6344,8 +6673,16 @@ proceso tanto en el arbitraje doméstico como en el arbitraje internacional97 ex
 su formulación, refieren en sus causales a la protección de las garantías
 propias del debido proceso.
 
-
 ## 95 De allí que sea esencial determinar claramente si los tribunales arbitrales son
+
+**Definición Canónica:** o no parte del Poder Judicial o solo son órganos que se consideran como tribunales
+especiales que ejercen jurisdicción respecto de materias transigibles o disponibles.
+ 96 Caso Chaparro Álvarez y Lapo Íñiguez con Ecuador. Excepciones preliminares, Fondo, Reparaciones y Costas. Sentencia de 21 de noviembre de 2007. Serie C
+número 170. El texto íntegro de la sentencia se encuentra disponible en https://bit.
+ly/3r1kzlW.
+ 97 Nos referiremos indistintamente al arbitraje internacional o arbitraje comercial internacional, entendiendo por tal a aquel regulado en Chile por la Ley 19.971
+sobre arbitraje
+**Concordancias Legales:** artículos 227; artículo 228; artículo 227; artículo 18 de la Constitución argentina; artículo 18; artículo 6.1; artículo 8 de la CADH; Ley 19.971; Constitución; constitucion
 
 o no parte del Poder Judicial o solo son órganos que se consideran como tribunales
 especiales que ejercen jurisdicción respecto de materias transigibles o disponibles.
@@ -6444,14 +6781,23 @@ implica que todas aquellas personas que estén en una misma situación
 jurídica deben ser juzgadas por el mismo tribunal (o mismo tipo de jurisdicción). El derecho al juez natural como derecho a una justicia equitativa es una expresión de la igualdad ante la ley y de la igual protección
 en el ejercicio de los derechos.101
 
-
 ## 100 En el artículo 4 de su capítulo V, la Constitución de 1791 prescribía, sobre el
+
+**Definición Canónica:** Poder Judicial, que los ciudadanos no podían ser distraídos de los jueces que la ley
+les hubiera designado, por ninguna comisión ni por otras autoridades o evocaciones
+que aquellas que estuvieran determinadas por las leyes.
 
 Poder Judicial, que los ciudadanos no podían ser distraídos de los jueces que la ley
 les hubiera designado, por ninguna comisión ni por otras autoridades o evocaciones
 que aquellas que estuvieran determinadas por las leyes.
 
 ## 101 Se hace necesario establecer que la existencia de fueros especiales debido al
+
+**Definición Canónica:** cargo o posición de determinados litigantes no es un beneficio procesal para ese
+litigante aforado. Por el contrario, es una garantía establecida en favor de quien es
+su contraparte, de manera de asegurar la igual protección de sus derechos, evitando
+que el cargo o posición de aquél pueda afectar la decisión del juzgador.
+**Concordancias Legales:** artículo 5; artículo 116 de la Constitución de Colombia de 1991 que radica l; artículos 229; Constitución
 
 cargo o posición de determinados litigantes no es un beneficio procesal para ese
 litigante aforado. Por el contrario, es una garantía establecida en favor de quien es
@@ -6481,13 +6827,16 @@ de estos quedará determinada por la voluntad de las partes, las cuales
 definirán su ámbito en el respectivo acuerdo de arbitraje y el que podrá
 adoptar la forma de cláusula compromisoria o compromiso arbitral.103
 
-
-## 102 Article 5 «Le droit des citoyens, de terminer définitivement leurs contestations
-
-par la voie de l’arbitrage, ne peut recevoir aucune atteinte par les actes du Pouvoir
-législatif» [idioma original].
-
 ## 103 Se reconocen dos tipos de acuerdos de arbitraje: la cláusula compromisoria y el
+
+**Definición Canónica:** compromiso arbitral. Solo como referencia, en derecho chileno entendemos ambos
+tipos de convenios arbitrales de manera diversa al resto del mundo, dándole también
+efectos diferentes. En Chile tenemos una distinción formal y funcional entre ambos.
+Para nuestra doctrina nacional la cláusula compromisoria se ha entendido como el
+acuerdo de voluntades por el cual las partes de un contrato convienen en que todas
+o algunas de las controversias que surjan de esa relación jurídica serán resueltas por
+árbitros. Algunos autores la entienden como una convención, mientras que hay fallos
+**Concordancias Legales:** artículo 1442 del Código de procedimiento civil francés; Artículo 1442; artículo 239 del COT; artículo 239 del COT habilita a las partes mayores de edad y c; artículo 40; artículo 545 del Código Orgánico de Tribunales ponen de reliev; Ley 19.374
 
 compromiso arbitral. Solo como referencia, en derecho chileno entendemos ambos
 tipos de convenios arbitrales de manera diversa al resto del mundo, dándole también
@@ -6643,8 +6992,10 @@ declaró que:
       dentes en contra de la sentencia definitiva, razón por la cual el presente
       recurso [de casación en la forma] no puede ser admitido a tramitación,
 
-
 ## 107 Sentencia Corte de Apelaciones de Santiago, 22 de mayo de 2017, rol ingreso
+
+**Definición Canónica:** Civil-4595-2017.
+**Concordancias Legales:** artículo 545 del Código Orgánico de Tribunales; artículo 239 del Código Orgánico de Tri
 
 Civil-4595-2017.
 
@@ -6682,8 +7033,10 @@ jurisdicción del tribunal, materia de orden público que no admite disponibilid
       ciable. (Álvaro Aliaga Grez, Los Recursos Procesales en el Juicio Arbitral,
       Editorial Jurídica de Chile, 1985, p. 60).
 
-
 ## 108 Sentencia Corte Suprema de 2 de octubre de 2017, rol de ingreso número
+
+**Definición Canónica:** 33758-2017.
+**Concordancias Legales:** artículo 768 del Código de Procedimiento Civil; artículo 40; artículo 5; artículo 8.1 de la LACI; artículo 16.2; artículo 16.1 de la LACI; artículo 16.3; artículo 34.2; Artículo 34; Ley 19.971
 
 33758-2017.
 
@@ -6806,14 +7159,21 @@ i), iii) y iv):
        Artículo 34. La petición de nulidad como único recurso contra un lau-
       do arbitral.
 
-## 1. Contra un laudo arbitral solo podrá recurrirse ante un tribunal me-
-
-          diante una petición de nulidad conforme a los numerales 2) y 3) de
-          este artículo.
-
 ## 2. El laudo arbitral solo podrá ser anulado por la respectiva Corte de
 
-          Apelaciones cuando:
+**Definición Canónica:** Apelaciones cuando:
+         a) La parte que interpone la petición pruebe:
+             ii. Que una de las partes en el acuerdo de arbitraje a que se refiere
+            el artículo 7 estaba afectada por alguna incapacidad, o que dicho
+            acuerdo no es válido en virtud de la ley a que las partes lo han so-
+            metido, o si nada se hubiera indicado a este respecto, en virtud de
+            la ley de este Estado, o
+             iii. Que el laudo se refiere a una controversia no prevista en el acuer-
+            do de arbitraje o contiene decisiones que exceden los términos del
+ 
+**Concordancias Legales:** artículo 7; artículo 232
+
+Apelaciones cuando:
          a) La parte que interpone la petición pruebe:
              ii. Que una de las partes en el acuerdo de arbitraje a que se refiere
             el artículo 7 estaba afectada por alguna incapacidad, o que dicho
@@ -6866,8 +7226,11 @@ indicado en dicho reglamento, otorgando los comparecientes mandato
 irrevocable al CNA para este efecto».
    Otras cláusulas remiten a los procedimientos de designación por referencia a un reglamento, como lo hace la Cámara de Comercio Internacional: «Todas las controversias que deriven del presente contrato o que
 
-
 ## 110 La referencia es a los árbitros que fallan conforme a derecho, pues es requisito
+
+**Definición Canónica:** que detenten el título de abogado. Si son designados como arbitradores no deben
+cumplir otras obligaciones que las del artículo 225 inciso primero del COT.
+**Concordancias Legales:** artículo 225; artículo 16 de la Ley 19.486 de protección de derechos de los c; artículo 16; artículo 3; Ley 19.486; constitución
 
 que detenten el título de abogado. Si son designados como arbitradores no deben
 cumplir otras obligaciones que las del artículo 225 inciso primero del COT.
@@ -6894,14 +7257,13 @@ igualmente a la jurisdicción común en vez de la arbitral pactada en el
 contrato de adhesión. El actual texto de la Ley de protección de derechos del consumidor111 eliminó esa disposición y la trasladó al artículo
 3, pero con una redacción diversa, aunque manteniendo su espíritu.112
 
-
-## 111 DFL número 3 del Ministerio de Economía, de 31 de mayo de 2021, que fija
-
-texto refundido, coordinado y sistematizado de la Ley 19.496, que establece normas
-sobre protección de los derechos de los consumidores. Texto disponible en https://
-bcn.cl/2pv9x.
-
 ## 112 Ahora se establece como derecho del consumidor en el artículo 3 letra g) el
+
+**Definición Canónica:** acudir siempre ante el tribunal competente conforme a las disposiciones establecidas en esta ley. Prosigue señalando que el proveedor debe informar al consumidor
+de este derecho al celebrar el contrato y en el momento de surgir cualquier controversia, queja o reclamación. Luego, toda estipulación en contrario constituye una
+infracción y se tendrá por no escrita. Aparece así que, en principio, ya no podría
+pactarse ex ante arbitraje, o al menos definirse como método único para la resolución del conflicto. Eso se reafirmaría en el mismo literal cuando se determina que
+la mediación, conciliación 
 
 acudir siempre ante el tribunal competente conforme a las disposiciones establecidas en esta ley. Prosigue señalando que el proveedor debe informar al consumidor
 de este derecho al celebrar el contrato y en el momento de surgir cualquier controversia, queja o reclamación. Luego, toda estipulación en contrario constituye una
@@ -6940,8 +7302,10 @@ designado y en un plazo diverso de aquel para impugnar sentencias.
    La Corte Suprema por vía de auto acordado procuró ordenar el proceso de designación de árbitros, mediante el acta 128-2015.113 Quizás la
 mayor innovación fue la creación de un registro de árbitros con una
 
-
 ## 113 Acta 128 de 2015 de la Corte Suprema de 17 de agosto de 2015. Disponible en
+
+**Definición Canónica:** https://bcn.cl/2whnp.
+**Concordancias Legales:** Artículo 7
 
 https://bcn.cl/2whnp.
 
@@ -6971,17 +7335,14 @@ el escenario ideal, el legislador se puso en el evento de que no haya colaboraci
 nombramiento116 no actúa en consecuencia o los coárbitros no pueden
 llegar a acuerdo en el presidente del tribunal. Se debe recurrir entonces
 
-
-## 114 Listado de todos los registros, separados por Cortes de Apelaciones disponible
-
-en https://bit.ly/44bZ2Vw.
-
-## 115 Como la realidad va más rápido que los cambios normativos, ya otras leyes
-
-de arbitraje han determinado la manera en que se designa un árbitro ante una pluralidad de demandados o demandantes, de modo de cautelar para todas el debido
-proceso en la fase de nominación.
-
 ## 116 Este tercero puede ser la entidad administradora del arbitraje, por haberse
+
+**Definición Canónica:** remitido las partes a su reglamento para el proceso arbitral. Pero también pueden
+las partes optar por un arbitraje ad hoc, es decir, sin un centro de arbitraje que les
+facilite las reglas, y aun así estas han designado a un tercero (persona o entidad) para
+que designe al árbitro o árbitros. En arbitraje comercial internacional a este tercero
+se le llama autoridad de nominación.
+**Concordancias Legales:** artículo 11.3 de la LACI; artículo 12.1 de la LACI impone la obligación al potencial árbitr; artículo 12.1; artículo 4 de la LACI; artículo 12.2; artículo 4; artículo 13.3 de la LACI dispone que; artículo 13
 
 remitido las partes a su reglamento para el proceso arbitral. Pero también pueden
 las partes optar por un arbitraje ad hoc, es decir, sin un centro de arbitraje que les
@@ -7049,12 +7410,13 @@ afectado por la negativa del árbitro de declarar su inhabilidad. El artículo 1
       acordado por las partes o en los términos del numeral 2) [del artículo
       13], la parte recusante podrá pedir, dentro de los treinta días siguientes
 
-
-## 118 Los casos de implicancia se entienden incorporados al concepto genérico de
-
-recusación.
-
 ## 119 En arbitraje comercial internacional, a diferencia del doméstico, a falta de
+
+**Definición Canónica:** estipulación serán tres los compromisarios. Cuando hablamos del tribunal arbitral
+como órgano competente para conocer de la recusación nos referimos a los tres
+miembros del tribunal, incluido el sujeto de recusación. Por cierto, si fuera un tribunal unipersonal, será el propio árbitro recusado quien determine si procede o no
+su inhabilidad.
+**Concordancias Legales:** artículo 34; artículo 1520 del Código de procedimiento civil francés.122 Seg
 
 estipulación serán tres los compromisarios. Cuando hablamos del tribunal arbitral
 como órgano competente para conocer de la recusación nos referimos a los tres
@@ -7118,8 +7480,15 @@ cuotas— y fundamentar que su rechazo se debía a que no contaba con
 facultades de amigable componedor, excedió su mandato. Esto porque
 trajo al debate motivos que no fueron invocados por las partes ni discutido con ellas. Esto, a su juicio, vulneraría el principio de contradicción.
 
-
 ## 120 Corte de Apelaciones de París, 19 de octubre de 2021, Pôle 5-Ch.16, Société
+
+**Definición Canónica:** Magpower Soluçoes de energía et autro c/ SAS Heliotrop. Sentencia en recurso de
+anulación (rechazado). Nota de comentario al fallo en Weiller, 2022.
+  121 El orden público que, según la mayoría de los tratadistas, es de difícil determinación, incluye en el arbitraje aspectos sustantivos y procesales. Entre estos últimos,
+la protección de garantías del debido proceso, por ejemplo. Eso sí, ante un arbitraje
+internacional, algunas jurisdicciones procuran no confundir sus normas de orden
+público internas con aquellas que tienen una vocación internacional, pues consideran que los laudos dictados en
+**Concordancias Legales:** artículo 34; Artículo 1520
 
 Magpower Soluçoes de energía et autro c/ SAS Heliotrop. Sentencia en recurso de
 anulación (rechazado). Nota de comentario al fallo en Weiller, 2022.
@@ -7152,28 +7521,36 @@ Apelaciones de París, más que entrar al fondo de la decisión contenida
 en el laudo, cuestión que, como se ha dicho, está vedada a los jueces de
 la anulación,124 revisó los comportamientos procesales de la parte recurrente durante el juicio. Primero recuerda que:
 
-
 ## 43. Sin embargo, el control que ejerce el juez de la anulación para la de-
 
-      fensa del orden público internacional se limita solamente a examinar si
+**Definición Canónica:** fensa del orden público internacional se limita solamente a examinar si
+      la ejecución de las resoluciones adoptadas por el tribunal arbitral afecta
+      de manera manifiesta, efectiva y concreta los principios y valores com-
+      prendidos dentro del orden público internacional.
+
+fensa del orden público internacional se limita solamente a examinar si
       la ejecución de las resoluciones adoptadas por el tribunal arbitral afecta
       de manera manifiesta, efectiva y concreta los principios y valores com-
       prendidos dentro del orden público internacional.
 
 ## 44. En la especie, de una parte, tratándose de la violación del orden pú-
 
-      blico internacional por no haberse respetado el principio contradictorio,
+**Definición Canónica:** blico internacional por no haberse respetado el principio contradictorio,
       aparece del laudo recurrido que el tribunal ya resolvió sobre la petición
       de reprogramación de la audiencia y que la rechazó por una decisión
       exenta de críticas y que la Corte ha, por los motivos antes expresados,
       ya rechazado como causal de nulidad por violación del contradictorio,
 
-
-## 123 Se fundó en la causal 5 del artículo 1520: que «el reconocimiento o la ejecución
-
-del laudo son contrarios al orden público internacional».
+blico internacional por no haberse respetado el principio contradictorio,
+      aparece del laudo recurrido que el tribunal ya resolvió sobre la petición
+      de reprogramación de la audiencia y que la rechazó por una decisión
+      exenta de críticas y que la Corte ha, por los motivos antes expresados,
+      ya rechazado como causal de nulidad por violación del contradictorio,
 
 ## 124 Es preciso advertir a los y las lectoras que en un recurso de anulación los
+
+**Definición Canónica:** jueces del control no pueden calificar los fundamentos del laudo arbitral. Se deben
+limitar a verificar si concurre alguna de las causales establecidas en la ley.
 
 jueces del control no pueden calificar los fundamentos del laudo arbitral. Se deben
 limitar a verificar si concurre alguna de las causales establecidas en la ley.
@@ -7183,27 +7560,39 @@ limitar a verificar si concurre alguna de las causales establecidas en la ley.
 
 ## 45. Las sociedades Magpower confunden la violación al derecho a de-
 
-      fensa con el desconocimiento de la igualdad de armas, al afirmar que
+**Definición Canónica:** fensa con el desconocimiento de la igualdad de armas, al afirmar que
+      llevar a cabo una audiencia con la sola presencia de la demandada y de
+      su testigo, el árbitro único ha manifiestamente roto la igualdad de armas,
+      viola el derecho a defensa y, por tanto, el orden público internacional.
+
+fensa con el desconocimiento de la igualdad de armas, al afirmar que
       llevar a cabo una audiencia con la sola presencia de la demandada y de
       su testigo, el árbitro único ha manifiestamente roto la igualdad de armas,
       viola el derecho a defensa y, por tanto, el orden público internacional.
 
 ## 46. La igualdad de armas, que constituye un elemento del proceso
 
-      equitativo y que está protegida por el orden público internacional, im-
+**Definición Canónica:** equitativo y que está protegida por el orden público internacional, im-
       plica la obligación de ofrecer a cada parte una posibilidad razonable de
       presentar su caso —comprendiendo en él su evidencia— en condicio-
       nes que no la ubiquen en una situación sustancialmente desventajosa en
       comparación con su adversario.
 
-## 47. De otro lado, el principio de igualdad de armas que surge del orden
-
-      público internacional de protección admite que las partes puedan re-
-      nunciar a sus beneficios.
+equitativo y que está protegida por el orden público internacional, im-
+      plica la obligación de ofrecer a cada parte una posibilidad razonable de
+      presentar su caso —comprendiendo en él su evidencia— en condicio-
+      nes que no la ubiquen en una situación sustancialmente desventajosa en
+      comparación con su adversario.
 
 ## 48. En la especie, no resulta de la sentencia impugnada que las socie-
 
-      dades Magpower se hayan encontrado en una situación sustancialmente
+**Definición Canónica:** dades Magpower se hayan encontrado en una situación sustancialmente
+      desventajosas en relación con la sociedad Héliotrop, desde que el árbitro
+      consideró, por motivos exentos de crítica, que ellas mismas se pusieron,
+      de manera deliberada, en situación de no poder asistir a la audiencia.
+**Concordancias Legales:** artículo 34 de la LACI; artículo 4
+
+dades Magpower se hayan encontrado en una situación sustancialmente
       desventajosas en relación con la sociedad Héliotrop, desde que el árbitro
       consideró, por motivos exentos de crítica, que ellas mismas se pusieron,
       de manera deliberada, en situación de no poder asistir a la audiencia.
@@ -7239,8 +7628,11 @@ expresa y en otro no.
 
 Materiales Docentes                                                  Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** El debido proceso en los procedimientos
+administrativos
+**Concordancias Legales:** artículo 3 de la Ley 19.880 de Bases de los Procedimientos Adm; artículo 117 del Decreto con Fuerza de Ley número 1; artículo 76 de la Constitu; artículo 76 de la Carta Fundamental; artículo 19; Ley 19.880; Constitución Política; Constitución
 
 El debido proceso en los procedimientos
 administrativos
@@ -7343,8 +7735,10 @@ la función jurisdiccional.
 para la nueva Constitución, en particular en su 103.ª sesión, dejó establecido que por «todo órgano que ejerza jurisdicción» debía entenderse
 a «todo órgano que resuelva una controversia en el orden temporal, o
 
-
 ## 1 Sentencia Corte Suprema de 12 de noviembre 2019, ingreso rol 18.587-2019 y
+
+**Definición Canónica:** Sentencia Corte Suprema de 30 de noviembre de 2021, ingreso rol 60.526-2021, ambas pronunciadas como tribunal de apelación en acción de protección.
+**Concordancias Legales:** artículo 19; artículos 19; artículo 76; artículos 6; artículo 7; Ley 18.575; Constitución; Constitucion; Constitución Política
 
 Sentencia Corte Suprema de 30 de noviembre de 2021, ingreso rol 60.526-2021, ambas pronunciadas como tribunal de apelación en acción de protección.
 
@@ -7415,6 +7809,9 @@ investigación racionales y justos. La Ley 18.575 Orgánica Constitucional
 
 ## 5 Porque, como se lee, no usa esa misma expresión, sino que habla de garantías de
 
+**Definición Canónica:** un procedimiento e investigación racionales y justos.
+**Concordancias Legales:** artículo 2; artículo 3; artículo 10 de la Ley 18.575 expresa que los actos administrati; artículo 18; artículo 20 de la CPR; Ley 18.575; Ley 19.880
+
 un procedimiento e investigación racionales y justos.
 
 Materiales Docentes                                                   Capítulo 6
@@ -7445,8 +7842,10 @@ acto y, por cierto, el respeto al debido proceso que en ellos debe imperar.
    Hacemos mención particular a la acción o recurso de protección,
 puesto que es expresión del derecho al recurso contemplado en el artí-
 
-
 ## 6 DFL número 1/19.563, que fija texto refundido, coordinado y sistematizado de
+
+**Definición Canónica:** la Ley 18.575.
+**Concordancias Legales:** artículo 20 de la CPR; artículos 8; Ley 18.575; Ley 19.880
 
 la Ley 18.575.
 
@@ -7469,10 +7868,17 @@ fuera, resulta al menos dudosa la verdadera independencia e imparcialidad del ó
 caso Baena Ricardo y otros con Panamá que las normas contenidas en
 los artículos 8 y 25 de la CADH son aplicables a las decisiones de la administración que afectan derechos individuales:
 
-
 ## 124. Si bien el artículo 8 de la Convención Americana se titula «Garan-
 
-      tías Judiciales», su aplicación no se limita a los recursos judiciales en
+**Definición Canónica:** tías Judiciales», su aplicación no se limita a los recursos judiciales en
+      sentido estricto, «sino [al] conjunto de requisitos que deben observarse
+      en las instancias procesales» a efectos de que las personas estén en con-
+      diciones de defender adecuadamente sus derechos ante cualquier tipo
+      de acto del Estado que pueda afectarlos. Es decir, cualquier actuación u
+      omisión de los órganos estatales dentro de un proceso, sea administrati-
+      vo sancionatorio o jurisdiccional, debe respetar el debido proceso legal.
+
+tías Judiciales», su aplicación no se limita a los recursos judiciales en
       sentido estricto, «sino [al] conjunto de requisitos que deben observarse
       en las instancias procesales» a efectos de que las personas estén en con-
       diciones de defender adecuadamente sus derechos ante cualquier tipo
@@ -7482,7 +7888,15 @@ los artículos 8 y 25 de la CADH son aplicables a las decisiones de la administr
 
 ## 125. La Corte observa que el elenco de garantías mínimas establecido en
 
-      el numeral 2 del artículo 8 de la Convención se aplica a los órdenes men-
+**Definición Canónica:** el numeral 2 del artículo 8 de la Convención se aplica a los órdenes men-
+      cionados en el numeral 1 del mismo artículo, o sea, la determinación de
+      derechos y obligaciones de orden «civil, laboral, fiscal o de cualquier otro
+      carácter». Esto revela el amplio alcance del debido proceso; el individuo
+      tiene el derecho al debido proceso entendido en los términos del artículo
+      8.1 y 8.2, tanto en materia penal como en todos estos otros órdenes.
+**Concordancias Legales:** artículo 8 de la Convención se aplica a los órdenes men; artículo 8.1
+
+el numeral 2 del artículo 8 de la Convención se aplica a los órdenes men-
       cionados en el numeral 1 del mismo artículo, o sea, la determinación de
       derechos y obligaciones de orden «civil, laboral, fiscal o de cualquier otro
       carácter». Esto revela el amplio alcance del debido proceso; el individuo
@@ -7491,7 +7905,10 @@ los artículos 8 y 25 de la CADH son aplicables a las decisiones de la administr
 
 ## 126. En cualquier materia, inclusive en la laboral y la administrativa, la
 
-      discrecionalidad de la administración tiene límites infranqueables, sien-
+**Definición Canónica:** discrecionalidad de la administración tiene límites infranqueables, sien-
+      do uno de ellos el respeto de los derechos humanos. Es importante que
+
+discrecionalidad de la administración tiene límites infranqueables, sien-
       do uno de ellos el respeto de los derechos humanos. Es importante que
 
       la actuación de la administración se encuentre regulada, y esta no puede
@@ -7502,14 +7919,27 @@ los artículos 8 y 25 de la CADH son aplicables a las decisiones de la administr
 
 ## 127. Es un derecho humano el obtener todas las garantías que permi-
 
-      tan alcanzar decisiones justas, no estando la administración excluida de
+**Definición Canónica:** tan alcanzar decisiones justas, no estando la administración excluida de
+      cumplir con este deber. Las garantías mínimas deben respetarse en el
+      procedimiento administrativo y en cualquier otro procedimiento cuya
+      decisión pueda afectar los derechos de las personas.
+
+tan alcanzar decisiones justas, no estando la administración excluida de
       cumplir con este deber. Las garantías mínimas deben respetarse en el
       procedimiento administrativo y en cualquier otro procedimiento cuya
       decisión pueda afectar los derechos de las personas.
 
 ## 128. La Corte Europea se ha pronunciado sobre este tema, señalando
 
-      que:
+**Definición Canónica:** que:
+       Los principios enunciados en el párrafo 2 (artículo 6-2) y 3 (a saber, los
+      incisos a, b y d) [de la Convención Europea de Derechos Humanos], se
+      aplican mutatis mutandis a los procesos disciplinarios a los que se refiere
+      el inciso 1 (artículo 6-1) de la misma forma en que se aplican a los casos
+      en que una persona es acusada por una infracción de carácter penal.
+**Concordancias Legales:** artículo 6
+
+que:
        Los principios enunciados en el párrafo 2 (artículo 6-2) y 3 (a saber, los
       incisos a, b y d) [de la Convención Europea de Derechos Humanos], se
       aplican mutatis mutandis a los procesos disciplinarios a los que se refiere
@@ -7518,7 +7948,16 @@ los artículos 8 y 25 de la CADH son aplicables a las decisiones de la administr
 
 ## 129. La justicia, realizada a través del debido proceso legal, como ver-
 
-      dadero valor jurídicamente protegido, se debe garantizar en todo pro-
+**Definición Canónica:** dadero valor jurídicamente protegido, se debe garantizar en todo pro-
+      ceso disciplinario, y los Estados no pueden sustraerse de esta obligación
+      argumentando que no se aplican las debidas garantías del artículo 8 de
+      la Convención Americana en el caso de sanciones disciplinarias y no pe-
+      nales. Permitirle a los Estados dicha interpretación equivaldría a dejar
+      a su libre voluntad la aplicación o no del derecho de toda persona a un
+      debido proceso.
+**Concordancias Legales:** artículo 8
+
+dadero valor jurídicamente protegido, se debe garantizar en todo pro-
       ceso disciplinario, y los Estados no pueden sustraerse de esta obligación
       argumentando que no se aplican las debidas garantías del artículo 8 de
       la Convención Americana en el caso de sanciones disciplinarias y no pe-
@@ -7528,7 +7967,14 @@ los artículos 8 y 25 de la CADH son aplicables a las decisiones de la administr
 
 ## 130. Los directores generales y las juntas directivas de las empresas
 
-      estatales no son jueces o tribunales en un sentido estricto; sin embargo,
+**Definición Canónica:** estatales no son jueces o tribunales en un sentido estricto; sin embargo,
+      en el presente caso las decisiones adoptadas por ellos afectaron dere-
+      chos de los trabajadores, por lo que resultaba indispensable que dichas
+      autoridades cumplieran con lo estipulado en el artículo 8 de la Con-
+      vención.
+**Concordancias Legales:** artículo 8 de la Con
+
+estatales no son jueces o tribunales en un sentido estricto; sin embargo,
       en el presente caso las decisiones adoptadas por ellos afectaron dere-
       chos de los trabajadores, por lo que resultaba indispensable que dichas
       autoridades cumplieran con lo estipulado en el artículo 8 de la Con-
@@ -7536,7 +7982,16 @@ los artículos 8 y 25 de la CADH son aplicables a las decisiones de la administr
 
 ## 131. Pese a que el Estado alegó que en Panamá no existía carrera admi-
 
-      nistrativa al momento de los hechos del caso (diciembre de 1990) y que,
+**Definición Canónica:** nistrativa al momento de los hechos del caso (diciembre de 1990) y que,
+      en consecuencia, regía la discrecionalidad administrativa con base en la
+      cual se permitía el libre nombramiento y remoción de los funcionarios
+      públicos, este tribunal considera que en cualquier circunstancia en que
+      se imponga una sanción administrativa a un trabajador debe resguar-
+      darse el debido proceso legal. Al respecto es importante distinguir entre
+      las facultades discrecionales de que podrían disponer los gobiernos para
+      remover personal en función estricta de las necesidades 
+
+nistrativa al momento de los hechos del caso (diciembre de 1990) y que,
       en consecuencia, regía la discrecionalidad administrativa con base en la
       cual se permitía el libre nombramiento y remoción de los funcionarios
       públicos, este tribunal considera que en cualquier circunstancia en que
@@ -7552,7 +8007,15 @@ Materiales Docentes                                                    Capítulo
 
 ## 132. En el caso en estudio, el acto administrativo sancionatorio es el
 
-      contenido en la nota de despido entregada a los 270 trabajadores de las
+**Definición Canónica:** contenido en la nota de despido entregada a los 270 trabajadores de las
+      siguientes instituciones estatales: Autoridad Portuaria Nacional, Em-
+      presa Estatal de Cemento Bayano, Instituto Nacional de Telecomunica-
+      ciones, Instituto Nacional de Recursos Naturales Renovables, Instituto
+      de Acueductos y Alcantarillados Nacionales, Instituto de Recursos Hi-
+      dráulicos y Electrificación, Ministerio de Obras Públicas y Ministerio
+      de Educación.
+
+contenido en la nota de despido entregada a los 270 trabajadores de las
       siguientes instituciones estatales: Autoridad Portuaria Nacional, Em-
       presa Estatal de Cemento Bayano, Instituto Nacional de Telecomunica-
       ciones, Instituto Nacional de Recursos Naturales Renovables, Instituto
@@ -7562,7 +8025,16 @@ Materiales Docentes                                                    Capítulo
 
 ## 133. Las víctimas de esta causa no fueron sometidas a un procedimiento
 
-      administrativo previo a la sanción de destitución. El presidente de la Re-
+**Definición Canónica:** administrativo previo a la sanción de destitución. El presidente de la Re-
+      pública determinó que había una vinculación entre el paro de labores de
+      los trabajadores estatales y el movimiento del coronel Eduardo Herrera
+      Hassán y, con base en ello, ordenó que se despidiese a los trabajadores
+      que habían participado en dicho paro, presumiéndose su culpabilidad.
+      Incluso, la forma utilizada para determinar quiénes habían participado
+      en la organización, llamado o ejecución del paro nacional efectuado el 5
+      de diciembre de 1990, esto es, la identificación del in
+
+administrativo previo a la sanción de destitución. El presidente de la Re-
       pública determinó que había una vinculación entre el paro de labores de
       los trabajadores estatales y el movimiento del coronel Eduardo Herrera
       Hassán y, con base en ello, ordenó que se despidiese a los trabajadores
@@ -7584,7 +8056,15 @@ Materiales Docentes                                                    Capítulo
 
 ## 134. No escapa a la Corte que los despidos, efectuados sin las garantías
 
-      del artículo 8 de la Convención, tuvieron graves consecuencias socioe-
+**Definición Canónica:** del artículo 8 de la Convención, tuvieron graves consecuencias socioe-
+      conómicas para las personas despedidas y sus familiares y dependientes,
+      tales como la pérdida de ingresos y la disminución del patrón de vida.
+      No cabe duda que, al aplicar una sanción con tan graves consecuencias,
+      el Estado debió garantizar al trabajador un debido proceso con las ga-
+      rantías contempladas en la Convención Americana.
+**Concordancias Legales:** artículo 8 de la Convención; artículo 1 de la CPR le consagra al Estado; artículo 76 de la Constitución Política de la República; artículo 11 de la Ley 19.880. Su inciso primero dispone que; artículo 12; Ley 19.880; Constitución Política
+
+del artículo 8 de la Convención, tuvieron graves consecuencias socioe-
       conómicas para las personas despedidas y sus familiares y dependientes,
       tales como la pérdida de ingresos y la disminución del patrón de vida.
       No cabe duda que, al aplicar una sanción con tan graves consecuencias,
@@ -7657,6 +8137,14 @@ supuestos de conflictos de interés que señala la norma.
  7 Sentencia Corte Suprema de 10 de enero de 2023, apelación en recurso de protección, rol de ingreso número 48.834-2022. Disponible en https://bit.ly/3QKRBl0.
 
 ## 8 El artículo 1 de la Ley 20.880 sobre Probidad en la Función Pública y Prevención
+
+**Definición Canónica:** de los Conflictos de Intereses dispone que «el principio de probidad en la función
+pública consiste en observar una conducta funcionaria intachable, un desempeño
+honesto y leal de la función o cargo con preeminencia del interés general sobre el
+particular» (inciso segundo). Luego agrega que «existe conflicto de intereses en el
+ejercicio de la función pública cuando concurren a la vez el interés general propio
+del ejercicio de las funciones con un interés particular, sea o no de carácter económico, de quien ejerce dichas funciones o de los terceros vinculados a él determinados por la ley, o cua
+**Concordancias Legales:** artículos 11; artículo 19; artículo 11 de la Ley 19.880; artículo 6 de la Constitución Políti; artículo 18; artículo 17; artículo 36 de la Ley 19.880; artículo 1; artículo 141; artículo 138 del Estatuto aludido y lo señalado en el di; artículo 137; artículo 10 de la Ley 19.880; artículo 11 de la Ley de Bases de los Procedimientos Administra; artículo 41; Ley 19.880; Ley 20.880; Ley 18.575; Constitución; constitucion; Constitución Política
 
 de los Conflictos de Intereses dispone que «el principio de probidad en la función
 pública consiste en observar una conducta funcionaria intachable, un desempeño
@@ -7864,6 +8352,16 @@ existen actos u omisiones de la administración exentos de control por
 
 ## parte de tribunales». Ello se reafirma por el texto expreso del artículo
 
+**Definición Canónica:** 38 de la CPR, según el cual «cualquier persona que sea lesionada en sus
+derechos por la administración del Estado, de sus organismos o de las
+municipalidades, podrá reclamar ante los tribunales que determine la
+ley, sin perjuicio de la responsabilidad que pudiera afectar al funcionario que hubiere causado el daño». La regla se replica en los artículos 4
+y 10 de la LOCBGAE que establecen, respectivamente, el principio de
+responsabilidad y el derecho a interponer «las acciones jurisdiccionales
+a que haya lugar para impugnar los actos administrativos».
+   Uno de los fallos paradigmáticos en torno
+**Concordancias Legales:** artículos 4
+
 38 de la CPR, según el cual «cualquier persona que sea lesionada en sus
 derechos por la administración del Estado, de sus organismos o de las
 municipalidades, podrá reclamar ante los tribunales que determine la
@@ -7886,8 +8384,11 @@ la presidenta de la República tenía facultades discrecionales conforme
 con las normas transitorias, estas exigían que fueran fundadas. En ese
 orden de cosas, el DS número 229 de 2016 no tenía fundamentos, porque los que se señalaron no correspondían a la realidad. Efectivamente y
 
-
 ## 9 Sentencia Corte Suprema de 26 de septiembre de 2022, de apelación en recurso de
+
+**Definición Canónica:** protección, rol de ingreso número 15.767-2022. Disponible en https://bit.ly/3skzZSJ.
+ 10 Sentencia Corte Suprema de 19 de junio de 2017, rol de ingreso número 35982017, recurso de apelación de sentencia de primera instancia en recurso de protección.
+**Concordancias Legales:** artículo 11; artículo 41; artículo 8 de la Constitución Política de la República; Ley 20.842; Ley 19.880; Constitución Política
 
 protección, rol de ingreso número 15.767-2022. Disponible en https://bit.ly/3skzZSJ.
  10 Sentencia Corte Suprema de 19 de junio de 2017, rol de ingreso número 35982017, recurso de apelación de sentencia de primera instancia en recurso de protección.
@@ -7976,7 +8477,18 @@ Materiales Docentes                                                      Capítu
 
 ## parte de la administración, toda vez que aquellos, como todo acto ad-
 
-      ministrativo, deben cumplir con las exigencias previstas en la ley, razón
+**Definición Canónica:** ministrativo, deben cumplir con las exigencias previstas en la ley, razón
+      que determina la necesidad de verificar la existencia de los elementos
+      intrínsecos de todos los actos de tal naturaleza. Tal materia, puede y
+      debe ser controlada por la judicatura en tanto exista un conflicto que ha
+      sido puesto en su conocimiento, toda vez que la discrecionalidad no es
+      sinónimo de arbitrariedad.
+       Asentado lo anterior corresponde precisar, además, que igualmente
+      los órganos jurisdiccionales se encuentran facultados para realizar un
+      control de los actos que t
+**Concordancias Legales:** artículo 8 de la Constitución consagra el principio de publici; artículos 3; artículo 3; artículo 4; artículo 16 de la Ley 19.880. Luego; artículo 41; artículo 4 de la Ley 19.880 explicita como principios del proc; artículo 7; artículo 8; artículo 24; artículo 27 de la Ley 19.880 impone el marco temporal en el que; artículo 25; artículo 64; artículo 65; artículo 65 de la Ley 19.880 señala que se aplicará el silencio; artículo 19 de la Constitución Política; artículo 53; artículo 19; artículo 25 de la CADH se exigía que fuera sencillo; artículo 13 de la LBPA; artículo 15 de la LBPA como el artículo 10 de la LOCBGAE explic; artículo 15 de la LBPA junto con establecer los recursos de rep; artículo 60 de la LBPA y que; Ley 20.842; Ley 20.285; Ley 19.880; constitucion; Constitución; Constitución Política
+
+ministrativo, deben cumplir con las exigencias previstas en la ley, razón
       que determina la necesidad de verificar la existencia de los elementos
       intrínsecos de todos los actos de tal naturaleza. Tal materia, puede y
       debe ser controlada por la judicatura en tanto exista un conflicto que ha
@@ -8253,19 +8765,28 @@ lo hubiere o, en su defecto, ante la autoridad que lo hubiere dictado.
 
 ## 2. Que, al dictarlo, se hubiere incurrido en manifiesto error de hecho
 
-       y que este haya sido determinante para la decisión adoptada, o
+**Definición Canónica:** y que este haya sido determinante para la decisión adoptada, o
        que aparecieren documentos de valor esencial para la resolución
        del asunto, ignorados al dictarse el acto o que no haya sido posible
        acompañarlos al expediente administrativo en aquel momento.
 
-## 3. Que por sentencia ejecutoriada se haya declarado que el acto se
-
-       dictó como consecuencia de prevaricación, cohecho, violencia u
-       otra maquinación fraudulenta.
+y que este haya sido determinante para la decisión adoptada, o
+       que aparecieren documentos de valor esencial para la resolución
+       del asunto, ignorados al dictarse el acto o que no haya sido posible
+       acompañarlos al expediente administrativo en aquel momento.
 
 ## 4. Que en la resolución hayan influido de modo esencial documentos
 
-       o testimonios declarados falsos por sentencia ejecutoriada poste-
+**Definición Canónica:** o testimonios declarados falsos por sentencia ejecutoriada poste-
+       rior a aquella resolución o que, siendo anterior, no hubiese sido
+       conocida oportunamente por el interesado.
+   Ahora bien, tampoco los plazos son tan amplios por cuanto debe interponerse en un año desde el día en que se dictó la resolución, para las
+causales de las letras a) y b) anteriores y, en el caso de las otras dos, desde
+que quedó ejecutoriada.
+   Pero, como se ha dicho, en cualquier caso los actos de la administración, inclusive los terminales, están sujetos a control de los tribunales de
+justicia, los que 
+
+o testimonios declarados falsos por sentencia ejecutoriada poste-
        rior a aquella resolución o que, siendo anterior, no hubiese sido
        conocida oportunamente por el interesado.
    Ahora bien, tampoco los plazos son tan amplios por cuanto debe interponerse en un año desde el día en que se dictó la resolución, para las
@@ -8276,8 +8797,9 @@ justicia, los que deberán revisar tanto la legalidad como los fundamentos y res
 
 Materiales Docentes                                                        Capítulo 7
 
-
 ## Capítulo 7
+
+**Definición Canónica:** El debido proceso en los procedimientos penales
 
 El debido proceso en los procedimientos penales
 
@@ -8296,8 +8818,13 @@ ejemplo—1 o que esa vulneración está autorizada por el ordenamiento
 y, por ende, igualmente es aprovechable la evidencia obtenida de ella en
 el proceso penal.
 
-
 ## 1 Por esta solución se inclina la sentencia Corte Suprema rol 36787-2015, de 14 de
+
+**Definición Canónica:** septiembre de 2017, al señalar que «diligencias intrusivas como la entrada y registro
+a un lugar cerrado, que naturalmente implican la afectación de resguardos constitucionales como la intimidad y la inviolabilidad del hogar, no podrán estimarse
+conculcadas si en su práctica se han respetado las formas que la ley ha introducido
+en pos de una real persecución penal que respete tales prerrogativas esenciales».
+**Concordancias Legales:** artículo 19; constitucion; Constitución
 
 septiembre de 2017, al señalar que «diligencias intrusivas como la entrada y registro
 a un lugar cerrado, que naturalmente implican la afectación de resguardos constitucionales como la intimidad y la inviolabilidad del hogar, no podrán estimarse
@@ -8329,19 +8856,21 @@ de 30 de octubre de 2019:
       dad en el esclarecimiento de los sucesos y el castigo de los delitos, como
       también la absolución del inocente.4
 
-
-## 2 Al respecto, ver sentencia Tribunal Constitucional rol 2026-2011, de 14 de agosto
-
-de 2012; sentencia Tribunal Constitucional rol 2510-2013, de 7 de enero de 2014; y,
-sentencia Tribunal Constitucional rol 4103-2017, de 23 de julio de 2019.
-
 ## 3 En sentencia Corte Suprema rol 26838-2015, de 12 de enero de 2016, se declara
+
+**Definición Canónica:** que «la exigencia del debido proceso supone que cada autoridad actúe dentro de los
+límites de sus propias atribuciones, como lo señalan los artículos 6 y 7 de la Constitución Política de la República». También sentencia Corte Suprema rol 20033-2016, de
+18 de mayo de 2016 y sentencia Corte Suprema rol 35555-2016, de 1 de agosto de 2016.
+**Concordancias Legales:** artículos 6; Constitución Política
 
 que «la exigencia del debido proceso supone que cada autoridad actúe dentro de los
 límites de sus propias atribuciones, como lo señalan los artículos 6 y 7 de la Constitución Política de la República». También sentencia Corte Suprema rol 20033-2016, de
 18 de mayo de 2016 y sentencia Corte Suprema rol 35555-2016, de 1 de agosto de 2016.
 
 ## 4 Asimismo, en sentencia Corte Suprema rol 24229-2019, de 30 de octubre de
+
+**Definición Canónica:** 2019.
+**Concordancias Legales:** artículo 19; artículo 41 de la Ley 20.000 para entregar aquella al servicio; artículo 227 del CPP. Se discurre; Ley 20.000; Constitución; constitucion
 
 2019.
 
@@ -8447,8 +8976,9 @@ trate (Rainier, Martínez y Zúñiga, 2012: 86).
    Como ya vimos, el principio de proporcionalidad examina la relación
 entre una medida de la autoridad, adoptada en el ámbito de sus facultades, gravosa para sus destinatarios; y la finalidad perseguida por esa
 
-
 ## 6 Mismo criterio se sigue en sentencia Corte Suprema rol 60655-2021, de 7 de
+
+**Definición Canónica:** octubre de 2022.
 
 octubre de 2022.
 
@@ -8466,17 +8996,20 @@ de garantía al decidir si la autoriza.
 intrusivas y de medidas cautelares deben satisfacer copulativamente tres
 requisitos:
 
-## 1. Idoneidad, consistente en la adecuación de la diligencia o medida
-
-      para alcanzar el objetivo pretendido.
-
-## 2. Necesidad, que pondera si la diligencia o medida son sustituibles
-
-      por otras menos lesivas.
-
 ## 3. Proporcionalidad en sentido estricto. Es decir, que en un juicio
 
-      de ponderación se considera la gravedad del delito investigado y
+**Definición Canónica:** de ponderación se considera la gravedad del delito investigado y
+      el interés público en su persecución y sanción, en relación con la
+      magnitud de la afectación al derecho que ocasionará la diligencia
+      o medida.
+    De ese modo, como señala Alexy (2002b: 50 y 51) si «la intensidad de
+la intervención es leve “para las recurrentes” y el grado de importancia
+de la razón que justifica la intervención como grave, es fácil derivar el
+resultado. La razón para la intervención, que tiene un peso intenso, justifica la intervención leve».
+    El Tribunal Constitucional Federal alemán consid
+**Concordancias Legales:** Constitucion
+
+de ponderación se considera la gravedad del delito investigado y
       el interés público en su persecución y sanción, en relación con la
       magnitud de la afectación al derecho que ocasionará la diligencia
       o medida.
@@ -8490,8 +9023,10 @@ la libertad de las personas. Se trata de una consecuencia de la dimensión
 objetiva de los derechos fundamentales, que conlleva el deber del legislador (y de otros órganos del Estado) de proteger activamente los valores
 protegidos por estos. El legislador es obligado a cumplir este deber es-
 
-
 ## 7 También sobre este principio, véase Horvitz y López (2002: 353 y 354) y en lo
+
+**Definición Canónica:** referido a medidas cautelares, Duce y Riego (2009: 266).
+**Concordancias Legales:** artículo 205 del Código Procesal Penal condiciona el procedimi; artículo 206 del CPP cuya conveniencia; artículo 206 del CPP solo a aquellas en que la demora de solic; artículo 9 del CPP
 
 referido a medidas cautelares, Duce y Riego (2009: 266).
 
@@ -8551,8 +9086,16 @@ como permite el inciso tercero del artículo 9 del CPP—, pueda significar un p
 también para al éxito de la investigación, por la destrucción de efectos o
 instrumentos del delito o por la fuga del autor.10
 
-
 ## 8 Rodríguez agrega que de incluirse la entrada y registro a lugar cerrado con
+
+**Definición Canónica:** autorización del dueño o encargado como «diligencia inmediata» que puede disponerse anticipadamente mediante instrucciones generales del ministerio público
+de conformidad al artículo 87 del CPP, en aquellas instrucciones deben entregarse
+criterios claros, precisos y restrictivos sobre los supuestos en que proceda efectuar
+esa petición, como la gravedad del delito, el soporte de la denuncia y la necesidad
+de evitar la pérdida de evidencia, objetos o efectos del delito. Y, por otra parte, debe
+condicionarse a la imposibilidad de recabar la oportuna directriz de la fiscalía y a la
+urgencia de lle
+**Concordancias Legales:** artículo 87 del CPP
 
 autorización del dueño o encargado como «diligencia inmediata» que puede disponerse anticipadamente mediante instrucciones generales del ministerio público
 de conformidad al artículo 87 del CPP, en aquellas instrucciones deben entregarse
@@ -8563,11 +9106,13 @@ condicionarse a la imposibilidad de recabar la oportuna directriz de la fiscalí
 urgencia de llevarla a cabo, de manera de priorizar y mantener la operatividad de su
 examen previo.
 
-## 9 Concuerda, Molina (2010: 141) y así se reconoce en sentencia Corte Suprema rol
-
-30582-2020, de 25 de mayo de 2020.
-
 ## 10 A esta pauta se ajustó el actuar policial en el caso conocido en sentencia Corte
+
+**Definición Canónica:** Suprema rol 69773-2020, de 15 de julio de 2020, en el que los funcionarios observan
+desde la vía pública que se mantenían plantas de marihuana en proceso de secado y,
+al no obtener respuesta de los ocupantes, resguardan el lugar e informan a la fiscalía,
+la que recaba la respectiva orden de entrada y registro del órgano jurisdiccional.
+**Concordancias Legales:** artículos 124; artículo 122 del CPP; artículo 155
 
 Suprema rol 69773-2020, de 15 de julio de 2020, en el que los funcionarios observan
 desde la vía pública que se mantenían plantas de marihuana en proceso de secado y,
@@ -8592,12 +9137,15 @@ de 2016, en la que, acogiendo una acción de amparo, sustituye la prisión
 preventiva por las medidas cautelares de firma semanal ante la unidad
 policial y arraigo nacional, de conformidad con lo dispuesto en el artículo 155 letra c) y d) del CPP:
 
-## 1. Que, tal como señala el recurrente y aparece del mérito de los an-
-
-      tecedentes, el amparado Miguel Ángel Segundo fue sorprendido
-
-
 ## 11 La Ley 20.084, que establece un sistema de responsabilidad de los adolescentes
+
+**Definición Canónica:** por infracciones a la ley penal, recoge expresamente el principio en examen al señalar en su artículo 33 que «en ningún caso podrá el juez dar lugar a una medida que
+parezca desproporcionada en relación con la sanción que resulte probable de aplicar
+en caso de condena», e implícitamente también en su artículo 32 que prescribe que
+«la internación provisoria en un centro cerrado sólo será procedente tratándose de
+la imputación de las conductas que de ser cometidas por una persona mayor de
+dieciocho años constituirían crímenes, debiendo aplicarse cuando los objetivos señalados en el inciso primer
+**Concordancias Legales:** artículo 33; artículo 32; artículo 155 del Código Procesal Penal no pudieren ser alcanza; artículo 442 del Código Penal; artículo 4; artículo 50; Ley 20.000
 
 por infracciones a la ley penal, recoge expresamente el principio en examen al señalar en su artículo 33 que «en ningún caso podrá el juez dar lugar a una medida que
 parezca desproporcionada en relación con la sanción que resulte probable de aplicar
@@ -8625,7 +9173,16 @@ Materiales Docentes                                                 Capítulo 7
 
 ## 2. Que no obstante lo anterior, mediante la resolución de veintinue-
 
-      ve de septiembre pasado, la Corte de Puerto Montt le impuso a
+**Definición Canónica:** ve de septiembre pasado, la Corte de Puerto Montt le impuso a
+      Miguel Ángel Segundo la medida cautelar más gravosa, esto es,
+      la prisión preventiva, que según lo dispone el artículo 139 inciso
+      segundo del Código Procesal Penal resulta procedente cuando las
+      demás medidas cautelares personales fueren estimadas por el juez
+      como insuficientes, la que en una audiencia de revisión de medi-
+      das cautelares fue mantenida por el Juez de Garantía recurrido.
+**Concordancias Legales:** artículo 139
+
+ve de septiembre pasado, la Corte de Puerto Montt le impuso a
       Miguel Ángel Segundo la medida cautelar más gravosa, esto es,
       la prisión preventiva, que según lo dispone el artículo 139 inciso
       segundo del Código Procesal Penal resulta procedente cuando las
@@ -8635,7 +9192,15 @@ Materiales Docentes                                                 Capítulo 7
 
 ## 3. Que, considerando los argumentos esgrimidos en el fundamento
 
-      primero que antecede y el hecho que no se han entregado ante-
+**Definición Canónica:** primero que antecede y el hecho que no se han entregado ante-
+      cedentes que permitan establecer la concurrencia de la necesidad
+      de cautela, en los términos que lo exige la letra c) del artículo 140
+      del Código Procesal Penal, la mantención de la medida cautelar a
+      la que se encuentra actualmente sujeto el imputado aparece como
+      desproporcionada.
+**Concordancias Legales:** artículo 140 del Código Procesal Penal
+
+primero que antecede y el hecho que no se han entregado ante-
       cedentes que permitan establecer la concurrencia de la necesidad
       de cautela, en los términos que lo exige la letra c) del artículo 140
       del Código Procesal Penal, la mantención de la medida cautelar a
@@ -8644,7 +9209,15 @@ Materiales Docentes                                                 Capítulo 7
 
 ## 4. Que, de este modo, la decisión impugnada se aparta del mandato
 
-      legal y constitucional, lo que acarrea la arbitrariedad en la deter-
+**Definición Canónica:** legal y constitucional, lo que acarrea la arbitrariedad en la deter-
+      minación del Juez de Garantía de Chaitén de mantener la prisión
+      preventiva del amparado Miguel Ángel Segundo.
+  Finalmente, este principio está en la base del deber del tribunal de
+revisar la prisión preventiva decretada cuando su duración hubiere alcanzado la mitad de la pena privativa de libertad —que se pudiere esperar— en el evento de dictarse sentencia condenatoria, o de la que se
+hubiere impuesto existiendo recursos pendientes (artículo 152 inciso segundo del CPP).
+**Concordancias Legales:** artículo 152; constitucion
+
+legal y constitucional, lo que acarrea la arbitrariedad en la deter-
       minación del Juez de Garantía de Chaitén de mantener la prisión
       preventiva del amparado Miguel Ángel Segundo.
   Finalmente, este principio está en la base del deber del tribunal de
@@ -8687,6 +9260,9 @@ en contra de la valoración de un determinado medio de prueba debe resolverse en
 cada caso concreto, a partir de una ponderación de intereses contrapuestos.
 
 ## 13 Como explica Cammack (2013: 4 y 5), la Corte Suprema estadounidense ha
+
+**Definición Canónica:** aplicado un balancing test que sopesa los beneficios de disuasión —deterrence— obtenidos con la exclusión, contra los costos medidos en términos de pérdida de evidencia.
+**Concordancias Legales:** artículo 276; artículo 373; artículo 276 del CPP. En efecto; artículo 9 del CPP tiene un rol fundamental en nuestro siste; artículo 9 del CPP permite su adecuada interpretación para d; artículo 9; artículo 10 del CPP apunta a proteger personas que; artículo 260 del CPP; artículo 159 del CPP y siguientes; artículo 160 del CPP. Procederá la declaración de nulidad p; artículo 205 del CPP para autorizar la entrada y registro de u; artículo 220 del CPP; artículo 226 del CPP; artículo 222; Constitución; constitucion
 
 aplicado un balancing test que sopesa los beneficios de disuasión —deterrence— obtenidos con la exclusión, contra los costos medidos en términos de pérdida de evidencia.
 
@@ -8851,6 +9427,13 @@ por ejemplo—.
 
 ## 19 Refiriéndose a la orden judicial de detención, Salas (2009: 383), defiende que
 
+**Definición Canónica:** esta no puede ser objeto de un cuestionamiento ante el mismo tribunal que la dispuso u otro de su misma categoría, debiendo impugnarse a través de la acción de
+amparo del artículo 95 del CPP o del artículo 21 de la Constitución. Gajardo y Hermosilla (2021: 108) secundan la improcedencia de la revisión de los fundamentos
+por el mismo tribunal que dictó la orden. En cambio, Hoyl (2021: 164) acepta el
+control de los «fundamentos» de la orden, pero precisa que su ausencia debe subsanarse mediante la nulidad procesal. Arias (2005: 236, n. 36) derechamente incluye
+dentro de los aspectos revisables a
+**Concordancias Legales:** artículo 95 del CPP o del artículo 21 de la Constitución. Gaj; artículo 205 del CPP condiciona la autorización judicial para; artículo 127; artículo 9 del CPP. A mayor abundamiento; artículo 9 del CPP; artículo 21 de la Constitución; artículo 36 del CPP; artículo 9; artículo 85 del CPP sin algún indicio de los requeridos por d; artículo 23 de la Ley 20.000 de 2005; Ley 20.000; Constitución
+
 esta no puede ser objeto de un cuestionamiento ante el mismo tribunal que la dispuso u otro de su misma categoría, debiendo impugnarse a través de la acción de
 amparo del artículo 95 del CPP o del artículo 21 de la Constitución. Gajardo y Hermosilla (2021: 108) secundan la improcedencia de la revisión de los fundamentos
 por el mismo tribunal que dictó la orden. En cambio, Hoyl (2021: 164) acepta el
@@ -8990,15 +9573,12 @@ que no puede abrirse debate en el juicio sobre la prueba admitida por el juzgado
 de garantía en el auto de apertura, ya que dicha resolución, al encontrarse firme o
 ejecutoriada, ha adquirido autoridad de cosa juzgada.
 
-## 25 Hernández (2005: 90); Romero (2007: 25); Awad, Contreras y Schürmann
-
-(2013: 416); Correa (2018: 163); Correa (2019: 194); Alvarado (2020: 537 y ss.) y Correa (2021: 579, 580 y 582).
-
-## 26 Tavolari (2003: 151-160); Horvitz y López (2004: 197-204) y Cortés-Monroy
-
-(2018: 661-692).
-
 ## 27 Aunque, como aclara Alvarado (2020: 519), estas posiciones encontradas están
+
+**Definición Canónica:** de acuerdo sobre la posibilidad de renovar la discusión sobre la ilicitud de la prueba
+admitida y rendida en juicio oral en virtud de un examen sobre credibilidad-idoneidad del medio de prueba producido.
+ 28 Sobre las características y finalidades de este arbitrio, véase Cerda (2010: 805807).
+**Concordancias Legales:** artículo 375 del CPP; Ley 20.000; Constitucion; Constitución
 
 de acuerdo sobre la posibilidad de renovar la discusión sobre la ilicitud de la prueba
 admitida y rendida en juicio oral en virtud de un examen sobre credibilidad-idoneidad del medio de prueba producido.

@@ -13,13 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## La prenda sin desplazamiento
-
-
 ## De la ley número 20.190
 
+**Definición Canónica:** Juan Andrés Orrego Acuña 1
+**Concordancias Legales:** artículo 2489 del Código Civil; artículo 14 de la Ley número 20.190; Artículo 1; artículos 2384; Artículo 2; artículo 1443 del Código Civil; artículo 1683 del Código Civil; artículo 25; Artículo 3; artículo 30 de la Ley; Constitución
 
-                                                         Juan Andrés Orrego Acuña 1
+Juan Andrés Orrego Acuña 1
 
         Con fecha 5 de junio de 2007, se publicó en el Diario Oficial la Ley número 20.190,
 que “Introduce adecuaciones tributarias e institucionales para el fomento de la industria
@@ -128,11 +127,16 @@ importancia, además, para los efectos de la determinación del título ejecutiv
 valdrá el acreedor prendario, en el procedimiento de realización de la prenda, según lo
 veremos al revisar el artículo 30 de la Ley.
 
-## 3. La individualización o la caracterización de las cosas empeñadas. Debe existir plena
-
-claridad acerca de cuáles son las especies pignoradas, describiéndolas adecuadamente.
-
 ## 4. La suma determinada o determinable a la que se limitare la prenda o la proporción en que
+
+**Definición Canónica:** debiere caucionar diversas obligaciones, si fuere el caso. Esto es especialmente relevante,
+cuando se hubieren constituido dos o más prendas sobre una misma cosa, para garantizar a
+distintos acreedores. Se pagarán unos en pos de otros, conforme al orden de sus prendas.
+También puede ocurrir que se paguen todos simultáneamente, pero en distinta proporción,
+según lo estipulado en el contrato de prenda. En todo caso, la expresión “si fuere el caso”
+deja en claro que no resulta imperativo señalar una suma, hecho que precisamente no
+acontecerá cuando se trate de una prenda con cláusula de garantía 
+**Concordancias Legales:** Artículo 4; artículo 1; Artículo 5; artículo 7; artículo 20 de la Ley de Navegación y artículos 51 a 57 bis del; artículos 114; Artículo 6
 
 debiere caucionar diversas obligaciones, si fuere el caso. Esto es especialmente relevante,
 cuando se hubieren constituido dos o más prendas sobre una misma cosa, para garantizar a
@@ -179,6 +183,17 @@ Ley número 164, de 1991. En este caso, la prenda podrá recaer:
 i) sobre cualquier pago comprometido por el Fisco a la sociedad concesionaria a cualquier
 
 ## título en virtud del contrato de concesión; o
+
+**Definición Canónica:** ii) sobre los ingresos o flujos futuros que provengan de la explotación de la concesión.
+La prenda sólo podrá constituirse en favor de los financistas de la obra o de su operación o
+en la emisión de títulos de deuda de la sociedad emisora3.
+b. El derecho de concesión portuaria constituido al amparo de la Ley número 19.542. En
+este caso, la prenda podrá recaer:
+i) sobre los bienes muebles de la sociedad concesionaria; o
+ii) sobre los ingresos o flujos futuros de la sociedad concesionaria que provengan de la
+explotación de la concesión.
+La prenda sólo podrá constituirse para garantizar las oblig
+**Concordancias Legales:** artículo 37 de la Ley número 18.695 4. La ley número 20.190 de; artículo 43 del Decreto con Fuerza de Ley número 164; artículo 37 de la Ley número 18.695; artículo 65; artículo 61 del Decreto Ley número 1.939; artículo 59 del Decreto Ley número 1.939; artículos 7; artículo 59 del Decreto Ley 1.939; artículo 7 del Decreto con Fuerza de Ley número 382; artículo 1; artículo 32; artículo 7; artículo 20; artículos 16; artículo 19; artículo 19 de la Ley General de Servicios Sanitarios7. f. Los; artículos 55; artículo 2389 del Código Civil; artículo 1902; artículo 2389 del Código Civil sólo admite la notificación al d; artículo 1601; artículo 6; Artículo 8; Artículo 9; artículo 5; Artículo 10; artículo 977 del Código de Comercio; artículos 137; artículo 173 del Código de Comercio como; artículo 40; Artículo 11; artículo 1496 del Código Civil; Artículo 12; artículo 16; Artículo 13; artículo 2390 del Código Civil. b. La prenda que ha sido consti; artículos 1818; artículo 39; Artículo 14; artículo 2420 del Código Civil
 
 ii) sobre los ingresos o flujos futuros que provengan de la explotación de la concesión.
 La prenda sólo podrá constituirse en favor de los financistas de la obra o de su operación o
@@ -685,11 +700,13 @@ legal de retención sobre la especie prendada, en la medida que se cumplan los s
 requisitos:
 1. Cuando el contrato de arrendamiento conste en escritura pública;
 
-## 2. Que dicha escritura pública se haya otorgado con anterioridad a la correspondiente
-
-inscripción de la prenda en el Registro de Prendas sin Desplazamiento;
-
 ## 3. Que una resolución judicial declare procedente la retención; y
+
+**Definición Canónica:** 4. Que dicho decreto judicial se inscriba en el Registro de Prendas sin desplazamiento.
+        En relación al arrendador, debemos tener presente que el artículo 546 del Código de
+Procedimiento Civil dispone que “Los bienes retenidos por resolución ejecutoriada serán
+considerados, según su naturaleza, como hipotecados o constituidos en prenda para los
+**Concordancias Legales:** artículo 546 del Código de Procedimiento Civil dispone que; artículo 37; Artículo 23
 
 4. Que dicho decreto judicial se inscriba en el Registro de Prendas sin desplazamiento.
         En relación al arrendador, debemos tener presente que el artículo 546 del Código de
@@ -711,6 +728,15 @@ Ley.
         Distingue la ley dos situaciones:
 
 ## 1. Por regla general, el procedimiento aplicable para las acciones que se deduzcan, será
+
+**Definición Canónica:** aquél previsto en el Título IV, párrafo 2º, del Libro III del Código de Procedimiento Civil.
+Se trata del procedimiento aplicable en el caso “De las querellas posesorias en particular”,
+regulado en los artículos 551 a 564 del Código de Enjuiciamiento. Entre otras
+disposiciones, se establece en el aludido párrafo que presentada la querella, señalará el
+tribunal el quinto día hábil después de la notificación al querellado, para una audiencia, a la
+cual deberán concurrir las partes con sus testigos y demás medios probatorios (artículo 552,
+inciso 1º); y que, concluida la audiencia de prueba, el t
+**Concordancias Legales:** artículos 551; artículo 552; artículo 561; artículo 18; artículo 19; artículo 20; artículo 21
 
 aquél previsto en el Título IV, párrafo 2º, del Libro III del Código de Procedimiento Civil.
 Se trata del procedimiento aplicable en el caso “De las querellas posesorias en particular”,
@@ -746,8 +772,17 @@ al tribunal que lo autorice para enajenar la cosa prendada, en la forma más con
 sin previa tasación, cuando los gastos de custodia y conservación de la misma fueren
 dispendiosos.
 
-
 ## 2. Hay dos casos especiales, contemplados en los artículos 17 y 22 de la Ley que
+
+**Definición Canónica:** analizamos, a los que no se les aplica el procedimiento anteriormente reseñado:
+a. Caso previsto en el artículo 17: conforme a lo que expresamos al revisar dicho artículo,
+de haberse enajenado la cosa pignorada infringiendo la prohibición de hacerlo convenida
+por las partes, el desposeimiento se efectuará conforme al artículo 35, precepto, que se
+remite a su vez a las normas del Título XVIII del Libro III del Código de Procedimiento
+Civil, esto es, el titulado “De la acción de desposeimiento contra terceros poseedores de la
+finca hipotecada o acensuada”.
+b. Situación prevista en el inciso terc
+**Concordancias Legales:** artículo 17; artículo 35; artículo 25; Artículo 24
 
 analizamos, a los que no se les aplica el procedimiento anteriormente reseñado:
 a. Caso previsto en el artículo 17: conforme a lo que expresamos al revisar dicho artículo,
@@ -768,11 +803,21 @@ prenda.
 
 ## 1. Plazo para enviar antecedentes al Servicio de Registro Civil e Identificación: el Notario
 
+**Definición Canónica:** respectivo tiene un plazo de tres días hábiles, exceptuado el sábado, contados desde la fecha
+de suscripción de la escritura pública o desde la fecha de protocolización del instrumento
+privado, en los que consten el contrato de prenda, su modificación o su alzamiento.
+
 respectivo tiene un plazo de tres días hábiles, exceptuado el sábado, contados desde la fecha
 de suscripción de la escritura pública o desde la fecha de protocolización del instrumento
 privado, en los que consten el contrato de prenda, su modificación o su alzamiento.
 
 ## 2. Antecedentes que deben enviarse en el referido plazo: el Notario deberá enviar para su
+
+**Definición Canónica:** inscripción en el Registro de Prendas sin Desplazamientos, los siguientes documentos:
+a. Una copia autorizada del contrato de prenda, de su modificación o de su alzamiento; y
+b. Una copia de los documentos en que consten las obligaciones garantizadas que se
+hubieren protocolizado en su registro, si éstas no estuvieren indicadas precisamente en el
+contrato de prenda.
 
 inscripción en el Registro de Prendas sin Desplazamientos, los siguientes documentos:
 a. Una copia autorizada del contrato de prenda, de su modificación o de su alzamiento; y
@@ -781,6 +826,15 @@ hubieren protocolizado en su registro, si éstas no estuvieren indicadas precisa
 contrato de prenda.
 
 ## 3. Forma de enviar los antecedentes: las copias de los actos o contratos deberán enviarse
+
+**Definición Canónica:** mediante soportes magnéticos o a través de comunicaciones por redes electrónicas que
+aseguren la fidelidad y seguridad de los antecedentes acompañados. Excepcionalmente,
+tratándose de notarías que no cuenten con los medios tecnológicos necesarios, el Registro
+de Prendas sin Desplazamiento podrá recibir copias físicas de los instrumentos requeridos,
+sin perjuicio de su derecho para cobrar por la digitalización de dichos documentos de
+conformidad con el inciso quinto del artículo 28 (el artículo 24, erróneamente, alude al
+inciso cuarto del artículo 28, pero la referencia correcta es al inciso qu
+**Concordancias Legales:** artículo 28; artículo 24
 
 mediante soportes magnéticos o a través de comunicaciones por redes electrónicas que
 aseguren la fidelidad y seguridad de los antecedentes acompañados. Excepcionalmente,
@@ -791,6 +845,15 @@ conformidad con el inciso quinto del artículo 28 (el artículo 24, erróneament
 inciso cuarto del artículo 28, pero la referencia correcta es al inciso quinto).
 
 ## 4. Consecuencias por el incumplimiento de las obligaciones anteriores: la omisión de las
+
+**Definición Canónica:** diligencias mencionadas, no afectará la validez del contrato de prenda ni la validez de su
+modificación o de su alzamiento, ni impedirá su anotación o inscripción, pero hará
+responsable al Notario respectivo por los daños que se originen como consecuencia de la
+omisión, sin perjuicio de la sanción disciplinaria de que pudiere ser objeto según lo
+establecido en el artículo 440, inciso 1º, del Código Orgánico de Tribunales (“El notario
+que faltare a sus obligaciones podrá ser sancionado disciplinariamente con amonestación,
+censura o suspensión, según sea la gravedad del hecho.”). En este caso, e
+**Concordancias Legales:** artículo 440; Artículo 25; artículo 890 del Código Civil; Artículo 26; constitución
 
 diligencias mencionadas, no afectará la validez del contrato de prenda ni la validez de su
 modificación o de su alzamiento, ni impedirá su anotación o inscripción, pero hará
@@ -851,6 +914,10 @@ la de su inscripción original.
 
 ## 2. En cuanto a la eliminación de la inscripción, sólo un tribunal podrá disponerla, “de
 
+**Definición Canónica:** acuerdo a las normas generales” (así, por ejemplo, porque la prenda recayó sobre una
+especie que no pertenecía al constituyente, y su dueño hace valer judicialmente la
+**Concordancias Legales:** Artículo 27; artículo 2; Artículo 28
+
 acuerdo a las normas generales” (así, por ejemplo, porque la prenda recayó sobre una
 especie que no pertenecía al constituyente, y su dueño hace valer judicialmente la
 
@@ -877,23 +944,31 @@ Justicia. Agrega el precepto que el aludido reglamento establecerá:
 
 ## 2. Los procedimientos para requerir y entregar la información contenida en el Registro; y
 
+**Definición Canónica:** 3. La organización, operación y requerimientos básicos del mismo.
+        Las inscripciones se efectuarán en el citado Registro por el Servicio de Registro
+Civil e Identificación, incorporando en éste los documentos que al efecto reciba, por
+estricto orden de presentación.
+        Si se negare una inscripción, la ley establece el siguiente procedimiento:
+
 3. La organización, operación y requerimientos básicos del mismo.
         Las inscripciones se efectuarán en el citado Registro por el Servicio de Registro
 Civil e Identificación, incorporando en éste los documentos que al efecto reciba, por
 estricto orden de presentación.
         Si se negare una inscripción, la ley establece el siguiente procedimiento:
 
-## 1. La persona perjudicada con la negativa podrá ocurrir ante el juez de primera instancia del
-
-departamento (en verdad, debiéramos entender que se refiere a la Comuna o agrupación de
-comunas respectiva).
-
-## 2. El tribunal recabará informe del Servicio de Registro Civil e Identificación (la ley señala
-
-que el tribunal debe tener a la vista “los motivos expuestos por el Servicio de Registro Civil
-e Identificación”).
-
 ## 3. El tribunal resolverá por escrito y sin más trámite lo que corresponda. Distinguimos al
+
+**Definición Canónica:** efecto:
+a. Si manda el juez hacer la inscripción: ésta tendrá la fecha y hora de la primera
+presentación al Registro;
+b. Si el juez denegare la inscripción, el decreto que así resuelva será apelable en la forma
+ordinaria.
+        El Servicio de Registro Civil e Identificación estará facultado para cobrar los
+derechos y valores de las inscripciones, anotaciones, modificaciones, cancelaciones,
+alzamientos, digitalizaciones, certificados, informes y copias de contratos de prenda que se
+efectúen u otorguen, cuyo monto, que no podrá exceder de una UTM por actuación, se
+determinará por decreto supre
+**Concordancias Legales:** artículos 29; artículo 38; Artículo 29; artículos 434; Artículo 30
 
 efecto:
 a. Si manda el juez hacer la inscripción: ésta tendrá la fecha y hora de la primera
@@ -925,6 +1000,17 @@ demanda y los efectos de dicha notificación.
 
 ## 1. Puede ocurrir que el propio contrato de prenda, sea a la vez el título ejecutivo en el cual
 
+**Definición Canónica:** el actor funda su acción, disponiendo la Ley: la escritura pública o la copia autorizada del
+instrumento privado en el que conste el contrato de prenda, protocolizado de conformidad
+con el artículo segundo de la Ley, tendrá mérito ejecutivo sin necesidad de reconocimiento
+previo, respecto de:
+a. Las obligaciones que se contraigan en dichos instrumentos; o
+b. Las obligaciones que se individualicen con precisión, en cuanto a los siguientes aspectos:
+i) Su origen;
+ii) Su monto;
+iii) Su plazo; y
+iv) El interés que devenguen.
+
 el actor funda su acción, disponiendo la Ley: la escritura pública o la copia autorizada del
 instrumento privado en el que conste el contrato de prenda, protocolizado de conformidad
 con el artículo segundo de la Ley, tendrá mérito ejecutivo sin necesidad de reconocimiento
@@ -937,6 +1023,16 @@ iii) Su plazo; y
 iv) El interés que devenguen.
 
 ## 2. Puede ocurrir que en el contrato de prenda no se indique la obligación caucionada, lo que
+
+**Definición Canónica:** acontecerá cuando estemos ante una prenda con cláusula de garantía general. En este caso,
+para proceder a la ejecución deberá acompañarse un título con mérito ejecutivo en el que
+conste dicha obligación.
+        Agrega el precepto que la notificación de la demanda ejecutiva y el requerimiento
+de pago se regirán por lo establecido en el artículo 553 del Código de Procedimiento Civil,
+que dispone: “La notificación de la querella se practicará en conformidad a lo que dispone
+el Título VI del Libro I; pero en el caso del artículo 44 se hará la notificación en la forma
+indicada en el inciso 2º de d
+**Concordancias Legales:** artículo 553 del Código de Procedimiento Civil; artículo 44; artículo 464 del Código de Procedimiento Civil; artículo 254; artículo 438; Artículo 31; Artículo 32; Artículo 33; artículo 6
 
 acontecerá cuando estemos ante una prenda con cláusula de garantía general. En este caso,
 para proceder a la ejecución deberá acompañarse un título con mérito ejecutivo en el que
@@ -1000,6 +1096,12 @@ normas:
 
 ## 1. Estos derechos sólo podrán transferirse a quien diere cumplimiento a los requisitos
 
+**Definición Canónica:** establecidos en las leyes, reglamentos y bases de licitación para ser concesionario, según
+corresponda. No estamos por ende ante una transferencia forzosa “abierta” a cualquier
+persona interesada, sino restringida a determinados interesados. Podríamos decir que nos
+encontramos ante un caso de contrato dirigido, pues el legislador señala quienes pueden
+adquirir el derecho del concesionario. Como se ha indicado por nuestra doctrina, una de las
+
 establecidos en las leyes, reglamentos y bases de licitación para ser concesionario, según
 corresponda. No estamos por ende ante una transferencia forzosa “abierta” a cualquier
 persona interesada, sino restringida a determinados interesados. Podríamos decir que nos
@@ -1011,20 +1113,24 @@ con las que se puede celebrar un contrato10.
 
 ## 2. Para los efectos anteriores, el tribunal que esté conociendo de la realización de la prenda
 
+**Definición Canónica:** oficiará a los organismos que hayan otorgado el derecho respectivo, y a los que hayan
+aprobado el otorgamiento de dicho derecho, si procediere, ordenándoles informar acerca de
+los requisitos para que pueda ser adjudicado en la subasta.
+
 oficiará a los organismos que hayan otorgado el derecho respectivo, y a los que hayan
 aprobado el otorgamiento de dicho derecho, si procediere, ordenándoles informar acerca de
 los requisitos para que pueda ser adjudicado en la subasta.
 
-## 3. Los requisitos informados por los organismos antes aludidos, se incluirán y formarán
-
-parte integrante de las bases del remate.
-
-## 4. El acta de remate deberá reducirse a escritura pública, que será firmada por el juez, el
-
-adjudicatario y los organismos respectivos dentro de un plazo de sesenta días, contados
-desde la adjudicación.
-
 ## 5. Si transcurriere el plazo de sesenta días sin que los organismos hayan suscrito la escritura
+
+**Definición Canónica:** pública, se entenderán que consienten en dicha transferencia, a menos que manifiesten su
+oposición y la notifiquen por medio de un ministro de fe al adjudicatario.
+         Lo anteriormente expuesto no se aplicará, si el acreedor prendario, en lugar de pedir
+la realización del derecho prendado, opta por proceder al embargo de las utilidades o de
+cualquier otro pago que el contrato respectivo contemple y que se encuentre prendado (el
+contrato) a su favor. Embargados estos bienes, agrega la ley, el depositario que se nombre
+tendrá las facultades y deberes de interventor judicial, de conformidad 
+**Concordancias Legales:** artículo 294 del Código de Procedimiento Civil; Artículo 35; artículo 17; Artículo 36
 
 pública, se entenderán que consienten en dicha transferencia, a menos que manifiesten su
 oposición y la notifiquen por medio de un ministro de fe al adjudicatario.
@@ -1065,11 +1171,16 @@ segunda edición actualizada, Tomo I, año 1998, pp. 163-167.
 declare la quiebra.
         Dos reglas contiene este artículo:
 
-## 1. En los juicios civiles a que se refiere este ley, no se considerará el fuero personal de los
-
-litigantes; y
-
 ## 2. No se suspenderá la tramitación de los juicios civiles a que se refiere este ley, por la
+
+**Definición Canónica:** declaración de quiebra, excepto tratándose de lo prescrito en los artículos 125 y 126 de la
+Ley número 18.175, referencia esta última que en verdad debe entenderse hecha hoy día a
+los artículos 125 y 126 del Libro IV del Código de Comercio, al que se incorporó la Ley de
+Quiebras, conforme a lo preceptuado por la Ley número 20.080, publicada en el Diario
+Oficial de fecha 20 de noviembre de 2005. Ambo artículos, corresponden al Título IX del
+Libro IV del Código de Comercio, “De la realización del activo”. En el artículo 125, que
+se refiere a lo que deben contener las bases de la enajenación como
+**Concordancias Legales:** artículos 125; artículo 125; artículo 126; Artículo 37
 
 declaración de quiebra, excepto tratándose de lo prescrito en los artículos 125 y 126 de la
 Ley número 18.175, referencia esta última que en verdad debe entenderse hecha hoy día a
@@ -1097,6 +1208,15 @@ inmuebles por adherencia o por destinación.
 
 ## 1. Quien lleva adelante la ejecución es un acreedor prendario, y existen otros acreedores
 
+**Definición Canónica:** prendarios: en este caso, conjuntamente con notificar al deudor la demanda ejecutiva y el
+requerimiento de pago, deberá notificarse a los demás acreedores prendarios que tengan
+derechos sobre el bien prendado, los cuales serán cubiertos sobre el precio del remate en el
+orden que les corresponda, independientemente que su crédito no se haya devengado (en
+este último caso, queda en claro que se producirá una causal de caducidad del plazo para el
+pago de la obligación). Puede observarse entonces que se trata de “purgar” las prendas que
+graven la especie que será subastada. Ahora bien, aunque nada
+**Concordancias Legales:** artículo 30; artículo 553 del Código de Procedimiento Civil
+
 prendarios: en este caso, conjuntamente con notificar al deudor la demanda ejecutiva y el
 requerimiento de pago, deberá notificarse a los demás acreedores prendarios que tengan
 derechos sobre el bien prendado, los cuales serán cubiertos sobre el precio del remate en el
@@ -1115,8 +1235,16 @@ manera, las notificaciones, tanto al deudor del ejecutante como a los restantes 
 prendarios, han de hacerse conforme a lo previsto en el artículo 553 del Código de
 Procedimiento Civil, al que hicimos referencia al comentar el artículo 30 de la ley.
 
-
 ## 2. Quien lleva adelante la ejecución es un acreedor hipotecario, y existen acreedores
+
+**Definición Canónica:** prendarios cuyas prendas se constituyeron sobre inmuebles por adherencia o por
+destinación: recuérdese, conforme a lo señalado en el artículo 14 de la Ley, que la prenda
+constituida sobre bienes muebles que después se transforman en inmuebles por adherencia
+o por destinación gozará de preferencia sobre la hipoteca que grave el inmueble en el que
+están puestos tales muebles, si se anotare al margen de la respectiva inscripción hipotecaria;
+y que de no hacerse dicha subinscripción, la ejecución de la hipoteca producirá la purga de
+la prenda, sin necesidad de notificar al acreedor prendario. Ahor
+**Concordancias Legales:** artículo 14 de la Ley; artículo 37; artículo 2428 del Código Civil 11; artículos 49212; artículo 492; Artículo 38; artículos 1901
 
 prendarios cuyas prendas se constituyeron sobre inmuebles por adherencia o por
 destinación: recuérdese, conforme a lo señalado en el artículo 14 de la Ley, que la prenda
@@ -1147,6 +1275,9 @@ cesión comprenda el derecho real de prenda, manteniendo la prenda la preferenci
 gozaba, en el Registro de Prendas sin Desplazamiento deben constar dos cosas:
 
 ## 1. Debe constar expresamente el crédito garantizado; y
+
+**Definición Canónica:** 2. Debe constar la posibilidad de cesión de la prenda.
+**Concordancias Legales:** artículo 2428 del Código Civil; artículo 492 del Código de Procedimiento Civil; artículo 2477 del Código Civil; artículo 762 del Código de Procedimiento Civil; artículo 492; Artículo 39; artículo 473 del Código Penal14
 
 2. Debe constar la posibilidad de cesión de la prenda.
 
@@ -1179,28 +1310,15 @@ Artículo 39. Tipos penales y sujetos susceptibles de ser sancionados penalmente
         Dispone el artículo que serán sancionados con las penas señaladas en el artículo 473
 del Código Penal14, las siguientes personas:
 
-## 1. El que defraudare a otro disponiendo de las cosas constituidas en prenda en conformidad
-
-a esta ley, sin señalar el gravamen que las afecta.
-
-## 2. El que defraudare a otro constituyendo prenda sobre bienes ajenos como propios (véase
-
-lo comentado acerca del artículo 13 de la Ley).
-
-## 3. El que defraudare a otro alzando la prenda que haya cedido: en este caso, quien alza la
-
-prenda ya no es el titular del derecho, pues éste ha sido transferido a un tercero.
-
-## 4. El deudor prendario y el que tenga en su poder la cosa constituida en prenda en
-
-conformidad a esta ley que, defraudando al acreedor prendario:
-a. La altere;
-b. La oculte;
-c. La sustituya;
-d. La traslade; o
-e. Disponga de ella.
-
 ## 5. El deudor prendario que, tratándose de prendas de créditos o de cualquier otra clase de
+
+**Definición Canónica:** derechos constituidos en prenda en conformidad a esta ley, defraudare al acreedor
+prendario:
+a. Ocasionando la pérdida de los derechos otorgados en garantía; u
+b. Ocasionando el menoscabo de los derechos otorgados en garantía.
+        Cualquiera de las conductas mencionadas en el artículo, debe ir unida al ánimo de
+defraudar al acreedor.
+**Concordancias Legales:** Artículo 40; artículo 10 de la Ley; artículo 473 del Código Penal
 
 derechos constituidos en prenda en conformidad a esta ley, defraudare al acreedor
 prendario:
@@ -1227,11 +1345,14 @@ podrá ejercerse por los aludidos beneficiarios, mientras:
 engaño que no se halle expresado en los artículos anteriores de este párrafo, será castigado con presidio o
 relegación menores en sus grados mínimos y multa de once a veinte sueldos vitales.”
 
-
-## 1. No se les reembolse lo pagado; o
-
-
 ## 2. No se les garantice con prenda sobre esos mismos bienes, lo que han pagado o se han
+
+**Definición Canónica:** obligado a pagar, según sea el caso.
+       En cualquiera de los dos casos, la garantía legal asegurará el reembolso del precio
+de las mercaderías, su transporte, los seguros, los derechos de aduana, el almacenaje y otros
+gastos en que hayan incurrido estos beneficiarios, con motivo de la operación.
+       El artículo 40 confiere dos derechos adicionales a los beneficiarios aludidos:
+**Concordancias Legales:** artículo 40
 
 obligado a pagar, según sea el caso.
        En cualquiera de los dos casos, la garantía legal asegurará el reembolso del precio
@@ -1239,12 +1360,16 @@ de las mercaderías, su transporte, los seguros, los derechos de aduana, el alma
 gastos en que hayan incurrido estos beneficiarios, con motivo de la operación.
        El artículo 40 confiere dos derechos adicionales a los beneficiarios aludidos:
 
-## 1. Tendrán la facultad de pagar, por cuenta del deudor, los gastos e impuestos, y realizar los
-
-trámites necesarios para desaduanar e internar la mercadería en el país, si ello fuere
-necesario; y
-
 ## 2. Podrán, además, obtener la realización de la mercadería retenida, para el reembolso de
+
+**Definición Canónica:** los pagos, conforme al procedimiento ejecutivo que establece la Ley número 20.190.
+       Concluye el precepto estableciendo que el deudor queda facultado para constituir la
+prenda en favor del beneficiario del documento, aun cuando según el conocimiento de
+embarque, guía área, carta de porte o documento que haga las veces de cualquiera de los
+anteriores, aparezca como dueño de ellos el acreedor, siempre que dicho deudor pueda
+acreditar que según la documentación en poder del acreedor es dicho deudor el destinatario
+de las mercaderías. Se explica lo anterior, pues usualmente en el documento en
+**Concordancias Legales:** artículo 40; Artículo 41; artículo 28; Artículo 42; ley 20.190
 
 los pagos, conforme al procedimiento ejecutivo que establece la Ley número 20.190.
        Concluye el precepto estableciendo que el deudor queda facultado para constituir la
@@ -1270,23 +1395,13 @@ de prendas sin desplazamiento, a saber:
 3. La Ley número 5.687, Ley sobre el contrato de prenda industrial.
 4. La Ley número 18.112, que dicta normas sobre prenda sin desplazamiento.
 
-## 5. El artículo 43 del Decreto con Fuerza de Ley número 164, de 1991, referido a concesión
-
-de obra pública.
-
-## 6. El artículo 15 de la Ley número 19.542, que establece una prenda especial de concesión
-
-portuaria.
-
-## 7. El artículo 3º de la Ley número 19.425, que establecía una prenda especial sobre las
-
-concesiones a que se refiere el artículo 32 bis de la Ley número 18.695.
-
-## 8. El artículo 62 B del Decreto Ley número 1.939, que contemplaba una prenda especial
-
-sobre el derecho de concesión.
-
 ## 9. El artículo 16 de la Ley número 19.865, sobre Financiamiento Urbano Compartido; y
+
+**Definición Canónica:** 10. El artículo 60 de la Ley número 19.712, llamada “Ley del Deporte”.
+        Se establece que las referencias que se hacen en las leyes a las disposiciones
+derogadas, deberán entenderse efectuadas a las normas de la Ley número 20.190. Con todo,
+las normas derogadas continuarán vigentes para el efecto de regular las prendas sin
+**Concordancias Legales:** artículo 60 de la Ley número 19.712
 
 10. El artículo 60 de la Ley número 19.712, llamada “Ley del Deporte”.
         Se establece que las referencias que se hacen en las leyes a las disposiciones
@@ -1296,6 +1411,11 @@ las normas derogadas continuarán vigentes para el efecto de regular las prendas
 desplazamiento constituidas con anterioridad a la entrada en vigencia de la Ley número
 
 ## 20.190. Se trata por ende de ultra-actividad de esos preceptos legales, lo que por lo demás
+
+**Definición Canónica:** guarda perfecta armonía con lo dispuesto en el artículo 22 de la Ley sobre efecto
+retroactivo de las leyes, en cuanto a que en todo contrato se entenderán incorporadas las
+leyes vigentes al tiempo de su celebración, aunque éstas sean posteriormente derogadas.
+**Concordancias Legales:** artículo 22 de la Ley sobre efecto retroactivo de las leyes
 
 guarda perfecta armonía con lo dispuesto en el artículo 22 de la Ley sobre efecto
 retroactivo de las leyes, en cuanto a que en todo contrato se entenderán incorporadas las
@@ -1311,6 +1431,10 @@ con anterioridad a su entrada en vigencia, podrán acogerse al régimen establec
 citada. Para ello, será necesario que las partes celebren un contrato, en los términos del
 
 ## Título I de la Ley, que deberá ser inscrito en el Registro de Prendas sin Desplazamiento. En
+
+**Definición Canónica:** este contrato, se individualizará la prenda sin desplazamiento original y su transformación.
+Si así ocurriere, se reconocerá la prenda transformada, la antigüedad y la fecha de la prenda
+original.
 
 este contrato, se individualizará la prenda sin desplazamiento original y su transformación.
 Si así ocurriere, se reconocerá la prenda transformada, la antigüedad y la fecha de la prenda
@@ -1330,6 +1454,12 @@ principales del contrato de prenda sin desplazamiento. Son tales:
 
 ## 1. Es un contrato unilateral: sólo se obliga el constituyente; sus principales obligaciones
 
+**Definición Canónica:** son:
+a. Transferir al acreedor el derecho real de prenda.
+b. Conservar la cosa prendada en condiciones adecuadas, sin perjuicio de su desgaste
+normal por el uso cotidiano.
+c. Permitir al acreedor que ejerza su derecho a inspección de la cosa pignorada.
+
 son:
 a. Transferir al acreedor el derecho real de prenda.
 b. Conservar la cosa prendada en condiciones adecuadas, sin perjuicio de su desgaste
@@ -1337,6 +1467,15 @@ normal por el uso cotidiano.
 c. Permitir al acreedor que ejerza su derecho a inspección de la cosa pignorada.
 
 ## 2. Es por regla general un contrato oneroso: en efecto, usualmente el contrato reportará
+
+**Definición Canónica:** beneficio para ambas partes; para el acreedor, pues obtiene una caución que asegura el pago
+de su crédito; y para el deudor, pues a cambio de la garantía que se constituye, obtendrá un
+préstamo o un plazo para el cumplimiento de su obligación. Sin embargo, puede ocurrir que
+el contrato de prenda no tenga el carácter de oneroso, sino de gratuito: tal ocurrirá cuando
+el deudor constituye la prenda con posterioridad al nacimiento de la obligación principal,
+sin exigir nada como contrapartida (por el contrario, si exige al acreedor algo a cambio,
+como por ejemplo una rebaja en la tasa de intereses
+**Concordancias Legales:** constitución
 
 beneficio para ambas partes; para el acreedor, pues obtiene una caución que asegura el pago
 de su crédito; y para el deudor, pues a cambio de la garantía que se constituye, obtendrá un
@@ -1353,6 +1492,15 @@ obtiene algo a cambio, por ejemplo si el deudor de la obligación principal, le 
 el propio acreedor, el contrato, además de oneroso, sería bilateral).
 
 ## 3. Si el contrato fuere oneroso, será además conmutativo, pues las partes están en
+
+**Definición Canónica:** condiciones de apreciar, desde un comienzo, el alcance económico de sus prestaciones (el
+acreedor prendario, al tasar la especie prendada; el constituyente, al apreciar el monto de la
+obligación propia o ajena caucionada).
+4. La prenda, al igual que todas las cauciones, es un contrato accesorio que para subsistir,
+requiere de la existencia de un contrato principal, al que garantiza (salvo que estemos ante
+un contrato de prenda con cláusula de garantía general). De su carácter accesorio, surgen
+importantes consecuencias:
+a. Para calificar la prenda de civil o mercantil, hay que atender a la nat
 
 condiciones de apreciar, desde un comienzo, el alcance económico de sus prestaciones (el
 acreedor prendario, al tasar la especie prendada; el constituyente, al apreciar el monto de la
@@ -1372,6 +1520,9 @@ segundas, son acciones personales.
 
 ## 5. Es un contrato solemne: según lo expresamos, el contrato se perfecciona por escritura
 
+**Definición Canónica:** pública o por instrumento privado cuyas firmas estén autorizadas por un Notario Público y
+se protocolice en su Registro.
+
 pública o por instrumento privado cuyas firmas estén autorizadas por un Notario Público y
 se protocolice en su Registro.
 
@@ -1381,35 +1532,3 @@ desplazamiento.
 caducidad del plazo convenido para el cumplimiento de obligaciones caucionadas con
 prenda sin desplazamiento. Nos parece relevante enumerarlos, aludiendo al precepto
 respectivo. Son ellos:
-
-## 1. Cuando el constituyente de la prenda, que se hubiere obligado a no gravar o enajenar la
-
-especie pignorada, infringiere dicha prohibición (artículo 17).
-
-## 2. Cuando ante el abandono de la especie pignorada de parte del constituyente, el acreedor
-
-prendario solicitare su realización (artículo 18).
-
-## 3. Cuando se produjere un menoscabo o la extinción de los derechos sobre los cuales se
-
-hubiere constituido una prenda (artículo 18).
-
-## 4. Cuando el constituyente de la prenda infringiere lo convenido acerca del lugar en que ha
-
-de guardarse la cosa y al uso al que debe destinarse (artículo 19).
-
-## 5. Cuando el constituyente de la prenda se opusiere, sin causa justificada, al ejercicio por
-
-parte del acreedor prendario de su derecho a inspeccionar la cosa pignorada.
-
-## 6. Cuando fueren dispendiosos los gastos de conservación y custodia de la cosa prendada, y
-
-se autorizare su venta (artículo 21).
-
-## 7. Cuando la especie se encuentre prendada a favor de dos o más acreedores, y se proceda a
-
-su realización por cualquiera de ellos (artículo 37).
-
-## 8. Cuando la especie se encuentre prendada, y el acreedor hipotecario proceda a la
-
-realización del inmueble en el que está colocada la primera (artículo 37).

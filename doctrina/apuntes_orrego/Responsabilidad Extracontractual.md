@@ -13,19 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## De la responsabilidad civil en general
-
-
-## Y de la responsabilidad extracontractual
-
-
-## En particular: delitos y cuasidelitos civiles1
-
-
-Sumario:
-1.- Concepto de responsabilidad y funciones de esta. 1.1. Concepto de responsabilidad.
-
 ## 1.2 Funciones de la responsabilidad. 2.- Clases de responsabilidad civil. 3.- ¿En qué se
+
+**Definición Canónica:** concreta la responsabilidad civil?: indemnización de daños y perjuicios. 4.- El daño
+como presupuesto de la responsabilidad. 5.- Principios de la responsabilidad. 6.-
+Fundamento de la responsabilidad civil. 7.- Origen de la responsabilidad contractual y
+extracontractual: fuentes de las obligaciones. 8.- El sistema de reparación de daños en
+la Constitución Política de la República. Normas fundamentales. 9.- El sistema de
+reparación de daños en el Código Civil. Normas fundamentales. 10.- Diferencias entre
+la responsabilidad civil y la penal. 11.- Diferencias entre la responsabilidad civil
+contra
+**Concordancias Legales:** Constitución Política
 
 concreta la responsabilidad civil?: indemnización de daños y perjuicios. 4.- El daño
 como presupuesto de la responsabilidad. 5.- Principios de la responsabilidad. 6.-
@@ -39,12 +37,13 @@ extracontractual y la responsabilidad legal. 13.- Elementos de la responsabilida
 extracontractual. 13.1 El daño. 13.2 Un daño imputable: la culpa o dolo. 13.3 La
 relación de causalidad entre el dolo o la culpa o el hecho del demandado y el daño.
 
-## 13.4 Capacidad delictual. 14.- Presunciones de culpa. 14.1 Responsabilidad por el
-
-hecho propio. 14.2 Responsabilidad por el hecho ajeno. 14.3 Responsabilidad por el
-hecho de las cosas. 15.- Acción para perseguir la responsabilidad extracontractual.
-
 ## 15.1 Sujeto activo de la acción. 15.2 Sujeto pasivo de la acción. 15.3 Caso de
+
+**Definición Canónica:** responsabilidad solidaria pasiva. 15.4 Extensión de la indemnización. 15.5 Cúmulo de
+indemnizaciones. 15.6. Opción o concurrencia de responsabilidades. 15.7 Tribunales
+competentes y procedimientos aplicables. 15.8 Extinción de la acción. 16.- Causas
+eximentes y atenuantes de responsabilidad. 16.1 Eximentes de responsabilidad. 16.2
+Cláusulas de irresponsabilidad. 16.3 Atenuantes de responsabilidad. Cuestionario.
 
 responsabilidad solidaria pasiva. 15.4 Extensión de la indemnización. 15.5 Cúmulo de
 indemnizaciones. 15.6. Opción o concurrencia de responsabilidades. 15.7 Tribunales
@@ -57,9 +56,10 @@ civil”, que es una de las variantes que puede asumir la responsabilidad, junto
 penal, la legal, la administrativa, etc., y después nos abocaremos al estudio de la
 responsabilidad civil extracontractual derivada de la comisión de delitos y cuasidelitos.
 
-
 ## De la responsabilidad civil en general
 
+**Definición Canónica:** 1.- Concepto de responsabilidad y funciones de esta.
+**Concordancias Legales:** artículos 1708; artículos 2284; artículos 2320; artículos 4; artículo 19; artículo 2314 del Código Civil; artículo 2329; artículo 2468; artículo 2119; artículos 1545; artículos 2314; artículo 2509; artículos 1748; Ley Nº 18.575; Ley N° 18.575; Ley N° 14.908; Ley Nº 20.152; constitucion; Constitución Política; Constitución
 
 1.- Concepto de responsabilidad y funciones de esta.
 
@@ -1090,12 +1090,9 @@ especiales de prescripción: por ejemplo, tratándose de la responsabilidad de l
 tutores y curadores, se establece el plazo general de 5 años, propio de la
 responsabilidad contractual.
 
-
-## De la responsabilidad extracontractual
-
-
 ## En particular: delitos y cuasidelitos civiles
 
+**Definición Canónica:** 13.- Elementos de la responsabilidad extracontractual.
 
 13.- Elementos de la responsabilidad extracontractual.
 
@@ -1105,6 +1102,9 @@ cuasidelictual:
 13.2 Un daño imputable: la culpa o dolo;
 
 ## 13.3 La relación de causalidad entre el dolo, la culpa y el daño; y
+
+**Definición Canónica:** 13.4 Capacidad delictual.
+**Concordancias Legales:** artículo 108 del Código Procesal Penal; artículo 2329 del Código Civil; artículo 1106 del Código Civil español que reza; artículos 1702 del Código Civil y 346 Nº 3 del Código de Procedi; artículos 1702 del Responsabilidad Extracontractual; artículo 50; artículos 186; artículo 1698; D.L. Nº 824
 
 13.4 Capacidad delictual.
 
@@ -1541,6 +1541,16 @@ moral. En otros casos, todo indica que deben ser identificadas las molestias ser
 sufridas (como ocurre, por ejemplo, con la publicación errónea de un protesto de un
 
 ## título de crédito). Algo semejante puede decirse respecto de los elementos de
+
+**Definición Canónica:** valoración del daño moral, porque para apreciarlo son relevantes las circunstancias de
+hecho que permiten inferir su gravedad”.53
+        Así, expresa una sentencia de la Corte de Valdivia de fecha 26 de septiembre de
+2013, autos Rol N° 389-2013: “Noveno: Que el daño moral se ha definido como la
+lesión o menoscabo que el hecho dañoso pueda ocasionar en un derecho o interés del
+que es titular la persona afectada y que se encuentra en la esfera extrapatrimonial del
+individuo, sin perjuicio de tener presente que, no obstante tener dicho carácter, no
+queda liberado el afectado de acreditarlo, lo q
+**Concordancias Legales:** artículo 1097; artículo 2320 del Código Civil dispone que toda persona es resp; artículo 2315; artículos 951; artículos 1; artículo 19; artículo 581 del Código Civil. Dado que lo que se busca es la; artículo 1097 del Código Civil en relación al artículo 951 de e; artículos 751 inciso 2; artículo 1279 del Código Civil; artículo 1095 del Código Civil. Sin embargo; artículo 420; Ley N° 21.018; constitución; constitucion
 
 valoración del daño moral, porque para apreciarlo son relevantes las circunstancias de
 hecho que permiten inferir su gravedad”.53
@@ -2519,8 +2529,10 @@ según se desprende de los arts. 1748 y 1771 del Código Civil. En estos precept
 exige culpa grave o dolo. Por ende, si sólo se acredita que el cónyuge actuó con culpa
 leve, no será responsable.
 
-
 ## 13.3 La relación de causalidad entre el dolo o la culpa o el hecho del
+
+**Definición Canónica:** demandado y el daño.
+**Concordancias Legales:** artículo 465 del Código Civil; artículo 2319; artículos 545; artículos 2314; artículo 2320 del Código Civil; Ley N° 20.393
 
 demandado y el daño.
 
@@ -2904,6 +2916,9 @@ relación de causalidad entre la culpa que se le imputa y el daño.
 14.1 Responsabilidad por el hecho propio;
 
 ## 14.2 Responsabilidad por el hecho ajeno; y
+
+**Definición Canónica:** 14.3 Responsabilidad por el hecho de las cosas.
+**Concordancias Legales:** artículos 2320; artículo 2317 del Código Civil; artículo 1511 del Código Civil. En consecuencia; artículos 222; artículo 428 del Código Civil; artículo 224; artículo 225; artículos 148; artículos 932; artículo 2320; artículo 2329; artículo 18; artículo 1.2.3; artículos 51; Ley N° 21.400; Ley Nº 20.680; Ley Nº 18.290; Ley N° 21.442; Ley Nº 20.016; Ley Nº 20.443; Ley Nº 19.496; Ley Nº 19.496115
 
 14.3 Responsabilidad por el hecho de las cosas.
 
@@ -3574,7 +3589,17 @@ Consumidores”, artículos 51 a 54 G, con las siguientes salvedades:
 
 ## 19.946. El art. 51, Nº 9, establece: “El procedimiento señalado en este
 
-                Párrafo se aplicará cuando se vea afectado el interés colectivo o difuso
+**Definición Canónica:** Párrafo se aplicará cuando se vea afectado el interés colectivo o difuso
+                de los consumidores. Este procedimiento se sujetará a las normas del
+                procedimiento sumario, con excepción de los artículos 681, 684 y 685
+                del Código de Procedimiento Civil y con las particularidades que se
+                contemplan en la presente ley. Todas las pruebas que deban rendirse, se
+                apreciarán conforme a las reglas de la sana crítica (…) 9.- Las acciones
+                cuya admisibilidad se encuentre pendiente, se acumularán de acuerdo a
+          
+**Concordancias Legales:** artículos 681; Ley Nº 19.496
+
+Párrafo se aplicará cuando se vea afectado el interés colectivo o difuso
                 de los consumidores. Este procedimiento se sujetará a las normas del
                 procedimiento sumario, con excepción de los artículos 681, 684 y 685
                 del Código de Procedimiento Civil y con las particularidades que se
@@ -3666,10 +3691,17 @@ b.2) Responsabilidad por el hecho de la cosa que cae o es arrojada de la parte s
 de un edificio: art. 2328.
        Dispone este precepto: “El daño causado por una cosa que cae o se arroja de la
 
-## parte superior de un edificio, es imputable a todas las personas que habitan la misma
-
-
 ## parte del edificio, y la indemnización se dividirá entre todas ellas; a menos que se
+
+**Definición Canónica:** pruebe que el hecho se debe a la culpa o mala intención de alguna persona
+exclusivamente, en cuyo caso será responsable esta sola. / Si hubiere alguna cosa
+que, de la parte superior de un edificio o de otro paraje elevado, amenace caída y
+daño, podrá ser obligado a removerla el dueño del edificio o del sitio, o su inquilino, o
+la persona a quien perteneciere la cosa o que se sirviere de ella; y cualquiera del
+pueblo tendrá derecho para pedir la remoción”.
+       Se precisa que tratándose de cosas que se arrojan, en realidad no se responde
+por el hecho de las cosas, sino por el hecho ajeno, pue
+**Concordancias Legales:** artículos 2326; artículo 608; artículo 6; artículo 144 del Código Penal; artículo 2326; artículos 948; artículo 2330 del Código Civil; artículo 44 del Código Civil; artículo 2330 del Código Civil. Si se atiende a la literalidad; artículo 1558 del Código Civil que priva al deudor; Ley Nº 21.442; Ley N° 21.020; Ley N° 18.287116
 
 pruebe que el hecho se debe a la culpa o mala intención de alguna persona
 exclusivamente, en cuyo caso será responsable esta sola. / Si hubiere alguna cosa
@@ -4237,6 +4269,13 @@ por una parte que el demandado debe responder frente a la víctima directa de un
 
 ## parte del perjuicio que se causó a éste, y afirmar por otra que no obstante haber sido
 
+**Definición Canónica:** parcialmente responsable del daño, debe responder de la totalidad de los perjuicios
+que son ocasionados por repercusión”. En cambio, un fallo del máximo tribunal de
+fecha 28 de septiembre de 2016, autos Rol N° 7.237-2015, se inclina, en el voto de
+mayoría, por rechazar la aplicación del art. 2330 a las víctimas por repercusión (dos
+ministros, sin embargo, estuvieron por aplicarlo a dichas víctimas). 125
+**Concordancias Legales:** artículos 2314; artículos 1547; artículos 1545; artículos 470; artículo 59 del Código Procesal Penal; artículo 108; artículo 1558; artículo 1465; artículos 59
+
 parcialmente responsable del daño, debe responder de la totalidad de los perjuicios
 que son ocasionados por repercusión”. En cambio, un fallo del máximo tribunal de
 fecha 28 de septiembre de 2016, autos Rol N° 7.237-2015, se inclina, en el voto de
@@ -4785,6 +4824,16 @@ Chile, AbeledoPerrot LegalPublishing, pp. 639-653.
 
 ## 1. La acción civil que tenga como único objeto la restitución de la cosa, deberá
 
+**Definición Canónica:** interponerse siempre durante el respectivo procedimiento penal, ante el juez de
+garantía (art. 59, inc. 1º y art. 189, inc. 1º). Para estos efectos, el art. 189 del Código
+Procesal Penal distingue dos situaciones:
+i)      Reclamaciones o tercerías que los intervinientes o terceros entablen durante la
+        investigación con el fin de obtener la restitución de objetos recogidos o
+        incautados: la resolución del juez de garantía se limitará a declarar el derecho
+        del reclamante sobre dichos objetos, pero no se efectuará la devolución de
+        éstos sino hasta después de concluid
+**Concordancias Legales:** artículo 189
+
 interponerse siempre durante el respectivo procedimiento penal, ante el juez de
 garantía (art. 59, inc. 1º y art. 189, inc. 1º). Para estos efectos, el art. 189 del Código
 Procesal Penal distingue dos situaciones:
@@ -4802,8 +4851,17 @@ En los dos casos precedentes, se dejará constancia mediante fotografías u otro
 medios que resultaren convenientes de las especies restituidas o devueltas en virtud
 del artículo 189 (inciso final del mismo).
 
-
 ## 2. Demanda civil que tenga como objeto una indemnización de perjuicios deducida
+
+**Definición Canónica:** directamente por la víctima en contra del responsable del delito o cuasidelito: la ley le
+franquea a la primera dos caminos alternativos:
+i)     Durante la tramitación del proceso penal, la víctima podrá deducir respecto del
+       imputado todas las restantes acciones (se entiende, además de aquella a la que
+       aludimos en el número 1) que tuvieren por objeto perseguir las
+       responsabilidades civiles derivadas del hecho punible. En este caso, entonces, la
+       acción se deduce ante el juez de garantía.
+ii)    La víctima también podrá accionar ante el tribunal civil correspondiente,
+**Concordancias Legales:** artículo 59
 
 directamente por la víctima en contra del responsable del delito o cuasidelito: la ley le
 franquea a la primera dos caminos alternativos:
@@ -4817,8 +4875,17 @@ ii)    La víctima también podrá accionar ante el tribunal civil correspondien
        ante el juez de garantía, pues en tal caso dicha acción no se podrá deducir
        nuevamente ante un tribunal civil (artículo 59, inciso 2º).
 
-
 ## 3. Demanda civil que tenga como objeto una indemnización de perjuicios deducida por
+
+**Definición Canónica:** terceros o deducidas por la víctima o por terceros contra personas distintas del
+imputado: las acciones civiles encaminadas a obtener la reparación de las
+consecuencias civiles del hecho punible que interpusieren personas distintas de la
+víctima, o que se dirigieren por la víctima o por terceros contra personas diferentes del
+imputado, deberán plantearse ante el tribunal civil que fuere competente de acuerdo a
+las reglas generales (art. 59, inc. 3º).
+        Cabe advertir que de acuerdo al art. 108 del Código Procesal Penal, “víctima” no
+siempre es aquél que sufrió en su persona o patrimonio l
+**Concordancias Legales:** Artículo 108; artículo 108 del Código Procesal Penal; artículo 988 del Código Civil al reconocer legitimación activa; artículo 109 del Código Procesal Penal; Artículo 109
 
 terceros o deducidas por la víctima o por terceros contra personas distintas del
 imputado: las acciones civiles encaminadas a obtener la reparación de las
@@ -4914,12 +4981,16 @@ tal calidad, demanden a una persona distinta del imputado (como por ejemplo, cua
 se demanda al propietario de un vehículo motorizado, si fuere distinto de aquél que lo
 conducía y produjo el cuasidelito).
 
-
-## 4. En cuanto a la oportunidad para deducir la demanda civil, distinguimos según se
-
-trate de aquella interpuesta ante el juez de garantía o ante el juez civil:
-
 ## 4.1. Demanda civil interpuesta ante el juez de garantía: establece el art. 60 del Código
+
+**Definición Canónica:** Procesal Penal que la demanda civil en el procedimiento penal deberá interponerse en
+la oportunidad prevista en el art. 261 del mismo cuerpo legal. Este último precepto
+dispone, por su parte, que hasta quince días antes de la fecha fijada para la realización
+de la audiencia de preparación del juicio oral, el querellante, por escrito, podrá deducir
+demanda civil, cuando procediere. En cuanto a los requisitos de esta demanda, ordena
+el art. 60: i) deducirla por escrito (lo que reitera el art. 261, según acabamos de ver);
+ii) cumpliendo con los requisitos exigidos por el art. 254 del Código de Pr
+**Concordancias Legales:** artículos 183
 
 Procesal Penal que la demanda civil en el procedimiento penal deberá interponerse en
 la oportunidad prevista en el art. 261 del mismo cuerpo legal. Este último precepto
@@ -4964,6 +5035,11 @@ demanda civil, la víctima podrá solicitar que se decrete una o más de dichas 
 
 ## 4.2. Demanda civil interpuesta ante el juez civil: en este caso, la acción podrá
 
+**Definición Canónica:** deducirse en cualquier tiempo, iniciada que sea la tramitación del procedimiento penal
+contra el imputado, con la sola limitación de que si se hubiere admitido a tramitación la
+demanda civil en el procedimiento penal, no se podrá deducir nuevamente ante un
+tribunal civil (art. 59, inc. 2º, del Código Procesal Penal).
+
 deducirse en cualquier tiempo, iniciada que sea la tramitación del procedimiento penal
 contra el imputado, con la sola limitación de que si se hubiere admitido a tramitación la
 demanda civil en el procedimiento penal, no se podrá deducir nuevamente ante un
@@ -4974,8 +5050,16 @@ tribunal civil (art. 59, inc. 2º, del Código Procesal Penal).
 notificada al acusado a más tardar, diez días antes de la realización de la audiencia de
 preparación del juicio oral.
 
-
 ## 6. Actuación del demandado, tratándose de la demanda civil interpuesta ante el juez
+
+**Definición Canónica:** de garantía.
+        Dispone el art. 62 del Código Procesal Penal que el imputado deberá oponer las
+excepciones que corresponda y contestar la demanda civil en la oportunidad señalada
+en el art. 263 del mismo Código. Este artículo, por su parte, establece que hasta la
+víspera del inicio de la audiencia de preparación del juicio oral, por escrito, o al inicio
+de dicha audiencia, en forma verbal, el acusado podrá deducir excepciones de previo y
+especial pronunciamiento y exponer los argumentos de defensa que considere
+necesarios y señalar los medios de prueba cuyo examen en el juicio oral solici
 
 de garantía.
         Dispone el art. 62 del Código Procesal Penal que el imputado deberá oponer las
@@ -5038,13 +5122,12 @@ terminación del procedimiento penal, la víctima podrá presentar su demanda ci
 el tribunal civil competente, en cuyo caso el juicio se sustanciará a las reglas del
 procedimiento sumario.
 
-## 9.2. Se dedujo acción penal y ésta fue acogida, dictándose la respectiva sentencia
-
-penal condenatoria y ejecutoriada.
-        Se aplicarán también las normas del procedimiento sumario, de conformidad a
-lo previsto en el art. 680, Nº 10, del Código de Procedimiento Civil.
-
 ## 9.3. Se dedujo acción penal y el procedimiento se suspendió o terminó sin que la
+
+**Definición Canónica:** víctima dedujere acción civil en el citado plazo de 60 días o no se dedujo acción penal.
+        En estos casos, el juicio se sustanciará conforme a las reglas del procedimiento
+ordinario civil.
+**Concordancias Legales:** artículos 2449; artículos 1519; artículo 2332 del Código Civil; artículo 2524; artículo 2332; artículo 2509 del Código Civil. Por lo demás; artículo 2332 del Código Civil queda claramente comprendida ent; artículo 2425; artículos 2521; artículo 2523; artículos 146; artículo 2509; artículo 2520; artículo 2524 del Código Civil; artículo 2332 del Código Civil es de corto tiempo y está sujeta
 
 víctima dedujere acción civil en el citado plazo de 60 días o no se dedujo acción penal.
         En estos casos, el juicio se sustanciará conforme a las reglas del procedimiento
@@ -5322,6 +5405,16 @@ la regla general prevista en el artículo 2520, que ordena suspender la prescrip
 extintiva a favor de las personas enumeradas en los números 1° y 2° del artículo
 
 ## 2509. En este orden de ideas se ha fallado que ‘la referencia del art. 2524 a ‘ciertos
+
+**Definición Canónica:** actos o contratos’ no comprende a los delitos y cuasidelitos, pues para incluirlos debió
+hacerse en forma inequívoca. No habiéndose hecho así, no cabe considerar la
+prescripción establecida en el art. 2332 del Código Civil entre las de corto tiempo a que
+se refiere aquel artículo, sino reconocer que ella se rige por las reglas generales de la
+prescripción ordinaria, siéndole, en consecuencia, aplicable el art. 2509 de dicho
+Código’.154 d) En verdad, la suspensión parece ser una institución general de
+protección, justificada en la incapacidad de ciertas personas, más que un favor
+excepcional co
+**Concordancias Legales:** artículo 2509; artículo 2481; artículo 2332; artículo 2524; artículo 2520; artículos 2524; artículo 2509 del Código Civil. En lo que interesa al recurso; artículo 2524 del Código Civil no resulta aplicable respecto de; artículo 2524 del Código Civil sólo afecta a las acciones de co; artículos 2521; artículo 2314 del Código Civil; artículo 2332 del Código Civil. Es traicionar la letra de la le
 
 actos o contratos’ no comprende a los delitos y cuasidelitos, pues para incluirlos debió
 hacerse en forma inequívoca. No habiéndose hecho así, no cabe considerar la
@@ -5639,6 +5732,9 @@ Editorial Jurídica de Chile, segunda edición actualizada por Ramón Domínguez
 
 ## 380. El matiz en la opinión de Somarriva, podría deberse a la pluma de Domínguez Benavente, pues se
 
+**Definición Canónica:** funda en una sentencia del año 1980, aunque no estamos en condiciones de confirmar tal sospecha
+**Concordancias Legales:** artículo 2332; artículo 2332 del Código Civil; artículo 60; artículo 2496; artículos 19; artículo 23 del Código Civil; artículos 8; Ley Nº 16.744; Ley Nº 3.557; Ley Nº 19.300
+
 funda en una sentencia del año 1980, aunque no estamos en condiciones de confirmar tal sospecha
 
                     Responsabilidad Extracontractual – Juan Andrés Orrego Acuña                         101
@@ -5911,6 +6007,10 @@ prescripción de la acción indemnizatoria si el perjuicio no se ha manifestado:
 con el parágrafo 852 del Código Civil alemán, citado; lo mismo acontece con el art.
 
 ## 1968 Nº 2 en relación con el art. 1902 del Código Civil español: “Art. 1968. Prescriben
+
+**Definición Canónica:** por el transcurso de un año: (…) 2.º La acción para exigir la responsabilidad civil por
+injuria o calumnia, y por las obligaciones derivadas de la culpa o negligencia de que se
+**Concordancias Legales:** artículo 1902; artículo 2332 del Código Civil; Constitución Política; constitucion; constitución
 
 por el transcurso de un año: (…) 2.º La acción para exigir la responsabilidad civil por
 injuria o calumnia, y por las obligaciones derivadas de la culpa o negligencia de que se

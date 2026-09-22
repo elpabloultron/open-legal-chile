@@ -13,19 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Alexander
+                                                     Olbertz
+                                                     Stuven
+             Autores
 
-                                                Alexander
+Alexander
                                                      Olbertz
                                                      Stuven
              Autores
@@ -68,7 +63,10 @@ ISBN N°                 Procesal y de Derecho Penal y es autora
 
 ## 2022-a-1847
 
-                        de varias publicaciones.
+**Definición Canónica:** de varias publicaciones.
+Cortes de Apelaciones:                                                                                         3
+
+de varias publicaciones.
 Cortes de Apelaciones:                                                                                         3
 
                                         Resumen
@@ -104,136 +102,11 @@ ISBN N°                 Procesal y de Derecho Penal y es autora
 
                                         1. Aspectos generales de las Cortes de Apelaciones                                                            10
 
-
-## 1.1 Definición, facultades y normativa                                                                     11
-
-
-
-## 1.2 Clasificación                                                                                          13
-
-
-
-## 1.2.1 Clasificación por número de ministros que integran la Corte                                    14
-
-
-
-## 1.2.2 Clasificación por número de salas de funcionamiento                                            15
-
-
-
-## 1.3 Conformación de las Cortes de Apelaciones                                                              16
-
-
-
-## 1.4 Relación jerárquica                                                                                    17
-
-
-
-## 1.4.1 Con la Corte Suprema                                                                           17
-
-
-
-## 1.4.2 Con los juzgados de primera instancia                                                          17
-
-
-
-## 1.4.3 Con la Corporación Administrativa del Poder Judicial                                           19
-
-
-
-## 1.4.4 Con los centros y unidades de apoyo a tribunales                                               19
-
-
-
-## 1.5 Estructura organizacional de las Cortes                                                                20
-
-
-
-## 1.6 Gestión administrativa de las Cortes de Apelaciones                                                    28
-
-
-                                        2. Funcionamiento de la Unidad de Atención de Público y Partes                                                30
-
-
-## 2.1 Misión y estructura                                                                                    31
-
-
-
-## 2.2 Principales funciones de atención de público                                                           32
-
-
-
-## 2.3 Sistemas de información pública para atención de usuarios                                              33
-
-
-
-## 2.4 Registro de información en la oficina de partes                                                        40
-
-
-
-## 2.4.1 Ingreso de recursos en las Cortes de Apelaciones                                               40
-
-
-
-## 2.4.2 Ingreso de escritos e informes relacionados con causas                                         46
-
-
-                                        3. Principales funciones de la Unidad de Control de Gestión y Coordinación con Primera Instancia              49
-
-
-## 3.1 Estructura y gestión                                                                                   50
-
-
-
-## 3.2 Funciones de la Unidad de Control de Gestión y Coordinación con Primera Instancia                      51
-
-
-
-## 3.3 Aspectos importantes relacionados con el control de gestión al interior de las Cortes de Apelaciones   54
-
-
-
-## 3.4 Aspectos relevantes relacionados con la primera instancia                                              58
-
-
-                                        4. Gestión de causas al interior de las Cortes                                                                62
-
-
-## 4.1 Introducción                                                                                           63
-
-
-
-## 4.2 Objetivos de las unidades encargadas                                                                   64
-
-Cortes de Apelaciones:                                                                                                                                            5
-
-
-## 4.2.1 Administración de los recursos jurisdiccionales (corresponde propiamente a la Unidad de Secretaría)   64
-
-
-
-## 4.2.2 Tramitación de gestiones judiciales                                                                   77
-
-
-
-## 4.2.3 Ingreso y tramitación de causas desde la organización y el desempeño funcionario                      78
-
-
-                                           4.3 Recursos y acciones constitucionales                                                                         90
-
-
-## 4.3.1 Recurso de amparo                                                                                     90
-
-
-
-## 4.3.2 Recurso de protección                                                                                 93
-
-
-
 ## 4.3.3 Recurso de apelación                                                                                  97
 
+**Definición Canónica:** 4.3.4 Recurso de hecho                                                                                      102
 
-                                                4.3.4 Recurso de hecho                                                                                      102
+4.3.4 Recurso de hecho                                                                                      102
 
                                                 4.3.5 Recurso de casación en la forma                                                                       105
 
@@ -316,15 +189,13 @@ ISBN N°                 Procesal y de Derecho Penal y es autora
 
                                         Valores
 
-
-## 1. Excelencia: promover la calidad, eficiencia e innovación para la
-
-                                           mejora de los procesos y las competencias profesionales de las
-                                           personas.
-
 ## 2. Imparcialidad: actuar con ecuanimidad, objetividad, igualdad y no
 
-                                           discriminación, para favorecer el acceso a la justicia.
+**Definición Canónica:** discriminación, para favorecer el acceso a la justicia.
+Cortes de Apelaciones:                  Introducción                                                              7
+nociones básicas                        de Sala
+
+discriminación, para favorecer el acceso a la justicia.
 Cortes de Apelaciones:                  Introducción                                                              7
 nociones básicas                        de Sala
 
@@ -333,41 +204,28 @@ nociones básicas                        de Sala
                                            parámetros jurídicos, para evitar la arbitrariedad y salvaguardar los
                                            derechos fundamentales.
 
-## 4. Probidad: mantener conducta intachable y desempeño honesto y
-
-                                           leal de la función y cargo, con preeminencia del interés general.
-
-## 5. Respeto y buen trato: actuar con la debida consideración a todas
-
-                                           las personas y grupos de la sociedad.
-
-## 6. Responsabilidad: cumplir con los deberes, obligaciones y com-
-
-                                           promisos, asumiendo las consecuencias de nuestros actos.
-
-
-## 7. Transparencia: actuar de forma abierta y clara, permitiendo el
-
-                                           control y el seguimiento por parte de la ciudadanía.
-
-## 8. Vocación de servicio: realizar el trabajo con conciencia de su
-
-                                           aporte a la sociedad y a la satisfacción de necesidades individuales
-                                           y comunitarias.
-
-                                        Ejes estratégicos
-
-
 ## 1. Impacto en la sociedad: administrar justicia, garantizando el ac-
 
-                                           ceso a ella, visualizándola como un servicio esencial del Estado
+**Definición Canónica:** ceso a ella, visualizándola como un servicio esencial del Estado
+                                           contemporáneo, que permite mantener un orden en la sociedad
+                                           a través de una respuesta jurisdiccional apegada al ordenamiento
+                                           jurídico, oportuna, cercana, y comprensible y no discriminatoria.
+
+ceso a ella, visualizándola como un servicio esencial del Estado
                                            contemporáneo, que permite mantener un orden en la sociedad
                                            a través de una respuesta jurisdiccional apegada al ordenamiento
                                            jurídico, oportuna, cercana, y comprensible y no discriminatoria.
 
 ## 2. Gestión de personas: fortalecer las capacidades de adaptación del
 
-                                           Poder Judicial frente a necesidades y oportunidades de cambio
+**Definición Canónica:** Poder Judicial frente a necesidades y oportunidades de cambio
+                                           en las personas y en los procesos, para lograr una transformación
+                                           organizacional.
+                                        3. Modernización: perfeccionar la gestión global del Poder Judicial,
+                                           concretando sistemáticamente acciones orientadas a mejorar el
+                                           servicio de justicia.
+
+Poder Judicial frente a necesidades y oportunidades de cambio
                                            en las personas y en los procesos, para lograr una transformación
                                            organizacional.
                                         3. Modernización: perfeccionar la gestión global del Poder Judicial,
@@ -376,7 +234,12 @@ nociones básicas                        de Sala
 
 ## 4. Relaciones interinstitucionales: generar vínculos entre institu-
 
-                                           ciones que promuevan un mejor funcionamiento del sistema
+**Definición Canónica:** ciones que promuevan un mejor funcionamiento del sistema
+                                           de justicia.
+Cortes de Apelaciones:                  Introducción                                                          8
+nociones básicas                        de Sala
+
+ciones que promuevan un mejor funcionamiento del sistema
                                            de justicia.
 Cortes de Apelaciones:                  Introducción                                                          8
 nociones básicas                        de Sala
@@ -432,10 +295,12 @@ nociones básicas                        de Sala
 Cortes de Apelaciones:                        1. Aspectos generales de las                                           11
 nociones básicas                                 Cortes de Apelaciones
 
-
 ## 1.1     Definición, facultades
 
-                                                y normativa
+**Definición Canónica:** y normativa
+**Concordancias Legales:** artículo 63 del Código Orgánico de; artículo 5; artículos 54; Constitución
+
+y normativa
 
                                                 Se puede entender por Cortes de Apelaciones aquellos tribunales
                                                 ordinarios superiores de justicia, de derecho, colegiados y perma-
@@ -509,11 +374,17 @@ nociones básicas                                 Cortes de Apelaciones
 Cortes de Apelaciones:                                        1. Aspectos generales de las                                            13
 nociones básicas                                                 Cortes de Apelaciones
 
-
 ## 1.2         Clasificación
 
+**Definición Canónica:** No obstante             Actualmente en Chile existen 17 Cortes de Apelaciones, distribui-
+                                                                das a lo largo del país a razón de una en cada región, con ciertas
+                                        la normativa            excepciones.
+                                        común que les es
+                                        aplicable a cada        No obstante la normativa común que les es aplicable a cada una de
+                                        una de las Cortes       las Cortes de Apelaciones, no todas ellas tienen un
+**Concordancias Legales:** artículo 55 del Código Orgánico
 
-                                        No obstante             Actualmente en Chile existen 17 Cortes de Apelaciones, distribui-
+No obstante             Actualmente en Chile existen 17 Cortes de Apelaciones, distribui-
                                                                 das a lo largo del país a razón de una en cada región, con ciertas
                                         la normativa            excepciones.
                                         común que les es
@@ -541,30 +412,42 @@ nociones básicas                                                 Cortes de Apel
 
 ## 7. Corte de Santiago comprende la parte de la Región Metropolitana
 
-                                                                   correspondiente a las provincias de Chacabuco y de Santiago, con
+**Definición Canónica:** correspondiente a las provincias de Chacabuco y de Santiago, con
                                                                    exclusión de las comunas de Lo Espejo, San Miguel, San Joaquín,
                                                                    La Cisterna, San Ramón, La Granja, El Bosque, La Pintana y
                                                                    Pedro Aguirre Cerda;
 Cortes de Apelaciones:                  1. Aspectos generales de las                                          14
 
+correspondiente a las provincias de Chacabuco y de Santiago, con
+                                                                   exclusión de las comunas de Lo Espejo, San Miguel, San Joaquín,
+                                                                   La Cisterna, San Ramón, La Granja, El Bosque, La Pintana y
+                                                                   Pedro Aguirre Cerda;
+Cortes de Apelaciones:                  1. Aspectos generales de las                                          14
 
 ## 8. Corte de San Miguel comprende la parte de la Región Metro-
 
-                                             politana correspondiente a las provincias de Cordillera, Maipo y
+**Definición Canónica:** politana correspondiente a las provincias de Cordillera, Maipo y
                                              Talagante; a la provincia de Melipilla; a las comunas de Lo Espejo,
                                              San Miguel, San Joaquín, La Cisterna, San Ramón, La Granja, El
                                              Bosque, La Pintana y Pedro Aguirre Cerda, de la provincia de
                                              Santiago;
 
-## 9. Corte de Rancagua comprende la Región del Libertador General
-
-                                             Bernardo O’Higgins (Sexta);
-                                          10. Corte de Talca comprende la Región del Maule (Séptima);
+politana correspondiente a las provincias de Cordillera, Maipo y
+                                             Talagante; a la provincia de Melipilla; a las comunas de Lo Espejo,
+                                             San Miguel, San Joaquín, La Cisterna, San Ramón, La Granja, El
+                                             Bosque, La Pintana y Pedro Aguirre Cerda, de la provincia de
+                                             Santiago;
 
 ## 11. Corte de Chillán comprende la Región de Ñuble (Decimosexta)
 
+**Definición Canónica:** y la comuna de Tucapel, de la Provincia de Biobío de la Región
+                                              del Biobío (Octava);
+                                          12. Corte de Concepción comprende las provincias de Concepción,
+                                              Arauco y Biobío, de la Región del Biobío (Octava), con excepción
+                                              de la comuna de Tucapel;
+                                          13. Corte de Temuco comprende la Región de la Araucanía (Novena);
 
-                                              y la comuna de Tucapel, de la Provincia de Biobío de la Región
+y la comuna de Tucapel, de la Provincia de Biobío de la Región
                                               del Biobío (Octava);
                                           12. Corte de Concepción comprende las provincias de Concepción,
                                               Arauco y Biobío, de la Región del Biobío (Octava), con excepción
@@ -573,22 +456,26 @@ nociones básicas                                                 Cortes de Apel
 
 ## 14. Corte de Valdivia comprende la Región de Los Ríos (Decimocuar-
 
-                                              ta) y la provincia de Osorno, de la Región de Los Lagos (Décima);
+**Definición Canónica:** ta) y la provincia de Osorno, de la Región de Los Lagos (Décima);
                                           15. Corte de Puerto Montt comprende las provincias de Llanquihue,
                                               Chiloé y Palena, de la Décima Región de Los Lagos;
 
-## 16. Corte de Coyhaique comprende la Región de Aysén del General
-
-                                              Carlos Ibáñez del Campo (Decimoprimera), y
-
-## 17. Corte de Punta Arenas comprende la Región de Magallanes y
-
-                                              de la Antártica Chilena (Decimosegunda).
-
+ta) y la provincia de Osorno, de la Región de Los Lagos (Décima);
+                                          15. Corte de Puerto Montt comprende las provincias de Llanquihue,
+                                              Chiloé y Palena, de la Décima Región de Los Lagos;
 
 ## 1.2.1 Clasificación por número de
 
-                                          ministros que integran la Corte
+**Definición Canónica:** ministros que integran la Corte
+                                          El artículo 56 del Código Orgánico de Tribunales prevé la compo-
+                                          sición de cada Corte y ello, a su vez, en relación con la cantidad de
+                                          ministros que corresponde se designe en cada una. De esta manera,
+                                          se dispone que funcionen de la siguiente forma:
+                                          — Con 4 miembros las Cortes de Apelaciones de Iquique, Copiapó,
+                                            C
+**Concordancias Legales:** artículo 56 del Código Orgánico de Tribunales prevé la compo
+
+ministros que integran la Corte
                                           El artículo 56 del Código Orgánico de Tribunales prevé la compo-
                                           sición de cada Corte y ello, a su vez, en relación con la cantidad de
                                           ministros que corresponde se designe en cada una. De esta manera,
@@ -604,10 +491,11 @@ nociones básicas                                                 Cortes de Apel
                                             Miguel y Concepción;
                                           — Con 34 miembros funcionará la Corte de Apelaciones de Santiago.
 
-
 ## 1.2.2 Clasificación por número de
 
-                                          salas de funcionamiento
+**Definición Canónica:** salas de funcionamiento
+
+salas de funcionamiento
 
                                           La distribución de las causas se dividirá entre las distintas salas de
                                           cada Corte, cuya cantidad será diferenciada de acuerdo al número de
@@ -624,10 +512,11 @@ nociones básicas                                                 Cortes de Apel
 Cortes de Apelaciones:                        1. Aspectos generales de las                                            16
 nociones básicas                                 Cortes de Apelaciones
 
-
 ## 1.3     Conformación de las Cortes
 
-                                                de Apelaciones
+**Definición Canónica:** de Apelaciones
+
+de Apelaciones
 
                                                 Toda Corte de Apelaciones está conformada por distintos funcionarios
                                                 del Poder Judicial –que pueden tener la calidad de titulares, interinos
@@ -645,25 +534,33 @@ nociones básicas                                 Cortes de Apelaciones
 Cortes de Apelaciones:                        1. Aspectos generales de las                                            17
 nociones básicas                                 Cortes de Apelaciones
 
-
-## 1.4     Relación
-
-                                                jerárquica
-
-
 ## 1.4.1 Con la Corte Suprema
 
-                                                La Excma. Corte Suprema es el superior jerárquico de todas las
+**Definición Canónica:** La Excma. Corte Suprema es el superior jerárquico de todas las
+                                                Cortes de Apelaciones del país, esto quiere decir que ejerce la su-
+                                                perintendencia directiva, correccional y económica sobre todas las
+                                                Cortes y, además, conoce de ciertas acciones, recursos y apelaciones,
+                                                tratándose de la revisión de algunas resoluciones pronunciadas por
+                                                las distintas Cortes de A
+
+La Excma. Corte Suprema es el superior jerárquico de todas las
                                                 Cortes de Apelaciones del país, esto quiere decir que ejerce la su-
                                                 perintendencia directiva, correccional y económica sobre todas las
                                                 Cortes y, además, conoce de ciertas acciones, recursos y apelaciones,
                                                 tratándose de la revisión de algunas resoluciones pronunciadas por
                                                 las distintas Cortes de Apelaciones.
 
-
 ## 1.4.2 Con los juzgados de primera instancia
 
-                                                En el plano jurisdiccional (1), cabe advertir que se ha entendido
+**Definición Canónica:** En el plano jurisdiccional (1), cabe advertir que se ha entendido
+                                                desde antiguo que las Cortes de Apelaciones son los órganos que
+                                                tienen la competencia para conocer de los asuntos litigiosos, pero
+                                                dada la importante cantidad de conflictos jurídicos existentes es que
+                                                esta competencia fue delegada en los tribunales o juzgados de
+                                                primera instancia. Por consigui
+**Concordancias Legales:** constitucion
+
+En el plano jurisdiccional (1), cabe advertir que se ha entendido
                                                 desde antiguo que las Cortes de Apelaciones son los órganos que
                                                 tienen la competencia para conocer de los asuntos litigiosos, pero
                                                 dada la importante cantidad de conflictos jurídicos existentes es que
@@ -725,10 +622,18 @@ nociones básicas                                 Cortes de Apelaciones
                                             privación de libertad ha sido dispuesta por un tribunal inferior.
 Cortes de Apelaciones:                  1. Aspectos generales de las                                          19
 
-
 ## 1.4.3 Con la Corporación Administrativa
 
-                                          del Poder Judicial
+**Definición Canónica:** del Poder Judicial
+                                          A la Corporación Administrativa del Poder Judicial (CAPJ) le co-
+                                          rresponde la administración de los recursos humanos, financieros,
+                                          tecnológicos y materiales destinados al funcionamiento de los tri-
+                                          bunales (art. 506 inciso primero COT). A la CAPJ le corresponderá
+                                          especialmente, en cuanto atañe a las Cortes y de acuerdo con el
+                                          a
+**Concordancias Legales:** artículo 506
+
+del Poder Judicial
                                           A la Corporación Administrativa del Poder Judicial (CAPJ) le co-
                                           rresponde la administración de los recursos humanos, financieros,
                                           tecnológicos y materiales destinados al funcionamiento de los tri-
@@ -757,10 +662,16 @@ nociones básicas                                 Cortes de Apelaciones
                                           son de la exclusiva confianza de la Corte Suprema, de modo que ella
                                           puede removerlos a su arbitrio (art. 513 inciso tercero COT).
 
-
 ## 1.4.4 Con los centros y unidades de apoyo a tribunales
 
-                                          A nivel nacional, se han generado diversos centros de apoyo cuyo
+**Definición Canónica:** A nivel nacional, se han generado diversos centros de apoyo cuyo
+                                          objetivo ha sido centralizar tareas comunes y apoyar a los juzgados en
+                                          el cumplimiento de sus funciones. Actualmente, según lo dispuesto
+                                          por el Consejo Superior de la Corporación Administrativa del Poder
+                                          Judicial, la totalidad de los centros se encuentran bajo dependencia
+                                          de cada Corte de Apelaciones a través de su administ
+
+A nivel nacional, se han generado diversos centros de apoyo cuyo
                                           objetivo ha sido centralizar tareas comunes y apoyar a los juzgados en
                                           el cumplimiento de sus funciones. Actualmente, según lo dispuesto
                                           por el Consejo Superior de la Corporación Administrativa del Poder
@@ -769,10 +680,12 @@ nociones básicas                                 Cortes de Apelaciones
 Cortes de Apelaciones:                        1. Aspectos generales de las                                           20
 nociones básicas                                 Cortes de Apelaciones
 
-
 ## 1.5     Estructura organizacional
 
-                                                de las Cortes
+**Definición Canónica:** de las Cortes
+**Concordancias Legales:** artículo 90 del Código Orgánico de Tribunales. Su misión será; artículos 63; artículo 274 del Código Orgáni; artículo 4; artículos 372
+
+de las Cortes
 
                                                 Dentro de la estructura de cada Corte de Apelaciones es posible
                                                 identificar diferentes órganos o cargos según el siguiente detalle:
@@ -1057,10 +970,11 @@ nociones básicas                                                      Cortes de
 Cortes de Apelaciones:                        1. Aspectos generales de las                                           28
 nociones básicas                                 Cortes de Apelaciones
 
-
 ## 1.6     Gestión administrativa de las
 
-                                                Cortes de Apelaciones
+**Definición Canónica:** Cortes de Apelaciones
+
+Cortes de Apelaciones
 
                                                 La Excma. Corte Suprema, a través de su Acta N° 76-2019, reguló
                                                 la gestión administrativa de las Cortes de Apelaciones del país. El
@@ -1141,10 +1055,11 @@ nociones básicas                                                  Cortes de Ape
 Cortes de Apelaciones:                        2. Funcionamiento de la Unidad de                                     31
 nociones básicas                                 Atención de Público y Partes
 
-
 ## 2.1     Misión y
 
-                                                estructura
+**Definición Canónica:** estructura
+
+estructura
 
                                                 Cada Corte de Apelaciones cuenta con un área de Atención de Pú-
                                                 blico (UAP) a la que le corresponde gestionar y controlar el ingreso
@@ -1169,10 +1084,11 @@ nociones básicas                                 Atención de Público y Partes
 Cortes de Apelaciones:                        2. Funcionamiento de la Unidad de                                   32
 nociones básicas                                 Atención de Público y Partes
 
-
 ## 2.2     Principales funciones de
 
-                                                atención de público
+**Definición Canónica:** atención de público
+
+atención de público
 
                                                 Las funciones de la Unidad de Atención de Público son especificadas
                                                 según el Acta N° 76-2019 de la Excma. Corte Suprema. A partir de
@@ -1195,10 +1111,12 @@ nociones básicas                                 Atención de Público y Partes
 Cortes de Apelaciones:                                              2. Funcionamiento de la Unidad de                                     33
 nociones básicas                                                       Atención de Público y Partes
 
-
 ## 2.3           Sistemas de información pública
 
-                                                                      para atención de usuarios
+**Definición Canónica:** para atención de usuarios
+**Concordancias Legales:** artículo 33 del La Unidad de Atención de Público es la encarg; artículo 33 del Acta Nº 71; artículo 33 del Acta N; artículo 34 del Acta N
+
+para atención de usuarios
 
                                         El artículo 33 del    La Unidad de Atención de Público es la encargada de entregar una
                                         Acta Nº 71-2016       atención integral tanto a los usuarios presenciales como a los de
@@ -1373,15 +1291,14 @@ nociones básicas                                                       Atenció
 Cortes de Apelaciones:                        2. Funcionamiento de la Unidad de                                        40
 nociones básicas                                 Atención de Público y Partes
 
-
-## 2.4     Registro de información
-
-                                                en laoficina de partes
-
-
 ## 2.4.1 Ingreso de recursos en las Cortes de Apelaciones
 
-                                                El proceso que se detalla a continuación se refiere a la recepción,
+**Definición Canónica:** El proceso que se detalla a continuación se refiere a la recepción,
+                                                ingreso y posterior distribución de los recursos que recepciona cada
+                                                Corte de Apelaciones.
+**Concordancias Legales:** artículo 63 del Código Orgánico de Tri; artículo 58 de la Cons; artículo 64 del COT; Ley Nº 20.886
+
+El proceso que se detalla a continuación se refiere a la recepción,
                                                 ingreso y posterior distribución de los recursos que recepciona cada
                                                 Corte de Apelaciones.
 
@@ -1582,10 +1499,17 @@ nociones básicas                                 Atención de Público y Partes
                                           de reforma procesal penal, de cobranza o de letras del trabajo envía
                                           a la Corte de Apelaciones.
 
-
 ## 2.4.2 Ingreso de escritos e informes
 
-                                          relacionados con causas
+**Definición Canónica:** relacionados con causas
+                                          En relación con la recepción de escritos e informes relacionados con
+                                          causas, existen varias vías. De la misma forma que lo hemos visto en
+                                          los recursos, es posible clasificarlos en materiales o digitales. Para la
+                                          tramitación de los recursos materiales, es importante tener presente
+                                          que, en cuanto a la recepción de documentos, el timbre de cargo
+                     
+
+relacionados con causas
                                           En relación con la recepción de escritos e informes relacionados con
                                           causas, existen varias vías. De la misma forma que lo hemos visto en
                                           los recursos, es posible clasificarlos en materiales o digitales. Para la
@@ -1620,10 +1544,11 @@ nociones básicas                                 Atención de Público y Partes
 Cortes de Apelaciones:                        3. Principales funciones de la Unidad de Control de                   50
 nociones básicas                                 Gestión y Coordinación con Primera Instancia
 
-
 ## 3.1     Estructura
 
-                                                y gestión
+**Definición Canónica:** y gestión
+
+y gestión
 
                                                 La Unidad de Control de Gestión y Coordinación con Primera Ins-
                                                 tancia de cada Corte de Apelaciones considera dos áreas de gestión
@@ -1648,10 +1573,11 @@ nociones básicas                                 Gestión y Coordinación con P
 Cortes de Apelaciones:                        3. Principales funciones de la Unidad de Control de                    51
 nociones básicas                                 Gestión y Coordinación con Primera Instancia
 
-
 ## 3.2     Funciones de la Unidad de Control de Gestión
 
-                                                y Coordinación con Primera Instancia
+**Definición Canónica:** y Coordinación con Primera Instancia
+
+y Coordinación con Primera Instancia
 
                                                 Las funciones que realiza esta unidad pueden clasificarse en aquellas
                                                 relacionadas con tareas propias dentro de cada Corte de Apelaciones y
@@ -1734,10 +1660,12 @@ nociones básicas                                 Gestión y Coordinación con P
 Cortes de Apelaciones:                        3. Principales funciones de la Unidad de Control de                     54
 nociones básicas                                 Gestión y Coordinación con Primera Instancia
 
-
 ## 3.3     Aspectos importantes relacionados con el control
 
-                                                de gestión al interior de las Cortes de Apelaciones
+**Definición Canónica:** de gestión al interior de las Cortes de Apelaciones
+**Concordancias Legales:** artículos 553; artículo 90; artículo 587 del COT. Según lo establecido en el
+
+de gestión al interior de las Cortes de Apelaciones
 
                                                 Como revisamos anteriormente, se ha establecido a nivel nacional
                                                 que las Cortes de Apelaciones deben contar con una unidad cuya
@@ -1846,10 +1774,12 @@ nociones básicas                                 Gestión y Coordinación con P
 Cortes de Apelaciones:                        3. Principales funciones de la Unidad de Control de                           58
 nociones básicas                                 Gestión y Coordinación con Primera Instancia
 
-
 ## 3.4     Aspectos relevantes relacionados
 
-                                                con la primera instancia
+**Definición Canónica:** con la primera instancia
+**Concordancias Legales:** artículos 567; artículo 18 del Acta; artículo N° 8 de la Ley Nº 15.231; artículo 214 del Código Orgánico de; artículos 564; Ley Nº 15.231; Ley Nº 20.720
+
+con la primera instancia
 
                                                 Como se detalló al comienzo de este capítulo, esta unidad también
                                                 puede mantener la coordinación y comunicación con los juzgados
@@ -2007,11 +1937,16 @@ nociones básicas                                 Gestión y Coordinación con P
                                           de las Cortes
 Cortes de Apelaciones:                        4. Gestión de causas al                                               63
 
-
 ## 4.1     Introducción
 
+**Definición Canónica:** El área de Causas de cada Corte de Apelaciones es la destinada a
+                                                desarrollar la gestión, control y registro de todas las actividades que
+                                                componen los procesos jurídicos relacionados con la tramita- ción
+                                                de causas. A nivel general, es responsable del registro, ingreso,
+                                                tramitación, cumplimiento, devolución y archivo de los procesos
+                                                relacionados con causas.
 
-                                                El área de Causas de cada Corte de Apelaciones es la destinada a
+El área de Causas de cada Corte de Apelaciones es la destinada a
                                                 desarrollar la gestión, control y registro de todas las actividades que
                                                 componen los procesos jurídicos relacionados con la tramita- ción
                                                 de causas. A nivel general, es responsable del registro, ingreso,
@@ -2020,18 +1955,24 @@ nociones básicas                                 Gestión y Coordinación con P
 
 Cortes de Apelaciones:                        4. Gestión de causas al                                               64
 
-
 ## 4.2     Objetivos de las unidades
 
-                                                encargadas
+**Definición Canónica:** encargadas
+
+encargadas
 
                                                 Los objetivos serán examinados desde la labor desempeñada por los
                                                 funcionarios según se pasará a señalar.
 
-
 ## 4.2.1 Administración de los recursos jurisdiccionales
 
-                                                (corresponde propiamente a la Unidad de Secretaría)
+**Definición Canónica:** (corresponde propiamente a la Unidad de Secretaría)
+                                                De acuerdo con el artículo 60 del COT, cada Corte de Apelaciones
+                                                tendrá un secretario; la Corte de Apelaciones de San Miguel tendrá
+                                                dos secretarios y la Corte de Apelaciones de Santiago tendrá tres
+**Concordancias Legales:** artículo 60 del COT; artículo 63 del COT; artículo 63 del COT en cuanto; artículos 477
+
+(corresponde propiamente a la Unidad de Secretaría)
                                                 De acuerdo con el artículo 60 del COT, cada Corte de Apelaciones
                                                 tendrá un secretario; la Corte de Apelaciones de San Miguel tendrá
                                                 dos secretarios y la Corte de Apelaciones de Santiago tendrá tres
@@ -2575,10 +2516,14 @@ nociones básicas                                 Gestión y Coordinación con P
                                           dencia que deriva y proviene de la secretaría a los funcionarios, áreas
                                           y/o instituciones que correspondan.
 
-
 ## 4.2.2 Tramitación de gestiones judiciales
 
-                                          Las gestiones judiciales se tramitarán dependiendo de la secretaría
+**Definición Canónica:** Las gestiones judiciales se tramitarán dependiendo de la secretaría
+                                          que esté a cargo de la causa, y estas secretarías serán definidas de-
+                                          pendiendo de la materia de cada asunto.
+**Concordancias Legales:** artículo 379 del COT; artículo 380; artículo 564
+
+Las gestiones judiciales se tramitarán dependiendo de la secretaría
                                           que esté a cargo de la causa, y estas secretarías serán definidas de-
                                           pendiendo de la materia de cada asunto.
 
@@ -2615,10 +2560,17 @@ nociones básicas                                 Gestión y Coordinación con P
                                             ellos; y
                                           — 6°) Las demás que les impongan las leyes.
 
-
 ## 4.2.3 Ingreso y tramitación de causas desde la
 
-                                          organización y el desempeño funcionario
+**Definición Canónica:** organización y el desempeño funcionario
+                                          En los flujogramas que presentamos a continuación es posible vi-
+                                          sualizar la tramitación de un asunto desde la óptica procesal pero
+                                          en vinculación con el área de gestión involucrada:
+Cortes de Apelaciones:                                          4. Gestión de causas al         79
+nociones básicas                                                   interior de las Cortes
+                                            Recurso en materi
+
+organización y el desempeño funcionario
                                           En los flujogramas que presentamos a continuación es posible vi-
                                           sualizar la tramitación de un asunto desde la óptica procesal pero
                                           en vinculación con el área de gestión involucrada:
@@ -2671,15 +2623,17 @@ nociones básicas                                interior de las Cortes
 
 Cortes de Apelaciones:                        4. Gestión de causas al                                                  90
 
-
-## 4.3     Recursos y acciones
-
-                                                constitucionales
-
-
 ## 4.3.1 Recurso de amparo
 
-                                                Es la acción constitucional que cualquier persona puede interpo- ner
+**Definición Canónica:** Es la acción constitucional que cualquier persona puede interpo- ner
+                                                ante los tribunales superiores, a fin de solicitar que se adopten
+                                                inmediatamente las providencias que se juzguen necesarias para
+                                                restablecer el imperio del derecho y asegurarle la debida protección
+                                                al afectado, dejando sin efecto o modificando cualquier acción u
+                                                omisión arbitraria o ilegal 
+**Concordancias Legales:** artículo 307 del CPP; artículos 72; constitucion; Constitución Política
+
+Es la acción constitucional que cualquier persona puede interpo- ner
                                                 ante los tribunales superiores, a fin de solicitar que se adopten
                                                 inmediatamente las providencias que se juzguen necesarias para
                                                 restablecer el imperio del derecho y asegurarle la debida protección
@@ -2789,10 +2743,17 @@ nociones básicas                                interior de las Cortes
                                                para su concesión, en cuyo caso se ordenará elevar los autos a la
                                                Excma. Corte Suprema (vía interconexión).
 
-
 ## 4.3.2 Recurso de protección
 
-                                          Se trata de aquella acción que la Constitución concede a todas las
+**Definición Canónica:** Se trata de aquella acción que la Constitución concede a todas las
+                                          personas que, como consecuencia de actos u omisiones arbitrarias
+                                          o ilegales, sufren privación, perturbación o amenaza a sus derechos
+                                          y garantías constitucionales que expresamente dispone la norma
+                                          constitucional (art. 20 CPR). El objetivo de dicho recurso es que la
+                                          Corte ordene todas las medidas necesarias para restablecer
+**Concordancias Legales:** artículo 1; artículo 2; artículos 72; Constitución; constitucion
+
+Se trata de aquella acción que la Constitución concede a todas las
                                           personas que, como consecuencia de actos u omisiones arbitrarias
                                           o ilegales, sufren privación, perturbación o amenaza a sus derechos
                                           y garantías constitucionales que expresamente dispone la norma
@@ -2919,10 +2880,17 @@ nociones básicas                                           interior de las Cort
                                           cando que todos los documentos se encuentren individualizados, para
                                           posteriormente enviar las causas a la sala de cuenta para su resolución.
 
-
 ## 4.3.3 Recurso de apelación
 
-                                          El recurso de apelación puede ser definido de la siguiente forma:
+**Definición Canónica:** El recurso de apelación puede ser definido de la siguiente forma:
+                                          “Aquel medio de impugnación cuyo titular es la parte agraviada por
+                                          una resolución judicial, destinado a obtener una segunda revisión
+                                          de los puntos de hecho y de derecho que comprende el asunto, por
+                                          el tribunal superior al que lo dictó, con el fin de que este la revoque
+                                          o modifique con arreglo a derecho, subsanando los agra
+**Concordancias Legales:** artículos 186; artículo 186
+
+El recurso de apelación puede ser definido de la siguiente forma:
                                           “Aquel medio de impugnación cuyo titular es la parte agraviada por
                                           una resolución judicial, destinado a obtener una segunda revisión
                                           de los puntos de hecho y de derecho que comprende el asunto, por
@@ -2942,10 +2910,18 @@ nociones básicas                                           interior de las Cort
                                           que se impugna, para que sea conocido por el tribunal superior a este
                                           una vez elevados los antecedentes correspondientes.
 
-
 ## 4.3.3.1 Tramitación ante el tribunal “a quo” (el
 
-                                          que pronunció la resolución que se impugna)
+**Definición Canónica:** que pronunció la resolución que se impugna)
+                                          La ley encomienda al tribunal que pronunció la resolución que se
+                                          impugna constatar que la apelación cumpla con los requisitos for-
+                                          males, sin necesidad de dar traslado a la contraparte:
+                                          — Si estima, en base a este examen, que la apelación cumple con los
+                                            requisitos formales antes señalados, el tribunal a quo pronunciará
+                       
+**Concordancias Legales:** artículo 191 del CPC. Cuando la apelación se concede; artículo 191
+
+que pronunció la resolución que se impugna)
                                           La ley encomienda al tribunal que pronunció la resolución que se
                                           impugna constatar que la apelación cumpla con los requisitos for-
                                           males, sin necesidad de dar traslado a la contraparte:
@@ -2997,10 +2973,13 @@ nociones básicas                                           interior de las Cort
                                             del tribunal inferior para seguir conociendo de la causa, como lo
                                             señala el mismo artículo 191.
 
-
 ## 4.3.3.2 Tramitación ante el tribunal
 
-                                          “ad quem” (tribunal superior)
+**Definición Canónica:** “ad quem” (tribunal superior)
+                                          Recibidos los antecedentes en la Corte de Apelaciones, se certifica
+                                          en la carpeta electrónica el ingreso del recurso y se le asigna número.
+
+“ad quem” (tribunal superior)
                                           Recibidos los antecedentes en la Corte de Apelaciones, se certifica
                                           en la carpeta electrónica el ingreso del recurso y se le asigna número.
 
@@ -3102,10 +3081,14 @@ nociones básicas                                           interior de las Cort
                                                tinados a poner término al procedimiento, lo que conlleva al
                                                término de la apelación.
 
-
 ## 4.3.4 Recurso de hecho
 
-                                          Son aplicables, respecto de este recurso, los artículos 196, 203, 204,
+**Definición Canónica:** Son aplicables, respecto de este recurso, los artículos 196, 203, 204,
+                                          205 y 206 del Código de Procedimiento Civil; el artículo 62 del Código
+                                          de Procedimiento Penal y, del Código Procesal Penal, el artículo 369.
+**Concordancias Legales:** artículos 196; artículo 62 del Código; artículo 369; artículo 62 del Código de Procedimiento Penal; artículo 55; artículo 371
+
+Son aplicables, respecto de este recurso, los artículos 196, 203, 204,
                                           205 y 206 del Código de Procedimiento Civil; el artículo 62 del Código
                                           de Procedimiento Penal y, del Código Procesal Penal, el artículo 369.
 
@@ -3228,10 +3211,16 @@ nociones básicas                                           interior de las Cort
                                           Contra la sentencia de la Corte de Apelaciones no procede el recurso
                                           de casación.
 
-
 ## 4.3.5 Recurso de casación en la forma
 
-                                          Es “el acto jurídico procesal de la parte agraviada, destinada a obtener
+**Definición Canónica:** Es “el acto jurídico procesal de la parte agraviada, destinada a obtener
+                                          del tribunal superior jerárquico la invalidación de una sentencia, por
+                                          haber sido pronunciada por el tribunal inferior con prescindencia
+                                          de los requisitos legales o emanar de un procedimiento viciado al
+                                          haberse omitido las formalidades esenciales que la ley establece”.
+**Concordancias Legales:** Ley Nº 20.886
+
+Es “el acto jurídico procesal de la parte agraviada, destinada a obtener
                                           del tribunal superior jerárquico la invalidación de una sentencia, por
                                           haber sido pronunciada por el tribunal inferior con prescindencia
                                           de los requisitos legales o emanar de un procedimiento viciado al
@@ -3275,10 +3264,17 @@ nociones básicas                                           interior de las Cort
                                           habiéndose recibido el expediente desde la Excma. Corte Suprema
                                           y ordenado su cúmplase, se procederá a la devolución de la causa.
 
-
 ## 4.3.6 Recurso de nulidad penal
 
-                                          El recurso de nulidad se concede para invalidar el juicio oral y la
+**Definición Canónica:** El recurso de nulidad se concede para invalidar el juicio oral y la
+                                          sentencia definitiva, o solamente esta, por las causales expresamente
+                                          señaladas en la ley. Este recurso tiene dos objetivos que estarían cla-
+                                          ramente diferenciados, la cautela del racional y justo procedimiento
+                                          y el respeto de la correcta aplicación de la ley, ampliado a la correcta
+                                          aplicación del derecho.
+**Concordancias Legales:** artículo 200 del Código de Procedimiento Civil. En caso de que; artículo 382 del CPP; artículos 69; artículos 222
+
+El recurso de nulidad se concede para invalidar el juicio oral y la
                                           sentencia definitiva, o solamente esta, por las causales expresamente
                                           señaladas en la ley. Este recurso tiene dos objetivos que estarían cla-
                                           ramente diferenciados, la cautela del racional y justo procedimiento
@@ -3371,10 +3367,17 @@ nociones básicas                     interior de las Cortes
                   nulidad penal
 Cortes de Apelaciones:                  4. Gestión de causas al                                                 110
 
-
 ## 4.3.7 Recurso de queja
 
-                                          Este recurso tiene por objeto modificar, enmendar, invalidar o dejar
+**Definición Canónica:** Este recurso tiene por objeto modificar, enmendar, invalidar o dejar
+                                          sin efecto resoluciones judiciales en las que se ha cometido una
+                                          falta o abuso ministerial. Supone la existencia de un perjuicio para
+                                          la parte recurrente, el cual consiste en una diferencia injustificada y
+                                          desfavorable entre lo pretendido por la parte y lo que le ha otorgado esa
+                                          resolución que se impugna. Dicho perjuici
+**Concordancias Legales:** artículo 549
+
+Este recurso tiene por objeto modificar, enmendar, invalidar o dejar
                                           sin efecto resoluciones judiciales en las que se ha cometido una
                                           falta o abuso ministerial. Supone la existencia de un perjuicio para
                                           la parte recurrente, el cual consiste en una diferencia injustificada y
@@ -3431,7 +3434,16 @@ nociones básicas                     interior de las Cortes
 
 ## 69 COT), salvo en caso de que se hubiera producido la radicación
 
-                                               en virtud de una orden de no innovar.
+**Definición Canónica:** en virtud de una orden de no innovar.
+                                          g. Fallo del recurso de queja
+                                               — La resolución acoge el recurso de queja: el tribunal superior
+                                                 tiene amplias facultades para efectos de dictar la resolución
+                                                 que estime necesaria y poner pronto remedio al mal que
+                                                 motivó su interposición, pudiendo invalidar, modificar o
+                                                 enmendar 
+**Concordancias Legales:** artículo 545
+
+en virtud de una orden de no innovar.
                                           g. Fallo del recurso de queja
                                                — La resolución acoge el recurso de queja: el tribunal superior
                                                  tiene amplias facultades para efectos de dictar la resolución
@@ -3477,10 +3489,11 @@ nociones básicas                     interior de las Cortes
                                           rresponda, según sea la materia de que se trate.
 Cortes de Apelaciones:                        4. Gestión de causas al                                                 113
 
-
 ## 4.4     Unidad de
 
-                                                Cuenta
+**Definición Canónica:** Cuenta
+
+Cuenta
 
                                                 Funcionarios
                                                 En esta unidad, además del o los relatores de cuenta, cumplen fun-
@@ -3513,10 +3526,11 @@ nociones básicas                     interior de las Cortes
                                                 designada para conocer respecto del asunto.
 Cortes de Apelaciones:                        4. Gestión de causas al                                                   114
 
-
 ## 4.5     Unidad de
 
-                                                Tablas
+**Definición Canónica:** Tablas
+
+Tablas
 
                                                 Funciones
                                                 Surge por la necesidad de brindar apoyo en la confección de la tabla
@@ -3540,7 +3554,14 @@ nociones básicas                     interior de las Cortes
 
 ## 1. Tratándose de Cortes de Apelaciones que funcionen en más de
 
-                                                   una sala, se deben confeccionar tantas tablas como salas existan
+**Definición Canónica:** una sala, se deben confeccionar tantas tablas como salas existan
+                                                   y distribuir las causas según sorteo, en audiencia pública. En
+                                                   cuanto al proceso de confección de la tabla, se debe considerar:
+                                                     a. Designar un día de la semana, a lo menos, para conocer las
+                                                        causas criminales, sin perjuicio de la preferencia que la ley o
+                                                        el tribunal le
+
+una sala, se deben confeccionar tantas tablas como salas existan
                                                    y distribuir las causas según sorteo, en audiencia pública. En
                                                    cuanto al proceso de confección de la tabla, se debe considerar:
                                                      a. Designar un día de la semana, a lo menos, para conocer las
@@ -3589,24 +3610,20 @@ nociones básicas                     interior de las Cortes
 
 ## 2. Recibir los informes de los relatores de sala una vez que salen de
 
-                                             audiencia, para que den cuenta del estado de las causas vistas en
+**Definición Canónica:** audiencia, para que den cuenta del estado de las causas vistas en
                                              tabla (falladas, acuerdos, en trámite, suspendidas, entre otros
                                              casos).
 
-## 3. Confeccionar informes de estadísticas para el Presidente, infor-
-
-                                             mando lo que se coloca diariamente en tabla, en conjunto con
-                                             sus materias.
-
-
-## 4. Verificar el cumplimiento de requisitos, datos y disponibilidad
-
-                                             de comisión de servicio de los postulantes a relatores, para que
-                                             posteriormente puedan relatar.
+audiencia, para que den cuenta del estado de las causas vistas en
+                                             tabla (falladas, acuerdos, en trámite, suspendidas, entre otros
+                                             casos).
 
 ## 5. El día jueves se debe entregar al relator de pleno una confección
 
-                                             de pauta con relatores, para hacer cambios y suplencias, en caso
+**Definición Canónica:** de pauta con relatores, para hacer cambios y suplencias, en caso
+                                             de ser necesario.
+
+de pauta con relatores, para hacer cambios y suplencias, en caso
                                              de ser necesario.
 
                                           Distribución y agendamiento de causas
@@ -3629,10 +3646,11 @@ nociones básicas                     interior de las Cortes
                                           y las partes.
 Cortes de Apelaciones:                        4. Gestión de causas al                                                 117
 
-
 ## 4.6     Unidad de
 
-                                                Protecciones
+**Definición Canónica:** Protecciones
+
+Protecciones
 
                                                 Estará principalmente encargado de esta unidad el administrativo
                                                 de recursos de protección, cuya misión será administrar las causas
@@ -3648,61 +3666,62 @@ nociones básicas                     interior de las Cortes
 
 ## 1. Recibir causas correspondientes a materia de protección e in-
 
-                                                   gresar en sistema SITCORTE con el objetivo de confeccionar la
+**Definición Canónica:** gresar en sistema SITCORTE con el objetivo de confeccionar la
+                                                   carátula, lo que implica buscar recursos en el sistema y adjuntar
+                                                   los documentos correspondientes a la causa.
+
+gresar en sistema SITCORTE con el objetivo de confeccionar la
                                                    carátula, lo que implica buscar recursos en el sistema y adjuntar
                                                    los documentos correspondientes a la causa.
 
 ## 2. Coser documentos y recursos correspondientes a la causa y realizar
 
-                                                   la foliación verificando que se encuentren todos los documentos
+**Definición Canónica:** la foliación verificando que se encuentren todos los documentos
                                                    individualizados, con el objetivo de enviar a la sala de cuenta para
                                                    su posterior resolución.
 
-## 3. Entregar duplicados de recursos de protección e informes rela-
-
-                                                   tivos a la causa al administrativo de ingreso de causas y escritos,
-                                                   para su escaneo e ingreso al sistema.
-
-## 4. Custodiar en casilleros los duplicados físicos de las causas, para
-
-                                                   disponibilidad de abogados en caso que lo requieran.
+la foliación verificando que se encuentren todos los documentos
+                                                   individualizados, con el objetivo de enviar a la sala de cuenta para
+                                                   su posterior resolución.
 
 ## 5. Recibir causas inadmisibles derivadas de la sala de cuenta para
 
-                                                   cambiar a estado de causa fallada, archivando la causa una vez
+**Definición Canónica:** cambiar a estado de causa fallada, archivando la causa una vez
+                                                   transcurrido el plazo de tres días.
+                                                6. Confeccionar oficio para la institución que corresponde informar.
+
+cambiar a estado de causa fallada, archivando la causa una vez
                                                    transcurrido el plazo de tres días.
                                                 6. Confeccionar oficio para la institución que corresponde informar.
 
 ## 7. Redactar correo a las isapres, adjuntando carpeta de protecciones
 
-                                                   con recursos y resoluciones de admisibilidad y concesión obte-
+**Definición Canónica:** con recursos y resoluciones de admisibilidad y concesión obte-
                                                    nidas a través del sistema SITCORTE.
                                                 8. Realizar seguimiento de las notificaciones realizadas.
 Cortes de Apelaciones:                  4. Gestión de causas al                                            118
 
-
-## 9. Recibir escritos de parte de abogados o recurrentes, presentados
-
-                                             a través de la oficina de partes.
+con recursos y resoluciones de admisibilidad y concesión obte-
+                                                   nidas a través del sistema SITCORTE.
+                                                8. Realizar seguimiento de las notificaciones realizadas.
+Cortes de Apelaciones:                  4. Gestión de causas al                                            118
 
 ## 10. Realizar certificación de acuerdo a lo solicitado por el abogado
 
-                                              para el posterior envío a la sala de cuenta.
+**Definición Canónica:** para el posterior envío a la sala de cuenta.
                                           11. Realizar remisión de causas con apelación a la Corte Suprema.
                                           12. Custodiar las causas falladas.
 
-## 13. Realizar seguimiento de las causas hasta el cumplimiento de
-
-                                             las resoluciones.
-
-## 14. Custodiar los documentos y duplicados de escritos, los cuales
-
-
-                                              son previamente escaneados.
+para el posterior envío a la sala de cuenta.
+                                          11. Realizar remisión de causas con apelación a la Corte Suprema.
+                                          12. Custodiar las causas falladas.
 
 ## 15. Orientar y atender presencial y telefónicamente a los usuarios
 
-                                              respecto de consultas de causas correspondientes a materia de
+**Definición Canónica:** respecto de consultas de causas correspondientes a materia de
+                                              protección ingresadas a la secretaría.
+
+respecto de consultas de causas correspondientes a materia de
                                               protección ingresadas a la secretaría.
 
                                           Protecciones masivas y
@@ -3719,11 +3738,16 @@ nociones básicas                     interior de las Cortes
 Cortes de Apelaciones:                        5. Unidad                                                             120
 nociones básicas                                 de Sala
 
-
 ## 5.1     Introducción
 
+**Definición Canónica:** Al área de salas en una Corte de Apelaciones le corresponde gestionar
+                                                y controlar las etapas administrativas previas y hasta el término de la
+                                                vista de la causa en salas. Dentro de las labores propias de la unidad
+                                                se encuentra la planificación, preparación, apoyo y seguimiento del
+                                                funcionamiento de las salas de audiencias, así como su integración
+                                                e instalació
 
-                                                Al área de salas en una Corte de Apelaciones le corresponde gestionar
+Al área de salas en una Corte de Apelaciones le corresponde gestionar
                                                 y controlar las etapas administrativas previas y hasta el término de la
                                                 vista de la causa en salas. Dentro de las labores propias de la unidad
                                                 se encuentra la planificación, preparación, apoyo y seguimiento del
@@ -3733,15 +3757,14 @@ nociones básicas                                 de Sala
 Cortes de Apelaciones:                        5. Unidad                                                             121
 nociones básicas                                 de Sala
 
-
-## 5.2     Conformación
-
-                                                de sala
-
-
 ## 5.2.1 Sorteo de salas
 
-                                                En relación con el sorteo de salas para el funcionamiento de las Cor-
+**Definición Canónica:** En relación con el sorteo de salas para el funcionamiento de las Cor-
+                                                tes de Apelaciones, el artículo 61 del Código Orgánico de Tribunales
+                                                señala, en lo pertinente, lo que sigue:
+**Concordancias Legales:** artículo 61 del Código Orgánico de Tribunales; constitución
+
+En relación con el sorteo de salas para el funcionamiento de las Cor-
                                                 tes de Apelaciones, el artículo 61 del Código Orgánico de Tribunales
                                                 señala, en lo pertinente, lo que sigue:
 
@@ -3788,10 +3811,12 @@ nociones básicas                           de Sala
                                           conocimientos que la norma exige, lo cual se traduce en un sorteo
                                           entre todos ellos.
 
-
 ## 5.2.2 Integración diaria
 
-                                          Respecto a la integración, el ordinal 3° del artículo 386 del Código
+**Definición Canónica:** Respecto a la integración, el ordinal 3° del artículo 386 del Código
+**Concordancias Legales:** artículo 386 del Código
+
+Respecto a la integración, el ordinal 3° del artículo 386 del Código
 
                                           Orgánico de Tribunales ordena que la secretaría del tribunal deba
                                           llevar un registro electrónico de integraciones y de asistencia al tribu-
@@ -3811,7 +3836,12 @@ nociones básicas                           de Sala
 
 ## 90 N° 2 del Código Orgánico de Tribunales, las que deberán quedar
 
-                                          elaboradas el día anterior al de la audiencia respectiva. En ellas deberá
+**Definición Canónica:** elaboradas el día anterior al de la audiencia respectiva. En ellas deberá
+                                          constar la fecha, los nombres de los ministros y/o abogados integrantes
+                                          que integrarán cada una de las salas y los motivos de las ausencias,
+                                          debiendo ser publicadas en la tabla de la sala correspondiente.
+
+elaboradas el día anterior al de la audiencia respectiva. En ellas deberá
                                           constar la fecha, los nombres de los ministros y/o abogados integrantes
                                           que integrarán cada una de las salas y los motivos de las ausencias,
                                           debiendo ser publicadas en la tabla de la sala correspondiente.
@@ -3826,10 +3856,16 @@ nociones básicas                           de Sala
                                           En cuanto a decisión relativa a la integración propiamente tal, ello
                                           es de responsabilidad y facultad del Presidente de la Corte.
 
-
 ## 5.2.3 Vista de las causas
 
-                                          Le corresponde a la Unidad de Sala, por regla general, el conocimiento
+**Definición Canónica:** Le corresponde a la Unidad de Sala, por regla general, el conocimiento
+                                          de los asuntos sustantivos de las diversas materias que llegan a las
+                                          Cortes. En este sentido y con independencia del desarrollo propio de
+                                          la audiencia, que se encuentra especialmente regulado en el Código
+                                          de Procedimiento Civil y en el Código Orgánico de Tribunales, para
+                                          los efectos de este trabajo parece relevante ad
+
+Le corresponde a la Unidad de Sala, por regla general, el conocimiento
                                           de los asuntos sustantivos de las diversas materias que llegan a las
                                           Cortes. En este sentido y con independencia del desarrollo propio de
                                           la audiencia, que se encuentra especialmente regulado en el Código
@@ -3845,14 +3881,17 @@ nociones básicas                           de Sala
                                           ha definido y delimitado las responsabilidades administrativas y
                                           operativas en esta materia.
 
-## 1. El sistema de audio es el registro oficial del tribunal, por lo cual
-
-                                             se deben grabar la totalidad de audiencias que se generen en el
-                                             tribunal y cuyas materias lo exigen.
-
 ## 2. La grabación de audiencias se debe realizar de acuerdo con el
 
-                                             Manual de Procedimiento de Grabación y Rotulación de Audios,
+**Definición Canónica:** Manual de Procedimiento de Grabación y Rotulación de Audios,
+                                             el cual se encuentra publicado en la intranet del Poder Judicial.
+                                             La rotulación correspondiente permitirá que automáticamente
+                                             los audios grabados en el equipo respectivo se transmitan hacia
+                                             el servidor de respaldos del nivel central.
+                                          3. Antes de cada audiencia se debe revisar el sistema de audio,
+                   
+
+Manual de Procedimiento de Grabación y Rotulación de Audios,
                                              el cual se encuentra publicado en la intranet del Poder Judicial.
                                              La rotulación correspondiente permitirá que automáticamente
                                              los audios grabados en el equipo respectivo se transmitan hacia
@@ -3860,22 +3899,25 @@ nociones básicas                           de Sala
                                           3. Antes de cada audiencia se debe revisar el sistema de audio,
                                              realizando las pruebas correspondientes.
 
-## 4. Para cada audiencia se debe utilizar como medio de respaldo a
-
-                                             la grabación misma, la grabadora digital del tribunal.
-
 ## 5. La revisión de grabación de audiencias en el sistema Audiogra-
 
-                                             bber se deberá revisar el mismo día a fin de proceder a borrarlas
+**Definición Canónica:** bber se deberá revisar el mismo día a fin de proceder a borrarlas
                                              de la grabadora digital, dejando esta disponible para la próxima
                                              grabación de audiencias.
 Cortes de Apelaciones:                  5. Unidad                                                              124
 nociones básicas                           de Sala
 
+bber se deberá revisar el mismo día a fin de proceder a borrarlas
+                                             de la grabadora digital, dejando esta disponible para la próxima
+                                             grabación de audiencias.
+Cortes de Apelaciones:                  5. Unidad                                                              124
+nociones básicas                           de Sala
 
 ## 6. Los turnos extraordinarios y de jornada de sábado deben seguir
 
-                                             a cabalidad el presente procedimiento.
+**Definición Canónica:** a cabalidad el presente procedimiento.
+
+a cabalidad el presente procedimiento.
 
                                           El digitador de sala será responsable de grabar las audiencias utilizan-
                                           do correctamente el equipamiento puesto a su disposición para tal
@@ -3910,16 +3952,24 @@ nociones básicas                           de Sala
 
 ## 4. Se debe rellenar el recuadro “álbum” con el año, mes y día
 
-                                                  de la grabación (ej. 181207-00)
+**Definición Canónica:** de la grabación (ej. 181207-00)
                                                5. En el recuadro “log” se debe indicar el orden de los alegatos.
                                                6. Para comenzar la grabación se debe apretar el botón “Record”.
 Cortes de Apelaciones:                  5. Unidad                                                            125
 nociones básicas                           de Sala
 
+de la grabación (ej. 181207-00)
+                                               5. En el recuadro “log” se debe indicar el orden de los alegatos.
+                                               6. Para comenzar la grabación se debe apretar el botón “Record”.
+Cortes de Apelaciones:                  5. Unidad                                                            125
+nociones básicas                           de Sala
 
 ## 7. Para cortar la pista y pasar a la siguiente se debe apretar el
 
-                                                  botón “Cut”
+**Definición Canónica:** botón “Cut”
+                                               8. Para terminar la grabación se debe apretar el botón “Stop”.
+
+botón “Cut”
                                                8. Para terminar la grabación se debe apretar el botón “Stop”.
 
                                           — Acta de audiencia: una vez conocida la lista de audiencias que se
@@ -3951,10 +4001,11 @@ nociones básicas                           de Sala
 Cortes de Apelaciones:                        5. Unidad                                                              126
 nociones básicas                                 de Sala
 
-
 ## 5.3     Funciones del
 
-                                                equipo de sala
+**Definición Canónica:** equipo de sala
+
+equipo de sala
 
                                                 Digitador
                                                 Le corresponde apoyar las diversas labores administrativas propias
@@ -4013,10 +4064,11 @@ nociones básicas                           de Sala
 Cortes de Apelaciones:                        5. Unidad                                                              128
 nociones básicas                                 de Sala
 
-
 ## 5.4     Vinculación con
 
-                                                otras unidades
+**Definición Canónica:** otras unidades
+
+otras unidades
 
                                                 En la mayoría de las Cortes, esta unidad cumplirá un trabajo en con-
                                                 junto con la Unidad de Causas y, asimismo, con la Presidencia, con
@@ -4030,11 +4082,14 @@ nociones básicas                                 de Sala
 Cortes de Apelaciones:                        6. Principales funciones de                                          130
 nociones básicas                                 la Unidad de Servicios
 
-
 ## 6.1     Introducción
 
+**Definición Canónica:** La Unidad de Servicios de cada Corte de Apelaciones está destinada
+                                                a prestar apoyo a las diferentes unidades en asuntos de gestión ad-
+                                                ministrativa del personal y del suministro de materiales y servicios
+                                                generales.
 
-                                                La Unidad de Servicios de cada Corte de Apelaciones está destinada
+La Unidad de Servicios de cada Corte de Apelaciones está destinada
                                                 a prestar apoyo a las diferentes unidades en asuntos de gestión ad-
                                                 ministrativa del personal y del suministro de materiales y servicios
                                                 generales.
@@ -4055,10 +4110,11 @@ nociones básicas                                 la Unidad de Servicios
 Cortes de Apelaciones:                        6. Principales funciones de                                          131
 nociones básicas                                 la Unidad de Servicios
 
-
 ## 6.2     Funciones de la Unidad
 
-                                                de Servicios
+**Definición Canónica:** de Servicios
+
+de Servicios
 
                                                 Tal como se señaló, la Unidad de Servicios es la responsable de
                                                 prestar apoyo al resto de las áreas en materias relacionadas con la
@@ -4085,10 +4141,11 @@ nociones básicas                                 la Unidad de Servicios
 Cortes de Apelaciones:                        6. Principales funciones de                                         132
 nociones básicas                                 la Unidad de Servicios
 
-
 ## 6.3     Aspectos importantes relacionados
 
-                                                con la Unidad de Servicios
+**Definición Canónica:** con la Unidad de Servicios
+
+con la Unidad de Servicios
 
                                                 Gestión de materiales de
                                                 oficina
@@ -4235,11 +4292,14 @@ nociones básicas                           la Unidad de Servicios
 Cortes de Apelaciones:                        7. Unidad de Pleno                                                  138
 nociones básicas                                 y Presidencia
 
-
 ## 7.1    Introducción
 
+**Definición Canónica:** La Unidad de Pleno y Presidencia es la responsable de realizar la
+                                               labor administrativa que demandan los asuntos que pasarán al pleno de
+                                               la Corte, así como aquellos que son de conocimiento exclusivo del
+                                               Presidente de cada Corte de Apelaciones.
 
-                                               La Unidad de Pleno y Presidencia es la responsable de realizar la
+La Unidad de Pleno y Presidencia es la responsable de realizar la
                                                labor administrativa que demandan los asuntos que pasarán al pleno de
                                                la Corte, así como aquellos que son de conocimiento exclusivo del
                                                Presidente de cada Corte de Apelaciones.
@@ -4263,10 +4323,11 @@ nociones básicas                                 y Presidencia
 Cortes de Apelaciones:                        7. Unidad de Pleno                                                   139
 nociones básicas                                 y Presidencia
 
-
 ## 7.2    Funciones de la Unidad
 
-                                               de Pleno y Presidencia
+**Definición Canónica:** de Pleno y Presidencia
+
+de Pleno y Presidencia
 
                                                 — Colaborar en la labor administrativa que requieren los asuntos
                                                   que pasarán a pleno, desde el ingreso, tramitación, asuntos dis-
@@ -4299,10 +4360,11 @@ nociones básicas                                 y Presidencia
 Cortes de Apelaciones:                        7. Unidad de Pleno                                                     140
 nociones básicas                                 y Presidencia
 
-
 ## 7.3    Gestión administrativa
 
-                                               y disciplinaria
+**Definición Canónica:** y disciplinaria
+
+y disciplinaria
 
                                                En el ejercicio de sus funciones, la Unidad de Pleno y Presidencia
                                                tramita asuntos tales como reclamos, quejas disciplinarias, actas de
@@ -4359,10 +4421,12 @@ nociones básicas                           y Presidencia
 Cortes de Apelaciones:                        7. Unidad de Pleno                                                   142
 nociones básicas                                 y Presidencia
 
-
 ## 7.4    Tareas relacionadas con
 
-                                               la Unidad de Pleno
+**Definición Canónica:** la Unidad de Pleno
+**Concordancias Legales:** artículo 279 del Código Orgánico de Tribunales y en el Acta N
+
+la Unidad de Pleno
 
                                                Dentro de la Unidad de Pleno es posible reconocer diversas tareas o
                                                funciones específicas, dentro de las cuales se pueden mencionar:
@@ -4410,10 +4474,11 @@ nociones básicas                           y Presidencia
 Cortes de Apelaciones:                        7. Unidad de Pleno                                                144
 nociones básicas                                 y Presidencia
 
-
 ## 7.5    Tareas relacionadas con
 
-                                               laUnidad de Presidencia
+**Definición Canónica:** laUnidad de Presidencia
+
+laUnidad de Presidencia
 
                                                Teniendo presente que el objetivo principal es gestionar todos los
                                                requerimientos que, en cuanto a asuntos administrativos, haga el
@@ -4465,39 +4530,3 @@ nociones básicas                           y Presidencia
                                           — En algunas Cortes, se considera también la verificación de que
                                             cada sala cuente con la dotación necesaria de ministros, apoyando
                                             en la planificación de la integración de las mismas.
-
-## Serie de
-
-Cortes de Apelaciones:                              1.     DOCUMENTOS 147
-nociones básicas                                                        47
-
-## Materiales
-
-
-## Docentes
-
-
- ial
-  c
-  udi
-  J
-  a
-  mi
-  de
-  a
-  c
-  A
-  s
-  e
-  nt
-  e
-  c
-  do
-  s
-  al
-  e
-  ri
-  e
- Mat
-
-    Academia Judicial de Chile | www.academiajudicial.cl

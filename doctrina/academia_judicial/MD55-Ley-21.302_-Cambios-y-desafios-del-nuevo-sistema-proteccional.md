@@ -13,19 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Constitucional | **Materia:** Constitucional
 
-55           Ley 21.302:
-             cambios y desafíos
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             del nuevo sistema
+                  electrónica
+             proteccional
+                  de causas
+             Fabiola González Corominas
+             Felipe Pulgar Bravo
+**Concordancias Legales:** Ley 21.302
 
-                  Tramitación
+Tramitación
              del nuevo sistema
                   electrónica
              proteccional
@@ -93,38 +92,12 @@ Materiales Docentes                                                   ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Contexto social: el fenómeno
-        de la vulneración a los derechos de los niños,
-        las niñas y los adolescentes
-
-## 25      Capítulo 2
-
-        Los derechos de niños, niñas y adolescentes
-
-## 37      Capítulo 3
-
-        La Ley 21.302
-
-## 84      Capítulo 4
-
-        Política de Efectivización de Derechos de Niños,
-        Niñas y Adolescentes
-
-## 91      Capítulo 5
-
-        Medidas administrativas adoptadas
-        por el Poder Judicial
-
-## 120     Referencias
-
-
-Materiales Docentes                                                 Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Contexto social: el fenómeno
+de la vulneración a los derechos de los niños,
+las niñas y los adolescentes
+**Concordancias Legales:** artículo 19; artículo 13 del Protocolo Facultativo de la Convención sobre; artículo 2; Ley 21.302; Ley 19.968; constitución
 
 Contexto social: el fenómeno
 de la vulneración a los derechos de los niños,
@@ -398,10 +371,16 @@ Derecho a la no discriminación
 La Convención sobre los Derechos del Niño lo define en su artículo 2 en
 los siguientes términos:
 
-
 ## 1. Los Estados partes respetarán los derechos enunciados en la presente
 
-      Convención y asegurarán su aplicación a cada niño sujeto a su jurisdic-
+**Definición Canónica:** Convención y asegurarán su aplicación a cada niño sujeto a su jurisdic-
+      ción, sin distinción alguna, independientemente de la raza, el color, el
+      sexo, el idioma, la religión, la opinión política o de otra índole, el origen
+      nacional, étnico o social, la posición económica, los impedimentos físi-
+      cos, el nacimiento o cualquier otra condición del niño, de sus padres o
+      de sus representantes legales.
+
+Convención y asegurarán su aplicación a cada niño sujeto a su jurisdic-
       ción, sin distinción alguna, independientemente de la raza, el color, el
       sexo, el idioma, la religión, la opinión política o de otra índole, el origen
       nacional, étnico o social, la posición económica, los impedimentos físi-
@@ -410,7 +389,12 @@ los siguientes términos:
 
 ## 2. Los Estados partes tomarán todas las medidas apropiadas para ga-
 
-      rantizar que el niño se vea protegido contra toda forma de discrimina-
+**Definición Canónica:** rantizar que el niño se vea protegido contra toda forma de discrimina-
+      ción o castigo por causa de la condición, las actividades, las opiniones
+      expresadas o las creencias de sus padres, o sus tutores o de sus familiares.
+**Concordancias Legales:** artículo 12 de la Convención sobre los Derechos del Niño
+
+rantizar que el niño se vea protegido contra toda forma de discrimina-
       ción o castigo por causa de la condición, las actividades, las opiniones
       expresadas o las creencias de sus padres, o sus tutores o de sus familiares.
 
@@ -427,16 +411,25 @@ Derecho a ser oído
 Este derecho ha sido reconocido por el artículo 12 de la Convención
 sobre los Derechos del Niño:
 
-
 ## 1. Los Estados partes garantizarán al niño que esté en condiciones de
 
-      formarse un juicio propio el derecho de expresar su opinión libremente
+**Definición Canónica:** formarse un juicio propio el derecho de expresar su opinión libremente
+      en todos los asuntos que afectan al niño, teniéndose debidamente en
+      cuenta las opiniones del niño, en función de la edad y madurez del niño.
+
+formarse un juicio propio el derecho de expresar su opinión libremente
       en todos los asuntos que afectan al niño, teniéndose debidamente en
       cuenta las opiniones del niño, en función de la edad y madurez del niño.
 
 ## 2. Con tal fin, se dará en particular al niño oportunidad de ser escucha-
 
-      do en todo procedimiento judicial o administrativo que afecte al niño,
+**Definición Canónica:** do en todo procedimiento judicial o administrativo que afecte al niño,
+      ya sea directamente o por medio de un representante o de un órgano
+      apropiado, en consonancia con las normas de procedimiento de la Ley
+      nacional.
+**Concordancias Legales:** artículo 3 de la CDN; artículo 3; artículo 6 de la CDN
+
+do en todo procedimiento judicial o administrativo que afecte al niño,
       ya sea directamente o por medio de un representante o de un órgano
       apropiado, en consonancia con las normas de procedimiento de la Ley
       nacional.
@@ -512,14 +505,11 @@ Derecho a la vida y el desarrollo
 Por su parte, este derecho ha sido reconocido por el artículo 6 de la
 CDN:
 
-
-## 1. Los Estados partes reconocen que todo niño tiene el derecho intrín-
-
-      seco a la vida.
-
 ## 2. Los Estados partes garantizarán en la máxima medida posible la su-
 
-      pervivencia y el desarrollo del niño.
+**Definición Canónica:** pervivencia y el desarrollo del niño.
+
+pervivencia y el desarrollo del niño.
 
    Asimismo, el derecho internacional reconoce una serie de derechos
 humanos de los NNA que tienen relación con el impacto que genera el
@@ -538,8 +528,10 @@ institucionalidad y las problemáticas que esta debiese enfrentar:
       de denuncia y a los Tribunales con la asistencia letrada y de otra índole
       necesaria.2
 
-
 ## 2 CRC, Observación General Número 5 de 2003, Medidas generales de aplicación
+
+**Definición Canónica:** de la Convención sobre los Derechos del Niño, Doc. ONU CRC/GC/2003/5, disponible en https://uni.cf/3xZJQgK.
+**Concordancias Legales:** artículo 12; artículo 61; artículo 13; artículo 14; artículo 10; artículo 11; artículo 23; artículos 11; artículo 15; artículo 16; artículo 69; artículos 72; artículo 79; artículos 68; artículo 68; artículo 74; artículo 30; Ley 21.302; Ley 19.968; Ley 16.618; Ley 21.430
 
 de la Convención sobre los Derechos del Niño, Doc. ONU CRC/GC/2003/5, disponible en https://uni.cf/3xZJQgK.
 
@@ -815,8 +807,10 @@ adolescente.
 
 Materiales Docentes                                                  Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Los derechos de niños, niñas y adolescentes
+**Concordancias Legales:** artículo 2; Ley 20.084; Ley 21.302
 
 Los derechos de niños, niñas y adolescentes
 
@@ -965,10 +959,16 @@ Derecho a la no discriminación
 La Convención sobre los Derechos del Niño lo define en su artículo 2 en
 los siguientes términos:
 
-
 ## 1. Los Estados partes respetarán los derechos enunciados en la presente
 
-      Convención y asegurarán su aplicación a cada niño sujeto a su jurisdic-
+**Definición Canónica:** Convención y asegurarán su aplicación a cada niño sujeto a su jurisdic-
+      ción, sin distinción alguna, independientemente de la raza, el color, el
+      sexo, el idioma, la religión, la opinión política o de otra índole, el origen
+      nacional, étnico o social, la posición económica, los impedimentos físi-
+      cos, el nacimiento o cualquier otra condición del niño, de sus padres o
+      de sus representantes legales.
+
+Convención y asegurarán su aplicación a cada niño sujeto a su jurisdic-
       ción, sin distinción alguna, independientemente de la raza, el color, el
       sexo, el idioma, la religión, la opinión política o de otra índole, el origen
       nacional, étnico o social, la posición económica, los impedimentos físi-
@@ -977,7 +977,12 @@ los siguientes términos:
 
 ## 2. Los Estados partes tomarán todas las medidas apropiadas para ga-
 
-      rantizar que el niño se vea protegido contra toda forma de discrimina-
+**Definición Canónica:** rantizar que el niño se vea protegido contra toda forma de discrimina-
+      ción o castigo por causa de la condición, las actividades, las opiniones
+      expresadas o las creencias de sus padres, o sus tutores o de sus familiares.
+**Concordancias Legales:** artículo 12 de la Convención sobre los Derechos del Niño
+
+rantizar que el niño se vea protegido contra toda forma de discrimina-
       ción o castigo por causa de la condición, las actividades, las opiniones
       expresadas o las creencias de sus padres, o sus tutores o de sus familiares.
 
@@ -988,16 +993,25 @@ Derecho a ser escuchado
 Este derecho ha sido reconocido por el artículo 12 de la Convención
 sobre los Derechos del Niño:
 
-
 ## 1. Los Estados partes garantizarán al niño que esté en condiciones de
 
-      formarse un juicio propio el derecho de expresar su opinión libremente
+**Definición Canónica:** formarse un juicio propio el derecho de expresar su opinión libremente
+      en todos los asuntos que afectan al niño, teniéndose debidamente en
+      cuenta las opiniones del niño, en función de la edad y madurez del niño.
+
+formarse un juicio propio el derecho de expresar su opinión libremente
       en todos los asuntos que afectan al niño, teniéndose debidamente en
       cuenta las opiniones del niño, en función de la edad y madurez del niño.
 
 ## 2. Con tal fin, se dará en particular al niño oportunidad de ser escucha-
 
-      do en todo procedimiento judicial o administrativo que afecte al niño,
+**Definición Canónica:** do en todo procedimiento judicial o administrativo que afecte al niño,
+      ya sea directamente o por medio de un representante o de un órgano
+      apropiado, en consonancia con las normas de procedimiento de la ley
+      nacional.
+**Concordancias Legales:** artículo 3 de la CDN; artículo 3; artículo 6 de la CDN
+
+do en todo procedimiento judicial o administrativo que afecte al niño,
       ya sea directamente o por medio de un representante o de un órgano
       apropiado, en consonancia con las normas de procedimiento de la ley
       nacional.
@@ -1047,14 +1061,12 @@ Derecho a la vida y el desarrollo
 Por su parte, este derecho ha sido reconocido por el artículo 6 de la
 CDN:
 
-
-## 1. Los Estados partes reconocen que todo niño tiene el derecho intrín-
-
-      seco a la vida.
-
 ## 2. Los Estados partes garantizarán en la máxima medida posible la su-
 
-      pervivencia y el desarrollo del niño.
+**Definición Canónica:** pervivencia y el desarrollo del niño.
+**Concordancias Legales:** Ley 20.084
+
+pervivencia y el desarrollo del niño.
 
 Derechos humanos de niños, niñas y adolescentes
 
@@ -1240,8 +1252,10 @@ sus derechos ante el sistema de justicia.
 
 Materiales Docentes                                                  Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** La Ley 21.302
+**Concordancias Legales:** artículo 1; Ley 21.302; Ley 21.430; Constitución Política
 
 La Ley 21.302
 
@@ -1347,10 +1361,14 @@ comprometidas por el Estado de Chile al Comité de Derechos del Niño
 de Naciones Unidas, cuya implementación corresponde al Poder Judicial.
 La propuesta, además, incluyó la designación de responsables encargados, entre los cuales el Comité de Modernización asumió implementar:
 
-
 ## 7. En el mediano plazo, una estandarización de procedimientos, a tra-
 
-      vés del diseño y socialización de criterios orientadores para la estanda-
+**Definición Canónica:** vés del diseño y socialización de criterios orientadores para la estanda-
+      rización de procedimientos para la evaluación de riesgos de vulneracio-
+      nes graves de derechos.
+**Concordancias Legales:** Ley 21.302
+
+vés del diseño y socialización de criterios orientadores para la estanda-
       rización de procedimientos para la evaluación de riesgos de vulneracio-
       nes graves de derechos.
 
@@ -1427,128 +1445,15 @@ Materiales Docentes                                                Capítulo 3
   Analizados los oficios remitidos, se observó que los siguientes tribunales cuentan con «protocolos escritos o no para la atención de casos
 complejos»:
 
-## 1. Juzgado de Familia de Iquique
-
-
-## 2. Juzgado de Letras, Garantía y Familia de Pozo Almonte
-
-
-## 3. Juzgado de Letras de Familia, Garantía y del Trabajo de Alto
-
-      Hospicio
-
-## 4. Juzgado de Letras y Garantía de Taltal
-
-
-## 5. Juzgado de Letras, Garantía, Familia y del Trabajo de Mejillones
-
-
-## 6. Juzgado de Familia de Antofagasta
-
-
-## 7. Juzgado de Familia de Copiapó
-
-
-## 8. Juzgado de Familia de Vallenar
-
-
-## 9. Juzgado de Letras y Garantía de Caldera
-
-
-## 10. Juzgado de Letras y Garantía de Freirina
-
-
-## 11. Juzgado de Letras y Garantía de Chañaral
-
-
-## 12. Juzgado de Letras de Diego de Almagro
-
-
-## 13. Juzgado de Familia de La Serena
-
-
-## 14. Juzgado de Familia de Ovalle
-
-
-## 15. Juzgado de Familia de Quillota
-
-
-## 16. Juzgado de Familia de Casablanca
-
-
-## 17. Juzgado de Familia de Limache
-
-
-## 18. Juzgado de Familia de Los Andes
-
-
-## 19. Juzgado de Familia de San Felipe
-
-
-## 20. Juzgado de Familia de Valparaíso
-
-
-## 21. Centro de Medidas Cautelares
-
-
-## 22. Juzgado de Familia de Colina
-
-
-## 23. Juzgado de Familia de Pudahuel
-
-
-## 24. Juzgado de Familia de San Bernardo
-
-
-## 25. Juzgado de Puente Alto
-
-
-## 26. Juzgado de Familia de Buin
-
-
-## 27. Juzgado de Letras, Garantía y Familia de Litueche
-
-
-## 28. Juzgado de Familia de San Fernando
-
-
-## 29. Juzgado de Letras y Garantía de San Vicente
-
-
-## 30. Juzgado de Letras y Garantía de Peumo
-
-
-## 31. Juzgado de Letras y Garantía de Peralillo
-
-
-## 32. Juzgado de Familia de Rancagua
-
-
-## 33. Juzgado de Pichilemu
-
-
-Academia Judicial de Chile                              Ley 21.302: cambios y desafíos
-Materiales Docentes                                                         Capítulo 3
-
-
-## 34. Juzgado de Familia de Santa Cruz
-
-
-## 35. Juzgado de Familia de Chillán
-
-
-## 36. Juzgado de Letras de Yungay
-
-
-## 37. Juzgado de Letras y Garantía de Quirihue
-
-
-## 38. Juzgado de Letras y Garantía de Coelemu
-
-
 ## 39. Juzgado de Letras y Garantía de Puerto Natales
 
-   Se observa que 39 de los 56 tribunales de familia que remitieron sus
+**Definición Canónica:** Se observa que 39 de los 56 tribunales de familia que remitieron sus
+respuestas cuentan con protocolos, instrucciones u otros instrumentos
+para abordar casos de alta complejidad, lo que corresponde al 70% y que
+podemos observar en la figura 1.
+**Concordancias Legales:** Ley 21.302
+
+Se observa que 39 de los 56 tribunales de familia que remitieron sus
 respuestas cuentan con protocolos, instrucciones u otros instrumentos
 para abordar casos de alta complejidad, lo que corresponde al 70% y que
 podemos observar en la figura 1.
@@ -1883,29 +1788,13 @@ categorizar el caso en alta, mediana o baja complejidad.
 la información recogida y la encuesta aplicada, se sugiere:
     1. Realizar la evaluación inicial por un consejero/a técnico/a.
 
-## 2. Consignar en una ficha el caso del NNA con el fin de realizar una
-
-       evaluación.
-
-## 3. Instalar la revisión como una herramienta central, de manera que
-
-       se inste por la realización de audiencias de revisión periódicas u
-       otras formas de revisión conforme los recursos humanos y mate-
-       riales del tribunal.
-
-## 4. Instar para la utilización del sistema de Registro Único de Segui-
-
-       miento (RUS) para conocimiento, seguimiento y evaluación de
-       casos complejos.
-
-## 5. Instar para que se realice la evaluación de la complejidad en to-
-
-       das las etapas del procedimiento (etapa preparatoria, de juicio y
-       revisión).
-
 ## 6. Incorporar a los planes de trabajo la adopción de un protocolo
 
-       para el abordaje de casos complejos de vulneraciones graves de
+**Definición Canónica:** para el abordaje de casos complejos de vulneraciones graves de
+       derechos.
+**Concordancias Legales:** artículos 18; artículo 37; artículo 72 de la Ley 19.968 sobre Tribunales de Familia; Ley 21.302; Ley 19.968; Ley 21.430; constitución
+
+para el abordaje de casos complejos de vulneraciones graves de
        derechos.
 
 Propuesta de tipología de casos complejos
@@ -2211,11 +2100,13 @@ para una mayor comprensión por parte del usuario de las mejoras realizadas en e
 Academia Judicial de Chile                                             Ley 21.302: cambios y desafíos
 Materiales Docentes                                                                        Capítulo 3
 
-
 ## 1. Resumen general del flujo del nuevo Servicio Mejor Niñez
 
+**Definición Canónica:** Derivación                   Pide cuenta                  Deja sin efecto
+              dirección regional                derivación                   la derivación
+**Concordancias Legales:** Ley 21.302
 
-                  Derivación                   Pide cuenta                  Deja sin efecto
+Derivación                   Pide cuenta                  Deja sin efecto
               dirección regional                derivación                   la derivación
 
               Objetivo: Realizar la       Objetivo: Pedir cuenta al     Objetivo: Informar al nuevo
@@ -2285,8 +2176,10 @@ Materiales Docentes                                                             
 Academia Judicial de Chile                         Ley 21.302: cambios y desafíos
 Materiales Docentes                                                    Capítulo 3
 
-
 ## 2. Resumen flujo de interconexión
+
+**Definición Canónica:** Flujo de nomenclatura: derivación director regional
+**Concordancias Legales:** Ley 21.302
 
 Flujo de nomenclatura: derivación director regional
 
@@ -2300,58 +2193,25 @@ Flujo de rectificación de respuesta desde director regional a Poder Judicial
 Academia Judicial de Chile            Ley 21.302: cambios y desafíos
 Materiales Docentes                                       Capítulo 3
 
-
-## 3. Nomenclatura derivación dirección regional
-
-
-
-## Sección: Litigantes grabados para derivación a director regional
-
-
-
 ## Sección: Datos para nueva derivación
 
+**Definición Canónica:** Academia Judicial de Chile   Ley 21.302: cambios y desafíos
+Materiales Docentes                              Capítulo 3
+**Concordancias Legales:** Ley 21.302
 
-Academia Judicial de Chile   Ley 21.302: cambios y desafíos
+Academia Judicial de Chile   Ley 21.302: cambios y desafíos
 Materiales Docentes                              Capítulo 3
 
 Academia Judicial de Chile    Ley 21.302: cambios y desafíos
 Materiales Docentes                               Capítulo 3
 
-
-## Sección: Adulto responsable
-
-
-Academia Judicial de Chile   Ley 21.302: cambios y desafíos
-Materiales Docentes                              Capítulo 3
-
-
-## Sección: Línea de acción
-
-
-Academia Judicial de Chile                     Ley 21.302: cambios y desafíos
-Materiales Docentes                                                Capítulo 3
-
-
-## Sección: Causales de derivación y derecho vulnerado
-
-
-
-## Sección: Objetivo de la medida adoptada
-
-
-
-## Sección: Objetivos generales y consideraciones individuales
-
-
-Academia Judicial de Chile                     Ley 21.302: cambios y desafíos
-Materiales Docentes                                                Capítulo 3
-
-
 ## Sección: Complejidad, plazo de intervención y plazo de remisión informe
 
+**Definición Canónica:** Academia Judicial de Chile                    Ley 21.302: cambios y desafíos
+Materiales Docentes                                               Capítulo 3
+**Concordancias Legales:** Ley 21.302
 
-Academia Judicial de Chile                    Ley 21.302: cambios y desafíos
+Academia Judicial de Chile                    Ley 21.302: cambios y desafíos
 Materiales Docentes                                               Capítulo 3
 
 Ejemplo de oficio conductor que se envía al momento
@@ -2360,18 +2220,12 @@ de la firma a Mejor Niñez
 Academia Judicial de Chile          Ley 21.302: cambios y desafíos
 Materiales Docentes                                     Capítulo 3
 
-
-## 4. Nomenclatura pide cuenta derivación
-
-
-Academia Judicial de Chile                                Ley 21.302: cambios y desafíos
-Materiales Docentes                                                           Capítulo 3
-
-
 ## Sección única
 
+**Definición Canónica:** Imagen del efecto antes de grabar
+**Concordancias Legales:** Ley 21.302
 
-                             Imagen del efecto antes de grabar
+Imagen del efecto antes de grabar
 
           Imagen del efecto una vez grabado con su documento automático
 
@@ -2380,18 +2234,12 @@ Materiales Docentes                                                           Ca
 Academia Judicial de Chile            Ley 21.302: cambios y desafíos
 Materiales Docentes                                       Capítulo 3
 
-
-## 5. Nomenclatura deja sin efecto derivación
-
-
-Academia Judicial de Chile                                Ley 21.302: cambios y desafíos
-Materiales Docentes                                                           Capítulo 3
-
-
 ## Sección única
 
+**Definición Canónica:** Imagen del efecto antes de grabar
+**Concordancias Legales:** Ley 21.302
 
-                             Imagen del efecto antes de grabar
+Imagen del efecto antes de grabar
 
                 Efecto una vez grabado con su documento automático
 
@@ -2400,11 +2248,15 @@ Materiales Docentes                                                           Ca
 Academia Judicial de Chile                     Ley 21.302: cambios y desafíos
 Materiales Docentes                                                Capítulo 3
 
-
 ## 6. Visualización de derivación en binoculares
 
+**Definición Canónica:** Al seleccionar el ícono de binoculares se abre la sección de arrestos,
+órdenes de búsqueda y ahora se agrega la pestaña de Mejor Niñez. Dicha
+sección muestra el historial del uso de las nomenclaturas (derivación,
+pide cuenta o deja sin efecto derivación)
+**Concordancias Legales:** Ley 21.302
 
-  Al seleccionar el ícono de binoculares se abre la sección de arrestos,
+Al seleccionar el ícono de binoculares se abre la sección de arrestos,
 órdenes de búsqueda y ahora se agrega la pestaña de Mejor Niñez. Dicha
 sección muestra el historial del uso de las nomenclaturas (derivación,
 pide cuenta o deja sin efecto derivación)
@@ -2418,41 +2270,11 @@ Informe Mejor Niñez
 Academia Judicial de Chile    Ley 21.302: cambios y desafíos
 Materiales Docentes                               Capítulo 3
 
-
-## 8. Nomenclaturas de ingreso
-
-
-Academia Judicial de Chile           Ley 21.302: cambios y desafíos
-Materiales Docentes                                      Capítulo 3
-
-
-## 9. Búsqueda de litigantes con pasaporte
-
-
-Academia Judicial de Chile           Ley 21.302: cambios y desafíos
-Materiales Docentes                                      Capítulo 3
-
-
-## 10. Liberación de cambios en rut no confirmados desde
-
-botón modificación
-
-Academia Judicial de Chile            Ley 21.302: cambios y desafíos
-Materiales Docentes                                       Capítulo 3
-
-
-## 11. Nueva bandeja de firma LTE, se agrega pestaña
-
-con trámites firmados
-
-
-## 12. Botón otros antecedentes (nombre social, país)
-
-
-Materiales Docentes                                                   Capítulo 4
-
-
 ## Capítulo 4
+
+**Definición Canónica:** Política de Efectivización de Derechos de Niños,
+Niñas y Adolescentes
+**Concordancias Legales:** artículo 13 del Protocolo Facultativo de la Convención de Der; Ley 21.302
 
 Política de Efectivización de Derechos de Niños,
 Niñas y Adolescentes
@@ -2520,33 +2342,12 @@ específicas de la Política. Este se organiza a través de 7 ejes específicos,
 como se puede ver en la figura 1. A su vez, cada eje posee subejes, dimensiones y acciones, como se aprecia en la figura 2. Y finalmente, existen plazos para ejecutar las acciones que son: i) corto: 1 año; ii) mediano:
 3 años; iii) largo: 5 años.
 
-
-## 1. Promoción de derechos
-
-
-
-## 2. Datos y estadísticas
-
-
-
-## 3. Recursos
-
-
-                 Ejes                   4. Participación de NNA
-
-
-## 5. Alianzas interinstitucionales
-
-
-
-## 6. Normativo
-
-
-
 ## 7. Institucionalidad
 
+**Definición Canónica:** Figura 1. Ejes de la Política de Efectivización
+**Concordancias Legales:** Ley 21.302
 
-                        Figura 1. Ejes de la Política de Efectivización
+Figura 1. Ejes de la Política de Efectivización
 
                                              Subejes
 
@@ -2718,8 +2519,11 @@ Se entiende que los técnicos tienen
 un rol específico en la implementación
                                        reconocidos.
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Medidas administrativas adoptadas
+por el Poder Judicial
+**Concordancias Legales:** artículos 68; artículo 68; artículo 70; artículo 71; artículo 30 de la Ley 16.618; artículo 72; artículo 73; artículo 75; artículo 77; artículo 46; artículo 80; artículo 78; artículo 76; artículo 78 de la Ley 19.968 que no fue modificado por la Ley 2; artículo 30 de la Ley 16.618 de Menores; artículo 3 de la Ley 20.886 que; artículo 81 del Acta 71; artículo 3; artículo 4 del Acta 37; artículo 30 de la Ley 16.618 establece que esta tendrá un; artículo 76 de la Ley 19.968; artículo 78 de la Ley 19.968; artículo 5; artículo 12; artículo 13 del Protocolo Faculta; Ley 21.302; Ley 21.430; Ley 19.968; Ley 16.618; Ley 20.886; Ley 21.057; Ley 2.465; Constitución Política; constitucion
 
 Medidas administrativas adoptadas
 por el Poder Judicial

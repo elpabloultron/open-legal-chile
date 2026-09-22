@@ -13,11 +13,21 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Decimo cuarta parte: aceptacion y repudiacion de las
-
-
 ## Asignaciones por causa de muerte1
 
+**Definición Canónica:** Sumario:
+1.- Actitudes que puede asumir el asignatario.
+2.- Libertad para aceptar o repudiar.
+3.- Oportunidad para aceptar o repudiar una asignación.
+4.- Capacidad para aceptar o repudiar.
+5.- Características de la aceptación y repudiación.
+6.- Formas de aceptar la asignación.
+7.- Forma de repudiar la asignación.
+8.- Repudiación en perjuicio de los acreedores.
+9.- Sustracción de efectos hereditarios.
+10.- Efectos absolutos de la cosa juzgada en relación con la aceptación de la herencia.
+11.- Efectos de la aceptación pura y simple de la herencia.
+**Concordancias Legales:** artículo 1225; artículo 1231; artículo 1233; artículo 1749; artículo 1226; artículo 1232; artículo 397; artículo 398; artículo 255; artículo 1227; artículo 1228; artículo 957; artículo 1229; artículo 1239; artículo 722; artículo 1242; artículo 6; artículo 3; artículo 1246; artículo 1097; artículo 1245; Ley Nº 19.585
 
 Sumario:
 1.- Actitudes que puede asumir el asignatario.

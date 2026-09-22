@@ -13,19 +13,19 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos                                                          09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** contenciosa
+             administrativa
+                      El control de la
+                      administración
+                      por los tribunales
+                      ordinarios y
+                      especiales y
+                      procedimientos
+                      aplicables
 
-             contenciosa
+contenciosa
              administrativa
                       El control de la
                       administración
@@ -42,19 +42,23 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Sandra
+                Autora        Ponce de León
+Academia                      Salucci
+Judicial
+de Chile                 Magíster en Derecho Público con
+                         mención en Derecho Constitucional
+Diseño y                 de la Pontificia Universidad Católica
+Diagramación:            de Chile, es profesora de Derecho
+Estudio Real             Administrativo y Constitucional. Essomosreal.cl             pecialista en materias constitucio-
+                         nales, administrativas y regulatorias,
+Material                 es autora de varias publicaciones en
+docente Nº 6     
+**Concordancias Legales:** Constitucion
 
-                         Sandra
+Sandra
                 Autora        Ponce de León
 Academia                      Salucci
 Judicial
@@ -81,10 +85,16 @@ Chile 2020               la República
                                                                             órganos de la administración pública por efecto del ejercicio de las
                                                                             potestades y funciones asignadas a ellos.
 
-
 ## 1   La primera versión es de 2016 y más tarde fue publicada dentro de la colección Cuadernos Jurídicos de la
 
-                                            Academia Judicial por DER Ediciones (2018), bajo el título Jurisdicción contencioso-administrativa. El control
+**Definición Canónica:** Academia Judicial por DER Ediciones (2018), bajo el título Jurisdicción contencioso-administrativa. El control
+                                            de la administración por los tribunales ordinarios y especiales procedimientos aplicables. Agradezco espe-
+                                            cialmente la colaboración prestada a esta actualización, específicamente en la búsqueda de jurisprudencia
+                                            reciente, a mis queridos ayudantes de investigación Gustavo Osorio Armstrong y María Paz Correa.
+Jurisdicción                            Introd
+**Concordancias Legales:** Constitución Política; Constitucion
+
+Academia Judicial por DER Ediciones (2018), bajo el título Jurisdicción contencioso-administrativa. El control
                                             de la administración por los tribunales ordinarios y especiales procedimientos aplicables. Agradezco espe-
                                             cialmente la colaboración prestada a esta actualización, específicamente en la búsqueda de jurisprudencia
                                             reciente, a mis queridos ayudantes de investigación Gustavo Osorio Armstrong y María Paz Correa.
@@ -134,139 +144,69 @@ Chile 2020               la República
 
                                         Introducción                                                                                        7
 
-
 ## 1. La revisión del acto administrativo en el ordenamiento jurídico nacional                       14
 
-
-                                           1.1	Principio de juridicidad administrativa y su vinculación con los principios de control
+**Definición Canónica:** 1.1	Principio de juridicidad administrativa y su vinculación con los principios de control
                                                 y de responsabilidad                                                                      15
 
-
-## 1.2 La revisión de oficio de los actos administrativos. La revocación y la invalidación.       24
-
-
-
-## 1.2.1   La revocación                                                                    24
-
-
-
-## 1.2.2   La invalidación                                                                  26
-
-
-
-## 1.3 Principio de impugnabilidad de los actos administrativos                                   35
-
-
-
-## 1.3.1   Impugnación mediante recursos administrativos                                    38
-
-
-
-## 1.3.2   Impugnación ante la Contraloría General de la República                          40
-
-
-
-## 1.3.3   Impugnación mediante acciones o recursos jurisdiccionales                        42
-
-
-
-## 1.3.4   Incompatibilidad entre las vías de impugnación administrativa y jurisdiccional   46
-
-
-
-## 1.3.5   Interrupción del plazo del recurso jurisdiccional                                47
-
-
-
-## 2. Conceptos de lo contencioso-administrativo o del procedimiento contencioso-administrativo      54
-
-
-
-## 3. Actos administrativos que pueden dar origen al procedimiento contencioso-administrativo        58
-
-
-
-## 3.1 Respecto de las acciones                                                                   60
-
-
-
-## 3.2 Respecto de las omisiones                                                                  63
-
-
-
-## 4. Breve descripción de la evolución de la justicia administrativa en Chile                        64
-
-
+1.1	Principio de juridicidad administrativa y su vinculación con los principios de control
+                                                y de responsabilidad                                                                      15
 
 ## 5. Recursos, procedimientos y tribunales contencioso-administrativos                              78
 
-
-                                           5.1	Tribunales, recursos y procedimientos contencioso-administrativo que contempla
+**Definición Canónica:** 5.1	Tribunales, recursos y procedimientos contencioso-administrativo que contempla
                                                 la Constitución de 1980                                                                   80
+**Concordancias Legales:** Constitución
 
-
-## 5.1.1   Acción de protección de las garantías constitucionales (artículo 20)             80
-
-
-
-## 5.1.2   Nulidad de derecho público (artículo 7, inciso tercero)                           85
-
-
+5.1	Tribunales, recursos y procedimientos contencioso-administrativo que contempla
+                                                la Constitución de 1980                                                                   80
 
 ## 5.1.3   Acción constitucional de amparo (artículo 21)                                    96
 
-
-                                                 5.1.4 	Reclamo por causa de privación o desconocimiento de la nacionalidad chilena
+**Definición Canónica:** 5.1.4 	Reclamo por causa de privación o desconocimiento de la nacionalidad chilena
                                                          por un acto o resolución administrativa (artículo 12)                            103
+**Concordancias Legales:** artículo 12
 
-
-## 5.1.5   Reclamos asociados al acto administrativo expropiatorio (artículo 19, N° 24)     107
-
-
+5.1.4 	Reclamo por causa de privación o desconocimiento de la nacionalidad chilena
+                                                         por un acto o resolución administrativa (artículo 12)                            103
 
 ## 5.1.6   Reclamo de ilegalidad de la expropiación (artículo 9)                            108
 
-
-                                                 5.1.7 	Reclamo para la determinación definitiva de la indemnización de los daños
+**Definición Canónica:** 5.1.7 	Reclamo para la determinación definitiva de la indemnización de los daños
                                                          efectivamente causados por el acto expropiatorio                                 113
 Jurisdicción                                                                        Índice                                                                 6
 
-
-## 5.1.8   La toma de posesión material del bien expropiado                                         124
-
-
-
-## 5.1.9   Frutos pendientes                                                                        125
-
-
-
-## 5.1.10 Liquidación de la indemnización                                                           125
-
-
-                                        6. Tribunales, recursos y procedimientos contencioso-administrativos con fuente en la legislación           127
-
+5.1.7 	Reclamo para la determinación definitiva de la indemnización de los daños
+                                                         efectivamente causados por el acto expropiatorio                                 113
+Jurisdicción                                                                        Índice                                                                 6
 
 ## 6.1 Acción de amparo económico (artículo único Ley N° 18.971)                                            130
 
+**Definición Canónica:** 6.2	Reclamo de ilegalidad del artículo 151 de la Ley Orgánica Constitucional de
+                                                Municipalidades (Ley N° 18.695)                                                                     145
+**Concordancias Legales:** artículo 151 de la Ley Orgánica Constitucional de; artículo 108 de la Ley Orgánica Constitucional de Gobierno; Ley N° 18.695; Ley N° 19.175; Constitucion
 
-                                           6.2	Reclamo de ilegalidad del artículo 151 de la Ley Orgánica Constitucional de
+6.2	Reclamo de ilegalidad del artículo 151 de la Ley Orgánica Constitucional de
                                                 Municipalidades (Ley N° 18.695)                                                                     145
 
                                            6.3	Reclamo de ilegalidad del artículo 108 de la Ley Orgánica Constitucional de Gobierno
                                                 y Administración Regional (Ley N° 19.175)                                                           160
 
-
 ## 6.4 Acción por vulneración de derechos del contribuyente (Ley N° 20.322 y Ley N° 20.420)                 162
 
-
-                                           6.5	Tribunal de Defensa de la Libre Competencia (DFL N° 1, de 2005, del Ministerio de
+**Definición Canónica:** 6.5	Tribunal de Defensa de la Libre Competencia (DFL N° 1, de 2005, del Ministerio de
                                                 Economía, que fija el texto refundido, coordinado y sistematizado del DL N° 211, de 1973)           174
+**Concordancias Legales:** DL N° 211
 
+6.5	Tribunal de Defensa de la Libre Competencia (DFL N° 1, de 2005, del Ministerio de
+                                                Economía, que fija el texto refundido, coordinado y sistematizado del DL N° 211, de 1973)           174
 
 ## 6.6 Reclamación contra sanciones administrativas regulada en el Código Sanitario (artículos 171 y ss.)   186
 
+**Definición Canónica:** Preguntas y respuestas                                                                                       189
+**Concordancias Legales:** artículo 1; artículo 38; artículo 65 de la Constitución Política de la República; artículo 58 del DFL 323; artículos 137; artículo 11 del Código de Minería; artículo 6; artículo 19 de la Ley Nº 18.410 de 1985; artículos 13; artículo 22 del DFL N; artículos 27 bis; artículo 56 de la Ley Nº 20.417 de 2010; artículo 85 de la Ley Nº 20.529 de 2011; artículo 341 de la Ley Nº 20.720 de 2014; artículo 51 de la Ley Nº 21.091 de 2018; artículos 70; artículo 19; Ley Nº 18.410; Ley Nº 18.902; Ley Nº 19.995; Ley Nº 20.417; Ley Nº 20.529; Ley Nº 20.720; Ley Nº 21.091; Ley Nº 21.000; DFL 323; Constitución Política; constitucion
 
-                                        Preguntas y respuestas                                                                                       189
+Preguntas y respuestas                                                                                       189
 
                                         Glosario                                                                                                     201
 
@@ -448,10 +388,13 @@ Chile 2020               la República
                                                                               como marco de referencia necesario en la materia, recordaremos que
                                                                               este problema se ha intentado resolver a través de dos sistemas10:
 
-
 ## 1. Sistema Francés o del Régimen administrativo
 
-                                                                              Muy vinculado a los principios emanados de la Revolución Francesa
+**Definición Canónica:** Muy vinculado a los principios emanados de la Revolución Francesa
+                                                                              (1789) y, sobre todo, por el de la separación de los poderes en Eje-
+                                                                              cutivo, Legislativo y Judicial11.
+
+Muy vinculado a los principios emanados de la Revolución Francesa
                                                                               (1789) y, sobre todo, por el de la separación de los poderes en Eje-
                                                                               cutivo, Legislativo y Judicial11.
 
@@ -478,7 +421,14 @@ Chile 2020               la República
 
 ## 10   Se sugiere revisar la breve reseña histórica sobre el contencioso-administrativo en el Estado de derecho
 
-                                             chileno y comparado en BORDALI, Andrés (2005), pp. 343-353.
+**Definición Canónica:** chileno y comparado en BORDALI, Andrés (2005), pp. 343-353.
+                                        11   El control administrativo aparece en plena Revolución Francesa en el año 1789, en la Declaración de los De-
+                                             rechos del Hombre y del Ciudadano, con el sometimiento del hombre al poder de la ley y luego confirmado
+                                             y plasmado en la Constitución de 1791, en sus artículos 5 y 6, lo cual fue posteriormente copiado en cierta
+                                             medida en nuestras constituciones desde 
+**Concordancias Legales:** artículos 5; Constitución; constitucion
+
+chileno y comparado en BORDALI, Andrés (2005), pp. 343-353.
                                         11   El control administrativo aparece en plena Revolución Francesa en el año 1789, en la Declaración de los De-
                                              rechos del Hombre y del Ciudadano, con el sometimiento del hombre al poder de la ley y luego confirmado
                                              y plasmado en la Constitución de 1791, en sus artículos 5 y 6, lo cual fue posteriormente copiado en cierta
@@ -504,10 +454,15 @@ Chile 2020               la República
                                                                              ciones entre los particulares y, en consecuencia, se encuentra sujeto
                                                                              a una jurisdicción distinta de la ordinaria12.
 
-
 ## 2. Sistema Inglés, Judicialista o de la Regla de
 
-                                                                             derecho (Gran Bretaña, Estados Unidos y España)
+**Definición Canónica:** derecho (Gran Bretaña, Estados Unidos y España)
+                                                                             Según este sistema, los tribunales de justicia son los competentes para
+                                                                             solucionar los conflictos que se susciten entre la Administración y los
+                                                                             administrados cuando esta, por un acto u omisión, ha causado algún
+                                                                             perjuicio al particular tanto en 
+
+derecho (Gran Bretaña, Estados Unidos y España)
                                                                              Según este sistema, los tribunales de justicia son los competentes para
                                                                              solucionar los conflictos que se susciten entre la Administración y los
                                                                              administrados cuando esta, por un acto u omisión, ha causado algún
@@ -516,10 +471,15 @@ Chile 2020               la República
                                                                              anglosajón, el Poder Judicial es el único que está llamado a conocer
                                                                              de cualquier controversia, sea cual fuere su naturaleza. Además,
 
-
 ## 12   La justicia ordinaria había comenzado a rehuir su competencia para conocer de las demandas que se le
 
-                                             presentaban en contra de actos administrativos, como también de asuntos que incidían en las prestaciones
+**Definición Canónica:** presentaban en contra de actos administrativos, como también de asuntos que incidían en las prestaciones
+                                             recíprocas que se deben el Fisco y el contratista, derivados de los contratos administrativos. Posteriormente,
+                                             se planteó el caso de un particular (el señor Blanco), que demandó perjuicios contra el Estado con motivo de
+                                             un accidente que sufriera su hijo, causado por un vehículo fiscal. El Consejo de Estado de Francia se declaró
+                              
+
+presentaban en contra de actos administrativos, como también de asuntos que incidían en las prestaciones
                                              recíprocas que se deben el Fisco y el contratista, derivados de los contratos administrativos. Posteriormente,
                                              se planteó el caso de un particular (el señor Blanco), que demandó perjuicios contra el Estado con motivo de
                                              un accidente que sufriera su hijo, causado por un vehículo fiscal. El Consejo de Estado de Francia se declaró
@@ -527,7 +487,13 @@ Chile 2020               la República
 
 ## 1. Que en este pleito se va a juzgar el funcionamiento de un servicio público y, en esa medida, esta materia
 
-                                             queda regida por el derecho administrativo y no por el derecho común. Por lo tanto, esta demanda consti-
+**Definición Canónica:** queda regida por el derecho administrativo y no por el derecho común. Por lo tanto, esta demanda consti-
+                                             tuye un asunto administrativo y no judicial. 2. Que la indemnización de daños que se demanda en este caso
+                                             tampoco queda regida por el derecho común, sino por el derecho público. En este fallo, por primera vez se
+                                             advierte el principio de la “falta de servicio público”, que posteriormente ha sido desarrollado por la doctrina
+                                   
+
+queda regida por el derecho administrativo y no por el derecho común. Por lo tanto, esta demanda consti-
                                              tuye un asunto administrativo y no judicial. 2. Que la indemnización de daños que se demanda en este caso
                                              tampoco queda regida por el derecho común, sino por el derecho público. En este fallo, por primera vez se
                                              advierte el principio de la “falta de servicio público”, que posteriormente ha sido desarrollado por la doctrina
@@ -539,10 +505,18 @@ Chile 2020               la República
                                         común para todos los integrantes de la sociedad; para gobernantes
                                         y gobernados.
 
-
 ## 3. Sistemas mixtos (Alemania, Italia, Países Bajos)
 
-                                        Se han establecido tribunales integrados por personas ajenas a la
+**Definición Canónica:** Se han establecido tribunales integrados por personas ajenas a la
+                                        Administración y al Poder Judicial, pero que son técnicos en la
+                                        materia. De esta manera sus fallos pueden ser considerados como
+                                        buenos y justos, tanto por la independencia de que gozan como por
+                                        los conocimientos que tienen sobre los asuntos administrativos.
+                                        Así, básicamente, los actos administrativos se someten al control
+          
+**Concordancias Legales:** Ley Nº 19.880; Constitución Política; Constitucion
+
+Se han establecido tribunales integrados por personas ajenas a la
                                         Administración y al Poder Judicial, pero que son técnicos en la
                                         materia. De esta manera sus fallos pueden ser considerados como
                                         buenos y justos, tanto por la independencia de que gozan como por
@@ -567,10 +541,13 @@ Chile 2020               la República
 Jurisdicción                                  1. La revisión del acto administrativo                                     15
 Contenciosa                                      en el ordenamiento jurídico nacional
 
-
 ## 1.1     Principio de juridicidad administrativa
 
-                                                y su vinculación con los principios de
+**Definición Canónica:** y su vinculación con los principios de
+                                                control y de responsabilidad
+**Concordancias Legales:** artículo 5; artículo 19; artículo 20; artículo 21; artículo 38; artículo 24; artículo 27; artículos 6; artículo 6; artículo 7; artículo 6 de la Carta; artículo 93; Constitución; constitucion; Constitución Política
+
+y su vinculación con los principios de
                                                 control y de responsabilidad
 
                                                 La Carta Fundamental chilena de 1980 refleja de manera clara las
@@ -891,7 +868,12 @@ Contenciosa                                                                 en e
 
 ## 93 N° 9 CPR), y c) control de constitucionalidad de los decretos
 
-                                                                           supremos, en caso de que estos se refieran a materias que pudieran
+**Definición Canónica:** supremos, en caso de que estos se refieran a materias que pudieran
+                                                                           estar reservadas a la ley por mandato de la Carta Fundamental (ar-
+                                                                           tículo 93 N° 16 CPR).
+**Concordancias Legales:** artículos 98; artículo 28 de la Ley; Ley N° 19.880; Constitución Política
+
+supremos, en caso de que estos se refieran a materias que pudieran
                                                                            estar reservadas a la ley por mandato de la Carta Fundamental (ar-
                                                                            tículo 93 N° 16 CPR).
 
@@ -939,10 +921,16 @@ Contenciosa                                                                 en e
                                                                            encuentran reguladas en la Ley de Procedimientos Administrativos,
                                                                            N° 19.880, a saber: la revocación y la invalidación.
 
-
 ## 1.2.1 La revocación
 
-                                                                           Consiste en un acto administrativo de contrario imperio que emite la
+**Definición Canónica:** Consiste en un acto administrativo de contrario imperio que emite la
+                                                                           autoridad administrativa competente para dejar sin efecto otro acto
+                                                                           de igual naturaleza por razones de mérito, esto es, atendida la opor-
+                                                                           tunidad y conveniencia de la medida considerando razones de bien
+                                                                           común o interés público.
+**Concordancias Legales:** artículo 61 de la Ley N; artículo 61; artículo 19; Ley N° 19.880; Constitución Política
+
+Consiste en un acto administrativo de contrario imperio que emite la
                                                                            autoridad administrativa competente para dejar sin efecto otro acto
                                                                            de igual naturaleza por razones de mérito, esto es, atendida la opor-
                                                                            tunidad y conveniencia de la medida considerando razones de bien
@@ -1011,10 +999,14 @@ Contenciosa                                                                  en 
                                                                                o en un informe o un dictamen (actos de juicio o conocimiento)
                                                                                y en los actos de efectos instantáneos.
 
-
 ## 1.2.2 La invalidación
 
-                                                                            Es el acto de contrario imperio dictado por la autoridad administrativa
+**Definición Canónica:** Es el acto de contrario imperio dictado por la autoridad administrativa
+                                                                            competente a través del cual se deja sin efecto otro acto de igual
+                                                                            naturaleza que se encuentra viciado de ilegalidad.
+**Concordancias Legales:** artículos 6; artículo 10 de la Ley Nº; artículo 19; artículo 53; artículo 19 de la Carta Fundamental; Ley Nº 19.880; Ley N° 19.880; Constitución; Constitucion
+
+Es el acto de contrario imperio dictado por la autoridad administrativa
                                                                             competente a través del cual se deja sin efecto otro acto de igual
                                                                             naturaleza que se encuentra viciado de ilegalidad.
 
@@ -1115,10 +1107,11 @@ Contenciosa                                                                 en e
                                                                            Carta Fundamental; sin que obste a considerarlo así la circunstancia
                                                                            de no haberse invocado esta norma por el recurrente. Además, con
 
-
 ## 21   CA Santiago, 7 de diciembre de 2006, recurso de protección “Inmobiliaria Camino San Antonio S.A. c/ DOM
 
-                                             de Las Condes”, en Jurisprudencia al día N°38, LexisNexis, p. 465.
+**Definición Canónica:** de Las Condes”, en Jurisprudencia al día N°38, LexisNexis, p. 465.
+
+de Las Condes”, en Jurisprudencia al día N°38, LexisNexis, p. 465.
 
 Jurisdicción                                                             1. La revisión del acto administrativo                                    29
 Contenciosa                                                                 en el ordenamiento jurídico nacional
@@ -1158,10 +1151,13 @@ Contenciosa                                                                 en e
                                                                            dictado, en la medida que se cumplan todos los requisitos legales
                                                                            previstos al efecto”23.
 
-
 ## 22   Sentencia de la Corte Suprema rol 7728-13, Sociedad Concesiones Iquique S.A. con Ilustre Municipalidad de
 
-                                             Iquique, considerando cuarto.
+**Definición Canónica:** Iquique, considerando cuarto.
+                                        23   Dictamen N° 22.139, de 2019.
+**Concordancias Legales:** artículo 7 de la Constitución Política; artículo 13 de la Ley N; artículo 53; artículo 1; artículo 6 de la Constitución Política de la República; artículos 13; Ley N° 19.880; Ley Nº 19.880; Constitución Política; Constitución
+
+Iquique, considerando cuarto.
                                         23   Dictamen N° 22.139, de 2019.
 
 Jurisdicción                                                              1. La revisión del acto administrativo                                30
@@ -1340,10 +1336,12 @@ Contenciosa                                                                  en 
 Jurisdicción                                  1. La revisión del acto administrativo                                        35
 Contenciosa                                      en el ordenamiento jurídico nacional
 
-
 ## 1.3     Principio de impugnabilidad de
 
-                                                los actos administrativos
+**Definición Canónica:** los actos administrativos
+**Concordancias Legales:** artículo 3 de la Ley; Ley N° 19.880
+
+los actos administrativos
 
                                                 Impugnar, en sentido amplio y vulgar, significa revisar. Según el Dic-
                                                 cionario de la Real Academia Española de la Lengua, revisar significa
@@ -1364,7 +1362,15 @@ Contenciosa                                      en el ordenamiento jurídico na
 
 ## parte de la Administración pueden instar la revisión de los actos
 
-                                                dictados por esta, con la finalidad de que sean aclarados, modificados
+**Definición Canónica:** dictados por esta, con la finalidad de que sean aclarados, modificados
+                                                o revocados. La formulación de recursos depende exclusivamente
+                                                del sujeto afectado. La impugnabilidad de los actos administrativos
+                                                no se inicia por imperativo oficial (a excepción de la invalidación de
+                                                oficio y de la revocación), sino por decisión unilateral del interesado
+                                                que se consider
+**Concordancias Legales:** artículo 38; artículos 2; Artículo 2; Artículo 10; Constitución Política; constitucion; Constitución
+
+dictados por esta, con la finalidad de que sean aclarados, modificados
                                                 o revocados. La formulación de recursos depende exclusivamente
                                                 del sujeto afectado. La impugnabilidad de los actos administrativos
                                                 no se inicia por imperativo oficial (a excepción de la invalidación de
@@ -1421,10 +1427,13 @@ Contenciosa                                                                en el
                                                                           correspondiente, sin perjuicio de las acciones jurisdiccionales a que
                                                                           haya lugar”.
 
-
 ## 29   Entre otros, ver ARÓSTICA, Iván (1989), pp. 455-464; REYES RIVEROS, Jorge (2002); CORDERO VEGA, Luis
 
-                                             (2003), pp. 549-552; MORAGA KLENNER, Claudio (2010); FERRADA, Juan Carlos (2011), pp. 251-277; BERMÚ-
+**Definición Canónica:** (2003), pp. 549-552; MORAGA KLENNER, Claudio (2010); FERRADA, Juan Carlos (2011), pp. 251-277; BERMÚ-
+                                             DEZ SOTO, Jorge (2011), y LARA ARROYO, José Luis y SCHNEIDER, Antonia (2018), pp. 19-35.
+**Concordancias Legales:** artículos 3; Artículo 3; Artículo 4; Artículo 15; Ley Nº 19.880
+
+(2003), pp. 549-552; MORAGA KLENNER, Claudio (2010); FERRADA, Juan Carlos (2011), pp. 251-277; BERMÚ-
                                              DEZ SOTO, Jorge (2011), y LARA ARROYO, José Luis y SCHNEIDER, Antonia (2018), pp. 19-35.
 
 Jurisdicción                            1. La revisión del acto administrativo                                       37
@@ -1469,10 +1478,15 @@ Contenciosa                                                                en el
 Jurisdicción                                                            1. La revisión del acto administrativo                               38
 Contenciosa                                                                en el ordenamiento jurídico nacional
 
-
 ## 1.3.1 Impugnación mediante recursos administrativos
 
-                                                                          Los recursos administrativos son aquellos procedimientos adminis-
+**Definición Canónica:** Los recursos administrativos son aquellos procedimientos adminis-
+                                                                          trativos de carácter impugnatorio en cuya virtud, el afectado por un
+                                                                          acto administrativo insta del órgano administrativo, autor del mismo,
+                                                                          su anulación por motivos de legalidad30.
+**Concordancias Legales:** artículo 10 de la Ley N; artículo 59 de la Ley N; artículo 11 de la Ley Nº 18.575; artículo 60 de la Ley N; artículo 60; artículo 62 de la Ley N; Ley N° 18.575; Ley N° 19.880; Ley Nº 18.575; Ley Nº 19.880; ley 19.880
+
+Los recursos administrativos son aquellos procedimientos adminis-
                                                                           trativos de carácter impugnatorio en cuya virtud, el afectado por un
                                                                           acto administrativo insta del órgano administrativo, autor del mismo,
                                                                           su anulación por motivos de legalidad30.
@@ -1585,10 +1599,15 @@ Contenciosa                                                                   en
                                                                                 de la decisión inmersa en el acto administrativo de que se trate.
                                                                                 No tiene plazo para su verificación.
 
-
 ## 1.3.2 Impugnación ante la Contraloría
 
-                                                                             General de la República
+**Definición Canónica:** General de la República
+                                                                             Habrá que reconocer que, en la práctica, la Contraloría General de
+                                                                             la República se ha constituido en una eficaz sede de impugnación
+                                                                             de actos administrativos, debido al ejercicio de la atribución a que se
+**Concordancias Legales:** artículo 21; artículos 5; artículo 6 de la Ley N; Artículo 6; artículo 98; Ley N° 19.880; Ley N° 10.336; constitucion; Constitución Política
+
+General de la República
                                                                              Habrá que reconocer que, en la práctica, la Contraloría General de
                                                                              la República se ha constituido en una eficaz sede de impugnación
                                                                              de actos administrativos, debido al ejercicio de la atribución a que se
@@ -1644,10 +1663,16 @@ Contenciosa                                                                    e
                                                                               Estado, sin perjuicio de las atribuciones que, con respecto a materias
                                                                               judiciales, reconoce esta ley al Contralor” 34 35.
 
-
 ## 1.3.3 Impugnación mediante acciones
 
-                                                                              o recursos jurisdiccionales
+**Definición Canónica:** o recursos jurisdiccionales
+                                                                              Como ya afirmáramos al inicio de este texto, nuestra Constitución
+                                                                              Política consagra con amplitud y claridad el derecho de los particulares
+                                                                              para reclamar en contra de los actos de la Administración del Estado
+                                                                              y de sus organismos, ante los tribunales que determi
+**Concordancias Legales:** artículo 19; Constitución Política; constitucion
+
+o recursos jurisdiccionales
                                                                               Como ya afirmáramos al inicio de este texto, nuestra Constitución
                                                                               Política consagra con amplitud y claridad el derecho de los particulares
                                                                               para reclamar en contra de los actos de la Administración del Estado
@@ -1660,10 +1685,16 @@ Contenciosa                                                                    e
                                                                               la regla de inexcusabilidad que se impone a los tribunales de justicia
                                                                               para el conocimiento y resolución de los negocios de su competencia,
 
-
 ## 34   La jurisprudencia de Contraloría es rigurosa a la hora de resolver la abstención de su pronunciamiento en
 
-                                             todas aquellas materias que se encuentran bajo conocimiento de los tribunales de justicia. Por otra parte, en
+**Definición Canónica:** todas aquellas materias que se encuentran bajo conocimiento de los tribunales de justicia. Por otra parte, en
+                                             aquellos casos en que ha emitido un dictamen encontrándose radicado el asunto en un tribunal, tan pronto
+                                             ese hecho llega a su conocimiento, ha resuelto invariablemente la suspensión de los efectos del informe
+                                             (ver Oficio N°16.762, de 1989) o bien, lo ha dejado sin efecto (ver Oficio N°32.703, de 2003). Ahora bien, se
+                                    
+**Concordancias Legales:** artículo 6 de la Ley N; artículo 76 de la Carta Fundamental e inciso segundo; artículo 38; artículo 7; artículos 19; artículo 12; artículo 19; artículo 151 de la Ley Orgánica; artículo 7 de la Ley Nº 18.933; artículos 6; Ley N° 10.336; Ley Nº 18.933; constitucion; Constitución Política; Constitución
+
+todas aquellas materias que se encuentran bajo conocimiento de los tribunales de justicia. Por otra parte, en
                                              aquellos casos en que ha emitido un dictamen encontrándose radicado el asunto en un tribunal, tan pronto
                                              ese hecho llega a su conocimiento, ha resuelto invariablemente la suspensión de los efectos del informe
                                              (ver Oficio N°16.762, de 1989) o bien, lo ha dejado sin efecto (ver Oficio N°32.703, de 2003). Ahora bien, se
@@ -1773,10 +1804,12 @@ Contenciosa                                                                 en e
                                                                            nulidad de derecho público de los artículos 6 y 7 de la Constitución en
                                                                            el caso que el ordenamiento jurídico disponga de una acción especial.
 
-
 ## 38   Ver también sentencias de la Excma. Corte Suprema roles N° 3.412-2015, N° 23.587-2015, N° 17.405-2016 y
 
-                                             N° 35.585-2016.
+**Definición Canónica:** N° 35.585-2016.
+**Concordancias Legales:** artículos 6; artículo 20 de la Constitución Política. Mediante esa acción; artículo 21; Ley N° 18.971; Constitución; constitucion; Constitución Política
+
+N° 35.585-2016.
 
 Jurisdicción                                                             1. La revisión del acto administrativo                                   45
 Contenciosa                                                                 en el ordenamiento jurídico nacional
@@ -1816,10 +1849,13 @@ Contenciosa                                                                 en e
                                                                                amparo de derechos, a modo ejemplar, en el denominado Amparo
                                                                                económico (artículo único de la Ley N° 18.971); en el Amparo de
 
-
 ## 39   Debemos tener presente que no se encuentra amparado por esta clase de acción constitucional el ejercicio
 
-                                             de todos los derechos fundamentales que se reconocen a la persona en el artículo 19 de la Constitución
+**Definición Canónica:** de todos los derechos fundamentales que se reconocen a la persona en el artículo 19 de la Constitución
+                                             Política, sino sólo algunos de ellos. Se excluyen los denominados derechos sociales.
+**Concordancias Legales:** artículo 19 de la Constitución; Constitución Política; Constitucion
+
+de todos los derechos fundamentales que se reconocen a la persona en el artículo 19 de la Constitución
                                              Política, sino sólo algunos de ellos. Se excluyen los denominados derechos sociales.
 
 Jurisdicción                                                              1. La revisión del acto administrativo                                    46
@@ -1834,10 +1870,13 @@ Contenciosa                                                                  en 
                                                                             consistente en materia de impugnación de los actos administrativos,
                                                                             tanto del Tribunal como de la Contraloría General de la República40.
 
-
 ## 1.3.4 Incompatibilidad entre las vías de
 
-                                                                            impugnación administrativa y jurisdiccional
+**Definición Canónica:** impugnación administrativa y jurisdiccional
+                                                                            La Ley Nº 19.880, en el inciso primero de su artículo 54, prevé que
+**Concordancias Legales:** artículo 54; Ley Nº 19.880
+
+impugnación administrativa y jurisdiccional
                                                                             La Ley Nº 19.880, en el inciso primero de su artículo 54, prevé que
 
                                                                             es incompatible el conocimiento paralelo de recursos por parte de
@@ -1861,18 +1900,27 @@ Contenciosa                                                                  en 
                                                                             de justicia se encontrarán impedidos de conocer un asunto que
                                                                             configure el mismo conflicto.
 
-
 ## 40   STC rol N° 2009-111 sobre control preventivo de constitucionalidad de diversas disposiciones del proyecto
 
-                                             de ley (PL) sobre “Sistema de Aseguramiento de la Calidad de la Educación Parvularia, Básica y Media” con-
+**Definición Canónica:** de ley (PL) sobre “Sistema de Aseguramiento de la Calidad de la Educación Parvularia, Básica y Media” con-
+                                             tenido en el boletín 5083-04; a modo de ejemplo, dictamen Nº 16.943 de 14 de abril de 2008.
+
+de ley (PL) sobre “Sistema de Aseguramiento de la Calidad de la Educación Parvularia, Básica y Media” con-
                                              tenido en el boletín 5083-04; a modo de ejemplo, dictamen Nº 16.943 de 14 de abril de 2008.
 
 Jurisdicción                            1. La revisión del acto administrativo                                47
 
-
 ## 1.3.5 Interrupción del plazo del recurso jurisdiccional
 
-                                          El inciso segundo del artículo 54 de la Ley Nº 19.880 establece que,
+**Definición Canónica:** El inciso segundo del artículo 54 de la Ley Nº 19.880 establece que,
+                                          interpuesto un recurso administrativo, se interrumpirá el plazo para
+                                          ejercer la acción jurisdiccional y que este volverá a contarse desde la
+                                          fecha en que se notifique el acto que la resuelve o, en su caso, desde
+                                          que la reclamación se entienda desestimada por el transcurso del
+                                          plazo.
+**Concordancias Legales:** artículo 54 de la Ley Nº 19.880 establece que; artículo 54; artículo 20 de la Constitución Política; artículo 20 de la Carta Fundamental se anticipó a declarar que; Ley Nº 19.880; constitucion; Constitución Política
+
+El inciso segundo del artículo 54 de la Ley Nº 19.880 establece que,
                                           interpuesto un recurso administrativo, se interrumpirá el plazo para
                                           ejercer la acción jurisdiccional y que este volverá a contarse desde la
                                           fecha en que se notifique el acto que la resuelve o, en su caso, desde
@@ -1948,7 +1996,11 @@ Contenciosa                                                                   en
 
 ## 42   Corte Suprema, 25 de abril de 2006, “Laboratorio Bestpharma con Instituto de Salud Pública”; Corte Supre-
 
-                                             ma, 25 de abril de 2006, ingreso 1.544-06, en Jurisprudencia al Día, Año 1, N° 9, p. 103, N° ID Lexis: 34.189, La
+**Definición Canónica:** ma, 25 de abril de 2006, ingreso 1.544-06, en Jurisprudencia al Día, Año 1, N° 9, p. 103, N° ID Lexis: 34.189, La
+                                             Semana Jurídica, año 5, N° 290.
+**Concordancias Legales:** artículo 54; Ley Nº 19.880; constitucion; Constitución Política
+
+ma, 25 de abril de 2006, ingreso 1.544-06, en Jurisprudencia al Día, Año 1, N° 9, p. 103, N° ID Lexis: 34.189, La
                                              Semana Jurídica, año 5, N° 290.
 
 Jurisdicción                                                               1. La revisión del acto administrativo                                        49
@@ -2117,10 +2169,12 @@ Contenciosa                                                                en el
                                                                           de dicho plazo, principalmente cuando el recurso de revisión de la
                                                                           actuación fiscalizadora se interponga en los últimos días de éste’.
 
-
 ## 44   FERRADA, Juan Carlos (2006), pp. 257-264. Ver también, sentencia Corte Suprema, de 29 de diciembre de
 
-                                             2009, rol 7618-2009.
+**Definición Canónica:** 2009, rol 7618-2009.
+**Concordancias Legales:** artículo 54; artículo 748 del Código de Procedimiento Civil; Ley N° 20.551; Ley N° 19.880; Constitucion
+
+2009, rol 7618-2009.
 
 Jurisdicción                                                           1. La revisión del acto administrativo                                  53
 Contenciosa                                                               en el ordenamiento jurídico nacional
@@ -2315,10 +2369,18 @@ Administrativa                              contencioso-administrativo
                                           Los presupuestos necesarios para que se configure un asunto con-
                                           tencioso-administrativo son:
 
-
 ## 1. Desde luego, es preciso que exista una pretensión de un particular
 
-                                             en contra de la Administración.
+**Definición Canónica:** en contra de la Administración.
+                                          2. Esta pretensión puede consistir en:
+                                             a. Que la administración actúe, cuando, estando obligada a hacerlo
+                                                 no lo hace.
+                                             b. Que se modifique o deje sin efecto algún acto de la adminis-
+                                                 tración.
+                                             c. Que se reparen los perjuicios causados.
+**Concordancias Legales:** artículo 10 de la Ley Orgánica Constitucional de Bases Generale; artículos 1; Constitucion
+
+en contra de la Administración.
                                           2. Esta pretensión puede consistir en:
                                              a. Que la administración actúe, cuando, estando obligada a hacerlo
                                                  no lo hace.
@@ -2354,10 +2416,12 @@ Administrativa                              contencioso-administrativo
 Contenciosa                                       dar origen al procedimiento
 Administrativa                                    contencioso-administrativo
 
-
 ## 3.1     Respecto de
 
-                                                las acciones
+**Definición Canónica:** las acciones
+**Concordancias Legales:** artículo 15; artículos 6; artículo 2 de la Ley Orgánica Constitucional; artículo 87; Ley N° 19.880; constitucion; Constitución
+
+las acciones
 
                                                 Por de pronto, se debe estar frente a una acción voluntaria y que
                                                 constituya un acto jurídico público (manifestación de voluntad de
@@ -2469,24 +2533,26 @@ Administrativa                                                              cont
 Contenciosa                                       dar origen al procedimiento
 Administrativa                                    contencioso-administrativo
 
-
 ## 3.2     Respecto de
 
-                                                las omisiones
+**Definición Canónica:** las omisiones
+
+las omisiones
 
                                                 Prevalecen dos sistemas fundamentales para impugnar las omisiones
                                                 en que incurra la Administración.
 
-
-## 1. Establecer el recurso contencioso-administrativo para obtener
-
-                                                   la declaración de un derecho, en caso de que la Administración
-                                                   no se haya pronunciado al respecto (acción de mera certeza).
-
 ## 2. Establecer las presunciones de voluntad administrativas; otorgar
 
+**Definición Canónica:** valor jurídico al silencio de la Administración, en sentido negativo.
+                                                   Así, cuando transcurre un plazo determinado sin que la Admi-
+                                                   nistración se pronuncie frente a un asunto que genera conflicto
+                                                   con un particular, es la propia ley la que configura un acto ficto
+                                                   o presunto de carácter negativo (se entiende que la voluntad de
+                                                   la Administración f
+**Concordancias Legales:** artículos 64; artículo 151; artículo 99; artículo 10 de la Ley Orgánica Constitucional de Bases Generale; artículos 15; artículo 6; artículos 4; artículo 52; Ley N° 19.880; Constitucion; Constitución; Constitución Política
 
-                                                   valor jurídico al silencio de la Administración, en sentido negativo.
+valor jurídico al silencio de la Administración, en sentido negativo.
                                                    Así, cuando transcurre un plazo determinado sin que la Admi-
                                                    nistración se pronuncie frente a un asunto que genera conflicto
                                                    con un particular, es la propia ley la que configura un acto ficto
@@ -2580,7 +2646,10 @@ Administrativa                              administrativa en Chile
 
 ## parte del ordenamiento jurídico. No habría sido dejado sin efecto, a
 
-                                          través de dichas acciones de responsabilidad.
+**Definición Canónica:** través de dichas acciones de responsabilidad.
+**Concordancias Legales:** artículo 2 de la Ley Orgánica Constitucional de Bases Generale; artículos 1; artículo 96 de la Constitución de 1828; artículo 104; artículo 8756; artículo 87; artículo 87 de la Constitu; artículo 87 de la Constitución de 1925 serán creados en; artículo 87 de la Constitución se dictó el Código Orgánico de; artículo 5; artículo 87 de la Constitución; artículo 87 de la Constitución de 1925 y establecer dere; artículo 38; artículo 79; Constitución; Constitucion; Constitución Política
+
+través de dichas acciones de responsabilidad.
 
                                           Se hace necesario, por estas razones, que se pueda juzgar la legiti-
                                           midad de la actuación administrativa cada vez que un particular se
@@ -3019,7 +3088,10 @@ Administrativa                                                               adm
 
 ## 67   Ver entre otros: VERGARA, Alejandro (2013), pp. 45-46; CARMONA, Carlos (2005), pp. 165-240; y COSTA, Ezio
 
-                                             (2014), pp. 151-167.
+**Definición Canónica:** (2014), pp. 151-167.
+**Concordancias Legales:** artículo 20; constitucion; Constitución
+
+(2014), pp. 151-167.
 
 Jurisdicción                            4. Breve descripción de la                                             77
 Contenciosa                                 evolución de la justicia
@@ -3072,10 +3144,15 @@ Contenciosa                                                                    y
                                                                              ministrativos en que tienen intervención los tribunales que forman
                                                                              parte del Poder Judicial.
 
-
 ## 68   Existe un interesante y exhaustivo trabajo del profesor CARMONA, Carlos (2005), pp. 165-240, en el cual
 
-                                             se destaca que a la fecha del estudio se encuentran vigentes 120 acciones o recursos contra decisiones u
+**Definición Canónica:** se destaca que a la fecha del estudio se encuentran vigentes 120 acciones o recursos contra decisiones u
+                                             omisiones de la Administración. Que 27 recursos tienen a la Corte de Apelaciones como tribunal competente
+                                             y le siguen los tribunales de letras, los tribunales del trabajo y ciertas instancias arbitrales, como es el caso
+                                             mayoritario en materia de conflictos vinculados a la ejecución de los contratos administrativos. En cuanto al
+                              
+
+se destaca que a la fecha del estudio se encuentran vigentes 120 acciones o recursos contra decisiones u
                                              omisiones de la Administración. Que 27 recursos tienen a la Corte de Apelaciones como tribunal competente
                                              y le siguen los tribunales de letras, los tribunales del trabajo y ciertas instancias arbitrales, como es el caso
                                              mayoritario en materia de conflictos vinculados a la ejecución de los contratos administrativos. En cuanto al
@@ -3088,16 +3165,17 @@ Contenciosa                                                                    y
 Jurisdicción                                                              5. Recursos, procedimientos                                                  80
 Contenciosa                                                                   y tribunales contenciosoAdministrativa                                                                administrativos
 
-
-## 5.1           Tribunales, recursos y procedimientos
-
-                                                                            contencioso-administrativo que
-                                                                            contempla la Constitución de 1980
-
-
 ## 5.1.1 Acción de protección de las garantías
 
-                                                                            constitucionales (artículo 20)
+**Definición Canónica:** constitucionales (artículo 20)
+                                                                            La profesora y expresidenta del Tribunal Constitucional chileno,
+                                                                            Marisol Peña Torres69, recuerda en un artículo publicado luego del
+                                                                            Seminario de profesoras de Derecho Público dedicado a “las accio-
+                                                                            nes protectoras de los derechos fundamentales”, que “de todas las
+ 
+**Concordancias Legales:** artículo 20; artículo 19; artículo 1; artículo 5; artículo 1 de la Ley Orgánica Constitucional de; artículo 20 de la Carta Fundamental; constitucion; Constitución; Constitución Política
+
+constitucionales (artículo 20)
                                                                             La profesora y expresidenta del Tribunal Constitucional chileno,
                                                                             Marisol Peña Torres69, recuerda en un artículo publicado luego del
                                                                             Seminario de profesoras de Derecho Público dedicado a “las accio-
@@ -3211,7 +3289,14 @@ Contenciosa                                                                   y 
 
 ## 75   En acta 173-2018, el máximo tribunal de la República resolvió incorporar al numeral 3° del auto acordado
 
-                                             un inciso tercero, cuyo tenor es: “Asimismo, y bajo las mismas condiciones señaladas en el inciso primero, la
+**Definición Canónica:** un inciso tercero, cuyo tenor es: “Asimismo, y bajo las mismas condiciones señaladas en el inciso primero, la
+                                             Corte de Apelaciones podrá solicitar informes a los terceros que, en su concepto, pudieran resultar afectados
+                                             por la sentencia de protección”. Esta norma viene a posibilitar que la Corte de Apelaciones que conozca de
+                                             un recurso de protección pueda solicitar informe a terceros, esto es, a personas o autoridades que no han
+                                
+**Concordancias Legales:** artículo 19; constitucion
+
+un inciso tercero, cuyo tenor es: “Asimismo, y bajo las mismas condiciones señaladas en el inciso primero, la
                                              Corte de Apelaciones podrá solicitar informes a los terceros que, en su concepto, pudieran resultar afectados
                                              por la sentencia de protección”. Esta norma viene a posibilitar que la Corte de Apelaciones que conozca de
                                              un recurso de protección pueda solicitar informe a terceros, esto es, a personas o autoridades que no han
@@ -3311,10 +3396,13 @@ Contenciosa                                                                    y
                                           Judicial entrega a los jueces, omitiremos cualquier otro tópico en la
                                           materia en este cuadernillo o material de estudio.
 
-
 ## 5.1.2 Nulidad de derecho público
 
-                                          (artículo 7, inciso tercero)
+**Definición Canónica:** (artículo 7, inciso tercero)
+                                          El artículo 7 de la Constitución Política establece textualmente:
+**Concordancias Legales:** artículo 7; artículo 7 de la Constitución Política establece textualmente; artículos 159; artículo 150; artículo 3; artículo 151; artículos 3; artículos 6; Constitución Política; Constitución; constitucion
+
+(artículo 7, inciso tercero)
                                           El artículo 7 de la Constitución Política establece textualmente:
 
                                                “Los órganos del Estado actúan válidamente previa investidura
@@ -3472,7 +3560,13 @@ Contenciosa                                                                  y t
 
 ## 83   Normalmente los textos refieren a Mario Bernaschina González, Eduardo Soto Kloss, Pedro Pierry Arrau y a
 
-                                             Jorge Bermúdez Soto. A ellos se unen hoy las investigaciones de profesores como Gabriel Bocksang y Jaime
+**Definición Canónica:** Jorge Bermúdez Soto. A ellos se unen hoy las investigaciones de profesores como Gabriel Bocksang y Jaime
+                                             Jara.
+                                        84   Ver un completo resumen de la historia de la nulidad de derecho público en Chile en CONCHA MACHUCA,
+                                             Ricardo (2013), pp. 93-114.
+**Concordancias Legales:** artículo 7 de la Carta Fundamental ha llevado a los seguidores; artículos 12; artículo 7; Constitución Política; constitucion; Constitución
+
+Jorge Bermúdez Soto. A ellos se unen hoy las investigaciones de profesores como Gabriel Bocksang y Jaime
                                              Jara.
                                         84   Ver un completo resumen de la historia de la nulidad de derecho público en Chile en CONCHA MACHUCA,
                                              Ricardo (2013), pp. 93-114.
@@ -3535,7 +3629,10 @@ Contenciosa                                                                  y t
 
 ## parte, que la aplicación indiscriminada de la teoría en cuya virtud la
 
-                                                                           nulidad de derecho público opera siempre ipso iure atentaría contra
+**Definición Canónica:** nulidad de derecho público opera siempre ipso iure atentaría contra
+**Concordancias Legales:** Ley N° 19.880
+
+nulidad de derecho público opera siempre ipso iure atentaría contra
 
                                                                            el principio de certeza jurídica, ya que nadie, nunca, tendría un de-
                                                                            recho sólido y consolidado, pudiendo aquel ser anulado sin límite de
@@ -3561,10 +3658,12 @@ Contenciosa                                                                  y t
                                                                            mérito (conveniencia de oportunidad según exigencias de interés
                                                                            público), con las exigencias que señala, coincide con la doctrina
 
-
 ## 86   REYES RIVEROS (1998), p. 13. A esta postura adhieren, entre otros, los profesores José Luis Cea Egaña y
 
-                                             Domingo Hernández Emparanza, ambos exministros del Tribunal Constitucional.
+**Definición Canónica:** Domingo Hernández Emparanza, ambos exministros del Tribunal Constitucional.
+**Concordancias Legales:** artículos 9; artículo 7; artículo 7 de la Constitución; artículo 290; artículo 298; artículo 19 de la Carta Fundamental; artículo 61; artículos 6; artículo 2 de Ley N; ley 18.575; Ley N° 19.880; Ley N° 18.575; Constitucion; Constitución Política
+
+Domingo Hernández Emparanza, ambos exministros del Tribunal Constitucional.
 
 Jurisdicción                            5. Recursos, procedimientos                                            91
 
@@ -3784,10 +3883,16 @@ Contenciosa                                                                   y 
 Jurisdicción                                                             5. Recursos, procedimientos                                          96
 Contenciosa                                                                  y tribunales contenciosoAdministrativa                                                               administrativos
 
-
 ## 5.1.3 Acción constitucional de amparo (artículo 21)
 
-                                                                           Es el tradicional habeas corpus. Conforme lo establece el texto cons-
+**Definición Canónica:** Es el tradicional habeas corpus. Conforme lo establece el texto cons-
+                                                                           titucional, “todo individuo que se halle arrestado, detenido o preso
+                                                                           con infracción de lo dispuesto en la Constitución o en las leyes”
+                                                                           puede ocurrir ante la magistratura que determine la ley en busca de
+                                                                           protección de su libertad.
+**Concordancias Legales:** artículo 45 de la Constitución; artículo 306; artículo 5 de la Ley 18.415; artículo 307 del Código de Procedimiento Penal; artículo 5 de la Ley; artículo 21 de la Constitución Política establece; artículo 21; Ley 18.415; Constitución; constitucion; Constitución Política
+
+Es el tradicional habeas corpus. Conforme lo establece el texto cons-
                                                                            titucional, “todo individuo que se halle arrestado, detenido o preso
                                                                            con infracción de lo dispuesto en la Constitución o en las leyes”
                                                                            puede ocurrir ante la magistratura que determine la ley en busca de
@@ -3901,10 +4006,13 @@ Contenciosa                                                                 y tr
                                                                           la Constitución Política de la República, motivo más que suficiente,
                                                                           para denegar la pretensión cautelar”97.
 
-
 ## 97   En el proceso rol 522-2019, la misma Corte de Apelaciones de San Miguel, en recurso de amparo deduci-
 
-                                             do contra el mismo acto que ordenó el toque de queda en octubre de 2019, añade referencia a normativa
+**Definición Canónica:** do contra el mismo acto que ordenó el toque de queda en octubre de 2019, añade referencia a normativa
+                                             internacional y dispone que “se podrá limitar un derecho fundamental, cuando previamente haya estado
+**Concordancias Legales:** artículo 7 de la Constitución; artículo 45; artículo 3; artículo 5; artículo 8 del DS Nº 64; artículo 2; artículo 21 de la Carta Fundamental; artículo 306 del Código de Procedimiento Penal establece; ley 18.415; Ley Nº 20.000; DL Nº 409; D.L. N° 321; constitucion; Constitución; Constitución Política
+
+do contra el mismo acto que ordenó el toque de queda en octubre de 2019, añade referencia a normativa
                                              internacional y dispone que “se podrá limitar un derecho fundamental, cuando previamente haya estado
 
 Jurisdicción                                                               5. Recursos, procedimientos                                                    99
@@ -4107,10 +4215,15 @@ Contenciosa                                                                   y 
                                                                             cuenta a quien corresponda para que los corrija; h) la revocación de
                                                                             la orden de detención o prisión, entre otros.102
 
-
 ## 5.1.4 Reclamo por causa de privación o
 
-                                                                            desconocimiento de la nacionalidad chilena por un
+**Definición Canónica:** desconocimiento de la nacionalidad chilena por un
+                                                                            acto o resolución administrativa (artículo 12)
+                                                                            En el artículo 12 de la Constitución se dispone que la persona afec-
+                                                                            tada por acto o resolución de autoridad administrativa que la prive
+**Concordancias Legales:** artículo 12; artículo 12 de la Constitución se dispone que la persona afec; artículo 26; Ley Nº 3.446; Ley Nº 8.987; DFL Nº 747; Constitución
+
+desconocimiento de la nacionalidad chilena por un
                                                                             acto o resolución administrativa (artículo 12)
                                                                             En el artículo 12 de la Constitución se dispone que la persona afec-
                                                                             tada por acto o resolución de autoridad administrativa que la prive
@@ -4141,7 +4254,12 @@ Contenciosa                                                                   y 
 
 ## 103   Este recurso fue introducido en la Constitución de 1925 por la Ley Nº 12.548, pero haciéndolo procedente
 
-                                              sólo respecto de la cancelación de la carta de nacionalización. Para mayor detalle se sugiere ver ÁLVAREZ
+**Definición Canónica:** sólo respecto de la cancelación de la carta de nacionalización. Para mayor detalle se sugiere ver ÁLVAREZ
+                                              M., Marcela (1994), pp. 69.
+                                        104   SILVA BASCUÑÁN, Alejandro (1997), pp. 225-226.
+**Concordancias Legales:** artículo 7; artículo 20 de la Constitución; artículo 89 del Decreto Ley Nº 1.094; artículo 174; Ley Nº 12.548; Ley Nº 1.094; DFL. Nº 5.142; Constitución
+
+sólo respecto de la cancelación de la carta de nacionalización. Para mayor detalle se sugiere ver ÁLVAREZ
                                               M., Marcela (1994), pp. 69.
                                         104   SILVA BASCUÑÁN, Alejandro (1997), pp. 225-226.
 
@@ -4181,10 +4299,16 @@ Contenciosa                                                                     
                                                                                señalado que: “Conforme al artículo 89 del Decreto Ley Nº 1.094
                                                                                y artículo 174 de su reglamento existe un recurso especial denomi-
 
-
 ## 105   Señalando ejemplos de privación o desconocimiento, los profesores SILVA BASCUÑÁN, Alejandro, citado en
 
-                                              supra nota 29, pp. 228-229, y CEA EGAÑA, José Luis (1988), p. 314, mencionan las controversias que puedan
+**Definición Canónica:** supra nota 29, pp. 228-229, y CEA EGAÑA, José Luis (1988), p. 314, mencionan las controversias que puedan
+                                              surgir con la opción por la nacionalidad chilena: la calificación de la locución actual servicio de la República, el
+                                              sólo hecho de avecindarse por más de un año en Chile, la negativa de la carta de nacionalización, la pérdida
+                                              de la nacionalidad dispuesta por decreto supremo en caso de prestación de servicios durante una guerra
+                           
+**Concordancias Legales:** artículo 12 de la Constitución; Constitución; constitucion; Constitución Política
+
+supra nota 29, pp. 228-229, y CEA EGAÑA, José Luis (1988), p. 314, mencionan las controversias que puedan
                                               surgir con la opción por la nacionalidad chilena: la calificación de la locución actual servicio de la República, el
                                               sólo hecho de avecindarse por más de un año en Chile, la negativa de la carta de nacionalización, la pérdida
                                               de la nacionalidad dispuesta por decreto supremo en caso de prestación de servicios durante una guerra
@@ -4268,17 +4392,14 @@ Contenciosa                                                                   y 
                                                                             Finalmente, la Constitución señala que la interposición del recurso de
                                                                             reclamación suspenderá los efectos del acto o resolución recurridos.
 
-
-## 110   Considerandos quinto, sexto y octavo de la sentencia pronunciada por la Corte Suprema el 18 de junio de
-
-                                              1993, reproducida en XC Revista Chilena de Derecho, 2ª p., S. 5ª, p. 180.
-
-Jurisdicción                            5. Recursos, procedimientos                                         107
-
-
 ## 5.1.5 Reclamos asociados al acto administrativo
 
-                                          expropiatorio (artículo 19, N° 24)
+**Definición Canónica:** expropiatorio (artículo 19, N° 24)
+                                          Recordemos que, en lo que nos interesa destacar, los incisos tercero,
+                                          cuarto y quinto del artículo 19 N° 24 constitucional, disponen:
+**Concordancias Legales:** artículo 19; artículo 9 del DL N; DL N° 2.186; constitucion
+
+expropiatorio (artículo 19, N° 24)
                                           Recordemos que, en lo que nos interesa destacar, los incisos tercero,
                                           cuarto y quinto del artículo 19 N° 24 constitucional, disponen:
 
@@ -4328,10 +4449,14 @@ Contenciosa                                                                   y 
                                           Para conocer el procedimiento de tales reclamos habrá que acudir
                                           a la misma legislación referida.
 
-
 ## 5.1.6 Reclamo de ilegalidad de la
 
-                                          expropiación (artículo 9)
+**Definición Canónica:** expropiación (artículo 9)
+                                          La persona afectada por un acto expropiatorio puede reclamar de
+                                          este ante el juez competente, que, en principio, es el juez civil de la
+**Concordancias Legales:** artículo 9
+
+expropiación (artículo 9)
                                           La persona afectada por un acto expropiatorio puede reclamar de
                                           este ante el juez competente, que, en principio, es el juez civil de la
 
@@ -4386,7 +4511,14 @@ Contenciosa                                                            y tribuna
 
 ## capítulo de nulidad denunciado, relativo a la infracción de los artí-
 
-                                                                     culos 9 y 40 del Decreto Ley N° 2186, 313 del Código Orgánico de
+**Definición Canónica:** culos 9 y 40 del Decreto Ley N° 2186, 313 del Código Orgánico de
+                                                                     Tribunales y 160 del Código de Procedimiento Civil, del examen de
+                                                                     autos se aprecia que las reclamaciones interpuestas por la expropia-
+                                                                     da en contra de la Resolución Exenta N° 4085, fueron deducidas
+                                                                     habiendo transcurrido ya el plazo de 30 días contemplado en e
+**Concordancias Legales:** artículo 9 del Decreto Ley N; artículo 313 del Código Orgánico de Tribunales vigente a la; artículo 40 del Decreto Ley; artículos 9; artículos 19; artículo 9; artículo 12 del Decreto Ley antes mencionado sos; Ley N° 2186; Ley N° 2.186; D.L. 2.186
+
+culos 9 y 40 del Decreto Ley N° 2186, 313 del Código Orgánico de
                                                                      Tribunales y 160 del Código de Procedimiento Civil, del examen de
                                                                      autos se aprecia que las reclamaciones interpuestas por la expropia-
                                                                      da en contra de la Resolución Exenta N° 4085, fueron deducidas
@@ -4556,10 +4688,15 @@ Contenciosa                                                                   y 
                                           tribunal incompetente, por lo que el recurso de casación no puede
                                           ser acogido por esta causal.”
 
-
 ## 5.1.7 Reclamo para la determinación definitiva
 
-                                          de la indemnización de los daños efectivamente
+**Definición Canónica:** de la indemnización de los daños efectivamente
+                                          causados por el acto expropiatorio
+                                          Respecto a la forma de fijar el monto definitivo de la indemnización,
+                                          es necesario distinguir:
+**Concordancias Legales:** artículo 11 del DL N; artículo 13; artículo 38 del Decreto Ley N; artículo 19; artículo 38; artículo 5 del Decreto Ley N; artículo 14; artículo 425 del Código de Procedimiento Civil; artículo 38 del DL N; artículo 40; artículos 766; Ley N° 2.186; DL N° 2186; DL. N° 2.186; DL N° 2.186; Constitución Política
+
+de la indemnización de los daños efectivamente
                                           causados por el acto expropiatorio
                                           Respecto a la forma de fijar el monto definitivo de la indemnización,
                                           es necesario distinguir:
@@ -5000,10 +5137,12 @@ Contenciosa                                                                   y 
                                              especial. No nos cabe duda acerca de que puede interponerse el
                                              recurso de casación tanto en la forma como en el fondo.
 
-
 ## 5.1.8 La toma de posesión material del bien expropiado
 
-                                          En general, el bien expropiado se entrega en la forma que convinieron
+**Definición Canónica:** En general, el bien expropiado se entrega en la forma que convinieron
+**Concordancias Legales:** artículo 23; artículo 21
+
+En general, el bien expropiado se entrega en la forma que convinieron
 
                                           el expropiante y el expropiado.
 
@@ -5038,10 +5177,15 @@ Contenciosa                                                                   y 
                                           en el Diario Oficial. Si no lo hace dentro de dicho plazo, el expropiado
                                           puede pedir al tribunal que declare que este ha quedado sin efecto.
 
-
 ## 5.1.9 Frutos pendientes
 
-                                          Puesta la solicitud de posesión material en conocimiento del ex-
+**Definición Canónica:** Puesta la solicitud de posesión material en conocimiento del ex-
+                                          propiado, este tiene el plazo fatal de cinco días para manifestar su
+                                          decisión de recoger aquellos frutos; derecho que también se concede
+                                          a los arrendatarios, medieros u otros titulares del derecho a percibir
+                                          tales frutos.
+
+Puesta la solicitud de posesión material en conocimiento del ex-
                                           propiado, este tiene el plazo fatal de cinco días para manifestar su
                                           decisión de recoger aquellos frutos; derecho que también se concede
                                           a los arrendatarios, medieros u otros titulares del derecho a percibir
@@ -5056,10 +5200,17 @@ Contenciosa                                                                   y 
                                           debe pagarse de contado, dentro del plazo de treinta días desde que
                                           haya sido fijada.
 
-
 ## 5.1.10 Liquidación de la indemnización
 
-                                          Una vez que el expropiante ha consignado la indemnización o cuota
+**Definición Canónica:** Una vez que el expropiante ha consignado la indemnización o cuota
+                                          de esta a la orden del tribunal, el juez debe ordenar publicar, a costa
+                                          del expropiante, dos avisos, en que se dé un plazo de veinte días,
+                                          contado desde el último aviso, para que los titulares de derechos
+                                          reales constituidos con anterioridad al acto expropiatorio (como por
+                                          ejemplo, hipotecas) y los acreedores que antes de 
+**Concordancias Legales:** artículos 5 del Código Orgánico de Tribunales y 417 del; Artículos 10 de la Ley N; artículo 34 de la Ley N; artículo 19 de la Ley N; artículo 11; artículo 3 de la Ley N; artículo 43; Ley N° 19.886; Ley N° 20.322; Ley N° 19.296; Ley N° 19.518; Ley N° 18.838; Ley N° 18.410; Ley N° 19.638; Ley N° 18.696; Ley N° 18.290; Ley N° 19.253; DL N° 211
+
+Una vez que el expropiante ha consignado la indemnización o cuota
                                           de esta a la orden del tribunal, el juez debe ordenar publicar, a costa
                                           del expropiante, dos avisos, en que se dé un plazo de veinte días,
                                           contado desde el último aviso, para que los titulares de derechos
@@ -5167,10 +5318,12 @@ Administrativa                                                                  
 Contenciosa                                                                     contencioso-administrativos con
 Administrativa                                                                  fuente en la legislación
 
-
 ## 6.1            Acción de amparo económico
 
-                                                                              (artículo único Ley N° 18.971)
+**Definición Canónica:** (artículo único Ley N° 18.971)
+**Concordancias Legales:** artículo 19; artículo 16 de la Ley sobre Protección de la Vida Privada; artículo 95 del Código Procesal; artículo 307 del Código de Procedimiento; artículo 19 de la Carta; artículo 20 de la Carta Fundamental; artículo 19 de la Ley; Ley N° 18.971; Ley Nº 18.971; Ley N° 19.496; Ley N° 19.628; Ley N° 19.696; Ley N° 18.120; Constitucion; Constitución; Constitución Política
+
+(artículo único Ley N° 18.971)
 
                                                                               La acción de amparo económico, creada y regulada por el artículo
                                                                               único de la Ley Nº 18.971 –Orgánica Constitucional, publicada en
@@ -5390,7 +5543,10 @@ Administrativa                                                               fue
 
 ## 135   Ministra señoras Araneda y Egnem; ministros señores Valdés, Silva, Brito y Jacob; abogados integrantes
 
-                                              señores Piedrabuena y Hernández.
+**Definición Canónica:** señores Piedrabuena y Hernández.
+**Concordancias Legales:** artículo 19; artículo 20; Ley N° 18.971; Constitución Política
+
+señores Piedrabuena y Hernández.
 
 Jurisdicción                                                                6. Tribunales, recursos y procedimientos                                    135
 Contenciosa                                                                     contencioso-administrativos con
@@ -5430,7 +5586,14 @@ Administrativa                                                                  
 
 ## 137   CS, rol N° 2837-98, de 3 de septiembre de 1998. Ver otros fallos de la misma Corte Suprema de Justicia
 
-                                              que se fundamentan en esas consideraciones: “Celcon S.A. con Instituto Nacional de Normalización”, rol N°
+**Definición Canónica:** que se fundamentan en esas consideraciones: “Celcon S.A. con Instituto Nacional de Normalización”, rol N°
+                                              1188-09; “Rojas Alarcón, Claudio con Ministerio Público”, rol N° 739-09; “Felipe González con Municipalidad
+                                              de Antuco”, rol N° 2537-09; “Elementos Industriales y Tecnológicos Limitada con Inspección Provincial del
+                                              Trabajo de Calama”, rol N° 6125-09; “Agrícola Magalys Werner con Juez del 2° Juzgado de Osorno y otro”, rol
+                                  
+**Concordancias Legales:** artículo 19; constitucion
+
+que se fundamentan en esas consideraciones: “Celcon S.A. con Instituto Nacional de Normalización”, rol N°
                                               1188-09; “Rojas Alarcón, Claudio con Ministerio Público”, rol N° 739-09; “Felipe González con Municipalidad
                                               de Antuco”, rol N° 2537-09; “Elementos Industriales y Tecnológicos Limitada con Inspección Provincial del
                                               Trabajo de Calama”, rol N° 6125-09; “Agrícola Magalys Werner con Juez del 2° Juzgado de Osorno y otro”, rol
@@ -5471,10 +5634,16 @@ Administrativa                                                                 f
                                                                              del derecho y para la comunidad en general, en cuanto al criterio que
                                                                              seguirán nuestros tribunales frente al alcance de esta acción cautelar.
 
-
 ## 139 La Corte Suprema confirmó la sentencia apelada dictada por la Corte de Apelaciones de Santiago y rechazó
 
-                                            la acción de amparo económico deducida por don Patricio Darrigrandi, en representación de Residuos Sólidos
+**Definición Canónica:** la acción de amparo económico deducida por don Patricio Darrigrandi, en representación de Residuos Sólidos
+                                            Industriales S.A. por considerar afectado su derecho a desarrollar una actividad económica lícita, garantizada
+                                            en el inciso primero del numeral 21 del artículo 19 de la Constitución, por un acto de la Dirección Regional
+                                            Poniente del Servicio de Impuestos Internos, consistente en suspender y denegar el pago de la devolución
+                                    
+**Concordancias Legales:** artículo 19 de la Constitución; artículo 19; artículo 307; Constitución; constitucion
+
+la acción de amparo económico deducida por don Patricio Darrigrandi, en representación de Residuos Sólidos
                                             Industriales S.A. por considerar afectado su derecho a desarrollar una actividad económica lícita, garantizada
                                             en el inciso primero del numeral 21 del artículo 19 de la Constitución, por un acto de la Dirección Regional
                                             Poniente del Servicio de Impuestos Internos, consistente en suspender y denegar el pago de la devolución
@@ -5523,10 +5692,15 @@ Administrativa                                                                 f
                                                                              medidas que sean pertinentes para obtener su inmediato despacho
                                                                              y, en último caso, prescindirá del informe para fallar el recurso.
 
-
 ## 141   FERNÁNDEZ, Miguel Ángel (2003), p. 74. Ver sentencias de la Corte Suprema de los años 1998 y 2000 pro-
 
-                                              ducidas por NAVARRO, Enrique (2001), pp. 457-458.
+**Definición Canónica:** ducidas por NAVARRO, Enrique (2001), pp. 457-458.
+                                        142   Auto acordado dictado por la Corte Suprema y publicado en el Diario Oficial en su edición del 19 de diciembre
+                                              de 1932. Véase también el auto acordado dictado por la Corte de Apelaciones de Santiago el 12 de mayo de
+                                              1981, sobre tramitación del recurso de amparo ante esa Corte.
+**Concordancias Legales:** Constitución
+
+ducidas por NAVARRO, Enrique (2001), pp. 457-458.
                                         142   Auto acordado dictado por la Corte Suprema y publicado en el Diario Oficial en su edición del 19 de diciembre
                                               de 1932. Véase también el auto acordado dictado por la Corte de Apelaciones de Santiago el 12 de mayo de
                                               1981, sobre tramitación del recurso de amparo ante esa Corte.
@@ -5573,7 +5747,13 @@ Administrativa                                                                  
 
 ## 144   Ver “Asociación de Industrias Metalúrgicas y Metalmecánicas ASIMET A.G. con CODELCO-CHILE”, CA San-
 
-                                              tiago, rol 575-93, 28 de abril 1993; CS rol 29.728-93, 25 de mayo de 1993, en URETA, Ismael (1997), pp. 121- 133.
+**Definición Canónica:** tiago, rol 575-93, 28 de abril 1993; CS rol 29.728-93, 25 de mayo de 1993, en URETA, Ismael (1997), pp. 121- 133.
+                                        145   NOGUEIRA, Humberto (2013), p. 45, con cita al fallo CS rol 3527-98 “Asociación Chilena de Seguridad y otra
+                                              con Superintendencia de Seguridad Social”, de 16 de noviembre de 1998 y a la sentencia CS rol 4295-2006,
+                                              de 28 de agosto de 2006, respectivamente.
+**Concordancias Legales:** artículo 21 de la Constitución Política; artículo 307 del Código de Pro; artículo 20; artículo 306 del Código de Procedimiento Penal establece; artículo 19; Ley N° 18.971; Ley N° 18.971149; constitucion; Constitución Política
+
+tiago, rol 575-93, 28 de abril 1993; CS rol 29.728-93, 25 de mayo de 1993, en URETA, Ismael (1997), pp. 121- 133.
                                         145   NOGUEIRA, Humberto (2013), p. 45, con cita al fallo CS rol 3527-98 “Asociación Chilena de Seguridad y otra
                                               con Superintendencia de Seguridad Social”, de 16 de noviembre de 1998 y a la sentencia CS rol 4295-2006,
                                               de 28 de agosto de 2006, respectivamente.
@@ -5703,7 +5883,13 @@ Administrativa                                                                 f
 
 ## 152   Ver estado de nuestra jurisprudencia en cuanto al alcance del recurso de amparo económico; si puede ca-
 
-                                              ber denuncia por conductas u omisiones contrarias a ambos incisos del artículo 19 N° 21 de la Constitución
+**Definición Canónica:** ber denuncia por conductas u omisiones contrarias a ambos incisos del artículo 19 N° 21 de la Constitución
+                                              Política o sólo de aquellas situaciones contrarias al inciso segundo del precepto constitucional referido.
+                                        153   CS rol 2516-99, de 5 de agosto de 1999 (considerandos primero a quinto).
+                                        154   CS rol 1836-00, de 29 de agosto de 2000.
+**Concordancias Legales:** artículo 19; artículo 308 del Código Procesal; artículo 170 del Código de Procedimiento Civil; artículos 6; Constitución Política; constitucion
+
+ber denuncia por conductas u omisiones contrarias a ambos incisos del artículo 19 N° 21 de la Constitución
                                               Política o sólo de aquellas situaciones contrarias al inciso segundo del precepto constitucional referido.
                                         153   CS rol 2516-99, de 5 de agosto de 1999 (considerandos primero a quinto).
                                         154   CS rol 1836-00, de 29 de agosto de 2000.
@@ -5748,10 +5934,16 @@ Administrativa                                                                 f
                                                                              vía y si ellos importan una alteración de la actividad económica de la
                                                                              recurrente, debiendo existir respecto de esto último, una relación o
 
-
 ## 155   CS rol 20-2004, de 5 de enero de 2004, “SAAM con Fetrapa y Fetramapora” y rol 962-2006, de 6 de marzo
 
-                                              de 2006, citadas en NOGUEIRA, Humberto (2013), p. 51.
+**Definición Canónica:** de 2006, citadas en NOGUEIRA, Humberto (2013), p. 51.
+                                        156   Un ejemplo de esta jurisprudencia se encuentra en CS rol 2896-2002, de 22 de agosto de 2002. En un similar
+                                              sentido CS rol 501-2009, de 1 de abril de 2009; CS rol 1108-2010, de 9 de febrero de 2010.
+                                        157   Para profundizar sobre la función declaratoria de mera certeza que cumpliría la sentencia de amparo econó-
+                                              mico, véase ALVEAR, Julio (2013), pp. 184-191.
+**Concordancias Legales:** Ley N° 18.971
+
+de 2006, citadas en NOGUEIRA, Humberto (2013), p. 51.
                                         156   Un ejemplo de esta jurisprudencia se encuentra en CS rol 2896-2002, de 22 de agosto de 2002. En un similar
                                               sentido CS rol 501-2009, de 1 de abril de 2009; CS rol 1108-2010, de 9 de febrero de 2010.
                                         157   Para profundizar sobre la función declaratoria de mera certeza que cumpliría la sentencia de amparo econó-
@@ -5793,13 +5985,14 @@ Administrativa                                                                fu
                                         158 CA Arica rol 121-2007, de 28 de diciembre de 2007, confirmado por CS rol 251-2008, de 22 de enero de 2008.
                                             En similar sentido, ver CS rol 4112-2007, de 27 de agosto de 2007.
 
-## 159 CA Santiago rol 6526-2008, de 24 de marzo de 2008, confirmado por CS rol 18261-2008, de 15 de abril de
-
-                                            2008.
-
 ## 160 CA Coyhaique rol 13-2006, de 15 de febrero de 2007, confirmado por CS rol 1143-2007, de 15 de marzo de
 
-                                            2007 y CA Coyhaique rol 10-2007, de 26 de abril de 2007, confirmado por CS rol 2298-2007, de 22 de mayo
+**Definición Canónica:** 2007 y CA Coyhaique rol 10-2007, de 26 de abril de 2007, confirmado por CS rol 2298-2007, de 22 de mayo
+                                            de 2007, citados por NAVARRO, Enrique (artículo en proceso de publicación en Revista de Derecho Público,
+                                            Universidad de Chile)
+**Concordancias Legales:** artículos 533; artículo 534; Ley N° 18.971; constitucion
+
+2007 y CA Coyhaique rol 10-2007, de 26 de abril de 2007, confirmado por CS rol 2298-2007, de 22 de mayo
                                             de 2007, citados por NAVARRO, Enrique (artículo en proceso de publicación en Revista de Derecho Público,
                                             Universidad de Chile)
 
@@ -5839,10 +6032,13 @@ Administrativa                                                                fu
 Contenciosa                                       contencioso-administrativos con
 Administrativa                                    fuente en la legislación
 
-
 ## 6.2     Reclamo de ilegalidad del artículo 151
 
-                                                de la Ley Orgánica Constitucional de
+**Definición Canónica:** de la Ley Orgánica Constitucional de
+                                                Municipalidades (Ley N° 18.695)
+**Concordancias Legales:** artículo 151 de la Ley N; Artículo 151; artículo 151 de la Ley Orgánica; artículo 151 de la Ley; artículo 66 del Código de Procedimiento; artículo 66 del Código de Procedimiento Civil; artículo 25; artículo 2 inciso 1; artículo 50 del Código Civil. En este sentido; artículos 64; artículo 1; artículo 151 del Decreto con; artículo 25 de la Ley N; artículo 48 de la Ley Nº 19.880 sobre Procedimiento Administrat; artículo 48 de la Ley 19.880 sobre Procedimiento Administrativo; artículo 3; artículo 48 de la Ley N; Ley N° 18.695; Ley 18.695; ley 19.880; Ley Nº 19.880; Ley N° 19.880; Ley N°19.880; Constitucion; Constitución Política
+
+de la Ley Orgánica Constitucional de
                                                 Municipalidades (Ley N° 18.695)
 
                                                 El artículo 151 de la Ley N° 18.695, de acuerdo a su texto actual,
@@ -6442,10 +6638,13 @@ Administrativa                                                                  
 Contenciosa                                       contencioso-administrativos con
 Administrativa                                    fuente en la legislación
 
-
 ## 6.3     Reclamo de ilegalidad del artículo 108 de la
 
-                                                Ley Orgánica Constitucional de Gobierno y
+**Definición Canónica:** Ley Orgánica Constitucional de Gobierno y
+                                                Administración Regional (Ley N° 19.175)
+**Concordancias Legales:** artículo 108; Ley N° 19.175; Constitucion
+
+Ley Orgánica Constitucional de Gobierno y
                                                 Administración Regional (Ley N° 19.175)
 
                                                 Según se lee en la disposición contenida en el artículo 108 de la
@@ -6496,10 +6695,12 @@ Administrativa                                    fuente en la legislación
 Contenciosa                                                       contencioso-administrativos con
 Administrativa                                                    fuente en la legislación
 
-
 ## 6.4       Acción por vulneración de derechos del
 
-                                                                contribuyente (Ley N° 20.322 y Ley N° 20.420)
+**Definición Canónica:** contribuyente (Ley N° 20.322 y Ley N° 20.420)
+**Concordancias Legales:** artículo 7; artículo 161; artículo 165; artículo 25.1; artículo 19 de la Constitución Política de la República; artículo 20 de la Constitución; artículo 155; artículo 157; artículo 156; artículos 129; artículo 8; artículo 155 del Código Tributario establece dos órdenes de li; Ley N° 20.322; Ley N° 20.420; Ley Nº 20.322; Ley Nº 20.420; Constitucion; Constitución; Constitución Política
+
+contribuyente (Ley N° 20.322 y Ley N° 20.420)
 
                                         De acuerdo con la       De acuerdo con la ley, los tribunales tributarios y aduaneros son
                                         ley, los tribunales     órganos jurisdiccionales letrados, especiales e independientes. No
@@ -6745,7 +6946,12 @@ Administrativa                                                                fu
 
 ## 179 Corte Suprema sentencia de casación en el fondo declarado inadmisible, en proceso rol 32864-2016, segunda
 
-                                            sala (Penal) de 13 de junio de 2016. En el mismo sentido, Corte Suprema sentencia de casación en el fondo
+**Definición Canónica:** sala (Penal) de 13 de junio de 2016. En el mismo sentido, Corte Suprema sentencia de casación en el fondo
+                                            dictada en proceso rol 17999-2016, segunda sala (Penal), de 13 de abril de 2016.
+                                        180 Seguiremos aquí a SILVA G., María Pía (2014), pp. 232-233.
+**Concordancias Legales:** artículo 155; artículo 20 de la Constitución Política; artículo 20 de la Constitución Polí; artículos 155 del Código Tributario y 129 K de la Ordenanza de; artículos 19; artículo 155 del Código Tributario constituye; artículo 155 del Código Tributario; artículo 36 de la Ley sobre Impuesto a las Ventas y Servicios y; artículo 19 de la Carta Fundamental. Lo anterior; artículo 132 del Código Tributario. La apreciación de la prueb; artículo 170 del Código de Procedimiento Civil y contener toda; artículo 156; Constitución Política; Constitucion; Constitución
+
+sala (Penal) de 13 de junio de 2016. En el mismo sentido, Corte Suprema sentencia de casación en el fondo
                                             dictada en proceso rol 17999-2016, segunda sala (Penal), de 13 de abril de 2016.
                                         180 Seguiremos aquí a SILVA G., María Pía (2014), pp. 232-233.
 
@@ -6966,10 +7172,15 @@ Administrativa                                                                 f
                                                                              tercero del artículo 156). Es decir, quien haya obtenido un fallo favo-
                                                                              rable podrá, por ejemplo, perseguir la indemnización de los perjuicios
 
-
 ## 184   En fallo del TTA de Magallanes, de 25 de mayo de 2011, se declaró que no podía acogerse a tramitación la
 
-                                              acción, entre otros argumentos, porque carecía de manifiesta falta de fundamento desde que “el reclamante
+**Definición Canónica:** acción, entre otros argumentos, porque carecía de manifiesta falta de fundamento desde que “el reclamante
+                                              evacuó el traslado allanándose a la reposición respecto a la improcedencia de plantear el reclamo en con-
+                                              formidad a lo establecido en el artículo 155 del Código Tributario” (considerando primero), citado por SILVA
+                                              G., María Pía (2014), p. 236.
+**Concordancias Legales:** artículo 155 del Código Tributario; artículo 156 del Código Tributario expresa
+
+acción, entre otros argumentos, porque carecía de manifiesta falta de fundamento desde que “el reclamante
                                               evacuó el traslado allanándose a la reposición respecto a la improcedencia de plantear el reclamo en con-
                                               formidad a lo establecido en el artículo 155 del Código Tributario” (considerando primero), citado por SILVA
                                               G., María Pía (2014), p. 236.
@@ -7006,10 +7217,14 @@ Administrativa                                                                  
 Contenciosa                                       contencioso-administrativos con
 Administrativa                                    fuente en la legislación
 
-
 ## 6.5     Tribunal de Defensa de la Libre Competencia
 
-                                                (DFL N° 1, de 2005, del Ministerio de Economía,
+**Definición Canónica:** (DFL N° 1, de 2005, del Ministerio de Economía,
+                                                que fija el texto refundido, coordinado y
+                                                sistematizado del DL N° 211, de 1973)
+**Concordancias Legales:** artículo 18; artículo 21; artículo 25; artículo 29; artículo 20; artículo 2; artículo 22; artículo 341 del Código de; artículo 1 de la Ley N; artículo 3; Ley N° 18.120; DL N° 211; DL 211
+
+(DFL N° 1, de 2005, del Ministerio de Economía,
                                                 que fija el texto refundido, coordinado y
                                                 sistematizado del DL N° 211, de 1973)
 
@@ -7254,10 +7469,13 @@ Administrativa                                                                fu
                                                                             artículo 22 de la ley, se recibirá la causa a prueba, por el término fatal
                                                                             y común de veinte días hábiles.
 
-
 ## 190   VALDÉS PRIETO, Domingo, Exposición ante las Comisiones de la Cámara de Diputados. Historia de la Ley N°
 
-                                              19.911 www.bcn.cl.
+**Definición Canónica:** 19.911 www.bcn.cl.
+                                        191   TDLC, resolución dictada en autos rol C N° 123-07.
+**Concordancias Legales:** artículo 24; artículo 26; artículo 170 del Código de Procedimiento Civil; artículo 3; artículo 96 de la Ley de Mercado de; artículo 27; artículo 25; artículos 273; artículo 5; artículo 17; artículo 165 del Código; artículo 28; artículo 20; DL 211; D.L. N° 211; constitucion
+
+19.911 www.bcn.cl.
                                         191   TDLC, resolución dictada en autos rol C N° 123-07.
 
 Jurisdicción                            6. Tribunales, recursos y procedimientos                               180
@@ -7510,10 +7728,12 @@ Administrativa                                                                 f
 Contenciosa                                       contencioso-administrativos con
 Administrativa                                    fuente en la legislación
 
-
 ## 6.6     Reclamación contra sanciones administrativas
 
-                                                regulada en el Código Sanitario (artículos 171 y ss.)
+**Definición Canónica:** regulada en el Código Sanitario (artículos 171 y ss.)
+**Concordancias Legales:** artículos 171; artículo 171 del Código Sanitario dispone; artículo 172; constitucion
+
+regulada en el Código Sanitario (artículos 171 y ss.)
 
                                                 El artículo 171 del Código Sanitario dispone:
 
@@ -7572,10 +7792,16 @@ Administrativa                                    fuente en la legislación
 
                                         Preguntas y respuestas
 
-
 ## 1.   Desde la perspectiva constitucional, ¿cuáles son las normas que involucra el principio de
 
-                                             juridicidad? ¿Qué acciones se vinculan a él? ¿Quiénes son los obligados por él?
+**Definición Canónica:** juridicidad? ¿Qué acciones se vinculan a él? ¿Quiénes son los obligados por él?
+                                              —— Respuesta: Conforme a lo dispuesto en los artículos 6 y 7 de la Constitución Política, el
+                                                   ordenamiento jurídico al que debe someterse la acción de toda persona, del Estado y sus
+                                                   organismos, comprende a la Constitución Política, la ley y a toda otra norma que deba
+                                                   ajustarse a sus mandatos: reglamentos, decretos, decre
+**Concordancias Legales:** artículos 6; Constitución Política
+
+juridicidad? ¿Qué acciones se vinculan a él? ¿Quiénes son los obligados por él?
                                               —— Respuesta: Conforme a lo dispuesto en los artículos 6 y 7 de la Constitución Política, el
                                                    ordenamiento jurídico al que debe someterse la acción de toda persona, del Estado y sus
                                                    organismos, comprende a la Constitución Política, la ley y a toda otra norma que deba
@@ -7587,10 +7813,17 @@ Administrativa                                    fuente en la legislación
 
                                                    el ordenamiento jurídico).
 
-
 ## 2.   Refiérase a la relación entre los principios de juridicidad, control y responsabilidad como
 
-                                             pilar fundamental del Estado de derecho.
+**Definición Canónica:** pilar fundamental del Estado de derecho.
+                                              —— Respuesta: Como dice la doctrina especializada (Reyes Riveros), la juridicidad junto
+                                                   a la responsabilidad y al sistema nacional de control son elementos complementarios
+                                                   imprescindibles del Estado constitucional de derecho. La sola presencia del principio de
+                                                   juridicidad sin la concurrencia simultánea de los principios de responsabilidad y de control,
+     
+**Concordancias Legales:** artículo 93; artículos 98; artículos 13; artículo 54; artículo 38 de la Constitución; artículo 38; artículos 6; Ley 19.880; Ley N° 18.575; Ley N° 19.880; constitucion; Constitución Política; Constitución
+
+pilar fundamental del Estado de derecho.
                                               —— Respuesta: Como dice la doctrina especializada (Reyes Riveros), la juridicidad junto
                                                    a la responsabilidad y al sistema nacional de control son elementos complementarios
                                                    imprescindibles del Estado constitucional de derecho. La sola presencia del principio de
@@ -7721,15 +7954,23 @@ Administrativa                                    fuente en la legislación
                                                  garantía constitucional al efecto, contenida fundamentalmente en el artículo 38, inciso
                                                  segundo, en relación con los artículos 6, 7 y 76 de la Carta Fundamental.
 
-
 ## 13. Señale ejemplos en los que tribunales ordinarios sean considerados como competentes
 
-                                            para el conocimiento de asuntos contencioso-administrativos.
+**Definición Canónica:** para el conocimiento de asuntos contencioso-administrativos.
+                                             —— Respuesta: Las reclamaciones relacionadas con el acto administrativo expropiatorio (artículo
+
+para el conocimiento de asuntos contencioso-administrativos.
                                              —— Respuesta: Las reclamaciones relacionadas con el acto administrativo expropiatorio (artículo
 
 ## 19 N° 24 de la Constitución); acción por desconocimiento o privación de la nacionalidad
 
-                                                 (artículo 12 de la Constitución); reclamo de ilegalidad de la ley de municipalidades (artículo
+**Definición Canónica:** (artículo 12 de la Constitución); reclamo de ilegalidad de la ley de municipalidades (artículo
+                                                 151) y de la ley de Gobierno y Administración Interior (artículo 108); apelación de las
+                                                 sentencias del Tribunal de Defensa de la Libre Competencia (DFL N° 1, de 2005, del
+                                                 Ministerio de Economía), entre otros.
+**Concordancias Legales:** artículo 12 de la Constitución; artículo 151; artículo 108; artículo 20; artículo 151 de la Ley Orgánica Constitucional de Municipalidade; Constitución; constitucion
+
+(artículo 12 de la Constitución); reclamo de ilegalidad de la ley de municipalidades (artículo
                                                  151) y de la ley de Gobierno y Administración Interior (artículo 108); apelación de las
                                                  sentencias del Tribunal de Defensa de la Libre Competencia (DFL N° 1, de 2005, del
                                                  Ministerio de Economía), entre otros.
@@ -7793,10 +8034,16 @@ Administrativa                                    fuente en la legislación
                                                  proceso debe ser aquel que acredite tener un derecho subjetivo que sostenga el interés
                                                  para actuar en juicio.
 
-
 ## 19. Criterios que sirven para definir quién es la Corte de Apelaciones habilitada para conocer
 
-                                            una acción de amparo o habeas corpus.
+**Definición Canónica:** una acción de amparo o habeas corpus.
+                                             —— Respuesta: Será competente aquella Corte de Apelaciones: a) dentro de cuyo territorio
+                                                 jurisdiccional se dictó o cumplió la orden de detención o privación arbitraria o ilegal de
+                                                 libertad; b) correspondiente al lugar donde se encontrare el detenido si no existiera tal
+                                                 orden; c) del domicilio del afectado.
+**Concordancias Legales:** artículo 12; artículo 19 de la Constitución Política; DL N° 2186; constitucion; Constitución Política; Constitución
+
+una acción de amparo o habeas corpus.
                                              —— Respuesta: Será competente aquella Corte de Apelaciones: a) dentro de cuyo territorio
                                                  jurisdiccional se dictó o cumplió la orden de detención o privación arbitraria o ilegal de
                                                  libertad; b) correspondiente al lugar donde se encontrare el detenido si no existiera tal
@@ -7842,10 +8089,16 @@ Administrativa                                    fuente en la legislación
                                                   objeto del procedimiento, sin perjuicio del mérito correctivo o confirmatorio que puedan
                                                   aportar otras pruebas.
 
-
 ## 24. Si no hay acuerdo en la forma de entrega del bien expropiado ¿qué debe hacer el ente
 
-                                            expropiante para conseguir la posesión del mismo bien?
+**Definición Canónica:** expropiante para conseguir la posesión del mismo bien?
+                                             —— Respuesta: El expropiante debe pedir al juez autorización para tomar posesión material del
+                                                 bien. Para ello debe cumplir dos requisitos: a) deberá acreditar que ha puesto a disposición
+                                                 del tribunal el total o la cuota de contado de la indemnización provisional y, b) deberá
+                                                 acreditar que ha efectuado las dos publicaciones exigidas por el artículo 23 
+**Concordancias Legales:** artículo 23
+
+expropiante para conseguir la posesión del mismo bien?
                                              —— Respuesta: El expropiante debe pedir al juez autorización para tomar posesión material del
                                                  bien. Para ello debe cumplir dos requisitos: a) deberá acreditar que ha puesto a disposición
                                                  del tribunal el total o la cuota de contado de la indemnización provisional y, b) deberá
@@ -7872,28 +8125,45 @@ Administrativa                                    fuente en la legislación
                                                   dueño, hagan valer sus derechos en el procedimiento de liquidación sobre el monto de la
                                                   indemnización. Si no lo hacen, su derecho caduca.
 
-
 ## 26. Señale casos de acciones protectoras de derechos fundamentales que hayan sido
 
-                                            establecidas por el legislador y no directamente por la Constitución.
+**Definición Canónica:** establecidas por el legislador y no directamente por la Constitución.
+                                             —— Respuesta: Acción de amparo económico (Ley N° 18.971); acción establecida en el Título
+                                                 IV de la Ley sobre Protección de los Derechos de los Consumidores (Ley N° 19.496);
+                                                 procedimiento contemplado en el artículo 16 de la Ley sobre Protección de la Vida Privada
+                                                 (Ley N° 19.628), y la acción creada en el año 2000, por el artículo 95 del 
+**Concordancias Legales:** artículo 16 de la Ley sobre Protección de la Vida Privada; artículo 95 del Código Procesal; Ley N° 18.971; Ley N° 19.496; Ley N° 19.628; Ley N° 19.696; Constitución
+
+establecidas por el legislador y no directamente por la Constitución.
                                              —— Respuesta: Acción de amparo económico (Ley N° 18.971); acción establecida en el Título
                                                  IV de la Ley sobre Protección de los Derechos de los Consumidores (Ley N° 19.496);
                                                  procedimiento contemplado en el artículo 16 de la Ley sobre Protección de la Vida Privada
                                                  (Ley N° 19.628), y la acción creada en el año 2000, por el artículo 95 del Código Procesal
                                                  Penal (Ley N° 19.696), entre otras.
 
-
 ## 27. En materia de legitimación activa ¿hay diferencia entre el recurso de protección y el de
 
-                                            amparo económico?
+**Definición Canónica:** amparo económico?
                                              —— Respuesta: A diferencia de lo que ocurre con el recurso de protección, en el amparo
                                                 económico no resulta necesario que el recurrente posea interés actual en el asunto
                                                 denunciado. Se trata de una acción popular.
 
+amparo económico?
+                                             —— Respuesta: A diferencia de lo que ocurre con el recurso de protección, en el amparo
+                                                económico no resulta necesario que el recurrente posea interés actual en el asunto
+                                                denunciado. Se trata de una acción popular.
 
 ## 28. Explique la tesis histórica y la tesis literalista en materia de legitimación pasiva de la
 
-                                            acción de amparo económico.
+**Definición Canónica:** acción de amparo económico.
+                                             —— Respuesta: Según la tesis histórica, sólo cabe deducir acción de amparo económico para
+                                                 resguardar la garantía prevista en el inciso segundo del artículo 19 N° 21 constitucional.
+                                                 Esto es, el sujeto pasivo sólo pueden serlo el Estado y sus organismos. Varias sentencias han
+                                                 declarado, en este sentido, que el recurso de amparo establecido en el artículo único de la
+             
+**Concordancias Legales:** artículo 19; artículo 20; ley 18.971; Ley N° 18.971; constitucion; Constitución
+
+acción de amparo económico.
                                              —— Respuesta: Según la tesis histórica, sólo cabe deducir acción de amparo económico para
                                                  resguardar la garantía prevista en el inciso segundo del artículo 19 N° 21 constitucional.
                                                  Esto es, el sujeto pasivo sólo pueden serlo el Estado y sus organismos. Varias sentencias han
@@ -7952,7 +8222,11 @@ Administrativa                                    fuente en la legislación
 
 ## parte del alcalde en la etapa administrativa, puede conformarse con ella o reclamar dentro
 
-                                                 de treinta días ante la Corte de Apelaciones respectiva, caso en el cual tiene lugar una etapa
+**Definición Canónica:** de treinta días ante la Corte de Apelaciones respectiva, caso en el cual tiene lugar una etapa
+                                                 propiamente jurisdiccional contencioso-administrativa.
+**Concordancias Legales:** artículo 48; ley 19.880
+
+de treinta días ante la Corte de Apelaciones respectiva, caso en el cual tiene lugar una etapa
                                                  propiamente jurisdiccional contencioso-administrativa.
 
 Jurisdicción                                                                                  Preguntas y respuestas                          198
@@ -7972,10 +8246,17 @@ Administrativa                                    fuente en la legislación
 
                                                   diferencia con otras acciones de tipo cautelar como la protección o el habeas corpus.
 
-
 ## 34. Refiérase a las materias excluidas de la acción por vulneración de los derechos del
 
-                                            contribuyente.
+**Definición Canónica:** contribuyente.
+                                             —— Respuesta: Quedan excluidas las materias que deban ser conocidas en conformidad a alguno
+                                                 de los procedimientos establecidos en el Título II o en los Párrafos 1º y 3º de este Título o en
+                                                 el Título IV, todos del Libro Tercero del Código Tributario, esto es, el procedimiento general
+                                                 de reclamaciones, al reclamo en contra de los avalúos de bienes raíces, de la determinación
+                 
+**Concordancias Legales:** artículo 20 de la Constitución Política; artículo 155 del Código del; artículo 20 de la Constitución Política como de aquellas que se; artículos 155 del Código Tributario y 129 K de la Ordenanza de; artículos 19; DL N° 211; Constitucion; Constitución Política
+
+contribuyente.
                                              —— Respuesta: Quedan excluidas las materias que deban ser conocidas en conformidad a alguno
                                                  de los procedimientos establecidos en el Título II o en los Párrafos 1º y 3º de este Título o en
                                                  el Título IV, todos del Libro Tercero del Código Tributario, esto es, el procedimiento general
@@ -8017,10 +8298,17 @@ Administrativa                                    fuente en la legislación
                                                   infracciones a lo dispuesto en el DL N° 211, de 1973. En lo demás, opera como órgano de
                                                   control meramente administrativo.
 
-
 ## 38. Señale cuáles son las medidas que puede adoptar el Tribunal de Defensa de la Libre
 
-                                            Competencia en su fallo.
+**Definición Canónica:** Competencia en su fallo.
+                                             —— Respuesta: a) Modificar o poner término a los actos, contratos, convenios, sistemas o acuerdos
+                                                 que sean contrarios a las disposiciones de la presente ley; b) ordenar la modificación o
+                                                 disolución de las sociedades, corporaciones y demás personas jurídicas de derecho privado
+                                                 que hubieren intervenido en los actos, contratos, convenios, sistemas o acuerdos a que se
+                
+**Concordancias Legales:** artículos 151; artículo 21; artículo 1; artículo 19; artículo 20 de la Constitución; artículo 12; Ley Nº 18.575; Ley N° 18.971; constitucion; Constitución
+
+Competencia en su fallo.
                                              —— Respuesta: a) Modificar o poner término a los actos, contratos, convenios, sistemas o acuerdos
                                                  que sean contrarios a las disposiciones de la presente ley; b) ordenar la modificación o
                                                  disolución de las sociedades, corporaciones y demás personas jurídicas de derecho privado
@@ -8092,7 +8380,14 @@ Administrativa                                    fuente en la legislación
 
 ## 10. Estado de derecho: es la expresión histórica que
 
-                                        5.    Acción por vulneración de los derechos del con-             identifica los Estados, donde quien gobierna es
+**Definición Canónica:** 5.    Acción por vulneración de los derechos del con-             identifica los Estados, donde quien gobierna es
+                                              tribuyente: acción jurisdiccional que persigue              la ley, siendo una condición resultante de la idea
+                                              el resguardo de los derechos del contribuyente              igualitaria de que no hay nadie por debajo ni
+                                              frente a la actuación del Servicio de Impuestos             encima de esta, imponiendo requisitos formales,
+                       
+**Concordancias Legales:** Ley N° 20.322; Ley N° 20.420
+
+5.    Acción por vulneración de los derechos del con-             identifica los Estados, donde quien gobierna es
                                               tribuyente: acción jurisdiccional que persigue              la ley, siendo una condición resultante de la idea
                                               el resguardo de los derechos del contribuyente              igualitaria de que no hay nadie por debajo ni
                                               frente a la actuación del Servicio de Impuestos             encima de esta, imponiendo requisitos formales,
@@ -8101,7 +8396,15 @@ Administrativa                                    fuente en la legislación
 
 ## 6.    Acto administrativo: acto jurídico emitido por
 
-                                                                                                          y que adquieren pleno sentido en el cumplimiento
+**Definición Canónica:** y que adquieren pleno sentido en el cumplimiento
+                                              la autoridad administrativa en el ejercicio de su
+                                                                                                          de requisitos materiales como la sujeción demo-
+                                              competencia. En virtud de lo dispuesto en la ley
+                                                                                                          crática y el pleno respeto a los derechos funda-
+                                              de Ba
+**Concordancias Legales:** artículo 3
+
+y que adquieren pleno sentido en el cumplimiento
                                               la autoridad administrativa en el ejercicio de su
                                                                                                           de requisitos materiales como la sujeción demo-
                                               competencia. En virtud de lo dispuesto en la ley
@@ -8123,10 +8426,16 @@ Administrativa                                    fuente en la legislación
                                               supremos y resoluciones” (artículo 3 LBPA).
                                                                                                           tales. La idea del Estado de derecho supone el
 
-
 ## 195     Varios de los significados de términos que incluye
 
-                                                este Glosario fueron extraídos de la obra titulada
+**Definición Canónica:** este Glosario fueron extraídos de la obra titulada
+                                                Diccionario de derecho constitucional chileno, de
+                                                Gonzalo García Pino y Pablo Contreras Vásquez,
+                                                Cuaderno N° 55, Tribunal Constitucional, 2014,
+                                                disponible en www.tcchile.cl.
+**Concordancias Legales:** artículo 19; constitucion; Constitución
+
+este Glosario fueron extraídos de la obra titulada
                                                 Diccionario de derecho constitucional chileno, de
                                                 Gonzalo García Pino y Pablo Contreras Vásquez,
                                                 Cuaderno N° 55, Tribunal Constitucional, 2014,
@@ -8153,7 +8462,9 @@ Administrativa                                    fuente en la legislación
 
 ## 12. Invalidación: es el acto de contrario imperio
 
-                                            dictado por la autoridad administrativa compe-          17. Reclamos en materia de expropiación: recla-
+**Definición Canónica:** dictado por la autoridad administrativa compe-          17. Reclamos en materia de expropiación: recla-
+
+dictado por la autoridad administrativa compe-          17. Reclamos en materia de expropiación: recla-
 
                                             tente a través del cual se deja sin efecto otro acto        mos que puede intentar el expropiado ante los
                                             de igual naturaleza que se encuentra viciado de             tribunales ordinarios de justicia para impugnar
@@ -8162,7 +8473,15 @@ Administrativa                                    fuente en la legislación
 
 ## 13. Juicio de cuentas: procedimiento jurisdiccional
 
-                                                                                                        la determinación del monto definitivo de la indem-
+**Definición Canónica:** la determinación del monto definitivo de la indem-
+                                            contencioso, administrativo y de doble instan-
+                                                                                                        nización por el daño patrimonial efectivamente
+                                            cia, cuya competencia exclusiva corresponde
+                                                                                                        causado por el acto expropiatorio (artículo 19 N°
+                                            a la Contraloría Gene
+**Concordancias Legales:** artículo 19; DL N° 2.186
+
+la determinación del monto definitivo de la indem-
                                             contencioso, administrativo y de doble instan-
                                                                                                         nización por el daño patrimonial efectivamente
                                             cia, cuya competencia exclusiva corresponde
@@ -8184,7 +8503,15 @@ Administrativa                                    fuente en la legislación
 
 ## 14. Nulidad de derecho público: sanción de ineficacia
 
-                                                                                                        dad que dictó el acto que se pretende impugnar, y
+**Definición Canónica:** dad que dictó el acto que se pretende impugnar, y
+                                            jurídica que afecta aquellos actos de los órganos
+                                                                                                        d) también se contempla un recurso de aclaración
+                                            del Estado, cuando faltare alguno de los requisitos
+                                                                                                        ante la misma autoridad que emitió el acto.
+                                            que el ordenami
+**Concordancias Legales:** artículo 151; Constitución; Constitucion
+
+dad que dictó el acto que se pretende impugnar, y
                                             jurídica que afecta aquellos actos de los órganos
                                                                                                         d) también se contempla un recurso de aclaración
                                             del Estado, cuando faltare alguno de los requisitos
@@ -8209,10 +8536,18 @@ Administrativa                                    fuente en la legislación
 
 Jurisdicción                                                                                       203
 
-
 ## 21. Reclamo de ilegalidad respecto de las actuacio-
 
-                                            nes del gobierno regional: recurso previsto en la
+**Definición Canónica:** nes del gobierno regional: recurso previsto en la
+                                            Ley Orgánica Constitucional de Administración
+                                            y Gobierno Regional, N° 19.175 (artículo 108), que
+                                            tiene una fase administrativa, ante el intendente,
+                                            y otra jurisdiccional, ante la Corte de Apelaciones
+                                            respectiva, que permite impugnar la legalidad de
+                                            actos de las unidades del gobierno re
+**Concordancias Legales:** artículo 108; Constitucion
+
+nes del gobierno regional: recurso previsto en la
                                             Ley Orgánica Constitucional de Administración
                                             y Gobierno Regional, N° 19.175 (artículo 108), que
                                             tiene una fase administrativa, ante el intendente,
@@ -8237,30 +8572,38 @@ Administrativa                                    fuente en la legislación
 
 ## 1.   ALVEAR, Julio (2019): artículo publicado en El       11.   RUBANO LAPASTA, Iris Mariela (1998): “Control
 
-                                             Mercurio Legal y disponible en https://prensa.udd.         administrativo. Jurisdicción contencioso-admi-
+**Definición Canónica:** Mercurio Legal y disponible en https://prensa.udd.         administrativo. Jurisdicción contencioso-admi-
                                              cl/medios-y-prensa/los-tribunales-contencio-               nistrativa”, en Revista Chilena de Derecho, Vol.
                                              sos-administrativos/. Revisado el 31 de marzo de           especial.
                                              2020.
 
-## 12. SOTO KLOSS, Eduardo (1974): “La competencia
-
+Mercurio Legal y disponible en https://prensa.udd.         administrativo. Jurisdicción contencioso-admi-
+                                             cl/medios-y-prensa/los-tribunales-contencio-               nistrativa”, en Revista Chilena de Derecho, Vol.
+                                             sos-administrativos/. Revisado el 31 de marzo de           especial.
+                                             2020.
 
 ## 2.   BORDALÍ, Andrés (2005): “Principios de una nueva         contencioso-administrativa de los tribunales
 
-                                             justicia administrativa en Chile”, en La justicia        ordinarios de justicia”, en Revista Chilena de
+**Definición Canónica:** justicia administrativa en Chile”, en La justicia        ordinarios de justicia”, en Revista Chilena de
+                                             administrativa. Actas I Jornadas de Derecho              Derecho, Vol. I.
+                                             Administrativo (Juan Carlos Ferrada coord.),
+
+justicia administrativa en Chile”, en La justicia        ordinarios de justicia”, en Revista Chilena de
                                              administrativa. Actas I Jornadas de Derecho              Derecho, Vol. I.
                                              Administrativo (Juan Carlos Ferrada coord.),
 
                                              LexisNexis.
 
-
-## 3.   CÁRCAMO, Alejandro: comentario disponible
-
-                                             en https://www.diarioconstitucional.cl/articulos/
-
 ## Capítulo 1
 
-                                             los-tribunales-de-lo-contencioso-administrati-             Bibliografía doctrina
+**Definición Canónica:** los-tribunales-de-lo-contencioso-administrati-             Bibliografía doctrina
+                                             vo-en-chile-una-deuda-pendiente/. Revisado el
+                                             31 de marzo de 2020.                                 1.    ARÓSTICA MALDONADO, Iván (1989): Revista
+                                                                                                        Chilena de Derecho, Vol. 16, Nº 2 (junio-agosto de
+                                        4.   CEA EGAÑA, José Luis (1994): “La regionalización           1989), pp. 455-464.
+    
+
+los-tribunales-de-lo-contencioso-administrati-             Bibliografía doctrina
                                              vo-en-chile-una-deuda-pendiente/. Revisado el
                                              31 de marzo de 2020.                                 1.    ARÓSTICA MALDONADO, Iván (1989): Revista
                                                                                                         Chilena de Derecho, Vol. 16, Nº 2 (junio-agosto de
@@ -8269,20 +8612,25 @@ Administrativa                                    fuente en la legislación
                                              tal”, en Revista de Derecho USACH, Vol. V.           2.    ARAGÓN REYES, M., (1997): “Estado y Democra-
                                                                                                         cia”, en El derecho público de fines de siglo, una
 
-## 5.   CORDERO VEGA, Luis (2009): El control de la                perspectiva iberoamericana, Madrid, Fundación
-
-                                             Administración del Estado, 2ª edición LegalPubli-          B.B.U., Ed. Civitas.
-                                             shing.
-
 ## 3.    BERMÚDEZ SOTO, Jorge (2011): Derecho admi-
 
-                                        6.   COSTA, Ezio (2014): “Los tribunales administra-            nistrativo general. Santiago de Chile, Editorial
+**Definición Canónica:** 6.   COSTA, Ezio (2014): “Los tribunales administra-            nistrativo general. Santiago de Chile, Editorial
+                                             tivos especiales en Chile”, en Revista de Derecho          Thomson Reuters.
+                                             (Valdivia), Vol. 27 Nº 1, pp. 151-167.
+
+6.   COSTA, Ezio (2014): “Los tribunales administra-            nistrativo general. Santiago de Chile, Editorial
                                              tivos especiales en Chile”, en Revista de Derecho          Thomson Reuters.
                                              (Valdivia), Vol. 27 Nº 1, pp. 151-167.
 
 ## 4.    CORDERO VEGA, Luis (2003), “Limitando la ley
 
-                                        7.   FERRADA, Juan Carlos (2000): “El principio del             de procedimiento administrativo. Una interpreta-
+**Definición Canónica:** 7.   FERRADA, Juan Carlos (2000): “El principio del             de procedimiento administrativo. Una interpreta-
+                                             control de la Administración del Estado”, en La            ción intolerable”, en Revista Chilena de Derecho,
+                                             Administración del Estado. Decenio 1990-2000               30 (3), pp. 549-552.
+                                             (coord. Rolando Pantoja Bauzá), Editorial Cono-
+                                             sur.                                                 5.    DE LA CRUZ,
+
+7.   FERRADA, Juan Carlos (2000): “El principio del             de procedimiento administrativo. Una interpreta-
                                              control de la Administración del Estado”, en La            ción intolerable”, en Revista Chilena de Derecho,
                                              Administración del Estado. Decenio 1990-2000               30 (3), pp. 549-552.
                                              (coord. Rolando Pantoja Bauzá), Editorial Cono-
@@ -8295,7 +8643,14 @@ Administrativa                                    fuente en la legislación
 
 ## 9.   PAREJO ALFONSO, Luciano (2003): Derecho
 
-                                             administrativo. Instituciones generales: bases,      7.    LARA ARROYO, José Luis y SCHNEIDER, Antonia
+**Definición Canónica:** administrativo. Instituciones generales: bases,      7.    LARA ARROYO, José Luis y SCHNEIDER, Antonia
+                                             fuentes, organización y sujetos, actividad y con-          (2018): “Nuevas tendencias del procedimiento
+                                             trol, Ariel Derecho, Barcelona.                            administrativo en Chile e Iberoamérica: pro-
+                                                                                                        puestas frente a una nueva forma de gobernar
+                                        10. REYES 
+**Concordancias Legales:** constitucion
+
+administrativo. Instituciones generales: bases,      7.    LARA ARROYO, José Luis y SCHNEIDER, Antonia
                                              fuentes, organización y sujetos, actividad y con-          (2018): “Nuevas tendencias del procedimiento
                                              trol, Ariel Derecho, Barcelona.                            administrativo en Chile e Iberoamérica: pro-
                                                                                                         puestas frente a una nueva forma de gobernar
@@ -8336,7 +8691,12 @@ Administrativa                                    fuente en la legislación
 
 ## 10. FLORES, Juan Carlos (2017): “La caducidad de
 
-                                            los actos administrativos”, en Revista de Dere-        6.    Nº 3.985, de 2008;
+**Definición Canónica:** los actos administrativos”, en Revista de Dere-        6.    Nº 3.985, de 2008;
+                                            cho (Valdivia), Vol. XXX, N° 2, diciembre 2017, pp.
+                                            225-249.                                               7.    Nº 13.188, de 2009;
+**Concordancias Legales:** Constitucion
+
+los actos administrativos”, en Revista de Dere-        6.    Nº 3.985, de 2008;
                                             cho (Valdivia), Vol. XXX, N° 2, diciembre 2017, pp.
                                             225-249.                                               7.    Nº 13.188, de 2009;
 
@@ -8364,13 +8724,21 @@ Administrativa                                    fuente en la legislación
 
 ## 14. SANTAMARÍA PASTOR, Juan (1999): Principios
 
-                                            de derecho administrativo, Tomo II, Madrid, Ed.        19.   Nº 24.885, de 1990;
+**Definición Canónica:** de derecho administrativo, Tomo II, Madrid, Ed.        19.   Nº 24.885, de 1990;
+                                            Ceura.
+                                                                                                   20. Nº 17.660, de 1997;
+
+de derecho administrativo, Tomo II, Madrid, Ed.        19.   Nº 24.885, de 1990;
                                             Ceura.
                                                                                                    20. Nº 17.660, de 1997;
 
 ## 15. SOTO KLOSS, Eduardo (1996): Derecho adminis-
 
-                                                                                                   21. Nº 28.704, de 1981;
+**Definición Canónica:** 21. Nº 28.704, de 1981;
+                                            trativo. Bases fundamentales, Tomo I, Santiago,
+                                            Ed. Jurídica de Chile.                                 22. Nº 13.321, de 1993;
+
+21. Nº 28.704, de 1981;
                                             trativo. Bases fundamentales, Tomo I, Santiago,
                                             Ed. Jurídica de Chile.                                 22. Nº 13.321, de 1993;
 
@@ -8391,31 +8759,37 @@ Administrativa                                    fuente en la legislación
 
 ## 5.   OELCKERS, Osvaldo (1975): “El recurso de nu-
 
-                                        2.   CS, 10 de septiembre de 2003, “Saffirio Espinoza,            lidad”, en AA.VV. Lo contencioso administrati-
+**Definición Canónica:** 2.   CS, 10 de septiembre de 2003, “Saffirio Espinoza,            lidad”, en AA.VV. Lo contencioso administrati-
+                                             René con Jefe del Departamento Provincial de                 vo, Universidad Católica de Valparaíso, Edicio-
+                                             Educación”, rol N° 3125-03, en particular su con-            nes Universitarias de Valparaíso.
+                                             siderando tercero, Gaceta Jurídica N° 279, p. 60.
+
+2.   CS, 10 de septiembre de 2003, “Saffirio Espinoza,            lidad”, en AA.VV. Lo contencioso administrati-
                                              René con Jefe del Departamento Provincial de                 vo, Universidad Católica de Valparaíso, Edicio-
                                              Educación”, rol N° 3125-03, en particular su con-            nes Universitarias de Valparaíso.
                                              siderando tercero, Gaceta Jurídica N° 279, p. 60.
 
 ## 6.   SAYAGUÉS LASO, Enrique (2002): Tratado de de-
 
-                                        3.   CS, 8 de marzo de 2005, “Aguilera Jara, Jaime                recho administrativo, Tomo II, 2ª edición, Funda-
+**Definición Canónica:** 3.   CS, 8 de marzo de 2005, “Aguilera Jara, Jaime                recho administrativo, Tomo II, 2ª edición, Funda-
+                                             con Dirección Regional del SII”, rol N° 821-05.              ción de Cultura Universitaria, Montevideo.
+
+3.   CS, 8 de marzo de 2005, “Aguilera Jara, Jaime                recho administrativo, Tomo II, 2ª edición, Funda-
                                              con Dirección Regional del SII”, rol N° 821-05.              ción de Cultura Universitaria, Montevideo.
 
                                         4.   CS, 25 de abril de 2006, “Laboratorio Bestpharma        7.   SILVA CIMMA, Enrique (1959): Derecho adminis-
                                              con Instituto de Salud Pública”.                             trativo, Tomo II., Ed. Universitaria, Santiago.
 
-
-## 5.   CS, 25 de abril de 2006, rol 1544-06, en Juris-
-
-                                             prudencia al día, Año 1, N° 9, p. 103, N° ID Lexis:
-                                             34.189, La Semana Jurídica, Año 5, N° 290.
-
-## Capítulo 3
-
-
 ## 6.   CS, 31 de mayo de 2006, “Thunderbird Antofa-
 
-                                                                                                          Bibliografía doctrina
+**Definición Canónica:** Bibliografía doctrina
+                                             gasta S.A. con Superintendencia de Casinos”,
+                                             recurso de protección rol N° 1714-2006, en Juris-       1.   PONCE DE LEÓN SALUCCI, Sandra:
+                                             prudencia al día, Año 1, N° 15, p. 172, N° ID Lexis:
+                                             34.443, La Semana Jurídica, año 5, N° 296.                   (2014): “Notas sobre la discrecionalidad en la Ad-
+                                                                                                
+
+Bibliografía doctrina
                                              gasta S.A. con Superintendencia de Casinos”,
                                              recurso de protección rol N° 1714-2006, en Juris-       1.   PONCE DE LEÓN SALUCCI, Sandra:
                                              prudencia al día, Año 1, N° 15, p. 172, N° ID Lexis:
@@ -8429,7 +8803,14 @@ Administrativa                                    fuente en la legislación
 
 ## 9.   CS, roles Nos 3412-2015, 23.587-2015, 17.405-
 
-                                                                                                          cos”, en XXXVIII Jornadas Chilenas de Derecho
+**Definición Canónica:** cos”, en XXXVIII Jornadas Chilenas de Derecho
+                                             2016 y 35.585-2016.
+                                                                                                          Público, Universidad de Concepción: “Derecho
+                                        10. CS, de 29 de diciembre de 2009, rol 7618-2009.                público en el siglo XXI. Reforma y modernización
+                                                                                                          del Estado”, Fondo de Publicaciones, Facultad de
+                            
+
+cos”, en XXXVIII Jornadas Chilenas de Derecho
                                              2016 y 35.585-2016.
                                                                                                           Público, Universidad de Concepción: “Derecho
                                         10. CS, de 29 de diciembre de 2009, rol 7618-2009.                público en el siglo XXI. Reforma y modernización
@@ -8437,10 +8818,16 @@ Administrativa                                    fuente en la legislación
                                                                                                           Ciencias Jurídicas y Sociales UDEC, Vol. II, Con-
                                                                                                           cepción.
 
-
 ## Capítulo 2                                                   (2001): “Discrecionalidad y técnica en la admi-
 
-                                             Bibliografía doctrina                                        nistración moderna”, tesis para optar al grado
+**Definición Canónica:** Bibliografía doctrina                                        nistración moderna”, tesis para optar al grado
+                                                                                                          académico de magíster en Derecho Público con
+                                        1.   BORDALÍ, Andrés. (2006): “La administración                  mención en Derecho Constitucional de la Pontifi-
+                                             pública ante los tribunales de justicia chilenos”,           cia Universidad Católica de Chile.
+                                             
+**Concordancias Legales:** Constitucion
+
+Bibliografía doctrina                                        nistración moderna”, tesis para optar al grado
                                                                                                           académico de magíster en Derecho Público con
                                         1.   BORDALÍ, Andrés. (2006): “La administración                  mención en Derecho Constitucional de la Pontifi-
                                              pública ante los tribunales de justicia chilenos”,           cia Universidad Católica de Chile.
@@ -8449,25 +8836,29 @@ Administrativa                                    fuente en la legislación
                                              pp. 17-36.                                                   ministrativa, Ed. AbeledoPerrot LegalPublishing,
                                                                                                           Santiago.
 
-## 2.   CORDERO, Luis (2009), El control de la adminis-
-
-                                             tración del Estado, 2ª Edición, LegalPublishing,
-                                             Santiago.
-
-
 ## 3.   CORDERO Q., Eduardo (2005): “La legitimación                 Capítulo 4
 
-                                             activa en el proceso contencioso-administrativo”,            Bibliografía doctrina
+**Definición Canónica:** activa en el proceso contencioso-administrativo”,            Bibliografía doctrina
+                                             en La Justicia Administrativa. Actas I Jornadas
+                                             de Derecho Administrativo (Juan Carlos Ferrada          1.   AYLWIN, Patricio (1959): Derecho administrativo,
+                                             coord.), LexisNexis.                                         Tomo. II, Santiago, Ed. Universitaria S.A.
+
+activa en el proceso contencioso-administrativo”,            Bibliografía doctrina
                                              en La Justicia Administrativa. Actas I Jornadas
                                              de Derecho Administrativo (Juan Carlos Ferrada          1.   AYLWIN, Patricio (1959): Derecho administrativo,
                                              coord.), LexisNexis.                                         Tomo. II, Santiago, Ed. Universitaria S.A.
 
 Jurisdicción                                                                                      Bibliografía                                          207
 
-
 ## 2.   CARMONA, Carlos (2005): “El contencioso-ad-               petencia de 1964, en RDJ, Tomo LXI, p. 7. Tam-
 
-                                             ministrativo entre 1990 y 2003”, en La Justicia           bién en Primera Comisión Legislativa, Junta de
+**Definición Canónica:** ministrativo entre 1990 y 2003”, en La Justicia           bién en Primera Comisión Legislativa, Junta de
+                                             Administrativa. Actas I Jornadas de Derecho               Gobierno de la República de Chile. Los tribunales
+                                             Administrativo (Juan Carlos Ferrada coord.), San-         contencioso-administrativos. Antecedentes para
+                                             tiago, LexisNexis.                                        su estudio. Doctrina, jurisprudencia, proyectos
+                                         
+
+ministrativo entre 1990 y 2003”, en La Justicia           bién en Primera Comisión Legislativa, Junta de
                                              Administrativa. Actas I Jornadas de Derecho               Gobierno de la República de Chile. Los tribunales
                                              Administrativo (Juan Carlos Ferrada coord.), San-         contencioso-administrativos. Antecedentes para
                                              tiago, LexisNexis.                                        su estudio. Doctrina, jurisprudencia, proyectos
@@ -8479,14 +8870,24 @@ Administrativa                                    fuente en la legislación
 
 ## 4.   MARÍN, Urbano, (2002): “Vigencia actual de la             RDJ, Tomo LXIV, Sección 1ª, p. 109. También en
 
-                                             invalidación de los actos administrativos”, en            Primera Comisión Legislativa, Junta de Gobierno
+**Definición Canónica:** invalidación de los actos administrativos”, en            Primera Comisión Legislativa, Junta de Gobierno
+                                             Revista de Derecho del Consejo de Defensa del             de la República de Chile. Los tribunales conten-
+                                             Estado, Nº 2, Santiago.                                   cioso-administrativos. Antecedentes para su es-
+                                                                                                       tudio. Doctrina, jurisprudencia, proyectos (coord.
+
+invalidación de los actos administrativos”, en            Primera Comisión Legislativa, Junta de Gobierno
                                              Revista de Derecho del Consejo de Defensa del             de la República de Chile. Los tribunales conten-
                                              Estado, Nº 2, Santiago.                                   cioso-administrativos. Antecedentes para su es-
                                                                                                        tudio. Doctrina, jurisprudencia, proyectos (coord.
 
 ## 5.   PANTOJA, Rolando (2005): “Justicia adminis-
 
-                                                                                                       R. Pantoja Bauzá), Armada de Chile, Santiago,
+**Definición Canónica:** R. Pantoja Bauzá), Armada de Chile, Santiago,
+                                             trativa: ¿tribunales ordinarios, tribunales de
+                                                                                                       1982, pp. 223-239.
+                                             jurisdicción general o tribunales especiales de
+
+R. Pantoja Bauzá), Armada de Chile, Santiago,
                                              trativa: ¿tribunales ordinarios, tribunales de
                                                                                                        1982, pp. 223-239.
                                              jurisdicción general o tribunales especiales de
@@ -8514,12 +8915,15 @@ Administrativa                                    fuente en la legislación
                                              risprudencia, proyectos (coord. R. Pantoja Bauzá),        Bibliografía doctrina
                                              Armada de Chile, Santiago, 1982.
 
-## 1.   ÁLVAREZ M., Marcela (1994): La acción consti-
-
-
 ## 7.   Primera Comisión Legislativa, Junta de Gobierno           tucional de reclamación en materia de nacio-
 
-                                             de la República de Chile, Los tribunales conten-          nalidad, Santiago, tesis de grado, Universidad
+**Definición Canónica:** de la República de Chile, Los tribunales conten-          nalidad, Santiago, tesis de grado, Universidad
+                                             cioso-administrativos. Antecedentes para su es-           Católica de Chile.
+                                             tudio. Doctrina, jurisprudencia, proyectos (coord.
+                                             R. Pantoja Bauzá), Armada de Chile, Santiago,        2.   BERMÚDEZ, Jorge (2011): Derecho administrativo
+                                             1982.                                                     general, segunda edición
+
+de la República de Chile, Los tribunales conten-          nalidad, Santiago, tesis de grado, Universidad
                                              cioso-administrativos. Antecedentes para su es-           Católica de Chile.
                                              tudio. Doctrina, jurisprudencia, proyectos (coord.
                                              R. Pantoja Bauzá), Armada de Chile, Santiago,        2.   BERMÚDEZ, Jorge (2011): Derecho administrativo
@@ -8528,7 +8932,14 @@ Administrativa                                    fuente en la legislación
 
 ## 8.   SOTO KLOSS, Eduardo (2009): Derecho admi-
 
-                                             nistrativo. Temas fundamentales, Santiago, Ed.       3.   CARMONA, Carlos (2005): “El contencioso-ad-
+**Definición Canónica:** nistrativo. Temas fundamentales, Santiago, Ed.       3.   CARMONA, Carlos (2005): “El contencioso-ad-
+                                             LegalPublishing Abeledo Perrot.                           ministrativo entre 1990 y 2003”, en La Justicia
+                                                                                                       Administrativa. Actas I Jornadas de Derecho
+                                        9.   VERGARA, Alejandro (2013): “Esquema del con-              Administrativo (Juan Carlos Ferrada coord.), San-
+                                             te
+**Concordancias Legales:** Constitución
+
+nistrativo. Temas fundamentales, Santiago, Ed.       3.   CARMONA, Carlos (2005): “El contencioso-ad-
                                              LegalPublishing Abeledo Perrot.                           ministrativo entre 1990 y 2003”, en La Justicia
                                                                                                        Administrativa. Actas I Jornadas de Derecho
                                         9.   VERGARA, Alejandro (2013): “Esquema del con-              Administrativo (Juan Carlos Ferrada coord.), San-
@@ -8541,19 +8952,24 @@ Administrativa                                    fuente en la legislación
 
 ## 5.   CONCHA MACHUCA, Ricardo (2013): “El desa-
 
-                                                                                                       rrollo del régimen jurídico de la nulidad de dere-
+**Definición Canónica:** rrollo del régimen jurídico de la nulidad de dere-
                                              Jurisprudencia judicial                                   cho público”, en Revista de Derecho (Valdivia),
                                                                                                        Vol. XXVI Nº 2, diciembre 2013, pp. 93-114
 
-## 1.   CS, “Socotransco con Fisco”, contienda de com-
-
-
-Jurisdicción                                                                                        Bibliografía                                              208
-
+rrollo del régimen jurídico de la nulidad de dere-
+                                             Jurisprudencia judicial                                   cho público”, en Revista de Derecho (Valdivia),
+                                                                                                       Vol. XXVI Nº 2, diciembre 2013, pp. 93-114
 
 ## 6.    FERNÁNDEZ G., Miguel Ángel (2001): “La nacio-         15. PFEFFER U., Emilio (2000): “Naturaleza, carac-
 
-                                              nalidad en la Constitución”, en Revista de Dere-          terísticas y fines del recurso de protección”, en
+**Definición Canónica:** nalidad en la Constitución”, en Revista de Dere-          terísticas y fines del recurso de protección”, en
+                                              cho, Universidad Austral, Vol. XII, diciembre 2001.       Nogueira Alcalá, Humberto: Acciones consti-
+                                                                                                        tucionales de amparo y protección: realidad y
+                                        7.    FERRADA B., Juan Carlos:                                  prospectiva en Chile y América Latina, Santiago,
+                                         
+**Concordancias Legales:** Constitución; constitucion
+
+nalidad en la Constitución”, en Revista de Dere-          terísticas y fines del recurso de protección”, en
                                               cho, Universidad Austral, Vol. XII, diciembre 2001.       Nogueira Alcalá, Humberto: Acciones consti-
                                                                                                         tucionales de amparo y protección: realidad y
                                         7.    FERRADA B., Juan Carlos:                                  prospectiva en Chile y América Latina, Santiago,
@@ -8578,7 +8994,15 @@ Administrativa                                    fuente en la legislación
 
 ## 8.    GÓMEZ B., Gastón (2005): Derechos fundamen-
 
-                                                                                                        (2001): “El recurso de protección, institución
+**Definición Canónica:** (2001): “El recurso de protección, institución
+                                              tales y recurso de protección, Santiago, Ediciones
+                                                                                                        esencial de una sociedad libre”, en 20 años de la
+                                              Universidad Diego Portales, Facultad de Derecho.
+                                                                                                        Constitución Chilena 1981-2001, Santiago, Edito-
+                                        9.    JARA, Ja
+**Concordancias Legales:** Constitución
+
+(2001): “El recurso de protección, institución
                                               tales y recurso de protección, Santiago, Ediciones
                                                                                                         esencial de una sociedad libre”, en 20 años de la
                                               Universidad Diego Portales, Facultad de Derecho.
@@ -8602,12 +9026,17 @@ Administrativa                                    fuente en la legislación
                                               demia Judicial.
                                                                                                           doPerrot Thomson Reuters.
 
-## 11.   LUCAS G., Andrea (2014): “Acción de protección
-
-
 ## 20. ZAVALA O., José Luis (2009): Recurso de protec-
 
-                                              del medioambiente. Desde la perspectiva de la
+**Definición Canónica:** del medioambiente. Desde la perspectiva de la
+                                                                                                        ción. Casos y jurisprudencia, Santiago, Editoriales
+                                              justicia ambiental”, en Acciones protectoras de
+                                                                                                        Punto Lex y Thomson Reuters.
+                                              derechos fundamentales (Miriam Henríquez y
+                                              María Pía Silva coords.), Santiago, 
+**Concordancias Legales:** constitucion
+
+del medioambiente. Desde la perspectiva de la
                                                                                                         ción. Casos y jurisprudencia, Santiago, Editoriales
                                               justicia ambiental”, en Acciones protectoras de
                                                                                                         Punto Lex y Thomson Reuters.
@@ -8625,7 +9054,12 @@ Administrativa                                    fuente en la legislación
 
 ## 2.    CS, “Sky Service S.A. con Fisco de Chile”, rol N°
 
-                                        14. PIERRY A., Pedro (1977): “El recuso de protección             5553-2007.
+**Definición Canónica:** 14. PIERRY A., Pedro (1977): “El recuso de protección             5553-2007.
+                                            y lo contencioso-administrativo”, en Revista de
+                                            Derecho, Universidad de Concepción, año XLIV,           3.    CS, “INP con Cuello”, de 30 de agosto de 2007, rol
+                                            N° 165, enero-diciembre.                                      N° 3689-2006 .
+
+14. PIERRY A., Pedro (1977): “El recuso de protección             5553-2007.
                                             y lo contencioso-administrativo”, en Revista de
                                             Derecho, Universidad de Concepción, año XLIV,           3.    CS, “INP con Cuello”, de 30 de agosto de 2007, rol
                                             N° 165, enero-diciembre.                                      N° 3689-2006 .
@@ -8638,32 +9072,26 @@ Administrativa                                    fuente en la legislación
                                         6.    CA San Miguel, roles 518 y 522, de 2019.                 3.    BERMÚDEZ, Jorge, (2011): Derecho administra-
                                                                                                              tivo general, Segunda edición actualizada, Ed.
 
-## 7.    CS, rol Nº 24.667-2020 y rol Nº 361-2020 CA de
-
-                                                                                                             Abeledo Perrot Thomson Reuters.
-                                              Santiago.
-
 ## 4.    BERTELSEN R., Raúl (1987): “El Estado empresario
 
-                                        8.    Rol 439-2018 Corte de Apelaciones de Santiago.
+**Definición Canónica:** 8.    Rol 439-2018 Corte de Apelaciones de Santiago.
+                                                                                                             en la Constitución de 1980”, en Revista Chilena
+                                              Fecha 18 de abril de 2018.
+                                                                                                             de Derecho (N° 14).
+**Concordancias Legales:** Constitución
+
+8.    Rol 439-2018 Corte de Apelaciones de Santiago.
                                                                                                              en la Constitución de 1980”, en Revista Chilena
                                               Fecha 18 de abril de 2018.
                                                                                                              de Derecho (N° 14).
 
-## 9.    Rol 322-2016 Corte de Apelaciones de Concep-
-
-
-## 5.    CEA E., José Luis (1991): “Notas sobre el orden
-
-                                              ción. Fecha 14 de octubre de 2016.
-                                                                                                             público económico”, en Gaceta Jurídica N° 135.
-
-## 10. Rol 287-2016 Corte de Apelaciones de Concep-
-
-
 ## 6.    EVANS DE LA CUADRA, Enrique (2000): Los
 
-                                            ción. Fecha 22 de septiembre de 2016.
+**Definición Canónica:** ción. Fecha 22 de septiembre de 2016.
+                                                                                                             derechos fundamentales, Santiago, Editorial Jurí-
+                                        11.   Rol 246-2016 Corte de Apelaciones de Concep-                   dica de Chile.
+
+ción. Fecha 22 de septiembre de 2016.
                                                                                                              derechos fundamentales, Santiago, Editorial Jurí-
                                         11.   Rol 246-2016 Corte de Apelaciones de Concep-                   dica de Chile.
 
@@ -8671,7 +9099,14 @@ Administrativa                                    fuente en la legislación
 
 ## 7.    FERNÁNDEZ G., Miguel Ángel (2003): “El recurso
 
-                                        12. Rol 160-2016 Corte de Apelaciones de Santiago.                   de amparo económico: una década de aplicación
+**Definición Canónica:** 12. Rol 160-2016 Corte de Apelaciones de Santiago.                   de amparo económico: una década de aplicación
+                                            Fecha 19 de agosto de 2016.                                      en los 20 años de vigencia de la Constitución”,
+                                                                                                             en Anuario de la Facultad de Ciencias Jurídicas,
+                                        13. Rol 15924-2016 Corte Suprema, segunda sala.                      Universidad de Atacama (Año I N° 1).
+                        
+**Concordancias Legales:** Constitución
+
+12. Rol 160-2016 Corte de Apelaciones de Santiago.                   de amparo económico: una década de aplicación
                                             Fecha 19 de agosto de 2016.                                      en los 20 años de vigencia de la Constitución”,
                                                                                                              en Anuario de la Facultad de Ciencias Jurídicas,
                                         13. Rol 15924-2016 Corte Suprema, segunda sala.                      Universidad de Atacama (Año I N° 1).
@@ -8679,7 +9114,13 @@ Administrativa                                    fuente en la legislación
 
 ## 8.    FERNÁNDEZ R., José (2006): “Improcedencia
 
-                                        14. Roles 13824-2016; 13822-2016; 13829-2016;                        del reclamo de ilegalidad de la ley orgánica de
+**Definición Canónica:** 14. Roles 13824-2016; 13822-2016; 13829-2016;                        del reclamo de ilegalidad de la ley orgánica de
+                                            13828-2016; 13820-2016; 12826-2016; 13825-                       municipalidades por infracción de normas de un
+                                            2016; 13823-2016; 13819-2016; 13821-2016;                        instrumento de planificación territorial”, ponen-
+                                            13818-2016, Corte Suprema segunda sala de                        cia presentada a las XXXVI Jornadas de Derecho
+            
+
+14. Roles 13824-2016; 13822-2016; 13829-2016;                        del reclamo de ilegalidad de la ley orgánica de
                                             13828-2016; 13820-2016; 12826-2016; 13825-                       municipalidades por infracción de normas de un
                                             2016; 13823-2016; 13819-2016; 13821-2016;                        instrumento de planificación territorial”, ponen-
                                             13818-2016, Corte Suprema segunda sala de                        cia presentada a las XXXVI Jornadas de Derecho
@@ -8691,24 +9132,27 @@ Administrativa                                    fuente en la legislación
 
 ## 16. Rol 24.668-2020 Corte Suprema y rol Nº 339-
 
-                                                                                                             de Derecho Constitucional, Temas Actuales de
+**Definición Canónica:** de Derecho Constitucional, Temas Actuales de
+                                            2020 Corte de Apelaciones de Santiago.
+                                                                                                             Derecho Constitucional. Libro Homenaje al profe-
+                                        17.   Rol 21.007-2020 Corte Suprema y rol Nº 24-2020                 sor Mario Verdugo Marinkovic (Santiago, Editorial
+                                              Corte de Apelaciones de Santiago.                              Jurídica de Chile).
+**Concordancias Legales:** Constitucion
+
+de Derecho Constitucional, Temas Actuales de
                                             2020 Corte de Apelaciones de Santiago.
                                                                                                              Derecho Constitucional. Libro Homenaje al profe-
                                         17.   Rol 21.007-2020 Corte Suprema y rol Nº 24-2020                 sor Mario Verdugo Marinkovic (Santiago, Editorial
                                               Corte de Apelaciones de Santiago.                              Jurídica de Chile).
 
-
-## 10. GUERRERO, Roberto (1979): “La Constitución
-
-                                                                                                           económica”, en Revista Chilena de Derecho (N° 1).
-                                              Jurisprudencia administrativa
-
-## 11.   IRARRÁZABAL C., Arturo (1987): “Principios eco-
-
-
 ## 1.    Contraloría General de la República, dictamen Nº
 
-                                                                                                             nómicos de la Constitución de 1980”, en Revista
+**Definición Canónica:** nómicos de la Constitución de 1980”, en Revista
+                                              35.868, de 2005.
+                                                                                                             Chilena de Derecho (N° 14).
+**Concordancias Legales:** Constitución
+
+nómicos de la Constitución de 1980”, en Revista
                                               35.868, de 2005.
                                                                                                              Chilena de Derecho (N° 14).
 
@@ -8717,7 +9161,15 @@ Administrativa                                    fuente en la legislación
 
 ## Capítulo 6                                                   jurisprudencia (1990-1995)”, en Revista de De-
 
-                                                                                                           recho Público (Nos 57/58, enero-diciembre, Tomo
+**Definición Canónica:** recho Público (Nos 57/58, enero-diciembre, Tomo
+                                              Bibliografía doctrina
+                                                                                                           I, Jornadas de Derecho Público: “La servicialidad
+                                        1.    ALVEAR T., Julio (2013): “La jurisprudencia del              del Estado”).
+                                              amparo económico. Los tres grandes déficits de               (1997a): “El recurso de amparo económico en la
+                                              la últ
+**Concordancias Legales:** Constitucion; Constitución
+
+recho Público (Nos 57/58, enero-diciembre, Tomo
                                               Bibliografía doctrina
                                                                                                            I, Jornadas de Derecho Público: “La servicialidad
                                         1.    ALVEAR T., Julio (2013): “La jurisprudencia del              del Estado”).
@@ -8740,13 +9192,25 @@ Administrativa                                    fuente en la legislación
 
 ## 4.    CA Santiago, rol N° 3899-94, “Menichetti con
 
-                                              amparo económico (notas sobre veinte años de
+**Definición Canónica:** amparo económico (notas sobre veinte años de
+                                                                                                          Banco del Estado; CS, 28 de marzo de 1995.
+                                              jurisprudencia)”.
+
+amparo económico (notas sobre veinte años de
                                                                                                           Banco del Estado; CS, 28 de marzo de 1995.
                                               jurisprudencia)”.
 
 ## 5.    CA Santiago, “Enrique Llano con Seremi de
 
-                                        13. NOGUEIRA A., Humberto:
+**Definición Canónica:** 13. NOGUEIRA A., Humberto:
+                                                                                                          Transporte”, rol N° 785-91, 17 de abril de 1991.
+                                            (2010): “Análisis crítico sobre la línea jurispruden-
+                                            cial de la Sala Constitucional de la Excma. Corte       6.    CA Santiago, “Asociación Gremial de Armadores
+                                            Suprema de Justicia sobre el recurso de amparo                Artesanales VIII Región con Presidente de la Re-
+             
+**Concordancias Legales:** Constitucion
+
+13. NOGUEIRA A., Humberto:
                                                                                                           Transporte”, rol N° 785-91, 17 de abril de 1991.
                                             (2010): “Análisis crítico sobre la línea jurispruden-
                                             cial de la Sala Constitucional de la Excma. Corte       6.    CA Santiago, “Asociación Gremial de Armadores
@@ -8760,39 +9224,43 @@ Administrativa                                    fuente en la legislación
 
 ## 14. PONCE DE LEÓN SALUCCI, Sandra (2014): “La
 
-                                            acción de amparo económico”, en Acciones                8.    CA Santiago, “Empresa Hidroeléctrica Pullinque”,
+**Definición Canónica:** acción de amparo económico”, en Acciones                8.    CA Santiago, “Empresa Hidroeléctrica Pullinque”,
                                             protectoras de derechos fundamentales (Miriam                 rol N° 5770, de 9 de marzo de 1992.
                                             Henríquez y María Pía Silva coords.), Ed. LegalPu-
 
-## 9.    CA Santiago, rol N° 2762-91, de 15 de junio de
-
-                                            blishing Thomson Reuters, Santiago, 2014.
-                                                                                                          1992.
-
-## 15. SANDOVAL L., Ricardo (1990): “Acerca del orden
-
+acción de amparo económico”, en Acciones                8.    CA Santiago, “Empresa Hidroeléctrica Pullinque”,
+                                            protectoras de derechos fundamentales (Miriam                 rol N° 5770, de 9 de marzo de 1992.
+                                            Henríquez y María Pía Silva coords.), Ed. LegalPu-
 
 ## 10. CS, “Empresa Nacional de Electricidad”, 10 de
 
-                                            público económico”, en Revista de Derecho Uni-
+**Definición Canónica:** público económico”, en Revista de Derecho Uni-
                                                                                                         enero de 1997, rol N° 33.502
                                             versidad de Concepción (N° 188).
 
-## 11.   CA Santiago, “Asociación de Exportadores y
-
+público económico”, en Revista de Derecho Uni-
+                                                                                                        enero de 1997, rol N° 33.502
+                                            versidad de Concepción (N° 188).
 
 ## 16. SILVA CIMMA, Enrique (1994): Derecho adminis-
 
-                                                                                                          Embotelladores de Vinos A.G.”, de 25 de mayo de
+**Definición Canónica:** Embotelladores de Vinos A.G.”, de 25 de mayo de
                                             trativo y comparado. El control público, Santiago.
                                                                                                           1996, y CS, 19 de junio de 1996.
 
-## 17.   SILVA G., María Pía (2014): “La acción por vulne-
-
+Embotelladores de Vinos A.G.”, de 25 de mayo de
+                                            trativo y comparado. El control público, Santiago.
+                                                                                                          1996, y CS, 19 de junio de 1996.
 
 ## 12. CS, “Endesa con Dirección General de Aguas”, rol
 
-                                              ración de derechos del contribuyente”, en Ac-
+**Definición Canónica:** ración de derechos del contribuyente”, en Ac-
+                                                                                                        N° 35502-95, 10 de enero de 1996.
+                                              ciones protectoras de derechos fundamentales
+                                              (Miriam Henríquez y María Pía Silva coords.), Ed.     13. CA Santiago, “Emeres con Municipalidad de Til
+                                              LegalPublishing Thomson Reuters, Santiago.                Til”, rol N° 1929-95, 24 de noviembre de 1995.
+
+ración de derechos del contribuyente”, en Ac-
                                                                                                         N° 35502-95, 10 de enero de 1996.
                                               ciones protectoras de derechos fundamentales
                                               (Miriam Henríquez y María Pía Silva coords.), Ed.     13. CA Santiago, “Emeres con Municipalidad de Til
@@ -8800,13 +9268,25 @@ Administrativa                                    fuente en la legislación
 
 ## 18. SOTO KLOSS, Eduardo (1993): “Amparo económi-            14. CS, “Aguas Cordillera S.A. con Ministerio de
 
-                                            co y rol subsidiario del Estado”, en Revista Temas          Obras Públicas”, rol 2837-98, 3 de septiembre de
+**Definición Canónica:** co y rol subsidiario del Estado”, en Revista Temas          Obras Públicas”, rol 2837-98, 3 de septiembre de
+                                            de Derecho Universidad Gabriela Mistral (Vol. 8             1998.
+                                            N° 1).
+
+co y rol subsidiario del Estado”, en Revista Temas          Obras Públicas”, rol 2837-98, 3 de septiembre de
                                             de Derecho Universidad Gabriela Mistral (Vol. 8             1998.
                                             N° 1).
 
 ## 15. CA San Miguel, “Cementos Melón”, 17 de abril de
 
-                                        19.   URETA S., Ismael (1997): Recurso de amparo                1998, rol N° 243-97 y CS, 12 de mayo de 1998, rol
+**Definición Canónica:** 19.   URETA S., Ismael (1997): Recurso de amparo                1998, rol N° 243-97 y CS, 12 de mayo de 1998, rol
+                                              económico (Santiago, Editorial Jurídica Conosur           N° 1305-98.
+                                              Ltda.).
+                                                                                                    16. CS, 8 de octubre de 2019, rol 12702-2018.
+                                        20. VARAS A., Paulino (1991): “Amparo económico”,
+                                            en Revista de Derecho Público (N° 49
+**Concordancias Legales:** Constitución
+
+19.   URETA S., Ismael (1997): Recurso de amparo                1998, rol N° 243-97 y CS, 12 de mayo de 1998, rol
                                               económico (Santiago, Editorial Jurídica Conosur           N° 1305-98.
                                               Ltda.).
                                                                                                     16. CS, 8 de octubre de 2019, rol 12702-2018.
@@ -8830,31 +9310,38 @@ Administrativa                                    fuente en la legislación
 
                                         24. CS, rol N° 3496-03, 23 de septiembre de 2003.         48. CS, rol 4112-2007, de 27 de agosto de 2007.
 
-
-## 25. CS, rol N° 5856-04, 18 de enero de 2005.              49. CA Santiago, rol 6526-2008, de 24 de marzo de
-
-                                                                                                      2008, confirmado por CS rol 18261-2008, de 15
-                                        26. CS, rol N° 2837-98, de 3 de septiembre de 1998.           de abril de 2008.
-
 ## 27.   CS, “Celcon S.A. con Instituto Nacional de Nor-     50. CA Coyhaique, rol 13-2006, de 15 de febrero de
 
-                                              malización”, rol N° 1188-09.                            2007, confirmado por CS rol 1143-2007, de 15 de
+**Definición Canónica:** malización”, rol N° 1188-09.                            2007, confirmado por CS rol 1143-2007, de 15 de
+                                                                                                      marzo de 2007.
+
+malización”, rol N° 1188-09.                            2007, confirmado por CS rol 1143-2007, de 15 de
                                                                                                       marzo de 2007.
 
 ## 28. CS, “Rojas Alarcón, Claudio con Ministerio Públi-
 
-                                            co”, rol N° 739-09.                                   51. CA Coyhaique, rol 10-2007, de 26 de abril de
+**Definición Canónica:** co”, rol N° 739-09.                                   51. CA Coyhaique, rol 10-2007, de 26 de abril de
+                                                                                                      2007, confirmado por CS rol 2298-2007, de 22 de
+
+co”, rol N° 739-09.                                   51. CA Coyhaique, rol 10-2007, de 26 de abril de
                                                                                                       2007, confirmado por CS rol 2298-2007, de 22 de
 
 ## 29. CS, “Felipe González con Municipalidad de Antu-
 
-                                                                                                      mayo de 2007.
+**Definición Canónica:** mayo de 2007.
+                                            co”, rol N° 2537-09.
+                                                                                                  52. CS, rol 9435-2010, de 18 de octubre de 2010.
+
+mayo de 2007.
                                             co”, rol N° 2537-09.
                                                                                                   52. CS, rol 9435-2010, de 18 de octubre de 2010.
 
 ## 30. CS, “Elementos Industriales y Tecnológicos Li-
 
-                                            mitada con Inspección Provincial del Trabajo de       53. CA Valdivia, de 17 de diciembre de 2007, rol N°
+**Definición Canónica:** mitada con Inspección Provincial del Trabajo de       53. CA Valdivia, de 17 de diciembre de 2007, rol N°
+                                            Calama”, rol N° 6125-09.                                  1213-06.
+
+mitada con Inspección Provincial del Trabajo de       53. CA Valdivia, de 17 de diciembre de 2007, rol N°
                                             Calama”, rol N° 6125-09.                                  1213-06.
 
                                         31. CS, “Agrícola Magalys Werner con Juez del 2°          54. CS, 19 de mayo de 2010, rol N° 4383-08.
@@ -8862,7 +9349,13 @@ Administrativa                                    fuente en la legislación
 
 ## 55. CS, reclamo de ilegalidad “Bienes Raíces e Inver-
 
-                                        32. CS, rol N° 1655-09, 7 de mayo de 2009.                    siones Chile S.A. con Alcalde de la I. Municipali-
+**Definición Canónica:** 32. CS, rol N° 1655-09, 7 de mayo de 2009.                    siones Chile S.A. con Alcalde de la I. Municipali-
+                                                                                                      dad de La Reina”, rol 1.853-2001.
+                                        33. CS, roles 1778-10, 2717-10, 3538-10, 3573-10,
+                                            6344-11, 7468-11, 8817-11, 2048-12 y 5292-12.         56. CS, reclamo de ilegalidad “López Chesta, Ana
+                                                                                                      María con I.
+
+32. CS, rol N° 1655-09, 7 de mayo de 2009.                    siones Chile S.A. con Alcalde de la I. Municipali-
                                                                                                       dad de La Reina”, rol 1.853-2001.
                                         33. CS, roles 1778-10, 2717-10, 3538-10, 3573-10,
                                             6344-11, 7468-11, 8817-11, 2048-12 y 5292-12.         56. CS, reclamo de ilegalidad “López Chesta, Ana
@@ -8871,62 +9364,59 @@ Administrativa                                    fuente en la legislación
                                                                                                       99.
                                         35. CS, rol 1719-2014, de 20 de marzo de 2014.
 
-## 57.   RIT VD-04-00005-2010 (TTA de Atacama, de
-
-                                        36. CA Santiago, “Asociación de Industrias Metalúr-             30 de diciembre de 2010).
-                                            gicas y Metalmecánicas ASIMET A.G. con Co-
-
 ## 58. RIT VD-04-00005-2010 (TTA Magallanes, de 25
 
-                                            delco-Chile”, rol 575-93, 28 de abril 1993 y CS rol
+**Definición Canónica:** delco-Chile”, rol 575-93, 28 de abril 1993 y CS rol
                                                                                                       de mayo de 2011).
                                             29.728-93, 25 de mayo de 1993.
 
-## 59. RIT VD-10-00017-2012 (TTA de Biobío, de 10 de
-
+delco-Chile”, rol 575-93, 28 de abril 1993 y CS rol
+                                                                                                      de mayo de 2011).
+                                            29.728-93, 25 de mayo de 1993.
 
 ## 37.   CS, rol 3527-98 “Asociación Chilena de Seguridad
 
-                                                                                                      abril de 2012).
+**Definición Canónica:** abril de 2012).
                                               y otra con Superintendencia de Seguridad Social,
                                               de 16 de noviembre de 1998.                         60. RIT VD-10-00038-2012 (TTA del Biobío, de 18 de
                                                                                                       julio de 2012).
                                         38. CS, rol 4295-2006, de 28 de agosto de 2006.
 
-## 61. RIT VD-01-00019-2012 (TTA de Arica y Parina-
-
-
-## 39. CS, 16 de mayo de 1994 y 19 de diciembre de
-
-                                                                                                      cota, de 27 de julio de 2012).
-                                            1995.
+abril de 2012).
+                                              y otra con Superintendencia de Seguridad Social,
+                                              de 16 de noviembre de 1998.                         60. RIT VD-10-00038-2012 (TTA del Biobío, de 18 de
+                                                                                                      julio de 2012).
+                                        38. CS, rol 4295-2006, de 28 de agosto de 2006.
 
 ## 62. RIT VD-02-00004-2013 (TTA de Tarapacá, de 15
 
-                                        40. CS, rol 2516-99, de 5 de agosto de 1999.
+**Definición Canónica:** 40. CS, rol 2516-99, de 5 de agosto de 1999.
                                                                                                       de mayo de 2013).
                                         41. CS, rol 1836-00, de 29 de agosto de 2000.
 
-## 63. RIT VD-18-00057-2013 (4º TTA de la R. Metro-
-
-                                        42. CS, rol 20-2004, de 5 de enero de 2004, “SAAM             politana, de 27 de marzo de 2013).
-                                            con Fetrapa y Fetramapora”.
-
-## 64. RIT VD-10-00002-2014 (TTA del Biobío, de 11 de
-
-                                        43. CS, rol 962-2006, de 6 de marzo de 2006.                  febrero de 2014).
-
+40. CS, rol 2516-99, de 5 de agosto de 1999.
+                                                                                                      de mayo de 2013).
+                                        41. CS, rol 1836-00, de 29 de agosto de 2000.
 
 ## 44. CS, rol 2896-2002, de 22 de agosto de 2002.           65. RIT VD-10-00010-2014 (TTA del Biobío, de 11 de
 
-                                                                                                      febrero de 2014).
+**Definición Canónica:** febrero de 2014).
+                                        45. CS, rol 501-2009, de 1 de abril de 2009.
+                                                                                                  66. TTA de Magallanes, de 25 de mayo de 2011.
+                                        46. CS, rol 1108-2010, de 9 de febrero de 2010.
+
+febrero de 2014).
                                         45. CS, rol 501-2009, de 1 de abril de 2009.
                                                                                                   66. TTA de Magallanes, de 25 de mayo de 2011.
                                         46. CS, rol 1108-2010, de 9 de febrero de 2010.
 
 ## 67.   TTA de Biobío, (RIT VD-10-00155-2013 y RIT
 
-                                        47. CA Arica, rol 121-2007, de 28 de diciembre de               VD-10-00160-2013).
+**Definición Canónica:** 47. CA Arica, rol 121-2007, de 28 de diciembre de               VD-10-00160-2013).
+                                            2007, confirmado por CS rol 251-2008, de 22 de
+                                            enero de 2008.                                        68. CS, rol C Nº 123-07.
+
+47. CA Arica, rol 121-2007, de 28 de diciembre de               VD-10-00160-2013).
                                             2007, confirmado por CS rol 251-2008, de 22 de
                                             enero de 2008.                                        68. CS, rol C Nº 123-07.
 
@@ -8943,41 +9433,3 @@ Administrativa                                    fuente en la legislación
                                         73. CS, rol Nº 6236-06.
 
                                         74. CS, rol Nº 4355-06.
-
-
-## 75. CS, casación en el fondo inadmisible, rol 32864-
-
-                                            2016, segunda sala (Penal), de 13 de junio de
-                                            2016.
-
-
-## 76. CS, sentencia de casación en el fondo rol 17999-
-
-                                            2016, segunda sala (Penal), de 13 de abril de 2016.
-
-
-## 77.   CS, casación en el fondo rol 7495-2016, segunda
-
-                                              sala, 17 de abril de 2017.
-
-
-## 78. CS, casación en el fondo rol 2439-2015, segunda
-
-                                            sala (Penal). Reclamo por vulneración de dere-
-                                            chos en materia tributaria. Sentencia de 15 de
-                                            mayo de 2015.
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl

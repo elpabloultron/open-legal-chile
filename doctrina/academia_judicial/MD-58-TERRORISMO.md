@@ -13,11 +13,9 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Colección
-
-             Terrorismo
-
 ## Materiales
+
+**Definición Canónica:** DOCENTES     Alejandro Leiva López
 
 DOCENTES     Alejandro Leiva López
 
@@ -71,58 +69,10 @@ Materiales Docentes                                                 ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Concepto de terrorismo
-
-## 34      Capítulo 2
-
-        El bien jurídico tutelado en el terrorismo
-
-## 36      Capítulo 3
-
-        Derecho penal del enemigo y terrorismo:
-        La llamada «tercera velocidad»
-
-## 51      Capítulo 4
-
-        Evolución de la Ley 18.314 y contexto actual
-        del terrorismo en Chile
-
-## 71      Capítulo 5
-
-        La legislación antiterrorista a la luz
-        de los estándares internacionales y nacionales
-        en materia de derechos humanos
-
-## 78      Capítulo 6
-
-        Terrorismo y financiamiento
-
-## 89      Capítulo 7
-
-        Terrorismo y derecho penal internacional
-
-## 93      Capítulo 8
-
-        Problemas concursales
-
-## 111     Capítulo 9
-
-        Ley Terrorista e iter criminis
-
-## 116     Capítulo 10
-
-        Ley Terrorista y la intervención criminal
-
-## 117     Referencias
-
-
-Materiales Docentes                                                     Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Concepto de terrorismo
+**Concordancias Legales:** artículo 573; Ley 18.314
 
 Concepto de terrorismo
 
@@ -166,8 +116,15 @@ delictivo simple5 de aquellos ilícitos que, dada su finalidad —causar terror�
 elemento de tendencia interna trascendente. Esto significa que, para que
 un hecho sea considerado terrorista, debe haberse efectuado —según el
 
-
 ## 3 Sin perjuicio de su posterior análisis, estas modificaciones son las siguientes: i)
+
+**Definición Canónica:** Ley 19.027 del 24 de enero de 1991 que «modifica Ley 18.314, que determina conductas terroristas y fija su penalidad»; ii) Ley 19.806 del 31 de mayo de 2002 sobre
+«normas adecuatorias del sistema legal chileno a la reforma procesal penal»; iii)
+Ley 19.906 del 13 de noviembre de 2003 que «modifica la Ley 18.314 sobre conductas
+terroristas en orden a sancionar más eficazmente la financiación del terrorismo, en
+conformidad a lo dispuesto por el convenio internacional para la represión de la
+financiación del terrorismo»; iv) Ley 20.074 del 14 de noviembre de 2005 que «modifica los códigos procesal
+**Concordancias Legales:** artículo 15 de la Ley 18.314; Ley 19.027; Ley 18.314; Ley 19.806; Ley 19.906; Ley 20.074; Ley 20.467; Ley 20.519; Ley 20.830
 
 Ley 19.027 del 24 de enero de 1991 que «modifica Ley 18.314, que determina conductas terroristas y fija su penalidad»; ii) Ley 19.806 del 31 de mayo de 2002 sobre
 «normas adecuatorias del sistema legal chileno a la reforma procesal penal»; iii)
@@ -212,12 +169,16 @@ delito terrorista como aquel hecho delictivo que, previamente contemplado como s
 2010», que vino a modificar el texto original de la Ley 18.314. A partir
 de ella, el elemento subjetivo aquí expuesto quedó consagrado como un
 
-
-## 6 Sobre este elemento de tendencia interna y su diferencia con el dolo volveremos
-
-más adelante.
-
 ## 7 Tales delitos, de acuerdo con el artículo segundo la Ley 18.314, son actualmente
+
+**Definición Canónica:** los siguientes: i) Los de homicidio sancionados en el artículo 391; los de lesiones
+establecidos en los artículos 395, 396, 397 y 398; los de secuestro y de sustracción de
+menores castigados en los artículos 141 y 142; los de envío de cartas o encomiendas
+explosivas del artículo 403 bis; los de incendio y estragos, descritos en los artículos
+474, 475, 476 y 480, y las infracciones contra la salud pública de los artículos 313 d),
+315 y 316, todos del Código Penal. Asimismo, el de descarrilamiento contemplado en
+los artículos 105, 106, 107 y 108 de la Ley General de Ferrocarriles; ii) apoderarse
+**Concordancias Legales:** artículo 391; artículos 395; artículos 141; artículo 403 bis; artículos 474; artículos 313; artículos 105; artículo 1; artículo 2 de la Ley 18.314; Ley 19.027; Ley 18.314
 
 los siguientes: i) Los de homicidio sancionados en el artículo 391; los de lesiones
 establecidos en los artículos 395, 396, 397 y 398; los de secuestro y de sustracción de
@@ -347,8 +308,11 @@ mismo Tribunal Supremo como una:
       hay numerosos miembros de dicha organización cumpliendo penas pri-
       vativas de libertad.10
 
-
 ## 9 STS español, 2/1997 del 29 de noviembre de 1997. Ponente: Roberto García-Calvo
+
+**Definición Canónica:** Montiel.
+ 10 STS español, 2/1997 del 29 de noviembre de 199, p. 13. Ponente: Roberto García-Calvo Montiel.
+**Concordancias Legales:** artículo 573 del Código Penal español. 12 En sentido similar; Ley 18.314; Ley 20.467; constitucion
 
 Montiel.
  10 STS español, 2/1997 del 29 de noviembre de 199, p. 13. Ponente: Roberto García-Calvo Montiel.
@@ -484,11 +448,10 @@ interpretados a partir de ese mensaje comunicacional y su contenido.18
 
  16 Sentencia de la Corte Suprema, rol 5397-2018 del 13 de junio de 2018, considerando decimocuarto. El destacado es nuestro.
 
-## 17 Véase, especialmente, el Informe de 2011 del Instituto Nacional de Derechos
-
-Humanos (2011: 111).
-
 ## 18 Extracto de los argumentos expuestos por la defensa en su recurso de nulidad a
+
+**Definición Canónica:** Materiales Docentes                                                        Capítulo 1
+**Concordancias Legales:** artículo 577 del Código Penal español; Ley 18.314; Ley 20.467; constitucion
 
 Materiales Docentes                                                        Capítulo 1
 
@@ -586,8 +549,10 @@ criminal tras toda conducta terrorista carece de sentido, ya que desconoce en t�
 puede provenir no solo de un colectivo, sino del actuar de sujetos únicos, o lo que se conoce como terrorismo de «lobos solitarios». Sobre esto
 último, algunas breves consideraciones.
 
-
 ## 22 Para más información, confrontar con STS español, 2/1997 del 29 de noviembre
+
+**Definición Canónica:** de 1997, p. 13 Ponente: Roberto García-Calvo Montiel.
+**Concordancias Legales:** artículo 1; Ley 18.314
 
 de 1997, p. 13 Ponente: Roberto García-Calvo Montiel.
 
@@ -695,8 +660,14 @@ caso Amedo27 y los citados Grupos Antiterroristas de Liberación.
    Sin embargo, y siguiendo a Lamarca, el concepto de terrorismo de
 Estado solo adquiere validez cuando aquello que se persigue es la responsabilidad internacional del Estado, mas no tratándose del derecho
 
-
 ## 25 En contra, Villegas ha sostenido que: «El hecho de que el terrorismo necesite
+
+**Definición Canónica:** contar con una organización de esta envergadura no necesariamente debe reconducirnos a un injusto específico de asociación ilícita terrorista como base de la punición,
+en cuyo marco se cometan los concretos delitos por parte de sus miembros y colaboradores». Para intentar demostrar aquello, Villegas responde a cuatro preguntas: a) Si
+es sostenible la idea de un injusto de organización terrorista como posibilidad real de
+afectación al monopolio estatal de la violencia; b) si es adecuado atribuir responsabilidad penal por la mera pertenencia a la organización; c) cuál sería la ubicación de la
+or
+**Concordancias Legales:** artículo 9 de la Constitución Política; artículo 1; Ley 18.314; Ley 19.027; Ley 20.467; Constitución Política; constitucion
 
 contar con una organización de esta envergadura no necesariamente debe reconducirnos a un injusto específico de asociación ilícita terrorista como base de la punición,
 en cuyo marco se cometan los concretos delitos por parte de sus miembros y colaboradores». Para intentar demostrar aquello, Villegas responde a cuatro preguntas: a) Si
@@ -814,8 +785,10 @@ e intención de realización del tipo (dolo).
 cual se denominan elementos de tendencia interna intensificada (como
 el ánimo libidinoso en el abuso sexual); o aquellos elementos subjetivos
 
-
 ## 32 Para más información, véase «Historia de la Ley 20.467», pp. 3-4, disponible en
+
+**Definición Canónica:** https://bit.ly/3ePMtey.
+**Concordancias Legales:** artículo 432 de la Constitución Política; Ley 18.314; Constitución Política
 
 https://bit.ly/3ePMtey.
 
@@ -844,8 +817,16 @@ algo a la definición del tipo de que se trate en cada caso:
       de sentido en la conducta; es decir, aportar elementos de valoración de
       la gravedad material del delito.34
 
-
 ## 33 Con respecto a este último —delito de tendencia interna trascendente— parte
+
+**Definición Canónica:** de la doctrina agrega una subclasificación, la cual distingue entre delitos imperfectos en dos actos y delitos de resultado cortado. En los primeros «el sujeto tiene una
+mira por alcanzar que debiera tener lugar, con una propia actuación suya, después
+de la consumación del delito (por ejemplo, la sustracción de un menor de edad
+para cobrar rescate, artículo 142, número 1 de la Constitución Política). También
+se consideran imperfectos en dos actos, los delitos de apropiación (hurtos, robos y
+apropiación indebida), donde el animus rem sibi habiendi califica la conducta, pero
+no requiere un acto 
+**Concordancias Legales:** artículo 142; artículo 316; Constitución Política
 
 de la doctrina agrega una subclasificación, la cual distingue entre delitos imperfectos en dos actos y delitos de resultado cortado. En los primeros «el sujeto tiene una
 mira por alcanzar que debiera tener lugar, con una propia actuación suya, después
@@ -860,6 +841,8 @@ del agente (por ejemplo, en el delito de diseminación de gérmenes patógenos d
 Matus y Ramírez (2021: 287).
 
 ## 34 Universidad de Navarra, «Elementos subjetivos del injusto», disponible en
+
+**Definición Canónica:** https://bit.ly/3zYU9SN.
 
 https://bit.ly/3zYU9SN.
 
@@ -891,7 +874,16 @@ sí solos, la finalidad terrorista.
 
 ## parte de la población el temor justificado de ser víctima de delitos de la
 
-      misma especie, toda vez que como ya se dijo, es un elemento propio del
+**Definición Canónica:** misma especie, toda vez que como ya se dijo, es un elemento propio del
+      tipo penal base por el que fueron condenados los acusados, no siendo
+      procedente ni ajustado a derecho utilizarlo para fundamentar una califi-
+      cación de terrorismo respecto de un hecho que se encuentra desprovisto
+      de las exigencias que para ello establece expresamente el artículo 1 de la
+      Ley 18.314; de hacerlo así, se podría sancionar doblemente una misma
+      conducta, lo que se encuentra vedado por el derecho penal.37
+**Concordancias Legales:** artículo 1 de la Ley 18.314; artículo 1 de la Ley 18.314 y así poder calificar de terrorist; Ley 18.314; Ley 20.467; constitucion
+
+misma especie, toda vez que como ya se dijo, es un elemento propio del
       tipo penal base por el que fueron condenados los acusados, no siendo
       procedente ni ajustado a derecho utilizarlo para fundamentar una califi-
       cación de terrorismo respecto de un hecho que se encuentra desprovisto
@@ -1022,6 +1014,9 @@ sujeto». En tal sentido, la prueba de los elementos subjetivos ha de pasar
 
 ## 43 Famosa es la afirmación clásica dolus vere probari non potest, cum in animun
 
+**Definición Canónica:** consistat. Para más información, véase Hruschka (1976: 25 y 26).
+**Concordancias Legales:** Constitucion
+
 consistat. Para más información, véase Hruschka (1976: 25 y 26).
 
 Materiales Docentes                                                          Capítulo 1
@@ -1063,6 +1058,9 @@ confrontar con Bentham (2003: 30 y 31).
 
 ## 46 STC, 174-1985, del 17 de diciembre de 1985. Ponente: Segura Latorres. Citado
 
+**Definición Canónica:** por Ragués (1998: 368, nota 107).
+ 47 Para más información, confrontar con Taruffo (2008: 105).
+
 por Ragués (1998: 368, nota 107).
  47 Para más información, confrontar con Taruffo (2008: 105).
 
@@ -1101,12 +1099,10 @@ que, de la prueba rendida:
       etnia mapuche y el resto de la población, hecho que no fue discutido ni
       desconocido por los intervinientes.49
 
-
-## 48 Sentencia de la Corte Suprema, rol 15163-2018, del 10 de octubre de 2018, voto
-
-concurrente del ministro Künsemüller, considerando tercero.
-
 ## 49 Sentencia del Tribunal Oral de lo Penal de Angol, RUC 0100083503-6, del 14 de
+
+**Definición Canónica:** abril de 2003. El destacado es nuestro.
+**Concordancias Legales:** artículo 2; artículo 1; artículo 9; constitucion
 
 abril de 2003. El destacado es nuestro.
 
@@ -1203,8 +1199,10 @@ los elementos típicos exigidos en la ley, sería el siguiente:
 
 Materiales Docentes                                                       Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** El bien jurídico tutelado en el terrorismo
+**Concordancias Legales:** artículo 9; constitucion; Constitución; Constitución Política
 
 El bien jurídico tutelado en el terrorismo
 
@@ -1275,20 +1273,20 @@ Metro Escuela Militar. Al efecto, señala dicho tribunal:
       que se constata la falta de relevancia de la finalidad política o políti-
       co-social perseguida por el autor.3
 
-
-## 2 Sentencia de la Corte de Apelaciones de Santiago, rol 1532-2018 del 9 de octubre
-
-de 2019, considerando sexto.
-
 ## 3 Para más información, véase la sentencia del 6.º Tribunal Oral en lo Penal de
+
+**Definición Canónica:** Santiago, RUC 1400674179-8, RIT 64-2017, del 15 de marzo de 2018, citado por Sentencia de la Corte Suprema, rol 5397-2018 del 13 de junio de 2018, considerando
+decimocuarto.
 
 Santiago, RUC 1400674179-8, RIT 64-2017, del 15 de marzo de 2018, citado por Sentencia de la Corte Suprema, rol 5397-2018 del 13 de junio de 2018, considerando
 decimocuarto.
 
 Materiales Docentes                                                       Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Derecho penal del enemigo y terrorismo:
+La llamada «tercera velocidad»
 
 Derecho penal del enemigo y terrorismo:
 La llamada «tercera velocidad»
@@ -1308,8 +1306,15 @@ menos, efecto preventivo. Quien actúa en este sentido, pareciera no ser
 capaz de rehabilitarse y el castigo que sufre, por el contrario, lo tornaría
 un mártir de su causa.
 
-
 ## 1 Andrea González Schmessane, «Termina juicio de chilenos en España: “Viva
+
+**Definición Canónica:** la anarquía, muerte al Estado”», El Mercurio, 10 de marzo de 2016, disponible en
+https://bit.ly/3wwGrWe.
+  2 Sobre el origen del terrorismo religioso en Medio Oriente o islámico, véase Zarrouk (2011: 13-46). En términos resumidos, concluye el autor que, la represión del
+islamismo por parte de los regímenes de los países árabes e islámicos que llegaron
+a utilizar métodos criminales en su labor fue determinante en lo que se refiere a la
+radicalización que se efectuó en el nombre del islam. De hecho, hubo dos procesos
+de mutación hacia el radicalismo violento provocados por el comportamiento de l
 
 la anarquía, muerte al Estado”», El Mercurio, 10 de marzo de 2016, disponible en
 https://bit.ly/3wwGrWe.
@@ -1383,10 +1388,16 @@ es decir, de alta traición, pues la naturaleza de este crimen está en la resci
 sumisión, lo que significa una recaída en el estado de naturaleza […]. Y aquellos que
 incurren en tal delito no son castigados en cuanto súbditos, sino como enemigos».
 
-## 4 En cuanto al amplio adelantamiento de la punibilidad, Jakobs rescata, por una
-
-
 ## parte, el cambio de la perspectiva del hecho producido por la del hecho que se va a
+
+**Definición Canónica:** producir, siendo ejemplificadores, en el derecho penal alemán, los tipos de creación
+de organizaciones criminales o terroristas (§§ 129 y 129.a StGB) o de producción de
+narcóticos por bandas organizadas (§§ 30.I.1 y 31.I.1 BtMG). Para más información,
+véase Jakobs (2004: 43 y ss.).
+ 5 La falta de reducción de la pena proporcional a dicho adelantamiento, por ejemplo, la pena para el cabecilla de una organización terrorista es igual a la del autor de
+una tentativa de asesinato, por supuesto aplicando la aminoración de la tentativa (§§
+129.a.II, 211.I y 49.I.1 StGB) y sobrepasa de manera ostensib
+**Concordancias Legales:** constitucion
 
 producir, siendo ejemplificadores, en el derecho penal alemán, los tipos de creación
 de organizaciones criminales o terroristas (§§ 129 y 129.a StGB) o de producción de
@@ -1463,8 +1474,12 @@ Principales críticas al derecho penal del enemigo
 Resulta evidente cuestionarse acerca de los presupuestos que se encuentran en los cimientos del derecho penal del enemigo, primero dados los
 posibles conflictos que dicha teoría encuentra en la dignidad humana y
 
-
 ## 8 Para Muñoz Conde, quien de alguna manera se «enfrentó con Jakobs», las citas
+
+**Definición Canónica:** de autoridad a las que recurre Jakobs nada dicen sobre el fondo del asunto —haciendo referencia especialmente a la cita de Kant con que Jakobs contesta a Muñoz, haciéndole notar die Absurdität Ihrer Deutung «la absurbidad de su interpretación»—,
+tornando para Muñoz vacíos los argumentos iusfolosóficos a que recurre el derecho
+penal del enemigo. Para más información, véase Muñoz Conde (2005: 123 y ss.).
+**Concordancias Legales:** constitucion
 
 de autoridad a las que recurre Jakobs nada dicen sobre el fondo del asunto —haciendo referencia especialmente a la cita de Kant con que Jakobs contesta a Muñoz, haciéndole notar die Absurdität Ihrer Deutung «la absurbidad de su interpretación»—,
 tornando para Muñoz vacíos los argumentos iusfolosóficos a que recurre el derecho
@@ -1497,8 +1512,12 @@ este promueve una segmentación de los miembros de la sociedad. Se
 trata de una regulación jurídica de las relaciones e instituciones sociales que tiende a excluir del acceso de ciertos bienes —específicamente
 del ejercicio de algunos derechos fundamentales— a ciertos individuos,
 
-
 ## 9 Concluye este autor que el denominado derecho penal de enemigo —al menos
+
+**Definición Canónica:** algunas de sus manifestaciones— presenta diversas y profundas tensiones con el
+concepto de dignidad humana, razón por la cual, al ser aquel un concepto constitucionalizado convierte en inválida cualquier iniciativa de su promulgación como
+norma vigente en un Estado constitucional garantista (y dignatario) de derecho.
+**Concordancias Legales:** artículo 1; artículo 3 bis; artículo 5; artículo 9 de la Constitución Política del Estado.14 Se re; artículo 8; artículo 7; artículo 296 del Código Penal; Ley 18.314; constitucion; Constitución; Constitución Política
 
 algunas de sus manifestaciones— presenta diversas y profundas tensiones con el
 concepto de dignidad humana, razón por la cual, al ser aquel un concepto constitucionalizado convierte en inválida cualquier iniciativa de su promulgación como
@@ -1712,8 +1731,15 @@ los casos en que la ley las pena especialmente».
       lo 3. Lo expuesto precedentemente no tendrá lugar si el hecho mereciere
       mayor pena de acuerdo con el artículo 296 del Código Penal.
 
-
 ## 14 Artículo 9 de la Constitución. El terrorismo, en cualquiera de sus formas, es
+
+**Definición Canónica:** por esencia contrario a los derechos humanos. Una ley de quórum calificado determinará las conductas terroristas y su penalidad. Los responsables de estos delitos
+quedarán inhabilitados por el plazo de quince años para ejercer funciones o cargos
+públicos, sean o no de elección popular, o de rector o director de establecimiento de educación, o para ejercer en ellos funciones de enseñanza; para explotar un
+medio de comunicación social o ser director o administrador del mismo, o para
+desempeñar en él funciones relacionadas con la emisión o difusión de opiniones o
+informaciones; ni podrá ser dirig
+**Concordancias Legales:** artículo 11 de la Ley Terrorista consagran; Artículo 11; artículo 14; artículos 15; artículo 19; artículos 17; Artículo 17; Artículo 18; artículo 23 de la Ley 12.927; Ley 20.000; Ley 12.927; Ley 17.798; constitucion; Constitución
 
 por esencia contrario a los derechos humanos. Una ley de quórum calificado determinará las conductas terroristas y su penalidad. Los responsables de estos delitos
 quedarán inhabilitados por el plazo de quince años para ejercer funciones o cargos
@@ -1804,8 +1830,11 @@ un derecho penal de tercera velocidad, dadas las insuficiencias del derecho pena
 
 Materiales Docentes                                                     Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Evolución de la Ley 18.314 y contexto actual
+del terrorismo en Chile
+**Concordancias Legales:** artículo 1; artículo 5; Ley 18.314; Ley 3.627; Ley 12.927; constitucion; Constitución
 
 Evolución de la Ley 18.314 y contexto actual
 del terrorismo en Chile
@@ -1869,12 +1898,10 @@ Seguridad del Estado (numeral 5); los que con un fin revolucionario o
 subversivo y por cualquier medio destruyan, inutilicen, paralicen o dañen medios de transporte marítimo, aéreo o terrestre (numeral 9); y los
 que hicieren la apología del terrorismo (numeral 13), entre otros.2
 
-
-## 1 Sentencia de la Corte Suprema, del 24 de septiembre de 1957, RDJ, t. 54, sección
-
-4.ª, p. 197, citado por Silva Bascuñán (1997: 169).
-
 ## 2 Para el catálogo completo de las conductas terroristas bajo el imperio del texto
+
+**Definición Canónica:** original de la Ley 18.314, véase https://bit.ly/3WHVJCW.
+**Concordancias Legales:** Ley 18.314
 
 original de la Ley 18.314, véase https://bit.ly/3WHVJCW.
 
@@ -1904,13 +1931,12 @@ Domingo Aguayo (cabo segundo de Ejército) ocurrido el 30 de agosto
 de 1983, también por parte del MIR;4 el asesinato de tres profesores, José
 Manuel Parada, Manuel Guerrero Ceballos y Santiago Nattino, más conocido como el caso Degollados, perpetrado por miembros de Carabineros en 1985;5 el atentado al general Pinochet ocurrido el 7 de septiembre de 1986 por parte del FPMR y en el que fallecieron cinco escoltas,
 
-
-## 3 Sentencia de la Corte de Apelaciones de Santiago, rol 474-83, del 12 de noviembre
-
-de 1987.
- 4 Sentencia Corte Marcial del 19 de agosto de 1988, citado por Villegas (2018: 516).
-
 ## 5 Sentencia de ministro en visita extraordinaria Milton Juica, rol 118-284, del 31 de
+
+**Definición Canónica:** marzo de 1994, citado por Villegas (2018: 509). Pese a la fecha en que ocurrieron los
+hechos, al momento de dictación de la sentencia ya se encontraba vigente la reforma
+producida por la Ley 19.027 de 1991.
+**Concordancias Legales:** Ley 19.027; Ley 18.314; Ley 17.798
 
 marzo de 1994, citado por Villegas (2018: 509). Pese a la fecha en que ocurrieron los
 hechos, al momento de dictación de la sentencia ya se encontraba vigente la reforma
@@ -1940,14 +1966,25 @@ sobre control de armas), pese a que la Ley Terrorista, al igual que esta
 última, consagraba como pena máxima la de muerte, toda vez que el
 homicidio recayó sobre un funcionario de las Fuerzas Armadas.9
 
-
 ## 6 Sentencia de la Corte de Apelaciones de San Miguel, rol 920-1992, del 24 de julio
+
+**Definición Canónica:** de 1992, dictada por el ministro en visita Humberto Villavicencio.
+ 7 Para más información, véase SCS, rol 1742-1987 del 31 de julio de 1991, sin perjuicio de que, en este caso, al igual que en el caso Degollados y el atentado contra Pinochet, a la fecha de la sentencia ya se encontraba vigente la modificación producida
+por la Ley 19.027.
+**Concordancias Legales:** Ley 19.027
 
 de 1992, dictada por el ministro en visita Humberto Villavicencio.
  7 Para más información, véase SCS, rol 1742-1987 del 31 de julio de 1991, sin perjuicio de que, en este caso, al igual que en el caso Degollados y el atentado contra Pinochet, a la fecha de la sentencia ya se encontraba vigente la modificación producida
 por la Ley 19.027.
 
 ## 8 Sentencia de ministro en visita extraordinaria Villavicencio, rol 15.236, del 1 de
+
+**Definición Canónica:** abril de 1992. Con cita a este y otros casos, véase Villegas (2018).
+ 9 Pese a que la Corte no desarrolla en detalle el razonamiento que la lleva a considerar que la pena contenida en la Ley Terrorista era más benigna que la contemplada en el ya derogado artículo 16 de la Ley de Control de Armas —lo que resulta paradójico pues ambas disposiciones contemplaban como pena máxima la de muerte—,
+es posible concluir que tal decisión de fundó en que, en el caso de la Ley Terrorista,
+la pena por homicidio terrorista de un uniformado comenzaba en una escala menor
+(presidio mayor en su grado máximo a mu
+**Concordancias Legales:** artículo 16 de la Ley de Control de Armas
 
 abril de 1992. Con cita a este y otros casos, véase Villegas (2018).
  9 Pese a que la Corte no desarrolla en detalle el razonamiento que la lleva a considerar que la pena contenida en la Ley Terrorista era más benigna que la contemplada en el ya derogado artículo 16 de la Ley de Control de Armas —lo que resulta paradójico pues ambas disposiciones contemplaban como pena máxima la de muerte—,
@@ -1961,10 +1998,19 @@ Materiales Docentes                                                      Capítu
 la Ley Terrorista —por sobre la Ley de Control de Armas— fueron los
 siguientes:
 
-
 ## 1. Que en el mes de septiembre de 1984 se derogó el artículo 16 de la
 
-      Ley 17.798, tipo penal por el cual se condenó al reo García Herrera, en
+**Definición Canónica:** Ley 17.798, tipo penal por el cual se condenó al reo García Herrera, en
+      la sentencia de primer grado, a la pena de muerte. En mayo del mismo
+      año, entró en vigor la Ley 18.314 sobre conductas terroristas, que si bien
+      contiene una penalidad muy severa, no es menos efectivo que la ley vi-
+      gente a la fecha del delito es de mayor rigurosidad en materia de la pena
+      capital; de tal suerte que de su aplicación en el caso sublite y en virtud de
+      las circunstancias concurrentes, resulta que debe imponerse al reo esta
+      necesariamente; 2. Que del estudio comparativo 
+**Concordancias Legales:** artículo 2 de la Ley 18.314; artículo 18 del Código Penal y el artículo 19; Ley 17.798; Ley 18.314; Ley 19.027; Constitución Política
+
+Ley 17.798, tipo penal por el cual se condenó al reo García Herrera, en
       la sentencia de primer grado, a la pena de muerte. En mayo del mismo
       año, entró en vigor la Ley 18.314 sobre conductas terroristas, que si bien
       contiene una penalidad muy severa, no es menos efectivo que la ley vi-
@@ -2050,6 +2096,16 @@ Materiales Docentes                                                      Capítu
    Por su parte —y de acuerdo con lo adelantado—, en el caso del atentado a Pinochet en 1986, paradójicamente no se aplicó la Ley Terrorista dadas las nuevas exigencias típicas insertadas por la Ley 19.027 de
 
 ## 1991. En efecto, dado que esta modificación trajo consigo la exigencia de
+
+**Definición Canónica:** elementos subjetivos ausentes en el texto original, la nueva estructura
+típica del delito terrorista vino a favorecer a los autores del atentado,
+quienes, por ello, fueron condenados solo por delitos reiterados de homicidio calificado. Sobre el contenido de la reforma llevada a cabo en
+1991 y los argumentos para no aplicar la Ley Terrorista en el atentado a
+Pinochet, nos referiremos en el acápite siguiente.
+   Señalado lo anterior, corresponde ahora referirnos a las principales
+modificaciones que sufrió la Ley Terrorista desde su entrada en vigencia
+y hasta 1990. Todo esto se puede apreciar en
+**Concordancias Legales:** artículo 1; artículos 3; artículo 2; artículo 7; artículo 14 de la Ley 18.314 en relación con 2005; artículo 1 de la Ley Terrorista; artículo 15 de la Ley 18.314; Ley 18.314; Ley 18.585; Ley 18.925; Ley 18.937; Ley 19.027; Ley 19.241; Ley 19.806; Ley 19.906; Ley 18.324; Ley 20.467; Ley 20.074; Ley 20.519; Ley 20.830
 
 elementos subjetivos ausentes en el texto original, la nueva estructura
 típica del delito terrorista vino a favorecer a los autores del atentado,
@@ -2239,8 +2295,16 @@ aún conserva la ley; esto es, una enumeración de ilícitos basales y simples p
 concurra alguno de los elementos subjetivos ya referidos (causar terror,
 arrancar resoluciones o imponer exigencias a la autoridad).14
 
-
 ## 13 Para más información, véase «Historia de la Ley 19.027», disponible en https://
+
+**Definición Canónica:** bit.ly/3BJXLtN.
+ 14 En efecto, el entonces artículo 2, insertado por la Ley 19.027, rezaba: «Constituirán delitos terroristas, cuando reunieren algunas de las características señaladas
+en el artículo anterior: 1. Los de homicidio sancionados en los artículos 390 y 391;
+los de lesiones penados en los artículos 395, 396, 397 y 399; los de secuestro, sea en
+forma de encierro o detención, sea de retención de una persona en calidad de rehén,
+y de sustracción de menores, castigados en los artículos 141 y 142; los de envío de
+efectos explosivos del artículo 403 bis; los de incendio y estragos, reprim
+**Concordancias Legales:** artículo 2; artículos 390; artículos 395; artículos 141; artículo 403 bis; artículos 474; artículos 313; artículos 323; artículo 3; artículo 1; Ley 19.027; Ley 18.314; Constitución Política
 
 bit.ly/3BJXLtN.
  14 En efecto, el entonces artículo 2, insertado por la Ley 19.027, rezaba: «Constituirán delitos terroristas, cuando reunieren algunas de las características señaladas
@@ -2296,16 +2360,30 @@ Materiales Docentes                                                       Capít
 
    Y agrega la Corte:
 
-
 ## 9. Los hechos a juicio del tribunal, en la actualidad, no pueden ser ca-
 
-      lificados tal cual lo consignara el auto de cargos, en lo tocante a delitos
+**Definición Canónica:** lificados tal cual lo consignara el auto de cargos, en lo tocante a delitos
+      reiterados de infracción a los números 1, 2, 3, 6 y 11 del artículo 1 de
+      la Ley 18.314 que determina conductas terroristas y fija su penalidad;
+**Concordancias Legales:** artículo 1; Ley 18.314
+
+lificados tal cual lo consignara el auto de cargos, en lo tocante a delitos
       reiterados de infracción a los números 1, 2, 3, 6 y 11 del artículo 1 de
       la Ley 18.314 que determina conductas terroristas y fija su penalidad;
 
 ## 10. Que la referida conclusión se desprende de la circunstancia que el
 
-      artículo 2 de la Ley 19.027, que modificó la Ley 18.314, sustituyó el artí-
+**Definición Canónica:** artículo 2 de la Ley 19.027, que modificó la Ley 18.314, sustituyó el artí-
+      culo 1 de este último cuerpo de leyes, creando nuevas figuras delictivas
+      y exigiendo, además, requisitos y presupuestos del orden subjetivo que
+      la antigua disposición no contemplaba y el mérito del proceso tampoco
+      habilita considerarlos, con todo lo cual desapareció el tipo penal y la co-
+      rrespondiente sanción que dicha disposición legal establecía; 11. Que, en
+      este evento, al haberse sustituido la disposición legal de carácter especial
+      que establecía tipos especiales para los 
+**Concordancias Legales:** artículo 2 de la Ley 19.027; artículo 391; artículo 7; artículo 2; artículo 1; Ley 19.027; Ley 18.314; constitucion
+
+artículo 2 de la Ley 19.027, que modificó la Ley 18.314, sustituyó el artí-
       culo 1 de este último cuerpo de leyes, creando nuevas figuras delictivas
       y exigiendo, además, requisitos y presupuestos del orden subjetivo que
       la antigua disposición no contemplaba y el mérito del proceso tampoco
@@ -2370,18 +2448,20 @@ y confirmado por la Corte de Apelaciones de Santiago en abril de 1994.18
 Guzmán —así como en el caso del secuestro a Cristián Edwards, también
 en 1991,20 y el de robo con intimidación al Banco Concepción en 1992,21
 
-
 ## 17 Sentencia ministro en visita extraordinaria Alfredo Pfeiffer, rol 39.800-91, del 27
+
+**Definición Canónica:** de enero de 1994, considerando quinto.
+ 18 Para más información, véase SCA de Santiago, rol 3232-1994, 15 de abril de 1994.
+ 19 Sentencia de la Corte de Apelaciones de Santiago, rol 3232-1994, 15 de abril de 1994.
 
 de enero de 1994, considerando quinto.
  18 Para más información, véase SCA de Santiago, rol 3232-1994, 15 de abril de 1994.
  19 Sentencia de la Corte de Apelaciones de Santiago, rol 3232-1994, 15 de abril de 1994.
 
-## 20 Sentencia ministro en visita extraordinaria Alfredo Pfeiffer, rol 39.800 (ex rol
-
-14.711-92 B) del 3 de febrero de 1994.
-
 ## 21 Sentencia ministro en visita extraordinaria Juan Araya, rol 3.557-1992, del 28 de
+
+**Definición Canónica:** enero de 1993.
+**Concordancias Legales:** artículo 2 de la Ley 18.314 un nuevo párrafo; Ley 19.241; Ley 18.314; Ley 20.467
 
 enero de 1993.
 
@@ -2419,6 +2499,12 @@ derogado en 2010 por la Ley 20.467.
  22 Sentencia de la Corte de Apelaciones de Santiago, rol 1532-2018, del 9 de octubre de 2019, considerando sexto. El destacado es nuestro.
 
 ## 23 La nueva disposición, en tal sentido, señala: «Los delitos de secuestro, sea en
+
+**Definición Canónica:** forma de encierro o detención, sea de retención de una persona en calidad de rehén
+y de sustracción de menores, establecidos en los artículos 141 y 142 del Código Penal,
+cometidos por una asociación ilícita terrorista, serán considerados siempre como
+delitos terroristas».
+**Concordancias Legales:** artículos 141; artículo 10 de la Ley 18.314; artículo 11; artículo 12; artículo 13; artículo 14; artículos 15; artículo 17; artículo 22; artículo 10; artículo 8; artículo 14 de la Ley 18.314 en el siguiente tenor; artículo 1; artículo 1 de la Ley Terrorista; Ley 19.806; Ley 18.314; Ley 19.906; Ley 20.074; Ley 20.467; Ley 19.027
 
 forma de encierro o detención, sea de retención de una persona en calidad de rehén
 y de sustracción de menores, establecidos en los artículos 141 y 142 del Código Penal,
@@ -2491,8 +2577,10 @@ Terrorista.
   La Ley 20.467 reemplaza el artículo 1 de la Ley Terrorista, fijando el
 concepto y requisitos típicos que actualmente exige la ley para referirse
 
-
 ## 25 Para más información, véase «Historia de la Ley 19.906», disponible en https://
+
+**Definición Canónica:** bit.ly/3eX64cA.
+**Concordancias Legales:** artículo 1; artículo 2; artículo 7; artículo 9; Ley 18.314; Ley 20.519
 
 bit.ly/3eX64cA.
 
@@ -2559,8 +2647,17 @@ Que excluye la aplicación de la Ley Terrorista a menores de 18 años, incluyend
       hecho punible. En dicho caso la determinación de la pena se realizará en
       relación con el delito cometido de conformidad a esta ley.
 
-
 ## 28 Para más información, véase «Historia de la Ley 20.467», disponible en https://
+
+**Definición Canónica:** bit.ly/3qJWRHA.
+  29 Siendo la redacción actual de ambos numerales nuevos (1 y 4) la siguiente:
+«Artículo 2. Constituirán delitos terroristas cuando cumplieren lo dispuesto en el
+artículo anterior: 1. Los de homicidio sancionados en el artículo 391; los de lesiones
+establecidos en los artículos 395, 396, 397 y 398; los de secuestro y de sustracción de
+menores castigados en los artículos 141 y 142; los de envío de cartas o encomiendas
+explosivas del artículo 403 bis; los de incendio y estragos, descritos en los artículos
+474, 475, 476 y 480, y las infracciones contra la salud pública de los art
+**Concordancias Legales:** Artículo 2; artículo 391; artículos 395; artículos 141; artículo 403 bis; artículos 474; artículos 313; artículos 105; artículo 15 de la Ley 18.314; Ley 20.830; Ley 18.314
 
 bit.ly/3qJWRHA.
   29 Siendo la redacción actual de ambos numerales nuevos (1 y 4) la siguiente:
@@ -2586,8 +2683,12 @@ el artículo 15 de la Ley 18.314, luego de la palabra «cónyuge», la expresió
 
 Materiales Docentes                                                   Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** La legislación antiterrorista a la luz
+de los estándares internacionales y nacionales
+en materia de derechos humanos
+**Concordancias Legales:** artículo 14
 
 La legislación antiterrorista a la luz
 de los estándares internacionales y nacionales
@@ -2667,16 +2768,17 @@ independiente e imparcial.12
    Asimismo, y en la Recomendación General 30 de 2005, sobre la «discriminación contra los no ciudadanos» recomienda a los Estados parte
 en la Convención, con arreglo a sus circunstancias específicas:
 
-
-## 10. Velar por que las medidas que se tomen en la lucha contra el terro-
-
-      rismo no discriminen, por sus fines o efectos, por motivos de raza, color,
-      ascendencia u origen nacional o étnico, y que los no ciudadanos no se
-
-
 ## 5 Comunicación 1298/2004, Becerra Barney con Colombia, párrafo 7.2
 
-  6 Comunicaciones 577/1994, Polay Campos con el Perú, párrafo 8.8; 678/1996, Gutiérrez Vivanco con el Perú, párrafo. 7.1; 1126/2002; Carranza Alegre con el Perú, párrafo 7.5.
+**Definición Canónica:** 6 Comunicaciones 577/1994, Polay Campos con el Perú, párrafo 8.8; 678/1996, Gutiérrez Vivanco con el Perú, párrafo. 7.1; 1126/2002; Carranza Alegre con el Perú, párrafo 7.5.
+  7 Comunicación 678/1996, Gutiérrez Vivanco con el Perú, párrafo 7.1.
+  8 Comunicaciones 577/1994, Polay Campos con el Perú, párrafo 8.8; 1126/2002, Carranza Alegre con el Perú, párrafo 7.5.
+  9 Comunicación 1058/2002, Vargas Mas con el Perú, párrafo 6.4.
+  10 Comunicación 1125/2002, Quispe Roque con el Perú, párrafo 7.3.
+  11 Comunicaciones 678/1996, Gutiérrez Vivanco con el Perú, párrafo 7.1; 1126/2002,
+Carranza Alegre 
+
+6 Comunicaciones 577/1994, Polay Campos con el Perú, párrafo 8.8; 678/1996, Gutiérrez Vivanco con el Perú, párrafo. 7.1; 1126/2002; Carranza Alegre con el Perú, párrafo 7.5.
   7 Comunicación 678/1996, Gutiérrez Vivanco con el Perú, párrafo 7.1.
   8 Comunicaciones 577/1994, Polay Campos con el Perú, párrafo 8.8; 1126/2002, Carranza Alegre con el Perú, párrafo 7.5.
   9 Comunicación 1058/2002, Vargas Mas con el Perú, párrafo 6.4.
@@ -2692,7 +2794,12 @@ Materiales Docentes                                                    Capítulo
 
 ## 20. Velar por que los no ciudadanos detenidos o encarcelados en la
 
-      lucha contra el terrorismo estén debidamente protegidos por el derecho
+**Definición Canónica:** lucha contra el terrorismo estén debidamente protegidos por el derecho
+      nacional con arreglo a las normas internacionales de derechos huma-
+      nos, el derecho de los refugiados y el derecho humanitario.14
+**Concordancias Legales:** artículo 2; Ley 18.314
+
+lucha contra el terrorismo estén debidamente protegidos por el derecho
       nacional con arreglo a las normas internacionales de derechos huma-
       nos, el derecho de los refugiados y el derecho humanitario.14
 
@@ -2754,6 +2861,15 @@ postula ciertos problemas e incompatibilidades que suscitaría la Ley Te-
  18 Para más información, véase Castañeda Mireya (2015: 536).
 
 ## 19 En este sentido, el Comité ha observado: «Los Estados parte deben velar por
+
+**Definición Canónica:** que, en el marco de las obligaciones que han contraído en virtud de la Convención,
+sus leyes se apliquen en la práctica a todas las personas, cualesquiera que sean su
+raza, color, grupo étnico, edad, creencia o adscripción religiosa, opinión política o
+de otra índole, origen nacional o social, género, orientación sexual, identidad transexual, discapacidad mental o de otro tipo, estado de salud, situación económica o
+pertenencia a una comunidad indígena, razón por la que la persona se encuentra
+privada de libertad, en particular las personas acusadas de delitos políticos o actos
+terroristas». P
+**Concordancias Legales:** artículo 1; Ley 20.467; Ley 18.314.20
 
 que, en el marco de las obligaciones que han contraído en virtud de la Convención,
 sus leyes se apliquen en la práctica a todas las personas, cualesquiera que sean su
@@ -2832,14 +2948,10 @@ especialmente importante que la actividad persecutoria y jurisdiccional
 mantengan la debida objetividad e imparcialidad, lo cual se traduce, en
 específico, en la custodia de un derecho penal de acto por sobre un derecho penal de autor.
 
-
-## 20 Para más información, véase especialmente, Sentencia de la Corte Suprema, rol
-
-5397-2018 del 13 de junio de 2018, caso Subcentro Escuela Militar.
-Materiales Docentes                                                        Capítulo 6
-
-
 ## Capítulo 6
+
+**Definición Canónica:** Terrorismo y financiamiento
+**Concordancias Legales:** artículo 8 de la Ley Terrorista; artículo 8 de la Ley Terrorista consagra actualmente la figura; artículo 2; artículo 294 bis del Código Penal.2 1 Para más información; Ley 19.906
 
 Terrorismo y financiamiento
 
@@ -2872,6 +2984,9 @@ propuestos por la convención. En efecto, el tipo penal dispone:
  1 Para más información, véase el Decreto Supremo 163 de 2001.
 
 ## 2 Con posterioridad a esta modificación, se dicta la Ley 20.393 del 2 de diciembre
+
+**Definición Canónica:** del 2009, por la cual se establece la responsabilidad penal de las personas jurídicas
+**Concordancias Legales:** artículo 2 de la Ley 18.314; artículo 1 de la Ley 20.393 hace referencia al financiamiento; artículo 8 de la Ley Terrorista. En efecto; artículo 1; artículo 8 de la Ley 18.314; artículo 7; Ley 18.314; Ley 20.393; Ley 19.906
 
 del 2009, por la cual se establece la responsabilidad penal de las personas jurídicas
 
@@ -2966,8 +3081,15 @@ El problema de este verbo es que, para varios de quienes intervinieron
 en el proyecto de ley, ya absorbía la voz solicitar,8 sin embargo, quedó
 finalmente como un verbo rector distinto, el cual se ha de entender, entonces, como «cobrar o percibir caudales o efectos».9
 
-
 ## 7 Para más información, véase «Historia de la Ley 19.906», p. 48, disponible en
+
+**Definición Canónica:** https://bit.ly/3S69Pe7.
+ 8 En efecto, Juan Bustos señaló durante la discusión de estos verbos: «con la eliminación del vocablo solicitar del proyecto aprobado por la Cámara de Diputados,
+queda un vacío legal, porque recaudar y solicitar son términos completamente diferentes. Por lo tanto, habría que rechazar la modificación. Aún más, habría que
+rechazar el artículo 8, nuevo, que se agrega al artículo único del proyecto, que dice:
+“Artículo 8. El que por cualquier medio, directa o indirectamente, recaude o provea
+fondos con la finalidad de que se utilicen en la comisión de cualquiera de los del
+**Concordancias Legales:** artículo 8; artículo 2; artículo 294 bis del Código Penal; Ley 19.906
 
 https://bit.ly/3S69Pe7.
  8 En efecto, Juan Bustos señaló durante la discusión de estos verbos: «con la eliminación del vocablo solicitar del proyecto aprobado por la Cámara de Diputados,
@@ -2990,6 +3112,9 @@ generar». Para más información, véase «Historia de la Ley 19.906», p. 42, 
 en https://bit.ly/3RPURt1.
 
 ## 9 Y ello es coincidente, como rescata la historia de la ley, con las disposiciones del
+
+**Definición Canónica:** Convenio sobre este punto. Así, cabe recordar que el artículo 2.1. del Convenio emplea los verbos proveer o recolectar que, de acuerdo con el Diccionario de la lengua
+**Concordancias Legales:** artículo 2.1. del Convenio emplea los verbos proveer o recolect; artículo 16 de la Constitución Política; artículo 15; Constitución Política
 
 Convenio sobre este punto. Así, cabe recordar que el artículo 2.1. del Convenio emplea los verbos proveer o recolectar que, de acuerdo con el Diccionario de la lengua
 
@@ -3018,6 +3143,11 @@ según lo ya expresado. Solo así es posible entender que, durante la discusión
 penados.
 
 ## Parte de la confusión aquí expresada tiene su origen en el criterio
+
+**Definición Canónica:** extremadamente amplio que aporta el Convenio para definir «fondos».
+En tal sentido, el Convenio entiende por fondos, según el artículo 1,
+número 1:
+**Concordancias Legales:** artículo 1; artículo 141 del Código Penal; artículo 2; artículo 8; artículo 294 bis del Código Penal.10 Finalmente; artículo 1 de la Ley 20.393 sobre responsabilidad penal de las; artículo 251 bis; Ley 19.906; Ley 18.314; Ley 20.393; Ley 21.121
 
 extremadamente amplio que aporta el Convenio para definir «fondos».
 En tal sentido, el Convenio entiende por fondos, según el artículo 1,
@@ -3078,8 +3208,16 @@ como delito el cohecho de funcionarios públicos extranjeros11 en su legislació
 ya contemplaba el delito de cohecho a funcionarios públicos extranjeros— por uno nuevo,13 que eleva las penas por este ilícito (de reclusión
 menor en su grado medio a máximo a reclusión menor en su grado
 
-
 ## 11 Para los efectos de la Convención, específicamente teniendo en consideración
+
+**Definición Canónica:** el artículo 1, por servidor público extranjero se ha de entender: «Cualquier persona
+que ocupe un cargo legislativo, administrativo o judicial de un país extranjero, ya
+sea nombrado o elegido; cualquier persona que ejerza una función pública para un
+país extranjero, por ejemplo, en una dependencia pública o en una empresa pública;
+y cualquier funcionario o representante de un organismo público internacional».
+Para más información, confrontar con Organización para la Cooperación y el Desarrollo Económicos, «Convención para combatir el cohecho de servidores públicos
+extranjeros en transacciones 
+**Concordancias Legales:** artículo 1
 
 el artículo 1, por servidor público extranjero se ha de entender: «Cualquier persona
 que ocupe un cargo legislativo, administrativo o judicial de un país extranjero, ya
@@ -3091,6 +3229,13 @@ extranjeros en transacciones comerciales internacionales y documentos relacionad
   12 Para más información, confrontar con Subsecretaría de Relaciones Económicas, «Convención anticohecho de la Organización para la Cooperación y el Desarrollo Económicos», 2021. Disponible en: https://bit.ly/3K34stw
 
 ## 13 El nuevo artículo 251 bis reza: «El que, con el propósito de obtener o mantener
+
+**Definición Canónica:** para sí o para un tercero cualquier negocio o ventaja en el ámbito de cualesquiera
+transacciones internacionales o de una actividad económica desempeñada en el extranjero, ofreciere, prometiere, diere o consintiere en dar a un funcionario público
+extranjero un beneficio económico o de otra naturaleza en provecho de este o de un
+tercero, en razón del cargo del funcionario, o para que omita o ejecute, o por haber
+omitido o ejecutado, un acto propio de su cargo o con infracción a los deberes de
+su cargo, será sancionado con la pena de reclusión menor en su grado máximo a reclusión mayor en su gra
 
 para sí o para un tercero cualquier negocio o ventaja en el ámbito de cualesquiera
 transacciones internacionales o de una actividad económica desempeñada en el extranjero, ofreciere, prometiere, diere o consintiere en dar a un funcionario público
@@ -3134,16 +3279,13 @@ proyecto:15
 
    Por su parte, el preámbulo de la Convención Interamericana en contra de la corrupción17 afirma que la corrupción «socava la legitimidad de
 
-
-## 14 Para más información, véase «Historia de la Ley 21.121», p. 30, disponible en
-
-https://bit.ly/3QNmSjy.
-
-## 15 Para más información, véase «Historia de la Ley 21.121», pp. 4 y ss., disponible
-
-en https://bit.ly/3qEmb1A.
-
 ## 16 Convención de las Naciones Unidas en contra de la corrupción promulgada
+
+**Definición Canónica:** por Decreto 375 del 23 de noviembre de 2006 y publicada en el Diario Oficial del 30
+de enero de 2007.
+ 17 Convención Interamericana en contra de la Corrupción promulgada por Decreto 1.879 del 29 de octubre de 1998 y publicada en el Diario Oficial del 2 de febrero
+de 1999.
+**Concordancias Legales:** artículo 1; artículo 8 de la Ley 18.314. Al igual como ocurrió con resp; Ley 20.393; Ley 18.314
 
 por Decreto 375 del 23 de noviembre de 2006 y publicada en el Diario Oficial del 30
 de enero de 2007.
@@ -3180,8 +3322,12 @@ que se encuentra el lavado de activos, el cohecho y el previsto en el artículo 
    Al igual como ocurrió con respecto al delito de cohecho internacional, la presente ley viene a dar cumplimiento a una serie de tratados
 internacionales y otros instrumentos en que el Estado se obliga a tipificar diversas conductas para, así, cumplir el estándar de los países
 
-
 ## 18 Convención para combatir el cohecho a funcionarios públicos extranjeros en
+
+**Definición Canónica:** transacciones comerciales internacionales de la Organización para la Cooperación
+y el Desarrollo Económicos promulgada por Decreto Supremo 496 del 10 de octubre
+de 2001 y publicada en el Diario Oficial del 30 de enero de 2002.
+**Concordancias Legales:** artículo 3; artículo 3 de la Ley 20.393; Ley 20.393
 
 transacciones comerciales internacionales de la Organización para la Cooperación
 y el Desarrollo Económicos promulgada por Decreto Supremo 496 del 10 de octubre
@@ -3221,12 +3367,10 @@ acuerdo con el texto de la ley, descansa en los siguientes presupuestos:
      jurídica, según el inciso primero del artículo 3 de la Ley 20.393.
    • El incumplimiento por parte de la persona jurídica de su deber de
 
-
-## 19 Para más información, véase «Historia de la Ley 20.393», p. 3, disponible en
-
-https://bit.ly/3QO6Nuf.
-
 ## 20 Para más información, véase «Historia de la Ley 20.393», pp. 3-4, disponible en
+
+**Definición Canónica:** https://bit.ly/3RRCNPi.
+**Concordancias Legales:** artículo 3; artículo 8; artículo 8 de la Ley 18.314; artículo 15 de la Ley 20.393; artículo 14; artículo 13; Ley 20.393; Ley 18.314
 
 https://bit.ly/3RRCNPi.
 
@@ -3256,8 +3400,10 @@ decomisados; y iii) el entero en arcas fiscales de una cantidad equivalente a la
 
 Materiales Docentes                                                    Capítulo 7
 
-
 ## Capítulo 7
+
+**Definición Canónica:** Terrorismo y derecho penal internacional
+**Concordancias Legales:** artículos 5; Ley 18.314
 
 Terrorismo y derecho penal internacional
 
@@ -3346,8 +3492,14 @@ con respecto al castigo de actos de terrorismo» y:
        Esta práctica es evidencia de una creencia de los Estados de que la pu-
       nición del terrorismo responde a una necesidad social (opinio necessita-
 
-
 ## 6 Declaración de Medidas para Eliminar el Terrorismo Internacional, anexo a la
+
+**Definición Canónica:** resolución 49/60 de la Asamblea General de las Naciones Unidas, del 9 de diciembre
+de 1994.
+ 7 Declaración Complementaria de la Declaración de 1994 sobre Medidas para Eliminar el Terrorismo Internacional de 1994, anexo a la resolución 51/210 de la Asamblea General de las Naciones Unidas, del 17 de diciembre de 1996.
+ 8 Interlocutory decision on the applicable law: Terrorism, conspiracy, homicide,
+perpetration, cumulative charging, STL 11-01/I/AC/R176bi, del 16 de febrero de 2011,
+(«decision»).
 
 resolución 49/60 de la Asamblea General de las Naciones Unidas, del 9 de diciembre
 de 1994.
@@ -3371,8 +3523,10 @@ perpetration, cumulative charging, STL 11-01/I/AC/R176bis, del 16 de febrero de
 
 Materiales Docentes                                                         Capítulo 8
 
-
 ## Capítulo 8
+
+**Definición Canónica:** Problemas concursales
+**Concordancias Legales:** artículo 74 del Código Penal; artículo 75 del Código Penal; artículo 2; artículo 391; artículos 395; artículos 141; artículo 403 bis; artículos 474; artículos 313; artículos 105; artículo 142; artículo 476 del Código Penal; artículos 1; artículo 3; artículo 14 de la Ley 17.798; artículo 17; artículo 74 del Código Penal. Materiales Docentes; artículo 433 del Código Penal; artículo 19; Ley 18.314; Ley 17.798; Ley 20.813; constitucion; Constitución Política
 
 Problemas concursales
 
@@ -3623,6 +3777,8 @@ se cometa con ellas. Así, señaló el Tribunal:
 
 ## 7 Intervención del profesor Matus en «Historia de la Ley 20.813 que modifica la
 
+**Definición Canónica:** Materiales Docentes                                                        Capítulo 8
+**Concordancias Legales:** artículo 74 del Código Criminal para el caso que concurra la; artículo 2; artículo 1; artículo 391; artículos 395; artículos 105; artículo 2 de la Ley Terrorista. Así; artículo 261 del Código Penal; Artículo 261; artículos 121; artículo 2 de la Ley Terrorista; artículo 121; artículo 121 del Código Penal proscribe conductas que tienen p; Ley 17.798; Ley 18.314; Constitucion; Constitución
 
 Materiales Docentes                                                        Capítulo 8
 
@@ -3729,8 +3885,10 @@ que tienen por objeto: «promover la guerra civil», «cambiar la Constitución 
 impedir que entren en el ejercicio de ellas al presidente de la República
 o al que haga sus veces, a los miembros del Congreso Nacional o de los
 
-
 ## 10 Se trata, según Hernández (2011: 13), del denominado «atentado impropio»
+
+**Definición Canónica:** constitutivo de una forma atenuada de rebelión.
+**Concordancias Legales:** artículo 126; artículos 121; artículo 2; Ley 18.314; constitucion
 
 constitutivo de una forma atenuada de rebelión.
 
@@ -3770,6 +3928,10 @@ que sanciona los atentados contra la autoridad: el numeral 2 del artículo
 
 ## 261. Sobre esta disposición, hemos de concluir algo similar a lo señalado
 
+**Definición Canónica:** con respecto al numeral 1. Pero antes, revisemos qué señala el tipo:
+Materiales Docentes                                                    Capítulo 8
+**Concordancias Legales:** Artículo 261
+
 con respecto al numeral 1. Pero antes, revisemos qué señala el tipo:
 Materiales Docentes                                                    Capítulo 8
 
@@ -3777,7 +3939,12 @@ Materiales Docentes                                                    Capítulo
 
 ## 2. Los que acometen o resisten con violencia, emplean fuerza o intimi-
 
-      dación contra la autoridad pública o sus agentes, carabineros, funciona-
+**Definición Canónica:** dación contra la autoridad pública o sus agentes, carabineros, funciona-
+      rios de la Policía de Investigaciones o de Gendarmería de Chile, cuando
+      aquella o estos ejercieron funciones de su cargo.
+**Concordancias Legales:** artículo 261 del Código Penal radica en que esta está referida; artículo 2; artículo 5; artículos 121; artículo 2 de la Ley Terrorista. Y lo mismo ha de predicars; artículo 2 de la Ley Terrorista. Así; artículos 395; Ley 12.927; constitucion
+
+dación contra la autoridad pública o sus agentes, carabineros, funciona-
       rios de la Policía de Investigaciones o de Gendarmería de Chile, cuando
       aquella o estos ejercieron funciones de su cargo.
 
@@ -3879,8 +4046,16 @@ sujetos y la o las finalidades con que éstos pueden obrar no parecen ser
 solo propósito o finalidad, lo cual, por cierto, complejiza la labor del
 Ministerio Público al formalizar y del tribunal al resolver. Por ello, y a
 
-
 ## 11 Nótese que, a diferencia del artículo 5, letra a, el 5, letra b, añade como elemento
+
+**Definición Canónica:** subjetivo el propósito de «imponer exigencias o arrancar decisiones a la autoridad»,
+muy similar al elemento subjetivo contemplado en el artículo 1 de la Ley Terrorista,
+el cual reza: «sea porque se cometa para arrancar o inhibir resoluciones de la autoridad o imponerle exigencias». Sin embargo, la Ley Terrorista supone siempre, a
+diferencia de esta última disposición, que el sujeto obre con la finalidad de producir
+en la población o en una parte de ella…; en cambio, el artículo 5, letra b, de la Ley
+de Seguridad Interior, plantea los tres propósitos en forma alternativa, operando
+la conjunció
+**Concordancias Legales:** artículo 1 de la Ley Terrorista; artículo 5; artículo 391 del Código Penal; artículo 17; artículo 261; artículo 268 ter del Código Penal; artículo 416 del Código de Justicia Militar; artículo 2; constitucion
 
 subjetivo el propósito de «imponer exigencias o arrancar decisiones a la autoridad»,
 muy similar al elemento subjetivo contemplado en el artículo 1 de la Ley Terrorista,
@@ -3923,8 +4098,15 @@ por la Ley Terrorista y, en concreto, por el numeral 3 del artículo 2 sobre
 atentado en contra de la vida de una autoridad política.
    En definitiva, el homicidio de un ministro de Estado, en principio,
 
-
 ## 12 Sin perjuicio de ello, nada impediría que, eventualmente, se elevase la pena si se
+
+**Definición Canónica:** demuestra la concurrencia de alguna de las circunstancias agravantes contempladas
+en el artículo 12 del Código Penal y que permita captar la mayor reprochabilidad que
+acarrea matar a una autoridad: como la establecidas en el numeral 13 («ejecutarlo
+en desprecio o con ofensa de la autoridad pública»); numeral 18 («ejecutar el hecho
+con ofensa o desprecio del respeto que por la dignidad, autoridad […] mereciere el
+ofendido»); o 21 («motivado por la ideología, opinión política…»).
+**Concordancias Legales:** artículo 12 del Código Penal y que permita captar la mayor re; artículo 74 del Código Penal; artículo 5; artículo 2 de la Ley 18.314; artículo 26 de la Ley 12.927; artículo 74 del Código Penal. Aboga a esta primera solució; artículo 17; artículo 75 del Código Penal; Ley 12.927; Ley 18.314; Ley 17.798; Constitucion
 
 demuestra la concurrencia de alguna de las circunstancias agravantes contempladas
 en el artículo 12 del Código Penal y que permita captar la mayor reprochabilidad que
@@ -4017,8 +4199,10 @@ del sujeto.
 
 Materiales Docentes                                                         Capítulo 9
 
-
 ## Capítulo 9
+
+**Definición Canónica:** Ley Terrorista e iter criminis
+**Concordancias Legales:** artículo 8 del Código Penal; artículo 7 de la Ley 18.314 consagra que; artículo 8 del Código; artículo 7; artículo 9; artículo 5; Ley 18.314; Ley 19.027
 
 Ley Terrorista e iter criminis
 
@@ -4081,8 +4265,10 @@ Código la rebaja es siempre de dos. Ello implica, en la práctica, que la
 pena de la tentativa puede resultar igual que la pena de la frustración.
 Asimismo, la Ley Terrorista —en el inciso segundo del artículo 7— aplica
 
-
 ## 3 Para más información, confrontar con Hernández (2011: 20). El destacado es
+
+**Definición Canónica:** nuestro.
+**Concordancias Legales:** artículo 3; artículo 9
 
 nuestro.
 
@@ -4154,8 +4340,11 @@ activa, por lo que solo resta que transcurra el tiempo prefijado para que
 el aparato explote pero, antes de que ello ocurra, el individuo lo impide,
 desactivando la bomba. En ambos casos —desistimiento de la tentativa
 
-
 ## 5 Para más información, confrontar con Hernández (2011: 19). El destacado es
+
+**Definición Canónica:** nuestro.
+ 6 Por todos, véase Garrido Montt (1984: 181 y ss.).
+**Concordancias Legales:** artículo 9
 
 nuestro.
  6 Por todos, véase Garrido Montt (1984: 181 y ss.).
@@ -4182,8 +4371,10 @@ las reglas comunes contempladas en el Código Penal.
 Academia Judicial de Chile                                            Título
 Materiales Docentes                                              Capítulo 10
 
-
 ## Capítulo 10
+
+**Definición Canónica:** Ley Terrorista y la intervención criminal
+**Concordancias Legales:** artículos 14; artículos 50; Ley 20.519; Ley 18.314; constitucion; Constitución
 
 Ley Terrorista y la intervención criminal
 

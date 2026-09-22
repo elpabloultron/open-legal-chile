@@ -13,20 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 41           Rol probatorio
-
-             de documentación
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             tributaria
+                  electrónica
+             y aduanera
+                  de causas
+             Antonio Faúndez Ugalde
+             Francisco Javier Orellana Rivera
 
-                  Tramitación
+Tramitación
              tributaria
                   electrónica
              y aduanera
@@ -82,28 +79,9 @@ Materiales Docentes                                                    ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Evolución y estructura del régimen fiscal chileno
-
-## 28      Capítulo 2
-
-        Principales antecedentes y documentos tributarios
-        y aduaneros en el régimen fiscal chileno
-
-## 61      Capítulo 3
-
-        Procedimiento general de reclamación ante tribunales
-        tributarios y aduaneros
-
-## 128     Referencias
-
-
-Materiales Docentes                                                  Capítulo 1
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Evolución y estructura del régimen fiscal chileno
 
 Evolución y estructura del régimen fiscal chileno
 
@@ -130,11 +108,13 @@ necesidad de aumentar los impuestos internos (Carvallo Hederra, 1959:
 94). De esta manera, se comenzaron a concretar ideas tendientes a establecer un régimen tributario con una estructura destinada a gravar
 rentas del capital y del trabajo.1 Así, la primera moción fue presentada
 
-
 ## 1 Entiéndase por régimen tributario como aquél que comprende un conjunto de
 
+**Definición Canónica:** Academia Judicial de Chile                                                  Rol probatorio
+Materiales Docentes                                                              Capítulo 1
+**Concordancias Legales:** constitucion
 
-Academia Judicial de Chile                                                  Rol probatorio
+Academia Judicial de Chile                                                  Rol probatorio
 Materiales Docentes                                                              Capítulo 1
 
 el 4 de junio de 1919 por los diputados Víctor Robles, Héctor Arancibia
@@ -159,6 +139,12 @@ recaudación fiscal de los tributos».
 
 ## 2 El carácter progresivo del impuesto se desprendía del artículo 3 del proyecto de
 
+**Definición Canónica:** ley: «La contribución será del uno por ciento para las rentas de más [sic] de diez mil
+pesos e inferiores a veinte mil; desde esta cifra a treinta mil, uno y medio por cada
+mil entero, y así sucesivamente se irá aumentando la contribución [sic] en un medio
+por ciento por decena de miles, y se hará efectiva por cada mil pesos, en la parte
+correspondiente, sin que exceda de quince por ciento».
+
 ley: «La contribución será del uno por ciento para las rentas de más [sic] de diez mil
 pesos e inferiores a veinte mil; desde esta cifra a treinta mil, uno y medio por cada
 mil entero, y así sucesivamente se irá aumentando la contribución [sic] en un medio
@@ -166,6 +152,15 @@ por ciento por decena de miles, y se hará efectiva por cada mil pesos, en la pa
 correspondiente, sin que exceda de quince por ciento».
 
 ## 3 Los principales objetivos de este primer proyecto fueron los siguientes: i) gravar
+
+**Definición Canónica:** al rico, consiguiendo con la mayor contribución que pague, una rebaja de las gruesas contribuciones, indirectas, por derechos de aduana, que gravaban artículos de
+primera necesidad, indispensables para la vida y que en gran parte no se producían
+en el país; ii) establecer las bases de un sistema de impuesto que reemplazara las
+contribuciones indirectas por las directas y gravar rentas que hasta ese entonces no
+pagaban tributos; y, iii) modificar la tributación al salitre, sobre otras más racionales,
+permitiendo la explotación de salitre de baja ley y con mayor costo de producción.
+  4 La prime
+**Concordancias Legales:** Constitución Política
 
 al rico, consiguiendo con la mayor contribución que pague, una rebaja de las gruesas contribuciones, indirectas, por derechos de aduana, que gravaban artículos de
 primera necesidad, indispensables para la vida y que en gran parte no se producían
@@ -196,6 +191,16 @@ Norteamérica en 1913, en Francia en 1914, en Alemania en 1920, en Brasil en 192
 (Piedrabuena, 1950: 124).
 
 ## 5 Así se reconoció en la décima cuarta sesión de la Cámara de Diputados el 7 de
+
+**Definición Canónica:** diciembre de 1923, declarando el ministro de Hacienda Sr. Ramón Subercaseaux,
+lo siguiente: «El proyecto de la Cámara de Diputados, inspirado en la ley francesa,
+creaba el Impuesto sobre cinco categorías de rentas, como sigue: 1.ª Categoría. Renta
+de los capitales mobiliarios. 2.ª Categoría. Beneficios o rentas del comercio, de la
+industria fabril o manufacturera y demás industrias, exceptuadas las extractivas. 3.ª
+Categoría. Beneficios de la industria minera o metalúrgica. 4.ª Categoría. Sueldos
+públicos y privados, pensiones y montepíos. 5.ª Categoría. Rentas de las profesiones
+de toda ocupa
+**Concordancias Legales:** artículo 10; ley 3.091; Ley 1.269; constitucion; Constitución
 
 diciembre de 1923, declarando el ministro de Hacienda Sr. Ramón Subercaseaux,
 lo siguiente: «El proyecto de la Cámara de Diputados, inspirado en la ley francesa,
@@ -249,6 +254,14 @@ Bravo, 1950: 269).
 
 ## 7 Las seis categorías de renta fueron las siguientes: i) renta de los bienes raíces; ii)
 
+**Definición Canónica:** renta de los capitales mobiliarios; iii) beneficios de la industria y del comercio; iv)
+beneficios o rentas de explotación minera o metalúrgica; v) sueldos públicos y privados, pensiones y montepíos; y, vi) renta de profesionales y de toda otra ocupación
+lucrativa no contemplada en las otras categorías.
+ 8 El 17 de septiembre de 1924 se dictó el Decreto Ley 4, el cual introdujo modificaciones a la Ley 3.996, aumentando el tramo exento de la quinta categoría de $ 2.400
+a $ 4.800, respecto de todos los sueldos, salarios, pensiones o montepíos, esto es,
+si el monto percibido era de $ 10.000, sola
+**Concordancias Legales:** Ley 3.996
+
 renta de los capitales mobiliarios; iii) beneficios de la industria y del comercio; iv)
 beneficios o rentas de explotación minera o metalúrgica; v) sueldos públicos y privados, pensiones y montepíos; y, vi) renta de profesionales y de toda otra ocupación
 lucrativa no contemplada en las otras categorías.
@@ -280,8 +293,16 @@ con el fin, no de discriminar en contra del capital extranjero, sino que
 de compensar aquellos impuestos no pagados en Chile por concepto
 de utilidades remesadas fuera del país y distribuidos en el extranjero,
 
-
 ## 9 En la década de 1920, el doctor Edwin Kemmerer, profesor de Economía de la
+
+**Definición Canónica:** Universidad de Princeton, asesoró la reforma de los sistemas monetarios, bancarios
+y fiscales de Colombia, Chile, Ecuador, Bolivia y Perú, además de los de Sudáfrica,
+Polonia y China. En lo fundamental, sus reformas tenían como objetivo la creación
+de un Banco Central en los respectivos países, dedicado a establecer y mantener el
+régimen de patrón oro, lo que permitiría la estabilidad monetaria y cambiaria. En
+Chile, la denominada Misión Kemmerer enfrentó el más grave de los casos de depreciación monetaria de Sudamérica, ya que por décadas los papeleros, es decir, los
+partidarios de papel mone
+**Concordancias Legales:** artículo 42; artículo 50; Ley 4.113; Ley 4.174; Ley 4.230; Ley 4.265; Ley 4.569; Ley 4.581; Ley 5.872; Ley 5.129; Ley 5.154; Ley 5.169; Ley 5.350; Ley 5.441; Ley 5.512; Ley 6.001; Ley 6.334; Ley 6.457; Ley 8.419; Ley 6.782; Ley 6.915; Ley 7.145; Ley 7.750; Ley 8.087; Ley 8.121
 
 Universidad de Princeton, asesoró la reforma de los sistemas monetarios, bancarios
 y fiscales de Colombia, Chile, Ecuador, Bolivia y Perú, además de los de Sudáfrica,
@@ -367,6 +388,14 @@ de 1944, Ley 8.087 del 9 de febrero de 1945 y Ley 8.121 de 18 de junio de 1945 (
 
 ## 11 La Cámara de origen remitió el proyecto a la Comisión de Hacienda, la que
 
+**Definición Canónica:** presentó su informe en la sesión quincuagésima quinta de 22 de enero de 1963. En
+esta sesión comenzó la discusión en general del proyecto, la que se prolongó además
+a las tres sesiones siguientes. El día 23 de enero de 1963, se envió todo el proyecto
+nuevamente a la Comisión de Hacienda para que emitiera su segundo informe, el
+que fue presentado en sesión sexagésima de 29 de enero de 1963. Ingresado el proyecto a segundo trámite ante el Senado, este fue aprobado en sesión quincuagésima
+quinta de 13 de septiembre de 1963, volviendo a la Cámara de origen. La Cámara de
+origen aceptó solamente alg
+
 presentó su informe en la sesión quincuagésima quinta de 22 de enero de 1963. En
 esta sesión comenzó la discusión en general del proyecto, la que se prolongó además
 a las tres sesiones siguientes. El día 23 de enero de 1963, se envió todo el proyecto
@@ -379,6 +408,9 @@ vigésima de 9 de diciembre de 1963. En sesión trigésima quinta de 20 de dicie
 de 1963, se dio cuenta de las observaciones del ejecutivo, para su posterior promulgación (Leighton Puga, 1966: 38-61; Brahm Moura, 1968: 5-9).
 
 ## 12 El mensaje del ejecutivo señaló: «Como primera medida en orden a simplificar
+
+**Definición Canónica:** y hacer más racional y equitativo el sistema tributario, las actuales seis categorías se
+refunden en solo dos grupos: el Primero, para las rentas que provengan de inversiones o negocios en que se requiera de un capital, y el Segundo, para las rentas derivadas exclusivamente del trabajo» (Pérez Calderón y otros, 1966: 7-10).
 
 y hacer más racional y equitativo el sistema tributario, las actuales seis categorías se
 refunden en solo dos grupos: el Primero, para las rentas que provengan de inversiones o negocios en que se requiera de un capital, y el Segundo, para las rentas derivadas exclusivamente del trabajo» (Pérez Calderón y otros, 1966: 7-10).
@@ -408,8 +440,14 @@ créditos contra el impuesto o exenciones personales; v) había problemas
 para definir las bases imponibles; vi) existía gran cantidad de regímenes
 sustitutivos que implicaba que el régimen general pasaba a ser la excepción y los regímenes de excepción pasaban a ser la regla general; vii)
 
-
 ## 13 Leighton Puga (1966: 62) señala que el modelo que siguió el legislador fue la ley
+
+**Definición Canónica:** norteamericana, cuya incorporación se debió a que antes de La ley 15.564, ciertos ingresos se encontraban libres de impuestos, como por ejemplo, el mayor valor que se
+obtenía en la enajenación de bienes raíces, mientras que respecto de otros se discutía
+si estaban o no gravados, como era el caso del mayor valor en la enajenación de bienes muebles del activo, el derecho de llaves, la indemnización en caso de siniestro,
+etcétera. Algunos opinaban que se encontraban gravados por la amplísima disposición del antiguo artículo14, mientras que otros señalaban que se trataba de ingresos
+carentes de fu
+**Concordancias Legales:** ley 15.564
 
 norteamericana, cuya incorporación se debió a que antes de La ley 15.564, ciertos ingresos se encontraban libres de impuestos, como por ejemplo, el mayor valor que se
 obtenía en la enajenación de bienes raíces, mientras que respecto de otros se discutía
@@ -474,6 +512,15 @@ el mercado financiero de Estados Unidos y revaluaciones significativas de la mon
 
 ## 15 Como consecuencia de la crisis, en noviembre de 1981, la Superintendencia de
 
+**Definición Canónica:** Bancos debió intervenir una serie de instituciones financieras que no contaban con
+capacidad de pago de las deudas que habían contraído, evitando así un colapso del
+sistema bancario. Sin embargo, en 1982 continuaron las presiones del sector empresarial para devaluar el peso, sumado a la insostenibilidad de mantener el tipo de
+cambio fijo, debido a la poca capacidad de pago que mostró el sector financiero y
+lo deprimido del sector exportador. A junio de 1982 la situación económica siguió
+en una profunda crisis, alcanzando la deuda externa un total de 13,5 mil millones
+de dólares, aumentando el 
+**Concordancias Legales:** Ley 1.519; Ley 18.293
+
 Bancos debió intervenir una serie de instituciones financieras que no contaban con
 capacidad de pago de las deudas que habían contraído, evitando así un colapso del
 sistema bancario. Sin embargo, en 1982 continuaron las presiones del sector empresarial para devaluar el peso, sumado a la insostenibilidad de mantener el tipo de
@@ -522,8 +569,10 @@ adicional, dando paso a una amplia integración entre dichos impuestos.
 principios esenciales del actual régimen tributario chileno, esto es, el
 «principio de la integración» de los impuestos,16 en donde el monto pa-
 
-
 ## 16 La referencia al principio de integración lo hacemos con el resguardo de las
+
+**Definición Canónica:** teorías del derecho que han surgido en las últimas décadas sobre lo que debe en-
+**Concordancias Legales:** artículo 14; artículo 34 de la LIR; artículo 14 ter de la LIR; artículo 34; artículo 22; artículos 42; artículo 42; artículo 5 de la LIR; artículo 7 de la LIR; artículo 38 de la LIR; artículo 20 de la LIVS la disposición que reconoce el sistema a; Ley 18.293; Ley 18.985; Ley 20.780; Ley 20.899; Ley 21.210; Ley 19.889; D.L. 825; Constitución
 
 teorías del derecho que han surgido en las últimas décadas sobre lo que debe en-
 
@@ -935,8 +984,11 @@ sujeto, que constituye el sustraendo de la misma operación. El referido
 sustraendo es lo que en Chile constituye el denominado IVA crédito
 fiscal y, en la legislación comparada, se habla de derecho a deducción.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Principales antecedentes y documentos tributarios
+y aduaneros en el régimen fiscal chileno
+**Concordancias Legales:** artículo 21 de la LIR; artículo 58 de la LIR; artículo 42; artículo 14; artículo 14 de la LIR; artículo 17; artículo 33 de la LIR. b; artículo 21 de la Ley sobre Impuesto a la Renta; artículo 17 de la LIR. Las referidas rentas se entenderán re; artículos 42; artículo 20; artículo 54; artículo 42 bis de la LIR y depósitos convenidos. d; artículo 16 del Código Tributario; artículo 21; artículo 17 del Código Tributario indica que; artículos 2; artículo 71; artículos 72; artículo 34 de la Ordenanza de Aduanas; artículo 34; artículos 32; artículo 80 de Ordenanza de Aduanas; artículo 81 de Ordenanza de Aduanas; artículo 34 de Ordenanza de Aduanas; artículo 82 de Ordenanza de Aduanas; artículos 70; artículo 83 de Ordenanza de Aduanas; artículo 92 de Ordenanza de Aduanas; artículo 69 de Ordenanza de Aduanas; artículo 84 de Ordenanza de Aduanas; artículo 92 de la Ordenanza de Aduanas; artículos 92 bis; artículo 92; artículo 2.521 del Código Civil; artículo 35; artículos 109; artículo 107 de Ordenanza de Aduanas; artículo 108; artículo 105
 
 Principales antecedentes y documentos tributarios
 y aduaneros en el régimen fiscal chileno
@@ -1930,8 +1982,11 @@ siempre y cuando:
       el país, maquinarias y herramientas, muestrarios y exposiciones
       nacionales, etcétera).
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Procedimiento general de reclamación ante
+tribunales tributarios y aduaneros
+**Concordancias Legales:** artículo 1 de la Ley 20.322 que solo se limita a delimitar las; artículo 21; artículos 15; artículos 117; artículo 125; artículo 127; artículos 6; artículo 5; artículo 80 de la Constitución Política y también en el artícul; artículos 5; Ley 20.322; Ley 21.210; ley 19.738; DFL 329; constitucion; Constitución Política
 
 Procedimiento general de reclamación ante
 tribunales tributarios y aduaneros
@@ -2151,6 +2206,15 @@ se judicialicen, innecesariamente, para privilegiar el conocimiento por
 
 ## parte del Tribunal de las controversias de superior relevancia jurídica o
 
+**Definición Canónica:** patrimonial.
+    c) Eficiencia y rapidez. Se trata de asegurar a los litigantes igualdad
+de armas, resoluciones fundadas y la posibilidad de que estas sean revisadas por las Cortes de Apelaciones con plazos ciertos de tramitación
+fijados por la ley.
+    d) Debido proceso y principio de legalidad. La creación de estos nuevos Tribunales (TTA) da cumplimiento a una obligación de derecho internacional contraída por Chile mediante el Pacto de San José de Costa
+Rica de 1969, en vigor en Chile mediante Decreto 873 del año 1991, que
+establece que «toda persona tiene derecho a ser oída, con las debidas
+**Concordancias Legales:** artículo 161; artículo 165; artículos 186; artículo 1 de la Ley 20.322; Ley 20.322; ley 19.882; Ley 18.834
+
 patrimonial.
     c) Eficiencia y rapidez. Se trata de asegurar a los litigantes igualdad
 de armas, resoluciones fundadas y la posibilidad de que estas sean revisadas por las Cortes de Apelaciones con plazos ciertos de tramitación
@@ -2248,10 +2312,19 @@ Materiales Docentes                                                      Capítu
 
   La citada disposición establece la competencia de los Tribunales Tributarios y Aduaneros para:
 
-
 ## 8. Conocer y declarar, a petición de parte, la nulidad de los actos admi-
 
-      nistrativos que sean materia de una reclamación tributaria o aduanera.
+**Definición Canónica:** nistrativos que sean materia de una reclamación tributaria o aduanera.
+      Para estos efectos, el vicio deberá hacerse presente o alegarse en la recla-
+      mación respectiva.
+       Los vicios de procedimiento o de forma sólo afectarán la validez del
+      acto administrativo materia del reclamo tributario o aduanero cuando
+      recaigan en algún requisito esencial del mismo, sea por su naturaleza o
+      por mandato del ordenamiento jurídico y generen perjuicio al interesa-
+      do.
+**Concordancias Legales:** artículo 3 de la Ley 20.322; artículo 117 de la Ordenanza de Aduanas; artículo 21; artículos 195; artículos 199; Ley 20.322; DFL 329
+
+nistrativos que sean materia de una reclamación tributaria o aduanera.
       Para estos efectos, el vicio deberá hacerse presente o alegarse en la recla-
       mación respectiva.
        Los vicios de procedimiento o de forma sólo afectarán la validez del
@@ -2281,19 +2354,22 @@ Tributarios y Aduaneros tienen competencia para conocer de las reclamaciones en 
 Academia Judicial de Chile                                        Rol probatorio
 Materiales Docentes                                                   Capítulo 3
 
-
-## 1. Liquidaciones, cargos y actuaciones que sirvan de base para la fija-
-
-      ción del monto o determinación de diferencias de derechos, impuestos,
-      tasas o gravámenes.
-
-## 2. Clasificación y/o valoración aduanera de las declaraciones de expor-
-
-      tación, practicada por el Servicio de Aduanas.
-
 ## 3. Actos o resoluciones que denieguen total o parcialmente las solici-
 
-      tudes efectuadas en conformidad a los artículos 130 y siguientes de la
+**Definición Canónica:** tudes efectuadas en conformidad a los artículos 130 y siguientes de la
+      Ordenanza.
+       4. Las demás que establezca la ley, que son:
+       a. La cancelación de la habilitación de almacenista dispuesta por el Di-
+      rector Nacional de Aduanas del artículo 56 de la Ordenanza.
+       b. El procedimiento de vulneración de derechos del artículo 129 K y
+      siguientes de la Ordenanza.
+       c. El procedimiento infraccional de reclamo por multas del artículo 186
+      y 186 bis de la Ordenanza.
+       d. El procedimiento infraccional por multas del artículo 187 y 186 bis
+      de la Ord
+**Concordancias Legales:** artículos 130; artículo 56 de la Ordenanza. b. El procedimiento de vuln; artículo 129; artículo 186; artículo 187; artículo 199 de la Ordenanza. f. El procedimiento de recl; artículo 202 de la Ordenanza. Cabe hacer presente que el TTA; artículos 195; artículos 199; artículo 115 del Código Tributario; artículo 115 del Código Tributario establece las siguientes Ex; artículo 160 bis del Código Tributario y de la determinación y apl; artículo 100 bis; artículos 168; artículo 1; artículos 56; artículos 62; artículo 126 del Código Tributario. Sin embargo; artículo 155 del Código Tributario; artículo 41; artículos 7; artículo 8 del Pacto de San José de Costa Rica de 1969. S; artículos 115; artículos 117; artículo 3 de la Ley 19.880; artículo 38 del Código de Procedimiento Civil; artículo 55 del CPC. b; artículo 182 del CPC; artículo 138 del Código Tributario y artículo 129 C de la Orde; artículos 133; artículos 129; artículo 120 de la Ordenanza de Aduanas y artículo 148 del Códig; artículos 151; artículos 186 bis; artículo 252; artículo 3; artículos 10; artículos 3; artículos 38; artículo 41 del Código de Procedimiento Civil
+
+tudes efectuadas en conformidad a los artículos 130 y siguientes de la
       Ordenanza.
        4. Las demás que establezca la ley, que son:
        a. La cancelación de la habilitación de almacenista dispuesta por el Di-
@@ -2795,25 +2871,29 @@ y feriados.
 Academia Judicial de Chile                                                                            Rol probatorio
 Materiales Docentes                                                                                       Capítulo 3
 
-
 ## Aduanas: etapa judicial
 
-
-                                        Plazo para reclamar:
+**Definición Canónica:** Plazo para reclamar:
     Notificación del Acto           90 días hábiles judiciales (de
                                     lunes a sábado, excluyendo           Presentación reclamo TTA
   Administrativo Reclamable
                                         domingo y festivos)
 
-
-## Día 0            día 15                                     día 65                 día 90
-
-
+Plazo para reclamar:
+    Notificación del Acto           90 días hábiles judiciales (de
+                                    lunes a sábado, excluyendo           Presentación reclamo TTA
+  Administrativo Reclamable
+                                        domingo y festivos)
 
 ## Aduanas: etapa administrativa
 
+**Definición Canónica:** Plazo de Reposición        Silencio Administrativo       RAV no suspende
+     Notificación del             Administrativa                 Negativo:              plazo del reclamo
+   Acto Administrativo          Voluntaria: 15 días           50 días hábiles             hasta 90 días
+       Reclamable             hábiles administrativos         administrativos          de silencio negativo
+**Concordancias Legales:** artículo 10 del Código Tributario; artículo 10; artículo 25; artículos 10; artículo 25 de la Ley 19.880; artículo 25 de la Ley 19.880. Sin embargo; artículos 151; artículos 3; artículo 124 del Código Tributario; artículo 123 bis del Código Tributario. En este caso el plazo de d; artículo 25 de la Ley 19.880. Como se puede observar; Ley 19.880
 
-                               Plazo de Reposición        Silencio Administrativo       RAV no suspende
+Plazo de Reposición        Silencio Administrativo       RAV no suspende
      Notificación del             Administrativa                 Negativo:              plazo del reclamo
    Acto Administrativo          Voluntaria: 15 días           50 días hábiles             hasta 90 días
        Reclamable             hábiles administrativos         administrativos          de silencio negativo
@@ -2886,22 +2966,27 @@ del término de 30 días para deducir en la Reposición administrativa voluntari
 
 ## Sii: etapa judicial
 
-
-                                         Plazo para reclamar:
+**Definición Canónica:** Plazo para reclamar:
      Notificación del Acto           90 días hábiles judiciales (de
                                      lunes a sábado, excluyendo           Presentación reclamo TTA
    Administrativo Reclamable
                                          domingo y festivos)
 
-
-## Día 0            día 15                                      día 65                 día 90
-
-
+Plazo para reclamar:
+     Notificación del Acto           90 días hábiles judiciales (de
+                                     lunes a sábado, excluyendo           Presentación reclamo TTA
+   Administrativo Reclamable
+                                         domingo y festivos)
 
 ## Sii: etapa administrativa
 
+**Definición Canónica:** Plazo de Reposición        Silencio Administrativo       RAV sí suspende
+     Notificación del              Administrativa                 Negativo:              plazo del reclamo
+   Acto Administrativo           Voluntaria: 30 días           90 días hábiles             hasta 90 días
+       Reclamable              hábiles administrativos         administrativos          de silencio negativo
+**Concordancias Legales:** artículos 69; artículos 174; artículos 92 bis; artículo 92 de la Ordenanza resultan mayores gravámenes que los; artículo 2.521 del Código Civil; artículos 130; artículo 117 de la Ordenanza; artículo 199 de la Ordenanza. e; artículo 33 bis; artículo 6; artículos 23; artículos 149; artículos 155; artículo 161 del Código Tributario e; Ley 20.322; Ley 18.634; D.L. 825
 
-                                Plazo de Reposición        Silencio Administrativo       RAV sí suspende
+Plazo de Reposición        Silencio Administrativo       RAV sí suspende
      Notificación del              Administrativa                 Negativo:              plazo del reclamo
    Acto Administrativo           Voluntaria: 30 días           90 días hábiles             hasta 90 días
        Reclamable              hábiles administrativos         administrativos          de silencio negativo
@@ -3047,7 +3132,11 @@ Código Tributario
 
 ## 165 Código Tributario
 
-   f) Procedimiento especial de autorización judicial para levantamiento reserva o secreto de información bancaria (artículos 62 y 62 bis Código Tributario)
+**Definición Canónica:** f) Procedimiento especial de autorización judicial para levantamiento reserva o secreto de información bancaria (artículos 62 y 62 bis Código Tributario)
+   g) Procedimiento especial de declaración judicial del abuso o simulación y aplicación de multa respectiva (artículo 160 bis Código Tributario)
+**Concordancias Legales:** artículos 62; artículo 160 bis; artículos 117; artículos 124; artículo 117; artículos 130; artículo 126 del CT g; artículo 120 de la Ordenanza de Aduanas y artículo 148 del Códig; artículo 1; artículo 252; artículos 1; artículos 4; artículos 17; artículos 29; artículos 38; artículos 59; artículos 78; artículos 82; artículos 92; artículos 101; artículos 113; artículos 129; artículos 138; artículos 148; artículos 152; artículos 158; artículos 186; artículos 231; artículos 252; artículo 3 del Código de Procedimiento Civil; artículos 253; artículos 262; artículos 269; artículos 273; artículos 290; artículos 303; artículos 309; artículos 314; artículos 318; artículos 327
+
+f) Procedimiento especial de autorización judicial para levantamiento reserva o secreto de información bancaria (artículos 62 y 62 bis Código Tributario)
    g) Procedimiento especial de declaración judicial del abuso o simulación y aplicación de multa respectiva (artículo 160 bis Código Tributario)
 
 Procedimiento general de reclamación
@@ -3393,6 +3482,9 @@ en los siguientes casos:
 importante de la presentación del reclamo es que conforme al artículo
 
 ## 129 J de la Ordenanza de Aduanas, se suspende la prescripción de tres
+
+**Definición Canónica:** años a favor o en contra del Fisco de toda clase de impuestos dispuesta
+**Concordancias Legales:** artículo 2521 del Código Civil; artículos 186; artículo 24 del Código Tributario; artículo 132 del Código Tributario; artículo 132 ter del Código Tributario; artículo 132 del Código Tributario y artículo 128 del Código T; artículo 128 de la Ordenanza y 132 del Código Tributario; artículo 128 de la Ordenanza y artículo 132 del Código Tributari; artículo 327 del CPC. En consecuencia; artículo 129 de la Ordenanza y artículo 133 del Código Tributari; artículo 326 del Código de Procedimiento Civil; artículo 320 del Código de Procedimiento Civil; artículo 69 de la Ordenanza de Aduanas; artículo 17 del Acuerdo relativo a la Aplicación del Artículo; artículo 1.698 del Código Civil; artículo 21 del Código Tributario; artículo 132 del Código Tributario modificado por la Ley 21.21; artículo 3 del Código de Procedimiento Civil; artículo 120 de la Ordenanza de Aduanas y artículo 148 del Códig; artículos 318; artículos 327; artículos 341; artículos 342; artículos 356; artículos 385; artículos 403; artículos 9; artículos 426; artículo 348; artículo 385; artículo 128 de la Ordenanza y 132 del Código Tributario que dis; artículo 339 del Código de Procedimiento Civil; artículo 128; artículo 7 del Acuerdo General sobre Aranceles Aduane; artículo 5 de la Ley 18.525 y Decreto Supremo de Haciend; artículo 1701 del Código Civil; artículo 159 del CPC; artículo 1700 del Código Civil; artículo 1699 del Código Civil; artículos 1701
 
 años a favor o en contra del Fisco de toda clase de impuestos dispuesta
 

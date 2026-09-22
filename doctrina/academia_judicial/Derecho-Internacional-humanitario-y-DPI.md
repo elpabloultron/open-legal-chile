@@ -13,19 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Penal | **Materia:** Penal
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Derecho
+             Humanitario
+                y el Derecho
+                Penal
 
-             Derecho
+Derecho
              Humanitario
                 y el Derecho
                 Penal
@@ -36,19 +31,14 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Regina
+                               Díaz
+                               Tolosa
+Academia                 Doctora enderecho por la Pontificia Uni-
 
-                          Regina
+Regina
                                Díaz
                                Tolosa
 Academia                 Doctora enderecho por la Pontificia Uni-
@@ -71,13 +61,11 @@ docente Nº 21            derecho público, especialmente en el
 Santiago,                ámbito del Derecho Internacional de los
 Chile 2021               Derechos Humanos.
 
-
-## Isbn n°
-
-
 ## 2022-a-1839
 
-Derecho Internacional                                                                                             3
+**Definición Canónica:** Derecho Internacional                                                                                             3
+
+Derecho Internacional                                                                                             3
 
                                         Resumen
 
@@ -108,221 +96,21 @@ Chile 2021               Derechos Humanos.
 
                                         Introducción                                                                6
 
-
-## 1. El Derecho Internacional Humanitario (DIH)                                9
-
-
-
-## 1.1 Nociones básicas sobre el DIH                                         10
-
-
-
-## 1.1.1   Concepto                                                     10
-
-
-
-## 1.1.2   Objetivos                                                    11
-
-
-
-## 1.1.3   Orígenes del Derecho Humanitario                             13
-
-
-
-## 1.2 Principales fuentes normativas del DIH                                15
-
-
-
-## 1.2.1   Convenios de Ginebra de 1949                                 15
-
-
-
-## 1.2.2   Protocolos adicionales                                       18
-
-
-
-## 1.2.3   Otras normas especiales                                      19
-
-
-
-## 1.3 Principios del DIH y de la Cruz Roja                                  23
-
-
-
-## 1.3.1   Principios de los Convenios de Ginebra (artículos comunes)   24
-
-
-
-## 1.3.2   Principios fundamentales de la Cruz Roja                     38
-
-
-
-## 1.4 Ámbitos de aplicación                                                 47
-
-
-
-## 1.4.1   Conflicto armado internacional                               48
-
-
-
-## 1.4.2   Conflicto armado no internacional                            49
-
-
-
-## 1.5 Medios de aplicación                                                  59
-
-
-
-## 1.5.1   Medios preventivos                                           60
-
-
-
-## 1.5.2   Medios de control                                            61
-
-
-
-## 1.5.3   Medios represivos                                            62
-
-
-
-## 1.6 Relaciones con el Derecho Internacional de los Derechos Humanos       67
-
-
-
-## 2. El Derecho Penal Internacional (DPI)                                     72
-
-
-
-## 2.1 Nociones básicas del DPI                                              73
-
-
-
-## 2.1.1   Concepto                                                     73
-
-
-
-## 2.1.2   Características                                              75
-
-
-
-## 2.1.3   Desafíos                                                     77
-
- Derecho Internacional                                                                                                                                       5
-
-
-## 2.2 Los principios de legalidad y de tipicidad                                                          81
-
-
-
-## 2.3 Tipificación de los crímenes en el Derecho Penal Internacional                                      89
-
-
-
-## 2.4 Formas de responsabilidad penal internacional del individuo e inmunidad soberana                    99
-
-
-
-## 2.5 Jurisdicción universal y tribunales penales internacionales                                        108
-
-
-
-## 2.5.1   La jurisdicción internacional                                                             108
-
-
-
-## 2.5.2   La máxima aut dedere, aut judicare                                                        116
-
-
-
-## 2.5.3   La jurisdicción penal internacional                                                       122
-
-
-
 ## 2.6 Relaciones con el Derecho Internacional Humanitario y el Derecho Internacional de los
 
-                                                    Derechos Humanos                                                                                   126
+**Definición Canónica:** Derechos Humanos                                                                                   126
+
+Derechos Humanos                                                                                   126
 
 3.                                              Relaciones entre el derecho interno y el derecho internacional                                         129
 
-
-## 3.1 Recepción, aplicación y jerarquía de los tratados internacionales en el derecho chileno            130
-
-
-
-## 3.1.1   Teorías que explican las relaciones entre el derecho internacional y el derecho interno   130
-
-
-
-## 3.1.2   Recepción de las normas internacionales en el ordenamiento jurídico chileno               135
-
-
-3.2                                                  Las normas de ius cogens y el orden público internacional                                         147
-
-
-## 3.3 Responsabilidad internacional estatal por incumplimiento de obligaciones internacionales           156
-
-
-
-## 3.3.1   El hecho internacionalmente ilícito                                                       157
-
-
-
-## 3.3.2   La responsabilidad internacional                                                          160
-
-
-
-## 3.4 Rol de las jurisdicciones nacionales en el cumplimiento de las obligaciones internacionales        165
-
-
-
-## 4. Aplicación en Chile del DIH y el DPI                                                                   171
-
-
-
-## 4.1 La aplicación en Chile de los Convenios de Ginebra                                                 172
-
-
-
-## 4.1.1   Evolución jurisprudencial en el ámbito de la responsabilidad penal                        172
-
-
-
-## 4.1.2   Evolución jurisprudencial en el ámbito de la responsabilidad civil                        176
-
-
-
-## 4.2 Ratificación del Estatuto de Roma en Chile: reconocimiento de una jurisdicción supranacional       186
-
-
-
-## 4.3 Crímenes de ius cogens en los tribunales de justicia chilenos                                      191
-
-
-
-## 4.3.1   Imprescriptibilidad de la acción penal para perseguir crímenes de ius cogens              191
-
-
-
-## 4.3.2   Aplicación de la media de prescripción o prescripción incompleta                          195
-
-
-
-## 4.4 Rol del sistema judicial chileno en la aplicación de sanciones penales internacionales             198
-
-
-
-## 4.4.1   La inaplicabilidad judicial del Decreto ley 2191                                          199
-
-
-
-## 4.4.2   La indemnización civil como forma de reparación a las víctimas o sus familiares           203
-
-
-
 ## 4.4.3   La revisión de las sentencias de los consejos de guerra                                   206
 
+**Definición Canónica:** Bibliografía                                                                                              210
+Derecho Internacional                                                                                                                              6
+**Concordancias Legales:** artículo 3
 
-                                             Bibliografía                                                                                              210
+Bibliografía                                                                                              210
 Derecho Internacional                                                                                                                              6
 
                                                                               Introducción
@@ -447,17 +235,25 @@ Humanitario y el                                               y el derecho inte
 
 ## (dih)
 
-Derecho Internacional                                                                   1. El Derecho Internacional                                            10
+**Definición Canónica:** Derecho Internacional                                                                   1. El Derecho Internacional                                            10
+Humanitario y el                                                                           Humanitario (DIH)
+
+Derecho Internacional                                                                   1. El Derecho Internacional                                            10
 Humanitario y el                                                                           Humanitario (DIH)
 
                                                                                           Nociones básicas
 
                                                                       1.1                 sobre el DIH
 
-
 ## 1.1.1 Concepto
 
-                                                                                        Para desentrañar su contenido, acudamos al significado de las palabras.
+**Definición Canónica:** Para desentrañar su contenido, acudamos al significado de las palabras.
+                                                                                        “Humano” se dice de un hombre que es bueno para sus semejantes.
+                                                      Podemos                           La “humanidad” es un sentimiento de benevolencia activa hacia
+                                                      conceptualizar                    los hombres. El “humanitarismo”, por su parte, es esa actitud de
+                                                      el Derecho         
+
+Para desentrañar su contenido, acudamos al significado de las palabras.
                                                                                         “Humano” se dice de un hombre que es bueno para sus semejantes.
                                                       Podemos                           La “humanidad” es un sentimiento de benevolencia activa hacia
                                                       conceptualizar                    los hombres. El “humanitarismo”, por su parte, es esa actitud de
@@ -500,10 +296,15 @@ Humanitario y el                                                                
                                                                                         la persona humana en los conflictos armados, internacionales o
                                                                                         no.
 
-
 ## 1.1.2 Objetivos
 
-                                                                                        En tiempo de conflicto armado, su propósito es proteger a las per-
+**Definición Canónica:** En tiempo de conflicto armado, su propósito es proteger a las per-
+                                                                                        sonas y a los bienes que se ven –o puedan verse– afectados por un
+                                                                                        conflicto armado y limitar el derecho de las partes en conflicto, por
+                                                                                        razones humanitarias, a elegir los medios y métodos de guerra. De
+                                                                   
+
+En tiempo de conflicto armado, su propósito es proteger a las per-
                                                                                         sonas y a los bienes que se ven –o puedan verse– afectados por un
                                                                                         conflicto armado y limitar el derecho de las partes en conflicto, por
                                                                                         razones humanitarias, a elegir los medios y métodos de guerra. De
@@ -594,10 +395,11 @@ Humanitario y el                                                                
                                                                                                 náufragos, prisioneros de guerra y civiles, y ii) limitar los métodos y
                                                                                                 medios de hacer la guerra.12
 
-
 ## 1.1.3 Orígenes del Derecho Humanitario
 
-                                                                                                El Derecho Humanitario existe como derecho consuetudinario desde
+**Definición Canónica:** El Derecho Humanitario existe como derecho consuetudinario desde
+
+El Derecho Humanitario existe como derecho consuetudinario desde
 
                                                                                                 el siglo XVI y recién en el siglo XIX surge como derecho conven-
                                                                                                 cional, siendo fundamental en la discusión y creación de acuerdos
@@ -660,15 +462,13 @@ Humanitario y el                                                                
 Derecho Internacional                                                                        1. El Derecho Internacional                                                    15
 Humanitario y el                                                                                Humanitario (DIH)
 
-
-## 1.2                Principales fuentes
-
-                                                                                                normativas del DIH
-
-
 ## 1.2.1 Convenios de Ginebra de 1949
 
-                                                                                               Los Convenios de Ginebra son cuatro y cada uno de ellos versa sobre
+**Definición Canónica:** Los Convenios de Ginebra son cuatro y cada uno de ellos versa sobre
+                                                                                               una temática específica. Sancionados en 1949 bajo su denominación ac-
+                                                                                               tual, se fueron gestando de manera correlativa con mucha anterioridad.
+
+Los Convenios de Ginebra son cuatro y cada uno de ellos versa sobre
                                                                                                una temática específica. Sancionados en 1949 bajo su denominación ac-
                                                                                                tual, se fueron gestando de manera correlativa con mucha anterioridad.
 
@@ -701,7 +501,13 @@ Humanitario y el                                                                
 
 ## 19       COMITÉ INTERNACIONAL DE LA CROIX-ROUGE (1972), p. 5. Agrega que este Comité “es el órgano fundador
 
-                                                               de la Cruz Roja y el promotor de los Convenios de Ginebra. A partir de 1880, tomará el nombre de Comité
+**Definición Canónica:** de la Cruz Roja y el promotor de los Convenios de Ginebra. A partir de 1880, tomará el nombre de Comité
+                                                               Internacional de la Cruz Roja”.
+                                                      20       PASQUIER (1985), p. 43.
+                                                      21       COMITÉ INTERNACIONAL DE LA CROIX-ROUGE (1972), p. 6.
+                                                      22       COURSIER (1962), p. 4.
+
+de la Cruz Roja y el promotor de los Convenios de Ginebra. A partir de 1880, tomará el nombre de Comité
                                                                Internacional de la Cruz Roja”.
                                                       20       PASQUIER (1985), p. 43.
                                                       21       COMITÉ INTERNACIONAL DE LA CROIX-ROUGE (1972), p. 6.
@@ -784,10 +590,15 @@ Humanitario y el                                                                
                                                                                             completados, teniendo en cuenta lo que las experiencias adquiridas
                                                                                             en dos guerras mundiales permitían estipular a favor de los heri-
 
-
 ## 28 De acuerdo con SCHINDLER (1999), pp. 715-728, “en aquella época prevalecía la creencia de que la Liga de
 
-                                                           las Naciones había traído al mundo una paz permanente. Debido a dicha creencia se descartó cualquier con-
+**Definición Canónica:** las Naciones había traído al mundo una paz permanente. Debido a dicha creencia se descartó cualquier con-
+                                                           sideración relativa a la elaboración de nuevos convenios sobre la guerra. Así pues, no fue hasta 1929 que se
+                                                           aprobaron dos nuevos convenios, uno sobre los heridos y los enfermos y el otro sobre prisioneros de guerra.
+                                                           Con todo, un tercer convenio, quizás el más urgente, relacionado con la protección de los civiles, s
+**Concordancias Legales:** artículo 3
+
+las Naciones había traído al mundo una paz permanente. Debido a dicha creencia se descartó cualquier con-
                                                            sideración relativa a la elaboración de nuevos convenios sobre la guerra. Así pues, no fue hasta 1929 que se
                                                            aprobaron dos nuevos convenios, uno sobre los heridos y los enfermos y el otro sobre prisioneros de guerra.
                                                            Con todo, un tercer convenio, quizás el más urgente, relacionado con la protección de los civiles, se topó con la
@@ -823,10 +634,14 @@ Humanitario y el                                                                
                                                                                         3º, que pretendía someter al derecho internacional un fenómeno
                                                                                         de carácter nacional.35
 
-
 ## 1.2.2 Protocolos adicionales
 
-                                                                                       A partir de 1949, los numerosos conflictos armados internos y las gue-
+**Definición Canónica:** A partir de 1949, los numerosos conflictos armados internos y las gue-
+                                                                                       rras de liberación en África, Asia, Oriente Medio o Europa motivaron
+                                                                                       la elaboración de Protocolos adicionales y su aprobación en 1977.36
+**Concordancias Legales:** artículo 3
+
+A partir de 1949, los numerosos conflictos armados internos y las gue-
                                                                                        rras de liberación en África, Asia, Oriente Medio o Europa motivaron
                                                                                        la elaboración de Protocolos adicionales y su aprobación en 1977.36
 
@@ -864,10 +679,15 @@ Humanitario y el                                                                
                                                                                           común a los cuatro Convenios de Ginebra, que a este respecto
                                                                                           resulta de una insuficiencia evidente.40
 
-
 ## 1.2.3 Otras normas especiales
 
-                                                                                         Entre los Convenios de Ginebra y sus Protocolos Adicionales, la
+**Definición Canónica:** Entre los Convenios de Ginebra y sus Protocolos Adicionales, la
+                                                                                         Organización de las Naciones Unidas aprobó algunos tratados sobre
+                                                                                         cuestiones relativas a la conducción de la guerra, en particular la
+                                                                                         Convención sobre la Prohibición de utilizar técnicas de modifica-
+                                                                     
+
+Entre los Convenios de Ginebra y sus Protocolos Adicionales, la
                                                                                          Organización de las Naciones Unidas aprobó algunos tratados sobre
                                                                                          cuestiones relativas a la conducción de la guerra, en particular la
                                                                                          Convención sobre la Prohibición de utilizar técnicas de modifica-
@@ -939,32 +759,11 @@ Humanitario y el                                                                
                                                                                                cho Internacional Humanitario que versan sobre temáticas
                                                                                                específicas:
 
-
-## 1954 Convención de La Haya para la protección de los bienes culturales en caso
-
-                                                                                              de conflicto armado. Y Primer Protocolo de la Convención anexo (Segundo
-                                                                                              Protocolo vid. año 1999).
-
-
-## 1968 Convención sobre la imprescriptibilidad de los crímenes de guerra y de los
-
-                                                                                              crímenes de lesa humanidad.
-
-
-## 1972 Convención sobre la prohibición del desarrollo, la producción y el almacena-
-
-                                                                                              miento de armas bacteriológicas (biológicas) y tóxicas y sobre su destrucción.
-
-
-## 1974 Declaración sobre la protección de la mujer y el niño en estados de emer-
-
-                                                                                              gencia o de conflicto armado.48
-
-
 ## 1976 Convención sobre la prohibición de utilizar técnicas de modificación am-
 
+**Definición Canónica:** biental con fines militares u otros fines hostiles.
 
-                                                                                              biental con fines militares u otros fines hostiles.
+biental con fines militares u otros fines hostiles.
 
                                                                                                Convención sobre prohibiciones o restricciones del empleo de ciertas armas
                                                                                                convencionales que puedan considerarse excesivamente nocivas o de efec-
@@ -973,38 +772,19 @@ Humanitario y el                                                                
                                                                                                armas trampa y otros artefactos; Protocolo III sobre prohibiciones o restric-
                                                                                                ciones del empleo de armas incendiarias.
 
-
-## 1989 Convención internacional contra el reclutamiento, la utilización, la financia-
-
-                                                                                              ción y el entrenamiento de mercenarios.
-
-
-## 1993 Convención sobre la prohibición del desarrollo, la producción, el almacena-
-
-                                                                                              miento y el empleo de armas químicas y sobre su destrucción.
-
-
-## 1995 Protocolo sobre armas láser cegadoras (Protocolo IV de la Convención
-
-                                                                                              de 1980).
-
-
-## 1996 Protocolo enmendado sobre prohibiciones o restricciones del empleo de
-
-                                                                                              minas, armas trampa y otros artefactos (Protocolo II enmendado de la Con-
-                                                                                              vención de 1980).
-
-
 ## 1997 Convención sobre la prohibición del empleo, almacenamiento, producción y
 
-                                                                                              transferencia de minas antipersonales y sobre su destrucción.
+**Definición Canónica:** transferencia de minas antipersonales y sobre su destrucción.
+
+transferencia de minas antipersonales y sobre su destrucción.
 
                                                                                         1998 Estatuto de Roma de la Corte Penal Internacional.
 
-
 ## 1999 Segundo Protocolo de la Convención de la Haya para la protección de los
 
-                                                                                              bienes culturales en caso de conflicto armado.
+**Definición Canónica:** bienes culturales en caso de conflicto armado.
+
+bienes culturales en caso de conflicto armado.
 
                                                                                                Protocolo facultativo a la Convención sobre los derechos del niño, sobre la
                                                                                                participación de los niños en los conflictos armados.
@@ -1034,10 +814,11 @@ Humanitario y el                                                                
 Derecho Internacional                                                                   1. El Derecho Internacional                                            23
 Humanitario y el                                                                           Humanitario (DIH)
 
-
 ## 1.3             Principios del DIH y
 
-                                                                                           de la Cruz Roja
+**Definición Canónica:** de la Cruz Roja
+
+de la Cruz Roja
 
                                                                                           En el derecho de gentes se distinguen reglas que son objeto de tex-
                                                                                           tos precisos, de un carácter obligatorio y en virtud de las cuales los
@@ -1093,10 +874,15 @@ Humanitario y el                                                                
                                                                                                la costumbre de los pueblos, como más adelante desarrollaremos al
                                                                                                hablar de la naturaleza universal del Derecho Humanitario.55
 
-
 ## 1.3.1 Principios de los Convenios de
 
-                                                                                               Ginebra (artículos comunes)
+**Definición Canónica:** Ginebra (artículos comunes)
+                                                                                               Los principios de los Convenios de Ginebra no residen solo en las
+                                                                                               frases del preámbulo, sino también en la tradición humanitaria de la
+                                                                                               que Henry Dunant se hizo el intérprete; por ejemplo, que “las nacio-
+                                                                                   
+
+Ginebra (artículos comunes)
                                                                                                Los principios de los Convenios de Ginebra no residen solo en las
                                                                                                frases del preámbulo, sino también en la tradición humanitaria de la
                                                                                                que Henry Dunant se hizo el intérprete; por ejemplo, que “las nacio-
@@ -1154,10 +940,13 @@ Humanitario y el                                                                
                                                                                    lugar hace que se les pueda considerar, hasta cierto punto, como si
                                                                                    hicieran oficio de preámbulo de estos Convenios.59
 
-
 ## 1.3.1.1 Artículo primero: imperativo de civilización
 
-                                                                                   Su primer artículo dispone: “Las Altas Partes contratantes se
+**Definición Canónica:** Su primer artículo dispone: “Las Altas Partes contratantes se
+                                                                                   comprometen a respetar y hacer respetar el presente Convenio en
+                                                                                   toda circunstancia”.
+
+Su primer artículo dispone: “Las Altas Partes contratantes se
                                                                                    comprometen a respetar y hacer respetar el presente Convenio en
                                                                                    toda circunstancia”.
 
@@ -1177,10 +966,14 @@ Humanitario y el                                                                
                                                                                                Convenio (neutrales, aliadas o enemigas) pueden y deben esforzarse
                                                                                                por volverla a llevar hacia el respeto de sus compromisos.60
 
-
 ## 1.3.1.2 Artículo segundo: principio de reciprocidad
 
-                                                                                               El texto, en su párrafo 3º, señala: “Si una de las Potencias contendien-
+**Definición Canónica:** El texto, en su párrafo 3º, señala: “Si una de las Potencias contendien-
+                                                                                               tes no es parte en el presente Convenio, las Potencias que son partes
+                                                                                               en el mismo quedarán, sin embargo, obligadas por él en sus relaciones
+                                                                                               recíprocas. Estarán además obligadas por el Convenio respecto a dicha
+
+El texto, en su párrafo 3º, señala: “Si una de las Potencias contendien-
                                                                                                tes no es parte en el presente Convenio, las Potencias que son partes
                                                                                                en el mismo quedarán, sin embargo, obligadas por él en sus relaciones
                                                                                                recíprocas. Estarán además obligadas por el Convenio respecto a dicha
@@ -1196,10 +989,16 @@ Humanitario y el                                                                
                                                                                                Convenio, lo que no puede tener otra consecuencia sino la de hacer
                                                                                                obrar de la mismaforma a la parte enemiga.62
 
-
 ## 1.3.1.3 Artículo tercero: principio de humanidad
 
-                                                                                               Este artículo plasma el principio más fundamental del Derecho
+**Definición Canónica:** Este artículo plasma el principio más fundamental del Derecho
+                                                                                               Humanitario, el de humanidad, consagrando la necesidad de un
+                                                                                               mínimo de trato humanitario, incluso en caso de guerra, pues jamás
+                                                                                               se debe olvidar que “las exigencias militares y el mantenimiento
+                                                            
+**Concordancias Legales:** Artículo 11 del Convenio III de La Haya de 1899; artículo 3
+
+Este artículo plasma el principio más fundamental del Derecho
                                                                                                Humanitario, el de humanidad, consagrando la necesidad de un
                                                                                                mínimo de trato humanitario, incluso en caso de guerra, pues jamás
                                                                                                se debe olvidar que “las exigencias militares y el mantenimiento
@@ -1345,7 +1144,13 @@ Humanitario y el                                                                
 
 ## 70 Ius cogens son las normas imperativas de derecho internacional generalmente conocidas, es decir, aquellas
 
-                                                           aceptadas y reconocidas por la comunidad internacional de los Estados en su conjunto como normas que no
+**Definición Canónica:** aceptadas y reconocidas por la comunidad internacional de los Estados en su conjunto como normas que no
+                                                           admiten acuerdo en contrario y que solo pueden ser modificadas por una norma ulterior de derecho interna-
+                                                           cional general que tenga el mismo carácter (artículo 53 de la Convención de Viena, de 1969, sobre Derecho de
+                                                           los Tratados; promulgada en Chile por Decreto Nº 381 de 1981 y publicada en el Diario Oficial de 22 de j
+**Concordancias Legales:** artículo 53 de la Convención de Viena
+
+aceptadas y reconocidas por la comunidad internacional de los Estados en su conjunto como normas que no
                                                            admiten acuerdo en contrario y que solo pueden ser modificadas por una norma ulterior de derecho interna-
                                                            cional general que tenga el mismo carácter (artículo 53 de la Convención de Viena, de 1969, sobre Derecho de
                                                            los Tratados; promulgada en Chile por Decreto Nº 381 de 1981 y publicada en el Diario Oficial de 22 de junio
@@ -1357,10 +1162,14 @@ Humanitario y el                                                                
 Derecho Internacional                                                                    1. El Derecho Internacional                                            30
 Humanitario y el                                                                            Humanitario (DIH)
 
-
 ## 1.3.1.4 Artículo octavo: control de
 
-                                                                                           las potencias protectoras
+**Definición Canónica:** las potencias protectoras
+                                                                                           Se debe precisar que, en el caso del Convenio IV, esta disposición
+                                                                                           corresponde al artículo 9º del mismo:
+**Concordancias Legales:** artículo 9; artículo 126; artículo 10
+
+las potencias protectoras
                                                                                            Se debe precisar que, en el caso del Convenio IV, esta disposición
                                                                                            corresponde al artículo 9º del mismo:
 
@@ -1426,10 +1235,14 @@ Humanitario y el                                                                
                                                                                 lo menos aceptar, que un organismo humanitario, tal como el CICR,
                                                                                 ejerza las tareas humanitarias atribuidas a la Potencia protectora.77
 
-
 ## 1.3.1.5 Artículo 11: conciliación facultativa
 
-                                                                                Cabe precisar que este artículo corresponde al 12 en el IV Convenio,
+**Definición Canónica:** Cabe precisar que este artículo corresponde al 12 en el IV Convenio,
+                                                                                y se refiere al procedimiento facultativo de conciliación apropiado
+                                                                                para resolver los conflictos que pueden surgir en la aplicación
+                                                                                delos Convenios:
+
+Cabe precisar que este artículo corresponde al 12 en el IV Convenio,
                                                                                 y se refiere al procedimiento facultativo de conciliación apropiado
                                                                                 para resolver los conflictos que pueden surgir en la aplicación
                                                                                 delos Convenios:
@@ -1471,10 +1284,13 @@ Humanitario y el                                                                
                                                                                               de la misma forma que otras partes del derecho internacional, a la
                                                                                               intervención del Tribunal de La Haya.78
 
-
 ## 1.3.1.6 Prohibición de represalias
 
-                                                                                              Este principio se encuentra en los artículos 46 del I Convenio, 47
+**Definición Canónica:** Este principio se encuentra en los artículos 46 del I Convenio, 47
+                                                                                              del II, 13 del III y 33 del IV:
+**Concordancias Legales:** artículos 46 del I Convenio; Artículo 46 del Convenio de Ginebra para aliviar la suerte de; Artículo 47 del Convenio de Ginebra para aliviar la suerte de; Artículo 13 del Convenio de Ginebra sobre el trato de los pri; Artículo 33 del Convenio de Ginebra sobre la protección de pe
+
+Este principio se encuentra en los artículos 46 del I Convenio, 47
                                                                                               del II, 13 del III y 33 del IV:
 
                                                                                                   “Quedan prohibidas las medidas de represalias contra los heridos,
@@ -1591,10 +1407,15 @@ Humanitario y el                                                                
                                                                                            crearon otros medios apropiados para garantizar el respeto del dere-
                                                                                            cho: sanción y, sobre todo, control.92
 
-
 ## 1.3.1.7 Universalidad de la represión
 
-                                                                                           Este principio se encuentra dentro del tratamiento de las sanciones
+**Definición Canónica:** Este principio se encuentra dentro del tratamiento de las sanciones
+                                                                                           penales, abordadas en los artículos 50 del I Convenio, 51 del II, 130
+                                                                                           del III y 147 del IV. En los primeros dos Convenios el artículo es
+                                                                                           idéntico, mientras que en el III y IV experimenta algunas variaciones:
+**Concordancias Legales:** artículos 50 del I Convenio
+
+Este principio se encuentra dentro del tratamiento de las sanciones
                                                                                            penales, abordadas en los artículos 50 del I Convenio, 51 del II, 130
                                                                                            del III y 147 del IV. En los primeros dos Convenios el artículo es
                                                                                            idéntico, mientras que en el III y IV experimenta algunas variaciones:
@@ -1608,10 +1429,17 @@ Humanitario y el                                                                
                                                                                                apropiación de bienes, no justificadas por necesidades militares
                                                                                                y ejecutadas en gran escala de manera ilícita y arbitraria”.93
 
-
 ## 89 En otras palabras, SORENSEN (1945), p. 694, señala que “las represalias en tiempo de guerra son circuns-
 
-                                                           tancias prohibidas por las leyes de guerra, que solo pueden llevarse a cabo excepcionalmente con el fin de
+**Definición Canónica:** tancias prohibidas por las leyes de guerra, que solo pueden llevarse a cabo excepcionalmente con el fin de
+                                                           obligar al enemigo a cesar la realización de actos ilegales de guerra”.
+                                                      90 RUIZ (1935), p. 133.
+                                                      91    COURSIER (1962), p. 34.
+                                                      92   COMITÉ INTERNACIONAL DE LA CROIX-ROUGE (1972), p. 23.
+                                                      93   Artículo 50 del Convenio de 
+**Concordancias Legales:** Artículo 50 del Convenio de Ginebra para aliviar la suerte de; artículo 51 del Convenio de Ginebra para aliviar la suerte; Artículo 130 del Convenio de Ginebra sobre el trato de los pri; Artículo 147 del Convenio de Ginebra sobre la protección de pe
+
+tancias prohibidas por las leyes de guerra, que solo pueden llevarse a cabo excepcionalmente con el fin de
                                                            obligar al enemigo a cesar la realización de actos ilegales de guerra”.
                                                       90 RUIZ (1935), p. 133.
                                                       91    COURSIER (1962), p. 34.
@@ -1689,7 +1517,10 @@ Humanitario y el                                                                
 
 ## parte en los Convenios. También es posible transferir al culpable ante
 
-                                                                                          un tribunal internacional, en caso de que un tribunal de esta clase
+**Definición Canónica:** un tribunal internacional, en caso de que un tribunal de esta clase
+                                                                                          fuese instituido.99
+
+un tribunal internacional, en caso de que un tribunal de esta clase
                                                                                           fuese instituido.99
 
                                                                                           Consecuencia de este principio es que la extradición sea un derecho
@@ -1714,10 +1545,15 @@ Humanitario y el                                                                
                                                                                      una doble responsabilidad: la del Estado y la del individuo, que no
                                                                                      puede escudarse detrás del principio de orden recibida.101
 
-
 ## 1.3.2 Principios fundamentales de la Cruz Roja
 
-                                                                                     Los principios de los Convenios de Ginebra se unen a los principios
+**Definición Canónica:** Los principios de los Convenios de Ginebra se unen a los principios
+                                                                                     de la Cruz Roja. Esto es evidente, teniendo en cuenta el cometido
+                                                                                     que ha desempeñado el movimiento de la Cruz Roja, y especialmente
+                                                                                     el CICR, en la preparación de los textos que codifican hoy el Dere-
+                                                                             
+
+Los principios de los Convenios de Ginebra se unen a los principios
                                                                                      de la Cruz Roja. Esto es evidente, teniendo en cuenta el cometido
                                                                                      que ha desempeñado el movimiento de la Cruz Roja, y especialmente
                                                                                      el CICR, en la preparación de los textos que codifican hoy el Dere-
@@ -1736,10 +1572,14 @@ Humanitario y el                                                                
                                                                                      Internacional de la Cruz Roja, celebrada en Viena el año 1965. En
                                                                                      los siguientes acápites, se procederá a enunciarlos.
 
-
 ## 1.3.2.1 Humanidad
 
-                                                                                     El principio de la humanidad ocupa lugar preponderante en la doc-
+**Definición Canónica:** El principio de la humanidad ocupa lugar preponderante en la doc-
+                                                                                     trina de la Cruz Roja y de él dependen todos los demás principios.
+                                                                                     Base fundamental de la institución, le marca al mismo tiempo su
+                                                                                     ideal, sus motivos y su objetivo.104
+
+El principio de la humanidad ocupa lugar preponderante en la doc-
                                                                                      trina de la Cruz Roja y de él dependen todos los demás principios.
                                                                                      Base fundamental de la institución, le marca al mismo tiempo su
                                                                                      ideal, sus motivos y su objetivo.104
@@ -1789,10 +1629,15 @@ Humanitario y el                                                                
                                                                                           Comprende acciones reparadoras y preventivas, fomenta el Derecho
                                                                                           Humanitario y difunde el espíritu pacífico.
 
-
 ## 1.3.2.2 Igualdad o no discriminación
 
-                                                                                          El principio de igualdad se encuentra íntimamente ligado al principio
+**Definición Canónica:** El principio de igualdad se encuentra íntimamente ligado al principio
+                                                                                          de humanidad; la igualdad de los hombres ante el dolor es singular-
+                                                                                          mente impresionante y todos son sensibles frente a él, todos están
+                                                                                          expuestos a padecerlo y a todos les asiste un derecho semejante a
+                                                           
+
+El principio de igualdad se encuentra íntimamente ligado al principio
                                                                                           de humanidad; la igualdad de los hombres ante el dolor es singular-
                                                                                           mente impresionante y todos son sensibles frente a él, todos están
                                                                                           expuestos a padecerlo y a todos les asiste un derecho semejante a
@@ -1872,10 +1717,11 @@ Humanitario y el                                                                
 Derecho Internacional                                                                1. El Derecho Internacional                                             42
 Humanitario y el                                                                        Humanitario (DIH)
 
-
 ## 1.3.2.3 Imparcialidad
 
-                                                                                       La Cruz Roja ha de actuar sin favor ni prevención hacia nadie.117
+**Definición Canónica:** La Cruz Roja ha de actuar sin favor ni prevención hacia nadie.117
+
+La Cruz Roja ha de actuar sin favor ni prevención hacia nadie.117
 
                                                                                        De esta forma, si el principio de igualdad veda toda distinción objetiva
                                                                                        entre los individuos, es el principio de imparcialidad el que proscribe
@@ -1944,7 +1790,11 @@ Humanitario y el                                                                
 
 ## Parte en los Convenios de Ginebra es la condición más importante
 
-                                                                                        para su intervención tanto en casos de conflicto armado como
+**Definición Canónica:** para su intervención tanto en casos de conflicto armado como
+                                                                                        dedisturbios o tensiones. La confianza es la fuerza moral sin la que
+                                                                                        el Movimiento no podría vivir, desarrollarse y actuar.124
+
+para su intervención tanto en casos de conflicto armado como
                                                                                         dedisturbios o tensiones. La confianza es la fuerza moral sin la que
                                                                                         el Movimiento no podría vivir, desarrollarse y actuar.124
 
@@ -1996,10 +1846,15 @@ Humanitario y el                                                                
 Derecho Internacional                                                             1. El Derecho Internacional                                           45
 Humanitario y el                                                                     Humanitario (DIH)
 
-
 ## 1.3.2.5 Independencia
 
-                                                                                    La Cruz Roja debe ser independiente de todo poder y libre de cual-
+**Definición Canónica:** La Cruz Roja debe ser independiente de todo poder y libre de cual-
+                                                                                    quier influencia. So pena de dejar de ser ella misma, la Cruz Roja
+                                                                                    debe ser dueña de sus decisiones, de sus gestos y de sus palabras.
+                                                                                    Para poder señalar mejor el camino de la caridad y de su justicia, ha
+                                                                             
+
+La Cruz Roja debe ser independiente de todo poder y libre de cual-
                                                                                     quier influencia. So pena de dejar de ser ella misma, la Cruz Roja
                                                                                     debe ser dueña de sus decisiones, de sus gestos y de sus palabras.
                                                                                     Para poder señalar mejor el camino de la caridad y de su justicia, ha
@@ -2021,10 +1876,15 @@ Humanitario y el                                                                
                                                                                     liares de servicios públicos, deben conservar un carácter autónomo
                                                                                     y privado131 que les permita obrar siempre según estos principios.
 
-
 ## 1.3.2.6 Universalidad
 
-                                                                                    La obra de la Cruz Roja debe extenderse a todos los hombres, en
+**Definición Canónica:** La obra de la Cruz Roja debe extenderse a todos los hombres, en
+                                                                                    todos los países. Así, la noción de universalidad contiene dos ideas:
+                                                                                    extenderse a todos y extenderse por todas partes. La primera reviste
+                                                                                    una significación fundamental para la Cruz Roja: su ideal prescribe
+                                                                             
+
+La obra de la Cruz Roja debe extenderse a todos los hombres, en
                                                                                     todos los países. Así, la noción de universalidad contiene dos ideas:
                                                                                     extenderse a todos y extenderse por todas partes. La primera reviste
                                                                                     una significación fundamental para la Cruz Roja: su ideal prescribe
@@ -2092,10 +1952,11 @@ Humanitario y el                                                                
 Derecho Internacional                                                                 1. El Derecho Internacional                                            47
 Humanitario y el                                                                         Humanitario (DIH)
 
-
 ## 1.4             Ámbitos de
 
-                                                                                        aplicación
+**Definición Canónica:** aplicación
+
+aplicación
 
                                                                                        El Derecho Internacional Humanitario es aplicable en dos regímenes
                                                                                        de protección: conflictos armados de carácter internacional y confic-
@@ -2135,10 +1996,16 @@ Humanitario y el                                                                
 Derecho Internacional                                                              1. El Derecho Internacional                                           48
 Humanitario y el                                                                      Humanitario (DIH)
 
-
 ## 1.4.1 Conflicto armado internacional
 
-                                                                                     Se encuentra definido en el artículo 2º, común a los cuatro
+**Definición Canónica:** Se encuentra definido en el artículo 2º, común a los cuatro
+                                                                                     Convenios de Ginebra de 1949, como “(…) la guerra declarada o
+                                                                                     cualquier otro conflicto que surja entre dos o varias de las Altas
+                                                                                     Partes Contratantes, aunque el estado de guerra no haya sido
+                                                                                     reconocido
+**Concordancias Legales:** artículo 2; artículo 1; artículo 3
+
+Se encuentra definido en el artículo 2º, común a los cuatro
                                                                                      Convenios de Ginebra de 1949, como “(…) la guerra declarada o
                                                                                      cualquier otro conflicto que surja entre dos o varias de las Altas
                                                                                      Partes Contratantes, aunque el estado de guerra no haya sido
@@ -2375,10 +2242,16 @@ Humanitario y el                                                                
                                                                                           son clasifcados por la doctrina del Comité Internacional de la Cruz
                                                                                           Roja como se explica en los siguientes acápites.
 
-
 ## 1.4.2.1 Disturbios interiores
 
-                                                                                          Los disturbios tienen cierta gravedad, provocan actos de violencia,
+**Definición Canónica:** Los disturbios tienen cierta gravedad, provocan actos de violencia,
+                                                                                          duran cierto tiempo (un simple motín sería excluido), hay lucha entre
+                                                                                          grupos organizados y, sobre todo, estos acontecimientos causan víc-
+                                                                                          timas.153 En 1971, el Comité Internacional de la Cruz Roja presentó
+                                                        
+**Concordancias Legales:** artículo 1
+
+Los disturbios tienen cierta gravedad, provocan actos de violencia,
                                                                                           duran cierto tiempo (un simple motín sería excluido), hay lucha entre
                                                                                           grupos organizados y, sobre todo, estos acontecimientos causan víc-
                                                                                           timas.153 En 1971, el Comité Internacional de la Cruz Roja presentó
@@ -2475,7 +2348,12 @@ Humanitario y el                                                                
 
 ## 160 COMITÉ INTERNACIONAL DE LA CRUZ ROJA (1979), p. 3. “El CICR y la Liga encargaron un estudio a un Co-
 
-                                                           mité Mixto para la reevaluación del Consejo de la Cruz Roja, nombrando como director a D: Tansley. El grupo
+**Definición Canónica:** mité Mixto para la reevaluación del Consejo de la Cruz Roja, nombrando como director a D: Tansley. El grupo
+                                                           de estudio trabajó de febrero de 1973 a junio de 1975. Durante el periodo visitaron 45 países, siguiéndose las
+                                                           actividades de la Cruz Roja. Los resultados del estudio se publicaron en julio de 1975 en Informe Final: Una
+                                                           Agenda para la Cruz Roja, firmado por Tansley, razón por la cual con frecuencia es llamado Info
+
+mité Mixto para la reevaluación del Consejo de la Cruz Roja, nombrando como director a D: Tansley. El grupo
                                                            de estudio trabajó de febrero de 1973 a junio de 1975. Durante el periodo visitaron 45 países, siguiéndose las
                                                            actividades de la Cruz Roja. Los resultados del estudio se publicaron en julio de 1975 en Informe Final: Una
                                                            Agenda para la Cruz Roja, firmado por Tansley, razón por la cual con frecuencia es llamado Informe Tansley”.
@@ -2509,10 +2387,16 @@ Humanitario y el                                                                
                                                                                           la aplicabilidad por analogía e incluso de la aplicabilidad indirecta
                                                                                           del Derecho Internacional Humanitario en estas situaciones.164
 
-
 ## 1.4.2.2 Guerra civil
 
-                                                                                         Se trata de un conflicto armado de orden interior, que pone frente
+**Definición Canónica:** Se trata de un conflicto armado de orden interior, que pone frente
+                                                                                         a frente a verdaderas fuerzas armadas. Esta clase de conflicto puede
+                                                                                         ser tan mortífero en razón misma de los elementos y de las pasiones
+                                                                                         que en él están mezclados, puede provocar tantas víctimas, que es
+                                                               
+**Concordancias Legales:** artículo 3
+
+Se trata de un conflicto armado de orden interior, que pone frente
                                                                                          a frente a verdaderas fuerzas armadas. Esta clase de conflicto puede
                                                                                          ser tan mortífero en razón misma de los elementos y de las pasiones
                                                                                          que en él están mezclados, puede provocar tantas víctimas, que es
@@ -2555,10 +2439,15 @@ Humanitario y el                                                                
                                                                                     deberán hacer lo posible por poner, total o parcialmente, en vigor,
                                                                                     mediante acuerdos especiales.168
 
-
 ## 1.4.2.3 Conflicto armado regional de orden
 
-                                                                                     internacional, pero limitado o conflicto
+**Definición Canónica:** internacional, pero limitado o conflicto
+                                                                                     armado interno internacionalizado
+                                                                                     Los conflictos armados internos pueden rebasar las fronteras del
+                                                                                     territorio en que se desarrollan y, a causa de la interferencia extran-
+                                                                                     jera, la magnitud de los problemas humanitarios 
+
+internacional, pero limitado o conflicto
                                                                                      armado interno internacionalizado
                                                                                      Los conflictos armados internos pueden rebasar las fronteras del
                                                                                      territorio en que se desarrollan y, a causa de la interferencia extran-
@@ -2587,20 +2476,23 @@ Humanitario y el                                                                
                                                                                          toman, frecuentemente, bajo uno u otro título, un carácter
                                                                                          internacional, sobre todo por la ayuda extranjera que recibe cada
 
-
 ## parte en conflicto.171
 
+**Definición Canónica:** 170      COMISIÓN DEL CENTENARIO DE LA CRUZ ROJA EN SUIZA (1965), p. 168.
+                                                      171      Íd., p. 32.
 
-                                                      170      COMISIÓN DEL CENTENARIO DE LA CRUZ ROJA EN SUIZA (1965), p. 168.
+170      COMISIÓN DEL CENTENARIO DE LA CRUZ ROJA EN SUIZA (1965), p. 168.
                                                       171      Íd., p. 32.
 
 Derecho Internacional                                                                       1. El Derecho Internacional                                               59
 Humanitario y el                                                                               Humanitario (DIH)
 
-
 ## 1.5               Medios de
 
-                                                                                              aplicación
+**Definición Canónica:** aplicación
+**Concordancias Legales:** artículo 1
+
+aplicación
 
                                                                                               A pesar de la universalidad de los Convenios de Ginebra y del alto
                                                                                               nivel de adhesión de los Protocolos adicionales de 1977, existe una
@@ -2622,7 +2514,12 @@ Humanitario y el                                                                
 
 ## Parte en sus Protocolos adicionales, así como la trascendencia de los
 
-                                                                                             principios humanitarios y, por lo tanto, a la índole erga omnes de la obli-
+**Definición Canónica:** principios humanitarios y, por lo tanto, a la índole erga omnes de la obli-
+                                                                                             gación de respetarlos, todos los Estados tienen derecho a asegurarse de
+                                                                                             que todos los demás Estados respeten el derecho consuetudinario.173
+**Concordancias Legales:** artículo 1; artículo 3
+
+principios humanitarios y, por lo tanto, a la índole erga omnes de la obli-
                                                                                              gación de respetarlos, todos los Estados tienen derecho a asegurarse de
                                                                                              que todos los demás Estados respeten el derecho consuetudinario.173
 
@@ -2645,10 +2542,15 @@ Humanitario y el                                                          Humani
                                                                          de Ginebra, la obligación de hacerlos respetar se refiere tanto a los
                                                                          conflictos armados internacionales como a los no internacionales.175
 
-
 ## 1.5.1 Medios preventivos
 
-                                                                         Los Estados pueden cumplir su obligación de garantizar el respeto
+**Definición Canónica:** Los Estados pueden cumplir su obligación de garantizar el respeto
+                                                                         del Derecho Internacional Humanitario tomando medidas destina-
+                                                                         das a ayudar a otros Estados a respetar el derecho, especialmente en
+                                                                         tiempo de paz y, eventualmente, en situaciones de conflicto
+                                                                         armadode larga duración.
+
+Los Estados pueden cumplir su obligación de garantizar el respeto
                                                                          del Derecho Internacional Humanitario tomando medidas destina-
                                                                          das a ayudar a otros Estados a respetar el derecho, especialmente en
                                                                          tiempo de paz y, eventualmente, en situaciones de conflicto
@@ -2697,10 +2599,12 @@ Humanitario y el                                                                
                                                                                              previa adecuación de las legislaciones nacionales a las disposiciones
                                                                                              internacionales vigentes.177
 
-
 ## 1.5.2 Medios de control
 
-                                                                                              Los medios de control previstos para toda la duración de los
+**Definición Canónica:** Los medios de control previstos para toda la duración de los
+                                                                                              conflictos bélicos, y que permiten velar constantemente por la
+
+Los medios de control previstos para toda la duración de los
                                                                                               conflictos bélicos, y que permiten velar constantemente por la
 
                                                                                               observancia de las disposiciones del Derecho Humanitario,
@@ -2743,10 +2647,12 @@ Humanitario y el                                                                
                                                                                            proporcionar socorros materiales, canjear prisioneros de guerra, o
                                                                                            visitar a personasprivadas de libertad.181
 
-
 ## 1.5.3 Medios represivos
 
-                                                                                           En cuanto a los medios de represión, cuyo principio se expresa en
+**Definición Canónica:** En cuanto a los medios de represión, cuyo principio se expresa en
+**Concordancias Legales:** artículo 89 del Protocolo Adicional I
+
+En cuanto a los medios de represión, cuyo principio se expresa en
 
                                                                                            la obligación que tienen las partes en conflicto bélico de
                                                                                            impedir y de hacer que cese toda violencia, cabe destacar la
@@ -2918,10 +2824,11 @@ Humanitario y el                                                  Humanitario (D
 Derecho Internacional                                                                       1. El Derecho Internacional                                                  67
 Humanitario y el                                                                               Humanitario (DIH)
 
-
 ## 1.6              Relaciones con el Derecho
 
-                                                                                             Internacionalde los Derechos Humanos
+**Definición Canónica:** Internacionalde los Derechos Humanos
+
+Internacionalde los Derechos Humanos
 
                                                                                              Es pertinente reflexionar sobre las relaciones que existen entre
                                                                                              el Derecho Internacional Humanitario y los Derechos
@@ -2947,10 +2854,16 @@ Humanitario y el                                                                
                                                                                               Si el Derecho Humanitario tiene por objeto proteger a las víctimas
                                                                                               procurando limitar los sufrimientos provocados por la guerra201, los
 
-
 ## 198      Ibíd. “La normativa de los Derechos Humanos, en tanto rama autónoma del Derecho Internacional Público
 
-                                                               con sus propios instrumentos, sus propios órganos y sus propios procedimientos de aplicación, nació a partir
+**Definición Canónica:** con sus propios instrumentos, sus propios órganos y sus propios procedimientos de aplicación, nació a partir
+                                                               de la Carta de las Naciones Unidas en 1945. Su primer catálogo metódico se encuentra en la Declaración
+                                                               Universal de los Derechos Humanos de 1948”.
+                                                      199      SCHINDLER (1979), p. 3.
+                                                      200      KELSEN (1946) p. 27: “La paz es una situación que se caracteriza por
+**Concordancias Legales:** artículo 3; Artículo 5
+
+con sus propios instrumentos, sus propios órganos y sus propios procedimientos de aplicación, nació a partir
                                                                de la Carta de las Naciones Unidas en 1945. Su primer catálogo metódico se encuentra en la Declaración
                                                                Universal de los Derechos Humanos de 1948”.
                                                       199      SCHINDLER (1979), p. 3.
@@ -3142,29 +3055,23 @@ Humanitario y el                                                                
 
                                                                     208 209
 
-
-## 208      Artículo 1º común a los cuatro Convenios de Ginebra
-
-                                                      209      Artículos 49, 50 y 51 comunes a los cuatro Convenios de Ginebra.
-
-Derecho Internacional
-
-                                        El Derecho Penal
-
 ## (dpi)
 
-Derecho Internacional                                                                     2. El Derecho Penal                                                    73
+**Definición Canónica:** Derecho Internacional                                                                     2. El Derecho Penal                                                    73
 Humanitario y el                                                                             Internacional (DPI)
 
-
-## 2.1                Nociones básicas
-
-                                                                                             del DPI
-
+Derecho Internacional                                                                     2. El Derecho Penal                                                    73
+Humanitario y el                                                                             Internacional (DPI)
 
 ## 2.1.1 Concepto
 
-                                                                                            Se trata de la rama del derecho internacional público que define los
+**Definición Canónica:** Se trata de la rama del derecho internacional público que define los
+                                                                                            crímenes internacionales y regula el funcionamiento de los tribuna-
+                                                                                            les competentes para conocer de los casos en los que los individuos
+                                                                                            incurran en responsabilidad penal internacional, imponiendo las
+                                                       
+
+Se trata de la rama del derecho internacional público que define los
                                                                                             crímenes internacionales y regula el funcionamiento de los tribuna-
                                                                                             les competentes para conocer de los casos en los que los individuos
                                                                                             incurran en responsabilidad penal internacional, imponiendo las
@@ -3255,10 +3162,12 @@ Humanitario y el                                                                
                                                                                             subsidiaria, esto es, solo en aquellos casos en los cuales las cortes
                                                                                             nacionales no pueden o no quieren pronunciarse.216
 
-
 ## 2.1.2 Características
 
-                                                                                            Los intereses protegidos por el DPI son los mismos que los de las
+**Definición Canónica:** Los intereses protegidos por el DPI son los mismos que los de las
+**Concordancias Legales:** artículo 86 del Estatuto de la Corte Penal Internacional se r; artículos 89; artículos 103; artículo 13 del Estatuto; Artículo 13 del Estatuto de la Corte Penal Internacional; artículo 5; artículo 14; artículo 15; Artículo 12 del Estatuto de la Corte Penal Internacional; artículo 13
+
+Los intereses protegidos por el DPI son los mismos que los de las
 
                                                                                             Naciones Unidas: la paz y seguridad internacionales y el bienestar de
                                                                                             la humanidad, pero su alcance es más amplio pues no solo significa
@@ -3464,7 +3373,13 @@ Humanitario y el                                                                
 
 ## 3. Si la aceptación de un Estado que no sea Parte en el presente Estatuto fuere necesaria de conformidad
 
-                                                                  con el párrafo 2, dicho Estado podrá, mediante declaración depositada en poder del Secretario, consentir
+**Definición Canónica:** con el párrafo 2, dicho Estado podrá, mediante declaración depositada en poder del Secretario, consentir
+                                                                  en que la Corte ejerza su competencia respecto del crimen de que se trate. El Estado aceptante cooperará
+                                                                  con la Corte sin demora ni excepción de conformidad con la Parte IX”.
+                                                      232      “US Sets Sanctions Against International Criminal Court. Trump Executive Order Seeks to Thwart Justice for
+                  
+
+con el párrafo 2, dicho Estado podrá, mediante declaración depositada en poder del Secretario, consentir
                                                                   en que la Corte ejerza su competencia respecto del crimen de que se trate. El Estado aceptante cooperará
                                                                   con la Corte sin demora ni excepción de conformidad con la Parte IX”.
                                                       232      “US Sets Sanctions Against International Criminal Court. Trump Executive Order Seeks to Thwart Justice for
@@ -3507,10 +3422,12 @@ Humanitario y el                                                                
 Derecho Internacional                                                                        2. El Derecho Penal                                                           81
 Humanitario y el                                                                                Internacional (DPI)
 
-
 ## 2.2               Los principios de legalidad
 
-                                                                                              y de tipicidad
+**Definición Canónica:** y de tipicidad
+**Concordancias Legales:** artículo 8; artículo 11.2 de la Declaración Universal de los Derechos Humanos; artículo 39 de la Carta Magna de 1215; artículo 7 del Convenio para la protección de los derechos h; artículo 7.2 de la Carta Africana de Derechos Humanos; artículo 6 de la Carta Árabe de Derechos Humanos. Derecho In; artículo 15 del Pacto Internacional de; constitucion
+
+y de tipicidad
 
                                                                                                El derecho penal exige que exista de forma previa a la comisión de
                                                                                                los delitos la tipificación y sanción de los crímenes y la
@@ -3569,10 +3486,14 @@ Humanitario y el                                                                
                                                                                                  la comisión del delito la ley dispone la imposición de una pena
                                                                                                  más leve, el delincuente se beneficiará de ello.
 
-
 ## 2. Nada de lo dispuesto en este artículo se opondrá al juicio ni a la
 
-                                                                                                 condena de una persona por actos u omisiones que, en el momen-
+**Definición Canónica:** condena de una persona por actos u omisiones que, en el momen-
+                                                                                                 to de cometerse, fueran delictivos según los principios generales
+                                                                                                 del derecho reconocidos por la comunidad internacional”.
+**Concordancias Legales:** artículo 9 de la Convención Americana; artículo 22 del Estatuto de la Corte Penal Internacional
+
+condena de una persona por actos u omisiones que, en el momen-
                                                                                                  to de cometerse, fueran delictivos según los principios generales
                                                                                                  del derecho reconocidos por la comunidad internacional”.
 
@@ -3601,17 +3522,22 @@ Humanitario y el                                                                
                                                                                          en el momento en que tiene lugar, un crimen de la competencia
                                                                                          de la Corte.
 
-
 ## 2. La definición de crimen será interpretada estrictamente y
 
-                                                                                         nose hará extensiva por analogía. En caso de ambigüedad, será
+**Definición Canónica:** nose hará extensiva por analogía. En caso de ambigüedad, será
                                                                                          interpretada en favor de la persona objeto de investigación, en-
                                                                                          juiciamiento o condena.
 
+nose hará extensiva por analogía. En caso de ambigüedad, será
+                                                                                         interpretada en favor de la persona objeto de investigación, en-
+                                                                                         juiciamiento o condena.
 
 ## 3. Nada de lo dispuesto en el presente artículo afectará a la tipifi-
 
-                                                                                         cación de una conducta como crimen de derecho internacional
+**Definición Canónica:** cación de una conducta como crimen de derecho internacional
+**Concordancias Legales:** artículo 19; artículo 18; Constitución Política; Constitucion
+
+cación de una conducta como crimen de derecho internacional
 
                                                                                          independientemente del presente Estatuto”.
 
@@ -3720,10 +3646,15 @@ Humanitario y el                                                                
                                                                                            una aplicación directa en los procedimientos criminales por lo que
                                                                                            la aplicación de estas normas sigue dependiendo de un desarrollo
 
-
 ## 244      Cfr. FERDINANDUSSE (2006), pp. 239-240; AGUILAR (2008), p. 152; DOBOVSEK (2008) pp. 58-66; JESSBER-
 
-                                                               GER (2008), p. 208, y GALDÁMEZ (2011), p. 224.
+**Definición Canónica:** GER (2008), p. 208, y GALDÁMEZ (2011), p. 224.
+                                                      245      FERDINANDUSSE (2006), p. 249.
+                                                      246      CURY (1999), p. 143; DEGAN (2005), pp. 51-53; CASSESE (2008) pp. 438-440; KRESS (2010) párrafo 1.
+                                                      247      AMBOS y MALARINO (2003), pp. 580-581.
+**Concordancias Legales:** artículo 6; artículo 5 de la Convención para la Prevención y la Sanción de; Constitucion
+
+GER (2008), p. 208, y GALDÁMEZ (2011), p. 224.
                                                       245      FERDINANDUSSE (2006), p. 249.
                                                       246      CURY (1999), p. 143; DEGAN (2005), pp. 51-53; CASSESE (2008) pp. 438-440; KRESS (2010) párrafo 1.
                                                       247      AMBOS y MALARINO (2003), pp. 580-581.
@@ -3766,18 +3697,25 @@ Humanitario y el                                                                
 
 ## 249  FERDINANDUSSE (2006) pp. 230-233; CASSESE (2008) p. 439. En Chile, LLANOS (2008) p. 434, a propósito
 
-                                                           del crimen de genocidio, afirma que no se excluye la incriminación en base al derecho consuetudinario fun-
+**Definición Canónica:** del crimen de genocidio, afirma que no se excluye la incriminación en base al derecho consuetudinario fun-
+                                                           dado en el Derecho de Núremberg, pues es directamente aplicable en los Estados que lo han reconocido, es
+                                                           decir, aquellos que forman parte de las Naciones Unidas.
+                                                      250 También en el ámbito del Derecho Internacional Humanitario, ver artículos 50, 51, 130, 147 de los Convenios
+                                               
+**Concordancias Legales:** artículos 50
+
+del crimen de genocidio, afirma que no se excluye la incriminación en base al derecho consuetudinario fun-
                                                            dado en el Derecho de Núremberg, pues es directamente aplicable en los Estados que lo han reconocido, es
                                                            decir, aquellos que forman parte de las Naciones Unidas.
                                                       250 También en el ámbito del Derecho Internacional Humanitario, ver artículos 50, 51, 130, 147 de los Convenios
                                                            de Ginebra, I a IV, respectivamente.
 
-## 251 GAMBOA (1999), p. 108; GOODWIN-GILL (1999), p. 208; NAVARRO (2004), p. 80; ARRAU (2005), p. 11; WERLE
-
-
 ## (2005), pp. 37, 38, 74; FERDINANDUSSE (2006), p. 257; ÁLVAREZ (2008), p. 28; CASSESE (2008), p. 439; SHAW
 
-                                                           (2008), p. 674.
+**Definición Canónica:** (2008), p. 674.
+**Concordancias Legales:** artículo 4 de la Convención Internacional sobre la Represión; artículo 4 de la Convención contra la Tortura y Otros Tratos o; artículo 6.2 de la Convención Interamericana para Prevenir y; artículo 3.1 de la Convención Interamericana sobre Desapari; artículo 4 de la Convención Internacional para la Protección d; artículo 7; artículo 6 del Estatuto; constitucion
+
+(2008), p. 674.
 
 Derecho Internacional                                          2. El Derecho Penal                                                     87
 
@@ -3923,30 +3861,31 @@ Humanitario y el                                                                
                                                                (1970), p. 35; FAHMI (1971), pp. 391-392; PAUL (1971), p. 38; PUCEIRO (1974), p. 70; WHITEMAN (1977), p. 625;
                                                                MINAGAWA (1968), p. 8; BELSKY et. ál. (1989), p. 389; PARKER y NEYLON (1989), p. 430; BASSIOUNI (1990),
 
-## p. 806; MANN (1990), p. 86; CUERVO (1991), p. 360; DETTER (1994), p. 175; FORD (1994), p. 147; WEISBURD
-
-
-## (1995), p. 22; AMBOS (1996), p. 535; BALINT (1996), p. 112; BASSIOUNI (1996a), pp. 11, 17 y 20-21; BASSIOUNI
-
-
-## (1996b), p. 68; CUMPLIDO (1996), p. 256; NEWTON (1996), p. 36; VAN BOVEN (1996), p. 298 Nº 23-24; BE-
-
-
 ## NADAVA (1997), p. 54; VAN SCHAACK (1997), p. 2261; BIANCHI (1999), p. 272; BYERS (1999), p. 186; KELLEY
 
-                                                               (1999), p. 365; NOGUEIRA (2000), p. 224; CANÇADO (2001), p. 417; NIETO (2001), p. 16; ROBERTS (2001), p.
+**Definición Canónica:** (1999), p. 365; NOGUEIRA (2000), p. 224; CANÇADO (2001), p. 417; NIETO (2001), p. 16; ROBERTS (2001), p.
+                                                               783; SCHARF (2001), p. 87; DRNAS (2002), p. 15; JUSTE y CASTILLO (2002), p. 118; CARTER et. ál. (2003), p.
+                                                               108; CRAWFORD (2004), pp. 232-293; KAPLAN (2004), p. 1909; KNOOPS (2004), p. 212; ODELLO (2004), pp.
+                                                               370 y 373; STEPHENS (2004), p. 254; CASSESE (2005), p. 65; HERDEGEN (2005), p. 53; PAULUS (2005), 
+
+(1999), p. 365; NOGUEIRA (2000), p. 224; CANÇADO (2001), p. 417; NIETO (2001), p. 16; ROBERTS (2001), p.
                                                                783; SCHARF (2001), p. 87; DRNAS (2002), p. 15; JUSTE y CASTILLO (2002), p. 118; CARTER et. ál. (2003), p.
                                                                108; CRAWFORD (2004), pp. 232-293; KAPLAN (2004), p. 1909; KNOOPS (2004), p. 212; ODELLO (2004), pp.
                                                                370 y 373; STEPHENS (2004), p. 254; CASSESE (2005), p. 65; HERDEGEN (2005), p. 53; PAULUS (2005), p.
 
 ## 306; SHINER (2005), p. 214; WOUTERS y VERHOEVEN (2005), pp. 401-416; PUCEIRO (2005), p. 379; DE WET
 
-                                                               (2006), p. 59; JANIS y NOYES (2006), p. 151; MILANOVIC (2006), p. 557; MURPHY (2006), p. 82; REY (2006),
+**Definición Canónica:** (2006), p. 59; JANIS y NOYES (2006), p. 151; MILANOVIC (2006), p. 557; MURPHY (2006), p. 82; REY (2006),
+                                                               p. 322; YARWOOD (2006), pp. 32-33; GAETA (2007), pp. 632 y 642; COHEN (2007), p. 71; REISINGER (2007),
+
+(2006), p. 59; JANIS y NOYES (2006), p. 151; MILANOVIC (2006), p. 557; MURPHY (2006), p. 82; REY (2006),
                                                                p. 322; YARWOOD (2006), pp. 32-33; GAETA (2007), pp. 632 y 642; COHEN (2007), p. 71; REISINGER (2007),
 
 ## p. 685; BROWNLIE (2008), p. 511; O’CONNELL (2008), p. 9; CRIDDLE y FOX-DECENT (2009), p. 331; DUBOIS
 
-                                                               (2009), pp. 135 y 160; HERDEGEN (2010), p. 74; LEPARD (2010), p. 249; entre otros.
+**Definición Canónica:** (2009), pp. 135 y 160; HERDEGEN (2010), p. 74; LEPARD (2010), p. 249; entre otros.
+
+(2009), pp. 135 y 160; HERDEGEN (2010), p. 74; LEPARD (2010), p. 249; entre otros.
 
 Derecho Internacional                                                                        2. El Derecho Penal                                                            91
 Humanitario y el                                                                                Internacional (DPI)
@@ -3986,25 +3925,23 @@ Humanitario y el                                                                
                                                                ANTOKOLETZ (1951), pp. 73-74; BARBERIS (1970), pp. 34-35. Para profundizar sobre el castigo de la esclavitud
                                                                como crimen de lesa humanidad, ver MCNAIR (1961), p. 215; SCHEUNER (1967), p. 526; LACHS (1968), p. 399;
 
-## BARBERIS (1970), pp. 34-35; FAHMI (1971), pp. 391-392; PAUL (1971), p. 35; PUCEIRO (1974), p. 70; WHITEMAN
-
-
 ## (1977), p. 625; LACHS (1980), p. 206; ZOGLIN (1986), p. 306; REUTER (1982), p. 49; MINAGAWA (1968), p. 8; SATO
 
-                                                               (1987), p. 18; BELSKY et. ál. (1989), p. 389; PARKER y NEYLON (1989), p. 429; CUERVO (1991), p. 360; DETTER
+**Definición Canónica:** (1987), p. 18; BELSKY et. ál. (1989), p. 389; PARKER y NEYLON (1989), p. 429; CUERVO (1991), p. 360; DETTER
                                                                (1994), p. 175; FORD (1994), p. 147; BASSIOUNI (1996b), p. 68; CUMPLIDO (1996), p. 256; VAN BOVEN (1996), p.
                                                                298 Nº 23 y 24; BENADAVA (1997), p. 54; BYERS (1999), p. 186; KELLEY (1999), p. 365; NOGUEIRA (2000), p. 224;
 
-## CANÇADO (2001), p. 417; NIETO (2001), p. 16; DRNAS (2002), p. 15; JUSTE y CASTILLO (2002), p. 118; CARTER
-
-                                                               et. ál. (2003), p. 108; CRAWFORD (2004), pp. 232 y 293; KAPLAN (2004), p. 1909; STEPHENS (2004), p. 254;
-
-## CASSESE (2005), pp. 65 y 376; HERDEGEN (2005), p. 53; PUCEIRO (2005), p. 379; SHINER (2005), p. 214; DE
-
+(1987), p. 18; BELSKY et. ál. (1989), p. 389; PARKER y NEYLON (1989), p. 429; CUERVO (1991), p. 360; DETTER
+                                                               (1994), p. 175; FORD (1994), p. 147; BASSIOUNI (1996b), p. 68; CUMPLIDO (1996), p. 256; VAN BOVEN (1996), p.
+                                                               298 Nº 23 y 24; BENADAVA (1997), p. 54; BYERS (1999), p. 186; KELLEY (1999), p. 365; NOGUEIRA (2000), p. 224;
 
 ## WET (2006), p. 59; MURPHY (2006), p. 82; ORAKHELASHVILI (2006), p. 43; YARWOOD (2006), p. 32; COHEN
 
-                                                               (2007), p. 71; REISINGER (2007), p. 685; VARGAS (2007), p. 178; BROWNLIE (2008), p. 511; O’CONNELL (2008),
+**Definición Canónica:** (2007), p. 71; REISINGER (2007), p. 685; VARGAS (2007), p. 178; BROWNLIE (2008), p. 511; O’CONNELL (2008),
+                                                               pp. 9 y 54; SCARPA (2008), pp. 42, 78-79 y 82; CRIDDLE y FOX-DECENT (2009), p. 331; DUBOIS (2009), pp.
+                                                               135 y 160; entre otros.
+
+(2007), p. 71; REISINGER (2007), p. 685; VARGAS (2007), p. 178; BROWNLIE (2008), p. 511; O’CONNELL (2008),
                                                                pp. 9 y 54; SCARPA (2008), pp. 42, 78-79 y 82; CRIDDLE y FOX-DECENT (2009), p. 331; DUBOIS (2009), pp.
                                                                135 y 160; entre otros.
 
@@ -4046,14 +3983,22 @@ Humanitario y el                                                                
 
 ## p. 68; CUMPLIDO (1996), p. 256; VAN BOVEN (1996), p. 298 Nº 23 y 24; BENVENISTI (1997), p. 603; BIANCHI
 
-                                                               (1999), p. 272; BYERS (1999), p. 186; KELLEY (1999), p. 365; NOGUEIRA (2000), p. 224; CANÇADO (2001), p.
+**Definición Canónica:** (1999), p. 272; BYERS (1999), p. 186; KELLEY (1999), p. 365; NOGUEIRA (2000), p. 224; CANÇADO (2001), p.
+                                                               417; BOU (2002), pp. 280 y ss.; AMNISTÍA INTERNACIONAL (2003), pp. 67 y 73; CARTER et. ál. (2003), p. 108;
+                                                               CRAWFORD (2004), pp. 232 y 294; DE WET (2004), p. 99; KAPLAN (2004), p. 1909; KNOOPS (2004), p. 212;
+                                                               HERDEGEN (2005), p. 53; DE WET (2006), p. 59; JANIS y NOYES (2006), pp. 148-149; MURPHY (2006), p.
+
+(1999), p. 272; BYERS (1999), p. 186; KELLEY (1999), p. 365; NOGUEIRA (2000), p. 224; CANÇADO (2001), p.
                                                                417; BOU (2002), pp. 280 y ss.; AMNISTÍA INTERNACIONAL (2003), pp. 67 y 73; CARTER et. ál. (2003), p. 108;
                                                                CRAWFORD (2004), pp. 232 y 294; DE WET (2004), p. 99; KAPLAN (2004), p. 1909; KNOOPS (2004), p. 212;
                                                                HERDEGEN (2005), p. 53; DE WET (2006), p. 59; JANIS y NOYES (2006), pp. 148-149; MURPHY (2006), p. 82;
 
 ## ORAKHELASHVILI (2006), p. 43; THIENEL (2006), p. 363; YARWOOD (2006), p. 33; COHEN (2007), p. 111; KUTZ
 
-                                                               (2007), p. 258 nota 85; MCGREGOR (2007), p. 71; REISINGER (2007), p. 685; O’CONNELL (2008), p. 9; CRIDDLE
+**Definición Canónica:** (2007), p. 258 nota 85; MCGREGOR (2007), p. 71; REISINGER (2007), p. 685; O’CONNELL (2008), p. 9; CRIDDLE
+                                                               y FOX-DECENT (2009), p. 331; DUBOIS (2009), p. 160; CANÇADO (2012), p. 5; entre otros.
+
+(2007), p. 258 nota 85; MCGREGOR (2007), p. 71; REISINGER (2007), p. 685; O’CONNELL (2008), p. 9; CRIDDLE
                                                                y FOX-DECENT (2009), p. 331; DUBOIS (2009), p. 160; CANÇADO (2012), p. 5; entre otros.
 
 Derecho Internacional                                                                        2. El Derecho Penal                                                             93
@@ -4083,15 +4028,22 @@ Humanitario y el                                                                
                                                                                                de crímenes atroces habían ido cristalizando en diversos convenios
                                                                                                internacionales, como se advierte a continuación.
 
-
 ## 255      Sobre su castigo y persecución, ver ORENTLICHER (1991), p. 2582; CUMPLIDO (1996), p. 256; VAN BOVEN
 
-                                                               (1996), p. 298 notas 23-24; BIANCHI (1999), p. 272; CANÇADO (2001), p. 417; MURPHY (2006), p. 82; CRIDDLE
+**Definición Canónica:** (1996), p. 298 notas 23-24; BIANCHI (1999), p. 272; CANÇADO (2001), p. 417; MURPHY (2006), p. 82; CRIDDLE
+                                                               y FOX-DECENT (2009), p. 331; AGUILAR (2009b), p. 463.
+
+(1996), p. 298 notas 23-24; BIANCHI (1999), p. 272; CANÇADO (2001), p. 417; MURPHY (2006), p. 82; CRIDDLE
                                                                y FOX-DECENT (2009), p. 331; AGUILAR (2009b), p. 463.
 
 ## 256      Los problemas raciales de Sudáfrica constituyeron una preocupación constante para las Naciones Unidas
 
-                                                               desde su nacimiento, existiendo más de 100 resoluciones de sus órganos políticos que exhortan a Sudáfrica a
+**Definición Canónica:** desde su nacimiento, existiendo más de 100 resoluciones de sus órganos políticos que exhortan a Sudáfrica a
+                                                               modificar sus políticas relativas al apartheid, con el objeto de que reconsiderara las políticas gubernamentales
+                                                               que obstaculizaban el derecho de todos los grupos raciales a disfrutar de los mismos derechos y libertades
+                                                               fundamentales. En efecto, la Asamblea General de las Naciones Unidas, ya en 1946, r
+
+desde su nacimiento, existiendo más de 100 resoluciones de sus órganos políticos que exhortan a Sudáfrica a
                                                                modificar sus políticas relativas al apartheid, con el objeto de que reconsiderara las políticas gubernamentales
                                                                que obstaculizaban el derecho de todos los grupos raciales a disfrutar de los mismos derechos y libertades
                                                                fundamentales. En efecto, la Asamblea General de las Naciones Unidas, ya en 1946, resolvía que “está entre
@@ -4107,7 +4059,11 @@ Humanitario y el                                                                
 
 ## 15; JUSTE y CASTILLO (2002), p. 118; CRAWFORD (2004), pp. 232 y 293; KAPLAN (2004), p. 1909; CASSESE
 
-                                                               (2005), p. 65; HERDEGEN (2005), p. 53; SHINER (2005), p. 214; YARWOOD (2006), p. 32; O’CONNELL (2008),
+**Definición Canónica:** (2005), p. 65; HERDEGEN (2005), p. 53; SHINER (2005), p. 214; YARWOOD (2006), p. 32; O’CONNELL (2008),
+                                                               p. 9; CRIDDLE y FOX-DECENT (2009), p. 331; DUBOIS (2009), p. 160; LEPARD (2010), p. 249; entre otros.
+**Concordancias Legales:** artículo 2 de la Declaración Universal de Derechos Humanos de; artículo 8 del Pacto Internacional de Derechos Civiles y Pol; artículo 4 del Convenio Europeo de Derechos Humanos; artículo 5 de la Carta de derechos fundamentales de la Unión E; artículo 5 de la Carta africana de derechos humanos; artículo 10 de la Carta árabe sobre derechos humanos257. Finalm; artículo 6; artículo 5; artículo 3; artículo 4; artículo 2; artículo 7; artículo 26; artículo 5.2; artículo 20; artículo 8; artículo 17 del III Convenio relativo; artículos 31; artículo 75 del I Protocolo relativo a la protección; artículos 3; artículo 9; artículo 1; artículos 7; artículos 6; artículo 14; artículos 1.3; artículos 1; artículos 20; artículo 24; artículo 21; artículo 28; artículos 2; artículo 85.4; artículos 4
+
+(2005), p. 65; HERDEGEN (2005), p. 53; SHINER (2005), p. 214; YARWOOD (2006), p. 32; O’CONNELL (2008),
                                                                p. 9; CRIDDLE y FOX-DECENT (2009), p. 331; DUBOIS (2009), p. 160; LEPARD (2010), p. 249; entre otros.
 
 Derecho Internacional                                                                        2. El Derecho Penal                                                            94
@@ -4301,10 +4257,12 @@ Humanitario y el                                                                
 Derecho Internacional                                                               2. El Derecho Penal                                              99
 Humanitario y el                                                                       Internacional (DPI)
 
-
 ## 2.4      Formas de responsabilidad penal internacional
 
-                                                                                      del individuo e inmunidad soberana
+**Definición Canónica:** del individuo e inmunidad soberana
+**Concordancias Legales:** artículo 29; artículo 31.1
+
+del individuo e inmunidad soberana
 
                                                                                       Responsabilidad penal individual. Según el derecho penal interna-
                                                                                       cional, se puede considerar a una persona penalmente responsable
@@ -4408,16 +4366,27 @@ Humanitario y el                                                                
                                                                                            constituir un impedimento para proseguir juicios en su contra en
                                                                                            relación a la comisión de ese tipo de delitos. 268
 
-
 ## 266 En un comienzo, ello era una forma de extraer la actividad comercial de la esfera de la autoridad soberana
 
-                                                          y la responsabilidad legal que eventualmente podría aparecer en la actividad económica, pues la conducta
+**Definición Canónica:** y la responsabilidad legal que eventualmente podría aparecer en la actividad económica, pues la conducta
+                                                          comercial o de naturaleza privada de un Estado extranjero no afrenta la dignidad del Estado. SORENSEN
+                                                          (1973), p. 419; BELSKY et. ál.. (1989), p. 380; BIANCHI (1999), p. 263; FOX (1999), p. 207; CAPLAN (2003), pp.
+
+y la responsabilidad legal que eventualmente podría aparecer en la actividad económica, pues la conducta
                                                           comercial o de naturaleza privada de un Estado extranjero no afrenta la dignidad del Estado. SORENSEN
                                                           (1973), p. 419; BELSKY et. ál.. (1989), p. 380; BIANCHI (1999), p. 263; FOX (1999), p. 207; CAPLAN (2003), pp.
 
 ## 743-758; CASSESE (2005), pp. 100-101; REECE y SMALL (2003), p. 20; STEWART (2005), p. 195; BORNKAMM
 
-                                                          (2012), p. 779.
+**Definición Canónica:** (2012), p. 779.
+                                                       267 Cfr. BRADLEY y GOLDSMITH (1999), p. 2136; FRONTAURA (1999), p. 2013; FOX (1999), p. 208; FUENTES (2000),
+                                                           pp. 419-420; WIRTH (2002), pp. 882-883; REECE y SMALL (2003), p. 20; AKANDE (2004), pp. 409-410; BATES
+                                                          (2007), p. 652 nota 6; RÍOS (2007), pp. 10-13; FRULLI (2009), p. 368; GAETA (2009), p. 320; OLASOLO et. ál..
+                                                          (2016), pp. 260-263.
+            
+**Concordancias Legales:** Artículo 27 del Estatuto de la Corte Penal Internacional
+
+(2012), p. 779.
                                                        267 Cfr. BRADLEY y GOLDSMITH (1999), p. 2136; FRONTAURA (1999), p. 2013; FOX (1999), p. 208; FUENTES (2000),
                                                            pp. 419-420; WIRTH (2002), pp. 882-883; REECE y SMALL (2003), p. 20; AKANDE (2004), pp. 409-410; BATES
                                                           (2007), p. 652 nota 6; RÍOS (2007), pp. 10-13; FRULLI (2009), p. 368; GAETA (2009), p. 320; OLASOLO et. ál..
@@ -4473,13 +4442,21 @@ Humanitario y el                                                                
 
 ## 1. El presente Estatuto será aplicable por igual a todos sin distinción alguna basada en el cargo oficial. En
 
-                                                                  particular, el cargo oficial de una persona sea Jefe de Estado o de Gobierno, miembro de un gobierno o
+**Definición Canónica:** particular, el cargo oficial de una persona sea Jefe de Estado o de Gobierno, miembro de un gobierno o
+                                                                  parlamento, representante elegido o funcionario de gobierno, en ningún caso la eximirá de responsabilidad
+                                                                  penal ni constituirá per se motivo para reducir la pena.
+
+particular, el cargo oficial de una persona sea Jefe de Estado o de Gobierno, miembro de un gobierno o
                                                                   parlamento, representante elegido o funcionario de gobierno, en ningún caso la eximirá de responsabilidad
                                                                   penal ni constituirá per se motivo para reducir la pena.
 
 ## 2. Las inmunidades y las normas de procedimiento especiales que conlleve el cargo oficial de una persona, con
 
-                                                                  arreglo al derecho interno o al derecho internacional, no obstarán para que la Corte ejerza su competencia
+**Definición Canónica:** arreglo al derecho interno o al derecho internacional, no obstarán para que la Corte ejerza su competencia
+                                                                  sobre ella”.
+**Concordancias Legales:** artículo 88271 del Estatuto.272; Artículo 88 del Estatuto de la Corte Penal Internacional; artículo 98.1 del Estatuto
+
+arreglo al derecho interno o al derecho internacional, no obstarán para que la Corte ejerza su competencia
                                                                   sobre ella”.
 
 Derecho Internacional                                                                    2. El Derecho Penal                                                        103
@@ -4522,13 +4499,12 @@ Humanitario y el                                                                
                                                       272 ICRC (2014), p. 3. Haciendo la prevención de que, en el artículo 98.1 del Estatuto, se hace una salvedad res-
                                                           pecto a la renuncia de la inmunidad de los Estados que no son Partes en el Estatuto.
 
-## 273 BELSKY et. ál.. (1989), pp. 390 y 394; BARKER (1999), p. 942; BRADLEY y GOLDSMITH (1999), p. 2183; BIANCHI
-
-                                                          (1999), pp. 260-261 y 265.
-
 ## 274 ZAPPALÀ (2001), p. 601; WIRTH (2002), p. 888; NAQVI (2003), p. 623; AKANDE (2004), pp. 413-415; AMBOS
 
-                                                           (2005a), p. 90; BATES (2007), p. 677; AGUILAR y MALDONADO (2008), p. 158; FRULLI (2009), p. 368. Véase
+**Definición Canónica:** (2005a), p. 90; BATES (2007), p. 677; AGUILAR y MALDONADO (2008), p. 158; FRULLI (2009), p. 368. Véase
+                                                          también estatutos de los TPI ad hoc.
+
+(2005a), p. 90; BATES (2007), p. 677; AGUILAR y MALDONADO (2008), p. 158; FRULLI (2009), p. 368. Véase
                                                           también estatutos de los TPI ad hoc.
 
 Derecho Internacional                                                                        2. El Derecho Penal                                                            104
@@ -4614,10 +4590,15 @@ Humanitario y el                                                                
                                                                                            cometido un crimen internacional, tratándose de jefes de gobierno
                                                                                            y jefes de Estado en ejercicio.280
 
-
 ## 278 La Corte estuvo por afirmar la existencia de una norma de derecho internacional consuetudinario que en-
 
-                                                          tregaba inviolabilidad e inmunidad absoluta a los ministros de Relaciones Exteriores mientras desempeñan
+**Definición Canónica:** tregaba inviolabilidad e inmunidad absoluta a los ministros de Relaciones Exteriores mientras desempeñan
+                                                          su cargo, incluso tratándose de actuaciones penales, pues esta inmunidad no se reconoce en su beneficio
+                                                          personal sino para garantizar el ejercicio eficaz de sus funciones en nombre de su Estado, por lo que no es
+                                                          necesario distinguir entre actos oficiales y actos privados, pues si un ministro de Relaciones Exteriores es
+
+
+tregaba inviolabilidad e inmunidad absoluta a los ministros de Relaciones Exteriores mientras desempeñan
                                                           su cargo, incluso tratándose de actuaciones penales, pues esta inmunidad no se reconoce en su beneficio
                                                           personal sino para garantizar el ejercicio eficaz de sus funciones en nombre de su Estado, por lo que no es
                                                           necesario distinguir entre actos oficiales y actos privados, pues si un ministro de Relaciones Exteriores es
@@ -4720,10 +4701,15 @@ Humanitario y el                                                        Internac
                                                                      Jurisdicción universal y tribunales
                                                                2.5   penales internacionales
 
-
 ## 2.5.1 La jurisdicción internacional
 
-                                                                       Si bien la aplicación de la jurisdicción coercitiva se limita gene-
+**Definición Canónica:** Si bien la aplicación de la jurisdicción coercitiva se limita gene-
+                                                                       ralmente al territorio nacional, en derecho internacional se admite
+                                                                       que, en determinadas circunstancias, un Estado puede extender el
+                                                                       ámbito de aplicación del derecho nacional respecto de sucesos que
+                                                                       se producen fuera de su territorio (jurisdicción 
+
+Si bien la aplicación de la jurisdicción coercitiva se limita gene-
                                                                        ralmente al territorio nacional, en derecho internacional se admite
                                                                        que, en determinadas circunstancias, un Estado puede extender el
                                                                        ámbito de aplicación del derecho nacional respecto de sucesos que
@@ -4793,7 +4779,13 @@ Humanitario y el                                                                
 
 ## 133; JANIS y NOYES (2006), p. 149; CADENA (2010), pp. 236-237; SANDOVAL (2010), pp. 204-206; STEPHEN
 
-                                                           (2012), pp. 84-85. Sin embargo, tal como lo manifiesta PHILIPPE (2006), p. 434, los Estados que han tratado
+**Definición Canónica:** (2012), pp. 84-85. Sin embargo, tal como lo manifiesta PHILIPPE (2006), p. 434, los Estados que han tratado
+                                                           de aplicar el principio de jurisdicción universal de manera sistemática y concreta, basándose en su legislación
+                                                           nacional, no han tardado en darse cuenta de que las limitaciones de la diplomacia contrastan con el concep-
+                                                           to de jurisdicción universal. Lamentablemente, las razones políticas han prevalecido sobre el r
+**Concordancias Legales:** artículo 49.2 del I Convenio; artículo 50.2 del Convenio II; artículo 146.2 del IV Convenio; artículos 5; artículo 3; artículo 13; artículo 6; artículo 1
+
+(2012), pp. 84-85. Sin embargo, tal como lo manifiesta PHILIPPE (2006), p. 434, los Estados que han tratado
                                                            de aplicar el principio de jurisdicción universal de manera sistemática y concreta, basándose en su legislación
                                                            nacional, no han tardado en darse cuenta de que las limitaciones de la diplomacia contrastan con el concep-
                                                            to de jurisdicción universal. Lamentablemente, las razones políticas han prevalecido sobre el razonamiento
@@ -5050,7 +5042,13 @@ Humanitario y el                                                                
 
 ## 303 Los individuos perpetradores comenzaron a ser enjuiciados en Austria y en Alemania. En 1994, una corte
 
-                                                           austriaca comenzó procedimientos penales, basado en los principios de la jurisdicción universal, para enjuiciar
+**Definición Canónica:** austriaca comenzó procedimientos penales, basado en los principios de la jurisdicción universal, para enjuiciar
+                                                           al serbio-bosnio Dusko Cvjetkovic por el crimen de genocidio cometido en Bosnia y Herzegovina. El Tribunal
+                                                           Supremo Austriaco declaró admisible el caso amparándose en la Convención del Genocidio y el artículo
+                                                           65 de su Código Penal, que establece que los tribunales austriacos pueden ejercer la jurisdicción unive
+**Concordancias Legales:** artículo 65; artículo 6
+
+austriaca comenzó procedimientos penales, basado en los principios de la jurisdicción universal, para enjuiciar
                                                            al serbio-bosnio Dusko Cvjetkovic por el crimen de genocidio cometido en Bosnia y Herzegovina. El Tribunal
                                                            Supremo Austriaco declaró admisible el caso amparándose en la Convención del Genocidio y el artículo
                                                            65 de su Código Penal, que establece que los tribunales austriacos pueden ejercer la jurisdicción universal
@@ -5072,7 +5070,14 @@ Humanitario y el                                                                
 
 ## 304 GAMBOA (1999), pp. 80-84; FOX (1999), pp. 207-208; GÓMEZ (2000), pp. 277-280; Audiencia Nacional (Espa-
 
-                                                           ña), Auto de la sala penal confirmando la jurisdicción de España para conocer de los crímenes de genocidio
+**Definición Canónica:** ña), Auto de la sala penal confirmando la jurisdicción de España para conocer de los crímenes de genocidio
+                                                           y terrorismo cometidos durante la dictadura chilena (1998, rollo de apelación 173/98).
+                                                      305 Tribunal Constitucional español (2005, sentencia N° 237/2005) párrafo 1 de la sección II con los fundamentos
+                                                           jurídicos de la sentencia. Se advierte que el Tribunal Constitucional cita fallos anteriores (STC 21/1997, STC
+          
+**Concordancias Legales:** Constitucion
+
+ña), Auto de la sala penal confirmando la jurisdicción de España para conocer de los crímenes de genocidio
                                                            y terrorismo cometidos durante la dictadura chilena (1998, rollo de apelación 173/98).
                                                       305 Tribunal Constitucional español (2005, sentencia N° 237/2005) párrafo 1 de la sección II con los fundamentos
                                                            jurídicos de la sentencia. Se advierte que el Tribunal Constitucional cita fallos anteriores (STC 21/1997, STC
@@ -5083,10 +5088,16 @@ Humanitario y el                                                                
 Derecho Internacional                                                                       2. El Derecho Penal                                                          116
 Humanitario y el                                                                               Internacional (DPI)
 
-
 ## 2.5.2 La máxima aut dedere, aut judicare
 
-                                                                                              Los Estados tienen la obligación de juzgar a los imputados de gra-
+**Definición Canónica:** Los Estados tienen la obligación de juzgar a los imputados de gra-
+                                                                                              ves crímenes internacionales o de extraditarlos, de acuerdo con la
+                                                                                              máxima aut dedere, aut judicare. Por tanto, cuando no se castiga a quien
+                                                                                              es responsable de estas conductas, so pretexto de falta de tipicidad
+                                          
+**Concordancias Legales:** artículos 49; artículo 130 del Convenio tercero tiene el siguiente tenor; artículo 147 del Convenio cuarto dispone lo siguiente
+
+Los Estados tienen la obligación de juzgar a los imputados de gra-
                                                                                               ves crímenes internacionales o de extraditarlos, de acuerdo con la
                                                                                               máxima aut dedere, aut judicare. Por tanto, cuando no se castiga a quien
                                                                                               es responsable de estas conductas, so pretexto de falta de tipicidad
@@ -5202,7 +5213,12 @@ Humanitario y el                                                                
 
 ## parte se encuentra en la situación de escoger entre proceder a esa
 
-                                                                                               extradición o someter el caso a sus propias autoridades judiciales
+**Definición Canónica:** extradición o someter el caso a sus propias autoridades judiciales
+                                                                                               para iniciar la acción penal, y esto porque la disposición tiene por
+                                                                                               finalidad evitar la impunidad de todo acto de tortura.310
+**Concordancias Legales:** artículo 88; artículo 9; constitucion
+
+extradición o someter el caso a sus propias autoridades judiciales
                                                                                                para iniciar la acción penal, y esto porque la disposición tiene por
                                                                                                finalidad evitar la impunidad de todo acto de tortura.310
 
@@ -5337,10 +5353,15 @@ Humanitario y el                                                                
                                                                                                  fuente de la obligación de extraditar o juzgar, culminando con la
                                                                                                  siguiente propuesta de artículo en la materia:316
 
-
 ## 316      Documentos Oficiales de la Asamblea General de las Naciones Unidas A/CN.4/648 párrafos 74-95. Se se-
 
-                                                               ñalan, como destacados representantes de la postura de la existencia de una norma incipiente que exige
+**Definición Canónica:** ñalan, como destacados representantes de la postura de la existencia de una norma incipiente que exige
+                                                               el enjuiciamiento de quienes cometen delitos de lesa humanidad en base a la práctica de los Estados, a
+                                                               Bassiouni, Sadat, Edelenbos, Orentlicher y Roth-Arriaza. Podemos agregar que en el ámbito de las reuniones
+                                                               académicas de internacionalistas destaca, en la última década, el XXIV Congreso del Instituto Hisp
+**Concordancias Legales:** Artículo 4
+
+ñalan, como destacados representantes de la postura de la existencia de una norma incipiente que exige
                                                                el enjuiciamiento de quienes cometen delitos de lesa humanidad en base a la práctica de los Estados, a
                                                                Bassiouni, Sadat, Edelenbos, Orentlicher y Roth-Arriaza. Podemos agregar que en el ámbito de las reuniones
                                                                académicas de internacionalistas destaca, en la última década, el XXIV Congreso del Instituto Hispano-Lu-
@@ -5378,31 +5399,46 @@ Humanitario y el                                                                
                                                                                                   “Artículo 4. La costumbre internacional como fuente de la obli-
                                                                                                   gación aut dedere aut judicare.
 
-
 ## 1. Todos los Estados tienen la obligación de extraditar o juzgar a
 
-                                                                                                un presunto delincuente si esa obligación deriva de las normas
+**Definición Canónica:** un presunto delincuente si esa obligación deriva de las normas
                                                                                                 consuetudinarias del derecho internacional.
 
+un presunto delincuente si esa obligación deriva de las normas
+                                                                                                consuetudinarias del derecho internacional.
 
 ## 2. Esa obligación puede proceder, en particular, de las normas con-
 
-                                                                                                suetudinarias del derecho internacional relativas a (las violaciones
+**Definición Canónica:** suetudinarias del derecho internacional relativas a (las violaciones
                                                                                                 graves del derecho internacional humanitario, el genocidio, los
                                                                                                 crímenes de lesa humanidad y los crímenes de guerra).
 
+suetudinarias del derecho internacional relativas a (las violaciones
+                                                                                                graves del derecho internacional humanitario, el genocidio, los
+                                                                                                crímenes de lesa humanidad y los crímenes de guerra).
 
 ## 3. La obligación de extraditar o juzgar surgirá de toda norma impe-
 
-                                                                                                rativa de derecho internacional general aceptada y reconocida por
+**Definición Canónica:** rativa de derecho internacional general aceptada y reconocida por
                                                                                                 la comunidad internacional de Estados (jus cogens), en forma de
                                                                                                 tratado internacional o de costumbre internacional, que
                                                                                                 tipifique cualquiera de los actos enumerados en el párrafo 2”.
 
+rativa de derecho internacional general aceptada y reconocida por
+                                                                                                la comunidad internacional de Estados (jus cogens), en forma de
+                                                                                                tratado internacional o de costumbre internacional, que
+                                                                                                tipifique cualquiera de los actos enumerados en el párrafo 2”.
 
 ## 2.5.3 La jurisdicción penal internacional
 
-                                                                                             La jurisdicción penal internacional es supletoria y complementaria
+**Definición Canónica:** La jurisdicción penal internacional es supletoria y complementaria
+                                                                                             a las jurisdicciones nacionales, sea que no se haya podido juzgar en
+                                                                                             base al principio de la jurisdicción universal o en virtud del principio
+                                                                                             de territorialidad, una vez operada la extradición. De esta forma, el
+                                          
+**Concordancias Legales:** artículo 17 del ETPI. Derecho Internacional
+
+La jurisdicción penal internacional es supletoria y complementaria
                                                                                              a las jurisdicciones nacionales, sea que no se haya podido juzgar en
                                                                                              base al principio de la jurisdicción universal o en virtud del principio
                                                                                              de territorialidad, una vez operada la extradición. De esta forma, el
@@ -5435,44 +5471,28 @@ Humanitario y el                                                                
 
 ## 2002. La Corte tiene su sede en La Haya, Países Bajos, y posee tres
 
-                                                                                               Cámaras separadas: de Asuntos preliminares, de Primera instancia
+**Definición Canónica:** Cámaras separadas: de Asuntos preliminares, de Primera instancia
+                                                                                               y de Apelaciones.
+
+Cámaras separadas: de Asuntos preliminares, de Primera instancia
                                                                                                y de Apelaciones.
 
                                                                                                Principios aplicables al funcionamiento de la Corte
 
-
-## 1. Complementariedad. Funciona solo cuando un país no juzga o
-
-                                                                                                  no puede juzgar los hechos de competencia del tribunal (art. 17
-                                                                                                  del Estatuto).
-
-
-## 2. Nullum crime sine lege. El crimen debe estar definido al
-
-                                                                                                  momentode la comisión y que sea competencia de la Corte (art.
-                                                                                                  22 del Estatuto).
-
-
-## 3. Nullum poena sine lege. Un condenado por la Corte solo puede ser
-
-                                                                                                  penado como ordena el Estatuto (art. 23 del Estatuto).
-
-
 ## 4. Irretroactividad ratione personae. Nadie puede ser perseguido por
 
-                                                                                                  la Corte por hechos o delitos cometidos con anterioridad a su
+**Definición Canónica:** la Corte por hechos o delitos cometidos con anterioridad a su
                                                                                                   entrada en vigor (art. 24 del Estatuto).
 
-
-## 5. Responsabilidad penal individual. No serán objeto de la preten-
-
-                                                                                                  sión punitiva las personas jurídicas, salvo como hecho agravante
-                                                                                                  por asociación ilícita.
-
+la Corte por hechos o delitos cometidos con anterioridad a su
+                                                                                                  entrada en vigor (art. 24 del Estatuto).
 
 ## 6. Exención de los menores de 18 años. La Corte no es competente
 
-                                                                                                  para juzgarlos si eran menores de esa edad al momento de comi-
+**Definición Canónica:** para juzgarlos si eran menores de esa edad al momento de comi-
+                                                                                                  sión del presunto crimen (art. 26 del Estatuto).
+
+para juzgarlos si eran menores de esa edad al momento de comi-
                                                                                                   sión del presunto crimen (art. 26 del Estatuto).
 
                                                       318      Con anterioridad, terminada la Primera Guerra Mundial (1919), los países victoriosos quisieron juzgar al Káiser
@@ -5486,10 +5506,15 @@ Humanitario y el                                                                
 
                                                                  8. Imprescriptibilidad (art. 29 del Estatuto).
 
-
 ## 9. Responsabilidad por cumplimiento de cargo. No es eximente
 
-                                                                    de responsabilidad penal (art. 31 del Estatuto); responsabilidad
+**Definición Canónica:** de responsabilidad penal (art. 31 del Estatuto); responsabilidad
+                                                                    de mando (art. 28 del Estatuto); obediencia debida (art. 33 del
+                                                                    Estatuto); eventual responsabilidad del Estado no se acaba por
+                                                                    la responsabilidad penal del individuo (art. 25.4 del Estatuto).
+**Concordancias Legales:** artículos 13
+
+de responsabilidad penal (art. 31 del Estatuto); responsabilidad
                                                                     de mando (art. 28 del Estatuto); obediencia debida (art. 33 del
                                                                     Estatuto); eventual responsabilidad del Estado no se acaba por
                                                                     la responsabilidad penal del individuo (art. 25.4 del Estatuto).
@@ -5498,21 +5523,17 @@ Humanitario y el                                                                
                                                                  La investigación de los hechos que fueran constitutivos de delitos se
                                                                  puede iniciar por tres formas (artículos 13-15 del Estatuto):
 
-
-## 1. Por remisión de un Estado parte a la Corte de una situación
-
-                                                                    particular.
-
-
-## 2. Por solicitud del Consejo de Seguridad de las Naciones Unidas
-
-                                                                    bajo el Capítulo VII de la Carta de la Naciones Unidas (se aplica
-                                                                    el veto invertido).
-
-
 ## 3. De oficio por el Fiscal de la Corte, quien puede archivar los an-
 
-                                                                    tecedentes o presentar una acusación. La acusación es revisada
+**Definición Canónica:** tecedentes o presentar una acusación. La acusación es revisada
+                                                                    por la Cámara de Asuntos Preliminares y a) si es procedente,
+                                                                    se acoge la acusación que pasa a ser conocida por la Cámara de
+                                                                    Primera Instancia, donde se realiza el juicio; b) una vez absuelto
+                                                                    o condenado, tanto el Fiscal como el condenado, en su caso,
+              
+**Concordancias Legales:** artículo 55 del Estatuto
+
+tecedentes o presentar una acusación. La acusación es revisada
                                                                     por la Cámara de Asuntos Preliminares y a) si es procedente,
                                                                     se acoge la acusación que pasa a ser conocida por la Cámara de
                                                                     Primera Instancia, donde se realiza el juicio; b) una vez absuelto
@@ -5552,7 +5573,10 @@ Humanitario y el                                                                
 
 ## 2.6              Humanitario y el Derecho Internacional
 
-                                                                                              de los Derechos Humanos
+**Definición Canónica:** de los Derechos Humanos
+**Concordancias Legales:** Artículo 77 del Estatuto de la Corte Penal Internacional
+
+de los Derechos Humanos
 
                                                                                                Si bien el Derecho Internacional de los Derechos Humanos, el Dere-
                                                                                                cho Internacional Humanitario y el Derecho Penal Internacional son
@@ -5584,7 +5608,15 @@ Humanitario y el                                                                
 
 ## 1. La Corte podrá, con sujeción a lo dispuesto en el artículo 110, imponer a la persona declarada culpable
 
-                                                                  de uno de los crímenes a que se hace referencia en el artículo 5 del presente Estatuto una de las penas
+**Definición Canónica:** de uno de los crímenes a que se hace referencia en el artículo 5 del presente Estatuto una de las penas
+                                                                  siguientes:
+                                                                  a) La reclusión por un número determinado de años que no exceda de 30 años; o
+                                                                  b) La reclusión a perpetuidad cuando lo justifiquen la extrema gravedad del crimen y las circunstancias
+                                                                     personales del condenado.
+         
+**Concordancias Legales:** artículo 5
+
+de uno de los crímenes a que se hace referencia en el artículo 5 del presente Estatuto una de las penas
                                                                   siguientes:
                                                                   a) La reclusión por un número determinado de años que no exceda de 30 años; o
                                                                   b) La reclusión a perpetuidad cuando lo justifiquen la extrema gravedad del crimen y las circunstancias
@@ -5594,12 +5626,15 @@ Humanitario y el                                                                
                                                                   b) El decomiso del producto, los bienes y los haberes procedentes directa o indirectamente de dicho crimen,
                                                                      sin perjuicio de los derechos de terceros de buena fe”.
 
-## 320      COMITÉ INTERNACIONAL DE LA CRUZ ROJA (2006), pp. 6 y 13; CRUZ ROJA AMERICANA (2006), pp. 1 y
-
-
 ## 4. Refieren a la ratificación de los Protocolos I y II de 1977 que complementan las Convenciones, ampliando
 
-                                                               las normas humanitarias recogidas en ellas; señala que hasta el año 2006, 166 países habían ratificado el
+**Definición Canónica:** las normas humanitarias recogidas en ellas; señala que hasta el año 2006, 166 países habían ratificado el
+                                                               Protocolo I y 162 el II.
+Derecho Internacional                                                                          2. El Derecho Penal                                                                127
+Humanitario y el                                                                                  Internacional (DPI)
+**Concordancias Legales:** artículo 3; Constitucion
+
+las normas humanitarias recogidas en ellas; señala que hasta el año 2006, 166 países habían ratificado el
                                                                Protocolo I y 162 el II.
 Derecho Internacional                                                                          2. El Derecho Penal                                                                127
 Humanitario y el                                                                                  Internacional (DPI)
@@ -5714,15 +5749,15 @@ Humanitario y el                                                                
 Derecho Internacional                                                                      3. Relaciones entre el Derecho Interno                                     130
 Humanitario y el                                                                              y el Derecho Internacional
 
-
-## 3.1              Recepción, aplicación y jerarquía de los
-
-                                                                                             tratadosinternacionales en el derecho chileno
-
-
 ## 3.1.1 Teorías que explican las relaciones entre el
 
-                                                                                             Derecho Internacional y el Derecho Interno
+**Definición Canónica:** Derecho Internacional y el Derecho Interno
+                                                                                             Las relaciones entre el derecho internacional y los derechos inter-
+                                                                                             nos de los Estados es un problema clásico, tratado en un intenso y
+                                                                                             ya antiguo debate académico que ha dividido a la doctrina en dos
+                                                                              
+
+Derecho Internacional y el Derecho Interno
                                                                                              Las relaciones entre el derecho internacional y los derechos inter-
                                                                                              nos de los Estados es un problema clásico, tratado en un intenso y
                                                                                              ya antiguo debate académico que ha dividido a la doctrina en dos
@@ -5737,10 +5772,15 @@ Humanitario y el                                                                
                                                                                              cho internacional? Y, en caso de conflicto, ¿cuál de los dos prima?
                                                                                              (Montt, 2005, p. 25).
 
-
 ## 3.1.1.1 Teoría dualista o pluralista326
 
-                                                                                             Cronológicamente, la más antigua postura es la dualista o pluralista,
+**Definición Canónica:** Cronológicamente, la más antigua postura es la dualista o pluralista,
+                                                                                             enunciada por el jurista alemán Triepel a fines del siglo XIX y com-
+                                                                                             plementada por el italiano Anzilotti, que considera que el derecho
+                                                                                             internacional (DI) y el derecho interno son dos sistemas jurídicos
+                                                
+
+Cronológicamente, la más antigua postura es la dualista o pluralista,
                                                                                              enunciada por el jurista alemán Triepel a fines del siglo XIX y com-
                                                                                              plementada por el italiano Anzilotti, que considera que el derecho
                                                                                              internacional (DI) y el derecho interno son dos sistemas jurídicos
@@ -5790,10 +5830,15 @@ Humanitario y el                                                  y el Derecho I
                                                                  aplicación: la norma interna rige en el ámbito interno y las normas
                                                                  internacionales están hechas para regir las relaciones internacionales.
 
-
 ## 3.1.1.2 Teoría monista
 
-                                                                 A la teoría dualista se opone –desde principios del siglo XX– la doc-
+**Definición Canónica:** A la teoría dualista se opone –desde principios del siglo XX– la doc-
+                                                                 trina monista, expuesta especialmente por el jurista vienés Kelsen. El
+                                                                 monismo jurídico concibe las relaciones entre el DI y los derechos
+                                                                 internos no como las relaciones de dos ordenamientos jurídicos dife-
+                                                                 rentes y separados, sino formando parte de un único ordenamient
+
+A la teoría dualista se opone –desde principios del siglo XX– la doc-
                                                                  trina monista, expuesta especialmente por el jurista vienés Kelsen. El
                                                                  monismo jurídico concibe las relaciones entre el DI y los derechos
                                                                  internos no como las relaciones de dos ordenamientos jurídicos dife-
@@ -5875,10 +5920,15 @@ Humanitario y el                                                  y el Derecho I
                                                                  internacional, hace responsable al Estado y lo expone a las sanciones
                                                                  del derecho internacional general.
 
-
 ## 3.1.1.3 Teoría de la coordinación
 
-                                                                 El debate entre dualistas y monistas es inacabable y sin resolución a
+**Definición Canónica:** El debate entre dualistas y monistas es inacabable y sin resolución a
+                                                                 favor de una u otra teoría, pues estas doctrinas antagónicas reflejan
+                                                                 insuficiencias tanto teóricas como prácticas y sus diferencias con-
+                                                                 ceptuales no parecen haber inspirado divergencias significativas
+                                                                 en la aplicación del derecho internacional en los Estados.
+
+El debate entre dualistas y monistas es inacabable y sin resolución a
                                                                  favor de una u otra teoría, pues estas doctrinas antagónicas reflejan
                                                                  insuficiencias tanto teóricas como prácticas y sus diferencias con-
                                                                  ceptuales no parecen haber inspirado divergencias significativas
@@ -5933,10 +5983,11 @@ Humanitario y el                                                                
                                                                                       aunque con un punto de partida monista –unidad de todos los
                                                                                       sistemas normativos– no refieren a subordinación ni a delegación,
 
-
 ## 328 RIVEROS (1996), p. 407; BENADAVA (2004), p. 79; ARBUET-VIGNALI y PUCEIRO (2005), p. 397; CASSESE
 
-                                                           (2005), p. 220; FERDINANDUSSE (2006), pp. 132-140; VARGAS (2007), pp. 191-192.
+**Definición Canónica:** (2005), p. 220; FERDINANDUSSE (2006), pp. 132-140; VARGAS (2007), pp. 191-192.
+
+(2005), p. 220; FERDINANDUSSE (2006), pp. 132-140; VARGAS (2007), pp. 191-192.
 
 Derecho Internacional                                                                  3. Relaciones entre el Derecho Interno                                 135
 Humanitario y el                                                                          y el Derecho Internacional
@@ -5951,10 +6002,12 @@ Humanitario y el                                                                
                                                                                          pertenecientes a una y otra esfera se complementan, no se excluyen,
                                                                                          sino que concurren de forma acumulativa.330
 
-
 ## 3.1.2 Recepción de las normas internacionales
 
-                                                                                         en el ordenamiento jurídico chileno
+**Definición Canónica:** en el ordenamiento jurídico chileno
+**Concordancias Legales:** artículo 54; constitucion; Constitución; Constitución Política
+
+en el ordenamiento jurídico chileno
 
                                                                                          En el ordenamiento chileno no existe norma constitucional ni legal
                                                                                          que, de forma explícita, señale el mecanismo de recepción de las nor-
@@ -6011,10 +6064,16 @@ Humanitario y el                                                                
                                                                                              suspendidas en la forma prevista en los propios tratados o de acuerdo
                                                                                              a las normas generales de derecho internacional”.
 
-
 ## 3.1.2.1 Incorporación automática de las normas
 
-                                                                                             internacionales consuetudinarias por tradición judicial
+**Definición Canónica:** internacionales consuetudinarias por tradición judicial
+                                                                                             Las normas internacionales de origen consuetudinario se incorporan
+                                                                                             al ordenamiento jurídico chileno de manera automática, aunque no
+                                                                                             exista norma escrita en ese sentido en la Constitución o en legisla-
+                                                                
+**Concordancias Legales:** Constitución
+
+internacionales consuetudinarias por tradición judicial
                                                                                              Las normas internacionales de origen consuetudinario se incorporan
                                                                                              al ordenamiento jurídico chileno de manera automática, aunque no
                                                                                              exista norma escrita en ese sentido en la Constitución o en legisla-
@@ -6048,7 +6107,12 @@ Humanitario y el                                                                
 
 ## parte integrante de la legislación del Estado”.332 Idéntico principio
 
-                                                                                              era sostenido, en aquella época, por Andrés Bello al indicar que “en
+**Definición Canónica:** era sostenido, en aquella época, por Andrés Bello al indicar que “en
+                                                                                              una nación y en una época dada el derecho de gentes sea una parte
+                                                                                              de la jurisprudencia patria, no admite duda”.333
+**Concordancias Legales:** artículo 5; Constitución; constitucion; Constitución Política
+
+era sostenido, en aquella época, por Andrés Bello al indicar que “en
                                                                                               una nación y en una época dada el derecho de gentes sea una parte
                                                                                               de la jurisprudencia patria, no admite duda”.333
 
@@ -6155,10 +6219,17 @@ Humanitario y el                                                                
 Derecho Internacional                                          3. Relaciones entre el Derecho Interno                                140
 Humanitario y el                                                  y el Derecho Internacional
 
-
 ## 3.1.2.2 Incorporación automática de las normas
 
-                                                                 internacionales convencionales sobre derechos
+**Definición Canónica:** internacionales convencionales sobre derechos
+                                                                 humanos por mandato constitucional expreso
+                                                                 De acuerdo con la normativa constitucional chilena, el derecho
+                                                                 convencional internacional, para ser aplicado en el orden interno,
+                                                                 requiere previamente de aprobación parlamentaria y ratificación
+                                                         
+**Concordancias Legales:** artículo 32; artículo 54; artículo 5; artículo 1; artículo 2; constitucion; Constitución; Constitución Política
+
+internacionales convencionales sobre derechos
                                                                  humanos por mandato constitucional expreso
                                                                  De acuerdo con la normativa constitucional chilena, el derecho
                                                                  convencional internacional, para ser aplicado en el orden interno,
@@ -6315,10 +6386,16 @@ Humanitario y el                                                                
                                                                                           en la Sexta Conferencia Internacional Americana, efectuada en La
                                                                                           Habana, donde se acordó el texto de una Convención respecto de los
 
-
 ## 340 Véase v.g. Corte de Apelaciones de Santiago: considerandos cuarto y decimocuarto del voto en contra del
 
-                                                          abogado integrante Pozo en Urrutia con Ruiz y otros (2007, rol N° 14281-2006); Contra Gómez Aguilar (2006,
+**Definición Canónica:** abogado integrante Pozo en Urrutia con Ruiz y otros (2007, rol N° 14281-2006); Contra Gómez Aguilar (2006,
+                                                          rol N° 37483-2004) considerando undécimo; Contra Ruiz, Madrid, Corvalán y Díaz (2006, rol N° 14058-2004)
+                                                          considerando vigésimo octavo; Lejderman con Polanco y otros (2007, rol N° 11801-2006) considerando cuar-
+                                                          to; Toro y otros con Contreras y otros (2007, rol N° 1579-2007), considerando decimotercero. Sin embargo,
+   
+**Concordancias Legales:** artículo 5; Ley Nº 18.903
+
+abogado integrante Pozo en Urrutia con Ruiz y otros (2007, rol N° 14281-2006); Contra Gómez Aguilar (2006,
                                                           rol N° 37483-2004) considerando undécimo; Contra Ruiz, Madrid, Corvalán y Díaz (2006, rol N° 14058-2004)
                                                           considerando vigésimo octavo; Lejderman con Polanco y otros (2007, rol N° 11801-2006) considerando cuar-
                                                           to; Toro y otros con Contreras y otros (2007, rol N° 1579-2007), considerando decimotercero. Sin embargo,
@@ -6376,10 +6453,15 @@ Humanitario y el                                                                
                                                                                            interno, los tratados internacionales ratificados y vigentes en el
                                                                                            país
 
-
 ## 341 Artículo 4° de la Convención: “Los Tratados serán publicados inmediatamente después del canje de las ra-
 
-                                                          tificaciones. La omisión en el cumplimiento de esta obligación internacional no afectará la vigencia de los
+**Definición Canónica:** tificaciones. La omisión en el cumplimiento de esta obligación internacional no afectará la vigencia de los
+                                                          Tratados, ni la exigibilidad de las obligaciones contenidas en ellos”. Conferencias Internacionales Americanas
+                                                          1889-1936. Recopilación de tratados y otros documentos. Disponible online [fecha de consulta: 11 de enero
+                                                          de 2021].
+**Concordancias Legales:** artículo 54; artículo 50; Constitución; constitucion
+
+tificaciones. La omisión en el cumplimiento de esta obligación internacional no afectará la vigencia de los
                                                           Tratados, ni la exigibilidad de las obligaciones contenidas en ellos”. Conferencias Internacionales Americanas
                                                           1889-1936. Recopilación de tratados y otros documentos. Disponible online [fecha de consulta: 11 de enero
                                                           de 2021].
@@ -6465,10 +6547,11 @@ Humanitario y el                                                                
 Derecho Internacional                                                3. Relaciones entre el Derecho Interno                              147
 Humanitario y el                                                        y el Derecho Internacional
 
-
 ## 3.2   Las normas de ius cogens y el
 
-                                                                     orden público internacional
+**Definición Canónica:** orden público internacional
+
+orden público internacional
 
                                                                        El ius cogens son normas imperativas de derecho internacional general
                                                                        indisponibles para los sujetos de derecho internacional, debido a
@@ -6864,10 +6947,11 @@ Humanitario y el                                                                
 Derecho Internacional                                                                    3. Relaciones entre el Derecho Interno                                     156
 Humanitario y el                                                                            y el Derecho Internacional
 
-
 ## 3.3              Responsabilidad internacional estatal por
 
-                                                                                          incumplimiento de obligaciones internacionales
+**Definición Canónica:** incumplimiento de obligaciones internacionales
+
+incumplimiento de obligaciones internacionales
 
                                                                                            La generación de responsabilidad para quien incumpla una obliga-
                                                                                            ción jurídica es un principio general de derecho, el cual en derecho
@@ -6915,10 +6999,15 @@ Humanitario y el                                                                
                                                                                            artículos han sido aplicados ampliamente por los tribunales y otros
                                                                                            órganos internacionales.351
 
-
 ## 3.3.1 El hecho internacionalmente ilícito
 
-                                                                                           El Proyecto, en su artículo 1°, recoge este principio general de ge-
+**Definición Canónica:** El Proyecto, en su artículo 1°, recoge este principio general de ge-
+                                                                                           neración de responsabilidad por todo hecho internacionalmente
+                                                                                           ilícito del Estado. Ahora bien, es especialmente importante destacar
+                                                                                           que esta disposición no se aplica exclusivamente a la responsabilidad
+**Concordancias Legales:** artículo 1; artículo 2; artículos 4
+
+El Proyecto, en su artículo 1°, recoge este principio general de ge-
                                                                                            neración de responsabilidad por todo hecho internacionalmente
                                                                                            ilícito del Estado. Ahora bien, es especialmente importante destacar
                                                                                            que esta disposición no se aplica exclusivamente a la responsabilidad
@@ -6942,10 +7031,15 @@ Humanitario y el                                                                
                                                                                            En cuanto a la atribución de un comportamiento determinado a
                                                                                            un Estado, el capítulo II del Proyecto, artículos 4 a 11, especifica
 
-
 ## 350 La Asamblea General de las Naciones Unidas, desde que tomó nota del proyecto de artículos, refiere a la
 
-                                                          posibilidad futura de aprobar su texto como tratado: Resoluciones Nº. A/RES/56/83, 12.12.2001; A/RES/59/35,
+**Definición Canónica:** posibilidad futura de aprobar su texto como tratado: Resoluciones Nº. A/RES/56/83, 12.12.2001; A/RES/59/35,
+                                                          2.12.2004; A/RES/62/61, 6.12.2007; A/RES/ 65/19, 6.12.2010; A/RES/68/104, 16.12.2013; A/RES/71/133, 13.12.2016;
+                                                          A/RES/74/180, 18.12.2019. Estableció su próxima revisión para el 77° periodo de sesiones (2022).
+                                                      351 Vid. Compilaciones realizadas por el Secretario General de las Naciones Unidas, A62/62, 1.02.2007; A/62/62/
+ 
+
+posibilidad futura de aprobar su texto como tratado: Resoluciones Nº. A/RES/56/83, 12.12.2001; A/RES/59/35,
                                                           2.12.2004; A/RES/62/61, 6.12.2007; A/RES/ 65/19, 6.12.2010; A/RES/68/104, 16.12.2013; A/RES/71/133, 13.12.2016;
                                                           A/RES/74/180, 18.12.2019. Estableció su próxima revisión para el 77° periodo de sesiones (2022).
                                                       351 Vid. Compilaciones realizadas por el Secretario General de las Naciones Unidas, A62/62, 1.02.2007; A/62/62/
@@ -6978,7 +7072,13 @@ Humanitario y el                                                                
 
 ## capítulo V del Proyecto se enumeran las circunstancias que excluyen
 
-                                                                                          la ilicitud, a saber: consentimiento (artículo 20); legítima defensa
+**Definición Canónica:** la ilicitud, a saber: consentimiento (artículo 20); legítima defensa
+                                                                                          (artículo 21); contramedidas debido a un hecho internacionalmen-
+                                                                                          te ilícito (artículo 22); fuerza mayor (artículo 23); peligro extremo
+                                                                                          (artículo 24), y necesidad (artículo 25).
+**Concordancias Legales:** artículo 20; artículo 21; artículo 22; artículo 23; artículo 24; artículo 25; artículo 26; artículo 48 del Proyecto en análisis
+
+la ilicitud, a saber: consentimiento (artículo 20); legítima defensa
                                                                                           (artículo 21); contramedidas debido a un hecho internacionalmen-
                                                                                           te ilícito (artículo 22); fuerza mayor (artículo 23); peligro extremo
                                                                                           (artículo 24), y necesidad (artículo 25).
@@ -7035,10 +7135,11 @@ Humanitario y el                                                                
                                                                                            El violar una norma de ius cogens es grave, pues implica un incumpli-
                                                                                            miento flagrante (se refiere a la intensidad de la violación o sus efectos)
 
-
 ## 356      Cfr. AGUILAR (2006a), p. 132; KAWASAKI (2007), pp. 10-11; LINDERFALK (2007), p. 868; UNITED NATIONS
 
-                                                               (2001), p. 85 § 4.
+**Definición Canónica:** (2001), p. 85 § 4.
+
+(2001), p. 85 § 4.
 
 Derecho Internacional                                                                       3. Relaciones entre el Derecho Interno                                     160
 Humanitario y el                                                                               y el Derecho Internacional
@@ -7066,10 +7167,16 @@ Humanitario y el                                                                
                                                                                               agresión y del genocidio, por su naturaleza requieren una violación
                                                                                               a larga escala.357
 
-
 ## 3.3.2 La responsabilidad internacional
 
-                                                                                              Las consecuencias más importantes de la responsabilidad del Estado
+**Definición Canónica:** Las consecuencias más importantes de la responsabilidad del Estado
+                                                                                              por un hecho internacionalmente ilícito son la obligación de cesa-
+                                                                                              ción, no repetición y reparación.358 La obligación de cesación de la
+                                                                                              conducta ilícita tiene por objeto poner fin a la violación del derecho
+                                            
+**Concordancias Legales:** artículos 30; Artículo 30; Artículo 31
+
+Las consecuencias más importantes de la responsabilidad del Estado
                                                                                               por un hecho internacionalmente ilícito son la obligación de cesa-
                                                                                               ción, no repetición y reparación.358 La obligación de cesación de la
                                                                                               conducta ilícita tiene por objeto poner fin a la violación del derecho
@@ -7085,13 +7192,12 @@ Humanitario y el                                                                
                                                                b) A ofrecer seguridades y garantías adecuadas de no repetición, si las circunstancias lo exigen.
                                                                Artículo 31. Reparación.
 
-## 1. El Estado responsable está obligado a reparar íntegramente el perjuicio causado por el hecho internacio-
-
-                                                                  nalmente ilícito.
-
 ## 2. El perjuicio comprende todo daño, tanto material como moral, causado por el hecho internacionalmente
 
-                                                                  ilícito del Estado”.
+**Definición Canónica:** ilícito del Estado”.
+**Concordancias Legales:** artículo 41 del Proyecto señala como consecuencias adicionale; artículo 16; artículo 41; artículos 1; artículo 37
+
+ilícito del Estado”.
 
 Derecho Internacional                                                                        3. Relaciones entre el Derecho Interno                                        161
 Humanitario y el                                                                                y el Derecho Internacional
@@ -7231,7 +7337,9 @@ Humanitario y el                                                                
 
 ## 368      Así, por ejemplo, en el Sistema Interamericano de Protección de los Derechos Humanos se ha reconocido
 
-                                                               la obligación de reparar a los individuos cuyos derechos han sido violados, y la Corte Interamericana de
+**Definición Canónica:** la obligación de reparar a los individuos cuyos derechos han sido violados, y la Corte Interamericana de
+
+la obligación de reparar a los individuos cuyos derechos han sido violados, y la Corte Interamericana de
 
 Derecho Internacional                                                                       3. Relaciones entre el Derecho Interno                                     164
 Humanitario y el                                                                               y el Derecho Internacional
@@ -7271,10 +7379,12 @@ Humanitario y el                                                                
 Derecho Internacional                                                                        3. Relaciones entre el Derecho Interno                                   165
 Humanitario y el                                                                                y el Derecho Internacional
 
-
 ## 3.4             Rol de las jurisdicciones nacionales en el
 
-                                                                                             cumplimiento de las obligaciones internacionales
+**Definición Canónica:** cumplimiento de las obligaciones internacionales
+**Concordancias Legales:** artículo 68; artículo 5; artículo 1; artículo 1.1 de la Convención Americana sobre Derechos Humanos; Ley N° 28.237; constitucion
+
+cumplimiento de las obligaciones internacionales
 
                                                                                               Las sentencias internacionales, a diferencia de las sentencias ex-
                                                                                               tranjeras que requieren del procedimiento de exequatur, no necesitan
@@ -7541,15 +7651,16 @@ Humanitario y el                                                                
 Derecho Internacional                                                                 4. Aplicación en Chile                                                172
 Humanitario y el                                                                         del DIH y el DPI
 
-
-## 4.1           La aplicación en Chile de los Convenios
-
-                                                                                        de Ginebra
-
-
 ## 4.1.1 Evolución jurisprudencial en el
 
-                                                                                        ámbito de la responsabilidad penal
+**Definición Canónica:** ámbito de la responsabilidad penal
+                                                                                        Recordemos que los Convenios de Ginebra de 1949 son los instru-
+                                                                                        mentos internacionales principales que codifican las normas
+                                                                                        del derecho internacional humanitario, aquellas normas
+                                                                                        internacionales que regulan las fo
+**Concordancias Legales:** artículo 1 del Decreto Ley Nº 5 de 1973; artículo 418 del Código de Justicia Militar; artículo 418 del Código
+
+ámbito de la responsabilidad penal
                                                                                         Recordemos que los Convenios de Ginebra de 1949 son los instru-
                                                                                         mentos internacionales principales que codifican las normas
                                                                                         del derecho internacional humanitario, aquellas normas
@@ -7602,30 +7713,43 @@ Humanitario y el                                                                
 
                                                                                              ello, a saber, la existencia de un conflicto bélico efectivo382:
 
-
 ## 1. De los artículos 2º y 3º comunes a los cuatro Convenios de
 
-                                                                                                Ginebra, resulta de manifiesto que su aplicación incide y se
+**Definición Canónica:** Ginebra, resulta de manifiesto que su aplicación incide y se
+                                                                                                limita específicamente a casos de guerra declarada, de carácter
+                                                                                                internacional y sobre situaciones de conflictos armados
+                                                                                                internos,que surjan dentro del territorio de algunas de las Altas
+                                                                 
+
+Ginebra, resulta de manifiesto que su aplicación incide y se
                                                                                                 limita específicamente a casos de guerra declarada, de carácter
                                                                                                 internacional y sobre situaciones de conflictos armados
                                                                                                 internos,que surjan dentro del territorio de algunas de las Altas
                                                                                                 Partes contratantes, tratándose de un efectivo conflicto
                                                                                                 bélico o de guerra interna, entre partes contendientes armadas.
 
-
 ## 2. No es posible sostener que al interior del país existieron fuerzas
 
-                                                                                                armadas (FF. AA.) disidentes o grupos organizados que, bajo la
+**Definición Canónica:** armadas (FF. AA.) disidentes o grupos organizados que, bajo la
+                                                                                                dirección de un mando responsable, ejercieran sobre una parte
+                                                                                                del territorio nacional un control suficiente que les
+                                                                                                permitiera realizar operaciones militares sostenidas y
+                                                                              
+
+armadas (FF. AA.) disidentes o grupos organizados que, bajo la
                                                                                                 dirección de un mando responsable, ejercieran sobre una parte
                                                                                                 del territorio nacional un control suficiente que les
                                                                                                 permitiera realizar operaciones militares sostenidas y
                                                                                                 concertadas, por lo que resultan inaplicables los Convenios de
                                                                                                 Ginebra.
 
-
 ## 3. Mediante Decreto Ley Nº 3 de 1973 se declaró en estado de sitio
 
-                                                                                                por conmoción interna el territorio nacional, lo que no importó
+**Definición Canónica:** por conmoción interna el territorio nacional, lo que no importó
+                                                                                                el reconocimiento de un estado de tiempo de guerra en el país, lo
+                                                                                                cual se dispuso solo con el objeto de dar aplicación a la normativa
+
+por conmoción interna el territorio nacional, lo que no importó
                                                                                                 el reconocimiento de un estado de tiempo de guerra en el país, lo
                                                                                                 cual se dispuso solo con el objeto de dar aplicación a la normativa
 
@@ -7648,11 +7772,17 @@ Humanitario y el                                                  del DIH y el D
                                                                       Chile el estado de guerra solo constituyó una ficción legal que no
                                                                       era reflejo de la realidad experimentada en esa época.
 
-
 ## 4. Los actos preventivos, previos o preparatorios de un estado de
 
+**Definición Canónica:** tiempo de guerra no necesariamente lo constituyen o desem-
+                                                                     bocan en este, por cuanto el acaecimiento de “graves trastornos
+                                                                     internos” podrá permitir la actuación de los “tribunales de
+                                                                     tiempode guerra, sin que signifique que el país esté en estado o
+                                                                     tiempo de guerra”. La actuación de los tribunales de tiempo de
+             
+**Concordancias Legales:** artículo 3
 
-                                                                     tiempo de guerra no necesariamente lo constituyen o desem-
+tiempo de guerra no necesariamente lo constituyen o desem-
                                                                      bocan en este, por cuanto el acaecimiento de “graves trastornos
                                                                      internos” podrá permitir la actuación de los “tribunales de
                                                                      tiempode guerra, sin que signifique que el país esté en estado o
@@ -7683,10 +7813,15 @@ Humanitario y el                                                                
                                                                                                nunca puede oponerse como causal de exención de la responsabi-
                                                                                                lidad penal383:
 
-
 ## 1. El artículo 5º inciso segundo de la Constitución de 1980, apli-
 
-                                                                                                  cable en esta época, ordena a los órganos del Estado a respetar y
+**Definición Canónica:** cable en esta época, ordena a los órganos del Estado a respetar y
+                                                                                                  promover los derechos esenciales que emanan de la naturaleza
+                                                                                                  humana, garantizados por los tratados internacionales. Mientras
+                                                                                                  que las disposiciones de los Convenios de Ginebra protegen los
+                                                    
+
+cable en esta época, ordena a los órganos del Estado a respetar y
                                                                                                   promover los derechos esenciales que emanan de la naturaleza
                                                                                                   humana, garantizados por los tratados internacionales. Mientras
                                                                                                   que las disposiciones de los Convenios de Ginebra protegen los
@@ -7694,10 +7829,16 @@ Humanitario y el                                                                
                                                                                                   terna o conflictos entre fuerzas organizadas de carácter interior
                                                                                                   de un Estado.
 
-
 ## 2. En la fecha en que se cometieron los ilícitos existía un conflicto
 
-                                                                                                  armado, invocándose para probarlo el Decreto Ley Nº 5 de 1973,
+**Definición Canónica:** armado, invocándose para probarlo el Decreto Ley Nº 5 de 1973,
+                                                                                                  que señala que debe entenderse estado o tiempo de guerra al
+                                                                                                  estado de sitio decretado por conmoción interna para los efec-
+                                                                                                  tos de la aplicación de la penalidad, de tiempo de guerra que
+                                                          
+**Concordancias Legales:** artículo 418 del Código de Justicia Militar; artículo 1; artículo 418 del Código de
+
+armado, invocándose para probarlo el Decreto Ley Nº 5 de 1973,
                                                                                                   que señala que debe entenderse estado o tiempo de guerra al
                                                                                                   estado de sitio decretado por conmoción interna para los efec-
                                                                                                   tos de la aplicación de la penalidad, de tiempo de guerra que
@@ -7729,19 +7870,28 @@ Humanitario y el                                                                
 Derecho Internacional                                          4. Aplicación en Chile                                               176
 Humanitario y el                                                  del DIH y el DPI
 
-
 ## 4. Había conmoción interior provocada por fuerzas rebeldes o sedi-
 
-                                                                    ciosas organizadas que operaban en forma abierta o clandestina y
+**Definición Canónica:** ciosas organizadas que operaban en forma abierta o clandestina y
                                                                     durante todo el periodo rigieron los tribunales, los procedimien-
                                                                     tos y las penalidades de tiempo de guerra. Asimismo, había una
                                                                     acción militar al mando de un jefe especialmente nombrado al
                                                                     efecto, con atribuciones para dictar bandos.
 
+ciosas organizadas que operaban en forma abierta o clandestina y
+                                                                    durante todo el periodo rigieron los tribunales, los procedimien-
+                                                                    tos y las penalidades de tiempo de guerra. Asimismo, había una
+                                                                    acción militar al mando de un jefe especialmente nombrado al
+                                                                    efecto, con atribuciones para dictar bandos.
 
 ## 5. Los artículos 146, 147 y 148 de los Convenios son de aplicación
 
-                                                                    amplia aun fuera del estado de guerra: es el repudio de toda acción
+**Definición Canónica:** amplia aun fuera del estado de guerra: es el repudio de toda acción
+                                                                    delictual que lleve a la comisión de “homicidio adrede, tortura o
+                                                                    tratos inhumanos” y es obvio que si estos delitos no pueden co-
+                                                                    meterse durante una guerra, mucho menos pueden ser cometidos
+
+amplia aun fuera del estado de guerra: es el repudio de toda acción
                                                                     delictual que lleve a la comisión de “homicidio adrede, tortura o
                                                                     tratos inhumanos” y es obvio que si estos delitos no pueden co-
                                                                     meterse durante una guerra, mucho menos pueden ser cometidos
@@ -7750,10 +7900,16 @@ Humanitario y el                                                  del DIH y el D
                                                                     una garantía de esos derechos fundamentales del ser humano que
                                                                     no pueden ser quebrantados en ninguna circunstancia.
 
-
 ## 6. El Estado de Chile se impuso en los citados Convenios la obli-
 
-                                                                    gación de garantizar la seguridad de las personas que pudieren
+**Definición Canónica:** gación de garantizar la seguridad de las personas que pudieren
+                                                                    tener participación en conflictos armados dentro de su territorio,
+                                                                    especialmente si fueren detenidas, quedando vedado el disponer
+                                                                    medidas que tendieren a amparar los agravios cometidos contra
+                                                                    personas determinadas o lograr la impunidad de sus autores, te-
+         
+
+gación de garantizar la seguridad de las personas que pudieren
                                                                     tener participación en conflictos armados dentro de su territorio,
                                                                     especialmente si fueren detenidas, quedando vedado el disponer
                                                                     medidas que tendieren a amparar los agravios cometidos contra
@@ -7761,10 +7917,16 @@ Humanitario y el                                                  del DIH y el D
                                                                     niendo especialmente presente que los acuerdos internacionales
                                                                     deben cumplirse de buena fe.
 
-
 ## 4.1.2 Evolución jurisprudencial en el
 
-                                                                 ámbito de la responsabilidad civil
+**Definición Canónica:** ámbito de la responsabilidad civil
+                                                                 En una tercera etapa (2006 en adelante), en tribunales chilenos se
+                                                                 discute sobre la prescripción de las acciones civiles reparatorias en
+                                                                 casos de crímenes de lesa humanidad, y en especial sobre la inter-
+                                                                 pretación de los jueces chilenos al aplicar los Convenios de Ginebra
+                                
+
+ámbito de la responsabilidad civil
                                                                  En una tercera etapa (2006 en adelante), en tribunales chilenos se
                                                                  discute sobre la prescripción de las acciones civiles reparatorias en
                                                                  casos de crímenes de lesa humanidad, y en especial sobre la inter-
@@ -7831,10 +7993,16 @@ Humanitario y el                                                                
                                                                                                blecida en el Código Civil, siendo que los hechos que ocasionaron
                                                                                                el daño son actos calificados como crímenes de lesa humanidad.
 
-
 ## 4.1.2.1 La prescriptibilidad de las acciones
 
-                                                                                               civiles reparatorias (2006-2014)
+**Definición Canónica:** civiles reparatorias (2006-2014)
+                                                                                                A favor de la prescripción de estas acciones civiles, se arguyen razones
+                                                                                               de paz social y de certeza jurídica, pues se afirma que estas “constitu-
+                                                                                               ye[n] un principio general del derecho” que “adquiere[n] presencia en
+                                                                 
+**Concordancias Legales:** artículo 2332 del Código Civil chileno sobre responsabilidad ex; artículo 10 del Código de Procedimiento Penal; Ley Nº 19.123; Ley Nº 19.980
+
+civiles reparatorias (2006-2014)
                                                                                                 A favor de la prescripción de estas acciones civiles, se arguyen razones
                                                                                                de paz social y de certeza jurídica, pues se afirma que estas “constitu-
                                                                                                ye[n] un principio general del derecho” que “adquiere[n] presencia en
@@ -7941,10 +8109,16 @@ Humanitario y el                                                                
                                                                                               nible objeto del proceso penal, lo que viene a significar una
                                                                                               exigenciaen el campo de la causalidad”.391
 
-
 ## 4.1.2.2 La imprescriptibilidad integral de las
 
-                                                                                              acciones que persiguen la sanción de los
+**Definición Canónica:** acciones que persiguen la sanción de los
+                                                                                              crímenes de lesa humanidad (2015-)
+                                                                                              El núcleo central del argumento de esta tendencia jurispruden-
+                                                                                              cial descansa en la convicción de que la imprescriptibilidad de los
+                                                                                              crímenes de lesa 
+**Concordancias Legales:** artículo 63 de la Convención Americana sobre; artículo 4; artículo 32; artículo 50; artículo 5; artículo 5 de la Carta; artículos 1; Ley Nº 20.352; Ley Nº 20.357; Constitución; Constitucion; Constitución Política
+
+acciones que persiguen la sanción de los
                                                                                               crímenes de lesa humanidad (2015-)
                                                                                               El núcleo central del argumento de esta tendencia jurispruden-
                                                                                               cial descansa en la convicción de que la imprescriptibilidad de los
@@ -8343,20 +8517,22 @@ Humanitario y el                                                                
 
 ## 412 Cfr. BIANCHI (1999), p. 250; GÓMEZ (2000), p. 305; AKANDE (2004), p. 408; ARRAU (2005), pp. 14-15; PHI-
 
-                                                           LIPPE (2006), p. 439 y 447-449; RODRÍGUEZ (2007), pp. 2-3, 8 y 23; FUENTES (2011), pp. 122 y 126.
+**Definición Canónica:** LIPPE (2006), p. 439 y 447-449; RODRÍGUEZ (2007), pp. 2-3, 8 y 23; FUENTES (2011), pp. 122 y 126.
+
+LIPPE (2006), p. 439 y 447-449; RODRÍGUEZ (2007), pp. 2-3, 8 y 23; FUENTES (2011), pp. 122 y 126.
 
 Derecho Internacional                                                                       4. Aplicación en Chile                                                  191
 Humanitario y el                                                                               del DIH y el DPI
 
-
-## 4.3              Crímenes de ius cogens en los
-
-                                                                                             tribunales de justicia chilenos
-
-
 ## 4.3.1 Imprescriptibilidad de la acción penal
 
-                                                                                              para perseguir crímenes de ius cogens
+**Definición Canónica:** para perseguir crímenes de ius cogens
+                                                                                              Durante la década de los 90, común fue la alusión por parte de los
+                                                                                              querellantes, en las causas de conocimiento de crímenes de ius cogens,
+                                                                                              a las disposiciones atinentes habidas en los Convenios de Ginebra,
+                                                                           
+
+para perseguir crímenes de ius cogens
                                                                                               Durante la década de los 90, común fue la alusión por parte de los
                                                                                               querellantes, en las causas de conocimiento de crímenes de ius cogens,
                                                                                               a las disposiciones atinentes habidas en los Convenios de Ginebra,
@@ -8428,8 +8604,13 @@ Humanitario y el                                                                
 
 ## parte del ordenamiento jurídico chileno. También, suelen aludir a
 
+**Definición Canónica:** 414      Corte de Apelaciones de Santiago: Barría y otros con Schernberger y otros (2005, rol Nº 15765-2004) consi-
+                                                               derandos 5º a 8º; Contra Vallejos (2006, rol Nº 7797-2006) considerando 9°; Contra Gómez Aguilar (2006, rol
+                                                               Nº 37483-2004) considerandos 8° a 12° y 15°; Contra Ruiz, Madrid, Corvalán y Díaz (2006, rol Nº 14058-2004)
+                                                               considerandos 26° a 30° y 33°; Estado de Chile y otros con Rivera (2006, rol Nº
+**Concordancias Legales:** artículo 7; artículo 29; Constitución; Constitución Política
 
-                                                      414      Corte de Apelaciones de Santiago: Barría y otros con Schernberger y otros (2005, rol Nº 15765-2004) consi-
+414      Corte de Apelaciones de Santiago: Barría y otros con Schernberger y otros (2005, rol Nº 15765-2004) consi-
                                                                derandos 5º a 8º; Contra Vallejos (2006, rol Nº 7797-2006) considerando 9°; Contra Gómez Aguilar (2006, rol
                                                                Nº 37483-2004) considerandos 8° a 12° y 15°; Contra Ruiz, Madrid, Corvalán y Díaz (2006, rol Nº 14058-2004)
                                                                considerandos 26° a 30° y 33°; Estado de Chile y otros con Rivera (2006, rol Nº 5937-2006) considerandos
@@ -8549,11 +8730,16 @@ Humanitario y el                                                                
                                                                                                    guerra, los crímenes de lesa humanidad, el crimen de genocidio
                                                                                                    y el crimen de agresión.
 
-
 ## 4.3.2 Aplicación de la media de prescripción
 
+**Definición Canónica:** o prescripción incompleta
+                                                                                                Sin perjuicio de ser la tendencia mayoritaria conducente a la no
+                                                                                                aplicación de la institución de la prescripción en casos de crímenes
+                                                                                                de lesa humanidad, como causal de extinción de la responsabilidad
+                                                                                      
+**Concordancias Legales:** artículo 103 del Código Penal chileno419; artículos 65; artículo 95
 
-                                                                                                o prescripción incompleta
+o prescripción incompleta
                                                                                                 Sin perjuicio de ser la tendencia mayoritaria conducente a la no
                                                                                                 aplicación de la institución de la prescripción en casos de crímenes
                                                                                                 de lesa humanidad, como causal de extinción de la responsabilidad
@@ -8589,8 +8775,14 @@ Humanitario y el                                                                
 
 ## parte beneficiada con ella no la hubiere alegado en juicio.420
 
+**Definición Canónica:** Aunque pareciera imponerse este criterio, advertimos que en algunos
+                                                                                               casos no se acoge la minorante, por tratarse de un delito de carácter
+                                                                                               permanente como el secuestro, pues al no existir fecha cierta de
+                                                                                               consumación del delito se hace imposible comenzar el cómputo del
+                                               
+**Concordancias Legales:** Ley 19123
 
-                                                                                               Aunque pareciera imponerse este criterio, advertimos que en algunos
+Aunque pareciera imponerse este criterio, advertimos que en algunos
                                                                                                casos no se acoge la minorante, por tratarse de un delito de carácter
                                                                                                permanente como el secuestro, pues al no existir fecha cierta de
                                                                                                consumación del delito se hace imposible comenzar el cómputo del
@@ -8626,7 +8818,13 @@ Humanitario y el                                                                
 
 ## 421      Corte Suprema: Gallegos con Fernández (2008, rol Nº 6574-2007) considerando 6° de la sentencia de re-
 
-                                                               emplazo; Contra Medina (2008, rol Nº 2422-2008) voto disidente de Rodríguez en la sentencia de casación;
+**Definición Canónica:** emplazo; Contra Medina (2008, rol Nº 2422-2008) voto disidente de Rodríguez en la sentencia de casación;
+                                                               Contreras con Contreras y otros (2009, rol Nº 4329-2008) voto disidente de Rodríguez en la sentencia de
+                                                               casación; Corte de Apelaciones de Santiago, Contra Contreras Sepúlveda y otros, caso Miguel Ángel Sandoval
+                                                               Rodríguez (2004, rol Nº 11821-2003) considerando 114º.
+                                        
+
+emplazo; Contra Medina (2008, rol Nº 2422-2008) voto disidente de Rodríguez en la sentencia de casación;
                                                                Contreras con Contreras y otros (2009, rol Nº 4329-2008) voto disidente de Rodríguez en la sentencia de
                                                                casación; Corte de Apelaciones de Santiago, Contra Contreras Sepúlveda y otros, caso Miguel Ángel Sandoval
                                                                Rodríguez (2004, rol Nº 11821-2003) considerando 114º.
@@ -8684,10 +8882,11 @@ Humanitario y el                                                                
 Derecho Internacional                                                                     4. Aplicación en Chile                                                198
 Humanitario y el                                                                             del DIH y el DPI
 
-
 ## 4.4             Rol del sistema judicial chileno en la aplicación
 
-                                                                                            de sanciones penales internacionales
+**Definición Canónica:** de sanciones penales internacionales
+
+de sanciones penales internacionales
 
                                                                                             A la fecha no ha habido casos en contra de algún chileno en la Corte
                                                                                             Penal Internacional, por lo que no existe aplicación directa de senten-
@@ -8748,10 +8947,16 @@ Humanitario y el                                                                
                                                                                           momento de hacer el depósito de la ratificación de la Convención
                                                                                           Americana sobre Derechos Humanos.427
 
-
 ## 4.4.1 La inaplicabilidad judicial del Decreto ley 2191
 
-                                                                                          En Chile, bajo el gobierno militar de Augusto Pinochet, se dictó en
+**Definición Canónica:** En Chile, bajo el gobierno militar de Augusto Pinochet, se dictó en
+                                                                                          1978 el Decreto Ley N° 2191, cuyo artículo 1° concede amnistía a to-
+                                                                                          das las personas que, en calidad de autores, cómplices o encubridores,
+                                                                                          hubieran incurrido en actos delictuosos entre el 11 de septiembre de
+                                                     
+**Concordancias Legales:** artículo 1; Ley N° 2191
+
+En Chile, bajo el gobierno militar de Augusto Pinochet, se dictó en
                                                                                           1978 el Decreto Ley N° 2191, cuyo artículo 1° concede amnistía a to-
                                                                                           das las personas que, en calidad de autores, cómplices o encubridores,
                                                                                           hubieran incurrido en actos delictuosos entre el 11 de septiembre de
@@ -8767,10 +8972,12 @@ Humanitario y el                                                                
                                                                                           de Amnistía de 1978. En una primera etapa, se aplicó el decreto tan
                                                                                           pronto como se advirtiera que los hechos investigados revestían el
 
-
 ## 427      OBSERVATORIO DE DERECHOS HUMANOS UDP (2014), p. 17; SUÁREZ (2016), pp. 424-425; MEZA-LOPEHANDÍA
 
-                                                               (2019), p. 2.
+**Definición Canónica:** (2019), p. 2.
+**Concordancias Legales:** artículo 6.5; artículo 148 del IV Convenio de Ginebra sobre la pro; artículo 6.5 del II Protocolo no es favorecer la amnistía por; constitucion; Constitución
+
+(2019), p. 2.
 
 Derecho Internacional                                                                        4. Aplicación en Chile                                                         200
 Humanitario y el                                                                                del DIH y el DPI
@@ -8860,15 +9067,24 @@ Humanitario y el                                                                
                                                                                           sentido del artículo 6.5 del II Protocolo no es favorecer la amnistía por
                                                                                           hechos susceptibles de ser calificados como violaciones al Derecho
 
-
 ## 429 Corte de Apelaciones de Santiago: Contra Contreras Sepúlveda y otros (Caso Miguel Ángel Sandoval Ro-
 
-                                                           dríguez) (2004, rol Nº 11821-2003), párrafo 76 c); Corte Suprema: Contra Contreras Sepúlveda y otros, caso
+**Definición Canónica:** dríguez) (2004, rol Nº 11821-2003), párrafo 76 c); Corte Suprema: Contra Contreras Sepúlveda y otros, caso
+                                                           Miguel Ángel Sandoval Rodríguez (2004, rol Nº 517-2004), párrafo 30.
+
+dríguez) (2004, rol Nº 11821-2003), párrafo 76 c); Corte Suprema: Contra Contreras Sepúlveda y otros, caso
                                                            Miguel Ángel Sandoval Rodríguez (2004, rol Nº 517-2004), párrafo 30.
 
 ## 430 Cfr. NOGUEIRA (2005), p. 41; ZÚÑIGA (2006), p. 3; DÍAZ (2006). La sentencia del caso de desaparición for-
 
-                                                           zada de Sandoval Rodríguez, en materia de imprescriptibilidad de los crímenes de lesa humanidad, aplica los
+**Definición Canónica:** zada de Sandoval Rodríguez, en materia de imprescriptibilidad de los crímenes de lesa humanidad, aplica los
+                                                           Convenios de Ginebra; vid. Corte Suprema: Contra Contreras Sepúlveda y otros (Caso Miguel Ángel Sandoval
+                                                           Rodríguez) (2004, rol Nº 517-2004) considerando 34°.
+                                                      431 Vid. v.g. Corte de Apelaciones de San Miguel: Contra Pinto y otro (2004, rol Nº 907-2004) considerando 6°;
+                                                   
+**Concordancias Legales:** artículo 3; artículo 6.5; Ley N° 2.191
+
+zada de Sandoval Rodríguez, en materia de imprescriptibilidad de los crímenes de lesa humanidad, aplica los
                                                            Convenios de Ginebra; vid. Corte Suprema: Contra Contreras Sepúlveda y otros (Caso Miguel Ángel Sandoval
                                                            Rodríguez) (2004, rol Nº 517-2004) considerando 34°.
                                                       431 Vid. v.g. Corte de Apelaciones de San Miguel: Contra Pinto y otro (2004, rol Nº 907-2004) considerando 6°;
@@ -8936,10 +9152,16 @@ Humanitario y el                                                                
                                                                                                internacional (calidad de normas de ius cogens). Los autoperdones o
                                                                                                impunidad están al margen de la ética y del derecho.433
 
-
 ## 4.4.2 La indemnización civil como forma de
 
-                                                                                               reparación a las víctimas o sus familiares
+**Definición Canónica:** reparación a las víctimas o sus familiares
+                                                                                               En el caso García Lucero (2013), la Corte declaró la responsabilidad
+                                                                                               internacional del Estado de Chile por no haber iniciado de oficio y
+                                                                                               en un plazo razonable434, sin mediar una querella435, una investigación
+                                                               
+**Concordancias Legales:** artículos 8.1; artículo 1.1
+
+reparación a las víctimas o sus familiares
                                                                                                En el caso García Lucero (2013), la Corte declaró la responsabilidad
                                                                                                internacional del Estado de Chile por no haber iniciado de oficio y
                                                                                                en un plazo razonable434, sin mediar una querella435, una investigación
@@ -8956,7 +9178,14 @@ Humanitario y el                                                                
 
 ## 433      Corte Suprema: Contra Pinto, caso Chena (2007, rol Nº 3125-2004) considerando 24° de la sentencia de
 
-                                                               casación; Contra Gómez (2008, rol Nº 1528-2006) considerandos 25° y 26°.
+**Definición Canónica:** casación; Contra Gómez (2008, rol Nº 1528-2006) considerandos 25° y 26°.
+                                                      434      Las diligencias investigativas se iniciaron 16 años después, en octubre de 2011. CtIDH, Caso García Lucero,
+                                                               2015, resolución de supervisión de cumplimiento de la sentencia, párrafo 1.
+                                                      435      CtIDH, Caso García Lucero, 2013, párrafo 121, “[el] deber estatal de investigar los hechos, que es una obliga-
+                                           
+**Concordancias Legales:** artículos 1.6; Ley N° 19.992.437
+
+casación; Contra Gómez (2008, rol Nº 1528-2006) considerandos 25° y 26°.
                                                       434      Las diligencias investigativas se iniciaron 16 años después, en octubre de 2011. CtIDH, Caso García Lucero,
                                                                2015, resolución de supervisión de cumplimiento de la sentencia, párrafo 1.
                                                       435      CtIDH, Caso García Lucero, 2013, párrafo 121, “[el] deber estatal de investigar los hechos, que es una obliga-
@@ -9007,7 +9236,13 @@ Humanitario y el                                                                
 
 ## 438 OBSERVATORIO DE DERECHOS HUMANOS UDP (2014), p. 17; CUBIDES et. ál.. (2015), p. 33; MEZA-LOPEHANDÍA
 
-                                                          (2019), p. 3.
+**Definición Canónica:** (2019), p. 3.
+                                                      439 BERNALES (2019), p. 294.
+                                                      440 CtIDH, Caso García Lucero (2015), resolución de supervisión de cumplimiento, párrafo 6.
+                                                      441 CENTRO DE DERECHOS HUMANOS (2017), p. 64.
+                                                      442 Solicitud autorizada por la Corte Suprema (2017, rol Nº 37255-2017).
+
+(2019), p. 3.
                                                       439 BERNALES (2019), p. 294.
                                                       440 CtIDH, Caso García Lucero (2015), resolución de supervisión de cumplimiento, párrafo 6.
                                                       441 CENTRO DE DERECHOS HUMANOS (2017), p. 64.
@@ -9066,10 +9301,16 @@ Humanitario y el                                                                
                                                                                           que “constituye un nuevo agravio para las víctimas y sobrevivientes
                                                                                           que acuden a los tribunales”.449
 
-
 ## 4.4.3 La revisión de las sentencias
 
-                                                                                          de los consejos de guerra
+**Definición Canónica:** de los consejos de guerra
+                                                                                          A diferencia de lo que ocurre en derecho comparado450, en Chile no
+                                                                                          existe una norma que regule la ejecución de las sentencias interna-
+                                                                                          cionales en general451, o de la Corte Interamericana de Derechos
+                                                                                          Humanos, en pa
+**Concordancias Legales:** artículo 8 de la Convención Americana sobre Derechos Humanos; Constitución Política
+
+de los consejos de guerra
                                                                                           A diferencia de lo que ocurre en derecho comparado450, en Chile no
                                                                                           existe una norma que regule la ejecución de las sentencias interna-
                                                                                           cionales en general451, o de la Corte Interamericana de Derechos
@@ -9189,10 +9430,13 @@ Humanitario y el                           del DIH y el DPI
 
                                                                          Bibliografía
 
-
 ## 1.    Abril Stoffels, Ruth (1998): “La asistencia humanitaria y los principios jurí-
 
-                                                               A         dicos recogidos en el Derecho Internacional Humanitario”, en Revista de la
+**Definición Canónica:** A         dicos recogidos en el Derecho Internacional Humanitario”, en Revista de la
+                                                                         Facultad de Derecho de la Universidad Complutense Nº 89 (Madrid, Gráfi-
+                                                                         cas Juma).
+
+A         dicos recogidos en el Derecho Internacional Humanitario”, en Revista de la
                                                                          Facultad de Derecho de la Universidad Complutense Nº 89 (Madrid, Gráfi-
                                                                          cas Juma).
 
@@ -9200,61 +9444,47 @@ Humanitario y el                           del DIH y el DPI
                                                                          crimen internacional y la teoría de los círculos concéntricos”, en Anuario de
                                                                          derecho internacional (vol. 11); pp. 3-22.
 
-
 ## 3.    Aguilar Cavallo, Gonzalo (2006a): “El reconocimiento jurisprudencial de la
 
-                                                                         tortura y de la desaparición forzada de personas como normas imperativas
+**Definición Canónica:** tortura y de la desaparición forzada de personas como normas imperativas
                                                                          de Derecho Internacional Público”, en Ius et Praxis (vol. 12 N° 1); pp. 117-154.
 
-
-## 4.    Aguilar Cavallo, Gonzalo (2006b): “El principio de jurisdicción universal: una
-
-                                                                         propuesta de aplicación en Chile”, en Estudios Constitucionales (vol. 4 Nº 1);
-                                                                         pp. 333-366.
-
-
-## 5.    Aguilar Cavallo, Gonzalo (2008): “Crímenes internacionales y la impres-
-
-                                                                         criptibilidad de la acción penal y civil: referencia al caso chileno”, en Ius et
-                                                                         praxis (vol. 14 N° 2); pp. 147-207.
-
-
-## 6.    Aguilar Cavallo, Gonzalo (2009a): “La Corte Suprema y la aplicación del de-
-
-                                                                         recho internacional: un proceso esperanzador”, en Estudios constitucionales
-                                                                         (vol. 7 N° 1); pp. 91-136.
-
+tortura y de la desaparición forzada de personas como normas imperativas
+                                                                         de Derecho Internacional Público”, en Ius et Praxis (vol. 12 N° 1); pp. 117-154.
 
 ## 7.    Aguilar Cavallo, Gonzalo (2009b): “La desaparición forzada de personas: na-
 
-                                                                         turaleza, fuentes y jerarquía. Comentario a la sentencia del Tribunal Constitu-
+**Definición Canónica:** turaleza, fuentes y jerarquía. Comentario a la sentencia del Tribunal Constitu-
+                                                                         cional relativo a la Convención interamericana sobre desaparición forzada de
+                                                                         personas”, en Estudios constitucionales (vol. 7 N° 2); pp. 429-463.
+**Concordancias Legales:** constitucion
+
+turaleza, fuentes y jerarquía. Comentario a la sentencia del Tribunal Constitu-
                                                                          cional relativo a la Convención interamericana sobre desaparición forzada de
                                                                          personas”, en Estudios constitucionales (vol. 7 N° 2); pp. 429-463.
 
-
 ## 8.    Aguilar Cavallo, Gonzalo y Maldonado Paredes, Antonio (2008): “Extradición
 
-                                                                         y crímenes internacionales: el caso Fujimori ante la justicia chilena”, Llanos
+**Definición Canónica:** y crímenes internacionales: el caso Fujimori ante la justicia chilena”, Llanos
+                                                                         Mansilla, Hugo y Picand Albónico, Eduardo (coordinadores académicos), enI
+                                                                         Derecho Internacional Público. Estudios de derecho internacional. Libro
+                                                                         homenaje al profesor Santiago Benadava (Santiago, Editorial Librotecnia);
+                                                                         pp. 145-1
+
+y crímenes internacionales: el caso Fujimori ante la justicia chilena”, Llanos
                                                                          Mansilla, Hugo y Picand Albónico, Eduardo (coordinadores académicos), enI
                                                                          Derecho Internacional Público. Estudios de derecho internacional. Libro
                                                                          homenaje al profesor Santiago Benadava (Santiago, Editorial Librotecnia);
                                                                          pp. 145-184.
 
-
-## 9.    Akande, Dapo (2004): “International Law Immunities and the International
-
-                                                                         Criminal Court”, en American Journal of International Law (vol. 98 N° 3); pp.
-                                                                         407-433.
-
-
-## 10.   Aldunate Lizana, Eduardo (2008): Derechos fundamentales (Santiago, Legal
-
-                                                                         Publishing).
-
-
 ## 11.   Alfonso, César (2010): “La obligatoriedad de las decisiones de la Corte Inte-
 
-                                                                         ramericana de Derechos Humanos desde la perspectiva de distintos países
+**Definición Canónica:** ramericana de Derechos Humanos desde la perspectiva de distintos países
+                                                                         de América del Sur”, Ambos, Kai, Malarino, Ezequiel y Elsner, Gisela (editores),
+                                                                         en Sistema Interamericano de Protección de los Derechos Humanos y Dere-
+                                                                         cho Penal Internacional (Montevideo, Konrad-Adenauer-Stiftung); pp. 63-79.
+
+ramericana de Derechos Humanos desde la perspectiva de distintos países
                                                                          de América del Sur”, Ambos, Kai, Malarino, Ezequiel y Elsner, Gisela (editores),
                                                                          en Sistema Interamericano de Protección de los Derechos Humanos y Dere-
                                                                          cho Penal Internacional (Montevideo, Konrad-Adenauer-Stiftung); pp. 63-79.
@@ -9265,87 +9495,65 @@ Humanitario y el                           del DIH y el DPI
 
 Derecho Internacional                                                    Bibliografía                                                                   211
 
-
 ## 13.   Ambos, Kai (1996): “Establishing an International Criminal Court and an In-
 
-                                                                         ternational Criminal Code: Observations from an International Criminal Law
+**Definición Canónica:** ternational Criminal Code: Observations from an International Criminal Law
+                                                                         Viewpoint”, en European Journal of International Law (vol. 7); pp. 519-544.
+
+ternational Criminal Code: Observations from an International Criminal Law
                                                                          Viewpoint”, en European Journal of International Law (vol. 7); pp. 519-544.
 
                                                                    14.   Ambos, Kai (2005a): La parte general del Derecho Penal Internacional (trad.
                                                                          Ezequiel Malarino, Montevideo, Konrad-Adenauer-Stiftung).
 
-
 ## 15.   Ambos, Kai (2005b): “La construcción de una parte general del derecho
 
-                                                                         penal internacional”; Ambos, Kai, Malarino, Ezequiel y Woischnik, Jan (edito-
+**Definición Canónica:** penal internacional”; Ambos, Kai, Malarino, Ezequiel y Woischnik, Jan (edito-
                                                                          res), en Temas actuales del Derecho penal internacional. Contribuciones de
                                                                          América Latina, Alemania y España (Montevideo, Konrad-Adenauer-Stif-
                                                                          tung); pp. 13-40.
 
-
-## 16.   Ambos, Kai y Malarino, Ezequiel, editores (2003): Persecución penal de
-
-                                                                         crímenes internacionales en América Latina y España (Montevideo, Kon-
-                                                                         rad-Adenauer-Stiftung).
-
-
-## 17.   Amnistía Internacional (2003): “El derecho internacional y las obligaciones
-
-
-                                                                         de los Estados”, en Contra la tortura: Manual de acción (Madrid, Ed. Amnis-
-                                                                         tía Internacional); pp. 67-98.
-
-
-## 18.   Andrés Domínguez, Ana Cristina (2006): Derecho Penal Internacional (Va-
-
-                                                                         lencia, Tirant lo Blach); 246 pp.
-
-
-## 19.   Antokoletz, Daniel (1951): II Tratado de Derecho Internacional Público (5ª
-
-                                                                         edición, Buenos Aires, Editorial La Facultad).
-
-
-## 20.   Anzilotti, Dionisio (1935): I Curso de Derecho internacional (Trad. Julio López
-
-                                                                         Olivan, Madrid, Editorial Reus S.A.).
-
+penal internacional”; Ambos, Kai, Malarino, Ezequiel y Woischnik, Jan (edito-
+                                                                         res), en Temas actuales del Derecho penal internacional. Contribuciones de
+                                                                         América Latina, Alemania y España (Montevideo, Konrad-Adenauer-Stif-
+                                                                         tung); pp. 13-40.
 
 ## 21.   Arbuet-Vignali, Heber (2005): “La sociedad y el orden jurídico internaciona-
 
-                                                                         les”, Jiménez de Aréchaga, Eduardo, Arbuet-Vignali, Heber y Puceiro Ripoll,
+**Definición Canónica:** les”, Jiménez de Aréchaga, Eduardo, Arbuet-Vignali, Heber y Puceiro Ripoll,
                                                                          Roberto, en I Derecho Internacional Público. Principios, normas y estructuras
                                                                          (Montevideo, Fundación de Cultura Universitaria); pp. 23-81.
 
+les”, Jiménez de Aréchaga, Eduardo, Arbuet-Vignali, Heber y Puceiro Ripoll,
+                                                                         Roberto, en I Derecho Internacional Público. Principios, normas y estructuras
+                                                                         (Montevideo, Fundación de Cultura Universitaria); pp. 23-81.
 
 ## 22.   Arbuet-Vignali, Heber y Puceiro Ripoll, Roberto (2005): “Las relaciones entre
 
-                                                                         el derecho internacional público y otros sistemas”, Jiménez de Aréchaga,
+**Definición Canónica:** el derecho internacional público y otros sistemas”, Jiménez de Aréchaga,
                                                                          Eduardo, Arbuet-Vignali, Heber y Puceiro Ripoll, Roberto, en I Derecho Inter-
                                                                          nacional Público. Principios, normas y estructuras (Montevideo, Fundación
                                                                          de Cultura Universitaria); pp. 387-425.
 
+el derecho internacional público y otros sistemas”, Jiménez de Aréchaga,
+                                                                         Eduardo, Arbuet-Vignali, Heber y Puceiro Ripoll, Roberto, en I Derecho Inter-
+                                                                         nacional Público. Principios, normas y estructuras (Montevideo, Fundación
+                                                                         de Cultura Universitaria); pp. 387-425.
 
 ## 23.   Arnould, Valérie (2017): “ICC Monopolisation of the Justice Field. A Court in
 
-                                                                         Crisis? The ICC IN Africa, and Beyond”, Egmont Institute, 2017; pp. 15-18.
+**Definición Canónica:** Crisis? The ICC IN Africa, and Beyond”, Egmont Institute, 2017; pp. 15-18.
                                                                          Disponible online [fecha de consulta: 22 de noviembre de 2020].
 
-
-## 24.   Arrau C., Fernando (2005): “Los crímenes de lesa humanidad: el jus cogens
-
-                                                                         y las obligaciones erga omnes, la jurisdicción universal y la imprescriptibili-
-                                                                         dad”, en Serie Estudios (N° 330); 26 pp.
-
-
-## 25.   Balint, Jennifer L. (1996): “The Place of Law in Addressing Internal Regime
-
-                                                               B         Conflicts”, en Law and Contemporary Problems (vol. 59 N° 4); pp. 103-126.
-
+Crisis? The ICC IN Africa, and Beyond”, Egmont Institute, 2017; pp. 15-18.
+                                                                         Disponible online [fecha de consulta: 22 de noviembre de 2020].
 
 ## 26.   Barberis, Julio A. (1970): “La liberté de traiter des Etats et le jus cogens”, en
 
-                                                                         Zeitschrift für Auslandisches Offentliches Recht und Volkerrecht (vol. 30 N°
+**Definición Canónica:** Zeitschrift für Auslandisches Offentliches Recht und Volkerrecht (vol. 30 N°
+                                                                         1); pp. 19-45.
+
+Zeitschrift für Auslandisches Offentliches Recht und Volkerrecht (vol. 30 N°
                                                                          1); pp. 19-45.
 
                                                                    27.   Barker, J. Craig (1999): “Current Developments in Public International Law:
@@ -9354,86 +9562,47 @@ Humanitario y el                           del DIH y el DPI
 
 Derecho Internacional                                                Bibliografía                                                                     212
 
-
-## 28.   Bassiouni, M. Cherif (1982): “El Derecho Penal Internacional: historia, objetivo y
-
-                                                                     contenido”, en Anuario de Derecho penal y Ciencias penales vol. 35 N° 1; pp. 5-42.
-
-
 ## 29.   Bassiouni, M. Cherif (1990): “A functional approach to general principles
 
-                                                                     of international law”, en Michigan Journal of International Law (vol. 11); pp.
+**Definición Canónica:** of international law”, en Michigan Journal of International Law (vol. 11); pp.
+                                                                     768-818.
+
+of international law”, en Michigan Journal of International Law (vol. 11); pp.
                                                                      768-818.
 
                                                                30.   Bassiouni, M. Cherif (1996a): “Searching for Peace and Achieving Justice:
                                                                      The Need for Accountability”, en Law and Contemporary Problems (vol. 59
                                                                      N° 4): pp. 9-28.
 
-
-## 31.   Bassiouni, M. Cherif (1996b): “International crimes: jus cogens and obligatio
-
-                                                                     erga omnes”, en Law and Contemporary Problems (vol. 59 N° 4); pp. 63-74.
-
-
-## 32.   Bascuñán Rodríguez, Antonio y Correa, Rodrigo (2002): “El Estatuto de
-
-                                                                     Roma ante el Tribunal Constitucional chileno”, en REJ – Revista de Estudios
-                                                                     de la Justicia Nº 1; pp. 129-160.
-
-
-## 33.   Bates, Ed (2007): “State Immunity for Torture”, en Human Rights Law Review
-
-
-                                                                     (vol. 7 N° 4); pp. 651-680.
-
-
-## 34.   Bekou, Olympia (2012): “Crimes at Crossroads”, en Journal of International
-
-                                                                     Criminal Justice (vol. 10); pp. 677-691.
-
-
 ## 35.   Belsky, Adam, Merva, Mark y Roht-Arriaza Naomi (1989): “Implied Waiver
 
-                                                                     Under the FSIA: a Proposed Exception of Immunity for Violations of Pe-
+**Definición Canónica:** Under the FSIA: a Proposed Exception of Immunity for Violations of Pe-
+                                                                     remptory Norms of International Law”, en California Law Review (vol. 77 N°
+                                                                     2); pp. 365-415.
+
+Under the FSIA: a Proposed Exception of Immunity for Violations of Pe-
                                                                      remptory Norms of International Law”, en California Law Review (vol. 77 N°
                                                                      2); pp. 365-415.
 
                                                                36.   Bello, Andrés (1932): VI Obras Completas. Derecho internacional (Santiago,
                                                                      Editorial Nascimento); 581 pp.
 
-
 ## 37.   Benadava, Santiago (1992): “Las relaciones entre derecho internacional y
 
-                                                                     derecho interno ante los tribunales chilenos”, en AA.VV., XXI Jornadas Chi-
+**Definición Canónica:** derecho interno ante los tribunales chilenos”, en AA.VV., XXI Jornadas Chi-
                                                                      lenas de Derecho Público (Santiago, 1990): Nuevos enfoques del derecho
                                                                      internacional (Santiago, Editorial Jurídica de Chile); pp. 9-59.
 
-
-## 38.   Benadava, Santiago (1997): Derecho Internacional Público (5ª edición, San-
-
-                                                                     tiago, Editorial Jurídica ConoSur); 377 pp.
-
-
-## 39.   Benadava, Santiago (2004): Derecho Internacional Público (8ª edición, San-
-
-                                                                     tiago, Abeledo Perrot); 411 pp.
-
-
-## 40.   Benvenisti, Eyal (1997): “The Role of National Courts in Preventing Torture of
-
-                                                                     Suspected Terrorists”, en European Journal of International Law (vol. 8); pp.
-                                                                     596-612.
-
-
-## 41.   Bernales Rojas, Gerardo (2019): “El acceso a la justicia en el Sistema intera-
-
-                                                                     mericano de protección de los derechos humanos”, en Revista Ius et Praxis
-                                                                     vol. 25 Nº 3; pp. 277-306.
-
+derecho interno ante los tribunales chilenos”, en AA.VV., XXI Jornadas Chi-
+                                                                     lenas de Derecho Público (Santiago, 1990): Nuevos enfoques del derecho
+                                                                     internacional (Santiago, Editorial Jurídica de Chile); pp. 9-59.
 
 ## 42.   Bertelsen Repetto, Raúl (1996): “Rango jurídico de los tratados internacio-
 
-                                                                     nales en el derecho chileno”, en Revista Chilena de Derecho (vol. 23 N° 2 y 3,
+**Definición Canónica:** nales en el derecho chileno”, en Revista Chilena de Derecho (vol. 23 N° 2 y 3,
+                                                                     Tomo I); pp. 211-222.
+
+nales en el derecho chileno”, en Revista Chilena de Derecho (vol. 23 N° 2 y 3,
                                                                      Tomo I); pp. 211-222.
 
                                                                43.   Bianchi, Andrea (1999): “Immunity versus Human Rights: the Pinochet Case”,
@@ -9441,69 +9610,67 @@ Humanitario y el                           del DIH y el DPI
 
 Derecho Internacional                                                    Bibliografía                                                                  213
 
-
 ## 44.   Biblioteca del Congreso Nacional (s.d.): “Historia de la Ley Nº 20.352. Pro-
 
-                                                                         yecto de reforma constitucional, destinado a permitir el reconocimiento de
+**Definición Canónica:** yecto de reforma constitucional, destinado a permitir el reconocimiento de
+                                                                         la jurisdicción de Tribunales internacionales”. Disponible online [fecha de
+                                                                         consulta: 10 de enero de 2021].
+**Concordancias Legales:** constitucion
+
+yecto de reforma constitucional, destinado a permitir el reconocimiento de
                                                                          la jurisdicción de Tribunales internacionales”. Disponible online [fecha de
                                                                          consulta: 10 de enero de 2021].
 
-
 ## 45.   Bollo Arocena, María Dolores (2004): Derecho internacional penal, estudio
 
-                                                                         de los crímenes internacionales y de las técnicas para la represión (Bilbao,
+**Definición Canónica:** de los crímenes internacionales y de las técnicas para la represión (Bilbao,
                                                                          Servicio Editorial Universidad del País Vasco/Euskal Erico Unibertsitatea).
 
+de los crímenes internacionales y de las técnicas para la represión (Bilbao,
+                                                                         Servicio Editorial Universidad del País Vasco/Euskal Erico Unibertsitatea).
 
 ## 46.   Bornkamm, Paul Christoph (2012): “State Immunity Against Claims Arising
 
-                                                                         from War Crimes: The Judgment of the International Court of Justice in
+**Definición Canónica:** from War Crimes: The Judgment of the International Court of Justice in
                                                                          Jurisdictional Immunities of the State”, en German Law Journal (vol. 13 N°
                                                                          6); pp. 773-782.
 
+from War Crimes: The Judgment of the International Court of Justice in
+                                                                         Jurisdictional Immunities of the State”, en German Law Journal (vol. 13 N°
+                                                                         6); pp. 773-782.
 
 ## 47.   Botero Marino, Catalina (2006): “Derecho Penal Internacional y justicia de
 
-                                                                         transición”; en De Gamboa Tapia, Camila (ed.), Justicia Transicional: teoría y
+**Definición Canónica:** transición”; en De Gamboa Tapia, Camila (ed.), Justicia Transicional: teoría y
                                                                          praxis (Bogotá, Editorial Universidad del Rosario); pp. 280-323.
 
+transición”; en De Gamboa Tapia, Camila (ed.), Justicia Transicional: teoría y
+                                                                         praxis (Bogotá, Editorial Universidad del Rosario); pp. 280-323.
 
 ## 48.   Bou Franch, Valentín (2002): “Inmunidad del Estado y violación de normas
 
-                                                                         internacionales de jus cogens: el asunto Al-Adsani contra Reino Unido”, en
+**Definición Canónica:** internacionales de jus cogens: el asunto Al-Adsani contra Reino Unido”, en
                                                                          Anuario de derecho internacional (N° 18); pp. 279-303.
 
+internacionales de jus cogens: el asunto Al-Adsani contra Reino Unido”, en
+                                                                         Anuario de derecho internacional (N° 18); pp. 279-303.
 
 ## 49.   Bradley, Curtis A. y Goldsmith, Jack L. (1999): “Pinochet and International
 
-                                                                         Human Rights Litigation”, en Michigan Law Review (vol. 97 N° 7); pp. 2129-
+**Definición Canónica:** Human Rights Litigation”, en Michigan Law Review (vol. 97 N° 7); pp. 2129-
+                                                                         2184.
+
+Human Rights Litigation”, en Michigan Law Review (vol. 97 N° 7); pp. 2129-
                                                                          2184.
 
                                                                    50.   Brownlie, Ian (2008): Principles of Public International Law (7ª edición,
                                                                          Oxford, Clarendon Press); 784 pp.
 
-
-## 51.   Bruna Contreras, Guillermo (2003): “Los tratados internacionales en la
-
-                                                                         Constitución de 1980. Jurisprudencia en la década de 1981-1989”, en Ius et
-                                                                         Praxis (vol. 9 N° 1); pp. 329-349.
-
-
-## 52.   Bustos Valderrama, Crisólogo (1984): “La recepción del derecho interna-
-
-                                                                         cional en el derecho constitucional chileno”, en Revista Chilena de Derecho
-                                                                         (vol. 11 Nº 2-3); pp. 523-532.
-
-
-## 53.   Bustos Valderrama, Crisólogo (2000): “Los crímenes de derecho interna-
-
-                                                                         cional y los conflictos armados no internacionales”, en Revista de Derecho
-                                                                         Consejo de Defensa del Estado (N° 2); pp. 143-166.
-
-
 ## 54.   Butcher, Goler Teal (1986): “Legal Consequences for States of the Illegality
 
-                                                                         of Apartheid”, en Human Rights Quarterly (vol. 8 N° 3); pp. 404-442.
+**Definición Canónica:** of Apartheid”, en Human Rights Quarterly (vol. 8 N° 3); pp. 404-442.
+
+of Apartheid”, en Human Rights Quarterly (vol. 8 N° 3); pp. 404-442.
 
                                                                    55.   Byers, Michael (1999): Custom, Power and the Power of Rules (Cambridge,
                                                                          Cambridge University Press); 250 pp.
@@ -9512,85 +9679,54 @@ Humanitario y el                           del DIH y el DPI
                                                                          de los derechos humanos desde la globalización y el constructivismo”, en
                                                                          Prolegómenos: Derechos y Valores (vol. 13 N° 25); pp. 235-249.
 
-
-## 57.   Campusano, Rafael F. (2006): “Tratados y el derecho internacional en la
-
-                                                                         reforma constitucional de 2005”, en Actualidad Jurídica (N° 13); pp. 25-41.
-
-
 ## 58.   Cançado Trindade, Antonio (2001): “Retos y perspectivas de la protección
 
-                                                                         internacional de los derechos humanos al inicio del siglo XXI”, en El derecho
+**Definición Canónica:** internacional de los derechos humanos al inicio del siglo XXI”, en El derecho
+                                                                         internacional de los derechos humanos en el siglo XXI (Santiago, Editorial
+                                                                         Jurídica de Chile); pp. 375-424.
+
+internacional de los derechos humanos al inicio del siglo XXI”, en El derecho
                                                                          internacional de los derechos humanos en el siglo XXI (Santiago, Editorial
                                                                          Jurídica de Chile); pp. 375-424.
 
 Derecho Internacional                                                Bibliografía                                                                       214
 
-
 ## 59.   Cançado Trindade, Antonio (2012): “Jus cogens: the Determination and the
 
-                                                                     Gradual Expansion of its Material Content in Contemporary International
+**Definición Canónica:** Gradual Expansion of its Material Content in Contemporary International
                                                                      Case-law”; 28 pp. Disponible online [fecha de consulta: 11 de enero de 2021].
 
-
-## 60.   Caplan, Lee M. (2003): “State Immunity, Human Rights, and Ius cogens: a
-
-                                                                     Critique of the Normative Hierarchy Theory”, en American Journal of Inter-
-                                                                     national Law (vol. 97 Nº 4); pp. 740 – 781.
-
-
-## 61.   Cárdenas Aravena, Claudia (2010): “La implementación de los crímenes de
-
-                                                                     competencia de la Corte Penal Internacional en la Ley Nº 20.357”, Revista de
-                                                                     Derecho (Valdivia), vol.23 Nº 2; pp. 23-44.
-
+Gradual Expansion of its Material Content in Contemporary International
+                                                                     Case-law”; 28 pp. Disponible online [fecha de consulta: 11 de enero de 2021].
 
 ## 62.   Cárdenas Aravena, Claudia (2013): “La aplicabilidad del derecho internacio-
 
-                                                                     nal por tribunales chilenos para interpretar la Ley Nº 20.357”, en Revista de
+**Definición Canónica:** nal por tribunales chilenos para interpretar la Ley Nº 20.357”, en Revista de
                                                                      Derecho Universidad Católica del Norte, vol. 20 Nº 2; pp. 121-145.
+**Concordancias Legales:** Ley Nº 20.357
 
-
-## 63.   Carter, Barry E., Trimble, Phillip R. y Bradley, Curtis A. (2003): International
-
-                                                                     Law (4th edition, New York, Aspen Publishers).
-
-
-## 64.   Carrillo-Santarelli, Nicolás (2012): “Enhanced Multi-level Protection of
-
-                                                                     Human Dignity in a Globalized Context through Humanitarian Global Legal
-                                                                     Goods”, en German Law Journal (vol. 13 Nº 7); pp. 829-873.
-
+nal por tribunales chilenos para interpretar la Ley Nº 20.357”, en Revista de
+                                                                     Derecho Universidad Católica del Norte, vol. 20 Nº 2; pp. 121-145.
 
 ## 65.   Casado Raigón, Rafael y Vásquez Gómez, Eva María (2005): “La impron-
 
-                                                                     ta del ius cogens en el Proyecto de Artículos de la Comisión de Derecho
+**Definición Canónica:** ta del ius cogens en el Proyecto de Artículos de la Comisión de Derecho
+                                                                     internacional sobre la Responsabilidad del Estado por Hechos Internacio-
+                                                                     nalmente Ilícitos”, AA.VV., Soberanía del Estado y Derecho internacional.
+                                                                     Homenaje al profesor Juan Antonio Carrillo Salcedo (Sevilla, Secretariado
+                                                                     de Publicaciones Universidad de
+
+ta del ius cogens en el Proyecto de Artículos de la Comisión de Derecho
                                                                      internacional sobre la Responsabilidad del Estado por Hechos Internacio-
                                                                      nalmente Ilícitos”, AA.VV., Soberanía del Estado y Derecho internacional.
                                                                      Homenaje al profesor Juan Antonio Carrillo Salcedo (Sevilla, Secretariado
                                                                      de Publicaciones Universidad de Sevilla) Tomo I; pp. 343-360.
 
-
-## 66.   Cassel, Douglass (1996): “Lessons from the Americas: Guidelines for Inter-
-
-                                                                     national Response to Amnesties for Atrocities”, en Law and Contemporary
-                                                                     Problems (vol. 59 Nº 4); pp. 197-230.
-
-
-## 67.   Cassese, Antonio (2003): International Criminal Law (New York, Oxford Uni-
-
-                                                                     versity Press); 472 pp.
-
-
-## 68.   Cassese, Antonio (2008): “Nullum crimen sine lege”, en Cassese, Antonio
-
-                                                                     (editor), The Oxford Companion to International Criminal Justice (New York,
-                                                                     Oxford University Press); pp. 438-441.
-
-
 ## 69.   Cea Egaña, José Luis (1997): “Los tratados de derechos humanos y la Cons-
 
-                                                                     titución Política de la República”, en Ius et Praxis (vol. 2 Nº 2); pp. 81-92.
+**Definición Canónica:** titución Política de la República”, en Ius et Praxis (vol. 2 Nº 2); pp. 81-92.
+
+titución Política de la República”, en Ius et Praxis (vol. 2 Nº 2); pp. 81-92.
 
                                                                70.   Cebada Romero, Alicia (2002): “Los conceptos de obligación erga omnes,
                                                                      ius cogens y violación grave a la luz del nuevo proyecto de la CDI sobre res-
@@ -9598,224 +9734,164 @@ Humanitario y el                           del DIH y el DPI
                                                                      Estudios Internacionales (Nº 4); 14 pp. Disponible online [fecha de consulta:
                                                                      11 de enero de 2021].
 
-
-## 71.   Centro de Derechos Humanos (2017): Informe anual sobre Derechos Huma-
-
-                                                                     nos en Chile 2017 (Santiago, Universidad Diego Portales).
-
-
-## 72.   Centro de Derechos Humanos (2019): Informe Anual sobre Derechos Huma-
-
-                                                                     nos en Chile 2019 (Santiago, Universidad Diego Portales).
-
-
 ## 73.   Cohen, Harlan Grant (2007): “Finding International Law: Rethinking the Doc-
 
-                                                                     trine of Sources”, en Iowa Law Review (vol. 93); pp. 65-129.
+**Definición Canónica:** trine of Sources”, en Iowa Law Review (vol. 93); pp. 65-129.
+
+trine of Sources”, en Iowa Law Review (vol. 93); pp. 65-129.
 
 Derecho Internacional                                                Bibliografía                                                                 215
 
-
 ## 74.   Comisión del Centenario de la Cruz Roja en Suiza (1965): Seminario sobre la
 
-                                                                     actividad de la Cruz Roja a favor de las víctimas de los conflictos armados
+**Definición Canónica:** actividad de la Cruz Roja a favor de las víctimas de los conflictos armados
                                                                      (Ginebra, Comisión del Centenario de la Cruz Roja en Suiza).
 
-
-## 75.   Comité Internacional de la Croix-Rouge (1972): Comentario al programa de
-
-                                                                     un curso sobre el Derecho Internacional Humanitario (Genève, Comité Inter-
-                                                                     nacional de la Croix-Rouge).
-
-
-## 76.   Comité Internacional de la Cruz Roja (1975): Manual de la Cruz Roja Interna-
-
-                                                                     cional (11ª edición, Ginebra, Comité Internacional de la Cruz Roja).
-
-
-## 77.   Comité Internacional de la Cruz Roja (1978): Informe acerca de la Mesa Re-
-
-                                                                     donda de las instituciones laureadas con el Premio Nobel de la Paz (Gine-
-                                                                     bra, Comité Internacional de la Cruz Roja).
-
+actividad de la Cruz Roja a favor de las víctimas de los conflictos armados
+                                                                     (Ginebra, Comisión del Centenario de la Cruz Roja en Suiza).
 
 ## 78.   Comité Internacional de la Cruz Roja (1979): EL CICR, la Liga y el informe
 
-                                                                     sobre la Reevaluación del Cometido de la Cruz Roja (Ginebra, separata de la
+**Definición Canónica:** sobre la Reevaluación del Cometido de la Cruz Roja (Ginebra, separata de la
                                                                      Revista Internacional de la Cruz Roja, marzo-abril 1978 a enero-febrero 1979).
 
-
-## 79.   Comité Internacional de la Cruz Roja (1998): Derecho Internacional Huma-
-
-                                                                     nitario: Respuestas a sus preguntas (Ginebra, Comité Internacional de la
-                                                                     Cruz Roja).
-
+sobre la Reevaluación del Cometido de la Cruz Roja (Ginebra, separata de la
+                                                                     Revista Internacional de la Cruz Roja, marzo-abril 1978 a enero-febrero 1979).
 
 ## 80.   Comité Internacional de la Cruz Roja (2006): Participación en los tratados
 
-                                                                     de relevancia para el Derecho internacional Humanitario y su aplicación na-
+**Definición Canónica:** de relevancia para el Derecho internacional Humanitario y su aplicación na-
                                                                      cional. Avances y actividades en América. Informe 2006; 72 pp. Disponible
                                                                      online [fecha de consulta: 11 de enero de 2021].
 
-
-## 81.   Comité Internacional de la Cruz Roja (2014): Estado de ratificación de los
-
-                                                                     principales tratados de DIH. Disponible online [fecha de consulta: 11 de
-                                                                     enero de 2021].
-
-
-## 82.   Coursier, Henri (1962): Curso de cinco lecciones sobre los Convenios de
-
-                                                                     Ginebra (Ginebra, Comité Internacional de la Cruz Roja, 1962).
-
-
-## 83.   Crawford, James (2004): Los Artículos de la Comisión de Derecho interna-
-
-                                                                     cional sobre la Responsabilidad Internacional del Estado (Trad. Luis Fonse-
-                                                                     ca, Dykinson).
-
+de relevancia para el Derecho internacional Humanitario y su aplicación na-
+                                                                     cional. Avances y actividades en América. Informe 2006; 72 pp. Disponible
+                                                                     online [fecha de consulta: 11 de enero de 2021].
 
 ## 84.   Crawford, James (2009): “Artículos sobre responsabilidad del Estado por
 
-                                                                     hechos internacionalmente ilícitos”, en United Nations Audiovisual Library of
+**Definición Canónica:** hechos internacionalmente ilícitos”, en United Nations Audiovisual Library of
                                                                      International Law. Disponible online [fecha de consulta: 10 de enero de 2021].
 
-
-## 85.   Criddle, Evan J. y Fox-Decent, Evan (2009): “A Fiduciary Theory of jus co-
-
-                                                                     gens”, en Yale Journal of International Law (vol. 34 Nº 2); pp. 331-387.
-
-
-## 86.   Cruz Roja Americana (2006): Hoja informativa: Resumen de los Convenios
-
-                                                                     de Ginebra de 1949 y sus Protocolos adicionales; 6 pp. Disponible online
-                                                                     [fecha de consulta: 10 de enero de 2021].
-
-
-## 87.   Cruz-Coke Ossa, Carlos (2009): Instituciones políticas y derecho constitu-
-
-                                                                     cional (Santiago, Ediciones Universidad Finis Terrae); 744 pp.
-
-
-## 88.   Cuervo Pontón, Luis Enrique (1991): “Jus cogens, el imperativo categórico
-
-                                                                     del derecho internacional”, en Universitas (vol. 81); pp. 341-361.
-
+hechos internacionalmente ilícitos”, en United Nations Audiovisual Library of
+                                                                     International Law. Disponible online [fecha de consulta: 10 de enero de 2021].
 
 ## 89.   Cubides Cárdenas, Jaime Alfonso; Chacón Triana, Nathalia; Sánchez Ba-
 
-                                                                     quero, Mayra Nathalia; Pérez Sua, Claudia Paola (2015): “Los desafíos en
+**Definición Canónica:** quero, Mayra Nathalia; Pérez Sua, Claudia Paola (2015): “Los desafíos en
+                                                                     la materialización efectiva del Control de Convencionalidad (CCV): una
+                                                                     experiencia comparada en Chile, Colombia y México”, en Revista VIA IURIS
+                                                                     N° 18; pp. 27-46.
+
+quero, Mayra Nathalia; Pérez Sua, Claudia Paola (2015): “Los desafíos en
                                                                      la materialización efectiva del Control de Convencionalidad (CCV): una
                                                                      experiencia comparada en Chile, Colombia y México”, en Revista VIA IURIS
                                                                      N° 18; pp. 27-46.
 
 Derecho Internacional                                                    Bibliografía                                                                  216
 
-
 ## 90.   Cumplido Cereceda, Francisco (1996): “Alcances de la modificación del
 
-                                                                         artículo 5° de la Constitución Política chilena en relación a los tratados
+**Definición Canónica:** artículo 5° de la Constitución Política chilena en relación a los tratados
+                                                                         internacionales”, en Revista Chilena de Derecho (vol. 23 Nº 2 y 3, Tomo I); pp.
+                                                                         255-258.
+**Concordancias Legales:** artículo 5; Constitución Política
+
+artículo 5° de la Constitución Política chilena en relación a los tratados
                                                                          internacionales”, en Revista Chilena de Derecho (vol. 23 Nº 2 y 3, Tomo I); pp.
                                                                          255-258.
 
-
 ## 91.   Cumplido Cereceda, Francisco (2003): “La reforma constitucional de 1989
 
-                                                                         al inciso 2° del artículo 5° de la Constitución: sentido y alcance de la refor-
+**Definición Canónica:** al inciso 2° del artículo 5° de la Constitución: sentido y alcance de la refor-
                                                                          ma. Doctrina y jurisprudencia”, en Ius et Praxis (vol. 9 Nº 1); pp. 365-374.
+**Concordancias Legales:** artículo 5; Constitución
 
+al inciso 2° del artículo 5° de la Constitución: sentido y alcance de la refor-
+                                                                         ma. Doctrina y jurisprudencia”, en Ius et Praxis (vol. 9 Nº 1); pp. 365-374.
 
 ## 92.   Cury Urzúa, Enrique (1999): I Derecho penal. Parte general (2ª reimpresión de
 
-                                                                         la 2ª edición, Santiago Editorial Jurídica de Chile); 385 pp.
+**Definición Canónica:** la 2ª edición, Santiago Editorial Jurídica de Chile); 385 pp.
+
+la 2ª edición, Santiago Editorial Jurídica de Chile); 385 pp.
 
                                                                    93.   D’Amato, Anthony (2008): “National Prosecution for International Crimes”,
                                                                D         en Bassiouni, M. Cherif, III International Criminal Law. International Enforce-
                                                                          ment (3ª edición, Martinus Nijhoff Publishers); pp. 285-295.
 
-
 ## 94.   De Ory Arriaga, Carlos (2005): “La Corte Internacional de Justicia y los De-
 
-                                                                         rechos Humanos”, en AA.VV., I Soberanía del Estado y Derecho internacional.
+**Definición Canónica:** rechos Humanos”, en AA.VV., I Soberanía del Estado y Derecho internacional.
+
+rechos Humanos”, en AA.VV., I Soberanía del Estado y Derecho internacional.
 
                                                                          Homenaje al profesor Juan Antonio Carrillo Salcedo (Sevilla, Secretariado
                                                                          de Publicaciones Universidad de Sevilla); pp. 431-452.
 
-
 ## 95.   De Wet, Erika (2004): “The Prohibition of Torture as an International Norm of
 
-                                                                         jus cogens and its Implications for National and Customary Law”, en Euro-
+**Definición Canónica:** jus cogens and its Implications for National and Customary Law”, en Euro-
                                                                          pean Journal of International Law (vol. 15 Nº 1); pp. 97-121.
 
-
-## 96.   De Wet, Erika (2006): “The International Constitutional Order”, en Interna-
-
-                                                                         tional and Comparative Law Quarterly (vol. 55 Nº 1); pp. 51-76.
-
+jus cogens and its Implications for National and Customary Law”, en Euro-
+                                                                         pean Journal of International Law (vol. 15 Nº 1); pp. 97-121.
 
 ## 97.   Degan, Vladimir-Djuro (2005): “On the Sources of International Criminal
 
-                                                                         Law”, en Chinese Journal of International Law (vol. 4 Nº 1); pp. 45-83.
+**Definición Canónica:** Law”, en Chinese Journal of International Law (vol. 4 Nº 1); pp. 45-83.
+
+Law”, en Chinese Journal of International Law (vol. 4 Nº 1); pp. 45-83.
 
                                                                    98.   Detter, Ingrid (1994): The International Legal Order (Cambridge, Dartmouth).
 
-
-## 99.   Detzner, John A. (1988): Tribunales chilenos y derecho internacional de dere-
-
-                                                                         chos humanos (Santiago, Comisión Chilena de Derechos Humanos, Acade-
-                                                                         mia de Humanismo Cristiano); 182 pp.
-
-
-## 100. Díaz Tolosa, Regina (2006): “Aplicación de los Convenios de Ginebra por los
-
-                                                                        tribunales de justicia chilenos”, en Revista Chilena de Derecho (vol. 33 Nº 2);
-                                                                        pp. 305-327.
-
-
-## 101. Díaz Tolosa, Regina (2012) “Derecho internacional y derechos internos: ¿Je-
-
-                                                                        rarquía o coordinación?”, en Revista de Derecho Público N° 77; pp. 263-276.
-
-
 ## 102. Dirección de Estudios Corte Suprema (2020): “Mecanismos de ejecución de
 
-                                                                        sentencias de la Corte Interamericana de Derechos Humanos a nivel regio-
+**Definición Canónica:** sentencias de la Corte Interamericana de Derechos Humanos a nivel regio-
                                                                         nal”. Disponible online [fecha de consulta: 16 de enero de 2021].
 
+sentencias de la Corte Interamericana de Derechos Humanos a nivel regio-
+                                                                        nal”. Disponible online [fecha de consulta: 16 de enero de 2021].
 
 ## 103. Dobovsek, José (2006): “Breves consideraciones sobre el Derecho Interna-
 
-                                                                        cional Penal general y sus relaciones con los sistemas penales particulares”,
+**Definición Canónica:** cional Penal general y sus relaciones con los sistemas penales particulares”,
                                                                         en Anuario de la Asociación Argentina de Derecho Internacional (vol. XV);
                                                                         pp. 45-68.
 
-
-## 104. Donovan, Donald and Roberts, Anthea (2006): “The Emerging Recognition of
-
-                                                                        Universal Civil Jurisdiction”, en American Journal of International Law (vol.
-                                                                        100 Nº 1); pp. 142-163.
-
+cional Penal general y sus relaciones con los sistemas penales particulares”,
+                                                                        en Anuario de la Asociación Argentina de Derecho Internacional (vol. XV);
+                                                                        pp. 45-68.
 
 ## 105. Drnas de Clément, Zlata (2002): “Las normas imperativas de derecho
 
-                                                                        internacional general (jus cogens). Dimensión sustancial”, en Estudios de
+**Definición Canónica:** internacional general (jus cogens). Dimensión sustancial”, en Estudios de
+                                                                        derecho internacional en homenaje al profesor Ernesto J. Rey Caro; pp. 1-33.
+
+internacional general (jus cogens). Dimensión sustancial”, en Estudios de
                                                                         derecho internacional en homenaje al profesor Ernesto J. Rey Caro; pp. 1-33.
 
 Derecho Internacional                                                  Bibliografía                                                                   217
 
-
 ## 106. Dubois, Dan (2009): “The Authority of Peremptory Norms in International
 
-                                                                        Law: State Consent or Natural Law?”, en Nordic Journal of International
+**Definición Canónica:** Law: State Consent or Natural Law?”, en Nordic Journal of International
+                                                                        Law (vol. 78 Nº 2); pp. 133-175.
+
+Law: State Consent or Natural Law?”, en Nordic Journal of International
                                                                         Law (vol. 78 Nº 2); pp. 133-175.
 
                                                                    107. Dugard, John (1970): “Naciones Unidas, Derechos Humanos y el Apartheid”,
                                                                         en Foro Internacional (vol. 11 Nº 2); pp. 286-307.
 
-
 ## 108. Dulitzky, Ariel E. (1996): “Los tratados de derechos humanos en el constitu-
 
-                                                                        cionalismo iberoamericano”; en Buergenthal, Thomas y Cançado, Trindade
+**Definición Canónica:** cionalismo iberoamericano”; en Buergenthal, Thomas y Cançado, Trindade
+                                                                        Antonio (compiladores), I Estudios especializados de Derechos humanos
+                                                                        (San José de Costa Rica, Instituto Interamericano de Derechos Humanos);
+                                                                        pp. 129-166.
+
+cionalismo iberoamericano”; en Buergenthal, Thomas y Cançado, Trindade
                                                                         Antonio (compiladores), I Estudios especializados de Derechos humanos
                                                                         (San José de Costa Rica, Instituto Interamericano de Derechos Humanos);
                                                                         pp. 129-166.
@@ -9823,67 +9899,53 @@ Humanitario y el                           del DIH y el DPI
                                                                    109. Dupuy, Pierre-Marie (2006): Droit international public (8ème édition, Paris,
                                                                         Dalloz); 849 pp.
 
-
-## 110. Fahmi, Aziza M. (1971): “Peremptory Norms as General Rules of Internatio-
-
-                                                               F        nal Law”, en Osterreichische Zeitschrift für öffentliches Recht (vol. 22); pp.
-
-                                                                        383-400.
-
-
 ## 111. Federación Internacional de los Derechos Humanos (2004): Informe final de
 
-                                                                        las Acciones Legales para las Víctimas de Crímenes Internacionales. Aus-
+**Definición Canónica:** las Acciones Legales para las Víctimas de Crímenes Internacionales. Aus-
                                                                         piciando un enfoque de la UE frente a la jurisdicción extraterritorial; 78 pp.
                                                                         Disponible online [fecha de consulta: 14 de noviembre de 2020].
 
-
-## 112. Ferdinandusse, Ward N. (2006): Direct Application of International Criminal
-
-                                                                        Law in National Courts (The Hague, T.M.C. Asser Press).
-
+las Acciones Legales para las Víctimas de Crímenes Internacionales. Aus-
+                                                                        piciando un enfoque de la UE frente a la jurisdicción extraterritorial; 78 pp.
+                                                                        Disponible online [fecha de consulta: 14 de noviembre de 2020].
 
 ## 113. Fernández Flores de Fúnes, José Luis (2005): “De la jurisdicción territorial a
 
-                                                                        la jurisdicción universal”, en I Soberanía del Estado y derecho internacional.
+**Definición Canónica:** la jurisdicción universal”, en I Soberanía del Estado y derecho internacional.
                                                                         Homenaje al profesor Juan Antonio Carrillo Salcedo; pp. 569-574.
 
+la jurisdicción universal”, en I Soberanía del Estado y derecho internacional.
+                                                                        Homenaje al profesor Juan Antonio Carrillo Salcedo; pp. 569-574.
 
 ## 114. Fernández Neira, Karinna y Sferrazza Taibi, Pietro (2009): “La aplicación de
 
-                                                                        la prescripción gradual del delito en las causas sobre violaciones de dere-
+**Definición Canónica:** la prescripción gradual del delito en las causas sobre violaciones de dere-
                                                                         chos humanos”, en Anuario de Derechos Humanos 2009; pp. 183-192.
 
+la prescripción gradual del delito en las causas sobre violaciones de dere-
+                                                                        chos humanos”, en Anuario de Derechos Humanos 2009; pp. 183-192.
 
 ## 115. Fraidenraij, Susana (1998): “Convención sobre prohibición o restricciones del
 
-                                                                        empleo de ciertas armas convencionales que puedan considerarse exce-
+**Definición Canónica:** empleo de ciertas armas convencionales que puedan considerarse exce-
+                                                                        sivamente nocivas o de efectos indiscriminados”; en Infante, María Teresa
+                                                                        y Cave, Rose (compiladoras): Nuevos estudios de Derecho Internacional
+                                                                        Humanitario (Santiago, Instituto de Estudios Internacionales Universidad de
+                                                                        Chile, Colección Estudi
+
+empleo de ciertas armas convencionales que puedan considerarse exce-
                                                                         sivamente nocivas o de efectos indiscriminados”; en Infante, María Teresa
                                                                         y Cave, Rose (compiladoras): Nuevos estudios de Derecho Internacional
                                                                         Humanitario (Santiago, Instituto de Estudios Internacionales Universidad de
                                                                         Chile, Colección Estudios Internacionales); pp. 6-14.
 
-
-## 116. Ford, Christopher A. (1994): “Adjudicating jus cogens”, en Wisconsin Interna-
-
-                                                                        tional Law Journal (vol. 13); pp. 145-181.
-
-
-## 117. Fox, Hazel (1999): “The First Pinochet Case: Immunity of a Former Head of
-
-                                                                        State”, en International and Comparative Law Quarterly (vol. 48 Nº 1); pp.
-                                                                        207-216.
-
-
-## 118. Fox, Hazel (2002): “Immunity for Acts Unlawful in International al Law: The
-
-                                                                        Exhaustion of Local Remedies”, en The Law of State Immunity (Oxford,
-                                                                        Oxford University Press); pp. 517-540.
-
-
 ## 119. Frontaura Rivera, Carlos (1999): “Territorialidad, prescripción e inmunidad en
 
-                                                                        materia de Derechos Humanos. Comentario a la Sentencia de la Cámara de
+**Definición Canónica:** materia de Derechos Humanos. Comentario a la Sentencia de la Cámara de
+                                                                        los Lores, 24 de marzo de 1999”, en Revista Chilena de Derecho (vol. 26 Nº 1);
+                                                                        pp. 203-245.
+
+materia de Derechos Humanos. Comentario a la Sentencia de la Cámara de
                                                                         los Lores, 24 de marzo de 1999”, en Revista Chilena de Derecho (vol. 26 Nº 1);
                                                                         pp. 203-245.
 
@@ -9894,112 +9956,96 @@ Humanitario y el                           del DIH y el DPI
 
                                                                        (New York, Oxford University Press); pp. 368-369.
 
-
-## 121. Fuentes Torrijo, Ximena (2000): “Las inmunidades de jurisdicción y el Esta-
-
-                                                                        tuto de la Corte Penal”, en Ius et Praxis (vol. 6 Nº 2); pp. 419-425.
-
-
-## 122. Fuentes Torrijo, Ximena (2011): “El principio de complementariedad en la
-
-                                                                        práctica de la Corte Penal Internacional”, en Estudios Internacionales (Nº
-                                                                        169); pp. 119-140.
-
-
 ## 123. Gaeta, Paola (2007): “On What Conditions Can a State be Held Responsible
 
-                                                               G        for Genocide?”, en European Journal of International Law (vol. 18); pp. 631-
+**Definición Canónica:** G        for Genocide?”, en European Journal of International Law (vol. 18); pp. 631-
+                                                                        648.
+
+G        for Genocide?”, en European Journal of International Law (vol. 18); pp. 631-
                                                                         648.
 
                                                                    124. Gaeta, Paola (2009): “Does President Al Bashir enjoy immunity from arrest?”,
                                                                         en Journal of International Criminal Justice (vol. 7 Nº 2); pp. 315-332.
 
-
-## 125. Gaete González, Eugenio Alberto (1996): “Derecho internacional y derecho
-
-                                                                        de los Estados. Incorporación de los Derechos Humanos”, en Revista Chilena
-
-                                                                        de Derecho (vol. 23 Nº 2 y 3, Tomo I); pp. 259-275.
-
-
-## 126. Galdámez Zelada, Liliana (2011): Impunidad y tutela judicial de graves vio-
-
-                                                                        laciones a los Derechos Humanos (Santiago, Librotecnia).
-
-
 ## 127. Gamboa Serazzi, Fernando (1999): “El caso Pinochet, historial y algunos
 
-                                                                        antecedentes jurídicos que tienen relación con él”, en Revista de Derecho de
+**Definición Canónica:** antecedentes jurídicos que tienen relación con él”, en Revista de Derecho de
                                                                         la Universidad Finis Terrae (vol. 3 Nº 3); pp. 77-134.
 
-
-## 128. García Ramírez, Sergio (1998): “Dos temas de la jurisprudencia interameri-
-
-                                                                        cana: proyecto de vida y amnistía”, en Revista de Derecho y Jurisprudencia
-                                                                        (vol. 95 Nº 2); pp. 61-75.
-
-
-## 129. Gilbert, Geoff (1990): “The Criminal Responsibility of States”, en Internatio-
-
-                                                                        nal and Comparative Law Quarterly (vol. 39 Nº 2); pp. 345-369.
-
+antecedentes jurídicos que tienen relación con él”, en Revista de Derecho de
+                                                                        la Universidad Finis Terrae (vol. 3 Nº 3); pp. 77-134.
 
 ## 130. Goodwin-Gill, Guy S. (1999): “Crime in International Law: Obligations erga
 
-                                                                        omnes and the Duty to Prosecute”, en Goodwin-Gill, Guy S. y Talmon, Ste-
+**Definición Canónica:** omnes and the Duty to Prosecute”, en Goodwin-Gill, Guy S. y Talmon, Ste-
                                                                         fan (ed.), The reality of International Law. Essays in Honor of Ian Brownlie
                                                                         (Oxford, Clarendon Press); pp. 199-223.
 
+omnes and the Duty to Prosecute”, en Goodwin-Gill, Guy S. y Talmon, Ste-
+                                                                        fan (ed.), The reality of International Law. Essays in Honor of Ian Brownlie
+                                                                        (Oxford, Clarendon Press); pp. 199-223.
 
 ## 131. Gómez Campelo, Esther (2000): “El Derecho Penal Internacional ante el caso
 
-                                                                        Pinochet”, en Anuario de la Facultad de Derecho de Alcalá de Henares
+**Definición Canónica:** Pinochet”, en Anuario de la Facultad de Derecho de Alcalá de Henares
                                                                         Curso 1998-1999. Número extraordinario en homenaje al Prof. Dr. Don Luis
                                                                         García San Miguel (vol. 8); pp. 277-305.
 
-
-## 132. Gómez-Robledo Verduzco, Alonso (2002): “El crimen de genocidio en dere-
-
-                                                                        cho internacional”, en Boletín Mexicano de Derecho Comparado (vol. 35 Nº
-                                                                        105); pp. 917-946.
-
+Pinochet”, en Anuario de la Facultad de Derecho de Alcalá de Henares
+                                                                        Curso 1998-1999. Número extraordinario en homenaje al Prof. Dr. Don Luis
+                                                                        García San Miguel (vol. 8); pp. 277-305.
 
 ## 133. González, Felipe: “Derechos Humanos y Derecho Humanitario: un análisis
 
-                                                                        comparativo”, en 27 Cuadernos de análisis jurídico: Dogmática Constitucio-
+**Definición Canónica:** comparativo”, en 27 Cuadernos de análisis jurídico: Dogmática Constitucio-
                                                                         nal y Derechos Humanos (Santiago, Escuela de Derecho Universidad Diego
                                                                         Portales, 1993); pp. 21-48.
 
+comparativo”, en 27 Cuadernos de análisis jurídico: Dogmática Constitucio-
+                                                                        nal y Derechos Humanos (Santiago, Escuela de Derecho Universidad Diego
+                                                                        Portales, 1993); pp. 21-48.
 
 ## 134. González-Ruiz, Cristián D. y Mijares, Víctor M. (2020): “Los fuertes hacen
 
-                                                                        lo que quieren: exponiendo los límites de la Corte Penal Internacional”, en
+**Definición Canónica:** lo que quieren: exponiendo los límites de la Corte Penal Internacional”, en
                                                                         Revista de Direito Internacional vol. 17 Nº 1; pp. 406-416.
 
+lo que quieren: exponiendo los límites de la Corte Penal Internacional”, en
+                                                                        Revista de Direito Internacional vol. 17 Nº 1; pp. 406-416.
 
 ## 135. Gowlland-Debbas, Vera (1994): “Security Council Enforcement Action and
 
-                                                                        Issues of State Responsibility”, en International and Comparative Law
+**Definición Canónica:** Issues of State Responsibility”, en International and Comparative Law
+                                                                        Quarterly (vol. 43 Nº 1); pp. 55-98.
+
+Issues of State Responsibility”, en International and Comparative Law
                                                                         Quarterly (vol. 43 Nº 1); pp. 55-98.
 
 Derecho Internacional                                                  Bibliografía                                                                  219
 
-
 ## 136. Gavron, Jessica (2002): “Amnesties in the Light of Developments in Inter-
 
-                                                                        national Law and the Establishment of the International Criminal Court”, en
+**Definición Canónica:** national Law and the Establishment of the International Criminal Court”, en
                                                                         International and Comparative Law Quarterly (vol.51 Nº 1); pp. 91-117.
 
+national Law and the Establishment of the International Criminal Court”, en
+                                                                        International and Comparative Law Quarterly (vol.51 Nº 1); pp. 91-117.
 
 ## 137. Grossrieder, Paul: “¿Un porvenir para el derecho internacional humanitario y
 
-                                                                        sus principios?”, en Revista Internacional de la Cruz Roja Nº 833, marzo de
+**Definición Canónica:** sus principios?”, en Revista Internacional de la Cruz Roja Nº 833, marzo de
                                                                         1999 (Ginebra, Comité Internacional de la Cruz Roja, 1999); p. 12.
 
+sus principios?”, en Revista Internacional de la Cruz Roja Nº 833, marzo de
+                                                                        1999 (Ginebra, Comité Internacional de la Cruz Roja, 1999); p. 12.
 
 ## 138. Gutiérrez Ramírez, Luis Miguel (2014): “La obligación internacional de in-
 
-                                                                        vestigar, juzgar y sancionar graves violaciones a los derechos humanos en
+**Definición Canónica:** vestigar, juzgar y sancionar graves violaciones a los derechos humanos en
+                                                                        contextos de justicia transicional”, en Estudios Socio-Jurídicos vol. 16 Nº 2;
+                                                                        pp. 23-60.
+
+vestigar, juzgar y sancionar graves violaciones a los derechos humanos en
                                                                         contextos de justicia transicional”, en Estudios Socio-Jurídicos vol. 16 Nº 2;
                                                                         pp. 23-60.
 
@@ -10007,219 +10053,160 @@ Humanitario y el                           del DIH y el DPI
                                                                         Ezequiel (eds.), Jurisprudencia latinoamericana sobre Derecho Penal Inter-
                                                                         nacional (Montevideo, Konrad-Adenauer-Stiftung); pp. 131-158.
 
-
 ## 140. Haug, Hans (1996): “La neutralidad como principio fundamental de la Cruz
 
-                                                               H
+**Definición Canónica:** H
+
+H
 
                                                                         Roja”, en Revista Internacional de la Cruz Roja Nº 138 (Ginebra, Comité
                                                                         Internacional de la Cruz Roja); pp. 670-673.
 
-
-## 141. Heffter, Agosto Wilhelm (1875): Derecho Internacional Público de Europa
-
-                                                                        (Trad. G. Lizarraga, Madrid, Librería de Victoriano Suárez).
-
-
 ## 142. Henríquez Viñas, Miriam Lorena (2005): “Las transformaciones en el
 
-                                                                        sistema de fuentes del derecho constitucional”, en AA.VV., Actas XXXIV
+**Definición Canónica:** sistema de fuentes del derecho constitucional”, en AA.VV., Actas XXXIV
+                                                                        Jornadas de Derecho Público (25-27 noviembre de 2004) (Santiago, Lexis
+                                                                        Nexis); pp. 241-250.
+**Concordancias Legales:** constitucion
+
+sistema de fuentes del derecho constitucional”, en AA.VV., Actas XXXIV
                                                                         Jornadas de Derecho Público (25-27 noviembre de 2004) (Santiago, Lexis
                                                                         Nexis); pp. 241-250.
 
-
-## 143. Henríquez Viñas, Miriam Lorena (2008): “Jerarquía de los tratados de
-
-                                                                        derechos humanos: análisis jurisprudencial desde el método de casos”, en
-                                                                        Estudios Constitucionales (vol. 6 Nº 2); pp. 73-119.
-
-
 ## 144. Herdegen, Matthias (2005): Derecho Internacional Público (Trad. Marce-
 
-                                                                        la Anzola, México D.F., Konrad-Adenauer-Stiftung y Universidad Nacional
+**Definición Canónica:** la Anzola, México D.F., Konrad-Adenauer-Stiftung y Universidad Nacional
+                                                                        Autónoma de México).
+**Concordancias Legales:** constitucion
+
+la Anzola, México D.F., Konrad-Adenauer-Stiftung y Universidad Nacional
                                                                         Autónoma de México).
 
                                                                    145. Herdegen, Matthias (2010): “La internacionalización del orden constitucional”,
                                                                         en Anuario de Derecho Constitucional Latinoamericano (vol. 16); pp. 71-81.
 
-
-## 146. Hernández, Ángel (1997): Las resoluciones obligatorias de las organiza-
-
-                                                                        ciones internacionales de cooperación. Su recepción en el ordenamiento
-                                                                        jurídico español (Madrid, Tecnos).
-
-
-## 147. Horvitz Lennon, María Inés (2006): “Amnistía y prescripción en causas sobre
-
-                                                                        violación de derechos humanos en Chile”, en Anuario de Derechos Humanos
-                                                                        (Nº 2); pp. 217-225.
-
-
-## 148. ICRC-International Committee of the Red Cross (2014): “Principios genera-
-
-                                                               I        les del derecho penal internacional”. Disponible online [fecha de consulta: 14
-                                                                        de noviembre de 2020].
-
-
 ## 149. Infante Caffi, María Teresa (1996): “Los tratados en el derecho interno chile-
 
-                                                                        no: el efecto de la reforma constitucional de 1989 visto por la jurispruden-
+**Definición Canónica:** no: el efecto de la reforma constitucional de 1989 visto por la jurispruden-
                                                                         cia”, en Revista Chilena de Derecho (vol. 23 Nº 2 y 3, Tomo I); pp. 277-297.
+**Concordancias Legales:** constitucion
 
-
-## 150. Janis, Mark W. y Noyes, John E. (2006): Cases and Commentary on Interna-
-
-                                                               J        tional Law (St. Paul-MN, Thomson).
-
-Derecho Internacional                                                  Bibliografía                                                                   220
-
+no: el efecto de la reforma constitucional de 1989 visto por la jurispruden-
+                                                                        cia”, en Revista Chilena de Derecho (vol. 23 Nº 2 y 3, Tomo I); pp. 277-297.
 
 ## 151. Jessberger, Florian (2008): “International v. National Prosecution of Interna-
 
-                                                                        tional Crimes”; en Cassese, Antonio (editor), The Oxford Companion to Inter-
+**Definición Canónica:** tional Crimes”; en Cassese, Antonio (editor), The Oxford Companion to Inter-
                                                                         national Criminal Justice (New York, Oxford University Press); pp. 208-215.
 
-
-## 152. Joyner, Christopher C. (1996): “Arresting Impunity: The Case for Universal
-
-                                                                        Jurisdiction in Bringing War Criminals to Accountability”, en Law and Con-
-                                                                        temporary Problems (vol. 59 Nº 4); pp. 153-172.
-
+tional Crimes”; en Cassese, Antonio (editor), The Oxford Companion to Inter-
+                                                                        national Criminal Justice (New York, Oxford University Press); pp. 208-215.
 
 ## 153. Juste Ruiz, José y Castillo Daudí, Mireya (2002): Derecho Internacional Pú-
 
-                                                                        blico (Valencia, Punto y coma).
+**Definición Canónica:** blico (Valencia, Punto y coma).
+
+blico (Valencia, Punto y coma).
 
                                                                    154. Kaplan, Margo (2004): “Using collective interests to ensure human rights:
                                                                K        an analysis of the articles on state responsibility”, New York University Law
                                                                         Review (vol. 79 Nº 5); pp. 1902-1933.
 
-
-## 155. Kawasaki, Kyoji (2007): “International jus cogens in the Law of State Res-
-
-                                                                        ponsability”, en International Law Journal (Nº 1); pp. 6-22.
-
-
-## 156. Kelley, Garland (1999): “U.S. vs. the World: Does Customary International Law
-
-                                                                        Supersede a Federal Statute?”, en Texas Review of Law and Politics (vol. 3
-                                                                        Nº 2); pp. 353-379.
-
-
 ## 157. Knoops, Geert-Jan Alexander (2004): “International criminal law liability for
 
-                                                                        interrogation methods by military personnel under customary international
+**Definición Canónica:** interrogation methods by military personnel under customary international
                                                                         law and the ICC Statute”, en International Criminal Law Review (vol. 4); pp.
                                                                         211-229.
 
-
-## 158. Kress, Claus (2010): “Nulla poena nullum crimen sine lege”, en Max Planck
-
-                                                                        Encyclopedia of Public International Law. Disponible online [fecha de con-
-                                                                        sulta: 11 de enero de 2021].
-
-
-## 159. Kutz, Christopher (2007): “Torture, Necessity and Existential Politics”, en
-
-                                                                        California Law Review (vol. 95 Nº 1); pp. 235-276.
-
+interrogation methods by military personnel under customary international
+                                                                        law and the ICC Statute”, en International Criminal Law Review (vol. 4); pp.
+                                                                        211-229.
 
 ## 160. Lachs, Manfred (1968): “The Law of Treaties (Some General Reflections
 
-                                                               L        on the Report of The International Law Commission)”, en AA.VV., Recueil
+**Definición Canónica:** L        on the Report of The International Law Commission)”, en AA.VV., Recueil
                                                                         d’Études de Droit International en hommage à Paul Guggenheim (Genéve,
                                                                         Faculté de Droit de l’Université de Genève, Institut Universitaire de Hautes
                                                                         Études Internationales); pp. 391-402.
 
-
-## 161. Lachs, Manfred (1980): “The development and general trends of Internatio-
-
-                                                                        nal Law in our time”, en Recueil des Cours (vol. 4 Nº 169); pp. 13-377.
-
-
-## 162. Laplante, Lisa J. (2009): “Outlawing Amnesty: The Return of Criminal Justi-
-
-                                                                        ce in Transitional Justice Schemes”, en Virginia Journal of International Law
-                                                                        (vol. 49 Nº 4); pp. 915-984.
-
-
-## 163. Lepard, Brian D. (2010): Customary International Law. A new theory with
-
-                                                                        practical requirements (New York, Cambridge University Press).
-
-
-## 164. Linderfalk, Ulf (2007): “The Effect of jus cogens norms: Whoever opened
-
-                                                                        Pandora’s Box, did you ever think about the consequences?”, en European
-                                                                        Journal of International Law (vol. 18); pp. 853-871.
-
-
-## 165. Lippman, Matthew (1979): “The Protection of Universal Human Rights: The
-
-                                                                        Problem of Torture”, en Universal Human Rights (vol. 1 Nº 4); pp. 25-55.
-
+L        on the Report of The International Law Commission)”, en AA.VV., Recueil
+                                                                        d’Études de Droit International en hommage à Paul Guggenheim (Genéve,
+                                                                        Faculté de Droit de l’Université de Genève, Institut Universitaire de Hautes
+                                                                        Études Internationales); pp. 391-402.
 
 ## 166. Llanos Mansilla, Hugo (2007): II Teoría y Práctica del Derecho Internacional
 
-                                                                        Público. La persona humana ante el derecho internacional vol. 2 (3ª edición,
+**Definición Canónica:** Público. La persona humana ante el derecho internacional vol. 2 (3ª edición,
+                                                                        Santiago, Editorial Jurídica de Chile).
+
+Público. La persona humana ante el derecho internacional vol. 2 (3ª edición,
                                                                         Santiago, Editorial Jurídica de Chile).
 
 Derecho Internacional                                                     Bibliografía                                                                       221
 
-
-## 167. Llanos Mansilla, Hugo (2008): III Teoría y Práctica del Derecho Internacional
-
-                                                                        Público. La persona humana ante el derecho internacional (3ª edición, San-
-                                                                        tiago, Editorial Jurídica de Chile).
-
-
 ## 168. Llanos Mansilla, Hugo (2011): IV Teoría y Práctica del Derecho Internacional
 
-                                                                        Público. Las relaciones entre el derecho internacional y el derecho interno
+**Definición Canónica:** Público. Las relaciones entre el derecho internacional y el derecho interno
+                                                                        (Santiago, Editorial Jurídica de Chile).
+
+Público. Las relaciones entre el derecho internacional y el derecho interno
                                                                         (Santiago, Editorial Jurídica de Chile).
 
                                                                M   169. Mann, F. A. (1990): Further Studies in International Law (Oxford, Clarendon Press).
 
-
-## 170.   Mariño Menéndez, Fernando (1999): Derecho Internacional Público. Parte
-
-                                                                          General (Madrid, Editorial Trotta).
-
-
 ## 171.   Mariño Menéndez, Fernando (2005): “Los límites de la noción formal de
 
-                                                                          orden público internacional”, en AA.VV., I Soberanía del Estado y Derecho
+**Definición Canónica:** orden público internacional”, en AA.VV., I Soberanía del Estado y Derecho
                                                                           internacional. Homenaje al profesor Juan Antonio Carrillo Salcedo (Sevilla,
                                                                           Secretariado de Publicaciones Universidad de Sevilla); pp. 825-831.
 
+orden público internacional”, en AA.VV., I Soberanía del Estado y Derecho
+                                                                          internacional. Homenaje al profesor Juan Antonio Carrillo Salcedo (Sevilla,
+                                                                          Secretariado de Publicaciones Universidad de Sevilla); pp. 825-831.
 
 ## 172.   Martínez Ventura, Jaime (2010): “Jurisprudencia de los órganos de pro-
 
-                                                                          tección de derechos humanos y Derecho Penal Internacional. Casos de
+**Definición Canónica:** tección de derechos humanos y Derecho Penal Internacional. Casos de
+                                                                          Guatemala, Costa Rica y El Salvador”; en Ambos, Kai; Malarino, Ezequiel y
+                                                                          Elsner, Gisela (editores), Sistema Interamericano de Protección de los De-
+                                                                          rechos Humanos y Derecho Penal Internacional (Montevideo, Konrad-Ade-
+                                                                          nauer-Stiftung); 
+
+tección de derechos humanos y Derecho Penal Internacional. Casos de
                                                                           Guatemala, Costa Rica y El Salvador”; en Ambos, Kai; Malarino, Ezequiel y
                                                                           Elsner, Gisela (editores), Sistema Interamericano de Protección de los De-
                                                                           rechos Humanos y Derecho Penal Internacional (Montevideo, Konrad-Ade-
                                                                           nauer-Stiftung); pp. 103-122.
 
-
 ## 173.   Matus Acuña, Jean Pierre (2006): “Informe pericial ante CtIDH sobre apli-
 
-                                                                          cación jurisprudencial de Decreto Ley 2191 de Amnistía, de fecha 19 de abril
+**Definición Canónica:** cación jurisprudencial de Decreto Ley 2191 de Amnistía, de fecha 19 de abril
                                                                           de 1978”, en Ius et Praxis (vol. 12 Nº 1); pp. 275-296.
+**Concordancias Legales:** Ley 2191
 
+cación jurisprudencial de Decreto Ley 2191 de Amnistía, de fecha 19 de abril
+                                                                          de 1978”, en Ius et Praxis (vol. 12 Nº 1); pp. 275-296.
 
 ## 174.   McGregor, Lorna (2007): “Addressing the Relationship between State Im-
 
-                                                                          munity and Jus Cogens Norms: A Comparative Assessment”; en Kaleck,
+**Definición Canónica:** munity and Jus Cogens Norms: A Comparative Assessment”; en Kaleck,
+                                                                          W.; Ratner, M.; Singelnstein, T.; Weiss, P. (eds.), International Prosecution of
+                                                                          Human Rights Crimes (Berlin, Springer); pp. 69-84.
+
+munity and Jus Cogens Norms: A Comparative Assessment”; en Kaleck,
                                                                           W.; Ratner, M.; Singelnstein, T.; Weiss, P. (eds.), International Prosecution of
                                                                           Human Rights Crimes (Berlin, Springer); pp. 69-84.
 
                                                                    175.   McNair, Arnold Duncan (1961): The Law of Treaties (Oxford, Clarendon Press).
 
-
 ## 176.   Medina Quiroga, Cecilia (1994): “El Derecho Internacional de los Derechos
 
-                                                                          Humanos y el ordenamiento jurídico chileno”; en AA.VV., Constitución, trata-
+**Definición Canónica:** Humanos y el ordenamiento jurídico chileno”; en AA.VV., Constitución, trata-
+                                                                          dos y derechos esenciales (Santiago, Corporación Nacional de Reparación y
+                                                                          Reconciliación); pp. 3-54.
+**Concordancias Legales:** Constitución
+
+Humanos y el ordenamiento jurídico chileno”; en AA.VV., Constitución, trata-
                                                                           dos y derechos esenciales (Santiago, Corporación Nacional de Reparación y
                                                                           Reconciliación); pp. 3-54.
 
@@ -10230,39 +10217,23 @@ Humanitario y el                           del DIH y el DPI
                                                                           Internacional de los Derechos Humanos para Defensores penales públicos
                                                                           (Santiago, Centro de Documentación Defensoría Penal Pública); pp. 18-84.
 
-
-## 178.   Mejías Azuero, Jean Carlo (2008): “Diferencias entre el derecho penal in-
-
-                                                                          ternacional y el derecho internacional penal”, en Prolegómenos. Derechos y
-                                                                          Valores, vol. XI Nº 22; pp. 181-217.
-
-
-## 179.   Mera Figueroa, Jorge (2005): Derechos humanos en el derecho penal chileno
-
-                                                                          (reimpresión de la 1ª edición de 1998, Santiago, Lexis Nexis).
-
-
-## 180.   Meron, Theodor (1987): “The Geneva Conventions as Customary Law”, en
-
-                                                                          American Journal of International Law (vol. 81 Nº 2); pp. 348-370.
-
-
 ## 181.   Meron, Theodor (2005): “Revival of Customary Humanitarian Law”, en Ame-
 
-                                                                          rican Journal of International Law (vol. 99 Nº 1); pp. 817-831.
+**Definición Canónica:** rican Journal of International Law (vol. 99 Nº 1); pp. 817-831.
+
+rican Journal of International Law (vol. 99 Nº 1); pp. 817-831.
 
 Derecho Internacional                                                     Bibliografía                                                                   222
 
-
-## 182.   Meurant, Jacques (1997): “Dimensión filosófica y religiosa de lo humani-
-
-                                                                          tario”, en Revista Internacional de la Cruz Roja Nº 140 (Ginebra, Comité
-                                                                          Internacional de la Cruz Roja).
-
-
 ## 183.   Meza-Lopehandía, Matías (2019): “La obligación de reparar por los delitos de
 
-                                                                          lesa humanidad. Sentencias de la Corte Interamericana de Derechos Huma-
+**Definición Canónica:** lesa humanidad. Sentencias de la Corte Interamericana de Derechos Huma-
+                                                                          nos en el caso de Chile”; en Biblioteca del Congreso Nacional, Asesoría Técni-
+                                                                          ca Parlamentaria, Informe Elaborado para la Comisión de Derechos Humanos
+                                                                          y Pueblos Originarios de la Cámara de Diputados en relación con el proyecto
+                                                                          de l
+
+lesa humanidad. Sentencias de la Corte Interamericana de Derechos Huma-
                                                                           nos en el caso de Chile”; en Biblioteca del Congreso Nacional, Asesoría Técni-
                                                                           ca Parlamentaria, Informe Elaborado para la Comisión de Derechos Humanos
                                                                           y Pueblos Originarios de la Cámara de Diputados en relación con el proyecto
@@ -10270,72 +10241,54 @@ Humanitario y el                           del DIH y el DPI
                                                                           de prisión política y tortura reconocidas por el Estado de Chile (Boletín N°
                                                                           11.619-17). Disponible online [fecha de consulta: 17 de enero de 2021].
 
-
-## 184.   Milanovic, Marko (2006): “State Responsibility for Genocide”, en European
-
-                                                                          Journal of International Law (vol. 17); pp. 553-604.
-
-
-## 185.   Minagawa, Takeshi (1968): “Jus cogens in Public International Law”, en Hi-
-
-                                                                          totsubashi Journal of International Law and Politics (vol. 6); pp. 16-28.
-
-
 ## 186.   Mohor Abuauad, Salvador y Varas Alfonso, Paulino (2000): “Corte Penal In-
 
-                                                                          ternacional: evaluación crítica y cuestiones constitucionales”, en Temas de
+**Definición Canónica:** ternacional: evaluación crítica y cuestiones constitucionales”, en Temas de
+                                                                          Derecho (vol. 15 Nº 1 y 2); pp. 97-124.
+**Concordancias Legales:** constitucion
+
+ternacional: evaluación crítica y cuestiones constitucionales”, en Temas de
                                                                           Derecho (vol. 15 Nº 1 y 2); pp. 97-124.
 
                                                                    187.   Molina Guaita, Hernán (2011): Derecho constitucional (11ª edición, Santiago,
                                                                           Abeledo Perrot).
 
-
 ## 188.   Montt Oyarzún, Santiago (2005): “Aplicación de los tratados bilaterales de
 
-                                                                          protección de inversiones por tribunales chilenos. Responsabilidad del Esta-
+**Definición Canónica:** protección de inversiones por tribunales chilenos. Responsabilidad del Esta-
                                                                           do y expropiaciones regulatorias en un mundo crecientemente globalizado”,
                                                                           en Revista Chilena de Derecho (vol. 32 Nº 1); pp. 19-78.
 
-
-## 189.   Murphy, Sean D. (2006): Principles of International Law (Minnesota, Thom-
-
-                                                                          son West).
-
-
-## 190.   Naqvi, Yasmin (2003): “Amnesty for War Crimes: Defining the Limits of
-
-                                                               N          International Recognition”, en International Review of the Red Cross (vol. 85
-                                                                          Nº 851); pp. 583-625.
-
+protección de inversiones por tribunales chilenos. Responsabilidad del Esta-
+                                                                          do y expropiaciones regulatorias en un mundo crecientemente globalizado”,
+                                                                          en Revista Chilena de Derecho (vol. 32 Nº 1); pp. 19-78.
 
 ## 191.   Navarro Dolmestch, Roberto (2004): “Los efectos en el sistema chileno de
 
-                                                                          fuentes del derecho penal de la incorporación de los tratados internacionales
+**Definición Canónica:** fuentes del derecho penal de la incorporación de los tratados internacionales
                                                                           y del fenómeno de la globalización”, en Ius et Praxis (vol. 10 Nº 1); pp. 77-111.
 
-
-## 192.   Newton, Major Michael A. (1996): “Continuum Crimes: Military Jurisdiction
-
-                                                                          over Foreign Nationals who Commit International Crimes”, en Military Law
-                                                                          Review (vol. 153); pp. 1-93.
-
-
-## 193.   Nieto Navia, Rafael (2001): International Peremptory Norms (jus cogens)
-
-                                                                          and International Humanitarian Law; 27 pp. Disponible online [fecha de con-
-                                                                          sulta: 23 de mayo de 2021].
-
+fuentes del derecho penal de la incorporación de los tratados internacionales
+                                                                          y del fenómeno de la globalización”, en Ius et Praxis (vol. 10 Nº 1); pp. 77-111.
 
 ## 194.   Nogueira Alcalá, Humberto (1993): “Los derechos humanos en el derecho
 
-                                                                          convencional internacional a la luz del artículo 5° de la Constitución chile-
+**Definición Canónica:** convencional internacional a la luz del artículo 5° de la Constitución chile-
+                                                                          na”, en Cuadernos de Análisis Jurídico (vol. 27): Dogmática constitucional y
+                                                                          derechos humanos; pp. 49-69.
+**Concordancias Legales:** artículo 5; Constitución; constitucion
+
+convencional internacional a la luz del artículo 5° de la Constitución chile-
                                                                           na”, en Cuadernos de Análisis Jurídico (vol. 27): Dogmática constitucional y
                                                                           derechos humanos; pp. 49-69.
 
-
 ## 195.   Nogueira Alcalá, Humberto (1996): “Los tratados internacionales en el orde-
 
-                                                                          namiento jurídico chileno”, en Revista Chilena de Derecho (vol. 23 Nº 2 y 3,
+**Definición Canónica:** namiento jurídico chileno”, en Revista Chilena de Derecho (vol. 23 Nº 2 y 3,
+                                                                          tomo I); pp. 341-380.
+**Concordancias Legales:** Constitucion
+
+namiento jurídico chileno”, en Revista Chilena de Derecho (vol. 23 Nº 2 y 3,
                                                                           tomo I); pp. 341-380.
 
 Derecho Internacional                                                     Bibliografía                                                                  223
@@ -10348,16 +10301,21 @@ Humanitario y el                           del DIH y el DPI
                                                                           prescripción y su armonización con el Derecho Internacional de los Dere-
                                                                           chos Humanos vigente en Chile”, en Gaceta Jurídica Nº 301; pp. 40-63.
 
-
 ## 198.   Nogueira Alcalá, Humberto (2006a): “Los desafíos de la sentencia de la
 
-                                                                          Corte Interamericana Almonacid Arellano vs. Chile a los operadores jurídi-
+**Definición Canónica:** Corte Interamericana Almonacid Arellano vs. Chile a los operadores jurídi-
                                                                           cos nacionales”, en Gaceta Jurídica Nº 316; pp. 16-19.
 
+Corte Interamericana Almonacid Arellano vs. Chile a los operadores jurídi-
+                                                                          cos nacionales”, en Gaceta Jurídica Nº 316; pp. 16-19.
 
 ## 199.   Nogueira Alcalá, Humberto (2006b): “Los desafíos de la sentencia de la
 
-                                                                          Corte Interamericana en el caso Almonacid Arellano”, en Ius et Praxis (vol.
+**Definición Canónica:** Corte Interamericana en el caso Almonacid Arellano”, en Ius et Praxis (vol.
+                                                                          12 Nº 2); pp. 363-384.
+**Concordancias Legales:** constitucion
+
+Corte Interamericana en el caso Almonacid Arellano”, en Ius et Praxis (vol.
                                                                           12 Nº 2); pp. 363-384.
 
                                                                    200.   Nogueira Alcalá, Humberto (2008a): “El boque constitucional de derechos:
@@ -10369,615 +10327,455 @@ Humanitario y el                           del DIH y el DPI
                                                                           cional. Libro Homenaje al profesor Santiago Benadava (Santiago, Editorial
                                                                           Librotecnia); pp. 265-304.
 
-
 ## 201.   Nogueira Alcalá, Humberto (2008b): “Informe en derecho sobre precedentes
 
-                                                                          jurisdiccionales en materia de media prescripción”, en Ius et praxis (vol. 14
+**Definición Canónica:** jurisdiccionales en materia de media prescripción”, en Ius et praxis (vol. 14
+                                                                          Nº 2); pp. 561-589.
+
+jurisdiccionales en materia de media prescripción”, en Ius et praxis (vol. 14
                                                                           Nº 2); pp. 561-589.
 
                                                                O   202. Observatorio de Derechos Humanos UDP (2014): “Principales hitos jurispru-
                                                                         denciales en causas DDHH en Chile 1990-2013”. Disponible online [fecha de
                                                                         consulta: 17 de enero de 2021].
 
-
-## 203. O’Connell, Mary Ellen (2008): The Power & Purpose of International Law
-
-                                                                        (New York, Oxford University Press); 391 pp.
-
-
-## 204. Odello, Marco (2004): “La Corte Penal Internacional y las legislaciones
-
-                                                                        nacionales: relación entre derecho internacional y derechos nacionales”, en
-                                                                        Foro, Nueva época; pp. 347-378.
-
-
-## 205. Oficina del Alto Comisionado para los Derechos Humanos (1991): “El Dere-
-
-                                                                        cho Humanitario Internacional y los Derechos Humanos”, en Folleto infor-
-                                                                        mativo Nº 13 (Ginebra, Naciones Unidas).
-
-
-## 206. Olasolo, Héctor (2016): “Los fines del derecho internacional penal”, en In-
-
-                                                                        ternational Law, Revista Colombiana de Derecho Internacional N° 29; pp.
-                                                                        93-146.
-
-
 ## 207. Olasolo, Héctor, Martínez, Juan R. y Rodríguez, Ana María (2016): “La inmu-
 
-                                                                        nidad de jurisdicción penal por crímenes internacionales de los jefes de Es-
+**Definición Canónica:** nidad de jurisdicción penal por crímenes internacionales de los jefes de Es-
                                                                         tado, los jefes de gobierno y los ministros de asuntos exteriores”, en Revista
                                                                         Chilena de Derecho vol. 43 Nº 1; pp. 251-281.
 
-
-## 208. Oppenheim, L. (1966): II Tratado de Derecho Internacional Público. Contro-
-
-                                                                        versias, guerra y neutralidad (7ª edición, Barcelona, Bosch).
-
-
-## 209. Orakhelashvili, Alexander (2006): Peremptory Norms in International Law
-
-                                                                        (New York, Oxford University Press).
-
+nidad de jurisdicción penal por crímenes internacionales de los jefes de Es-
+                                                                        tado, los jefes de gobierno y los ministros de asuntos exteriores”, en Revista
+                                                                        Chilena de Derecho vol. 43 Nº 1; pp. 251-281.
 
 ## 210. Orentlicher, Diane F. (1991): “The Duty to Prosecute Human Rights Violations
 
-                                                                        of a Prior Regime”, en Yale Law Journal (vol. 100 Nº 8); pp. 2537-2615.
+**Definición Canónica:** of a Prior Regime”, en Yale Law Journal (vol. 100 Nº 8); pp. 2537-2615.
+
+of a Prior Regime”, en Yale Law Journal (vol. 100 Nº 8); pp. 2537-2615.
 
 Derecho Internacional                                                  Bibliografía                                                                    224
 
-
-## 211. Pagliari, Arturo Santiago (2007): Curso de Derecho Internacional Público
-
-                                                               P        (Córdoba, Advocatus).
-
-
 ## 212. Palwankar, Umesh (1994): “Medidas que pueden tomar los Estados para
 
-                                                                        cumplir su obligación de hacer respetar el Derecho Internacional Huma-
+**Definición Canónica:** cumplir su obligación de hacer respetar el Derecho Internacional Huma-
                                                                         nitario”, en Revista Internacional de la Cruz Roja Nº 121 (Ginebra, Comité
                                                                         Internacional de la Cruz Roja).
 
-
-## 213. Parker, Karen y Neylon, Lyn Beth (1989): “Jus cogens: Compelling the Law of
-
-                                                                        Human Rights”, en Hastings International and Comparative Law Review (vol.
-                                                                        12 Nº 2); pp. 411-463.
-
+cumplir su obligación de hacer respetar el Derecho Internacional Huma-
+                                                                        nitario”, en Revista Internacional de la Cruz Roja Nº 121 (Ginebra, Comité
+                                                                        Internacional de la Cruz Roja).
 
 ## 214. Pasquier, André (1985): “Derecho Internacional Humanitario y actividades
 
-                                                                        del CICR para América Latina y el Caribe”, en II Seminario Interamericano
+**Definición Canónica:** del CICR para América Latina y el Caribe”, en II Seminario Interamericano
                                                                         sobre seguridad del Estado, Derecho Humanitario y Derechos Humanos en
                                                                         Centro América (San José, Costa Rica, Instituto Interamericano de Dere-
                                                                         chos Humanos).
 
-
-## 215. Pastor Ridruejo, José Antonio (1991): Curso de Derecho Internacional
-
-                                                                        Público y organizaciones internacionales (Reimpresión 3ª edición, Madrid,
-                                                                        Tecnos).
-
+del CICR para América Latina y el Caribe”, en II Seminario Interamericano
+                                                                        sobre seguridad del Estado, Derecho Humanitario y Derechos Humanos en
+                                                                        Centro América (San José, Costa Rica, Instituto Interamericano de Dere-
+                                                                        chos Humanos).
 
 ## 216. Paul, Vladimir (1971): “Legal Consequences of Conflict between a Treaty and
 
-                                                                        Imperative Norm of General International Llaw (Jus cogens)”, en Osterrei-
+**Definición Canónica:** Imperative Norm of General International Llaw (Jus cogens)”, en Osterrei-
                                                                         chische Zeitschrift für öffentliches Recht (vol. 21 Nº 1-2); pp. 19-49.
 
-
-## 217. Paulus, Andreas L. (2005): “Jus cogens in a Time of Hegemony and Frag-
-
-                                                                        mentation”, en Nordic Journal of International Law (vol. 74 Nº 3-4); pp. 297-
-                                                                        333.
-
-
-## 218. Pejic, Jelena (2001): “No discriminación y conflicto armado”, en Revista
-
-                                                                        Internacional de la Cruz Roja Nº 841 (Ginebra, Comité Internacional de la
-                                                                        Cruz Roja).
-
-
-## 219. Peña López, Rolando (1961): II Manual de Derecho Internacional Público
-
-                                                                        (Concepción, Universidad de Concepción).
-
-
-## 220. Pfeffer Urquiaga, Emilio (1997): “Constitución Política de la República y tra-
-
-                                                                        tados internacionales”, en Ius et Praxis (vol. 2 Nº 2); pp. 63-72.
-
-
-## 221. Pfeffer Urquiaga, Emilio (2003): “Los tratados internacionales sobre de-
-
-                                                                        rechos humanos y su ubicación en el orden normativo interno”, en Ius et
-                                                                        Praxis (vol. 9 Nº 1); pp. 467-484.
-
-
-## 222. Philippe, Xavier (2006): “Los principios de jurisdicción universal y comple-
-
-                                                                        mentariedad: su interconexión”, en Revista Internacional de la Cruz Roja
-                                                                        (selección de artículos 2006 Nº 861-864); pp. 433-458.
-
-
-## 223. Pictet, Jean (1956): Los principios de la Cruz Roja (Ginebra, Comité Interna-
-
-                                                                        cional de la Cruz Roja).
-
-
-## 224. Pictet, Jean (1986): Desarrollo y principios del Derecho Internacional Huma-
-
-                                                                        nitario (Ginebra, Instituto Henry Dunant).
-
-
-## 225. Pinochet Elorza, César (1990): “Eficacia de la elevación a rango constitucio-
-
-                                                                        nal de los tratados internacionales sobre derechos humanos”, en Cuadernos
-                                                                        de Análisis Jurídico (Nº 13); pp. 9-18.
-
+Imperative Norm of General International Llaw (Jus cogens)”, en Osterrei-
+                                                                        chische Zeitschrift für öffentliches Recht (vol. 21 Nº 1-2); pp. 19-49.
 
 ## 226. Precht Pizarro, Jorge Enrique (1967): “Los tratados internacionales como
 
-                                                                        fuentes del derecho administrativo. Incorporación global y automática de
+**Definición Canónica:** fuentes del derecho administrativo. Incorporación global y automática de
+                                                                        los tratados internacionales al derecho interno chileno”, en Anales de la Fa-
+
+fuentes del derecho administrativo. Incorporación global y automática de
                                                                         los tratados internacionales al derecho interno chileno”, en Anales de la Fa-
 
 Derecho Internacional                                                   Bibliografía                                                                    225
 
                                                                         cultad de Ciencias Jurídicas y Sociales cuarta época (vol. 7 Nº 7); pp. 29-61.
 
-
-## 227. Precht Pizarro, Jorge Enrique (1996): “Vino nuevo en odres viejos: derecho
-
-                                                                        internacional convencional y derecho interno chileno”, en Revista Chilena de
-                                                                        Derecho (vol. 23 Nº 2 y 3, Tomo I); pp. 381-405.
-
-
-## 228. Puceiro Ripoll, Roberto (1974): “Desarrollos actuales del jus cogens: el fan-
-
-                                                                        tasma rompe su hechizo”, en Revista Uruguaya de Derecho Internacional
-                                                                        (Nº 3); pp. 49-79.
-
-
 ## 229. Puceiro Ripoll, Roberto (2005): “Las normas de jus cogens en el campo del
 
-                                                                        derecho internacional contemporáneo”; en Jiménez de Aréchaga, Eduar-
+**Definición Canónica:** derecho internacional contemporáneo”; en Jiménez de Aréchaga, Eduar-
                                                                         do, Arbuet-Vignali, Heber y Puceiro Ripoll, Roberto, I Derecho Internacional
                                                                         Público. Principios, normas y estructuras (Montevideo, Fundación de Cultura
                                                                         Universitaria); pp. 359-385.
 
+derecho internacional contemporáneo”; en Jiménez de Aréchaga, Eduar-
+                                                                        do, Arbuet-Vignali, Heber y Puceiro Ripoll, Roberto, I Derecho Internacional
+                                                                        Público. Principios, normas y estructuras (Montevideo, Fundación de Cultura
+                                                                        Universitaria); pp. 359-385.
 
 ## 230. Redress (1999): Universal Jurisdiction in Europe. Criminal Prosecutions in
 
-                                                               R        Europe since 1990 for War Crimes, Crimes against Humanity, Torture and
+**Definición Canónica:** R        Europe since 1990 for War Crimes, Crimes against Humanity, Torture and
+
+R        Europe since 1990 for War Crimes, Crimes against Humanity, Torture and
 
                                                                         Genocide; 51 pp. Disponible online [fecha de consulta: 11 de enero de 2021].
 
-
 ## 231. Reece Thomas, Katherine y Small, Joan (2003): “Human Rights and State
 
-                                                                        Immunity: Is there Immunity from Civil Liability for Torture?”, en Netherlands
+**Definición Canónica:** Immunity: Is there Immunity from Civil Liability for Torture?”, en Netherlands
                                                                         International Law Review (vol. 50 Nº 1); pp. 1-30.
 
-
-## 232. Reisinger, William (2007): “Beyond ‘De-Nile’ the United Nations’ Genocide
-
-                                                                        Problem in Darfur”, en Touro Law Review (vol. 23 Nº 3); pp. 685-730.
-
+Immunity: Is there Immunity from Civil Liability for Torture?”, en Netherlands
+                                                                        International Law Review (vol. 50 Nº 1); pp. 1-30.
 
 ## 233. Requa, Marny A. (2012): “A Human Rights Triumph? Dictatorship-era Crimes
 
-                                                                        and the Chilean Supreme Court”, en Human Rights Law Review (vol. 12 Nº 1);
+**Definición Canónica:** and the Chilean Supreme Court”, en Human Rights Law Review (vol. 12 Nº 1);
+                                                                        pp. 79-106.
+
+and the Chilean Supreme Court”, en Human Rights Law Review (vol. 12 Nº 1);
                                                                         pp. 79-106.
 
                                                                    234. Reuter, Paul (1982): Derecho Internacional Público (Trad. José Puente Egido,
                                                                         Barcelona, Bosch).
 
-
-## 235. Rey Cantor, Ernesto (2006): “El bloque de constitucionalidad. Aplicación de
-
-                                                                        tratados internacionales de derechos humanos”, en Estudios Constitucio-
-                                                                        nales (Nº 2); pp. 299-334.
-
-
-## 236. Ríos Álvarez, Lautaro (1997): “Jerarquía normativa de los tratados inter-
-
-                                                                        nacionales sobre los derechos humanos”, en Ius et Praxis (vol. 2 Nº 2); pp.
-                                                                        101-112.
-
-
 ## 237. Ríos Rodríguez, Jacobo (2007): “Límites y beneficiarios de la inmunidad de
 
-                                                                        los gobernantes”, en Revista Electrónica de Estudios Internacionales (Nº 13);
+**Definición Canónica:** los gobernantes”, en Revista Electrónica de Estudios Internacionales (Nº 13);
                                                                         18 pp. Disponible online [fecha de consulta: 11 de enero de 2021].
 
-
-## 238. Riveros Marín, Edgardo (1996): “Las relaciones entre el derecho internacio-
-
-                                                                        nal y el derecho interno. Notas sobre el caso chileno”, en Revista Chilena de
-                                                                        Derecho (vol. 23 Nº 2 y 3, Tomo I); pp. 407-410.
-
-
-## 239. Roberts, Anthea Elizabeth (2001): “Traditional and Modern Approaches to
-
-                                                                        Customary International Law: a Reconciliation”, en American Journal of
-                                                                        International Law (vol. 95 Nº 4); pp. 757-791.
-
+los gobernantes”, en Revista Electrónica de Estudios Internacionales (Nº 13);
+                                                                        18 pp. Disponible online [fecha de consulta: 11 de enero de 2021].
 
 ## 240. Rodríguez Yagüe, Cristina (2007): “Criterios de resolución de conflictos entre la
 
-                                                                        Corte Penal Internacional y Tribunales Ad Hoc y la jurisdicción española: a vuel-
+**Definición Canónica:** Corte Penal Internacional y Tribunales Ad Hoc y la jurisdicción española: a vuel-
                                                                         tas con la justicia universal”, en Revista Electrónica de Estudios Internacionales
                                                                         (Nº 14); 24 pp. Disponible online [fecha de consulta: 11 de enero de 2021].
 
+Corte Penal Internacional y Tribunales Ad Hoc y la jurisdicción española: a vuel-
+                                                                        tas con la justicia universal”, en Revista Electrónica de Estudios Internacionales
+                                                                        (Nº 14); 24 pp. Disponible online [fecha de consulta: 11 de enero de 2021].
 
 ## 241. Rousseau, Charles (1966): Derecho Internacional Público (Trad. Fernando
 
-                                                                        Giménez Artigues, 3ª edición, Barcelona, Ediciones Ariel).
+**Definición Canónica:** Giménez Artigues, 3ª edición, Barcelona, Ediciones Ariel).
+
+Giménez Artigues, 3ª edición, Barcelona, Ediciones Ariel).
 
 Derecho Internacional                                                   Bibliografía                                                                    226
 
-
-## 242. Ruiz Moreno, Isidoro (1935): II Lecciones de Derecho Internacional Público
-
-                                                                         (Buenos Aires, El Ateneo).
-
-
 ## 243. Sagüés, Néstor Pedro (2003): “Las relaciones entre los tribunales inter-
 
-                                                                S        nacionales y los tribunales nacionales en materia de derechos humanos.
+**Definición Canónica:** S        nacionales y los tribunales nacionales en materia de derechos humanos.
                                                                          Experiencias en Latinoamérica”, en Ius et Praxis (vol. 9 Nº 1); pp. 205-221.
 
+S        nacionales y los tribunales nacionales en materia de derechos humanos.
+                                                                         Experiencias en Latinoamérica”, en Ius et Praxis (vol. 9 Nº 1); pp. 205-221.
 
 ## 244. Salinas Burgos, Hernán (1998): “El Derecho Internacional Humanitario y los
 
-                                                                         conflictos internos. Nuevos Desarrollos”, en Infante, María Teresa y Cave,
+**Definición Canónica:** conflictos internos. Nuevos Desarrollos”, en Infante, María Teresa y Cave,
                                                                          Rose (compiladoras): Nuevos estudios de Derecho Internacional Humani-
                                                                          tario (Santiago, Instituto de Estudios Internacionales Universidad de Chile,
                                                                          Colección Estudios Internacionales).
 
-
-## 245. Sandoval Messa, Jaime Alberto (2010): “Jurisdicción universal y legalidad
-
-                                                                         del Estatuto de Roma, frente al derecho interno”, en Prolegómenos: Derecho
-                                                                         y Valores (vol. 13 Nº 25); pp. 201-217.
-
+conflictos internos. Nuevos Desarrollos”, en Infante, María Teresa y Cave,
+                                                                         Rose (compiladoras): Nuevos estudios de Derecho Internacional Humani-
+                                                                         tario (Santiago, Instituto de Estudios Internacionales Universidad de Chile,
+                                                                         Colección Estudios Internacionales).
 
 ## 246. Santos Vara, Juan (2006): “La jurisdicción de los tribunales españoles para
 
-
-                                                                         enjuiciar los crímenes cometidos en Guatemala”, en Revista electrónica de
+**Definición Canónica:** enjuiciar los crímenes cometidos en Guatemala”, en Revista electrónica de
                                                                          Estudios internacionales (Nº 11); 21 pp. Disponible online [fecha de consulta:
                                                                          11 de enero de 2021].
 
+enjuiciar los crímenes cometidos en Guatemala”, en Revista electrónica de
+                                                                         Estudios internacionales (Nº 11); 21 pp. Disponible online [fecha de consulta:
+                                                                         11 de enero de 2021].
 
 ## 247. Sato, Tetsuo (1987): “Review of Professor Takeshi Minagawa’s Kokusaiho Kenkyu
 
-                                                                         with some General Observations on His Contribution to the Science of Interna-
+**Definición Canónica:** with some General Observations on His Contribution to the Science of Interna-
                                                                          tional Law”, en Hitotsubashi Journal of Law and Politics (vol. 15); pp. 13-27.
 
-
-## 248. Scarpa, Silvia (2008): Trafficking in Human Beings: Modern Slavery (New
-
-                                                                         York, Oxford University Press); 230 pp.
-
-
-## 249. Scharf, Michael (1996): “The Letter of the Law: the Scope of the Interna-
-
-                                                                         tional Legal Obligation to Persecute Human Rights Crimes”, en Law and
-                                                                         Contemporary Problems (vol. 59 Nº 4); pp. 41-61.
-
-
-## 250. Scharf, Michael (2001): “The ICC’s Jurisdiction over the Nationals of
-
-                                                                         Non-Party States: A Critique of the U.S. Position”, en Law and Contempo-
-                                                                         rary Problems (vol. 64 Nº 1); pp. 67-117.
-
+with some General Observations on His Contribution to the Science of Interna-
+                                                                         tional Law”, en Hitotsubashi Journal of Law and Politics (vol. 15); pp. 13-27.
 
 ## 251. Scheuner, Ulrich (1967): “Conflict of Treaty Provisions with a Peremptory
 
-                                                                         Norm of General International Law (ius cogens) and its Consequences.
+**Definición Canónica:** Norm of General International Law (ius cogens) and its Consequences.
                                                                          Comments on Articles 50, 61 and 67”, en Zeitschrift für Ausländisches
                                                                          Offentliches Recht und Völkerrecht (vol. 27); pp. 521-532.
 
+Norm of General International Law (ius cogens) and its Consequences.
+                                                                         Comments on Articles 50, 61 and 67”, en Zeitschrift für Ausländisches
+                                                                         Offentliches Recht und Völkerrecht (vol. 27); pp. 521-532.
 
 ## 252. Schindler, Dietrich (1979): “El Comité Internacional de la Cruz Roja y los
 
-                                                                         Derechos Humanos”, en Revista Internacional de la Cruz Roja enero-febrero
+**Definición Canónica:** Derechos Humanos”, en Revista Internacional de la Cruz Roja enero-febrero
                                                                          1979 (Ginebra, Comité Internacional de la Cruz Roja).
 
+Derechos Humanos”, en Revista Internacional de la Cruz Roja enero-febrero
+                                                                         1979 (Ginebra, Comité Internacional de la Cruz Roja).
 
 ## 253. Schindler, Dietrich (1999): “Importancia de los Convenios de Ginebra para el
 
-                                                                         mundo contemporáneo”, en Revista Internacional de la Cruz Roja Nº 836, 31
+**Definición Canónica:** mundo contemporáneo”, en Revista Internacional de la Cruz Roja Nº 836, 31
+                                                                         diciembre de 1999 (Ginebra, Comité Internacional de la Cruz Roja); pp. 715-728.
+
+mundo contemporáneo”, en Revista Internacional de la Cruz Roja Nº 836, 31
                                                                          diciembre de 1999 (Ginebra, Comité Internacional de la Cruz Roja); pp. 715-728.
 
 254.                                                                     Schindler, Dietrich y Toman, J., directores (1958): The Laws of Armed Conflicts
                                                                          Nº 28 (3ª edición, Ginebra, Martinus Nijhoff Publishers/Instituto Henry Dunant).
 
-
 ## 255. Schönsteiner, Judith y Couso, Javier (2015): “La implementación de las de-
 
-                                                                         cisiones de los órganos del sistema interamericano de derechos humanos
+**Definición Canónica:** cisiones de los órganos del sistema interamericano de derechos humanos
                                                                          en Chile: ensayo de un balance”, en Revista de Derecho Universidad Católi-
                                                                          ca del Norte vol. 22 N° 2; pp. 315-355.
 
+cisiones de los órganos del sistema interamericano de derechos humanos
+                                                                         en Chile: ensayo de un balance”, en Revista de Derecho Universidad Católi-
+                                                                         ca del Norte vol. 22 N° 2; pp. 315-355.
 
 ## 256. Shaw, Malcolm N. (2008): International Law (6th edition, Cambridge, Cam-
 
-                                                                         bridge University Press).
+**Definición Canónica:** bridge University Press).
+
+bridge University Press).
 
 ←                                        Índice de contenidos
 Derecho Internacional                                                  Bibliografía                                                                   227
 
-
-## 257. Shelton, Dinah (2002): “Righting Wrongs: Reparations in the Articles on
-
-                                                                        State Responsibility”, en American Journal of International Law (vol. 96 Nº
-                                                                        4); pp. 833-856.
-
-
-## 258. Shelton, Dinah (2006): “Normative Hierarchy in International Law”, en Ame-
-
-                                                                        rican Journal of International Law (vol. 100 Nº 2); pp. 291-323.
-
-
-## 259. Shiner, Roger A. (ed.) (2005): A Treatise of Legal Philosophy and General
-
-                                                                        Jurisprudence. Volume 3. Legal Institutions and the Sources of Law (Dor-
-                                                                        drecht, Springer).
-
-
-## 260. Silva Bascuñán, Alejandro (2006): XI Tratado de Derecho Constitucional (2ª
-
-                                                                        edición, Santiago, Editorial Jurídica de Chile).
-
-
-## 261. Simon, Jan-Michael (2001): “Jurisdicción universal. La perspectiva del Dere-
-
-                                                                        cho Internacional Público”, en Anuario de Derecho Constitucional Latinoa-
-                                                                        mericano; pp. 283-318.
-
-
 ## 262. Sinclair, Ian Mac Taggart (1973): The Vienna Convention on the Law of Trea-
 
-                                                                        ties (Manchester, University Press).
+**Definición Canónica:** ties (Manchester, University Press).
+
+ties (Manchester, University Press).
 
                                                                    263. Sorensen, Max (1945): Manual de Derecho Internacional Público (México,
                                                                         Fondo de Cultura Económica).
 
-
-## 264. Sorensen, Max, ed. (1973): Manual de Derecho Internacional Público (Trad. a
-
-                                                                        cargo de la Dotación Carnegie para la Paz Internacional, México D.F., Fondo
-                                                                        de Cultura Económica).
-
-
-## 265. Stanislaw, Nahik: Compendio de Derecho Internacional Humanitario (Gine-
-
-                                                                        bra, separata de la Revista Internacional de la Cruz Roja, 1984).
-
-
-## 266. Stephen, Christopher (2012): “International Criminal Law: Wielding the
-
-                                                                        Sword of Universal Criminal Justice?”, en International and Comparative
-                                                                        Law Quarterly (vol. 61 Nº 1); pp. 55-89.
-
-
-## 267. Stephens, Pamela J. (2004): “A Categorical Approach to Human Rights
-
-                                                                        Claims: Jus Cogens as a Limitation on Enforcement?”, en Wisconsin Inter-
-                                                                        national Law Journal (vol. 22 Nº 2); pp. 245-272.
-
-
-## 268. Stewart, David (2005): “The UN Convention on Jurisdictional Immunities of
-
-                                                                        States and their Property”, en American Journal of International Law (vol. 99
-                                                                        Nº 1); pp. 194-211.
-
-
 ## 269. Suárez Crothers, Christian (2016): “Caso Omar Humberto Maldonado Var-
 
-                                                                        gas y Otros vs. Chile, a propósito de la causa ‘Fuerza Aérea de Chile Contra
+**Definición Canónica:** gas y Otros vs. Chile, a propósito de la causa ‘Fuerza Aérea de Chile Contra
                                                                         Bachelet y Otros’”, en Estudios Constitucionales vol. 14 Nº 2; pp. 419-434.
+**Concordancias Legales:** Constitucion
 
-
-## 270. Swinarski, Christophe (1990): Principales nociones e institutos del DIH como
-
-                                                                        sistema de protección de la persona humana (San José, Costa Rica, Institu-
-                                                                        to Interamericano de Derechos Humanos).
-
+gas y Otros vs. Chile, a propósito de la causa ‘Fuerza Aérea de Chile Contra
+                                                                        Bachelet y Otros’”, en Estudios Constitucionales vol. 14 Nº 2; pp. 419-434.
 
 ## 271. Tapia Valdés, Jorge (2003): “Efectos de los tratados sobre derechos huma-
 
-                                                               T        nos en la jerarquía del orden jurídico y en la distribución de competencias.
+**Definición Canónica:** T        nos en la jerarquía del orden jurídico y en la distribución de competencias.
+                                                                        Alcances del nuevo inciso segundo del artículo 5° de la CPR de 1980”, en
+                                                                        Ius et Praxis (vol. 9 Nº 1); pp. 351-364.
+**Concordancias Legales:** artículo 5
+
+T        nos en la jerarquía del orden jurídico y en la distribución de competencias.
                                                                         Alcances del nuevo inciso segundo del artículo 5° de la CPR de 1980”, en
                                                                         Ius et Praxis (vol. 9 Nº 1); pp. 351-364.
 
-
 ## 272. Téllez Soto, Claudia (1998): “Valor jurídico de los tratados internacionales en
 
-                                                                        el derecho interno”, en Revista de Derecho Universidad Austral (vol. 9); pp.
+**Definición Canónica:** el derecho interno”, en Revista de Derecho Universidad Austral (vol. 9); pp.
+                                                                        179-190.
+
+el derecho interno”, en Revista de Derecho Universidad Austral (vol. 9); pp.
                                                                         179-190.
 
 Derecho Internacional                                                  Bibliografía                                                                   228
 
-
-## 273. Thienel, Tobias (2006): “The Admissibility of Evidence Obtained by Torture
-
-                                                                        under International Law”, en European Journal of International Law (vol. 17);
-                                                                        pp. 349-367.
-
-
 ## 274. Tomuschat, Christian (2005): “Informe de la Comisión sobre la jurisdicción
 
-                                                                        penal universal presentado en el Instituto de Derecho Internacional, octubre
+**Definición Canónica:** penal universal presentado en el Instituto de Derecho Internacional, octubre
                                                                         2002”, en Revista de Estudios Internacionales (Nº 151); pp. 117-168.
 
-
-## 275. United Nations (2001): II Yearbook of International Law Commission part II
-
-                                                               U        (New York, United Nations); 214 pp.
-
+penal universal presentado en el Instituto de Derecho Internacional, octubre
+                                                                        2002”, en Revista de Estudios Internacionales (Nº 151); pp. 117-168.
 
 ## 276. Uribe Vargas, Diego (1985): “Problemas de derechos humanos y seguridad
 
-                                                                        del Estado en Centro América y el resto del mundo: una comparación”, en II
+**Definición Canónica:** del Estado en Centro América y el resto del mundo: una comparación”, en II
                                                                         Seminario Interamericano sobre seguridad del Estado, Derecho Humanitario
                                                                         y Derechos Humanos en Centro América (San José, Costa Rica, Instituto
                                                                         Interamericano de Derechos Humanos); pp. 61-74.
 
+del Estado en Centro América y el resto del mundo: una comparación”, en II
+                                                                        Seminario Interamericano sobre seguridad del Estado, Derecho Humanitario
+                                                                        y Derechos Humanos en Centro América (San José, Costa Rica, Instituto
+                                                                        Interamericano de Derechos Humanos); pp. 61-74.
 
 ## 277. Van Boven, Theo (1996): “Appendix C: Review of Further Developments in
 
-                                                               V
+**Definición Canónica:** V
+
+V
 
                                                                         Fields with Which the Sub-Commission Has Been Concerned”, en Law and
                                                                         Contemporary Problems (vol. 59 Nº 4); pp. 283-347.
 
-
-## 278. Van Schaack, Beth (1997): “The Crime of Political Genocide: Repairing the
-
-                                                                        Genocide Convention’s Blind Spot”, en Yale Law Journal (vol. 106 Nº 7); pp.
-                                                                        2259-2291.
-
-
 ## 279. Vargas Carreño, Edmundo (2007): Derecho Internacional Público. De acuer-
 
-                                                                        do a las normas y prácticas que rigen en el siglo XXI (Santiago, Editorial
+**Definición Canónica:** do a las normas y prácticas que rigen en el siglo XXI (Santiago, Editorial
+                                                                        Jurídica de Chile).
+
+do a las normas y prácticas que rigen en el siglo XXI (Santiago, Editorial
                                                                         Jurídica de Chile).
 
                                                                    280. Verdross, Alfred (1980): Derecho Internacional Público, 5a. edición alemana,
                                                                         refundida y aumentada con la colaboración de Stephan Verosta y Karl Zema-
                                                                         nek (6ª edición, 2ª reimpresión, trad. Antonio Truyol y Serra, Madrid, Aguilar).
 
-
-## 281. Vivanco Martínez, Ángela (2006): II Curso de Derecho Constitucional. As-
-
-                                                                        pectos Dogmáticos de la Carta Fundamental de 1980 (Santiago, Ediciones
-                                                                        Universidad Católica de Chile).
-
-
 ## 282. Weisburd, Arthur (1995): “The Emptiness of the Concept of jus cogens. As
 
-                                                               W        illustrated by the war in Bosnia-Herzegovina”, en Michigan Journal of Inter-
+**Definición Canónica:** W        illustrated by the war in Bosnia-Herzegovina”, en Michigan Journal of Inter-
+                                                                        national Law (vol. 17); pp. 1-51.
+
+W        illustrated by the war in Bosnia-Herzegovina”, en Michigan Journal of Inter-
                                                                         national Law (vol. 17); pp. 1-51.
 
                                                                    283. Werle, Gerhard (2005): Principles of International Criminal Law (The Hague,
                                                                         T.M.C Asser Press).
 
-
-## 284. Whiteman, Marjorie (1977): “Jus cogens in International Law, with a projec-
-
-                                                                        ted list”, en Georgia Journal of International and Comparative Law (vol. 7 Nº
-                                                                        2); pp. 609-626.
-
-
-## 285. Wirth, Steffen (2002): “Immunity for Core Crimes? The ICJ’s Sentence in the
-
-                                                                        Congo v. Belgium Case”, en European Journal of International Law (vol. 13);
-                                                                        pp. 877-893.
-
-
 ## 286. Wouters, Jand y Verhoeven, Sten (2005): “The Prohibition of Genocide as a
 
-                                                                        Norm of ius cogens and its Implications for the Enforcement of the Law of
+**Definición Canónica:** Norm of ius cogens and its Implications for the Enforcement of the Law of
                                                                         Genocide”, en International Criminal Law Review (vol. 5); pp. 401-416.
 
+Norm of ius cogens and its Implications for the Enforcement of the Law of
+                                                                        Genocide”, en International Criminal Law Review (vol. 5); pp. 401-416.
 
 ## 287. Yarwood, Lisa (2006): “Jus cogens: Useful Tool or Passing Fancy? A Modest
 
-                                                               Y        Attempt at Definition”, en Bracton Law Journal (vol. 38); pp. 16-38.
+**Definición Canónica:** Y        Attempt at Definition”, en Bracton Law Journal (vol. 38); pp. 16-38.
+
+Y        Attempt at Definition”, en Bracton Law Journal (vol. 38); pp. 16-38.
 
 Derecho Internacional                                                   Bibliografía                                                                  229
 
-
 ## 288. Zappalá, Salvatore (2001): “Do Heads of State in Office Enjoy Immunity
 
-                                                               Z        from Jurisdiction for International Crimes? The Ghaddafi Case before the
+**Definición Canónica:** Z        from Jurisdiction for International Crimes? The Ghaddafi Case before the
                                                                         French Cour de Cassation”, en European Journal of International Law (vol.
                                                                         12); pp. 595-612.
 
-
-## 289. Zoglin, Kathryn (1986): “United Nations action against Slavery: A critical
-
-                                                                        evaluation”, en Human Rights Quarterly (vol. 8 Nº 2); pp. 306-339.
-
-
-## 290. Zúñiga Urbina, Francisco (2006): “Comentario: sentencia en el caso Molco
-
-                                                                        de la Excma. Corte Suprema de 13 de diciembre de 2006”, en Gaceta Jurí-
-                                                                        dica (Nº 318); pp. 30-34.
-
+Z        from Jurisdiction for International Crimes? The Ghaddafi Case before the
+                                                                        French Cour de Cassation”, en European Journal of International Law (vol.
+                                                                        12); pp. 595-612.
 
 ## 291. Zúñiga Urbina, Francisco (2008): “Derechos humanos en la jurisprudencia
 
-                                                                        del Tribunal Constitucional. Apostillas sobre tratados y Constitución”, en
+**Definición Canónica:** del Tribunal Constitucional. Apostillas sobre tratados y Constitución”, en
+                                                                        UNED. Revista de Derecho Político (Nº 71-72); pp. 789-827.
+**Concordancias Legales:** Constitucion; Constitución
+
+del Tribunal Constitucional. Apostillas sobre tratados y Constitución”, en
                                                                         UNED. Revista de Derecho Político (Nº 71-72); pp. 789-827.
 
                                                                         Jurisprudencia citada
 
-
 ## 1.   Audiencia Nacional (España), Auto de la sala de lo penal confirmando la
 
-                                                                        jurisdicción de España para conocer de los crímenes de genocidio y terro-
+**Definición Canónica:** jurisdicción de España para conocer de los crímenes de genocidio y terro-
                                                                         rismo cometidos durante la dictadura chilena (1998): sentencia 5 noviembre
                                                                         1998, rollo de apelación 173/98, sumario 1/98 del Juzgado Central de Ins-
                                                                         trucción Nº 6. Disponible online [fecha de consulta: 11 de enero de 2021].
 
+jurisdicción de España para conocer de los crímenes de genocidio y terro-
+                                                                        rismo cometidos durante la dictadura chilena (1998): sentencia 5 noviembre
+                                                                        1998, rollo de apelación 173/98, sumario 1/98 del Juzgado Central de Ins-
+                                                                        trucción Nº 6. Disponible online [fecha de consulta: 11 de enero de 2021].
 
 ## 2.   Corte Constitucional de Colombia, Revisión oficiosa del Protocolo adicional
 
-                                                                        a los Convenios de Ginebra del 12 de agosto de 1949 relativo a la protec-
+**Definición Canónica:** a los Convenios de Ginebra del 12 de agosto de 1949 relativo a la protec-
                                                                         ción de las víctimas de los conflictos armados internacionales (Protocolo I)
                                                                         (1992): sentencia Nº C-574/92, 28 octubre 1992. Disponible online [fecha de
                                                                         consulta: 11 de enero de 2021].
 
+a los Convenios de Ginebra del 12 de agosto de 1949 relativo a la protec-
+                                                                        ción de las víctimas de los conflictos armados internacionales (Protocolo I)
+                                                                        (1992): sentencia Nº C-574/92, 28 octubre 1992. Disponible online [fecha de
+                                                                        consulta: 11 de enero de 2021].
 
 ## 3.   Corte Constitucional de Colombia, Revisión de constitucionalidad del
 
-                                                                        Protocolo adicional a los Convenios de Ginebra del 12 de agosto de 1949,
+**Definición Canónica:** Protocolo adicional a los Convenios de Ginebra del 12 de agosto de 1949,
+                                                                        relativo a la protección de las víctimas de los conflictos armados sin carác-
+                                                                        ter internacional (Protocolo II) hecho en Ginebra 8 de junio de 1977 (1995):
+                                                                        sentencia Nº C-225/95, 18 mayo 1995, expediente Nº L.A.T.-040. Disponible
+                                                                        online [fe
+
+Protocolo adicional a los Convenios de Ginebra del 12 de agosto de 1949,
                                                                         relativo a la protección de las víctimas de los conflictos armados sin carác-
                                                                         ter internacional (Protocolo II) hecho en Ginebra 8 de junio de 1977 (1995):
                                                                         sentencia Nº C-225/95, 18 mayo 1995, expediente Nº L.A.T.-040. Disponible
                                                                         online [fecha de consulta: 11 de enero de 2021].
 
-
 ## 4.   Corte Constitucional de Colombia, Revisión de constitucionalidad contra
 
-                                                                        el artículo 15 del Decreto 85 de 1989 por el cual se reforma el Reglamen-
+**Definición Canónica:** el artículo 15 del Decreto 85 de 1989 por el cual se reforma el Reglamen-
+                                                                        to de régimen disciplinario para las Fuerzas Militares (1995): sentencia nº
+                                                                        C-578/95, 4 diciembre 1995, recurso nº D-958, vLex.
+**Concordancias Legales:** artículo 15 del Decreto 85 de 1989 por el cual se reforma el
+
+el artículo 15 del Decreto 85 de 1989 por el cual se reforma el Reglamen-
                                                                         to de régimen disciplinario para las Fuerzas Militares (1995): sentencia nº
                                                                         C-578/95, 4 diciembre 1995, recurso nº D-958, vLex.
 
-
 ## 5.   Corte Constitucional de Colombia, Demanda de inconstitucionalidad
 
-                                                                        contra el artículo 322ª (parcial) del Código Penal, creado por el artículo
+**Definición Canónica:** contra el artículo 322ª (parcial) del Código Penal, creado por el artículo
+                                                                        primero de la Ley 589 de 2000 por medio de la cual se tipifica el genocidio,
+                                                                        la desaparición forzada, el desplazamiento forzado y la tortura; y se dictan
+                                                                        otras disposiciones (2001): sentencia Nº C-177/01, 14 febrero 2001, recurso
+                                                                        nº D-31
+**Concordancias Legales:** artículo 322
+
+contra el artículo 322ª (parcial) del Código Penal, creado por el artículo
                                                                         primero de la Ley 589 de 2000 por medio de la cual se tipifica el genocidio,
                                                                         la desaparición forzada, el desplazamiento forzado y la tortura; y se dictan
                                                                         otras disposiciones (2001): sentencia Nº C-177/01, 14 febrero 2001, recurso
                                                                         nº D-3120, vLex.
 
-
 ## 6.   Corte Constitucional de Colombia, Revisión de la Ley 742 del 5 de junio
 
-                                                                        de 2002 por medio de la cual se aprueba el Estatuto de Roma de la Cor-
+**Definición Canónica:** de 2002 por medio de la cual se aprueba el Estatuto de Roma de la Cor-
                                                                         te Penal Internacional, hecho en Roma el día diecisiete (17) de julio de mil
                                                                         novecientos noventa y ocho (1998) (2002): sentencia Nº C-578/02, 30 julio
                                                                         2002, vLex.
 
+de 2002 por medio de la cual se aprueba el Estatuto de Roma de la Cor-
+                                                                        te Penal Internacional, hecho en Roma el día diecisiete (17) de julio de mil
+                                                                        novecientos noventa y ocho (1998) (2002): sentencia Nº C-578/02, 30 julio
+                                                                        2002, vLex.
 
 ## 7.   Corte Constitucional de Colombia, Demanda de inconstitucionalidad
 
-                                                                        contra los artículos 135, 156 y 157 (parciales) de la Ley 599 de 2000, y 174,
+**Definición Canónica:** contra los artículos 135, 156 y 157 (parciales) de la Ley 599 de 2000, y 174,
+**Concordancias Legales:** artículos 135
+
+contra los artículos 135, 156 y 157 (parciales) de la Ley 599 de 2000, y 174,
 
 Derecho Internacional                                                Bibliografía                                                                230
 
                                                                      175, 178 y 179 de la Ley 522 de 1999 (2007): sentencia Nº C-291/07, 25 abril
                                                                      2007, Disponible online en [fecha de consulta: 11 de enero de 2021].
 
-
 ## 8.    Corte Constitucional de Colombia, Revisión constitucional de la Ley 1072
 
-                                                                     del 31 de julio de 2006, por medio de la cual se aprueba la enmienda al
+**Definición Canónica:** del 31 de julio de 2006, por medio de la cual se aprueba la enmienda al
+                                                                     artículo 1º de la Convención sobre Prohibiciones o Restricciones del Empleo
+                                                                     de Ciertas Armas Convencionales que puedan considerarse excesivamente
+                                                                     nocivas o de efectos indiscriminados adoptada en la segunda conferen-
+                                                                     cia de examen de los Estados Parte e
+**Concordancias Legales:** artículo 1
+
+del 31 de julio de 2006, por medio de la cual se aprueba la enmienda al
                                                                      artículo 1º de la Convención sobre Prohibiciones o Restricciones del Empleo
                                                                      de Ciertas Armas Convencionales que puedan considerarse excesivamente
                                                                      nocivas o de efectos indiscriminados adoptada en la segunda conferen-
@@ -10985,188 +10783,57 @@ Humanitario y el                           del DIH y el DPI
                                                                      diciembre de dos mil uno (2001), en Ginebra, Suiza (2008): sentencia Nº
                                                                      C-534/08, 28 mayo 2008, expediente LAT-292, vLex.
 
-
 ## 9.    Corte Constitucional de Colombia, Demanda de inconstitucionalidad con-
 
-                                                                     tra el artículo 101 (parcial) de la Ley 599 de 2000, por la cual se expide el
+**Definición Canónica:** tra el artículo 101 (parcial) de la Ley 599 de 2000, por la cual se expide el
                                                                      Código Penal (2009): sentencia Nº C-488/09, 22 julio 2009.
+**Concordancias Legales:** artículo 101
 
-
-## 10.   Corte de Apelaciones de San Miguel, Contra Pinto y otro (2004): sentencia
-
-                                                                     11 junio 2004, rol Nº 907-2004, vLex.
-
-
-## 11.   Corte de Apelaciones de San Miguel, Contra Cevallos y otros (2008): sen-
-
-                                                                     tencia 6 noviembre 2008, rol Nº 5174-2007, Microjuris MJJ18747.
-
-
-## 12.   Corte de Apelaciones de San Miguel, Contra Pinto (2008): sentencia 6 oc-
-
-                                                                     tubre 2008, rol Nº 1462-2007, Microjuris MJJ18480.
-
-
-## 13.   Corte de Apelaciones de Santiago, Lechín y otros con Ministerio del Inte-
-
-                                                                     rior (1949): recurso de amparo, 13 julio 1949, sentencia Nº 85, Gaceta de los
-                                                                     Tribunales 1949, 2º semestre; pp. 443-445.
-
-
-## 14.   Corte de Apelaciones de Santiago, Contra Romo Mena (1994): sentencia 30
-
-                                                                     septiembre 1994, rol Nº 38683-94, Westlaw CL/JUR/177/1994.
-
-
-## 15.   Corte de Apelaciones de Santiago, Contra Contreras Sepúlveda y otros
-
-                                                                     (Caso Miguel Ángel Sandoval Rodríguez) (2004): sentencia 5 enero 2004, rol
-                                                                     Nº 11821-2003.
-
-
-## 16.   Corte de Apelaciones de Santiago, Barría y otros con Schernberger y
-
-                                                                     otros (2005): sentencia 6 julio 2005, rol Nº 15765-2004, Westlaw CL/
-                                                                     JUR/3024/2005.
-
-
-## 17.   Corte de Apelaciones de Santiago, Marín con Pinochet (2005): sentencia 30
-
-                                                                     agosto 2005, rol Nº 47806-2002, Westlaw CL/JUR/2473/2005.
-
-
-## 18.   Corte de Apelaciones de Santiago, Contra Burgos y otros (2006): sentencia
-
-                                                                     20 abril 2006, rol Nº 24471-2005, Westlaw CL/JUR/6158/2006.
-
-
-## 19.   Corte de Apelaciones de Santiago, Contra Gómez Aguilar (2006): sentencia
-
-                                                                     18 enero 2006, rol Nº 37483-2004, Westlaw CL/JUR/7724/2006.
-
-
-## 20.   Corte de Apelaciones de Santiago, Contra Ruiz, Madrid, Corvalán y
-
-                                                                     Díaz (2006): sentencia 27 junio 2006, rol Nº 14058-2004, Westlaw CL/
-                                                                     JUR/8497/2006.
-
-
-## 21.   Corte de Apelaciones de Santiago, Contra Vallejos (2006): sentencia 8 no-
-
-                                                                     viembre 2006, rol Nº 7797-2006, Westlaw CL/JUR/281/2006.
-
-
-## 22.   Corte de Apelaciones de Santiago, Contreras con Ruiz y otros (2006): sen-
-
-                                                                     tencia 31 julio 2006, rol nº 146-2006, Westlaw CL/JUR/8682/2006.
-
+tra el artículo 101 (parcial) de la Ley 599 de 2000, por la cual se expide el
+                                                                     Código Penal (2009): sentencia Nº C-488/09, 22 julio 2009.
 
 ## 23.   Corte de Apelaciones de Santiago, Estado de Chile y otros con Rive-
 
-                                                                     ra (2006): sentencia 8 noviembre 2006, rol Nº 5937-2006, Westlaw CL/
+**Definición Canónica:** ra (2006): sentencia 8 noviembre 2006, rol Nº 5937-2006, Westlaw CL/
+
+ra (2006): sentencia 8 noviembre 2006, rol Nº 5937-2006, Westlaw CL/
 
 Derecho Internacional                                                Bibliografía                                                                 231
 
                                                                      JUR/6802/2006.
 
-
-## 24.   Corte de Apelaciones de Santiago, Contra Alarcón (2007): sentencia 28
-
-                                                                     junio 2007, rol Nº 1064-2007, vLex.
-
-
-## 25.   Corte de Apelaciones de Santiago, Contra Barría (2007): sentencia 31 enero
-
-                                                                     2007, rol Nº 21783-2003, Westlaw CL/JUR/318/2007.
-
-
-## 26.   Corte de Apelaciones de Santiago, Carrasco c. Fisco de Chile (2007): sen-
-
-                                                                     tencia 10 julio 2007, rol Nº 6715-2002, Westlaw CL/JUR/1339/2007.
-
-
-## 27.   Corte de Apelaciones de Santiago, Lejderman c. Polanco y otros
-
-                                                                     (2007): sentencia 18 diciembre 2007, rol Nº 11801-2006, Westlaw CL/
-                                                                     JUR/6802/2007.
-
-
-## 28.   Corte de Apelaciones de Santiago, Montiel c. Fisco (2007): sentencia 31
-
-                                                                     enero 2007, rol Nº 325-2002, Westlaw CL/JUR/3784/2007.
-
-
-## 29.   Corte de Apelaciones de Santiago, Muller y otro c. Fisco (2007): sentencia
-
-
-                                                                     23 marzo 2007, rol Nº 1211-2002, Westlaw CL/JUR/446/2007.
-
-
-## 30.   Corte de Apelaciones de Santiago, Ríos con Pinochet y otros (2007): sen-
-
-                                                                     tencia 16 agosto 2007, rol Nº 7668-2006, Westlaw CL/JUR/1686/2007.
-
-
-## 31.   Corte de Apelaciones de Santiago, Toro y otros con Contreras y otros
-
-                                                                     (2007): sentencia 19 diciembre 2007, rol Nº 1579-2007, Westlaw CL/
-                                                                     JUR/3048/2007.
-
-
-## 32.   Corte de Apelaciones de Santiago, Urrutia con Ruiz y otros (2007): senten-
-
-                                                                     cia 2 agosto 2007, rol Nº 14281-2006, Westlaw CL/JUR/3814/2007.
-
-
 ## 33.   Corte de Apelaciones de Santiago, Valencia c. Fisco de Chile (2007): sen-
 
-                                                                     tencia 31 mayo 2007, rol Nº 3595-2002, Westlaw CL/JUR/1012/2007.
+**Definición Canónica:** tencia 31 mayo 2007, rol Nº 3595-2002, Westlaw CL/JUR/1012/2007.
+
+tencia 31 mayo 2007, rol Nº 3595-2002, Westlaw CL/JUR/1012/2007.
 
                                                                34.   Corte de Apelaciones de Santiago, Contra González, Baigorri, Hernández,
                                                                      Pinochet y otros (2008): sentencia 14 noviembre 2008, rol Nº 1772-2008,
                                                                      vLex.
 
-
-## 35.   Corte de Apelaciones de Santiago, Fuenzalida y otros c. Fisco de Chi-
-
-                                                                     le (2008): sentencia 16 mayo 2008, rol Nº 9663-2003, Westlaw CL/
-                                                                     JUR/5476/2008.
-
-
 ## 36.   Corte de Apelaciones de Santiago, Ortega c. Fisco de Chile (2008): senten-
 
-                                                                     cia 18 marzo 2008, rol Nº 8917-2003, Westlaw CL/JUR/7450/2008.
+**Definición Canónica:** cia 18 marzo 2008, rol Nº 8917-2003, Westlaw CL/JUR/7450/2008.
+
+cia 18 marzo 2008, rol Nº 8917-2003, Westlaw CL/JUR/7450/2008.
 
                                                                37.   Corte de Apelaciones de Santiago, Villagra con Contreras y otros (2008):
                                                                      sentencia 10 enero 2008, rol Nº 13447-2006, Westlaw CL/JUR/1310/2008.
 
-
-## 38.   Corte de Apelaciones de Santiago, Jiménez y otros con Fisco de Chile y
-
-                                                                     otros (2009): sentencia 9 octubre 2009, rol Nº 3947-2008, Westlaw CL/
-                                                                     JUR/5605/2009.
-
-
-## 39.   Corte de Apelaciones de Santiago, Ortiz con Fisco de Chile (2009): senten-
-
-                                                                     cia 3 agosto 2009, rol Nº 7985-2007, Westlaw CL/JUR/8620/2009.
-
-
-## 40.   Corte de Apelaciones de Santiago, Riffo con Krassnoff y otros (2009): sen-
-
-                                                                     tencia 23 noviembre 2009, rol Nº 1070-2009, Westlaw CL/JUR/3838/2009.
-
-
 ## 41.   Corte de Apelaciones de Santiago, Vergara c. Fisco de Chile (2009): sen-
 
-                                                                     tencia 23 septiembre 2009, rol Nº 2495-2008, Westlaw CL/JUR/7320/2009.
+**Definición Canónica:** tencia 23 septiembre 2009, rol Nº 2495-2008, Westlaw CL/JUR/7320/2009.
+
+tencia 23 septiembre 2009, rol Nº 2495-2008, Westlaw CL/JUR/7320/2009.
 
 Derecho Internacional                                                Bibliografía                                                              232
 
-
 ## 42.   Corte de Apelaciones de Santiago, Quiñones c. Fisco de Chile (2010): sen-
 
-                                                                     tencia 29 octubre 2010, rol Nº 7816-2009, Westlaw CL/JUR/8899/2010.
+**Definición Canónica:** tencia 29 octubre 2010, rol Nº 7816-2009, Westlaw CL/JUR/8899/2010.
+
+tencia 29 octubre 2010, rol Nº 7816-2009, Westlaw CL/JUR/8899/2010.
 
                                                                43.   Corte de Apelaciones de Santiago, Abarzúa y otros c. Fisco de Chile (2013):
                                                                      sentencia 27 marzo 2013, rol Nº 2791-2011, Westlaw CL/JUR/677/2013.
@@ -11174,45 +10841,23 @@ Humanitario y el                           del DIH y el DPI
                                                                44.   Corte de Apelaciones de Santiago, Montecinos c. Fisco de Chile (2015):
                                                                      sentencia 15 diciembre 2015, rol Nº 5992-2015, Westlaw CL/JUR/1649/2017.
 
-
-## 45.   Corte de Apelaciones de Santiago, Chacaltana y otros c. Fisco de Chile
-
-                                                                     y otros (2016): sentencia 4 agosto 2016, rol Nº 1100-2015, Westlaw CL/
-                                                                     JUR/5569/2016.
-
-
-## 46.   Corte de Apelaciones de Santiago, Zúñiga y otros c. Contreras y otros
-
-                                                                     (2017): sentencia 7 diciembre 2017, rol Nº 2348-2015, Westlaw CL/
-                                                                     JUR/7835/2017.
-
-
-## 47.   Corte de Apelaciones de Santiago, Lobos y otros con Fisco (2018): 2 marzo
-
-                                                                     2018, rol Nº 7997-2017, Westlaw CL/JUR/1036/2018.
-
-
-## 48.   Corte de Apelaciones de Temuco, Contra Rivera González y otro (2004): 29
-
-                                                                     diciembre 2004, rol Nº 333-2004.
-
-
 ## 49.   Corte de Jerusalén, Attorney General v. Eichmann (1961): sentencia caso
 
-                                                                     criminal Nº 40/61, 11 diciembre 1961.
+**Definición Canónica:** criminal Nº 40/61, 11 diciembre 1961.
+
+criminal Nº 40/61, 11 diciembre 1961.
 
                                                                50.   Corte Interamericana de Derechos Humanos, Caso Velásquez Rodríguez v.
                                                                      Honduras (1988): sentencia de fondo, 29 julio 1988, serie C Nº 4.
 
-
-## 51.   Corte Interamericana de Derechos Humanos, Caso Godínez Cruz v. Hondu-
-
-                                                                     ras (1989): sentencia de fondo, 20 enero 1989, serie C Nº 5.
-
-
 ## 52.   Corte Interamericana de Derechos Humanos, Interpretación de la Decla-
 
-                                                                     ración Americana de los Derechos y Deberes del Hombre en el marco del
+**Definición Canónica:** ración Americana de los Derechos y Deberes del Hombre en el marco del
+                                                                     artículo 64 de la Convención Americana sobre Derechos Humanos (1989):
+                                                                     Opinión Consultiva OC-10/89, 14 julio 1989, serie A Nº 10.
+**Concordancias Legales:** artículo 64 de la Convención Americana sobre Derechos Humanos
+
+ración Americana de los Derechos y Deberes del Hombre en el marco del
                                                                      artículo 64 de la Convención Americana sobre Derechos Humanos (1989):
                                                                      Opinión Consultiva OC-10/89, 14 julio 1989, serie A Nº 10.
 
@@ -11220,10 +10865,11 @@ Humanitario y el                           del DIH y el DPI
                                                                      Surinam (1993): sentencia, reparaciones y costas, 10 septiembre 1993, serie
                                                                      C Nº 15.
 
-
 ## 54.   Corte Interamericana de Derechos Humanos, Caso Blake vs. Guatemala
 
-                                                                     (1998): sentencia de fondo, 24 enero 1998, serie C Nº 36.
+**Definición Canónica:** (1998): sentencia de fondo, 24 enero 1998, serie C Nº 36.
+
+(1998): sentencia de fondo, 24 enero 1998, serie C Nº 36.
 
                                                                55.   Corte Interamericana de Derechos Humanos, Caso Cantoral Benavides v.
                                                                      Perú (2000): sentencia de fondo, 18 agosto 2000, serie C Nº 69.
@@ -11231,89 +10877,65 @@ Humanitario y el                           del DIH y el DPI
                                                                56.   Corte Interamericana de Derechos Humanos, Caso Bámaca Velásquez v.
                                                                      Guatemala (2000): sentencia de fondo, 25 noviembre 2000, serie C Nº 70.
 
-
-## 57.   Corte Interamericana de Derechos Humanos, Caso Barrios Altos v. Perú
-
-                                                                     (2001): sentencia de fondo, 14 marzo 2001, serie C Nº 75.
-
-
-## 58.   Corte Interamericana de Derechos Humanos, Caso Trujillo Oroza v. Bolivia
-
-                                                                     (2002): sentencia de fondo, reparaciones y costas, 27 febrero 2002, serie C
-                                                                     Nº 92.
-
-
 ## 59.   Corte Interamericana de Derechos Humanos, Opinión consultiva sobre la
 
-                                                                     condición jurídica y derechos de los migrantes indocumentados (2003):
+**Definición Canónica:** condición jurídica y derechos de los migrantes indocumentados (2003):
+                                                                     Opinión Consultiva OC-18/03, 17 septiembre 2003, serie A Nº 18.
+
+condición jurídica y derechos de los migrantes indocumentados (2003):
                                                                      Opinión Consultiva OC-18/03, 17 septiembre 2003, serie A Nº 18.
 
 Derecho Internacional                                                Bibliografía                                                                233
 
-
 ## 60.   Corte Interamericana de Derechos Humanos, Caso “Instituto de Reeduca-
 
-                                                                     ción del Menor” vs. Paraguay (2004): sentencia, excepciones preliminares,
+**Definición Canónica:** ción del Menor” vs. Paraguay (2004): sentencia, excepciones preliminares,
                                                                      fondo, reparaciones y costas, 2 septiembre 2004, serie C Nº 112.
 
+ción del Menor” vs. Paraguay (2004): sentencia, excepciones preliminares,
+                                                                     fondo, reparaciones y costas, 2 septiembre 2004, serie C Nº 112.
 
 ## 61.   Corte Interamericana de Derechos Humanos, Caso de la Masacre de Ma-
 
-                                                                     piripán vs. Colombia (2005): sentencia, fondo, reparaciones y costas, 15
+**Definición Canónica:** piripán vs. Colombia (2005): sentencia, fondo, reparaciones y costas, 15
+                                                                     septiembre 2005, serie C Nº 134.
+
+piripán vs. Colombia (2005): sentencia, fondo, reparaciones y costas, 15
                                                                      septiembre 2005, serie C Nº 134.
 
                                                                62.   Corte Interamericana de Derechos Humanos, Caso Goiburú y otros vs.
                                                                      Paraguay (2006): sentencia, fondo, reparaciones y costas, 22 septiembre
                                                                      2006, serie C Nº 153.
 
-
-## 63.   Corte Interamericana de Derechos Humanos, Caso Almonacid Arellano y
-
-                                                                     otros v. Chile (2006): sentencia de excepciones preliminares, fondo, repara-
-                                                                     ciones y costas, 26 septiembre 2006, serie C Nº 154.
-
-
 ## 64.   Corte Interamericana de Derechos Humanos, Corte Interamericana de
 
-                                                                     Derechos Humanos, Caso del Penal Miguel Castro Castro vs. Perú (2006):
+**Definición Canónica:** Derechos Humanos, Caso del Penal Miguel Castro Castro vs. Perú (2006):
+
+Derechos Humanos, Caso del Penal Miguel Castro Castro vs. Perú (2006):
 
                                                                      sentencia, fondo, reparaciones y costas, 25 noviembre 2006, serie C Nº 160.
 
                                                                65.   Corte Interamericana de Derechos Humanos, Caso La Cantuta vs. Perú (2006):
                                                                      sentencia, fondo, reparaciones y costas, 29 noviembre 2006, serie C Nº 162.
 
-
-## 66.   Corte Interamericana de Derechos Humanos, Caso Ríos y otros vs. Vene-
-
-                                                                     zuela (2009): sentencia, excepciones preliminares, fondo, reparaciones y
-                                                                     costas, 28 de enero de 2009, serie C Nº 194.
-
-
-## 67.   Corte Interamericana de Derechos Humanos, Caso Perozo y otros vs. Ve-
-
-                                                                     nezuela (2009): sentencia, excepciones preliminares, fondo, reparaciones y
-                                                                     costas, 28 enero 2009, serie C Nº 195.
-
-
 ## 68.   Corte Interamericana de Derechos Humanos, Caso de la Masacre de las
 
-                                                                     Dos Erres vs. Guatemala (2009): excepción preliminar, fondo, reparaciones y
+**Definición Canónica:** Dos Erres vs. Guatemala (2009): excepción preliminar, fondo, reparaciones y
+                                                                     costas, 24 noviembre 2009, serie C Nº 211.
+
+Dos Erres vs. Guatemala (2009): excepción preliminar, fondo, reparaciones y
                                                                      costas, 24 noviembre 2009, serie C Nº 211.
 
                                                                69.   Corte Interamericana de Derechos Humanos, Caso Chitay Nech y otros vs.
                                                                      Guatemala (2010): excepciones preliminares, fondo, reparaciones y costas,
                                                                      25 mayo 2010, serie C Nº 212.
 
-
-## 70.   Corte Interamericana de Derechos Humanos, Caso Ibsen Cárdenas e Ibsen
-
-                                                                     Peña vs. Bolivia (2010): sentencia, fondo, reparaciones y costas, 1 septiem-
-                                                                     bre 2010, serie C Nº 217.
-
-
 ## 71.   Corte Interamericana de Derechos Humanos, Caso Gomes Lund y otros
 
-                                                                     (Guerrilha do Araguaia) vs. Brasil (2010): sentencia, excepciones prelimina-
+**Definición Canónica:** (Guerrilha do Araguaia) vs. Brasil (2010): sentencia, excepciones prelimina-
+                                                                     res, fondo, reparaciones y costas, 24 noviembre 2010, serie C Nº 219.
+
+(Guerrilha do Araguaia) vs. Brasil (2010): sentencia, excepciones prelimina-
                                                                      res, fondo, reparaciones y costas, 24 noviembre 2010, serie C Nº 219.
 
                                                                72.   Corte Interamericana de Derechos Humanos, Caso García Lucero y otras v.
@@ -11323,140 +10945,60 @@ Humanitario y el                           del DIH y el DPI
                                                                73.   Corte Interamericana de Derechos Humanos, Caso García Lucero y otras v.
                                                                      Chile (2015): resolución de supervisión de cumplimiento, 17 de abril de 2015.
 
-
-## 74.   Corte Interamericana de Derechos Humanos, Caso Maldonado Vargas y
-
-                                                                     otros v. Chile (2015): sentencia de fondo, reparaciones y costas, 2 septiem-
-                                                                     bre 2015, serie C Nº 300.
-
-
 ## 75.   Corte Interamericana de Derechos Humanos, Caso Maldonado Vargas
 
-                                                                     y otros v. Chile (2017): resolución de supervisión de cumplimiento, 30 de
+**Definición Canónica:** y otros v. Chile (2017): resolución de supervisión de cumplimiento, 30 de
+                                                                     agosto de 2017.
+
+y otros v. Chile (2017): resolución de supervisión de cumplimiento, 30 de
                                                                      agosto de 2017.
 
 Derecho Internacional                                                Bibliografía                                                               234
 
-
 ## 76.   Corte Interamericana de Derechos Humanos, Caso Órdenes Guerra y otros
 
-                                                                     v. Chile (2018): sentencia de fondo, reparaciones y costas, 29 noviembre
+**Definición Canónica:** v. Chile (2018): sentencia de fondo, reparaciones y costas, 29 noviembre
+                                                                     2018, serie C Nº 372.
+
+v. Chile (2018): sentencia de fondo, reparaciones y costas, 29 noviembre
                                                                      2018, serie C Nº 372.
 
                                                                77.   Corte Interamericana de Derechos Humanos, Caso Órdenes Guerra y otros v.
                                                                      Chile (2020): resolución de supervisión de cumplimiento, 21 de julio de 2020.
 
-
-## 78.   Corte Internacional de Justicia, Reservations to the Convention on the
-
-                                                                     prevention and punishment of the crime of genocide (1951): Opinión Con-
-                                                                     sultiva, 28 mayo 1951.
-
-
-## 79.   Corte Internacional de Justicia, Barcelona Traction, Light and Power Com-
-
-                                                                     pany, Limited (Belgium v. Spain) (New Requerimiento: 1962) (1970): senten-
-                                                                     cia, 5 febrero 1970.
-
-
-## 80.   Corte Internacional de Justicia, Arrest Warrant of 11 Abril 2000 (Democra-
-
-                                                                     tic Republic of the Congo v. Belgium) (2002): sentencia, 14 febrero 2002.
-
-
-## 81.   Corte Internacional de Justicia, Jurisdictional immunities of the State (Ger-
-
-                                                                     many v. Italy: Greece intervening) (2012): sentencia, 3 febrero 2012.
-
-
-## 82.   Corte Penal Internacional, Fiscal c. Omar Al Bashir (2010): Segunda orden de
-
-                                                                     detención de Omar Hassan Ahmad Al Bashir, 12 julio 2010 (caso Nº ICC-
-                                                                     02/05-01/09).
-
-
-## 83.   Corte Penal Internacional, Prosecutor v. Francis Kirimi Muthaura and Uhuru
-
-                                                                     Muigai Kenyatta (caso Nº ICC-01/09-02/11-38).
-
-
-## 84.   Corte Penal Internacional, Prosecutor v. Laurent Gbagbo and Charles Blé
-
-                                                                     Goudé (caso Nº ICC-02/11-01/15).
-
-
-## 85.   Corte Penal Internacional, Prosecutor v. Saif Al-Islam Gaddafi (caso Nº
-
-                                                                     ICC-01/11-01/11).
-
-
-## 86.   Corte Permanente de Justicia Internacional, Caso Lotus (1927): sentencia, 7
-
-                                                                     septiembre 1927, serie A Nº 10.
-
-
-## 87.   Corte Permanente de Justicia Internacional, Caso de la Fábrica de Chorzow
-
-                                                                     (1928): sentencia, 13 septiembre 1928, Serie A Nº 17.
-
-
-## 88.   Corte Permanente de Justicia Internacional, Treatment of Polish nationals
-
-                                                                     and other persons of Polish origin or speech in the Danzig territory (1932):
-                                                                     Opinión Consultiva, 4 febrero 1932, series A/B Nº 44.
-
-
 ## 89.   Corte Permanente de Justicia Internacional, Consistency of certain Danzig
 
-                                                                     legislative decrees with Constitution of free city advisory opinion (1935):
+**Definición Canónica:** legislative decrees with Constitution of free city advisory opinion (1935):
                                                                      Opinión Consultiva Nº 27, 4 diciembre 1935, serie A/B Nº 65.
 
-
-## 90.   Corte Suprema, Lauritzen y otros con Fisco (1955): sentencia 19 diciembre
-
-                                                                     1955, en Revista de Derecho, Jurisprudencia y Ciencias Sociales, tomo 52, 2ª
-                                                                     parte, sección 1ª; pp. 444 y ss.
-
+legislative decrees with Constitution of free city advisory opinion (1935):
+                                                                     Opinión Consultiva Nº 27, 4 diciembre 1935, serie A/B Nº 65.
 
 ## 91.   Corte Suprema, Recurso de inaplicabilidad por inconstitucionalidad Nº
 
-                                                                     27.640, deducido por Sergio Insunza Bascuñán, en causa rol 553-78 de la
+**Definición Canónica:** 27.640, deducido por Sergio Insunza Bascuñán, en causa rol 553-78 de la
                                                                      Segunda Fiscalía del Juzgado Militar de Santiago (1990): 24 agosto 1990,
                                                                      en Revista de Derecho y Jurisprudencia, tomo LXXXVII, 2ª parte, sección 4ª;
                                                                      pp. 64 y ss.
 
+27.640, deducido por Sergio Insunza Bascuñán, en causa rol 553-78 de la
+                                                                     Segunda Fiscalía del Juzgado Militar de Santiago (1990): 24 agosto 1990,
+                                                                     en Revista de Derecho y Jurisprudencia, tomo LXXXVII, 2ª parte, sección 4ª;
+                                                                     pp. 64 y ss.
 
 ## 92.   Corte Suprema, Desafuero Pinochet Ugarte (2000): 8 agosto 2000, rol Nº
 
-                                                                     1920-2000, en Estudios Públicos Nº 79 (invierno 2000); pp. 509-561.
+**Definición Canónica:** 1920-2000, en Estudios Públicos Nº 79 (invierno 2000); pp. 509-561.
+
+1920-2000, en Estudios Públicos Nº 79 (invierno 2000); pp. 509-561.
 
 Derecho Internacional                                                Bibliografía                                                                 235
 
-
-## 93.   Corte Suprema, Almendras y otros (2003): sentencia de casación, 31 enero
-
-                                                                     2003 (recurso de casación en el fondo), rol Nº 4054-2001.
-
-
-## 94.   Corte Suprema, Contra Contreras Sepúlveda y otros (Caso Miguel Ángel
-
-                                                                     Sandoval Rodríguez) (2004): 17 noviembre 2004, rol Nº 517-2004.
-
-
-## 95.   Corte Suprema, Contra Rivera González y otro (2005): 4 agosto 2005 (re-
-
-                                                                     curso de casación en el fondo), sentencia de casación, rol Nº 457-2005.
-
-
-## 96.   Corte Suprema, Contra Flores y otro (Caso Molco) (2006): sentencia de ca-
-
-                                                                     sación, Segunda Sala (Penal), 13 diciembre 2006, rol Nº 559-2004, Westlaw
-                                                                     CL/JUR/3805/2006.
-
-
 ## 97.   Corte Suprema, Martínez y otros c. Fisco de Chile (2006): sentencia 27 di-
 
-                                                                     ciembre 2006, rol Nº 6049-2005, Westlaw CL/JUR/8401/2006.
+**Definición Canónica:** ciembre 2006, rol Nº 6049-2005, Westlaw CL/JUR/8401/2006.
+
+ciembre 2006, rol Nº 6049-2005, Westlaw CL/JUR/8401/2006.
 
                                                                98.   Corte Suprema, Aguirre con Astudillo y otros (2007): sentencia 3 julio 2007,
                                                                      rol Nº 2079-2006, Westlaw CL/JUR/5963/2007.
@@ -11464,329 +11006,83 @@ Humanitario y el                           del DIH y el DPI
                                                                99.   Corte Suprema, Contra Barría y otros (2007): sentencia 27 diciembre 2007,
                                                                      rol Nº 1489-2007, Microjuris MJJ16432.
 
-
-## 100. Corte Suprema, Contra Cardemil y otros (2007): sentencia de reemplazo, 27
-
-                                                                    diciembre 2007, rol Nº 3587-2005.
-
-
-## 101. Corte Suprema, Contra Pinto (Caso Chena) (2007): sentencia de reempla-
-
-                                                                    zo, Segunda Sala (Penal), 13 marzo 2007, rol Nº 3125-2004, Westlaw CL/
-                                                                    JUR/3394/2007.
-
-
-## 102. Corte Suprema, Contra Ruiz, Madrid, Corvalán y Díaz (2007): sentencia 30
-
-                                                                    julio 2007, rol Nº 3808-2006, Westlaw CL/JUR/1510/2007.
-
-
-## 103. Corte Suprema, Contreras con Ruiz y otros (2007): sentencia 13 noviembre
-
-                                                                    2007, rol Nº 6188-2006, Westlaw CL/JUR/6315/2007.
-
-
-## 104. Corte Suprema, Estado de Chile y otros con Rivera (2007): sentencia 5 sep-
-
-                                                                    tiembre 2007, rol Nº 6525-2006, Westlaw CL/JUR/1873/2007.
-
-
-## 105. Corte Suprema, Marín con Pinochet (2007): sentencia 9 julio 2007, rol Nº
-
-                                                                    5131-2005, Westlaw CL/JUR/1320/2007.
-
-
-## 106. Corte Suprema, Riquelme con Lecaros y otros (2007): sentencia 12 noviem-
-
-                                                                    bre 2007, rol Nº 6626-2005, Westlaw CL/JUR/6312/2007.
-
-
-## 107. Corte Suprema, Contra Alarcón (2008): sentencia 13 mayo 2008, rol Nº
-
-                                                                    3872-2007, Westlaw CL/JUR/2326/2008.
-
-
 ## 108. Corte Suprema, Contra Gómez (2008): sentencia 24 enero 2008, rol Nº
 
-                                                                    1528-2006, Microjuris MJJ16521.
+**Definición Canónica:** 1528-2006, Microjuris MJJ16521.
+
+1528-2006, Microjuris MJJ16521.
 
                                                                109. Corte Suprema, Gallegos con Fernández (2008): sentencia 7 agosto 2008,
                                                                     rol nº 6574-2007, Westlaw CL/JUR/3133/2008.
 
-
 ## 110. Corte Suprema, González c. Arellano (2008): sentencia de reemplazo, 15
 
-                                                                    octubre 2008, rol Nº 4723-2007, Westlaw CL/JUR/3796/2008.
+**Definición Canónica:** octubre 2008, rol Nº 4723-2007, Westlaw CL/JUR/3796/2008.
+
+octubre 2008, rol Nº 4723-2007, Westlaw CL/JUR/3796/2008.
 
                                                                111. Corte Suprema, Lagos y otros con Guerra y otro, sentencia de reemplazo,
                                                                     Segunda Sala (Penal) (2008): 25 septiembre 2008, rol Nº 4662-2007, West-
                                                                     law CL/JUR/5028/2008.
 
-
 ## 112. Corte Suprema, Lazo y otro con Contreras y otros (2008): sentencia 29
 
-                                                                    octubre 2008, rol Nº 6212-2007, Westlaw CL/JUR/1129/2008.
+**Definición Canónica:** octubre 2008, rol Nº 6212-2007, Westlaw CL/JUR/1129/2008.
+
+octubre 2008, rol Nº 6212-2007, Westlaw CL/JUR/1129/2008.
 
 Derecho Internacional                                              Bibliografía                                                                236
 
-
-## 113. Corte Suprema, Contra Medina (2008): sentencia 11 diciembre 2008, rol Nº
-
-                                                                    2422-2008, Westlaw CL/JUR/5925/2008.
-
-
-## 114. Corte Suprema, Vergara con Sanhueza y otros (2008): sentencia 8 septiem-
-
-                                                                    bre 2008, rol Nº 6308-2007, Westlaw CL/JUR/3419/2008.
-
-
-## 115. Corte Suprema, Ávila c. Fisco de Chile (2009): sentencia Tercera
-
-                                                                    Sala (Constitucional), 14 enero 2009, rol Nº 3540-2007, Westlaw CL/
-                                                                    JUR/5724/2009.
-
-
-## 116. Corte Suprema, Contreras con Contreras y otros (2009): sentencia 22 enero
-
-                                                                    2009, rol Nº 4329-2008, Westlaw CL/JUR/5798/2009 (sentencia de casa-
-                                                                    ción) y Westlaw CL/JUR/5799/2009 (sentencia de reemplazo).
-
-
-## 117. Corte Suprema, Lejderman con Polanco y otros (2009): sentencia de reem-
-
-                                                                    plazo, 25 mayo 2009, rol Nº 696-2008.
-
-
-## 118. Corte Suprema, Meza y otro con Manzo y otros (2009): sentencia 29 sep-
-
-                                                                    tiembre 2009, rol Nº 3378-2009, Westlaw CL/JUR/1855/2009.
-
-
-## 119. Corte Suprema, Nehgme y otros con Araneda y otros (2009): sentencia 28
-
-                                                                    enero 2009, rol Nº 4427-2007, Westlaw CL/JUR/5825/2009.
-
-
 ## 120. Corte Suprema, Toro y otros con Contreras y otros (2009): sentencia de
 
-                                                                    reemplazo 9 marzo 2009, rol Nº 695-2008.
+**Definición Canónica:** reemplazo 9 marzo 2009, rol Nº 695-2008.
+
+reemplazo 9 marzo 2009, rol Nº 695-2008.
 
                                                                121. Corte Suprema, Urrutia con Ruiz y otros (2009): sentencia 28 enero 2009,
                                                                     rol Nº 4691-2007, sentencia de casación y de reemplazo, Westlaw CL/
                                                                     JUR/5845/2009.
 
-
-## 122. Corte Suprema, Munizaga con González y Sanhueza (2010): sentencia 21
-
-                                                                    diciembre 2010, rol Nº 9474-2009, Westlaw CL/JUR/11149/2010.
-
-
-## 123. Corte Suprema, Rivas y otros con Fisco (2010): sentencia 28 diciembre
-
-                                                                    2010, rol Nº 7105-2008, Westlaw CL/JUR/11380/2010.
-
-
-## 124. Corte Suprema, Contra Estado de Chile (2011): sentencia 30 noviembre
-
-                                                                    2011, rol Nº 6299-2009, Westlaw CL/JUR/8829/2011.
-
-
-## 125. Corte Suprema, Contra Krassnoff Martchenko Miguel y otros (2011): senten-
-
-                                                                    cia 2 diciembre de 2011, rol Nº 3680-2011, Westlaw CL/JUR/8861/2011.
-
-
 ## 126. Corte Suprema, Sindicato Campesino La Esperanza del Obrero del Comple-
 
-                                                                    jo Agrícola y Forestal Panguipulli con Pinochet y otros (2011): sentencia 27
+**Definición Canónica:** jo Agrícola y Forestal Panguipulli con Pinochet y otros (2011): sentencia 27
                                                                     enero 2011, rol Nº 8314-2009, Westlaw CL/JUR/1065/2011.
 
+jo Agrícola y Forestal Panguipulli con Pinochet y otros (2011): sentencia 27
+                                                                    enero 2011, rol Nº 8314-2009, Westlaw CL/JUR/1065/2011.
 
 ## 127. Corte Suprema, Contra Aravena y otro (2012): sentencia 7 marzo 2012, rol
 
-                                                                    Nº 5720-2010, Westlaw CL/JUR/519/2012.
+**Definición Canónica:** Nº 5720-2010, Westlaw CL/JUR/519/2012.
+**Concordancias Legales:** Ley 19123
+
+Nº 5720-2010, Westlaw CL/JUR/519/2012.
 
                                                                128. Corte Suprema, Programa Continuación de la Ley 19123 con Leiva (2012):
                                                                     sentencia 26 enero 2012, rol Nº 10434-2011, Westlaw CL/JUR/211/2012.
 
-
-## 129. Corte Suprema, Carátula reservada (2014): sentencia 20 marzo 2014, rol nº
-
-                                                                    1686/2013, Vlex.
-
-
-## 130. Corte Suprema, Carátula reservada (2014a): sentencia, 30 junio 2014, rol Nº
-
-                                                                    3641-2014, Vlex.
-
-
 ## 131. Corte Suprema, Castillo y otros c. Fisco de Chile (2014): sentencia, 5 mayo
 
-                                                                    2014, rol Nº 16331-2013, Westlaw CL/JUR/1920/2014.
+**Definición Canónica:** 2014, rol Nº 16331-2013, Westlaw CL/JUR/1920/2014.
+
+2014, rol Nº 16331-2013, Westlaw CL/JUR/1920/2014.
 
 Derecho Internacional                                              Bibliografía                                                                  237
 
-
-## 132. Corte Suprema, Salgado c. Fisco de Chile (2014): sentencia 19 noviembre
-
-                                                                    2014, rol Nº 7888-2014, Westlaw CL/JUR/8690/2014.
-
-
-## 133. Corte Suprema, Vásquez con Fisco de Chile (2014): sentencia 30 enero
-
-                                                                    2014, rol Nº 4700-2013, Westlaw CL/JUR/174/2014.
-
-
-## 134. Corte Suprema, Álvarez y otros c. Moren y otros (2015): sentencia 15 di-
-
-                                                                    ciembre 2015, rol Nº 31945-2014, Westlaw CL/JUR/7891/2015.
-
-
-## 135. Corte Suprema, Arévalo y otros c. Rubilar y otros (2015): sentencia 4 agosto
-
-                                                                    2015, rol Nº 27178-2014, Westlaw CL/JUR/4415/2015.
-
-
-## 136. Corte Suprema, Boettiger y otros c. Contreras y otros (2015): sentencia 1
-
-                                                                    diciembre 2015, rol Nº 30598-2014, Westlaw CL/JUR/4415/2015.
-
-
-## 137. Corte Suprema, Felber y otros c. Fisco de Chile (2015): sentencia 30 enero
-
-                                                                    2015, rol Nº 25921-2014, Westlaw CL/JUR/516/2015.
-
-
-## 138. Corte Suprema, Gómez y otros c. Fisco de Chile (2015): sentencia,11 enero
-
-
-                                                                    2016, rol Nº 7741-2015, Westlaw CL/JUR/179/2016.
-
-
-## 139. Corte Suprema, Marcone c. Fisco de Chile (2015): sentencia 29 diciembre
-
-                                                                    2015, rol Nº 22856-2015, Westlaw CL/JUR/8219/2015.
-
-
-## 140. Corte Suprema, Meza y otro c. Contreras y otros (2015): sentencia 14 mayo
-
-                                                                    2015, rol Nº 32161-2014, Westlaw CL/JUR/2631/2015.
-
-
-## 141. Corte Suprema, Valencia y otros c. Fisco de Chile (2015): sentencia 14 sep-
-
-                                                                    tiembre 2015, rol Nº 1092-2015, Westlaw CL/JUR/5314/2015.
-
-
-## 142. Corte Suprema, Arratia y otros c. Corbalán y otro (2016): sentencia 21 junio
-
-                                                                    2016, rol Nº 20567-2015, Westlaw CL/JUR/4346/2016.
-
-
-## 143. Corte Suprema, Aguilera y otros con Manríquez y otro (2016): sentencia 25
-
-                                                                    enero 2016, rol Nº 9031-2015, Westlaw CL/JUR/520/2016.
-
-
-## 144. Corte Suprema, Atencio y otros c. Espinoza y otros (2016): sentencia 6 oc-
-
-                                                                    tubre 2016, rol Nº 28637-2016, Westlaw CL/JUR/7632/2016.
-
-
 ## 145. Corte Suprema, Carátula reservada (2016): sentencia, 3 octubre 2016, rol Nº
 
-                                                                    27543-2016, disponible online [fecha de consulta: 16 de enero de 2021].
+**Definición Canónica:** 27543-2016, disponible online [fecha de consulta: 16 de enero de 2021].
+
+27543-2016, disponible online [fecha de consulta: 16 de enero de 2021].
 
                                                                146. Corte Suprema, Contra Castro y otras (2016): sentencia 13 octubre, 2016,
                                                                     rol Nº 43472-2016, vLex.
 
-
-## 147. Corte Suprema, Araneda y otros c. Moren y otros (2017): sentencia 3 julio
-
-                                                                    2017, rol Nº 97856-2016, Westlaw CL/JUR/4281/2017.
-
-
-## 148. Corte Suprema, Brevis c. Fisco de Chile (2017): sentencia 8 mayo 2017, rol Nº
-
-                                                                    100751-2016, Westlaw CL/JUR/2677/2017.
-
-
-## 149. Corte Suprema, Caballero y otros c. Salazar (2017): sentencia, 11 septiembre
-
-                                                                    2017, rol Nº 12226-2016, Westlaw CL/JUR/6050/2017.
-
-
-## 150. Corte Suprema, Contesse y otros c. Orozco y otros (2017): sentencia 18 julio
-
-                                                                    2017, rol Nº 5989-2017, Westlaw CL/JUR/4680/2017.
-
-
-## 151. Corte Suprema, Contra Arredondo y otros (2017): sentencia 10 abril 2017, rol
-
-                                                                    Nº 62036-2016, vLex
-
-
-## 152. Corte Suprema, Contra de la Cruz (2017): rol Nº 21596-2017, sentencia 26
-
-                                                                    marzo 2018, vLex.
-
-Derecho Internacional                                              Bibliografía                                                                    238
-
-
-## 153. Corte Suprema, Contra Flores (2017): sentencia, 3 julio 2017, rol nº 95109-
-
-                                                                    2016, vLex.
-
-
-## 154. Corte Suprema, Contra González y otros (2016): sentencia 20 julio 2016, rol
-
-                                                                    Nº 20166-2015, Westlaw CL/JUR/5233/2016.
-
-
-## 155. Corte Suprema, Corvalán y otros c. Espinoza y otros (2016): sentencia 13
-
-                                                                    diciembre 2016, rol Nº 62032-2016, Westlaw CL/JUR/8269/2016.
-
-
-## 156. Corte Suprema, Drouilly y otros c. Krassnoff y otros (2016): sentencia 21
-
-                                                                    enero 2016, rol Nº 17887-2015, Westlaw CL/JUR/513/2016.
-
-
-## 157. Corte Suprema, Eltit y otro c. González y otros (2016): sentencia 20 junio
-
-                                                                    2016, rol Nº 173-2016, Westlaw CL/JUR/4317/2016.
-
-
-## 158. Corte Suprema, Figueroa c. Fisco de Chile (2016): sentencia 1 diciembre
-
-                                                                    2016, rol Nº 83348-2016, Westlaw CL/JUR/8944/2016.
-
-
-## 159. Corte Suprema, Flores y otros c. Olguín y otros (2016): sentencia 1 diciembre
-
-
-                                                                    2016, rol Nº 15963-2016, Westlaw CL/JUR/8781/2016.
-
-
-## 160. Corte Suprema, Maturana y otros c. Manzo y otros (2016): sentencia 13 sep-
-
-                                                                    tiembre 2016, rol Nº 7372-2016, Westlaw CL/JUR/6450/2016.
-
-
-## 161. Corte Suprema, Núñez c. Estay y otros (2016): sentencia 2 agosto 2016, rol
-
-                                                                    Nº 23572-2015, Westlaw CL/JUR/5505/2016.
-
-
-## 162. Corte Suprema, Pinto c. Fisco de Chile (2016): sentencia 29 junio 2016, rol Nº
-
-                                                                    796-2016, Westlaw CL/JUR/4681/2016.
-
-
 ## 163. Corte Suprema, Sardy c. Fisco de Chile (2016): sentencia 29 marzo 2016, rol
 
-                                                                    Nº 3975-2016, Westlaw CL/JUR/1937/2016.
+**Definición Canónica:** Nº 3975-2016, Westlaw CL/JUR/1937/2016.
+
+Nº 3975-2016, Westlaw CL/JUR/1937/2016.
 
                                                                164. Corte Suprema, Sepúlveda c. Fisco de Chile (2016): sentencia 25 enero 2016,
                                                                     rol Nº 37993-2015, Westlaw CL/JUR/522/2016.
@@ -11794,33 +11090,20 @@ Humanitario y el                           del DIH y el DPI
                                                                165. Corte Suprema, Villalobos c. Moren y otro (2016): sentencia 12 octubre 2016,
                                                                     rol Nº 23573-2015, Westlaw CL/JUR/7110/2016.
 
-
-## 166. Corte Suprema, Garcés y otros c. Espinoza y otros (2017): sentencia 27 abril
-
-                                                                    2017, rol Nº 82246-2016, Westlaw CL/JUR/2389/2017.
-
-
-## 167. Corte Suprema, Lastra c. Fisco de Chile (2017): sentencia 26 abril 2017, rol
-
-                                                                    Nº 11767-2017, Westlaw CL/JUR/2826/2017.
-
-
-## 168. Corte Suprema, Moreno y otro c. Manríquez y otros (2017): sentencia 8
-
-                                                                    agosto 2017, rol Nº 82511-2016, Westlaw CL/JUR/5227/2017.
-
-
 ## 169. Corte Suprema, Pereira y otros c. Luzoro y otro (2017): sentencia de casa-
 
-                                                                    ción, 16 noviembre 2017, rol Nº 1568-2017, Westlaw CL/JUR/7346/2017.
+**Definición Canónica:** ción, 16 noviembre 2017, rol Nº 1568-2017, Westlaw CL/JUR/7346/2017.
+
+ción, 16 noviembre 2017, rol Nº 1568-2017, Westlaw CL/JUR/7346/2017.
 
                                                                170. Corte Suprema, Pinochet c. Salas y otros (2017): sentencia 21 marzo 2017,
                                                                     rol Nº 8642-2015, Westlaw CL/JUR/1100/2017.
 
-
 ## 171. Corte Suprema, Tapia y otros c. Moren y otros (2017): sentencia 10 abril
 
-                                                                    2017, rol Nº 62036-2016, Westlaw CL/JUR/1644/2017.
+**Definición Canónica:** 2017, rol Nº 62036-2016, Westlaw CL/JUR/1644/2017.
+
+2017, rol Nº 62036-2016, Westlaw CL/JUR/1644/2017.
 
                                                                172. Corte Suprema, Solicitud de extradición (2017): sentencia 9 noviembre 2017,
                                                                     rol Nº 37355-2017, vLex.
@@ -11833,10 +11116,11 @@ Humanitario y el                           del DIH y el DPI
                                                                174. Corte Suprema de la Nación Argentina, Giroldi (1995): sentencia 7 abril 1995,
                                                                     recurso de casación causa Nº 32/93, expediente G. 342 XXVI.
 
-
 ## 175. Corte Suprema de la Nación Argentina, Contra Nicolaides (2000): senten-
 
-                                                                    cia 2 agosto 2000, causa Nº 10.326/96, expediente C. 786. XXXVI.
+**Definición Canónica:** cia 2 agosto 2000, causa Nº 10.326/96, expediente C. 786. XXXVI.
+
+cia 2 agosto 2000, causa Nº 10.326/96, expediente C. 786. XXXVI.
 
                                                                176. Corte Suprema de la Nación Argentina, Contra Arancibia y otros (2004):
                                                                     sentencia 24 agosto 2004, recurso de hecho, causa Nº 259, expediente A.
@@ -11847,54 +11131,22 @@ Humanitario y el                           del DIH y el DPI
                                                                     del Procurador general de la nación Nicolás Eduardo Becerra, expediente S.
                                                                     1767. XXXVIII.
 
-
 ## 178. Corte Suprema de la Nación Argentina, Contra Simón y otros (2005): dic-
 
-                                                                    tamen del Procurador general de la nación Esteban Righi, 5 mayo 2005 y
+**Definición Canónica:** tamen del Procurador general de la nación Esteban Righi, 5 mayo 2005 y
+                                                                    sentencia 14 junio 2005, recurso de hecho, causa Nº 17.768, expediente S.
+
+tamen del Procurador general de la nación Esteban Righi, 5 mayo 2005 y
                                                                     sentencia 14 junio 2005, recurso de hecho, causa Nº 17.768, expediente S.
 
                                                                     1767. XXXVIII.
 
-
-## 179. Corte Suprema de la Nación Argentina, Verbitsky (2005): sentencia 3 mayo
-
-                                                                    2005, habeas corpus, expediente V. 856. XXXVIII.
-
-
-## 180. Corte Suprema de la Nación Argentina, Hagelin (2007): dictamen del Procu-
-
-                                                                    rador general de la nación Esteban Righi, 11 septiembre 2007, expediente H.
-                                                                    381. XLII.
-
-
-## 181. Corte Suprema de la Nación Argentina, Mazzeo y otros (2007): sentencia 13
-
-                                                                    julio 2007, recurso de casación e inconstitucionalidad, expediente M. 2333. XLII.
-
-
-## 182. Cortes de Cambodia, Prosecutor v. Samphan (2014): Sala de Juicio, 7 agosto
-
-                                                                    2014.
-
-
-## 183. Ministro de Fuero, Marín con Pinochet (2002): sentencia 19 junio 2002, rol Nº
-
-                                                                    2182-1998, Westlaw CL/JUR/2309/2002.
-
-
-## 184. Ministro de Fuero, Aguirre con Astudillo y otros (2005): sentencia 19 julio
-
-                                                                    2005, rol Nº 2182-1998, Westlaw CL/JUR/5685/2005.
-
-
-## 185. Ministro de Fuero, Contreras con Ruiz y otros (2005): sentencia 30 noviem-
-
-                                                                    bre 2005, rol Nº 120.133 K, Westlaw CL/JUR/7379/2005.
-
-
 ## 186. Ministro de Fuero, Riquelme con Lecaros y otros (2005): sentencia 14 enero
 
-                                                                    2005, rol Nº 2182-1998, Westlaw CL/JUR/7378/2005.
+**Definición Canónica:** 2005, rol Nº 2182-1998, Westlaw CL/JUR/7378/2005.
+**Concordancias Legales:** Constitucion
+
+2005, rol Nº 2182-1998, Westlaw CL/JUR/7378/2005.
 
                                                                187. Ministro de Fuero, Gallegos con Fernández (2007): sentencia 11 enero 2007,
                                                                     rol Nº 2182-1998.
@@ -11902,16 +11154,13 @@ Humanitario y el                           del DIH y el DPI
                                                                188. Tribunal Constitucional español, sentencia Nº 237/2005, recurso de amparo,
                                                                     26 septiembre de 2005.
 
-
-## 189. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Tadic
-
-                                                                    (1995): Decision on the Defence Motion for Interlocutory Appeal on Jurisdic-
-                                                                    tion, Appeal Chamber, 2 octubre 1995, caso Nº IT-94-1.
-
-
 ## 190. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Blas-
 
-                                                                    kic (1997): sentencia, request of The Republic of Croatia for Review of the
+**Definición Canónica:** kic (1997): sentencia, request of The Republic of Croatia for Review of the
+                                                                    Decision of Trial Chamber II of 18 Julio 1997, Appeals Chamber Decisions, 29
+                                                                    octubre 1997, caso Nº IT-95-14.
+
+kic (1997): sentencia, request of The Republic of Croatia for Review of the
                                                                     Decision of Trial Chamber II of 18 Julio 1997, Appeals Chamber Decisions, 29
                                                                     octubre 1997, caso Nº IT-95-14.
 
@@ -11925,86 +11174,24 @@ Humanitario y el                           del DIH y el DPI
                                                                             Furundzija (1998): sentencia, trial chamber, 10 diciembre 1998, caso Nº IT-
                                                                             95-17/1-T.
 
-
 ## 193.        Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Jelisic
 
-                                                                           (1999): sentencia, trial chamber, 14 diciembre 1999, caso Nº IT-95-10.
+**Definición Canónica:** (1999): sentencia, trial chamber, 14 diciembre 1999, caso Nº IT-95-10.
+
+(1999): sentencia, trial chamber, 14 diciembre 1999, caso Nº IT-95-10.
 
                                                                        194. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v.
                                                                             Kupreskic et. ál.. (2000): sentencia, trial chamber, 14 enero 2000, caso Nº
                                                                             IT-95-16-T.
 
-
 ## 195. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. De-
 
-                                                                            lacic et. ál.. (2001): sentencia, appeals chamber, 20 febrero 2001, caso Nº
+**Definición Canónica:** lacic et. ál.. (2001): sentencia, appeals chamber, 20 febrero 2001, caso Nº
+                                                                            IT-96-21-A.
+
+lacic et. ál.. (2001): sentencia, appeals chamber, 20 febrero 2001, caso Nº
                                                                             IT-96-21-A.
 
                                                                        196. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v.
                                                                             Kunarac et. ál.. (2001): sentencia, trial chamber, 22 febrero 2001, casos Nº
                                                                             IT-96-23-T y IT-96-23/1.
-
-
-## 197. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Krstic
-
-                                                                            (2001): sentencia, trial chamber, 2 agosto 2001, caso Nº IT-98-33.
-
-
-## 198.        Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Simic
-
-                                                                           (2002): sentencia, trial chamber, 17 octubre 2002, caso Nº IT-95-9/2-S.
-
-
-## 199. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Na-
-
-                                                                            letilic and other (2003): sentencia, trial chamber, 30 marzo 2003, caso Nº
-                                                                            IT-98-34.
-
-
-## 200.       Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Stakic
-
-                                                                           (2003): sentencia, 31 julio 2003, caso Nº IT-97-24-T.
-
-
-## 201. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Brdja-
-
-                                                                            nin (2004): sentencia, trial chamber, 1 septiembre 2004, caso Nº IT-99-36.
-
-
-## 202. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Bla-
-
-                                                                            gojevic (2005): sentencia, trial chamber, 17 enero 2005, caso Nº IT-02-60.
-
-
-## 203. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Ha-
-
-                                                                            dzihasanovic et. ál. (2006): sentencia, trial chamber, 15 marzo 2006, caso Nº
-                                                                            IT-01-47-T.
-
-
-## 204. Tribunal Penal Internacional para la ex-Yugoslavia, Case Prosecutor v. Mi-
-
-                                                                            losevic (2007): sentencia, trial chamber, 12 diciembre 2007, caso Nº IT-98-
-                                                                            29/1-T.
-
-
-## 205. Tribunal Penal Internacional para Ruanda, Case Prosecutor v. Kayishema
-
-                                                                            and Ruzindana (1999): sentencia, 21 mayo 1999, caso Nº ICTR-95-1-T.
-
-
-## 206. Tribunal Supremo Austriaco (Oberster Gerichstshof), 15Os99/94, 13 de julio
-
-                                                                            de 1994.
-
-←   Índice de contenidos
-
-## Serie de
-
-Derecho Internacional                                     DOCUMENTOS 242
-Humanitario y el                                          MATERIALES
-
-## Docentes
-
-
-   Academia Judicial de Chile | www.academiajudicial.cl

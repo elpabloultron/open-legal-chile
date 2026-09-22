@@ -13,19 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** documentos
+                legales
 
-                documentos
+documentos
                 legales
 
                                         Gabriel
@@ -35,19 +28,22 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Gabriel
+                             Álvarez
+                             Undurraga
+                        Doctor en Planificación e innovación
+                        educativa por la Universidad de
+                        Alcalá de Henares,   Gabriel   Álvarez
+                        es Magíster en derecho con men-
+                        ción en Derecho   internacional por
+Academia                la Universidad de Chile y Máster en
+                Autor
+Judicial                educación con mención en Planifide Chile                cación e innovación educativa de la
+                      
 
-                        Gabriel
+Gabriel
                              Álvarez
                              Undurraga
                         Doctor en Planificación e innovación
@@ -69,13 +65,11 @@ docente Nº 19           Cuenta con diversas publicaciones en
 Santiago,               revistas especializadas de Argentina,
 Chile 2021              Venezuela, Chile y España.
 
-
-## Isbn n°
-
-
 ## 2022-a-1836
 
-Redacción de                                                                                                 3
+**Definición Canónica:** Redacción de                                                                                                 3
+
+Redacción de                                                                                                 3
 
                                         Resumen
 
@@ -97,394 +91,12 @@ Chile 2021              Venezuela, Chile y España.
 
                                         Introducción                                                                   8
 
-
-## 1. El lenguaje como medio de comunicación                                     12
-
-
-
-## 1.1 Conceptos generales                                                    13
-
-
-
-## 1.2 El lenguaje como sistema de comunicación                               15
-
-
-
-## 1.2.1. Etapas del desarrollo del lenguaje                            15
-
-
-
-## 1.2.2 Signo lingüístico                                              16
-
-
-
-## 1.2.3 Lengua                                                         17
-
-
-
-## 1.2.4 El habla                                                       20
-
-
-
-## 1.2.5 Los diferentes tipos de lenguaje                               21
-
-
-
-## 1.2.6 Niveles de lenguaje: formal, coloquial y vulgar                23
-
-
-
-## 1.2.    Funciones del lenguaje: informativo, expresivo y directivo   24
-
-
-
-## 1.2.8 Lenguaje denotativo y lenguaje connotativo                     24
-
-
-
-## 1.3 Diferencias entre comunicación oral y comunicación escrita             26
-
-
-
-## 1.4 El lenguaje jurídico                                                   27
-
-
-
-## 2. Redacción: principios básicos y normativos en los textos judiciales        40
-
-
-
-## 2.1 Conceptos básicos                                                      41
-
-
-
-## 2.2 Elementos de la redacción: fondo y forma                               43
-
-
-
-## 2.2.1 Fondo                                                          43
-
-
-
-## 2.2.2 Forma                                                          47
-
-
-
-## 2.2.3 Errores idiomáticos                                            49
-
-
-
-## 2.3 Normas básicas de la estilística                                       51
-
-
-
-## 2.4 El proceso de redacción                                                53
-
-
-
-## 2.5 La oración y sus principales elementos                                 55
-
-
-
-## 2.6 Estudio teórico acerca del párrafo                                     56
-
-
-
-## 2.6.1   Concepto                                                     56
-
-
-
-## 2.6.2 Estructura                                                     56
-
-
-
-## 2.6.3 Clasificación                                                  56
-
-
-
-## 2.6.4 Procedimientos de desarrollo del párrafo                       57
-
-Redacción de                                                                        Índice                                                   5
-
-
-## 2.6.5 Técnicas y recursos para organizar y desarrollar el párrafo                     58
-
-
-
-## 2.6.6 Práctica de la redacción de un párrafo y algunos aspectos para redactarlo       59
-
-
-
-## 2.7 La redacción y la construcción lógica                                                   60
-
-
-
-## 2.7.1 Cohesión del párrafo y frases desordenadas                                      60
-
-
-
-## 2.8 Normas generales de la ortografía                                                        61
-
-
-
-## 2.8.1 Reglas de la ortografía acentual                                                62
-
-
-
-## 2.8.2 Principales reglas de la ortografía literal                                     66
-
-
-
-## 2.9 Reglas para el uso de las letras mayúsculas y minúsculas                                75
-
-
-
-## 2.10 Signos de puntuación                                                                   77
-
-
-
-## 2.11 La redacción en el mundo del derecho                                                    81
-
-
-
-## 2.12 Ejemplos asociados a la materia judicial y ejercicios de aplicación de conocimientos   87
-
-
-
-## 3. Las formas de la expresión lingüística en el discurso jurídico                              90
-
-
-
-## 3.1 La descripción                                                                          92
-
-
-
-## 3.1.1 Concepto                                                                        92
-
-
-
-## 3.1.2 Clasificación                                                                   92
-
-
-
-## 3.1.3 Características                                                                 93
-
-
-
-## 3.1.4 Procedimientos                                                                  93
-
-
-
-## 3.1.5 Aplicación en el derecho                                                        94
-
-
-
-## 3.2 La narración                                                                            95
-
-
-
-## 3.2.1 Concepto                                                                        95
-
-
-
-## 3.2.2 Clasificación                                                                   95
-
-
-
-## 3.2.3 Procedimientos                                                                  96
-
-
-
-## 3.2.4 Leyes de la narración                                                           96
-
-
-
-## 3.2.5 Fundamentos de la claridad y el orden en la narración jurídica                  97
-
-
-
-## 3.2.6 Función general de la narrativa jurídica                                        98
-
-
-
-## 3.2.7 Aspectos específicos de la narrativa jurídica                                   98
-
-
-
-## 3.2.8 Los párrafos                                                                    99
-
-
-
-## 3.2.9 Las oraciones                                                                   99
-
-
-
-## 3.3 La argumentación                                                                        102
-
-
-
-## 3.3.1   Concepto                                                                      102
-
-
-
-## 3.3.2 Finalidad de la argumentación                                                   102
-
-Redacción de                                                                         Índice                          6
-
-
-## 3.3.3   Mapa conceptual de la argumentación                   103
-
-
-
-## 3.3.4   Requisitos de la argumentación                        104
-
-
-
-## 3.3.5   Etapas de la argumentación                            104
-
-
-
-## 3.3.6   Elementos de la argumentación                         105
-
-
-
-## 3.3.7   Concepto de argumentación jurídica                    106
-
-
-
-## 3.3.8   El abogado y el empleo de la argumentación jurídica   107
-
-
-
-## 3.4 La exposición                                                   111
-
-
-
-## 3.4.1   Concepto                                              111
-
-
-
-## 3.4.2   Mapa conceptual del texto expositivo                  111
-
-
-
-## 3.4.3   Estructura del texto expositivo                       111
-
-
-
-## 3.4.4   Síntesis integral del texto expositivo                112
-
-
-
-## 3.4.5   Definición                                            113
-
-
-
-## 3.4.6   Análisis                                              113
-
-
-
-## 3.4.7   Clasificación                                         115
-
-
-
-## 3.4.8   Resumen                                               115
-
-
-
-## 3.4.9   División                                              115
-
-
-
-## 3.5 Las formas de la expresión lingüística y el derecho             116
-
-
-
-## 4 El informe                                                           118
-
-
-
-## 4.1 Definición                                                      119
-
-
-
-## 4.1.1   Características                                       119
-
-
-
-## 4.1.2   Tipos de informe                                      119
-
-
-
-## 4.1.3   Estructuras de un informe                             121
-
-
-
-## 4.2 El informe jurídico                                             123
-
-
-
-## 4.2.1   Concepto                                              123
-
-
-
-## 4.2.2   Estructura                                            124
-
-
-
-## 4.2.3   Ejemplo de Informe en derecho                         124
-
-
-
-## 5. Las resoluciones judiciales y las actas                             138
-
-
-
-## 5.1 Resoluciones judiciales                                         139
-
-
-
-## 5.1.1   Concepto                                              139
-
-
-
-## 5.1.2   Estructura                                            140
-
-
-
-## 5.1.3   Ejemplos                                              143
-
-Redacción de                                                                        Índice         7
-
-
-## 5.2 Las actas judiciales                          158
-
-
-
-## 5.2.1   Conceptos generales                  158
-
-
-
-## 5.2.2   Criterios de redacción               158
-
-
-
-## 5.2.3   Etapas de las actas judiciales       160
-
-
-
-## 5.2.4   Modelos de actas judiciales          160
-
-
-
-## 6. La monografía                                     177
-
-
-
 ## 6.1 Aspectos básicos de la monografía             178
 
+**Definición Canónica:** Ejercicios de aplicación de conocimiento             181
+**Concordancias Legales:** artículos 19
 
-                                        Ejercicios de aplicación de conocimiento             181
+Ejercicios de aplicación de conocimiento             181
 
                                         Bibliografía                                         203
 
@@ -629,10 +241,11 @@ Chile 2021              Venezuela, Chile y España.
 Redacción de                                                                                 1. El lenguaje como medio                                            13
 documentos legales                                                                              de comunicación
 
-
 ## 1.1            Conceptos
 
-                                                                                               generales
+**Definición Canónica:** generales
+
+generales
 
                                                                                                El hombre piensa y, porque piensa, se expresa y se comunica con
                                                                                                los demás. El proceso de comunicación ha generado la organiza-
@@ -696,10 +309,11 @@ documentos legales                                                              
 Redacción de                                                         1. El lenguaje como medio                                              15
 documentos legales                                                      de comunicación
 
-
 ## 1.2     El lenguaje como sistema
 
-                                                                       de comunicación
+**Definición Canónica:** de comunicación
+
+de comunicación
 
                                                                        Desde los inicios de la civilización, el lenguaje se ha manifestado
                                                                        de muy distintos modos y con diversos grados de complejidad, pues
@@ -721,11 +335,13 @@ documentos legales                                                      de comun
                                                                        social, emplean el lenguaje como instrumento para comunicar a otras
                                                                        personas lo que piensan y lo que sienten.
 
-
 ## 1.2.1. Etapas del desarrollo del lenguaje
 
+**Definición Canónica:** a. La que corresponde a la intuición, en la que se imita el compor-
+                                                                          tamiento verbal de las personas que nos rodean, por selección de
+                                                                          sonidos articulados y por asociación de significados.
 
-                                                                       a. La que corresponde a la intuición, en la que se imita el compor-
+a. La que corresponde a la intuición, en la que se imita el compor-
                                                                           tamiento verbal de las personas que nos rodean, por selección de
                                                                           sonidos articulados y por asociación de significados.
 
@@ -736,10 +352,14 @@ documentos legales                                                      de comun
                                                                     construcción gramatical se hace más compleja: avanza de la
                                                                     espontaneidad a la reflexión sencilla.
 
-
 ## 1.2.2 Signo lingüístico
 
-                                                                 Es la combinación de dos estímulos interrelacionados: el significante,
+**Definición Canónica:** Es la combinación de dos estímulos interrelacionados: el significante,
+                                                                 es decir la imagen acústica, que es parte del signo percibido a través del
+                                                                 oído o de la vista; y el significado, esto es la imagen conceptual, que es
+                                                                 la idea producida por el impacto sensorial.
+
+Es la combinación de dos estímulos interrelacionados: el significante,
                                                                  es decir la imagen acústica, que es parte del signo percibido a través del
                                                                  oído o de la vista; y el significado, esto es la imagen conceptual, que es
                                                                  la idea producida por el impacto sensorial.
@@ -789,10 +409,15 @@ documentos legales                                                              
                                                                                El lenguaje es una estructura, cuyos elementos interactuantes se co-
                                                                                nectan de un modo específico para lograr la comunicación.
 
-
 ## 1.2.3 Lengua
 
-                                                                               Cuando se hace un viaje al extranjero, o simplemente se sale del
+**Definición Canónica:** Cuando se hace un viaje al extranjero, o simplemente se sale del
+                                                                               territorio en que uno vive, se nota que el lenguaje posee variaciones.
+                                                                               Cumple la misma función, pero no siempre logra su propósito. A veces
+                                                                               no se entiende lo que alguien dice; se emplean los mismos sonidos
+                                                                               y las mismas 
+
+Cuando se hace un viaje al extranjero, o simplemente se sale del
                                                                                territorio en que uno vive, se nota que el lenguaje posee variaciones.
                                                                                Cumple la misma función, pero no siempre logra su propósito. A veces
                                                                                no se entiende lo que alguien dice; se emplean los mismos sonidos
@@ -853,19 +478,26 @@ documentos legales                                                              
                                                                  la lengua que producen la jerga, el argot y el caló, así como variaciones
                                                                  horizontales derivadas de diferencias regionales, originando los dialectos.
 
-
 ## 1.2.3.1 Dialecto
 
-                                                                 Constituye una variedad regional de la lengua. El término posee un
+**Definición Canónica:** Constituye una variedad regional de la lengua. El término posee un
                                                                  significado muy amplio, puesto que es dialecto toda lengua con alguna
                                                                  diferencia gramatical o de vocabulario respecto a la lengua original.
                                                                  Debido a esto es muy difícil delimitar algunos dialectos, sobretodo
                                                                  cuando son regionalmente cercanos.
 
+Constituye una variedad regional de la lengua. El término posee un
+                                                                 significado muy amplio, puesto que es dialecto toda lengua con alguna
+                                                                 diferencia gramatical o de vocabulario respecto a la lengua original.
+                                                                 Debido a esto es muy difícil delimitar algunos dialectos, sobretodo
+                                                                 cuando son regionalmente cercanos.
 
 ## 1.2.3.2 Jerga y argot
 
-                                                                 Los lingüistas distinguen la jerga del argot en función del tipo de
+**Definición Canónica:** Los lingüistas distinguen la jerga del argot en función del tipo de
+                                                                 lenguaje y del nivel cultural de las personas que lo usan.
+
+Los lingüistas distinguen la jerga del argot en función del tipo de
                                                                  lenguaje y del nivel cultural de las personas que lo usan.
 
 Redacción de                                                   1. El lenguaje como medio                                             20
@@ -878,17 +510,16 @@ documentos legales                                                              
                                                                  es conveniente referirse al coa, que es una forma de hablar de los
                                                                  delincuentes chilenos.
 
-
-## 1.2.3.3 Caló
-
-                                                                 Es el lenguaje popular que se basa en los modismos y se usa princi-
-                                                                 palmente en los estratos sociales más bajos.
-
-
 ## 1.2.4 El habla
 
+**Definición Canónica:** La expresión individual de una lengua es el habla, manifestación
+                                                                 concreta de la lengua, el estilo o toque individual que le imprime a
+                                                                 una lengua cada uno de los miembros de la comunidad lingüística.
+                                                                 Las personas, aunque habiten dentro de una misma región, utilizan
+                                                                 un lenguaje sujeto a las mismas convenciones gramaticales y sin em-
+       
 
-                                                                 La expresión individual de una lengua es el habla, manifestación
+La expresión individual de una lengua es el habla, manifestación
                                                                  concreta de la lengua, el estilo o toque individual que le imprime a
                                                                  una lengua cada uno de los miembros de la comunidad lingüística.
                                                                  Las personas, aunque habiten dentro de una misma región, utilizan
@@ -919,11 +550,16 @@ documentos legales                                                              
                                                                  posible debido a la facultad humana de comunicación, al instrumento
                                                                  lenguaje que permite lograrla.
 
-
 ## 1.2.5 Los diferentes tipos de lenguaje
 
+**Definición Canónica:** a. Lenguaje mímico. Toda persona emplea la mímica para comuni-
+                                                                    car sus ideas, sus emociones y sus deseos con mayor expresividad.
+                                                                    Su uso no es necesario para el entendimiento básico de la infor-
+                                                                    mación, pero las personas rara vez prescinden de ella al hablar.
+                                                                    El uso de la mímica puede cumplir una función complementaria,
+       
 
-                                                                 a. Lenguaje mímico. Toda persona emplea la mímica para comuni-
+a. Lenguaje mímico. Toda persona emplea la mímica para comuni-
                                                                     car sus ideas, sus emociones y sus deseos con mayor expresividad.
                                                                     Su uso no es necesario para el entendimiento básico de la infor-
                                                                     mación, pero las personas rara vez prescinden de ella al hablar.
@@ -994,10 +630,14 @@ documentos legales                                                              
                                                                          que el lenguaje hablado puede auxiliarse de la mímica, de la
                                                                          entonación y de las pausas con el mismo objeto.
 
-
 ## 1.2.6 Niveles de lenguaje: formal, coloquial y vulgar
 
-                                                                 El uso del lenguaje no es privativo de determinadas clases sociales,
+**Definición Canónica:** El uso del lenguaje no es privativo de determinadas clases sociales,
+                                                                 la lengua en cambio sí se manifiesta de muy diferentes maneras de
+                                                                 acuerdo con las distintas circunstancias sociales, como por ejemplo las
+                                                                 relaciones de trabajo, la profesión, las relaciones familiares, etcétera.
+
+El uso del lenguaje no es privativo de determinadas clases sociales,
                                                                  la lengua en cambio sí se manifiesta de muy diferentes maneras de
                                                                  acuerdo con las distintas circunstancias sociales, como por ejemplo las
                                                                  relaciones de trabajo, la profesión, las relaciones familiares, etcétera.
@@ -1054,10 +694,15 @@ documentos legales                                                              
                                                                  (por ejemplo, algún discurso político de campaña), o bien el emotivo
                                                                  y el directivo (por ejemplo, en anuncios comerciales).
 
-
 ## 1.2.8 Lenguaje denotativo y lenguaje connotativo
 
-                                                                 El lenguaje, como herramienta del pensamiento, puede expresar la
+**Definición Canónica:** El lenguaje, como herramienta del pensamiento, puede expresar la
+                                                                 amplia gama de matices propios de la mente humana. Un mismo
+                                                                 hecho o concepto provoca diversos razonamientos, reacciones y ex-
+                                                                 presiones en diferentes personas, de acuerdo con su edad, religión,
+                                                                 nivel cultural, posición social, creencias políticas, etcétera.
+
+El lenguaje, como herramienta del pensamiento, puede expresar la
                                                                  amplia gama de matices propios de la mente humana. Un mismo
                                                                  hecho o concepto provoca diversos razonamientos, reacciones y ex-
                                                                  presiones en diferentes personas, de acuerdo con su edad, religión,
@@ -1077,10 +722,11 @@ documentos legales                                                              
 Redacción de                                                         1. El lenguaje como medio                                                 26
 documentos legales                                                      de comunicación
 
-
 ## 1.3     Diferencias entre comunicación
 
-                                                                       oral y comunicación escrita
+**Definición Canónica:** oral y comunicación escrita
+
+oral y comunicación escrita
 
                                                                        —       El texto oral se expresa a través de la palabra, el escrito se
                                                                                representa a través de signos gráficos.
@@ -1112,10 +758,12 @@ documentos legales                                                      de comun
 Redacción de                                                                                1. El lenguaje como medio                                               27
 documentos legales                                                                             de comunicación
 
-
 ## 1.4           El lenguaje
 
-                                                                                              jurídico
+**Definición Canónica:** jurídico
+**Concordancias Legales:** constitucion
+
+jurídico
 
                                                                                               Según el profesor Cesáreo Rodríguez-Aguilera,“se afirma –y común-
                                                                                               mente se acepta– que el lenguaje jurídico es un lenguaje tradicional,
@@ -1235,10 +883,11 @@ documentos legales                                                              
                                                                Revista Cultura Jurídica Nº 4, editada por el Gobierno del Estado de México, Poder Judicial, Consejo de la Ju-
                                                                dicatura, Toluca, México, noviembre de 2007; pp. 165-185. Accesible en línea [fecha de consulta: 2 de abril 2021].
 
-
 ## 8        ROBLES MORCHÓN, Gregorio (2009): Comunicación, lenguaje y Derecho. Algunas ideas básicas de la teoría
 
-                                                               comunicacional del Derecho; Madrid, Real Academia de Ciencias Morales y Políticas; p. 30.
+**Definición Canónica:** comunicacional del Derecho; Madrid, Real Academia de Ciencias Morales y Políticas; p. 30.
+
+comunicacional del Derecho; Madrid, Real Academia de Ciencias Morales y Políticas; p. 30.
 
 Redacción de                                                                               1. El lenguaje como medio                                                 30
 documentos legales                                                                            de comunicación
@@ -1665,10 +1314,11 @@ documentos legales                                                              
 Redacción de                                                         2. Redacción: principios básicos y                                      41
 documentos legales                                                      normativos en los textos judiciales
 
-
 ## 2.1     Conceptos
 
-                                                                       básicos
+**Definición Canónica:** básicos
+
+básicos
 
                                                                        Según J. Martín Vivaldi (1982),“redactar, etimológicamente significa
                                                                        compilar o poner en orden. En un sentido más preciso, consiste en
@@ -1722,10 +1372,13 @@ documentos legales                                                      normativ
                                                                        Lo primero que debe hacer el redactor es pensar bien y ordenar el
                                                                        tema, para luego aclarar las ideas que este le sugiere.
 
-
 ## 2.2.1 Fondo
 
-                                                                       El fondo de la redacción lo constituyen las ideas que utiliza el autor
+**Definición Canónica:** El fondo de la redacción lo constituyen las ideas que utiliza el autor
+                                                                       para desarrollar el tema. Los aspectos de sintaxis y contenido más
+                                                                       importantes que se deben considerar son la coherencia, el conteni-
+
+El fondo de la redacción lo constituyen las ideas que utiliza el autor
                                                                        para desarrollar el tema. Los aspectos de sintaxis y contenido más
                                                                        importantes que se deben considerar son la coherencia, el conteni-
 
@@ -1733,10 +1386,15 @@ documentos legales                                                      normativ
                                                                        y precisión de las ideas, la fluidez, la originalidad y efectividad del
                                                                        mensaje, así como un vocabulario acertado y diverso.
 
-
 ## 2.2.1.1 Coherencia
 
-                                                                       Cualquiera que sea su objetivo, todo escrito debe estar organizado de
+**Definición Canónica:** Cualquiera que sea su objetivo, todo escrito debe estar organizado de
+                                                                       tal manera que el acomodo de las ideas en los párrafos conserve una
+                                                                       coherencia o unidad lógica y clara. Para ello es conveniente trazar
+                                                                       desde el principio un esquema tentativo provisional (o racimo de
+                                                                       ideas) de lo que se va a desarrollar.
+
+Cualquiera que sea su objetivo, todo escrito debe estar organizado de
                                                                        tal manera que el acomodo de las ideas en los párrafos conserve una
                                                                        coherencia o unidad lógica y clara. Para ello es conveniente trazar
                                                                        desde el principio un esquema tentativo provisional (o racimo de
@@ -1799,49 +1457,73 @@ documentos legales                                                normativos en 
                                                                  —        leer de manera constante a buenos y claros escritores y apre-
                                                                           ciar su estilo.
 
-
 ## 2.2.1.2 Contenido interesante
 
-                                                                 En redacción, la forma se rinde al contenido. Un buen escritor debe
+**Definición Canónica:** En redacción, la forma se rinde al contenido. Un buen escritor debe
+                                                                 decir algo sustancioso, útil, original o agradable, y la mejor forma de
+                                                                 lograr un contenido interesante y centrado en lo esencial de un tema
+                                                                 es a través de lecturas diversas, de preferencia en textos originales.
+                                                                 Una buena redacción tiene que estar antecedida por el estudi
+
+En redacción, la forma se rinde al contenido. Un buen escritor debe
                                                                  decir algo sustancioso, útil, original o agradable, y la mejor forma de
                                                                  lograr un contenido interesante y centrado en lo esencial de un tema
                                                                  es a través de lecturas diversas, de preferencia en textos originales.
                                                                  Una buena redacción tiene que estar antecedida por el estudio, la
                                                                  investigación o la reflexión inteligente.
 
-
 ## 2.2.1.3 Fundamentación de las ideas
 
+**Definición Canónica:** Si el enunciador o autor de un discurso no elige debidamente a su
+                                                                 referente, si no analiza su tema desde las bases que determinan sus
+                                                                 conceptos, si sus fuentes de información son dudosas o superficiales,
+                                                                 corre el riesgo de que el texto (producto de su esfuerzo) sea recha-
+                                                                 zado por sus receptores, aun cuando haya cumplido con todos los
+   
 
-                                                                 Si el enunciador o autor de un discurso no elige debidamente a su
+Si el enunciador o autor de un discurso no elige debidamente a su
                                                                  referente, si no analiza su tema desde las bases que determinan sus
                                                                  conceptos, si sus fuentes de información son dudosas o superficiales,
                                                                  corre el riesgo de que el texto (producto de su esfuerzo) sea recha-
                                                                  zado por sus receptores, aun cuando haya cumplido con todos los
                                                                  requisitos formales de presentación.
 
-
 ## 2.2.1.4 Concordancia, orden y precisión de las ideas
 
-                                                                 Concordar significa armonizar, mantener el acuerdo entre las partes
+**Definición Canónica:** Concordar significa armonizar, mantener el acuerdo entre las partes
                                                                  de un todo. En la redacción de un texto, con frecuencia se cometen
                                                                  errores de concordancia al escribir, lo que significa ausencia de un
                                                                  acuerdo lógico entre las partes que componen una oración.
 
+Concordar significa armonizar, mantener el acuerdo entre las partes
+                                                                 de un todo. En la redacción de un texto, con frecuencia se cometen
+                                                                 errores de concordancia al escribir, lo que significa ausencia de un
+                                                                 acuerdo lógico entre las partes que componen una oración.
 
 ## 2.2.1.5 Fluidez
 
-                                                                 En un escrito, la fluidez está hermanada con la sencillez y la habili-
+**Definición Canónica:** En un escrito, la fluidez está hermanada con la sencillez y la habili-
+                                                                 dad de discriminar y evitar las repeticiones o agregados innecesarios.
+                                                                 Cuando el lector percibe con facilidad el mensaje, experimenta un
+                                                                 propensión natural a continuar con su lectura, ya que la redacción
+                                                                 es accesible, clara, lógica o agradable. Con seguridad está frent
+
+En un escrito, la fluidez está hermanada con la sencillez y la habili-
                                                                  dad de discriminar y evitar las repeticiones o agregados innecesarios.
                                                                  Cuando el lector percibe con facilidad el mensaje, experimenta un
                                                                  propensión natural a continuar con su lectura, ya que la redacción
                                                                  es accesible, clara, lógica o agradable. Con seguridad está frente a
                                                                  un escrito fluido, ágil, que conduce al tema por un cauce apropiado.
 
-
 ## 2.2.1.6 Originalidad y efectividad del mensaje
 
-                                                                 Tal vez lo más difícil en una redacción clara sea la posibilidad de in-
+**Definición Canónica:** Tal vez lo más difícil en una redacción clara sea la posibilidad de in-
+                                                                 cluir ideas originales e interesantes del autor, pues lo más frecuente
+                                                                 es dudar de nuestra propia capacidad para producir conceptos nuevos
+                                                                 que a muy pocos se les hubiera podido ocurrir y que, además, respeten
+                                                                 la virtud de la lógica y del sentido común.
+
+Tal vez lo más difícil en una redacción clara sea la posibilidad de in-
                                                                  cluir ideas originales e interesantes del autor, pues lo más frecuente
                                                                  es dudar de nuestra propia capacidad para producir conceptos nuevos
                                                                  que a muy pocos se les hubiera podido ocurrir y que, además, respeten
@@ -1850,10 +1532,15 @@ documentos legales                                                normativos en 
 Redacción de                                                   2. Redacción: principios básicos y                                       46
 documentos legales                                                normativos en los textos judiciales
 
-
 ## 2.2.1.7 Vocabulario acertado y diverso
 
-                                                                 Tanto en la expresión escrita como en la oral, es frecuente constatar
+**Definición Canónica:** Tanto en la expresión escrita como en la oral, es frecuente constatar
+                                                                 una visible pobreza del vocabulario que se emplea, como también
+                                                                 el uso incorrecto de preposiciones o de pronombres y el abuso de
+                                                                 determinados verbos o palabras que llamamos “comodines” o “mule-
+                                                                 tillas”, porque se utilizan de forma indiscriminada para toda ocasión.
+
+Tanto en la expresión escrita como en la oral, es frecuente constatar
                                                                  una visible pobreza del vocabulario que se emplea, como también
                                                                  el uso incorrecto de preposiciones o de pronombres y el abuso de
                                                                  determinados verbos o palabras que llamamos “comodines” o “mule-
@@ -1892,27 +1579,37 @@ documentos legales                                                normativos en 
 Redacción de                                                   2. Redacción: principios básicos y                                       47
 documentos legales                                                normativos en los textos judiciales
 
-
 ## 2.2.2 Forma
 
-                                                                 La forma es el modo particular que cada autor tiene de expresar sus
+**Definición Canónica:** La forma es el modo particular que cada autor tiene de expresar sus
                                                                  ideas y los aspectos formales de la redacción que se deben considerar
                                                                  en todo escrito son los siguientes: márgenes, sangrías y otros espacios,
                                                                  limpieza, legibilidad, ortografía, puntuación, distribución de las ideas
                                                                  en párrafos y una estructura adecuada del texto.
 
+La forma es el modo particular que cada autor tiene de expresar sus
+                                                                 ideas y los aspectos formales de la redacción que se deben considerar
+                                                                 en todo escrito son los siguientes: márgenes, sangrías y otros espacios,
+                                                                 limpieza, legibilidad, ortografía, puntuación, distribución de las ideas
+                                                                 en párrafos y una estructura adecuada del texto.
 
 ## 2.2.2.1 Márgenes
 
-                                                                 Los márgenes o espacios que se deben dejar en el escrito pueden
+**Definición Canónica:** Los márgenes o espacios que se deben dejar en el escrito pueden
                                                                  tener las siguientes medidas: margen izquierdo y superior de 4 cm,
                                                                  margen derecho y margen inferior de 2,5 cm. Actualmente, los sis-
                                                                  temas computarizados tienen configurados este requisito.
 
+Los márgenes o espacios que se deben dejar en el escrito pueden
+                                                                 tener las siguientes medidas: margen izquierdo y superior de 4 cm,
+                                                                 margen derecho y margen inferior de 2,5 cm. Actualmente, los sis-
+                                                                 temas computarizados tienen configurados este requisito.
 
 ## 2.2.2.2 Sangrías y otros espacios
 
-                                                                 La distribución y los espacios aligeran la presentación del texto:
+**Definición Canónica:** La distribución y los espacios aligeran la presentación del texto:
+
+La distribución y los espacios aligeran la presentación del texto:
 
                                                                  —        la primera cuartilla del prefacio o de cada capítulo se iniciará
                                                                           con un “colgado”, es decir, un espacio en blanco de 6 centí-
@@ -1928,15 +1625,13 @@ documentos legales                                                normativos en 
                                                                  —        también, los sistemas computacionales tienen elementos que
                                                                           permiten recomendar y mejorar la impresión del texto.
 
-## 2.2.2.3 Limpieza
-
-                                                                 Tal como los espacios, la limpieza agrega virtudes estéticas al aspecto
-                                                                 formal del texto, estimulando y facilitando su lectura.
-
-
 ## 2.2.2.4 Legibilidad
 
-                                                                 Ya sea manuscrita, mecanografiada o digitada en computador, una
+**Definición Canónica:** Ya sea manuscrita, mecanografiada o digitada en computador, una
+                                                                 redacción debe ser legible, es decir, sus grafías deben ser tan nítidas
+                                                                 que se facilite la lectura. Una letra desmañada, estilizada o rara en
+
+Ya sea manuscrita, mecanografiada o digitada en computador, una
                                                                  redacción debe ser legible, es decir, sus grafías deben ser tan nítidas
                                                                  que se facilite la lectura. Una letra desmañada, estilizada o rara en
 
@@ -1948,10 +1643,15 @@ documentos legales                                                normativos en 
                                                                  le provocarán confusión y así, con todo derecho, puede rechazar un
                                                                  escrito por ilegible.
 
-
 ## 2.2.2.5 Ortografía
 
-                                                                 Del griego ortos-correcto y grafos-escritura se deriva la palabra que
+**Definición Canónica:** Del griego ortos-correcto y grafos-escritura se deriva la palabra que
+                                                                 designa la parte de la gramática que enseña a escribir de forma co-
+                                                                 rrecta. Observar las reglas ortográficas preserva la unidad y belleza
+                                                                 de nuestra lengua y facilita el entendimiento entre quienes la usan.
+                                                                 Al ser tan vasto o abundante el universo de palabras del españo
+
+Del griego ortos-correcto y grafos-escritura se deriva la palabra que
                                                                  designa la parte de la gramática que enseña a escribir de forma co-
                                                                  rrecta. Observar las reglas ortográficas preserva la unidad y belleza
                                                                  de nuestra lengua y facilita el entendimiento entre quienes la usan.
@@ -1960,10 +1660,16 @@ documentos legales                                                normativos en 
 
                                                                  manera sistemática libros de ejercicios ortográficos.
 
-
 ## 2.2.2.6 Puntuación
 
-                                                                 En un proceso civil, un escrito mal redactado y con uso deficiente de
+**Definición Canónica:** En un proceso civil, un escrito mal redactado y con uso deficiente de
+                                                                 los signos de puntuación determina la decisión de un juez. Así por
+                                                                 ejemplo, durante la Revolución Mexicana, un telegrama mal redacta-
+                                                                 do decidió la muerte de un hombre. El telegrama en cuestión debía
+                                                                 decir: “Fusilarlo no, indultarlo”, pero una coma mal colocada alteró
+ 
+
+En un proceso civil, un escrito mal redactado y con uso deficiente de
                                                                  los signos de puntuación determina la decisión de un juez. Así por
                                                                  ejemplo, durante la Revolución Mexicana, un telegrama mal redacta-
                                                                  do decidió la muerte de un hombre. El telegrama en cuestión debía
@@ -1975,10 +1681,16 @@ documentos legales                                                normativos en 
                                                                  expresividad a los párrafos. Los signos de puntuación más comunes
                                                                  son: la coma, el punto y coma y el punto.
 
-
 ## 2.2.2.7 Distribución de las ideas en párrafos
 
-                                                                 “Un párrafo para cada idea y una idea para cada párrafo” puede ser un
+**Definición Canónica:** “Un párrafo para cada idea y una idea para cada párrafo” puede ser un
+                                                                 buen lema al escribir. El párrafo bien construido contiene oraciones
+                                                                 que se relacionan con una idea central, conformando una unidad de
+                                                                 pensamiento que se separa de la siguiente unidad por un punto y
+                                                                 aparte. Ya se ha sugerido, además, que se deben dejar dos espacios
+    
+
+“Un párrafo para cada idea y una idea para cada párrafo” puede ser un
                                                                  buen lema al escribir. El párrafo bien construido contiene oraciones
                                                                  que se relacionan con una idea central, conformando una unidad de
                                                                  pensamiento que se separa de la siguiente unidad por un punto y
@@ -1991,17 +1703,21 @@ documentos legales                                                normativos en 
 Redacción de                                                   2. Redacción: principios básicos y                                       49
 documentos legales                                                normativos en los textos judiciales
 
-
 ## 2.2.2.8 Estructura adecuada
 
-                                                                 Los textos tienen una organización, un cuerpo, una estructura. Una
+**Definición Canónica:** Los textos tienen una organización, un cuerpo, una estructura. Una
                                                                  estructura muy general, aplicable a casi todo escrito y que siempre
                                                                  se debe tener en mente al escribir, es la siguiente:
 
+Los textos tienen una organización, un cuerpo, una estructura. Una
+                                                                 estructura muy general, aplicable a casi todo escrito y que siempre
+                                                                 se debe tener en mente al escribir, es la siguiente:
 
 ## 2.2.3 Errores idiomáticos
 
-                                                                 Los errores idiomáticos más frecuentes son la ambigüedad, los bar-
+**Definición Canónica:** Los errores idiomáticos más frecuentes son la ambigüedad, los bar-
+
+Los errores idiomáticos más frecuentes son la ambigüedad, los bar-
 
                                                                  barismos, los solecismos, la monotonía y la cacofonía.
 
@@ -2057,10 +1773,11 @@ documentos legales                                                normativos en 
 Redacción de                                                         2. Redacción: principios básicos y                                         51
 documentos legales                                                      normativos en los textos judiciales
 
-
 ## 2.3     Normas básicas
 
-                                                                       de la estilística
+**Definición Canónica:** de la estilística
+
+de la estilística
 
                                                                        Todos tenemos un estilo y una personalidad, ambos pueden desarro-
                                                                        llarse. La estilística es la disciplina que estudia los procedimientos
@@ -2116,10 +1833,11 @@ documentos legales                                                normativos en 
 Redacción de                                                                 2. Redacción: principios básicos y                                        53
 documentos legales                                                              normativos en los textos judiciales
 
-
 ## 2.4        El proceso
 
-                                                                               de redacción
+**Definición Canónica:** de redacción
+
+de redacción
 
                                                                                Las etapas o fases de la composición son pensar, ordenar, escribir
                                                                                y corregir. Este proceso de elaboración del pensamiento, que se
@@ -2200,10 +1918,11 @@ documentos legales                                                normativos en 
 Redacción de                                                         2. Redacción: principios básicos y                                    55
 documentos legales                                                      normativos en los textos judiciales
 
-
 ## 2.5     La oración
 
-                                                                       y sus principales elementos
+**Definición Canónica:** y sus principales elementos
+
+y sus principales elementos
 
                                                                        La oración es la unidad de comunicación mínima que, estando
                                                                        constituida por un conjunto de palabras, tiene sentido completo y
@@ -2228,25 +1947,31 @@ documentos legales                                                      normativ
 Redacción de                                                         2. Redacción: principios básicos y                                      56
 documentos legales                                                      normativos en los textos judiciales
 
-
-## 2.6     Estudio teórico
-
-                                                                       acerca del párrafo
-
-
 ## 2.6.1 Concepto
 
-                                                                       Los párrafos son las partes de un texto observables a simple vista,
+**Definición Canónica:** Los párrafos son las partes de un texto observables a simple vista,
+                                                                       porque cada uno de ellos está delimitado por un punto aparte. El
+                                                                       comienzo de cada párrafo debe señalarse con un espacio inicial
+                                                                       llamado sangría, una mayúscula y el punto aparte, que conforman
+                                                                       la estructura externa del párrafo. Por lo tanto, podemos
+
+Los párrafos son las partes de un texto observables a simple vista,
                                                                        porque cada uno de ellos está delimitado por un punto aparte. El
                                                                        comienzo de cada párrafo debe señalarse con un espacio inicial
                                                                        llamado sangría, una mayúscula y el punto aparte, que conforman
                                                                        la estructura externa del párrafo. Por lo tanto, podemos decir que el
                                                                        párrafo es la unidad funcional dentro del escrito.
 
-
 ## 2.6.2 Estructura
 
-                                                                       La estructura interna del párrafo, a diferencia de la externa consti-
+**Definición Canónica:** La estructura interna del párrafo, a diferencia de la externa consti-
+                                                                       tuida por la letra mayúscula y el punto aparte, posee los siguientes
+                                                                       elementos:
+                                                                       —        una oración directriz, que contiene la tesis o idea principal.
+                                                                       —        un desarrollo de la anterior o una ampliación del material
+                          
+
+La estructura interna del párrafo, a diferencia de la externa consti-
                                                                        tuida por la letra mayúscula y el punto aparte, posee los siguientes
                                                                        elementos:
                                                                        —        una oración directriz, que contiene la tesis o idea principal.
@@ -2254,10 +1979,16 @@ documentos legales                                                      normativ
                                                                                 que la sustenta, es decir, las ideas secundarias que sostienen
                                                                                 la idea principal.
 
-
 ## 2.6.3 Clasificación
 
-                                                                       Existen diversos tipos de párrafos, entre los más conocidos y utili-
+**Definición Canónica:** Existen diversos tipos de párrafos, entre los más conocidos y utili-
+                                                                       zados están:
+                                                                       a. Párrafo expositivo. Según la RAE, exponer es presentar una cosa
+                                                                          que sea vista, ponerla de manifiesto. Declarar, interpretar, explicar
+                                                                          el sentido genuino de una palabra, texto o doctrina que puede
+                             
+
+Existen diversos tipos de párrafos, entre los más conocidos y utili-
                                                                        zados están:
                                                                        a. Párrafo expositivo. Según la RAE, exponer es presentar una cosa
                                                                           que sea vista, ponerla de manifiesto. Declarar, interpretar, explicar
@@ -2316,10 +2047,16 @@ documentos legales                                                normativos en 
 Redacción de                                                   2. Redacción: principios básicos y                                         58
 documentos legales                                                normativos en los textos judiciales
 
-
 ## 2.6.4 Procedimientos de desarrollo del párrafo
 
-                                                                 La planeación se hace siguiendo un método determinado de orga-
+**Definición Canónica:** La planeación se hace siguiendo un método determinado de orga-
+                                                                 nización del párrafo y los elementos que lo constituyen, que puede
+                                                                 ser cronológico, espacial, deductivo o inductivo. Se entiende por
+                                                                 método el medio o conjunto de procedimientos usados para llegar
+                                                                 a un fin determinado, en este caso, el método del párrafo será un
+              
+
+La planeación se hace siguiendo un método determinado de orga-
                                                                  nización del párrafo y los elementos que lo constituyen, que puede
                                                                  ser cronológico, espacial, deductivo o inductivo. Se entiende por
                                                                  método el medio o conjunto de procedimientos usados para llegar
@@ -2339,10 +2076,16 @@ documentos legales                                                normativos en 
                                                                  d. Método inductivo: es el método anterior a la inversa, es decir, el
                                                                     razonamiento lógico que va de lo particular a lo general.
 
-
 ## 2.6.5 Técnicas y recursos para organizar
 
-                                                                 y desarrollar el párrafo
+**Definición Canónica:** y desarrollar el párrafo
+                                                                 Existen diversos recursos y técnicas que el escritor usa para hacer
+                                                                 más dinámica la lectura de un texto.
+                                                                 a. Definición: se utiliza de preferencia cuando se ocupan conceptos
+                                                                    que no le son familiares al lector y tiene como objetivo aclarar el
+                                                                    sig
+
+y desarrollar el párrafo
                                                                  Existen diversos recursos y técnicas que el escritor usa para hacer
                                                                  más dinámica la lectura de un texto.
                                                                  a. Definición: se utiliza de preferencia cuando se ocupan conceptos
@@ -2374,10 +2117,11 @@ documentos legales                                                normativos en 
                                                                  Además de estos recursos, existen otros como la analogía, la funda-
                                                                  mentación, la oración mensaje, etcétera.
 
-
 ## 2.6.6 Práctica de la redacción de un párrafo
 
-                                                                 y algunos aspectos para redactarlo
+**Definición Canónica:** y algunos aspectos para redactarlo
+
+y algunos aspectos para redactarlo
 
                                                                  a. Selección del tema: este es el paso inicial en una composición
                                                                     intelectual y consiste en escoger un asunto sobre el cual se es-
@@ -2395,15 +2139,15 @@ documentos legales                                                normativos en 
 Redacción de                                                         2. Redacción: principios básicos y                                         60
 documentos legales                                                      normativos en los textos judiciales
 
-
-## 2.7     La redacción
-
-                                                                       y la construcción lógica
-
-
 ## 2.7.1 Cohesión del párrafo y frases desordenadas
 
-                                                                       Donde verdaderamente tienen importancia el orden lógico y el
+**Definición Canónica:** Donde verdaderamente tienen importancia el orden lógico y el
+                                                                       interés psicológico no es en la frase unitaria, sino en el párrafo o
+                                                                       periodo. Para conseguir la debida cohesión en un párrafo o período,
+                                                                       debe procurarse ligar la idea inicial de una frase a la idea final de la
+                                                                       frase precedente o a la idea general –dominan
+
+Donde verdaderamente tienen importancia el orden lógico y el
                                                                        interés psicológico no es en la frase unitaria, sino en el párrafo o
                                                                        periodo. Para conseguir la debida cohesión en un párrafo o período,
                                                                        debe procurarse ligar la idea inicial de una frase a la idea final de la
@@ -2431,10 +2175,11 @@ documentos legales                                                      normativ
 Redacción de                                                         2. Redacción: principios básicos y                                          61
 documentos legales                                                      normativos en los textos judiciales
 
-
 ## 2.8     Normas generales
 
-                                                                       de la ortografía
+**Definición Canónica:** de la ortografía
+
+de la ortografía
 
                                                                        Se denomina oración a la unidad de sentido y autonomía sintáctica
                                                                        (definición gramatical). En lógica se llama oración a la expresión
@@ -2481,10 +2226,15 @@ documentos legales                                                              
                                                                                —        trisílabas: cántico, dirección (tres sílabas).
                                                                                —        polisílabas: cafetera, dígamelo (cuatro o más sílabas).
 
-
 ## 2.8.1 Reglas de la ortografía acentual
 
-                                                      Se puede definir a       Las palabras se clasifican según la posición que dentro de ella ocupa
+**Definición Canónica:** Se puede definir a       Las palabras se clasifican según la posición que dentro de ella ocupa
+                                                                               el acento prosódico, es decir, dependiendo de la sílaba tónica (donde
+                                                      la ortografía como       recae la mayor fuerza de la pronunciación) en que se sitúe el acento.
+                                                      el uso correcto          Si es en la última, penúltima, antepenúltima o ante-antepenúltima,
+                                                      de las 
+
+Se puede definir a       Las palabras se clasifican según la posición que dentro de ella ocupa
                                                                                el acento prosódico, es decir, dependiendo de la sílaba tónica (donde
                                                       la ortografía como       recae la mayor fuerza de la pronunciación) en que se sitúe el acento.
                                                       el uso correcto          Si es en la última, penúltima, antepenúltima o ante-antepenúltima,
@@ -2592,10 +2342,12 @@ documentos legales                                                normativos en 
                                                                  Aun: no se acentúa cuando puede sustituirse por “hasta”,“incluso” o
                                                                       “siquiera”. Ej. Nadie sabe la fecha del examen, ni aun el profesor.
 
-
 ## 2.8.1.1 Otras reglas de acentuación ortográfica
 
-                                                                 Cuando el acento prosódico recae en la vocal débil del diptongo, esa
+**Definición Canónica:** Cuando el acento prosódico recae en la vocal débil del diptongo, esa
+                                                                 vocal se acentuará ortográficamente. De esa manera se romperá el
+
+Cuando el acento prosódico recae en la vocal débil del diptongo, esa
                                                                  vocal se acentuará ortográficamente. De esa manera se romperá el
 
                                                                  diptongo y se hablará de hiato. Ej. país, maíz, etcétera.
@@ -2627,19 +2379,26 @@ documentos legales                                                normativos en 
 Redacción de                                                   2. Redacción: principios básicos y                                          66
 documentos legales                                                normativos en los textos judiciales
 
-
 ## 2.8.2 Principales reglas de la ortografía literal
 
-                                                                 Se entiende por letra la representación gráfica de un sonido. Las letras
+**Definición Canónica:** Se entiende por letra la representación gráfica de un sonido. Las letras
                                                                  se clasifican en vocales y consonantes y en mayúsculas y minúsculas.
                                                                  Nuestro alfabeto español consta de 28 letras. A continuación, revisa-
                                                                  remos algunas de sus normas principales.
 
+Se entiende por letra la representación gráfica de un sonido. Las letras
+                                                                 se clasifican en vocales y consonantes y en mayúsculas y minúsculas.
+                                                                 Nuestro alfabeto español consta de 28 letras. A continuación, revisa-
+                                                                 remos algunas de sus normas principales.
 
 ## 2.8.2.1        Uso de la letra b
 
+**Definición Canónica:** —         Después de una m: cambio, hombre, ambiguo, emboscada,
+                                                                           tumbar, temblor.
+                                                                 —         Los prefijos bi, bis, biz (cuando significa “dos”): bilabial, biz-
+                                                                           cocho, bistec, bicicleta.
 
-                                                                 —         Después de una m: cambio, hombre, ambiguo, emboscada,
+—         Después de una m: cambio, hombre, ambiguo, emboscada,
                                                                            tumbar, temblor.
                                                                  —         Los prefijos bi, bis, biz (cuando significa “dos”): bilabial, biz-
                                                                            cocho, bistec, bicicleta.
@@ -2672,11 +2431,16 @@ documentos legales                                                normativos en 
                                                                  —        Después de la sílaba ta cuando está al comienzo de la palabra:
                                                                           tabique, tabaco.
 
-
 ## 2.8.2.2 Uso de la letra v
 
+**Definición Canónica:** —        Palabras que principian con la sílaba ad y después de la sílaba
+                                                                          ol: advertencia, olvido.
+                                                                 —        Después de b, d y n: envío, adverbio, obvio, envidia, advertir.
+                                                                 —        Los adjetivos terminados en ava, ave, avo; eva, eve, evo; iva,
+                                                                          ivo: efusivo, festiva, onceavo, medioevo, comprensiva, llave,
+                 
 
-                                                                 —        Palabras que principian con la sílaba ad y después de la sílaba
+—        Palabras que principian con la sílaba ad y después de la sílaba
                                                                           ol: advertencia, olvido.
                                                                  —        Después de b, d y n: envío, adverbio, obvio, envidia, advertir.
                                                                  —        Los adjetivos terminados en ava, ave, avo; eva, eve, evo; iva,
@@ -2702,11 +2466,12 @@ documentos legales                                                normativos en 
                                                                  —        Después de las sílabas no y pa, cuando estas aparecen al co-
                                                                           mienzo de la palabra. Excepto: noble, pabellón, pabilo, pábulo.
 
-
 ## 2.8.2.3 Uso de la letra h
 
+**Definición Canónica:** —        En las palabras que comienzan con los diptongos ia, ie, ue,
+                                                                          ui: hiato.
 
-                                                                 —        En las palabras que comienzan con los diptongos ia, ie, ue,
+—        En las palabras que comienzan con los diptongos ia, ie, ue,
                                                                           ui: hiato.
 
 Redacción de                                                   2. Redacción: principios básicos y                                           68
@@ -2728,11 +2493,16 @@ documentos legales                                                normativos en 
                                                                           (de huevo), óseo (de hueso) y derivados.
                                                                  —        El adverbio de lugar he: he aquí, he allí.
 
-
 ## 2.8.2.4 Uso de la letra g
 
+**Definición Canónica:** —        Los verbos cuyos infinitivos terminan en gerar: aligerar.
+                                                                 —        Los verbos cuyos infinitivos terminan en ger y gir, como
+                                                                          surgir. Excepto: tejer, crujir.
+                                                                 —        La sílaba geo al comienzo o al final de una palabra: geólogo,
+                                                                          apogeo.
+                                                                 —        Las 
 
-                                                                 —        Los verbos cuyos infinitivos terminan en gerar: aligerar.
+—        Los verbos cuyos infinitivos terminan en gerar: aligerar.
                                                                  —        Los verbos cuyos infinitivos terminan en ger y gir, como
                                                                           surgir. Excepto: tejer, crujir.
                                                                  —        La sílaba geo al comienzo o al final de una palabra: geólogo,
@@ -2750,11 +2520,16 @@ documentos legales                                                normativos en 
 Redacción de                                                   2. Redacción: principios básicos y                                             69
 documentos legales                                                normativos en los textos judiciales
 
-
 ## 2.8.2.5 Uso de la letra j
 
+**Definición Canónica:** —        Después de las sílabas ad, ob, al comienzo de una palabra:
+                                                                          adjetivo, objeción.
+                                                                 —        Los verbos que terminan en jar y jear: arrojar, cojear, home-
+                                                                          najear, enrejar.
+                                                                 —        Las palabras que empiezan en aje y eje: ajeno, ejemplo, aje-
+                                                                          tr
 
-                                                                 —        Después de las sílabas ad, ob, al comienzo de una palabra:
+—        Después de las sílabas ad, ob, al comienzo de una palabra:
                                                                           adjetivo, objeción.
                                                                  —        Los verbos que terminan en jar y jear: arrojar, cojear, home-
                                                                           najear, enrejar.
@@ -2768,11 +2543,16 @@ documentos legales                                                normativos en 
                                                                           j: dije (decir), aduje (aducir).
                                                                  —        Las palabras derivadas de otra que lleva j: ajerezar (jerez).
 
-
 ## 2.8.2.6 Uso de las letras c y s
 
+**Definición Canónica:** —        Terminaciones acia, icia, icie, icio, ancia, encia, iencia y
+                                                                          cimiento. Excepto: hortensia, ansia, potasio, antonomasia,
+                                                                          gimnasio.
+                                                                 —        El plural de las palabras que terminan en z en singular: luces
+                                                                          (luz), audaces (audaz), feroces (feroz).
+                                                             
 
-                                                                 —        Terminaciones acia, icia, icie, icio, ancia, encia, iencia y
+—        Terminaciones acia, icia, icie, icio, ancia, encia, iencia y
                                                                           cimiento. Excepto: hortensia, ansia, potasio, antonomasia,
                                                                           gimnasio.
                                                                  —        El plural de las palabras que terminan en z en singular: luces
@@ -2799,11 +2579,14 @@ documentos legales                                                normativos en 
                                                                           de palabras terminadas en so, sor, siva o sible: impresión,
                                                                           admisión, extensión, comprensión, televisión.
 
-
 ## 2.8.2.7 Uso de la letra z
 
+**Definición Canónica:** —        Las terminaciones ez y eza de los sustantivos abstractos: vejez,
+                                                                          escasez, niñez, palidez, realeza.
+                                                                 —        La terminación azo y aza de los aumentativos: perrazo, bo-
+                                                                          tellazo, amigazo, manaza.
 
-                                                                 —        Las terminaciones ez y eza de los sustantivos abstractos: vejez,
+—        Las terminaciones ez y eza de los sustantivos abstractos: vejez,
                                                                           escasez, niñez, palidez, realeza.
                                                                  —        La terminación azo y aza de los aumentativos: perrazo, bo-
                                                                           tellazo, amigazo, manaza.
@@ -2822,11 +2605,16 @@ documentos legales                                                normativos en 
                                                                  —        Los adjetivos terminados en az u oz: capaz, veloz, atroz,
                                                                           audaz, feroz.
 
-
 ## 2.8.2.8 Uso de la rr y de la y
 
+**Definición Canónica:** —        Se escribe rr cuando el sonido fuerte va entre vocales: ama-
+                                                                          rran, barrer.
+                                                                 —        En el caso de palabras compuestas, si el sonido inicial de la
+                                                                          segunda palabra es fuerte, se duplica la r: grecorromano, virrey.
+                                                                 —        Después de consonante (s, n, b), la vibrante doble (rr) se es-
+                             
 
-                                                                 —        Se escribe rr cuando el sonido fuerte va entre vocales: ama-
+—        Se escribe rr cuando el sonido fuerte va entre vocales: ama-
                                                                           rran, barrer.
                                                                  —        En el caso de palabras compuestas, si el sonido inicial de la
                                                                           segunda palabra es fuerte, se duplica la r: grecorromano, virrey.
@@ -2842,10 +2630,12 @@ documentos legales                                                normativos en 
                                                                           contienen la sílaba yec: adyacente, disyuntiva, inyección,
                                                                           subyugada.
 
-
 ## 2.8.2.9 Palabras homófonas
 
-                                                                 Son aquellas palabras que se escriben de manera distinta, pero suenan
+**Definición Canónica:** Son aquellas palabras que se escriben de manera distinta, pero suenan
+                                                                 igual o tienen una pronunciación muy semejante.
+
+Son aquellas palabras que se escriben de manera distinta, pero suenan
                                                                  igual o tienen una pronunciación muy semejante.
 
                                                                  Palabras homófonas con b y v
@@ -2977,10 +2767,11 @@ documentos legales                                                normativos en 
 Redacción de                                                         2. Redacción: principios básicos y                                     75
 documentos legales                                                      normativos en los textos judiciales
 
-
 ## 2.9     Reglas para el uso de las letras
 
-                                                                       mayúsculas y minúsculas
+**Definición Canónica:** mayúsculas y minúsculas
+
+mayúsculas y minúsculas
 
                                                                        Mayúsculas
                                                                        —        Al iniciar un texto y después de un punto.
@@ -3030,10 +2821,11 @@ documentos legales                                                normativos en 
 Redacción de                                                     2. Redacción: principios básicos y                                               77
 documentos legales                                                  normativos en los textos judiciales
 
-
 ## 2.10     Signos
 
-                                                                        de puntuación
+**Definición Canónica:** de puntuación
+
+de puntuación
 
                                                                    El punto, en general, sirve para separar oraciones cuando las ideas
                                                                    que ellas contienen, si bien relacionadas, no lo están de modo in-
@@ -3169,10 +2961,11 @@ documentos legales                                                normativos en 
 Redacción de                                                                                2. Redacción: principios básicos y                                           81
 documentos legales                                                                             normativos en los textos judiciales
 
-
 ## 2.11               La redacción
 
-                                                                                                   en el mundo del derecho
+**Definición Canónica:** en el mundo del derecho
+
+en el mundo del derecho
 
                                                                                               Se llama redacción jurídica al conjunto de escritos que presentan
                                                                                               los abogados utilizando la terminología adecuada. Estos escritos
@@ -3291,10 +3084,11 @@ documentos legales                                                              
                                                                                             ro, inclusivo y no discriminatorio en las resoluciones judiciales; la
                                                                                             necesidad de que la administración de justicia adapte su lenguaje
 
-
 ## 17       ARÁNGUIZ ZÚÑIGA, Carlos et al. (2019): Propuesta Manual de estilo para redacción de sentencias; Poder
 
-                                                               Judicial de la República de Chile, Comisión Lenguaje Claro.
+**Definición Canónica:** Judicial de la República de Chile, Comisión Lenguaje Claro.
+
+Judicial de la República de Chile, Comisión Lenguaje Claro.
 
 Redacción de                                                   2. Redacción: principios básicos y                                       84
 documentos legales                                                normativos en los textos judiciales
@@ -3346,7 +3140,13 @@ documentos legales                                                normativos en 
 
 ## 16 Recomendaciones sobre Lenguaje Claro que tuvieron por objeto
 
-                                                                 actualizar el lenguaje de las resoluciones judiciales para hacerlas más
+**Definición Canónica:** actualizar el lenguaje de las resoluciones judiciales para hacerlas más
+                                                                 claras para los ciudadanos. En la reunión, el grupo destacó la relevante
+                                                                 participación de Paraguay en la incorporación de elementos sobre
+                                                                 un lenguaje inclusivo y no sexista. Se destacó también la necesidad
+                                                                 de ajustes para evitar el lenguaje discriminatorio o excluyent
+
+actualizar el lenguaje de las resoluciones judiciales para hacerlas más
                                                                  claras para los ciudadanos. En la reunión, el grupo destacó la relevante
                                                                  participación de Paraguay en la incorporación de elementos sobre
                                                                  un lenguaje inclusivo y no sexista. Se destacó también la necesidad
@@ -3378,13 +3178,19 @@ documentos legales                                                normativos en 
 
 ## 62. Aprobamos, con la redacción definitiva que se incorpora
 
-                                                                     como Anexo 13 de esta declaración, la guía sobre lenguaje claro
+**Definición Canónica:** como Anexo 13 de esta declaración, la guía sobre lenguaje claro
+                                                                     y accesible presentada por el grupo de trabajo cuya coordinación
+                                                                     estuvo a cargo de España y Chile;
+
+como Anexo 13 de esta declaración, la guía sobre lenguaje claro
                                                                      y accesible presentada por el grupo de trabajo cuya coordinación
                                                                      estuvo a cargo de España y Chile;
 
 ## 63. Afirmamos que la legitimidad de la judicatura está ligada a la
 
-                                                                     calidad y claridad de las resoluciones judiciales, y que ello consti-
+**Definición Canónica:** calidad y claridad de las resoluciones judiciales, y que ello consti-
+
+calidad y claridad de las resoluciones judiciales, y que ello consti-
 
 Redacción de                                                   2. Redacción: principios básicos y                                        86
 documentos legales                                                normativos en los textos judiciales
@@ -3396,7 +3202,14 @@ documentos legales                                                normativos en 
 
 ## 64. Entendemos que la elaboración y aprobación de un Dicciona-
 
-                                                                      rio Jurídico Panhispánico o Panamericano se constituirá en una
+**Definición Canónica:** rio Jurídico Panhispánico o Panamericano se constituirá en una
+                                                                      obra de suma importancia en la unificación del léxico jurídico
+                                                                      del orbe Iberoamericano; y creemos que en dicho diccionario,
+                                                                      sujeto en su redacción a las reglas de lexicografía, todos los países
+                                                                      de habla hispana de Iberoamérica han de encontrar la expresión
+
+
+rio Jurídico Panhispánico o Panamericano se constituirá en una
                                                                       obra de suma importancia en la unificación del léxico jurídico
                                                                       del orbe Iberoamericano; y creemos que en dicho diccionario,
                                                                       sujeto en su redacción a las reglas de lexicografía, todos los países
@@ -3405,8 +3218,10 @@ documentos legales                                                normativos en 
 
 ## 65. Exhortamos, por tanto, a los Poderes Judiciales de la Cumbre
 
+**Definición Canónica:** Judicial Iberoamericana a unirse a esta gran empresa y participar
+                                                                      activamente de los trabajos que se efectúen con tal fin.
 
-                                                                      Judicial Iberoamericana a unirse a esta gran empresa y participar
+Judicial Iberoamericana a unirse a esta gran empresa y participar
                                                                       activamente de los trabajos que se efectúen con tal fin.
 
                                                                  La Corte Suprema de Chile, representada por su presidente, ministro
@@ -3420,10 +3235,11 @@ documentos legales                                                normativos en 
 Redacción de                                                      2. Redacción: principios básicos y                                        87
 documentos legales                                                   normativos en los textos judiciales
 
-
 ## 2.12      Ejemplos asociados a la materia judicial y
 
-                                                                         ejercicios de aplicación de conocimientos
+**Definición Canónica:** ejercicios de aplicación de conocimientos
+
+ejercicios de aplicación de conocimientos
 
                                                                     a. La Comisión Lenguaje Claro del Poder Judicial de la República
                                                                        de Chile señala una serie de recomendaciones de estilo (2019;
@@ -3432,7 +3248,10 @@ documentos legales                                                   normativos 
 
 ## 12. Enumeración de los considerandos con números o
 
-                                                                                  con letras (se sugiere números escritos con cifras). Entre
+**Definición Canónica:** con letras (se sugiere números escritos con cifras). Entre
+                                                                                  Vistos o Visto, sugiere Vistos. Sobre la función o utilidad
+
+con letras (se sugiere números escritos con cifras). Entre
                                                                                   Vistos o Visto, sugiere Vistos. Sobre la función o utilidad
 
                                                                                   del “que”, señala que se debe omitir cuando no sea nece-
@@ -3559,22 +3378,23 @@ documentos legales                                                lingüística 
 Redacción de                                                         3. Las formas de la expresión                                             92
 documentos legales                                                      lingüística en el discurso
 
-
-## 3.1     La descripción
-
-
-
 ## 3.1.1 Concepto
 
-                                                                       El concepto es la representación de los rasgos característicos de algo
+**Definición Canónica:** El concepto es la representación de los rasgos característicos de algo
                                                                        –seres, objetos, lugares, o fenómenos de un mundo real o ficticio–
                                                                        para que el receptor lo capte. Es un dibujo hecho de palabras y puede
                                                                        referirse a una persona, un animal, un lugar o una cosa.
 
+El concepto es la representación de los rasgos característicos de algo
+                                                                       –seres, objetos, lugares, o fenómenos de un mundo real o ficticio–
+                                                                       para que el receptor lo capte. Es un dibujo hecho de palabras y puede
+                                                                       referirse a una persona, un animal, un lugar o una cosa.
 
 ## 3.1.2 Clasificación
 
-                                                                       La clasificación de una descripción abarca las siguientes categorías:
+**Definición Canónica:** La clasificación de una descripción abarca las siguientes categorías:
+
+La clasificación de una descripción abarca las siguientes categorías:
 
                                                                        —        Según el objetivo o la actitud del emisor ante lo que describe,
                                                                                 una descripción puede ser técnica o científica (objetiva) y
@@ -3609,11 +3429,16 @@ documentos legales                                                lingüística 
                                                                  que podemos hacer de hechos que están ocurriendo en el mismo
                                                                  momento en que se describen.
 
-
 ## 3.1.3 Características
 
+**Definición Canónica:** —        Tiene una organización jerarquizada, lo que implica un orden
+                                                                          de prelación entre las ideas.
+                                                                 —        Posee palabras clave o núcleo a las que se aplican uno o varios
+                                                                          predicados.
+                                                                 —        Presenta una temática lineal.
+                                                                 —        Ausencia de temporalidad
 
-                                                                 —        Tiene una organización jerarquizada, lo que implica un orden
+—        Tiene una organización jerarquizada, lo que implica un orden
                                                                           de prelación entre las ideas.
                                                                  —        Posee palabras clave o núcleo a las que se aplican uno o varios
                                                                           predicados.
@@ -3629,10 +3454,16 @@ documentos legales                                                lingüística 
                                                                  —        Uso de comparaciones y metáforas, específicamente en la
                                                                           descripción estética o literaria.
 
-
 ## 3.1.4 Procedimientos
 
-                                                                 Para hacer una descripción se necesita, en primer término:
+**Definición Canónica:** Para hacer una descripción se necesita, en primer término:
+                                                                 —        Escoger los rasgos principales y en preferencia los detalles
+                                                                          más concretos.
+                                                                 —        Calificar o determinar los rasgos escogidos con adjetivos y
+                                                                          comparaciones que reproduzcan en la mente del lector la
+                                                     
+
+Para hacer una descripción se necesita, en primer término:
                                                                  —        Escoger los rasgos principales y en preferencia los detalles
                                                                           más concretos.
                                                                  —        Calificar o determinar los rasgos escogidos con adjetivos y
@@ -3651,10 +3482,14 @@ documentos legales                                                              
                                                                                                Los tiempos de la descripción son la observación del objeto, la selec-
                                                                                                ción de los aspectos más significativos y la presentación del escrito.
 
-
 ## 3.1.5 Aplicación en el derecho
 
-                                                                                               En los escritos jurídicos que emplean la descripción, se debe privile-
+**Definición Canónica:** En los escritos jurídicos que emplean la descripción, se debe privile-
+                                                                                               giar la objetividad y combinar la prosopografía con la etopeya cuando
+                                                                                               la realidad que se está describiendo lo amerite; también matizar el
+                                                                                               uso de descripciones estáticas y dinámicas.
+
+En los escritos jurídicos que emplean la descripción, se debe privile-
                                                                                                giar la objetividad y combinar la prosopografía con la etopeya cuando
                                                                                                la realidad que se está describiendo lo amerite; también matizar el
                                                                                                uso de descripciones estáticas y dinámicas.
@@ -3684,24 +3519,25 @@ documentos legales                                                              
 Redacción de                                                         3. Las formas de la expresión                                            95
 documentos legales                                                      lingüística en el discurso
 
-
-## 3.2     La narración
-
-
-
 ## 3.2.1 Concepto
 
-                                                                       La narración es el relato de uno o varios sucesos y en ella los hechos
+**Definición Canónica:** La narración es el relato de uno o varios sucesos y en ella los hechos
+                                                                       se ordenan para que adquieran un nuevo significado. El orden pue-
+                                                                       de ser cronológico (se presentan hechos siguiendo la secuencia en
+                                                                       que ocurrieron) o climático (se presentan los hechos de manera que
+                                                                       recreen la atmósfera que el autor desea: suspe
+
+La narración es el relato de uno o varios sucesos y en ella los hechos
                                                                        se ordenan para que adquieran un nuevo significado. El orden pue-
                                                                        de ser cronológico (se presentan hechos siguiendo la secuencia en
                                                                        que ocurrieron) o climático (se presentan los hechos de manera que
                                                                        recreen la atmósfera que el autor desea: suspenso, terror, etcétera).
 
-
 ## 3.2.2 Clasificación
 
+**Definición Canónica:** Otra manera de clasificar la narración considera las siguientes variantes:
 
-                                                                      Otra manera de clasificar la narración considera las siguientes variantes:
+Otra manera de clasificar la narración considera las siguientes variantes:
 
 Redacción de                                                           3. Las formas de la expresión                                             96
 documentos legales                                                        lingüística en el discurso
@@ -3775,10 +3611,16 @@ documentos legales                                                lingüística 
                                                                      —        Terminar sin concluir rotundamente: una buena narración
                                                                               no debe tener un final definitivo, seco o matemático.
 
-
 ## 3.2.5 Fundamentos de la claridad y el
 
-                                                                 orden en la narración jurídica
+**Definición Canónica:** orden en la narración jurídica
+                                                                 Según la profesora Cristina Carretero (2015), la claridad y el orden
+                                                                 en la narración jurídica están en la esencia de la correcta redacción
+                                                                 comprensible. Esta redacción constituye tanto una reivindicación
+                                                                 ciudadana, como uno de los puntales de la adopción de políticas pú-
+                                     
+
+orden en la narración jurídica
                                                                  Según la profesora Cristina Carretero (2015), la claridad y el orden
                                                                  en la narración jurídica están en la esencia de la correcta redacción
                                                                  comprensible. Esta redacción constituye tanto una reivindicación
@@ -3804,11 +3646,14 @@ documentos legales                                                             l
                                                                               jora de la calidad documental. En ellas, la claridad ha ostentado un
                                                                               papel protagonista.
 
-
 ## 3.2.6 Función general de la narrativa jurídica
 
+**Definición Canónica:** La narración aquí tiene una función primordial: el relato de hechos
+                                                                              con trascendencia jurídica. Estos hechos, que pueden no tener que
+                                                                              trascender en modo alguno más allá de sus propios contenidos, cuan-
+                                                                              do pasan al ámbito jurídico se encuentran en el marco de un proceso.
 
-                                                                              La narración aquí tiene una función primordial: el relato de hechos
+La narración aquí tiene una función primordial: el relato de hechos
                                                                               con trascendencia jurídica. Estos hechos, que pueden no tener que
                                                                               trascender en modo alguno más allá de sus propios contenidos, cuan-
                                                                               do pasan al ámbito jurídico se encuentran en el marco de un proceso.
@@ -3851,10 +3696,15 @@ documentos legales                                                lingüística 
                                                                  todo caso, no se debe inferir en lo absoluto que el lenguaje utilizado
                                                                  deba ser coloquial o descuidado.
 
-
 ## 3.2.8 Los párrafos
 
-                                                                 El párrafo, que se caracteriza por la unidad temática y su delimita-
+**Definición Canónica:** El párrafo, que se caracteriza por la unidad temática y su delimita-
+                                                                 ción –con punto aparte– respecto a otros párrafos, sirve para dividir
+                                                                 los textos en unidades que han de resultar coherentes. El orden y la
+                                                                 claridad de estos párrafos narrativos están estrechamente ligados a
+                                                                 una comprensión sin dificultades.
+
+El párrafo, que se caracteriza por la unidad temática y su delimita-
                                                                  ción –con punto aparte– respecto a otros párrafos, sirve para dividir
                                                                  los textos en unidades que han de resultar coherentes. El orden y la
                                                                  claridad de estos párrafos narrativos están estrechamente ligados a
@@ -3871,10 +3721,14 @@ documentos legales                                                lingüística 
                                                                           esencial para señalar qué estamos narrando y en qué orden
                                                                           lo hacemos.
 
-
 ## 3.2.9 Las oraciones
 
-                                                                 De ellas depende igualmente, de una manera significativa, la claridad
+**Definición Canónica:** De ellas depende igualmente, de una manera significativa, la claridad
+                                                                 de la narración. Las oraciones son las unidades comunicativas con
+                                                                 sentido completo que aparecen entre los puntos de los textos (entre
+                                                                 las pausas, en lenguaje verbal).
+
+De ellas depende igualmente, de una manera significativa, la claridad
                                                                  de la narración. Las oraciones son las unidades comunicativas con
                                                                  sentido completo que aparecen entre los puntos de los textos (entre
                                                                  las pausas, en lenguaje verbal).
@@ -3947,14 +3801,15 @@ documentos legales                                                            li
 Redacción de                                                         3. Las formas de la expresión                                         102
 documentos legales                                                      lingüística en el discurso
 
-
-## 3.3     La argumentación
-
-
-
 ## 3.3.1 Concepto
 
-                                                                       La argumentación es un razonamiento que persigue la aceptación
+**Definición Canónica:** La argumentación es un razonamiento que persigue la aceptación
+                                                                       o el rechazo de una tesis propuesta. Se compone de dos partes: la
+                                                                       tesis propiamente tal y los datos que la sustentan. La tesis es la con-
+                                                                       clusión del razonamiento, los datos son las premisas de este y en la
+                                                                       argumentación se emplean fundamentalmente verb
+
+La argumentación es un razonamiento que persigue la aceptación
                                                                        o el rechazo de una tesis propuesta. Se compone de dos partes: la
                                                                        tesis propiamente tal y los datos que la sustentan. La tesis es la con-
                                                                        clusión del razonamiento, los datos son las premisas de este y en la
@@ -3983,10 +3838,14 @@ documentos legales                                                      lingüí
                                                                        audiencia, que es la persona o grupo de personas que actúa como
                                                                        receptor del argumento.
 
-
 ## 3.3.2 Finalidad de la argumentación
 
-                                                                       Argumentar bien es de gran importancia, porque constituye una
+**Definición Canónica:** Argumentar bien es de gran importancia, porque constituye una
+                                                                       manera de informar acerca de qué afirmaciones o decisiones son
+                                                                       mejores que otras, así como qué conclusiones pueden apoyarse en
+                                                                       buenas razones, en relación a otras que tienen un sustento más débil.
+
+Argumentar bien es de gran importancia, porque constituye una
                                                                        manera de informar acerca de qué afirmaciones o decisiones son
                                                                        mejores que otras, así como qué conclusiones pueden apoyarse en
                                                                        buenas razones, en relación a otras que tienen un sustento más débil.
@@ -3997,18 +3856,26 @@ documentos legales            lingüística en el discurso
                              Argumentar implica también defender una idea o una opinión, apor-
                              tando un conjunto de razones que justifiquen una postura.
 
-
 ## 3.3.3 Mapa conceptual de la argumentación
 
+**Definición Canónica:** ←   Índice de contenidos
+Redacción de                                                   3. Las formas de la expresión                                          104
+documentos legales                                                lingüística en el discurso
 
 ←   Índice de contenidos
 Redacción de                                                   3. Las formas de la expresión                                          104
 documentos legales                                                lingüística en el discurso
 
-
 ## 3.3.4 Requisitos de la argumentación
 
-                                                                 Para argumentar bien, es necesario:
+**Definición Canónica:** Para argumentar bien, es necesario:
+                                                                 —        Señalar con claridad la diferencia entre lo que está probado
+                                                                          y lo que falta por probar.
+                                                                 —        Precisar el significado de los conceptos, a fin de evitar las
+                                                                          falacias.
+                                                                 —        Diferenciar entre opiniones y hech
+
+Para argumentar bien, es necesario:
                                                                  —        Señalar con claridad la diferencia entre lo que está probado
                                                                           y lo que falta por probar.
                                                                  —        Precisar el significado de los conceptos, a fin de evitar las
@@ -4023,10 +3890,16 @@ documentos legales                                                lingüística 
                                                                  —        Domina el tema y lo presenta con una estructura lógico-gra-
                                                                           matical adecuada a las circunstancias.
 
-
 ## 3.3.5 Etapas de la argumentación
 
-                                                                 En la etapa de desarrollo del discurso, cobra significativa importancia
+**Definición Canónica:** En la etapa de desarrollo del discurso, cobra significativa importancia
+                                                                 saber argumentar. Toda argumentación implica defender una idea
+                                                                 o una opinión, entregando razones de los hechos y del derecho que
+                                                                 justifican la posición asumida, pero también implica poseer la capa-
+                                                                 cidad de influir o convencer al receptor o los receptores, utilizando
+
+
+En la etapa de desarrollo del discurso, cobra significativa importancia
                                                                  saber argumentar. Toda argumentación implica defender una idea
                                                                  o una opinión, entregando razones de los hechos y del derecho que
                                                                  justifican la posición asumida, pero también implica poseer la capa-
@@ -4049,10 +3922,16 @@ documentos legales                                                lingüística 
                                                                  hacia el primero de estos propósitos, es decir, a convencer a través
                                                                  de un discurso lógico, formal y racional.
 
-
 ## 3.3.6 Elementos de la argumentación
 
-                                                                 La argumentación jurídica se compone de los siguientes elementos:
+**Definición Canónica:** La argumentación jurídica se compone de los siguientes elementos:
+                                                                 —        El objeto de la argumentación, que es el problema o fenóme-
+                                                                          no jurídico sobre el que se argumenta. Por ejemplo, sobre la
+                                                                          eficacia de la ley de violencia intrafamiliar.
+                                                                 —        La tesis inicial, que manifiesta la posición que el sujeto que
+       
+
+La argumentación jurídica se compone de los siguientes elementos:
                                                                  —        El objeto de la argumentación, que es el problema o fenóme-
                                                                           no jurídico sobre el que se argumenta. Por ejemplo, sobre la
                                                                           eficacia de la ley de violencia intrafamiliar.
@@ -4087,10 +3966,14 @@ documentos legales                                                lingüística 
 Redacción de                                                   3. Las formas de la expresión                                         106
 documentos legales                                                lingüística en el discurso
 
-
 ## 3.3.7 Concepto de argumentación jurídica
 
-                                                                 Por argumentación jurídica ha de entenderse aquel tipo de razona-
+**Definición Canónica:** Por argumentación jurídica ha de entenderse aquel tipo de razona-
+                                                                 miento que se formula en alguno de los niveles en que se utilizan
+                                                                 normas del derecho y en los cuales sea necesario convencer. (Bergalli,
+                                                                 1999; p. 389)
+
+Por argumentación jurídica ha de entenderse aquel tipo de razona-
                                                                  miento que se formula en alguno de los niveles en que se utilizan
                                                                  normas del derecho y en los cuales sea necesario convencer. (Bergalli,
                                                                  1999; p. 389)
@@ -4149,10 +4032,16 @@ documentos legales                                                lingüística 
                                                                  posiciones, las premisas; éstas se afirman como las razones o funda-
                                                                  mentos para aceptar las conclusiones. (Copi, Irving M.;1974; pp.18-19).
 
-
 ## 3.3.8 El abogado y el empleo de la
 
-                                                                 argumentación jurídica
+**Definición Canónica:** argumentación jurídica
+                                                                     “En el ámbito profesional se debe entender que estamos frente
+                                                                     a un mundo competitivo, en que el acceso al conocimiento y la
+                                                                     información es una forma de poder determinante en la sociedad.
+                                                                     Un profesional operador del derecho, acostumbrado a sus activi-
+                                                  
+
+argumentación jurídica
                                                                      “En el ámbito profesional se debe entender que estamos frente
                                                                      a un mundo competitivo, en que el acceso al conocimiento y la
                                                                      información es una forma de poder determinante en la sociedad.
@@ -4178,10 +4067,11 @@ documentos legales                                                lingüística 
 Redacción de                                                   3. Las formas de la expresión                                         108
 documentos legales                                                lingüística en el discurso
 
-
 ## parte para comprender mejor, permite generar mejores alternativas
 
-                                                                 a los acuerdos negociados.
+**Definición Canónica:** a los acuerdos negociados.
+
+a los acuerdos negociados.
 
                                                                  El debate es controversial cuando se centra sobre un problema que
                                                                  tiene significativa importancia en el ámbito jurídico y en el cual se
@@ -4275,41 +4165,45 @@ documentos legales                                                lingüística 
 Redacción de                                                         3. Las formas de la expresión                                        111
 documentos legales                                                      lingüística en el discurso
 
-
-## 3.4     La exposición
-
-
-
 ## 3.4.1 Concepto
 
-                                                                       La exposición es la forma lingüística que anuncia hechos e ideas.
+**Definición Canónica:** La exposición es la forma lingüística que anuncia hechos e ideas.
+                                                                       Su propósito consiste en informar acerca de un objeto, un aconte-
+                                                                       cimiento o una idea. Por ello, la comunicación expositiva se dirige al
+                                                                       intelecto de las personas y no a las emociones, como sí sucede con
+                                                                       la descripción, la narración o la argumentació
+
+La exposición es la forma lingüística que anuncia hechos e ideas.
                                                                        Su propósito consiste en informar acerca de un objeto, un aconte-
                                                                        cimiento o una idea. Por ello, la comunicación expositiva se dirige al
                                                                        intelecto de las personas y no a las emociones, como sí sucede con
                                                                        la descripción, la narración o la argumentación.
 
-
-## 3.4.2 Mapa conceptual del texto expositivo
-
-
-
 ## 3.4.3 Estructura del texto expositivo
 
-
-Redacción de                                                   3. Las formas de la expresión                    112
+**Definición Canónica:** Redacción de                                                   3. Las formas de la expresión                    112
 documentos legales                                                lingüística en el discurso
 
+Redacción de                                                   3. Las formas de la expresión                    112
+documentos legales                                                lingüística en el discurso
 
 ## 3.4.4 Síntesis integral del texto expositivo
 
-
-Redacción de                                                   3. Las formas de la expresión                                             113
+**Definición Canónica:** Redacción de                                                   3. Las formas de la expresión                                             113
 documentos legales                                                lingüística en el discurso
 
+Redacción de                                                   3. Las formas de la expresión                                             113
+documentos legales                                                lingüística en el discurso
 
 ## 3.4.5 Definición
 
-                                                                 Comprender un concepto es saber explicarlo correctamente sin ne-
+**Definición Canónica:** Comprender un concepto es saber explicarlo correctamente sin ne-
+                                                                 cesidad de conocer todos los objetos y situaciones en los cuales puede
+                                                                 presentarse. Para comprender un concepto, entonces, es necesario
+                                                                 conocer su significado. Y explicar el significado de las palabras es
+                                                                 definirlas. La definición puede ser denotativa o connotativa.
+
+Comprender un concepto es saber explicarlo correctamente sin ne-
                                                                  cesidad de conocer todos los objetos y situaciones en los cuales puede
                                                                  presentarse. Para comprender un concepto, entonces, es necesario
                                                                  conocer su significado. Y explicar el significado de las palabras es
@@ -4322,13 +4216,12 @@ documentos legales                                                lingüística 
                                                                  Connotativa: es la intención del término, esto es, las propiedades
                                                                  comunes a todos los objetos comprendidos en la extensión.
 
-
-## 3.4.6 Análisis
-
-
 ## 3.4.6.1 Concepto
 
-                                                                 Analizar es descomponer un todo en sus partes. Se basa en la clasi-
+**Definición Canónica:** Analizar es descomponer un todo en sus partes. Se basa en la clasi-
+                                                                 ficación y la división.
+
+Analizar es descomponer un todo en sus partes. Se basa en la clasi-
                                                                  ficación y la división.
 
                                                                      “Observación de un objeto en sus características, separando sus
@@ -4341,38 +4234,39 @@ documentos legales                                                lingüística 
 Redacción de                                                   3. Las formas de la expresión                                           114
 documentos legales                                                lingüística en el discurso
 
-
 ## 3.4.6.2 Objetivos del análisis
 
-
-                                                                 —        Fijar con precisión lo que el texto dice, es decir, su fondo (el
+**Definición Canónica:** —        Fijar con precisión lo que el texto dice, es decir, su fondo (el
                                                                           contenido de los pensamientos, sentimientos, ideas, etcétera,
                                                                           que hay en la obra).
                                                                  —        Dar razón de cómo lo dice, es decir, considerar la forma
                                                                           (palabras y giros sintácticos como se manifiesta el lenguaje).
 
+—        Fijar con precisión lo que el texto dice, es decir, su fondo (el
+                                                                          contenido de los pensamientos, sentimientos, ideas, etcétera,
+                                                                          que hay en la obra).
+                                                                 —        Dar razón de cómo lo dice, es decir, considerar la forma
+                                                                          (palabras y giros sintácticos como se manifiesta el lenguaje).
 
 ## 3.4.6.3 Clases y finalidades del análisis como técnica de
 
-                                                                         estudio
+**Definición Canónica:** estudio
+
+estudio
 
 Redacción de                                                   3. Las formas de la expresión                                          115
 documentos legales                                                lingüística en el discurso
 
-
-## 3.4.6.4 Procedimientos para realizar un análisis
-
-
-
-## 3.4.7 Clasificación
-
-                                                                 Corresponde a la distribución de los objetos según sus semejanzas
-                                                                 y diferencias, de acuerdo a un común denominador.
-
-
 ## 3.4.8 Resumen
 
-                                                                 Consiste en reducir un texto y para ello se siguen cuatro pasos:
+**Definición Canónica:** Consiste en reducir un texto y para ello se siguen cuatro pasos:
+                                                                 a. Leer: conocer el material antes de trabajarlo.
+                                                                 b. Seleccionar: separar lo principal de lo secundario.
+                                                                 c. Escribir: relacionar todos los datos principales y redactarlos.
+                                                                 d. Comparar: confirmar que el nuevo texto incluya la esencia del
+                                      
+
+Consiste en reducir un texto y para ello se siguen cuatro pasos:
                                                                  a. Leer: conocer el material antes de trabajarlo.
                                                                  b. Seleccionar: separar lo principal de lo secundario.
                                                                  c. Escribir: relacionar todos los datos principales y redactarlos.
@@ -4380,10 +4274,13 @@ documentos legales                                                lingüística 
                                                                     original, que no se haya incluido alguna idea ajena al mismo y
                                                                     que sea mucho más breve.
 
-
 ## 3.4.9 División
 
-                                                                 Consiste en la fragmentación gradual de un todo en sus partes y
+**Definición Canónica:** Consiste en la fragmentación gradual de un todo en sus partes y
+                                                                 para que estas sean útiles a la clasificación y la división, deben ser
+                                                                 consistentes y completas.
+
+Consiste en la fragmentación gradual de un todo en sus partes y
                                                                  para que estas sean útiles a la clasificación y la división, deben ser
                                                                  consistentes y completas.
 
@@ -4394,10 +4291,11 @@ documentos legales                                                lingüística 
 Redacción de                                                         3. Las formas de la expresión                                         116
 documentos legales                                                      lingüística en el discurso
 
-
 ## 3.5     Las formas de la expresión
 
-                                                                       lingüística y el derecho
+**Definición Canónica:** lingüística y el derecho
+
+lingüística y el derecho
 
                                                                        La expresión oral y la expresión escrita son factores determinantes
                                                                        en el derecho, tanto en el proceso de formación del abogado como
@@ -4447,20 +4345,25 @@ documentos legales                                                lingüística 
                                         El informe
 Redacción de                                                         4. El Informe                                                           119
 
-
 ## 4.1     Definición
 
-
-                                                                       Según Arquímedes Román (1986; p. 25), “el informe es un escrito
+**Definición Canónica:** Según Arquímedes Román (1986; p. 25), “el informe es un escrito
                                                                        destinado a ser utilizado por más de un lector, preparado general-
                                                                        mente a requerimiento, elaborado conforme a un plan y destinado
                                                                        a permitir la comprensión de situaciones complejas y la toma de
                                                                        decisiones sobre ellas”.
 
+Según Arquímedes Román (1986; p. 25), “el informe es un escrito
+                                                                       destinado a ser utilizado por más de un lector, preparado general-
+                                                                       mente a requerimiento, elaborado conforme a un plan y destinado
+                                                                       a permitir la comprensión de situaciones complejas y la toma de
+                                                                       decisiones sobre ellas”.
 
 ## 4.1.1 Características
 
-                                                                       En un informe se pueden apreciar los siguientes rasgos:
+**Definición Canónica:** En un informe se pueden apreciar los siguientes rasgos:
+
+En un informe se pueden apreciar los siguientes rasgos:
 
                                                                        —        Es un documento escrito.
                                                                        —        Se describe un problema y su solución.
@@ -4472,13 +4375,15 @@ documentos legales                                                lingüística 
                                                                        —        Facilita la comprensión de una situación compleja para la
                                                                                 toma de decisiones.
 
-
-## 4.1.2 Tipos de informe
-
-
 ## 4.1.2.1 Clasificación funcional
 
-                                                                       Atiende la manera como presentan y analizan la información que
+**Definición Canónica:** Atiende la manera como presentan y analizan la información que
+                                                                       contienen y pueden ser los siguientes:
+                                                                       —        Informes comunicativos: presentan un conjunto de datos, debida-
+                                                                                mente agrupados, conforme a la naturaleza de la materia, pero
+                                                                                sin que el autor añada interpretaciones o señale conclusiones
+
+Atiende la manera como presentan y analizan la información que
                                                                        contienen y pueden ser los siguientes:
                                                                        —        Informes comunicativos: presentan un conjunto de datos, debida-
                                                                                 mente agrupados, conforme a la naturaleza de la materia, pero
@@ -4506,11 +4411,15 @@ documentos legales                                                lingüística 
                                                                           recomendaciones. El redactor se identifica con la situación
                                                                           analizada y con las vías de acción.
 
-
 ## 4.1.2.2 Clasificación según finalidad
 
+**Definición Canónica:** —        Informes operacionales: son aquellos que se relacionan con la
+                                                                          dirección, coordinación y control de las operaciones normales
+                                                                          de una organización. Se refieren a la marcha cotidiana de las
+                                                                          actividades y contribuyen a la adecuada toma de decisiones.
+                                                                          Ejemplo de estas comunicaciones son los informes 
 
-                                                                 —        Informes operacionales: son aquellos que se relacionan con la
+—        Informes operacionales: son aquellos que se relacionan con la
                                                                           dirección, coordinación y control de las operaciones normales
                                                                           de una organización. Se refieren a la marcha cotidiana de las
                                                                           actividades y contribuyen a la adecuada toma de decisiones.
@@ -4526,11 +4435,15 @@ documentos legales                                                lingüística 
                                                                           Ejemplo de este tipo de informe es aquel que señala la mo-
                                                                           dificación de las líneas de producción.
 
-
 ## 4.1.2.3 Clasificación según grado de formalidad
 
+**Definición Canónica:** —        Informes formales: dirigidos hacia el exterior de la organización
+                                                                          donde se elaboran, su autoría suele identificarse más con la
+                                                                          organización que con una o más personas en particular. Son
+                                                                          informes acabados, es decir, presentan resultados finales de
+                                                                          un análisis, investigación o actividad. Los dato
 
-                                                                 —        Informes formales: dirigidos hacia el exterior de la organización
+—        Informes formales: dirigidos hacia el exterior de la organización
                                                                           donde se elaboran, su autoría suele identificarse más con la
                                                                           organización que con una o más personas en particular. Son
                                                                           informes acabados, es decir, presentan resultados finales de
@@ -4550,10 +4463,16 @@ documentos legales                                                lingüística 
                                                                           gencias formales y suelen ser breves, con una presentación
                                                                           relativamente sencilla.
 
-
 ## 4.1.2.4 El informe de investigación
 
-                                                                 El informe de investigación expone el conjunto de ideas y actividades
+**Definición Canónica:** El informe de investigación expone el conjunto de ideas y actividades
+                                                                 desarrolladas por el investigador en torno a un problema determinado.
+                                                                 Los elementos que lo constituyen son los siguientes:
+                                                                 —        el problema que es objeto del conocimiento
+                                                                 —        el diseño del estudio
+                                                                
+
+El informe de investigación expone el conjunto de ideas y actividades
                                                                  desarrolladas por el investigador en torno a un problema determinado.
                                                                  Los elementos que lo constituyen son los siguientes:
                                                                  —        el problema que es objeto del conocimiento
@@ -4570,10 +4489,13 @@ documentos legales                                                lingüística 
                                                                  científico, que comunica datos e informaciones que permiten una
                                                                  toma de decisiones adecuadas.
 
-
 ## 4.1.3 Estructuras de un informe
 
-                                                                 Si se trata de un informe breve:
+**Definición Canónica:** Si se trata de un informe breve:
+                                                                 —        Título
+                                                                 —        Presentación.
+
+Si se trata de un informe breve:
                                                                  —        Título
                                                                  —        Presentación.
 
@@ -4612,15 +4534,14 @@ documentos legales                                                lingüística 
 
 Redacción de                                                         4. El Informe                                                          123
 
-
-## 4.2     El informe
-
-                                                                       jurídico
-
-
 ## 4.2.1 Concepto
 
-                                                                       El informe en el derecho consiste en un estudio de los hechos y
+**Definición Canónica:** El informe en el derecho consiste en un estudio de los hechos y
+                                                                       fundamentos jurídicos de un problema de complejidad que amerita
+                                                                       una solución. De acuerdo a la clasificación de los textos, una categoría
+                                                                       la constituye el informativo o informe jurídico.
+
+El informe en el derecho consiste en un estudio de los hechos y
                                                                        fundamentos jurídicos de un problema de complejidad que amerita
                                                                        una solución. De acuerdo a la clasificación de los textos, una categoría
                                                                        la constituye el informativo o informe jurídico.
@@ -4655,11 +4576,16 @@ documentos legales                                                lingüística 
 
 Redacción de                                                   4. El Informe                                                           124
 
-
 ## 4.2.2 Estructura
 
+**Definición Canónica:** —        Formato. Para que un informe resulte fácil de leer, es necesario
+                                                                          que la información que contenga se distribuya equilibrada-
+                                                                          mente en partes o capítulos.
+                                                                 —        Portada. Incluirá claramente identificado el titulo, nombre
+                                                                          del autor y colaboradores, lugar y fecha de edición del informe.
+                 
 
-                                                                 —        Formato. Para que un informe resulte fácil de leer, es necesario
+—        Formato. Para que un informe resulte fácil de leer, es necesario
                                                                           que la información que contenga se distribuya equilibrada-
                                                                           mente en partes o capítulos.
                                                                  —        Portada. Incluirá claramente identificado el titulo, nombre
@@ -4696,13 +4622,16 @@ documentos legales                                                lingüística 
 
 Redacción de                                                   4. El Informe                                                                  125
 
-
-## 4.2.3 Ejemplo de Informe en derecho
-
-
 ## 4.2.3.1 Consulta
 
-                                                                 Tengo un juicio en que el empleador paga sueldo solo en base a comisiones
+**Definición Canónica:** Tengo un juicio en que el empleador paga sueldo solo en base a comisiones
+                                                                 por ventas liquidadas mes a mes; si las comisiones no alcanzan a sumar el
+                                                                 ingreso mínimo en el mes, el empleador lo completa. En primera instancia,
+                                                                 fuimos condenados a pagar días de descanso, porque el tribunal estimó que
+                                                                 en esa modalidad de remuneraciones se entien
+**Concordancias Legales:** artículo 45 del Código
+
+Tengo un juicio en que el empleador paga sueldo solo en base a comisiones
                                                                  por ventas liquidadas mes a mes; si las comisiones no alcanzan a sumar el
                                                                  ingreso mínimo en el mes, el empleador lo completa. En primera instancia,
                                                                  fuimos condenados a pagar días de descanso, porque el tribunal estimó que
@@ -4713,10 +4642,12 @@ documentos legales                                                lingüística 
                                                                  completa el ingreso mínimo cuando no se alcanza, de modo que en ciertos meses
                                                                  la remuneración no es exclusiva en base en comisiones.
 
-
 ## 4.2.3.2 Informe
 
-                                                                 Problema planteado
+**Definición Canónica:** Problema planteado
+**Concordancias Legales:** artículo 45 del Código; artículo 45 del Código del Trabajo alude a lo que la doctrina; artículo 45 del Código del Trabajo; artículo 45; artículo 45 del Código del Trabajo fue fijado por; artículo 1; artículo 44; Ley Nº 19.250
+
+Problema planteado
 
                                                                  De la consulta formulada se desprende que el problema planteado
                                                                  es la factibilidad de aplicar las normas del artículo 45 del Código
@@ -4915,10 +4846,12 @@ documentos legales                                                lingüística 
                                                                  existe una jurisprudencia dispersa, cuyos fallos es posible agrupar
                                                                  como sigue.
 
-
 ## 1. Tesis contraria a estimar que trabajadores remunerados a
 
-                                                                    comisión tengan derecho a beneficios de semana corrida.
+**Definición Canónica:** comisión tengan derecho a beneficios de semana corrida.
+**Concordancias Legales:** artículo 35 del Código del Trabajo; artículo 45; artículo 42; artículo 45 del Código del Trabajo
+
+comisión tengan derecho a beneficios de semana corrida.
 
                                                                  Entre los fallos comprendidos en esta tesis se puede citar el dictado
                                                                  por la Cuarta Sala de la Corte Suprema, el 20 de junio de 2001, autos
@@ -5057,10 +4990,17 @@ documentos legales                                                lingüística 
                                                                  venta– en dicho período mensual de ajuste y pago, y además en función de la
                                                                  unidad mensual de tiempo trabajado…”.
 
-
 ## 2. Tesis favorable a estimar que trabajadores remunerados a
 
-                                                                     comisión tengan derecho a beneficios de semana corrida.
+**Definición Canónica:** comisión tengan derecho a beneficios de semana corrida.
+                                                                 En sentencia dictada por la Cuarta Sala de la Corte Suprema el 7 de
+                                                                 octubre de 2004, autos rol Nº 3.307-2003, integrada por los minis-
+                                                                 tros José Benquis, José Luis Pérez, Orlando Álvarez, Urbano Marín
+                                                                 y Jorge Medina, acogió la tesis favorable al pago del beneficio de la
+             
+**Concordancias Legales:** artículo 45 del Código del Trabajo se orienta; artículo 45; artículo 35 del Código del Trabajo
+
+comisión tengan derecho a beneficios de semana corrida.
                                                                  En sentencia dictada por la Cuarta Sala de la Corte Suprema el 7 de
                                                                  octubre de 2004, autos rol Nº 3.307-2003, integrada por los minis-
                                                                  tros José Benquis, José Luis Pérez, Orlando Álvarez, Urbano Marín
@@ -5111,7 +5051,12 @@ documentos legales                                                lingüística 
 
 ## 3. Escenario adverso ante integración de la sala
 
-                                                                 Cabe señalar que la Cuarta Sala de la Corte Suprema es posiblemente
+**Definición Canónica:** Cabe señalar que la Cuarta Sala de la Corte Suprema es posiblemente
+                                                                 aquella en que con mayor nitidez se advierten las tendencias de los
+                                                                 ministros y los efectos de la integración de la misma.
+**Concordancias Legales:** artículo 45 del Código del Trabajo señala que; artículo 19 del Código Civil; artículo 45; artículo 45 del Código; Ley Nº 19.250
+
+Cabe señalar que la Cuarta Sala de la Corte Suprema es posiblemente
                                                                  aquella en que con mayor nitidez se advierten las tendencias de los
                                                                  ministros y los efectos de la integración de la misma.
 
@@ -5206,15 +5151,14 @@ documentos legales                                                lingüística 
 Redacción de                                                                               5. Las resoluciones judiciales                                          139
 documentos legales                                                                            y las actas
 
-
-## 5.1           Resoluciones
-
-                                                                                             judiciales
-
-
 ## 5.1.1 Concepto
 
-                                                                                             En su Diccionario Jurídico, Guillermo Cabanellas establece que la
+**Definición Canónica:** En su Diccionario Jurídico, Guillermo Cabanellas establece que la
+                                                                                             resolución es la acción o efecto de resolver un problema, conflicto
+                                                                                             o litigio mediante un fallo, auto o providencia de una autoridad
+                                                                                             gubernativa o judicial.
+
+En su Diccionario Jurídico, Guillermo Cabanellas establece que la
                                                                                              resolución es la acción o efecto de resolver un problema, conflicto
                                                                                              o litigio mediante un fallo, auto o providencia de una autoridad
                                                                                              gubernativa o judicial.
@@ -5263,11 +5207,16 @@ documentos legales                                                              
                                                                                               constituyen las actuaciones judiciales más importantes, ya que ema-
                                                                                               nan directamente del propio órgano juzgador.”22
 
-
 ## 5.1.2 Estructura
 
+**Definición Canónica:** Siguiendo al profesor e integrante de la Corte Suprema de Justicia
+                                                                                              de Chile, Carlos Aránguiz Zúñiga, las principales fuentes legales y
+                                                                                              administrativas para redactar sentencias son las siguientes:
+                                                                                              a. En causas civiles: artículos 160, 169 y 170 del Código de Procedi-
+                                                    
+**Concordancias Legales:** artículos 160; artículos 341; artículos 458; artículos 66; Ley Nº 19.968
 
-                                                                                              Siguiendo al profesor e integrante de la Corte Suprema de Justicia
+Siguiendo al profesor e integrante de la Corte Suprema de Justicia
                                                                                               de Chile, Carlos Aránguiz Zúñiga, las principales fuentes legales y
                                                                                               administrativas para redactar sentencias son las siguientes:
                                                                                               a. En causas civiles: artículos 160, 169 y 170 del Código de Procedi-
@@ -5286,8 +5235,9 @@ documentos legales                                                              
 
 ## 1. Planteamiento del problema: parte expositiva de la sentencia
 
+**Definición Canónica:** 22       CASARINO VITERBO, Mario (2007): Manual de Derecho Procesal Tomo III; Editorial Jurídica, (6ª edición), 2007.
 
-                                                      22       CASARINO VITERBO, Mario (2007): Manual de Derecho Procesal Tomo III; Editorial Jurídica, (6ª edición), 2007.
+22       CASARINO VITERBO, Mario (2007): Manual de Derecho Procesal Tomo III; Editorial Jurídica, (6ª edición), 2007.
 
                                                       23       Recomendamos revisar las otras materias (penales, laborales y de familia), que presentan variaciones de-
                                                                pendiendo de aspectos significativos de la materia, y que se incluyen en el texto citado (Aránguiz, 2019:
@@ -5310,10 +5260,16 @@ documentos legales                                                              
 
                                                                  nuevas tecnologías, pero con precauciones.
 
-
 ## 2. Argumentos de solución: parte considerativa de la sentencia
 
-                                                                    Consiste en el desarrollo de los argumentos que utiliza la senten-
+**Definición Canónica:** Consiste en el desarrollo de los argumentos que utiliza la senten-
+                                                                    cia para resolver el problema planteado. Comienza con la palabra
+                                                                    “CONSIDERANDO”. Cada considerando debe tener como idea
+                                                                    central un argumento. Los argumentos deben ser tanto de hecho
+                                                                    como de derecho y están íntimamente ligados a los medios de
+                   
+
+Consiste en el desarrollo de los argumentos que utiliza la senten-
                                                                     cia para resolver el problema planteado. Comienza con la palabra
                                                                     “CONSIDERANDO”. Cada considerando debe tener como idea
                                                                     central un argumento. Los argumentos deben ser tanto de hecho
@@ -5323,10 +5279,15 @@ documentos legales                                                              
                                                                     esta parte del fallo con un resumen de lo que debe decidirse,
                                                                     tanto en los hechos como en lo jurídico.
 
-
 ## 3. Decisión: parte resolutiva del fallo
 
-                                                                    Se debe incorporar no solo la decisión del tema de fondo, sino
+**Definición Canónica:** Se debe incorporar no solo la decisión del tema de fondo, sino
+                                                                    también aquellas decisiones accesorias tratadas en el fallo, evitan-
+                                                                    do contradicciones y datos incompletos. En esta parte se incluyen
+                                                                    el nombre de quien redactó la sentencia o de quienes participaron
+                                                                    como tribunal colegiado, y la firma de los jueces, señalando las
+
+Se debe incorporar no solo la decisión del tema de fondo, sino
                                                                     también aquellas decisiones accesorias tratadas en el fallo, evitan-
                                                                     do contradicciones y datos incompletos. En esta parte se incluyen
                                                                     el nombre de quien redactó la sentencia o de quienes participaron
@@ -5388,20 +5349,28 @@ documentos legales                                                              
                                                                           posibles errores de forma y de fondo que pueda contener el
                                                                           escrito.
 
-
 ## 5.1.3 Ejemplos
 
-                                                                 Es conveniente señalar que los ejemplos seleccionados tienen como
+**Definición Canónica:** Es conveniente señalar que los ejemplos seleccionados tienen como
+                                                                 objetivo que las y los estudiantes identifiquen la estructura de las re-
+
+Es conveniente señalar que los ejemplos seleccionados tienen como
                                                                  objetivo que las y los estudiantes identifiquen la estructura de las re-
 
                                                                  soluciones judiciales, su contenido, forma, extensión y argumentación,
                                                                  para posteriormente aplicarlos. Por lo tanto no nos detendremos en
                                                                  explicar las temáticas específicas que tienen.
 
-
 ## 5.1.3.1 Nulidad de derecho público por acto de Conserva-
 
-                                                                 dor de Bienes Raíces. Reivindicación de cosa singular que
+**Definición Canónica:** dor de Bienes Raíces. Reivindicación de cosa singular que
+                                                                 forma parte de universalidad requiere de la voluntad de
+                                                                 todos los comuneros.
+                                                                 Si bien es cierto el Conservador de Bienes Raíces inscribió la propie-
+                                                                 dad mediante una minuta omitiendo un requisito esencial de validez,
+                                                                 c
+
+dor de Bienes Raíces. Reivindicación de cosa singular que
                                                                  forma parte de universalidad requiere de la voluntad de
                                                                  todos los comuneros.
                                                                  Si bien es cierto el Conservador de Bienes Raíces inscribió la propie-
@@ -5431,13 +5400,15 @@ documentos legales                                                              
 
                                                                Visto:
 
-## En cuanto al recurso de casación en la forma
-
-
-
 ## 1. Que la parte demandante dedujo recurso de casación en la forma en contra de la sentencia
 
-                                                                  de primera instancia contemplada en el Nº 5 del artículo 768 del Código de Procedimiento
+**Definición Canónica:** de primera instancia contemplada en el Nº 5 del artículo 768 del Código de Procedimiento
+                                                                  Civil, en razón de haber omitido los requisitos establecidos en el artículo 170 Nº 4 del
+                                                                  mismo Código, por cuanto se ponderó inadecuadamente prueba rendida y en otros casos
+                                                                  se omitió derechamente tal ponderación.
+**Concordancias Legales:** artículo 768 del Código de Procedimiento; artículo 170
+
+de primera instancia contemplada en el Nº 5 del artículo 768 del Código de Procedimiento
                                                                   Civil, en razón de haber omitido los requisitos establecidos en el artículo 170 Nº 4 del
                                                                   mismo Código, por cuanto se ponderó inadecuadamente prueba rendida y en otros casos
                                                                   se omitió derechamente tal ponderación.
@@ -5466,7 +5437,13 @@ documentos legales                                                              
 
 ## 2. Que al examinar estos sentenciadores la sentencia de primer grado, aparece que los vi-
 
-                                                                  cios que advierte el actor cometidos en su dictación, no son de la entidad que permitan
+**Definición Canónica:** cios que advierte el actor cometidos en su dictación, no son de la entidad que permitan
+                                                                  su anulación, o sea, de los antecedentes de autos aparece de manifiesto que aquél no ha
+                                                                  sufrido un perjuicio reparable sólo con la invalidación de la sentencia, como tampoco ha
+                                                                  influido en lo dispositivo del fallo.
+**Concordancias Legales:** artículo 768 del Código de Procedimiento Civil
+
+cios que advierte el actor cometidos en su dictación, no son de la entidad que permitan
                                                                   su anulación, o sea, de los antecedentes de autos aparece de manifiesto que aquél no ha
                                                                   sufrido un perjuicio reparable sólo con la invalidación de la sentencia, como tampoco ha
                                                                   influido en lo dispositivo del fallo.
@@ -5498,7 +5475,13 @@ documentos legales                                                              
 
 ## 3. Que en lo tocante al capítulo de la apelación, referido a que en la sentencia se acogió la solici-
 
-                                                                  tud de la demandada de fs. 346, en cuanto a que no se tuvieron por agregados los documentos
+**Definición Canónica:** tud de la demandada de fs. 346, en cuanto a que no se tuvieron por agregados los documentos
+                                                                  privados, acompañados por el actor, ya que el tribunal exhortado sólo tenía facultades para
+                                                                  que se rindiera la prueba testimonial y no para reconocer firmas, cabe señalar que en relación
+                                                                  a este punto, si bien el tribunal exhortado tenía facultades para recibir la prueba testimonial,
+                          
+
+tud de la demandada de fs. 346, en cuanto a que no se tuvieron por agregados los documentos
                                                                   privados, acompañados por el actor, ya que el tribunal exhortado sólo tenía facultades para
                                                                   que se rindiera la prueba testimonial y no para reconocer firmas, cabe señalar que en relación
                                                                   a este punto, si bien el tribunal exhortado tenía facultades para recibir la prueba testimonial,
@@ -5507,10 +5490,16 @@ documentos legales                                                              
                                                                   firma, diligencia que a juicio de estos sentenciadores forma parte integrante de la prueba
                                                                   testimonial, por lo que se acogerá en esta parte el recurso de apelación deducido por el actor.
 
-
 ## 4. Que por otra parte, el actor recurrió en contra de la sentencia de primer grado, en cuanto
 
-                                                                    rechazó la nulidad de derecho público respecto de la inscripción de dominio del predio H
+**Definición Canónica:** rechazó la nulidad de derecho público respecto de la inscripción de dominio del predio H
+                                                                    de fs. 293 Nº 401 del Registro de Propiedades de 1983, practicada por el Conservador de
+                                                                    Bienes Raíces de Cañete, nulidad que se basó en los artículos 5º, 6º y 7º de la Constitución
+                                                                    Política de la República, siendo dicho Conservador un órgano del Estado, el cual integra
+                                     
+**Concordancias Legales:** artículos 5; Constitución Política; constitucion
+
+rechazó la nulidad de derecho público respecto de la inscripción de dominio del predio H
                                                                     de fs. 293 Nº 401 del Registro de Propiedades de 1983, practicada por el Conservador de
                                                                     Bienes Raíces de Cañete, nulidad que se basó en los artículos 5º, 6º y 7º de la Constitución
                                                                     Política de la República, siendo dicho Conservador un órgano del Estado, el cual integra
@@ -5525,7 +5514,13 @@ documentos legales                                                              
 
 ## capítulo sostiene que el Conservador careció de competencia legal, ya que de conformidad a los
 
-                                                               artículos 57 y 62 del Reglamento del Registro Conservatorio de Bienes Raíces, la regla general
+**Definición Canónica:** artículos 57 y 62 del Reglamento del Registro Conservatorio de Bienes Raíces, la regla general
+                                                               es que sólo está autorizado para inscribir instrumentos públicos en copias autorizadas y debida-
+                                                               mente solemnizadas y excepcionalmente podrá inscribir minutas en los casos que contempla el
+                                                               artículo 82 del mismo Reglamento, ninguno de ellos correspondiente al de autos.
+**Concordancias Legales:** artículos 57; artículo 82
+
+artículos 57 y 62 del Reglamento del Registro Conservatorio de Bienes Raíces, la regla general
                                                                es que sólo está autorizado para inscribir instrumentos públicos en copias autorizadas y debida-
                                                                mente solemnizadas y excepcionalmente podrá inscribir minutas en los casos que contempla el
                                                                artículo 82 del mismo Reglamento, ninguno de ellos correspondiente al de autos.
@@ -5541,7 +5536,13 @@ documentos legales                                                              
 
 ## 5. Que sobre el punto en cuestión hay que señalar que dentro del régimen establecido por
 
-                                                                  el Código Civil y por el Reglamento para la oficina del Registro Conservatorio, para pres-
+**Definición Canónica:** el Código Civil y por el Reglamento para la oficina del Registro Conservatorio, para pres-
+                                                                  tar seguridad al derecho de propiedad, la tradición del dominio de los bienes raíces debe
+                                                                  efectuarse siempre por la inscripción del título en el Registro del Conservador, conforme
+                                                                  lo ordena el artículo 686 de aquel cuerpo de leyes y el Título V del referido Reglamento.
+**Concordancias Legales:** artículo 686; artículo 690; artículo 52 del Reglamento nos señala que deberán inscribirse; artículo 57
+
+el Código Civil y por el Reglamento para la oficina del Registro Conservatorio, para pres-
                                                                   tar seguridad al derecho de propiedad, la tradición del dominio de los bienes raíces debe
                                                                   efectuarse siempre por la inscripción del título en el Registro del Conservador, conforme
                                                                   lo ordena el artículo 686 de aquel cuerpo de leyes y el Título V del referido Reglamento.
@@ -5567,10 +5568,16 @@ documentos legales                                                              
 Redacción de                                                                           5. Las resoluciones judiciales                                        147
 documentos legales                                                                        y las actas
 
-
 ## 6. Que ni la ley ni su reglamento del Registro del Conservador de Bienes Raíces admiten la
 
-                                                                  inscripción de minutas, salvo lo dispuesto en el artículo 82 de este último, que permite
+**Definición Canónica:** inscripción de minutas, salvo lo dispuesto en el artículo 82 de este último, que permite
+                                                                  presentar minutas o documentos privados que tienen por fin enmendar y suplir las desig-
+                                                                  naciones defectuosas e insuficientes de los títulos, que no es el caso, pues para que una
+                                                                  inscripción se efectúe debe cumplirse con todos aquellos preceptos y requisitos relativos
+                                             
+**Concordancias Legales:** artículo 82; artículos 686 del Código Civil y 52 y
+
+inscripción de minutas, salvo lo dispuesto en el artículo 82 de este último, que permite
                                                                   presentar minutas o documentos privados que tienen por fin enmendar y suplir las desig-
                                                                   naciones defectuosas e insuficientes de los títulos, que no es el caso, pues para que una
                                                                   inscripción se efectúe debe cumplirse con todos aquellos preceptos y requisitos relativos
@@ -5581,10 +5588,16 @@ documentos legales                                                              
                                                                   un título y no cabe inscribirla en conformidad a los artículos 686 del Código Civil y 52 y
                                                                   57 del Reglamento Conservatorio de Bienes Raíces.
 
-
 ## 7. Que en relación con este capítulo de la apelación, debe tenerse presente que el caso sub
 
-                                                                  lite se trata de una acción de nulidad de derecho público, cuyo fundamento se encuentra en
+**Definición Canónica:** lite se trata de una acción de nulidad de derecho público, cuyo fundamento se encuentra en
+                                                                  el Capítulo I de la Constitución Política, sobre bases de la institucionalidad, que establece
+                                                                  el principio de que los órganos del Estado deben someter su acción a la Constitución y a
+                                                                  las leyes, según dispone el artículo 6º, y de que los órganos del Estado actúan válidamente
+                                    
+**Concordancias Legales:** artículo 6; artículo 7; Constitución Política; Constitución
+
+lite se trata de una acción de nulidad de derecho público, cuyo fundamento se encuentra en
                                                                   el Capítulo I de la Constitución Política, sobre bases de la institucionalidad, que establece
                                                                   el principio de que los órganos del Estado deben someter su acción a la Constitución y a
                                                                   las leyes, según dispone el artículo 6º, y de que los órganos del Estado actúan válidamente
@@ -5603,7 +5616,13 @@ documentos legales                                                              
 
 ## 8. Que en el caso de autos el actor impugnó de nulidad de derecho público la competencia
 
-                                                                  del Conservador de Bienes Raíces de Cañete, en cuanto Órgano del Estado, arguyendo
+**Definición Canónica:** del Conservador de Bienes Raíces de Cañete, en cuanto Órgano del Estado, arguyendo
+                                                                  que éste actuó fuera de sus facultades legales, al inscribir la minuta privada y unilateral
+                                                                  de Forestal C. en el Registro de Propiedad a su cargo, que dio origen a la inscripción de
+                                                                  dominio del predio H. (Nº 401, a fs. 293 del Registro de Propiedades del año 1983).
+                                                     
+
+del Conservador de Bienes Raíces de Cañete, en cuanto Órgano del Estado, arguyendo
                                                                   que éste actuó fuera de sus facultades legales, al inscribir la minuta privada y unilateral
                                                                   de Forestal C. en el Registro de Propiedad a su cargo, que dio origen a la inscripción de
                                                                   dominio del predio H. (Nº 401, a fs. 293 del Registro de Propiedades del año 1983).
@@ -5632,10 +5651,13 @@ documentos legales                                                              
                                                                no sólo tendría ella la calidad de legitimada pasiva, sino también el Conservador antes men-
                                                                cionado, por lo que la apelación en este aspecto no podrá tener acogida.
 
-
 ## 9. Que también el actor recurrió de apelación, en cuanto a que no se acogió su acción de
 
-                                                                  inoponibilidad de la inscripción, ya que nada tiene que ver lo afirmado en el fallo en cuanto
+**Definición Canónica:** inoponibilidad de la inscripción, ya que nada tiene que ver lo afirmado en el fallo en cuanto
+                                                                  a que la inscripción corresponda al ejercicio de una facultad o que se trate de un acto unila-
+                                                                  teral, por cuanto lo que se está afirmando es que dicho acto es inoponible al demandante.
+
+inoponibilidad de la inscripción, ya que nada tiene que ver lo afirmado en el fallo en cuanto
                                                                   a que la inscripción corresponda al ejercicio de una facultad o que se trate de un acto unila-
                                                                   teral, por cuanto lo que se está afirmando es que dicho acto es inoponible al demandante.
 
@@ -5657,7 +5679,10 @@ documentos legales                                                              
 
 ## 10. Que como lo ha señalado la doctrina la inoponibilidad consiste en que los actos jurídicos
 
-                                                                   no producen efectos más que para las partes que, personalmente o representadas, los han
+**Definición Canónica:** no producen efectos más que para las partes que, personalmente o representadas, los han
+                                                                   celebrado, y no aprovechan ni perjudican a terceros, ni su nulidad los alcanza.
+
+no producen efectos más que para las partes que, personalmente o representadas, los han
                                                                    celebrado, y no aprovechan ni perjudican a terceros, ni su nulidad los alcanza.
 
 Redacción de                                                                            5. Las resoluciones judiciales                                        149
@@ -5670,10 +5695,13 @@ documentos legales                                                              
                                                                actos jurídicos, en cuya virtud las convenciones y su eventual nulidad no vinculan más que a
                                                                las partes y no alcanzan a terceros.
 
-
 ## 11. Que en el presente caso el actor dedujo la acción de inoponibilidad en razón que el acto
 
-                                                                   unilateral de inscripción que efectuó la demandada, constituyó un fraude a la ley, que no
+**Definición Canónica:** unilateral de inscripción que efectuó la demandada, constituyó un fraude a la ley, que no
+                                                                   puede afectar de modo alguno los derechos adquiridos de que es titular, ya que no con-
+                                                                   currió al hecho que le dio origen, y, por las mismas razones, y en subsidio, por constituir
+
+unilateral de inscripción que efectuó la demandada, constituyó un fraude a la ley, que no
                                                                    puede afectar de modo alguno los derechos adquiridos de que es titular, ya que no con-
                                                                    currió al hecho que le dio origen, y, por las mismas razones, y en subsidio, por constituir
 
@@ -5688,7 +5716,15 @@ documentos legales                                                              
 
 ## 12. Que, tal como se expresó en el fallo en revisión, en subsidio de lo anterior el actor afirmó
 
-                                                                   que es dueño del 80%, o al menos del 40% de acciones y derechos, junto con otros comu-
+**Definición Canónica:** que es dueño del 80%, o al menos del 40% de acciones y derechos, junto con otros comu-
+                                                                   neros del Retazo del Fundo C., indicando sus deslindes, por lo que deduce tres acciones
+                                                                   en carácter de subsidiarias:
+                                                                  a. Acción innominada de dominio;
+                                                                  b. La basada en el artículo 915 del Código Civil, y
+                                             
+**Concordancias Legales:** artículo 915 del Código Civil
+
+que es dueño del 80%, o al menos del 40% de acciones y derechos, junto con otros comu-
                                                                    neros del Retazo del Fundo C., indicando sus deslindes, por lo que deduce tres acciones
                                                                    en carácter de subsidiarias:
                                                                   a. Acción innominada de dominio;
@@ -5698,14 +5734,22 @@ documentos legales                                                              
 
 ## 13. Que la acción de autos en síntesis está dirigida en contra de la demandada, en razón de
 
-                                                                   que esta última no puede justificar, de acuerdo a sus títulos, una superficie del Fundo
+**Definición Canónica:** que esta última no puede justificar, de acuerdo a sus títulos, una superficie del Fundo
+                                                                   H. más que de 900 cuadras, teniendo actualmente una extensión de 4.416 cuadras, lo
+                                                                   cual ha perjudicado el inmueble vecino (Fundo C.), y por ende a la comunidad dueña de
+                                                                   este último.
+
+que esta última no puede justificar, de acuerdo a sus títulos, una superficie del Fundo
                                                                    H. más que de 900 cuadras, teniendo actualmente una extensión de 4.416 cuadras, lo
                                                                    cual ha perjudicado el inmueble vecino (Fundo C.), y por ende a la comunidad dueña de
                                                                    este último.
 
 ## 14. Que de acuerdo a las escrituras públicas acompañadas a los autos se encuentra acreditado
 
-                                                                   que el demandante adquirió un porcentaje de las acciones y derechos del Retazo del Fundo
+**Definición Canónica:** que el demandante adquirió un porcentaje de las acciones y derechos del Retazo del Fundo
+                                                                   C. por cesiones de derechos, efectuadas en diferentes fechas del mes de junio de 1990 por
+
+que el demandante adquirió un porcentaje de las acciones y derechos del Retazo del Fundo
                                                                    C. por cesiones de derechos, efectuadas en diferentes fechas del mes de junio de 1990 por
 
 Redacción de                                                                            5. Las resoluciones judiciales                                            150
@@ -5716,10 +5760,16 @@ documentos legales                                                              
                                                                   un total de un 80% o en subsidio de un 40% si se considerara la venta efectuada el 21 de
                                                                   marzo de 1896 por don J.G.V. a J.C. del 50% del Fundo C.
 
-
 ## 15. Que el artículo 892 del Código Civil dispone que se puede reivindicar una cuota determinada
 
-                                                                   proindiviso de una cosa singular. Que en la sentencia recaída en causa Rol Nº 1618-2000
+**Definición Canónica:** proindiviso de una cosa singular. Que en la sentencia recaída en causa Rol Nº 1618-2000
+                                                                   de esta Corte de Apelaciones de Concepción se resolvió lo siguiente: En lo que respecta a
+                                                                   esta disposición legal (892) se ha discutido bastante en doctrina, referente a la titularidad
+                                                                   para reivindicar cuando la cosa reivindicada forma parte de una universalidad jurídica,
+                                       
+**Concordancias Legales:** artículo 1.268 del Código Civil; artículo 893; artículos 2.305; artículo 892
+
+proindiviso de una cosa singular. Que en la sentencia recaída en causa Rol Nº 1618-2000
                                                                    de esta Corte de Apelaciones de Concepción se resolvió lo siguiente: En lo que respecta a
                                                                    esta disposición legal (892) se ha discutido bastante en doctrina, referente a la titularidad
                                                                    para reivindicar cuando la cosa reivindicada forma parte de una universalidad jurídica,
@@ -5773,36 +5823,48 @@ documentos legales                                                              
 
 ## 16. Que por lo razonado y analizado precedentemente y estableciéndose que las acciones de-
 
-                                                                   ducidas por uno de los comuneros del predio carece de personería respecto de los demás,
+**Definición Canónica:** ducidas por uno de los comuneros del predio carece de personería respecto de los demás,
                                                                    necesariamente éstas no pueden prosperar y por consiguientemente tampoco la apelación,
                                                                    sobre este punto, no pronunciándose esta Corte sobre las acciones subsidiarias respecto a
                                                                    las cuotas que el actor indica.
 
-## 17. Que por lo dicho anteriormente estos sentenciadores no se harán cargo del resto de las
-
-                                                                   alegaciones planteadas en autos, como de las pruebas allegadas.
+ducidas por uno de los comuneros del predio carece de personería respecto de los demás,
+                                                                   necesariamente éstas no pueden prosperar y por consiguientemente tampoco la apelación,
+                                                                   sobre este punto, no pronunciándose esta Corte sobre las acciones subsidiarias respecto a
+                                                                   las cuotas que el actor indica.
 
 ## 18. Que los documentos agregados en segunda instancia consistentes en la copia de los au-
 
-                                                                   tosRoles Nº 8.963 y Nº 36.924-P del Juzgado de Letras de Cañete, fotografías, sentencia
+**Definición Canónica:** tosRoles Nº 8.963 y Nº 36.924-P del Juzgado de Letras de Cañete, fotografías, sentencia
                                                                    de fs. 619, copia de transacción de 9 de mayo de 2003, tres copias de certificados, acta de
                                                                    audiencia de 3 de enero de 2006 y acta de transacción entre Forestal C. y C.T.B., en nada
                                                                    alteran lo anteriormente concluido.
 
-## 19. Que atendido lo precedentemente resuelto no se hará lugar a la diligencia de traer a la
-
-                                                                   vista los expedientes solicitados en esta instancia por el actor.
+tosRoles Nº 8.963 y Nº 36.924-P del Juzgado de Letras de Cañete, fotografías, sentencia
+                                                                   de fs. 619, copia de transacción de 9 de mayo de 2003, tres copias de certificados, acta de
+                                                                   audiencia de 3 de enero de 2006 y acta de transacción entre Forestal C. y C.T.B., en nada
+                                                                   alteran lo anteriormente concluido.
 
 ## 20. Que de otro lado, la demandante reconvencional, Forestal C. apeló de la sentencia, en
 
-                                                                   relación a que no se dio lugar a la prescripción alegada, habiéndose acreditado por su parte
+**Definición Canónica:** relación a que no se dio lugar a la prescripción alegada, habiéndose acreditado por su parte
+                                                                   en forma fehaciente, la posesión legal y material y de sus antecesores en el fundo H., la cual
+                                                                   tiene desde 1976 hasta el día de hoy, posesión que la habilita para alegar la prescripción
+                                                                   adquisitiva, tanto la ordinaria como la extraordinaria.
+
+relación a que no se dio lugar a la prescripción alegada, habiéndose acreditado por su parte
                                                                    en forma fehaciente, la posesión legal y material y de sus antecesores en el fundo H., la cual
                                                                    tiene desde 1976 hasta el día de hoy, posesión que la habilita para alegar la prescripción
                                                                    adquisitiva, tanto la ordinaria como la extraordinaria.
 
 ## 21. Que en relación a este aspecto hay que tener presente que las partes, demandante y de-
 
-                                                                   mandado, deben ser entre sí legítimos contradictores. Si se trata de la prescripción ad-
+**Definición Canónica:** mandado, deben ser entre sí legítimos contradictores. Si se trata de la prescripción ad-
+                                                                   quisitiva, quien crea haber ganado el dominio pedirá al tribunal que lo declare dueño de
+                                                                   la cosa ajena, demandando para ello a quien era el antiguo propietario o se da por tal. Que
+**Concordancias Legales:** artículo 2.492 del Código Civil expresa que la prescripción es u
+
+mandado, deben ser entre sí legítimos contradictores. Si se trata de la prescripción ad-
                                                                    quisitiva, quien crea haber ganado el dominio pedirá al tribunal que lo declare dueño de
                                                                    la cosa ajena, demandando para ello a quien era el antiguo propietario o se da por tal. Que
 
@@ -5816,10 +5878,14 @@ documentos legales                                                              
                                                                   consideraciones sobre la prescripción”; en Revista de Derecho Universidad de Concepción
                                                                   Nº 60).
 
-
 ## 22. Que en el presente caso, no se puede pasar por alto que el actor J.P.J., al interponer la
 
-                                                                   acción reivindicatoria sobre el retazo tantas veces nombrado, ha manifestado hacerlo en
+**Definición Canónica:** acción reivindicatoria sobre el retazo tantas veces nombrado, ha manifestado hacerlo en
+                                                                   calidad de comunero, y, por su parte, la demandante reconvencional, entre los acápites
+                                                                   de su contestación de la demanda, sostuvo que el actor no es mandatario de los restantes
+                                                                   titulares en la comunidad, por lo que resulta improcedente dicha acción, ya que éste no
+
+acción reivindicatoria sobre el retazo tantas veces nombrado, ha manifestado hacerlo en
                                                                    calidad de comunero, y, por su parte, la demandante reconvencional, entre los acápites
                                                                    de su contestación de la demanda, sostuvo que el actor no es mandatario de los restantes
                                                                    titulares en la comunidad, por lo que resulta improcedente dicha acción, ya que éste no
@@ -5828,14 +5894,26 @@ documentos legales                                                              
 
 ## 23. Que es un hecho del pleito, que la actora no se ha atribuido dominio ni derechos sobre la
 
-                                                                   totalidad del predio Retazo del Fundo C., si no que sólo de un porcentaje, por lo que éste
+**Definición Canónica:** totalidad del predio Retazo del Fundo C., si no que sólo de un porcentaje, por lo que éste
+                                                                   al no tener la totalidad de las acciones y derechos del predio, no puede ser sujeto pasivo
+                                                                   de la demanda, ya que lo único que la demandante reconvencional podría alegar, respecto
+                                                                   de la prescripción adquisitiva, sería lo relativo a la cuota del demandado.
+
+totalidad del predio Retazo del Fundo C., si no que sólo de un porcentaje, por lo que éste
                                                                    al no tener la totalidad de las acciones y derechos del predio, no puede ser sujeto pasivo
                                                                    de la demanda, ya que lo único que la demandante reconvencional podría alegar, respecto
                                                                    de la prescripción adquisitiva, sería lo relativo a la cuota del demandado.
 
 ## 24. Que en lo tocante al segundo aspecto de la apelación del demandante reconvencional, en
 
-                                                                   cuanto a las costas, estos sentenciadores comparten lo resuelto por la juez a quo, en el sentido
+**Definición Canónica:** cuanto a las costas, estos sentenciadores comparten lo resuelto por la juez a quo, en el sentido
+                                                                   que cada parte pagará sus costas, por haber tenido motivos plausibles para litigar.
+                                                                   Por estas reflexiones, normas legales citadas y lo dispuesto en los artículos 186 y siguientes
+                                                                   del Código de Procedimiento Civil se declara que:
+                                                                  a. Se r
+**Concordancias Legales:** artículos 186; artículo 82 del Código Orgánico de Tribunales
+
+cuanto a las costas, estos sentenciadores comparten lo resuelto por la juez a quo, en el sentido
                                                                    que cada parte pagará sus costas, por haber tenido motivos plausibles para litigar.
                                                                    Por estas reflexiones, normas legales citadas y lo dispuesto en los artículos 186 y siguientes
                                                                    del Código de Procedimiento Civil se declara que:
@@ -5873,10 +5951,14 @@ documentos legales                                                              
                                                                —      Daniel Peñailillo Arévalo: Los Bienes, la Propiedad y otros Derechos Reales, 3ª Edición Ac-
                                                                       tualizada; p. 368.
 
-
 ## 5.1.3.2 Posesión inscrita, derecho dominio
 
-                                                                                         VISTOS:
+**Definición Canónica:** VISTOS:
+                                                                                         Ha lugar a la medida precautoria de prohibición de ingreso y acerca-
+                                                                                         miento del denunciado J.C.P.R., al inmueble ubicado en Providencia
+                                                                                         XXXX, apartamento XX, por el término de 60 días.
+
+VISTOS:
                                                                                          Ha lugar a la medida precautoria de prohibición de ingreso y acerca-
                                                                                          miento del denunciado J.C.P.R., al inmueble ubicado en Providencia
                                                                                          XXXX, apartamento XX, por el término de 60 días.
@@ -5890,10 +5972,14 @@ documentos legales                                                              
 
                                                                                           Autoriza Doña
 
-
 ## 5.1.3.3 Por interpuesta demanda
 
-                                                                                          Vengan las partes a comparendo de contestación, conciliación y prue-
+**Definición Canónica:** Vengan las partes a comparendo de contestación, conciliación y prue-
+                                                                                          ba, con sus testigos y demás medios probatorios a la audiencia del 24
+                                                                                          de agosto del 2005, a las 9 horas, bajo apercibimiento de procederse
+                                                                                          en rebeldía del que no asistiere.
+
+Vengan las partes a comparendo de contestación, conciliación y prue-
                                                                                           ba, con sus testigos y demás medios probatorios a la audiencia del 24
                                                                                           de agosto del 2005, a las 9 horas, bajo apercibimiento de procederse
                                                                                           en rebeldía del que no asistiere.
@@ -5905,14 +5991,14 @@ documentos legales                                                              
                                                                  días de búsqueda no fuere habido por este medio del Sr. Receptor
                                                                  Don               Juez                Secretaria
 
-
-## 5.1.3.4 Oficio comunica sentencia
-
-
 ## OFICIO Nº
 
+**Definición Canónica:** En los autos procedentemente individualizados, se ha ordenado
+                                                                 oficiar a Ud, a fin de comunicarle que por sentencia de 15 de enero
+                                                                 del 2005, se condenó a A.A.M.V. RUT: 0.000.000-0, domicialido en
+                                                                 Xxxxx 1234, como autor de violencia intrafamiliar en perjuicio de
 
-                                                                 En los autos procedentemente individualizados, se ha ordenado
+En los autos procedentemente individualizados, se ha ordenado
                                                                  oficiar a Ud, a fin de comunicarle que por sentencia de 15 de enero
                                                                  del 2005, se condenó a A.A.M.V. RUT: 0.000.000-0, domicialido en
                                                                  Xxxxx 1234, como autor de violencia intrafamiliar en perjuicio de
@@ -5932,10 +6018,12 @@ documentos legales                                                              
                                                                       Al Sr. Director de registro civil e identificación
                                                                       Presente.
 
-
 ## 5.1.3.5 Consulta del estado de la causa
 
-                                                                 3º Juzgado del Trabajo de Santiago.
+**Definición Canónica:** 3º Juzgado del Trabajo de Santiago.
+**Concordancias Legales:** artículo 431 del Código del trabajo; Ley Nº19.447
+
+3º Juzgado del Trabajo de Santiago.
 
                                                                  Consulta de estado de causas detalle de movimiento.
 
@@ -5953,11 +6041,12 @@ documentos legales                                                              
 
                                                                  Proveyó Doña Marcia Eliana Iturriaga Claro, Juez Titular.
 
-
 ## 5.1.3.6 Resolución acuerdo en mediación familiar
 
+**Definición Canónica:** Santiago de Chile, 14 de noviembre de dos mil diecinueve.
+**Concordancias Legales:** artículo 103; Ley Nº 19.968
 
-                                                                 Santiago de Chile, 14 de noviembre de dos mil diecinueve.
+Santiago de Chile, 14 de noviembre de dos mil diecinueve.
 
                                                                  Proveyendo acta de mediación, se resuelve:
 
@@ -5977,11 +6066,12 @@ documentos legales                                                              
 Redacción de                                                                           5. Las resoluciones judiciales                                       156
 documentos legales                                                                        y las actas
 
-
 ## 5.1.3.7 Resolución demanda de cuidado personal
 
+**Definición Canónica:** Santiago, once de marzo de dos mil veinte.
+**Concordancias Legales:** artículo 58 de Ley; artículo 23 de la Ley Nº 19.968; Ley Nº 19.968; Ley N° 19.968
 
-                                                               Santiago, once de marzo de dos mil veinte.
+Santiago, once de marzo de dos mil veinte.
 
                                                                A lo principal: Por admitida a tramitación demanda de cuidado personal.
 
@@ -6057,15 +6147,13 @@ documentos legales                                                              
 Redacción de                                                         5. Las resoluciones judiciales                                       158
 documentos legales                                                      y las actas
 
-
-## 5.2     Las actas
-
-                                                                       judiciales
-
-
 ## 5.2.1 Conceptos generales
 
-                                                                       Existen diversas maneras de entender lo que es un acta, a continua-
+**Definición Canónica:** Existen diversas maneras de entender lo que es un acta, a continua-
+                                                                       ción se muestran diversos enfoques que entrega la literatura sobre
+                                                                       esta materia.
+
+Existen diversas maneras de entender lo que es un acta, a continua-
                                                                        ción se muestran diversos enfoques que entrega la literatura sobre
                                                                        esta materia.
 
@@ -6086,10 +6174,15 @@ documentos legales                                                      y las ac
                                                                        utiliza para dejar constancia de lo acontecido en reuniones, sesiones
                                                                        o asambleas.
 
-
 ## 5.2.2 Criterios de redacción
 
-                                                                       En términos generales, la redacción de actas de reuniones o juntas
+**Definición Canónica:** En términos generales, la redacción de actas de reuniones o juntas
+                                                                       tiene una serie de características generales que deben respetarse
+                                                                       para que el acta tenga validez. La primera característica que tiene la
+                                                                       redacción de este tipo de actas es que debe incluirse en el documento
+                                                                       la fecha, hora y lugar en que se desarroll
+
+En términos generales, la redacción de actas de reuniones o juntas
                                                                        tiene una serie de características generales que deben respetarse
                                                                        para que el acta tenga validez. La primera característica que tiene la
                                                                        redacción de este tipo de actas es que debe incluirse en el documento
@@ -6150,10 +6243,14 @@ documentos legales                                                      y las ac
                                                                  —        Cierre y firma. Se levanta la sesión y se firma por quienes asis-
                                                                           tieron, indicando el cargo o función ejercida por cada persona.
 
-
 ## 5.2.3 Etapas de las actas judiciales
 
-                                                                 Al igual que la redacción de un informe jurídico, las actas judiciales
+**Definición Canónica:** Al igual que la redacción de un informe jurídico, las actas judiciales
+                                                                 se desglosan en tres fases o momentos:
+                                                                 a. Planificación o planeamiento: consiste en pensar y preparar los
+                                                                    puntos esenciales que debe contener el acta, a partir de la fina-
+
+Al igual que la redacción de un informe jurídico, las actas judiciales
                                                                  se desglosan en tres fases o momentos:
                                                                  a. Planificación o planeamiento: consiste en pensar y preparar los
                                                                     puntos esenciales que debe contener el acta, a partir de la fina-
@@ -6169,10 +6266,13 @@ documentos legales                                                      y las ac
                                                                     documenta en un acta que es la síntesis de lo actuado, firmada
                                                                     por el juez y el secretario.
 
-
 ## 5.2.4 Modelos de actas judiciales
 
-                                                                 La gran mayoría de los autores y autoras plantean que la redacción
+**Definición Canónica:** La gran mayoría de los autores y autoras plantean que la redacción
+                                                                 de las actas judiciales depende, en gran medida, de la materia (civil,
+                                                                 penal, laboral, de familia, entre otras).
+
+La gran mayoría de los autores y autoras plantean que la redacción
                                                                  de las actas judiciales depende, en gran medida, de la materia (civil,
                                                                  penal, laboral, de familia, entre otras).
 
@@ -6195,8 +6295,10 @@ documentos legales                                                      y las ac
 
 ## R.A.G.S.,F.G.G.R., C.R.P.S.,H.O.S.R.,A.E.S.J., R.F.T.M. y E.D.V.M.”
 
+**Definición Canónica:** En seguida, se transcribe el desarrollo de la sesión. Esta parte puede
+                                                                 ir introducida por la siguiente fórmula:
 
-                                                                 En seguida, se transcribe el desarrollo de la sesión. Esta parte puede
+En seguida, se transcribe el desarrollo de la sesión. Esta parte puede
                                                                  ir introducida por la siguiente fórmula:
 
                                                                       “Siendo las 10:45 horas se pasa a considerar el orden del día de la sesión,
@@ -6260,51 +6362,12 @@ documentos legales                                                              
 Redacción de                                                                           5. Las resoluciones judiciales                                                 163
 documentos legales                                                                        y las actas
 
-
-## Poder judicial
-
-
-## República de chile
-
-
-## Cuarto juzgado de familia de san miguel
-
-
-
-## Acta de audiencia divorcio mutuo acuerdo
-
-
-                                                               FECHA                                   Veinticuatro de enero de dos mil diecinueve
-
-
-## Ruc                                     25-1-1627569-6
-
-
-
-## Rit                                     c-25-2019
-
-
-
-## Magistrado                              ramiro andía zubizarreta
-
-
-
-## Encargado de acta                       aída ramírez zuleta (sala 9)
-
-
-
-## Hora de inicio                          9:35
-
-
-
-## Hora de término                         10:00
-
-
-
 ## Nº DE REGISTRO DE AUDIO                 2511627569-6-1405
 
+**Definición Canónica:** DEMANDANTE COMPARECIENTE                M.C.S.P., RUN: 11.111.111-1, con domicilio en Xxxxx Xxxxx 1234,
+                                                                                                       (comuna), casada, inspectora de colegio.
 
-                                                               DEMANDANTE COMPARECIENTE                M.C.S.P., RUN: 11.111.111-1, con domicilio en Xxxxx Xxxxx 1234,
+DEMANDANTE COMPARECIENTE                M.C.S.P., RUN: 11.111.111-1, con domicilio en Xxxxx Xxxxx 1234,
                                                                                                        (comuna), casada, inspectora de colegio.
 
                                                                APODERADO COMPARECIENTE                 P.R.S., RUN: 0.000.000-0,
@@ -6312,81 +6375,63 @@ documentos legales                                                              
                                                                DEMANDADO AUSENTE                       J.C.R.G., RUN: 2.222.222-2, con domicilio en Xxxxxx Xxxxx Nº
                                                                                                        0000, (comuna).
 
-
-## Apoderado compareciente                 c.a.u.f., run: 3.333.333-3
-
-
-
-## (mandato judicial)
-
-
-
-## Actuaciones efectuadas                             sí                 no                   ord
-
-
-
-## Audiencia preparatoria                             x
-
-
-
-## Sentencia                                          x
-
-
-
 ## I.       preliminar
 
-                                                               Se da inicio a la audiencia con la individualización de los comparecientes.
+**Definición Canónica:** Se da inicio a la audiencia con la individualización de los comparecientes.
                                                                SS. da lectura a la demanda, la cual fue ratificada íntegramente en el registro del audio.
 
-
-## Ii.      llamadas las partes a conciliación de conformidad a lo estable-
-
+Se da inicio a la audiencia con la individualización de los comparecientes.
+                                                               SS. da lectura a la demanda, la cual fue ratificada íntegramente en el registro del audio.
 
 ## CIDO EN EL ARTÍCULO 67 DE LA LEY Nº 19.947
 
-                                                               Las partes señalan la imposibilidad de superar el conflicto de la convivencia conyugal y la
+**Definición Canónica:** Las partes señalan la imposibilidad de superar el conflicto de la convivencia conyugal y la
+                                                               posibilidad de conservación del vínculo matrimonial.
+
+Las partes señalan la imposibilidad de superar el conflicto de la convivencia conyugal y la
                                                                posibilidad de conservación del vínculo matrimonial.
 
 Redacción de                                                                          5. Las resoluciones judiciales                                     164
 documentos legales                                                                       y las actas
 
-
-## Iii.     acuerdo
-
-
 ## 1. Se procede a incorporar mediante su lectura el acuerdo presentado por las partes, el cual
 
-                                                                  es revisado en su totalidad a fin de verificar que se encuentran reguladas en forma com-
+**Definición Canónica:** es revisado en su totalidad a fin de verificar que se encuentran reguladas en forma com-
+                                                                  pleta y suficiente las relaciones mutuas entre las partes, cumpliéndose asimismo los demás
+                                                                  términos exigidos por el inciso segundo del artículo 55 de la Ley Nº 19.947.
+**Concordancias Legales:** artículo 55 de la Ley Nº 19.947; Ley Nº 19.947
+
+es revisado en su totalidad a fin de verificar que se encuentran reguladas en forma com-
                                                                   pleta y suficiente las relaciones mutuas entre las partes, cumpliéndose asimismo los demás
                                                                   términos exigidos por el inciso segundo del artículo 55 de la Ley Nº 19.947.
 
-## 2. Se informó a las partes el derecho a demandar compensación económica, manifestando
-
-                                                                  ambos que no ejercerán dicha acción.
-
-
-## Iv.      objeto del juicio
-
-                                                               La procedencia de decretar el divorcio de este matrimonio.
-
-
 ## V.       hechos a probar
 
-                                                               a. Existencia del vínculo matrimonial.
+**Definición Canónica:** a. Existencia del vínculo matrimonial.
                                                                b. Cuándo se produjo el cese efectivo de la convivencia.
                                                                c. Si el cese ha tenido interrupción en el último año.
 
+a. Existencia del vínculo matrimonial.
+                                                               b. Cuándo se produjo el cese efectivo de la convivencia.
+                                                               c. Si el cese ha tenido interrupción en el último año.
 
 ## Vi.      ofrecimiento de pruebas e incorporación de las mismas
 
-                                                               Conforme lo dispuesto en el artículo 61 Nº 10 de la Ley Nº 19.968, la audiencia de juicio se
+**Definición Canónica:** Conforme lo dispuesto en el artículo 61 Nº 10 de la Ley Nº 19.968, la audiencia de juicio se
+                                                               lleva a cabo de inmediato y se procede a incorporar la prueba, la cual queda íntegramente
+                                                               grabada en el registro de audio.
+**Concordancias Legales:** artículo 61; Ley Nº 19.968
+
+Conforme lo dispuesto en el artículo 61 Nº 10 de la Ley Nº 19.968, la audiencia de juicio se
                                                                lleva a cabo de inmediato y se procede a incorporar la prueba, la cual queda íntegramente
                                                                grabada en el registro de audio.
 
-
 ## Prueba ofrecida por los cónyuges
 
-                                                               Documental:
+**Definición Canónica:** Documental:
+                                                               Certificado de matrimonio de los cónyuges.
+
+Documental:
                                                                Certificado de matrimonio de los cónyuges.
 
                                                                Testimonial:
@@ -6396,10 +6441,13 @@ documentos legales                                                              
 
                                                       VII.     OBSERVACIÓN A LA PRUEBA, quedan registrados en audio.
 
-
 ## Viii.    sentencia
 
-                                                               Se deja constancia que las partes expositivas y consideraciones de la sentencia se encuentran
+**Definición Canónica:** Se deja constancia que las partes expositivas y consideraciones de la sentencia se encuentran
+                                                               registradas en audio, transcribiéndose, por ahora, solo la parte resolutiva de la misma.
+**Concordancias Legales:** artículos 102 del Código Civil; Ley Nº 19.968; Ley Nº 4.808
+
+Se deja constancia que las partes expositivas y consideraciones de la sentencia se encuentran
                                                                registradas en audio, transcribiéndose, por ahora, solo la parte resolutiva de la misma.
 
 Redacción de                                                                           5. Las resoluciones judiciales                                       165
@@ -6427,64 +6475,22 @@ documentos legales                                                              
                                                                    Regístrese.
                                                                    Archívese.
 
-## Rit: c-25-2019
-
-
 ## Ruc: 25-1-1627569-6
 
-                                                                   Dirigió la audiencia y resolvió, don RAMIRO ANDÍA ZUBIZARRETA,
+**Definición Canónica:** Dirigió la audiencia y resolvió, don RAMIRO ANDÍA ZUBIZARRETA,
+                                                                   Juez Titular del Segundo Juzgado de Familia de San Miguel. Arz.
+
+Dirigió la audiencia y resolvió, don RAMIRO ANDÍA ZUBIZARRETA,
                                                                    Juez Titular del Segundo Juzgado de Familia de San Miguel. Arz.
 
 Redacción de                                                                              5. Las resoluciones judiciales                                                      166
 documentos legales                                                                           y las actas
 
-
-## Poder judicial
-
-
-## República de chile
-
-
-## Sexto juzgado de familia de san miguel
-
-
-
-## Acta de audiencia preparatoria (cuidado personal)
-
-
-                                                               FECHA                                                Doce de noviembre de dos mil veinte
-
-
-## Ruc                                                  20-2-1745572-1
-
-
-
-## Rit                                                  c-1829-2020
-
-
-                                                               MAGISTRADO                                           María Gabriela Riquelme Zubizarreta
-
-
-## Consejero técnico                                    pedro roberto smith jones
-
-
-
-## Encargado de acta                                    rodolfo enrique plaza quilodrán
-
-
-
-## Hora de inicio                                       8:45
-
-
-
-## Hora de término                                      9:30
-
-
-
 ## Nº DE REGISTRO DE AUDIO                              2032415678-5-1345
 
+**Definición Canónica:** NIÑO                                                 D.A.P.S., cédula nacional de identidad Nº 22.222.222-2
 
-                                                               NIÑO                                                 D.A.P.S., cédula nacional de identidad Nº 22.222.222-2
+NIÑO                                                 D.A.P.S., cédula nacional de identidad Nº 22.222.222-2
 
                                                                CURADOR ADLITEM                                      M.A.G.V., cédula nacional de identidad Nº 11.111.111-1.
                                                                                                                     Correo xxxxx@gmail.com
@@ -6497,25 +6503,24 @@ documentos legales                                                              
 
                                                                FORMA DE NOTIFICACIÓN                               xxxxx@gmail.com
 
-
 ## PARTE DEMANDADA COMPARECIENTE                       V.H.P.R., cédula nacional de identidad Nº 44.444.444-
 
-                                                                                                                   4, con domicilio en calle Zzzzzz 4444, Villa Xxxxx,
+**Definición Canónica:** 4, con domicilio en calle Zzzzzz 4444, Villa Xxxxx,
+                                                                                                                   Comuna de Xxxxx.
+
+4, con domicilio en calle Zzzzzz 4444, Villa Xxxxx,
                                                                                                                    Comuna de Xxxxx.
 
                                                                ABOGADO                                             C.S.R.S.
 
                                                                FORMA DE NOTIFICACIÓN                               xxxxxx@gmail.com
 
-
-## Actuaciones efectuadas:                                     si                    no               ord
-
-
-
 ## (hecho de haberse efectuado o no)
 
+**Definición Canónica:** — Inicio e individualización
+**Concordancias Legales:** artículo 61
 
-                                                                — Inicio e individualización
+— Inicio e individualización
 
                                                                 — Relación breve y sintética de la
                                                                   demanda
@@ -6557,87 +6562,46 @@ documentos legales                                                              
                                                                 anteriormente, se remitirán de oficio los
                                                                 antecedentes al Ministerio Público.
 
-
-## Objeto del juicio
-
-                                                               Conocer la acción de cuidado personal interpuesta.
-
-
-## Hechos a probar
-
-                                                               1. Filiación de D.A.P.S.
-                                                               2. Vinculación afectiva entre D.A.P.S., sus padres V.H.P.R. y A.M.S.P.
-
-## 3. Efectividad en que la parte demandada ha incurrido en negligencia o descuido en el cui-
-
-                                                                  dado del niño.
-
-## 4. Si la parte demandante se encuentra aquejada de algún trastorno en la esfera de la salud
-
-                                                                  mental que le impida el ejercicio del cuidado personal al demandado.
-
 ## 5. Existencia de aptitud de ambos padres para garantizar el bienestar del niño y la posibilidad
 
-                                                                  de procurar un entorno adecuado según su edad.
+**Definición Canónica:** de procurar un entorno adecuado según su edad.
+                                                               6. Contribución a la mantención del niño por ambas partes.
+                                                               7. Dedicación efectiva de los padres respecto de los cuidados otorgados al niño.
+                                                               8. Habilidades parentales de ambos padres.
+
+de procurar un entorno adecuado según su edad.
                                                                6. Contribución a la mantención del niño por ambas partes.
                                                                7. Dedicación efectiva de los padres respecto de los cuidados otorgados al niño.
                                                                8. Habilidades parentales de ambos padres.
 
 ## 9. Acuerdo existente respecto del cuidado personal, régimen comunicacional y la crianza
 
-                                                                  del niño.
+**Definición Canónica:** del niño.
+
+del niño.
 
 Redacción de                                                                           5. Las resoluciones judiciales                                     168
 documentos legales                                                                        y las actas
 
-
 ## 10. En el evento que se acoja la demanda, régimen comunicacional más beneficioso a cumplir
 
-                                                                   por el padre que resulta privado de su cuidado.
+**Definición Canónica:** por el padre que resulta privado de su cuidado.
+                                                               11. Modalidad y frecuencia de dicho régimen.
+
+por el padre que resulta privado de su cuidado.
                                                                11. Modalidad y frecuencia de dicho régimen.
 
                                                                Medios de prueba
 
-
-## Parte demandante
-
-                                                               Documental:
-                                                               1. Certificado de nacimiento del niño D.A.P.S., emitido con fecha 22 de enero 2020.
-
-## 2. Informe del proceso Psicoterapéutico de la demandante A.M.S.P., de fecha 19 de noviembre
-
-
-                                                                  2020, emitido por la psicóloga Margarita Celeste Beltrán Retes.
-
-## 3. Informe médico de A.M.S.P., de fecha 6 de junio del 2018, emitido por la Doctora Marcela
-
-                                                                  Enriqueta Valenzuela Velásquez, Médico Psiquiatra, Instituto Psiquiátrico Dr. José Miguel
-                                                                  Bulnes de la Comuna de Recoleta.
-
-## 4. Certificado de Tratamiento Psicológico de A.M.S.P. de fecha 22 de junio 2018, emitido
-
-                                                                  por la Psicóloga Ana María Rojas Pérez, Instituto Psiquiátrico Dr. José Miguel Bulnes de
-                                                                  la Comuna de Recoleta.
-
-## 5. Constancia laboral de doña A.M.S.P. , emitida con fecha 25 de mayo de 2020, por don Alejan-
-
-                                                                  dro Bernardo Ríos Canales, Representante Legal y Gerente General Clínica SALUDVITAL.
-
-## 6. Copia dominio vigente del inmueble a nombre de la demandante A.M.S.P., ubicado en calle
-
-                                                                  Xxxxxxx, departamento Cxxxxx, Comuna de Xxxxxx , emitido con fecha 7 de julio 2020.
-
-## 7. Certificado de matrimonio de don V.H.P.R. y doña A.M.S.P., celebrado el 12 de octubre
-
-                                                                  2018, emitido con fecha 23 de enero 2020.
-
-## 8. Certificado de nacimiento de A.P.B.S., hija de doña A.M.S.P., emitido con fecha 7 de julio
-
-                                                                  2020.
-
 ## 9. Certificado de nacimiento de P.S.B.S., hijo de doña A.M.S.P., emitido con fecha 7 de julio
 
-                                                                  2020.
+**Definición Canónica:** 2020.
+                                                               10. Certificados Anuales de Estudios de D.A.P.S.:
+                                                                  a. Certificado Anual de estudios de Enseñanza Básica, correspondiente al año escolar
+                                                                     2015, en que cursó 1º Básico C de Enseñanza Básica, en el Establecimiento Educacional
+                                                                     Escuela Particular, Promedio General 6,2.
+
+2020.
                                                                10. Certificados Anuales de Estudios de D.A.P.S.:
                                                                   a. Certificado Anual de estudios de Enseñanza Básica, correspondiente al año escolar
                                                                      2015, en que cursó 1º Básico C de Enseñanza Básica, en el Establecimiento Educacional
@@ -6677,7 +6641,13 @@ documentos legales                                                              
 
 ## 1. Se solicita Informe Social de las partes en el juicio, oficiándose al efecto a la Ilustre Muni-
 
-                                                                  cipalidad de Quilicura, para que emita el Informe Social de la demandante doña A.M.S.P.,
+**Definición Canónica:** cipalidad de Quilicura, para que emita el Informe Social de la demandante doña A.M.S.P.,
+                                                                  asimismo se oficie a la I. Municipalidad de Renca, para que realice el Informe Social del
+                                                                  demandado V.H.P.R..
+                                                               2. Se solicita Informe Psicológico de las partes del Juicio, de la demandante doña A.M.S.P.,
+                                                                  del demandado don V.H.P.R. y del niño D.A.P.S.,
+
+cipalidad de Quilicura, para que emita el Informe Social de la demandante doña A.M.S.P.,
                                                                   asimismo se oficie a la I. Municipalidad de Renca, para que realice el Informe Social del
                                                                   demandado V.H.P.R..
                                                                2. Se solicita Informe Psicológico de las partes del Juicio, de la demandante doña A.M.S.P.,
@@ -6690,10 +6660,16 @@ documentos legales                                                              
 
                                                                Medios de prueba:
 
-
 ## Parte demandada
 
-                                                               Documental:
+**Definición Canónica:** Documental:
+                                                               1. Certificado de nacimiento del menor de autos.
+                                                               2. Certificado de matrimonio de la parte demandada.
+                                                               3. Certificado de alumno regular del menor de autos.
+                                                               4. Informe de notas y conducta del menor de autos, del año 2020.
+                                                               5. Certificado de colegio en que se indica quien es el
+
+Documental:
                                                                1. Certificado de nacimiento del menor de autos.
                                                                2. Certificado de matrimonio de la parte demandada.
                                                                3. Certificado de alumno regular del menor de autos.
@@ -6704,24 +6680,31 @@ documentos legales                                                              
 
 ## 1. Se oficie a Colegio Establecimiento Escuela, Comuna de Xxxxx, para informe respecto
 
-                                                                  del menor de autos D.A.P.S., Cédula Nacional de Identidad 22.222.222-2, en cuanto a
+**Definición Canónica:** del menor de autos D.A.P.S., Cédula Nacional de Identidad 22.222.222-2, en cuanto a
+                                                                  su asistencia, adulto responsable, informe de conducta, asimismo si la madre ha tenido
+                                                                  participación del año escolar del menor.
+
+del menor de autos D.A.P.S., Cédula Nacional de Identidad 22.222.222-2, en cuanto a
                                                                   su asistencia, adulto responsable, informe de conducta, asimismo si la madre ha tenido
                                                                   participación del año escolar del menor.
 
 ## 2. Se oficie al Instituto Psiquiátrico Dr. José Miguel Bulnes de la Comuna de Recoleta, para
 
-                                                                  que informe de evaluación, diagnósticos, tratamiento y adherencia de la parte demandante
+**Definición Canónica:** que informe de evaluación, diagnósticos, tratamiento y adherencia de la parte demandante
+                                                                  doña A.M.S.P., cédula nacional de identidad Nº 33.333.333-3.
+
+que informe de evaluación, diagnósticos, tratamiento y adherencia de la parte demandante
                                                                   doña A.M.S.P., cédula nacional de identidad Nº 33.333.333-3.
 
                                                                Pericias:
 
-## 1. Se solicita Informe Social de la parte demandada, oficiándose al efecto a la I. Municipalidad
-
-                                                                  de Renca para que emita el Informe Social del demandado V.H.P.R..
-
 ## 2. Se elabore informe psicológico respecto de las partes al tenor del objeto de juicio a ela-
 
-                                                                  borarse por CEAC UCSH, Dirección Bulnes 544, Santiago, teléfono 22-2295611, celular
+**Definición Canónica:** borarse por CEAC UCSH, Dirección Bulnes 544, Santiago, teléfono 22-2295611, celular
+                                                                  993425678, correo electrónico: jmcarrera@ucsh.cl
+**Concordancias Legales:** artículo 50; artículo 61 de la Ley Nº 19.968 se procede a dictar la siguient; artículos 50; artículo 49; artículo 46 de la Ley Nº 19.968. Redacción de; Ley Nº 19.968
+
+borarse por CEAC UCSH, Dirección Bulnes 544, Santiago, teléfono 22-2295611, celular
                                                                   993425678, correo electrónico: jmcarrera@ucsh.cl
 
                                                                Declaración jurada: Doña A.M.S.P, cédula nacional de identidad Nº 33.333.333-3, bajo aper-
@@ -6781,14 +6764,21 @@ documentos legales                                                              
 
 ## parte que los ha solicitado quedando facultado desde ya para requerir la respuesta a los mismos
 
-                                                               ante las instituciones señaladas, debiendo estar dichos informes a disposición del tribunal de
+**Definición Canónica:** ante las instituciones señaladas, debiendo estar dichos informes a disposición del tribunal de
+                                                               las partes con 5 días de anticipación a lo menos a la audiencia de juicio en conformidad lo
+                                                               dispone el artículo 46 de la Ley Nº 19.968.
+**Concordancias Legales:** artículo 46 de la Ley Nº 19.968; Ley Nº 19.968
+
+ante las instituciones señaladas, debiendo estar dichos informes a disposición del tribunal de
                                                                las partes con 5 días de anticipación a lo menos a la audiencia de juicio en conformidad lo
                                                                dispone el artículo 46 de la Ley Nº 19.968.
 
-
 ## Sirva la presente acta de suficiente y atento oficio remisor para
 
-                                                               TODAS LAS INSTITUCIONES ANTES MENCIONADAS.
+**Definición Canónica:** TODAS LAS INSTITUCIONES ANTES MENCIONADAS.
+**Concordancias Legales:** artículo 238 del Código de Procedimiento Civil; artículo 59 de la Ley de Tribunalesde Familia
+
+TODAS LAS INSTITUCIONES ANTES MENCIONADAS.
 
                                                                DICHOS INFORMES DEBERÁN SER REMITIDOS A TRAVÉS DE LA OJV.
 
@@ -6808,67 +6798,41 @@ documentos legales                                                              
                                                                Se da término a la audiencia, quedando los presentes notificados de lo resuelto y registrada
                                                                íntegramente en el sistema de audio del Tribunal.
 
-
-## Dictada por doña maría gabriela riquelme zubizarreta, juez ti-
-
-                                                               TULAR DEL QUINTO JUZGADO DE FAMILIA DE SANTIAGO.
-
-                                                               A continuación, se transcribe otro modelo de extensión relativamente breve.
-
-
 ## ACTA Nº 022
 
-                                                               CIUDAD Y FECHA: Santiago de Chile. Mayo 9 de 2016
+**Definición Canónica:** CIUDAD Y FECHA: Santiago de Chile. Mayo 9 de 2016
+                                                               LUGAR: Ahumada 144 oficina 15.
+                                                               HORA: 5:00 p.m.
+                                                               MOTIVO: Cambio de Presidente, Vicepresidente, Secretaría, Vocal 1, Fiscal 1.
+
+CIUDAD Y FECHA: Santiago de Chile. Mayo 9 de 2016
                                                                LUGAR: Ahumada 144 oficina 15.
                                                                HORA: 5:00 p.m.
                                                                MOTIVO: Cambio de Presidente, Vicepresidente, Secretaría, Vocal 1, Fiscal 1.
 
 ## Orden del día
 
-
-Redacción de                                                                           5. Las resoluciones judiciales                                      173
+**Definición Canónica:** Redacción de                                                                           5. Las resoluciones judiciales                                      173
 documentos legales                                                                        y las actas
 
+Redacción de                                                                           5. Las resoluciones judiciales                                      173
+documentos legales                                                                        y las actas
 
 ## 1. Convocatoria
 
-
-## 2. Llamada a Lista
-
-
-## 3. Cambio Presidente, Vicepresidente, Secretaría, Vocal 1, Fiscal 1
-
-
-## 4. Empalme Representante Legal entrante y saliente
-
-
-## 5. Constancias de Aceptación de cargo y compromiso por parte de los nuevos integrantes
-
-                                                                  de la Junta Directiva
-
-## 6. Proposiciones y Varios
-
-
-
-## Desarrollo
-
-
-
-## 1. Convocatoria
-
-                                                                  La convocatoria la realizó la señora J.E.C.R., identificada con número de RUN 11.111.111-1
+**Definición Canónica:** La convocatoria la realizó la señora J.E.C.R., identificada con número de RUN 11.111.111-1
                                                                   de la Comuna de San Joaquín, con cinco días de anticipación el dia 4 de mayo de 2016 de
                                                                   forma verbal.
 
-## 2. Llamado a Lista, existe Quórum
-
-
-## 3. Cambio de Presidenta, Vicepresidenta, Secretaría, Vocal 1, Fiscal 1
-
+La convocatoria la realizó la señora J.E.C.R., identificada con número de RUN 11.111.111-1
+                                                                  de la Comuna de San Joaquín, con cinco días de anticipación el dia 4 de mayo de 2016 de
+                                                                  forma verbal.
 
 ## 4. La elección de la Presidenta, Vicepresidenta, Secretaría, Vocal 1, Fiscal 1 fue dirigida por
 
-                                                                  unanimidad quedando
+**Definición Canónica:** unanimidad quedando
+
+unanimidad quedando
 
                                                                   Presidenta: M.C.
                                                                   Vicepresidente: D.E.C.
@@ -6883,8 +6847,12 @@ documentos legales                                                              
 
 ## 4. Empalme de la Presidenta, Vicepresidenta, Vocal 1, Fiscal 1
 
+**Definición Canónica:** Finalmente, agregamos este interesante modelo de acta judicial. Es conveniente señalar que
+                                                               la gran mayoría de las actas judiciales se hacen en función de audiencias, las que se realizan
+                                                               en el mismo acto; por lo tanto, en oportunidades no están adecuadamente redactadas, por la
+                                                               contingencia espacio-temporal.
 
-                                                               Finalmente, agregamos este interesante modelo de acta judicial. Es conveniente señalar que
+Finalmente, agregamos este interesante modelo de acta judicial. Es conveniente señalar que
                                                                la gran mayoría de las actas judiciales se hacen en función de audiencias, las que se realizan
                                                                en el mismo acto; por lo tanto, en oportunidades no están adecuadamente redactadas, por la
                                                                contingencia espacio-temporal.
@@ -6892,14 +6860,15 @@ documentos legales                                                              
 Redacción de                                                                              5. Las resoluciones judiciales                                                   174
 documentos legales                                                                           y las actas
 
-
-## Acta de audiencia preparatoria
-
-
 ## (alimentos)
 
+**Definición Canónica:** Fecha                                                Santiago, a veintidós de diciembre de dos mil veinte
+                                                               Ruc                                                  20- 2-2230987-7
+                                                               Rit                                                  C-5826-2020
+                                                               Magistrado                                           Eliana Enriqueta Paredes Tolosa
+                                                               Consejero técnico      
 
-                                                               Fecha                                                Santiago, a veintidós de diciembre de dos mil veinte
+Fecha                                                Santiago, a veintidós de diciembre de dos mil veinte
                                                                Ruc                                                  20- 2-2230987-7
                                                                Rit                                                  C-5826-2020
                                                                Magistrado                                           Eliana Enriqueta Paredes Tolosa
@@ -6912,13 +6881,14 @@ documentos legales                                                              
 
                                                                Niño                                                 A.R.G.P
 
-## R.u.n. : 22.222.222-2
-
-                                                               Parte demandante comparece                           R.M.P.H.
-
 ## R.u.n. : 11.111.111-1
 
-                                                                                                                    xxxxx@gmail.com
+**Definición Canónica:** xxxxx@gmail.com
+                                                                                                                    Xxxxx Nº xxx, (comuna)
+                                                               Apoderado                                            J.L.R.
+                                                               Forma de notificación                                zzzzz@gmail.com
+
+xxxxx@gmail.com
                                                                                                                     Xxxxx Nº xxx, (comuna)
                                                                Apoderado                                            J.L.R.
                                                                Forma de notificación                                zzzzz@gmail.com
@@ -6927,7 +6897,13 @@ documentos legales                                                              
 
 ## R.u.n.: 33.333.333-3
 
-                                                                                                                    Yyyyyyy Nº 0000, (comuna)
+**Definición Canónica:** Yyyyyyy Nº 0000, (comuna)
+                                                                                                                    gggg@gmail.com
+                                                               Abogado                                              E.V.A.A.
+                                                               Forma de notificación                                xxxxx.abogados@gmail.com
+**Concordancias Legales:** Artículo 61
+
+Yyyyyyy Nº 0000, (comuna)
                                                                                                                     gggg@gmail.com
                                                                Abogado                                              E.V.A.A.
                                                                Forma de notificación                                xxxxx.abogados@gmail.com
@@ -6961,8 +6937,12 @@ documentos legales                                                              
 
 ## 1. Don M.G.G.G., proporcionará una pensión de alimentos en favor de su hijo A.R.G.P., la
 
+**Definición Canónica:** suma ascendente a $600.000 mensuales, reajustable en forma semestral según la variación
+                                                                  del I.P.C. pagadera mediante depósito en cuenta de ahorro a la vista del Banco Estado,
+                                                                  número 00000000 a nombre de doña R.M.P.H.. A pagar los cuatro primeros días de cada
+                                                                  mes, desde el mes de Enero de 2021.
 
-                                                                  suma ascendente a $600.000 mensuales, reajustable en forma semestral según la variación
+suma ascendente a $600.000 mensuales, reajustable en forma semestral según la variación
                                                                   del I.P.C. pagadera mediante depósito en cuenta de ahorro a la vista del Banco Estado,
                                                                   número 00000000 a nombre de doña R.M.P.H.. A pagar los cuatro primeros días de cada
                                                                   mes, desde el mes de Enero de 2021.
@@ -6971,12 +6951,19 @@ documentos legales                                                              
 
 ## 3. El padre asume el pago del 50% de gastos de educación, en los siguientes ítems: útiles
 
-                                                                  escolares, uniformes, textos escolares los que serán pagados en febrero de cada año antes
+**Definición Canónica:** escolares, uniformes, textos escolares los que serán pagados en febrero de cada año antes
+                                                                  del inicio del año escolar y el pago de la matrícula en el mes de octubre de cada año.
+
+escolares, uniformes, textos escolares los que serán pagados en febrero de cada año antes
                                                                   del inicio del año escolar y el pago de la matrícula en el mes de octubre de cada año.
 
 ## 4. El padre asumirá además el pago 50% de todos los gastos de salud, medicamentos y trata-
 
-                                                                  mientos dentales, una vez efectuado el reembolso en Isapre. Ambos litigantes acordaran
+**Definición Canónica:** mientos dentales, una vez efectuado el reembolso en Isapre. Ambos litigantes acordaran
+                                                                  cuál será la institución que va a prestar las atenciones de salud del hijo previa comunicación
+                                                                  por correo electrónico.
+
+mientos dentales, una vez efectuado el reembolso en Isapre. Ambos litigantes acordaran
                                                                   cuál será la institución que va a prestar las atenciones de salud del hijo previa comunicación
                                                                   por correo electrónico.
 
@@ -6990,13 +6977,11 @@ documentos legales                                                              
 
                                                                Se da término a la audiencia quedando los presentes notificados de lo resuelto.
 
-
-## Dirigió la audiencia y resolvió la juez del segundo juzgado de
-
-
 ## Familia de santiago, que se individualiza en la firma electrónica
 
-                                                               AVANZADA ESTAMPADA EN LA PRESENTE ACTA.
+**Definición Canónica:** AVANZADA ESTAMPADA EN LA PRESENTE ACTA.
+
+AVANZADA ESTAMPADA EN LA PRESENTE ACTA.
 
 Redacción de                                                   5. Las resoluciones judiciales                                     176
 
@@ -7013,10 +6998,11 @@ documentos legales                                                              
                                                                       tórica, educativa, tecnológica, etcétera, cuyo fin es la divulgación de
                                                                       los conocimientos adquiridos y producidos.
 
-
 ## 6.1     Aspectos básicos
 
-                                                                       de la monografía
+**Definición Canónica:** de la monografía
+
+de la monografía
 
                                                                       La monografía, en cuanto a sus límites, puede considerarse un do-
 
@@ -7150,10 +7136,15 @@ documentos legales                                                              
                                                       2.1 Ejercicios Capítulo 2 A:
                                                           Redacción: principios básicos y normativos en los textos judiciales
 
-
 ## 1.       Los párrafos que siguen adolecen de monotonía o pesadez y oscuridad. Vuelva a
 
-                                                               redactarlos procurando la variedad y armonía. En ocasiones habrá de alterar, ligeramente,
+**Definición Canónica:** redactarlos procurando la variedad y armonía. En ocasiones habrá de alterar, ligeramente,
+                                                               el giro de las frases. Intente que dicha alteración sea mínima.
+                                                               a.   Me había retrasado mucho. Él iba a salir de un momento a otro. Tenía miedo de perderlo.
+                                                                    Corrí hacia la ventanilla. Pedí un billete de primera. No encontraba la cartera para pagar.
+                                                                   
+
+redactarlos procurando la variedad y armonía. En ocasiones habrá de alterar, ligeramente,
                                                                el giro de las frases. Intente que dicha alteración sea mínima.
                                                                a.   Me había retrasado mucho. Él iba a salir de un momento a otro. Tenía miedo de perderlo.
                                                                     Corrí hacia la ventanilla. Pedí un billete de primera. No encontraba la cartera para pagar.
@@ -7200,19 +7191,29 @@ documentos legales                                                              
                                                                      de estas inmensas urbes no descansa lo necesario. Vive, como los monos, en constante
                                                                      alteración. Trabaja mucho, va de allá continuamente. No reposa lo suficiente
 
-
 ## 2.       Escoja dos de los siguientes temas y redacte un escrito sobre ellos que no sobrepase las
 
-                                                               20 líneas.
+**Definición Canónica:** 20 líneas.
+                                                                     Autobiografía - La comunicación en mi grupo - El estudio - El ocio - El trabajo - La corrup-
+                                                                     ción - La moda - La televisión - La injusticia social - La sobrepoblación - La ciudad - La
+                                                                     contaminación - La guerra - La paz - La desnutrición - La contaminación - La energía - La
+                                                                     brecha social - El impacto de las redes
+
+20 líneas.
                                                                      Autobiografía - La comunicación en mi grupo - El estudio - El ocio - El trabajo - La corrup-
                                                                      ción - La moda - La televisión - La injusticia social - La sobrepoblación - La ciudad - La
                                                                      contaminación - La guerra - La paz - La desnutrición - La contaminación - La energía - La
                                                                      brecha social - El impacto de las redes sociales.
 
-
 ## 3.       Lea dos veces cada uno de los párrafos e identifique el estilo clasificándolo en alguna de
 
-                                                               las categorías que se indican: literario (L), epistolar (E), novelístico (N), periodístico (P) o
+**Definición Canónica:** las categorías que se indican: literario (L), epistolar (E), novelístico (N), periodístico (P) o
+                                                               instrumental (I).
+                                                               a.    Difiriendo, por mi parte, a estas consideraciones, me siento con una gran propensión a
+                                                                     mandar a Panamá a los dos diputados de esta República, apenas tenga el honor de recibir
+                                                                     la ansiada respuesta a esta circular. Na
+
+las categorías que se indican: literario (L), epistolar (E), novelístico (N), periodístico (P) o
                                                                instrumental (I).
                                                                a.    Difiriendo, por mi parte, a estas consideraciones, me siento con una gran propensión a
                                                                      mandar a Panamá a los dos diputados de esta República, apenas tenga el honor de recibir
@@ -7252,10 +7253,16 @@ documentos legales                                                              
                                                                     miento externo, para atender a las necesidades de importaciones. (CEPAL, El Desarrollo de
                                                                     América Latina en los Años Ochenta)
 
-
 ## 4.       El siguiente grupo de oraciones forma parte de un párrafo, pero se presenta en forma
 
-                                                               desordenada para que Ud. encuentre el orden más adecuado.
+**Definición Canónica:** desordenada para que Ud. encuentre el orden más adecuado.
+                                                               a.   Como resultado, ahora los gobiernos, hospitales, universidades, e industrias cuentan con
+                                                                    información valiosa e instantánea.
+                                                               b.   Los adelantos alcanzados en informática significan un gran salto adelante en el progreso
+                                                                    de la humanidad.
+                                        
+
+desordenada para que Ud. encuentre el orden más adecuado.
                                                                a.   Como resultado, ahora los gobiernos, hospitales, universidades, e industrias cuentan con
                                                                     información valiosa e instantánea.
                                                                b.   Los adelantos alcanzados en informática significan un gran salto adelante en el progreso
@@ -7275,10 +7282,13 @@ documentos legales                                                              
                                                                     bienes suficientes para mantener esos niveles.
                                                                h.   Los salarios y los niveles de vida dependen de la productividad de la industria del país.
 
-
 ## 5.       A continuación se presenta un modelo de esquema o guía para un escrito. Estúdielo atenta-
 
-                                                               mente e identifique las partes en que está dividido y subdividido. Luego redacte un escrito
+**Definición Canónica:** mente e identifique las partes en que está dividido y subdividido. Luego redacte un escrito
+                                                               de unas 300 palabras (sin importar si es artículo, carta o texto educativo) basado en este
+                                                               esquema. No es obligación usar todas las subdivisiones que se presentan en letra minúscula.
+
+mente e identifique las partes en que está dividido y subdividido. Luego redacte un escrito
                                                                de unas 300 palabras (sin importar si es artículo, carta o texto educativo) basado en este
                                                                esquema. No es obligación usar todas las subdivisiones que se presentan en letra minúscula.
 
@@ -7618,10 +7628,14 @@ documentos legales                                                              
 
                                                                Objetivo: reconocer y aplicar las distintas formas de expresión lingüística
 
-
 ## 5.       Recorte, de la sección editorial de un diario, algún artículo de opinión que le interese
 
-                                                               y subraye con una línea azul la opinión central y con una línea roja los argumentos que
+**Definición Canónica:** y subraye con una línea azul la opinión central y con una línea roja los argumentos que
+                                                               apoyan esta opinión.
+                                                               —    Seleccione una reseña informativa. Subraye con azul la información del libro y con rojo
+                                                                    todo comentario del reseñador
+
+y subraye con una línea azul la opinión central y con una línea roja los argumentos que
                                                                apoyan esta opinión.
                                                                —    Seleccione una reseña informativa. Subraye con azul la información del libro y con rojo
                                                                     todo comentario del reseñador
@@ -7649,21 +7663,23 @@ documentos legales                                                              
                                                       4.       Ejercicios Capítulo 4:
                                                                El Informe
 
-
 ## 1.       A partir del modelo de informe en derecho recién revisado, redacte un resumen (que no
 
-                                                               exceda las 10 líneas) y un análisis de las principales ideas establecidas por el autor (que no
+**Definición Canónica:** exceda las 10 líneas) y un análisis de las principales ideas establecidas por el autor (que no
+                                                               exceda las 40 líneas).
+
+exceda las 10 líneas) y un análisis de las principales ideas establecidas por el autor (que no
                                                                exceda las 40 líneas).
 
                                                       2.       Redacte un informe breve, solicitado por su superior jerárquico.
 
                                                       3.       Redacte un informe sobre el uso apropiado del teléfono en la oficina en horas de trabajo.
 
-
 ## 4.       Como jefe de personal, usted se dirigirá a los empleados para notificarles sobre el horario
 
+**Definición Canónica:** en que se pueden hacer llamadas personales.
 
-                                                               en que se pueden hacer llamadas personales.
+en que se pueden hacer llamadas personales.
 
                                                       5.       Explique cuándo se escribe un informe.
 
@@ -7671,10 +7687,11 @@ documentos legales                                                              
 
                                                       7.       Explique las diferentes partes en que se estructura un informe.
 
-
 ## 8.       Señale las diferencias entre los distintos tipos de informes y dé ejemplos considerando
 
-                                                               los que se elaboran en su propio trabajo.
+**Definición Canónica:** los que se elaboran en su propio trabajo.
+
+los que se elaboran en su propio trabajo.
 
                                                       9.       Glosario de términos. Buscar el significado de los siguientes vocablos:
 
@@ -7757,18 +7774,25 @@ documentos legales                                                              
 
                                                       2.       A su juicio, cuáles deben ser las características de una buena resolución.
 
-
 ## 3.       De los documentos presentados en los ejemplos del capítulo 5 (5.1.3) , seleccione una
 
-                                                               resolución judicial identifique la estructura del contenido y analícela, agregando un breve
+**Definición Canónica:** resolución judicial identifique la estructura del contenido y analícela, agregando un breve
+                                                               comentario sobre ella.
+
+resolución judicial identifique la estructura del contenido y analícela, agregando un breve
                                                                comentario sobre ella.
 
                                                       4.       Redacte una resolución judicial breve.
 
-
 ## 5.       A partir del ejemplo siguiente, en que un litigante recibe una resolución, responda las
 
-                                                               preguntas formuladas a continuación del texto:
+**Definición Canónica:** preguntas formuladas a continuación del texto:
+                                                               “Conforme consta de la demanda interpuesta por X sobre rectificación de partida, se
+                                                               tiene que Y es su apoderada conforme al poder anexado a la demanda, sin embargo en el
+                                                               encabezamiento se verifica que Z es quien interpone la acción, persona que no suscribe la
+                                                               demanda; Razón por la cual le corresponde
+
+preguntas formuladas a continuación del texto:
                                                                “Conforme consta de la demanda interpuesta por X sobre rectificación de partida, se
                                                                tiene que Y es su apoderada conforme al poder anexado a la demanda, sin embargo en el
                                                                encabezamiento se verifica que Z es quien interpone la acción, persona que no suscribe la
@@ -7800,10 +7824,12 @@ documentos legales                                                              
 
                                                       1.       Explique las diferencias entre la monografía y el informe.
 
-
 ## 2.       Elabore un plan de investigación que incluya: título tentativo del trabajo, pregunta
 
-                                                               principal, objetivo general y las razones por las que seleccionó el tema objeto de estudio.
+**Definición Canónica:** principal, objetivo general y las razones por las que seleccionó el tema objeto de estudio.
+**Concordancias Legales:** Constitucion
+
+principal, objetivo general y las razones por las que seleccionó el tema objeto de estudio.
 
                                                       3.       Redacte una breve monografía sobre un tema escogido por usted, que considere interés,
                                                                conocimiento, accesibilidad a las fuentes y metodología.
@@ -7827,13 +7853,20 @@ documentos legales                                                              
 
 ## 3.    ÁLVAREZ UNDURRAGA, Gabriel (2017a): Cur-
 
-                                                            so de investigación jurídica (Santiago de Chile,       15.   Comisión del Lenguaje Claro Poder Judicial de
+**Definición Canónica:** so de investigación jurídica (Santiago de Chile,       15.   Comisión del Lenguaje Claro Poder Judicial de
+                                                            Thomson Reuters, 3ª edición).                                Chile (2018): Glosario de términos jurídicos (San-
+                                                                                                                         tiago, Poder Judicial de la República de Chile).
+
+so de investigación jurídica (Santiago de Chile,       15.   Comisión del Lenguaje Claro Poder Judicial de
                                                             Thomson Reuters, 3ª edición).                                Chile (2018): Glosario de términos jurídicos (San-
                                                                                                                          tiago, Poder Judicial de la República de Chile).
 
 ## 4.    ÁLVAREZ UNDURRAGA, Gabriel (2017b): Expre-
 
-                                                            sión escrita (Santiago de Chile, material elabo-       16.   COPI, Irving (1974): Introducción a la lógica (Mé-
+**Definición Canónica:** sión escrita (Santiago de Chile, material elabo-       16.   COPI, Irving (1974): Introducción a la lógica (Mé-
+                                                            rado para el Curso de Perfeccionamiento de la
+
+sión escrita (Santiago de Chile, material elabo-       16.   COPI, Irving (1974): Introducción a la lógica (Mé-
                                                             rado para el Curso de Perfeccionamiento de la
 
                                                                                                                          xico, Limusa, 2007). Disponible online [fecha de
@@ -7860,7 +7893,12 @@ documentos legales                                                              
 
 ## 20.   FERNÁNDEZ, Graciela (2011): Argumentación y
 
-                                                      9.    BERGALLI, Roberto (1999): Hacia una cultura                  lenguaje jurídico : aplicación al análisis de una
+**Definición Canónica:** 9.    BERGALLI, Roberto (1999): Hacia una cultura                  lenguaje jurídico : aplicación al análisis de una
+                                                            de la jurisdicción. Ideología de jueces y fiscales           sentancia de la Suprema Corte de Justicia de la
+                                                            (Buenos Aires, Ad hoc, 1999).                                Nación (México, Universidad Nacional Autóno-
+                                                      10.   CARRETERO GONZÁLEZ, Cristina (2015): “La                     ma de México, 2011). Dispon
+
+9.    BERGALLI, Roberto (1999): Hacia una cultura                  lenguaje jurídico : aplicación al análisis de una
                                                             de la jurisdicción. Ideología de jueces y fiscales           sentancia de la Suprema Corte de Justicia de la
                                                             (Buenos Aires, Ad hoc, 1999).                                Nación (México, Universidad Nacional Autóno-
                                                       10.   CARRETERO GONZÁLEZ, Cristina (2015): “La                     ma de México, 2011). Disponible online [fecha de
@@ -7874,7 +7912,13 @@ documentos legales                                                              
 
 ## 12.   CARRIÓ, Genaro (2001): Sobre los límites del len-
 
-                                                            guaje normativo (Buenos Aires, Editorial Astrea,       22.   GETTIAL, Juan Carlos (2013): Manual básico de
+**Definición Canónica:** guaje normativo (Buenos Aires, Editorial Astrea,       22.   GETTIAL, Juan Carlos (2013): Manual básico de
+                                                            2001).                                                       redacción para abogados (Bogotá, Universidad
+                                                                                                                         Libre, Facultad de Filosofía).
+                                                      13.   COLOMA, Rodrigo y AGÜERO, Claudio (2012):
+                                                            “Los abogados
+
+guaje normativo (Buenos Aires, Editorial Astrea,       22.   GETTIAL, Juan Carlos (2013): Manual básico de
                                                             2001).                                                       redacción para abogados (Bogotá, Universidad
                                                                                                                          Libre, Facultad de Filosofía).
                                                       13.   COLOMA, Rodrigo y AGÜERO, Claudio (2012):
@@ -7892,7 +7936,12 @@ documentos legales                                                              
 
 ## 25.   GUTIÉRREZ, Javier María (2011): “El discurso
 
-                                                            jurídico: discursos profesional y académico”, en      35.   PUY MUÑOZ, Francisco (2004): “Tópica jurídica
+**Definición Canónica:** jurídico: discursos profesional y académico”, en      35.   PUY MUÑOZ, Francisco (2004): “Tópica jurídica
+                                                            Ministerio de Educación, Cultura y Deporte de               y retórica jurídica. Un ensayo de distinción”, en
+                                                            España: IV Congreso Internacional de Español                revista Ars Iuris Nº 31 (2004), Universidad Pana-
+                                                            para fines específicos, CIEFE (Ámsterdam, Países            mericana; pp. 271-303. Disponible 
+
+jurídico: discursos profesional y académico”, en      35.   PUY MUÑOZ, Francisco (2004): “Tópica jurídica
                                                             Ministerio de Educación, Cultura y Deporte de               y retórica jurídica. Un ensayo de distinción”, en
                                                             España: IV Congreso Internacional de Español                revista Ars Iuris Nº 31 (2004), Universidad Pana-
                                                             para fines específicos, CIEFE (Ámsterdam, Países            mericana; pp. 271-303. Disponible online [fecha de
@@ -7919,14 +7968,26 @@ documentos legales                                                              
 
 ## 29.   MONTOLÍO DURÁN, Estrella (2012): “La moder-
 
-                                                            nización del discurso jurídico español impulsa-       40.   ROMÁN, Arquímides (1986): Informes para tomar
+**Definición Canónica:** nización del discurso jurídico español impulsa-       40.   ROMÁN, Arquímides (1986): Informes para tomar
+                                                            da por el ministerio de justicia. Presentación y            decisiones (Valencia, Venezuela; Vadell Hermanos,
+                                                            principales aportaciones del informe sobre el               Editores).
+                                                            lenguaje escrito”, en Revista de Llengua i Dret Nº
+
+nización del discurso jurídico español impulsa-       40.   ROMÁN, Arquímides (1986): Informes para tomar
                                                             da por el ministerio de justicia. Presentación y            decisiones (Valencia, Venezuela; Vadell Hermanos,
                                                             principales aportaciones del informe sobre el               Editores).
                                                             lenguaje escrito”, en Revista de Llengua i Dret Nº
 
 ## 41.   Secretaría de la Función Pública (2007): Manual
 
-                                                            57 (2012); pp. 96-120. Disponible online [fecha de
+**Definición Canónica:** 57 (2012); pp. 96-120. Disponible online [fecha de
+                                                                                                                        de lenguaje claro (México, Dirección General de
+                                                            consulta: 9 de abril 2021].
+                                                                                                                        Simplificación Regulatoria). Disponible online
+                                                      30.   NINO, Carlos Santiago (2003): La Constitución               [fecha
+**Concordancias Legales:** Constitución
+
+57 (2012); pp. 96-120. Disponible online [fecha de
                                                                                                                         de lenguaje claro (México, Dirección General de
                                                             consulta: 9 de abril 2021].
                                                                                                                         Simplificación Regulatoria). Disponible online
@@ -7935,7 +7996,13 @@ documentos legales                                                              
 
 ## 42.   SCHWEIZER, Reiner (2008): “El lenguaje como
 
-                                                            2003; pp. 168-74.
+**Definición Canónica:** 2003; pp. 168-74.
+                                                                                                                        fundamento del derecho”, en Pensamiento Jurí-
+                                                      31.   OLMEDO, Alfredo, BARRENECHEA, Aníbal y MI-                  dico Nº 24 (2009), pp. 179-200. Disponible online
+                                                            SARI, David (2010): Oratoria forense y redacción            [fecha de consulta: 9 de abril 2021].
+                                                            jurídica (Lima, Escuela de A
+
+2003; pp. 168-74.
                                                                                                                         fundamento del derecho”, en Pensamiento Jurí-
                                                       31.   OLMEDO, Alfredo, BARRENECHEA, Aníbal y MI-                  dico Nº 24 (2009), pp. 179-200. Disponible online
                                                             SARI, David (2010): Oratoria forense y redacción            [fecha de consulta: 9 de abril 2021].
@@ -7943,18 +8010,27 @@ documentos legales                                                              
 
 ## 43.   TAMAYO Y TAMAYO, Mario (1990): Diccionario
 
-                                                            cos Universidad San Marcos, Editorial San Mar-
+**Definición Canónica:** cos Universidad San Marcos, Editorial San Mar-
                                                                                                                         de la investigación científica (México DF, Limusa,
                                                             cos, 2010). Disponible online [fecha de consulta: 9
                                                                                                                         1990).
                                                             de abril 2021].
 
-## 44.   TOULMIN, Stephen (1979): “Lógica y vida”, en El
-
+cos Universidad San Marcos, Editorial San Mar-
+                                                                                                                        de la investigación científica (México DF, Limusa,
+                                                            cos, 2010). Disponible online [fecha de consulta: 9
+                                                                                                                        1990).
+                                                            de abril 2021].
 
 ## 32.   PERELMAN, Chaim y OLBRECHTS-TYTECA, Lu-
 
-                                                                                                                        puesto de la razón en la ética [An examination of
+**Definición Canónica:** puesto de la razón en la ética [An examination of
+                                                            cie (1989): Tratado de la argumentación. La nueva
+                                                                                                                        the Place of Reason in Ethics, Cambridge, 1950],
+                                                            retórica (Madrid, Editorial Gredos).
+                                                                                                                        trad. de J.F. Ariza (Alianza Editorial, Madrid, 1979);
+
+puesto de la razón en la ética [An examination of
                                                             cie (1989): Tratado de la argumentación. La nueva
                                                                                                                         the Place of Reason in Ethics, Cambridge, 1950],
                                                             retórica (Madrid, Editorial Gredos).
@@ -7964,7 +8040,13 @@ documentos legales                                                              
 
 ## 45.   VAN DIJK, Ten (1980): Estructuras y funciones del
 
-                                                            guaje jurídico”, en Revista Cultura Jurídica Nº 4,
+**Definición Canónica:** guaje jurídico”, en Revista Cultura Jurídica Nº 4,
+                                                                                                                        discurso (México, Siglo 21, 1980).
+                                                            editada por el Gobierno del Estado de México,
+                                                            Poder Judicial, Consejo de la Judicatura (Toluca,
+                                                            México, ); pp. 165-185.
+
+guaje jurídico”, en Revista Cultura Jurídica Nº 4,
                                                                                                                         discurso (México, Siglo 21, 1980).
                                                             editada por el Gobierno del Estado de México,
                                                             Poder Judicial, Consejo de la Judicatura (Toluca,
@@ -7972,53 +8054,14 @@ documentos legales                                                              
 
 Redacción de                                                                                                  Bibliografía   206
 
-
 ## 46.   VAN EEMEREN F. H. y GROOTENDORST Rob
 
-                                                            (1992): Argumentación, comunicación y falacias:
+**Definición Canónica:** (1992): Argumentación, comunicación y falacias:
                                                             una perspectiva pragma-dialéctica, trad. de Ana
                                                             María Vicuña y Celso López (Santiago de Chile,
                                                             Ediciones Universidad Católica de Chile, 2002).
 
-
-## 47.   VALENZUELA, Rodrigo (2009): Retórica. Un en-
-
-                                                            sayo sobre tres dimensiones de la argumentación
-                                                            (Santiago, Editorial Jurídica Andrés Bello).
-
-←   Índice de contenidos
-
-## Serie de
-
-Redacción de                                        Introducción   DOCUMENTOS 208
-documentos legales                                                 MATERIALES
-
-## Docentes
-
-
-ial
- c
- udi
- J
- a
- mi
- de
- a
- c
- A
- s
- e
- nt
- e
- c
- do
- s
- al
- e
- ri
- e
-Mat
-
-    Academia Judicial de Chile | www.academiajudicial.cl
-
-←      Índice de contenidos
+(1992): Argumentación, comunicación y falacias:
+                                                            una perspectiva pragma-dialéctica, trad. de Ana
+                                                            María Vicuña y Celso López (Santiago de Chile,
+                                                            Ediciones Universidad Católica de Chile, 2002).

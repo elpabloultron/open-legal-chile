@@ -13,19 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Juzgados de
+               Garantía:
+               nociones básicas de
+               organización y
 
-               Juzgados de
+Juzgados de
                Garantía:
                nociones básicas de
                organización y
@@ -45,19 +40,21 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Patricio
+                                   Aguilar
+                                   Paulsen
+                             Magíster-MBA (doble titulación) en la
+                             Universidad de Lleida, España, es inge-
+                             niero comercial de la Universidad Central
+                             de Chile y diplomado Certificated Inter-
+                             national Business Management, George-
+                             town University/CIED, posee diplomados
+                             en habilidades directivas y gestión de
+                         
 
-                             Patricio
+Patricio
                                    Aguilar
                                    Paulsen
                              Magíster-MBA (doble titulación) en la
@@ -93,26 +90,21 @@ somosreal.cl                 ante el Comité Permanente de Dere-
 Nº 27                        Niño del Ministerio de Justicia y ha sido
                              docente del Diplomado Procesal de FaSantiago, Chile              milia PUCV desde 2017 a la fecha.
 
-
-## Isbn n°
-
-
-## 2022-a-1845
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Juan Carlos
+                                Maggiolo
+                                Caro
+                          Magíster en Derecho Penal y Ciencias
+                          Penales por las universidades de Bar-
+                          celona y Pompeu Fabra respectiva-
+                          mente, es abogado de la Universidad
+                          Andrés Bello y coautor del libro Con-
+                          ducción de estado de ebriedad y bajo
+                          la influencia del alcohol. Ingresó al PoAcademia                  der Judicial en 2000 y ha sido Juez de
+   
 
-                          Juan Carlos
+Juan Carlos
                                 Maggiolo
                                 Caro
                           Magíster en Derecho Penal y Ciencias
@@ -192,226 +184,11 @@ Santiago,                 Diplomado de Litigación Oral de la UniChile 2021     
 
                                         Introducción                                                          10
 
-
-## 1. Los Juzgados de Garantía                                           11
-
-
-
-## 1.1 Definición                                                     12
-
-
-
-## 1.2 Procedimientos penales                                         13
-
-
-
-## 1.3 Administrador                                                  16
-
-
-
-## 1.4   Unidades de los Juzgados de Garantía                         17
-
-
-
-## 2. Unidades operativas de los Juzgados de Garantía                    22
-
-
-
-## 2.1 Unidad de Atención de Público y Servicios                      23
-
-
-
-## 2.1.1 Jefe de la Unidad de Atención de Público y Servicios   23
-
-
-
-## 2.1.2 Administrativo de Atención de Público                  26
-
-
-
-## 2.1.3 Administrativo Contable                                28
-
-
-
-## 2.1.4 Administrativo Informático                             29
-
-
-
-## 2.1.5 Asistente Administrativo                               30
-
-
-
-## 2.1.6 Ayudante de Servicios                                  32
-
-
-
-## 2.2 Unidad de Sala                                                 34
-
-
-
-## 2.2.1 Jefe de la Unidad de Sala                              34
-
-
-
-## 2.2.2 Encargado de Sala                                      36
-
-
-
-## 2.2.3 Administrativo de Acta                                 37
-
-
-
-## 2.2.4 Ayudante de Sala                                       39
-
-
-
-## 2.2.5 Administrativo de Notificación                         40
-
-
-
-## 2.2.6 Notificador                                            41
-
-
-
-## 2.3 Unidad de Causas                                               43
-
-
-
-## 2.3.1 Jefe de la Unidad de Causas                            43
-
-
-
-## 2.3.2 Encargado de Causas                                    45
-
-
-
-## 2.3.3 Administrativo de Causas                               46
-
-
-
-## 2.3.4 Ayudante de Causas                                     47
-
-
-
-## 2.4 Unidad de Cumplimiento                                         49
-
-
-
-## 2.4.1 Jefe de la Unidad de Cumplimiento                      49
-
-Juzgados de Garantía:                                                               Índice                                                     7
-
-
-## 2.4.2 Administrativo de Cumplimiento                                                      51
-
-
-
-## 3. Procesos administrativos de los Juzgados de Garantía                                          53
-
-
-
-## 3.1 Atención de público                                                                       54
-
-
-
-## 3.1.1 Atención en mesón de público                                                       54
-
-
-
-## 3.1.2 Recepción de escritos materiales y correspondencia                                 57
-
-
-
-## 3.1.3 Solicitud de copias                                                                58
-
-
-
-## 3.1.4 Direcciones de entidades e instituciones relacionadas con el sistema de justicia   60
-
-
-
-## 3.1.5 Patrocinio y poder                                                                  61
-
-
-
-## 3.2 Tramitación de solicitudes y notificaciones                                               64
-
-
-
-## 3.2.1 Tramitación de solicitudes                                                         64
-
-
-
-## 3.2.2 Notificaciones y citaciones                                                        72
-
-
-
-## 3.2.3 Solicitud de una forma especial de notificación                                    76
-
-
-
-## 3.3 Ingreso a las salas de audiencia y preparación de las mismas                              78
-
-
-
-## 3.3.1 Normalización de la circulación y espera de personas que asisten al juzgado        78
-
-
-
-## 3.3.2 Notificación y traslado a audiencia de personas imputadas privadas de libertad     80
-
-
-
-## 3.3.3 Preparación y desarrollo de audiencias                                              81
-
-
-
-## 3.4 Ejecución de sentencias y resoluciones                                                    88
-
-
-
-## 3.4.1 Ejecución de sentencias y envío de oficios                                         88
-
-
-
-## 3.4.2 Ejecución de sentencias y devolución de documentos de causas terminadas            89
-
-
-
-## 3.5 Otros temas internos de los Juzgados de Garantía                                           91
-
-
-
-## 3.5.1 Proceso de inducción del personal                                                   91
-
-
-
-## 3.5.2 Certificación de depósitos y giro de cheques                                       92
-
-
-
-## 3.5.3 Inventario y custodia de especies                                                  94
-
-
-
-## 3.5.4 Decretos económicos                                                                95
-
-
-                                           3.6 ¿En qué debo fijarme antes de proveer un escrito?                                         97
-
-
-## 3.6.1 En general                                                                         97
-
-
-
-## 3.6.2 En particular                                                                      97
-
-
-
 ## 3.7 Criterios de programación de audiencias                                                   101
 
+**Definición Canónica:** Glosario                                                                                         103
 
-                                        Glosario                                                                                         103
+Glosario                                                                                         103
 
                                         Bibliografía                                                                                     105
 Juzgados de Garantía:                                                                         8
@@ -553,11 +330,16 @@ at
 Juzgados de Garantía:                                                1. Los Juzgados                                                        12
 nociones básicas                                                        de Garantía
 
-
 ## 1.1    Definición
 
+**Definición Canónica:** De acuerdo con el glosario de términos jurídicos del Poder Judicial
+                                                                      (PJUD), disponible en la página web institucional, los Juzgados de
+                                                                      Garantía son los tribunales encargados de controlar que la detención
+                                                                      de los imputados se ajuste a las normas constitucionales y legales,
+                                                                      como también de cautelar las garantías del imput
+**Concordancias Legales:** constitucion
 
-                                                                      De acuerdo con el glosario de términos jurídicos del Poder Judicial
+De acuerdo con el glosario de términos jurídicos del Poder Judicial
                                                                       (PJUD), disponible en la página web institucional, los Juzgados de
                                                                       Garantía son los tribunales encargados de controlar que la detención
                                                                       de los imputados se ajuste a las normas constitucionales y legales,
@@ -596,10 +378,12 @@ nociones básicas                                                        de Gara
 Juzgados de Garantía:                                                        1. Los Juzgados                                                       13
 nociones básicas                                                                de Garantía
 
-
 ## 1.2          Procedimientos
 
-                                                                              penales
+**Definición Canónica:** penales
+**Concordancias Legales:** artículo 406 del CPP; Ley Nº 18.216; Ley Nº 20.084
+
+penales
 
                                                                               Los procedimientos que se llevan adelante en los JG se pueden cla-
                                                                               sificar en declarativos y de ejecución. Los primeros corresponden a
@@ -672,11 +456,16 @@ nociones básicas                                                  de Garantía
 Juzgados de Garantía:                                                1. Los Juzgados                                                        16
 nociones básicas                                                        de Garantía
 
-
 ## 1.3    Administrador
 
+**Definición Canónica:** En cualquier caso, sea en audiencia o por escrito, el o la juez requiere
+                                                                      la colaboración de las distintas unidades que componen el juzgado
+                                                                      (Causas, Sala, Servicios, Atención de Público y Cumplimiento, se-
+                                                                      gún corresponda), dirigidas y coordinadas por el administrador (a)
+                                                                      para prestar el soporte necesario que le permita
+**Concordancias Legales:** artículo 389
 
-                                                                      En cualquier caso, sea en audiencia o por escrito, el o la juez requiere
+En cualquier caso, sea en audiencia o por escrito, el o la juez requiere
                                                                       la colaboración de las distintas unidades que componen el juzgado
                                                                       (Causas, Sala, Servicios, Atención de Público y Cumplimiento, se-
                                                                       gún corresponda), dirigidas y coordinadas por el administrador (a)
@@ -693,10 +482,12 @@ nociones básicas                                                        de Gara
 Juzgados de Garantía:                                                1. Los Juzgados                                                           17
 nociones básicas                                                        de Garantía
 
-
 ## 1.4   Unidades de los Juzgados
 
-                                                                     de Garantía
+**Definición Canónica:** de Garantía
+**Concordancias Legales:** artículo 25
+
+de Garantía
 
                                                                       Por su parte, el artículo 25 del mismo COT indica que los JG se
                                                                       organizarán en las siguientes unidades administrativas:
@@ -869,15 +660,15 @@ nociones básicas                                                        Juzgado
                                                                        más detallada, se puede consultar este enlace (Tribunales de Primera
                                                                        Instancia/Juzgados de Garantía).
 
-
-## 2.1     Unidad de Atención de
-
-                                                                       Público y Servicios
-
-
 ## 2.1.1 Jefe de la Unidad de Atención de Público y Servicios
 
-                                                                       Conforme al texto utilizado como referencia para este capítulo, la
+**Definición Canónica:** Conforme al texto utilizado como referencia para este capítulo, la
+                                                                       misión y objetivo principal del cargo corresponde a “coordinar, su-
+                                                                       pervisar y controlar la unidad de Atención de Público y Servicios, con
+                                                                       el objetivo de lograr una administración eficiente de la información
+                                                                       del tribunal, facilitando así, una adecua
+
+Conforme al texto utilizado como referencia para este capítulo, la
                                                                        misión y objetivo principal del cargo corresponde a “coordinar, su-
                                                                        pervisar y controlar la unidad de Atención de Público y Servicios, con
                                                                        el objetivo de lograr una administración eficiente de la información
@@ -992,10 +783,15 @@ nociones básicas                                                        Juzgado
                                                                    mensual o bimensual.
                                                                    colaboración al interior del tribunal, conforme a la Política de
 
-
 ## 2.1.2 Administrativo de Atención de Público
 
-                                                                 Su tarea principal corresponde a informar, atender y orientar al
+**Definición Canónica:** Su tarea principal corresponde a informar, atender y orientar al
+                                                                 público que ingresa al tribunal, respecto a las consultas y solicitudes
+                                                                 de funcionarios(as) e intervinientes, velando por entregar respuestas
+                                                                 con eficacia y calidad, según los estándares establecidos. Este cargo
+                                                                 existe en todas las tipologías de tamaño de los JG y sus funcio
+
+Su tarea principal corresponde a informar, atender y orientar al
                                                                  público que ingresa al tribunal, respecto a las consultas y solicitudes
                                                                  de funcionarios(as) e intervinientes, velando por entregar respuestas
                                                                  con eficacia y calidad, según los estándares establecidos. Este cargo
@@ -1031,10 +827,15 @@ nociones básicas                                                        Juzgado
 
 Juzgados de Garantía:                                          2. Unidades operativas de los                                         28
 
-
 ## 2.1.3 Administrativo Contable
 
-                                                                 El objetivo principal del cargo es llevar un registro de las cuentas
+**Definición Canónica:** El objetivo principal del cargo es llevar un registro de las cuentas
+                                                                 corrientes del juzgado, lo que implica ejecutar y gestionar las opera-
+                                                                 ciones contables conforme a procedimientos definidos por la CAPJ,
+                                                                 además de prestar apoyo administrativo a las labores realizadas por
+                                                                 la jefatura de la unidad de Atención de Público y Servicios.
+
+El objetivo principal del cargo es llevar un registro de las cuentas
                                                                  corrientes del juzgado, lo que implica ejecutar y gestionar las opera-
                                                                  ciones contables conforme a procedimientos definidos por la CAPJ,
                                                                  además de prestar apoyo administrativo a las labores realizadas por
@@ -1080,10 +881,16 @@ nociones básicas                                                        Juzgado
 
                                                                    colaboración al interior del tribunal, conforme a la Política de
 
-
 ## 2.1.4 Administrativo Informático
 
-                                                                 El objetivo principal del cargo es brindar soporte computacional a
+**Definición Canónica:** El objetivo principal del cargo es brindar soporte computacional a
+                                                                 todos los usuarios y usuarias internas del tribunal, principalmente
+                                                                 respecto de software, hardware, redes y de todos los elementos tec-
+                                                                 nológicos que operan en el juzgado, velando por que el equipamiento
+                                                                 de la audiencia esté funcionando correctamente y manteniendo el
+     
+
+El objetivo principal del cargo es brindar soporte computacional a
                                                                  todos los usuarios y usuarias internas del tribunal, principalmente
                                                                  respecto de software, hardware, redes y de todos los elementos tec-
                                                                  nológicos que operan en el juzgado, velando por que el equipamiento
@@ -1125,10 +932,16 @@ nociones básicas                                                        Juzgado
                                                                    boración al interior del juzgado, conforme a la Política de Clima
                                                                    Laboral.
 
-
 ## 2.1.5 Asistente Administrativo
 
-                                                                 Debe proporcionar apoyo al administrador(a) en la recepción, coor-
+**Definición Canónica:** Debe proporcionar apoyo al administrador(a) en la recepción, coor-
+                                                                 dinación y derivación de los requerimientos de los usuarios internos
+                                                                 y externos del juzgado, como asimismo mantener actualizado y
+                                                                 organizado el archivo de correspondencia y documentación. Este
+                                                                 cargo existe en todas las tipologías y estructuras de los JG, siendo
+           
+
+Debe proporcionar apoyo al administrador(a) en la recepción, coor-
                                                                  dinación y derivación de los requerimientos de los usuarios internos
                                                                  y externos del juzgado, como asimismo mantener actualizado y
                                                                  organizado el archivo de correspondencia y documentación. Este
@@ -1171,10 +984,15 @@ nociones básicas                                                        Juzgado
 
 Juzgados de Garantía:                                          2. Unidades operativas de los                                          32
 
-
 ## 2.1.6 Ayudante de Servicios
 
-                                                                 Su tarea principal es proporcionar apoyo en labores administrativas,
+**Definición Canónica:** Su tarea principal es proporcionar apoyo en labores administrativas,
+                                                                 además de entregar documentación del juzgado a los organismos
+                                                                 asociados al Poder Judicial y velar por el suministro oportuno de los
+                                                                 materiales de oficina requeridos por los funcionarios y funcionarias
+                                                                 del juzgado.
+
+Su tarea principal es proporcionar apoyo en labores administrativas,
                                                                  además de entregar documentación del juzgado a los organismos
                                                                  asociados al Poder Judicial y velar por el suministro oportuno de los
                                                                  materiales de oficina requeridos por los funcionarios y funcionarias
@@ -1228,15 +1046,15 @@ nociones básicas                                                        Juzgado
 Juzgados de Garantía:                                                2. Unidades operativas de los                                         34
 nociones básicas                                                        Juzgados de Garantía
 
-
-## 2.2     Unidad
-
-                                                                       de Sala
-
-
 ## 2.2.1 Jefe de la Unidad de Sala
 
-                                                                       Debe velar por la adecuada realización de las audiencias, procurando
+**Definición Canónica:** Debe velar por la adecuada realización de las audiencias, procurando
+                                                                       que no existan situaciones administrativas que impidan su ejecución.
+                                                                       Para ello verificará que los intervinientes se encuentren previamente
+                                                                       notificados y que los funcionarios de la unidad preparen equipos y
+                                                                       materiales necesarios para el desarrollo 
+
+Debe velar por la adecuada realización de las audiencias, procurando
                                                                        que no existan situaciones administrativas que impidan su ejecución.
                                                                        Para ello verificará que los intervinientes se encuentren previamente
                                                                        notificados y que los funcionarios de la unidad preparen equipos y
@@ -1312,10 +1130,15 @@ nociones básicas                                                        Juzgado
                                                                    boración al interior del juzgado, conforme a la Política de Clima
                                                                    Laboral.
 
-
 ## 2.2.2 Encargado de Sala
 
-                                                                 Debe mantener un registro actualizado de las audiencias asignadas
+**Definición Canónica:** Debe mantener un registro actualizado de las audiencias asignadas
+                                                                 a cada sala, lo que implica estar al tanto de los horarios, las causas
+                                                                 a tratar y los intervinientes que asistirán. También debe realizar el
+                                                                 seguimiento de las notificaciones a los intervinientes hasta el día
+                                                                 de la audiencia, cuando debe velar por la adecuada infraestrutura
+
+Debe mantener un registro actualizado de las audiencias asignadas
                                                                  a cada sala, lo que implica estar al tanto de los horarios, las causas
                                                                  a tratar y los intervinientes que asistirán. También debe realizar el
                                                                  seguimiento de las notificaciones a los intervinientes hasta el día
@@ -1365,10 +1188,15 @@ nociones básicas                                                        Juzgado
                                                                  — Ejercer las funciones de ministro de fe, en caso de ausencia de
                                                                    los jefes de unidad del juzgado y del encargado de causas.
 
-
 ## 2.2.3 Administrativo de Acta
 
-                                                                 Debe apoyar y asistir al juez de manera administrativa, a través de la
+**Definición Canónica:** Debe apoyar y asistir al juez de manera administrativa, a través de la
+                                                                 confección de actas resumidas y el registro de audio de las audiencias
+                                                                 realizadas, lo que implica verificar y realizar la grabación de cada
+                                                                 una de las audiencias asignadas, gestionar lo decretado en relación
+                                                                 a oficios, ordenes de ingreso, de libertad, órdenes y contraó
+
+Debe apoyar y asistir al juez de manera administrativa, a través de la
                                                                  confección de actas resumidas y el registro de audio de las audiencias
                                                                  realizadas, lo que implica verificar y realizar la grabación de cada
                                                                  una de las audiencias asignadas, gestionar lo decretado en relación
@@ -1419,10 +1247,15 @@ nociones básicas                                                        Juzgado
                                                                  — Preparar los requerimientos de la sala que se encuentren a su
                                                                    cargo, según corresponda.
 
-
 ## 2.2.4 Ayudante de Sala
 
-                                                                 Su principal objetivo será apoyar las gestiones de la unidad, como la
+**Definición Canónica:** Su principal objetivo será apoyar las gestiones de la unidad, como la
+                                                                 preparación de la sala de audiencias, la revisión de los controles de
+                                                                 detención, el llamado a los intervinientes, la confección de la agenda
+                                                                 de audiencias, así como la verificación de la correcta notificación de
+                                                                 los intervinientes, entre otras. Este cargo existe únicame
+
+Su principal objetivo será apoyar las gestiones de la unidad, como la
                                                                  preparación de la sala de audiencias, la revisión de los controles de
                                                                  detención, el llamado a los intervinientes, la confección de la agenda
                                                                  de audiencias, así como la verificación de la correcta notificación de
@@ -1461,10 +1294,16 @@ nociones básicas                                                        Juzgado
                                                                    do al plan de trabajo del tribunal, cuando sea necesario y por el
                                                                  — Apoyar y contribuir, en conjunto con los/as demás integrantes
 
-
 ## 2.2.5 Administrativo de Notificación
 
-                                                                 Debe apoyar la labor administrativa del juzgado, realizando las tareas
+**Definición Canónica:** Debe apoyar la labor administrativa del juzgado, realizando las tareas
+                                                                 y diligencias que requieran las notificaciones a los intervinientes or-
+                                                                 denadas en las causas tramitadas por el juzgado. Este cargo existe en
+                                                                 los JG de tamaño mayor y mediano, careciendo de él los de tamaño
+                                                                 menor. Sus principales funciones corresponden a las siguientes
+**Concordancias Legales:** artículo 29
+
+Debe apoyar la labor administrativa del juzgado, realizando las tareas
                                                                  y diligencias que requieran las notificaciones a los intervinientes or-
                                                                  denadas en las causas tramitadas por el juzgado. Este cargo existe en
                                                                  los JG de tamaño mayor y mediano, careciendo de él los de tamaño
@@ -1488,10 +1327,15 @@ nociones básicas                                                        Juzgado
                                                                    de movilización para realizar las notificaciones, según corresponda.
                                                                  — Coordinar y/o ejecutar las notificaciones por artículo 29 CPP.
 
-
 ## 2.2.6 Notificador
 
-                                                                 Su principal objetivo es realizar todas las gestiones necesarias para que
+**Definición Canónica:** Su principal objetivo es realizar todas las gestiones necesarias para que
+                                                                 el proceso de notificación sea efectuado oportunamente, dentro de
+                                                                 los plazos legales establecidos y utilizando todos los procedimientos
+                                                                 de notificación que existen y que la ley respalda, junto con asegurar
+                                                                 que dichas actuaciones queden registradas en el SIAGJ.
+
+Su principal objetivo es realizar todas las gestiones necesarias para que
                                                                  el proceso de notificación sea efectuado oportunamente, dentro de
                                                                  los plazos legales establecidos y utilizando todos los procedimientos
                                                                  de notificación que existen y que la ley respalda, junto con asegurar
@@ -1524,15 +1368,15 @@ nociones básicas                                                        Juzgado
 Juzgados de Garantía:                                                2. Unidades operativas de los                                          43
 nociones básicas                                                        Juzgados de Garantía
 
-
-## 2.3    Unidad de
-
-                                                                      Causas
-
-
 ## 2.3.1 Jefe de la Unidad de Causas
 
-                                                                       Su objetivo principal es llevar la administración de la unidad de
+**Definición Canónica:** Su objetivo principal es llevar la administración de la unidad de
+                                                                       Causas del juzgado, lo que implica velar por el correcto orden, in-
+                                                                       greso, tramitación y control de ejecución de las sentencias y reque-
+                                                                       rimientos de las causas, dentro de los plazos estipulados. Además,
+                                                                       se le asigna la función de ministro de fe del 
+
+Su objetivo principal es llevar la administración de la unidad de
                                                                        Causas del juzgado, lo que implica velar por el correcto orden, in-
                                                                        greso, tramitación y control de ejecución de las sentencias y reque-
                                                                        rimientos de las causas, dentro de los plazos estipulados. Además,
@@ -1603,10 +1447,11 @@ nociones básicas                                                        Juzgado
                                                                    ción con su equipo de trabajo, idealmente con una frecuencia
                                                                    mensual y/o bimensual.
 
-
 ## 2.3.2 Encargado de Causas
 
-                                                                 Debe dar apoyo directo al jefe de unidad en la supervisión de la
+**Definición Canónica:** Debe dar apoyo directo al jefe de unidad en la supervisión de la
+
+Debe dar apoyo directo al jefe de unidad en la supervisión de la
 
                                                                  tramitación de las causas que se llevan en el tribunal, en especial
                                                                  brindando soporte técnico a los funcionarios de la propia unidad.
@@ -1639,10 +1484,15 @@ nociones básicas                                                        Juzgado
                                                                  — Ejercer las funciones de ministro de fe, en caso de ausencia de
                                                                    los jefes de unidad del juzgado.
 
-
 ## 2.3.3 Administrativo de Causas
 
-                                                                 Este funcionario o funcionaria debe dar apoyo a la unidad de Causas
+**Definición Canónica:** Este funcionario o funcionaria debe dar apoyo a la unidad de Causas
+                                                                 en la tramitación y gestión de las mismas en relación a despachos,
+                                                                 registros, estadísticas y actualizaciones de bases de datos. Es su deber
+                                                                 ejecutar la tramitación de las causas e ingresar al sistema todos los
+                                                                 antecedentes relacionados con estas, informando a las partes d
+
+Este funcionario o funcionaria debe dar apoyo a la unidad de Causas
                                                                  en la tramitación y gestión de las mismas en relación a despachos,
                                                                  registros, estadísticas y actualizaciones de bases de datos. Es su deber
                                                                  ejecutar la tramitación de las causas e ingresar al sistema todos los
@@ -1674,10 +1524,14 @@ nociones básicas                                                        Juzgado
 
                                                                    colaboración al interior del tribunal, conforme a la Política de
 
-
 ## 2.3.4 Ayudante de Causas
 
-                                                                 Su misión y objetivo principal es dar apoyo a la unidad en el ingreso y
+**Definición Canónica:** Su misión y objetivo principal es dar apoyo a la unidad en el ingreso y
+                                                                 gestión de causas. Se encuentra presente en todas las tipologías de JG,
+                                                                 adoptando el nombre de Ayudante de Sala, Causas y Cumplimiento
+                                                                 en los JG de tamaño menor, atendida la fusión de dichas unidades.
+
+Su misión y objetivo principal es dar apoyo a la unidad en el ingreso y
                                                                  gestión de causas. Se encuentra presente en todas las tipologías de JG,
                                                                  adoptando el nombre de Ayudante de Sala, Causas y Cumplimiento
                                                                  en los JG de tamaño menor, atendida la fusión de dichas unidades.
@@ -1705,15 +1559,15 @@ nociones básicas                                                        Juzgado
 Juzgados de Garantía:                                                2. Unidades operativas de los                                          49
 nociones básicas                                                        Juzgados de Garantía
 
-
-## 2.4     Unidad de
-
-                                                                       Cumplimiento
-
-
 ## 2.4.1 Jefe de la Unidad de Cumplimiento
 
-                                                                       Su misión y objetivo principal es llevar la administración de la unidad
+**Definición Canónica:** Su misión y objetivo principal es llevar la administración de la unidad
+                                                                       de Cumplimiento del tribunal, lo que implica velar por el correcto
+                                                                       orden, ingreso, tramitación y control de ejecución de las sentencias
+                                                                       y requerimientos de las causas, dentro de los plazos estipulados.
+**Concordancias Legales:** artículo 468 del CPP
+
+Su misión y objetivo principal es llevar la administración de la unidad
                                                                        de Cumplimiento del tribunal, lo que implica velar por el correcto
                                                                        orden, ingreso, tramitación y control de ejecución de las sentencias
                                                                        y requerimientos de las causas, dentro de los plazos estipulados.
@@ -1774,7 +1628,14 @@ nociones básicas                                                        Juzgado
 
 ## 348 CPP y artículo 41 de la Ley Nº 20.084, de las comunicaciones
 
-                                                                   de monitorios ejecutoriados, y respectivo control de multa de
+**Definición Canónica:** de monitorios ejecutoriados, y respectivo control de multa de
+                                                                   toda sentencia del juzgado.
+                                                                 — Controlar el pago de multas y realizar la certificación en aquellos
+                                                                   casos que lo requieran.
+                                                                 — Generar certificado de cumplimiento de la sentencia, a solicitud
+                                                                   de la persona sent
+
+de monitorios ejecutoriados, y respectivo control de multa de
                                                                    toda sentencia del juzgado.
                                                                  — Controlar el pago de multas y realizar la certificación en aquellos
                                                                    casos que lo requieran.
@@ -1796,10 +1657,16 @@ nociones básicas                                                        Juzgado
                                                                    boración al interior del juzgado, conforme a la Política de Clima
                                                                    Laboral.
 
-
 ## 2.4.2 Administrativo de Cumplimiento
 
-                                                                 Este cargo tiene como misión principal el desarrollar las acciones
+**Definición Canónica:** Este cargo tiene como misión principal el desarrollar las acciones
+                                                                 necesarias para la adecuada y cabal ejecución de las resoluciones
+                                                                 judiciales en la etapa de ejecución de la sentencia, y equivalentes
+                                                                 jurisdiccionales, junto con cualquier otra actuación que sea necesaria
+                                                                 para archivar la causa.
+**Concordancias Legales:** artículo 468 del CPP; artículo 398; artículo 41; Ley Nº 20.084
+
+Este cargo tiene como misión principal el desarrollar las acciones
                                                                  necesarias para la adecuada y cabal ejecución de las resoluciones
                                                                  judiciales en la etapa de ejecución de la sentencia, y equivalentes
                                                                  jurisdiccionales, junto con cualquier otra actuación que sea necesaria
@@ -1852,10 +1719,11 @@ nociones básicas                                                        Juzgado
 Juzgados de Garantía:                                                3. Procesos administrativos de                                      54
 nociones básicas                                                        los Juzgados de Garantía
 
-
 ## 3.1    Atención de
 
-                                                                      público
+**Definición Canónica:** público
+
+público
 
                                                                        Este apartado corresponde a la atención de público, por lo que su
                                                                        objetivo específico es que funcionarios y funcionarias logren prestar
@@ -1863,10 +1731,11 @@ nociones básicas                                                        los Juz
                                                                        sistema y público general que concurra al juzgado, propendiendo al
                                                                        logro de altos estándares de eficiencia y calidad.
 
-
 ## 3.1.1 Atención en mesón de público
 
-                                                                       Una de las más importantes actividades que se desarrollan en los JG
+**Definición Canónica:** Una de las más importantes actividades que se desarrollan en los JG
+
+Una de las más importantes actividades que se desarrollan en los JG
 
                                                                        es la atención de los usuarios y usuarias que asisten personalmente
                                                                        a obtener información o realizar algún trámite relacionado con las
@@ -1958,10 +1827,15 @@ nociones básicas                                                               
 Juzgados de Garantía:                                                                    3. Procesos administrativos de                                              57
 nociones básicas                                                                            los Juzgados de Garantía
 
-
 ## 3.1.2 Recepción de escritos materiales y correspondencia
 
-                                                                                           En la actualidad, la inmensa mayoría de las solicitudes que se presen-
+**Definición Canónica:** En la actualidad, la inmensa mayoría de las solicitudes que se presen-
+                                                                                           tan a los JG provienen de medios digitales, como la Oficina Judicial
+                                                                                           Virtual (OJV) o los sistemas de interconexión que existen con insti-
+                                                                                           tuciones relacionadas (MP por ejemplo). Sin perjuicio de lo anterior,
+                                                
+
+En la actualidad, la inmensa mayoría de las solicitudes que se presen-
                                                                                            tan a los JG provienen de medios digitales, como la Oficina Judicial
                                                                                            Virtual (OJV) o los sistemas de interconexión que existen con insti-
                                                                                            tuciones relacionadas (MP por ejemplo). Sin perjuicio de lo anterior,
@@ -2060,10 +1934,16 @@ nociones básicas                                                               
 
                                                          a. Revisa el proyecto en el sistema informático (SIAGJ/SGP) y firma la resolución.
 
-
 ## 3.1.3 Solicitud de copias
 
-                                                                                           El actual proceso de digitalización llevado adelante por el Poder
+**Definición Canónica:** El actual proceso de digitalización llevado adelante por el Poder
+                                                                                           Judicial ha permitido remitir la mayor parte de la documentación
+                                                                                           relevante a través de medios virtuales a los organismos relacionados,
+                                                                                           como Gendarmería (sentencias condenatorias) y Carabineros (medi-
+                                                             
+**Concordancias Legales:** artículo 44 del CPP
+
+El actual proceso de digitalización llevado adelante por el Poder
                                                                                            Judicial ha permitido remitir la mayor parte de la documentación
                                                                                            relevante a través de medios virtuales a los organismos relacionados,
                                                                                            como Gendarmería (sentencias condenatorias) y Carabineros (medi-
@@ -2142,10 +2022,14 @@ nociones básicas                                                               
 
                                                          c. Devuelve los documentos timbrados al administrativo de Atención de Público.
 
-
 ## 3.1.4 Direcciones de entidades e instituciones
 
-                                                                                           relacionadas con el sistema de justicia
+**Definición Canónica:** relacionadas con el sistema de justicia
+                                                                                           Un motivo importante de consulta presencial al mesón de atención
+                                                                                           de público en los JG corresponde a consultas sobre las entidades
+**Concordancias Legales:** artículo 60 del Código Penal; artículo 46; Ley Nº 20.000
+
+relacionadas con el sistema de justicia
                                                                                            Un motivo importante de consulta presencial al mesón de atención
                                                                                            de público en los JG corresponde a consultas sobre las entidades
 
@@ -2211,10 +2095,16 @@ nociones básicas                                                               
                                                             a cargo realice la actualización correspondiente, cada vez que tome conocimiento de algún cambio en los
                                                             datos de cualquiera de los organismos relacionados con la función jurisdiccional.
 
-
 ## 3.1.5 Patrocinio y poder
 
-                                                                                            Un ejemplo claro de cómo trabajan entrelazadas las distintas unida-
+**Definición Canónica:** Un ejemplo claro de cómo trabajan entrelazadas las distintas unida-
+                                                                                            des de los JG se encuentra en el caso de los escritos de patrocinio y
+                                                                                            poder, para el que deben coordinarse, por una parte un funcionario(a)
+                                                                                            de la unidad de Atención de Público con el jefe(a) de la unidad de
+                                                 
+**Concordancias Legales:** artículo 1; artículo 6; artículo 2; artículo 7 del Código de Procedimiento Civil; artículo 33 del Acta Nº; Ley Nº 18.120; Ley Nº 20.866; constitución
+
+Un ejemplo claro de cómo trabajan entrelazadas las distintas unida-
                                                                                             des de los JG se encuentra en el caso de los escritos de patrocinio y
                                                                                             poder, para el que deben coordinarse, por una parte un funcionario(a)
                                                                                             de la unidad de Atención de Público con el jefe(a) de la unidad de
@@ -2313,10 +2203,11 @@ nociones básicas                                                               
 Juzgados de Garantía:                                                       3. Procesos administrativos de                                        64
 nociones básicas                                                               los Juzgados de Garantía
 
-
 ## 3.2        Tramitación de solicitudes
 
-                                                                             y notificaciones
+**Definición Canónica:** y notificaciones
+
+y notificaciones
 
                                                                               El presente apartado tiene por objeto que los funcionarios y funcio-
                                                                               narias cuenten con un protocolo documentado para la tramitación
@@ -2326,10 +2217,17 @@ nociones básicas                                                               
                                                                               por el juzgado, velando en todo momento por un adecuado control
                                                                               y gestión de las mismas.
 
-
 ## 3.2.1 Tramitación de solicitudes
 
-                                                                              Uno de los procesos más importantes dentro de los JG dice relación
+**Definición Canónica:** Uno de los procesos más importantes dentro de los JG dice relación
+                                                      Una vez resuelta        con la tramitación de solicitudes efectuadas por los intervinientes, el
+                                                      o proveída una          que constituye la principal forma de comunicación entre ambos. Tal
+                                                                              es su importancia que el propio Código Procesal Penal se ha encar-
+                                                      solicitud, cobra
+                      
+**Concordancias Legales:** artículo 38; artículo 9 del CPP; artículo 5; artículo 34 del Código de Procedimiento Civil; artículo 40 del Código de; artículo 40 del Código de Procedimiento Civil; artículo 44 del CPC. En caso de que la notificación per; artículo 48; artículo 50 del CPC; artículo 44; artículo 44 del CPC o por cédula; Ley Nº 20.886
+
+Uno de los procesos más importantes dentro de los JG dice relación
                                                       Una vez resuelta        con la tramitación de solicitudes efectuadas por los intervinientes, el
                                                       o proveída una          que constituye la principal forma de comunicación entre ambos. Tal
                                                                               es su importancia que el propio Código Procesal Penal se ha encar-
@@ -2751,10 +2649,15 @@ nociones básicas                                                               
 
                                                          d. Deja registro, como actuación de notificaciones realizadas, en el sistema informático SIAGJ.
 
-
 ## 3.2.3 Solicitud de una forma especial de notificación
 
-                                                                                             Con el objeto de racionalizar las cargas de trabajo y el uso de los
+**Definición Canónica:** Con el objeto de racionalizar las cargas de trabajo y el uso de los
+                                                                                             recursos disponibles, además de tratarse de una forma segura de
+                                                                                             notificación tanto para el destinatario como para el remitente, pu-
+                                                                                             diendo incorporarse a él toda la documentación digital disponible,
+                                                      
+
+Con el objeto de racionalizar las cargas de trabajo y el uso de los
                                                                                              recursos disponibles, además de tratarse de una forma segura de
                                                                                              notificación tanto para el destinatario como para el remitente, pu-
                                                                                              diendo incorporarse a él toda la documentación digital disponible,
@@ -2843,10 +2746,12 @@ nociones básicas                                                               
 Juzgados de Garantía:                                                3. Procesos administrativos de                                          78
 nociones básicas                                                        los Juzgados de Garantía
 
-
 ## 3.3    Ingreso a las salas de audiencia y
 
-                                                                      preparación de las mismas
+**Definición Canónica:** preparación de las mismas
+**Concordancias Legales:** artículo 41 del Código Procesal Penal
+
+preparación de las mismas
 
                                                                        El objetivo de este apartado es que los funcionarios y funcionarias
                                                                        puedan mantener un adecuado control y orden en el ingreso de los
@@ -2869,10 +2774,17 @@ nociones básicas                                                        los Juz
                                                                        sin tener que escuchar la grabación de la misma, con todo el ahorro
                                                                        de tiempo que ello implica.
 
-
 ## 3.3.1 Normalización de la circulación y espera
 
-                                                                       de personas que asisten al juzgado
+**Definición Canónica:** de personas que asisten al juzgado
+                                                                       Los diversos JG han visto como aumenta cada día la cantidad de
+                                                                       público que acude a sus dependencias, ya sean personas en calidad
+                                                                       de imputadas (libres o presas); de víctimas; familiares que los acom-
+                                                                       pañan; litigantes institucionales (fiscales y defensores); abogados
+              
+**Concordancias Legales:** artículo 44
+
+de personas que asisten al juzgado
                                                                        Los diversos JG han visto como aumenta cada día la cantidad de
                                                                        público que acude a sus dependencias, ya sean personas en calidad
                                                                        de imputadas (libres o presas); de víctimas; familiares que los acom-
@@ -2993,14 +2905,16 @@ nociones básicas                                                               
 
                                                          a. Controlar periódicamente el cumplimiento de este protocolo por parte del administrativo de Actas.
 
-
-## 3.3.2 Notificación y traslado a audiencia de
-
-                                                                                            personas imputadas privadas de libertad
-
 ## Parte importante de la gestión del JG consiste en evitar al máximo
 
-                                                                                            que se reprograme una audiencia, ya sea por falta de notificación de
+**Definición Canónica:** que se reprograme una audiencia, ya sea por falta de notificación de
+                                                                                            alguna de las partes o porque la notificación se efectuó fuera de los
+                                                                                            plazos establecidos. Cuando ello sucede con una persona privada de
+                                                                                            libertad, no solo se genera un problema administrativo que atenta en
+                                                 
+**Concordancias Legales:** artículo 262 del CPP fija un plazo; artículo 393
+
+que se reprograme una audiencia, ya sea por falta de notificación de
                                                                                             alguna de las partes o porque la notificación se efectuó fuera de los
                                                                                             plazos establecidos. Cuando ello sucede con una persona privada de
                                                                                             libertad, no solo se genera un problema administrativo que atenta en
@@ -3045,10 +2959,16 @@ nociones básicas                                                               
                                                          a. En la víspera de la jornada en que se desarrollará la audiencia con un interviniente privado de libertad, se
                                                             comunica con Gendarmería para gestionar el efectivo y oportuno trasladado.
 
-
 ## 3.3.3 Preparación y desarrollo de audiencias
 
-                                                                                            Dentro del trabajo que se realiza al interior de los JG, es fundamental
+**Definición Canónica:** Dentro del trabajo que se realiza al interior de los JG, es fundamental
+                                                                                            el que se desarrolla dentro de las audiencias, dado que la propia ley
+                                                                                            se ha preocupado de ordenar que las principales decisiones que se
+                                                                                            adoptan en los JG se hagan previo debate y dentro de una audiencia,
+                                                
+**Concordancias Legales:** artículo 41 del CPP; artículo 33 del CPP
+
+Dentro del trabajo que se realiza al interior de los JG, es fundamental
                                                                                             el que se desarrolla dentro de las audiencias, dado que la propia ley
                                                                                             se ha preocupado de ordenar que las principales decisiones que se
                                                                                             adoptan en los JG se hagan previo debate y dentro de una audiencia,
@@ -3084,54 +3004,25 @@ nociones básicas                                                               
                                                                                       Fecha                 LUGAR, DÍA de MES de AÑO
                                                                                       Magistrado            NOMBRE1 NOMBRE2 APELLIDO1 APELLIDO2
 
-## Fiscal                NOMBRE1 NOMBRE2 AOPELLIDO1 APELLIDO2
-
-
 ## Defensor              NOMBRE1 NOMBRE2 APELLIDO1 APELLIDO2
 
-                                                                                      Hora inicio           HORA:MINUTO AM/PM
+**Definición Canónica:** Hora inicio           HORA:MINUTO AM/PM
                                                                                       Hora término          HORA:MINUTO AM/PM
                                                                                       Sala                  Sala NÚMERO
                                                                                       Tribunal              Juzgado de Garantía de LUGAR.
                                                                                       Acta                  INICIALES
 
-## RUC                   Nº XXX
-
-
-## RIT                   Nº XXX
-
-
-                                                      Actuaciones efectuadas
-                                                      Apercibimiento
-
-
-## Nombre imputado                              rut                 dirección               comuna
-
-
-## Nombre1 nombre2 apellido1 apellido2          xxxxxx-z            calle n° xxx, sector/   xxx
-
-
-## Depto
-
-
-                                                       RUC               RIT                   Ámbito afectado          Detalle del Hito    Valor
-
-## XXX-Z             NÚMERO-AÑO            PARTICIPANTES:           Art. 26             1
-
-                                                                                               Denunciado.
-
-## - nombre1
-
-
-## Nombre2
-
-
-## Apellido1
-
+Hora inicio           HORA:MINUTO AM/PM
+                                                                                      Hora término          HORA:MINUTO AM/PM
+                                                                                      Sala                  Sala NÚMERO
+                                                                                      Tribunal              Juzgado de Garantía de LUGAR.
+                                                                                      Acta                  INICIALES
 
 ## Apellido2
 
-                                                                                                                        Art. 33             1
+**Definición Canónica:** Art. 33             1
+
+Art. 33             1
 
 Juzgados de Garantía:                                                                   3. Procesos administrativos de                                       83
 nociones básicas                                                                           los Juzgados de Garantía
@@ -3141,10 +3032,15 @@ nociones básicas                                                               
                                                        RUC                   RIT                    Ámbito afectado      Detalle del Hito    Valor
                                                        XXX-Z                 NÚMERO-AÑO             CAUSA: R.U.C=        Duración (horas)    01
 
-
 ## R.u.i.=
 
-                                                                                                                         Fecha               AÑO/MES/DÍA
+**Definición Canónica:** Fecha               AÑO/MES/DÍA
+                                                                                                                         Tipo de audiencia   Audiencia de
+                                                                                                                                             procedimiento
+                                                                                                                                             simplificado.
+                                                                                                        
+
+Fecha               AÑO/MES/DÍA
                                                                                                                          Tipo de audiencia   Audiencia de
                                                                                                                                              procedimiento
                                                                                                                                              simplificado.
@@ -3155,23 +3051,14 @@ nociones básicas                                                               
 
                                                        RUC                   RIT                    Ámbito afectado      Detalle del Hito    Valor
 
-## Xxx-z                 número-año             participantes.:      -                   -
-
-                                                                                                    Denunciado.
-
-## Nombre1
-
-
-## Nombre2
-
-
-## Apellido1
-
-
 ## Apellido2
 
+**Definición Canónica:** — Imputado queda personalmente notificado de la audiencia, bajo
+                                                                                             el apercibimiento del artículo 33 del Código Procesal Penal.
+                                                                                          — Déjese sin efecto orden de detención despachada en su contra.
+**Concordancias Legales:** artículo 33 del Código Procesal Penal
 
-                                                                                          — Imputado queda personalmente notificado de la audiencia, bajo
+— Imputado queda personalmente notificado de la audiencia, bajo
                                                                                              el apercibimiento del artículo 33 del Código Procesal Penal.
                                                                                           — Déjese sin efecto orden de detención despachada en su contra.
 
@@ -3368,15 +3255,16 @@ nociones básicas                                                               
 Juzgados de Garantía:                                                                     3. Procesos administrativos de                                              88
 nociones básicas                                                                             los Juzgados de Garantía
 
-
-## 3.4               Ejecución de sentencias
-
-                                                                                             y resoluciones
-
-
 ## 3.4.1 Ejecución de sentencias y envío de oficios
 
-                                                                                            Una vez que se dicta o recibe una sentencia, no ha terminado del
+**Definición Canónica:** Una vez que se dicta o recibe una sentencia, no ha terminado del
+                                                                                            todo la actividad del JG, ya que en caso de tratarse de una sentencia
+                                                                                            condenatoria, conforme el artículo 468 del CPP, una vez que esta
+                                                                                            se encuentre firme o ejecutoriada “el tribunal decretará una a una
+                                                         
+**Concordancias Legales:** artículo 468 del CPP; artículo 174 del CPC
+
+Una vez que se dicta o recibe una sentencia, no ha terminado del
                                                                                             todo la actividad del JG, ya que en caso de tratarse de una sentencia
                                                                                             condenatoria, conforme el artículo 468 del CPP, una vez que esta
                                                                                             se encuentre firme o ejecutoriada “el tribunal decretará una a una
@@ -3426,10 +3314,16 @@ nociones básicas                                                               
 
                                                          b. Certifica su envío en cada causa.
 
-
 ## 3.4.2 Ejecución de sentencias y devolución
 
-                                                      Corresponde a los                    de documentos de causas terminadas
+**Definición Canónica:** Corresponde a los                    de documentos de causas terminadas
+                                                                                           Cuando se trate de una sentencia absolutoria, antes de archivar la
+                                                      JG “hacer ejecutar
+                                                                                           causa debe dejarse sin efecto todas las medidas cautelares que se
+                                                      las condenas                         pudieron disponer en su oportunidad, y hacerse la
+**Concordancias Legales:** artículo 14; artículo 36
+
+Corresponde a los                    de documentos de causas terminadas
                                                                                            Cuando se trate de una sentencia absolutoria, antes de archivar la
                                                       JG “hacer ejecutar
                                                                                            causa debe dejarse sin efecto todas las medidas cautelares que se
@@ -3497,10 +3391,11 @@ nociones básicas                                                               
 Juzgados de Garantía:                                                                    3. Procesos administrativos de                                               91
 nociones básicas                                                                            los Juzgados de Garantía
 
-
 ## 3.5             Otros temas internos de los
 
-                                                                                          Juzgados de Garantía
+**Definición Canónica:** Juzgados de Garantía
+
+Juzgados de Garantía
 
                                                                                            En este apartado se aborda otros aspectos de la gestión administrativa
                                                                                            y orgánica del juzgado, por lo que los funcionarios y funcionarias que
@@ -3509,11 +3404,15 @@ nociones básicas                                                               
                                                                                            casos excepcionales y justificados el uso de libros o archivadores en
                                                                                            formato análogo o papel.
 
-
 ## 3.5.1 Proceso de inducción del personal
 
+**Definición Canónica:** Las múltiples oportunidades laborales que existen al interior del
+                                                                                           Poder Judicial, en particular en las ciudades más grandes o asien-
+                                                                                           to de Corte, hacen que exista una gran rotación de funcionarios y
+                                                                                           funcionarias en los distintos puestos de trabajo de la organización.
+                                                           
 
-                                                                                           Las múltiples oportunidades laborales que existen al interior del
+Las múltiples oportunidades laborales que existen al interior del
                                                                                            Poder Judicial, en particular en las ciudades más grandes o asien-
                                                                                            to de Corte, hacen que exista una gran rotación de funcionarios y
                                                                                            funcionarias en los distintos puestos de trabajo de la organización.
@@ -3593,10 +3492,16 @@ nociones básicas                                                               
                                                          a. Aprueba propuesta de protocolo documentado para la inducción en procesos administrativos y de gestión
                                                             a nuevos funcionarios del juzgado.
 
-
 ## 3.5.2 Certificación de depósitos y giro de cheques
 
-                                                                                              Los dineros puestos a disposición del JG siempre merecen la mayor
+**Definición Canónica:** Los dineros puestos a disposición del JG siempre merecen la mayor
+                                                                                              atención, ya que se asume la responsabilidad de custodiar la existencia
+                                                                                              y disponibilidad de los fondos por parte de quien es beneficiario del
+                                                                                              depósito. Una excelente manera de minimizar los riesgos asociados
+                                            
+**Concordancias Legales:** artículo 146 del CPP
+
+Los dineros puestos a disposición del JG siempre merecen la mayor
                                                                                               atención, ya que se asume la responsabilidad de custodiar la existencia
                                                                                               y disponibilidad de los fondos por parte de quien es beneficiario del
                                                                                               depósito. Una excelente manera de minimizar los riesgos asociados
@@ -3702,10 +3607,16 @@ nociones básicas                                                               
                                                          b. Una vez materializado lo anterior, certifica en la causa sin “carga de trabajo” en el sistema informático
                                                             SIAGJ.
 
-
 ## 3.5.3 Inventario y custodia de especies
 
-                                                                                            La custodia contempla todos aquellos objetos, documentos y es-
+**Definición Canónica:** La custodia contempla todos aquellos objetos, documentos y es-
+                                                                                            pecies que son puestas a disposición del juzgado, para que este los
+                                                                                            conserve mientras resulten relevantes dentro de una causa que aún
+                                                                                            no llegue a término, y conlleva responsabilidad de mantenerlas en
+                                                             
+**Concordancias Legales:** artículo 470 del CPP
+
+La custodia contempla todos aquellos objetos, documentos y es-
                                                                                             pecies que son puestas a disposición del juzgado, para que este los
                                                                                             conserve mientras resulten relevantes dentro de una causa que aún
                                                                                             no llegue a término, y conlleva responsabilidad de mantenerlas en
@@ -3775,10 +3686,14 @@ nociones básicas                                                               
 
                                                          e. Adjunta carátula a la especie y la guarda en la caja fuerte.
 
-
 ## 3.5.4 Decretos económicos
 
-                                                                                            Los decretos económicos tradicionalmente se han llevado por escrito
+**Definición Canónica:** Los decretos económicos tradicionalmente se han llevado por escrito
+                                                                                            en un soporte físico (libro) y sirven para llevar registro de ciertos
+                                                                                            hechos relevantes del acontecer diario de cada unidad judicial, como
+                                                                                            ausencias de jueces y funcionarios, asunción de funciones, etcétera.
+
+Los decretos económicos tradicionalmente se han llevado por escrito
                                                                                             en un soporte físico (libro) y sirven para llevar registro de ciertos
                                                                                             hechos relevantes del acontecer diario de cada unidad judicial, como
                                                                                             ausencias de jueces y funcionarios, asunción de funciones, etcétera.
@@ -3824,20 +3739,30 @@ nociones básicas                                                               
                                                                           3.6                 ¿En qué debo fijarme antes
                                                                                               de proveer un escrito?
 
-
 ## 3.6.1 En general
 
-                                                                                          Cada vez que se presenta un escrito, este debe ser revisado tanto en su
+**Definición Canónica:** Cada vez que se presenta un escrito, este debe ser revisado tanto en su
+                                                                                          aspecto formal como de fondo antes de ser proveído, lo que permite
+                                                                                          evitar futuros problemas en la tramitación de la causa. Sin perjuicio
+                                                                                          de la enorme cantidad de situaciones posibles, se sugiere aquí una
+                                                      
+
+Cada vez que se presenta un escrito, este debe ser revisado tanto en su
                                                                                           aspecto formal como de fondo antes de ser proveído, lo que permite
                                                                                           evitar futuros problemas en la tramitación de la causa. Sin perjuicio
                                                                                           de la enorme cantidad de situaciones posibles, se sugiere aquí una
                                                                                           plantilla para ayudar a los funcionarios y funcionarias con menos
                                                                                           experiencia en proveer escritos y estandarizar procesos entre los JG.
 
-
 ## Verificación                                                      sí        no
 
-                                                       ¿Va dirigido al JG?                                               Proveer   Devolver al solicitante
+**Definición Canónica:** ¿Va dirigido al JG?                                               Proveer   Devolver al solicitante
+                                                       ¿La suma coincide con lo solicitado?                              Proveer   Devolver al solicitante
+                                                       ¿Está correcta la identificación de RIT/RUC, imputado(a),         Proveer   Ordenar, corregir o aclarar por el
+                                                       domicilios, cédulas de identidad?                                           mismo solicitante
+                              
+
+¿Va dirigido al JG?                                               Proveer   Devolver al solicitante
                                                        ¿La suma coincide con lo solicitado?                              Proveer   Devolver al solicitante
                                                        ¿Está correcta la identificación de RIT/RUC, imputado(a),         Proveer   Ordenar, corregir o aclarar por el
                                                        domicilios, cédulas de identidad?                                           mismo solicitante
@@ -3846,10 +3771,16 @@ nociones básicas                                                               
                                                        ¿Se entiende la solicitud?                                        Proveer   Ordenar aclarar
                                                        ¿Tiene poder en la causa o es persona imputada/víctima?           Proveer   Devolver al solicitante
 
-
 ## 3.6.2 En particular
 
-                                                                                          Más allá de la revisión inicial recién planteada, ciertas solicitudes
+**Definición Canónica:** Más allá de la revisión inicial recién planteada, ciertas solicitudes
+                                                                                          tienen exigencias especiales establecidas por la ley, las que deben
+                                                                                          ser cumplidas por los intervinientes para poder ser proveídas las
+                                                                                          respectivas peticiones. Dentro de las que más problemas generan,
+                                                             
+**Concordancias Legales:** artículos 366; artículo 370; artículos 115; artículos 372; artículo 231 del CPP; artículo 8; artículo 391 del CPP; artículo 393; artículos 390; artículo 494; artículo 390; artículos 259; artículo 259 del CPP; artículo 260 del CPP; artículos 111; artículo 112 del CPP; artículo 113 del CPP; artículo 114; artículo 113; constitución
+
+Más allá de la revisión inicial recién planteada, ciertas solicitudes
                                                                                           tienen exigencias especiales establecidas por la ley, las que deben
                                                                                           ser cumplidas por los intervinientes para poder ser proveídas las
                                                                                           respectivas peticiones. Dentro de las que más problemas generan,
@@ -3965,10 +3896,11 @@ nociones básicas                                                  los Juzgados 
 Juzgados de Garantía:                                                3. Procesos administrativos de                                       101
 nociones básicas                                                        los Juzgados de Garantía
 
-
 ## 3.7    Criterios de programación
 
-                                                                      de audiencias
+**Definición Canónica:** de audiencias
+
+de audiencias
 
                                                                        La estructura de agenda de cada JG es un tema complejo y siempre
                                                                        debatido, debiendo buscarse un óptimo a partir de los datos estadís-
@@ -4020,10 +3952,14 @@ nociones básicas                                                  los Juzgados 
                                                            algunas de las actividades del tribunal que se
                                                            registran bajo esta denominación.                       13. Costas: Gastos del juicio.
 
-
 ## 3.   Acuerdo reparatorio: Trato al que llegan el impu-       14. Ejecutoriada: Cuando han finalizado todos los
 
-                                                           tado y la víctima. En general, el imputado debe             trámites legales y la sentencia no admite ningún
+**Definición Canónica:** tado y la víctima. En general, el imputado debe             trámites legales y la sentencia no admite ningún
+                                                           reparar los daños sufridos por la víctima. No               otro recurso judicial.
+                                                           siempre es con dinero. Necesita la aprobación del
+**Concordancias Legales:** artículo 77 del CPC; artículos 26
+
+tado y la víctima. En general, el imputado debe             trámites legales y la sentencia no admite ningún
                                                            reparar los daños sufridos por la víctima. No               otro recurso judicial.
                                                            siempre es con dinero. Necesita la aprobación del
 
@@ -4047,7 +3983,12 @@ nociones básicas                                                  los Juzgados 
 
 ## 6.   Audiencia: Cualquier tipo de reunión, formal y
 
-                                                           pública, que se realiza en el tribunal y en pre-        18. Formalización de la investigación: Comunica-
+**Definición Canónica:** pública, que se realiza en el tribunal y en pre-        18. Formalización de la investigación: Comunica-
+                                                           sencia del juez, quien escucha las peticiones de            ción que el fiscal del Ministerio Público le hace al
+                                                           las partes y adopta una decisión sobre el asunto            imputado, en presencia del Juez de Garantía, en
+                                                           discutido.                                                  relación a la existencia de una inves
+
+pública, que se realiza en el tribunal y en pre-        18. Formalización de la investigación: Comunica-
                                                            sencia del juez, quien escucha las peticiones de            ción que el fiscal del Ministerio Público le hace al
                                                            las partes y adopta una decisión sobre el asunto            imputado, en presencia del Juez de Garantía, en
                                                            discutido.                                                  relación a la existencia de una investigación en su
@@ -4061,7 +4002,12 @@ nociones básicas                                                  los Juzgados 
 
 ## 20. Intervinientes: Personas o instituciones que in-
 
-                                                      8.   Auto de apertura: Resolución que dicta el Juez de           tervienen en el proceso penal cumpliendo distinto
+**Definición Canónica:** 8.   Auto de apertura: Resolución que dicta el Juez de           tervienen en el proceso penal cumpliendo distinto
+                                                           Garantía y que señala, entre otros aspectos, los            tipo de funciones. En el proceso penal actúan en
+                                                           puntos que se debatirán en el juicio oral, el tribu-        esta calidad el MP, la DPP, los querellantes, vícti-
+                                                           nal que lo conocerá y los medios de prueba que              mas, defensores privados e
+
+8.   Auto de apertura: Resolución que dicta el Juez de           tervienen en el proceso penal cumpliendo distinto
                                                            Garantía y que señala, entre otros aspectos, los            tipo de funciones. En el proceso penal actúan en
                                                            puntos que se debatirán en el juicio oral, el tribu-        esta calidad el MP, la DPP, los querellantes, vícti-
                                                            nal que lo conocerá y los medios de prueba que              mas, defensores privados e imputado.
@@ -4069,16 +4015,25 @@ nociones básicas                                                  los Juzgados 
 
 ## 21. Medidas cautelares: Decisiones del tribunal que
 
-                                                      9.   Cédula: Documento que se entrega o deja en el               se adoptan durante la tramitación de un juicio y
+**Definición Canónica:** 9.   Cédula: Documento que se entrega o deja en el               se adoptan durante la tramitación de un juicio y
+                                                           domicilio fijado por una persona para comunicarle           tienen por finalidad asegurar o resguardar el pro-
+                                                           una resolución judicial.                                    bable resultado del mismo.
+
+9.   Cédula: Documento que se entrega o deja en el               se adoptan durante la tramitación de un juicio y
                                                            domicilio fijado por una persona para comunicarle           tienen por finalidad asegurar o resguardar el pro-
                                                            una resolución judicial.                                    bable resultado del mismo.
 
 Tribunales de Garantía:                                                                                           Glosario                                            104
 
-
 ## 22. Medidas cautelares personales: decisiones del           33. Salidas alternativas: Formas de poner término
 
-                                                          tribunal que afectan directamente a una persona,            al procedimiento penal antes del juicio oral para
+**Definición Canónica:** tribunal que afectan directamente a una persona,            al procedimiento penal antes del juicio oral para
+                                                          por ejemplo, restringiendo su libertad de transitar         algunos delitos, y que pueden consistir en una
+                                                          por un lugar, obligándola a que se mantenga ale-            suspensión condicional del procedimiento o en un
+                                                          jada de otra persona, o impidiendo que se ausente           acuerdo reparatorio.
+                   
+
+tribunal que afectan directamente a una persona,            al procedimiento penal antes del juicio oral para
                                                           por ejemplo, restringiendo su libertad de transitar         algunos delitos, y que pueden consistir en una
                                                           por un lugar, obligándola a que se mantenga ale-            suspensión condicional del procedimiento o en un
                                                           jada de otra persona, o impidiendo que se ausente           acuerdo reparatorio.
@@ -4092,13 +4047,19 @@ nociones básicas                                                  los Juzgados 
 
 ## 24. Otrosí: Petición adicional a la solicitud principal
 
-                                                          presentada en un escrito por una de las partes          35. Violencia intrafamiliar: Actos de maltrato físico
+**Definición Canónica:** presentada en un escrito por una de las partes          35. Violencia intrafamiliar: Actos de maltrato físico
+                                                          interesadas en una causa.                                   o psicológico entre marido y mujer (cónyuges) o
+                                                                                                                      convivientes; excónyuges y exconvivientes; as-
+
+presentada en un escrito por una de las partes          35. Violencia intrafamiliar: Actos de maltrato físico
                                                           interesadas en una causa.                                   o psicológico entre marido y mujer (cónyuges) o
                                                                                                                       convivientes; excónyuges y exconvivientes; as-
 
 ## 25. Procedimiento abreviado: Tipo especial de pro-              cendientes y descendientes por consanguinidad
 
-                                                          cedimiento que tiene lugar cuando el fiscal del             o afinidad; colaterales hasta la relación de tíos/
+**Definición Canónica:** cedimiento que tiene lugar cuando el fiscal del             o afinidad; colaterales hasta la relación de tíos/
+
+cedimiento que tiene lugar cuando el fiscal del             o afinidad; colaterales hasta la relación de tíos/
 
                                                           Ministerio Público pide una pena no inferior a 541          tías, sobrinos/sobrinas y, además, cualquier otra
                                                           días ni superior a 5 años de privación de libertad y,       persona menor de edad, adulto mayor o con dis-
@@ -4108,7 +4069,13 @@ nociones básicas                                                  los Juzgados 
 
 ## 36. Víctima: Persona directamente afectada por un
 
-                                                      26. Procedimiento monitorio: Método o medio espe-               delito, o sus cercanos que la representan, en caso
+**Definición Canónica:** 26. Procedimiento monitorio: Método o medio espe-               delito, o sus cercanos que la representan, en caso
+                                                          cial en el proceso penal que se aplica a las faltas,        que dicha persona no pueda ejercer sus derechos.
+                                                          en que el fiscal del Ministerio Público solicita que
+                                                          se aplique una multa.
+                                                                                                                  Los términos 
+
+26. Procedimiento monitorio: Método o medio espe-               delito, o sus cercanos que la representan, en caso
                                                           cial en el proceso penal que se aplica a las faltas,        que dicha persona no pueda ejercer sus derechos.
                                                           en que el fiscal del Ministerio Público solicita que
                                                           se aplique una multa.
@@ -4116,40 +4083,38 @@ nociones básicas                                                  los Juzgados 
 
 ## 27. Procedimiento ordinario: Tipo de procedimiento          PJUD. Para acceder al mismo puede se puede consul-
 
-                                                          penal que tiene lugar cuando se acusa al imputa-        tar este enlace.
+**Definición Canónica:** penal que tiene lugar cuando se acusa al imputa-        tar este enlace.
                                                           do por un crimen o simple delito, siempre que no
                                                           opere el procedimiento abreviado ni el simplifica-
                                                           do. Comienza con la formalización de la investiga-
                                                           ción y termina con el juicio oral.
 
+penal que tiene lugar cuando se acusa al imputa-        tar este enlace.
+                                                          do por un crimen o simple delito, siempre que no
+                                                          opere el procedimiento abreviado ni el simplifica-
+                                                          do. Comienza con la formalización de la investiga-
+                                                          ción y termina con el juicio oral.
 
 ## 28. Procedimiento simplificado: Tipo especial de
 
-                                                          procedimiento ante el Juez de Garantía que tiene
+**Definición Canónica:** procedimiento ante el Juez de Garantía que tiene
                                                           lugar cuando el fiscal del Ministerio Público pide
                                                           una pena privativa de libertad no superior a los
                                                           540 días.
 
-
-## 29. Querella: Escrito por el que la víctima o su repre-
-
-                                                          sentante ejerce una acción penal.
-
-
-## 30. Rebeldía: Sanción que se aplica al que debe ir a
-
-                                                          un tribunal, si no lo hace.
-
-
-## 31. Requerimiento: Acto oral o escrito a través del
-
-                                                          cual el fiscal le atribuye responsabilidad al impu-
-                                                          tado por cometer un simple delito o falta.
-
+procedimiento ante el Juez de Garantía que tiene
+                                                          lugar cuando el fiscal del Ministerio Público pide
+                                                          una pena privativa de libertad no superior a los
+                                                          540 días.
 
 ## 32. Responsabilidad penal adolescente (RPA): Sis-
 
-                                                          tema especial sobre la responsabilidad en la que
+**Definición Canónica:** tema especial sobre la responsabilidad en la que
+                                                          incurren las personas que al momento de cometer
+                                                          un delito son mayores de catorce y menores de
+                                                          dieciocho años de edad.
+
+tema especial sobre la responsabilidad en la que
                                                           incurren las personas que al momento de cometer
                                                           un delito son mayores de catorce y menores de
                                                           dieciocho años de edad.
@@ -4158,92 +4123,12 @@ nociones básicas                                                  los Juzgados 
 
                                                                Bibliografía
 
-
-## 1.    Código Penal (CP)
-
-
-
-## 2.    Código Procesal Penal (CPP)
-
-
-
-## 3.    Código Orgánico de Tribunales (COT)
-
-
-
-## 4.    Código de Procedimiento Civil (CPC)
-
-
-
-## 5.    Acta 71-2016, Auto Acordado que Regula el Fun-
-
-                                                                     cionamiento de Tribunales que Tramitan Electró-
-                                                                     nicamente. Disponible online.
-
-
-## 6.    PODER JUDICIAL (s/a): Descripciones de Cargos
-
-                                                                     de Los Tribunales del País. Juzgado de Garantía,
-                                                                     tamaño Mayor. Disponible online.
-
-
-## 7.    PODER JUDICIAL (s/a): Protocolo de manejo y
-
-                                                                     prevención ante covid-19 en tribunales y unida-
-                                                                     des judiciales.
-
-
-## 8.    Acta 41-2020, Auto Acordado que Regula el Tele-
-
-                                                                     trabajo y el Uso de Videoconferencia en el Poder
-                                                                     Judicial. Disponible online.
-
-
-## 9.    Acta 51-2020, Protocolo para el Anuncio y Alega-
-
-                                                                     tos en los Tribunales durante el Estado de Catás-
-                                                                     trofe. Disponible online.
-
-
 ## 10.   Acta 53-2020 Auto Acordado sobre Funciona-
 
-                                                                     miento del Poder Judicial durante la Emergencia
+**Definición Canónica:** miento del Poder Judicial durante la Emergencia
                                                                      Sanitaria Nacional provocada por el brote del
                                                                      nuevo coronavirus. Disponible online.
 
-
-## Serie de
-
-Tribunales de Garantía:                             1.     DOCUMENTOS 107
-nociones básicas                                                        07
-
-## Materiales
-
-
-## Docentes
-
-
- ial
-  c
-  udi
-  J
-  a
-  mi
-  de
-  a
-  c
-  A
-  s
-  e
-  nt
-  e
-  c
-  do
-  s
-  al
-  e
-  ri
-  e
- Mat
-
-    Academia Judicial de Chile | www.academiajudicial.cl
+miento del Poder Judicial durante la Emergencia
+                                                                     Sanitaria Nacional provocada por el brote del
+                                                                     nuevo coronavirus. Disponible online.

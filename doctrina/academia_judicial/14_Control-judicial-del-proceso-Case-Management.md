@@ -13,16 +13,11 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Procesal | **Materia:** Procesal
 
-## Serie de documentos
-
-
-## Materiales docentes
-
-
-
 ## Control judicial
 
-                                   DEL PROCESO:
+**Definición Canónica:** DEL PROCESO:
+
+DEL PROCESO:
 
                                          Director académico/ Coordinador/ Docente (1):   Ramón García Odgers
                                                                           Docente (2):   Claudio Fuentes Maureira
@@ -32,16 +27,16 @@ Material Docente N° 2
 ISBN N° 2021-A-2280     2020                                                                     WWW.ACADEMIAJUDICIAL.CL
 Santiago , Chile 2020
 
-## Materiales docentes
-
-
-## Control judicial del proceso: case management
-
-
 ## Academia judicial de chile
 
+**Definición Canónica:** Resumen
+                                                Estos materiales presentan una descripción y análisis de los aspectos principales del case
+                                                management, los fines que se pretenden alcanzar con esta herramienta y la centralidad que
+                                                contemporáneamente ha alcanzado en los procesos de reforma de importantes sistemas
+                                                judiciales comparados. Su objetivo es poner el foco de atención sobre el tema y en la necesidad
+                                        
 
-                                                Resumen
+Resumen
                                                 Estos materiales presentan una descripción y análisis de los aspectos principales del case
                                                 management, los fines que se pretenden alcanzar con esta herramienta y la centralidad que
                                                 contemporáneamente ha alcanzado en los procesos de reforma de importantes sistemas
@@ -116,138 +111,12 @@ Santiago , Chile 2020
 
                                                                                             Índice de contenidos
 
-
-## 2.2.1.2. El case management como función de los jueces                                            33
-
-
-## 2.2.2.     Los jueces procesales. El docket system                                                33
-
-
-## 2.2.2.1. Poderes Generales de case management. La discrecionalidad judicial.                      34
-
-
-## 2.2.2.1.1. Case management en casos de partes sin representación jurídica                         34
-
-
-## 2.2.2.1.2. Poderes de case management de oficio                                                   34
-
-
-## 2.2.2.1.3. Apelación de las decisiones de case management                                         34
-
-
-## 2.3. Los procedimientos judiciales y el case management                                                35
-
-
-## 2.3.1.     El case management en las CPR                                                          35
-
-
-## 2.3.1.1. Pre Action Protocols (PAPs)                                                              35
-
-
-## 2.3.1.2. Practice Directions (PD)                                                                 36
-
-
-## 2.3.1.3. Los Tracks procesales. Proporcionalidad                                                  36
-
-
-## 2.3.1.3.1. Small Claims                                                                           37
-
-
-## 2.3.1.3.2. Fast track                                                                             37
-
-
-## 2.3.1.3.3. Multy Track                                                                            37
-
-
-## 2.4. El case management, los acuerdos y la solución alternativa de conflictos                          37
-
-
-## 2.5. Las partes y los abogados frente al case management.                                              38
-
-
-## 3. El case management en Francia                                                                          38
-
-
-## 3.1. Síntesis evolutiva                                                                                38
-
-
-## 3.2. El case management en el proceso civil francés                                                    39
-
-
-## 3.2.1.     Las funciones del juge de la mise en etat                                              39
-
-
-## 3.2.2.     Los circuitos o tracks procesales.                                                     40
-
-
-## 3.2.2.1. Circuit court o ultracourt (Circuito corto).                                             40
-
-
-## 3.2.2.2. Circuit Moyen (Circuito mediano)                                                         41
-
-
-## 3.2.2.3. Circuit long (Circuito largo)                                                            41
-
-
-## 3.2.3.     Los contratos procesales y los acuerdos colectivos en Francia                          41
-
-
-## 3.2.3.1. Los contratos procesales                                                                 41
-
-
-## 3.2.3.2. Los acuerdos colectivos                                                                  42
-
-
-## 4. Síntesis comparativa entre los modelos de case management de Estados Unidos, Inglaterra y Francia      42
-
-
-## 4.1. Justificación                                                                                     42
-
-
-## 4.2. Densidad normativa, intensidad de su uso y regulación de los poderes del juez                     42
-
-
-## 4.3. Objetivos o fines del case management                                                             43
-
-
-## 4.4. Cooperación                                                                                       43
-
-
-## 4.5. Herramientas                                                                                      43
-
-
-## 4.5.1.     Conferencias                                                                           43
-
-
-## 4.5.2.     Tracks                                                                                 43
-
-
-## 4.5.3.     Fijación de fechas y programación del juicio                                           44
-
-
-## 4.6. Acuerdos                                                                                          44
-
-
-## 4.7. Sanciones                                                                                         44
-
-
-
-## Cuarta unidad: case management en chile                                                                   46
-
-
-## 1. El case management en el sistema procesal chileno.                                                     46
-
-
-## 2. El punto de partida: la Reforma Procesal Penal                                                         47
-
-
-## 2.1. La introducción de la oralidad y la necesidad de eficiencia. Racionalización y proporcionalidad   47
-
-
 ## 2.1.1.    El paradigma de la separación entre funciones jurisdiccionales y administrativas.       48
 
+**Definición Canónica:** Índice de contenidos
+**Concordancias Legales:** ley 19.968; Ley 20.886
 
-                                                                                            Índice de contenidos
+Índice de contenidos
 
              2.1.2.    Los Manuales de Procedimiento y la regulación de la gestión.                                           48
              2.1.3.    Objetivo de los Manuales de Procedimiento                                                              49
@@ -294,10 +163,14 @@ Santiago , Chile 2020
 
      BIBLIOGRAFÍA CITADA                                                                                                      76
 
-
 ## Introducción
 
-                                                                                                                                   En efecto, la tradición procesal europea que nació con la revolución francesa con una actitud de laissez a faire y un
+**Definición Canónica:** En efecto, la tradición procesal europea que nació con la revolución francesa con una actitud de laissez a faire y un
+1. Presentación del tema y síntesis evolutiva                                                                                      enérgico rechazo a la discreción judicial, fue transformada paulatinamente7. Esta concepción, se identifica con el
+                                                                                                                                   modelo de proceso civil desarrollado en Europa en gran parte del siglo XIX8, que lo consideraba como un a
+**Concordancias Legales:** constitucion
+
+En efecto, la tradición procesal europea que nació con la revolución francesa con una actitud de laissez a faire y un
 1. Presentación del tema y síntesis evolutiva                                                                                      enérgico rechazo a la discreción judicial, fue transformada paulatinamente7. Esta concepción, se identifica con el
                                                                                                                                    modelo de proceso civil desarrollado en Europa en gran parte del siglo XIX8, que lo consideraba como un asunto que
 Inicialmente entenderemos la noción de case management como lo hacen los Principios Transnacionales de Procedimiento               solo interesaba a las partes o Sache der Parteien, por lo que ningún poder fue entregado a los jueces para intervenir y
@@ -327,6 +200,11 @@ controlarlo permaneciendo pasivo.
 En Europa, esta evolución se identifica con una serie de transformaciones iniciadas hace más de un siglo atrás5. Esta              8.- DAMASKA (1997), p. 120.
 
 ## 9.- CAPPELLETTI y GARTH (1987), p. 23
+
+**Definición Canónica:** evolución revela que los cambios el rol y funcionaes del juez se vincula con cambios sobre los fines del proceso6.                 10.- UZELAC (2012), p. 115.
+                                                                                                                                   11.- COUTURE (2003), pp. 216–217.
+                                                                                                                                   12.- OTEIZA (2010), p. 233.
+1.- THE ALI–UNIDROIT (2006), pp. 33–34.                                                                              
 
 evolución revela que los cambios el rol y funcionaes del juez se vincula con cambios sobre los fines del proceso6.                 10.- UZELAC (2012), p. 115.
                                                                                                                                    11.- COUTURE (2003), pp. 216–217.
@@ -364,10 +242,11 @@ prescripciones contenidas en la normativa procesal con los medios o recursos dis
 permitan entregar a cada uno de ellos, una respuesta justa, oportuna y económica.                                                Todas estas materias constituyen mecanismos de racionalización que permiten la adaptación del procedimiento a las
                                                                                                                                  necesidades concretas del caso o su tratamiento eficiente. El conjunto de estas actividades -pese a que algunas de ellas
 
-
 ## 2. El tema en nuestro sistema de justicia
 
-                                                                                                                                 se refieren al litigio individual- permiten manejar el conjunto de la litigación.
+**Definición Canónica:** se refieren al litigio individual- permiten manejar el conjunto de la litigación.
+
+se refieren al litigio individual- permiten manejar el conjunto de la litigación.
 
 El case management se ha consolidado en varios países, como una herramienta para mejorar la eficiencia del sistema de            3. Importancia y utilidad del tema
 justicia que ha demostrado ser efectiva24.
@@ -398,8 +277,9 @@ colectivos, tema que está adquiriendo cada vez mayor relevancia en nuestro sist
 En general, el case management, correctamente entendido e implementado, puede constituirse en una herramienta
 necesaria para alcanzar los diversos objetivos del sistema de justicia.
 
-
 ## 4. Estructura de los materiales
+
+**Definición Canónica:** Estos materiales se dividen en cuatro unidades, además de esta introducción.
 
 Estos materiales se dividen en cuatro unidades, además de esta introducción.
 
@@ -424,17 +304,12 @@ nuestros sistemas.
 
 PRIMERA UNIDAD:
 
-
-## Concepto de
-
-
-PRIMERA UNIDAD:
-
-
-## Concepto de case
-
-
 ## Management
+
+**Definición Canónica:** Esta unidad es un análisis conceptual y crítico sobre el case management, dirigido a comprender para qué sirve y quién          Finalmente Pérez Ragone señala que “es un proceso judicial que proporciona un tratamiento efectivo, eficiente e intencionado
+lo ejecuta. Para estos efectos, se identifican sus rasgos más distintivos, para luego poner de relieve las conexiones que       para un caso a fin de lograr la resolución oportuna y cualitativa de una disputa”4.
+se presentan entre nuestro tema de estudio y otras nociones procesales, ejercicio que será útil para comprender el case
+management como
 
 Esta unidad es un análisis conceptual y crítico sobre el case management, dirigido a comprender para qué sirve y quién          Finalmente Pérez Ragone señala que “es un proceso judicial que proporciona un tratamiento efectivo, eficiente e intencionado
 lo ejecuta. Para estos efectos, se identifican sus rasgos más distintivos, para luego poner de relieve las conexiones que       para un caso a fin de lograr la resolución oportuna y cualitativa de una disputa”4.
@@ -442,6 +317,10 @@ se presentan entre nuestro tema de estudio y otras nociones procesales, ejercici
 management como una categoría conceptual autónoma.
 
 ## 1.2. Nuestra propuesta conceptual
+
+**Definición Canónica:** Al finalizar esta unidad se describirán algunas de las evaluaciones empíricas más relevantes que dan cuenta del impacto
+de su aplicación en el funcionamiento del sistema de justicia.                                                                  Para nosotros, el case management puede entenderse como la gestión y control judicial de la litigación para alcanzar los
+                                                                                                                                fines relevantes del proceso5.
 
 Al finalizar esta unidad se describirán algunas de las evaluaciones empíricas más relevantes que dan cuenta del impacto
 de su aplicación en el funcionamiento del sistema de justicia.                                                                  Para nosotros, el case management puede entenderse como la gestión y control judicial de la litigación para alcanzar los
@@ -513,8 +392,11 @@ ya que ha permitido afirmar la configuración de un nuevo rol del juez.
 9.- SCOTT (1995), p. 13.                                                                                                       12.- HOLVAST (2016), pp. 10 y ss.
 10.- GREGORIO (1996), p. 8.                                                                                                    13.- TURNER (2009), p. 83.
 
-
 ## 3. Dimensiones del case management. El macro y
+
+**Definición Canónica:** de un caso que conoce un juez en particular, sino que debe estar en la totalidad de los asuntos, los recursos deben ser
+divididos equitativamente. En otras palabras, es necesario equilibrar el interés de justicia del litigante individual contra
+**Concordancias Legales:** artículo 1
 
 de un caso que conoce un juez en particular, sino que debe estar en la totalidad de los asuntos, los recursos deben ser
 divididos equitativamente. En otras palabras, es necesario equilibrar el interés de justicia del litigante individual contra
@@ -542,8 +424,9 @@ valor, privado y social, y a su complejidad, en atención a los limitados recurs
                                                                                                                                 particulares de un caso individual con el conjunto de causas que constituyen la carga de trabajo del sistema26.
 A través de esta idea de proporcionalidad, se llega a la de case management diferenciado, que en esencia postula que los
 
-
 ## 4. El case management y los niveles de gestión en el
+
+**Definición Canónica:** diferentes tipos de casos necesitan diferentes tipos y niveles de atención, de recursos y de gestión judicial18.
 
 diferentes tipos de casos necesitan diferentes tipos y niveles de atención, de recursos y de gestión judicial18.
 
@@ -725,8 +608,9 @@ En la tradición del civil law, la idea del procedimiento legal obedece a razone
 juez como funcionario público57. La educación y la formación de los jueces de civil law, enraizados en muchas                       en su inspiración y coherente en sus modalidades.
 capas de la historia y en una concepción rígida de la separación de poderes, los hace muy cautelosos de apartarse
 
-
 ## 6. Críticas y objeciones al case management
+
+**Definición Canónica:** del texto legal58.
 
 del texto legal58.
 
@@ -789,8 +673,13 @@ informado de las partes.                                                        
 Finalmente, los jueces con obligaciones de supervisión pueden tener intereses propios en los procesos que gestionan.                eficiencia y eficacia a los resultados del procedimiento84.
 Pueden, por ejemplo, conseguir prestigio por una gestión eficiente, calculada por la velocidad y cantidad de sus
 
-
 ## 7. Evaluaciones sobre la eficacia del case management
+
+**Definición Canónica:** resoluciones. La competencia y la presión de los pares pueden inducir a los jueces a apurar a los litigantes por razones
+ajenas al mérito de la controversia76. Puede estimarse, incluso, que los jueces tengan un interés financiero, aun ínfimo,
+en las controversias que deben resolver por la vía de la gestión77.
+                                                                                                                                    En esta sección presentamos algunos estudios empíricos, que han tenido alguna relevancia, han sido publicados y
+En suma, de acuerdo a Resnik, el case managem
 
 resoluciones. La competencia y la presión de los pares pueden inducir a los jueces a apurar a los litigantes por razones
 ajenas al mérito de la controversia76. Puede estimarse, incluso, que los jueces tengan un interés financiero, aun ínfimo,
@@ -863,14 +752,12 @@ fuerte apoyo para la participación judicial temprana y regular en los casos civ
 
 SEGUNDA UNIDAD:
 
-
-## Fundamentos
-
-
 ## Teóricos del
 
+**Definición Canónica:** Hemos visto que el judicial case management consiste en la gestión y control judicial de la litigación para alcanzar los
+                  fines relevantes del sistema de justicia, pero ¿por qué es necesario entregar al sistema judicial y a los jueces esta función?
 
-                  Hemos visto que el judicial case management consiste en la gestión y control judicial de la litigación para alcanzar los
+Hemos visto que el judicial case management consiste en la gestión y control judicial de la litigación para alcanzar los
                   fines relevantes del sistema de justicia, pero ¿por qué es necesario entregar al sistema judicial y a los jueces esta función?
 
                   Para estos efectos, en esta unidad se describen cuáles son las problemáticas que subyacen en su origen, las respuestas
@@ -883,13 +770,12 @@ SEGUNDA UNIDAD:   alcances sociales y económicos de los procesos, la ampliació
 
 FUNDAMENTOS       1. Los cambios de paradigmas contemporáneos.
 
-
-## Teóricos del
-
-
 ## 1.1. De la unidimensionalidad a la tridimensionalidad de objetivos del proceso civil
 
-                  Tradicionalmente, al proceso se le ha asignado una finalidad única, esto es, decidir el fondo del conflicto pronunciando
+**Definición Canónica:** Tradicionalmente, al proceso se le ha asignado una finalidad única, esto es, decidir el fondo del conflicto pronunciando
+**Concordancias Legales:** artículos 6
+
+Tradicionalmente, al proceso se le ha asignado una finalidad única, esto es, decidir el fondo del conflicto pronunciando
 
                   decisiones justas o correctas1. Este enfoque ha sido denominado como “la filosofía de la justicia según sus méritos”, que
                   asume que siempre que el tribunal alcanza una decisión de acuerdo con los hechos y el derecho, la justicia ha sido hecha
@@ -933,6 +819,11 @@ redundar en la imposibilidad de acceder a la justicia y en la consecuente violac
 
 ## 93. De esta manera, los órganos del SIDH han determinado que un proceso que demande excesivos costos para su
 
+**Definición Canónica:** desarrollo, vulnera sin más, el artículo 8 de la Convención Americana”8. En la Opinión Consultiva (OC) 11/90, la Corte          Esta perspectiva se refuerza por nuestra formación jurídica que nos enseña, precisamente, a considerar sólo la
+Interamericana manifestó que la ausencia de asistencia jurídica gratuita puede no ser el único obstáculo de tipo                controversia en cuestión y sus méritos, pero no el funcionamiento del sistema jurídico, ni las consecuencias de la disputa
+económico para acceder a la justicia y los costos del proceso también resultan un factor a considerar9. En mat
+**Concordancias Legales:** artículo 8 de la Convención Americana; artículo 8.1 de la Convención
+
 desarrollo, vulnera sin más, el artículo 8 de la Convención Americana”8. En la Opinión Consultiva (OC) 11/90, la Corte          Esta perspectiva se refuerza por nuestra formación jurídica que nos enseña, precisamente, a considerar sólo la
 Interamericana manifestó que la ausencia de asistencia jurídica gratuita puede no ser el único obstáculo de tipo                controversia en cuestión y sus méritos, pero no el funcionamiento del sistema jurídico, ni las consecuencias de la disputa
 económico para acceder a la justicia y los costos del proceso también resultan un factor a considerar9. En materia de           para el conjunto de la litigación. Así las cosas, aunque nos esforzamos escrupulosamente por lograr un resultado justo
@@ -953,8 +844,10 @@ cuestiones asociadas a la duración de los procedimientos y los costos, pertenec
 del derecho a un juicio justo13. En segundo lugar, el concepto de eficiencia procesal, entendida como la capacidad de           no son ilimitados, y, casi siempre, las decisiones sobre el progreso de un caso también afectan la disponibilidad de recursos
 conseguir o maximizar un objetivo determinado, se amplía, incorporando las dimensiones de duración y costos14.                  judiciales para otros casos (p. ej. la suspensión de una audiencia en un juicio, puede forzar aplazamientos para otros casos)19.
 
-
 ## 2. Tres ideas centrales: proporcionalidad, justicia
+
+**Definición Canónica:** En suma, los imperativos de la justicia actual obligan a encontrar una adecuada ecuación entre la calidad de la decisión, con
+la oportunidad en que ella es entregada y sus costos. La ausencia de estos factores constituye una fuente de ineficiencia
 
 En suma, los imperativos de la justicia actual obligan a encontrar una adecuada ecuación entre la calidad de la decisión, con
 la oportunidad en que ella es entregada y sus costos. La ausencia de estos factores constituye una fuente de ineficiencia
@@ -978,7 +871,11 @@ sistema de justicia y, con ello, la vigencia del estado de derecho15.
 
 ## 2.1. Proporcionalidad
 
-                                                                                                                                      Estas consideraciones encuentran su común denominador en el enfoque del acceso a la justicia, que se centra en dos
+**Definición Canónica:** Estas consideraciones encuentran su común denominador en el enfoque del acceso a la justicia, que se centra en dos
+Como se puede suponer a la luz de lo hasta acá aprendido, lo que se halla ínsito en este nuevo paradigma es la idea de                propósitos básicos del sistema de justicia del Estado: el sistema debe ser igualmente accesible para todos y conducir a
+“proporcionalidad”. Ahondaremos un poco más en ella.                                                                                  resultados que sean individual y socialmente justos26. Esto significa que el sistema de justicia 
+
+Estas consideraciones encuentran su común denominador en el enfoque del acceso a la justicia, que se centra en dos
 Como se puede suponer a la luz de lo hasta acá aprendido, lo que se halla ínsito en este nuevo paradigma es la idea de                propósitos básicos del sistema de justicia del Estado: el sistema debe ser igualmente accesible para todos y conducir a
 “proporcionalidad”. Ahondaremos un poco más en ella.                                                                                  resultados que sean individual y socialmente justos26. Esto significa que el sistema de justicia debe permitir a todos el
                                                                                                                                       acceso a la justicia en un plano de igualdad27.
@@ -1138,15 +1035,13 @@ entorno que promueve y supone la cooperación de las partes en el desarrollo del
 
 TERCERA UNIDAD:
 
-
-## La experiencia de
-
-ESTADOS UNIDOS,
-
 ## Inglaterra y francia
 
+**Definición Canónica:** En esta sección, revisaremos tres sistemas o versiones del case management: el procedimiento civil federal de Estados
+                       Unidos, Inglaterra y Francia. Estos sistemas recogen algunos de los modelos comparados más relevantes de case
+                       management y desde los cuales, se pueden identificar sus principales aspectos y características.
 
-                       En esta sección, revisaremos tres sistemas o versiones del case management: el procedimiento civil federal de Estados
+En esta sección, revisaremos tres sistemas o versiones del case management: el procedimiento civil federal de Estados
                        Unidos, Inglaterra y Francia. Estos sistemas recogen algunos de los modelos comparados más relevantes de case
                        management y desde los cuales, se pueden identificar sus principales aspectos y características.
 
@@ -1158,10 +1053,12 @@ ESTADOS UNIDOS,
 TERCERA UNIDAD:        En Inglaterra, el case management de las Civil Procedure Rules (CPR) de 1999, incorporó el case management como un
                        instrumento para la realización del overriding objective. Se trata de una verdadera apuesta institucional que entrega a
 
-
 ## La experiencia de
 
-                       los jueces la responsabilidad de controlar la litigación civil, con el propósito de manejar los problemas de complejidad,
+**Definición Canónica:** los jueces la responsabilidad de controlar la litigación civil, con el propósito de manejar los problemas de complejidad,
+                       costos y demoras, bajo criterios de proporcionalidad y justicia distributiva.
+
+los jueces la responsabilidad de controlar la litigación civil, con el propósito de manejar los problemas de complejidad,
                        costos y demoras, bajo criterios de proporcionalidad y justicia distributiva.
 
                        Finalmente, el case management en Francia por su desarrollo histórico y de cultura legal, se configura con un fuerte
@@ -1170,8 +1067,13 @@ ESTADOS UNIDOS,
                        acento en la cooperación y la flexibilidad de los procedimientos, combinación que parece constituirse en tendencia en
                        el ámbito comparado.
 
-
 ## 1. El case management en Estados Unidos
+
+**Definición Canónica:** INGLATERRA Y FRANCIA   1.1. Introducción y síntesis evolutiva
+                       Según Marcus, desde muchas perspectivas, el incremento del case management constituye el cambio más importante
+                       en el procedimiento judicial norteamericano en los últimos cincuenta años1. En efecto, durante la mayor parte de la
+                       historia de Estados Unidos, los tribunales y los jueces se ocuparon de sus tareas sin mucha supervisión y en los casos
+                       civiles, se relegó el control sobre el desarrollo de los juicios a los abogados, orientación que par
 
 INGLATERRA Y FRANCIA   1.1. Introducción y síntesis evolutiva
                        Según Marcus, desde muchas perspectivas, el incremento del case management constituye el cambio más importante
@@ -1265,7 +1167,11 @@ ofreciendo muchas oportunidades para adaptar el procedimiento a las necesidades 
 
 ## 1.3. La Regla 16. Las conferencias y órdenes de case management
 
-                                                                                                                                   En 1993, la Regla 16 fue enmendada de nuevo para ampliar la autoridad de case management del tribunal. También
+**Definición Canónica:** En 1993, la Regla 16 fue enmendada de nuevo para ampliar la autoridad de case management del tribunal. También
+La Regla 16 de las FRCP originales de 1938, configuraron el “Pre-Trial Procedure; Formulating Issues” (Procedimiento               se enmendó la Regla 26 (b), otorgando a los tribunales una mayor discreción para manejar el discovery. Otro cambio
+Preliminar, Formulación de Cuestiones”), concediendo a los jueces la facultad de consultar con los abogados sobre la               de 1993 importante fue la enmienda a la Regla 26 f) que convirtió la discovery planning conference (conferencia 
+
+En 1993, la Regla 16 fue enmendada de nuevo para ampliar la autoridad de case management del tribunal. También
 La Regla 16 de las FRCP originales de 1938, configuraron el “Pre-Trial Procedure; Formulating Issues” (Procedimiento               se enmendó la Regla 26 (b), otorgando a los tribunales una mayor discreción para manejar el discovery. Otro cambio
 Preliminar, Formulación de Cuestiones”), concediendo a los jueces la facultad de consultar con los abogados sobre la               de 1993 importante fue la enmienda a la Regla 26 f) que convirtió la discovery planning conference (conferencia de
 preparación del juicio, la posibilidad de obtener ciertas admisiones, evitar pruebas innecesarias, limitando la prueba de          planificación de descubrimientos) en obligatoria42.
@@ -1517,10 +1423,11 @@ desproporcionada si el beneficio obtenido con esa decisión genera un excesivo c
 recursos del tribunal que consumiría110.                                                                                       proporcionado al asunto y a la situación financiera de las partes, asegurando un tratamiento rápido y un uso apropiado
                                                                                                                                de los recursos de la Corte116.
 
-## 2.2.2.1.1. Case management en casos de partes sin representación jurídica
-
-
 ## 2.2.2.1.3. Apelación de las decisiones de case management
+
+**Definición Canónica:** En aquellos casos que al menos una de las partes no esté representada, las Civil Procedure Rules exigen que el tribunal
+desarrolle el case management considerando esta situación111.                                                                  Las apelaciones en contra de las decisiones de case management requieren especial consideración. Si tales decisiones
+                                                                                                                               pudieran ser apeladas con facilidad, el proceso podría ser paralizado por una parte que cuenta con altos recu
 
 En aquellos casos que al menos una de las partes no esté representada, las Civil Procedure Rules exigen que el tribunal
 desarrolle el case management considerando esta situación111.                                                                  Las apelaciones en contra de las decisiones de case management requieren especial consideración. Si tales decisiones
@@ -1632,6 +1539,10 @@ mecanismo para economizar los recursos procesales, hasta ese momento ausente en 
 
 ## 2.3.1.3.3. Multy Track
 
+**Definición Canónica:** A continuación describiremos, sintéticamente, la configuración general de los tracks establecidos en las CPR. Esto nos
+permitirá observar, en concreto, como la idea de proporcionalidad se asienta estructuralmente en el sistema procesal.          Este track se aplica cuando el valor de la demanda excede de las 25.000 libras156. Además, es posible que después de
+                                                                                                                               realizada la asignación del caso al fast track, surja alguna circunstancia que indique que se pueda reasignar 
+
 A continuación describiremos, sintéticamente, la configuración general de los tracks establecidos en las CPR. Esto nos
 permitirá observar, en concreto, como la idea de proporcionalidad se asienta estructuralmente en el sistema procesal.          Este track se aplica cuando el valor de la demanda excede de las 25.000 libras156. Además, es posible que después de
                                                                                                                                realizada la asignación del caso al fast track, surja alguna circunstancia que indique que se pueda reasignar el caso al
@@ -1667,6 +1578,12 @@ de la fecha del juicio o del período para su realización154.
 
 ## 2.4. El case management, los acuerdos y la solución alternativa de conflictos
 
+**Definición Canónica:** Aunque una audiencia de case management no debería ser normalmente requerida, la corte tiene el poder para hacerlo
+                                                                                                                               La regla 1.4 de las Civil Procedure Rules subrayan dos de las responsabilidades generales del juez durante el case
+147.- ZUCKERMAN (1996), p. 781.
+148.- CPR rule 26.6.                                                                                                           155.- ZUCKERMAN (2013), p. 644.
+149.- ZUCKERMAN (2013), p. 641.                     
+
 Aunque una audiencia de case management no debería ser normalmente requerida, la corte tiene el poder para hacerlo
                                                                                                                                La regla 1.4 de las Civil Procedure Rules subrayan dos de las responsabilidades generales del juez durante el case
 147.- ZUCKERMAN (1996), p. 781.
@@ -1691,8 +1608,11 @@ para fomentar una solución alternativa del conflicto u otra clase de acuerdos16
 Adicionalmente, Lord Woolf recomendó en su reporte final un régimen sobre ofertas para alcanzar un acuerdo, el que             presencia del juez quien debe escuchar. El juez sólo puede hacer preguntas muy limitadas para clarificar173.
 puede resumirse de la siguiente manera: Cualquier parte, tanto el demandante como el demandado, debería hacer una
 
-
 ## 3. El case management en Francia
+
+**Definición Canónica:** oferta para alcanzar un acuerdo, sea sobre todo el caso o a parte de éste. Estas ofertas podrían realizarse antes del inicio
+del procedimiento. Deben existir incentivos financieros, en particular, para alentar a los demandantes a hacer ofertas.166.
+**Concordancias Legales:** artículo 3 del Código de Procedimiento Civil francés; artículos 763; artículo 763; artículo 3; artículo 760 del CPC; artículo 16; artículo 764; artículo 767; artículo 768; artículo 771; artículo 777; artículo 760
 
 oferta para alcanzar un acuerdo, sea sobre todo el caso o a parte de éste. Estas ofertas podrían realizarse antes del inicio
 del procedimiento. Deben existir incentivos financieros, en particular, para alentar a los demandantes a hacer ofertas.166.
@@ -1832,12 +1752,14 @@ el mismo día226. Esta última hipótesis opera como un mecanismo de aceleració
 Los casos que no son asignados a la ruta corta deben seguir la ruta larga, lo que significa que la instrucción se lleva a        y modo para conducir razonablemente el caso hasta su conclusión236.
 cabo bajo el control del juge de la mise en état228.
 
-## 3.2.3. Los contratos procesales y los acuerdos colectivos en Francia
-
-
 ## 3.2.2.2. Circuit Moyen (Circuito mediano)
 
-                                                                                                                                 A propósito de la calendarización o programación del caso, se abre el espacio para la celebración de acuerdos o
+**Definición Canónica:** A propósito de la calendarización o programación del caso, se abre el espacio para la celebración de acuerdos o
+Cuando el presidente del Tribunal considera que existe la necesidad de un último intercambio de conclusiones o                   convenciones procesales, vinculados con el case management. Estas convenciones pueden ser individuales o colectivas.
+documentos, fijará un plazo para este efecto, hipótesis que se encuentra regulada en el artículo 761 del CPC229.                 Los primeros toman el nombre de contratos procesalesy los acuerdos procesales o protocolos de procedimiento.
+**Concordancias Legales:** artículo 761 del CPC229. Los primeros toman el; artículo 764 del CPC que dispone que el juge de la mise en éta; artículo 764 del Code de procédure civile; artículo 760
+
+A propósito de la calendarización o programación del caso, se abre el espacio para la celebración de acuerdos o
 Cuando el presidente del Tribunal considera que existe la necesidad de un último intercambio de conclusiones o                   convenciones procesales, vinculados con el case management. Estas convenciones pueden ser individuales o colectivas.
 documentos, fijará un plazo para este efecto, hipótesis que se encuentra regulada en el artículo 761 del CPC229.                 Los primeros toman el nombre de contratos procesalesy los acuerdos procesales o protocolos de procedimiento.
 
@@ -1870,7 +1792,14 @@ reunirse en el despacho del juez si ello resulta necesario235.                  
 
 ## 227.- FICARELLI (2011), p. 74
 
-                                                                                                                                 Es interesante para nosotros considerar que en esta adecuación consensuada del calendario y del tiempo para el
+**Definición Canónica:** Es interesante para nosotros considerar que en esta adecuación consensuada del calendario y del tiempo para el
+228.- JOLOWICZ (1996), p. 205.
+229.- Code de procédure civile (1975) artículo 761.                                                                              236.- ZALAR (2005), p. 57.
+230.- Code de procédure civile (1975) artículo 761.                                                                              237.- MARTINUZZI (2017), p. 71.
+231.- JEULAND (2014), p. 353.                                                                                                    238.- BERIZO
+**Concordancias Legales:** artículo 761; artículo 764
+
+Es interesante para nosotros considerar que en esta adecuación consensuada del calendario y del tiempo para el
 228.- JOLOWICZ (1996), p. 205.
 229.- Code de procédure civile (1975) artículo 761.                                                                              236.- ZALAR (2005), p. 57.
 230.- Code de procédure civile (1975) artículo 761.                                                                              237.- MARTINUZZI (2017), p. 71.
@@ -1885,8 +1814,10 @@ significa que no todos los casos recibirán la misma cantidad de tiempo ni urgen
 casos. Las situaciones de emergencia requieren decisiones inmediatas, casos complejos requieren más cuidado en la              el legicentrismo252.
 investigación preliminar de los elementos del debate, lo que justifica circuitos de velocidad variable o la participación
 
-
 ## 4. Síntesis comparativa entre los modelos de case
+
+**Definición Canónica:** de un juez especial, entre otros243.
+**Concordancias Legales:** artículos 763; artículo 764 del Código y los protocolos colectivos de procedi
 
 de un juez especial, entre otros243.
 
@@ -1949,6 +1880,11 @@ del sistema.
 
 ## 4.5. Herramientas
 
+**Definición Canónica:** En Estados Unidos la Regla 1 de las FRCP fueron modificadas en 1993, para resaltar la importancia de reducir los
+costos y la demora y hacer hincapié en el valor de un activo case management incorporando en ello a las partes. De este           En las tres jurisdicciones es posible reconocer el uso de conferencias, tracks procesales, generación de calendarios de
+modo, la actual Regla 1 señala que “ellas deben ser interpretadas, administradas y empleadas por el tribunal y las partes         procedimiento, promoción de los acuerdos y un régimen de sanciones por incumplimiento a las decisiones judi
+**Concordancias Legales:** artículo 3 del Código de Procedimiento Civil francés
+
 En Estados Unidos la Regla 1 de las FRCP fueron modificadas en 1993, para resaltar la importancia de reducir los
 costos y la demora y hacer hincapié en el valor de un activo case management incorporando en ello a las partes. De este           En las tres jurisdicciones es posible reconocer el uso de conferencias, tracks procesales, generación de calendarios de
 modo, la actual Regla 1 señala que “ellas deben ser interpretadas, administradas y empleadas por el tribunal y las partes         procedimiento, promoción de los acuerdos y un régimen de sanciones por incumplimiento a las decisiones judiciales.
@@ -1970,6 +1906,13 @@ instituciones procesales, como las conferencias y los acuerdos procesales. Si se
 sistema en los procedimientos, se requiere de un case management y este supone cooperación.
 
 ## 4.5.2. Tracks
+
+**Definición Canónica:** En este sentido, Storme señala que “la coordinación de la actividad de las partes requiere de un case management por el
+tribunal. Este case management, que no es una investigación inquisitiva de los hechos, sino que invita a las partes a coordinar   Los tracks pretenden garantizar una proporcionalidad entre la complejidad de la controversia y la complejidad del
+sus actividades, es obligatoria en muchos códigos de procedimiento civil continental y ahora también en el procedimiento          procedimiento que se utiliza para resolver.
+reformado inglés”260.
+                                        
+**Concordancias Legales:** artículo 3; artículo 763
 
 En este sentido, Storme señala que “la coordinación de la actividad de las partes requiere de un case management por el
 tribunal. Este case management, que no es una investigación inquisitiva de los hechos, sino que invita a las partes a coordinar   Los tracks pretenden garantizar una proporcionalidad entre la complejidad de la controversia y la complejidad del
@@ -2028,14 +1971,12 @@ En Estados Unidos, la promoción de los acuerdos y de mecanismos alternativos es
 
           CUARTA UNIDAD:
 
-
 ## En chile
 
-
-CUARTA UNIDAD:
-
-
-## En chile
+**Definición Canónica:** En nuestro sistema el case management está comenzando a ser identificado, discutido y promovido. Se trata, en todo           o percibido en la operatoria actual de nuestro sistema de justicia2.
+caso, de un estadio inicial donde sus principales manifestaciones son todavía muy recientes, diversas y algo difusas.
+                                                                                                                             En este sentido, el case management ha pasado prácticamente inadvertido, probablemente confundido entre las
+En efecto, el tema está recién aflorando con mayor cons
 
 En nuestro sistema el case management está comenzando a ser identificado, discutido y promovido. Se trata, en todo           o percibido en la operatoria actual de nuestro sistema de justicia2.
 caso, de un estadio inicial donde sus principales manifestaciones son todavía muy recientes, diversas y algo difusas.
@@ -2080,10 +2021,15 @@ case management en el sistema procesal chileno, asociado a una nueva forma de no
 tradicional de la legalidad en sentido estricto.
                                                                                                                               Fundamental para nuestra tradición fue el reemplazo del procedimiento escrito basado en expedientes, por un
 
-
 ## 2. El punto de partida: la Reforma Procesal Penal
 
-                                                                                                                              procedimiento oral y público, como garantía básica de debido proceso y presupuesto de la sentencia penal. Así, uno
+**Definición Canónica:** procedimiento oral y público, como garantía básica de debido proceso y presupuesto de la sentencia penal. Así, uno
+                                                                                                                              de los objetivos fundamentales de la reforma en este sentido, fue eliminar la práctica de la delegación de funciones,
+                                                                                                                              desarrollada en el procedimiento penal antiguo, al amparo del procedimiento escrito7.
+De acuerdo a Riego el case ma
+**Concordancias Legales:** artículo 15 del COT. En efecto; artículo 1 de la Ley 19.968; artículo 118; artículo 2; artículo 418 del Código del Trabajo; artículo 6; Artículo 1 de la Ley n; Artículo 118 de la Ley n; Artículo 17 del Código Orgánico de Tribunales; Artículo 5 de la Ley n; Artículo 4; artículo 9 de la Ley sobre Tribunales de Familia; artículo 13; Artículo 26 bis de la Ley n; Artículo 61 de la Ley n; Artículo 30 de la Ley n; Artículo 31 de la Ley n; Artículos 47; Artículos 51; Artículo 54 de la Ley n; Artículos 54; Artículo 63 de la Ley n; Artículo 63 bis de la Ley n; Artículo 64 de la Ley n; Artículo 9.2.1 del Manual de Procedimientos de los Juzgados de F; Artículo 9.7 del Manual de Procedimientos de los Juzgados de F; Artículo 1; artículo 9; Ley 19.968; Ley 20.022; Ley 19.53145; Ley 20.22447; Ley 20.224; Ley 20.286
+
+procedimiento oral y público, como garantía básica de debido proceso y presupuesto de la sentencia penal. Así, uno
                                                                                                                               de los objetivos fundamentales de la reforma en este sentido, fue eliminar la práctica de la delegación de funciones,
                                                                                                                               desarrollada en el procedimiento penal antiguo, al amparo del procedimiento escrito7.
 De acuerdo a Riego el case management, como tema especial en la ley procesal chilena, nace recién en el año 2000,
@@ -2426,7 +2372,13 @@ audiencias89.                                                                   
 
 ## 2.3.3.2. Acta 98 -2009, sobre Gestión y Administración de los Juzgados de Familia
 
-                                                                                                                                Finalmente, dispuso que los criterios de programación de audiencias debían contener los tiempos máximos de
+**Definición Canónica:** Finalmente, dispuso que los criterios de programación de audiencias debían contener los tiempos máximos de
+Con el Acta 98-2009 se estableció un conjunto de reglas para que cada tribunal estableciera criterios más elaborados            agendamiento y determinarían el número de Salas en funciones y de audiencias. Además, ordenó que, en ningún caso,
+para el agendamiento de los casos, centrando las obligaciones en tres figuras: el Comité de Jueces, el Juez Presidente          las audiencias podrán programarse en un plazo superior a noventa días99.
+y el Administrador (denominados “órganos del contr
+**Concordancias Legales:** artículo 13; Artículos 2; Artículo 4 del Acta 91; Artículo 34 del Acta 91; Artículo 9 del Acta 98; Artículo 35 del Acta 91; Artículo 41 del Acta 91; Artículos 42; Artículo 9; Artículo 1 del Acta 98; Artículo 16 del Acta 98; Artículo 11 del Acta 98; Artículo 12 del Acta 98; artículo 418 del Código del Trabajo dispuso que se aplicaría a; artículo 38 del Acta que dispone que el Ministro visitador de; artículo 6 de la Ley 20.022 que dispuso que los juzgados se or; Artículo 13 del Acta 98; Artículo 37 del Acta 98; Artículo 38 del Acta 98; Artículo 6; artículo 425 del Código del Trabajo; artículos 425; Ley Nº 20.022; Ley 20.022; Ley 20.087; Ley 20.886
+
+Finalmente, dispuso que los criterios de programación de audiencias debían contener los tiempos máximos de
 Con el Acta 98-2009 se estableció un conjunto de reglas para que cada tribunal estableciera criterios más elaborados            agendamiento y determinarían el número de Salas en funciones y de audiencias. Además, ordenó que, en ningún caso,
 para el agendamiento de los casos, centrando las obligaciones en tres figuras: el Comité de Jueces, el Juez Presidente          las audiencias podrán programarse en un plazo superior a noventa días99.
 y el Administrador (denominados “órganos del control y de la gestión”)90. También se buscó darle operatividad al Acta
@@ -2526,6 +2478,12 @@ extensión a cuestiones ajenas al pleito”111. Esta celeridad es un principio q
 mismo Código y en otras normas que se orientan al logro de este objetivo112.
 
 ## 2.5.1. La Ley 20.886 sobre Tramitación Electrónica
+
+**Definición Canónica:** Esta configuración de la celeridad aparece de este modo, reforzada, lo que ha generado críticas por una excesiva
+preocupación por la celeridad por sobre el debido proceso113.                                                                   La Ley N° 20.886 modificó el Código de Procedimiento Civil, para establecer la tramitación digital de los procedimientos
+                                                                                                                                judiciales118. Esta Ley se complementa con los Autos Acordados 37-2016 y 71-2016, ambos dictados por la Corte
+
+**Concordancias Legales:** artículo 429; artículo 5; artículo 430 del Código del Trabajo confiere al tribunal; Artículo 430 del Código del Trabajo. 110; Artículo 425 del Código del Trabajo; Artículo 451 del Código del Trabajo. 111; Artículo 454 del Código del Trabajo. 112; Artículos 429; Artículo 429 del Código del Trabajo; artículo 82 de la Constitución Política confiere a la Corte Sup; artículo 2; artículo 8; artículo 9 del Auto Acordado 71; artículo 19; Artículo 8 del Auto Acordado 71; Artículo 3; Artículo 9; artículo 7; artículos 15; artículo 118 de la Ley 19.968 sobre Tribunales de Familia. El tr; artículo 73 del Auto Acordado dispone que; artículo 74; artículo 75 del Auto Acordado señala que; Artículo 19 del Auto Acordado 71; Artículo 49; Artículo 7 del Auto Acordado 71; Artículos 53; Artículo 73 del Auto Acordado 71; artículos 8; artículo 18; Artículos 4; Artículo 5 del Auto acordado 71; Artículo 13; artículos 425; Ley N° 20.886; Ley 20.886; Ley 20.087; Ley 20.886122; Ley 19.968; Constitución Política
 
 Esta configuración de la celeridad aparece de este modo, reforzada, lo que ha generado críticas por una excesiva
 preocupación por la celeridad por sobre el debido proceso113.                                                                   La Ley N° 20.886 modificó el Código de Procedimiento Civil, para establecer la tramitación digital de los procedimientos
@@ -2755,10 +2713,13 @@ procesal. Con todo, lo más relevante es que la evidencia empírica disponible m
 procedimientos de Familia y Laboral, desarrollan algunas prácticas que en derecho comparado se reconocen como de           administrativo y de gestión impacta en la operatoria del sistema, incluso, en la actividad de los jueces a nivel de los
 case management.                                                                                                           casos individuales146.
 
-
 ## 4. Caracterización del case management en los
 
-                                                                                                                           La programación y agendamiento repercuten en el campo de lo jurisdiccional. Aquí se identifican y clasifican los
+**Definición Canónica:** La programación y agendamiento repercuten en el campo de lo jurisdiccional. Aquí se identifican y clasifican los
+                                                                                                                           casos, según tipologías, las que, en definitiva, determinan la cantidad de tiempo de audiencia que será asignado para
+**Concordancias Legales:** Artículo 18; artículo 7 del AA 71; artículo 73 del AA 71; artículo 74; artículo 75 del AA señala que; artículo 64; artículo 3; artículo 5; artículo 65; artículo 71; artículo 126; artículo 280; artículo 284; artículo 12 del Proyecto impide renunciar a la aplicación de; ley 19.968; constitucion
+
+La programación y agendamiento repercuten en el campo de lo jurisdiccional. Aquí se identifican y clasifican los
                                                                                                                            casos, según tipologías, las que, en definitiva, determinan la cantidad de tiempo de audiencia que será asignado para
 
    procedimientos reformados y evaluación preliminar
@@ -3333,27 +3294,31 @@ civil, con detalle de sus procesos y la manera en que estos se articularán con 
 que hasta ahora conocemos, será de gran utilidad para disipar o confirmar las dudas sobre si habrá o no un verdadero
 cambio de paradigma.
 
-
-## Bibliografía
-
-
 ## Citada
 
+**Definición Canónica:** 15. BERIZONCE, Roberto Omar (2016): El principio general del abuso del            30. CADIET, Loïc (2008 a): Case management judiciaire et déformalisation            47. CAPPELLETTI, Mauro – PERILLO, Joseph (1965): Civil procedure in
 
-                                                                                   15. BERIZONCE, Roberto Omar (2016): El principio general del abuso del            30. CADIET, Loïc (2008 a): Case management judiciaire et déformalisation            47. CAPPELLETTI, Mauro – PERILLO, Joseph (1965): Civil procedure in
-
+15. BERIZONCE, Roberto Omar (2016): El principio general del abuso del            30. CADIET, Loïc (2008 a): Case management judiciaire et déformalisation            47. CAPPELLETTI, Mauro – PERILLO, Joseph (1965): Civil procedure in
 
 ## Bibliografía
 
-                                                                                       derecho y su incidencia en el ordenamiento procesal, en Civil Procedure           de la procédure, en Revue française ’administration Publique N° 125,                Italy (Columbia University School of Law Project on International
+**Definición Canónica:** derecho y su incidencia en el ordenamiento procesal, en Civil Procedure           de la procédure, en Revue française ’administration Publique N° 125,                Italy (Columbia University School of Law Project on International
+                                                                                       Review 7 (2016) 2.                                                                vol. 1, pp. 133 – 150.                                                              Procedure, Springer-Science+Business, B.V. Media).
+                                                                
+**Concordancias Legales:** constitución
+
+derecho y su incidencia en el ordenamiento procesal, en Civil Procedure           de la procédure, en Revue française ’administration Publique N° 125,                Italy (Columbia University School of Law Project on International
                                                                                        Review 7 (2016) 2.                                                                vol. 1, pp. 133 – 150.                                                              Procedure, Springer-Science+Business, B.V. Media).
                                                                                    16. BERIZONCE, Roberto (2014): El principio de legalidad formal bajo              31. CADIET, Loic (2008 b): Déformalisation et case management en France,            48. CAROCCA, Alex (2003): El Nuevo Sistema Procesal Penal (Editorial
                                                                                        el prisma de la constitución “normatizada”, en Revista del Instituto              en VAN RHEE C. H.; HEIRBAUT, D.; STORME, M. (editores), The french                  Jurídica La Ley Ltda., Primera Edición, Santiago).
 
-
 ## Citada
 
-                                                                                       Colombiano de Derecho Procesal, 40.                                               code of civil procedure (1806) after 200 years: The civil procedure
+**Definición Canónica:** Colombiano de Derecho Procesal, 40.                                               code of civil procedure (1806) after 200 years: The civil procedure
+                                                                                                                                                                         tradition in France and abroad (Mechelen, Kluwer), pp. 271-301.                 49. CARPI, Federico (2000): Le riforme del processo civile in Italia verso
+                                                                                   17. BERIZONCE, Roberto (2007): Bases y Prin
+
+Colombiano de Derecho Procesal, 40.                                               code of civil procedure (1806) after 200 years: The civil procedure
                                                                                                                                                                          tradition in France and abroad (Mechelen, Kluwer), pp. 271-301.                 49. CARPI, Federico (2000): Le riforme del processo civile in Italia verso
                                                                                    17. BERIZONCE, Roberto (2007): Bases y Principios que informan el                                                                                                         il XXI secolo, en Rivista Trimestrale Di Diritto e Procedura Civile
                                                                                        Código Modelo Procesal Civil para Iberoamérica de 1988, en Palomo             32. CADIET, Loic (2000): El nuevo código procesal civil francés veinticinco             (Milano, Giuffreá Editore).
@@ -3397,13 +3362,22 @@ cambio de paradigma.
 
 ## 42. CAPONI, Remo (2016 b): Rigidita` e flessibilita` del processo civile, en
 
-                                                                                       Chile, disponible en World Wide Web: https://www.academia.                        Rivista di Diritto Processuale LXXI (2016) 6, pp. 1442 – 1458.                  59. COUTURE, Eduardo (1958): Fundamentos del derecho procesal civil
+**Definición Canónica:** Chile, disponible en World Wide Web: https://www.academia.                        Rivista di Diritto Processuale LXXI (2016) 6, pp. 1442 – 1458.                  59. COUTURE, Eduardo (1958): Fundamentos del derecho procesal civil
+9.   ANDREWS, Neil (2012): The three paths of justice: Court proceeedings,             edu/3155500/Hacia_la_Reforma_del_Proceso_Civil_en_Chile?.
+     arbitration and mediation in England (Springer, 2012).                                                                                                                                                                      
+
+Chile, disponible en World Wide Web: https://www.academia.                        Rivista di Diritto Processuale LXXI (2016) 6, pp. 1442 – 1458.                  59. COUTURE, Eduardo (1958): Fundamentos del derecho procesal civil
 9.   ANDREWS, Neil (2012): The three paths of justice: Court proceeedings,             edu/3155500/Hacia_la_Reforma_del_Proceso_Civil_en_Chile?.
      arbitration and mediation in England (Springer, 2012).                                                                                                                                                                                                  (3a edición, Buenos Aires, Roque Depalma Editor).
 
 ## 43. CAPONI, Remo (2010): II principio di proporzíonalitá nella giustizia
 
-                                                                                   26. BRAZIL, Wayne (1981), Improving judicial controls over the pretrial               civile: prime note sistematiche, en Rivista trimestrale di diritto e            60. COUTURE, Eduardo (2003): Estudios de Derecho Procesal Civil,
+**Definición Canónica:** 26. BRAZIL, Wayne (1981), Improving judicial controls over the pretrial               civile: prime note sistematiche, en Rivista trimestrale di diritto e            60. COUTURE, Eduardo (2003): Estudios de Derecho Procesal Civil,
+10. APPLEBEY, George (1999): The new small claims track, en Civil                      development of civil actions: Model rules for case management and
+    Justice Quarterly 18.                                                                                                                                                procedura civile.                              
+**Concordancias Legales:** Constitución
+
+26. BRAZIL, Wayne (1981), Improving judicial controls over the pretrial               civile: prime note sistematiche, en Rivista trimestrale di diritto e            60. COUTURE, Eduardo (2003): Estudios de Derecho Procesal Civil,
 10. APPLEBEY, George (1999): The new small claims track, en Civil                      development of civil actions: Model rules for case management and
     Justice Quarterly 18.                                                                                                                                                procedura civile.                                                                   Tomo I, La Constitución y el Proceso Civil, (tercera edición, LexisNexis
                                                                                        sanctions, en American Bar Foundation Research Journal 6 (1981) 4,                                                                                                    Depalma, Buenos Aires).
@@ -3426,7 +3400,10 @@ cambio de paradigma.
 
 ## 29. CADIET, Loïc et al (2012): Better administering for better judging, en
 
-    civil litigation, en Journal of Legislation 8.                                                                                                                       J.C.B Mohr (Paul Siebeck), Tubingen y Martinus Nijhoff Publishers), I.
+**Definición Canónica:** civil litigation, en Journal of Legislation 8.                                                                                                                       J.C.B Mohr (Paul Siebeck), Tubingen y Martinus Nijhoff Publishers), I.
+                                                                                       International Journal for Court Administration 4, 3.                                                                                                              64. DE WEERS, Thomas (2015-2016): Reforming the law of civil
+
+civil litigation, en Journal of Legislation 8.                                                                                                                       J.C.B Mohr (Paul Siebeck), Tubingen y Martinus Nijhoff Publishers), I.
                                                                                        International Journal for Court Administration 4, 3.                                                                                                              64. DE WEERS, Thomas (2015-2016): Reforming the law of civil
 
      procedure: Does it work?, disponible en World Wide Web: https://                  Success in England and Wales?, en Civil Justice Quarterly.                        Quaderni di Ricerca Giuridica (Legal Research Papers) Legal Services          106. HODGES, Christopher (2007): Europeanization of civil justice: Trends
@@ -3462,6 +3439,9 @@ cambio de paradigma.
 
 ## 87. García, José Francisco (2006): La reforma a la justicia civil y comercial
 
+**Definición Canónica:** 71. DWYER, Déirdre (2009): What is the meaning of CPR r 1.1 (1)?, en                  en el derecho comparado: Buenas prácticas, instituciones exitosas y el                                                                                           114. JOLOWICZ, J. A. (1996): The Woolf report and the adversary system,
+                                                                                                                                                                    99. HARASIC, Davor (2006): Justicia Civil: Transformación Necesaria y                   en Civil Justice Quarterly 15
+
 71. DWYER, Déirdre (2009): What is the meaning of CPR r 1.1 (1)?, en                  en el derecho comparado: Buenas prácticas, instituciones exitosas y el                                                                                           114. JOLOWICZ, J. A. (1996): The Woolf report and the adversary system,
                                                                                                                                                                     99. HARASIC, Davor (2006): Justicia Civil: Transformación Necesaria y                   en Civil Justice Quarterly 15 (1996), pp. 198-210.
     DWYER, Déirdre (editor), The civil procedure rules ten years on                   rol de las familias legales, en Silva, José Pedro; García, José Francisco;        Urgente, en Justicia Civil y Comercial: Una Reforma Pendiente, en Bases
@@ -3478,6 +3458,9 @@ cambio de paradigma.
 
 ## 89. GARCIA ODGERS, Ramón (2019a): El surgimiento del judicial case
 
+**Definición Canónica:** 75. ETCHEGARAY, Patricia (2013): Control in limine de admisibilidad en                management: una sintesis evolutiva del control judicial del proceso civil     101. HENSLER, Deborah (2001): The contribution of judicial reform to the           118. JONGBLOED, A.W. (2008): Judicial case management and efficiency in
+    el derecho chileno ante el Juez de Familia y derechos fundamentales               en Europa, en Revista de estudios histórico-jurídicos, Valparaíso , n.             rule of law, en Conference on New Approaches for Meeting the Demand                the Netherlands, en VAN RHEE,
+
 75. ETCHEGARAY, Patricia (2013): Control in limine de admisibilidad en                management: una sintesis evolutiva del control judicial del proceso civil     101. HENSLER, Deborah (2001): The contribution of judicial reform to the           118. JONGBLOED, A.W. (2008): Judicial case management and efficiency in
     el derecho chileno ante el Juez de Familia y derechos fundamentales               en Europa, en Revista de estudios histórico-jurídicos, Valparaíso , n.             rule of law, en Conference on New Approaches for Meeting the Demand                the Netherlands, en VAN RHEE, C.H. (editor), Judicial case management
     procesales, en Revista Chilena de Derecho y Ciencia Política, Vol. 4,             41, pp. 179-205.                                                                   for Justice (Mexico City, 2001), p. 1, disponible en World Wide Web:               and efficiency in civil litigation (Intersentia Antwerp – Oxford –
@@ -3485,7 +3468,11 @@ cambio de paradigma.
 
 ## 90. GARCÍA ODGERS, Ramón (2019b): “El case management en el proceso
 
-                                                                                      civil francés. Los contratos procesales y la flexibilidad como herramientas        henslerspeech.pdf.
+**Definición Canónica:** civil francés. Los contratos procesales y la flexibilidad como herramientas        henslerspeech.pdf.
+76. FABRI, Marco – LANGBROEK, Philip (2007): Is there a right judge                                                                                                                                                                                    119. KAKALIK, James S.; SELVIN, Molly; PACE, Nicholas M. (1990):
+    for each case? A comparative study of case assignment in six European             de eficiencia.”, en Libro “Estudios de Derecho Procesal. Libro de amigos      102. HENSLER, Deborah 
+
+civil francés. Los contratos procesales y la flexibilidad como herramientas        henslerspeech.pdf.
 76. FABRI, Marco – LANGBROEK, Philip (2007): Is there a right judge                                                                                                                                                                                    119. KAKALIK, James S.; SELVIN, Molly; PACE, Nicholas M. (1990):
     for each case? A comparative study of case assignment in six European             de eficiencia.”, en Libro “Estudios de Derecho Procesal. Libro de amigos      102. HENSLER, Deborah (2003): Our courts, ourselves: How the alternative                Strategies for reducing civil delay in the Los Angeles superior court:
     countries, en European Journal of Legal Studies 1.                                del Profesor Dr. Raúl Núñez Ojeda”, Priscila Machado Martins, Jorge                dispute resolution movement is Re-shaping our legal system, en Penn St.            Technical appendixes, disponible en World Wide Web: http://www.
@@ -3550,23 +3537,29 @@ cambio de paradigma.
      Metro).                                                                          Supreme Court Review 49.                                                          disponible en World Wide Web: https://www.judiciary.gov.uk/wp-                 182. SÁEZ MARTIN, Jorge (2014): Las claves de la gestión judicial en Chile,
 134. MARCUS, Richard (2008): Not dead yet, en Oklahoma Law Review 61.                                                                                                   content/uploads/2014/05/impact-of-the-jackson-reforms.pdf.                          en Revista Justicia de la Universidad Simón Bolívar, Barranquilla,
 
-## 150. PALACIOS, Daniel (2011): La reforma procesal penal en Chile: nuevos
-
-                                                                                      agentes, sus trayectorias y la reestructuración de un campo, en Revista      165. PRIORI POSADA, Giovanni (2015): El proceso dúctil, en XXXVI                         Colombia, N° 25.
-
 ## 135. MARCUS, Richard (2014): The right of access to justice. The Experience
 
-     of the U.S. since the 1960s, en International Association of Procedural          Política, Revista de Ciencia Política de la Universidad de Chile, Vol.            Congreso Colombiano de Derecho Procesal (1a edición, Bogotá,                   183. SCHWARZER, William y HIRSCH, Alan (2017): The elements of case
+**Definición Canónica:** of the U.S. since the 1960s, en International Association of Procedural          Política, Revista de Ciencia Política de la Universidad de Chile, Vol.            Congreso Colombiano de Derecho Procesal (1a edición, Bogotá,                   183. SCHWARZER, William y HIRSCH, Alan (2017): The elements of case
+     Law (Seoul), disponible en World Wide Web: https://www.ufrgs.br/                 49 Nº 1.                                                                          Universidad Libre de Colombia, Instituto Colombiano de Derecho                      management: A pocket guide for judges,
+
+of the U.S. since the 1960s, en International Association of Procedural          Política, Revista de Ciencia Política de la Universidad de Chile, Vol.            Congreso Colombiano de Derecho Procesal (1a edición, Bogotá,                   183. SCHWARZER, William y HIRSCH, Alan (2017): The elements of case
      Law (Seoul), disponible en World Wide Web: https://www.ufrgs.br/                 49 Nº 1.                                                                          Universidad Libre de Colombia, Instituto Colombiano de Derecho                      management: A pocket guide for judges, (Third edition, Federal Judicial
      caar/wp-content/uploads/2014/10/Session-3.1.pdf.                                                                                                                   Procesal).                                                                          Center).
 
 ## 151. PALOMO, Diego y MATAMALA, Pedro (2012): Prueba, Inmediación
+
+**Definición Canónica:** 136. MARTINUZZI, Alessandro (2017): Taking justice seriously: the                     y Potestades en el Proceso Laboral: Observaciones Críticas y Apelación       166. RAMOS MENDEZ, Francisco (2013): El sistema procesal español,                   184. SCOTT, R. (1995): Caseflow management in the trial, en ZUCKERMAN,
+     problem of courts overload and the new model of judicial process, en             al Equilibrio, en Revista de Derecho Universidad Católica del Norte -             (Barcelona, Atelier Libros Jurídicos, novena edición).                              A. A. S. – CRANSTON, Ross (eds
 
 136. MARTINUZZI, Alessandro (2017): Taking justice seriously: the                     y Potestades en el Proceso Laboral: Observaciones Críticas y Apelación       166. RAMOS MENDEZ, Francisco (2013): El sistema procesal español,                   184. SCOTT, R. (1995): Caseflow management in the trial, en ZUCKERMAN,
      problem of courts overload and the new model of judicial process, en             al Equilibrio, en Revista de Derecho Universidad Católica del Norte -             (Barcelona, Atelier Libros Jurídicos, novena edición).                              A. A. S. – CRANSTON, Ross (eds.), Reform of civil procedure: Essays on
      Civil Procedure Review 8.                                                        Año 19 Nº 2.                                                                                                                                                          “acess to justice” (Oxford University Press).
 
 ## 167. RESNIK, Judith, (1991): From “cases” to “litigation”, en Law and
+
+**Definición Canónica:** 137. MCKAY, Robert B.,(1988): Rule 16 and alternative dispute resolution,        152. PALOMO, Diego (2014): Sobre la conducta procesal de algunos jueces.               Contemporary Problems 54 (1991) 5, pp. 5 – 68.                                 185. SETTEM, Ola (2016): Applications of the ‘fair hearing’ norm in ECHR
+     en Notre Dame Law Review 63 MERRYMAN, John y PÉREZ-                              De vuelta con la unidimensionalidad de la eficiencia y la potestad                                                                                                    article 6(1) to civil procee
+**Concordancias Legales:** constitucion
 
 137. MCKAY, Robert B.,(1988): Rule 16 and alternative dispute resolution,        152. PALOMO, Diego (2014): Sobre la conducta procesal de algunos jueces.               Contemporary Problems 54 (1991) 5, pp. 5 – 68.                                 185. SETTEM, Ola (2016): Applications of the ‘fair hearing’ norm in ECHR
      en Notre Dame Law Review 63 MERRYMAN, John y PÉREZ-                              De vuelta con la unidimensionalidad de la eficiencia y la potestad                                                                                                    article 6(1) to civil proceedings. With special emphasis on the balance
@@ -3600,7 +3593,11 @@ cambio de paradigma.
 
 ## 192. SORABJI, John, (2013): Prospects for proportionality: Jackson
 
-     implementation, en ZUCKERMAN, A.A.S. (editor), Civil Justice                  208. TORELLO, Luis (2004): Cambios culturales y estructurales de una               221. VANDERBILT, Arthur T. (1959): La justicia emplazada a reformarse              235. WIJFFELS, Alan (2005): French civil procedure (1806-1975), en VAN
+**Definición Canónica:** implementation, en ZUCKERMAN, A.A.S. (editor), Civil Justice                  208. TORELLO, Luis (2004): Cambios culturales y estructurales de una               221. VANDERBILT, Arthur T. (1959): La justicia emplazada a reformarse              235. WIJFFELS, Alan (2005): French civil procedure (1806-1975), en VAN
+     Quarterly, Special Issue: The implementation of Sir Rupert Jackson’s               posible reforma al proceso civil, en ONFRAY VIVANCO, Arturo (editor),              (trad. cast. de Carlos Alberto Benites y Javier Clavell Borras, Buenos             RHEE, C. H. (editor), Europeans
+**Concordancias Legales:** Ley Nº 20.252; Ley Nº 20.022
+
+implementation, en ZUCKERMAN, A.A.S. (editor), Civil Justice                  208. TORELLO, Luis (2004): Cambios culturales y estructurales de una               221. VANDERBILT, Arthur T. (1959): La justicia emplazada a reformarse              235. WIJFFELS, Alan (2005): French civil procedure (1806-1975), en VAN
      Quarterly, Special Issue: The implementation of Sir Rupert Jackson’s               posible reforma al proceso civil, en ONFRAY VIVANCO, Arturo (editor),              (trad. cast. de Carlos Alberto Benites y Javier Clavell Borras, Buenos             RHEE, C. H. (editor), Europeans traditions in civil procedure (Intersentia
      review of civil litigation costs 32.                                               Cuadernos de Análisis Jurídico: Seminarios de derecho procesal, reforma            Aires, Roque De Palma Editor, 1959).                                               Antwerpen, Oxford).
                                                                                         orgánica al proceso civil. La defensa del Estado ante los tribunales de
@@ -3670,6 +3667,11 @@ cambio de paradigma.
 
 ## 1.   Rules of Civil Procedure Ontario (2020), disponible en World Wide
 
+**Definición Canónica:** 253. ZÚÑIGA, Francisco (2011): Control de Constitucionalidad de Autos          14. CAPJ Manual de Procedimientos de los Juzgados de Familia, Corte                   Web: https://www.ontario.ca/laws/regulation/900194.                              CONVENCIONES INTERNACIONALES SOBRE
+     Acordados, en Estudios Constitucionales, Centro de Estudios                   Suprema, Corporación Administrativa del Poder Judicial, julio 2006.                                                                                                DERECHOS HUMANOS Y OTROS DOCUMEN-
+     Constitucionales de Chile Universi
+**Concordancias Legales:** Ley N° 19.531; Ley N° 20.224; Constitucion
+
 253. ZÚÑIGA, Francisco (2011): Control de Constitucionalidad de Autos          14. CAPJ Manual de Procedimientos de los Juzgados de Familia, Corte                   Web: https://www.ontario.ca/laws/regulation/900194.                              CONVENCIONES INTERNACIONALES SOBRE
      Acordados, en Estudios Constitucionales, Centro de Estudios                   Suprema, Corporación Administrativa del Poder Judicial, julio 2006.                                                                                                DERECHOS HUMANOS Y OTROS DOCUMEN-
      Constitucionales de Chile Universidad de Talca, Año 9, Nº 1, 2011,                                                                                         2.   Code of Civil Procedure, Québec (2014); Official Publisher, disponible
@@ -3690,7 +3692,12 @@ FUENTES NORMATIVAS                                                             1
 
 ## 2.   Código Orgánico de Tribunales, Diario Oficial de 09 de julio de 1943.         pjud.cl/
 
-                                                                                                                                                                6.   Pre action protocols (PAPs), disponibles en World Wide Web: https://             http://www.echr.coe.int/NR/rdonlyres/1101E77A-C8E1-493F3.   Ley 19.696 Código Procesal Penal, Diario Oficial de 12 de octubre de      18. ACTA N° 134 – 2015, Que establece normas para la aplicación de la ley             www.justice.gov.uk/courts/procedure-rules/civil/pdf/protocols/pdf.               809D-800CBD20E595/0/Convention_SPA.pdf.
+**Definición Canónica:** 6.   Pre action protocols (PAPs), disponibles en World Wide Web: https://             http://www.echr.coe.int/NR/rdonlyres/1101E77A-C8E1-493F3.   Ley 19.696 Código Procesal Penal, Diario Oficial de 12 de octubre de      18. ACTA N° 134 – 2015, Que establece normas para la aplicación de la ley             www.justice.gov.uk/courts/procedure-rules/civil/pdf/protocols/pdf.               809D-800CBD20E595/0/Convention_SPA.pdf.
+     2000.                                                                         n° 19.531 modificada por la ley n° 20.224 y los decretos supremos que
+                    
+**Concordancias Legales:** artículo 46.1; Ley 19.696; Ley Nº 19.531; Ley 19.531; Ley 20.087
+
+6.   Pre action protocols (PAPs), disponibles en World Wide Web: https://             http://www.echr.coe.int/NR/rdonlyres/1101E77A-C8E1-493F3.   Ley 19.696 Código Procesal Penal, Diario Oficial de 12 de octubre de      18. ACTA N° 134 – 2015, Que establece normas para la aplicación de la ley             www.justice.gov.uk/courts/procedure-rules/civil/pdf/protocols/pdf.               809D-800CBD20E595/0/Convention_SPA.pdf.
      2000.                                                                         n° 19.531 modificada por la ley n° 20.224 y los decretos supremos que
                                                                                                                                                                 7.   Federal Rules of Civil Procedure with Forms (2016) U.S. Government          4.   Corte Interamericana de Derechos Humanos, Opinión consultiva Oc-
                                                                                    la reglamentan, de 26 de agosto de 2015, disponible en el sitio web
@@ -3724,7 +3731,12 @@ FUENTES NORMATIVAS                                                             1
 
 ## 1.   Caso Cantos v. Argentina; Corte Interamericana de Derechos
 
-                                                                               4.   Historia de la Ley 20.224, disponible en Biblioteca del Congreso                                                                                                  justice.eu/en/system/files/20090706165605_Coe.Compendiumof
+**Definición Canónica:** 4.   Historia de la Ley 20.224, disponible en Biblioteca del Congreso                                                                                                  justice.eu/en/system/files/20090706165605_Coe.Compendiumof
+9.   Ley 20.252 modifica la Ley Nº 20.022, y Otros Cuerpos Legales con                                                                                               Humanos, sentencia de 28 de noviembre de 2002, disponible en
+                                                                                    Nacional,          http://www.bcn.cl/historiadelaley/fileadmin/f
+**Concordancias Legales:** Ley 20.224; Ley 20.252; Ley Nº 20.022; Ley N° 20.286; Ley Nº 19.968
+
+4.   Historia de la Ley 20.224, disponible en Biblioteca del Congreso                                                                                                  justice.eu/en/system/files/20090706165605_Coe.Compendiumof
 9.   Ley 20.252 modifica la Ley Nº 20.022, y Otros Cuerpos Legales con                                                                                               Humanos, sentencia de 28 de noviembre de 2002, disponible en
                                                                                     Nacional,          http://www.bcn.cl/historiadelaley/fileadmin/file_                                                                                              Bstpracticesontimemanagementofjudicialproceeding.doc.pdf.
      el objeto de reforzar la Judicatura Laboral, Diario Oficial de 15 de                                                                                            World Wide Web: www.corteidh.or.cr/docs/casos.
@@ -3740,21 +3752,12 @@ FUENTES NORMATIVAS                                                             1
 11. Ley n° 20.022 crea juzgados laborales y juzgados de cobranza laboral y          en www.bcn.cl/obtienearchivo?id=recursoslegales/10221.3/537/1/                   Humanos, sentencia de 22 de Agosto de 2013, disponible en World                  SITIOS WEB
     previsional en las comunas que indica, Diario Oficial de 30 de mayo             HL19968.pdf.                                                                     Wide Web: www.corteidh.or.cr/docs/casos.                                                 10. ASOCIACIÓN INTERNACIONAL DE DERECHO PROCESAL, disponib
 
-
-## Serie de documentos
-
-
-## Materiales docentes
-
-
-
 ## Control judicial
 
-                           DEL PROCESO:
+**Definición Canónica:** DEL PROCESO:
+
+DEL PROCESO:
 
                        Director académico/ Coordinador/ Docente (1):   Ramón García Odgers
                                                         Docente (2):   Claudio Fuentes Maureira
                                                         Docente (3):   Rodrigo Silva Goñi
-
-
-## 2020                                                         www.academiajudicial.cl

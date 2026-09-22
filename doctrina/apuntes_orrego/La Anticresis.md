@@ -15,6 +15,8 @@ extraccion: pdftotext
 
 ## La anticresis 1
 
+**Definición Canónica:** 1.- Concepto.
+**Concordancias Legales:** artículo 2435 del Código Civil; artículo 2436; artículo 2440; artículo 2437; artículo 53; artículo 2444; artículo 2438; artículo 2441; artículo 2439; artículo 1962; artículo 1939; artículo 2442; artículo 1595; artículo 2443; artículos 1935; artículo 1940; artículos 1933; artículo 2206; artículo 2445; artículos 500; artículo 504
 
 1.- Concepto.
 

@@ -15,6 +15,19 @@ extraccion: pdftotext
 
 ## Derecho de alimentos1
 
+**Definición Canónica:** Sumario:
+1.- Definición de alimentos y principios en que se funda la obligación alimenticia en la
+legislación chilena.
+2.- Características del derecho de alimentos y de la obligación alimenticia correlativa, o
+del llamado derecho-deber alimentario.
+3.- Clasificación de los alimentos.
+4.- Requisitos para exigir alimentos.
+5.- Modalidades para el pago de las pensiones alimenticias.
+6.- Titulares del derecho de alimentos.
+7.- Consecuencias que se derivan para el alimentante, por el incumplimiento de su
+obligación alimenticia.
+8.- Medios previstos en la ley, para asegurar el pago de las pensiones 
+**Concordancias Legales:** Ley Nº 21.389; Ley N° 21.484; Ley Nº 14.908
 
 Sumario:
 1.- Definición de alimentos y principios en que se funda la obligación alimenticia en la
@@ -218,6 +231,16 @@ esta tesis.
 alimentario menor de edad, desde el momento en que agregó el art. 19 bis a la Ley Nº
 
 ## 14.908. Pero el aludido planteamiento doctrinario mantiene su vigencia, en lo que
+
+**Definición Canónica:** respecta a otros alimentarios, conforme a lo expresado.
+        Por cierto, en esta materia el obligado también podría renunciar a la
+prescripción. Ello podría ocurrir cuando, a pesar de haber transcurrido el plazo que
+tenía el alimentario para demandar el pago, el obligado efectúa abonos a las pensiones
+de alimentos, ejecutando con ello actuaciones que importan una renuncia a la
+prescripción que podía favorecerle, actuación propia que no puede desconocer si
+posteriormente solicita que se declare la prescripción de las acciones para el cobro de
+los alimentos adeudados (sentencia de la Corte de
+**Concordancias Legales:** artículo 23; artículo 2472 del Código Civil. Respecto del pago que al alimen; artículo 2472 del Código Civil. Para estos efectos; artículo 5 de la Ley número 14.908 sobre Abandono de familia y; artículo 5 de la Ley número 14.908; artículos 321; artículo 1698 del Código Civil; artículo 321; Ley Nº 14.908; Ley Nº 19.968; Ley Nº 21.389; ley N° 20.720; Ley Nº 20.286; Ley N° 14.908; Ley Nº 19.741; Ley Nº 20.152; Ley N° 20.152; Ley Nº 19.585; Ley N° 21.484; Ley Nº 7.613; Ley Nº 19.620; Ley Nº 16.618; Ley Nº 19.947; Ley Nº 20.720; Ley Nº 16.271; constitución
 
 respecta a otros alimentarios, conforme a lo expresado.
         Por cierto, en esta materia el obligado también podría renunciar a la
@@ -1089,16 +1112,12 @@ perjuicio del alimentario, de conformidad con las disposiciones siguientes:
 adquirente, esto es, conociendo o debiendo conocer que el otorgante tenía una o más
 deudas alimenticias impagas.
 
-## 2. También podrá ejercerse para rescindir los actos o contratos simulados o aparentes
-
-celebrados por el alimentante con la finalidad de reducir su patrimonio en perjuicio del
-alimentario.
-
-## 3. La acción prescribirá en un plazo de tres años contado desde la fecha de celebración
-
-del acto o contrato.
-
 ## 4. Esta acción se tramitará como incidente, ante el juez con competencia en asuntos
+
+**Definición Canónica:** de familia, pudiendo ser deducida tanto en la etapa de cumplimiento de la pensión
+alimenticia, como en la etapa declarativa respecto de los alimentos provisorios
+impagos. La resolución que se pronuncie sobre esta materia será apelable en el solo
+efecto devolutivo.
 
 de familia, pudiendo ser deducida tanto en la etapa de cumplimiento de la pensión
 alimenticia, como en la etapa declarativa respecto de los alimentos provisorios
@@ -1106,6 +1125,10 @@ impagos. La resolución que se pronuncie sobre esta materia será apelable en el
 efecto devolutivo.
 
 ## 5. Esta acción no aplicará respecto de los actos celebrados en cumplimiento de las
+
+**Definición Canónica:** condiciones legales previstas en el Título Final de la presente ley, referido al Registro
+Nacional de Deudores de Pensiones de Alimentos”.
+**Concordancias Legales:** artículo 7; artículo 6; artículo 9; Ley Nº 14.908; Ley Nº 21.389; ley N° 14.908; ley N° 18.010; Ley Nº 20.880; constitución
 
 condiciones legales previstas en el Título Final de la presente ley, referido al Registro
 Nacional de Deudores de Pensiones de Alimentos”.
@@ -1284,6 +1307,15 @@ usufructo, uso o habitación sobre bienes del alimentante, quien no podrá enaje
 gravarlos sin autorización del juez. Si se tratare de un bien raíz, la resolución judicial servirá de
 
 ## título para inscribir los derechos reales y la prohibición de enajenar o gravar en los registros
+
+**Definición Canónica:** correspondientes del Conservador de Bienes Raíces. Podrá requerir estas inscripciones el propio
+alimentario. / La constitución de los mencionados derechos reales no perjudicará a los
+acreedores del alimentante cuyos créditos tengan una causa anterior a su inscripción. / En estos
+casos, el usufructuario, el usuario y el que goce del derecho de habitación estarán exentos de las
+obligaciones que para ellos establecen los artículos 775 y 813 del Código Civil, respectivamente,
+estando sólo obligados a confeccionar un inventario simple. Se aplicarán al usufructuario las
+normas de los artículos 819, 
+**Concordancias Legales:** artículos 775; artículos 819; artículo 147 del Código Civil respecto de los mismos bienes; artículos 1366; Ley Nº 14.908; Ley N° 21.430; constitución
 
 correspondientes del Conservador de Bienes Raíces. Podrá requerir estas inscripciones el propio
 alimentario. / La constitución de los mencionados derechos reales no perjudicará a los
@@ -1613,6 +1645,14 @@ no matrimonio, y de haberlo, si hay o no régimen de sociedad conyugal y en este
 
 ## 1.1. Gastos correspondientes a las expensas ordinarias: serán de cargo de la sociedad
 
+**Definición Canónica:** conyugal, conforme al art. 230 del Código Civil. En armonía con el precepto
+anteriormente citado, el art. 1740 Nº 5 del Código Civil establece que la sociedad
+conyugal es obligada al pago del mantenimiento de los descendientes comunes. Aún
+más, agrega este precepto que la sociedad conyugal también estará obligada a “toda
+otra carga de familia”, y entre ellas, “Se mirarán como carga de familia los alimentos que
+uno de los cónyuges esté por ley obligado a dar a sus descendientes (…), aunque no lo sean de
+ambos cónyuges; pero podrá el juez moderar este gasto si le pareciere excesivo, imputando el
+
 conyugal, conforme al art. 230 del Código Civil. En armonía con el precepto
 anteriormente citado, el art. 1740 Nº 5 del Código Civil establece que la sociedad
 conyugal es obligada al pago del mantenimiento de los descendientes comunes. Aún
@@ -1627,6 +1667,16 @@ descendiente y las que se hicieren para establecerle y casarle, se imputarán, p
 general, a los gananciales.
 
 ## 1.2. Gastos correspondientes a las expensas extraordinarias: serán también de cargo
+
+**Definición Canónica:** de la sociedad conyugal, en las condiciones señaladas; sin embargo, si el hijo tuviere
+bienes propios, estas expensas extraordinarias se imputarán a dichos bienes en cuanto
+cupieren en ellos y en cuanto le hubieren sido efectivamente útiles; a menos que
+conste de un modo auténtico que el marido, o la mujer, o ambos de consuno, quisieron
+hacerlas de lo suyo (art. 1744 del Código Civil).
+2º Si no existe matrimonio o habiéndolo no hay sociedad conyugal sino alguno de los
+regímenes alternativos, los padres contribuirán en proporción a sus respectivas
+facultades económicas (art. 230, inc. 1º del Có
+**Concordancias Legales:** artículo 225 del Código Civil; artículo 271; artículos 14; artículo 5; artículo 14; artículo 138 del Código Civil; artículo 49; Ley Nº 14.908; Ley Nº 7.613; Ley Nº 19.620; Ley Nº 20.720; Ley Nº 20.680; Ley N° 21.484; Ley Nº 20.066; Ley N° 18.802; ley Nº 16.618; Ley Nº 21.389; Constitución Política; constitucion
 
 de la sociedad conyugal, en las condiciones señaladas; sin embargo, si el hijo tuviere
 bienes propios, estas expensas extraordinarias se imputarán a dichos bienes en cuanto
@@ -2238,6 +2288,17 @@ demandado, lo que quedará registrado en el acta de notificación. / El alimenta
 arrestado en el domicilio que se registre en autos o en cualquier otro que tenga conocimiento la
 
 ## parte, el tribunal o la fuerza pública o en el que aquel se encuentre, por un plazo de sesenta días
+
+**Definición Canónica:** desde la resolución que lo ordena”.
+          De esta manera, las reglas fundamentales son las siguientes:
+i.- El arresto puede decretarse sólo si los alimentantes fueren el cónyuge, los padres,
+los hijos o el adoptado. Si el alimentario fuere un hermano o el donante, no procederá
+este apremio.
+ii.- Se decretará primero el arresto nocturno, entre las veintidós horas de cada día
+hasta las seis horas del día siguiente, hasta por quince días.
+iii.- El Juez podrá repetir esta medida, “hasta obtener el íntegro pago de la obligación”.
+iv.- El arresto nocturno podrá mutar a un arresto íntegro, en dos
+**Concordancias Legales:** artículo 10; artículo 23; artículo 48 del Código de Procedimiento Civil. No obstante lo; artículo 8; artículos 8; artículos 161; artículo 163 del Código del Trabajo; artículo 177 del Código del Trabajo.59 Tratándose de las oblig; artículo 321 del Código Civil; artículo 326 del Código Civil; artículo 3; artículo 19; artículo 14 de la Ley Nº 14.908 establece; artículo 543 del Código de Procedimiento Civil. En to; artículo 44 del Código de Procedimiento Civil; artículo 52 del Código de Procedimiento Civil; artículo 12 bis; artículo 18 de la Ley N; artículo 12 bis de la Ley N; Ley Nº 14.908; Ley N° 14.908; Ley 14.908; Ley Nº 19.968; Ley Nº 21.389; ley N° 19.968; ley N° 3.500; ley 21.848; Constitución; Constitución Política
 
 desde la resolución que lo ordena”.
           De esta manera, las reglas fundamentales son las siguientes:
@@ -3332,6 +3393,12 @@ mandata el artículo 19 quinquies inciso 2° numerales 1, 2 y 3, respectivamente
 
 ## 14.908. A mayor abundamiento, además, se debe tener presente para arribar a la interpretación
 
+**Definición Canónica:** anterior, del carácter y naturaleza jurídica de los fondos previsionales en el decreto ley 3.500”.
+       Sin embargo, la Corte de Valparaíso, por sentencia de fecha 5 de mayo de
+2025, autos Rol N° 303-2025, revocó el fallo del Juzgado de Familia de Valparaíso y
+dio lugar a la petición de traspaso de fondos por una segunda vez, expresando al
+**Concordancias Legales:** artículo 19; artículo 67 de la Ley N 19.968; artículos 67 de la Ley 19.968 y 186 y siguientes del Código de P; Artículo 968; artículo 203; artículo 324; artículo 7; artículo 111; artículo 26 del Código Civil; artículo 12; ley 3.500; Ley N°14.908; Ley 14.908; Ley 19.968; Ley 21.389; Ley Nº 14.908; Ley Nº 21.389; Ley Nº 19.585; Ley Nº 20.203; ley N° 14.908; constitucion
+
 anterior, del carácter y naturaleza jurídica de los fondos previsionales en el decreto ley 3.500”.
        Sin embargo, la Corte de Valparaíso, por sentencia de fecha 5 de mayo de
 2025, autos Rol N° 303-2025, revocó el fallo del Juzgado de Familia de Valparaíso y
@@ -3862,11 +3929,17 @@ cumpla con ello con su obligación esencial para con su familia.
 “Personas con interés legítimo en la consulta” y “Servicio”:
         “Definiciones. Para los efectos de este Título, se entenderá por:
 
-## 1. Registro: el Registro Nacional de Deudores de Pensiones de Alimentos.86
-
-2. Deudor de alimentos: el alimentante con inscripción vigente en el Registro.
-
 ## 3. Personas con interés legítimo en la consulta: el deudor de alimentos, su alimentario
+
+**Definición Canónica:** o el representante legal de éste, los tribunales con competencia en asuntos de familia
+y las personas o entidades obligadas a consultar el Registro.
+4. Servicio: el Servicio de Registro Civil e Identificación”.
+        Con relación al Nº 3, según podrá observarse de las normas que siguen, el
+acceso a consultar el Registro es restringido, pues sólo ciertas personas naturales y
+jurídicas están facultadas para hacerlo. Son las que tienen un “interés legítimo”.
+        Respecto de las personas con interés legítimo en la consulta, el art. 1 del
+decreto Supremo N° 62, publicado el 29 de julio de 202
+**Concordancias Legales:** artículo 22; ley N° 14.908; Ley N° 21.389
 
 o el representante legal de éste, los tribunales con competencia en asuntos de familia
 y las personas o entidades obligadas a consultar el Registro.
@@ -3935,8 +4008,11 @@ aprobados por resolución judicial que causa ejecutoria.
 b) Que adeuden, total o parcialmente, al menos tres mensualidades consecutivas de alimentos
 provisorios o definitivos, o cinco discontinuas”.87
 
-
 ## 16.4. Funciones del Servicio de Registro Civil e Identificación en lo que
+
+**Definición Canónica:** respecta al Registro y acceso al mismo por personas “con interés legítimo en
+la consulta” y a las certificaciones que se le pidan.
+**Concordancias Legales:** artículo 22; artículos 25; artículo 7; artículo 8; Ley Nº 21.389; ley N° 14.908; ley N° 19.477
 
 respecta al Registro y acceso al mismo por personas “con interés legítimo en
 la consulta” y a las certificaciones que se le pidan.
@@ -4027,6 +4103,15 @@ liquidaciones correspondientes, ordenará al Servicio, con citación al alimenta
 inscribir en el Registro al alimentante moroso que reúna las condiciones señaladas en el artículo
 
 ## 22. Esta resolución deberá individualizar de forma completa a la persona que registre deudas
+
+**Definición Canónica:** derivadas de pensiones alimenticias, con señalamiento de la identificación de cada uno de los
+alimentarios, causas respectivas, número de cuotas adeudadas, sea total o parcialmente, monto
+adeudado resultante de la liquidación y datos de la cuenta dispuesta para realizar el pago”.
+       De esta manera, le resolución judicial que ordene la inscripción, debe una vez
+que se practique la correspondiente liquidación y contener: i) La individualización del
+deudor; ii) La identificación de cada uno de los alimentarios; iii) Las causas respectivas
+en las que se haya decretado el pago de las pensiones 
+**Concordancias Legales:** artículo 12; artículo 22; artículo 23; artículo 52 del Código de Procedimiento Civil; artículo 24; artículo 17; artículo 3; artículo 26; artículo 4; artículo 34; artículo 104 del Reglamento Orgánico del Registro Civil; artículo 2; artículo 46; artículo 10; ley N° 19.968; ley N° 14.908; Ley N° 4.808; ley N° 19.880; ley N° 21.180
 
 derivadas de pensiones alimenticias, con señalamiento de la identificación de cada uno de los
 alimentarios, causas respectivas, número de cuotas adeudadas, sea total o parcialmente, monto
@@ -4276,8 +4361,10 @@ electrónica avanzada; contar con sello de autenticidad, consistente en un códi
 permitirá su verificación en el portal de internet del Servicio; y señalar la fecha y hora de
 emisión del respectivo documento público electrónico”.
 
-
 ## 16.12. Acuerdo de pago “serio y suficiente” de las pensiones de alimentos
+
+**Definición Canónica:** adeudadas.
+**Concordancias Legales:** artículo 7
 
 adeudadas.
 
@@ -4357,8 +4444,11 @@ formato serán determinados por la Corporación Administrativa del Poder Judicia
 presentaciones deberán realizarse a través de la plataforma electrónica del Poder Judicial, por el
 medio de identificación que el sistema provee”.
 
-
 ## 16.14. Obligaciones de consulta, retención y pago, en las operaciones de
+
+**Definición Canónica:** crédito de dinero y en las inscripciones hipotecarias y de prendas sin
+desplazamiento.
+**Concordancias Legales:** artículo 23; artículo 31; constitución
 
 crédito de dinero y en las inscripciones hipotecarias y de prendas sin
 desplazamiento.
@@ -4435,8 +4525,9 @@ obligaciones a su cargo por parte de personal del Servicio, éste incurrirá en 
 disciplinaria, la que será sancionada con multa, a beneficio fiscal, de diez a cincuenta por ciento
 de su remuneración”.
 
-
 ## 16.15. Obligaciones de consulta, retención y pago, en los procedimientos
+
+**Definición Canónica:** ejecutivos.
 
 ejecutivos.
 
@@ -4447,8 +4538,10 @@ a cabo la ejecución, los tres primeros incisos del art. 29.
        Nos remitimos a lo expresado acerca de estas normas, cuando nos referimos a
 las características del derecho de alimentos.
 
-
 ## 16.16. Obligaciones de consulta, retención y pago, en los procedimientos
+
+**Definición Canónica:** concursales.
+**Concordancias Legales:** artículo 23; artículo 494 del Código de Procedimiento Civil; Constitución; constitucion
 
 concursales.
 
@@ -4503,6 +4596,8 @@ que se hará por el tribunal a la cuenta que figura en el Registro.
 
 ## 16.18. Sanciones para quienes no cumplan las obligaciones previstas en el
 
+**Definición Canónica:** art. 29.
+
 art. 29.
 
          El inc. 6º y final del art. 29, dispone al efecto: “En caso de incumplimiento de las
@@ -4521,8 +4616,10 @@ procedimiento concursal.
         El art. 30, consagra esta retención que puede afectar al deudor que figure
 inscrito en el Registro. Nos remitimos a lo que expusimos en el Nº 8, letra c).
 
-
 ## 16.20. Restricciones para comprar y adquirir ciertos bienes por el deudor
+
+**Definición Canónica:** inscrito en el Registro.
+**Concordancias Legales:** artículo 31; Ley Nº 21.389
 
 inscrito en el Registro.
 
@@ -4564,17 +4661,10 @@ trate, se entendiere que queda sujeto a prohibición de gravar y enajenar, por e
 ministerio de la ley, debiendo el Servicio de Registro Civil e Identificación y el
 Conservador de Bienes Raíces, dejar constancia en sus registros de tal prohibición.
 
-
-## 16.21. Retención del precio de la compraventa de vehículos motorizados e
-
-inmuebles.
-
-       Se refieren a la materia los incisos 2° y 3° del art. 31 de la Ley N° 14.908, ya
-revisados, de manera que nos remitimos a lo expuesto en el Nº 8, letra l) de este
-documento.
-
-
 ## 16.22. Obligación de la entidad que deba practicar una inscripción en el
+
+**Definición Canónica:** Registro de Vehículos Motorizados o en el Registro de Propiedad de Bienes
+Raíces, de comunicar tal hecho al Tribunal de Familia.
 
 Registro de Vehículos Motorizados o en el Registro de Propiedad de Bienes
 Raíces, de comunicar tal hecho al Tribunal de Familia.
@@ -4591,8 +4681,10 @@ inmediatamente al tribunal con competencia en asuntos de familia que fuere compe
 solicitud de inscripción que tenga por título el aporte, transferencia, transmisión o adquisición del
 bien por un deudor de alimentos, para que éste proceda conforme a sus atribuciones legales”.
 
-
 ## 16.23. Sanciones en caso de infringir lo dispuesto en los incisos 1º a 4º del
+
+**Definición Canónica:** art. 31.
+**Concordancias Legales:** artículo 29; artículo 5; artículos 32; Ley Nº 14.908; ley N° 18.290
 
 art. 31.
 
@@ -4661,6 +4753,14 @@ requisitos señalados en la norma, del siguiente tenor: “Reglas comunes a los 
 
 ## 33. Si el o la solicitante de los documentos a que se refieren los artículos 32 y 33 precedentes
 
+**Definición Canónica:** justificare ante el tribunal, de forma fundada, que la expedición del pasaporte o de la licencia de
+conducir son indispensables para el ejercicio de la actividad o empleo que le genera ingresos,
+éste podrá ordenar a la autoridad correspondiente que expida la licencia de conducir o el
+pasaporte, con una vigencia limitada, por un plazo no inferior a seis meses ni superior a un año,
+siempre que el alimentante garantice el pago íntegro de la deuda y se obligue a solucionar las
+cantidades y con la periodicidad que fije el juez, en relación con los ingresos mensuales
+ordinarios y extraordinarios que
+
 justificare ante el tribunal, de forma fundada, que la expedición del pasaporte o de la licencia de
 conducir son indispensables para el ejercicio de la actividad o empleo que le genera ingresos,
 éste podrá ordenar a la autoridad correspondiente que expida la licencia de conducir o el
@@ -4695,8 +4795,11 @@ deuda.
         Deberá dejarse constancia en el Registro de la orden judicial que el tribunal
 expida de conformidad con este artículo.
 
-
 ## 16.28. Restricción para la obtención de beneficios económicos que otorguen
+
+**Definición Canónica:** entidades de la Administración del Estado y obligación de retención y pago,
+cuando corresponda.
+**Concordancias Legales:** artículo 23; artículos 100; artículo 12; artículos 129; ley N° 19.175; ley N° 18.695; Ley Nº 19.175; constitucion
 
 entidades de la Administración del Estado y obligación de retención y pago,
 cuando corresponda.
@@ -4774,8 +4877,9 @@ i.- Tratándose de beneficios que estén destinados a ayudar a personas y famili
 situación de vulnerabilidad socioeconómica.
 ii.- Ni en el caso de beneficios destinados a enfrentar la cesantía.
 
-
 ## 16.29. Imposibilidad de adjudicación de programas o instrumentos
+
+**Definición Canónica:** financiados por la Agencia Nacional de Acreditación y Desarrollo.
 
 financiados por la Agencia Nacional de Acreditación y Desarrollo.
 
@@ -4796,6 +4900,9 @@ alimentos”.
                        Derecho de Alimentos – Juan Andrés Orrego Acuña                        84
 
 ## 16.30. Obligación que se impone a funcionarios públicos y a personas que
+
+**Definición Canónica:** resulten elegidas para cargos públicos.
+**Concordancias Legales:** artículo 7; artículo 23; artículos 28; artículo 36; ley N° 19.882
 
 resulten elegidas para cargos públicos.
 
@@ -4895,8 +5002,9 @@ cubrir íntegramente las deudas consignadas en el Registro, a través de distint
 cuantía retenida deberá distribuirse de manera que todas las deudas inscritas sean solucionadas
 de forma proporcional”.
 
-
 ## 16.32. Directores y gerentes generales de sociedades anónimas abiertas con
+
+**Definición Canónica:** transacción bursátil.
 
 transacción bursátil.
 
@@ -4916,8 +5024,10 @@ los actos o contratos que hubieren practicado o celebrado los gerentes generales
 Para estos efectos, se entenderán personas con interés legítimo en la consulta, además del
 propio interesado, la respectiva sociedad anónima abierta y el competente órgano fiscalizador”.
 
-
 ## 16.33. Deber de consulta y de información que se le impone al oficial del
+
+**Definición Canónica:** Servicio de Registro Civil e Identificación.
+**Concordancias Legales:** artículo 10; ley N° 19.947
 
 Servicio de Registro Civil e Identificación.
 
@@ -4936,8 +5046,10 @@ inciso final del artículo 10 de la ley N° 19.947, que establece nueva Ley de M
 ningún caso la infracción de este deber acarreará la nulidad del matrimonio o del acuerdo de
 unión civil, ni del régimen patrimonial aplicable”.
 
-
 ## 16.34. Comisión de Coordinación y Evaluación del Nuevo Sistema de
+
+**Definición Canónica:** Cumplimiento de pensiones Alimenticias.
+**Concordancias Legales:** artículo 40; ley Nº 20.285; Ley Nº 21.389; constitución
 
 Cumplimiento de pensiones Alimenticias.
 
@@ -5037,8 +5149,10 @@ Sistema de Cumplimiento de Pensiones Alimenticias, a la que se refiere el artíc
 mes subsiguiente al de la fecha de publicación de la presente ley. La Comisión tendrá una
 duración de tres años a contar de la fecha de su constitución”.
 
-
 ## 16.35. Incidencia de la inscripción en el Registro de Deudores, en la
+
+**Definición Canónica:** evaluación prevista para la adopción de menores.
+**Concordancias Legales:** artículo 6; Ley Nº 19.620
 
 evaluación prevista para la adopción de menores.
 
@@ -5052,8 +5166,10 @@ refiere este inciso se verificará que el o los solicitantes no se encuentren in
 Nacional de Deudores de Pensiones de Alimentos. Los cónyuges deberán actuar siempre de
 consuno en las gestiones que requieran de expresión de voluntad de los adoptantes”.
 
-
 ## 16.36. Incidencia de la inscripción en el Registro de Deudores, en la salida de
+
+**Definición Canónica:** menores al extranjero.
+**Concordancias Legales:** Ley Nº 16.618
 
 menores al extranjero.
 
@@ -5064,8 +5180,10 @@ Pensiones de Alimentos, el juez, subsidiariamente, podrá otorgar dicho permiso 
 las razones que tuviera para la negativa, lo que no podrá aplicarse en caso de que la salida al
 extranjero sea con el fin de establecerse con residencia definitiva”.
 
-
 ## 16.37. Incidencia de la inscripción en el Registro de Deudores,                                  en
+
+**Definición Canónica:** admisibilidad de demandas de rebaja o cese de pensión de alimentos.
+**Concordancias Legales:** Ley N° 14.908; Ley Nº 19.968; Ley N° 21.484; Ley Nº 14.908; Ley N° 7.613; Ley Nº 20.720; Ley N° 19.968
 
 admisibilidad de demandas de rebaja o cese de pensión de alimentos.
 

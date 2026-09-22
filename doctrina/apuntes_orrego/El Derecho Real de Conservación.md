@@ -15,6 +15,8 @@ extraccion: pdftotext
 
 ## El derecho real de conservación1
 
+**Definición Canónica:** 1.- Origen, fundamentos constitucionales y finalidades de la institución.
+**Concordancias Legales:** artículo 5; Ley N° 20.930; Ley N° 19.300; constitucion; Constitución
 
 1.- Origen, fundamentos constitucionales y finalidades de la institución.
 
@@ -273,6 +275,14 @@ precisaba que sólo podrían ser titulares las siguientes personas jurídicas:
 3. La Corporación Nacional Forestal, CONAF;
 
 ## 4. Las Municipalidades; o
+
+**Definición Canónica:** 5. Las Corporaciones y Fundaciones constituidas con sujeción al Título XXXIII del Libro I del Código Civil, que
+tengan como objeto o fin exclusivo la conservación, preservación, promoción o protección del ambiente, la
+naturaleza, la biodiversidad o las áreas silvestres protegidas; o la contribución y el fomento a la educación,
+investigación, capacitación o formación de conciencia sobre la ecología, el cuidado del ambiente y los
+recursos naturales; o el manejo, control, restauración, protección o mantención de zonas, lugares o
+inmuebles que sean de considerable valor o interés ambiental, histór
+**Concordancias Legales:** artículos 4; Ley N° 20.930; Ley N° 19.300; constitución; Constitución Política
 
 5. Las Corporaciones y Fundaciones constituidas con sujeción al Título XXXIII del Libro I del Código Civil, que
 tengan como objeto o fin exclusivo la conservación, preservación, promoción o protección del ambiente, la
@@ -766,6 +776,8 @@ e) Está amparado el derecho por las acciones posesorias, de acuerdo al art. 916
 f) Se desprende del art. 1725, N° 5, que el derecho ingresará al haber real, si se adquiere a
 
 ## título oneroso. En cambio, si se adquiere a título gratuito, ingresará al haber propio del
+
+**Definición Canónica:** cónyuge adquirente, conforme al art. 1726.
 
 cónyuge adquirente, conforme al art. 1726.
 

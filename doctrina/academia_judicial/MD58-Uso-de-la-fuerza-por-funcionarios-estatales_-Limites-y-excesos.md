@@ -13,20 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Penal | **Materia:** Penal
 
-## 58           Uso de la fuerza
-
-             por funcionarios
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** estatales:
+             Límites y excesos
+             Tania Gajardo Orellana
+             Tatiana Vargas Pinto
 
-             estatales:
+estatales:
              Límites y excesos
              Tania Gajardo Orellana
              Tatiana Vargas Pinto
@@ -90,43 +84,10 @@ Materiales Docentes                                                          ﻿
 
 Contenido
 
-
-## 5       Introducción
-
-
-## 8       Capítulo 1
-
-        Marco jurídico internacional sobre el uso legítimo
-        de la fuerza por los funcionarios encargados
-
-## 25      Capítulo 2
-
-        Marco jurídico nacional sobre el uso legítimo
-        de la fuerza por los funcionarios encargados
-
-## 49      Capítulo 3
-
-        El rol de la judicatura en el resguardo de los derechos
-        como contrapartida de las limitaciones
-        al uso de la fuerza
-
-## 68      Capítulo 4
-
-        Actuaciones autónomas de la policía
-        y sus limitaciones relativas al uso de la fuerza
-
-## 91      Capítulo 5
-
-        Casos destacados jurisprudencia
-
-## 107     Anexo
-
-        Propuesta de sistema de delitos de violencia institucional
-        (uso de la fuerza fuera de lo legítimo) casos y soluciones
-        a eventuales problemas interpretativos
-
 ## 108     Referencias
 
+**Definición Canónica:** Materiales Docentes                                                               ﻿
+**Concordancias Legales:** artículo 76 de la Constitución; Constitución
 
 Materiales Docentes                                                               ﻿
 
@@ -202,8 +163,10 @@ penas y soluciones a los problemas interpretativos.
 
 Materiales Docentes                                                           Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Marco jurídico internacional sobre el uso legítimo
+de la fuerza por los funcionarios encargados
 
 Marco jurídico internacional sobre el uso legítimo
 de la fuerza por los funcionarios encargados
@@ -226,8 +189,15 @@ confección de manuales dentro de los contextos nacionales.
 derechos humanos, como el respeto y garantía a los derechos que debe
 guiar la legislación nacional, los reglamentos, protocolos y manuales internos respecto del uso de la fuerza.1
 
-
 ## 1 En el Sistema Interamericano artículo 1.1 de la Convención Americana sobre
+
+**Definición Canónica:** Derechos Humanos establece que: «Los Estados parte en esta Convención se comprometen a respetar los derechos y libertades reconocidos en ella y a garantizar
+su libre y pleno ejercicio a toda persona que esté sujeta a su jurisdicción, sin discriminación alguna por motivos de raza, color, sexo, idioma, religión, políticas o
+de cualquier otra índole, origen nacional o social, posición económica, nacimiento
+o cualquier otra condición social». El Pacto Internacional de Derechos Civiles y
+Políticos establece en su artículo 2.1: «Cada uno de los Estados parte en el presente
+Pacto se compromete a resp
+**Concordancias Legales:** artículo 2.1; constitucion
 
 Derechos Humanos establece que: «Los Estados parte en esta Convención se comprometen a respetar los derechos y libertades reconocidos en ella y a garantizar
 su libre y pleno ejercicio a toda persona que esté sujeta a su jurisdicción, sin discriminación alguna por motivos de raza, color, sexo, idioma, religión, políticas o
@@ -270,6 +240,11 @@ presente Pacto y que no estuviesen ya garantizados por disposiciones legislativa
 de otro carácter».
 
 ## 2 Caso de la Masacre de Pueblo Bello versus Colombia, Sentencia del 31 de enero de
+
+**Definición Canónica:** 2006, párrafo 111.
+ 3 La Comisión Interamericana de Derechos Humanos ha reiterado que los Estados miembros tienen la obligación de garantizar la seguridad ciudadana y el estado
+de derecho dentro del pleno respeto de los derechos humanos.
+**Concordancias Legales:** Artículo 1; Artículo 2; Artículo 3; Artículo 4; Artículo 5; Artículo 6; Artículo 7; Artículo 8
 
 2006, párrafo 111.
  3 La Comisión Interamericana de Derechos Humanos ha reiterado que los Estados miembros tienen la obligación de garantizar la seguridad ciudadana y el estado
@@ -440,10 +415,19 @@ Código de conducta para funcionarios encargados de hacer cumplir la
 ley, recomendadas por el Comité de Prevención del Delito y Lucha contra la Delincuencia que figuran en el anexo de la presente resolución.
    Como principios generales las directrices señalan:
 
-
 ## 1. Se procurará incorporar el Código de conducta a la legislación y a
 
-      las prácticas nacionales. 2. Para alcanzar las metas y los objetivos esta-
+**Definición Canónica:** las prácticas nacionales. 2. Para alcanzar las metas y los objetivos esta-
+      blecidos en el artículo 1 del Código y sus correspondientes comentarios,
+      la definición de “funcionarios encargados de hacer cumplir la ley” se
+      interpretará de la manera más amplia posible. 3. El Código de conducta
+      será aplicable a todos los funcionarios encargados de hacer cumplir la
+      ley, cualquiera que sea la jurisdicción a la que estén sometidos. 4. Los
+      gobiernos adoptarán las medidas necesarias para que los funcionarios
+      encargados de hacer cumplir la ley reciban instrucción, 
+**Concordancias Legales:** artículo 1 del Código y sus correspondientes comentarios
+
+las prácticas nacionales. 2. Para alcanzar las metas y los objetivos esta-
       blecidos en el artículo 1 del Código y sus correspondientes comentarios,
       la definición de “funcionarios encargados de hacer cumplir la ley” se
       interpretará de la manera más amplia posible. 3. El Código de conducta
@@ -532,8 +516,10 @@ guía está dirigida a:
 
    La guía señala que también intenta «promover la rendición de cuen-
 
-
 ## 5 Según el Comité de Derechos Humanos de Naciones Unidas una manifestación
+
+**Definición Canónica:** pacífica, que bloquea el tránsito y altera el orden público, no debería ser automáticamente dispersada a menos que la perturbación ocasionada sea seria y sostenida.
+ 6 Se utiliza la nomenclatura de menos letales y no de no letales porque eventualmente cualquier arma podría llegar a ser letal.
 
 pacífica, que bloquea el tránsito y altera el orden público, no debería ser automáticamente dispersada a menos que la perturbación ocasionada sea seria y sostenida.
  6 Se utiliza la nomenclatura de menos letales y no de no letales porque eventualmente cualquier arma podría llegar a ser letal.
@@ -571,8 +557,9 @@ Reglas de Bangkok (Naciones Unidas, 2010).En ella se reconoce la necesidad de co
 de las mujeres privadas de libertad.
    Las Reglas de Bangkok siguen la línea de los diversos tratados y decla-
 
-
 ## 7 Especifica también que cualquier proyectil que se utilice no debe desviarse más
+
+**Definición Canónica:** de 10 centímetros desde el punto objetivo al que se apuntó.
 
 de 10 centímetros desde el punto objetivo al que se apuntó.
 
@@ -622,9 +609,12 @@ Materiales Docentes                                                             
 
                      Tabla 2. Secciones de las Reglas de Bangkok.
 
-
 ## Sección             Reglas
 
+**Definición Canónica:** Sección I           Aplicables a todas las categorías de mujeres reclusas.
+Administración      Contiene reglas de aplicación general: ingreso, registro, lugar de reclusión,
+general de las      higiene personal, servicios de salud, seguridad y vigilancia, contacto con
+instituciones       el mundo exterior, personal y capacitación.
 
 Sección I           Aplicables a todas las categorías de mujeres reclusas.
 Administración      Contiene reglas de aplicación general: ingreso, registro, lugar de reclusión,
@@ -632,6 +622,14 @@ general de las      higiene personal, servicios de salud, seguridad y vigilancia
 instituciones       el mundo exterior, personal y capacitación.
 
 ## Sección II          Se aplican por igual a condenadas y procesadas, siempre que no se
+
+**Definición Canónica:** Normas aplicables   contrapongan a las normas relativas a esa categoría de mujeres y las
+únicamente a        favorezcan.
+las categorías      Se refieren a temas tales: clasificación e individualización, el régimen
+especiales          penitenciario, relaciones sociales y atención post liberación.
+                    Incluye previsiones especiales para reclusas embarazadas, extranjeras e
+                    indígenas.
+                    Normas suplementarias para el tratamiento de menores.
 
 Normas aplicables   contrapongan a las normas relativas a esa categoría de mujeres y las
 únicamente a        favorezcan.
@@ -642,6 +640,16 @@ especiales          penitenciario, relaciones sociales y atención post liberaci
                     Normas suplementarias para el tratamiento de menores.
 
 ## Sección III         Aplicación de sanciones y medidas no privativas de libertad, al momento
+
+**Definición Canónica:** Sanciones y         de la detención, el fallo y posterior a este.
+medidas no          Previsiones espaciales para mujeres embarazadas, jóvenes y extranjeras.
+privativas de
+libertad
+Sección IV          De investigar, planear y evaluar, despertar la conciencia pública,
+Investigación,      compartir información y capacitar.
+planeación y
+evaluación.
+**Concordancias Legales:** artículo 3; artículo 1 de la Convención Americana sobre Derechos Humanos; artículo 63
 
 Sanciones y         de la detención, el fallo y posterior a este.
 medidas no          Previsiones espaciales para mujeres embarazadas, jóvenes y extranjeras.
@@ -821,8 +829,11 @@ irregularidades o abusos cometidos en su desarrollo (Comisión Interamericana de
 
 Materiales Docentes                                                      Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Marco jurídico nacional sobre el uso legítimo
+de la fuerza por los funcionarios encargados
+**Concordancias Legales:** artículo 10; artículos 410; artículo 11; Artículo 410
 
 Marco jurídico nacional sobre el uso legítimo
 de la fuerza por los funcionarios encargados
@@ -916,8 +927,10 @@ legal. Se ha de distinguir los protocolos como reglas técnicas que precisan las
 medio, de protocolos de actuación relacionados, pero independientes
 (Wilenmann, 2020).1
 
-
 ## 1 Asigna a los principios especificados en instrumentos administrativos un rol de
+
+**Definición Canónica:** concretar las exigencias legales vinculados con la justificación; mientras que los protocolos tendrían la función de definir criterios de buena actuación, cuya infracción
+**Concordancias Legales:** artículo 411; artículo 73 del Código Penal.2 puede generar responsabilidad
 
 concretar las exigencias legales vinculados con la justificación; mientras que los protocolos tendrían la función de definir criterios de buena actuación, cuya infracción
 
@@ -951,6 +964,13 @@ artículo 73 del Código Penal.2
 puede generar responsabilidad administrativa o del propio Estado. Si bien no distingue clases de protocolo, se refiere a protocolos de organización y acción.
 
 ## 2 Artículo 73.«Se aplicará asimismo la pena inferior en uno, dos o tres grados al
+
+**Definición Canónica:** mínimo de los señalados por la ley, cuando el hecho no fuere del todo excusable
+por falta de alguno de los requisitos que se exigen para eximir de responsabilidad
+criminal en los respectivos casos de que trata el artículo 10, siempre que concurra el
+mayor número de ellos, imponiéndose en el grado que el tribunal estime correspondiente, atendido el número entidad de los requisitos que falten o concurran. Esta
+disposición se entiende sin perjuicio de la contenida en el artículo 71».
+**Concordancias Legales:** artículo 10; artículo 71; artículo 412
 
 mínimo de los señalados por la ley, cuando el hecho no fuere del todo excusable
 por falta de alguno de los requisitos que se exigen para eximir de responsabilidad
@@ -1060,8 +1080,13 @@ sustancialmente.
    La lógica de la legitimidad por una norma de permiso puede mantenerse respecto de la causación de males menores a los que se evita, siempre que no sean indisponibles.3 Sin embargo, si los males causados son
 iguales o superiores a los que se evitan en el conflicto, la admisión de la
 
-
 ## 3 En un conflicto de necesidad en el que intervengan bienes vinculados con la
+
+**Definición Canónica:** existencia e integridad misma del ser humano, difícilmente cabe aceptar la pura
+lógica de la ponderación de intereses, como la extracción forzada de órganos para
+salvar la vida de otro, aunque la afectación de la salud aparezca de menor entidad
+que la perturbación de la vida. El problema evidencia la necesidad de integrar diversos factores concurrentes a la hora de establecer normas y ponderar.
+**Concordancias Legales:** artículos 410; Artículo 4; Artículo 37; Artículo 36; artículos 5; Artículo 6; artículo 23 bis del Decreto Ley 2460 establece una eximente por; Artículo 23 bis; artículo 24; artículo 101 de la Constitución Política; artículo 5 del Decreto Ley 2.460; artículo 19; Ley 2460; Ley 2.460; Constitución Política
 
 existencia e integridad misma del ser humano, difícilmente cabe aceptar la pura
 lógica de la ponderación de intereses, como la extracción forzada de órganos para
@@ -1256,21 +1281,12 @@ ilícitas asociadas que conviene advertir. Respecto de la violencia, es relevant
 
         El que infrinja esta disposición será castigado:
 
-## 1. Con la pena de presidio mayor en sus grados mínimos a medio, si le
-
-      causare la muerte;
-
-## 2. Con la de presidio menor en su grado medio a presidio mayor en su
-
-      grado mínimo, si le causare lesiones graves;
-
-## 3. Con la de presidio menor en sus grados mínimo a medio, si le cau-
-
-      sare lesiones menos grave, y
-
 ## 4. Con la de prisión en su grado máximo a presidio menor en su grado
 
-      mínimo, si no le causare lesiones o si estas fueren leves.
+**Definición Canónica:** mínimo, si no le causare lesiones o si estas fueren leves.
+**Concordancias Legales:** artículos 20; Artículo 20; Artículo 21; artículo 323 del Código Orgánico de Tribunales establece; Artículo 22; artículos 206; Artículo 23; artículos 299; artículos 2; Artículo 2; Artículo 3; Ley 2859
+
+mínimo, si no le causare lesiones o si estas fueren leves.
 
    Con relación a la detención de sujetos por parte de la Policía de Investigaciones y de la infracción de otras prohibiciones, son fuentes relevantes los artículos 20, 21 y 22.
 
@@ -1352,33 +1368,33 @@ Materiales Docentes                                                        Capí
       Menores para adolescentes que se encuentran en internación provisoria
       o con sanción privativa de libertad, realizando las siguientes funciones:
 
-## 1. Ejercer la vigilancia y custodia perimetral permanente de los centros
-
-      privativos de libertad.
-       2. Controlar el ingreso al centro.
-
-## 3. Colaborar en el manejo de conflictos al interior de los centros, tales
-
-      como fugas, motines y riñas.
-
-## 4. Asesorar a los funcionarios del Servicio Nacional de Menores en el
-
-      manejo de conflictos internos y de la seguridad en general.
-
 ## 5. Realizar los traslados de los adolescentes a tribunales y a otras ins-
 
-      tancias externas de acuerdo con solicitudes de la autoridad competente.
+**Definición Canónica:** tancias externas de acuerdo con solicitudes de la autoridad competente.
         e) Custodiar y atender a las personas privadas de libertad en las si-
       guientes circunstancias:
        1. Mientras permanezcan en los establecimientos penales.
 
-## 2. Durante las salidas autorizadas con vigilancia por orden emanada de
-
-      los tribunales o autoridad administrativa competente.
+tancias externas de acuerdo con solicitudes de la autoridad competente.
+        e) Custodiar y atender a las personas privadas de libertad en las si-
+      guientes circunstancias:
+       1. Mientras permanezcan en los establecimientos penales.
 
 ## 3. A los egresados de los recintos carcelarios en los casos que la ley
 
-      determine.
+**Definición Canónica:** determine.
+       f) Contribuir a la reinserción social de las personas privadas de liber-
+      tad, mediante la ejecución de acciones tendientes a eliminar su peligro-
+      sidad y lograr su reintegración al grupo social;
+       g) Asistir en el medio libre a las personas que accedan al mismo por
+      encontrarse cumpliendo condenas o por otra causa legal, en las condi-
+      ciones que señalen los reglamentos.
+       h) Resguardar la seguridad interna de los recintos donde funcionan el
+      Ministerio de Justicia, la Corte Suprema y en general los Tribunales de
+      Justicia que determi
+**Concordancias Legales:** artículo 15; Ley 18.216
+
+determine.
        f) Contribuir a la reinserción social de las personas privadas de liber-
       tad, mediante la ejecución de acciones tendientes a eliminar su peligro-
       sidad y lograr su reintegración al grupo social;
@@ -1493,8 +1509,11 @@ se vinculan con precisiones técnicas.
 de la fuerza en intervenciones policiales del Decreto 1.364, de diciembre
 de 2018. Luego atenderemos a la Circular 1.832.
 
-
 ## 4 Sin regulación legal general, Wilenmann (2020: 8) observa que las disposiciones
+
+**Definición Canónica:** inferiores cumplen tanto las funciones de establecer estándares generales como la de
+concretar en protocolos de conducta.
+**Concordancias Legales:** artículos 5; artículos 3; Ley 20.502; constitucion; Constitución Política
 
 inferiores cumplen tanto las funciones de establecer estándares generales como la de
 concretar en protocolos de conducta.
@@ -1520,19 +1539,21 @@ de utilizarla. Se expresa, en todo caso, que no es necesaria la advertencia
 si ella pone en peligro al funcionario policial o «se cree un riesgo grave
 a otras personas».
 
-## 4. Asegurar el mantenimiento del orden público para garantizar las
-
-reuniones autorizadas y de carácter pacífico.
-
 ## 5. Para reuniones no autorizadas, pero de carácter no violento, los
+
+**Definición Canónica:** funcionarios han de evitar el uso excesivo de la fuerza.
+   6. Prohibición general del uso de la fuerza en contra de personas detenidas. Se exceptúa cuando sea «estrictamente necesario para concretar
+la detención, para mantener la seguridad y el orden en las unidades policiales o cuando esté en peligro la integridad física de alguna persona».
+   Por otro lado, establece la revisión periódica de los protocolos de ac-
 
 funcionarios han de evitar el uso excesivo de la fuerza.
    6. Prohibición general del uso de la fuerza en contra de personas detenidas. Se exceptúa cuando sea «estrictamente necesario para concretar
 la detención, para mantener la seguridad y el orden en las unidades policiales o cuando esté en peligro la integridad física de alguna persona».
    Por otro lado, establece la revisión periódica de los protocolos de ac-
 
-
 ## 5 El Decreto 873 ratifica la suscripción por Chile del Pacto de San José de Costa
+
+**Definición Canónica:** Rica, con la obligación de respetar, garantizar y promover los derechos humanos.
 
 Rica, con la obligación de respetar, garantizar y promover los derechos humanos.
 
@@ -1737,8 +1758,12 @@ principios y etapas que establecen los protocolos respectivos.
 
 Materiales Docentes                                                      Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** El rol de la judicatura en el resguardo de los
+derechos como contrapartida de las limitaciones
+al uso de la fuerza
+**Concordancias Legales:** artículo 80 del Código Procesal Penal con relación al artícul; artículo 80; artículo 83; artículo 84; artículos 85; artículo 130; artículo 85 del Código Procesal Penal; artículo 102; Artículo 102 del Código Procesal Penal; artículos 8.2; artículo 8; artículo 150; Ley 20.084; constitucion; Constitución
 
 El rol de la judicatura en el resguardo de los
 derechos como contrapartida de las limitaciones
@@ -1958,8 +1983,10 @@ con las primeras diligencias, ante la policía. Antes, se ha de tener presente l
 actualmente no requiere imputados detenidos (Código Procesal Penal,
 artículo 150).3
 
-
 ## 3 Se recuerda que las torturas de sujetos privados de libertad constituyen una
+
+**Definición Canónica:** agravante, sin definir el tipo penal. Artículo 150 C. «En los casos previstos en los ar-
+**Concordancias Legales:** Artículo 150; artículo 86 del Código Procesal Penal; artículo 93; Artículo 86; artículo 93 del Código Procesal Penal. Artículo 93. D; artículos 91; artículo 102 del Código Procesal Penal admite que el imputado; artículo 8.4; artículo 94 del Código Procesal Penal y comienzan con indicac; Artículo 94; artículo 135; artículo 151; Constitución
 
 agravante, sin definir el tipo penal. Artículo 150 C. «En los casos previstos en los ar-
 
@@ -2070,8 +2097,14 @@ intervención.
         h) A recibir visitas y comunicarse por escrito o por cualquier otro me-
       dio, salvo lo dispuesto en el artículo 151.
 
-
 ## 4 Artículo 8. «Ámbito de la defensa. El imputado tendrá derecho a ser defendido
+
+**Definición Canónica:** por un letrado desde la primera actuación del procedimiento dirigido en su contra.
+Todo imputado que carezca de abogado tendrá derecho irrenunciable a que el Estado le proporcione uno. La designación del abogado la efectuará el juez antes de que
+tenga lugar la primera actuación judicial del procedimiento que requiera la presencia de dicho imputado.
+  El imputado tendrá derecho a formular los planteamientos y alegaciones que considere oportunos, así como a intervenir en todas las actuaciones judiciales y en las
+demás actuaciones del procedimiento, salvas las excepciones expresamente previstas e
+**Concordancias Legales:** artículo 97 del Código Procesal Penal5 dispone la constancia; artículos 93; artículos 34; Ley 20.084
 
 por un letrado desde la primera actuación del procedimiento dirigido en su contra.
 Todo imputado que carezca de abogado tendrá derecho irrenunciable a que el Estado le proporcione uno. La designación del abogado la efectuará el juez antes de que
@@ -2109,8 +2142,9 @@ de sanciones diferente a la de adultos, que incluye como sanción máxima la int
 graves. Existe también la internación en régimen semicerrado, libertad
 asistida, libertad asistida especial, trabajos comunitarios, multas y amonestaciones.
 
-
 ## 5 Artículo 97. «Obligación de cumplimiento e información. El tribunal, los fiscales
+
+**Definición Canónica:** y los funcionarios policiales dejarán constancia en los respectivos registros, conforme al avance del procedimiento, de haber cumplido las normas legales que establecen los derechos y garantías del imputado».
 
 y los funcionarios policiales dejarán constancia en los respectivos registros, conforme al avance del procedimiento, de haber cumplido las normas legales que establecen los derechos y garantías del imputado».
 
@@ -2246,32 +2280,37 @@ los tribunales.
 
 ## 1. Derecho a ser atendida. La víctima de un delito tiene derecho a ser
 
+**Definición Canónica:** recibida y atendida por los jueces, los fiscales del Ministerio Público y
+la Policía.
+    2. Derecho a recibir un trato digno. La víctima de un delito tiene derecho a recibir un trato digno, acorde a su condición de víctima.
+    3. Derecho a denunciar el delito. La víctima de un delito puede denunciarlo a Carabineros, Investigaciones, en las fiscalías del Ministerio
+Público o en los Tribunales.
+
 recibida y atendida por los jueces, los fiscales del Ministerio Público y
 la Policía.
     2. Derecho a recibir un trato digno. La víctima de un delito tiene derecho a recibir un trato digno, acorde a su condición de víctima.
     3. Derecho a denunciar el delito. La víctima de un delito puede denunciarlo a Carabineros, Investigaciones, en las fiscalías del Ministerio
 Público o en los Tribunales.
 
-## 4. Derecho a ser informada. La víctima de un delito tiene derecho a ser
-
-informada del estado del proceso, de sus derechos y de las actividades
-que deba realizar para ejercerlos.
-
-Materiales Docentes                                                      Capítulo 3
-
-
 ## 5. Derecho a solicitar protección. La víctima de un delito tiene derecho
+
+**Definición Canónica:** a pedir a los fiscales del Ministerio Público protección frente a presiones, atentados o amenazas a ella o a su familia. Los tribunales garantizarán la vigencia de sus derechos durante el procedimiento.
+   6. Derecho a obtener reparación. La víctima de un delito tiene derecho a obtener la restitución de las cosas que le hubieren sido hurtadas,
+robadas o estafadas, a que los fiscales del Ministerio Público promuevan
+medidas para facilitar o asegurar la reparación del daño sufrido y a demandar la indemnización de los perjuicios sufridos.
 
 a pedir a los fiscales del Ministerio Público protección frente a presiones, atentados o amenazas a ella o a su familia. Los tribunales garantizarán la vigencia de sus derechos durante el procedimiento.
    6. Derecho a obtener reparación. La víctima de un delito tiene derecho a obtener la restitución de las cosas que le hubieren sido hurtadas,
 robadas o estafadas, a que los fiscales del Ministerio Público promuevan
 medidas para facilitar o asegurar la reparación del daño sufrido y a demandar la indemnización de los perjuicios sufridos.
 
-## 7. Derecho a ser escuchada. La víctima de un delito tiene derecho a ser
-
-escuchada por el fiscal o el juez de garantía, antes de decidirse la suspensión o el término del procedimiento.
-
 ## 8. Derecho a interponer una querella. La víctima de un delito tiene
+
+**Definición Canónica:** derecho a querellarse a través de un abogado.
+   9. Derecho a participar en el proceso. La víctima de un delito tiene derecho a obtener de la policía, de los fiscales y de los organismos auxiliares apoyo y facilidades para realizar los trámites en que deban intervenir
+y a asistir a las audiencias judiciales en que se trate su caso.
+   10. Derecho a reclamar. La víctima de un delito tiene derecho a reclamar ante las autoridades del Ministerio Público o el juez que corresponda, frente a las resoluciones que signifiquen el término de su caso.
+**Concordancias Legales:** artículo 95 del Código Procesal Penal regula esta acción; artículo 21; artículos 567; artículo 3; artículos 20; artículo 142; Ley 20.405; Ley 21.067; constitucion; Constitución Política; Constitución
 
 derecho a querellarse a través de un abogado.
    9. Derecho a participar en el proceso. La víctima de un delito tiene derecho a obtener de la policía, de los fiscales y de los organismos auxiliares apoyo y facilidades para realizar los trámites en que deban intervenir
@@ -2408,8 +2447,11 @@ la población (Defensoría de la Niñez, 2020).
 
 Materiales Docentes                                                     Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Actuaciones autónomas de la policía
+y sus limitaciones relativas al uso de la fuerza
+**Concordancias Legales:** artículos 83; Artículo 83; artículo 87; Artículo 85; artículo 129; artículo 130; artículo 496 del Código Penal. El agente policial deberá infor; artículo 255 del Código Penal. Si no pudiere lograrse l; artículos 85; artículo 260 del Código de Procedimiento Penal contemplaba una; artículos 129; Ley 19.567; Ley 19.696; Ley 19.942
 
 Actuaciones autónomas de la policía
 y sus limitaciones relativas al uso de la fuerza
@@ -2676,17 +2718,37 @@ una persona:
 
 ## 2. Acaba de cometerlo (el policía presenció la comisión del ilícito o
 
+**Definición Canónica:** parte del hecho delictual que se acaba de perpetrar).
+   3. Fuere designada por la víctima o un testigo como el autor o cómplice del delito, tras huir del lugar de comisión (el policía no ha presenciado la comisión del ilícito, solo ha recibido el testimonio del ofendido
+u otra persona).
+
 parte del hecho delictual que se acaba de perpetrar).
    3. Fuere designada por la víctima o un testigo como el autor o cómplice del delito, tras huir del lugar de comisión (el policía no ha presenciado la comisión del ilícito, solo ha recibido el testimonio del ofendido
 u otra persona).
 
 ## 4. En un tiempo inmediato a la ocurrencia de un delito, es encontrada
 
+**Definición Canónica:** con: i) objetos procedentes del delito; ii) con señales, en sí mismo o en
+sus vestidos, que hicieran sospechar su participación en el delito; iii) con
+las armas o instrumentos usados en la comisión del delito.
+
 con: i) objetos procedentes del delito; ii) con señales, en sí mismo o en
 sus vestidos, que hicieran sospechar su participación en el delito; iii) con
 las armas o instrumentos usados en la comisión del delito.
 
 ## 5. Es sindicado como autor o cómplice de un delito cometido en un
+
+**Definición Canónica:** tiempo inmediato por las víctimas que pidan auxilio o testigos presenciales.
+   La detención por flagrancia procede en todos los casos de crímenes y
+en los simples delitos, salvo aquellos que la ley no sancionare con penas
+privativas ni restrictivas de libertad. Ejemplos de simples delitos en los
+que no procede la detención por flagrancia:
+    • La usurpación no violenta del artículo 458 del Código Penal, que
+       está sancionada únicamente con pena de multa.
+    • Amenazas con arma blanca (artículo 494 número 4 del Código
+       Penal).
+    • Lesiones leves (artículo 494 número 5 del Código
+**Concordancias Legales:** artículo 458 del Código Penal; artículo 494; artículo 494 bis del Código Penal; artículo 496; artículo 50 de la Ley 20.000; artículo 124 del Código Procesal Penal; artículo 26 del Código Procesal Penal; artículo 31 de la Ley 20.084. También hay casos especiales d; artículo 129 del Código Procesal Penal. Se trata de los siguie; artículo 17 ter de la Ley 18.216.2; Ley 20.000; Ley 20.084; Ley 18.216.2
 
 tiempo inmediato por las víctimas que pidan auxilio o testigos presenciales.
    La detención por flagrancia procede en todos los casos de crímenes y
@@ -2730,11 +2792,13 @@ artículo 129 del Código Procesal Penal. Se trata de los siguientes:
    1. Si la persona es sorprendida incumpliendo la o las medidas cautelares personales que se le hubiesen impuesto.
    2. Si la persona es sorprendida incumpliendo las condiciones impuestas en virtud de las letras a), b), c) y d) del artículo 17 ter de la Ley 18.216.2
 
-
 ## 2 Ley 18.216 letra a) Prohibición de acudir a determinados lugares; letra b) Prohi-
 
+**Definición Canónica:** Academia Judicial de Chile                    Uso de la fuerza por funcionarios estatales
+Materiales Docentes                                                            Capítulo 4
+**Concordancias Legales:** artículo 26 del Código Procesal Penal; artículo 83 de la Ley 19.968 regula una actuación autónoma espe; artículo 124 del Código Procesal Penal; artículo 31 de la Ley 20.084. Los funcionarios encargados de; artículo 17 de la Ley 16.618; artículo 37; artículos 93; artículos 37; artículo 20; artículo 21; artículo 5 de la Convención sobre los Derechos del Niño; artículo 15; artículo 5; artículo 19; artículo 13; artículo 6; artículos 19; Ley 19.968; Ley 20.084; Ley 16.618
 
-Academia Judicial de Chile                    Uso de la fuerza por funcionarios estatales
+Academia Judicial de Chile                    Uso de la fuerza por funcionarios estatales
 Materiales Docentes                                                            Capítulo 4
 
    El parte policial deberá indicar con claridad y precisión las circunstancias de la detención, indicando lugar, fecha y hora, con una narración cronológica de los hechos. Este relato permitirá al fiscal configurar
@@ -3039,8 +3103,9 @@ Materiales Docentes                                                     Capítul
 ley. Los protocolos en el contexto de manifestaciones públicas han sido
 modificados, adecuándolos a los estándares internacionales ya señalados en la primera parte.
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Casos destacados jurisprudencia
 
 Casos destacados jurisprudencia
 
@@ -3059,6 +3124,15 @@ Chile, de los cargos formulados como autores de los delitos del artículo
 
 ## 150 A inciso 1, 148 y 150 A, inciso final, todos del Código Penal, respecto
 
+**Definición Canónica:** de hechos ocurridos el 16 de enero de 2013.
+   El Tribunal Oral en lo Penal, en voto de mayoría, absolvió a los acusados al concluir que la acción ejecutada por funcionarios de la Brigada de
+Investigación Criminal (BICRIM) San Ramón, de esposar al detenido a
+un árbol por breve tiempo y mojarlo (sin saber cuánto tiempo ni en qué
+lugar de su cuerpo), no se realizó para causarle un sufrimiento físico o
+sicológico, pues en dicho lugar el detenido (víctima de estos hechos)
+no fue agredido con golpes de pies o de puños ni por elemento alguno
+por los funcionarios policiales u otra persona, sino que e
+
 de hechos ocurridos el 16 de enero de 2013.
    El Tribunal Oral en lo Penal, en voto de mayoría, absolvió a los acusados al concluir que la acción ejecutada por funcionarios de la Brigada de
 Investigación Criminal (BICRIM) San Ramón, de esposar al detenido a
@@ -3069,8 +3143,10 @@ no fue agredido con golpes de pies o de puños ni por elemento alguno
 por los funcionarios policiales u otra persona, sino que el acto de esposarlo al árbol se realizó para evitar que se causara lesiones a sí mismo,
 teniendo a la vista el carácter violento y agresivo del detenido quien
 
-
 ## 1 Se agradece especialmente la selección de casos realizada por Marcela Toledo
+
+**Definición Canónica:** Sandoval, abogada asesora de la Fiscalía Centro Norte.
+**Concordancias Legales:** artículo 150; artículo 50 de la Ley 20.084. El juez de garantía que dirigi; artículo 19; artículo 12; artículos 255; artículo 257 del Código Penal; artículo 255 del Código Penal; artículo 256 del Código Penal. Por lo demás; artículo 256; artículo 255 del Código Penal sanciona la; artículo 256 del Código Penal no fue invocado res; artículo 256 del Código Penal contiene la expresión; Ley 20.084; constitucion; Constitución Política; Constitución
 
 Sandoval, abogada asesora de la Fiscalía Centro Norte.
 
@@ -3420,10 +3496,15 @@ que no había sucedido en este caso.
    La Comisión estima que no se había demostrado, a la fecha del informe(Comisión Interamericana de Derechos Humanos, 2002), un procedimiento penal referente a los hechos del 24 de agosto de 1994 como
 recurso efectivo, no solo por la tardanza de actuaciones y diligencias.
 
-
 ## 29. Inmediatamente después de la acción policial del 24 de agosto de
 
-      1994, quedó en claro que no se realizaría una investigación y procesa-
+**Definición Canónica:** 1994, quedó en claro que no se realizaría una investigación y procesa-
+      miento imparcial del caso. Altas autoridades excusaron de inmediato
+      el proceder de las unidades policiales guatemaltecas antes de que fuera
+      posible conocer plenamente los hechos y sin requerir ante todo una in-
+      vestigación.
+
+1994, quedó en claro que no se realizaría una investigación y procesa-
       miento imparcial del caso. Altas autoridades excusaron de inmediato
       el proceder de las unidades policiales guatemaltecas antes de que fuera
       posible conocer plenamente los hechos y sin requerir ante todo una in-
@@ -3431,7 +3512,16 @@ recurso efectivo, no solo por la tardanza de actuaciones y diligencias.
 
 ## 30. Apenas dos días después del incidente, el entonces presidente Ra-
 
-      miro de León Carpio sostuvo que el desalojo forzoso de los trabajadores
+**Definición Canónica:** miro de León Carpio sostuvo que el desalojo forzoso de los trabajadores
+      era una medida legal justificada por la necesidad de proteger el derecho
+      de propiedad en un régimen de derecho. Al día siguiente, el fiscal ge-
+      neral de la nación, Ramses Cuestas Gómez, sostuvo que los policías no
+      penetraron en la finca «en funciones represivas o ilegales». Indicó que
+      era probable que fuerzas de seguridad privadas, y no las fuerzas policia-
+      les del gobierno, hubieran sido responsables de cualquier violencia que
+      hubiera ocurrido.
+
+miro de León Carpio sostuvo que el desalojo forzoso de los trabajadores
       era una medida legal justificada por la necesidad de proteger el derecho
       de propiedad en un régimen de derecho. Al día siguiente, el fiscal ge-
       neral de la nación, Ramses Cuestas Gómez, sostuvo que los policías no
@@ -3464,10 +3554,18 @@ Materiales Docentes                                                         Cap�
    Ante los excesos en el uso de la fuerza pública aparecen consideraciones de límites relevantes como guía en la delimitación de conductas y su
 resolución.
 
-
 ## 35. Del expediente de este caso surge que el 24 de agosto de 1994 no
 
-      menos de doscientos quince agentes de la Policía Nacional, con el res-
+**Definición Canónica:** menos de doscientos quince agentes de la Policía Nacional, con el res-
+      paldo de por lo menos dos helicópteros, realizaron una incursión en la
+      finca La Exacta, utilizando gas lacrimógeno y armas de fuego contra los
+      trabajadores que la habían ocupado. El empleo de esa fuerza provocó la
+      muerte de [...]. También provocó peligro para todo el grupo de trabaja-
+      dores ocupantes y sus familias, que sufrieron el ataque, y graves lesiones
+      para once personas: [...]. La Comisión procede a analizar si la fuerza
+      empleada fue excesiva y por ende violatoria de la Conve
+
+menos de doscientos quince agentes de la Policía Nacional, con el res-
       paldo de por lo menos dos helicópteros, realizaron una incursión en la
       finca La Exacta, utilizando gas lacrimógeno y armas de fuego contra los
       trabajadores que la habían ocupado. El empleo de esa fuerza provocó la
@@ -3497,7 +3595,14 @@ Materiales Docentes                                                         Cap�
 
 ## 37. El gobierno ha subrayado que los agentes policiales realizaron la in-
 
-      cursión en la finca La Exacta llevando consigo varias órdenes de arresto,
+**Definición Canónica:** cursión en la finca La Exacta llevando consigo varias órdenes de arresto,
+      emitidas contra ciento once trabajadores. El gobierno ha hecho mucho
+      énfasis en el hecho de que los trabajadores que ocupaban la finca habían
+      sido acusados ante los tribunales de los delitos de usurpación y coac-
+      ción. Se ha sostenido que la acción policial era necesaria para proteger
+      la propiedad privada de los propietarios de la finca.
+
+cursión en la finca La Exacta llevando consigo varias órdenes de arresto,
       emitidas contra ciento once trabajadores. El gobierno ha hecho mucho
       énfasis en el hecho de que los trabajadores que ocupaban la finca habían
       sido acusados ante los tribunales de los delitos de usurpación y coac-
@@ -3529,8 +3634,10 @@ Humanos sobre cada uno.
       estatales contra las personas, el cual debe estar prohibido como regla
       general. Su uso excepcional deberá ser interpretado restrictivamente de
 
-
 ## 2 Roche Azaña y otros versus Nicaragua. Comisión Interamericana de Derechos
+
+**Definición Canónica:** Humanosde 3 de junio de 2020.
+**Concordancias Legales:** artículo 5.6 de la Convención Americana. Academia Judicial de; artículo 150; artículo 255; artículo 10
 
 Humanosde 3 de junio de 2020.
 

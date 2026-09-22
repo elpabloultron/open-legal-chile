@@ -13,19 +13,23 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Laboral | **Materia:** Laboral
 
-## Serie de
-
-
-## Documentos                                                           09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Curso de
+             formación
+             especializada
+             para
+                   jueces y juezas
+                   de juzgados
+                   de letras
+                   del trabajo o
+                   de juzgado de
+                   cobranza
+                   laboral y
+                   previsional
+                   (curso habilitante)
 
-             Curso de
+Curso de
              formación
              especializada
              para
@@ -50,19 +54,22 @@ extraccion: pdftotext
 
               Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Paola
+                                    Díaz
+                                    Urtubia
+                          Abogada de la Universidad de Chile,
+                          Paola Díaz Urtubia es jueza titular
+                          del Segundo Juzgado del Trabajo
+                          de Santiago desde 2009. Magíster
+                          en derecho laboral, ha desarrollado
+                          labores docentes en programas de
+                          capacitación y perfeccionamiento
+                          de jueces y funcionarios del Poder
+                          J
 
-                          Paola
+Paola
                                     Díaz
                                     Urtubia
                           Abogada de la Universidad de Chile,
@@ -78,7 +85,11 @@ extraccion: pdftotext
 
 ## 2008. Asimismo, realiza actividad do-
 
-                          cente en programas de postgrado en
+**Definición Canónica:** cente en programas de postgrado en
+                          diversas universidades chilenas en el
+                          área del proceso laboral y litigación.
+
+cente en programas de postgrado en
                           diversas universidades chilenas en el
                           área del proceso laboral y litigación.
 
@@ -136,10 +147,11 @@ Chile 2020                derecho del trabajo.
 
                                             1.3 La tutela de los derechos laborales                                                                        17
 
-
 ## 1.4 El trabajo protegido por el derecho del trabajo. La relación de trabajo bajo dependencia
 
-                                         		    o subordinación en el CT.                                                                                   18
+**Definición Canónica:** o subordinación en el CT.                                                                                   18
+
+o subordinación en el CT.                                                                                   18
 
                                             1.5 Los indicios de la dependencia o subordinación en la doctrina y jurisprudencia administrativa y judicial   19
 
@@ -167,10 +179,11 @@ Chile 2020                derecho del trabajo.
 
                                             3.6 Plazo para demandar                                                                                        53
 
-
 ## 3.7 Sanción del despido con incumplimiento de las obligaciones previsionales. Alcance de la
 
-                                         		    sanción frente a relación laboral declarada sólo en la sentencia judicial.                                  53
+**Definición Canónica:** sanción frente a relación laboral declarada sólo en la sentencia judicial.                                  53
+
+sanción frente a relación laboral declarada sólo en la sentencia judicial.                                  53
 
                                          4. Sindicatos y la negociación colectiva en el Código del Trabajo                                                 55
 
@@ -186,269 +199,20 @@ Chile 2020                derecho del trabajo.
 
                                             4.6 Negociación colectiva de sindicato interempresa                                                            77
 
-
 ## 4.7 Negociación colectiva de trabajadores contratados por eventuales, de temporada y por obra o
 
-                                         		    faena: procedimiento especial de negociación                                                                78
+**Definición Canónica:** faena: procedimiento especial de negociación                                                                78
 Curso habilitante Juez(a)                                                             Índice                                                   5
 
-
-## 4.8 Negociación colectiva de federación y confederación                                     82
-
-
-
-## 5. Jurisdicción, organización y procedimiento en juicio ordinario y especial del trabajo       84
-
-
-
-## 5.1 Competencia de los tribunales del trabajo                                                85
-
-
-
-## 5.2 Territorio y materia                                                                    87
-
-
-
-## 6. Aspectos orgánicos del tribunal de letras del trabajo                                       98
-
-
-
-## 6.1 Su composición y organización                                                           99
-
-
-
-## 6.2 El comité de jueces                                                                     100
-
-
-
-## 6.3 El juez presidente                                                                      101
-
-
-
-## 6.4 Las unidades administrativas                                                            101
-
-
-
-## 6.5 El administrador del tribunal                                                           103
-
-
-
-## 6.6 Presupuesto, contabilidad y cuenta corriente                                            104
-
-
-
-## 6.7 Escalafón de empleados y deberes funcionarios                                           105
-
-
-
-## 6.8 El procedimiento disciplinario                                                          106
-
-
-
-## 6.9 Definición de funciones                                                                 107
-
-
-
-## 6.10 Postulaciones y nombramientos                                                          107
-
-
-
-## 6.11 Calificaciones                                                                         109
-
-
-
-## 7. El procedimiento de aplicación general laboral de carácter declarativo                      110
-
-
-
-## 7.1   Los principios formativos del proceso                                                 111
-
-
-
-## 7.2   El juicio oral. Características.                                                      114
-
-
-
-## 7.3   Deberes y atribuciones del juez en el juicio oral                                     115
-
-
-
-## 7.4   Actuación de oficio del juez. Facultades.                                             116
-
-
-
-## 7.5   La demanda en juicio del trabajo. Acumulación.                                        117
-
-
-
-## 7.6. La notificación de la demanda y personas habilitadas para efectuarlas                  119
-
-
-
-## 7.7   Admisión, citación, contestación de la demanda y reconvención                         121
-
-
-
-## 7.8   La audiencia preparatoria del juicio oral                                             122
-
-
-
-## 7.9   La audiencia de juicio                                                                124
-
-
-
-## 7.10 Sana crítica. Apreciación de la prueba y razonamiento judicial.                        127
-
-
-
-## 7.11 La sentencia en juicio del trabajo                                                     128
-
-
-
-## 7.12 Recursos de reposición y apelación. Supletoriedad del Código de Procedimiento Civil.   130
-
-
-
-## 7.13 El recurso de nulidad                                                                  130
-
-
-
-## 7.14 Recurso de unificación de jurisprudencia                                               136
-
-
-
-## 8. Procedimientos especiales                                                                   139
-
-Curso habilitante Juez(a)                                                            Índice                                                       6
-
-
-## 8.1 El procedimiento monitorio                                                                 140
-
-
-
-## 8.2 Procedencia en materia laboral                                                             141
-
-
-
-## 8.3 Actuación administrativa y alcances                                                        141
-
-
-
-## 8.4 La demanda monitoria                                                                       142
-
-
-
-## 8.5 Deberes y atribuciones del juez en el procedimiento monitorio                              142
-
-
-
-## 8.6 Efectos de la decisión del juez al aceptar o rechazar demanda                              143
-
-
-
-## 8.7 Reclamo                                                                                    143
-
-
-
-## 8.8 Audiencia de juicio y sentencia                                                            144
-
-
-
-## 8.9 Recursos                                                                                   145
-
-
-
-## 8.10 Acción de tutela de derechos fundamentales                                                147
-
-
-
-## 8.11 Derechos tutelados                                                                        147
-
-
-
-## 8.12 Caducidad                                                                                 149
-
-
-
-## 8.13 Titularidad                                                                               149
-
-
-
-## 8.14 Deberes y atribuciones del juez en el procedimiento de tutela de derechos fundamentales   150
-
-
-
-## 8.15 Prueba indiciaria                                                                         151
-
-
-
-## 8.16 La sentencia en el procedimiento de tutela de derechos fundamentales                      151
-
-
-
-## 8.17 Recursos                                                                                  153
-
-
-
-## 8.18 Las reclamaciones de multas administrativas                                               153
-
-
-
-## 9. Procedimiento aplicable a los títulos ejecutivos laborales                                     157
-
-
-
-## 9.1 Los títulos ejecutivos laborales                                                           159
-
-
-
-## 9.2 Normas sobre el cumplimiento de la sentencia                                               160
-
-
-
-## 9.3 Tramitación del juicio ejecutivo laboral. Procedimiento y recursos.                        163
-
-
-
-## 10. Nociones generales del procedimiento en juicio de cobranza laboral y previsional              165
-
-
-
-## 10.1 Los títulos ejecutivos de seguridad social                                                167
-
-
-
-## 10.2 Titularidad de la acción. La demanda ejecutiva y su ampliación.                           168
-
-
-
-## 10.3 Las excepciones en el procedimiento ejecutivo de cobranza                                 168
-
-
-
-## 10.4 Acción de reclamación, causales y procedimiento aplicable                                 169
-
-
-
-## 10.5 Normas supletorias                                                                        170
-
-
-
-## 10.6 Recursos                                                                                  171
-
-
-
-## 10.7 Apremio personal                                                                          171
-
-
-
-## 11. Acoso sexual                                                                                  173
-
-
+faena: procedimiento especial de negociación                                                                78
+Curso habilitante Juez(a)                                                             Índice                                                   5
 
 ## 11.1 Origen y noción del acoso sexual                                                          174
 
-Curso habilitante Juez(a)                                                            Índice                                                                      7
+**Definición Canónica:** Curso habilitante Juez(a)                                                            Índice                                                                      7
+**Concordancias Legales:** Ley Nº 20.005; Ley Nº 20.348; DL 3.500
+
+Curso habilitante Juez(a)                                                            Índice                                                                      7
 
                                             11.2 Definición en Chile (Ley Nº 20.005)                                                                      174
 
@@ -501,10 +265,11 @@ Chile 2020                derecho del trabajo.
                                            16.2 Las obligaciones del empleador en el régimen de prevención de los riesgos del trabajo,
                                          		     en especial, del deber de seguridad                                                                       214
 
-
 ## 16.3 Responsabilidad contractual y extracontractual, competencia y reparación del daño por accidente
 
-                                         		 del trabajo y enfermedades profesionales                                                                      216
+**Definición Canónica:** del trabajo y enfermedades profesionales                                                                      216
+
+del trabajo y enfermedades profesionales                                                                      216
 
                                             16.4 Daño moral. Acción, competencia, sujetos activos y clases de indemnización.                              218
 
@@ -515,48 +280,11 @@ Chile 2020                derecho del trabajo.
                                             17.2 Trabajadores excluidos del seguro de desempleo                                                           223
 Curso habilitante Juez(a)                                                           Índice                                                  8
 
-
-## 17.3 Las cotizaciones de desempleo del empleador y del trabajador según la
-
-                                         		     modalidad del contrato de trabajo                                                    223
-
-
-## 17.4 Requisitos para cobrar el seguro de cesantía financiado por la cuenta
-
-                                         		     individual de cesantía y forma de cobrarlo                                           224
-
-
-## 17.5 Requisitos para cobrar el seguro de cesantía financiado por el Fondo de
-
-                                         		     Cesantía Solidario y forma de cobrarlo                                               225
-
-
-## 18. Seguridad social y el empleador                                                         228
-
-
-
-## 18.1 Alcances del artículo 184 CT y la obligación del empleador con relación a la vida y
-
-                                         		     salud del trabajador                                                                 229
-
-
-## 18.2 Obligación de afiliación e inscripción                                              229
-
-
-
-## 18.3 Sanciones aplicables por incumplimiento de las obligaciones establecidas en los
-
-                                         		     regímenes de seguridad social                                                        232
-
-
-## 19. Métodos alternativos de resolución de conflicto                                         233
-
-
-
 ## 19.1 Mediación, negociación y conciliación en materia laboral                            234
 
+**Definición Canónica:** Bibliografía239
 
-                                         Bibliografía239
+Bibliografía239
 
                                              El derecho del
                                          trabajo y la regulación
@@ -565,10 +293,11 @@ Chile 2020                derecho del trabajo.
 Curso habilitante Juez(a)                                                1. El derecho del trabajo y la regulación                              10
 de letras del trabajo y                                                     jurídica del trabajo dependiente
 
-
 ## 1.1        Los principios del derecho
 
-                                                                           del trabajo
+**Definición Canónica:** del trabajo
+
+del trabajo
 
                                                                            De acuerdo a la clásica definición de Américo Plá, son las “líneas
                                                                            directrices que informan algunas normas e inspiran directa e indi-
@@ -599,47 +328,67 @@ de letras del trabajo y                                                     jur�
                                          relación laboral y de la          del derecho del trabajo se analizarán a continuación en el presente
                                          primacía de la realidad.          trabajo.
 
-
 ## 1   PLÁ (2015), p. 34
 
-                                            2   UGARTE (2013), p. 677.
+**Definición Canónica:** 2   UGARTE (2013), p. 677.
+                                            3   UGARTE (2013), p. 678.
+                                            4   UGARTE (2013), p. 679.
+
+2   UGARTE (2013), p. 677.
                                             3   UGARTE (2013), p. 678.
                                             4   UGARTE (2013), p. 679.
 
 Curso habilitante Juez(a)                                               1. El derecho del trabajo y la regulación                                 11
 de letras del trabajo y                                                    jurídica del trabajo dependiente
 
-
 ## 1.1.1 Principio protector
 
-                                                                          Se materializa en distintas técnicas dirigidas a equilibrar las diferencias
+**Definición Canónica:** Se materializa en distintas técnicas dirigidas a equilibrar las diferencias
+                                                                          preexistentes entre trabajador y empleador, evitando que quienes se
+                                                                          desempeñan bajo la dependencia jurídica de otros sean víctimas de
+                                                                          abusos que ofendan su dignidad, en virtud del poder diferente de
+                                                                          negociación y desequilibrio j
+
+Se materializa en distintas técnicas dirigidas a equilibrar las diferencias
                                                                           preexistentes entre trabajador y empleador, evitando que quienes se
                                                                           desempeñan bajo la dependencia jurídica de otros sean víctimas de
                                                                           abusos que ofendan su dignidad, en virtud del poder diferente de
                                                                           negociación y desequilibrio jurídico y económico existentes entre
                                                                           ellos. Este principio se manifiesta en tres reglas:
 
-
 ## 1.1.1.1 La regla in dubio pro operario
 
-                                                                          Para el caso que una norma resulte ambigua y, por ende, pueda ser
+**Definición Canónica:** Para el caso que una norma resulte ambigua y, por ende, pueda ser
+                                                                          interpretada de varias formas y con distintos alcances, el juez debe
+                                                                          obligatoriamente inclinarse por la interpretación más favorable al
+
+Para el caso que una norma resulte ambigua y, por ende, pueda ser
                                                                           interpretada de varias formas y con distintos alcances, el juez debe
                                                                           obligatoriamente inclinarse por la interpretación más favorable al
 
                                                                           trabajador.
 
-
 ## 1.1.1.2 La regla de la norma favorable
 
-                                                                          Para el caso que la duda interpretativa se presente entre el sentido
+**Definición Canónica:** Para el caso que la duda interpretativa se presente entre el sentido
                                                                           de dos o más normas jurídicas distintas, que entran en colisión, el
                                                                           juez debe necesariamente inclinarse por aquella que resulte más
                                                                           favorable al trabajador, con independencia de la jerarquía normativa.
 
+Para el caso que la duda interpretativa se presente entre el sentido
+                                                                          de dos o más normas jurídicas distintas, que entran en colisión, el
+                                                                          juez debe necesariamente inclinarse por aquella que resulte más
+                                                                          favorable al trabajador, con independencia de la jerarquía normativa.
 
 ## 1.1.1.3 La regla de la condición más beneficiosa
 
-                                                                          Cuando una situación anterior es más beneficiosa para el trabajador,
+**Definición Canónica:** Cuando una situación anterior es más beneficiosa para el trabajador,
+                                                                          se la debe respetar; vale decir, toda modificación debe ser para ampliar
+                                                                          y no para disminuir beneficios. De acuerdo a Américo Plá, se trata
+                                                                          de un criterio por el cual la aplicación de una nueva norma laboral
+                                                                          nunca debe servir para dism
+
+Cuando una situación anterior es más beneficiosa para el trabajador,
                                                                           se la debe respetar; vale decir, toda modificación debe ser para ampliar
                                                                           y no para disminuir beneficios. De acuerdo a Américo Plá, se trata
                                                                           de un criterio por el cual la aplicación de una nueva norma laboral
@@ -664,26 +413,39 @@ de letras del trabajo y                                                    jurí
                                                                           empleadora y trabajadora, como sucede con la gratuidad, celeridad,
                                                                           inmediación e impulso procesal de oficio, entre otros.
 
-
 ## 1.1.2 Principio de la irrenunciabilidad
 
-                                                                          de los derechos laborales
+**Definición Canónica:** de los derechos laborales
                                                                           Como sostiene Justo López, el concepto de irrenunciabilidad integra
                                                                           dos situaciones diferenciadas, cuales son:
 
+de los derechos laborales
+                                                                          Como sostiene Justo López, el concepto de irrenunciabilidad integra
+                                                                          dos situaciones diferenciadas, cuales son:
 
 ## 1.1.2.1 La garantía de satisfacción6
 
-                                                                          Limita la autonomía de la voluntad en los negocios liberatorios pro-
+**Definición Canónica:** Limita la autonomía de la voluntad en los negocios liberatorios pro-
+                                                                          hibiendo, así, la renuncia a todo crédito adquirido por el trabajador.
+                                                                          No se respetaría esta garantía si, en el ejemplo, el trabajador declina
+                                                                          en forma expresa la percepción de un salario correspondiente a un
+                                                                          período trabajado, es deci
+
+Limita la autonomía de la voluntad en los negocios liberatorios pro-
                                                                           hibiendo, así, la renuncia a todo crédito adquirido por el trabajador.
                                                                           No se respetaría esta garantía si, en el ejemplo, el trabajador declina
                                                                           en forma expresa la percepción de un salario correspondiente a un
                                                                           período trabajado, es decir, de un crédito incorporado a su patrimonio.
 
-
 ## 1.1.2.2 La garantía de negociación7
 
-                                                                          Se refiere al carácter imperativo de las normas, legales y colectivas,
+**Definición Canónica:** Se refiere al carácter imperativo de las normas, legales y colectivas,
+                                                                          que por su propia naturaleza impiden la renuncia a su aplicación, pues,
+                                                                          de este modo, resultarían inútiles en la circunstancia de inferioridad
+                                                                          negocial en que se encuentra el trabajador frente al empleador8. Se
+                                                                          afectaría esta garantí
+
+Se refiere al carácter imperativo de las normas, legales y colectivas,
                                                                           que por su propia naturaleza impiden la renuncia a su aplicación, pues,
                                                                           de este modo, resultarían inútiles en la circunstancia de inferioridad
                                                                           negocial en que se encuentra el trabajador frente al empleador8. Se
@@ -697,10 +459,15 @@ de letras del trabajo y                                                    jurí
                                                                           tiva, sino también a los nacidos de la voluntad particular y que, por
                                                                           tanto, superan el límite o piso de orden público laboral9. En cuanto
 
-
 ## 6   PLÁ la denomina renuncia a beneficios ya devengados, que se han convertido en verdaderos derechos de
 
-                                             crédito.
+**Definición Canónica:** crédito.
+                                         7   PLÁ los refiere como renuncia a beneficios y prestaciones futuras.
+                                         8   Citado por MASA (2005), pp. 352-353.
+                                         9   MASA (2005), p. 359.
+**Concordancias Legales:** artículo 5; artículo 311
+
+crédito.
                                          7   PLÁ los refiere como renuncia a beneficios y prestaciones futuras.
                                          8   Citado por MASA (2005), pp. 352-353.
                                          9   MASA (2005), p. 359.
@@ -777,10 +544,13 @@ de letras del trabajo y                                                      jur
                                                                             beneficios y derechos que correspondan al trabajador por aplicación
                                                                             del instrumento colectivo por el que esté regido.
 
-
 ## 1.1.3 Principio de continuidad de la relación laboral
 
-                                                                            Este principio apunta al mantenimiento de la fuente de trabajo: el
+**Definición Canónica:** Este principio apunta al mantenimiento de la fuente de trabajo: el
+                                                                            contrato de trabajo tiene vocación de permanencia.
+**Concordancias Legales:** artículos 4; artículo 159
+
+Este principio apunta al mantenimiento de la fuente de trabajo: el
                                                                             contrato de trabajo tiene vocación de permanencia.
 
                                                                             La doctrina ha sostenido como alcances de este principio: a) la pre-
@@ -813,10 +583,17 @@ de letras del trabajo y                     jurídica del trabajo dependiente
                                            de convertir un contrato de duración indeterminada en otro de
                                            duración determinada.
 
-
 ## 1.1.4 Principio de la primacía de la realidad
 
-                                           Este principio otorga prioridad a los hechos, es decir, a lo que efecti-
+**Definición Canónica:** Este principio otorga prioridad a los hechos, es decir, a lo que efecti-
+                                           vamente ha ocurrido en la realidad, sobre las formas o apariencias o
+                                           lo que las partes han convenido. Por lo tanto, en caso de discordan-
+                                           cia entre lo que ocurre en la práctica y lo que surge de documentos
+                                           suscritos por las partes, o de acuerdos celebrados entre ellos, debe
+                                           darse preferencia a los hechos. Prima
+**Concordancias Legales:** artículo 9
+
+Este principio otorga prioridad a los hechos, es decir, a lo que efecti-
                                            vamente ha ocurrido en la realidad, sobre las formas o apariencias o
                                            lo que las partes han convenido. Por lo tanto, en caso de discordan-
                                            cia entre lo que ocurre en la práctica y lo que surge de documentos
@@ -860,10 +637,12 @@ de letras del trabajo y                           jurídica del trabajo dependie
                                                  encontrándose obligado el empleador a dar cumplimiento cabal a
                                                  ambas cláusulas del contrato.
 
-
 ## 1.2     Derechos fundamentales protegidos
 
-                                                 por el Código del Trabajo
+**Definición Canónica:** por el Código del Trabajo
+**Concordancias Legales:** artículo 5; artículo 154 bis; artículos 485; artículo 485; artículo 2 del Código del Trabajo; constitucion
+
+por el Código del Trabajo
 
                                                  El Código del Trabajo refleja lo que en doctrina se denomina la
                                                  ciudadanía en la empresa, por la cual se reconoce plena vigencia de los
@@ -908,10 +687,12 @@ de letras del trabajo y                           jurídica del trabajo dependie
                                                  porcionada, o sin respeto a su contenido esencial, sea que ello ocurra
                                                  durante la vigencia de la relación laboral o con ocasión del despido.
 
-
 ## 1.3     La tutela de los
 
-                                                 derechos laborales
+**Definición Canónica:** derechos laborales
+**Concordancias Legales:** constitucion
+
+derechos laborales
 
                                                  Resulta esencial, para la eficacia del derecho laboral, el reconocimiento
                                                  de tutela efectiva de los derechos laborales.
@@ -946,10 +727,12 @@ de letras del trabajo y                           jurídica del trabajo dependie
                                                  chos con ocasión de despido, la titularidad le corresponde exclusi-
                                                  vamente al trabajador afectado.
 
-
 ## 1.4     El trabajo protegido por el derecho del
 
-                                                 trabajo. La relación de trabajo bajo
+**Definición Canónica:** trabajo. La relación de trabajo bajo
+                                                 dependencia o subordinación en el CT.
+
+trabajo. La relación de trabajo bajo
                                                  dependencia o subordinación en el CT.
 
                                                  El trabajo protegido por el derecho del trabajo es aquel que tiene las
@@ -964,10 +747,11 @@ de letras del trabajo y                           jurídica del trabajo dependie
 Curso habilitante Juez(a)                                                 1. El derecho del trabajo y la regulación                                19
 de letras del trabajo y                                                      jurídica del trabajo dependiente
 
-
 ## 1.5           Los indicios de la dependencia o subordinación en la
 
-                                                                            doctrina y jurisprudencia administrativa y judicial
+**Definición Canónica:** doctrina y jurisprudencia administrativa y judicial
+
+doctrina y jurisprudencia administrativa y judicial
 
                                                                             De acuerdo a la doctrina de la Dirección del Trabajo, la subordinación
                                                                             o dependencia se materializa a través de diversas manifestaciones
@@ -998,7 +782,15 @@ de letras del trabajo y                                                      jur
 
 ## 15   Dictamen Nº 5845/365 de 30 de noviembre de 1999, reconsiderando la doctrina anterior contenida en dicta-
 
-                                              men Nº 4.775/211 de 24 de agosto de 1992.
+**Definición Canónica:** men Nº 4.775/211 de 24 de agosto de 1992.
+                                         16   Dictamen Nº 1.264/068 de 7 de marzo de 1994.
+                                         17   Dictamen Nº 2.903/073 de 23 de julio de 2003.
+                                         18   Dictamen Nº 4.926/271 de 19 de agosto de 1997.
+                                         19   Dictamen Nº 1.428/190 de 7 de agosto de 1996.
+                                         20   Dictamen Nº 5.429/243 de 7 de octubre de 1996.
+                                         21   Dictamen Nº 3.208/162 de 23 de mayo de 1995.
+
+men Nº 4.775/211 de 24 de agosto de 1992.
                                          16   Dictamen Nº 1.264/068 de 7 de marzo de 1994.
                                          17   Dictamen Nº 2.903/073 de 23 de julio de 2003.
                                          18   Dictamen Nº 4.926/271 de 19 de agosto de 1997.
@@ -1051,10 +843,11 @@ de letras del trabajo y                                                       ju
                                          de trabajo
 Curso habilitante Juez(a)                      2. El contrato de trabajo                                             22
 
-
 ## 2.1     Contrato
 
-                                                 de trabajo
+**Definición Canónica:** de trabajo
+
+de trabajo
 
                                                  Los elementos del contrato de trabajo son tres: la prestación de
                                                  servicios, la remuneración y la dependencia o subordinación.
@@ -1071,15 +864,17 @@ de letras del trabajo y                                                       ju
 
                                                  La dependencia o subordinación responde a los caracteres ya indicados.
 
-
-## 2.2     La tercerización de las
-
-                                                 relaciones del trabajo
-
-
 ## 2.2.1 Subcontratación
 
-                                                 De acuerdo a lo dispuesto en el artículo 183-A del Código del Tra-
+**Definición Canónica:** De acuerdo a lo dispuesto en el artículo 183-A del Código del Tra-
+                                                 bajo, “es trabajo en régimen de subcontratación, aquel realizado en
+                                                 virtud de un contrato de trabajo por un trabajador para un emplea-
+                                                 dor, denominado contratista o subcontratista, cuando este, en razón
+                                                 de un acuerdo contractual, se encarga de ejecutar obras o servicios,
+                                                 por su cuenta y 
+**Concordancias Legales:** artículo 183
+
+De acuerdo a lo dispuesto en el artículo 183-A del Código del Tra-
                                                  bajo, “es trabajo en régimen de subcontratación, aquel realizado en
                                                  virtud de un contrato de trabajo por un trabajador para un emplea-
                                                  dor, denominado contratista o subcontratista, cuando este, en razón
@@ -1129,10 +924,13 @@ de letras del trabajo y                                                       ju
                                                                                      de instrucciones, dirección, supervigilancia y control que se
                                                                                      derivan de todo vínculo de subordinación o dependencia,
 
-
 ## 26   Así, reconociendo al MOP como empresa principal, sentencia 2º JLT Santiago, RIT O-1.065-2011; reconocien-
 
-                                              do a Serviú de la Región de Aysén como empresa principal, sentencia JLT Puerto Montt, RIT O-143-2011,
+**Definición Canónica:** do a Serviú de la Región de Aysén como empresa principal, sentencia JLT Puerto Montt, RIT O-143-2011,
+                                              26.09.2011.
+**Concordancias Legales:** artículo 183
+
+do a Serviú de la Región de Aysén como empresa principal, sentencia JLT Puerto Montt, RIT O-143-2011,
                                               26.09.2011.
 
 Curso habilitante Juez(a)                2. El contrato de trabajo                                                24
@@ -1158,10 +956,17 @@ de letras del trabajo y                                                       ju
                                            por la prestación del servicio específico contratado (dictamen DT
                                            Nº 141/05 de 10.01.2007).
 
-
 ## 2.2.2 Suministro de mano de obra
 
-                                           La ley regula el suministro de mano de obra a partir de la Ley Nº
+**Definición Canónica:** La ley regula el suministro de mano de obra a partir de la Ley Nº
+                                           20.123, de 2006. Una empresa denominada Empresa de Servicios
+                                           Transitorios (EST), mediante un contrato de puesta a disposición,
+                                           se compromete a suministrarle a una empresa, denominada usuaria,
+                                           los servicios de uno o más trabajadores por tiempo transitorio y de
+                                           acuerdo a las circunstancias que la ley autoriza expresamen
+**Concordancias Legales:** artículo 162; artículo 183; artículo 66 bis de la Ley N; artículo 3 del Decreto; artículos 183; artículo 66 bis de la Ley Nº 16.744. Para; artículo 76 de la Ley Nº 16.744; artículo 69 de la Ley Nº 16.744. Sin perjuicio de; artículo 478; artículo 507; artículos 507; artículo 3; Ley Nº 20.123; Ley N° 16.744; ley 20.123; Ley Nº 16.744; Ley Nº 20.760; constitucion
+
+La ley regula el suministro de mano de obra a partir de la Ley Nº
                                            20.123, de 2006. Una empresa denominada Empresa de Servicios
                                            Transitorios (EST), mediante un contrato de puesta a disposición,
                                            se compromete a suministrarle a una empresa, denominada usuaria,
@@ -1526,10 +1331,11 @@ de letras del trabajo y                                                       ju
                                                                              de trabajo entre la EST y el trabajador, tal como lo ha reconocido la
                                                                              jurisprudencia de los tribunales.35
 
-
 ## 2.4                Poder o facultades
 
-                                                                                  del empleador
+**Definición Canónica:** del empleador
+
+del empleador
 
                                                                              Las facultades del empleador que el ordenamiento jurídico le reco-
                                                                              noce son las siguientes:
@@ -1556,11 +1362,16 @@ de letras del trabajo y                                                       ju
                                                                                mantener una disciplina y orden tal que le permita el adecuado
                                                                                funcionamiento de la actividad laboral.39
 
-
 ## 2.4.1 Sus límites y deberes
 
+**Definición Canónica:** ——       Límites constitucionales: tal como lo refiere el artículo 5
+                                                                                     inciso primero CT, todas las facultades que se le reconocen
+                                                                                     al empleador tienen como límite infranqueable el respeto de
+                                                                                     los derechos constitucionales del trabajador.
+                                                                            ——       Límites contractuales: el
+**Concordancias Legales:** artículo 5; artículo 184; artículo 184 bis; artículo 1546; constitucion
 
-                                                                            ——       Límites constitucionales: tal como lo refiere el artículo 5
+——       Límites constitucionales: tal como lo refiere el artículo 5
                                                                                      inciso primero CT, todas las facultades que se le reconocen
                                                                                      al empleador tienen como límite infranqueable el respeto de
                                                                                      los derechos constitucionales del trabajador.
@@ -1632,10 +1443,16 @@ de letras del trabajo y                                                       ju
                                                                                     debe observar una conducta que no cause riesgo al interior
                                                                                     de la empresa.41
 
-
 ## 2.4.3 Obediencia, fidelidad, lealtad
 
-                                                                             Tal como lo reconoce la doctrina vigente de la Dirección del Tra-
+**Definición Canónica:** Tal como lo reconoce la doctrina vigente de la Dirección del Tra-
+                                                                             bajo (dictamen N° 3416/049, de 28.08.2009) en la lectura clásica
+                                                                             del derecho del trabajo, previa al desarrollo doctrinal denominado
+                                                                             “ciudadanía en la empresa”, el deber de fidelidad se asumía como
+                                                                             “la obligación del trabajador
+**Concordancias Legales:** constitucion
+
+Tal como lo reconoce la doctrina vigente de la Dirección del Tra-
                                                                              bajo (dictamen N° 3416/049, de 28.08.2009) en la lectura clásica
                                                                              del derecho del trabajo, previa al desarrollo doctrinal denominado
                                                                              “ciudadanía en la empresa”, el deber de fidelidad se asumía como
@@ -1669,10 +1486,13 @@ de letras del trabajo y                                                       ju
                                                                             derecho del trabajo que sea la ejecución de buena fe del contrato de
                                                                             trabajo la exigible, por sobre el deber de fidelidad.
 
-
 ## 2.4.4 Prescripción de los derechos laborales y de
 
-                                                                            seguridad social. Caducidad de las acciones.
+**Definición Canónica:** seguridad social. Caducidad de las acciones.
+                                                                            La norma legal que regula la prescripción laboral se encuentra
+**Concordancias Legales:** artículo 510 del Código del Trabajo y se refiere a los
+
+seguridad social. Caducidad de las acciones.
                                                                             La norma legal que regula la prescripción laboral se encuentra
 
                                                                             contenida en el artículo 510 del Código del Trabajo y se refiere a los
@@ -1693,7 +1513,13 @@ de letras del trabajo y                                                       ju
 
 ## 162 CT (Ley Bustos): el plazo de prescripción es de seis meses
 
-                                                                                     contados desde la suspensión de los servicios.
+**Definición Canónica:** contados desde la suspensión de los servicios.
+                                                                            ——       Derecho al cobro de horas extraordinarias: el plazo de pres-
+                                                                                     cripción es de seis meses desde la fecha en que debieron ser
+                                                                                     pagadas.
+**Concordancias Legales:** artículos 2523; artículo 49 de la Ley N; artículo 19 del DL N; artículo 31 bis de la Ley N; Ley N° 15.386; Ley N° 17.322; DL N° 3.500
+
+contados desde la suspensión de los servicios.
                                                                             ——       Derecho al cobro de horas extraordinarias: el plazo de pres-
                                                                                      cripción es de seis meses desde la fecha en que debieron ser
                                                                                      pagadas.
@@ -1741,10 +1567,12 @@ de letras del trabajo y                                                       ju
 Curso habilitante Juez(a)                                                 3. Suspensión y terminación                                          40
 de letras del trabajo y                                                       del contrato de trabajo
 
-
 ## 3.1            Suspensión del
 
-                                                                            contrato de trabajo
+**Definición Canónica:** contrato de trabajo
+**Concordancias Legales:** artículo 174 del Código del Trabajo; Ley Nº 20.227
+
+contrato de trabajo
 
                                                                             “Consiste en la cesación justificada y temporal de la obligación de
                                                                             trabajar o de pagar la remuneración en su caso, o de ambas a la vez,
@@ -1779,10 +1607,11 @@ de letras del trabajo y                                                       de
 Curso habilitante Juez(a)                      3. Suspensión y terminación                                             41
 de letras del trabajo y                            del contrato de trabajo
 
-
 ## 3.2.         La terminación del
 
-                                                      contrato de trabajo
+**Definición Canónica:** contrato de trabajo
+
+contrato de trabajo
 
                                                  El término del contrato de trabajo se encuentra sometido al orden
                                                  público laboral y, por lo mismo, las justificaciones de dicha circuns-
@@ -1795,18 +1624,17 @@ de letras del trabajo y                            del contrato de trabajo
 
                                                  justificación de dicho término de contrato laboral.
 
-
-## 3.3     Causales de terminación del contrato
-
-                                                 de trabajo y su clasificación
-
-
-## 3.3.1 Causales por voluntad concurrente de las partes
-
-
 ## 3.3.1.1 Mutuo acuerdo
 
-                                                 Se reconoce el derecho de las partes de poner fin al contrato de
+**Definición Canónica:** Se reconoce el derecho de las partes de poner fin al contrato de
+                                                 trabajo del mismo modo como se pactó, esto es, por la voluntad de
+                                                 ambas. Sin embargo, para que pueda ser invocada esta causal por
+                                                 el empleador, requiere que dicho acuerdo conste por escrito y esté
+                                                 firmado por el trabajador y el presidente del sindicato o delegado
+                                                 sindical respectivo, o en 
+**Concordancias Legales:** artículo 177 del Código del Trabajo
+
+Se reconoce el derecho de las partes de poner fin al contrato de
                                                  trabajo del mismo modo como se pactó, esto es, por la voluntad de
                                                  ambas. Sin embargo, para que pueda ser invocada esta causal por
                                                  el empleador, requiere que dicho acuerdo conste por escrito y esté
@@ -1816,10 +1644,15 @@ de letras del trabajo y                            del contrato de trabajo
                                                  de Registro Civil de la respectiva comuna o el secretario municipal
                                                  correspondiente (artículo 177 del Código del Trabajo).
 
-
 ## 3.3.1.2 Vencimiento del plazo convenido
 
-                                                 Las partes acuerdan, al convenir el contrato de trabajo, que la duración
+**Definición Canónica:** Las partes acuerdan, al convenir el contrato de trabajo, que la duración
+                                                 de este se extenderá hasta la llegada de una fecha determinada. La
+                                                 ley, en el artículo 159 N° 4 del Código del Trabajo, establece que el
+                                                 plazo en cuestión no puede exceder de un año, salvo para gerentes
+**Concordancias Legales:** artículo 159
+
+Las partes acuerdan, al convenir el contrato de trabajo, que la duración
                                                  de este se extenderá hasta la llegada de una fecha determinada. La
                                                  ley, en el artículo 159 N° 4 del Código del Trabajo, establece que el
                                                  plazo en cuestión no puede exceder de un año, salvo para gerentes
@@ -1843,10 +1676,18 @@ de letras del trabajo y                      del contrato de trabajo
                                            a plazo, durante doce meses o más, en un período de quince meses
                                            contados desde la primera contratación.
 
-
 ## 3.3.1.3 Conclusión del trabajo o servicio que dio origen al
 
-                                           contrato
+**Definición Canónica:** contrato
+                                           Se trata de la forma dispuesta por la ley para poner término, por
+                                           voluntad concurrente de las partes, siempre que se haya pactado un
+                                           contrato por una obra o faena determinada, entendiendo por esta
+                                           “aquella convención por la que el trabajador se obliga con el respec-
+                                           tivo empleador a ejecutar una obra material o intelectual específica y
+                                      
+**Concordancias Legales:** artículo 10 bis del Código del Trabajo
+
+contrato
                                            Se trata de la forma dispuesta por la ley para poner término, por
                                            voluntad concurrente de las partes, siempre que se haya pactado un
                                            contrato por una obra o faena determinada, entendiendo por esta
@@ -1869,33 +1710,30 @@ de letras del trabajo y                      del contrato de trabajo
 Curso habilitante Juez(a)                3. Suspensión y terminación                                           43
 de letras del trabajo y                      del contrato de trabajo
 
-
-## 3.3.2 Causales por muerte e invalidez del trabajador
-
-
-## 3.3.2.1 Muerte del trabajador
-
-                                           La muerte del trabajador pone término al contrato de trabajo (artículo
-
-## 159 N° 3 CT), regulando la misma ley los acreedores del pago adeu-
-
-                                           dado al trabajador fallecido en el artículo 60 del Código del Trabajo.
-
-
 ## 3.3.2.2 Invalidez total o parcial del trabajador
 
-                                           Con independencia del origen de la invalidez y su magnitud, la ley
+**Definición Canónica:** Con independencia del origen de la invalidez y su magnitud, la ley
+                                           (artículo 161 bis del Código del Trabajo) determina que no constituye
+                                           una causa justificada terminar un contrato de trabajo por tal motivo,
+                                           caso en el cual contempla el pago de la indemnización aumentada.
+**Concordancias Legales:** artículo 161 bis del Código del Trabajo
+
+Con independencia del origen de la invalidez y su magnitud, la ley
                                            (artículo 161 bis del Código del Trabajo) determina que no constituye
                                            una causa justificada terminar un contrato de trabajo por tal motivo,
                                            caso en el cual contempla el pago de la indemnización aumentada.
 
-
-## 3.3.3 Causales por voluntad unilateral del trabajador
-
-
 ## 3.3.3.1 Renuncia voluntaria
 
-                                           La ley, en el artículo 159 N° 2 del Código del Trabajo, contempla esta
+**Definición Canónica:** La ley, en el artículo 159 N° 2 del Código del Trabajo, contempla esta
+                                           causal exigiendo que se avise al empleador con, a lo menos, treinta
+                                           días de anticipación. Al igual que en el caso de la causal mutuo acuer-
+                                           do de las partes, para que la renuncia voluntaria pueda ser invocada
+                                           por el empleador requiere que dicho acuerdo conste por escrito y
+                                           firmado por el trabajador y el president
+**Concordancias Legales:** artículo 159; artículo 177 del Código del Trabajo
+
+La ley, en el artículo 159 N° 2 del Código del Trabajo, contempla esta
                                            causal exigiendo que se avise al empleador con, a lo menos, treinta
                                            días de anticipación. Al igual que en el caso de la causal mutuo acuer-
                                            do de las partes, para que la renuncia voluntaria pueda ser invocada
@@ -1906,24 +1744,31 @@ de letras del trabajo y                      del contrato de trabajo
                                            del Registro Civil de la respectiva comuna o el secretario municipal
                                            correspondiente (artículo 177 del Código del Trabajo).
 
-
 ## 3.3.3.2 Autodespido o despido indirecto
 
-                                           La ley consagra, en el artículo 171 del Código del Trabajo, el derecho
+**Definición Canónica:** La ley consagra, en el artículo 171 del Código del Trabajo, el derecho
+                                           de los trabajadores para, en caso de que el empleador incurra en una
+                                           o más de las causales contempladas en el artículo 160 Nos 1, 5 y 7
+                                           del Código del Trabajo, para autodespedirse. Esto supone invocarlo
+                                           ante el empleador y, con posterioridad, demandar el pago de las
+                                           indemnizaciones correspondientes.
+**Concordancias Legales:** artículo 171 del Código del Trabajo; artículo 160
+
+La ley consagra, en el artículo 171 del Código del Trabajo, el derecho
                                            de los trabajadores para, en caso de que el empleador incurra en una
                                            o más de las causales contempladas en el artículo 160 Nos 1, 5 y 7
                                            del Código del Trabajo, para autodespedirse. Esto supone invocarlo
                                            ante el empleador y, con posterioridad, demandar el pago de las
                                            indemnizaciones correspondientes.
 
-
-## 3.3.4 Causales por voluntad unilateral del empleador
-
-
 ## 3.3.4.1 Causales de despido disciplinario
 
+**Definición Canónica:** ——       Artículo 160 N° 1 CT. De acuerdo a esta norma, se autoriza
+                                                    el despido justificado en alguna de las siguientes conductas
+                                                    indebidas de carácter grave y debidamente comprobadas:
+**Concordancias Legales:** Artículo 160; artículo 2; artículo 154; Constitución Política
 
-                                           ——       Artículo 160 N° 1 CT. De acuerdo a esta norma, se autoriza
+——       Artículo 160 N° 1 CT. De acuerdo a esta norma, se autoriza
                                                     el despido justificado en alguna de las siguientes conductas
                                                     indebidas de carácter grave y debidamente comprobadas:
 
@@ -2095,10 +1940,16 @@ de letras del trabajo y                                                        d
 Curso habilitante Juez(a)                                                3. Suspensión y terminación                                            48
 de letras del trabajo y                                                      del contrato de trabajo
 
-
 ## 3.3.4.2 Necesidades de la empresa, establecimiento o
 
-                                                                           servicio
+**Definición Canónica:** servicio
+                                                                           Como es sabido, la ley no entrega una definición de “necesidades
+                                                                           de la empresa”, pero establece algunas circunstancias que facultan
+                                                                           al empleador para invocar dicha causal, a saber:
+                                                                           a. racionalización o modernización de la empresa
+                                                             
+
+servicio
                                                                            Como es sabido, la ley no entrega una definición de “necesidades
                                                                            de la empresa”, pero establece algunas circunstancias que facultan
                                                                            al empleador para invocar dicha causal, a saber:
@@ -2127,10 +1978,11 @@ de letras del trabajo y                                                      del
                                                                            deben ser objetivas, graves y permanentes. Los problemas económicos
                                                                            de la empresa no deben ser transitorios y subsanables”59.
 
-
 ## 3.3.4.3 Desahucio escrito del empleador
 
-                                                                           La ley faculta al empleador a utilizar esta causal únicamente:
+**Definición Canónica:** La ley faculta al empleador a utilizar esta causal únicamente:
+
+La ley faculta al empleador a utilizar esta causal únicamente:
 
                                          58   LANATA (2007), p. 233.
                                          59   CA Concepción, rol N° 264-2008, de 3 de noviembre de 2008.
@@ -2146,16 +1998,12 @@ de letras del trabajo y                      del contrato de trabajo
                                           c. tratándose de cargos o empleos de la exclusiva confianza del emplea-
                                              dor, cuyo carácter de tales emane de la naturaleza de los mismos.
 
-
-## 3.3.4.4 Caso fortuito o fuerza mayor
-
-                                          Para la aplicación estricta de la causal de terminación del contrato
-                                          de trabajo “caso fortuito o fuerza mayor” contenida en el artículo
-
-
 ## 159 Nº 6 del Código del Trabajo, con ocasión del terremoto que
 
-                                          sacudió a parte del país el 27 de febrero de 2010, debieron reunirse
+**Definición Canónica:** sacudió a parte del país el 27 de febrero de 2010, debieron reunirse
+                                          copulativamente los siguientes requisitos:
+
+sacudió a parte del país el 27 de febrero de 2010, debieron reunirse
                                           copulativamente los siguientes requisitos:
 
                                           a. que los daños ocurridos en las instalaciones de la empresa se
@@ -2170,10 +2018,17 @@ de letras del trabajo y                      del contrato de trabajo
                                              gaciones contractuales de la parte empleadora (dictamen DT
                                              N° 1.412/21, de 19.03.2010).
 
-
 ## 3.3.4.5 Por sometimiento a procedimiento concursal de
 
-                                          liquidación
+**Definición Canónica:** liquidación
+                                          De acuerdo al artículo 163 bis del Código del Trabajo, el contrato
+                                          de trabajo terminará en caso que el empleador fuere sometido a un
+                                          procedimiento concursal de liquidación, caso en el cual, para todos
+                                          los efectos legales, la fecha de término del contrato de trabajo será
+                                          la fecha de dictación de la resolución de liquidación.
+**Concordancias Legales:** artículo 163 bis del Código del Trabajo
+
+liquidación
                                           De acuerdo al artículo 163 bis del Código del Trabajo, el contrato
                                           de trabajo terminará en caso que el empleador fuere sometido a un
                                           procedimiento concursal de liquidación, caso en el cual, para todos
@@ -2183,14 +2038,17 @@ de letras del trabajo y                      del contrato de trabajo
 Curso habilitante Juez(a)                  3. Suspensión y terminación                                                  50
 de letras del trabajo y                        del contrato de trabajo
 
-
-## 3.4   Formalidades
-
-
-
 ## 3.4.1 Comunicación de terminación del contrato
 
-                                               Si el contrato de trabajo termina de acuerdo con los números 4, 5 o 6
+**Definición Canónica:** Si el contrato de trabajo termina de acuerdo con los números 4, 5 o 6
+                                               del artículo 159, o si el empleador le pusiere término por aplicación
+                                               de una o más de las causales señaladas en el artículo 160 del Código
+                                               del Trabajo, debe comunicarlo por escrito al trabajador, personalmente
+                                               o por carta certificada enviada al domicilio señalado en el contrato,
+                                               expresando la o
+**Concordancias Legales:** artículo 159; artículo 160 del Código; artículo 163 bis del Código del Trabajo; artículo 161 del Código del Trabajo
+
+Si el contrato de trabajo termina de acuerdo con los números 4, 5 o 6
                                                del artículo 159, o si el empleador le pusiere término por aplicación
                                                de una o más de las causales señaladas en el artículo 160 del Código
                                                del Trabajo, debe comunicarlo por escrito al trabajador, personalmente
@@ -2218,10 +2076,15 @@ de letras del trabajo y                        del contrato de trabajo
                                                trabajador una indemnización en dinero efectivo sustitutiva del aviso
                                                previo, equivalente a la última remuneración mensual devengada.
 
-
 ## 3.4.2 Acreditación de pago de
 
-                                               cotizaciones previsionales
+**Definición Canónica:** cotizaciones previsionales
+                                               Para proceder al despido de un trabajador por alguna de las causales
+                                               del artículo 159 Nos 4, 5 o 6, todas las del artículo 160 y las del artículo
+                                               161 del Código del Trabajo, el empleador deberá informarle por es-
+**Concordancias Legales:** artículo 159; artículo 160; artículo 161 del Código del Trabajo
+
+cotizaciones previsionales
                                                Para proceder al despido de un trabajador por alguna de las causales
                                                del artículo 159 Nos 4, 5 o 6, todas las del artículo 160 y las del artículo
                                                161 del Código del Trabajo, el empleador deberá informarle por es-
@@ -2233,23 +2096,26 @@ de letras del trabajo y                            del contrato de trabajo
                                                  hasta el último día del mes anterior al del despido, adjuntando los
                                                  comprobantes que lo justifiquen.
 
-
 ## 3.5     Indemnizaciones por término de contrato
 
-                                                 de trabajo. Recargos legales.
+**Definición Canónica:** de trabajo. Recargos legales.
+
+de trabajo. Recargos legales.
 
                                                  3.5.1 Indemnización por despido injustificado,
                                                  indebido o improcedente fundado en causal(es)
 
-
-## 3.5.1.1 Del artículo 159 del Código del Trabajo: la indemni-
-
-                                                 zación legal por años de servicio se aumentará en un 50%.
-
-
 ## 3.5.1.2 Del artículo 160 del Código del Trabajo: la indemni-
 
-                                                 zación legal por años de servicio se aumentará en un 80%. Como
+**Definición Canónica:** zación legal por años de servicio se aumentará en un 80%. Como
+                                                 excepción, no estará afecto a este incremento, aunque el despido
+                                                 sea declarado injusto, indebido o improcedente, en el caso de las
+                                                 denuncias de acoso sexual, el empleador que haya cumplido con
+                                                 su obligación en los términos que señalan el artículo 153 inciso
+                                                 segundo y el Título IV del Libro I
+**Concordancias Legales:** artículo 153; artículo 160
+
+zación legal por años de servicio se aumentará en un 80%. Como
                                                  excepción, no estará afecto a este incremento, aunque el despido
                                                  sea declarado injusto, indebido o improcedente, en el caso de las
                                                  denuncias de acoso sexual, el empleador que haya cumplido con
@@ -2261,18 +2127,24 @@ de letras del trabajo y                            del contrato de trabajo
                                                  100% en la medida que el juez hubiere declarado que el despido
                                                  carece de un motivo plausible.
 
-
 ## 3.5.1.4 Del artículo 161 del Código del Trabajo: la indemni-
 
-                                                 zación legal por años de servicio se aumentará en un 30%.
+**Definición Canónica:** zación legal por años de servicio se aumentará en un 30%.
+
+zación legal por años de servicio se aumentará en un 30%.
 
                                                  3.5.1.5 Si no se hubiere invocado causal alguna al despedir:
                                                  la indemnización legal por años de servicio se aumentará en un 50%.
 
-
 ## 3.5.1.6 En el caso de la causal del artículo 163 bis del Códi-
 
-                                                 go del Trabajo: si el contrato de trabajo hubiere estado vigente un
+**Definición Canónica:** go del Trabajo: si el contrato de trabajo hubiere estado vigente un
+                                                 año o más, el liquidador, en representación del deudor, deberá pagar
+                                                 al trabajador una indemnización por años de servicio equivalente a
+                                                 aquella que el empleador estaría obligado a pagar en caso que el con-
+**Concordancias Legales:** artículo 161 del Código del Trabajo. El monto de esta indemniz; artículo 163
+
+go del Trabajo: si el contrato de trabajo hubiere estado vigente un
                                                  año o más, el liquidador, en representación del deudor, deberá pagar
                                                  al trabajador una indemnización por años de servicio equivalente a
                                                  aquella que el empleador estaría obligado a pagar en caso que el con-
@@ -2285,10 +2157,17 @@ de letras del trabajo y                      del contrato de trabajo
                                            nará de conformidad a lo establecido en los incisos primero y segundo
                                            del artículo 163.
 
-
 ## 3.5.1.7 Según el artículo 163 inciso tercero del Código del
 
-                                           Trabajo: si el contrato celebrado para una obra o faena determinada
+**Definición Canónica:** Trabajo: si el contrato celebrado para una obra o faena determinada
+                                           hubiere estado vigente por un mes o más, el empleador podrá ponerle
+                                           término en forma justificada en tanto pague al trabajador, en el mo-
+                                           mento de su terminación, una indemnización equivalente a dos y me-
+                                           dio días de remuneración por cada mes trabajado y fracción superior a
+                                           quince días, en la forma y modalidad señala
+**Concordancias Legales:** artículo 23; artículo 172; artículo 13 de la Ley N; artículo 159; artículo 168; artículo 485 del Código del Trabajo; Ley N° 19.728
+
+Trabajo: si el contrato celebrado para una obra o faena determinada
                                            hubiere estado vigente por un mes o más, el empleador podrá ponerle
                                            término en forma justificada en tanto pague al trabajador, en el mo-
                                            mento de su terminación, una indemnización equivalente a dos y me-
@@ -2305,11 +2184,17 @@ de letras del trabajo y                      del contrato de trabajo
                                            inciso primero del artículo 168, sin perjuicio de las acciones señaladas
                                            en el artículo 485 del Código del Trabajo.
 
-
 ## 3.5.2 Indemnización por falta de aviso previo
 
+**Definición Canónica:** ——       Cuando el empleador invoque la causal señalada en el inciso
+                                                    primero del artículo 161 del Código del Trabajo, el aviso de-
+                                                    berá darse al trabajador, con copia a la Inspección del Trabajo
+                                                    respectiva, a lo menos con treinta días de anticipación, salvo
+                                                    que el empleador pagare al trabajador una indemnización en
+                                                    dinero efectivo sustitu
+**Concordancias Legales:** artículo 161 del Código del Trabajo; artículos 159; artículo 163 bis de Código del Trabajo
 
-                                           ——       Cuando el empleador invoque la causal señalada en el inciso
+——       Cuando el empleador invoque la causal señalada en el inciso
                                                     primero del artículo 161 del Código del Trabajo, el aviso de-
                                                     berá darse al trabajador, con copia a la Inspección del Trabajo
                                                     respectiva, a lo menos con treinta días de anticipación, salvo
@@ -2334,10 +2219,12 @@ de letras del trabajo y                            del contrato de trabajo
                                                           últimas dos o, en defecto de lo anterior, el monto a indemni-
                                                           zar equivaldrá a la última remuneración mensual devengada.
 
-
 ## 3.6     Plazo para
 
-                                                 demandar
+**Definición Canónica:** demandar
+**Concordancias Legales:** artículos 159
+
+demandar
 
                                                  El trabajador cuyo contrato termine por aplicación de una o más de
                                                  las causales establecidas en los artículos 159, 160 y 161 del Código
@@ -2352,10 +2239,13 @@ de letras del trabajo y                            del contrato de trabajo
                                                  caso podrá recurrirse al tribunal, transcurridos noventa días hábiles
                                                  desde la separación del trabajador.
 
-
 ## 3.7     Sanción del despido con incumplimiento
 
-                                                 de las obligaciones previsionales. Alcance
+**Definición Canónica:** de las obligaciones previsionales. Alcance
+                                                 de la sanción frente a relación laboral
+                                                 declarada sólo en la sentencia judicial.
+
+de las obligaciones previsionales. Alcance
                                                  de la sanción frente a relación laboral
                                                  declarada sólo en la sentencia judicial.
 
@@ -2390,19 +2280,23 @@ de letras del trabajo y                      del contrato de trabajo
 Curso habilitante Juez(a)                      4. Sindicatos y la negociación                                          56
 de letras del trabajo y                            colectiva en el Código del Trabajo
 
-
 ## 4.1     Libertad sindical. Normas legales internacionales
 
-                                                 y nacionales que la establecen. Alcance.
+**Definición Canónica:** y nacionales que la establecen. Alcance.
+
+y nacionales que la establecen. Alcance.
 
                                                  La libertad sindical se encuentra reconocida en diversas normas in-
                                                  ternacionales del trabajo, las que pasamos a referir en los siguientes
                                                  párrafos.
 
-
 ## 4.1.1 Pacto Internacional de Derechos
 
-                                                 Económicos, Sociales y Culturales
+**Definición Canónica:** Económicos, Sociales y Culturales
+                                                      Su artículo 8 dispone:
+**Concordancias Legales:** artículo 8
+
+Económicos, Sociales y Culturales
                                                       Su artículo 8 dispone:
 
                                                       “1. Los Estados Partes en el presente Pacto se comprometen a
@@ -2430,24 +2324,36 @@ de letras del trabajo y                            colectiva en el Código del T
 
 ## 2. El presente artículo no impedirá someter a restricciones legales
 
-                                                         el ejercicio de tales derechos por los miembros de las fuerzas
+**Definición Canónica:** el ejercicio de tales derechos por los miembros de las fuerzas
+                                                         armadas, de la policía o de la administración del Estado.
+
+el ejercicio de tales derechos por los miembros de las fuerzas
                                                          armadas, de la policía o de la administración del Estado.
 
 Curso habilitante Juez(a)                4. Sindicatos y la negociación                                           57
 
-
 ## 3. Nada de lo dispuesto en este artículo autorizará a los Estados
 
-                                                   Partes en el Convenio de la Organización Internacional del
+**Definición Canónica:** Partes en el Convenio de la Organización Internacional del
                                                    Trabajo de 1948 relativo a la libertad sindical y a la protección
                                                    del derecho de sindicación a adoptar medidas legislativas que
                                                    menoscaben las garantías previstas en dicho Convenio o a
                                                    aplicar la ley en forma que menoscabe dichas garantías”.
 
+Partes en el Convenio de la Organización Internacional del
+                                                   Trabajo de 1948 relativo a la libertad sindical y a la protección
+                                                   del derecho de sindicación a adoptar medidas legislativas que
+                                                   menoscaben las garantías previstas en dicho Convenio o a
+                                                   aplicar la ley en forma que menoscabe dichas garantías”.
 
 ## 4.1.2 Pacto Internacional de Derechos Civiles y Políticos
 
-                                                Su artículo 22 dispone:
+**Definición Canónica:** Su artículo 22 dispone:
+                                                “1. Toda persona tiene derecho a asociarse libremente con otras,
+                                                    incluso el derecho a fundar sindicatos y afiliarse a ellos para
+**Concordancias Legales:** artículo 22
+
+Su artículo 22 dispone:
                                                 “1. Toda persona tiene derecho a asociarse libremente con otras,
                                                     incluso el derecho a fundar sindicatos y afiliarse a ellos para
 
@@ -2455,7 +2361,14 @@ de letras del trabajo y                            colectiva en el Código del T
 
 ## 5. El ejercicio de tal derecho sólo podrá estar sujeto a las res-
 
-                                                   tricciones previstas por la ley que sean necesarias en una
+**Definición Canónica:** tricciones previstas por la ley que sean necesarias en una
+                                                   sociedad democrática, en interés de la seguridad nacional,
+                                                   de la seguridad pública o del orden público, o para proteger
+                                                   la salud o la moral públicas o los derechos y libertades de
+                                                   los demás. El presente artículo no impedirá la imposición
+                                                   de restricciones legales al ejercicio de tal der
+
+tricciones previstas por la ley que sean necesarias en una
                                                    sociedad democrática, en interés de la seguridad nacional,
                                                    de la seguridad pública o del orden público, o para proteger
                                                    la salud o la moral públicas o los derechos y libertades de
@@ -2465,16 +2378,28 @@ de letras del trabajo y                            colectiva en el Código del T
 
 ## 6. Ninguna disposición de este artículo autoriza a los Estados
 
-                                                   Partes en el Convenio de la Organización Internacional del
+**Definición Canónica:** Partes en el Convenio de la Organización Internacional del
                                                    Trabajo de 1948, relativo a la libertad sindical y a la protección
                                                    del derecho de sindicación, a adoptar medidas legislativas que
                                                    puedan menoscabar las garantías previstas en él ni a aplicar
                                                    la ley de tal manera que pueda menoscabar esas garantías”.
 
+Partes en el Convenio de la Organización Internacional del
+                                                   Trabajo de 1948, relativo a la libertad sindical y a la protección
+                                                   del derecho de sindicación, a adoptar medidas legislativas que
+                                                   puedan menoscabar las garantías previstas en él ni a aplicar
+                                                   la ley de tal manera que pueda menoscabar esas garantías”.
 
 ## 4.1.3 Convención Americana de Derechos
 
-                                           Humanos (Pacto de San José de Costa Rica)
+**Definición Canónica:** Humanos (Pacto de San José de Costa Rica)
+                                                Su artículo 16 dispone, sobre la libertad de asociación:
+                                                “1. Todas las personas tienen derecho a asociarse libremente con
+                                                    fines ideológicos, religiosos, políticos, económicos, laborales,
+                                                    sociales, culturales, deportivos o de cualquiera otra índole.
+**Concordancias Legales:** artículo 16
+
+Humanos (Pacto de San José de Costa Rica)
                                                 Su artículo 16 dispone, sobre la libertad de asociación:
                                                 “1. Todas las personas tienen derecho a asociarse libremente con
                                                     fines ideológicos, religiosos, políticos, económicos, laborales,
@@ -2483,25 +2408,35 @@ de letras del trabajo y                            colectiva en el Código del T
 Curso habilitante Juez(a)                  4. Sindicatos y la negociación                                          58
 de letras del trabajo y                        colectiva en el Código del Trabajo
 
-
 ## 2. El ejercicio de tal derecho sólo puede estar sujeto a las res-
 
-                                                      tricciones previstas por la ley que sean necesarias en una
+**Definición Canónica:** tricciones previstas por la ley que sean necesarias en una
+                                                      sociedad democrática, en interés de la seguridad nacional,
+                                                      de la seguridad o del orden públicos, o para proteger la salud
+                                                      o la moral públicas o los derechos y libertades de los demás.
+
+tricciones previstas por la ley que sean necesarias en una
                                                       sociedad democrática, en interés de la seguridad nacional,
                                                       de la seguridad o del orden públicos, o para proteger la salud
                                                       o la moral públicas o los derechos y libertades de los demás.
 
 ## 3. Lo dispuesto en este artículo no impide la imposición de
 
-                                                      restricciones legales, y aun la privación del ejercicio del de-
+**Definición Canónica:** restricciones legales, y aun la privación del ejercicio del de-
                                                       recho de asociación, a los miembros de las fuerzas armadas
                                                       y de la policía”.
 
+restricciones legales, y aun la privación del ejercicio del de-
+                                                      recho de asociación, a los miembros de las fuerzas armadas
+                                                      y de la policía”.
 
 ## 4.1.4 Declaración Americana de los Derechos
 
+**Definición Canónica:** y Deberes del Hombre, de 1948
+                                                  En su artículo 22, dispone:
+**Concordancias Legales:** artículo 22
 
-                                               y Deberes del Hombre, de 1948
+y Deberes del Hombre, de 1948
                                                   En su artículo 22, dispone:
 
                                                   “Toda persona tiene el derecho de asociarse con otras para pro-
@@ -2509,33 +2444,38 @@ de letras del trabajo y                        colectiva en el Código del Traba
                                                   económico, religioso, social, cultural, profesional, sindical o de
                                                   cualquier otro orden”.
 
-
 ## 4.1.5 Declaración Universal de los
 
-                                               Derechos Humanos, de 1948
+**Definición Canónica:** Derechos Humanos, de 1948
+                                                  Su artículo 23.4 dispone:
+                                                   “4. Toda persona tiene derecho a fundar sindicatos y a sindicarse
+                                                       para la defensa de sus intereses”.
+**Concordancias Legales:** artículo 23.4
+
+Derechos Humanos, de 1948
                                                   Su artículo 23.4 dispone:
                                                    “4. Toda persona tiene derecho a fundar sindicatos y a sindicarse
                                                        para la defensa de sus intereses”.
 
-
-## 4.2   Las prácticas
-
-                                               antisindicales
-
-
 ## 4.2.1 Definición
 
-                                               Las prácticas antisindicales son una o más conductas que, por vía
+**Definición Canónica:** Las prácticas antisindicales son una o más conductas que, por vía
+                                               de acción o de omisión, lesionan la libertad sindical, afectando a los
+                                               titulares de este derecho en el ejercicio del mismo.
+
+Las prácticas antisindicales son una o más conductas que, por vía
                                                de acción o de omisión, lesionan la libertad sindical, afectando a los
                                                titulares de este derecho en el ejercicio del mismo.
 
 Curso habilitante Juez(a)                4. Sindicatos y la negociación                                          59
 
-
 ## 4.2.2 Elementos
 
+**Definición Canónica:** a. Acción u omisión.
+                                           b. Unidad o pluralidad de acciones u omisiones, y que se afecte la
+                                              libertad sindical.
 
-                                           a. Acción u omisión.
+a. Acción u omisión.
                                            b. Unidad o pluralidad de acciones u omisiones, y que se afecte la
                                               libertad sindical.
 
@@ -2543,45 +2483,53 @@ de letras del trabajo y                        colectiva en el Código del Traba
                                            elementos como el elemento subjetivo de la conducta, su carácter
                                            reiterado, la gravedad de las mismas o su carácter permanente.
 
-
 ## 4.2.3 Sujetos activos de las prácticas antisindicales
 
-                                           Son estos el empleador; el trabajador individualmente considerado;
+**Definición Canónica:** Son estos el empleador; el trabajador individualmente considerado;
+
+Son estos el empleador; el trabajador individualmente considerado;
 
                                            la organización sindical, y un sujeto activo amplio que refiere el ar-
                                            tículo 291 del Código del Trabajo.
 
-
 ## 4.2.4 Sujetos pasivos de las prácticas antisindicales
 
-                                           Son estos los trabajadores; los socios de un sindicato (aunque no
+**Definición Canónica:** Son estos los trabajadores; los socios de un sindicato (aunque no
+                                           tengan la calidad de trabajadores); los sindicatos; los dirigentes sindi-
+                                           cales; excepcionalmente, se extiende también al comité paritario de
+                                           higiene y seguridad y sus integrantes, y lo propio sucede respecto del
+                                           empleador en dos casos específicos contenidos en el artículo 290 CT.
+**Concordancias Legales:** artículo 290
+
+Son estos los trabajadores; los socios de un sindicato (aunque no
                                            tengan la calidad de trabajadores); los sindicatos; los dirigentes sindi-
                                            cales; excepcionalmente, se extiende también al comité paritario de
                                            higiene y seguridad y sus integrantes, y lo propio sucede respecto del
                                            empleador en dos casos específicos contenidos en el artículo 290 CT.
 
-
-## 4.2.5 Titulares de la acción por prácticas antisindicales
-
-
 ## 4.2.5.1 De acuerdo a lo dispuesto en el artículo 486 inciso
 
-                                           primero del CT: cualquier trabajador u organización sindical que,
+**Definición Canónica:** primero del CT: cualquier trabajador u organización sindical que,
                                            invocando un derecho o interés legítimo, considere lesionada la
                                            libertad sindical en el ámbito de las relaciones jurídicas cuyo conoci-
                                            miento corresponde a los tribunales con competencia laboral, podrá
                                            requerir su protección por la vía de tutela de derechos fundamentales.
 
-
-## 4.2.5.2 Tratándose de la Inspección del Trabajo: esta tiene
-
-                                           la obligación de denunciar al tribunal competente los hechos que
-                                           estime constitutivos de prácticas antisindicales.
-
+primero del CT: cualquier trabajador u organización sindical que,
+                                           invocando un derecho o interés legítimo, considere lesionada la
+                                           libertad sindical en el ámbito de las relaciones jurídicas cuyo conoci-
+                                           miento corresponde a los tribunales con competencia laboral, podrá
+                                           requerir su protección por la vía de tutela de derechos fundamentales.
 
 ## 4.2.6 Conductas sancionadas por la
 
-                                           ley por prácticas antisindicales
+**Definición Canónica:** ley por prácticas antisindicales
+                                           Artículo 289 CT. Serán consideradas prácticas “antisindicales” del
+                                           empleador las acciones que atenten contra la libertad sindical, “en-
+                                           tendiéndose por tales, entre otras, las siguientes”:
+**Concordancias Legales:** Artículo 289; artículos 315; artículo 174; artículo 322; Artículo 290; Artículo 291; Artículo 292; artículo 506; artículos 221; artículo 71; constitución
+
+ley por prácticas antisindicales
                                            Artículo 289 CT. Serán consideradas prácticas “antisindicales” del
                                            empleador las acciones que atenten contra la libertad sindical, “en-
                                            tendiéndose por tales, entre otras, las siguientes”:
@@ -2739,10 +2687,17 @@ de letras del trabajo y                                               colectiva 
                                            adeudadas, aplicándose a este respecto la forma de establecer las
                                            remuneraciones a que se refiere el artículo 71 del mismo CT.
 
-
 ## 4.2.7 El despido antisindical
 
-                                           Artículo 294 CT. Si el despido o el término de la relación laboral de
+**Definición Canónica:** Artículo 294 CT. Si el despido o el término de la relación laboral de
+                                           trabajadores no amparados por fuero laboral se realiza “en represalia
+                                           de su afiliación sindical, participación en actividades sindicales o ne-
+                                           gociación colectiva”, el despido o el término de la relación laboral no
+                                           producirá efecto alguno, aplicándose el artículo 489, con excepción
+                                           de lo dispuesto en sus incisos t
+**Concordancias Legales:** Artículo 294; artículo 489
+
+Artículo 294 CT. Si el despido o el término de la relación laboral de
                                            trabajadores no amparados por fuero laboral se realiza “en represalia
                                            de su afiliación sindical, participación en actividades sindicales o ne-
                                            gociación colectiva”, el despido o el término de la relación laboral no
@@ -2751,31 +2706,46 @@ de letras del trabajo y                                               colectiva 
 
 Curso habilitante Juez(a)                4. Sindicatos y la negociación                                        64
 
-
 ## 4.2.8 Registro de la sanción por prácticas antisindicales
 
-                                           Artículo 294 bis CT. La Dirección del Trabajo deberá llevar un re-
+**Definición Canónica:** Artículo 294 bis CT. La Dirección del Trabajo deberá llevar un re-
+                                           gistro de las sentencias condenatorias por prácticas antisindicales o
+                                           desleales, debiendo publicar semestralmente la nómina de empresas
+                                           y organizaciones sindicales infractoras. Para este efecto, el tribunal
+                                           enviará a la Dirección del Trabajo copia de los fallos respectivos.
+**Concordancias Legales:** Artículo 294 bis
+
+Artículo 294 bis CT. La Dirección del Trabajo deberá llevar un re-
                                            gistro de las sentencias condenatorias por prácticas antisindicales o
                                            desleales, debiendo publicar semestralmente la nómina de empresas
                                            y organizaciones sindicales infractoras. Para este efecto, el tribunal
                                            enviará a la Dirección del Trabajo copia de los fallos respectivos.
 
-
-## 4.2.9 Denuncia judicial por prácticas antisindicales
-
-
 ## 4.2.9.1 Plazo de interposición: “La denuncia a que se refieren
 
-                                           los incisos anteriores deberá interponerse dentro de sesenta días
+**Definición Canónica:** los incisos anteriores deberá interponerse dentro de sesenta días
+                                           contados desde que se produzca la vulneración de derechos fun-
+                                           damentales alegada. Este plazo se suspenderá en la forma a que se
+**Concordancias Legales:** artículo 168; artículo 486
+
+los incisos anteriores deberá interponerse dentro de sesenta días
                                            contados desde que se produzca la vulneración de derechos fun-
                                            damentales alegada. Este plazo se suspenderá en la forma a que se
 
                                            refiere el artículo 168” (artículo 486 CT).
 
-
 ## 4.2.9.2 Contenido de la sentencia: según el artículo 495 del Có-
 
-                                           digo del Trabajo, la sentencia deberá contener, en su parte resolutiva:
+**Definición Canónica:** digo del Trabajo, la sentencia deberá contener, en su parte resolutiva:
+                                           ——       La declaración de existencia o no de la lesión de derechos
+                                                    fundamentales denunciada.
+                                           ——       En caso afirmativo, deberá ordenar, de persistir el compor-
+                                                    tamiento antijurídico a la fecha de dictación del fallo, su
+                                                    cese inmediato, bajo el apercibimiento señalado en el inciso
+  
+**Concordancias Legales:** artículo 492
+
+digo del Trabajo, la sentencia deberá contener, en su parte resolutiva:
                                            ——       La declaración de existencia o no de la lesión de derechos
                                                     fundamentales denunciada.
                                            ——       En caso afirmativo, deberá ordenar, de persistir el compor-
@@ -2801,42 +2771,46 @@ de letras del trabajo y                                               colectiva 
 Curso habilitante Juez(a)                                             4. Sindicatos y la negociación                                      65
 de letras del trabajo y                                                   colectiva en el Código del Trabajo
 
-
 ## 4.3              Concepto de
 
-                                                                             negociación colectiva
+**Definición Canónica:** negociación colectiva
+
+negociación colectiva
 
                                                                         La negociación colectiva (NC) se concibe en los instrumentos de la
                                                                         Organización Internacional del Trabajo (OIT) como la actividad o
                                                                         proceso encaminado a la conclusión de un acuerdo colectivo.60
 
-
-## 4.4.             Ámbito de aplicación, sujetos, materias
-
-
-                                                                             de negociación, estructura y niveles
-
-
 ## 4.4.1 Modalidades
 
-                                                                        Negociación colectiva reglada; negociación colectiva no reglada y
+**Definición Canónica:** Negociación colectiva reglada; negociación colectiva no reglada y
                                                                         negociación colectiva especial de trabajadores con contrato por obra
                                                                         o faena transitoria o de temporada.
 
-
-## 4.4.2 Limitaciones al ejercicio
-
+Negociación colectiva reglada; negociación colectiva no reglada y
+                                                                        negociación colectiva especial de trabajadores con contrato por obra
+                                                                        o faena transitoria o de temporada.
 
 ## 4.4.2.1 No existirá NC en las empresas del Estado dependientes del
 
-                                                                        Ministerio de Defensa Nacional o que se relacionen con el Gobierno
+**Definición Canónica:** Ministerio de Defensa Nacional o que se relacionen con el Gobierno
                                                                         a través de dicho ministerio y en aquellas en que leyes especiales la
                                                                         prohíban.
 
+Ministerio de Defensa Nacional o que se relacionen con el Gobierno
+                                                                        a través de dicho ministerio y en aquellas en que leyes especiales la
+                                                                        prohíban.
 
 ## 4.4.2.2 Tampoco podrá existir NC en las empresas o instituciones
 
-                                                                        públicas o privadas cuyos presupuestos, en cualquiera de los dos
+**Definición Canónica:** públicas o privadas cuyos presupuestos, en cualquiera de los dos
+                                                                        últimos años calendario, hayan sido financiados en más del 50%
+                                                                        por el Estado, directamente o a través de derechos o impuestos. Ex-
+                                                                        cepción: la prohibición recién señalada no tendrá lugar respecto de
+                                                                        los establecimientos educacionales particulares 
+**Concordancias Legales:** ley N° 3.476; ley N° 3.166
+
+públicas o privadas cuyos presupuestos, en cualquiera de los dos
                                                                         últimos años calendario, hayan sido financiados en más del 50%
                                                                         por el Estado, directamente o a través de derechos o impuestos. Ex-
                                                                         cepción: la prohibición recién señalada no tendrá lugar respecto de
@@ -2849,10 +2823,17 @@ de letras del trabajo y                                                   colect
 
 Curso habilitante Juez(a)                4. Sindicatos y la negociación                                         66
 
-
 ## 4.4.2.3 Sobre los trabajadores impedidos de ejercer el derecho a
 
-                                           negociar colectivamente la forma y reclamo de esta condición, el
+**Definición Canónica:** negociar colectivamente la forma y reclamo de esta condición, el
+                                           CT dispone que no podrán negociar colectivamente aquellos “tra-
+                                           bajadores que tengan facultades de representación del empleador y
+                                           que estén dotados de facultades generales de administración”, tales
+                                           como gerentes y subgerentes. En la micro y pequeña empresa esta
+                                           prohibición se aplicará también al “personal de confianza”
+**Concordancias Legales:** artículo 305
+
+negociar colectivamente la forma y reclamo de esta condición, el
                                            CT dispone que no podrán negociar colectivamente aquellos “tra-
                                            bajadores que tengan facultades de representación del empleador y
                                            que estén dotados de facultades generales de administración”, tales
@@ -2867,45 +2848,51 @@ de letras del trabajo y                                                   colect
                                            bilitado para negociar colectivamente (artículo 305 incisos primero
                                            y segundo CT).
 
-
-## 4.4.2.4 Las micro, pequeñas y medianas empresas podrán excusarse
-
-                                           de negociar colectivamente con los trabajadores sujetos a contrato
-                                           de aprendizaje (artículo 305 CT).
-
-
-## 4.4.2.5 Ningún trabajador podrá estar afecto a más de un contrato
-
-                                           colectivo de trabajo celebrado con el mismo empleador, de confor-
-                                           midad a las normas de este Código (artículo 307 CT).
-
-
 ## 4.4.2.6 Sobre el plazo mínimo para negociar colectivamente en una
 
-                                           micro y pequeña empresa, en una mediana empresa o en una gran
+**Definición Canónica:** micro y pequeña empresa, en una mediana empresa o en una gran
+                                           empresa, se requerirá que hayan transcurrido “a lo menos, dieciocho,
+                                           doce y seis meses”, respectivamente, desde el inicio de sus actividades
+                                           (artículo 308 CT).
+**Concordancias Legales:** artículo 308
+
+micro y pequeña empresa, en una mediana empresa o en una gran
                                            empresa, se requerirá que hayan transcurrido “a lo menos, dieciocho,
                                            doce y seis meses”, respectivamente, desde el inicio de sus actividades
                                            (artículo 308 CT).
 
-
 ## 4.4.2.7 Las empresas en que no exista un instrumento colectivo
 
-                                           vigente podrán fijar un período, de hasta sesenta días al año, durante
+**Definición Canónica:** vigente podrán fijar un período, de hasta sesenta días al año, durante
+                                           el cual no será posible iniciar un proceso de negociación colectiva
+                                           (artículo 332 CT).
+**Concordancias Legales:** artículo 332
+
+vigente podrán fijar un período, de hasta sesenta días al año, durante
                                            el cual no será posible iniciar un proceso de negociación colectiva
                                            (artículo 332 CT).
 
-
 ## 4.4.3 Las partes de la negociación
 
-                                           Las partes de una negociación colectiva son uno o más empleadores
+**Definición Canónica:** Las partes de una negociación colectiva son uno o más empleadores
+                                           y uno o más sindicatos.
+
+Las partes de una negociación colectiva son uno o más empleadores
                                            y uno o más sindicatos.
 
 Curso habilitante Juez(a)                4. Sindicatos y la negociación                                          67
 
-
 ## 4.4.4 Contenido de la negociación
 
-                                           Las negociaciones colectivas podrán incluir: acuerdos para la conci-
+**Definición Canónica:** Las negociaciones colectivas podrán incluir: acuerdos para la conci-
+                                           liación del trabajo con las responsabilidades familiares; el ejercicio de
+                                           la corresponsabilidad parental; planes de igualdad de oportunidades
+                                           y equidad de género en la empresa; acciones positivas para corregir
+                                           situaciones de desigualdad; acuerdos para la capacitación y reconver-
+                                           sión productiva de los trabajadores;
+**Concordancias Legales:** artículo 306; constitución
+
+Las negociaciones colectivas podrán incluir: acuerdos para la conci-
                                            liación del trabajo con las responsabilidades familiares; el ejercicio de
                                            la corresponsabilidad parental; planes de igualdad de oportunidades
                                            y equidad de género en la empresa; acciones positivas para corregir
@@ -2919,10 +2906,17 @@ de letras del trabajo y                                                   colect
 
                                            administrar la empresa y aquellas ajenas a la misma (artículo 306 CT).
 
-
 ## 4.4.5 Fuero de negociación colectiva reglada
 
-                                           Los trabajadores afiliados a la organización sindical involucrada en
+**Definición Canónica:** Los trabajadores afiliados a la organización sindical involucrada en
+                                           una negociación colectiva reglada, gozarán del fuero establecido en
+                                           la legislación vigente desde los diez días anteriores a la presentación
+                                           de un proyecto de contrato colectivo hasta treinta días después de la
+                                           suscripción de este último, o de la fecha de notificación a las partes
+                                           del fallo arbitral que se hubiere d
+**Concordancias Legales:** artículo 309
+
+Los trabajadores afiliados a la organización sindical involucrada en
                                            una negociación colectiva reglada, gozarán del fuero establecido en
                                            la legislación vigente desde los diez días anteriores a la presentación
                                            de un proyecto de contrato colectivo hasta treinta días después de la
@@ -2939,10 +2933,17 @@ de letras del trabajo y                                                   colect
                                            obra o faena, cuando dicho plazo, obra o faena expirare dentro del
                                            período a que se refieren los incisos anteriores (artículo 309 CT).
 
-
 ## 4.4.6 Relación y efectos del instrumento colectivo
 
-                                           con el contrato individual de trabajo y forma
+**Definición Canónica:** con el contrato individual de trabajo y forma
+                                           de modificación del instrumento colectivo
+                                           Las estipulaciones de un contrato individual de trabajo no podrán
+                                           significar disminución de las remuneraciones, beneficios y derechos
+                                           que correspondan al trabajador por aplicación del instrumento co-
+                                           lectivo por el que esté regido (artículo 311 CT).
+**Concordancias Legales:** artículo 311
+
+con el contrato individual de trabajo y forma
                                            de modificación del instrumento colectivo
                                            Las estipulaciones de un contrato individual de trabajo no podrán
                                            significar disminución de las remuneraciones, beneficios y derechos
@@ -2959,10 +2960,14 @@ de letras del trabajo y                                                   colect
                                            modificarse mediante acuerdo entre el empleador y la o las organi-
                                            zaciones sindicales que lo hubieren suscrito (artículo 311 CT).
 
-
 ## 4.4.7 Instrumento colectivo
 
-                                           Es la convención celebrada entre empleadores y trabajadores con
+**Definición Canónica:** Es la convención celebrada entre empleadores y trabajadores con
+                                           el objeto de establecer condiciones comunes de trabajo y remune-
+                                           raciones u otros beneficios en especie o en dinero, por un tiempo
+**Concordancias Legales:** artículos 385; artículo 320
+
+Es la convención celebrada entre empleadores y trabajadores con
                                            el objeto de establecer condiciones comunes de trabajo y remune-
                                            raciones u otros beneficios en especie o en dinero, por un tiempo
 
@@ -2975,10 +2980,18 @@ de letras del trabajo y                                                   colect
                                            en la Inspección del Trabajo dentro de los cinco días siguientes a su
                                            suscripción (artículo 320 CT).
 
-
 ## 4.4.8 Aplicación de las estipulaciones
 
-                                           de un instrumento colectivo
+**Definición Canónica:** de un instrumento colectivo
+                                           La comunicación al empleador deberá realizarse por escrito al co-
+                                           rreo electrónico designado por este y enviarse copia de la misma a
+                                           la Inspección del Trabajo. Las partes de un instrumento colectivo
+                                           podrán acordar la aplicación general o parcial de sus estipulaciones a
+                                           todos o parte de los trabajadores de la empresa o establecimiento de
+                  
+**Concordancias Legales:** artículo 322
+
+de un instrumento colectivo
                                            La comunicación al empleador deberá realizarse por escrito al co-
                                            rreo electrónico designado por este y enviarse copia de la misma a
                                            la Inspección del Trabajo. Las partes de un instrumento colectivo
@@ -3001,10 +3014,17 @@ de letras del trabajo y                                                   colect
                                            su respuesta al proyecto de contrato colectivo (artículo 322 incisos
                                            tercero y cuarto CT).
 
-
 ## 4.4.9 Instrumento colectivo y afiliación sindical
 
-                                           El trabajador podrá afiliarse y desafiliarse libremente de cualquier
+**Definición Canónica:** El trabajador podrá afiliarse y desafiliarse libremente de cualquier
+                                           sindicato. No obstante el cambio de afiliación sindical o desafiliación,
+                                           el trabajador se mantendrá afecto al instrumento colectivo negociado
+                                           por el sindicato al que pertenecía y que estuviere vigente, debiendo
+                                           pagar el total de la cuota mensual ordinaria de ese sindicato durante
+                                           toda la vigencia de dicho instrumen
+**Concordancias Legales:** artículo 323
+
+El trabajador podrá afiliarse y desafiliarse libremente de cualquier
                                            sindicato. No obstante el cambio de afiliación sindical o desafiliación,
                                            el trabajador se mantendrá afecto al instrumento colectivo negociado
                                            por el sindicato al que pertenecía y que estuviere vigente, debiendo
@@ -3015,10 +3035,15 @@ de letras del trabajo y                                                   colect
                                            do, el trabajador pasará a estar afecto al instrumento colectivo del
                                            sindicato al que se hubiere afiliado, de existir este (artículo 323 CT).
 
-
 ## 4.4.10 Duración y vigencia de los
 
-                                           instrumentos colectivos
+**Definición Canónica:** instrumentos colectivos
+                                           Los contratos colectivos, los acuerdos de grupo negociador y los fallos
+                                           arbitrales tendrán una duración no inferior a dos años ni superior
+                                           a tres.
+**Concordancias Legales:** artículo 324; constitución
+
+instrumentos colectivos
                                            Los contratos colectivos, los acuerdos de grupo negociador y los fallos
                                            arbitrales tendrán una duración no inferior a dos años ni superior
                                            a tres.
@@ -3045,10 +3070,17 @@ de letras del trabajo y                                                   colect
                                            las partes definan, pero en ningún caso podrá ser superior a tres años
                                            (artículo 324, incisos tercero 3 y cuarto CT).
 
-
 ## 4.4.11 Ultraactividad del instrumento colectivo
 
-                                           Extinguido el instrumento colectivo, sus cláusulas subsistirán como
+**Definición Canónica:** Extinguido el instrumento colectivo, sus cláusulas subsistirán como
+                                           integrantes de los contratos individuales de los respectivos trabajado-
+                                           res afectos, salvo las que se refieren a la reajustabilidad pactada tanto
+                                           de las remuneraciones como de los demás beneficios convenidos
+                                           en dinero, los incrementos reales pactados, así como los derechos y
+                                           obligaciones que sólo pueden ejercerse o 
+**Concordancias Legales:** artículo 325
+
+Extinguido el instrumento colectivo, sus cláusulas subsistirán como
                                            integrantes de los contratos individuales de los respectivos trabajado-
                                            res afectos, salvo las que se refieren a la reajustabilidad pactada tanto
                                            de las remuneraciones como de los demás beneficios convenidos
@@ -3056,20 +3088,34 @@ de letras del trabajo y                                                   colect
                                            obligaciones que sólo pueden ejercerse o cumplirse colectivamente y
                                            los pactos sobre condiciones especiales de trabajo (artículo 325 CT).
 
-
 ## 4.4.12 Incumplimiento del instrumento
 
-                                           del contrato colectivo
+**Definición Canónica:** del contrato colectivo
+                                           El incumplimiento de las estipulaciones contenidas en los instru-
+                                           mentos colectivos será sancionado por la Inspección del Trabajo, de
+                                           conformidad al artículo 506 CT. La aplicación, cobro y reclamo de
+                                           esta multa se efectuará con arreglo a las disposiciones de los artículos
+                                           503 y ss. CT (artículo 326 CT).
+**Concordancias Legales:** artículo 506; artículos 503; artículo 326
+
+del contrato colectivo
                                            El incumplimiento de las estipulaciones contenidas en los instru-
                                            mentos colectivos será sancionado por la Inspección del Trabajo, de
                                            conformidad al artículo 506 CT. La aplicación, cobro y reclamo de
                                            esta multa se efectuará con arreglo a las disposiciones de los artículos
                                            503 y ss. CT (artículo 326 CT).
 
-
 ## 4.4.13 Mérito ejecutivo
 
-                                           Las copias originales de los instrumentos colectivos, así como las
+**Definición Canónica:** Las copias originales de los instrumentos colectivos, así como las
+                                           copias auténticas de dichos instrumentos autorizadas por la Ins-
+                                           pección del Trabajo, respecto de aquellas cláusulas que contengan
+                                           obligaciones líquidas y actualmente exigibles, tendrán mérito ejecutivo
+                                           y los juzgados de Cobranza Laboral y Previsional conocerán de estas
+                                           ejecuciones conforme al procedimiento señalado 
+**Concordancias Legales:** artículos 463; artículo 326
+
+Las copias originales de los instrumentos colectivos, así como las
                                            copias auténticas de dichos instrumentos autorizadas por la Ins-
                                            pección del Trabajo, respecto de aquellas cláusulas que contengan
                                            obligaciones líquidas y actualmente exigibles, tendrán mérito ejecutivo
@@ -3080,22 +3126,24 @@ de letras del trabajo y                                                   colect
 Curso habilitante Juez(a)                  4. Sindicatos y la negociación                                             71
 de letras del trabajo y                        colectiva en el Código del Trabajo
 
-
-## 4.5   Procedimiento de negociación
-
-                                               colectiva reglada
-
-
 ## 4.5.1 Inicio
 
-                                               La negociación colectiva se inicia con la presentación del proyecto
+**Definición Canónica:** La negociación colectiva se inicia con la presentación del proyecto
+                                               de contrato colectivo por parte del o los sindicatos al empleador
+                                               (artículo 327 CT).
+**Concordancias Legales:** artículo 327
+
+La negociación colectiva se inicia con la presentación del proyecto
                                                de contrato colectivo por parte del o los sindicatos al empleador
                                                (artículo 327 CT).
 
-
 ## 4.5.2 Contenido del proyecto
 
-                                               En la presentación del proyecto de contrato colectivo se deberán ex-
+**Definición Canónica:** En la presentación del proyecto de contrato colectivo se deberán ex-
+                                               plicitar, a lo menos, las cláusulas que se proponen, la vigencia ofrecida,
+**Concordancias Legales:** artículo 328
+
+En la presentación del proyecto de contrato colectivo se deberán ex-
                                                plicitar, a lo menos, las cláusulas que se proponen, la vigencia ofrecida,
 
                                                la comisión negociadora sindical y el domicilio físico y electrónico
@@ -3107,10 +3155,17 @@ de letras del trabajo y                        colectiva en el Código del Traba
                                                trato y acompañar los antecedentes que sustenten su presentación
                                                (artículo 328 CT).
 
-
 ## 4.5.3 Comisión negociadora sindical
 
-                                               La representación del sindicato en la negociación colectiva correspon-
+**Definición Canónica:** La representación del sindicato en la negociación colectiva correspon-
+                                               derá a la comisión negociadora sindical, integrada por el directorio
+                                               sindical respectivo. Si se trata de una negociación colectiva iniciada
+                                               por más de un sindicato, la comisión negociadora sindical estará
+                                               integrada por los directores que sean designados en el proyecto de
+                                               contrato colectivo.
+**Concordancias Legales:** artículo 330; artículo 309
+
+La representación del sindicato en la negociación colectiva correspon-
                                                derá a la comisión negociadora sindical, integrada por el directorio
                                                sindical respectivo. Si se trata de una negociación colectiva iniciada
                                                por más de un sindicato, la comisión negociadora sindical estará
@@ -3149,20 +3204,32 @@ de letras del trabajo y                                                colectiva
                                          que deban integrarla        la fecha de notificación a las partes del fallo arbitral que se hubiere
                                          por derecho propio.         dictado (artículo 330 incisos tercero y cuarto CT).
 
-
 ## 4.5.4 Comisión negociadora del empleador
 
-                                                                     El empleador deberá designar una comisión negociadora de empresa,
+**Definición Canónica:** El empleador deberá designar una comisión negociadora de empresa,
+                                                                     constituida por un máximo de tres apoderados que formen parte de
+                                                                     la empresa, entendiéndose también como tales a los miembros de
+                                                                     su respectivo directorio y a los socios con facultad de administración.
+                                                                     Podrá además designar a los asesores, conforme a lo dispue
+**Concordancias Legales:** artículo 330; artículo 335
+
+El empleador deberá designar una comisión negociadora de empresa,
                                                                      constituida por un máximo de tres apoderados que formen parte de
                                                                      la empresa, entendiéndose también como tales a los miembros de
                                                                      su respectivo directorio y a los socios con facultad de administración.
                                                                      Podrá además designar a los asesores, conforme a lo dispuesto en el
                                                                      inciso segundo del artículo 330 (artículo 335 CT).
 
-
 ## 4.5.5 Presentación del proyecto
 
-                                                                     Copia del proyecto de contrato colectivo presentado por el o los
+**Definición Canónica:** Copia del proyecto de contrato colectivo presentado por el o los
+                                                                     sindicatos, firmada por el empleador para acreditar que ha sido re-
+                                                                     cibido por este, con la fecha de recepción estampada en él, deberá
+                                                                     entregarse a la Inspección del Trabajo respectiva dentro de los cinco
+                                                                     días siguientes a su presentación.
+**Concordancias Legales:** artículo 329
+
+Copia del proyecto de contrato colectivo presentado por el o los
                                                                      sindicatos, firmada por el empleador para acreditar que ha sido re-
                                                                      cibido por este, con la fecha de recepción estampada en él, deberá
                                                                      entregarse a la Inspección del Trabajo respectiva dentro de los cinco
@@ -3175,10 +3242,15 @@ de letras del trabajo y                                                colectiva
 
 Curso habilitante Juez(a)                4. Sindicatos y la negociación                                         73
 
-
 ## 4.5.6 Trabajadores afectos a la negociación
 
-                                           Iniciado un proceso de negociación colectiva reglada, los trabajadores
+**Definición Canónica:** Iniciado un proceso de negociación colectiva reglada, los trabajadores
+                                           no afiliados al sindicato tendrán derecho a afiliarse a él, incorporán-
+                                           dose de pleno derecho a la negociación en curso, salvo lo dispuesto
+                                           en el inciso segundo del artículo 323.
+**Concordancias Legales:** artículo 323; artículo 331
+
+Iniciado un proceso de negociación colectiva reglada, los trabajadores
                                            no afiliados al sindicato tendrán derecho a afiliarse a él, incorporán-
                                            dose de pleno derecho a la negociación en curso, salvo lo dispuesto
                                            en el inciso segundo del artículo 323.
@@ -3192,10 +3264,12 @@ de letras del trabajo y                                                colectiva
 
                                            incorporación (artículo 331 CT).
 
-
 ## 4.5.7 Oportunidad de presentación del
 
-                                           proyecto de contrato colectivo
+**Definición Canónica:** proyecto de contrato colectivo
+**Concordancias Legales:** artículo 308; artículo 332; artículo 333; artículo 334
+
+proyecto de contrato colectivo
 
                                            a. Sin instrumento colectivo vigente
                                               La presentación de un proyecto de contrato colectivo realizada
@@ -3230,10 +3304,12 @@ de letras del trabajo y                                                colectiva
                                                 como los derechos y obligaciones que sólo pueden ejercerse o
                                                 cumplirse colectivamente (artículo 334 CT).
 
-
 ## 4.5.8 Respuesta del empleador
 
-                                           La respuesta del empleador al proyecto de contrato colectivo deberá
+**Definición Canónica:** La respuesta del empleador al proyecto de contrato colectivo deberá
+**Concordancias Legales:** artículo 335; artículo 336; artículo 361; artículo 406; artículo 337
+
+La respuesta del empleador al proyecto de contrato colectivo deberá
 
                                            ser entregada a alguno de los integrantes de la comisión negociadora
                                            sindical y remitida a la dirección de correo electrónico designada
@@ -3291,10 +3367,14 @@ de letras del trabajo y                                                 colectiv
                                                                       las estipulaciones del piso de la negociación, aquellas se entenderán
                                                                       incorporadas para todos los efectos legales (artículo 337 CT).
 
-
 ## 4.5.9 Impugnaciones y reclamaciones
 
-                                                                      El empleador tendrá derecho a impugnar la inclusión de uno o más
+**Definición Canónica:** El empleador tendrá derecho a impugnar la inclusión de uno o más
+                                                                      trabajadores incorporados en la nómina del proyecto de contrato
+                                                                      colectivo, por no ajustarse a las disposiciones del CT.
+**Concordancias Legales:** artículo 306; artículo 339; artículo 504; artículo 340
+
+El empleador tendrá derecho a impugnar la inclusión de uno o más
                                                                       trabajadores incorporados en la nómina del proyecto de contrato
                                                                       colectivo, por no ajustarse a las disposiciones del CT.
 
@@ -3349,10 +3429,16 @@ de letras del trabajo y                                                 colectiv
 Curso habilitante Juez(a)                  4. Sindicatos y la negociación                                           77
 de letras del trabajo y                        colectiva en el Código del Trabajo
 
-
 ## 4.5.10 Derecho al piso de la negociación
 
-                                               Durante todo el período de negociación, e incluso después de votada
+**Definición Canónica:** Durante todo el período de negociación, e incluso después de votada
+                                               y hecha efectiva la huelga, la comisión negociadora sindical podrá
+                                               poner término al proceso de negociación comunicándole al emplea-
+                                               dor, por escrito, su decisión de suscribir un contrato colectivo sujeto
+                                               a las estipulaciones del piso de la negociación.
+**Concordancias Legales:** artículo 341; artículo 342; artículo 476; artículo 401
+
+Durante todo el período de negociación, e incluso después de votada
                                                y hecha efectiva la huelga, la comisión negociadora sindical podrá
                                                poner término al proceso de negociación comunicándole al emplea-
                                                dor, por escrito, su decisión de suscribir un contrato colectivo sujeto
@@ -3374,10 +3460,12 @@ de letras del trabajo y                        colectiva en el Código del Traba
                                                negociación colectiva en curso. La resolución será apelable conforme
                                                a lo dispuesto en el artículo 476 (artículo 401 CT).
 
-
 ## 4.6   Negociación colectiva de
 
-                                               sindicato interempresa
+**Definición Canónica:** sindicato interempresa
+**Concordancias Legales:** artículo 227; artículo 314; artículo 364; artículo 330
+
+sindicato interempresa
 
                                                Para los efectos de la negociación colectiva, los sindicatos interempre-
                                                sa deberán agrupar a trabajadores que se desempeñen en empresas
@@ -3419,10 +3507,13 @@ de letras del trabajo y                            colectiva en el Código del T
                                                  Podrán participar de las negociaciones los asesores de ambas partes,
                                                  de conformidad a lo dispuesto en el artículo 330 (artículo 364 CT).
 
-
 ## 4.7     Negociación colectiva de trabajadores contratados
 
-                                                 por eventuales, de temporada y por obra o faena:
+**Definición Canónica:** por eventuales, de temporada y por obra o faena:
+                                                 procedimiento especial de negociación
+**Concordancias Legales:** artículo 314; artículos 309; artículo 365; artículo 366
+
+por eventuales, de temporada y por obra o faena:
                                                  procedimiento especial de negociación
 
                                                  Los trabajadores eventuales, de temporada y de obra o faena transi-
@@ -3449,20 +3540,31 @@ de letras del trabajo y                            colectiva en el Código del T
 
 ## 1. La identificación de la organización que presenta el proyecto y
 
-                                              la individualización de los miembros de la comisión negociadora
+**Definición Canónica:** la individualización de los miembros de la comisión negociadora
+                                              sindical de conformidad a las reglas del artículo 330, con indica-
+                                              ción de un domicilio y correo electrónico.
+                                           2. Las cláusulas que se proponen a la empresa.
+                                           3. El ámbito de la negociación.
+**Concordancias Legales:** artículo 330
+
+la individualización de los miembros de la comisión negociadora
                                               sindical de conformidad a las reglas del artículo 330, con indica-
                                               ción de un domicilio y correo electrónico.
                                            2. Las cláusulas que se proponen a la empresa.
                                            3. El ámbito de la negociación.
 
-## 4. La determinación de la obra o faena o período de tiempo com-
-
-                                              prendido en la negociación (artículo 366 CT).
-
-
 ## 4.7.1 Oportunidad, formalidades y
 
-                                           comunicación del proyecto
+**Definición Canónica:** comunicación del proyecto
+                                           El sindicato podrá presentar el proyecto de convenio colectivo a una
+                                           o más empresas, una vez iniciada la obra o faena transitoria. Copia
+                                           del proyecto de convenio colectivo firmada por un representante de
+                                           la o las empresas, para acreditar que ha sido recibido, deberá entre-
+                                           garse a la Inspección del Trabajo respectiva dentro de los cinco días
+               
+**Concordancias Legales:** artículo 367
+
+comunicación del proyecto
                                            El sindicato podrá presentar el proyecto de convenio colectivo a una
                                            o más empresas, una vez iniciada la obra o faena transitoria. Copia
                                            del proyecto de convenio colectivo firmada por un representante de
@@ -3478,10 +3580,17 @@ de letras del trabajo y                            colectiva en el Código del T
 
 Curso habilitante Juez(a)                4. Sindicatos y la negociación                                       80
 
-
 ## 4.7.1.1 Respuesta del empleador: la empresa deberá dar respues-
 
-                                           ta al proyecto de convenio colectivo dentro del plazo de cinco días
+**Definición Canónica:** ta al proyecto de convenio colectivo dentro del plazo de cinco días
+                                           contado desde la presentación del mismo, enviándola a la comisión
+                                           negociadora sindical, con copia a la Inspección del Trabajo. En la
+                                           respuesta deberá consignar la individualización de la empresa, la
+                                           comisión negociadora y una dirección de correo electrónico para las
+                                           comunicaciones que deban producirse durante la neg
+**Concordancias Legales:** artículo 372; artículo 368
+
+ta al proyecto de convenio colectivo dentro del plazo de cinco días
                                            contado desde la presentación del mismo, enviándola a la comisión
                                            negociadora sindical, con copia a la Inspección del Trabajo. En la
                                            respuesta deberá consignar la individualización de la empresa, la
@@ -3498,17 +3607,25 @@ de letras del trabajo y                            colectiva en el Código del T
                                            ciadora sindical en su respuesta al proyecto de convenio colectivo
                                            (artículo 368 CT).
 
-
 ## 4.7.1.2 Reuniones durante la negociación: durante la negocia-
 
-                                           ción y con el objeto de lograr un acuerdo, las partes se reunirán el
+**Definición Canónica:** ción y con el objeto de lograr un acuerdo, las partes se reunirán el
+                                           número de veces que estimen necesario. Las partes podrán asistir a
+                                           estas reuniones con sus asesores (artículo 369 CT).
+**Concordancias Legales:** artículo 369
+
+ción y con el objeto de lograr un acuerdo, las partes se reunirán el
                                            número de veces que estimen necesario. Las partes podrán asistir a
                                            estas reuniones con sus asesores (artículo 369 CT).
 
-
 ## 4.7.1.3 Mediación: cualquiera de las partes podrá solicitar la me-
 
-                                           diación de la Inspección del Trabajo, la que estará dotada de amplias
+**Definición Canónica:** diación de la Inspección del Trabajo, la que estará dotada de amplias
+                                           facultades para instarlas a lograr un acuerdo. La asistencia de las
+                                           partes a las audiencias de mediación será obligatoria.
+**Concordancias Legales:** artículo 370
+
+diación de la Inspección del Trabajo, la que estará dotada de amplias
                                            facultades para instarlas a lograr un acuerdo. La asistencia de las
                                            partes a las audiencias de mediación será obligatoria.
 
@@ -3516,10 +3633,17 @@ de letras del trabajo y                            colectiva en el Código del T
                                            rrogable por mutuo acuerdo de las partes por el plazo que estimen
                                            pertinente (artículo 370 CT).
 
-
 ## 4.7.2 Relación del convenio colectivo con el
 
-                                           contrato individual y registro del instrumento
+**Definición Canónica:** contrato individual y registro del instrumento
+                                           Las estipulaciones de los convenios colectivos celebrados en virtud
+                                           de las normas de este Capítulo del Código del Trabajo se tendrán
+                                           como parte integrante de los contratos individuales de los trabaja-
+                                           dores afiliados a la o las organizaciones sindicales que los hubieren
+                                           negociado, incluidos aquellos que se afilien con posterioridad.
+**Concordancias Legales:** artículo 371
+
+contrato individual y registro del instrumento
                                            Las estipulaciones de los convenios colectivos celebrados en virtud
                                            de las normas de este Capítulo del Código del Trabajo se tendrán
                                            como parte integrante de los contratos individuales de los trabaja-
@@ -3532,18 +3656,25 @@ de letras del trabajo y                            colectiva en el Código del T
                                            del Trabajo respectiva, dentro del plazo de cinco días contado desde
                                            su suscripción (artículo 371 CT).
 
-
 ## 4.7.3 Pactos sobre condiciones especiales de trabajo
 
-                                           Los convenios colectivos suscritos de acuerdo a las reglas preceden-
+**Definición Canónica:** Los convenios colectivos suscritos de acuerdo a las reglas preceden-
+                                           tes podrán incluir pactos sobre condiciones especiales de trabajo de
+                                           conformidad a lo dispuesto en el Título VI del Libro IV del Código
+                                           del Trabajo (Artículo 372 CT).
+**Concordancias Legales:** Artículo 372
+
+Los convenios colectivos suscritos de acuerdo a las reglas preceden-
                                            tes podrán incluir pactos sobre condiciones especiales de trabajo de
                                            conformidad a lo dispuesto en el Título VI del Libro IV del Código
                                            del Trabajo (Artículo 372 CT).
 
-
 ## 4.7.4 Convenio de provisión de puestos de trabajo
 
-                                           Los convenios de provisión de puestos de trabajo de que trata el artí-
+**Definición Canónica:** Los convenios de provisión de puestos de trabajo de que trata el artí-
+**Concordancias Legales:** artículo 373; artículo 142
+
+Los convenios de provisión de puestos de trabajo de que trata el artí-
 
                                            culo 142 CT podrán negociarse conforme a las reglas del Capítulo II
                                            del Título V del Libro IV, sobre la negociación colectiva de los traba-
@@ -3567,10 +3698,12 @@ de letras del trabajo y                            colectiva en el Código del T
 Curso habilitante Juez(a)                  4. Sindicatos y la negociación                                          82
 de letras del trabajo y                        colectiva en el Código del Trabajo
 
-
 ## 4.8   Negociación colectiva de
 
-                                               federación y confederación
+**Definición Canónica:** federación y confederación
+**Concordancias Legales:** artículo 408; artículo 306; artículo 374; artículo 409; artículo 411
+
+federación y confederación
 
                                                Las federaciones y confederaciones podrán, en cualquier momento
                                                y sin sujeción a reglas de procedimiento, previo acuerdo con uno o
@@ -3649,15 +3782,16 @@ de letras del trabajo y                        colectiva en el Código del Traba
 de letras del trabajo y                                                          procedimiento en juicio ordinario
 juez de cobranza laboral                                                         y especial del trabajo
 
-
-## 5.1            Competencia de los
-
-                                                                               tribunales del trabajo
-
-
 ## 5.1.1 Concepto de competencia
 
-                                                                               De acuerdo al artículo 108 del Código Orgánico de Tribunales (COT),
+**Definición Canónica:** De acuerdo al artículo 108 del Código Orgánico de Tribunales (COT),
+                                                                               la competencia es la “facultad que tiene cada juez o tribunal para
+                                                                               conocer de los negocios que la ley ha colocado dentro de la esfera
+                                                                               de sus atribuciones”. Esta definición es criticada en la doctrina
+                                                                               procesal, esenci
+**Concordancias Legales:** artículo 108 del Código Orgánico de Tribunales; artículo 19; Constitución
+
+De acuerdo al artículo 108 del Código Orgánico de Tribunales (COT),
                                                                                la competencia es la “facultad que tiene cada juez o tribunal para
                                                                                conocer de los negocios que la ley ha colocado dentro de la esfera
                                                                                de sus atribuciones”. Esta definición es criticada en la doctrina
@@ -3681,26 +3815,38 @@ juez de cobranza laboral                                                        
                                                                                especiales, sino por el tribunal que señalare la ley y que se hallare
                                                                                establecido por esta con anterioridad a la perpetración del hecho”.
 
-
 ## 61   En este sentido, Ugo Rocco señala que la competencia “es aquella parte de jurisdicción que corresponde en
 
-                                              concreto a cada órgano jurisdiccional singular, según ciertos criterios a través de los cuales las normas proce-
+**Definición Canónica:** concreto a cada órgano jurisdiccional singular, según ciertos criterios a través de los cuales las normas proce-
+                                              sales distribuyen la jurisdicción entre los distintos órganos ordinarios de ella”. Ver Rocco, Ugo (2002), Derecho
+                                              procesal civil, Ciudad de México. Ed. Jurídica Universitaria, p. 246, citado por SÁEZ, Jorge: “Los elementos de la
+                                              competencia jurisdiccional”, en Revista de Derecho de la Universidad Católica del Norte 2015, Vol. 22, Nº 1, p.
+
+concreto a cada órgano jurisdiccional singular, según ciertos criterios a través de los cuales las normas proce-
                                               sales distribuyen la jurisdicción entre los distintos órganos ordinarios de ella”. Ver Rocco, Ugo (2002), Derecho
                                               procesal civil, Ciudad de México. Ed. Jurídica Universitaria, p. 246, citado por SÁEZ, Jorge: “Los elementos de la
                                               competencia jurisdiccional”, en Revista de Derecho de la Universidad Católica del Norte 2015, Vol. 22, Nº 1, p.
 
 ## 530. Disponible en: https://scielo.conicyt.cl/scielo.php?script=sci_arttext&pid=S0718-97532015000100014&l-
 
-                                              ng=es&nrm=iso (consultado el 31 de mayo de 2020).
+**Definición Canónica:** ng=es&nrm=iso (consultado el 31 de mayo de 2020).
+
+ng=es&nrm=iso (consultado el 31 de mayo de 2020).
 
 Curso habilitante Juez(a)                                                   5. Jurisdicción, organización y                                                 86
 de letras del trabajo y                                                         procedimiento en juicio ordinario
 juez de cobranza laboral                                                        y especial del trabajo
 
-
 ## 5.1.2 Clasificación de un tribunal del trabajo
 
-                                                                              De acuerdo a su naturaleza, los tribunales se dividen en tribunales
+**Definición Canónica:** De acuerdo a su naturaleza, los tribunales se dividen en tribunales
+                                                                              ordinarios y especiales. Esta división se desprende del artículo 5 del
+                                                                              COT, que define a los tribunales ordinarios como “aquellos a los cuales
+                                                                              les corresponde el conocimiento de todos los asuntos judiciales que
+                                                                              se promue
+**Concordancias Legales:** artículo 5 del COT; artículo 417
+
+De acuerdo a su naturaleza, los tribunales se dividen en tribunales
                                                                               ordinarios y especiales. Esta división se desprende del artículo 5 del
                                                                               COT, que define a los tribunales ordinarios como “aquellos a los cuales
                                                                               les corresponde el conocimiento de todos los asuntos judiciales que
@@ -3738,10 +3884,11 @@ juez de cobranza laboral                                                        
 de letras del trabajo y                                                       procedimiento en juicio ordinario
 juez de cobranza laboral                                                      y especial del trabajo
 
-
 ## 5.2           Territorio
 
-                                                                            y materia
+**Definición Canónica:** y materia
+
+y materia
 
                                                                             Tradicionalmente se conocen como “factores de competencia” los
                                                                             elementos relevantes para distribuir el ejercicio de la jurisdicción.
@@ -3767,28 +3914,38 @@ juez de cobranza laboral                                                      y 
                                                                             la competencia de un tribunal del trabajo (con competencia especial)
                                                                             resultan ser el territorio y la materia.
 
-
 ## 5.2.1 El territorio
 
-                                                                            Es el factor que determina la competencia relativa de un tribunal
+**Definición Canónica:** Es el factor que determina la competencia relativa de un tribunal
                                                                             del trabajo. Recordemos que la competencia relativa alude a la de-
                                                                             terminación del tribunal específico, de entre de los de similar clase o
                                                                             naturaleza, que está llamado a conocer y resolver de un asunto laboral.
 
+Es el factor que determina la competencia relativa de un tribunal
+                                                                            del trabajo. Recordemos que la competencia relativa alude a la de-
+                                                                            terminación del tribunal específico, de entre de los de similar clase o
+                                                                            naturaleza, que está llamado a conocer y resolver de un asunto laboral.
 
 ## 63   No obstante, Jorge Sáez propone la existencia de otros factores relevantes que han sido omitidos por la
 
-                                              doctrina nacional. Ver SÁEZ, Jorge (2015).
+**Definición Canónica:** doctrina nacional. Ver SÁEZ, Jorge (2015).
+                                         64   SÁEZ, Jorge (2015), p. 556.
+
+doctrina nacional. Ver SÁEZ, Jorge (2015).
                                          64   SÁEZ, Jorge (2015), p. 556.
 
 Curso habilitante Juez(a)                                                   5. Jurisdicción, organización y                                               88
 de letras del trabajo y                                                         procedimiento en juicio ordinario
 juez de cobranza laboral                                                        y especial del trabajo
 
-
 ## 5.2.2 Competencia territorial de un tribunal del trabajo
 
-                                                                              La competencia territorial de los juzgados de Letras del Trabajo está
+**Definición Canónica:** La competencia territorial de los juzgados de Letras del Trabajo está
+                                                                              establecida en el artículo 415 del CT y, para los juzgados de Cobranza
+                                                                              Laboral y Previsional, en el artículo 416 del mismo cuerpo legal.
+**Concordancias Legales:** artículo 415 del CT y; artículo 416; artículo 422 del CT dispone que; artículo 439 bis; artículo 423 del CT66 y está compuesta de una; artículo 10; artículo 503
+
+La competencia territorial de los juzgados de Letras del Trabajo está
                                                                               establecida en el artículo 415 del CT y, para los juzgados de Cobranza
                                                                               Laboral y Previsional, en el artículo 416 del mismo cuerpo legal.
 
@@ -3842,10 +3999,14 @@ juez de cobranza laboral                                                        
                                            Dirección del Trabajo de acuerdo al inciso tercero del artículo 503
                                            del CT).
 
-
 ## 5.2.2.1 Prórroga de la competencia: se refiere a la posibilidad de
 
-                                           que las partes puedan alterar la competencia territorial del tribunal
+**Definición Canónica:** que las partes puedan alterar la competencia territorial del tribunal
+                                           laboral. En este sentido, dada la desigualdad de poder de negociación
+                                           que entraña la relación laboral, nuestra legislación dispone en el in-
+**Concordancias Legales:** artículo 423 del CT que; artículo 423; artículo 447
+
+que las partes puedan alterar la competencia territorial del tribunal
                                            laboral. En este sentido, dada la desigualdad de poder de negociación
                                            que entraña la relación laboral, nuestra legislación dispone en el in-
 
@@ -3865,10 +4026,17 @@ juez de cobranza laboral                                                        
                                            última razón, hay quienes sostienen que tampoco podría existir una
                                            prórroga tácita de competencia en la sede laboral.
 
-
 ## 5.2.2.2 Efecto de la incompetencia relativa: cuando se declara
 
-                                           incompetencia en razón del territorio, lo que corresponde, conforme
+**Definición Canónica:** incompetencia en razón del territorio, lo que corresponde, conforme
+                                           a la regla del artículo 477 del CT, es remitir los antecedentes para
+                                           la prosecución del juicio ante el tribunal que sea competente, de
+                                           modo que exista “continuidad” en su secuela, sin que sea necesaria
+                                           la presentación de una nueva demanda. De esta manera, no resurge
+                                           un nuevo plazo y el transcurrido hasta la presenta
+**Concordancias Legales:** artículo 477
+
+incompetencia en razón del territorio, lo que corresponde, conforme
                                            a la regla del artículo 477 del CT, es remitir los antecedentes para
                                            la prosecución del juicio ante el tribunal que sea competente, de
                                            modo que exista “continuidad” en su secuela, sin que sea necesaria
@@ -3881,10 +4049,15 @@ juez de cobranza laboral                                                        
 de letras del trabajo y                                                         procedimiento en juicio ordinario
 juez de cobranza laboral                                                        y especial del trabajo
 
-
 ## 5.2.2.3 Oportunidad de la incompetencia relativa: la declara-
 
-                                                                              ción de incompetencia relativa puede y debe realizarse “de oficio”. En
+**Definición Canónica:** ción de incompetencia relativa puede y debe realizarse “de oficio”. En
+                                                                              este sentido, el inciso primero del artículo 447 del CT es imperativo67
+                                                                              y la declaración debe realizarse “al examinar demanda”, debiendo
+                                                                              remitir los antecedentes a tribunal competente.
+**Concordancias Legales:** artículo 447 del CT es imperativo67
+
+ción de incompetencia relativa puede y debe realizarse “de oficio”. En
                                                                               este sentido, el inciso primero del artículo 447 del CT es imperativo67
                                                                               y la declaración debe realizarse “al examinar demanda”, debiendo
                                                                               remitir los antecedentes a tribunal competente.
@@ -3895,10 +4068,14 @@ juez de cobranza laboral                                                        
                                                                               la parte contraria, o incluso en la sentencia definitiva, cuando su
                                                                               resolución requiera producción de prueba.
 
-
 ## 5.2.3 Competencia material de un tribunal del trabajo
 
-                                                                              La materia es el factor que determina la competencia absoluta del
+**Definición Canónica:** La materia es el factor que determina la competencia absoluta del
+                                                                              tribunal, es decir, determina el tipo o clase de tribunal llamado a
+                                                                              conocer y resolver.
+**Concordancias Legales:** artículo 420
+
+La materia es el factor que determina la competencia absoluta del
                                                                               tribunal, es decir, determina el tipo o clase de tribunal llamado a
                                                                               conocer y resolver.
 
@@ -3907,22 +4084,28 @@ juez de cobranza laboral                                                        
                                                                               radas en el artículo 420 del CT, cuyos literales pasamos analizar a
                                                                               continuación.68
 
-
 ## 5.2.3.1 Artículo 420 letra a): serán de competencia de los JLT
 
-                                                                              “las cuestiones suscitadas entre empleadores y trabajadores por
+**Definición Canónica:** “las cuestiones suscitadas entre empleadores y trabajadores por
                                                                               aplicación de las normas laborales o derivadas de la interpretación y
                                                                               aplicación de los contratos individuales o colectivos del trabajo o de
                                                                               las convenciones y fallos arbitrales en materia laboral”.
 
-
-## 67   Art. 447: “El juez deberá declarar de oficio cuando se estime incompetente para conocer de la demanda, en
-
-                                              cuyo caso así lo declarará, señalará el tribunal competente, y le enviará los antecedentes”.
+“las cuestiones suscitadas entre empleadores y trabajadores por
+                                                                              aplicación de las normas laborales o derivadas de la interpretación y
+                                                                              aplicación de los contratos individuales o colectivos del trabajo o de
+                                                                              las convenciones y fallos arbitrales en materia laboral”.
 
 ## 68   En el caso de los juzgados de Cobranza Laboral y Previsional, su competencia material se encuentra esta-
 
-                                              blecida en el artículo 421 del CT: “Serán de competencia de los Juzgados de Cobranza Laboral y Previsional
+**Definición Canónica:** blecida en el artículo 421 del CT: “Serán de competencia de los Juzgados de Cobranza Laboral y Previsional
+                                              los juicios en que se demande el cumplimiento de obligaciones que emanen de títulos a los cuales las leyes
+                                              laborales y de previsión o seguridad social otorguen mérito ejecutivo; y, especialmente, la ejecución de todos
+                                              los títulos ejecutivos regidos por la ley N° 17.322, relativa a la cobranza judicial de imposiciones, aportes y
+                         
+**Concordancias Legales:** artículo 421; artículos 1; ley N° 17.322
+
+blecida en el artículo 421 del CT: “Serán de competencia de los Juzgados de Cobranza Laboral y Previsional
                                               los juicios en que se demande el cumplimiento de obligaciones que emanen de títulos a los cuales las leyes
                                               laborales y de previsión o seguridad social otorguen mérito ejecutivo; y, especialmente, la ejecución de todos
                                               los títulos ejecutivos regidos por la ley N° 17.322, relativa a la cobranza judicial de imposiciones, aportes y
@@ -3948,10 +4131,14 @@ juez de cobranza laboral                                                        
                                            desafuero, los diversos cobros de prestaciones en cumplimiento del
                                            contrato de trabajo y las acciones de tutela derechos fundamentales.
 
-
 ## 5.2.3.2 Artículo 420 letra b): “Las cuestiones derivadas de la
 
-                                           aplicación de normas sobre organización sindical y negociación co-
+**Definición Canónica:** aplicación de normas sobre organización sindical y negociación co-
+                                           lectiva que la ley entrega al conocimiento de los juzgados de letras
+                                           con competencia en materia del trabajo”.
+**Concordancias Legales:** artículos 223; artículo 292; artículo 407; artículo 297; artículo 305
+
+aplicación de normas sobre organización sindical y negociación co-
                                            lectiva que la ley entrega al conocimiento de los juzgados de letras
                                            con competencia en materia del trabajo”.
 
@@ -3985,10 +4172,14 @@ juez de cobranza laboral                                                        
                                            laborales y de libertad de actuación de los órganos protegidos por
                                            la libertad sindical.
 
-
 ## 5.2.3.3 Artículo 420 letra c): “Las cuestiones derivadas de la apli-
 
-                                           cación de las normas de previsión o seguridad social, planteadas por
+**Definición Canónica:** cación de las normas de previsión o seguridad social, planteadas por
+                                           pensionados, trabajadores activos o empleadores, salvo en lo referido
+                                           a la revisión de las resoluciones sobre declaración de invalidez o del
+                                           pronunciamiento sobre otorgamiento de licencias médicas”.
+
+cación de las normas de previsión o seguridad social, planteadas por
                                            pensionados, trabajadores activos o empleadores, salvo en lo referido
                                            a la revisión de las resoluciones sobre declaración de invalidez o del
                                            pronunciamiento sobre otorgamiento de licencias médicas”.
@@ -4005,10 +4196,14 @@ juez de cobranza laboral                                                        
                                            médicas, cuestiones que corresponden más bien a reclamaciones
                                            de tipo administrativo.
 
-
 ## 5.2.3.4 Artículo 420 letra d): “Los juicios en que se demande el
 
-                                           cumplimiento de obligaciones que emanen de títulos a los cuales
+**Definición Canónica:** cumplimiento de obligaciones que emanen de títulos a los cuales
+                                           las leyes laborales y de previsión o seguridad social otorguen mérito
+                                           ejecutivo”.
+**Concordancias Legales:** artículo 464
+
+cumplimiento de obligaciones que emanen de títulos a los cuales
                                            las leyes laborales y de previsión o seguridad social otorguen mérito
                                            ejecutivo”.
 
@@ -4029,32 +4224,42 @@ juez de cobranza laboral                                                        
                                                                               464 del CT, que establece los siguientes títulos ejecutivos laborales:
                                                                               1. Las sentencias ejecutoriadas.
 
-## 2. La transacción, conciliación y avenimiento que cumplan con las
-
-                                                                                 formalidades establecidas en la ley.
-
 ## 3. Los finiquitos suscritos por el trabajador y el empleador y autori-
 
+**Definición Canónica:** zados por el inspector del trabajo o por funcionarios a los cuales la
+                                                                                 ley faculta para actuar como ministros de fe en el ámbito laboral.
 
-                                                                                 zados por el inspector del trabajo o por funcionarios a los cuales la
+zados por el inspector del trabajo o por funcionarios a los cuales la
                                                                                  ley faculta para actuar como ministros de fe en el ámbito laboral.
 
 ## 4. Las actas firmadas por las partes, y autorizadas por los inspectores
 
-                                                                                 del trabajo y que den constancia de acuerdos producidos ante estos
+**Definición Canónica:** del trabajo y que den constancia de acuerdos producidos ante estos
+                                                                                 o que contengan el reconocimiento de una obligación laboral o
+                                                                                 de cotizaciones de seguridad social, o sus copias certificadas por
+                                                                                 la respectiva Inspección del Trabajo.
+
+del trabajo y que den constancia de acuerdos producidos ante estos
                                                                                  o que contengan el reconocimiento de una obligación laboral o
                                                                                  de cotizaciones de seguridad social, o sus copias certificadas por
                                                                                  la respectiva Inspección del Trabajo.
 
 ## 5. Los originales de los instrumentos colectivos del trabajo, res-
 
-                                                                                 pecto de aquellas cláusulas que contengan obligaciones líquidas
+**Definición Canónica:** pecto de aquellas cláusulas que contengan obligaciones líquidas
+                                                                                 y actualmente exigibles, y las copias auténticas de los mismos
+                                                                                 autorizadas por la Inspección del Trabajo.
+
+pecto de aquellas cláusulas que contengan obligaciones líquidas
                                                                                  y actualmente exigibles, y las copias auténticas de los mismos
                                                                                  autorizadas por la Inspección del Trabajo.
 
 ## 6. Cualquier otro título a que las leyes laborales o de seguridad
 
-                                                                                 social otorguen fuerza ejecutiva.
+**Definición Canónica:** social otorguen fuerza ejecutiva.
+**Concordancias Legales:** artículo 468; Ley Nº 17.322; ley N° 17.322
+
+social otorguen fuerza ejecutiva.
 
                                                                               En este último numeral podrían mencionarse, por ejemplo, las
                                                                               resoluciones a que hace referencia la Ley Nº 17.322 de 1970 (sobre
@@ -4070,10 +4275,13 @@ juez de cobranza laboral                                                        
 
 Curso habilitante Juez(a)                5. Jurisdicción, organización y                                       94
 
-
 ## 5.2.3.5 Artículo 420 letra e): “Las reclamaciones que procedan
 
-                                           contra resoluciones dictadas por autoridades administrativas en
+**Definición Canónica:** contra resoluciones dictadas por autoridades administrativas en
+                                           materias laborales, previsionales o de seguridad social”.
+**Concordancias Legales:** artículo 503; artículo 12; artículo 31; artículo 420
+
+contra resoluciones dictadas por autoridades administrativas en
                                            materias laborales, previsionales o de seguridad social”.
 
                                            Nuevamente, la redacción es aparentemente amplia y sin embargo,
@@ -4092,10 +4300,16 @@ juez de cobranza laboral                                                        
                                            letra b) del CT (observaciones de legalidad, prohibición de negociar
                                            colectivamente, etcétera).
 
-
 ## 5.2.3.6 Artículo 420 letra f): “Los juicios iniciados por el propio
 
-                                           trabajador o sus causahabientes, en que se pretenda hacer efectiva la
+**Definición Canónica:** trabajador o sus causahabientes, en que se pretenda hacer efectiva la
+                                           responsabilidad contractual del empleador, por los daños producidos
+                                           como consecuencias de accidentes del trabajo o enfermedades profe-
+                                           sionales: respecto de la responsabilidad extracontractual se seguirán
+                                           las reglas del art. 69 de la Ley 16.744”.
+**Concordancias Legales:** artículo 184 del Código del Trabajo70; artículo 69; artículo 420; artículo 184; Ley 16.744; Ley N° 21.018; Ley Nº 16.744
+
+trabajador o sus causahabientes, en que se pretenda hacer efectiva la
                                            responsabilidad contractual del empleador, por los daños producidos
                                            como consecuencias de accidentes del trabajo o enfermedades profe-
                                            sionales: respecto de la responsabilidad extracontractual se seguirán
@@ -4152,7 +4366,9 @@ juez de cobranza laboral                                                        
 
 ## 704 Los organismos administradores del seguro de la ley N° 16.744, deberán informar a sus empresas afilia-
 
-                                              das sobre los riesgos asociados al uso de pesticidas, plaguicidas y, en general, de productos fitosanitarios”.
+**Definición Canónica:** das sobre los riesgos asociados al uso de pesticidas, plaguicidas y, en general, de productos fitosanitarios”.
+
+das sobre los riesgos asociados al uso de pesticidas, plaguicidas y, en general, de productos fitosanitarios”.
 
 Curso habilitante Juez(a)                5. Jurisdicción, organización y                                         96
 
@@ -4160,10 +4376,12 @@ juez de cobranza laboral                                                        
                                            del trabajador, actuando a título personal (daño por repercusión), sea
                                            en contra del empleador o de terceros responsables.
 
-
 ## 5.2.3.7 Artículo 420 letra g): “Todas aquellas materias que las
 
-                                           leyes entreguen a juzgados de letras con competencia laboral”.
+**Definición Canónica:** leyes entreguen a juzgados de letras con competencia laboral”.
+**Concordancias Legales:** artículo 452; artículo 507 del CT y las acciones de tutela laboral
+
+leyes entreguen a juzgados de letras con competencia laboral”.
 
                                            A modo ejemplar, podemos mencionar la demanda reconvencional,
                                            tratada en el artículo 452 del CT, el subterfugio o elusión de obligacio-
@@ -4171,10 +4389,16 @@ juez de cobranza laboral                                                        
                                            cuando no son ejercidas por el propio trabajador afectado (sino por
                                            organización sindical o por la Inspección del Trabajo).
 
-
 ## 5.2.3.8 Efecto de la incompetencia absoluta: cuando se declara
 
-                                           incompetencia en razón de la materia, se pone término al juicio y
+**Definición Canónica:** incompetencia en razón de la materia, se pone término al juicio y
+                                           la parte afectada con dicha declaración deberá presentarla ante el
+                                           tribunal competente, en conformidad a la ley. Probablemente deberá
+                                           reformular su libelo, por cuanto la sede y el tipo de acción será di-
+                                           versa. Por ejemplo, si en audiencia se declaró la incompetencia para
+                                           conocer del término de la contratación de un f
+
+incompetencia en razón de la materia, se pone término al juicio y
                                            la parte afectada con dicha declaración deberá presentarla ante el
                                            tribunal competente, en conformidad a la ley. Probablemente deberá
                                            reformular su libelo, por cuanto la sede y el tipo de acción será di-
@@ -4185,10 +4409,17 @@ juez de cobranza laboral                                                        
                                            público ante los juzgados civiles, o recurrir a la acción de protección,
                                            entre otras opciones del caso.
 
-
 ## 5.2.3.9 Oportunidad en que se declara la incompetencia
 
-                                           absoluta: la declaración de incompetencia generalmente será
+**Definición Canónica:** absoluta: la declaración de incompetencia generalmente será
+                                           declarada en la audiencia preparatoria al pronunciarse sobre la ex-
+                                           cepción de incompetencia deducida por la parte contraria, pero en
+                                           casos excepcionales se puede diferir su resolución hasta la dictación
+                                           de la sentencia definitiva, cuando su resolución requiera producción
+                                           de prueba. Por ejemplo, cuando no existan antecedent
+**Concordancias Legales:** artículo 477 del CT
+
+absoluta: la declaración de incompetencia generalmente será
                                            declarada en la audiencia preparatoria al pronunciarse sobre la ex-
                                            cepción de incompetencia deducida por la parte contraria, pero en
                                            casos excepcionales se puede diferir su resolución hasta la dictación
@@ -4215,10 +4446,12 @@ juez de cobranza laboral                                                        
 Curso habilitante Juez(a)                      6. Aspectos orgánicos del tribunal                                   99
 de letras del trabajo y                           de letras del trabajo
 
-
 ## 6.1     Su composición
 
-                                                 y organización
+**Definición Canónica:** y organización
+**Concordancias Legales:** artículos 415; artículo 418; Ley Nº 20.087
+
+y organización
 
                                                  Los tribunales del trabajo han sido objeto de una reforma orgánica
                                                  importante en el año 2006, con la dictación de la Ley Nº 20.087.
@@ -4259,10 +4492,12 @@ de letras del trabajo y                           de letras del trabajo
 Curso habilitante Juez(a)                                                  6. Aspectos orgánicos del tribunal                                         100
 de letras del trabajo y                                                       de letras del trabajo
 
-
 ## 6.2           El comité
 
-                                                                             de jueces
+**Definición Canónica:** de jueces
+**Concordancias Legales:** artículo 22 del COT; artículo 23 del COT.71; artículo 23; artículos 15
+
+de jueces
 
                                                                              Por aplicación del artículo 22 del COT, en los juzgados servidos por
                                                                              tres o más jueces habrá un comité de jueces integrado en la forma
@@ -4298,10 +4533,12 @@ de letras del trabajo y                                                       de
 Curso habilitante Juez(a)                      6. Aspectos orgánicos del tribunal                                     101
 de letras del trabajo y                           de letras del trabajo
 
-
 ## 6.3     El juez
 
-                                                 presidente
+**Definición Canónica:** presidente
+**Concordancias Legales:** artículo 24 del COT
+
+presidente
 
                                                  De entre los miembros del comité de jueces se elegirá al juez presi-
                                                  dente, quien durará dos años en el cargo y podrá ser reelegido hasta
@@ -4318,31 +4555,24 @@ de letras del trabajo y                           de letras del trabajo
                                                  el desempeño de su gestión podrá reducir proporcionalmente su
                                                  carga jurisdiccional según lo determine el comité de jueces.
 
-
 ## 6.4     Las unidades
 
-                                                 administrativas
+**Definición Canónica:** administrativas
+**Concordancias Legales:** artículo 6 de la Ley Nº 20.022; Ley Nº 20.022
+
+administrativas
 
                                                  Específicamente, el artículo 6 de la Ley Nº 20.022 (30/05/2005)
                                                  estableció que los juzgados de Letras del Trabajo se organizarán en
                                                  unidades administrativas para el cumplimiento eficaz y eficiente de
                                                  sus funciones.
 
-
-## 6.4.1 La unidad de Sala: se encarga de la organización y asistencia
-
-                                                 a la realización de las audiencias.
-
-
-## 6.4.2 La unidad de Atención de público: está destinada a otorgar
-
-                                                 una adecuada atención, orientación e información a los que concu-
-                                                 rran al tribunal, además de manejar la correspondencia y custodia.
-
-
 ## 6.4.3 La unidad de Administración de causas: desarrolla toda la
 
-                                                 labor relativa al manejo de causas y registros de los procesos, incluidas
+**Definición Canónica:** labor relativa al manejo de causas y registros de los procesos, incluidas
+                                                 las relativas a las notificaciones, al manejo de las fechas y salas para
+
+labor relativa al manejo de causas y registros de los procesos, incluidas
                                                  las relativas a las notificaciones, al manejo de las fechas y salas para
 
 Curso habilitante Juez(a)                                                   6. Aspectos orgánicos del tribunal                                            102
@@ -4352,18 +4582,24 @@ de letras del trabajo y                                                        d
                                                                               de las causas nuevas, a la actualización diaria de la base de datos que
                                                                               contenga las causas del juzgado y a las estadísticas básicas del mismo.
 
-
 ## 6.4.4 La unidad de Servicios: reúne las labores de soporte técnico
 
-                                                                              de la red computacional del juzgado, de contabilidad y de apoyo a
+**Definición Canónica:** de la red computacional del juzgado, de contabilidad y de apoyo a
                                                                               la actividad administrativa del mismo, y la coordinación y abasteci-
                                                                               miento de todas las necesidades físicas y materiales que requiera el
                                                                               procedimiento.
 
+de la red computacional del juzgado, de contabilidad y de apoyo a
+                                                                              la actividad administrativa del mismo, y la coordinación y abasteci-
+                                                                              miento de todas las necesidades físicas y materiales que requiera el
+                                                                              procedimiento.
 
 ## 6.4.5 La unidad de Cumplimiento: se creará en aquellos juzgados
 
-                                                                              de Letras del Trabajo con competencia en territorios jurisdicciona-
+**Definición Canónica:** de Letras del Trabajo con competencia en territorios jurisdicciona-
+**Concordancias Legales:** Ley Nº 20.252
+
+de Letras del Trabajo con competencia en territorios jurisdicciona-
 
                                                                               les en que no tenga competencia un juzgado de Cobranza Laboral y
                                                                               Previsional, de acuerdo a lo establecido a través de la Ley Nº 20.252
@@ -4371,10 +4607,15 @@ de letras del trabajo y                                                        d
                                                                               adecuada y cabal ejecución de las resoluciones judiciales y demás
                                                                               títulos ejecutivos de competencia de estos tribunales.
 
-
 ## 6.4.6 La unidad de Liquidación: por su parte, son propias de los
 
-                                                                              juzgados de Cobranza Laboral y Previsional, que cuentan además (al
+**Definición Canónica:** juzgados de Cobranza Laboral y Previsional, que cuentan además (al
+                                                                              igual que sus pares declarativos) con unidad de atención de público,
+                                                                              de administración de causas y de servicios, careciendo sin embargo de
+                                                                              unidad de sala. En dichos tribunales, la unidad de Liquidación tiene
+                                                                              a cargo los c
+
+juzgados de Cobranza Laboral y Previsional, que cuentan además (al
                                                                               igual que sus pares declarativos) con unidad de atención de público,
                                                                               de administración de causas y de servicios, careciendo sin embargo de
                                                                               unidad de sala. En dichos tribunales, la unidad de Liquidación tiene
@@ -4387,19 +4628,23 @@ de letras del trabajo y                                                        d
                                                                               las unidades de servicios y atención de público se concentren bajo
                                                                               la dependencia de una misma jefatura.
 
-
 ## 72   La Ley Nº 20.252, de 15 de febrero de 2008, introdujo modificaciones a la Ley Nº 20.022, (2006), y otros
 
-                                              cuerpos legales, con el objeto de reforzar la judicatura laboral. Esta ley postergó la entrada en vigencia de la
+**Definición Canónica:** cuerpos legales, con el objeto de reforzar la judicatura laboral. Esta ley postergó la entrada en vigencia de la
+                                              Reforma Procesal Laboral y aumentó considerablemente el número de jueces que venía dispuesto.
+
+cuerpos legales, con el objeto de reforzar la judicatura laboral. Esta ley postergó la entrada en vigencia de la
                                               Reforma Procesal Laboral y aumentó considerablemente el número de jueces que venía dispuesto.
 
 Curso habilitante Juez(a)                      6. Aspectos orgánicos del tribunal                                     103
 de letras del trabajo y                           de letras del trabajo
 
-
 ## 6.5     El administrador
 
-                                                 del tribunal
+**Definición Canónica:** del tribunal
+**Concordancias Legales:** artículo 389
+
+del tribunal
 
                                                  La figura del administrador del tribunal ha sido incorporada a raíz
                                                  de los procesos de modernización de la justicia chilena, y se les des-
@@ -4443,10 +4688,12 @@ de letras del trabajo y                           de letras del trabajo
                                                  bajo” a más tardar el 15 de noviembre de cada año, para su análisis,
                                                  consulta, evaluación y posterior aprobación.
 
-
 ## 6.6     Presupuesto, contabilidad
 
-                                                 y cuenta corriente
+**Definición Canónica:** y cuenta corriente
+**Concordancias Legales:** artículo 389
+
+y cuenta corriente
 
                                                  Los tribunales manejan su presupuesto de manera individual, cir-
                                                  cunscrito al marco que otorga la CAPJ y ejecutado de acuerdo a las
@@ -4488,10 +4735,12 @@ de letras del trabajo y                           de letras del trabajo
                                                  se encuentran en permanente control y auditorías por parte de
                                                  contraloría interna dependiente de la Corporación Administrativa.
 
-
 ## 6.7     Escalafón de empleados
 
-                                                 y deberes funcionarios
+**Definición Canónica:** y deberes funcionarios
+**Concordancias Legales:** artículo 3 de la Ley Nº 20.022; Ley Nº 20.022
+
+y deberes funcionarios
 
                                                  El artículo 3 de la Ley Nº 20.022 (2005) fija la dotación administrativa,
                                                  la cual varía en relación con el número de jueces asignados al tribu-
@@ -4517,10 +4766,12 @@ de letras del trabajo y                           de letras del trabajo
 Curso habilitante Juez(a)                                                   6. Aspectos orgánicos del tribunal                                             106
 de letras del trabajo y                                                        de letras del trabajo
 
-
 ## 6.8           El procedimiento
 
-                                                                              disciplinario
+**Definición Canónica:** disciplinario
+**Concordancias Legales:** artículo 389; artículo 532 del COT 73. La remoción del administrador del tri; artículo 532
+
+disciplinario
 
                                                                               Se encuentra regulado en el Acta 15-2018, recogiendo las normas
                                                                               para los tribunales reformados en este aspecto, establecidas en el
@@ -4554,10 +4805,12 @@ de letras del trabajo y                                                        d
 Curso habilitante Juez(a)                                                   6. Aspectos orgánicos del tribunal                                          107
 de letras del trabajo y                                                        de letras del trabajo
 
-
 ## 6.9            Definición
 
-                                                                              de funciones
+**Definición Canónica:** de funciones
+**Concordancias Legales:** artículo 498 del COT
+
+de funciones
 
                                                                               El nombramiento en propiedad en cargos del Escalafón del Perso-
                                                                               nal de Empleados se hará a propuesta en terna que formará, previo
@@ -4579,10 +4832,11 @@ de letras del trabajo y                                                        d
                                                                               actualmente vigentes se pueden consultar a través de la página del
                                                                               Poder Judicial.74
 
-
 ## 6.10                Postulaciones y
 
-                                                                                   nombramientos
+**Definición Canónica:** nombramientos
+
+nombramientos
 
                                                                               La provisión de cargos titulares se efectúa mediante llamado a con-
                                                                               curso público a través del Diario Oficial y página web, existiendo diez
@@ -4633,11 +4887,17 @@ de letras del trabajo y                     de letras del trabajo
 Curso habilitante Juez(a)                   6. Aspectos orgánicos del tribunal                                    109
 de letras del trabajo y                        de letras del trabajo
 
-
 ## 6.11      Calificaciones
 
+**Definición Canónica:** Lo referido a las calificaciones del personal judicial está contenido en
+                                              los artículos 24 letra g) y 273 del COT. En resumen, se establece que
+                                              serán calificados anualmente atendiendo a la conducta funcionaria
+                                              y desempeño observados en ese período. El período de calificación
+                                              comprenderá doce meses de desempeño funcionario y se extenderá
+                                              desde el 1 de noviembre al 31 de
+**Concordancias Legales:** artículos 24
 
-                                              Lo referido a las calificaciones del personal judicial está contenido en
+Lo referido a las calificaciones del personal judicial está contenido en
                                               los artículos 24 letra g) y 273 del COT. En resumen, se establece que
                                               serán calificados anualmente atendiendo a la conducta funcionaria
                                               y desempeño observados en ese período. El período de calificación
@@ -4674,10 +4934,12 @@ de letras del trabajo y                        de letras del trabajo
                                               declarativo
 Curso habilitante Juez(a)                      7. El procedimiento de                                                111
 
-
 ## 7.1     Los principios formativos
 
-                                                 del proceso
+**Definición Canónica:** del proceso
+**Concordancias Legales:** artículo 425; artículo 428 del CT señala; artículo 426 del CT dispone que; artículo 427 del CT prescribe; artículo 429 del CT señala; artículo 428; artículo 430 del CT dispone que; artículo 431 del CT dispone; artículo 431
+
+del proceso
 
                                                  El proceso laboral se concibió con miras a obtener una tutela judicial
                                                  efectiva y para ello se pensó en un modelo por audiencias en donde
@@ -4854,11 +5116,12 @@ juez de cobranza laboral                                              de caráct
                                                  como razones últimas de la argumentación jurídica y de razonamiento
                                                  judicial.
 
-
 ## 7.3     Deberes y atribuciones del
 
+**Definición Canónica:** juez en el juicio oral
+**Concordancias Legales:** artículo 444 del CT que; artículo 453 del CT. Al respecto; artículo 429; artículo 453 del CT que; artículo 444; artículo 446 del CT
 
-                                                 juez en el juicio oral
+juez en el juicio oral
 
                                                  En el proceso laboral, el legislador ha investido al juez como un
                                                  director del proceso y, en consecuencia, posee vigorosas facultades.
@@ -4942,22 +5205,12 @@ juez de cobranza laboral                                              de caráct
                                                       tener:
                                                  1. La designación del tribunal ante quien se entabla;
 
-## 2. El nombre, apellidos, domicilio y profesión u oficio del deman-
-
-                                                    dante y en su caso de las personas que lo representen, y naturaleza
-                                                    de la representación;
-
-## 3. El nombre, apellidos, domicilio y profesión u oficio del deman-
-
-                                                    dado;
-
-## 4. La exposición clara y circunstanciada de los hechos y considera-
-
-                                                    ciones de derecho en que se fundamenta, y
-
 ## 5. La enunciación precisa y concreta de las peticiones que se some-
 
-                                                    ten a la resolución del tribunal.
+**Definición Canónica:** ten a la resolución del tribunal.
+**Concordancias Legales:** artículo 448 del CT permite al actor; artículo 449 del CT para el caso que
+
+ten a la resolución del tribunal.
 
                                                       La prueba documental sólo se podrá presentar en la audiencia
                                                       preparatoria. Sin embargo, deberá presentarse conjuntamente
@@ -5019,10 +5272,12 @@ juez de cobranza laboral                       de carácter declarativo
                                                 resolverá. La norma concluye otorgando “siempre” la facultad al juez
                                                 para desacumular las causas.
 
-
 ## 7.6.   La notificación de la demanda y personas
 
-                                                habilitadas para efectuarlas
+**Definición Canónica:** habilitadas para efectuarlas
+**Concordancias Legales:** artículo 436 del CT regula esta
+
+habilitadas para efectuarlas
 
                                                 Al igual que la norma del CPC, la primera notificación deberá hacerse
                                                 personalmente, entregándosele copia íntegra de la resolución y de
@@ -5036,7 +5291,10 @@ juez de cobranza laboral                       de carácter declarativo
 
 ## parte interesada podrá siempre encargar a su costa la práctica de la
 
-                                                notificación a un receptor judicial.
+**Definición Canónica:** notificación a un receptor judicial.
+**Concordancias Legales:** artículo 437 del CT; artículo 438 del CT que rige cuando; artículo 439; artículo 440; artículo 442; artículo 441 del CT señala que; artículo 442 del CT establece lo que ha pasado a ser
+
+notificación a un receptor judicial.
 
                                                 Para el caso en que no resulte posible practicar la notificación
                                                 personal, por no ser habida la persona a quien debe notificarse y
@@ -5108,10 +5366,12 @@ juez de cobranza laboral                       de carácter declarativo
                                                  En este caso, se dejará debida constancia de haberse practicado la
                                                  notificación en la forma solicitada”.
 
-
 ## 7.7     Admisión, citación, contestación de
 
-                                                 la demanda y reconvención
+**Definición Canónica:** la demanda y reconvención
+**Concordancias Legales:** artículo 451; artículo 452 del CT y; artículo 453 del CT; artículo 446 del CT y se tramitará conjuntamente con la
+
+la demanda y reconvención
 
                                                  Admitida la demanda a tramitación, el tribunal citará a las partes a
                                                  una audiencia preparatoria dentro de los treinta y cinco días siguien-
@@ -5152,10 +5412,12 @@ juez de cobranza laboral                       de carácter declarativo
                                                  refiere el artículo 446 del CT y se tramitará conjuntamente con la
                                                  demanda.
 
-
 ## 7.8     La audiencia preparatoria
 
-                                                 del juicio oral
+**Definición Canónica:** del juicio oral
+**Concordancias Legales:** artículo 453; artículo 462 del CT
+
+del juicio oral
 
                                                  El procedimiento de aplicación general se desarrolla en dos audien-
                                                  cias, preparatoria y de juicio. La audiencia preparatoria, regulada en
@@ -5202,10 +5464,16 @@ juez de cobranza laboral                       de carácter declarativo
                                            correspondan, pudiendo adoptar las medidas necesarias para la pronta
                                            práctica de las diligencias.
 
-
 ## 7.8.1 Conciliación
 
-                                           En la audiencia preparatoria se establece un llamado a conciliación
+**Definición Canónica:** En la audiencia preparatoria se establece un llamado a conciliación
+                                           que requiere una participación activa del juez, quien debe proponer
+                                           una base de acuerdo para cumplir con el estándar legal. Se dispone
+                                           que las opiniones que el juez vierta durante el llamado a conciliación
+                                           no le inhabilitan para dictar sentencia. La conciliación puede ser
+                                           total o parcial y, en caso de lograrse, debe
+
+En la audiencia preparatoria se establece un llamado a conciliación
                                            que requiere una participación activa del juez, quien debe proponer
                                            una base de acuerdo para cumplir con el estándar legal. Se dispone
                                            que las opiniones que el juez vierta durante el llamado a conciliación
@@ -5217,10 +5485,14 @@ juez de cobranza laboral                       de carácter declarativo
 
 Curso habilitante Juez(a)                      7. El procedimiento de                                              124
 
-
 ## 7.8.2 Ofrecimiento y pertinencia de prueba
 
-                                                 Si no hay conciliación, el juez debe recibir la causa a prueba, de-
+**Definición Canónica:** Si no hay conciliación, el juez debe recibir la causa a prueba, de-
+                                                 terminando los hechos a probar. Esta resolución sólo es objeto de
+                                                 recurso de reposición que debe interponerse y fallarse de inmediato.
+**Concordancias Legales:** artículo 454 del CT señala que la impugnación de la
+
+Si no hay conciliación, el juez debe recibir la causa a prueba, de-
                                                  terminando los hechos a probar. Esta resolución sólo es objeto de
                                                  recurso de reposición que debe interponerse y fallarse de inmediato.
 
@@ -5244,16 +5516,12 @@ juez de cobranza laboral                       de carácter declarativo
                                                  dictará sentencia (ya sea en la misma audiencia o tomándose el plazo
                                                  legal para hacerlo).
 
-
-## 7.8.3 Acta de la audiencia
-
-                                                 De lo obrado en la audiencia preparatoria se levantará una breve acta,
-                                                 la cual no debe ser entendida como una transcripción.
-
-
 ## 7.9     La audiencia
 
-                                                 de juicio
+**Definición Canónica:** de juicio
+**Concordancias Legales:** artículo 454 del CT. Curso habilitante Juez
+
+de juicio
 
                                                  Es la instancia en que se rinde la prueba y el juez toma contacto con
                                                  ella de modo inmediato para formar su convicción sobre los hechos.
@@ -5261,10 +5529,17 @@ juez de cobranza laboral                       de carácter declarativo
 
 Curso habilitante Juez(a)                7. El procedimiento de                                             125
 
-
 ## 7.9.1 Recepción de la prueba
 
-                                           La audiencia de juicio se iniciará con la rendición de las pruebas,
+**Definición Canónica:** La audiencia de juicio se iniciará con la rendición de las pruebas,
+                                           comenzando con la ofrecida por el demandante y luego con la del
+                                           demandado. No obstante lo anterior, en los juicios sobre despido
+                                           corresponderá en primer lugar al demandado la rendición de la
+                                           prueba, debiendo acreditar la veracidad de los hechos imputados
+                                           en las comunicaciones a que se refieren los incisos primero y 
+**Concordancias Legales:** artículo 162
+
+La audiencia de juicio se iniciará con la rendición de las pruebas,
                                            comenzando con la ofrecida por el demandante y luego con la del
                                            demandado. No obstante lo anterior, en los juicios sobre despido
                                            corresponderá en primer lugar al demandado la rendición de la
@@ -5273,11 +5548,14 @@ juez de cobranza laboral                       de carácter declarativo
                                            del artículo 162, sin que pueda alegar en el juicio hechos distintos
                                            como justificativos del despido.
 
-
 ## 7.9.1.1 Orden de recepción
 
+**Definición Canónica:** El orden de recepción de las pruebas será el siguiente: documental,
+                                           confesional, testimonial y los otros medios ofrecidos, sin perjuicio
+                                           de que el tribunal pueda modificarlo por causa justificada.
+**Concordancias Legales:** artículo 4 del CT. Esta delegación deberá constar por escrit
 
-                                           El orden de recepción de las pruebas será el siguiente: documental,
+El orden de recepción de las pruebas será el siguiente: documental,
                                            confesional, testimonial y los otros medios ofrecidos, sin perjuicio
                                            de que el tribunal pueda modificarlo por causa justificada.
 
@@ -5322,10 +5600,16 @@ juez de cobranza laboral                       de carácter declarativo
 
                                            circunstancia alguna.
 
-
 ## 7.9.1.2 Otras pruebas
 
-                                           Respecto de la prueba de oficios y peritaje, el juez deberá, dentro
+**Definición Canónica:** Respecto de la prueba de oficios y peritaje, el juez deberá, dentro
+                                           de la misma audiencia, tomar las medidas inmediatas que fueren
+                                           necesarias para su aportación en ella. Y si al término de la audiencia
+                                           dichas diligencias no se hubieren cumplido, se fijará para ese sólo
+                                           efecto una nueva audiencia que deberá llevarse a cabo dentro del
+                                           más breve plazo.
+
+Respecto de la prueba de oficios y peritaje, el juez deberá, dentro
                                            de la misma audiencia, tomar las medidas inmediatas que fueren
                                            necesarias para su aportación en ella. Y si al término de la audiencia
                                            dichas diligencias no se hubieren cumplido, se fijará para ese sólo
@@ -5339,10 +5623,15 @@ juez de cobranza laboral                       de carácter declarativo
                                            pertinente) y no puede, por ende, declararse inadmisible bajo el
                                            argumento de que su incorporación no se encuentra regulada.
 
-
 ## 7.9.2 Observaciones a la prueba
 
-                                           Practicada la prueba, las partes formularán, oralmente, en forma
+**Definición Canónica:** Practicada la prueba, las partes formularán, oralmente, en forma
+                                           breve y precisa, las observaciones que les merezcan las pruebas
+                                           rendidas y sus conclusiones. Con todo, si a juicio del juez hubiere
+                                           puntos no suficientemente esclarecidos, podrá ordenar a las partes
+                                           que los aclaren.
+
+Practicada la prueba, las partes formularán, oralmente, en forma
                                            breve y precisa, las observaciones que les merezcan las pruebas
                                            rendidas y sus conclusiones. Con todo, si a juicio del juez hubiere
                                            puntos no suficientemente esclarecidos, podrá ordenar a las partes
@@ -5352,19 +5641,26 @@ juez de cobranza laboral                       de carácter declarativo
 de letras del trabajo y                                                        aplicación general laboral
 juez de cobranza laboral                                                       de carácter declarativo
 
-
 ## 7.9.3 Acta de la audiencia
 
-                                                                              Al finalizar la audiencia se extenderá el acta correspondiente, en la
+**Definición Canónica:** Al finalizar la audiencia se extenderá el acta correspondiente, en la
+                                                                              que constará el lugar, fecha e individualización del tribunal, de las
+                                                                              partes comparecientes, de sus apoderados y abogados, y de toda otra
+                                                                              circunstancia que el tribunal estime necesario incorporar. Se entiende
+                                                                              que no se
+
+Al finalizar la audiencia se extenderá el acta correspondiente, en la
                                                                               que constará el lugar, fecha e individualización del tribunal, de las
                                                                               partes comparecientes, de sus apoderados y abogados, y de toda otra
                                                                               circunstancia que el tribunal estime necesario incorporar. Se entiende
                                                                               que no se trata de una transcripción.
 
-
 ## 7.10                Sana crítica. Apreciación de la
 
-                                                                                   prueba y razonamiento judicial.
+**Definición Canónica:** prueba y razonamiento judicial.
+**Concordancias Legales:** artículo 456 del CT señala que el tribunal apreciará la prueba; artículo 459; artículo 456 del CT. ASTUDILLO; artículo 478
+
+prueba y razonamiento judicial.
 
                                                                               El artículo 456 del CT señala que el tribunal apreciará la prueba
                                                                               conforme a la sana crítica. Agrega que deberán expresarse las ra-
@@ -5404,15 +5700,18 @@ juez de cobranza laboral                       de carácter declarativo
                                               letra e), cuando se ha dictado con omisión de requisitos, de entre los
                                               cuales destaca el numeral 4º del artículo 459 recién citado.
 
-
-## 7.11      La sentencia en
-
-                                                   juicio del trabajo
-
-
 ## 7.11.1 Características y contenido
 
-                                              La sentencia definitiva se pronunciará sobre las acciones y excepcio-
+**Definición Canónica:** La sentencia definitiva se pronunciará sobre las acciones y excepcio-
+                                              nes deducidas que no se hubieren resuelto con anterioridad y sobre
+                                              los incidentes, en su caso, o sólo sobre estos cuando sean previos e
+                                              incompatibles con aquellas y contendrá los requisitos que enumera
+                                              el artículo 459 del CT, a saber:
+                                              1. El lugar y fecha en que se expida;
+                           
+**Concordancias Legales:** artículo 459
+
+La sentencia definitiva se pronunciará sobre las acciones y excepcio-
                                               nes deducidas que no se hubieren resuelto con anterioridad y sobre
                                               los incidentes, en su caso, o sólo sobre estos cuando sean previos e
                                               incompatibles con aquellas y contendrá los requisitos que enumera
@@ -5421,24 +5720,23 @@ juez de cobranza laboral                       de carácter declarativo
                                               2. La individualización completa de las partes litigantes.
                                               3. Una síntesis de los hechos y de las alegaciones de las partes.
 
-## 4. El análisis de toda la prueba rendida, los hechos que estime pro-
-
-                                                 bados y el razonamiento que conduce a esta estimación.
-
 ## 5. Los preceptos constitucionales, legales o los contenidos en tra-
 
-                                                 tados internacionales ratificados por Chile y que se encuentren
+**Definición Canónica:** tados internacionales ratificados por Chile y que se encuentren
                                                  vigentes, las consideraciones jurídicas y los principios de derecho
                                                  o de equidad en que el fallo se funda.
 
-## 6. La resolución de las cuestiones sometidas a la decisión del tribu-
-
-                                                 nal, con expresa determinación de las sumas que ordene pagar o
-                                                 las bases necesarias para su liquidación, si ello fuere procedente.
+tados internacionales ratificados por Chile y que se encuentren
+                                                 vigentes, las consideraciones jurídicas y los principios de derecho
+                                                 o de equidad en que el fallo se funda.
 
 ## 7. El pronunciamiento sobre el pago de costas y, en su caso, los
 
-                                                 motivos que tuviere el tribunal para absolver de su pago a la
+**Definición Canónica:** motivos que tuviere el tribunal para absolver de su pago a la
+                                                 parte vencida.
+**Concordancias Legales:** artículo 458 del CT exige que sea el; artículo 461 del CT señala que
+
+motivos que tuviere el tribunal para absolver de su pago a la
                                                  parte vencida.
 
 Curso habilitante Juez(a)                7. El procedimiento de                                               129
@@ -5459,10 +5757,16 @@ juez de cobranza laboral                       de carácter declarativo
                                            respectivos sistemas de seguridad social, con el objeto de que estos
                                            hagan efectivas las acciones de cobro que correspondan.
 
-
 ## 7.11.2 Plazo
 
-                                           El juez podrá dictar la sentencia al finalizar la audiencia o dentro
+**Definición Canónica:** El juez podrá dictar la sentencia al finalizar la audiencia o dentro
+                                           del plazo de quince días, dejando citadas a las partes en día y hora
+                                           determinados para su notificación. Las partes se entenderán notifi-
+                                           cadas de la sentencia sea en la audiencia de juicio o en la actuación
+                                           prevista al efecto, hayan o no asistido a ellas. En la práctica, al me-
+                                           nos en la jurisdicción de Santiago, l
+
+El juez podrá dictar la sentencia al finalizar la audiencia o dentro
                                            del plazo de quince días, dejando citadas a las partes en día y hora
                                            determinados para su notificación. Las partes se entenderán notifi-
                                            cadas de la sentencia sea en la audiencia de juicio o en la actuación
@@ -5514,10 +5818,11 @@ juez de cobranza laboral                       de carácter declarativo
                                               de las resoluciones que fijen las liquidaciones o reliquidaciones de
                                               beneficios de seguridad social.
 
-
 ## 7.13      El recurso
 
-                                                   de nulidad
+**Definición Canónica:** de nulidad
+
+de nulidad
 
                                               En la necesidad de compatibilizar la centralidad del juicio oral del
                                               modelo, con el imperativo de posibilitar que las partes dispongan
@@ -5549,10 +5854,16 @@ juez de cobranza laboral                                                      de
                                                                              resuelto, objetivo que no debe perderse de vista al tiempo de inter-
                                                                              pretar y aplicar el recurso disponible y sus causales.77
 
-
 ## 7.13.1 Características. Resoluciones
 
-                                                                             susceptibles de este recurso.
+**Definición Canónica:** susceptibles de este recurso.
+                                                                             Procede en contra de la sentencia definitiva laboral (es el único
+                                                                             recurso que procede a su respecto) y mantiene coincidencias con su
+                                                                             símil penal. Posee una causal genérica, por cuestiones de forma, y
+                                                                             otras más específicas posibilitando una revisión integral, que
+**Concordancias Legales:** artículo 478 del CT señala expresamente que no producirán
+
+susceptibles de este recurso.
                                                                              Procede en contra de la sentencia definitiva laboral (es el único
                                                                              recurso que procede a su respecto) y mantiene coincidencias con su
                                                                              símil penal. Posee una causal genérica, por cuestiones de forma, y
@@ -5584,10 +5895,15 @@ juez de cobranza laboral                                                      de
 
                                                                              sentencia recurrida.
 
-
 ## 7.13.2 Causales de nulidad
 
-                                                                             Para los fines de la nulidad se han concebido causales genéricas o
+**Definición Canónica:** Para los fines de la nulidad se han concebido causales genéricas o
+                                                                             hipótesis “abiertas” que autorizan la invalidación de un fallo, cuyo
+                                                                             propósito no ha podido ser otro que extender el abanico de posibi-
+                                                                             lidades o de situaciones susceptibles de encuadrar en la hipótesis
+                                                                             legal respectiva.
+
+Para los fines de la nulidad se han concebido causales genéricas o
                                                                              hipótesis “abiertas” que autorizan la invalidación de un fallo, cuyo
                                                                              propósito no ha podido ser otro que extender el abanico de posibi-
                                                                              lidades o de situaciones susceptibles de encuadrar en la hipótesis
@@ -5600,10 +5916,16 @@ juez de cobranza laboral                                                      de
                                                                              reservándose el sendero más estrecho para las cláusulas “tipificadas”,
                                                                              que toman la forma de “causales específicas”78.
 
-
 ## 7.13.2.1 Causales genéricas
 
-                                                                             En la primera parte del artículo 477 del CT se señala que este instituto
+**Definición Canónica:** En la primera parte del artículo 477 del CT se señala que este instituto
+                                                                             procede cuando, en la tramitación del procedimiento o en la dictación
+                                                                             de la sentencia definitiva, “se hubieren infringido sustancialmente
+                                                                             derechos o garantías constitucionales”, o aquella se hubiere dictado
+                                                                             con infracci
+**Concordancias Legales:** artículo 477 del CT se señala que este instituto; artículo 447 del Código del Trabajo; artículo 477; constitucion
+
+En la primera parte del artículo 477 del CT se señala que este instituto
                                                                              procede cuando, en la tramitación del procedimiento o en la dictación
                                                                              de la sentencia definitiva, “se hubieren infringido sustancialmente
                                                                              derechos o garantías constitucionales”, o aquella se hubiere dictado
@@ -5627,11 +5949,13 @@ juez de cobranza laboral                                                   de ca
                                                                           lo dispositivo del fallo (de la segunda parte del artículo 477, que es
                                                                           heredera de la casación en el fondo).79
 
-
 ## 7.13.2.2 Causales específicas
 
+**Definición Canónica:** El artículo 478 del CT presenta causales específicas de nulidad y las
+                                                                          señala de la siguiente manera:
+**Concordancias Legales:** artículo 478 del CT presenta causales específicas de nulidad y; artículos 459
 
-                                                                          El artículo 478 del CT presenta causales específicas de nulidad y las
+El artículo 478 del CT presenta causales específicas de nulidad y las
                                                                           señala de la siguiente manera:
 
                                                                           a. Cuando la sentencia haya sido pronunciada por juez incompe-
@@ -5668,10 +5992,15 @@ juez de cobranza laboral                                                   de ca
                                            justo y racional procedimiento. La causal de las letras b y c apuntan
                                            al razonamiento y correcta aplicación del derecho.
 
-
 ## 7.13.3 Requisitos y formalidades
 
-                                           El recurso de nulidad deberá interponerse por escrito, ante el tribunal
+**Definición Canónica:** El recurso de nulidad deberá interponerse por escrito, ante el tribunal
+                                           que hubiere dictado la resolución que se impugna, dentro del plazo
+                                           de diez días contados desde la notificación respectiva a la parte que
+                                           lo entabla.
+**Concordancias Legales:** artículo 478 del CT. Si; constitucion
+
+El recurso de nulidad deberá interponerse por escrito, ante el tribunal
                                            que hubiere dictado la resolución que se impugna, dentro del plazo
                                            de diez días contados desde la notificación respectiva a la parte que
                                            lo entabla.
@@ -5688,10 +6017,15 @@ juez de cobranza laboral                                                   de ca
                                            un recurso se fundare en distintas causales, deberá señalarse si se
                                            invocan conjunta o subsidiariamente.
 
-
 ## 7.13.4 Remisión de antecedentes al tribunal de alzada
 
-                                           Interpuesto el recurso, el tribunal a quo se pronunciará sobre su admi-
+**Definición Canónica:** Interpuesto el recurso, el tribunal a quo se pronunciará sobre su admi-
+                                           sibilidad, declarándolo admisible si reúne los requisitos establecidos
+                                           en el inciso primero del artículo 479 del CT (que se interponga por
+                                           escrito y dentro del plazo legal).
+**Concordancias Legales:** artículo 479 del CT
+
+Interpuesto el recurso, el tribunal a quo se pronunciará sobre su admi-
                                            sibilidad, declarándolo admisible si reúne los requisitos establecidos
                                            en el inciso primero del artículo 479 del CT (que se interponga por
                                            escrito y dentro del plazo legal).
@@ -5703,10 +6037,17 @@ juez de cobranza laboral                                                   de ca
                                            remitiendo copia de la resolución que se impugna, del registro de
                                            audio y de los escritos relativos al recurso deducido.
 
-
 ## 7.13.5 Resolución del recurso
 
-                                           Ingresado el recurso al tribunal ad quem, este se pronunciará en cuenta
+**Definición Canónica:** Ingresado el recurso al tribunal ad quem, este se pronunciará en cuenta
+                                           acerca de su admisibilidad, declarándolo inadmisible si no concu-
+                                           rrieren los requisitos del inciso primero del artículo 479, careciere
+                                           de fundamentos de hecho o de derecho o de peticiones concretas,
+                                           o, en los casos que corresponda, el recurso no se hubiere preparado
+                                           oportunamente.
+**Concordancias Legales:** artículo 479; artículo 482 del CT señala que no procederá recurso
+
+Ingresado el recurso al tribunal ad quem, este se pronunciará en cuenta
                                            acerca de su admisibilidad, declarándolo inadmisible si no concu-
                                            rrieren los requisitos del inciso primero del artículo 479, careciere
                                            de fundamentos de hecho o de derecho o de peticiones concretas,
@@ -5749,10 +6090,12 @@ juez de cobranza laboral                                                   de ca
                                                                           realizado como consecuencia de la resolución que hubiere acogido
                                                                           el recurso de nulidad.
 
-
 ## 7.14              Recurso de unificación
 
-                                                                               de jurisprudencia
+**Definición Canónica:** de jurisprudencia
+**Concordancias Legales:** artículo 483
+
+de jurisprudencia
 
                                                                           Desde que el recurso de nulidad –y con ello de la causal de infrac-
                                                                           ción de ley– es asignado a la competencia de Corte de Apelaciones,
@@ -5777,10 +6120,18 @@ juez de cobranza laboral                                                   de ca
 
 Curso habilitante Juez(a)                7. El procedimiento de                                                  137
 
-
 ## 7.14.1 Procedencia, objeto y resoluciones
 
-                                           susceptibles de este recurso
+**Definición Canónica:** susceptibles de este recurso
+                                           Procede cuando respecto de la materia de derecho que ha sido objeto
+                                           del juicio existieren distintas interpretaciones sostenidas en fallos fir-
+                                           mes de tribunales superiores de justicia. Es decir, sólo procede contra
+                                           las sentencias que se pronuncian respecto de un recurso de nulidad. Al
+                                           respecto, el artículo 483 del CT señala: “Excepcionalmente, contra la
+
+**Concordancias Legales:** artículo 483 del CT señala
+
+susceptibles de este recurso
                                            Procede cuando respecto de la materia de derecho que ha sido objeto
                                            del juicio existieren distintas interpretaciones sostenidas en fallos fir-
                                            mes de tribunales superiores de justicia. Es decir, sólo procede contra
@@ -5795,10 +6146,14 @@ juez de cobranza laboral                                                   de ca
                                            La propia denominación del recurso pone de manifiesto su propó-
                                            sito: uniformar.
 
-
 ## 7.14.2 Interposición y remisión de los antecedentes al
 
-                                           tribunal superior para el conocimiento del recurso
+**Definición Canónica:** tribunal superior para el conocimiento del recurso
+                                           El recurso deberá interponerse ante la Corte de Apelaciones co-
+                                           rrespondiente en el plazo de quince días desde la notificación de la
+                                           sentencia que se recurre, para que sea conocido por la Corte Suprema.
+
+tribunal superior para el conocimiento del recurso
                                            El recurso deberá interponerse ante la Corte de Apelaciones co-
                                            rrespondiente en el plazo de quince días desde la notificación de la
                                            sentencia que se recurre, para que sea conocido por la Corte Suprema.
@@ -5836,10 +6191,16 @@ juez de cobranza laboral                                                   de ca
                                            que se hubiere interpuesto el recurso y de los demás antecedentes
                                            necesarios para la resolución del mismo.
 
-
 ## 7.14.3 Tramitación ante la Corte Suprema
 
-                                           La sala especializada de la Corte Suprema sólo podrá declarar inad-
+**Definición Canónica:** La sala especializada de la Corte Suprema sólo podrá declarar inad-
+                                           misible el recurso por la unanimidad de sus miembros, mediante
+                                           resolución fundada en la falta de los requisitos de los incisos primero
+                                           y segundo del artículo 483-A del CT. Dicha resolución sólo podrá ser
+                                           objeto de recurso de reposición dentro de quinto día.
+**Concordancias Legales:** artículo 483
+
+La sala especializada de la Corte Suprema sólo podrá declarar inad-
                                            misible el recurso por la unanimidad de sus miembros, mediante
                                            resolución fundada en la falta de los requisitos de los incisos primero
                                            y segundo del artículo 483-A del CT. Dicha resolución sólo podrá ser
@@ -5869,10 +6230,12 @@ juez de cobranza laboral                                                   de ca
                                             especiales
 Curso habilitante Juez(a)                                                  8. Procedimientos especiales                                              140
 
-
 ## 8.1           El procedimiento
 
-                                                                             monitorio
+**Definición Canónica:** monitorio
+**Concordancias Legales:** Ley Nº 20.087
+
+monitorio
 
                                                                              El procedimiento monitorio es una innovación incorporada por la
                                                                              reforma de la Ley Nº 20.087 de 2006. Proviene del derecho europeo
@@ -5898,18 +6261,22 @@ juez de cobranza laboral                                                   de ca
                                                                              Existe entonces un traslado de responsabilidad hacia el demandado,
                                                                              ya que en él recae la carga de activar la contradicción (audiencia).
 
-
 ## 81   PÉREZ RAGONE, Álvaro (2006): “En torno al procedimiento monitorio desde el derecho procesal comparado
 
-                                              europeo: caracterización, elementos esenciales y accidentales”, en Revista de Derecho, Vol. XIX N° 1, julio
+**Definición Canónica:** europeo: caracterización, elementos esenciales y accidentales”, en Revista de Derecho, Vol. XIX N° 1, julio
+                                              2006, pp. 205-235.
+
+europeo: caracterización, elementos esenciales y accidentales”, en Revista de Derecho, Vol. XIX N° 1, julio
                                               2006, pp. 205-235.
 
 Curso habilitante Juez(a)                      8. Procedimientos especiales                                           141
 
-
 ## 8.2          Procedencia en
 
-                                                      materia laboral
+**Definición Canónica:** materia laboral
+**Concordancias Legales:** artículo 496; artículo 503 del CT agrega también las reclama; artículo 504 del CT establece que; artículos 500; artículo 498 del CT
+
+materia laboral
 
                                                  Conforme a lo señalado en el artículo 496 del CT, este procedimiento
                                                  procederá respecto de las contiendas cuya cuantía sea igual o inferior
@@ -5935,10 +6302,12 @@ juez de cobranza laboral                                                   de ca
                                                  una opción, sino que resulta obligatorio en los casos para los cuales
                                                  se prevé, salvo el caso especialísimo del artículo 498 del CT.
 
-
 ## 8.3     Actuación administrativa
 
-                                                 y alcances
+**Definición Canónica:** y alcances
+**Concordancias Legales:** artículo 478
+
+y alcances
 
                                                  Para demandar conforme a este procedimiento, respecto de las
                                                  contiendas procedentes por cuantía, se requiere previamente haber
@@ -5962,10 +6331,11 @@ juez de cobranza laboral                                                   de ca
                                                de trabajo, balances, comprobantes de remuneraciones, registros de
                                                asistencia y cualesquier otros que estimen pertinentes.
 
-
 ## 8.4   La demanda
 
-                                               monitoria
+**Definición Canónica:** monitoria
+
+monitoria
 
                                                Si no dio resultado el llamado a conciliación en la etapa adminis-
                                                trativa, el trabajador queda habilitado para accionar judicialmente
@@ -5973,10 +6343,12 @@ juez de cobranza laboral                                                   de ca
                                                las menciones básicas de toda demanda, debiendo acompañarse el
                                                acta de la sede administrativa y los documentos presentados.
 
-
 ## 8.5   Deberes y atribuciones del juez en
 
-                                               el procedimiento monitorio
+**Definición Canónica:** el procedimiento monitorio
+**Concordancias Legales:** artículo 500 del CT. En efecto
+
+el procedimiento monitorio
 
                                                Frente a la demanda el juez tiene varias posibilidades, conforme al
                                                artículo 500 del CT. En efecto, puede acogerla inmediatamente, si
@@ -5991,10 +6363,12 @@ juez de cobranza laboral                                                   de ca
                                                  utiliza en las tres primeras opciones y no en la última, ya que –en
                                                  tal caso– opera como un procedimiento declarativo concentrado.
 
-
 ## 8.6     Efectos de la decisión del juez al
 
-                                                 aceptar o rechazar demanda
+**Definición Canónica:** aceptar o rechazar demanda
+**Concordancias Legales:** artículo 500 del CT aporta algunos indicadores que el juez deb
+
+aceptar o rechazar demanda
 
                                                  El artículo 500 del CT aporta algunos indicadores que el juez debe
                                                  atender para pronunciarse respecto de la demanda y dentro de los
@@ -6011,11 +6385,15 @@ juez de cobranza laboral                                                   de ca
                                                  ducirá la falta de reclamo o su presentación extemporánea, los cuales
                                                  consisten en el carácter de título ejecutivo que adquiere la decisión.
 
-
 ## 8.7     Reclamo
 
+**Definición Canónica:** En contra de la resolución monitoria que se pronuncia sobre la de-
+                                                 manda, cualquiera de las partes puede reclamar, para lo cual disponen
+                                                 de un plazo de diez días hábiles contados desde la notificación. No
+                                                 procede ningún otro recurso.
+**Concordancias Legales:** artículo 462
 
-                                                 En contra de la resolución monitoria que se pronuncia sobre la de-
+En contra de la resolución monitoria que se pronuncia sobre la de-
                                                  manda, cualquiera de las partes puede reclamar, para lo cual disponen
                                                  de un plazo de diez días hábiles contados desde la notificación. No
                                                  procede ningún otro recurso.
@@ -6027,10 +6405,12 @@ juez de cobranza laboral                                                   de ca
 
 Curso habilitante Juez(a)                                                 8. Procedimientos especiales                                             144
 
-
 ## 8.8           Audiencia de juicio
 
-                                                                            y sentencia
+**Definición Canónica:** y sentencia
+**Concordancias Legales:** artículo 459 del CT; artículo 457
+
+y sentencia
 
                                                                             La etapa de contradicción, de haberla, se inicia con la presentación
                                                                             del reclamo dentro de plazo. El escrito por el cual se reclama no
@@ -6062,10 +6442,12 @@ juez de cobranza laboral                                                   de ca
                                                                             primero del artículo 457 del CT, es decir, igual que las sentencias del
                                                                             procedimiento de aplicación general.
 
-
 ## 82   La Ley N° 20.974, de 3 de diciembre de 2006, introdujo modificaciones a las normas sobre procedimiento de
 
-                                              tutela laboral y procedimiento monitorio.
+**Definición Canónica:** tutela laboral y procedimiento monitorio.
+**Concordancias Legales:** artículo 502 del CT indica que las resoluciones dictadas en el
+
+tutela laboral y procedimiento monitorio.
 
 Curso habilitante Juez(a)                                            8. Procedimientos especiales                                          145
 
@@ -6093,7 +6475,14 @@ juez de cobranza laboral                                                   de ca
 
 ## 8.9.1 Procedimiento de tutela de
 
-                                         procedimiento de              derechos fundamentales
+**Definición Canónica:** procedimiento de              derechos fundamentales
+                                         tutela laboral radica         El llamado procedimiento de tutela laboral es un procedimiento de
+                                         en la novedad del             derechos fundamentales y ha sido tomado, en lo sustancial, del sistema
+                                         arbitrio en el sistema        judicial laboral español. Está regulado en el párrafo 6° del Capítulo
+                                                                       II, Título I del Libro V del Código del Trabajo, en los 
+**Concordancias Legales:** artículos 485; artículo 485 del Código del Trabajo
+
+procedimiento de              derechos fundamentales
                                          tutela laboral radica         El llamado procedimiento de tutela laboral es un procedimiento de
                                          en la novedad del             derechos fundamentales y ha sido tomado, en lo sustancial, del sistema
                                          arbitrio en el sistema        judicial laboral español. Está regulado en el párrafo 6° del Capítulo
@@ -6150,10 +6539,12 @@ juez de cobranza laboral                                                   de ca
 
 Curso habilitante Juez(a)                                                   8. Procedimientos especiales                                                 147
 
-
 ## 8.10                Acción de tutela de
 
-                                                                                   derechos fundamentales
+**Definición Canónica:** derechos fundamentales
+**Concordancias Legales:** artículo 485; artículo 20 de la Constitución Política de la República; Constitución Política
+
+derechos fundamentales
 
                                                                               Esta acción se concibe desde la asimetría de poder que existe en el
                                                                               contrato de trabajo, la que genera una situación propicia o “caldo de
@@ -6177,10 +6568,12 @@ juez de cobranza laboral                                                   de ca
                                                                               Esta acción es incompatible con el recurso o acción de protección
                                                                               del artículo 20 de la Constitución Política de la República.
 
-
 ## 8.11                Derechos
 
-                                                                                   tutelados
+**Definición Canónica:** tutelados
+**Concordancias Legales:** artículo 485 del CT limita la protección a ciertos; artículo 2
+
+tutelados
 
                                                                               La norma chilena del artículo 485 del CT limita la protección a ciertos
                                                                               y determinados derechos protegidos en la CPR, a saber:
@@ -6222,11 +6615,14 @@ juez de cobranza laboral                                                   de ca
 
 Curso habilitante Juez(a)                  8. Procedimientos especiales                                          149
 
-
 ## 8.12     Caducidad
 
+**Definición Canónica:** Esta acción puede interponerse por la vulneración de derechos que
+                                             ocurre estando vigente la relación laboral o también “con ocasión”
+                                             de un despido que ha sido vulneratorio.
+**Concordancias Legales:** artículo 486; artículo 168 del CT
 
-                                             Esta acción puede interponerse por la vulneración de derechos que
+Esta acción puede interponerse por la vulneración de derechos que
                                              ocurre estando vigente la relación laboral o también “con ocasión”
                                              de un despido que ha sido vulneratorio.
 
@@ -6241,11 +6637,16 @@ juez de cobranza laboral                                                   de ca
                                              ante la Inspección del trabajo, conforme al artículo 168 del CT
                                              (aplicable para la caducidad de la acción por despido injustificado).
 
-
 ## 8.13     Titularidad
 
+**Definición Canónica:** La acción de tutela laboral otorga legitimación activa, además del
+                                             propio trabajador afectado, a la organización sindical y a la Inspección
+                                             del Trabajo. Sin embargo, para los casos de despido vulneratorio sólo
+                                             se permite que interponga la acción el trabajador afectado (inciso
+                                             primero del artículo 489 del CT).
+**Concordancias Legales:** artículo 489
 
-                                             La acción de tutela laboral otorga legitimación activa, además del
+La acción de tutela laboral otorga legitimación activa, además del
                                              propio trabajador afectado, a la organización sindical y a la Inspección
                                              del Trabajo. Sin embargo, para los casos de despido vulneratorio sólo
                                              se permite que interponga la acción el trabajador afectado (inciso
@@ -6264,10 +6665,13 @@ juez de cobranza laboral                                                   de ca
                                                                               a fin de agotar las posibilidades de corrección de las infracciones
                                                                               constatadas.84
 
-
 ## 8.14                Deberes y atribuciones del juez en el
 
-                                                                                   procedimiento de tutela de
+**Definición Canónica:** procedimiento de tutela de
+                                                                                   derechos fundamentales
+**Concordancias Legales:** artículo 492 del Código del Trabajo; artículo 495 del CT insiste en que; constitucion
+
+procedimiento de tutela de
                                                                                    derechos fundamentales
 
                                                                               El juez posee los mismos deberes y atribuciones que en los otros
@@ -6307,10 +6711,12 @@ juez de cobranza laboral                                                   de ca
                                              se abstendrá de autorizar cualquier tipo de acuerdo que mantenga
                                              indemne la conducta lesiva de derechos fundamentales.
 
-
 ## 8.15     Prueba
 
-                                                  indiciaria
+**Definición Canónica:** indiciaria
+**Concordancias Legales:** artículo 493 del Código del Trabajo consagra una rebaja o aten
+
+indiciaria
 
                                              El artículo 493 del Código del Trabajo consagra una rebaja o atenua-
                                              ción en la carga probatoria de la víctima de vulneración y establece
@@ -6327,10 +6733,12 @@ juez de cobranza laboral                                                   de ca
                                              supone indefensión y se debe establecer un sistema probatorio tutelar
                                              de estos derechos, acorde con la intención de protegerlos.
 
-
 ## 8.16     La sentencia en el procedimiento de
 
-                                                  tutela de derechos fundamentales
+**Definición Canónica:** tutela de derechos fundamentales
+**Concordancias Legales:** artículo 495 del CT establece un plazo; artículo 489 del CT establece; artículo 489; artículo 495 del CT. La norma; artículo 495; artículo 4 de la Ley Nº 19.886; Ley Nº 19.886; Ley Nº 20.238
+
+tutela de derechos fundamentales
 
                                              Respecto de la sentencia, el artículo 495 del CT establece un plazo
                                              menor al del procedimiento de aplicación general, de sólo diez días.
@@ -6382,11 +6790,15 @@ juez de cobranza laboral                                                   de ca
 
 Curso habilitante Juez(a)                   8. Procedimientos especiales                                          153
 
-
 ## 8.17      Recursos
 
+**Definición Canónica:** La sentencia definitiva en procedimiento de tutela laboral es impug-
+                                              nable a través del recurso de nulidad laboral, que se ha explicado más
+                                              atrás. De darse los supuestos, también podría ser revisado en sede
+                                              unificación de jurisprudencia.
+**Concordancias Legales:** artículo 492; artículo 488
 
-                                              La sentencia definitiva en procedimiento de tutela laboral es impug-
+La sentencia definitiva en procedimiento de tutela laboral es impug-
                                               nable a través del recurso de nulidad laboral, que se ha explicado más
                                               atrás. De darse los supuestos, también podría ser revisado en sede
                                               unificación de jurisprudencia.
@@ -6398,10 +6810,11 @@ juez de cobranza laboral                                                   de ca
                                               que se tramiten ante el tribunal, al igual que su tramitación (artículo
                                               488 CT).
 
-
 ## 8.18      Las reclamaciones de
 
-                                                   multas administrativas
+**Definición Canónica:** multas administrativas
+
+multas administrativas
 
                                               Se tramitan conforme al procedimiento de aplicación general o al
                                               procedimiento monitorio, dependiendo de la cuantía de la multa.
@@ -6420,20 +6833,31 @@ juez de cobranza laboral                                                   de ca
                                                                                judicial, teniendo en cuenta que se limita –efectivamente– a “hechos”
                                                                                constatados por escrito y no a meras apreciaciones subjetivas.
 
-
 ## 8.18.1 Clases de reclamación
 
-                                                                               Existen dos tipos de acciones de reclamo relativas a multas que vale
+**Definición Canónica:** Existen dos tipos de acciones de reclamo relativas a multas que vale
+                                                                               la pena distinguir, por cuanto el objeto es diverso. Ambas tienen
+                                                                               establecidos los trámites principales de su tramitación en el artículo
+                                                                               503 del CT, pero el alcance de la competencia del juez laboral es
+                                                                               distinto en 
+**Concordancias Legales:** artículo 503
+
+Existen dos tipos de acciones de reclamo relativas a multas que vale
                                                                                la pena distinguir, por cuanto el objeto es diverso. Ambas tienen
                                                                                establecidos los trámites principales de su tramitación en el artículo
                                                                                503 del CT, pero el alcance de la competencia del juez laboral es
                                                                                distinto en cada caso.
 
-
 ## 8.18.1.1 La acción del artículo 503 del CT
 
+**Definición Canónica:** “Artículo 503. Las sanciones por infracciones a la legislación
+                                                                                    laboral y de seguridad social y a sus reglamentos, se aplicarán
+                                                                                    administrativamente por los respectivos inspectores del trabajo o
+                                                                                    por los funcionarios que se determinen en el reglamento corres-
+                                                                                    pondien
+**Concordancias Legales:** Artículo 503; artículo 4; artículo 23 del DFL N; artículos 500; artículo 502
 
-                                                                                    “Artículo 503. Las sanciones por infracciones a la legislación
+“Artículo 503. Las sanciones por infracciones a la legislación
                                                                                     laboral y de seguridad social y a sus reglamentos, se aplicarán
                                                                                     administrativamente por los respectivos inspectores del trabajo o
                                                                                     por los funcionarios que se determinen en el reglamento corres-
@@ -6477,10 +6901,13 @@ juez de cobranza laboral                                                   de ca
 
                                            respecto de los hechos constatados.
 
-
 ## 8.18.1.2 La acción del artículo 511 y 512 del CT
 
-                                           Se trata de una acción judicial de revisión de una solicitud de recon-
+**Definición Canónica:** Se trata de una acción judicial de revisión de una solicitud de recon-
+                                           sideración administrativa:
+**Concordancias Legales:** Artículo 511; artículo 503; artículo 506 ter
+
+Se trata de una acción judicial de revisión de una solicitud de recon-
                                            sideración administrativa:
 
                                                “Artículo 511. Facúltase al Director del Trabajo, en los casos en
@@ -6489,13 +6916,13 @@ juez de cobranza laboral                                                   de ca
                                                este Código, para reconsiderar las multas administrativas impues-
                                                tas por funcionarios de su dependencia en la forma siguiente:
 
-## 1. Dejando sin efecto la multa, cuando aparezca de manifiesto
-
-                                                   que se ha incurrido en un error de hecho al aplicar la sanción.
-
 ## 2. Rebajando la multa, cuando se acredite fehacientemente
 
-                                                   haber dado íntegro cumplimiento, a las disposiciones legales,
+**Definición Canónica:** haber dado íntegro cumplimiento, a las disposiciones legales,
+                                                   convencionales o arbitrales cuya infracción motivó la sanción.
+**Concordancias Legales:** Artículo 512; artículo 474
+
+haber dado íntegro cumplimiento, a las disposiciones legales,
                                                    convencionales o arbitrales cuya infracción motivó la sanción.
 
                                                Si dentro de los quince días siguientes de notificada la multa,
@@ -6522,7 +6949,10 @@ juez de cobranza laboral                                                   de ca
 
 ## 503 CT (ya que resultan incompatibles ambas reclamaciones) y sólo
 
-                                           ha solicitado al Director del Trabajo que reconsidere la multa deján-
+**Definición Canónica:** ha solicitado al Director del Trabajo que reconsidere la multa deján-
+                                           dola sin efecto (en el caso que pueda acreditar un error de hecho del
+
+ha solicitado al Director del Trabajo que reconsidere la multa deján-
                                            dola sin efecto (en el caso que pueda acreditar un error de hecho del
 
                                            fiscalizador) o que la rebaje (si dio cumplimiento íntegro a la norma
@@ -6532,10 +6962,16 @@ juez de cobranza laboral                                                   de ca
 
                                            Ambas acciones tienen idéntica tramitación en relación a la cuantía.
 
-
 ## 8.18.2 Recursos
 
-                                           Las resoluciones que se dicten en estos procedimientos son suscep-
+**Definición Canónica:** Las resoluciones que se dicten en estos procedimientos son suscep-
+                                           tibles de todos los recursos establecidos en el Código del Trabajo,
+                                           con excepción del recurso de unificación de jurisprudencia, según
+                                           lo dispuesto en el inciso final del artículo 503 del CT (por cuanto se
+                                           hace aplicable el artículo 502 del CT).
+**Concordancias Legales:** artículo 503 del CT; artículo 502; artículo 470 del CT; artículo 470
+
+Las resoluciones que se dicten en estos procedimientos son suscep-
                                            tibles de todos los recursos establecidos en el Código del Trabajo,
                                            con excepción del recurso de unificación de jurisprudencia, según
                                            lo dispuesto en el inciso final del artículo 503 del CT (por cuanto se
@@ -6613,41 +7049,31 @@ de letras del trabajo y                           títulos ejecutivos laborales
                                                  ——       La limitación de los medios de impugnación durante la eje-
                                                           cución.
 
-
 ## 9.1     Los títulos
 
-                                                 ejecutivos laborales
+**Definición Canónica:** ejecutivos laborales
+**Concordancias Legales:** artículo 464 del Código del Trabajo
+
+ejecutivos laborales
 
                                                  Se mencionan en el artículo 464 del Código del Trabajo, a saber:
                                                  1. Las sentencias ejecutoriadas.
 
 ## 2. La transacción, conciliación y avenimiento que cumplan con las
 
-                                                    formalidades establecidas en la ley.
+**Definición Canónica:** formalidades establecidas en la ley.
+
+formalidades establecidas en la ley.
 
 Curso habilitante Juez(a)                      9. Procedimiento aplicable a los                                      160
 de letras del trabajo y                           títulos ejecutivos laborales
 
-
-## 3. Los finiquitos autorizados por el Inspector del Trabajo o por
-
-                                                    funcionarios a los cuales la ley faculta para actuar como ministros
-                                                    de fe en el ámbito laboral.
-
-## 4. Las actas firmadas por las partes, y autorizadas por los inspectores
-
-                                                    del Trabajo y que den constancia de acuerdos producidos ante es-
-                                                    tos o que contengan el reconocimiento de una obligación laboral.
-
-## 5. Los originales de los instrumentos colectivos del trabajo, respec-
-
-                                                    to de aquellas cláusulas que contengan obligaciones líquidas y
-                                                    actualmente exigibles.
-
 ## 6. Cualquier otro título a que las leyes laborales o de seguridad
 
+**Definición Canónica:** social otorguen fuerza ejecutiva.
+**Concordancias Legales:** artículo 468; artículo 169 del CT y los títulos ejecutivos previsionales
 
-                                                    social otorguen fuerza ejecutiva.
+social otorguen fuerza ejecutiva.
 
                                                  Dentro de títulos que la norma no menciona se pueden señalar
                                                  el pacto de pago de crédito en cuotas debidamente ratificado, del
@@ -6657,15 +7083,17 @@ de letras del trabajo y                           títulos ejecutivos laborales
                                                  de cobranza emitidas por las instituciones de seguridad social, esto
                                                  es, AFP, ISAPREs, CCAF, AFC, Mutuales e INP).
 
-
-## 9.2     Normas sobre el cumplimiento
-
-                                                 de la sentencia
-
-
 ## 9.2.1 Oficialidad en el inicio de la ejecución
 
-                                                 El artículo 462 del CT señala que, una vez firme la sentencia y
+**Definición Canónica:** El artículo 462 del CT señala que, una vez firme la sentencia y
+                                                 siempre que no se acredite su cumplimiento dentro del término de
+                                                 cinco días, se dará inicio a su ejecución de oficio por el tribunal, de
+                                                 conformidad a lo dispuesto en los artículos siguientes. Se trata de
+                                                 una manifestación del principio de oficialidad que debe inspirar la
+                                                 ejecución laboral.
+**Concordancias Legales:** artículo 462 del CT señala que
+
+El artículo 462 del CT señala que, una vez firme la sentencia y
                                                  siempre que no se acredite su cumplimiento dentro del término de
                                                  cinco días, se dará inicio a su ejecución de oficio por el tribunal, de
                                                  conformidad a lo dispuesto en los artículos siguientes. Se trata de
@@ -6675,10 +7103,18 @@ de letras del trabajo y                           títulos ejecutivos laborales
 Curso habilitante Juez(a)                9. Procedimiento aplicable a los                                       161
 de letras del trabajo y                     títulos ejecutivos laborales
 
-
 ## 9.2.2 Remisión de la causa al juzgado de
 
-                                           cobranza laboral y previsional
+**Definición Canónica:** cobranza laboral y previsional
+                                           El artículo 461 del CT señala que, una vez ejecutoriada la sentencia y
+                                           trascurrido el plazo señalado en el artículo 462, el tribunal ordenará el
+                                           cumplimiento del fallo y lo remitirá, junto a sus antecedentes, dentro
+                                           de quinto día al Juzgado de Cobranza Laboral y Previsional, cuando
+                                           ello fuere procedente, a fin de que este continúe con la ejecución de
+ 
+**Concordancias Legales:** artículo 461 del CT señala que; artículo 462; artículo 461
+
+cobranza laboral y previsional
                                            El artículo 461 del CT señala que, una vez ejecutoriada la sentencia y
                                            trascurrido el plazo señalado en el artículo 462, el tribunal ordenará el
                                            cumplimiento del fallo y lo remitirá, junto a sus antecedentes, dentro
@@ -6686,10 +7122,12 @@ de letras del trabajo y                     títulos ejecutivos laborales
                                            ello fuere procedente, a fin de que este continúe con la ejecución de
                                            conformidad a las reglas del mismo artículo 461.
 
-
 ## 9.2.3 Tramitación de la causa en sede ejecución
 
-                                           Recibidos los antecedentes por el Juzgado de Cobranza Laboral y
+**Definición Canónica:** Recibidos los antecedentes por el Juzgado de Cobranza Laboral y
+                                           Previsional, o certificado por el tribunal que dictó la sentencia que
+
+Recibidos los antecedentes por el Juzgado de Cobranza Laboral y
                                            Previsional, o certificado por el tribunal que dictó la sentencia que
 
                                            esta se encuentra ejecutoriada, según el caso, se deberán remitir sin
@@ -6729,10 +7167,12 @@ de letras del trabajo y                     títulos ejecutivos laborales
                                            sin su contestación se resolverá sin más trámites, siendo la sentencia
                                            apelable en el sólo efecto devolutivo.
 
-
 ## 9.2.4 Embargo sin orden previa
 
-                                           Si no se ha pagado dentro del plazo señalado para ello (cinco días a
+**Definición Canónica:** Si no se ha pagado dentro del plazo señalado para ello (cinco días a
+                                           contar del requerimiento), el ministro de fe designado por el tribu-
+
+Si no se ha pagado dentro del plazo señalado para ello (cinco días a
                                            contar del requerimiento), el ministro de fe designado por el tribu-
 
                                            nal procederá a trabar embargo sobre bienes muebles e inmuebles
@@ -6740,10 +7180,16 @@ de letras del trabajo y                     títulos ejecutivos laborales
                                            tasando prudencialmente los mismos y consignándolo así en el acta de
                                            la diligencia, todo ello sin que sea necesaria orden previa del tribunal.
 
-
 ## 9.2.5 Sentencia de pago o remate
 
-                                           Si no ha habido oposición oportuna o existiendo ha sido desechada,
+**Definición Canónica:** Si no ha habido oposición oportuna o existiendo ha sido desechada,
+                                           se ordenará sin más trámite hacer debido pago al ejecutante con los
+                                           fondos retenidos, embargados o cautelados. En su caso, los bienes
+                                           embargados serán rematados en cifras no menores al setenta y cin-
+                                           co por ciento de la tasación en primera subasta; en la segunda, el
+                                           mínimo será del cincuenta por ciento del valor de l
+
+Si no ha habido oposición oportuna o existiendo ha sido desechada,
                                            se ordenará sin más trámite hacer debido pago al ejecutante con los
                                            fondos retenidos, embargados o cautelados. En su caso, los bienes
                                            embargados serán rematados en cifras no menores al setenta y cin-
@@ -6751,10 +7197,13 @@ de letras del trabajo y                     títulos ejecutivos laborales
                                            mínimo será del cincuenta por ciento del valor de la tasación y en
                                            la tercera no habrá mínimo.
 
-
 ## 9.2.6 Adjudicación con cargo al
 
-                                           crédito y normas supletorias
+**Definición Canónica:** crédito y normas supletorias
+                                           El ejecutante podrá participar en el remate y adjudicarse los bienes
+                                           con cargo al monto de su crédito.
+
+crédito y normas supletorias
                                            El ejecutante podrá participar en el remate y adjudicarse los bienes
                                            con cargo al monto de su crédito.
 
@@ -6766,18 +7215,28 @@ de letras del trabajo y                     títulos ejecutivos laborales
 Curso habilitante Juez(a)                      9. Procedimiento aplicable a los                                      163
 de letras del trabajo y                           títulos ejecutivos laborales
 
-
 ## 9.2.7 Recursos
 
-                                                 Las resoluciones que se dicten en este procedimiento son inapelables,
+**Definición Canónica:** Las resoluciones que se dicten en este procedimiento son inapelables,
+                                                 salvo lo dispuesto en el artículo 470 del CT, es decir, la resolución
+                                                 que se pronuncia sobre las excepciones (que se concede en el sólo
+                                                 efecto devolutivo).
+**Concordancias Legales:** artículo 470
+
+Las resoluciones que se dicten en este procedimiento son inapelables,
                                                  salvo lo dispuesto en el artículo 470 del CT, es decir, la resolución
                                                  que se pronuncia sobre las excepciones (que se concede en el sólo
                                                  efecto devolutivo).
 
-
 ## 9.2.8 Medida cautelar especial
 
-                                                 Iniciada la ejecución, el tribunal, de oficio o a petición de parte, po-
+**Definición Canónica:** Iniciada la ejecución, el tribunal, de oficio o a petición de parte, po-
+                                                 drá ordenar a la Tesorería General de la República que retenga, de
+                                                 las sumas que por concepto de devolución de impuesto a la renta
+                                                 corresponda restituir al ejecutado, el monto objeto de la ejecución,
+                                                 con sus reajustes, intereses y multas. Esta medida tendrá el carácter
+
+Iniciada la ejecución, el tribunal, de oficio o a petición de parte, po-
                                                  drá ordenar a la Tesorería General de la República que retenga, de
                                                  las sumas que por concepto de devolución de impuesto a la renta
                                                  corresponda restituir al ejecutado, el monto objeto de la ejecución,
@@ -6785,10 +7244,17 @@ de letras del trabajo y                           títulos ejecutivos laborales
 
                                                  de cautelar.
 
-
 ## 9.2.9 Aseguramiento del acuerdo de pago en cuotas
 
-                                                 El art 468 propone una norma que grava el incumplimiento de
+**Definición Canónica:** El art 468 propone una norma que grava el incumplimiento de
+                                                 un acuerdo de pago. Se trata del caso que las partes acordaren una
+                                                 forma de pago del crédito perseguido en la causa, el pacto corres-
+                                                 pondiente deberá ser ratificado ante el o la juez de la causa y la o
+                                                 las cuotas acordadas deberán consignar los reajustes e intereses del
+                                                 período. El pacto así r
+**Concordancias Legales:** artículo 473
+
+El art 468 propone una norma que grava el incumplimiento de
                                                  un acuerdo de pago. Se trata del caso que las partes acordaren una
                                                  forma de pago del crédito perseguido en la causa, el pacto corres-
                                                  pondiente deberá ser ratificado ante el o la juez de la causa y la o
@@ -6820,25 +7286,39 @@ de letras del trabajo y                     títulos ejecutivos laborales
                                            tica del CPC, sino que tiene que revisarse su compatibilidad con el
                                            modelo implementado en la última reforma procesal laboral.
 
-
 ## 9.3.1 Oficialidad
 
-                                           La tramitación de los títulos ejecutivos laborales se desarrollará de
+**Definición Canónica:** La tramitación de los títulos ejecutivos laborales se desarrollará de
                                            oficio y por escrito por el tribunal, dictándose al efecto las resolu-
                                            ciones y ordenándose las diligencias que sean necesarias para ello.
 
+La tramitación de los títulos ejecutivos laborales se desarrollará de
+                                           oficio y por escrito por el tribunal, dictándose al efecto las resolu-
+                                           ciones y ordenándose las diligencias que sean necesarias para ello.
 
 ## 9.3.2 Liquidación coetánea al “despáchese”
 
-                                           Una vez despachada la ejecución, el juez deberá remitir sin más trá-
+**Definición Canónica:** Una vez despachada la ejecución, el juez deberá remitir sin más trá-
                                            mite la causa a la unidad de liquidación o al funcionario encargado,
                                            según corresponda, para que se proceda a la liquidación del crédito,
                                            lo que deberá hacerse dentro de tercer día.
 
+Una vez despachada la ejecución, el juez deberá remitir sin más trá-
+                                           mite la causa a la unidad de liquidación o al funcionario encargado,
+                                           según corresponda, para que se proceda a la liquidación del crédito,
+                                           lo que deberá hacerse dentro de tercer día.
 
 ## 9.3.3 Notificación y requerimiento
 
-                                           En los juicios ejecutivos se practicará personalmente el requerimiento
+**Definición Canónica:** En los juicios ejecutivos se practicará personalmente el requerimiento
+                                           de pago al deudor y la notificación de la liquidación, pero si este no
+                                           es habido se procederá en la forma establecida en el artículo 437 del
+                                           CT, expresándose en la copia a que el mismo refiere, a más del man-
+                                           damiento, la designación del día, hora y lugar que fije el ministro de
+                                           fe para practicar el requerimiento
+**Concordancias Legales:** artículo 437
+
+En los juicios ejecutivos se practicará personalmente el requerimiento
                                            de pago al deudor y la notificación de la liquidación, pero si este no
                                            es habido se procederá en la forma establecida en el artículo 437 del
                                            CT, expresándose en la copia a que el mismo refiere, a más del man-
@@ -6846,10 +7326,15 @@ de letras del trabajo y                     títulos ejecutivos laborales
                                            fe para practicar el requerimiento. No concurriendo a esta citación
                                            el deudor, se trabará embargo inmediatamente y sin más trámite.
 
-
 ## 9.3.4 Remisión a normas del cumplimiento de sentencia
 
-                                           En todos los demás aspectos, se aplicarán al juicio ejecutivo las reglas
+**Definición Canónica:** En todos los demás aspectos, se aplicarán al juicio ejecutivo las reglas
+                                           contenidas en los artículos 467, 468, 469, 470 inciso primero, y 471
+                                           incisos segundo y tercero, todos del CT, respecto del cumplimiento
+                                           de la sentencia, los que ya han sido referidos.
+**Concordancias Legales:** artículos 467; Ley N° 17.322; Ley Nº 20.023
+
+En todos los demás aspectos, se aplicarán al juicio ejecutivo las reglas
                                            contenidas en los artículos 467, 468, 469, 470 inciso primero, y 471
                                            incisos segundo y tercero, todos del CT, respecto del cumplimiento
                                            de la sentencia, los que ya han sido referidos.
@@ -6867,7 +7352,12 @@ juez de cobranza laboral                      cobranza laboral y previsional
 
 ## 2005. Esta ley dispone un juicio ejecutivo muy rápido y expedito para
 
-                                           el cobro de las prestaciones relativas a cotizaciones previsionales de
+**Definición Canónica:** el cobro de las prestaciones relativas a cotizaciones previsionales de
+                                           salud y seguridad social, en general, adeudadas por los empleadores
+                                           a la instituciones correspondientes.
+**Concordancias Legales:** artículo 4 bis; artículo 31 bis; artículo 4; Ley Nº 20.023; Ley Nº 20.084; DL 3.500
+
+el cobro de las prestaciones relativas a cotizaciones previsionales de
                                            salud y seguridad social, en general, adeudadas por los empleadores
                                            a la instituciones correspondientes.
 
@@ -6907,10 +7397,12 @@ juez de cobranza laboral                      cobranza laboral y previsional
 de letras del trabajo y                         procedimiento en juicio de
 juez de cobranza laboral                        cobranza laboral y previsional
 
-
 ## 10.1     Los títulos ejecutivos de
 
-                                                  seguridad social
+**Definición Canónica:** seguridad social
+**Concordancias Legales:** artículo 2 de la Ley Nº 17.322 señala que el jefe de servicio; artículo 3; Ley Nº 17.322
+
+seguridad social
 
                                              El título ejecutivo de este tipo de procedimientos es la resolución de
                                              la institución previsional respectiva que determina el cobro. Es decir,
@@ -6944,10 +7436,11 @@ juez de cobranza laboral                        cobranza laboral y previsional
 de letras del trabajo y                         procedimiento en juicio de
 juez de cobranza laboral                        cobranza laboral y previsional
 
-
 ## 10.2     Titularidad de la acción. La demanda
 
-                                                  ejecutiva y su ampliación.
+**Definición Canónica:** ejecutiva y su ampliación.
+
+ejecutiva y su ampliación.
 
                                              La titularidad de la acción de cobro de aportes previsionales la tiene
                                              la institución previsional o de seguridad social respectiva (encargada
@@ -6971,10 +7464,12 @@ juez de cobranza laboral                        cobranza laboral y previsional
                                              cuaderno de apremio respecto de las demás resoluciones de cobro
                                              en que no se opusieron excepciones o fueron rechazadas.
 
-
 ## 10.3     Las excepciones en el procedimiento
 
-                                                  ejecutivo de cobranza
+**Definición Canónica:** ejecutivo de cobranza
+**Concordancias Legales:** artículo 30 del Curso habilitante Juez; artículo 464 del CPC; DFL 150
+
+ejecutivo de cobranza
 
                                              El ejecutado puede oponer excepciones dentro de un plazo de cin-
                                              co días a contar del requerimiento de pago (no existe aumento del
@@ -7002,10 +7497,12 @@ juez de cobranza laboral                        cobranza laboral y previsional
                                              dictará sentencia que es apelable, en conformidad a lo que se dirá
                                              más adelante.
 
-
 ## 10.4     Acción de reclamación, causales
 
-                                                  y procedimiento aplicable
+**Definición Canónica:** y procedimiento aplicable
+**Concordancias Legales:** artículo 4; artículo 4 bis
+
+y procedimiento aplicable
 
                                              La acción reclamación del artículo 4 de la ley es una forma de per-
                                              mitir que el propietario de los aportes, por sí o representado por un
@@ -7052,10 +7549,12 @@ juez de cobranza laboral                        cobranza laboral y previsional
                                              fundada y la circunstancia de negligencia debe ocasionar un perjuicio
                                              previsional directo al trabajador.
 
-
 ## 10.5     Normas
 
-                                                  supletorias
+**Definición Canónica:** supletorias
+**Concordancias Legales:** artículos 434
+
+supletorias
 
                                              A diferencia de los restantes procedimientos, el procedimiento de
                                              cobranza previsional establece la supletoriedad del Título I del Libro
@@ -7066,11 +7565,16 @@ juez de cobranza laboral                        cobranza laboral y previsional
 de letras del trabajo y                         procedimiento en juicio de
 juez de cobranza laboral                        cobranza laboral y previsional
 
-
 ## 10.6     Recursos
 
+**Definición Canónica:** En cuanto a los recursos, en este tipo de procedimientos procede la
+                                             apelación en contra de las sentencias definitivas de primera instancia;
+                                             las resoluciones en que se declare la negligencia de la institución
+                                             previsional, y de la resolución que se pronuncie sobre la medida
+                                             cautelar de retención de devolución de impuestos (artículo 25 bis).
+**Concordancias Legales:** artículo 25 bis
 
-                                             En cuanto a los recursos, en este tipo de procedimientos procede la
+En cuanto a los recursos, en este tipo de procedimientos procede la
                                              apelación en contra de las sentencias definitivas de primera instancia;
                                              las resoluciones en que se declare la negligencia de la institución
                                              previsional, y de la resolución que se pronuncie sobre la medida
@@ -7085,10 +7589,12 @@ juez de cobranza laboral                        cobranza laboral y previsional
                                              El recurso de apelación se resuelve en cuenta, salvo si se piden
                                              alegatos.
 
-
 ## 10.7     Apremio
 
-                                                  personal
+**Definición Canónica:** personal
+**Concordancias Legales:** artículo 12
+
+personal
 
                                              El artículo 12 de la ley permite decretar el arresto hasta por quince
                                              días en contra del empleador que no consignare las sumas descon-
@@ -7129,10 +7635,11 @@ juez de cobranza laboral                      cobranza laboral y previsional
                                          Acoso sexual
 Curso habilitante Juez(a)                   11. Acoso sexual                                                      174
 
-
 ## 11.1      Origen y noción
 
-                                                   del acoso sexual
+**Definición Canónica:** del acoso sexual
+
+del acoso sexual
 
                                               El acoso sexual puede ser definido como la conducta de naturaleza
                                               sexual indeseada por la víctima y que afecta o amenaza su dignidad
@@ -7157,10 +7664,12 @@ juez de cobranza laboral                      cobranza laboral y previsional
                                               en el lugar de trabajo”, XX Congreso Mundial de Derecho del Trabajo
                                               y Seguridad Social, Santiago, 2012).
 
-
 ## 11.2      Definición en Chile
 
-                                                   (Ley Nº 20.005)
+**Definición Canónica:** (Ley Nº 20.005)
+**Concordancias Legales:** artículo 160 del Código del Trabajo; artículo 2; Ley Nº 20.005; Ley N° 20.005
+
+(Ley Nº 20.005)
 
                                               En Chile, previo a su reconocimiento explícito a través de la Ley N°
                                               20.005 de 2005, las conductas de acoso sexual estuvieron, desde el
@@ -7192,24 +7701,27 @@ juez de cobranza laboral                      cobranza laboral y previsional
                                               situación laboral u oportunidades en el empleo (dictamen DT N°
                                               1.133/36 de 21.03.2005).
 
-
-## 11.3      Sujetos, prevención, efectos y
-
-                                                   responsabilidades en la Ley Nº 20.005
-
-
 ## 11.3.1 Sujeto activo
 
-                                              Puede ser cualquiera persona cuyas conductas puedan ser califica-
+**Definición Canónica:** Puede ser cualquiera persona cuyas conductas puedan ser califica-
                                               das de hostigamiento de naturaleza sexual, sin importar su cargo o
                                               ubicación jerárquica dentro de la empresa, ni tampoco su sexo. El
                                               acoso puede ser cometido por el empleador (acoso vertical) o un
                                               compañero de trabajo (acoso horizontal).
 
+Puede ser cualquiera persona cuyas conductas puedan ser califica-
+                                              das de hostigamiento de naturaleza sexual, sin importar su cargo o
+                                              ubicación jerárquica dentro de la empresa, ni tampoco su sexo. El
+                                              acoso puede ser cometido por el empleador (acoso vertical) o un
+                                              compañero de trabajo (acoso horizontal).
 
 ## 11.3.2 Sujeto pasivo
 
-                                              En principio, cabe sostener que la víctima de acoso sexual puede
+**Definición Canónica:** En principio, cabe sostener que la víctima de acoso sexual puede
+                                              ser cualquiera que tenga la calidad de trabajador dependiente. Sin
+                                              embargo, la doctrina de la Dirección del Trabajo ha ampliado el
+
+En principio, cabe sostener que la víctima de acoso sexual puede
                                               ser cualquiera que tenga la calidad de trabajador dependiente. Sin
                                               embargo, la doctrina de la Dirección del Trabajo ha ampliado el
 
@@ -7221,13 +7733,15 @@ juez de cobranza laboral                      cobranza laboral y previsional
                                            que el acosador sea trabajador dependiente de aquel (dictamen DT
                                            Nº 4.354/059 de 29.10.2009).
 
-
-## 11.3.3 Investigación, medidas de resguardo y sanción
-
-
 ## 11.3.3.1 Acoso sexual y contenido del reglamento interno: en
 
-                                           su reglamento interno, la empresa debe incorporar el procedimiento
+**Definición Canónica:** su reglamento interno, la empresa debe incorporar el procedimiento
+                                           al que se someterán y las medidas de resguardo y sanciones que se
+                                           aplicarán en casos de denuncia por acoso sexual. El empleador que,
+                                           ante una denuncia del trabajador o trabajadora, cumpla íntegramente
+**Concordancias Legales:** artículo 168
+
+su reglamento interno, la empresa debe incorporar el procedimiento
                                            al que se someterán y las medidas de resguardo y sanciones que se
                                            aplicarán en casos de denuncia por acoso sexual. El empleador que,
                                            ante una denuncia del trabajador o trabajadora, cumpla íntegramente
@@ -7237,26 +7751,42 @@ juez de cobranza laboral                      cobranza laboral y previsional
                                            legal por años de servicios señalado en la letra c) del inciso primero
                                            del artículo 168 del mismo Código.
 
-
 ## 11.3.3.2 Procedimiento de investigación: se inicia con una
 
-                                           denuncia presentada por la persona afectada, dirigida al empleador
+**Definición Canónica:** denuncia presentada por la persona afectada, dirigida al empleador
+                                           o a la Inspección del Trabajo. También puede ser presentada por el
+                                           sindicato al que se encuentre afiliada la persona afectada, cuando sea
+                                           requerido expresamente, por aplicación de los Nos 2 y 3 del artículo
+                                           220 del Código del Trabajo.
+**Concordancias Legales:** artículo 220 del Código del Trabajo
+
+denuncia presentada por la persona afectada, dirigida al empleador
                                            o a la Inspección del Trabajo. También puede ser presentada por el
                                            sindicato al que se encuentre afiliada la persona afectada, cuando sea
                                            requerido expresamente, por aplicación de los Nos 2 y 3 del artículo
                                            220 del Código del Trabajo.
 
-
 ## 11.3.3.3 Medidas de resguardo: el empleador, una vez recibida la
 
-                                           denuncia, inmediatamente debe adoptar las medidas de resguardo
+**Definición Canónica:** denuncia, inmediatamente debe adoptar las medidas de resguardo
                                            necesarias respecto de los involucrados, entre otras, la separación de
                                            espacios físicos y/o redistribución del tiempo de jornada.
 
+denuncia, inmediatamente debe adoptar las medidas de resguardo
+                                           necesarias respecto de los involucrados, entre otras, la separación de
+                                           espacios físicos y/o redistribución del tiempo de jornada.
 
 ## 11.3.3.4 Denuncia ante el empleador: la investigación de los
 
-                                           hechos deberá constar por escrito y ser llevada en estricta reserva,
+**Definición Canónica:** hechos deberá constar por escrito y ser llevada en estricta reserva,
+                                           garantizando que ambas partes sean oídas y puedan fundamentar
+                                           sus dichos, remitiendo sus conclusiones a la Inspección del Trabajo
+                                           respectiva (artículo 211-C, inciso tercero). Esta puede efectuar, si
+                                           lo estima pertinente, las observaciones que correspondan tanto
+                                           desde el punto de vista procedimental como de las conc
+**Concordancias Legales:** artículo 211
+
+hechos deberá constar por escrito y ser llevada en estricta reserva,
                                            garantizando que ambas partes sean oídas y puedan fundamentar
                                            sus dichos, remitiendo sus conclusiones a la Inspección del Trabajo
                                            respectiva (artículo 211-C, inciso tercero). Esta puede efectuar, si
@@ -7304,10 +7834,12 @@ juez de cobranza laboral                      cobranza laboral y previsional
                                            dentes a la Inspección del Trabajo respectiva para que esta realice la
                                            investigación pertinente.
 
-
 ## 11.3.3.5 Medidas post investigación: si la investigación fuese
 
-                                           efectuada internamente por el empleador, o bien realizada por la
+**Definición Canónica:** efectuada internamente por el empleador, o bien realizada por la
+                                           Inspección del Trabajo, el empleador dispone de un plazo de quince
+
+efectuada internamente por el empleador, o bien realizada por la
                                            Inspección del Trabajo, el empleador dispone de un plazo de quince
 
 Curso habilitante Juez(a)                  11. Acoso sexual                                                       178
@@ -7317,10 +7849,17 @@ juez de cobranza laboral                      cobranza laboral y previsional
                                              efectuado por el empleador, para aplicar las medidas o sanciones
                                              que correspondan.
 
-
 ## 11.3.3.6 Causal de despido: con independencia de las sanciones
 
-                                             dispuestas en el respectivo reglamento interno, la ley contempla el
+**Definición Canónica:** dispuestas en el respectivo reglamento interno, la ley contempla el
+                                             acoso sexual como causal despido en el artículo 160 N° 1 letra b) del
+                                             Código del Trabajo. Esta causal también puede servir de fundamento
+                                             para un autodespido, cuestión del todo relevante si consideramos que
+                                             la Ley N° 20.005 sólo se ocupó del acoso horizontal y no de aquel
+                                             cuyo sujeto activo es el propio emp
+**Concordancias Legales:** artículo 160; artículo 2 del Código del Trabajo. Para advertir los presupu; Ley N° 20.005
+
+dispuestas en el respectivo reglamento interno, la ley contempla el
                                              acoso sexual como causal despido en el artículo 160 N° 1 letra b) del
                                              Código del Trabajo. Esta causal también puede servir de fundamento
                                              para un autodespido, cuestión del todo relevante si consideramos que
@@ -7340,16 +7879,15 @@ juez de cobranza laboral                      cobranza laboral y previsional
                                              nización alguna cuando el empleador le ponga término invocando
                                              una o más de las siguientes causales:
 
-## 1. Alguna de las conductas indebidas de carácter grave, debidamente
-
-                                             comprobadas, que a continuación se señalan: (…) b) Conductas de
-                                             acoso sexual”.
-
-
 ## 11.4     Jurisprudencia
 
+**Definición Canónica:** Poniendo énfasis, de acuerdo a la norma legal que la contiene, en los
+                                             requisitos exigibles para la pertinencia de la causal acoso sexual, se
+                                             ha sostenido que: “Que la causal de haber incurrido el trabajador en
+                                             conductas de acoso sexual al encontrarse contempladas en la letra b)
+**Concordancias Legales:** artículo 160 del Código del Trabajo; artículo 2
 
-                                             Poniendo énfasis, de acuerdo a la norma legal que la contiene, en los
+Poniendo énfasis, de acuerdo a la norma legal que la contiene, en los
                                              requisitos exigibles para la pertinencia de la causal acoso sexual, se
                                              ha sostenido que: “Que la causal de haber incurrido el trabajador en
                                              conductas de acoso sexual al encontrarse contempladas en la letra b)
@@ -7415,10 +7953,11 @@ juez de cobranza laboral                      cobranza laboral y previsional
 Curso habilitante Juez(a)                                           12. Acoso moral                                                        182
 de letras del trabajo y                                                  o mobbing
 
-
 ## 12.1             Origen y noción
 
-                                                                           de mobbing
+**Definición Canónica:** de mobbing
+
+de mobbing
 
                                                                       Mobbing, psicoterror, terror psicológico, asedio moral, violencia psico-
                                                                       lógica en el trabajo, acoso laboral, acoso moral, hostigamiento en el
@@ -7502,10 +8041,12 @@ de letras del trabajo y                          o mobbing
                                                        miembros cuando el objetivo es mejorar el trabajo y el ren-
                                                        dimiento, entre otros.
 
-
 ## 12.2      Regulación del
 
-                                                   acoso laboral
+**Definición Canónica:** acoso laboral
+**Concordancias Legales:** artículo 2; Artículo 160; Ley N° 20.607
+
+acoso laboral
 
                                               La Ley N° 20.607, de 8 de agosto de 2012, sin regular procedimiento
 
@@ -7538,10 +8079,11 @@ de letras del trabajo y                          o mobbing
 Curso habilitante Juez(a)                   12. Acoso moral                                                       185
 de letras del trabajo y                          o mobbing
 
-
 ## 12.3      Consecuencias jurídicas de las
 
-                                                   conductas de acoso laboral
+**Definición Canónica:** conductas de acoso laboral
+
+conductas de acoso laboral
 
                                               Como se ha anticipado, las conductas de acoso laboral no contem-
                                               plan una sanción específica al empleador que incumpla su rol de
@@ -7558,28 +8100,45 @@ de letras del trabajo y                          o mobbing
                                               fin a dichas conductas, sino de reparar sus efectos, sin descontar la
                                               indemnización por las mismas.
 
-
 ## 12.3.1 Sanciones por infracción al reglamento interno
 
-                                              Si las conductas de acoso laboral implican una o más infracciones a
+**Definición Canónica:** Si las conductas de acoso laboral implican una o más infracciones a
                                               normas contenidas en el reglamento interno de la empresa, podrá
                                               el empleador aplicar las sanciones a que la ley le autoriza en tal caso,
                                               esto es, amonestación verbal, amonestación por escrito o multa de
                                               hasta un cuarto de la remuneración diaria.
 
+Si las conductas de acoso laboral implican una o más infracciones a
+                                              normas contenidas en el reglamento interno de la empresa, podrá
+                                              el empleador aplicar las sanciones a que la ley le autoriza en tal caso,
+                                              esto es, amonestación verbal, amonestación por escrito o multa de
+                                              hasta un cuarto de la remuneración diaria.
 
 ## 12.3.2 Autodespido
 
-                                              Si las conductas de acoso laboral generan en la o el afectado una ne-
+**Definición Canónica:** Si las conductas de acoso laboral generan en la o el afectado una ne-
                                               cesidad de evitar definitivamente el ambiente en el que se produce, la
                                               ley contempla, en norma ya citada, la posibilidad de autodespedirse y,
                                               consecuentemente, solicitar la indemnización legal tasada por años
                                               de servicios, con un incremento de un 80 por ciento.
 
+Si las conductas de acoso laboral generan en la o el afectado una ne-
+                                              cesidad de evitar definitivamente el ambiente en el que se produce, la
+                                              ley contempla, en norma ya citada, la posibilidad de autodespedirse y,
+                                              consecuentemente, solicitar la indemnización legal tasada por años
+                                              de servicios, con un incremento de un 80 por ciento.
 
 ## 12.3.3 Enfermedad profesional
 
-                                              Si las conductas de acoso laboral genera en la persona afectada la
+**Definición Canónica:** Si las conductas de acoso laboral genera en la persona afectada la
+                                              necesidad de evitar temporalmente el ambiente en el que se produ-
+                                              cen hasta que se remueva aquello que las produce, puede requerirlo
+                                              a la entidad administradora de la Ley N° 16.744, para que esta no
+                                              sólo lleve a cabo una investigación en el entorno laboral, sino que
+                                              califique como enfermedad profesiona
+**Concordancias Legales:** Ley N° 16.744
+
+Si las conductas de acoso laboral genera en la persona afectada la
                                               necesidad de evitar temporalmente el ambiente en el que se produ-
                                               cen hasta que se remueva aquello que las produce, puede requerirlo
                                               a la entidad administradora de la Ley N° 16.744, para que esta no
@@ -7589,19 +8148,29 @@ de letras del trabajo y                          o mobbing
 Curso habilitante Juez(a)                  12. Acoso moral                                                       186
 de letras del trabajo y                         o mobbing
 
-
 ## 12.3.4 Tutela de derechos
 
-                                             Las conductas de acoso laboral, por su propia naturaleza, pueden
+**Definición Canónica:** Las conductas de acoso laboral, por su propia naturaleza, pueden
+                                             afectar distintos derechos constitucionales, como la integridad física,
+                                             integridad psíquica, la honra, la vida privada. A partir de lo anterior,
+                                             pueden justificar una acción de tutela, sea durante la vigencia del
+                                             contrato de trabajo o con ocasión del despido o autodespido.
+**Concordancias Legales:** constitucion
+
+Las conductas de acoso laboral, por su propia naturaleza, pueden
                                              afectar distintos derechos constitucionales, como la integridad física,
                                              integridad psíquica, la honra, la vida privada. A partir de lo anterior,
                                              pueden justificar una acción de tutela, sea durante la vigencia del
                                              contrato de trabajo o con ocasión del despido o autodespido.
 
-
 ## 12.3.5 Eventuales sanciones para el o la denunciante
 
-                                             Cabe hace presente, por último, que en conformidad a la modificación
+**Definición Canónica:** Cabe hace presente, por último, que en conformidad a la modificación
+                                             efectuada por dicha normativa al inciso sexto de la citada disposición
+                                             legal, las sanciones allí establecidas en caso de haber invocado el
+                                             trabajador, falsamente o con el propósito de lesionar la honra de la
+
+Cabe hace presente, por último, que en conformidad a la modificación
                                              efectuada por dicha normativa al inciso sexto de la citada disposición
                                              legal, las sanciones allí establecidas en caso de haber invocado el
                                              trabajador, falsamente o con el propósito de lesionar la honra de la
@@ -7617,14 +8186,14 @@ de letras del trabajo y                         o mobbing
                                              legales que procedan, en el evento de haber invocado maliciosamente
                                              alguna de dichas causales (dictamen DT N° 3.519/034, de 09.08.2012).
 
-
-## 12.4     Jurisprudencia
-
-
-
 ## 12.4.1 Vulneración de integridad psíquica
 
-                                             Lo demandado: despido con vulneración del derecho a la integri-
+**Definición Canónica:** Lo demandado: despido con vulneración del derecho a la integri-
+                                             dad psíquica motivado por conductas de acoso laboral por parte de
+                                             compañera de trabajo y jefatura directa (perturbación del trabajo,
+                                             ridiculización, zancadilla, maltrato verbal, etcétera).
+
+Lo demandado: despido con vulneración del derecho a la integri-
                                              dad psíquica motivado por conductas de acoso laboral por parte de
                                              compañera de trabajo y jefatura directa (perturbación del trabajo,
                                              ridiculización, zancadilla, maltrato verbal, etcétera).
@@ -7644,10 +8213,12 @@ de letras del trabajo y                                                        o
                                                                             recibir atención médica y psicológica, por lo que no cabe sino acoger
                                                                             la denuncia por vulneración de garantía fundamental”92.
 
-
 ## 12.4.2 Acción parcialmente acogida
 
-                                                                            Lo demandado: despido con vulneración del derecho a la integri-
+**Definición Canónica:** Lo demandado: despido con vulneración del derecho a la integri-
+**Concordancias Legales:** artículo 161
+
+Lo demandado: despido con vulneración del derecho a la integri-
 
                                                                             dad psíquica, vida privada y honra motivado por conductas de acoso
                                                                             laboral por parte de nuevo administrador de comunidad de edificio
@@ -7689,11 +8260,14 @@ de letras del trabajo y                                                         
                                                                              del artículo 161 inciso primero del Código del Trabajo, en relación
                                                                              al libre despido.”93
 
-
 ## 12.4.3 Tratos inadecuados
 
+**Definición Canónica:** Lo demandado: despido con vulneración del derecho a la integri-
+                                                                             dad psíquica, motivado por conductas de acoso laboral por parte de
+                                                                             empleador (maltratos, gritos, tono de voz elevado, malos modos para
+                                                                             pedir cosas, descalificaciones, controles excesivos, etcétera).
 
-                                                                             Lo demandado: despido con vulneración del derecho a la integri-
+Lo demandado: despido con vulneración del derecho a la integri-
                                                                              dad psíquica, motivado por conductas de acoso laboral por parte de
                                                                              empleador (maltratos, gritos, tono de voz elevado, malos modos para
                                                                              pedir cosas, descalificaciones, controles excesivos, etcétera).
@@ -7747,10 +8321,16 @@ de letras del trabajo y                                                         
                                                                              ritaban una defensa por parte de la jefa de la actora, y ello conforme
                                                                              al resto de la prueba, sólo puede tratarse de tratos inadecuados.”94
 
-
 ## 12.4.4 Cámara de videovigilancia
 
-                                                                             Lo demandado: autodespido con vulneración del derecho a la inte-
+**Definición Canónica:** Lo demandado: autodespido con vulneración del derecho a la inte-
+                                                                             gridad psíquica e intimidad por parte de empleador (cambio arbitrario
+                                                                             de funciones; ascenso de asistente suya otorgándole similares labores;
+                                                                             comentarios y rumores en su desmedro; colocación de cámara de
+                                                                             videovigilancia y monito
+**Concordancias Legales:** artículo 5 del Código del Trabajo; artículos 19; Constitución Política
+
+Lo demandado: autodespido con vulneración del derecho a la inte-
                                                                              gridad psíquica e intimidad por parte de empleador (cambio arbitrario
                                                                              de funciones; ascenso de asistente suya otorgándole similares labores;
                                                                              comentarios y rumores en su desmedro; colocación de cámara de
@@ -7835,10 +8415,15 @@ de letras del trabajo y                                                        o
                                                                             y se lesionan las garantías de los artículos 19, número 1 y 4 de la
                                                                             Constitución Política de la República.”95
 
-
 ## 12.4.5 Tutela por autodespido
 
-                                                                            Lo demandado: denuncia tutela por autodespido con vulneración de
+**Definición Canónica:** Lo demandado: denuncia tutela por autodespido con vulneración de
+                                                                            derechos fundamentales (integridad psíquica, intimidad, libertad de
+                                                                            trabajo y honra) derivado de conductas de acoso laboral de parte de
+                                                                            gerente y socios de estudio jurídico (maltrato verbal, trato despectivo
+                                                                            asociado a incompetenci
+
+Lo demandado: denuncia tutela por autodespido con vulneración de
                                                                             derechos fundamentales (integridad psíquica, intimidad, libertad de
                                                                             trabajo y honra) derivado de conductas de acoso laboral de parte de
                                                                             gerente y socios de estudio jurídico (maltrato verbal, trato despectivo
@@ -7885,11 +8470,16 @@ de letras del trabajo y                                                        o
 Curso habilitante Juez(a)                                                  13. Principio de                                                           194
 de letras del trabajo y                                                        no discriminación
 
-
 ## 13.1               Conceptualización
 
+**Definición Canónica:** El principio de la no discriminación se encuentra reconocido tanto en
+                                                                             fuentes internacionales como nacionales. Así, entre otros, el Convenio
+                                                                             N° 111 sobre la Discriminación en el Empleo, de la Organización
+                                                                             Internacional del Trabajo97, en su artículo 1 dispone: “A los efectos de
+                                                                             este Convenio,
+**Concordancias Legales:** artículo 1; artículo 19; artículo 2; artículos 2.1; artículo 26 del Pacto; artículo 2.2 del Pacto Internacional de Derechos Económicos; artículo 24 de la Convención Americana de Derechos Humanos. C; artículo 2 del Código; artículo 485; Constitución Política; constitucion; Constitución
 
-                                                                             El principio de la no discriminación se encuentra reconocido tanto en
+El principio de la no discriminación se encuentra reconocido tanto en
                                                                              fuentes internacionales como nacionales. Así, entre otros, el Convenio
                                                                              N° 111 sobre la Discriminación en el Empleo, de la Organización
                                                                              Internacional del Trabajo97, en su artículo 1 dispone: “A los efectos de
@@ -8108,10 +8698,12 @@ de letras del trabajo y                                                         
 
                                                                               en base al juicio de proporcionalidad.112
 
-
 ## 13.2               Procedimiento
 
-                                                                                   de tutela
+**Definición Canónica:** de tutela
+**Concordancias Legales:** artículo 485; artículo 2 del Código del; artículo 2 del Código del Trabajo; artículo 19; Constitución Política
+
+de tutela
 
                                                                               De acuerdo al artículo 485 inciso segundo del Código del Trabajo, el
                                                                               procedimiento de tutela de derechos a que se refiere el inciso primero
@@ -8135,10 +8727,12 @@ de letras del trabajo y                                                         
 Curso habilitante Juez(a)                                               13. Principio de                                                     200
 de letras del trabajo y                                                     no discriminación
 
-
 ## 13.3             Despido discriminatorio
 
-                                                                               grave
+**Definición Canónica:** grave
+**Concordancias Legales:** artículo 489 del Código del Trabajo; artículo 2 del Código del Trabajo y
+
+grave
 
                                                                           De acuerdo al inciso cuarto del artículo 489 del Código del Trabajo,
                                                                           cuando el juez declare que el despido es discriminatorio por haber
@@ -8148,10 +8742,12 @@ de letras del trabajo y                                                     no d
                                                                           podrá optar entre la reincorporación o el pago de la indemnización
                                                                           a que la ley asocia el despido lesivo de derecho fundamentales.
 
-
 ## 13.4             Comentario crítico de la
 
-                                                                               Ley Nº 20.348
+**Definición Canónica:** Ley Nº 20.348
+**Concordancias Legales:** artículo 1; artículo 62 bis; artículo 154; artículo 485; Ley Nº 20.348; DL 3.500; DFL Nº 29
+
+Ley Nº 20.348
 
                                                                           Dentro de los factores de discriminación que el legislador reprocha,
                                                                           siguiendo las directrices trazadas por el constituyente, según ya se ha
@@ -8288,10 +8884,12 @@ juez de cobranza laboral                       y legislación complementaria
                                              o fallecimiento de una de las fuentes principales de ingresos de una
                                              familia (sobrevivencia).
 
-
 ## 14.1     Características del
 
-                                                  sistema de pensiones
+**Definición Canónica:** sistema de pensiones
+**Concordancias Legales:** Ley N° 20.255; DL N° 3.500; DL 3.500
+
+sistema de pensiones
 
                                              En la década de los ochenta, nuestro país pasó de un “sistema de
                                              reparto” a un “sistema de capitalización individual”. En el primero,
@@ -8347,10 +8945,11 @@ juez de cobranza laboral                                                       y
                                                                              ——       Pilar solidario: financiado por el Estado, está dirigido al sesenta
                                                                                       por ciento más pobre de la población.
 
-
 ## 14.2               La afiliación del trabajador
 
-                                                                                  y sus características
+**Definición Canónica:** y sus características
+
+y sus características
 
                                                                              La afiliación es la relación jurídica entre un trabajador y el sistema
                                                                              de pensiones de capitalización individual, que es automática, obliga-
@@ -8359,10 +8958,14 @@ juez de cobranza laboral                                                       y
                                                                              AFP). Es automática, en el sentido que el trabajador afiliado genera
                                                                              su incorporación al sistema por el sólo hecho de trabajar en forma
 
-
 ## 116   ARELLANO ORTIZ, Pablo (2012): “Marco del análisis del sistema de pensiones chileno después de la reforma
 
-                                               de 2008”, en RDUCN [online] Vol. 19, Nº 2 (consultado 2020-08-08), pp. 21-43.
+**Definición Canónica:** de 2008”, en RDUCN [online] Vol. 19, Nº 2 (consultado 2020-08-08), pp. 21-43.
+                                               Disponible en: https://scielo.conicyt.cl/scielo.php?script=sci_arttext&pid=S071897532012000200002&ln-
+                                               g=es&nrm=iso>. ISSN 0718-9753. http://dx.doi.org/10.4067/S0718-97532012000200002.
+**Concordancias Legales:** DL 3.500
+
+de 2008”, en RDUCN [online] Vol. 19, Nº 2 (consultado 2020-08-08), pp. 21-43.
                                                Disponible en: https://scielo.conicyt.cl/scielo.php?script=sci_arttext&pid=S071897532012000200002&ln-
                                                g=es&nrm=iso>. ISSN 0718-9753. http://dx.doi.org/10.4067/S0718-97532012000200002.
 
@@ -8374,10 +8977,12 @@ juez de cobranza laboral                       y legislación complementaria
                                              se encuentra obligado a enterar la cotización en la AFP que tenga
                                              la comisión más baja.
 
-
 ## 14.3     Las cotizaciones obligatorias del régimen de
 
-                                                  pensiones. Cuentas de capitalización individual.
+**Definición Canónica:** pensiones. Cuentas de capitalización individual.
+**Concordancias Legales:** DL 3.500
+
+pensiones. Cuentas de capitalización individual.
 
                                              Los trabajadores afiliados al sistema estarán obligados a cotizar en su
                                              cuenta de capitalización individual el diez por ciento de sus remune-
@@ -8416,10 +9021,12 @@ juez de cobranza laboral                       y legislación complementaria
                                              en las instituciones respectivas. La institución administradora de
                                              estos fondos debe realizar la cobranza.
 
-
 ## 14.5     Los depósitos
 
-                                                  convenidos
+**Definición Canónica:** convenidos
+**Concordancias Legales:** artículo 68 del DL 3.500; DL 3.500
+
+convenidos
 
                                              El trabajador podrá también depositar en su cuenta de capitalización
 
@@ -8447,10 +9054,12 @@ juez de cobranza laboral                       y legislación complementaria
 de letras del trabajo y                        invalidez y de sobrevivencia en el DL 3.500
 juez de cobranza laboral                       y legislación complementaria
 
-
 ## 14.6     Las cotizaciones
 
-                                                  por trabajo pesado
+**Definición Canónica:** por trabajo pesado
+**Concordancias Legales:** Ley N° 19.404; DL 3.500; DL 2.763
+
+por trabajo pesado
 
                                              De acuerdo con la Ley N° 19.404, se consideran como trabajo pesado
                                              aquellas labores cuya realización acelera el desgaste físico, intelec-
@@ -8555,10 +9164,12 @@ de letras del trabajo y                      salud previsional
 Curso habilitante Juez(a)                   16. Régimen de prevención y de                                      214
 de letras del trabajo y                          asistencia de los riesgos del trabajo
 
-
 ## 16.1      Conceptos de accidente del trabajo
 
-                                                   y enfermedad profesional
+**Definición Canónica:** y enfermedad profesional
+**Concordancias Legales:** artículo 5 de la Ley N; artículo 7; Ley N° 16.744
+
+y enfermedad profesional
 
                                               El artículo 5 de la Ley N° 16.744 dispone que “se entiende por ac-
                                               cidente del trabajo toda lesión que una persona sufra a causa o con
@@ -8568,10 +9179,13 @@ de letras del trabajo y                          asistencia de los riesgos del t
                                               de la profesión o el trabajo que realice una persona y que le produzca
                                               incapacidad o muerte”.
 
-
 ## 16.2      Las obligaciones del empleador en el
 
-                                                   régimen de prevención de los riesgos del
+**Definición Canónica:** régimen de prevención de los riesgos del
+                                                   trabajo, en especial, del deber de seguridad
+**Concordancias Legales:** artículo 184 del Código del Trabajo; artículo 184; artículo 69; artículo 5 de la Ley N; Ley Nº 16.744; Ley N° 16.744
+
+régimen de prevención de los riesgos del
                                                    trabajo, en especial, del deber de seguridad
 
                                               De acuerdo a nuestra legislación, el empleador tiene obligación de
@@ -8710,10 +9324,12 @@ de letras del trabajo y                       asistencia de los riesgos del trab
 Curso habilitante Juez(a)                  16. Régimen de prevención y de                                     218
 de letras del trabajo y                         asistencia de los riesgos del trabajo
 
-
 ## 16.4     Daño moral. Acción, competencia, sujetos
 
-                                                  activos y clases de indemnización.
+**Definición Canónica:** activos y clases de indemnización.
+**Concordancias Legales:** artículo 69 de la Ley N; artículo 70; artículo 420; artículo 184 del Código del Trabajo; artículo 1553 del Código Civil; artículo 184 del Código del; artículo 44 del Código Civil; artículo 1547; Ley N° 16.744
+
+activos y clases de indemnización.
 
                                              De acuerdo al artículo 69 de la Ley N° 16.744, cuando el accidente
                                              o enfermedad profesional se deba a culpa o dolo del empleador o de
@@ -8866,10 +9482,11 @@ de letras del trabajo y                                                         
                                          Seguro de desempleo
 Curso habilitante Juez(a)                   17. Seguro de desempleo                                             223
 
-
 ## 17.1      Concepto
 
-                                                   y finalidad
+**Definición Canónica:** y finalidad
+
+y finalidad
 
                                               Es un seguro a cargo de la Administradora de Fondos de Cesantía
                                               (AFC), que protege a todos los trabajadores con contrato indefinido, a
@@ -8878,10 +9495,11 @@ de letras del trabajo y                                                         
                                               de dinero, beneficios previsionales y de salud, asignación familiar,
                                               becas de capacitación y acceso a la Bolsa Nacional de Empleo (BNE).
 
-
 ## 17.2      Trabajadores excluidos del
 
-                                                   seguro de desempleo
+**Definición Canónica:** seguro de desempleo
+
+seguro de desempleo
 
                                               Quedan excluidos del seguro de desempleo todos los trabajadores
                                               contratados antes del 2 de octubre de 2002, así como también a los
@@ -8891,10 +9509,12 @@ de letras del trabajo y                                                         
                                               aquellos a quienes se les hubiera otorgado una pensión por invalidez
                                               parcial.
 
-
 ## 17.3      Las cotizaciones de desempleo del
 
-                                                   empleador y del trabajador según la
+**Definición Canónica:** empleador y del trabajador según la
+                                                   modalidad del contrato de trabajo
+
+empleador y del trabajador según la
                                                    modalidad del contrato de trabajo
 
                                               Si se trata de un contrato de trabajo de carácter indefinido, el
@@ -8917,10 +9537,12 @@ de letras del trabajo y                                                         
                                                      suales (UTM), depositadas en doce cuotas en el Fondo de Cesantía
                                                      Solidario (FCS) a través de la Tesorería General de la República.
 
-
 ## 17.4             Requisitos para cobrar el seguro de
 
-                                                          cesantía financiado por la cuenta
+**Definición Canónica:** cesantía financiado por la cuenta
+                                                          individual de cesantía y forma de cobrarlo
+
+cesantía financiado por la cuenta
                                                           individual de cesantía y forma de cobrarlo
 
                                                      ——      Estar cesante y que el contrato de trabajo haya terminado
@@ -8966,10 +9588,12 @@ de letras del trabajo y                                                         
                                                      topes que van desde un máximo en los primeros meses y de un
                                                      mínimo en los finales.
 
-
 ## 17.5             Requisitos para cobrar el seguro de
 
-                                                          cesantía financiado por el Fondo de
+**Definición Canónica:** cesantía financiado por el Fondo de
+                                                          Cesantía Solidario y forma de cobrarlo
+
+cesantía financiado por el Fondo de
                                                           Cesantía Solidario y forma de cobrarlo
 
                                                      El Fondo de Cesantía Solidario (FCS) tiene por finalidad financiar
@@ -9002,10 +9626,14 @@ de letras del trabajo y                                                         
                                            prestaciones financiadas parcial o totalmente con cargo al Fondo de
                                            Cesantía Solidario, en un período de cinco años.
 
-
 ## 17.5.1 Forma de pago de las prestaciones del FCS
 
-                                           En el caso del trabajador con contrato indefinido, las prestaciones
+**Definición Canónica:** En el caso del trabajador con contrato indefinido, las prestaciones
+                                           se reciben por cinco meses y, en el caso del trabajador con contrato
+                                           a plazo fijo o para una obra, trabajo o servicio determinado, las pres-
+                                           taciones se reciben por tres meses.
+
+En el caso del trabajador con contrato indefinido, las prestaciones
                                            se reciben por cinco meses y, en el caso del trabajador con contrato
                                            a plazo fijo o para una obra, trabajo o servicio determinado, las pres-
                                            taciones se reciben por tres meses.
@@ -9047,10 +9675,13 @@ de letras del trabajo y                                                         
 Curso habilitante Juez(a)                   18. Seguridad social                                               229
 de letras del trabajo y                          y el empleador
 
-
 ## 18.1      Alcances del artículo 184 CT y la
 
-                                                   obligación del empleador con relación
+**Definición Canónica:** obligación del empleador con relación
+                                                   a la vida y salud del trabajador
+**Concordancias Legales:** artículo 184
+
+obligación del empleador con relación
                                                    a la vida y salud del trabajador
 
                                               Como ya se ha señalado, el artículo 184 impone el deber de seguridad
@@ -9073,10 +9704,12 @@ de letras del trabajo y                          y el empleador
                                               cidentes al cual el empleador debe contribuir afiliando y cotizando
                                               a sus trabajadores.
 
-
 ## 18.2      Obligación de afiliación
 
-                                                   e inscripción
+**Definición Canónica:** e inscripción
+**Concordancias Legales:** artículo 18 de la Ley N; Ley N° 16.744; Ley Nº 16.744
+
+e inscripción
 
                                               Como se dijo anteriormente, el sistema de seguridad social contempla
                                               un seguro contra riesgos de accidentes del trabajo y enfermedades
@@ -9174,10 +9807,13 @@ de letras del trabajo y                       y el empleador
 Curso habilitante Juez(a)                  18. Seguridad social                                              232
 de letras del trabajo y                         y el empleador
 
-
 ## 18.3     Sanciones aplicables por incumplimiento
 
-                                                  de las obligaciones establecidas en
+**Definición Canónica:** de las obligaciones establecidas en
+                                                  los regímenes de seguridad social
+**Concordancias Legales:** Ley Nº 17.322
+
+de las obligaciones establecidas en
                                                   los regímenes de seguridad social
 
                                              Para el caso en que no se paguen las cotizaciones del seguro de
@@ -9203,15 +9839,15 @@ de letras del trabajo y                         resolución de conflicto
                                               conflicto como toda situación en la que dos o más partes perciben que
                                               en todo o en parte tienen intereses divergentes.
 
-
-## 19.1      Mediación, negociación y
-
-                                                   conciliación en materia laboral
-
-
 ## 19.1.1 Mediación
 
-                                              La mediación es un mecanismo voluntario orientado a la resolución
+**Definición Canónica:** La mediación es un mecanismo voluntario orientado a la resolución
+                                              de conflictos, a través del cual dos o más personas gestionan por sí
+                                              mismas la solución amistosa de sus diferencias, con la asistencia de
+                                              un tercero neutral y calificado denominado mediador.
+**Concordancias Legales:** artículo 370 del Código del Trabajo dispone que cualquiera; artículos 378; artículo 351 del Código del Trabajo; artículos 381; artículo 486
+
+La mediación es un mecanismo voluntario orientado a la resolución
                                               de conflictos, a través del cual dos o más personas gestionan por sí
                                               mismas la solución amistosa de sus diferencias, con la asistencia de
                                               un tercero neutral y calificado denominado mediador.
@@ -9306,10 +9942,15 @@ de letras del trabajo y                      resolución de conflicto
                                            previo a la denuncia judicial de derechos fundamentales (artículo
                                            486 inciso sexto del Código del Trabajo).
 
-
 ## 19.1.2 Negociación
 
-                                           Se ha definido la negociación como “la actividad dialéctica en la
+**Definición Canónica:** Se ha definido la negociación como “la actividad dialéctica en la
+                                           cual los interlocutores sociales (principalmente empleadores y tra-
+                                           bajadores y secundariamente el Estado) que representan intereses
+                                           discrepantes se comunican e interactúan influenciándose recípro-
+                                           camente, utilizando tanto el poder como la disposición posible para
+
+Se ha definido la negociación como “la actividad dialéctica en la
                                            cual los interlocutores sociales (principalmente empleadores y tra-
                                            bajadores y secundariamente el Estado) que representan intereses
                                            discrepantes se comunican e interactúan influenciándose recípro-
@@ -9359,10 +10000,14 @@ de letras del trabajo y                                                      res
 Curso habilitante Juez(a)                19. Métodos alternativos de                                           238
 de letras del trabajo y                      resolución de conflicto
 
-
 ## 19.1.3 Conciliación
 
-                                           Se puede definir como la convocatoria, por la autoridad laboral (Ins-
+**Definición Canónica:** Se puede definir como la convocatoria, por la autoridad laboral (Ins-
+                                           pección del Trabajo), a constituir una reunión entre el empleador y
+                                           el trabajador con finalidades de diálogo tendiente a la solución del
+                                           conflicto.
+
+Se puede definir como la convocatoria, por la autoridad laboral (Ins-
                                            pección del Trabajo), a constituir una reunión entre el empleador y
                                            el trabajador con finalidades de diálogo tendiente a la solución del
                                            conflicto.
@@ -9418,7 +10063,13 @@ de letras del trabajo y                      resolución de conflicto
 
 ## 2.   ASTUDILLO, Omar (2017): “Breves notas sobre
 
-                                              la deconstrucción de los hechos”, en Recursos          11.   GERNIGON, Bernard, ODERO, Alberto y GUIDO,
+**Definición Canónica:** la deconstrucción de los hechos”, en Recursos          11.   GERNIGON, Bernard, ODERO, Alberto y GUIDO,
+                                              Procesales. Problemas actuales, AAVV, director               Horacio (2000): “Principios de la OIT sobre la ne-
+                                              Diego Palomo Vélez, coordinadores Jordi Delgado              gociación colectiva”, en Revista Internacional del
+                                              y Raúl Núñez; DER Ediciones, Chile, p. 481-500.              Trabajo, Nº 1, p. 39. Disponible en: https://www.ilo.
+                   
+
+la deconstrucción de los hechos”, en Recursos          11.   GERNIGON, Bernard, ODERO, Alberto y GUIDO,
                                               Procesales. Problemas actuales, AAVV, director               Horacio (2000): “Principios de la OIT sobre la ne-
                                               Diego Palomo Vélez, coordinadores Jordi Delgado              gociación colectiva”, en Revista Internacional del
                                               y Raúl Núñez; DER Ediciones, Chile, p. 481-500.              Trabajo, Nº 1, p. 39. Disponible en: https://www.ilo.
@@ -9431,13 +10082,23 @@ de letras del trabajo y                      resolución de conflicto
 
 ## 13. LIZAMA, Luis y LIZAMA, Diego (2019): Manual
 
-                                         3.   AUROUX, Jean (1981): Les droits des travailleu-            de derecho individual del trabajo, DER Ediciones,
+**Definición Canónica:** 3.   AUROUX, Jean (1981): Les droits des travailleu-            de derecho individual del trabajo, DER Ediciones,
+                                              rs: rapport au Président de la Republique et au            Santiago.
+                                              Premier Ministre. Paris: Collection des rapports
+
+3.   AUROUX, Jean (1981): Les droits des travailleu-            de derecho individual del trabajo, DER Ediciones,
                                               rs: rapport au Président de la Republique et au            Santiago.
                                               Premier Ministre. Paris: Collection des rapports
 
 ## 14. MASA, Miguel (2005): “Los principios en el de-
 
-                                              officiels. La Documentation Française.
+**Definición Canónica:** officiels. La Documentation Française.
+                                                                                                         recho del trabajo”, en Tratado de derecho del
+                                         4.   CAAMAÑO, Eduardo (2003): “La tutela del de-                trabajo, Tomo I, Teoría general del derecho del
+                                              recho a la no discriminación por razones de sexo           trabajo (Mario Ackerman, director; Diego Tosca,
+                                              durante la vigencia de la relación laboral”, Revista      
+
+officiels. La Documentation Française.
                                                                                                          recho del trabajo”, en Tratado de derecho del
                                          4.   CAAMAÑO, Eduardo (2003): “La tutela del de-                trabajo, Tomo I, Teoría general del derecho del
                                               recho a la no discriminación por razones de sexo           trabajo (Mario Ackerman, director; Diego Tosca,
@@ -9447,22 +10108,26 @@ de letras del trabajo y                      resolución de conflicto
 
 ## 15. MACCHIAVELLO, Guido (1986): Derecho del
 
-                                              sultado el 2 de agosto de 2020).
+**Definición Canónica:** sultado el 2 de agosto de 2020).
                                                                                                          trabajo: el contrato individual y la relación de tra-
                                          5.   DE LA CUEVA, Mario (1961): Derecho mexicano                bajo, Fondo de Cultura Económica, Santiago.
                                               del trabajo, Editorial Porrúa, México.
 
-## 16. PALOMEQUE, Manuel Carlos y ÁLVAREZ DE LA
-
-
-## 6.   DUCE, Mauricio, MARÍN, Felipe y RIEGO, Cristián            ROSA, Manuel (2006): Derecho del trabajo, Edi-
-
-                                              (2008): “Reforma a los procesos civiles orales:            torial Universitaria Ramón Areces, Madrid.
-                                              consideraciones desde el debido proceso y la
+sultado el 2 de agosto de 2020).
+                                                                                                         trabajo: el contrato individual y la relación de tra-
+                                         5.   DE LA CUEVA, Mario (1961): Derecho mexicano                bajo, Fondo de Cultura Económica, Santiago.
+                                              del trabajo, Editorial Porrúa, México.
 
 ## 17.   PÉREZ RAGONE, Álvaro (2006): “En torno al pro-
 
-                                              calidad de información”, en Justicia civil: pers-
+**Definición Canónica:** calidad de información”, en Justicia civil: pers-
+                                                                                                           cedimiento monitorio desde el derecho procesal
+                                              pectivas para una Reforma en América Latina,
+                                                                                                           comparado europeo: caracterización, elementos
+                                              CEJA-JSCA. Disponible en:
+                                                                                
+
+calidad de información”, en Justicia civil: pers-
                                                                                                            cedimiento monitorio desde el derecho procesal
                                               pectivas para una Reforma en América Latina,
                                                                                                            comparado europeo: caracterización, elementos
@@ -9474,16 +10139,18 @@ de letras del trabajo y                      resolución de conflicto
 
 Curso habilitante Juez(a)                                                                          Bibliografía   241
 
-
-## 18. PLÁ RODRÍGUEZ, Américo (2015): Los principios
-
-                                             del derecho del trabajo, Fundación de Cultura
-                                             Universitaria, Montevideo.
-
-
 ## 19.   RUAY, Francisco (2018): “Simulación y subter-
 
-                                               fugio laboral: a propósito del alcance del actual
+**Definición Canónica:** fugio laboral: a propósito del alcance del actual
+                                               artículo 507 del Código del Trabajo chileno”, en
+                                               Revista Latinoamericana de Derecho Social N°
+                                               26, enero-junio. Disponible en:
+                                               https://revistas.juridicas.unam.mx/index.php/de-
+                                               recho-social/article/view/11862 (consultado el 5
+                                               de agosto de 2020).
+**Concordancias Legales:** artículo 507 del Código del Trabajo chileno
+
+fugio laboral: a propósito del alcance del actual
                                                artículo 507 del Código del Trabajo chileno”, en
                                                Revista Latinoamericana de Derecho Social N°
                                                26, enero-junio. Disponible en:
@@ -9497,44 +10164,44 @@ de letras del trabajo y                      resolución de conflicto
                                              (2015): Derecho del trabajo. Derecho individual
                                              del trabajo, Thomson Reuters, Santiago.
 
-
 ## 21. SÁEZ, Jorge (2015): “Los elementos de la compe-
 
-                                             tencia jurisdiccional”, en RDUCN Vol. 22, Nº 1, pp.
+**Definición Canónica:** tencia jurisdiccional”, en RDUCN Vol. 22, Nº 1, pp.
                                              530. Disponible en:
                                              https://scielo.conicyt.cl/scielo.php?script=sci_ar-
                                              ttext&pid=S0718-97532015000100014&ln-
                                              g=es&nrm=iso (consultado el 31 de mayo 2020).
 
+tencia jurisdiccional”, en RDUCN Vol. 22, Nº 1, pp.
+                                             530. Disponible en:
+                                             https://scielo.conicyt.cl/scielo.php?script=sci_ar-
+                                             ttext&pid=S0718-97532015000100014&ln-
+                                             g=es&nrm=iso (consultado el 31 de mayo 2020).
 
 ## 22. UGARTE José Luis (2009): Tutela de derechos
 
-                                             fundamentales del trabajador, Legal Publishing,
+**Definición Canónica:** fundamentales del trabajador, Legal Publishing,
                                              Santiago.
                                              (2013): Derechos fundamentales en el contrato
                                              de trabajo, Legal Publishing, Santiago.
                                              (2018): Derechos fundamentales, tutela y trabajo,
                                              Legal Publishing, Santiago.
 
+fundamentales del trabajador, Legal Publishing,
+                                             Santiago.
+                                             (2013): Derechos fundamentales en el contrato
+                                             de trabajo, Legal Publishing, Santiago.
+                                             (2018): Derechos fundamentales, tutela y trabajo,
+                                             Legal Publishing, Santiago.
 
 ## 23. VALDÉS DAL-RE, Fernando (2002): “Poderes del
 
-                                             empresario y derechos de la persona del traba-
+**Definición Canónica:** empresario y derechos de la persona del traba-
                                              jador”, en Autoridad y democracia en la empre-
                                              sa, Joaquín Aparicio y Antonio Baylos, Editorial
                                              Trotta, España.
 
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl
+empresario y derechos de la persona del traba-
+                                             jador”, en Autoridad y democracia en la empre-
+                                             sa, Joaquín Aparicio y Antonio Baylos, Editorial
+                                             Trotta, España.

@@ -13,19 +13,20 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Penal | **Materia:** Penal
 
-## Serie de
-
-
-## Documentos                                                           09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Curso de
+             formación
+             especializada
+             para
+                   jueces y juezas
+                   de juzgado de
+                   garantía y de tribunal
+                   de juicio oral en
+                   lo penal
+                   (curso habilitante)
 
-             Curso de
+Curso de
              formación
              especializada
              para
@@ -47,19 +48,23 @@ extraccion: pdftotext
 
               Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tania
+                                    Gajardo
+                                    Orellana
+                          Licenciada en Ciencias Jurídicas y
+                          Sociales de la Universidad de Chile.
+                          Abogada. Magíster en Derecho con
+                          mención en Derecho Penal, Univer-
+                          sidad de Navarra. Visiting Scholar
+                          en la American University Collegue
+                          of Law. Candidata a doctora de la
+                          Universidad de los Andes. Abogada
+                    
+**Concordancias Legales:** Ley Nº 20.084; constitucion
 
-                          Tania
+Tania
                                     Gajardo
                                     Orellana
                           Licenciada en Ciencias Jurídicas y
@@ -175,60 +180,20 @@ Santiago,                 libros y artículos sobre derecho proChile 2020       
                                          8. Responsabilidad penal adolescente Ley Nº 20.084 (procedimiento y determinación de sanciones)                91
 Curso habilitante Juez(a)                                                             Índice
 
-
-## 8.1 Características de un sistema de justicia penal juvenil especializado según la
-
-                                         		    Convención de Derechos del Niño                                                                     92
-
-
-## 8.2 Principales características del sistema de responsabilidad penal adolescente de la Ley N° 20.084   94
-
-
-
-## 8.3 Análisis de casos de determinación de penas y medidas cautelares en régimen especial               100
-
-
-
-## 9. Reglas de apreciación de la prueba pericial                                                            109
-
-
-
-## 9.1 Apreciación prueba de peritos en materia penal                                                     110
-
-
-
-## 9.2 Análisis de casos de valoración de prueba de peritos                                               113
-
-
-
-## 10. Penas sustitutivas a la privación de libertad                                                         121
-
-
-
-## 10.1 Ley N° 20.603                                                                                     122
-
-
-                                            10.2	Análisis de casos de rechazo de aplicación de penas sustitutivas                                 135
-
-
 ## 11. Recursos                                                                                              140
 
+**Definición Canónica:** 11.1	Recurso de apelación                                                                             142
 
-                                            11.1	Recurso de apelación                                                                             142
+11.1	Recurso de apelación                                                                             142
 
                                             11.2	Recurso de nulidad                                                                               144
 
-
-## 11.3 Reposición                                                                                        146
-
-
-                                         II. Segunda parte práctica:                                                                                148
-
-
 ## 12. Audiencia de control de detención                                                                     149
 
+**Definición Canónica:** 12.1	Audiencia de control de la detención                                                             150
+**Concordancias Legales:** constitucion
 
-                                            12.1	Audiencia de control de la detención                                                             150
+12.1	Audiencia de control de la detención                                                             150
 
                                             12.2	El amparo ante el juez de garantía                                                               153
 
@@ -238,166 +203,11 @@ Santiago,                 libros y artículos sobre derecho proChile 2020       
 
                                             12.5	Medidas intrusivas                                                                               156
 
-
-## 13. Audiencia de formalización de la investigación                                                        171
-
-
-
-## 13.1 Funciones y efectos                                                                               172
-
-
-
-## 13.2 Procedimiento de la formalización                                                                 173
-
-
-
-## 13.3 Actos posteriores y consecuentes con la formalización                                             174
-
-
-
-## 13.4 Medidas cautelares                                                                                177
-
-
-
-## 13.5 Prisión preventiva                                                                                182
-
-
-
-## 13.6 Análisis de casos de prisión preventiva de imputados respecto de quienes finalmente
-
-                                         		     no se presenta acusación –                                                                         194
-
-
-## 14. Audiencia de cierre de investigación                                                                  198
-
-
-
-## 14.1 Naturaleza de la decisión de cierre de la investigación                                           199
-
-
-
-## 14.2 Actuaciones posteriores                                                                           200
-
-
-
-## 14.3 Reapertura de la investigación                                                                    201
-
-Curso habilitante Juez(a)                                                             Índice
-
-
-## 14.4 Los sobreseimientos                                                                   202
-
-
-
-## 14.5 Facultades discrecionales del Ministerio Público                                      204
-
-
-
-## 14.6 Análisis de casos de sobreseimientos definitivos sin formalización por prescripción   206
-
-
-
-## 15. Audiencia preparatoria de juicio oral                                                     209
-
-
-
-## 15.1 Estructura de la audiencia preparatoria de juicio oral                                210
-
-
-
-## 15.2 Fase oral de la etapa intermedia: La audiencia de preparación del juicio oral         216
-
-
-
-## 15.3 Convenciones probatorias                                                              229
-
-
-
-## 15.4 Análisis de casos de exclusión de prueba de la defensa                                230
-
-
-
-## 16. Audiencias de salidas alternativas                                                        237
-
-
-
-## 16.1 Suspensión condicional del procedimiento                                              238
-
-
-
-## 16.2 Requisitos de procedencia                                                             240
-
-
-
-## 16.3 Efectos de la suspensión condicional                                                  242
-
-
-
-## 16.4 Modificación o revocación de la suspensión condicional                                242
-
-
-
-## 16.5 Efectos del rechazo o revocación                                                      243
-
-
-
-## 16.6 Acuerdos reparatorios                                                                 243
-
-
-
-## 16.7 Análisis de casos de suspensiones condicionales improcedentes                         247
-
-
-
-## 17. Audiencias de procedimientos especiales                                                   249
-
-
-
-## 17.1 Procedimiento abreviado                                                               250
-
-
-
-## 17.2 Procedimiento simplificado                                                            263
-
-
-
-## 17.3 El procedimiento monitorio                                                            270
-
-
-
-## 17.4 Análisis de casos de procedimientos abreviados improcedentes (casos en que se rebaja
-
-                                         		     forzadamente la pena para poder abreviar)                                              276
-
-
-## 18. Juicio Oral                                                                               278
-
-
-
-## 18.1 Estructura del juicio oral                                                            279
-
-
-
-## 18.2 Desarrollo del juicio oral                                                            279
-
-
-
-## 18.3 Veredicto y fallo                                                                     302
-
-
-
-## 19. Audiencias de control de ejecución de las penas                                           317
-
-
-
-## 19.1 Juez de garantía y control de ejecución                                               318
-
-
-
 ## 19.2 Derechos fundamentales del condenado en la etapa de ejecución                         319
 
+**Definición Canónica:** Glosario                                                                                       324
 
-                                         Glosario                                                                                       324
+Glosario                                                                                       324
 
                                          Bibliografía                                                                                   417
 Curso habilitante Juez(a)                                                                                           7
@@ -423,7 +233,10 @@ Santiago,                 libros y artículos sobre derecho proChile 2020       
 
 ## capítulo teórico finaliza con una sentencia para analizar y material
 
-                                         de lectura complementario.
+**Definición Canónica:** de lectura complementario.
+**Concordancias Legales:** artículo 12 del CPP; artículo 28 de la Ley N; artículo 369; artículo 277 del CPP; artículo 275; artículo 33; Ley N° 20.393; Ley N° 19.913; Ley N° 18.216; Constitución Política; Constitucion
+
+de lectura complementario.
 
                                          Es así que estos apuntes de trabajo están pensados para lograr la
                                          facilitación del estudiante del curso de formación de la Academia
@@ -792,10 +605,13 @@ Santiago,                 libros y artículos sobre derecho proChile 2020       
                                                                              se prepara debidamente estudiando el expediente. En cambio, en el
                                                                              sistema adversatorio o de iniciativa de las partes, las partes presentan
 
-
 ## 8   Código Procesal Penal modelo para Latinoamérica. Disponible en: http://biblioteca.cejamericas.org/hand-
 
-                                               le/2015/4215
+**Definición Canónica:** le/2015/4215
+                                           9   SCHÜNEMANN (1991), p. 111.
+**Concordancias Legales:** Artículos 37; Artículos 1; constitucion
+
+le/2015/4215
                                            9   SCHÜNEMANN (1991), p. 111.
 
 Curso habilitante Juez(a)                                               1. ¿Qué es ser un Juez Penal?                                               20
@@ -1034,22 +850,24 @@ de garantía y de tribunal                                                    co
 
 ## capítulo trataremos las garantías como límites constitucionales al
 
-                                                                            derecho penal.
+**Definición Canónica:** derecho penal.
+
+derecho penal.
 
                                          17   HORVITZ y LÓPEZ (2004), pp. 35 y 36.
 
 Curso habilitante Juez(a)                                            2. Principios del derecho penal                                           27
 de garantía y de tribunal                                               como límite y fundamento
 
-
-## 2.1         Principios de la
-
-                                                                       persecución penal
-
-
 ## 2.1.1 Principio de oficialidad
 
-                                                                       El principio de oficialidad expresa la idea de persecución penal pú-
+**Definición Canónica:** El principio de oficialidad expresa la idea de persecución penal pú-
+                                                                       blica del delito, lo que se refiere a la noción de que estos pueden y
+                                                                       deben ser perseguidos por el Estado de oficio, sin consideración a
+                                                                       la voluntad del ofendido u ofendida, ni de ninguna otra persona. La
+                                                                       antítesis teórica del principio de oficial
+
+El principio de oficialidad expresa la idea de persecución penal pú-
                                                                        blica del delito, lo que se refiere a la noción de que estos pueden y
                                                                        deben ser perseguidos por el Estado de oficio, sin consideración a
                                                                        la voluntad del ofendido u ofendida, ni de ninguna otra persona. La
@@ -1059,10 +877,16 @@ de garantía y de tribunal                                               como l�
 
                                                                        jurisdiccional pretendiendo su satisfacción18.
 
-
 ## 2.1.2 Principio de investigación
 
-                                                                       oficial y aportación de parte
+**Definición Canónica:** oficial y aportación de parte
+                                                                       La antítesis teórica del principio de investigación oficial es el princi-
+                                                                       pio de aportación de parte. Conforme a este principio, la carga de la
+                                                                       prueba y la iniciativa de los actos de producción de prueba recaen en
+                                                                       las partes, sin que se reconozca al tribunal facultades para intervenir
+
+
+oficial y aportación de parte
                                                                        La antítesis teórica del principio de investigación oficial es el princi-
                                                                        pio de aportación de parte. Conforme a este principio, la carga de la
                                                                        prueba y la iniciativa de los actos de producción de prueba recaen en
@@ -1073,10 +897,15 @@ de garantía y de tribunal                                               como l�
                                                                        de la verdad. Está relacionado con los conceptos de verdad formal y
                                                                        verdad material19.
 
-
 ## 2.1.3 Principio acusatorio
 
-                                                                       El principio acusatorio impone la distribución de los poderes
+**Definición Canónica:** El principio acusatorio impone la distribución de los poderes
+                                                                       de persecución penal y, por ello, de las funciones asociadas a su
+                                                                       ejercicio, implicando una triple separación entre las funciones de
+                                                                       investigación, acusación y enjuiciamiento20. En su núcleo básico, el
+                                                                       principio acusatorio impone una distribución de los 
+
+El principio acusatorio impone la distribución de los poderes
                                                                        de persecución penal y, por ello, de las funciones asociadas a su
                                                                        ejercicio, implicando una triple separación entre las funciones de
                                                                        investigación, acusación y enjuiciamiento20. En su núcleo básico, el
@@ -1095,10 +924,16 @@ de garantía y de tribunal                                                    co
                                                                             igualmente es el Estado el que acusa y juzga, pero a través de dos
                                                                             autoridades distintas.
 
-
 ## 2.1.4 Principio de legalidad y oportunidad
 
-                                                                            El principio de legalidad enuncia que el Ministerio Público está
+**Definición Canónica:** El principio de legalidad enuncia que el Ministerio Público está
+                                                                            obligado a iniciar y sostener la persecución penal de todo delito que
+                                                                            llegue a su conocimiento, sin que pueda suspender, interrumpir o
+                                                                            hacerla cesar a su mero arbitrio21. Es la suma de dos principios me-
+                                                                            nores; el principio de prom
+**Concordancias Legales:** constitucion; Constitución
+
+El principio de legalidad enuncia que el Ministerio Público está
                                                                             obligado a iniciar y sostener la persecución penal de todo delito que
                                                                             llegue a su conocimiento, sin que pueda suspender, interrumpir o
                                                                             hacerla cesar a su mero arbitrio21. Es la suma de dos principios me-
@@ -1127,15 +962,16 @@ de garantía y de tribunal                                                     d
                                                                              y ratificadas por Chile. Examinaremos el contenido de cada una de
                                                                              ellas a continuación23.
 
-
-## 3.1              Garantías ante la
-
-                                                                             organización judicial
-
-
 ## 3.1.1 Derecho al juez independiente
 
-                                                                             Según el artículo 76 inciso 1° de la Constitución Política de la Re-
+**Definición Canónica:** Según el artículo 76 inciso 1° de la Constitución Política de la Re-
+                                                                             pública, la facultad de conocer de las causas civiles y criminales, de
+                                                                             resolverlas y de hacer ejecutar lo juzgado, pertenece exclusivamente a
+                                                                             los tribunales establecidos por la ley. Ni el Presidente de la República
+                                                                             ni el Co
+**Concordancias Legales:** artículo 76 inciso 1; Constitución Política; Constitución; constitucion
+
+Según el artículo 76 inciso 1° de la Constitución Política de la Re-
                                                                              pública, la facultad de conocer de las causas civiles y criminales, de
                                                                              resolverlas y de hacer ejecutar lo juzgado, pertenece exclusivamente a
                                                                              los tribunales establecidos por la ley. Ni el Presidente de la República
@@ -1151,10 +987,15 @@ de garantía y de tribunal                                                     d
                                                                              poderes y con la autonomía para juzgar de todo juez dentro de la
                                                                              estructura judicial interna”24.
 
-
 ## 3.1.2 Derecho al juez imparcial
 
-                                                                             La imparcialidad, para la mayoría de la doctrina, tiene dos esferas.
+**Definición Canónica:** La imparcialidad, para la mayoría de la doctrina, tiene dos esferas.
+                                                                             Una es la esfera subjetiva, relacionada con la posición personal de los
+                                                                             jueces o juezas con las partes de un conflicto sometido a su decisión.
+                                                                             Para Bordalí: “Se habla de una consideración del fuero interior de los
+**Concordancias Legales:** artículos 483; artículos 75; artículo 2; artículo 157 del Código Orgánico; artículo 159; artículo 157; constitucion; Constitución Política
+
+La imparcialidad, para la mayoría de la doctrina, tiene dos esferas.
                                                                              Una es la esfera subjetiva, relacionada con la posición personal de los
                                                                              jueces o juezas con las partes de un conflicto sometido a su decisión.
                                                                              Para Bordalí: “Se habla de una consideración del fuero interior de los
@@ -1245,15 +1086,16 @@ de garantía y de tribunal                                                 del d
 Curso habilitante Juez(a)                                                 3. Límites constitucionales                                             33
 de garantía y de tribunal                                                    del derecho penal
 
-
-## 3.2              Garantías generales
-
-                                                                            del procedimiento
-
-
 ## 3.2.1 Derecho al juicio previo
 
-                                                                            El artículo 1° del Código Procesal Penal dice: “Ninguna persona
+**Definición Canónica:** El artículo 1° del Código Procesal Penal dice: “Ninguna persona
+                                                                            podrá ser condenada o penada, ni sometida a una de las medidas de
+                                                                            seguridad establecidas en este código, sino en virtud de una sentencia
+                                                                            fundada, dictada por un tribunal imparcial. Toda persona tiene dere-
+                                                                            cho a un juicio previo, or
+**Concordancias Legales:** artículo 1
+
+El artículo 1° del Código Procesal Penal dice: “Ninguna persona
                                                                             podrá ser condenada o penada, ni sometida a una de las medidas de
                                                                             seguridad establecidas en este código, sino en virtud de una sentencia
                                                                             fundada, dictada por un tribunal imparcial. Toda persona tiene dere-
@@ -1271,10 +1113,16 @@ de garantía y de tribunal                                                    de
                                                                             al imputado o imputada en un juicio penal, debe cumplir con todas
                                                                             las normas legales de un proceso debidamente tramitado.
 
-
 ## 3.2.2 Derecho a ser juzgado dentro de un plazo razonable
 
-                                                                            Esta garantía está tratada en diversas convenciones internacionales,
+**Definición Canónica:** Esta garantía está tratada en diversas convenciones internacionales,
+                                                                            y ha sido materia de diversos análisis doctrinarios. Esta garantía
+                                                                            está asociada a la tensión de la que hemos hecho eco desde el prin-
+                                                                            cipio de este trabajo, en la que el tiempo que dura el proceso es el
+                                                                            tiempo durante el cual 
+**Concordancias Legales:** Artículo 19; constitucion
+
+Esta garantía está tratada en diversas convenciones internacionales,
                                                                             y ha sido materia de diversos análisis doctrinarios. Esta garantía
                                                                             está asociada a la tensión de la que hemos hecho eco desde el prin-
                                                                             cipio de este trabajo, en la que el tiempo que dura el proceso es el
@@ -1304,7 +1152,10 @@ de garantía y de tribunal                                                      
 
 ## 3.2.3 Derecho de defensa
 
-                                         uno en la oportunidad
+**Definición Canónica:** uno en la oportunidad
+**Concordancias Legales:** Artículo 19; Constitucion
+
+uno en la oportunidad
 
                                                                                 Artículo 19 N°3 inciso 4°: “Toda persona imputada de delito tiene
                                          establecida por                        derecho irrenunciable a ser asistida por un abogado defensor pro-
@@ -1338,10 +1189,14 @@ de garantía y de tribunal                                                  del 
                                                                           jurisprudencial de estas garantías, entre ellas, la de defensa jurídica
                                                                           letrada31.
 
-
 ## 3.2.4 Derecho a la presunción de inocencia
 
-                                                                          El artículo 4º Código Procesal Penal señala: “Presunción de inocencia
+**Definición Canónica:** El artículo 4º Código Procesal Penal señala: “Presunción de inocencia
+                                                                          del imputado. Ninguna persona será considerada culpable ni tratada
+                                                                          como tal en tanto no fuere condenada por una sentencia firme”.
+**Concordancias Legales:** artículo 4; artículo 140 del Código Procesal Penal; constitucion
+
+El artículo 4º Código Procesal Penal señala: “Presunción de inocencia
                                                                           del imputado. Ninguna persona será considerada culpable ni tratada
                                                                           como tal en tanto no fuere condenada por una sentencia firme”.
 
@@ -1393,7 +1248,10 @@ de garantía y de tribunal                                                  del 
 
 ## 3.2.5 Inadmisibilidad de la persecución penal múltiple
 
-                                         ponderar los requisitos
+**Definición Canónica:** ponderar los requisitos
+**Concordancias Legales:** artículo 1; artículo 140; constitucion
+
+ponderar los requisitos
 
                                                                           El artículo 1° inciso 2° del Código Procesal Penal indica: “La perso-
                                          del artículo 140 del             na condenada, absuelta o sobreseída definitivamente por sentencia
@@ -1418,15 +1276,17 @@ de garantía y de tribunal                                                  del 
 Curso habilitante Juez(a)                                                3. Límites constitucionales                                            37
 de garantía y de tribunal                                                   del derecho penal
 
-
-## 3.3          Garantías
-
-                                                                           del juicio
-
-
 ## 3.3.1 Derecho a juicio público
 
-                                         Consagrado en el                  Consagrado en el artículo 1° inciso 2° del Código Procesal Penal figura
+**Definición Canónica:** Consagrado en el                  Consagrado en el artículo 1° inciso 2° del Código Procesal Penal figura
+                                         artículo 1° inciso 2°             que “Toda persona tiene derecho a un juicio previo, oral y público,
+                                                                           desarrollado en conformidad con las normas de este cuerpo legal”.
+                                         del Código Procesal
+                                         Penal figura que “Toda            Para su estricto cumplimiento, se estableció como motivo absoluto
+        
+**Concordancias Legales:** artículo 1; artículo 376
+
+Consagrado en el                  Consagrado en el artículo 1° inciso 2° del Código Procesal Penal figura
                                          artículo 1° inciso 2°             que “Toda persona tiene derecho a un juicio previo, oral y público,
                                                                            desarrollado en conformidad con las normas de este cuerpo legal”.
                                          del Código Procesal
@@ -1451,10 +1311,13 @@ de garantía y de tribunal                                                   del
                                                                            orales en lo penal, se cumple rigurosamente dicha garantía procesal,
                                                                            vinculada al debido proceso legal.
 
-
 ## 3.3.2 Derecho a juicio oral
 
-                                                                           El mismo artículo 1° inciso 2° garantiza, además de la publicidad
+**Definición Canónica:** El mismo artículo 1° inciso 2° garantiza, además de la publicidad
+                                                                           del juicio, la oralidad.
+**Concordancias Legales:** artículo 1; artículos 282; constitucion
+
+El mismo artículo 1° inciso 2° garantiza, además de la publicidad
                                                                            del juicio, la oralidad.
 
                                             35   ROXIN (2000), p. 407.
@@ -1479,10 +1342,11 @@ de garantía y de tribunal                                                   del
                                                                            Penal a través de los artículos 282 y 283. Su infracción constituye
                                                                            motivos absolutos de nulidad.
 
-
 ## 3.4              Límites formales a la
 
-                                                                           producción de prueba
+**Definición Canónica:** producción de prueba
+
+producción de prueba
 
                                                                            Se trata de las limitaciones impuestas al órgano acusador para realizar
                                                                            su labor y producir la prueba que será presentada en juicio. Estas
@@ -1595,7 +1459,10 @@ de garantía y de tribunal                                                    la
 
 ## 39   Más acerca de la desigualdad y la selección de quienes son controlados por el sistema penal, que comienza
 
-                                              con la policía en las calles en: IRARRÁZABAL (2015) pp. 234-265.
+**Definición Canónica:** con la policía en las calles en: IRARRÁZABAL (2015) pp. 234-265.
+                                         40   VERA (2017), pp. 831-855.
+
+con la policía en las calles en: IRARRÁZABAL (2015) pp. 234-265.
                                          40   VERA (2017), pp. 831-855.
 
 Curso habilitante Juez(a)                     4. Entre las garantías del imputado y                                          42
@@ -1614,11 +1481,12 @@ de garantía y de tribunal                        la confianza en el sistema pen
                                          2.     BINDER, JULIO (2007): “Tensiones político-criminales en el proceso penal”,
                                                 Revista Jueces para la Democracia, Nº 60, pp. 21-36.
 
-
 ## 3.     VERA-SÁNCHEZ, JUAN-SEBASTIÁN. (2017). “Sobre la relación del derecho
 
+**Definición Canónica:** penal con el derecho procesal penal”, Revista Chilena de Derecho, 44(3),
+                                                831-855. https://dx.doi.org/10.4067/S0718-34372017000300831
 
-                                                penal con el derecho procesal penal”, Revista Chilena de Derecho, 44(3),
+penal con el derecho procesal penal”, Revista Chilena de Derecho, 44(3),
                                                 831-855. https://dx.doi.org/10.4067/S0718-34372017000300831
 
 Curso habilitante Juez(a)                                        43
@@ -1658,10 +1526,12 @@ de garantía y de tribunal                                              de los t
 Curso habilitante Juez(a)                                                  5. Principios de actuación y estructura orgánica                        45
 de garantía y de tribunal                                                     de los tribunales con competencia penal
 
-
 ## 5.1              Jueces de
 
-                                                                             garantía
+**Definición Canónica:** garantía
+**Concordancias Legales:** artículo 14 del Código Orgánico de Tribunales es el que señal; artículos 9; artículo 70 del CPP; artículo 496 del Código Penal; Ley N° 19.665; constitucion; Constitución; Constitución Política
+
+garantía
 
                                          La denominación                     La denominación “jueces de garantía” es una innovación chilena.
                                          “jueces de garantía”                Los jueces que ejercen labores similares en jurisdicciones como la
@@ -1828,10 +1698,12 @@ de garantía y de tribunal                   de los tribunales con competencia p
 Curso habilitante Juez(a)                                                    5. Principios de actuación y estructura orgánica                                   49
 de garantía y de tribunal                                                       de los tribunales con competencia penal
 
-
 ## 5.2                Tribunal de juicio oral
 
-                                                                               en lo penal
+**Definición Canónica:** en lo penal
+**Concordancias Legales:** artículos 72; artículo 18 del COT. Tendrán competencia para conocer y resol; artículos 21; artículo 21; Artículo 74 inciso 1
+
+en lo penal
 
                                                                                Los tribunales de juicio oral en lo penal son tribunales colegiados,
                                                                                compuestos a lo menos por tres jueces letrados que actúan en sala,
@@ -1891,10 +1763,12 @@ de garantía y de tribunal                                                      
 Curso habilitante Juez(a)                                         5. Principios de actuación y estructura orgánica                         51
 de garantía y de tribunal                                            de los tribunales con competencia penal
 
-
 ## 5.3          Análisis de caso de falta de
 
-                                                                    jurisdicción del juez penal
+**Definición Canónica:** jurisdicción del juez penal
+**Concordancias Legales:** artículo 411; artículo 6
+
+jurisdicción del juez penal
 
                                          La Operación Desierto      El 5 de marzo de 2019, la Segunda Sala de la Corte Suprema, integra-
                                          fue conocida y juzgada     da por los ministros Hugo Enrique Dolmestch U., Carlos Künsemüller
@@ -2113,10 +1987,12 @@ de garantía y de tribunal                   de los tribunales con competencia p
 Curso habilitante Juez(a)                                                6. Justicia penal y organismos                                            6
 de garantía y de tribunal                                                   relacionados
 
-
 ## 6.1           Ministerio
 
-                                                                           Público
+**Definición Canónica:** Público
+**Concordancias Legales:** artículos 80; artículo 80; artículo 1; artículo 6; artículo 78; artículo 55; artículo 3; artículo 8; artículo 11; artículo 45 de la LOC del Ministerio Público señala; artículo 72; Constitucion
+
+Público
 
                                          El Ministerio Público             “¿Por qué se desea un Ministerio Público en la fase de investigación?
                                          fue la primera                    Porque ayuda a desmontar el sistema de instrucción inquisitiva, y así,
@@ -2356,10 +2232,12 @@ de garantía y de tribunal                                                     r
 Curso habilitante Juez(a)                                         6. Justicia penal y organismos                                        63
 de garantía y de tribunal                                            relacionados
 
-
 ## 6.2          Defensoría Penal
 
-                                                                    Pública
+**Definición Canónica:** Pública
+**Concordancias Legales:** artículos 51; Ley N° 19.718; constitucion
+
+Pública
 
                                                                     Descripción del sistema
                                          La ley establece, como     La Ley N° 19.718 establece un nuevo sistema de defensa penal
@@ -2460,10 +2338,12 @@ de garantía y de tribunal                         relacionados
                                                  conveniente. A falta de designación, será subrogado por el defensor
                                                  regional más antiguo.
 
-
 ## 6.3     Carabineros y Policía
 
-                                                 de Investigaciones
+**Definición Canónica:** de Investigaciones
+**Concordancias Legales:** artículos 79; artículos 180; artículo 180; artículo 181; artículo 187 del CPP; artículo 83; artículo 83 del CPP; artículo 84 del CPP
+
+de Investigaciones
 
                                                  La Policía
                                                  Entre los artículos 79 a 92, el CPP trata acerca de las policías, en su
@@ -2587,11 +2467,17 @@ de garantía y de tribunal                         relacionados
                                                  de habitantes, existiendo un déficit de policía especializada en zonas
                                                  rurales o alejadas de las capitales regionales.
 
-
 ## 6.4     Gendarmería
 
+**Definición Canónica:** Gendarmería de Chile es un servicio público dependiente del Mi-
+                                                 nisterio de Justicia y Derechos Humanos que “tiene por finalidad
+                                                 atender, vigilar y contribuir a la reinserción social de las personas
+                                                 que, por resolución de autoridades competentes, fueren detenidas o
+                                                 privadas de libertad y cumplir las demás funciones que les señala la
+                                                 ley”, según el artíc
+**Concordancias Legales:** artículo 1
 
-                                                 Gendarmería de Chile es un servicio público dependiente del Mi-
+Gendarmería de Chile es un servicio público dependiente del Mi-
                                                  nisterio de Justicia y Derechos Humanos que “tiene por finalidad
                                                  atender, vigilar y contribuir a la reinserción social de las personas
                                                  que, por resolución de autoridades competentes, fueren detenidas o
@@ -2678,10 +2564,12 @@ de garantía y de tribunal                                                    re
 Curso habilitante Juez(a)                                                   6. Justicia penal y organismos                                           71
 de garantía y de tribunal                                                      relacionados
 
-
 ## 6.5              Sename e instituciones
 
-                                                                              colaboradoras
+**Definición Canónica:** colaboradoras
+**Concordancias Legales:** Ley Nº 2.465; Ley N° 20.032
+
+colaboradoras
 
                                          El Servicio Nacional                 El Servicio Nacional de Menores (Sename) es un organismo guberna-
                                          de Menores (Sename)                  mental centralizado, colaborador del sistema judicial y dependiente
@@ -2739,23 +2627,13 @@ de garantía y de tribunal                                                     r
                                                                              Las líneas de acción de los organismos colaboradores, de acuerdo a
                                                                              la Ley N° 20.032, son:
 
-
-## 1. Oficinas de protección de los derechos del niño, niña y adolescente
-
-
-
-## 2. Centros residenciales
-
-
-
-## 3. Programas
-
-
-
 ## 4. Diagnóstico
 
+**Definición Canónica:** Tanto el Sename, como sus colaboradores acreditados, se sujetarán
+                                                                             a los siguientes principios54:
+**Concordancias Legales:** Artículo 2; Ley N° 20.032; Constitución Política
 
-                                                                             Tanto el Sename, como sus colaboradores acreditados, se sujetarán
+Tanto el Sename, como sus colaboradores acreditados, se sujetarán
                                                                              a los siguientes principios54:
 
                                                                              —— El respeto, la promoción, la reparación y la protección de los de-
@@ -2837,10 +2715,13 @@ de garantía y de tribunal                         relacionados
                                                     lescente respecto a los procesos de intervención que le atañen,
                                                     en función de su edad y madurez.
 
-
 ## 6.6     Análisis de casos en que funcionarios
 
-                                                 de un organismo auxiliar resultan
+**Definición Canónica:** de un organismo auxiliar resultan
+                                                 imputados en el proceso penal
+**Concordancias Legales:** artículo 443 del Código Orgánico de Tribunales; artículo 443 del C.O.T; artículo 373 del Código Procesal
+
+de un organismo auxiliar resultan
                                                  imputados en el proceso penal
 
                                                  —— Análisis de sentencia de fecha 5 de junio de 2019, pronunciada
@@ -2928,10 +2809,12 @@ de garantía y de tribunal                         relacionados
 Curso habilitante Juez(a)                                           7. Víctima en el                                                          78
 de garantía y de tribunal                                              proceso penal
 
-
 ## 7.1          Rol de la
 
-                                                                     víctima
+**Definición Canónica:** víctima
+**Concordancias Legales:** artículo 108 del CPP señala quienes son víctimas y entrega
+
+víctima
 
                                          La víctima en el            La víctima en el proceso penal es el ofendido por el delito. Esto es
                                          proceso penal es            fácil de determinar en delitos contra bienes jurídicos personalísimos.
@@ -2973,10 +2856,12 @@ de garantía y de tribunal                                              proceso 
 Curso habilitante Juez(a)                      7. Víctima en el                                                        79
 de garantía y de tribunal                         proceso penal
 
-
 ## 7.2    Derechos de la víctima
 
-                                                en el proceso penal
+**Definición Canónica:** en el proceso penal
+**Concordancias Legales:** artículo 109 del CPP de la siguiente manera; artículo 110 del CPP señala que; artículos 141; Ley N° 21.057
+
+en el proceso penal
 
                                                 Los derechos de las víctimas en el proceso penal están enunciados
                                                 en el artículo 109 del CPP de la siguiente manera:
@@ -3028,15 +2913,15 @@ de garantía y de tribunal                                                      
                                                                                142; 372 bis; 374 bis; 390; 391; 395; 397, número 1; 411 bis; 411 ter;
                                                                                411 quáter, y 433, número 1, todos del Código Penal.
 
-
-## 7.3              Víctima como querellante
-
-                                                                               y actor civil
-
-
 ## 7.3.1 La querella
 
-                                                                               Es un acto jurídico procesal mediante el cual la víctima de un hecho
+**Definición Canónica:** Es un acto jurídico procesal mediante el cual la víctima de un hecho
+                                                                               punible, o las demás personas o instituciones expresamente faculta-
+                                                                               das por la ley, ponen en conocimiento de la autoridad competente la
+                                                                               existencia de un hecho que puede revestir los caracteres de un delito.
+**Concordancias Legales:** artículo 111 del CPP. Por último; artículo 113; artículo 113 del CPP. Si el juez la declara; artículo 114 del CPP; Constitución
+
+Es un acto jurídico procesal mediante el cual la víctima de un hecho
                                                                                punible, o las demás personas o instituciones expresamente faculta-
                                                                                das por la ley, ponen en conocimiento de la autoridad competente la
                                                                                existencia de un hecho que puede revestir los caracteres de un delito.
@@ -3149,10 +3034,14 @@ de garantía y de tribunal                                              proceso 
                                           debe ponerla igual en conocimiento del Ministerio Público para ser
                                           tenida como denuncia.
 
-
 ## 7.3.4 Prohibición de la querella
 
-                                          No pueden querellarse entre sí, sea por delitos de acción pública o
+**Definición Canónica:** No pueden querellarse entre sí, sea por delitos de acción pública o
+                                          privada:
+                                          a. Los cónyuges, a no ser por delito que uno hubiere cometido
+                                             contra el otro o contra sus hijos, o por el delito de bigamia.
+
+No pueden querellarse entre sí, sea por delitos de acción pública o
                                           privada:
                                           a. Los cónyuges, a no ser por delito que uno hubiere cometido
                                              contra el otro o contra sus hijos, o por el delito de bigamia.
@@ -3162,10 +3051,14 @@ de garantía y de tribunal                                              proceso 
                                              afines hasta el segundo grado, a no ser por delitos cometidos por
                                              unos contra los otros, o contra su cónyuge o hijos.
 
-
 ## 7.3.5 Desistimiento de la querella
 
-                                          El querellante puede desistirse de su querella en cualquier momento
+**Definición Canónica:** El querellante puede desistirse de su querella en cualquier momento
+                                          del procedimiento, en cuyo caso tomará a su cargo las costas propias
+                                          y quedará sujeto a la decisión general sobre costas que dictare el
+                                          tribunal al finalizar el procedimiento.
+
+El querellante puede desistirse de su querella en cualquier momento
                                           del procedimiento, en cuyo caso tomará a su cargo las costas propias
                                           y quedará sujeto a la decisión general sobre costas que dictare el
                                           tribunal al finalizar el procedimiento.
@@ -3175,10 +3068,15 @@ de garantía y de tribunal                                              proceso 
                                           por querella o acusación calumniosa y a demandar los perjuicios que
                                           le hubiere causado en su persona o bienes y las costas.
 
-
 ## 7.3.6 Abandono de la querella
 
-                                          Se trata de una sanción procesal impuesta por el tribunal al quere-
+**Definición Canónica:** Se trata de una sanción procesal impuesta por el tribunal al quere-
+                                          llante, de oficio o a petición de cualquiera de los intervinientes, en
+                                          situaciones objetivas que demuestran negligencia o falta de interés
+                                          de su parte, impidiéndole ejercer en lo sucesivo los derechos que el
+                                          CPP le confería.
+
+Se trata de una sanción procesal impuesta por el tribunal al quere-
                                           llante, de oficio o a petición de cualquiera de los intervinientes, en
                                           situaciones objetivas que demuestran negligencia o falta de interés
                                           de su parte, impidiéndole ejercer en lo sucesivo los derechos que el
@@ -3201,10 +3099,17 @@ de garantía y de tribunal                                            proceso pe
                                                                    el solo efecto devolutivo. En cambio, la que niega lugar al abandono
                                                                    es inapelable.
 
-
 ## 7.3.7 La acción civil en el proceso penal
 
-                                         Como víctima, uno de      Es sabido que la comisión de un ilícito siempre importará el acaeci-
+**Definición Canónica:** Como víctima, uno de      Es sabido que la comisión de un ilícito siempre importará el acaeci-
+                                         los derechos que el       miento de un daño, para el sujeto pasivo del mismo o de sus familiares
+                                                                   más directos. Como víctima, uno de los derechos que el proceso le
+                                         proceso le reconoce
+                                                                   reconoce es, precisamente, el de “ejercer contra el imputado acciones
+                                    
+**Concordancias Legales:** artículo 61 del CPP; artículos 183; Artículo 61; artículo 157
+
+Como víctima, uno de      Es sabido que la comisión de un ilícito siempre importará el acaeci-
                                          los derechos que el       miento de un daño, para el sujeto pasivo del mismo o de sus familiares
                                                                    más directos. Como víctima, uno de los derechos que el proceso le
                                          proceso le reconoce
@@ -3246,10 +3151,14 @@ de garantía y de tribunal                                              proceso 
                                                                           en el artículo precedente, la prescripción se considerará como
                                                                           no interrumpida.
 
-
 ## 2. Presentando derechamente la demanda civil, ante el juez de garan-
 
-                                                                        tía en la oportunidad establecida en el artículo 261 del CPP, esto
+**Definición Canónica:** tía en la oportunidad establecida en el artículo 261 del CPP, esto
+                                                                        es, deduciéndola por escrito hasta 15 días antes de la fecha fijada
+                                                                        para la realización de la audiencia de preparación del juicio oral.
+**Concordancias Legales:** artículo 261 del CPP; artículos 60; artículo 12 del CPP
+
+tía en la oportunidad establecida en el artículo 261 del CPP, esto
                                                                         es, deduciéndola por escrito hasta 15 días antes de la fecha fijada
                                                                         para la realización de la audiencia de preparación del juicio oral.
 
@@ -3285,17 +3194,25 @@ de garantía y de tribunal                                              proceso 
 
 Curso habilitante Juez(a)                7. Víctima en el                                                         86
 
-
 ## 7.3.8 Tipos de acciones civiles
 
-                                          Consideraremos tres de ellas, las más relevantes por su concurrencia,
+**Definición Canónica:** Consideraremos tres de ellas, las más relevantes por su concurrencia,
                                           las restitutorias, las reparatorias e indemnizatorias (estas dos últimas
                                           se tratarán en conjunto):
 
+Consideraremos tres de ellas, las más relevantes por su concurrencia,
+                                          las restitutorias, las reparatorias e indemnizatorias (estas dos últimas
+                                          se tratarán en conjunto):
 
 ## 1. Las restitutorias, con las que se busca obtener o bien la cosa mis-
 
-                                             ma, o su valor. Según el artículo 58 del CPP: “La acción civil que
+**Definición Canónica:** ma, o su valor. Según el artículo 58 del CPP: “La acción civil que
+                                             tuviere por objeto únicamente la restitución de la cosa, deberá
+                                             interponerse siempre durante el respectivo procedimiento penal,
+                                             de conformidad a lo previsto en el artículo 189”.
+**Concordancias Legales:** artículo 58 del CPP; artículo 189; artículos 82; artículo 52 del CPP; artículo 189 del CPP señala
+
+ma, o su valor. Según el artículo 58 del CPP: “La acción civil que
                                              tuviere por objeto únicamente la restitución de la cosa, deberá
                                              interponerse siempre durante el respectivo procedimiento penal,
                                              de conformidad a lo previsto en el artículo 189”.
@@ -3343,11 +3260,17 @@ de garantía y de tribunal                                              proceso 
                                                sea en procedimientos abreviados, simplificados, monitorios o
                                                juicios orales.
 
-
 ## 2. Las reparatorias, que persiguen el cumplimiento de prestaciones
 
+**Definición Canónica:** civiles particulares, distintas de las indemnizatorias generales,
+                                             como por ejemplo las que nacen para resarcir a las víctimas de
+                                             determinados delitos sexuales; y las indemnizatorias; aquí caben
+                                             las acciones civiles referidas al daño patrimonial (daño emergente
+                                             y lucro cesante) y al extrapatrimonial (daño moral), aplicándose
+                                             en esta parte los artículos 2314 y siguientes del
+**Concordancias Legales:** artículos 2314; artículo 59 del CPP; artículo 64 del Desistimiento y abandono de la acción civil; artículo 64 del CPP señala que la víctima podrá desistirse de; artículo 65; artículo 67 del CPP señala que
 
-                                             civiles particulares, distintas de las indemnizatorias generales,
+civiles particulares, distintas de las indemnizatorias generales,
                                              como por ejemplo las que nacen para resarcir a las víctimas de
                                              determinados delitos sexuales; y las indemnizatorias; aquí caben
                                              las acciones civiles referidas al daño patrimonial (daño emergente
@@ -3410,10 +3333,16 @@ de garantía y de tribunal                                             proceso p
                                          juicio oral, que se        absolutoria en materia penal, ello no impedirá que se dé lugar a la
                                          llama abandono.            acción civil, si fuere legalmente procedente.
 
-
 ## 7.3.9 La acción civil y las medidas cautelares reales
 
-                                                                    Lógicamente, la víctima podrá intentar asegurar el contenido de su
+**Definición Canónica:** Lógicamente, la víctima podrá intentar asegurar el contenido de su
+                                                                    futura acción civil, solicitando durante la etapa de investigación que
+                                                                    se decreten una o más de las medidas precautorias autorizadas en
+                                                                    el título 5° del libro II del Código de Procedimiento Civil, esto es,
+                                                                    las cuatro medidas indicadas en el artículo 290 del Cód
+**Concordancias Legales:** artículo 290 del Código Procedi; artículos 157; artículo 61 del CPP. Ahora; artículo 157 del CPP; artículos 299; artículo 60 del CPP; artículo 366 del CPP; Ley Nº 20.084; constitucion
+
+Lógicamente, la víctima podrá intentar asegurar el contenido de su
                                                                     futura acción civil, solicitando durante la etapa de investigación que
                                                                     se decreten una o más de las medidas precautorias autorizadas en
                                                                     el título 5° del libro II del Código de Procedimiento Civil, esto es,
@@ -3483,10 +3412,13 @@ de garantía y de tribunal                                             proceso p
 Curso habilitante Juez(a)                                                    8. Responsabilidad penal adolescente Ley Nº 20.084                          92
 de garantía y de tribunal                                                       (procedimiento y determinación de sanciones)
 
-
 ## 8.1               Características de un sistema de justicia
 
-                                                                               penal juvenil especializado según la
+**Definición Canónica:** penal juvenil especializado según la
+                                                                               Convención de Derechos del Niño
+**Concordancias Legales:** artículo 40 de la CIDN reconoce la existencia de un sistema esp; Ley N° 20.084
+
+penal juvenil especializado según la
                                                                                Convención de Derechos del Niño
 
                                          Mediante el Decreto                   Mediante el Decreto Supremo N°830 de 27 de septiembre de 1990
@@ -3518,10 +3450,15 @@ de garantía y de tribunal                                                      
                                                                                ciales e intervenciones en el contexto de las actuaciones judiciales;
                                                                                (iii) edad mínima a efectos de responsabilidad penal y límites de
 
-
 ## 58   Ciertamente, en materia de niños, niñas y adolescentes hay mucho trabajo por hacer. Nuestro país está al
 
-                                                debe con los niños y niñas, quienes además de no recibir la debida protección que merecen, son víctimas de
+**Definición Canónica:** debe con los niños y niñas, quienes además de no recibir la debida protección que merecen, son víctimas de
+                                                delitos en manos de sus cuidadores.
+                                           59   IIN OEA. “Los sistemas de responsabilidad penal adolescente en las Américas”. Disponible en http://www.iin.
+                                                oea.org/pdf-iin/Sistemas_de_Responsabilidad_Penal_Adolescente.pdf
+**Concordancias Legales:** Ley Nº 20.084
+
+debe con los niños y niñas, quienes además de no recibir la debida protección que merecen, son víctimas de
                                                 delitos en manos de sus cuidadores.
                                            59   IIN OEA. “Los sistemas de responsabilidad penal adolescente en las Américas”. Disponible en http://www.iin.
                                                 oea.org/pdf-iin/Sistemas_de_Responsabilidad_Penal_Adolescente.pdf
@@ -3580,16 +3517,16 @@ de garantía y de tribunal                                                      
                                                                                  reintegración social los objetivos fundamentales hacia los cuales
                                                                                  debe apuntar la legislación penal juvenil60.
 
-
-## 8.2              Principales características del
-
-                                                                              sistema de responsabilidad penal
-                                                                              adolescente de la Ley N° 20.084
-
-
 ## 8.2.1 Características de la Ley N° 20.084
 
-                                         La Ley de                            La Ley de Responsabilidad Penal Adolescente sustituyó el viejo régi-
+**Definición Canónica:** La Ley de                            La Ley de Responsabilidad Penal Adolescente sustituyó el viejo régi-
+                                         Responsabilidad Penal                men sancionatorio para los menores de edad. Se trata de un régimen
+                                                                              especial de responsabilidad penal, aplicable a los adolescentes, por lo
+                                         Adolescente sustituyó                que implica principios y reglas distintas al régimen común para los
+                                         el viejo rég
+**Concordancias Legales:** artículo 1; artículos 494; artículo 477; artículos 11; artículo 3; Ley N° 20.084; Ley Nº 20.084; Ley Nº 20.000; Ley N° 19.968
+
+La Ley de                            La Ley de Responsabilidad Penal Adolescente sustituyó el viejo régi-
                                          Responsabilidad Penal                men sancionatorio para los menores de edad. Se trata de un régimen
                                                                               especial de responsabilidad penal, aplicable a los adolescentes, por lo
                                          Adolescente sustituyó                que implica principios y reglas distintas al régimen común para los
@@ -3672,10 +3609,18 @@ de garantía y de tribunal                                           (procedimie
                                            según esta ley, lo será sólo cuando sean mayores de 16 años y menores
                                            de 18 años de edad.
 
-
 ## 8.2.2 Régimen de sanciones contemplado
 
-                                           en la Ley N° 20.084
+**Definición Canónica:** en la Ley N° 20.084
+                                           El artículo 6° de la ley señala que “En sustitución de las penas con-
+                                           templadas en el Código Penal y en las leyes complementarias, a las
+                                           personas condenadas según esta ley sólo se les aplicará las siguientes”:
+                                           a. Internación en régimen cerrado con programa de reinserción
+                                              social: no puede exceder de 5 años si el menor infractor tuviere
+                         
+**Concordancias Legales:** artículo 6; artículo 21; artículo 436 inciso 2; artículo 69 del Código Punitivo; artículos 50; artículo 23; artículo 24; artículo 26; artículo 5; Ley N° 20.084; Ley Nº 20.084; Constitución
+
+en la Ley N° 20.084
                                            El artículo 6° de la ley señala que “En sustitución de las penas con-
                                            templadas en el Código Penal y en las leyes complementarias, a las
                                            personas condenadas según esta ley sólo se les aplicará las siguientes”:
@@ -3825,10 +3770,12 @@ de garantía y de tribunal                         (procedimiento y determinaci�
                                                  internacionales que estén ratificados por Chile y se encuentren
                                                  vigentes”.
 
-
 ## 8.3     Análisis de casos de determinación de penas
 
-                                                 y medidas cautelares en régimen especial
+**Definición Canónica:** y medidas cautelares en régimen especial
+**Concordancias Legales:** artículo 27 de la Ley N; artículo 26 de la Ley N; artículo 37; artículo 141 inciso 2; artículo 445 del Código Penal y de receptación; artículo 32 de la Ley N; artículo 21; artículo 5; artículo 33 del Código Procesal Penal el tribunal no incurrió; artículo 27; artículo 389 del Código Procesal Penal; artículo 19; artículo 390 del Código Procesal Penal; artículos 389; artículo 76 de la Constitución; Ley N° 20.084; Ley Nº 20.084; Ley N° 20.066; Ley N° 19.970; Ley Nº 19.970; constitucion; Constitución
+
+y medidas cautelares en régimen especial
 
                                                  Los fallos a analizar dan clara muestra de la tendencia jurisprudencial
                                                  absolutamente mayoritaria, en orden a entender que las conductas
@@ -4196,10 +4143,12 @@ de garantía y de tribunal                                              (procedi
 Curso habilitante Juez(a)                                         9. Reglas de apreciación                                               110
 de garantía y de tribunal                                            de la prueba pericial
 
-
 ## 9.1           Apreciación prueba de peritos
 
-                                                                    en materia penal
+**Definición Canónica:** en materia penal
+**Concordancias Legales:** artículo 315; artículo 314; artículo 316; artículo 276; artículo 297; artículo 318 del Código Procesal Penal
+
+en materia penal
 
                                          El Ministerio Público      La prueba de peritos reglada en el CPP se refiere a la declaración de
                                          está autorizado para       expertos en ciertas materias en los juicios penales. Los peritos son
@@ -4320,10 +4269,12 @@ de garantía y de tribunal                                                   de 
                                                                            tiene que ver con su credibilidad para emitir opiniones como experto
                                                                            en esta materia62. En otras palabras, el juez no puede desestimar lo
 
-
 ## 61   COLOMA (2003), p. 25. De manera tangencial, se refiere al problema de la determinación de cuándo nos
 
-                                              encontramos con un conocimiento científico afianzado.
+**Definición Canónica:** encontramos con un conocimiento científico afianzado.
+                                         62   BAYTELMAN y DUCE (2004), p. 301.
+
+encontramos con un conocimiento científico afianzado.
                                          62   BAYTELMAN y DUCE (2004), p. 301.
 
 Curso habilitante Juez(a)                                            9. Reglas de apreciación                                               113
@@ -4337,10 +4288,12 @@ de garantía y de tribunal                                               de la p
                                                                        si el tribunal quiere apartarse de la pericia, debe fundar su opinión de
                                                                        forma verificable y no puede desligarse de los estándares científicos63.
 
-
 ## 9.2         Análisis de casos de valoración
 
-                                                                       de prueba de peritos
+**Definición Canónica:** de prueba de peritos
+**Concordancias Legales:** artículo 365 bis del Código Penal se requiere; artículo 361
+
+de prueba de peritos
 
                                                                        En el “juicio Larrosa”, el Ministerio Público acusó a Hugo Larrosa
                                                                        como autor de los delitos de abuso sexual de mayor de 14 años (art.
@@ -4655,7 +4608,13 @@ de garantía y de tribunal                        de la prueba pericial
 
 ## 1.     Hoyl Moreno Gonzalo, “La valoración de la prueba en el proceso penal
 
-                                                chileno y convicción judicial. Aproximación a la sana critica en relación a la
+**Definición Canónica:** chileno y convicción judicial. Aproximación a la sana critica en relación a la
+                                                prueba pericial”. Disponible en: http://iccs.com.br/la-valoracion-de-la-prue-
+                                                ba-en-el-proceso-penal-chileno-y-conviccion-judicial-aproxima-
+                                                cion-la-sana-critica-en-relacion-la-prueba-pericial-gonzalo-hoyl-more-
+                                                no/
+
+chileno y convicción judicial. Aproximación a la sana critica en relación a la
                                                 prueba pericial”. Disponible en: http://iccs.com.br/la-valoracion-de-la-prue-
                                                 ba-en-el-proceso-penal-chileno-y-conviccion-judicial-aproxima-
                                                 cion-la-sana-critica-en-relacion-la-prueba-pericial-gonzalo-hoyl-more-
@@ -4670,11 +4629,17 @@ de garantía y de tribunal                        de la prueba pericial
 Curso habilitante Juez(a)                                            10. Penas sustitutivas a la                                                  122
 de garantía y de tribunal                                                privación de libertad
 
-
 ## 10.1           Ley N° 20.603
 
+**Definición Canónica:** El 27 de junio de 2012         El 27 de junio de 2012 se publicó en el Diario Oficial la Ley N° 20.603
+                                         se publicó en el Diario        que modificó la Ley Nº 18.216, que establece medidas alternativas
+                                                                        a las penas privativas o restrictivas de libertad, asentando el sistema
+                                         Oficial la Ley N°
+                                                                        de penas alternativas a la cárcel actualmente vigente. La propia ley
+               
+**Concordancias Legales:** artículo 33; artículos 141; artículos 8; artículo 2; artículo 3; artículo 11; artículo 22 de la Ley Nº 20.000. Curso habilitante Juez; artículo 436; artículos 433; Ley N° 20.603; Ley Nº 18.216; ley 20.603; ley Nº 17.798; Ley Nº 20.000; Ley N° 18.216
 
-                                         El 27 de junio de 2012         El 27 de junio de 2012 se publicó en el Diario Oficial la Ley N° 20.603
+El 27 de junio de 2012         El 27 de junio de 2012 se publicó en el Diario Oficial la Ley N° 20.603
                                          se publicó en el Diario        que modificó la Ley Nº 18.216, que establece medidas alternativas
                                                                         a las penas privativas o restrictivas de libertad, asentando el sistema
                                          Oficial la Ley N°
@@ -4738,10 +4703,17 @@ de garantía y de tribunal                                                privac
 
                                             e. Expulsión de extranjeros
 
-
 ## 10.1.1 La remisión condicional
 
-                                            Procede en aquellos casos en que la intervención del condenado
+**Definición Canónica:** Procede en aquellos casos en que la intervención del condenado
+                                            aparece innecesaria, lógica que se mantiene bajo la Ley N° 20.603,
+                                            salvo por su concepción actual como pena sustitutiva. Se encuentra
+                                            regulada en el artículo 3°: “La remisión condicional consiste en la
+                                            sustitución del cumplimiento de la pena privativa de libertad por la
+                                            discreta observación y asistencia del condenad
+**Concordancias Legales:** artículo 3; artículo 7; Ley N° 20.603
+
+Procede en aquellos casos en que la intervención del condenado
                                             aparece innecesaria, lógica que se mantiene bajo la Ley N° 20.603,
                                             salvo por su concepción actual como pena sustitutiva. Se encuentra
                                             regulada en el artículo 3°: “La remisión condicional consiste en la
@@ -4786,10 +4758,12 @@ de garantía y de tribunal                                                    pr
                                                                             situación personal se desprenda que esta lo disuadirá de cometer
                                                                             nuevos ilícitos.
 
-
 ## 10.1.3 Servicio en beneficio de la comunidad
 
-                                                                            Está regulada en el artículo 10:
+**Definición Canónica:** Está regulada en el artículo 10:
+**Concordancias Legales:** artículo 10
+
+Está regulada en el artículo 10:
 
                                                                                  “La pena de prestación de servicios en beneficio de la comunidad
                                                                                  consiste en la realización de actividades no remuneradas a favor
@@ -4811,11 +4785,17 @@ de garantía y de tribunal                                                    pr
                                             mula: “40 horas de trabajo comunitario por cada 30 días de privación
                                             de libertad”, no pudiendo extenderse por más de 8 horas diarias.
 
-
 ## 10.1.4 La libertad vigilada y la libertad vigilada intensiva
 
+**Definición Canónica:** Las modificaciones a la Ley N° 18.216 trajeron un cambio importante
+                                            a la libertad vigilada. Las reformas dan al juez la opción de imponer
+                                            obligaciones de asistencia a programas de rehabilitación de drogas
+                                            o alcohol cuando el condenado padece de consumo problemático.
+                                            También, en la libertad vigilada intensiva, se pueden imponer obli-
+                                            gaciones de no hacer, como no acercarse a la 
+**Concordancias Legales:** artículo 14; artículo 15; artículo 4; artículo 196; artículo 15 bis; artículos 296; artículos 363; artículo 16; Ley N° 18.216; Ley N° 20.000; Ley Nº18.216
 
-                                            Las modificaciones a la Ley N° 18.216 trajeron un cambio importante
+Las modificaciones a la Ley N° 18.216 trajeron un cambio importante
                                             a la libertad vigilada. Las reformas dan al juez la opción de imponer
                                             obligaciones de asistencia a programas de rehabilitación de drogas
                                             o alcohol cuando el condenado padece de consumo problemático.
@@ -4887,10 +4867,16 @@ de garantía y de tribunal                                                      
 Curso habilitante Juez(a)                                                 10. Penas sustitutivas a la                                             127
 de garantía y de tribunal                                                     privación de libertad
 
-
 ## 10.1.5 Expulsión de extranjeros
 
-                                                                             La última sanción contemplada en el catálogo del art. 1° de la ley es
+**Definición Canónica:** La última sanción contemplada en el catálogo del art. 1° de la ley es
+                                                                             la expulsión de extranjeros, que permite la sustitución de una pena
+                                                                             igual o inferior a 5 años por la expulsión del territorio de la repúbli-
+                                                                             ca, en el caso de que el condenado fuere un extranjero no residente
+                                                                             legalmente en
+**Concordancias Legales:** artículo 34; artículo 27; artículos 195; artículo 196 ter; Ley N° 20.603; Ley N° 18.216; Ley N° 19.97069; Ley N° 18.290; Ley Nº 20.770; Constitucion; Constitución
+
+La última sanción contemplada en el catálogo del art. 1° de la ley es
                                                                              la expulsión de extranjeros, que permite la sustitución de una pena
                                                                              igual o inferior a 5 años por la expulsión del territorio de la repúbli-
                                                                              ca, en el caso de que el condenado fuere un extranjero no residente
@@ -5259,7 +5245,11 @@ de garantía y de tribunal                       privación de libertad
 
 ## 19 Nº 3, como el procedimiento mediante el cual el requirente
 
-                                               fue condenado se ajustó a lo prescrito en esta norma (o al menos
+**Definición Canónica:** fue condenado se ajustó a lo prescrito en esta norma (o al menos
+                                               no hubo reclamo a este respecto), se debe rechazar el recurso.
+**Concordancias Legales:** artículos 195; artículos 6; artículo 19; artículo 196 ter de la Ley N; artículos 352; Ley N° 18.290; Ley N° 20.603; Ley N° 18.216; constitucion; Constitución
+
+fue condenado se ajustó a lo prescrito en esta norma (o al menos
                                                no hubo reclamo a este respecto), se debe rechazar el recurso.
 
                                             —— Debido proceso. Nuevamente inicia el análisis otorgando una
@@ -5408,13 +5398,25 @@ de garantía y de tribunal                       privación de libertad
 
 ## 387. Primero, contiene las disposiciones generales sobre ellos, luego
 
-                                         Penal trata los recursos
+**Definición Canónica:** Penal trata los recursos
+                                                                                 se refiere en particular a los recursos de reposición, apelación y, por
+                                         en los artículos 352 a                  último, al recurso de nulidad.
+**Concordancias Legales:** artículos 352
+
+Penal trata los recursos
                                                                                  se refiere en particular a los recursos de reposición, apelación y, por
                                          en los artículos 352 a                  último, al recurso de nulidad.
 
 ## 387. Primero, contiene
 
-                                         las disposiciones                       Antes del análisis de cada recurso en particular, es relevante decir
+**Definición Canónica:** las disposiciones                       Antes del análisis de cada recurso en particular, es relevante decir
+                                                                                 que la reforma procesal penal tenía como motivación en esta mate-
+                                         generales sobre
+                                                                                 ria limitar los recursos, debido a que se privilegia la decisión de los
+                                         ellos, luego se refiere                 jueces que conocieron personalmente los hechos en las
+**Concordancias Legales:** artículo 180 del CPC; artículos 364; artículo 364; artículo 369 del CPP de presentar un recurso de hecho; artículo 371; artículos 372; artículo 373 del CPP; artículo 374; artículos 284; artículo 342; artículo 341; artículo 373; Constitución
+
+las disposiciones                       Antes del análisis de cada recurso en particular, es relevante decir
                                                                                  que la reforma procesal penal tenía como motivación en esta mate-
                                          generales sobre
                                                                                  ria limitar los recursos, debido a que se privilegia la decisión de los
@@ -5621,11 +5623,16 @@ de garantía y de tribunal                       privación de libertad
                                                                       dictar la sentencia de reemplazo. Si se anulan ambos, el juicio debe
                                                                       realizarse nuevamente y en él se dictará la nueva sentencia.
 
-
 ## 11.3           Reposición
 
+**Definición Canónica:** Está tratado en los artículos 362 y 363 del CPP. El tratamiento es
+                                                                      diferenciado dependiendo de si la resolución se dictó dentro o fuera
+                                                                      de la audiencia. Así, la reposición de las resoluciones dictadas fuera
+                                                                      de audiencia procede contra sentencias interlocutorias, autos y de-
+                                                                      cretos. La regla general es que se trate de r
+**Concordancias Legales:** artículos 362; artículos 95 inciso 1; artículo 130 del CPP; artículo 148 del Código Penal. Eventualmente; artículo 95; artículo 132 bis; artículos 141; artículo 21 de la Constitución Política de la República; artículo 124 del CPP; artículo 1; artículos 494; artículo 477; artículo 31 de la Ley N; artículos 129; artículo 132 del CPP; artículo 31 de la Ley RPA; artículos 17 de la Ley Nº; artículos 93; artículo 37; Ley N° 20.053; Ley N° 20.931; Ley N° 20.084; Ley Nº 20.000; Ley N° 19.968; Ley Nº 16.618; Constitución Política; constitucion; Constitución
 
-                                                                      Está tratado en los artículos 362 y 363 del CPP. El tratamiento es
+Está tratado en los artículos 362 y 363 del CPP. El tratamiento es
                                                                       diferenciado dependiendo de si la resolución se dictó dentro o fuera
                                                                       de la audiencia. Así, la reposición de las resoluciones dictadas fuera
                                                                       de audiencia procede contra sentencias interlocutorias, autos y de-
@@ -5904,10 +5911,17 @@ de garantía y de tribunal                                            de detenci
                                                        12.5         Medidas
                                                                      intrusivas
 
-
 ## 12.5.1 Diligencias de investigación
 
-                                                                    limitativas de derechos
+**Definición Canónica:** limitativas de derechos
+                                                                    Exámenes corporales y médicos
+                                                                    Son medidas intrusivas de excepcional importancia por los valores
+                                                                    constitucionales en juego, como la dignidad de la persona, el derecho
+                                                                    a la integridad física y psíquica de la persona, el derecho a no ser
+                                                                    s
+**Concordancias Legales:** artículos 197; Artículo 204 del CPP; artículo 209; artículo 19; artículo 182; artículo 210; artículo 211; artículo 218; artículo 188; artículo 219 del CPP constituye un exceso; artículo 220 inciso 1; artículo 225 del CPP. Tales grabaciones no podrán; artículo 222; artículo 205 del CPP. En consecuencia; constitucion; Constitución
+
+limitativas de derechos
                                                                     Exámenes corporales y médicos
                                                                     Son medidas intrusivas de excepcional importancia por los valores
                                                                     constitucionales en juego, como la dignidad de la persona, el derecho
@@ -6549,10 +6563,11 @@ de garantía y de tribunal                                               de la i
                                                                        o la jueza, sin perjuicio de la facultad del imputado de reclamar ante
                                                                        las autoridades del Ministerio Público cuando la considere arbitraria.
 
-
 ## 13.1           Funciones y
 
-                                                                       efectos
+**Definición Canónica:** efectos
+
+efectos
 
                                                                        A través de la formalización, el fiscal da un primer paso en cuanto
                                          A través de la                a la definición del objeto del proceso, tanto en su aspecto material
@@ -6582,10 +6597,12 @@ de garantía y de tribunal                       de la investigación
                                                 distintos dentro del período de una suspensión condicional autoriza
                                                 para revocar esta salida alternativa.
 
-
 ## 13.2   Procedimiento de
 
-                                                la formalización
+**Definición Canónica:** la formalización
+**Concordancias Legales:** artículo 231 inciso 1; artículo 25; artículo 26 del CPP; Ley N° 19.718
+
+la formalización
 
                                                 La forma de proceder difiere según se trate de una persona imputada
 
@@ -6633,15 +6650,14 @@ de garantía y de tribunal                       de la investigación
 
                                                 judicial del imputado.
 
-
-## 13.3   Actos posteriores y consecuentes
-
-                                                con la formalización
-
-
 ## 13.3.1 Plazo judicial para el cierre de la investigación
 
-                                                La posibilidad que tiene el juez de garantía para fijar un plazo menor
+**Definición Canónica:** La posibilidad que tiene el juez de garantía para fijar un plazo menor
+                                                al legal para el cierre de la investigación constituye un mecanismo
+                                                de aceleración del procedimiento que busca cautelar las garantías
+                                                de los intervinientes.
+
+La posibilidad que tiene el juez de garantía para fijar un plazo menor
                                                 al legal para el cierre de la investigación constituye un mecanismo
                                                 de aceleración del procedimiento que busca cautelar las garantías
                                                 de los intervinientes.
@@ -6670,10 +6686,11 @@ de garantía y de tribunal                       de la investigación
                                             tudio serán analizados más adelante con ocasión del cierre de la
                                             investigación.
 
-
 ## 13.3.2 El juicio inmediato
 
-                                            Es un mecanismo de aceleración del procedimiento que puede ser
+**Definición Canónica:** Es un mecanismo de aceleración del procedimiento que puede ser
+
+Es un mecanismo de aceleración del procedimiento que puede ser
 
                                             solicitado por el Ministerio Público al juez de garantía en la audiencia
                                             de formalización. Busca evitar trámites innecesarios, convirtiendo la
@@ -6691,10 +6708,17 @@ de garantía y de tribunal                       de la investigación
                                             En dicho evento, el fiscal deberá formular su acusación en forma
                                             verbal, y en razón de su pretensión punitiva, solicitará el abreviado.
 
-
 ## 13.3.3 La prueba anticipada
 
-                                            Se trata de una verdadera medida prejudicial probatoria que el
+**Definición Canónica:** Se trata de una verdadera medida prejudicial probatoria que el
+                                            fiscal solicita al juez de garantía, durante la investigación o en la
+                                            etapa intermedia, cuando tema que un testigo o perito pueda verse
+                                            imposibilitado de asistir a la audiencia de juicio oral por tener que
+                                            ausentarse a larga distancia, o por existir motivos que hicieren temer
+                                            que sobreviniere la muerte, su incapacid
+**Concordancias Legales:** artículo 191; artículo 32 de la Ley N; artículo 18; Ley N° 20.000
+
+Se trata de una verdadera medida prejudicial probatoria que el
                                             fiscal solicita al juez de garantía, durante la investigación o en la
                                             etapa intermedia, cuando tema que un testigo o perito pueda verse
                                             imposibilitado de asistir a la audiencia de juicio oral por tener que
@@ -6758,10 +6782,12 @@ de garantía y de tribunal                                              de la in
                                                                       física normal (…)”. Similar norma se contiene en el artículo 18 de
                                                                       la Ley sobre Conductas Terroristas.
 
-
 ## 13.4          Medidas
 
-                                                                      cautelares
+**Definición Canónica:** cautelares
+**Concordancias Legales:** artículo 155 del CPP contempla otras medidas cautelares altern
+
+cautelares
 
                                          Todas las medidas            El artículo 155 del CPP contempla otras medidas cautelares alterna-
                                                                       tivas a la prisión preventiva que deben ser utilizadas con preferencia
@@ -6809,10 +6835,14 @@ de garantía y de tribunal                                                     d
                                                                              Estas medidas tienen, además, la particularidad de que pueden im-
                                                                              ponerse para garantizar la ejecución de la sentencia.
 
-
 ## 13.4.1 Las medidas que contempla el artículo 155 CPP
 
-                                                                             a. La privación de libertad, total o parcial, en su casa o en la que
+**Definición Canónica:** a. La privación de libertad, total o parcial, en su casa o en la que
+                                                                                el propio imputado señalare, si aquella se encontrare fuera de la
+                                                                                ciudad asiento del tribunal (esta medida se conoce como arresto
+                                                                                domiciliario total o nocturno).
+
+a. La privación de libertad, total o parcial, en su casa o en la que
                                                                                 el propio imputado señalare, si aquella se encontrare fuera de la
                                                                                 ciudad asiento del tribunal (esta medida se conoce como arresto
                                                                                 domiciliario total o nocturno).
@@ -6865,20 +6895,31 @@ de garantía y de tribunal                                                     d
 Curso habilitante Juez(a)                                          13. Audiencia de formalización                                         180
 de garantía y de tribunal                                              de la investigación
 
-
 ## 13.4.2 Las medidas especiales que
 
-                                                                      contempla el artículo 156 bis CPP
+**Definición Canónica:** contempla el artículo 156 bis CPP
+                                                                      En los casos de investigaciones por fraude en el otorgamiento de
+                                                                      licencias médicas, el tribunal podrá, en la oportunidad y a petición de
+                                                                      las personas señaladas en el artículo 155, decretar la suspensión de
+                                                                      la facultad de emitir dichas licencias mientras dure la investigación,
+         
+**Concordancias Legales:** artículo 156 bis; artículo 155
+
+contempla el artículo 156 bis CPP
                                                                       En los casos de investigaciones por fraude en el otorgamiento de
                                                                       licencias médicas, el tribunal podrá, en la oportunidad y a petición de
                                                                       las personas señaladas en el artículo 155, decretar la suspensión de
                                                                       la facultad de emitir dichas licencias mientras dure la investigación,
                                                                       o por el menor plazo que fundadamente determine.
 
-
 ## 13.4.3 Las medidas cautelares reales
 
-                                                                      Las medidas cautelares reales son aquellas medidas restrictivas o
+**Definición Canónica:** Las medidas cautelares reales son aquellas medidas restrictivas o
+                                                                      privativas de la libre administración y/o disposición patrimonial
+                                                                      que puede adoptar el tribunal, a petición del Ministerio Público o
+**Concordancias Legales:** artículo 59 del CPP; artículo 157; artículo 290 del CPC; artículo 60 del CPP. Del mismo modo; artículo 157 del CPP; artículos 61; artículo 257; artículo 261 del CPP
+
+Las medidas cautelares reales son aquellas medidas restrictivas o
                                                                       privativas de la libre administración y/o disposición patrimonial
                                                                       que puede adoptar el tribunal, a petición del Ministerio Público o
 
@@ -6969,10 +7010,11 @@ de garantía y de tribunal                                             de la inv
                                                                      La resolución que niegue o dé lugar a las medidas cautelares reales
                                                                      solicitadas es apelable en el solo efecto devolutivo.
 
-
 ## 13.5          Prisión
 
-                                                                     preventiva
+**Definición Canónica:** preventiva
+
+preventiva
 
                                                                      Es una medida cautelar personal, de carácter excepcional, que
                                          Se ha dicho que la          consiste en la privación temporal de la libertad ambulatoria de una
@@ -6996,10 +7038,15 @@ de garantía y de tribunal                                             de la inv
 
 Curso habilitante Juez(a)                13. Audiencia de formalización                                          183
 
-
 ## 13.5.1 Requisitos de la prisión preventiva
 
-                                            Apariencia de buen derecho, que en este caso consiste en que el so-
+**Definición Canónica:** Apariencia de buen derecho, que en este caso consiste en que el so-
+                                            licitante acredite ante el tribunal las circunstancias signadas con las
+                                            letras a) y b) del inciso 1° del artículo 140 del CPP, también llamadas
+                                            “supuesto material” de la prisión preventiva.
+**Concordancias Legales:** artículo 140 del CPP
+
+Apariencia de buen derecho, que en este caso consiste en que el so-
                                             licitante acredite ante el tribunal las circunstancias signadas con las
                                             letras a) y b) del inciso 1° del artículo 140 del CPP, también llamadas
                                             “supuesto material” de la prisión preventiva.
@@ -7196,10 +7243,16 @@ de garantía y de tribunal                                            de la inve
                                                                     situación. Sin embargo, esta causal de necesidad de cautela es posible
                                                                     remediarla, ofreciendo caución de que se comparecerá.
 
-
 ## 13.5.2 Situaciones de improcedencia
 
-                                                                    de la prisión preventiva
+**Definición Canónica:** de la prisión preventiva
+                                                                    Se trata de casos en que esta medida cautelar personal y excepcional
+                                                                    aparece como desproporcionada (principio de proporcionalidad en
+                                                                    relación con la finalidad del procedimiento que se persigue caute-
+                                                                    lar, y con la gravedad del hecho que se investiga, circunstancias de
+                                  
+
+de la prisión preventiva
                                                                     Se trata de casos en que esta medida cautelar personal y excepcional
                                                                     aparece como desproporcionada (principio de proporcionalidad en
                                                                     relación con la finalidad del procedimiento que se persigue caute-
@@ -7229,10 +7282,15 @@ de garantía y de tribunal                                            de la inve
                                             alternativo y acredite tener vínculos permanentes con la comunidad
                                             que den cuenta de su arraigo familiar o social.
 
-
 ## 13.5.3 Excepciones a la improcedencia
 
-                                            Aun cuando nos encontremos frente a uno de los casos de improce-
+**Definición Canónica:** Aun cuando nos encontremos frente a uno de los casos de improce-
+                                            dencia a que se refiere el artículo 141 inciso 2° del CPP, el tribunal
+                                            puede decretar la prisión preventiva, siempre a solicitud del Ministerio
+                                            Público o del querellante, en los siguientes casos:
+**Concordancias Legales:** artículo 141 inciso 2; artículo 155
+
+Aun cuando nos encontremos frente a uno de los casos de improce-
                                             dencia a que se refiere el artículo 141 inciso 2° del CPP, el tribunal
                                             puede decretar la prisión preventiva, siempre a solicitud del Ministerio
                                             Público o del querellante, en los siguientes casos:
@@ -7254,10 +7312,14 @@ de garantía y de tribunal                                            de la inve
                                             y el éxito de diligencias precisas y determinadas de la investigación,
                                             debiendo cesar una vez realizadas.
 
-
 ## 13.5.4 Sustitución de la prisión preventiva por caución
 
-                                            Se aplica precisamente en los casos en que la medida cautelar hu-
+**Definición Canónica:** Se aplica precisamente en los casos en que la medida cautelar hu-
+                                            biere sido impuesta para garantizar la comparecencia del imputado
+                                            al juicio y a la eventual ejecución de la pena.
+**Concordancias Legales:** artículo 146; constitución
+
+Se aplica precisamente en los casos en que la medida cautelar hu-
                                             biere sido impuesta para garantizar la comparecencia del imputado
                                             al juicio y a la eventual ejecución de la pena.
 
@@ -7277,10 +7339,15 @@ de garantía y de tribunal                                            de la inve
                                                 hipotecas, o la fianza de una o más personas idóneas calificadas
                                                 por el tribunal”.
 
-
 ## 13.5.5 Procedimiento para decretar la prisión preventiva
 
-                                            Se traduce en la discusión de la solicitud que el fiscal o la persona
+**Definición Canónica:** Se traduce en la discusión de la solicitud que el fiscal o la persona
+                                            querellante planteen en una audiencia pública, a la que comparecen
+                                            todos los intervinientes, debiendo, en todo caso, estar presente la
+                                            persona imputada y su abogado.
+**Concordancias Legales:** artículo 144 inciso 1; artículo 140 del CPP exhibiendo los antecedentes; artículo 154 del CPP
+
+Se traduce en la discusión de la solicitud que el fiscal o la persona
                                             querellante planteen en una audiencia pública, a la que comparecen
                                             todos los intervinientes, debiendo, en todo caso, estar presente la
                                             persona imputada y su abogado.
@@ -7317,10 +7384,17 @@ de garantía y de tribunal                                            de la inve
                                             la medida, debe emitir la orden escrita de prisión preventiva con las
                                             menciones señaladas en el artículo 154 del CPP.
 
-
 ## 13.5.6 Renovación de la discusión acerca
 
-                                            de la medida de prisión preventiva
+**Definición Canónica:** de la medida de prisión preventiva
+                                            Esta discusión puede darse de diversas maneras. Se puede revisar
+                                            una solicitud previamente rechazada; en este caso, el solicitante debe
+                                            hacer valer nuevos antecedentes que justifiquen discutir nuevamente
+                                            su procedencia. Si no los invoca, la petición será rechazada de plano.
+                                            La petición se resuelve en audiencia donde se discutirá nuevamente
+   
+
+de la medida de prisión preventiva
                                             Esta discusión puede darse de diversas maneras. Se puede revisar
                                             una solicitud previamente rechazada; en este caso, el solicitante debe
                                             hacer valer nuevos antecedentes que justifiquen discutir nuevamente
@@ -7349,10 +7423,13 @@ de garantía y de tribunal                                              de la in
                                                                       ser rechazada de plano por el tribunal o resuelta en audiencia, previo
                                                                       debate en torno a la subsistencia de los requisitos que la autorizan.
 
-
 ## 13.5.7 Ejecución de la prisión preventiva
 
-                                         A fin de sentar ciertas      A fin de sentar ciertas diferencias entre la prisión preventiva y la
+**Definición Canónica:** A fin de sentar ciertas      A fin de sentar ciertas diferencias entre la prisión preventiva y la
+                                         diferencias entre la         prisión punitiva, el artículo 150 del CPP ha establecido un régimen
+**Concordancias Legales:** artículo 150 del CPP ha establecido un régimen; artículo 150 del CPP a intentar brindar protecciones m
+
+A fin de sentar ciertas      A fin de sentar ciertas diferencias entre la prisión preventiva y la
                                          diferencias entre la         prisión punitiva, el artículo 150 del CPP ha establecido un régimen
 
                                                                       especial para su ejecución, a cargo del juez competente. Esto dice
@@ -7385,10 +7462,15 @@ de garantía y de tribunal                                              de la in
 
 Curso habilitante Juez(a)                13. Audiencia de formalización                                       192
 
-
 ## 13.5.8 Duración de la prisión preventiva
 
-                                            Esta medida cautelar personal no tiene establecido un límite temporal
+**Definición Canónica:** Esta medida cautelar personal no tiene establecido un límite temporal
+                                            absoluto que determine su terminación automática. El transcurso
+                                            del plazo sólo determina mecanismos obligatorios de revisión de la
+                                            medida.
+**Concordancias Legales:** artículo 153 inciso 2
+
+Esta medida cautelar personal no tiene establecido un límite temporal
                                             absoluto que determine su terminación automática. El transcurso
                                             del plazo sólo determina mecanismos obligatorios de revisión de la
                                             medida.
@@ -7424,10 +7506,17 @@ de garantía y de tribunal                                              de la in
 Curso habilitante Juez(a)                                          13. Audiencia de formalización                                           193
 de garantía y de tribunal                                              de la investigación
 
-
 ## 13.5.9 Recursos relacionados con la prisión
 
-                                                                      preventiva luego de la llamada “agenda corta”
+**Definición Canónica:** preventiva luego de la llamada “agenda corta”
+                                                                      y la Ley N° 20.931 (de 5 de julio de 2016)
+                                         La resolución que            La regla de oro en estas materias, según previene el inciso 1° del
+                                         ordenare, mantuviere,        artículo 149 del CPP, es la siguiente: la resolución que ordenare,
+                                                                      mantuviere, negare lugar o revocare la prisión preventiva será apelable
+                         
+**Concordancias Legales:** artículo 149 del CPP; artículo 155; artículos 141; Ley N° 20.931; Ley N° 20.391
+
+preventiva luego de la llamada “agenda corta”
                                                                       y la Ley N° 20.931 (de 5 de julio de 2016)
                                          La resolución que            La regla de oro en estas materias, según previene el inciso 1° del
                                          ordenare, mantuviere,        artículo 149 del CPP, es la siguiente: la resolución que ordenare,
@@ -7471,10 +7560,13 @@ de garantía y de tribunal                       de la investigación
                                                 encuentra ya en prisión preventiva, y se rechaza la petición del fiscal
                                                 de mantenerla.
 
-
 ## 13.6   Análisis de casos de prisión preventiva
 
-                                                de imputados respecto de quienes
+**Definición Canónica:** de imputados respecto de quienes
+                                                finalmente no se presenta acusación –
+**Concordancias Legales:** artículo 476; artículo 477; constitucion
+
+de imputados respecto de quienes
                                                 finalmente no se presenta acusación –
 
                                                 Hechos:
@@ -7606,10 +7698,12 @@ de garantía y de tribunal                       de la investigación
 Curso habilitante Juez(a)                   14. Audiencia de cierre                                                  199
 de garantía y de tribunal                       de investigación
 
-
 ## 14.1   Naturaleza de la decisión de
 
-                                                cierre de la investigación
+**Definición Canónica:** cierre de la investigación
+**Concordancias Legales:** Artículo 247; artículo 249; artículo 252
+
+cierre de la investigación
 
                                                 Evidentemente se trata de una decisión administrativa propia del
                                                 Ministerio Público. Normalmente el cierre lo efectuará en forma
@@ -7679,10 +7773,11 @@ de garantía y de tribunal                       de investigación
                                                    de la víctima o hasta que hubiere debidamente garantizado su
                                                    cumplimiento a satisfacción de esta última.
 
-
 ## 14.2   Actuaciones
 
-                                                posteriores
+**Definición Canónica:** posteriores
+
+posteriores
 
                                                 Declarado el cierre de la investigación, dentro de los 10 días siguientes,
                                                 el fiscal puede adoptar una de las siguientes actitudes:
@@ -7704,10 +7799,12 @@ de garantía y de tribunal                       de investigación
                                                 decisión de no perseverar, debe formular su requerimiento al juez
                                                 de garantía, quien citará a todos los intervinientes a una audiencia.
 
-
 ## 14.3   Reapertura de la
 
-                                                investigación
+**Definición Canónica:** investigación
+**Concordancias Legales:** artículo 257 del CPP; artículo 248 del CPP
+
+investigación
 
                                                 El código regula sólo dos supuestos de reapertura: aquel que se en-
                                                 cuentra vinculado con el sobreseimiento temporal de la causa, y el que
@@ -7745,11 +7842,13 @@ de garantía y de tribunal                       de investigación
                                                 cumplido las diligencias, el fiscal cerrará nuevamente la investigación
                                                 y procederá en la forma señalada en el artículo 248 del CPP.
 
-
 ## 14.4   Los sobreseimientos
 
+**Definición Canónica:** El sobreseimiento solicitado por el fiscal puede ser definitivo o
+                                                temporal, total o parcial.
+**Concordancias Legales:** artículo 10 del Código Penal o en; artículo 93 del CP; artículo 171; artículo 252 del CPP faculta al TJOP para dictar; artículos 100
 
-                                                El sobreseimiento solicitado por el fiscal puede ser definitivo o
+El sobreseimiento solicitado por el fiscal puede ser definitivo o
                                                 temporal, total o parcial.
 
                                                 El sobreseimiento definitivo es el que produce el término del proce-
@@ -7810,15 +7909,14 @@ de garantía y de tribunal                                             de invest
 Curso habilitante Juez(a)                   14. Audiencia de cierre                                                 204
 de garantía y de tribunal                       de investigación
 
-
-## 14.5   Facultades discrecionales
-
-                                                del Ministerio Público
-
-
 ## 14.5.1 La decisión de no perseverar en el procedimiento
 
-                                                Esta opción procesal del Ministerio Público fue introducida por el
+**Definición Canónica:** Esta opción procesal del Ministerio Público fue introducida por el
+                                                Senado en la última fase de tramitación parlamentaria del proyecto
+                                                como consecuencia de haberse eliminado la causal de sobreseimiento
+                                                temporal equivalente.
+
+Esta opción procesal del Ministerio Público fue introducida por el
                                                 Senado en la última fase de tramitación parlamentaria del proyecto
                                                 como consecuencia de haberse eliminado la causal de sobreseimiento
                                                 temporal equivalente.
@@ -7853,10 +7951,15 @@ de garantía y de tribunal                       de investigación
 Curso habilitante Juez(a)                14. Audiencia de cierre                                                205
 de garantía y de tribunal                    de investigación
 
-
 ## 14.5.2 El forzamiento de la acusación
 
-                                            Es un mecanismo procesal en cuya virtud el querellante ejerce una
+**Definición Canónica:** Es un mecanismo procesal en cuya virtud el querellante ejerce una
+                                            especie de control respecto de la actividad persecutora del Ministerio
+                                            Público. Consiste en su oposición a la decisión del fiscal de sobreseer
+                                            o de requerir medida de seguridad en el caso del enajenado mental.
+**Concordancias Legales:** artículo 258
+
+Es un mecanismo procesal en cuya virtud el querellante ejerce una
                                             especie de control respecto de la actividad persecutora del Ministerio
                                             Público. Consiste en su oposición a la decisión del fiscal de sobreseer
                                             o de requerir medida de seguridad en el caso del enajenado mental.
@@ -7929,10 +8032,12 @@ de garantía y de tribunal                                              de inves
                                                                       hay querellante, el juez ordenará al Ministerio Público la formulación
                                                                       de la acusación conforme al trámite ordinario.
 
-
 ## 14.6          Análisis de casos de sobreseimientos definitivos
 
-                                                                      sin formalización por prescripción
+**Definición Canónica:** sin formalización por prescripción
+**Concordancias Legales:** artículo 250; artículo 233 del Código Procesal Penal; artículo 96 del Código; artículo 172 del Código Procesal Penal que; artículo 96 del Código Penal y debidamente armonizado con el; artículo 96; artículo 233
+
+sin formalización por prescripción
 
                                                                       Este apartado trata la hipótesis de sobreseimiento definitivo decre-
                                                                       tado por el juez de garantía, fundado en la prescripción de la acción
@@ -8036,15 +8141,15 @@ de garantía y de tribunal                    de investigación
 Curso habilitante Juez(a)                   15. Audiencia preparatoria                                                210
 de garantía y de tribunal                       de juicio oral
 
-
-## 15.1   Estructura de la audiencia preparatoria
-
-                                                de juicio oral
-
-
 ## 15.1.1 La fase escrita
 
-                                                Comienza con la acusación fiscal, este es el escrito mediante el cual
+**Definición Canónica:** Comienza con la acusación fiscal, este es el escrito mediante el cual
+                                                el Ministerio Público manifiesta formalmente su decisión de perse-
+                                                guir la responsabilidad criminal del imputado o la imputada, y ello
+                                                ocurrirá cuando estime que existe fundamento serio para acusar.
+**Concordancias Legales:** artículo 259 del CPP; artículo 22 de la Ley N; artículo 260 del CPP; Ley N° 20.000
+
+Comienza con la acusación fiscal, este es el escrito mediante el cual
                                                 el Ministerio Público manifiesta formalmente su decisión de perse-
                                                 guir la responsabilidad criminal del imputado o la imputada, y ello
                                                 ocurrirá cuando estime que existe fundamento serio para acusar.
@@ -8210,10 +8315,17 @@ de garantía y de tribunal                       de juicio oral
                                             su domicilio registrado en el tribunal. Por ello se rechazó una indica-
                                             ción que exigía que esta notificación se efectuara en forma personal.
 
-
 ## 15.1.2 Actuaciones eventuales del querellante
 
-                                            Por escrito, y hasta 15 días antes de la fecha fijada para la realización
+**Definición Canónica:** Por escrito, y hasta 15 días antes de la fecha fijada para la realización
+                                            de la audiencia de preparación, el querellante podrá realizar las si-
+                                            guientes actuaciones:
+                                            a. Presentar acusación particular, donde amplíe la acusación del
+                                               fiscal, extendiéndola a hechos o a imputados distintos, siempre
+                                               con respeto al principio de congruencia. También puede plantear
+**Concordancias Legales:** artículo 254
+
+Por escrito, y hasta 15 días antes de la fecha fijada para la realización
                                             de la audiencia de preparación, el querellante podrá realizar las si-
                                             guientes actuaciones:
                                             a. Presentar acusación particular, donde amplíe la acusación del
@@ -8260,10 +8372,12 @@ de garantía y de tribunal                       de juicio oral
                                                ción. El querellante o el actor civil deberán ofrecer la prueba de
                                                la misma manera que la ley establece para el Ministerio Público.
 
-
 ## 15.1.3 Actuaciones eventuales del acusado
 
-                                            Sólo hasta la víspera del inicio de la audiencia de preparación el acu-
+**Definición Canónica:** Sólo hasta la víspera del inicio de la audiencia de preparación el acu-
+**Concordancias Legales:** artículo 264 del CPP y son las siguientes
+
+Sólo hasta la víspera del inicio de la audiencia de preparación el acu-
 
                                             sado puede, por escrito, efectuar alguna de las siguientes actuaciones:
                                             a. Señalar los vicios formales de que adoleciere el escrito de acusa-
@@ -8276,27 +8390,13 @@ de garantía y de tribunal                       de juicio oral
                                                tipo de excepciones se encuentran enunciadas en el artículo 264
                                                del CPP y son las siguientes:
 
-
-## 1. La incompetencia del juez de garantía
-
-
-
-## 2. La litispendencia
-
-
-
-## 3. La cosa juzgada
-
-
-
-## 4. La falta de autorización para proceder criminalmente
-
-
-
 ## 5. La extinción de la responsabilidad penal
 
+**Definición Canónica:** Si el acusado no plantea las excepciones de cosa juzgada y extin-
+                                                ción de la responsabilidad penal para ser discutidas en la audiencia
+                                                de preparación, la ley le permite hacerlo en el juicio oral.
 
-                                                Si el acusado no plantea las excepciones de cosa juzgada y extin-
+Si el acusado no plantea las excepciones de cosa juzgada y extin-
                                                 ción de la responsabilidad penal para ser discutidas en la audiencia
                                                 de preparación, la ley le permite hacerlo en el juicio oral.
 
@@ -8332,10 +8432,15 @@ de garantía y de tribunal                       de juicio oral
                                                 tarse de una actuación de naturaleza oral, ella debe ser registrada
                                                 íntegramente.
 
-
 ## 15.2.1 Verificación de asistencia
 
-                                                Llegado el día y hora fijados, el juez de garantía procederá a verificar
+**Definición Canónica:** Llegado el día y hora fijados, el juez de garantía procederá a verificar
+                                                la asistencia de las personas intervinientes. No pueden faltar el fiscal
+                                                ni el defensor o defensora, ya que su presencia constituye un requisito
+                                                de validez de la audiencia.
+**Concordancias Legales:** artículo 93; artículo 14
+
+Llegado el día y hora fijados, el juez de garantía procederá a verificar
                                                 la asistencia de las personas intervinientes. No pueden faltar el fiscal
                                                 ni el defensor o defensora, ya que su presencia constituye un requisito
                                                 de validez de la audiencia.
@@ -8390,10 +8495,15 @@ de garantía y de tribunal                                            de juicio 
                                             Si no comparece el actor civil, se declarará abandonada su acción,
                                             y si no lo hace el querellante, se declarará abandonada la querella.
 
-
 ## 15.2.2 Declaración de inicio de la audiencia
 
-                                            Verificada la asistencia, el juez de garantía declarará iniciada la audien-
+**Definición Canónica:** Verificada la asistencia, el juez de garantía declarará iniciada la audien-
+                                            cia. A él corresponde la dirección del debate, para lo cual dispone de
+                                            las facultades contempladas en el artículo 292 del CPP. Además, el
+                                            juez debe estar presente durante toda la audiencia so pena de nulidad.
+**Concordancias Legales:** artículo 292 del CPP. Además
+
+Verificada la asistencia, el juez de garantía declarará iniciada la audien-
                                             cia. A él corresponde la dirección del debate, para lo cual dispone de
                                             las facultades contempladas en el artículo 292 del CPP. Además, el
                                             juez debe estar presente durante toda la audiencia so pena de nulidad.
@@ -8402,27 +8512,43 @@ de garantía y de tribunal                                            de juicio 
                                             por lo que el tribunal no admitirá a los litigantes la presentación de
                                             escritos.
 
-
 ## 15.2.3 Exposición de las presentaciones escritas
 
-                                            Una vez declarado el inicio de la audiencia, el juez realizará una
+**Definición Canónica:** Una vez declarado el inicio de la audiencia, el juez realizará una
                                             exposición sintética de las presentaciones escritas efectuadas por
                                             los intervinientes, vale decir, la acusación del fiscal, la acusación
                                             particular del querellante, la adhesión, la demanda civil, la eventual
                                             defensa escrita y las solicitudes de corrección de vicios formales.
 
+Una vez declarado el inicio de la audiencia, el juez realizará una
+                                            exposición sintética de las presentaciones escritas efectuadas por
+                                            los intervinientes, vale decir, la acusación del fiscal, la acusación
+                                            particular del querellante, la adhesión, la demanda civil, la eventual
+                                            defensa escrita y las solicitudes de corrección de vicios formales.
 
 ## 15.2.4 Eventual defensa oral del acusado
 
-                                            Si el acusado no hubiere ejercido por escrito las facultades previstas
+**Definición Canónica:** Si el acusado no hubiere ejercido por escrito las facultades previstas
+                                            en el artículo 263 del CPP, dentro de las cuales se encuentra la expo-
+                                            sición de los argumentos de defensa, el juez le otorgará la posibilidad
+                                            de hacerlo verbalmente, si lo desea.
+**Concordancias Legales:** artículo 263 del CPP
+
+Si el acusado no hubiere ejercido por escrito las facultades previstas
                                             en el artículo 263 del CPP, dentro de las cuales se encuentra la expo-
                                             sición de los argumentos de defensa, el juez le otorgará la posibilidad
                                             de hacerlo verbalmente, si lo desea.
 
-
 ## 15.2.5 Posibilidad de salidas alternativas
 
-                                            En este punto debemos tener presente lo dispuesto en el artículo
+**Definición Canónica:** En este punto debemos tener presente lo dispuesto en el artículo
+                                            245 inciso final del CPP que, en cuanto a la oportunidad, señala que
+                                            después del cierre de la investigación, la suspensión condicional del
+                                            procedimiento y el acuerdo reparatorio sólo pueden ser decretados
+                                            o aprobados durante la audiencia de preparación de juicio oral.
+**Concordancias Legales:** artículo 245
+
+En este punto debemos tener presente lo dispuesto en el artículo
                                             245 inciso final del CPP que, en cuanto a la oportunidad, señala que
                                             después del cierre de la investigación, la suspensión condicional del
                                             procedimiento y el acuerdo reparatorio sólo pueden ser decretados
@@ -8439,10 +8565,13 @@ de garantía y de tribunal                                            de juicio 
                                             el juez deberá, acto seguido, sobreseer definitivamente la causa. En
                                             cambio, si fracasan los intentos, se debe continuar con la audiencia.
 
-
 ## 15.2.6 Posibilidad de procedimiento abreviado
 
-                                            En el evento que el fiscal hubiere efectuado solicitud en ese senti-
+**Definición Canónica:** En el evento que el fiscal hubiere efectuado solicitud en ese senti-
+                                            do, ya sea por escrito, junto a la acusación, o en forma verbal en la
+                                            audiencia, procede discutir y decidir sobre el particular.
+
+En el evento que el fiscal hubiere efectuado solicitud en ese senti-
                                             do, ya sea por escrito, junto a la acusación, o en forma verbal en la
                                             audiencia, procede discutir y decidir sobre el particular.
 
@@ -8459,10 +8588,16 @@ de garantía y de tribunal                                            de juicio 
                                             por considerar que no se reúnen los requisitos legales, se continuará
                                             con la audiencia de preparación.
 
-
 ## 15.2.7 Corrección de vicios formales
 
-                                            El juez de garantía, de oficio o a petición de parte, puede ordenar que
+**Definición Canónica:** El juez de garantía, de oficio o a petición de parte, puede ordenar que
+                                            los vicios formales de que adolece la acusación del fiscal, la acusa-
+                                            ción particular o la demanda civil sean subsanados, en lo posible de
+                                            inmediato y sin suspender la audiencia. Si no es posible subsanarlos
+                                            de inmediato, suspenderá la audiencia por el período que el tribunal
+                                            estime necesario, que en ningún
+
+El juez de garantía, de oficio o a petición de parte, puede ordenar que
                                             los vicios formales de que adolece la acusación del fiscal, la acusa-
                                             ción particular o la demanda civil sean subsanados, en lo posible de
                                             inmediato y sin suspender la audiencia. Si no es posible subsanarlos
@@ -8485,23 +8620,26 @@ de garantía y de tribunal                                            de juicio 
                                             al fiscal regional. Si transcurrido este último plazo no se han subsana-
                                             do los vicios, el juez podrá adoptar una de las siguientes decisiones:
 
-
 ## 1. Si existe querellante particular que hubiere deducido acusación
 
-                                               o se hubiere adherido a la del fiscal, dispondrá que el procedi-
+**Definición Canónica:** o se hubiere adherido a la del fiscal, dispondrá que el procedi-
                                                miento continúe sólo con el querellante y el Ministerio Público
                                                no podrá volver a intervenir en él.
 
-
-## 2. Si no existe querellante particular, el juez procederá a dictar
-
-
-                                               sobreseimiento definitivo en la causa.
-
+o se hubiere adherido a la del fiscal, dispondrá que el procedi-
+                                               miento continúe sólo con el querellante y el Ministerio Público
+                                               no podrá volver a intervenir en él.
 
 ## 15.2.8 Control de congruencia
 
-                                            La congruencia es la obligación que la ley impone, en primer lugar,
+**Definición Canónica:** La congruencia es la obligación que la ley impone, en primer lugar,
+                                            al persecutor penal en cuanto debe respetar la necesaria correlación
+                                            entre el componente fáctico, material y personal de la formalización
+                                            de la investigación con aquel señalado en la o las acusaciones y, en
+                                            definitiva, al órgano jurisdiccional en tanto debe respetar la corre-
+                                            lación entre los elementos fácticos
+
+La congruencia es la obligación que la ley impone, en primer lugar,
                                             al persecutor penal en cuanto debe respetar la necesaria correlación
                                             entre el componente fáctico, material y personal de la formalización
                                             de la investigación con aquel señalado en la o las acusaciones y, en
@@ -8537,10 +8675,14 @@ de garantía y de tribunal                                            de juicio 
                                             ción, pero nos parece que corresponde también al tribunal cumplir
                                             aquí una función cautelar, más allá de la actividad de la defensa.
 
-
 ## 15.2.9 Decisión acerca de las excepciones
 
-                                            Distinguiremos en este punto las excepciones de previo y especial
+**Definición Canónica:** Distinguiremos en este punto las excepciones de previo y especial
+                                            pronunciamiento respecto de aquellas que oponga el demandado
+                                            civil en contra de la pretensión de la misma naturaleza.
+**Concordancias Legales:** artículo 254 del CPC; artículo 63 del CPP dispone
+
+Distinguiremos en este punto las excepciones de previo y especial
                                             pronunciamiento respecto de aquellas que oponga el demandado
                                             civil en contra de la pretensión de la misma naturaleza.
 
@@ -8614,10 +8756,13 @@ de garantía y de tribunal                                                   de 
                                                                            y requieren de prueba. Por ello corresponde que sean conocidas y
                                                                            resueltas por el tribunal del juicio.
 
-
 ## 15.2.10 Llamado a conciliación en la acción civil
 
-                                                                           Si se ha deducido demanda civil, ya sea por el querellante o por la
+**Definición Canónica:** Si se ha deducido demanda civil, ya sea por el querellante o por la
+                                                                           víctima directamente, el juez debe llamar a las partes a conciliación,
+                                                                           proponiendo al efecto bases de arreglo.
+
+Si se ha deducido demanda civil, ya sea por el querellante o por la
                                                                            víctima directamente, el juez debe llamar a las partes a conciliación,
                                                                            proponiendo al efecto bases de arreglo.
 
@@ -8631,10 +8776,16 @@ de garantía y de tribunal                                                   de 
                                                                            obsta, lógicamente, a que el tribunal de juicio oral pueda explorar
                                                                            también esta posibilidad.
 
-
 ## 15.2.11 Exclusión de prueba
 
-                                                                           Si existen solicitudes, observaciones y planteamientos de las partes
+**Definición Canónica:** Si existen solicitudes, observaciones y planteamientos de las partes
+                                                                           sobre las pruebas ofrecidas por los demás, el juez abrirá debate sobre
+                                                                           el particular y luego resolverá. Normalmente, tales alegaciones dirán
+                                                                           relación con la prueba impertinente, innecesaria, dilatoria, supera-
+                                                                           bundante, nula e ilíc
+**Concordancias Legales:** constitucion
+
+Si existen solicitudes, observaciones y planteamientos de las partes
                                                                            sobre las pruebas ofrecidas por los demás, el juez abrirá debate sobre
                                                                            el particular y luego resolverá. Normalmente, tales alegaciones dirán
                                                                            relación con la prueba impertinente, innecesaria, dilatoria, supera-
@@ -8764,10 +8915,14 @@ de garantía y de tribunal                                                     d
                                                razonablemente ser calificada de cargo y que haya sido practicada
                                                con todas las garantías constitucionales y procesales.
 
-
 ## 15.2.12 Oportunidad para reclamar
 
-                                            la ilicitud de la prueba
+**Definición Canónica:** la ilicitud de la prueba
+                                            La forma de reclamar la ilicitud de la prueba, su oportunidad y efectos
+                                            depende de la etapa procesal en que nos encontremos.
+**Concordancias Legales:** artículo 276 del CPP. Curso habilitante Juez; artículo 373; Constitución
+
+la ilicitud de la prueba
                                             La forma de reclamar la ilicitud de la prueba, su oportunidad y efectos
                                             depende de la etapa procesal en que nos encontremos.
 
@@ -8800,10 +8955,17 @@ de garantía y de tribunal                                                     d
                                             asegurados por la Constitución o los tratados internacionales sus-
                                             critos por Chile.
 
-
 ## 15.2.13 Alcance de la exclusión
 
-                                            Las normas que regulan la actividad probatoria son normas de garantía
+**Definición Canónica:** Las normas que regulan la actividad probatoria son normas de garantía
+                                            de los ciudadanos frente al ejercicio de la potestad penal del Estado
+                                            y, por ello, no debe permitirse que surtan efectos las pruebas obteni-
+                                            das, directa o indirectamente, violentando los derechos o libertades
+                                            fundamentales. La exclusión es una exigencia derivada del contenido
+                                            esencial del derecho vulnerado y
+**Concordancias Legales:** constitucion
+
+Las normas que regulan la actividad probatoria son normas de garantía
                                             de los ciudadanos frente al ejercicio de la potestad penal del Estado
                                             y, por ello, no debe permitirse que surtan efectos las pruebas obteni-
                                             das, directa o indirectamente, violentando los derechos o libertades
@@ -8880,7 +9042,14 @@ de garantía y de tribunal                                             de juicio
 
 ## 15.2.14 Pruebas aceptadas
 
-                                         oportunamente,              Las demás pruebas que hubieren sido ofrecidas por las partes y no
+**Definición Canónica:** oportunamente,              Las demás pruebas que hubieren sido ofrecidas por las partes y no
+                                         por causas que no           excluidas por el juez de garantía, después del debate respectivo, serán
+                                         le son imputables,          admitidas y señaladas en el respectivo auto de apertura.
+                                         puede suspender la
+                                                                     Si al terminar la audiencia, el juez de garantía comprueba que la
+                                         aud
+
+oportunamente,              Las demás pruebas que hubieren sido ofrecidas por las partes y no
                                          por causas que no           excluidas por el juez de garantía, después del debate respectivo, serán
                                          le son imputables,          admitidas y señaladas en el respectivo auto de apertura.
                                          puede suspender la
@@ -8891,10 +9060,11 @@ de garantía y de tribunal                                             de juicio
                                          de garantías hasta por      no le son imputables, puede suspender la audiencia en cautela de
                                          un plazo de 10 días.        garantías hasta por un plazo de 10 días.
 
-
 ## 15.3          Convenciones
 
-                                                                     probatorias
+**Definición Canónica:** probatorias
+
+probatorias
 
                                                                      Son acuerdos que celebran las personas intervinientes ante el juez
                                                                      de garantía en la audiencia de preparación, en cuya virtud dan por
@@ -8918,10 +9088,12 @@ de garantía y de tribunal                       de juicio oral
                                                 así acordados por las partes se van directamente desde el auto de
                                                 apertura a la sentencia definitiva.
 
-
 ## 15.4   Análisis de casos de exclusión
 
-                                                de prueba de la defensa
+**Definición Canónica:** de prueba de la defensa
+**Concordancias Legales:** artículo 277 inciso 2; Constitucion
+
+de prueba de la defensa
 
                                                 El Tribunal Constitucional se ha pronunciado sobre requerimientos
 
@@ -8934,8 +9106,14 @@ de garantía y de tribunal                       de juicio oral
 
 ## 1. Fallos que acogen requerimiento
 
+**Definición Canónica:** En general, estos fallos acogen el requerimiento interpuesto por la
+                                                defensa argumentando que la no concesión del recurso de apelación
+                                                para la defensa atenta contra:
+                                                —— El derecho constitucional a un procedimiento racional y justo
+                                                   (artículo 19, N° 3, inciso 6°).
+**Concordancias Legales:** artículo 19; artículo 93; artículo 277 del Código; artículo 277; artículo 277 del Código Procesal Penal; constitucion; Constitución
 
-                                                En general, estos fallos acogen el requerimiento interpuesto por la
+En general, estos fallos acogen el requerimiento interpuesto por la
                                                 defensa argumentando que la no concesión del recurso de apelación
                                                 para la defensa atenta contra:
                                                 —— El derecho constitucional a un procedimiento racional y justo
@@ -9058,11 +9236,17 @@ de garantía y de tribunal                       de juicio oral
 
                                             En el mismo sentido, Fallo 5666-18.
 
-
 ## 2. Fallos que rechazan el requerimiento
 
+**Definición Canónica:** Rol N° 3721-18, del 4 de septiembre de 2018:
+                                            Ante el tribunal de garantía, la defensa ofreció prueba consistente
+                                            en la declaración de 17 testigos, además de prueba documental.
+                                            En ese orden, el tribunal determinó excluir abundante prueba por
+                                            impertinencia, sosteniendo que no tenía que ver con los hechos de
+                                            la causa. Excluida la prueba, tanto testimonial como documental, la
+     
 
-                                            Rol N° 3721-18, del 4 de septiembre de 2018:
+Rol N° 3721-18, del 4 de septiembre de 2018:
                                             Ante el tribunal de garantía, la defensa ofreció prueba consistente
                                             en la declaración de 17 testigos, además de prueba documental.
                                             En ese orden, el tribunal determinó excluir abundante prueba por
@@ -9094,7 +9278,15 @@ de garantía y de tribunal                       de juicio oral
 
 ## parte para exclusión de prueba y, ante tal situación, se debe tener
 
-                                            presente que ninguna de las partes –sea la defensa o el ente persecu-
+**Definición Canónica:** presente que ninguna de las partes –sea la defensa o el ente persecu-
+                                            tor– pueden apelar. En consecuencia, para el Tribunal Constitucional
+                                            el precepto impugnado no resulta decisivo, e incluso, si se declarase
+                                            inaplicable no procedería la apelación, por lo que no se infringe la
+                                            igualdad ante la ley ni el debido proceso, al encontrarse todos los
+                                            intervinientes en una misma situac
+**Concordancias Legales:** artículo 63; artículo 93; Constitucion; Constitución; Constitución Política
+
+presente que ninguna de las partes –sea la defensa o el ente persecu-
                                             tor– pueden apelar. En consecuencia, para el Tribunal Constitucional
                                             el precepto impugnado no resulta decisivo, e incluso, si se declarase
                                             inaplicable no procedería la apelación, por lo que no se infringe la
@@ -9186,10 +9378,12 @@ de garantía y de tribunal                       alternativas
                                                 factoria para la comunidad, para la víctima del delito y para el sujeto
                                                 responsable del mismo.
 
-
 ## 16.1   Suspensión condicional
 
-                                                del procedimiento
+**Definición Canónica:** del procedimiento
+**Concordancias Legales:** artículo 246 del CPP
+
+del procedimiento
 
                                                 Es un mecanismo procesal que permite a los fiscales del Ministerio
                                                 Público, con el acuerdo de la persona imputada y con la aprobación
@@ -9287,10 +9481,12 @@ de garantía y de tribunal                                                  alte
                                          como proporcionado al Público deberá dejar constancia de ello en el registro público que
                                          hecho de que se trate. establece el artículo 246 del CPP.
 
-
 ## 16.2           Requisitos de
 
-                                                                          procedencia
+**Definición Canónica:** procedencia
+**Concordancias Legales:** artículos 361; artículos 8; artículo 2; artículo 247; Ley Nº 17.798
+
+procedencia
 
                                                                           a. Que la pena que pudiere imponerse al imputado, en el evento de
                                                                              dictarse sentencia condenatoria (pena en concreto), no exceda
@@ -9347,10 +9543,11 @@ de garantía y de tribunal                       alternativas
                                                 alguno el derecho a perseguir por la vía civil las responsabilidades
                                                 pecuniarias derivadas del mismo hecho.
 
-
 ## 16.3   Efectos de la suspensión
 
-                                                condicional
+**Definición Canónica:** condicional
+
+condicional
 
                                                 Produce la suspensión del plazo legal para el cierre de la investigación,
                                                 pero no altera la suspensión del plazo de prescripción de la acción
@@ -9363,10 +9560,11 @@ de garantía y de tribunal                       alternativas
                                                 definitivo. Sin embargo, no se extinguen las acciones civiles de la
                                                 víctima o de terceros.
 
-
 ## 16.4   Modificación o revocación de la
 
-                                                suspensión condicional
+**Definición Canónica:** suspensión condicional
+
+suspensión condicional
 
                                                 Durante el período de la suspensión, el juez puede modificar una
                                                 o más de las condiciones impuestas. La decisión la adoptará en au-
@@ -9374,14 +9572,11 @@ de garantía y de tribunal                       alternativas
 
                                                 Son dos las causales de revocación de esta salida alternativa:
 
-## 1. Cuando el imputado incumple, sin justificación, grave o reitera-
-
-                                                   damente las condiciones impuestas, o
-
-
 ## 2. Cuando el imputado fuere objeto de una nueva formalización
 
-                                                   por hechos distintos.
+**Definición Canónica:** por hechos distintos.
+
+por hechos distintos.
 
 Curso habilitante Juez(a)                   16. Audiencias de salidas                                                 243
 de garantía y de tribunal                       alternativas
@@ -9391,10 +9586,11 @@ de garantía y de tribunal                       alternativas
                                                 lo solicite el fiscal o la víctima. La resolución que se dicte en este
                                                 sentido es apelable.
 
-
 ## 16.5   Efectos del rechazo
 
-                                                o revocación
+**Definición Canónica:** o revocación
+
+o revocación
 
                                                 Si se rechaza la solicitud de suspensión condicional, o esta es revocada,
 
@@ -9407,10 +9603,11 @@ de garantía y de tribunal                       alternativas
                                                 condicional sean considerados como elemento de convicción, se
                                                 prohíbe que sean invocados, leídos o incorporados a juicio.
 
-
 ## 16.6   Acuerdos
 
-                                                reparatorios
+**Definición Canónica:** reparatorios
+
+reparatorios
 
                                                 Se trata de una salida alternativa en cuya virtud el imputado y la
                                                 víctima convienen formas de reparación satisfactorias de las conse-
@@ -9442,17 +9639,23 @@ de garantía y de tribunal                    alternativas
                                             do en este sentido es a ser creativos y aceptar formas de reparación
                                             distintas a las que acostumbramos, en tanto sean lícitas.
 
-
 ## 16.6.1 Oportunidad
 
-                                            Pueden plantearse durante toda la fase de investigación, desde la
+**Definición Canónica:** Pueden plantearse durante toda la fase de investigación, desde la
                                             formalización hasta el cierre de la misma. Después de este momento,
                                             sólo pueden solicitarse en la audiencia de preparación de juicio oral.
 
+Pueden plantearse durante toda la fase de investigación, desde la
+                                            formalización hasta el cierre de la misma. Después de este momento,
+                                            sólo pueden solicitarse en la audiencia de preparación de juicio oral.
 
 ## 16.6.2 Requisitos de procedencia
 
-                                            Respecto del hecho investigado, sólo debe afectar bienes jurídicos
+**Definición Canónica:** Respecto del hecho investigado, sólo debe afectar bienes jurídicos
+                                            disponibles de carácter patrimonial, o consistir en lesiones menos
+                                            graves, o constituir un delito culposo.
+
+Respecto del hecho investigado, sólo debe afectar bienes jurídicos
                                             disponibles de carácter patrimonial, o consistir en lesiones menos
                                             graves, o constituir un delito culposo.
 
@@ -9498,10 +9701,14 @@ de garantía y de tribunal                                             alternati
                                          la resolución que lo        La resolución que aprueba el acuerdo reparatorio y sobresee definitiva-
                                          rechaza es inapelable.      mente es apelable. En cambio, la resolución que lo rechaza es inapelable.
 
-
 ## 16.6.3 Efectos
 
-                                                                     En el ámbito penal, el acuerdo reparatorio extingue la responsa-
+**Definición Canónica:** En el ámbito penal, el acuerdo reparatorio extingue la responsa-
+                                                                     bilidad penal y procede que el tribunal, junto con aprobarlo, dicte
+                                                                     sobreseimiento definitivo, total o parcial.
+**Concordancias Legales:** artículo 242; artículo 243; artículos 233
+
+En el ámbito penal, el acuerdo reparatorio extingue la responsa-
                                                                      bilidad penal y procede que el tribunal, junto con aprobarlo, dicte
                                                                      sobreseimiento definitivo, total o parcial.
 
@@ -9538,20 +9745,26 @@ de garantía y de tribunal                    alternativas
                                             el juez de garantía con arreglo a lo establecido en los artículos 233
                                             y siguientes del CPC.
 
-
 ## 16.6.4 Registro
 
-                                            Al igual que la suspensión condicional del procedimiento, los acuerdos
+**Definición Canónica:** Al igual que la suspensión condicional del procedimiento, los acuerdos
+                                            reparatorios aprobados deben hacerse constar en el registro señalado
+                                            en el artículo 246 del CPP.
+**Concordancias Legales:** artículo 246 del CPP. Curso habilitante Juez
+
+Al igual que la suspensión condicional del procedimiento, los acuerdos
                                             reparatorios aprobados deben hacerse constar en el registro señalado
                                             en el artículo 246 del CPP.
 
 Curso habilitante Juez(a)                   16. Audiencias de salidas                                               247
 de garantía y de tribunal                       alternativas
 
-
 ## 16.7   Análisis de casos de suspensiones
 
-                                                condicionales improcedentes
+**Definición Canónica:** condicionales improcedentes
+**Concordancias Legales:** artículo 11; artículo 238
+
+condicionales improcedentes
 
                                                 Hechos denunciados:
                                                 La imputada Patricia Lillo León se desempeñaba como coordinadora
@@ -9638,10 +9851,11 @@ de garantía y de tribunal                    alternativas
 Curso habilitante Juez(a)                                                 17. Audiencias de procedimientos                                         250
 de garantía y de tribunal                                                     especiales
 
-
 ## 17.1              Procedimiento
 
-                                                                             abreviado
+**Definición Canónica:** abreviado
+
+abreviado
 
                                                                              Se trata de un procedimiento especial, de actas, en base a los registros
                                                                              que el Ministerio Público ha reunido durante la instrucción, que es
@@ -9656,10 +9870,15 @@ de garantía y de tribunal                                                     e
                                                                              y, proceder a un debate simplificado frente al juez encargado de con-
                                                                              trolar la investigación, al término del cual pronunciará la sentencia78”.
 
-
 ## 17.1.1 Características del procedimiento abreviado
 
-                                                                             Entre las características de este procedimiento especial, pueden
+**Definición Canónica:** Entre las características de este procedimiento especial, pueden
+                                                                             señalarse las siguientes:
+                                                                             a. Es un procedimiento especial, que excluye la generalidad cons-
+                                                                                tituida por el juicio oral.
+**Concordancias Legales:** artículo 412 del CPP dispone expresamente que
+
+Entre las características de este procedimiento especial, pueden
                                                                              señalarse las siguientes:
                                                                              a. Es un procedimiento especial, que excluye la generalidad cons-
                                                                                 tituida por el juicio oral.
@@ -9749,10 +9968,17 @@ de garantía y de tribunal                                                     e
                                                 es condenatoria, ella no puede imponer una pena superior ni más
                                                 desfavorable a la requerida por el órgano acusador.
 
-
 ## 17.1.2 Presupuestos o condiciones de
 
-                                           procedencia del procedimiento abreviado
+**Definición Canónica:** procedencia del procedimiento abreviado
+                                           Como se trata de un procedimiento especial, cuya admisión afecta
+                                           seriamente los derechos de los intervinientes, ya que, por un lado,
+                                           excluye el derecho del acusado de llevar el conflicto penal al juicio
+                                           oral y público, y por el otro, el querellante particular quedará impedido
+                                           de obtener un pronunciamiento sobre la demanda civil que hubiere
+   
+
+procedencia del procedimiento abreviado
                                            Como se trata de un procedimiento especial, cuya admisión afecta
                                            seriamente los derechos de los intervinientes, ya que, por un lado,
                                            excluye el derecho del acusado de llevar el conflicto penal al juicio
@@ -9763,10 +9989,17 @@ de garantía y de tribunal                                                     e
 
 Curso habilitante Juez(a)                17. Audiencias de procedimientos                                      253
 
-
 ## 17.1.2.1 La solicitud del Ministerio Público
 
-                                           Como ya vimos, esta solicitud se puede manifestar por escrito, junto
+**Definición Canónica:** Como ya vimos, esta solicitud se puede manifestar por escrito, junto
+                                           al libelo acusatorio, o en forma verbal, desde la formalización hasta
+                                           la audiencia de preparación de juicio oral. En este último caso, el
+                                           artículo 407 del CPP permite a los acusadores modificar su libelo, así
+                                           como la pena requerida, a fin de permitir la tramitación conforme
+                                           al abreviado.
+**Concordancias Legales:** artículo 407 del CPP permite a los acusadores modificar su lib; artículo 456 bis; artículos 448; artículo 406 inciso 1
+
+Como ya vimos, esta solicitud se puede manifestar por escrito, junto
                                            al libelo acusatorio, o en forma verbal, desde la formalización hasta
                                            la audiencia de preparación de juicio oral. En este último caso, el
                                            artículo 407 del CPP permite a los acusadores modificar su libelo, así
@@ -9793,10 +10026,17 @@ de garantía y de tribunal                                                     e
                                            responsabilidad penal, el grado de desarrollo del delito y el tipo de
                                            participación, no exceda el límite legal ya comentado.
 
-
 ## 17.1.2.2 La aceptación por parte del acusado
 
-                                           de los hechos materia de la acusación y de los
+**Definición Canónica:** de los hechos materia de la acusación y de los
+                                           antecedentes de la investigación que la fundaren
+                                           Para que el acusado pueda aceptar informadamente, es preciso que
+                                           tenga cabal conocimiento de los hechos materia de la acusación, que
+                                           comprenden tanto el hecho punible como la participación, así como
+                                           también los antecedentes de la investigación.
+**Concordancias Legales:** artículo 260 del CPP posibilita este conocimiento al exigir
+
+de los hechos materia de la acusación y de los
                                            antecedentes de la investigación que la fundaren
                                            Para que el acusado pueda aceptar informadamente, es preciso que
                                            tenga cabal conocimiento de los hechos materia de la acusación, que
@@ -9811,10 +10051,16 @@ de garantía y de tribunal                                                     e
                                            cuentran a su disposición en el juzgado de garantía los antecedentes
                                            acumulados durante la investigación.
 
-
 ## 17.1.2.3 La conformidad manifestada expresamente por el
 
-                                           acusado con la aplicación del procedimiento abreviado
+**Definición Canónica:** acusado con la aplicación del procedimiento abreviado
+                                           En razón de los efectos que genera para el acusado el procedimiento
+                                           abreviado, el código ha previsto medidas de resguardo que tiendan
+                                           a asegurar la manifestación libre de esta conformidad. Es por ello
+                                           que el juez de garantía debe asegurarse de que tal consentimiento se
+**Concordancias Legales:** artículo 406
+
+acusado con la aplicación del procedimiento abreviado
                                            En razón de los efectos que genera para el acusado el procedimiento
                                            abreviado, el código ha previsto medidas de resguardo que tiendan
                                            a asegurar la manifestación libre de esta conformidad. Es por ello
@@ -9847,10 +10093,18 @@ de garantía y de tribunal                                                     e
 
 Curso habilitante Juez(a)                17. Audiencias de procedimientos                                        255
 
-
 ## 17.1.3 La aceptación de la solicitud de procedimiento
 
-                                           abreviado por parte del juez de garantía
+**Definición Canónica:** abreviado por parte del juez de garantía
+                                           Señala el artículo 410 del CPP que el juez aceptará la solicitud
+                                           cuando los antecedentes de la investigación fueren suficientes para
+                                           proceder conforme a las normas del procedimiento abreviado, y la
+                                           pena solicitada por el fiscal en concreto se ajuste a los límites legales
+                                           y verificare que el acuerdo hubiere sido prestado por el acusado con
+   
+**Concordancias Legales:** artículo 410 del CPP que el juez aceptará la solicitud; artículo 409 del CPP; artículo 412 inciso 1; artículo 395 del CPP
+
+abreviado por parte del juez de garantía
                                            Señala el artículo 410 del CPP que el juez aceptará la solicitud
                                            cuando los antecedentes de la investigación fueren suficientes para
                                            proceder conforme a las normas del procedimiento abreviado, y la
@@ -10014,10 +10268,13 @@ de garantía y de tribunal                                                  espe
 
 Curso habilitante Juez(a)                17. Audiencias de procedimientos                                      259
 
-
 ## 17.1.4 Actividad de otros intervinientes
 
-                                           También se precisa el concurso del querellante, quien puede asumir
+**Definición Canónica:** También se precisa el concurso del querellante, quien puede asumir
+                                           dos posiciones al respecto:
+**Concordancias Legales:** artículo 406
+
+También se precisa el concurso del querellante, quien puede asumir
                                            dos posiciones al respecto:
 
                                            a. Derechamente está de acuerdo con la solicitud del fiscal, lo que
@@ -10037,10 +10294,14 @@ de garantía y de tribunal                                                  espe
                                            la oposición del querellante, puede acceder a ir al procedimiento
                                            abreviado, cuando además se den los otros requisitos legales.
 
-
 ## 17.1.5 La decisión del juez de garantía ante la
 
-                                           solicitud de ir a un procedimiento abreviado
+**Definición Canónica:** solicitud de ir a un procedimiento abreviado
+                                           Si se cumplen las condiciones legales y no ha existido oposición del
+                                           querellante, el juez de garantía aceptará la solicitud.
+**Concordancias Legales:** artículo 406
+
+solicitud de ir a un procedimiento abreviado
                                            Si se cumplen las condiciones legales y no ha existido oposición del
                                            querellante, el juez de garantía aceptará la solicitud.
 
@@ -10074,10 +10335,16 @@ de garantía y de tribunal                                                  espe
 
                                            chazo o revocación de la tramitación de un procedimiento abreviado.
 
-
 ## 17.1.6 Resolución de la solicitud (art. 410 CPP)
 
-                                           El juez aceptará la solicitud del fiscal y del imputado cuando los
+**Definición Canónica:** El juez aceptará la solicitud del fiscal y del imputado cuando los
+                                           antecedentes de la investigación fueren suficientes para proceder
+                                           conforme a este procedimiento, la pena solicitada por el fiscal no
+                                           supere los 5 años, y verificare que el acuerdo ha sido prestado por el
+                                           imputado con conocimiento de sus derechos, libre y voluntariamente.
+**Concordancias Legales:** artículo 370
+
+El juez aceptará la solicitud del fiscal y del imputado cuando los
                                            antecedentes de la investigación fueren suficientes para proceder
                                            conforme a este procedimiento, la pena solicitada por el fiscal no
                                            supere los 5 años, y verificare que el acuerdo ha sido prestado por el
@@ -10119,10 +10386,15 @@ de garantía y de tribunal                                              especial
 
                                                                      causal genérica contenida en el artículo 370 letra a) del CPP.
 
-
 ## 17.1.7 Tramitación del procedimiento
 
-                                                                     abreviado (art. 411 CPP)
+**Definición Canónica:** abreviado (art. 411 CPP)
+                                                                     Al inicio del procedimiento abreviado, el juez abrirá el debate y
+                                                                     otorgará la palabra al fiscal, quien efectuará una exposición resumida
+                                                                     de la acusación y de las actuaciones y diligencias de la investigación
+                                                                     que la fundamentaren.
+
+abreviado (art. 411 CPP)
                                                                      Al inicio del procedimiento abreviado, el juez abrirá el debate y
                                                                      otorgará la palabra al fiscal, quien efectuará una exposición resumida
                                                                      de la acusación y de las actuaciones y diligencias de la investigación
@@ -10135,10 +10407,14 @@ de garantía y de tribunal                                              especial
                                                                      las normas comunes previstas en el Código Procesal Penal y las dis-
                                                                      posiciones del procedimiento ordinario (art. 415 CPP).
 
-
 ## 17.1.8 La sentencia del abreviado (art. 412 CPP)
 
-                                                                     Terminado el debate, el juez dictará sentencia, la que puede ser ab-
+**Definición Canónica:** Terminado el debate, el juez dictará sentencia, la que puede ser ab-
+                                                                     solutoria o condenatoria y debe cumplir los requisitos establecidos
+                                                                     en el artículo 413 del CPP.
+**Concordancias Legales:** artículo 413 del CPP; artículo 413 del CPP. Curso habilitante Juez
+
+Terminado el debate, el juez dictará sentencia, la que puede ser ab-
                                                                      solutoria o condenatoria y debe cumplir los requisitos establecidos
                                                                      en el artículo 413 del CPP.
 
@@ -10190,10 +10466,14 @@ de garantía y de tribunal                                              especial
 Curso habilitante Juez(a)                                          17. Audiencias de procedimientos                                         263
 de garantía y de tribunal                                              especiales
 
-
 ## 17.1.9 Recursos en contra de la sentencia
 
-                                                                     del abreviado (art. 414 CPP)
+**Definición Canónica:** del abreviado (art. 414 CPP)
+                                                                     La sentencia definitiva únicamente es impugnable a través del recurso
+                                                                     de apelación, debiendo este concederse en ambos efectos.
+**Concordancias Legales:** artículo 406
+
+del abreviado (art. 414 CPP)
                                                                      La sentencia definitiva únicamente es impugnable a través del recurso
                                                                      de apelación, debiendo este concederse en ambos efectos.
 
@@ -10211,10 +10491,12 @@ de garantía y de tribunal                                              especial
                                          este concederse en          forzamiento hacia un juicio oral, ello puede desmotivar los acuerdos
                                          ambos efectos.              entre fiscales e imputados.
 
-
 ## 17.2         Procedimiento
 
-                                                                     simplificado
+**Definición Canónica:** simplificado
+**Concordancias Legales:** artículos 388
+
+simplificado
 
                                                                      Este segundo procedimiento especial está tratado por el legislador
                                                                      en los artículos 388 a 399 del Código Procesal Penal.
@@ -10225,10 +10507,13 @@ de garantía y de tribunal                                              especial
                                                                      la imposición de una pena que no exceda de presidio o reclusión
                                                                      menor en su grado mínimo.
 
-
 ## 17.2.1 Ámbito de aplicación
 
-                                                                     Lo primero que señala el legislador es que el procedimiento simplifi-
+**Definición Canónica:** Lo primero que señala el legislador es que el procedimiento simplifi-
+                                                                     cado lo aplicarán los jueces de garantía para conocer y fallar las faltas.
+**Concordancias Legales:** Ley N° 19.708
+
+Lo primero que señala el legislador es que el procedimiento simplifi-
                                                                      cado lo aplicarán los jueces de garantía para conocer y fallar las faltas.
 
                                                                      En el Senado, se le incorporó, además, a la norma antedicha, la
@@ -10265,10 +10550,16 @@ de garantía y de tribunal                                             especiale
                                                                     competencia en asuntos criminales con cuantías de penas menores,
                                                                     como las relativas a las faltas y las de simples delitos menores.
 
-
 ## 17.2.2 El conocimiento y fallo de las faltas
 
-                                                                    La expresión “conocimiento y fallo de las faltas” a que se alude en el
+**Definición Canónica:** La expresión “conocimiento y fallo de las faltas” a que se alude en el
+                                                                    artículo 388 del CPP, y las voces “conocer y fallar las faltas penales”
+                                                                    y “conocer y fallar (…) las faltas e infracciones contempladas en la
+                                                                    Ley de Alcoholes, cualquiera sea la pena que ella les asigne”, refe-
+                                                                    ridas respectivamente en las letras d) y e) del
+**Concordancias Legales:** artículo 388 del CPP; artículo 14 del COT; artículo 3; artículo 21; artículo 388; artículo 21 del CP; Ley N° 19.366
+
+La expresión “conocimiento y fallo de las faltas” a que se alude en el
                                                                     artículo 388 del CPP, y las voces “conocer y fallar las faltas penales”
                                                                     y “conocer y fallar (…) las faltas e infracciones contempladas en la
                                                                     Ley de Alcoholes, cualquiera sea la pena que ella les asigne”, refe-
@@ -10334,10 +10625,13 @@ de garantía y de tribunal                                             especiale
                                            y no a la pena en abstracto contemplada para cada tipo penal, según
                                            la escala del artículo 21 del CP.
 
-
 ## 17.2.4 Características del procedimiento simplificado
 
-                                           Estimamos que este procedimiento participa de algunas caracterís-
+**Definición Canónica:** Estimamos que este procedimiento participa de algunas caracterís-
+                                           ticas similares a las del procedimiento abreviado, así:
+**Concordancias Legales:** artículo 391 del CPP; artículo 391 del CPP establece que el fiscal debe tener; artículo 389 del CPP señala que supletoriamente; artículo 329 del CPP
+
+Estimamos que este procedimiento participa de algunas caracterís-
                                            ticas similares a las del procedimiento abreviado, así:
 
                                            a. Tiene aplicación por iniciativa exclusiva del Ministerio Público
@@ -10420,10 +10714,13 @@ de garantía y de tribunal                                             especiale
                                            del juicio oral, esto es, testigos y peritos, se sigue igual suerte en el
                                            procedimiento simplificado, aplicándose el artículo 329 del CPP.
 
-
 ## 17.2.5 Simplificado del 393 bis CPP
 
-                                           En efecto, antes de la incorporación del nuevo artículo, el reque-
+**Definición Canónica:** En efecto, antes de la incorporación del nuevo artículo, el reque-
+                                           rimiento –condición objetiva de procesabilidad– debía siempre
+**Concordancias Legales:** artículo 388 del CPP; artículo 393 bis; artículo 391; artículo 393 bis del CPP reglamen; artículo 134 inciso 4; artículos 494; artículo 392 del CPP sobre; artículo 392; artículo 393; artículo 132
+
+En efecto, antes de la incorporación del nuevo artículo, el reque-
                                            rimiento –condición objetiva de procesabilidad– debía siempre
 
                                            efectuarse por escrito. Luego, la resolución de rigor debía notificarse
@@ -10497,15 +10794,13 @@ de garantía y de tribunal                                                 espec
 Curso habilitante Juez(a)                                           17. Audiencias de procedimientos                                        270
 de garantía y de tribunal                                               especiales
 
-
-## 17.3          El procedimiento
-
-                                                                      monitorio
-
-
 ## 17.3.1 Estatuto aplicable
 
-                                                                      El procedimiento monitorio se encuentra regulado en el libro IV,
+**Definición Canónica:** El procedimiento monitorio se encuentra regulado en el libro IV,
+                                                                      título 1°, del Código Procesal Penal.
+**Concordancias Legales:** artículo 388; artículo 392 del CPP en donde se regula expresamente la materi; artículo 388 del CPP nos puede llevar a una confusión; artículo 392; artículo 392 del CPP. Curso habilitante Juez
+
+El procedimiento monitorio se encuentra regulado en el libro IV,
                                                                       título 1°, del Código Procesal Penal.
 
                                                                       En efecto, el artículo 388 del citado cuerpo legal nos indica que:
@@ -10540,10 +10835,16 @@ de garantía y de tribunal                                               especia
 
 Curso habilitante Juez(a)                17. Audiencias de procedimientos                                          271
 
-
 ## 17.3.2 Tramitación
 
-                                           Una vez que el fiscal recibe una denuncia por un hecho constitutivo
+**Definición Canónica:** Una vez que el fiscal recibe una denuncia por un hecho constitutivo
+                                           de una falta penal, deberá presentar ante el juez de garantía com-
+                                           petente un requerimiento que deberá contener las menciones del
+                                           artículo 391 del CPP y, además, “una proposición sobre el monto de
+                                           la multa, que debiere imponerse al imputado”.
+**Concordancias Legales:** artículo 391 del CPP y; artículo 390 inciso 2; artículos 494; artículo 390; artículos 54; artículo 391 del CPP; artículo 54 del CPP; artículo 496; artículo 55; artículo 38 del CPP
+
+Una vez que el fiscal recibe una denuncia por un hecho constitutivo
                                            de una falta penal, deberá presentar ante el juez de garantía com-
                                            petente un requerimiento que deberá contener las menciones del
                                            artículo 391 del CPP y, además, “una proposición sobre el monto de
@@ -10593,11 +10894,16 @@ de garantía y de tribunal                                               especia
                                            despacho el libelo respectivo, cuenta con el plazo de 24 horas, para
                                            resolver la cuestión, según prescribe el artículo 38 del CPP.
 
-
 ## 17.3.3 La resolución del juez de garantía
 
+**Definición Canónica:** La resolución que acoge el requerimiento contendrá:
+                                           a. La instrucción acerca del derecho del imputado de reclamar
+                                              en contra del requerimiento y de la imposición de la sanción,
+                                              dentro de los 15 días siguientes a su notificación, así como de
+                                              los efectos de la interposición del reclamo.
+**Concordancias Legales:** artículo 392; artículos 393; artículo 392 del CPP
 
-                                           La resolución que acoge el requerimiento contendrá:
+La resolución que acoge el requerimiento contendrá:
                                            a. La instrucción acerca del derecho del imputado de reclamar
                                               en contra del requerimiento y de la imposición de la sanción,
                                               dentro de los 15 días siguientes a su notificación, así como de
@@ -10671,10 +10977,13 @@ de garantía y de tribunal                                               especia
                                                 una resolución –que como ya dijimos– debe ser dictada antes de
                                                 las 24 horas siguientes a la recepción del requerimiento.
 
-
 ## 17.3.5 Imparcialidad del juzgador
 
-                                           De lo indicado precedentemente, se nos plantea el problema de la
+**Definición Canónica:** De lo indicado precedentemente, se nos plantea el problema de la
+                                           imparcialidad del órgano juzgador.
+**Concordancias Legales:** artículo 195
+
+De lo indicado precedentemente, se nos plantea el problema de la
                                            imparcialidad del órgano juzgador.
 
                                            En efecto, vimos que, si el juez estimare suficientemente fundado el
@@ -10709,10 +11018,15 @@ de garantía y de tribunal                                               especia
 Curso habilitante Juez(a)                                        17. Audiencias de procedimientos                                         275
 de garantía y de tribunal                                            especiales
 
-
 ## 17.3.6 La acción civil en el procedimiento monitorio
 
-                                                                   Si analizamos los artículos 391 y 392 del CPP que mencionan deta-
+**Definición Canónica:** Si analizamos los artículos 391 y 392 del CPP que mencionan deta-
+                                                                   lladamente los requisitos que debe contener el requerimiento que
+                                                                   da origen al procedimiento monitorio, podremos apreciar que no
+                                                                   existe referencia alguna a una eventual acción que pudiera impetrarse.
+**Concordancias Legales:** artículos 391; artículo 78; artículo 393; artículo 393 inciso 2
+
+Si analizamos los artículos 391 y 392 del CPP que mencionan deta-
                                                                    lladamente los requisitos que debe contener el requerimiento que
                                                                    da origen al procedimiento monitorio, podremos apreciar que no
                                                                    existe referencia alguna a una eventual acción que pudiera impetrarse.
@@ -10759,10 +11073,13 @@ de garantía y de tribunal                       especiales
                                                 las normas del libro II se aplican en forma supletoria en lo que no
                                                 regulare el libro IV del cuerpo de leyes en estudio.
 
-
 ## 17.4   Análisis de casos de procedimientos abreviados
 
-                                                improcedentes (casos en que se rebaja
+**Definición Canónica:** improcedentes (casos en que se rebaja
+                                                forzadamente la pena para poder abreviar)
+**Concordancias Legales:** artículo 11
+
+improcedentes (casos en que se rebaja
                                                 forzadamente la pena para poder abreviar)
 
                                                 Hechos:
@@ -10827,10 +11144,12 @@ de garantía y de tribunal                       especiales
 
 Curso habilitante Juez(a)                   18. Juicio Oral                                                            279
 
-
 ## 18.1   Estructura del
 
-                                                juicio oral
+**Definición Canónica:** juicio oral
+**Concordancias Legales:** artículo 343 del CPP
+
+juicio oral
 
                                                 Dentro del juicio oral pueden distinguirse claramente tres fases que
                                                 corresponden a los intervinientes fiscal y defensor:
@@ -10852,10 +11171,11 @@ de garantía y de tribunal                       especiales
                                                 a una audiencia de determinación y forma de cumplimiento de la
                                                 pena, de conformidad a lo previsto en el artículo 343 del CPP.
 
-
 ## 18.2   Desarrollo del
 
-                                                juicio oral
+**Definición Canónica:** juicio oral
+
+juicio oral
 
                                                 La finalidad esencial del juicio oral es la rendición de los medios de
                                                 prueba para que el tribunal tenga insumos para decidir sobre la abso-
@@ -10863,10 +11183,17 @@ de garantía y de tribunal                       especiales
 
 Curso habilitante Juez(a)                                           18. Juicio Oral                                                        280
 
-
 ## 18.2.1 La prueba testimonial
 
-                                         El testimonio, hoy en         El testimonio, hoy en día, se constituye en el medio de prueba más
+**Definición Canónica:** El testimonio, hoy en         El testimonio, hoy en día, se constituye en el medio de prueba más
+                                         día, se constituye en         utilizado en los juicios orales. Cualquier persona que preste decla-
+                                                                       ración en juicio, por regla general, deberá hacerlo personalmente
+                                         el medio de prueba
+                                                                       declarando en estrados. Eso vale para testigos y para peritos.
+                                
+**Concordancias Legales:** artículo 298 del Código Procesal Penal señala sobre el; artículo 306 del Código Procesal Penal; artículo 305 del Código Procesal Penal señala sobre el princip; artículo 302 inciso 1; artículo 460 del Código de Procedimiento Penal. Curso habili; artículo 310 del Código
+
+El testimonio, hoy en         El testimonio, hoy en día, se constituye en el medio de prueba más
                                          día, se constituye en         utilizado en los juicios orales. Cualquier persona que preste decla-
                                                                        ración en juicio, por regla general, deberá hacerlo personalmente
                                          el medio de prueba
@@ -10978,10 +11305,15 @@ de garantía y de tribunal                       especiales
                                                                       menor de edad, debiendo los intervinientes dirigir las preguntas por
                                          en sus testimonios.          su intermedio.
 
-
 ## 18.2.2 La procedencia del informe pericial
 
-                                                                      Hoy, cabe mejor hablar de prueba pericial que de informe pericial,
+**Definición Canónica:** Hoy, cabe mejor hablar de prueba pericial que de informe pericial,
+                                                                      pues recordemos que el informe que contiene la pericia nada vale en
+                                                                      sí. Lo válido en el juicio oral es el testimonio del perito, de conformi-
+                                                                      dad con la forma establecida en el artículo 329 del Código del ramo.
+**Concordancias Legales:** artículo 329 del Código del ramo; artículo 314 del CPP; artículos 198; artículo 315
+
+Hoy, cabe mejor hablar de prueba pericial que de informe pericial,
                                                                       pues recordemos que el informe que contiene la pericia nada vale en
                                                                       sí. Lo válido en el juicio oral es el testimonio del perito, de conformi-
                                                                       dad con la forma establecida en el artículo 329 del Código del ramo.
@@ -11030,10 +11362,17 @@ de garantía y de tribunal                       especiales
                                                  la comparecencia del perito no podrá ser substituida por la pre-
                                                  sentación del informe”.
 
-
 ## 18.2.3 Lectura de apoyo de memoria en el juicio oral
 
-                                            Se puede utilizar la lectura de apoyo, regulada en el artículo 332
+**Definición Canónica:** Se puede utilizar la lectura de apoyo, regulada en el artículo 332
+                                            del CC, cuando los acusados y testigos hayan olvidado parte de lo
+                                            sucedido, en relación a su declaración primigenia tomada al poco
+                                            tiempo de acaecidos los hechos, o bien, para el caso de peritos que
+                                            no recuerden alguna conclusión o diligencia de su pericia. En ese
+                                            sentido, la palabra clave es olvido.
+**Concordancias Legales:** artículo 332; artículo 332 del CPP sería casi excepcional. Sin
+
+Se puede utilizar la lectura de apoyo, regulada en el artículo 332
                                             del CC, cuando los acusados y testigos hayan olvidado parte de lo
                                             sucedido, en relación a su declaración primigenia tomada al poco
                                             tiempo de acaecidos los hechos, o bien, para el caso de peritos que
@@ -11084,10 +11423,16 @@ de garantía y de tribunal                       especiales
 
 Curso habilitante Juez(a)                                            18. Juicio Oral                                                         285
 
-
 ## 18.2.3 Otros medios de prueba (323 CPP)
 
-                                         El artículo 323 regula         El artículo 323 regula otros medios de prueba no regulados expresa-
+**Definición Canónica:** El artículo 323 regula         El artículo 323 regula otros medios de prueba no regulados expresa-
+                                         otros medios de                mente. Ahí se señala que podrán admitirse, como pruebas, películas
+                                                                        cinematográficas, fotografías, fonografías, videograbaciones y otros
+                                         prueba no regulados            sistemas de reproducción de la imagen o del sonido, versiones taqui-
+                                         expresamente. Ahí              gráficas
+**Concordancias Legales:** artículo 323; artículo 333; artículo 331; artículos 191; artículo 280
+
+El artículo 323 regula         El artículo 323 regula otros medios de prueba no regulados expresa-
                                          otros medios de                mente. Ahí se señala que podrán admitirse, como pruebas, películas
                                                                         cinematográficas, fotografías, fonografías, videograbaciones y otros
                                          prueba no regulados            sistemas de reproducción de la imagen o del sonido, versiones taqui-
@@ -11148,10 +11493,16 @@ de garantía y de tribunal                       especiales
                                                pericia mediante la lectura de la misma, previa solicitud fundada
                                                de alguno de los intervinientes”.
 
-
 ## 18.2.5 Prueba nueva y prueba sobre prueba (336 CPP)
 
-                                            Características de la llamada “prueba nueva”, constituyen un derecho
+**Definición Canónica:** Características de la llamada “prueba nueva”, constituyen un derecho
+                                            que la ley les concede a los litigantes a solicitar la anuencia del tri-
+                                            bunal para rendir una prueba que no hayan ofrecido anteriormente
+                                            en sus escritos de acusación (259 letra f ), adhesión a la acusación o
+                                            acusación particular (261 letra c), ni en la oportunidad de contestar
+                                            la acusación en forma oral o por
+
+Características de la llamada “prueba nueva”, constituyen un derecho
                                             que la ley les concede a los litigantes a solicitar la anuencia del tri-
                                             bunal para rendir una prueba que no hayan ofrecido anteriormente
                                             en sus escritos de acusación (259 letra f ), adhesión a la acusación o
@@ -11204,10 +11555,15 @@ de garantía y de tribunal                       especiales
                                          integridad.                 mediante ella, entre otras cosas ‘la veracidad, autenticidad o integridad’
                                                                      de determinado medio de prueba”.
 
-
 ## 18.2.6 Declaración del acusado como medio de defensa
 
-                                                                     Debe siempre estar presente en su juicio. El acusado es un intervi-
+**Definición Canónica:** Debe siempre estar presente en su juicio. El acusado es un intervi-
+                                                                     niente forzoso. Tiene plena libertad para decidir si declara o no en su
+                                                                     juicio oral. Incluso si declara, puede faltar a la verdad, ocultar hechos
+                                                                     o circunstancias en su declaración, aunque el tribunal lo exhorte a
+                                                                     ser veraz. No se le juramenta.
+
+Debe siempre estar presente en su juicio. El acusado es un intervi-
                                                                      niente forzoso. Tiene plena libertad para decidir si declara o no en su
                                                                      juicio oral. Incluso si declara, puede faltar a la verdad, ocultar hechos
                                                                      o circunstancias en su declaración, aunque el tribunal lo exhorte a
@@ -11216,11 +11572,12 @@ de garantía y de tribunal                       especiales
                                                                      El presidente del tribunal se limitará a señalarle que responda con
                                                                      claridad y precisión las preguntas que se le formularen.
 
-
 ## 18.2.7 La declaración de los testigos
 
+**Definición Canónica:** Curso habilitante Juez(a)                18. Juicio Oral                                                         288
+**Concordancias Legales:** artículo 329 del Código Procesal Penal dispone; artículo 299 inciso 2; artículo 240 del Código de Procedimiento Civil; artículo 302 del Código Procesal Penal. Curso habilitante Ju; artículo 298 del Código; artículo 3; Ley N° 21.057
 
-Curso habilitante Juez(a)                18. Juicio Oral                                                         288
+Curso habilitante Juez(a)                18. Juicio Oral                                                         288
 
                                             En el caso de los testigos, su declaración comienza con el juramento
                                             o promesa de ser veraz, y ellos declaran al tenor de las preguntas que
@@ -11322,10 +11679,16 @@ de garantía y de tribunal                       especiales
                                                                            la declaración judicial de niños, niñas y adolescentes en Tribunales
                                                                            orales en lo penal, un manual de abordaje82.
 
-
 ## 18.2.8 La declaración de los peritos
 
-                                                                           Respecto de los peritos, la mecánica de su deposición en juicio varía
+**Definición Canónica:** Respecto de los peritos, la mecánica de su deposición en juicio varía
+                                                                           sustancialmente en relación a los testigos. Así, según lo que previene
+                                                                           el inciso 3° del artículo 329 del Código Procesal Penal, los peritos
+                                                                           también son juramentados previamente y “(…) deberán exponer
+                                                                           brevemente el contenido y las 
+**Concordancias Legales:** artículo 329 del Código Procesal Penal; artículo 319 del Código Procesal Penal; artículo 315 del CPP
+
+Respecto de los peritos, la mecánica de su deposición en juicio varía
                                                                            sustancialmente en relación a los testigos. Así, según lo que previene
                                                                            el inciso 3° del artículo 329 del Código Procesal Penal, los peritos
                                                                            también son juramentados previamente y “(…) deberán exponer
@@ -11444,10 +11807,16 @@ de garantía y de tribunal                       especiales
 
                                                                           A los imputados se les puede examinar o interrogar por las partes.
 
-
 ## 18.2.9 Interrogatorios y contrainterrogatorios
 
-                                                                          Para entender cabalmente este tema, cabe señalar que a los testigos y
+**Definición Canónica:** Para entender cabalmente este tema, cabe señalar que a los testigos y
+                                                                          peritos siempre los presenta a declarar la parte que, respectivamente,
+                                                                          los haya llevado como probanzas de su propia teoría. En consecuencia,
+                                                                          trátese de un fiscal, un querellante o un defensor, si ha presentado
+                                                                          a un testigo o perito, s
+**Concordancias Legales:** artículos 329; artículo 326 del Código Procesal Penal; artículo 329 del Código Procesal Penal; artículo 330 del Código Procesal Penal; artículo 1; artículo 329; artículo 329 del Código Procesal; artículo 8
+
+Para entender cabalmente este tema, cabe señalar que a los testigos y
                                                                           peritos siempre los presenta a declarar la parte que, respectivamente,
                                                                           los haya llevado como probanzas de su propia teoría. En consecuencia,
                                                                           trátese de un fiscal, un querellante o un defensor, si ha presentado
@@ -11743,10 +12112,16 @@ de garantía y de tribunal                       especiales
                                             del ejercicio del derecho genérico de ser oído, contemplado en el
                                             artículo 8° inciso 2° del código del ramo.
 
-
 ## 18.2.10 Las palabras finales del artículo 338 del CPP
 
-                                            El artículo 338 prevé que antes que el tribunal del juicio dé por fina-
+**Definición Canónica:** El artículo 338 prevé que antes que el tribunal del juicio dé por fina-
+                                            lizada la audiencia, una vez que se haya desahogado toda la prueba y
+                                            escuchado al fiscal, querellante y defensor en sus alegaciones finales,
+                                            le otorgue la palabra a la persona acusada para que manifestare lo que
+                                            estimare conveniente. A continuación, se declarará cerrado el debate.
+**Concordancias Legales:** artículo 338; artículo 326 del CPP y; artículo 98; artículo 311 del Código Curso habilitante Juez; artículo 318
+
+El artículo 338 prevé que antes que el tribunal del juicio dé por fina-
                                             lizada la audiencia, una vez que se haya desahogado toda la prueba y
                                             escuchado al fiscal, querellante y defensor en sus alegaciones finales,
                                             le otorgue la palabra a la persona acusada para que manifestare lo que
@@ -11772,21 +12147,13 @@ de garantía y de tribunal                       especiales
 
 Curso habilitante Juez(a)                   18. Juicio Oral                                                        302
 
-
-## 18.3   Veredicto
-
-                                                y fallo
-
-
-## 18.3.1 Valoración de la prueba
-
-                                                Las reglas básicas en el tema de la valoración de la prueba están
-                                                contenidas en los siguientes tres artículos del CPP, 295, 296 y 297.
-
-
 ## 18.3.1.1 Artículo 295: Libertad de prueba
 
-                                                Todos los hechos y circunstancias pertinentes para la adecuada so-
+**Definición Canónica:** Todos los hechos y circunstancias pertinentes para la adecuada so-
+                                                lución del caso sometido a enjuiciamiento podrán ser probados por
+                                                cualquier medio producido e incorporado en conformidad a la ley.
+
+Todos los hechos y circunstancias pertinentes para la adecuada so-
                                                 lución del caso sometido a enjuiciamiento podrán ser probados por
                                                 cualquier medio producido e incorporado en conformidad a la ley.
 
@@ -11834,10 +12201,16 @@ de garantía y de tribunal                       especiales
 
                                             pronunciado sobre la prueba por presunciones.
 
-
 ## 18.3.1.2 El sistema de valoración libre
 
-                                            de la prueba conforme a la sana crítica.
+**Definición Canónica:** de la prueba conforme a la sana crítica.
+                                            Artículo 297: valoración de la prueba
+                                            Los tribunales apreciarán la prueba con libertad, pero no podrán
+                                            contradecir los principios de la lógica, las máximas de la experiencia
+                                            y los conocimientos científicamente afianzados.
+**Concordancias Legales:** Artículo 297
+
+de la prueba conforme a la sana crítica.
                                             Artículo 297: valoración de la prueba
                                             Los tribunales apreciarán la prueba con libertad, pero no podrán
                                             contradecir los principios de la lógica, las máximas de la experiencia
@@ -11875,7 +12248,12 @@ de garantía y de tribunal                       especiales
 
 ## parte de la actividad axiológica, porque ya la realizó la ley al tasar la
 
-                                                                              prueba y al imponerle un valor a cada una de ellas; mientras en el
+**Definición Canónica:** prueba y al imponerle un valor a cada una de ellas; mientras en el
+                                                                              sistema de libres convicciones la ley no realiza valoración de prueba
+                                                                              alguna; no plasma en normas jurídicas juicio previo alguno acerca
+**Concordancias Legales:** artículo 297; artículo 297 del CPP. La clave de
+
+prueba y al imponerle un valor a cada una de ellas; mientras en el
                                                                               sistema de libres convicciones la ley no realiza valoración de prueba
                                                                               alguna; no plasma en normas jurídicas juicio previo alguno acerca
 
@@ -11990,33 +12368,16 @@ de garantía y de tribunal                       especiales
                                             La prueba en el proceso se manifiesta en tres facetas distintas, pero
                                             que lleva a una única finalidad, una correcta decisión judicial.
 
-
-## 18.3.3 Deliberación (artículos 339-343-340-347)
-
-                                            Respecto del contenido mismo de la deliberación, el mencionado
-                                            artículo 343 del citado código da a los jueces las siguientes pautas:
-
-
-## 1. Deberá ser pronunciada en la audiencia respectiva, después del
-
-
-                                               cierre del debate.
-
-
-## 2. Deberá comunicar la decisión sobre la absolución o condena del
-
-                                               o los acusados por cada uno de los delitos que se le imputaren.
-
-
-## 3. Se deberá indicar respecto de cada uno de ellos los fundamen-
-
-                                               tos principales tomados en consideración para llegar a dichas
-                                               conclusiones.
-
-
 ## 4. Sólo en el caso de la condena, el tribunal deberá resolver sobre
 
-                                               las circunstancias modificatorias de responsabilidad penal; salvo
+**Definición Canónica:** las circunstancias modificatorias de responsabilidad penal; salvo
+                                               o excepto que se trate de circunstancias ajenas al hecho punible,
+                                               caso en el cual podrá postergar su resolución para el momento de
+                                               la determinación de la pena en la sentencia, debiendo indicarlo
+                                               así las partes.
+**Concordancias Legales:** artículo 343; artículo 343 del Código Procesal Penal; artículo 340; artículo 259 del Código
+
+las circunstancias modificatorias de responsabilidad penal; salvo
                                                o excepto que se trate de circunstancias ajenas al hecho punible,
                                                caso en el cual podrá postergar su resolución para el momento de
                                                la determinación de la pena en la sentencia, debiendo indicarlo
@@ -12084,20 +12445,23 @@ de garantía y de tribunal                       especiales
                                             consecuencia, no se podrá condenar por hechos o circunstancias
                                             no contenidos en ella”.
 
-
 ## 18.3.4 Plazos para deliberar
 
-                                            De lo dicho, se puede deducir lo siguiente:
+**Definición Canónica:** De lo dicho, se puede deducir lo siguiente:
+
+De lo dicho, se puede deducir lo siguiente:
 
                                             La ley ha señalado un plazo máximo de 24 horas para deliberar, sólo
                                             sí se cumplen a nuestro juicio dos requisitos copulativos:
 
                                             1. Que el juicio haya durado más de dos audiencias;
 
-
 ## 2. Que la complejidad del caso no permitiere pronunciar inmedia-
 
-                                               tamente la decisión.
+**Definición Canónica:** tamente la decisión.
+**Concordancias Legales:** artículo 343 del Código
+
+tamente la decisión.
 
                                             En otras palabras, no necesariamente la longitud del juicio en varias
                                             audiencias va a llevar aparejado un plazo mayor de hasta 24 horas para
@@ -12127,75 +12491,65 @@ de garantía y de tribunal                       especiales
                                             la nulidad del juicio, el que deberá repetirse en el más breve plazo
                                             posible”.
 
-
 ## 18.3.5 Contenido del acta de deliberación
 
-                                            En suma, debemos considerar como requisitos ineludibles del con-
+**Definición Canónica:** En suma, debemos considerar como requisitos ineludibles del con-
                                             tenido del acta de deliberación los siguientes elementos:
                                             1. La decisión sobre absolución o condena de el o los acusados;
 
-
-## 2. El señalamiento de los hechos motivo de la formalización de la
-
-                                               investigación y la acusación penal;
-
+En suma, debemos considerar como requisitos ineludibles del con-
+                                            tenido del acta de deliberación los siguientes elementos:
+                                            1. La decisión sobre absolución o condena de el o los acusados;
 
 ## 3. La expresión sucinta del porqué esos hechos se encuentran
 
-                                               acreditados con el mérito de lo oído en la audiencia, o, en otras
+**Definición Canónica:** acreditados con el mérito de lo oído en la audiencia, o, en otras
                                                palabras, con qué medios probatorios (testimonios o pericias) se
                                                dan por acreditados;
 
-
-## 4. La calificación jurídica que se le hace a los hechos que se dieron
-
-                                               por probados;
-
+acreditados con el mérito de lo oído en la audiencia, o, en otras
+                                               palabras, con qué medios probatorios (testimonios o pericias) se
+                                               dan por acreditados;
 
 ## 5. La enunciación del voto de minoría de alguno de los jueces de
 
-                                               la sala, respecto de la calificación jurídica, discrepante, ya sea de
+**Definición Canónica:** la sala, respecto de la calificación jurídica, discrepante, ya sea de
                                                la mayoría de la sala, o bien, discrepante de la señalada por el
                                                Ministerio Público en su acusación;
 
+la sala, respecto de la calificación jurídica, discrepante, ya sea de
+                                               la mayoría de la sala, o bien, discrepante de la señalada por el
+                                               Ministerio Público en su acusación;
 
 ## 6. La indicación de que la participación de el o los acusados, en
 
-                                               los hechos narrados, en calidad ya sea, de autores, cómplices o
+**Definición Canónica:** los hechos narrados, en calidad ya sea, de autores, cómplices o
                                                encubridores se encuentra acreditada con la prueba de cualquier
                                                especie rendida en la audiencia;
 
-
-## 7. La concurrencia de circunstancias modificatorias de responsabi-
-
-                                               lidad inherentes al hecho punible;
-
+los hechos narrados, en calidad ya sea, de autores, cómplices o
+                                               encubridores se encuentra acreditada con la prueba de cualquier
+                                               especie rendida en la audiencia;
 
 ## 8. El aviso acerca de que las circunstancias modificatorias de res-
 
-                                               ponsabilidad penal ajenas al hecho punible, se postergará en su
+**Definición Canónica:** ponsabilidad penal ajenas al hecho punible, se postergará en su
+                                               resolución para el momento de la determinación de la pena en
+                                               la sentencia;
+
+ponsabilidad penal ajenas al hecho punible, se postergará en su
                                                resolución para el momento de la determinación de la pena en
                                                la sentencia;
 
 Curso habilitante Juez(a)                18. Juicio Oral                                                         311
 
-
-## 9. La resolución acerca del alzamiento o continuación de las medi-
-
-                                               das cautelares personales o reales dictadas en contra de él o los
-                                               acusados, dependiendo de la absolución o condena de aquellos;
-
-
-## 10. La citación a la audiencia de lectura del fallo, para una fecha no
-
-                                                posterior al quinto día;
-
-                                            11. La enunciación de que se declara cerrada la audiencia.
-
-
 ## 18.3.6 Congruencia y sentencia (341-
 
-                                            342-344-346-348-349)
+**Definición Canónica:** 342-344-346-348-349)
+                                            El artículo 341 del citado cuerpo legal se refiere a ella. Aquí cabe ha-
+**Concordancias Legales:** artículo 341
+
+342-344-346-348-349)
                                             El artículo 341 del citado cuerpo legal se refiere a ella. Aquí cabe ha-
 
                                             blar derechamente de la congruencia, es decir, el correlato fiel entre
@@ -12213,10 +12567,17 @@ de garantía y de tribunal                       especiales
                                             entre los hechos de su acusación, quienes figuran como acusados y
                                             su fallo.
 
-
 ## 18.3.7 Contenido de la sentencia penal
 
-                                            Antes de hacer un análisis del texto del código es conveniente
+**Definición Canónica:** Antes de hacer un análisis del texto del código es conveniente
+                                            traer a colación en este punto lo que establece el Código de Buenas
+                                            Prácticas en materia de política de género dentro del poder judicial.
+                                            Allí se señala, justamente en la matriz para aplicar los principios de
+                                            igualdad, no discriminación y perspectiva de género en las sentencias,
+                                            lo siguiente: “Lograr la debida prote
+**Concordancias Legales:** artículo 342 del CPP; artículo 297; constitucion
+
+Antes de hacer un análisis del texto del código es conveniente
                                             traer a colación en este punto lo que establece el Código de Buenas
                                             Prácticas en materia de política de género dentro del poder judicial.
                                             Allí se señala, justamente en la matriz para aplicar los principios de
@@ -12306,10 +12667,12 @@ de garantía y de tribunal                       especiales
                                                                              que fundamentaren dichas conclusiones de acuerdo con lo dispuesto
                                                                              en el artículo 297. En esta parte se analiza qué hechos se dieron por
 
-
 ## 103   Cuaderno de buenas prácticas en materia de política de género, del Poder Judicial. Disponible en http://
 
-                                               secretariadegenero.pjud.cl/images/documentos/Eurosocial_PJUD/CBP_CHILE24AGOSTO2018.pdf.
+**Definición Canónica:** secretariadegenero.pjud.cl/images/documentos/Eurosocial_PJUD/CBP_CHILE24AGOSTO2018.pdf.
+**Concordancias Legales:** artículo 341 inciso 2
+
+secretariadegenero.pjud.cl/images/documentos/Eurosocial_PJUD/CBP_CHILE24AGOSTO2018.pdf.
 
 Curso habilitante Juez(a)                18. Juicio Oral                                                         314
 
@@ -12387,7 +12750,14 @@ de garantía y de tribunal                       especiales
 
 ## parte resolutiva del fallo donde condenen y/o absuelvan a cada uno
 
-                                            de los acusados por todos y cada uno de los delitos contemplados
+**Definición Canónica:** de los acusados por todos y cada uno de los delitos contemplados
+                                            en la acusación del fiscal, no olvidando el pronunciamiento sobre
+                                            la responsabilidad civil que le asiste a los condenados y el monto
+                                            y carácter de las indemnizaciones civiles a que hubiere lugar. Aquí
+                                            sólo cabe recordar que el onus probandi se rige por el Código Civil y
+                                            la valoración de la prueba, por las reglas d
+
+de los acusados por todos y cada uno de los delitos contemplados
                                             en la acusación del fiscal, no olvidando el pronunciamiento sobre
                                             la responsabilidad civil que le asiste a los condenados y el monto
                                             y carácter de las indemnizaciones civiles a que hubiere lugar. Aquí
@@ -12403,7 +12773,11 @@ de garantía y de tribunal                       especiales
 
 ## parte resolutiva del fallo, donde la sala por unanimidad, o bien por
 
-                                            mayoría, en la misma forma acordada ya en la deliberación, condenará
+**Definición Canónica:** mayoría, en la misma forma acordada ya en la deliberación, condenará
+                                            o absolverá al acusado de la acusación entablada en su contra por el
+                                            Ministerio Público.
+
+mayoría, en la misma forma acordada ya en la deliberación, condenará
                                             o absolverá al acusado de la acusación entablada en su contra por el
                                             Ministerio Público.
 
@@ -12422,10 +12796,12 @@ de garantía y de tribunal                       especiales
 Curso habilitante Juez(a)                                          19. Audiencias de control de                                         318
 de garantía y de tribunal                                              ejecución de las penas
 
-
 ## 19.1           Juez de garantía y control
 
-                                                                      de ejecución
+**Definición Canónica:** de ejecución
+**Concordancias Legales:** artículo 466 del Código Procesal Penal
+
+de ejecución
 
                                          De acuerdo al artículo       De acuerdo al artículo 466 del Código Procesal Penal, durante la
                                          466 del Código               ejecución de la pena o de la medida de seguridad sólo podrán inter-
@@ -12492,10 +12868,12 @@ de garantía y de tribunal                                               ejecuci
                                                                        pena privativa de libertad, se reafirma la necesidad de contar de una
                                                                        vez en Chile con un juez especializado en ejecución de las penas.
 
-
 ## 19.2         Derechos fundamentales del condenado
 
-                                                                       en la etapa de ejecución
+**Definición Canónica:** en la etapa de ejecución
+**Concordancias Legales:** artículo 5
+
+en la etapa de ejecución
 
                                                                        La condena no priva a los privados de libertad de la plena vigencia de
                                                                        sus derechos fundamentales, salvo en aquello que se ve constreñido
@@ -12518,19 +12896,28 @@ de garantía y de tribunal                                                     e
                                                                              Los límites a los derechos fundamentales y las causas se pueden
                                                                              resumir así105:
 
-
 ## 1. Los privados de libertad se integran en una institución preexis-
 
-
-                                                                                tente y que proyecta sobre ellos su autoridad. Esta circunstancia
+**Definición Canónica:** tente y que proyecta sobre ellos su autoridad. Esta circunstancia
                                                                                 legal da lugar a una condición jurídica diferente de personas
                                                                                 particularmente sujetas a los poderes públicos que no es la que,
                                                                                 con carácter general, existe sobre el común de los ciudadanos.
 
+tente y que proyecta sobre ellos su autoridad. Esta circunstancia
+                                                                                legal da lugar a una condición jurídica diferente de personas
+                                                                                particularmente sujetas a los poderes públicos que no es la que,
+                                                                                con carácter general, existe sobre el común de los ciudadanos.
 
 ## 2. Esta relación especial de sujeción es una fuente de restricción de
 
-                                                                                los derechos fundamentales de las personas que afectan, en primer
+**Definición Canónica:** los derechos fundamentales de las personas que afectan, en primer
+                                                                                lugar, al principio de legalidad, de forma que la reserva de ley de
+                                                                                las restricciones de aquellos derechos en el ámbito penitenciario
+                                                                                se cumple, adecuadamente, cuando se asegura que los privados de
+                                                                                libertad puedan 
+**Concordancias Legales:** artículo 5; artículo 15; artículo 496 del Código Penal; artículo 108; artículos 399; artículos 231; artículos 296; artículo 189 del CPP; artículo 263; artículo 259; artículo 307; artículo 235; artículo 380; artículo 373; artículo 374; artículo 376; artículo 21 de la Constitución Política de la; artículo 190; artículos 141; artículos 129; artículo 342; artículo 259 del Código de Procedimiento Civil; artículo 275; artículo 9; artículo 155 del CPP. Esto para garantizar el éxito de las dil; Ley N° 19.039; Ley N° 20.000; Constitución Política; constitucion; Constitución
+
+los derechos fundamentales de las personas que afectan, en primer
                                                                                 lugar, al principio de legalidad, de forma que la reserva de ley de
                                                                                 las restricciones de aquellos derechos en el ámbito penitenciario
                                                                                 se cumple, adecuadamente, cuando se asegura que los privados de
@@ -13402,7 +13789,15 @@ de garantía y de tribunal                    ejecución de las penas
 
 ## parte, las medidas necesarias para permitir dicho ejercicio. Si esas medidas
 
-                                         no fueren suficientes para evitar que pudiere producirse una afectación
+**Definición Canónica:** no fueren suficientes para evitar que pudiere producirse una afectación
+                                         sustancial de los derechos del imputado, el juez ordenará la suspensión del
+                                         procedimiento y citará a los intervinientes a una audiencia que se celebrará
+                                         con los que asistan. Con el mérito de los antecedentes reunidos y de lo que
+                                         en dicha audiencia se expusiere, resolverá la continuación del procedimien-
+                                         to o decretará el 
+**Concordancias Legales:** artículo 60; artículo 21; artículo 284; artículos 33; artículo 394; artículo 33; artículo 388; artículo 230; artículos 494; artículos 54; artículo 494 bis del Código Penal se cometiere en; artículo 300; artículo 301; artículo 287; artículo 134; artículo 124; artículos 189; artículo 131; artículo 258; artículo 76; artículo 103; artículo 106; artículos 76; artículo 92; artículo 17; artículo 9; artículos 263; artículo 297; artículo 83; artículo 129; artículo 130; artículo 496 del Código Penal. El agente; artículo 255 del Código Penal; artículo 462; artículo 276; artículo 343; artículo 19; artículo 339; artículo 379 inciso 2; artículo 326
+
+no fueren suficientes para evitar que pudiere producirse una afectación
                                          sustancial de los derechos del imputado, el juez ordenará la suspensión del
                                          procedimiento y citará a los intervinientes a una audiencia que se celebrará
                                          con los que asistan. Con el mérito de los antecedentes reunidos y de lo que
@@ -14879,7 +15274,11 @@ de garantía y de tribunal                    ejecución de las penas
 
 ## sumario. Los mismos derechos corresponderán a los herederos del conde-
 
-                                         nado que hubiere fallecido. Además, la sentencia ordenará, según el caso, la
+**Definición Canónica:** nado que hubiere fallecido. Además, la sentencia ordenará, según el caso, la
+                                         libertad del imputado y la cesación de la inhabilitación (Art. 479 CPP).
+**Concordancias Legales:** artículo 238; artículo 237; artículos 141; artículo 147; artículo 54; artículo 19; artículo 182; artículos 167; artículos 361; artículo 375 del Código Penal; artículo 134; artículo 33; artículo 301; artículo 263; artículo 451; artículo 259; artículo 249; artículo 248; artículo 21; artículo 284; artículos 33; artículo 473; artículos 180; artículos 54; artículo 112; artículo 113; artículo 205; artículo 270; artículo 175; artículo 494 del Código Penal; artículo 240 del Código de Procedimiento Civil; artículos 93; artículo 138; artículo 108; artículo 281; artículos 113; artículo 403; artículos 83; artículos 140; artículo 188
+
+nado que hubiere fallecido. Además, la sentencia ordenará, según el caso, la
                                          libertad del imputado y la cesación de la inhabilitación (Art. 479 CPP).
 
                                          Efectos de la suspensión condicional del procedimiento: La suspensión
@@ -16293,7 +16692,10 @@ de garantía y de tribunal                    ejecución de las penas
 
 ## título, el procedimiento por delito de acción privada se regirá por las normas
 
-                                         del título 1° del libro IV, con excepción del artículo 398 (Art. 405 CPP).
+**Definición Canónica:** del título 1° del libro IV, con excepción del artículo 398 (Art. 405 CPP).
+**Concordancias Legales:** artículo 398; artículo 182; artículo 385; artículo 160; artículo 83; artículo 217; artículo 303; artículo 448; artículo 33; artículo 254 del Código de Procedimiento Civil. La demanda civ; artículo 259; artículo 261; artículo 406; artículo 11
+
+del título 1° del libro IV, con excepción del artículo 398 (Art. 405 CPP).
 
                                          Notificación al afectado por la interceptación: La medida de interceptación
                                          será notificada al afectado por la misma con posterioridad a su realización,
@@ -16574,7 +16976,12 @@ de garantía y de tribunal                    ejecución de las penas
 
 ## parte determinará el orden en que rendirá su prueba, correspondiendo recibir
 
-                                         primero la ofrecida para acreditar los hechos y peticiones de la acusación
+**Definición Canónica:** primero la ofrecida para acreditar los hechos y peticiones de la acusación
+                                         y de la demanda civil y luego la prueba ofrecida por el acusado respecto de
+                                         todas las acciones que hubieren sido deducidas en su contra (Art. 328 CPP).
+**Concordancias Legales:** artículo 9; artículos 222; artículos 331; artículos 129; artículo 247; artículo 249; artículo 252; artículo 277; artículos 183
+
+primero la ofrecida para acreditar los hechos y peticiones de la acusación
                                          y de la demanda civil y luego la prueba ofrecida por el acusado respecto de
                                          todas las acciones que hubieren sido deducidas en su contra (Art. 328 CPP).
 
@@ -16786,7 +17193,11 @@ de garantía y de tribunal                    ejecución de las penas
 
 ## 184. Asimismo, se podrá cautelar la demanda civil, solicitando alguna de
 
-                                         las medidas previstas en el artículo 157. La preparación de la demanda civil
+**Definición Canónica:** las medidas previstas en el artículo 157. La preparación de la demanda civil
+                                         interrumpe la prescripción. No obstante, si no se dedujere demanda en la
+**Concordancias Legales:** artículo 157; artículo 374; artículo 103; artículo 106; artículo 258; artículo 76; artículo 241; artículo 237; artículo 302; artículo 189; artículo 6; artículo 60; artículo 391; artículos 331; artículo 222; artículo 191; artículo 191 bis; Constitución; constitucion
+
+las medidas previstas en el artículo 157. La preparación de la demanda civil
                                          interrumpe la prescripción. No obstante, si no se dedujere demanda en la
 
 Curso habilitante Juez(a)                Glosario                                                                    390
@@ -17230,7 +17641,14 @@ de garantía y de tribunal                    ejecución de las penas
 
 ## título 3° del libro II, cuando fuere previsible que la persona de cuya declara-
 
-                                         ción se tratare se encontrase en la imposibilidad de concurrir al juicio oral,
+**Definición Canónica:** ción se tratare se encontrase en la imposibilidad de concurrir al juicio oral,
+                                         por alguna de las razones contempladas en el inciso 2° del artículo 191. Para
+                                         los efectos de lo establecido en los incisos anteriores, el juez de garantía
+                                         citará a una audiencia especial para la recepción de la prueba anticipada
+                                         (Art. 280 CPP).
+**Concordancias Legales:** artículo 191; artículo 173 del Código Orgánico de Tribunales; artículo 114; artículo 212; artículo 393; artículo 248; artículo 371; artículos 373; artículo 406; artículo 155; artículos 141; artículo 351; artículo 74 del Código Penal si; artículo 33; artículo 448; artículos 191; artículo 388; artículo 170; artículo 230; Ley N° 20.000; Constitución
+
+ción se tratare se encontrase en la imposibilidad de concurrir al juicio oral,
                                          por alguna de las razones contempladas en el inciso 2° del artículo 191. Para
                                          los efectos de lo establecido en los incisos anteriores, el juez de garantía
                                          citará a una audiencia especial para la recepción de la prueba anticipada
@@ -17681,7 +18099,15 @@ de garantía y de tribunal                    ejecución de las penas
 
 ## título. Tratándose de las faltas indicadas en los artículos 494, Nº 5, y 496, Nº
 
-                                         11, del Código Penal, sólo podrán efectuar el requerimiento precedente las
+**Definición Canónica:** 11, del Código Penal, sólo podrán efectuar el requerimiento precedente las
+                                         personas a quienes correspondiere la titularidad de la acción conforme a lo
+                                         dispuesto en los artículos 54 y 55. Si la falta contemplada en el artículo 494
+                                         bis del Código Penal se cometiere en un establecimiento de comercio, para
+                                         la determinación del valor de las cosas hurtadas se considerará el precio
+                                         de venta, salvo q
+**Concordancias Legales:** artículos 54; artículo 494 bis del Código Penal se cometiere en un establecimien; artículo 261; artículo 373; artículo 376; artículo 264; artículo 10; artículo 406; artículo 188; artículo 160; artículo 289; artículo 293; artículos 530; artículo 155; Ley N° 20.084
+
+11, del Código Penal, sólo podrán efectuar el requerimiento precedente las
                                          personas a quienes correspondiere la titularidad de la acción conforme a lo
                                          dispuesto en los artículos 54 y 55. Si la falta contemplada en el artículo 494
                                          bis del Código Penal se cometiere en un establecimiento de comercio, para
@@ -18002,7 +18428,14 @@ de garantía y de tribunal                    ejecución de las penas
 
 ## parte, un instrumento público, el tribunal, junto con su devolución, ordenará
 
-                                         que se lo reconstituya, cancele o modifique de acuerdo con la sentencia.
+**Definición Canónica:** que se lo reconstituya, cancele o modifique de acuerdo con la sentencia.
+                                         Cuando se pronunciare la decisión de condena, el tribunal podrá disponer, a
+                                         petición de alguno de los intervinientes, la revisión de las medidas cautela-
+                                         res personales, atendiendo al tiempo transcurrido y a la pena probable (Art.
+                                         348 CPP).
+**Concordancias Legales:** artículo 10 del Código Penal o en virtud de otra disposición; artículo 93 del Código Penal; artículo 171; artículos 100; artículo 229; artículo 132; artículo 58 de la Constitución Política; artículo 442; artículos 361; artículo 247; artículo 252; Constitución Política
+
+que se lo reconstituya, cancele o modifique de acuerdo con la sentencia.
                                          Cuando se pronunciare la decisión de condena, el tribunal podrá disponer, a
                                          petición de alguno de los intervinientes, la revisión de las medidas cautela-
                                          res personales, atendiendo al tiempo transcurrido y a la pena probable (Art.
@@ -18250,8 +18683,10 @@ de garantía y de tribunal                    ejecución de las penas
 
 ## 18.216. Transcurrido el plazo previsto en el inciso anterior sin que el imputado
 
+**Definición Canónica:** Curso habilitante Juez(a)                    Glosario                                                                    413
+**Concordancias Legales:** artículo 165 del Código de Procedimiento Civil. Al; artículo 146; artículo 300; artículo 306; artículo 299; artículo 140; artículo 373; artículo 374; artículo 448; artículo 359
 
-Curso habilitante Juez(a)                    Glosario                                                                    413
+Curso habilitante Juez(a)                    Glosario                                                                    413
 
                                              hubiere sido objeto de nuevo requerimiento o de una formalización de la in-
                                              vestigación, el tribunal dejará sin efecto la sentencia y, en su reemplazo, de-
@@ -18479,60 +18914,44 @@ de garantía y de tribunal                    ejecución de las penas
 
                                                Bibliografía
 
-
-## 1.    AMBOS, Kai y WOISCHNIK, Jan (2000): Las reformas procesales penales en
-
-                                               América Latina. Maier, Julio y otros (coordinadores), Buenos Aires, Ad Hoc.
-
-
 ## 2.    BAYTELMAN, Andrés y DUCE, Mauricio (2004): Litigación penal, juicio oral y
 
-                                               prueba. Santiago, Ediciones Universidad Diego Portales.
+**Definición Canónica:** prueba. Santiago, Ediciones Universidad Diego Portales.
+
+prueba. Santiago, Ediciones Universidad Diego Portales.
 
                                          3.    BINDER, Mario (1999): Introducción al derecho procesal penal. Buenos Aires,
                                                Ad Hoc.
 
-
-## 4.    BLANCO, Rafael, DECAP, Mauricio, MORENO Leonardo y ROJAS Hugo
-
-                                               (2005): Litigación estratégica en el nuevo proceso penal. Editorial Lexis
-                                               Nexis, 1° Edición, Santiago de Chile.
-
-
 ## 5.    BORDALÍ, Andrés (2009): “El derecho fundamental a un tribunal indepen-
 
-                                               diente e imparcial en el ordenamiento jurídico chileno”. Revista de de-
+**Definición Canónica:** diente e imparcial en el ordenamiento jurídico chileno”. Revista de de-
+                                               recho (Valparaíso), número 33, pp. 263-302. Disponible en: https://dx.doi.
+                                               org/10.4067/S0718-68512009000200007.
+
+diente e imparcial en el ordenamiento jurídico chileno”. Revista de de-
                                                recho (Valparaíso), número 33, pp. 263-302. Disponible en: https://dx.doi.
                                                org/10.4067/S0718-68512009000200007.
 
                                          6.    BROWN, p (2002). Límites a la valoración de la prueba en el proceso penal.
                                                Editorial Jurídica Nueva Tesis, Argentina.
 
-
 ## 7.    CAROCCA PÉREZ, Alex (1998): “Una primera aproximación al tema de la
 
-                                               prueba ilícita en Chile”. Ius et Praxis, Vol. 4 n° 2, p. 307. Disponible en: http://
+**Definición Canónica:** prueba ilícita en Chile”. Ius et Praxis, Vol. 4 n° 2, p. 307. Disponible en: http://
+                                               www.redalyc.org/articulo.oa?id=19740213 [visitado el 27.09.2014].
+
+prueba ilícita en Chile”. Ius et Praxis, Vol. 4 n° 2, p. 307. Disponible en: http://
                                                www.redalyc.org/articulo.oa?id=19740213 [visitado el 27.09.2014].
 
                                          8.    CERDA, Rodrigo (2008): Valoración de la prueba. Sana crítica. Santiago,
                                                Editorial Librotecnia, 1° Edición, agosto de 2008.
 
-
-## 9.    CERDA, Rodrigo y FELICES, María (2011): El nuevo proceso penal. Constitu-
-
-                                               cionalización, principios y racionalidad probatoria. Arequipa, Editorial Grijley,
-                                               1° Edición.
-
-
-## 10. COLOMA, Rodrigo: “Panorama general de la prueba en el juicio oral chile-
-
-                                             no”. La prueba en el nuevo proceso penal oral. Editorial Legal Publishing, 3ª
-                                             Edición, Santiago, Chile.
-
-
 ## 11.   CORONADO, Fernando (1996): “Acerca de derecho y razón de Luigi Ferrajo-
 
-                                               li”. Isonomía: Revista de Teoría y Filosofía del Derecho, N° 4, abril 1996.
+**Definición Canónica:** li”. Isonomía: Revista de Teoría y Filosofía del Derecho, N° 4, abril 1996.
+
+li”. Isonomía: Revista de Teoría y Filosofía del Derecho, N° 4, abril 1996.
 
                                          12. DAMASKA, Mirjan (2004): Las caras de la justicia y el poder del Estado.
                                              Santiago, Editorial jurídica de Chile.
@@ -18541,10 +18960,12 @@ de garantía y de tribunal                    ejecución de las penas
                                              un debate desenfocado”. Revista Electrónica de Ciencia Penal y Criminolo-
                                              gía 07-01.
 
-
 ## 14. DUCE, Mauricio (2014): “Derecho a confrontación y uso de declaraciones
 
-                                             emitidas en un juicio previo anulado”. Política criminal, 9(17), pp. 118-146.
+**Definición Canónica:** emitidas en un juicio previo anulado”. Política criminal, 9(17), pp. 118-146.
+                                             Disponible en: https://dx.doi.org/10.4067/S0718-33992014000100004.
+
+emitidas en un juicio previo anulado”. Política criminal, 9(17), pp. 118-146.
                                              Disponible en: https://dx.doi.org/10.4067/S0718-33992014000100004.
 
                                          15. DUCE, Mauricio y RIEGO, Cristián (2011): La prisión preventiva en Chile:
@@ -18553,16 +18974,13 @@ de garantía y de tribunal                    ejecución de las penas
 
 Curso habilitante Juez(a)                      Bibliografía                                                                 418
 
-
-## 16. DUCE, Mauricio y RIEGO, Cristián (2007): Introducción al nuevo sistema
-
-                                             proceso penal. Editorial Jurídica de Chile, Santiago de Chile, 1° Edición,
-                                             mayo de 2007.
-
-
 ## 17.   Duce, Mauricio (2019): “Los procedimientos abreviados y simplificados y el
 
-                                               riesgo de condenas erróneas en Chile: resultados de una investigación em-
+**Definición Canónica:** riesgo de condenas erróneas en Chile: resultados de una investigación em-
+                                               pírica”. Revista de derecho (Coquimbo), 26, 12. Disponible en: https://dx.doi.
+                                               org/10.22199/issn.0718-9753-2019-0012.
+
+riesgo de condenas erróneas en Chile: resultados de una investigación em-
                                                pírica”. Revista de derecho (Coquimbo), 26, 12. Disponible en: https://dx.doi.
                                                org/10.22199/issn.0718-9753-2019-0012.
 
@@ -18570,45 +18988,32 @@ de garantía y de tribunal                    ejecución de las penas
                                              tras la conquista de la garantía”. Revista de Derecho, Vol. XXIII N°1-Julio.
                                              Disponible en: http://www.scielo.cl/pdf/revider/v23n1/art12.pdf.
 
-
-## 19.   ETO, Gerardo (2011): El desarrollo del derecho procesal constitucional a
-
-                                               partir de la jurisprudencia del Tribunal Constitucional peruano. Lima, Edito-
-                                               rial Andrus, Injeduc, 4° Edición.
-
-
-## 20. EUROSICIAL: “Ejecución de la pena privativa de libertad: una mirada com-
-
-
-                                             parada”.
-
-                                         21. FERRAJOLI, Luigi (2011): Derecho y razón. Trotta, España.
-
-
 ## 22. GARCÍA, Gonzalo y CONTRERAS Pablo (2013): “El derecho a la tutela ju-
 
-                                             dicial y al debido proceso en la jurisprudencia del tribunal constitucional
+**Definición Canónica:** dicial y al debido proceso en la jurisprudencia del tribunal constitucional
+                                             chileno”. Estudios constitucionales, 11(2), pp. 229-282. Disponible en: https://
+                                             dx.doi.org/10.4067/S0718-52002013000200007.
+**Concordancias Legales:** constitucion
+
+dicial y al debido proceso en la jurisprudencia del tribunal constitucional
                                              chileno”. Estudios constitucionales, 11(2), pp. 229-282. Disponible en: https://
                                              dx.doi.org/10.4067/S0718-52002013000200007.
 
-
 ## 23. HERMOSILLA, Francisco (2006): Apuntes sobre la prueba en el Código Pro-
 
-                                             cesal Penal. Santiago, Editorial Librotecnia, 1° Edición.
+**Definición Canónica:** cesal Penal. Santiago, Editorial Librotecnia, 1° Edición.
+
+cesal Penal. Santiago, Editorial Librotecnia, 1° Edición.
 
                                          24. HORVITZ María Inés y LÓPEZ Julián (2002): Derecho procesal penal chileno.
                                              Santiago, Editorial Jurídica de Chile, Tomo I.
 
-
-## 25. IIN OEA: “Los sistemas de responsabilidad penal adolescente en las Améri-
-
-                                             cas”. Disponible en: http://www.iin.oea.org/pdfiin/Sistemas_de_Responsabi-
-                                             lidad_Penal_Adolescente.pdf
-
-
 ## 26. IRARRÁZABAL, Paz (2015): “Igualdad en las calles en Chile: el caso del con-
 
-                                             trol de identidad”. Política criminal, 10(19), 234-265. Disponible en: https://
+**Definición Canónica:** trol de identidad”. Política criminal, 10(19), 234-265. Disponible en: https://
+                                             dx.doi.org/10.4067/S0718-33992015000100008.
+
+trol de identidad”. Política criminal, 10(19), 234-265. Disponible en: https://
                                              dx.doi.org/10.4067/S0718-33992015000100008.
 
                                          27.   KUNSMULLER, Carlos (2005): “La judicialización de la ejecución penal”.
@@ -18616,151 +19021,98 @@ de garantía y de tribunal                    ejecución de las penas
 
                                          28. MAIER, Julio (1989): Derecho procesal penal argentino.
 
-
-## 29. MATURANA, Cristián (2003): Reforma Procesal Penal - Génesis, historia
-
-                                             sistematizada y concordancias, Tomo II, Código Procesal Penal, Libro II. Edi-
-                                             torial Jurídica de Chile, Santiago de Chile, 1° Edición.
-
-
-## 30. MANZANERO, Antonio y MUÑOZ, José Miguel (2011): “La prueba pericial
-
-                                             psicológica sobre credibilidad del testimonio: reflexiones psico-legales”.
-                                             Madrid, Editorial SEPIN.
-
-
 ## 31. MERA, Jorge (2002): “Discrecionalidad del Ministerio Público, calificación
 
-                                             jurídica y control judicial”. Informe de Investigación N°12 - Año 4, Centro de
+**Definición Canónica:** jurídica y control judicial”. Informe de Investigación N°12 - Año 4, Centro de
+                                             Investigaciones Jurídicas, Universidad Diego Portales.
+**Concordancias Legales:** Ley Nº 18.216
+
+jurídica y control judicial”. Informe de Investigación N°12 - Año 4, Centro de
                                              Investigaciones Jurídicas, Universidad Diego Portales.
 
                                          32. MINISTERIO DE JUSTICIA: “Material para capacitación nueva Ley Nº 18.216”.
 
 Curso habilitante Juez(a)                      Bibliografía                                                                  419
 
-
 ## 33. MIRANDA Manuel, CERDA Rodrigo y HERMOSILLA Francisco (2012): La
 
-                                             práctica de las pruebas en el juicio oral, su valoración y el estándar del más
+**Definición Canónica:** práctica de las pruebas en el juicio oral, su valoración y el estándar del más
                                              allá de toda duda razonable. Editorial Librotecnia, Santiago de Chile, 2°
                                              Edición.
 
+práctica de las pruebas en el juicio oral, su valoración y el estándar del más
+                                             allá de toda duda razonable. Editorial Librotecnia, Santiago de Chile, 2°
+                                             Edición.
 
 ## 34. MORENO, Rodolfo (2007): “El modelo garantista de Luigi Ferrajoli: Linea-
 
-                                             mientos generales”. Boletín mexicano de derecho comparado, 40(120),
+**Definición Canónica:** mientos generales”. Boletín mexicano de derecho comparado, 40(120),
                                              825-852. Disponible en: http://www.scielo.org.mx/scielo.php?script=sci_art-
                                              text&pid=S0041-86332007000300006&lng=es&tlng=es.
 
-
-## 35. NOGUEIRA, Humberto (2005): “Consideraciones sobre el derecho funda-
-
-                                             mental a la presunción de inocencia”. Ius et Praxis, 11(1), pp. 221-241. Dispo-
-                                             nible en: https://dx.doi.org/10.4067/S0718-00122005000100008.
-
+mientos generales”. Boletín mexicano de derecho comparado, 40(120),
+                                             825-852. Disponible en: http://www.scielo.org.mx/scielo.php?script=sci_art-
+                                             text&pid=S0041-86332007000300006&lng=es&tlng=es.
 
 ## 36. NÚÑEZ OJEDA, Raúl y CORREA ZACARÍAS, Claudio (2017): “La prueba ilí-
 
-                                             cita en las diligencias limitativas de derechos fundamentales en el proceso
+**Definición Canónica:** cita en las diligencias limitativas de derechos fundamentales en el proceso
                                              penal chileno: Algunos problemas”. Ius et Praxis, 23(1), 195-246. Disponible
                                              en: https://dx.doi.org/10.4067/S0718-00122017000100007.
 
-
-## 37.   PASTOR, Domingo (2004): “Acerca del derecho fundamental al plazo ra-
-
-                                               zonable de duración del proceso penal”. REJ – Revista de Estudios de la
-                                               Justicia, Nº 4.
-
-
-## 38. PEGORARO, J: “La relación del orden social y la criminalización de los po-
-
-                                             bres”. Disponible en: http://www.corteidh.or.cr/tablas/r29461.pdf
-
+cita en las diligencias limitativas de derechos fundamentales en el proceso
+                                             penal chileno: Algunos problemas”. Ius et Praxis, 23(1), 195-246. Disponible
+                                             en: https://dx.doi.org/10.4067/S0718-00122017000100007.
 
 ## 39. RODRÍGUEZ, Manuel (2013): “Sistema acusatorio de justicia penal y prin-
 
-                                             cipio de obligatoriedad de la acción penal”. Revista de derecho (Valpa-
+**Definición Canónica:** cipio de obligatoriedad de la acción penal”. Revista de derecho (Valpa-
                                              raíso), (40), 643-686. Disponible en: https://dx.doi.org/10.4067/S0718-
                                              68512013000100020.
 
+cipio de obligatoriedad de la acción penal”. Revista de derecho (Valpa-
+                                             raíso), (40), 643-686. Disponible en: https://dx.doi.org/10.4067/S0718-
+                                             68512013000100020.
 
 ## 40. ROMERO, Alejandro (2017): “Comentario sobre el derecho al juez natural en
 
-                                             el proceso penal acusatorio y el principio forum delicti commissi (sentencia
+**Definición Canónica:** el proceso penal acusatorio y el principio forum delicti commissi (sentencia
+                                             Corte de Apelaciones de Santiago, 8 de septiembre de 2017)”. Revista Jurí-
+                                             dica Digital UANDES, 109-116.
+
+el proceso penal acusatorio y el principio forum delicti commissi (sentencia
                                              Corte de Apelaciones de Santiago, 8 de septiembre de 2017)”. Revista Jurí-
                                              dica Digital UANDES, 109-116.
 
                                          41. ROXIN, Claus (1993): Posición jurídica y tareas futuras del Ministerio Público.
                                              El Ministerio Público en el proceso penal. Editorial Ad Hoc, Buenos Aires.
 
-
-## 42. RUIZ, Guillermo (2009): “La acción civil en el nuevo proceso penal”. Dispo-
-
-                                             nible en: http://www.cde.cl/estudiosybiblioteca/wp-content/uploads/si-
-                                             tes/15/2016/05/REVISTA-DE-DERECHO-2.pdf.
-
-
-## 43. SALINERO, Sebastián (2011): “La expulsión de extranjeros en el derecho
-
-                                             penal. Una realidad en España, una posibilidad en Chile”. Política Criminal 6,
-                                             pp. 106-141.
-
-
 ## 44. SALINERO, Sebastián y MORALES Ana María (2019): “Las penas alterna-
 
-                                             tivas a la cárcel en Chile. Un análisis desde su evolución histórica”. Revis-
+**Definición Canónica:** tivas a la cárcel en Chile. Un análisis desde su evolución histórica”. Revis-
                                              ta de derecho (Valparaíso), (52), pp. 255-292. Disponible en: https://dx.doi.
                                              org/10.4067/S0718-68512019005000304.
 
-
-## 45. SOLARI, Tito (1999): “Presupuestos teóricos del Ministerio Público”. Revista
-
-                                             de Derecho de la Universidad Católica de Valparaíso.
-
+tivas a la cárcel en Chile. Un análisis desde su evolución histórica”. Revis-
+                                             ta de derecho (Valparaíso), (52), pp. 255-292. Disponible en: https://dx.doi.
+                                             org/10.4067/S0718-68512019005000304.
 
 ## 46. SCHÜNEMANN Bernard: “¿Crisis del procedimiento penal? (¿Marcha
 
-                                             triunfal del procedimiento penal americano en el mundo?)”. Cuadernos del
+**Definición Canónica:** triunfal del procedimiento penal americano en el mundo?)”. Cuadernos del
+                                             Consejo General del Poder Judicial, Madrid, España.
+
+triunfal del procedimiento penal americano en el mundo?)”. Cuadernos del
                                              Consejo General del Poder Judicial, Madrid, España.
 
 Curso habilitante Juez(a)                    Bibliografía                                                              420
 
-
-## 47. TARUFFO, Michele (2009): “Algunas consideraciones sobre la relación entre
-
-                                             prueba y verdad”. La prueba. Artículos y conferencias, Editorial Metropolita-
-                                             na, Santiago de Chile.
-
-
 ## 48. UNIVERSIDAD DIEGO PORTALES (2007): “La responsabilidad juvenil y los
 
-                                             derechos humanos”. Disponible en: http://www.derechoshumanos.udp.cl/
+**Definición Canónica:** derechos humanos”. Disponible en: http://www.derechoshumanos.udp.cl/
                                              derechoshumanos/images/InformeAnual/2007/Cap%2006%20Responsa-
                                              bilidad%20penal%20juvenil%20y%20DDHH.pdf.
 
-
-## 49. VERA, Juan (2017): “Sobre la relación del derecho penal con el derecho pro-
-
-                                             cesal penal”. Revista chilena de derecho, 44(3), pp. 831-855. Disponible en:
-                                             https://dx.doi.org/10.4067/S0718-34372017000300831.
-
-
-## 50. VIAL, Pelayo (2007): Técnicas y fundamentos del contraexamen en el proce-
-
-                                             so penal chileno. Editorial Librotecnia, Santiago de Chile, reimpresión de la
-                                             1° Edición, octubre de 2007.
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl
+derechos humanos”. Disponible en: http://www.derechoshumanos.udp.cl/
+                                             derechoshumanos/images/InformeAnual/2007/Cap%2006%20Responsa-
+                                             bilidad%20penal%20juvenil%20y%20DDHH.pdf.

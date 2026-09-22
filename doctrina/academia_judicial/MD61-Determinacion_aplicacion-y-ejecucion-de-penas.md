@@ -13,19 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Penal | **Materia:** Penal
 
-61           Determinación,
-             aplicación
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             y ejecución
+                  electrónica
+             de penas
+                  de causas
+             Tania Gajardo Orellana
+             Francisco Hermosilla Iriarte
+**Concordancias Legales:** Ley 18.216
 
-                  Tramitación
+Tramitación
              y ejecución
                   electrónica
              de penas
@@ -93,413 +92,10 @@ Materiales Docentes                                                             
 
 Contenido
 
-
-## 11      Introducción
-
-
-## 11      Capítulo 1
-
-        Teorías tradicionales de la pena y visiones críticas:
-        Concepto de pena y sus distintas clasificaciones
-        y categorías
-
-## 11      Derecho penal y castigo, ¿relación indisoluble?
-
-
-## 14      Justificación de la pena: Teorías tradicionales
-
-
-## 20      Teorías mixtas y cuestionamientos actuales
-
-        		      al castigo penal
-
-## 25      Concepto, características y clasificaciones
-
-        		      de las penas
-
-
-## 34      Capítulo 2
-
-        Factores generales y particulares que inciden
-        en la aplicación judicial de la pena
-
-## 34      Edad del infractor
-
-
-## 35      Autoría y participación
-
-
-## 37      El iter criminis
-
-
-## 40      La concurrencia de circunstancias modificatorias
-
-        		      de responsabilidad y la prescripción de algunas de ellas
-
-## 46      Análisis de parentesco o relación entre el hechor
-
-        		      y la víctima
-
-
-## 48      Capítulo 3
-
-        Concurso de delitos
-
-## 49      Concurso aparente de leyes penales
-
-
-## 51      Concurso real o material de delitos
-
-
-## 53      Concurso ideal o formal de delitos
-
-
-## 54      Casos especiales de unidad jurídica de acción
-
-
-## 55      Casos hipotéticos de aplicación de reglas concursales
-
-
-## 60      La perspectiva de género en casos prácticos
-
-
-
-## 63    Incidencia de la perspectiva de género
-
-     		    en la determinación de las penas en el derecho
-     		    penal chileno
-
-
-## 69   Capítulo 4
-
-     Sistema de penas de la responsabilidad penal
-     de las personas jurídicas
-     69    ¿Por qué responsabilidad y no imputación?
-     73    ¿Cuál es la relevancia del sistema?
-
-## 77    Modelo de atribución de responsabilidad penal consagrado
-
-     		    en la Ley 20.393
-
-## 81    Determinación de las penas para las personas jurídicas
-
-
-## 88    Cómo se determina la pena dependiendo de el
-
-     		    o los delitos por los que se condene a una persona jurídica
-     		    y qué reglas influyen en la determinación
-
-## 91    Las penas en particular de las personas jurídicas
-
-
-## 92    Casos destacados
-
-
-
-## 97   Capítulo 5
-
-     Reglas de determinación legal y judicial de la pena en adultos
-
-## 100   La determinación del castigo en adultos
-
-
-## 102   Conceptos básicos para la determinación
-
-     		    de la pena de adultos
-
-## 104   Las penas del Código Penal se clasifican
-
-     		    en tres escalas
-
-## 106   Duración de las distintas penas según el Código Penal
-
-
-## 107   Penas principales y penas accesorias
-
-
-## 107   Definición, naturaleza y efectos de algunas penas
-
-
-## 109   Las penas se dividen en grados
-
-
-## 110   Las penas divisibles y los grados de las penas
-
-
-## 110   Duración en días de las penas privativas de libertad
-
-
-## 111   Las escalas graduales de penas
-
-     112   ¿Cómo se aplican las penas?
-
-## 121   Cuatro fórmulas para calcular el mínimum
-
-     		    y el máximum
-
-## 126   Problema de grados y penas divisibles e indivisibles: Aplicación del
-
-     		    artículo 68 del Código Penal
-
-## 127   Atenuante muy calificada del artículo 68 bis del Código Penal
-
-
-## 128   Fijación judicial de la sanción: El quantum
-
-
-## 129   El actual artículo 69 del Código Penal
-
-
-## 130   Variables para tener en cuenta al calcular una pena
-
-
-## 167   Problemas más relevantes en la aplicación de penas
-
-
-## 178   Otras normas del Código Penal que alteran el cálculo de penas
-
-
-## 178   El procedimiento abreviado del Código Procesal Penal
-
-      		    como un caso de alteración de las normas generales
-      		    de aplicación de penas
-
-## 182   Rol judicial en la aplicación y comunicación de la pena
-
-
-
-## 187   Capítulo 6
-
-      Notas diferenciales de la determinación de la pena en la
-      responsabilidad penal adolescente
-
-## 190   Marco de aplicación de la Ley de Responsabilidad Penal
-
-      		    de los Adolescentes
-
-## 191   Normas diferenciales de la pena de los adultos
-
-
-## 196   Análisis de la pena y sanción probable para cada autor
-
-
-## 199   Las distintas sanciones en la Ley de Responsabilidad Penal
-
-      		    de los Adolescentes
-
-## 203   Las sanciones mixtas
-
-
-## 204   Límites de las distintas sanciones
-
-
-## 205   Derechos de los adolescentes en la ejecución
-
-      		    de las sanciones
-
-## 206   Los factores que se deben tomar en cuenta
-
-      		    para calcular la sanción de un adolescente
-
-## 206   Catálogo de sanciones del artículo 23 de la LRPA
-
-
-## 208   Criterios de determinación de la pena
-
-
-## 211   Ley de violencia en los estadios y los menores adolescentes
-
-
-## 212   Casos de aplicación práctica en la determinación judicial
-
-      		    de la sanción de adolescentes
-
-## 224   Servicio de reinserción social juvenil (Ley 21.527)
-
-
-
-## 228   Capítulo 7
-
-      Régimen de sustitución de penas de la Ley 18.216
-
-## 228   Planteamiento
-
-      229   ¿Cuáles son las penas sustitutivas?
-
-## 230   Excepciones al otorgamiento de penas sustitutivas contempladas
-
-      		    en la Ley 18.216
-
-## 232   Locución «condenas cumplidas»: Comentario
-
-      		    de sentencia
-
-## 236   Caso de exclusión de la pena sustitutiva de remisión condicional
-
-
-## 239   Suspensión de pena sustitutiva por un año contemplada
-
-      		    en la Ley 18.290
-
-## 239   Cuadros de las penas sustitutivas de la Ley 18.216
-
-      		    y la mixta
-
-## 244   Análisis crítico del régimen sustitutivo de la remisión condicional
-
-      		    de la pena y su interacción con la salida alternativa de la
-      		    suspensión condicional del procedimiento
-
-## 249   Incumplimiento y revocación de penas sustitutivas
-
-
-## 250   Quebrantamiento de la pena sustitutiva
-
-
-## 251   Casos de aplicación de la Ley 18.216 y régimen recursivo
-
-      		    a su respecto
-
-## 253   Jurisprudencia sobre penas sustitutivas
-
-
-
-## 261   Capítulo 8
-
-      Derecho penitenciario: El gran ausente
-
-## 261   Concepto de derecho penitenciario
-
-
-## 262   Los tratados internacionales ratificados por Chile
-
-      		    en el contexto penitenciario
-
-## 284   Principal normativa nacional penitenciaria
-
-
-## 284   Organización de los establecimientos penitenciarios
-
-      		    (Decreto Supremo 518)
-
-## 290   Sistema de reinserción social de los condenados
-
-
-## 293   El rol de los Juzgados de Garantía en el derecho penitenciario
-
-
-## 296   Gendarmería de Chile
-
-
-## 298   Hacia una justicia penitenciaria
-
-
-## 302   Tutela judicial de los derechos de los condenados
-
-      		    y recursos existentes
-
-## 305   Alguna jurisprudencia en fase de cumplimiento
-
-      		    de sanciones para condenados
-
-
-## 320   Anexo 1
-
-      Guía de ejercicios de determinación de las penas
-
-## 320   Ejercicio modelo general
-
-
-## 323   Ejercicio 1
-
-
-## 325   Ejercicio 2
-
-
-## 326   Ejercicio 3
-
-
-## 328   Ejercicio 4
-
-
-## 329   Ejercicio 5
-
-
-## 331   Ejercicio 6
-
-
-## 332   Ejercicio 7
-
-
-## 333   Ejercicio 8
-
-
-## 334   Ejercicio 9
-
-
-## 335   Ejercicio 10
-
-
-## 336   Ejercicio 11
-
-
-## 337   Ejercicio 12
-
-
-## 338   Ejercicio 13
-
-
-## 339   Ejercicio 14
-
-
-## 341   Ejercicio 15
-
-
-## 342   Ejercicio 16
-
-
-## 343   Ejercicio 17
-
-
-## 344   Ejercicio 18
-
-
-## 345   Ejercicio 19
-
-
-## 346   Ejercicio 20
-
-
-
-## 348   Anexo 2
-
-      Nueva Ley 20.084, que establece un sistema de responsabilidad
-      de los adolescentes por infracciones a la ley penal con las
-      modificaciones de la Ley 21.527
-
-## 348   Ley 21.527 que modifica la Ley 20.084
-
-
-## 348   Ley 20.084 con las modificaciones de la Ley 21.527
-
-
-## 350   Título I
-
-
-## 357   Tabla Demostrativa
-
-
-## 362   Título II
-
-
-## 376   Título III
-
-
-## 384   Título final
-
-
-
 ## 387   Referencias
+
+**Definición Canónica:** Materiales Docentes                                                               ﻿
+**Concordancias Legales:** artículo 72 del Código Penal de abril 2022. El material ta; Ley 18.216
 
 Materiales Docentes                                                               ﻿
 
@@ -564,8 +160,12 @@ de Tribunales y el Código Procesal Penal.
 
 Materiales Docentes                                                     Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Teorías tradicionales de la pena y visiones críticas:
+Concepto de pena y sus distintas clasificaciones
+y categorías
+**Concordancias Legales:** artículos 18; artículo 18; artículo 19; artículo 20; artículo 3 del Código Penal que clasifica los delitos según; artículo 21; Ley 18.216; Constitución
 
 Teorías tradicionales de la pena y visiones críticas:
 Concepto de pena y sus distintas clasificaciones
@@ -1098,8 +698,10 @@ Según su importancia o rango interno
 Se clasifican en penas principales, sustitutivas y accesorias. Las primeras, como su nombre lo indica, se imponen de forma independiente y
 autónoma, sin sujeción a ninguna otra. Es el caso de la prisión o la mul-
 
-
 ## 1 Más información sobre los tribunales de tratamiento de drogas disponible en
+
+**Definición Canónica:** https://bit.ly/3BPt1qu.
+**Concordancias Legales:** artículos 27; artículo 390 bis del Código Penal; artículo 28; artículo 27; artículo 372 del Código Penal; artículo 496; artículos 361; artículos 142; artículo 202 del Código Penal que señala; artículo 193; artículo 399; artículo 403 bis; artículo 403; artículo 37 del Código Penal señala que; artículo 167; artículo 31 del Código Penal. Esta pena consiste en la pérdid; Ley 18.216; Ley 20.422
 
 https://bit.ly/3BPt1qu.
 
@@ -1322,8 +924,11 @@ Hay una pena común a todo crimen o simple delito y es la pena de comiso, contem
 en la pérdida de los efectos que provengan del delito y de los instrumentos con que aquél se ejecutó, a menos que pertenezcan a un tercero no
 responsable del crimen o simple delito.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Factores generales y particulares que inciden
+en la aplicación judicial de la pena
+**Concordancias Legales:** artículo 10; artículo 12; artículo 17 del Código Penal; Ley 20.422
 
 Factores generales y particulares que inciden
 en la aplicación judicial de la pena
@@ -1380,20 +985,15 @@ ejecución del mismo o de los actos ejecutados para llevarlo a cabo, cuya
 intervención se realiza de alguna de las siguientes formas (artículo 17 del
 Código Penal):
 
-
-## 1. Aprovechándose por sí mismos o facilitando a los delincuentes me-
-
-      dios para que se aprovechen de los efectos del crimen o simple delito.
-
-## 2. Ocultando o inutilizando el cuerpo, los efectos o instrumentos del
-
-      crimen o simple delito para impedir su descubrimiento.
-
-       3. Albergando, ocultando o proporcionando la fuga del culpable.
-
 ## 4. Acogiendo, receptando o protegiendo habitualmente a los malhe-
 
-      chores, sabiendo que lo son, aun sin conocimiento de los crímenes o
+**Definición Canónica:** chores, sabiendo que lo son, aun sin conocimiento de los crímenes o
+      simples delitos determinados que hayan cometido, o facilitándoles los
+      medios de reunirse u ocultar sus armas o efectos, o suministrándoles
+      auxilios o noticias para que se guarden, precavan o salven..
+**Concordancias Legales:** artículo 17; artículo 12; artículo 17 del Código Penal. Con esto se agrava la pena del; artículo 449 bis del Código Penal dispone; artículo 19 de la Ley 20.000 señala; artículo 16; artículo 449 bis del Código Penal. En el caso de los delitos de; artículo 260 ter; artículo 7 del Código Penal señala que son punibles el crime; artículos 50; artículo 3 de la Ley 20.000; artículo 351 del Código Procesal Penal; artículo 8 del Código Penal indica que la conspiración y pro; Ley 20.000
+
+chores, sabiendo que lo son, aun sin conocimiento de los crímenes o
       simples delitos determinados que hayan cometido, o facilitándoles los
       medios de reunirse u ocultar sus armas o efectos, o suministrándoles
       auxilios o noticias para que se guarden, precavan o salven..
@@ -1512,8 +1112,11 @@ otras personas.
    Ambas situaciones son, por regla general, impunes, tan solo se castigan y son susceptibles de pena si la ley expresamente así lo señala, como
 en la Ley de Seguridad del Estado.1
 
-
 ## 1 Otros ejemplos se encuentran en los delitos de los artículos 106, 107, 108, 109 y
+
+**Definición Canónica:** 110 en relación con el artículo 111 del Código Penal y en los artículos 121, 122 y 124 en
+relación con el artículo 125 del Código Penal.
+**Concordancias Legales:** artículo 111 del Código Penal y en los artículos 121; artículo 125 del Código Penal. Ahora bien; artículo 295 del Código Penal respecto de quienes; artículo 55 del Código Penal las disposiciones generales cont; artículos 11; artículo 11; artículo 10 del Código Penal; artículo 10; artículo 11 del Código Penal. El fundamento de esta atenuante; artículo 22 de la Ley 20.000.2 2 Artículo 22; artículo 12 del Código Penal; artículo 12; artículo 16; artículo 104 del Código Penal releva la importancia del paso d; artículo 132 del Código Penal. Por su parte; artículo 13 del Código Penal contempla; artículo 400 del Código Penal en el que se agravan las penas d; artículo 391; artículo 489 del Código Penal; Ley 20.000.2; Ley 20.422; Ley 20.609; constitucion
 
 110 en relación con el artículo 111 del Código Penal y en los artículos 121, 122 y 124 en
 relación con el artículo 125 del Código Penal.
@@ -1743,13 +1346,9 @@ señala:
       por los hurtos, defraudaciones o daños que recíprocamente se causaren:
         1. Los parientes consanguíneos en toda la línea recta.
 
-## 2. Los parientes consanguíneos hasta el segundo grado inclusive de la
-
-      línea colateral.
-        3. Los parientes afines en toda la línea recta.
-
 ## 4. Derogado
 
+**Definición Canónica:** Materiales Docentes                                                      Capítulo 2
 
 Materiales Docentes                                                      Capítulo 2
 
@@ -1763,8 +1362,10 @@ Materiales Docentes                                                      Capítu
 
 Materiales Docentes                                                     Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Concurso de delitos
+**Concordancias Legales:** artículos 74; artículo 351 del Código Procesal Penal; artículo 74 del Código Penal señala; artículo 509; artículo 74 del Código Penal si; artículo 397 del Código Procesal Penal que redirige al 351; artículo 351; artículo 75 del Código Penal que señala; artículo 74 del Concurso ideal o formal de delitos El concurs; artículo 75 del Código Penal antes visto. El concurso idea; artículo 75; artículo 451 del Código Penal regula la solución a los casos d; artículo 447; artículo 433; artículo 436; artículo 7 de la Convención de Belém do Pará que; artículo 1 de la Ley 18.216; artículo 140 del Código Procesal Penal; artículos 1; artículo 155 del Código Procesal Penal; Ley 18.216; Constitución Política; Constitucion
 
 Concurso de delitos
 
@@ -2504,8 +2105,10 @@ reproche penal que merece su autor» (Krause, 2022: 41).
 
 Materiales Docentes                                                          Capítulo 4
 
-
 ## Capítulo 4
+
+**Definición Canónica:** Sistema de penas de la responsabilidad penal
+de las personas jurídicas
 
 Sistema de penas de la responsabilidad penal
 de las personas jurídicas
@@ -2594,8 +2197,13 @@ por aquello que, perteneciendo propiamente a la persona, es racionalmente referi
 principios óntico-axiológicos que pertenecen a la raíz de la imputación
 según el principio del carácter personal del derecho penal.
 
-
 ## 2 El término responsabilidad tiene su origen en la palabra responsable que, a su
+
+**Definición Canónica:** vez, procede del latín respōnsum, supino de responderē que significa responder en el
+sentido de obligarse, de comprometerse a algo. El término se ha sufijado con dad», que
+confiere significado de cualidad de, es decir, cualidad de responsable.
+Materiales Docentes                                                     Capítulo 4
+**Concordancias Legales:** Artículo 3; artículo 1; artículo 4 de la Ley 20.393; Artículo 4; artículo 260 del Código Penal. En definitiva; artículo 5 de la Ley 20.393 señala que; Artículo 5; artículo 93 del Código Penal. 2; artículo 252 del Código Procesal Penal. También podrá; artículo 8; artículo 13; artículos 9; Artículo 9; artículo 133 bis de la Ley 18.046. Sin embargo; artículo 7; artículo 351 del Código Procesal Penal. Artículo 10. Pr; Artículo 11; Artículo 12; artículo 14; artículo 15; artículos 240; artículo 8 de la Ley 18.314; artículos 136; artículo 27 de la Ley 19.913 y en los artículos 250 incis; artículo 16; artículo 17; artículo 18; artículo 559 del Código Civil. El título II; Artículo 19; artículo 93 del Código Penal; artículo 80 de la Ley 18.314. Las mismas penas del artículo; artículo 27 de la Ley 19.913; artículos 250; artículo 240 del Código Penal; artículo 250 del Código Penal; artículos 287 bis; artículo 318 ter del Código Penal; artículo 456 bis; artículo 470; artículo 411
 
 vez, procede del latín respōnsum, supino de responderē que significa responder en el
 sentido de obligarse, de comprometerse a algo. El término se ha sufijado con dad», que
@@ -3295,6 +2903,16 @@ productos derivados de ellos, sin acreditar su origen legal.
 
 ## título, de recursos hidrobiológicos o productos derivados de ellos de
 
+**Definición Canónica:** aquellos que trata el artículo 139 ter de la LGPA, conociendo o no pudiendo menos que conocer el origen ilegal de unos u otros se sanciona
+con pena de crimen.
+   El delito de lavado de activos descrito en el artículo 27 de la Ley 19.913
+tanto en las letras a y b como en sus hipótesis dolosa e imprudente tienen pena de crimen.
+   El financiamiento del terrorismo del artículo 8 de la Ley 18.314, el
+soborno para omitir o por haber omitido un acto debido propio de su
+cargo, o para ejecutar o por haber ejecutado un acto con infracción a los
+deberes de su cargo, de los incisos cuarto y quinto del ar
+**Concordancias Legales:** artículo 139 ter de la LGPA; artículo 27 de la Ley 19.913 tanto en las letras a y b como en; artículo 8 de la Ley 18.314; artículo 250 del Código Penal; artículo 251 bis del Código Penal sobre el cohecho de funcionario; artículo 470 del Código Penal y la administración desleal en c; artículo 14 de la Ley 20.393; artículo 13; artículo 16; artículo 6; artículo 11 del La colaboración sustancial en el esclarecimie; artículo 7; artículo 17; Ley 19.913; Ley 18.314; Ley 20.393
+
 aquellos que trata el artículo 139 ter de la LGPA, conociendo o no pudiendo menos que conocer el origen ilegal de unos u otros se sanciona
 con pena de crimen.
    El delito de lavado de activos descrito en el artículo 27 de la Ley 19.913
@@ -3348,16 +2966,14 @@ pena de la persona jurídica, están en el artículo 17 y son:
 
 Materiales Docentes                                                    Capítulo 4
 
-
-## 4. El grado de sujeción y cumplimiento de la normativa legal y regla-
-
-      mentaria y de las reglas técnicas de obligatoria observancia en el
-      ejercicio de su giro o actividad habitual.
-   5. La extensión del mal causado por el delito.
-
 ## 6. La gravedad de las consecuencias sociales y económicas o, en su
 
-      caso, los daños serios que pudiere causar a la comunidad la im-
+**Definición Canónica:** caso, los daños serios que pudiere causar a la comunidad la im-
+      posición de la pena, cuando se trate de empresas del Estado o de
+      empresas que presten un servicio de utilidad pública.
+**Concordancias Legales:** artículo 4 de la Ley 20.393; artículo 4 de la Ley 20.293; artículo 3; Ley 20.393; Ley 20.293
+
+caso, los daños serios que pudiere causar a la comunidad la im-
       posición de la pena, cuando se trate de empresas del Estado o de
       empresas que presten un servicio de utilidad pública.
 
@@ -3498,8 +3114,11 @@ este requisito se verifica enumerando diversas medidas que la institución podr�
       un sistema de denuncias anónimas sobre posibles conductas contrarias
       a la probidad pública.
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Reglas de determinación legal y judicial de la pena
+en adultos
+**Concordancias Legales:** artículo 69 del Código Penal. Finalmente; artículos 69; artículo 24 de la Ley 20.084 el que se hace cargo de ello. T; artículo 23 de la Ley de Responsabilidad Penal Adolescente; artículo 24 de la Ley 20.084; artículo 24; artículo 69 del Código Penal; Ley 20.084
 
 Reglas de determinación legal y judicial de la pena
 en adultos
@@ -3623,7 +3242,9 @@ el delito, locuciones que también requerirán de interpretación judicial.
 
 ## parte, de los fines que se pretenda alcanzar con la pena y la naturaleza
 
-      de esta» (2001: 305).
+**Definición Canónica:** de esta» (2001: 305).
+
+de esta» (2001: 305).
 
    En efecto, y como se explicará, para hacer una correcta determinación de la pena para los adultos juegan una serie de variables que él o la
 juzgadora deben conocer.
@@ -3634,8 +3255,10 @@ condenatoria, sino que también con «la decisión acerca de si corresponde susp
 necesidad de pena, junto con circunstancias fácticas del injusto penal y
 condiciones personales de su autor» (2014: 105).1
 
-
 ## 1 Por ello en este libro se comprende también, en un capítulo aparte, el tema de
+
+**Definición Canónica:** las penas sustitutivas.
+**Concordancias Legales:** artículo 69 del Código Penal; artículos 63; artículos 50
 
 las penas sustitutivas.
 
@@ -3673,8 +3296,10 @@ pena exacta, o determinación judicial de la sanción.
       judicial. En la primera, que se encuentra debidamente reglamentada en
       la legislación en los artículos 50 a 61 del Código Penal, luego de conside-
 
-
 ## 2 Así aparece en motivo séptimo de la sentencia de la Corte de Apelaciones de
+
+**Definición Canónica:** Concepción, rol 402-2005, 15 de julio de 2015.
+**Concordancias Legales:** artículos 63; artículos 74; artículo 509 del Código de Procedimiento Penal; artículo 69 del Código Penal indica que; artículo 369 bis; artículo 60 del Código Penal; artículo 25; artículo 70; artículo 304; artículo 21 del Código Penal categoriza las penas según su gr; artículo 25 del Código Penal; artículos 27; artículo 32; artículo 32 bis del Código Penal; Ley 21.153
 
 Concepción, rol 402-2005, 15 de julio de 2015.
 
@@ -3884,16 +3509,14 @@ Presidio perpetuo calificado
 El presidio perpetuo calificado importa la privación de libertad del condenado de por vida, bajo un régimen especial de cumplimiento que se
 rige por las reglas del artículo 32 bis del Código Penal:
 
-
-## 1. No se podrá conceder la libertad condicional sino una vez transcu-
-
-      rridos cuarenta años de privación de libertad efectiva, debiendo en todo
-      caso darse cumplimiento a las demás normas y requisitos que regulen su
-      otorgamiento y revocación;
-
 ## 2. El condenado no podrá ser favorecido con ninguno de los benefi-
 
-      cios que contemple el reglamento de establecimientos penitenciarios, o
+**Definición Canónica:** cios que contemple el reglamento de establecimientos penitenciarios, o
+      cualquier otro cuerpo legal o reglamentario, que importe su puesta en
+      libertad, aun en forma transitoria. Sin perjuicio de ello, podrá autorizar-
+**Concordancias Legales:** artículo 26 del Código Penal
+
+cios que contemple el reglamento de establecimientos penitenciarios, o
       cualquier otro cuerpo legal o reglamentario, que importe su puesta en
       libertad, aun en forma transitoria. Sin perjuicio de ello, podrá autorizar-
 
@@ -3908,7 +3531,15 @@ Materiales Docentes                                                             
 
 ## 3. No se favorecerá al condenado por las leyes que concedan amnis-
 
-      tía ni indultos generales, salvo que se le hagan expresamente aplicables.
+**Definición Canónica:** tía ni indultos generales, salvo que se le hagan expresamente aplicables.
+      Asimismo, solo procederá a su respecto el indulto particular por razo-
+      nes de Estado o por el padecimiento de un estado de salud grave e irre-
+      cuperable, debidamente acreditado, que importe inminente riesgo de
+      muerte o inutilidad física de tal magnitud que le impida valerse por sí
+      mismo. En todo caso el beneficio del indulto deberá ser concedido de
+      conformidad a las normas legales que lo regulen.
+
+tía ni indultos generales, salvo que se le hagan expresamente aplicables.
       Asimismo, solo procederá a su respecto el indulto particular por razo-
       nes de Estado o por el padecimiento de un estado de salud grave e irre-
       cuperable, debidamente acreditado, que importe inminente riesgo de
@@ -3924,7 +3555,13 @@ Código Penal
 
 ## 27                Presidio, reclusión y relegación      Inhabilitación absoluta perpetua para
 
-                  perpetuos.                            cargos y oficios públicos y derechos
+**Definición Canónica:** perpetuos.                            cargos y oficios públicos y derechos
+                                                        políticos por el tiempo de la vida
+                                                        de los penados y la de sujeción a
+                                                        la vigilancia de la autoridad por el
+                                                        máximum que establece el Código
+
+perpetuos.                            cargos y oficios públicos y derechos
                                                         políticos por el tiempo de la vida
                                                         de los penados y la de sujeción a
                                                         la vigilancia de la autoridad por el
@@ -3932,27 +3569,38 @@ Código Penal
 
 ## 28                Presidio, reclusión, confinamiento, Inhabilitación absoluta perpetua para
 
-                  extrañamiento y relegación mayores. cargos y oficios públicos y derechos
+**Definición Canónica:** extrañamiento y relegación mayores. cargos y oficios públicos y derechos
+                                                      políticos y la de inhabilitación
+                                                      absoluta para profesiones titulares
+                                                      mientras dure la condena.
+
+extrañamiento y relegación mayores. cargos y oficios públicos y derechos
                                                       políticos y la de inhabilitación
                                                       absoluta para profesiones titulares
                                                       mientras dure la condena.
 
 ## 29                Presidio, reclusión, confinamiento,   Inhabilitación absoluta perpetua
 
-                  extrañamiento y relegación menores    para derechos políticos y la de
+**Definición Canónica:** extrañamiento y relegación menores    para derechos políticos y la de
                   en sus grados máximos.                inhabilitación absoluta para cargos y
                                                         oficios públicos durante el tiempo de
                                                         la condena.
 
-## 30                Presidio, reclusión, confinamiento,   Suspensión de cargo u oficio público
-
-                  extrañamiento y relegación menores    durante el tiempo de la condena.
-                  en sus grados medios y mínimos, y
-                  las de destierro y prisión.
+extrañamiento y relegación menores    para derechos políticos y la de
+                  en sus grados máximos.                inhabilitación absoluta para cargos y
+                                                        oficios públicos durante el tiempo de
+                                                        la condena.
 
 ## 31                Pena de Comiso para crímenes y        Pérdida de los efectos que provengan
 
-                  simples delitos.                      del delito y de los instrumentos
+**Definición Canónica:** simples delitos.                      del delito y de los instrumentos
+                                                        con que se ejecutó, a menos
+                                                        que pertenezcan a un tercero no
+                                                        responsable del crimen o simple
+                                                        delito.
+**Concordancias Legales:** artículo 32 bis; artículos 106; artículo 33; artículos 121; artículo 34; artículos 118; artículo 35; artículos 133; artículo 36; artículo 381; artículo 56; artículo 57; artículo 67
+
+simples delitos.                      del delito y de los instrumentos
                                                         con que se ejecutó, a menos
                                                         que pertenezcan a un tercero no
                                                         responsable del crimen o simple
@@ -4070,41 +3718,13 @@ la tabla 3.
 
       Grado       Pena
 
-
-## 1         Presidio perpetuo calificado
-
-
-## 2         Presidio o reclusión perpetuos
-
-
-## 3         Presidio o reclusión mayores en sus grados máximos
-
-
-## 4         Presidio o reclusión mayores en sus grados medios
-
-
-## 5         Presidio o reclusión mayores en sus grados mínimos
-
-
-## 6         Presidio o reclusión menores en sus grados máximos
-
-
-## 7         Presidio o reclusión menores en sus grados medios
-
-
-## 8         Presidio o reclusión menores en sus grados mínimos
-
-
-## 9         Prisión en su grado máximo
-
-
-## 10         Prisión en su grado medio
-
-
 ## 11        Prisión en su grado mínimo
 
+**Definición Canónica:** Academia Judicial de Chile                       Determinación, aplicación y ejecución de penas
+Materiales Docentes                                                                  Capítulo 5
+**Concordancias Legales:** artículos 50; artículo 51; artículo 52; artículo 53; artículo 54; artículo 8 del Código Penal; artículos 106; artículo 111; artículos 121; artículo 125; artículos 51; artículo 55; artículos 62; artículo 62; artículo 63 del Código Penal; Artículo 63; artículo 368 bis del Código Penal que permite el uso de la agravan; artículo 12; artículo 64; artículo 65 del Código Penal; Artículo 65; artículo 68 bis; artículo 66; artículo 372 bis del Código Penal; artículos 59; artículo 59; artículo 449 del Código Penal; artículos 65; artículo 449 del Código Penal. Otro ejemplo de excepción lo en; artículo 17; artículo 61; artículo 59 del Código Penal; Ley 17.798
 
-Academia Judicial de Chile                       Determinación, aplicación y ejecución de penas
+Academia Judicial de Chile                       Determinación, aplicación y ejecución de penas
 Materiales Docentes                                                                  Capítulo 5
 
 ¿Cómo se aplican las penas?
@@ -4324,7 +3944,16 @@ Aplicación práctica del artículo 61 Código Penal
 
 ## 1. Si la pena señalada al delito es una indivisible o un solo grado de otra
 
-      divisible. Corresponde a los autores de crimen o simple delito frustrado
+**Definición Canónica:** divisible. Corresponde a los autores de crimen o simple delito frustrado
+      y a los cómplices de crimen o simple delito consumado la inmediata-
+      mente inferior en grado.
+       Para determinar las que deben aplicarse a los demás responsables rela-
+      cionados en el artículo 59, se bajará sucesivamente un grado en la escala
+      correspondiente respecto de los comprendidos en cada uno de sus nú-
+      meros, siguiendo el orden que en ese artículo se establece.
+**Concordancias Legales:** artículo 59; artículo 268; artículo 61
+
+divisible. Corresponde a los autores de crimen o simple delito frustrado
       y a los cómplices de crimen o simple delito consumado la inmediata-
       mente inferior en grado.
        Para determinar las que deben aplicarse a los demás responsables rela-
@@ -4364,15 +3993,15 @@ entre 21 y 40 días de prisión en su grado medio.
        Para determinar las que deben aplicarse a los demás responsables se
       observará lo prescrito en la regla anterior.
 
-## 3. Si se designan para un delito penas alternativas, sea que se hallen
-
-      comprendidas en la misma escala o en dos o más distintas. No estará
-      obligado el tribunal a imponer a todos los responsables las de la misma
-      naturaleza.
-
 ## 4. Cuando se señalan al delito copulativamente penas comprendidas en
 
-      distintas escalas o se agrega la multa a las de la misma escala. Se aplica-
+**Definición Canónica:** distintas escalas o se agrega la multa a las de la misma escala. Se aplica-
+      rán unas y otras, con sujeción a las reglas 1 y 2, a todos los responsables;
+      pero cuando una de dichas penas se impone al autor de crimen o simple
+      delito por circunstancias peculiares a él que no concurren en los demás,
+      no se hará extensiva a estos.
+
+distintas escalas o se agrega la multa a las de la misma escala. Se aplica-
       rán unas y otras, con sujeción a las reglas 1 y 2, a todos los responsables;
       pero cuando una de dichas penas se impone al autor de crimen o simple
       delito por circunstancias peculiares a él que no concurren en los demás,
@@ -4380,7 +4009,11 @@ entre 21 y 40 días de prisión en su grado medio.
 
 ## 5. Si al poner en práctica las reglas precedentes no resultare pena que
 
-      imponer por falta de grados inferiores o por no ser aplicables las de in-
+**Definición Canónica:** imponer por falta de grados inferiores o por no ser aplicables las de in-
+      habilitación o suspensión. Se impondrá siempre la multa.
+**Concordancias Legales:** artículo 66; artículo 67 del Código Penal; artículo 11; artículos 66; Artículo 67
+
+imponer por falta de grados inferiores o por no ser aplicables las de in-
       habilitación o suspensión. Se impondrá siempre la multa.
 
 La compensación racional
@@ -4578,8 +4211,14 @@ será el máximum, y la parte inferior es el mínimum (Ortiz y Arévalo,
       años y seis meses, y el máximum va desde los 12 años seis meses y un día
       a los 15 años (Ortiz y Arévalo, 2021: 305).5
 
-
 ## 5 En cita a pie de página, Ortiz y Arévalo (2021: 305) sostienen que, conforme al
+
+**Definición Canónica:** principio pro-reo procede la rebaja de la fracción. Así, señalan que la fórmula aritmética no resulta sencilla en algunos casos al dividir la pena, señalando: «Tal es el
+caso del grado que se extiende entre los 61 y 540 días. En efecto entre una y otra pena
+existe un período de 479 días, luego para determinar el máximum y el mínimum
+habría que dividir ese guarismo por dos lo que arroja un resultado de 293,5, esto
+es, una cifra no exacta. En estos casos ¿cuál es el máximum y el mínimum? La ley
+no entrega elementos para solucionar el problema. A nuestro juicio, no existiendo
 
 principio pro-reo procede la rebaja de la fracción. Así, señalan que la fórmula aritmética no resulta sencilla en algunos casos al dividir la pena, señalando: «Tal es el
 caso del grado que se extiende entre los 61 y 540 días. En efecto entre una y otra pena
@@ -4629,6 +4268,10 @@ debería determinarse que la mitad inferior de la pena asciende a 293 días y la
 superior al saldo restante».
 
 ## 6 Matus y Ramírez señalan que, es «dominante la doctrina que estima necesario
+
+**Definición Canónica:** hacerlo mediante el mecanismo de transformar un año en 365 días, añadir un día y
+dividir por dos el total del tiempo comprendido en cada grado» (2021: 647).
+**Concordancias Legales:** artículo 68 del Código Penal Artículo 68. Cuando la; artículo 68 del Código Penal. Tabla 9. Concurrencia de; artículo 68 bis; artículo 68 bis del Código Penal Artículo 68 bis. Sin per; artículo 69; artículo 69 del Código Penal; artículo 69 del Código Penal La Ley 21.483; artículo 69 bis; artículo 12; Ley 21.483; Ley 19.828; Ley 20.422
 
 hacerlo mediante el mecanismo de transformar un año en 365 días, añadir un día y
 dividir por dos el total del tiempo comprendido en cada grado» (2021: 647).
@@ -4854,68 +4497,23 @@ determinación de la pena.
 
  1            La pena asignada por la ley para el delito (siempre se fija el consumado).
 
-
-## 2            Si el sujeto activo es mayor o menor de edad (mayor de 18 años a la fecha de
-
-              comisión del delito). Si es mayor se aplican las normas del Código Penal o leyes
-              penales especiales.
-
- 3            Si el sujeto es menor de edad debe aplicarse la Ley 20.084.
-
-
-## 4            Si el delito fue cometido por un adulto con la intervención de una o más
-
-              personas menores de 18 años y mayores o menores de 14 años (artículo 72 del
-              Código Penal).
-
-
-## 5            Grado de participación del sujeto activo, si es autor, cómplice o encubridor del
-
-              delito (artículos 14, 15, 16 y 17 del Código Penal)
-
-
 ## 6            Si el delito está consumado, es frustrado o tentado, o se trata de una
 
-              conspiración o proposición para cometer un delito (artículos 7 y 8 del Código
+**Definición Canónica:** conspiración o proposición para cometer un delito (artículos 7 y 8 del Código
+              Penal). Hay ciertos delitos que se castigan como consumados aunque no lo
+              estén (artículo 450 del Código Penal y Ley 20.000).
+**Concordancias Legales:** artículos 7; artículo 450 del Código Penal y Ley 20.000; Ley 20.000
+
+conspiración o proposición para cometer un delito (artículos 7 y 8 del Código
               Penal). Hay ciertos delitos que se castigan como consumados aunque no lo
               estén (artículo 450 del Código Penal y Ley 20.000).
 
-
-## 7            Si concurre alguna atenuante del artículo 11 del Código Penal (hay delitos en que
-
-              no se aplican ciertas atenuantes)
-
-
-## 8            Si concurre alguna agravante del artículo 12 del Código Penal y si ellas se
-
-              comunican o no a otros partícipes conforme al artículo 64 del Código Penal.
-
-
-## 9            Si al copartícipe se le comunican o no las circunstancias atenuantes o
-
-              agravantes.
-
-
-## 10           Si las agravantes de los números 15 y 16 del artículo 12 del Código Penal están o
-
-              no prescritas (artículo 104 del Código Penal).
-
-
-## 11           Si el sujeto activo tiene alguna relación de parentesco con el ofendido en los
-
-              términos del artículo 13 del Código Penal.
-
-
-## 12           Si actuó solo o formando parte de una agrupación de dos o más personas
-
-              destinadas a cometer ciertos delitos contra la propiedad.
-
- 13           Si es un delito sexual hay que saber qué edad tiene la víctima.
-
-
 ## 14           Si hay eximentes pero están incompletas, se aplica el artículo 11 número 1 o el
 
-              artículo 73 del Código Penal.
+**Definición Canónica:** artículo 73 del Código Penal.
+**Concordancias Legales:** artículo 73 del Código Penal. Academia Judicial de Chile
+
+artículo 73 del Código Penal.
 
 Academia Judicial de Chile                      Determinación, aplicación y ejecución de penas
 Materiales Docentes                                                                 Capítulo 5
@@ -4924,45 +4522,24 @@ Materiales Docentes                                                             
 
  Número        Variable
 
-
-## 15            Si se trata de varios delitos, ver si se aplica el artículo 74 o 75 del Código Penal
-
-               (concursos).
-
-
-## 16            Si se trata de varios delitos reiterados, ver si se aplica el artículo 351 del Código
-
-               Procesal Penal o el 74 del Código Penal.
-
-
-## 17            Ver si es aplicable el artículo 164 del Código Orgánico de Tribunales cuando se
-
-               pida unificación de penas.
-
-
-## 18            Hay grupos de delitos en los que no se aplican los artículos 65 a 69 del Código
-
-               Penal (muchos delitos contra la propiedad y delitos de la ley de control de
-               armas).
-
-
 ## 19            Hay delitos en que se obliga a imponer la pena superior en grado (por ejemplo, el
 
-               artículo 400 del Código Penal, o bien cuando concurre en la Ley 20.000 las mal
+**Definición Canónica:** artículo 400 del Código Penal, o bien cuando concurre en la Ley 20.000 las mal
+               llamadas agravantes del artículo 19 de dicha ley).
+**Concordancias Legales:** artículo 400 del Código Penal; artículo 19; artículo 447 del Código Penal; Ley 20.000
+
+artículo 400 del Código Penal, o bien cuando concurre en la Ley 20.000 las mal
                llamadas agravantes del artículo 19 de dicha ley).
 
  20            Hay delitos en que es facultativo aumentar la pena en un grado (por ejemplo,
                hurtos del artículo 447 del Código Penal).
 
-
-## 21            La condición de la víctima en los delitos contra las personas (artículos 12
-
-               número 22 y 69 bis del Código Penal).
-
-
 ## 22            Ver si hay normas que rebajan la penalidad (por ejemplo, artículos 142 bis y 456
 
-               del Código Penal).
+**Definición Canónica:** del Código Penal).
+**Concordancias Legales:** artículo 103 del Código Penal; artículo 67 del Código Penal; artículo 68 del Código Penal. Lo anterior importará bajar o s; artículo 11 del Código Penal y no hay agravantes de responsab; artículo 436; artículo 68 del Código Penal; artículo 68; artículo 413; artículo 68 del Código Penal. Por ejemplo; artículo 4 de la Ley 20.000; artículo 19; artículo 68 del Código Penal. Materiales Docentes; artículo 67; Artículo 3; artículo 23; artículo 24; artículo 72 del Código Penal es; Artículo 72; artículo 72 del Código Penal que señalaba; artículos 14; artículos 7; artículo 450 del Código Penal y Ley 20.000; artículo 450 del Código Penal que señala; artículo 440; Artículo 433 del Código Penal; Artículo 434; Artículo 438; artículo 18 de la Ley 20.000; artículo 11 del Código Penal; artículo 11; artículo 12 del Código Penal y si ella o ellas se comunican o; artículo 64 del Código Artículo 64. Las circunstancia; artículo 12 del Código Penal Según lo dispuesto en el artícu; artículo 12; Artículo 104; artículo 13 del Código Penal. Artículo 13. Es circuns; artículo 449 bis del Código Penal señala; artículo 456 bis; artículo 361 del Código Penal señala; artículo 362
+
+del Código Penal).
 
  23            La media prescripción (artículo 103 del Código Penal).
 
@@ -5752,14 +5329,25 @@ Artículo 449 del Código Penal
 
 ## 1. Dentro del límite del grado o grados señalados por la ley como pena
 
-      al delito, el tribunal determinará la cuantía de la pena en atención al
+**Definición Canónica:** al delito, el tribunal determinará la cuantía de la pena en atención al
+      número y entidad de las circunstancias atenuantes y agravantes concu-
+      rrentes, así como a la mayor o menor extensión del mal causado, funda-
+      mentándolo en su sentencia.
+
+al delito, el tribunal determinará la cuantía de la pena en atención al
       número y entidad de las circunstancias atenuantes y agravantes concu-
       rrentes, así como a la mayor o menor extensión del mal causado, funda-
       mentándolo en su sentencia.
 
 ## 2. Tratándose de condenados reincidentes en los términos de las cir-
 
-      cunstancias agravantes de los numerales 15 y 16 del artículo 12, el tribu-
+**Definición Canónica:** cunstancias agravantes de los numerales 15 y 16 del artículo 12, el tribu-
+      nal deberá, para los efectos de lo señalado en la regla anterior, excluir el
+      grado mínimo de la pena si esta es compuesta, o el mínimum si consta
+      de un solo grado.
+**Concordancias Legales:** artículo 12; Artículo 17; artículos 8; artículos 65; artículos 51; Artículo 196 bis de la Ley de Tránsito; Artículo 196 bis; artículo 196; artículos 67; Ley 17.798; Ley 20.084; Ley 18.290
+
+cunstancias agravantes de los numerales 15 y 16 del artículo 12, el tribu-
       nal deberá, para los efectos de lo señalado en la regla anterior, excluir el
       grado mínimo de la pena si esta es compuesta, o el mínimum si consta
       de un solo grado.
@@ -5798,21 +5386,29 @@ Artículo 196 bis de la Ley de Tránsito (Ley 18.290)
 
 ## 3. Si, tratándose del delito establecido en el inciso cuarto del artículo
 
-      196, concurren una o más circunstancias atenuantes y ninguna agravan-
+**Definición Canónica:** 196, concurren una o más circunstancias atenuantes y ninguna agravan-
       te, el tribunal impondrá la pena en su grado mínimo. Si concurren una o
       más agravantes y ninguna atenuante, la impondrá en su grado máximo.
       Para determinar en tales casos el mínimo y el máximo de la pena, se
       dividirá por mitad el período de su duración: la más alta de estas partes
       formará el máximo y la más baja el mínimo.
 
-## 4. Si concurren circunstancias atenuantes y agravantes, se hará su com-
-
-      pensación racional para la aplicación de la pena, graduando el valor de
-      unas y otras.
+196, concurren una o más circunstancias atenuantes y ninguna agravan-
+      te, el tribunal impondrá la pena en su grado mínimo. Si concurren una o
+      más agravantes y ninguna atenuante, la impondrá en su grado máximo.
+      Para determinar en tales casos el mínimo y el máximo de la pena, se
+      dividirá por mitad el período de su duración: la más alta de estas partes
+      formará el máximo y la más baja el mínimo.
 
 ## 5. El tribunal no podrá imponer una pena que sea mayor o menor al
 
-      marco fijado por la ley. Con todo, podrá imponerse la pena inferior en
+**Definición Canónica:** marco fijado por la ley. Con todo, podrá imponerse la pena inferior en
+      un grado si, tratándose de la eximente del número 11 del artículo 10 del
+      Código Penal, concurriere la mayor parte de sus requisitos, pero el he-
+      cho no pudiese entenderse exento de pena.
+**Concordancias Legales:** artículo 10 del Código Penal; artículo 400 del Código Penal; artículo 19; artículo 400 del Código Penal Un sujeto le causa a su convivi; artículo 397; artículo 397 del Código Penal; artículo 400 del Código Penal regula el aumento de la pena en; artículo 5 de la Ley sobre Violencia Intrafamiliar; artículo 391; artículo 11; artículo 67; artículo 19 de la Ley 20.000; artículo 1; artículo 67 del Código Penal; artículo 19 de la Ley 20.000 y quedaría con una pena de presidi; artículo 19 de la Ley 20.000 y quedaría con una de presidio men; artículo 19 de la Ley 20.000 al final; artículo 22; artículo 4 de la Ley 20.000. Es descubierta mientras hacía la; artículo 11 del Código Penal. Al ser una pena compuesta de; artículo 68 del Código Penal que previene; artículo 11 del Código Penal. Ahora el juez o la jueza apl; artículo 19 de la Ley de Drogas; artículo 16; artículo 68 del Código Penal señala que; artículo 68 del Código Penal; artículo 373; artículos 372; artículos 19; artículo 360; artículo 447 del Código Penal. Artículo 447. En los c; Ley 20.000
+
+marco fijado por la ley. Con todo, podrá imponerse la pena inferior en
       un grado si, tratándose de la eximente del número 11 del artículo 10 del
       Código Penal, concurriere la mayor parte de sus requisitos, pero el he-
       cho no pudiese entenderse exento de pena.
@@ -6066,19 +5662,15 @@ ejemplo, en los hurtos del artículo 447 del Código Penal.
         Artículo 447. En los casos del artículo anterior podrá aplicarse la pena
       inmediatamente superior en grado:
 
-## 1. Si el hurto se cometiere por dependiente, criado o sirviente asalaria-
-
-      do, bien sea en la casa en que sirve o bien en aquella a que lo hubiere
-      llevado su amo o patrón.
-
-## 2. Donde se cometiere por obrero, oficial o aprendiz en la casa, taller o
-
-      almacén de su maestro o de la persona para quien trabaja, o por indivi-
-      duo que trabaja habitualmente en la casa donde hubiere hurtado.
-
 ## 3. Si se cometiere por el posadero, fondista u otra persona que hospede
 
-      gentes en cosas que hubieren llevado a la posada o fonda.
+**Definición Canónica:** gentes en cosas que hubieren llevado a la posada o fonda.
+        4. Cuando se cometiere por patrón o comandante de buque, lanchero,
+      conductor o bodeguero de tren, guarda almacenes, carruajero, carretero o
+      arriero en cosas que se hayan puesto en su buque, carro, bodega, etcétera.
+**Concordancias Legales:** artículo 390; artículo 390 bis; artículo 390 ter; artículo 391; artículo 392; artículo 393; artículo 394; artículo 395; artículo 396; artículo 397; artículo 399; artículo 402; artículos 403 bis; artículo 411 bis; artículo 12 del Código Penal; artículo 69 bis; Ley 21.483; Ley 19.828; Ley 20.242; Ley 20.422
+
+gentes en cosas que hubieren llevado a la posada o fonda.
         4. Cuando se cometiere por patrón o comandante de buque, lanchero,
       conductor o bodeguero de tren, guarda almacenes, carruajero, carretero o
       arriero en cosas que se hayan puesto en su buque, carro, bodega, etcétera.
@@ -6120,18 +5712,12 @@ el de razón de género del artículo 390 ter, existen, además, reglas especial
       de femicidio, las siguientes:
        1. Encontrarse la víctima embarazada;
 
-## 2. Ser la víctima una niña o una adolescente menor de dieciocho años
-
-      de edad, una mujer adulta mayor o una mujer en situación de discapa-
-      cidad en los términos de la Ley 20.422;
-
-## 3. Ejecutarlo en presencia de ascendientes o descendientes de la vícti-
-
-      ma;
-
 ## 4. Ejecutarlo en el contexto de violencia física o psicológica habitual del
 
-      hechor contra la víctima.
+**Definición Canónica:** hechor contra la víctima.
+**Concordancias Legales:** artículo 11; artículos 142 bis; Artículo 142 bis; artículo 142; Artículo 456; artículo 103 del Código Artículo 103. Como el respons; artículo 21 del Código Penal es una pena de simple delito; artículo 97; artículo 103 del Código Penal obliga al juez o a la jueza pena; artículos 65; artículo 97 del Código Penal obliga a considerar la pena en c; artículo 103 del Código Penal; artículo 68 bis del Código Penal y allí señala que; artículo 103 del Código Penal en su reenvío a los artículos; artículo 103 del Código Penal a los artículos 65 y sigui; artículo 11 del Código Penal. Juan cometió el crimen el
+
+hechor contra la víctima.
 
    Asimismo, en los delitos de femicidio no puede la jueza o el juez considerar la atenuante del artículo 11 número 5 del Código Penal que señala: «La de obrar por estímulos tan poderosos que naturalmente hayan
 producido arrebato y obcecación».
@@ -6297,6 +5883,18 @@ sentencia ejecutoriada el 7 de diciembre de 2016. Sin embargo, Juan fue
 declarado rebelde el 1 de enero de 2017 y fue detenido el 3 de marzo de
 
 ## 2022. Se acreditó que mientras estuvo rebelde no cometió nuevos delitos
+
+**Definición Canónica:** y que no salió del país.
+    Según el artículo 98 del Código Penal: «El tiempo de la prescripción
+comenzará a correr desde la fecha de la sentencia de término», que en
+el ejemplo propuesto es el 7 de diciembre de 2016. Luego, hay que ver
+cuál es el período de tiempo que transcurrió entre esa fecha y el día de
+su detención.
+    El tiempo transcurrido es de 5 años 2 meses y 24 días, es decir, ha
+transcurrido más de la mitad del tiempo de la pena que debía cumplir,
+con lo que procede hacer aplicación del artículo 103 del Código Penal:
+considerar el hecho revestido de dos circunstancias atenuantes
+**Concordancias Legales:** artículo 98 del Código Penal; artículo 103 del Código Penal; artículo 396; artículo 5 de la Ley 20.066 sobre violencia intrafamiliar; artículo 400 del Código Penal que dispone; artículo 5; artículo 391; artículo 67 del Código Penal; artículo 5 de la Ley 20.066 y; artículo 400 del Código Penal que mandata al juez o la jueza a; artículo 68 del Código Penal. Academia Judicial de Chile; artículo 68; artículo 12; artículos 396; artículo 67 del Como en la especie concurre una agravante y n; artículo 67; artículo 400; artículo 68 del Código Penal; artículo 67 del Código Penal. Como en la especie concurre; artículo 344; artículo 15; artículo 16; artículo 17; artículo 450; artículos 111; artículo 13 de la Ley de Violencia en los Estadios; artículo 449 bis del Código Penal; artículos 449 ter; artículos 142 bis; artículos 66; artículo 449 del Código Penal o bien en artículo 17 B de la Le; artículo 196 bis de la Ley 18.290. Hay normas que hacen inaplicab; artículo 450 bis del Código Penal impide la aplicación de la atenu; artículo 11; artículo 447 del Código Penal. Habrá que recordar también la e; artículos 300; artículo 69; artículo 19 de la Ley 20.000 y del artículo 400 del Código Pena; artículos 456; artículos 50
 
 y que no salió del país.
     Según el artículo 98 del Código Penal: «El tiempo de la prescripción
@@ -6901,19 +6499,9 @@ registro de condenas).
    En el cuerpo de la sentencia el tribunal da las razones de su decisión
 y en la parte final o decisoria sigue el siguiente formato:
 
-## 1. Individualiza al sujeto o a los sujetos que figuraban como acusados
-
-      en el juicio o procedimiento ordinario, simplificado o monitorio,
-      con su nombre y número de cédula nacional de identidad.
-
-## 2. Señala si se condena o absuelve al acusado por los hechos de la
-
-      acusación penal, señalando, en lo posible, día y lugar de comisión
-      de los hechos y nombre de la víctima.
-
 ## 3. Si es una sentencia condenatoria debe señalar la pena concreta que
 
-      el tribunal o jueza o juez penal le imponen al condenado: años,
+**Definición Canónica:** el tribunal o jueza o juez penal le imponen al condenado: años,
       meses y días la pena privativa de libertad, si es que hay abonos o
       no, y desde cuando ella comienza a computarse, o bien la cantidad
       numérica equivalente a UTM. La sanción puede ser privativa de
@@ -6922,13 +6510,25 @@ y en la parte final o decisoria sigue el siguiente formato:
       la multa en cuotas, las que no pueden exceder de un año, es decir,
       un máximo de doce cuotas.
 
-## 4. Señala cuáles son las penas accesorias que lleva consigo la pena
-
-      principal.
+el tribunal o jueza o juez penal le imponen al condenado: años,
+      meses y días la pena privativa de libertad, si es que hay abonos o
+      no, y desde cuando ella comienza a computarse, o bien la cantidad
+      numérica equivalente a UTM. La sanción puede ser privativa de
+      libertad, pecuniaria o bien ambas. Si se trata de la aplicación de
+      penas de multa, se deberá indicar además si se concede el pago de
+      la multa en cuotas, las que no pueden exceder de un año, es decir,
+      un máximo de doce cuotas.
 
 ## 5. Señala si procede o no el otorgamiento de alguna pena sustitutiva
 
-      de la privativa de libertad y si procediere, se señala cuál y además,
+**Definición Canónica:** de la privativa de libertad y si procediere, se señala cuál y además,
+      el tiempo y la forma de su cumplimiento.
+   6. Señala si procede la pena de comiso.
+   7. Señala si procede o no la condena en costas.
+   El artículo 348 del Código Procesal Penal dispone:
+**Concordancias Legales:** artículo 348 del Código Procesal Penal dispone; artículo 155; Ley 20.000; Ley 19.970
+
+de la privativa de libertad y si procediere, se señala cuál y además,
       el tiempo y la forma de su cumplimiento.
    6. Señala si procede la pena de comiso.
    7. Señala si procede o no la condena en costas.
@@ -7020,20 +6620,22 @@ Comisión de Lenguaje Claro, Informe 2019, disponible en https://bit.ly/3C5QVhK.
       go Procesal Penal.
        Sentencia redactada por la magistrado Maureen Darrouy Palacios.
 
-## Ruc: 2 100 641980-9
-
-
 ## Rit: 96-2022
 
-       Sentencia dictada por Sala del Tribunal de Juicio Oral en lo Penal de
+**Definición Canónica:** Sentencia dictada por Sala del Tribunal de Juicio Oral en lo Penal de
+
+Sentencia dictada por Sala del Tribunal de Juicio Oral en lo Penal de
 
       Valparaíso, integrada por los magistrados señores José Cifuentes Gil,
       quien presidió, Maureen Darrouy Palacios y Sergio Ortiz Huechapán,
       los dos primeros jueces titulares y el último, en calidad de juez suplente,
       titular del Tribunal del Juicio Oral en lo Penal de San Antonio.
 
-
 ## Capítulo 6
+
+**Definición Canónica:** Notas diferenciales de la determinación de la pena
+en la responsabilidad penal adolescente
+**Concordancias Legales:** artículo 21 de la Ley 20.084; artículo 40; Ley 20.084
 
 Notas diferenciales de la determinación de la pena
 en la responsabilidad penal adolescente
@@ -7073,20 +6675,30 @@ Materiales Docentes                                                          Cap
 se les aplican todas las garantías penales y procesales, con ciertas notas
 distintivas:
 
-## 1. Responden penalmente por menos faltas que los adultos y solo sin
-
-       son mayores de 16 años.
-
 ## 2. Tienen derecho a una justicia especializada, así los jueces y las jue-
 
-       zas de garantía, del Tribunal de Juicio Oral en lo Penal (TJOP), los
+**Definición Canónica:** zas de garantía, del Tribunal de Juicio Oral en lo Penal (TJOP), los
        fiscales adjuntos y los defensores y defensoras deberán estar capa-
        citados en los estudios e información criminológica vinculada a la
        ocurrencia de estas infracciones, en la Convención sobre los De-
        rechos del Niño,1 en las características y especificidades de la etapa
 
+zas de garantía, del Tribunal de Juicio Oral en lo Penal (TJOP), los
+       fiscales adjuntos y los defensores y defensoras deberán estar capa-
+       citados en los estudios e información criminológica vinculada a la
+       ocurrencia de estas infracciones, en la Convención sobre los De-
+       rechos del Niño,1 en las características y especificidades de la etapa
 
 ## 1 El artículo 37 de la Convención señala: «Los Estados parte velarán porque: a)
+
+**Definición Canónica:** Ningún niño sea sometido a torturas ni a otros tratos o penas crueles, inhumanos
+o degradantes. No se impondrá la pena capital ni la de prisión perpetua sin posibilidad de excarcelación por delitos cometidos por menores de 18 años de edad; b)
+Ningún niño sea privado de su libertad ilegal o arbitrariamente. La detención, el
+encarcelamiento o la prisión de un niño se llevará a cabo de conformidad con la
+ley y se utilizará tan solo como medida de último recurso y durante el período más
+breve que proceda; c) Todo niño privado de libertad sea tratado con la humanidad y
+el respeto que merece la dign
+**Concordancias Legales:** artículo 40
 
 Ningún niño sea sometido a torturas ni a otros tratos o penas crueles, inhumanos
 o degradantes. No se impondrá la pena capital ni la de prisión perpetua sin posibilidad de excarcelación por delitos cometidos por menores de 18 años de edad; b)
@@ -7119,17 +6731,11 @@ Materiales Docentes                                                          Cap
       adolescente y en el sistema de ejecución de sanciones establecido
       en esta misma ley especializada.
 
-## 3. Existe una rebaja inicial en un grado para la pena señalada en cada
-
-      delito.
-
-## 4. Tienen plazos de prescripción de la acción penal y de la pena más
-
-      benevolentes que los adultos.
-
 ## 5. La aplicación de sanciones privativas de libertad se debe utilizar
 
-      solo como medida de último recurso.
+**Definición Canónica:** solo como medida de último recurso.
+
+solo como medida de último recurso.
 
 reintegración social. Es obligación del Estado tomar las medidas apropiadas para
 que los niños víctimas de la tortura, de conflictos armados, de abandono, de malos
@@ -7161,10 +6767,17 @@ de que se respetarán plenamente los derechos humanos y las garantías legales»
 
 Materiales Docentes                                                     Capítulo 6
 
-
 ## 6. Se regula y limita la detención provisoria solo tratándose de im-
 
-      putación de infracciones graves —esto es, crímenes— debiendo
+**Definición Canónica:** putación de infracciones graves —esto es, crímenes— debiendo
+      aplicarse cuando los objetivos señalados en el inciso primero del
+      artículo 155 del Código Procesal Penal no pudieren ser alcanzados
+      mediante la aplicación de alguna de las demás medidas cautelares
+      personales y, además, la internación provisional debe ser acorde y
+      proporcional a la sentencia probable en caso de condena.
+**Concordancias Legales:** artículo 155 del Código Procesal Penal no pudieren ser alcanza
+
+putación de infracciones graves —esto es, crímenes— debiendo
       aplicarse cuando los objetivos señalados en el inciso primero del
       artículo 155 del Código Procesal Penal no pudieren ser alcanzados
       mediante la aplicación de alguna de las demás medidas cautelares
@@ -7173,7 +6786,17 @@ Materiales Docentes                                                     Capítul
 
 ## 7. Para la aplicación del principio de oportunidad los fiscales tendrán
 
-      en especial consideración la incidencia que su decisión podría te-
+**Definición Canónica:** en especial consideración la incidencia que su decisión podría te-
+      ner en la vida futura del adolescente imputado. Asimismo, para la
+      aplicación de dicha norma se tendrá como base la pena resultante
+      de la aplicación del artículo 21 de la LRPA.
+   De allí entonces que podamos afirmar que, para los delitos que cometan los adolescentes la pena en abstracto es un grado más bajo a partir
+del mínimo de la pena establecida en el Código Penal o en la ley penal
+especial de que se trate para cada ilícito. Así, a modo de ejemplo, la pena
+en abstracto para un adolescente que sea autor de 
+**Concordancias Legales:** artículo 21 de la LRPA. De allí entonces que podamos afirmar; artículo 391; artículo 23 de la LRPA y luego; artículo 24 de la LRPA; artículo 1; artículos 494; artículo 477; artículo 3; artículo 494; artículo 4; artículos 362; artículos 361; artículo 362; artículo 5; artículos 141; artículos 150; artículo 411; artículo 433; artículo 21 de la Ley 20.084 que previene; artículo 69; artículo 26 de la LRPA que dispone; artículo 69 del Código Penal; artículos 50; artículo 69 del Código Penal es reemplazado por los criterios; artículo 24 de la LRPA. La Ley 21.527 mantiene la rebaja en; Artículo 21; artículo 351 del Código Procesal Penal. Sanciones accesorias; artículo 6 de la Ley 20.084 regula sanciones accesorias obliga; artículo 7; artículo 2 de la Ley 20.084; artículo 26 de la Ley 20.084; artículo 9; artículo 16; artículo 397; artículo 50 del Código Penal. Como la pena está compuesta; artículo 67 del Código Penal. A Diego; artículo 21 de la LRPA; artículo 67 del Código Penal. Juan tiene dos atenuantes; artículo 11; artículo 67 del Código Penal
+
+en especial consideración la incidencia que su decisión podría te-
       ner en la vida futura del adolescente imputado. Asimismo, para la
       aplicación de dicha norma se tendrá como base la pena resultante
       de la aplicación del artículo 21 de la LRPA.
@@ -7639,8 +7262,10 @@ El artículo 16 del Código Penal regula la internación en régimen semicerrado
       social a ser desarrollado tanto al interior del recinto como en el medio
       libre.
 
-
 ## 5 En la Ley 21.527 esta sanción se reemplaza por la de libertad asistida especial con
+
+**Definición Canónica:** internación parcial.
+**Concordancias Legales:** artículo 17 del Código Penal regula la internación en régimen; Artículo 17; artículo 20; artículo 18 del Código Penal; Artículo 18; artículo 18 de la LRPA. Las sanciones mixtas El artículo 19 de; artículo 25 de la LRPA regula la imposición conjunta de penas y; artículo 23; artículo 3; artículo 24 de la LRPA viene a reemplazar el artículo 69 del Có; artículo 24 de la LRPA. Catálogo de sanciones del artículo 23; artículo 23 de la Ley 20.084 se establecen; Ley 21.527; Ley 20.084
 
 internación parcial.
 
@@ -7785,29 +7410,35 @@ numerales. La Ley 21.527 modifica el artículo 23, el nuevo texto dispone:
       La determinación de las penas que podrán imponerse a los adolescentes
       conforme al siguiente artículo, se regirá por las reglas siguientes:
 
-## 1. Si la extensión de la pena aplicable conforme a los artículos prece-
-
-      dentes supera los cinco años de privación de libertad, el tribunal deberá
-      aplicar la pena de internación en régimen cerrado con programa de re-
-      inserción social.
-
 ## 2. Si la pena va de tres años y un día a cinco años de privación de liber-
 
-      tad o si se trata de una pena restrictiva de libertad superior a tres años,
+**Definición Canónica:** tad o si se trata de una pena restrictiva de libertad superior a tres años,
+      el tribunal podrá imponer las penas de internación en régimen cerrado
+      con programa de reinserción social, la libertad asistida especial con in-
+      ternación parcial o libertad asistida especial.
+
+tad o si se trata de una pena restrictiva de libertad superior a tres años,
       el tribunal podrá imponer las penas de internación en régimen cerrado
       con programa de reinserción social, la libertad asistida especial con in-
       ternación parcial o libertad asistida especial.
 
 ## 3. Si la pena privativa o restrictiva de libertad se extiende entre qui-
 
-      nientos cuarenta y un días y tres años, el tribunal podrá imponer las pe-
+**Definición Canónica:** nientos cuarenta y un días y tres años, el tribunal podrá imponer las pe-
+      nas de libertad asistida especial con internación parcial, libertad asistida
+      en cualquiera de sus formas y prestación de servicios en beneficio de la
+      comunidad.
+
+nientos cuarenta y un días y tres años, el tribunal podrá imponer las pe-
       nas de libertad asistida especial con internación parcial, libertad asistida
       en cualquiera de sus formas y prestación de servicios en beneficio de la
       comunidad.
 
 ## 4. Si la pena privativa o restrictiva de libertad se ubica entre sesenta
 
-      y uno y quinientos cuarenta días, el tribunal podrá imponer las penas
+**Definición Canónica:** y uno y quinientos cuarenta días, el tribunal podrá imponer las penas
+
+y uno y quinientos cuarenta días, el tribunal podrá imponer las penas
 
       de libertad asistida especial con internación parcial, libertad asistida en
       cualquiera de sus formas, prestación de servicios en beneficio de la co-
@@ -7815,7 +7446,12 @@ numerales. La Ley 21.527 modifica el artículo 23, el nuevo texto dispone:
 
 ## 5. Si la pena es igual o inferior a sesenta días, o si no constituye una
 
-      pena privativa o restrictiva de libertad o multa, el tribunal podrá impo-
+**Definición Canónica:** pena privativa o restrictiva de libertad o multa, el tribunal podrá impo-
+      ner las penas de prestación de servicios en beneficio de la comunidad,
+      reparación del daño causado o amonestación.
+**Concordancias Legales:** artículo 391; artículo 21 de la LRPA; artículo 23; artículo 24 de la LRPA. En suma; artículo 23 de la Ley 20.084 y; artículo 24; artículo 69 del Código Penal sobre aplicación de penas en adu; artículo 24 de la Ley 20.084; artículos 19; artículo 20; artículo 63 del Código Penal; Ley 20.084; Ley 21.527
+
+pena privativa o restrictiva de libertad o multa, el tribunal podrá impo-
       ner las penas de prestación de servicios en beneficio de la comunidad,
       reparación del daño causado o amonestación.
 
@@ -7869,7 +7505,7 @@ debe referir en su sentencia.
 
 ## 1. La gravedad del delito o delitos cometidos, considerando especial-
 
-      mente:
+**Definición Canónica:** mente:
        a. El bien jurídico protegido, la modalidad escogida para su afectación
       y la extensión del daño causado con su comisión.
        b. El empleo de la violencia física o de ensañamiento y la naturaleza y
@@ -7879,15 +7515,30 @@ debe referir en su sentencia.
        d. La calidad en que interviene el condenado y el grado de ejecución
       del hecho.
 
-## 2. Los móviles y demás antecedentes que expliquen la ocurrencia de los
-
-      Hechos y el comportamiento delictivo.
-       3. La edad y el desarrollo psicosocial del condenado.
-
+mente:
+       a. El bien jurídico protegido, la modalidad escogida para su afectación
+      y la extensión del daño causado con su comisión.
+       b. El empleo de la violencia física o de ensañamiento y la naturaleza y
+      entidad de ellas.
+       c. La utilización y clase de armas o la provocación de un riesgo grave
+      para la vida o la integridad de las víctimas.
+       d. La calidad en que interviene el condenado y el grado de ejecución
+      del hecho.
 
 ## 4. El comportamiento demostrado con anterioridad y posterioridad a
 
-      la ocurrencia de los hechos, y durante la instrucción del proceso, parti-
+**Definición Canónica:** la ocurrencia de los hechos, y durante la instrucción del proceso, parti-
+      cularmente en lo referido a la comisión previa de otros hechos ilícitos
+      sancionados de conformidad con esta ley, y lo que fuere relevante para
+      la valoración de los hechos enjuiciados.
+       Tratándose de la reiteración de delitos el tribunal tomará como base la
+      pena que corresponda al hecho más grave debiendo, alternativamente,
+      ampliar su extensión o imponer una más gravosa dentro de las alternati-
+      vas y plazos previstos en la ley, según cual fuere el número de los delitos,
+      las 
+**Concordancias Legales:** artículos 9; artículo 21; artículo 3; artículo 14 del Código Penal participó el adolescente; artículo 7 del Código Penal. La concurrencia de circunstanc; artículo 11 del Código Penal o de alguna de las agravantes de; artículo 12; artículo 13; artículo 24; artículo 69 del Código Penal; artículo 20 de la LRPA que señala; artículo 23; artículo 24 de la LRPA que justificarían su decisión. Ley de v; artículo 22 de la Ley 19.327 señala; artículos 12; artículo 16; artículo 27; artículos 21; artículo 9 de la Ley 20.066 y de violencia en los estadios. El; artículo 25 bis; artículo 9; artículo 436; Artículo 11; artículo 21 de la Ley 20.084; artículo 436 del Código Pe; artículo 2; artículo 15 del Código Penal en el delito de porte ilegal de; artículo 11 del Código Punitivo. En lo que dice relaci; artículo 23 de la Ley 20.084; artículo 23 de la Ley 20.084 que dispone las posibles siguiente; Ley 19.327; Ley 20.084; Ley 21.527; Ley 20.066; ley N° 20.066; Ley 17.798
+
+la ocurrencia de los hechos, y durante la instrucción del proceso, parti-
       cularmente en lo referido a la comisión previa de otros hechos ilícitos
       sancionados de conformidad con esta ley, y lo que fuere relevante para
       la valoración de los hechos enjuiciados.
@@ -8198,7 +7849,18 @@ y 5 días de edad.
 
 ## 20.084. Si la pena privativa o restrictiva de libertad se extiende entre
 
-      quinientos cuarenta y un días y tres años, el tribunal podrá imponer las
+**Definición Canónica:** quinientos cuarenta y un días y tres años, el tribunal podrá imponer las
+      penas de internación en régimen semicerrado con programa de reinser-
+      ción social, libertad asistida en cualquiera de sus formas y prestación de
+      servicios en beneficio de la comunidad.
+        En concepto de estos sentenciadores, el menor infractor debe quedar
+      sujeto a una pena de libertad asistida simple por el lapso de UN AÑO,
+      atento a los siguientes criterios de determinación de pena referidos en el
+      artículo 24 de la aludida ley de responsabilidad penal de los adolescentes:
+        a)
+**Concordancias Legales:** artículo 24; artículo 15 del Código Penal; artículos 1; artículos 2; artículo 446; artículo 432; artículo 455 del Código Penal recalificando el delito materia; artículo 15; artículo 446 del Código Penal en el cual al acusada le c; artículo 21 de la Ley 20.084; artículo 67 de Código Penal; artículo 23; artículo 24 de la Ley de Responsabilidad Penal Adolescente; artículo 8 de la Ley 20.084 por el juez de la ejecución una ve; artículo 11; artículo 20; artículo 24 de la Ley de Responsabilidad Penal Adolescent; artículos 3; Ley 17.798; Ley 20.084
+
+quinientos cuarenta y un días y tres años, el tribunal podrá imponer las
       penas de internación en régimen semicerrado con programa de reinser-
       ción social, libertad asistida en cualquiera de sus formas y prestación de
       servicios en beneficio de la comunidad.
@@ -8464,7 +8126,14 @@ Materiales Docentes                                                         Cap�
 
 ## 1. Que se condena a Jeremy, cédula nacional de identidad número
 
-      xxxxxx, a la sanción de dos (2) años de libertad asistida especial como
+**Definición Canónica:** xxxxxx, a la sanción de dos (2) años de libertad asistida especial como
+      autor de un delito de porte ilegal de arma de fuego prohibida, previsto y
+      sancionado en el artículo 14 de la Ley 17.798, en relación con el artículo
+      3 inciso 1 letra e) del mismo cuerpo legal, en grado de desarrollo consu-
+      mado, descubierto en esta ciudad el 5 de mayo de 2021.
+**Concordancias Legales:** artículo 14 de la Ley 17.798; artículo 3 inciso 1; artículos 4; artículo 10; artículo 11; artículo 13; artículo 17; artículo 2; artículo 37 bis de la Ley 20.084; artículos 31; Ley 17.798; Ley 21.527; Ley 20.084; Ley 21.430; Constitución Política
+
+xxxxxx, a la sanción de dos (2) años de libertad asistida especial como
       autor de un delito de porte ilegal de arma de fuego prohibida, previsto y
       sancionado en el artículo 14 de la Ley 17.798, en relación con el artículo
       3 inciso 1 letra e) del mismo cuerpo legal, en grado de desarrollo consu-
@@ -8589,8 +8258,10 @@ Materiales Docentes                                                         Cap�
       jetos de atención del Servicio.
        p) Las demás funciones que la ley le encomiende.
 
-
 ## Capítulo 7
+
+**Definición Canónica:** Régimen de sustitución de penas de la Ley 18.216
+**Concordancias Legales:** artículo 1 de la Ley 18.216 establece; artículo 34; artículo 1 de la Ley 18.216. Según señala la norma; artículos 141; artículo 2; artículo 3; artículo 11 del Código Penal. Al final de la misma norma; artículo 11; artículo 22 de la Ley 20.000; artículo 62 de la Ley 20.000; artículo 22; artículo 17; artículo 436; artículos 433; artículo 1 de la Ley 18.216 señala que; Ley 18.216; Ley 20.603; Ley 17.798; Ley 20.000; Ley 19.366
 
 Régimen de sustitución de penas de la Ley 18.216
 
@@ -8750,7 +8421,17 @@ un fallo de la Corte de Apelaciones de Temuco señaló:
 
 ## 1. Comparece don Jorge Figueroa Urrea, en representación de don
 
-      D.C.G.I., interponiendo recurso de apelación, contra la sentencia defi-
+**Definición Canónica:** D.C.G.I., interponiendo recurso de apelación, contra la sentencia defi-
+      nitiva de fecha 17 de agosto de 2013, del Juzgado de Garantía de Lonco-
+      che, dictada en causa RIT 394-2012, por la cual el imputado fue conde-
+      nado como autor del delito de lesiones graves a la pena de 541 días de
+      presidido menor en su grado medio y a la accesoria de suspensión de
+      cargo u oficio público durante el tiempo de la condena y no se le conce-
+      dió el beneficio de la remisión condicional de la pena, sino que el de la
+      reclusión nocturna. El recurrente, limita su impugnación 
+**Concordancias Legales:** artículo 4; artículo 98 del Código Penal el tiem; ley 18.216; ley 20.603
+
+D.C.G.I., interponiendo recurso de apelación, contra la sentencia defi-
       nitiva de fecha 17 de agosto de 2013, del Juzgado de Garantía de Lonco-
       che, dictada en causa RIT 394-2012, por la cual el imputado fue conde-
       nado como autor del delito de lesiones graves a la pena de 541 días de
@@ -8778,7 +8459,16 @@ un fallo de la Corte de Apelaciones de Temuco señaló:
 
 ## 2. Que, la cuestión debatida, tal y como quedó claro de los alegatos de
 
-      las partes, es establecer el correcto significado de la expresión «condenas
+**Definición Canónica:** las partes, es establecer el correcto significado de la expresión «condenas
+      cumplidas», que hace nacer el transcurso del plazo de 5 años o 10 años,
+      que tanto el artículo 1 como el artículo 4 letra b) de la ley 18.216 modifi-
+      cada por la ley 20.603, expresan. Al efecto existen claramente dos tesis,
+      una que entiende que dicho plazo tiene su inicio cuando la sentencia
+      de condena adquiere la calidad de «sentencia de término», y otra con el
+      cabal cumplimiento de la pena impuesta.
+**Concordancias Legales:** artículo 1; artículo 4; ley 18.216; ley 20.603
+
+las partes, es establecer el correcto significado de la expresión «condenas
       cumplidas», que hace nacer el transcurso del plazo de 5 años o 10 años,
       que tanto el artículo 1 como el artículo 4 letra b) de la ley 18.216 modifi-
       cada por la ley 20.603, expresan. Al efecto existen claramente dos tesis,
@@ -8786,28 +8476,28 @@ un fallo de la Corte de Apelaciones de Temuco señaló:
       de condena adquiere la calidad de «sentencia de término», y otra con el
       cabal cumplimiento de la pena impuesta.
 
-## 3. Que, la historia de la ley no aporta antecedentes específicos sobre el
-
-      sentido en que fue generada la expresión. Solo figura, en la misma, que
-      esta fue una indicación realizada por la Senadora Alvear (Historia de la
-      Ley 20.603 página 476 de 1214).
-
-## 4. Que, el artículo 98 del Código Penal dispone, que el tiempo de la
-
-      prescripción comenzará a correr desde la fecha de la sentencia de térmi-
-      no o desde el quebrantamiento de la condena, si hubiere esta principia-
-      do a cumplirse.
-
 ## 5. Que, tal como señala Alfredo Etcheberry, la expresión «fecha de la
 
-      sentencia de término, debe entenderse en el sentido de fecha, en que la
+**Definición Canónica:** sentencia de término, debe entenderse en el sentido de fecha, en que la
+      sentencia de término adquirió tal calidad, esto es, desde que se notificó
+      la resolución que la mandó cumplir» (Derecho Penal Tomo II. Pág.285.
+      Edit. Carlos Gibss. Año 1964).
+
+sentencia de término, debe entenderse en el sentido de fecha, en que la
       sentencia de término adquirió tal calidad, esto es, desde que se notificó
       la resolución que la mandó cumplir» (Derecho Penal Tomo II. Pág.285.
       Edit. Carlos Gibss. Año 1964).
 
 ## 6. Que, la justificación de la institución de la prescripción en el ámbito
 
-      penal se encuentra, en palabras de Francesco Carrara, en que, «el trans-
+**Definición Canónica:** penal se encuentra, en palabras de Francesco Carrara, en que, «el trans-
+      curso del tiempo, además de hacer difícil la justificación del inocente,
+      hace cesar el daño social, merced al presunto olvido del delito, lo cual
+      conducen a la cesación de la impresión moral que nació de él, sea res-
+      pecto de los buenos en quienes deja de existir el temor, sea respecto de
+      los malvados, en quienes deja de tener influjo el mal ejemplo».
+
+penal se encuentra, en palabras de Francesco Carrara, en que, «el trans-
       curso del tiempo, además de hacer difícil la justificación del inocente,
       hace cesar el daño social, merced al presunto olvido del delito, lo cual
       conducen a la cesación de la impresión moral que nació de él, sea res-
@@ -8816,7 +8506,10 @@ un fallo de la Corte de Apelaciones de Temuco señaló:
 
 ## 7. Que, es evidente que el derecho del imputado a la prescripción de
 
-      la pena o de la acción penal es afectado cuando el Estado, de manera
+**Definición Canónica:** la pena o de la acción penal es afectado cuando el Estado, de manera
+      directa o indirecta, viola los plazos máximos legales para la persecución
+
+la pena o de la acción penal es afectado cuando el Estado, de manera
       directa o indirecta, viola los plazos máximos legales para la persecución
 
 Materiales Docentes                                                          Capítulo 7
@@ -8827,14 +8520,18 @@ Materiales Docentes                                                          Cap
       lo contrario conllevaría vulnerar el principio de legalidad penal, que ex-
       presamente ha puesto un límite al rol punitivo del Estado.
 
-## 8. Que, el criterio anterior está de acuerdo con el método de interpre-
-
-      tación sistemático que nos recuerda que las normas jurídicas no viven
-      aisladas unas de otras, sino que vinculadas en í formando un solo todo.
-
 ## 9. En este contexto, este tribunal entiende que la expresión «condenas
 
-      cumplidas» que emplea, tanto el artículo 1, como el articulo 4 letra b)
+**Definición Canónica:** cumplidas» que emplea, tanto el artículo 1, como el articulo 4 letra b)
+      de la ley 18.216, modificada por la Ley 20.603, de entenderse, como ha
+      planteado el Ministerio Publico, esto es, como el cabal cumplimiento
+      de la pena impuesta, posibilitaría que se le diera valor penal a condenas
+      pretéritas ya caducadas del sentenciado, lo que es claramente contrario
+      a los efectos propios de la naturaleza de la institución de la prescripción,
+      como ha sido ya expuesto.
+**Concordancias Legales:** artículo 1; ley 18.216; Ley 20.603
+
+cumplidas» que emplea, tanto el artículo 1, como el articulo 4 letra b)
       de la ley 18.216, modificada por la Ley 20.603, de entenderse, como ha
       planteado el Ministerio Publico, esto es, como el cabal cumplimiento
       de la pena impuesta, posibilitaría que se le diera valor penal a condenas
@@ -8844,7 +8541,17 @@ Materiales Docentes                                                          Cap
 
 ## 10. A mayor abundamiento, es de toda evidencia, que el objeto de la ley
 
-      20.603 es la institución de un régimen menos riguroso de concesión de
+**Definición Canónica:** 20.603 es la institución de un régimen menos riguroso de concesión de
+      los clásicos beneficios establecidos en la Ley 18.216, como se aprecia de
+      la historia fidedigna del establecimiento del referido estatuto especial,
+      manifestada en el respectivo Mensaje 66-356 de 31 de marzo del año
+      2008, que enfatiza su implementación en torno «a la necesidad de refor-
+      mar la ley sobre medidas alternativas a las penas privativas, de manera
+      tal que ella logre cumplir los anhelos de reinserción y alternativa a la pri-
+      sión», evitando por su intermedio «la formación de 
+**Concordancias Legales:** Ley 18.216
+
+20.603 es la institución de un régimen menos riguroso de concesión de
       los clásicos beneficios establecidos en la Ley 18.216, como se aprecia de
       la historia fidedigna del establecimiento del referido estatuto especial,
       manifestada en el respectivo Mensaje 66-356 de 31 de marzo del año
@@ -8855,7 +8562,14 @@ Materiales Docentes                                                          Cap
 
 ## 11. Que, aplicando este último criterio interpretativo, si se acogiese la
 
-      tesis de que la expresión «condenas cumplidas» es sinónimo del cabal
+**Definición Canónica:** tesis de que la expresión «condenas cumplidas» es sinónimo del cabal
+      cumplimiento de la pena impuesta, transformaría la aplicación de estas
+      penas sustitutivas en algo excesivamente excepcional, ya que los plazos
+      para poder gozar del beneficio, para aquel que ha delinquido en forma
+      previa, constituirían un rigor temporal extraordinario, claramente con-
+      trario al espíritu que guió al legislador al establecer la norma.
+
+tesis de que la expresión «condenas cumplidas» es sinónimo del cabal
       cumplimiento de la pena impuesta, transformaría la aplicación de estas
       penas sustitutivas en algo excesivamente excepcional, ya que los plazos
       para poder gozar del beneficio, para aquel que ha delinquido en forma
@@ -8864,7 +8578,16 @@ Materiales Docentes                                                          Cap
 
 ## 12. Que, adicionalmente, y tal como se ha señalado en sentencia de
 
-      fecha 9 de Abril de 2013 de la Iltma. Corte de Apelaciones de la Sere-
+**Definición Canónica:** fecha 9 de Abril de 2013 de la Iltma. Corte de Apelaciones de la Sere-
+      na, (autos rol 70-2013), de acogerse la tesis de la sentencia recurrida las
+      norma del el art.1 tanto el artículo 1 como el artículo 4 letra b.-) de la ley
+      18.216 modificada por la ley 20.603, «vendría a ser exactamente la equi-
+      valente a la que se contempla en el Decreto Supremo 64 del Ministerio
+      de Justicia para la eliminación de antecedentes prontuariales, de 1960,
+      que en su artículo 8 letra g) contempla claramente la regla de que el
+**Concordancias Legales:** artículo 1; artículo 4; artículo 8; artículo 1 de la Ley 20.603; ley 18.216; ley 20.603; Ley 409
+
+fecha 9 de Abril de 2013 de la Iltma. Corte de Apelaciones de la Sere-
       na, (autos rol 70-2013), de acogerse la tesis de la sentencia recurrida las
       norma del el art.1 tanto el artículo 1 como el artículo 4 letra b.-) de la ley
       18.216 modificada por la ley 20.603, «vendría a ser exactamente la equi-
@@ -8902,7 +8625,15 @@ Materiales Docentes                                                          Cap
 
 ## 13. Que, de conformidad a lo indicado precedentemente, se debe con-
 
-      cluir, que la interpretación correcta de la expresión «condenas cumpli-
+**Definición Canónica:** cluir, que la interpretación correcta de la expresión «condenas cumpli-
+      das», que emplea tanto el artículo 1, como el artículo 4 letra b.-) de la
+      Ley 18.216, modificada por la Ley 20.603, es aquella que sostiene que el
+      cómputo del plazo del artículo 4 de la Ley 18.216 deba iniciarse desde el
+      momento que la sentencia de condena adquiere la calidad de sentencia
+      de término.
+**Concordancias Legales:** artículo 1; artículo 4; artículo 4 de la Ley 18.216 deba iniciarse desde el mome; Ley 18.216; Ley 20.603
+
+cluir, que la interpretación correcta de la expresión «condenas cumpli-
       das», que emplea tanto el artículo 1, como el artículo 4 letra b.-) de la
       Ley 18.216, modificada por la Ley 20.603, es aquella que sostiene que el
       cómputo del plazo del artículo 4 de la Ley 18.216 deba iniciarse desde el
@@ -8911,7 +8642,14 @@ Materiales Docentes                                                          Cap
 
 ## 14. En consecuencia, siendo la última condena del imputado del año
 
-      2006, debe entenderse que han transcurrido más de cinco años desde
+**Definición Canónica:** 2006, debe entenderse que han transcurrido más de cinco años desde
+      que la condena impuesta a don D.C.G.I. se encuentra cumplida, siendo
+      procedente, en consecuencia, en su caso, el beneficio de remisión con-
+      dicional de la pena en los términos establecidos en el art. 4 letra b) de la
+      Ley 18.216 modificado por la Ley 20.603.
+**Concordancias Legales:** artículos 352; artículo 4; artículos 15; artículo 15; artículo 4 de la Ley 20.000; artículo 196; artículo 15 bis; artículos 296; artículos 363; artículo 4 de la Ley 20.000 y que lo fueran a penas menores a; Ley 18.216; Ley 20.603; Ley 20.000
+
+2006, debe entenderse que han transcurrido más de cinco años desde
       que la condena impuesta a don D.C.G.I. se encuentra cumplida, siendo
       procedente, en consecuencia, en su caso, el beneficio de remisión con-
       dicional de la pena en los términos establecidos en el art. 4 letra b) de la
@@ -8978,7 +8716,17 @@ Así una jurisprudencia de la Corte de Apelaciones de Concepción resolvió:
 
 ## 1. Que en esta causa de la Reforma Procesal Penal, RIT 3345-2015, RUC
 
-      1510011306-3, seguida contra V.E.E.U., con fecha 7 de julio de 2016, el
+**Definición Canónica:** 1510011306-3, seguida contra V.E.E.U., con fecha 7 de julio de 2016, el
+      Juzgado de Garantía de Concepción, Primera Sala, condenó al acusa-
+      do referido, cédula de identidad número xxxxxxx, como autor del delito
+      consumado de tráfico ilícito de sustancias estupefacientes en pequeñas
+      cantidades, cometido en la ciudad de Penco, el 3 de abril de 2015, a la pena
+      de sesenta y un días de presidio menor en su grado mínimo. Además,
+      atendida la extensión de la pena privativa de libertad impuesta, se conce-
+      de a favor del acusado, la pena sustitutiva de reclusión p
+**Concordancias Legales:** artículo 7; Ley 18.216
+
+1510011306-3, seguida contra V.E.E.U., con fecha 7 de julio de 2016, el
       Juzgado de Garantía de Concepción, Primera Sala, condenó al acusa-
       do referido, cédula de identidad número xxxxxxx, como autor del delito
       consumado de tráfico ilícito de sustancias estupefacientes en pequeñas
@@ -8991,7 +8739,17 @@ Así una jurisprudencia de la Corte de Apelaciones de Concepción resolvió:
 
 ## 2. Que, la defensa del condenado se alza deduciendo apelación subsi-
 
-      diaria al recurso de nulidad, pidiendo concretamente que se sustituya la
+**Definición Canónica:** diaria al recurso de nulidad, pidiendo concretamente que se sustituya la
+      pena de reclusión nocturna por la de remisión condicional, por cuanto
+      el fallo le causa agravio al condenado, por cuanto se habría basado en
+      una errada interpretación del artículo 4 de la Ley 18.216. Al respecto
+      señala que el artículo 4, expresa: «Con todo, no procederá la remisión
+      condicional como pena sustitutiva si el sentenciado fuere condenado
+      por aquellos ilícitos previstos en los artículos 15, letra b), o 15 bis, letra
+      b), debiendo el tribunal, en estos casos, imponer la pe
+**Concordancias Legales:** artículo 4 de la Ley 18.216. Al respecto señala que el a; artículos 15; artículo 4 de la Ley 20.000; artículo 196; Ley 18.216; Ley 20.000
+
+diaria al recurso de nulidad, pidiendo concretamente que se sustituya la
       pena de reclusión nocturna por la de remisión condicional, por cuanto
       el fallo le causa agravio al condenado, por cuanto se habría basado en
       una errada interpretación del artículo 4 de la Ley 18.216. Al respecto
@@ -9013,7 +8771,15 @@ Así una jurisprudencia de la Corte de Apelaciones de Concepción resolvió:
 
 ## 4. Que, en consecuencia, lo que se plantea a esta Corte, es un proble-
 
-      ma interpretativo, que se produce en relación al reenvío que efectúa el
+**Definición Canónica:** ma interpretativo, que se produce en relación al reenvío que efectúa el
+      artículo 4 de la ley 18.216, entre otro, al artículo 15 letra b) de la misma,
+      respecto a la procedencia de la pena sustitutiva de la remisión condicio-
+      nal en el delito de autos, no siendo discutido que el condenado reúne los
+      requisitos establecidos en el inciso 1 del artículo 4 de la misma ley, para
+      conceder dicha pena sustitutiva.
+**Concordancias Legales:** artículo 4; artículo 15; ley 18.216
+
+ma interpretativo, que se produce en relación al reenvío que efectúa el
       artículo 4 de la ley 18.216, entre otro, al artículo 15 letra b) de la misma,
       respecto a la procedencia de la pena sustitutiva de la remisión condicio-
       nal en el delito de autos, no siendo discutido que el condenado reúne los
@@ -9022,7 +8788,14 @@ Así una jurisprudencia de la Corte de Apelaciones de Concepción resolvió:
 
 ## 5. Que, en la interpretación integrada de las disposiciones en comen-
 
-      to se puede concluir que la pena sustitutiva de remisión condicional a
+**Definición Canónica:** to se puede concluir que la pena sustitutiva de remisión condicional a
+      los delitos de tráfico de drogas, solo concurrirá si la sanción corporal
+      aplicada supera los quinientos cuarenta y un días de presidio menor
+      en su grado mínimo, lo que en la especie, como se señaló en el motivo
+      primero, no sucede, pues la condena dictada es de sesenta y un días de
+      presidio menor.
+
+to se puede concluir que la pena sustitutiva de remisión condicional a
       los delitos de tráfico de drogas, solo concurrirá si la sanción corporal
       aplicada supera los quinientos cuarenta y un días de presidio menor
       en su grado mínimo, lo que en la especie, como se señaló en el motivo
@@ -9031,7 +8804,15 @@ Así una jurisprudencia de la Corte de Apelaciones de Concepción resolvió:
 
 ## 6. Que, esta asignación de sentido se encuentra más acorde con los
 
-      objetivos que persiguió la reforma introducida a través de la Ley 20.603.
+**Definición Canónica:** objetivos que persiguió la reforma introducida a través de la Ley 20.603.
+      Y que así las cosas, la decisión del tribunal de negar la pena de remisión
+      condicional al imputado, no solo contradice su auténtico sentido, sino
+      que además colisiona con el espíritu de la nueva legislación y con su es-
+      tructura sistemática, todo lo cual demuestra que aquella decisión confi-
+      gura una infracción de derecho que debe ser enmendada por esta Corte.
+**Concordancias Legales:** Ley 20.603
+
+objetivos que persiguió la reforma introducida a través de la Ley 20.603.
       Y que así las cosas, la decisión del tribunal de negar la pena de remisión
       condicional al imputado, no solo contradice su auténtico sentido, sino
       que además colisiona con el espíritu de la nueva legislación y con su es-
@@ -9040,7 +8821,16 @@ Así una jurisprudencia de la Corte de Apelaciones de Concepción resolvió:
 
 ## 7. Que se ha dicho, además, que en la colisión entre las garantías otor-
 
-      gadas por la legislación en materia de derechos fundamentales del in-
+**Definición Canónica:** gadas por la legislación en materia de derechos fundamentales del in-
+      dividuo con el derecho del Estado a impetrar el castigo, ius puniendi, se
+      estructura sobre un conjunto de principios que, como el in dubio pro
+      reo, no solo inciden en lo eminentemente procesal (certeza del tribunal
+      que condena y aplica una pena), sino también en la interpretación de la
+      ley; entre los distintos criterios informadores de aquella labor herme-
+      néutica, figura el ya mencionado —en caso de duda se resuelve a favor
+      del encausado—, también denominado in dubio pro mitius, o e
+
+gadas por la legislación en materia de derechos fundamentales del in-
       dividuo con el derecho del Estado a impetrar el castigo, ius puniendi, se
       estructura sobre un conjunto de principios que, como el in dubio pro
       reo, no solo inciden en lo eminentemente procesal (certeza del tribunal
@@ -9050,10 +8840,20 @@ Así una jurisprudencia de la Corte de Apelaciones de Concepción resolvió:
       del encausado—, también denominado in dubio pro mitius, o en caso de
       dudas se resuelve en el sentido favorable al imputado.
 
-
 ## 8. Que, así las cosas teniendo presente los hechos materia de la senten-
 
-      cia y las disposiciones legales en juego, esta Corte estima procedentes
+**Definición Canónica:** cia y las disposiciones legales en juego, esta Corte estima procedentes
+      los argumentos sustentados por la defensa apelante y, en consecuencia,
+      acogerá el recurso de apelación deducido.
+       Por estas consideraciones y visto, además, lo prevenido en los artí-
+      culos 370 y siguientes del Código Procesal Penal: Se revoca en lo ape-
+      lado la sentencia de 7 de julio de 2016, y en su lugar se declara que la
+      pena corporal aplicada al sentenciado V.E.E.U., se sustituye por la de
+      remisión condicional de la pena, por el período de un año, debiendo
+      cumplir para e
+**Concordancias Legales:** artículo 5 de la Ley 18.216; Artículo 196 ter de la Ley 18.290. Respecto del delito previsto en e; artículo 196; Ley 18.216; Ley 18.290
+
+cia y las disposiciones legales en juego, esta Corte estima procedentes
       los argumentos sustentados por la defensa apelante y, en consecuencia,
       acogerá el recurso de apelación deducido.
        Por estas consideraciones y visto, además, lo prevenido en los artí-
@@ -9271,6 +9071,16 @@ Concepto                                    Consiste en la realización de activ
 
 ## Genchi
 
+**Definición Canónica:** Delitos excluidos                           Adicionalmente, no puede imponerse a alguien
+                                            condenado por la ley de drogas.
+Condiciones de la pena                      Pena igual o inferior a 300 días. Esta pena solo
+                                            procederá en subsidio del resto de las penas
+                                            sustitutiva.
+Condiciones exigidas al condenado           Presenta condenas anteriores que impiden
+                                            conceder otra pena sustitutiva.
+Posible sanción por quebrantamiento
+**Concordancias Legales:** artículo 27 de la Ley 18.290. T; artículo 245 del Código Procesal Penal señala; artículo 280 bis; artículo 237; Ley 18.290
+
 Delitos excluidos                           Adicionalmente, no puede imponerse a alguien
                                             condenado por la ley de drogas.
 Condiciones de la pena                      Pena igual o inferior a 300 días. Esta pena solo
@@ -9407,19 +9217,20 @@ Materiales Docentes                                                       Capít
   El artículo 237 Código Procesal Penal señala tres requisitos copulativos
 de procedencia de la suspensión condicional de procedimiento, a saber:
 
-## 1. Que la pena que pudiere imponerse al imputado, en el evento de
-
-      dictarse sentencia condenatoria (pena en concreto), no exceda de
-      tres años de privación de libertad.
-
-## 2. Que el imputado no haya sido condenado anteriormente (senten-
-
-      cia ejecutoriada) por crimen o simple delito (las condenas por fal-
-      tas no impiden la procedencia de esta salida alternativa).
-
 ## 3. Que el imputado no tuviere vigente una suspensión condicional
 
-      del procedimiento, al momento de verificarse los hechos materia
+**Definición Canónica:** del procedimiento, al momento de verificarse los hechos materia
+      del nuevo proceso.
+   La ley prevé que tratándose de imputados por delitos de homicidio,
+secuestro, robo con violencia o intimidación en las personas o fuerza
+en las cosas, sustracción de menores, aborto; por los contemplados en
+los artículos 361 a 366 bis y 367 del Código Penal; por los delitos señalados en los artículos 8, 9, 10, 13, 14 y 14 D de la Ley 17.798; por los delitos
+o cuasidelitos contemplados en otros cuerpos legales que se cometan
+empleando alguna de las armas o elementos mencionados en las letras
+a), b), c), 
+**Concordancias Legales:** artículos 361; artículos 8; artículo 2; artículo 3 de la Ley 17.798; artículo 240 del Código Procesal Penal; Ley 17.798
+
+del procedimiento, al momento de verificarse los hechos materia
       del nuevo proceso.
    La ley prevé que tratándose de imputados por delitos de homicidio,
 secuestro, robo con violencia o intimidación en las personas o fuerza
@@ -9449,13 +9260,14 @@ Materiales Docentes                                                      Capítu
 
    Son dos las causas de revocación de esta salida alternativa:
 
-## 1. Cuando el imputado incumple, sin justificación grave o reiterada-
-
-      mente las condiciones impuestas.
-
 ## 2. Cuando el imputado fuere objeto de una nueva formalización por
 
-      hechos distintos.
+**Definición Canónica:** hechos distintos.
+   En ambos casos se requiere la declaración judicial para que la revocación opere y este pronunciamiento solo tendrá lugar cuando lo solicite el
+fiscal o la víctima. La resolución que se dicte en este sentido es apelable.
+**Concordancias Legales:** artículo 398 del Código Procesal Penal; artículo 33; artículo 24 de la Ley 18.216; artículo 25 de la Ley 18.216. Si ellos fueran graves y; artículo 27 de la Ley 18.216 señala; artículo 26; Artículo 37 de la Ley 20.603. La decisión acerca de la concesió; Ley 18.216; Ley 20.603
+
+hechos distintos.
    En ambos casos se requiere la declaración judicial para que la revocación opere y este pronunciamiento solo tendrá lugar cuando lo solicite el
 fiscal o la víctima. La resolución que se dicte en este sentido es apelable.
 
@@ -9573,8 +9385,15 @@ penas sustitutivas.
       además la sentencia definitiva por la vía del recurso de nulidad, se inter-
       pondrá conjuntamente con este, en carácter de subsidiario y para el caso
 
-
 ## 1 En opinión del profesor Marín González (2008: 64), «se llegó a un escenario
+
+**Definición Canónica:** paradójico que, creo, no se buscó conscientemente: la sentencia definitiva condenatoria del tribunal de juicio oral en lo penal que concede o deniega alguna de las
+medidas alternativas reguladas en la Ley 18.216 —remisión condicional de la pena,
+reclusión nocturna y libertad vigilada— no es susceptible de ulterior revisión. A esta
+situación se arribó, como indiqué, en primer término debido a una estricta interpretación que, al menos desde fines de los años sesenta, desarrolló la Corte Suprema al
+declarar inadmisibles los recursos de casación en la forma y en el fondo —existentes
+bajo el anteri
+**Concordancias Legales:** artículo 37 de la Ley 20.603; artículo 37 de la Ley 18.216 establece un recurso de apel; artículo 348 del Código Procesal Penal mutó su naturaleza; artículo 1 de la Ley 18.216 se refiere a los beneficios; artículo 373; artículo 385 del Código Procesal Penal. El no reconocimiento; Ley 18.216; Ley 7.821; Ley 20.603
 
 paradójico que, creo, no se buscó conscientemente: la sentencia definitiva condenatoria del tribunal de juicio oral en lo penal que concede o deniega alguna de las
 medidas alternativas reguladas en la Ley 18.216 —remisión condicional de la pena,
@@ -9665,10 +9484,19 @@ de disminuir el tiempo efectivo de su condena
 
 La Corte Suprema, en sentencia de 1 de septiembre de 2014 (rol 23.36314), estableció:
 
-
 ## 5. Que, de esta manera, la resolución judicial reclamada por esta vía
 
-      afecta indebidamente la libertad personal del amparado en cuanto se
+**Definición Canónica:** afecta indebidamente la libertad personal del amparado en cuanto se
+      lo priva de disminuir el tiempo efectivo de su condena, lo que autoriza
+      a esta Corte para adoptar las medidas necesarias a fin de restablecer
+      el imperio del derecho, reconociendo, entonces, proporcionalmente el
+      tiempo efectivo de observancia de la remisión condicional concedida en
+      la causa RIT 5390-2007 por un año, que alcanzó a 10 controles de los 13
+      impuestos, en relación a los 61 días de presidio menor en su grado míni-
+      mo, operación que efectuada permite concluir que el amparado de
+**Concordancias Legales:** artículo 34 de la Ley 20.603 contiene una regulación distinta a; artículo 49 de la Ley 20.000 En sentencia de 6 de diciembre de; artículo 34 de la Ley 20.603; artículo 49 de la Ley 20.000; artículo 34 de la Ley 20.603 esta; artículo 34; artículo 1; Ley 20.603; Ley 20.000; Ley 18.216
+
+afecta indebidamente la libertad personal del amparado en cuanto se
       lo priva de disminuir el tiempo efectivo de su condena, lo que autoriza
       a esta Corte para adoptar las medidas necesarias a fin de restablecer
       el imperio del derecho, reconociendo, entonces, proporcionalmente el
@@ -9728,10 +9556,18 @@ de la ley
 La Corte Suprema, en sentencia de 14 de mayo de 2013 (rol 3006-2013),
 establece:
 
-
 ## 6. Que por último, cabe señalar que si bien la decisión de otorgar be-
 
-      neficios de la Ley 18.216 es facultativa para los jueces del fondo, dicha
+**Definición Canónica:** neficios de la Ley 18.216 es facultativa para los jueces del fondo, dicha
+      prerrogativa debe ejercerse dentro de los márgenes que establece la ley,
+      situación que no ha ocurrido en la especie desde que la decisión del
+      tribunal recurrido de mantener una forma de cumplimiento que im-
+      plica privación parcial de libertad al amparado, en lugar de otorgar la
+      remisión condicional, se ha adoptado en base a supuestos legalmente
+      improcedentes y, por tanto, fuera del ámbito de sus atribuciones.
+**Concordancias Legales:** artículo 343 del Código Procesal Penal; artículo 23 bis; Ley 18.216
+
+neficios de la Ley 18.216 es facultativa para los jueces del fondo, dicha
       prerrogativa debe ejercerse dentro de los márgenes que establece la ley,
       situación que no ha ocurrido en la especie desde que la decisión del
       tribunal recurrido de mantener una forma de cumplimiento que im-
@@ -9772,10 +9608,16 @@ El Tribunal de Juicio Oral en lo Penal de Valparaíso, en sentencia del 26
 de febrero de 2015 (RIT 8-2015), expuso las siguientes razones para la
 procedencia de la pena sustitutiva:
 
-
 ## 1. Primero, por una razón de texto, esto es, que el artículo 4 inciso fi-
 
-      nal de la Ley 18.216 se remite expresamente al artículo 15 letra b) de la
+**Definición Canónica:** nal de la Ley 18.216 se remite expresamente al artículo 15 letra b) de la
+      misma, donde si bien se cita el delito de microtráfico, se agrega que su
+      pena privativa o restrictiva de libertad debe ser superior a 540 días y
+      no exceder de tres años. Por lo tanto, cuando el legislador hizo que una
+      norma se remitiera a otra, quiso limitar la remisión condicional no a
+**Concordancias Legales:** artículo 15; artículo 4; artículo 4 de la Ley 20.000; Ley 18.216; Ley 20.000
+
+nal de la Ley 18.216 se remite expresamente al artículo 15 letra b) de la
       misma, donde si bien se cita el delito de microtráfico, se agrega que su
       pena privativa o restrictiva de libertad debe ser superior a 540 días y
       no exceder de tres años. Por lo tanto, cuando el legislador hizo que una
@@ -9796,7 +9638,17 @@ Materiales Docentes                                                          Cap
 
 ## 2. En segundo lugar, debe tenerse en cuenta que la Ley 18.216 es ac-
 
-      tualmente una ley que establece penas y no simples beneficios extra pe-
+**Definición Canónica:** tualmente una ley que establece penas y no simples beneficios extra pe-
+      nitenciarios como antes. Esto implica que está severamente sometida
+      al principio de legalidad constitucional, una de cuyas consecuencias es
+      que las reglas deben interpretarse en forma restrictiva, lo que a su vez
+      significa concluir que cuando el artículo 4 inciso final de la Ley 18.216
+      se remite al artículo 15 letra b) de la misma, se está refiriendo estricta-
+      mente a lo que dispone esta última norma y no al delito de microtráfico
+      en general, cualquiera sea su pena. Considerarlo de
+**Concordancias Legales:** artículo 4; artículo 15; Ley 18.216; constitucion
+
+tualmente una ley que establece penas y no simples beneficios extra pe-
       nitenciarios como antes. Esto implica que está severamente sometida
       al principio de legalidad constitucional, una de cuyas consecuencias es
       que las reglas deben interpretarse en forma restrictiva, lo que a su vez
@@ -9808,7 +9660,17 @@ Materiales Docentes                                                          Cap
 
 ## 3. En tercer término, la correcta interpretación de la ley no puede desa-
 
-      tender los elementos lógico y sistemático, esto es, las normas deben con-
+**Definición Canónica:** tender los elementos lógico y sistemático, esto es, las normas deben con-
+      siderarse de tal forma que tengan un correcto sentido, correspondencia y
+      armonía, en el contexto de la propia ley y también en relación con otras
+      que se relacionen con el mismo asunto. En este caso, de interpretarse la
+      regla del artículo 4 inciso final de la Ley 18.216 conforme a la primera
+      postura indicada en el párrafo anterior, se daría el absurdo que la san-
+      ción del delito de microtráfico de drogas nunca podría ser sustituida por
+      la pena de remisión condicional, pero si el i
+**Concordancias Legales:** artículo 4; artículo 3 de la Ley 20.000; artículo 15; artículo 4 de la Ley 20.000; artículo 3; Ley 18.216; Ley 20.000
+
+tender los elementos lógico y sistemático, esto es, las normas deben con-
       siderarse de tal forma que tengan un correcto sentido, correspondencia y
       armonía, en el contexto de la propia ley y también en relación con otras
       que se relacionen con el mismo asunto. En este caso, de interpretarse la
@@ -9837,7 +9699,16 @@ Materiales Docentes                                                          Cap
 
 ## 4. Finalmente, debe tenerse presente que no existe aún una solución
 
-      definitiva o unánime de la doctrina y la jurisprudencia respecto de las
+**Definición Canónica:** definitiva o unánime de la doctrina y la jurisprudencia respecto de las
+      dos posturas señaladas, lo que implica que existiendo una duda razo-
+      nable respecto del tema, debe optarse por la interpretación que resulte
+      más favorable al condenado, precisamente porque se está aplicando una
+      ley penal sustantiva (crea y regula penas). En este caso, es más favorable
+      aplicar la pena sustitutiva de remisión condicional que las de reclusión
+      parcial o cualquier libertad vigilada.
+**Concordancias Legales:** artículos 97; artículo 97; artículos 196; artículo 21 del Código Penal es una pena de simple delito; artículo 25; Ley 18.290; Ley 18.216; constitucion
+
+definitiva o unánime de la doctrina y la jurisprudencia respecto de las
       dos posturas señaladas, lo que implica que existiendo una duda razo-
       nable respecto del tema, debe optarse por la interpretación que resulte
       más favorable al condenado, precisamente porque se está aplicando una
@@ -9919,8 +9790,10 @@ Materiales Docentes                                                      Capítu
 
 Materiales Docentes                                                      Capítulo 8
 
-
 ## Capítulo 8
+
+**Definición Canónica:** Derecho penitenciario: El gran ausente
+**Concordancias Legales:** artículo 10; artículo 14
 
 Derecho penitenciario: El gran ausente
 
@@ -9977,8 +9850,11 @@ que en Chile se observa «una exclusión del estado de derecho en las cárceles 
 de la ejecución de las penas privativas de libertad y en la (aún) débil
 jurisdiccionalidad de los actos abusivos de la administración penitenciaria» (Horvitz, 2018: 945).
 
-
 ## 1 Comité para la Prevención de la Tortura, Prevención de la tortura y situación de
+
+**Definición Canónica:** las personas privadas de libertad en Chile. Primer informe anual 2020, disponible en
+https://bit.ly/43pz4O9.
+**Concordancias Legales:** artículo 10 del Pacto Internacional de Derechos Civiles y Pol; Artículo 10
 
 las personas privadas de libertad en Chile. Primer informe anual 2020, disponible en
 https://bit.ly/43pz4O9.
@@ -10002,7 +9878,15 @@ En este contexto, el artículo 10 del Pacto Internacional de Derechos Civiles y 
 
 ## 1. Toda persona privada de libertad será tratada humanamente y con el
 
-      respeto debido a la dignidad inherente al ser humano.
+**Definición Canónica:** respeto debido a la dignidad inherente al ser humano.
+       2. a) Los procesados estarán separados de los condenados, salvo en cir-
+      cunstancias excepcionales, y serán sometidos a un tratamiento distinto,
+      adecuado a su condición de personas no condenadas.
+       b) Los menores procesados estarán separados de los adultos y deberán
+      ser llevados ante los tribunales de justicia con la mayor celeridad posible
+      para su enjuiciamiento.
+
+respeto debido a la dignidad inherente al ser humano.
        2. a) Los procesados estarán separados de los condenados, salvo en cir-
       cunstancias excepcionales, y serán sometidos a un tratamiento distinto,
       adecuado a su condición de personas no condenadas.
@@ -10012,7 +9896,12 @@ En este contexto, el artículo 10 del Pacto Internacional de Derechos Civiles y 
 
 ## 3. El régimen penitenciario consistirá en un tratamiento cuya finalidad
 
-      esencial será la reforma y la readaptación social de los penados. Los me-
+**Definición Canónica:** esencial será la reforma y la readaptación social de los penados. Los me-
+      nores delincuentes estarán separados de los adultos y serán sometidos a
+      un tratamiento adecuado a su edad y condición jurídica.
+**Concordancias Legales:** artículo 5 de la Convención Americana de Derechos Humanos regu; Artículo 5
+
+esencial será la reforma y la readaptación social de los penados. Los me-
       nores delincuentes estarán separados de los adultos y serán sometidos a
       un tratamiento adecuado a su edad y condición jurídica.
 
@@ -10022,30 +9911,22 @@ Por su parte, el artículo 5 de la Convención Americana de Derechos Humanos reg
 
        Artículo 5. Derecho a la integridad personal.
 
-## 1. Toda persona tiene derecho a que se respete su integridad física, psí-
-
-      quica y moral.
-
-
 ## 2. Nadie debe ser sometido a torturas ni a penas o tratos crueles, inhu-
 
-      manos o degradantes. Toda persona privada de libertad será tratada con
+**Definición Canónica:** manos o degradantes. Toda persona privada de libertad será tratada con
       el respeto debido a la dignidad inherente al ser humano.
        3. La pena no puede trascender de la persona del delincuente.
 
-## 4. Los procesados deben estar separados de los condenados, salvo en
-
-      circunstancias excepcionales, y serán sometidos a un tratamiento ade-
-      cuado a su condición de personas no condenadas.
-
-## 5. Cuando los menores puedan ser procesados, deben ser separados de
-
-      los adultos y llevados ante tribunales especializados, con la mayor cele-
-      ridad posible, para su tratamiento.
+manos o degradantes. Toda persona privada de libertad será tratada con
+      el respeto debido a la dignidad inherente al ser humano.
+       3. La pena no puede trascender de la persona del delincuente.
 
 ## 6. Las penas privativas de la libertad tendrán como finalidad esencial la
 
-      reforma y la readaptación social de los condenados.
+**Definición Canónica:** reforma y la readaptación social de los condenados.
+**Concordancias Legales:** Constitución
+
+reforma y la readaptación social de los condenados.
 
 Reglas mínimas para el tratamiento de los reclusos
 (reglas Mandela)
@@ -10062,8 +9943,14 @@ sentencia firme penal de carácter condenatorio.
 derechos humanos.
    A continuación, se transcriben algunas de las 122 reglas Mandela.2
 
-
 ## 2 La Asamblea General adoptó, en diciembre del 2015, la revisión de las «Reglas
+
+**Definición Canónica:** Mínimas de las Naciones Unidas para el Tratamiento de los Reclusos». El grupo de
+expertos recomendó que las reglas revisadas fueran también denominadas «Reglas
+Nelson Mandela» en homenaje al legado del difunto presidente de Sudáfrica, Nelson
+Rolihlahla Mandela, quien pasó 27 años en prisión durante su lucha por los derechos humanos, la igualdad, la democracia y la promoción de una cultura de paz a
+nivel mundial.
+**Concordancias Legales:** artículo 1; artículo 19; artículo 93; artículo 94; Constitución Política; Constitución
 
 Mínimas de las Naciones Unidas para el Tratamiento de los Reclusos». El grupo de
 expertos recomendó que las reglas revisadas fueran también denominadas «Reglas
@@ -10184,14 +10071,18 @@ una orden válida de prisión preventiva o bien una sentencia condenatoria firme
 Chile asegura a todas las personas: «El derecho a la libertad personal y a
 la seguridad individual». En consecuencia:
 
-## 1. Nadie puede ser privado ni restringido de su libertad personal
-
-       sino en los casos y en la forma determinados por la Constitución
-       y las leyes.
-
 ## 2. Nadie puede ser arrestado o detenido, sujeto a prisión preventiva
 
-       o preso, sino en su casa o en lugares públicos destinados a este
+**Definición Canónica:** o preso, sino en su casa o en lugares públicos destinados a este
+       objeto. Los encargados de las prisiones no pueden recibir en ellas
+       a nadie en calidad de arrestado o detenido, procesado o preso, sin
+       dejar constancia de la orden correspondiente, emanada de autori-
+       dad que tenga facultad legal, en un registro que será público.
+   Al respecto, el Código Procesal Penal, en su artículo 133 dispone: «Ingreso de personas detenidas. Los encargados de los establecimientos penitenciarios no podrán aceptar el ingreso de personas sino en virtud de
+órdenes judiciales».
+**Concordancias Legales:** artículo 133; artículo 19; artículo 8 del Código Procesal Penal señala; artículo 4 del Código Procesal Penal señala; artículo 150; Constitución; Constitución Política
+
+o preso, sino en su casa o en lugares públicos destinados a este
        objeto. Los encargados de las prisiones no pueden recibir en ellas
        a nadie en calidad de arrestado o detenido, procesado o preso, sin
        dejar constancia de la orden correspondiente, emanada de autori-
@@ -10403,10 +10294,16 @@ que cumplen condena en libertad
 A continuación, se revisan algunas de las reglas de Tokio más relevantes
 a considerar en los aspectos tratados en este apartado.3
 
-
 ## 1.5 Los Estados miembros introducirán medidas no privativas de la li-
 
-      bertad en sus respectivos ordenamientos jurídicos para proporcionar
+**Definición Canónica:** bertad en sus respectivos ordenamientos jurídicos para proporcionar
+      otras opciones, y de esa manera reducir la aplicación de las penas de
+      prisión, y racionalizar las políticas de justicia penal, teniendo en cuenta
+      el respeto de los derechos humanos, las exigencias de la justicia social y
+      las necesidades de rehabilitación del delincuente.
+**Concordancias Legales:** Ley 18.216
+
+bertad en sus respectivos ordenamientos jurídicos para proporcionar
       otras opciones, y de esa manera reducir la aplicación de las penas de
       prisión, y racionalizar las políticas de justicia penal, teniendo en cuenta
       el respeto de los derechos humanos, las exigencias de la justicia social y
@@ -10415,15 +10312,19 @@ a considerar en los aspectos tratados en este apartado.3
    Cabe destacar que, todas las normas de penas sustitutivas de la Ley
 18.216, son medidas no privativas de libertad.
 
-
 ## 2.1 Las disposiciones pertinentes de las presentes reglas se aplicarán a
 
-      todas las personas sometidas a acusación, juicio o cumplimiento de una
+**Definición Canónica:** todas las personas sometidas a acusación, juicio o cumplimiento de una
       sentencia, en todas las fases de la administración de la justicia penal. A
       los efectos de las Reglas, estas personas se designarán «delincuentes»,
 
+todas las personas sometidas a acusación, juicio o cumplimiento de una
+      sentencia, en todas las fases de la administración de la justicia penal. A
+      los efectos de las Reglas, estas personas se designarán «delincuentes»,
 
 ## 3 Reglas mínimas de las Naciones Unidas sobre las medidas no privativas de la
+
+**Definición Canónica:** libertad, adoptadas por la Asamblea General en su Resolución 45/110, de 14 de diciembre de 1990.
 
 libertad, adoptadas por la Asamblea General en su Resolución 45/110, de 14 de diciembre de 1990.
 
@@ -10433,10 +10334,13 @@ libertad, adoptadas por la Asamblea General en su Resolución 45/110, de 14 de d
   Las reglas de Tokio se aplican a condenados y privados de libertad en
 espera de juicio.
 
-
 ## 2.2 Las reglas se aplicarán sin discriminación alguna por motivos de
 
-      raza, color, sexo, edad, idioma, religión, opinión política o de otra ín-
+**Definición Canónica:** raza, color, sexo, edad, idioma, religión, opinión política o de otra ín-
+      dole, origen nacional o social, patrimonio, nacimiento o cualquier otra
+      condición.
+
+raza, color, sexo, edad, idioma, religión, opinión política o de otra ín-
       dole, origen nacional o social, patrimonio, nacimiento o cualquier otra
       condición.
 
@@ -10444,10 +10348,18 @@ espera de juicio.
 opinión política o de otra índole, origen nacional o social, patrimonio,
 nacimiento o cualquier otra condición.
 
-
 ## 2.3 A fin de asegurar una mayor flexibilidad, compatible con el tipo y la
 
-      gravedad del delito, la personalidad y los antecedentes del delincuente y
+**Definición Canónica:** gravedad del delito, la personalidad y los antecedentes del delincuente y
+      la protección de la sociedad, y evitar la aplicación innecesaria de la pena
+      de prisión, el sistema de justicia penal establecerá una amplia serie de
+      medidas no privativas de la libertad, desde la fase anterior al juicio hasta
+      la fase posterior a la sentencia. El número y el tipo de las medidas no
+      privativas de la libertad disponibles deben estar determinados de mane-
+      ra tal que sea posible fijar de manera coherente las penas.
+**Concordancias Legales:** Artículo 155
+
+gravedad del delito, la personalidad y los antecedentes del delincuente y
       la protección de la sociedad, y evitar la aplicación innecesaria de la pena
       de prisión, el sistema de justicia penal establecerá una amplia serie de
       medidas no privativas de la libertad, desde la fase anterior al juicio hasta
@@ -10495,34 +10407,25 @@ ejemplo,
 
    Siguiendo con las reglas de Tokio:
 
-
-## 2.4 Se alentará y supervisará atentamente el establecimiento de nuevas
-
-      medidas no privativas de la libertad y su aplicación se evaluará sistemá-
-      ticamente.
-
-   Se deberán buscar nuevas alternativas a la prisión.
-
-
 ## 2.5 Se considerará la posibilidad de ocuparse de los delincuentes en
 
-      la comunidad, evitando recurrir a procesos formales o juicios ante los
+**Definición Canónica:** la comunidad, evitando recurrir a procesos formales o juicios ante los
+      tribunales, de conformidad con las salvaguardias y las normas jurídicas.
+
+la comunidad, evitando recurrir a procesos formales o juicios ante los
       tribunales, de conformidad con las salvaguardias y las normas jurídicas.
 
    La pena no es la única manera que tiene la sociedad de encargarse de
 los condenados.
 
-
-## 2.6 Las medidas no privativas de la libertad serán utilizadas de acuerdo
-
-      con el principio de mínima intervención.
-
-   La privación de libertad debe ser una medida de última ratio.
-
-
 ## 2.7 La utilización de medidas no privativas de la libertad será parte de
 
-      un movimiento en pro de la despenalización y destipificación de delitos,
+**Definición Canónica:** un movimiento en pro de la despenalización y destipificación de delitos,
+      y no estarán encaminadas a obstaculizar ni a diferir las iniciativas en ese
+      sentido.
+**Concordancias Legales:** artículo 139 del Código Procesal Penal dispone
+
+un movimiento en pro de la despenalización y destipificación de delitos,
       y no estarán encaminadas a obstaculizar ni a diferir las iniciativas en ese
       sentido.
 
@@ -10538,36 +10441,44 @@ los condenados.
 
    La regla 3.4 de las reglas de Tokio señala:
 
-
 ## 3.4 Las medidas no privativas de la libertad que impongan una obliga-
 
-      ción al delincuente, aplicadas antes o en lugar del procedimiento o del
+**Definición Canónica:** ción al delincuente, aplicadas antes o en lugar del procedimiento o del
+      juicio, requerirán su consentimiento.
+
+ción al delincuente, aplicadas antes o en lugar del procedimiento o del
       juicio, requerirán su consentimiento.
 
   Al restringir otros derechos del condenado debe consultársele antes
 de la imposición de una medida no privativa de libertad.
 
-
 ## 3.5 Las decisiones sobre la imposición de medidas no privativas de la
 
-      libertad estarán sometidas a la revisión de una autoridad judicial u otra
+**Definición Canónica:** libertad estarán sometidas a la revisión de una autoridad judicial u otra
+      autoridad competente e independiente, a petición del delincuente.
+
+libertad estarán sometidas a la revisión de una autoridad judicial u otra
       autoridad competente e independiente, a petición del delincuente.
 
    Las decisiones sobre medidas no privativas de libertad serán revisables por alguna autoridad judicial o administrativa.
 
-
 ## 6.1 En el procedimiento penal solo se recurrirá a la prisión preventiva
 
-      como último recurso, teniendo debidamente en cuenta la investigación
+**Definición Canónica:** como último recurso, teniendo debidamente en cuenta la investigación
+      del supuesto delito y la protección de la sociedad y de la víctima.
+
+como último recurso, teniendo debidamente en cuenta la investigación
       del supuesto delito y la protección de la sociedad y de la víctima.
 
   La prisión preventiva es una herramienta de último recurso, antes
 habrá que aplicar otras medidas cautelares de menor intensidad.
 
-
 ## 7.1 Cuando exista la posibilidad de preparar informes de investigación
 
-      social, la autoridad judicial podrá valerse de un informe preparado por
+**Definición Canónica:** social, la autoridad judicial podrá valerse de un informe preparado por
+      un funcionario u organismo competente y autorizado. El informe con-
+
+social, la autoridad judicial podrá valerse de un informe preparado por
       un funcionario u organismo competente y autorizado. El informe con-
 
       tendrá información sobre el entorno social del delincuente que sea per-
@@ -10580,10 +10491,14 @@ habrá que aplicar otras medidas cautelares de menor intensidad.
   Los informes sociales o psicosociales son relevantes para la toma de
 decisiones sobre reclusos.
 
-
 ## 8.1 La autoridad judicial, que tendrá a su disposición una serie de san-
 
-      ciones no privativas de la libertad, al adoptar su decisión deberá tener
+**Definición Canónica:** ciones no privativas de la libertad, al adoptar su decisión deberá tener
+      en consideración las necesidades de rehabilitación del delincuente, la
+      protección de la sociedad y los intereses de la víctima, quien será con-
+      sultada cuando corresponda.
+
+ciones no privativas de la libertad, al adoptar su decisión deberá tener
       en consideración las necesidades de rehabilitación del delincuente, la
       protección de la sociedad y los intereses de la víctima, quien será con-
       sultada cuando corresponda.
@@ -10591,27 +10506,21 @@ decisiones sobre reclusos.
    Para decisiones judiciales no privativas de libertad se tendrán presente las necesidades de rehabilitación del delincuente, la protección de la
 sociedad y los intereses de la víctima.
 
-
 ## 10.1 El objetivo de la supervisión es disminuir la reincidencia y ayudar
 
-      al delincuente en su reinserción social de manera que se reduzca a un
+**Definición Canónica:** al delincuente en su reinserción social de manera que se reduzca a un
+      mínimo la probabilidad de que vuelva a la delincuencia.
+
+al delincuente en su reinserción social de manera que se reduzca a un
       mínimo la probabilidad de que vuelva a la delincuencia.
 
    La supervisión de los reclusos tiene como objetivo evitar la reincidencia de los mismos.
 
-
-## 11.1 La duración de las medidas no privativas de la libertad no superará
-
-      el plazo establecido por la autoridad competente de conformidad con la
-      ley.
-
-   Las medidas no privativas de libertad deben tener plazos acotados y
-respetarse.
-
-
 ## 11.2 Estará prevista la interrupción anticipada de la medida en caso de
 
-      que el delincuente haya reaccionado positivamente a ella.
+**Definición Canónica:** que el delincuente haya reaccionado positivamente a ella.
+
+que el delincuente haya reaccionado positivamente a ella.
 
   Una medida puede terminar anticipadamente si el recluso ha reaccionado positivamente a ella pues eso significa que ha cumplido sus fines.
 
@@ -10643,16 +10552,22 @@ discriminatoria.
 
 Regla 2.
 
-
 ## 1. Se deberá prestar atención adecuada a los procedimientos de ingreso
+
+**Definición Canónica:** de las mujeres y los niños, particularmente vulnerables en ese momento.
+Las reclusas recién llegadas deberán tener acceso a los medios que les
+permitan reunirse con sus familiares, recibir asesoramiento jurídico, y
+ser informadas sobre el reglamento, el régimen penitenciario y las instancias a las que recurrir en caso de necesitar ayuda en un idioma que
 
 de las mujeres y los niños, particularmente vulnerables en ese momento.
 Las reclusas recién llegadas deberán tener acceso a los medios que les
 permitan reunirse con sus familiares, recibir asesoramiento jurídico, y
 ser informadas sobre el reglamento, el régimen penitenciario y las instancias a las que recurrir en caso de necesitar ayuda en un idioma que
 
-
 ## 4 Reglas de las Naciones Unidas para el tratamiento de las reclusas y medidas no
+
+**Definición Canónica:** privativas de la libertad para las mujeres delincuentes, del 21 de diciembre de 2010,
+que fueron aprobadas sin votación (A/RES/65/229).
 
 privativas de la libertad para las mujeres delincuentes, del 21 de diciembre de 2010,
 que fueron aprobadas sin votación (A/RES/65/229).
@@ -10666,8 +10581,14 @@ un período razonable, en función del interés superior de los niños.
 
 Regla 3.
 
-
 ## 1. En el momento del ingreso, se deberá consignar el número de los hijos
+
+**Definición Canónica:** de las mujeres que ingresan en prisión y la información personal sobre
+ellos. En los registros deberá constar, sin que ello menoscabe los derechos de la madre, como mínimo el nombre de cada niño, su edad y, en
+caso de que no acompañen a su madre, el lugar en que se encuentran y
+su régimen de tutela o custodia.
+   2. Se dará carácter confidencial a toda información relativa a la identidad de los niños y al utilizarla se cumplirá invariablemente el requisito
+de tener presente su interés superior.
 
 de las mujeres que ingresan en prisión y la información personal sobre
 ellos. En los registros deberá constar, sin que ello menoscabe los derechos de la madre, como mínimo el nombre de cada niño, su edad y, en
@@ -10728,15 +10649,17 @@ religiosas y culturales, así como las prácticas y preceptos morales de los
 menores.
    Algunas de las reglas aplicables a menores privados de libertad son:
 
-
-## 1. El sistema de justicia de menores deberá respetar los derechos y la
-
-      seguridad de los menores y fomentar su bienestar físico y mental. El
-      encarcelamiento deberá usarse como último recurso.
-
 ## 2. Solo se podrá privar de libertad a los menores de conformidad con
 
-      los principios y procedimientos establecidos en las presentes Reglas, así
+**Definición Canónica:** los principios y procedimientos establecidos en las presentes Reglas, así
+      como en las Reglas mínimas de las Naciones Unidas para la administra-
+      ción de la justicia de menores (reglas de Beijing). La privación de liber-
+      tad de un menor deberá decidirse como último recurso y por el período
+      mínimo necesario y limitarse a casos excepcionales. La duración de la
+      sanción debe ser determinada por la autoridad judicial sin excluir la
+      posibilidad de que el menor sea puesto en libertad antes de ese tiempo.
+
+los principios y procedimientos establecidos en las presentes Reglas, así
       como en las Reglas mínimas de las Naciones Unidas para la administra-
       ción de la justicia de menores (reglas de Beijing). La privación de liber-
       tad de un menor deberá decidirse como último recurso y por el período
@@ -10746,7 +10669,17 @@ menores.
 
 ## 3. El objeto de las presentes Reglas es establecer normas mínimas acep-
 
-      tadas por las Naciones Unidas para la protección de los menores pri-
+**Definición Canónica:** tadas por las Naciones Unidas para la protección de los menores pri-
+      vados de libertad en todas sus formas, compatibles con los derechos
+      humanos y las libertades fundamentales, con miras a contrarrestar los
+      efectos perjudiciales de todo tipo de detención y fomentar la integración
+      en la sociedad.
+       4. Las reglas deberán aplicarse imparcialmente a todos los menores,
+      sin discriminación alguna por motivos de raza, color, sexo, edad, idio-
+      ma, religión, nacionalidad, opinión política o de otra índole, prácticas
+      o creencias culturales, patrimonio, nacim
+
+tadas por las Naciones Unidas para la protección de los menores pri-
       vados de libertad en todas sus formas, compatibles con los derechos
       humanos y las libertades fundamentales, con miras a contrarrestar los
       efectos perjudiciales de todo tipo de detención y fomentar la integración
@@ -10761,7 +10694,15 @@ menores.
 
 ## 11. A los efectos de las presentes reglas, deben aplicarse las definiciones
 
-      siguientes: a) Se entiende por menor toda persona de menos de 18 años
+**Definición Canónica:** siguientes: a) Se entiende por menor toda persona de menos de 18 años
+      de edad. La edad límite por debajo de la cual no se permitirá privar a
+      un niño de su libertad debe fijarse por ley; b) Por privación de liber-
+      tad se entiende toda forma de detención o encarcelamiento, así como
+      el internamiento en un establecimiento público o privado del que no se
+      permita salir al menor por su propia voluntad, por orden de cualquier
+      autoridad judicial, administrativa u otra autoridad pública.
+
+siguientes: a) Se entiende por menor toda persona de menos de 18 años
       de edad. La edad límite por debajo de la cual no se permitirá privar a
       un niño de su libertad debe fijarse por ley; b) Por privación de liber-
       tad se entiende toda forma de detención o encarcelamiento, así como
@@ -10771,7 +10712,11 @@ menores.
 
 ## 12. La privación de la libertad deberá efectuarse en condiciones y cir-
 
-      cunstancias que garanticen el respeto de los derechos humanos de los
+**Definición Canónica:** cunstancias que garanticen el respeto de los derechos humanos de los
+      menores. Deberá garantizarse a los menores recluidos en centros el
+      derecho a disfrutar de actividades y programas útiles que sirvan para
+
+cunstancias que garanticen el respeto de los derechos humanos de los
       menores. Deberá garantizarse a los menores recluidos en centros el
       derecho a disfrutar de actividades y programas útiles que sirvan para
 
@@ -10781,14 +10726,28 @@ menores.
 
 ## 13. No se deberá negar a los menores privados de libertad, por razón de
 
-      su condición, los derechos civiles, económicos, políticos, sociales o cul-
+**Definición Canónica:** su condición, los derechos civiles, económicos, políticos, sociales o cul-
+      turales que les correspondan de conformidad con la legislación nacional
+      o el derecho internacional y que sean compatibles con la privación de la
+      libertad.
+
+su condición, los derechos civiles, económicos, políticos, sociales o cul-
       turales que les correspondan de conformidad con la legislación nacional
       o el derecho internacional y que sean compatibles con la privación de la
       libertad.
 
 ## 14. La protección de los derechos individuales de los menores por lo
 
-      que respecta especialmente a la legalidad de la ejecución de las medidas
+**Definición Canónica:** que respecta especialmente a la legalidad de la ejecución de las medidas
+      de detención será garantizada por la autoridad competente, mientras
+      que los objetivos de integración social deberán garantizarse mediante
+      inspecciones regulares y otras formas de control llevadas a cabo, de con-
+      formidad con las normas internacionales, la legislación y los reglamen-
+      tos nacionales, por un órgano debidamente constituido que esté autori-
+      zado para visitar a los menores y que no pertenezca a la administración
+      del centro de detención.
+
+que respecta especialmente a la legalidad de la ejecución de las medidas
       de detención será garantizada por la autoridad competente, mientras
       que los objetivos de integración social deberán garantizarse mediante
       inspecciones regulares y otras formas de control llevadas a cabo, de con-
@@ -10799,7 +10758,16 @@ menores.
 
 ## 17. Se presume que los menores detenidos bajo arresto o en espera de
 
-      juicio son inocentes y deberán ser tratados como tales. En la medida
+**Definición Canónica:** juicio son inocentes y deberán ser tratados como tales. En la medida
+      de lo posible, deberá evitarse y limitarse a circunstancias excepcionales
+      la detención antes del juicio. En consecuencia, deberá hacerse todo lo
+      posible por aplicar medidas sustitutorias. Cuando, a pesar de ello, se
+      recurra a la detención preventiva, los tribunales de menores y los órga-
+      nos de investigación deberán atribuir máxima prioridad a la más rápida
+      tramitación posible de esos casos a fin de que la detención sea lo más
+      breve posible. Los menores detenidos en espera de juicio d
+
+juicio son inocentes y deberán ser tratados como tales. En la medida
       de lo posible, deberá evitarse y limitarse a circunstancias excepcionales
       la detención antes del juicio. En consecuencia, deberá hacerse todo lo
       posible por aplicar medidas sustitutorias. Cuando, a pesar de ello, se
@@ -10811,7 +10779,17 @@ menores.
 
 ## 18. Las condiciones de detención de un menor que no haya sido juzga-
 
-      do deberán ajustarse a las reglas siguientes, y a otras disposiciones con-
+**Definición Canónica:** do deberán ajustarse a las reglas siguientes, y a otras disposiciones con-
+      cretas que resulten necesarias y apropiadas, dadas las exigencias de la
+      presunción de inocencia, la duración de la detención y la condición jurí-
+      dica y circunstancias de los menores. Entre esas disposiciones figurarán
+      las siguientes, sin que esta enumeración tenga carácter taxativo: a) Los
+      menores tendrán derecho al asesoramiento jurídico y podrán solicitar
+      asistencia jurídica gratuita, cuando esta exista, y comunicarse regular-
+      mente con sus asesores jurídicos. Deberá respetar
+**Concordancias Legales:** artículo 96 del Decreto Supremo 518 se señala; artículo 1 del Decreto Ley 321 señala; artículos 3; Artículo 3 del Decreto Ley 321; artículo 365 bis; artículos 366 bis; artículo 8; artículo 196 de la Ley 18.290; Artículo 3 bis; artículo 2; artículo 3; artículo 4 del Decreto Ley 321; artículo 11 del Código Penal; Artículo 3 ter; artículo 5; artículo 8 del Decreto Ley 321; artículo 1 del Decreto Ley 321. El artículo 4 del Decreto; artículo 6; artículo 9 del Decreto Supremo 338; artículo 1; artículos 2; artículo 4 de la Ley 19.856 señala; Artículo 4; artículo 7; artículo 9; artículo 14 del Código Orgánico de Tribunales; Ley 20.584; Ley 19.856; Ley 18.216; Ley 18.290; Ley 18.314; Ley 20.357; Ley 321; Constitución Política
+
+do deberán ajustarse a las reglas siguientes, y a otras disposiciones con-
       cretas que resulten necesarias y apropiadas, dadas las exigencias de la
       presunción de inocencia, la duración de la detención y la condición jurí-
       dica y circunstancias de los menores. Entre esas disposiciones figurarán
@@ -11188,7 +11166,15 @@ Tribunales, los jueces de garantía se encargan de:
 
 ## Título I del Libro IV del Código Procesal Penal, las faltas e infracciones
 
-      contempladas en la Ley de Alcoholes, cualquiera sea la pena que ella les
+**Definición Canónica:** contempladas en la Ley de Alcoholes, cualquiera sea la pena que ella les
+      asigne; g) conocer y resolver todas las cuestiones y asuntos que la ley de
+      responsabilidad penal juvenil les encomienden, y h) conocer y resolver
+      todas las cuestiones y asuntos que este Código, la ley procesal penal y
+      la ley que establece disposiciones especiales sobre el Sistema de Justicia
+      Militar les encomienden.
+**Concordancias Legales:** artículo 14; artículo 113 del Código Orgánico de Tribunales. Esta norma dis; artículos 466; artículo 466; artículos 467; Artículo 467; Artículo 468; artículo 147; Artículo 469; artículos 366; Artículo 470; artículos 167; Artículo 471; Artículo 472; Ley 18.216
+
+contempladas en la Ley de Alcoholes, cualquiera sea la pena que ella les
       asigne; g) conocer y resolver todas las cuestiones y asuntos que la ley de
       responsabilidad penal juvenil les encomienden, y h) conocer y resolver
       todas las cuestiones y asuntos que este Código, la ley procesal penal y
@@ -11331,8 +11317,14 @@ Materiales Docentes                                                          Cap
 
 ## parte del proceso de reinserción.6
 
+**Definición Canónica:** Sus objetivos estratégicos son:
+   Garantizar el cumplimiento eficaz de la prisión preventiva y de las
+condenas que los tribunales determinen, previniendo conductas y situaciones que pongan en riesgo el cumplimiento de este mandato, garantizando en este proceso el respeto de los derechos humanos en forma
+integral de la población bajo custodia o control, con personal penitenciario competente y formado y/o capacitado para estos fines en la escuela institucional.
+   Proporcionar atención a través de la entrega oportuna de condiciones
+básicas —alojamiento, alimentación y salud, entre otras— a la p
 
-   Sus objetivos estratégicos son:
+Sus objetivos estratégicos son:
    Garantizar el cumplimiento eficaz de la prisión preventiva y de las
 condenas que los tribunales determinen, previniendo conductas y situaciones que pongan en riesgo el cumplimiento de este mandato, garantizando en este proceso el respeto de los derechos humanos en forma
 integral de la población bajo custodia o control, con personal penitenciario competente y formado y/o capacitado para estos fines en la escuela institucional.
@@ -11373,6 +11365,11 @@ condenatoria» (Fernández, 2019: 54).
    Luego, los sujetos de la relación jurídica penitenciaria son, por una
 
 ## parte, la administración penitenciaria —Gendarmería de Chile— y por
+
+**Definición Canónica:** la otra, la población penal.
+   La población penal está compuesta por detenidos, imputados sujetos
+a la medida cautelar de prisión preventiva y condenados.
+**Concordancias Legales:** artículo 131; artículos 129; artículo 10 del Código Penal; Artículo 10; artículo 440; artículos 141; artículo 132; artículo 140 del Código Procesal Penal. También se comprende e; artículo 141; artículo 150; Artículo 133 del Código Procesal Penal. Ingreso de personas de; artículo 2; artículo 93; artículo 15 del Decreto Supremo 518
 
 la otra, la población penal.
    La población penal está compuesta por detenidos, imputados sujetos
@@ -11499,8 +11496,10 @@ cumplimiento penitenciario, que son aquellos que están destinados al
 cumplimiento de las penas privativas de libertad; centros de educación
 y trabajo, que contemplan un tratamiento de reinserción social espe-
 
-
 ## 10 Artículo 79 del Código Penal: No podrá ejecutarse pena alguna sino en virtud
+
+**Definición Canónica:** de sentencia ejecutoriada.
+**Concordancias Legales:** artículo 17; artículos 16; artículo 20; artículo 29; artículo 30; artículo 31; artículos 80 del Código Penal; artículo 150 del Código Procesal Penal y artículos 75; artículo 10; artículo 95; artículo 21 de la Constitución Política de la República; artículo 2 del Decreto Ley 321 y 4 del Decreto 2442; artículo 1 del Código Civil; artículo 3 del Decreto Ley 321; constitucion; Constitución Política
 
 de sentencia ejecutoriada.
 
@@ -11758,7 +11757,14 @@ conceder libertad condicional a un condenado
 
 ## 1. Que el informe psicosocial de Gendarmería de Chile, elaborado en
 
-      cumplimiento de la normativa legal aplicable, no refiere antecedentes ca-
+**Definición Canónica:** cumplimiento de la normativa legal aplicable, no refiere antecedentes ca-
+      tegóricos que permitan orientar sobre factores de riesgo de reincidencia
+      del amparado, que impidan reconocer su posibilidad de reinsertarse a
+      la sociedad al momento de postular a libertad condicional conforme lo
+      expresa el Decreto Ley 321, en el texto actual de su artículo 2, número 3.
+**Concordancias Legales:** artículo 2
+
+cumplimiento de la normativa legal aplicable, no refiere antecedentes ca-
       tegóricos que permitan orientar sobre factores de riesgo de reincidencia
       del amparado, que impidan reconocer su posibilidad de reinsertarse a
       la sociedad al momento de postular a libertad condicional conforme lo
@@ -11766,7 +11772,17 @@ conceder libertad condicional a un condenado
 
 ## 2 Que del mérito de los antecedentes, aparece de manifiesto que res-
 
-      pecto del recurrente se reúnen los requisitos exigidos por el Decreto Ley
+**Definición Canónica:** pecto del recurrente se reúnen los requisitos exigidos por el Decreto Ley
+      321 para la concesión de libertad condicional, y de conformidad además
+      con lo dispuesto en el artículo 21 de la Constitución Política de la Re-
+      pública, se revoca la sentencia apelada de siete de diciembre de dos mil
+      veintidós, dictada por la Corte de Apelaciones de Santiago, en el Ingreso
+      Corte 4385-2022 y, en su lugar, se declara que se acoge el recurso de am-
+      paro interpuesto en favor de L.A.D.L., dejándose sin efecto la resolución
+      dictada por la Comisión de Libertad Condicion
+**Concordancias Legales:** artículo 21 de la Constitución Política de la Re; artículo 26; artículo 2 del Decreto con Fuerza de Ley 1 del año 199; Ley 18.575; Constitución Política; Constitucion
+
+pecto del recurrente se reúnen los requisitos exigidos por el Decreto Ley
       321 para la concesión de libertad condicional, y de conformidad además
       con lo dispuesto en el artículo 21 de la Constitución Política de la Re-
       pública, se revoca la sentencia apelada de siete de diciembre de dos mil
@@ -11821,42 +11837,54 @@ conceder tal beneficio a un condenado
 
 ## 2. Que la ley 19.856 se refiere en su Título I al «beneficio de reducción
 
-      de condena», el cual se hace efectivo de conformidad al artículo 4, en el
+**Definición Canónica:** de condena», el cual se hace efectivo de conformidad al artículo 4, en el
+      momento en que se diere total cumplimiento a la pena impuesta, una
+      vez aplicada la rebaja que correspondiere de acuerdo a esta ley.
+**Concordancias Legales:** artículo 4
+
+de condena», el cual se hace efectivo de conformidad al artículo 4, en el
       momento en que se diere total cumplimiento a la pena impuesta, una
       vez aplicada la rebaja que correspondiere de acuerdo a esta ley.
 
-## 3. Que, en este caso, el amparado una vez aplicada la rebaja habría cum-
-
-      plido la pena el 4 de noviembre de 2022, y sin dicha rebaja finalizaría su
-      pena, considerando los abonos pertinentes, el 16 de enero de 2024.
-
-## 4. Que la norma de la Ley 19.856 concede un beneficio y no establece
-
-      un derecho, por lo que no cabe hablar más que de una mera expectativa
-      sujeta al cumplimiento de los requisitos legales del caso.
-
 ## 5. Que, los requisitos legales del caso son, entre otros, los contemplados
 
-      en la Ley 21.421, norma que es imperativa y de cumplimiento irrestricto
+**Definición Canónica:** en la Ley 21.421, norma que es imperativa y de cumplimiento irrestricto
+      por parte de los Organismos de la Administración del Estado, como lo
+      es el Ministerio de Justicia y Derechos Humanos.
+**Concordancias Legales:** Ley 21.421
+
+en la Ley 21.421, norma que es imperativa y de cumplimiento irrestricto
       por parte de los Organismos de la Administración del Estado, como lo
       es el Ministerio de Justicia y Derechos Humanos.
 
 ## 6. Que conforme a lo anterior el derecho que se alega vulnerado no es
 
-      tal, sin que le sea exigible a la recurrida satisfacer una mera expectativa
+**Definición Canónica:** tal, sin que le sea exigible a la recurrida satisfacer una mera expectativa
+      yendo en contra de un mandato legal expreso, de lo que se desprende
+      que su conducta se ajusta a la legalidad vigente.
+
+tal, sin que le sea exigible a la recurrida satisfacer una mera expectativa
       yendo en contra de un mandato legal expreso, de lo que se desprende
       que su conducta se ajusta a la legalidad vigente.
 
 ## 7. Que, además, para la acertada resolución de este recurso es útil tener
 
-      presente que la Ley 21.421, que modifica la Ley 19.856, debe considerarse
+**Definición Canónica:** presente que la Ley 21.421, que modifica la Ley 19.856, debe considerarse
+      como una norma integrante del ordenamiento ejecutivo de las penas, de
+      orden administrativo y, por ende, no queda sujeta al principio de irre-
+      troactividad de la ley penal, como lo ha planteado el recurrente.
+**Concordancias Legales:** Ley 21.421; Ley 19.856
+
+presente que la Ley 21.421, que modifica la Ley 19.856, debe considerarse
       como una norma integrante del ordenamiento ejecutivo de las penas, de
       orden administrativo y, por ende, no queda sujeta al principio de irre-
       troactividad de la ley penal, como lo ha planteado el recurrente.
 
 ## 8. Que, en consecuencia, la recurrida no ha incurrido en la ilegalidad
 
-      que se le atribuye.
+**Definición Canónica:** que se le atribuye.
+
+que se le atribuye.
 
 Apelación de Amparo en contra de la resolución
 de la Corte que desechó recurso en contra de resolución
@@ -11870,8 +11898,17 @@ conceder libertad condicional a un condenado
 
 ## 1. Que la Comisión recurrida rechazó el otorgamiento de la libertad
 
+**Definición Canónica:** condicional perseguida por el encartado, señalando lo siguiente: «Que
+      con arreglo al artículo 3 del Decreto Ley 321 constituye una facultad la
+      concesión de la libertad condicional en los casos en que los sentencia-
+      dos hayan cometido alguno de los delitos reseñados en la norma antes
+      mencionada, hipótesis que acontece en estos casos, por lo que se proce-
+      derá a denegar la concesión de dicho beneficio en virtud de las siguientes
+      consideraciones: a. Que sin perjuicio de que el certificado de conducta la
+      califica como muy buena, el contenido del informe ps
+**Concordancias Legales:** artículo 3 del Decreto Ley 321 constituye una facultad la; artículo 3; artículo 2
 
-      condicional perseguida por el encartado, señalando lo siguiente: «Que
+condicional perseguida por el encartado, señalando lo siguiente: «Que
       con arreglo al artículo 3 del Decreto Ley 321 constituye una facultad la
       concesión de la libertad condicional en los casos en que los sentencia-
       dos hayan cometido alguno de los delitos reseñados en la norma antes
@@ -11892,7 +11929,14 @@ conceder libertad condicional a un condenado
 
 ## 2. Que el amparado se encuentra cumpliendo una pena de diez años y
 
-      un día de presidio impuesta por el delito de secuestro calificado, ilícito
+**Definición Canónica:** un día de presidio impuesta por el delito de secuestro calificado, ilícito
+      no considerado en el artículo 3 del DL 321 aludido por la Comisión recu-
+      rrida, por lo que, cumpliendo todos los extremos del artículo 2 del mis-
+      mo cuerpo legal, como expresamente reconoce esta en su informe, no se
+      encontraba facultada para denegarle la libertad condicional solicitada.
+**Concordancias Legales:** artículo 3 del DL 321 aludido por la Comisión recu; artículo 2; DL 321
+
+un día de presidio impuesta por el delito de secuestro calificado, ilícito
       no considerado en el artículo 3 del DL 321 aludido por la Comisión recu-
       rrida, por lo que, cumpliendo todos los extremos del artículo 2 del mis-
       mo cuerpo legal, como expresamente reconoce esta en su informe, no se
@@ -11900,7 +11944,15 @@ conceder libertad condicional a un condenado
 
 ## 3. Que, sin perjuicio de lo anterior, conviene aclarar que aun cuando
 
-      el párrafo 3 del artículo 110 del Estatuto de Roma establece restricciones
+**Definición Canónica:** el párrafo 3 del artículo 110 del Estatuto de Roma establece restricciones
+      para la reducción de la pena a quienes hayan sido condenados, entre
+      otros, por crímenes de lesa humanidad —como se califica el cometido
+      por el amparado—, tales limitaciones rigen solo para la rebaja de san-
+      ciones impuestas por la Corte Penal Internacional establecida por dicho
+      Estatuto, lo que, huelga aclarar, no se ajusta al caso sub lite.
+**Concordancias Legales:** artículo 110 del Estatuto de Roma establece restricciones
+
+el párrafo 3 del artículo 110 del Estatuto de Roma establece restricciones
       para la reducción de la pena a quienes hayan sido condenados, entre
       otros, por crímenes de lesa humanidad —como se califica el cometido
       por el amparado—, tales limitaciones rigen solo para la rebaja de san-
@@ -11909,7 +11961,17 @@ conceder libertad condicional a un condenado
 
 ## 4. Que, además de lo anterior, y en relación a la restricción contempla-
 
-      da en el párrafo 3 del artículo 110 del Estatuto de Roma, para el examen
+**Definición Canónica:** da en el párrafo 3 del artículo 110 del Estatuto de Roma, para el examen
+      de la reducción de la condena, esto es, que el recluso haya cumplido las
+      dos terceras partes de la pena o 25 años de prisión en caso de cadena
+      perpetua, cabe recordar que el legislador nacional, en diversas oportu-
+      nidades, la última de ellas mediante la Ley 20.931 de 5 de julio de 2016,
+      ha aumentado el tiempo mínimo de la pena que se debe servir para
+      acceder a la libertad condicional, tratándose de diversos delitos en que
+      estima necesaria tal restricción, sin incluir los delitos 
+**Concordancias Legales:** artículo 110 del Estatuto de Roma; artículo 109 ter del Reglamento de Establecimiento Penitenciarios; artículo 110 del Estatuto de Roma no resultan atingentes; artículo 2 del DL 321; artículo 19; Ley 20.931; Ley 20.357; DL 321; constitucion; Constitución Política
+
+da en el párrafo 3 del artículo 110 del Estatuto de Roma, para el examen
       de la reducción de la condena, esto es, que el recluso haya cumplido las
       dos terceras partes de la pena o 25 años de prisión en caso de cadena
       perpetua, cabe recordar que el legislador nacional, en diversas oportu-
@@ -11947,7 +12009,17 @@ conceder libertad condicional a un condenado
 
 ## 5. Que, reafirmando lo antes razonado, el Instituto Nacional de Dere-
 
-      chos Humanos en su informe denominado «Opinión de INDH sobre
+**Definición Canónica:** chos Humanos en su informe denominado «Opinión de INDH sobre
+      beneficios carcelarios a condenados por crímenes de guerra y/o delitos
+      de lesa humanidad», el que en lo tocante a la posibilidad de conceder
+      beneficios a los condenados por delitos contra los derechos humanos,
+      ha referido que: «Desde la perspectiva de los estándares internaciona-
+      les de derechos humanos, la posibilidad de aplicar atenuantes y benefi-
+      cios respecto de condenados por estos crímenes es aceptada, a condi-
+      ción que la sanción impuesta sea efectiva». Prosigue el citado informe
+    
+
+chos Humanos en su informe denominado «Opinión de INDH sobre
       beneficios carcelarios a condenados por crímenes de guerra y/o delitos
       de lesa humanidad», el que en lo tocante a la posibilidad de conceder
       beneficios a los condenados por delitos contra los derechos humanos,
@@ -11980,7 +12052,18 @@ conceder libertad condicional a un condenado
 
 ## 6. Que, en el orden referido, las Convenciones suscritas por Chile en
 
-      materia de derechos humanos no impiden reconocer a los condenados
+**Definición Canónica:** materia de derechos humanos no impiden reconocer a los condenados
+      su derecho a reincorporarse a la sociedad mediante mecanismos como
+      el de la libertad condicional y, concordantemente, el fallo dictado por
+      la Corte Interamericana de Derechos Humanos en el caso Barrios Altos
+      vs. Perú, en la resolución sobre el cumplimiento de la sentencia de 7 de
+      septiembre de 2012, solo cuestiona el otorgamiento «indebido» de bene-
+      ficios en la ejecución de la pena, lo que eventualmente puede conducir
+      a una forma de impunidad, situación que no se presenta en el caso de
+
+**Concordancias Legales:** artículo 3 del DL 321; DL 321
+
+materia de derechos humanos no impiden reconocer a los condenados
       su derecho a reincorporarse a la sociedad mediante mecanismos como
       el de la libertad condicional y, concordantemente, el fallo dictado por
       la Corte Interamericana de Derechos Humanos en el caso Barrios Altos
@@ -12020,7 +12103,16 @@ conceder libertad condicional a un condenado
 
 ## 8. Que, finalmente, conviene aclarar que lo que se ha venido reflexio-
 
-      nando no conlleva desconocer la particular gravedad de los crímenes de
+**Definición Canónica:** nando no conlleva desconocer la particular gravedad de los crímenes de
+      lesa humanidad como aquel por el que cumple condena el amparado,
+      sin embargo, tal carácter ya fue considerado para excluir la extinción de
+      responsabilidad penal —y civil— que operaría en delitos comunes, por
+      causales como la amnistía y la prescripción, así como para fijar la cuan-
+      tía de la pena y, por consiguiente, determinar su cumplimiento efectivo,
+      de manera que no resulta razonable considerarlo nuevamente, esta vez,
+      para negar de manera absoluta el acceso a la libertad condicio
+
+nando no conlleva desconocer la particular gravedad de los crímenes de
       lesa humanidad como aquel por el que cumple condena el amparado,
       sin embargo, tal carácter ya fue considerado para excluir la extinción de
       responsabilidad penal —y civil— que operaría en delitos comunes, por
@@ -12033,7 +12125,18 @@ conceder libertad condicional a un condenado
 
 ## 9. Que, en consecuencia, en este caso la Comisión recurrida ha negado
 
-      la libertad condicional al amparado pese a cumplir todos los extremos
+**Definición Canónica:** la libertad condicional al amparado pese a cumplir todos los extremos
+      previstos en el artículo 2 del DL 321, con lo cual se le ha privado ilegal-
+      mente de su derecho a recuperar, condicionalmente, su libertad ambu-
+      latoria, por lo que la acción de amparo examinada deberá ser acogida en
+      la forma pedida en el arbitrio.
+       Por estas consideraciones y visto, además, lo dispuesto en el artícu-
+      lo 21 de la Constitución Política de la República, se revoca la sentencia
+      apelada de diecisiete de julio de dos mil dieciocho dictada por la Corte
+      de Apelaciones 
+**Concordancias Legales:** artículo 2 del DL 321; artículo 110; artículo 5; artículo 5 de la Carta Fundamental; artículo 21 de la Constitución Política de la República; Ley 19.856; DL 321; Constitución Política
+
+la libertad condicional al amparado pese a cumplir todos los extremos
       previstos en el artículo 2 del DL 321, con lo cual se le ha privado ilegal-
       mente de su derecho a recuperar, condicionalmente, su libertad ambu-
       latoria, por lo que la acción de amparo examinada deberá ser acogida en
@@ -12170,25 +12273,32 @@ conceder tal beneficio a un condenado
        Vistos: De la sentencia apelada se reproducen sus fundamentos 1 a 4,
       eliminándose lo demás. Y se tiene en su lugar y además presente:
 
-## 1. Que el artículo 25 del Reglamento del DL 321, señala que «si la Co-
-
-      misión estimare improcedente conceder el beneficio, fundamentará su
-      rechazo».
-
-## 2. Que la Comisión recurrida rechazó la libertad condicional pretendi-
-
-      da por el amparado por no cumplir con la exigencia de tiempo mínimo.
-
 ## 3. Que, a diferencia de lo señalado por la Comisión, considerando los
 
-      veinte meses de reducción obtenidos por su conducta sobresaliente de
+**Definición Canónica:** veinte meses de reducción obtenidos por su conducta sobresaliente de
+      conformidad con la Ley 19.856 y el abono de 1.039 días, el tiempo míni-
+      mo requerido para acceder a la libertad condicional se cumplió el veinte
+      de octubre de dos mil dieciséis.
+**Concordancias Legales:** Ley 19.856
+
+veinte meses de reducción obtenidos por su conducta sobresaliente de
       conformidad con la Ley 19.856 y el abono de 1.039 días, el tiempo míni-
       mo requerido para acceder a la libertad condicional se cumplió el veinte
       de octubre de dos mil dieciséis.
 
 ## 4. Que por su parte, la sentencia rechazó el otorgamiento de la libertad
 
-      condicional perseguida por el encartado, atendido que el contenido del
+**Definición Canónica:** condicional perseguida por el encartado, atendido que el contenido del
+      informe psicosocial integrado es negativo, lo que incide en un desfa-
+      vorable pronóstico de reinserción social, en cuanto no cuenta con las
+      aptitudes necesarias para reinsertarse en la sociedad con un bajo riesgo
+      de reincidencia criminal, lo que implica que no se encuentra corregido
+      y rehabilitado para la vida social, habilitando ello a la Comisión para
+      negar la libertad condicional conforme al artículo 3 del DL 321, no obs-
+      tante cumplir el amparado los requisitos de carácter objet
+**Concordancias Legales:** artículo 3 del DL 321; artículo 2; DL 321
+
+condicional perseguida por el encartado, atendido que el contenido del
       informe psicosocial integrado es negativo, lo que incide en un desfa-
       vorable pronóstico de reinserción social, en cuanto no cuenta con las
       aptitudes necesarias para reinsertarse en la sociedad con un bajo riesgo
@@ -12200,7 +12310,17 @@ conceder tal beneficio a un condenado
 
 ## 5. Que, si bien esta Corte ha señalado que en los casos previstos en el
 
-      artículo 3 del DL 321 el mero cumplimiento de los requisitos objetivos
+**Definición Canónica:** artículo 3 del DL 321 el mero cumplimiento de los requisitos objetivos
+      contemplados en el artículo 2 de ese cuerpo legal no impone el deber de
+      otorgar la libertad condicional, quedando reservado a la Comisión re-
+      currida la facultad de ponderar los antecedentes que le sean presentados
+      y, conforme a ellos, decidir fundadamente sobre la solicitud, el carácter
+      facultativo de esa determinación no importa que la misma pueda adop-
+      tarse descuidando el deber de motivarla adecuadamente, deber que no
+      se cumple en la resolución impugnada, la que entrega fundamen
+**Concordancias Legales:** artículo 3 del DL 321 el mero cumplimiento de los requisitos; artículo 2; DL 321
+
+artículo 3 del DL 321 el mero cumplimiento de los requisitos objetivos
       contemplados en el artículo 2 de ese cuerpo legal no impone el deber de
       otorgar la libertad condicional, quedando reservado a la Comisión re-
       currida la facultad de ponderar los antecedentes que le sean presentados
@@ -12215,7 +12335,16 @@ conceder tal beneficio a un condenado
 
 ## 5. Que, de esa manera, la decisión, no fundamenta ni siquiera de mane-
 
-      ra breve, por qué concretamente en relación al amparado el contenido
+**Definición Canónica:** ra breve, por qué concretamente en relación al amparado el contenido
+      del informe psicológico evacuado a su respecto le impide reintegrarse a
+      la sociedad, sin que baste, como se ha dicho, la mera y general remisión
+      a la opinión de los peritos informantes, porque ello en definitiva im-
+      portaría radicar en estos, y no en la Comisión, decidir el otorgamiento
+      de la libertad condicional y, además, aceptar que tal asunto se defina en
+      último término, nada más que en base a apreciaciones subjetivas obte-
+      nidas en una entrevista llevada a cabo en un determinado 
+
+ra breve, por qué concretamente en relación al amparado el contenido
       del informe psicológico evacuado a su respecto le impide reintegrarse a
       la sociedad, sin que baste, como se ha dicho, la mera y general remisión
       a la opinión de los peritos informantes, porque ello en definitiva im-
@@ -12233,7 +12362,18 @@ conceder tal beneficio a un condenado
 
 ## 6. Que, en consecuencia, en este caso la Comisión recurrida ha ejerci-
 
-      do la facultad otorgada en el artículo 3 del DL 321 para negar la libertad
+**Definición Canónica:** do la facultad otorgada en el artículo 3 del DL 321 para negar la libertad
+      condicional al amparado pese a cumplir todos los extremos previstos
+      en el artículo 2 del mismo texto, de manera infundada, con lo cual se le
+      ha privado ilegalmente de su derecho a recuperar, condicionalmente, su
+      libertad ambulatoria, por lo que la acción de amparo examinada deberá
+      ser acogida en la forma pedida en el arbitrio.
+        Por estas consideraciones y visto, además, lo dispuesto en el artículo 21
+      dela Constitución Política de la República, se revoca la sentencia ape-
+      
+**Concordancias Legales:** artículo 3 del DL 321 para negar la libertad condicion; artículo 2; artículo 21; artículo 391; artículo 15 del Código Penal; artículo 11; artículo 50 del Código Penal; artículo 67 del Código Penal; artículo 69 del Código Penal; artículo 9; artículo 192; Ley 18.216; Ley 19.970; Ley 17.798; Ley 18.290; DL 321; Constitución Política
+
+do la facultad otorgada en el artículo 3 del DL 321 para negar la libertad
       condicional al amparado pese a cumplir todos los extremos previstos
       en el artículo 2 del mismo texto, de manera infundada, con lo cual se le
       ha privado ilegalmente de su derecho a recuperar, condicionalmente, su
@@ -12450,6 +12590,8 @@ Ejercicio 3
 
 ## sección Calle Freire, se acercó desde atrás el imputado Hugo, quien le
 
+**Definición Canónica:** Materiales Docentes                                                         Anexo 1
+**Concordancias Legales:** artículo 432 del Código Penal; artículo 446 del Código Penal; artículo 15; artículo 11; artículo 475; artículo 366 del Código Penal; artículo 366 ter; artículo 361; artículo 436; artículo 12
 
 Materiales Docentes                                                         Anexo 1
 
@@ -12578,7 +12720,14 @@ Ejercicio 7
 
 ## parte posterior derecha del vehículo patente xxxx, marca Cherry, color
 
-      gris plata, conducido por Nicolás, siendo Manuel detenido por carabi-
+**Definición Canónica:** gris plata, conducido por Nicolás, siendo Manuel detenido por carabi-
+      neros constatando dicho personal que este mantenía un fuerte hálito
+      alcohólico; y de la toma de muestra de sangre para la alcoholemia, esta
+      arrojó 1,87 gramos por mil de alcohol en la sangre, ejerciendo la conduc-
+      ción en estado de ebriedad, sin haber obtenido licencia de conductor».
+**Concordancias Legales:** artículo 196 de la Ley 18.290; artículo 11; artículo 12; artículo 494; artículo 15; artículo 475; artículo 4 de la Ley 20.000. El tribunal estima que concurren; artículo 11 del Código Penal y no hay agravantes. Sin embargo; artículo 19; artículo 440 del Código Penal. El tribunal considera que conc; artículo 15 del Código Penal. Lo anterior; artículo 15 del Código Penal; artículo 367; artículo 368 bis; artículo 440 del Código Punitivo; artículo 7; artículo 402 del Código Penal. El tribunal considera que el a; artículo 11 del Código Penal y ninguna agravante. Materiales; artículo 436; artículo 15 del Código Punitivo; artículo 372 bis del Código Penal. Autor inmediato y directo del; artículo 390 ter; artículo 397; artículo 391; Ley 18.290; Ley 20.000; Ley 20.084; Ley 21.527; Ley 21.5271
+
+gris plata, conducido por Nicolás, siendo Manuel detenido por carabi-
       neros constatando dicho personal que este mantenía un fuerte hálito
       alcohólico; y de la toma de muestra de sangre para la alcoholemia, esta
       arrojó 1,87 gramos por mil de alcohol en la sangre, ejerciendo la conduc-
@@ -12899,8 +13048,13 @@ Ley 20.084 con las modificaciones de la Ley 21.5271
 
 ## Título preliminar: Disposiciones generales
 
+**Definición Canónica:** Artículo 1. Contenido de la ley. La presente ley regula la responsabilidad
+      penal de los adolescentes por los delitos que cometan, el procedimiento
+      para la averiguación y establecimiento de dicha responsabilidad, la deter-
+      minación de las sanciones procedentes y la forma de ejecución de éstas.
+**Concordancias Legales:** Artículo 1; artículos 494; artículo 477; Artículo 2; Artículo 3; Artículo 4; artículos 362; artículos 361; artículo 362; Artículo 5; artículos 141; artículos 150; artículo 411; artículo 433; Ley 21.527; ley 20.000; ley 19.968; Constitución
 
-       Artículo 1. Contenido de la ley. La presente ley regula la responsabilidad
+Artículo 1. Contenido de la ley. La presente ley regula la responsabilidad
       penal de los adolescentes por los delitos que cometan, el procedimiento
       para la averiguación y establecimiento de dicha responsabilidad, la deter-
       minación de las sanciones procedentes y la forma de ejecución de éstas.
@@ -12968,8 +13122,12 @@ Materiales Docentes                                                             
        La prescripción de la acción penal se suspende si se hubiere derivado el
       conflicto a una instancia de mediación y mientras ésta dure.
 
-
 ## Título I: Consecuencias de la declaración de
+
+**Definición Canónica:** responsabilidad de los adolescentes por infracciones
+a la Ley Penal
+Párrafo 1. De las sanciones en general
+**Concordancias Legales:** Artículo 6; artículo 9; artículo 16; Artículo 7; Artículo 8; artículo 24; Artículo 10; artículo 2320 del Código Civil; Artículo 11; Artículo 12; artículo 52; Artículo 13; Artículo 14; Artículo 15; artículo 20; Artículo 17; Artículo 18; Artículo 19; artículo 23; Artículo 21; artículo 69; artículos 50; artículo 351 del Código Procesal Penal. Artículo; ley 20.066; ley 19.327
 
 responsabilidad de los adolescentes por infracciones
 a la Ley Penal
@@ -13254,7 +13412,12 @@ Párrafo 5. De la determinación de las sanciones
 
 ## 5. Si la pena es igual o inferior a sesenta días, o si no constituye una pena
 
-      privativa o restrictiva de libertad o multa, el tribunal podrá imponer las
+**Definición Canónica:** privativa o restrictiva de libertad o multa, el tribunal podrá imponer las
+      penas de prestación de servicios en beneficio de la comunidad, reparación
+      del daño causado o amonestación.
+**Concordancias Legales:** artículos 11; Artículo 24; artículos 19; artículo 20; artículo 63 del Código Penal
+
+privativa o restrictiva de libertad o multa, el tribunal podrá imponer las
       penas de prestación de servicios en beneficio de la comunidad, reparación
       del daño causado o amonestación.
 
@@ -13327,14 +13490,20 @@ los siguientes criterios:
        d. La calidad en que interviene el condenado y el grado de ejecución del
       hecho.
 
-## 2. Los móviles y demás antecedentes que expliquen la ocurrencia de los
-
-      Hechos y el comportamiento delictivo.
-       3. La edad y el desarrollo psicosocial del condenado.
-
 ## 4. El comportamiento demostrado con anterioridad y posterioridad a la
 
-      ocurrencia de los hechos, y durante la instrucción del proceso, particular-
+**Definición Canónica:** ocurrencia de los hechos, y durante la instrucción del proceso, particular-
+      mente en lo referido a la comisión previa de otros hechos ilícitos sanciona-
+      dos de conformidad con esta ley, y lo que fuere relevante para la valora-
+      ción de los hechos enjuiciados.
+       Tratándose de la reiteración de delitos el tribunal tomará como base la
+      pena que corresponda al hecho más grave debiendo, alternativamente,
+      ampliar su extensión o imponer una más gravosa dentro de las alternati-
+      vas y plazos previstos en la ley, según cual fuere el número de los delitos,
+      las
+**Concordancias Legales:** artículos 9; artículo 21; Artículo 25; artículo 19; artículo 23; artículo 20; Artículo 25 bis; artículo 12; artículo 9; artículo 16; Artículo 25 ter; artículo 6; artículo 52; artículo 164 del Código Orgánico de Tribunales; Artículo 26; ley 20.066; ley 19.327
+
+ocurrencia de los hechos, y durante la instrucción del proceso, particular-
       mente en lo referido a la comisión previa de otros hechos ilícitos sanciona-
       dos de conformidad con esta ley, y lo que fuere relevante para la valora-
       ción de los hechos enjuiciados.
@@ -13455,8 +13624,10 @@ Materiales Docentes                                                             
       logo y en equivalentes circunstancias. A dichos efectos se tendrá en cuenta
       su naturaleza y, cuando fuere equivalente, su extensión.
 
-
 ## Título II: Procedimiento
+
+**Definición Canónica:** Párrafo 1. Disposiciones generales
+**Concordancias Legales:** Artículo 27; Artículo 27 bis; artículo 36 bis; Artículo 28; artículo 25 ter; artículos 185; artículo 185 del Código Procesal Penal. Sin perjuicio de ello; artículo 274 del Código Procesal Penal. Párrafo 2. Sistema de; Artículo 29; Artículo 29 bis; Artículo 29 ter; Artículo 30; Artículo 31; artículos 129; artículos 17; artículos 93; artículo 124 del Código Procesal Penal; artículo 26; Artículo 32; artículo 155 del Código Procesal Penal no pudieren ser a; artículo 37 bis; Artículo 32 bis; artículo 155 del Código Procesal Penal; Artículo 32 ter; artículo 6; artículo 25 bis; artículo 15; Artículo 33; Artículo 34; Artículo 35; artículo 170 del Código Procesal Penal; artículo 21; Artículo 35 bis; ley 20.084; ley 16.618; ley 19.327
 
 Párrafo 1. Disposiciones generales
 
@@ -13684,31 +13855,44 @@ Párrafo 4. De las salidas alternativas al procedimiento
 
 ## 1. No será aplicable lo dispuesto en la letra a) del inciso tercero del artícu-
 
-      lo 237 del Código Procesal Penal, pudiendo decretarse en cualquier caso,
+**Definición Canónica:** lo 237 del Código Procesal Penal, pudiendo decretarse en cualquier caso,
+      a menos que la pena resultante de lo dispuesto en el artículo 21 fuese de
+      aquellas que señala el numeral 1 del artículo 23.
+**Concordancias Legales:** artículo 21; artículo 23
+
+lo 237 del Código Procesal Penal, pudiendo decretarse en cualquier caso,
       a menos que la pena resultante de lo dispuesto en el artículo 21 fuese de
       aquellas que señala el numeral 1 del artículo 23.
 
-## 2. Se podrá decretar por un plazo no inferior a 6 ni superior a los 12 me-
-
-      ses.
-
 ## 3. El tribunal podrá imponer una o más de las condiciones señaladas en
 
-      el artículo 238 del Código Procesal Penal, a excepción de las dispuestas en
+**Definición Canónica:** el artículo 238 del Código Procesal Penal, a excepción de las dispuestas en
+      las letras e), f) y h) y de la obligación de no residir en un lugar determina-
+      do. Podrá, asimismo, decretar la obligación de reparar a la víctima, pres-
+      tar un servicio a la comunidad o de asistir a programas de entrenamiento
+      cognitivo, terapia familiar, de tratamiento de alcohol y/u otras drogas, de
+      intervención en violencia o abuso sexual u otro semejante.
+**Concordancias Legales:** artículo 238 del Código Procesal Penal
+
+el artículo 238 del Código Procesal Penal, a excepción de las dispuestas en
       las letras e), f) y h) y de la obligación de no residir en un lugar determina-
       do. Podrá, asimismo, decretar la obligación de reparar a la víctima, pres-
       tar un servicio a la comunidad o de asistir a programas de entrenamiento
       cognitivo, terapia familiar, de tratamiento de alcohol y/u otras drogas, de
       intervención en violencia o abuso sexual u otro semejante.
 
-## 4. También se podrá imponer alguna de las medidas accesorias previstas
-
-      en la letra c) del artículo 6, en cuyo caso tendrá lugar lo dispuesto en el
-      inciso segundo del artículo 25 bis de la presente ley.
-
 ## 5. Se deberá precisar la institución o la estrategia interinstitucional para
 
-      ejecutar las condiciones impuestas, así como para supervisar su cumpli-
+**Definición Canónica:** ejecutar las condiciones impuestas, así como para supervisar su cumpli-
+      miento y la periodicidad de la intervención. Se podrán, asimismo, fijar
+      audiencias de control y de seguimiento periódicas para verificar el cumpli-
+      miento de las condiciones impuestas o monitorear la asistencia al progra-
+      ma al que hubiere sido derivado.
+       Cualquiera de dichas instituciones podrá también solicitar la revocación
+      en los términos del artículo 239 del Código Procesal Penal.
+**Concordancias Legales:** artículo 239 del Código Procesal Penal. Párrafo 5. De la medi; Artículo 35 ter; artículos 4; artículo 2; Artículo 35; artículo 335 del Código Procesal Penal. Con ello ninguna; artículo 33; artículo 8; artículo 49 de la Ley que crea dicho Servicio. El; Artículo 36; Artículo 36 bis; artículo 22; artículo 27 bis; artículos 30; Artículo 37; artículo 235 del Código Procesal Penal serán plenamente apli; Artículo 37 bis; artículo 24; Artículo 38; Artículo 39; Artículo 40; artículo 343 del Código Procesal Penal deberá siempre ll; Artículo 40 bis; artículo 468 del Código Procesal Penal. Dicha comunicaci; artículos 13; artículo 49; artículo 41 bis; artículo 6; Artículo 40 ter; Artículo 41; ley 20.000; ley 20.609; ley 19.886; ley 20.066
+
+ejecutar las condiciones impuestas, así como para supervisar su cumpli-
       miento y la periodicidad de la intervención. Se podrán, asimismo, fijar
       audiencias de control y de seguimiento periódicas para verificar el cumpli-
       miento de las condiciones impuestas o monitorear la asistencia al progra-
@@ -14010,8 +14194,10 @@ Párrafo 7. Juicio oral y sentencia
        En las demás condenas la ejecución se iniciará el día de ingreso efectivo
       del condenado al respectivo programa.
 
-
 ## Título III: De la ejecución de las sanciones y medidas
+
+**Definición Canónica:** Párrafo 1. Administración
+**Concordancias Legales:** Artículo 42; Artículo 43; Artículo 44; Artículo 44 bis; Artículo 45; Artículo 46; Artículo 47; Artículo 48; Artículo 48 bis; artículo 4; Artículo 49; Artículo 50; Artículo 51; Artículo 52; artículo 19; artículo 6; Artículo 52 bis; Artículo 53; Artículo 54; Artículo 55; Artículo 55 bis; ley 20.370; Constitución
 
 Párrafo 1. Administración
 
@@ -14345,11 +14531,20 @@ Materiales Docentes                                                          Ane
       ción de la víctima, debiendo el órgano correspondiente adoptar las medi-
       das de resguardo que sean pertinentes.
 
-
 ## Título final
 
+**Definición Canónica:** Artículo 56. Cumplimiento de la mayoría de edad. En caso que el im-
+      putado o condenado por una infracción a la ley penal fuere mayor de
+      dieciocho años o los cumpliere durante la ejecución de cualquiera de las
+      sanciones contempladas en esta ley o durante la tramitación del proce-
+      dimiento, continuará sometido a las normas de esta ley hasta el término
+      de éste.
+       Si al momento de alcanzar los dieciocho años restan por cumplir me-
+      nos de seis meses de la condena de internación en régimen cerrado,
+      permanecerá en el centro de privación de libertad del S
+**Concordancias Legales:** Artículo 56; Artículo 56 bis; Artículo 57; Artículo 58; artículo 351 del CPP; artículo 68 bis del Código Penal después de una compensación raci; artículo 69 del Código Penal; Ley N° 18.216; Ley 20.603; Ley N° 20.587; Ley Nº 18.216; Ley 18.216; ley 20.084; DL N° 321
 
-       Artículo 56. Cumplimiento de la mayoría de edad. En caso que el im-
+Artículo 56. Cumplimiento de la mayoría de edad. En caso que el im-
       putado o condenado por una infracción a la ley penal fuere mayor de
       dieciocho años o los cumpliere durante la ejecución de cualquiera de las
       sanciones contempladas en esta ley o durante la tramitación del proce-

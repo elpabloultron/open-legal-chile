@@ -13,20 +13,13 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Laboral | **Materia:** Laboral
 
-## 42           Office aplicado
-
-             al trabajo judicial
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Jorge Pacheco Kroff
+             Pamela Gotschlich Fuentes
+             Francisco Kroff Trujillo
 
-             Jorge Pacheco Kroff
+Jorge Pacheco Kroff
              Pamela Gotschlich Fuentes
              Francisco Kroff Trujillo
 
@@ -88,22 +81,9 @@ Materiales Docentes                                           ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Microsoft Word
-
-## 27      Capítulo 2
-
-        Microsoft Excel
-
-## 55      Capítulo 3
-
-        Uso práctico de las herramientas de Word
-        y Excel en unidades judiciales
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Microsoft Word
 
 Microsoft Word
 
@@ -146,7 +126,11 @@ Materiales Docentes                                                          Cap
 
 ## 2. Seleccione la opción Todos los programas y dentro de ella la carpeta
 
-        Microsoft Office.
+**Definición Canónica:** Microsoft Office.
+     3. Identifique Word y haga clic sobre el con el botón derecho del mouse.
+     4. Seleccione la opción Anclar a la barra de tareas.
+
+Microsoft Office.
      3. Identifique Word y haga clic sobre el con el botón derecho del mouse.
      4. Seleccione la opción Anclar a la barra de tareas.
 
@@ -177,7 +161,20 @@ es posible acceder al menú completo que ofrece la opción.
 
 ## 1. Presione la tecla Alt. Verá que aparecen unos cuadros pequeños
 
-        denominados keytips sobre cada comando (letras pequeñas).
+**Definición Canónica:** denominados keytips sobre cada comando (letras pequeñas).
+     2. Presione la letra que corresponde al comando que desea utilizar.
+    Los métodos abreviados de teclado que se indican a continuación pueden
+   usarse para activar las keytips:
+      • Alt+A: Abrir la página Archivo
+      • Alt+O: Abrir la pestaña Inicio
+      • Alt+B: Abrir la pestaña Insertar
+      • Alt+C: Abrir la pestaña Diseño
+      • Alt+S: Abrir la pestaña Referencias
+      • Alt+R: Abrir la pestaña Revisar
+      • Alt+N: Abrir la pestaña Vista
+      • Alt+Q: Abrir el cuadro Información para hacer una búsqueda
+
+denominados keytips sobre cada comando (letras pequeñas).
      2. Presione la letra que corresponde al comando que desea utilizar.
     Los métodos abreviados de teclado que se indican a continuación pueden
    usarse para activar las keytips:
@@ -206,14 +203,14 @@ rápida comandos de uso frecuente como Guardar, Deshacer o Rehacer.
    En la barra de acceso rápido podemos incluir todos los comandos que usamos
    en forma frecuente, para no tener que buscarlos en los menús específicos:
 
-## 1. Vaya a la Barra de herramientas de acceso rápido y presione
-
-        Personalizar. Se desplagará un menú con las alternativas de comandos
-        disponibles para agregar.
-
 ## 2. En caso de que no encuentre el ícono del comando deseado, haga clic
 
-        sobre la opción Más comandos y escoja de la lista desplegable el que
+**Definición Canónica:** sobre la opción Más comandos y escoja de la lista desplegable el que
+        necesita.
+   ¡Listo! Ya puede utilizar sus comandos de uso frecuente desde la barra.
+   Ahorrará mucho tiempo sin tener que abrir cada menú.
+
+sobre la opción Más comandos y escoja de la lista desplegable el que
         necesita.
    ¡Listo! Ya puede utilizar sus comandos de uso frecuente desde la barra.
    Ahorrará mucho tiempo sin tener que abrir cada menú.
@@ -302,7 +299,13 @@ Materiales Docentes                                                            C
 
 ## 2. Comience a escribir. Verá cómo este adquiere el formato que ha
 
-        predeterminado.
+**Definición Canónica:** predeterminado.
+   En caso de que copie un texto desde otro archivo, seleccione la opción mantener
+   solo texto de las opciones de pegado para mantener el formato escogido.
+     ¡Listo! Con esta práctica no tendrá que preocuparse de que su texto tenga
+   distintos formatos de fuente durante su creación.
+
+predeterminado.
    En caso de que copie un texto desde otro archivo, seleccione la opción mantener
    solo texto de las opciones de pegado para mantener el formato escogido.
      ¡Listo! Con esta práctica no tendrá que preocuparse de que su texto tenga
@@ -646,8 +649,9 @@ Materiales Docentes                                                           Ca
    asistente para combinar correspondencia y siga paso a paso los pasos que se
    indicarán.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Microsoft Excel
 
 Microsoft Excel
 
@@ -681,7 +685,11 @@ Materiales Docentes                                                          Cap
 
 ## 2. Seleccione la opción Todos los programas y dentro de ella la carpeta
 
-        Microsoft Office.
+**Definición Canónica:** Microsoft Office.
+     3. Identifique Excel y haga clic sobre el con el botón derecho del mouse.
+     4. Seleccione la opción Anclar a la barra de tareas.
+
+Microsoft Office.
      3. Identifique Excel y haga clic sobre el con el botón derecho del mouse.
      4. Seleccione la opción Anclar a la barra de tareas.
 
@@ -716,7 +724,19 @@ Materiales Docentes                                                           Ca
 
 ## 1. Presione la tecla Alt. Verá que aparecen unos cuadros pequeños
 
-        denominados keytips sobre cada comando (letras pequeñas).
+**Definición Canónica:** denominados keytips sobre cada comando (letras pequeñas).
+     2. Presione la letra que corresponde al comando que desea utilizar.
+   Los métodos abreviados de teclado que se indican a continuación pueden
+   usarse para activar las keytips:
+      • Alt+A: Ir a la pestaña Archivo
+      • Alt+B: Ir a la pestaña Insertar
+      • Alt+O: Ir a la pestaña Inicio
+      • Alt+C: Ir a la pestaña Diseño de página
+      • Alt+D: Ir a la pestaña Datos
+      • Alt+N: Ir a la pestaña Vista
+      • Alt+U:           Ir        a       la          pestaña            Fórmulas
+
+denominados keytips sobre cada comando (letras pequeñas).
      2. Presione la letra que corresponde al comando que desea utilizar.
    Los métodos abreviados de teclado que se indican a continuación pueden
    usarse para activar las keytips:
@@ -744,14 +764,12 @@ Materiales Docentes                                                        Capí
    En la barra de acceso rápido podemos incluir todos los comandos que usamos
    en forma frecuente, para no tener que buscarlos en los menús específicos:
 
-## 1. Vaya a la Barra de tareas de acceso rápido y presione Personalizar. Se
-
-        desplegará un menú con las alternativas de comandos disponibles para
-        agregar.
-
 ## 2. En caso de que no encuentre el ícono del comando deseado, haga clic
 
-        sobre la opción Más comandos y escoja de la lista desplegable que
+**Definición Canónica:** sobre la opción Más comandos y escoja de la lista desplegable que
+        n e c e s i t a .
+
+sobre la opción Más comandos y escoja de la lista desplegable que
         n e c e s i t a .
 
    ¡Listo! Ya puede utilizar sus comandos de uso frecuente desde la barra.
@@ -840,13 +858,11 @@ Materiales Docentes                                                            C
    automática, podemos utilizar el autorrelleno, que es la opción que aparece en
    el costado inferior derecho de la celda de inicio.
 
-## 1. Digita el inicio de una serie de datos, los que pueden ser días de la
-
-        semana, meses, años o números.
-
 ## 2. Haz clic en la celda de inicio de la serie y arrastra el contenido hacia las
 
-        celdas adyacentes en que se desee visualizar el contenido.
+**Definición Canónica:** celdas adyacentes en que se desee visualizar el contenido.
+
+celdas adyacentes en que se desee visualizar el contenido.
 
    ¡Listo! Utilizando la opción autorrelleno se optimizará el tiempo que utiliza
    en el ingreso de datos en su hoja de cálculo. Úselo para preparar informes
@@ -926,7 +942,12 @@ Materiales Docentes                                                          Cap
 
 ## 1. Crearemos una planilla con los datos necesarios, en este caso, rol de la
 
-        causa, año, nombre del imputado, fecha de la última revisión de la
+**Definición Canónica:** causa, año, nombre del imputado, fecha de la última revisión de la
+        medida cautelar y una última celda que denominaremos «Plazo», para
+        aplicar en ella el formato condicional, e ingresaremos los datos como se
+        muestra                    en                  la                imagen:
+
+causa, año, nombre del imputado, fecha de la última revisión de la
         medida cautelar y una última celda que denominaremos «Plazo», para
         aplicar en ella el formato condicional, e ingresaremos los datos como se
         muestra                    en                  la                imagen:
@@ -939,19 +960,13 @@ Materiales Docentes                                                          Cap
         última revisión, a lo que se suman los 180 días en que se debe controlar
         nuevamente.
 
-## 3. Haga clic en la celda «E2», vaya a la pestaña Inicio y presione Formato
-
-        condicional.
-     4. Escoja una regla, en este caso utilizaremos la regla menor.
-
-## 5. Ingrese la condición. En este caso, cuando la fecha del plazo sea menor
-
-        que la actual estará vencido, como se observa en el ejemplo:
-
-
 ## 6. Copie la fórmula del formato condicional hacia las celdas inferiores para
 
-        poder ingresar más registros.
+**Definición Canónica:** poder ingresar más registros.
+   ¡Listo! Ya hemos creado una planilla básica para controlar un plazo. Siga el
+   ejemplo para crear otras de acuerdo a sus necesidades.
+
+poder ingresar más registros.
    ¡Listo! Ya hemos creado una planilla básica para controlar un plazo. Siga el
    ejemplo para crear otras de acuerdo a sus necesidades.
 
@@ -965,19 +980,11 @@ aceptarán datos en dicho formato mayores a la fecha actual.
    Para ello, debemos:
    5. Hacer clic en la celda a validar.
 
-## 6. Ir la pestaña Datos, escoger la opción Validación de datos y com-
-
-      pletar los datos de validación.
-   7. [excel-imagen-23]
-
-## 8. Es posible personalizar el mensaje de error que arrojará la celda en
-
-      caso de digitarse en ella un dato que no cumple con la condición
-      definida. Para ello, configúrelo en la pestaña Mensaje de error.
-
 ## 9. También podemos agregar un texto en la opción Mensaje de entrada
 
-      que explique qué datos son los aceptados en esa celda.
+**Definición Canónica:** que explique qué datos son los aceptados en esa celda.
+
+que explique qué datos son los aceptados en esa celda.
 
 Protección de celdas
 Esta función nos permite proteger celdas en planillas de uso personal o
@@ -990,7 +997,13 @@ en forma accidental en nuestros archivos.
 
 ## 1. Vaya a la pestaña Revisar y seleccione Proteger hoja. Deje las
 
-      opciones marcadas por defecto y acepte. Con esto, no se podrán
+**Definición Canónica:** opciones marcadas por defecto y acepte. Con esto, no se podrán
+      efectuar modificaciones a menos que se ingrese la contraseña que
+      desprotege la hoja.
+Academia Judicial de Chile                        Office aplicado para el trabajo judicial
+Materiales Docentes                                                           Capítulo 2
+
+opciones marcadas por defecto y acepte. Con esto, no se podrán
       efectuar modificaciones a menos que se ingrese la contraseña que
       desprotege la hoja.
 Academia Judicial de Chile                        Office aplicado para el trabajo judicial
@@ -1000,7 +1013,11 @@ Materiales Docentes                                                           Ca
 
 ## 1. Vaya a la pestaña Revisar y escoja la opción Permitir que los usuarios
 
-      modifiquen rangos. En el menú, haga clic en Nuevo. Seleccione el
+**Definición Canónica:** modifiquen rangos. En el menú, haga clic en Nuevo. Seleccione el
+      rango de celdas susceptibles de ser modificadas y presione Aplicar.
+   2. Luego, proteja la hoja de acuerdo como se enseñó en el punto anterior.
+
+modifiquen rangos. En el menú, haga clic en Nuevo. Seleccione el
       rango de celdas susceptibles de ser modificadas y presione Aplicar.
    2. Luego, proteja la hoja de acuerdo como se enseñó en el punto anterior.
 
@@ -1012,7 +1029,13 @@ Materiales Docentes                                                           Ca
 
 ## 2. Haga clic sobre ella con el botón derecho del mouse y del menú escoja la
 
-        opción Formato de celdas.
+**Definición Canónica:** opción Formato de celdas.
+     3. Vaya a la pestaña Proteger y desmarque la opción Bloqueada.
+     4. Proteja la hoja tal como se indicó anteriormente.
+   ¡Listo! Ya tiene las celdas escogidas desbloqueadas y disponibles para ingresar
+   datos, mientras que su hoja está protegida ante errores inesperados.
+
+opción Formato de celdas.
      3. Vaya a la pestaña Proteger y desmarque la opción Bloqueada.
      4. Proteja la hoja tal como se indicó anteriormente.
    ¡Listo! Ya tiene las celdas escogidas desbloqueadas y disponibles para ingresar
@@ -1033,17 +1056,12 @@ multiplicación y división. Para ello:
    3. A continuación, escriba la operación aritmética a realizar.
    4. Ejemplo: «=10+10».
 
-## 5. Presione Enter. La celda en forma automática le devolverá el resul-
-
-      tado de la operación digitada.
-
-## 6. Puede, en vez de números, ingresar el nombre de celdas, o selec-
-
-      cionarlas, por ejemplo: «=D1+H2».
-
 ## 7. Para realizar más de una operación dentro de una celda, separe cada
 
-      una de ellas mediante el uso de paréntesis.
+**Definición Canónica:** una de ellas mediante el uso de paréntesis.
+   Ejemplo: «=(5-2)*3»
+
+una de ellas mediante el uso de paréntesis.
    Ejemplo: «=(5-2)*3»
 
    Dato útil: Referencias a celdas
@@ -1198,14 +1216,17 @@ con una base de datos. Como ejemplo, utilizaremos en este apartado una
 base de datos Query obtenida desde el módulo de informes del sistema
 de apoyo a la gestión Judicial SIAGJ.
 
-
-## Año     tipo      fecha
-
-
-## Ruc                  rit                                  tribunal de origen
-
-
 ## Causa   causa     ingreso
+
+**Definición Canónica:** 0610016787-3         1       2008    Exhorto   29-11-08
+                                                          de Rancagua.
+0600847054-3         2       2008    Exhorto   02-12-08
+                                                          de Puente Alto
+                                                          Sexto Tribunal de Juicio Oral en lo
+0701113188-8         3       2008    Exhorto   05-12-08
+                                                          Penal de Santiago
+0600065962-0         4       2008    Exhorto   05-12-08
+                                                          de R
 
 0610016787-3         1       2008    Exhorto   29-11-08
                                                           de Rancagua.
@@ -1317,8 +1338,10 @@ como no complejos durante un período:
 
 Materiales Docentes                                                    Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Uso práctico de las herramientas
+de Word y Excel en unidades judiciales
 
 Uso práctico de las herramientas
 de Word y Excel en unidades judiciales
@@ -1349,15 +1372,11 @@ Materiales Docentes                                                    Capítulo
 
    5. Acepte el grabado de la plantilla.
 
-
-## 6. Marque el botón Editar plantilla. Esta acción abrirá un documen-
-
-      to de Word.
-
-
 ## 7. Una vez en el documento de Word, siga los pasos indicados en
 
-      la imagen.
+**Definición Canónica:** la imagen.
+
+la imagen.
 
 Materiales Docentes                                                     Capítulo 3
 
@@ -1369,57 +1388,11 @@ Materiales Docentes                                                     Capítul
 
 Materiales Docentes                                                     Capítulo 3
 
-
-## 11. Con el paso anterior la creación de la plantilla estaría lista, solo
-
-       queda guardar los cambios.
-
-Plantillas Resoluciones SITLA
-
-   1. Ingrese al módulo MAO, opción Ingresar plantillas.
-
-Materiales Docentes                                                   Capítulo 3
-
-
-## 2. Presione la opción Crear plantilla ubicada en la parte inferior de
-
-      la pantalla.
-
-
-## 3. En la nueva pantalla seleccione Nueva plantilla y luego Crear
-
-      plantilla.
-
-Materiales Docentes                                                   Capítulo 3
-
-   4. Ingrese las nomenclaturas asociadas al trámite.
-
-
-## 5. Edite el texto de acuerdo a los pasos indicados en los números 7 al
-
-      11 del punto anterior.
-
-Plantillas Resoluciones SITLA
-
-   1. Ingrese al módulo MAO, opción Ingresa plantillas.
-
-Materiales Docentes                                                     Capítulo 3
-
-
-## 2. Presione la opción Crear plantilla ubicada en la parte inferior de
-
-      la pantalla.
-
-
-## 3. En la nueva pantalla seleccione el tipo de plantilla (Resolución), el
-
-      tipo de causa y las nomenclaturas asociadas. Luego presione Crear
-      plantilla.
-
-
 ## 4. Edite el texto de acuerdo a los pasos indicados en los números 7 al
 
-      11 de la primera sección.
+**Definición Canónica:** 11 de la primera sección.
+
+11 de la primera sección.
 
 Academia Judicial de Chile                   Office aplicado para el trabajo judicial
 Materiales Docentes                                                      Capítulo 3
@@ -1477,9 +1450,9 @@ una fecha y una hora.
 Academia Judicial de Chile                    Office aplicado para el trabajo judicial
 Materiales Docentes                                                       Capítulo 3
 
-
 ## Rit                    año causa       evento                 fecha evento
 
+**Definición Canónica:** 69                     2021            Solicitud Portal       20-11-2021 12:16
 
 69                     2021            Solicitud Portal       20-11-2021 12:16
 
@@ -1499,28 +1472,12 @@ Materiales Docentes                                                       Capít
 114                    2021                                   20-11-2021 11:00
                                        de sentencia
 
-
-## 1. Para hacerlo, seleccione la columna donde se encuentran los datos
-
-         que desea separar, presione la opción Texto en columnas ubicada
-         en la pestaña Datos y siga los pasos indicados por el asistente.
-
-
-## 2. En el caso de nuestro ejemplo, los datos están separados por un
-
-         espacio, por lo que el criterio para dividirlos será el espacio.
-
-Materiales Docentes                                                   Capítulo 3
-
-
-## 3. En la siguiente pantalla podremos escoger el formato de las celdas
-
-      ya separadas.
-
-
 ## 4. Al presionar Finalizar, Excel le consultará si desea reemplazar las
 
-      celdas de destino, haga clic en Aceptar. Podrá visualizar los datos
+**Definición Canónica:** celdas de destino, haga clic en Aceptar. Podrá visualizar los datos
+      separados en su pantalla.
+
+celdas de destino, haga clic en Aceptar. Podrá visualizar los datos
       separados en su pantalla.
 
 Materiales Docentes                                                     Capítulo 3
@@ -1537,16 +1494,12 @@ forma simultánea.
    Para crear un área de trabajo, debemos realizar las siguientes acciones:
    1. Abrir todos los documentos a trabajar.
 
-## 2. En la pestaña Vista, seleccione la opción Organizar todo. Escoja
-
-      el modelo de vista que se adapte a sus requerimientos, como cas-
-      cada, mosaico, horizontal o vertical. En la imagen a continuación
-      se muestra una organización horizontal.
-
-
 ## 3. Guarde el área de trabajo. Tenga precaución, ya que solo está guar-
 
-      dando la forma en que las áreas de trabajo se ven en pantalla. Para
+**Definición Canónica:** dando la forma en que las áreas de trabajo se ven en pantalla. Para
+      guardar la información de cada libro, hágalo en la forma habitual.
+
+dando la forma en que las áreas de trabajo se ven en pantalla. Para
       guardar la información de cada libro, hágalo en la forma habitual.
 
 Uso de la herramienta Excel como apoyo al control

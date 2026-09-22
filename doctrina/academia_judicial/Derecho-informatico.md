@@ -13,19 +13,13 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Lorena
+                                                     Donoso
+              Autores                                Abarca
 
-                                                 Lorena
+Lorena
                                                      Donoso
               Autores                                Abarca
 
@@ -35,19 +29,23 @@ extraccion: pdftotext
 
               Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Lorena
+                              Donoso
+                              Abarca
+                          Abogada de la Universidad de Chile, es
+                          Magíster en Informática y Derecho por
+                          la Universidad Complutense de Madrid.
+                          Árbitra de NIC Chile para la resolución
+                          de conflictos sobre nombres de domi-
+                          nio en internet, también es consejera
+                          del Instituto Chileno de Derecho y Tec-
+                          nologías y profesora asociada del De-
+   
+**Concordancias Legales:** Constitucion
 
-                          Lorena
+Lorena
                               Donoso
                               Abarca
                           Abogada de la Universidad de Chile, es
@@ -80,13 +78,11 @@ docente Nº 31             Información en la Universidad Alberto
                           no de Derecho y Tecnologías.
 Chile 2021
 
-
-## Isbn n°
-
-
 ## 2022-a-1849
 
-Derecho                                                                                                          3
+**Definición Canónica:** Derecho                                                                                                          3
+
+Derecho                                                                                                          3
 
                                         Resumen
 
@@ -122,279 +118,12 @@ Chile 2021
 
                                         1. Introducción al derecho informático                                                                        10
 
-
-## 1.1 Del fulgor de la informática jurídica al advenimiento de la gestión del conocimiento jurídico          11
-
-
-
-## 1.1.1 De la informática jurídica a la inteligencia artificial (IA) aplicada al derecho               11
-
-
-
-## 1.1.2 El derecho informático o derecho digital                                                       13
-
-
-
-## 1.1.3 Características del derecho informático                                                        14
-
-
-
-## 1.1.4 La informática y las telecomunicaciones como objeto regulado                                   15
-
-
-
-## 1.2 Principios que informan el derecho informático como disciplina jurídica                                17
-
-
-
-## 1.2.1 El respeto a la dignidad humana como base del sistema normativo                                17
-
-
-
-## 1.2.2 La autonomía de la voluntad                                                                    18
-
-
-
-## 1.2.3 El principio de buena fe y sus manifestaciones en las normas de derecho informático            18
-
-
-
-## 1.2.4 La igualdad ante la ley como principio base                                                    19
-
-
-
-## 1.2.5 La neutralidad tecnológica: equivalencia funcional y no discriminación                         20
-
-
-
-## 1.3 Regulación jurídica de las redes de comunicaciones electrónicas                                        25
-
-
-
-## 1.3.1 Antecedentes generales de la sociedad de la información y su sucesora, la sociedad red         25
-
-
-
-## 1.3.2 Servicio universal de telecomunicaciones y sociedad red                                        28
-
-
-
-## 1.4 Garantías fundamentales y tecnologías de la información y la comunicación (TIC)                        35
-
-
-
-## 1.4.1 Derechos fundamentales. Límite e impulso del desarrollo tecnológico.                           37
-
-
-
-## 1.4.2 Los derechos fundamentales reconocidos y su adaptación a la realidad actual                    37
-
-
-                                        2. Protección de datos personales en Chile                                                                    54
-
-
-## 2.1 En torno a la historia y los alcances de un derecho                                                    55
-
-
-
-## 2.2 Conceptos esenciales: datos personales, tratamiento de datos y registro o banco de datos               60
-
-
-
-## 2.2.1 Los datos personales                                                                           60
-
-
-
-## 2.2.2 Tratamiento de datos personales                                                                65
-
-
-
-## 2.2.3 Registro o banco de datos (art. 2º letra m, Ley Nº 19.628)                                     66
-
-
-
-## 2.2.4 Responsable del banco de datos y encargados del tratamiento (art. 2º letra n, Ley Nº 19.628)   67
-
-
-
-## 2.3 Principios aplicables a la normativa de protección de datos                                            69
-
-
-
-## 2.3.1 Principio general de legitimación                                                              69
-
-Derecho                                                                                                                                                    5
-
-
-## 2.3.2   Principio de lealtad y legalidad                                                            70
-
-
-
-## 2.3.3 Principio de finalidad                                                                         71
-
-
-
-## 2.3.4 Proporcionalidad                                                                               71
-
-
-
-## 2.3.5 Calidad                                                                                       72
-
-
-
-## 2.3.6 Principio de transparencia                                                                    72
-
-
-
-## 2.3.7 Principio de responsabilidad                                                                  73
-
-
-
-## 2.4 Los deberes de quienes realizan operaciones de tratamiento de datos                                   75
-
-
-
-## 2.5 Los derechos de acceso, rectificación, cancelación y oposición (ARCO)                                 77
-
-
-
-## 2.5.1 Derecho de acceso                                                                             77
-
-
-
-## 2.5.2 Derecho de rectificación                                                                      78
-
-
-
-## 2.5.3 Derecho de cancelación o supresión                                                            79
-
-
-
-## 2.5.4 Derecho de oposición                                                                          80
-
-
-
-## 2.6 Cambios en el ámbito de los derechos a partir de la entrada en vigencia del RGPD                      82
-
-
-
-## 2.6.1 Derecho de oposición                                                                          84
-
-
-
-## 2.6.2 Derecho a no ser objeto de decisiones automatizadas                                           85
-
-
-
-## 2.6.3 Derecho a la limitación del tratamiento (derecho de bloqueo de los datos personales)          85
-
-
-
-## 2.6.4 Derecho a la portabilidad de los datos personales                                             85
-
-
-
-## 2.7 El procedimiento de habeas data en la jurisprudencia civil                                            86
-
-
-
-## 2.8 El régimen infraccional en la Ley Nº 19.268                                                           90
-
-
-
-## 2.9 La acción de protección del derecho a la protección de datos personales                               92
-
-
-                                        3. Criminalidad informática                                                                                  94
-
-
-## 3.1 Los problemas de la falta de tipificación y su incorporación en leyes extravagantes                   95
-
-
-
-## 3.2 Directrices político-criminales                                                                       96
-
-
-
-## 3.3 El bien jurídico protegido y las características comunes a este tipo de delitos                       98
-
-
-
-## 3.4   Problemas dogmáticos y procesales que se presentan en el conocimiento y resolución de los delitos   101
-
-                                                 informáticos
-
-## 3.4.1 Concepto de delito informático                                                                101
-
-
-
-## 3.4.2 Generalidades sobre de la criminalidad informática                                            102
-
-
-
-## 3.4.3 Características objetivas de los delitos informáticos                                         103
-
-
-
-## 3.5 El marco jurídico internacional: Convenio de Budapest sobre Ciberdelincuencia (2001)                  108
-
-
-
-## 3.5.1 Ámbito sustantivo                                                                             108
-
-
-
-## 3.5.2 Ámbito adjetivo o normas procesales                                                           114
-
-
-
-## 3.6 La Ley Nº 19.223 sobre delitos informáticos y el contenido de su reforma                              115
-
-Derecho                                                                                                                                                      6
-
-
-## 3.6.1   Antecedentes                                                                                       115
-
-
-
-## 3.6.2   El bien jurídico protegido en la Ley Nº 19.223                                                     116
-
-
-
-## 3.6.3   El objeto del delito                                                                               117
-
-
-
-## 3.6.4   El sujeto activo de los delitos de la Ley Nº 19.223                                                119
-
-
-
-## 3.6.5   Los elementos subjetivos de los tipos penales de la Ley Nº 19.223                                  119
-
-
-
-## 3.6.6   Análisis del artículo 1º de la Ley Nº 19.223                                                       120
-
-
-
-## 3.6.7   Análisis del artículo 3º de la Ley Nº 19.223                                                       125
-
-
-                                           3.7 Otras leyes que prevén delitos de relevancia a efectos informáticos                                         128
-
-
-## 3.7.1   Delitos contra la propiedad intelectual y pirateo informático                                      128
-
-
-
-## 3.7.2   Delitos de pornografía infantil a través de medios computacionales                                 129
-
-
-
 ## 3.7.3   Grooming, bullying y otras formas de discriminación en línea                                       129
 
+**Definición Canónica:** 3.8 El singular problema de la llamada “estafa informática”                                                     134
+**Concordancias Legales:** Ley Nº 19.799
 
-                                           3.8 El singular problema de la llamada “estafa informática”                                                     134
+3.8 El singular problema de la llamada “estafa informática”                                                     134
 
                                         4. Documento electrónico y firma electrónica avanzada                                                              136
 
@@ -402,47 +131,33 @@ Chile 2021
 
                                            4.2 Conceptos generales: documento electrónico, firma electrónica y prestadores de servicios de certificación   140
 
-
-## 4.2.1 Identidad de los contratantes                                                                        142
-
-
-
 ## 4.2.2   Integridad y autenticidad del documento                                                            144
 
+**Definición Canónica:** 4.3 Principios jurídicos de la Ley Nº 19.799 y su aplicación                                                    145
+**Concordancias Legales:** Ley Nº 19.799
 
-                                           4.3 Principios jurídicos de la Ley Nº 19.799 y su aplicación                                                    145
+4.3 Principios jurídicos de la Ley Nº 19.799 y su aplicación                                                    145
 
                                            4.4 Impacto de la Ley Nº 19.799 y su ámbito de aplicación                                                       147
 
                                            4.5 El certificado de firma electrónica y la actividad de certificación                                         154
 
-
-## 4.5.1   La validez de los certificados                                                                     156
-
-
-
 ## 4.5.2   La acreditación fehaciente de la identidad del titular del certificado                             156
 
+**Definición Canónica:** 4.6 El proceso de firma de documentos                                                                           160
 
-                                           4.6 El proceso de firma de documentos                                                                           160
+4.6 El proceso de firma de documentos                                                                           160
 
                                            4.7 Responsabilidad de los prestadores del servicio de certificación                                            161
 
                                            4.8 La Subsecretaría de Economía como entidad acreditadora                                                      165
 
-
-## 4.8.1   Acreditación                                                                                       165
-
-
-
-## 4.8.2   Registro                                                                                           166
-
-
-
 ## 4.8.3   Fiscalización                                                                                      166
 
+**Definición Canónica:** 4.9 El documento electrónico firmado como medio de prueba y su valor probatorio                                 168
+**Concordancias Legales:** Ley Nº 19.799
 
-                                           4.9 El documento electrónico firmado como medio de prueba y su valor probatorio                                 168
+4.9 El documento electrónico firmado como medio de prueba y su valor probatorio                                 168
 
                                            4.10 El repositorio documental del notario considerando los estándares de la Ley Nº 19.799                      172
 
@@ -451,126 +166,12 @@ Chile 2021
                                            5.1 Aspectos generales de las imágenes y videos digitales como medios de prueba                                 174
 Derecho                                                                                                                                              7
 
-
-## 5.2 La captación de registros a través de cámaras y drones y los problemas de legalidad asociados   176
-
-
-
-## 5.3 Internet de las cosas (IoT) como medio de prueba                                                179
-
-
-
-## 5.4 Vigilancia, perfiles y big data                                                                 181
-
-
-
-## 5.5 Videovigilancia como medio para obtener pruebas a ser presentadas en juicio                     184
-
-
-
-## 5.6 Procedencia de los “modernos medios de prueba” en el proceso                                    188
-
-
-
-## 5.6.1   Relevancia, idoneidad y proporcionalidad                                               188
-
-
-
-## 5.6.2   Prohibiciones probatorias y las pruebas tecnológicas                                   192
-
-
-
-## 6. Contratación electrónica                                                                            195
-
-
-
-## 6.1 Sobre el concepto de contratación electrónica                                                   197
-
-
-
-## 6.2 Sobre la regulación del contrato electrónico                                                    198
-
-
-
-## 6.3 Clasificación de los contratos electrónicos                                                     199
-
-
-
-## 6.3.1   Según el tipo de sujetos intervinientes                                                199
-
-
-
-## 6.3.2   Según la forma en que se expresa la voluntad                                           199
-
-
-
-## 6.3.3   Según la forma de aceptación del contrato                                              200
-
-
-
-## 6.3.4   Según el modo de adhesión                                                              201
-
-
-
-## 6.3.5   Según su ejecución                                                                     201
-
-
-
-## 6.4 Formación del consentimiento                                                                    203
-
-
-
-## 6.5 La ley de protección de derechos del consumidor                                                 205
-
-
-
-## 6.6 Nuevas formas de contratación y contratos inteligentes                                          206
-
-
-
-## 7. Relaciones laborales y tecnologías                                                                  208
-
-
-
-## 7.1 Poder de vigilancia del empleador                                                               211
-
-
-
-## 7.2 Teletrabajo                                                                                     219
-
-
-
-## 7.2.1   El lugar físico en que se ha previsto la prestación de servicios                       222
-
-
-
-## 7.2.2   El teletrabajo en la legislación nacional                                              225
-
-
-
-## 7.3 El documento y firma electrónica en los documentos laborales                                    231
-
-
-
-## 7.3.1   Firma del contrato de trabajo a través de firma electrónica                            231
-
-
-
-## 7.3.2   Registro de asistencia                                                                 232
-
-
-
-## 7.3.3   Libro y comprobante de remuneraciones                                                  238
-
-
-
-## 7.3.4   Finiquito laboral                                                                      239
-
-
-
 ## 7.4 Requisitos comunes                                                                              241
 
-Derecho                                                                                                        8
+**Definición Canónica:** Derecho                                                                                                        8
+**Concordancias Legales:** Constitución; Constitución Política
+
+Derecho                                                                                                        8
 
                                           Tabla de abreviaturas
 
@@ -644,10 +245,11 @@ Chile 2021
 Derecho                                                                                       1. Introducción al derecho                                                      11
 Informático                                                                                      informático
 
-
 ## 1.1                Del fulgor de la informática jurídica al advenimiento
 
-                                                                                                de la gestión del conocimiento jurídico
+**Definición Canónica:** de la gestión del conocimiento jurídico
+
+de la gestión del conocimiento jurídico
 
                                                                                                 Tradicionalmente se habla de dos áreas de interacción entre el dere-
                                                                                                 cho y las tecnologías de la información y las comunicaciones (TIC);
@@ -655,10 +257,12 @@ Informático                                                                    
                                                                                                 en la otra, la regulación jurídica se aplica al fenómeno informático,
                                                                                                 siendo estas interacciones las que explicaremos a continuación.
 
-
 ## 1.1.1 De la informática jurídica a la inteligencia
 
-                                                                                                artificial (IA) aplicada al derecho
+**Definición Canónica:** artificial (IA) aplicada al derecho
+**Concordancias Legales:** Ley Nº 19.799; Ley Nº 21.096; Constitución Política
+
+artificial (IA) aplicada al derecho
 
                                                                                                 La primera área de interacción fue denominada originalmente “infor-
                                                                                                 mática jurídica” y se refiere al empleo de las TIC como herramientas
@@ -795,7 +399,13 @@ Informático                                                                    
 
 ## 1.1.3 Características del derecho informático
 
-                                                      aplicación de           La existencia de esta nueva rama del derecho no ha sido pacífica,
+**Definición Canónica:** aplicación de           La existencia de esta nueva rama del derecho no ha sido pacífica,
+                                                      múltiples áreas del     discutiéndose incluso, como ya hemos visto, no solo la denomina-
+                                                      conocimiento.           ción sino también su existencia misma. Ello, porque para algunos
+                                                                              en realidad solo de trataría de una fase de adecuación de nuestro
+                                                                              si
+
+aplicación de           La existencia de esta nueva rama del derecho no ha sido pacífica,
                                                       múltiples áreas del     discutiéndose incluso, como ya hemos visto, no solo la denomina-
                                                       conocimiento.           ción sino también su existencia misma. Ello, porque para algunos
                                                                               en realidad solo de trataría de una fase de adecuación de nuestro
@@ -822,10 +432,16 @@ Informático                                                                    
                                                                                               de su transmisión y comunicación (telemática, telecomunicaciones
                                                                                               o, más modernamente, comunicaciones electrónicas).
 
-
 ## 1.1.4 La informática y las telecomunicaciones
 
-                                                                                              como objeto regulado
+**Definición Canónica:** como objeto regulado
+                                                                                              En este contexto, entendemos la informática como el conjunto de
+                                                                                              técnicas destinadas al tratamiento lógico y automático de la informa-
+                                                                                              ción necesaria para la resolución de un determinado problema. En
+                                                                                              pala
+**Concordancias Legales:** Ley Nº 18.168
+
+como objeto regulado
                                                                                               En este contexto, entendemos la informática como el conjunto de
                                                                                               técnicas destinadas al tratamiento lógico y automático de la informa-
                                                                                               ción necesaria para la resolución de un determinado problema. En
@@ -882,10 +498,11 @@ Informático                                                                    
 Derecho                                                                                   1. Introducción al derecho                                              17
 Informático                                                                                  informático
 
-
 ## 1.2              Principios que informan el derecho informático
 
-                                                                                            como disciplina jurídica
+**Definición Canónica:** como disciplina jurídica
+
+como disciplina jurídica
 
                                                                                             Aunque nos encontramos ante un área del derecho emergente y
                                                                                             con pretensiones de independencia, también se inserta dentro del
@@ -893,10 +510,12 @@ Informático                                                                    
                                                                                             del derecho tienen plena aplicación dentro de ella, como se verá a
                                                                                             continuación.
 
-
 ## 1.2.1 El respeto a la dignidad humana
 
-                                                                                            como base del sistema normativo
+**Definición Canónica:** como base del sistema normativo
+**Concordancias Legales:** artículo 22 del Reglamento
+
+como base del sistema normativo
 
                                                                                             En primer lugar encontramos el respeto a la dignidad humana, en
                                                                                             virtud del reconocimiento de que todo sistema jurídico tiene por
@@ -919,21 +538,28 @@ Informático                                                                    
                                                                                             interpretación en base a garantías fundamentales, especialmente en
                                                                                             lo que se refiere a la garantía fundamental a la protección de datos, de
 
-
 ## 7        Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo
 
+**Definición Canónica:** Derecho                                                                                       1. Introducción al derecho                                                      18
+Informático                                                                                      informático
+**Concordancias Legales:** Ley Nº 19.628
 
-Derecho                                                                                       1. Introducción al derecho                                                      18
+Derecho                                                                                       1. Introducción al derecho                                                      18
 Informático                                                                                      informático
 
                                                                                                 la igualdad ante la ley y del reconocimiento de la dignidad humana.
                                                                                                 En todo caso, en el proyecto de ley que busca actualizar la Ley Nº
                                                                                                 19.628 se regula expresamente esta materia.8
 
-
 ## 1.2.2 La autonomía de la voluntad
 
-                                                                                                En esta misma línea, el reconocimiento de la libertad humana y el
+**Definición Canónica:** En esta misma línea, el reconocimiento de la libertad humana y el
+                                                                                                respeto de la autonomía de la voluntad, que se refleja en la auto-
+                                                                                                determinación de las personas, tiene una importancia gravitante en
+                                                                                                el derecho informático.
+**Concordancias Legales:** Ley Nº 19.799; Ley Nº 19.628
+
+En esta misma línea, el reconocimiento de la libertad humana y el
                                                                                                 respeto de la autonomía de la voluntad, que se refleja en la auto-
                                                                                                 determinación de las personas, tiene una importancia gravitante en
                                                                                                 el derecho informático.
@@ -959,10 +585,14 @@ Informático                                                                    
                                                                                                 aun de aquellos cuyo conocimiento por terceros sea fuente de dis-
                                                                                                 criminaciones arbitrarias.
 
-
 ## 1.2.3 El principio de buena fe y sus manifestaciones
 
-                                                                                                en las normas de derecho informático
+**Definición Canónica:** en las normas de derecho informático
+                                                                                                El principio de buena fe, enunciado en el Código Civil como “la
+                                                                                                conciencia de haber adquirido el dominio por un medio lícito, exento
+                                                                                                de fraude y de cualquier otro vicio”, pero que en general podemos
+
+en las normas de derecho informático
                                                                                                 El principio de buena fe, enunciado en el Código Civil como “la
                                                                                                 conciencia de haber adquirido el dominio por un medio lícito, exento
                                                                                                 de fraude y de cualquier otro vicio”, pero que en general podemos
@@ -1003,10 +633,17 @@ Informático                                                                    
                                                                  extendido y considerado a estos efectos como una ley modelo, como
                                                                  explicaremos más adelante.
 
-
 ## 1.2.4 La igualdad ante la ley como principio base
 
-                                                                 La igualdad ante la ley cobra asimismo especial relevancia en el
+**Definición Canónica:** La igualdad ante la ley cobra asimismo especial relevancia en el
+                                                                 entorno tecnológico, pues se considera que la paridad en el acceso a
+                                                                 los medios y servicios de la sociedad red reviste un factor crítico en el
+                                                                 avance hacia una sociedad más desarrollada y justa. Manifestaciones
+                                                                 de este reconocimiento las encontramos en la Ley Nº 18.168, ley
+
+**Concordancias Legales:** Ley Nº 18.168
+
+La igualdad ante la ley cobra asimismo especial relevancia en el
                                                                  entorno tecnológico, pues se considera que la paridad en el acceso a
                                                                  los medios y servicios de la sociedad red reviste un factor crítico en el
                                                                  avance hacia una sociedad más desarrollada y justa. Manifestaciones
@@ -1032,10 +669,15 @@ Informático                                                                    
                                                                                              conectarse a la información que necesitan para cumplir con sus
                                                                                              deberes ciudadanos.
 
-
 ## 1.2.5 La neutralidad tecnológica: equivalencia
 
-                                                                                             funcional y no discriminación
+**Definición Canónica:** funcional y no discriminación
+                                                                                             En derecho informático, un principio capital es el de neutralidad
+                                                                                             tecnológica, que implica que las normas generales o particulares
+                                                                                             enuncien los derechos y obligaciones de las personas sin nunca
+                                                                                             defi
+
+funcional y no discriminación
                                                                                              En derecho informático, un principio capital es el de neutralidad
                                                                                              tecnológica, que implica que las normas generales o particulares
                                                                                              enuncien los derechos y obligaciones de las personas sin nunca
@@ -1189,15 +831,15 @@ Informático                                                                    
 Derecho                                                              1. Introducción al derecho                                               25
 Informático                                                             informático
 
-
-## 1.3     Regulación jurídica de las redes de
-
-                                                                       comunicaciones electrónicas
-
-
 ## 1.3.1 Antecedentes generales de la sociedad de
 
-                                                                       la información y su sucesora, la sociedad red
+**Definición Canónica:** la información y su sucesora, la sociedad red
+                                                                       Es muy frecuente el uso de la expresión “sociedad de la informa-
+                                                                       ción”, concepto muy en boga en los años 90 y que, desprovisto de
+                                                                       significado, pervive aún hoy (de hecho, lo usaremos en este trabajo
+                                                                       más de alguna vez).
+
+la información y su sucesora, la sociedad red
                                                                        Es muy frecuente el uso de la expresión “sociedad de la informa-
                                                                        ción”, concepto muy en boga en los años 90 y que, desprovisto de
                                                                        significado, pervive aún hoy (de hecho, lo usaremos en este trabajo
@@ -1232,10 +874,15 @@ Informático                                                             inform�
 
 Derecho                                                        1. Introducción al derecho                                                 26
 
-
 ## 1.3.1.1 La información como eje central de la sociedad
 
-                                                                 La información y las industrias creadas para su tratamiento son el eje
+**Definición Canónica:** La información y las industrias creadas para su tratamiento son el eje
+                                                                 fundamental de la economía y de las relaciones sociales y políticas.
+                                                                 Incluso hemos vivido ejemplos dramáticos, que evidencian el alcance
+                                                                 que ha tenido este fenómeno. Las manipulaciones políticas y sociales
+                                                                 en entornos tales como Estados Unidos y Gran Bretaña evidenciar
+
+La información y las industrias creadas para su tratamiento son el eje
                                                                  fundamental de la economía y de las relaciones sociales y políticas.
                                                                  Incluso hemos vivido ejemplos dramáticos, que evidencian el alcance
                                                                  que ha tenido este fenómeno. Las manipulaciones políticas y sociales
@@ -1243,10 +890,12 @@ Informático                                                             inform�
                                                                  la fragilidad de los modelos sociales y políticos tradicionales frente a
                                                                  los gigantes de la información, en este caso Facebook.
 
-
 ## 1.3.1.2 Convergencia y digitalización
 
-                                                                 Los servicios antes se diferenciaban por los soportes y tecnologías
+**Definición Canónica:** Los servicios antes se diferenciaban por los soportes y tecnologías
+                                                                 en las cuales se prestaban, hoy en cambio todos los servicios son
+
+Los servicios antes se diferenciaban por los soportes y tecnologías
                                                                  en las cuales se prestaban, hoy en cambio todos los servicios son
 
                                                                  digitales y las redes de comunicaciones electrónicas son capaces de
@@ -1254,10 +903,16 @@ Informático                                                             inform�
                                                                  información integradas a través de los protocolos desarrollados a los
                                                                  efectos por las áreas técnicas.
 
-
 ## 1.3.1.3 Desmaterialización aparente
 
-                                                                 En el sentido de que lo que antes constaba en papel o soportes físicos
+**Definición Canónica:** En el sentido de que lo que antes constaba en papel o soportes físicos
+                                                                 hoy consta en las redes y servicios de comunicaciones electrónicas.
+                                                                 Decimos “aparente” porque no se trata de que los documentos se
+                                                                 desmaterialicen, sino que ahora constan en otros soportes distintos
+                                                                 del papel o la piedra. Constan en los sistemas de almacenamiento,
+    
+
+En el sentido de que lo que antes constaba en papel o soportes físicos
                                                                  hoy consta en las redes y servicios de comunicaciones electrónicas.
                                                                  Decimos “aparente” porque no se trata de que los documentos se
                                                                  desmaterialicen, sino que ahora constan en otros soportes distintos
@@ -1265,18 +920,27 @@ Informático                                                             inform�
                                                                  ocupan espacio y son susceptibles de ser transportados, entre otras
                                                                  características propias de las cosas que existen.
 
-
 ## 1.3.1.4 Eliminación de fronteras y límites difusos
 
-                                                                 Las relaciones económicas, jurídicas y sociales se desarrollan en
+**Definición Canónica:** Las relaciones económicas, jurídicas y sociales se desarrollan en
                                                                  espacios a-geográficos, a través de las redes. Un ejemplo de esto es
                                                                  la pretensión global del RGPD, que regirá en cualquier parte del
                                                                  planeta en que se traten datos personales de residentes europeos.
 
+Las relaciones económicas, jurídicas y sociales se desarrollan en
+                                                                 espacios a-geográficos, a través de las redes. Un ejemplo de esto es
+                                                                 la pretensión global del RGPD, que regirá en cualquier parte del
+                                                                 planeta en que se traten datos personales de residentes europeos.
 
 ## 1.3.1.5 Globalización
 
-                                                                 Este término abarca una serie de fenómenos económicos, sociales y
+**Definición Canónica:** Este término abarca una serie de fenómenos económicos, sociales y
+                                                                 políticos que se traducen en la circulación transnacional de bienes,
+                                                                 capitales, servicios. A vía ejemplar, llamamos a un call center de atención
+                                                                 de usuarios y nos responden desde otro país, en el cual es horario
+                                                                 laboral. O compramos una bicicleta en una tienda chilena, pero
+
+Este término abarca una serie de fenómenos económicos, sociales y
                                                                  políticos que se traducen en la circulación transnacional de bienes,
                                                                  capitales, servicios. A vía ejemplar, llamamos a un call center de atención
                                                                  de usuarios y nos responden desde otro país, en el cual es horario
@@ -1288,10 +952,16 @@ Informático                                                             inform�
                                                                  los servicios de una naviera panameña, y la bicicleta cumple con los
                                                                  estándares de fabricación de la Unión Europea.
 
-
 ## 1.3.1.6 Nuevo orden social
 
-                                                                 En la sociedad red surgen nuevas formas de organización social, tales
+**Definición Canónica:** En la sociedad red surgen nuevas formas de organización social, tales
+                                                                 como las redes de colaboración, redes sociales, etcétera. Como un
+                                                                 efecto secundario de este fenómeno, la sociedad se ha vuelto más
+                                                                 horizontal, los flujos de información se desarrollan de manera libre
+                                                                 y espontánea, no necesariamente sujetos al control editorial de un
+   
+
+En la sociedad red surgen nuevas formas de organización social, tales
                                                                  como las redes de colaboración, redes sociales, etcétera. Como un
                                                                  efecto secundario de este fenómeno, la sociedad se ha vuelto más
                                                                  horizontal, los flujos de información se desarrollan de manera libre
@@ -1308,17 +978,26 @@ Informático                                                             inform�
                                                                  gimiento de nuevos grupos de presión o de intereses, pero asimismo
                                                                  nuevos marginados: los analfabetos tecnológicos.
 
-
 ## 1.3.1.7 Modificación de los sistemas productivos
 
-                                                                 Atendido que la información y los servicios que se prestan a partir
+**Definición Canónica:** Atendido que la información y los servicios que se prestan a partir
                                                                  de ella están en el centro de la economía, se ha producido una valo-
                                                                  rización de los servicios por sobre la producción de bienes.
 
+Atendido que la información y los servicios que se prestan a partir
+                                                                 de ella están en el centro de la economía, se ha producido una valo-
+                                                                 rización de los servicios por sobre la producción de bienes.
 
 ## 1.3.1.8 Modificación de los esquemas
 
-                                                                 sociopolíticos relevantes
+**Definición Canónica:** sociopolíticos relevantes
+                                                                 Las redes y servicios han devenido en una suerte de sociedad virtual
+                                                                 paralela, capaz de generar premios, incentivos y también sanciones (a
+                                                                 través de las denominadas “funas virtuales”), sistemas de reclamos,
+                                                                 etcétera. Incluso se vislumbra una revelación contra el sistema nor-
+                                      
+
+sociopolíticos relevantes
                                                                  Las redes y servicios han devenido en una suerte de sociedad virtual
                                                                  paralela, capaz de generar premios, incentivos y también sanciones (a
                                                                  través de las denominadas “funas virtuales”), sistemas de reclamos,
@@ -1331,10 +1010,15 @@ Informático                                                             inform�
 Derecho                                                                                     1. Introducción al derecho                                              28
 Informático                                                                                    informático
 
-
 ## 1.3.1.9 Modificaciones en la organización del trabajo
 
-                                                                                              Los sistemas productivos se han visto afectados por las tecnologías de
+**Definición Canónica:** Los sistemas productivos se han visto afectados por las tecnologías de
+                                                                                              la información y comunicaciones, que conllevan una hiperconectivi-
+                                                                                              dad de las personas. Los sistemas de producción se han flexibilizado,
+                                                                                              pues ya no es necesario mantener grandes stocks de productos para
+                                            
+
+Los sistemas productivos se han visto afectados por las tecnologías de
                                                                                               la información y comunicaciones, que conllevan una hiperconectivi-
                                                                                               dad de las personas. Los sistemas de producción se han flexibilizado,
                                                                                               pues ya no es necesario mantener grandes stocks de productos para
@@ -1350,18 +1034,27 @@ Informático                                                                    
                                                                                               matización ha hecho desaparecer muchos puestos de trabajo, pero
                                                                                               también crea constantemente nuevos perfiles de empleo.
 
-
 ## 1.3.2 Servicio universal de
 
-                                                                                              telecomunicaciones y sociedad red
+**Definición Canónica:** telecomunicaciones y sociedad red
                                                                                               Si las redes y servicios de comunicaciones electrónicas se encuentran
                                                                                               en el centro del desarrollo social, parece natural la pretensión de que
                                                                                               sus beneficios lleguen a toda la población.
 
+telecomunicaciones y sociedad red
+                                                                                              Si las redes y servicios de comunicaciones electrónicas se encuentran
+                                                                                              en el centro del desarrollo social, parece natural la pretensión de que
+                                                                                              sus beneficios lleguen a toda la población.
 
 ## 1.3.2.1 Conceptos de servicio y acceso
 
-                                                                                              universal a las telecomunicaciones
+**Definición Canónica:** universal a las telecomunicaciones
+                                                                                              En los albores de la sociedad de la información (antecesora de la so-
+                                                                                              ciedad red), en el ámbito europeo se entendió por servicio universal
+                                                                                              de telecomunicaciones “... un conjunto mínimo de servicios definidos
+                                                                           
+
+universal a las telecomunicaciones
                                                                                               En los albores de la sociedad de la información (antecesora de la so-
                                                                                               ciedad red), en el ámbito europeo se entendió por servicio universal
                                                                                               de telecomunicaciones “... un conjunto mínimo de servicios definidos
@@ -1442,10 +1135,16 @@ Informático                                                                    
                                                                                                   con independencia de sus circunstancias particulares, ya sean
                                                                                                   de salud, económicas, o geográficas.
 
-
 ## 1.3.2.2 Normativa internacional
 
-                                                                                              Un hito importante en esta materia es la aprobación por parte del
+**Definición Canónica:** Un hito importante en esta materia es la aprobación por parte del
+                                                                                              Comité Administrativo de las Naciones Unidas, en 1995, de la De-
+                                                                                              claración sobre Acceso Universal a las Comunicaciones Básicas y
+                                                                                              Servicios de Información, elaborada a iniciativa del Secretario General
+                                                   
+**Concordancias Legales:** artículo 5
+
+Un hito importante en esta materia es la aprobación por parte del
                                                                                               Comité Administrativo de las Naciones Unidas, en 1995, de la De-
                                                                                               claración sobre Acceso Universal a las Comunicaciones Básicas y
                                                                                               Servicios de Información, elaborada a iniciativa del Secretario General
@@ -1481,10 +1180,16 @@ Informático                                                                    
                                                                                              público en general sean desde un comienzo accesibles a las personas
                                                                                              con discapacidad, o se adapten para hacerlos accesibles a ellas”.18
 
-
 ## 1.3.2.3 Normativa nacional
 
-                                                                                             En Chile, el servicio universal de telecomunicaciones se ha desarro-
+**Definición Canónica:** En Chile, el servicio universal de telecomunicaciones se ha desarro-
+                                                                                             llado en el Título IV de la Ley Nº 18.168, ley general de telecomuni-
+                                                                                             caciones, a través del Fondo de Desarrollo de las Telecomunicaciones,
+                                                                                             que busca promover el aumento de la cobertura de los servicios de
+                                              
+**Concordancias Legales:** Ley Nº 18.168
+
+En Chile, el servicio universal de telecomunicaciones se ha desarro-
                                                                                              llado en el Título IV de la Ley Nº 18.168, ley general de telecomuni-
                                                                                              caciones, a través del Fondo de Desarrollo de las Telecomunicaciones,
                                                                                              que busca promover el aumento de la cobertura de los servicios de
@@ -1505,7 +1210,11 @@ Informático                                                                    
 
 ## 18       Normas Uniformes sobre la igualdad de oportunidades para las personas con discapacidad. Aprobadas por
 
-                                                               la Asamblea General de las Naciones Unidas mediante Resolución 48/96, de 20 de diciembre de 1993, en el
+**Definición Canónica:** la Asamblea General de las Naciones Unidas mediante Resolución 48/96, de 20 de diciembre de 1993, en el
+                                                               marco del 48º Periodo de Sesiones.
+**Concordancias Legales:** artículo 28; artículo 3
+
+la Asamblea General de las Naciones Unidas mediante Resolución 48/96, de 20 de diciembre de 1993, en el
                                                                marco del 48º Periodo de Sesiones.
 
 Derecho                                                        1. Introducción al derecho                                               32
@@ -1529,10 +1238,17 @@ Informático                                                                    
                                                                  e. Cualquier otro servicio de telecomunicaciones que beneficie
                                                                     directamente a la comunidad en la cual habrá de operar.
 
-
 ## 1.3.2.4 Tipos de servicios de telecomunicaciones
 
-                                                                 Si bien se estima que la Ley Nº 18.168 en varios aspectos ha caído en
+**Definición Canónica:** Si bien se estima que la Ley Nº 18.168 en varios aspectos ha caído en
+                                                                 obsolescencia, de este cuerpo normativo tomaremos los conceptos
+                                                                 que se han establecido para los servicios de telecomunicaciones:
+                                                                 a. Servicios públicos de telecomunicaciones (art. 3º letra b)
+                                                                    Los servicios públicos de telecomunicaciones son aquellos “des-
+            
+**Concordancias Legales:** Ley Nº 18.168; Ley Nº 18.838; constitucion
+
+Si bien se estima que la Ley Nº 18.168 en varios aspectos ha caído en
                                                                  obsolescencia, de este cuerpo normativo tomaremos los conceptos
                                                                  que se han establecido para los servicios de telecomunicaciones:
                                                                  a. Servicios públicos de telecomunicaciones (art. 3º letra b)
@@ -1609,10 +1325,12 @@ Informático                                                                    
 Derecho                                                              1. Introducción al derecho                                               35
 Informático                                                             informático
 
-
 ## 1.4     Garantías fundamentales y tecnologías de
 
-                                                                       la información y la comunicación (TIC)
+**Definición Canónica:** la información y la comunicación (TIC)
+**Concordancias Legales:** constitucion; Constitución
+
+la información y la comunicación (TIC)
 
                                                                        Desde fines del siglo XIX, las tecnologías han avanzado a pasos agi-
                                                                        gantados al punto que hoy vivimos en una sociedad informatizada de
@@ -1715,10 +1433,16 @@ Informático                                                                    
                                                                                  Son dos caras de la misma moneda, que trataremos de esbozar en
                                                                                  las siguientes páginas.
 
-
 ## 1.4.2 Los derechos fundamentales reconocidos
 
-                                                                                 y su adaptación a la realidad actual
+**Definición Canónica:** y su adaptación a la realidad actual
+                                                                                 El fenómeno tecnológico, con su aptitud para recolectar, tratar y
+                                                                                 comunicar grandes volúmenes de información incluso más allá de
+                                                                                 las fronteras de un país determinado, ha permitido modelar aspec-
+                                                                                 tos antes insospechados, tales como la vida,
+**Concordancias Legales:** Constitución
+
+y su adaptación a la realidad actual
                                                                                  El fenómeno tecnológico, con su aptitud para recolectar, tratar y
                                                                                  comunicar grandes volúmenes de información incluso más allá de
                                                                                  las fronteras de un país determinado, ha permitido modelar aspec-
@@ -1786,11 +1510,17 @@ Informático                                                                    
                                                                  verse afectados por las TIC y de qué manera su contenido esencial
                                                                  limita y/o modela el desarrollo tecnológico.
 
-
 ## 1.4.2.1 El derecho a la vida y las TIC
 
+**Definición Canónica:** Las tecnologías de la información y la comunicación han impactado
+                                                                 la esencia misma de la vida. Al descifrarse el código genético, se ha
+                                                                 generado una serie de desarrollos que rayan en una afectación esen-
+                                                                 cial del derecho a la vida, en tanto permiten generar vida humana
+                                                                 y seleccionar los “mejores” ejemplares para privilegiarlos con el de-
 
-                                                                 Las tecnologías de la información y la comunicación han impactado
+**Concordancias Legales:** Constitución; constitucion
+
+Las tecnologías de la información y la comunicación han impactado
                                                                  la esencia misma de la vida. Al descifrarse el código genético, se ha
                                                                  generado una serie de desarrollos que rayan en una afectación esen-
                                                                  cial del derecho a la vida, en tanto permiten generar vida humana
@@ -1869,11 +1599,17 @@ Informático                                                                    
                                                                  la creación de vida humana “de diseño”, opción claramente posible
                                                                  a través del empleo de estas tecnologías.
 
-
 ## 1.4.2.2 La igualdad ante la ley
 
+**Definición Canónica:** La igualdad fue reconocida en el Pacto Internacional de Derechos
+                                                                 Civiles y Políticos (1966) en su artículo 3º, en los términos siguien-
+                                                                 tes: “Los Estados Partes en el presente Pacto se comprometen a
+                                                                 garantizar a hombres y mujeres la igualdad en el goce de todos los
+                                                                 derechos civiles y políticos enunciados en el presente Pacto”. En
+        
+**Concordancias Legales:** artículo 3; artículo 1; artículo 5
 
-                                                                 La igualdad fue reconocida en el Pacto Internacional de Derechos
+La igualdad fue reconocida en el Pacto Internacional de Derechos
                                                                  Civiles y Políticos (1966) en su artículo 3º, en los términos siguien-
                                                                  tes: “Los Estados Partes en el presente Pacto se comprometen a
                                                                  garantizar a hombres y mujeres la igualdad en el goce de todos los
@@ -1959,10 +1695,16 @@ Informático                                                                    
                                                                  el acceso a internet merece alcanzar este reconocimiento. En Chile
                                                                  existe actualmente un proyecto de ley que busca este mismo objetivo.
 
-
 ## 1.4.2.3 Igualdad ante la justicia
 
-                                                                 La garantía fundamental del artículo 19 Nº 3 de la Constitución se
+**Definición Canónica:** La garantía fundamental del artículo 19 Nº 3 de la Constitución se
+                                                                 funda en la necesidad de asegurar a todas las personas que tengan
+                                                                 iguales posibilidades de defender sus derechos a través de los medios
+                                                                 que establece la ley para la resolución de conflictos de intereses de
+                                                                 relevancia jurídica.
+**Concordancias Legales:** artículo 19; artículo 348; Ley Nº 20.217; Constitución
+
+La garantía fundamental del artículo 19 Nº 3 de la Constitución se
                                                                  funda en la necesidad de asegurar a todas las personas que tengan
                                                                  iguales posibilidades de defender sus derechos a través de los medios
                                                                  que establece la ley para la resolución de conflictos de intereses de
@@ -2044,10 +1786,14 @@ Informático                                                                    
                                                                     condición para acceder a un sistema de vigilancia telemático en
                                                                     reemplazo de la prisión.
 
-
 ## 1.4.2.4 El derecho a la educación y libertad de enseñanza
 
-                                                                 En la línea argumental que venimos sosteniendo, resulta esencial
+**Definición Canónica:** En la línea argumental que venimos sosteniendo, resulta esencial
+                                                                 referirnos al derecho a la educación y la libertad de enseñanza, de-
+                                                                 rechos de segunda generación cuyo origen es el Pacto de Derechos
+                                                                 Civiles y Políticos (1966).
+
+En la línea argumental que venimos sosteniendo, resulta esencial
                                                                  referirnos al derecho a la educación y la libertad de enseñanza, de-
                                                                  rechos de segunda generación cuyo origen es el Pacto de Derechos
                                                                  Civiles y Políticos (1966).
@@ -2108,10 +1854,17 @@ Informático                                                                    
 
 Derecho                                                        1. Introducción al derecho                                            47
 
-
 ## 1.4.2.5 Libertad de expresión, derecho a la
 
-                                                                 información y derecho de petición
+**Definición Canónica:** información y derecho de petición
+                                                                 La libertad de expresión se erigió en su momento como uno de los
+                                                                 bastiones de las democracias modernas, en tanto empodera a los
+                                                                 ciudadanos frente al Estado. Este derecho, reconocido en el artícu-
+                                                                 lo 13 de la Declaración Americana de Derechos del Hombre, en el
+                                              
+**Concordancias Legales:** artículo 19 de la Declaración Universal de Derechos Humanos y e; artículo 8 de la Declaración Universal de la Unesco sobre la D
+
+información y derecho de petición
                                                                  La libertad de expresión se erigió en su momento como uno de los
                                                                  bastiones de las democracias modernas, en tanto empodera a los
                                                                  ciudadanos frente al Estado. Este derecho, reconocido en el artícu-
@@ -2221,10 +1974,17 @@ Informático                                                                    
                                                                  a la cual atacarán de manera sistemática como una forma de rechazo
                                                                  a su actuación o simplemente a una persona.
 
-
 ## 1.4.2.6 Protección a la vida privada y honra de las
 
-                                                                 personas: la inviolabilidad del hogar y de toda forma
+**Definición Canónica:** personas: la inviolabilidad del hogar y de toda forma
+                                                                 de comunicación privada y la libertad de conciencia
+                                                                 En la sociedad red, el análisis de estos derechos es especialmente
+                                                                 crítico, por cuanto las ingentes capacidades de los sistemas de in-
+                                                                 formación y las potencialidades de las redes de telecomunicaciones
+                                
+**Concordancias Legales:** constitucion
+
+personas: la inviolabilidad del hogar y de toda forma
                                                                  de comunicación privada y la libertad de conciencia
                                                                  En la sociedad red, el análisis de estos derechos es especialmente
                                                                  crítico, por cuanto las ingentes capacidades de los sistemas de in-
@@ -2306,10 +2066,14 @@ Informático                                                                    
                                                                  fundamentales. Tal es el caso de la protección de datos personales,
                                                                  como se verá en el acápite siguiente.
 
-
 ## 1.4.2.7 La privacidad en la sociedad red
 
-                                                                 El desarrollo progresivo de los derechos humanos se ha sistemati-
+**Definición Canónica:** El desarrollo progresivo de los derechos humanos se ha sistemati-
+                                                                 zado por la doctrina en las “generaciones”, que no son sino diversos
+                                                                 estadios de avance del bloque de derechos.
+**Concordancias Legales:** Constitucion
+
+El desarrollo progresivo de los derechos humanos se ha sistemati-
                                                                  zado por la doctrina en las “generaciones”, que no son sino diversos
                                                                  estadios de avance del bloque de derechos.
 
@@ -2391,10 +2155,12 @@ Informático                                                                    
 Derecho                                                                                      2. Protección de datos                                                        55
 Informático                                                                                     personales en Chile
 
-
 ## 2.1               En torno a la historia y
 
-                                                                                               alcances de un derecho
+**Definición Canónica:** alcances de un derecho
+**Concordancias Legales:** artículo 2; artículo 1; artículo 19; Ley Nº 19.628; Constitucion
+
+alcances de un derecho
 
                                                                                                A partir del desarrollo de las técnicas de tratamiento automatizado de
                                                                                                la información, ha ido emergiendo un problema: se han evidenciado
@@ -2516,7 +2282,11 @@ Informático                                                                    
 
 ## 25       Dicom, después Dicom-Equifax o solo Equifax, es una empresa con amplia presencia en el mercado de la
 
-                                                               evaluación de riesgo comercial. En un momento, prácticamente ninguna decisión relativa a personas naturales
+**Definición Canónica:** evaluación de riesgo comercial. En un momento, prácticamente ninguna decisión relativa a personas naturales
+                                                               se tomaba sin consultar a Dicom y solo sucesivas reformas legislativas morigeraron esta situación.
+**Concordancias Legales:** Artículo 19; artículo 1; Ley Nº 21.096; Ley Nº 19.628; Constitución Política; Constitución; constitucion
+
+evaluación de riesgo comercial. En un momento, prácticamente ninguna decisión relativa a personas naturales
                                                                se tomaba sin consultar a Dicom y solo sucesivas reformas legislativas morigeraron esta situación.
 
 Derecho                                                                                     2. Protección de datos                                                      58
@@ -2602,14 +2372,16 @@ Informático                                                             persona
                                                                        de datos, de registro o banco de datos y de responsables y encargados
                                                                        del tratamiento de datos.
 
-
-## 2.2.1 Los datos personales
-
-
-
 ## 2.2.1.1 Concepto
 
-                                                                       En su artículo 2º, el texto de la ley nos indica qué se entiende por
+**Definición Canónica:** En su artículo 2º, el texto de la ley nos indica qué se entiende por
+                                                                       datos personales, siendo estos “los relativos a cualquier información
+                                                                       concerniente a personas naturales, identificadas o identificables”.
+                                                                       Se debe destacar, entre los elementos que forman el concepto, que
+                                                                       comprende “cualquier información”, por tant
+**Concordancias Legales:** artículo 2; artículo 4; artículo 10; artículo 10 de la Ley Nº 19.628 es; Ley Nº 19.628; Ley N° 19.628
+
+En su artículo 2º, el texto de la ley nos indica qué se entiende por
                                                                        datos personales, siendo estos “los relativos a cualquier información
                                                                        concerniente a personas naturales, identificadas o identificables”.
                                                                        Se debe destacar, entre los elementos que forman el concepto, que
@@ -2826,7 +2598,10 @@ Informático                                                                    
 
 ## 2.2.2 Tratamiento de datos personales
 
-                                                      datos personales
+**Definición Canónica:** datos personales
+**Concordancias Legales:** artículo 2; artículo 4; Ley Nº 19.628
+
+datos personales
 
                                                                                En segundo lugar, el concepto de tratamiento de datos u operaciones
                                                       no sensibles.            de tratamiento de datos personales está referido a cualquier operación
@@ -2889,10 +2664,17 @@ Informático                                                                    
                                                                  la hora de enfrentarse a un conflicto de relevancia jurídica asociado
                                                                  al tratamiento de datos.
 
-
 ## 2.2.3 Registro o banco de datos
 
-                                                                 (art. 2º letra m, Ley Nº 19.628)
+**Definición Canónica:** (art. 2º letra m, Ley Nº 19.628)
+                                                                 Un registro o banco de datos se define como “el conjunto organizado
+                                                                 de datos de carácter personal, sea automatizado o no, cualquiera sea
+                                                                 la forma o modalidad de su creación u organización, que permita re-
+                                                                 lacionar los datos entre sí, así como realizar todo tipo de tratamiento
+                              
+**Concordancias Legales:** artículo 4; Ley Nº 19.628
+
+(art. 2º letra m, Ley Nº 19.628)
                                                                  Un registro o banco de datos se define como “el conjunto organizado
                                                                  de datos de carácter personal, sea automatizado o no, cualquiera sea
                                                                  la forma o modalidad de su creación u organización, que permita re-
@@ -2931,10 +2713,16 @@ Informático                                                                    
                                                                  de los datos en ellos contenidos, pues es prácticamente imposible
                                                                  encontrarlos, no sería aplicable la legislación de protección de datos.
 
-
 ## 2.2.4 Responsable del banco de datos y encargados
 
-                                                                 del tratamiento (art. 2º letra n, Ley Nº 19.628)
+**Definición Canónica:** del tratamiento (art. 2º letra n, Ley Nº 19.628)
+                                                                 En nuestra legislación, se entiende por responsable del registro o
+                                                                 banco de datos “la persona natural o jurídica privada, o el respectivo
+                                                                 organismo público, a quien compete las decisiones relacionadas con
+                                                                 el tratamiento de los datos de carácter personal”.
+**Concordancias Legales:** Artículo 8; Ley Nº 19.628
+
+del tratamiento (art. 2º letra n, Ley Nº 19.628)
                                                                  En nuestra legislación, se entiende por responsable del registro o
                                                                  banco de datos “la persona natural o jurídica privada, o el respectivo
                                                                  organismo público, a quien compete las decisiones relacionadas con
@@ -2987,10 +2775,11 @@ Informático                                                                    
 Derecho                                                              2. Protección de datos                                                69
 Informático                                                             personales en Chile
 
-
 ## 2.3     Principios aplicables a la normativa
 
-                                                                       de protección de datos
+**Definición Canónica:** de protección de datos
+
+de protección de datos
 
                                                                        Atendido el reconocimiento de los avances de la técnica, tanto en
                                                                        Chile como en derecho comparado, las leyes de protección de datos
@@ -3009,10 +2798,17 @@ Informático                                                             persona
                                                                        quier lugar del planeta, tengan el mismo sentido y alcance. A estos
                                                                        principios nos referiremos en los siguientes acápites.
 
-
 ## 2.3.1 Principio general de legitimación
 
-                                                                       En la Resolución de Madrid se reconocen las siguientes condiciones
+**Definición Canónica:** En la Resolución de Madrid se reconocen las siguientes condiciones
+                                                                       legitimantes del tratamiento de datos personales:
+                                                                       — El consentimiento del interesado: que deberá ser libre, inequí-
+                                                                         voco e informado.
+                                                                       — Un interés legítimo de la persona que realiza el tratamiento
+                                                  
+**Concordancias Legales:** artículo 4; Ley N° 19.628
+
+En la Resolución de Madrid se reconocen las siguientes condiciones
                                                                        legitimantes del tratamiento de datos personales:
                                                                        — El consentimiento del interesado: que deberá ser libre, inequí-
                                                                          voco e informado.
@@ -3053,10 +2849,16 @@ Informático                                                             persona
                                                                  respecto de las materias de su competencia y con sujeción a las reglas
                                                                  precedentes”.
 
-
 ## 2.3.2 Principio de lealtad y legalidad
 
-                                                                 El tratamiento de datos de carácter personal se debe realizar de
+**Definición Canónica:** El tratamiento de datos de carácter personal se debe realizar de
+                                                                 manera leal y respetando la legislación nacional y los derechos y
+                                                                 libertades de las personas. Aunque el sentido de lealtad pudiera
+                                                                 aquí resultar ambiguo, la Resolución de Madrid ayuda a determinar
+                                                                 ese contenido al señalar expresamente que deben ser considerados
+             
+
+El tratamiento de datos de carácter personal se debe realizar de
                                                                  manera leal y respetando la legislación nacional y los derechos y
                                                                  libertades de las personas. Aunque el sentido de lealtad pudiera
                                                                  aquí resultar ambiguo, la Resolución de Madrid ayuda a determinar
@@ -3077,10 +2879,14 @@ Informático                                                             persona
                                                                  de los derechos fundamentales de los titulares de los datos y de las
                                                                  facultades que esta ley les reconoce”.
 
-
 ## 2.3.3 Principio de finalidad
 
-                                                                 El tratamiento de datos de carácter personal deberá limitarse al
+**Definición Canónica:** El tratamiento de datos de carácter personal deberá limitarse al
+                                                                 cumplimiento de las finalidades legítimas e informadas al titular de
+                                                                 los datos y/o las legalmente procedentes.
+**Concordancias Legales:** Artículo 9; Ley Nº 19.628
+
+El tratamiento de datos de carácter personal deberá limitarse al
                                                                  cumplimiento de las finalidades legítimas e informadas al titular de
                                                                  los datos y/o las legalmente procedentes.
 
@@ -3104,10 +2910,16 @@ Informático                                                             persona
                                                                  tan comunes de ser utilizadas en aplicaciones que descargamos e
                                                                  instalamos en nuestros dispositivos electrónicos.
 
-
 ## 2.3.4 Proporcionalidad
 
-                                                                 El tratamiento de datos de carácter personal deberá circunscribirse a
+**Definición Canónica:** El tratamiento de datos de carácter personal deberá circunscribirse a
+                                                                 aquellos que resulten adecuados, relevantes y no excesivos en relación
+                                                                 con las finalidades legítimas e informadas, por lo que los responsables
+                                                                 de su tratamiento deberán realizar esfuerzos razonables para limitar
+                                                                 al mínimo necesario los datos de carácter personal tratado
+**Concordancias Legales:** Ley Nº 19.628
+
+El tratamiento de datos de carácter personal deberá circunscribirse a
                                                                  aquellos que resulten adecuados, relevantes y no excesivos en relación
                                                                  con las finalidades legítimas e informadas, por lo que los responsables
                                                                  de su tratamiento deberán realizar esfuerzos razonables para limitar
@@ -3124,10 +2936,16 @@ Informático                                                             persona
                                                                  un deber de eliminación respecto de aquellos datos que no pueda
                                                                  justificarse su almacenamiento.
 
-
 ## 2.3.5 Calidad
 
-                                                                 El principio de calidad refiere tanto a los datos personales como a
+**Definición Canónica:** El principio de calidad refiere tanto a los datos personales como a
+                                                                 los procesos técnicos y administrativos asociados al tratamiento de
+                                                                 los mismos, en todas sus fases. En clave de datos personales, “la in-
+                                                                 formación debe ser exacta, actualizada y responder con veracidad a
+                                                                 la situación real del titular de los datos” (art. 9º Ley Nº 19.628)
+**Concordancias Legales:** Ley Nº 19.628
+
+El principio de calidad refiere tanto a los datos personales como a
                                                                  los procesos técnicos y administrativos asociados al tratamiento de
                                                                  los mismos, en todas sus fases. En clave de datos personales, “la in-
                                                                  formación debe ser exacta, actualizada y responder con veracidad a
@@ -3145,10 +2963,15 @@ Informático                                                             persona
                                                                  ya han dejado de ser noticia, veremos que esa publicación ha dejado
                                                                  de cumplir con los estándares de protección de datos.
 
-
 ## 2.3.6 Principio de transparencia
 
-                                                                 Conforme a este principio, toda persona responsable de tratamientos
+**Definición Canónica:** Conforme a este principio, toda persona responsable de tratamientos
+                                                                 de datos personales deberá contar con políticas transparentes en lo
+                                                                 que a ello se refiere. Además, deberá facilitar a los interesados, esto
+                                                                 es a los titulares de los datos personales, la información acerca de su
+                                                                 identidad, la finalidad para la que pretende realizar el tra
+
+Conforme a este principio, toda persona responsable de tratamientos
                                                                  de datos personales deberá contar con políticas transparentes en lo
                                                                  que a ello se refiere. Además, deberá facilitar a los interesados, esto
                                                                  es a los titulares de los datos personales, la información acerca de su
@@ -3160,11 +2983,12 @@ Informático                                                             persona
                                                                  información necesaria para garantizar el tratamiento leal de dichos
                                                                  datos de carácter personal.
 
-
 ## 2.3.6.1 Oportunidad
 
+**Definición Canónica:** — Si los datos se obtienen directamente del titular, la información
+                                                                   deberá ser facilitada en el momento de la recogida.
 
-                                                                 — Si los datos se obtienen directamente del titular, la información
+— Si los datos se obtienen directamente del titular, la información
                                                                    deberá ser facilitada en el momento de la recogida.
 
 Derecho                                                        2. Protección de datos                                                 73
@@ -3174,10 +2998,16 @@ Informático                                                             persona
                                                                    medidas alternativas cuando su cumplimiento resulte imposible
                                                                    o exija un esfuerzo desproporcionado.
 
-
 ## 2.3.6.2 Requisitos
 
-                                                                 La información no puede limitarse a la firma de una cláusula perdi-
+**Definición Canónica:** La información no puede limitarse a la firma de una cláusula perdi-
+                                                                 da entre los faldeos de un farragoso contrato tipo, sino que deberá
+                                                                 proporcionarse en un lenguaje claro y sencillo; ahora bien, si los
+                                                                 datos de carácter personal son recogidos en línea a través de redes
+                                                                 de comunicaciones electrónicas, las obligaciones de transparencia
+   
+
+La información no puede limitarse a la firma de una cláusula perdi-
                                                                  da entre los faldeos de un farragoso contrato tipo, sino que deberá
                                                                  proporcionarse en un lenguaje claro y sencillo; ahora bien, si los
                                                                  datos de carácter personal son recogidos en línea a través de redes
@@ -3186,10 +3016,16 @@ Informático                                                             persona
 
                                                                  de datos fácilmente accesibles e identificables.
 
-
 ## 2.3.6.3 Consagración legal en Chile
 
-                                                                 El principio de transparencia es recogido en el artículo 3º de la Ley
+**Definición Canónica:** El principio de transparencia es recogido en el artículo 3º de la Ley
+                                                                 Nº 19.628, al proclamar que en toda recolección de datos personales
+                                                                 que se realice a través de encuestas, estudios de mercado o sondeos de
+                                                                 opinión pública u otros instrumentos semejantes, se debe informar
+                                                                 a las personas del carácter obligatorio o facultativo de las resp
+**Concordancias Legales:** artículo 3; artículo 12; Ley Nº 19.628
+
+El principio de transparencia es recogido en el artículo 3º de la Ley
                                                                  Nº 19.628, al proclamar que en toda recolección de datos personales
                                                                  que se realice a través de encuestas, estudios de mercado o sondeos de
                                                                  opinión pública u otros instrumentos semejantes, se debe informar
@@ -3203,10 +3039,16 @@ Informático                                                             persona
                                                                  individualización de las personas u organismos a los cuales sus datos
                                                                  son transmitidos regularmente.
 
-
 ## 2.3.7 Principio de responsabilidad
 
-                                                                 Quienes tratan datos personales ajenos deben adoptar las medidas
+**Definición Canónica:** Quienes tratan datos personales ajenos deben adoptar las medidas
+                                                                 necesarias para cumplir con los principios y normas de la legislación,
+                                                                 como también dotarse de aquellos mecanismos necesarios para evi-
+                                                                 denciar dicho cumplimiento, tanto ante los titulares de datos como
+                                                                 ante las autoridades competentes.
+**Concordancias Legales:** artículo 11; Ley Nº 19.628
+
+Quienes tratan datos personales ajenos deben adoptar las medidas
                                                                  necesarias para cumplir con los principios y normas de la legislación,
                                                                  como también dotarse de aquellos mecanismos necesarios para evi-
                                                                  denciar dicho cumplimiento, tanto ante los titulares de datos como
@@ -3237,10 +3079,12 @@ Informático                                                             persona
 Derecho                                                                      2. Protección de datos                                                 75
 Informático                                                                     personales en Chile
 
-
 ## 2.4           Los deberes de quienes realizan
 
-                                                                               operaciones de tratamiento de datos
+**Definición Canónica:** operaciones de tratamiento de datos
+**Concordancias Legales:** artículo 11 de la Ley Nº 19.628 que; artículo 7; Ley Nº 19.628; Ley N°19.628
+
+operaciones de tratamiento de datos
 
                                                                                Finalmente, la Resolución de Madrid le dedica un acápite especial
                                                                                al tema de la seguridad, señalando que quienes realizan operaciones
@@ -3311,10 +3155,16 @@ Informático                                                                    
                                                                                               convención, ya que constituyen precisamente el núcleo del derecho
                                                                                               fundamental a la protección de datos.
 
-
 ## 2.5.1 Derecho de acceso
 
-                                                                                              Se ha establecido como derecho primario en materia de protección
+**Definición Canónica:** Se ha establecido como derecho primario en materia de protección
+                                                                                              de datos el derecho de acceso, que implica que el responsable del
+                                                                                              tratamiento de datos debe proporcionar, cuando así se le solicite, in-
+                                                                                              formación relativa a los concretos datos de carácter personal objetos
+                                              
+**Concordancias Legales:** artículos 5; artículo 12 de la Ley Nº 19.628; Ley N° 19.628; Ley Nº 19.628
+
+Se ha establecido como derecho primario en materia de protección
                                                                                               de datos el derecho de acceso, que implica que el responsable del
                                                                                               tratamiento de datos debe proporcionar, cuando así se le solicite, in-
                                                                                               formación relativa a los concretos datos de carácter personal objetos
@@ -3366,10 +3216,15 @@ Informático                                                                    
                                                                  para solicitar copias gratuitas del registro, deben haber transcurrido
                                                                  a lo menos seis meses desde la última vez que se haya solicitado.
 
-
 ## 2.5.2 Derecho de rectificación
 
-                                                                 El derecho de rectificación es el que tiene el titular de los datos para
+**Definición Canónica:** El derecho de rectificación es el que tiene el titular de los datos para
+                                                                 solicitar, a la persona responsable, la rectificación o modificación de
+                                                                 aquellos datos de carácter personal que pudieran resultar incompletos
+                                                                 o inexactos; es decir, se trata de un derecho emanado del principio de
+**Concordancias Legales:** artículo 12; Ley N°19.628
+
+El derecho de rectificación es el que tiene el titular de los datos para
                                                                  solicitar, a la persona responsable, la rectificación o modificación de
                                                                  aquellos datos de carácter personal que pudieran resultar incompletos
                                                                  o inexactos; es decir, se trata de un derecho emanado del principio de
@@ -3396,10 +3251,15 @@ Informático                                                                    
                                                                  puede exigir contraprestación alguna por realizar las rectificaciones
                                                                  de datos inexactos.
 
-
 ## 2.5.3 Derecho de cancelación o supresión
 
-                                                                 El derecho de cancelación otorga la facultad de exigir la eliminación
+**Definición Canónica:** El derecho de cancelación otorga la facultad de exigir la eliminación
+                                                                 o supresión de los datos de carácter personal que pudieran resultar
+                                                                 innecesarios o excesivos, o cuya tenencia carezca del consentimiento
+                                                                 del interesado o del fundamento legal que justifique su utilización.
+**Concordancias Legales:** artículo 3; artículo 20; Ley Nº 20.285
+
+El derecho de cancelación otorga la facultad de exigir la eliminación
                                                                  o supresión de los datos de carácter personal que pudieran resultar
                                                                  innecesarios o excesivos, o cuya tenencia carezca del consentimiento
                                                                  del interesado o del fundamento legal que justifique su utilización.
@@ -3490,10 +3350,12 @@ Informático                                                                    
 Derecho                                                                                       2. Protección de datos                                                           82
 Informático                                                                                      personales en Chile
 
-
 ## 2.6                Cambios en el ámbito de los derechos a partir de la
 
-                                                                                                entrada en vigencia del RGPD
+**Definición Canónica:** entrada en vigencia del RGPD
+**Concordancias Legales:** artículo 202; Ley Nº 19.628; Constitución
+
+entrada en vigencia del RGPD
 
                                                                                                 El panorama internacional de los derechos de las personas en materia
                                                                                                 de protección de datos, que había sido estable en el tiempo, cambió el
@@ -3596,10 +3458,16 @@ Informático                                                                    
                                                                  ley de adecuación de nuestra actual legislación y revisaremos en los
                                                                  siguientes acápites.
 
-
 ## 2.6.1 Derecho de oposición
 
-                                                                 Si bien la ley vigente no distingue expresamente este derecho, lo
+**Definición Canónica:** Si bien la ley vigente no distingue expresamente este derecho, lo
+                                                                 esboza con motivo de la cancelación de datos personales, en cuanto
+                                                                 a la manifestación de voluntad del titular de no continuar figurando
+                                                                 en un banco de datos al cual proporcionó su información de manera
+                                                                 voluntaria.
+**Concordancias Legales:** artículo 21; artículo 4
+
+Si bien la ley vigente no distingue expresamente este derecho, lo
                                                                  esboza con motivo de la cancelación de datos personales, en cuanto
                                                                  a la manifestación de voluntad del titular de no continuar figurando
                                                                  en un banco de datos al cual proporcionó su información de manera
@@ -3618,39 +3486,54 @@ Informático                                                                    
 
 Derecho                                                        2. Protección de datos                                                  85
 
-
 ## 2.6.2 Derecho a no ser objeto de
 
-                                                                 decisiones automatizadas
+**Definición Canónica:** decisiones automatizadas
+                                                                 El reglamento europeo pone especial atención en este aspecto, regu-
+                                                                 lado en el artículo 22. Al respecto, y en lo que nos interesa, se exime
+                                                                 de la prohibición cuando la decisión sea necesaria para la celebración
+                                                                 o la ejecución de un contrato entre el interesado y un responsable de
+                                  
+**Concordancias Legales:** artículo 22
+
+decisiones automatizadas
                                                                  El reglamento europeo pone especial atención en este aspecto, regu-
                                                                  lado en el artículo 22. Al respecto, y en lo que nos interesa, se exime
                                                                  de la prohibición cuando la decisión sea necesaria para la celebración
                                                                  o la ejecución de un contrato entre el interesado y un responsable de
                                                                  tratamiento, como podría ser el caso del contrato de trabajo.
 
-
 ## 2.6.3 Derecho a la limitación del tratamiento
 
-                                                                 (derecho de bloqueo de los datos personales)
+**Definición Canónica:** (derecho de bloqueo de los datos personales)
+                                                                 Regulado en el artículo 18 del RGPD, sus hipótesis se relacionan
+                                                                 con el derecho de supresión o cancelación, previéndose que en el
+**Concordancias Legales:** artículo 18 del RGPD
+
+(derecho de bloqueo de los datos personales)
                                                                  Regulado en el artículo 18 del RGPD, sus hipótesis se relacionan
                                                                  con el derecho de supresión o cancelación, previéndose que en el
 
                                                                  tiempo intermedio entre la solicitud y la resolución de procedencia,
                                                                  los datos personales no puedan ser objeto de tratamiento.
 
-
 ## 2.6.4 Derecho a la portabilidad de los datos personales
 
-                                                                 Tratándose de aquellos casos en que el titular deba trasladar los datos
+**Definición Canónica:** Tratándose de aquellos casos en que el titular deba trasladar los datos
+                                                                 a otro responsable de registro o banco de datos.
+
+Tratándose de aquellos casos en que el titular deba trasladar los datos
                                                                  a otro responsable de registro o banco de datos.
 
 Derecho                                                              2. Protección de datos                                                 86
 Informático                                                             personales en Chile
 
-
 ## 2.7     El procedimiento de habeas data
 
-                                                                       en la jurisprudencia civil
+**Definición Canónica:** en la jurisprudencia civil
+**Concordancias Legales:** artículo 16 de la Ley Nº 19.628; Ley Nº 19.628
+
+en la jurisprudencia civil
 
                                                                        La ley de protección de datos estableció como mecanismo de tutela
                                                                        efectiva la acción de habeas data, basada en el recurso de protección,
@@ -3748,10 +3631,12 @@ Informático                                                                    
 Derecho                                                                                     2. Protección de datos                                                      90
 Informático                                                                                    personales en Chile
 
-
 ## 2.8               El régimen infraccional
 
-                                                                                              en la Ley Nº 19.268
+**Definición Canónica:** en la Ley Nº 19.268
+**Concordancias Legales:** artículo 173 del Código de Procedimiento Civil. En; artículos 16; artículo 23; artículo 17; artículo 18; artículo 16 de la Ley 19.628; Ley Nº 19.268; Ley Nº 19.628; Ley Nº 20.575; Ley 19.628
+
+en la Ley Nº 19.268
 
                                                                                               De acuerdo a la ley, el titular del registro o banco de datos deberá
                                                                                               indemnizar el daño patrimonial y moral que causare por el trata-
@@ -3830,10 +3715,12 @@ Informático                                                                    
 Derecho                                                              2. Protección de datos                                                   92
 Informático                                                             personales en Chile
 
-
 ## 2.9     La acción de protección del derecho
 
-                                                                       a la protección de datos personales
+**Definición Canónica:** a la protección de datos personales
+**Concordancias Legales:** Ley Nº 21.096; Ley Nº 19.628; Constitución Política; constitucion; Constitución
+
+a la protección de datos personales
 
                                                                        La Ley Nº 21.096, de artículo único y publicada el 16 de junio de
                                                                        2018, introdujo con un par de líneas una sustancial reforma a la
@@ -3898,10 +3785,12 @@ Informático                                                             persona
 Derecho                                                              3. Criminalidad                                                         95
 Informático                                                             informática
 
-
 ## 3.1     Los problemas de la falta de tipificación y
 
-                                                                       su incorporación en leyes extravagantes
+**Definición Canónica:** su incorporación en leyes extravagantes
+**Concordancias Legales:** Ley Nº 19.223; Ley Nº 20.009; Ley Nº 17.336
+
+su incorporación en leyes extravagantes
 
                                                                        Las tecnologías de la información y la comunicación han planteado
                                                                        desafíos en todos los ámbitos. Tratándose del ámbito penal, ingente
@@ -3937,10 +3826,11 @@ Informático                                                             inform�
 Derecho                                                                                    3. Criminalidad                                                       96
 Informático                                                                                   informática
 
-
 ## 3.2              Directrices
 
-                                                                                             político-criminales
+**Definición Canónica:** político-criminales
+
+político-criminales
 
                                                                                              La doctrina ha sido especialmente cuidadosa al momento de pronun-
                                                                                              ciarse acerca del tratamiento que se debe dar a los delitos cometidos
@@ -4009,10 +3899,12 @@ Informático                                                                    
 Derecho                                                                                   3. Criminalidad                                                           98
 Informático                                                                                  informática
 
-
 ## 3.3             El bien jurídico protegido y las características
 
-                                                                                            comunes a este tipo de delitos
+**Definición Canónica:** comunes a este tipo de delitos
+**Concordancias Legales:** Ley Nº 19.223
+
+comunes a este tipo de delitos
 
                                                                                             Existen opiniones divididas en cuanto al bien jurídico protegido en
                                                                                             los delitos relacionados con la informática. Prima la posición que
@@ -4135,16 +4027,15 @@ Informático                                                                    
 Derecho                                                                                    3. Criminalidad                                                     101
 Informático                                                                                   informática
 
-
-## 3.4              Problemas dogmáticos y procesales
-
-                                                                                             que se presentan en el conocimiento y
-                                                                                             resolución de los delitos informáticos
-
-
 ## 3.4.1 Concepto de delito informático
 
-                                                                                             Resulta interesante hacer el esfuerzo de conceptualizar los delitos
+**Definición Canónica:** Resulta interesante hacer el esfuerzo de conceptualizar los delitos
+                                                                                             informáticos, a fin de acotar el objeto de estudio. Autores como Mi-
+                                                                                             guel Ángel Davara Rodríguez lo hacen en términos amplios, como
+                                                                                             un conjunto de comportamientos dignos de reproche penal, que
+                                                            
+
+Resulta interesante hacer el esfuerzo de conceptualizar los delitos
                                                                                              informáticos, a fin de acotar el objeto de estudio. Autores como Mi-
                                                                                              guel Ángel Davara Rodríguez lo hacen en términos amplios, como
                                                                                              un conjunto de comportamientos dignos de reproche penal, que
@@ -4191,10 +4082,11 @@ Informático                                                                    
                                                                                              delito, restringiéndose el concepto a aquellos casos en que las TIC
                                                                                              son el instrumento para cometerlo.
 
-
 ## 3.4.2 Generalidades sobre de la
 
-                                                                                             criminalidad informática49
+**Definición Canónica:** criminalidad informática49
+
+criminalidad informática49
 
                                                                                              Las conductas que nos ocupan, es decir aquellas en que la informá-
                                                                                              tica es el medio comisivo, presentan ciertas características objetivas
@@ -4233,18 +4125,27 @@ Informático                                                                    
                                                                                              la posibilidad de excluir estas conductas de los tipos penales que se
                                                                                              establezcan.
 
-
 ## 3.4.3 Características objetivas de
 
-                                                                                             los delitos informáticos
+**Definición Canónica:** los delitos informáticos
                                                                                              En este punto, analizaremos los principales tipos de conductas de-
                                                                                              lictivas realizadas a través de medios informáticos que atañen a la
                                                                                              consulta realizada.
 
+los delitos informáticos
+                                                                                             En este punto, analizaremos los principales tipos de conductas de-
+                                                                                             lictivas realizadas a través de medios informáticos que atañen a la
+                                                                                             consulta realizada.
 
 ## 3.4.3.1 Conductas defraudatorias
 
-                                                                                             Tienen por objeto interferir o distorsionar los datos procesados en
+**Definición Canónica:** Tienen por objeto interferir o distorsionar los datos procesados en
+                                                                                             sistemas informáticos, ya sea introduciendo datos falsos (data didd-
+                                                                                             ling), modificando el software empleado, o introduciendo rutinas o
+                                                                                             instrucciones aparentemente inocuas que alteran el funcionamiento
+                                                   
+
+Tienen por objeto interferir o distorsionar los datos procesados en
                                                                                              sistemas informáticos, ya sea introduciendo datos falsos (data didd-
                                                                                              ling), modificando el software empleado, o introduciendo rutinas o
                                                                                              instrucciones aparentemente inocuas que alteran el funcionamiento
@@ -4319,10 +4220,12 @@ Informático                                                                    
                                                                  de dar a conocer esta información al titular del sitio web de comercio
                                                                  electrónico afectado, como se analizará más adelante.
 
-
 ## 3.4.3.2 Conductas de sabotaje
 
-                                                                 La doctrina entiende que, a través de este tipo de conductas, se bus-
+**Definición Canónica:** La doctrina entiende que, a través de este tipo de conductas, se bus-
+                                                                 ca penalizar la inutilización de los sistemas informáticos mediante
+
+La doctrina entiende que, a través de este tipo de conductas, se bus-
                                                                  ca penalizar la inutilización de los sistemas informáticos mediante
 
                                                                  el daño a los programas (soporte lógico del sistema), puesto que
@@ -4366,10 +4269,15 @@ Informático                                                                    
                                                                                              como dijimos, debiera ser considerado como un delito de daños con-
                                                                                              vencional, que está o debe estar contemplado en la legislación penal.
 
-
 ## 3.4.3.3 Espionaje informático
 
-                                                                                             En este caso, se trata de figuras delictivas a través de las cuales se
+**Definición Canónica:** En este caso, se trata de figuras delictivas a través de las cuales se
+                                                                                             accede y/o divulga indebidamente la información y se fundamenta
+                                                                                             en el valor económico que la misma representa en la sociedad actual.
+                                                                                             Este tipo de delitos es cometido principalmente con la finalidad de
+                                                 
+
+En este caso, se trata de figuras delictivas a través de las cuales se
                                                                                              accede y/o divulga indebidamente la información y se fundamenta
                                                                                              en el valor económico que la misma representa en la sociedad actual.
                                                                                              Este tipo de delitos es cometido principalmente con la finalidad de
@@ -4389,10 +4297,16 @@ Informático                                                                    
 
 Derecho                                                        3. Criminalidad                                                        107
 
-
 ## 3.4.3.4 Intrusiones ilegítimas
 
-                                                                 Corresponden a una vulneración de los sistemas de seguridad del
+**Definición Canónica:** Corresponden a una vulneración de los sistemas de seguridad del
+                                                                 sistema informático o, tratándose se sujetos entendidos en la materia
+                                                                 o conocedores del sistema específico del que se trata, mediante el
+                                                                 uso de “puertas falsas” (trap door) o sistema “indocumentado” de un
+                                                                 programa, previsto para el ingreso y recuperación de información en
+   
+
+Corresponden a una vulneración de los sistemas de seguridad del
                                                                  sistema informático o, tratándose se sujetos entendidos en la materia
                                                                  o conocedores del sistema específico del que se trata, mediante el
                                                                  uso de “puertas falsas” (trap door) o sistema “indocumentado” de un
@@ -4412,10 +4326,11 @@ Informático                                                                    
 Derecho                                                              3. Criminalidad                                                       108
 Informático                                                             informática
 
-
 ## 3.5     El marco jurídico internacional: Convenio de
 
-                                                                       Budapest sobre Ciberdelincuencia (2001)
+**Definición Canónica:** Budapest sobre Ciberdelincuencia (2001)
+
+Budapest sobre Ciberdelincuencia (2001)
 
                                                                        El Convenio de Budapest (en adelante “el Convenio”) fue adoptado
                                                                        el 23 de noviembre de 2001 en la ciudad de Budapest, Hungría, por
@@ -4430,10 +4345,14 @@ Informático                                                             inform�
                                                                        dicado a las medidas de investigación y cooperación internacional
                                                                        en la persecución de estos delitos.
 
-
 ## 3.5.1 Ámbito sustantivo
 
-                                                                       En el ámbito sustantivo, destaca que como regla general los tipos
+**Definición Canónica:** En el ámbito sustantivo, destaca que como regla general los tipos
+                                                                       penales que prevé el Convenio incluyen, como elemento subjetivo
+                                                                       del tipo, que se trate de acciones deliberadas e ilegítimas, excluyendo
+                                                                       con ello las conductas culposas y el dolo eventual.
+
+En el ámbito sustantivo, destaca que como regla general los tipos
                                                                        penales que prevé el Convenio incluyen, como elemento subjetivo
                                                                        del tipo, que se trate de acciones deliberadas e ilegítimas, excluyendo
                                                                        con ello las conductas culposas y el dolo eventual.
@@ -4458,10 +4377,14 @@ Informático                                                             inform�
 
 Derecho                                                        3. Criminalidad                                                     109
 
-
 ## 2. Cuando la ausencia de vigilancia o de control por parte de
 
-                                                                     cualquier persona física mencionada antes haya permitido la co-
+**Definición Canónica:** cualquier persona física mencionada antes haya permitido la co-
+                                                                     misión de un delito previsto en aplicación del presente Convenio
+                                                                     por una persona física que actúe por cuenta de dicha persona
+                                                                     jurídica y bajo su autoridad”.
+
+cualquier persona física mencionada antes haya permitido la co-
                                                                      misión de un delito previsto en aplicación del presente Convenio
                                                                      por una persona física que actúe por cuenta de dicha persona
                                                                      jurídica y bajo su autoridad”.
@@ -4469,10 +4392,12 @@ Informático                                                             inform�
                                                                  En los siguientes acápites, veremos los delitos que se prevén en el
                                                                  Convenio.
 
-
 ## 3.5.1.1 Acceso ilícito (art. 2)
 
-                                                                 Consiste en el acceso deliberado e ilegítimo a todo o parte de un
+**Definición Canónica:** Consiste en el acceso deliberado e ilegítimo a todo o parte de un
+                                                                 sistema informático. El Convenio admite que los Estados decidan si
+
+Consiste en el acceso deliberado e ilegítimo a todo o parte de un
                                                                  sistema informático. El Convenio admite que los Estados decidan si
 
                                                                  exigirán que el delito se cometa infringiendo medidas de seguridad,
@@ -4488,10 +4413,16 @@ Informático                                                             inform�
                                                                  por ejemplo, para revelar secretos industriales, secretos de Estado y
                                                                  acceso a otro tipo de datos confidenciales.
 
-
 ## 3.5.1.2 Interceptación ilícita (art. 3)
 
-                                                                 Consiste en “la interceptación deliberada e ilegítima por medios
+**Definición Canónica:** Consiste en “la interceptación deliberada e ilegítima por medios
+                                                                 técnicos de datos informáticos en transmisiones no públicas dirigidas
+                                                                 a un sistema informático, originadas en un sistema informático o
+                                                                 efectuadas dentro del mismo, incluidas las emisiones electromagné-
+                                                                 ticas provenientes de un sistema informático que transporte dichos
+      
+
+Consiste en “la interceptación deliberada e ilegítima por medios
                                                                  técnicos de datos informáticos en transmisiones no públicas dirigidas
                                                                  a un sistema informático, originadas en un sistema informático o
                                                                  efectuadas dentro del mismo, incluidas las emisiones electromagné-
@@ -4504,10 +4435,13 @@ Informático                                                             inform�
 
 Derecho                                                        3. Criminalidad                                                     110
 
-
 ## 3.5.1.3 Ataque a la integridad de datos (art. 4)
 
-                                                                 Consiste en “todo acto deliberado e ilegítimo que dañe, borre, de-
+**Definición Canónica:** Consiste en “todo acto deliberado e ilegítimo que dañe, borre, de-
+                                                                 teriore, altere o suprima datos informáticos, siempre que dicho acto
+                                                                 produzca daños graves”.
+
+Consiste en “todo acto deliberado e ilegítimo que dañe, borre, de-
                                                                  teriore, altere o suprima datos informáticos, siempre que dicho acto
                                                                  produzca daños graves”.
 
@@ -4526,18 +4460,29 @@ Informático                                                             inform�
                                                                  liberada”, y no solo el delito consumado, sino además la “tentativa
                                                                  deliberada”.
 
-
 ## 3.5.1.4 Ataque a la integridad del sistema (art. 5)
 
-                                                                 Se entiende por tal la obstaculización grave, deliberada e ilegítima
+**Definición Canónica:** Se entiende por tal la obstaculización grave, deliberada e ilegítima
                                                                  del funcionamiento de un sistema informático mediante la introduc-
                                                                  ción, transmisión, daño, borrado, deterioro, alteración o supresión
                                                                  de datos informáticos.
 
+Se entiende por tal la obstaculización grave, deliberada e ilegítima
+                                                                 del funcionamiento de un sistema informático mediante la introduc-
+                                                                 ción, transmisión, daño, borrado, deterioro, alteración o supresión
+                                                                 de datos informáticos.
 
 ## 3.5.1.5 Abuso de dispositivos (art. 6)
 
-                                                                 Se entiende por tal el uso de un sistema informático o sus com-
+**Definición Canónica:** Se entiende por tal el uso de un sistema informático o sus com-
+                                                                 ponentes para efecto de cometer ilícitos. Al respecto, el Convenio
+                                                                 considera las siguientes hipótesis:
+                                                                 a. La producción, venta, obtención para su utilización, importación,
+                                                                    difusión u otra forma de puesta a disposición de:
+                                                   
+**Concordancias Legales:** artículos 2; artículo 6
+
+Se entiende por tal el uso de un sistema informático o sus com-
                                                                  ponentes para efecto de cometer ilícitos. Al respecto, el Convenio
                                                                  considera las siguientes hipótesis:
                                                                  a. La producción, venta, obtención para su utilización, importación,
@@ -4580,10 +4525,14 @@ Informático                                                             inform�
                                                                      como en el caso de las pruebas autorizadas o de la protección
                                                                      del sistema informático”.
 
-
 ## 3.5.1.6 Falsificación informática (art. 7)
 
-                                                                 Se entiende por tal “la introducción, alteración, borrado o supresión
+**Definición Canónica:** Se entiende por tal “la introducción, alteración, borrado o supresión
+                                                                 deliberados e ilegítimos de datos informáticos que genere datos no
+                                                                 auténticos con la intención de que sean tomados o utilizados a efectos
+                                                                 legales como auténticos, con independencia de que los datos sean
+
+Se entiende por tal “la introducción, alteración, borrado o supresión
                                                                  deliberados e ilegítimos de datos informáticos que genere datos no
                                                                  auténticos con la intención de que sean tomados o utilizados a efectos
                                                                  legales como auténticos, con independencia de que los datos sean
@@ -4597,10 +4546,13 @@ Informático                                                             inform�
                                                                  Tal y como sucede en las figuras anteriores, se sanciona la complicidad
                                                                  deliberada y la tentativa deliberada.
 
-
 ## 3.5.1.7 Fraude informático (art. 8)
 
-                                                                 En este caso, se sanciona los actos deliberados e ilegítimos que causen
+**Definición Canónica:** En este caso, se sanciona los actos deliberados e ilegítimos que causen
+                                                                 perjuicio patrimonial a otra persona mediante:
+                                                                 a. La introducción, alteración, borrado o supresión de datos infor-
+
+En este caso, se sanciona los actos deliberados e ilegítimos que causen
                                                                  perjuicio patrimonial a otra persona mediante:
                                                                  a. La introducción, alteración, borrado o supresión de datos infor-
 
@@ -4613,10 +4565,17 @@ Informático                                                             inform�
                                                                  Tal y como sucede en las figuras anteriores, se sanciona la complicidad
                                                                  deliberada y la tentativa deliberada.
 
-
 ## 3.5.1.8 Delitos relacionados con la
 
-                                                                 pornografía infantil (art. 9)
+**Definición Canónica:** pornografía infantil (art. 9)
+                                                                 Al respecto, se señala que será tal la comisión deliberada e ilegítima
+                                                                 de los siguientes actos:
+                                                                 — la producción de pornografía infantil con la intención de difun-
+                                                                   dirla a través de un sistema informático;
+                                                                 — la oferta o la puesta a disposición 
+**Concordancias Legales:** artículo 9 del Convenio
+
+pornografía infantil (art. 9)
                                                                  Al respecto, se señala que será tal la comisión deliberada e ilegítima
                                                                  de los siguientes actos:
                                                                  — la producción de pornografía infantil con la intención de difun-
@@ -4657,10 +4616,14 @@ Informático                                                             inform�
                                                                  sexualmente explícito, y aquellas imágenes realistas que representen
                                                                  a un menor adoptando un comportamiento sexualmente explícito.
 
-
 ## 3.5.1.9 Delitos relacionados con la
 
-                                                                 propiedad intelectual (art. 10)
+**Definición Canónica:** propiedad intelectual (art. 10)
+                                                                 Al respecto, el Convenio establece que cada parte adoptará las me-
+                                                                 didas legislativas y de otro tipo que resulten necesarias para tipificar
+                                                                 como delito en su derecho interno:
+
+propiedad intelectual (art. 10)
                                                                  Al respecto, el Convenio establece que cada parte adoptará las me-
                                                                  didas legislativas y de otro tipo que resulten necesarias para tipificar
                                                                  como delito en su derecho interno:
@@ -4695,10 +4658,15 @@ Informático                                                             inform�
                                                                  En este caso, asimismo, se prevé que se sancione la complicidad
                                                                  deliberada y la tentativa deliberada.
 
-
 ## 3.5.2 Ámbito adjetivo o normas procesales
 
-                                                                 El Convenio prevé medidas de investigación y cooperación en el ám-
+**Definición Canónica:** El Convenio prevé medidas de investigación y cooperación en el ám-
+                                                                 bito procesal, las que alcanzan no solo los tiempos penales previstos
+                                                                 en su texto, sino cualquier otro delito cometido por medio de un
+                                                                 sistema informático. Sobre este ámbito nos referiremos más adelante,
+                                                                 en el capítulo sobre medidas procesales y probatorias.
+
+El Convenio prevé medidas de investigación y cooperación en el ám-
                                                                  bito procesal, las que alcanzan no solo los tiempos penales previstos
                                                                  en su texto, sino cualquier otro delito cometido por medio de un
                                                                  sistema informático. Sobre este ámbito nos referiremos más adelante,
@@ -4707,15 +4675,16 @@ Informático                                                             inform�
 Derecho                                                                                    3. Criminalidad                                                         115
 Informático                                                                                   informática
 
-
-## 3.6              La Ley Nº 19.223 sobre delitos informáticos
-
-                                                                                             y el contenido de su reforma
-
-
 ## 3.6.1 Antecedentes
 
-                                                                                             La Ley N° 19.223, de fecha 7 de junio de 1993, que tipifica figuras
+**Definición Canónica:** La Ley N° 19.223, de fecha 7 de junio de 1993, que tipifica figuras
+                                                                                             penales relativas a la informática, se originó en la moción presentada
+                                                                                             ante la Cámara de Diputados por el diputado señor José Antonio
+                                                                                             Viera-Gallo en la 19ª sesión, de 16 de julio de 1991, publicada en el
+                                                 
+**Concordancias Legales:** Ley N° 19.223; Ley Nº 19.223
+
+La Ley N° 19.223, de fecha 7 de junio de 1993, que tipifica figuras
                                                                                              penales relativas a la informática, se originó en la moción presentada
                                                                                              ante la Cámara de Diputados por el diputado señor José Antonio
                                                                                              Viera-Gallo en la 19ª sesión, de 16 de julio de 1991, publicada en el
@@ -4748,10 +4717,16 @@ Informático                                                                    
 Derecho                                                                                     3. Criminalidad                                                            116
 Informático                                                                                    informática
 
-
 ## 3.6.2 El bien jurídico protegido en la Ley Nº 19.223
 
-                                                                                              En la historia de la ley, se dejó constancia expresa de que su estable-
+**Definición Canónica:** En la historia de la ley, se dejó constancia expresa de que su estable-
+                                                                                              cimiento tenía por objeto “proteger un nuevo bien jurídico que ha
+                                                                                              surgido con el uso de las modernas tecnologías computacionales:
+                                                                                              la calidad, la pureza e idoneidad de la información en cuanto a tal,
+                                               
+**Concordancias Legales:** Ley Nº 19.223
+
+En la historia de la ley, se dejó constancia expresa de que su estable-
                                                                                               cimiento tenía por objeto “proteger un nuevo bien jurídico que ha
                                                                                               surgido con el uso de las modernas tecnologías computacionales:
                                                                                               la calidad, la pureza e idoneidad de la información en cuanto a tal,
@@ -4806,10 +4781,13 @@ Informático                                                                    
                                                                                   que establece, a saber: la propiedad, la intimidad y la seguridad del
                                                                                   tráfico mercantil, entre otros.
 
-
 ## 3.6.3 El objeto del delito
 
-                                                                                  Como se señaló antes, los objetos de estos delitos son “la información”
+**Definición Canónica:** Como se señaló antes, los objetos de estos delitos son “la información”
+                                                                                  y “los sistemas de tratamiento automatizado” de la misma.
+**Concordancias Legales:** Ley Nº 19.223
+
+Como se señaló antes, los objetos de estos delitos son “la información”
                                                                                   y “los sistemas de tratamiento automatizado” de la misma.
 
                                                                                   Según la RAE, un “sistema” es un conjunto de reglas o principios
@@ -4877,10 +4855,15 @@ Informático                                                                    
 
 Derecho                                                        3. Criminalidad                                                        119
 
-
 ## 3.6.4 El sujeto activo de los delitos de la Ley Nº 19.223
 
-                                                                 En relación con el sujeto activo de la conducta punible, la ley no
+**Definición Canónica:** En relación con el sujeto activo de la conducta punible, la ley no
+                                                                 exige la concurrencia de ningún tipo de exigencia específica, lo cual
+                                                                 se deduce de la escueta expresión “El que...” usada en los cuatro
+                                                                 artículos de la ley.
+**Concordancias Legales:** artículo 4
+
+En relación con el sujeto activo de la conducta punible, la ley no
                                                                  exige la concurrencia de ningún tipo de exigencia específica, lo cual
                                                                  se deduce de la escueta expresión “El que...” usada en los cuatro
                                                                  artículos de la ley.
@@ -4898,10 +4881,17 @@ Informático                                                                    
                                                                  una persona que está al tanto de los detalles del funcionamiento
                                                                  del sistema.
 
-
 ## 3.6.5 Los elementos subjetivos de los
 
-                                                                 tipos penales de la Ley Nº 19.223
+**Definición Canónica:** tipos penales de la Ley Nº 19.223
+                                                                 La ley no admite el delito culposo sino que, en cada uno de los tipos
+                                                                 penales que establece, exige la concurrencia de un dolo específico.
+                                                                 Así, en los artículos 1º, 3º y 4º utiliza la expresión “maliciosamente”,
+                                                                 que se entiende como la intención solapada y maligna con la cual
+                              
+**Concordancias Legales:** artículos 1; artículo 2; Ley Nº 19.223
+
+tipos penales de la Ley Nº 19.223
                                                                  La ley no admite el delito culposo sino que, en cada uno de los tipos
                                                                  penales que establece, exige la concurrencia de un dolo específico.
                                                                  Así, en los artículos 1º, 3º y 4º utiliza la expresión “maliciosamente”,
@@ -4943,10 +4933,13 @@ Informático                                                                    
                                                                  sino también su texto expreso, además de constituirse en un inde-
                                                                  seado freno al desarrollo científico y tecnológico.
 
-
 ## 3.6.6 Análisis del artículo 1º de la Ley Nº 19.223
 
-                                                                 En su texto, el primero de los cuatro artículos que contiene la ley
+**Definición Canónica:** En su texto, el primero de los cuatro artículos que contiene la ley
+                                                                 dispone lo siguiente:
+**Concordancias Legales:** artículo 1; artículos 1; artículo 303; artículos 323; artículo 264.1; Ley Nº 19.223
+
+En su texto, el primero de los cuatro artículos que contiene la ley
                                                                  dispone lo siguiente:
 
                                                                      “El que maliciosamente destruya o inutilice un sistema de tra-
@@ -5164,10 +5157,14 @@ Informático                                                                    
                                                                  derecho comparado, exigen que se atente contra el sistema de trata-
                                                                  miento, ya sea inutilizándolo o alterando su funcionamiento.
 
-
 ## 3.6.7 Análisis del artículo 3º de la Ley Nº 19.223
 
-                                                                     “Artículo 3°. El que maliciosamente altere, dañe o destruya los
+**Definición Canónica:** “Artículo 3°. El que maliciosamente altere, dañe o destruya los
+                                                                     datos contenidos en un sistema de tratamiento de información,
+                                                                     será castigado con presidio menor en su grado medio”.
+**Concordancias Legales:** Artículo 3; artículo 303; artículo 126 del Código Penal; artículo 323
+
+“Artículo 3°. El que maliciosamente altere, dañe o destruya los
                                                                      datos contenidos en un sistema de tratamiento de información,
                                                                      será castigado con presidio menor en su grado medio”.
 
@@ -5238,15 +5235,16 @@ Informático                                                                    
 Derecho                                                              3. Criminalidad                                                      128
 Informático                                                             informática
 
-
-## 3.7     Otras leyes que prevén delitos de
-
-                                                                       relevancia a efectos informáticos
-
-
 ## 3.7.1 Delitos contra la propiedad
 
-                                                                       intelectual y pirateo informático
+**Definición Canónica:** intelectual y pirateo informático
+                                                                       Como es sabido, la ley de propiedad intelectual protege tanto al
+                                                                       autor como al productor y a los intérpretes y ejecutantes, respecto
+                                                                       de los derechos patrimoniales y morales que se les reconoce por el
+                                                                       ordenamiento jurídico nacional.
+**Concordancias Legales:** artículo 3; artículos 78; Ley Nº 17.336
+
+intelectual y pirateo informático
                                                                        Como es sabido, la ley de propiedad intelectual protege tanto al
                                                                        autor como al productor y a los intérpretes y ejecutantes, respecto
                                                                        de los derechos patrimoniales y morales que se les reconoce por el
@@ -5303,18 +5301,28 @@ Informático                                                                    
                                                                                                 o el título de la obra, o alterando maliciosamente su texto (art.
                                                                                                 79 bis, Ley Nº 17.336).
 
-
 ## 3.7.2 Delitos de pornografía infantil a
 
-                                                                                              través de medios computacionales
+**Definición Canónica:** través de medios computacionales
                                                                                               La pornografía infantil es uno de los problemas persistentes en la red.
                                                                                               Por ello, de manera temprana nuestro Código Penal se actualizó para
                                                                                               los efectos de recoger figuras penales que sancionaran estas conductas.
 
+través de medios computacionales
+                                                                                              La pornografía infantil es uno de los problemas persistentes en la red.
+                                                                                              Por ello, de manera temprana nuestro Código Penal se actualizó para
+                                                                                              los efectos de recoger figuras penales que sancionaran estas conductas.
 
 ## 3.7.3 Grooming, bullying y otras formas
 
-                                                                                              de discriminación en línea
+**Definición Canónica:** de discriminación en línea
+                                                                                              Conforme a su artículo 1º, la Ley N° 20.609 “tiene por objeto fun-
+                                                                                              damental instaurar un mecanismo judicial que permita restablecer
+                                                                                              eficazmente el imperio del derecho toda vez que se cometa un acto
+                                                                                             
+**Concordancias Legales:** artículo 1; Ley N° 20.609
+
+de discriminación en línea
                                                                                               Conforme a su artículo 1º, la Ley N° 20.609 “tiene por objeto fun-
                                                                                               damental instaurar un mecanismo judicial que permita restablecer
                                                                                               eficazmente el imperio del derecho toda vez que se cometa un acto
@@ -5337,11 +5345,16 @@ Informático                                                                    
                                                                                                que el grooming y el bullying son especies dentro de este concepto
                                                                                                más amplio.
 
-
 ## 3.7.3.1 Bullying
 
+**Definición Canónica:** El bullying o acoso escolar consiste en una forma de maltrato psico-
+                                                                                               lógico, verbal o físico producido entre escolares de forma sostenida
+                                                                                               y a lo largo de un tiempo determinado. Se afirma que es una “for-
+                                                                                               ma de comportamiento agresivo que suele ser lesivo y deliberado,
+                                              
+**Concordancias Legales:** artículo 16; Ley Nº 20.536
 
-                                                                                               El bullying o acoso escolar consiste en una forma de maltrato psico-
+El bullying o acoso escolar consiste en una forma de maltrato psico-
                                                                                                lógico, verbal o físico producido entre escolares de forma sostenida
                                                                                                y a lo largo de un tiempo determinado. Se afirma que es una “for-
                                                                                                ma de comportamiento agresivo que suele ser lesivo y deliberado,
@@ -5413,10 +5426,16 @@ Informático                                                                    
 Derecho                                                                                      3. Criminalidad                                                                132
 Informático                                                                                     informática
 
-
 ## 3.7.3.2 Grooming
 
-                                                                                               Se entiende que la expresión grooming abarca cualquier acción que
+**Definición Canónica:** Se entiende que la expresión grooming abarca cualquier acción que
+                                                                                               tenga por objetivo minar y socavar moral y psicológicamente a una
+                                                                                               persona, con la finalidad de conseguir su control a nivel emocional.
+                                                                                               Esta conducta es especialmente grave si el objetivo es controlar a un
+                                            
+**Concordancias Legales:** artículo 366; Ley Nº 20.526
+
+Se entiende que la expresión grooming abarca cualquier acción que
                                                                                                tenga por objetivo minar y socavar moral y psicológicamente a una
                                                                                                persona, con la finalidad de conseguir su control a nivel emocional.
                                                                                                Esta conducta es especialmente grave si el objetivo es controlar a un
@@ -5468,10 +5487,12 @@ Informático                                                                    
                                                                                  igualmente siendo este hecho presencial o bien a través de cámara,
                                                                                  grabación de voz, teléfono u otro medio tecnológico.
 
-
 ## 3.7.3.3 Jurisprudencia nacional
 
-                                                      Debe entenderse,           En autos rol Nº 9.875-11, la Corte de Apelaciones se refirió a actos
+**Definición Canónica:** Debe entenderse,           En autos rol Nº 9.875-11, la Corte de Apelaciones se refirió a actos
+**Concordancias Legales:** constitución
+
+Debe entenderse,           En autos rol Nº 9.875-11, la Corte de Apelaciones se refirió a actos
 
                                                                                  constitutivos de bullying en un colegio de Santiago, estimando que si
                                                       por tanto, que para
@@ -5500,10 +5521,12 @@ Informático                                                                    
 Derecho                                                                      3. Criminalidad                                                      134
 Informático                                                                     informática
 
-
 ## 3.8           El singular problema de la llamada
 
-                                                                               “estafa informática”
+**Definición Canónica:** “estafa informática”
+**Concordancias Legales:** artículo 3; Ley Nº 19.223; Ley Nº 19.799
+
+“estafa informática”
 
                                                                                Ni la Ley Nº 19.223 ni el Código Penal entregan herramientas para
                                                                                enfrentar una conducta singular, o mejor dicho no tipificada, pero de
@@ -5637,10 +5660,13 @@ Informático                                                             electr�
 Derecho                                                              4. Documento electrónico y firma                                      140
 Informático                                                             electrónica avanzada
 
-
 ## 4.2     Conceptos generales: documento
 
-                                                                       electrónico, firma electrónica y prestadores
+**Definición Canónica:** electrónico, firma electrónica y prestadores
+                                                                       de servicios de certificación
+**Concordancias Legales:** Ley Nº 19.799
+
+electrónico, firma electrónica y prestadores
                                                                        de servicios de certificación
 
                                                                        ¿Qué es esto de la firma electrónica avanzada? ¿Acaso hay firmas
@@ -5751,10 +5777,16 @@ Informático                                                                    
                                                                                               Ahora bien, ¿por qué es homologable la firma electrónica avanzada
                                                                                               a la firma manuscrita? A continuación revisaremos las razones.
 
-
 ## 4.2.1 Identidad de los contratantes
 
-                                                                                              La firma electrónica avanzada considera, en el procedimiento de
+**Definición Canónica:** La firma electrónica avanzada considera, en el procedimiento de
+                                                                                              otorgamiento de certificado de firma a una persona, la verificación
+                                                                                              fehaciente de la identidad de la misma. Esto se logra a través de la
+                                                                                              exigencia de comparecencia personal del titular del certificado, ya
+                                                 
+**Concordancias Legales:** artículo 6; artículo 12; artículo 5; Ley Nº 19.799
+
+La firma electrónica avanzada considera, en el procedimiento de
                                                                                               otorgamiento de certificado de firma a una persona, la verificación
                                                                                               fehaciente de la identidad de la misma. Esto se logra a través de la
                                                                                               exigencia de comparecencia personal del titular del certificado, ya
@@ -5817,10 +5849,15 @@ Informático                                                                    
                                                                  de técnicas de encriptación, que garantizan que los mecanismos de
                                                                  firma no serán conocidos indebidamente por terceros.
 
-
 ## 4.2.2 Integridad y autenticidad del documento
 
-                                                                 La integridad del documento se ha resuelto técnicamente a través
+**Definición Canónica:** La integridad del documento se ha resuelto técnicamente a través
+                                                                 de los sistemas de encriptación, que también garantizan que el men-
+                                                                 saje no ha sido modificado en el tiempo/espacio mediante entre su
+                                                                 envío (entendiendo por tal la salida de la esfera de control técnico
+                                                                 del autor del mensaje) y recepción (entendiendo por tal la llegada al
+
+La integridad del documento se ha resuelto técnicamente a través
                                                                  de los sistemas de encriptación, que también garantizan que el men-
                                                                  saje no ha sido modificado en el tiempo/espacio mediante entre su
                                                                  envío (entendiendo por tal la salida de la esfera de control técnico
@@ -5857,10 +5894,12 @@ Informático                                                                    
 Derecho                                                              4. Documento electrónico y firma                                         145
 Informático                                                             electrónica avanzada
 
-
 ## 4.3     Principios jurídicos de la
 
-                                                                       Ley Nº 19.799 y su aplicación
+**Definición Canónica:** Ley Nº 19.799 y su aplicación
+**Concordancias Legales:** Ley Nº 19.799; Constitución; constitucion
+
+Ley Nº 19.799 y su aplicación
 
                                                                        En cuanto a su naturaleza jurídica, esta ley vino a dar certeza en el
                                                                        ámbito del tráfico jurídico en línea, sin una alteración sustancial de las
@@ -5934,10 +5973,12 @@ Informático                                                             electr�
 Derecho                                                              4. Documento electrónico y firma                                       147
 Informático                                                             electrónica avanzada
 
-
 ## 4.4     Impacto de la Ley Nº 19.799
 
-                                                                       y su ámbito de aplicación
+**Definición Canónica:** y su ámbito de aplicación
+**Concordancias Legales:** artículo 1; artículo 422 del Código Orgánico de Tribunales dispone que las; artículo 428; artículo 30; artículo 71 bis del DS 55 de 1977; artículos 1708; artículo 2; artículos 3; Artículo 3; Artículo 7; Artículo 45; artículo 434; artículos 56; artículo 1024; artículo 2166 del Código Civil; Ley Nº 19.799; constitucion; Constitución Política
+
+y su ámbito de aplicación
 
                                                                        Esta ley tiene aplicación general y no está limitada al ámbito
                                                                        comercial o mercantil. Su aplicación abarca tanto los actos de los
@@ -6209,10 +6250,12 @@ Informático                                                                    
 Derecho                                                              4. Documento electrónico y firma                                              154
 Informático                                                             electrónica avanzada
 
-
 ## 4.5     El certificado de firma electrónica y
 
-                                                                       la actividad de certificación
+**Definición Canónica:** la actividad de certificación
+**Concordancias Legales:** artículo 2; artículo 11 de la Ley; artículo 15; Ley 19.799; Ley Nº 19.799
+
+la actividad de certificación
 
                                                                        Si bien no es obligatorio acreditarse, conforme a lo que dispone el
                                                                        artículo 2º letra c y en concordancia con el artículo 11 de la Ley
@@ -6292,10 +6335,15 @@ Informático                                                             electr�
 
 Derecho                                                        4. Documento electrónico y firma                                          156
 
-
 ## 4.5.1 La validez de los certificados
 
-                                                                 En cuanto a la validez de los certificados, la ley prevé distintas cir-
+**Definición Canónica:** En cuanto a la validez de los certificados, la ley prevé distintas cir-
+                                                                 cunstancias por las cuales estos pierden sus efectos. En primer lugar,
+                                                                 podrá producirse una suspensión temporal del certificado, fundada en
+                                                                 problemas técnicos. En segundo lugar, atendido que los certificados
+                                                                 no podrán tener un plazo de vigencia mayor a tres años, podr
+
+En cuanto a la validez de los certificados, la ley prevé distintas cir-
                                                                  cunstancias por las cuales estos pierden sus efectos. En primer lugar,
                                                                  podrá producirse una suspensión temporal del certificado, fundada en
                                                                  problemas técnicos. En segundo lugar, atendido que los certificados
@@ -6324,10 +6372,16 @@ Informático                                                             electr�
                                                                  respectiva en el repositorio público que los prestadores deben man-
                                                                  tener en su sitio web.
 
-
 ## 4.5.2 La acreditación fehaciente de la
 
-                                                                 identidad del titular del certificado
+**Definición Canónica:** identidad del titular del certificado
+                                                                 Como hemos señalado, la ley impone a los proveedores de servicios
+                                                                 de certificación de firma electrónica que en el otorgamiento de FEA
+                                                                 deben comprobar fehacientemente –esto es, de manera indubitada–
+                                                                 la identidad del firmante.
+**Concordancias Legales:** Artículo 30
+
+identidad del titular del certificado
                                                                  Como hemos señalado, la ley impone a los proveedores de servicios
                                                                  de certificación de firma electrónica que en el otorgamiento de FEA
                                                                  deben comprobar fehacientemente –esto es, de manera indubitada–
@@ -6425,10 +6479,11 @@ Informático                                                             electr�
 Derecho                                                                      4. Documento electrónico y firma                                        160
 Informático                                                                     electrónica avanzada
 
-
 ## 4.6           El proceso de firma
 
-                                                                               de documentos
+**Definición Canónica:** de documentos
+
+de documentos
 
                                                                                Luego, el proceso posterior es asimismo mejor asegurado, en cuan-
                                                                                to a la certeza jurídica, a través de sistemas informáticos como se
@@ -6468,10 +6523,12 @@ Informático                                                                    
 Derecho                                                              4. Documento electrónico y firma                                       161
 Informático                                                             electrónica avanzada
 
-
 ## 4.7     Responsabilidad de los prestadores
 
-                                                                       del servicio de certificación
+**Definición Canónica:** del servicio de certificación
+**Concordancias Legales:** artículo 13 de la Ley Nº 19.799 precisa cuáles son los deberes; artículo 14; artículo 15; Ley Nº 19.799
+
+del servicio de certificación
 
                                                                        Los proveedores de servicios de certificación están sujetos a la obliga-
                                                                        ción de publicidad, en virtud de lo cual deben contar con prácticas
@@ -6646,10 +6703,11 @@ Informático                                                                    
 Derecho                                                              4. Documento electrónico y firma                                          165
 Informático                                                             electrónica avanzada
 
-
 ## 4.8     La Subsecretaría de Economía
 
-                                                                       como entidad acreditadora
+**Definición Canónica:** como entidad acreditadora
+
+como entidad acreditadora
 
                                                                        Las autoridades de control en el entorno tecnológico son órganos de
                                                                        carácter público, a los que el ordenamiento jurídico reconoce ciertas
@@ -6665,10 +6723,15 @@ Informático                                                             electr�
                                                                        namiento y desarrollo de la actividad de certificación en Chile. Entre
                                                                        sus funciones destacan las que se detallan en los próximos acápites.
 
-
 ## 4.8.1 Acreditación
 
-                                                                       Se trata del proceso a través del cual el prestador da cuenta a la
+**Definición Canónica:** Se trata del proceso a través del cual el prestador da cuenta a la
+                                                                       autoridad del cumplimiento de los estándares exigidos para proveer
+                                                                       los servicios de firma electrónica avanzada. Esto es, que cuenta con
+                                                                       las instalaciones, sistemas, programas informáticos y los recursos
+                                                                       humanos necesarios para otorgar los certificad
+
+Se trata del proceso a través del cual el prestador da cuenta a la
                                                                        autoridad del cumplimiento de los estándares exigidos para proveer
                                                                        los servicios de firma electrónica avanzada. Esto es, que cuenta con
                                                                        las instalaciones, sistemas, programas informáticos y los recursos
@@ -6710,17 +6773,23 @@ Informático                                                                    
                                                                               procesos y sistemas, amparada en la vigencia del respectivo decreto
                                                                               de acreditación.
 
-
 ## 4.8.2 Registro
 
-                                                                              Consiste en la inclusión de los datos de identificación de la entidad
+**Definición Canónica:** Consiste en la inclusión de los datos de identificación de la entidad
                                                                               cuya solicitud de acreditación haya sido acogida, en un registro pú-
                                                                               blico que mantendrá la entidad acreditadora.
 
+Consiste en la inclusión de los datos de identificación de la entidad
+                                                                              cuya solicitud de acreditación haya sido acogida, en un registro pú-
+                                                                              blico que mantendrá la entidad acreditadora.
 
 ## 4.8.3 Fiscalización
 
-                                                                              Consiste en una verificación del cumplimiento, en el tiempo, de los
+**Definición Canónica:** Consiste en una verificación del cumplimiento, en el tiempo, de los
+                                                                              requisitos y condiciones para mantener la condición de proveedor
+                                                                              acreditado.
+
+Consiste en una verificación del cumplimiento, en el tiempo, de los
                                                                               requisitos y condiciones para mantener la condición de proveedor
                                                                               acreditado.
 
@@ -6762,10 +6831,12 @@ Informático                                                                    
 Derecho                                                              4. Documento electrónico y firma                                      168
 Informático                                                             electrónica avanzada
 
-
 ## 4.9     El documento electrónico firmado comomedio de
 
-                                                                       prueba y su valor probatorio
+**Definición Canónica:** prueba y su valor probatorio
+**Concordancias Legales:** artículos 342; artículos 1701; artículo 5; artículo 1701 del CC agrega; artículo 346; artículo 342 del CPC; artículo 342; artículo 342 del CPC señala que las copias podrán ser objetada; Ley Nº 19.799; Ley Nº 20.217
+
+prueba y su valor probatorio
 
                                                                        El problema probatorio en los documentos electrónicos cobra
                                                                        extraordinaria importancia a la hora de analizar si es factible a un
@@ -6935,10 +7006,12 @@ Informático                                                                    
 Derecho                                                               4. Documento electrónico y firma                                     172
 Informático                                                              electrónica avanzada
 
-
 ## 4.10     El repositorio documental del notario considerando
 
-                                                                        los estándares de la Ley Nº 19.799
+**Definición Canónica:** los estándares de la Ley Nº 19.799
+**Concordancias Legales:** artículo 43; Ley Nº 19.799
+
+los estándares de la Ley Nº 19.799
 
                                                                         Entendemos que, tratándose de los repositorios electrónicos, habrá
                                                                         de seguir los lineamientos de la ley y el reglamento de firma elec-
@@ -6982,10 +7055,11 @@ Informático                                                              electr
 Derecho                                                                                     5, Derecho informático y                                                    174
 Informático                                                                                    medios de prueba
 
-
 ## 5.1               Aspectos generales de las imágenes y
 
-                                                                                              videos digitales como medios de prueba
+**Definición Canónica:** videos digitales como medios de prueba
+
+videos digitales como medios de prueba
 
                                                                                               Como su nombre lo sugiere, hablamos de videovigilancia respecto de
                                                                                               aquella modalidad de vigilancia llevada a cabo a través de la captación
@@ -7043,10 +7117,12 @@ Informático                                                                    
 Derecho                                                                                      5, Derecho informático y                                                       176
 Informático                                                                                     medios de prueba
 
-
 ## 5.2               La captación de registros a través de cámaras y
 
-                                                                                               drones y los problemas de legalidad asociados
+**Definición Canónica:** drones y los problemas de legalidad asociados
+**Concordancias Legales:** artículo 19; Constitución Política
+
+drones y los problemas de legalidad asociados
 
                                                                                                Nos hemos acostumbrado a que los cielos de nuestras ciudades sean
                                                                                                sobrevolados por aparatos denominados “drones”, expresión que
@@ -7135,10 +7211,11 @@ Informático                                                                    
 Derecho                                                                                      5, Derecho informático y                                                      179
 Informático                                                                                     medios de prueba
 
-
 ## 5.3               Internet de las cosas (IoT)
 
-                                                                                               como medio de prueba
+**Definición Canónica:** como medio de prueba
+
+como medio de prueba
 
                                                                                                Nos hemos referido antes a la “sensorización”, entendiendo por ello
                                                                                                la aplicación masiva de etiquetas (tag) en personas y objetos, lo que
@@ -7172,10 +7249,11 @@ Informático                                                                    
                                                                                                transmisor que envía pulsos de ondas de radio de alta frecuencia, las
                                                                                                cuales rebotan contra los objetos y regresan a la antena parabólica; la
 
-
 ## 76       OBSERVATORIO REGIONAL DE LA SOCIEDAD DE LA INFORMACIÓN (ORSI), Estudio RFID: Tecnología de
 
-                                                               identificación por radiofrecuencia. Junta de Castilla y León, 2007. Disponible en línea [consulta: 10.06.2019].
+**Definición Canónica:** identificación por radiofrecuencia. Junta de Castilla y León, 2007. Disponible en línea [consulta: 10.06.2019].
+
+identificación por radiofrecuencia. Junta de Castilla y León, 2007. Disponible en línea [consulta: 10.06.2019].
 
 Derecho                                                                                     5, Derecho informático y                                                     180
 Informático                                                                                    medios de prueba
@@ -7200,10 +7278,11 @@ Informático                                                                    
 Derecho                                                                                    5, Derecho informático y                                                  181
 Informático                                                                                   medios de prueba
 
-
 ## 5.4              Vigilancia, perfiles
 
-                                                                                             y big data
+**Definición Canónica:** y big data
+
+y big data
 
                                                                                              Entendemos por perfilamiento “una forma de control indirecto de
                                                                                              los individuos sobre la base de la explotación de informaciones
@@ -7306,10 +7385,12 @@ Informático                                                                    
 Derecho                                                                                    5, Derecho informático y                                            184
 Informático                                                                                   medios de prueba
 
-
 ## 5.5              Videovigilancia como medio para obtener
 
-                                                                                             pruebas a ser presentadas en juicio
+**Definición Canónica:** pruebas a ser presentadas en juicio
+**Concordancias Legales:** artículos 6; artículo 373; artículo 130; artículos 83; artículo 276 del Código Procesal Penal; ley 20084; constitución; constitucion
+
+pruebas a ser presentadas en juicio
 
                                                                                              Tratándose de la prueba de hechos controvertidos en materia civil,
                                                                                              la videovigilancia se ha empleado tanto en la preconstitución de
@@ -7440,10 +7521,11 @@ Informático                                                                    
 Derecho                                                                                     5, Derecho informático y                                                   188
 Informático                                                                                    medios de prueba
 
-
 ## 5.6               Procedencia de los “modernos medios
 
-                                                                                              de prueba” en el proceso
+**Definición Canónica:** de prueba” en el proceso
+
+de prueba” en el proceso
 
                                                                                               Según Vivares Porras (2015)84, si el objetivo es definir la verdad de un
                                                                                               enunciado, es necesario que se puedan usar todas las informaciones
@@ -7468,10 +7550,16 @@ Informático                                                                    
                                                                                               de prueba legal o tasada por sistemas mixtos o derechamente la
                                                                                               libertad probatoria.
 
-
 ## 5.6.1 Relevancia, idoneidad y proporcionalidad
 
-                                                                                              Si los medios de prueba que podrían eventualmente presentarse
+**Definición Canónica:** Si los medios de prueba que podrían eventualmente presentarse
+                                                                                              en juicio están taxativamente enumerados, habrá que constituir
+                                                                                              estándares de admisibilidad que otorguen certeza jurídico-procesal
+                                                                                              a las partes. Entre estos criterios, se han incluido los de relevancia,
+                                                      
+**Concordancias Legales:** artículo 18; constitucion; Constitución
+
+Si los medios de prueba que podrían eventualmente presentarse
                                                                                               en juicio están taxativamente enumerados, habrá que constituir
                                                                                               estándares de admisibilidad que otorguen certeza jurídico-procesal
                                                                                               a las partes. Entre estos criterios, se han incluido los de relevancia,
@@ -7626,10 +7714,16 @@ Informático                                                                    
                                                                                               bién en espacios públicos realizando actividades privadas, ajenas a
                                                                                               los hechos que se investiguen.
 
-
 ## 5.6.2 Prohibiciones probatorias y
 
-                                                                                              las pruebas tecnológicas
+**Definición Canónica:** las pruebas tecnológicas
+                                                                                              Se entiende por prohibiciones probatorias aquellas limitaciones a
+                                                                                              la prueba en el proceso que son fruto de una contraposición de in-
+                                                                                              tereses, ya sean estos colectivos o individuales, los cuales primarían
+                                                                                         
+**Concordancias Legales:** artículo 569; Constitucion; Constitución
+
+las pruebas tecnológicas
                                                                                               Se entiende por prohibiciones probatorias aquellas limitaciones a
                                                                                               la prueba en el proceso que son fruto de una contraposición de in-
                                                                                               tereses, ya sean estos colectivos o individuales, los cuales primarían
@@ -7756,10 +7850,11 @@ Informático                                                       electrónica
 Derecho                                                                                   6. Contratación                                                          197
 Informático                                                                                  electrónica
 
-
 ## 6.1             Sobre el concepto de
 
-                                                                                            contratación electrónica
+**Definición Canónica:** contratación electrónica
+
+contratación electrónica
 
                                                                                             Existen muchas definiciones de lo que es un contrato electrónico,
                                                                                             quizás tantas como autores han escrito sobre el tema, pero en este
@@ -7788,10 +7883,12 @@ Informático                                                                    
 Derecho                                                              6. Contratación                                                        198
 Informático                                                             electrónica
 
-
 ## 6.2     Sobre la regulación del
 
-                                                                       contrato electrónico
+**Definición Canónica:** contrato electrónico
+**Concordancias Legales:** Ley Nº 19.496; Ley Nº 19.799
+
+contrato electrónico
 
                                                                        A pesar de que el contrato electrónico, con sus requisitos, ritualidad
                                                                        y efectos, no está especialmente regulado en nuestra legislación, no
@@ -7827,20 +7924,30 @@ Informático                                                             electr�
 Derecho                                                              6. Contratación                                                         199
 Informático                                                             electrónica
 
-
 ## 6.3     Clasificación de los
 
-                                                                       contratos electrónicos
+**Definición Canónica:** contratos electrónicos
+                                                                       En doctrina existen múltiples clasificaciones de los contratos elec-
+                                                                       trónicos, pero la verdad es que no todas las distinciones son útiles
+                                                                       desde el punto de vista jurídico, aunque sirven para contar con un
+                                                                       panorama sobre las realidades posibles de encontrar cuando se nos
+                      
+
+contratos electrónicos
                                                                        En doctrina existen múltiples clasificaciones de los contratos elec-
                                                                        trónicos, pero la verdad es que no todas las distinciones son útiles
                                                                        desde el punto de vista jurídico, aunque sirven para contar con un
                                                                        panorama sobre las realidades posibles de encontrar cuando se nos
                                                                        habla de contratación electrónica.
 
-
 ## 6.3.1 Según el tipo de sujetos intervinientes
 
-                                                                       Existe el contrato electrónico mercantil o contrato empresa a em-
+**Definición Canónica:** Existe el contrato electrónico mercantil o contrato empresa a em-
+                                                                       presa, conocido por las siglas B2B (del inglés business-to-business), que
+                                                                       son aquellos celebrados por empresas o personas jurídicas en general.
+**Concordancias Legales:** Ley Nº 19.496
+
+Existe el contrato electrónico mercantil o contrato empresa a em-
                                                                        presa, conocido por las siglas B2B (del inglés business-to-business), que
                                                                        son aquellos celebrados por empresas o personas jurídicas en general.
 
@@ -7861,10 +7968,15 @@ Informático                                                             electr�
                                                                        ante contratos electrónicos civiles, como pueden ser por ejemplo los
                                                                        de prestación de servicios profesionales celebrados electrónicamente.
 
-
 ## 6.3.2 Según la forma en que se expresa la voluntad
 
-                                                                       Se habla de contratos electrónicos simples cuando se perfeccionan
+**Definición Canónica:** Se habla de contratos electrónicos simples cuando se perfeccionan
+                                                                       exclusivamente por medios electrónicos. En cambio, se habla de
+                                                                       contratos electrónicos mixtos cuando una de las partes expresa su
+                                                                       voluntad de contratar a través de medios electrónicos y la otra lo hace
+                                                                       por medios convencionales, como la firma de un do
+
+Se habla de contratos electrónicos simples cuando se perfeccionan
                                                                        exclusivamente por medios electrónicos. En cambio, se habla de
                                                                        contratos electrónicos mixtos cuando una de las partes expresa su
                                                                        voluntad de contratar a través de medios electrónicos y la otra lo hace
@@ -7873,10 +7985,16 @@ Informático                                                             electr�
 Derecho                                                        6. Contratación                                                        200
 Informático                                                       electrónica
 
-
 ## 6.3.3 Según la forma de aceptación del contrato
 
-                                                                 Los contratos shrink wrap han caído en desuso últimamente, pero
+**Definición Canónica:** Los contratos shrink wrap han caído en desuso últimamente, pero
+                                                                 tuvieron su momento de gloria en la primera década de este siglo,
+                                                                 usualmente a propósito de la venta de licencias de software en so-
+                                                                 portes físicos, como discos compactos y DVD. Usualmente, la caja
+                                                                 de cartón que contenía el programa informático traía impresos los
+            
+
+Los contratos shrink wrap han caído en desuso últimamente, pero
                                                                  tuvieron su momento de gloria en la primera década de este siglo,
                                                                  usualmente a propósito de la venta de licencias de software en so-
                                                                  portes físicos, como discos compactos y DVD. Usualmente, la caja
@@ -7931,10 +8049,14 @@ Informático                                                       electrónica
                                                                  alma al final de sus días, sin que normalmente nadie advierta el real
                                                                  contenido del texto.
 
-
 ## 6.3.4 Según el modo de adhesión
 
-                                                                 Los contratos electrónicos de libre discusión son una rareza, pero
+**Definición Canónica:** Los contratos electrónicos de libre discusión son una rareza, pero
+                                                                 existen: las partes se ponen de acuerdo en su contenido y luego lo
+                                                                 suscriben electrónicamente, si bien claramente no son la regla
+                                                                 general.
+
+Los contratos electrónicos de libre discusión son una rareza, pero
                                                                  existen: las partes se ponen de acuerdo en su contenido y luego lo
                                                                  suscriben electrónicamente, si bien claramente no son la regla
                                                                  general.
@@ -7951,10 +8073,16 @@ Informático                                                       electrónica
                                                                  y acciones prediseñados computacionalmente que ocurrirán en forma
                                                                  automática al acaecer ciertas circunstancias previamente definidas.
 
-
 ## 6.3.5 Según su ejecución
 
-                                                                 De acuerdo a la última clasificación que señalaremos, existen los
+**Definición Canónica:** De acuerdo a la última clasificación que señalaremos, existen los
+                                                                 contratos electrónicos online, que se celebran y ejecutan a través de
+                                                                 la web y que típicamente corresponden a aquellos por los cuales se
+                                                                 adquieren servicios electrónicos de streaming de música o contenido
+                                                                 audiovisual digital, como los que se celebran con Spotify (música),
+ 
+
+De acuerdo a la última clasificación que señalaremos, existen los
                                                                  contratos electrónicos online, que se celebran y ejecutan a través de
                                                                  la web y que típicamente corresponden a aquellos por los cuales se
                                                                  adquieren servicios electrónicos de streaming de música o contenido
@@ -7973,10 +8101,12 @@ Informático                                                       electrónica
 Derecho                                                                        6. Contratación                                                         203
 Informático                                                                       electrónica
 
-
 ## 6.4            Formación del
 
-                                                                                 consentimiento
+**Definición Canónica:** consentimiento
+**Concordancias Legales:** artículos 96; artículo 104 del Código
+
+consentimiento
 
                                                                                  Nuestro Código Civil data del siglo antepasado y, por tanto, jamás
                                                                                  previó la existencia de la contratación electrónica.
@@ -8045,10 +8175,12 @@ Informático                                                                    
 Derecho                                                              6. Contratación                                                      205
 Informático                                                             electrónica
 
-
 ## 6.5     La ley de protección de derechos
 
-                                                                       del consumidor
+**Definición Canónica:** del consumidor
+**Concordancias Legales:** Ley Nº 19.496
+
+del consumidor
 
                                                                        En el año 1997 se dictó la Ley Nº 19.496, ley chilena de protección
                                                                        de los derechos de los consumidores, que en términos generales
@@ -8084,10 +8216,12 @@ Informático                                                             electr�
 Derecho                                                              6. Contratación                                                        206
 Informático                                                             electrónica
 
-
 ## 6.6     Nuevas formas de contratación
 
-                                                                       y contratos inteligentes
+**Definición Canónica:** y contratos inteligentes
+**Concordancias Legales:** Artículo 3
+
+y contratos inteligentes
 
                                                                        Uno de los aspectos más interesantes de la tecnología blockchain es
                                                                        su uso para la generación de smart contracts o contratos inteligentes,
@@ -8248,10 +8382,16 @@ Informático                                                                    
 Derecho                                                                                     7. Relaciones laborales                                                     211
 Informático                                                                                   y tecnologías
 
-
 ## 7.1               Poder de vigilancia
 
-                                                                                              del empleador
+**Definición Canónica:** del empleador
+                                                                                              El artículo 7º del Código del Trabajo, cuando define el contrato de
+                                                                                              trabajo, dispone que será tal la convención por la cual el empleador
+                                                                                              y el trabajador se obligan recíprocamente, este a prestar servicios
+                                                                                              perso
+**Concordancias Legales:** artículo 7; artículo 5 del Código del Trabajo dispone lo siguiente; artículo 89; Constitucion
+
+del empleador
                                                                                               El artículo 7º del Código del Trabajo, cuando define el contrato de
                                                                                               trabajo, dispone que será tal la convención por la cual el empleador
                                                                                               y el trabajador se obligan recíprocamente, este a prestar servicios
@@ -8350,7 +8490,13 @@ Informático                                                                    
 
 ## 1. Los empleadores podrán tratar las imágenes obtenidas a través de sistemas de cámaras o videocámaras
 
-                                                               para el ejercicio de las funciones de control de los trabajadores o los empleados públicos previstas, respec-
+**Definición Canónica:** para el ejercicio de las funciones de control de los trabajadores o los empleados públicos previstas, respec-
+                                                               tivamente, en el artículo 20.3 del Estatuto de los trabajadores y en la legislación de función pública, siempre
+                                                               que estas funciones se ejerzan dentro de su marco legal y con los límites inherentes al mismo. Los emplea-
+                                                               dores habrán de informar con carácter previo, y de forma expresa, clara y concisa,
+**Concordancias Legales:** artículo 20.3 del Estatuto de los trabajadores y en la legislac
+
+para el ejercicio de las funciones de control de los trabajadores o los empleados públicos previstas, respec-
                                                                tivamente, en el artículo 20.3 del Estatuto de los trabajadores y en la legislación de función pública, siempre
                                                                que estas funciones se ejerzan dentro de su marco legal y con los límites inherentes al mismo. Los emplea-
                                                                dores habrán de informar con carácter previo, y de forma expresa, clara y concisa, a los trabajadores o los
@@ -8361,12 +8507,21 @@ Informático                                                                    
 
 ## 2. En ningún caso se admitirá la instalación de sistemas de grabación de sonidos ni de videovigilancia en
 
-                                                               lugares destinados al descanso o esparcimiento de los trabajadores o los empleados públicos, tales como
+**Definición Canónica:** lugares destinados al descanso o esparcimiento de los trabajadores o los empleados públicos, tales como
+                                                               vestuarios, aseos, comedores y análogos.
+
+lugares destinados al descanso o esparcimiento de los trabajadores o los empleados públicos, tales como
                                                                vestuarios, aseos, comedores y análogos.
 
 ## 3. La utilización de sistemas similares a los referidos en los apartados anteriores para la grabación de soni-
 
-                                                               dos en el lugar de trabajo se admitirá únicamente cuando resulten relevantes los riesgos para la seguridad
+**Definición Canónica:** dos en el lugar de trabajo se admitirá únicamente cuando resulten relevantes los riesgos para la seguridad
+                                                               de las instalaciones, bienes y personas derivados de la actividad que se desarrolle en el centro de trabajo y
+                                                               siempre respetando el principio de proporcionalidad, el de intervención mínima y las garantías previstas en los
+                                                               apartados anteriores. La supresión de los sonidos conservados por estos sistemas d
+**Concordancias Legales:** artículo 22; artículo 18.4 de la Constitución española; artículo 89; artículo 20.3; artículo 22.4; Constitucion; Constitución
+
+dos en el lugar de trabajo se admitirá únicamente cuando resulten relevantes los riesgos para la seguridad
                                                                de las instalaciones, bienes y personas derivados de la actividad que se desarrolle en el centro de trabajo y
                                                                siempre respetando el principio de proporcionalidad, el de intervención mínima y las garantías previstas en los
                                                                apartados anteriores. La supresión de los sonidos conservados por estos sistemas de grabación se realizará
@@ -8425,17 +8580,27 @@ Informático                                                                    
                                                                      el deber de informar cuando existiese al menos el dispositivo al
                                                                      que se refiere el artículo 22.4 de esta ley orgánica.
 
-
 ## 2. En ningún caso se admitirá la instalación de sistemas de gra-
 
-                                                                     bación de sonidos ni de videovigilancia en lugares destinados al
+**Definición Canónica:** bación de sonidos ni de videovigilancia en lugares destinados al
                                                                      descanso o esparcimiento de los trabajadores o los empleados
                                                                      públicos, tales como vestuarios, aseos, comedores y análogos.
 
+bación de sonidos ni de videovigilancia en lugares destinados al
+                                                                     descanso o esparcimiento de los trabajadores o los empleados
+                                                                     públicos, tales como vestuarios, aseos, comedores y análogos.
 
 ## 3. La utilización de sistemas similares a los referidos en los
 
-                                                                     apartados anteriores para la grabación de sonidos en el lugar de
+**Definición Canónica:** apartados anteriores para la grabación de sonidos en el lugar de
+                                                                     trabajo se admitirá únicamente cuando resulten relevantes los
+                                                                     riesgos para la seguridad de las instalaciones, bienes y personas
+                                                                     derivados de la actividad que se desarrolle en el centro de traba-
+                                                                     jo y siempre respetando el principio de proporcionalidad, el de
+
+**Concordancias Legales:** artículo 22; artículo 5; constitucion
+
+apartados anteriores para la grabación de sonidos en el lugar de
                                                                      trabajo se admitirá únicamente cuando resulten relevantes los
                                                                      riesgos para la seguridad de las instalaciones, bienes y personas
                                                                      derivados de la actividad que se desarrolle en el centro de traba-
@@ -8568,11 +8733,16 @@ Informático                                                                    
 Derecho                                                                                    7. Relaciones laborales                                                  219
 Informático                                                                                  y tecnologías
 
-
 ## 7.2         Teletrabajo
 
+**Definición Canónica:** Como se ha dicho, las nuevas tecnologías de la información han
+                                                                                             afectado a casi todos los ámbitos de la vida personal y social. La
+                                                                                             organización del trabajo no ha escapado a estos efectos y de esta
+                                                                                             forma, hoy ya no resulta extraño hablar de “teletrabajadores”, inclu-
+                                                       
+**Concordancias Legales:** Artículo 3
 
-                                                                                             Como se ha dicho, las nuevas tecnologías de la información han
+Como se ha dicho, las nuevas tecnologías de la información han
                                                                                              afectado a casi todos los ámbitos de la vida personal y social. La
                                                                                              organización del trabajo no ha escapado a estos efectos y de esta
                                                                                              forma, hoy ya no resulta extraño hablar de “teletrabajadores”, inclu-
@@ -8693,7 +8863,11 @@ Informático                                                                    
 
 ## 112      DE NO-LOUIS Y CABALLERO, Eduardo, “El working-house informático o tele-trabajo”. En Revista Iberoame-
 
-                                                               ricana de Informática y Derecho Nº 4, 1994; pp. 593-604. Disponible en línea [consulta: 12.08.20].
+**Definición Canónica:** ricana de Informática y Derecho Nº 4, 1994; pp. 593-604. Disponible en línea [consulta: 12.08.20].
+                                                      113      Artículo 3º inciso final del Código del Trabajo, DFL 1 Ministerio del Trabajo, 1994.
+**Concordancias Legales:** Artículo 3
+
+ricana de Informática y Derecho Nº 4, 1994; pp. 593-604. Disponible en línea [consulta: 12.08.20].
                                                       113      Artículo 3º inciso final del Código del Trabajo, DFL 1 Ministerio del Trabajo, 1994.
 
 Derecho                                                        7. Relaciones laborales                                              222
@@ -8710,10 +8884,16 @@ Informático                                                                    
                                                                 permanente de algún medio de telecomunicación para el contacto
                                                                 entre el teletrabajador y la empresa.
 
-
 ## 7.2.1 El lugar físico en que se ha previsto
 
-                                                                la prestación de servicios
+**Definición Canónica:** la prestación de servicios
+                                                                La primera alternativa en el tiempo fue considerar que era factible
+                                                                que una persona desarrollara su trabajo desde su domicilio. Esto dio
+                                                                lugar a tres figuras básicas. En primer lugar, la que más nos interesa
+                                                                es aquella que se refiere a los teletrabajadores empleados, en la cual,
+                                     
+
+la prestación de servicios
                                                                 La primera alternativa en el tiempo fue considerar que era factible
                                                                 que una persona desarrollara su trabajo desde su domicilio. Esto dio
                                                                 lugar a tres figuras básicas. En primer lugar, la que más nos interesa
@@ -8761,20 +8941,31 @@ Informático                                                                    
                                                                 teletrabajar, dependiendo del lugar en que se prestan los servicios,
                                                                 algunos de los cuales se revisan en los próximos acápites.
 
-
 ## 7.2.1.1 Centros de recursos compartidos
 
-                                                                Se trata de una instalación física dotada de tecnologías de la infor-
+**Definición Canónica:** Se trata de una instalación física dotada de tecnologías de la infor-
+                                                                mación y comunicaciones. Aglutina en un solo edificio una serie de
+                                                                prácticas relacionadas con el teletrabajo y con ello se busca organizar
+                                                                los recursos humanos de la empresa de la que se trate, para obtener
+                                                                una mayor efectividad y una mayor flexibilidad. Está dotado de un
+ 
+
+Se trata de una instalación física dotada de tecnologías de la infor-
                                                                 mación y comunicaciones. Aglutina en un solo edificio una serie de
                                                                 prácticas relacionadas con el teletrabajo y con ello se busca organizar
                                                                 los recursos humanos de la empresa de la que se trate, para obtener
                                                                 una mayor efectividad y una mayor flexibilidad. Está dotado de un
                                                                 gran equipamiento informático y de telecomunicaciones.
 
-
 ## 7.2.1.2 Telecentros
 
-                                                                Son centros compartidos por varias empresas, fundamentalmente
+**Definición Canónica:** Son centros compartidos por varias empresas, fundamentalmente
+                                                                pequeñas y medianas, dotados de tecnologías de la información
+                                                                y comunicaciones y puestos de trabajos conectados a una red,
+                                                                donde normalmente los trabajadores se agrupan atendiendo a un
+                                                                criterio geográfico.
+
+Son centros compartidos por varias empresas, fundamentalmente
                                                                 pequeñas y medianas, dotados de tecnologías de la información
                                                                 y comunicaciones y puestos de trabajos conectados a una red,
                                                                 donde normalmente los trabajadores se agrupan atendiendo a un
@@ -8793,11 +8984,16 @@ Informático                                                                    
                                                                 determinados momentos en los que tenga que hacer una transmisión
                                                                 especial y no cuente en casa con los recursos adecuados.
 
-
 ## 7.2.1.3 Oficinas satélite
 
+**Definición Canónica:** Son lugares de trabajo pertenecientes a la misma empresa, pero inde-
+                                                                pendientes de la sede corporativa. En ellos, el elemento predominante
+                                                                no es la organización funcional, sino la geográfica. Se abren para que
+                                                                acudan los trabajadores que viven más cerca, con independencia
+                                                                del puesto de trabajo que ocupen o de las tareas que desempeñen.
+      
 
-                                                                Son lugares de trabajo pertenecientes a la misma empresa, pero inde-
+Son lugares de trabajo pertenecientes a la misma empresa, pero inde-
                                                                 pendientes de la sede corporativa. En ellos, el elemento predominante
                                                                 no es la organización funcional, sino la geográfica. Se abren para que
                                                                 acudan los trabajadores que viven más cerca, con independencia
@@ -8805,10 +9001,13 @@ Informático                                                                    
                                                                 Se diferencian de las oficinas tradicionales solo en el hecho de que
                                                                 reúnen empleados de la empresa que viven en sus cercanías.
 
-
 ## 7.2.1.4 Televillage o telecottages
 
-                                                                Son centros de teleservicios asociados generalmente a instalaciones
+**Definición Canónica:** Son centros de teleservicios asociados generalmente a instalaciones
+                                                                en granjas, pueblos pequeños, locales de escuelas públicas, etcétera,
+                                                                en zonas rurales.
+
+Son centros de teleservicios asociados generalmente a instalaciones
                                                                 en granjas, pueblos pequeños, locales de escuelas públicas, etcétera,
                                                                 en zonas rurales.
 
@@ -8826,10 +9025,15 @@ Informático                                                                    
 
 Derecho                                                        7. Relaciones laborales                                                225
 
-
 ## 7.2.2 El teletrabajo en la legislación nacional
 
-                                                                En nuestro ordenamiento jurídico laboral, la Ley Nº 19.759, pu-
+**Definición Canónica:** En nuestro ordenamiento jurídico laboral, la Ley Nº 19.759, pu-
+                                                                blicada en el Diario Oficial de 5 de octubre de 2001, introdujo una
+                                                                modificación al Código del Trabajo a propósito de los trabajadores
+                                                                excluidos de la limitación de la jornada de trabajo:
+**Concordancias Legales:** artículo 8; artículo 3; artículo 10; Ley Nº 19.759; Ley Nº 21.220
+
+En nuestro ordenamiento jurídico laboral, la Ley Nº 19.759, pu-
                                                                 blicada en el Diario Oficial de 5 de octubre de 2001, introdujo una
                                                                 modificación al Código del Trabajo a propósito de los trabajadores
                                                                 excluidos de la limitación de la jornada de trabajo:
@@ -8896,39 +9100,53 @@ Informático                                                                    
                                                                         los teletrabajadores, además de las estipulaciones previstas
                                                                         en el artículo 10, debe contener lo siguiente:
 
-
 ## 1. Indicación expresa de que las partes han acordado la mo-
 
-                                                                             dalidad de trabajo a distancia o teletrabajo, especificando
+**Definición Canónica:** dalidad de trabajo a distancia o teletrabajo, especificando
+                                                                             si será de forma total o parcial y, en este último caso, la
+                                                                             fórmula de combinación entre trabajo presencial y trabajo
+                                                                             a distancia o teletrabajo.
+
+dalidad de trabajo a distancia o teletrabajo, especificando
                                                                              si será de forma total o parcial y, en este último caso, la
                                                                              fórmula de combinación entre trabajo presencial y trabajo
                                                                              a distancia o teletrabajo.
 
 Derecho                                                        7. Relaciones laborales                                                  227
 
-
 ## 2. El lugar o los lugares donde se prestarán los servicios, salvo
 
-                                                                             que las partes hayan acordado que el trabajador elegirá
+**Definición Canónica:** que las partes hayan acordado que el trabajador elegirá
+                                                                             libremente dónde ejercerá sus funciones, en conformidad
+                                                                             a lo prescrito en el inciso primero del artículo 152 quáter
+                                                                             H, lo que deberá expresarse.
+**Concordancias Legales:** artículo 152
+
+que las partes hayan acordado que el trabajador elegirá
                                                                              libremente dónde ejercerá sus funciones, en conformidad
                                                                              a lo prescrito en el inciso primero del artículo 152 quáter
                                                                              H, lo que deberá expresarse.
 
 ## 3. El periodo de duración del acuerdo de trabajo a distancia
 
-                                                                             o teletrabajo, el cual podrá ser indefinido o por un tiempo
+**Definición Canónica:** o teletrabajo, el cual podrá ser indefinido o por un tiempo
+                                                                             determinado, sin perjuicio de lo establecido en el artículo
+                                                                             152 quáter I.
+**Concordancias Legales:** artículo 152
+
+o teletrabajo, el cual podrá ser indefinido o por un tiempo
                                                                              determinado, sin perjuicio de lo establecido en el artículo
                                                                              152 quáter I.
 
-## 4. Los mecanismos de supervisión o control que utilizará
-
-                                                                             el empleador respecto de los servicios convenidos con
-
-                                                                             el trabajador.
-
 ## 5. La circunstancia de haberse acordado que el trabajador a
 
-                                                                             distancia podrá distribuir su jornada en el horario que me-
+**Definición Canónica:** distancia podrá distribuir su jornada en el horario que me-
+                                                                             jor se adapte a sus necesidades o que el teletrabajador se
+                                                                             encuentra excluido de la limitación de jornada de trabajo.
+                                                                          6. El tiempo de desconexión.
+**Concordancias Legales:** artículo 33; artículo 184; artículo 152; Ley N° 16.744; Ley Nº 16.744
+
+distancia podrá distribuir su jornada en el horario que me-
                                                                              jor se adapte a sus necesidades o que el teletrabajador se
                                                                              encuentra excluido de la limitación de jornada de trabajo.
                                                                           6. El tiempo de desconexión.
@@ -9035,26 +9253,44 @@ Informático                                                                    
 
 Derecho                                                        7. Relaciones laborales                                              230
 
-
 ## 1. Informar de los riesgos que entrañan sus labores. El em-
 
-                                                                        pleador deberá informarlo por escrito al trabajador a distancia
+**Definición Canónica:** pleador deberá informarlo por escrito al trabajador a distancia
+                                                                        o teletrabajador, señalando tanto los riesgos como las medidas
+                                                                        preventivas y los medios de trabajo correctos según cada caso
+                                                                        en particular, de conformidad a la normativa vigente.
+
+pleador deberá informarlo por escrito al trabajador a distancia
                                                                         o teletrabajador, señalando tanto los riesgos como las medidas
                                                                         preventivas y los medios de trabajo correctos según cada caso
                                                                         en particular, de conformidad a la normativa vigente.
 
 ## 2. Efectuar una capacitación al trabajador acerca de las princi-
 
-                                                                        pales medidas de seguridad y salud que debe tener presente
+**Definición Canónica:** pales medidas de seguridad y salud que debe tener presente
+                                                                        para desempeñar dicha labor, en forma previa al inicio de las
+                                                                        labores a distancia o teletrabajo, a través de medios propios
+                                                                        del empleador o a través del organismo administrador del
+                                                                        seguro de la Ley N° 16.744.
+**Concordancias Legales:** Ley N° 16.744
+
+pales medidas de seguridad y salud que debe tener presente
                                                                         para desempeñar dicha labor, en forma previa al inicio de las
                                                                         labores a distancia o teletrabajo, a través de medios propios
                                                                         del empleador o a través del organismo administrador del
                                                                         seguro de la Ley N° 16.744.
 
-
 ## 3. Informar de la existencia de sindicatos. El empleador de-
 
-                                                                        berá informar “por escrito al trabajador de la existencia o
+**Definición Canónica:** berá informar “por escrito al trabajador de la existencia o
+                                                                        no de sindicatos legalmente constituidos en la empresa en
+                                                                        el momento del inicio de las labores. Asimismo, en caso de
+                                                                        que se constituya un sindicato con posterioridad al inicio de
+                                                                        las labores, el empleador deberá informar este hecho a los
+              
+**Concordancias Legales:** artículo 225
+
+berá informar “por escrito al trabajador de la existencia o
                                                                         no de sindicatos legalmente constituidos en la empresa en
                                                                         el momento del inicio de las labores. Asimismo, en caso de
                                                                         que se constituya un sindicato con posterioridad al inicio de
@@ -9066,10 +9302,12 @@ Informático                                                                    
 Derecho                                                              7. Relaciones laborales                                               231
 Informático                                                            y tecnologías
 
-
 ## 7.3    El documento y firma electrónicaen los
 
-                                                                      documentos laborales
+**Definición Canónica:** documentos laborales
+**Concordancias Legales:** artículo 9
+
+documentos laborales
 
                                                                       Otro ámbito en que el derecho laboral se ha visto impactado por las
                                                                       tecnologías de la información y las comunicaciones, dice relación
@@ -9084,10 +9322,17 @@ Informático                                                            y tecnol
                                                                       ambas partes en dos ejemplares, quedando uno en poder de cada
                                                                       contratante”.
 
-
 ## 7.3.1 Firma del contrato de trabajo a
 
-                                                                      través de firma electrónica
+**Definición Canónica:** través de firma electrónica
+                                                                      Al respecto, la Dirección del Trabajo, mediante dictamen Nº 3161/064
+                                                                      de 29 de julio de 2008, ya señaló que es jurídicamente procedente la
+                                                                      suscripción de contratos de trabajo haciendo uso de los medios de
+                                                                      firma electrónica establecidos en la Ley Nº 19.799, y que tratándose
+                   
+**Concordancias Legales:** Ley Nº 19.799
+
+través de firma electrónica
                                                                       Al respecto, la Dirección del Trabajo, mediante dictamen Nº 3161/064
                                                                       de 29 de julio de 2008, ya señaló que es jurídicamente procedente la
                                                                       suscripción de contratos de trabajo haciendo uso de los medios de
@@ -9107,10 +9352,16 @@ Informático                                                            y tecnol
 Derecho                                                                                       7. Relaciones laborales                                                          232
 Informático                                                                                     y tecnologías
 
-
 ## 7.3.2 Registro de asistencia
 
-                                                                                                Tratándose de los registros de asistencia computacionales, considera-
+**Definición Canónica:** Tratándose de los registros de asistencia computacionales, considera-
+                                                                                                remos lo previsto en el Ord. Nº 1140/27 de la Dirección del Trabajo,
+                                                                                                de 24 de febrero de 2016115, a través del cual se actualiza la doctrina
+                                                                                                institucional que había sido fijada por dictamen Nº 696/27, de 24
+                                   
+**Concordancias Legales:** artículo 2; Ley Nº 19.799
+
+Tratándose de los registros de asistencia computacionales, considera-
                                                                                                 remos lo previsto en el Ord. Nº 1140/27 de la Dirección del Trabajo,
                                                                                                 de 24 de febrero de 2016115, a través del cual se actualiza la doctrina
                                                                                                 institucional que había sido fijada por dictamen Nº 696/27, de 24
@@ -9344,10 +9595,15 @@ Informático                                                                    
 Derecho                                                                                      7. Relaciones laborales                                               238
 Informático                                                                                    y tecnologías
 
-
 ## 7.3.3 Libro y comprobante de remuneraciones
 
-                                                                                               En este caso, entre otros, el Ord. Nº 6183116, de 29 de diciembre de
+**Definición Canónica:** En este caso, entre otros, el Ord. Nº 6183116, de 29 de diciembre de
+                                                                                               2016, resolvió que no existe inconveniente en que se cumpla la obli-
+                                                                                               gación de llevar un libro auxiliar de remuneraciones y la de entregar
+                                                                                               al trabajador un comprobante de la remuneración pagada, la forma
+                                          
+
+En este caso, entre otros, el Ord. Nº 6183116, de 29 de diciembre de
                                                                                                2016, resolvió que no existe inconveniente en que se cumpla la obli-
                                                                                                gación de llevar un libro auxiliar de remuneraciones y la de entregar
                                                                                                al trabajador un comprobante de la remuneración pagada, la forma
@@ -9367,10 +9623,13 @@ Informático                                                                    
                                                                                                    liquidaciones y anexos de remuneraciones deberán ser entregados
                                                                                                    en soporte de papel.
 
-
 ## 2. Una vez finalizada su confección o estampada la última firma, si
 
-                                                                                                   corresponde, el sistema debe enviar inmediatamente el documen-
+**Definición Canónica:** corresponde, el sistema debe enviar inmediatamente el documen-
+                                                                                                   to por correo electrónico a la casilla particular que previamente
+                                                                                                   el trabajador haya indicado a su empleador.
+
+corresponde, el sistema debe enviar inmediatamente el documen-
                                                                                                    to por correo electrónico a la casilla particular que previamente
                                                                                                    el trabajador haya indicado a su empleador.
 
@@ -9392,10 +9651,15 @@ Informático                                                                    
                                                                                                    y la otra alternativa, reemplazando la documentación en soporte
                                                                                                    de papel por una nueva en formato electrónico”.
 
-
 ## 7.3.4 Finiquito laboral
 
-                                                                                               En este caso, por mencionar algunos de los dictámenes de la Direc-
+**Definición Canónica:** En este caso, por mencionar algunos de los dictámenes de la Direc-
+                                                                                               ción del Trabajo, a través de Ord. N° 1012/20117, de 27 de febrero de
+                                                                                               2015, esta resolvió que un finiquito laboral puede ser suscrito me-
+                                                                                               diante firma electrónica, de acuerdo a un esquema compatible con
+                                             
+
+En este caso, por mencionar algunos de los dictámenes de la Direc-
                                                                                                ción del Trabajo, a través de Ord. N° 1012/20117, de 27 de febrero de
                                                                                                2015, esta resolvió que un finiquito laboral puede ser suscrito me-
                                                                                                diante firma electrónica, de acuerdo a un esquema compatible con
@@ -9444,10 +9708,12 @@ Informático                                                                    
 Derecho                                                              7. Relaciones laborales                                                241
 Informático                                                            y tecnologías
 
-
 ## 7.4    Requisitos
 
-                                                                      comunes
+**Definición Canónica:** comunes
+**Concordancias Legales:** Ley Nº 19.799
+
+comunes
 
                                                                       Conforme ha previsto la Dirección del Trabajo en múltiples dictá-
                                                                       menes, los sistemas de documentos electrónicos laborales deben
@@ -9493,19 +9759,3 @@ Informático                                                            y tecnol
                                                                 hecho de haber participado de manera personal en el acto de firma
                                                                 y, contándose con sistema de fechado electrónico, de la fecha de la
                                                                 suscripción del documento de que se trate.
-
-
-## Serie de
-
-
-## Documentos 244
-
-
-## Materiales   44
-
-
-
-## Docentes
-
-
-Academia Judicial de Chile | www.academiajudicial.cl

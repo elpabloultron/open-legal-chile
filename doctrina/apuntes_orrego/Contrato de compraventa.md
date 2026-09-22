@@ -15,6 +15,15 @@ extraccion: pdftotext
 
 ## Contrato de compraventa1
 
+**Definición Canónica:** Sumario:
+1.- Regulación. 2.- Etimología y origen de la institución en el Derecho romano.
+3.- Evolución de la compraventa a lo largo de la Historia del Derecho. 4.-
+Concepto. 5.- Características del contrato de compraventa. 6.- Paralelo entre
+la compraventa y otras instituciones jurídicas. 7.- La compraventa es un título
+traslaticio de dominio. 8.- Elementos del contrato de compraventa. 8.1. El
+consentimiento de las partes. 8.2. La cosa vendida. 8.3. El precio. 9.- La capacidad
+para celebrar el contrato de compraventa. 10.- Las modalidades del contrato
+de compraventa. 11.- Efectos del contrato 
 
 Sumario:
 1.- Regulación. 2.- Etimología y origen de la institución en el Derecho romano.
@@ -33,6 +42,9 @@ enorme. 13.2. Requisitos para que se rescinda una compraventa por lesión enorme
 
 ## 13.3. Irrenunciabilidad de la acción rescisoria por lesión enorme. 13.4. Efectos de la
 
+**Definición Canónica:** rescisión por lesión enorme. 14.- Algunos aspectos tributarios de la compraventa
+de inmuebles. 15.- Modelo de contrato de compraventa. Cuestionario.
+
 rescisión por lesión enorme. 14.- Algunos aspectos tributarios de la compraventa
 de inmuebles. 15.- Modelo de contrato de compraventa. Cuestionario.
 
@@ -42,6 +54,20 @@ de inmuebles. 15.- Modelo de contrato de compraventa. Cuestionario.
 el Título XXIII del Libro IV, denominado precisamente “De la compraventa”. Dicho
 
 ## Título, después de definir la compraventa y referirse al precio (arts. 1793 y 1794), se
+
+**Definición Canónica:** divide en 13 párrafos, del siguiente tenor:
+1.- De la capacidad para el contrato de venta (arts. 1795 a 1800).
+2.- Forma y requisitos del contrato de venta (arts. 1801 a 1807).
+3.- Del precio (arts. 1808 y 1809).
+4.- De la cosa vendida (arts. 1810 a 1816).
+5.- De los efectos inmediatos del contrato de venta (arts. 1817 a 1823).
+6.- De las obligaciones del vendedor y primeramente de la obligación de entregar
+(arts. 1824 a 1836).
+7.- De la obligación de saneamiento y primeramente del saneamiento por evicción
+(arts. 1837 a 1856).
+8.- Del saneamiento por vicios redhibitorios (arts. 1857 a 1870).
+9
+**Concordancias Legales:** Ley N° 1.939; Ley Nº 19.886; constitución
 
 divide en 13 párrafos, del siguiente tenor:
 1.- De la capacidad para el contrato de venta (arts. 1795 a 1800).
@@ -117,6 +143,14 @@ referencias a este decreto ley más adelante.
 integran la Administración Pública, también cabe destacar la Ley Nº 19.886, de 2003,
 
 ## “ley de bases sobre contratos administrativos de suministro y
+
+**Definición Canónica:** PRESTACIÓN DE SERVICIOS”, llamada “Ley de Compras Públicas”. Su art. 1, inc. 1º,
+establece que “Los contratos que celebre la Administración del Estado, a título
+oneroso, para el suministro de bienes muebles, y de los servicios que se requieran
+para el desarrollo de sus funciones, se ajustarán a las normas y principios del presente
+cuerpo legal y de su reglamentación. Supletoriamente, se les aplicarán las normas de
+Derecho Público y, en defecto de aquéllas, las normas de Derecho Privado”. Su art. 2,
+**Concordancias Legales:** artículo 1793; artículos 1438; artículos 1817; artículo 1824; artículo 2196; artículos 580; artículo 580; artículo 581; constitución
 
 PRESTACIÓN DE SERVICIOS”, llamada “Ley de Compras Públicas”. Su art. 1, inc. 1º,
 establece que “Los contratos que celebre la Administración del Estado, a título
@@ -484,6 +518,16 @@ bienes inmuebles, la equivalencia se torna más objetiva, considerando la instit
 la lesión enorme, que de presentarse, puede originar la rescisión del contrato; por otra
 
 ## parte, el precio debe convenirse dentro de márgenes razonables, según sea el valor
+
+**Definición Canónica:** objetivo de la cosa, y no incurrir en una hipótesis de precio irrisorio, que puede
+producir la nulidad absoluta de la compraventa. Dicho de otra manera: la lesión
+enorme es un límite especial a la libertad que tienen las partes para estipular el precio,
+pues sólo opera para la compraventa voluntaria de bienes raíces; en cambio, que no
+exista precio irrisorio es un límite general a dicha libertad, que opera en toda clase de
+compraventas.
+        Excepcionalmente, el contrato de compraventa puede ser aleatorio, como en el
+caso de la compraventa de cosas que no existen pero que se espera que exis
+**Concordancias Legales:** artículo 1815; artículo 703; artículo 1386; artículo 897; artículo 1824; artículo 1008; artículos 2043; artículo 2045; artículos 1801; artículo 495 del Código de Procedimiento Civil. QUINTO; artículo 186; artículo 669; artículo 84; artículo 1802 del Código Civil; artículo 1803; artículo 1801; artículo 39; artículo 5; artículo 6; artículo 3; Ley Nº 20.930; Ley N° 1.939; Ley Nº 2.695; Ley Nº 20.868; Ley Nº 2.833; constitución
 
 objetivo de la cosa, y no incurrir en una hipótesis de precio irrisorio, que puede
 producir la nulidad absoluta de la compraventa. Dicho de otra manera: la lesión
@@ -1752,6 +1796,17 @@ iii.- No pueden comprenderse en la venta objetos ilícitos.
 cuotas en una universalidad, pero de un tercero, no configuran la hipótesis del art.
 
 ## 1811. En tal sentido, un fallo de la Corte de Talca, de 17 de marzo de 1914, puntualiza
+
+**Definición Canónica:** que en la venta de las acciones y derechos que en la sucesión del marido tenga la
+mujer, debe entenderse que lo vendido consiste en las acciones y derechos que a ésta
+corresponden en la sucesión de aquél en calidad de cónyuge sobreviviente. Esta
+interpretación es la única que conduce a dar eficacia al contrato de compraventa, el
+que carecería de todo efecto si se pretendiera comprender la universalidad de los
+bienes presentes de dicha mujer, sin haberse particularizado en la forma que indica el
+art. 1811.46
+         En el mismo sentido, una sentencia de la Corte de Concepción de 3 de abril de
+
+**Concordancias Legales:** artículos 718; artículo 2398; artículo 1815; artículos 1682; artículo 1815 del Código Civil; artículo 470; artículo 80; artículo 454; artículo 1466 del Código Civil; artículo 1682; artículo 456 bis; artículo 1818; artículo 1682 del Código Civil; artículo 1794; artículo 1889; artículo 1801 del Código Civil; artículos 426 del Código de Procedimiento Civil y 1712 del Códi; artículos 1808; artículo 22; artículos 1888; artículo 1808; artículo 2509 del Código Civil; Ley Nº 17.336; ley Nº 17.366; Ley N° 19.947
 
 que en la venta de las acciones y derechos que en la sucesión del marido tenga la
 mujer, debe entenderse que lo vendido consiste en las acciones y derechos que a ésta
@@ -3075,6 +3130,17 @@ al incoarse la acción de nulidad absoluta por simulación. Habiéndose interpue
 
 ## parte demandada casación en el fondo, ésta fue declarada inadmisible por sentencia de
 
+**Definición Canónica:** fecha 27 de julio de 2015, autos Rol N° 7.798-2015.
+        Ninguna influencia tendrá en esta materia el régimen de bienes que vincule a
+los cónyuges: sea este el de sociedad conyugal, separación de bienes o participación
+en los gananciales, la compraventa será nula.
+        En otras legislaciones, en cambio, se permite celebrar la compraventa entre
+cónyuges si éstos se encontraren separados de bienes. Así, por ejemplo, ocurre en el
+Código Civil Federal mexicano: “Artículo 176. El contrato de compra-venta sólo puede
+celebrarse entre los cónyuges cuando el matrimonio está sujeto al régimen de
+s
+**Concordancias Legales:** Artículo 176; artículo 412; artículo 1796; artículos 251; artículo 246; artículo 254; artículo 1449; artículo 1448 del Código Civil preceptúa; artículo 1448 del Código Civil que establece que lo que una per; artículos 1449; Ley N° 20.830; Ley Nº 19.585
+
 fecha 27 de julio de 2015, autos Rol N° 7.798-2015.
         Ninguna influencia tendrá en esta materia el régimen de bienes que vincule a
 los cónyuges: sea este el de sociedad conyugal, separación de bienes o participación
@@ -3261,6 +3327,16 @@ rechazando una demanda a la que debieron dar lugar, infringieron los artículos 
 1796 del Código Civil. OCTAVO: Que, por ende, el recurso de casación deducido por la
 
 ## parte demandante debe ser acogido, siendo inoficioso pronunciarse sobre las otras
+
+**Definición Canónica:** infracciones de ley que señala quien recurre. Por estas reflexiones y lo dispuesto en los
+artículos 764, 765, 767 y 785 del Código de Procedimiento Civil, se acoge el recurso de
+casación en el fondo interpuesto por el apoderado de la actora, (…), por lo que se
+invalida la sentencia de la Corte de Apelaciones de Santiago, de quince de marzo de
+dos mil dieciocho, escrita a fs. 141, por la que revocando el fallo de primer grado,
+rechazó la demanda formulada por Marcela Soto Castillo, la que se reemplaza por la
+que se dicta a continuación, en forma separada y sin previa vista”. La sentencia de
+ree
+**Concordancias Legales:** artículos 764; artículo 240 del Código Penal; artículo 412; artículo 10 del Código Civil dice que los actos que la ley pr; artículo 1466; artículo 1682; artículo 2144; artículos 394; Ley Nº 1.939; Ley Nº 20.720
 
 infracciones de ley que señala quien recurre. Por estas reflexiones y lo dispuesto en los
 artículos 764, 765, 767 y 785 del Código de Procedimiento Civil, se acoge el recurso de
@@ -3637,6 +3713,17 @@ están sujetos a lo dispuesto en el art. 2144, no es menos cierto que el art. 12
 
 ## título de los albaceas, establece que lo dispuesto en los arts. 394 y 412, se extenderá
 
+**Definición Canónica:** a los albaceas. Y sabemos que el art. 412 permite al tutor o curador comprar los
+bienes muebles del pupilo con autorización de los restantes guardadores o por la
+justicia en subsidio, prohibiendo sin embargo bajo todo respecto, comprar bienes
+raíces.
+        Vemos que entre los art. 2144 y 412 no hay contradicción en cuanto a la
+posibilidad de comprar bienes muebles, pero sí la hay en lo que se refiere a los bienes
+inmuebles, pues si aplicamos el art. 2144, se autorizaría a los albaceas para
+comprarlos, con el consentimiento de los herederos (mandantes); en cambio, el art.
+412 impide, en térmi
+**Concordancias Legales:** artículo 1996 del Código Civil; Ley Nº 20.720
+
 a los albaceas. Y sabemos que el art. 412 permite al tutor o curador comprar los
 bienes muebles del pupilo con autorización de los restantes guardadores o por la
 justicia en subsidio, prohibiendo sin embargo bajo todo respecto, comprar bienes
@@ -3998,6 +4085,13 @@ pérdida o deterioro que sobrevenga aún por caso fortuito (art. 1547);
 
 ## 1486. En este caso, la compraventa no puede formarse por falta de objeto y por lo
 
+**Definición Canónica:** tanto el comprador no está obligado a pagar el precio;
+● En la venta al peso, cuenta o medida en que las operaciones de pesar, contar o
+medir tienen por objeto determinar la cosa vendida, la pérdida, deterioro o mejoras
+pertenecen al comprador solamente desde el momento en que se realizan tales
+operaciones (art. 1821).
+**Concordancias Legales:** artículo 1489
+
 tanto el comprador no está obligado a pagar el precio;
 ● En la venta al peso, cuenta o medida en que las operaciones de pesar, contar o
 medir tienen por objeto determinar la cosa vendida, la pérdida, deterioro o mejoras
@@ -4126,6 +4220,16 @@ del dominio, y por eso, en el derecho civil francés la venta de cosa ajena no e
 Nuestro Código Civil, en cambio, aceptó el principio de que los contratos sólo sirven de
 
 ## título para adquirir el dominio, pero no son modo de adquirirlo, siguiendo al Derecho
+
+**Definición Canónica:** Romano Bonitario; y dentro de la doctrina de éste, aceptada por nuestro Código, el
+vendedor no estaba obligado a transferir el dominio al comprador, siendo el objeto del
+contrato de compraventa el proporcionar el goce tranquilo y pacífico de la cosa
+vendida. En otros términos, el vendedor se obliga a darle al comprador la plenitud de
+los derechos que él tiene sobre la cosa, y es por eso que la venta, en ciertos casos,
+obliga a transferir el dominio, y ello sucede cuando el vendedor es propietario de la
+cosa. Si el vendedor está obligado a proporcionar al comprador el goce tranquilo y
+pacífico 
+**Concordancias Legales:** artículo 686; artículo 1834; artículos 570; artículo 1568; DL Nº 3.516
 
 Romano Bonitario; y dentro de la doctrina de éste, aceptada por nuestro Código, el
 vendedor no estaba obligado a transferir el dominio al comprador, siendo el objeto del
@@ -4742,6 +4846,17 @@ que el vendedor estará obligado a entregar todo el terreno comprendido dentro d
 ellos, y en caso de que no lo haga, se aplicará el inciso 2º del art. 1832, es decir, si la
 
 ## parte que falta es inferior a la décima parte de la cabida declarada, se rebajará el
+
+**Definición Canónica:** precio; y si excede a esa décima parte, podrá rebajarse el precio o desistirse del
+contrato el comprador.152
+        Sin embargo, en fallos de la Corte de Concepción de 6 de diciembre de 1878 y
+10 de junio de 1881 y de la propia Corte de Santiago de 13 de julio de 1880, se
+concluye en sentido contrario, sentándose la doctrina que si el predio se ha vendido
+como cuerpo cierto y el vendedor entrega todo el terreno comprendido en los deslindes
+señalados, el comprador no tiene derecho a pedir rebaja del precio, aunque la cabida
+resulte menor que la que se indicó en el contrato.153
+        Pero las
+**Concordancias Legales:** artículo 1845; artículo 1852; artículo 1814; artículos 904; Constitución Política
 
 precio; y si excede a esa décima parte, podrá rebajarse el precio o desistirse del
 contrato el comprador.152
@@ -5447,6 +5562,10 @@ evicción parcial en la forma señalada en el art. 1847.
 
 ## parte evicta, o en el de no pedirse la rescisión de la venta, el comprador tendrá
 
+**Definición Canónica:** derecho para exigir el saneamiento de la evicción parcial con arreglo a los artículos
+1847 y siguientes”.
+**Concordancias Legales:** artículos 1847
+
 derecho para exigir el saneamiento de la evicción parcial con arreglo a los artículos
 1847 y siguientes”.
 
@@ -5887,7 +6006,11 @@ naturaleza que el comprador no ha podido ignorarlo sin grave negligencia de su
 
 ## parte.184
 
-        En cambio, la misma Corte concluye en un fallo de 22 de junio de 1887 que las
+**Definición Canónica:** En cambio, la misma Corte concluye en un fallo de 22 de junio de 1887 que las
+imperfecciones de los ajustes de diversas piezas, mal estado de otras y defectos de
+**Concordancias Legales:** artículo 1858; artículo 1858 del Código Civil para que los vicios de la cosa p; artículos 1857; artículo 384 del Código de Procedimiento Civil; artículo 426; artículo 1861 del Código Civil contempla este resarcimiento sól
+
+En cambio, la misma Corte concluye en un fallo de 22 de junio de 1887 que las
 imperfecciones de los ajustes de diversas piezas, mal estado de otras y defectos de
 
     Repertorio de Legislación y Jurisprudencia Chilenas. Código Civil y Leyes Complementarias, 3ª edición,
@@ -6142,6 +6265,17 @@ hayan sido tales que el vendedor ha debido conocerlos por razón de su profesió
 oficio, sin que se haya rendido prueba acerca del conocimiento de dichos vicios por
 
 ## parte del vendedor ni de su actividad profesional. 8°) Que no se mandará pagar
+
+**Definición Canónica:** reajustes ni intereses por no haberse solicitado”.
+        A su vez, el Código se pone en el caso de que la cosa objeto de la compraventa
+perezca después de celebrado el contrato. El art. 1862 dispone: “Si la cosa viciosa ha
+perecido después de perfeccionado el contrato de venta, no por eso perderá el
+comprador el derecho que hubiere tenido a la rebaja del precio, aunque la cosa haya
+perecido en su poder y por su culpa. / Pero si ha perecido por un efecto del vicio
+inherente a ella, se seguirán las reglas del artículo precedente”.
+        Dos hipótesis, contempla la norma:
+● En la primera, la 
+**Concordancias Legales:** artículo 1862; artículo 1858; artículo 1868; artículo 1866; artículo 20; artículos 908; artículos 1490; artículo 1876; artículo 394 del Código de Procedimiento Civil; Ley Nº 19.496; Ley N° 21.398
 
 reajustes ni intereses por no haberse solicitado”.
         A su vez, el Código se pone en el caso de que la cosa objeto de la compraventa
@@ -6717,6 +6851,11 @@ el precio- el único inmueble que su padre tenía a la sazón. Noveno: Que, así
 evidenciándose que no se ha dado cumplimiento a las obligaciones correlativas por
 
 ## parte de la demandada, sin que además esta hubiera rendido prueba con el objeto de
+
+**Definición Canónica:** demostrar lo contrario, resulta procedente acoger la acción de resolución de contrato,
+debiendo así declararse. (…) Undécimo: Que, habiendo prosperado la acción de
+resolución de contrato, y advirtiendo que la tradición del inmueble se concretó y que
+**Concordancias Legales:** artículo 821; artículo 2052; artículo 680; artículo 1874; artículo 310 del Código de Procedimiento Civil autoriza para o; artículo 1489; artículo 1487 del Código Civil otorga al acreedor una vez cumpl; artículo 1883; artículo 1882; artículos 1490; artículos 1888; artículo 1488; artículo 1885; artículo 558; artículo 906; artículos 2; Ley Nº 18.010; Ley N° 16.271
 
 demostrar lo contrario, resulta procedente acoger la acción de resolución de contrato,
 debiendo así declararse. (…) Undécimo: Que, habiendo prosperado la acción de
@@ -7594,6 +7733,16 @@ evidente que en un juicio en que se ejerce la acción a que se refiere el párra
 
 ## Título XXIII del Libro IV del Código Civil, es indispensable, en principio, que la
 
+**Definición Canónica:** sentencia establezca el justo precio del predio vendido, pues únicamente de esta forma
+podrá concluirse si se da, en el caso concreto, la desproporción a que se refiere el
+artículo 1889 del citado cuerpo legal. Sin perjuicio de lo anterior, la determinación del
+justo precio no será relevante si, no obstante ejercerse la acción rescisoria por lesión
+enorme, la sentencia determina que la compraventa de que se trata no es susceptible
+de ser resuelta por esta causa. Ahora bien, la situación antes descrita es,
+precisamente, la acaecida en el caso de autos. En efecto, al haber los magistrados
+califi
+**Concordancias Legales:** artículo 1889; artículo 1441 del Código Civil; ley N° 16.271
+
 sentencia establezca el justo precio del predio vendido, pues únicamente de esta forma
 podrá concluirse si se da, en el caso concreto, la desproporción a que se refiere el
 artículo 1889 del citado cuerpo legal. Sin perjuicio de lo anterior, la determinación del
@@ -7742,6 +7891,16 @@ servidumbre o acciones reivindicatorias de bienes raíces, etc. Creemos, por nue
 
 ## parte, que estas ventas son rescindibles por lesión enorme, porque siendo la regla
 
+**Definición Canónica:** general que toda venta sea rescindible por esta causa, salvo las excepciones que la ley
+enumera y no figurando la venta de esos bienes entre los exceptuados por el Código,
+es lógico decidir que quedan incluidas en esa regla. Además, estos derechos o acciones
+son bienes inmuebles, según el artículo 580 del Código Civil, puesto que se ejercitan
+sobre bienes raíces y si la lesión enorme tiene cabida en las ventas de inmuebles, en
+general, es indudable que comprende tanto las ventas de inmuebles corporales como
+las de inmuebles incorporales. Los autores franceses se pronuncian en el mismo
+sentido”
+**Concordancias Legales:** artículo 580 del Código Civil; Ley N° 16.271
+
 general que toda venta sea rescindible por esta causa, salvo las excepciones que la ley
 enumera y no figurando la venta de esos bienes entre los exceptuados por el Código,
 es lógico decidir que quedan incluidas en esa regla. Además, estos derechos o acciones
@@ -7851,7 +8010,18 @@ iii.- Venta o permuta de concesiones mineras o de una cuota de la concesión o d
 
 ## parte material de ella
 
-        Así lo establece el artículo 170 del Código de Minería.
+**Definición Canónica:** Así lo establece el artículo 170 del Código de Minería.
+iv.- Ventas forzadas de inmuebles.
+        En efecto, no todas las ventas de inmuebles pueden rescindirse por lesión
+enorme: se excluyen las que se efectúan por el ministerio de la justicia, cuando se
+trata de ventas forzadas en el marco de un juicio ejecutivo, o en un juicio de
+liquidación y partición, e incluso las ventas en pública subasta en los actos de
+jurisdicción voluntaria que exigen tal trámite, por ejemplo (sentencias de la Corte
+Suprema de 25 de agosto de 1949).243 Recordemos que en estos casos, la venta debe
+efectuarse en púb
+**Concordancias Legales:** artículo 170 del Código de Minería. iv; artículo 532 del Código de Procedimiento Civil; constitución
+
+Así lo establece el artículo 170 del Código de Minería.
 iv.- Ventas forzadas de inmuebles.
         En efecto, no todas las ventas de inmuebles pueden rescindirse por lesión
 enorme: se excluyen las que se efectúan por el ministerio de la justicia, cuando se
@@ -7915,6 +8085,17 @@ respectiva comprenda bienes raíces. Se señala en numerosos fallos que la acci�
 rescisoria por lesión enorme no procede en la cesión de derechos hereditarios hecha a
 
 ## título oneroso, aunque en ella se comprendan bienes raíces; la especificación de éstos
+
+**Definición Canónica:** no tiene otro valor que el de indicar los bienes inmuebles comprendidos en la herencia.
+Razones:
+1º Dicha cesión no es una venta de bienes raíces. Lo que se vende es la cuota que una
+persona tiene en una cosa universal, llamada “herencia”.
+2º El que cede un derecho de herencia a título oneroso sin especificar los efectos (los
+bienes) de que se compone sólo responde de su calidad de heredero (art. 1909).
+3º No es posible determinar el valor del derecho cedido a la fecha del contrato, pues la
+cuantía de las cargas y obligaciones que afectan a aquel derecho depende de una
+liquidación futura; adic
+**Concordancias Legales:** artículo 1891 del Código Civil no hay lugar a la acción resciso; artículo 1909 del Código Civil; artículo 1891 del Código Civil y los derechos hereditarios no t; artículo 1894; artículo 1893; artículo 1691 del Código Civil para la nulidad en general; artículo 1896; artículo 2515; artículos 1693
 
 no tiene otro valor que el de indicar los bienes inmuebles comprendidos en la herencia.
 Razones:
@@ -8354,6 +8535,16 @@ relativa. En consecuencia, le sería aplicable lo dispuesto en los artículos 16
 siguientes del Código Civil acerca de la confirmación de los actos rescindibles. Por otra
 
 ## parte, el citado artículo 1892 es impreciso, pues no dice bien claramente si lo que se
+
+**Definición Canónica:** prohíbe es sólo la renuncia anticipada de la acción rescisoria o también la que se haga
+con posterioridad al contrato. ¿Qué razón habría para considerar que una compraventa
+rescindible por lesión enorme no admite confirmación cuando ésta procede respecto de
+cualquiera otra causa de nulidad relativa? ¿Cuál sería el fundamento de tal distinción?
+No vemos ni esa razón ni este fundamento, ni creemos tampoco que el artículo 1892
+del Código Civil se aplique tanto a la renuncia anticipada, es decir coetánea con la
+celebración del contrato, como a la hecha con posterioridad a él. El artículo 1892 del
+
+**Concordancias Legales:** artículo 1892 del Código Civil se aplique tanto a la renuncia a; artículo 1892 del Código Civil no hace sino repetir lo dispuest; artículo 1469; artículo 1505 del Código Civil; artículo 907 del Código Civil; artículo 1895; artículo 1890; Artículo 16; artículo 64 del Código Tributario; artículo 2; artículos 16; artículo 17; ley N° 17.235; Ley N° 21.210; DL N° 825
 
 prohíbe es sólo la renuncia anticipada de la acción rescisoria o también la que se haga
 con posterioridad al contrato. ¿Qué razón habría para considerar que una compraventa
@@ -8810,15 +9001,11 @@ judicial (art. 2, N° 3 de la LIVS).
 
 15.- Modelo de contrato de compraventa.
 
-
-## Modelo para uso académico
-
-
-
 ## Contrato de compraventa289
 
+**Definición Canónica:** ________________________________________
 
-                  ________________________________________
+________________________________________
 
     Advertencia: éste es un modelo genérico para uso exclusivamente académico y para su estudio por los
 alumnos de Derecho, y, por tanto, sólo se alude en él a las principales cláusulas que debe contener un
@@ -8849,6 +9036,14 @@ indistintamente denominada “la parte vendedora”, por sí, por una parte (ALT
 
 ## EN        CASO       DE      TRATARSE          DE    UNA       PERSONA         JURÍDICA:           don/doña
 
+**Definición Canónica:** ____________________________________,                                ______________(nacionalidad),
+_____________________                  (estado       civil,     misma        observación           anterior),
+_______________________ (profesión, actividad u oficio), cédula nacional de
+identidad número _________________ (cédula de identidad para extranjeros número
+__________________), a nombre y en representación, según se acreditará, de la
+sociedad ______________________________, del giro de su denominación, Rol Único
+Tributario         número        _______________,             ambos      domi
+
 ____________________________________,                                ______________(nacionalidad),
 _____________________                  (estado       civil,     misma        observación           anterior),
 _______________________ (profesión, actividad u oficio), cédula nacional de
@@ -8872,6 +9067,14 @@ _______, (departamento _________), Comuna de _________________, en adelante
 también indistintamente denominada “la parte compradora”, por sí (ALTERNATIVA EN
 
 ## CASO          DE        TRATARSE        DE       UNA          PERSONA       JURÍDICA:        don/doña
+
+**Definición Canónica:** ____________________________________,                              ______________(nacionalidad),
+_____________________                 (estado        civil,    misma      observación        anterior),
+_______________________ (profesión, actividad u oficio), cédula nacional de
+identidad número _________________ (cédula de identidad para extranjeros número
+__________________), a nombre y en representación, según se acreditará, de la
+sociedad ______________________________, del giro de su denominación, Rol Único
+Tributario         número       _______________,              ambos     domiciliados 
 
 ____________________________________,                              ______________(nacionalidad),
 _____________________                 (estado        civil,    misma      observación        anterior),
@@ -8944,6 +9147,8 @@ patrimonio de la parte compradora, una vez que se inscriba el aludido departamen
 
 ## su nombre). (EN EL EVENTO DE QUE EL DERECHO DE USO Y GOCE EXCLUSIVO SOBRE
 
+**Definición Canónica:** UNO O MÁS ESTACIONAMIENTOS NO CONSTE EN EL REGLAMENTO DE COPROPIEDAD:
+
 UNO O MÁS ESTACIONAMIENTOS NO CONSTE EN EL REGLAMENTO DE COPROPIEDAD:
 
                       El Contrato de Compraventa – Juan Andrés Orrego Acuña                     162
@@ -8974,6 +9179,15 @@ Con la suma de ________________________, que la parte compradora pagará a la
 
 ## parte vendedora con fecha ________________________; y c) Con la suma de
 
+**Definición Canónica:** ________________________, que la parte compradora pagará a la parte vendedora
+con fecha ________________________ (El saldo de precio no devengará interés/el
+saldo de precio devengará una tasa de interés del _____ por ciento mensual). (NOTA:
+si el precio no se paga al contado, se sugiere expresarlo en Unidades de Fomento,
+equivalentes a pesos moneda nacional al día de la celebración del contrato).
+SI EL PRECIO SE PAGÓ DE CONTADO, EXPRESAR: En consecuencia, se declara
+íntegramente pagado el precio de la presente compraventa, a entera satisfacción de la
+parte vendedora.
+
 ________________________, que la parte compradora pagará a la parte vendedora
 con fecha ________________________ (El saldo de precio no devengará interés/el
 saldo de precio devengará una tasa de interés del _____ por ciento mensual). (NOTA:
@@ -8983,16 +9197,18 @@ SI EL PRECIO SE PAGÓ DE CONTADO, EXPRESAR: En consecuencia, se declara
 íntegramente pagado el precio de la presente compraventa, a entera satisfacción de la
 parte vendedora.
 
-## Si   el   precio     no    se      ha   pagado        de    contado,           se   sugiere    expresar
-
-
-## (advirtiendo a la parte vendedora que con esta cláusula no podrá
-
-
 ## Demandar la resolución de la compraventa en el evento de que no le
 
+**Definición Canónica:** El Contrato de Compraventa – Juan Andrés Orrego Acuña                            163
+PAGAREN EL PRECIO EN FORMA ÍNTEGRA Y OPORTUNA): Las partes contratantes y en
+particular la parte vendedora, vienen en renunciar expresamente a las acciones
+resolutorias que pudieren corresponderles con ocasión del presente contrato y en
+particular, en el evento de no pagarse el saldo de precio en los plazos estipulados.
+SI SE VENDE MÁS DE UN INMUEBLE: Para todos los efectos legales, el precio se
+desglosa de la siguiente manera: a) ____________________________ por el
+departamento número noventa y dos; c) _____
 
-                     El Contrato de Compraventa – Juan Andrés Orrego Acuña                            163
+El Contrato de Compraventa – Juan Andrés Orrego Acuña                            163
 PAGAREN EL PRECIO EN FORMA ÍNTEGRA Y OPORTUNA): Las partes contratantes y en
 particular la parte vendedora, vienen en renunciar expresamente a las acciones
 resolutorias que pudieren corresponderles con ocasión del presente contrato y en
@@ -9009,6 +9225,13 @@ cierto, libre de ocupantes, en el estado en que se encuentra, que es conocido de
 
 ## parte compradora, con todos sus usos, costumbres, derechos y servidumbres activas y
 
+**Definición Canónica:** pasivas, y libre de toda clase de gravámenes, embargos, litigios, prohibiciones o de
+cualquiera otra limitación al dominio o derecho preferente de terceros (Lo anterior, con
+excepción del Reglamento de Copropiedad del Edificio/Condominio del que forma parte
+el departamento singularizado en la cláusula primera precedente, que rola inscrito a
+fojas ___________ número ___________ del Registro de Hipotecas y Gravámenes del
+Conservador de Bienes Raíces de _________________, del año ________). (DE
+
 pasivas, y libre de toda clase de gravámenes, embargos, litigios, prohibiciones o de
 cualquiera otra limitación al dominio o derecho preferente de terceros (Lo anterior, con
 excepción del Reglamento de Copropiedad del Edificio/Condominio del que forma parte
@@ -9016,12 +9239,10 @@ el departamento singularizado en la cláusula primera precedente, que rola inscr
 fojas ___________ número ___________ del Registro de Hipotecas y Gravámenes del
 Conservador de Bienes Raíces de _________________, del año ________). (DE
 
-## Existir otras inscripciones vigentes, como por ejemplo servidumbres u
-
-OTRAS, EXPRESARLAS).
-
-
 ## (sólo cuando se trata de la primer venta de una unidad que forma parte
+
+**Definición Canónica:** DE UN CONDOMINIO ACOGIDO A LA LEY DE COPROPIEDAD INMOBILIARIA.
+**Concordancias Legales:** artículo 9 de la Ley N; Ley N° 21.442
 
 DE UN CONDOMINIO ACOGIDO A LA LEY DE COPROPIEDAD INMOBILIARIA.
 
@@ -9034,6 +9255,8 @@ dispuesto en el artículo 9 de la Ley N° 21.442 sobre Copropiedad Inmobiliaria)
 
 ## (sólo cuando se trata de la venta de una unidad que forma parte de un
 
+**Definición Canónica:** CONDOMINIO ACOGIDO A LA LEY DE COPROPIEDAD INMOBILIARIA).
+
 CONDOMINIO ACOGIDO A LA LEY DE COPROPIEDAD INMOBILIARIA).
 
                      El Contrato de Compraventa – Juan Andrés Orrego Acuña                       164
@@ -9043,10 +9266,9 @@ en la cláusula primera (La parte vendedora declara que adeuda la suma de
 $_____________, por concepto de las obligaciones económicas del condominio al que
 pertenecen las unidades singularizadas en la cláusula primera).
 
-## (sólo cuando se trata de la venta de una unidad que forma parte de un
-
-
 ## Condominio acogido a la ley de copropiedad inmobiliaria, art. 6, inc. 3°
+
+**Definición Canónica:** DE LA LEY N° 21.442).
 
 DE LA LEY N° 21.442).
 
@@ -9066,8 +9288,9 @@ ______________________ de _________________, otorgada en la Notaría de
 ____________________ de don /doña ____________________, Repertorio número
 _________________, respecto del cual se otorgan recíproco y completo finiquito.
 
-
 ## En caso de tratarse de un inmueble situado en zona fronteriza, las
+
+**Definición Canónica:** PARTES DEBEN DECLARAR QUE TIENEN NACIONALIDAD CHILENA:
 
 PARTES DEBEN DECLARAR QUE TIENEN NACIONALIDAD CHILENA:
 
@@ -9108,6 +9331,15 @@ número ochocientos veinticinco sobre Impuesto a las Ventas o Servicios: a) Que 
 
 ## parte vendedora no tuvo derecho a crédito fiscal por la adquisición y/o construcción del
 
+**Definición Canónica:** inmueble objeto de la compraventa conforme a la letra m) del artículo octavo del
+Decreto Ley número ochocientos veinticinco; b) Que no se dedica en forma habitual a
+la venta de bienes inmuebles; c) Que no se ha generado mayor valor alguno en la
+venta del inmueble. En consecuencia, la venta de que da cuenta el instrumento no se
+encuentra afecta al pago del Impuesto al Valor Agregado establecido en el Decreto Ley
+número ochocientos veinticinco. Asimismo, la parta vendedora declara que en el
+evento que la autoridad pudiere llegar a considerar que el presente contrato debía
+gravarse con IVA, será 
+
 inmueble objeto de la compraventa conforme a la letra m) del artículo octavo del
 Decreto Ley número ochocientos veinticinco; b) Que no se dedica en forma habitual a
 la venta de bienes inmuebles; c) Que no se ha generado mayor valor alguno en la
@@ -9127,6 +9359,15 @@ Las partes contratantes dejan constancia, de acuerdo a lo dispuesto en el Decret
 número ochocientos veinticinco sobre Impuesto a las Ventas o Servicios: a) Que la
 
 ## parte vendedora no tuvo derecho a crédito fiscal por la adquisición y/o construcción del
+
+**Definición Canónica:** inmueble objeto de la compraventa conforme a la letra m) del artículo octavo del
+Decreto Ley número ochocientos veinticinco; b) Que se dedica en forma habitual a la
+venta de bienes inmuebles. En consecuencia, la venta de que da cuenta el instrumento
+se encuentra afecta al pago del Impuesto al Valor Agregado establecido en el Decreto
+Ley número ochocientos veinticinco. Asimismo, la parte vendedora declara que será de
+su cuenta y cargo el pago de dicho tributo, no pudiendo recargarse a la parte
+compradora suma alguna por este concepto, de forma tal que el precio establecido en
+la cláusula tercer
 
 inmueble objeto de la compraventa conforme a la letra m) del artículo octavo del
 Decreto Ley número ochocientos veinticinco; b) Que se dedica en forma habitual a la
@@ -9208,6 +9449,15 @@ cuarenta y nueve del Código Civil.
 
 ## Si quien vende es el marido en su calidad de administrador de los bienes
 
+**Definición Canónica:** PROPIOS       DE          SU      MUJER,       AGREGAR:          Presente       al        acto   doña
+________________________,                                         _____________(nacionalidad),
+_______________________ (profesión, actividad u oficio), cédula nacional de
+identidad          número            _________________,               casada          con        don
+_______________________________ y de su mismo domicilio, quien acredita su
+identidad con la cédula mencionada, y expone: que viene en autorizar expresamente a
+su cónyuge, para vender y enajenar el inmueble singularizado en la 
+**Concordancias Legales:** artículos 142
+
 PROPIOS       DE          SU      MUJER,       AGREGAR:          Presente       al        acto   doña
 ________________________,                                         _____________(nacionalidad),
 _______________________ (profesión, actividad u oficio), cédula nacional de
@@ -9255,9 +9505,13 @@ Notaría deben transcribirse).
 (Acreditar pago de última cuota de contribuciones o que el inmueble no tiene deudas
 por tal concepto o que está exento del pago de las mismas).
 
-
 ## Capitulo viii: la permuta
 
+**Definición Canónica:** Sumario:
+1.- Definición.
+2.- Aplicación de las normas de la compraventa y características de la permuta.
+3.- La lesión enorme en la permuta.
+**Concordancias Legales:** artículo 1897; artículo 1810; artículos 1796
 
 Sumario:
 1.- Definición.
@@ -9411,6 +9665,17 @@ contrato?
 39.- ¿En qué caso el vendedor que vende algo que no existe o que sólo existe en
 
 ## parte, deberá indemnizar perjuicios al comprador?
+
+**Definición Canónica:** 40.- ¿Cuál es la regla general y cuál la excepción, si se vende una cosa que no existe
+pero se espera que llegue a existir?
+41.- ¿Qué efecto se produce si la cosa comprada pertenece al comprador?
+42.- ¿A juicio de algunos en qué caso sería válida la compra de cosa propia?
+43.- ¿En qué términos el art. 1815 del Código Civil se refiere a la venta de cosa ajena?
+44.- ¿Cómo debe venderse la cosa por el vendedor, para que opere la hipótesis del art.
+1815 del Código Civil?
+45.- ¿Cabe aplicar el art. 1815 del Código Civil, cuando quien vende declara ser
+representante del dueño, sin ser ello efectivo?
+**Concordancias Legales:** artículos 680
 
 40.- ¿Cuál es la regla general y cuál la excepción, si se vende una cosa que no existe
 pero se espera que llegue a existir?

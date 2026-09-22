@@ -13,20 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 46           Comunicación
-
-             y cumplimiento
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** de resoluciones
+                  Tramitación
+             judiciales
+                  electrónica
+                      de causas
+             Juan Santana
+             Andrés Celedón
+             Manuel Valderrama
 
-             de resoluciones
+de resoluciones
                   Tramitación
              judiciales
                   electrónica
@@ -92,23 +90,10 @@ Materiales Docentes                                          ﻿
 
 Contenido
 
-
-## 5       Capítulo 1
-
-        Comunicación de resoluciones judiciales
-
-## 90      Capítulo 2
-
-        Cumplimiento de resoluciones judiciales
-
-## 168     Glosario
-
-
-## 170     Referencias
-
-
-
 ## Capítulo 1
+
+**Definición Canónica:** Comunicación de resoluciones judiciales
+**Concordancias Legales:** artículo 39 del Código de Procedimiento Civil; Ley 20.886
 
 Comunicación de resoluciones judiciales
 
@@ -163,8 +148,12 @@ medio de los cuales se pone en conocimiento de las partes o de terceros
 que han de intervenir en el proceso todo tipo de resoluciones o actuaciones judiciales, con la finalidad de que los actos jurídicos procesales
 cumplan efectos en el proceso.
 
-
 ## 2 Se ha resuelto que «la correcta notificación de la demanda a la parte demandada
+
+**Definición Canónica:** es la base fundamental de la validez de la relación procesal entre las partes, o sea, el
+legal emplazamiento de la persona contra quien se dirige la acción, y este es el trámite esencial, por excelencia, en todo juicio, sin el cual toda substanciación del mismo
+adolece de nulidad» (Vodanovic, 1983: 57).
+**Concordancias Legales:** Ley 21.394
 
 es la base fundamental de la validez de la relación procesal entre las partes, o sea, el
 legal emplazamiento de la persona contra quien se dirige la acción, y este es el trámite esencial, por excelencia, en todo juicio, sin el cual toda substanciación del mismo
@@ -192,8 +181,14 @@ procesal laboral y en el proyecto —en actual tramitación en el Congreso
 Nacional— que pretende establecer un nuevo sistema procesal civil para
 el país, pero sin dejar de lado la recientemente aprobada Ley 21.394, que
 
-
 ## 3 Se ha resuelto que «es nula la notificación que no se ajusta a las notificaciones
+
+**Definición Canónica:** legales: es nula y no tiene valor alguno toda notificación que no se ajusta a las solemnidades que la ley establece para practicarla» (Vodanovic, 1983: 58).
+  4 «El perjudicado por una notificación falsa o defectuosa tiene derecho para reclamar de ella y pedir su nulidad a fin de que no produzca efectos legales, y en consecuencia, para hacer uso de los medios probatorios que conducen a establecer la
+falsedad o vicio de que adolezca. Entre ellos se comprende el requerir, por mandato
+judicial, al receptor encargado de la diligencia, la certificación del modo y forma
+en que ella fue practicada y 
+**Concordancias Legales:** artículo 3 del Código de Procedimiento Civil establece el ca; artículo 32; artículo 27; artículo 432; artículo 14; artículo 149; Ley 21.226; Ley 19.968; Ley 20.543; constitucion
 
 legales: es nula y no tiene valor alguno toda notificación que no se ajusta a las solemnidades que la ley establece para practicarla» (Vodanovic, 1983: 58).
   4 «El perjudicado por una notificación falsa o defectuosa tiene derecho para reclamar de ella y pedir su nulidad a fin de que no produzca efectos legales, y en consecuencia, para hacer uso de los medios probatorios que conducen a establecer la
@@ -309,7 +304,7 @@ Moreno (2012: 21) nos indica que deben cumplir las siguientes funciones:
 
 ## 1. Función de información, advertencia y garantía: Con la correc-
 
-       ta práctica del acto de comunicación, se pone en condiciones de
+**Definición Canónica:** ta práctica del acto de comunicación, se pone en condiciones de
        ejercitar sus derechos en el proceso. En Chile, a diferencia del caso
        español, no se advierte de las consecuencias que se derivan de las
        actuaciones procesales, advertencia que constituye una garantía
@@ -317,14 +312,20 @@ Moreno (2012: 21) nos indica que deben cumplir las siguientes funciones:
        cuestión que consideramos adecuada para el correcto ejercicio de
        las cargas procesales.
 
-## 2. Función de enlace: La comunicación es el nexo entre una actua-
-
-       ción y la siguiente. Constatada la comunicación, permite avanzar a
-       la fase siguiente y marca el inicio de los cómputos de plazos.
+ta práctica del acto de comunicación, se pone en condiciones de
+       ejercitar sus derechos en el proceso. En Chile, a diferencia del caso
+       español, no se advierte de las consecuencias que se derivan de las
+       actuaciones procesales, advertencia que constituye una garantía
+       para el ejercicio de los derechos y facultades que le correspondan,
+       cuestión que consideramos adecuada para el correcto ejercicio de
+       las cargas procesales.
 
 ## 3. Función de prueba: Función relacionada con el principio de segu-
 
-       ridad jurídica.
+**Definición Canónica:** ridad jurídica.
+**Concordancias Legales:** artículo 56; artículo 380; artículo 388; artículos 394; artículo 393; artículo 394; artículo 414; artículo 417; artículo 718; artículo 433; artículo 710; artículo 706; artículo 109; artículo 313; artículo 262; artículo 565; artículo 589; artículo 654; artículo 259; artículo 683; artículo 42 del Código Civil; artículo 689; artículo 698; artículos 2588
+
+ridad jurídica.
 
 Clases de actos de comunicación
 Ya hemos indicado que los actos de comunicación no se limitan solo a
@@ -516,21 +517,27 @@ los artículos 2588 y 259,9 por el cual se le otorga un término al demandado pa
 se cuenta desde su notificación.
    En el proyecto de Código Procesal Civil se hace referencia al emplazamiento en el libro segundo, estableciendo:
 
-## 1. Elementos del emplazamiento: Notificada válidamente la deman-
-
-       da y transcurrido el plazo que la ley le otorga para contestarla, se
-       entenderá que el demandado se encuentra legalmente emplazado
-       al juicio para todos los efectos.
-
 ## 2. Término del emplazamiento: El término de emplazamiento para
 
-       contestar la demanda será de treinta días si el demandado es noti-
+**Definición Canónica:** contestar la demanda será de treinta días si el demandado es noti-
        ficado dentro de la provincia donde funciona el tribunal que cono-
        ce del juicio. Si el demandado es notificado fuera de esa provincia
        o fuera del territorio de la República, el término para contestar
 
+contestar la demanda será de treinta días si el demandado es noti-
+       ficado dentro de la provincia donde funciona el tribunal que cono-
+       ce del juicio. Si el demandado es notificado fuera de esa provincia
+       o fuera del territorio de la República, el término para contestar
 
 ## 8 Artículo 258: «El término de emplazamiento para contestar la demanda será de
+
+**Definición Canónica:** quince días si el demandado es notificado en la comuna donde funciona el tribunal. Se aumentará este término en tres días más si el demandado se encuentra en el
+mismo territorio jurisdiccional pero fuera de los límites de la comuna que sirva de
+asiento al tribunal».
+ 9 Artículo 259: «Si el demandado se encuentra en un territorio jurisdiccional diverso o fuera del territorio de la República, el término para contestar la demanda
+será de dieciocho días, y a más el aumento que corresponda al lugar en que se encuentre. Este aumento será determinado en conformidad a una tabla que cada cinco
+años for
+**Concordancias Legales:** Artículo 259; artículos 258; artículo 5; artículo 10; artículo 21; artículo 248; artículo 305; artículo 329; artículo 460; artículo 2.428 del Código Civil; artículo 492; artículo 586; artículo 1.844 del Código Civil; artículo 587; artículo 733; artículo 813; artículo 795; artículo 800; artículo 789; artículo 443; artículo 41; artículo 44; artículo 462 del Código de Procedimiento Civil se establece qu; artículo 71 del Código de Procedimiento Civil; artículo 75; artículo 72; artículo 73; artículo 77; artículo 71; artículo 76 del Código de Procedimiento Civil; artículo 105; artículo 98; artículo 74; artículo 29; artículo 453 del Código del Trabajo dispone que; artículo 11; artículo 8; artículo 230; Ley 18.120; Ley 20.886
 
 quince días si el demandado es notificado en la comuna donde funciona el tribunal. Se aumentará este término en tres días más si el demandado se encuentra en el
 mismo territorio jurisdiccional pero fuera de los límites de la comuna que sirva de
@@ -1000,8 +1007,16 @@ mientras no se acceda al correo la notificación no se entiende producida, porqu
 regla que indica que, al transcurrir una cantidad de días desde la llegada
 del respectivo correo, se entiende notificada la respectiva resolución.
 
-
 ## 11 En esta línea se encuentra en actual tramitación en el Congreso Nacional, bajo
+
+**Definición Canónica:** el Boletín 11.901-07, una modificación al Código Civil, en su artículo 62, para incorporar la obligación de que «las personas deberán registrar su domicilio en el
+Servicio de Registro Civil e Identificación de Chile, incluso cada vez que este se
+modifique. Dicha información deberá proporcionarse en los términos establecidos
+en el artículo 3 y en los numerales 4, 6, 8 y 9 del artículo 4 de la Ley 19.477 Orgánica
+del Registro Civil e Identificación», es decir, el domicilio electrónico. «Domicilio
+electrónico y notificación por correo electrónico en la justicia de policía local, una
+forma de hace
+**Concordancias Legales:** artículo 62; artículo 3; artículo 4 de la Ley 19.477 Orgánica del Registro Civil e Iden; artículo 46; artículo 5; artículo 4; artículo 9 de la Ley 20.886 deberá realizarse mediante el uso; Ley 19.477; Ley 21.180; Ley 20.886
 
 el Boletín 11.901-07, una modificación al Código Civil, en su artículo 62, para incorporar la obligación de que «las personas deberán registrar su domicilio en el
 Servicio de Registro Civil e Identificación de Chile, incluso cada vez que este se
@@ -1078,8 +1093,11 @@ mediante el uso del programa computacional o aplicación móvil que la
 Corporación Administrativa del Poder Judicial pondrá a disposición de
 los receptores judiciales, los que deberán contar con dispositivos móviles que permitan la descarga de aplicaciones y cuenten con cámara y
 
-
 ## 12 El 11 de diciembre de 2021 se publicó en el Diario Oficial el Reglamento que
+
+**Definición Canónica:** regula la forma en que los procedimientos administrativos deberán expresarse a través de medios electrónicos, en las materias que indica, según lo dispuesto en la Ley
+21.180 sobre Transformación Digital del Estado, disponible en https://bit.ly/3a7q22r.
+**Concordancias Legales:** Ley 21.180; Ley 20.886
 
 regula la forma en que los procedimientos administrativos deberán expresarse a través de medios electrónicos, en las materias que indica, según lo dispuesto en la Ley
 21.180 sobre Transformación Digital del Estado, disponible en https://bit.ly/3a7q22r.
@@ -1103,8 +1121,14 @@ ello en la certificación.
 
 ## parte del deudor o el depositario
 
+**Definición Canónica:** Además, contempla una sanción para el caso de todo incumplimiento culpable o doloso que constituye una falta grave a las funciones, el
+cual será sancionado por el tribunal, previa audiencia del afectado, con
+alguna de las medidas contempladas en los números 2, 3 y 4 del inciso
+tercero del artículo 532 del Código Orgánico de Tribunales.13 En caso de
+reincidencia, el juez deberá aplicar la medida de suspensión de funciones por un mes.
+**Concordancias Legales:** artículo 532 del Código Orgánico de Tribunales.13 En caso de r
 
-   Además, contempla una sanción para el caso de todo incumplimiento culpable o doloso que constituye una falta grave a las funciones, el
+Además, contempla una sanción para el caso de todo incumplimiento culpable o doloso que constituye una falta grave a las funciones, el
 cual será sancionado por el tribunal, previa audiencia del afectado, con
 alguna de las medidas contempladas en los números 2, 3 y 4 del inciso
 tercero del artículo 532 del Código Orgánico de Tribunales.13 En caso de
@@ -1116,8 +1140,10 @@ y los hitos asociados
 El Acta 90-2007 del Poder Judicial regula el funcionamiento del Centro
 de Justicia de Santiago, para el adecuado funcionamiento de los tribu-
 
-
 ## 13 Artículo 532, numeral 2: censura por escrito; numeral 3: multa de uno a quince
+
+**Definición Canónica:** días de sueldo o de una cantidad que no exceda de ocho y media unidades tributarias mensuales; numeral 4: suspensión de sus funciones hasta por un mes, gozando
+del cincuenta por ciento de sus remuneraciones, cuando procediere.
 
 días de sueldo o de una cantidad que no exceda de ocho y media unidades tributarias mensuales; numeral 4: suspensión de sus funciones hasta por un mes, gozando
 del cincuenta por ciento de sus remuneraciones, cuando procediere.
@@ -1146,7 +1172,14 @@ El Centro Integrado de Notificaciones se organiza en unidades administrativas, d
 
 ## 2. La Unidad de Cobranza Laboral y Previsional y de los Juzgados
 
-       Laborales.
+**Definición Canónica:** Laborales.
+    3. La Unidad Zona de Riesgo.
+  Las unidades administrativas están conformadas por el número de
+funcionarios notificadores que designe la Corporación Administrativa
+del Poder Judicial y por los propios Tribunales, con asiento en el Centro
+de Justicia de Santiago, bajo comisión de servicios temporales autorizada por la Corte Suprema, de acuerdo a la siguiente distribución:
+
+Laborales.
     3. La Unidad Zona de Riesgo.
   Las unidades administrativas están conformadas por el número de
 funcionarios notificadores que designe la Corporación Administrativa
@@ -1155,8 +1188,15 @@ de Justicia de Santiago, bajo comisión de servicios temporales autorizada por l
 
 ## 1. Reforma Procesal Penal: Integrada por funcionarios provenientes
 
+**Definición Canónica:** de los Juzgados de Garantía y Tribunales de Juicio Oral en lo Penal
+       de Santiago. El Administrador de Tribunal, de acuerdo al núme-
+       ro de dotación que le corresponda aportar al Centro, determinará
+       anualmente los funcionarios que deberán desempeñarse en cali-
+       dad de notificadores, nominación que será aprobada por la Cor-
+       te Suprema, mediante Resolución que los designará por períodos
+       anuales en comisión de servicio.
 
-       de los Juzgados de Garantía y Tribunales de Juicio Oral en lo Penal
+de los Juzgados de Garantía y Tribunales de Juicio Oral en lo Penal
        de Santiago. El Administrador de Tribunal, de acuerdo al núme-
        ro de dotación que le corresponda aportar al Centro, determinará
        anualmente los funcionarios que deberán desempeñarse en cali-
@@ -1166,14 +1206,25 @@ de Justicia de Santiago, bajo comisión de servicios temporales autorizada por l
 
 ## 2. Unidad Juzgados de Familia: Conformada por empleados notifi-
 
-       cadores contratados por la Corporación Administrativa del Po-
+**Definición Canónica:** cadores contratados por la Corporación Administrativa del Po-
+       der Judicial, quienes se desempeñarán como ministros de fe de
+       los Juzgados de Familia de Santiago que dependan jurisdiccional-
+       mente de las Cortes de Apelaciones de Santiago y San Miguel.
+
+cadores contratados por la Corporación Administrativa del Po-
        der Judicial, quienes se desempeñarán como ministros de fe de
        los Juzgados de Familia de Santiago que dependan jurisdiccional-
        mente de las Cortes de Apelaciones de Santiago y San Miguel.
 
 ## 3. Unidad Juzgados de Cobranza Laboral y Previsional y Juzgados
 
-       Laborales: Conformada por funcionarios contratados por la Cor-
+**Definición Canónica:** Laborales: Conformada por funcionarios contratados por la Cor-
+       poración Administrativa del Poder Judicial, quienes se desempe-
+       ñarán como ministros de fe de los Juzgados de Cobranza Laboral y
+       Previsional dependientes de las Cortes de Apelaciones de Santiago
+       y San Miguel.
+
+Laborales: Conformada por funcionarios contratados por la Cor-
        poración Administrativa del Poder Judicial, quienes se desempe-
        ñarán como ministros de fe de los Juzgados de Cobranza Laboral y
        Previsional dependientes de las Cortes de Apelaciones de Santiago
@@ -1181,37 +1232,29 @@ de Justicia de Santiago, bajo comisión de servicios temporales autorizada por l
 
 ## 4. Unidad de Zona de Riesgo: Conformada por funcionarios con-
 
-       tratados por la Corporación administrativa del Poder Judicial,
+**Definición Canónica:** tratados por la Corporación administrativa del Poder Judicial,
        quienes se desempeñarán como ministros de fe de los Juzgados
        de Cobranza Laboral y Previsional dependientes de las Cortes de
        Apelaciones de Santiago y San Miguel.
    Las responsabilidades del jefe del centro son:
 
-## 1. Organizar, planificar y supervisar el correcto funcionamiento del
-
-       Centro Integrado de Notificaciones en el diligenciamiento oportu-
-       no de los requerimientos de notificación de resoluciones que ema-
-       nen los tribunales.
-
-## 2. Distribuir el personal asignado, entre las diferentes unidades ad-
-
-       ministrativas y zonas geográficas, garantizando el correcto funcio-
-       namiento de cada una de ellas.
-    3. Calificar anualmente al personal a su cargo.
-
-## 4. Requerir, administrar y controlar la entrega oportuna de los recur-
-
-       sos asignados por la Corporación Administrativa del Poder Judicial.
-
-## 5. Llevar registros de control y estadísticas permanentes de los costos
-
-
-       asociados al funcionamiento de cada unidad administrativa en el
-       cumplimiento de sus labores.
+tratados por la Corporación administrativa del Poder Judicial,
+       quienes se desempeñarán como ministros de fe de los Juzgados
+       de Cobranza Laboral y Previsional dependientes de las Cortes de
+       Apelaciones de Santiago y San Miguel.
+   Las responsabilidades del jefe del centro son:
 
 ## 6. Velar por la correcta mantención y actualización del sistema de
 
-       archivo documental del Centro Integrado de Notificaciones.
+**Definición Canónica:** archivo documental del Centro Integrado de Notificaciones.
+   A fin de optimizar la distribución de recursos, el Centro Integrado de
+Notificaciones zonifica geográficamente la ciudad de Santiago en cuadrantes, los que corresponden preferentemente a agrupaciones de comunas. Cada cuadrante está a cargo de un profesional que cumplirá la
+función de jefe de zona respectivo, distribuyendo entre los notificadores
+a su cargo las planillas y documentación pertinentes, a fin de que cumplan con sus labores diarias.
+   Finalmente, se establece que corresponderá al Consejo Superior de la
+Corporación Admini
+
+archivo documental del Centro Integrado de Notificaciones.
    A fin de optimizar la distribución de recursos, el Centro Integrado de
 Notificaciones zonifica geográficamente la ciudad de Santiago en cuadrantes, los que corresponden preferentemente a agrupaciones de comunas. Cada cuadrante está a cargo de un profesional que cumplirá la
 función de jefe de zona respectivo, distribuyendo entre los notificadores
@@ -1230,51 +1273,26 @@ Funciones
 
 Las funciones del Centro Integrado de Notificaciones son:
 
-## 1. Ejecutar el cumplimiento oportuno de las notificaciones, garanti-
-
-      zando efectividad en los plazos comprometidos en las diferentes
-      acciones emanadas de los tribunales.
-
-## 2. Certificar las diligencias realizadas en cada causa y su resultado
-
-      fundamentado, conforme las prácticas previstas en los manuales
-      de procedimiento.
-
-## 3. Establecer canales de información oportuna y precisa hacia los tri-
-
-      bunales respecto del seguimiento efectivo de las notificaciones.
-
-## 4. Evaluar todas aquellas sugerencias o reclamos provenientes
-
-      de los diferentes tribunales a los que sirve de modo habitual el
-      Centro.
-
-
 ## 5. Velar de modo permanente por el buen funcionamiento del sis-
 
-       tema informático para el recibo de la información necesaria para
+**Definición Canónica:** tema informático para el recibo de la información necesaria para
        efectuar las notificaciones en cualquiera de sus formas, dando avi-
        so inmediato sobre desperfectos o fallas del sistema.
 
-## 6. Mantener actualizados los registros estadísticos sobre el número
-
-       de notificaciones encomendadas a cada unidad administrativa,
-       con indicación de los resultados obtenidos.
-
-## 7. Manejar plazos de realización o de estado de las notificaciones en-
-
-       comendadas al Centro, mediante la información entregada por el
-       sistema computacional y a través de los reportes permanentes pro-
-       porcionados por los jefes de zona.
-
-## 8. Atender —a través del medio más idóneo y expedito posible— los
-
-       requerimientos solicitados por los tribunales respecto del estado y
-       resultado de las notificaciones encomendadas al Centro.
+tema informático para el recibo de la información necesaria para
+       efectuar las notificaciones en cualquiera de sus formas, dando avi-
+       so inmediato sobre desperfectos o fallas del sistema.
 
 ## 9. Informar al tribunal —por el medio más idóneo, expedito y en
 
-       el menor tiempo posible tras recibir el requerimiento de notifica-
+**Definición Canónica:** el menor tiempo posible tras recibir el requerimiento de notifica-
+       ción— sobre la omisión de antecedentes o la ocurrencia de faltas
+       en la identificación de nombres de personas, domicilio, comuna,
+       fecha y otros antecedentes contenidos en el requerimiento de no-
+       tificación, con la finalidad de que el tribunal respectivo comple-
+       mente o rectifique el requerimiento.
+
+el menor tiempo posible tras recibir el requerimiento de notifica-
        ción— sobre la omisión de antecedentes o la ocurrencia de faltas
        en la identificación de nombres de personas, domicilio, comuna,
        fecha y otros antecedentes contenidos en el requerimiento de no-
@@ -1288,26 +1306,35 @@ modo de efectuar las notificaciones, que podemos describir de la siguiente forma
 
 ## 1. El tribunal firma la resolución. Se inicia el ciclo con la resolución
 
-      del juez que ordena notificar. Se verifica el domicilio y todos los
+**Definición Canónica:** del juez que ordena notificar. Se verifica el domicilio y todos los
       demás datos necesarios para cumplir la notificación en forma co-
       rrecta y ajustada a la normativa. Disponible una vez firmada.
 
-## 2. El Centro recibe la notificación e inicia el proceso de validación. Se
-
-      procede a imprimir todas las resoluciones y los notificadores pro-
-      ceden a preparar el material ubicando los domicilios (ruta), co-
-      menzando con las del día anterior.
+del juez que ordena notificar. Se verifica el domicilio y todos los
+      demás datos necesarios para cumplir la notificación en forma co-
+      rrecta y ajustada a la normativa. Disponible una vez firmada.
 
 ## 3. La solicitud de notificación es llevada a terreno para la primera bús-
 
-      queda. En la tercera jornada, el notificador realiza las búsquedas o
+**Definición Canónica:** queda. En la tercera jornada, el notificador realiza las búsquedas o
+
+queda. En la tercera jornada, el notificador realiza las búsquedas o
 
        notificaciones, e ingresa al sistema la diligencia, que se carga du-
        rante la noche para estar disponible al día siguiente.
 
 ## 4. La notificación aparece en la historia de la causa con el resultado
 
-       obtenido. Las notificaciones están disponibles en el sistema.
+**Definición Canónica:** obtenido. Las notificaciones están disponibles en el sistema.
+   Los Centros Integrados de Notificaciones Judiciales se encontraban
+en una dependencia entre las Administraciones Zonales (Arica, Iquique,
+Antofagasta, La Serena, Temuco y Puerto Montt), las Cortes de Apelaciones (Valparaíso y Concepción) y de Corporación Administrativa
+Central (Santiago). Sin embargo, a partir del 2020 todos los centros en
+funcionamiento tienen dependencia administrativa del Administrador
+de cada Corte de Apelaciones. En el caso de la implementación de nuevos centros de notificaciones, estos tendrán dependencia d
+**Concordancias Legales:** artículo 40 del Código de Procedimiento Civil
+
+obtenido. Las notificaciones están disponibles en el sistema.
    Los Centros Integrados de Notificaciones Judiciales se encontraban
 en una dependencia entre las Administraciones Zonales (Arica, Iquique,
 Antofagasta, La Serena, Temuco y Puerto Montt), las Cortes de Apelaciones (Valparaíso y Concepción) y de Corporación Administrativa
@@ -1363,13 +1390,14 @@ incluidos en la resolución son los siguientes:
     1. Individualización de la persona a notificar.
     2. Fecha de resolución.
 
-## 3. Forma de notificar, la cual debe coincidir con la seleccionada en el
-
-       sistema de gestión judicial del tribunal.
-
 ## 4. Piezas que deben ser notificadas (resoluciones anteriores, solicitud
 
-       o requerimiento de Fiscalía, informe de Gendarmería, demanda,
+**Definición Canónica:** o requerimiento de Fiscalía, informe de Gendarmería, demanda,
+       etcétera).
+    5. Apercibimientos legales.
+**Concordancias Legales:** artículo 23 de Ley de Familia; artículo 44 del Código de Procedimiento Civil y artículo 437; artículo 21 del Acta 90
+
+o requerimiento de Fiscalía, informe de Gendarmería, demanda,
        etcétera).
     5. Apercibimientos legales.
 
@@ -1402,19 +1430,16 @@ Las notificaciones que no realiza el Centro son:
     4. Notificación por publicación en el Diario Oficial.
     5. Notificación a través de la prensa escrita.
 
-## 6. Notificación a través de medios de difusión como radio, televisión
-
-       o redes sociales de internet.
-
-
-## 7. Notificación de medidas precautorias en Registro Civil e Identifi-
-
-       cación, Tesorería General de la República y Conservador de Bie-
-       nes Raíces.
-
 ## 8. Notificación con reincorporación en materia laboral: Correspon-
 
-       de al proceso que realizan algunos tribunales de materia laboral en
+**Definición Canónica:** de al proceso que realizan algunos tribunales de materia laboral en
+       el cual un funcionario «notificador» acompaña al demandado con
+       la sentencia que ordena sea reincorporado en sus funciones. En
+       este acto, el funcionario del tribunal es ministro de fe respecto de
+       lo que ocurra y deja constancia en un acta si la persona fue acep-
+       tada de vuelta en su trabajo o no.
+
+de al proceso que realizan algunos tribunales de materia laboral en
        el cual un funcionario «notificador» acompaña al demandado con
        la sentencia que ordena sea reincorporado en sus funciones. En
        este acto, el funcionario del tribunal es ministro de fe respecto de
@@ -1423,13 +1448,29 @@ Las notificaciones que no realiza el Centro son:
 
 ## 9. Toda notificación que no sea personal, por cédula y aquellas que
 
-       autoriza la norma realizar cuando se confirman supuestos legales
+**Definición Canónica:** autoriza la norma realizar cuando se confirman supuestos legales
+       (artículo 44 del Código de Procedimiento Civil, artículo 23 de la
+       Ley de Familia, y artículo 437 del Código del Trabajo).
+**Concordancias Legales:** artículo 44 del Código de Procedimiento Civil; artículo 23 de la Ley de Familia; artículo 437 del Código del Trabajo
+
+autoriza la norma realizar cuando se confirman supuestos legales
        (artículo 44 del Código de Procedimiento Civil, artículo 23 de la
        Ley de Familia, y artículo 437 del Código del Trabajo).
 
 ## 10. Notificaciones a personas privadas de libertad en Centros de
 
-       Cumplimiento Penitenciario.
+**Definición Canónica:** Cumplimiento Penitenciario.
+   Horario para notificar. Los Centros dependen administrativamente
+de la Corporación Administrativa del Poder Judicial y su horario de
+funcionamiento es el dispuesto en el artículo 58 de su Reglamento. El
+horario en que se ejecutará el trabajo de terreno será en la jornada matinal.
+   La hora para la salida del móvil con el notificador será establecida por
+el jefe del Centro procurando que haya tiempo suficiente para cubrir la
+ruta establecida el día anterior. El Centro no realizará notificaciones en
+horarios distintos al de la jornada matinal, exceptuando aquellas
+**Concordancias Legales:** artículo 58; artículo 44 del Código de Procedimiento Civil; artículo 44; artículo 23; artículo 437; artículo 23 de la Ley de Familia; artículo 437 del Código del Trabajo; artículo 40 del Código de Procedimiento Civil. No obsta; artículo 281 del Código Procesal Penal. El funcionario n; artículo 39 del Código de Procedimiento Civil
+
+Cumplimiento Penitenciario.
    Horario para notificar. Los Centros dependen administrativamente
 de la Corporación Administrativa del Poder Judicial y su horario de
 funcionamiento es el dispuesto en el artículo 58 de su Reglamento. El
@@ -1610,6 +1651,16 @@ La regulación de las notificaciones, en sede procesal civil, se ubica en el
 
 ## título VI del libro I del Código de Procedimiento Civil, título en el cual
 
+**Definición Canónica:** se contienen diversas notificaciones que resultan aplicables a diversos
+cuerpos normativos especiales, en su carácter de supletorios,14 como lo
+hemos referenciado.
+   También, un detalle no menor son las modificaciones introducidas
+por la Ley 21.394 —a la cual nos referiremos en la parte final de este capítulo— al sistema de notificaciones. Por ello, seguiremos la explicación
+general, y luego la revisión por cada cuerpo normativo hasta llegar a las
+modificaciones introducidas por dicha ley.
+   A grandes rasgos, podemos reconocer en nuestra legislación seis tipologías de notificaciones: persona
+**Concordancias Legales:** artículo 289 del Código de Procedimiento Civil; artículo 302; artículo 441; artículo 38 del Código de Procedimiento Civil establece que t; artículos 39; artículo 39; artículo 57; artículo 56; Ley 21.394
+
 se contienen diversas notificaciones que resultan aplicables a diversos
 cuerpos normativos especiales, en su carácter de supletorios,14 como lo
 hemos referenciado.
@@ -1699,8 +1750,12 @@ esa declaración». Pero, al tratarse de una notificación a un perito, y por
 la naturaleza del acto, deberá dejarse constancia en la certificación de la
 aceptación del cargo.
 
-
 ## 15 Sentencia de la Corte de Apelaciones de Coyhaique, causa rol 52-2017 (Civil), 3
+
+**Definición Canónica:** de mayo de 2017.
+ 16 «Al ordenar la ley que se deje constancia o testimonio en autos de las notificaciones que los funcionarios practiquen, ha establecido la solemnidad esencial, cuya
+omisión hace que la diligencia carezca de valor» (Vodanovic, 1983: 67).
+**Concordancias Legales:** artículo 40 del Código de Procedimiento Civil; artículo 703 del Código de Procedimiento Civil que el procedim; artículo 705; artículo 704
 
 de mayo de 2017.
  16 «Al ordenar la ley que se deje constancia o testimonio en autos de las notificaciones que los funcionarios practiquen, ha establecido la solemnidad esencial, cuya
@@ -1768,7 +1823,11 @@ lugar, los requisitos comunes son:
 
 ## 2. Debe dejarse constancia de ella en el expediente, que adopta nor-
 
-       malmente la forma de una certificación extendida por el ministro
+**Definición Canónica:** malmente la forma de una certificación extendida por el ministro
+       de fe que la practica (artículo 43, en relación al artículo 61).
+**Concordancias Legales:** artículo 43; artículo 61; artículo 41 del Código de Procedimiento Civil dispone que la
+
+malmente la forma de una certificación extendida por el ministro
        de fe que la practica (artículo 43, en relación al artículo 61).
 
  17 «Pueden omitirse los requisitos que la ley exige para para las notificaciones sin
@@ -1782,7 +1841,17 @@ hábiles por los funcionarios encargados de realizar las notificaciones:
 
 ## 1. Lugar hábil: i) Lugares y recintos de libre acceso al público; b) en
 
-      la morada o lugar donde pernocta el notificado; c) en el lugar don-
+**Definición Canónica:** la morada o lugar donde pernocta el notificado; c) en el lugar don-
+      de ordinariamente ejerce su industria, profesión o empleo; d) en
+      cualquier recinto privado en que este se encuentre y al cual se le
+      permita el acceso al ministro de fe; e) en el oficio del secretario,
+      esto es, el lugar donde dicho funcionario ejerce las labores propias
+      de su cargo, como en el caso que la persona comparezca al tribunal
+      y se dé por notificado; f) la casa que sirva para despacho del tribu-
+      nal, entendemos que cabe dentro de esta acepción, la dependencia
+      o departamen
+
+la morada o lugar donde pernocta el notificado; c) en el lugar don-
       de ordinariamente ejerce su industria, profesión o empleo; d) en
       cualquier recinto privado en que este se encuentre y al cual se le
       permita el acceso al ministro de fe; e) en el oficio del secretario,
@@ -1796,7 +1865,14 @@ hábiles por los funcionarios encargados de realizar las notificaciones:
 
 ## 2. Hora hábil: a) Si se trata de lugares y recintos de libre acceso al pú-
 
-      blico, se puede efectuar en cualquier día y a cualquier hora, procu-
+**Definición Canónica:** blico, se puede efectuar en cualquier día y a cualquier hora, procu-
+      rando causar la menor molestia posible al notificado; b) si se trata
+      de notificar a una persona en la morada, o lugar donde pernocta,
+      o donde ordinariamente ejerce su industria, profesión o empleo, o
+      en cualquier recinto privado, podrá hacerse en cualquier día entre
+      las 6 y las 22 horas.
+
+blico, se puede efectuar en cualquier día y a cualquier hora, procu-
       rando causar la menor molestia posible al notificado; b) si se trata
       de notificar a una persona en la morada, o lugar donde pernocta,
       o donde ordinariamente ejerce su industria, profesión o empleo, o
@@ -1805,7 +1881,18 @@ hábiles por los funcionarios encargados de realizar las notificaciones:
 
 ## 3. Funcionarios encargados de la práctica de la notificación perso-
 
-      nal: a) Los receptores; b) los secretarios de los tribunales de jus-
+**Definición Canónica:** nal: a) Los receptores; b) los secretarios de los tribunales de jus-
+      ticia también pueden notificar personalmente, pero limitados al
+      ámbito de su oficio, conforme lo prescribe el numeral 2 del artícu-
+      lo 380 del Código Orgánico de Tribunales en relación al artículo
+      41 del Código de Procedimiento Civil; c) los oficiales primeros de
+      los tribunales, de conformidad con lo que expresa el artículo 58 del
+      Código de Procedimiento Civil pueden practicar notificaciones
+      personales, siempre y cuando para tal efecto lo hagan bajo la res-
+      ponsabilidad del secr
+**Concordancias Legales:** artículo 41 del Código de Procedimiento Civil; artículo 58 del Código de Procedimiento Civil pueden practica; artículo 58 del Código de Procedimiento Civil; artículo 58; artículo 41
+
+nal: a) Los receptores; b) los secretarios de los tribunales de jus-
       ticia también pueden notificar personalmente, pero limitados al
       ámbito de su oficio, conforme lo prescribe el numeral 2 del artícu-
       lo 380 del Código Orgánico de Tribunales en relación al artículo
@@ -1826,7 +1913,18 @@ hábiles por los funcionarios encargados de realizar las notificaciones:
 
 ## 1. Notificación fuera de la comuna del tribunal: Si se hubiere prac-
 
-       ticado fuera de la comuna donde funciona el tribunal se aumen-
+**Definición Canónica:** ticado fuera de la comuna donde funciona el tribunal se aumen-
+       tarán los plazos de la siguiente manera: a) si la notificación se
+       practica en el territorio jurisdiccional del tribunal que la ordena,
+       pero fuera de los límites de la comuna que sirva de asiento al tri-
+       bunal, se aumenta el término en tres días; b) si la persona a quien
+       se trata de notificar se encuentra en un territorio jurisdiccional
+       diverso, el plazo de tres días mencionados debe incrementarse de
+       acuerdo a la tabla de emplazamiento que forma la Corte Suprema
+       cada cinco años
+**Concordancias Legales:** artículo 58 del Código de Procesamiento Civil
+
+ticado fuera de la comuna donde funciona el tribunal se aumen-
        tarán los plazos de la siguiente manera: a) si la notificación se
        practica en el territorio jurisdiccional del tribunal que la ordena,
        pero fuera de los límites de la comuna que sirva de asiento al tri-
@@ -1841,31 +1939,36 @@ hábiles por los funcionarios encargados de realizar las notificaciones:
        diente al calculo que se realice de conformidad a la referida tabla
        de emplazamiento.
 
-## 2. Notificación en días inhábiles: Notificada la demanda en días in-
-
-       hábiles, los plazos comenzarán a correr desde las cero horas del
-       día hábil inmediatamente siguiente.
-
 ## 3. Procedimiento ejecutivo: En los juicios ejecutivos no podrá efec-
 
-       tuarse el requerimiento de pago en público y, de haberse notifi-
+**Definición Canónica:** tuarse el requerimiento de pago en público y, de haberse notifi-
+       cado la demanda en un lugar o recinto de libre acceso público, se
+       estará a lo establecido en el numeral 1 del artículo 443.
+**Concordancias Legales:** artículo 443
+
+tuarse el requerimiento de pago en público y, de haberse notifi-
        cado la demanda en un lugar o recinto de libre acceso público, se
        estará a lo establecido en el numeral 1 del artículo 443.
 
 ## 4. Notificación a jueces: Los jueces no podrán, sin embargo, ser noti-
 
-       ficados en el local en que desempeñan sus funciones.
+**Definición Canónica:** ficados en el local en que desempeñan sus funciones.
+   Además de lo anterior, el artículo 42 establece la posibilidad de que
+el tribunal habilite lugar para efectuar la notificación personal, siempre
+que se den la concurrencia de dos elementos:
+**Concordancias Legales:** artículo 42
+
+ficados en el local en que desempeñan sus funciones.
    Además de lo anterior, el artículo 42 establece la posibilidad de que
 el tribunal habilite lugar para efectuar la notificación personal, siempre
 que se den la concurrencia de dos elementos:
 
-## 1. Que la persona a quien se trate de notificar no tenga habitación
-
-       conocida en el lugar en que ha de ser notificada.
-
 ## 2. Que se acredite esta circunstancia mediante un certificado exten-
 
-       dido por un ministro de fe, que afirme haber hecho las indagacio-
+**Definición Canónica:** dido por un ministro de fe, que afirme haber hecho las indagacio-
+**Concordancias Legales:** artículo 40; artículo 47; artículo 52; artículo 56; artículos 52; artículo 40 del Código de Procedimiento Civil; artículo 50
+
+dido por un ministro de fe, que afirme haber hecho las indagacio-
 
        nes posibles, de las cuales dejará testimonio detallado en la respec-
        tiva diligencia.
@@ -1904,6 +2007,9 @@ la notificación por el estado establecida en el artículo 50 del mismo cuerpo l
 
 ## 19 Se ha resuelto que «la notificación personal puede usarse en todo caso, aun en
 
+**Definición Canónica:** aquellos para los cuales la ley establece una forma especial de notificación» (Vodanovic, 1983: 57).
+**Concordancias Legales:** artículo 56; artículo 1.902 del Código Civil; artículo 40
+
 aquellos para los cuales la ley establece una forma especial de notificación» (Vodanovic, 1983: 57).
 
 Materiales Docentes                                                         Capítulo 1
@@ -1918,14 +2024,18 @@ aceptada por este».
    Respecto a la forma en que se practica la notificación personal y registro en el expediente, conforme al artículo 40 la notificación personal
 deberá realizarse de la siguiente forma:
 
-## 1. Entrega de copia íntegra de la resolución por parte del ministro de
-
-       fe o funcionario.
-    2. Entrega de copia íntegra de la solicitud en que recayó la resolución.
-
 ## 3. Entrega de los dos antecedentes anteriores en forma personal a la
 
-       persona del notificado.
+**Definición Canónica:** persona del notificado.
+   Hay que recordar que el artículo 39 dispone que para la validez de las
+notificaciones no se requiere consentimiento del notificado. Y, para los
+efectos anteriores, el ministro de fe, encargado de la notificación, deberá, conforme al artículo 43, hacer constar en el proceso la circunstancia
+de haberse practicado, lo que es esencial para su validez, y su omisión
+acarrea la falta de validez de la notificación, es decir, es como si no se
+hubiese practicado, ello en relación al artículo 61 del Código de Procedimiento Civil,20 según se indica en la figura 1.
+**Concordancias Legales:** artículo 39; artículo 43; artículo 61 del Código de Procedimiento Civil; artículo 44 del Código de Procedimiento Civil; Artículo 61; artículo 61 del Código de Procedimiento Civil Esta forma
+
+persona del notificado.
    Hay que recordar que el artículo 39 dispone que para la validez de las
 notificaciones no se requiere consentimiento del notificado. Y, para los
 efectos anteriores, el ministro de fe, encargado de la notificación, deberá, conforme al artículo 43, hacer constar en el proceso la circunstancia
@@ -1981,24 +2091,37 @@ la ley. Solo el receptor puede notificar de esta forma, pues los secretarios
 también se encuentran autorizados por la ley para practicar la notificación personal, pero deben hacerlo en su oficio.
     De acuerdo a lo revisado, la notificación personal supone que el notificado reciba las copias pertinentes. Sin embargo, puede ocurrir que:
 
-## 1. El notificado que no tenga habitación conocida, lo que impide no-
-
-        tificarle personalmente. En ese caso se puede habilitar lugar, según
-        lo dispone el artículo 42 del Código de Procedimiento Civil; o
-
 ## 2. El notificado, teniendo habitación conocida, se oculta o evita la pre-
 
-        sentación del ministro de fe, pasa la mayor parte del tiempo fuera de
+**Definición Canónica:** sentación del ministro de fe, pasa la mayor parte del tiempo fuera de
+        esta habitación o no se encuentra en el lugar donde habitualmente
+        ejerce su industria, profesión o empleo, caso en el cual procede la
+        aplicación del artículo 44 del Código de Procedimiento Civil.
+  Respecto a la naturaleza jurídica de esta forma de notificación, se ha
+indicado que puede ser:
+**Concordancias Legales:** artículo 44 del Código de Procedimiento Civil. Respecto a l
+
+sentación del ministro de fe, pasa la mayor parte del tiempo fuera de
         esta habitación o no se encuentra en el lugar donde habitualmente
         ejerce su industria, profesión o empleo, caso en el cual procede la
         aplicación del artículo 44 del Código de Procedimiento Civil.
   Respecto a la naturaleza jurídica de esta forma de notificación, se ha
 indicado que puede ser:
 
-
 ## 1. Una modalidad de la notificación por cédula: Así, algunos sostie-
 
-       nen que es una modalidad de notificación por cédula. Sin embar-
+**Definición Canónica:** nen que es una modalidad de notificación por cédula. Sin embar-
+       go, entre esta notificación y la notificación por cédula hay varias
+       diferencias: i) la notificación sustitutiva del artículo 44 requiere
+       de un decreto judicial que la autorice, y solo tiene lugar cuando
+       se reúnen los requisitos y condiciones que el legislador establece,
+       además, puede utilizarse para notificar la primera presentación y
+       su proveído; ii) la notificación por cédula, en cambio, no necesita
+       requisitos o condiciones especiales, solo es eficaz respecto de algu-
+       nas r
+**Concordancias Legales:** artículo 44; artículo 48 del Código de Procedimiento Civil
+
+nen que es una modalidad de notificación por cédula. Sin embar-
        go, entre esta notificación y la notificación por cédula hay varias
        diferencias: i) la notificación sustitutiva del artículo 44 requiere
        de un decreto judicial que la autorice, y solo tiene lugar cuando
@@ -2012,7 +2135,14 @@ indicado que puede ser:
 
 ## 2. Una modalidad de notificación personal: Se ha indicado que es
 
-       una modalidad de la notificación personal, a la cual está llamada
+**Definición Canónica:** una modalidad de la notificación personal, a la cual está llamada
+       a sustituir, cuando no ha podido practicarse por no ser habido el
+       notificado, a pesar de encontrarse en el lugar en que se sigue el
+       juicio y tener habitación conocida en él.
+  Los supuestos o condiciones para que sea procedente la notificación
+sustitutiva son:
+
+una modalidad de la notificación personal, a la cual está llamada
        a sustituir, cuando no ha podido practicarse por no ser habido el
        notificado, a pesar de encontrarse en el lugar en que se sigue el
        juicio y tener habitación conocida en él.
@@ -2021,22 +2151,23 @@ sustitutiva son:
 
 ## 1. Que la persona a quien debe notificarse personalmente sea busca-
 
-       da en dos días distintos en su habitación, o en el lugar donde habi-
+**Definición Canónica:** da en dos días distintos en su habitación, o en el lugar donde habi-
        tualmente ejerce su industria profesión o empleo, por el ministro
        de fe encargado de practicar la notificación personal.
 
-## 2. Que la persona a quien deba notificarse personalmente no sea ha-
-
-       bida en ninguno de los dos días distintos en los lugares en que ha
-       sido buscada por el ministro de fe encargado de la notificación.
-
-## 3. Que la persona a quien deba notificarse tenga morada o ejerza ha-
-
-       bitualmente su industria profesión o empleo en el lugar del juicio.
+da en dos días distintos en su habitación, o en el lugar donde habi-
+       tualmente ejerce su industria profesión o empleo, por el ministro
+       de fe encargado de practicar la notificación personal.
 
 ## 4. Que la persona a quien deba notificarse se encuentre en el lugar
 
-       del juicio.
+**Definición Canónica:** del juicio.
+   Para acreditar en el expediente de esta forma de notificación la existencia de los presupuestos señalados basta con la certificación del ministro de fe, debiendo el receptor practicar las averiguaciones o búsquedas
+y más tarde certificar en el expediente dichas circunstancias, requisito
+esencial para poder conceder esta forma de notificación.
+**Concordancias Legales:** artículo 44
+
+del juicio.
    Para acreditar en el expediente de esta forma de notificación la existencia de los presupuestos señalados basta con la certificación del ministro de fe, debiendo el receptor practicar las averiguaciones o búsquedas
 y más tarde certificar en el expediente dichas circunstancias, requisito
 esencial para poder conceder esta forma de notificación.
@@ -2046,63 +2177,94 @@ artículo 44, inciso segundo, se establecen las etapas de la siguiente manera:
 
 ## 1. Búsqueda: Que la persona a quien debe notificarse personalmente
 
-       sea buscada en dos días distintos en su habitación, o en el lugar
+**Definición Canónica:** sea buscada en dos días distintos en su habitación, o en el lugar
+       donde habitualmente ejerce su industria profesión o empleo, por
+       el ministro de fe encargado de practicar la notificación personal.
+
+sea buscada en dos días distintos en su habitación, o en el lugar
        donde habitualmente ejerce su industria profesión o empleo, por
        el ministro de fe encargado de practicar la notificación personal.
 
 ## 2. Solicitud al tribunal: Condición que se desprende de la expresión
 
-       «el tribunal ordenará que la […]», que no es otra cosa que una
+**Definición Canónica:** «el tribunal ordenará que la […]», que no es otra cosa que una
        consecuencia del principio dispositivo. Quien lo solicite será el in-
        teresado en que se realice, por no haber sido posible llevar a cabo
        la notificación personal. El tribunal ante quien se debe presentar
        la solicitud debe ser el mismo que dictó la resolución judicial que
        debió y no pudo notificar personalmente.
 
-## 3. Acreditación de los supuestos normativos para proceder a notifi-
-
-       car conforme al artículo 44: Que se acrediten legalmente todos los
-       supuestos de la notificación personal substitutiva, ya mencionados
-       en el acápite anterior.
-
-## 4. Resolución del tribunal que ordene la notificación: Ello una vez
-
-       establecidos ambos hechos el tribunal ordenará que se haga la no-
-       tificación conforme lo establece el artículo 44.
+«el tribunal ordenará que la […]», que no es otra cosa que una
+       consecuencia del principio dispositivo. Quien lo solicite será el in-
+       teresado en que se realice, por no haber sido posible llevar a cabo
+       la notificación personal. El tribunal ante quien se debe presentar
+       la solicitud debe ser el mismo que dictó la resolución judicial que
+       debió y no pudo notificar personalmente.
 
 ## 5. Respecto a la forma en que se practica la notificación del artículo
 
-       44, una vez que se han cumplido los presupuestos procesales, se
+**Definición Canónica:** 44, una vez que se han cumplido los presupuestos procesales, se
+       ha certificado en el expediente, se ha solicitado la autorización al
+       tribunal y este lo ha decretado, se procederá a practicar la notifica-
+       ción cumpliendo las siguientes formalidades:
+
+44, una vez que se han cumplido los presupuestos procesales, se
        ha certificado en el expediente, se ha solicitado la autorización al
        tribunal y este lo ha decretado, se procederá a practicar la notifica-
        ción cumpliendo las siguientes formalidades:
 
 ## 6. Entrega de las copias. La entrega de las copias a que se refiere el
 
-       artículo 40, es decir, la copia íntegra de la resolución y de la soli-
+**Definición Canónica:** artículo 40, es decir, la copia íntegra de la resolución y de la soli-
+       citud en que haya recaído se hará a cualquiera persona adulta que
+       se encuentre en la morada o en el lugar donde la parte ejerce su
+       industria, profesión o empleo.
+**Concordancias Legales:** artículo 40
+
+artículo 40, es decir, la copia íntegra de la resolución y de la soli-
        citud en que haya recaído se hará a cualquiera persona adulta que
        se encuentre en la morada o en el lugar donde la parte ejerce su
        industria, profesión o empleo.
 
 ## 7. Para el caso en que nadie se encuentre en los citados lugares o si
 
-       por cualquier otra causa no es posible entregar dichas copias, a las
+**Definición Canónica:** por cualquier otra causa no es posible entregar dichas copias, a las
        personas que se encuentren en esos recintos, se fijará en la puerta
        un aviso que dé noticia de la demanda, con especificación exacta
        de las partes, materia de la causa, juez que conoce en ella y de las
        resoluciones que se notifican.
 
+por cualquier otra causa no es posible entregar dichas copias, a las
+       personas que se encuentren en esos recintos, se fijará en la puerta
+       un aviso que dé noticia de la demanda, con especificación exacta
+       de las partes, materia de la causa, juez que conoce en ella y de las
+       resoluciones que se notifican.
 
 ## 8. En la eventualidad de que la morada o el lugar donde pernocta o
 
-       donde habitualmente ejerce su industria, profesión o empleo, se
+**Definición Canónica:** donde habitualmente ejerce su industria, profesión o empleo, se
+       encuentre en un edificio o recinto al que no permite libre acceso, el
+       aviso y las copias se entregarán al portero o encargado del edificio
+       o recinto, dejándose testimonio expreso de esta circunstancia.
+
+donde habitualmente ejerce su industria, profesión o empleo, se
        encuentre en un edificio o recinto al que no permite libre acceso, el
        aviso y las copias se entregarán al portero o encargado del edificio
        o recinto, dejándose testimonio expreso de esta circunstancia.
 
 ## 9. La diligencia de notificación se extenderá en el proceso, señalando
 
-       la fecha, hora y lugar donde se realizó la notificación, la que sus-
+**Definición Canónica:** la fecha, hora y lugar donde se realizó la notificación, la que sus-
+       cribirá en su caso la persona adulta que recibió el aviso o el portero
+       o encargado del edificio, y si estos no pueden o no quieren firmar,
+       se dejará testimonio de este hecho en la misma diligencia. Para el
+       caso de que no sea posible entregar dichas copias, se dejará cons-
+       tancia de este hecho y de haberse fijado el aviso en la puerta.
+    10. Además, el ministro de fe, tras haber notificado de esta forma,
+       deberá dar aviso al notificado, remitiéndole carta certificada de
+       correo,
+
+la fecha, hora y lugar donde se realizó la notificación, la que sus-
        cribirá en su caso la persona adulta que recibió el aviso o el portero
        o encargado del edificio, y si estos no pueden o no quieren firmar,
        se dejará testimonio de este hecho en la misma diligencia. Para el
@@ -2114,14 +2276,19 @@ artículo 44, inciso segundo, se establecen las etapas de la siguiente manera:
        cación o desde que se reabran las oficinas del correo, si la notifica-
        ción se hubiere efectuado en día inhábil.
 
-## 11. La carta podrá consistir en una tarjeta abierta que llevará impreso
-
-       el nombre y domicilio del receptor y deberá indicar el tribunal, el
-       número de ingreso de la causa y el nombre de las partes.
-
 ## 12. En el testimonio de notificación deberá expresarse, además del
 
-       hecho del envío, la fecha, la oficina de correo donde se hizo y el
+**Definición Canónica:** hecho del envío, la fecha, la oficina de correo donde se hizo y el
+       número de comprobante emitido por la oficina. Este comprobante
+       deberá ser incorporado al expediente a continuación de la certifi-
+       cación. La omisión en el envío de la carta no invalidará la notifica-
+       ción, pero hace responsable al infractor de los daños y perjuicios
+       que se originen, y el tribunal, previa audiencia del afectado, deberá
+       imponerle alguna de las medidas que se señalan en los números 2,
+       3 y 4 del artículo 532 Código Orgánico de Tribunales.21
+**Concordancias Legales:** artículo 532; artículos 43; artículo 43; artículo 45; artículo 46; artículo 48 del Código de Procedimiento Civil; artículo 44; artículo 49 del Código de Procedimiento Civil; artículo 53 del Código de Procedimiento Civil
+
+hecho del envío, la fecha, la oficina de correo donde se hizo y el
        número de comprobante emitido por la oficina. Este comprobante
        deberá ser incorporado al expediente a continuación de la certifi-
        cación. La omisión en el envío de la carta no invalidará la notifica-
@@ -2196,7 +2363,10 @@ necesidad de petición de parte y sin previa orden del tribunal.
 
 ## 1. La sentencia definitiva de primera instancia:25 «Cuando han trans-
 
-       currido seis meses sin que se dicte resolución alguna en el proceso,
+**Definición Canónica:** currido seis meses sin que se dicte resolución alguna en el proceso,
+**Concordancias Legales:** artículo 49 del Código de procedimiento Civil no tiene relaci; artículo 254
+
+currido seis meses sin que se dicte resolución alguna en el proceso,
 
  22 «Es ineficaz la notificación si la cédula se entrega en otro lugar que no sea el domicilio designado en el proceso, a menos que haya decreto judicial de habilitación
 de lugar, expedido con arreglo a la ley» (Vodanovic, 1983: 57).
@@ -2209,11 +2379,21 @@ se determina especialmente la casa de los litigantes y su número» (Vodanovic, 
 
 ## 24 Artículo 49, inciso segundo: «En los juicios seguidos ante tribunales inferiores
 
+**Definición Canónica:** el domicilio deberá fijarse en un lugar conocido dentro de la jurisdicción del tribunal correspondiente, pero si el lugar designado se halla a considerable distancia de
+aquel en que funciona el juzgado, podrá este ordenar, sin más trámites y sin ulterior
+recurso, que se designe otro dentro de límites más próximos».
+
 el domicilio deberá fijarse en un lugar conocido dentro de la jurisdicción del tribunal correspondiente, pero si el lugar designado se halla a considerable distancia de
 aquel en que funciona el juzgado, podrá este ordenar, sin más trámites y sin ulterior
 recurso, que se designe otro dentro de límites más próximos».
 
 ## 25 Se ha resuelto que «no puede aceptarse que la notificación de una sentencia
+
+**Definición Canónica:** definitiva pueda probarse por otros medios, pues ello significaría atentar contra el
+principio de la legalidad de la notificación, ya que bastaría por esta sola circunstancia, para que una de las partes estableciere la fecha de la notificación en forma unilateral, quedando la contraparte impedida de ejercer los recursos que procedan contra
+la sentencia» (Hoyos de la Barrera, 2011: 56; citando sentencia de la Corte Suprema
+dictada en causa rol 2.332-2003).
+**Concordancias Legales:** artículo 52 del Código de Procesamiento Civil; artículo 56
 
 definitiva pueda probarse por otros medios, pues ello significaría atentar contra el
 principio de la legalidad de la notificación, ya que bastaría por esta sola circunstancia, para que una de las partes estableciere la fecha de la notificación en forma unilateral, quedando la contraparte impedida de ejercer los recursos que procedan contra
@@ -2233,7 +2413,19 @@ Materiales Docentes                                                           Ca
 
 ## 3. La resolución que ordena recibir la causa a prueba en el juicio or-
 
-       dinario: cuando el tribunal, lo ordene expresamente o en los casos
+**Definición Canónica:** dinario: cuando el tribunal, lo ordene expresamente o en los casos
+       en que la ley lo establezca.
+   En el caso de las sentencias definitivas (artículo 158, número 4, del
+Código de Procedimiento Civil) de segunda instancia, no se aplica la
+regla anterior y dichas resoluciones son notificadas por el estado diario,
+conforme al artículo 221, inciso primero, que dispone: «La notificación
+de las resoluciones que se dicten por el tribunal de alzada se practicará
+en la forma que establece el artículo 50, con excepción de la primera,
+que debe ser personal».
+   Respecto a la forma de practicar la 
+**Concordancias Legales:** artículo 158; artículo 221; artículo 50; artículo 44 del Código de Procedimiento Civil La cédula i; artículo 49; artículo 53; artículo 50 del Código de Procedimiento Civil; Ley 18.120
+
+dinario: cuando el tribunal, lo ordene expresamente o en los casos
        en que la ley lo establezca.
    En el caso de las sentencias definitivas (artículo 158, número 4, del
 Código de Procedimiento Civil) de segunda instancia, no se aplica la
@@ -2296,7 +2488,9 @@ dictado aquel día. Así, del contexto del artículo 50 se derivan las siguiente
 
 ## 1. Esta forma de notificación constituye la regla general en nuestro
 
-        procedimiento, toda vez que en los casos de las notificaciones ante-
+**Definición Canónica:** procedimiento, toda vez que en los casos de las notificaciones ante-
+
+procedimiento, toda vez que en los casos de las notificaciones ante-
 
        riores se ha podido observar que la ley menciona expresamente las
        ocasiones en que se deben emplear, lo que no ocurre en esta notifi-
@@ -2305,7 +2499,17 @@ dictado aquel día. Así, del contexto del artículo 50 se derivan las siguiente
 
 ## 2. Se trata de una ficción legal, pues una resolución judicial se entien-
 
-       de comunicada a las partes sin que estas hayan tomado conoci-
+**Definición Canónica:** de comunicada a las partes sin que estas hayan tomado conoci-
+       miento de ella, y es suficiente para el legislador incluirla en dicha
+       nómina que se forma diariamente en la secretaría del tribunal de
+       manera electrónica.
+   Respecto a los casos de notificación por el estado diario, si bien todas
+las resoluciones que se dicten por el tribunal deben notificarse por el
+estado diario, sin perjuicio, algunas resoluciones comienzan a producir
+sus efectos desde la notificación especial que establezca el legislador. Sin
+embargo, existen algunos casos de resoluciones que, atendida su t
+
+de comunicada a las partes sin que estas hayan tomado conoci-
        miento de ella, y es suficiente para el legislador incluirla en dicha
        nómina que se forma diariamente en la secretaría del tribunal de
        manera electrónica.
@@ -2318,7 +2522,14 @@ otros factores se notifican por el estado diario.26 Por ejemplo:
 
 ## 1. Las resoluciones que, debiendo notificarse por cédula, lo han sido
 
-       por el estado diario en razón de que las partes han omitido en su
+**Definición Canónica:** por el estado diario en razón de que las partes han omitido en su
+       primera presentación hacer la designación del domicilio a que se
+       refiere el artículo 49, inciso primero, del Código de Procedimiento
+       Civil (artículo 53).
+    2. La resolución que recibe la causa a prueba (artículo 323).
+**Concordancias Legales:** artículo 49; artículo 53; artículo 323
+
+por el estado diario en razón de que las partes han omitido en su
        primera presentación hacer la designación del domicilio a que se
        refiere el artículo 49, inciso primero, del Código de Procedimiento
        Civil (artículo 53).
@@ -2326,7 +2537,14 @@ otros factores se notifican por el estado diario.26 Por ejemplo:
 
 ## 3. La sentencia de segunda instancia será notifica por el estado dia-
 
-       rio, pese a que la de primera debe hacerse por cédula. Con todo, el
+**Definición Canónica:** rio, pese a que la de primera debe hacerse por cédula. Con todo, el
+       tribunal de segunda instancia puede disponer otra forma de noti-
+       ficación (artículo 221).
+   Respecto a las formalidades de la notificación por el estado diario, en
+el artículo 50 del Código de Procedimiento Civil se indican las forma-
+**Concordancias Legales:** artículo 221; artículo 50 del Código de Procedimiento Civil se indican las; artículo 50 del Código de Procedimiento Civil; artículo 48; artículo 53 del Código de Procedimiento Civil al notificarse; artículo 51; artículo 54 del Código de Procedimiento Civil
+
+rio, pese a que la de primera debe hacerse por cédula. Con todo, el
        tribunal de segunda instancia puede disponer otra forma de noti-
        ficación (artículo 221).
    Respecto a las formalidades de la notificación por el estado diario, en
@@ -2372,8 +2590,15 @@ diarios del lugar en que se realiza el juicio, o en la cabecera de la provincia 
 notificación personal, a menos que el tribunal autorice un extracto.
    Respecto a la procedencia de la notificación por aviso en los diarios,
 
-
 ## 27 Se ha resuelto que «el artículo 50 del Código de Procedimiento Civil establece
+
+**Definición Canónica:** que, en dicho estado o nómina de resoluciones, las partes serán individualizadas
+con sus apellidos, o dicho de otro modo, con todos sus apellidos. Que, así las cosas,
+forzoso es concluir que en tal notificación no se dio cumplimiento a dicha exigencia,
+y que por tal omisión no ha podido adquirirse la presunción de conocimiento de la
+resolución con ella relacionada, y que se requiere para que surta sus efectos» (Hoyos
+de la Barrera, 2011: 3, citando sentencia de la Corte Suprema, rol 4.800).
+**Concordancias Legales:** artículo 54
 
 que, en dicho estado o nómina de resoluciones, las partes serán individualizadas
 con sus apellidos, o dicho de otro modo, con todos sus apellidos. Que, así las cosas,
@@ -2388,19 +2613,18 @@ la notificación por cédula, y se utiliza en los casos del artículo 54, inciso
    Del texto legal se desprenden los siguientes presupuestos para su
 procedencia:
 
-## 1. Que la resolución sea de aquellas que corresponde notificar perso-
-
-       nalmente o por cédula.
-
-## 2. Que concurran las siguientes condiciones: i) que se trate de no-
-
-       tificar a personas cuya individualidad o residencia sea difícil de-
-       terminar, o ii) que por su número dificulten considerablemente la
-       práctica de la diligencia.
-
 ## 3. Que el tribunal debe apreciar los antecedentes con conocimiento de
 
-       causa, esto es, no puede resolverse una solicitud de plano (artículo
+**Definición Canónica:** causa, esto es, no puede resolverse una solicitud de plano (artículo
+       54, inciso segundo del Código de Procedimiento Civil) y, dado que
+       la ley nada dice, algunos autores recurren a la regla contenida en el
+       artículo 818 del Código de Procedimiento Civil.
+    4. Que, una vez que el tribunal ha tomado el conocimiento de causa,
+       de la forma que lo establece la ley, si lo estima procedente ordenará
+       la práctica de la notificación por avisos.
+**Concordancias Legales:** artículo 54; artículo 818 del Código de Procedimiento Civil. 4. Que; artículo 41 del Código del Procedimiento Civil que fueron con
+
+causa, esto es, no puede resolverse una solicitud de plano (artículo
        54, inciso segundo del Código de Procedimiento Civil) y, dado que
        la ley nada dice, algunos autores recurren a la regla contenida en el
        artículo 818 del Código de Procedimiento Civil.
@@ -2420,19 +2644,15 @@ procedencia:
    Respecto a las formalidades, el propio artículo 54 establece la forma
 en que ha de realizarse esta notificación por avisos, debiendo ella cumplir los siguientes requisitos:
 
-## 1. La notificación debe realizarse mediante la publicación de a lo me-
-
-       nos tres avisos.
-
-## 2. Estos avisos deben publicarse en los diarios del lugar donde se si-
-
-       gue la causa y, si allí no los hay, se hará en la cabecera de la provin-
-       cia o en la capital de la región.
-
-
 ## 3. Los avisos deben contener los mismos requisitos y menciones que
 
-       se exigen para la notificación personal y para la notificación por
+**Definición Canónica:** se exigen para la notificación personal y para la notificación por
+       cédula. Con todo, si la publicación de esta forma es muy dispen-
+       diosa, o sea, su costo es demasiado elevado, atendida la cuantía del
+       negocio, podrá disponer el tribunal que se publique un extracto
+       redactado por el secretario del tribunal.
+
+se exigen para la notificación personal y para la notificación por
        cédula. Con todo, si la publicación de esta forma es muy dispen-
        diosa, o sea, su costo es demasiado elevado, atendida la cuantía del
        negocio, podrá disponer el tribunal que se publique un extracto
@@ -2440,14 +2660,30 @@ en que ha de realizarse esta notificación por avisos, debiendo ella cumplir los
 
 ## 4. En caso de que la notificación por avisos sea la primera de una ges-
 
-       tión judicial, será necesario, además, para su validez que se inserte
+**Definición Canónica:** tión judicial, será necesario, además, para su validez que se inserte
+       el aviso en los números del Diario Oficial correspondiente a los
+       días primero o quince de cualquier mes, o al día siguiente, si no se
+       ha publicado en las fechas indicadas.
+
+tión judicial, será necesario, además, para su validez que se inserte
        el aviso en los números del Diario Oficial correspondiente a los
        días primero o quince de cualquier mes, o al día siguiente, si no se
        ha publicado en las fechas indicadas.
 
 ## 5. Cumpliendo con el mandato del artículo 61 del Código de Proce-
 
-       dimiento Civil, se dejará testimonio en el proceso, con expresión
+**Definición Canónica:** dimiento Civil, se dejará testimonio en el proceso, con expresión
+       del lugar, día, mes y año en que se realizaron tanto las publica-
+       ciones en los diarios del lugar de la capital de la provincia o de
+       la región, y en su caso, de la que se verificó en el Diario Oficial,
+       aunque la ley no lo exige. En la práctica, deberá acompañarse las
+       publicaciones a la carpeta digital para los efectos que el secreta-
+       rio del tribunal certifique la efectividad de haberse publicado el
+       referido aviso.
+   La notificación por avisos produce su efecto desde la publicaci
+**Concordancias Legales:** artículo 55; artículo 55 del Código del Pro; artículo 55 del Código de Procedimiento Civil y de su texto s
+
+dimiento Civil, se dejará testimonio en el proceso, con expresión
        del lugar, día, mes y año en que se realizaron tanto las publica-
        ciones en los diarios del lugar de la capital de la provincia o de
        la región, y en su caso, de la que se verificó en el Diario Oficial,
@@ -2497,27 +2733,38 @@ produzca efectos procesales, se requiere:
 
 ## 1. Que se haya pronunciado una resolución en el expediente que no
 
-      haya sido notificada, o que, habiéndola sido, sea defectuosa de ma-
+**Definición Canónica:** haya sido notificada, o que, habiéndola sido, sea defectuosa de ma-
+      nera que no se encuentre en situación de producir sus efectos nor-
+      males. Por ejemplo, se notifica una demanda al demandado por el
+      estado diario.
+
+haya sido notificada, o que, habiéndola sido, sea defectuosa de ma-
       nera que no se encuentre en situación de producir sus efectos nor-
       males. Por ejemplo, se notifica una demanda al demandado por el
       estado diario.
 
 ## 2. Que la parte a quien afecta la notificación defectuosa o la falta
 
-      de notificación realice en el procedimiento cualquiera gestión que
+**Definición Canónica:** de notificación realice en el procedimiento cualquiera gestión que
       suponga el conocimiento de la resolución. En el mismo caso ante-
       rior, pese a que no fue notificado en forma legal (personalmente),
       el demandado contesta la demanda.
 
-## 3. Que la parte que realiza la gestión no reclama de la nulidad, sea
-
-      por la falta de notificación o por haberse realizado de manera de-
-      fectuosa, en forma previa.
-
+de notificación realice en el procedimiento cualquiera gestión que
+      suponga el conocimiento de la resolución. En el mismo caso ante-
+      rior, pese a que no fue notificado en forma legal (personalmente),
+      el demandado contesta la demanda.
 
 ## 4. Que, en el caso de que la parte reclame de la nulidad, sea por no
 
-       haber sido notificado o haberlo sido de manera anormal, por el
+**Definición Canónica:** haber sido notificado o haberlo sido de manera anormal, por el
+       solo ministerio de la ley, se tendrá por notificada desde que se pro-
+       nuncie la resolución recaída en el incidente que acoge la nulidad.
+       Cuando la nulidad haya sido declarada por resolución de un tri-
+       bunal superior, la notificación se tendrá por efectuada desde que
+       se notifique su «cúmplase».
+
+haber sido notificado o haberlo sido de manera anormal, por el
        solo ministerio de la ley, se tendrá por notificada desde que se pro-
        nuncie la resolución recaída en el incidente que acoge la nulidad.
        Cuando la nulidad haya sido declarada por resolución de un tri-
@@ -2530,7 +2777,14 @@ Las notificaciones especiales son:
 
 ## 1. Muerte presunta: El artículo 81 numeral 2 del Código Civil dispo-
 
-      ne que antes de declarar muerta a una persona desaparecida, debe
+**Definición Canónica:** ne que antes de declarar muerta a una persona desaparecida, debe
+      previamente citarse hasta por tres veces en el periódico oficial, co-
+      rriendo más de dos meses entre cada dos citaciones. Además, en el
+      numeral 5 de la misma disposición legal, se impone la obligación
+      de que todas las sentencias definitivas como interlocutorias se in-
+      serten en el periódico oficial.
+
+ne que antes de declarar muerta a una persona desaparecida, debe
       previamente citarse hasta por tres veces en el periódico oficial, co-
       rriendo más de dos meses entre cada dos citaciones. Además, en el
       numeral 5 de la misma disposición legal, se impone la obligación
@@ -2539,7 +2793,17 @@ Las notificaciones especiales son:
 
 ## 2. Ley 17.344, que Autoriza Cambio de Nombre y Apellidos: El artí-
 
-      culo 2 de la Ley 17.344 exige que la solicitud que se presente ante el
+**Definición Canónica:** culo 2 de la Ley 17.344 exige que la solicitud que se presente ante el
+      juez de Letras de Mayor Cuantía del domicilio del peticionario sea
+      publicada en extracto en el Diario Oficial en los días 1 o 15 de cada
+      mes, o al día siguiente hábil si dicho diario no apareciere en las
+      fechas indicadas. El extracto, redactado por el secretario del tribu-
+      nal, contendrá necesariamente la individualización del solicitante
+      y la indicación de los nombres y apellidos que este pretende usar
+      en reemplazo de los propios.
+**Concordancias Legales:** Ley 17.344
+
+culo 2 de la Ley 17.344 exige que la solicitud que se presente ante el
       juez de Letras de Mayor Cuantía del domicilio del peticionario sea
       publicada en extracto en el Diario Oficial en los días 1 o 15 de cada
       mes, o al día siguiente hábil si dicho diario no apareciere en las
@@ -2550,7 +2814,16 @@ Las notificaciones especiales son:
 
 ## 3. Ley 18.101, que Fija Normas Especiales sobre Arrendamiento de
 
-      Predios Urbanos, artículo 8: «Los juicios a que se refiere el artículo
+**Definición Canónica:** Predios Urbanos, artículo 8: «Los juicios a que se refiere el artículo
+      anterior se regirán por las reglas siguientes: […] 2) la notificación
+      de la demanda se efectuará conforme a la norma del inciso pri-
+      mero del artículo 553 del Código de Procedimiento Civil. Para los
+      efectos de lo dispuesto en el artículo 44 del mismo Código, se pre-
+      sumirá de pleno derecho como domicilio del demandado el que
+      corresponda al inmueble arrendado».
+**Concordancias Legales:** artículo 8; artículo 553 del Código de Procedimiento Civil. Para los; artículo 44; artículo 2 de la Ley 19.968; artículo 23; Ley 19.968
+
+Predios Urbanos, artículo 8: «Los juicios a que se refiere el artículo
       anterior se regirán por las reglas siguientes: […] 2) la notificación
       de la demanda se efectuará conforme a la norma del inciso pri-
       mero del artículo 553 del Código de Procedimiento Civil. Para los
@@ -2570,7 +2843,13 @@ incorporando la notificación por funcionario notificador del tribunal.
 
 ## 1. Primera notificación: Se efectuará personalmente por un funcio-
 
-       nario que haya sido designado para cumplir esta función por el
+**Definición Canónica:** nario que haya sido designado para cumplir esta función por el
+       juez presidente del Comité de Jueces, a propuesta del administra-
+       dor del tribunal. Dicho funcionario tendrá el carácter de ministro
+       de fe para estos efectos. La parte interesada podrá siempre encar-
+       gar, a su costa, la práctica de la notificación a un receptor judicial.
+
+nario que haya sido designado para cumplir esta función por el
        juez presidente del Comité de Jueces, a propuesta del administra-
        dor del tribunal. Dicho funcionario tendrá el carácter de ministro
        de fe para estos efectos. La parte interesada podrá siempre encar-
@@ -2578,7 +2857,17 @@ incorporando la notificación por funcionario notificador del tribunal.
 
 ## 2. Imposibilidad de notificar en forma personal: Por no ser habida la
 
-       persona a quien se debe notificar, y siempre que el ministro de fe
+**Definición Canónica:** persona a quien se debe notificar, y siempre que el ministro de fe
+       encargado de la diligencia establezca cuál es su habitación o el lu-
+       gar donde habitualmente ejerce su industria, profesión o empleo y
+       que se encuentra en el lugar del juicio, de lo que dejará constancia,
+       se procederá a su notificación en el mismo acto y sin necesidad
+       de nueva orden del tribunal, en la forma señalada en los incisos
+       segundo y tercero del artículo 44 del Código de Procedimiento
+       Civil.
+**Concordancias Legales:** artículo 44 del Código de Procedimiento Civil
+
+persona a quien se debe notificar, y siempre que el ministro de fe
        encargado de la diligencia establezca cuál es su habitación o el lu-
        gar donde habitualmente ejerce su industria, profesión o empleo y
        que se encuentra en el lugar del juicio, de lo que dejará constancia,
@@ -2589,7 +2878,16 @@ incorporando la notificación por funcionario notificador del tribunal.
 
 ## 3. Aviso del ministro de fe: El ministro de fe dará aviso de esta notifi-
 
-       cación a ambas partes el mismo día en que se efectúe, o a más tar-
+**Definición Canónica:** cación a ambas partes el mismo día en que se efectúe, o a más tar-
+       dar el día hábil siguiente, dirigiéndoles carta certificada. La omi-
+       sión en el envío de la carta no invalidará la notificación, pero hará
+       responsable al infractor de los daños y perjuicios que se originen y
+       el tribunal, previa audiencia del afectado, deberá imponerle algu-
+       na de las medidas que se señalan en los números 2, 3 y 4 del inciso
+       tercero del artículo 532 del Código Orgánico de Tribunales.
+**Concordancias Legales:** artículo 532 del Código Orgánico de Tribunales
+
+cación a ambas partes el mismo día en que se efectúe, o a más tar-
        dar el día hábil siguiente, dirigiéndoles carta certificada. La omi-
        sión en el envío de la carta no invalidará la notificación, pero hará
        responsable al infractor de los daños y perjuicios que se originen y
@@ -2597,24 +2895,15 @@ incorporando la notificación por funcionario notificador del tribunal.
        na de las medidas que se señalan en los números 2, 3 y 4 del inciso
        tercero del artículo 532 del Código Orgánico de Tribunales.
 
-## 4. Estado diario: Las restantes notificaciones se practicarán por el es-
-
-       tado diario.
-
-
-## 5. Notificaciones por carta certificada: Las notificaciones por carta
-
-       certificada se entenderán practicadas desde el tercer día siguiente a
-       aquel en que fueron expedidas.
-
-## 6. Notificación por intermedio de la Policía: Excepcionalmente, y por
-
-       resolución fundada, el juez podrá ordenar que la notificación se prac-
-       tique por personal de Carabineros o de la Policía de Investigaciones.
-
 ## 7. Notificación a petición de parte: Los patrocinantes de las partes, en
 
-       la primera actuación que realicen en el proceso, deberán indicar
+**Definición Canónica:** la primera actuación que realicen en el proceso, deberán indicar
+       otra forma de notificación que elijan para sí, que el juez califique
+       como expedita y eficaz, bajo apercibimiento de serles notificadas
+       por el estado diario todas las resoluciones que se dicten en lo su-
+       cesivo en el proceso.
+
+la primera actuación que realicen en el proceso, deberán indicar
        otra forma de notificación que elijan para sí, que el juez califique
        como expedita y eficaz, bajo apercibimiento de serles notificadas
        por el estado diario todas las resoluciones que se dicten en lo su-
@@ -2622,7 +2911,17 @@ incorporando la notificación por funcionario notificador del tribunal.
 
 ## 8. Notificaciones sentencias definitivas, comparecencia personal y
 
-       resoluciones fuera de audiencia: Serán notificadas por carta cer-
+**Definición Canónica:** resoluciones fuera de audiencia: Serán notificadas por carta cer-
+       tificada.
+    Cuando la demanda deba notificarse a persona cuya individualización
+o domicilio sean difíciles de determinar, el juez dispondrá que se practique por cualquier medio idóneo que garantice la debida información del
+notificado, para el adecuado ejercicio de sus derechos.
+    Como ya hemos indicado, y en virtud de la norma que dispone que
+las partes «deberán indicar otra forma de notificación que elijan para sí»,
+ha hecho extensiva la notificación por correo electrónico a las notificaciones que se practican en se
+**Concordancias Legales:** artículo 11; artículo 23
+
+resoluciones fuera de audiencia: Serán notificadas por carta cer-
        tificada.
     Cuando la demanda deba notificarse a persona cuya individualización
 o domicilio sean difíciles de determinar, el juez dispondrá que se practique por cualquier medio idóneo que garantice la debida información del
@@ -2646,7 +2945,18 @@ familia, podemos citar dos reglas especiales:
 
 ## 1. Citación a audiencia preparatoria: Admitida la demanda, el tribu-
 
-      nal citará a las partes a una audiencia preparatoria, la cual deberá
+**Definición Canónica:** nal citará a las partes a una audiencia preparatoria, la cual deberá
+      realizarse en el más breve plazo posible. A su vez, la notificación
+      de la resolución que cita a la audiencia preparatoria deberá prac-
+      ticarse siempre con una antelación mínima de quince días. En la
+      resolución se hará constar que la audiencia se celebrará con las
+      partes que asistan, afectándole a la que no concurra todas las re-
+      soluciones que se dicten en ella, sin necesidad de ulterior notifi-
+      cación (artículo 59), es decir, en este caso, la ley impone la obli-
+      gación de efect
+**Concordancias Legales:** artículo 59
+
+nal citará a las partes a una audiencia preparatoria, la cual deberá
       realizarse en el más breve plazo posible. A su vez, la notificación
       de la resolución que cita a la audiencia preparatoria deberá prac-
       ticarse siempre con una antelación mínima de quince días. En la
@@ -2663,7 +2973,14 @@ familia, podemos citar dos reglas especiales:
 
 ## 2. En el caso de las medidas cautelares, podrán llevarse a efecto aún
 
-      antes de notificarse a la persona contra quien se dicten, siempre
+**Definición Canónica:** antes de notificarse a la persona contra quien se dicten, siempre
+      que existan razones graves para ello y el tribunal así lo ordene ex-
+      presamente. Transcurridos cinco días sin que la notificación se efec-
+      túe, quedarán sin valor las diligencias practicadas, es decir, opera
+      una regla de caducidad de no efectuarse una notificación.
+**Concordancias Legales:** artículo 436 del Código del Trabajo. Primera notificación. R; artículo 438; artículo 437; artículo 436; artículo 532 del Código Orgánico de Tribunales. Notificaci; artículo 439; artículo 440; artículos 440; artículo 442; artículo 24; artículo 27; artículo 28; artículo 29; artículo 30; artículo 31; artículo 25
+
+antes de notificarse a la persona contra quien se dicten, siempre
       que existan razones graves para ello y el tribunal así lo ordene ex-
       presamente. Transcurridos cinco días sin que la notificación se efec-
       túe, quedarán sin valor las diligencias practicadas, es decir, opera
@@ -2878,7 +3195,13 @@ opinión, resultaren suficientemente eficaces y no causaren indefensión».
 
 ## 3. Otros antecedentes de que disponga la ley o el juez para la debida
 
-       información del notificado o adecuado ejercicio de derechos.
+**Definición Canónica:** información del notificado o adecuado ejercicio de derechos.
+  De acuerdo al artículo 26, los intervinientes del proceso penal deben
+señalar un domicilio donde efectuar las notificaciones. Respecto de la
+primera actuación procesal:
+**Concordancias Legales:** artículo 26; artículo 33
+
+información del notificado o adecuado ejercicio de derechos.
   De acuerdo al artículo 26, los intervinientes del proceso penal deben
 señalar un domicilio donde efectuar las notificaciones. Respecto de la
 primera actuación procesal:
@@ -2914,17 +3237,13 @@ citar a alguna persona para llevar a cabo una actuación ante el tribunal.
     3. Identificación del proceso de que se tratare.
     4. Motivo de su comparecencia.
 
-## 5. Se le advertirá que la no comparecencia injustificada dará lugar a
-
-       que sean conducidos por medio de la fuerza pública.
-
-## 6. Al mismo tiempo, se les indicará que quedarán obligados al pago
-
-       de las costas que causaren y que pueden imponérseles sanciones.
-
 ## 7. Indicar que, en caso de impedimento, deberán comunicarlo y jus-
 
-       tificarlo ante el tribunal, con anterioridad a la fecha de la audien-
+**Definición Canónica:** tificarlo ante el tribunal, con anterioridad a la fecha de la audien-
+       cia, si fuere posible.
+**Concordancias Legales:** artículo 33; artículos 287; artículo 89; artículo 532 del Código Orgánico de Tribunales. Este mismo avi; Ley 19.640; Constitucion
+
+tificarlo ante el tribunal, con anterioridad a la fecha de la audien-
        cia, si fuere posible.
 
    En caso de que el imputado no compareciere injustificadamente, el
@@ -3053,7 +3372,17 @@ en el horario establecido para la notificación personal subsidiaria.
 
 ## 3. Las que se hagan a terceros que no sean partes en el juicio o a quie-
 
-       nes no afecten sus resultados.
+**Definición Canónica:** nes no afecten sus resultados.
+    4. Además, en todos los casos que el tribunal expresamente lo ordene.
+   Luego de practicada la notificación, se pondrá en los autos testimonio
+de la notificación con expresión del día y lugar, nombre, edad, profesión
+y domicilio de la persona a quien se haga la entrega. Si la notificación
+tuviere por objeto citar a una o más personas para llevar a cabo una
+actuación ante el tribunal, el ministro de fe, además de efectuarla, hará
+saber a los citados el tribunal ante el cual debieren comparecer, su domicilio, la fecha y hora de la audiencia, la identificación 
+**Concordancias Legales:** artículo 29 del Código Procesal Penal. Notificaciones a te
+
+nes no afecten sus resultados.
     4. Además, en todos los casos que el tribunal expresamente lo ordene.
    Luego de practicada la notificación, se pondrá en los autos testimonio
 de la notificación con expresión del día y lugar, nombre, edad, profesión
@@ -3121,15 +3450,12 @@ del día subsiguiente a la fecha en que se haya practicado.
    Por último, encontramos en el anteproyecto dos formas nuevas de
 notificación:
 
-## 1. Notificación de las resoluciones en audiencias: Las resoluciones
-
-       dictadas durante las audiencias se entenderán notificadas a las
-       partes que asistieron o debieron haber asistido a ellas, desde el
-       momento de su pronunciamiento.
-
 ## 2. Otras formas de notificación: Cualquiera de las partes podrá pro-
 
-       poner para sí otras formas de notificación, que el tribunal podrá
+**Definición Canónica:** poner para sí otras formas de notificación, que el tribunal podrá
+**Concordancias Legales:** Ley 21.394; Ley 21.226; constitucion
+
+poner para sí otras formas de notificación, que el tribunal podrá
 
        aceptar si, en su opinión, resultaren suficientemente eficaces y no
        causaren indefensión.
@@ -3159,7 +3485,13 @@ mensaje que,
 
 ## parte, la imposibilidad de los ciudadanos de realizar muchas actuacio-
 
-      nes que les permitan ejercer sus derechos ante la autoridad judicial y,
+**Definición Canónica:** nes que les permitan ejercer sus derechos ante la autoridad judicial y,
+      por otra, la severa disminución de las posibilidades de atender los re-
+      querimientos de las personas, por parte de los funcionarios de los tribu-
+      nales de justicia.
+**Concordancias Legales:** Ley 21.226; constitucion
+
+nes que les permitan ejercer sus derechos ante la autoridad judicial y,
       por otra, la severa disminución de las posibilidades de atender los re-
       querimientos de las personas, por parte de los funcionarios de los tribu-
       nales de justicia.
@@ -3184,24 +3516,37 @@ el ámbito civil, penal, laboral, familia y tribunales especiales:
 
 ## 1. Procurar la mayor eficiencia del sistema de justicia producto de la
 
-       sobrecarga de trabajo sobreviniente.
+**Definición Canónica:** sobrecarga de trabajo sobreviniente.
     2. Limitar la presencia física de las personas por motivos sanitarios.
   Por su parte, en mismo proyecto distingue tres de reformas de acuerdo a su momento de aplicación:
 
-## 1. Régimen permanente que faculta a las partes a solicitar compare-
-
-      cer vía remota por videoconferencia a audiencias y alegatos.
+sobrecarga de trabajo sobreviniente.
+    2. Limitar la presencia física de las personas por motivos sanitarios.
+  Por su parte, en mismo proyecto distingue tres de reformas de acuerdo a su momento de aplicación:
 
 ## 2. Régimen permanente que faculta a las Cortes de Apelaciones y a
 
-      la Corte Suprema, en su caso, a disponer de manera excepcional la
+**Definición Canónica:** la Corte Suprema, en su caso, a disponer de manera excepcional la
+      realización de ciertas audiencias y de alegatos por razones de buen
+      servicio. En segundo lugar, se establece un régimen permanente
+      excepcional en los términos que el proyecto establece.
+
+la Corte Suprema, en su caso, a disponer de manera excepcional la
       realización de ciertas audiencias y de alegatos por razones de buen
       servicio. En segundo lugar, se establece un régimen permanente
       excepcional en los términos que el proyecto establece.
 
 ## 3. Régimen transitorio que impone a los tribunales la realización de
 
-      audiencias vía remota por videoconferencia. El régimen es transi-
+**Definición Canónica:** audiencias vía remota por videoconferencia. El régimen es transi-
+      torio por un plazo máximo de un año contado desde la entrada en
+      vigor de la ley.
+   En materia notificaciones en sede procesal civil, la normativa trae varias novedades. La primera que podemos destacar es la modificación
+que prescinde de uno de los requisitos que exige el artículo 44 del Código de Procedimiento Civil, para la procedencia de la notificación sustitutiva de la personal.
+   La segunda reforma dice relación con modificar la forma de notificación de las sentencias definitivas, de las resoluciones en que se
+**Concordancias Legales:** artículo 44 del Código de Procedimiento Civil; artículo 442 del Código del Trabajo; artículo 23 de la Ley 19.968 que crea los Tribunales de Familia; Artículo 44; Ley 19.968
+
+audiencias vía remota por videoconferencia. El régimen es transi-
       torio por un plazo máximo de un año contado desde la entrada en
       vigor de la ley.
    En materia notificaciones en sede procesal civil, la normativa trae varias novedades. La primera que podemos destacar es la modificación
@@ -3230,13 +3575,15 @@ Artículo 44
 
 Se modifica el artículo 44 en el siguiente sentido:
 
-## 1. Incorpórase, en el inciso primero, a continuación de la palabra
-
-      «acreditará», la frase «en el acto».
-
 ## 2. Reemplázase, en el inciso segundo, la frase «el tribunal ordenará que
 
-      la notificación se haga entregando», por la siguiente: «En la segunda
+**Definición Canónica:** la notificación se haga entregando», por la siguiente: «En la segunda
+      búsqueda, el ministro de fe procederá a su notificación en el mismo
+      día y sin necesidad de nueva orden del tribunal, entregándole».
+   De este modo, la nueva versión del artículo es:
+**Concordancias Legales:** Artículo 44; artículo 40; Artículo 48
+
+la notificación se haga entregando», por la siguiente: «En la segunda
       búsqueda, el ministro de fe procederá a su notificación en el mismo
       día y sin necesidad de nueva orden del tribunal, entregándole».
    De este modo, la nueva versión del artículo es:
@@ -3270,7 +3617,7 @@ Se modifica el artículo 48 en el siguiente sentido:
 
 ## 1. Incorpórase, en el inciso primero, a continuación del punto y apar-
 
-      te que pasa a ser seguido, la siguiente oración: «Con todo, estas
+**Definición Canónica:** te que pasa a ser seguido, la siguiente oración: «Con todo, estas
       resoluciones y los datos necesarios para su acertada inteligencia
       también se podrán notificar por el tribunal al medio de notifica-
       ción electrónico señalado por las partes, sus abogados patrocinan-
@@ -3279,13 +3626,28 @@ Se modifica el artículo 48 en el siguiente sentido:
       sentimiento del notificado, de lo cual deberá dejarse constancia en
       el sistema de tramitación electrónica del Poder Judicial».
 
-## 2. Reemplázase, en el inciso segundo, la frase «estas cédulas» por «las
-
-      cédulas a que hace referencia el inciso primero».
+te que pasa a ser seguido, la siguiente oración: «Con todo, estas
+      resoluciones y los datos necesarios para su acertada inteligencia
+      también se podrán notificar por el tribunal al medio de notifica-
+      ción electrónico señalado por las partes, sus abogados patrocinan-
+      tes y mandatarios judiciales de conformidad al artículo siguiente,
+      previa solicitud de la parte interesada y sin que se requiera el con-
+      sentimiento del notificado, de lo cual deberá dejarse constancia en
+      el sistema de tramitación electrónica del Poder Judicial».
 
 ## 3. Sustitúyese el inciso tercero por el siguiente: «Se pondrá en los
 
-      autos testimonio de la notificación por cédula con expresión del
+**Definición Canónica:** autos testimonio de la notificación por cédula con expresión del
+      día y lugar, del nombre, edad, profesión y domicilio de la persona
+      a quien se haga la entrega. El procedimiento que establece este ar-
+      tículo podrá emplearse, además, en todos los casos que el tribunal
+      expresamente lo ordene. También se dejará testimonio en autos
+      de la notificación efectuada al medio de notificación electrónico
+      señalado por la parte».
+  De este modo, la nueva versión del artículo es:
+**Concordancias Legales:** Artículo 48; artículo 44; Artículo 49
+
+autos testimonio de la notificación por cédula con expresión del
       día y lugar, del nombre, edad, profesión y domicilio de la persona
       a quien se haga la entrega. El procedimiento que establece este ar-
       tículo podrá emplearse, además, en todos los casos que el tribunal
@@ -3321,7 +3683,15 @@ Se modifica el artículo 48 de la siguiente manera:
 
 ## 1. Reemplázase en el inciso primero la coma que sigue a continua-
 
-      ción de la frase «tribunal respectivo» por un punto y seguido, y
+**Definición Canónica:** ción de la frase «tribunal respectivo» por un punto y seguido, y
+      agrégase a continuación la oración: «Sus abogados patrocinantes
+      y mandatarios judiciales deberán, además, designar en su primera
+      presentación un medio de notificación electrónico que el juez ca-
+      lifique como expedito y eficaz, bajo apercibimiento de serles noti-
+      ficadas por estado diario todas las resoluciones que se dicten en lo
+      sucesivo en el proceso».
+
+ción de la frase «tribunal respectivo» por un punto y seguido, y
       agrégase a continuación la oración: «Sus abogados patrocinantes
       y mandatarios judiciales deberán, además, designar en su primera
       presentación un medio de notificación electrónico que el juez ca-
@@ -3331,16 +3701,25 @@ Se modifica el artículo 48 de la siguiente manera:
 
 ## 2. Reemplázase en el inciso primero la frase «y esta designación se
 
-      considerará subsistente mientras no haga otra la parte interesada,
+**Definición Canónica:** considerará subsistente mientras no haga otra la parte interesada,
       aun cuando de hecho cambie su morada» por: «Estas designacio-
       nes se considerarán subsistentes mientras no haga otra la parte
       interesada, aun cuando de hecho cambie su morada o medio de
       notificación electrónico, según corresponda».
 
+considerará subsistente mientras no haga otra la parte interesada,
+      aun cuando de hecho cambie su morada» por: «Estas designacio-
+      nes se considerarán subsistentes mientras no haga otra la parte
+      interesada, aun cuando de hecho cambie su morada o medio de
+      notificación electrónico, según corresponda».
 
 ## 3. Agrégase un inciso final, nuevo, del siguiente tenor: «La notificación
 
-       electrónica se entenderá practicada desde el momento de su envío».
+**Definición Canónica:** electrónica se entenderá practicada desde el momento de su envío».
+   De este modo, la nueva versión del artículo es:
+**Concordancias Legales:** Artículo 49; Artículo 56
+
+electrónica se entenderá practicada desde el momento de su envío».
    De este modo, la nueva versión del artículo es:
 
         Artículo 49. Para los efectos del artículo anterior, todo litigante deberá,
@@ -3389,7 +3768,17 @@ cuarto, nuevos:
 
 ## parte en el juicio, o a quienes no afecten sus resultados, se harán perso-
 
-      nalmente o por cédula.
+**Definición Canónica:** nalmente o por cédula.
+       Con todo, las notificaciones de las resoluciones en que se efectúen
+      nombramientos, como ocurre con los peritos y martilleros, se realiza-
+      rán por el tribunal por un medio de notificación electrónico, el que será
+      dirigido a la casilla establecida en la nómina respectiva.
+       Las inscripciones, subinscripciones o cancelaciones dispuestas por re-
+      solución judicial, podrán ser solicitadas al registro correspondiente di-
+      rectamente por la parte interesada, sin necesidad de receptor judicial,
+      acompañando las copias autorizadas de l
+
+nalmente o por cédula.
        Con todo, las notificaciones de las resoluciones en que se efectúen
       nombramientos, como ocurre con los peritos y martilleros, se realiza-
       rán por el tribunal por un medio de notificación electrónico, el que será
@@ -3406,8 +3795,10 @@ cuarto, nuevos:
        Se exceptúan de lo dispuesto en el inciso anterior las medidas precau-
       torias y los embargos.
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Cumplimiento de resoluciones judiciales
+**Concordancias Legales:** artículo 73; artículo 1; artículo 365; artículo 643 del Código Procedimiento Civil; artículo 635; artículos 1132; artículos 113; artículo 1755 del Código de Procedimiento Civil y; artículo 176 del Código de Procedimiento Civil. Pero no es suf; Constitución; constitucion; Constitución Política
 
 Cumplimiento de resoluciones judiciales
 
@@ -3556,8 +3947,16 @@ procedimiento de apremio.
 artículo 1755 del Código de Procedimiento Civil y, en su virtud, se genera
 la acción de cosa juzgada, de acuerdo al artículo 176 del Código de Procedimiento Civil. Pero no es suficiente para proceder a la ejecución la
 
-
 ## 2 Artículo 113: «La ejecución de las resoluciones corresponde a los tribunales que
+
+**Definición Canónica:** las hubieren pronunciado en primera o en única instancia. No obstante, la ejecución
+de las sentencias penales y de las medidas de seguridad previstas en la ley procesal
+penal será de competencia del juzgado de garantía que hubiere intervenido en el
+respectivo procedimiento penal. De igual manera, los tribunales que conozcan de
+la revisión de las sentencias firmes o de los recursos de apelación, de casación o de
+nulidad contra sentencias definitivas penales, ejecutarán los fallos que dicten para
+su sustanciación. Podrán también decretar el pago de las costas adeudadas a los funcionarios que hub
+**Concordancias Legales:** Artículo 114
 
 las hubieren pronunciado en primera o en única instancia. No obstante, la ejecución
 de las sentencias penales y de las medidas de seguridad previstas en la ley procesal
@@ -3573,6 +3972,11 @@ conformidad a los principios generales establecidos por la ley, a elección de l
 que hubiere obtenido en el pleito».
 
 ## 4 Artículo 231: «La ejecución de las resoluciones corresponde a los tribunales que las
+
+**Definición Canónica:** hayan pronunciado en primera o en única instancia. Se procederá a ella una vez que
+las resoluciones queden ejecutoriadas o causen ejecutoria en conformidad a la ley».
+  5 Artículo 175: «Las sentencias definitivas o interlocutorias firmes producen la acción o la excepción de cosa juzgada».
+**Concordancias Legales:** Artículo 175; artículos 174; artículos 231; artículo 233; artículo 238 del Código de Procedi; artículo 136 de la Ley 18.101 y el artículo 5957 del Códig; Ley 18.101
 
 hayan pronunciado en primera o en única instancia. Se procederá a ella una vez que
 las resoluciones queden ejecutoriadas o causen ejecutoria en conformidad a la ley».
@@ -3609,8 +4013,13 @@ generales y otros especiales. Entre ellos están:
       según lo establecen el artículo 136 de la Ley 18.101 y el artículo 5957
       del Código de Procedimiento Civil.
 
-
 ## 6 Artículo 13: «El cumplimiento de las resoluciones que se dicten en los juicios a
+
+**Definición Canónica:** que se refiere este título se regirá por las reglas generales. Sin embargo, cuando ellas
+ordenaren la entrega de un inmueble, se aplicará lo prescrito en el artículo 595 del
+Código de Procedimiento Civil. En estos juicios y en los de comodato precario, el
+juez de la causa, decretado el lanzamiento, podrá suspenderlo en casos graves y calificados, por un plazo no superior a treinta días».
+**Concordancias Legales:** artículo 595 del Código de Procedimiento Civil. En estos juici
 
 que se refiere este título se regirá por las reglas generales. Sin embargo, cuando ellas
 ordenaren la entrega de un inmueble, se aplicará lo prescrito en el artículo 595 del
@@ -3618,6 +4027,10 @@ Código de Procedimiento Civil. En estos juicios y en los de comodato precario, 
 juez de la causa, decretado el lanzamiento, podrá suspenderlo en casos graves y calificados, por un plazo no superior a treinta días».
 
 ## 7 Artículo 595: «Si, ratificado el desahucio, llega el día señalado para la restitución
+
+**Definición Canónica:** sin que el arrendatario haya desalojado la finca arrendada, este será lanzado de ella a su
+costa, previa orden del tribunal notificada en la forma establecida por el artículo 48».
+**Concordancias Legales:** artículo 48; artículo 7528 del Código de Procedimiento Civil. En ma; artículos 467; Artículo 752; artículo 6; artículo 194; artículo 192 del Código de Procedimiento Civil.10 Esta situaci; artículos 193; Ley 18.705; Constitución
 
 sin que el arrendatario haya desalojado la finca arrendada, este será lanzado de ella a su
 costa, previa orden del tribunal notificada en la forma establecida por el artículo 48».
@@ -3767,6 +4180,16 @@ dictada en el procedimiento ordinario.
 JUR\2004\63037.
 
 ## 10 Artículo 192: «Cuando la apelación proceda sólo en el efecto devolutivo, seguirá
+
+**Definición Canónica:** el tribunal inferior conociendo de la causa hasta su terminación, inclusa la ejecución
+de la sentencia definitiva. No obstante, el tribunal de alzada a petición del apelante
+y mediante resolución fundada, podrá dictar orden de no innovar. La orden de no
+innovar suspende los efectos de la resolución recurrida o paraliza su cumplimiento,
+según sea el caso. El tribunal podrá restringir estos efectos por resolución fundada.
+Los fundamentos de las resoluciones que se dicten de conformidad a este inciso
+no constituyen causal de inhabilidad. Las peticiones de orden de no innovar serán
+distribuidas po
+**Concordancias Legales:** artículo 773; artículos 193; artículo 194; artículo 475 del Código de Procedimiento Civil; artículo 481; artículo 509; artículo 691 del Código de Procedimiento Civil; artículo 191; artículo 691; artículo 606 del Código de Procedimiento Civil; artículo 614 del Código de Procedimiento Civil; artículo 40; artículo 28; artículo 550; artículos 177; Ley 18.101; Ley 2.186
 
 el tribunal inferior conociendo de la causa hasta su terminación, inclusa la ejecución
 de la sentencia definitiva. No obstante, el tribunal de alzada a petición del apelante
@@ -3928,12 +4351,17 @@ efectos de ejercer la acción de ejecución provisional, al disponer que,
 
 rinda caución en dinero efectivo suficiente, según lo dispuesto en los artículos 177 y
 
-## 178. Dicha caución gozará de preferencia para responder de todas las restituciones y
-
-perjuicios que debieren efectuarse o hacerse efectivos en caso de anularse o dejarse
-sin efecto la ejecución provisional; 6) las demás sentencias que indique expresamente la ley».
-
 ## 14 Demanda de oposición a la ejecución provisional: «La demanda de oposición a
+
+**Definición Canónica:** la ejecución provisional podrá fundarse únicamente en las siguientes causales: 1) en
+que la sentencia no admite ejecución provisional. 2) En que fuere imposible o muy
+difícil restablecer la situación al estado anterior a la ejecución provisional en caso de
+que la sentencia de condena a una obligación de hacer, no hacer o de mera entrega
+de una especie o cuerpo cierto fuere revocada. Si no concurriere la imposibilidad
+alegada, el juez podrá ordenar al que hubiere solicitado el cumplimiento, que rinda
+caución suficiente para garantizar el pago de los perjuicios en caso de revocarse la
+sentencia.
+**Concordancias Legales:** artículos 177
 
 la ejecución provisional podrá fundarse únicamente en las siguientes causales: 1) en
 que la sentencia no admite ejecución provisional. 2) En que fuere imposible o muy
@@ -3945,6 +4373,16 @@ caución suficiente para garantizar el pago de los perjuicios en caso de revocar
 sentencia. La caución deberá constituirse en la forma prevista en los artículos 177 y
 
 ## 178. Si la sentencia fuese de condena a dar una cantidad de dinero, el ejecutado solo
+
+**Definición Canónica:** podrá oponerse a actuaciones ejecutivas concretas del procedimiento de apremio,
+cuando dichas actuaciones puedan ocasionar una situación difícil de restaurar o de
+compensar. Al formular esta demanda de oposición a medidas ejecutivas concretas,
+el ejecutado deberá indicar otras medidas o actuaciones ejecutivas que sean posibles
+y no provoquen situaciones similares a las que causaría, a su juicio, la actuación o
+medida a la que se opone. 3) En una o más de las causales de oposición previstas en
+el procedimiento ejecutivo regulado en este Código, siempre que ellas consten en un
+antecedente escrit
+**Concordancias Legales:** artículo 475; artículos 240; artículo 241; artículos 231; artículo 181; artículo 231 del Código de Procedimiento Civil; artículo 175 del Código de Procedimiento Civil; artículo 174 del Código
 
 podrá oponerse a actuaciones ejecutivas concretas del procedimiento de apremio,
 cuando dichas actuaciones puedan ocasionar una situación difícil de restaurar o de
@@ -4052,13 +4490,16 @@ una resolución judicial produce sus efectos. Así:
         producen acción de cosa juzgada las sentencias interlocutorias
         que causan ejecutoría, aun cuando no estén aún firmes o ejecuto-
 
-
-## 16 Artículo 181: «Los autos y decretos firmes se ejecutarán y mantendrán desde
-
-que adquieran este carácter sin perjuicio de la facultad del tribunal que los haya
-pronunciado para modificarlos o dejarlos sin efecto, si se hacen valer nuevos antecedentes que así lo exijan».
-
 ## 17 Artículo 174: «Se entenderá firme o ejecutoriada una resolución desde que se
+
+**Definición Canónica:** haya notificado a las partes, si no procede recurso alguno en contra de ella; y, en
+caso contrario, desde que se notifique el decreto que la mande cumplir, una vez que
+terminen los recursos deducidos, o desde que transcurran todos los plazos que la
+ley concede para la interposición de dichos recursos, sin que se hayan hecho valer
+por las partes. En este último caso, tratándose de sentencias definitivas, certificará el
+hecho el secretario del tribunal a continuación del fallo, el cual se considerará firme
+desde este momento, sin más trámites».
+**Concordancias Legales:** artículo 233; artículo 176 del Código de Procedimiento Civil; artículo 231 del Código de Procedimiento Civil y artículo 113; artículo 232 del Código de Procedimiento Civil dispone que est; artículo 233 del Código de Procedimiento Civil; artículo 46 del Código de Procedimiento Civil; artículo 23418 del Códi; artículo 69 del Código de Procedimiento Civil. La oposición s; artículo 234 del Código de Procedimiento Civil; artículo 234; artículo 464; artículo 534; artículo 235 del Código de Procedimiento Civil. Previ; artículo 235 del Código de Procedimiento Civil; artículo 173; artículo 774; artículo 237; Artículo 752; artículo 238 del Código de Procedimiento Civil. Si la sente; artículo 240; artículo 241 del Código de Procedimiento Civil; artículos 242; artículo 242 del Código de Procedimiento Civil; artículo 243; artículo 244 del Código de Procedimiento Civil. ii; artículo 245 del Código de Procedimiento Civil; artículo 247; artículo 345 bis; constitución
 
 haya notificado a las partes, si no procede recurso alguno en contra de ella; y, en
 caso contrario, desde que se notifique el decreto que la mande cumplir, una vez que
@@ -4510,8 +4951,13 @@ Materiales Docentes                                                             
 tículo 34520 regula la legalización de los instrumentos y el artículo 345
 bis21 el apostillamiento. Además, si la sentencia se encuentra redactada
 
-
 ## 20 Artículo 345: «Los instrumentos públicos otorgados fuera de Chile deberán
+
+**Definición Canónica:** presentarse debidamente legalizados, y se entenderá que lo están cuando en ellos
+conste el carácter público y la verdad de las firmas de las personas que los han autorizado, atestiguadas ambas circunstancias por los funcionarios que, según las leyes o la práctica de cada país, deban acreditarlas. La autenticidad de las firmas y el
+carácter de estos funcionarios se comprobará en Chile por alguno de los medios
+siguientes: 1) El atestado de un agente diplomático o consular chileno, acreditado en
+el país de donde el instrumento procede, y cuya firma se compruebe con el respectivo certificado del M
 
 presentarse debidamente legalizados, y se entenderá que lo están cuando en ellos
 conste el carácter público y la verdad de las firmas de las personas que los han autorizado, atestiguadas ambas circunstancias por los funcionarios que, según las leyes o la práctica de cada país, deban acreditarlas. La autenticidad de las firmas y el
@@ -4525,6 +4971,12 @@ en Chile por el Gobierno del país en donde se otorgó el instrumento, certific�
 su firma por el Ministerio de Relaciones Exteriores de la República».
 
 ## 21 Artículo 345 bis: «Los instrumentos públicos otorgados en un Estado parte de la
+
+**Definición Canónica:** Convención de La Haya que Suprime la Exigencia de Legalización de Documentos
+Públicos Extranjeros, no deberán ser sometidos al procedimiento de legalización,
+si respecto de estos se ha otorgado apostillas por la autoridad designada por el Estado de que dimana dicho instrumento. Las certificaciones oficiales que hayan sido
+asentadas sobre documentos privados, tales como menciones de registro, compro-
+**Concordancias Legales:** artículo 34722 del Código de Procedimiento Civil. En los caso; artículo 258; artículo 248; artículo 242
 
 Convención de La Haya que Suprime la Exigencia de Legalización de Documentos
 Públicos Extranjeros, no deberán ser sometidos al procedimiento de legalización,
@@ -4560,6 +5012,12 @@ o consulares y los documentos administrativos que se refieren directamente a una
 operación mercantil o aduanera».
 
 ## 22 Artículo 347: «Los instrumentos extendidos en lengua extranjera se mandarán
+
+**Definición Canónica:** traducir por el perito que el tribunal designe, a costa del que los presente, sin perjuicio de lo que se resuelva sobre costas en la sentencia. Si al tiempo de acompañarse
+se agrega su traducción, valdrá esta; salvo que la parte contraria exija, dentro de seis
+días, que sea revisada por un perito, procediéndose en tal caso como lo dispone el
+inciso anterior».
+**Concordancias Legales:** artículo 246 del Código de Procedimiento Civil. Cuando se t; artículo 249 del Código de Procedimiento Civil; artículo 250 del Código de Procedimiento Civil. Cumplimento d; artículo 27 de la Ley 19.968; artículo 8; artículo 48 del Código de Procedimiento Civil; artículo 11 bis; artículo 13; artículos 161; artículo 163 del Código del Trabajo; artículo 177 del Código del Trabajo. Tratándose de las obligac; artículo 9; artículos 775; artículos 819; artículo 147 del Código Civil respecto de los mismos bienes; artículo 10; artículo 11; artículo 23 de la Ley 19.968. Conforme al artículo 12; artículo 19 bis; Ley 19.968; Ley 14.908; Ley 21.389; Ley 16.618; constitución
 
 traducir por el perito que el tribunal designe, a costa del que los presente, sin perjuicio de lo que se resuelva sobre costas en la sentencia. Si al tiempo de acompañarse
 se agrega su traducción, valdrá esta; salvo que la parte contraria exija, dentro de seis
@@ -4726,6 +5184,16 @@ adoptado, el alimentante no hubiere cumplido su obligación en la forma
 pactada u ordenada o hubiere dejado de pagar una o más de las pensiones decretadas, el tribunal que dictó la resolución deberá, a petición de
 
 ## parte o de oficio y sin necesidad de audiencia, imponer al deudor como
+
+**Definición Canónica:** medida de apremio, el arresto nocturno entre las veintidós horas de cada
+día hasta las seis horas del día siguiente, hasta por quince días. El juez
+podrá repetir esta medida hasta obtener el íntegro pago de la obligación
+(artículo 14).
+   Si el alimentante infringiere el arresto nocturno o persistiere en el incumplimiento de la obligación alimenticia después de dos periodos de
+arresto nocturno, el juez podrá apremiarlo con arresto hasta por quince días. Y en caso de que procedan nuevos apremios, podrá ampliar el
+arresto hasta por treinta días.
+   El tribunal que dicte el apremio podrá facultar
+**Concordancias Legales:** artículo 14; artículo 15; artículo 10; artículo 138 del Código Civil; artículo 49; artículo 23; artículo 12 bis; artículo 16; artículo 18; artículo 7; artículo 21; artículo 22; artículo 24; artículo 12; artículo 52 del Código de Procedimiento Civil; Ley 20.593; Ley 16.618; Ley 19.968; Ley 21.389; Ley 14.908
 
 medida de apremio, el arresto nocturno entre las veintidós horas de cada
 día hasta las seis horas del día siguiente, hasta por quince días. El juez
@@ -4895,6 +5363,14 @@ En estos casos no tendrá aplicación lo dispuesto en el artículo 52 del Códig
 
 ## 24 La única oportunidad para presentar objeciones a la liquidación, en los casos
 
+**Definición Canónica:** en que habiéndose practicado esta el tribunal constate que el alimentante moroso
+reúne las condiciones señaladas en el artículo 22 para ser inscrito en el Registro, es
+el plazo de tres días referido en el inciso anterior. En consecuencia, en estos casos,
+el tribunal únicamente notificará a las partes la liquidación conjuntamente con la
+orden de inscripción, y en un solo acto, para que exista un plazo único y común para
+hacer valer las objeciones que correspondan.
+**Concordancias Legales:** artículo 22; artículo 26; artículo 725 de la Ley 14.908; Ley 14.908
+
 en que habiéndose practicado esta el tribunal constate que el alimentante moroso
 reúne las condiciones señaladas en el artículo 22 para ser inscrito en el Registro, es
 el plazo de tres días referido en el inciso anterior. En consecuencia, en estos casos,
@@ -4961,8 +5437,10 @@ de la deuda.
 al tribunal la aprobación de un nuevo acuerdo de pago serio y suficiente.
 En caso de no hacerlo, dentro del término de un mes desde que este se
 
-
 ## 25 Artículo 7: «El tribunal no podrá fijar como monto de la pensión una suma o
+
+**Definición Canónica:** porcentaje que exceda del cincuenta por ciento de las rentas del alimentante».
+**Concordancias Legales:** artículo 28; artículo 23; artículo 31; artículo 30; artículo 32; artículo 33; artículo 5 de la Ley 18.290; artículo 34; artículo 29; artículo 2.472 del Código Civil. Como consecuencia; artículo 2.472 del Código Civil. Para estos efectos; artículo 494 del Código de Procedimiento Civil; artículo 35; artículos 100; artículo 12 del Decreto con Fuerza de Ley 1; artículos 129; artículo 36; artículo 7; artículo 38; artículo 39; artículo 10 de la Ley 19.947; artículo 27; artículo 229 del Código Civil; artículo 9; artículo 4; artículo 48; artículo 66; artículo 240 del Código de Procedimiento Civil; Ley 21.389; Ley 18.290; Ley 20.720; Ley 19.175; Ley 18.695; Ley 19.882; Ley 19.947; Constitucion
 
 porcentaje que exceda del cincuenta por ciento de las rentas del alimentante».
 
@@ -5300,8 +5778,11 @@ hijos o nietos, sosteniendo dicho proyecto que
       se que dicho derecho se cumpla, y por ello se aplican las sanciones que se
       encuentran en otros cuerpos legales. No existe una sanción ejemplifica-
 
-
 ## 26 Artículo 66 inciso tercero: «[…] infringiere las resoluciones que determinen el
+
+**Definición Canónica:** ejercicio del derecho a que se refiere el artículo 229 del Código Civil, será apremiado
+en la forma establecida por el artículo 543 del Código de Procedimiento Civil».
+**Concordancias Legales:** artículo 229 del Código Civil; artículo 543 del Código de Procedimiento Civil; artículo 8 de la Ley 19.968; artículo 466; artículo 467; Ley 19.968
 
 ejercicio del derecho a que se refiere el artículo 229 del Código Civil, será apremiado
 en la forma establecida por el artículo 543 del Código de Procedimiento Civil».
@@ -5337,8 +5818,13 @@ IV, bajo el epígrafe «Ejecución de las sentencias condenatorias y medidas de 
       le otorgare.
        Ejecución de las sentencias (artículo 467): La ejecución de las senten-
 
-
 ## 27 Boletín 10.793-18, «Proyecto de ley que modifica el Código Penal con el objeto
+
+**Definición Canónica:** de tipificar el delito de incumplimiento del régimen de relación directa y regular de
+los progenitores o de los abuelos con los hijos o nietos, según corresponda», moción
+ingresada el 12 de julio de 2016. Primer trámite constitucional, disponible en https://
+bit.ly/3bUymTE.
+**Concordancias Legales:** artículo 147; artículos 366; artículo 469; artículos 167; artículo 471; artículo 472; artículo 461 del Código del Trabajo; artículo 462; artículo 463; artículos 463; artículos 462; artículo 473; artículo 465; artículo 467; artículo 468; artículo 470; artículo 464 del Código del Trabajo; artículo 43 del Código del Trabajo; artículos 467; artículo 41628 del Código del Trabajo; artículo 417; artículo 418; Ley 17.322; Ley 3.500; constitucion
 
 de tipificar el delito de incumplimiento del régimen de relación directa y regular de
 los progenitores o de los abuelos con los hijos o nietos, según corresponda», moción
@@ -5584,8 +6070,15 @@ previsión o seguridad social otorguen mérito ejecutivo; y, especialmente, la e
 relativa a la cobranza judicial de imposiciones, aportes y multas en los
 institutos de previsión, correspondiendo su conocimiento a los Juzga-
 
-
 ## 28 Artículo 416: «Existirá un Juzgado de Cobranza Laboral y Previsional, con
+
+**Definición Canónica:** asiento en cada una de las siguientes comunas del territorio de la República, con el
+número de jueces y con la competencia que en cada caso se indica: a) Valparaíso,
+con dos jueces, con competencia sobre las comunas de Valparaíso, Juan Fernández,
+Viña del Mar y Concón; b) Concepción, con dos jueces, con competencia sobre las
+comunas de Concepción, Penco, Hualqui, San Pedro de la Paz, Chiguayante, Talcahuano y Hualpén; c) San Miguel, con dos jueces, con competencia sobre las comunas de San Joaquín, La Granja, La Pintana, San Ramón, San Miguel, La Cisterna,
+El Bosque, Pedro Aguirre Cerda y Lo Es
+**Concordancias Legales:** artículo 421
 
 asiento en cada una de las siguientes comunas del territorio de la República, con el
 número de jueces y con la competencia que en cada caso se indica: a) Valparaíso,
@@ -5719,8 +6212,10 @@ Materiales Docentes                                                             
 
 ## sumario
 
+**Definición Canónica:** Figura 10. Tramitación para el cumplimiento de una sentencia extranjera en Chile
+**Concordancias Legales:** artículo 247; constitucion
 
-   Figura 10. Tramitación para el cumplimiento de una sentencia extranjera en Chile
+Figura 10. Tramitación para el cumplimiento de una sentencia extranjera en Chile
 
 blecidos en tratados internacionales. Se sujetará a las normas precedentes el cumplimiento de las sentencias dictadas por tribunales establecidos en tratados internacionales, cuando el estatuto correspondiente no
 contemple un procedimiento de cumplimiento de la sentencia o laudo.
@@ -5896,8 +6391,10 @@ presenta en la figura 11):
       plir con estos principios se separa las funciones administrativas y juris-
       diccionales que poseían en el antiguo sistemas los jueces, destinados en
 
-
 ## 29 Manuales de estructura y diseño de tribunales del país, aprobado en 2010 por la
+
+**Definición Canónica:** Corte Suprema.
+**Concordancias Legales:** artículo 2; Ley 20.286; Ley 20.022
 
 Corte Suprema.
 
@@ -6093,6 +6590,9 @@ ejecución de pena.33
  32 Al respecto, véase Alruiz y otros (2021: 71 y ss.).
 
 ## 33 Boletín Legislativo 12.213-07, que Modifica diversos textos legales en materia de
+
+**Definición Canónica:** ejecución de sanciones penales.
+**Concordancias Legales:** Ley 20.680
 
 ejecución de sanciones penales.
 

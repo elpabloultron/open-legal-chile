@@ -13,20 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 68           Derechos
-
-             de las y los
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             pacientes
+                       electrónica
+                       de causas
+             Edison Calahorrano Latorre (editor)
+             Ángela Arenas Massa
+             Renzo Munita Marambio
+             Carolina Riveros Ferrada
 
-                  Tramitación
+Tramitación
              pacientes
                        electrónica
                        de causas
@@ -78,6 +76,20 @@ catálogo de derechos de las y los pacientes. En primer lugar,
 
 ## parte por revisar su contenido en el derecho internacional
 
+**Definición Canónica:** de los derechos humanos y avanza hacia su protección
+constitucional para, posteriormente, aterrizar en el contenido
+de la Ley 20.584, que regula los derechos y los deberes que
+tienen las personas en relación con las acciones vinculadas a
+su atención en salud. Así, esta ley se instala como la columna
+vertebral del sistema.
+   Además de revisar exhaustivamente el contenido de cada
+uno de los derechos consagrados legalmente, el estudio
+se complementa con la jurisprudencia más relevante y
+actualizada, así como con los debates doctrinarios más
+recientes.
+   Este material constituye una guía de acer
+**Concordancias Legales:** Ley 20.584; constitucion
+
 de los derechos humanos y avanza hacia su protección
 constitucional para, posteriormente, aterrizar en el contenido
 de la Ley 20.584, que regula los derechos y los deberes que
@@ -104,129 +116,10 @@ Materiales Docentes                                                           �
 
 Contenido
 
-
-## 6       Introducción
-
-
-## 8       Capítulo 1
-
-        Antecedentes: Del paternalismo a la autonomía.
-        El paciente como sujeto de la relación clínica
-
-## 12      Capítulo 2
-
-        Fuentes internacionales y protección
-        de los derechos de las y los pacientes
-
-## 12      Sistema Universal de Protección de Derechos
-
-
-## 24      Sistema Interamericano de Protección de Derechos
-
-
-
-## 28      Capítulo 3
-
-        Fuentes nacionales y protección de los derechos
-        de las y los pacientes
-
-## 28      Protección constitucional de los derechos
-
-        de las y los pacientes
-
-
-## 37      Capítulo 4
-
-        La Ley 20.584 de los derechos y deberes
-        de las personas en relación con acciones
-        vinculadas a su atención en salud
-
-## 39      La seguridad del paciente
-
-
-## 53      Trato digno
-
-
-## 55      La privacidad y la honra
-
-
-## 56      El derecho de atención preferente
-
-
-## 58      El derecho al acompañamiento, a la asistencia
-
-        		      espiritual y a la pertinencia cultural
-
-## 63      El derecho a la información
-
-
-## 78      El derecho a no someterse a un tratamiento
-
-        		      y el alta voluntaria
-
-## 85      Derechos del paciente al final de la vida
-
-
-## 94      Protección de datos sanitarios
-
-
-
-## 99    Derechos de los pacientes en materia de salud mental
-
-
-## 110   La protección de la autonomía de las personas
-
-      		    que participan en una investigación científica
-      111   Derecho a la participación de las personas usuarias:
-      		    La perspectiva de las y los pacientes consumidores
-
-## 117   Deberes de las y los pacientes
-
-
-
-## 120   Capítulo 5
-
-      Ley 19.966, que establece un régimen de garantías
-      de salud
-
-## 120   Principio de responsabilidad
-
-
-## 121   Determinación del estatuto aplicable
-
-
-## 121   La responsabilidad sanitaria del Estado a la luz
-
-      		    de la Ley 19.966
-
-
-## 131   Capítulo 6
-
-      Especificidad con respecto a los derechos
-      de las y los pacientes con vulnerabilidad
-
-## 131   La vulnerabilidad en salud desde una
-
-      		    perspectiva dinámica
-
-## 132   Las y los pacientes niñas, niños y adolescentes
-
-
-## 133   Personas con discapacidad
-
-
-## 147   Personas mayores
-
-
-## 158   Las y los pacientes con enfermedades raras
-
-      		    o catastróficas
-
-## 163   Las y los pacientes migrantes
-
-
-
 ## 168   Referencias
+
+**Definición Canónica:** Materiales Docentes                                                 Introducción
+**Concordancias Legales:** Ley 20.584
 
 Materiales Docentes                                                 Introducción
 
@@ -273,8 +166,10 @@ tema, configurándose como una herramienta innovadora para los operadores juríd
 
 Materiales Docentes                                                         Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Antecedentes: Del paternalismo a la autonomía.
+El paciente como sujeto de la relación clínica
 
 Antecedentes: Del paternalismo a la autonomía.
 El paciente como sujeto de la relación clínica
@@ -295,8 +190,10 @@ catálogo de derechos que puede ejercer (Mendoza, 2017: 559).
 información. El siglo XXI trae consigo avances científicos vertiginosos:
 la introducción de la inteligencia artificial y estandarización de procedimientos médicos. Asimismo, los dilemas éticos que representan procedimientos como la modificación del genoma humano, entre otros.
 
-
 ## 1 La aparición y el desarrollo del virus covid-19 provocó la masificación temprana
+
+**Definición Canónica:** de algunos fenómenos en la relación clínica, como la atención remota y el uso de
+tecnologías para la intervención (Aedo y Munita, 2021: 109-213).
 
 de algunos fenómenos en la relación clínica, como la atención remota y el uso de
 tecnologías para la intervención (Aedo y Munita, 2021: 109-213).
@@ -407,8 +304,11 @@ extrapatrimonial.
 
 Materiales Docentes                                                  Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Fuentes internacionales y protección
+de los derechos de las y los pacientes
+**Concordancias Legales:** artículo 2 de la Declaración Universal de los Derechos Humanos; artículo 7; artículo 3; artículo 26 de Pacto Internacional de Derechos Civiles y Pol; artículo 3 del Pacto Internacional de Derechos Económicos; artículo 24; artículo 24 de la Convención. Este derecho implica el acceso a; artículos 20; artículo 11; artículo 10; artículo 12; artículo 12 de la Convención. En este instrumento se hace prese
 
 Fuentes internacionales y protección
 de los derechos de las y los pacientes
@@ -614,6 +514,8 @@ detrimento de sus derechos como paciente. La norma señala:
 
 ## parte de familiares y hombres mayores; en consecuencia, corren
 
+**Definición Canónica:** Materiales Docentes                                                   Capítulo 2
+**Concordancias Legales:** artículo 25; artículo 5 de la Convención desarrolla; artículo 25 de la Convención y que establezca lineamientos sobr; artículo 25 de la Convención; artículo 14; artículos 2; artículo 5; artículo 6; artículo 3 de la Carta de Derechos Fundamentales de la Unión E; artículo 35; artículo 12 del Pacto Internacional de Derechos Civiles y Pol; constitucion
 
 Materiales Docentes                                                   Capítulo 2
 
@@ -863,8 +765,12 @@ en la concreción de estándares que deben ser cumplidos como garantía
 del derecho a la salud y los derechos del paciente en la relación clínica,
 tema que se tratará a continuación.
 
-
 ## 3 Otro catálogo ha sido explicado por Vacarezza (2000) a partir de los principios
+
+**Definición Canónica:** emanados de informe Belmont y que se consolidan en deberes de médicas/médicos
+para con las y los pacientes, como son el de veracidad, confidencialidad, fidelidad o
+lealtad y respeto a la intimidad.
+**Concordancias Legales:** artículo 4; Constitucion
 
 emanados de informe Belmont y que se consolidan en deberes de médicas/médicos
 para con las y los pacientes, como son el de veracidad, confidencialidad, fidelidad o
@@ -896,8 +802,17 @@ IDH) radicada en San José de Costa Rica.
    Los principales instrumentos del corpus iuris latinoamericano son: la
 Declaración Americana de los Derechos y Deberes del Hombre (Bogotá,
 
-
 ## 4 Los pueblos originarios latinoamericanos rememoran en sus países el choque
+
+**Definición Canónica:** cultural que les significa incluso actualmente la colonización española, haciendo
+referencia a la cosmovisión previa a la intromisión hispánica. A modo de ejemplo, la
+oposición entre españoles y mapuches en Chile está expresada en algunas palabras
+clave, seis para cada uno de los combatientes de antaño: i) Europa-MapuMapuce; ii)
+Imperio-Pueblo; iii) Dominio-Libertad; iv) Oro-Raíz; v) Palacio-Rewe (religión); y
+vi) Muerte-Vida.
+ 5 A modo enunciativo: Protocolo Adicional en Materia de Derechos Económicos,
+Sociales y Culturales (Protocolo de San Salvador, 1998) y Protocolo Relativo a la
+Abolición
 
 cultural que les significa incluso actualmente la colonización española, haciendo
 referencia a la cosmovisión previa a la intromisión hispánica. A modo de ejemplo, la
@@ -961,8 +876,11 @@ sexual y habilidad parental para mantener la custodia de las hijas); Artavia Mur
 reproducción humana asistida); y Vilches y otros con Chile, del 8 marzo
 de 2018 (derecho a la salud de una persona mayor).
 
-
 ## 6 El código Sanitario Panamericano fue suscrito en La Habana, Cuba, el 14 de
+
+**Definición Canónica:** noviembre de 1924, en la VII Conferencia Sanitaria Panamericana y ratificado por
+los Gobiernos de veintiuna Repúblicas americanas. El código fue enmendado por el
+Protocolo Adicional al Código Sanitario Panamericano (1952).
 
 noviembre de 1924, en la VII Conferencia Sanitaria Panamericana y ratificado por
 los Gobiernos de veintiuna Repúblicas americanas. El código fue enmendado por el
@@ -970,8 +888,11 @@ Protocolo Adicional al Código Sanitario Panamericano (1952).
 
 Materiales Docentes                                                       Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Fuentes nacionales y protección de los derechos
+de las y los pacientes
+**Concordancias Legales:** artículo 1; artículo 19; Ley 21.383; constitucion; Constitución; Constitución Política
 
 Fuentes nacionales y protección de los derechos
 de las y los pacientes
@@ -1068,8 +989,15 @@ persona con riesgo vital. Aquí se señala:
       nistrativos impugnados, sean dejados sin efecto. En cuanto a la petición
       subsidiaria de rebaja de la multa solicitada por la actora en su reclamo,
 
-
 ## 1 Rol 137.840-2022 del 19 de diciembre de 2022, Marcelo Antúnez Espíndola con
+
+**Definición Canónica:** Ministerio de Salud y otro. Este mismo criterio aparece en fallos muy recientes, como
+los roles 122.971-2022 del 5 de diciembre de 2022, 123.718-2022 del 1 de diciembre
+de 2022 y 66.657-2022 del 25 de agosto de 2022 emitido por la Corte Suprema. Este
+último acude a los estándares internacionales sobre el derecho a la salud contenidos
+en el artículo 24, número 1, de la Convención de los Derechos del Niño y su incorporación al ordenamiento jurídico interno a través de artículo 5, inciso segundo, por lo
+que se concluye que: «Dicho instrumento, por aplicación del artículo 5 de la Constitución de l
+**Concordancias Legales:** artículo 24; artículo 5; artículo 5 de la Constitución de la República; artículo 19; Constitución; constitucion; Constitución Política
 
 Ministerio de Salud y otro. Este mismo criterio aparece en fallos muy recientes, como
 los roles 122.971-2022 del 5 de diciembre de 2022, 123.718-2022 del 1 de diciembre
@@ -1166,8 +1094,10 @@ desarrolla:
       se encuentra afectada. En consecuencia, es deber del recurrido poner
       a disposición del paciente todos los insumos prescritos por el médico
 
-
 ## 3 Corte de Apelaciones de Concepción, rol 74.724-2022 del 29 de noviembre de
+
+**Definición Canónica:** 2022.
+**Concordancias Legales:** artículo 19; Constitución; constitucion
 
 2022.
 
@@ -1251,6 +1181,12 @@ quinto y sexto de la sentencia de la Corte Suprema).
 
 ## 5 Así lo señalan Allard, Hennig y Galdámez (2016: 108) a partir de los fallos del
 
+**Definición Canónica:** Tribunal Constitucional rol 976-2007, sentencia del 26 de junio de 2008; 1.218-2008,
+sentencia del 7 de julio de 2009; 1.273-2008, sentencia del 20 de abril de 2010; y 1.2872008, sentencia del 8 de septiembre de 2009, que sirvieron de fundamento para la declaración de inconstitucionalidad del artículo 38 ter de la Ley de Isapres consolidada
+en el fallo de Tribunal Constitucional rol 1.710-2010 del 6 de agosto de 2010.
+ 6 Tribunal Constitucional, rol 976 de junio de 2008, c.j. 36.
+**Concordancias Legales:** artículo 38 ter de la Ley de Isapres consolidada en el fallo de Tri; artículo 24 de la Ley 19.966; artículo 19; Ley 19.966; Constitucion; Constitución
+
 Tribunal Constitucional rol 976-2007, sentencia del 26 de junio de 2008; 1.218-2008,
 sentencia del 7 de julio de 2009; 1.273-2008, sentencia del 20 de abril de 2010; y 1.2872008, sentencia del 8 de septiembre de 2009, que sirvieron de fundamento para la declaración de inconstitucionalidad del artículo 38 ter de la Ley de Isapres consolidada
 en el fallo de Tribunal Constitucional rol 1.710-2010 del 6 de agosto de 2010.
@@ -1310,8 +1246,12 @@ ellas, la calidad, la aceptabilidad y la accesibilidad. Un acceso sin trabas
 al ejercicio del derecho a la salud, a la calidad en la asistencia y al cumplimiento de los estándares internacionales redundan en una relación
 clínica respetuosa de las y los pacientes.
 
-
 ## Capítulo 4
+
+**Definición Canónica:** La Ley 20.584 de los derechos y deberes
+de las personas en relación con acciones
+vinculadas a su atención en salud
+**Concordancias Legales:** artículo 34; artículo 14 de la Ley 20.584; artículo 4 de la Ley 20.584 se refiere a la seguridad en la at; artículo 4 de la Ley 20.584 y la relación que se pueda hacer d; Ley 20.584; Ley 21.168; Ley 21.188; Ley 21.331; Ley 21.380; Ley 21.509; constitucion
 
 La Ley 20.584 de los derechos y deberes
 de las personas en relación con acciones
@@ -1497,8 +1437,11 @@ y la reducción de posibilidades de cometer errores, asumiendo, sin embargo, que
 razonabilidad que brinda el mejor conocimiento científico y las técnicas
 más avanzadas para evitar el riesgo.
 
-
 ## 2 Preámbulo de la Constitución de la Organización Mundial de la Salud, que fue
+
+**Definición Canónica:** adoptada por la Conferencia Sanitaria Internacional, celebrada en Nueva York entre
+el 19 de junio al 22 de julio de 1946, firmada el 22 de julio de 1946 por los representantes de 61 Estados y que entró en vigor el 7 de abril de 1948.
+**Concordancias Legales:** artículo 4 de la Ley 20.584 ha servido como fundamento para ge; Ley 20.584
 
 adoptada por la Conferencia Sanitaria Internacional, celebrada en Nueva York entre
 el 19 de junio al 22 de julio de 1946, firmada el 22 de julio de 1946 por los representantes de 61 Estados y que entró en vigor el 7 de abril de 1948.
@@ -1566,14 +1509,19 @@ medidas de prevención efectivas e indicadores de proceso que impidan
 que estos eventos sucedan. Por su parte, el evento centinela es un suceso
 inesperado que produce la muerte o serias secuelas físicas o psicológicas, o un riesgo potencial de que esto ocurra.4
 
-
 ## 3 Entre estos se encuentra el texto To err is human de 1999, sin embargo, estudios
+
+**Definición Canónica:** recientes han demostrado que el error médico es la tercera causa de muerte en el ámbito asistencial en los Estados Unidos. Por su parte, en Iberoamérica el estudio IBEAS
+determinó que la tasa de eventos adversos fue de un 10,5%, considerándose un 60%
+como errores evitables y un 6% de muertes evitables (Rocco y Garrido, 2017: 787).
 
 recientes han demostrado que el error médico es la tercera causa de muerte en el ámbito asistencial en los Estados Unidos. Por su parte, en Iberoamérica el estudio IBEAS
 determinó que la tasa de eventos adversos fue de un 10,5%, considerándose un 60%
 como errores evitables y un 6% de muertes evitables (Rocco y Garrido, 2017: 787).
 
 ## 4 Para más información, véase «Norma sobre seguridad de paciente y calidad de
+
+**Definición Canónica:** la atención con respecto a reporte de eventos adversos y eventos centinela», Ministerio de Salud, 2012.
 
 la atención con respecto a reporte de eventos adversos y eventos centinela», Ministerio de Salud, 2012.
 
@@ -1633,48 +1581,13 @@ ellas incorporadas al contrato médico o, desde una perspectiva más amplia, a l
     Número       Título                                                             Número
    de norma                                                                        de páginas
 
-## 1         Establece protocolos y normas sobre seguridad del                     4
-
-                 paciente y calidad de la atención para ser aplicados por los
-                 prestadores institucionales públicos y privados.
-
-## 2         Normas sobre seguridad del paciente y calidad de la atención          9
-
-                 respecto de: reporte de eventos adversos y eventos centinela
-
-
-## 3         Normas sobre seguridad del paciente y calidad de la atanción          9
-
-                 referido a: aplicación de lista de chequeo para la seguridad de
-                 la cirugía.
-
-## 4         Normas sobre seguridad del paciente y calidad de la atención          7
-
-                 respecto de: análisis de reoperaciones quirúrgicas no
-                 programadas.
-
-## 5         Normas sobre seguridad del paciente y calidad de la atención          5
-
-                 respecto de: prevención de enfermedad tromboembólica en
-                 pacientes quirúrgicos.
-
-## 6         Normas sobre seguridad del paciente y salidad de la atención         10
-
-                 respecto a: prevención de úlceras o lesiones por presión
-                 (UPP) en pacientes hospitalizados.
-
-## 7         Normas sobre la seguridad de la atención del paciente y               7
-
-                 calidad de la atención respecto de: reporte de caídas de
-                 pacientes hospitalizados.
-
-## 8         Normas sobre seguridad del paciente y calidad de la atención          4
-
-                 respecto de: pacientes transfundidos de acuerdo a protocolo
-
 ## 9         Programas de prevención y control de las enfermedades                15
 
-                 asociadas a la atención de salud (IAAS).
+**Definición Canónica:** asociadas a la atención de salud (IAAS).
+Fuente: Resolución Exenta 1031 del Ministerio de Salud.
+**Concordancias Legales:** artículo 4
+
+asociadas a la atención de salud (IAAS).
 Fuente: Resolución Exenta 1031 del Ministerio de Salud.
 
    A lo señalado, se suman las normas especiales emanadas por motivo
@@ -1700,8 +1613,9 @@ según lo reseñado, tiene una amplitud por explorar, en sus especificidades, lo
 artis, que aparece en la jurisprudencia y en la doctrina. A continuación,
 se verificarán algunos fallos en los que se ha hecho referencia a la seguridad del paciente.
 
-
 ## 5 Sobre negligencia por incumplimiento de esta normativa, se puede acudir al
+
+**Definición Canónica:** fallo de la Corte de Apelaciones de Santiago rol 35.233-2020 del 30 de julio de 2020.
 
 fallo de la Corte de Apelaciones de Santiago rol 35.233-2020 del 30 de julio de 2020.
 
@@ -1738,8 +1652,14 @@ puedan generarse quedarían a cargo de tratante. En un fallo más reciente, se a
 reconocimiento de una urgencia no detectada que, por la tardanza en la
 atención, conllevó la muerte de una menor por falla orgánica sistémica.6
 
-
 ## 6 Para más información, véase Corte de Apelaciones de Concepción, rol 501-2018
+
+**Definición Canónica:** del 20 de enero de 2021, considerando quinto, en el que se señala: «La falta de servicio opera como un factor de imputación que genera la obligación de indemnizar a
+los particulares por los daños que estos sufran a consecuencia de la actuación de los
+órganos del Estado en materia sanitaria; y, en la situación fáctica, el equipo médico
+del Hospital Guillermo Grant Benavente no otorgó a la menor fallecida la atención
+de salud requerida de manera eficaz y eficiente, por cuanto no se extremaron las
+**Concordancias Legales:** artículos 38 de la Constitución Política de la República; Ley 19.966; Ley 18.575; Constitución Política
 
 del 20 de enero de 2021, considerando quinto, en el que se señala: «La falta de servicio opera como un factor de imputación que genera la obligación de indemnizar a
 los particulares por los daños que estos sufran a consecuencia de la actuación de los
@@ -1885,8 +1805,16 @@ seguridad en la asistencia está contenido en el concepto más amplio de
 calidad asistencial, por lo que el enfoque preventivo y la consideración
 integral del tratante como segunda víctima, abordando además el enfo-
 
-
 ## 7 Para más información, véase Corte Suprema, rol 31.849-2019 del 14 de mayo
+
+**Definición Canónica:** de 2020, considerando décimo, en el que se establece que: «Para determinar la calificación de una conducta concreta se puede acudir a un parámetro de control, en
+que surge más nítidamente la noción de servicio público que impone un actuar
+en condiciones adecuadas conforme a tal finalidad, siendo responsable de forma
+principal y directa de los perjuicios que ocasione su irregular ejecución. Para este
+mismo fin, surge la apreciación normativa de la actuación, en que tal parámetro de
+control será la Constitución, la ley, los reglamentos, circulares, protocolos, guías de
+actuación, recomendaciones
+**Concordancias Legales:** artículo 5 de la Ley 20.584 determina que; artículo 2; artículo 4; artículos 145; Ley 20.584; Ley 21.375; Constitución
 
 de 2020, considerando décimo, en el que se establece que: «Para determinar la calificación de una conducta concreta se puede acudir a un parámetro de control, en
 que surge más nítidamente la noción de servicio público que impone un actuar
@@ -2010,7 +1938,18 @@ servicio y, en el considerando décimo, se prescribe:
 
 ## parte actora llama «Hojas o Fichas de Enfermería», de la que aparece que
 
-      durante el 29 de marzo de 2015 no existen anotaciones relacionadas con
+**Definición Canónica:** durante el 29 de marzo de 2015 no existen anotaciones relacionadas con
+      la condición y estado de salud de la paciente suscritas por enfermeras
+      profesionales, sino solo por alumnas de esa carrera, que se identifican
+      como «Int UPV». Dicho modo de obrar demuestra que, en su actuación,
+      tales alumnas no se hallaban bajo supervisión directa de un profesional
+      de la salud, omisión que vulnera lo establecido en el inciso segundo de
+      la letra c) del artículo 5 de la Ley 20.584.
+       En consecuencia, y aun cuando el demandado se hallaba obligado a
+      designar a un p
+**Concordancias Legales:** artículo 5 de la Ley 20.584. En consecuencia; artículos 5 bis; Artículo 5; Ley 20.584
+
+durante el 29 de marzo de 2015 no existen anotaciones relacionadas con
       la condición y estado de salud de la paciente suscritas por enfermeras
       profesionales, sino solo por alumnas de esa carrera, que se identifican
       como «Int UPV». Dicho modo de obrar demuestra que, en su actuación,
@@ -2068,8 +2007,11 @@ médicos más complejos, el legislador fija como preferencias las siguientes:
     • En la posterior asignación prioritaria para la realización de exá-
       menes o procedimientos médicos más complejos.
 
-
 ## 9 Las actividades de la vida diaria comprenden las acciones básicas que involucran
+
+**Definición Canónica:** el cuidado de uno mismo y del cuerpo, incluyendo el cuidado personal, la movilidad
+y la alimentación. Para más información, véase Mlinac y Feng (2016: 506-516).
+**Concordancias Legales:** artículo 5 ter; artículo 6 de la Ley 20.584 regula un elemento esencial de la; artículo 6; Ley 20.584
 
 el cuidado de uno mismo y del cuerpo, incluyendo el cuidado personal, la movilidad
 y la alimentación. Para más información, véase Mlinac y Feng (2016: 506-516).
@@ -2161,7 +2103,16 @@ señalado:
 
 ## parte de su familia y amigos, habida consideración de las limitaciones
 
-      y restricciones establecidas al interior del recinto relacionadas a las me-
+**Definición Canónica:** y restricciones establecidas al interior del recinto relacionadas a las me-
+      didas adoptadas tendientes a prevenir el contagio del covid-19 tanto de
+      los pacientes como del personal que trabaja en dicho lugar, salvo en una
+      sola oportunidad en que la recurrida se vio obligada a restringir las vi-
+      sitas a todos sus pacientes por un rebrote de casos covid-19 en la ciudad
+      y en el interior del recinto hospitalario con algunos casos, el resto del
+      tiempo. Para dicho efecto, la clínica ha dispuesto un sistema de agenda-
+      miento de visitas para que los pacientes p
+
+y restricciones establecidas al interior del recinto relacionadas a las me-
       didas adoptadas tendientes a prevenir el contagio del covid-19 tanto de
       los pacientes como del personal que trabaja en dicho lugar, salvo en una
       sola oportunidad en que la recurrida se vio obligada a restringir las vi-
@@ -2181,8 +2132,12 @@ señalado:
       cosas, no es verídico que la recurrida le ha negado el acceso a las visitas
       del paciente.10
 
-
 ## 10 Para más información, véase Corte de Apelaciones de Santiago, rol 1.399-2022
+
+**Definición Canónica:** del 21 de noviembre de 2022, considerando segundo. Otros fallos se refieren a las
+normas internas que regulan el acompañamiento de pacientes hospitalizados y consolidan este derecho, cuyo incumplimiento es una vulneración grave. Así se puede
+observar en Corte de Apelaciones de Temuco, rol 12.254-2021 del 23 de abril de 2021,
+**Concordancias Legales:** artículo 7 de la Ley 20.584 plantea una situación aún más comp; artículo 10; artículo 34 del Decreto 140 del Ministerio de Salud; Ley 20.584; Ley 19.253; constitucion
 
 del 21 de noviembre de 2022, considerando segundo. Otros fallos se refieren a las
 normas internas que regulan el acompañamiento de pacientes hospitalizados y consolidan este derecho, cuyo incumplimiento es una vulneración grave. Así se puede
@@ -2317,8 +2272,11 @@ requieren ser informados, aunque la jurisprudencia ha desarrollado las
 características de esta información.13
    Es del caso expresar que el médico debe informar los riesgos asociados al tratamiento, los cuales, además, deben ser comunicados según
 
-
 ## 13 Así, por ejemplo, en el fallo de la Corte Suprema, rol 5.396-2014 del 18 de junio
+
+**Definición Canónica:** de 2015. Otro ejemplo es el fallo de la Corte Suprema, rol 89.635-2016, del 29 de diciembre de 2017, con respecto a los riesgos de un traslado de paciente a un centro
+médico en la capital ante un diagnóstico de peritonitis.
+**Concordancias Legales:** artículo 10
 
 de 2015. Otro ejemplo es el fallo de la Corte Suprema, rol 89.635-2016, del 29 de diciembre de 2017, con respecto a los riesgos de un traslado de paciente a un centro
 médico en la capital ante un diagnóstico de peritonitis.
@@ -2345,8 +2303,16 @@ se reflejan en el contenido del deber de informar y en su amplitud.
 alternativas de tratamiento, debiendo ser compartidas con el paciente
 aquellas viables, que se encuentren en el conocimiento científico comprobado al momento de la intervención. La existencia de una sola alternativa terapéutica disponible no exime del deber de información.
 
-
 ## 14 Para más información, véase Corte Suprema, rol 29.094-2019 del 1 de junio de
+
+**Definición Canónica:** 2020.
+ 15 La autonomía relacional aparece acogida en el artículo 7 de la Convención Interamericana para la Protección de los Derechos de las Personas Mayores. En la
+doctrina nacional ha sido tratada por Riveros (2020: 110-114).
+ 16 Decimos ordinariamente, por cuanto legal y jurisprudencialmente, existen ámbitos en los cuales el deber de información, en materia autodeterminativa, incluye
+mayor contenido. Así, por ejemplo, la Ley 20.418 sobre regulación de la fertilidad.
+Sobre dicha norma, ilustrativo es sobre el contenido del deber de información que
+aquella establece, el fallo dictado por la C
+**Concordancias Legales:** artículo 7 de la Convención Interamericana para la Protección; artículo 8 de la Ley 20.584 se consagra la obligatoriedad de t; Ley 20.418; Ley 20.584
 
 2020.
  15 La autonomía relacional aparece acogida en el artículo 7 de la Convención Interamericana para la Protección de los Derechos de las Personas Mayores. En la
@@ -2374,8 +2340,14 @@ bien esta información no es autodeterminativa y se vincula con la toma
 de decisiones que puede afectar la autonomía del paciente, su disponibilidad también previene la materialización de riesgos que puedan afectar
 la esfera patrimonial y configurarse como fuente de responsabilidad civil para el prestador por los daños provocados.
 
-
 ## 17 Es menester distinguir, para efectos de la precisión en el ámbito financiero del
+
+**Definición Canónica:** deber de información, si el acto médico fue de urgencia o planificado, por cuanto
+en este último el estándar fijado es superior. En estos mismos términos se ha pronunciado la Superintendencia de Salud, informando, en reclamación administrativa
+rol 23-2022 de la Corte de Apelaciones de Concepción en los siguientes términos:
+«Dado que la intervención quirúrgica no se realizó en el contexto de una atención
+de urgencia, sino que fue programada con antelación, el prestador debía haberle informado a la paciente de manera suficiente, oportuna, veraz y comprensible acerca
+de los valores que involucrab
 
 deber de información, si el acto médico fue de urgencia o planificado, por cuanto
 en este último el estándar fijado es superior. En estos mismos términos se ha pronunciado la Superintendencia de Salud, informando, en reclamación administrativa
@@ -2408,8 +2380,12 @@ Katz, al ser parte del deber profesional del tratante, este estaba llamado a
 informar al paciente sobre la naturaleza del procedimiento y obtener un
 asentimiento informado. Las únicas razones para omitir estas prácticas
 
-
 ## 18 La Corte de Apelaciones de Concepción, en autos civiles rol 1.517-2019, sobre
+
+**Definición Canónica:** este punto ha dicho: «No está de más recordar que la información al paciente es el
+antecedente necesario e imprescindible que permite discurrir sobre la base del denominado “consentimiento informado”, siendo el objeto esencial de este la protección de la autodeterminación o autonomía del paciente y, por ende, constituye per
+se un requisito del acto médico».
+**Concordancias Legales:** Ley 20.584
 
 este punto ha dicho: «No está de más recordar que la información al paciente es el
 antecedente necesario e imprescindible que permite discurrir sobre la base del denominado “consentimiento informado”, siendo el objeto esencial de este la protección de la autodeterminación o autonomía del paciente y, por ende, constituye per
@@ -2443,8 +2419,12 @@ comprendidas en las causales de incapacidad e indignidad para suceder.
 verificar si una persona puede tomar una decisión con respecto a someterse o no a una intervención médica o, en general, está en la situación
 de recibir y comprender la información que el tratante,20 como titular
 
-
 ## 19 En el sentido de establecer a la Ley 20.584 como integrante del contenido de
+
+**Definición Canónica:** todo contrato médico, encontramos el fallo de la Corte de Apelaciones de Valparaíso, rol 2.080-2022, considerando undécimo.
+ 20 En relación con la «comprensión», crucial es tener en consideración que,
+mientras no se evidencie que las facultades mentales del paciente se encuentran
+**Concordancias Legales:** artículo 1.446 del Código Civil determina que la incapacidad gen; artículo 1; artículos 443; artículo 1.447; artículo 14 de la Ley 20.584. En este mismo sentido; artículo 456; artículo 14 de la Ley 20.584 que prescribe el consentimiento in; artículo 14; Ley 20.584; Ley 21.430; constitucion
 
 todo contrato médico, encontramos el fallo de la Corte de Apelaciones de Valparaíso, rol 2.080-2022, considerando undécimo.
  20 En relación con la «comprensión», crucial es tener en consideración que,
@@ -2508,6 +2488,15 @@ niño, la niña o adolescente ha sido informado y que se le ha oído, tomando en
 
 ## 22 En efecto, el inciso quinto del artículo 14 de la Ley 20.584 introducido por la
 
+**Definición Canónica:** Ley 21.331 señala: «Sin perjuicio de las facultades de los padres o del representante
+legal para otorgar el consentimiento en materia de salud en representación de los
+menores de edad competentes, todo niño, niña y adolescente tiene derecho a ser
+oído con respecto a los tratamientos que se le aplican y a optar entre las alternativas
+que estos otorguen, según la situación lo permita, tomando en consideración su
+edad, madurez, desarrollo mental y su estado afectivo y psicológico. Deberá dejarse
+constancia de que el niño, niña o adolescente ha sido informado y se le ha oído».
+**Concordancias Legales:** artículo 14; artículo 19; Ley 21.331
+
 Ley 21.331 señala: «Sin perjuicio de las facultades de los padres o del representante
 legal para otorgar el consentimiento en materia de salud en representación de los
 menores de edad competentes, todo niño, niña y adolescente tiene derecho a ser
@@ -2549,6 +2538,10 @@ la opción de consentimiento informado por representación en todo caso de niño
 niñas y adolescentes, dejando la obligación de ser escuchados y elegir opciones según su madurez, como opciones subsidiarias.
 
 ## 24 En este sentido, véase Corte de Apelaciones de Arica, causa rol 45-2022; Corte
+
+**Definición Canónica:** de Apelaciones de Talca, causa rol 2.521-2021; y Corte de Apelaciones de Santiago,
+causa rol 3.253-2021.
+**Concordancias Legales:** artículo 15 de la Ley 20.584; artículo 456; artículo 1447; artículo 12 de la Convención y a la Observación General Primera; artículos 10; artículos 23; artículo 4; artículo 14 de la Ley 20.584; artículo 10; artículo 14; artículo 14 de la Ley 20.584 consagra el derecho del paci; artículo 15; artículo 23; artículo 12; artículo 12 del Código Civil; artículos 16; artículo 18; artículo 16; artículo 17 de la Ley 20.584; artículo 20 de la Constitución Política de la República; artículo 42 del Código Civil; Ley 20.584; Ley 21.331; Ley 21.375; Ley 21.380; Ley 19.937; Constitución Política; constitucion
 
 de Apelaciones de Talca, causa rol 2.521-2021; y Corte de Apelaciones de Santiago,
 causa rol 3.253-2021.
@@ -3002,21 +2995,10 @@ inherentes a una enfermedad mortal. También, los cuidados paliativos
 se reconocen como un derecho humano a la salud y deben proporcionarse a través de servicios de salud integrados centrados en la persona,
 prestando especial atención a las necesidades y exigencias de los individuos.30 La espiritualidad individual y el desarrollo espiritual son considerados como uno de los principales factores que permiten afrontar y
 
-
-## 27 Para más información, véase «Informe Mundial sobre Envejecimiento y Salud
-
-(WHO/FWC/ALC/15.01)», Organización Mundial de la Salud, 2015.
-
-## 28 Para más información, véase «Plan de acción mundial para la prevención y el
-
-control de las enfermedades no transmisibles 2013-2020», Organización Mundial de
-la Salud, 2015.
-
-## 29 Para más información, véase «World cancer report», Organización Mundial
-
-de la Salud, 2015.
-
 ## 30 Para más información, véase «Informe Mundial sobre Envejecimiento y Salud
+
+**Definición Canónica:** (WHO/FWC/ALC/15.01)», Organización Mundial de la Salud, 2015.
+**Concordancias Legales:** artículo 1; Ley 21.375
 
 (WHO/FWC/ALC/15.01)», Organización Mundial de la Salud, 2015.
 
@@ -3048,21 +3030,10 @@ artículos. Según el artículo 1, la finalidad de la ley es:
        Enfermedad o condición patológica grave que haya sido diagnostica-
       da, de carácter progresivo e irreversible, sin tratamiento específico cu-
 
-
-## 31 Para más información, véase «Anuario estadísticas vitales», Instituto Nacional
-
-de Estadísticas, 2017.
-
-## 32 Para más información, véase «Guía clínica alivio del dolor por cáncer avanzado
-
-y cuidados paliativos», Ministerio de Salud, 2011.
-
-## 33 Para más información, véase «División de Atención Primaria Subsecretaria de
-
-Redes Asistenciales Ministerio de Salud: Orientación técnica, programa de atención
-domiciliaria para personas con dependencia severa», Ministerio de Salud, 2014.
-
 ## 34 Para más información, véase «Ley 21.375 que consagra los cuidados paliativos y
+
+**Definición Canónica:** los derechos de las personas que padecen enfermedades terminales o graves», Congreso Nacional.
+**Concordancias Legales:** artículo 2; artículos 2; artículos 6; Ley 21.375
 
 los derechos de las personas que padecen enfermedades terminales o graves», Congreso Nacional.
 
@@ -3105,6 +3076,15 @@ domiciliarios (cobertura Isapre) y materia penal, entre otros que parecen intere
    El primer fallo es de la Corte de Apelaciones de Valdivia, rol 1.1492016, sentencia recaída sobre un recurso de protección el 8 de febrero de
 
 ## 2017. El recurso se funda en que el recurrente, de 84 años, con cáncer de
+
+**Definición Canónica:** próstata en fase terminal y párkinson en estado avanzado se encontraba
+postrado en cama sin posibilidades de desplazarse u operar autónomamente una silla de ruedas, precisando ayuda para actividades diarias
+básicas. Agrega que las enfermedades descritas han afectado sus capacidades cognitivas. El recurrente se encontraba postrado con sonda vesical permanente, la que requiere de cuidados y monitoreo por personal
+especializado, habida cuenta de que las escaras que se forman deben ser
+controladas periódicamente a fin de que no se produzcan infecciones
+que agraven más su condición.
+   Sostiene que
+**Concordancias Legales:** artículo 4; Ley 19.880; Ley 21.331
 
 próstata en fase terminal y párkinson en estado avanzado se encontraba
 postrado en cama sin posibilidades de desplazarse u operar autónomamente una silla de ruedas, precisando ayuda para actividades diarias
@@ -3232,6 +3212,9 @@ mental, de 2021, en su artículo 4 inciso cuarto prescribe:
  35 Para más información, véase Arenas-Massa (2022).
 
 ## 36 Para más información, véase «Declaración Universal de Bioética y Derechos
+
+**Definición Canónica:** Humanos, artículos 5, 6, 7», Unesco, 2015.
+**Concordancias Legales:** artículos 5; artículo 14; artículo 393 del Código Penal que sanciona el auxilio al suici; artículo 391; artículo 12; artículo 13; artículo 10; artículo 9; artículo 19; artículo 20; artículo 13 de la Ley 21.331 establece una serie de re; artículo 458 del Código Procesal Penal; artículo 458; artículo 10 del Código del ramo; artículo 296; artículos 458; artículo 131 del Código Sanitario; artículo 7 de la Ley 20.066. Y no resulta posible estimar que; artículo 481 del Código Procesal Penal; artículos 1; Ley 20.584; Ley 19.628; Ley 21.331; Ley 20.084; Ley 20.066; Ley 20.120; Ley 19.300; constitucion; Constitución Política; Constitución
 
 Humanos, artículos 5, 6, 7», Unesco, 2015.
 
@@ -3918,8 +3901,11 @@ el derecho a efectuar peticiones a la autoridad sobre cualquier asunto de
 interés público o privado y que, en segundo lugar, existe una variedad de
 leyes que establecen, expresamente, procedimientos para una participación ciudadana. Así, por ejemplo, destacan la Ley 19.300 y 20.500.
 
-
 ## 39 Como los «Lineamientos para la elaboración de indicadores de progreso en
+
+**Definición Canónica:** materia de derechos económicos, sociales y culturales» de la Comisión Interamericana de Derechos Humanos de 2008 y los «Indicadores de derechos humanos: Guía
+para la aplicación y medición» de la Organización de las Naciones Unidas de 2012.
+**Concordancias Legales:** artículo 30; Ley 20.584
 
 materia de derechos económicos, sociales y culturales» de la Comisión Interamericana de Derechos Humanos de 2008 y los «Indicadores de derechos humanos: Guía
 para la aplicación y medición» de la Organización de las Naciones Unidas de 2012.
@@ -3933,15 +3919,15 @@ atención de salud.
    En cuanto a los derechos, de conformidad al artículo 30, norma que
 contiene tres categorías de derechos, se establecen los siguientes:
 
-## 1. El primero es que el usuario podrá efectuar las consultas y los re-
-
-      clamos que estime pertinentes con respecto a la atención de salud
-      recibida, como también podrá manifestar por escrito sus sugeren-
-      cias y opiniones con respecto a dicha atención.
-
 ## 2. En segundo lugar, se establece que el usuario puede colaborar en
 
-      la reglamentación de los procedimientos por los cuales se regula el
+**Definición Canónica:** la reglamentación de los procedimientos por los cuales se regula el
+      ejercicio de este derecho, junto con el plazo y la forma en que los
+      prestadores deberán responder o resolver, mediante su participa-
+      ción en las instancias creadas por ley, en las cuales el Ministerio de
+      Salud efectuará la consulta respectiva.
+
+la reglamentación de los procedimientos por los cuales se regula el
       ejercicio de este derecho, junto con el plazo y la forma en que los
       prestadores deberán responder o resolver, mediante su participa-
       ción en las instancias creadas por ley, en las cuales el Ministerio de
@@ -3949,7 +3935,18 @@ contiene tres categorías de derechos, se establecen los siguientes:
 
 ## 3. Finalmente, y en lo relativo a los comités de ética, el usuario tiene
 
-      derecho a que el prestador institucional le provea de los medios
+**Definición Canónica:** derecho a que el prestador institucional le provea de los medios
+      necesarios para acceder a uno y, también, se establece el derecho
+      del usuario a participar del comité en el cual se abordará su con-
+      sulta, siempre que aquella implique, como necesaria, la evaluación
+      de un caso clínico desde el punto de vista ético-clínico, como lo
+      sería en el evento del artículo 17 de la misma ley.
+   El primero de los derechos establecidos por el artículo 30, en atención
+a su convivencia diaria con el paciente, amerita efectuar unos breves
+comentarios de profundización. Así las cos
+**Concordancias Legales:** artículo 17; artículo 30; artículo 3; artículo 5; artículo 10; artículo 4; artículo 6; artículo 11; artículo 13; artículo 1; artículo 2; artículo 2 ter; artículo 50; artículo 2 bis; artículo 33; artículo 34; artículos 35; artículo 35; artículo 35 bis; artículo 36 de la Ley 20.584 establece el deber de colaboración; Ley 19.955; Ley 19.496; Ley 20.584; Ley 21.188
+
+derecho a que el prestador institucional le provea de los medios
       necesarios para acceder a uno y, también, se establece el derecho
       del usuario a participar del comité en el cual se abordará su con-
       sulta, siempre que aquella implique, como necesaria, la evaluación
@@ -4202,8 +4199,11 @@ en la decisión sobre la intervención.
 
 Materiales Docentes                                                           Capítulo 5
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Ley 19.966: Establece un régimen de garantías de
+salud
+**Concordancias Legales:** artículo 42; artículos 6; Ley 19.966; constitucion; Constitución Política
 
 Ley 19.966: Establece un régimen de garantías de
 salud
@@ -4224,8 +4224,13 @@ no es más que el principio de que el Estado ha de responder de los eventos menc
 por el cual se perseguirá la responsabilidad del Estado y no nuestra carta fundamental. Fue precisamente este entendimiento de los artículos
 mencionados lo que permitió a la jurisprudencia y doctrina nacional
 
-
 ## 1 El artículo 7 señala en su inciso final: «Todo acto en contravención a este artículo
+
+**Definición Canónica:** es nulo y originará las responsabilidades y sanciones que la ley señale». Por su parte,
+el artículo 38, inciso segundo, prescribe: «Cualquier persona que sea lesionada en
+sus derechos por la Administración del Estado, de sus organismos o de las municipalidades, podrá reclamar ante los tribunales que determine la ley, sin perjuicio de
+la responsabilidad que pudiere afectar al funcionario que hubiere causado el daño».
+**Concordancias Legales:** artículo 38; Ley 19.966; Ley 18.575; constitucion
 
 es nulo y originará las responsabilidades y sanciones que la ley señale». Por su parte,
 el artículo 38, inciso segundo, prescribe: «Cualquier persona que sea lesionada en
@@ -4266,6 +4271,8 @@ Ahora corresponde que analicemos los principales aspectos de esta responsabilida
 
 ## 3 Todo esto según la Corte Suprema en causa rol 21.632-2014
 
+**Definición Canónica:** Materiales Docentes                                                         Capítulo 5
+**Concordancias Legales:** artículo 43; artículo 16 bis del Decreto Ley 2.763 de 1979; artículo 45; artículo 45 de la Ley 19.966 no incurre en aquella casuística d; Ley 19.966; Ley 2.763; constitucion
 
 Materiales Docentes                                                         Capítulo 5
 
@@ -4489,8 +4496,10 @@ la oportunidad de pronunciarse y señaló:
         Que de este modo, la suspensión de la prescripción tratada en el inciso
       final del artículo 45 de la Ley 19.966 no incurre en aquella casuística de
 
-
 ## 9 Para más información, véase la sentencia del Tribunal Constitucional en causa
+
+**Definición Canónica:** rol 2.042-2011.
+**Concordancias Legales:** artículo 40; artículo 38; artículo 2.332 del Código Materiales Docentes; artículo 40 de la Ley 19.966; artículo 2332 del Código Civil; Ley 19.966
 
 rol 2.042-2011.
 
@@ -4607,8 +4616,10 @@ de corte objetivo.
 
 Materiales Docentes                                                  Capítulo 6
 
-
 ## Capítulo 6
+
+**Definición Canónica:** Especificidad con respecto a los derechos
+de las y los pacientes con vulnerabilidad
 
 Especificidad con respecto a los derechos
 de las y los pacientes con vulnerabilidad
@@ -4664,8 +4675,10 @@ Las y los pacientes niñas, niños y adolescentes
 Para este grupo de pacientes el ordenamiento jurídico ha ido evolucionando en reconocer a los niños, a las niñas y a las y los adolescentes
 como sujetos de derecho en el ámbito sanitario, estableciendo como
 
-
 ## 1 Sobre un análisis profundo del concepto de inteligencia moral en la relación
+
+**Definición Canónica:** clínica, véase Ozturk, Sayligil y Yildiz (2019: 273 y 274).
+**Concordancias Legales:** artículo 25 de la Convención sobre los Derechos de las Personas; artículo 25; artículo 15; artículo 26; artículos 4; artículo 1.1. de la Convención Americana
 
 clínica, véase Ozturk, Sayligil y Yildiz (2019: 273 y 274).
 
@@ -4786,10 +4799,11 @@ y calidad en la provisión de servicios de salud a una persona con múltiple vul
 instituciones privadas que entregan servicios públicos, en este caso, las
 isapres. La Corte Interamericana señala:
 
-
 ## 145. En ese sentido, el tribunal recuerda que, dado que la salud es un
 
-      bien público, los Estados tienen la obligación de regular y fiscalizar toda
+**Definición Canónica:** bien público, los Estados tienen la obligación de regular y fiscalizar toda
+
+bien público, los Estados tienen la obligación de regular y fiscalizar toda
 
       la asistencia de salud prestada por particulares, como deber especial de
       protección de los derechos que se pueden ver afectados por la inade-
@@ -4807,7 +4821,17 @@ isapres. La Corte Interamericana señala:
 
 ## 146. Al respecto, la Corte recuerda que los servicios sanitarios referidos
 
-      a la rehabilitación y a los cuidados pediátricos deben proveerse con-
+**Definición Canónica:** a la rehabilitación y a los cuidados pediátricos deben proveerse con-
+      forme a los principios de disponibilidad, accesibilidad, aceptabilidad y
+      calidad de los servicios de salud, tomando en cuenta las particularida-
+      des que requiere un tratamiento médico de niños y niñas que sufren
+      discapacidades. De esta forma, la Corte advierte que, aun después de la
+      reinstalación del Régimen de hospitalización domiciliaria las denuncias
+      presentadas por los padres de Martina permiten advertir la ausencia de
+      suficientes trabajadores médicos para la atención de la niña,
+**Concordancias Legales:** Artículo 4; artículo 13; Artículo 9; Artículo 11; Artículo 21; Artículo 22; Ley 20.422; Ley 21.331
+
+a la rehabilitación y a los cuidados pediátricos deben proveerse con-
       forme a los principios de disponibilidad, accesibilidad, aceptabilidad y
       calidad de los servicios de salud, tomando en cuenta las particularida-
       des que requiere un tratamiento médico de niños y niñas que sufren
@@ -4926,7 +4950,18 @@ profundizar en el catálogo de derechos de las y los pacientes con discapacidad 
 
 ## parte de un proceso permanente de acceso a información para la toma
 
-      de decisiones en salud mental.
+**Definición Canónica:** de decisiones en salud mental.
+        Los equipos interdisciplinarios promoverán el ejercicio del consenti-
+      miento libre e informado, debiendo entregar información suficiente,
+      continua y en lenguaje comprensible para la persona, teniendo en cuen-
+      ta su singularidad biopsicosocial y cultural, sobre los beneficios, riesgos
+      y posibles efectos adversos asociados, a corto, mediano y largo plazo, en
+      las alternativas terapéuticas propuestas, así como el derecho a no acep-
+      tarlas o a cambiar su decisión durante el tratamiento.
+        Los equipos de salud promoverá
+**Concordancias Legales:** artículo 15; Artículo 9; artículo 15 de la Ley 20.584; artículo 20 de la Ley 20.584; Artículo 10; Artículo 11; Artículo 20; artículos 22; artículo 14; artículo 19; artículo 2.330 del Código Civil; artículo 1.558; artículo 7; artículo 13; artículos 14; artículo 8; artículo 2; artículo 1; artículo 70 bis; artículo 70 ter; artículo 65; artículo 5 del Convenio de Oviedo; ley 20.584; Ley 19.628; Ley 21.331; Ley 20.422; Ley 21.168; Ley 21.380; Ley 20.850; Ley 21.309; Ley 21.258; Ley 21.325; Constitución Política; constitucion; Constitución
+
+de decisiones en salud mental.
         Los equipos interdisciplinarios promoverán el ejercicio del consenti-
       miento libre e informado, debiendo entregar información suficiente,
       continua y en lenguaje comprensible para la persona, teniendo en cuen-

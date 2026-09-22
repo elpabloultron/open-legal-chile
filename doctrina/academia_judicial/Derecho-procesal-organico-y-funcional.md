@@ -13,19 +13,14 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Procesal | **Materia:** Procesal
 
-## Serie de
-
-
-## Documentos                                                          09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Derecho
+             Procesal
+                Orgánico
+                y Funcional
 
-             Derecho
+Derecho
              Procesal
                 Orgánico
                 y Funcional
@@ -45,19 +40,22 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Andrea
+                               Erber
+                               Fernández
+                          Es Administrativa primera del Juzga-
+                          do de Letras y Familia de Pitrufquén
+                          y exmonitora de sistemas judiciales
+                          CAPJ Temuco. Técnica jurídica, Inge-
+                          niera en Administración de empresas
+                          y Magíster en Alta Dirección Pública,
+                          es diplomada en Habilidades Directi-
+                          vas, Gestión de Recursos Humanos y
+              
 
-                          Andrea
+Andrea
                                Erber
                                Fernández
                           Es Administrativa primera del Juzga-
@@ -88,27 +86,18 @@ docente Nº 22             Gestión Pública y Recursos Humanos.
                           mia Judicial.
 Chile 2021
 
-
-## Isbn n°
-
-
-## 2022-a-1855
-
-
-## Serie de
-
-
-## Documentos                                           ﻿                                                     3
-
-
-## Materiales                                           ﻿
-
-
-
 ## Docentes
 
+**Definición Canónica:** Paula
+                                                                                Millon
+                                                                                Lorens
+                                        Academia                      Jueza de Garantía de Quilpué, Master
+                                        Judicial                      of Law cum Laude (LLM) en la Califor-
+                                        de Chile                      nia Western School of Law. Abogada
+                                                            Autores   de la Pontificia Universidad C
+**Concordancias Legales:** Constitución Política
 
-                                                                      Paula
+Paula
                                                                                 Millon
                                                                                 Lorens
                                         Academia                      Jueza de Garantía de Quilpué, Master
@@ -168,94 +157,12 @@ Orgánico y Funcional                    ﻿
 
                                                  Otros tribunales                                                               24
 
-
-## 1. Derecho Procesal Orgánico y Funcional                                                26
-
-
-
-## 1.1 Regulación Orgánica de Tribunales                                                26
-
-
-
-## 1.1.1   Normas de orden constitucional                                         27
-
-
-
-## 1.1.2   Disposiciones legales                                                  30
-
-
-
-## 1.2 Bases del ejercicio de la función jurisdiccional                                 37
-
-
-
-## 1.2.1   Principios                                                             37
-
-
-
-## 1.2.2   Reglas técnicas                                                        48
-
-
-
-## 1.3 Auxiliares de la administración de justicia                                      55
-
-
-
-## 1.3.1   Secretarios                                                            55
-
-
-
-## 1.3.3   Consejos Técnicos                                                      59
-
-
-
-## 1.4 Estructura orgánica de los tribunales                                            60
-
-
-
-## 1.4.1   La separación entre las funciones jurisdiccionales y administrativas   60
-
-
-
-## 1.4.2   El Comité de Jueces y el presidente(a) del Comité de Jueces            62
-
-
-
-## 1.4.3   Organización interna de la administración del tribunal                 64
-
-
-
-## 1.4.4   El juez(a) presidente y su vinculación con la administración           66
-
-
-
-## 2. Criterios normativos que regulan las cargas de trabajo dentro del Tribunal           69
-
-
-
-## 2.1 Normas legales                                                                   71
-
-
-
-## 2.1.1   Ley N° 20.628                                                          71
-
-
-
-## 2.1.2   Artículo 101 Código Orgánico de Tribunales                             72
-
-
-
-## 2.1.3   Modificación al artículo 1° transitorio de la Ley N° 19.665            74
-
-
-
-## 2.1.4   Normativa complementaria                                               75
-
-
-
 ## 2.2 Actas de la Corte Suprema                                                        76
 
-Derecho Procesal                                                                      Índice                                                                        6
+**Definición Canónica:** Derecho Procesal                                                                      Índice                                                                        6
+**Concordancias Legales:** Ley N° 20.886
+
+Derecho Procesal                                                                      Índice                                                                        6
 
                                                  2.2.1   Auto acordado N° 71-2016                                                                             76
 
@@ -316,152 +223,13 @@ Orgánico y Funcional                    ﻿
                                                  3.4.2   De las Comisiones Precalificadoras en las Cortes de Apelaciones y Tribunales de Primera Instancia   143
 Derecho Procesal                                                                    Índice                                                        7
 
-
-## 3.5 Requisitos para ser representante                                                           146
-
-
-
-## 3.6 De la notificación de las calificaciones                                                    152
-
-
-
-## 3.6.1   Notificación a funcionarios o empleados con feriados, licencias médicas u otros   152
-
-
-
-## 3.6.2   Modificación en la forma de notificación                                          152
-
-
-
-## 3.7 Consecuencias de la Calificación                                                            154
-
-
-
-## 3.7.1   Remoción                                                                          154
-
-
-
-## 3.7.2   Ascenso                                                                           155
-
-
-
-## 3.7.3   Instrucciones incidentes en las Calificaciones                                    156
-
-
-
-## 3.7.4   Sistema informático de registro de calificaciones                                 157
-
-
-
-## 4. Normas Éticas y de Trabajo de los Jueces                                                        160
-
-
-
-## 4.1 Normativa internacional                                                                     163
-
-
-
-## 4.1.1   Los Principios de Bangalore                                                       163
-
-
-
-## 4.1.2   Código Iberoamericano de Ética Judicial                                           186
-
-
-
-## 4.2 Normativa nacional                                                                          196
-
-
-
-## 4.2.1   Constitución Política de la República de Chile                                    196
-
-
-
-## 4.2.2   Código Orgánico de Tribunales                                                     197
-
-
-
-## 4.2.3   Ley sobre Probidad en la función pública                                          199
-
-
-
-## 4.2.4   La normativa de la Corte Suprema                                                  200
-
-
-
-## 4.2.5   Sanciones                                                                         202
-
-
-                                           Conclusión                                                                                      204
-
-
-## 5. El procedimiento disciplinario en el Poder Judicial                                             205
-
-
-
-## 5.1 El procedimiento general                                                                    212
-
-
-
-## 5.1.1   Instrucción                                                                       212
-
-
-
-## 5.1.2   Etapa resolutiva                                                                  221
-
-
-
-## 5.1.3   Impugnación                                                                       225
-
-
-
-## 5.2 Procedimiento para juzgados reformados                                                      227
-
-
-
-## 5.2.1   Investigaciones contra los administradores de tribunal                            228
-
-
-
-## 5.3 Ley de Probidad                                                                             229
-
-
-
-## 5.4 Remoción de administradores y personal de los juzgados                                      231
-
-Derecho Procesal                                                                 Índice                                  8
-
-
-## 5.5 Tabla comparativa entre el procedimiento general y el establecido
-
-                                        		    por el COT para los tribunales reformados                           234
-
-
-## 5.6 Glosario                                                           236
-
-
-
-## 6. Procedimiento de Actuación para la prevención, denuncia y tratamiento
-
-                                           del Acoso sexual en el Poder Judicial de Chile                         237
-
-
-## 6.1 Reglas generales                                                   238
-
-
-
-## 6.2 Secretaría Técnica de Igualdad de Género y No Discriminación       241
-
-
-
-## 6.3 Procedimiento de denuncia                                          245
-
-
-
 ## 6.4 Procedimiento de investigación                                     250
 
+**Definición Canónica:** Bibliografía y anexos                                                     252
+Derecho Procesal                                                                                        9
+**Concordancias Legales:** Constitución Política; Constitucion
 
-                                        Bibliografía y anexos                                                     252
+Bibliografía y anexos                                                     252
 Derecho Procesal                                                                                        9
 
                                                     Tabla de abreviaturas
@@ -540,10 +308,12 @@ Orgánico y Funcional                    ﻿
                                                                           transparente, con capacidad para advertir y proponer cambios en
                                                                           pro de la justicia y del bien común.
 
-
 ## 1   PODER JUDICIAL, Acta N° 162-2019, p. 2
 
-                                        2   Ibídem.
+**Definición Canónica:** 2   Ibídem.
+**Concordancias Legales:** artículo 265 del Código Orgánico de Tribunales; artículo 267; artículo 285; artículo 280 del Código Orgánico de Tribunales; Constitución Política; Constitucion
+
+2   Ibídem.
 
 Derecho Procesal                        Introducción                                                         11
 
@@ -882,7 +652,14 @@ Orgánico y Funcional                    ﻿
 
 ## 17 Cortes de
 
-                                           Apelaciones
+**Definición Canónica:** Apelaciones
+                                            en el país
+                                                         Estas ejercen facultades directivas, correccionales y económicas
+                                                         respecto de los tribunales que existen dentro del territorio nacional
+                                                         y corresponde a estos tribunales la labor de la segunda instancia.
+**Concordancias Legales:** Constitución Política
+
+Apelaciones
                                             en el país
                                                          Estas ejercen facultades directivas, correccionales y económicas
                                                          respecto de los tribunales que existen dentro del territorio nacional
@@ -920,7 +697,10 @@ Orgánico y Funcional                    ﻿
 
 ## 45 Tribunales
 
-                                               Juicio Oral
+**Definición Canónica:** Juicio Oral
+                                                           de
+
+Juicio Oral
                                                            de
 
                                                  en lo Penal
@@ -931,10 +711,11 @@ Orgánico y Funcional                    ﻿
 
                                                          Juzgados de Familia
 
-
 ## 60 Juzgados
 
-                                           de Familia
+**Definición Canónica:** de Familia
+
+de Familia
 
                                                          Compuestos por uno o más jueces, como tribunal unipersonal cono-
                                                          cen de juicios de alimentos, tuición, medidas de protección, filiación,
@@ -946,10 +727,12 @@ Orgánico y Funcional                    ﻿
 
                                                          Juzgados de Letras del Trabajo
 
-
 ## 26 Juzgados
 
-                                           de Letras
+**Definición Canónica:** de Letras
+                                             y Trabajo
+
+de Letras
                                              y Trabajo
 
                                                          Compuestos por uno o más jueces, como tribunal unipersonal di-
@@ -963,10 +746,13 @@ Orgánico y Funcional                    ﻿
 
                                                            Juzgados de Cobranza Laboral y Previsional
 
-
 ## 4 Juzgados
 
-                                            de Cobranza
+**Definición Canónica:** de Cobranza
+                                             Laboral y
+                                             Previsional
+
+de Cobranza
                                              Laboral y
                                              Previsional
 
@@ -980,10 +766,13 @@ Orgánico y Funcional                    ﻿
 
                                                            Juzgados de competencia común
 
-
 ## 121 Juzgados de
 
-                                            competencia
+**Definición Canónica:** competencia
+                                             común
+**Concordancias Legales:** Ley N° 20.600
+
+competencia
                                              común
 
                                                            Son tribunales unipersonales de primera instancia, que conocen y
@@ -1041,11 +830,12 @@ Orgánico y Funcional                                                        Org
                                                                            permita revisar algunos de estos temas teóricos y su regulación desde
                                                                            los ojos de la experiencia y las necesidades de frecuente utilización.
 
-
 ## 1.1              Regulación Orgánica
 
+**Definición Canónica:** de Tribunales
+**Concordancias Legales:** artículo 76; Constitución Política; constitucion; Constitución
 
-                                                                           de Tribunales
+de Tribunales
 
                                                                            Para comenzar en el correcto punto de partida, según el profesor
                                                                            Correa Selamé el derecho procesal es “Aquella rama del derecho que
@@ -1156,7 +946,10 @@ Orgánico y Funcional                                                      Orgá
 
 ## 7   BORDALÍ SALAMANCA, Andrés (2009): “Organización judicial en el derecho chileno”, en Revista Chilena de
 
-                                            Derecho vol. 36 N° 2, pp. 215-244. Disponible online.
+**Definición Canónica:** Derecho vol. 36 N° 2, pp. 215-244. Disponible online.
+**Concordancias Legales:** artículos 19; artículo 19; Constitución; Constitucion
+
+Derecho vol. 36 N° 2, pp. 215-244. Disponible online.
 
 Derecho Procesal                        1. Derecho Procesal                                                    29
 
@@ -1239,10 +1032,15 @@ Orgánico y Funcional                                                      Orgá
 
 Derecho Procesal                        1. Derecho Procesal                                                         31
 
-
 ## 1.1.2 Disposiciones legales
 
-                                          En este punto nos detendremos en algunos aspectos de la regulación
+**Definición Canónica:** En este punto nos detendremos en algunos aspectos de la regulación
+                                          orgánica de los tribunales en el Código Orgánico de Tribunales, con
+                                          énfasis en aquellas que usualmente constituyen puntos críticos del
+                                          quehacer de la judicatura.
+**Concordancias Legales:** ley Nº 19.968; Constitución; constitucion
+
+En este punto nos detendremos en algunos aspectos de la regulación
                                           orgánica de los tribunales en el Código Orgánico de Tribunales, con
                                           énfasis en aquellas que usualmente constituyen puntos críticos del
                                           quehacer de la judicatura.
@@ -1306,8 +1104,10 @@ Orgánico y Funcional                                                      Orgá
 
 ## 51 COT; y
 
+**Definición Canónica:** —— Un Ministro de Corte de Apelaciones respectiva, art. 50 COT.
+**Concordancias Legales:** Ley Nº 19.908; DL 1939; constitucion
 
-                                              —— Un Ministro de Corte de Apelaciones respectiva, art. 50 COT.
+—— Un Ministro de Corte de Apelaciones respectiva, art. 50 COT.
 
                                           e. Jueces Letrados: tienen como superior jerárquico la Corte de
                                              Apelaciones respectiva y tienen competencia para el conocimiento
@@ -1448,18 +1248,20 @@ Orgánico y Funcional                                                        Org
                                                                            lo es la independencia e imparcialidad de los órganos que ejercen la
                                                                            función jurisdiccional”.10
 
-
 ## 10   Corte Suprema, rol N° 30.009 2019, sentencia recurso de protección de fecha 7 de septiembre 2019, consi-
 
-                                             derando 9°.
+**Definición Canónica:** derando 9°.
+
+derando 9°.
 
 Derecho Procesal                                                         1. Derecho Procesal                                                        37
 Orgánico y Funcional                                                        Orgánico y Funcional
 
-
 ## 1.2              Bases del ejercicio de la
 
-                                                                           función jurisdiccional
+**Definición Canónica:** función jurisdiccional
+
+función jurisdiccional
 
                                                                            Para revisar didácticamente los principales aspectos de nuestra función,
                                                                            su revisión a partir de las bases de la jurisdicción parece la más apropia-
@@ -1467,11 +1269,17 @@ Orgánico y Funcional                                                        Org
                                                                            establecidos por la ley para el adecuado y eficiente funcionamiento de los
                                                                            órganos jurisdiccionales”.11
 
-
 ## 1.2.1 Principios
 
+**Definición Canónica:** a. Legalidad
+                                                                              La legalidad como base para el ejercicio de la función jurisdic-
+                                                                              cional, que aparece contemplada en la CPR y en el COT, puede
+                                                                              ser apreciada desde tres puntos de vista:
+                                                                           —— Legalidad en sentido orgánico
+                                                                             
+**Concordancias Legales:** Ley Nº 18.918; Constitucion
 
-                                                                           a. Legalidad
+a. Legalidad
                                                                               La legalidad como base para el ejercicio de la función jurisdic-
                                                                               cional, que aparece contemplada en la CPR y en el COT, puede
                                                                               ser apreciada desde tres puntos de vista:
@@ -1551,24 +1359,23 @@ Orgánico y Funcional                                                        Org
                                               2. Prohibición de juzgamiento por comisiones especiales, art.
                                                  19 Nº 3 inc. 4 CPR.
 
-
 ## 3. La existencia previa de un debido proceso, para que como
 
-                                                 culminación de él se dicte el fallo que resuelva un conflicto,
+**Definición Canónica:** culminación de él se dicte el fallo que resuelva un conflicto,
+                                                 art. 19 Nº 3 inc. 5 CPR.
+
+culminación de él se dicte el fallo que resuelva un conflicto,
                                                  art. 19 Nº 3 inc. 5 CPR.
 
                                               4. Prohibición de presumir de derecho la responsabilidad penal,
                                                  art. 19 Nº3 inc. 6 CPR.
 
-
-## 5. Irretroactividad de la ley penal sancionatoria, art. 19 Nº 3
-
-                                                 inc. 7 CPR.
-
-
 ## 6. Prohibición de establecer leyes penales en blanco, art. 19 Nº
 
-                                                 3 inc. final CPR.
+**Definición Canónica:** 3 inc. final CPR.
+**Concordancias Legales:** Constitución
+
+3 inc. final CPR.
 
                                           b. Imparcialidad
                                              La imparcialidad judicial exige resolver un caso de acuerdo con
@@ -1667,16 +1474,24 @@ Orgánico y Funcional                                                         Or
                                                                                 polémicas en el ámbito de reformas procesales en Chile, que
                                                                                 “atendiendo a la posición de tercero del juez en el conflicto que
 
-
 ## 12   BORDALÍ SALAMANCA, Andrés (2009): “El derecho fundamental a un tribunal independiente e imparcial
 
-                                             en el ordenamiento jurídico chileno”, Revista de Derecho de la Pontificia Universidad Católica de Val-
+**Definición Canónica:** en el ordenamiento jurídico chileno”, Revista de Derecho de la Pontificia Universidad Católica de Val-
+                                             paraíso XXXIII, pp. 263-302. Versión digital en https://scielo.conicyt.cl/scielo.php?script=sci_arttext&pi-
+                                             d=S0718-68512009000200007
+
+en el ordenamiento jurídico chileno”, Revista de Derecho de la Pontificia Universidad Católica de Val-
                                              paraíso XXXIII, pp. 263-302. Versión digital en https://scielo.conicyt.cl/scielo.php?script=sci_arttext&pi-
                                              d=S0718-68512009000200007
 
 ## 13   E. Corte Suprema en rol Nº 2054-2015, citado en Correa Selamé, Jorge Danilo. Curso de Derecho procesal
 
-                                             tomo 1. Ediciones Jurídicas de Santiago EJS. Agosto 2018, pág. 90.
+**Definición Canónica:** tomo 1. Ediciones Jurídicas de Santiago EJS. Agosto 2018, pág. 90.
+                                        14   ALVARADO VELLOSO, Adolfo (2003): El debido proceso de la garantía constitucional, Editorial Zeus, Rosario,
+                                             p. 246.
+**Concordancias Legales:** constitucion
+
+tomo 1. Ediciones Jurídicas de Santiago EJS. Agosto 2018, pág. 90.
                                         14   ALVARADO VELLOSO, Adolfo (2003): El debido proceso de la garantía constitucional, Editorial Zeus, Rosario,
                                              p. 246.
 
@@ -1693,7 +1508,13 @@ Orgánico y Funcional                                                         Or
 
 ## parte del proceso, no ingresó al mundo jurídico y no debe ser
 
-                                                                                forzosamente ingresado, no es campo del juez solucionar las
+**Definición Canónica:** forzosamente ingresado, no es campo del juez solucionar las
+                                                                                supuestas desigualdades de las partes, además de constituir una
+                                                                                desnaturalización de su función, lo que conlleva necesariamente
+                                                                                a la pérdida seguridad jurídica, ya que nunca podremos mínima-
+**Concordancias Legales:** artículo 4 del COT; artículo 80; constitución; constitucion
+
+forzosamente ingresado, no es campo del juez solucionar las
                                                                                 supuestas desigualdades de las partes, además de constituir una
                                                                                 desnaturalización de su función, lo que conlleva necesariamente
                                                                                 a la pérdida seguridad jurídica, ya que nunca podremos mínima-
@@ -1933,10 +1754,18 @@ Orgánico y Funcional                                                         Or
 
 Derecho Procesal                        1. Derecho Procesal                                                   48
 
-
 ## 1.2.2 Reglas técnicas
 
-                                          A título de reglas técnicas para la organización judicial, daremos
+**Definición Canónica:** A título de reglas técnicas para la organización judicial, daremos
+                                          cuenta, en síntesis, de las siguientes.
+                                          a. Territorialidad
+                                             Cada tribunal ejerce sus funciones dentro de un territorio de-
+                                             terminado por la ley. Se encuentra establecido en el art. 7 COT:
+                                             “Los tribunales solo podrán ejercer su potestad en los negocios
+                                             y dentro del terri
+**Concordancias Legales:** artículo 110 del COT establece; Ley N° 19.968; Ley N° 21.057
+
+A título de reglas técnicas para la organización judicial, daremos
                                           cuenta, en síntesis, de las siguientes.
                                           a. Territorialidad
                                              Cada tribunal ejerce sus funciones dentro de un territorio de-
@@ -2018,8 +1847,11 @@ Orgánico y Funcional                                                         Or
 
 ## 10 COT: “los tribunales no podrán ejercer su ministerio sino a
 
+**Definición Canónica:** Derecho Procesal                                                          1. Derecho Procesal                                                    50
+Orgánico y Funcional                                                         Orgánico y Funcional
+**Concordancias Legales:** artículos 595; Artículo 78; artículo 213; Ley N° 19.541; constitucion
 
-Derecho Procesal                                                          1. Derecho Procesal                                                    50
+Derecho Procesal                                                          1. Derecho Procesal                                                    50
 Orgánico y Funcional                                                         Orgánico y Funcional
 
                                                                                 petición de parte salvo en los casos en que la ley les faculte para
@@ -2206,11 +2038,11 @@ Orgánico y Funcional                                               Orgánico y 
                                           a. Cortes de Apelaciones: (216 COT)
                                              1. Otros miembros no inhabilitados del tribunal.
 
-
 ## 2. Sus fiscales o
 
+**Definición Canónica:** 3. Abogados integrantes.
 
-                                              3. Abogados integrantes.
+3. Abogados integrantes.
 
                                           b. Corte Suprema: (217 COT)
                                              1. Otros miembros no inhabilitados de la Corte.
@@ -2222,20 +2054,24 @@ Orgánico y Funcional                                               Orgánico y 
 Derecho Procesal                              1. Derecho Procesal                                                      55
 Orgánico y Funcional                             Orgánico y Funcional
 
-
 ## 1.3     Auxiliares de la administración
 
-                                                de justicia
+**Definición Canónica:** de justicia
+
+de justicia
 
                                                 Revisaremos, a continuación, algunos elementos críticos de los
                                                 auxiliares de la administración de justicia en tanto se relacionan di-
                                                 rectamente con la organización y funcionamiento de un tribunal de
                                                 primera o única instancia, y especialmente con las labores del juez(a).
 
-
 ## 1.3.1 Secretarios
 
-                                                Ministros de fe pública, encargados de autorizar, salvo las excepciones
+**Definición Canónica:** Ministros de fe pública, encargados de autorizar, salvo las excepciones
+                                                legales, todas las providencias, despachos y actos emanados de las
+**Concordancias Legales:** artículo 517
+
+Ministros de fe pública, encargados de autorizar, salvo las excepciones
                                                 legales, todas las providencias, despachos y actos emanados de las
 
                                                 Cortes y juzgados, y de custodiar los procesos y todos los documentos
@@ -2289,10 +2125,16 @@ Orgánico y Funcional                             Orgánico y Funcional
                                           m. Los demás que ordenen las leyes o el tribunal, los que deberán
                                              ser conformados electrónicamente.
 
-
 ## 1.3.2 Administradores de los tribunales
 
-                                          con competencia en lo criminal
+**Definición Canónica:** con competencia en lo criminal
+                                          Son funcionarios auxiliares de la administración de la justicia en-
+                                          cargados de organizar y controlar la gestión administrativa de los
+                                          tribunales de juicio oral en lo penal y de los juzgados de garantía
+                                          según art. 389 COT.
+**Concordancias Legales:** artículo 389; Ley N° 19.968
+
+con competencia en lo criminal
                                           Son funcionarios auxiliares de la administración de la justicia en-
                                           cargados de organizar y controlar la gestión administrativa de los
                                           tribunales de juicio oral en lo penal y de los juzgados de garantía
@@ -2386,10 +2228,17 @@ Orgánico y Funcional                             Orgánico y Funcional
                                           además de ampliar y mejorar la entrega del servicio de administración
                                           de justicia conforme con los actuales desafíos del Poder Judicial.
 
-
 ## 1.3.3 Consejos Técnicos
 
-                                          Organismos auxiliares de la administración de justicia, compuestos
+**Definición Canónica:** Organismos auxiliares de la administración de justicia, compuestos
+                                          por profesionales en el número y con los requisitos que establece la
+                                          ley. Su función es asesorar individual o colectivamente a los jueces
+                                          con competencia en asuntos de familia, en el análisis y mayor com-
+                                          prensión de los asuntos sometidos a su conocimiento en el ámbito
+                                          de su especialidad.
+**Concordancias Legales:** artículo 7; Ley N° 19.968; Ley Nº 20.066
+
+Organismos auxiliares de la administración de justicia, compuestos
                                           por profesionales en el número y con los requisitos que establece la
                                           ley. Su función es asesorar individual o colectivamente a los jueces
                                           con competencia en asuntos de familia, en el análisis y mayor com-
@@ -2420,10 +2269,11 @@ Orgánico y Funcional                             Orgánico y Funcional
 Derecho Procesal                              1. Derecho Procesal                                                    60
 Orgánico y Funcional                             Orgánico y Funcional
 
-
 ## 1.4     Estructura orgánica
 
-                                                de los tribunales
+**Definición Canónica:** de los tribunales
+
+de los tribunales
 
                                                 A continuación, se entregará una orientación general sobre la orga-
                                                 nización actual de los tribunales en nuestro país. Como punto de
@@ -2432,11 +2282,13 @@ Orgánico y Funcional                             Orgánico y Funcional
                                                 distribución de las funciones y no se hará referencia a la distribución
                                                 de funciones dentro de un tribunal no reformado.
 
-
 ## 1.4.1 La separación entre las funciones
 
+**Definición Canónica:** jurisdiccionales y administrativas
+                                                Un principio básico en la organización judicial es la separación entre
+                                                el juez(a) y la administración del tribunal.
 
-                                                jurisdiccionales y administrativas
+jurisdiccionales y administrativas
                                                 Un principio básico en la organización judicial es la separación entre
                                                 el juez(a) y la administración del tribunal.
 
@@ -2504,10 +2356,16 @@ Orgánico y Funcional                             Orgánico y Funcional
                                          laboral, lo que redundará en una mejor atención al público usuario
                                          y a la comunidad en general.
 
-
 ## 1.4.2 El Comité de Jueces y el presidente(a)
 
-                                         del Comité de Jueces
+**Definición Canónica:** del Comité de Jueces
+                                         Determinada esta separación, debe tenerse presente que un tribu-
+                                         nal puede tener una conformación múltiple de jueces, por lo que,
+                                         si el tribunal está compuesto por tres o más magistrados, genera la
+                                         obligación de constituir un Comité de Jueces.
+**Concordancias Legales:** artículo 5; Ley N° 19.968
+
+del Comité de Jueces
                                          Determinada esta separación, debe tenerse presente que un tribu-
                                          nal puede tener una conformación múltiple de jueces, por lo que,
                                          si el tribunal está compuesto por tres o más magistrados, genera la
@@ -2567,21 +2425,15 @@ Orgánico y Funcional                                                         Or
                                                                             den funcionalmente del juez(a) presidente y administrativamente
                                                                             dependen del administrador(a) del tribunal.18
 
-
-## 18   Artículo 12. Acta 71-2016. Dependencia. Los miembros del escalafón de empleados, así como también los
-
-                                             jefes de unidad del respectivo tribunal, dependerán administrativa y funcionalmente del administrador. Por su
-
-## parte, los integrantes del Consejo Técnico dependerán funcionalmente del juez(a) o juez(a) presidente, según
-
-                                             corresponda, y administrativamente del administrador.
-
-Derecho Procesal                        1. Derecho Procesal                                                     64
-
-
 ## 1.4.3 Organización interna de la
 
-                                         administración del tribunal
+**Definición Canónica:** administración del tribunal
+                                         Centrando la atención en la distribución de funciones dentro de
+                                         la administración del tribunal, se debe precisar que todo tribunal
+                                         cuenta, al menos, con dos unidades administrativas: Unidad de
+                                         Administración de Causas y Sala y Unidad de Atención de Público.
+
+administración del tribunal
                                          Centrando la atención en la distribución de funciones dentro de
                                          la administración del tribunal, se debe precisar que todo tribunal
                                          cuenta, al menos, con dos unidades administrativas: Unidad de
@@ -2677,10 +2529,18 @@ Orgánico y Funcional                                                         Or
                                           analizaremos la figura del juez(a) presidente del Comité de Jueces y
                                           las importantes funciones que le corresponde dentro de cada tribunal.
 
-
 ## 1.4.4 El juez(a) presidente y su
 
-                                          vinculación con la administración
+**Definición Canónica:** vinculación con la administración
+                                          El juez(a) presidente del Comité de Jueces es elegido entre sus pares
+                                          y por sus pares (los miembros del Comité de Jueces), y su función
+                                          es representar al tribunal en actividades externas y vincularse con el
+                                          administrador(a). En tribunales reformados y de composición uni-
+                                          personal, las funciones de juez(a) presidente deben ser asumidas por
+               
+**Concordancias Legales:** artículo 24 del COT; Artículo 10; artículo 24 del Código Orgánico de Tribunales
+
+vinculación con la administración
                                           El juez(a) presidente del Comité de Jueces es elegido entre sus pares
                                           y por sus pares (los miembros del Comité de Jueces), y su función
                                           es representar al tribunal en actividades externas y vincularse con el
@@ -2830,15 +2690,17 @@ Orgánico y Funcional                                              cargas de tra
 Derecho Procesal                                                           2. Criterios normativos que regulan las                                 71
 Orgánico y Funcional                                                          cargas de trabajo dentro del Tribunal
 
-
-## 2.1               Normas
-
-                                                                             legales
-
-
 ## 2.1.1 Ley N° 20.628
 
-                                                                             En el año 2012 se publica la Ley N° 20.628 que modifica el código
+**Definición Canónica:** En el año 2012 se publica la Ley N° 20.628 que modifica el código
+                                                                             orgánico de tribunales y la Ley N° 19.665, que consta de dos ideas
+                                                                             matrices:
+                                                                             a. Modificar el Código Orgánico de Tribunales para obtener me-
+                                                                                jores niveles de administración y gestión en el Poder Judicial,
+                   
+**Concordancias Legales:** artículo 1; artículo 77 de la Constitución; artículo 101; Ley N° 20.628; Ley N° 19.665; Constitución Política
+
+En el año 2012 se publica la Ley N° 20.628 que modifica el código
                                                                              orgánico de tribunales y la Ley N° 19.665, que consta de dos ideas
                                                                              matrices:
                                                                              a. Modificar el Código Orgánico de Tribunales para obtener me-
@@ -2885,11 +2747,16 @@ Orgánico y Funcional                                                        car
                                                                            Finalmente, la ley agrega el artículo 101 en el Código Orgánico de
                                                                            Tribunales, que se revisa a continuación.
 
-
 ## 2.1.2 Artículo 101 Código Orgánico de Tribunales
 
+**Definición Canónica:** Cuando existieren desequilibrios entre las dotaciones de los jueces
+                                                                           y la carga de trabajo entre tribunales de una misma jurisdicción, la
+                                                                           Corte Suprema, a solicitud de la Corte de Apelaciones respectiva,
+                                                                           previo informe de la Corporación Administrativa del Poder
+                                                                           Judicial, en que consten los datos obje
+**Concordancias Legales:** artículo 27 bis; Artículo 101; artículo 311
 
-                                                                           Cuando existieren desequilibrios entre las dotaciones de los jueces
+Cuando existieren desequilibrios entre las dotaciones de los jueces
                                                                            y la carga de trabajo entre tribunales de una misma jurisdicción, la
                                                                            Corte Suprema, a solicitud de la Corte de Apelaciones respectiva,
                                                                            previo informe de la Corporación Administrativa del Poder
@@ -2957,10 +2824,18 @@ Orgánico y Funcional                                                        car
 
 Derecho Procesal                        2. Criterios normativos que regulan las                              74
 
-
 ## 2.1.3 Modificación al artículo 1°
 
-                                          transitorio de la Ley N° 19.665
+**Definición Canónica:** transitorio de la Ley N° 19.665
+                                          Excepcionalmente se diferirá el nombramiento de 131 cargos de
+                                          jueces de garantía y de jueces de tribunal de juicio oral en lo penal
+                                          en los territorios jurisdiccionales de las Cortes de Apelaciones de
+                                          Santiago y de San Miguel. Sus nombramientos serán realizados de
+                                          acuerdo a las necesidades derivadas de las cargas de trabajo de los
+                          
+**Concordancias Legales:** Ley N° 19.665; Ley N° 20.876; Ley N° 21.017
+
+transitorio de la Ley N° 19.665
                                           Excepcionalmente se diferirá el nombramiento de 131 cargos de
                                           jueces de garantía y de jueces de tribunal de juicio oral en lo penal
                                           en los territorios jurisdiccionales de las Cortes de Apelaciones de
@@ -3007,10 +2882,13 @@ Orgánico y Funcional                                                        car
                                           Por todo lo anterior, es deber del Estado disponer la configuración de
                                           un sistema de justicia que provea adecuada cobertura jurisdiccional.
 
-
 ## 2.1.4 Normativa complementaria
 
-                                          Ley N° 19.882 que regula una nueva política de personal para los
+**Definición Canónica:** Ley N° 19.882 que regula una nueva política de personal para los
+                                          funcionarios públicos.
+**Concordancias Legales:** Ley N° 19.882
+
+Ley N° 19.882 que regula una nueva política de personal para los
                                           funcionarios públicos.
 
                                           Documentos técnicos del programa de mejoramiento de la gestión
@@ -3023,19 +2901,15 @@ Orgánico y Funcional                                                        car
 Derecho Procesal                              2. Criterios normativos que regulan las                                76
 Orgánico y Funcional                             cargas de trabajo dentro del Tribunal
 
-
-## 2.2     Actas de la
-
-                                                Corte Suprema
-
-
-## 2.2.1 Auto acordado N° 71-2016
-
-                                                El Auto acordado N° 71-2016 de la Excma. Corte Suprema, en su
-
 ## capítulo III “De la administración del personal”, dispone en sus ar-
 
-                                                tículos 15 y siguientes, que la distribución del personal y asignación
+**Definición Canónica:** tículos 15 y siguientes, que la distribución del personal y asignación
+                                                de funciones deberá aprobarla el juez presidente, a proposición del
+                                                administrador, asegurando el debido funcionamiento del tribunal.
+                                                Ello complementa directamente el art. 14 de la misma norma que
+                                                estipula que la planificación del feriado legal, permisos administra-
+
+tículos 15 y siguientes, que la distribución del personal y asignación
                                                 de funciones deberá aprobarla el juez presidente, a proposición del
                                                 administrador, asegurando el debido funcionamiento del tribunal.
                                                 Ello complementa directamente el art. 14 de la misma norma que
@@ -3083,10 +2957,17 @@ Orgánico y Funcional                                                        car
                                                                               para desarrollar más de una actividad o desenvolverse en más de
                                                                               un puesto de trabajo.23
 
-
 ## 2.2.2 Acta N° 41-2020 de la Corte Suprema
 
-                                                                           Teletrabajo en el Poder Judicial
+**Definición Canónica:** Teletrabajo en el Poder Judicial
+                                                                           A raíz del estado de emergencia sanitaria del año 2020 en nuestro
+                                                                           país y en el mundo, la Excelentísima Corte Suprema a través de su
+                                                                           Acta N° 41-2020 regula el teletrabajo en el Poder Judicial a disponer
+                                                                           nuevas medidas referentes a las cargas de trabajo.
+              
+**Concordancias Legales:** Artículo 15; Artículo 16; Artículo 10
+
+Teletrabajo en el Poder Judicial
                                                                            A raíz del estado de emergencia sanitaria del año 2020 en nuestro
                                                                            país y en el mundo, la Excelentísima Corte Suprema a través de su
                                                                            Acta N° 41-2020 regula el teletrabajo en el Poder Judicial a disponer
@@ -3139,10 +3020,12 @@ Orgánico y Funcional                                                        car
 Derecho Procesal                              2. Criterios normativos que regulan las                                 79
 Orgánico y Funcional                             cargas de trabajo dentro del Tribunal
 
-
 ## 2.3     Plan anual
 
-                                                de trabajo
+**Definición Canónica:** de trabajo
+**Concordancias Legales:** Ley Nº 20.886
+
+de trabajo
 
                                                 El plan anual de trabajo es una guía que orienta el funcionamiento de
                                                 un Tribunal, identificando oportunidades de mejora, para establecer
@@ -3166,10 +3049,17 @@ Orgánico y Funcional                             cargas de trabajo dentro del T
                                                 expedita, siempre relacionada a los recursos digitales y tecnológicos
                                                 que impulsan a la institución a mantenerse a la vanguardia.
 
-
 ## 2.3.1 El plan estratégico institucional
 
-                                                En el año 2015 se publica el Plan Estratégico del Poder Judicial, que
+**Definición Canónica:** En el año 2015 se publica el Plan Estratégico del Poder Judicial, que
+                                                da a conocer el lineamiento de largo plazo que impulsa a la institu-
+                                                ción. La organización actúa cada día de acuerdo a su planificación
+                                                estratégica (misión, valores, temas estratégicos y plan de acción). La
+                                                declaración de esta visión define claramente los objetivos de media-
+                                                no plazo que s
+**Concordancias Legales:** artículo 3; Ley N° 20.886; Ley Nº 20.886; constitución
+
+En el año 2015 se publica el Plan Estratégico del Poder Judicial, que
                                                 da a conocer el lineamiento de largo plazo que impulsa a la institu-
                                                 ción. La organización actúa cada día de acuerdo a su planificación
                                                 estratégica (misión, valores, temas estratégicos y plan de acción). La
@@ -3342,10 +3232,17 @@ Orgánico y Funcional                                                         ca
 
 Derecho Procesal                        2. Criterios normativos que regulan las                                   84
 
-
 ## 2.3.3 Auto acordado N° 71-2016 de la Corte Suprema
 
-                                          La Ley N° 20.886 en su artículo segundo transitorio dispone que la
+**Definición Canónica:** La Ley N° 20.886 en su artículo segundo transitorio dispone que la
+                                          Corte Suprema dictará uno o más autos acordados con el objetivo de
+                                          asegurar la correcta implementación, entregar directrices generales para
+                                          el funcionamiento de los tribunales que tramitan electrónicamente para
+                                          adecuar y compatibilizar sus procedimientos con las reformas legales,
+                                          así como también modernizar los procesos a
+**Concordancias Legales:** artículos 18; Ley N° 20.886
+
+La Ley N° 20.886 en su artículo segundo transitorio dispone que la
                                           Corte Suprema dictará uno o más autos acordados con el objetivo de
                                           asegurar la correcta implementación, entregar directrices generales para
                                           el funcionamiento de los tribunales que tramitan electrónicamente para
@@ -3411,11 +3308,18 @@ Orgánico y Funcional                                                         ca
                                                   de apoyo al proceso de identificación de brechas y de pro-
                                                   puestas de mejora.
 
-
 ## Importante
 
+**Definición Canónica:** Un plan de trabajo debe responder a las siguientes interrogantes:
+                                          ¿Qué debe hacerse?              Tareas, acciones
+                                          ¿Cuándo se debe hacer?          Tiempo
+                                          ¿Cómo se debe hacer?            Estrategia
+                                          ¿Quién lo debe hacer?           Responsables
+                                          ¿Con qué recursos?              Humanos, técnicos, materiales
+                                          ¿Qué resultados se esperan? Metas
+          
 
-                                          Un plan de trabajo debe responder a las siguientes interrogantes:
+Un plan de trabajo debe responder a las siguientes interrogantes:
                                           ¿Qué debe hacerse?              Tareas, acciones
                                           ¿Cuándo se debe hacer?          Tiempo
                                           ¿Cómo se debe hacer?            Estrategia
@@ -3482,10 +3386,11 @@ Orgánico y Funcional                                                         ca
 
                                                     Administrador o secretario               Juez presidente
 
-
 ## 1. Presentar al Juez presidente      1. Aprobar el Plan Anual de Tra-
 
-                                                la propuesta del Plan Anual de       bajo que le presente el adminis-
+**Definición Canónica:** la propuesta del Plan Anual de       bajo que le presente el adminis-
+
+la propuesta del Plan Anual de       bajo que le presente el adminis-
 
                                                 Trabajo a más tardar el 15 de        trador en los plazos fijados en
                                                 noviembre de cada año para su        este Auto acordado.
@@ -3495,32 +3400,52 @@ Orgánico y Funcional                                                         ca
 
 ## 2. Fiscalizar el funcionamiento      resultado operativo y de gestión
 
-                                                de las unidades operativas del       del tribunal.
+**Definición Canónica:** de las unidades operativas del       del tribunal.
                                                 tribunal, ejerciendo las acciones
                                                 correctivas necesarias para el       3. Resolver con prontitud las pro-
                                                 cumplimiento del Plan Anual de       puestas del administrador para
                                                 Trabajo y de las instrucciones       subsanar las deficiencias que se
                                                 existentes.                          observen.
 
+de las unidades operativas del       del tribunal.
+                                                tribunal, ejerciendo las acciones
+                                                correctivas necesarias para el       3. Resolver con prontitud las pro-
+                                                cumplimiento del Plan Anual de       puestas del administrador para
+                                                Trabajo y de las instrucciones       subsanar las deficiencias que se
+                                                existentes.                          observen.
 
 ## 3. Elaborar un informe de gestión    4. Citar al comité de jueces en
 
-                                                del funcionamiento del tribunal,     aquellas ocasiones en que sea
+**Definición Canónica:** del funcionamiento del tribunal,     aquellas ocasiones en que sea
                                                 en el cual se presenten los in-      necesario que éste resuelva
                                                 dicadores aprobados en el Plan       cuestiones propias de su com-
                                                 Anual de Trabajo.                    petencia.
 
+del funcionamiento del tribunal,     aquellas ocasiones en que sea
+                                                en el cual se presenten los in-      necesario que éste resuelva
+                                                dicadores aprobados en el Plan       cuestiones propias de su com-
+                                                Anual de Trabajo.                    petencia.
 
 ## 4. Adoptar las medidas necesa-       5. Responder del cumplimiento
 
-                                                rias para detectar y evitar la re-   de las metas de gestión anual
+**Definición Canónica:** rias para detectar y evitar la re-   de las metas de gestión anual
                                                 iteración de errores en la trami-    en conjunto con el administrador
                                                 tación.                              del tribunal.
 
+rias para detectar y evitar la re-   de las metas de gestión anual
+                                                iteración de errores en la trami-    en conjunto con el administrador
+                                                tación.                              del tribunal.
 
 ## 5. Notificar las decisiones admi-    6.- Presentar oportunamente al
 
-                                                nistrativas a los funcionarios del   comité de jueces la propuesta
+**Definición Canónica:** nistrativas a los funcionarios del   comité de jueces la propuesta
+                                                tribunal, explicando las normas      del procedimiento objetivo y ge-
+                                                de gestión que sean adoptadas        neral de distribución de causas.
+                                                por el juez presidente y el propio
+                                                administrador.                       7 Resolver conflictos entre los
+                                                                                     jueces sobre
+
+nistrativas a los funcionarios del   comité de jueces la propuesta
                                                 tribunal, explicando las normas      del procedimiento objetivo y ge-
                                                 de gestión que sean adoptadas        neral de distribución de causas.
                                                 por el juez presidente y el propio
@@ -3529,7 +3454,14 @@ Orgánico y Funcional                                                         ca
 
 ## 6. Coordinarse adecuada y opor-      cedimiento objetivo y general de
 
-                                                tunamente con la Corporación         distribución de causas y la apli-
+**Definición Canónica:** tunamente con la Corporación         distribución de causas y la apli-
+                                                Zonal respectiva de la Corpo-        cación del Plan Anual de Trabajo.
+                                                ración Administrativa del Poder
+                                                Judicial.                            8. Desempeñar las demás fun-
+                                                                                     ciones legales y administrativas
+                                                                                     que le corres
+
+tunamente con la Corporación         distribución de causas y la apli-
                                                 Zonal respectiva de la Corpo-        cación del Plan Anual de Trabajo.
                                                 ración Administrativa del Poder
                                                 Judicial.                            8. Desempeñar las demás fun-
@@ -3545,7 +3477,13 @@ Orgánico y Funcional                                                         ca
 
 ## 1. Diagnóstico
 
-                                                  Para comenzar su elaboración debemos realizar un diagnóstico
+**Definición Canónica:** Para comenzar su elaboración debemos realizar un diagnóstico
+                                                  o identificación de las necesidades prioritarias. Para ello se
+                                                  sugiere que el administrador, o secretario que está elaboran-
+                                                  do el instrumento, realice un levantamiento de sugerencias
+                                                  en el tribunal, con opiniones de los jueces, encargados de
+
+Para comenzar su elaboración debemos realizar un diagnóstico
                                                   o identificación de las necesidades prioritarias. Para ello se
                                                   sugiere que el administrador, o secretario que está elaboran-
                                                   do el instrumento, realice un levantamiento de sugerencias
@@ -3553,8 +3491,12 @@ Orgánico y Funcional                                                         ca
 
 ## sección y funcionarios respecto de los indicadores de gestión
 
+**Definición Canónica:** y/o tramitación que son susceptibles de mejora. Se aconseja
+                                                  que además se secunde de estadísticas elaboradas a partir
+                                                  de los sistemas de tramitación que permitan identificar las
+                                                  oportunidades de mejora y necesidades de capacitación.
 
-                                                  y/o tramitación que son susceptibles de mejora. Se aconseja
+y/o tramitación que son susceptibles de mejora. Se aconseja
                                                   que además se secunde de estadísticas elaboradas a partir
                                                   de los sistemas de tramitación que permitan identificar las
                                                   oportunidades de mejora y necesidades de capacitación.
@@ -3574,10 +3516,16 @@ Orgánico y Funcional                                                         ca
                                                    definen los propósitos laborales del año. Estos deben ser
                                                    realistas y coherentes con los recursos disponibles.
 
-
 ## 2. Un programa de mejora continua que permita la polifun-
 
-                                                  cionalidad en el desempeño funcionario, en los procesos
+**Definición Canónica:** cionalidad en el desempeño funcionario, en los procesos
+                                                  de trabajo y la actualización de los sistemas informáticos
+                                                  Las acciones propuestas deberán ser acordes a la necesidad,
+                                                  capacidad y situación particular de cada tribunal, consideran-
+                                                  do plazos realistas y objetivos alcanzables, señalando plazos
+                                                  y responsables de su cumplimiento.
+
+cionalidad en el desempeño funcionario, en los procesos
                                                   de trabajo y la actualización de los sistemas informáticos
                                                   Las acciones propuestas deberán ser acordes a la necesidad,
                                                   capacidad y situación particular de cada tribunal, consideran-
@@ -3666,10 +3614,17 @@ Orgánico y Funcional                                                         ca
 
 Derecho Procesal                        2. Criterios normativos que regulan las                                 91
 
-
 ## 3. La confección de un Manual de Procedimiento Administra-
 
-                                                  tivo, la distribución de personal, la descripción y asignación
+**Definición Canónica:** tivo, la distribución de personal, la descripción y asignación
+                                                  de funciones de carácter obligatorio debiendo incorporar
+                                                  un modelo de reemplazos en al menos dos niveles
+                                                  Un manual de procedimiento es un documento de control
+                                                  interno, que se crea para entregar información detallada,
+                                                  ordenada, sistemática e integral que contiene todas las ins-
+         
+
+tivo, la distribución de personal, la descripción y asignación
                                                   de funciones de carácter obligatorio debiendo incorporar
                                                   un modelo de reemplazos en al menos dos niveles
                                                   Un manual de procedimiento es un documento de control
@@ -3720,10 +3675,12 @@ Orgánico y Funcional                                                         ca
                                                    gestión del recurso humano, la comunicación interna y el
                                                    funcionamiento de cada unidad judicial.
 
-
 ## 4. Dotación mínima de jueces y funcionarios. El estableci-
 
-                                                  miento de la dotación mínima de jueces y funcionarios que
+**Definición Canónica:** miento de la dotación mínima de jueces y funcionarios que
+                                                  permita asegurar el adecuado funcionamiento del tribunal
+
+miento de la dotación mínima de jueces y funcionarios que
                                                   permita asegurar el adecuado funcionamiento del tribunal
 
                                                   A través del análisis estadístico y operativo del tribunal, se
@@ -3738,10 +3695,17 @@ Orgánico y Funcional                                                         ca
                                                    como para la reasignación de personal en caso de ausencia
                                                    de funcionarios de alguna unidad.
 
-
 ## 5. Definición de indicadores de gestión que permitan evaluar
 
-                                                  su nivel de cumplimiento
+**Definición Canónica:** su nivel de cumplimiento
+                                                  Necesidad de disponer de información cuantificable, tenien-
+                                                  do en consideración las particulares circunstancias de cada
+                                                  juzgado, a modo de comparar la gestión del tribunal con el
+                                                  desempeño obtenido en periodos anteriores, logrando iden-
+                                                  tificar oportunidades de mejora y posibles herramientas que
+                            
+
+su nivel de cumplimiento
                                                   Necesidad de disponer de información cuantificable, tenien-
                                                   do en consideración las particulares circunstancias de cada
                                                   juzgado, a modo de comparar la gestión del tribunal con el
@@ -3758,10 +3722,13 @@ Orgánico y Funcional                                                         ca
 
 Derecho Procesal                        2. Criterios normativos que regulan las                                   93
 
-
 ## 6. La incorporación de modelos de plantillas de resoluciones
 
-                                                  aprobados por el Comité de Jueces
+**Definición Canónica:** aprobados por el Comité de Jueces
+                                                  Se sugiere que el administrador establezca un procedimiento
+                                                  para la elaboración de plantillas de resoluciones y actuaciones.
+
+aprobados por el Comité de Jueces
                                                   Se sugiere que el administrador establezca un procedimiento
                                                   para la elaboración de plantillas de resoluciones y actuaciones.
 
@@ -3789,10 +3756,17 @@ Orgánico y Funcional                                                         ca
                                           mayor información consultar con la Corporación Administrativa
                                           zonal, a fin de solicitar las respectivas capacitaciones.
 
-
 ## 7. La planificación de reuniones de coordinación interna
 
-                                                  para evaluar el cumplimiento del plan anual
+**Definición Canónica:** para evaluar el cumplimiento del plan anual
+                                                  Como una manera de obtener el compromiso con las acti-
+                                                  vidades del plan anual de trabajo es preciso que todos los
+                                                  miembros del tribunal participen en su elaboración, solici-
+                                                  tándose colaboración, sugerencias y revisión. Esto permite
+                                                  que el personal se sienta considerado y compenetrado con
+                
+
+para evaluar el cumplimiento del plan anual
                                                   Como una manera de obtener el compromiso con las acti-
                                                   vidades del plan anual de trabajo es preciso que todos los
                                                   miembros del tribunal participen en su elaboración, solici-
@@ -3819,10 +3793,17 @@ Orgánico y Funcional                                                         ca
                                                    de cumplimiento. En caso de existir desviaciones al Plan se
                                                    deberán adoptar las medidas correctivas pertinentes.
 
-
 ## 8. La definición de la periodicidad de confección y entrega
 
-                                                  del informe que el administrador deberá elaborar sobre
+**Definición Canónica:** del informe que el administrador deberá elaborar sobre
+                                                  el resultado operativo y de gestión del Tribunal, que se
+                                                  debe remitir a los jueces y al ministro visitador
+                                                  Se sugiere elaborar un informe trimestral que considere a lo
+                                                  menos lo establecido en el art. 19 del Acta N° 71-2016, esto
+                                                  es, horario de inicio de las audiencias, uso correcto de las
+     
+
+del informe que el administrador deberá elaborar sobre
                                                   el resultado operativo y de gestión del Tribunal, que se
                                                   debe remitir a los jueces y al ministro visitador
                                                   Se sugiere elaborar un informe trimestral que considere a lo
@@ -3833,10 +3814,17 @@ Orgánico y Funcional                                                         ca
                                                   uso de plantillas aprobadas, tiempo de duración de las au-
                                                   diencias, etcétera.
 
-
 ## 9. El establecimiento de los criterios de gestión adminis-
 
-                                                  trativa que el administrador considere necesarios para
+**Definición Canónica:** trativa que el administrador considere necesarios para
+                                                  alcanzar los objetivos del tribunal
+                                                  El administrador podrá incorporar todo tipo de propuestas
+                                                  que mitiguen o eliminen cualquier grado de conflicto interno
+                                                  al no estar predeterminadas las soluciones. Por ejemplo, en
+                                                  caso de licencia, comisiones de servicio, suplencias fuera del
+                 
+
+trativa que el administrador considere necesarios para
                                                   alcanzar los objetivos del tribunal
                                                   El administrador podrá incorporar todo tipo de propuestas
                                                   que mitiguen o eliminen cualquier grado de conflicto interno
@@ -3872,10 +3860,18 @@ Orgánico y Funcional                                                         ca
 
                                                    xi. Servicios generales
 
-
 ## 10. En tribunales con competencia en materia de familia el
 
-                                                   plan anual de trabajo establecerá un procedimiento único,
+**Definición Canónica:** plan anual de trabajo establecerá un procedimiento único,
+                                                   objetivo y general que determine la función de asesoría
+                                                   individual o colectiva, en sala o fuera de ésta, que deberán
+                                                   cumplir el o los consejeros técnicos
+                                                   Se sugiere considerar en este plan todas las funciones que de-
+                                                   sarrolla el Consejo Técnico, estableciendo procedimientos de
+         
+**Concordancias Legales:** Ley N° 19.968
+
+plan anual de trabajo establecerá un procedimiento único,
                                                    objetivo y general que determine la función de asesoría
                                                    individual o colectiva, en sala o fuera de ésta, que deberán
                                                    cumplir el o los consejeros técnicos
@@ -3906,10 +3902,17 @@ Orgánico y Funcional                                                         ca
 
                                                —— Funciones del coordinador del Consejo Técnico.
 
-
 ## 11. Definición y vinculación de acciones de estratégicas del
 
-                                                   tribunal alineadas con la Planificación Estratégica del
+**Definición Canónica:** tribunal alineadas con la Planificación Estratégica del
+                                                   PJUD 2015-2020 y Plan Plurianual de la I.C.A
+                                                   El objetivo primordial del presente plan de trabajo, confor-
+                                                   me lo establece el art. 18 del Acta N° 71-2016, es asegurar
+                                                   el buen funcionamiento del tribunal, entendiéndose por tal,
+                                                   ajustar sus procesos internos de trabajo para una correcta
+    
+
+tribunal alineadas con la Planificación Estratégica del
                                                    PJUD 2015-2020 y Plan Plurianual de la I.C.A
                                                    El objetivo primordial del presente plan de trabajo, confor-
                                                    me lo establece el art. 18 del Acta N° 71-2016, es asegurar
@@ -3920,10 +3923,16 @@ Orgánico y Funcional                                                         ca
                                                    Judicial y alineado con el Plan Plurianual de la respectiva
                                                    Corte de Apelaciones.
 
-
 ## 12. Evaluación
 
-                                                   La evaluación consiste en observar y registrar cómo se ha
+**Definición Canónica:** La evaluación consiste en observar y registrar cómo se ha
+                                                   cumplido lo programado, si se detectan contratiempos y cómo
+                                                   estos pueden ser reorientados para la toma de decisiones en el
+                                                   cumplimiento de los objetivos propuestos. Para el monitoreo
+                                                   se recomienda identificar indicadores que permitan evaluar
+                                                   el proceso de ejecución.
+
+La evaluación consiste en observar y registrar cómo se ha
                                                    cumplido lo programado, si se detectan contratiempos y cómo
                                                    estos pueden ser reorientados para la toma de decisiones en el
                                                    cumplimiento de los objetivos propuestos. Para el monitoreo
@@ -3933,10 +3942,12 @@ Orgánico y Funcional                                                         ca
 Derecho Procesal                              2. Criterios normativos que regulan las                                  97
 Orgánico y Funcional                             cargas de trabajo dentro del Tribunal
 
-
 ## 2.4     El procedimiento de distribución
 
-                                                de causas
+**Definición Canónica:** de causas
+**Concordancias Legales:** Artículo 39; Artículo 40; Artículo 41; artículos 5; artículo 4 del Acta N; Artículo 42; Artículo 43; Artículo 44; Artículo 45; Artículo 46; Artículo 47; artículo 6; Artículo 48; Artículo 49; Artículo 57; Artículo 58; Artículo 59; Artículo 60; Artículo 61; Artículo 62; Artículo 63; Artículo 64; Ley Nº 20.886; Constitución
+
+de causas
 
                                                 La ley de tramitación electrónica dio un verdadero vuelco a la forma
                                                 de trabajar del Poder Judicial, pero también en la forma de trabajo
@@ -4192,10 +4203,11 @@ Orgánico y Funcional                             cargas de trabajo dentro del T
 Derecho Procesal                              2. Criterios normativos que regulan las                                   104
 Orgánico y Funcional                             cargas de trabajo dentro del Tribunal
 
-
 ## 2.5     La descripción
 
-                                                de cargos
+**Definición Canónica:** de cargos
+
+de cargos
 
                                                 Muchas veces confundimos los términos “perfil de cargo” con “des-
                                                 cripción de cargo”. Hay que distinguir respecto de los dos conceptos
@@ -4206,10 +4218,15 @@ Orgánico y Funcional                             cargas de trabajo dentro del T
                                                 especificar las funciones que le serán asignadas por la naturaleza del
                                                 tribunal o de la función.
 
-
 ## 2.5.1 El perfil de cargo
 
-                                                Un perfil de cargo establece las contribuciones que realiza cada
+**Definición Canónica:** Un perfil de cargo establece las contribuciones que realiza cada
+                                                cargo para el cumplimiento de los objetivos institucionales y de su
+                                                equipo, y cómo puede lograrlo. A través de un perfil se describe la
+                                                dependencia de cada cargo dentro de la organización, su contenido
+                                                y los requisitos necesarios para el desempeño esperado.
+
+Un perfil de cargo establece las contribuciones que realiza cada
                                                 cargo para el cumplimiento de los objetivos institucionales y de su
                                                 equipo, y cómo puede lograrlo. A través de un perfil se describe la
                                                 dependencia de cada cargo dentro de la organización, su contenido
@@ -4255,10 +4272,15 @@ Orgánico y Funcional                                                       carg
                                                                           las funciones como las habilidades personales que deben poseer para
                                                                           desarrollar la tarea con eficiencia y responsabilidad.
 
-
 ## 2.5.2 La descripción de cargo
 
-                                                                          La descripción de cargos es una herramienta de Recursos Humanos
+**Definición Canónica:** La descripción de cargos es una herramienta de Recursos Humanos
+                                                                          que contempla una enumeración de funciones, responsabilidades y
+                                                                          atribuciones que conforman cada uno de los empleos de una institu-
+                                                                          ción, definiendo el objetivo que cumplen cada uno de ellos. Considera
+                                                                          el resumen de los conocimientos, habili
+
+La descripción de cargos es una herramienta de Recursos Humanos
                                                                           que contempla una enumeración de funciones, responsabilidades y
                                                                           atribuciones que conforman cada uno de los empleos de una institu-
                                                                           ción, definiendo el objetivo que cumplen cada uno de ellos. Considera
@@ -4328,10 +4350,11 @@ Orgánico y Funcional                                                       carg
 Derecho Procesal                              2. Criterios normativos que regulan las                              108
 Orgánico y Funcional                             cargas de trabajo dentro del Tribunal
 
-
 ## 2.6     Juez y
 
-                                                administración
+**Definición Canónica:** administración
+
+administración
 
                                                 Se reconoce que el secretario o administrador de un tribunal posee
                                                 funciones más bien de organización administrativa o de gestión,
@@ -4339,10 +4362,11 @@ Orgánico y Funcional                             cargas de trabajo dentro del T
                                                 respecto de algunas medidas administrativas a propuesta del admi-
                                                 nistrador o secretario.
 
-
 ## 2.6.1 Juez
 
-                                                Respecto de las funciones del juez podemos señalar los siguientes
+**Definición Canónica:** Respecto de las funciones del juez podemos señalar los siguientes
+
+Respecto de las funciones del juez podemos señalar los siguientes
 
                                                 ejemplos: las reformas a los procedimientos jurisdiccionales en ma-
                                                 teria penal, de familia y laboral, que se han implementado desde el
@@ -4371,18 +4395,25 @@ Orgánico y Funcional                             cargas de trabajo dentro del T
 
 Derecho Procesal                        2. Criterios normativos que regulan las                                109
 
-
 ## 2.6.1.1 Misión y objetivo principal del cargo
 
-                                          Según el art. 24 del COT, debe ejercer funciones directivas que se le
+**Definición Canónica:** Según el art. 24 del COT, debe ejercer funciones directivas que se le
                                           asignan como Juez presidente, y estar en constante coordinación con
                                           el administrador de tribunal, con el objetivo de velar por el adecuado
                                           funcionamiento de este.
 
+Según el art. 24 del COT, debe ejercer funciones directivas que se le
+                                          asignan como Juez presidente, y estar en constante coordinación con
+                                          el administrador de tribunal, con el objetivo de velar por el adecuado
+                                          funcionamiento de este.
 
 ## 2.6.1.2 Deberes y responsabilidades
 
-                                          Supervisión de personal
+**Definición Canónica:** Supervisión de personal
+                                          Aprobar los criterios de gestión administrativa que le proponga el
+                                          administrador del tribunal y supervisar su ejecución.
+
+Supervisión de personal
                                           Aprobar los criterios de gestión administrativa que le proponga el
                                           administrador del tribunal y supervisar su ejecución.
 
@@ -4450,10 +4481,13 @@ Orgánico y Funcional                             cargas de trabajo dentro del T
                                           Desempeñar las demás funciones legales y administrativas que le
                                           correspondan.
 
-
 ## 2.6.1.3 Principales funciones
 
-                                          Conocer todas las causas que le sean asignadas, resolverlas y hacer
+**Definición Canónica:** Conocer todas las causas que le sean asignadas, resolverlas y hacer
+                                          ejecutar lo juzgado de acuerdo a la normativa vigente.
+**Concordancias Legales:** artículo 24 del COT
+
+Conocer todas las causas que le sean asignadas, resolverlas y hacer
                                           ejecutar lo juzgado de acuerdo a la normativa vigente.
 
                                           Conocer y resolver todas las cuestiones y asuntos que el COT y la Ley
@@ -4526,38 +4560,54 @@ Orgánico y Funcional                             cargas de trabajo dentro del T
                                           po a propiciar un clima de cuidado mutuo, respeto y colaboración al
                                           interior del tribunal, conforme a la Política de Clima Laboral.
 
-
 ## 2.6.1.4 Instancias con las que se relaciona
 
-                                          En el desempeño de su cargo se relaciona con la Iltma. Corte de
+**Definición Canónica:** En el desempeño de su cargo se relaciona con la Iltma. Corte de
                                           Apelaciones de la jurisdicción, Corporación Administrativa del Po-
                                           der Judicial, abogados, Excma. Corte Suprema, Defensoría, Fiscalía,
                                           Carabineros de Chile, PDI, Sename, Servicio Médico Legal, CAJ,
                                           Gendarmería de Chile y toda entidad e institución que tenga relación
                                           con el tribunal.
 
+En el desempeño de su cargo se relaciona con la Iltma. Corte de
+                                          Apelaciones de la jurisdicción, Corporación Administrativa del Po-
+                                          der Judicial, abogados, Excma. Corte Suprema, Defensoría, Fiscalía,
+                                          Carabineros de Chile, PDI, Sename, Servicio Médico Legal, CAJ,
+                                          Gendarmería de Chile y toda entidad e institución que tenga relación
+                                          con el tribunal.
 
 ## 2.6.2 Administrador
 
-                                          Respecto de las funciones del administrador podemos señalar los
+**Definición Canónica:** Respecto de las funciones del administrador podemos señalar los
+                                          ejemplos que se mencionan a continuación.
+
+Respecto de las funciones del administrador podemos señalar los
                                           ejemplos que se mencionan a continuación.
 
 Derecho Procesal                        2. Criterios normativos que regulan las                                  113
 
-
 ## 2.6.2.1 Misión y objetivo principal del cargo
 
-                                          Planificar, organizar, dirigir y controlar las actividades y tareas que se
+**Definición Canónica:** Planificar, organizar, dirigir y controlar las actividades y tareas que se
                                           desarrollan al interior del tribunal, velando por la optimización de los
                                           recursos financieros y humanos, supervisando al personal a cargo y
                                           coordinando tanto las funciones operativas como las del área jurisdic-
                                           cional, además de las relaciones del tribunal con instituciones externas.
 
+Planificar, organizar, dirigir y controlar las actividades y tareas que se
+                                          desarrollan al interior del tribunal, velando por la optimización de los
+                                          recursos financieros y humanos, supervisando al personal a cargo y
+                                          coordinando tanto las funciones operativas como las del área jurisdic-
+                                          cional, además de las relaciones del tribunal con instituciones externas.
 
 ## 2.6.2.2 Deberes y responsabilidades
 
+**Definición Canónica:** —— Supervisión de personal
+                                             Responsable de planificar, organizar, dirigir y controlar las labores
+                                             administrativas del tribunal, supervisando el buen funcionamiento
+                                             de cada una de sus unidades, optimizando la gestión del equipo
 
-                                          —— Supervisión de personal
+—— Supervisión de personal
                                              Responsable de planificar, organizar, dirigir y controlar las labores
                                              administrativas del tribunal, supervisando el buen funcionamiento
                                              de cada una de sus unidades, optimizando la gestión del equipo
@@ -4601,11 +4651,13 @@ Orgánico y Funcional                             cargas de trabajo dentro del T
                                                nal y que conozca durante el desempeño de sus funciones, en
                                                concordancia a la Ley de Transparencia.
 
-
 ## 2.6.2.3 Principales funciones
 
+**Definición Canónica:** Presentar al juez presidente la propuesta del plan anual de Trabajo a
+                                          más tardar el 15 de noviembre de cada año para su análisis, consulta,
+                                          evaluación y posterior aprobación.
 
-                                          Presentar al juez presidente la propuesta del plan anual de Trabajo a
+Presentar al juez presidente la propuesta del plan anual de Trabajo a
                                           más tardar el 15 de noviembre de cada año para su análisis, consulta,
                                           evaluación y posterior aprobación.
 
@@ -4781,10 +4833,17 @@ Orgánico y Funcional                             cargas de trabajo dentro del T
                                           po a propiciar un clima de cuidado mutuo, respeto y colaboración al
                                           interior del tribunal, conforme a la Política de Clima Laboral.
 
-
 ## 2.6.2.4 Instancias con las que se relaciona
 
-                                          En el desempeño de su cargo se relaciona con la Ilma. Corte de
+**Definición Canónica:** En el desempeño de su cargo se relaciona con la Ilma. Corte de
+                                          Apelaciones de la jurisdicción, Corporación Administrativa del Po-
+                                          der Judicial, abogados, Excma. Corte Suprema, Defensoría, Fiscalía,
+                                          Carabineros de Chile, PDI, Sename, Servicio Médico Legal, CAJ,
+                                          Gendarmería de Chile y toda entidad e institución que tenga relación
+                                          con el tribunal.
+**Concordancias Legales:** artículos 270
+
+En el desempeño de su cargo se relaciona con la Ilma. Corte de
                                           Apelaciones de la jurisdicción, Corporación Administrativa del Po-
                                           der Judicial, abogados, Excma. Corte Suprema, Defensoría, Fiscalía,
                                           Carabineros de Chile, PDI, Sename, Servicio Médico Legal, CAJ,
@@ -4807,10 +4866,12 @@ Orgánico y Funcional                                                         el
                                                                             de septiembre 2007 relativo al “sistema de evaluación del desempeño
                                                                             de funcionarios y empleados del Poder Judicial”.
 
-
 ## 3.1               Marco
 
-                                                                            normativo
+**Definición Canónica:** normativo
+**Concordancias Legales:** artículos 270
+
+normativo
 
                                         El objetivo esencial                “Los funcionarios del Escalafón Primario, con la sola excepción de
                                                                             los ministros y fiscal judicial de la Corte Suprema, los funcionarios
@@ -4841,15 +4902,12 @@ Orgánico y Funcional                                                         el
 
                                           Autos acordados, actas y otras instrucciones.
 
-
-## 2014.10.25 Acta N° 182-2014 auto acordado sobre el régimen de
-
-                                          calificación a los miembros del poder judicial.
-
-
 ## 2015.08.31 Acta Nº 142-2015, texto refundido del auto acordado
 
-                                          sobre el régimen de calificación a los miembros del Poder Judicial.
+**Definición Canónica:** sobre el régimen de calificación a los miembros del Poder Judicial.
+**Concordancias Legales:** Constitución Política
+
+sobre el régimen de calificación a los miembros del Poder Judicial.
 
                                           2014.11.18 Acta Nº 199-2014, rectifica Acta Nº 182-2014.
 
@@ -4874,10 +4932,11 @@ Orgánico y Funcional                                                         el
 Derecho Procesal                              3. Las calificaciones en                                                           122
 Orgánico y Funcional                             el Poder Judicial
 
-
 ## 3.2     Antecedentes
 
-                                                generales
+**Definición Canónica:** generales
+
+generales
 
                                                 La Calificación debe fundamentarse en los siguientes antecedentes
                                                 objetivos:
@@ -4915,10 +4974,14 @@ Orgánico y Funcional                             el Poder Judicial
                                           Para mayor información ver subcriterios del punto sexto del Acta
                                           Nº 142-2015 de la Corte Suprema.
 
-
 ## 3.2.1 Periodo de Calificación
 
-                                          Las calificaciones se realizarán de forma anual y el periodo a calificar
+**Definición Canónica:** Las calificaciones se realizarán de forma anual y el periodo a calificar
+                                          corresponderá a doce meses (desde el 1 de noviembre al 31 de octu-
+                                          bre). El proceso de calificaciones deberá iniciarse el 1 de noviembre
+                                          y quedar terminado, a más tardar, el 31 de enero de cada año.
+
+Las calificaciones se realizarán de forma anual y el periodo a calificar
                                           corresponderá a doce meses (desde el 1 de noviembre al 31 de octu-
                                           bre). El proceso de calificaciones deberá iniciarse el 1 de noviembre
                                           y quedar terminado, a más tardar, el 31 de enero de cada año.
@@ -4964,10 +5027,14 @@ Orgánico y Funcional                             el Poder Judicial
 
 Derecho Procesal                        3. Las calificaciones en                                                   124
 
-
 ## 3.2.2 Comisión calificadora
 
-                                          Actuará como secretario de la comisión el secretario del tribunal
+**Definición Canónica:** Actuará como secretario de la comisión el secretario del tribunal
+                                          donde se desempeñe su presidente, o en su defecto, el secretario
+                                          más antiguo de cualquiera de los tribunales cuyos jueces integren
+                                          la comisión, y si hubiere dos o más secretarios, el que éste designe.
+
+Actuará como secretario de la comisión el secretario del tribunal
                                           donde se desempeñe su presidente, o en su defecto, el secretario
                                           más antiguo de cualquiera de los tribunales cuyos jueces integren
                                           la comisión, y si hubiere dos o más secretarios, el que éste designe.
@@ -4977,11 +5044,11 @@ Orgánico y Funcional                             el Poder Judicial
                                           subordinados o auxiliares de la administración de justicia de su
                                           territorio jurisdiccional.
 
-
 ## 3.2.3 Funciones del secretario de la comisión
 
+**Definición Canónica:** a.                                      b.
 
-                                           a.                                      b.
+a.                                      b.
 
                                            Reunir las hojas de vida con            Recibir las opiniones que se
                                            los antecedentes de las per-            formulen en conformidad al
@@ -5018,10 +5085,11 @@ Orgánico y Funcional                             el Poder Judicial
 Derecho Procesal                              3. Las calificaciones en                                                      125
 Orgánico y Funcional                             el Poder Judicial
 
-
 ## 3.3     Proceso de
 
-                                                Calificación
+**Definición Canónica:** Calificación
+
+Calificación
 
                                                 El proceso de Calificación contempla tres etapas definidas:
 
@@ -5037,10 +5105,13 @@ Orgánico y Funcional                             el Poder Judicial
                                                     Apelación              en contra de la resolución de la comisión
                                                                            calificadora.
 
-
 ## 3.3.1 Precalificación
 
-                                                Es la evaluación previa realizada por el jefe directo del funcionario,
+**Definición Canónica:** Es la evaluación previa realizada por el jefe directo del funcionario,
+                                                o de quien depende en forma inmediata la persona a calificar para
+                                                facilitar el trabajo del órgano calificador.
+
+Es la evaluación previa realizada por el jefe directo del funcionario,
                                                 o de quien depende en forma inmediata la persona a calificar para
                                                 facilitar el trabajo del órgano calificador.
 
@@ -5048,10 +5119,17 @@ Orgánico y Funcional                             el Poder Judicial
                                                 NO puede calificar y si lo hiciere existiría un vicio de legalidad en
                                                 el proceso.
 
-
 ## 3.3.1.1 Contenido de la Precalificación
 
-                                                Los conceptos, notas debidamente fundamentadas y antecedentes
+**Definición Canónica:** Los conceptos, notas debidamente fundamentadas y antecedentes
+                                                que el jefe debe proporcionar por escrito, considerando las anota-
+                                                ciones de mérito y demérito, informes de desempeño e informe de
+                                                precalificación. Con una precalificación insuficientemente fundada,
+                                                la comisión NO puede calificar y si lo hiciere existiría un vicio de
+                                                legalidad en el proceso.
+**Concordancias Legales:** artículo 277
+
+Los conceptos, notas debidamente fundamentadas y antecedentes
                                                 que el jefe debe proporcionar por escrito, considerando las anota-
                                                 ciones de mérito y demérito, informes de desempeño e informe de
                                                 precalificación. Con una precalificación insuficientemente fundada,
@@ -5172,10 +5250,17 @@ Orgánico y Funcional                             el Poder Judicial
 
                                           mismo artículo.
 
-
 ## 3.3.2 Calificación
 
-                                          Es la evaluación efectuada por la comisión calificadora, teniendo
+**Definición Canónica:** Es la evaluación efectuada por la comisión calificadora, teniendo
+                                          como base la precalificación del jefe directo del funcionario. Para
+                                          el cumplimiento de su cometido, podrá requerir la concurrencia
+                                          de cualquier funcionario calificado o su respectivo precalificador y,
+                                          asimismo, disponer todas las diligencias y actuaciones que estime
+                                          necesarias.
+**Concordancias Legales:** artículo 15; artículo 506; artículo 273; Ley N° 19.346
+
+Es la evaluación efectuada por la comisión calificadora, teniendo
                                           como base la precalificación del jefe directo del funcionario. Para
                                           el cumplimiento de su cometido, podrá requerir la concurrencia
                                           de cualquier funcionario calificado o su respectivo precalificador y,
@@ -5430,10 +5515,13 @@ Orgánico y Funcional                             el Poder Judicial
                                           nales, se considerará la forma como ellos han calificado, a su vez, al
                                           personal a su cargo.
 
-
 ## 3.3.3 Impugnación de la Calificación
 
-                                          Son todos aquellos recursos con que cuenta el funcionario en contra
+**Definición Canónica:** Son todos aquellos recursos con que cuenta el funcionario en contra
+                                          de la resolución de la comisión calificadora.
+**Concordancias Legales:** artículo 276 del Código Orgánico de Tribunales y lo concederá
+
+Son todos aquellos recursos con que cuenta el funcionario en contra
                                           de la resolución de la comisión calificadora.
 
                                           Contra las resoluciones que determinen la calificación, procederán
@@ -5502,13 +5590,12 @@ Orgánico y Funcional                                                        el 
 
                                                                            Si lo concede, el secretario de ese tribunal dará cumplimiento a la
 
-## parte final de dicho inciso sexto remitiendo todos los antecedentes
-
-
-
 ## 31   Acta N° 181-2007, Sistema de evaluación del desempeño de funcionarios y empleados del Poder Judicial (de
 
-                                             26 de septiembre de 2007).
+**Definición Canónica:** 26 de septiembre de 2007).
+**Concordancias Legales:** artículo 276 del Código Orgánico de Tribunales
+
+26 de septiembre de 2007).
 
 Derecho Procesal                                                          3. Las calificaciones en                                                        136
 Orgánico y Funcional                                                         el Poder Judicial
@@ -5530,15 +5617,16 @@ Orgánico y Funcional                                                         el
                                                                             instancia, el que estampará el cúmplase respectivo que deberá ser
                                                                             notificado personalmente o por carta certificada.32
 
-
-## 3.3.4 Cronograma de calificaciones
-
-
-
 ## Actividad                    plazo                  responsable
 
+**Definición Canónica:** Constitución de la co-    Mes de octubre de cada        Secretario o adminis-
+                                                                            misión calificadora.      año.                          trador del tribunal.
+                                                                            Reunir las hojas de vida Primeros 15 días del mes       Secretario de la comi-
+                                                                            con los antecedentes     de noviembre de cada año.      sión calificadora.
+                                                               
+**Concordancias Legales:** Constitución
 
-                                                                            Constitución de la co-    Mes de octubre de cada        Secretario o adminis-
+Constitución de la co-    Mes de octubre de cada        Secretario o adminis-
                                                                             misión calificadora.      año.                          trador del tribunal.
                                                                             Reunir las hojas de vida Primeros 15 días del mes       Secretario de la comi-
                                                                             con los antecedentes     de noviembre de cada año.      sión calificadora.
@@ -5566,10 +5654,17 @@ Orgánico y Funcional                                                         el
 
 Derecho Procesal                        3. Las calificaciones en                                               137
 
-
 ## 3.3.5 De la ejecutoriedad de las calificaciones
 
-                                          Los secretarios de los órganos calificadores deberán remitir copia de
+**Definición Canónica:** Los secretarios de los órganos calificadores deberán remitir copia de
+                                          las calificaciones ejecutoriadas a los organismos señalados en el inciso
+                                          final del artículo 276 mediante oficio reservado. El bibliotecario de la
+                                          Corte Suprema tendrá a su cargo la custodia de todos los documentos
+                                          originales de calificación de los funcionarios y empleados del Poder
+                                          Judicial, los que le deberán ser remi
+**Concordancias Legales:** artículo 276
+
+Los secretarios de los órganos calificadores deberán remitir copia de
                                           las calificaciones ejecutoriadas a los organismos señalados en el inciso
                                           final del artículo 276 mediante oficio reservado. El bibliotecario de la
                                           Corte Suprema tendrá a su cargo la custodia de todos los documentos
@@ -5590,7 +5685,16 @@ Orgánico y Funcional                                                         el
 
 ## 3.3.6 Transparencia en el procedimiento de Calificación
 
-                                          Para la realización del proceso de calificación deberán respetarse las
+**Definición Canónica:** Para la realización del proceso de calificación deberán respetarse las
+                                          siguientes normas:
+                                          a. Las calificaciones individuales y los antecedentes contenidos en
+                                             la hoja de vida de cada funcionario tendrán el carácter de reser-
+                                             vadas, salvo para el titular de esta información.
+                                               Los evaluados tendrán derecho a solicitar información sobre
+                                             
+**Concordancias Legales:** artículo 275 del Código Orgánico de Tribunales
+
+Para la realización del proceso de calificación deberán respetarse las
                                           siguientes normas:
                                           a. Las calificaciones individuales y los antecedentes contenidos en
                                              la hoja de vida de cada funcionario tendrán el carácter de reser-
@@ -5712,15 +5816,16 @@ Orgánico y Funcional                                                         el
 Derecho Procesal                              3. Las calificaciones en                                                  141
 Orgánico y Funcional                             el Poder Judicial
 
-
-## 3.4     Comisiones
-
-                                                Precalificadoras
-
-
 ## 3.4.1 De las Comisiones Precalificadoras
 
-                                                de la Corte Suprema
+**Definición Canónica:** de la Corte Suprema
+                                                Para abordar la materia de elección de representantes de la comisión
+                                                precalificadora de la Corte Suprema se debe tener en consideración lo
+                                                dispuesto por el Acta N° 193-2014, de fecha 12 de noviembre de 2014,
+                                                que regula el mecanismo de elección de representantes en comisión
+                                                precalificadora de la Corte Suprema, y el Acta N° 141-2015, de fec
+
+de la Corte Suprema
                                                 Para abordar la materia de elección de representantes de la comisión
                                                 precalificadora de la Corte Suprema se debe tener en consideración lo
                                                 dispuesto por el Acta N° 193-2014, de fecha 12 de noviembre de 2014,
@@ -5826,20 +5931,28 @@ Orgánico y Funcional                             el Poder Judicial
                                           posición el funcionario que le hubiere seguido en cantidad de votos
                                           en la respectiva elección.
 
-
 ## 3.4.2 De las Comisiones Precalificadoras en las Cortes
 
-                                          de Apelaciones y Tribunales de Primera Instancia
+**Definición Canónica:** de Apelaciones y Tribunales de Primera Instancia
                                           Para abordar la materia de elección de representantes de la comisión
                                           precalificadora las Cortes de Apelaciones y tribunales de primera
                                           instancia, se debe tener en consideración lo dispuesto por el Acta Nº
                                           167-2015, de fecha 2 de octubre de 2015, que regula el procedimiento
                                           de elección de representantes en las comisiones precalificadoras.
 
+de Apelaciones y Tribunales de Primera Instancia
+                                          Para abordar la materia de elección de representantes de la comisión
+                                          precalificadora las Cortes de Apelaciones y tribunales de primera
+                                          instancia, se debe tener en consideración lo dispuesto por el Acta Nº
+                                          167-2015, de fecha 2 de octubre de 2015, que regula el procedimiento
+                                          de elección de representantes en las comisiones precalificadoras.
 
 ## 3.4.2.1 Integración del Órgano Precalificador
 
-                                          A fin de facilitar el análisis de los antecedentes de los funcionarios
+**Definición Canónica:** A fin de facilitar el análisis de los antecedentes de los funcionarios
+                                          y empleados que corresponda evaluar a cada órgano calificador, se
+
+A fin de facilitar el análisis de los antecedentes de los funcionarios
                                           y empleados que corresponda evaluar a cada órgano calificador, se
 
 Derecho Procesal                        3. Las calificaciones en                                               144
@@ -5887,10 +6000,14 @@ Orgánico y Funcional                             el Poder Judicial
                                                En tribunales con hasta tres consejeros técnicos la precalificación
                                                será efectuada por el Juez presidente del tribunal.
 
-
 ## 3.4.2.2 Representantes de los escalafones
 
-                                          o estamentos a ser elegidos
+**Definición Canónica:** o estamentos a ser elegidos
+                                          Para integrar las comisiones precalificadoras deberán elegirse los
+                                          siguientes representantes de cada una de los siguientes escalafones
+                                          o estamentos:
+
+o estamentos a ser elegidos
                                           Para integrar las comisiones precalificadoras deberán elegirse los
                                           siguientes representantes de cada una de los siguientes escalafones
                                           o estamentos:
@@ -5923,10 +6040,12 @@ Orgánico y Funcional                             el Poder Judicial
 Derecho Procesal                              3. Las calificaciones en                                              146
 Orgánico y Funcional                             el Poder Judicial
 
-
 ## 3.5     Requisitos para ser
 
-                                                representante
+**Definición Canónica:** representante
+**Concordancias Legales:** artículo 3; artículo 4
+
+representante
 
                                                 Para ser representante del personal en las comisiones precalificadoras
                                                 se debe dar cumplimiento a los siguientes requisitos:
@@ -6159,15 +6278,15 @@ Orgánico y Funcional                                                       el P
 Derecho Procesal                                                          3. Las calificaciones en                                               152
 Orgánico y Funcional                                                         el Poder Judicial
 
-
-## 3.6               De la notificación de
-
-                                                                            las calificaciones
-
-
 ## 3.6.1 Notificación a funcionarios o empleados
 
-                                                                            con feriados, licencias médicas u otros
+**Definición Canónica:** con feriados, licencias médicas u otros
+                                                                            Los secretarios de los órganos calificadores deberán notificar a los
+                                                                            evaluados el resultado de sus calificaciones, privadamente, tan pron-
+                                                                            to como finalice el proceso, entregándole copia de la parte que le
+                                                                            concierna del libro de acta personalmente o remiti
+
+con feriados, licencias médicas u otros
                                                                             Los secretarios de los órganos calificadores deberán notificar a los
                                                                             evaluados el resultado de sus calificaciones, privadamente, tan pron-
                                                                             to como finalice el proceso, entregándole copia de la parte que le
@@ -6190,10 +6309,16 @@ Orgánico y Funcional                                                         el
                                                                             pudo cumplir cabalmente esta forma de notificación; operando, en
                                                                             cambio, la notificación personal.
 
-
 ## 3.6.2 Modificación en la forma de notificación
 
-                                                                            El año 2020 se habilitó en el sistema SIGPER la posibilidad de no-
+**Definición Canónica:** El año 2020 se habilitó en el sistema SIGPER la posibilidad de no-
+                                                                            tificar la precalificación y calificación a través de correo electrónico
+                                                                            considerando la excepción constitucional producto del covid-19, y
+                                                                            las dificultades que ello implica en el procedimiento de notificación
+                                                                            personal o por carta
+**Concordancias Legales:** constitucion
+
+El año 2020 se habilitó en el sistema SIGPER la posibilidad de no-
                                                                             tificar la precalificación y calificación a través de correo electrónico
                                                                             considerando la excepción constitucional producto del covid-19, y
                                                                             las dificultades que ello implica en el procedimiento de notificación
@@ -6224,15 +6349,14 @@ Orgánico y Funcional                                                         el
 Derecho Procesal                                                          3. Las calificaciones en                                              154
 Orgánico y Funcional                                                         el Poder Judicial
 
-
-## 3.7               Consecuencias de
-
-                                                                            la Calificación
-
-
 ## 3.7.1 Remoción
 
-                                                                            Los funcionarios que no gocen de inamovilidad, serán removidos
+**Definición Canónica:** Los funcionarios que no gocen de inamovilidad, serán removidos
+                                                                            por el Presidente de la República con el solo acuerdo de la mayoría
+                                                                            de los miembros en ejercicio de la Corte respectiva.
+**Concordancias Legales:** Artículo 493; Artículo 278 bis
+
+Los funcionarios que no gocen de inamovilidad, serán removidos
                                                                             por el Presidente de la República con el solo acuerdo de la mayoría
                                                                             de los miembros en ejercicio de la Corte respectiva.
 
@@ -6269,19 +6393,30 @@ Orgánico y Funcional                                                         el
 Derecho Procesal                                                         3. Las calificaciones en                                                 155
 Orgánico y Funcional                                                        el Poder Judicial
 
-
 ## 3.7.1.1 Renuncia de funcionarios removidos
 
-                                                                           Al aceptar las renuncias de los funcionarios calificados en lista
+**Definición Canónica:** Al aceptar las renuncias de los funcionarios calificados en lista
+                                                                           deficiente o, por segundo año consecutivo, en lista condicional, y
+                                                                           removidos en virtud de lo dispuesto en el artículo 278 bis del Código
+                                                                           Orgánico de Tribunales, debe dejarse constancia en el decreto que se
+                                                                           dicte, que la renuncia respe
+**Concordancias Legales:** artículo 278 bis del Código
+
+Al aceptar las renuncias de los funcionarios calificados en lista
                                                                            deficiente o, por segundo año consecutivo, en lista condicional, y
                                                                            removidos en virtud de lo dispuesto en el artículo 278 bis del Código
                                                                            Orgánico de Tribunales, debe dejarse constancia en el decreto que se
                                                                            dicte, que la renuncia respectiva tiene el carácter de no voluntaria.40
 
-
 ## 3.7.1.2 Remuneración de funcionarios removidos referidos
 
-                                                                           en el Artículo 493 del Código Orgánico de Tribunales
+**Definición Canónica:** en el Artículo 493 del Código Orgánico de Tribunales
+                                                                           Tratándose de funcionarios a que se refiere el artículo 493 del Código
+                                                                           Orgánico de Tribunales, la dictación del decreto supremo mencionado
+                                                                           en su inciso final, solo tiene por objeto efectos administrativos no
+**Concordancias Legales:** Artículo 493 del Código Orgánico de Tribunales; artículo 493 del Código; artículo 493
+
+en el Artículo 493 del Código Orgánico de Tribunales
                                                                            Tratándose de funcionarios a que se refiere el artículo 493 del Código
                                                                            Orgánico de Tribunales, la dictación del decreto supremo mencionado
                                                                            en su inciso final, solo tiene por objeto efectos administrativos no
@@ -6296,10 +6431,15 @@ Orgánico y Funcional                                                        el 
                                                                            con las funciones de la administración de justicia; y lo segundo,
                                                                            incompatible con los principios que rigen a toda actividad laboral.41
 
-
 ## 3.7.2 Ascenso
 
-                                                                           Art. 281 COT. Los funcionarios incluidos en lista Sobresaliente
+**Definición Canónica:** Art. 281 COT. Los funcionarios incluidos en lista Sobresaliente
+                                                                           tendrán derecho preferente para figurar en quina o en terna frente
+                                                                           a aquéllos que se encuentren incorporados en la lista Muy Buena,
+                                                                           éstos preferirán a los incluidos en la lista Satisfactoria, y estos a los
+                                                                           incorporados a la lista Regula
+
+Art. 281 COT. Los funcionarios incluidos en lista Sobresaliente
                                                                            tendrán derecho preferente para figurar en quina o en terna frente
                                                                            a aquéllos que se encuentren incorporados en la lista Muy Buena,
                                                                            éstos preferirán a los incluidos en la lista Satisfactoria, y estos a los
@@ -6309,10 +6449,13 @@ Orgánico y Funcional                                                        el 
                                                                            esta, deberá considerarse el puntaje de la última calificación y la
                                                                            antigüedad en el cargo, entre sus otros antecedentes.
 
-
 ## 40   Oficio Nº 885 (17 de octubre de 1974), Decreto de remoción de funcionarios removidos. Según art. 277 COT
 
-                                             debe señalarse que renuncia es voluntaria.
+**Definición Canónica:** debe señalarse que renuncia es voluntaria.
+                                        41   AD 869-2007 (31 de agosto de 2007). Remoción produce efectos con la notificación del cúmplase.
+**Concordancias Legales:** Constitución Política
+
+debe señalarse que renuncia es voluntaria.
                                         41   AD 869-2007 (31 de agosto de 2007). Remoción produce efectos con la notificación del cúmplase.
 
 Derecho Procesal                                                         3. Las calificaciones en                                              156
@@ -6329,14 +6472,17 @@ Orgánico y Funcional                                                        el 
                                                                            obtenidos por los oponentes en cada una de las votaciones que han
                                                                            debido efectuarse para la confección de la quina o de la terna.
 
-
-## 3.7.3 Instrucciones incidentes en las Calificaciones
-
-
-
 ## 3.7.3.1 Solicitud de permisos del artículo 347
 
-                                                                           del Código Orgánico de Tribunales
+**Definición Canónica:** del Código Orgánico de Tribunales
+                                                                           Los permisos del artículo 347 del Código Orgánico de Tribunales
+                                                                           se solicitarán moderadamente y se otorgarán en la medida que sean
+                                                                           estrictamente necesarios para el interesado y que no signifiquen
+                                                                           perturbación en el trabajo normal del tribunal respectivo, adoptán-
+   
+**Concordancias Legales:** artículo 347 del Código Orgánico de Tribunales
+
+del Código Orgánico de Tribunales
                                                                            Los permisos del artículo 347 del Código Orgánico de Tribunales
                                                                            se solicitarán moderadamente y se otorgarán en la medida que sean
                                                                            estrictamente necesarios para el interesado y que no signifiquen
@@ -6361,10 +6507,15 @@ Orgánico y Funcional                                                        el 
 
 Derecho Procesal                        3. Las calificaciones en                                              157
 
-
 ## 3.7.4 Sistema informático de registro de calificaciones
 
-                                          El sistema de apoyo para el proceso de evaluación del personal del
+**Definición Canónica:** El sistema de apoyo para el proceso de evaluación del personal del
+                                          Poder Judicial permite registrar la evaluación en línea, a través de
+                                          una votación electrónica, así como también consultar la información
+                                          personal y estadística de sus funcionarios. La dirección URL es http://
+                                          www.calificaciones.pjud/calificaciones/welcome/login.action.
+
+El sistema de apoyo para el proceso de evaluación del personal del
                                           Poder Judicial permite registrar la evaluación en línea, a través de
                                           una votación electrónica, así como también consultar la información
                                           personal y estadística de sus funcionarios. La dirección URL es http://
@@ -6498,10 +6649,12 @@ Orgánico y Funcional                         de los Jueces
 Derecho Procesal                              4. Normas Éticas y de Trabajo                                            163
 Orgánico y Funcional                             de los Jueces
 
-
 ## 4.1     Normativa
 
-                                                internacional
+**Definición Canónica:** internacional
+**Concordancias Legales:** artículo 10 de la Declaración Universal de Derechos Humanos
+
+internacional
 
                                                 El artículo 10 de la Declaración Universal de Derechos Humanos,
                                                 proclamada por la Asamblea General de las Naciones Unidas el 10
@@ -6518,10 +6671,16 @@ Orgánico y Funcional                             de los Jueces
                                                 ofreciendo soluciones a dilemas éticos y prácticos que las podrían
                                                 poner el riesgo.
 
-
 ## 4.1.1 Los Principios de Bangalore
 
-                                                En abril del 2000, a partir de una invitación del Centro de las Na-
+**Definición Canónica:** En abril del 2000, a partir de una invitación del Centro de las Na-
+                                                ciones Unidas para la Prevención Internacional del Delito y en el
+                                                marco del Programa Mundial contra la Corrupción, se iniciaron una
+                                                serie de reuniones para examinar el problema vinculado a la pérdida
+                                                de confianza en sus sistemas judiciales debido a que se les percibía
+                                                como corruptos o parcia
+
+En abril del 2000, a partir de una invitación del Centro de las Na-
                                                 ciones Unidas para la Prevención Internacional del Delito y en el
                                                 marco del Programa Mundial contra la Corrupción, se iniciaron una
                                                 serie de reuniones para examinar el problema vinculado a la pérdida
@@ -6557,10 +6716,15 @@ Orgánico y Funcional                             de los Jueces
 
                                           de su aplicación, de las que ofreceremos una síntesis.
 
-
 ## 4.1.1.1 Independencia
 
-                                              “La independencia judicial es un requisito previo del principio de
+**Definición Canónica:** “La independencia judicial es un requisito previo del principio de
+                                              legalidad y una garantía fundamental de la existencia de un juicio
+                                              justo. En consecuencia, un juez deberá defender y ejemplificar la
+                                              independencia judicial tanto en sus aspectos individuales como
+                                              institucionales”.
+
+“La independencia judicial es un requisito previo del principio de
                                               legalidad y una garantía fundamental de la existencia de un juicio
                                               justo. En consecuencia, un juez deberá defender y ejemplificar la
                                               independencia judicial tanto en sus aspectos individuales como
@@ -6685,7 +6849,12 @@ Orgánico y Funcional                                                          d
 
 ## parte importante de la labor de un juez o jueza, exige la evaluación
 
-                                                                             de la prueba a la luz del sentido común y de la experiencia. Por lo
+**Definición Canónica:** de la prueba a la luz del sentido común y de la experiencia. Por lo
+                                                                             tanto, dentro de la medida compartible con su función especial de
+                                                                             juez o jueza, debe permanecer en estrecho contacto con la comunidad.
+**Concordancias Legales:** constitución
+
+de la prueba a la luz del sentido común y de la experiencia. Por lo
                                                                              tanto, dentro de la medida compartible con su función especial de
                                                                              juez o jueza, debe permanecer en estrecho contacto con la comunidad.
 
@@ -6822,10 +6991,14 @@ Orgánico y Funcional                                                          d
                                           depende del mantenimiento por el juez(a) de un elevado estándar
                                           de conducta en el tribunal.
 
-
 ## 4.1.1.2 Imparcialidad
 
-                                              “La imparcialidad es esencial para el desempeño correcto de las
+**Definición Canónica:** “La imparcialidad es esencial para el desempeño correcto de las
+                                              funciones jurisdiccionales. La imparcialidad se refiere no solo
+                                              a la decisión en sí misma, sino también al proceso mediante el
+                                              cual se toma esa decisión”.
+
+“La imparcialidad es esencial para el desempeño correcto de las
                                               funciones jurisdiccionales. La imparcialidad se refiere no solo
                                               a la decisión en sí misma, sino también al proceso mediante el
                                               cual se toma esa decisión”.
@@ -7013,7 +7186,10 @@ Orgánico y Funcional                                                          d
 
 ## 4.1.1.3 Integridad
 
-                                              “La integridad es esencial para el desempeño correcto de las
+**Definición Canónica:** “La integridad es esencial para el desempeño correcto de las
+                                              funciones jurisdiccionales”.
+
+“La integridad es esencial para el desempeño correcto de las
                                               funciones jurisdiccionales”.
 
                                           La integridad es el atributo de rectitud y probidad. Sus componentes
@@ -7065,10 +7241,15 @@ Orgánico y Funcional                                                          d
                                                                                   —— el grado en que la conducta es indicativa de una predisposi-
                                                                                      ción, prejuicio o influencia inadecuada.
 
-
 ## 45   Esto es especialmente evidente con respecto a la actividad sexual. En Filipinas se estimó que un juez que
 
-                                             mantenía una relación extraconyugal no había cumplido con el requisito de integridad judicial, por lo que
+**Definición Canónica:** mantenía una relación extraconyugal no había cumplido con el requisito de integridad judicial, por lo que
+                                             correspondía destituirlo de la judicatura (Complaint against Judge Ferdinand Marcos, Supreme Court of
+                                             the Philippines, A.M. 97-2-53-RJC, 6th July 2001). En los Estados Unidos, en Florida, un juez fue amonestado
+                                             por mantener actividades sexuales con una mujer que no era su cónyuge en un automóvil estacionado (In
+                                             r
+
+mantenía una relación extraconyugal no había cumplido con el requisito de integridad judicial, por lo que
                                              correspondía destituirlo de la judicatura (Complaint against Judge Ferdinand Marcos, Supreme Court of
                                              the Philippines, A.M. 97-2-53-RJC, 6th July 2001). En los Estados Unidos, en Florida, un juez fue amonestado
                                              por mantener actividades sexuales con una mujer que no era su cónyuge en un automóvil estacionado (In
@@ -7116,10 +7297,12 @@ Orgánico y Funcional                                                          d
                                               haya sospecha en cuanto a la justicia e imparcialidad de su fallo
                                               ni en cuanto a su integridad personal.
 
-
 ## 4.1.1.4 Corrección
 
-                                              “La corrección y la apariencia de corrección son esenciales para
+**Definición Canónica:** “La corrección y la apariencia de corrección son esenciales para
+                                              el desempeño de todas las actividades de un juez o jueza.”
+
+“La corrección y la apariencia de corrección son esenciales para
                                               el desempeño de todas las actividades de un juez o jueza.”
 
                                           La corrección y su apariencia de corrección, tanto profesional como
@@ -7132,16 +7315,20 @@ Orgánico y Funcional                                                          d
 
 ## 1. Un juez(a) evitará la incorrección y la apariencia de incorrección
 
-                                             en todas sus actividades.
+**Definición Canónica:** en todas sus actividades.
+
+en todas sus actividades.
 
                                               El punto de vista es nuevamente un observador razonable sobre
                                               su capacidad de cumplir sus responsabilidades, y que de acuerdo
                                               con esos requisitos no se vea afectada.
 
-
 ## 2. El juez(a) debe ser consciente de la necesidad de evitar los
 
-                                             contactos que pueden llevar a la gente a especular acerca de la
+**Definición Canónica:** contactos que pueden llevar a la gente a especular acerca de la
+                                             existencia de una relación especial entre el juez(a) y una persona
+
+contactos que pueden llevar a la gente a especular acerca de la
                                              existencia de una relación especial entre el juez(a) y una persona
 
                                              que puede favorecer. Por ejemplo, habitualmente un juez(a) debe
@@ -7149,18 +7336,26 @@ Orgánico y Funcional                                                          d
                                              cuando utilice el transporte público, no debe sentarse junto a
                                              un litigante o testigo.
 
-
 ## 3. Todo juez(a) debe aceptar restricciones personales que los
 
-                                             ciudadanos ordinarios puedan considerar una carga. El juez(a)
+**Definición Canónica:** ciudadanos ordinarios puedan considerar una carga. El juez(a)
                                              debe actuar así libremente y de forma voluntaria incluso si estas
                                              actividades no fuesen vistas negativamente cuando las ejercen
                                              otros miembros de la comunidad o de la profesión.
 
+ciudadanos ordinarios puedan considerar una carga. El juez(a)
+                                             debe actuar así libremente y de forma voluntaria incluso si estas
+                                             actividades no fuesen vistas negativamente cuando las ejercen
+                                             otros miembros de la comunidad o de la profesión.
 
 ## 4. Un juez(a) debe comportarse en público con la sensibilidad y
 
-                                             autocontrol que exige el desempeño de las funciones jurisdiccio-
+**Definición Canónica:** autocontrol que exige el desempeño de las funciones jurisdiccio-
+                                             nales, porque la exhibición de un temperamento poco juicioso es
+                                             dañina para el proceso de la justicia y no cuadra con la dignidad
+                                             de las funciones jurisdiccionales.
+
+autocontrol que exige el desempeño de las funciones jurisdiccio-
                                              nales, porque la exhibición de un temperamento poco juicioso es
                                              dañina para el proceso de la justicia y no cuadra con la dignidad
                                              de las funciones jurisdiccionales.
@@ -7173,90 +7368,121 @@ Orgánico y Funcional                                                          d
                                              y la preocupación que pudiera existir en cuanto a que el lugar no
                                              sea explotado de acuerdo con la ley.
 
-
 ## 6. No está prohibido que los jueces puedan participar ocasional-
 
-                                             mente en actividades de juego con fines recreativos, pero deben
+**Definición Canónica:** mente en actividades de juego con fines recreativos, pero deben
+
+mente en actividades de juego con fines recreativos, pero deben
 
 Derecho Procesal                        4. Normas Éticas y de Trabajo                                          179
 
                                               hacerlo con discreción, teniendo presente la percepción de un
                                               observador razonable de la comunidad.
 
-
-## 7. Un juez(a) debe ser cuidadoso al concurrir a un club o centros
-
-                                             sociales, por ejemplo, asistir asiduamente a centros cuyos miem-
-                                             bros comparecen con frecuencia ante los tribunales.
-
-
 ## 8. Un juez o jueza, en sus relaciones personales con miembros
 
-                                             individuales de la abogacía que practiquen su trabajo regular-
+**Definición Canónica:** individuales de la abogacía que practiquen su trabajo regular-
                                              mente en su sala de audiencias, evitará situaciones que puedan
                                              levantar sospechas razonables o tener apariencia de favoritismo
                                              o parcialidad.
 
+individuales de la abogacía que practiquen su trabajo regular-
+                                             mente en su sala de audiencias, evitará situaciones que puedan
+                                             levantar sospechas razonables o tener apariencia de favoritismo
+                                             o parcialidad.
 
 ## 9. El contacto social entre miembros de la judicatura y miembros de
 
-                                             la abogacía es una larga y correcta tradición, incluidos los amigos
+**Definición Canónica:** la abogacía es una larga y correcta tradición, incluidos los amigos
                                              de la universidad, antiguos socios y colegas de la abogacía, pero
                                              debe actuarse con cautela y sobre la base del sentido común.
 
+la abogacía es una larga y correcta tradición, incluidos los amigos
+                                             de la universidad, antiguos socios y colegas de la abogacía, pero
+                                             debe actuarse con cautela y sobre la base del sentido común.
 
 ## 10. Un juez(a) deberá tener la habilidad de evitar contactos reiterados
 
-                                              con un abogado que acude a su tribunal durante la sustanciación
+**Definición Canónica:** con un abogado que acude a su tribunal durante la sustanciación
                                               de una causa determinada, si ello pudiese dar lugar a la percep-
                                               ción razonable de que el juez(a) y el abogado tienen una relación
                                               personal estrecha.
 
+con un abogado que acude a su tribunal durante la sustanciación
+                                              de una causa determinada, si ello pudiese dar lugar a la percep-
+                                              ción razonable de que el juez(a) y el abogado tienen una relación
+                                              personal estrecha.
 
 ## 11. Se permite habitualmente a un juez(a) que acepte invitaciones
 
-                                              a reuniones sociales de parte de abogados y otros juristas; no
+**Definición Canónica:** a reuniones sociales de parte de abogados y otros juristas; no
                                               obstante, no debe recibir un regalo de un abogado que pueda
                                               tener que litigar ante él y no debe asistir a actividades donde la
                                               hospitalidad sobrepasa un nivel corriente y modesto.
 
+a reuniones sociales de parte de abogados y otros juristas; no
+                                              obstante, no debe recibir un regalo de un abogado que pueda
+                                              tener que litigar ante él y no debe asistir a actividades donde la
+                                              hospitalidad sobrepasa un nivel corriente y modesto.
 
 ## 12. Asistir o no a una firma de abogados, exige que el juez(a) indague
 
-                                              sobre quién ofrece la fiesta y quiénes más podrían asistir, así como
+**Definición Canónica:** sobre quién ofrece la fiesta y quiénes más podrían asistir, así como
                                               de sus características. Es preciso cuidarse especialmente cuando
                                               pueda parecer que una firma de abogados trata de promocionarse y
                                               de promover sus servicios ante sus clientes actuales o potenciales.
 
+sobre quién ofrece la fiesta y quiénes más podrían asistir, así como
+                                              de sus características. Es preciso cuidarse especialmente cuando
+                                              pueda parecer que una firma de abogados trata de promocionarse y
+                                              de promover sus servicios ante sus clientes actuales o potenciales.
 
 ## 13. Con la misma cautela deben evaluarse las visitas al antiguo bufete
 
-                                              de abogados del juez(a) y la frecuencia de ese contacto público.
+**Definición Canónica:** de abogados del juez(a) y la frecuencia de ese contacto público.
+                                              Incluso dar la impresión de familiaridad sería imprudente.
+
+de abogados del juez(a) y la frecuencia de ese contacto público.
                                               Incluso dar la impresión de familiaridad sería imprudente.
 
 Derecho Procesal                        4. Normas Éticas y de Trabajo                                          180
 
-
 ## 14. Se debe cuidar el desarrollo de relaciones excesivamente estre-
 
-                                              chas con litigantes frecuentes –como ministros del gobierno o
+**Definición Canónica:** chas con litigantes frecuentes –como ministros del gobierno o
                                               sus colaboradores, funcionarios municipales, fiscales de la policía,
                                               fiscales de distrito y defensores públicos– en el tribunal donde
                                               se desempeña con frecuencia, si esas relaciones pueden razona-
                                               blemente crear una apariencia de parcialidad.
 
+chas con litigantes frecuentes –como ministros del gobierno o
+                                              sus colaboradores, funcionarios municipales, fiscales de la policía,
+                                              fiscales de distrito y defensores públicos– en el tribunal donde
+                                              se desempeña con frecuencia, si esas relaciones pueden razona-
+                                              blemente crear una apariencia de parcialidad.
 
 ## 15. No es recomendable que un juez(a) pertenezca a una sociedad
 
-                                              secreta cuando los abogados que concurren ante él también son
+**Definición Canónica:** secreta cuando los abogados que concurren ante él también son
                                               miembros de esa sociedad, pues puede deducirse la posibilidad
                                               de favoritismo hacia esos abogados en cumplimiento del código
                                               de hermandad.
 
+secreta cuando los abogados que concurren ante él también son
+                                              miembros de esa sociedad, pues puede deducirse la posibilidad
+                                              de favoritismo hacia esos abogados en cumplimiento del código
+                                              de hermandad.
 
 ## 16. Es necesario actuar con cautela y considerar la posibilidad de
 
-                                              la abstención respecto de todas las causas en que participa una
+**Definición Canónica:** la abstención respecto de todas las causas en que participa una
+                                              oficina a la que pertenece un familiar directo del juez o jueza,
+                                              dado, primero, que los miembros de esa oficina pueden inter-
+                                              cambiar informaciones sobre las causas pendientes, y segundo,
+                                              la imparcialidad del juez(a) puede cuestionarse razonablemente
+                                              si se abrigan dudas significativas de si el juez(a) pue
+
+la abstención respecto de todas las causas en que participa una
                                               oficina a la que pertenece un familiar directo del juez o jueza,
                                               dado, primero, que los miembros de esa oficina pueden inter-
                                               cambiar informaciones sobre las causas pendientes, y segundo,
@@ -7266,18 +7492,23 @@ Orgánico y Funcional                                                          d
                                               profesional de la oficina donde el miembro de su familia trabaja
                                               regularmente.
 
-
 ## 17. Cuando un juez(a) tiene una relación sentimental con una persona
 
-                                              que practica la abogacía, no debe ejercer su función judicial en
+**Definición Canónica:** que practica la abogacía, no debe ejercer su función judicial en
                                               las causas en que participe esa persona, pero no está obligado a
                                               abstenerse en las causas en que participen otros miembros de la
                                               firma u oficina en que trabaja.
 
+que practica la abogacía, no debe ejercer su función judicial en
+                                              las causas en que participe esa persona, pero no está obligado a
+                                              abstenerse en las causas en que participen otros miembros de la
+                                              firma u oficina en que trabaja.
 
 ## 18. Un juez(a) evitará que utilice su residencia un miembro de la
 
-                                              abogacía, para recibir clientes u otros miembros de la abogacía.
+**Definición Canónica:** abogacía, para recibir clientes u otros miembros de la abogacía.
+
+abogacía, para recibir clientes u otros miembros de la abogacía.
 
                                           19. Un juez(a) no renuncia a los derechos de la libertad de expresión,
                                               asociación y reunión, ni abandona sus ideas políticas, pero no
@@ -7287,37 +7518,57 @@ Orgánico y Funcional                                                          d
 
 Derecho Procesal                        4. Normas Éticas y de Trabajo                                         181
 
-
 ## 20. Un juez(a) no debe tomar parte de modo inapropiado en polémi-
 
-                                              cas públicas. La esencia misma de la calidad de juez(a) consiste en
+**Definición Canónica:** cas públicas. La esencia misma de la calidad de juez(a) consiste en
                                               la capacidad para ver los temas controvertidos de forma objetiva
                                               y justa. Es igualmente importante que el público le vea con au-
                                               sencia de prejuicios, imparcialidad, apertura mental y el enfoque
                                               equilibrado que constituye el signo distintivo de un juez o jueza.
 
+cas públicas. La esencia misma de la calidad de juez(a) consiste en
+                                              la capacidad para ver los temas controvertidos de forma objetiva
+                                              y justa. Es igualmente importante que el público le vea con au-
+                                              sencia de prejuicios, imparcialidad, apertura mental y el enfoque
+                                              equilibrado que constituye el signo distintivo de un juez o jueza.
 
 ## 21. Un juez(a) puede participar en la discusión de una ley con fines
 
-                                              educativos o para señalar sus puntos débiles. En ciertas circuns-
+**Definición Canónica:** educativos o para señalar sus puntos débiles. En ciertas circuns-
+                                              tancias especiales, los comentarios de un juez(a) sobre un proyecto
+                                              de ley pueden ser útiles y apropiados, siempre que el juez(a) evite
+                                              interpretaciones extraoficiales u opiniones controvertidas sobre
+**Concordancias Legales:** constitucion
+
+educativos o para señalar sus puntos débiles. En ciertas circuns-
                                               tancias especiales, los comentarios de un juez(a) sobre un proyecto
                                               de ley pueden ser útiles y apropiados, siempre que el juez(a) evite
                                               interpretaciones extraoficiales u opiniones controvertidas sobre
 
                                               su constitucionalidad.
 
-
 ## 22. Si como consecuencia de la decisión que hubiese de adoptar
 
-                                              en un juicio sometido al tribunal apareciera que el juez(a) o un
+**Definición Canónica:** en un juicio sometido al tribunal apareciera que el juez(a) o un
                                               miembro de su familia, el juez(a) debe abstenerse. Por ello, el
                                               juez(a) siempre debe estar consciente de sus intereses personales
                                               y financieros y también de los de su familia.
 
+en un juicio sometido al tribunal apareciera que el juez(a) o un
+                                              miembro de su familia, el juez(a) debe abstenerse. Por ello, el
+                                              juez(a) siempre debe estar consciente de sus intereses personales
+                                              y financieros y también de los de su familia.
 
 ## 23. La familia del juez o jueza, los amigos y los colegas de activida-
 
-                                              des sociales, cívicas y profesionales, comparte confianza y las
+**Definición Canónica:** des sociales, cívicas y profesionales, comparte confianza y las
+                                              confidencias y podría están en condiciones de influir incorrec-
+                                              tamente o parecer que influyen en el juez(a) en el desempeño
+                                              de sus funciones judiciales. Un juez(a) tendrá que actuar con
+                                              especial cuidado para asegurarse de que su conducta o decisiones
+                                              judiciales no estén influidas ni siquiera subconscient
+
+des sociales, cívicas y profesionales, comparte confianza y las
                                               confidencias y podría están en condiciones de influir incorrec-
                                               tamente o parecer que influyen en el juez(a) en el desempeño
                                               de sus funciones judiciales. Un juez(a) tendrá que actuar con
@@ -7325,19 +7576,26 @@ Orgánico y Funcional                                                          d
                                               judiciales no estén influidas ni siquiera subconscientemente por
                                               esas relaciones.
 
-
 ## 24. Un juez(a) que aprovecha sus funciones jurisdiccionales para
 
-                                              obtener beneficios o cobrarse una revancha abusa de su poder.
+**Definición Canónica:** obtener beneficios o cobrarse una revancha abusa de su poder.
                                               Un juez(a) debe evitar todas las actividades que sugieran que sus
                                               decisiones se ven afectadas por el interés personal o el favoritis-
                                               mo, pues ese abuso de poder viola profundamente la confianza
                                               pública en la judicatura.
 
+obtener beneficios o cobrarse una revancha abusa de su poder.
+                                              Un juez(a) debe evitar todas las actividades que sugieran que sus
+                                              decisiones se ven afectadas por el interés personal o el favoritis-
+                                              mo, pues ese abuso de poder viola profundamente la confianza
+                                              pública en la judicatura.
 
 ## 25. Un juez(a) no utilizará o prestará el prestigio de las funciones
 
-                                              jurisdiccionales para ayudar a sus intereses privados, a los de un
+**Definición Canónica:** jurisdiccionales para ayudar a sus intereses privados, a los de un
+                                              miembro de su familia o a los de cualquier otra persona; asimismo,
+
+jurisdiccionales para ayudar a sus intereses privados, a los de un
                                               miembro de su familia o a los de cualquier otra persona; asimismo,
 
 Derecho Procesal                        4. Normas Éticas y de Trabajo                                            182
@@ -7346,10 +7604,16 @@ Orgánico y Funcional                                                          d
                                               de que nadie está en situación de influir en el juez(a) de forma
                                               incorrecta cuando desempeña sus obligaciones judiciales.
 
-
 ## 26. Es incorrecto que un juez(a) utilice o trate de utilizar su situación
 
-                                              para obtener ventajas personales o un tratamiento preferente de
+**Definición Canónica:** para obtener ventajas personales o un tratamiento preferente de
+                                              cualquier tipo. Por ejemplo, un juez(a) no debe usar el papel con
+                                              membrete de la judicatura para conseguir ventajas en la admi-
+                                              nistración de sus negocios personales. Tampoco debe utilizar el
+                                              hecho de desempeñar funciones jurisdiccionales en un intento, o
+                                              lo que puede parecer razonablemente un intento, de
+
+para obtener ventajas personales o un tratamiento preferente de
                                               cualquier tipo. Por ejemplo, un juez(a) no debe usar el papel con
                                               membrete de la judicatura para conseguir ventajas en la admi-
                                               nistración de sus negocios personales. Tampoco debe utilizar el
@@ -7365,10 +7629,16 @@ Orgánico y Funcional                                                          d
                                               intenta utilizar su cargo judicial para influir en el resultado del
                                               caso.
 
-
 ## 27. Un juez(a) no necesita ocultar el hecho de que desempeña fun-
 
-                                              ciones jurisdiccionales, pero debe evitar cualquier impresión de
+**Definición Canónica:** ciones jurisdiccionales, pero debe evitar cualquier impresión de
+                                              que la condición de juez(a) se utiliza para obtener alguna forma
+                                              de tratamiento preferente. Por ejemplo, si el hijo o la hija de un
+                                              juez(a) fuese objeto de arresto, el juez(a) estará sujeto a las mismas
+                                              emociones humanas que cualquier otro padre y, como tal, tendrá
+                                              derecho a responder a cualquier injusti
+
+ciones jurisdiccionales, pero debe evitar cualquier impresión de
                                               que la condición de juez(a) se utiliza para obtener alguna forma
                                               de tratamiento preferente. Por ejemplo, si el hijo o la hija de un
                                               juez(a) fuese objeto de arresto, el juez(a) estará sujeto a las mismas
@@ -7384,10 +7654,11 @@ Orgánico y Funcional                                                          d
                                               progenie, no tiene derecho a adoptar una conducta que no estaría
                                               al alcance de un padre que no ejerciera funciones jurisdiccionales.
 
-
 ## 28. Los símbolos, identificaciones o pie de firmas de la judicatura no
 
-                                              deben usarse de una forma que represente un abuso del prestigio
+**Definición Canónica:** deben usarse de una forma que represente un abuso del prestigio
+
+deben usarse de una forma que represente un abuso del prestigio
 
 Derecho Procesal                        4. Normas Éticas y de Trabajo                                            183
 
@@ -7396,10 +7667,16 @@ Orgánico y Funcional                                                          d
                                               la atención hacia su calidad de tal para influir en el destinatario
                                               de la comunicación.
 
-
 ## 29. En general un juez(a) no debe ofrecerse para prestar testimonios
 
-                                              de conducta y carácter en un tribunal. Si se le pide, un juez(a)
+**Definición Canónica:** de conducta y carácter en un tribunal. Si se le pide, un juez(a)
+                                              solo puede convenir en hacerlo cuando negarse sería a todas
+                                              luces injusto para la persona que se lo solicita; por ejemplo, en
+                                              el caso de otro funcionario judicial que tiene derecho a contar
+                                              con declaraciones acerca de sus características personales de
+                                              parte de sus pares.
+
+de conducta y carácter en un tribunal. Si se le pide, un juez(a)
                                               solo puede convenir en hacerlo cuando negarse sería a todas
                                               luces injusto para la persona que se lo solicita; por ejemplo, en
                                               el caso de otro funcionario judicial que tiene derecho a contar
@@ -7411,17 +7688,26 @@ Orgánico y Funcional                                                          d
                                               publicitarios para evitar que se saque provecho de sus funciones
                                               jurisdiccionales.
 
-
 ## 31. La información confidencial obtenida por un juez(a) en el ejer-
 
-                                              cicio de sus competencias judiciales no será utilizada o revelada
+**Definición Canónica:** cicio de sus competencias judiciales no será utilizada o revelada
                                               por el juez(a) para ningún otro propósito no relacionado con el
                                               ejercicio de sus competencias judiciales.
 
+cicio de sus competencias judiciales no será utilizada o revelada
+                                              por el juez(a) para ningún otro propósito no relacionado con el
+                                              ejercicio de sus competencias judiciales.
 
 ## 32. Un juez(a) está en condiciones únicas de contribuir al mejoramien-
 
-                                              to de la ley, del sistema jurídico y de la administración de justicia,
+**Definición Canónica:** to de la ley, del sistema jurídico y de la administración de justicia,
+                                              tanto dentro como fuera de su jurisdicción. Esas contribuciones
+                                              pueden realizarse mediante disertaciones, escritos, clases o la
+                                              participación en otras actividades extrajudiciales. A condición
+                                              de que ello no le impida cumplir sus obligaciones judiciales y
+                                              de que el tiempo lo permita, se debe alentar
+
+to de la ley, del sistema jurídico y de la administración de justicia,
                                               tanto dentro como fuera de su jurisdicción. Esas contribuciones
                                               pueden realizarse mediante disertaciones, escritos, clases o la
                                               participación en otras actividades extrajudiciales. A condición
@@ -7429,10 +7715,16 @@ Orgánico y Funcional                                                          d
                                               de que el tiempo lo permita, se debe alentar a un juez(a) a que
                                               realice esas actividades.
 
-
 ## 33. Un juez(a) puede contribuir a la educación jurídica y profesional
 
-                                              impartiendo clases, participando en conferencias y seminarios,
+**Definición Canónica:** impartiendo clases, participando en conferencias y seminarios,
+                                              como jurado de las disertaciones de estudiantes y actuando como
+                                              examinador. Un juez(a) también puede contribuir a la literatura
+                                              jurídica como autor o editor. Esas actividades profesionales de los
+                                              jueces están de acuerdo con el interés público y es conveniente
+                                              alentarlas. Sin embargo, el juez(a) debe dejar 
+
+impartiendo clases, participando en conferencias y seminarios,
                                               como jurado de las disertaciones de estudiantes y actuando como
                                               examinador. Un juez(a) también puede contribuir a la literatura
                                               jurídica como autor o editor. Esas actividades profesionales de los
@@ -7449,20 +7741,29 @@ Orgánico y Funcional                                                          d
                                               su cuantía no excede la que otro profesor que no sea un juez(a)
                                               recibiría por impartir una enseñanza similar.
 
-
 ## 34. Un juez(a) puede representar a su país, Estado o localidad en ac-
 
-                                              tividades ceremoniales o en relación con actividades nacionales,
+**Definición Canónica:** tividades ceremoniales o en relación con actividades nacionales,
+                                              regionales, históricas, educacionales o culturales, si las citadas
+                                              actividades no desvirtúan la dignidad de las funciones jurisdic-
+
+tividades ceremoniales o en relación con actividades nacionales,
                                               regionales, históricas, educacionales o culturales, si las citadas
                                               actividades no desvirtúan la dignidad de las funciones jurisdic-
 
                                               cionales o interfieren de cualquier otra forma en el desempeño
                                               de las obligaciones judiciales.
 
-
 ## 35. Un juez(a) puede participar en organizaciones comunitarias sin
 
-                                              fines de lucro de diverso tipo, convirtiéndose en miembro de una
+**Definición Canónica:** fines de lucro de diverso tipo, convirtiéndose en miembro de una
+                                              de esas organizaciones y de su órgano directivo, como organiza-
+                                              ciones caritativas, universidades y escuelas, los órganos religiosos
+                                              de carácter laico, los consejos de hospitales, los clubes sociales,
+                                              organizaciones deportivas y organizaciones que promuevan inte-
+                                              reses culturales o artísticos. Sin embarg
+
+fines de lucro de diverso tipo, convirtiéndose en miembro de una
                                               de esas organizaciones y de su órgano directivo, como organiza-
                                               ciones caritativas, universidades y escuelas, los órganos religiosos
                                               de carácter laico, los consejos de hospitales, los clubes sociales,
@@ -7474,10 +7775,16 @@ Orgánico y Funcional                                                          d
                                               origen nacional o alguna otra causa improcedente contraria a los
                                               derechos humanos fundamentales.
 
-
 ## 36. La participación de un juez(a) en un negocio administrado direc-
 
-                                              tamente por su familia, aunque generalmente permisible, debería
+**Definición Canónica:** tamente por su familia, aunque generalmente permisible, debería
+                                              evitarse si requiere mucho tiempo, si entraña el aprovechamiento
+                                              inadecuado del prestigio judicial o si el negocio es susceptible de
+                                              ser objeto de juicio en los tribunales. No obstante, no es apro-
+                                              piado que un juez(a) se desempeñe en la junta de directores de
+                                              una empresa comercial, vale decir, una compañ
+
+tamente por su familia, aunque generalmente permisible, debería
                                               evitarse si requiere mucho tiempo, si entraña el aprovechamiento
                                               inadecuado del prestigio judicial o si el negocio es susceptible de
                                               ser objeto de juicio en los tribunales. No obstante, no es apro-
@@ -7489,10 +7796,17 @@ Orgánico y Funcional                                                          d
 
 Derecho Procesal                        4. Normas Éticas y de Trabajo                                           185
 
-
 ## 37. Si un juez(a) tiene una propiedad en un edificio que cuenta con
 
-                                              una asociación de propietarios o residentes puede participar en
+**Definición Canónica:** una asociación de propietarios o residentes puede participar en
+                                              su comité de administración, pero no debe prestar asesoramiento
+                                              jurídico. Esto no impide al juez(a) dar una opinión, únicamente
+                                              como miembro del órgano en cuestión, sobre un asunto que
+                                              pueda tener consecuencias jurídicas; pero debe dejar en claro
+                                              que la formulación de esas opiniones no puede tomarse como
+
+
+una asociación de propietarios o residentes puede participar en
                                               su comité de administración, pero no debe prestar asesoramiento
                                               jurídico. Esto no impide al juez(a) dar una opinión, únicamente
                                               como miembro del órgano en cuestión, sobre un asunto que
@@ -7500,20 +7814,28 @@ Orgánico y Funcional                                                          d
                                               que la formulación de esas opiniones no puede tomarse como
                                               la prestación de un asesoramiento jurídico.
 
-
 ## 38. Un juez(a) no ejercerá la abogacía mientras desempeñe funciones
 
-                                              jurisdiccionales, en el ámbito del foro o extrajudicial aún en un
+**Definición Canónica:** jurisdiccionales, en el ámbito del foro o extrajudicial aún en un
+                                              año sabático o vacaciones.
+
+jurisdiccionales, en el ámbito del foro o extrajudicial aún en un
                                               año sabático o vacaciones.
 
                                               Un juez(a) no debe actuar como árbitro o mediador ni tampoco
                                               desempeñar funciones judiciales a título privado a menos que la
                                               ley lo autorice expresamente.
 
-
 ## 39. Un juez(a) tiene derecho a actuar para proteger sus derechos e
 
-                                              intereses, incluso litigando ante los tribunales. No obstante, debe
+**Definición Canónica:** intereses, incluso litigando ante los tribunales. No obstante, debe
+                                              actuar con circunspección ante la posibilidad de verse envuelto
+                                              en un litigio personal. Como litigante el juez(a) corre el riesgo
+                                              de dar la impresión de que saca provecho de sus funciones. El
+                                              juez(a) también corre el riesgo de que su credibilidad se vea ne-
+                                              gativamente afectada por las conclusiones qu
+
+intereses, incluso litigando ante los tribunales. No obstante, debe
                                               actuar con circunspección ante la posibilidad de verse envuelto
                                               en un litigio personal. Como litigante el juez(a) corre el riesgo
                                               de dar la impresión de que saca provecho de sus funciones. El
@@ -7521,10 +7843,13 @@ Orgánico y Funcional                                                          d
                                               gativamente afectada por las conclusiones que saquen sus colegas
                                               de la judicatura.
 
-
 ## 40. Un juez(a) y los miembros de su familia no pedirán ni aceptarán
 
-                                              ningún regalo, legado, préstamo o favor en relación con cualquier
+**Definición Canónica:** ningún regalo, legado, préstamo o favor en relación con cualquier
+                                              cosa que el juez(a) haya hecho o deba hacer u omitir con respecto
+                                              al desempeño de las obligaciones judiciales.
+
+ningún regalo, legado, préstamo o favor en relación con cualquier
                                               cosa que el juez(a) haya hecho o deba hacer u omitir con respecto
                                               al desempeño de las obligaciones judiciales.
 
@@ -7536,10 +7861,18 @@ Orgánico y Funcional                                                          d
 
 Derecho Procesal                        4. Normas Éticas y de Trabajo                                         186
 
-
 ## 4.1.2 Código Iberoamericano de Ética Judicial
 
-                                          La Cumbre Judicial Iberoamericana, integrada por tres países de
+**Definición Canónica:** La Cumbre Judicial Iberoamericana, integrada por tres países de
+                                          Europa (España, Portugal y Andorra) y 20 de América (Argentina,
+                                          Bolivia, Brasil, Colombia, Costa Rica, Cuba, Chile, República Domi-
+                                          nicana, Ecuador, El Salvador, Guatemala, Honduras, México, Nica-
+                                          ragua, Panamá, Paraguay, Perú, Puerto Rico, Uruguay y Venezuela)
+                                          adoptó en Santo Domingo, República Dominicana, en el año 2006
+  
+**Concordancias Legales:** constitucion
+
+La Cumbre Judicial Iberoamericana, integrada por tres países de
                                           Europa (España, Portugal y Andorra) y 20 de América (Argentina,
                                           Bolivia, Brasil, Colombia, Costa Rica, Cuba, Chile, República Domi-
                                           nicana, Ecuador, El Salvador, Guatemala, Honduras, México, Nica-
@@ -7584,10 +7917,17 @@ Orgánico y Funcional                                                          d
                                           El Código Iberoamericano de Ética Judicial, por su parte, ha centrado
                                           sus recomendaciones y mandatos en los siguientes postulados:
 
-
 ## 4.1.2.1 Independencia
 
-                                          Las instituciones que, en el marco del Estado constitucional garan-
+**Definición Canónica:** Las instituciones que, en el marco del Estado constitucional garan-
+                                          tizan la independencia judicial, no están dirigidas a situar al juez(a)
+                                          en una posición de privilegio. Su razón de ser es la de garantizar a
+                                          los ciudadanos el derecho a ser juzgados con parámetros jurídicos,
+                                          como forma de evitar la arbitrariedad y de realizar los valores cons-
+                                          titucionales y salvaguardar los derechos fun
+**Concordancias Legales:** constitucion
+
+Las instituciones que, en el marco del Estado constitucional garan-
                                           tizan la independencia judicial, no están dirigidas a situar al juez(a)
                                           en una posición de privilegio. Su razón de ser es la de garantizar a
                                           los ciudadanos el derecho a ser juzgados con parámetros jurídicos,
@@ -7696,7 +8036,14 @@ Orgánico y Funcional                                             de los Jueces
 
 ## 4.1.2.3 Motivación
 
-                                        de la justicia y
+**Definición Canónica:** de la justicia y
+                                                                La obligación de motivar las decisiones se orienta a asegurar la le-
+                                        desechando todo         gitimidad del juez o jueza, el buen funcionamiento de un sistema
+                                        provecho o ventaja      de impugnaciones procesales, el adecuado control del poder del
+                                        personal que            que los jueces son titulares y, en último término, la justicia de las
+                                                            
+
+de la justicia y
                                                                 La obligación de motivar las decisiones se orienta a asegurar la le-
                                         desechando todo         gitimidad del juez o jueza, el buen funcionamiento de un sistema
                                         provecho o ventaja      de impugnaciones procesales, el adecuado control del poder del
@@ -7738,10 +8085,17 @@ Orgánico y Funcional                                             de los Jueces
 
                                                                 compatible con la completa comprensión de las razones expuestas.
 
-
 ## 4.1.2.4 Conocimiento y capacitación
 
-                                                                La exigencia de conocimiento y de capacitación permanente de los
+**Definición Canónica:** La exigencia de conocimiento y de capacitación permanente de los
+                                        El conocimiento         jueces tiene como fundamento el derecho de los justiciables, y de
+                                                                la sociedad en general, a obtener un servicio de calidad en la admi-
+                                        y la capacitación       nistración de justicia.
+                                        de los jueces
+                                        adquieren una           El juez bien formado es el que conoce el derecho vigente y ha desa
+**Concordancias Legales:** constitucion
+
+La exigencia de conocimiento y de capacitación permanente de los
                                         El conocimiento         jueces tiene como fundamento el derecho de los justiciables, y de
                                                                 la sociedad en general, a obtener un servicio de calidad en la admi-
                                         y la capacitación       nistración de justicia.
@@ -7778,10 +8132,11 @@ Orgánico y Funcional                                             de los Jueces
                                           sidad, conocimiento y eficiencia, actuando con equidad y diligencia
                                           en todas las funciones que deban cumplir.
 
-
 ## 4.1.2.5 Justicia y equidad
 
-                                          El fin último de la actividad judicial es realizar la justicia por medio
+**Definición Canónica:** El fin último de la actividad judicial es realizar la justicia por medio
+
+El fin último de la actividad judicial es realizar la justicia por medio
 
                                           del Derecho.
 
@@ -7803,10 +8158,13 @@ Orgánico y Funcional                                             de los Jueces
                                           debe sentirse vinculado no solo por el texto de las normas jurídicas
                                           vigentes, sino también por las razones en las que ellas se fundamentan.
 
-
 ## 4.1.2.6 Responsabilidad institucional
 
-                                          El buen funcionamiento del conjunto de las instituciones judiciales
+**Definición Canónica:** El buen funcionamiento del conjunto de las instituciones judiciales
+                                          es condición necesaria para que cada juez pueda desempeñar ade-
+                                          cuadamente su función.
+
+El buen funcionamiento del conjunto de las instituciones judiciales
                                           es condición necesaria para que cada juez pueda desempeñar ade-
                                           cuadamente su función.
 
@@ -7864,10 +8222,13 @@ Orgánico y Funcional                                            de los Jueces
 Derecho Procesal                                             4. Normas Éticas y de Trabajo                                        193
 Orgánico y Funcional                                            de los Jueces
 
-
 ## 4.1.2.8 Integridad
 
-                                                               La integridad de la conducta del juez fuera del ámbito estricto de la
+**Definición Canónica:** La integridad de la conducta del juez fuera del ámbito estricto de la
+                                                               actividad jurisdiccional contribuye a una fundada confianza de los
+                                                               ciudadanos en la judicatura.
+
+La integridad de la conducta del juez fuera del ámbito estricto de la
                                                                actividad jurisdiccional contribuye a una fundada confianza de los
                                                                ciudadanos en la judicatura.
 
@@ -7907,10 +8268,13 @@ Orgánico y Funcional                                            de los Jueces
 Derecho Procesal                                             4. Normas Éticas y de Trabajo                                           194
 Orgánico y Funcional                                            de los Jueces
 
-
 ## 4.1.2.9 Transparencia
 
-                                                               La transparencia de las actuaciones del juez es una garantía de la jus-
+**Definición Canónica:** La transparencia de las actuaciones del juez es una garantía de la jus-
+                                                               ticia de sus decisiones. El juez ha de procurar ofrecer, sin infringir el
+                                                               Derecho vigente, información útil, pertinente, comprensible y fiable.
+
+La transparencia de las actuaciones del juez es una garantía de la jus-
                                                                ticia de sus decisiones. El juez ha de procurar ofrecer, sin infringir el
                                                                Derecho vigente, información útil, pertinente, comprensible y fiable.
 
@@ -7925,10 +8289,13 @@ Orgánico y Funcional                                            de los Jueces
                                                                El juez debe evitar comportamientos o actitudes que puedan entenderse
                                                                como búsqueda injustificada o desmesurada de reconocimiento social.
 
-
 ## 4.1.2.10 Secreto profesional
 
-                                                               El secreto profesional tiene como fundamento salvaguardar los de-
+**Definición Canónica:** El secreto profesional tiene como fundamento salvaguardar los de-
+                                                               rechos de las partes y de sus allegados frente al uso indebido de in-
+                                                               formaciones obtenidas por el juez en el desempeño de sus funciones.
+
+El secreto profesional tiene como fundamento salvaguardar los de-
                                                                rechos de las partes y de sus allegados frente al uso indebido de in-
                                                                formaciones obtenidas por el juez en el desempeño de sus funciones.
 
@@ -7963,19 +8330,24 @@ Orgánico y Funcional                                            de los Jueces
 Derecho Procesal                              4. Normas Éticas y de Trabajo                                           196
 Orgánico y Funcional                             de los Jueces
 
-
 ## 4.2     Normativa
 
-                                                nacional
+**Definición Canónica:** nacional
+
+nacional
 
                                                 La legislación chilena ofrece además desde nuestro texto constitu-
                                                 cional disposiciones que contribuyen a la delimitación del espectro
                                                 ético del trabajo de la judicatura, la cual revisaremos en este punto.
 
-
 ## 4.2.1 Constitución Política de la República de Chile
 
-                                                Hemos revisado en el primer capítulo la regulación del Poder Ju-
+**Definición Canónica:** Hemos revisado en el primer capítulo la regulación del Poder Ju-
+                                                dicial en el texto constitucional, especialmente con relación a su
+                                                organización.
+**Concordancias Legales:** artículo 79; artículo 80; constitucion
+
+Hemos revisado en el primer capítulo la regulación del Poder Ju-
                                                 dicial en el texto constitucional, especialmente con relación a su
                                                 organización.
 
@@ -8015,10 +8387,12 @@ Orgánico y Funcional                             de los Jueces
                                           nización judicial aspectos críticos que impactan en el cumplimiento
                                           de los deberes éticos reconocidos como esenciales.
 
-
 ## 4.2.2 Código Orgánico de Tribunales
 
-                                          Nuestro Código Orgánico de Tribunales ha regulado varios aspectos
+**Definición Canónica:** Nuestro Código Orgánico de Tribunales ha regulado varios aspectos
+                                          relacionados con la investidura y el ejercicio del cargo, que se vincula
+
+Nuestro Código Orgánico de Tribunales ha regulado varios aspectos
                                           relacionados con la investidura y el ejercicio del cargo, que se vincula
 
                                           con una regulación conocida como el Estatuto de la judicatura.
@@ -8027,19 +8401,29 @@ Orgánico y Funcional                             de los Jueces
                                           nes a que están sujetos los jueces conforme al Código Orgánico de
                                           Tribunales:
 
-
 ## 4.2.2.1 Deber de residencia
 
-                                          Los jueces están obligados a residir constantemente en la ciudad o
+**Definición Canónica:** Los jueces están obligados a residir constantemente en la ciudad o
                                           población donde tenga asiento el tribunal en que deban prestar sus
                                           servicios. Las Cortes de Apelaciones podrán, en casos calificados,
                                           autorizar transitoriamente a los jueces para que residan en un lugar
                                           distinto (art. 311 COT).
 
+Los jueces están obligados a residir constantemente en la ciudad o
+                                          población donde tenga asiento el tribunal en que deban prestar sus
+                                          servicios. Las Cortes de Apelaciones podrán, en casos calificados,
+                                          autorizar transitoriamente a los jueces para que residan en un lugar
+                                          distinto (art. 311 COT).
 
 ## 4.2.2.2 Deber de asistencia
 
-                                          Están obligados a asistir todos los días a la sala de su despacho y a
+**Definición Canónica:** Están obligados a asistir todos los días a la sala de su despacho y a
+                                          permanecer en ella, desempeñando sus funciones durante cuatro
+                                          horas como mínimo cuando el despacho de causas estuviere al
+                                          corriente, y de cinco horas, a lo menos, cuando se hallare atrasado
+                                          (art. 312 COT).
+
+Están obligados a asistir todos los días a la sala de su despacho y a
                                           permanecer en ella, desempeñando sus funciones durante cuatro
                                           horas como mínimo cuando el despacho de causas estuviere al
                                           corriente, y de cinco horas, a lo menos, cuando se hallare atrasado
@@ -8059,10 +8443,15 @@ Orgánico y Funcional                             de los Jueces
                                           comprendidos en el tiempo de vacaciones de cada año, que corres-
                                           ponderá a un feriado anual de un mes (art. 313 COT).
 
-
 ## 4.2.2.3 Obligación de despacho y fallo
 
-                                          Los jueces están obligados a despachar los asuntos sometidos a su
+**Definición Canónica:** Los jueces están obligados a despachar los asuntos sometidos a su
+                                          conocimiento en los plazos que fija la ley o con toda la brevedad que
+                                          las actuaciones de su ministerio les permitan, guardando en este
+                                          despacho el orden de la antigüedad de los asuntos, salvo cuando
+                                          motivos graves y urgentes exijan que dicho orden se altere.
+
+Los jueces están obligados a despachar los asuntos sometidos a su
                                           conocimiento en los plazos que fija la ley o con toda la brevedad que
                                           las actuaciones de su ministerio les permitan, guardando en este
                                           despacho el orden de la antigüedad de los asuntos, salvo cuando
@@ -8073,28 +8462,41 @@ Orgánico y Funcional                             de los Jueces
                                           se observará para designar las causas en los tribunales colegiados para
                                           su vista y decisión (art. 319 COT).
 
-
 ## 4.2.2.4 Prohibición de ejercicio profesional
 
-                                          Está prohibido a los jueces ejercer la abogacía; y solo podrán defender
+**Definición Canónica:** Está prohibido a los jueces ejercer la abogacía; y solo podrán defender
                                           causas personales o de sus cónyuges, convivientes civiles, ascendien-
                                           tes, descendientes, hermanos o pupilos. Les es igualmente prohibido
                                           representar en juicio a otras personas que las mencionadas en el
                                           precedente inciso (art. 316 COT).
 
+Está prohibido a los jueces ejercer la abogacía; y solo podrán defender
+                                          causas personales o de sus cónyuges, convivientes civiles, ascendien-
+                                          tes, descendientes, hermanos o pupilos. Les es igualmente prohibido
+                                          representar en juicio a otras personas que las mencionadas en el
+                                          precedente inciso (art. 316 COT).
 
 ## 4.2.2.5 Prohibición de ejercicio como árbitro
 
-                                          Se prohíbe a los jueces letrados y a los ministros de los tribunales
+**Definición Canónica:** Se prohíbe a los jueces letrados y a los ministros de los tribunales
                                           superiores de justicia aceptar compromisos, excepto cuando el nom-
                                           brado tuviere con alguna de las partes originariamente interesadas
                                           en el litigio, algún vínculo de parentesco que autorice su implicancia
                                           o recusación (art. 317 COT).
 
+Se prohíbe a los jueces letrados y a los ministros de los tribunales
+                                          superiores de justicia aceptar compromisos, excepto cuando el nom-
+                                          brado tuviere con alguna de las partes originariamente interesadas
+                                          en el litigio, algún vínculo de parentesco que autorice su implicancia
+                                          o recusación (art. 317 COT).
 
 ## 4.2.2.6 Prohibición de opinión y alegaciones privadas
 
-                                          Los jueces deben abstenerse de expresar y aun de insinuar privada-
+**Definición Canónica:** Los jueces deben abstenerse de expresar y aun de insinuar privada-
+                                          mente su juicio respecto de los negocios que por la ley son llamados
+                                          a fallar.
+
+Los jueces deben abstenerse de expresar y aun de insinuar privada-
                                           mente su juicio respecto de los negocios que por la ley son llamados
                                           a fallar.
 
@@ -8104,10 +8506,16 @@ Orgánico y Funcional                             de los Jueces
 
 Derecho Procesal                        4. Normas Éticas y de Trabajo                                           199
 
-
 ## 4.2.2.7 Prohibición de adquisición de bienes
 
-                                          Se prohíbe a todo juez(a) comprar o adquirir a cualquier título para
+**Definición Canónica:** Se prohíbe a todo juez(a) comprar o adquirir a cualquier título para
+                                          sí, para su cónyuge, para su conviviente civil, o para sus hijos las
+                                          cosas o derechos que se litiguen en los juicios de que él conozca. Se
+                                          extiende esta prohibición a las cosas o derechos que han dejado de
+                                          ser litigiosos, mientras no hayan transcurrido cinco años desde el
+                                          día en que dejaron de serlo.
+
+Se prohíbe a todo juez(a) comprar o adquirir a cualquier título para
                                           sí, para su cónyuge, para su conviviente civil, o para sus hijos las
                                           cosas o derechos que se litiguen en los juicios de que él conozca. Se
                                           extiende esta prohibición a las cosas o derechos que han dejado de
@@ -8126,10 +8534,14 @@ Orgánico y Funcional                             de los Jueces
                                           inhabilitación especial temporal en su grado medio para el cargo
                                           que desempeña (arts. 321 y 322 COT).
 
-
 ## 4.2.3 Ley sobre Probidad en la función pública
 
-                                          La Ley N° 20.880, sobre Probidad en la función pública y prevención de
+**Definición Canónica:** La Ley N° 20.880, sobre Probidad en la función pública y prevención de
+                                          los conflictos de intereses, rige en general a todo aquel que desempeñe
+                                          funciones públicas, cualquiera sea la calidad jurídica en que lo haga.
+**Concordancias Legales:** artículos 267; Ley N° 20.880
+
+La Ley N° 20.880, sobre Probidad en la función pública y prevención de
                                           los conflictos de intereses, rige en general a todo aquel que desempeñe
                                           funciones públicas, cualquiera sea la calidad jurídica en que lo haga.
 
@@ -8175,10 +8587,12 @@ Orgánico y Funcional                             de los Jueces
                                           disposición de los miembros del Poder Judicial el Manual de Usuario
                                           del Sistema para Declaración de Intereses y Patrimonio.
 
-
 ## 4.2.4 La normativa de la Corte Suprema
 
-                                          Desde lo institucional el Poder Judicial ha recogido la importancia
+**Definición Canónica:** Desde lo institucional el Poder Judicial ha recogido la importancia
+                                          de la entrega de directrices sobre el perfil ético de la judicatura.
+
+Desde lo institucional el Poder Judicial ha recogido la importancia
                                           de la entrega de directrices sobre el perfil ético de la judicatura.
 
                                           Como los hemos citado al referirnos al Código Iberoamericano de
@@ -8225,7 +8639,13 @@ Orgánico y Funcional                                                        de 
 
 ## 2015                         Ley de Lobby y las gestiones que representen inte-
 
-                                                                                                         reses particulares ante las autoridades y funciona-
+**Definición Canónica:** reses particulares ante las autoridades y funciona-
+                                                                                                         rios judiciales.
+                                                                            Acta 118-     24-10-2016     Sobre la declaración de parentesco y patrimonio.
+                                                                            Acta 203-     29-11-2018     Establece normas para prevenir el consumo indebi-
+                                                                            2018                         do de sustan
+
+reses particulares ante las autoridades y funciona-
                                                                                                          rios judiciales.
                                                                             Acta 118-     24-10-2016     Sobre la declaración de parentesco y patrimonio.
                                                                             Acta 203-     29-11-2018     Establece normas para prevenir el consumo indebi-
@@ -8240,11 +8660,13 @@ Orgánico y Funcional                                                        de 
                                                                             2019          2019
                                                                             Acta 124-     07-08-2019     Agenda Pública.
 
-
 ## 46   Véase https://www.pjud.cl/post/etica-judicial-cs
 
+**Definición Canónica:** Derecho Procesal                                                           4. Normas Éticas y de Trabajo                                                   202
+Orgánico y Funcional                                                          de los Jueces
+**Concordancias Legales:** constitucion; Constitución
 
-Derecho Procesal                                                           4. Normas Éticas y de Trabajo                                                   202
+Derecho Procesal                                                           4. Normas Éticas y de Trabajo                                                   202
 Orgánico y Funcional                                                          de los Jueces
 
                                         Desde la                             4.2.5 Sanciones
@@ -8326,10 +8748,12 @@ Orgánico y Funcional                                                       de l
                                                                           cen el respeto del debido proceso y, en particular, el de los derechos de
                                                                           audiencia, defensa, contradicción y recursos legales que correspondan”.48
 
-
 ## 48   Corte Interamericana de Derechos Humanos. Caso Urrutia-Laubreaux vs. Chile. Sentencia de 27 de agosto
 
-                                             de 2020.Disponible online.
+**Definición Canónica:** de 2020.Disponible online.
+**Concordancias Legales:** artículo 44; artículo 43; artículos 532; artículo 82 de la Constitución Política; Constitución Política
+
+de 2020.Disponible online.
 
 Derecho Procesal                        4. Normas Éticas y de Trabajo                                      204
 
@@ -8393,11 +8817,17 @@ Orgánico y Funcional                                                       de l
 
 Derecho Procesal                        5. El procedimiento disciplinario                                      207
 
-
 ## Importante
 
+**Definición Canónica:** La responsabilidad disciplinaria es independiente de la
+                                          responsabilidad penal o civil que puedan afectar a miembros del
+                                          Poder Judicial y que deriven de la misma acción u omisión, de
+                                          modo que las resoluciones que se adopten respecto de una de
+                                          ellas no tiene efectos en otra, salvo en los casos determinados
+                                          en la ley.
+**Concordancias Legales:** artículo 4 del Acta; artículo 393 del Jueces de Código Orgánico de Tribun
 
-                                          La responsabilidad disciplinaria es independiente de la
+La responsabilidad disciplinaria es independiente de la
                                           responsabilidad penal o civil que puedan afectar a miembros del
                                           Poder Judicial y que deriven de la misma acción u omisión, de
                                           modo que las resoluciones que se adopten respecto de una de
@@ -8608,10 +9038,11 @@ Orgánico y Funcional                                             en el Poder Ju
 
 Derecho Procesal                              5. El procedimiento disciplinario                                           212
 
-
 ## 5.1     El procedimiento
 
-                                                general
+**Definición Canónica:** general
+
+general
 
                                                 El procedimiento general será aplicable a todos los asuntos que se
                                                 ventilen en los juzgados y cortes del país, con excepción de aquellos
@@ -8626,10 +9057,16 @@ Orgánico y Funcional                                             en el Poder Ju
                                                 El procedimiento general cuenta con distintas etapas en su desarrollo,
                                                 las cuales se detallan a continuación.
 
-
 ## 5.1.1 Instrucción
 
-                                                En cuanto a la recepción de la denuncia
+**Definición Canónica:** En cuanto a la recepción de la denuncia
+                                                En el momento de recibir una denuncia, reclamación o queja, o co-
+                                                nocida la actuación u omisión que pidiere dar lugar a responsabilidad
+                                                disciplinaria, el órgano resolutor debe analizar los hechos y tomar
+                                                alguna de las siguientes decisiones:
+**Concordancias Legales:** artículo 22; artículo 25; artículo 27
+
+En cuanto a la recepción de la denuncia
                                                 En el momento de recibir una denuncia, reclamación o queja, o co-
                                                 nocida la actuación u omisión que pidiere dar lugar a responsabilidad
                                                 disciplinaria, el órgano resolutor debe analizar los hechos y tomar
@@ -9026,10 +9463,18 @@ Orgánico y Funcional                                             en el Poder Ju
                                           —— La enunciación de la normativa aplicable.
                                           —— El señalamiento de las pruebas que sustentan los cargos.
 
-
 ## 5.1.2 Etapa resolutiva
 
-                                          En cuanto a la defensa
+**Definición Canónica:** En cuanto a la defensa
+                                          La persona investigada será notificada de los cargos que se le formu-
+                                          len personalmente o por carta certificada dirigida al domicilio que
+                                          haya fijado o, en su defecto, a aquel en que se le hubiere efectuado
+                                          la notificación a que se refiere el artículo 17 o en la forma especial
+                                          que haya solicitado, y podrá presentar su defensa en el plazo de cinco
+                  
+**Concordancias Legales:** artículo 17; artículo 21
+
+En cuanto a la defensa
                                           La persona investigada será notificada de los cargos que se le formu-
                                           len personalmente o por carta certificada dirigida al domicilio que
                                           haya fijado o, en su defecto, a aquel en que se le hubiere efectuado
@@ -9054,11 +9499,15 @@ Orgánico y Funcional                                             en el Poder Ju
 
 Derecho Procesal                        5. El procedimiento disciplinario                                       222
 
-
 ## Importante
 
+**Definición Canónica:** Si el Funcionario Investigador tomare conocimiento de
+                                          represalias en contra de la persona denunciante o contra quien
+                                          haya declarado como testigo durante el procedimiento, deberá
+                                          ponerlo en conocimiento del órgano resolutor competente.
+**Concordancias Legales:** artículo 17; artículo 22; artículo 25
 
-                                          Si el Funcionario Investigador tomare conocimiento de
+Si el Funcionario Investigador tomare conocimiento de
                                           represalias en contra de la persona denunciante o contra quien
                                           haya declarado como testigo durante el procedimiento, deberá
                                           ponerlo en conocimiento del órgano resolutor competente.
@@ -9190,10 +9639,15 @@ Orgánico y Funcional                                             en el Poder Ju
 
 Derecho Procesal                        5. El procedimiento disciplinario                                      225
 
-
 ## 5.1.3 Impugnación
 
-                                          La resolución del procedimiento disciplinario será impugnable me-
+**Definición Canónica:** La resolución del procedimiento disciplinario será impugnable me-
+                                          diante el recurso de apelación. Si la decisión es adoptada por la Corte
+                                          Suprema, será impugnable solo a través del recurso de reposición. En
+                                          ambos casos el recurso deberá ser deducido dentro de los cinco días
+                                          siguientes a la notificación de la resolución impugnada y ser fundado.
+
+La resolución del procedimiento disciplinario será impugnable me-
                                           diante el recurso de apelación. Si la decisión es adoptada por la Corte
                                           Suprema, será impugnable solo a través del recurso de reposición. En
                                           ambos casos el recurso deberá ser deducido dentro de los cinco días
@@ -9205,7 +9659,10 @@ Orgánico y Funcional                                             en el Poder Ju
 
 ## parte, se presentará ante el mismo órgano que resolvió el procedi-
 
-                                          miento disciplinario, a objeto que lo remita al superior jerárquico
+**Definición Canónica:** miento disciplinario, a objeto que lo remita al superior jerárquico
+**Concordancias Legales:** artículo 3
+
+miento disciplinario, a objeto que lo remita al superior jerárquico
 
                                           que debe resolverlo.
 
@@ -9247,10 +9704,12 @@ Orgánico y Funcional                                             en el Poder Ju
 
 Derecho Procesal                              5. El procedimiento disciplinario                                         227
 
-
 ## 5.2     Procedimiento para
 
-                                                juzgados reformados
+**Definición Canónica:** juzgados reformados
+**Concordancias Legales:** artículo 14; artículo 389; artículo 82 de la Constitución Política de la República; Constitución Política
+
+juzgados reformados
 
                                                 El procedimiento para investigar las faltas disciplinarias en los tri-
                                                 bunales reformados se regirá por la normativa general precedente,
@@ -9293,10 +9752,11 @@ Orgánico y Funcional                                             en el Poder Ju
                                           no cuenten con un procedimiento disciplinario predeterminado
                                           por el legislador.
 
-
 ## 5.2.1 Investigaciones contra los
 
-                                          administradores de tribunal
+**Definición Canónica:** administradores de tribunal
+
+administradores de tribunal
 
                                           La investigación de las faltas disciplinarias de los administradores o
                                           las administradoras, se regirá por las disposiciones del procedimiento
@@ -9304,10 +9764,12 @@ Orgánico y Funcional                                             en el Poder Ju
 
 Derecho Procesal                              5. El procedimiento disciplinario                                      229
 
-
 ## 5.3     Ley
 
-                                                de Probidad
+**Definición Canónica:** de Probidad
+**Concordancias Legales:** artículo 27 del Reglamento de; artículo 17; artículos 23; Ley Nº 20.880
+
+de Probidad
 
                                                 El procedimiento para la aplicación de la ley de Probidad en la fun-
                                                 ción pública regirá para determinar la infracción a las obligaciones
@@ -9350,10 +9812,12 @@ Orgánico y Funcional                                             en el Poder Ju
 
 Derecho Procesal                              5. El procedimiento disciplinario                                       231
 
-
 ## 5.4     Remoción de administradores y
 
-                                                personal de los juzgados
+**Definición Canónica:** personal de los juzgados
+**Concordancias Legales:** artículo 41; artículo 15
+
+personal de los juzgados
 
                                                 Una vez iniciado el procedimiento de remoción mediante la solicitud
                                                 correspondiente, el órgano encargado de su instrucción y recopilación
@@ -9478,10 +9942,12 @@ Orgánico y Funcional                                             en el Poder Ju
 
 Derecho Procesal                              5. El procedimiento disciplinario                                             234
 
-
 ## 5.5     Tabla comparativa entre el procedimiento general y el
 
-                                                establecido por el COT para los tribunales reformados
+**Definición Canónica:** establecido por el COT para los tribunales reformados
+**Concordancias Legales:** artículo 8 del Acta; artículo 8 del Acta. laciones en caso que no
+
+establecido por el COT para los tribunales reformados
 
                                                                                                   Procedimiento para Tribu-
                                                        Ítem            Procedimiento General
@@ -9580,11 +10046,12 @@ Orgánico y Funcional                                             en el Poder Ju
 
 Derecho Procesal                              5. El procedimiento disciplinario                                             236
 
-
 ## 5.6     Glosario
 
+**Definición Canónica:** Denunciante: funcionario o ente que pone en conocimiento del órgano re-
+                                                solutor de la denuncia, queda o reclamo.
 
-                                                Denunciante: funcionario o ente que pone en conocimiento del órgano re-
+Denunciante: funcionario o ente que pone en conocimiento del órgano re-
                                                 solutor de la denuncia, queda o reclamo.
 
                                                 Denunciado: funcionario respecto del cual se presenta una denuncia, re-
@@ -9630,10 +10097,12 @@ Orgánico y Funcional                                             en el Poder Ju
 Derecho Procesal                                                           6. Procedimiento de Actuación para la prevención, denuncia y             238
 Orgánico y Funcional                                                          tratamiento del Acoso sexual en el Poder Judicial de Chile
 
-
 ## 6.1               Reglas
 
-                                                                             generales
+**Definición Canónica:** generales
+**Concordancias Legales:** artículo 1 del Acta; Constitución
+
+generales
 
 Materiales docentes Academia Judicial                                        A fines del 2015 y principios de 2016, el Poder Judicial realizó un
                                                                              estudio de diagnóstico a nivel nacional que reveló que una de cada
@@ -9726,10 +10195,11 @@ Orgánico y Funcional                       tratamiento del Acoso sexual en el P
 Derecho Procesal                              6. Procedimiento de Actuación para la prevención, denuncia y             241
 Orgánico y Funcional                             tratamiento del Acoso sexual en el Poder Judicial de Chile
 
-
 ## 6.2     Secretaría Técnica de Igualdad de
 
-                                                Género y No Discriminación
+**Definición Canónica:** Género y No Discriminación
+
+Género y No Discriminación
 
                                                 Organismo técnico que fue inaugurado el año 2017, es una oficina
                                                 de carácter estratégico creada por el Pleno de la Corte Suprema a
@@ -9842,10 +10312,12 @@ Orgánico y Funcional                       tratamiento del Acoso sexual en el P
 Derecho Procesal                              6. Procedimiento de Actuación para la prevención, denuncia y             245
 Orgánico y Funcional                             tratamiento del Acoso sexual en el Poder Judicial de Chile
 
-
 ## 6.3     Procedimiento
 
-                                                de denuncia
+**Definición Canónica:** de denuncia
+**Concordancias Legales:** artículos 4; artículos 532; artículo 389; artículo 393 del Jueces de Código Orgánico de Tribuna; artículo 10
+
+de denuncia
 
                                                 Según dispone el Acta en los artículos 4 y siguientes, este Protocolo
                                                 se regirá por los siguientes principios:
@@ -10061,10 +10533,12 @@ Orgánico y Funcional                       tratamiento del Acoso sexual en el P
 Derecho Procesal                              6. Procedimiento de Actuación para la prevención, denuncia y             250
 Orgánico y Funcional                             tratamiento del Acoso sexual en el Poder Judicial de Chile
 
-
 ## 6.4     Procedimiento de
 
-                                                investigación
+**Definición Canónica:** investigación
+**Concordancias Legales:** artículos 12; artículo 14 del Acta N; artículo 25 del Acta N; artículo 17 del Acta referida
+
+investigación
 
                                                 Según dispone el Acta en los artículos 12 y siguientes, los procedi-
                                                 mientos de investigación sin perjuicio de lo señalado en el artículo
@@ -10151,24 +10625,36 @@ Orgánico y Funcional                       tratamiento del Acoso sexual en el P
 
                                              Bibliografía
 
-
 ## 1.   BORDALÍ SALAMANCA, Andrés (2009): "Orga-              7.   PEREIRA ANABALÓN, Hugo (1996): Curso de
 
-                                             nización judicial en el Derecho Chileno: Un poder          Derecho Procesal Orgánico. Editorial Conosur,
+**Definición Canónica:** nización judicial en el Derecho Chileno: Un poder          Derecho Procesal Orgánico. Editorial Conosur,
                                              fragmentado". En Revista Chilena de Derecho,               Santiago. Versión online en: http://catalogoenli-
                                              vol.36 N° 2, pp.215-244. Versión online.                   nea.pjud.cl/libros/1/3962/index.html
 
+nización judicial en el Derecho Chileno: Un poder          Derecho Procesal Orgánico. Editorial Conosur,
+                                             fragmentado". En Revista Chilena de Derecho,               Santiago. Versión online en: http://catalogoenli-
+                                             vol.36 N° 2, pp.215-244. Versión online.                   nea.pjud.cl/libros/1/3962/index.html
 
 ## 2.   BORDALÍ SALAMANCA, Andrés (2018): "El régi-           8.   PFEIFFER RICHTER, Alfredo (1998): Apuntes de
 
-                                             men de responsabilidad disciplinaria de los jue-           derecho procesal del Profesor Pfeiffer: Derecho
+**Definición Canónica:** men de responsabilidad disciplinaria de los jue-           derecho procesal del Profesor Pfeiffer: Derecho
+                                             ces chilenos y su inadecuación a las exigencias            procesal orgánico, Tomo I. Impresos Ranco, Chile.
+                                             constitucionales", Revista Ius et Praxis, Universi-        Versión online.
+                                             dad de Talca, Vol.2, pp.513-548.
+**Concordancias Legales:** constitucion
+
+men de responsabilidad disciplinaria de los jue-           derecho procesal del Profesor Pfeiffer: Derecho
                                              ces chilenos y su inadecuación a las exigencias            procesal orgánico, Tomo I. Impresos Ranco, Chile.
                                              constitucionales", Revista Ius et Praxis, Universi-        Versión online.
                                              dad de Talca, Vol.2, pp.513-548.
 
 ## 9.   Reglas de Bangalore (2012): Oficina de las Na-
 
-                                        3.   CORREA SELAMÉ, Jorge (2018): Curso de Dere-                ciones Unidas sobre la droga y el delito. Versión
+**Definición Canónica:** 3.   CORREA SELAMÉ, Jorge (2018): Curso de Dere-                ciones Unidas sobre la droga y el delito. Versión
+                                             cho Procesal: Derecho procesal orgánico. Ju-               online.
+                                             risdicción y competencia. Tribunales ordinarios,
+
+3.   CORREA SELAMÉ, Jorge (2018): Curso de Dere-                ciones Unidas sobre la droga y el delito. Versión
                                              cho Procesal: Derecho procesal orgánico. Ju-               online.
                                              risdicción y competencia. Tribunales ordinarios,
 
@@ -10180,10 +10666,13 @@ Orgánico y Funcional                       tratamiento del Acoso sexual en el P
                                              Manual de Derecho Procesal Orgánico. Editorial
                                              Punta Lex, Santiago. Versión online.
 
-
 ## 5.   MALEM SEÑA, Jorge (2001): "¿Pueden las malas
 
-                                             personas ser buenos jueces?", Revista Doxa,
+**Definición Canónica:** personas ser buenos jueces?", Revista Doxa,
+                                             Vol.24, Universidad Pompeu-Fabra, Barcelona,
+                                             pp.379-403. Versión online.
+
+personas ser buenos jueces?", Revista Doxa,
                                              Vol.24, Universidad Pompeu-Fabra, Barcelona,
                                              pp.379-403. Versión online.
 
@@ -10198,69 +10687,22 @@ Orgánico y Funcional                       tratamiento del Acoso sexual en el P
                                         1.   Corte Suprema. Manual de Usuario Sistema para        10. AD 94-2009. Sobre Inhabilidades.
                                              Declaración de Intereses y Patrimonio
 
-## 11.   Acta 85-2014. Instruye sobre participación de
-
-
 ## 2.   Código Iberoamericano de Ética Judicial: https://          funcionarios judiciales en subastas de bienes
 
-                                             www.pjud.cl/documents/10179/12162845/CODI-                 de la Corporación Administrativa del Poder
+**Definición Canónica:** www.pjud.cl/documents/10179/12162845/CODI-                 de la Corporación Administrativa del Poder
                                              GO+IBEROAMERICANO+DE+ETICA+JUDICIAL.                       Judicial.
                                              pdf/13ca11bc-0466-458a-96d5-1ddb351d7d69
 
-## 12. Plan Estratégico Institucional del Poder Judi-
-
-
-## 3.   Comisión Iberoamericana: https://www.poderjudi-          cial. https://www.pjud.cl/plan-estrategico
-
-                                             cial.es/cgpj/es/CIEJ
-                                                                                                  13. Ley de Tramitación Electrónica N° 20.886.
-
-## 4.   Estatuto del Juez: https://www.pjud.cl/docu-             http://www.tramitacionelectronica.cl/ley-
-
-                                             ments/10179/12162872/Estatuto_del_Juez_0.                num-20-886/
-                                             pdf/5ee660f5-43ee-4ddc-876d-b7c0cd3f9fcc
-
-## 14. Auto acordado N° 71-2016 de la Excma. Corte
-
-
-
-## 5.   Dictámenes de la Comisión Iberoamericana de              Suprema. http://www.tramitacionelectronica.cl/
-
-                                             Ética Judicial: https://www.pjud.cl/dictamenes1          auto-acordado-71-2016/
-
+www.pjud.cl/documents/10179/12162845/CODI-                 de la Corporación Administrativa del Poder
+                                             GO+IBEROAMERICANO+DE+ETICA+JUDICIAL.                       Judicial.
+                                             pdf/13ca11bc-0466-458a-96d5-1ddb351d7d69
 
 ## 6.   Auto acordado Nº 118-2016 sobre Declaración          15. Sistema de evaluación del desempeño de
 
-                                             de Patrimonio e Intereses: https://www.pjud.cl/          funcionarios y empleados del Poder Judicial.
+**Definición Canónica:** de Patrimonio e Intereses: https://www.pjud.cl/          funcionarios y empleados del Poder Judicial.
                                              documents/396588/0/Acta+118-2016.pdf/1ffa-               https://obtienearchivo.bcn.cl/obtienearchivo?i-
                                              8dab-b1bd-4a02-aee4-6eddcfd73f54                         d=recursoslegales/10221.3/4201/1/HL19390.pdf
 
-
-## 7.   Acta 62-2009 Corte Suprema sobre vestimenta
-
-                                             judicial: https://www.u-cursos.cl/derecho/2012/1/
-                                             D125A0526/2/material_docente/bajar?id_mate-
-                                             rial=419238
-
-
-## 8.   Acta 10-2000. Instrucción Cortes de Apelaciones
-
-                                             del país sobre comportamiento funcionario.
-
-
-## 9.   Auto acordado sobre principios de ética judicial y
-
-                                             comisión de ética texto refundido. Dic. 2007.
-
-Derecho Procesal                        Introducción   255
-
-
-## Serie de
-
-Derecho Procesal                                          DOCUMENTOS 256
-Orgánico y Funcional                                      MATERIALES
-
-## Docentes
-
-
-   Academia Judicial de Chile | www.academiajudicial.cl
+de Patrimonio e Intereses: https://www.pjud.cl/          funcionarios y empleados del Poder Judicial.
+                                             documents/396588/0/Acta+118-2016.pdf/1ffa-               https://obtienearchivo.bcn.cl/obtienearchivo?i-
+                                             8dab-b1bd-4a02-aee4-6eddcfd73f54                         d=recursoslegales/10221.3/4201/1/HL19390.pdf

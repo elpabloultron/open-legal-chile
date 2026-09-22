@@ -13,11 +13,27 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Duodecima parte: los albaceas
-
-
 ## O ejecutores testamentarios1
 
+**Definición Canónica:** Sumario:
+1.- Concepto.
+2.- Naturaleza jurídica del albaceazgo.
+3.- Características principales del albaceazgo.
+4.- Capacidad para ser albacea.
+5.- Clases de albacea.
+6.- Facultades y obligaciones de los albaceas.
+6.1. Albaceas sin tenencia de bienes.
+6.2. Albacea con tenencia de bienes.
+7.- Prohibiciones a que están sujetos los albaceas.
+8.- Obligaciones y responsabilidad del albacea.
+8.1. Obligaciones del albacea.
+8.2. Responsabilidad del albacea.
+9.- Extinción del albaceazgo.
+10.- El albaceazgo fiduciario.
+10.1. Concepto.
+10.2. Requisitos del albaceazgo fiduciario.
+10.3. Cantidad máxima que 
+**Concordancias Legales:** artículos 497; artículo 1377 del Código Civil; artículo 1377; artículos 4; artículo 487; artículo 1288; artículos 1290; artículos 1288; Ley Nº 5.427
 
 Sumario:
 1.- Concepto.
@@ -582,6 +598,16 @@ están sujetos a lo dispuesto en el art. 2144, no es menos cierto que el art. 12
 
 ## título de los albaceas, establece que lo dispuesto en los arts. 394 y 412 se extenderá a
 
+**Definición Canónica:** los albaceas. Y sabemos que el art. 412 permite al tutor o curador comprar los bienes
+muebles del pupilo con autorización de los restantes guardadores o por la justicia en
+subsidio, prohibiendo sin embargo bajo todo respecto, comprar bienes raíces.
+        Vemos que entre los art. 2144 y 412 no hay contradicción en cuanto a la
+posibilidad de comprar bienes muebles, pero sí la hay en lo que se refiere a los bienes
+inmuebles, pues si aplicamos el art. 2144, se autorizaría a los albaceas para
+comprarlos, con el consentimiento de los herederos (mandantes); en cambio, el art.
+412 impide, en término
+**Concordancias Legales:** artículo 1311; artículo 1312; artículo 1315; artículo 1316
+
 los albaceas. Y sabemos que el art. 412 permite al tutor o curador comprar los bienes
 muebles del pupilo con autorización de los restantes guardadores o por la justicia en
 subsidio, prohibiendo sin embargo bajo todo respecto, comprar bienes raíces.
@@ -817,6 +843,16 @@ viii) Si el albacea fiduciario se hace incapaz después de abierta la sucesión,
 el cargo, a diferencia de lo que ocurre con los albaceas generales, conforme al artículo
 
 ## 1275. La ausencia, en las normas aplicables a los albaceas fiduciarios, de una norma
+
+**Definición Canónica:** semejante a la del artículo 1275, revela que se trata de una asignación testamentaria.
+Por tanto, para adquiría, se debe ser capaz y digno al momento de abrirse la sucesión,
+y no importa lo que después le pueda ocurrir.
+ix) Si el albacea fiduciario fuera efectivamente un ejecutor testamentario, su función
+debería ser remunerada. No existe ninguna norma sobre el particular, lo que revela
+que no se trata de un ejecutor testamentario.
+x) Por último, cabe preguntarse ¿qué consecuencias se siguen de que el albacea
+fiduciario no acepte el encargo o bien no cumpla con el requisito del juramento a que
+**Concordancias Legales:** artículo 1275; artículo 1314; artículos 1277; artículo 1277; Ley Nº 16.271
 
 semejante a la del artículo 1275, revela que se trata de una asignación testamentaria.
 Por tanto, para adquiría, se debe ser capaz y digno al momento de abrirse la sucesión,

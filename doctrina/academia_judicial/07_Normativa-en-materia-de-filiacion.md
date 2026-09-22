@@ -13,19 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Familia | **Materia:** Familia
 
-## Serie de
-
-
-## Documentos                                                          09
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Normativa
+             en materia
 
-             Normativa
+Normativa
              en materia
 
                                         Francesco
@@ -39,19 +32,25 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Francesco
+                              Carretta
+                              Muñoz
+                          Doctor en derecho de la Pontificia
+                          Universidad Católica de Valparaí-
+                          so y profesor de Derecho Procesal
+                          de la misma casa de estudios , ha
+                          sido juez del Juzgado de Familia de
+                          Valparaíso y es autor de numerosas
+                          publicaciones en las materias de su
+                          especialidad.
+Academia
+Judicial        Autores
+de Chile
+Amunáte
 
-                          Francesco
+Francesco
                               Carretta
                               Muñoz
                           Doctor en derecho de la Pontificia
@@ -103,168 +102,20 @@ Chile 2020                y es relatora de la Corte Suprema de
 
                 Introducción                                                                                     7
 
-
-## 1. Filiación                                                                                    10
-
-
-
-## 1.1 Concepto y alcance                                                                       11
-
-
-
-## 1.2 Historia de la institución y el giro de la óptica de apreciación de esta                 12
-
-
-
-## 2. Principios inspiradores de la Reforma                                                        15
-
-
-
-## 2.1 Igualdad ante la ley                                                                     17
-
-
-
-## 2.2 Derecho a la identidad                                                                   20
-
-
-
-## 2.2.1   Líneas jurisprudenciales de la Corte Suprema sobre el derecho a la identidad   22
-
-
-
-## 2.3 Interés superior del niño                                                                24
-
-
-
-## 2.4 Libre investigación de la paternidad y la maternidad                                     29
-
-
-
-## 2.4.1   Prueba de ADN32
-
-
-
-## 2.4.2   Presunción de paternidad                                                       40
-
-
-
-## 2.5 In dubio pro filii                                                                       44
-
-
-
-## 2.6 Derecho del niño a ser oído y autonomía progresiva                                       45
-
-
-
-## 2.6.1 Derecho del niño a ser oído                                                      45
-
-
-
-## 2.6.2 Autonomía progresiva                                                             47
-
-
-
-## 3. Clases de Filiación                                                                          49
-
-
-
-## 3.1 Determinación de la filiación                                                            52
-
-
-
-## 3.1.1   Determinación de la maternidad                                                 52
-
-
-
-## 3.1.2   Determinación de filiación matrimonial                                         53
-
-
-
-## 3.1.3   Determinación de la filiación no matrimonial                                   56
-
-
-
-## 3.1.4   Determinación en la fertilización asistida                                     66
-
-
-
-## 4. Acciones de Filiación                                                                        68
-
-
-
-## 4.1 Reglas generales                                                                         70
-
-
-
-## 4.2 Características de las acciones de filiación                                             71
-
-
-
-## 4.3 Posesión notoria                                                                         72
-
-
-
-## 4.3.1   Elementos de la posesión notoria                                               76
-
-
-
-## 4.3.2   Requisitos                                                                     77
-
-Normativa en materia                                       Índice                                                                         5
-
-
-## 4.3.3   Colisión con la prueba biológica                                                                   80
-
-
-                   4.4 Acciones de reclamación                                                                                     82
-
-
-## 4.4.1 Acción de reclamación de la filiación matrimonial                                                    84
-
-
-
-## 4.4.2 Acción de reclamación de filiación no matrimonial                                                    86
-
-
-
-## 4.4.3 Acción de reclamación en el caso del artículo 206 del Código Civil                                   90
-
-
-
-## 4.4.4 Hijos nacidos antes de la entrada en vigencia de la Ley Nº 19.585                                    93
-
-
-                   4.5 Acciones de impugnación                                                                                     98
-
-
-## 4.5.1 Impugnación de la filiación determinada según artículos 184 y 185 inciso primero del Código Civil   101
-
-
-
-## 4.5.2 Impugnación de la paternidad determinada por reconocimiento                                         105
-
-
-
 ## 4.5.3 Impugnación de la maternidad                                                                        116
 
+**Definición Canónica:** 4.6 Acción de desconocimiento                                                                                   120
 
-                   4.6 Acción de desconocimiento                                                                                   120
+4.6 Acción de desconocimiento                                                                                   120
 
                    4.7 Nulidad del reconocimiento                                                                                  122
 
-
-## 4.7.1   Error                                                                                             124
-
-
-
-## 4.7.2   Dolo                                                                                              126
-
-
-
 ## 4.7.3   Fuerza                                                                                            126
 
+**Definición Canónica:** 4.8 Interposición conjunta de las acciones de impugnación y de reclamación                                      129
+**Concordancias Legales:** artículo 33 del Código Civil; Ley N° 14.908; Ley N° 16.618; Ley N° 19.968; Ley Nº 19.585
 
-                   4.8 Interposición conjunta de las acciones de impugnación y de reclamación                                      129
+4.8 Interposición conjunta de las acciones de impugnación y de reclamación                                      129
 
                 5. Efectos de la Sentencia                                                                                         133
 
@@ -421,10 +272,12 @@ Chile 2020                y es relatora de la Corte Suprema de
                                         Filiación
 Normativa en materia                                                      1. Filiación                                                         11
 
-
 ## 1.1           Concepto y
 
-                                                                            alcance
+**Definición Canónica:** alcance
+**Concordancias Legales:** Artículo 28 del Código Civil; Artículo 31 del Código Civil
+
+alcance
 
                                                                             La filiación no está definida en la ley y suele confundirse con la no-
                                                                             ción de parentesco. Siguiendo a Claro Solar6, se dirá que la filiación
@@ -446,10 +299,11 @@ Chile 2020                y es relatora de la Corte Suprema de
 
 Normativa en materia                                                   1. Filiación                                                                       12
 
-
 ## 1.2          Historia de la institución y el giro de la
 
-                                                                         óptica de apreciación de esta
+**Definición Canónica:** óptica de apreciación de esta
+
+óptica de apreciación de esta
 
                                                                          En el derecho romano, todos los hijos que no hubieran nacido “justis
                                                                          nuptiis” eran considerados “liberi non justi”. Bajo el imperio de Cons-
@@ -484,7 +338,13 @@ Chile 2020                y es relatora de la Corte Suprema de
 
 ## 13   Barragana según la RAE: Concubina. Esposa legítima, aunque de condición inferior a la del mari-
 
-                                             do y a la que las leyes no reconocían los mismos derechos civiles que a la esposa principal.
+**Definición Canónica:** do y a la que las leyes no reconocían los mismos derechos civiles que a la esposa principal.
+                                        14   De acuerdo a la RAE: Hijo de prostituta.
+                                        15   Según la RAE: Hijo ilegítimo de padre desconocido.
+                                        16   ÁLVAREZ POSADILLA (1826), p. 110.
+**Concordancias Legales:** artículo 270; artículo 280; artículos 37; artículo 184 del Código Civil a los hijos de convivientes; Ley N° 5.750; Ley N° 10.270; Ley N° 17.999; Ley N° 20.830; Ley Nº 19.585
+
+do y a la que las leyes no reconocían los mismos derechos civiles que a la esposa principal.
                                         14   De acuerdo a la RAE: Hijo de prostituta.
                                         15   Según la RAE: Hijo ilegítimo de padre desconocido.
                                         16   ÁLVAREZ POSADILLA (1826), p. 110.
@@ -555,10 +415,14 @@ Chile 2020                y es relatora de la Corte Suprema de
                                                                               siendo tarea pendiente para el legislador, pero que sendos fallos se
                                         para el legislador.                   han encargado de integrar a la laguna legal.
 
-
 ## 18   BCN (1998), disponible en https://www.bcn.cl/obtienearchivo?id=recursoslegales/10221.3/4231/1/HL19585.pdf
 
-                                          19   Para entender mejor el cambio que significó la Ley Nº 19.585 en la sociedad, se puede consultar el siguiente
+**Definición Canónica:** 19   Para entender mejor el cambio que significó la Ley Nº 19.585 en la sociedad, se puede consultar el siguiente
+                                               video: http://www.poderjudicialtv.cl/programas/leyes-que-cambiaron-chile/noticiero-judicial-leyes-que-cam-
+                                               biaron-chile-ley-de-filiacion/
+**Concordancias Legales:** Ley Nº 19.585
+
+19   Para entender mejor el cambio que significó la Ley Nº 19.585 en la sociedad, se puede consultar el siguiente
                                                video: http://www.poderjudicialtv.cl/programas/leyes-que-cambiaron-chile/noticiero-judicial-leyes-que-cam-
                                                biaron-chile-ley-de-filiacion/
 
@@ -573,23 +437,12 @@ de Filiación                               la Reforma
                                                     Principios                             Principios
                                                   inspiradores                             procesales
 
-
-## 1. La igualdad ante la ley                 1. In dubio pro filii
-
-
-
-## 2. Derecho a la identidad            2. Derecho del niño a ser oído y
-
-                                                                                        autonomía progresiva
-
-
-## 3. Interés superior del niño
-
-
-
 ## 4. La libre investigación de la
 
-                                              paternidad y maternidad
+**Definición Canónica:** paternidad y maternidad
+**Concordancias Legales:** Ley N° 19.585
+
+paternidad y maternidad
 
                                           La reforma introducida por la Ley N° 19.585 al Código Civil y otros
                                           cuerpos legales en materia de filiación, se basó en cuatro principios
@@ -605,10 +458,12 @@ de Filiación                               la Reforma
 
 Normativa en materia                                                      2. Principios inspiradores de                                                              17
 
-
 ## 2.1                Igualdad ante
 
-                                                                             la ley
+**Definición Canónica:** la ley
+**Concordancias Legales:** Artículo 29; Constitución; Constitución Política
+
+la ley
 
                                                                              La igualdad está garantizada, tanto en la Constitución como en los
                                                                              tratados internacionales, en los siguientes artículos:
@@ -656,7 +511,9 @@ de Filiación                               la Reforma
 
 ## Pidesc
 
-                                                                                     o cualquier otra condición.
+**Definición Canónica:** o cualquier otra condición.
+
+o cualquier otra condición.
 
                                                                                      Los mismos derechos y responsabilidades como progenitores, cualquiera
                                                           Art. 16 letra d)
@@ -664,7 +521,10 @@ de Filiación                               la Reforma
 
 ## Cedaw
 
-                                                                                     los casos, los intereses de los hijos serán la consideración primordial.
+**Definición Canónica:** los casos, los intereses de los hijos serán la consideración primordial.
+**Concordancias Legales:** artículo 206 del Código Civil23; artículo 19; Constitución; constitucion
+
+los casos, los intereses de los hijos serán la consideración primordial.
 
 Normativa en materia                                                     2. Principios inspiradores de                                                       18
 
@@ -741,23 +601,27 @@ de Filiación                               la Reforma
 
                                                                             — 206 CC contrario a          — 206 CC contrario a      — 206 CC conforme
 
-## 19 N° 2 CPR                    19 N° 2 CPR en esa         a CPR
-
-
 ## parte
 
+**Definición Canónica:** 23   Artículo 206 del Código Civil: Si el hijo es póstumo, o si alguno de los padres fallece dentro de los ciento
+                                             ochenta días siguientes al parto, la acción podrá dirigirse en contra de los herederos del padre o de la madre
+                                             fallecidos, dentro del plazo de tres años, contados desde su muerte o, si el hijo es incapaz, desde que éste
+                                             haya alcanzado la plena capacidad.
+**Concordancias Legales:** Artículo 206 del Código Civil
 
-                                        23   Artículo 206 del Código Civil: Si el hijo es póstumo, o si alguno de los padres fallece dentro de los ciento
+23   Artículo 206 del Código Civil: Si el hijo es póstumo, o si alguno de los padres fallece dentro de los ciento
                                              ochenta días siguientes al parto, la acción podrá dirigirse en contra de los herederos del padre o de la madre
                                              fallecidos, dentro del plazo de tres años, contados desde su muerte o, si el hijo es incapaz, desde que éste
                                              haya alcanzado la plena capacidad.
 
 Normativa en materia                                                     2. Principios inspiradores de                                            20
 
-
 ## 2.2           Derecho a la
 
-                                                                           identidad
+**Definición Canónica:** identidad
+**Concordancias Legales:** Constitución Política
+
+identidad
 
                                                                            El derecho a la identidad es un “derecho complejo, que, por un lado,
                                                                            presenta un aspecto dinámico, cuyo desarrollo se encuentra ligado a
@@ -784,10 +648,12 @@ de Filiación                               la Reforma
                                                                            las Personas con Discapacidad, en los artículos que se señalan en el
                                                                            cuadro siguiente:
 
-
 ## 24   Corte IDH (2005), caso Hermanas Serrano Cruz vs. El Salvador, voto disidente del juez Manuel E. Ventura
 
-                                             Robles.
+**Definición Canónica:** Robles.
+                                        25   FERNÁNDEZ SESSAREGO (1992), p. 112.
+
+Robles.
                                         25   FERNÁNDEZ SESSAREGO (1992), p. 112.
 
 Normativa en materia                                                  2. Principios inspiradores de                                                              21
@@ -847,10 +713,15 @@ de Filiación                                            la Reforma
                                                           esta institución nace de la imposibilidad de probar la paternidad
                                                           antes del descubrimiento de las pruebas científicas.
 
-
 ## 2.2.1 Líneas jurisprudenciales de la Corte
 
-                                                       Suprema sobre el derecho a la identidad
+**Definición Canónica:** Suprema sobre el derecho a la identidad
+                                                       La Corte Suprema, en sus sentencias, ha reconocido diversos aspectos
+                                                       del derecho a la identidad, siendo las siguientes representativas de
+                                                       estas fluctuaciones:
+**Concordancias Legales:** constitucion
+
+Suprema sobre el derecho a la identidad
                                                        La Corte Suprema, en sus sentencias, ha reconocido diversos aspectos
                                                        del derecho a la identidad, siendo las siguientes representativas de
                                                        estas fluctuaciones:
@@ -889,10 +760,12 @@ de Filiación                                            la Reforma
 Normativa en materia                                                         2. Principios inspiradores de                                                                24
 de Filiación                                                                    la Reforma
 
-
 ## 2.3              Interés superior
 
-                                                                               del niño
+**Definición Canónica:** del niño
+**Concordancias Legales:** artículo 201 del Código Civil; Ley Nº 19.968
+
+del niño
 
                                                                                El interés superior del niño es un principio fundamental que se
                                                                                encuentra recogido en normas dispersas dentro de la legislación na-
@@ -1108,10 +981,12 @@ de Filiación                                                            la Refo
 
 Normativa en materia                                                      2. Principios inspiradores de                                               29
 
-
 ## 2.4           Libre investigación de la
 
-                                                                            paternidad y la maternidad
+**Definición Canónica:** paternidad y la maternidad
+**Concordancias Legales:** artículo 271; Artículo 1 de la Ley Nº 10.271 que modifica el artículo 271 de; artículo 195; artículos 196; Ley Nº 19.585; Ley Nº 10.271; Ley Nº 5.750
+
+paternidad y la maternidad
 
                                                                             Hasta la dictación de la Ley Nº 19.585, quien pretendía obtener el
                                                                             reconocimiento de su filiación se encontraba con una serie de trabas
@@ -1205,10 +1080,17 @@ de Filiación                                                                   
                                                                             entre sus disposiciones41, debiendo ser interpretado a la luz de los
                                                                             demás principios involucrados (igualdad e identidad del hijo), por lo
 
-
 ## 38   The Nobel Prize (2020): Karl Landsteiner, disponible en https://www.nobelprize.org/prizes/medicine/1930/
 
-                                             landsteiner/biographical/
+**Definición Canónica:** landsteiner/biographical/
+                                        39   BCN (1855), Historia de la Ley Nº 19.585, p. 7.
+                                        40   CS roles N° 37.478-2015, 6.674-15, 51-2016, de 3 de marzo de 2016, 1 de julio de 2015 y 4 de marzo de 2016,
+                                             respectivamente.
+                                        41   CS roles N° 7.065-10, 10.815-11, 28.905-2014 y 8.216-2015, de 28 de enero de 2011, 11 de junio de 2012, 18
+                                             de mayo de 2015 y 15 de diciembre de 2015, respectivamente.
+**Concordancias Legales:** Ley Nº 19.585
+
+landsteiner/biographical/
                                         39   BCN (1855), Historia de la Ley Nº 19.585, p. 7.
                                         40   CS roles N° 37.478-2015, 6.674-15, 51-2016, de 3 de marzo de 2016, 1 de julio de 2015 y 4 de marzo de 2016,
                                              respectivamente.
@@ -1222,11 +1104,15 @@ de Filiación                                                                   
                                                                               por la incertidumbre de su filiación y no de los terceros, a quienes
                                                                               la ley exige un interés actual y pecuniario.42
 
-
 ## 2.4.1 Prueba de ADN		                43
 
+**Definición Canónica:** Es una prueba biológica y lógico-probabilística: en una primera
+                                                                              etapa se comparan las diferencias de las regiones polimórficas y si
+                                                                              no coinciden, se determina exclusión de paternidad. En cambio, si
+                                                                              son semejantes, se hace un cálculo de probabilidades basado en es-
+                                                                              tadísticas y tablas pob
 
-                                                                              Es una prueba biológica y lógico-probabilística: en una primera
+Es una prueba biológica y lógico-probabilística: en una primera
                                                                               etapa se comparan las diferencias de las regiones polimórficas y si
                                                                               no coinciden, se determina exclusión de paternidad. En cambio, si
                                                                               son semejantes, se hace un cálculo de probabilidades basado en es-
@@ -1244,10 +1130,16 @@ de Filiación                                                                   
 
                                                                               Características:
 
-
 ## 1. Es una        2. Su valor                  3. Se realizan   4. Las partes       5. La prueba
 
-                                             prueba pericial.    probatorio no es            por el SML o el   tienen derecho a   no es infalible.
+**Definición Canónica:** prueba pericial.    probatorio no es            por el SML o el   tienen derecho a   no es infalible.
+                                                                 obligatorio:               laboratorio que    pedir un
+                                                                 La ley dice                designe el juez.   nuevo informe
+                                                                 “El juez podrá dar”                           por una vez.
+                                                                 y cede ante la
+                                                 
+
+prueba pericial.    probatorio no es            por el SML o el   tienen derecho a   no es infalible.
                                                                  obligatorio:               laboratorio que    pedir un
                                                                  La ley dice                designe el juez.   nuevo informe
                                                                  “El juez podrá dar”                           por una vez.
@@ -1258,7 +1150,11 @@ de Filiación                                                                   
 
 ## 43      National Human Genome Research Institute (2019)
 
-                                        44      Mizrahi M. L. (2004), pp. 69-70.
+**Definición Canónica:** 44      Mizrahi M. L. (2004), pp. 69-70.
+                                        45      Lagos M., Poggi H. y Mellado C. (2011), p. 545.
+**Concordancias Legales:** artículo 76 del Código Civil; artículo 63 bis de la Ley Nº 19.968; artículo 199 del Código Civil prima sobre la confesión ficta d; Ley Nº 19.968
+
+44      Mizrahi M. L. (2004), pp. 69-70.
                                         45      Lagos M., Poggi H. y Mellado C. (2011), p. 545.
 
 Normativa en materia                                                     2. Principios inspiradores de                                             33
@@ -1542,7 +1438,9 @@ de Filiación                                                                   
 
 ## 64   CS roles N° 4.938-15, 50.055-2016 y 34109-2017, de 22 de octubre de 2015, 12 de enero de 2017 y 11 de oc-
 
-                                             tubre de 2017, respectivamente.
+**Definición Canónica:** tubre de 2017, respectivamente.
+
+tubre de 2017, respectivamente.
 
 Normativa en materia                                                       2. Principios inspiradores de                                           40
 
@@ -1568,7 +1466,14 @@ de Filiación                                                                   
 
 ## 2.4.2 Presunción de paternidad
 
-                                                                             El artículo 199 del Código Civil, en sus incisos cuarto y quinto, dis-
+**Definición Canónica:** El artículo 199 del Código Civil, en sus incisos cuarto y quinto, dis-
+                                                                             pone que: “La negativa injustificada de una de las partes a practicarse
+                                                                             el examen hará presumir legalmente la paternidad o la maternidad,
+                                                                             o la ausencia de ella, según corresponda (…) Se entenderá que hay
+                                                                             negativa injustif
+**Concordancias Legales:** artículo 199 del Código Civil; artículo 1552 del Código Civil; artículo 208 del Código Civil69. Marcela Acuña; artículo 19 de la Ley N; artículo 199; Ley N° 19.968
+
+El artículo 199 del Código Civil, en sus incisos cuarto y quinto, dis-
                                                                              pone que: “La negativa injustificada de una de las partes a practicarse
                                                                              el examen hará presumir legalmente la paternidad o la maternidad,
                                                                              o la ausencia de ella, según corresponda (…) Se entenderá que hay
@@ -1648,7 +1553,14 @@ de Filiación                                                                   
 
 ## parte del juicio sino que son arrastrados a él para el sólo efecto de
 
-                                                                           realizar el examen de ADN cuando por alguna razón no está dispo-
+**Definición Canónica:** realizar el examen de ADN cuando por alguna razón no está dispo-
+                                                                           nible el presunto padre o la presunta madre, como los hermanos,
+                                                                           abuelos o tíos (que no darán índices de paternidad, sino de herman-
+                                                                           dad, abuelidad y bondad, respectivamente), no se puede aplicar la
+                                                                           presunción, ya que se trata de una sa
+**Concordancias Legales:** artículo 52 de la Ley N; Ley N° 19.968
+
+realizar el examen de ADN cuando por alguna razón no está dispo-
                                                                            nible el presunto padre o la presunta madre, como los hermanos,
                                                                            abuelos o tíos (que no darán índices de paternidad, sino de herman-
                                                                            dad, abuelidad y bondad, respectivamente), no se puede aplicar la
@@ -1687,10 +1599,11 @@ de Filiación                                                                   
 
 Normativa en materia                                                       2. Principios inspiradores de                                                 44
 
-
 ## 2.5            In dubio
 
-                                                                             pro filii
+**Definición Canónica:** pro filii
+
+pro filii
 
                                                                              Aunque no se tuvo en cuenta en el proyecto de ley, la jurisprudencia
                                                                              y doctrina comparada aplican el principio in dubio pro filii: la duda
@@ -1726,15 +1639,15 @@ de Filiación                                                                   
 Normativa en materia                                                 2. Principios inspiradores de                                                              45
 de Filiación                                                            la Reforma
 
-
-## 2.6            Derecho del niño a ser oído y
-
-                                                                       autonomía progresiva
-
-
 ## 2.6.1 Derecho del niño a ser oído
 
-                                                                       El derecho a ser oído, como el principio in dubio pro filii, no es un
+**Definición Canónica:** El derecho a ser oído, como el principio in dubio pro filii, no es un
+                                                                       principio que se haya tomado en cuenta al momento de dictarse
+                                                                       la ley, pese a que en los juicios de filiación la mayoría de las veces
+                                                                       se discuten derechos de niños. Sin embargo, numerosas normas lo
+                                                                       recogen y dirigen el actuar del tribunal:
+
+El derecho a ser oído, como el principio in dubio pro filii, no es un
                                                                        principio que se haya tomado en cuenta al momento de dictarse
                                                                        la ley, pese a que en los juicios de filiación la mayoría de las veces
                                                                        se discuten derechos de niños. Sin embargo, numerosas normas lo
@@ -1760,8 +1673,11 @@ de Filiación                                                            la Refo
 
 ## N° 19.947
 
+**Definición Canónica:** El o la juez debe tener en cuenta la opinión del niño en función de su
+                                                                               edad y madurez.
+**Concordancias Legales:** artículo 768
 
-                                                                               El o la juez debe tener en cuenta la opinión del niño en función de su
+El o la juez debe tener en cuenta la opinión del niño en función de su
                                                                                edad y madurez.
 
                                                                                El menor adulto debe consentir ser adoptado y a la solicitud de los
@@ -1840,10 +1756,16 @@ de Filiación                                                                   
                                                                             adecuado que las salas de audiencia para oír al niño, cumpliendo las
                                                                             exigencias que el Comité de los Derechos del Niño ha estatuido80.
 
-
 ## 2.6.2 Autonomía progresiva
 
-                                                                            La autonomía progresiva está consagrada en el artículo 5 de la
+**Definición Canónica:** La autonomía progresiva está consagrada en el artículo 5 de la
+                                                                            Convención sobre los Derechos del Niño, que si bien fue pensado
+                                                                            para resguardar los derechos de los padres frente al Estado, terminó
+                                                                            siendo interpretado por el Comité de los Derechos del Niño como
+                                                                            “(…) un principio habilitador que ab
+**Concordancias Legales:** artículo 5 de la Convención sobre los Derechos del Niño; artículo 263 del Código Civil; artículo 33 del Código Civil dispone que tienen el estado civ; artículo 37; artículo 179 del Código citado señala que la filiación; Artículo 182 del Código Civil
+
+La autonomía progresiva está consagrada en el artículo 5 de la
                                                                             Convención sobre los Derechos del Niño, que si bien fue pensado
                                                                             para resguardar los derechos de los padres frente al Estado, terminó
                                                                             siendo interpretado por el Comité de los Derechos del Niño como
@@ -1992,10 +1914,11 @@ de Filiación                                                                   
 
 Normativa en materia                                       3. Clases de Filiación                                                        52
 
-
 ## 3.1     Determinación
 
-                                                             de la filiación
+**Definición Canónica:** de la filiación
+
+de la filiación
 
                                                              La ley distingue tres casos, a saber:
 
@@ -2005,10 +1928,17 @@ de Filiación                                                                   
                                                                 de la maternidad
                                                                                          matrimonial                  matrimonial
 
-
 ## 3.1.1 Determinación de la maternidad
 
-                                                             La determinación de la maternidad se encuentra regulada en el
+**Definición Canónica:** La determinación de la maternidad se encuentra regulada en el
+                                                             artículo 183 del Código Civil, según el cual, esta queda determinada
+                                                             legalmente por el parto, cuando el nacimiento y las identidades del
+                                                             hijo y de la mujer que lo ha dado a luz constan en las partidas del
+                                                             Registro Civil. En los demás casos, la maternidad se determina por
+                      
+**Concordancias Legales:** artículo 183 del Código Civil; Ley Nº 4.808
+
+La determinación de la maternidad se encuentra regulada en el
                                                              artículo 183 del Código Civil, según el cual, esta queda determinada
                                                              legalmente por el parto, cuando el nacimiento y las identidades del
                                                              hijo y de la mujer que lo ha dado a luz constan en las partidas del
@@ -2024,16 +1954,19 @@ de Filiación                                                                   
 
 ## 121 DL Nº 2.128)
 
+**Definición Canónica:** Estos hechos constan en las partidas
 
-                                                                                           Estos hechos constan en las partidas
+Estos hechos constan en las partidas
 
                                                                Reconocimiento
                                                                (arts. 183 CC y             No existe certificado de parto
 
 ## 121 DL Nº 2.128)
 
+**Definición Canónica:** Hechos se acreditan con dos testigos
+**Concordancias Legales:** artículo 31; Ley Nº 4.808; Ley N° 10.271
 
-                                                                                           Hechos se acreditan con dos testigos
+Hechos se acreditan con dos testigos
 
                                                                Sentencia
                                                                (art. 183 CC)               Impugnación
@@ -2058,10 +1991,16 @@ de Filiación                                                                   
                                                                               cuando no se observaron las formalidades: constar en escritura pú-
                                                                               blica o testamento.86
 
-
 ## 3.1.2 Determinación de filiación matrimonial
 
-                                                                              El artículo 180 del Código Civil indica que la filiación es matrimonial
+**Definición Canónica:** El artículo 180 del Código Civil indica que la filiación es matrimonial
+                                                                              cuando existe matrimonio entre los padres al tiempo de la concep-
+                                                                              ción o del nacimiento del hijo. Es también filiación matrimonial la
+                                                                              del hijo cuyos padres contraen matrimonio con posterioridad a su
+                                                                              nacimiento, siemp
+**Concordancias Legales:** artículo 180 del Código Civil indica que la filiación es matri; artículo 187; artículo 184 del Código Civil; artículo 76 del Código Civil; artículo 185; artículos 183; artículos 184; artículos 133; artículos 33; Ley Nº 19.585; Ley Nº 20.830; Ley Nº 19.947
+
+El artículo 180 del Código Civil indica que la filiación es matrimonial
                                                                               cuando existe matrimonio entre los padres al tiempo de la concep-
                                                                               ción o del nacimiento del hijo. Es también filiación matrimonial la
                                                                               del hijo cuyos padres contraen matrimonio con posterioridad a su
@@ -2173,8 +2112,12 @@ de Filiación                                                                   
 
 ## título que determina el estado civil.87
 
+**Definición Canónica:** Sin embargo, la Corte estimó que no se debía aplicar la presunción
+                                                                           si resulta probado que la convivencia conyugal cesó mucho antes
+                                                                           de la posible fecha de concepción del niño88. Esta sentencia, en el
+**Concordancias Legales:** artículo 37 de la Ley N; artículo 184 del Código Civil; artículo 21 de la Ley Nº 20.830 extendió esta presunción úni; Ley N° 19.947; Ley Nº 20.830
 
-                                                                           Sin embargo, la Corte estimó que no se debía aplicar la presunción
+Sin embargo, la Corte estimó que no se debía aplicar la presunción
                                                                            si resulta probado que la convivencia conyugal cesó mucho antes
                                                                            de la posible fecha de concepción del niño88. Esta sentencia, en el
 
@@ -2192,10 +2135,15 @@ de Filiación                                                                   
                                                                            mínguez90, ya que en el Acuerdo de Unión Civil no existe deber de
                                                                            fidelidad ni de cohabitación.
 
-
 ## 3.1.3 Determinación de la filiación no matrimonial
 
-                                                                           La parte final del artículo 180 del Código Civil señala que “en los
+**Definición Canónica:** La parte final del artículo 180 del Código Civil señala que “en los
+                                                                           demás casos, la filiación es no matrimonial”, en oposición a los casos
+                                                                           en que existe matrimonio entre los padres y, por tanto, la fuente de su
+                                                                           determinación es la voluntad manifestada en el reconocimiento del
+**Concordancias Legales:** artículo 180 del Código Civil señala que; artículo 186 del Código Civil. En este caso; artículo 187; artículo 188 del Código Civil. El hecho de que e; artículo 188 del Código Civil; artículo 199 bis
+
+La parte final del artículo 180 del Código Civil señala que “en los
                                                                            demás casos, la filiación es no matrimonial”, en oposición a los casos
                                                                            en que existe matrimonio entre los padres y, por tanto, la fuente de su
                                                                            determinación es la voluntad manifestada en el reconocimiento del
@@ -2236,7 +2184,14 @@ de Filiación                                                                   
 
 ## 1900 CC)                  preso (art. 187
 
-                                                                                  CC): Declara-
+**Definición Canónica:** CC): Declara-
+                                                                                                       Por escritura pública      Al contraer
+                                                                                  ción expresa
+                                                                                                       ante Notario Público       matrimonio
+                                                                                  con ese objeto
+**Concordancias Legales:** artículo 273; artículos 209; artículo 212; Ley Nº 10.27192; Ley Nº 19.585
+
+CC): Declara-
                                                                                                        Por escritura pública      Al contraer
                                                                                   ción expresa
                                                                                                        ante Notario Público       matrimonio
@@ -2308,10 +2263,16 @@ de Filiación                                                                   
                                                                                       que si uno de los padres dice el nombre del otro bastaría como re-
                                                                                       conocimiento, aunque concluye que es sólo un error de redacción.94
 
-
 ## 3.1.3.1 Características del reconocimiento
 
-                                                                                      El reconocimiento es un “acto jurídico en que una persona afirma ser
+**Definición Canónica:** El reconocimiento es un “acto jurídico en que una persona afirma ser
+                                                                                      el padre o la madre de otra, que no tiene determinada la paternidad
+                                                                                      o maternidad, de acuerdo a los requisitos y formas que la ley señala,
+                                                                                      y por dicha vía queda determinada la paternidad o maternidad de
+                                                                       
+**Concordancias Legales:** artículo 189
+
+El reconocimiento es un “acto jurídico en que una persona afirma ser
                                                                                       el padre o la madre de otra, que no tiene determinada la paternidad
                                                                                       o maternidad, de acuerdo a los requisitos y formas que la ley señala,
                                                                                       y por dicha vía queda determinada la paternidad o maternidad de
@@ -2361,10 +2322,14 @@ de Filiación                                                                   
                                                                           de este al margen de la inscripción de nacimiento del hijo, conforme
                                                                           al artículo 189 inciso final del Código Civil.
 
-
 ## 3.1.3.2 A quién se puede reconocer
 
-                                                                          La ley no señala ni regula a quién se puede reconocer, sin embargo
+**Definición Canónica:** La ley no señala ni regula a quién se puede reconocer, sin embargo
+                                                                          esto se puede deducir de aquellos que, según la ley, pueden repudiar,
+                                                                          ya que sólo puede repudiar quien ha sido reconocido.
+**Concordancias Legales:** artículos 191
+
+La ley no señala ni regula a quién se puede reconocer, sin embargo
                                                                           esto se puede deducir de aquellos que, según la ley, pueden repudiar,
                                                                           ya que sólo puede repudiar quien ha sido reconocido.
 
@@ -2381,8 +2346,10 @@ de Filiación                                                                   
 
 ## 1° CC)           1° CC)                                      2 y 3 CC)
 
+**Definición Canónica:** Sordomudo
+**Concordancias Legales:** artículos 189; artículos 184; artículo 187 del Código Civil señala que el padre que reconoce
 
-                                                                                                                          Sordomudo
+Sordomudo
 
                                                                                                                           Personas Vivas (art. 193 CC)
 
@@ -2419,10 +2386,16 @@ de Filiación                                                                   
                                                                           hijos de dañado ayuntamiento, pero esa distinción, como se vio, fue
                                                                           eliminada de la legislación y con ella esta restricción.
 
-
 ## 3.1.3.3 Repudiación
 
-                                                                          Paulina Veloso define la repudiación como un “acto jurídico unilate-
+**Definición Canónica:** Paulina Veloso define la repudiación como un “acto jurídico unilate-
+                                                                          ral, personalísimo, por el cual quien ha sido reconocido, rechaza el
+                                                                          reconocimiento, en el plazo legal”96. Este derecho absoluto del hijo
+                                                                          reconocido se explica porque originalmente, como se vio, se debía
+                                                                          notificar el reconocimiento al 
+**Concordancias Legales:** artículos 191; artículo 191; artículo 193; artículo 192 del Código de Bello; artículo 184 del Código Civil. Empero; Ley Nº 10.271; Ley Nº 19.585
+
+Paulina Veloso define la repudiación como un “acto jurídico unilate-
                                                                           ral, personalísimo, por el cual quien ha sido reconocido, rechaza el
                                                                           reconocimiento, en el plazo legal”96. Este derecho absoluto del hijo
                                                                           reconocido se explica porque originalmente, como se vio, se debía
@@ -2521,10 +2494,15 @@ de Filiación                                                                   
 
 Normativa en materia                                       3. Clases de Filiación                                                 64
 
-
 ## 3.1.3.4 Características de la repudiación
 
-                                                             Las características de la repudiación son similares a las del recono-
+**Definición Canónica:** Las características de la repudiación son similares a las del recono-
+                                                             cimiento, puesto que constituye su contrapartida. Siguiendo el viejo
+                                                             aforismo de que las cosas se deshacen como se hacen, en este caso
+                                                             la repudiación comparte las características del reconocimiento, la
+                                                             gran diferencia es que el sujeto activo es el hijo en lugar del padre.
+
+Las características de la repudiación son similares a las del recono-
                                                              cimiento, puesto que constituye su contrapartida. Siguiendo el viejo
                                                              aforismo de que las cosas se deshacen como se hacen, en este caso
                                                              la repudiación comparte las características del reconocimiento, la
@@ -2552,10 +2530,13 @@ de Filiación                                                                   
 
 Normativa en materia                                                 3. Clases de Filiación                                                          65
 
-
 ## 3.1.3.5 Quién puede repudiar
 
-                                                                          Siendo la contrapartida del reconocimiento, los sujetos que pueden
+**Definición Canónica:** Siendo la contrapartida del reconocimiento, los sujetos que pueden
+                                                                          repudiar son los mismos que se pueden reconocer, salvo los herederos,
+                                                                          quienes repudian por el hijo fallecido:
+
+Siendo la contrapartida del reconocimiento, los sujetos que pueden
                                                                           repudiar son los mismos que se pueden reconocer, salvo los herederos,
                                                                           quienes repudian por el hijo fallecido:
 
@@ -2582,16 +2563,26 @@ de Filiación                                                                   
 
 ## título de hijo en instru-                      que supone la calidad
 
-                                                                           mento público o privado                        de hijo y que no hubiera
+**Definición Canónica:** mento público o privado                        de hijo y que no hubiera
+                                                                           o juicio.                                      podido ejecutarse sino
+                                                                                                                          en ese carácter.
+
+mento público o privado                        de hijo y que no hubiera
                                                                            o juicio.                                      podido ejecutarse sino
                                                                                                                           en ese carácter.
 
 Normativa en materia                                                        3. Clases de Filiación                                                        66
 
-
 ## 3.1.4 Determinación en la fertilización asistida
 
-                                        El artículo 182 del                   El artículo 182 del Código Civil dispone que los padres en la ferti-
+**Definición Canónica:** El artículo 182 del                   El artículo 182 del Código Civil dispone que los padres en la ferti-
+                                                                              lización asistida son el hombre y la mujer que se someten a ella y que
+                                        Código Civil dispone                  “no podrá impugnarse la filiación determinada de acuerdo a las reglas
+                                        que los padres en la                  precedentes ni reclamarse una distinta”. La norma parece muy clara,
+                                        fertilizac
+**Concordancias Legales:** artículo 182 del El artículo 182 del Código Civil dispone que
+
+El artículo 182 del                   El artículo 182 del Código Civil dispone que los padres en la ferti-
                                                                               lización asistida son el hombre y la mujer que se someten a ella y que
                                         Código Civil dispone                  “no podrá impugnarse la filiación determinada de acuerdo a las reglas
                                         que los padres en la                  precedentes ni reclamarse una distinta”. La norma parece muy clara,
@@ -2627,11 +2618,11 @@ de Filiación                                                                   
                                                                                       reproducción.                                  las reglas de
                                                                                                                                     la maternidad.
 
-
 ## 99   RAE (2020), Diccionario de la Lengua Española, disponible en http://www.rae.es/
 
+**Definición Canónica:** Normativa en materia                                                    3. Clases de Filiación                                                                67
 
-Normativa en materia                                                    3. Clases de Filiación                                                                67
+Normativa en materia                                                    3. Clases de Filiación                                                                67
 
                                                                           A medida que las técnicas van avanzando, la escueta norma civil va
                                                                           quedando obsoleta y dificultando la determinación de la filiación. A
@@ -2672,8 +2663,9 @@ de Filiación                                                                   
 
 ## 101 DURÁN RIVACOBA, R. (2010): disponible en https://dx.doi.org/10.4067/S0718-00122010000100002
 
+**Definición Canónica:** Normativa en materia
 
-Normativa en materia
+Normativa en materia
 
                                          Acciones
 Normativa en materia                                                     4. Acciones de Filiación                                                   69
@@ -2691,10 +2683,11 @@ de Filiación                                                                   
 
 Normativa en materia                                                      4. Acciones de Filiación                                                              70
 
-
 ## 4.1           Reglas
 
-                                                                            generales
+**Definición Canónica:** generales
+
+generales
 
                                                                             Las acciones de filiación se rigen, en general, por las siguientes
                                                                             directrices:
@@ -2741,10 +2734,11 @@ de Filiación                                                                   
 
 Normativa en materia                                       4. Acciones de Filiación                                                71
 
-
 ## 4.2           Características de las
 
-                                                             acciones de filiación
+**Definición Canónica:** acciones de filiación
+
+acciones de filiación
 
                                                              Las características del estado de familia, como conjunto de derechos
                                                              y deberes recíprocos entre los miembros, se comunican a las acciones
@@ -2774,10 +2768,12 @@ de Filiación                                                                   
 
 Normativa en materia                                                    4. Acciones de Filiación                                                72
 
-
 ## 4.3          Posesión
 
-                                                                          notoria
+**Definición Canónica:** notoria
+**Concordancias Legales:** artículo 200 del Código Civil establece; artículo 309; artículo 200 del Código Civil. En el caso concreto; artículo 208; artículos 200; artículo 4 de la Ley Nº; artículo 1; artículo 4; artículo 4 de la Ley Nº 19.253; artículo 4 de la Ley 19.253 prima por sobre la legislación com; Ley Nº 19.253; ley 17.729; ley 19.253; constitución
+
+notoria
 
                                                                           El artículo 200 del Código Civil establece:
                                                                           “La posesión notoria de la calidad de hijo respecto de determinada
@@ -2937,10 +2933,15 @@ de Filiación                                                                   
                                                                             mediante un juicio con legítimo contradictor, sino que en cualquier
                                                                             gestión judicial, como lo es el presente procedimiento voluntario”112.
 
-
 ## 4.3.1 Elementos de la posesión notoria
 
-                                                                            Tradicionalmente, se ha señalado que la posesión notoria se compone
+**Definición Canónica:** Tradicionalmente, se ha señalado que la posesión notoria se compone
+                                                                            de tres elementos: nombre, trato y fama. La ley no exige adoptar el
+                                                                            apellido del padre, pero el trato y la fama sí componen los elementos
+                                                                            normativos, el primero referido a la conducta del padre en relación
+                                                                            al hijo y el segundo, 
+
+Tradicionalmente, se ha señalado que la posesión notoria se compone
                                                                             de tres elementos: nombre, trato y fama. La ley no exige adoptar el
                                                                             apellido del padre, pero el trato y la fama sí componen los elementos
                                                                             normativos, el primero referido a la conducta del padre en relación
@@ -2954,31 +2955,28 @@ de Filiación                                                                   
                                                                             que se rechazó una demanda por haberse probado la fama pero no el
                                                                             trato, y la Corte de Apelaciones de San Miguel en una sentencia de
 
-## 2010114. Lo más importante es la actitud de la persona contra quien
-
-                                                                            se reclama la filiación.
-
-
-## 1. Nombre
-
-
-                                                                                                         a. Que le hayan tratado como hijo: frente
-                                                                                                             al padre.
-
-
 ## 2. Trato
 
-                                                                                                         b. Que hayan proveído a su educación y
+**Definición Canónica:** b. Que hayan proveído a su educación y
+                                                                                   (frente
+                                                                                                             establecimiento de modo competente.
+                                                                                  al padre)
+
+b. Que hayan proveído a su educación y
                                                                                    (frente
                                                                                                              establecimiento de modo competente.
                                                                                   al padre)
 
                                                                                                          c. Que lo hayan presentado terceros como tal.
 
-
 ## 3. Fama
 
-                                                                                                         Que los deudos, amigos y vecinos lo ha-
+**Definición Canónica:** Que los deudos, amigos y vecinos lo ha-
+                                                                                  (frente a
+                                                                                                         yan reputado y conocido como hijo.
+                                                                                  terceros)
+
+Que los deudos, amigos y vecinos lo ha-
                                                                                   (frente a
                                                                                                          yan reputado y conocido como hijo.
                                                                                   terceros)
@@ -2987,7 +2985,10 @@ de Filiación                                                                   
 
 ## 113   ABELIUK (2000), p. 151
 
-                                        114   CA San Miguel rol N° 374-2010, 15 de septiembre de 2010.
+**Definición Canónica:** 114   CA San Miguel rol N° 374-2010, 15 de septiembre de 2010.
+**Concordancias Legales:** artículos 200
+
+114   CA San Miguel rol N° 374-2010, 15 de septiembre de 2010.
 
 Normativa en materia                                                      4. Acciones de Filiación                                                77
 
@@ -3003,11 +3004,11 @@ de Filiación                                                                   
                                                                             yerros en la interpretación y aplicación de los artículos 200 y 201 del
                                                                             Código Civil”115 116.
 
-
 ## 4.3.2 Requisitos
 
+**Definición Canónica:** Los requisitos son los siguientes:
 
-                                                                            Los requisitos son los siguientes:
+Los requisitos son los siguientes:
 
                                                                                            1.                                        2.
                                                                                  Duración de a lo menos                   Debe probarse por un
@@ -3050,10 +3051,12 @@ de Filiación                                                                   
                                                                                  siguiendo a la RAE, como algo constante y perseverante en al-
                                                                                  guna acción.120
 
-
 ## 2. Debe probarse por un conjunto de testimonios y antecedentes
 
-                                                                                o circunstancias que lo establezcan de modo irrefragable.
+**Definición Canónica:** o circunstancias que lo establezcan de modo irrefragable.
+**Concordancias Legales:** artículo 200 del Código Civil; artículo 198 del Código del ramo
+
+o circunstancias que lo establezcan de modo irrefragable.
 
                                                                              Lo primero que fluye en este extremo es que no se puede tener
                                                                              por acreditado con un sólo medio de prueba, lo que constituye un
@@ -3116,10 +3119,16 @@ de Filiación                                                                   
                                                                               niña ha estado en posesión notoria de su estado civil de hija, respecto
                                                                               del demandado citado, desde el año 1995”123.
 
-
 ## 4.3.3 Colisión con la prueba biológica
 
-                                                                              El artículo 201 de Código Civil dispone que “la posesión notoria del
+**Definición Canónica:** El artículo 201 de Código Civil dispone que “la posesión notoria del
+                                                                              estado civil de hijo, debidamente acreditada, preferirá a las pruebas
+                                                                              periciales de carácter biológico en caso de que haya contradicción
+                                                                              entre una y otras. Sin embargo, si hubiese graves razones que de-
+                                                                              muestren la inco
+**Concordancias Legales:** artículo 201 de Código Civil dispone que; artículo 200
+
+El artículo 201 de Código Civil dispone que “la posesión notoria del
                                                                               estado civil de hijo, debidamente acreditada, preferirá a las pruebas
                                                                               periciales de carácter biológico en caso de que haya contradicción
                                                                               entre una y otras. Sin embargo, si hubiese graves razones que de-
@@ -3129,14 +3138,16 @@ de Filiación                                                                   
                                                                               De acuerdo a lo anterior y a lo que estatuye el artículo 200 del mismo
                                                                               Código, se puede entender que hay dos situaciones124:
 
-## 1. La posesión notoria sirve para acreditar la filiación incluso si no
-
-                                                                                 se practicó el examen de ADN, por ejemplo cuando no se dispone
-                                                                                 de los restos del padre difunto.
-
 ## 2. En caso de haberse realizado el examen de ADN y que su resultado
 
-                                                                                 contradiga a la posesión notoria, prima esta última, salvo que por
+**Definición Canónica:** contradiga a la posesión notoria, prima esta última, salvo que por
+                                                                                 razones graves deba prevalecer el primero. La pregunta que cabe
+                                                                                 es cuáles son estas razones graves, hay dos casos:
+                                                                              a. La Comisión de Constitución, Legislación, Justicia y Reglamento
+                                                                                 en la discusión de la Ley N° 1
+**Concordancias Legales:** artículo 201 del Código Civil en comento; Ley N° 19.585; Constitución
+
+contradiga a la posesión notoria, prima esta última, salvo que por
                                                                                  razones graves deba prevalecer el primero. La pregunta que cabe
                                                                                  es cuáles son estas razones graves, hay dos casos:
                                                                               a. La Comisión de Constitución, Legislación, Justicia y Reglamento
@@ -3170,10 +3181,11 @@ de Filiación                                                                   
 
 Normativa en materia                                                    4. Acciones de Filiación                                                   82
 
-
 ## 4.4            Acciones de
 
-                                                                            reclamación
+**Definición Canónica:** reclamación
+
+reclamación
 
                                                                             Ramos Pazos las define como “aquellas que la ley otorga al hijo en
                                                                             contra de su padre o de su madre, o a éstos en contra de aquél, para
@@ -3184,8 +3196,10 @@ de Filiación                                                                   
 
 ## 2. La irrenunciabilidad e imprescriptibilidad es propia de este tipo
 
+**Definición Canónica:** de acción.
+**Concordancias Legales:** artículo 320 del Código Civil complementa el artículo 195 esta; artículo 220; artículo 318 del Código Civil; artículo 195; artículos 209; artículo 54; artículo 199 bis del Código Civil; artículo 199 bis; Ley N° 19.968
 
-                                                                               de acción.
+de acción.
 
                                                                             El artículo 320 del Código Civil complementa el artículo 195 esta-
                                                                             bleciendo que: “Ni prescripción ni fallo alguno, entre cualesquiera
@@ -3287,10 +3301,16 @@ de Filiación                                                                   
                                                                                                             acta y
                                                                                                             subinscripción.
 
-
 ## 4.4.1 Acción de reclamación de la filiación matrimonial129
 
-                                                                           Esta acción de reclamación pretende la declaración que determinada
+**Definición Canónica:** Esta acción de reclamación pretende la declaración que determinada
+                                                                           persona es hija de un hombre Y una mujer unidos en matrimonio,
+                                                                           por eso siempre deben intervenir ambos padres, bajo pena de nu-
+                                                                           lidad. Abeliuk130 puntualiza que intervenir implica demandarlos o
+                                                                           notificarlos de todas las actuaciones de
+**Concordancias Legales:** artículo 204 del Código Civil; artículo 207; artículo 317
+
+Esta acción de reclamación pretende la declaración que determinada
                                                                            persona es hija de un hombre Y una mujer unidos en matrimonio,
                                                                            por eso siempre deben intervenir ambos padres, bajo pena de nu-
                                                                            lidad. Abeliuk130 puntualiza que intervenir implica demandarlos o
@@ -3362,10 +3382,16 @@ de Filiación                                                                   
                                                                            y que la voluntad de sus padres al efectuar la referida declaración,
                                                                            cuando procedieron a registrarla, fue de legitimarla”131.
 
-
 ## 4.4.2 Acción de reclamación de filiación no matrimonial
 
-                                                                           La acción de reclamación de la filiación no matrimonial es la que
+**Definición Canónica:** La acción de reclamación de la filiación no matrimonial es la que
+                                                                           pretende la declaración que determinada persona es hija de otra
+                                                                           persona determinada. Está consagrada en el artículo 205 del Códi-
+                                                                           go Civil, donde se señala que esta acción “corresponde sólo al hijo
+                                                                           contra su padre o su madre, o a cual
+**Concordancias Legales:** artículo 205 del Códi; artículo 208; artículo 207 del Código Civil en relación con el artículo 317; artículo 205 del Código Civil sólo Si l; artículo 205 del Código Civil sólo otorga acción de reclamació; artículo 208 del Código Civil; artículo 19; artículo 205 del Código Civil; artículo 205 del Código Civil Normativa en materia; Constitucion
+
+La acción de reclamación de la filiación no matrimonial es la que
                                                                            pretende la declaración que determinada persona es hija de otra
                                                                            persona determinada. Está consagrada en el artículo 205 del Códi-
                                                                            go Civil, donde se señala que esta acción “corresponde sólo al hijo
@@ -3500,10 +3526,16 @@ de Filiación                                                                   
                                                                               al contrario, permite dilucidar, aunque sea en parte, una cuestión
                                                                               relevante para su dignidad, identidad y personalidad”134.
 
-
 ## 4.4.3 Acción de reclamación en el caso
 
-                                                                              del artículo 206 del Código Civil
+**Definición Canónica:** del artículo 206 del Código Civil
+                                                                              El artículo 206 del Código Civil establece: “Si el hijo es póstumo,
+                                                                              o si alguno de los padres fallece dentro de los ciento ochenta días
+                                                                              siguientes al parto, la acción podrá dirigirse en contra de los herede-
+                                                                              ros del padre o de la madre fallecidos, dentro
+**Concordancias Legales:** artículo 206 del Código Civil; artículo 206 del Código Civil establece; artículo 206 del Código Civil es el único que habla de la recl; artículo 200; artículo 272 del Código Civil vigente en esa épo; artículo 206 del Código Civil se podía accionar si el padre qu; artículo 206; Ley Nº 19.585; Constitución; Constitucion
+
+del artículo 206 del Código Civil
                                                                               El artículo 206 del Código Civil establece: “Si el hijo es póstumo,
                                                                               o si alguno de los padres fallece dentro de los ciento ochenta días
                                                                               siguientes al parto, la acción podrá dirigirse en contra de los herede-
@@ -3624,11 +3656,17 @@ de Filiación                                                                   
                                              hermanos hacia la demandante y, por consiguiente, el efecto
                                              opuesto al que pretende.
 
-
 ## 4.4.4 Hijos nacidos antes de la entrada
 
+**Definición Canónica:** en vigencia de la Ley Nº 19.585
+                                          La Ley N° 19.585 no sólo restringió los casos en que se podía ejercer
+                                          la acción de reclamación cuando el padre había muerto, como se
+                                          señala en el artículo 206 del Código Civil, sino que los limitó grave-
+                                          mente en los artículos transitorios que regulan la situación de los
+                                          hijos nacidos antes de su entrada en vigencia.
+**Concordancias Legales:** artículo 206 del Código Civil; artículo 5; artículos 206; Artículo Nº 10.271; artículo 1; Ley Nº 19.585; Ley N° 19.585; Ley Nº 17.999
 
-                                          en vigencia de la Ley Nº 19.585
+en vigencia de la Ley Nº 19.585
                                           La Ley N° 19.585 no sólo restringió los casos en que se podía ejercer
                                           la acción de reclamación cuando el padre había muerto, como se
                                           señala en el artículo 206 del Código Civil, sino que los limitó grave-
@@ -3690,8 +3728,14 @@ de Filiación                                                                   
 
 ## 272 cc
 
+**Definición Canónica:** El reconocimiento deberá hacer-                   Son hijos naturales:
+                                                                                                                        Las declaraciones que, en cual-
+                                        se por instrumento público entre         Los que el padre, la madre o am-
+                                                                                                                        quier época, se efectúen con el
+                                         vivos, o por acto testamentario         bos hubieren reconocido median
+**Concordancias Legales:** Artículo 6; artículo 5; artículo 206 del Código Civil; artículo 188 del Código Civil antes; artículo 188; artículo 2; artículo 186 del Código; artículo 8 de la Convención Europea; artículo 8 de la Convención. En vista de lo anterior; Ley N° 10.271; Ley N° 17.999; Ley N° 19.585; constitucion
 
-                                        El reconocimiento deberá hacer-                   Son hijos naturales:
+El reconocimiento deberá hacer-                   Son hijos naturales:
                                                                                                                         Las declaraciones que, en cual-
                                         se por instrumento público entre         Los que el padre, la madre o am-
                                                                                                                         quier época, se efectúen con el
@@ -3822,10 +3866,12 @@ de Filiación                                                                   
 
 Normativa en materia                                                       4. Acciones de Filiación                                                   98
 
-
 ## 4.5           Acciones de
 
-                                                                             impugnación
+**Definición Canónica:** impugnación
+**Concordancias Legales:** artículo 211 del Código Civil; artículo 320 del Código Civil; artículo 54; artículo 8; artículo 37 del CC señala que la filiación de los hijos puede; artículo 196 del Código Civil; Ley Nº 19.968; constitución
+
+impugnación
 
                                                                              Son estas las que se ejercen con el objeto de dejar sin efecto una
                                                                              filiación que se ostenta147. Así lo dice el artículo 211 del Código Civil:
@@ -3899,10 +3945,12 @@ de Filiación                                                                   
                                                                             el hecho de que no se cumplan autoriza a rechazar la demanda sin
                                                                             entrar al fondo, como dijo la Corte Suprema150:
 
-
 ## 149   CS rol N° 5.016-2010, 21 de octubre de 2010
 
-                                        150   CS rol N° 3.363-18, 20 de febrero de 2019.
+**Definición Canónica:** 150   CS rol N° 3.363-18, 20 de febrero de 2019.
+**Concordancias Legales:** artículo 216; artículo 8; artículo 4; artículo 8 de la Ley N; Ley N° 19.968; constitución
+
+150   CS rol N° 3.363-18, 20 de febrero de 2019.
 
 Normativa en materia                                                      4. Acciones de Filiación                                               100
 
@@ -3969,10 +4017,16 @@ de Filiación                                                                   
                                                                            que el tribunal de primera instancia es competente para conocer de
                                                                            la demanda que dio inicio a estos autos”.
 
-
 ## 4.5.1 Impugnación de la filiación determinada según
 
-                                                                           artículos 184 y 185 inciso primero del Código Civil
+**Definición Canónica:** artículos 184 y 185 inciso primero del Código Civil
+                                                                           Se ha definido esta acción como la que “tiene por objeto que el
+                                                                           tribunal declare que es inexacta una filiación que se ostenta. Por
+                                                                           consiguiente, la presunción legal de paternidad establece el estado
+                                                                           civil de hijo y la forma de cuestionarla es, prec
+**Concordancias Legales:** artículos 184; artículo 184 del Código Civil puede ser desvirtuada; artículo 212 del Código Civil; artículo 213 del Código Civil habla de qué pasa si el marido m; artículo 214 del Código de Bello regula la impugnación de la f; artículo 212 del Código del; artículo 215 del Código Civil y; artículo 186 del Código Civil; artículo 216 del Código del Ramo
+
+artículos 184 y 185 inciso primero del Código Civil
                                                                            Se ha definido esta acción como la que “tiene por objeto que el
                                                                            tribunal declare que es inexacta una filiación que se ostenta. Por
                                                                            consiguiente, la presunción legal de paternidad establece el estado
@@ -4125,10 +4179,16 @@ de Filiación                                                                   
                                                                             de la verificación del mismo; garantizándose de este modo, además,
                                                                             la certeza y consolidación en el estatuto filiativo”155.
 
-
 ## 4.5.2 Impugnación de la paternidad
 
-                                                                            determinada por reconocimiento
+**Definición Canónica:** determinada por reconocimiento
+                                                                            Esta es la acción destinada a que se declare que la filiación determi-
+                                                                            nada por reconocimiento no corresponde con la realidad. Si bien la
+                                                                            intención del legislador fue dar primacía a la realidad biológica, no
+                                                                            deja de ser curiosa esta acción, porque la ley no exige c
+**Concordancias Legales:** artículo 216 del Código; artículo 214; artículo 189; artículo 216 del Código Civil. Sin embargo; artículo 216 del Código Civil regula la situación; artículo 216 inciso 5 del Código Civil proviene del; artículos 184; artículo 217; artículo 84 del Código de; artículo 216; artículo 216 del Código Civil
+
+determinada por reconocimiento
                                                                             Esta es la acción destinada a que se declare que la filiación determi-
                                                                             nada por reconocimiento no corresponde con la realidad. Si bien la
                                                                             intención del legislador fue dar primacía a la realidad biológica, no
@@ -4332,7 +4392,14 @@ de Filiación                                                                   
 
 ## 14160. Sin embargo, la misma sentencia contiene el voto
 
-                                                                                         disidente de la ministra Muñoz, quien fue de la opinión
+**Definición Canónica:** disidente de la ministra Muñoz, quien fue de la opinión
+                                                                                         que el interés “no se verifica por el solo hecho que el de-
+                                                                                         mandante hubiere acreditado que su padre –demandado
+                                                                                         junto a la hija que reconoció– debe proveer a la manu-
+                                                                                         tención de él y de su
+**Concordancias Legales:** artículo 213 del Código Civil y a los terceros perjudicados en; artículo 218; artículo 317 del Código no los reconoce como legítimos contrad; artículo 3 del Códi; artículo 315; artículo 316 del Código; artículo 317 del Código Civil el que señala quiénes son legíti; artículo 317; artículo 317 del Código Civil; artículo 315 del Código Civil; artículo 318; artículo 275; artículo 217; Ley N° 19.585; Constitución
+
+disidente de la ministra Muñoz, quien fue de la opinión
                                                                                          que el interés “no se verifica por el solo hecho que el de-
                                                                                          mandante hubiere acreditado que su padre –demandado
                                                                                          junto a la hija que reconoció– debe proveer a la manu-
@@ -4570,10 +4637,13 @@ de Filiación                                                                   
                                                                             hacer valer su derecho. Se cautela de esta manera la posibilidad de
                                                                             que el reconocimiento se preste para fraudes contra terceros’”168.
 
-
 ## 4.5.3 Impugnación de la maternidad
 
-                                                                            Es aquella acción destinada a que se declare que la maternidad no
+**Definición Canónica:** Es aquella acción destinada a que se declare que la maternidad no
+                                                                            corresponde a quien pasa como progenitora, por existir falso parto
+**Concordancias Legales:** artículo 217 del Código Civil; artículo 218 del Código Civil se refiere a la impugnación por; artículo 219 del Código Civil sanciona a los que hayan; artículo 199 del Código Civil por no haber concurrido; artículo 217; artículo 208 del Código Civil; artículos 217; artículo 218 del Código Civil contempla una situación de
+
+Es aquella acción destinada a que se declare que la maternidad no
                                                                             corresponde a quien pasa como progenitora, por existir falso parto
 
                                                                             o suplantación del hijo.
@@ -4712,10 +4782,12 @@ de Filiación                                                                   
 
 Normativa en materia                                         4. Acciones de Filiación                                                 120
 
-
 ## 4.6   Acción de
 
-                                                                 desconocimiento
+**Definición Canónica:** desconocimiento
+**Concordancias Legales:** artículo 184 del Código Civil. No se; artículos 212
+
+desconocimiento
 
                                                                  La acción de desconocimiento es la que persigue la declaración de que
                                                                  la paternidad matrimonial no procede por no cumplirse los requisitos
@@ -4781,10 +4853,12 @@ de Filiación                                                                   
 
 Normativa en materia                                                      4. Acciones de Filiación                                                 122
 
-
 ## 4.7           Nulidad del
 
-                                                                            reconocimiento
+**Definición Canónica:** reconocimiento
+**Concordancias Legales:** artículos 1681; artículo 202; Ley Nº 19.585
+
+reconocimiento
 
                                                                             Como explica Veloso, la acción de nulidad “está dirigida a que el
                                                                             Tribunal declare inválido un acto jurídico determinado (…) por
@@ -4857,10 +4931,13 @@ de Filiación                                                                   
 
 Normativa en materia                                                      4. Acciones de Filiación                                              124
 
-
 ## 4.7.1 Error
 
-                                                                            Es “una falsa representación de la realidad, que lleva al padre o madre
+**Definición Canónica:** Es “una falsa representación de la realidad, que lleva al padre o madre
+                                                                            a actuar de una forma que, de no existir, no habría actuado”174.
+**Concordancias Legales:** artículo 1691 del Código Civil
+
+Es “una falsa representación de la realidad, que lleva al padre o madre
                                                                             a actuar de una forma que, de no existir, no habría actuado”174.
 
                                                                             La Corte Suprema, por su parte, ha estimado que existe error cuando
@@ -4946,10 +5023,14 @@ de Filiación                                                                   
                                                                              o hija respecto de una persona, producto de la determinación de su
                                                                              filiación”178.
 
-
 ## 4.7.2 Dolo
 
-                                                                             En cuanto al dolo, la Corte de Apelaciones de Valdivia, en sentencia
+**Definición Canónica:** En cuanto al dolo, la Corte de Apelaciones de Valdivia, en sentencia
+                                                                             antes citada, indicó que “se concibe como las artimañas fraudulen-
+                                                                             tas tendientes a inducir a error a la persona cuya voluntad se desea
+                                                                             obtener”.
+
+En cuanto al dolo, la Corte de Apelaciones de Valdivia, en sentencia
                                                                              antes citada, indicó que “se concibe como las artimañas fraudulen-
                                                                              tas tendientes a inducir a error a la persona cuya voluntad se desea
                                                                              obtener”.
@@ -4969,10 +5050,16 @@ de Filiación                                                                   
                                                                              En esto, no se innova respecto de la normativa general: el dolo es
                                                                              siempre difícil de probar.
 
-
 ## 4.7.3 Fuerza
 
-                                                                             Siguiendo siempre a la Corte de Apelaciones de Valdivia, se puede
+**Definición Canónica:** Siguiendo siempre a la Corte de Apelaciones de Valdivia, se puede
+                                                                             decir que “la fuerza puede conceptualizarse como la presión física o
+                                                                             moral que se ejerce sobre la voluntad de un sujeto para inducirlo a
+                                                                             celebrar un acto jurídico que éste no desea celebrar, y que no hubiera
+                                                                             hecho de no mediar
+**Concordancias Legales:** artículo 1456 del Código Civil debe; artículo 202 del Código Civil se com; artículo 1456 del Código Civil
+
+Siguiendo siempre a la Corte de Apelaciones de Valdivia, se puede
                                                                              decir que “la fuerza puede conceptualizarse como la presión física o
                                                                              moral que se ejerce sobre la voluntad de un sujeto para inducirlo a
                                                                              celebrar un acto jurídico que éste no desea celebrar, y que no hubiera
@@ -5063,10 +5150,12 @@ de Filiación                                                                   
 
 Normativa en materia                      4. Acciones de Filiación                                                   129
 
-
 ## 4.8   Interposición conjunta de las acciones
 
-                                              de impugnación y de reclamación
+**Definición Canónica:** de impugnación y de reclamación
+**Concordancias Legales:** artículo 189; artículo 208; artículo 205; artículo 185; artículo 208 del Código Civil; artículo 208 del Código de Bello ni en el evento que allí se s; artículo 216; artículo 54; artículo 208 del Código Civil se aplica; artículos 206; artículo 209; artículos 317; artículo 221 del Código Civil dispone que; artículo 181 del Código Civil; artículo 320 del Código Civil; artículo 1269 del Código; artículo 704; Ley N° 19.968; Ley Nº 19.585; Ley N° 19.585
+
+de impugnación y de reclamación
 
                                               Si una persona tiene su filiación paterna o materna determinada, no
                                               se puede adquirir otra sin dejar sin efecto la anterior. Así lo dice el
@@ -5262,10 +5351,12 @@ de Filiación                                                                   
 
 Normativa en materia                          5. Efectos de la Sentencia                                            136
 
-
 ## 5.1     Sanción en caso de oposición
 
-                                                del padre o madre
+**Definición Canónica:** del padre o madre
+**Concordancias Legales:** artículo 203 del Código Civil ordena que; artículo 203 del Código Civil
+
+del padre o madre
 
                                                 El artículo 203 del Código Civil ordena que “cuando la filiación haya
                                                 sido determinada judicialmente contra la oposición del padre o ma-
@@ -5337,10 +5428,13 @@ de Filiación                                                                   
                                                                             severa sanción a su respecto”189. Este fue, también, el razonamiento
                                                                             de la Corte de Apelaciones de Talca190 y de Copiapó191.
 
-
 ## 189   CA Valdivia, rol N° 89-2012, 24 de julio de 2012
 
-                                        190   CA Talca, rol N° 106-2010, 23 de septiembre de 2010.
+**Definición Canónica:** 190   CA Talca, rol N° 106-2010, 23 de septiembre de 2010.
+                                        191   CA Copiapó, rol N° 9-2012, 29 de marzo de 2012.
+**Concordancias Legales:** artículo 203 del Código Civil
+
+190   CA Talca, rol N° 106-2010, 23 de septiembre de 2010.
                                         191   CA Copiapó, rol N° 9-2012, 29 de marzo de 2012.
 
 Normativa en materia                                                     5. Efectos de la Sentencia                                            138
@@ -5390,7 +5484,14 @@ de Filiación                                                                   
 
 ## 2. Que, pues bien, la regla en comento, corresponde a una sanción
 
-                                             que el legislador le impone al padre o madre que, no obstante
+**Definición Canónica:** que el legislador le impone al padre o madre que, no obstante
+                                             haber controvertido la filiación que se reclama, es declarada por
+                                             el juez. Lo anterior implica entender dicha punición, como la
+                                             consecuencia de una conducta procesal de resistencia a la pre-
+                                             tensión de filiación que se deduce, la que no pudo ser vencida,
+                                             resultando acreditado tal vínculo.
+
+que el legislador le impone al padre o madre que, no obstante
                                              haber controvertido la filiación que se reclama, es declarada por
                                              el juez. Lo anterior implica entender dicha punición, como la
                                              consecuencia de una conducta procesal de resistencia a la pre-
@@ -5399,8 +5500,14 @@ de Filiación                                                                   
 
 ## 3. Que, desde dicha perspectiva, la interpretación que se efectúe de
 
+**Definición Canónica:** dicha norma, al tratarse de una de orden público que, además,
+                                             aplica una sanción, debe ser restringida, y reconducida al ámbito
+                                             procesal. En efecto, la voz utilizada por el legislador en la nor-
+                                             ma en comento, es ‘contra la oposición’, la que se inserta en el
+                                             contexto de un proceso judicial, que finalmente desembocó en
+                                             una declaración de reconocimiento de filiación. Por lo
 
-                                             dicha norma, al tratarse de una de orden público que, además,
+dicha norma, al tratarse de una de orden público que, además,
                                              aplica una sanción, debe ser restringida, y reconducida al ámbito
                                              procesal. En efecto, la voz utilizada por el legislador en la nor-
                                              ma en comento, es ‘contra la oposición’, la que se inserta en el
@@ -5414,7 +5521,14 @@ de Filiación                                                                   
 
 ## 4. Que, como es sabido, dentro de las actitudes que el demandado
 
-                                             puede adoptar frente a una demanda que se dirige en su contra,
+**Definición Canónica:** puede adoptar frente a una demanda que se dirige en su contra,
+                                             está la posibilidad de no responderla –cuyo efecto procesal se
+                                             asimila a entender por controvertido lo planteado en ella–; alla-
+                                             narse a la misma; o lisa y llanamente defenderse, ya sea mediante
+                                             excepciones formales, o de fondo, estas últimas pueden consistir
+                                             en reconocimientos totales o parciales de los hechos
+
+puede adoptar frente a una demanda que se dirige en su contra,
                                              está la posibilidad de no responderla –cuyo efecto procesal se
                                              asimila a entender por controvertido lo planteado en ella–; alla-
                                              narse a la misma; o lisa y llanamente defenderse, ya sea mediante
@@ -5430,10 +5544,16 @@ de Filiación                                                                   
 
 Normativa en materia                    5. Efectos de la Sentencia                                          140
 
-
 ## 5. Que en la especie, como se advierte del texto de la contestación
 
-                                             de la demanda disponible en el sistema electrónico de tramita-
+**Definición Canónica:** de la demanda disponible en el sistema electrónico de tramita-
+                                             ción de causas, el recurrente reconoce por un lado el hecho de
+                                             haber mantenido una relación –aunque informal–, con la madre
+                                             de la actora, indicando que por lo mismo, y añadiendo el hecho
+                                             de haber pasado 34 años desde su nacimiento, le asisten dudas
+                                             respecto de la paternidad, pero que se dispone a someterse a lo
+
+de la demanda disponible en el sistema electrónico de tramita-
                                              ción de causas, el recurrente reconoce por un lado el hecho de
                                              haber mantenido una relación –aunque informal–, con la madre
                                              de la actora, indicando que por lo mismo, y añadiendo el hecho
@@ -5450,7 +5570,14 @@ de Filiación                                                                   
 
 ## 6. Que dicha actitud procesal, está lejos de configurarse como una
 
-                                             ‘oposición’ a la pretensión de la demandante, razón por la cual, a
+**Definición Canónica:** ‘oposición’ a la pretensión de la demandante, razón por la cual, a
+                                             juicio del disidente, la sentencia impugnada incurre en infracción
+                                             del artículo 203 del Código Civil, lo que conllevaría a acoger el
+                                             recurso de nulidad sustancial propuesto, al influir claramente tal
+                                             yerro, en lo dispositivo del fallo”.
+**Concordancias Legales:** artículo 203 del Código Civil
+
+‘oposición’ a la pretensión de la demandante, razón por la cual, a
                                              juicio del disidente, la sentencia impugnada incurre en infracción
                                              del artículo 203 del Código Civil, lo que conllevaría a acoger el
                                              recurso de nulidad sustancial propuesto, al influir claramente tal
@@ -5458,10 +5585,12 @@ de Filiación                                                                   
 
 Normativa en materia                          5. Efectos de la Sentencia                                            141
 
-
 ## 5.2     Cosa
 
-                                                juzgada
+**Definición Canónica:** juzgada
+**Concordancias Legales:** artículo 177 del Código de Procedimiento Civil; artículo 315; artículo 316 del Código Civil; artículo 156; artículo 1448; artículo 5; artículo 216; artículo 317; artículo 320; artículo 191; constitucion; Constitución Política
+
+juzgada
 
                                                 Un problema que plantea el ejercicio de la acción por el representante
                                                 del hijo es qué pasa si se desiste de la acción. En materia de familia,
@@ -5658,10 +5787,15 @@ de Filiación                                                                   
 
                                              Bibliografía
 
-
 ## 1.   ABELIUK MANASEVICH, René (2000): La filiación          10. Comité de los Derechos del Niño (2013): Obser-
 
-                                             y sus efectos, Tomo I, “La Filiación”, 1ª edición,         vación General N° 14 sobre el derecho del niño
+**Definición Canónica:** y sus efectos, Tomo I, “La Filiación”, 1ª edición,         vación General N° 14 sobre el derecho del niño
+                                             Santiago, Editorial Jurídica de Chile.                     a que su interés superior sea una consideración
+                                                                                                        primordial, disponible en https://tbinternet.ohchr.
+                                        2.   ACUÑA SAN MARTÍN, Marcela (2019): “Sobre la                org/_layouts/15/treatybodyexternal/Download.
+                                     
+
+y sus efectos, Tomo I, “La Filiación”, 1ª edición,         vación General N° 14 sobre el derecho del niño
                                              Santiago, Editorial Jurídica de Chile.                     a que su interés superior sea una consideración
                                                                                                         primordial, disponible en https://tbinternet.ohchr.
                                         2.   ACUÑA SAN MARTÍN, Marcela (2019): “Sobre la                org/_layouts/15/treatybodyexternal/Download.
@@ -5675,13 +5809,22 @@ de Filiación                                                                   
 
 ## 3.   ALESSANDRI BESA, Arturo (1955): Reformas                     treatybodyexternal/TBSearch.aspx?Lang=es&-
 
-                                             introducidas al Código Civil y a otras leyes por la          TreatyID=5&DocTypeID=11 (fecha de consulta: 24
+**Definición Canónica:** introducidas al Código Civil y a otras leyes por la          TreatyID=5&DocTypeID=11 (fecha de consulta: 24
+**Concordancias Legales:** Ley N° 10.271
+
+introducidas al Código Civil y a otras leyes por la          TreatyID=5&DocTypeID=11 (fecha de consulta: 24
 
                                              Ley N° 10.271, Santiago, Chile, Ediar Editores.              de febrero de 2020)
 
 ## 4.   ÁLVAREZ POSADILLA, Juan (1826): Comentarios            12. CORRAL TALCIANI, Hernán (2010): “Intereses
 
-                                             a las Leyes de Toro, según su espíritu y el de la          y derechos en colisión sobre la identidad del
+**Definición Canónica:** a las Leyes de Toro, según su espíritu y el de la          y derechos en colisión sobre la identidad del
+                                             legislación de España, disponible en http://fama2.         progenitor biológico: los supuestos de la ma-
+                                             us.es/fde/leyesDeToroPosadilla.pdf (fecha de               dre soltera y del donante de gametos”, publi-
+                                             consulta: 2 febrero de 2020).                              cado por Revista Ius et Praxis, Año 16, N° 2, pp.
+                                         
+
+a las Leyes de Toro, según su espíritu y el de la          y derechos en colisión sobre la identidad del
                                              legislación de España, disponible en http://fama2.         progenitor biológico: los supuestos de la ma-
                                              us.es/fde/leyesDeToroPosadilla.pdf (fecha de               dre soltera y del donante de gametos”, publi-
                                              consulta: 2 febrero de 2020).                              cado por Revista Ius et Praxis, Año 16, N° 2, pp.
@@ -5689,7 +5832,14 @@ de Filiación                                                                   
 
 ## 5.   BCN (1998): Historia de la Ley Nº 19.585, Modifica
 
-                                                                                                        pdf/197/19715603003.pdf
+**Definición Canónica:** pdf/197/19715603003.pdf
+                                             el Código Civil y otros cuerpos legales en Materia
+                                             de Filiación, disponible en https://www.bcn.cl/ob-     13. CORREA SUTIL, Jorge (2011): “Jurisprudencia de
+                                             tienearchivo?id=recursoslegales/10221.3/4231/1/            TC en materia de igualdad ante la ley. ¿Saliendo
+                                             HL19585.pdf (fecha de consulta: 29 de enero de             de la pura tautología?”, en Anuario de Derecho
+                         
+
+pdf/197/19715603003.pdf
                                              el Código Civil y otros cuerpos legales en Materia
                                              de Filiación, disponible en https://www.bcn.cl/ob-     13. CORREA SUTIL, Jorge (2011): “Jurisprudencia de
                                              tienearchivo?id=recursoslegales/10221.3/4231/1/            TC en materia de igualdad ante la ley. ¿Saliendo
@@ -5724,10 +5874,15 @@ de Filiación                                                                   
 
 Normativa en materia                                                                                 Bibliografía                                           148
 
-
 ## 18. GREEVEN B., Nel (2017): Filiación. Derechos hu-               Legal/Noticias/Analisis-Juridico/2019/12/10/
 
-                                            manos fundamentales y problemas de su actual                  El-interes-actual-de-toda-persona-en-la-im-
+**Definición Canónica:** manos fundamentales y problemas de su actual                  El-interes-actual-de-toda-persona-en-la-im-
+                                            normativa, 2ª edición (Santiago de Chile, Editorial           pugnacion-de-filiacion-determinada-por-re-
+                                            Librotecnia).                                                 conocimiento-voluntario-del-supuesto-pa-
+                                                                                                          dre-y-la-cosa-juzgada.aspx (fecha de consulta:
+                                        19.  
+
+manos fundamentales y problemas de su actual                  El-interes-actual-de-toda-persona-en-la-im-
                                             normativa, 2ª edición (Santiago de Chile, Editorial           pugnacion-de-filiacion-determinada-por-re-
                                             Librotecnia).                                                 conocimiento-voluntario-del-supuesto-pa-
                                                                                                           dre-y-la-cosa-juzgada.aspx (fecha de consulta:
@@ -5741,7 +5896,13 @@ de Filiación                                                                   
 
 ## 29. SCHMIDT, C. y Veloso, P. (2001): La filiación en
 
-                                        20. GÓMEZ DE LA TORRE, Maricruz (2007): El siste-                el nuevo derecho de familia (Santiago, Editorial
+**Definición Canónica:** 20. GÓMEZ DE LA TORRE, Maricruz (2007): El siste-                el nuevo derecho de familia (Santiago, Editorial
+                                            ma filiativo chileno, 1ª edición, (Santiago, Editorial       Jurídica ConoSur).
+                                            Jurídica de Chile).
+                                                                                                     30. Servicio de Registro Civil e Identificación (2019):
+                                        21. LATHROP GÓMEZ, Fabiola (2017): “Conflicto de                 Datos registrales con enfoque de gén
+
+20. GÓMEZ DE LA TORRE, Maricruz (2007): El siste-                el nuevo derecho de familia (Santiago, Editorial
                                             ma filiativo chileno, 1ª edición, (Santiago, Editorial       Jurídica ConoSur).
                                             Jurídica de Chile).
                                                                                                      30. Servicio de Registro Civil e Identificación (2019):
@@ -5755,7 +5916,13 @@ de Filiación                                                                   
 
 ## 31. The Nobel Prize: Karl Landsteiner, disponible en
 
-                                        22. Instituto Nacional de Estadísticas (1997): Anuario           https://www.nobelprize.org/prizes/medicine/1930/
+**Definición Canónica:** 22. Instituto Nacional de Estadísticas (1997): Anuario           https://www.nobelprize.org/prizes/medicine/1930/
+                                            de demografía 1997, disponible en https://www.               landsteiner/biographical/ (fecha de consulta: 30
+                                            ine.cl/docs/default-source/nacimientos-matri-                de enero de 2020).
+                                            monios-y-defunciones/publicaciones-y-anua-
+                                            rios/anuarios-de-estad%C3%ADsticas-vitales/              32. ZAPATA DURÁN, Ro
+
+22. Instituto Nacional de Estadísticas (1997): Anuario           https://www.nobelprize.org/prizes/medicine/1930/
                                             de demografía 1997, disponible en https://www.               landsteiner/biographical/ (fecha de consulta: 30
                                             ine.cl/docs/default-source/nacimientos-matri-                de enero de 2020).
                                             monios-y-defunciones/publicaciones-y-anua-
@@ -5767,7 +5934,14 @@ de Filiación                                                                   
 
 ## 23. Instituto Nacional de Estadísticas (2017): Infor-
 
-                                            me anual sobre la justicia, disponible en ht-
+**Definición Canónica:** me anual sobre la justicia, disponible en ht-
+                                            tps://www.ine.cl/docs/default-source/justicia/
+                                            publicaciones-y-anuarios/difusi%C3%B3n/
+                                                                                                          Normas jurídicas citadas
+                                            informe-anual-de-justicia-2017.pdf?sfvrsn=2cc-
+                                            62c5b_2 (fecha de consulta: 26 de enero de               1.   Código Civil (1855), disponible en https://www.ley-
+
+me anual sobre la justicia, disponible en ht-
                                             tps://www.ine.cl/docs/default-source/justicia/
                                             publicaciones-y-anuarios/difusi%C3%B3n/
                                                                                                           Normas jurídicas citadas
@@ -5778,7 +5952,14 @@ de Filiación                                                                   
 
 ## 24. National Human Genome Research Institute
 
-                                            (2019): The Human Genome Project, disponible en          2.   Código de Procedimiento Civil de Chile, (1902),
+**Definición Canónica:** (2019): The Human Genome Project, disponible en          2.   Código de Procedimiento Civil de Chile, (1902),
+                                            https://www.genome.gov/human-genome-project                   disponible en https://www.leychile.cl/Navegar?id-
+                                            (fecha de consulta: 8 de febrero de 2020).                    Norma=22740 (fecha de consulta: 1 de marzo de
+                                                                                                          2020).
+                                        25. RAE (2020): Diccionario d
+**Concordancias Legales:** Constitución Política
+
+(2019): The Human Genome Project, disponible en          2.   Código de Procedimiento Civil de Chile, (1902),
                                             https://www.genome.gov/human-genome-project                   disponible en https://www.leychile.cl/Navegar?id-
                                             (fecha de consulta: 8 de febrero de 2020).                    Norma=22740 (fecha de consulta: 1 de marzo de
                                                                                                           2020).
@@ -5794,7 +5975,14 @@ de Filiación                                                                   
 
 ## 27.   RODRÍGUEZ, María Sara (2019): “El ‘interés actual’
 
-                                                                                                          spanish/tratados/b-32.html (fecha de consulta: 1
+**Definición Canónica:** spanish/tratados/b-32.html (fecha de consulta: 1
+                                              de ‘toda persona’ en la impugnación de filiación
+                                                                                                          de marzo de 2020).
+                                              determinada por reconocimiento voluntario del
+                                              supuesto padre y la cosa juzgada”, en El Mercurio      5.   Convención sobre los Derechos de las Personas
+                                              Legal, disponible en https://www.elmercur
+
+spanish/tratados/b-32.html (fecha de consulta: 1
                                               de ‘toda persona’ en la impugnación de filiación
                                                                                                           de marzo de 2020).
                                               determinada por reconocimiento voluntario del
@@ -5806,12 +5994,15 @@ de Filiación                                                                   
                                               www.leychile.cl/Navegar?idNorma=278018 (fecha             Jurisprudencia citada
                                               de consulta: 1 de marzo de 2020).
 
-## 18. CORTE DE APELACIONES DE ARICA, rol N°
-
-
 ## 6.    Convención sobre la Eliminación de todas las            18-2012, de veintiséis de marzo de dos mil doce
 
-                                              Formas de Discriminación contra la Mujer (1979):        (recurso de apelación).
+**Definición Canónica:** Formas de Discriminación contra la Mujer (1979):        (recurso de apelación).
+                                              disponible en https://www.leychile.cl/Navegar?id-
+                                              Norma=15606 (fecha de consulta: 1 de marzo de       19.   CORTE DE APELACIONES DE ARICA, rol N° 144-
+                                              2020).                                                    2012, de dieciocho de febrero de dos mil trece
+                                                                                                        (recurso de apelación)
+
+Formas de Discriminación contra la Mujer (1979):        (recurso de apelación).
                                               disponible en https://www.leychile.cl/Navegar?id-
                                               Norma=15606 (fecha de consulta: 1 de marzo de       19.   CORTE DE APELACIONES DE ARICA, rol N° 144-
                                               2020).                                                    2012, de dieciocho de febrero de dos mil trece
@@ -5821,75 +6012,77 @@ de Filiación                                                                   
                                               Norma=15824 (fecha de consulta: 1 de marzo de           55-2010, de catorce de julio de dos mil diez (re-
                                               2020).                                                  curso de apelación).
 
-
 ## 8.    Declaración de los Derechos del Niño (1959):        21. CORTE DE APELACIONES DE CONCEPCIÓN, rol
 
-                                              disponible en https://www.humanium.org/es/de-           N° 883-2002, de treinta y uno de marzo de dos
+**Definición Canónica:** disponible en https://www.humanium.org/es/de-           N° 883-2002, de treinta y uno de marzo de dos
                                               claracion-1959/ (fecha de consulta: 1 de marzo          mil ocho (recurso de apelación).
                                               de 2020).
 
+disponible en https://www.humanium.org/es/de-           N° 883-2002, de treinta y uno de marzo de dos
+                                              claracion-1959/ (fecha de consulta: 1 de marzo          mil ocho (recurso de apelación).
+                                              de 2020).
 
 ## 22. CORTE DE APELACIONES DE CONCEPCIÓN, rol
 
-                                        9.    Ley Nº 5.750 (1935): disponible en https://www.         N° 2202-2008, de seis de abril de dos mil nueve,
+**Definición Canónica:** 9.    Ley Nº 5.750 (1935): disponible en https://www.         N° 2202-2008, de seis de abril de dos mil nueve,
                                               leychile.cl/Navegar?idNorma=25177(fecha de              (recurso de apelación).
+**Concordancias Legales:** Ley Nº 5.750
 
-## 23. CORTE DE APELACIONES DE CONCEPCIÓN, rol
-
-
-## 10. Ley Nº 10.271 (1952): disponible en https://www.          N° 219-2010, de siete de septiembre de dos mil
-
-                                            leychile.cl/Navegar?idNorma=26332 (fecha de               diez (recurso de apelación).
+9.    Ley Nº 5.750 (1935): disponible en https://www.         N° 2202-2008, de seis de abril de dos mil nueve,
+                                              leychile.cl/Navegar?idNorma=25177(fecha de              (recurso de apelación).
 
 ## 24. CORTE DE APELACIONES DE CONCEPCIÓN, rol
 
-                                        11.   Ley Nº 19.585 (1998): disponible en https://www.        Nº 648-2011, de treinta y uno de julio de dos mil
+**Definición Canónica:** 11.   Ley Nº 19.585 (1998): disponible en https://www.        Nº 648-2011, de treinta y uno de julio de dos mil
                                               leychile.cl/Navegar?idNorma=126366 (fecha de            doce (recurso de apelación).
+**Concordancias Legales:** Ley Nº 19.585
 
-## 25. CORTE DE APELACIONES DE CONCEPCIÓN, rol
-
-
-## 12. Ley Nº 19.620 (1999): disponible en https://www.          N° 190-2014, de uno de julio de dos mil catorce
-
-                                            leychile.cl/Navegar?idNorma=140084 (fecha de              (recurso de apelación).
+11.   Ley Nº 19.585 (1998): disponible en https://www.        Nº 648-2011, de treinta y uno de julio de dos mil
+                                              leychile.cl/Navegar?idNorma=126366 (fecha de            doce (recurso de apelación).
 
 ## 26. CORTE DE APELACIONES DE CONCEPCIÓN, rol
 
-                                        13. Ley Nº 19.968 (2004): disponible en https://www.          N° 531-2015, de veintisiete de octubre de dos mil
+**Definición Canónica:** 13. Ley Nº 19.968 (2004): disponible en https://www.          N° 531-2015, de veintisiete de octubre de dos mil
+                                            leychile.cl/Navegar?idNorma=229557 (fecha de              quince (recurso de apelación).
+**Concordancias Legales:** Ley Nº 19.968
+
+13. Ley Nº 19.968 (2004): disponible en https://www.          N° 531-2015, de veintisiete de octubre de dos mil
                                             leychile.cl/Navegar?idNorma=229557 (fecha de              quince (recurso de apelación).
 
 ## 27.   CORTE DE APELACIONES DE COPIAPÓ, rol N°
 
-                                        14. Ley Nº 20.680 (2013): disponible en https://www.            9-2012, de veintinueve de marzo de dos mil doce
+**Definición Canónica:** 14. Ley Nº 20.680 (2013): disponible en https://www.            9-2012, de veintinueve de marzo de dos mil doce
+                                            leychile.cl/Navegar?idNorma=1052090 (fecha de               (recurso de apelación).
+                                            consulta: 1 de marzo de 2020)
+                                                                                                  28. CORTE DE APELACIONES DE PUERTO MONTT,
+**Concordancias Legales:** Ley Nº 20.680
+
+14. Ley Nº 20.680 (2013): disponible en https://www.            9-2012, de veintinueve de marzo de dos mil doce
                                             leychile.cl/Navegar?idNorma=1052090 (fecha de               (recurso de apelación).
                                             consulta: 1 de marzo de 2020)
                                                                                                   28. CORTE DE APELACIONES DE PUERTO MONTT,
 
-## 15. Ley Nº 20.830 (2015): disponible en https://www.          rol N° 28-2012, de dieciocho de abril de dos mil
-
-                                            leychile.cl/Navegar?idNorma=1075210 (fecha de             doce (recurso de apelación).
-
-## 29. CORTE DE APELACIONES DE RANCAGUA, rol N°
-
-
-## 16. Las Siete Partidas (1555): Glosadas por el Li-            83-2012, de tres de mayo de dos mil doce (recur-
-
-                                            cenciado Gregorio López, disponible en https://           so de apelación).
-                                            www.boe.es/biblioteca_juridica/abrir_pdf.php?i-
-
 ## 30. CORTE DE APELACIONES DE SAN MIGUEL, rol
 
-                                            d=PUB-LH-2011-60_2 (fecha de consulta: 26
+**Definición Canónica:** d=PUB-LH-2011-60_2 (fecha de consulta: 26
                                                                                                       N° 500-2010, de diez de diciembre de dos mil
                                             enero 2020).
                                                                                                       diez (recurso de apelación).
 
-## 17.   Servicio Médico Legal (2012): Resolución Exenta
-
+d=PUB-LH-2011-60_2 (fecha de consulta: 26
+                                                                                                      N° 500-2010, de diez de diciembre de dos mil
+                                            enero 2020).
+                                                                                                      diez (recurso de apelación).
 
 ## 31. CORTE DE APELACIONES DE SANTIAGO, rol N°
 
-                                              N° 92, disponible en https://www.leychile.cl/Na-
+**Definición Canónica:** N° 92, disponible en https://www.leychile.cl/Na-
+                                                                                                      1999-2002, de cuatro de marzo de dos mil cuatro
+                                              vegar?idNorma=1039679&idParte=&idVersion=
+                                                                                                      (recurso de apelación).
+                                              (fecha de consulta: 8 de febrero de 2020).
+
+N° 92, disponible en https://www.leychile.cl/Na-
                                                                                                       1999-2002, de cuatro de marzo de dos mil cuatro
                                               vegar?idNorma=1039679&idParte=&idVersion=
                                                                                                       (recurso de apelación).
@@ -5897,47 +6090,63 @@ de Filiación                                                                   
 
 Normativa en materia                                                                              Bibliografía                                           150
 
-
 ## 32. CORTE DE APELACIONES DE TALCA, rol N° 106-            45. CORTE SUPREMA, rol N° 7.080-2008, de veinti-
 
-                                            2010, de veintitrés de septiembre de dos mil diez         séis de enero de dos mil nueve (recurso de casa-
+**Definición Canónica:** 2010, de veintitrés de septiembre de dos mil diez         séis de enero de dos mil nueve (recurso de casa-
                                             (recurso de apelación).                                   ción en el fondo).
 
+2010, de veintitrés de septiembre de dos mil diez         séis de enero de dos mil nueve (recurso de casa-
+                                            (recurso de apelación).                                   ción en el fondo).
 
 ## 33. CORTE DE APELACIONES DE TEMUCO, rol N°                46. CORTE SUPREMA, rol N° 720-09, de trece de
 
-                                            405-2011, de uno de marzo de dos mil doce (re-            abril de dos mil nueve (recurso de casación en el
+**Definición Canónica:** 405-2011, de uno de marzo de dos mil doce (re-            abril de dos mil nueve (recurso de casación en el
                                             curso de apelación).                                      fondo).
 
+405-2011, de uno de marzo de dos mil doce (re-            abril de dos mil nueve (recurso de casación en el
+                                            curso de apelación).                                      fondo).
 
 ## 34. CORTE DE APELACIONES DE TEMUCO, rol N°                47. CORTE SUPREMA, rol N° 1896-2009, de uno de
 
-                                            163-2011, de doce de agosto de dos mil once               junio de dos mil nueve (recurso de casación en el
+**Definición Canónica:** 163-2011, de doce de agosto de dos mil once               junio de dos mil nueve (recurso de casación en el
                                             (recurso de apelación).                                   fondo).
 
+163-2011, de doce de agosto de dos mil once               junio de dos mil nueve (recurso de casación en el
+                                            (recurso de apelación).                                   fondo).
 
 ## 35. CORTE DE APELACIONES DE TEMUCO, rol N°                48. CORTE SUPREMA, rol N° 4.783-2009, de catorce
 
-                                            332-2013, de quince de julio de dos mil trece (re-        de octubre de dos mil nueve (recurso de casación
+**Definición Canónica:** 332-2013, de quince de julio de dos mil trece (re-        de octubre de dos mil nueve (recurso de casación
                                             curso de apelación).                                      en el fondo).
 
+332-2013, de quince de julio de dos mil trece (re-        de octubre de dos mil nueve (recurso de casación
+                                            curso de apelación).                                      en el fondo).
 
 ## 36. CORTE DE APELACIONES DE VALDIVIA, rol N°              49. CORTE SUPREMA, rol Nº 2.275-2008, de veinti-
 
-                                            132-2010, de primero de septiembre de dos mil             cuatro de noviembre de dos mil nueve (recurso de
+**Definición Canónica:** 132-2010, de primero de septiembre de dos mil             cuatro de noviembre de dos mil nueve (recurso de
+
+132-2010, de primero de septiembre de dos mil             cuatro de noviembre de dos mil nueve (recurso de
 
                                             diez (recurso de apelación).                              casación en el fondo).
 
-
 ## 37.   CORTE DE APELACIONES DE VALDIVIA, rol N°            50. CORTE SUPREMA, rol N° 9.155-2009, de veintio-
 
-                                              89-2012, de veinticuatro de julio de dos mil doce       cho de enero de dos mil diez (apelación recurso
+**Definición Canónica:** 89-2012, de veinticuatro de julio de dos mil doce       cho de enero de dos mil diez (apelación recurso
                                               (recurso de apelación).                                 de protección).
 
+89-2012, de veinticuatro de julio de dos mil doce       cho de enero de dos mil diez (apelación recurso
+                                              (recurso de apelación).                                 de protección).
 
 ## 38. CORTE IDH (2005): Caso Hermanas Serrano               51. CORTE SUPREMA, rol N° 3.055-2010, de dos de
 
-                                            Cruz versus El Salvador, disponible en https://           agosto de dos mil diez (recurso de casación en el
+**Definición Canónica:** Cruz versus El Salvador, disponible en https://           agosto de dos mil diez (recurso de casación en el
+                                            biblioteca.iidh-jurisprudencia.ac.cr/index.php/           fondo).
+                                            documentos-en-espanol/jurisprudencia-del-sis-
+                                            tema-interamericano/casos-contenciosos/               52. CORTE SUPREMA, rol N° 7.065-10, de veintiocho
+                                            caso-de-las-hermanas-serrano-cruz-vs-el-sal-              de enero de dos mil once (recurso de casac
+
+Cruz versus El Salvador, disponible en https://           agosto de dos mil diez (recurso de casación en el
                                             biblioteca.iidh-jurisprudencia.ac.cr/index.php/           fondo).
                                             documentos-en-espanol/jurisprudencia-del-sis-
                                             tema-interamericano/casos-contenciosos/               52. CORTE SUPREMA, rol N° 7.065-10, de veintiocho
@@ -5947,14 +6156,26 @@ de Filiación                                                                   
 
 ## 53. CORTE SUPREMA, rol N° 9.420-2010, de veintiu-
 
-                                            de 2020).
+**Definición Canónica:** de 2020).
+                                                                                                      no de marzo de dos mil once (recurso de casa-
+                                        39. CORTE IDH (2011): Audiencias públicas 43º                 ción en el fondo).
+                                            período de sesiones, “Caso Contreras versus El
+
+de 2020).
                                                                                                       no de marzo de dos mil once (recurso de casa-
                                         39. CORTE IDH (2011): Audiencias públicas 43º                 ción en el fondo).
                                             período de sesiones, “Caso Contreras versus El
 
 ## 54. CORTE SUPREMA, rol N° 353-11, de veintiocho
 
-                                            Salvador”, disponible en https://vimeopro.com/
+**Definición Canónica:** Salvador”, disponible en https://vimeopro.com/
+                                                                                                      de marzo de dos mil once (recurso de casación
+                                            corteidh/caso-contreras-y-otros-vs-el-sal-
+                                                                                                      en el fondo).
+                                            vador/video/27354212, (fecha de consulta: 2 de
+                                            febrero de 2020).                                     55. CORTE SUP
+
+Salvador”, disponible en https://vimeopro.com/
                                                                                                       de marzo de dos mil once (recurso de casación
                                             corteidh/caso-contreras-y-otros-vs-el-sal-
                                                                                                       en el fondo).
@@ -5964,220 +6185,304 @@ de Filiación                                                                   
 
 ## 40. CORTE SUPREMA, rol N° 2.820-2003, de dos de
 
-                                                                                                      fondo).
+**Definición Canónica:** fondo).
+                                            noviembre de dos mil cuatro (recurso de casación
+                                            en la forma).                                         56. CORTE SUPREMA, rol N° 1.102-11, de dieciséis de
+                                                                                                      mayo de dos mil once (recurso de casación en el
+
+fondo).
                                             noviembre de dos mil cuatro (recurso de casación
                                             en la forma).                                         56. CORTE SUPREMA, rol N° 1.102-11, de dieciséis de
                                                                                                       mayo de dos mil once (recurso de casación en el
 
 ## 41. CORTE SUPREMA, rol Nº 2.564-2006, de veinti-
 
-                                                                                                      fondo).
+**Definición Canónica:** fondo).
+                                            cinco de septiembre de dos mil seis (recurso de
+                                            casación en el fondo).                                57.   CORTE SUPREMA, rol N° 4.324-2011, de veinti-
+                                                                                                        nueve de septiembre de dos mil once (recurso de
+
+fondo).
                                             cinco de septiembre de dos mil seis (recurso de
                                             casación en el fondo).                                57.   CORTE SUPREMA, rol N° 4.324-2011, de veinti-
                                                                                                         nueve de septiembre de dos mil once (recurso de
 
 ## 42. CORTE SUPREMA, rol N° 2.084-2005, de veintio-
 
-                                                                                                        casación en el fondo).
+**Definición Canónica:** casación en el fondo).
+                                            cho de agosto de dos mil seis (recurso de casa-
+                                            ción en el fondo).                                    58. CORTE SUPREMA, rol N° 4.709-11, de once de
+                                                                                                      octubre de dos mil once (recurso de casación en
+
+casación en el fondo).
                                             cho de agosto de dos mil seis (recurso de casa-
                                             ción en el fondo).                                    58. CORTE SUPREMA, rol N° 4.709-11, de once de
                                                                                                       octubre de dos mil once (recurso de casación en
 
 ## 43. CORTE SUPREMA, rol N° 3.249-2006, de vein-
 
-                                                                                                      el fondo).
+**Definición Canónica:** el fondo).
+                                            tiuno de septiembre de dos mil seis (recurso de
+                                            casación en el fondo).                                59. CORTE SUPREMA, rol N° 5.039-2011, de vein-
+                                                                                                      tiocho de octubre de dos mil once (recurso de
+
+el fondo).
                                             tiuno de septiembre de dos mil seis (recurso de
                                             casación en el fondo).                                59. CORTE SUPREMA, rol N° 5.039-2011, de vein-
                                                                                                       tiocho de octubre de dos mil once (recurso de
 
 ## 44. CORTE SUPREMA, rol N° 5.698-2006, de veinti-
 
-                                                                                                      casación en el fondo).
+**Definición Canónica:** casación en el fondo).
+                                            séis de marzo de dos mil siete (recurso de casa-
+                                            ción en el fondo).
+
+casación en el fondo).
                                             séis de marzo de dos mil siete (recurso de casa-
                                             ción en el fondo).
 
 Normativa en materia                                                                              Bibliografía                                           151
 
-
 ## 60. CORTE SUPREMA, rol N° 2.907 2011, de cinco de         75. CORTE SUPREMA, rol N° 16.189-2014, de nueve
 
-                                            diciembre de dos mil once (recurso de casación            de febrero de dos mil quince (recurso de casación
+**Definición Canónica:** diciembre de dos mil once (recurso de casación            de febrero de dos mil quince (recurso de casación
                                             en el fondo).                                             en el fondo).
 
+diciembre de dos mil once (recurso de casación            de febrero de dos mil quince (recurso de casación
+                                            en el fondo).                                             en el fondo).
 
 ## 61. CORTE SUPREMA, rol N° 9.607-2011, de vein-            76. CORTE SUPREMA, rol N° 12.492-14, de dieciocho
 
-                                            tinueve de febrero de dos mil doce (recurso de            de marzo de dos mil quince (recurso de casación
+**Definición Canónica:** tinueve de febrero de dos mil doce (recurso de            de marzo de dos mil quince (recurso de casación
                                             casación en el fondo).                                    en el fondo).
 
+tinueve de febrero de dos mil doce (recurso de            de marzo de dos mil quince (recurso de casación
+                                            casación en el fondo).                                    en el fondo).
 
 ## 62. CORTE SUPREMA, rol N° 10.815-11, de once de           77.   CORTE SUPREMA, rol N° 2.248-15, de cuatro de
 
-                                            junio de dos mil doce (recurso de casación en el            mayo de dos mil quince (recurso de casación en
+**Definición Canónica:** junio de dos mil doce (recurso de casación en el            mayo de dos mil quince (recurso de casación en
                                             fondo).                                                     el fondo).
 
+junio de dos mil doce (recurso de casación en el            mayo de dos mil quince (recurso de casación en
+                                            fondo).                                                     el fondo).
 
 ## 63. CORTE SUPREMA, rol N° 3509-2012, de uno de            78. CORTE SUPREMA, rol N° 28.905-2014, de die-
 
-                                            octubre de dos mil doce (recurso de casación en           ciocho de mayo de dos mil quince (recurso de
+**Definición Canónica:** octubre de dos mil doce (recurso de casación en           ciocho de mayo de dos mil quince (recurso de
                                             el fondo).                                                casación en el fondo).
 
+octubre de dos mil doce (recurso de casación en           ciocho de mayo de dos mil quince (recurso de
+                                            el fondo).                                                casación en el fondo).
 
 ## 64. CORTE SUPREMA, rol N° 3.674-2012, de treinta          79.   CORTE SUPREMA, rol N° 27.307-14, de veinti-
 
-                                            de octubre de dos mil doce (recurso de casación             cinco de mayo de dos mil quince (recurso de
+**Definición Canónica:** de octubre de dos mil doce (recurso de casación             cinco de mayo de dos mil quince (recurso de
+
+de octubre de dos mil doce (recurso de casación             cinco de mayo de dos mil quince (recurso de
 
                                             en el fondo).                                               casación en el fondo).
 
-
 ## 65. CORTE SUPREMA, rol N° 8.953-2012, de veinte           80. CORTE SUPREMA, rol N° 6.674-15, de uno de
 
-                                            de mayo de dos mil trece (recurso de casación en          julio de dos mil quince (recurso de casación en el
+**Definición Canónica:** de mayo de dos mil trece (recurso de casación en          julio de dos mil quince (recurso de casación en el
                                             la forma y en el fondo).                                  fondo).
 
+de mayo de dos mil trece (recurso de casación en          julio de dos mil quince (recurso de casación en el
+                                            la forma y en el fondo).                                  fondo).
 
 ## 66. CORTE SUPREMA, rol N° 1.996-2013, de uno de           81. CORTE SUPREMA, rol Nº 124-2015, de dieciocho
 
-                                            julio de dos mil trece (recurso de casación en el         de agosto de dos mil quince (recurso de casación
+**Definición Canónica:** julio de dos mil trece (recurso de casación en el         de agosto de dos mil quince (recurso de casación
                                             fondo).                                                   en el fondo).
 
+julio de dos mil trece (recurso de casación en el         de agosto de dos mil quince (recurso de casación
+                                            fondo).                                                   en el fondo).
 
 ## 67.   CORTE SUPREMA, rol N° 3.784-2013, de veinti-        82. CORTE SUPREMA, rol N° 4.938-15, de veintidós
 
-                                              cuatro de septiembre de dos mil trece (recurso          de octubre de dos mil quince (recurso de casa-
+**Definición Canónica:** cuatro de septiembre de dos mil trece (recurso          de octubre de dos mil quince (recurso de casa-
                                               de casación en el fondo).                               ción en el fondo).
 
+cuatro de septiembre de dos mil trece (recurso          de octubre de dos mil quince (recurso de casa-
+                                              de casación en el fondo).                               ción en el fondo).
 
 ## 68. CORTE SUPREMA, rol N° 4.159-13, de nueve de           83. CORTE SUPREMA, rol N° 8.216-2015, de quince
 
-                                            octubre de dos mil trece (recurso de casación en          de diciembre de dos mil quince (recurso de casa-
+**Definición Canónica:** octubre de dos mil trece (recurso de casación en          de diciembre de dos mil quince (recurso de casa-
                                             el fondo).                                                ción en el fondo).
 
+octubre de dos mil trece (recurso de casación en          de diciembre de dos mil quince (recurso de casa-
+                                            el fondo).                                                ción en el fondo).
 
 ## 69. CORTE SUPREMA, rol Nº 4311-2013, de veintiuno         84. CORTE SUPREMA, rol N° 37.478-2015, de tres de
 
-                                            de octubre de dos mil trece (recurso de casación          marzo de dos mil dieciséis (recurso de casación
+**Definición Canónica:** de octubre de dos mil trece (recurso de casación          marzo de dos mil dieciséis (recurso de casación
                                             en el fondo).                                             en el fondo).
 
+de octubre de dos mil trece (recurso de casación          marzo de dos mil dieciséis (recurso de casación
+                                            en el fondo).                                             en el fondo).
 
 ## 70. CORTE SUPREMA, rol N° 8473-2013, de veinti-           85. CORTE SUPREMA, rol N° 51-2016, de cuatro de
 
-                                            cuatro de diciembre de dos mil trece (recurso de          marzo de dos mil dieciséis (recurso de casación
+**Definición Canónica:** cuatro de diciembre de dos mil trece (recurso de          marzo de dos mil dieciséis (recurso de casación
                                             protección).                                              en el fondo).
 
+cuatro de diciembre de dos mil trece (recurso de          marzo de dos mil dieciséis (recurso de casación
+                                            protección).                                              en el fondo).
 
 ## 71.   CORTE SUPREMA, rol N° 14.117-13, de veintisiete     86. CORTE SUPREMA, rol N° 20.136-2015, de dieci-
 
-                                              de febrero de dos mil catorce (recurso de protec-       siete de marzo de dos mil dieciséis (recurso de
+**Definición Canónica:** de febrero de dos mil catorce (recurso de protec-       siete de marzo de dos mil dieciséis (recurso de
                                               ción).                                                  casación en el fondo).
 
+de febrero de dos mil catorce (recurso de protec-       siete de marzo de dos mil dieciséis (recurso de
+                                              ción).                                                  casación en el fondo).
 
 ## 72. CORTE SUPREMA, rol N° 20.732-2014, de vein-           87. CORTE SUPREMA, rol N° 37.431-15, de cinco de
 
-                                            tiocho de agosto de dos mil catorce (recurso de           mayo de dos mil dieciséis (recurso de casación
+**Definición Canónica:** tiocho de agosto de dos mil catorce (recurso de           mayo de dos mil dieciséis (recurso de casación
                                             casación en el fondo).                                    en el fondo).
 
+tiocho de agosto de dos mil catorce (recurso de           mayo de dos mil dieciséis (recurso de casación
+                                            casación en el fondo).                                    en el fondo).
 
 ## 73. CORTE SUPREMA, rol N° 2714-14, de cuatro de           88. CORTE SUPREMA, rol N° 35.532-15, de dieciocho
 
-                                            septiembre de dos mil catorce (recurso de casa-           de mayo de dos mil dieciséis (recurso de casa-
+**Definición Canónica:** septiembre de dos mil catorce (recurso de casa-           de mayo de dos mil dieciséis (recurso de casa-
                                             ción en el fondo).                                        ción en el fondo).
 
+septiembre de dos mil catorce (recurso de casa-           de mayo de dos mil dieciséis (recurso de casa-
+                                            ción en el fondo).                                        ción en el fondo).
 
 ## 74. CORTE SUPREMA, rol N° 5.127-2014, de diecisie-        89. CORTE SUPREMA, rol N° 19.766-2015, de vein-
 
-                                            te de noviembre de dos mil catorce (recurso de            titrés de junio de dos mil dieciséis (recurso de
+**Definición Canónica:** te de noviembre de dos mil catorce (recurso de            titrés de junio de dos mil dieciséis (recurso de
+                                            casación en el fondo).                                    casación en el fondo).
+
+te de noviembre de dos mil catorce (recurso de            titrés de junio de dos mil dieciséis (recurso de
                                             casación en el fondo).                                    casación en el fondo).
 
 Normativa en materia                                                                               Bibliografía                                        152
 
-
 ## 90. CORTE SUPREMA, rol N° 38.321-16, de veintisiete        105. CORTE SUPREMA, rol N° 37.368-2017, de diez de
 
-                                            de julio de dos mil dieciséis (recurso de casación          octubre de dos mil diecisiete (recurso de casa-
+**Definición Canónica:** de julio de dos mil dieciséis (recurso de casación          octubre de dos mil diecisiete (recurso de casa-
                                             en el fondo).                                               ción en el fondo).
 
+de julio de dos mil dieciséis (recurso de casación          octubre de dos mil diecisiete (recurso de casa-
+                                            en el fondo).                                               ción en el fondo).
 
 ## 91. CORTE SUPREMA, rol N° 37.792-2.015, de veinti-         106. CORTE SUPREMA, rol Nº 34.109-2017, de once de
 
-                                            cuatro de agosto de dos mil dieciséis (recurso de           octubre de dos mil diecisiete (recurso de casa-
+**Definición Canónica:** cuatro de agosto de dos mil dieciséis (recurso de           octubre de dos mil diecisiete (recurso de casa-
+                                            casación en el fondo).                                      ción en el fondo).
+
+cuatro de agosto de dos mil dieciséis (recurso de           octubre de dos mil diecisiete (recurso de casa-
                                             casación en el fondo).                                      ción en el fondo).
 
                                         92. CORTE SUPREMA, rol N° 39.477-2016, de siete            107. CORTE SUPREMA, rol N° 35.071-2017, de treinta y
                                             de septiembre de dos mil dieciséis (recurso de              uno de octubre de dos mil diecisiete (recurso de
                                             casación en el fondo).                                      casación en el fondo).
 
-
 ## 93. CORTE SUPREMA, rol N° 46.521-2016 de trece             108. CORTE SUPREMA, rol N° 35.256-2017, de seis de
 
-                                            de septiembre de dos mil dieciséis (recurso de              diciembre de dos mil diecisiete (recurso de casa-
+**Definición Canónica:** de septiembre de dos mil dieciséis (recurso de              diciembre de dos mil diecisiete (recurso de casa-
                                             casación en el fondo).                                      ción en el fondo).
 
+de septiembre de dos mil dieciséis (recurso de              diciembre de dos mil diecisiete (recurso de casa-
+                                            casación en el fondo).                                      ción en el fondo).
 
 ## 94. CORTE SUPREMA, rol N° 46.516-2016, de trece            109. CORTE SUPREMA, rol N° 2.292-2018, de veintiu-
 
-                                            de septiembre de dos mil dieciséis (recurso de              no de agosto de dos mil dieciocho (recurso de
+**Definición Canónica:** de septiembre de dos mil dieciséis (recurso de              no de agosto de dos mil dieciocho (recurso de
+
+de septiembre de dos mil dieciséis (recurso de              no de agosto de dos mil dieciocho (recurso de
 
                                             casación en el fondo).                                      casación en el fondo).
 
-
 ## 95. CORTE SUPREMA, rol N° 45.838-2016 de quince            110. CORTE SUPREMA, rol N° 1324-18, de seis de
 
-                                            de septiembre de dos mil dieciséis (recurso de              septiembre de dos mil dieciocho (recurso de ca-
+**Definición Canónica:** de septiembre de dos mil dieciséis (recurso de              septiembre de dos mil dieciocho (recurso de ca-
                                             casación en el fondo).                                      sación en el fondo).
 
+de septiembre de dos mil dieciséis (recurso de              septiembre de dos mil dieciocho (recurso de ca-
+                                            casación en el fondo).                                      sación en el fondo).
 
 ## 96. CORTE SUPREMA, rol N° 41.066-2016, de vein-            111. CORTE SUPREMA, rol N° 3363-18, de veinte de
 
-                                            tiséis de octubre de dos mil dieciséis (recurso de          febrero de dos mil diecinueve (recurso de casa-
+**Definición Canónica:** tiséis de octubre de dos mil dieciséis (recurso de          febrero de dos mil diecinueve (recurso de casa-
                                             casación en el fondo).                                      ción en el fondo).
 
+tiséis de octubre de dos mil dieciséis (recurso de          febrero de dos mil diecinueve (recurso de casa-
+                                            casación en el fondo).                                      ción en el fondo).
 
 ## 97.   CORTE SUPREMA, rol N° 87.853-2016, de trece          112. CORTE SUPREMA, rol N° 1.081-2018, de veinte de
 
-                                              de diciembre de dos mil dieciséis (recurso de             febrero de dos mil diecinueve (recurso de casa-
+**Definición Canónica:** de diciembre de dos mil dieciséis (recurso de             febrero de dos mil diecinueve (recurso de casa-
                                               casación en el fondo).                                    ción en el fondo).
 
+de diciembre de dos mil dieciséis (recurso de             febrero de dos mil diecinueve (recurso de casa-
+                                              casación en el fondo).                                    ción en el fondo).
 
 ## 98. CORTE SUPREMA, rol N° 59.106-2016, de cinco            113. CORTE SUPREMA, rol N° 33.793-2017, veintisiete
 
-                                            de enero de dos mil diecisiete (recurso de casa-            de mayo de dos mil diecinueve (recurso de casa-
+**Definición Canónica:** de enero de dos mil diecisiete (recurso de casa-            de mayo de dos mil diecinueve (recurso de casa-
                                             ción en el fondo).                                          ción en el fondo).
 
+de enero de dos mil diecisiete (recurso de casa-            de mayo de dos mil diecinueve (recurso de casa-
+                                            ción en el fondo).                                          ción en el fondo).
 
 ## 99. CORTE SUPREMA, rol N° 50.055-2016, de doce             114. CORTE SUPREMA, rol N° 8.363-2018, de ocho de
 
-                                            de enero de dos mil diecisiete (recurso de casa-            agosto de dos mil diecinueve (recurso de casa-
+**Definición Canónica:** de enero de dos mil diecisiete (recurso de casa-            agosto de dos mil diecinueve (recurso de casa-
                                             ción en el fondo).                                          ción en el fondo).
 
+de enero de dos mil diecisiete (recurso de casa-            agosto de dos mil diecinueve (recurso de casa-
+                                            ción en el fondo).                                          ción en el fondo).
 
 ## 100. CORTE SUPREMA, rol Nº 4.807-2017, de veinti-          115. CORTE SUPREMA, rol N° 18.707-2018, de veinti-
 
-                                             siete de marzo de dos mil diecisiete (recurso de           séis de agosto de dos mil diecinueve (recurso de
+**Definición Canónica:** siete de marzo de dos mil diecisiete (recurso de           séis de agosto de dos mil diecinueve (recurso de
                                              casación en el fondo).                                     casación en el fondo).
 
+siete de marzo de dos mil diecisiete (recurso de           séis de agosto de dos mil diecinueve (recurso de
+                                             casación en el fondo).                                     casación en el fondo).
 
 ## 101. CORTE SUPREMA, rol N° 8.089-2017, de seis de          116. CORTE SUPREMA, rol N° 16.521-2018, de veintio-
 
-                                             julio de dos mil diecisiete (recurso de casación en        cho de agosto de dos mil diecinueve (recurso de
+**Definición Canónica:** julio de dos mil diecisiete (recurso de casación en        cho de agosto de dos mil diecinueve (recurso de
                                              el fondo).                                                 casación en el fondo).
 
+julio de dos mil diecisiete (recurso de casación en        cho de agosto de dos mil diecinueve (recurso de
+                                             el fondo).                                                 casación en el fondo).
 
 ## 102. CORTE SUPREMA, rol N° 7.163-2017, de veinti-          117. CORTE SUPREMA, rol N° 6.385-2018, de veintio-
 
-                                             cinco de julio de dos mil diecisiete (recurso de           cho de noviembre de dos mil diecinueve (recurso
+**Definición Canónica:** cinco de julio de dos mil diecisiete (recurso de           cho de noviembre de dos mil diecinueve (recurso
                                              casación en el fondo).                                     de casación en el fondo).
 
+cinco de julio de dos mil diecisiete (recurso de           cho de noviembre de dos mil diecinueve (recurso
+                                             casación en el fondo).                                     de casación en el fondo).
 
 ## 103. CORTE SUPREMA, rol N° 31.968-2017, de tres de         118. CORTE SUPREMA, rol N° 29.841-2018, de dieci-
 
-                                             agosto de dos mil diecisiete (recurso de casación          nueve de diciembre de dos mil diecinueve (recur-
+**Definición Canónica:** agosto de dos mil diecisiete (recurso de casación          nueve de diciembre de dos mil diecinueve (recur-
                                              en el fondo).                                              so de casación en el fondo).
 
+agosto de dos mil diecisiete (recurso de casación          nueve de diciembre de dos mil diecinueve (recur-
+                                             en el fondo).                                              so de casación en el fondo).
 
 ## 104. CORTE SUPREMA, rol N° 14.544-2017, de veinti-         119. TRIBUNAL EUROPEO DE DERECHOS HUMA-
 
-                                             trés de agosto de dos mil diecisiete (recurso de           NOS, en causa Mizzi vs. Malta Nº 26111/02,
+**Definición Canónica:** trés de agosto de dos mil diecisiete (recurso de           NOS, en causa Mizzi vs. Malta Nº 26111/02,
+                                             casación en el fondo).                                     de doce de enero de dos mil seis, párr. 112,
+                                                                                                        disponible en http://www.pfcmalta.org/uploa
+                                                                                                        ds/1/2/1/7/12174934/26111-02.pdf, (fecha de
+                                                     
+**Concordancias Legales:** constitucion
+
+trés de agosto de dos mil diecisiete (recurso de           NOS, en causa Mizzi vs. Malta Nº 26111/02,
                                              casación en el fondo).                                     de doce de enero de dos mil seis, párr. 112,
                                                                                                         disponible en http://www.pfcmalta.org/uploa
                                                                                                         ds/1/2/1/7/12174934/26111-02.pdf, (fecha de
@@ -6241,10 +6546,16 @@ de Filiación                                                                   
 
                                              Glosario
 
-
 ## 1.   Filiación: es el lazo que une a un hijo a su padre y   12. Impugnación de la filiación matrimonial: es
 
-                                             madre.                                                     aquella acción que tiene por objeto que el tribu-
+**Definición Canónica:** madre.                                                     aquella acción que tiene por objeto que el tribu-
+                                                                                                        nal declare que es inexacta una filiación que se
+                                        2.   Filiación Matrimonial: aquella en que existe matri-        ostenta. Por consiguiente, la presunción legal de
+                                             monio entre los padres al tiempo de la concepción          paternidad establece el estado civil de hijo y la
+                              
+**Concordancias Legales:** artículo 184
+
+madre.                                                     aquella acción que tiene por objeto que el tribu-
                                                                                                         nal declare que es inexacta una filiación que se
                                         2.   Filiación Matrimonial: aquella en que existe matri-        ostenta. Por consiguiente, la presunción legal de
                                              monio entre los padres al tiempo de la concepción          paternidad establece el estado civil de hijo y la
@@ -6255,7 +6566,13 @@ de Filiación                                                                   
 
 ## 3.   Filiación No Matrimonial: aquella en que no existe
 
-                                                                                                        del Código Civil puede ser desvirtuada.
+**Definición Canónica:** del Código Civil puede ser desvirtuada.
+                                             matrimonio al tiempo de la concepción o del na-
+                                             cimiento del hijo y los padres no lo contraen con      13. Impugnación de la filiación no matrimonial: es la
+                                             posterioridad.                                             acción destinada a que se declare que la filiación
+                                                                                                        determinada por reconocimiento no corresponde
+
+del Código Civil puede ser desvirtuada.
                                              matrimonio al tiempo de la concepción o del na-
                                              cimiento del hijo y los padres no lo contraen con      13. Impugnación de la filiación no matrimonial: es la
                                              posterioridad.                                             acción destinada a que se declare que la filiación
@@ -6263,8 +6580,14 @@ de Filiación                                                                   
 
 ## 4.   Reconocimiento: acto jurídico en que una perso-
 
+**Definición Canónica:** con la realidad.
+                                             na afirma ser el padre o la madre de otra, que no
+                                             tiene determinada la paternidad o maternidad, de       14. Impugnación de la maternidad: es aquella acción
+                                             acuerdo a los requisitos y formas que la ley seña-         destinada a que se declare que la maternidad no
+                                             la, y por dicha vía queda determinada la paterni-          corresponde a quien pasa como progenitora, por
+                                 
 
-                                                                                                        con la realidad.
+con la realidad.
                                              na afirma ser el padre o la madre de otra, que no
                                              tiene determinada la paternidad o maternidad, de       14. Impugnación de la maternidad: es aquella acción
                                              acuerdo a los requisitos y formas que la ley seña-         destinada a que se declare que la maternidad no
@@ -6273,19 +6596,30 @@ de Filiación                                                                   
 
 ## 5.   Repudiación: acto jurídico unilateral, personalísi-    15. Acción de desconocimiento: es la que persigue
 
-                                             mo, por el cual quien ha sido reconocido, rechaza          la declaración de que la paternidad matrimonial
+**Definición Canónica:** mo, por el cual quien ha sido reconocido, rechaza          la declaración de que la paternidad matrimonial
+                                             el reconocimiento, en el plazo legal.                      no procede por no cumplirse los requisitos de la
+                                                                                                        presunción pater is est del artículo 184 del Código
+                                        6.   Acciones de filiación: son las que permiten crear,
+                                                                                        
+**Concordancias Legales:** artículo 184 del Código
+
+mo, por el cual quien ha sido reconocido, rechaza          la declaración de que la paternidad matrimonial
                                              el reconocimiento, en el plazo legal.                      no procede por no cumplirse los requisitos de la
                                                                                                         presunción pater is est del artículo 184 del Código
                                         6.   Acciones de filiación: son las que permiten crear,
                                                                                                         Civil.
                                              modificar o extinguir un estado de familia.
 
-## 16. Acción de nulidad: es aquella dirigida a que el
-
-
 ## 7.   Posesión notoria: aquella situación de hecho que
 
-                                                                                                        tribunal declare inválido un acto jurídico determi-
+**Definición Canónica:** tribunal declare inválido un acto jurídico determi-
+                                             determina el goce y estado filiativo del hijo a
+                                                                                                        nado (…) por omisión de ciertos requisitos que la
+                                             través del nombre, trato y presentación ante la
+                                                                                                        ley prescribe para el valor del acto; y consiguien-
+                                             socieda
+
+tribunal declare inválido un acto jurídico determi-
                                              determina el goce y estado filiativo del hijo a
                                                                                                         nado (…) por omisión de ciertos requisitos que la
                                              través del nombre, trato y presentación ante la
@@ -6300,10 +6634,13 @@ de Filiación                                                                   
                                              reconocido y conocido como hijo de quien se pide
                                              su reconocimiento.
 
-
 ## 8.   Acciones de reclamación: aquellas que la ley otor-
 
-                                             ga al hijo en contra de su padre o de su madre, o
+**Definición Canónica:** ga al hijo en contra de su padre o de su madre, o
+                                             a estos en contra de aquel, para que se resuelva
+                                             judicialmente que una persona es hijo de otra.
+
+ga al hijo en contra de su padre o de su madre, o
                                              a estos en contra de aquel, para que se resuelva
                                              judicialmente que una persona es hijo de otra.
 
@@ -6311,32 +6648,3 @@ de Filiación                                                                   
                                              aquella que pretende la declaración que determi-
                                              nada persona es hija de un hombre y una mujer
                                              unidos en matrimonio.
-
-
-## 10. Acción de reclamación de la filiación no matrimo-
-
-                                            nial: es la que pretende la declaración que deter-
-                                            minada persona es hija de otra persona determi-
-                                            nada.
-
-
-## 11. Acciones de impugnación: son las que se ejercen
-
-                                            con el objeto de dejar sin efecto una filiación que
-                                            se ostenta.
-
-
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
-## Docentes
-
-
-Academia Judicial de Chile
-Amunátegui 465, Santiago | www.academiajudicial.cl

@@ -13,19 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Familia | **Materia:** Familia
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tribunales
+             de Familia:
 
-             Tribunales
+Tribunales
              de Familia:
 
                                         Patricio
@@ -75,12 +68,24 @@ extraccion: pdftotext
                         como jueza del Juzgado de Familia
                         de Viña del Mar.
 
-## Isbn n°
-
-
 ## 2022-a-1912
 
-              Juan Carlos
+**Definición Canónica:** Juan Carlos
+                    Maggiolo
+                    Caro
+              Abogado de la Universidad Andrés Bello
+              y Magíster en Derecho penal y Ciencias
+              penales    por    las   Universidades de
+              Barcelona y Pompeu Fabra, Juan Carlos
+              Maggiolo     es    coautor    del    libro
+              Conducción en estado de ebriedad y
+              bajo la influencia del alcohol. Ingresó al
+              Poder Judicial en enero de 2000, como
+              secretario del Primer Juzgado de Letras
+              de Coronel; fue Juez de Letras de Vic-
+**Concordancias Legales:** Ley Nº 21.266
+
+Juan Carlos
                     Maggiolo
                     Caro
               Abogado de la Universidad Andrés Bello
@@ -151,128 +156,12 @@ I
 
                                          Introducción                                                            8
 
-
-## 1. Unidades operativas de los Tribunales de Familia                    15
-
-
-
-## 1.1 Unidad de Sala                                                  16
-
-
-
-## 1.1.1 Jefe de Unidad de Sala                                  16
-
-
-
-## 1.1.2 Administrativo Jefe de Unidad de Sala                   18
-
-
-
-## 1.1.3 Unidad de Acta o Administrativo de Agenda               19
-
-
-
-## 1.1.4 Administrativos de Unidad de Sala                       23
-
-
-
-## 1.2 Unidad de Atención de Público y Mediación                       31
-
-
-
-## 1.2.1 Jefe de Atención de Público                             31
-
-
-
-## 1.2.2 Administrativo Jefe de Atención de Público              37
-
-
-
-## 1.2.3 Administrativo de Atención de Público                   37
-
-
-
-## 1.3 Unidad de Servicios                                             40
-
-
-
-## 1.3.1 Jefe de Unidad de Servicios                             40
-
-
-
-## 1.3.2 Administrativo Contable                                 42
-
-
-
-## 1.3.3 Administrativo Informático                              48
-
-
-
-## 1.4 Unidad de Administración de Causas                              54
-
-
-
-## 1.4.1 Jefe de la Unidad de Causas                             54
-
-
-
-## 1.4.2 Administrativo Jefe de Unidad de Causas                 57
-
-
-
-## 1.4.3 Administrativo de Causas                                58
-
-
-
-## 1.5 Unidad de Cumplimiento                                          61
-
-
-
-## 1.5.1 Administrativo de Cumplimiento                          61
-
-
-
-## 1.6 Reglas sobre cumplimiento de las sentencias                     65
-
-
-
-## 1.6.1 Existencia de un régimen general                        65
-
-
-
-## 1.6.2 Cumplimiento del derecho de alimentos                   66
-
-
-
-## 1.6.3 Causas sobre el derecho de relación directa y regular   70
-
-
-
-## 1.7 Funcionamiento del Centro Medidas Cautelares de Santiago        72
-
-
-
-## 1.8 Sobre teletrabajo y retorno seguro                              73
-
-Tribunales de Familia:                                                           Índice        6
-
-
-## 1.8.1   Atención de público             73
-
-
-
-## 1.8.2   Dotación mínima                 73
-
-
-
-## 1.8.3   Retorno masivo                  74
-
-
-
 ## 1.8.4   Medidas de resguardo            74
 
+**Definición Canónica:** Bibliografía                                     75
+**Concordancias Legales:** artículo 389; artículo 115; artículo 118; artículo 8 de la LTF. Y serán solo; artículo 1; Ley Nº 19.968; Ley N° 19.668; Ley N° 20.084; Ley Nº 21.030; Ley Nº 21.120; Ley N° 21.331; constitución
 
-                                         Bibliografía                                     75
+Bibliografía                                     75
 
                                          Flujos esquematizados de procedimientos          77
 
@@ -512,10 +401,12 @@ I
 Tribunales de Familia:                                                1. Unidades operativas de los                                            16
 nociones básicas                                                        Tribunales de Familia
 
-
 ## 1.1    Unidad
 
-                                                                       de Sala
+**Definición Canónica:** de Sala
+**Concordancias Legales:** artículo 2
+
+de Sala
 
                                                                         En conformidad al artículo 2° numeral 1° de la LTF, esta unidad está
                                                                         destinada a la organización y asistencia a la realización de las
@@ -525,10 +416,14 @@ nociones básicas                                                        Tribuna
                                                                         afín al servicio. En los tribunales más pequeños, esta unidad está
                                                                         fusionada con la de Servicios, que se revisará más adelante.
 
-
 ## 1.1.1 Jefe de Unidad de Sala
 
-                                                                        Se encarga del agendamiento de las audiencias del tribunal, conforme
+**Definición Canónica:** Se encarga del agendamiento de las audiencias del tribunal, conforme
+                                                                        a la distribución interna establecida en el plan de trabajo aprobado
+                                                                        anualmente por el Comité de jueces de cada tribunal.
+**Concordancias Legales:** artículo 62 del Acta
+
+Se encarga del agendamiento de las audiencias del tribunal, conforme
                                                                         a la distribución interna establecida en el plan de trabajo aprobado
                                                                         anualmente por el Comité de jueces de cada tribunal.
 
@@ -590,10 +485,16 @@ nociones básicas                                                        Tribuna
 
 Tribunales de Familia:                                          1. Unidades operativas de los                                              18
 
-
 ## 1.1.2 Administrativo Jefe de Unidad de Sala
 
-                                                                  La persona que ejerza esta función debe ser profesional del área de
+**Definición Canónica:** La persona que ejerza esta función debe ser profesional del área de
+                                                                  la administración y subroga al Jefe de Unidad de Sala en caso de
+                                                                  ausencia. Sus principales funciones son:
+                                                                  —        Distribuir la carga de trabajo en la unidad y controlar las
+                                                                           funciones realizadas.
+                                                              
+
+La persona que ejerza esta función debe ser profesional del área de
                                                                   la administración y subroga al Jefe de Unidad de Sala en caso de
                                                                   ausencia. Sus principales funciones son:
                                                                   —        Distribuir la carga de trabajo en la unidad y controlar las
@@ -637,10 +538,14 @@ nociones básicas                                                        Tribuna
                                                                   —        Revisar el módulo diligencias (pendientes, firmadas para enviar
                                                                            por correo y devueltas).
 
-
 ## 1.1.3 Unidad de Acta o Administrativo de Agenda
 
-                                                                  Esta sub-unidad de la Unidad de Salas, que a veces puede ser ejercida
+**Definición Canónica:** Esta sub-unidad de la Unidad de Salas, que a veces puede ser ejercida
+                                                                  por una sola persona, sobre todo en tribunales de categoría menor,
+                                                                  tiene por objeto las siguientes funciones:
+                                                                  —        Unificar la función, control y responsabilidad de la agenda
+
+Esta sub-unidad de la Unidad de Salas, que a veces puede ser ejercida
                                                                   por una sola persona, sobre todo en tribunales de categoría menor,
                                                                   tiene por objeto las siguientes funciones:
                                                                   —        Unificar la función, control y responsabilidad de la agenda
@@ -796,10 +701,15 @@ nociones básicas                                                        Tribuna
                                                                            en línea) en las salas que corresponde para dichas audiencias,
                                                                            así como pedir hora para la traducción simultánea.
 
-
 ## 1.1.4 Administrativos de Unidad de Sala
 
-                                                                  Conocidos como “encargados de actas”, son los funcionarios que se
+**Definición Canónica:** Conocidos como “encargados de actas”, son los funcionarios que se
+                                                                  encuentran en cada sala de audiencias, de las diversas en que fun- cione
+                                                                  el tribunal, cuya labor principal consiste en levantar el acta de la
+                                                                  audiencia desarrollada en su sala, indicando fecha, hora, juez que dirige
+                                                                  la audiencia y asistentes a la misma, esto es, conseje
+
+Conocidos como “encargados de actas”, son los funcionarios que se
                                                                   encuentran en cada sala de audiencias, de las diversas en que fun- cione
                                                                   el tribunal, cuya labor principal consiste en levantar el acta de la
                                                                   audiencia desarrollada en su sala, indicando fecha, hora, juez que dirige
@@ -824,120 +734,23 @@ nociones básicas                                                               
 
                                                                 Acta audiencia contenciosa Alimentos
 
-
-## Fecha
-
-
-                                                                RUC
-
-                                                                RIT
-
-
-## Magistrado (a)
-
-
-
-## Consejero técnico
-
-
-
-## Encargado de acta
-
-
-
-## Hora de inicio
-
-
-
-## Hora de término
-
-
-
-## Nº REGISTRO DE AUDIO
-
-
-
-## PARTE DEMANDANTE                      Nombre, Rut, Domicilio, Comuna, Teléfono
-
-
-
-## Abogado
-
-
-
-## Forma de notificación
-
-
-
-## PARTE DEMANDADA                       Nombre, Rut, Domicilio, Comuna, Teléfono
-
-
-
-## Abogado
-
-
-
-## Forma de notificación
-
-
-
-## Confirmación de datos                                                        sí   no
-
-
-                                                                DEMANDANTE:
-
-
-## Cambio de domicilio                                                          x
-
-
-
 ## Cambio de abogado                                                            x
 
+**Definición Canónica:** Tribunales de Familia:                                                          1. Unidades operativas de los                                              25
+nociones básicas                                                                  Tribunales de Familia
 
-                                                                DEMANDADA:
-
-
-## Cambio de domicilio                                                          x
-
-
-
-## Cambio de abogado                                                            x
-
-
-Tribunales de Familia:                                                          1. Unidades operativas de los                                              25
+Tribunales de Familia:                                                          1. Unidades operativas de los                                              25
 nociones básicas                                                                  Tribunales de Familia
 
                                                                 ACTUACIONES EFECTUADAS:                                     SÍ         NO         ORD.
 
-
-## (hecho de haberse efectuado o no)
-
-
-
-## Relac. breve demanda                                        x
-
-
-
-## Contesta demanda
-
-
-
-## Llamado a conciliación
-
-
-
-## Examen de admisibilidad de pruebas                          x
-
-
-
-## Diligencias decretadas                                      x
-
-
-
 ## Citación a audiencia de juicio                              x
 
+**Definición Canónica:** Las principales funciones de los administrativos de Unidad de
+                                                                                  Sala son:
+**Concordancias Legales:** artículo 62 del Acta 71
 
-                                                                                  Las principales funciones de los administrativos de Unidad de
+Las principales funciones de los administrativos de Unidad de
                                                                                   Sala son:
 
                                                                                   —        Realizar, a la hora designada, los llamados de las audiencias
@@ -1112,8 +925,10 @@ nociones básicas                                                               
 
 ## Yyyy
 
+**Definición Canónica:** 13:30    14:00     C-1616-2020      XXXX/YYYYY        Citación a Audien-    Divorcio de        Realizada      Correo Electrónico    XXX XXXXX XXXXX       SI
+                                                                                                              cia Preparatoria      Común Acuerdo
 
-                                                        13:30    14:00     C-1616-2020      XXXX/YYYYY        Citación a Audien-    Divorcio de        Realizada      Correo Electrónico    XXX XXXXX XXXXX       SI
+13:30    14:00     C-1616-2020      XXXX/YYYYY        Citación a Audien-    Divorcio de        Realizada      Correo Electrónico    XXX XXXXX XXXXX       SI
                                                                                                               cia Preparatoria      Común Acuerdo
 
                                                                                                              En cuanto al rotulado del audio y de las audiencias confidenciales,
@@ -1150,10 +965,12 @@ nociones básicas                                                               
 Tribunales de Familia:                                                1. Unidades operativas de los                                             31
 nociones básicas                                                        Tribunales de Familia
 
-
 ## 1.2     Unidad de Atención
 
-                                                                        de Público y Mediación
+**Definición Canónica:** de Público y Mediación
+**Concordancias Legales:** artículo 2
+
+de Público y Mediación
 
                                                                         Esta unidad está destinada a otorgar atención adecuada y oportuna,
                                                                         como también dar orientación e información, a los usuarios del
@@ -1169,10 +986,15 @@ nociones básicas                                                        Tribuna
                                                                         semestres en el área de la administración, contabilidad, ciencias
                                                                         jurídicas, y las carreras de psicología o asistente social.
 
-
 ## 1.2.1 Jefe de Atención de Público
 
-                                                                        El encargado de la unidad debe ser una persona profesional del área
+**Definición Canónica:** El encargado de la unidad debe ser una persona profesional del área
+                                                                        específica, pudiendo ser abogado(a), asistente o trabajador(a) social,
+                                                                        administrador(a) público(a), entre otras profesiones exigidas. Sus
+                                                                        principales funciones son las siguientes:
+                                                                        —        Velar por que en su unidad se entregue la mejor y más e
+
+El encargado de la unidad debe ser una persona profesional del área
                                                                         específica, pudiendo ser abogado(a), asistente o trabajador(a) social,
                                                                         administrador(a) público(a), entre otras profesiones exigidas. Sus
                                                                         principales funciones son las siguientes:
@@ -1225,7 +1047,9 @@ nociones básicas                                                        Tribuna
 
 ## parte del público, debe actuar de acuerdo al artículo 35 del
 
-                                                                           Acta 71-2016.
+**Definición Canónica:** Acta 71-2016.
+
+Acta 71-2016.
 
 Tribunales de Familia:                                          1. Unidades operativas de los                                             33
 
@@ -1341,10 +1165,16 @@ nociones básicas                        Tribunales de Familia
 
 Tribunales de Familia:                                          1. Unidades operativas de los                                            37
 
-
 ## 1.2.2 Administrativo Jefe de Atención de Público
 
-                                                                  La sub-unidad administrativa de Atención de Público está encargada de
+**Definición Canónica:** La sub-unidad administrativa de Atención de Público está encargada de
+                                                                  mantener un adecuado control del inventario y la custodia de
+                                                                  especies, por medios electrónicos, quedando reservado para casos
+                                                                  excepcionales y justificados el uso de libros o archivadores en formato
+                                                                  análogo o impreso en papel. Las principales funciones de la persona
+
+
+La sub-unidad administrativa de Atención de Público está encargada de
                                                                   mantener un adecuado control del inventario y la custodia de
                                                                   especies, por medios electrónicos, quedando reservado para casos
                                                                   excepcionales y justificados el uso de libros o archivadores en formato
@@ -1372,11 +1202,15 @@ nociones básicas                        Tribunales de Familia
                                                                   —        Asignación de RIT automática al ingresar la demanda, denun-
                                                                            cia o requerimiento nuevo.
 
-
 ## 1.2.3 Administrativo de Atención de Público
 
+**Definición Canónica:** —        Recibe al usuario en el mesón de atención de público y en
+                                                                           el horario fijado para estos efectos, de 08:00 a 14:00 horas de
+                                                                           lunes a viernes y de 09:00 a 12:00 horas el día sábado:
+                                                                            a. Saludándole por su nombre, si es parte en alguna causa
+                                                                               y digitó su RUT en el tótem de atención.
 
-                                                                  —        Recibe al usuario en el mesón de atención de público y en
+—        Recibe al usuario en el mesón de atención de público y en
                                                                            el horario fijado para estos efectos, de 08:00 a 14:00 horas de
                                                                            lunes a viernes y de 09:00 a 12:00 horas el día sábado:
                                                                             a. Saludándole por su nombre, si es parte en alguna causa
@@ -1426,10 +1260,12 @@ nociones básicas                        Tribunales de Familia
 Tribunales de Familia:                                                1. Unidades operativas de los                                             40
 nociones básicas                                                        Tribunales de Familia
 
-
 ## 1.3     Unidad
 
-                                                                        de Servicios
+**Definición Canónica:** de Servicios
+**Concordancias Legales:** artículo 2
+
+de Servicios
 
                                                                         Esta unidad del tribunal de familia debe cumplir las labores de soporte
                                                                         técnico de la red informática del juzgado, contabilidad y apoyo a la
@@ -1443,10 +1279,15 @@ nociones básicas                                                        Tribuna
                                                                         además de los administrativos con conocimientos generales. Su
                                                                         regulación se encuentra en el artículo 2° numeral 3° de la LTF.
 
-
 ## 1.3.1 Jefe de Unidad de Servicios
 
-                                                                        Es el o la profesional responsable de las labores de apoyo general a
+**Definición Canónica:** Es el o la profesional responsable de las labores de apoyo general a
+                                                                        la actividad administrativa del tribunal, relacionada con custodia de
+                                                                        especies, mensajería, gestión y control de las diversas operaciones
+                                                                        financieras, soporte informático, coordinación y abastecimiento de
+                                                                        todas las necesidades físicas y materi
+
+Es el o la profesional responsable de las labores de apoyo general a
                                                                         la actividad administrativa del tribunal, relacionada con custodia de
                                                                         especies, mensajería, gestión y control de las diversas operaciones
                                                                         financieras, soporte informático, coordinación y abastecimiento de
@@ -1502,10 +1343,16 @@ nociones básicas                                                        Tribuna
 
 Tribunales de Familia:                                          1. Unidades operativas de los                                             42
 
-
 ## 1.3.2 Administrativo Contable
 
-                                                                  Debe ser contador(a) o contador(a) auditor(a) y sus principales fun-
+**Definición Canónica:** Debe ser contador(a) o contador(a) auditor(a) y sus principales fun-
+                                                                  ciones son:
+                                                                  —        Confeccionar una planificación de compras y licitaciones a
+                                                                           realizar por el tribunal cada año, a través de la plataforma
+                                                                           web ChileCompra. Este plan deberá ser remitido a la admi-
+                                                  
+
+Debe ser contador(a) o contador(a) auditor(a) y sus principales fun-
                                                                   ciones son:
                                                                   —        Confeccionar una planificación de compras y licitaciones a
                                                                            realizar por el tribunal cada año, a través de la plataforma
@@ -1768,10 +1615,15 @@ nociones básicas                                                               
                                                                                                                        - Presupuesto Proyecta-
                                                                                                                            do-Programa de Caja
 
-
 ## 1.3.3 Administrativo Informático
 
-                                                                                                   Debe ser desempeñado por un(a) profesional con título en informática
+**Definición Canónica:** Debe ser desempeñado por un(a) profesional con título en informática
+                                                                                                   o una profesión similar y sus principales funciones son:
+                                                                                                   —      Modificar las claves de los PC cada tres meses, llevando un
+                                                                                                          control de sus vencimientos, modificando la clave antes de su
+                                         
+
+Debe ser desempeñado por un(a) profesional con título en informática
                                                                                                    o una profesión similar y sus principales funciones son:
                                                                                                    —      Modificar las claves de los PC cada tres meses, llevando un
                                                                                                           control de sus vencimientos, modificando la clave antes de su
@@ -1965,10 +1817,12 @@ nociones básicas                                                               
 Tribunales de Familia:                                                1. Unidades operativas de los                                             54
 nociones básicas                                                        Tribunales de Familia
 
-
 ## 1.4     Unidad de Administración
 
-                                                                        de Causas
+**Definición Canónica:** de Causas
+**Concordancias Legales:** artículo 2
+
+de Causas
 
                                                                         Según regula el artículo 2° numeral 4° de la LTF, son sus funciones
                                                                         la administración de las causas que se tramitan en el tribunal, por lo
@@ -1983,10 +1837,16 @@ nociones básicas                                                        Tribuna
                                                                         la ejecución de los proyectos de resoluciones y las certificaciones y
                                                                         actuaciones que sean procedentes en las mismas.
 
-
 ## 1.4.1 Jefe de la Unidad de Causas
 
-                                                                        Este funcionario debe ser profesional con título de abogado(a) y
+**Definición Canónica:** Este funcionario debe ser profesional con título de abogado(a) y
+                                                                        dirige la unidad obrando como ministro(a) de fe del tribunal. Son
+                                                                        sus principales funciones:
+                                                                        —        Velar y exigir que la tramitación de las causas se realice dentro
+                                                                                 del plazo de 48 horas, procurando que la entrega del despacho
+        
+
+Este funcionario debe ser profesional con título de abogado(a) y
                                                                         dirige la unidad obrando como ministro(a) de fe del tribunal. Son
                                                                         sus principales funciones:
                                                                         —        Velar y exigir que la tramitación de las causas se realice dentro
@@ -2100,10 +1960,16 @@ nociones básicas                                                        Tribuna
                                                                            carpetas la documentación pertinente y sus audios respectivos,
                                                                            revisando que lo anexado no contenga errores.
 
-
 ## 1.4.2 Administrativo Jefe de Unidad de Causas
 
-                                                                  Este funcionario no requiere de título profesional específico, pero de
+**Definición Canónica:** Este funcionario no requiere de título profesional específico, pero de
+                                                                  preferencia debe ser abogado(a), técnico jurídico o afín. Sus prin-
+                                                                  cipales funciones son:
+                                                                  —        Revisar a diario el módulo de escritos pendientes en el SITFA,
+                                                                           custodiando que se hayan resuelto todos los presentados el
+                                  
+
+Este funcionario no requiere de título profesional específico, pero de
                                                                   preferencia debe ser abogado(a), técnico jurídico o afín. Sus prin-
                                                                   cipales funciones son:
                                                                   —        Revisar a diario el módulo de escritos pendientes en el SITFA,
@@ -2152,10 +2018,16 @@ nociones básicas                                                        Tribuna
                                                                   —        Realizar todas las funciones que le designe en forma extraor-
                                                                            dinaria la administración del tribunal.
 
-
 ## 1.4.3 Administrativo de Causas
 
-                                                                  Son los llamados “proveedores” del juzgado, una labor realizada
+**Definición Canónica:** Son los llamados “proveedores” del juzgado, una labor realizada
+                                                                  principalmente por profesionales del área técnico-jurídica, u otras
+                                                                  profesiones afines. Sus principales funciones son:
+                                                                  —        Realizar los proyectos de resolución y oficios de las demandas
+                                                                           y escritos presentados por los usuarios del tribunal y enviarlos
+       
+
+Son los llamados “proveedores” del juzgado, una labor realizada
                                                                   principalmente por profesionales del área técnico-jurídica, u otras
                                                                   profesiones afines. Sus principales funciones son:
                                                                   —        Realizar los proyectos de resolución y oficios de las demandas
@@ -2218,7 +2090,14 @@ nociones básicas                                                        Tribuna
 
 ## parte solicite dejar sin efecto una orden de arresto, como
 
-                                                                           asimismo efectuar los oficios destinados a la Policía de Inves-
+**Definición Canónica:** asimismo efectuar los oficios destinados a la Policía de Inves-
+                                                                           tigaciones de Chile o Carabineros, para que dichas entidades
+                                                                           den cumplimiento al apremio decretado. En ambos casos, el
+                                                                           mismo día de recibido el escrito.
+                                                                  —        Realizar los proyectos de resolución en las causas que existan
+                    
+
+asimismo efectuar los oficios destinados a la Policía de Inves-
                                                                            tigaciones de Chile o Carabineros, para que dichas entidades
                                                                            den cumplimiento al apremio decretado. En ambos casos, el
                                                                            mismo día de recibido el escrito.
@@ -2238,10 +2117,12 @@ nociones básicas                                                        Tribuna
 Tribunales de Familia:                                                1. Unidades operativas de los                                             61
 nociones básicas                                                        Tribunales de Familia
 
-
 ## 1.5     Unidad de
 
-                                                                        Cumplimiento
+**Definición Canónica:** Cumplimiento
+**Concordancias Legales:** artículo 2; Ley Nº 20.286
+
+Cumplimiento
 
                                                                         Conforme al artículo 2° numeral 5° de la LTF (creada por la Ley
                                                                         Nº 20.286, de 15 de septiembre de 2008), y atendida la particular
@@ -2267,10 +2148,15 @@ nociones básicas                                                        Tribuna
                                                                         que realiza tal función y se relaciona con la Unidad de Causas, que
                                                                         tiene funciones similares, en cuanto a las providencias del tribunal.
 
-
 ## 1.5.1 Administrativo de Cumplimiento
 
-                                                                        Sus principales funciones son las siguientes:
+**Definición Canónica:** Sus principales funciones son las siguientes:
+                                                                        —        Realizar los proyectos de resolución y oficios de las causas de
+                                                                                 cumplimiento “Z” y “X” y escritos presentados por los usuarios
+                                                                                 del tribunal de familia y enviarlos al o la juez por cada carpeta
+                                                                                 electrónica, todo ello dentro del pla
+
+Sus principales funciones son las siguientes:
                                                                         —        Realizar los proyectos de resolución y oficios de las causas de
                                                                                  cumplimiento “Z” y “X” y escritos presentados por los usuarios
                                                                                  del tribunal de familia y enviarlos al o la juez por cada carpeta
@@ -2325,7 +2211,14 @@ nociones básicas                                                        Tribuna
 
 ## parte solicite dejar sin efecto una orden de arresto, como
 
-                                                                           asimismo deberá efectuar los oficios destinados a la Policía
+**Definición Canónica:** asimismo deberá efectuar los oficios destinados a la Policía
+                                                                           de Investigaciones de Chile o Carabineros, para efecto que
+                                                                           tales entidades den cumplimiento al apremio decretado. En
+                                                                           ambos casos, el mismo día de recibido el escrito.
+                                                                  —        Realizar los proyectos de resolución en las causas que existan
+         
+
+asimismo deberá efectuar los oficios destinados a la Policía
                                                                            de Investigaciones de Chile o Carabineros, para efecto que
                                                                            tales entidades den cumplimiento al apremio decretado. En
                                                                            ambos casos, el mismo día de recibido el escrito.
@@ -2366,10 +2259,11 @@ nociones básicas                                                        Tribuna
 Tribunales de Familia:                                                1. Unidades operativas de los                                            65
 nociones básicas                                                        Tribunales de Familia
 
-
 ## 1.6     Reglas sobre cumplimiento
 
-                                                                        de las sentencias
+**Definición Canónica:** de las sentencias
+
+de las sentencias
 
                                                                         Las resoluciones judiciales, una vez finalizado el proceso, se pueden
                                                                         obligar a cumplir por el o la juez competente. Esto se aplica a toda
@@ -2389,10 +2283,16 @@ nociones básicas                                                        Tribuna
                                                                         o el Código de Procedimiento Civil, los que nos darán el procedi-
                                                                         miento a seguir.
 
-
 ## 1.6.1 Existencia de un régimen general
 
-                                                                        Como se dijo, al no existir normas especiales que regulen la manera
+**Definición Canónica:** Como se dijo, al no existir normas especiales que regulen la manera
+                                                                        de cumplir y/o ejecutar las resoluciones de los tribunales de familia,
+                                                                        el régimen general para el cumplimiento de las sentencias será el del
+                                                                        Código de Procedimiento Civil, en su Libro I, Título XIX Dela
+                                                                        ejecución de las resoluciones, en sus art
+**Concordancias Legales:** artículos 231; artículo 27 de la Ley Nº 19.968; artículo 76 de la Constitución Política de la República de 1980; artículo 13 de la LTF; Ley Nº 19.968; Constitución Política
+
+Como se dijo, al no existir normas especiales que regulen la manera
                                                                         de cumplir y/o ejecutar las resoluciones de los tribunales de familia,
                                                                         el régimen general para el cumplimiento de las sentencias será el del
                                                                         Código de Procedimiento Civil, en su Libro I, Título XIX Dela
@@ -2414,10 +2314,17 @@ nociones básicas                                                        Tribuna
                                                                   A continuación veremos los casos de mayor incidencia en los tribu-
                                                                   nales de familia.
 
-
 ## 1.6.2 Cumplimiento del derecho de alimentos
 
-                                                                  El procedimiento para el cumplimiento de la resolución que orde-
+**Definición Canónica:** El procedimiento para el cumplimiento de la resolución que orde-
+                                                                  na pagar una pensión alimenticia está establecido en la propia Ley
+                                                                  Nº 14.908, donde se distinguen dos formas alternativas de obligar
+                                                                  a cumplir a la persona condenada a dicho pago: a) cumplimiento
+                                                                  mediante apremios y b) cumplimiento con juicio ejecutivo, ambos
+           
+**Concordancias Legales:** artículo 321 del Código Civil; artículo 15; artículo 14; artículo 16; artículo 9; artículo 11; artículo 13; artículos 11; artículo 254 del Código de Procedimiento Civil; artículo 23 de la Ley Nº 19.968 y se decreta por el; artículo 12 de la Ley Nº 14.908 señala que solo es; artículo 2.515 del Código Civil; Ley Nº 14.908; Ley Nº 19.968
+
+El procedimiento para el cumplimiento de la resolución que orde-
                                                                   na pagar una pensión alimenticia está establecido en la propia Ley
                                                                   Nº 14.908, donde se distinguen dos formas alternativas de obligar
                                                                   a cumplir a la persona condenada a dicho pago: a) cumplimiento
@@ -2567,10 +2474,16 @@ nociones básicas                                                        Tribuna
 
 Tribunales de Familia:                                          1. Unidades operativas de los                                           70
 
-
 ## 1.6.3 Causas sobre el derecho de relación directa y regular
 
-                                                                  Se podrá exigir el cumplimiento forzado de una sentencia o de un
+**Definición Canónica:** Se podrá exigir el cumplimiento forzado de una sentencia o de un
+                                                                  acuerdo que regule el régimen comunicacional entre un(a) hijo(a)
+                                                                  menor de edad con su padre o madre que no lo tenga bajo su cuidado
+                                                                  personal, conforme a las reglas especiales que establece la Ley Nº
+                                                                  16.618 o Ley de Menores.
+**Concordancias Legales:** artículo 48; artículo 66; artículo 543 del Código de Procedimiento Civil; artículo 48 de la Ley Nº 16.618. En todo caso; Ley Nº 16.618
+
+Se podrá exigir el cumplimiento forzado de una sentencia o de un
                                                                   acuerdo que regule el régimen comunicacional entre un(a) hijo(a)
                                                                   menor de edad con su padre o madre que no lo tenga bajo su cuidado
                                                                   personal, conforme a las reglas especiales que establece la Ley Nº
@@ -2621,10 +2534,11 @@ nociones básicas                                                        Tribuna
 Tribunales de Familia:                                                1. Unidades operativas de los                                        72
 nociones básicas                                                        Tribunales de Familia
 
-
 ## 1.7     Funcionamiento del Centro Medidas
 
-                                                                        Cautelares de Santiago
+**Definición Canónica:** Cautelares de Santiago
+
+Cautelares de Santiago
 
                                                                         Esta es la única jurisdicción del país que contempla una especie de
                                                                         juzgado separado de los cuatro juzgados de familia de Santiago, al
@@ -2646,20 +2560,23 @@ nociones básicas                                                        Tribuna
 Tribunales de Familia:                                                1. Unidades operativas de los                                          73
 nociones básicas                                                        Tribunales de Familia
 
-
 ## 1.8     Sobre teletrabajo y
 
-                                                                        retorno seguro
+**Definición Canónica:** retorno seguro
+
+retorno seguro
 
                                                                         Como medida de seguridad ante la emergencia sanitaria declarada
                                                                         en 2020, las personas que deban estar presentes en las audiencias
                                                                         deberán ingresar solas y sin acompañantes, al igual que aquellos
                                                                         usuarios que se acerquen a efectuar consultas.
 
-
 ## 1.8.1 Atención de público
 
-                                                                        Desde comienzos del año 2020, los tribunales han funcionado con
+**Definición Canónica:** Desde comienzos del año 2020, los tribunales han funcionado con
+                                                                        una dotación presencial mínima, conforme a los lineamientos de cada
+
+Desde comienzos del año 2020, los tribunales han funcionado con
                                                                         una dotación presencial mínima, conforme a los lineamientos de cada
 
                                                                         juzgado de familia y a la dotación de personal de cada uno, debido al
@@ -2679,10 +2596,15 @@ nociones básicas                                                        Tribuna
                                                                         la necesidad de incorporar la atención presencial a dicho turno en
                                                                         el tribunal por parte de un funcionario (a evaluar por cada tribunal).
 
-
 ## 1.8.2 Dotación mínima
 
-                                                                        En fase 2 se considerará una asistencia máxima de personal en cada
+**Definición Canónica:** En fase 2 se considerará una asistencia máxima de personal en cada
+                                                                        tribunal, conforme a su dotación y a las personas exceptuadas de
+                                                                        asistir, conforme al protocolo de retorno seguro a los tribunales del
+                                                                        país. Esto, a excepción de los días en que se requiera más apoyo de
+                                                                        personal presencial, por ejemplo, por visi
+
+En fase 2 se considerará una asistencia máxima de personal en cada
                                                                         tribunal, conforme a su dotación y a las personas exceptuadas de
                                                                         asistir, conforme al protocolo de retorno seguro a los tribunales del
                                                                         país. Esto, a excepción de los días en que se requiera más apoyo de
@@ -2709,18 +2631,27 @@ nociones básicas                                                        Tribuna
                                                                   —        Se encuentren o no la persona en el grupo de riesgo definido
                                                                            por la CAPJ, si continuara la alerta sanitaria.
 
-
 ## 1.8.3 Retorno masivo
 
-                                                                  Esta opción está contemplada para una fecha posterior a abril de 2021
+**Definición Canónica:** Esta opción está contemplada para una fecha posterior a abril de 2021
                                                                   y conforme tanto a las evaluaciones que se realicen durante dicho
                                                                   mes, como a la opción de acceder al teletrabajo ordinario, según las
                                                                   condiciones sanitarias y el cumplimento de la función judicial.
 
+Esta opción está contemplada para una fecha posterior a abril de 2021
+                                                                  y conforme tanto a las evaluaciones que se realicen durante dicho
+                                                                  mes, como a la opción de acceder al teletrabajo ordinario, según las
+                                                                  condiciones sanitarias y el cumplimento de la función judicial.
 
 ## 1.8.4 Medidas de resguardo
 
-                                                                  Para el trabajo presencial se tomarán y certificarán todas las medidas
+**Definición Canónica:** Para el trabajo presencial se tomarán y certificarán todas las medidas
+                                                                  de higiene y seguridad contempladas en el protocolo COVID-19,
+                                                                  entre ellas señalética alusiva, lavado de manos obligatorio, uso de
+                                                                  alcohol gel, distanciamiento social por paneles, uso de mascarilla
+                                                                  obligatoria, etcétera.
+
+Para el trabajo presencial se tomarán y certificarán todas las medidas
                                                                   de higiene y seguridad contempladas en el protocolo COVID-19,
                                                                   entre ellas señalética alusiva, lavado de manos obligatorio, uso de
                                                                   alcohol gel, distanciamiento social por paneles, uso de mascarilla
@@ -2734,52 +2665,64 @@ nociones básicas                                                        Tribuna
 
                                                       Bibliografía
 
-
-## 1.   Acta 93-2005: Auto Acordado Relativo al Fun-
-
-                                                           cionamiento de los Juzgados de Familia. Disponi-
-                                                           ble en: http://autoacordados.pjud.cl/
-
-
 ## 2.   Acta 71-2016: Auto Acordado que Regula el Fun-
 
-                                                           cionamiento de Tribunales que Tramitan Electró-
+**Definición Canónica:** cionamiento de Tribunales que Tramitan Electró-
                                                            nicamente. Disponibles en: http://autoacordados.
                                                            pjud.cl/
 
+cionamiento de Tribunales que Tramitan Electró-
+                                                           nicamente. Disponibles en: http://autoacordados.
+                                                           pjud.cl/
 
 ## 3.   PODER JUDICIAL (s/a): Descripciones de car-
 
-                                                           gos de los tribunales del país: Tribunal de Familia
+**Definición Canónica:** gos de los tribunales del país: Tribunal de Familia
                                                            Tamaño Mayor. Disponible en: sitio web del Poder
                                                            Judicial
 
+gos de los tribunales del país: Tribunal de Familia
+                                                           Tamaño Mayor. Disponible en: sitio web del Poder
+                                                           Judicial
 
 ## 4.   PODER JUDICIAL (2020): Protocolo de Manejo y
 
-
-                                                           Prevención ante Covid-19 en tribunales y unida-
+**Definición Canónica:** Prevención ante Covid-19 en tribunales y unida-
                                                            des judiciales. Disponible en la intranet del Poder
                                                            Judicial.
 
+Prevención ante Covid-19 en tribunales y unida-
+                                                           des judiciales. Disponible en la intranet del Poder
+                                                           Judicial.
 
 ## 5.   Acta 41-2020: Auto Acordado que regula el
 
-                                                           Teletrabajo y el uso de Videoconferencia en el
+**Definición Canónica:** Teletrabajo y el uso de Videoconferencia en el
                                                            Poder Judicial. Disponible en la intranet del Poder
                                                            Judicial.
 
+Teletrabajo y el uso de Videoconferencia en el
+                                                           Poder Judicial. Disponible en la intranet del Poder
+                                                           Judicial.
 
 ## 6.   Acta 51-2020: Auto Acordado que fija el Proto-
 
-                                                           colo para el anuncio y alegatos en los tribunales
+**Definición Canónica:** colo para el anuncio y alegatos en los tribunales
                                                            durante el Estado de catástrofe. Disponible en el
                                                            sitio web del Poder Judicial.
 
+colo para el anuncio y alegatos en los tribunales
+                                                           durante el Estado de catástrofe. Disponible en el
+                                                           sitio web del Poder Judicial.
 
 ## 7.   Acta 53-2020: Auto Acordado sobre funciona-
 
-                                                           miento del Poder Judicial durante la emergencia
+**Definición Canónica:** miento del Poder Judicial durante la emergencia
+                                                           sanitaria nacional provocada por el brote del
+                                                           nuevo coronavirus. Disponible en el sitio web del
+                                                           Poder Judicial.
+
+miento del Poder Judicial durante la emergencia
                                                            sanitaria nacional provocada por el brote del
                                                            nuevo coronavirus. Disponible en el sitio web del
                                                            Poder Judicial.
@@ -2858,19 +2801,3 @@ nociones básicas           de procedimientos
                                                                           durante la
                                                                           contingencia
                                                                           provocada por
-
-## Covid-19
-
-
-                                                                                                                      ir al vínculo
-
-
-## Serie de
-
-Tribunales de Familia:                                    DOCUMENTOS   93
-nociones básicas                                          MATERIALES
-
-## Docentes
-
-
-   Academia Judicial de Chile | www.academiajudicial.cl

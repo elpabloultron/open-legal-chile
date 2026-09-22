@@ -13,14 +13,10 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## De la responsabilidad de los profesionales
-
-
-## Liberales en general y de la responsabilidad de
-
-
 ## Los medicos en particular
 
+**Definición Canónica:** 1.- De la responsabilidad de los profesionales liberales en general.
+**Concordancias Legales:** artículo 2006; artículo 2007; artículos 2006; artículo 2118; artículos 2118; artículo 1546; artículo 1999
 
 1.- De la responsabilidad de los profesionales liberales en general.
 
@@ -56,6 +52,13 @@ pertenecen a ella (artículo 1546).
        Concretamente, se aplicará el artículo 1999, que se remite al artículo
 
 ## 2006. El mismo artículo 1999 rige para las profesiones que se regulan por
+
+**Definición Canónica:** las reglas del mandato, con las graduaciones del artículo 2129 (según si se
+trate de un mandato remunerado, donde la responsabilidad será “más
+estricta”, o si estemos ante un mandato asumido contra la voluntad del
+mandatario, donde se responderá en forma “menos estricta”, aunque en
+ambos casos, dentro del rango de la culpa leve, según lo que estudiamos).
+**Concordancias Legales:** artículo 2129; artículo 2125; artículo 2; artículo 1449; artículo 2329 del Código Civil. En el derecho penal; artículo 202 del Código Penal; artículo 345 del Código Penal; artículo 494; artículo 491 del Código Penal; artículo 2329 del Código Civil y el artículo 491 del Código Pen; artículo 1526; constitución
 
 las reglas del mandato, con las graduaciones del artículo 2129 (según si se
 trate de un mandato remunerado, donde la responsabilidad será “más

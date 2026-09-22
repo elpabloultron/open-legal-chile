@@ -13,36 +13,17 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** General | **Materia:** General
 
-## Derechos reales limitados1
-
-Sumario:
-
-## I.- generalidades
-
-
-## Ii.- la propiedad fiduciaria
-
-1.- Definición
-2.- Origen
-3.- Constitución del fideicomiso
-4.- Efectos de la propiedad fiduciaria
-5.- Extinción del fideicomiso
-
-## Iii.- el usufructo
-
-1.- Concepto
-2.- Características
-3.- Elementos del usufructo
-4.- Constitución del usufructo
-5.- Efectos del usufructo
-6.- Extinción del usufructo
-
-## Iv.- el derecho de uso y de habitación
-
-1.- Definición
-2.- Características
-
 ## V.- las servidumbres
+
+**Definición Canónica:** 1.- Concepto
+2.- Elementos
+3.- Características
+4.- Clasificación
+5.- Importancia de las clasificaciones de servidumbres aparentes e inaparentes, continuas y
+discontinuas.
+6.- Ejercicio del derecho de servidumbre
+7.- Clases de servidumbres según su origen
+8.- Extinción de las servidumbres
 
 1.- Concepto
 2.- Elementos
@@ -54,11 +35,18 @@ discontinuas.
 7.- Clases de servidumbres según su origen
 8.- Extinción de las servidumbres
 
-
 ## I.-        generalidades
 
+**Definición Canónica:** El dominio estará limitado cada vez que le falte alguna de sus características
+esenciales.
+       Estas limitaciones pueden ser legales (por ejemplo: el usufructo o derecho legal de
+goce del padre o madre sobre los bienes del hijo; las servidumbres legales) o voluntarias,
+cuando han sido establecidas por un hecho del hombre en virtud de un acto jurídico.
+       En general, se puede decir que el dominio se encuentra limitado toda vez que se
+haya constituido sobre una cosa un derecho real a favor de una persona que no sea el dueño.
+**Concordancias Legales:** artículo 732
 
-       El dominio estará limitado cada vez que le falte alguna de sus características
+El dominio estará limitado cada vez que le falte alguna de sus características
 esenciales.
        Estas limitaciones pueden ser legales (por ejemplo: el usufructo o derecho legal de
 goce del padre o madre sobre los bienes del hijo; las servidumbres legales) o voluntarias,
@@ -80,9 +68,10 @@ facultades más limitadas que aquellas que otorga el dominio.
 fiduciaria, el usufructo, el uso o la habitación y las servidumbres. Los estudiaremos en el
 mismo orden.
 
-
 ## Ii.-   la propiedad fiduciaria
 
+**Definición Canónica:** 1.-    Definición
+**Concordancias Legales:** artículo 733; artículo 739; artículo 745; artículo 747; artículo 52 del Reglamento del Conservador; artículo 766; Constitución
 
 1.-    Definición
 
@@ -187,17 +176,11 @@ Falta de fiduciario: el o los propietarios fiduciarios deben existir en el momen
 constituirse el fideicomiso. La falta del fiduciario produce diversos efectos, según falte
 antes o después que se le defiera el derecho:
 
-## 1. Si falta antes que se le defiera el fideicomiso, hay que atender a si el constituyente
-
-designó o no sustitutos.
-
-## 1.1. Si falta el fiduciario y se ha designado sustituto (o sustitutos), la propiedad fiduciaria
-
-pasa a éste (o a éstos).
-1.2. Si no se designó sustitutos, es necesario distinguir si hay o no lugar al acrecimiento:
-artículo 750, lo que supone la designación de varios propietarios fiduciarios.
-
 ## 1.2.1. Opera el acrecimiento: de conformidad al art. 1148, el acrecimiento tiene lugar
+
+**Definición Canónica:** cuando han sido designados varios propietarios fiduciarios y han sido llamados todos juntos
+a la totalidad de la asignación fiduciaria, sin indicación de cuota. En virtud del
+acrecimiento, la porción del que falta se junta con las demás.
 
 cuando han sido designados varios propietarios fiduciarios y han sido llamados todos juntos
 a la totalidad de la asignación fiduciaria, sin indicación de cuota. En virtud del
@@ -205,11 +188,19 @@ acrecimiento, la porción del que falta se junta con las demás.
 
 ## 1.2.2. No opera el acrecimiento: si el constituyente no ha designado sustituto ni hay lugar a
 
+**Definición Canónica:** acrecimiento (ya sea porque hay un solo fiduciario, o habiendo varios, ha sido determinada
+la cuota de cada uno de ellos), dispone el art. 748 que el constituyente, que es dueño
+absoluto, pasa a ser propietario fiduciario si viviere, o sus herederos.
+
 acrecimiento (ya sea porque hay un solo fiduciario, o habiendo varios, ha sido determinada
 la cuota de cada uno de ellos), dispone el art. 748 que el constituyente, que es dueño
 absoluto, pasa a ser propietario fiduciario si viviere, o sus herederos.
 
 ## 2. Si falta el propietario fiduciario después de deferido el fideicomiso, se transmite la
+
+**Definición Canónica:** propiedad fiduciaria a sus herederos, con el gravamen de restituirla al fideicomisario, si se
+cumple la condición (art. 751). La propiedad fiduciaria es pues transmisible.
+**Concordancias Legales:** artículo 793; artículo 758; artículos 795; artículos 796; artículo 739; artículo 760; artículo 1372; artículo 763; artículo 764 del Código Civil; artículo 580; artículo 765; artículo 773; artículo 732; artículo 764; artículo 789; artículo 915; artículo 582; artículo 772; artículo 769; artículo 770; artículos 770; artículo 768; artículos 1072; artículo 810; artículo 250; artículo 1140; artículo 89; artículo 767; artículos 686 del Código Civil y 52 N; artículo 766; artículo 2512 del Código Civil; artículo 9; artículo 1337; Artículo 782; Artículo 785; Artículo 787; Artículo 781; Artículo 790; artículo 792; Artículo 794
 
 propiedad fiduciaria a sus herederos, con el gravamen de restituirla al fideicomisario, si se
 cumple la condición (art. 751). La propiedad fiduciaria es pues transmisible.
@@ -1173,9 +1164,10 @@ el título que lo constituyó (artículo 814).
 f) El usuario o habitador deben ejercitar su derecho con la moderación y cuidado de un
 buen padre de familia (artículo 818).
 
-
 ## V.-    las servidumbres
 
+**Definición Canónica:** 1.- Concepto.
+**Concordancias Legales:** artículo 568; artículo 825; artículo 885; artículo 831; artículo 824; artículo 822; artículo 823; artículos 828; constitución
 
 1.- Concepto.
 
@@ -1301,6 +1293,13 @@ hay que atenerse a su fuente originaria: art 884.
         De todas maneras, hay que tener presente lo dispuesto en los artículos 828, 829, y
 
 ## 830. Esta última disposición, y otras, como por ejemplo el artículo 833, se encuentran
+
+**Definición Canónica:** inspiradas en el principio romano denominado comportamiento civiliter, por el cual, en el
+ejercicio de un derecho, el dueño del predio dominante debe procurar el mínimo de
+perjuicio, evitando toda molestia o embarazo innecesario en el predio sirviente. Es la
+contraparte de la conducta que se pide al dueño del predio sirviente: debe abstenerse de
+efectuar obras o actos que perturben el ejercicio de la Servidumbre
+**Concordancias Legales:** artículo 839; artículo 823 inciso 2; artículos 851; artículo 854; artículo 2.309; artículo 850; artículos 882; artículo 698; Constitucion; constitución
 
 inspiradas en el principio romano denominado comportamiento civiliter, por el cual, en el
 ejercicio de un derecho, el dueño del predio dominante debe procurar el mínimo de
@@ -1544,7 +1543,18 @@ de la servidumbre, por lo que debe contener las precisiones necesarias para su e
 
 ## 52 Nº 2). Excepcionalmente, la tradición de la servidumbre de alcantarillado
 
-            sobre un predio urbano, debe efectuarse mediante la inscripción del título
+**Definición Canónica:** sobre un predio urbano, debe efectuarse mediante la inscripción del título
+            respectivo.
+b.2) Por sentencia judicial: artículo 880.
+        Las leyes, en general, no contemplan casos de servidumbres a establecerse por
+sentencia judicial, dado que las sentencias son declarativas y no atributivas de derechos.
+Por lo demás, en tales situaciones, no podría hablarse en realidad de servidumbres
+voluntarias, pues se impondrían por el sentenciador. En el Código Civil se encuentra un
+caso de servidumbre establecida por sentencia, tratándose del fallo que recae en la partición
+de bienes (1.337
+**Concordancias Legales:** artículo 880; artículo 881; artículo 1491; artículo 886; constitución
+
+sobre un predio urbano, debe efectuarse mediante la inscripción del título
             respectivo.
 b.2) Por sentencia judicial: artículo 880.
         Las leyes, en general, no contemplan casos de servidumbres a establecerse por

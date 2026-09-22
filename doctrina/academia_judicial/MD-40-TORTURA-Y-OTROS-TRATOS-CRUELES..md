@@ -13,20 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Judicial | **Materia:** General
 
-## 40           Tortura y otros
-
-             tratos crueles.
-
-## Colección
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Tramitación
+             Reflexiones
+                  electrónica
+             sustantivas
+                  de causas
+             y prácticas
+             Tania Gajardo Orellana
+             Tatiana Vargas Pinto
 
-                  Tramitación
+Tramitación
              Reflexiones
                   electrónica
              sustantivas
@@ -87,39 +85,9 @@ Materiales Docentes                                                      ﻿
 
 Contenido
 
-
-## 5       Introducción
-
-
-## 7       Capítulo 1
-
-        Obligaciones para los Estados provenientes
-        de las Convenciones contra la Tortura y otros
-        Tratos Crueles, Inhumanos o Degradantes
-
-## 32      Capítulo 2
-
-        Recomendaciones del Comité el 2018 y cumplimiento
-        de las obligaciones por parte de Chile
-
-## 81      Capítulo 3
-
-        Víctimas especialmente vulnerables ante la tortura u otros
-        tratos crueles inhumanos o degradantes
-
-## 97      Capítulo 4
-
-        Rol de los jueces de Juzgados de Garantía y de Tribunales
-        de Juicio Oral en Lo Penal en el cumplimiento de la
-        Convención y del Protocolo Facultativo
-
-## 122     Capítulo 5
-
-        Propuesta de sistema de delitos de violencia institucional
-        y de aplicación de las penas
-
 ## 145     Referencias
 
+**Definición Canónica:** Materiales Docentes                                                  Introducción
 
 Materiales Docentes                                                  Introducción
 
@@ -168,8 +136,12 @@ en este ámbito.
 Academia Judicial de Chile                       Tortura y otros tratos crueles
 Materiales Docentes                                                  Capítulo 1
 
-
 ## Capítulo 1
+
+**Definición Canónica:** Obligaciones para los Estados provenientes
+de las Convenciones contra la Tortura y otros
+Tratos Crueles, Inhumanos o Degradantes
+**Concordancias Legales:** artículo 27; artículo 55 de la Carta en cuanto a promover el respeto univers; artículos 5 de la Declaración Universal de Derechos Humanos y e; artículo 7 del Pacto Internacional de Derechos Civiles y Pol; artículos 2; Artículo 2
 
 Obligaciones para los Estados provenientes
 de las Convenciones contra la Tortura y otros
@@ -244,30 +216,15 @@ adecuar sus legislaciones en materias que se llamarán sustantivas, así:
 
        Artículo 2
 
-## 1. Todo Estado parte tomará medidas legislativas, administrativas, ju-
-
-      diciales o de otra índole eficaces para impedir los actos de tortura en
-      todo territorio que esté bajo su jurisdicción.
-
-## 2. En ningún caso podrán invocarse circunstancias excepcionales tales
-
-      como estado de guerra o amenaza de guerra, inestabilidad política inter-
-      na o cualquier otra emergencia pública como justificación de la tortura.
-
-## 3. No podrá invocarse una orden de un funcionario superior o de una
-
-      autoridad pública como justificación de la tortura.
-
-       Artículo 3
-
-## 1. Ningún Estado parte procederá a la expulsión, devolución o extradi-
-
-      ción de una persona a otro Estado cuando haya razones fundadas para
-      creer que estaría en peligro de ser sometida a tortura.
-
 ## 2. A los efectos de determinar si existen esas razones, las autoridades
 
-      competentes tendrán en cuenta todas las consideraciones pertinentes,
+**Definición Canónica:** competentes tendrán en cuenta todas las consideraciones pertinentes,
+      inclusive, cuando proceda, la existencia en el Estado de que se trate de
+      un cuadro persistente de violaciones manifiestas, patentes o masivas de
+      los derechos humanos.
+**Concordancias Legales:** Artículo 4
+
+competentes tendrán en cuenta todas las consideraciones pertinentes,
       inclusive, cuando proceda, la existencia en el Estado de que se trate de
       un cuadro persistente de violaciones manifiestas, patentes o masivas de
       los derechos humanos.
@@ -276,24 +233,27 @@ adecuar sus legislaciones en materias que se llamarán sustantivas, así:
 
 ## 1. Todo Estado parte velará porque todos los actos de tortura consti-
 
-      tuyan delitos conforme a su legislación penal. Lo mismo se aplicará a
+**Definición Canónica:** tuyan delitos conforme a su legislación penal. Lo mismo se aplicará a
+
+tuyan delitos conforme a su legislación penal. Lo mismo se aplicará a
 
 Materiales Docentes                                                       Capítulo 1
 
       toda tentativa de cometer tortura y a todo acto de cualquier persona que
       constituya complicidad o participación en la tortura.
 
-## 2. Todo Estado parte castigará esos delitos con penas adecuadas en las
-
-      que se tenga en cuenta su gravedad.
-
-  Estas obligaciones, por su parte, están estrechamente relacionadas al
-concepto de tortura que se señala en el artículo 1:
-
-
 ## 1. A los efectos de la presente Convención, se entenderá por el término
 
-      «tortura» todo acto por el cual se inflija intencionadamente a una per-
+**Definición Canónica:** «tortura» todo acto por el cual se inflija intencionadamente a una per-
+      sona dolores o sufrimientos graves, ya sean físicos o mentales, con el fin
+      de obtener de ella o de un tercero información o una confesión, de cas-
+      tigarla por un acto que haya cometido, o se sospeche que ha cometido, o
+      de intimidar o coaccionar a esa persona o a otras, o por cualquier razón
+      basada en cualquier tipo de discriminación, cuando dichos dolores o
+      sufrimientos sean infligidos por un funcionario público u otra persona
+      en el ejercicio de funciones públicas, a instigación su
+
+«tortura» todo acto por el cual se inflija intencionadamente a una per-
       sona dolores o sufrimientos graves, ya sean físicos o mentales, con el fin
       de obtener de ella o de un tercero información o una confesión, de cas-
       tigarla por un acto que haya cometido, o se sospeche que ha cometido, o
@@ -307,7 +267,11 @@ concepto de tortura que se señala en el artículo 1:
 
 ## 2. El presente artículo se entenderá sin perjuicio de cualquier instru-
 
-      mento internacional o legislación nacional que contenga o pueda conte-
+**Definición Canónica:** mento internacional o legislación nacional que contenga o pueda conte-
+      ner disposiciones de mayor alcance.
+**Concordancias Legales:** artículo 7 del Pacto Internacional; Artículo 7; artículo 1 de la Convención se adoptó una definición autónoma; artículo 4; artículo 1 de la Con; artículo 1; artículo 1 de la Convención; Artículo 5
+
+mento internacional o legislación nacional que contenga o pueda conte-
       ner disposiciones de mayor alcance.
 
    La influencia europea se aprecia en los elementos que definen a la
@@ -443,7 +407,17 @@ siguientes mandatos:
 
 ## 1. Todo Estado parte dispondrá lo que sea necesario para instituir su
 
-      jurisdicción sobre los delitos a que se refiere el artículo 4 en los siguien-
+**Definición Canónica:** jurisdicción sobre los delitos a que se refiere el artículo 4 en los siguien-
+      tes casos:
+       a) Cuando los delitos se cometan en cualquier territorio bajo su ju-
+      risdicción o a bordo de una aeronave o un buque matriculados en ese
+      Estado;
+       b) Cuando el presunto delincuente sea nacional de ese Estado;
+       c) Cuando la víctima sea nacional de ese Estado y este lo considere
+      apropiado.
+**Concordancias Legales:** artículo 4
+
+jurisdicción sobre los delitos a que se refiere el artículo 4 en los siguien-
       tes casos:
        a) Cuando los delitos se cometan en cualquier territorio bajo su ju-
       risdicción o a bordo de una aeronave o un buque matriculados en ese
@@ -454,22 +428,30 @@ siguientes mandatos:
 
 ## 2. Todo Estado parte tomará, asimismo, las medidas necesarias para
 
-      establecer su jurisdicción sobre estos delitos en los casos en que el pre-
+**Definición Canónica:** establecer su jurisdicción sobre estos delitos en los casos en que el pre-
+      sunto delincuente se halle en cualquier territorio bajo su jurisdicción
+      y dicho Estado no conceda la extradición, con arreglo al artículo 8, a
+      ninguno de los Estados previstos en el párrafo 1 del presente artículo.
+**Concordancias Legales:** artículo 8
+
+establecer su jurisdicción sobre estos delitos en los casos en que el pre-
       sunto delincuente se halle en cualquier territorio bajo su jurisdicción
       y dicho Estado no conceda la extradición, con arreglo al artículo 8, a
       ninguno de los Estados previstos en el párrafo 1 del presente artículo.
 
-## 3. La presente Convención no excluye ninguna jurisdicción penal ejer-
-
-      cida de conformidad con las leyes nacionales.
-
-Materiales Docentes                                                        Capítulo 1
-
-        Artículo 6
-
 ## 1. Todo Estado parte en cuyo territorio se encuentre la persona de la
 
-      que se supone que ha cometido cualquiera de los delitos a que se hace
+**Definición Canónica:** que se supone que ha cometido cualquiera de los delitos a que se hace
+      referencia en el artículo 4, si, tras examinar la información de que dispo-
+      ne, considera que las circunstancias lo justifican, procederá a la deten-
+      ción de dicha persona o tomará otras medidas para asegurar su presen-
+      cia. La detención y demás medidas se llevarán a cabo de conformidad
+      con las leyes de tal Estado y se mantendrán solamente por el período
+      que sea necesario a fin de permitir la iniciación de un procedimiento
+      penal o de extradición.
+**Concordancias Legales:** artículo 4
+
+que se supone que ha cometido cualquiera de los delitos a que se hace
       referencia en el artículo 4, si, tras examinar la información de que dispo-
       ne, considera que las circunstancias lo justifican, procederá a la deten-
       ción de dicha persona o tomará otras medidas para asegurar su presen-
@@ -478,20 +460,29 @@ Materiales Docentes                                                        Capí
       que sea necesario a fin de permitir la iniciación de un procedimiento
       penal o de extradición.
 
-## 2. Tal Estado procederá inmediatamente a una investigación prelimi-
-
-      nar de los hechos.
-
 ## 3. La persona detenida de conformidad con el párrafo 1 del presente
 
-      artículo tendrá toda clase de facilidades para comunicarse inmediata-
+**Definición Canónica:** artículo tendrá toda clase de facilidades para comunicarse inmediata-
+      mente con el representante correspondiente del Estado de su naciona-
+      lidad que se encuentre más próximo o, si se trata de un apátrida, con el
+      representante del Estado en que habitualmente resida.
+
+artículo tendrá toda clase de facilidades para comunicarse inmediata-
       mente con el representante correspondiente del Estado de su naciona-
       lidad que se encuentre más próximo o, si se trata de un apátrida, con el
       representante del Estado en que habitualmente resida.
 
 ## 4. Cuando un Estado, en virtud del presente artículo, detenga a una
 
-      persona, notificará inmediatamente tal detención y las circunstancias
+**Definición Canónica:** persona, notificará inmediatamente tal detención y las circunstancias
+      que la justifican a los Estados a que se hace referencia en el párrafo 1 del
+      artículo 5. El Estado que proceda a la investigación preliminar prevista
+      en el párrafo 2 del presente artículo comunicará sin dilación sus resul-
+      tados a los Estados antes mencionados e indicará si se propone ejercer
+      su jurisdicción.
+**Concordancias Legales:** artículo 5; Artículo 13; artículo 6
+
+persona, notificará inmediatamente tal detención y las circunstancias
       que la justifican a los Estados a que se hace referencia en el párrafo 1 del
       artículo 5. El Estado que proceda a la investigación preliminar prevista
       en el párrafo 2 del presente artículo comunicará sin dilación sus resul-
@@ -523,6 +514,15 @@ por tortura, ya sea para investigarlas o extraditarlas, lo que se verá en la
 
 ## parte de cooperación internacional. Por último, se obligan a reconocer
 
+**Definición Canónica:** el derecho de todas las personas a presentar una denuncia por hechos
+que constituyan tortura y su pronta investigación. Esta obligación es relevante para quienes ejercen la judicatura ya que les atañe directamente.
+El protocolo más relevante en materia de investigación de tortura es
+el de Estambul (Oficina del Alto Comisionado de las Naciones Unidas
+para los Derechos Humanos, 2004) que se verá en profundidad en el
+apartado del rol de los jueces. También se verá cómo se complementa
+esta obligación en el protocolo facultativo y en otros instrumentos internacionales y nacionales.
+**Concordancias Legales:** Artículo 3
+
 el derecho de todas las personas a presentar una denuncia por hechos
 que constituyan tortura y su pronta investigación. Esta obligación es relevante para quienes ejercen la judicatura ya que les atañe directamente.
 El protocolo más relevante en materia de investigación de tortura es
@@ -535,14 +535,15 @@ Obligaciones de cooperación internacional
 
        Artículo 3
 
-## 1. Ningún Estado parte procederá a la expulsión, devolución o extradi-
-
-      ción de una persona a otro Estado cuando haya razones fundadas para
-      creer que estaría en peligro de ser sometida a tortura.
-
 ## 2. A los efectos de determinar si existen esas razones, las autoridades
 
-      competentes tendrán en cuenta todas las consideraciones pertinentes,
+**Definición Canónica:** competentes tendrán en cuenta todas las consideraciones pertinentes,
+      inclusive, cuando proceda, la existencia en el Estado de que se trate de
+      un cuadro persistente de violaciones manifiestas, patentes o masivas de
+      los derechos humanos.
+**Concordancias Legales:** Artículo 7
+
+competentes tendrán en cuenta todas las consideraciones pertinentes,
       inclusive, cuando proceda, la existencia en el Estado de que se trate de
       un cuadro persistente de violaciones manifiestas, patentes o masivas de
       los derechos humanos.
@@ -551,67 +552,80 @@ Obligaciones de cooperación internacional
 
 ## 1. El Estado parte en el territorio de cuya jurisdicción sea hallada la
 
-      persona de la cual se supone que ha cometido cualquiera de los delitos
+**Definición Canónica:** persona de la cual se supone que ha cometido cualquiera de los delitos
+      a que se hace referencia en el artículo 4, en los supuestos previstos en el
+      artículo 5, si no procede a su extradición, someterá el caso a sus autori-
+      dades competentes a efectos de enjuiciamiento.
+**Concordancias Legales:** artículo 4; artículo 5
+
+persona de la cual se supone que ha cometido cualquiera de los delitos
       a que se hace referencia en el artículo 4, en los supuestos previstos en el
       artículo 5, si no procede a su extradición, someterá el caso a sus autori-
       dades competentes a efectos de enjuiciamiento.
 
 Materiales Docentes                                                        Capítulo 1
 
-
 ## 2. Dichas autoridades tomarán su decisión en las mismas condiciones
 
-      que las aplicables a cualquier delito de carácter grave, de acuerdo con
+**Definición Canónica:** que las aplicables a cualquier delito de carácter grave, de acuerdo con
+      la legislación de tal Estado. En los casos previstos en el párrafo 2 del
+      artículo 5, el nivel de las pruebas necesarias para el enjuiciamiento o
+      inculpación no será en modo alguno menos estricto que el que se aplica
+      en los casos previstos en el párrafo 1 del artículo 5.
+**Concordancias Legales:** artículo 5
+
+que las aplicables a cualquier delito de carácter grave, de acuerdo con
       la legislación de tal Estado. En los casos previstos en el párrafo 2 del
       artículo 5, el nivel de las pruebas necesarias para el enjuiciamiento o
       inculpación no será en modo alguno menos estricto que el que se aplica
       en los casos previstos en el párrafo 1 del artículo 5.
 
-## 3. Toda persona encausada en relación con cualquiera de los delitos
-
-      mencionados en el artículo 4 recibirá garantías de un trato justo en to-
-      das las fases del procedimiento.
-
-       Artículo 8
-
 ## 1. Los delitos a que se hace referencia en el artículo 4 se considerarán
 
-      incluidos entre los delitos que dan lugar a extradición en todo tratado de
+**Definición Canónica:** incluidos entre los delitos que dan lugar a extradición en todo tratado de
+      extradición celebrado entre Estados parte. Los Estados parte se compro-
+      meten a incluir dichos delitos como caso de extradición en todo tratado
+      de extradición que celebren entre sí en el futuro.
+
+incluidos entre los delitos que dan lugar a extradición en todo tratado de
       extradición celebrado entre Estados parte. Los Estados parte se compro-
       meten a incluir dichos delitos como caso de extradición en todo tratado
       de extradición que celebren entre sí en el futuro.
 
 ## 2. Todo Estado parte que subordine la extradición a la existencia de
 
-      un tratado, si recibe de otro Estado parte con el que no tiene tratado al
+**Definición Canónica:** un tratado, si recibe de otro Estado parte con el que no tiene tratado al
       respecto una solicitud de extradición podrá considerar la presente Con-
       vención como la base jurídica necesaria para la extradición referente a
       tales delitos. La extradición estará sujeta a las demás condiciones exigi-
       bles por el derecho del Estado requerido.
 
-## 3. Los Estados parte que no subordinen la extradición a la existencia de
-
-      un tratado reconocerán dichos delitos como casos de extradición entre
-      ellos, a reserva de las condiciones exigidas por el derecho del Estado
-      requerido.
+un tratado, si recibe de otro Estado parte con el que no tiene tratado al
+      respecto una solicitud de extradición podrá considerar la presente Con-
+      vención como la base jurídica necesaria para la extradición referente a
+      tales delitos. La extradición estará sujeta a las demás condiciones exigi-
+      bles por el derecho del Estado requerido.
 
 ## 4. A los fines de la extradición entre Estados parte, se considerará que
 
-      los delitos se han cometido, no solamente en el lugar donde ocurrieron,
+**Definición Canónica:** los delitos se han cometido, no solamente en el lugar donde ocurrieron,
+      sino también en el territorio de los Estados obligados a establecer su
+      jurisdicción de acuerdo con el párrafo 1 del artículo 5.
+**Concordancias Legales:** artículo 5; Artículo 9
+
+los delitos se han cometido, no solamente en el lugar donde ocurrieron,
       sino también en el territorio de los Estados obligados a establecer su
       jurisdicción de acuerdo con el párrafo 1 del artículo 5.
 
        Artículo 9
 
-## 1. Los Estados parte se prestarán todo el auxilio posible en lo que res-
-
-      pecta a cualquier procedimiento penal relativo a los delitos previstos en
-      el artículo 4, inclusive el suministro de todas las pruebas necesarias para
-      el proceso que obren en su poder.
-
 ## 2. Los Estados parte cumplirán las obligaciones que les incumben en
 
-      virtud del párrafo 1 del presente artículo de conformidad con los trata-
+**Definición Canónica:** virtud del párrafo 1 del presente artículo de conformidad con los trata-
+      dos de auxilio judicial mutuo que existan entre ellos.
+**Concordancias Legales:** artículo 3
+
+virtud del párrafo 1 del presente artículo de conformidad con los trata-
       dos de auxilio judicial mutuo que existan entre ellos.
 
 Materiales Docentes                                                          Capítulo 1
@@ -639,8 +653,13 @@ autor de actos de tortura no depende de la existencia previa de una solicitud de
    En el caso de la Convención contra la Tortura está zanjado que la
 elección entre enjuiciar en el país donde se encuentra la persona o extraditar, surge solamente cuando hay una solicitud de extradición. Si no
 
-
 ## 4 CAT, Observación general número 1: aplicación del artículo 3 en relación con el
+
+**Definición Canónica:** artículo 22 de la Convención (16 de septiembre de 1998), Doc. ONU A/53/44, anexo
+IX, § 2 (Cabe señalar que, en el momento de la redacción de este informe, el Comité estaba desarrollando una Observación general sobre el artículo 3). Ver también
+CCPR, Observación General 31 (80o período de sesiones, 2004), artículo 2: naturaleza de la obligación jurídica general impuesta a los Estados parte en el Pacto, Doc.
+ONU A/59/40 (2004) 175, § 12.
+**Concordancias Legales:** artículo 22 de la Convención; artículo 3; artículo 2
 
 artículo 22 de la Convención (16 de septiembre de 1998), Doc. ONU A/53/44, anexo
 IX, § 2 (Cabe señalar que, en el momento de la redacción de este informe, el Comité estaba desarrollando una Observación general sobre el artículo 3). Ver también
@@ -648,6 +667,9 @@ CCPR, Observación General 31 (80o período de sesiones, 2004), artículo 2: nat
 ONU A/59/40 (2004) 175, § 12.
 
 ## 5 CAT, Guengueng y otros con Senegal, Comunicación 181/2001, Doc. ONU CAT/
+
+**Definición Canónica:** C/36/D/181/2001 de 19 de mayo de 2006, § 9.7.
+**Concordancias Legales:** Artículo 10
 
 C/36/D/181/2001 de 19 de mayo de 2006, § 9.7.
 
@@ -668,7 +690,14 @@ recíproca en asuntos penales (ONU, 2016).
 
 ## 1. Todo Estado parte velará por que se incluyan una educación y una
 
-      información completas sobre la prohibición de la tortura en la forma-
+**Definición Canónica:** información completas sobre la prohibición de la tortura en la forma-
+      ción profesional del personal encargado de la aplicación de la ley, sea
+      este civil o militar, del personal médico, de los funcionarios públicos y
+      otras personas que puedan participar en la custodia, el interrogatorio
+      o el tratamiento de cualquier persona sometida a cualquier forma de
+      arresto, detención o prisión.
+
+información completas sobre la prohibición de la tortura en la forma-
       ción profesional del personal encargado de la aplicación de la ley, sea
       este civil o militar, del personal médico, de los funcionarios públicos y
       otras personas que puedan participar en la custodia, el interrogatorio
@@ -677,7 +706,11 @@ recíproca en asuntos penales (ONU, 2016).
 
 ## 2. Todo Estado parte incluirá esta prohibición en las normas o instruc-
 
-      ciones que se publiquen en relación con los deberes y funciones de esas
+**Definición Canónica:** ciones que se publiquen en relación con los deberes y funciones de esas
+      personas.
+**Concordancias Legales:** Artículo 11; Artículo 12; artículo 10; artículo 1; artículo 5; artículos 1
+
+ciones que se publiquen en relación con los deberes y funciones de esas
       personas.
 
        Artículo 11
@@ -770,8 +803,14 @@ del Sistema Regional Americano.
 que la del Sistema de Naciones Unidas. En esta se incluye «el uso de métodos sobre una persona con la intención de anular la personalidad de la
 víctima o de disminuir su capacidad física o mental, incluso si no causa
 
-
 ## 8 Además de las convenciones aquí citadas, en el contexto europeo el artículo 3 de
+
+**Definición Canónica:** la Convención para la Protección de los Derechos Humanos y las Libertades Fundamentales establece que «nadie debe ser sometido a torturas u otros tratos o penas
+inhumanos o degradantes». Esta disposición se inspiró en el artículo 5 de la Declaración Universal de los Derechos humanos que, con una redacción prácticamente
+idéntica, dispone que «nadie debe ser sometido a tortura u otros tratos, crueles,
+inhumanos o degradantes». De acuerdo con lo previsto por los artículos 15.1 y 15.2
+de la Convención Europea, los Estados Parte no pueden derogar la prohibición prevista por el artículo 3 ni siquier
+**Concordancias Legales:** artículo 5 de la Declaración Universal de los Derechos humanos; artículos 15.1; artículo 3
 
 la Convención para la Protección de los Derechos Humanos y las Libertades Fundamentales establece que «nadie debe ser sometido a torturas u otros tratos o penas
 inhumanos o degradantes». Esta disposición se inspiró en el artículo 5 de la Declaración Universal de los Derechos humanos que, con una redacción prácticamente
@@ -780,12 +819,16 @@ inhumanos o degradantes». De acuerdo con lo previsto por los artículos 15.1 y 
 de la Convención Europea, los Estados Parte no pueden derogar la prohibición prevista por el artículo 3 ni siquiera en tiempos de guerra o de otro tipo de emergencia
 pública que amenace la existencia de la Nación.
 
-## 9 Chile planteó reservas a la Convención, las que fueron retiradas en mayo de
-
-1990. Disponible en https://bit.ly/3I2pnvL.
-
 ## 10 Véase https://bit.ly/3I70MWs
 
+**Definición Canónica:** dolor físico o angustia mental», lo que no está presente en la del Sistema
+de Naciones Unidas (Bueno, 2003: 6).
+   La Convención Americana si bien toma como modelo indudable la
+Convención de Naciones Unidas, presenta diferencias interesantes que
+son relevantes a la hora de comprender las obligaciones que implican
+para el Estado suscriptor. En el Sistema Interamericano deja de tener un
+lugar preponderante el grado de sufrimiento o la intensidad de este provocado a la víctima pues no refiere a la gravedad si no que solo a los sufrimientos ya sean físicos o mentales. La Convención va más allá y o
+**Concordancias Legales:** artículo 1; Artículo 2; Artículo 3; Artículo 4; Artículo 5; Artículo 6; constitucion
 
 dolor físico o angustia mental», lo que no está presente en la del Sistema
 de Naciones Unidas (Bueno, 2003: 6).
@@ -873,6 +916,17 @@ ampliación es que no se ciñe a un número taxativo de finalidades por
 
 ## parte del sujeto activo lo que constituye una diferencia muy relevante
 
+**Definición Canónica:** con el sistema universal.
+   En cuanto a los sujetos activos es muy similar al Sistema de Naciones Unidas, solo que especifica una órbita también un poco más amplia
+de tipificación al agregar como agentes a las personas no funcionarias
+públicas que a instigación de estas ordenen, instiguen o induzcan a su
+comisión, lo cometan directamente o sean cómplices. Es decir, no solo
+los funcionarios públicos podrían inducir o instigar, sino que también
+los particulares podrían hacerlo bajo inducción o instigación de los funcionarios, contemplando una cadena bastante amplia de sujetos activos
+posibles.
+
+**Concordancias Legales:** artículo 2
+
 con el sistema universal.
    En cuanto a los sujetos activos es muy similar al Sistema de Naciones Unidas, solo que especifica una órbita también un poco más amplia
 de tipificación al agregar como agentes a las personas no funcionarias
@@ -894,8 +948,10 @@ a caso, tomando en cuenta las peculiaridades de este, la duración del
 sufrimiento, los efectos físicos y mentales sobre cada víctima específica
 y las circunstancias personales de la víctima».11
 
-
 ## 11 Comisión Interamericana de Derechos Humanos, Informe 35/96, Caso 10.832
+
+**Definición Canónica:** «Luis Lizardo Cabrera» (República Dominicana), 7 de abril de 1998, párrafo 81.
+**Concordancias Legales:** Artículo 6; artículo 1; Artículo 8; Artículo 12; artículo 11; Artículo 13; artículo 2; Artículo 14; Artículo 15; Artículo 7; artículos 150; Ley 20.968; constitucion
 
 «Luis Lizardo Cabrera» (República Dominicana), 7 de abril de 1998, párrafo 81.
 
@@ -1097,6 +1153,15 @@ el proyecto mutó considerablemente. Ya no se eliminaban los artículos
 
 ## 150 A y B, ni se introducía un nuevo párrafo, sino que se modificaban los
 
+**Definición Canónica:** artículos 150 A y B y se agregaban otros artículos 150 nuevos.
+   Entre el segundo y tercer trámite constitucional las modificaciones
+no fueron tan profundas, publicándose la Ley el 22 de noviembre de
+2016. Las principales discusiones se centraron en el sujeto activo, las finalidades y la situación de las víctimas. Durante los siguientes capítulos
+se desarrollará con mayor profundidad los cambios que se introdujeron
+con la Ley 20.968 al tipo penal de tortura y en general al sistema de delitos de violencia institucional.
+   El año 2016, mediante la entrada en vigor de la Ley 20.968, se tipificó
+**Concordancias Legales:** artículos 150; Ley 20.968; constitucion
+
 artículos 150 A y B y se agregaban otros artículos 150 nuevos.
    Entre el segundo y tercer trámite constitucional las modificaciones
 no fueron tan profundas, publicándose la Ley el 22 de noviembre de
@@ -1111,8 +1176,11 @@ correcta prevención y aplicación por parte de la judicatura.
 
 Materiales Docentes                                                      Capítulo 2
 
-
 ## Capítulo 2
+
+**Definición Canónica:** Recomendaciones del Comité el 2018 y
+cumplimiento de las obligaciones por parte de Chile
+**Concordancias Legales:** artículo 150; Ley 20.968
 
 Recomendaciones del Comité el 2018 y
 cumplimiento de las obligaciones por parte de Chile
@@ -1138,10 +1206,13 @@ contra la Tortura realizó algunas críticas a la nueva tipificación introducid
 y al final del apartado se tratarán las recomendaciones relacionadas con
 la persecución:
 
-
 ## 10. El Comité considera que la nueva tipificación del delito de tortura
 
-      introducida por la Ley 20.968 en el artículo 150 A del Código Penal se
+**Definición Canónica:** introducida por la Ley 20.968 en el artículo 150 A del Código Penal se
+      corresponde en buena medida a lo dispuesto en el artículo 1 de la Con-
+**Concordancias Legales:** artículo 150; artículo 1 de la Con; artículos 1; Ley 20.968
+
+introducida por la Ley 20.968 en el artículo 150 A del Código Penal se
       corresponde en buena medida a lo dispuesto en el artículo 1 de la Con-
 
       vención, aunque no abarca los actos de tortura cometidos con el fin de
@@ -1158,10 +1229,17 @@ la persecución:
 
   Consecuente con la observación, el Comité propone a Chile lo siguiente:
 
-
 ## 11. El Comité insta al Estado parte a modificar el tipo penal del artícu-
 
-      lo 150 A del Código Penal para que incluya expresamente los actos de
+**Definición Canónica:** lo 150 A del Código Penal para que incluya expresamente los actos de
+      tortura cometidos con el fin de intimidar o coaccionar a un tercero. El
+      Estado parte debe también asegurarse de que los delitos de tortura se
+      castiguen con penas adecuadas a su gravedad, de conformidad con el
+      artículo 4, párrafo 2, de la Convención. Además, el Comité insta al Esta-
+      do parte a que derogue la prescripción del delito de tortura.
+**Concordancias Legales:** artículo 4; artículo 150; Ley 19.567
+
+lo 150 A del Código Penal para que incluya expresamente los actos de
       tortura cometidos con el fin de intimidar o coaccionar a un tercero. El
       Estado parte debe también asegurarse de que los delitos de tortura se
       castiguen con penas adecuadas a su gravedad, de conformidad con el
@@ -1175,8 +1253,14 @@ tipo de tormento y rigor innecesario. Recién en 1998 la Ley 19.567 introdujo un
 apremios ilegítimos como conductas alternativas y respecto de personas
 privadas de libertad (anterior artículo 150 A).1
 
-
 ## 1 La figura original castigaba con presidio o reclusión menores y suspensión en
+
+**Definición Canónica:** cualquiera de sus grados, a «1 Los que decretaren o prolongaren indebidamente la
+incomunicación de un reo, le aplicaren tormentos o usaren con él de un rigor innecesario. Si de la aplicación de los tormentos o el rigor innecesariamente empleado
+resultaren lesiones o la muerte del paciente, se aplicarán al responsable las penas
+señaladas a estos delitos en sus grados máximos. 2 Los que arbitrariamente hicieren
+arrestar o detener en otros lugares que los designados por la ley».
+**Concordancias Legales:** Ley 20.968
 
 cualquiera de sus grados, a «1 Los que decretaren o prolongaren indebidamente la
 incomunicación de un reo, le aplicaren tormentos o usaren con él de un rigor innecesario. Si de la aplicación de los tormentos o el rigor innecesariamente empleado
@@ -1187,6 +1271,16 @@ arrestar o detener en otros lugares que los designados por la ley».
    La reforma de 2016, con la Ley 20.968, separa las torturas (artículo
 
 ## 150 A) de los apremios ilegítimos (artículo 150 D) aunque contempla
+
+**Definición Canónica:** características y elementos comunes que no facilitan la distinción entre
+ambos ilícitos. Los límites no son claros.
+   El tipo de torturas vigente se define sobre la base de la provocación
+de «dolores o sufrimientos graves» por cualquier clase de conducta, con
+especial distinción del sufrimiento sexual. La víctima ya no exige estar
+privada de libertad, pero para establecer la tortura es clave el contexto,
+las finalidades, y los agentes.
+   Así el artículo 150 A señala:
+**Concordancias Legales:** artículo 150; artículos 5; Ley 20.968; Ley 20.066
 
 características y elementos comunes que no facilitan la distinción entre
 ambos ilícitos. Los límites no son claros.
@@ -1257,6 +1351,11 @@ violencia, Mensaje número 307-364 de 2016, propone la inclusión de la libertad
 indemnidad sexual.
 
 ## 4 Artículo 150 C. «En los casos previstos en los artículos 150 A y 150 B se excluirá
+
+**Definición Canónica:** el mínimum o el grado mínimo de la pena señalada, según corresponda, al que
+torture a otro que se encuentre, legítima o ilegítimamente, privado de libertad, o en
+cualquier caso bajo su cuidado, custodia o control».
+**Concordancias Legales:** artículo 150; artículos 361; artículo 490
 
 el mínimum o el grado mínimo de la pena señalada, según corresponda, al que
 torture a otro que se encuentre, legítima o ilegítimamente, privado de libertad, o en
@@ -1334,6 +1433,9 @@ caso concreto, que destaca su relevancia al determinar ya la conducta típica.
 
 ## 8 La palabra infligir remite a castigo, que lleva a la hipótesis de tormento; aunque
 
+**Definición Canónica:** las torturas ahora no se restringen a esta.
+**Concordancias Legales:** artículo 150
+
 las torturas ahora no se restringen a esta.
 
 Materiales Docentes                                                            Capítulo 2
@@ -1401,8 +1503,10 @@ de torturas. Ello es especialmente evidente cuando el legislador nacional
 debe excluir ciertos dolores, los que serían inherentes a determinadas
 conductas legítimas, específicamente los castigos que proceden conforme a la ley. De este modo, el tipo deja fuera de las torturas «las molestias
 
-
 ## 11 Se trata de un poder más bien fáctico y no de una posición de garante, pues es
+
+**Definición Canónica:** una omisión propia.
+**Concordancias Legales:** artículo 150; artículo 260 del CP. Se requiere; artículo 1.1 de la CADH. Destacan los funcionarios públicos que; artículo 15
 
 una omisión propia.
 
@@ -1498,6 +1602,13 @@ En principio, puede apreciarse dos menciones subjetivas en el artículo
 
 ## 150 A, cuando define torturas. La primera se refiere a la intención en las
 
+**Definición Canónica:** modalidades de torturas, ya sea por infligir «intencionalmente»13 dolor
+o sufrimiento grave a una persona o por la aplicación «intencional» de
+los métodos que además tienden a anular la personalidad, disminuir la
+voluntad o la capacidad de discernimiento o decisión.
+   Esta primera exigencia subjetiva remite al conocimiento de las conductas, activas u omisivas y la búsqueda de sus particulares efectos. Se-
+**Concordancias Legales:** artículo 1; artículo 150; artículo 12
+
 modalidades de torturas, ya sea por infligir «intencionalmente»13 dolor
 o sufrimiento grave a una persona o por la aplicación «intencional» de
 los métodos que además tienden a anular la personalidad, disminuir la
@@ -1577,6 +1688,9 @@ discapacidad que padezca».
 
 ## 16 Desde ya puede advertirse una diferencia con apremios ilegítimos de calidad y
 
+**Definición Canónica:** de cantidad.
+**Concordancias Legales:** artículo 150
+
 de cantidad.
 
    El aspecto individual que caracteriza a la tortura reclama un examen
@@ -1602,8 +1716,10 @@ género.
 en Chile, se revisará brevemente cada una de las demás figuras penales
 que forman parte del sistema de delitos de violencia institucional.
 
-
 ## 17 Otra cuestión ocurre con la reciente incorporación del femicidio no íntimo en
+
+**Definición Canónica:** el artículo 390 ter, que parece confundir el sexo femenino con género y con orientación sexual.
+**Concordancias Legales:** artículo 390 ter; artículo 150; artículo 330 del CJM
 
 el artículo 390 ter, que parece confundir el sexo femenino con género y con orientación sexual.
 
@@ -1678,6 +1794,9 @@ la dificultad será establecer cuándo se da la agravación de esta figura
 
 ## 19 Esta exclusión también se contempla en la vejación injusta del artículo 255, que
 
+**Definición Canónica:** se explica por su menor injusto.
+**Concordancias Legales:** artículo 150
+
 se explica por su menor injusto.
 
 de apremios o tratos crueles, inhumanos o degradantes y cuándo existe
@@ -1705,8 +1824,12 @@ ser torturas,20 la idea de un apremio ilegítimo y las referencias a la crueldad
 o sufrimientos graves.
    Además, en esos casos el agente también se ha de buscar tales apre-
 
-
 ## 20 Se evidencia que la distinción del legislador de 2016 sigue en este punto las
+
+**Definición Canónica:** disposiciones de la Convención, en orden a separar los tratos o penas crueles, inhumanos o degradantes que no lleguen a ser tortura (artículo 16). Esta descripción
+es la que prima a la hora de ver solo una diferencia de gravedad entre torturas y
+apremios ilegítimos.
+**Concordancias Legales:** artículo 16; artículo 150; artículos 150; artículo 25522
 
 disposiciones de la Convención, en orden a separar los tratos o penas crueles, inhumanos o degradantes que no lleguen a ser tortura (artículo 16). Esta descripción
 es la que prima a la hora de ver solo una diferencia de gravedad entre torturas y
@@ -1768,8 +1891,12 @@ pero lo es en cuanto supone un ataque menor a la integridad personal
 por la dirección que aquí falta, que termina de explicar el nivel y cualidad de los sufrimientos que configuran las torturas, según se verá al examinar las consideraciones subjetivas y la determinación del sufrimiento
 grave con atención a la víctima.
 
-
 ## 22 Artículo 255 inciso segundo: «Si la conducta descrita en el inciso precedente se
+
+**Definición Canónica:** cometiere en contra de una persona menor de edad o en situación de vulnerabilidad
+por discapacidad, enfermedad o vejez; o en contra de una persona que se encuentre
+bajo el cuidado, custodia o control del empleado público, la pena se aumentará en
+un grado».
 
 cometiere en contra de una persona menor de edad o en situación de vulnerabilidad
 por discapacidad, enfermedad o vejez; o en contra de una persona que se encuentre
@@ -1777,6 +1904,9 @@ bajo el cuidado, custodia o control del empleado público, la pena se aumentará
 un grado».
 
 ## 23 Antes de la modificación de 2016, incluso se consideran como formas genéricas
+
+**Definición Canónica:** frente a una específica que corresponde a la tortura.
+**Concordancias Legales:** artículo 255; artículo 150; artículo 255 del CP bajo un título dis; Ley 20.968; Constitución
 
 frente a una específica que corresponde a la tortura.
 
@@ -1850,13 +1980,20 @@ garantidos por la Constitución. Independiente de estar situados bajo categoría
 ser coherente, según lo expresado en la tramitación de la Ley 20.968 y de
 los que se desprenden algunas características comunes.25
 
-
 ## 24 BCN, Historia de la Ley 20.968, (p.30): «El objetivo era incrementar la pena del
+
+**Definición Canónica:** delito de vejaciones injustas del artículo 255 de dicho Código, elevándose de suspensión del empleo y multa de once a veinte unidades tributarias mensuales a reclusión
+menor en su grado mínimo a medio». Disponible en https://bit.ly/3NwxfGX.
+**Concordancias Legales:** artículo 255
 
 delito de vejaciones injustas del artículo 255 de dicho Código, elevándose de suspensión del empleo y multa de once a veinte unidades tributarias mensuales a reclusión
 menor en su grado mínimo a medio». Disponible en https://bit.ly/3NwxfGX.
 
 ## 25 Todos pueden ser solo cometidos por funcionarios públicos, o por quien ejerza
+
+**Definición Canónica:** funciones de tal. Todos incorporan una cláusula de cierre según la que solo se cometen si se trata de sanciones ilegítimas o ilegales. Los tres implican la agravación de
+la pena cuando la víctima es menor de edad. En los artículos 150 D y 255 se expresa
+**Concordancias Legales:** artículos 150; artículo 255; Artículo 23 del Reglamento de Carabineros disponible en https; Artículo 2 del Reglamento Penitenciario; Constitución Política
 
 funciones de tal. Todos incorporan una cláusula de cierre según la que solo se cometen si se trata de sanciones ilegítimas o ilegales. Los tres implican la agravación de
 la pena cuando la víctima es menor de edad. En los artículos 150 D y 255 se expresa
@@ -2015,17 +2152,30 @@ a ser llevados ante un juez sin demora.
 funcionarios que intervienen y definir los respectivos delitos. En este
 sentido, interesan:
 
-
 ## 12. El Comité lamenta la escasa información disponible sobre las salva-
 
-      guardias y normas de procedimiento aplicables a las personas privadas
+**Definición Canónica:** guardias y normas de procedimiento aplicables a las personas privadas
+      de libertad reconocidas en la legislación del Estado parte, así como so-
+      bre los procedimientos existentes para garantizar el respeto en la prácti-
+      ca de dichas disposiciones.
+
+guardias y normas de procedimiento aplicables a las personas privadas
       de libertad reconocidas en la legislación del Estado parte, así como so-
       bre los procedimientos existentes para garantizar el respeto en la prácti-
       ca de dichas disposiciones.
 
 ## 13. El Estado parte debe adoptar medidas eficaces para garantizar que
 
-      todos los detenidos gocen, en la ley y en la práctica, de todas las salva-
+**Definición Canónica:** todos los detenidos gocen, en la ley y en la práctica, de todas las salva-
+      guardias fundamentales desde el inicio mismo de su privación de liber-
+      tad de conformidad con las normas internacionales, en particular: el
+      derecho a ser asistidos sin demora por un abogado, a requerir y tener
+      acceso inmediato a un médico independiente, aparte de cualquier exa-
+      men médico que pueda realizarse a petición de las autoridades, a ser
+      informados de las razones de su detención y de la naturaleza de los car-
+      gos que se les imputan en un idioma que comprendan, a que se r
+
+todos los detenidos gocen, en la ley y en la práctica, de todas las salva-
       guardias fundamentales desde el inicio mismo de su privación de liber-
       tad de conformidad con las normas internacionales, en particular: el
       derecho a ser asistidos sin demora por un abogado, a requerir y tener
@@ -2041,16 +2191,28 @@ sentido, interesan:
       de vigilancia, y que estas estén a disposición de los investigadores, los
       detenidos y los abogados.
 
-
 ## 28. Como reconoció la delegación, las condiciones inadecuadas de re-
 
-      clusión en las cárceles son uno de los principales problemas del sistema
+**Definición Canónica:** clusión en las cárceles son uno de los principales problemas del sistema
+      penitenciario, llegando en ocasiones a ser constitutivas de malos tratos.
+      Es por ello que el Comité valora los esfuerzos realizados por el Estado
+
+clusión en las cárceles son uno de los principales problemas del sistema
       penitenciario, llegando en ocasiones a ser constitutivas de malos tratos.
       Es por ello que el Comité valora los esfuerzos realizados por el Estado
 
 ## parte para mejorar esas condiciones y reducir la sobreocupación de los
 
-      centros de detención, en particular mediante la ampliación y reacondi-
+**Definición Canónica:** centros de detención, en particular mediante la ampliación y reacondi-
+      cionamiento de las instalaciones existentes, la construcción y apertura
+      de nuevos establecimientos penitenciarios y la actualización de la nor-
+      mativa sobre medidas alternativas a las penas privativas o restrictivas de
+      la libertad. Sin embargo, el Comité sigue preocupado por los informes
+      que indican sobreocupación en muchos recintos penitenciarios, en par-
+      ticular en las regiones de Atacama, Metropolitana y Valparaíso.
+**Concordancias Legales:** artículos 11
+
+centros de detención, en particular mediante la ampliación y reacondi-
       cionamiento de las instalaciones existentes, la construcción y apertura
       de nuevos establecimientos penitenciarios y la actualización de la nor-
       mativa sobre medidas alternativas a las penas privativas o restrictivas de
@@ -2103,10 +2265,19 @@ esfuerzos desde el Estado de Chile para darles cumplimiento:
 
    Respecto del régimen disciplinario:
 
-
 ## 30. Conforme a las explicaciones ofrecidas por la delegación sobre la
 
-      aplicación de sanciones disciplinarias a reclusos, en ningún caso se dan
+**Definición Canónica:** aplicación de sanciones disciplinarias a reclusos, en ningún caso se dan
+      situaciones de aislamiento prolongado y la internación en celda solita-
+      ria no supera los dos días, si bien el Reglamento de Establecimientos
+      Penitenciarios establece un límite de diez días. No obstante, preocupan
+      al Comité los informes en los que se señalan malas condiciones de salu-
+      bridad e higiene y deficiencias en el suministro de agua para el aseo en
+      las celdas utilizadas para el aislamiento de reclusos. Otro motivo de pre-
+      ocupación es el contenido del inciso i) del artícul
+**Concordancias Legales:** artículo 81 del Reglamento de Establecimientos Penitenc; artículos 11
+
+aplicación de sanciones disciplinarias a reclusos, en ningún caso se dan
       situaciones de aislamiento prolongado y la internación en celda solita-
       ria no supera los dos días, si bien el Reglamento de Establecimientos
       Penitenciarios establece un límite de diez días. No obstante, preocupan
@@ -2120,7 +2291,11 @@ esfuerzos desde el Estado de Chile para darles cumplimiento:
 
 ## 31. El Estado parte debe velar por que el régimen de aislamiento se uti-
 
-      lice únicamente en casos excepcionales, como último recurso, durante
+**Definición Canónica:** lice únicamente en casos excepcionales, como último recurso, durante
+      el menor tiempo posible y con sujeción a una revisión independiente, y
+      únicamente con el permiso de la autoridad competente, de conformidad
+
+lice únicamente en casos excepcionales, como último recurso, durante
       el menor tiempo posible y con sujeción a una revisión independiente, y
       únicamente con el permiso de la autoridad competente, de conformidad
 
@@ -2136,10 +2311,19 @@ esfuerzos desde el Estado de Chile para darles cumplimiento:
 
    Con relación a la justicia juvenil, se ha de tener presente:
 
-
 ## 32. Si bien toma nota de los esfuerzos realizados por el Estado parte
 
-      para mejorar el sistema de justicia juvenil, el Comité mantiene su preo-
+**Definición Canónica:** para mejorar el sistema de justicia juvenil, el Comité mantiene su preo-
+      cupación por las informaciones relativas a malos tratos e imposición de
+      castigos colectivos en el Centro de Internación Provisoria para adoles-
+      centes en la Comuna de San Joaquín, en Santiago (véase párrafos 103 a
+      113). También preocupan las informaciones sobre la ocurrencia de suici-
+      dios en los centros de internamiento de menores, así como altos índices
+      de violencia ligada a la sobreocupación de estas instituciones (artículos
+      2, 11 y 16).
+**Concordancias Legales:** artículos 2
+
+para mejorar el sistema de justicia juvenil, el Comité mantiene su preo-
       cupación por las informaciones relativas a malos tratos e imposición de
       castigos colectivos en el Centro de Internación Provisoria para adoles-
       centes en la Comuna de San Joaquín, en Santiago (véase párrafos 103 a
@@ -2150,7 +2334,14 @@ esfuerzos desde el Estado de Chile para darles cumplimiento:
 
 ## 33. El Estado parte debe investigar y procesar a los responsables de ma-
 
-      los tratos a menores privados de libertad. También debe adoptar me-
+**Definición Canónica:** los tratos a menores privados de libertad. También debe adoptar me-
+      didas dirigidas a reducir la sobreocupación de los centros de interna-
+      ción de menores y a prevenir y reducir la violencia entre los internos.
+      Además, el Estado parte debe revisar la eficacia de los programas de
+      prevención de suicidios que se siguen en estos centros, y recopilar datos
+      detallados al respecto.
+
+los tratos a menores privados de libertad. También debe adoptar me-
       didas dirigidas a reducir la sobreocupación de los centros de interna-
       ción de menores y a prevenir y reducir la violencia entre los internos.
       Además, el Estado parte debe revisar la eficacia de los programas de
@@ -2162,10 +2353,17 @@ muertes en custodia son un antecedente grave en la determinación de
 posibles conductas de tortura y preocupan al Comité. En este sentido, es
 elemental la observación 34.
 
-
 ## 34. El Comité observa con preocupación el número de muertes en cus-
 
-      todia que, conforme a los datos facilitados por el Estado parte, ascendió
+**Definición Canónica:** todia que, conforme a los datos facilitados por el Estado parte, ascendió
+      a un total de 1.262 casos entre 2010 y junio de 2018, y lamenta no haber
+      recibido datos estadísticos completos desglosados por lugar de reclu-
+      sión, sexo, edad y origen étnico o nacionalidad del fallecido y causa del
+      deceso.
+       Además, preocupa al Comité que, según la información proporciona-
+**Concordancias Legales:** artículos 2
+
+todia que, conforme a los datos facilitados por el Estado parte, ascendió
       a un total de 1.262 casos entre 2010 y junio de 2018, y lamenta no haber
       recibido datos estadísticos completos desglosados por lugar de reclu-
       sión, sexo, edad y origen étnico o nacionalidad del fallecido y causa del
@@ -2229,10 +2427,20 @@ las denuncias de tortura, malos tratos y abuso sexual en los centros residencial
 recogidos por la Defensoría de la Niñez en su informe del año 2019, a
 propósito de los hechos relacionados con el estallido social.30
 
-
 ## 36. El Comité expresa su profunda preocupación ante el número de
 
-      muertes de niños, niñas y adolescentes registradas en la red de centros
+**Definición Canónica:** muertes de niños, niñas y adolescentes registradas en la red de centros
+      residenciales del Servicio Nacional de Menores (Sename) y sus organis-
+      mos colaboradores durante el periodo objeto de examen.
+       Conforme a la información proporcionada por el Estado parte, 256
+      menores fallecieron entre enero de 2005 y junio de 2016 en centros ad-
+      ministrados directamente por el Sename y otros centros residenciales
+      subvencionados por este ente y gestionados por organismos colabora-
+      dores acreditados. Si bien toma nota de las explicaciones proporciona-
+      das por e
+**Concordancias Legales:** artículo 13 del Protocolo facultativo de la Convención sobre; artículos 2
+
+muertes de niños, niñas y adolescentes registradas en la red de centros
       residenciales del Servicio Nacional de Menores (Sename) y sus organis-
       mos colaboradores durante el periodo objeto de examen.
        Conforme a la información proporcionada por el Estado parte, 256
@@ -2302,10 +2510,19 @@ que investigan, por la posible facilidad y frecuencia en su producción,
 es el obtener confesiones mediante coacción. Al respecto, se ha de tener
 presente la observación 20 y la 21 del Comité.
 
-
 ## 20. Si bien toma nota de las disposiciones del Código Procesal Penal
 
-      relativas a la inadmisibilidad de los elementos de prueba obtenidos con
+**Definición Canónica:** relativas a la inadmisibilidad de los elementos de prueba obtenidos con
+      inobservancia de garantías fundamentales, el Comité lamenta que el
+      Estado parte no haya proporcionado información sobre las decisiones
+      adoptadas por los tribunales chilenos de rechazar como prueba las con-
+      fesiones obtenidas bajo tortura. Respecto de este tipo de situaciones, es
+      motivo de especial preocupación el caso de José Peralino Huinca, con-
+      denado junto a otras dos personas, todos ellos miembros del pueblo ma-
+      puche, por la muerte en 2013 del matrimonio Luchsinger Mackay y q
+**Concordancias Legales:** artículo 15
+
+relativas a la inadmisibilidad de los elementos de prueba obtenidos con
       inobservancia de garantías fundamentales, el Comité lamenta que el
       Estado parte no haya proporcionado información sobre las decisiones
       adoptadas por los tribunales chilenos de rechazar como prueba las con-
@@ -2318,7 +2535,16 @@ presente la observación 20 y la 21 del Comité.
 
 ## 21. El Estado parte debe adoptar medidas efectivas que aseguren en la
 
-      práctica la inadmisibilidad de las confesiones o declaraciones obtenidas
+**Definición Canónica:** práctica la inadmisibilidad de las confesiones o declaraciones obtenidas
+      mediante tortura o malos tratos, salvo cuando se invoquen contra una
+      persona acusada de tortura como prueba de que se hizo la declaración.
+      También debe ampliar los programas de formación profesional dirigi-
+      dos a jueces y fiscales, a fin de que sean capaces de detectar e investigar
+      eficazmente todas las denuncias de tortura y malos tratos, y en parti-
+      cular fortalecer su capacidad institucional que les permita desestimar
+      declaraciones obtenidas bajo tortura.
+
+práctica la inadmisibilidad de las confesiones o declaraciones obtenidas
       mediante tortura o malos tratos, salvo cuando se invoquen contra una
       persona acusada de tortura como prueba de que se hizo la declaración.
       También debe ampliar los programas de formación profesional dirigi-
@@ -2336,10 +2562,20 @@ Materiales Docentes                                                       Capít
 les, sin perjuicio de revisar luego de modo particular el uso legítimo de
 la fuerza. Respecto de conductas que pueden configurar torturas, interesa la observación 22.
 
-
 ## 22. El Comité expresa su preocupación por los numerosos episodios de
 
-      brutalidad policial y uso excesivo de la fuerza por parte de las fuerzas
+**Definición Canónica:** brutalidad policial y uso excesivo de la fuerza por parte de las fuerzas
+      de seguridad contra manifestantes ocurridos durante el periodo obje-
+      to de examen. También son motivo de preocupación las informaciones
+      coincidentes en las que se denuncian malos tratos a manifestantes de-
+      tenidos, abusos policiales a miembros del pueblo mapuche en el marco
+      de allanamientos o redadas en sus comunidades y actos de violencia
+      sexual policial contra mujeres y niñas durante protestas estudiantiles.
+      Conforme a los datos incluidos por el Estado parte en su informe pe-
+  
+**Concordancias Legales:** artículos 2
+
+brutalidad policial y uso excesivo de la fuerza por parte de las fuerzas
       de seguridad contra manifestantes ocurridos durante el periodo obje-
       to de examen. También son motivo de preocupación las informaciones
       coincidentes en las que se denuncian malos tratos a manifestantes de-
@@ -2405,8 +2641,10 @@ un rol activo en la prevención de la tortura y otros delitos de violencia
 institucional. En ese sentido se mencionan los principales aspectos en
 los que se puede ejercer.33
 
-
 ## 33 Este punto se desarrolla más extensamente en el Material docente para jueces en
+
+**Definición Canónica:** materia de uso de la fuerza por parte de funcionarios encargados de hacer cumplir
+**Concordancias Legales:** artículo 80 del CPP con relación al artículo 85. Así; artículo 80; artículo 86 del Código Procesal Penal; artículo 93; artículo 102; artículo 8; artículo 94; artículo 97; artículos 93; artículos 34; artículo 95 del Código Procesal Penal regula esta acción cuya; artículo 21; artículo 3 del Protocolo facultativo de la Convención; artículo 2; Ley 20.084; constitucion; Constitución Política
 
 materia de uso de la fuerza por parte de funcionarios encargados de hacer cumplir
 
@@ -2580,10 +2818,17 @@ que el Estado parte todavía no cuente con un organismo de este tipo, a
 pesar de haber ratificado dicho instrumento en 2008 (artículo 2)».
    En este sentido en las recomendaciones se señala que:
 
-
 ## 7. El Comité urge al Estado parte a que establezca o designe un me-
 
-      canismo nacional de prevención de la tortura en cumplimiento de las
+**Definición Canónica:** canismo nacional de prevención de la tortura en cumplimiento de las
+      obligaciones internacionales contraídas. En este sentido, el Comité se-
+      ñala a la atención del Estado parte las Directrices relativas a los meca-
+      nismos nacionales de prevención desarrolladas por el Subcomité para
+      la Prevención de la Tortura y Otros Tratos o Penas Crueles, Inhumanos
+      o Degradantes (CAT/OP/12/5), conforme a las cuales los Estados par-
+**Concordancias Legales:** artículo 3 del Protocolo facultativo de la Convención contra; artículo 1; artículo 10 de la Ley establece una excepción de denuncia para; artículo 2; artículo 3; artículo 11 de la Ley señala que la infracción a la obligación; artículo 5; Ley 21.154; ley 20.405
+
+canismo nacional de prevención de la tortura en cumplimiento de las
       obligaciones internacionales contraídas. En este sentido, el Comité se-
       ñala a la atención del Estado parte las Directrices relativas a los meca-
       nismos nacionales de prevención desarrolladas por el Subcomité para
@@ -2793,10 +3038,19 @@ encargado de hacer cumplir la Ley
 En el ámbito de la reforma a la justicia militar señala que hay un cumplimiento parcial, y que falta restringir aún más la acción en Chile de dicha
 justicia especial. En ese sentido el Comité realizó la siguiente recomendación: Reforma del Sistema de Justicia Militar:
 
-
 ## 14. El Comité toma nota de la reforma en 2010 de la competencia de
 
-      los tribunales militares mediante la aprobación de la Ley 20.477, y su
+**Definición Canónica:** los tribunales militares mediante la aprobación de la Ley 20.477, y su
+      posterior modificación en 2016 por la Ley 20.968, en la que se establece
+      que, en ningún caso, los civiles y los menores de edad, que revistan cali-
+      dad de víctimas o de imputados, estarán sujetos a la competencia de los
+      tribunales militares. Sin embargo, como reconoce el Estado parte en su
+      informe periódico, este cambio normativo abarca un aspecto parcial de
+      las reformas que debe realizar el Estado en materia de justicia militar. En
+      efecto, según los informes de que dispone el Comit
+**Concordancias Legales:** artículos 2; Ley 20.477; Ley 20.968
+
+los tribunales militares mediante la aprobación de la Ley 20.477, y su
       posterior modificación en 2016 por la Ley 20.968, en la que se establece
       que, en ningún caso, los civiles y los menores de edad, que revistan cali-
       dad de víctimas o de imputados, estarán sujetos a la competencia de los
@@ -2816,7 +3070,14 @@ justicia especial. En ese sentido el Comité realizó la siguiente recomendació
 
 ## 15. El Comité insta al Estado a continuar la reforma del Sistema de
 
-      Justicia Militar, de conformidad con lo dispuesto por la Corte Intera-
+**Definición Canónica:** Justicia Militar, de conformidad con lo dispuesto por la Corte Intera-
+      mericana de Derechos Humanos en su sentencia Palamara Iribarne con
+      Chile, a fin de excluir en todo caso la competencia de la jurisdicción
+      militar para juzgar violaciones de derechos humanos y delitos contra
+      civiles en los que haya personal militar involucrado.
+**Concordancias Legales:** Ley 18.314
+
+Justicia Militar, de conformidad con lo dispuesto por la Corte Intera-
       mericana de Derechos Humanos en su sentencia Palamara Iribarne con
       Chile, a fin de excluir en todo caso la competencia de la jurisdicción
       militar para juzgar violaciones de derechos humanos y delitos contra
@@ -2860,10 +3121,19 @@ Preocupa al Comité la amplitud y vaguedad de la tipificación de los delitos de
 las siguientes recomendaciones en cuanto a la legislación antiterrorista
 nacional:
 
-
 ## 18. Si bien toma nota del contenido y estado actual del proyecto de ley
 
-      de reforma de la ley antiterrorista (Boletín número 9692-07, refundido
+**Definición Canónica:** de reforma de la ley antiterrorista (Boletín número 9692-07, refundido
+      con el Boletín número 9669-07), el Comité expresa su preocupación por
+      la amplitud y vaguedad de la tipificación de los delitos de terrorismo
+      contenida en la Ley 18.314, de 16 de mayo de 1984, modificada en 2010
+      por la Ley 20.467 (en adelante, Ley Antiterrorista). Le preocupa ade-
+      más la limitación de salvaguardias fundamentales y garantías procesales
+      que se contempla en dicha ley, como la posibilidad de ampliar hasta
+      diez días los plazos para poner a los detenidos a disposición del 
+**Concordancias Legales:** artículo 2; Ley 18.314; Ley 20.467
+
+de reforma de la ley antiterrorista (Boletín número 9692-07, refundido
       con el Boletín número 9669-07), el Comité expresa su preocupación por
       la amplitud y vaguedad de la tipificación de los delitos de terrorismo
       contenida en la Ley 18.314, de 16 de mayo de 1984, modificada en 2010
@@ -2886,14 +3156,22 @@ nacional:
 
 ## 19. El Comité insta al Estado parte a revisar y enmendar su legislación
 
-      para garantizar que los actos de terrorismo estén definidos de manera
+**Definición Canónica:** para garantizar que los actos de terrorismo estén definidos de manera
       precisa y estricta con una clara delimitación de los bienes jurídicos que
       se busca proteger, y que las personas privadas de libertad acusadas de
       actos terroristas tengan acceso a las salvaguardias básicas contra la tor-
       tura, entre ellas el derecho a comparecer sin demora ante un juez.
 
+para garantizar que los actos de terrorismo estén definidos de manera
+      precisa y estricta con una clara delimitación de los bienes jurídicos que
+      se busca proteger, y que las personas privadas de libertad acusadas de
+      actos terroristas tengan acceso a las salvaguardias básicas contra la tor-
+      tura, entre ellas el derecho a comparecer sin demora ante un juez.
 
 ## 36 El detalle de los protocolos de uso de la fuerza se trata en el material docente
+
+**Definición Canónica:** específico de uso de la fuerza.
+**Concordancias Legales:** Ley 18.314
 
 específico de uso de la fuerza.
 
@@ -2912,8 +3190,11 @@ Ley 18.314 artículo segundo, no se mencionan delitos contra la propiedad, a men
 
 Materiales Docentes                                                         Capítulo 3
 
-
 ## Capítulo 3
+
+**Definición Canónica:** Víctimas especialmente vulnerables ante la tortura
+u otros tratos crueles inhumanos o degradantes
+**Concordancias Legales:** artículo 150; artículo 255; artículos 2; artículo 12; artículo 361; artículo 362; artículo 365 bis; artículo 395; artículo 372 bis; artículo 390 bis; artículo 390 ter
 
 Víctimas especialmente vulnerables ante la tortura
 u otros tratos crueles inhumanos o degradantes
@@ -3186,6 +3467,13 @@ como: que los «tirarán al río» o «matarlos» si no hacen alguna acción.
 
 ## 3. Tratos degradantes: en los relatos se dieron a conocer hechos que
 
+**Definición Canónica:** afectaron emocionalmente a las y los adolescentes denunciantes. Así
+fueron obligados a comer comida de perros; las adolescentes fueron
+amarradas y tiradas a la basura; se les mojó con una manguera en el lugar de detención; no se les permitió acceso al baño por lo que tuvieron
+que hacer sus necesidades en el calabozo de la detención.
+   4. Irregularidades en el proceso de detención: se informó de situaciones irregulares en los procedimientos de detención, tales como la no lectura de derechos; no permitir llamar a los padres o algún familiar para
+informar de la detención; funcionarios policiales
+
 afectaron emocionalmente a las y los adolescentes denunciantes. Así
 fueron obligados a comer comida de perros; las adolescentes fueron
 amarradas y tiradas a la basura; se les mojó con una manguera en el lugar de detención; no se les permitió acceso al baño por lo que tuvieron
@@ -3198,6 +3486,13 @@ de lesiones; y la destrucción o no devolución injustificada y arbitraria de
 las pertenencias de las y los detenidos.
 
 ## 5. Lesiones a raíz de uso de perdigones: en las manifestaciones del
+
+**Definición Canónica:** último tiempo en el país ha sido de público conocimiento el uso de perdigones para dispersar a las personas y controlar el orden público. Lamentablemente, según información que fue levantada en el país por actores internacionales como Amnistía Internacional, y nacionales como
+el INDH y la Defensoría de la Niñez, muchos de estos perdigones lesionaron gravemente incluso causando la mutilación de adolescentes en el
+país.
+   6. Lanzamiento de bombas lacrimógenas al cuerpo: otra de las situaciones advertidas en los informes de los organismos señalados fue el
+lanzamiento de bombas lacrimógenas al cu
+**Concordancias Legales:** artículo 362; artículo 361; artículo 366 bis; artículo 366; artículo 367; artículo 363; artículo 403 bis
 
 último tiempo en el país ha sido de público conocimiento el uso de perdigones para dispersar a las personas y controlar el orden público. Lamentablemente, según información que fue levantada en el país por actores internacionales como Amnistía Internacional, y nacionales como
 el INDH y la Defensoría de la Niñez, muchos de estos perdigones lesionaron gravemente incluso causando la mutilación de adolescentes en el
@@ -3234,8 +3529,10 @@ que en el caso de adultos, como el estupro (artículo 363) o las recientes
 figuras de maltrato (artículo 403 bis). Aparecen condiciones de incriminación más reducidas que relevan la mayor gravedad de las conductas
 dirigidas a esas víctimas.
 
-
 ## 3 Tipologías recogidas en el Informe de la Defensoría de la Niñez, Informe de
+
+**Definición Canónica:** 2019. Disponible en https://bit.ly/3a2zd4m.
+**Concordancias Legales:** artículo 150; artículo 346; artículo 3; artículo 490; artículo 2 de la Convención contra la Tortura que atiende a es; artículo 255
 
 2019. Disponible en https://bit.ly/3a2zd4m.
 
@@ -3366,10 +3663,17 @@ el análisis de casos que siguen.
 
 Materiales Docentes                                                      Capítulo 3
 
-
 ## 38. El Comité expresa su preocupación por las informaciones recibi-
 
-      das acerca del trato vejatorio, incluido el uso frecuente de medios de
+**Definición Canónica:** das acerca del trato vejatorio, incluido el uso frecuente de medios de
+      inmovilización y de la medicación forzosa, y agresiones sexuales que
+      sufren las personas con discapacidad y de la tercera edad internadas
+      en establecimientos residenciales. Por ello, lamenta no haber recibido
+      información alguna sobre la investigación de estas denuncias (artículos
+      2, 12, 13 y 16).
+**Concordancias Legales:** artículos 2
+
+das acerca del trato vejatorio, incluido el uso frecuente de medios de
       inmovilización y de la medicación forzosa, y agresiones sexuales que
       sufren las personas con discapacidad y de la tercera edad internadas
       en establecimientos residenciales. Por ello, lamenta no haber recibido
@@ -3378,7 +3682,11 @@ Materiales Docentes                                                      Capítu
 
 ## 39. El Comité insta al Estado parte a investigar las denuncias de malos
 
-      tratos a personas con discapacidad y de la tercera edad internadas en
+**Definición Canónica:** tratos a personas con discapacidad y de la tercera edad internadas en
+      instituciones residenciales, así como todos los casos de muertes repenti-
+      nas acaecidas en estos centros.
+
+tratos a personas con discapacidad y de la tercera edad internadas en
       instituciones residenciales, así como todos los casos de muertes repenti-
       nas acaecidas en estos centros.
 
@@ -3386,10 +3694,18 @@ Inmigrantes y solicitantes de asilo.
 Especial referencia al principio de no devolución
 Con atención al principio de no devolución, se rescatan también algunas observaciones y recomendaciones.
 
-
 ## 2. El Comité considera que el plazo de 24 horas, contado desde el mo-
 
-      mento de la notificación, que establece el Decreto Ley 1.094, de 14 de
+**Definición Canónica:** mento de la notificación, que establece el Decreto Ley 1.094, de 14 de
+      julio de 1975, para la interposición de un recurso ante la Corte Suprema
+      contra una decisión de expulsión es excesivamente breve. Al respecto, el
+      Comité toma nota del proyecto de ley (Boletín 8970-06) de migración y
+      extranjería, actualmente en tramitación, que ampliaría dicho plazo a 48
+      horas, trasladando la tramitación de los recursos a las Cortes de Apela-
+      ciones, en única instancia (artículo 3).
+**Concordancias Legales:** artículo 3; Ley 1.094
+
+mento de la notificación, que establece el Decreto Ley 1.094, de 14 de
       julio de 1975, para la interposición de un recurso ante la Corte Suprema
       contra una decisión de expulsión es excesivamente breve. Al respecto, el
       Comité toma nota del proyecto de ley (Boletín 8970-06) de migración y
@@ -3399,7 +3715,19 @@ Con atención al principio de no devolución, se rescatan también algunas obser
 
 ## 43. El Comité insta al Estado parte a adoptar las medidas legislativas y
 
-      de otra índole necesarias a fin de:
+**Definición Canónica:** de otra índole necesarias a fin de:
+       a) Revisar la legislación vigente en materia de migración y extranjería,
+      a fin de ampliar el plazo para la presentación de recursos contra las de-
+      cisiones de expulsión;
+       b) Velar por que en la práctica ninguna persona pueda ser expulsada,
+      devuelta o extraditada a otro Estado cuando existan razones fundadas
+      para creer que correría el riesgo personal y previsible de ser sometida a
+      tortura;
+       c) Garantizar que todas las personas que se encuentren en su territorio
+      o bajo su jurisdicción tengan acceso efectiv
+**Concordancias Legales:** Ley 21.345
+
+de otra índole necesarias a fin de:
        a) Revisar la legislación vigente en materia de migración y extranjería,
       a fin de ampliar el plazo para la presentación de recursos contra las de-
       cisiones de expulsión;
@@ -3442,12 +3770,13 @@ de quienes ahí están recluidos.5
 
  4 Disponible en https://bit.ly/3a8Rg92.
 
-## 5 Asociación para la Prevención de la Tortura, Manual para el monitoreo de la
-
-detención migratoria, 2014. Disponible en https://bit.ly/3bvrfAQ.
-
-
 ## Capítulo 4
+
+**Definición Canónica:** Rol de los jueces de Juzgados de Garantía
+y de Tribunales de Juicio Oral en Lo Penal
+en el cumplimiento de la Convención
+y del Protocolo Facultativo
+**Concordancias Legales:** artículo 12 de la Convención la investigación también debe ser
 
 Rol de los jueces de Juzgados de Garantía
 y de Tribunales de Juicio Oral en Lo Penal
@@ -3469,12 +3798,13 @@ para los jueces en cuanto a su rol en el cumplimiento de la Convención
 y su Protocolo.
    En este apartado se considera el rol de los jueces tanto como juzgadores de hechos que puedan revestir caracteres de delitos de torturas u
 
-
-## 1 Folleto informativo número 17, Comité contra la Tortura, disponible en https://
-
-bit.ly/3ocgXJ7.
-
 ## 2 Principios relativos a la investigación y documentación eficaces de la tortura y
+
+**Definición Canónica:** otros tratos o penas crueles, inhumanos o degradantes, adoptados por la Asamblea
+General en su resolución 55/89 Anexo, de 4 de diciembre de 2000, disponible en
+https://bit.ly/3IOLCWz.
+ 3 Disponible en https://bit.ly/3aMOOW1.
+**Concordancias Legales:** artículos 150; artículo 1; Ley 21.057
 
 otros tratos o penas crueles, inhumanos o degradantes, adoptados por la Asamblea
 General en su resolución 55/89 Anexo, de 4 de diciembre de 2000, disponible en
@@ -3650,8 +3980,12 @@ Materiales Docentes                                                          Cap
      Adicionalmente, en estos casos elaborarán una minuta de pregun-
      tas que servirá de guía al personal policial encargado de la toma
 
-
 ## 6 Se realiza según el «Convenio sobre Protocolo interinstitucional de constatación
+
+**Definición Canónica:** de estado de salud de detenidos en proceso penal», suscrito el 8 de julio de 2013
+entre el Ministerio de Justicia, Poder Judicial, Ministerio Público, Defensoría Penal
+Pública, Carabineros de Chile, Policía de Investigaciones de Chile y Gendarmería
+de Chile.
 
 de estado de salud de detenidos en proceso penal», suscrito el 8 de julio de 2013
 entre el Ministerio de Justicia, Poder Judicial, Ministerio Público, Defensoría Penal
@@ -3806,10 +4140,19 @@ víctima.
 Derecho a reparación de las víctimas de tortura
 Respecto de la reparación a las víctimas de tortura, el Comité se preocupó especialmente de los juicios por casos ocurridos durante la dictadura.8 Luego de las observaciones que realiza son interesantes las recomendaciones que dirige al Estado para sus actuaciones presentes.
 
-
 ## 45. El Comité insta al Estado a que continúe el enjuiciamiento de cau-
 
-      sas relativas a violaciones de derechos humanos ocurridas durante la
+**Definición Canónica:** sas relativas a violaciones de derechos humanos ocurridas durante la
+      dictadura, y a garantizar que los autores de estos crímenes sean conde-
+      nados conforme a la gravedad de sus actos, velando por el cumplimien-
+      to efectivo de las penas que les sean impuestas. El Estado parte debe
+      también intensificar sus esfuerzos para recopilar sistemáticamente datos
+      relativos a los progresos realizados para esclarecer los casos de tortu-
+      ra y otras graves violaciones de derechos humanos cometidas durante
+      la dictadura, incluidas aquellas ocurridas en el marco de la Op
+**Concordancias Legales:** artículos 12
+
+sas relativas a violaciones de derechos humanos ocurridas durante la
       dictadura, y a garantizar que los autores de estos crímenes sean conde-
       nados conforme a la gravedad de sus actos, velando por el cumplimien-
       to efectivo de las penas que les sean impuestas. El Estado parte debe
@@ -3837,10 +4180,19 @@ Materiales Docentes                                                       Capít
 so amnistía, es importante advertir sobre las preocupaciones del Comité
 respecto de la vigencia del Decreto Ley de Amnistía 2.191, con la precisión de los especiales agentes y conductas a los que alude.
 
-
 ## 46. El Comité mantiene su preocupación por la vigencia del Decreto
 
-      Ley de Amnistía 2.191, de 18 de abril de 1978, pese a las explicaciones
+**Definición Canónica:** Ley de Amnistía 2.191, de 18 de abril de 1978, pese a las explicaciones
+      ofrecidas por la delegación sobre su inaplicación en la práctica judicial.
+      Si bien toma nota del contenido del proyecto de ley (Boletín número
+      4162-07) por el que se declara la nulidad de dicha norma, así como de la
+      reforma constitucional impulsada por el gobierno para impedir el uso
+      de leyes de amnistía en procesos judiciales relativos a violaciones de de-
+      rechos humanos del pasado (Boletines número 9748-07 y 9773-07), el
+      Comité lamenta que hasta la fecha no se hayan logrado avanc
+**Concordancias Legales:** artículo 2; Ley 19.992; constitucion
+
+Ley de Amnistía 2.191, de 18 de abril de 1978, pese a las explicaciones
       ofrecidas por la delegación sobre su inaplicación en la práctica judicial.
       Si bien toma nota del contenido del proyecto de ley (Boletín número
       4162-07) por el que se declara la nulidad de dicha norma, así como de la
@@ -3871,10 +4223,12 @@ dictadura.
    Sobre reparación tienen relevancia las consideraciones 52 y 53, con
 sus observaciones y recomendaciones.
 
-
 ## 52. El Comité observa con preocupación que, a pesar de las reiteradas
 
-      solicitudes que se le han remitido, el Estado parte no ha presentado in-
+**Definición Canónica:** solicitudes que se le han remitido, el Estado parte no ha presentado in-
+**Concordancias Legales:** artículo 14
+
+solicitudes que se le han remitido, el Estado parte no ha presentado in-
 
 Materiales Docentes                                                        Capítulo 4
 
@@ -3895,7 +4249,18 @@ Materiales Docentes                                                        Capí
 
 ## 53. El Comité señala a la atención del Estado parte su observación ge-
 
-      neral número 3 (2012) sobre la aplicación del artículo 14 por los Estados
+**Definición Canónica:** neral número 3 (2012) sobre la aplicación del artículo 14 por los Estados
+      partes, en la que se refiere de forma detallada a la naturaleza y el alcance
+      de las obligaciones que les incumben en virtud de la Convención de
+      otorgar plena reparación a las víctimas de tortura. En particular, el Es-
+      tado parte debe:
+       a) Velar por que todas las víctimas de torturas y malos tratos, incluidas
+      las que residen actualmente fuera de Chile, obtengan una reparación
+      que incluya el derecho a una indemnización justa y adecuada exigible
+      ante los tribunales, así como l
+**Concordancias Legales:** artículo 14; artículo 108 del Código Procesal Penal f
+
+neral número 3 (2012) sobre la aplicación del artículo 14 por los Estados
       partes, en la que se refiere de forma detallada a la naturaleza y el alcance
       de las obligaciones que les incumben en virtud de la Convención de
       otorgar plena reparación a las víctimas de tortura. En particular, el Es-
@@ -4006,8 +4371,14 @@ garantía, en el año 2014 el magistrado Guzmán reflexionaba: «Si basta acredi
 efecto. La pregunta entonces a formular es: ¿por qué, si llevamos más
 de una década con una judicatura de garantía operando, subsisten las
 
-
 ## 9 Una crítica a la forma en que se realiza el control de detención la formula el
+
+**Definición Canónica:** magistrado Fernando Guzmán cuando señala: «En la audiencia de control de detención, el ejercicio de la función cautelar se ha terminado haciendo en base a actas levantadas por los propios policías, con información muy precaria y poco controvertida por la defensa, la que tiene escaso acceso a evidencia dura […] Los fiscales están
+apremiados y tienen menos piso aún para controvertir a las policías. Hay que revisar
+el diseño de estas audiencias o diferir el debate hasta que se tenga información de
+mayor calidad». Seminario internacional Prevención e investigación de la tortura
+en Chile. Instituto
+**Concordancias Legales:** constitucion
 
 magistrado Fernando Guzmán cuando señala: «En la audiencia de control de detención, el ejercicio de la función cautelar se ha terminado haciendo en base a actas levantadas por los propios policías, con información muy precaria y poco controvertida por la defensa, la que tiene escaso acceso a evidencia dura […] Los fiscales están
 apremiados y tienen menos piso aún para controvertir a las policías. Hay que revisar
@@ -4039,6 +4410,16 @@ por haber afectado bienes jurídicos valiosos para la comunidad. El afán
 legislativo por reducir las posibilidades de cautela del proceso penal por
 
 ## parte de los jueces de garantía es real, como también lo es el populismo
+
+**Definición Canónica:** punitivo, pero en lo esencial la facultad de los jueces no ha cambiado, y
+tienen herramientas para seguir ejerciéndola, incluso posterior a las dos
+reformas a la reforma.
+   Otra complejidad que acusa el magistrado para ejercer correctamente la función cautelar es el gobierno judicial, el que al concentrar estas
+funciones y las jurisdiccionales desincentiva el ejercicio de la función
+cautelar por parte de los jueces de instancia llamados a hacerlo. Esto se
+traduce en que hay un sistema de incentivos y desincentivos muy fuerte
+desde la cúspide del poder judicial, lo que en ocasiones justamente 
+**Concordancias Legales:** Artículos 5
 
 punitivo, pero en lo esencial la facultad de los jueces no ha cambiado, y
 tienen herramientas para seguir ejerciéndola, incluso posterior a las dos
@@ -4177,8 +4558,14 @@ Crueles, Inhumanos o Degradantes, trabajo en el que se detalla específicamente 
 de denuncia, se refiere al concepto de tortura y a las obligaciones del
 Estado en la materia.15
 
-
 ## 14 APT, Monitoreo de lugares de detención. Una guía práctica. 2004. Disponible en
+
+**Definición Canónica:** https://bit.ly/3a0lsTP. También cuenta con un Manual respecto de mujeres privadas
+de libertad en el mismo enlace.
+ 15 Protocolo de actuación en una visita preventiva a establecimientos penitenciarios del Comité de Experto/as del Mecanismo Nacional de Prevención de la Tortura
+y Tratos Crueles, Inhumanos o Degradantes, año 2019. Se agradece especialmente
+al Comité por facilitar el Protocolo para la confección de este material. Se advierte
+que puede sufrir modificaciones en el corto plazo por acuerdos del propio Comité.
 
 https://bit.ly/3a0lsTP. También cuenta con un Manual respecto de mujeres privadas
 de libertad en el mismo enlace.
@@ -4213,8 +4600,10 @@ Nacional de Menores, esto en el contexto de protección y justicia juvenil, lo q
    Los niños, niñas y adolescentes bajo custodia del Estado, pueden encontrarse en las siguientes situaciones:
    i. Protección y cuidado alternativo. Incluye NNA atendidas/os en re-
 
-
 ## 16 Observatorio Niñez y Adolescencia [ONA] (2020). Violencia Estatal contra
+
+**Definición Canónica:** NNA: A un año del estallido social. Recurso electrónico. Disponible en: https://bit.
+ly/3budkuS.
 
 NNA: A un año del estallido social. Recurso electrónico. Disponible en: https://bit.
 ly/3budkuS.
@@ -4267,12 +4656,13 @@ esta población especialmente vulnerable.18
    Luego de este examen podemos destacar aspectos característicos de
 los delitos que se examinan a modo de violencia institucional, con la se-
 
-
-## 17 Instituto Nacional de Derechos Humanos [INDH] (2018d). Informe final de
-
-seguimiento de casos de niños, niñas y adolescentes detectados en misión de observación Sename. Instituto Nacional de Derechos Humanos.
-
 ## 18 Protocolo de actuación en una visita preventiva a residencias de protección para
+
+**Definición Canónica:** niños, niñas y adolescentes del Comité de Experto/as del Mecanismo Nacional de
+Prevención de la Tortura y/o Tratos Crueles, Inhumanos o Degradantes, año 2019.
+Se agradece especialmente al Comité por facilitar el Protocolo para la confección
+de este material. Se advierte que puede sufrir modificaciones en el corto plazo por
+acuerdos del propio Comité.
 
 niños, niñas y adolescentes del Comité de Experto/as del Mecanismo Nacional de
 Prevención de la Tortura y/o Tratos Crueles, Inhumanos o Degradantes, año 2019.
@@ -4284,8 +4674,11 @@ paración de criterios de delimitación de las distintas figuras, particularment
 en la resolución de casos, específicamente ante víctimas con cualidades
 especiales en la precisión de la conducta típica.
 
-
 ## Capítulo 5
+
+**Definición Canónica:** Propuesta de sistema de delitos de violencia
+institucional y de aplicación de las penas
+**Concordancias Legales:** artículo 150; artículo 255; artículos 150; artículo 193; artículo 11; artículo 490; artículos 399
 
 Propuesta de sistema de delitos de violencia
 institucional y de aplicación de las penas
@@ -4550,6 +4943,11 @@ acreditar delito de violación más la concurrencia de los elementos del
 tipo penal de tortura sexual del artículo 150 A en relación con el artículo
 
 ## 150 C. Para condenar el tribunal señaló que el bien jurídico afectado no
+
+**Definición Canónica:** solo es la integridad y autodeterminación sexual de la víctima pues es
+obligación del Estado dar protección de los derechos humanos a través
+de sus agentes.
+**Concordancias Legales:** artículo 150; artículo 361; artículo 15 del Decreto Ley 2.859; artículo 5 de la Convención Americana. Respecto de la deten; artículo 5; artículo 5.2 de la Convención Americana con relación a los famil; Ley 2.859; Constitucion
 
 solo es la integridad y autodeterminación sexual de la víctima pues es
 obligación del Estado dar protección de los derechos humanos a través
@@ -4852,10 +5250,17 @@ los que merece resaltarse con atención al sufrimiento sexual, una violación se
 donde además se trata de una mujer joven (de 25 años) e indígena, de la
 comunidad Me’phaa.
 
-
 ## 118. Este Tribunal recuerda, como lo señala la Convención de Belém do
 
-      Pará, que la violencia contra la mujer no solo constituye una violación
+**Definición Canónica:** Pará, que la violencia contra la mujer no solo constituye una violación
+      de los derechos humanos, sino que es “una ofensa a la dignidad humana
+      y una manifestación de las relaciones de poder históricamente desigua-
+      les entre mujeres y hombres”, que “trasciende todos los sectores de la
+      sociedad independientemente de su clase, raza o grupo étnico, nivel de
+      ingresos, cultura, nivel educacional, edad o religión y afecta negativa-
+      mente sus propias bases.
+
+Pará, que la violencia contra la mujer no solo constituye una violación
       de los derechos humanos, sino que es “una ofensa a la dignidad humana
       y una manifestación de las relaciones de poder históricamente desigua-
       les entre mujeres y hombres”, que “trasciende todos los sectores de la
@@ -4883,10 +5288,19 @@ Materiales Docentes                                                            C
 a la especial vulnerabilidad de la víctima y del ataque que importa a su
 desarrollo como persona, con un total control sobre sus decisiones.
 
-
 ## 125. En el presente caso, la señora Fernández Ortega estuvo sometida
 
-      a un acto de violencia sexual y control físico del militar que la penetró
+**Definición Canónica:** a un acto de violencia sexual y control físico del militar que la penetró
+      sexualmente de manera intencional; su vulnerabilidad y la coerción que
+      el agente estatal ejerció sobre ella se reforzó con la participación de otros
+      dos militares también armados, que agravaron el marco de violencia
+      sexual ejercido contra la víctima, habiendo, incluso, otro grupo de mili-
+      tares que esperaron fuera de la casa. Resulta evidente para la Corte que
+      el sufrimiento padecido por la señora Fernández Ortega, al ser obligada
+      a mantener un acto sexual contra su voluntad, hec
+**Concordancias Legales:** artículo 11 de la Convención Americana
+
+a un acto de violencia sexual y control físico del militar que la penetró
       sexualmente de manera intencional; su vulnerabilidad y la coerción que
       el agente estatal ejerció sobre ella se reforzó con la participación de otros
       dos militares también armados, que agravaron el marco de violencia
@@ -4902,7 +5316,16 @@ desarrollo como persona, con un total control sobre sus decisiones.
 
 ## parte, el concepto de vida privada es un término amplio no susceptible
 
-      de definiciones exhaustivas, pero que comprende, entre otros ámbitos
+**Definición Canónica:** de definiciones exhaustivas, pero que comprende, entre otros ámbitos
+      protegidos, la vida sexual y el derecho a establecer y desarrollar relacio-
+      nes con otros seres humanos. La Corte considera que la violación sexual
+      de la señora Fernández Ortega vulneró valores y aspectos esenciales de
+      su vida privada, supuso una intromisión en su vida sexual y anuló su
+      derecho a tomar libremente las decisiones respecto con quien tener rela-
+      ciones sexuales, perdiendo de forma completa el control sobre sus deci-
+      siones más personales e íntimas y sobre las funciones co
+
+de definiciones exhaustivas, pero que comprende, entre otros ámbitos
       protegidos, la vida sexual y el derecho a establecer y desarrollar relacio-
       nes con otros seres humanos. La Corte considera que la violación sexual
       de la señora Fernández Ortega vulneró valores y aspectos esenciales de
@@ -4916,10 +5339,11 @@ la víctima mujer,10 que afecta su integridad personal. Aquí cabe destacar
 en el mismo caso citado, las especiales advertencias sobre la humillación
 que significa esta clase de conducta para mujeres.
 
-
 ## 124. Independientemente de lo anterior, la Corte ha establecido que un
 
-      acto de tortura puede ser perpetrado tanto mediante actos de violencia
+**Definición Canónica:** acto de tortura puede ser perpetrado tanto mediante actos de violencia
+
+acto de tortura puede ser perpetrado tanto mediante actos de violencia
 
 ni a la acumulación de hechos ni al lugar donde el acto se realiza, sino a la intencionalidad, a la severidad del sufrimiento y a la finalidad del acto, requisitos que en el
 presente caso se encuentran cumplidos».
@@ -4950,10 +5374,19 @@ exigencia para la configuración de las torturas. Así, cabe destacar el primer 
 términos amplios, es decir, con inclusión de la situación de la mujer. En
 el caso del Penal Castro Castro con Perú,11 la Corte indica:
 
-
 ## 303. Con respecto al tratamiento que deben recibir las mujeres deteni-
 
-      das o arrestadas, el Alto Comisionado de las Naciones Unidas para los
+**Definición Canónica:** das o arrestadas, el Alto Comisionado de las Naciones Unidas para los
+      Derechos Humanos ha señalado que “no deben sufrir discriminación,
+      y deben ser protegidas de todas las formas de violencia o explotación”.
+      Asimismo, ha indicado que las detenidas deben ser supervisadas y revi-
+      sadas por oficiales femeninas y las mujeres embarazadas y en lactancia
+      deben ser proveídas con condiciones especiales durante su detención.
+      El Comité para la Eliminación de la Discriminación contra la Mujer
+      ha señalado que dicha discriminación incluye la violencia basada en el
+ 
+
+das o arrestadas, el Alto Comisionado de las Naciones Unidas para los
       Derechos Humanos ha señalado que “no deben sufrir discriminación,
       y deben ser protegidas de todas las formas de violencia o explotación”.
       Asimismo, ha indicado que las detenidas deben ser supervisadas y revi-
@@ -4977,10 +5410,16 @@ se reduce a la única característica que se imputa.
    Respecto de la orientación sexual, especialmente interesante es el
 caso Flor Freire con Ecuador:13
 
-
 ## 126. En el presente caso, las diferencias en la regulación disciplinaria
 
-      evidencian una distinción relacionada con la orientación sexual, catego-
+**Definición Canónica:** evidencian una distinción relacionada con la orientación sexual, catego-
+      ría protegida por el artículo 1.1 de la Convención. Sin embargo, Ecuador
+      no brindó una explicación sobre la necesidad social imperiosa o la fina-
+      lidad de la diferencia de trato, ni una razón para justificar esa diferencia-
+      ción como un método menos lesivo para alcanzar esa finalidad.
+**Concordancias Legales:** artículo 1.1 de la Convención. Sin embargo
+
+evidencian una distinción relacionada con la orientación sexual, catego-
       ría protegida por el artículo 1.1 de la Convención. Sin embargo, Ecuador
       no brindó una explicación sobre la necesidad social imperiosa o la fina-
       lidad de la diferencia de trato, ni una razón para justificar esa diferencia-
@@ -4988,7 +5427,17 @@ caso Flor Freire con Ecuador:13
 
 ## 127. Este Tribunal destaca que, con el propósito de preservar la discipli-
 
-      na militar, podría resultar razonable y admisible la imposición de restric-
+**Definición Canónica:** na militar, podría resultar razonable y admisible la imposición de restric-
+      ciones a las relaciones sexuales al interior de las instalaciones militares o
+      durante el servicio. No obstante, la ausencia de una justificación adecua-
+      da para la mayor gravedad de la sanción asignada a los actos sexuales ho-
+      mosexuales, genera una presunción sobre el carácter discriminatorio de
+      esta medida. Asimismo, resalta que la diferencia de regulación existente
+      en el presente caso frente a los actos homosexuales tenía como efecto ex-
+      cluir la participación de personas ho
+**Concordancias Legales:** artículo 117 del Reglamento de Disciplina Militar castigaba to
+
+na militar, podría resultar razonable y admisible la imposición de restric-
       ciones a las relaciones sexuales al interior de las instalaciones militares o
       durante el servicio. No obstante, la ausencia de una justificación adecua-
       da para la mayor gravedad de la sanción asignada a los actos sexuales ho-
@@ -5010,10 +5459,11 @@ El caso Bulacio con Argentina14 se centra en la vulnerabilidad de la víctima ad
 en caso de torturas, con una idea de integridad personal relacionada con
 la dignidad humana.
 
-
 ## 126. Quien sea detenido “tiene derecho a vivir en condiciones de deten-
 
-      ción compatibles con su dignidad personal y el Estado debe garantizarle
+**Definición Canónica:** ción compatibles con su dignidad personal y el Estado debe garantizarle
+
+ción compatibles con su dignidad personal y el Estado debe garantizarle
 
  12 Opinión Consultiva OC-24/17, 24 de noviembre de 2017. Serie A, número 24.
  13 CIDH. Caso Flor Freire con Ecuador. Sentencia de 31 de agosto de 2016.
@@ -5037,7 +5487,16 @@ Materiales Docentes                                                         Cap�
 
 ## 127. La vulnerabilidad del detenido se agrava cuando la detención es ilegal
 
-      o arbitraria. Entonces la persona se encuentra en completa indefensión,
+**Definición Canónica:** o arbitraria. Entonces la persona se encuentra en completa indefensión,
+      de la que surge un riesgo cierto de que se transgredan otros derechos,
+      como son los correspondientes a la integridad física y al trato digno. El Es-
+      tado debe proveer una explicación satisfactoria sobre lo que ha sucedido
+      a una persona que presentaba condiciones físicas normales cuando se ini-
+      ció su custodia y durante esta o al término de la misma empeoró. Asimis-
+      mo, es el Estado “el obligado a crear las condiciones necesarias para que
+      cualquier recurso [a favor del detenido] pue
+
+o arbitraria. Entonces la persona se encuentra en completa indefensión,
       de la que surge un riesgo cierto de que se transgredan otros derechos,
       como son los correspondientes a la integridad física y al trato digno. El Es-
       tado debe proveer una explicación satisfactoria sobre lo que ha sucedido
@@ -5056,10 +5515,12 @@ la mayor gravedad de las conductas cuando se trata de víctimas menores
 de edad, incluso adultos jóvenes (de 18 a 20 años) y la separación especial de los niños con relación a la integridad personal como bien objeto
 de tutela por la sanción de las conductas de tortura.
 
-
 ## 146. La Corte no puede dejar de señalar la especial gravedad que reviste
 
-      el presente caso por tratarse las víctimas de jóvenes, tres de ellos niños,
+**Definición Canónica:** el presente caso por tratarse las víctimas de jóvenes, tres de ellos niños,
+**Concordancias Legales:** artículo 4 de la Convención Americana
+
+el presente caso por tratarse las víctimas de jóvenes, tres de ellos niños,
 
  15 CIDH. Caso de los «Niños de la Calle (Villagrán Morales y otros) con Guatemala», Sentencia de 19 de noviembre de 1999.
 
@@ -5074,7 +5535,12 @@ Materiales Docentes                                                      Capítu
 
 ## 157. Existen en el presente caso evidencias numerosas y concurrentes
 
-      de que la integridad personal de los cuatro jóvenes mencionados fue
+**Definición Canónica:** de que la integridad personal de los cuatro jóvenes mencionados fue
+      vulnerada y de que ellos fueron víctimas de graves maltratos y de tortu-
+      ras físicas y psicológicas por parte de agentes del Estado y, más concre-
+      tamente, por miembros de la Policía Nacional, antes de sufrir la muerte.
+
+de que la integridad personal de los cuatro jóvenes mencionados fue
       vulnerada y de que ellos fueron víctimas de graves maltratos y de tortu-
       ras físicas y psicológicas por parte de agentes del Estado y, más concre-
       tamente, por miembros de la Policía Nacional, antes de sufrir la muerte.
@@ -5087,10 +5553,18 @@ sus vidas. Esa idea de integridad es compatible con la anterior declaración de 
 se pone atención en que las alteraciones al desarrollo de la personalidad parecen estar siempre presente en el caso de víctimas niños, niñas
 y adolescentes.
 
-
 ## 191. A la luz del artículo 19 de la Convención Americana la Corte debe
 
-      constatar la especial gravedad que reviste el que pueda atribuirse a un
+**Definición Canónica:** constatar la especial gravedad que reviste el que pueda atribuirse a un
+      Estado parte en dicha Convención el cargo de haber aplicado o tolera-
+      do en su territorio una práctica sistemática de violencia contra niños
+      en situación de riesgo. Cuando los Estados violan, en esos términos,
+      los derechos de los niños en situación de riesgo, como los “niños de la
+      calle”, los hacen víctimas de una doble agresión. En primer lugar, los
+      Estados no evitan que sean lanzados a la miseria, privándolos así de
+      unas mínimas condiciones de vida digna e impidiéndoles el “pleno
+
+constatar la especial gravedad que reviste el que pueda atribuirse a un
       Estado parte en dicha Convención el cargo de haber aplicado o tolera-
       do en su territorio una práctica sistemática de violencia contra niños
       en situación de riesgo. Cuando los Estados violan, en esos términos,
@@ -5116,10 +5590,18 @@ dignidad humana y el grado de desarrollo de los menores. Acoge las
 diferencias que importa el mayor o menor desarrollo que debieran repercutir en las exigencias al determinar los sufrimientos graves y en la
 determinación de penas.
 
-
 ## 162. Rafael Samuel y Emilio Moisés Gómez Paquiyauri eran niños de
 
-      14 y 17 años, respectivamente, cuando fueron detenidos ilegal y arbitra-
+**Definición Canónica:** 14 y 17 años, respectivamente, cuando fueron detenidos ilegal y arbitra-
+      riamente, torturados y ejecutados extrajudicialmente por agentes de la
+      Policía Nacional del Perú. El Tribunal considera que revisten especial
+      gravedad los casos en los cuales las víctimas de violaciones a los dere-
+      chos humanos son niños, ya que sus derechos se encuentran recogidos
+      no solo en la Convención Americana, sino también en numerosos ins-
+      trumentos internacionales, ampliamente aceptados por la comunidad
+      internacional, entre los cuales se destaca la Convención sobre los De
+
+14 y 17 años, respectivamente, cuando fueron detenidos ilegal y arbitra-
       riamente, torturados y ejecutados extrajudicialmente por agentes de la
       Policía Nacional del Perú. El Tribunal considera que revisten especial
       gravedad los casos en los cuales las víctimas de violaciones a los dere-
@@ -5133,14 +5615,27 @@ determinación de penas.
 
 ## 163. En esta materia, cuando se trata de la protección de los derechos
 
-      del niño y de la adopción de medidas para lograr dicha protección, rige
+**Definición Canónica:** del niño y de la adopción de medidas para lograr dicha protección, rige
       el principio del interés superior del niño, que se funda “en la dignidad
       misma del ser humano, en las características propias de los niños y en la
       necesidad de propiciar el desarrollo de estos, con pleno aprovechamien-
       to de sus potencialidades”.
 
+del niño y de la adopción de medidas para lograr dicha protección, rige
+      el principio del interés superior del niño, que se funda “en la dignidad
+      misma del ser humano, en las características propias de los niños y en la
+      necesidad de propiciar el desarrollo de estos, con pleno aprovechamien-
+      to de sus potencialidades”.
 
 ## 16 CIDH. Caso de los Hermanos Gómez Paquiyauri con Perú. Sentencia de 8 de
+
+**Definición Canónica:** julio de 2004.
+ 17 124. «El Estado debe respetar el derecho a la vida de toda persona bajo su jurisdicción, consagrado en el artículo 4 de la Convención Americana. Esta obligación
+presenta modalidades especiales en el caso de los menores de edad, teniendo en
+cuenta las normas sobre protección a los niños establecidas en la Convención Americana y en la Convención sobre los Derechos del Niño. La condición de garante del
+Estado con respecto a este derecho, le obliga a prevenir situaciones que pudieran
+conducir, por acción u omisión, a la afectación de aquél».
+**Concordancias Legales:** artículo 4 de la Convención Americana. Esta obligación present
 
 julio de 2004.
  17 124. «El Estado debe respetar el derecho a la vida de toda persona bajo su jurisdicción, consagrado en el artículo 4 de la Convención Americana. Esta obligación
@@ -5252,6 +5747,17 @@ Ríos Álvarez, Rodrigo (2018). «Alcances de la acción de amparo ante el
    Juez de Garantía». Revista de Derecho (Coquimbo), 25 (1): 257-278.
 
 ## Doi 10.4067/s0718-97532018000100257
+
+**Definición Canónica:** Rosentreter, Jeannette (2020). La práctica de la aplicación del Protocolo
+   de Estambul en la investigación de la tortura en Chile. Dificultades
+   para su implementación. Tesis de Magíster, Universidad Diego Porta-
+   les. Disponible en https://bit.ly/39XCFNx.
+Salinero, Sebastián (2013). «La nueva agravante penal de discriminación:
+   Los “delitos de odio”». Revista de Derecho (Pontificia Universidad Ca-
+   tólica de Valparaíso), 41.
+Seminario internacional Prevención e investigación de la tortura en
+   Chile. Instituto de Derechos Humanos, Ministerio Público de Chile,
+   Centro de Estudios 
 
 Rosentreter, Jeannette (2020). La práctica de la aplicación del Protocolo
    de Estambul en la investigación de la tortura en Chile. Dificultades

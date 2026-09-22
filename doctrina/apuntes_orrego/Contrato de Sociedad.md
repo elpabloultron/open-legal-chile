@@ -13,37 +13,18 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## El contrato de la sociedad
-
-
-
-## 1.- normativa y concepto
-
-
-   Se refieren al contrato de sociedad diversas normas, contenidas en
-distintos códigos o en leyes que regulan una clase determinada de
-sociedad:
-
-## 1. Código Civil: Art. 2053 a 2115 (sociedad colectiva)
-
-
-## 2. Código de Comercio: Libro II, Título VII (sociedades colectivas y en
-
-       comandita)
-
-## 3. Código de Minería, Título XII
-
-
-## 4. Ley 18.046 sobre sociedades anónimas
-
-
-## 5. Ley 3.918 sobre sociedades de responsabilidad limitada
-
-
 ## 6. Ley 19.499 sobre saneamiento de vicios de nulidad de sociedades
 
+**Definición Canónica:** El Código Civil define la sociedad en el artículo 2053, en los
+siguientes términos:
+      “La sociedad o compañía es un contrato en que dos o más personas
+estipulan poner algo en común con la mira de repartir entre sí los
+beneficios que de ello provengan.
+      La sociedad forma una persona jurídica, distinta de los socios
+individualmente considerados.”
+**Concordancias Legales:** artículo 2053
 
-   El Código Civil define la sociedad en el artículo 2053, en los
+El Código Civil define la sociedad en el artículo 2053, en los
 siguientes términos:
       “La sociedad o compañía es un contrato en que dos o más personas
 estipulan poner algo en común con la mira de repartir entre sí los
@@ -51,17 +32,22 @@ beneficios que de ello provengan.
       La sociedad forma una persona jurídica, distinta de los socios
 individualmente considerados.”
 
-
-## 2.- características del contrato de sociedad
-
-
-      Estamos ante un contrato bilateral, oneroso, conmutativo,
-regularmente consensual e intuito personae.
-Detengámonos en estos dos últimos caracteres:
-
 ## 1. Por regla general, es un contrato consensual
 
-            Los socios se obligan a efectuar un aporte, no siendo
+**Definición Canónica:** Los socios se obligan a efectuar un aporte, no siendo
+            necesaria la entrega del aporte para que la sociedad se
+            perfeccione, porque si así se entendiera, estaríamos ante un
+            contrato real.
+            Sin embargo, son solemnes:
+                  (1) Las sociedades anónimas civiles;
+                  (2) Las sociedades de responsabilidad limitada civiles;
+                  (3) Todas las sociedades comerciales (colectivas,
+                      anónimas, de responsabilidad limitada y en
+                      comandita)
+   2. Es un contrato intuito personae.
+     
+
+Los socios se obligan a efectuar un aporte, no siendo
             necesaria la entrega del aporte para que la sociedad se
             perfeccione, porque si así se entendiera, estaríamos ante un
             contrato real.
@@ -88,11 +74,22 @@ Detengámonos en estos dos últimos caracteres:
                       incorporarse a ella cualquiera en cuyo favor se
                       haga el traspaso de acciones
 
-
 ## 3.- la sociedad, persona jurídica distinta de los socios
 
+**Definición Canónica:** Así lo establece expresamente el inciso 2° del artículo 2053.
+Como consecuencia de lo anterior:
+  (1) La sociedad tiene patrimonio propio, distinto del patrimonio
+      personal de sus socios. Por esta razón, los acreedores personales
+      de los socios no pueden hacer efectivos sus créditos en el
+      patrimonio de la sociedad (Art. 2096). A su vez, mientras esté
+      vigente la sociedad, los socios sólo tienen contra ella un crédito
+      para reclamar su parte en los beneficios sociales
+  (2) La sociedad tiene voluntad propia, normalmente la de la mayoría
+      de los socios (Art. 2054)
 
-      Así lo establece expresamente el inciso 2° del artículo 2053.
+**Concordancias Legales:** artículo 2053
+
+Así lo establece expresamente el inciso 2° del artículo 2053.
 Como consecuencia de lo anterior:
   (1) La sociedad tiene patrimonio propio, distinto del patrimonio
       personal de sus socios. Por esta razón, los acreedores personales
@@ -127,11 +124,17 @@ importantes diferencias:
       libre circulación de la riqueza, razón por la cual la ley proscribe
       los pactos destinados a perpetuarla (Art. 1317)
 
-
 ## 5.- elementos del contrato de sociedad
 
+**Definición Canónica:** Además de los requisitos de existencia y de validez de todo acto
+jurídico, deben concurrir en la sociedad los siguientes requisitos o
+elementos de la esencia particulares:
+   (1) Aporte de los socios
+   (2) Participación en las utilidades
+   (3) Contribución a las pérdidas
+   (4) Affectio societatis o intención de formar sociedad
 
-   Además de los requisitos de existencia y de validez de todo acto
+Además de los requisitos de existencia y de validez de todo acto
 jurídico, deben concurrir en la sociedad los siguientes requisitos o
 elementos de la esencia particulares:
    (1) Aporte de los socios
@@ -268,11 +271,23 @@ denomina una sociedad de hecho
 que contrató con una sociedad nula deberá de todas formas cumplir las
 obligaciones asumidas en favor de ésta
 
-
 ## 6.- especies de sociedad
 
+**Definición Canónica:** (1) Atendiendo al objeto o fin, Art. 2059
+                  i. Sociedad civil
+                 ii. Sociedad comercial
+          Para hacer esta distinción, debemos atender a la clase de
+          negocios o a la naturaleza del giro para el cual se constituyó la
+          sociedad
+          El Art. 3° del Código de Comercio enumera los actos que se
+          reputan comerciales
+          En todo caso, las partes pueden estipular, al constituir una
+          sociedad, que ésta se rija por las normas del Código de
+          Comercio, no obstante su naturaleza civil, Art. 2060
+   (2) Atendiendo a 
+**Concordancias Legales:** Ley 3.918
 
-   (1) Atendiendo al objeto o fin, Art. 2059
+(1) Atendiendo al objeto o fin, Art. 2059
                   i. Sociedad civil
                  ii. Sociedad comercial
           Para hacer esta distinción, debemos atender a la clase de
@@ -296,14 +311,13 @@ Son aquellas en que todos los socios administran por sí o por un
 mandatario elegido de común acuerdo, Art. 2061 inciso 2°
 Se caracterizan además, por lo siguiente:
 
-## 1. En cuanto a su responsabilidad: los socios responden con
-
-          sus bienes propios de las obligaciones sociales en forma
-          ilimitada, aunque proporcional a los respectivos aportes
-
 ## 2. En cuanto a su razón social: se forma con el nombre de todos
 
-          los socios o de alguno de ellos y las palabras “y compañía”,
+**Definición Canónica:** los socios o de alguno de ellos y las palabras “y compañía”,
+          Art. 365 del Código de Comercio
+**Concordancias Legales:** Ley 18.046; Ley 18046
+
+los socios o de alguno de ellos y las palabras “y compañía”,
           Art. 365 del Código de Comercio
 
 Sociedades de responsabilidad limitada
@@ -357,9 +371,20 @@ Sus características son:
        comanditarios la misma responsabilidad que a los miembros de
        una sociedad colectiva, Art. 2062 inciso 2°
 
-
 ## 7.- administración de la sociedad colectiva
 
+**Definición Canónica:** 1.- A quien corresponde la administración
+Corresponde a todos los socios, por sí o por medio de mandatarios
+designados de común acuerdo, Art. 2061 inciso 2°
+Debemos analizar ambas hipótesis:
+    (1) La administración se confía a uno o varios administradores, Art.
+        2071 inciso 1°, sea en el contrato o por acto posterior
+           i.    Designación del administrador en el pacto social
+                   Ello supone que el contrato se ha celebrado en
+                   consideración a que la administración estará confiada
+                   a determinada persona, Art. 2071 inciso 2°.
+    
+**Concordancias Legales:** artículos 389
 
 1.- A quien corresponde la administración
 Corresponde a todos los socios, por sí o por medio de mandatarios
@@ -457,11 +482,14 @@ Lo anterior es una aplicación de las reglas generales del mandato
 cuenta de su gestión en la época prefijada o por lo menos, una vez al
 año, Art. 2080
 
-
 ## 8.- obligaciones de los socios
 
+**Definición Canónica:** Distinguimos al respecto:
+   (1) Obligaciones de los socios para con la sociedad
+   (2) Obligaciones de la sociedad para con los socios
+   (3) Obligaciones de los socios respecto de terceros
 
-   Distinguimos al respecto:
+Distinguimos al respecto:
    (1) Obligaciones de los socios para con la sociedad
    (2) Obligaciones de la sociedad para con los socios
    (3) Obligaciones de los socios respecto de terceros
@@ -554,12 +582,14 @@ año, Art. 2080
                   autoriza a los socios, ante el retardo en la entrega del
                   aporte, sea cual fuere la causa que lo produzca:
 
-## 1. Para excluir de la sociedad al socio moroso
-
-
 ## 2. Para proceder ejecutivamente contra su
 
-                         persona y bienes, para compelerle al
+**Definición Canónica:** persona y bienes, para compelerle al
+                         cumplimiento de su obligación. En uno u otro
+                         caso, indemnizándose además de los perjuicios
+                         que el retardo ocasionare a la sociedad
+
+persona y bienes, para compelerle al
                          cumplimiento de su obligación. En uno u otro
                          caso, indemnizándose además de los perjuicios
                          que el retardo ocasionare a la sociedad
@@ -579,16 +609,21 @@ Los socios deben cuidar de los intereses sociales, como un padre de
 familia.
 Aplicaciones de esta obligación:
 
-## 1. Indemnización de los perjuicios causados a la sociedad, Art. 2093
-
-
-## 2. El producto de la actividad de los socios cede en exclusivo
-
-      provecho social, Art. 2091
-
 ## 3. Situación del socio acreedor de una persona que es a su vez
 
-      deudor de la sociedad, Art. 2092
+**Definición Canónica:** deudor de la sociedad, Art. 2092
+          a. Inciso 1°: lo percibido se imputa a prorrata, al crédito del
+             socio y al de la sociedad
+          b. Inciso 2°: pero el socio, sacrificando su interés personal
+             puede imputar todo lo percibido al crédito social
+          c. Inciso 3°: Las dos reglas anteriores no rigen si es el deudor
+             el que hace la imputación
+   4. Caso del socio que percibe íntegra su cuota de un crédito social,
+      permaneciendo impagos sus consocios, Art. 2090. Con la
+      expresión “comunicar”, se quiere decir que el socio debe integrar
+
+
+deudor de la sociedad, Art. 2092
           a. Inciso 1°: lo percibido se imputa a prorrata, al crédito del
              socio y al de la sociedad
           b. Inciso 2°: pero el socio, sacrificando su interés personal
@@ -603,13 +638,18 @@ Aplicaciones de esta obligación:
 
 2.- Obligaciones de la sociedad para con los socios
 
-
-## 1. Obligación de reintegrar anticipos y pagar perjuicios, Art. 2089
-
-
 ## 2. Obligación de obtener el consentimiento unánime de los socios
 
-      para incorporar a un tercero en la sociedad, Art. 2088
+**Definición Canónica:** para incorporar a un tercero en la sociedad, Art. 2088
+      Ello es una consecuencia del carácter de contrato intuito
+      personae de la sociedad
+      Este principio es aplicable sólo a las sociedades de personas, y no
+      a las anónimas, sociedad de capital
+      Puede formarse, sin embargo, entre un socio y un tercero
+      (subsocio) una sociedad “particular”, que abarca sólo a la parte
+      que tenga el socio en la sociedad
+
+para incorporar a un tercero en la sociedad, Art. 2088
       Ello es una consecuencia del carácter de contrato intuito
       personae de la sociedad
       Este principio es aplicable sólo a las sociedades de personas, y no
@@ -641,13 +681,21 @@ personalmente o en representación de la sociedad
 
        Debemos indagar entonces si el socio actuó con poder suficiente:
 
-## 1. Si tenía poder suficiente, entonces la sociedad resulta obligada
-
-           y no el socio
-
 ## 2. Si no tenía poder suficiente, 2094 inciso 3. Es el socio el que
 
-           resulta obligado en primera instancia; subsidiariamente, se
+**Definición Canónica:** resulta obligado en primera instancia; subsidiariamente, se
+           obliga la sociedad, pero sólo hasta el monto del beneficio que
+           reciba
+   (3) Efectos de las obligaciones contraídas con terceros
+       El contrato válidamente celebrado por los socios, obliga a la
+       sociedad, según las reglas anteriores. Tratándose de las
+       sociedades colectivas, además del patrimonio social, los socios
+       comprometen su propio patrimonio, vale decir, responden
+       también con sus bienes personales por las obligaciones sociales
+       Se desprende del Art. 2095 inciso 1 que se r
+**Concordancias Legales:** Ley 18046
+
+resulta obligado en primera instancia; subsidiariamente, se
            obliga la sociedad, pero sólo hasta el monto del beneficio que
            reciba
    (3) Efectos de las obligaciones contraídas con terceros
@@ -677,13 +725,16 @@ personalmente o en representación de la sociedad
                      acciones, Art. 2061, inciso 4° y Ley 18046
             iii. Sociedad en comandita
 
-## 1. Socios gestores responden como los socios de la
-
-                       sociedad colectiva
-
 ## 2. Socios comanditarios responden solamente hasta
 
-                       concurrencia de sus aportes, Art. 2061 inciso 3
+**Definición Canónica:** concurrencia de sus aportes, Art. 2061 inciso 3
+            iv.   Sociedad de responsabilidad limitada
+                     Los socios responden hasta la concurrencia de sus
+                     aportes o de la suma superior que indiquen, Art. 2
+                     Ley 3918
+**Concordancias Legales:** Ley 3918; constitución
+
+concurrencia de sus aportes, Art. 2061 inciso 3
             iv.   Sociedad de responsabilidad limitada
                      Los socios responden hasta la concurrencia de sus
                      aportes o de la suma superior que indiquen, Art. 2
@@ -710,18 +761,29 @@ sociedad:
 
 ## 1. Pueden los acreedores del socio interponer, como acción oblicua o
 
-      subrogatoria, las acciones indirectas y subsidiarias que concede
+**Definición Canónica:** subrogatoria, las acciones indirectas y subsidiarias que concede
       el Art. 2094 inciso 1, última parte (por ejemplo, para exigir el
       pago de los conceptos señalados en el Art. 2089 inciso 1), Art.
       2096 inciso 2
 
-## 2. Pueden los acreedores del socio embargar los beneficios que
-
-      obtenga el socio, Art. 2096 inciso 3
-
+subrogatoria, las acciones indirectas y subsidiarias que concede
+      el Art. 2094 inciso 1, última parte (por ejemplo, para exigir el
+      pago de los conceptos señalados en el Art. 2089 inciso 1), Art.
+      2096 inciso 2
 
 ## 9.- disolución de la sociedad. articulos 2098 a 2115
 
+**Definición Canónica:** 9.1.- Causales de disolución
+Por diez causales puede disolverse una sociedad:
+   1. Expiración del plazo o cumplimiento de la condición prefijados,
+       Art. 2098 inciso 1
+             Esta causal pone término ipso iure a la sociedad
+             Los socios, sin embargo, pueden acordar la prórroga del
+             plazo. Se requiere el consentimiento unánime de los socios
+             El inciso 2 del Art. 2098 que exige, para la prórroga, el
+             cumplimiento de las mismas formalidades cumplidas al
+             constituirse la sociedad, ha de entenderse circunscrita a las
+           
 
 9.1.- Causales de disolución
 Por diez causales puede disolverse una sociedad:
@@ -747,21 +809,20 @@ Por diez causales puede disolverse una sociedad:
              El inciso 3 del Art. 2098 repite la regla general a propósito
              de los codeudores solidarios, Art. 1649
 
-## 2. Término del negocio, Art. 2099
-
-             El inciso 2 previene que si se fijó un plazo para el término
-             de la sociedad, ésta se disuelve aún cuando el negocio no
-             haya concluido.
-
-## 3. Insolvencia de la sociedad, Art. 2100
-
-             Ello se explica porque en tal situación, la sociedad no puede
-             satisfacer sus obligaciones ni llevar a cabo adecuadamente
-             el objeto social
-
 ## 4. Pérdida total de los bienes sociales, Art. 2100
 
-             La pérdida total impide la realización de los fines sociales.
+**Definición Canónica:** La pérdida total impide la realización de los fines sociales.
+             Si la pérdida es parcial, la sociedad no se disuelve. Con
+             todo, los socios podrán pedir su disolución si con los bienes
+             que restan, no pudiere la sociedad continuar actuando en
+             forma útil.
+             El Art. 2102 distingue si se pierde la cosa aportada en
+             dominio o en usufructo:
+             i.     Si se pierde la cosa aportada en dominio, subsiste la
+                    sociedad, a menos que no pueda continuar útilmente
+             ii.    Si se pierde la cosa aport
+
+La pérdida total impide la realización de los fines sociales.
              Si la pérdida es parcial, la sociedad no se disuelve. Con
              todo, los socios podrán pedir su disolución si con los bienes
              que restan, no pudiere la sociedad continuar actuando en
@@ -775,16 +836,20 @@ Por diez causales puede disolverse una sociedad:
                     la reponga o que los socios acuerden continuar la
                     sociedad
 
-## 5. Incumplimiento de la obligación de efectuar el aporte, Art. 2101
-
-
-             Tal hecho faculta a los restantes consocios para pedir la
-             resolución del contrato (impropiamente, el Art. 2101 dice
-             “dar la sociedad por disuelta”)
-
 ## 6. Muerte de uno de los socios, Art. 2103
 
-             Ello, porque la sociedad es un contrato intuito personae,
+**Definición Canónica:** Ello, porque la sociedad es un contrato intuito personae,
+             basado en la confianza recíproca
+             El heredero del socio es, usualmente, un extraño para los
+             restantes socios. Sucede el heredero en el patrimonio del
+             causante, pero no en las cualidades que llevaron a los otros
+             socios a contratar con el causante
+             Excepcionalmente, la sociedad subsiste:
+             i.      Cuando la ley disponga que la sociedad debe
+                     continuar con los herederos del socio fallecido. El Art.
+                     2104 señala los
+
+Ello, porque la sociedad es un contrato intuito personae,
              basado en la confianza recíproca
              El heredero del socio es, usualmente, un extraño para los
              restantes socios. Sucede el heredero en el patrimonio del
@@ -801,18 +866,20 @@ Por diez causales puede disolverse una sociedad:
                      El Art. 2105 se refiere al caso en que sigue la
                      sociedad, con los herederos del causante
 
-## 7. Incapacidad sobreviniente de un socio, Art. 2106
-
-
-## 8. Insolvencia sobreviniente de un socio, Art. 2106
-
-
-## 9. Acuerdo unánime de los socios, Art. 2107
-
-
 ## 10.       Renuncia de cualquiera de los socios, Art. 2108
 
-             Debemos distinguir si la sociedad tiene duración ilimitada o
+**Definición Canónica:** Debemos distinguir si la sociedad tiene duración ilimitada o
+             por el contrario, se pactó por cierto plazo
+         i.       Si la sociedad tiene duración ilimitada, la renuncia de
+                  un socio pone fin a la sociedad, Art. 2065. La renuncia
+                  no importa sólo el retiro del socio renunciante, sino que
+                  implica la completa disolución de la sociedad
+         ii.      Si la sociedad se pactó por un cierto plazo, no podrá
+                  renunciar un socio, sino:
+                  i. En virtud de autorización conferida en el contrato
+      
+
+Debemos distinguir si la sociedad tiene duración ilimitada o
              por el contrario, se pactó por cierto plazo
          i.       Si la sociedad tiene duración ilimitada, la renuncia de
                   un socio pone fin a la sociedad, Art. 2065. La renuncia
@@ -841,25 +908,9 @@ partición de los bienes hereditarios, Art. 2115 inciso 2
 La disolución de la sociedad sólo será oponible a los terceros, en los
 siguientes casos, Art. 2114:
 
-## 1. Cuando la sociedad se disuelve por la llegada del plazo
-
-                prefijado
-
-## 2. Cuando se han publicado 3 avisos en la prensa
-
-
-## 3. Cuando se prueba que el tercero tuvo oportuna noticia
-
-                de la disolución de la sociedad
-
-
-## 10.- ley 19499 sobre saneamiento de vicios de nulidad de
-
-
 ## Sociedades
 
-
-      La citada Ley, publicada en el Diario Oficial de fecha 11 de abril
+**Definición Canónica:** La citada Ley, publicada en el Diario Oficial de fecha 11 de abril
 de 1997, establece normas sobre saneamiento de vicios de nulidad de
 sociedades, modificando también el Código de Comercio, la Ley sobre
 sociedades de responsabilidad limitada y la Ley sobre sociedades
@@ -868,20 +919,20 @@ de 30 días, contados desde su publicación (11 de mayo de 1997)
 Del articulado de la Ley, se desprende que una sociedad puede adolecer
 de tres clases de vicios, cuyas consecuencias jurídicas son diversas:
 
-## 1. Vicios formales
-
-             Que si bien producen nulidad, pueden sanearse en la forma
-             en que se expresará
-
-## 2. Vicios de fondo
-
-             Que también ocasionan nulidad y no admiten saneamiento,
-             sino por la vía tradicional y consuetudinaria de la
-             “repactacion”
+La citada Ley, publicada en el Diario Oficial de fecha 11 de abril
+de 1997, establece normas sobre saneamiento de vicios de nulidad de
+sociedades, modificando también el Código de Comercio, la Ley sobre
+sociedades de responsabilidad limitada y la Ley sobre sociedades
+anónimas. Se establece en su Art. 14 que entrará en vigencia en el plazo
+de 30 días, contados desde su publicación (11 de mayo de 1997)
+Del articulado de la Ley, se desprende que una sociedad puede adolecer
+de tres clases de vicios, cuyas consecuencias jurídicas son diversas:
 
 ## 3. Simples errores
 
-             Que no producen nulidad ni requieren sanearse.
+**Definición Canónica:** Que no producen nulidad ni requieren sanearse.
+
+Que no producen nulidad ni requieren sanearse.
 
       La ley en cuestión introduce una importante innovación en
 materia de régimen de sanciones civiles, pues permite que la nulidad

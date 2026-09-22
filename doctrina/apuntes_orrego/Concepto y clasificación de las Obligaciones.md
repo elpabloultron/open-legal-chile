@@ -13,20 +13,12 @@ extraccion: pdftotext
 
 **Tratadistas:** Juan Andrés Orrego Acuña | **Área:** Civil | **Materia:** Civil
 
-## Teoria general de las obligaciones1
-
-
-
-## Primera parte: concepto, fuentes y
-
-
-## Clasificación de las obligaciones
-
-
-Sumario:
-1.- Nociones preliminares. 1.1. Etimología y evolución del concepto de obligación.
-
 ## 1.2. Derecho personal y obligación. 1.3. Definición de obligación. 1.4. Elementos de
+
+**Definición Canónica:** toda obligación. 2.- Fuentes de las obligaciones. 2.1. Definición. 2.2. Fuentes
+tradicionales. 2.3. Fuentes no tradicionales. 2.4. Críticas a la clasificación tradicional de
+las fuentes de las obligaciones. 3.- Clasificación de las obligaciones. 3.1. Según su
+objeto. 3.2. Según el sujeto. 3.3. Según sus efectos. 4.- Las obligaciones naturales.
 
 toda obligación. 2.- Fuentes de las obligaciones. 2.1. Definición. 2.2. Fuentes
 tradicionales. 2.3. Fuentes no tradicionales. 2.4. Críticas a la clasificación tradicional de
@@ -34,6 +26,16 @@ las fuentes de las obligaciones. 3.- Clasificación de las obligaciones. 3.1. Se
 objeto. 3.2. Según el sujeto. 3.3. Según sus efectos. 4.- Las obligaciones naturales.
 
 ## 4.1. Concepto. 4.2. Casos de obligaciones naturales. 4.3. Efectos de las obligaciones
+
+**Definición Canónica:** naturales. 4.4. Otros casos de obligaciones naturales. 5.- Obligaciones sujetas a
+modalidad. 5.1. Generalidades. 5.2. Las obligaciones condicionales. 5.3. Las
+obligaciones a plazo. 5.4. Las obligaciones modales. 6.- Obligaciones de especie o
+cuerpo cierto y de género. 6.1. Obligaciones de especie o cuerpo cierto. 6.2.
+Obligaciones de género. 7.- Obligaciones con pluralidad de objeto. 7.1.
+Obligaciones de simple objeto múltiple. 7.2. Obligaciones alternativas. 7.3.
+Obligaciones facultativas. 8.- Obligaciones con pluralidad de sujetos. 8.1.
+Introducción. 8.2. Obligaciones simplemente conjuntas o
+**Concordancias Legales:** artículo 1438; artículo 578; artículo 1204 del Código Civil; constitución
 
 naturales. 4.4. Otros casos de obligaciones naturales. 5.- Obligaciones sujetas a
 modalidad. 5.1. Generalidades. 5.2. Las obligaciones condicionales. 5.3. Las
@@ -660,6 +662,16 @@ deudor está obligado a conservarla hasta el momento de la entrega: arts. 1548 y
 
 ## 1549. La secuencia es, entonces: obligación de dar →obligación de conservar →
 
+**Definición Canónica:** obligación de entregar.
+ii.- Varía la ejecución forzada de la obligación: son diversas las normas para el juicio
+ejecutivo, según se trate de obligaciones de dar (artículos 434 a 529 del Código de
+Procedimiento Civil) o de hacer o no hacer (artículos 530 a 544 del Código de
+Procedimiento Civil). En el Código Civil también difieren las normas sobre ejecución
+forzada de las obligaciones de hacer (art. 1553) y de no hacer (art. 1555). En cambio,
+la ejecución forzada de las obligaciones de dar no está regulada en el Código Civil.
+iii.- En la calificación de muebles o inmuebles de los derechos y ac
+**Concordancias Legales:** artículos 434; artículos 530; artículo 46
+
 obligación de entregar.
 ii.- Varía la ejecución forzada de la obligación: son diversas las normas para el juicio
 ejecutivo, según se trate de obligaciones de dar (artículos 434 a 529 del Código de
@@ -977,6 +989,17 @@ dirimirse por la aplicación del art. 1698 y no conforme a la norma del inc. 3°
 
 ## 1547. En conclusión, la prueba de la culpa no se plantea siempre de la misma manera
 
+**Definición Canónica:** en los distintos tipos de obligaciones. En las obligaciones de resultado, la culpa se
+presume. En las obligaciones de medios, usualmente debe ser probada. Por tal razón,
+no hay tampoco diferencias esenciales en la prueba de la infracción a un deber general
+de cuidado en sede extracontractual y la prueba de la negligencia en el cumplimiento
+de una obligación contractual de medios.41
+e.5) Diferencias entre las obligaciones de medios y las de resultado.
+        De lo expuesto, las principales diferencias entre las obligaciones de medios y las
+obligaciones de resultado serían las siguientes:
+i.- E
+**Concordancias Legales:** artículo 1470
+
 en los distintos tipos de obligaciones. En las obligaciones de resultado, la culpa se
 presume. En las obligaciones de medios, usualmente debe ser probada. Por tal razón,
 no hay tampoco diferencias esenciales en la prueba de la infracción a un deber general
@@ -1129,6 +1152,11 @@ sustituirse el concepto de obligación natural por el de deber moral, y esa post
 recogió el viejo Código Suizo de las Obligaciones de 1883, que precedió al actual de
 
 ## 1912. Es el propio Georgi quien en la 7ª edición de su obra dice: ‘nos consideramos
+
+**Definición Canónica:** dichosos viendo cumplidos nuestros presagios, ya que las buenas ideas han avanzado
+tanto que no está lejana la hora en que se persuadirán de ellas hasta los más
+incrédulos’, y agrega luego que el Código Federal Suizo de las Obligaciones de 1883
+**Concordancias Legales:** artículo 1470; artículos 10; artículo 52 del Registro del Conservador de Bienes Raíces; Ley Nº 18.802
 
 dichosos viendo cumplidos nuestros presagios, ya que las buenas ideas han avanzado
 tanto que no está lejana la hora en que se persuadirán de ellas hasta los más
@@ -1874,6 +1902,17 @@ acreedor: nulidad, prescripción, cosa juzgada.
 
 ## parte éstos disponen de alguna de las mencionadas excepciones, para enervar la
 
+**Definición Canónica:** acción del acreedor.85
+         En el caso del N° 1 del art. 1470, no puede invocarse por el tercero la nulidad
+relativa, pues sólo está establecida en favor del incapaz (arts. 1684 y 2354). Por lo
+tanto, la obligación de los terceros garantes de una obligación contraída por
+relativamente incapaces a los que se aplica el Nº 1 del art. 1470, es una obligación
+civil perfecta.
+         En el caso del Nº 2 del art. 1470, si la caución se constituyó después de
+consumada la prescripción, su constitución importará una renuncia tácita de la
+prescripción por el tercero (art. 2518). La obligación del te
+**Concordancias Legales:** artículo 2516; artículo 1470; constitución
+
 acción del acreedor.85
          En el caso del N° 1 del art. 1470, no puede invocarse por el tercero la nulidad
 relativa, pues sólo está establecida en favor del incapaz (arts. 1684 y 2354). Por lo
@@ -1950,6 +1989,17 @@ c) Pago de intereses no estipulados en el mutuo: art. 2208.
 distinta es la norma en las operaciones de crédito de dinero, reguladas por la Ley Nº
 
 ## 18.010. En estas, se presume el pago de intereses, siendo necesario pacto expreso
+
+**Definición Canónica:** para excluirlos. Por lo tanto, en el ámbito de la última ley, quien paga intereses no
+estipulados paga una obligación civil (art. 12 de la Ley Nº 18.010: la gratuidad no se
+presume en las operaciones de crédito de dinero).
+d) Pago por un objeto o causa ilícitos: art. 1468.
+        Se dice sin embargo que no se trata de una obligación natural, sino de una
+sanción por haber actuado conociendo la ilicitud del objeto o de la causa.
+e) Heredero que goza de beneficio de inventario y que sin embargo paga más de lo
+que recibe en herencia (art. 1247).
+f) El deudor que goza de beneficio de competencia y
+**Concordancias Legales:** artículos 1715; Ley Nº 18.010; Ley Nº 19.585; Ley Nº 16.620
 
 para excluirlos. Por lo tanto, en el ámbito de la última ley, quien paga intereses no
 estipulados paga una obligación civil (art. 12 de la Ley Nº 18.010: la gratuidad no se
@@ -2057,6 +2107,12 @@ condiciones positivas o negativas, suspensivas o resolutorias.
 
 ## 1. La condición positiva y suspensiva que es física o moralmente imposible o concebida
 
+**Definición Canónica:** en términos ininteligibles, se reputa fallida: art. 1480, incisos 1º, 2º y 3º. El derecho,
+por ende, no llega a nacer (condición suspensiva físicamente imposible: te daré
+$1.000.000.-, si haces llover con la sola fuerza de tu mente; te daré $100.000.000.-,
+si viajas al planeta Marte y vuelves en 30 días; condición moralmente imposible: o si
+das muerte a X).
+
 en términos ininteligibles, se reputa fallida: art. 1480, incisos 1º, 2º y 3º. El derecho,
 por ende, no llega a nacer (condición suspensiva físicamente imposible: te daré
 $1.000.000.-, si haces llover con la sola fuerza de tu mente; te daré $100.000.000.-,
@@ -2064,6 +2120,14 @@ si viajas al planeta Marte y vuelves en 30 días; condición moralmente imposibl
 das muerte a X).
 
 ## 2. La condición positiva y resolutoria física o moralmente imposible o ininteligible, se
+
+**Definición Canónica:** tiene por no escrita, la obligación es pura y simple: art. 1480, inc. 4º. Esto significa
+que el derecho, que ha nacido, en verdad no se extinguirá (condición resolutoria
+físicamente imposible: te doy por este acto $1.000.000.-, pero deberás devolverme
+esa suma, si mi perro comienza a hablar; te doy $100.000.000.-, pero si viajas al
+planeta Marte y vuelves en el plazo de 30 días, me deberás devolver tal suma;
+condición resolutoria moralmente imposible: te doy por este acto $100.000.000.-, pero
+me deberás devolver esa suma, si das muerte a X).
 
 tiene por no escrita, la obligación es pura y simple: art. 1480, inc. 4º. Esto significa
 que el derecho, que ha nacido, en verdad no se extinguirá (condición resolutoria
@@ -2075,12 +2139,20 @@ me deberás devolver esa suma, si das muerte a X).
 
 ## 3. La condición negativa y suspensiva, cuando es físicamente imposible, se tiene por
 
+**Definición Canónica:** no escrita la condición: art. 1476, 1ª parte, la obligación es pura y simple. El derecho
+nace puro y simple y por ende puede reclamarse (te daré $1.000.000.-, si Pedro no da
+a luz un niño; te daré $100.000.000.-, siempre y cuando no viajes al planeta Marte y
+vuelvas en el plazo de 30 días).
+
 no escrita la condición: art. 1476, 1ª parte, la obligación es pura y simple. El derecho
 nace puro y simple y por ende puede reclamarse (te daré $1.000.000.-, si Pedro no da
 a luz un niño; te daré $100.000.000.-, siempre y cuando no viajes al planeta Marte y
 vuelvas en el plazo de 30 días).
 
 ## 4. La condición negativa y suspensiva moralmente imposible o concebida en términos
+
+**Definición Canónica:** ininteligibles, se tendrá por fallida, pues vicia la disposición: arts. 1476, 2ª parte y
+1480, inc. 2º. Por ejemplo, te daré $5.000.000.-, si no das muerte a X. Nada puede
 
 ininteligibles, se tendrá por fallida, pues vicia la disposición: arts. 1476, 2ª parte y
 1480, inc. 2º. Por ejemplo, te daré $5.000.000.-, si no das muerte a X. Nada puede
@@ -2090,6 +2162,16 @@ ininteligibles, se tendrá por fallida, pues vicia la disposición: arts. 1476, 
 un hecho ilícito.
 
 ## 5. La condición negativa y resolutoria física o moralmente imposible o ininteligible, se
+
+**Definición Canónica:** tiene por no escrita, la obligación es pura y simple (te doy $100.000.000.-, pero si no
+viajas al planeta Marte y vuelves antes de un mes, me devolverás esa suma; te doy
+$ 100.000.000.-, pero si no das muerte a Pedro antes de un año, me devolverás esa
+suma).
+        En síntesis:
+i.- En los casos 1 y 4, no hay obligación (porque la condición se reputa o tiene por
+fallida) y nada puede reclamarse por el pretendido acreedor.
+ii.- En los casos 2, 3 y 5, se consolida el derecho del acreedor, pues no hay condición
+(se tiene por no escrita la condición), la obligación es pura y simple y por ende debe
 
 tiene por no escrita, la obligación es pura y simple (te doy $100.000.000.-, pero si no
 viajas al planeta Marte y vuelves antes de un mes, me devolverás esa suma; te doy
@@ -2136,6 +2218,14 @@ inmueble; o, te presto mi automóvil, pero si llueve, me lo devuelves de inmedia
         Condición mixta es la que en parte depende de la voluntad del acreedor y en
 
 ## parte de la voluntad de un tercero o de un acaso. René Ramos Pazos indica que hay
+
+**Definición Canónica:** una omisión del Código, en cuanto a que también es condición mixta la que en parte
+depende de la voluntad del deudor y en parte de la voluntad de un tercero o de un
+acaso. Este mismo autor proporciona los siguientes ejemplos de condición mixta: te
+doy $1.000.000.- si vas a Santiago el domingo y está bueno el tiempo; te doy
+$1.000.000.- si el próximo año te casas con María89
+     Ramos Pazos, René (1999), ob. cit., p. 136.
+**Concordancias Legales:** artículo 739; artículo 962; artículo 739 del Código Civil; Ley Nº 6.162; Ley Nº 16.952; Ley 6.162; Ley 16.952
 
 una omisión del Código, en cuanto a que también es condición mixta la que en parte
 depende de la voluntad del deudor y en parte de la voluntad de un tercero o de un
@@ -2385,6 +2475,15 @@ vi.- En caso de fallecimiento de alguna de las partes, distinguimos:
 
 ## 1. Si fallece el acreedor condicional, su derecho en germen se transmite a sus
 
+**Definición Canónica:** herederos; del mismo modo, si fallece el deudor condicional, su obligación condicional
+se transmite a sus herederos: “El derecho del acreedor que fallece en el intervalo entre
+el contrato condicional y el cumplimiento de la condición, se transmite a sus
+herederos; y lo mismo sucede con la obligación del deudor” (art. 1492, inc. 1º).
+         La regla anterior, en lo que respecta al fallecimiento del acreedor condicional,
+no se aplica sin embargo en los siguientes casos:
+i) A las asignaciones testamentarias (art. 1078, inc. 2º: “Si el asignatario muere antes
+de cumplirse la condición, no transm
+
 herederos; del mismo modo, si fallece el deudor condicional, su obligación condicional
 se transmite a sus herederos: “El derecho del acreedor que fallece en el intervalo entre
 el contrato condicional y el cumplimiento de la condición, se transmite a sus
@@ -2404,6 +2503,17 @@ condición. La misma regla se aplica a las donaciones entre vivos (arts. 962 y 1
 respectivamente).
 
 ## 2. Si fallece el deudor: la obligación condicional que proviene de un testamento o
+
+**Definición Canónica:** donación entre vivos es transmisible a los herederos del deudor. Además, en este
+caso, reiteramos que el acreedor puede impetrar el beneficio de separación (art.
+1379).
+d.1.2) ¿Quién soporta el riesgo de la pérdida de la cosa debida (cuando es una especie
+o cuerpo cierto), pendiente la condición?
+         Debemos distinguir si la pérdida es fortuita o culpable y si es total o parcial:
+i.- Pérdida total fortuita. Señala el art. 1486, inc. 1º, primera parte: “Si antes del
+cumplimiento de la condición la cosa prometida perece sin culpa del deudor, se
+extingue la obligación”. Se extingue la conven
+**Concordancias Legales:** artículos 1550; artículo 1487; artículo 1814; artículo 1852; artículo 1868; artículo 1489; artículo 1489 del Código Civil; artículo 1489 del Código de Bello para hacer operar los efectos; artículo 1489 del Código Civil no opera de pleno derecho; artículo 1600 del Código Civil; artículo 1601; artículo 310 del Código de Procedimiento Civil no tiene el alc; artículo 1545; artículo 1879; artículo 48; artículo 1880; artículo 1879 del Código Civil; constitución
 
 donación entre vivos es transmisible a los herederos del deudor. Además, en este
 caso, reiteramos que el acreedor puede impetrar el beneficio de separación (art.
@@ -3597,6 +3707,16 @@ Así, por ejemplo, se celebra un contrato de compraventa de un inmueble, y se pa
 
 ## parte del precio al contado, estipulándose que el saldo, será pagado en el plazo de tres
 
+**Definición Canónica:** meses. Mientras no se efectúe dicho pago, hay una condición resolutoria pendiente, lo
+que no impide que el dominio, de todos modos, se radique en el patrimonio del
+comprador. Consecuencias de lo anterior:
+i.- El acreedor puede demandar el inmediato cumplimiento de la obligación (o sea, el
+comprador puede exigirle al vendedor que cumpla su obligación de entregar la cosa
+vendida).
+ii.- Si el título es traslaticio de dominio, puede verificarse la tradición y el adquirente
+será dueño de la cosa o derecho, aunque sujeta al peligro de extinguirse o perderse (el
+comprador podrá inscribir a su nombre 
+
 meses. Mientras no se efectúe dicho pago, hay una condición resolutoria pendiente, lo
 que no impide que el dominio, de todos modos, se radique en el patrimonio del
 comprador. Consecuencias de lo anterior:
@@ -3617,6 +3737,16 @@ e.4.3) Efectos de la condición resolutoria cumplida.
         Se extingue el derecho para uno, desaparece la obligación para el otro (art.
 
 ## 1567 N° 9). La condición resolutoria cumplida opera retroactivamente. Así, la
+
+**Definición Canónica:** resolución de un contrato de compraventa por falta de pago del precio, aniquila el
+contrato, éste se reputa no haber existido jamás, y las partes tendrán derecho -en
+principio-, a que se les restituya al mismo estado en que se encontrarían si no
+hubiesen contratado (por ende, se ordenará por el juez la cancelación de la inscripción
+que se había efectuado a nombre del comprador).
+        Para estudiar los efectos de la condición resolutoria cumplida, debemos
+distinguir entre aquellos que se producen entre las partes y respecto a los terceros.
+e.4.3.1) Efectos de la condición resolutoria cumplid
+**Concordancias Legales:** artículo 1487
 
 resolución de un contrato de compraventa por falta de pago del precio, aniquila el
 contrato, éste se reputa no haber existido jamás, y las partes tendrán derecho -en
@@ -3710,6 +3840,16 @@ concepto del legislador, el deudor adquirió condicionalmente la cosa fructuaria
 hizo dueño de los frutos pura y simplemente. En el mismo sentido, los arts. 1078,
 
 ## 1338 N° 1. En consecuencia, se requiere de un texto legal expreso o una explícita
+
+**Definición Canónica:** declaración de voluntad para que se deban los frutos percibidos pendiente la condición
+(así, en la compraventa, art. 1875, resolución del contrato por no pago del precio).
+     Sintetizando este punto, observamos:
+i) La regla general, del art. 1487, establece que las partes deben retrotraerse al estado
+previo del momento en que celebraron el contrato o se defirió la asignación sujeta a la
+condición resolutoria (efecto ex tunc).
+ii) Dicha regla general, se altera en el art. 1488, en lo concerniente a los frutos, pues
+no se restituyen, o sea, respecto a ellos, no hay efecto retroactivo (efecto e
+**Concordancias Legales:** artículo 1875; artículos 1490; artículo 1490; artículos 1499; artículo 1500; artículo 1499; artículo 1873 del Código Civil. No pudiendo; artículo 1487; artículo 1873 del Código Civil; artículo 1873; artículo 1489; artículo 1526; artículos 999; artículo 1089; artículo 1126; artículos 1090; artículo 1505; artículo 1287; artículo 1516; artículo 1514; artículo 1523; artículo 1983 del Código Civil; artículo 18 del Código de Procedimiento Civil. La acción se d; artículo 1522; artículo 2325; artículo 2330; artículo 2320 del Código Civil; artículo 2317 del Código Civil; artículo 1511 del Código Civil. En consecuencia; artículo 20; Ley Nº 20.720; Ley Nº 18.092; Ley Nº 18.290; ley Nº 20.667; Ley Nº 19.496; constitución
 
 declaración de voluntad para que se deban los frutos percibidos pendiente la condición
 (así, en la compraventa, art. 1875, resolución del contrato por no pago del precio).
@@ -6638,6 +6778,10 @@ inc. 2º del Código Civil, ‘entre varios obligados [a prestar alimentos] por 
 
 ## título, el juez distribuirá la obligación en proporción a sus facultades”. Siendo así, nos
 
+**Definición Canónica:** parece que estamos frente a un caso de obligación simplemente conjunta que tiene la
+particularidad de que la distribución no se hace por iguales partes, sino en proporción a
+las facultades económicas de los deudores”.203
+
 parece que estamos frente a un caso de obligación simplemente conjunta que tiene la
 particularidad de que la distribución no se hace por iguales partes, sino en proporción a
 las facultades económicas de los deudores”.203
@@ -6740,6 +6884,16 @@ herederos. Este inconveniente de las obligaciones solidarias puede evitarse pact
 que aun cuando fallezca uno de los deudores, no podrá efectuarse un pago parcial: art.
 
 ## 1526 N° 4. El acreedor tendrá entonces derecho a exigir a cualquiera de los herederos
+
+**Definición Canónica:** del deudor, el pago íntegro de la obligación.
+        La clasificación de las obligaciones en divisibles e indivisibles depende de la
+naturaleza del objeto debido, si es o no divisible. Sin embargo, no en toda obligación
+influye la naturaleza del objeto debido, porque el problema de la indivisibilidad no se
+presenta siempre, sino que tiene lugar cuando en la obligación existe pluralidad de
+sujetos. Cuando no estamos ante obligaciones con pluralidad de sujetos, cuando hay
+un acreedor y un deudor, la obligación, aunque por su naturaleza sea divisible, debe
+ser ejecutada como si fuera indivisible
+**Concordancias Legales:** artículo 1526; artículo 1354; artículos 1533; Ley Nº 18.092
 
 del deudor, el pago íntegro de la obligación.
         La clasificación de las obligaciones en divisibles e indivisibles depende de la

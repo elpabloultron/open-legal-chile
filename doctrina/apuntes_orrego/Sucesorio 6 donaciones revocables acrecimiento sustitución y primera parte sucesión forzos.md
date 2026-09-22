@@ -15,6 +15,15 @@ extraccion: pdftotext
 
 ## Cuarta parte: de las donaciones revocables. 1
 
+**Definición Canónica:** Sumario:
+Introducción: donaciones revocables y donaciones irrevocables.
+1.- Concepto de donación revocable.
+2.- Requisitos de las donaciones revocables.
+3.- Efectos de las donaciones revocables.
+4.- Confirmación de la donación revocable.
+5.- Extinción de las donaciones revocables.
+6.- Las asignaciones forzosas priman sobre las donaciones revocables.
+**Concordancias Legales:** artículo 1138; constitución
 
 Sumario:
 Introducción: donaciones revocables y donaciones irrevocables.
@@ -288,26 +297,11 @@ los acervos imaginarios, volveremos a ocuparnos de las donaciones revocables.
 
 Sumario:
 
-## Enunciación
-
-
-## Capítulo i: el derecho de acrecimiento
-
-1.- Concepto.
-2.- Requisitos para que opere el acrecimiento.
-3.- Características del acrecimiento.
-4.- Efectos del acrecimiento.
-5.- El acrecimiento en el usufructo.
-
-## Capítulo ii: la sustitución
-
-1.- Concepto.
-2.- Clases de sustitución.
-
-## Capítulo iii: concurrencia de los derechos anteriores con el derecho de
-
-
 ## Representación y de transmisión
+
+**Definición Canónica:** 1.- Cómo concurre el derecho de transmisión con el de acrecimiento y sustitución.
+2.- El derecho de representación y el de transmisión no concurren entre sí.
+3.- Concurrencia de la representación con el acrecimiento y la sustitución.
 
 1.- Cómo concurre el derecho de transmisión con el de acrecimiento y sustitución.
 2.- El derecho de representación y el de transmisión no concurren entre sí.
@@ -641,6 +635,14 @@ ello el art. 1164, inc. final, establece que esta sustitución se rige por lo di
 
 ## título de la propiedad fiduciaria (arts. 733 a 763). Así, por ejemplo, el testador
 
+**Definición Canónica:** instituye como su legataria en determinado inmueble a Pilar, pero, instituye como
+legatario sustituto a José, si éste jura como abogado dentro del plazo de cinco años,
+contados desde el fallecimiento del causante.
+        La diferencia esencial entre una y otra sustitución, en lo tocante a sus efectos,
+es que la primera opera a la muerte del testador (cuando el primer asignatario falte),
+mientras que la segunda opera después de abierta de la sucesión, una vez que se
+cumpla la condición impuesta por el testador.
+
 instituye como su legataria en determinado inmueble a Pilar, pero, instituye como
 legatario sustituto a José, si éste jura como abogado dentro del plazo de cinco años,
 contados desde el fallecimiento del causante.
@@ -738,10 +740,11 @@ los fideicomisos sucesivos.
 ii.- En segundo lugar, el art. 1166 deja en claro que la sustitución fideicomisaria no se
 presume, de modo que en caso de duda, la sustitución ha de entenderse vulgar.
 
-
 ## Capitulo iii: concurrencia de los derechos anteriores con el derecho de
 
-                    REPRESENTACION Y DE TRANSMISION.
+**Definición Canónica:** REPRESENTACION Y DE TRANSMISION.
+
+REPRESENTACION Y DE TRANSMISION.
 
        Hemos señalado que cuatro son los derechos que pueden concurrir en una
 sucesión: transmisión, representación, acrecimiento y sustitución.
@@ -825,6 +828,11 @@ expresas”. Art. 1167.
        Las asignaciones forzosas se regulan en el Título V del Libro III, arts. 1167 a
 
 ## 1211 El título se divide en los siguientes párrafos: 1° “De las asignaciones alimenticias
+
+**Definición Canónica:** que se deben a ciertas personas”, arts. 1168 a 1171; 2° “De la porción conyugal”
+(derogado); 3° “De las legítimas y mejoras”, arts. 1181 a 1206; 4° “De los
+desheredamientos”, arts. 1207 a 1211.
+**Concordancias Legales:** artículo 1168; artículo 959 del Código Civil; artículo 959; constitución
 
 que se deben a ciertas personas”, arts. 1168 a 1171; 2° “De la porción conyugal”
 (derogado); 3° “De las legítimas y mejoras”, arts. 1181 a 1206; 4° “De los
@@ -987,7 +995,17 @@ de la herencia (artículo 959 número 4) y una asignación forzosa (art. 1167, i
 
 ## N° 1). 16
 
-        En la misma línea, Maricruz Gómez de la Torre Vargas estima que “Otra
+**Definición Canónica:** En la misma línea, Maricruz Gómez de la Torre Vargas estima que “Otra
+característica de la obligación alimenticia es su intransmisibilidad. Si fallece el
+alimentante, la obligación alimenticia no pasa a los herederos, pero se hace exigible
+sobre el patrimonio del causante como baja general de la herencia (art. 959, N° 4 del
+Código Civil). En el caso que el testador haya dispuesto que uno de los herederos
+pague alimentos, será una deuda hereditaria.” 17
+        Para Rodríguez Grez 18, la opinión acerca de no ser transmisible la obligación
+alimenticia contraviene el espíritu y la letra de la ley
+**Concordancias Legales:** artículo 959
+
+En la misma línea, Maricruz Gómez de la Torre Vargas estima que “Otra
 característica de la obligación alimenticia es su intransmisibilidad. Si fallece el
 alimentante, la obligación alimenticia no pasa a los herederos, pero se hace exigible
 sobre el patrimonio del causante como baja general de la herencia (art. 959, N° 4 del
@@ -1032,6 +1050,15 @@ algunos asignatarios (pero sin que al hacerlo, grave sus legítimas o la asignac
 cuarta de mejoras, o sea, debiera dejarle a ese o esos asignatarios gravados toda o
 
 ## parte de la cuarta de libre disposición; excepcionalmente, podría gravarse la cuarta de
+
+**Definición Canónica:** mejoras, pero siempre y cuando el alimentario hubiere sido un asignatario potencial de
+dicha cuarta), y el alimentario les exija el pago a tal o tales asignatarios, quedando los
+demás integrantes de la sucesión exonerados de responsabilidad por este concepto.
+3° Que el causante imponga la obligación de pagar los alimentos a un asignatario o
+algunos asignatarios, pero el alimentario opte por demandar a otros herederos, por su
+cuota, caso en el cual, si éstos pagaren, podrán repetir en contra de los primeros.
+        Meza Barros, en fin, después de aludir a las dos posibilidades que pueden darse
+**Concordancias Legales:** artículo 1694
 
 mejoras, pero siempre y cuando el alimentario hubiere sido un asignatario potencial de
 dicha cuarta), y el alimentario les exija el pago a tal o tales asignatarios, quedando los
@@ -1101,6 +1128,12 @@ la muerte del causante.
 
 ## 2. Para otros, la ley sólo quiso referirse a las pensiones alimenticias que a la muerte
 
+**Definición Canónica:** del alimentante se encontraban devengadas pero no pagadas, y no a pensiones
+futuras, habida cuenta que la obligación alimenticia no se transmite a los herederos del
+obligado. La principal refutación a esta doctrina, es la enunciada, en cuanto a que el
+art. 959 alude en numerales distintos a las deudas hereditarias y a los alimentos que el
+causante debía por ley a ciertas personas.
+
 del alimentante se encontraban devengadas pero no pagadas, y no a pensiones
 futuras, habida cuenta que la obligación alimenticia no se transmite a los herederos del
 obligado. La principal refutación a esta doctrina, es la enunciada, en cuanto a que el
@@ -1108,6 +1141,15 @@ art. 959 alude en numerales distintos a las deudas hereditarias y a los alimento
 causante debía por ley a ciertas personas.
 
 ## 3. Una tercera doctrina, que ha prevalecido en las Cortes, entiende que no obstante
+
+**Definición Canónica:** ser intransmisible la obligación alimenticia, el Código alude a pensiones futuras y no
+atrasadas. En tal sentido, son los bienes del causante, y no los bienes de sus
+herederos, los que han de soportar el pago futuro de las pensiones, de manera que
+habría que apartar un capital de la sucesión o destinar algunos bienes hereditarios que
+puedan generar frutos, para responder de la obligación mientras ésta subsista.
+        También hay opiniones discrepantes en cuanto a entender cuál debía ser el
+presupuesto para concluir que los alimentos efectivamente “se debían” por el
+causante. Parece razonable
 
 ser intransmisible la obligación alimenticia, el Código alude a pensiones futuras y no
 atrasadas. En tal sentido, son los bienes del causante, y no los bienes de sus
@@ -1250,6 +1292,16 @@ asignaciones testamentarias o abintestato.
        Si la ley otorga al alimentario otra asignación forzosa, ello implica que llevará
 
 ## parte del patrimonio o masa de bienes que sirve de antecedente para la fijación o
+
+**Definición Canónica:** cuantificación de este derecho. Así, por ejemplo, si un ascendiente es llamado a una
+legítima rigorosa, este solo hecho hace desaparecer su derecho de alimentos, puesto
+que, con relación a la masa hereditaria, este heredero no carece de bienes para
+subsistir. Desaparece el derecho de alimentos, pues desaparece el presupuesto de todo
+alimentario: carecer de bienes suficientes para una congrua sustentación.
+       Por lo tanto, en el ejemplo, podría el ascendiente renunciar a su legítima,
+optando por el derecho de alimentos que en vida le pagaba el causante, en razón de
+una sentencia o una trans
+**Concordancias Legales:** artículo 1170; artículos 323; artículo 1170 del Código Civil; Ley N° 14.908; Ley N° 19.968; constitución
 
 cuantificación de este derecho. Así, por ejemplo, si un ascendiente es llamado a una
 legítima rigorosa, este solo hecho hace desaparecer su derecho de alimentos, puesto
@@ -1434,11 +1486,19 @@ disposición, consiste no en la devolución de las pensiones pagadas, sino en la
 de los alimentos futuros, como consecuencia de que ellos aparecen desproporcionados
 a las fuerzas del patrimonio hereditario. 28
 
-
 ## 4.6. Naturaleza jurídica de los alimentos: ¿Asignación a título singular?
 
+**Definición Canónica:** Esta asignación es, sin duda, afirma Rodríguez Grez, una asignación a título
+singular y la única entre esta clase de asignaciones, impuesta por la ley.
+        Varias razones se indican para llegar a esta conclusión: 29
+a) Es indudable que el asignatario de alimentos forzosos no sucede al causante en
+todos sus bienes, derechos y obligaciones transmisibles o en una parte o cuota de
+ellos, como señala el art. 951, inc. 2º. Este asignatario sucede al causante en una o
+más especies indeterminadas de cierto género (pensiones que se pagan en dinero o en
+especie, según acuerden todos los interesados 
+**Concordancias Legales:** artículo 1363; artículo 959
 
-        Esta asignación es, sin duda, afirma Rodríguez Grez, una asignación a título
+Esta asignación es, sin duda, afirma Rodríguez Grez, una asignación a título
 singular y la única entre esta clase de asignaciones, impuesta por la ley.
         Varias razones se indican para llegar a esta conclusión: 29
 a) Es indudable que el asignatario de alimentos forzosos no sucede al causante en
