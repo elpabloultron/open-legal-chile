@@ -58,3 +58,6 @@ brag-output/
 *.db-shm
 *.db-wal
 *.db-journal
+
+# Datos derivados y regenerables (los publica Hugging Face, no el repo)
+data/*.jsonl
