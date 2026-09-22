@@ -13,19 +13,15 @@ extraccion: pdftotext
 
 **Tratadistas:** Academia Judicial de Chile | **Área:** Familia | **Materia:** Familia
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Violencia
+             intrafamiliar:
+             fenómeno
+             psicosocial y
+             marco regulatorio
 
-             Violencia
+Violencia
              intrafamiliar:
              fenómeno
              psicosocial y
@@ -46,19 +42,21 @@ extraccion: pdftotext
 
              Academia Judicial de Chile | www.academiajudicial.cl
 
-## Serie de
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Jessica
+                                   Arenas
+                                   Paredes
+                             Candidata a Doctora en Derecho y
+                             Máster en Investigación en Ciencias
+                             Jurídicas de la Universidad de Alcalá,
+                             Máster en Mediación y Asesoramiento
+                             Familiar de la       Universidad   Pontifi-
+                             cia Comillas de Madrid y Magíster en
+                             Humanidades. Es Jueza de Familia y
+                             desde 2012 se d
 
-                             Jessica
+Jessica
                                    Arenas
                                    Paredes
                              Candidata a Doctora en Derecho y
@@ -89,26 +87,21 @@ Nº 24                        ha realizado labores de tutoría para
 Santiago,                    Sernameg y docencia en la Academia
 Chile 2021                   Judicial y Cajval.
 
-
-## Isbn n°
-
-
-## 2022-a-1841
-
-
-## l   SERIE DE
-
-
-## Documentos
-
-
-## Materiales
-
-
 ## Docentes
 
+**Definición Canónica:** Gabriel
+                    Autores
+                                   Carrillo
+                                   Rozas
+    Academia                  Abogado, Magíster en Derecho Penal y
+    Judicial                  Proceso Penal, por la Universidad Mayor,
+    de Chile                  Magíster en Derecho, Mención Derecho
+                              Público, por la Universidad Autónoma de
+    Diseño y                  Chile. Es además Diplomado en Derecho
+    Diagramación:             Penal Especial, por la Universidad Ma-
+    Estudio Real              yor, Diplomado en Derecho y Postítulo
 
-                              Gabriel
+Gabriel
                     Autores
                                    Carrillo
                                    Rozas
@@ -155,250 +148,30 @@ Chile 2021                   Judicial y Cajval.
 
                                          Introducción                                                                                             10
 
-
-## 1. Aspectos psicosociales de la violencia intrafamiliar                                                  12
-
-
-
-## 1.1 Consideraciones generales sobre violencia intrafamiliar                                          13
-
-
-
-## 1.1.1 Violencia como un problema de salud pública                                               13
-
-
-
-## 1.1.2 Aspectos psicosociales de la violencia intrafamiliar: necesidad de un abordaje integral   16
-
-
-
-## 1.1.3 Aspectos psicosociales de la violencia intrafamiliar: enfoques y modelos explicativos
-
-
-                                                        de la violencia intrafamiliar                                                             18
-
-
-## 1.2 Violencia intrafamiliar desde la perspectiva psicosocial                                         34
-
-
-
-## 1.2.1 Violencia y agresividad                                                                   34
-
-
-
-## 1.2.2 Hacia una definición de violencia intrafamiliar                                           35
-
-
-
-## 1.3 Tipologías y/o manifestaciones de la violencia intrafamiliar y sujetos pasivos                   39
-
-
-
-## 1.3.1 Tipologías y/o manifestaciones de la violencia intrafamiliar                              40
-
-
-
-## 1.3.2 Los sujetos pasivos, víctimas/sobrevivientes de la violencia intrafamiliar                43
-
-
-
-## 2. La violencia intrafamiliar en el Derecho Internacional de los Derechos Humanos                        61
-
-
-
-## 2.1 La violencia como un problema de derechos humanos                                                62
-
-
-
-## 2.2 El derecho de las mujeres a vivir una vida libre de violencia consagrado
-
-                                                   en los instrumentos internacionales de derechos humanos                                        64
-
-
-## 2.2.1 Convención sobre la Eliminación de todas las formas de Discriminación
-
-                                                        contra la Mujer (CEDAW)                                                                   64
-
-
-## 2.2.2 Declaración y Plan de Acción de Viena (1993)                                              66
-
-
-
-## 2.2.3 Declaración sobre la Eliminación de la Violencia contra la Mujer (1994)                   68
-
-
-
-## 2.2.4 Convención Interamericana para Prevenir, Sancionar y Erradicar la violencia
-
-                                         º              contra la Mujer (Belem do Pará)                                                           69
-
-
-## 2.2.5 Declaración sobre el Femicidio                                                            73
-
-
-
-## 2.2.6 Recomendación General 35 del Comité CEDAW                                                 74
-
-
-
-## 2.2.7 Ley Modelo Interamericana para Prevenir, Sancionar y Erradicar la Muerte Violenta
-
-                                                        de Mujeres y Niñas (Femicidio/Feminicidio)                                                75
-
-
-## 2.3 Obligaciones y estándares del sistema de derechos humanos aplicables a los casos
-
-                                                 de violencia contra las mujeres                                                                  79
-
-
-## 2.3.1 Obligaciones del Estado en materia de Derechos Humanos de las mujeres                     79
-
-Violencia intrafamiliar:                                                            Índice                                                           6
-
-
-## 2.3.2 Estándares jurídicos relacionados con la violencia contra la mujer                      81
-
-
-
-## 2.3.3 Estándares especiales aplicables a los casos de violencia extrema contra las mujeres   83
-
-
-
-## 2.3.4 Material complementario                                                                88
-
-
-
-## 2.4 El derecho a vivir una vida libre de violencia de otras personas que se encuentran
-
-                                                en situación de vulnerabilidad                                                                 90
-
-
-## 2.4.1 Violencia respecto de NNA como un problema de Derechos Humanos                         90
-
-
-
-## 2.4.2 El derecho de las personas mayores a vivir una vida libre de violencia consagrado
-
-                                                        en los instrumentos internacionales de Derechos Humanos                                94
-
-
-## 2.4.3 El derecho de las personas con discapacidad a vivir una vida libre de violencia
-
-                                                        consagrado en los instrumentos internacionales de Derechos Humanos                     97
-
-
-## 3. Violencia intrafamiliar en el ordenamiento jurídico chileno                                        101
-
-
-
-## 3.1 Síntesis de la evolución legislativa nacional en materia de violencia intrafamiliar            102
-
-
-
-## 3.2 La violencia intrafamiliar en la legislación vigente                                           104
-
-
-
 ## 3.2.1 El concepto de violencia intrafamiliar                                                 105
 
-
-                                                  3.2.2 Competencia para el conocimiento y juzgamiento de la Violencia intrafamiliar:
+**Definición Canónica:** 3.2.2 Competencia para el conocimiento y juzgamiento de la Violencia intrafamiliar:
                                                         violencia constitutiva y no constitutiva de delito                                     109
 
-
-## 3.3 Violencia intrafamiliar no constitutiva de delito                                              111
-
-
-
-## 3.4 Violencia intrafamiliar constitutiva de delito                                                 112
-
-
-
-## 3.4.1 Violencia intrafamiliar constitutiva de delito en la Ley N° 20.066: el delito
-
-                                                        de maltrato habitual                                                                   112
-
-
-## 3.4.2 Los delitos de maltrato corporal relevante y el trato degradante introducidos
-
-                                                        por la Ley N° 21.013                                                                   122
-
-
-## 3.4.3 El delito de femicidio                                                                 128
-
-
-
-## 4. Abordaje práctico de la violencia intrafamiliar                                                    138
-
-
-
-## 4.1 El procedimiento de violencia intrafamiliar en los juzgados de familia                         139
-
-
-
-## 4.1.1 Características del procedimiento de violencia intrafamiliar                           139
-
-
-
-## 4.1.2 Estructura del procedimiento                                                           140
-
-
-
-## 4.1.3 Etapa inicial del procedimiento: la denuncia o demanda                                 140
-
-
-
-## 4.1.4 Etapa inicial del procedimiento: la denuncia o demanda de terceros                     144
-
-
-
-## 4.1.5 Audiencia preliminar o cautelar                                                        148
-
-
-
-## 4.1.6 Audiencia preparatoria                                                                 150
-
-
-
-## 4.1.7 Potestad cautelar                                                                      156
-
-
-
-## 4.1.8 Término del procedimiento de violencia intrafamiliar en los juzgados de familia        164
-
-
-
-## 4.2 Procedimiento ordinario por crimen o simple delito de acción penal pública                     168
-
-Violencia intrafamiliar:                                                             Índice                                                                   7
-
-
-## 4.2.1   La víctima: el proceso penal en hipótesis de violencia intrafamiliar constitutiva de delito   168
-
-
+3.2.2 Competencia para el conocimiento y juzgamiento de la Violencia intrafamiliar:
+                                                        violencia constitutiva y no constitutiva de delito                                     109
 
 ## 4.2.2   Rol de la víctima en procedimiento penal en hipótesis de violencia intrafamiliar
 
-                                                          constitutiva de delito                                                                        168
+**Definición Canónica:** constitutiva de delito                                                                        168
+
+constitutiva de delito                                                                        168
 
                                             4.3 El trabajo con violencia intrafamiliar: necesidad de autocuidado                                        177
 
                                             4.4 El Poder Judicial frente a la violencia intrafamiliar: el acceso a la justicia                          180
 
-
-## 4.4.1   Iniciativas institucionales en materia de violencia                                           180
-
-
-                                            4.5 Estado del arte en el Poder Judicial: ¿cómo estamos realmente?                                          182
-
-
-## 4.5.1   Acceso a la justicia de las mujeres víctimas de violencia usuarias del Poder Judicial         182
-
-
-
 ## 4.5.2   Protocolo de actuación para la atención en justicia con enfoque de género
 
-                                                          y diversidad sexual                                                                           184
+**Definición Canónica:** y diversidad sexual                                                                           184
+**Concordancias Legales:** Ley Nº 20.066; Constitucion
+
+y diversidad sexual                                                                           184
 
                                          Bibliografía                                                                                                   190
 
@@ -564,10 +337,11 @@ fenómeno psicosocial                                                     la vio
 
                                                                           — Definición, tipologías, manifestaciones y consecuencias de la violencia.
 
-
 ## 1.1     Consideraciones generales sobre violencia
 
-                                                                        intrafamiliar
+**Definición Canónica:** intrafamiliar
+
+intrafamiliar
 
                                                                         La primera idea que permite aproximarnos y sobre la que se sus-
                                                                         tenta nuestro análisis en esta materia es la siguiente: la violencia
@@ -587,10 +361,13 @@ fenómeno psicosocial                                                     la vio
                                                                         explicativos, concentrando en los capítulos 2 y 3 el estudio del marco
                                                                         jurídico que regula el fenómeno.
 
-
 ## 1.1.1 Violencia como un problema de salud pública
 
-                                                                        En 1993 la OMS/OPS reconoce que la violencia contra las mujeres
+**Definición Canónica:** En 1993 la OMS/OPS reconoce que la violencia contra las mujeres
+                                                                        e intrafamiliar es un problema importante de salud pública y de
+                                                                        derechos humanos atendida su magnitud, relevancia, pérdidas eco-
+
+En 1993 la OMS/OPS reconoce que la violencia contra las mujeres
                                                                         e intrafamiliar es un problema importante de salud pública y de
                                                                         derechos humanos atendida su magnitud, relevancia, pérdidas eco-
 
@@ -631,10 +408,15 @@ fenómeno psicosocial                                                           
                                                                                                negativamente el bienestar de los individuos y de la población y
                                                                                                puede analizarse desde su magnitud o su letalidad”.4
 
-
 ## 1        oms/ops resolución cd 37.19 1993
 
-                                                       2        Cada año, 1,4 millones de personas pierden la vida debido a la violencia. Por cada una que muere hay mu-
+**Definición Canónica:** 2        Cada año, 1,4 millones de personas pierden la vida debido a la violencia. Por cada una que muere hay mu-
+                                                                chas más con lesiones y con diversos problemas de salud física, sexual, reproductiva y mental. Fuente: OMS,
+                                                                disponible en https://www.who.int/features/factfiles/violence/es/
+                                                       3        OMS (2014) Informe sobre la situación mundial de la prevención de la violencia. Disponible en https://www.
+             
+
+2        Cada año, 1,4 millones de personas pierden la vida debido a la violencia. Por cada una que muere hay mu-
                                                                 chas más con lesiones y con diversos problemas de salud física, sexual, reproductiva y mental. Fuente: OMS,
                                                                 disponible en https://www.who.int/features/factfiles/violence/es/
                                                        3        OMS (2014) Informe sobre la situación mundial de la prevención de la violencia. Disponible en https://www.
@@ -642,8 +424,11 @@ fenómeno psicosocial                                                           
 
 ## 4        PANIAGUA, (2013) p.4
 
+**Definición Canónica:** Violencia intrafamiliar:                                        1. Aspectos psicosociales de                                          15
+fenómeno psicosocial                                               la violencia intrafamiliar
+**Concordancias Legales:** constitucion
 
-Violencia intrafamiliar:                                        1. Aspectos psicosociales de                                          15
+Violencia intrafamiliar:                                        1. Aspectos psicosociales de                                          15
 fenómeno psicosocial                                               la violencia intrafamiliar
 
                                                                   El diagnóstico del informe se constituye en una herramienta valiosa
@@ -703,10 +488,16 @@ fenómeno psicosocial                                                           
                                                                                                     texto constitucional que invoca el recurrente, pero que sin duda
                                                                                                     desconoce en sus alcances y ámbitos de protección”.6
 
-
 ## 1.1.2 Aspectos psicosociales de la violencia
 
-                                                                                                intrafamiliar: necesidad de un abordaje integral
+**Definición Canónica:** intrafamiliar: necesidad de un abordaje integral
+                                                                                                La violencia intrafamiliar desde el ámbito psicosocial es un fenómeno
+                                                                                                complejo, multicausal y multidimensional. En efecto, es multicausal
+                                                                                                porque obedece a diversos factores o causas que originan y explican
+                                                         
+**Concordancias Legales:** Ley Nº 19.968
+
+intrafamiliar: necesidad de un abordaje integral
                                                                                                 La violencia intrafamiliar desde el ámbito psicosocial es un fenómeno
                                                                                                 complejo, multicausal y multidimensional. En efecto, es multicausal
                                                                                                 porque obedece a diversos factores o causas que originan y explican
@@ -776,10 +567,12 @@ fenómeno psicosocial                                               la violencia
                                                                   y prejuicios que inciden en la impunidad que promueve la tolerancia
                                                                   y naturalización de la violencia.
 
-
 ## 1.1.3 Aspectos psicosociales de la violencia
 
-                                                                  intrafamiliar: enfoques y modelos explicativos
+**Definición Canónica:** intrafamiliar: enfoques y modelos explicativos
+                                                                  de la violencia intrafamiliar
+
+intrafamiliar: enfoques y modelos explicativos
                                                                   de la violencia intrafamiliar
 
                                                                   En el párrafo anterior explicamos que la complejidad que caracte-
@@ -1047,11 +840,15 @@ fenómeno psicosocial                                                           
                                                                                           En la tabla Nº 10 de los Anexos se adjunta una Tabla con verificado-
                                                                                           res de la aplicación del método de juzgar con perspectiva de género.
 
-
 ## 1.1.3.4 Modelos explicativos de la violencia
 
+**Definición Canónica:** intrafamiliar: Modelo Ecológico Multidimensional
+                                                                                          Este modelo de comprensión de la violencia se basa en el modelo
+                                                                                          ecológico de Urie Bronfenbrenner (1979, 1987), que “integra en la
+                                                                                          génesis de un fenómeno múltiples niveles de análisis que se inter-
+                                                                                    
 
-                                                                                          intrafamiliar: Modelo Ecológico Multidimensional
+intrafamiliar: Modelo Ecológico Multidimensional
                                                                                           Este modelo de comprensión de la violencia se basa en el modelo
                                                                                           ecológico de Urie Bronfenbrenner (1979, 1987), que “integra en la
                                                                                           génesis de un fenómeno múltiples niveles de análisis que se inter-
@@ -1244,10 +1041,15 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                     1. Aspectos psicosociales de                                                   29
 fenómeno psicosocial                                                                            la violencia intrafamiliar
 
-
 ## 1.1.3.5 Modelos explicativos de la violencia
 
-                                                                                               intrafamiliar: el ciclo de la violencia
+**Definición Canónica:** intrafamiliar: el ciclo de la violencia
+                                                                                               Es un modelo descriptivo desde la perspectiva de quien ejerce la
+                                                                                               violencia y se utiliza solo para la violencia ejercida en contra de la
+                                                                                               pareja. La búsqueda de dominio y control por parte de quién ejer-
+                                                                         
+
+intrafamiliar: el ciclo de la violencia
                                                                                                Es un modelo descriptivo desde la perspectiva de quien ejerce la
                                                                                                violencia y se utiliza solo para la violencia ejercida en contra de la
                                                                                                pareja. La búsqueda de dominio y control por parte de quién ejer-
@@ -1326,10 +1128,15 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                   1. Aspectos psicosociales de                                             32
 fenómeno psicosocial                                                                          la violencia intrafamiliar
 
-
 ## 1.1.3.7 Modelos explicativos de la violencia
 
-                                                                                               intrafamiliar: el circuito del abuso en el sistema
+**Definición Canónica:** intrafamiliar: el circuito del abuso en el sistema
+                                                                                               familiar o modelo de sistemas abusivos
+                                                                                               Este modelo surge desde el trabajo terapéutico y fue planteado por
+                                                                                               la psiquiatra María Cristina Ravazzola.28 Considera a tres actores
+                                                                                           
+
+intrafamiliar: el circuito del abuso en el sistema
                                                                                                familiar o modelo de sistemas abusivos
                                                                                                Este modelo surge desde el trabajo terapéutico y fue planteado por
                                                                                                la psiquiatra María Cristina Ravazzola.28 Considera a tres actores
@@ -1376,15 +1183,13 @@ fenómeno psicosocial                                               la violencia
 Violencia intrafamiliar:                                                                  1. Aspectos psicosociales de                                          34
 fenómeno psicosocial                                                                         la violencia intrafamiliar
 
-
-## 1.2             Violencia intrafamiliar desde la
-
-                                                                                            perspectiva psicosocial
-
-
 ## 1.2.1 Violencia y agresividad
 
-                                                                                            ¿Cree Ud. que la violencia es innata o aprendida? ¿Puede una persona
+**Definición Canónica:** ¿Cree Ud. que la violencia es innata o aprendida? ¿Puede una persona
+                                                                                            que ejerce actos violentos controlar su conducta? ¿Qué conductas
+                                                                                            violentas nos resultan tolerables? ¿Hay violencia tolerable?
+
+¿Cree Ud. que la violencia es innata o aprendida? ¿Puede una persona
                                                                                             que ejerce actos violentos controlar su conducta? ¿Qué conductas
                                                                                             violentas nos resultan tolerables? ¿Hay violencia tolerable?
 
@@ -1466,7 +1271,9 @@ fenómeno psicosocial                                                           
 
 ## 35       Temas de Salud, Violencia. Disponible en https://www.who.int/topics/violence/es/
 
-                                                       36       Ibidem.
+**Definición Canónica:** 36       Ibidem.
+
+36       Ibidem.
 
 Violencia intrafamiliar:                                                                    1. Aspectos psicosociales de                                               36
 fenómeno psicosocial                                                                           la violencia intrafamiliar
@@ -1568,10 +1375,13 @@ fenómeno psicosocial                                               la violencia
 Violencia intrafamiliar:                                              1. Aspectos psicosociales de                                                       39
 fenómeno psicosocial                                                     la violencia intrafamiliar
 
-
 ## 1.3     Tipologías y/o manifestaciones de la
 
-                                                                        violencia intrafamiliar y sujetos
+**Definición Canónica:** violencia intrafamiliar y sujetos
+                                                                        pasivos
+**Concordancias Legales:** Ley Nº 20.066
+
+violencia intrafamiliar y sujetos
                                                                         pasivos
 
                                                                         La ley de violencia intrafamiliar N° 20.066 al no ser específica
@@ -1633,7 +1443,13 @@ fenómeno psicosocial                                                           
 
 ## 1.3.1.1 Violencia física
 
-                                                       maltrato invisible        Es aquella que transgrede la indemnidad física de una persona.
+**Definición Canónica:** maltrato invisible        Es aquella que transgrede la indemnidad física de una persona.
+                                                       que, al ser ejercido      En principio es de las violencias que más fácilmente se significa e
+                                                       en un ámbito              identifica como tal, sin embargo, esto se verifica respecto de ciertas
+                                                       privado, de               manifestaciones de violencia que implican golpes directos como
+                                                                  
+
+maltrato invisible        Es aquella que transgrede la indemnidad física de una persona.
                                                        que, al ser ejercido      En principio es de las violencias que más fácilmente se significa e
                                                        en un ámbito              identifica como tal, sin embargo, esto se verifica respecto de ciertas
                                                        privado, de               manifestaciones de violencia que implican golpes directos como
@@ -1709,14 +1525,12 @@ fenómeno psicosocial                                                           
                                                                                               activo, dicha conducta es percibida y sus consecuencias vividas de
                                                                                               manera distinta que si ella se desplegara en otro contexto”.41
 
-
-## 40       CMC, rol N°7170-2016, sentencia 8 de mayo de 2017, C.17 y 20
-
-
 ## 41       CMC, rol N°7170-2016, CMC, 8 de mayo de 2017, C.13
 
+**Definición Canónica:** Violencia intrafamiliar:                                                                   1. Aspectos psicosociales de                                           42
+fenómeno psicosocial                                                                          la violencia intrafamiliar
 
-Violencia intrafamiliar:                                                                   1. Aspectos psicosociales de                                           42
+Violencia intrafamiliar:                                                                   1. Aspectos psicosociales de                                           42
 fenómeno psicosocial                                                                          la violencia intrafamiliar
 
                                                        Consiste en                           Otra resolución jurídica la entiende como “toda acción u omisión que
@@ -1730,7 +1544,13 @@ fenómeno psicosocial                                                           
 
 ## 1.3.1.3 Violencia sexual
 
-                                                       coacción o                            Consiste en imponer o forzar actos de connotación sexual, usando
+**Definición Canónica:** coacción o                            Consiste en imponer o forzar actos de connotación sexual, usando
+                                                       aprovechándose                        amenazas, intimidación, coacción o aprovechándose de un estado
+                                                       de un estado de                       de inconciencia, enajenación mental, discapacidad, vulnerando,
+                                                                                             perturbando o amenazando el derecho de las mujeres a la libertad
+                           
+
+coacción o                            Consiste en imponer o forzar actos de connotación sexual, usando
                                                        aprovechándose                        amenazas, intimidación, coacción o aprovechándose de un estado
                                                        de un estado de                       de inconciencia, enajenación mental, discapacidad, vulnerando,
                                                                                              perturbando o amenazando el derecho de las mujeres a la libertad
@@ -1783,20 +1603,33 @@ fenómeno psicosocial                                               la violencia
                                                                   cobra directamente su pensión o se distraen sus recursos, con in-
                                                                   dependencia de la autonomía que estos presenten.
 
-
 ## 1.3.1.5 Negligencia o abandono
 
-                                                                  Se da en aquellos casos en que los responsables del cuidado –prin-
+**Definición Canónica:** Se da en aquellos casos en que los responsables del cuidado –prin-
+                                                                  cipalmente de niños, niñas y/o adolescentes y persona mayor en
+                                                                  situación de dependencia– no les atienden ni satisfacen sus necesi-
+                                                                  dades básicas; ya sean físicas, psicológicas, sociales o intelectuales.
+                                                                  Va en un gradiente, pudiendo el abandono generar consecuencias
+   
+
+Se da en aquellos casos en que los responsables del cuidado –prin-
                                                                   cipalmente de niños, niñas y/o adolescentes y persona mayor en
                                                                   situación de dependencia– no les atienden ni satisfacen sus necesi-
                                                                   dades básicas; ya sean físicas, psicológicas, sociales o intelectuales.
                                                                   Va en un gradiente, pudiendo el abandono generar consecuencias
                                                                   fatales en quienes son absolutamente dependientes.
 
-
 ## 1.3.1.6 Abuso de la vivienda de la persona mayor
 
-                                                                  Se especifica esta conducta toda vez que el artículo VII de la Ley
+**Definición Canónica:** Se especifica esta conducta toda vez que el artículo VII de la Ley
+                                                                  Nº 20.066 la tipifica como una situación de riesgo inminente y que
+                                                                  visibiliza la realidad que viven muchos adultos mayores de este país
+                                                                  que siendo propietarios o poseedores de un inmueble, acogen en
+                                                                  ellos a descendientes y sus grupos familiares, quienes terminan limi-
+
+**Concordancias Legales:** Ley Nº 20.066
+
+Se especifica esta conducta toda vez que el artículo VII de la Ley
                                                                   Nº 20.066 la tipifica como una situación de riesgo inminente y que
                                                                   visibiliza la realidad que viven muchos adultos mayores de este país
                                                                   que siendo propietarios o poseedores de un inmueble, acogen en
@@ -1805,10 +1638,14 @@ fenómeno psicosocial                                               la violencia
                                                                   a dependencias secundarias, la mayoría de las veces en deficientes
                                                                   condiciones de habitabilidad.
 
-
 ## 1.3.2 Los sujetos pasivos, víctimas/
 
-                                                                  sobrevivientes de la violencia intrafamiliar
+**Definición Canónica:** sobrevivientes de la violencia intrafamiliar
+                                                                  Las manifestaciones de violencia que hemos analizado tienen en
+                                                                  común la existencia de una relación asimétrica entre agresor y
+                                                                  víctima, que se basa en la especial situación de vulnerabilidad en la
+
+sobrevivientes de la violencia intrafamiliar
                                                                   Las manifestaciones de violencia que hemos analizado tienen en
                                                                   común la existencia de una relación asimétrica entre agresor y
                                                                   víctima, que se basa en la especial situación de vulnerabilidad en la
@@ -1855,10 +1692,12 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                      1. Aspectos psicosociales de                                                   45
 fenómeno psicosocial                                                                             la violencia intrafamiliar
 
-
 ## 1.3.2.1 Violencia ejercida contra la mujer
 
-                                                                                                A modo de introducción y reflexión les presentamos los siguientes
+**Definición Canónica:** A modo de introducción y reflexión les presentamos los siguientes
+                                                                                                videos:
+
+A modo de introducción y reflexión les presentamos los siguientes
                                                                                                 videos:
 
                                                                                                     Aún no es tarde para ti. Spot sobre feminicidio premiado
@@ -2106,11 +1945,12 @@ fenómeno psicosocial                                                           
                                                                                              disfunciones duraderas en los principales sistemas neurorreguladores,
                                                                                              así como alteraciones en el desarrollo de estructuras cerebrales fun-
 
-
 ## 51       Documento OMS disponible en https://www.who.int/topics/child_abuse/es/
 
+**Definición Canónica:** Violencia intrafamiliar:                                                                    1. Aspectos psicosociales de                                            52
+fenómeno psicosocial                                                                           la violencia intrafamiliar
 
-Violencia intrafamiliar:                                                                    1. Aspectos psicosociales de                                            52
+Violencia intrafamiliar:                                                                    1. Aspectos psicosociales de                                            52
 fenómeno psicosocial                                                                           la violencia intrafamiliar
 
                                                                                               damentales. Lo anterior se relaciona con la presencia de déficits en el
@@ -2123,10 +1963,11 @@ fenómeno psicosocial                                                           
                                                                                               y “Trauma del desarrollo”.52 Los indicadores y mitos acerca del maltrato
                                                                                               infantil serán consignados en los anexos de este manual.
 
-
 ## 1.3.2.3 Violencia hacia las personas mayores
 
-                                                                                              Antes de comenzar nuestro análisis, les presentamos los siguientes
+**Definición Canónica:** Antes de comenzar nuestro análisis, les presentamos los siguientes
+
+Antes de comenzar nuestro análisis, les presentamos los siguientes
 
                                                                                               videos:
 
@@ -2152,10 +1993,11 @@ fenómeno psicosocial                                                           
                                                                                               directamente y en las que su voluntad no sea atendida en función
                                                                                               de la aparente condición de vulnerabilidad que entraña la vejez”.53
 
-
 ## 52       Véase www2.papelesdelpsicologo.es/pdf/2934.pdf
 
-                                                       53       CMC, Rit F 7696-2014, 1 de marzo de 2014, C. 17.
+**Definición Canónica:** 53       CMC, Rit F 7696-2014, 1 de marzo de 2014, C. 17.
+
+53       CMC, Rit F 7696-2014, 1 de marzo de 2014, C. 17.
 
 Violencia intrafamiliar:                                        1. Aspectos psicosociales de                                             53
 fenómeno psicosocial                                               la violencia intrafamiliar
@@ -2204,10 +2046,13 @@ fenómeno psicosocial                                               la violencia
                                                                   Nº 8 con los indicadores de maltrato, mitos y estereotipos asociados
                                                                   a la vejez.
 
-
 ## 1.3.2.4 Violencia hacia las personas con discapacidad
 
-                                                                  Antes de comenzar nuestro análisis, les presentamos el siguiente
+**Definición Canónica:** Antes de comenzar nuestro análisis, les presentamos el siguiente
+                                                                  video que explica los resultados generales del II Estudio Nacional
+                                                                  de la Discapacidad - Resultados Generales de SENADIS.
+
+Antes de comenzar nuestro análisis, les presentamos el siguiente
                                                                   video que explica los resultados generales del II Estudio Nacional
                                                                   de la Discapacidad - Resultados Generales de SENADIS.
 
@@ -2259,10 +2104,12 @@ fenómeno psicosocial                                                           
                                                                                               algunas de estas formas de violencia estructural que permean sin duda
                                                                                               la violencia al interior de la familia, son las siguientes:56
 
-
 ## 54       Disponible en https://www.senadis.gob.cl/pag/310/1574/glosario
 
-                                                       55       Ídem.
+**Definición Canónica:** 55       Ídem.
+                                                       56       JIMÉNEZ, Rodrigo (2008): Derecho y discapacidad (Fundación Justicia y Género, Costa Rica), p. 150-51.
+
+55       Ídem.
                                                        56       JIMÉNEZ, Rodrigo (2008): Derecho y discapacidad (Fundación Justicia y Género, Costa Rica), p. 150-51.
 
 Violencia intrafamiliar:                                        1. Aspectos psicosociales de                                                  56
@@ -2464,10 +2311,11 @@ fenómeno psicosocial                                                           
                                                                                                  — Deberes del Estado frente a la violencia ejercida sobre grupos en situa-
                                                                                                    ción de vulnerabilidad y estándares mínimos para su abordaje.
 
-
 ## 2.1               La violencia como un problemade
 
-                                                                                               derechos humanos
+**Definición Canónica:** derechos humanos
+
+derechos humanos
 
                                                                                                La violencia vulnera los derechos y libertades fundamentales de la
                                                        La violencia vulnera                    víctima y, en la medida que se encuentra enraizada en estructuras
@@ -2514,10 +2362,13 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                     2. La violencia intrafamiliar en el Derecho                                  64
 fenómeno psicosocial                                                                            Internacional de los Derechos Humanos
 
-
 ## 2.2               El derecho de las mujeres a vivir una
 
-                                                                                               vida librede violencia consagrado en
+**Definición Canónica:** vida librede violencia consagrado en
+                                                                                               los instrumentos internacionales de
+                                                                                               derechos humanos
+
+vida librede violencia consagrado en
                                                                                                los instrumentos internacionales de
                                                                                                derechos humanos
 
@@ -2529,10 +2380,15 @@ fenómeno psicosocial                                                           
                                                                                                     Dra. Liliana Tojo “Las convenciones internacionales que
                                                                                                     se refieren a los derechos de las mujeres”
 
-
 ## 2.2.1 Convención sobre la Eliminación de todas las
 
-                                                                                               formas de Discriminación contra la Mujer (CEDAW)
+**Definición Canónica:** formas de Discriminación contra la Mujer (CEDAW)
+                                                                                               La Convención sobre la Eliminación de todas las formas de Dis-
+                                                                                               criminación contra la Mujer (CEDAW)60, es considerada la Carta
+                                                                                               Magna de los derechos humanos de la mujer, en virtud de la cual los
+                                                                        
+
+formas de Discriminación contra la Mujer (CEDAW)
                                                                                                La Convención sobre la Eliminación de todas las formas de Dis-
                                                                                                criminación contra la Mujer (CEDAW)60, es considerada la Carta
                                                                                                Magna de los derechos humanos de la mujer, en virtud de la cual los
@@ -2629,10 +2485,15 @@ fenómeno psicosocial                                                           
                                                                                                  se adopten medidas para impedir la coacción relativas a la fecundidad y la
                                                                                                  reproducción.
 
-
 ## 2.2.2 Declaración y Plan de Acción de Viena (1993)
 
-                                                                                                 En el año 1993 se desarrolló en Viena la Conferencia Mundial de
+**Definición Canónica:** En el año 1993 se desarrolló en Viena la Conferencia Mundial de
+                                                                                                 Derechos Humanos, aprobándose la Declaración y Plan de Acción de
+                                                                                                 Viena64 y si bien era una Conferencia para tratar temas generales de
+                                                                                                 derechos humanos, las mujeres organizadas en ONG y otras agru-
+                                                
+
+En el año 1993 se desarrolló en Viena la Conferencia Mundial de
                                                                                                  Derechos Humanos, aprobándose la Declaración y Plan de Acción de
                                                                                                  Viena64 y si bien era una Conferencia para tratar temas generales de
                                                                                                  derechos humanos, las mujeres organizadas en ONG y otras agru-
@@ -2684,10 +2545,15 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                    2. La violencia intrafamiliar en el Derecho                                    68
 fenómeno psicosocial                                                                           Internacional de los Derechos Humanos
 
-
 ## 2.2.3 Declaración sobre la Eliminación de
 
-                                                                                              la Violencia contra la Mujer (1994)
+**Definición Canónica:** la Violencia contra la Mujer (1994)
+                                                                                              Al año siguiente de la Declaración y Plan de Acción de Viena, la
+                                                                                              Asamblea General de Naciones Unidas66 aprobó la Declaración sobre
+                                                                                              la eliminación de la violencia contra la mujer, en cuyo Preámbulo se fijan
+                                                                            
+
+la Violencia contra la Mujer (1994)
                                                                                               Al año siguiente de la Declaración y Plan de Acción de Viena, la
                                                                                               Asamblea General de Naciones Unidas66 aprobó la Declaración sobre
                                                                                               la eliminación de la violencia contra la mujer, en cuyo Preámbulo se fijan
@@ -2725,10 +2591,15 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                    2. La violencia intrafamiliar en el Derecho                                       69
 fenómeno psicosocial                                                                           Internacional de los Derechos Humanos
 
-
 ## 2.2.4 Convención Interamericana para
 
-                                                                                              Prevenir, Sancionar y Erradicar la violencia
+**Definición Canónica:** Prevenir, Sancionar y Erradicar la violencia
+                                                                                              contra la Mujer (Belem do Pará)
+                                                                                              La Convención Interamericana para Prevenir, Sancionar y Erra-
+                                                                                              dicar la Violencia contra la Mujer (Belém do Pará)67, es el primer
+                                                                                              instrumento intern
+
+Prevenir, Sancionar y Erradicar la violencia
                                                                                               contra la Mujer (Belem do Pará)
                                                                                               La Convención Interamericana para Prevenir, Sancionar y Erra-
                                                                                               dicar la Violencia contra la Mujer (Belém do Pará)67, es el primer
@@ -2855,8 +2726,9 @@ fenómeno psicosocial                                                           
 
 ## parte contraria”.69
 
+**Definición Canónica:** En cuanto a la implementación efectiva de la Convención, se cons-
 
-                                                                                               En cuanto a la implementación efectiva de la Convención, se cons-
+En cuanto a la implementación efectiva de la Convención, se cons-
 
                                                                                                tató que requería de un proceso de evaluación y apoyo continuo
                                                                                                e independiente, para lo cual se creó en 2004 el Mecanismo de
@@ -2892,10 +2764,14 @@ fenómeno psicosocial                                                           
                                                                                                    Informe Estado Chileno, Tercera ronda de evaluaciones
                                                                                                    (2015-…)
 
-
 ## 2.2.5 Declaración sobre el Femicidio
 
-                                                                                              En el año 2008 se aprobó la Declaración sobre el femicidio elabo-
+**Definición Canónica:** En el año 2008 se aprobó la Declaración sobre el femicidio elabo-
+                                                                                              rada por el Comité de Expertas del Mecanismo de Seguimiento de
+                                                                                              la Convención de Belém do Pará70, en ella se reconoce el grave pro-
+                                                                                              blema del femicidio en América Latina y el Caribe, declarando que
+
+En el año 2008 se aprobó la Declaración sobre el femicidio elabo-
                                                                                               rada por el Comité de Expertas del Mecanismo de Seguimiento de
                                                                                               la Convención de Belém do Pará70, en ella se reconoce el grave pro-
                                                                                               blema del femicidio en América Latina y el Caribe, declarando que
@@ -2933,10 +2809,16 @@ fenómeno psicosocial                                                           
                                                                                               intervienen.
                                                                                            e. Fortalecer los sistemas de información.
 
-
 ## 2.2.6 Recomendación General 35 del Comité CEDAW
 
-                                                                                           Esta Recomendación General 3573 parte de la base del respaldo que
+**Definición Canónica:** Esta Recomendación General 3573 parte de la base del respaldo que
+                                                                                           los Estados han dado a la Recomendación General 19, en orden a
+                                                                                           entender la violencia contra la mujer como una forma de discri-
+                                                                                           minación, con lo que “la prohibición de la violencia por razón de
+                                                                    
+**Concordancias Legales:** artículo 13
+
+Esta Recomendación General 3573 parte de la base del respaldo que
                                                                                            los Estados han dado a la Recomendación General 19, en orden a
                                                                                            entender la violencia contra la mujer como una forma de discri-
                                                                                            minación, con lo que “la prohibición de la violencia por razón de
@@ -3131,17 +3013,23 @@ fenómeno psicosocial                                               Internaciona
 Violencia intrafamiliar:                                                                     2. La violencia intrafamiliar en el Derecho                                  79
 fenómeno psicosocial                                                                            Internacional de los Derechos Humanos
 
-
 ## 2.3               Obligaciones y estándares del
 
-                                                                                               sistemade derechos humanos
+**Definición Canónica:** sistemade derechos humanos
                                                                                                aplicables a los casos de violencia
                                                                                                contra las mujeres
 
+sistemade derechos humanos
+                                                                                               aplicables a los casos de violencia
+                                                                                               contra las mujeres
 
 ## 2.3.1 Obligaciones del Estado en materia
 
-                                                                                               de Derechos Humanos de las mujeres
+**Definición Canónica:** de Derechos Humanos de las mujeres
+                                                                                               Los tratados internacionales generan obligaciones para los Estados,
+                                                                                               los cuales pueden resumirse del siguiente modo:78
+
+de Derechos Humanos de las mujeres
                                                                                                Los tratados internacionales generan obligaciones para los Estados,
                                                                                                los cuales pueden resumirse del siguiente modo:78
 
@@ -3159,10 +3047,14 @@ fenómeno psicosocial                                                           
                                                                                                protección del Sistema Interamericano. Los deberes enunciados en
                                                                                                la norma son los siguientes (Art. 7):
 
-
 ## 78       Cuadro elaborado por la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos
 
-                                                                en Guatemala –OACNUDH–, en coordinación con la Sección de Género de la Sede de OACNUDH en Gine-
+**Definición Canónica:** en Guatemala –OACNUDH–, en coordinación con la Sección de Género de la Sede de OACNUDH en Gine-
+                                                                bra, con base en el Estudio “Análisis de Sentencias de Tribunales Penales sobre delitos de Femicidio y otras
+                                                                formas de Violencia contra la Mujer desde el enfoque de Derechos Humanos y de Género”, realizado por la
+                                                                abogada Andrea Suárez Trueba, Consultora – OACNUDH, p. 16.
+
+en Guatemala –OACNUDH–, en coordinación con la Sección de Género de la Sede de OACNUDH en Gine-
                                                                 bra, con base en el Estudio “Análisis de Sentencias de Tribunales Penales sobre delitos de Femicidio y otras
                                                                 formas de Violencia contra la Mujer desde el enfoque de Derechos Humanos y de Género”, realizado por la
                                                                 abogada Andrea Suárez Trueba, Consultora – OACNUDH, p. 16.
@@ -3227,10 +3119,12 @@ fenómeno psicosocial                                                           
                                                                                                 un mensaje según el cual, la violencia contra las mujeres puede ser
                                                                                                 tolerada y aceptada como parte del diario vivir”.80
 
-
 ## 2.3.2 Estándares jurídicos relacionados
 
-                                                                                                con la violencia contra la mujer
+**Definición Canónica:** con la violencia contra la mujer
+                                                                                                En el sistema interamericano se han desarrollado de modo signifi-
+
+con la violencia contra la mujer
                                                                                                 En el sistema interamericano se han desarrollado de modo signifi-
 
                                                                                                 cativo una serie de estándares jurídicos relacionados a la violencia
@@ -3305,10 +3199,15 @@ fenómeno psicosocial                                                           
                                                                                           derechos humanos de las mujeres en los operadores/as de justicia y
                                                                                           en la sociedad en su conjunto.
 
-
 ## 2.3.3 Estándares especiales aplicables a los casos
 
-                                                                                          de violencia extrema contra las mujeres
+**Definición Canónica:** de violencia extrema contra las mujeres
+                                                                                          La violencia extrema hacia las mujeres es un fenómeno que lamen-
+                                                                                          tablemente ha adquirido especial incidencia y relevancia en Latinoa-
+                                                                                          mérica, circunstancia que ha llevado a los organismos internacionales
+                                                                                      
+
+de violencia extrema contra las mujeres
                                                                                           La violencia extrema hacia las mujeres es un fenómeno que lamen-
                                                                                           tablemente ha adquirido especial incidencia y relevancia en Latinoa-
                                                                                           mérica, circunstancia que ha llevado a los organismos internacionales
@@ -3546,10 +3445,12 @@ fenómeno psicosocial                                                           
                                                                                                                               la mujer, el grado y la intensidad de la vio-
                                                                                                                               lencia aplicada será mayor.
 
-
 ## 2.3.4 Material complementario
 
-                                                                                         Los instrumentos internacionales que hemos analizado van constru-
+**Definición Canónica:** Los instrumentos internacionales que hemos analizado van constru-
+                                                                                         yendo un sistema con determinados estándares de cumplimento, que
+
+Los instrumentos internacionales que hemos analizado van constru-
                                                                                          yendo un sistema con determinados estándares de cumplimento, que
 
                                                                                          a su vez, se va apoyando en algunos documentos generados desde
@@ -3592,10 +3493,13 @@ fenómeno psicosocial                                               Internaciona
 Violencia intrafamiliar:                                                                      2. La violencia intrafamiliar en el Derecho                                    90
 fenómeno psicosocial                                                                             Internacional de los Derechos Humanos
 
-
 ## 2.4               El derecho a vivir una vida libre de
 
-                                                                                                violenciade otras personas que se
+**Definición Canónica:** violenciade otras personas que se
+                                                                                                encuentran
+                                                                                                en situación de vulnerabilidad
+
+violenciade otras personas que se
                                                                                                 encuentran
                                                                                                 en situación de vulnerabilidad
 
@@ -3616,10 +3520,16 @@ fenómeno psicosocial                                                           
                                                                                                 es autónomo y tiene particularidades que lo explican y distinguen
                                                                                                 de la violencia de género y la ejercida en contextos familiares.
 
-
 ## 2.4.1 Violencia respecto de NNA como un
 
-                                                                                                problema de Derechos Humanos
+**Definición Canónica:** problema de Derechos Humanos
+                                                                                                La Convención Internacional sobre los Derechos del Niño fue
+                                                                                                aprobada por la Asamblea General el 20 de noviembre de 1989 y
+                                                                                                ratificada por el Chile el 14 de agosto de 1990. Este instrumento
+                                                                                               
+**Concordancias Legales:** artículo 19.1 de la CIDN reconoce como un derecho fundamen
+
+problema de Derechos Humanos
                                                                                                 La Convención Internacional sobre los Derechos del Niño fue
                                                                                                 aprobada por la Asamblea General el 20 de noviembre de 1989 y
                                                                                                 ratificada por el Chile el 14 de agosto de 1990. Este instrumento
@@ -3763,10 +3673,16 @@ fenómeno psicosocial                                               Internaciona
                                                                     combatir la violencia contra los NNA o supervisar y evaluar las
                                                                     medidas destinadas a ponerles fin, entre otras.
 
-
 ## 2.4.2 El derecho de las personas mayores a vivir
 
-                                                                  una vida libre de violencia consagrado en los
+**Definición Canónica:** una vida libre de violencia consagrado en los
+                                                                  instrumentos internacionales de Derechos Humanos
+                                                                  Los cambios demográficos experimentados durante el siglo XX signi-
+                                                                  ficaron un aumento considerable de la población mayor, los índices
+                                                                  de envejecimiento aumentaron aceleradamente y, por primera vez
+                                            
+
+una vida libre de violencia consagrado en los
                                                                   instrumentos internacionales de Derechos Humanos
                                                                   Los cambios demográficos experimentados durante el siglo XX signi-
                                                                   ficaron un aumento considerable de la población mayor, los índices
@@ -3794,10 +3710,15 @@ fenómeno psicosocial                                                           
                                                                                               garantizan específicamente el derecho de este grupo humano a vivir
                                                                                               una vida libre de violencia.
 
-
 ## 2.4.2.1 Principios de las Naciones Unidas
 
-                                                                                              en favor de las personas de edad
+**Definición Canónica:** en favor de las personas de edad
+                                                                                              Los Principios de las Naciones Unidas en favor de las personas de
+                                                                                              edad fueron aprobados por resolución 46/91 de la Asamblea General
+                                                                                              de las Naciones Unidas con fecha 16 de diciembre de 1991. Este
+                                                                                          
+
+en favor de las personas de edad
                                                                                               Los Principios de las Naciones Unidas en favor de las personas de
                                                                                               edad fueron aprobados por resolución 46/91 de la Asamblea General
                                                                                               de las Naciones Unidas con fecha 16 de diciembre de 1991. Este
@@ -3814,10 +3735,15 @@ fenómeno psicosocial                                                           
                                                                                               mentales, con independencia de su edad, sexo, raza o procedencia
                                                                                               étnica, discapacidad u otras condiciones.93
 
-
 ## 2.4.2.2 Convención Interamericana sobre
 
-                                                                                              la Protección de los Derechos Humanos
+**Definición Canónica:** la Protección de los Derechos Humanos
+                                                                                              de las Personas Mayores (CIPDHPM)
+                                                                                              El 15 de junio de 2015 la Asamblea General de la OEA aprobó la
+                                                                                              Convención Interamericana sobre la Protección de los Derechos
+                                                                                              Humanos de las Personas May
+
+la Protección de los Derechos Humanos
                                                                                               de las Personas Mayores (CIPDHPM)
                                                                                               El 15 de junio de 2015 la Asamblea General de la OEA aprobó la
                                                                                               Convención Interamericana sobre la Protección de los Derechos
@@ -3885,10 +3811,15 @@ fenómeno psicosocial                                                           
                                                                                               o degradantes que atenten contra la seguridad e integridad de la
                                                                                               persona mayor.
 
-
 ## 2.4.3 El derecho de las personas con discapacidad
 
-                                                                                              a vivir una vida libre de violencia consagrado en los
+**Definición Canónica:** a vivir una vida libre de violencia consagrado en los
+                                                                                              instrumentos internacionales de Derechos Humanos
+                                                                                              En este capítulo explicamos la evolución del derecho internacional de
+                                                                                              los derechos humanos en orden al reconocimiento de los derechos
+                                                                                 
+
+a vivir una vida libre de violencia consagrado en los
                                                                                               instrumentos internacionales de Derechos Humanos
                                                                                               En este capítulo explicamos la evolución del derecho internacional de
                                                                                               los derechos humanos en orden al reconocimiento de los derechos
@@ -3908,10 +3839,15 @@ fenómeno psicosocial                                                           
                                                                                               Comité CEDAW, la discriminación en este contexto es entendida
                                                                                               como una forma de violencia.
 
-
 ## 2.4.3.1 Principios para la protección de los
 
-                                                                                              Enfermos Mentales y el Mejoramiento de
+**Definición Canónica:** Enfermos Mentales y el Mejoramiento de
+                                                                                              la Atención de la Salud Mental:96
+                                                                                              Estos principios constituyen el primer pronunciamiento de Na-
+                                                                                              ciones Unidas sobre la discapacidad, cuya relevancia reside en que
+                                                                                              posiciona a las person
+
+Enfermos Mentales y el Mejoramiento de
                                                                                               la Atención de la Salud Mental:96
                                                                                               Estos principios constituyen el primer pronunciamiento de Na-
                                                                                               ciones Unidas sobre la discapacidad, cuya relevancia reside en que
@@ -3940,10 +3876,16 @@ fenómeno psicosocial                                                           
                                                                                              relaciones sexuales, matrimonio y la procreación y releva la necesidad
                                                                                              de evitar y sancionar el abuso sexual y todas las formas de maltrato.97
 
-
 ## 2.4.3.2 Convención sobre los Derechos
 
-                                                                                             de las Personas con Discapacidad
+**Definición Canónica:** de las Personas con Discapacidad
+                                                                                             La Asamblea General de Naciones Unidas aprobó el 13 de diciembre
+                                                                                             de 2006 esta Convención, que fue ratificada por Chile en el mes de
+                                                                                             julio de 2018. Este instrumento se orienta a la promoción y protec-
+                                                                                        
+**Concordancias Legales:** artículo 16
+
+de las Personas con Discapacidad
                                                                                              La Asamblea General de Naciones Unidas aprobó el 13 de diciembre
                                                                                              de 2006 esta Convención, que fue ratificada por Chile en el mes de
                                                                                              julio de 2018. Este instrumento se orienta a la promoción y protec-
@@ -3958,10 +3900,11 @@ fenómeno psicosocial                                                           
                                                                                              ámbito familiar o fuera de él, señalando que debe tenerse en especial
                                                                                              consideración la interseccionalidad de edad y género.
 
-
 ## 97       Aprobada por la Asamblea General de Naciones Unidas, 48º periodo de sesiones resolución 48/96, 20 de
 
-                                                                diciembre de 1993.
+**Definición Canónica:** diciembre de 1993.
+
+diciembre de 1993.
 
 Violencia intrafamiliar:                                        2. La violencia intrafamiliar en el Derecho                              99
 fenómeno psicosocial                                               Internacional de los Derechos Humanos
@@ -4051,10 +3994,13 @@ fenómeno psicosocial                                                     ordena
                                                                           — Análisis de los diversos tipos penales de violencia intrafamiliar no cons-
                                                                             titutiva de delito.
 
-
 ## 3.1     Síntesis de la evolución legislativa
 
-                                                                        nacionalen materia de violencia
+**Definición Canónica:** nacionalen materia de violencia
+                                                                        intrafamiliar
+**Concordancias Legales:** Ley N° 19.325; Ley N° 19.968; Ley N° 20.066; Ley N° 20.427; Ley N° 21.013
+
+nacionalen materia de violencia
                                                                         intrafamiliar
 
                                                                         En el presente texto hemos explicado y reiterado la idea que el ca-
@@ -4120,10 +4066,11 @@ fenómeno psicosocial                                               ordenamiento
 Violencia intrafamiliar:                                              3. Violencia intrafamiliar en el                                             104
 fenómeno psicosocial                                                     ordenamiento jurídico chileno
 
-
 ## 3.2     La violencia intrafamiliaren la
 
-                                                                        legislación vigente
+**Definición Canónica:** legislación vigente
+
+legislación vigente
 
                                                                              Para comenzar el análisis normativo de la violencia intrafa-
                                                                              miliar, los invitamos a ver el siguiente video introductorio:
@@ -4172,10 +4119,15 @@ fenómeno psicosocial                                                     ordena
 Violencia intrafamiliar:                                            3. Violencia intrafamiliar en el                                                  105
 fenómeno psicosocial                                                   ordenamiento jurídico chileno
 
-
 ## 3.2.1 El concepto de violencia intrafamiliar
 
-                                                                      La Ley N° 20.066 en el artículo V define la hipótesis general de vio-
+**Definición Canónica:** La Ley N° 20.066 en el artículo V define la hipótesis general de vio-
+                                                                      lencia intrafamiliar del siguiente modo: “Todo maltrato que afecta
+                                                                      la vida o la integridad física o psíquica de quien tenga o haya tenido
+                                                                      la calidad (vínculo con el agresor)”.
+**Concordancias Legales:** Ley N° 20.066; Ley Nº 20.066
+
+La Ley N° 20.066 en el artículo V define la hipótesis general de vio-
                                                                       lencia intrafamiliar del siguiente modo: “Todo maltrato que afecta
                                                                       la vida o la integridad física o psíquica de quien tenga o haya tenido
                                                                       la calidad (vínculo con el agresor)”.
@@ -4201,10 +4153,16 @@ fenómeno psicosocial                                                   ordenami
                                                                 O      personas mayores,                               nuncien.
                                                                 S      entre otras.
 
-
 ## 3.2.1.1 Conducta
 
-                                                                      Si bien la conducta es regulada en la ley de manera amplia como todo
+**Definición Canónica:** Si bien la conducta es regulada en la ley de manera amplia como todo
+                                                                      maltrato, lo que permite comprender todos los tipos de violencia, se
+                                                                      ha criticado que, al no enunciar las distintas formas en que se puede
+                                                                      ejercer violencia, se las invisibiliza. Lo anterior se explica porque
+                                                                      si se tiene una norma que no precisa las c
+**Concordancias Legales:** Ley N° 19.968
+
+Si bien la conducta es regulada en la ley de manera amplia como todo
                                                                       maltrato, lo que permite comprender todos los tipos de violencia, se
                                                                       ha criticado que, al no enunciar las distintas formas en que se puede
                                                                       ejercer violencia, se las invisibiliza. Lo anterior se explica porque
@@ -4248,10 +4206,16 @@ fenómeno psicosocial                                                           
                                                                                                efecto que ello sea producto de una decisión consciente o involuntaria
                                                                                                del cuidador”.99
 
-
 ## 3.2.1.2 Vínculo
 
-                                                                                               Las hipótesis vinculares de la Ley Nº 20.066 son más amplias que las
+**Definición Canónica:** Las hipótesis vinculares de la Ley Nº 20.066 son más amplias que las
+                                                                                               contempladas en la derogada Ley Nº 19.325, y los criterios conforme
+                                                                                               a los cuales se optó por esta regulación son los siguientes:
+                                                                                               — En el contexto de la relación de pareja, brindar una igual pro-
+                                                   
+**Concordancias Legales:** Ley Nº 20.066; Ley Nº 19.325; ley N° 20.066
+
+Las hipótesis vinculares de la Ley Nº 20.066 son más amplias que las
                                                                                                contempladas en la derogada Ley Nº 19.325, y los criterios conforme
                                                                                                a los cuales se optó por esta regulación son los siguientes:
                                                                                                — En el contexto de la relación de pareja, brindar una igual pro-
@@ -4343,10 +4307,16 @@ fenómeno psicosocial                                               ordenamiento
                                                                   si hubiera estado casada con alguno de ellos, si podría serlo, no
                                                                   obstante la separación de hecho.
 
-
 ## 3.2.1.3 Daño
 
-                                                                  El artículo V al definir violencia intrafamiliar exige que la conducta
+**Definición Canónica:** El artículo V al definir violencia intrafamiliar exige que la conducta
+                                                                  maltratante afecte, esto es, que exista una lesión a una o más de los
+                                                                  siguientes bienes jurídicos: vida, integridad física e integridad psíquica
+                                                                  de la víctima. El daño al constituir un elemento de la definición de vio-
+                                                                  lencia debe ser acreditado en juicio, siendo e
+**Concordancias Legales:** artículo 14 de la Ley N; Ley Nº 20.066; Ley N° 20.066
+
+El artículo V al definir violencia intrafamiliar exige que la conducta
                                                                   maltratante afecte, esto es, que exista una lesión a una o más de los
                                                                   siguientes bienes jurídicos: vida, integridad física e integridad psíquica
                                                                   de la víctima. El daño al constituir un elemento de la definición de vio-
@@ -4411,10 +4381,12 @@ fenómeno psicosocial                                               ordenamiento
 Violencia intrafamiliar:                                              3. Violencia intrafamiliar en el                                      111
 fenómeno psicosocial                                                     ordenamiento jurídico chileno
 
-
 ## 3.3     Violencia intrafamiliar
 
-                                                                        no constitutiva de delito
+**Definición Canónica:** no constitutiva de delito
+**Concordancias Legales:** Ley Nº 20.066
+
+no constitutiva de delito
 
                                                                         La violencia intrafamiliar no constitutiva de delito es denominada
                                                                         habitualmente como violencia intrafamiliar y es de conocimiento de
@@ -4430,15 +4402,16 @@ fenómeno psicosocial                                                     ordena
 Violencia intrafamiliar:                                                                      3. Violencia intrafamiliar en el                                              112
 fenómeno psicosocial                                                                             ordenamiento jurídico chileno
 
-
-## 3.4               Violencia intrafamiliarconstitutiva
-
-                                                                                                de delito
-
-
 ## 3.4.1 Violencia intrafamiliar constitutiva de delito
 
-                                                                                                en la Ley N° 20.066: el delito de maltrato habitual
+**Definición Canónica:** en la Ley N° 20.066: el delito de maltrato habitual
+                                                                                                Como hemos explicado en los párrafos precedentes, la Ley Nº 20.066
+                                                                                                define violencia intrafamiliar y determina que la competencia de los
+                                                                                                Juzgados de Familia comprenderá únicamente la violencia intrafami-
+                                                         
+**Concordancias Legales:** Ley N° 20.066; Ley Nº 20.066; Ley Nº 20066
+
+en la Ley N° 20.066: el delito de maltrato habitual
                                                                                                 Como hemos explicado en los párrafos precedentes, la Ley Nº 20.066
                                                                                                 define violencia intrafamiliar y determina que la competencia de los
                                                                                                 Juzgados de Familia comprenderá únicamente la violencia intrafami-
@@ -4453,10 +4426,16 @@ fenómeno psicosocial                                                           
                                                                                                 dentro de las circunstancias agravantes102, en tanto que Costa Rica
                                                                                                 y España lo tipifican como delito, al igual que la legislación chilena.
 
-
 ## 3.4.1.1 Antecedente histórico de la figura en
 
-                                                                                                derecho comparado: el caso español
+**Definición Canónica:** derecho comparado: el caso español
+                                                                                                La Ley Orgánica 3/1989 introdujo en el Código Penal español de
+                                                                                                1973 la regulación del delito de maltrato habitual “El que habitualmente
+                                                                                                ejerza…”, limitándolo al ejercicio de violencia física y sin proporcionar
+                                                                   
+**Concordancias Legales:** artículo 173 del Código Penal; artículo 14 de la Ley Nº 20.066 a fin de evidenciar su; Ley 1674; Ley Nº 20.066
+
+derecho comparado: el caso español
                                                                                                 La Ley Orgánica 3/1989 introdujo en el Código Penal español de
                                                                                                 1973 la regulación del delito de maltrato habitual “El que habitualmente
                                                                                                 ejerza…”, limitándolo al ejercicio de violencia física y sin proporcionar
@@ -4517,10 +4496,16 @@ fenómeno psicosocial                                               ordenamiento
                                                                    tos violentos hayan sido o no objeto de      absolutoria o condenatoria”.
                                                                    enjuiciamiento en procesos anteriores”.
 
-
 ## 3.4.1.2 Bien jurídico protegido
 
-                                                                  La discusión respecto al bien jurídico protegido en el tipo penal
+**Definición Canónica:** La discusión respecto al bien jurídico protegido en el tipo penal
+                                                                  español fue amplia, principalmente al encontrarse en el título “De
+                                                                  las torturas y otros delitos contra la integridad moral”. Lo anterior,
+                                                                  se ha reproducido con menor intensidad en la doctrina chilena, lo
+                                                                  que se explica en cierta medida, por su regulación en una ley espe
+**Concordancias Legales:** artículos 3; artículos 1; Ley N° 20.066; constitucion; Constitución Política
+
+La discusión respecto al bien jurídico protegido en el tipo penal
                                                                   español fue amplia, principalmente al encontrarse en el título “De
                                                                   las torturas y otros delitos contra la integridad moral”. Lo anterior,
                                                                   se ha reproducido con menor intensidad en la doctrina chilena, lo
@@ -4588,10 +4573,14 @@ fenómeno psicosocial                                                           
 
                                                                                               motivo protector del bien jurídico de la paz familiar, que la informa”.110
 
-
 ## 3.4.1.3 Elementos del tipo penal: conducta típica
 
-                                                                                              La conducta típica en el delito de maltrato habitual en el artículo 14
+**Definición Canónica:** La conducta típica en el delito de maltrato habitual en el artículo 14
+                                                                                              de la Ley N° 20.066 queda determinada por el “ejercicio habitual de
+                                                                                              violencia física o psíquica”.
+**Concordancias Legales:** artículo 14 de la Ley N; Ley N° 20.066
+
+La conducta típica en el delito de maltrato habitual en el artículo 14
                                                                                               de la Ley N° 20.066 queda determinada por el “ejercicio habitual de
                                                                                               violencia física o psíquica”.
 
@@ -4615,7 +4604,11 @@ fenómeno psicosocial                                                           
 
 ## 110      ICA La Serena, rol N° 178-2019, sentencia 22 de mayo de 2019, C. 11
 
-                                                       111      Ibid., pp. 276-317.
+**Definición Canónica:** 111      Ibid., pp. 276-317.
+                                                       112      MUÑOZ (2006), p. 88; MARÍN DE ESPINOSA (2001), p. 202; GRACIA (1997), p. 452; OLMEDO (2001) p. 79.
+**Concordancias Legales:** artículo 14 de la Ley N; Ley Nº 20.066; Ley 20.066; Ley N° 20.066
+
+111      Ibid., pp. 276-317.
                                                        112      MUÑOZ (2006), p. 88; MARÍN DE ESPINOSA (2001), p. 202; GRACIA (1997), p. 452; OLMEDO (2001) p. 79.
 
 Violencia intrafamiliar:                                                                  3. Violencia intrafamiliar en el                                       116
@@ -4706,10 +4699,15 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                   3. Violencia intrafamiliar en el                                        118
 fenómeno psicosocial                                                                          ordenamiento jurídico chileno
 
-
 ## 3.4.1.4 Elementos del tipo penal: la habitualidad
 
-                                                                                             La inexistencia de un concepto formal ha significado que la deter-
+**Definición Canónica:** La inexistencia de un concepto formal ha significado que la deter-
+                                                                                             minación de la habitualidad sea muy controvertida, y por ende en
+                                                                                             España se han sentado dos posiciones: la formal y la material. La
+                                                                                             posición formal procura determinar con precisión el número de
+                                                             
+
+La inexistencia de un concepto formal ha significado que la deter-
                                                                                              minación de la habitualidad sea muy controvertida, y por ende en
                                                                                              España se han sentado dos posiciones: la formal y la material. La
                                                                                              posición formal procura determinar con precisión el número de
@@ -4739,7 +4737,10 @@ fenómeno psicosocial                                                           
 
 ## 125      En el mismo sentido, DEL MORAL GARCÍA (1999), p. 325; GARCÍA y DEL CARPIO (2000), pp. 67-68; MAQUEDA
 
-                                                                ABREU (2008), p. 1529.
+**Definición Canónica:** ABREU (2008), p. 1529.
+**Concordancias Legales:** Ley Nº 20.066
+
+ABREU (2008), p. 1529.
 
 Violencia intrafamiliar:                                                                     3. Violencia intrafamiliar en el                                             119
 fenómeno psicosocial                                                                            ordenamiento jurídico chileno
@@ -4825,7 +4826,10 @@ fenómeno psicosocial                                                           
 
 ## 130      ICA La Serena, rol N° 103-2017, sentencia 13 de abril de 2017, C. 6
 
-                                                       131      ICA Puerto Montt, rol N° 741-2020, sentencia 9 de noviembre de 2020, C.3.
+**Definición Canónica:** 131      ICA Puerto Montt, rol N° 741-2020, sentencia 9 de noviembre de 2020, C.3.
+**Concordancias Legales:** Ley N° 20.066
+
+131      ICA Puerto Montt, rol N° 741-2020, sentencia 9 de noviembre de 2020, C.3.
 
 Violencia intrafamiliar:                                                                  3. Violencia intrafamiliar en el                                        121
 fenómeno psicosocial                                                                         ordenamiento jurídico chileno
@@ -4834,32 +4838,48 @@ fenómeno psicosocial                                                           
                                                                                             de los episodios de maltrato, se considerará esta situación, para los
                                                                                             efectos de solicitar la pena en concreto.132
 
-
 ## 3.4.1.5 Elementos del tipo penal: sujetos
 
-                                                                                            Los sujetos activos y pasivos del delito son calificados y se encuentran
+**Definición Canónica:** Los sujetos activos y pasivos del delito son calificados y se encuentran
+                                                                                            establecidos en el artículo V de la Ley Nº 20.066 analizado en este
+                                                                                            mismo módulo.133
+**Concordancias Legales:** Ley Nº 20.066
+
+Los sujetos activos y pasivos del delito son calificados y se encuentran
                                                                                             establecidos en el artículo V de la Ley Nº 20.066 analizado en este
                                                                                             mismo módulo.133
 
-
 ## 3.4.1.6 Elementos del tipo penal: elemento subjetivo
 
-                                                                                            En el delito de maltrato habitual se exige la concurrencia de dolo,
+**Definición Canónica:** En el delito de maltrato habitual se exige la concurrencia de dolo,
+                                                                                            que puede ser directo como eventual, lo que se explica en atención
+
+En el delito de maltrato habitual se exige la concurrencia de dolo,
                                                                                             que puede ser directo como eventual, lo que se explica en atención
 
                                                                                             a los bienes jurídicos afectados y su forma de afectación.
 
-
 ## 3.4.1.7 Elementos del tipo penal: la pena
 
-                                                                                            La pena originalmente establecida para el delito era de presidio
+**Definición Canónica:** La pena originalmente establecida para el delito era de presidio
+                                                                                            menor en su grado mínimo, sin embargo, la Ley Nº 21.013 aumentó
+                                                                                            la pena a presidio menor en su grado mínimo a medio.
+**Concordancias Legales:** Ley Nº 21.013
+
+La pena originalmente establecida para el delito era de presidio
                                                                                             menor en su grado mínimo, sin embargo, la Ley Nº 21.013 aumentó
                                                                                             la pena a presidio menor en su grado mínimo a medio.
 
-
 ## 3.4.1.8 Exigencia de procesabilidad
 
-                                                                                            Originalmente, el Ministerio Público solo podía dar inicio a la inves-
+**Definición Canónica:** Originalmente, el Ministerio Público solo podía dar inicio a la inves-
+                                                                                            tigación por el delito de maltrato habitual si el respectivo Juzgado de
+                                                                                            Familia le había remitido los antecedentes, conforme. Sin embargo, la
+                                                                                            Ley N° 21.013 derogó el inciso final del artículo 14, que contemplaba
+                                         
+**Concordancias Legales:** artículo 14; Ley N° 21.013; Ley N° 21.103
+
+Originalmente, el Ministerio Público solo podía dar inicio a la inves-
                                                                                             tigación por el delito de maltrato habitual si el respectivo Juzgado de
                                                                                             Familia le había remitido los antecedentes, conforme. Sin embargo, la
                                                                                             Ley N° 21.013 derogó el inciso final del artículo 14, que contemplaba
@@ -4874,15 +4894,16 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                   3. Violencia intrafamiliar en el                                        122
 fenómeno psicosocial                                                                          ordenamiento jurídico chileno
 
-
-## 3.4.2 Los delitos de maltrato corporal relevante y el
-
-                                                                                             trato degradante introducidos por la Ley N° 21.013
-
-
 ## 3.4.2.1. Antecedentes generales y modificaciones
 
-                                                                                             legales introducidas por la Ley Nº 21.013
+**Definición Canónica:** legales introducidas por la Ley Nº 21.013
+                                                                                             La Ley N° 21.013 surgió a partir de una serie de mociones parla-
+                                                                                             mentarias, que dieron lugar a varios proyectos refundidos que tenían
+                                                                                             por objeto modificar el Código Penal, el Código Procesal Penal y
+                                                                                
+**Concordancias Legales:** artículo 403 bis; artículo 39 ter; artículos 39 bis; artículo 14; Ley Nº 21.013; Ley N° 21.013; Ley N° 20.422; Ley N° 20.066; DL N° 645
+
+legales introducidas por la Ley Nº 21.013
                                                                                              La Ley N° 21.013 surgió a partir de una serie de mociones parla-
                                                                                              mentarias, que dieron lugar a varios proyectos refundidos que tenían
                                                                                              por objeto modificar el Código Penal, el Código Procesal Penal y
@@ -4999,10 +5020,16 @@ fenómeno psicosocial                                                           
                                                                                              investigación por el delito de maltrato habitual, si el respectivo Juzgado
                                                                                              de Familia le había remitido los antecedentes previamente.
 
-
 ## 3.4.2.2 Análisis de la figura simple de
 
-                                                                                            maltrato corporal relevante
+**Definición Canónica:** maltrato corporal relevante
+                                                                                            Se encuentra tipificada en el artículo 403 bis inciso 1° del Código
+                                                                                            Penal del siguiente modo: “El que, de manera relevante, maltratare
+                                                                                            corporalmente a un niño, niña o adolescente menor de dieciocho años, a una
+                                                                                      
+**Concordancias Legales:** artículo 403 bis inciso 1; Ley N° 20.422; Ley N° 20.422.137
+
+maltrato corporal relevante
                                                                                             Se encuentra tipificada en el artículo 403 bis inciso 1° del Código
                                                                                             Penal del siguiente modo: “El que, de manera relevante, maltratare
                                                                                             corporalmente a un niño, niña o adolescente menor de dieciocho años, a una
@@ -5069,10 +5096,16 @@ fenómeno psicosocial                                                           
                                                         Persecución          Acción penal pública.
                                                         penal
 
-
 ## 3.4.2.3 Análisis de la figura calificada
 
-                                                                                               de maltrato corporal relevante
+**Definición Canónica:** de maltrato corporal relevante
+                                                                                               Se encuentra tipificada en el artículo 403 bis inciso 2° del Código
+                                                                                               Penal del siguiente modo: “…El que teniendo un deber especial de cuidado
+                                                                                               o protección respecto de alguna de las personas referidas en el inciso primero,
+                                                               
+**Concordancias Legales:** artículo 403 bis inciso 2
+
+de maltrato corporal relevante
                                                                                                Se encuentra tipificada en el artículo 403 bis inciso 2° del Código
                                                                                                Penal del siguiente modo: “…El que teniendo un deber especial de cuidado
                                                                                                o protección respecto de alguna de las personas referidas en el inciso primero,
@@ -5083,7 +5116,13 @@ fenómeno psicosocial                                                           
 
 ## 137      TOP Quillota, rol N° 17-2019, sentencia 17 de abril de 2019, C.9
 
-                                                       138      Artículo V Ley Nº 20422 define persona con discapacidad como “aquella que teniendo una o más deficiencias
+**Definición Canónica:** 138      Artículo V Ley Nº 20422 define persona con discapacidad como “aquella que teniendo una o más deficiencias
+                                                                físicas, mentales, sea por causa psíquica o intelectual, o sensoriales, de carácter temporal o permanente, al
+                                                                interactuar con diversas barreras presentes en el entorno, ve impedida o restringida su participación plena y
+                                                                efectiva en la sociedad, en igualdad de condiciones con las demás”.
+**Concordancias Legales:** Ley Nº 20422
+
+138      Artículo V Ley Nº 20422 define persona con discapacidad como “aquella que teniendo una o más deficiencias
                                                                 físicas, mentales, sea por causa psíquica o intelectual, o sensoriales, de carácter temporal o permanente, al
                                                                 interactuar con diversas barreras presentes en el entorno, ve impedida o restringida su participación plena y
                                                                 efectiva en la sociedad, en igualdad de condiciones con las demás”.
@@ -5138,20 +5177,25 @@ fenómeno psicosocial                                                           
 
                                                        139      MATUS y RAMÍREZ (2019), p. 126.
 
-## 140      JG Valparaíso, Rit 8477-2018, sentencia 21de marzo del año 2019
-
-
 ## 141      JG Puerto Montt, Rit 3535-2018, sentencia 26 de noviembre de 2018
 
-                                                       142      JG de Pitrufquén, Rit 1201-2017, sentencia 11 de junio de 2017.
+**Definición Canónica:** 142      JG de Pitrufquén, Rit 1201-2017, sentencia 11 de junio de 2017.
+
+142      JG de Pitrufquén, Rit 1201-2017, sentencia 11 de junio de 2017.
 
 Violencia intrafamiliar:                                                                    3. Violencia intrafamiliar en el                                               127
 fenómeno psicosocial                                                                           ordenamiento jurídico chileno
 
-
 ## 3.4.2.4 Delito de sometimiento a trato degradante
 
-                                                                                              Se encuentra tipificada en el artículo 403 bis inciso 2° del Código
+**Definición Canónica:** Se encuentra tipificada en el artículo 403 bis inciso 2° del Código
+                                                                                              Penal del siguiente modo: “El que sometiere a una de las personas referidas
+                                                                                              en los incisos primero y segundo del artículo 403 bis a un trato degradante,
+                                                                                              menoscabando gravemente su dignidad, será sancionado con la pena de presidio
+                    
+**Concordancias Legales:** artículo 403 bis inciso 2; artículo 403 bis; Constitucion
+
+Se encuentra tipificada en el artículo 403 bis inciso 2° del Código
                                                                                               Penal del siguiente modo: “El que sometiere a una de las personas referidas
                                                                                               en los incisos primero y segundo del artículo 403 bis a un trato degradante,
                                                                                               menoscabando gravemente su dignidad, será sancionado con la pena de presidio
@@ -5225,14 +5269,13 @@ fenómeno psicosocial                                                           
                                                         Persecu-         Acción penal pública (Art. 403 septies del CP).
                                                         ción penal
 
-
-## 3.4.3 El delito de femicidio
-
-
 ## 3.4.3.1 Antecedentes
 
+**Definición Canónica:** Para comenzar el estudio del delito de femicidio, los in-
+                                                                                                     vitamos a ver el siguiente video:
+**Concordancias Legales:** artículo 390 del Código Penal; Ley N° 20.480
 
-                                                                                                     Para comenzar el estudio del delito de femicidio, los in-
+Para comenzar el estudio del delito de femicidio, los in-
                                                                                                      vitamos a ver el siguiente video:
 
                                                                                                      Noticiero Judicial: Leyes que cambiaron Chile - Tipifica-
@@ -5319,10 +5362,16 @@ fenómeno psicosocial                                                           
                                                                                             — En un contexto jerárquicamente estructurado.
                                                                                             — Si en ese contexto se adoptan roles de dominación.
 
-
 ## 3.4.3.2 El femicidio introducido por la Ley Nº 21.212
 
-                                                                                            A pesar de las críticas que mereció la Ley N° 20.480, lo cierto es
+**Definición Canónica:** A pesar de las críticas que mereció la Ley N° 20.480, lo cierto es
+                                                                                            que de la perspectiva político criminal constituyó un gran avance
+                                                                                            que visibilizó, nominó y proporcionó un parámetro objetivo para
+                                                                                            dimensionar parcialmente la violencia extrema del que eran vícti-
+                                                             
+**Concordancias Legales:** Ley N° 20.480; Ley Nº 21.112
+
+A pesar de las críticas que mereció la Ley N° 20.480, lo cierto es
                                                                                             que de la perspectiva político criminal constituyó un gran avance
                                                                                             que visibilizó, nominó y proporcionó un parámetro objetivo para
                                                                                             dimensionar parcialmente la violencia extrema del que eran vícti-
@@ -5368,10 +5417,16 @@ fenómeno psicosocial                                                           
                                                                                                      Conozcamos algo más sobre del crimen de Gabriela Al-
                                                                                                      caíno y su madre
 
-
 ## 3.4.3.2 Análisis del nuevo delito de femicidio
 
-                                                                                                introducido por la Ley Nº 21.212 (Ley Gabriela)
+**Definición Canónica:** introducido por la Ley Nº 21.212 (Ley Gabriela)
+                                                                                                El crimen del que fue víctima Gabriela y su madre impulsó la trami-
+                                                                                                tación del proyecto de ley tendiente a modificar la tipificación del
+                                                                                                femicidio en Chile y, finalmente, el 4 de marzo de 2020 es publicada
+                                                          
+**Concordancias Legales:** Artículo 390; artículo 390 bis del Código Penal; Ley Nº 21.212; Ley N° 18.216
+
+introducido por la Ley Nº 21.212 (Ley Gabriela)
                                                                                                 El crimen del que fue víctima Gabriela y su madre impulsó la trami-
                                                                                                 tación del proyecto de ley tendiente a modificar la tipificación del
                                                                                                 femicidio en Chile y, finalmente, el 4 de marzo de 2020 es publicada
@@ -5452,34 +5507,14 @@ fenómeno psicosocial                                               ordenamiento
                                                                                         muerte se produzca en alguna de las siguientes cir-
                                                                                         cunstancias:
 
-
-## 1. Ser consecuencia de la negativa a establecer con el
-
-                                                                                           autor una relación de carácter sentimental o sexual.
-
-
-## 2. Ser consecuencia de que la víctima ejerza o haya
-
-                                                                                           ejercido la prostitución, u otra ocupación u oficio de
-                                                                                           carácter sexual.
-
-
-## 3. Haberse cometido el delito tras haber ejercido con-
-
-                                                                                           tra la víctima cualquier forma de violencia sexual, sin
-
-                                                                                           perjuicio de lo dispuesto en el artículo 372 bis.
-
-
-## 4. Haberse realizado con motivo de la orientación se-
-
-                                                                                           xual, identidad de género o expresión de género de
-                                                                                           la víctima.
-
-
 ## 5. Haberse cometido en cualquier tipo de situación en
 
-                                                                                           la que se den circunstancias de manifiesta subordi-
+**Definición Canónica:** la que se den circunstancias de manifiesta subordi-
+                                                                                           nación por las relaciones desiguales de poder entre
+                                                                                           el agresor y la víctima, o motivada por una evidente
+                                                                                           intención de discriminación.
+
+la que se den circunstancias de manifiesta subordi-
                                                                                            nación por las relaciones desiguales de poder entre
                                                                                            el agresor y la víctima, o motivada por una evidente
                                                                                            intención de discriminación.
@@ -5501,27 +5536,13 @@ fenómeno psicosocial                                               ordenamiento
                                                                    comisivas            muerte se produzca en alguna de las siguientes cir-
                                                                                         cunstancias:
 
-
-## 1. Ser consecuencia de la negativa a establecer con el
-
-                                                                                           autor una relación de carácter sentimental o sexual.
-
-
-## 2. Ser consecuencia de que la víctima ejerza o haya
-
-                                                                                           ejercido la prostitución, u otra ocupación u oficio de
-                                                                                           carácter sexual.
-
-
-## 3. Haberse cometido el delito tras haber ejercido con-
-
-                                                                                           tra la víctima cualquier forma de violencia sexual, sin
-                                                                                           perjuicio de lo dispuesto en el artículo 372 bis.
-
-
 ## 4. Haberse realizado con motivo de la orientación se-
 
-                                                                                           xual, identidad de género o expresión de género de
+**Definición Canónica:** xual, identidad de género o expresión de género de
+                                                                                           la víctima.
+**Concordancias Legales:** Artículo 390
+
+xual, identidad de género o expresión de género de
                                                                                            la víctima.
 
 Violencia intrafamiliar:                                        3. Violencia intrafamiliar en el                                                 134
@@ -5551,19 +5572,30 @@ fenómeno psicosocial                                               ordenamiento
                                                                    Artículo 390 quáter. Son circunstancias agravantes de responsabilidad
                                                                    penal para el delito de femicidio, las siguientes:
 
-
 ## 1. Encontrarse       La motivación no es el aborto, no obstante, lo más pro-
 
-                                                                      la víctima        bable es que lo cause. De ocasionarlo se plantea si hay
+**Definición Canónica:** la víctima        bable es que lo cause. De ocasionarlo se plantea si hay
+                                                                      embarazada.       un concurso ideal de delitos o habrá que estarse a lo
+                                                                                        dispuesto en el artículo 343 del CP
+**Concordancias Legales:** artículo 343 del CP
+
+la víctima        bable es que lo cause. De ocasionarlo se plantea si hay
                                                                       embarazada.       un concurso ideal de delitos o habrá que estarse a lo
                                                                                         dispuesto en el artículo 343 del CP
 
                                                                                         ¿Debe constarle al agresor el embarazo?
 
-
 ## 2. Ser la víctima    Niña: Ser humano menor de 14 años (niña) y adolescen-
 
-                                                                      una niña o        te: entre 14 y 18 años (Artículo 16 Ley Nº 19.968).
+**Definición Canónica:** una niña o        te: entre 14 y 18 años (Artículo 16 Ley Nº 19.968).
+                                                                      una adoles-
+                                                                      cente menor       Adulto mayor: Persona que ha cumplido 60 años (Art. 1
+                                                                      de dieciocho      Ley Nº 19.828).
+                                                                      años, una
+                                                                      mujer adul-       Persona en situación de discapacid
+**Concordancias Legales:** Artículo 16; Ley Nº 19.968; Ley Nº 19.828; Ley Nº 20.422
+
+una niña o        te: entre 14 y 18 años (Artículo 16 Ley Nº 19.968).
                                                                       una adoles-
                                                                       cente menor       Adulto mayor: Persona que ha cumplido 60 años (Art. 1
                                                                       de dieciocho      Ley Nº 19.828).
@@ -5577,10 +5609,15 @@ fenómeno psicosocial                                               ordenamiento
                                                                       nos de la Ley     y efectiva en la sociedad, en igualdad de condiciones
                                                                       N° 20.422.        con las demás (Art. 5 Ley Nº 20.422)
 
-
 ## 3. Ejecutarlo en     El fundamento sería el honor o la dignidad de estos pa-
 
-                                                                      presencia de      rientes.
+**Definición Canónica:** presencia de      rientes.
+                                                                      ascendientes
+                                                                      o descen-         Se plantea si es compatible con la agravante genérica
+                                                                      dientes de la     contemplada en el Art. 12 Nº 9 del CP. ¿Habría infrac-
+                                                                      víctima.          ción al non bis in ídem?
+
+presencia de      rientes.
                                                                       ascendientes
                                                                       o descen-         Se plantea si es compatible con la agravante genérica
                                                                       dientes de la     contemplada en el Art. 12 Nº 9 del CP. ¿Habría infrac-
@@ -5595,10 +5632,16 @@ fenómeno psicosocial                                               ordenamiento
 Violencia intrafamiliar:                                                         3. Violencia intrafamiliar en el                                                135
 fenómeno psicosocial                                                                ordenamiento jurídico chileno
 
-
 ## 4. Ejecutarlo en     El sentido del/a legislador/a al momento de consagrar
 
-                                                                                       el contexto       esta agravante, fue considerar aquellos casos en que
+**Definición Canónica:** el contexto       esta agravante, fue considerar aquellos casos en que
+                                                                                       de violencia      la muerte de la mujer es el acto final y definitivo de un
+                                                                                       física o psi-     ciclo de violencia en su contra por el agresor.155
+                                                                                       cológica ha-
+                                                                                       bitual del he-    Sin e
+**Concordancias Legales:** artículo 14; Artículo 390; artículo 11; Ley N° 21.013; Ley N° 20.480; Ley Nº 20.066; Ley Nº 21.212
+
+el contexto       esta agravante, fue considerar aquellos casos en que
                                                                                        de violencia      la muerte de la mujer es el acto final y definitivo de un
                                                                                        física o psi-     ciclo de violencia en su contra por el agresor.155
                                                                                        cológica ha-
@@ -5713,15 +5756,15 @@ fenómeno psicosocial                                                       viol
                                                                   — Exposición de las iniciativas y proyectos institucionales de Poder Judi-
                                                                     cial en materia de violencia y grupos en situación de vulnerabilidad.
 
-
-## 4.1       El procedimiento de violencia
-
-                                                                          intrafamiliaren los juzgados de familia
-
-
 ## 4.1.1 Características del procedimiento
 
-                                                                          de violencia intrafamiliar
+**Definición Canónica:** de violencia intrafamiliar
+                                                                          La violencia intrafamiliar no constitutiva de delito es conocida por
+                                                                          los Juzgados de Familia conforme al procedimiento especial regu-
+                                                                          lado en la Ley N° 19.968, el que tiene las siguientes características:
+**Concordancias Legales:** Ley N° 19.968
+
+de violencia intrafamiliar
                                                                           La violencia intrafamiliar no constitutiva de delito es conocida por
                                                                           los Juzgados de Familia conforme al procedimiento especial regu-
                                                                           lado en la Ley N° 19.968, el que tiene las siguientes características:
@@ -5729,10 +5772,16 @@ fenómeno psicosocial                                                       viol
 Violencia intrafamiliar:                                        4. Abordaje práctico de la                                           140
 fenómeno psicosocial                                               violencia intrafamiliar
 
-
 ## 4.1.2 Estructura del procedimiento
 
-                                                                  El procedimiento de violencia intrafamiliar sigue la estructura tra-
+**Definición Canónica:** El procedimiento de violencia intrafamiliar sigue la estructura tra-
+                                                                  dicional del procedimiento ordinario de familia, con una primera
+                                                                  audiencia de discusión y una segunda audiencia de prueba y resolu-
+                                                                  ción. Además, en algunos tribunales se ha instaurado la práctica de
+                                                                  una audiencia preliminar o cautelar que, si bien no está reglamenta
+**Concordancias Legales:** Ley Nº 19.968
+
+El procedimiento de violencia intrafamiliar sigue la estructura tra-
                                                                   dicional del procedimiento ordinario de familia, con una primera
                                                                   audiencia de discusión y una segunda audiencia de prueba y resolu-
                                                                   ción. Además, en algunos tribunales se ha instaurado la práctica de
@@ -5783,10 +5832,12 @@ fenómeno psicosocial                                                           
                                                                                                      Campaña “JUSTICIA DE GENERO” –La Denuncia– Fun-
                                                                                                      dación AVON Y AMJA.
 
-
 ## 4.1.3.1 La primera acogida
 
-                                                                                              Los elementos de primera acogida que se deben tener presentes al
+**Definición Canónica:** Los elementos de primera acogida que se deben tener presentes al
+                                                                                              tomar la denuncia son los siguientes:
+
+Los elementos de primera acogida que se deben tener presentes al
                                                                                               tomar la denuncia son los siguientes:
 
                                                                                                Enfoque de derechos humanos y de género: la atención que se brinde debe
@@ -5810,11 +5861,13 @@ fenómeno psicosocial                                                           
                                                                                                                                                   escucha activa, es de-
                                                                                                                                                   cir, prestando atención y
 
-
 ## 156      CESC – U de Chile (2011), p.40.-43
 
+**Definición Canónica:** Violencia intrafamiliar:                                        4. Abordaje práctico de la                                                       142
+fenómeno psicosocial                                               violencia intrafamiliar
+**Concordancias Legales:** artículo 100 inciso 2 de la Ley N; artículo 100 de la Ley N; Ley N° 19.968
 
-Violencia intrafamiliar:                                        4. Abordaje práctico de la                                                       142
+Violencia intrafamiliar:                                        4. Abordaje práctico de la                                                       142
 fenómeno psicosocial                                               violencia intrafamiliar
 
                                                                    no haciendo otras cosas que distraigan, procurar que no haya interrup-
@@ -6098,10 +6151,15 @@ fenómeno psicosocial                                                           
                                                                                                para poner término al procedimiento de violencia intrafamiliar que
                                                                                                ella no inició y en la que tiene la calidad de víctima”.162
 
-
 ## 4.1.5 Audiencia preliminar o cautelar
 
-                                                                                               Como se explicó en el párrafo precedente, la audiencia preliminar
+**Definición Canónica:** Como se explicó en el párrafo precedente, la audiencia preliminar
+                                                                                               o cautelar no se encuentra regulada en la ley y es una práctica que
+                                                                                               se ha ido instaurando por los tribunales a fin de facilitar el acceso a
+                                                                                               la justicia a las víctimas, brindando la debida protección de manera
+                                        
+
+Como se explicó en el párrafo precedente, la audiencia preliminar
                                                                                                o cautelar no se encuentra regulada en la ley y es una práctica que
                                                                                                se ha ido instaurando por los tribunales a fin de facilitar el acceso a
                                                                                                la justicia a las víctimas, brindando la debida protección de manera
@@ -6136,10 +6194,15 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                  4. Abordaje práctico de la                                            149
 fenómeno psicosocial                                                                         violencia intrafamiliar
 
-
 ## 4.1.5.1 Habilidades y recursos a desplegar
 
-                                                                                            en la realización de esta audiencia
+**Definición Canónica:** en la realización de esta audiencia
+                                                                                            Se deben tener presente los mismos y todos los elementos de prime-
+                                                                                            ra acogida ya analizados. Sin perjuicio, es necesario en este caso en
+                                                                                            particular, tener presente el rol social que cumple la magistratura;
+                                                                                  
+
+en la realización de esta audiencia
                                                                                             Se deben tener presente los mismos y todos los elementos de prime-
                                                                                             ra acogida ya analizados. Sin perjuicio, es necesario en este caso en
                                                                                             particular, tener presente el rol social que cumple la magistratura;
@@ -6180,10 +6243,15 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                                4. Abordaje práctico de la                                            150
 fenómeno psicosocial                                                                       violencia intrafamiliar
 
-
 ## 4.1.5.2 Relevancia de esta audiencia
 
-                                                                                          La forma en que se conduce la audiencia puede hacer la diferencia en
+**Definición Canónica:** La forma en que se conduce la audiencia puede hacer la diferencia en
+                                                                                          la vida de una víctima de violencia. Teniendo presente la traumatiza-
+                                                                                          ción sistemática y acumulativa que ha vivido la víctima164 y el temor
+                                                                                          que pueda tener a represalias, el daño a su identidad y autoestima;
+                                                     
+
+La forma en que se conduce la audiencia puede hacer la diferencia en
                                                                                           la vida de una víctima de violencia. Teniendo presente la traumatiza-
                                                                                           ción sistemática y acumulativa que ha vivido la víctima164 y el temor
                                                                                           que pueda tener a represalias, el daño a su identidad y autoestima;
@@ -6202,13 +6270,16 @@ fenómeno psicosocial                                                           
                                                                                           nunca más ayuda a ningún organismo estatal; lo que se traduce en
                                                                                           la normalización y mantención de la violencia en la sociedad.
 
-
-## 4.1.6 Audiencia preparatoria
-
-
 ## 4.1.6.1 La discusión
 
-                                                                                          Está concebida como una audiencia de discusión y de ofrecimiento
+**Definición Canónica:** Está concebida como una audiencia de discusión y de ofrecimiento
+                                                                                          de prueba, toda vez que la ley limita la facultad de las partes para
+                                                                                          disponer del procedimiento, no admitiéndose la conciliación ni la
+                                                                                          derivación a mediación. Excepcionalmente, se permite que las partes
+                                                              
+**Concordancias Legales:** Ley N° 19.968
+
+Está concebida como una audiencia de discusión y de ofrecimiento
                                                                                           de prueba, toda vez que la ley limita la facultad de las partes para
                                                                                           disponer del procedimiento, no admitiéndose la conciliación ni la
                                                                                           derivación a mediación. Excepcionalmente, se permite que las partes
@@ -6267,15 +6338,15 @@ fenómeno psicosocial                                                           
 Violencia intrafamiliar:                                                4. Abordaje práctico de la                                           152
 fenómeno psicosocial                                                       violencia intrafamiliar
 
-
-## 1. Si este padre ha estado presente en los cuidados cotidianos –re-
-
-                                                                             cordemos que en muchas ocasiones comparten roles rígidos de
-                                                                             género en que pudieran no haberse involucrado en la crianza–.
-
 ## 2. La internalización que tengan los hijos e hijas de esta figura: por
 
-                                                                             ejemplo, mucho temor o ambivalencia si han visto u oído como
+**Definición Canónica:** ejemplo, mucho temor o ambivalencia si han visto u oído como
+                                                                             maltrata a la madre. Sobre este punto, Lizana refiere que existe
+                                                                             la creencia generalizada que estos hombres son “buenos padres”,
+                                                                             sin embargo, no se puede separar al marido maltratador del padre
+                                                                             bueno; la persona cuando ejerce maltr
+
+ejemplo, mucho temor o ambivalencia si han visto u oído como
                                                                              maltrata a la madre. Sobre este punto, Lizana refiere que existe
                                                                              la creencia generalizada que estos hombres son “buenos padres”,
                                                                              sin embargo, no se puede separar al marido maltratador del padre
@@ -6289,23 +6360,36 @@ fenómeno psicosocial                                                       viol
                                                                              además constituye un modelo que contribuye a la transmisión
                                                                              transgeneracional de la violencia.169
 
-
 ## 3. Que el intento de mantenerse cerca de sus hijos e hijas, no se
 
-                                                                             active solo para mantener el control sobre la vida y actividades
+**Definición Canónica:** active solo para mantener el control sobre la vida y actividades
+                                                                             de la madre y la familia, sobre todo cuando previamente hubo
+                                                                             parentalidad ausente.
+
+active solo para mantener el control sobre la vida y actividades
                                                                              de la madre y la familia, sobre todo cuando previamente hubo
                                                                              parentalidad ausente.
 
 ## 4. En casos más graves, que no sea derechamente otra forma de
 
-                                                                             maltratar y causar más daño a la mujer decirle “te voy a dar
+**Definición Canónica:** maltratar y causar más daño a la mujer decirle “te voy a dar
                                                                              donde más te duele” o “te voy a quitar a los niños”, que es otra
                                                                              forma de castigo.
 
+maltratar y causar más daño a la mujer decirle “te voy a dar
+                                                                             donde más te duele” o “te voy a quitar a los niños”, que es otra
+                                                                             forma de castigo.
 
 ## 4.1.6.2 La prueba
 
-                                                                          En esta audiencia se fijarán los hechos a probar y las partes deberán
+**Definición Canónica:** En esta audiencia se fijarán los hechos a probar y las partes deberán
+                                                                          ofrecer la prueba a rendir en audiencia de juicio. Sin perjuicio del
+                                                                          modo en que se fijen los hechos a probar, la actividad probatoria
+                                                                          de las partes, al menos deberá ser suficiente para acreditar el presu-
+                                                                          puesto vincular y los elemen
+**Concordancias Legales:** Ley Nº 20.066
+
+En esta audiencia se fijarán los hechos a probar y las partes deberán
                                                                           ofrecer la prueba a rendir en audiencia de juicio. Sin perjuicio del
                                                                           modo en que se fijen los hechos a probar, la actividad probatoria
                                                                           de las partes, al menos deberá ser suficiente para acreditar el presu-
@@ -6470,10 +6554,15 @@ fenómeno psicosocial                                                           
                                                                                   que no existieron los hechos de violencia; situación que el/la perito
                                                                                   experto debe indicar al tribunal en su informe.
 
-
 ## 4.1.7 Potestad cautelar
 
-                                                                                  El deber de proteger a las víctimas y su grupo familiar es una manifes-
+**Definición Canónica:** El deber de proteger a las víctimas y su grupo familiar es una manifes-
+                                                                                  tación de la debida diligencia exigida a los Estados que han ratificado
+                                                                                  la Convención Belem do Pará, que tiene por fundamento fáctico, la
+                                                                                  existencia de un riesgo que pueda afectar la vida o la integridad de
+**Concordancias Legales:** artículo 22 de la Ley N; artículo 92 de la Ley N; Ley N° 19.968; Ley N°17.798; Ley N° 20.066
+
+El deber de proteger a las víctimas y su grupo familiar es una manifes-
                                                                                   tación de la debida diligencia exigida a los Estados que han ratificado
                                                                                   la Convención Belem do Pará, que tiene por fundamento fáctico, la
                                                                                   existencia de un riesgo que pueda afectar la vida o la integridad de
@@ -6587,10 +6676,16 @@ fenómeno psicosocial                                                           
                                                                                                 los próximos párrafos, conjuntamente con las medidas accesorias a
                                                                                                 la sentencia condenatoria.
 
-
 ## 4.1.7.1 Factores de riesgo desde el ámbito psicosocial
 
-                                                                                                El Consejo Técnico tiene el deber de ponderar factores de riesgo en
+**Definición Canónica:** El Consejo Técnico tiene el deber de ponderar factores de riesgo en
+                                                                                                violencia intrafamiliar.179 Dado su conocimiento desde las ciencias
+                                                                                                sociales, complementa aquellos señalados en el art. 7° de la Ley N°
+                                                                                                19.968 con otros desde “el ámbito de su especialidad”, los que son
+                                         
+**Concordancias Legales:** Ley N° 19.968; Ley N° 20.066
+
+El Consejo Técnico tiene el deber de ponderar factores de riesgo en
                                                                                                 violencia intrafamiliar.179 Dado su conocimiento desde las ciencias
                                                                                                 sociales, complementa aquellos señalados en el art. 7° de la Ley N°
                                                                                                 19.968 con otros desde “el ámbito de su especialidad”, los que son
@@ -6654,19 +6749,11 @@ fenómeno psicosocial                                                           
                                                                                          nado con alta probabilidad de violenta física severa, los que deben ser
                                                                                          especialmente considerados para las valoraciones urgentes del riesgo.
 
-
-## Factores de riesgo generales
-
-
-                                                                                          1. Inteligencia.
-
-                                                                                          2. Carrera delictiva.
-
-
 ## Factores de riesgo de la dinámica relacional
 
+**Definición Canónica:** 3. Violencia cronificada con escalada en ésta.
 
-                                                                                          3. Violencia cronificada con escalada en ésta.
+3. Violencia cronificada con escalada en ésta.
 
                                                        180      GÓMEZ-HERMOSO, VÁZQUEZ-MEZQUITA, GÓMEZ y MATEOS (2012), p. 66.
 
@@ -6691,78 +6778,46 @@ fenómeno psicosocial                                                           
 
                                                                                                  9. Relación de cuidado (estrés del cuidador).
 
-
-## 10. Incumplimiento de anteriores órdenes de alejamiento por parte del de-
-
-                                                                                                     nunciado.
-
-
 ## Factores de riesgo del imputado
 
-                                                        F. temperamentales:                                            Esfera interpersonal:
+**Definición Canónica:** F. temperamentales:                                            Esfera interpersonal:
                                                         11. Impulsividad                                               29. Estilo de apego ansioso en la relación de pareja
 
+F. temperamentales:                                            Esfera interpersonal:
+                                                        11. Impulsividad                                               29. Estilo de apego ansioso en la relación de pareja
 
 ## 12. Baja temeridad                                             30.   Conductas de control sobre la pareja
 
-
-                                                        13. Falta de empatía                                           31. Déficit de estrategias adecuadas de resolución de
+**Definición Canónica:** 13. Falta de empatía                                           31. Déficit de estrategias adecuadas de resolución de
                                                                                                                            conflictos
 
-## 14. Hostilidad-agresividad
-
-
-## 32. Falta de asertividad
-
-                                                        F. del proceso de socialización:                               Factores precipitantes
-
-## 15. Socialización en cultura sexista (estereotipos de          33. Consumo de alcohol/drogas
-
-                                                            género)
-
-## 34. Estado de ánimo disfórico
-
+13. Falta de empatía                                           31. Déficit de estrategias adecuadas de resolución de
+                                                                                                                           conflictos
 
 ## 16. Establecimiento de relaciones de apego inseguro
 
-                                                            con sus figuras significativas                             35. Ausencia de apoyos sociales
+**Definición Canónica:** con sus figuras significativas                             35. Ausencia de apoyos sociales
+
+con sus figuras significativas                             35. Ausencia de apoyos sociales
 
                                                         17. Exposición a episodios de violencia paterna contra         36. Oportunidad delictiva (conductas de riesgo de la
                                                             la madre                                                       mujer)
 
-
 ## 18. Socialización en entornos legitimadores de la vio-         37. Presencia de estresores psicosociales
 
-                                                            lencia como forma de resolución de conflictos
+**Definición Canónica:** lencia como forma de resolución de conflictos
                                                                                                                        Presencia de psicopatología:
                                                         F. del funcionamiento psicológico: Esfera Cognitiva:
 
-## 38. Trastorno por ideas delirantes celotípicas
-
-
-## 19. Sesgos cognitivos respecto a los roles de género
-
-
-## 39. Esquizofrenia paranoide
-
-
-## 20.   Locus de control externo
-
-
-## 40. Trastorno bipolar
-
-
-## 21. Incapacidad para establecer relación entre su
-
-                                                            comportamiento y la respuesta defensiva y de               41. Abuso/dependencia de sustancias
-                                                            protección de la víctima
-
-## 42. Depresión
-
+lencia como forma de resolución de conflictos
+                                                                                                                       Presencia de psicopatología:
+                                                        F. del funcionamiento psicológico: Esfera Cognitiva:
 
 ## 22. Percepción hostil y amenazante de las conductas
 
-                                                            realizadas por la pareja                                   43. Ideación suicida/homicida
+**Definición Canónica:** realizadas por la pareja                                   43. Ideación suicida/homicida
+
+realizadas por la pareja                                   43. Ideación suicida/homicida
 
                                                         23. Rumiación del pensamiento con aumento de emo-              44. Trastornos de personalidad:
                                                             cionalidad negativa (ira)                                        44.1. T. paranoide 44.2. T. narcisista 44.3. T. límite
@@ -6774,70 +6829,16 @@ fenómeno psicosocial                                                           
 
                                                         Esfera afectiva:
 
-## 25. Dificultad para la expresión emocional
-
-
-
-## 26. Pobre autoconcepto, baja autoestima e inseguridad
-
-
-
-## 27. Inadecuado control de la ira y baja tolerancia a la frustración
-
-
-
-## 28. Experimentación de celos exagerados e incontrolados
-
-
-
-## Factores de riesgo de la denunciante
-
-
-
-## 45. Grado de dependencia con el agresor (económica, social o emocional)
-
-
-
-## 46. Actitudes que disculpan/justifican la conducta del denunciado
-
-
-
-## 47. Falta de apoyo social
-
-
-
-## 48. Situación de inmigración
-
-
-
-## 49. Pertenencia a minorías étnicas
-
-
-
-## 50. Embarazo
-
-
-
-## 51. Anteriores reconciliaciones y/o retirada de denuncias
-
-
-
-## 52. Discrepancias entre su percepción de riesgo y la valoración técnica
-
-
-
-## 53. Discapacidad física/psíquica/sensorial
-
-
-
-## 54. Lesiones físicas graves
-
-
-
 ## 55. Lesiones psíquicas graves
 
+**Definición Canónica:** Como puede observarse, además de los factores de riesgo generales,
+                                                                                               se distinguen factores de riesgo asociados a la relación, al agresor y
+                                                                                               a la víctima, concentrándose los factores de riesgo más relevantes
+                                                                                               en el agresor, siendo los ítems críticos: N° 24, 28, 30 y 43 (Bel-
+                                           
+**Concordancias Legales:** Ley Nº 20.066
 
-                                                                                               Como puede observarse, además de los factores de riesgo generales,
+Como puede observarse, además de los factores de riesgo generales,
                                                                                                se distinguen factores de riesgo asociados a la relación, al agresor y
                                                                                                a la víctima, concentrándose los factores de riesgo más relevantes
                                                                                                en el agresor, siendo los ítems críticos: N° 24, 28, 30 y 43 (Bel-
@@ -6924,7 +6925,15 @@ fenómeno psicosocial                                                           
 
 ## 4.1.8 Término del procedimiento de violencia
 
-                                                       a consultar los
+**Definición Canónica:** a consultar los
+                                                                                intrafamiliar en los juzgados de familia
+                                                       hechos de violencia      La complejidad del fenómeno de la violencia intrafamiliar y su
+                                                                                tratamiento híbrido por normas civiles y penales, determinan que
+                                                                                su conclusión sea más compleja que los procedimientos ordinarios
+                              
+**Concordancias Legales:** artículo 65 de la Ley N; artículo 92 de la Ley N; Ley N° 19.968; Ley N° 20.066
+
+a consultar los
                                                                                 intrafamiliar en los juzgados de familia
                                                        hechos de violencia      La complejidad del fenómeno de la violencia intrafamiliar y su
                                                                                 tratamiento híbrido por normas civiles y penales, determinan que
@@ -6992,7 +7001,9 @@ fenómeno psicosocial                                               violencia in
 
 ## 1. Prohibir al ofensor acercarse a la víc-     a) Obligación de abandonar el
 
-                                                                      tima en el hogar común y en el domi-           ofensor el hogar que com-
+**Definición Canónica:** tima en el hogar común y en el domi-           ofensor el hogar que com-
+
+tima en el hogar común y en el domi-           ofensor el hogar que com-
 
                                                                       cilio, lugar de estudios o de trabajo de       parte con la víctima.
                                                                       ésta, así como en cualquier otro lugar
@@ -7002,17 +7013,24 @@ fenómeno psicosocial                                               violencia in
 
 ## 2. Asegurar la entrega material de los           como a cualquier otro lugar
 
-                                                                       efectos personales de la víctima que          al que ésta concurra o visite
+**Definición Canónica:** efectos personales de la víctima que          al que ésta concurra o visite
                                                                        optare por no regresar al hogar común.        habitualmente. Si ambos tra-
                                                                                                                      bajan o estudian en el mismo
 
-## 3. Fijar alimentos provisorios.                   lugar, se oficiará al emplea-
-
-                                                                                                                     dor o director del estableci-
+efectos personales de la víctima que          al que ésta concurra o visite
+                                                                       optare por no regresar al hogar común.        habitualmente. Si ambos tra-
+                                                                                                                     bajan o estudian en el mismo
 
 ## 4. Determinar un régimen provisorio de
 
-                                                                                                                     miento para que adopte las
+**Definición Canónica:** miento para que adopte las
+                                                                      cuidado personal de los niños, niñas
+                                                                                                                     medidas de resguardo nece-
+                                                                      o adolescentes y la forma en que se
+                                                                                                                     sarias.
+                                                                      mantendrá una relació
+
+miento para que adopte las
                                                                       cuidado personal de los niños, niñas
                                                                                                                      medidas de resguardo nece-
                                                                       o adolescentes y la forma en que se
@@ -7023,23 +7041,40 @@ fenómeno psicosocial                                               violencia in
 
 ## 5. Decretar la prohibición de celebrar
 
-                                                                                                                     armas de fuego. De ello se in-
+**Definición Canónica:** armas de fuego. De ello se in-
+                                                                      actos o contratos.
+                                                                                                                     formará, según corresponda,
+
+armas de fuego. De ello se in-
                                                                       actos o contratos.
                                                                                                                      formará, según corresponda,
 
 ## 6. Prohibir el porte y tenencia de cual-          a la Dirección General de Mo-
 
-                                                                      quier arma de fuego.                           vilización, a la Comandancia
+**Definición Canónica:** quier arma de fuego.                           vilización, a la Comandancia
+                                                                                                                     de Guarnición o al Director de
+
+quier arma de fuego.                           vilización, a la Comandancia
                                                                                                                      de Guarnición o al Director de
 
 ## 7. Decretar la reserva de la identidad del        Servicio respectivo, para los
 
-                                                                      tercero denunciante.                           fines legales y reglamenta-
+**Definición Canónica:** tercero denunciante.                           fines legales y reglamenta-
+                                                                                                                     rios que correspondan.
+
+tercero denunciante.                           fines legales y reglamenta-
                                                                                                                      rios que correspondan.
 
 ## 8. Establecer medidas de protección
 
-                                                                      para adultos mayores o personas             d) La asistencia obligatoria a
+**Definición Canónica:** para adultos mayores o personas             d) La asistencia obligatoria a
+                                                                      afectadas por alguna incapacidad o             programas terapéuticos o
+                                                                      discapacidad.                                  de orientación familiar. Las
+                                                                      Tratándose de adultos mayores en               instituciones que desarro-
+                                                                      situación de abandono, 
+**Concordancias Legales:** artículo 11 de la Ley N; Ley N° 20.066
+
+para adultos mayores o personas             d) La asistencia obligatoria a
                                                                       afectadas por alguna incapacidad o             programas terapéuticos o
                                                                       discapacidad.                                  de orientación familiar. Las
                                                                       Tratándose de adultos mayores en               instituciones que desarro-
@@ -7078,10 +7113,11 @@ fenómeno psicosocial                                               violencia in
 Violencia intrafamiliar:                                              4. Abordaje práctico de la                                         168
 fenómeno psicosocial                                                     violencia intrafamiliar
 
-
 ## 4.2     Procedimiento ordinario por crimen o
 
-                                                                        simple delito de acción penal pública
+**Definición Canónica:** simple delito de acción penal pública
+
+simple delito de acción penal pública
 
                                                                         A modo de introducción, les invitamos a leer la siguiente columna
                                                                         de opinión:
@@ -7094,22 +7130,26 @@ fenómeno psicosocial                                                     violen
                                                                              http://www.dpp.cl/sala_prensa/noticias_detalle/8337/
                                                                              estamos-protegiendo-a-todas-las-victimas
 
-
 ## 4.2.1 La víctima: el proceso penal en hipótesis de
 
-                                                                        violencia intrafamiliar constitutiva de delito
+**Definición Canónica:** violencia intrafamiliar constitutiva de delito
                                                                         En el siguiente cuadro se representa la noción de víctima en el
                                                                         procedimiento penal.
 
-
-## 4.2.2 Rol de la víctima en procedimiento penal en
-
-                                                                        hipótesis de violencia intrafamiliar constitutiva de delito
-
+violencia intrafamiliar constitutiva de delito
+                                                                        En el siguiente cuadro se representa la noción de víctima en el
+                                                                        procedimiento penal.
 
 ## 4.2.2.1 El inicio del procedimiento penal
 
-                                                                        El procedimiento penal se puede iniciar por denuncia, querella o de
+**Definición Canónica:** El procedimiento penal se puede iniciar por denuncia, querella o de
+                                                                        oficio por el Ministerio Público. El denunciante – normalmente la
+                                                                        víctima – no adquirirá el derecho a intervenir posteriormente en el
+                                                                        procedimiento, sin perjuicio de las facultades que pudieren corres-
+                                                                        ponderle en el caso de ser víctima del del
+**Concordancias Legales:** artículo 111 del CPP. También lo puede hacer su
+
+El procedimiento penal se puede iniciar por denuncia, querella o de
                                                                         oficio por el Ministerio Público. El denunciante – normalmente la
                                                                         víctima – no adquirirá el derecho a intervenir posteriormente en el
                                                                         procedimiento, sin perjuicio de las facultades que pudieren corres-
@@ -7131,10 +7171,11 @@ fenómeno psicosocial                                               violencia in
                                                                                                                                   en el modelo especial de aten-
                                                                                                                                   ción a víctimas de VIF, una o
 
-
 ## Evaluación de riesgos
 
-                                                                                                                                  más medidas de protección.
+**Definición Canónica:** más medidas de protección.
+
+más medidas de protección.
 
                                                                                           En los casos de flagrancia con
                                                                                           control de detención, evaluados
@@ -7163,10 +7204,17 @@ fenómeno psicosocial                                               violencia in
                                                                      ritario con la Policía, especialmente en los casos de riesgo medio o vital/
                                                                      alto, cuando el imputado no ha quedado en prisión preventiva.
 
-
 ## 4.2.2.2 La investigación del Ministerio
 
-                                                                  Público: los derechos de las víctimas
+**Definición Canónica:** Público: los derechos de las víctimas
+                                                                  El artículo 109 del Código Procesal Penal enuncia los derechos de
+                                                                  la víctima en el proceso de investigación por el Ministerio Público,
+                                                                  distinguiéndose los derechos que puede ejercer durante la investi-
+                                                                  gación propiamente tal y una vez que ésta sea cerrada. Lo anterior
+                             
+**Concordancias Legales:** artículo 109 del Código Procesal Penal enuncia los derechos de
+
+Público: los derechos de las víctimas
                                                                   El artículo 109 del Código Procesal Penal enuncia los derechos de
                                                                   la víctima en el proceso de investigación por el Ministerio Público,
                                                                   distinguiéndose los derechos que puede ejercer durante la investi-
@@ -7194,19 +7242,25 @@ De
 
                                                                                                      Víctimas en el proceso penal y sus derechos
 
-
 ## 184      ministerio público de chile, of. 792/2014 (vif)
 
-                                                           185      Ibid.
+**Definición Canónica:** 185      Ibid.
+
+185      Ibid.
 
  ←                                           Índice de contenidos
 Violencia intrafamiliar:                                                                     4. Abordaje práctico de la                                                  171
 fenómeno psicosocial                                                                            violencia intrafamiliar
 
-
 ## 4.2.2.3 La investigación del Ministerio
 
-                                                                                               Público: El término del procedimiento
+**Definición Canónica:** Público: El término del procedimiento
+                                                                                               En el presente párrafo queremos analizar las diversas modalidades
+                                                                                               de término del procedimiento penal que se puede verificar durante
+                                                                                               la investigación del Ministerio Público y una vez cerrada ésta. Para
+                                                                            
+
+Público: El término del procedimiento
                                                                                                En el presente párrafo queremos analizar las diversas modalidades
                                                                                                de término del procedimiento penal que se puede verificar durante
                                                                                                la investigación del Ministerio Público y una vez cerrada ésta. Para
@@ -7262,8 +7316,10 @@ fenómeno psicosocial                                                           
 
 ## 188      Tabla de elaboración propia. Fuente: MINISTERIO PÚBLICO DE CHILE (2020)
 
+**Definición Canónica:** Violencia intrafamiliar:                                                                  4. Abordaje práctico de la                                                   173
+fenómeno psicosocial                                                                         violencia intrafamiliar
 
-Violencia intrafamiliar:                                                                  4. Abordaje práctico de la                                                   173
+Violencia intrafamiliar:                                                                  4. Abordaje práctico de la                                                   173
 fenómeno psicosocial                                                                         violencia intrafamiliar
 
                                                                                              Archivo provisional                   40,78%      29,58%        67,01%
@@ -7280,10 +7336,15 @@ fenómeno psicosocial                                                           
                                                                                             la más utilizada en los delitos de lesiones y amenazas no así en el
                                                                                             de maltrato habitual
 
-
 ## 4.2.2.3 La investigación del Ministerio Público: el
 
-                                                                                            rol de la víctima en término del procedimiento
+**Definición Canónica:** rol de la víctima en término del procedimiento
+                                                                                            En el párrafo anterior analizamos la incidencia de los diversos
+                                                                                            términos del procedimiento en función de la tipología de cau-
+                                                                                            sas de violencia intrafamiliar, correspondiendo analizar ahora
+                                                                                        
+
+rol de la víctima en término del procedimiento
                                                                                             En el párrafo anterior analizamos la incidencia de los diversos
                                                                                             términos del procedimiento en función de la tipología de cau-
                                                                                             sas de violencia intrafamiliar, correspondiendo analizar ahora
@@ -7310,11 +7371,12 @@ fenómeno psicosocial                                                           
                                                                                                                                     coherentes con los bajos porcen-
                                                                                                                                     tajes de términos por esta causal.
 
-
 ## 189      ministerio público de chile, of. 792/2014 (vif)
 
+**Definición Canónica:** Violencia intrafamiliar:                                                                    4. Abordaje práctico de la                                                   174
+fenómeno psicosocial                                                                           violencia intrafamiliar
 
-Violencia intrafamiliar:                                                                    4. Abordaje práctico de la                                                   174
+Violencia intrafamiliar:                                                                    4. Abordaje práctico de la                                                   174
 fenómeno psicosocial                                                                           violencia intrafamiliar
 
                                                         Principio de oportunidad              - Cuando la conducta del agresor
@@ -7408,10 +7470,15 @@ fenómeno psicosocial                                                           
 
                                                                                             - Apelar de dicha decisión.191
 
-
 ## 4.2.2.4 La víctima en la etapa de juicio oral
 
-                                                                                            La víctima tiene el deber de comparecer y declarar en esta audiencia,
+**Definición Canónica:** La víctima tiene el deber de comparecer y declarar en esta audiencia,
+                                                                                            aunque se le reconoce la facultad de no declarar por motivos perso-
+                                                                                            nales, así no están obligados a declarar el cónyuge o el conviviente
+                                                                                            del imputado, entre otras personas ligadas por lazo de parentesco
+                                                   
+
+La víctima tiene el deber de comparecer y declarar en esta audiencia,
                                                                                             aunque se le reconoce la facultad de no declarar por motivos perso-
                                                                                             nales, así no están obligados a declarar el cónyuge o el conviviente
                                                                                             del imputado, entre otras personas ligadas por lazo de parentesco
@@ -7433,8 +7500,10 @@ fenómeno psicosocial                                                           
 
 ## 191      Ibid
 
+**Definición Canónica:** Violencia intrafamiliar:                                                                    4. Abordaje práctico de la                                                   176
+fenómeno psicosocial                                                                           violencia intrafamiliar
 
-Violencia intrafamiliar:                                                                    4. Abordaje práctico de la                                                   176
+Violencia intrafamiliar:                                                                    4. Abordaje práctico de la                                                   176
 fenómeno psicosocial                                                                           violencia intrafamiliar
 
                                                                                               ¿Cree Ud. que las actitudes de los operadores jurídicos y judiciales
@@ -7506,7 +7575,9 @@ fenómeno psicosocial                                                           
 
 ## 195      OMS, CIE-11: https://icd.who.int/browse11/l-m/es#/http://id.who.int/icd/entity/129180281
 
-                                                       196      Ibid.
+**Definición Canónica:** 196      Ibid.
+
+196      Ibid.
 
 Violencia intrafamiliar:                                                                  4. Abordaje práctico de la                                               178
 fenómeno psicosocial                                                                         violencia intrafamiliar
@@ -7583,17 +7654,19 @@ fenómeno psicosocial                                                           
                                                                                                - Generación de equipos recíprocos de intervención en crisis para los pro-
                                                                                                  fesionales (la red como sistema de apoyo externo).
 
-
 ## 198      Fuente: ARON Y LLANOS (2004)
 
-
-Violencia intrafamiliar:                                                                     4. Abordaje práctico de la                                                       180
+**Definición Canónica:** Violencia intrafamiliar:                                                                     4. Abordaje práctico de la                                                       180
 fenómeno psicosocial                                                                            violencia intrafamiliar
 
+Violencia intrafamiliar:                                                                     4. Abordaje práctico de la                                                       180
+fenómeno psicosocial                                                                            violencia intrafamiliar
 
 ## 4.4                  El Poder Judicial frente a la violencia
 
-                                                                                                intrafamiliar: el acceso a la justicia
+**Definición Canónica:** intrafamiliar: el acceso a la justicia
+
+intrafamiliar: el acceso a la justicia
 
                                                                                                 Los instrumentos internacionales ratificados por Chile imponen el
                                                                                                 deber de crear una institucionalidad que permita el efectivo respeto y
@@ -7607,11 +7680,15 @@ fenómeno psicosocial                                                           
                                                                                                 a la justicia, prueba de ello son las diversas instancias institucionales
                                                                                                 que se han establecido con dicho fin.
 
-
 ## 4.4.1 Iniciativas institucionales en materia de violencia
 
+**Definición Canónica:** Objetivos
+                                                        Secretaría Técnica de Género y No       Promover que los integrantes del Poder Judicial, disfruten de espacios de
+                                                        Discriminación del Poder Judicial.199   trabajo igualitarios y libres de violencia y discriminación
+                                                                                                Impulsar el desarrollo de políticas y acciones dirigidas a garantizar la igual-
+                                                                                        
 
-                                                                                                Objetivos
+Objetivos
                                                         Secretaría Técnica de Género y No       Promover que los integrantes del Poder Judicial, disfruten de espacios de
                                                         Discriminación del Poder Judicial.199   trabajo igualitarios y libres de violencia y discriminación
                                                                                                 Impulsar el desarrollo de políticas y acciones dirigidas a garantizar la igual-
@@ -7688,10 +7765,15 @@ fenómeno psicosocial                                                           
                                                                                                 colo de actuación para la atención en justicia con enfoque de género
                                                                                                 y diversidad sexual”.
 
-
 ## 4.5.1 Acceso a la justicia de las mujeres víctimas
 
-                                                                                                de violencia usuarias del Poder Judicial202
+**Definición Canónica:** de violencia usuarias del Poder Judicial202
+                                                                                                El estudio efectuado arroja resultados importantes que permiten
+                                                                                                orientar el quehacer del Poder Judicial en esta materia, y en su parte
+                                                                                                final entrega propuestas de mejora que el equipo consultor elaboró
+                                                                  
+
+de violencia usuarias del Poder Judicial202
                                                                                                 El estudio efectuado arroja resultados importantes que permiten
                                                                                                 orientar el quehacer del Poder Judicial en esta materia, y en su parte
                                                                                                 final entrega propuestas de mejora que el equipo consultor elaboró
@@ -7745,10 +7827,15 @@ fenómeno psicosocial                                               violencia in
 Violencia intrafamiliar:                                                                 4. Abordaje práctico de la                                             184
 fenómeno psicosocial                                                                        violencia intrafamiliar
 
-
 ## 4.5.2 Protocolo de actuación para la atención en
 
-                                                                                           justicia con enfoque de género y diversidad sexual
+**Definición Canónica:** justicia con enfoque de género y diversidad sexual
+                                                                                           Proyecto de Investigación FONDEF (Fondo de Fomento al Desarro-
+                                                                                           llo Científico y Tecnológico) ID17I10111, financiado por la Comisión
+                                                                                           Nacional de Investigación Científica y Tecnológica (CONICYT),
+                                                                                  
+
+justicia con enfoque de género y diversidad sexual
                                                                                            Proyecto de Investigación FONDEF (Fondo de Fomento al Desarro-
                                                                                            llo Científico y Tecnológico) ID17I10111, financiado por la Comisión
                                                                                            Nacional de Investigación Científica y Tecnológica (CONICYT),
@@ -7815,7 +7902,9 @@ fenómeno psicosocial                                                           
 
 ## parte responsables de la situación, ya que la violencia sería provocada
 
-                                                                                   en cierta medida por su propia conducta”.207
+**Definición Canónica:** en cierta medida por su propia conducta”.207
+
+en cierta medida por su propia conducta”.207
 
                                                                                    “Las mujeres carecen de regulación emocional. Existe una representa-
                                                                                    ción estereotipada de que las mujeres tienen dificultades para regular
@@ -7930,112 +8019,68 @@ fenómeno psicosocial                                                violencia i
 
                                                                       Bibliografía
 
-
-## 1.    ADAMS, Yuly (2012): “Maltrato en el adulto mayor institucionalizado: rea-
-
-                                                                      lidad e invisibilidad”, en Revista Médica Clínica Las Condes (Vol. 23 N° 1).
-                                                                      Disponible online.
-
-
-## 2.    ACALE, María (1999): El delito de malos tratos físicos y psíquicos en el ám-
-
-                                                                      bito familiar (Valencia, Tirant Monografías).
-
-
-## 3.    ALONSO, J. Manuel y CASTELLANOS DELGADO, Juan Luis (2006): “Por un
-
-                                                                      enfoque integral de la violencia familiar”, en Psychosocial Intervention (Vol.
-                                                                      15, N° 3), pp. 253-74.
-
-
-## 4.    ARCE, Ramón y otros, MARCHIORI, Hilda (Coord.), (2015): Serie Victimología
-
-                                                                      17: Visibilización de la violencia (Argentina, Grupo Editor Encuentro).
-
-
-## 5.    ARÓN, Ana María y LLANOS, María (2004): “Cuidar a los que cuidan: Des-
-
-                                                                      gaste profesional y cuidado de los equipos que trabajan con violencia”, en
-                                                                      Sistemas Familiares (N° 1-2, 2004). Disponible online.
-
-
 ## 6.    ALCÁNTARA, María Vicenta; CASTRO, Maravillas; LÓPEZ, Juan y
 
-                                                                      LÓPEZ-SOLER. Concepción (2013): “Alteraciones psicológicas en meno-
+**Definición Canónica:** LÓPEZ-SOLER. Concepción (2013): “Alteraciones psicológicas en meno-
                                                                       res expuestos a violencia de género: Prevalencia y diferencias de género y
                                                                       edad”, en Revista Anales de Psicología (Vol. 29, N° 3), pp. 741-47.
 
-
-## 7.    ÁLVAREZ, F.; CARRASCO, M.; CUGAT, M. y OTROS (2011): Derecho Penal Es-
-
-                                                                      pañol, Parte Especial, 2° edición aumentada y corregida (Valencia, España,
-                                                                      Tirant Lo Blanch, Tomo 1). Disponible online.
-
+LÓPEZ-SOLER. Concepción (2013): “Alteraciones psicológicas en meno-
+                                                                      res expuestos a violencia de género: Prevalencia y diferencias de género y
+                                                                      edad”, en Revista Anales de Psicología (Vol. 29, N° 3), pp. 741-47.
 
 ## 8.    AÑAZCO, Carlos; SIMUNOVIC. Jalin y SILVA, Jasna (2019): “Aspectos ge-
 
-                                                                      nerales del delito de maltrato corporal relevante y trato degradante contra
+**Definición Canónica:** nerales del delito de maltrato corporal relevante y trato degradante contra
                                                                       niñas, niños y adolescentes”, p. 47. Disponible online.
 
+nerales del delito de maltrato corporal relevante y trato degradante contra
+                                                                      niñas, niños y adolescentes”, p. 47. Disponible online.
 
 ## 9.    ARENAS PAREDES, Jessica (2014): “El adulto mayor como víctima de vio-
 
-                                                                      lencia intrafamiliar. Su abordaje en los Tribunales de Familia”, en ABUSLE-
+**Definición Canónica:** lencia intrafamiliar. Su abordaje en los Tribunales de Familia”, en ABUSLE-
                                                                       ME, MT y CABALLERO, M (Edit.): Maltrato a las personas mayores en Chile.
                                                                       Haciendo visible lo invisible (Santiago, Ediciones del SENAMA). Disponible
 
-
-## 10.   ARENAS PAREDES, Jessica (2017): “Femicidios en la Región Metropolitana
-
-                                                                      año 2014, datos que configuran un fenómeno”, en Revista de Derecho de
-                                                                      Familia (Volumen I, N° 13).
-
+lencia intrafamiliar. Su abordaje en los Tribunales de Familia”, en ABUSLE-
+                                                                      ME, MT y CABALLERO, M (Edit.): Maltrato a las personas mayores en Chile.
+                                                                      Haciendo visible lo invisible (Santiago, Ediciones del SENAMA). Disponible
 
 ## 11.   BAN, Ki-Moon (2012): Mensaje: Día Mundial de toma de conciencia del abu-
 
-                                                                      so y maltrato en la vejez, Secretaría General de la ONU. Disponible online.
+**Definición Canónica:** so y maltrato en la vejez, Secretaría General de la ONU. Disponible online.
+
+so y maltrato en la vejez, Secretaría General de la ONU. Disponible online.
 
                                                                 12.   BARÓ, Carlos (2017): “Multicausalidad y sobredeterminación de la violencia”,
                                                                       en Intercambios, papeles de psicoanálisis (N° 78), pp. 77-84. Disponible online.
 
-
 ## 13.   BARRÉRE, María de los Ángeles (2019): “La violencia de género desde una
 
-                                                                      perspectiva sistémica y su proyección en la cultura jurídica”, en PÉREZ y
+**Definición Canónica:** perspectiva sistémica y su proyección en la cultura jurídica”, en PÉREZ y
                                                                       GOIZUELA: El sistema judicial al servicio de la ciudadanía (Universidad del
                                                                       País Vasco), pp. 1-20.
 
+perspectiva sistémica y su proyección en la cultura jurídica”, en PÉREZ y
+                                                                      GOIZUELA: El sistema judicial al servicio de la ciudadanía (Universidad del
+                                                                      País Vasco), pp. 1-20.
 
 ## 14.   BARUDY, Jorge y DANTAGNAN, Marjorie (2005): Los buenos tratos a la
 
-                                                                      infancia: parentalidad, apego y resiliencia (Editorial Gedisa).
+**Definición Canónica:** infancia: parentalidad, apego y resiliencia (Editorial Gedisa).
+
+infancia: parentalidad, apego y resiliencia (Editorial Gedisa).
 
 Violencia intrafamiliar:                                              Bibliografía                                                                    191
 
-
-## 15.   BIBLIOTECA DEL CONGRESO NACIONAL (2017): Historia de la Ley N°
-
-                                                                      21.013. Disponible online.
-
-
-## 16.   BIBLIOTECA DEL CONGRESO NACIONAL (2018): Guía de Formación Cívi-
-
-                                                                      ca. Disponible online.
-
-
-## 17.   BIBLIOTECA DEL CONGRESO NACIONAL (2018): Historia de la Ley N°
-
-                                                                      20.066. Disponible online.
-
-
-## 18.   BODELÓN, Encarna (2012): Violencia de género y las respuestas de los sis-
-
-                                                                      temas penales (Buenos Aires, Editorial Didot).
-
-
 ## 19.   BOLDOVA, Miguel (2016): “Derecho penal de mínimos: algunas considera-
 
-                                                                      ciones sobre el umbral de las prohibiciones penales relativas a malos tratos
+**Definición Canónica:** ciones sobre el umbral de las prohibiciones penales relativas a malos tratos
+                                                                      de obra y vejaciones injustas de carácter leve”, en Revista de Derecho Penal
+                                                                      y Criminología (3° Época, N° 15), pp. 13-52. Disponible online.
+
+ciones sobre el umbral de las prohibiciones penales relativas a malos tratos
                                                                       de obra y vejaciones injustas de carácter leve”, en Revista de Derecho Penal
                                                                       y Criminología (3° Época, N° 15), pp. 13-52. Disponible online.
 
@@ -8043,118 +8088,90 @@ fenómeno psicosocial                                                violencia i
 
                                                                       Los Nuevos Delitos de Género (Córdoba, Ediciones Alveroni).
 
-
 ## 21.   BUSTIN, Chloe; DURYEA, Suzanne; GARNELO, Marta y MORRISON, Andrew
 
-                                                                      (2019): “Aplicando las ciencias del comportamiento a la violencia de pareja
+**Definición Canónica:** (2019): “Aplicando las ciencias del comportamiento a la violencia de pareja
                                                                       íntima: mejorando los servicios para sobrevivientes en América Latina y
                                                                       el Caribe” en Monografías del BID, Capítulo 2: Sistema de Justicia Penal.
                                                                       Versión online.
 
-
-## 22.   CALVO, Manuel (2018): “El derecho de las mujeres a una vida libre de violen-
-
-                                                                      cia de género, en DE LUCAS y RODRÍGUEZ: Derechos Humanos y Constitu-
-                                                                      ción (Valencia, Tirant Lo Blanch), pp. 669-85.
-
+(2019): “Aplicando las ciencias del comportamiento a la violencia de pareja
+                                                                      íntima: mejorando los servicios para sobrevivientes en América Latina y
+                                                                      el Caribe” en Monografías del BID, Capítulo 2: Sistema de Justicia Penal.
+                                                                      Versión online.
 
 ## 23.   CARRASCO-JIMÉNEZ, Edison (2018): “Incriminación del maltrato corpo-
 
-                                                                      ral relevante y de la sumisión a trato degradante de personas con déficit
+**Definición Canónica:** ral relevante y de la sumisión a trato degradante de personas con déficit
+                                                                      corporal o físico en la legislación penal chilena. Ley N° 21.013 de 2017”, en
+                                                                      Revista de Derecho (Vol. 86, N° 243), pp. 57-69. Versión online.
+**Concordancias Legales:** Ley N° 21.013
+
+ral relevante y de la sumisión a trato degradante de personas con déficit
                                                                       corporal o físico en la legislación penal chilena. Ley N° 21.013 de 2017”, en
                                                                       Revista de Derecho (Vol. 86, N° 243), pp. 57-69. Versión online.
 
-
-## 24.   CASAS, Lidia; RIVEROS, Francisca y VARGAS, Macarena (2012): Violencia
-
-                                                                      de Género y la Administración de Justicia (Colaboración en entre el Servi-
-                                                                      cio Nacional de la Mujer y la UDP). Disponible online.
-
-
-## 25.   CASAS, Lidia y VARGAS, Macarena (2011): “La Respuesta Estatal a la
-
-                                                                      Violencia Intrafamiliar”, en Revista de Derecho (Vol. XXIV, N°1), pp. 133-51.
-                                                                      Disponible online.
-
-
-## 26.   CASTRO, Ivonne (2017): Pericia psicológica en la detección del maltrato
-
-                                                                      infantil (Santiago, Editorial Hammurabi).
-
-
 ## 27.   CEPAL-ECLAC. (2002). Vulnerabilidad sociodemográfica: Viejos y nuevos
 
-                                                                      riesgos para comunidades, hogares y personas (Brasilia, Brasil: ONU, Vige-
+**Definición Canónica:** riesgos para comunidades, hogares y personas (Brasilia, Brasil: ONU, Vige-
                                                                       simonoveno periodo de sesiones, abril de 2002), pp. 3 – 5. Disponible online.
 
-
-## 28.   CERVELLÓ, Vicenta. (2001). “El delito de Malos Tratos en el ámbito fami-
-
-                                                                      liar”, en: Eguzkilore (Nº 15), pp. 75 - 89.
-
+riesgos para comunidades, hogares y personas (Brasilia, Brasil: ONU, Vige-
+                                                                      simonoveno periodo de sesiones, abril de 2002), pp. 3 – 5. Disponible online.
 
 ## 29.   CESC – U de Chile (2011). Guía de Asistencia Integrada Violencia de
 
-                                                                      Género en Contexto Doméstico. Santiago, (Centro de Estudios en Seguri-
+**Definición Canónica:** Género en Contexto Doméstico. Santiago, (Centro de Estudios en Seguri-
                                                                       dad Ciudadana, Instituto de Asuntos Públicos de la Universidad de Chile”.
                                                                       Disponible online.
 
+Género en Contexto Doméstico. Santiago, (Centro de Estudios en Seguri-
+                                                                      dad Ciudadana, Instituto de Asuntos Públicos de la Universidad de Chile”.
+                                                                      Disponible online.
 
 ## 30.   CILLERO, Mirentxu (1999): Infancia, Autonomía y Derechos: una cuestión de
 
-                                                                      principios. Derecho a Tener Derechos. Disponible online.
+**Definición Canónica:** principios. Derecho a Tener Derechos. Disponible online.
+
+principios. Derecho a Tener Derechos. Disponible online.
 
 Violencia intrafamiliar:                                              B.ibliografía
                                                                       4                                                                            192
 
-
-## 31.   COOK, Rebecca y CUSACK, Simone (2009): Estereotipos de género. Pers-
-
-                                                                      pectivas Legales Transnacionales (University of Pennsylvania Press)
-
-
 ## 32.   CORCOY, M. (2010). Problemática jurídico-penal y político-criminal de la
 
-                                                                      regulación de la violencia de género y doméstica. Revista de Derecho de la
+**Definición Canónica:** regulación de la violencia de género y doméstica. Revista de Derecho de la
+                                                                      Pontificia Universidad Católica de Valparaíso (nº 34), pp. 305 - 347.
+
+regulación de la violencia de género y doméstica. Revista de Derecho de la
                                                                       Pontificia Universidad Católica de Valparaíso (nº 34), pp. 305 - 347.
 
                                                                 33.   CORSI Jorge, (1999): Violencia Familiar, (Editorial Paidós, Buenos Aires,
                                                                       Argentina).
 
-
-## 34.   CORSI Jorge, (2003): Maltrato y Abuso en el ámbito doméstico (Editorial
-
-                                                                      Paidós, Buenos Aires Argentina).
-
-
 ## 35.   CREMPIEN, Carla (2012): Traumatización relacional compleja: Una noción
 
-                                                                      útil en la comprensión del funcionamiento de mujeres víctimas de violencia
+**Definición Canónica:** útil en la comprensión del funcionamiento de mujeres víctimas de violencia
                                                                       doméstica, en: Revista Argentina de Clínica Psicológica (vol. XXI, núm. 1,
                                                                       abril, 2012), pp. 65-73. Disponible online.
 
-
-## 36.   CUADRADO, Ma de los Ángeles y REQUEJO, Carmen (2000): “El delito de
-
-                                                                      malos tratos en el ámbito familiar: Artículo 153 del Código Penal”, en: La
-                                                                      Ley (nº 4), pp. 1560 - 1566. Disponible online.
-
-
-## 37.   CUELLO, Joaquín (1993): “El delito de violencia habitual en el seno de la
-
-                                                                      familia y otras relaciones análogas de afectividad”, en: revista del Poder
-                                                                      Judicial (N° 32)
-
+útil en la comprensión del funcionamiento de mujeres víctimas de violencia
+                                                                      doméstica, en: Revista Argentina de Clínica Psicológica (vol. XXI, núm. 1,
+                                                                      abril, 2012), pp. 65-73. Disponible online.
 
 ## 38.   DÍAZ, José (2006): Maltrato Infantil: detección, notificación y registro de
 
-                                                                      casos (Ministerio de Trabajo y Asuntos Sociales. Subdirección General de
+**Definición Canónica:** casos (Ministerio de Trabajo y Asuntos Sociales. Subdirección General de
                                                                       Información Administrativa y Publicaciones, Madrid, España). Disponible
 
+casos (Ministerio de Trabajo y Asuntos Sociales. Subdirección General de
+                                                                      Información Administrativa y Publicaciones, Madrid, España). Disponible
 
 ## 39.   DIRECCIÓN DE ESTUDIOS DE LA CORTE SUPREMA (2018): “Análisis de la
 
-                                                                      Ley de Violencia Intrafamiliar a 14 años de su implementación”. Disponible
+**Definición Canónica:** Ley de Violencia Intrafamiliar a 14 años de su implementación”. Disponible
+
+Ley de Violencia Intrafamiliar a 14 años de su implementación”. Disponible
 
                                                                 40.   FACIO, Alda. y FRIES, Lorena (2005): “Feminismo, género y patriarcado”, en:
                                                                       Revista sobre enseñanza del Derecho (nº 6, Buenos Aires), pp. 259 - 294.
@@ -8164,116 +8181,77 @@ fenómeno psicosocial                                                violencia i
                                                                       en LAGARDE y VALCÁRCEL: Feminismo, género e igualdad, pensamiento
                                                                       iberoamericano, pp. 3-19.
 
-
-## 42.   FAPMI (2011): Detección y notificación de casos de maltrato infantil, Fe-
-
-                                                                      deración de Asociaciones para la Prevención del Maltrato Infantil, España.
-                                                                      Versión online.
-
-
-## 43.   FARIÑA, Francisca y ARCE, Ramón (2015): Violencia de Género, Tratado
-
-                                                                      Psicológico y Legal (Toledo, Editorial Biblioteca Nueva).
-
-
-## 44.   GARCÍA, Pastora y DEL CARPIO, Juana (2000): El delito de malos tratos en
-
-                                                                      el ámbito familiar, problemas fundamentales (Valencia, Tirant Lo Blanch).
-
-
 ## 45.   GARCÍA, Francisco (2001): “Modelo Ecológico/Integral de Intervención en
 
-                                                                      Atención Temprana” en Mesa Redonda: Conceptualización del desarrollo y la
+**Definición Canónica:** Atención Temprana” en Mesa Redonda: Conceptualización del desarrollo y la
                                                                       atención temprana desde las diferentes escuelas psicológicas, Madrid, Real
                                                                       Patronato sobre Discapacidad.
 
+Atención Temprana” en Mesa Redonda: Conceptualización del desarrollo y la
+                                                                      atención temprana desde las diferentes escuelas psicológicas, Madrid, Real
+                                                                      Patronato sobre Discapacidad.
 
 ## 46.   GAUCHÉ, Ximena (2020): Curso sobre estándares internacionales en materia
 
-                                                                      de orientación sexual e identidad de género: el caso Atala. Disponible online.
+**Definición Canónica:** de orientación sexual e identidad de género: el caso Atala. Disponible online.
+
+de orientación sexual e identidad de género: el caso Atala. Disponible online.
 
 Violencia intrafamiliar:                                              Bibliografía                                                                   193
 
-
-## 47.   GIL, Juana (2005): “Derechos humanos, violencia de género y maltrato jurí-
-
-                                                                      dico. Bases para entender el tratamiento integral de la violencia de género”,
-                                                                      en Anuario de Filosofía del Derecho N°2, pp. 53-81.
-
-
-## 48.   GÓMEZ, Esteban; HAZ, Ana María y MUÑOZ, María Magdalena (2007): “Fa-
-
-                                                                      milias multiproblemáticas y en riesgo social: características e intervención”,
-                                                                      en Revista Psykhe (Vol.16 N°2), pp. 43-54.
-
-
 ## 49.   GÓMEZ HERMOSO, María; GÓMEZ, Rebeca; MATEOS, Nuria; MUÑOZ, Juan
 
-                                                                      Manuel y VÁZQUEZ MEZQUITA, Blanca (2012): Guía de buenas prácticas
+**Definición Canónica:** Manuel y VÁZQUEZ MEZQUITA, Blanca (2012): Guía de buenas prácticas
                                                                       para la evaluación psicológica forense del riesgo de violencia contra la mu-
                                                                       jer en relaciones de pareja (VCMP), (Madrid, Colegio Oficial de Psicólogos).
 
+Manuel y VÁZQUEZ MEZQUITA, Blanca (2012): Guía de buenas prácticas
+                                                                      para la evaluación psicológica forense del riesgo de violencia contra la mu-
+                                                                      jer en relaciones de pareja (VCMP), (Madrid, Colegio Oficial de Psicólogos).
 
 ## 50.   HASANBEGOVIC, Claudia (2016): “Violencia basada en el género y el rol del
 
-                                                                      Poder Judicial/Gender-based violence and the role of Judicial Power”, en
+**Definición Canónica:** Poder Judicial/Gender-based violence and the role of Judicial Power”, en
                                                                       Revista Facultad de Derecho (Vol. 40), pp. 119-58. Versión online.
 
+Poder Judicial/Gender-based violence and the role of Judicial Power”, en
+                                                                      Revista Facultad de Derecho (Vol. 40), pp. 119-58. Versión online.
 
 ## 51.   IRARRÁZAVAL, Cristián (2017): “Minuta sobre las modificaciones introduci-
 
+**Definición Canónica:** das por la Ley N° 21.103, que tipifica un nuevo delito de maltrato y aumenta
+                                                                      la protección de personas en situación especial”. Unidad de Estudios de la
+                                                                      Defensoría Nacional Pública, Santiago, Chile.
+**Concordancias Legales:** Ley N° 21.103
 
-                                                                      das por la Ley N° 21.103, que tipifica un nuevo delito de maltrato y aumenta
+das por la Ley N° 21.103, que tipifica un nuevo delito de maltrato y aumenta
                                                                       la protección de personas en situación especial”. Unidad de Estudios de la
                                                                       Defensoría Nacional Pública, Santiago, Chile.
 
-
 ## 52.   JIMÉNEZ, Rodrigo (2008): Derecho y discapacidad (Costa Rica, Fundación
 
-                                                                      Justicia y Género), p. 148.
+**Definición Canónica:** Justicia y Género), p. 148.
+
+Justicia y Género), p. 148.
 
                                                                 53.   LARRAURI, Elena (2008): Criminología crítica y violencia de género (Madrid,
                                                                       Editorial Trotta).
 
-
 ## 54.   LARRAURI, Elena (2009): “Igualdad y violencia de género, Comentario a la
 
-                                                                      STC 59/2008”, en InDret (Vol. 1), pp. 2-17. Versión online.
+**Definición Canónica:** STC 59/2008”, en InDret (Vol. 1), pp. 2-17. Versión online.
+
+STC 59/2008”, en InDret (Vol. 1), pp. 2-17. Versión online.
 
                                                                 55.   LAURENZO, Patricia; MAQUEDA, María Luisa y RUBIO, Ana (Coords., 2018):
                                                                       Género, Violencia y Derecho (Valencia, Tirant Lo Blanch).
 
-
-## 56.   LAURENZO, Patricia (2005): “La violencia de género en la ley integral. Valo-
-
-                                                                      ración político criminal”, en Revista Electrónica de Derecho Penal y Crimi-
-                                                                      nología (Vol. 7). Disponible online.
-
-
-## 57.   LAURENZO, Patricia (2012): “El Derecho Penal frente a la Violencia de Géne-
-
-                                                                      ro”, en Revista EMERJ (Vol. 15, N° 57, junio-marzo), pp. 142-54. Versión online.
-
-
-## 58.   LAURENZO, Patricia (2012): “¿Hace falta un delito de femicidio?”, en Revista
-
-                                                                      de Derecho Penal (Vol. 20), pp. 243-56.
-
-
-## 59.   LEPIN MOLINA, Cristián y ARAYA PAREDES, Ignacio (2014): “Potestad cau-
-
-                                                                      telar del juez de familia”, en Revista de Derecho de Familia (Vol. 2, Santiago,
-                                                                      Thomson Reuters), pp. 103-130.
-
-
-## 60.   LIZANA, Raúl (2012): A mí también me duele: niños y niñas víctimas de la
-
-                                                                      violencia de género (Barcelona, Editorial Gedisa).
-
-
 ## 61.   LÓPEZ-SOLER, Concepción (2008): “Las reacciones postraumáticas en
 
-                                                                      la infancia y adolescencia maltratada: el trauma complejo”, en Revista de
+**Definición Canónica:** la infancia y adolescencia maltratada: el trauma complejo”, en Revista de
+                                                                      Psicopatología y Psicología Clínica (Vol. 13, N° 39), pp. 159-174.
+
+la infancia y adolescencia maltratada: el trauma complejo”, en Revista de
                                                                       Psicopatología y Psicología Clínica (Vol. 13, N° 39), pp. 159-174.
 
                                                                 62.   LÓPEZ-SOLER, Concepción; ALCÁNTARA, María V; FERNÁNDEZ, María V;
@@ -8283,101 +8261,84 @@ fenómeno psicosocial                                                violencia i
 
 Violencia intrafamiliar:                                              Bibliografía                                                                    194
 
-
 ## 63.   MAQUEDA, María Luisa (2001): “La violencia habitual en el ámbito fami-
 
-                                                                      liar, razones de una reforma”, en QUINTERO, Gonzalo y MORALES, Fermín
+**Definición Canónica:** liar, razones de una reforma”, en QUINTERO, Gonzalo y MORALES, Fermín
                                                                       (Coords.): El nuevo derecho penal español (Estudios penales en memoria del
                                                                       profesor José Manuel Muñiz), Pamplona, Aranzadi).
 
+liar, razones de una reforma”, en QUINTERO, Gonzalo y MORALES, Fermín
+                                                                      (Coords.): El nuevo derecho penal español (Estudios penales en memoria del
+                                                                      profesor José Manuel Muñiz), Pamplona, Aranzadi).
 
 ## 64.   MARÍN DE ESPINOSA, Elena (2003): “El delito de maltrato en el ámbito fa-
 
-                                                                      miliar: un análisis de derecho comparado del código penal español, alemán,
+**Definición Canónica:** miliar: un análisis de derecho comparado del código penal español, alemán,
+                                                                      italiano, portugués y sueco”, en Revista Penal (Vol. 11), pp. 70-80.
+
+miliar: un análisis de derecho comparado del código penal español, alemán,
                                                                       italiano, portugués y sueco”, en Revista Penal (Vol. 11), pp. 70-80.
 
                                                                 65.   MATUS, Jean y RAMÍREZ, María Cecilia (2019): Manual de Derecho Penal.
                                                                       Parte Especial (Valencia, Tirant Lo Blanch).
 
-
-## 66.   MESA-GRESA, Patricia y MOYA-ALBIOL, Luis (2011): “Neurobiología del
-
-                                                                      maltrato infantil: el ciclo de la violencia”, en Revista de Neurología (Vol. 52),
-                                                                      pp. 489-503.
-
-
-## 67.   MESECVI (2014): Guía para la aplicación de la Convención Interamericana
-
-                                                                      para prevenir, erradicar y sancionar la violencia contra la mujer (Belem do
-
-                                                                      Pará). Versión online.
-
-
-## 68.   MINISTERIO PÚBLICO DE CHILE (2012): Manual sobre investigación para
-
-                                                                      casos de violencia de pareja y femicidios en Chile. Versión online.
-
-
 ## 69.   MINISTERIO PÚBLICO DE CHILE (2014): Instrucción General que imparte
 
-                                                                      criterios de actuación en delitos cometidos en contexto de Violencia Intra-
+**Definición Canónica:** criterios de actuación en delitos cometidos en contexto de Violencia Intra-
+                                                                      familiar. Oficio FN 792/2014. Disponible online.
+
+criterios de actuación en delitos cometidos en contexto de Violencia Intra-
                                                                       familiar. Oficio FN 792/2014. Disponible online.
 
                                                                 70.   MUÑOZ SÁNCHEZ, Juan (2004), “El delito de violencia doméstica habitual”,
                                                                       en BOLDOVA, María y RUEDA, María de los Ángeles (Coords.): La reforma
                                                                       penal en torno a la violencia doméstica y de género (España, Atelier), p. 88.
 
-
 ## 71.   MUÑOZ, Juan Manuel (2013): “La evaluación psicológica forense del daño
 
-                                                                      psíquico: propuesta de un protocolo de actuación pericial”, en Anuario de Psi-
+**Definición Canónica:** psíquico: propuesta de un protocolo de actuación pericial”, en Anuario de Psi-
+                                                                      cología Jurídica (Vol. 2, Colegio Oficial de Psicólogos de Madrid), pp. 61-69.
+
+psíquico: propuesta de un protocolo de actuación pericial”, en Anuario de Psi-
                                                                       cología Jurídica (Vol. 2, Colegio Oficial de Psicólogos de Madrid), pp. 61-69.
 
                                                                 72.   NÚÑEZ, Elena (2010): “La violencia doméstica en la legislación española:
                                                                       Especial Referencia al delito de Maltrato Habitual (Art. 173.2 del Código Pe-
                                                                       nal)”, en Revista de Estudios de Justicia (N° 12), pp. 98-148. Versión online.
 
-
 ## 73.   OLAIZOLA, Inés (2010): “Violencia de género: elementos de los tipos pena-
 
-                                                                      les con mayor dificultad probatoria”, en Estudios Penales y Criminológicos
+**Definición Canónica:** les con mayor dificultad probatoria”, en Estudios Penales y Criminológicos
+                                                                      (Vol. XXX), pp. 269-316.
+
+les con mayor dificultad probatoria”, en Estudios Penales y Criminológicos
                                                                       (Vol. XXX), pp. 269-316.
 
                                                                 74.   OPS/OMS (1993): 37° Consejo Directivo 45° Sesión del Comité Regional.
                                                                       Versión online.
 
-
-## 75.   OMS, UNODOC, PNUD (2014): Informe sobre la situación mundial de la pre-
-
-                                                                      vención de la violencia. Disponible online.
-
-
-## 76.   OMS, UNICEF y UNESCO (2020): Informe sobre la situación mundial de la
-
-                                                                      prevención de la violencia contra los niños. Disponible online.
-
-
-## 77.   PANIAGUA, Ramón (2013): “¿Qué es un problema de salud pública?”. Dispo-
-
-                                                                      nible online.
-
-
 ## 78.   OACNUDH y ONU Mujeres (2014): Modelo de protocolo latinoamericano de
 
-                                                                      investigación de las muertes violentas de mujeres por razones de género
+**Definición Canónica:** investigación de las muertes violentas de mujeres por razones de género
                                                                       (femicidio/feminicidio), (Nueva York, ONU Mujeres). Versión online.
 
+investigación de las muertes violentas de mujeres por razones de género
+                                                                      (femicidio/feminicidio), (Nueva York, ONU Mujeres). Versión online.
 
 ## 79.   OLMEDO, Miguel (2001): El delito de violencia habitual en el ámbito domés-
 
-                                                                      tico. Análisis teórico y jurisprudencial, (Barcelona, Atelier).
+**Definición Canónica:** tico. Análisis teórico y jurisprudencial, (Barcelona, Atelier).
+
+tico. Análisis teórico y jurisprudencial, (Barcelona, Atelier).
 
 Violencia intrafamiliar:                                              Bibliografía                                                                 195
 
-
 ## 80.   OMS (2013): “Estimaciones mundiales y regionales de la violencia contra la
 
-                                                                      mujer: prevalencia y efectos de la violencia conyugal y violencia sexual no
+**Definición Canónica:** mujer: prevalencia y efectos de la violencia conyugal y violencia sexual no
+                                                                      conyugal en la salud”. Disponible online.
+
+mujer: prevalencia y efectos de la violencia conyugal y violencia sexual no
                                                                       conyugal en la salud”. Disponible online.
 
                                                                 81.   OPS (2020): “Prevención de la violencia”. Disponible online.
@@ -8386,86 +8347,65 @@ fenómeno psicosocial                                                violencia i
 
                                                                 83.   OPS (2020): Violencia contra los niños y niñas. Versión online.
 
-
-## 84.   PÉREZ, Ana (2010): “La perspectiva de género en el Código Penal: Especial
-
-                                                                      consideración del artículo 153”, en Estudios Penales y Criminológicos (Vol.
-                                                                      XXX). Versión online.
-
-
-## 85.   PÉREZ, Natalia (2016): “La determinación de la habitualidad del delito de
-
-                                                                      maltrato habitual (artículo 173.3 Código Penal Español)”, en Opinión Jurídica
-                                                                      (Vol. 15, N° 30), pp. 169-82.
-
-
-## 86.   PINO, María José y HERRUZO, J. (2000): “Consecuencias de los malos tra-
-
-
-                                                                      tos sobre el desarrollo psicológico”, en Revista Latinoamericana de Psicolo-
-                                                                      gía (Vol. 32, N° 2), pp. 253-275.
-
-
 ## 87.   poder judicial de chile, secretaría técnica igualdad de géne-
 
-                                                                      RO Y NO DISCRIMINACIÓN (2018): Cuadernos de Buenas Prácticas para
+**Definición Canónica:** RO Y NO DISCRIMINACIÓN (2018): Cuadernos de Buenas Prácticas para
                                                                       incorporar la perspectiva de género en las sentencias. Disponible online.
 
-
-## 88.   PODER JUDICIAL DE CHILE (2017): Política de Igualdad de Género y No
-
-                                                                      Discriminación. Disponible online.
-
-
-## 89.   PODER JUDICIAL DE CHILE (2020): Protocolo de atención para acceder
-
-                                                                      a canales de denuncia de violencia intrafamiliar y de violencia de género.
-                                                                      Disponible online.
-
+RO Y NO DISCRIMINACIÓN (2018): Cuadernos de Buenas Prácticas para
+                                                                      incorporar la perspectiva de género en las sentencias. Disponible online.
 
 ## 90.   PODER JUDICIAL DE CHILE (2018): Protocolo de acceso a la justicia de
 
-                                                                      grupos vulnerables. Disponible online.
+**Definición Canónica:** grupos vulnerables. Disponible online.
+
+grupos vulnerables. Disponible online.
 
                                                                 91.   QUERALT, Joan (2015): Derecho Penal Español. Parte Especial, (Valencia,
                                                                       Tirant Lo Blanch).
 
-
-## 92.   RAVAZZOLA, María Cristina (1997): Historias Infames: los malos tratos en
-
-                                                                      las relaciones, (Buenos Aires, Paidós).
-
-
 ## 93.   RAVAZZOLA, María Cristina (2003): “Actualización de los recorridos teóri-
 
-                                                                      cos y técnicos en relación a la temática de la Violencia Familiar”. Disponible
+**Definición Canónica:** cos y técnicos en relación a la temática de la Violencia Familiar”. Disponible
+
+cos y técnicos en relación a la temática de la Violencia Familiar”. Disponible
 
                                                                 94.   REYNA, L.M (2006): “Género, violencia y Derecho Penal”, en BUENO, F;
                                                                       GUZMÁN, J.L y SERRANO, A. (Coords.), Derecho Penal y criminología como
                                                                       fundamento de la política criminal: Estudios en homenaje al profesor Alfon-
                                                                       so Serrano Gómez (Madrid, Dykinson), pp. 1013-1032.
 
-
 ## 95.   RODRÍGUEZ, Begoña (2012): “La violencia de género y doméstica en la
 
-                                                                      legislación económica: especial referencia al delito de maltrato habitual”,
+**Definición Canónica:** legislación económica: especial referencia al delito de maltrato habitual”,
                                                                       (Universidad de Oviedo, Facultad de Derecho, Magíster Protección Jurídica
                                                                       de las personas y grupos vulnerables). Versión online.
 
+legislación económica: especial referencia al delito de maltrato habitual”,
+                                                                      (Universidad de Oviedo, Facultad de Derecho, Magíster Protección Jurídica
+                                                                      de las personas y grupos vulnerables). Versión online.
 
 ## 96.   RODRÍGUEZ VICENTE, Eva María (2018): “Psicología Forense y violencia de
 
-                                                                      género: aproximación teórica y estudio pericial psicológico”. Trabajo Final
+**Definición Canónica:** género: aproximación teórica y estudio pericial psicológico”. Trabajo Final
+                                                                      Máster en Psicología del Trabajo y Organizaciones, Psicología Jurídico-Fo-
+                                                                      rense e Intervención Social (PTOJFIS), Universidad de Santiago de Com-
+                                                                      postela. Disponible online.
+
+género: aproximación teórica y estudio pericial psicológico”. Trabajo Final
                                                                       Máster en Psicología del Trabajo y Organizaciones, Psicología Jurídico-Fo-
                                                                       rense e Intervención Social (PTOJFIS), Universidad de Santiago de Com-
                                                                       postela. Disponible online.
 
 Violencia intrafamiliar:                                              Bibliografía                                                                 196
 
-
 ## 97.   RUSSELL, Diane (2009): “Femicidio: politizando el asesinato de mujeres”, en
 
-                                                                      AGUDELO, I. y LARGAESPADA, R. (Edits.): Fortaleciendo la comprensión del
+**Definición Canónica:** AGUDELO, I. y LARGAESPADA, R. (Edits.): Fortaleciendo la comprensión del
+                                                                      femicidio. De la investigación a la acción. (Washington, Intercambios, WHO),
+                                                                      pp. 41-93. Versión online.
+
+AGUDELO, I. y LARGAESPADA, R. (Edits.): Fortaleciendo la comprensión del
                                                                       femicidio. De la investigación a la acción. (Washington, Intercambios, WHO),
                                                                       pp. 41-93. Versión online.
 
@@ -8476,153 +8416,73 @@ fenómeno psicosocial                                                violencia i
 
                                                                 99.   SAN MARTÍN, José (2000-9): La violencia y sus claves (Madrid, Editorial Ariel).
 
-
-## 100. SAN MIGUEL AGUIRRE, Eduardo (2000): “La vigencia de los derechos hu-
-
-                                                                     manos en las personas de edad”, en Gaceta Comisión Nacional de los Dere-
-                                                                     chos Humanos (México, Año 10, N° 119, junio).
-
-
-## 101. SEPÚLVEDA, Ivonne (2020): “Femicidio como un delito por razones de géne-
-
-                                                                     ro en Chile”, en Revista Jurídica del Ministerio Público (N° 78).
-
-
-## 102. SENAMA (2005): Definición y tipificación del maltrato al adulto mayor en
-
-                                                                     Chile (Ediciones Servicio Nacional del Adulto Mayor, Ministerio de Desarrollo
-                                                                     Social). Versión online.
-
-
-## 103. SERVICIO MURCIANO DE SALUD (2011): Guía de práctica clínica de de-
-
-                                                                     tección y actuación en salud mental ante las mujeres maltratadas por su
-                                                                     pareja (SMS, Murcia). Disponible online.
-
-
-## 104. SCJN (2013): Protocolo para juzgar con perspectiva de género. Haciendo
-
-                                                                     realidad el derecho a la igualdad. Suprema Corte de Justicia Mexicana, pp.
-                                                                     59-61. Versión online.
-
-
 ## 105. SORDI, Bárbara (2015): “Programas de rehabilitación para agresores en
 
-                                                                     España: un elemento indispensable de las políticas del combate a la violen-
+**Definición Canónica:** España: un elemento indispensable de las políticas del combate a la violen-
                                                                      cia de género”, en Política Criminal (Vol. 10, N° 19), pp. 297-313. Disponible
 
-
-## 106. TALADRIZ, María José (2008): “La comisión por omisión en el Maltrato Ha-
-
-                                                                     bitual”, en Revista Jurídica del Ministerio Público (N° 37), pp. 263-71.
-
+España: un elemento indispensable de las políticas del combate a la violen-
+                                                                     cia de género”, en Política Criminal (Vol. 10, N° 19), pp. 297-313. Disponible
 
 ## 107. TOLEDO, Patsilí (2009): “Leyes sobre femicidio y violencia contra las muje-
 
-                                                                     res. Análisis comparado y problemas pendientes”, en RED CHILENA CON-
+**Definición Canónica:** res. Análisis comparado y problemas pendientes”, en RED CHILENA CON-
                                                                      TRA LA VIOLENCIA DOMÉSTICA Y SEXUAL: Tipificación del femicidio, un
                                                                      debate abierto (Santiago).
 
+res. Análisis comparado y problemas pendientes”, en RED CHILENA CON-
+                                                                     TRA LA VIOLENCIA DOMÉSTICA Y SEXUAL: Tipificación del femicidio, un
+                                                                     debate abierto (Santiago).
 
 ## 108. UNICEF y CEPAL (2009): “Maltrato infantil: una dolorosa realidad puertas
 
-                                                                     adentro”, en Desafíos: Boletín de la infancia y adolescencia sobre el avance
+**Definición Canónica:** adentro”, en Desafíos: Boletín de la infancia y adolescencia sobre el avance
                                                                      de los objetivos de desarrollo del milenio (N° 9, julio). Versión online.
 
-
-## 109. UNIVERSIDAD DE CHILE (2017): “Violencia contra la mujer en Chile y dere-
-
-                                                                     chos humanos. Informe temático”, (Facultad de Derecho), pp. 93-96.
-
+adentro”, en Desafíos: Boletín de la infancia y adolescencia sobre el avance
+                                                                     de los objetivos de desarrollo del milenio (N° 9, julio). Versión online.
 
 ## 110. UNIVERSIDAD DE CONCEPCIÓN (2020): Protocolo de actuación para la
 
-                                                                     atención en justicia con enfoque de género y diversidad sexual. Disponible
+**Definición Canónica:** atención en justicia con enfoque de género y diversidad sexual. Disponible
+
+atención en justicia con enfoque de género y diversidad sexual. Disponible
 
                                                                 111. URRA, Javier (1997): Violencia. Memoria amarga (Madrid, Editorial Siglo XXI).
 
-
 ## 112. VAN WEEZEL, Alex (2008): “Lesiones y Violencia Intrafamiliar”, en Revista
 
-                                                                     Chilena de Derecho (Vol. 35, N° 2), pp. 223-29.
+**Definición Canónica:** Chilena de Derecho (Vol. 35, N° 2), pp. 223-29.
+
+Chilena de Derecho (Vol. 35, N° 2), pp. 223-29.
 
 Violencia intrafamiliar:                                              Bibliografía                                                                  197
 
-
-## 113. VELÁSQUEZ, Susana (2003): Violencias Cotidianas, Violencias de Género
-
-                                                                     (Buenos Aires, Editorial Paidós).
-
-
-## 114. VERDUGO, PFEFFER y NOGUEIRA (1994): Derecho Constitucional (Santia-
-
-                                                                     go, Editorial Jurídica de Chile), p. 87.
-
-
-## 115. VILLEGAS, Myrna (2012): “El delito de maltrato habitual en la Ley N° 20.066
-
-                                                                     a la luz del derecho comparado”, en Política Criminal (Vol. 7, N° 14), pp. 276-
-                                                                     317. Versión online.
-
-
-## 116. VIVEROS, M. (2016): “La interseccionalidad: una aproximación situada a la
-
-                                                                     dominación”, en Debate Feminista (Vol.52), pp. 1-17.
-
-
 ## 117. ZAIKOSKI, Daniela (2018): “Comentario a la Recomendación General N° 35
 
-                                                                     del Comité de la CEDAW”, en Revista Perspectivas de las Ciencias Econó-
+**Definición Canónica:** del Comité de la CEDAW”, en Revista Perspectivas de las Ciencias Econó-
+                                                                     micas y Jurídicas (Vol. 8, N° 2, julio-diciembre), pp. 115-16. Versión online.
+
+del Comité de la CEDAW”, en Revista Perspectivas de las Ciencias Econó-
                                                                      micas y Jurídicas (Vol. 8, N° 2, julio-diciembre), pp. 115-16. Versión online.
 
                                                                       Legislación nacional
 
-## 1.    Ley Nº 19.968, crea los Tribunales de Familia, Diario Oficial, 30 de agosto
-
-                                                                      de 2004.
-
-
-## 2.    Ley N° 20.066, establece Ley de Violencia Intrafamiliar, Diario Oficial, 07
-
-                                                                      de octubre de 2005
-
-
-## 3.    Ley N° 21.013, tipifica un nuevo delito de maltrato y aumenta la protección
-
-                                                                      de personas en situación especial, Diario Oficial, 06 de junio de 2017.
-
-
-## 4.    Ley N° 20.422, establece normas sobre igualdad de oportunidades e inclu-
-
-                                                                      sión social de personas con discapacidad, Diario Oficial, 10 de febrero de
-                                                                      2010.
-
-
-## 5.    Ley Nº 19.325, establece normas sobre procedimiento y sanciones relativos
-
-                                                                      a los actos de violencia intrafamiliar, Diario Oficial, 27 de agosto de 1994.
-
-
 ## 6.    Ley Nº 20.480, modifica el Código Penal y la Ley Nº 20.066 sobre violencia
 
-                                                                      intrafamiliar, estableciendo el “femicidio”, aumentando las penas aplica-
+**Definición Canónica:** intrafamiliar, estableciendo el “femicidio”, aumentando las penas aplica-
                                                                       bles a este delito y reforma las normas sobre parricidio, Diario Oficial, 18
                                                                       de diciembre de 2010
 
-
-## 7.    Ley N°17.798, establece el control de armas, Diario Oficial, 21 de octubre de
-
-
-
-## 8.    Ley Nº 21.212, modifica el código penal, el código procesal penal y la ley n°
-
-                                                                      18.216 en materia de tipificación del femicidio, Diario Oficial, 04 de marzo
-                                                                      de 2020.
-
+intrafamiliar, estableciendo el “femicidio”, aumentando las penas aplica-
+                                                                      bles a este delito y reforma las normas sobre parricidio, Diario Oficial, 18
+                                                                      de diciembre de 2010
 
 ## 9.    Ley Nº 18.216, establece penas que indica como sustitutivas a las penas
 
-                                                                      privativas o restrictivas de libertad, Diario Oficial, 14 de mayo de 1983.
+**Definición Canónica:** privativas o restrictivas de libertad, Diario Oficial, 14 de mayo de 1983.
+
+privativas o restrictivas de libertad, Diario Oficial, 14 de mayo de 1983.
 
                                                                 10.   Decreto Ley N° 645, sobre el registro general de condenas, Diario Oficial,
                                                                       28 de octubre de 1925.
@@ -8635,134 +8495,36 @@ fenómeno psicosocial                                                violencia i
 
                                                                       Jurisprudencia nacional
 
-## 1.    Excma. Corte Suprema, rol N° 3019-2018, de 27 de marzo de 2018 (apela-
-
-                                                                      ción protección).
-
-
-## 2.    Sentencia Excma. Corte Suprema, rol N° 24.096-2015, 11 de abril de 2016
-
-                                                                      (casación en el fondo).
-
-
-## 3.    Sentencia Excma. Corte Suprema Rol: 4171-2005, de 5-10-2005 (casación
-
-                                                                      forma y fondo).
-
-
 ## 4.    Requerimiento de inaplicabilidad por inconstitucionalidad presentado por
 
-                                                                      Matías Milenko Jáuregui Villalobos respecto del artículo 403 ter del Código
+**Definición Canónica:** Matías Milenko Jáuregui Villalobos respecto del artículo 403 ter del Código
+                                                                      Penal, en el proceso penal RUC N° 1700617470-1, RIT N° 7101-2017, se-
+                                                                      guido ante el Juzgado de Garantía de Viña del Mar, Rol: 4476-2018, 24 de
+                                                                      enero de 2019 (inaplicabilidad).
+**Concordancias Legales:** artículo 403 ter del Código
+
+Matías Milenko Jáuregui Villalobos respecto del artículo 403 ter del Código
                                                                       Penal, en el proceso penal RUC N° 1700617470-1, RIT N° 7101-2017, se-
                                                                       guido ante el Juzgado de Garantía de Viña del Mar, Rol: 4476-2018, 24 de
                                                                       enero de 2019 (inaplicabilidad).
 
                                                                 5.    Sentencia ICA La Serena, rol N° 178-2019, 22 de mayo de 2019 (nulidad penal).
 
-
-## 6.    Sentencia ICA Temuco, rol N° 611-2018, de fecha 06 de agosto del año
-
-                                                                      2018 (apelación).
-
-
-## 7.    Sentencia, ICA Santiago, rol N° 804-2019, 3 de octubre de 2019 (apela-
-
-                                                                      ción).
-
-                                                                8.    Sentencia ICA Santiago, rol N° 7039-2017, de 2 de febrero de 2018.
-
-
-## 9.    Sentencia ICA Santiago, rol N° 3490-2019, 24 de abril del año 2020 (apela-
-
-                                                                      ción).
-
-
-## 10.   Sentencia ICA La Serena, rol N° 103-2017, 13 de abril de 2017 (recurso de
-
-                                                                      nulidad penal).
-
-
-## 11.   Sentencia ICA Temuco, rol N° 311-2016, 22 de noviembre de 2016 (apela-
-
-                                                                      ción).
-
-
-## 12.   Sentencia ICA Santiago, rol N° 2601-2019, 14 de octubre de 2019 (apela-
-
-                                                                      ción).
-
-
-## 13.   Sentencia ICA Valparaíso, rol N° 1115-2018, 11 de enero de 2019 (apela-
-
-                                                                      ción).
-
-                                                                14.   Sentencia ICA Arica, rol N° 54-2020, 14 de mayo de 2020 (apelación).
-
-
-## 15.    Sentencia ICA Puerto Montt, rol N° 741-2020, 9 de noviembre de 2020
-
-                                                                      (nulidad penal).
-
-
-## 16.   Sentencia ICA de San Miguel, rol N° 1034-2017, 30 de diciembre de 2017
-
-                                                                      (apelación).
-
-
-## 17.   Sentencia JG La Serena, Rit: O 1628-2018, 13 de mayo de 2018 (Juicio oral
-
-                                                                      simplificado).
-
-
-## 18.   Sentencia JG La Serena, Rit: O 4494-2012, 18 de marzo de 2014 (Juicio
-
-                                                                      oral simplificado).
-
-                                                                19.   Sentencia CS Rol 20.859-2020, 19 de julio de 2020.
-
-
-## 20.   Sentencia JG de Osorno, Rit: 5524-2018, 20 de marzo de 2019 (Procedi-
-
-                                                                      miento simplificado).
-
-
-## 21.   Sentencia JG Valparaíso, Rit: 8477-2018, fecha 21de marzo del año 2019
-
-                                                                      (Procedimiento simplificado).
-
-Violencia intrafamiliar:                                              Bibliografía                                                                 199
-
-
-## 22.   Sentencia JG Puerto Montt, Rit 3535-2018, 26 de noviembre de 2018 (Pro-
-
-                                                                      cedimiento simplificado).
-
-                                                                23.   Sentencia JG de Pitrufquén, Rit 1201-2017 (Procedimiento simplificado).
-
-
-## 24.   Sentencia JG La Serena, en la causa RIT: 6328-2018, de fecha 09 de marzo
-
-                                                                      del año 2019 (Procedimiento simplificado).
-
-                                                                25.   Sentencia CMC, rol N° 7289-2016, 12 de diciembre de 2016.
-
-
 ## 26.   Sentencia JG de Concepción, Rit 10510-2012, 5 de marzo de 2013 (Proce-
 
-                                                                      dimiento simplificado).
+**Definición Canónica:** dimiento simplificado).
+
+dimiento simplificado).
 
                                                                 27.   Sentencia del Tribunal Oral en lo Penal de Puerto Montt, en la causa RIT:
                                                                       62-2018, de fecha 18 de julio del año 2018.
 
-
-## 28.   Sentencia del Tribunal de Juicio Oral en lo Penal de Puerto Montt, en la
-
-                                                                      causa RIT: 62-2018, de fecha 18 de julio del año 2018.
-
-
 ## 29.   Sentencia del Tribunal de Juicio Oral en lo Penal de Quillota, en la causa
 
-                                                                      RIT: 17-2019, de fecha 17 de abril del año 2019.
+**Definición Canónica:** RIT: 17-2019, de fecha 17 de abril del año 2019.
+**Concordancias Legales:** constitucion
+
+RIT: 17-2019, de fecha 17 de abril del año 2019.
 
                                                                 30.   Sentencia Tribunal Supremo español 232/2015, de 20 de abril de 2015. En:
                                                                       https://supremo.vlex.es/vid/570375846
@@ -8776,30 +8538,47 @@ fenómeno psicosocial                                                violencia i
 
 ## 1.    ASAMBLEA GENERAL DE NACIONES UNIDAS, Convención sobre la elimi-
 
-                                                                      nación de todas las formas de discriminación contra la mujer, 18 Diciembre
+**Definición Canónica:** nación de todas las formas de discriminación contra la mujer, 18 Diciembre
                                                                       1979, disponible en: https://www.refworld.org.es/docid/5bf30d844.html
 
+nación de todas las formas de discriminación contra la mujer, 18 Diciembre
+                                                                      1979, disponible en: https://www.refworld.org.es/docid/5bf30d844.html
 
 ## 2.    ASAMBLEA GENERAL DE NACIONES UNIDAS, Declaración sobre la elimi-
 
-                                                                      nación de la violencia contra la mujer: Resolución de la Asamblea General
+**Definición Canónica:** nación de la violencia contra la mujer: Resolución de la Asamblea General
                                                                       48/104 del 20 de diciembre de 1993, 20 Diciembre 1993, A/RES/48/104,
                                                                       disponible en esta dirección: https://www.refworld.org.es/docid/50ac921e2.
                                                                       html
 
+nación de la violencia contra la mujer: Resolución de la Asamblea General
+                                                                      48/104 del 20 de diciembre de 1993, 20 Diciembre 1993, A/RES/48/104,
+                                                                      disponible en esta dirección: https://www.refworld.org.es/docid/50ac921e2.
+                                                                      html
 
 ## 3.    comité para la eliminación de la discriminación contra la
 
-                                                                      MUJER Recomendaciones Generales adoptadas por el Comité para la
+**Definición Canónica:** MUJER Recomendaciones Generales adoptadas por el Comité para la
+                                                                      Eliminación de la Discriminación contra la mujer, 11º Periodo de Sesiones
+                                                                      (1992). Recomendación general Nº 19 sobre La violencia contra la mujer,
+                                                                      disponible: https://tbinternet.ohchr.org/Treaties/CEDAW/Shared%20Do-
+                                                                      cuments/1_Global/INT_CEDAW_GEC_3731 _S.pd
+
+MUJER Recomendaciones Generales adoptadas por el Comité para la
                                                                       Eliminación de la Discriminación contra la mujer, 11º Periodo de Sesiones
                                                                       (1992). Recomendación general Nº 19 sobre La violencia contra la mujer,
                                                                       disponible: https://tbinternet.ohchr.org/Treaties/CEDAW/Shared%20Do-
                                                                       cuments/1_Global/INT_CEDAW_GEC_3731 _S.pdf.
 
-
 ## 4.    comité para la eliminación de la discriminación contra la
 
-                                                                      MUJER Recomendaciones Generales adoptadas por el Comité para la
+**Definición Canónica:** MUJER Recomendaciones Generales adoptadas por el Comité para la
+                                                                      Eliminación de la Discriminación contra la mujer (2017). Recomendación
+                                                                      general Nº 35 sobre la violencia por razón de género contra la mujer, por
+                                                                      la que se actualiza la recomendación general num. 19. Disponible: https://
+                                                                      www.acnur.org/fileadmin/Documentos/B
+
+MUJER Recomendaciones Generales adoptadas por el Comité para la
                                                                       Eliminación de la Discriminación contra la mujer (2017). Recomendación
                                                                       general Nº 35 sobre la violencia por razón de género contra la mujer, por
                                                                       la que se actualiza la recomendación general num. 19. Disponible: https://
@@ -8807,10 +8586,14 @@ fenómeno psicosocial                                                violencia i
 
 Violencia intrafamiliar:                                              Bibliografía                                                               200
 
-
 ## 5.    Ley modelo interamericana para prevenir, sancionar y erradicar la muerte
 
-                                                                      violenta de mujeres (Femicidio/Feminicidio) : [Aprobada en la XV Reunión
+**Definición Canónica:** violenta de mujeres (Femicidio/Feminicidio) : [Aprobada en la XV Reunión
+                                                                      del Comité de Expertas del MESECVI, celebrada el 3, 4 y 5 de diciembre de
+                                                                      2018 en Washington, D.C.], disponible en: http://www.oas.org/es/mesecvi/
+                                                                      docs/LeyModeloFemicidio-ES.pdf
+
+violenta de mujeres (Femicidio/Feminicidio) : [Aprobada en la XV Reunión
                                                                       del Comité de Expertas del MESECVI, celebrada el 3, 4 y 5 de diciembre de
                                                                       2018 en Washington, D.C.], disponible en: http://www.oas.org/es/mesecvi/
                                                                       docs/LeyModeloFemicidio-ES.pdf
@@ -8820,10 +8603,13 @@ fenómeno psicosocial                                                violencia i
                                                                       de mayo a 12 de junio de 2009), disponible: https://www.acnur.org/filead-
                                                                       min/Documentos/BDL/2011/7532.pdf
 
-
 ## 7.    ONU: Comité de los Derechos del Niño (CRC), Observación General Nº 13
 
-                                                                      Derecho del niño a no ser objeto de ninguna forma de violencia, 18 de abril
+**Definición Canónica:** Derecho del niño a no ser objeto de ninguna forma de violencia, 18 de abril
+                                                                      de 2011, disponible: https://www.unicef.org/UNICEF-ObservacionesGene-
+                                                                      ralesDelComiteDeLosDerechosDelNino-WEB.pdf
+
+Derecho del niño a no ser objeto de ninguna forma de violencia, 18 de abril
                                                                       de 2011, disponible: https://www.unicef.org/UNICEF-ObservacionesGene-
                                                                       ralesDelComiteDeLosDerechosDelNino-WEB.pdf
 
@@ -8832,179 +8618,91 @@ fenómeno psicosocial                                                violencia i
 
                                                                       humanos.htm
 
-
 ## 9.    Convención sobre los Derechos del Niño (CDN). Disponible en: https://pla-
 
-                                                                      taformadeinfancia.org/derechos-de-infancia/la-convencion-de-los-de-
+**Definición Canónica:** taformadeinfancia.org/derechos-de-infancia/la-convencion-de-los-de-
                                                                       rechos-de-la-infancia/?gclid=Cj0KCQiAmfmABhCHARIsACwPRAAOj2_
                                                                       yi17mlUcZ5cueKsQ6ybwIMFgDq6NZJPOM208iQUXliX43k0AaAjJwEALw_
                                                                       wcB
 
-
-## 10.   Convención sobre la eliminación de todas las formas de discriminación
-
-                                                                      contra la mujer (CEDAW). Disponible en: https://www.acnur.org/fileadmin/
-                                                                      Documentos/BDL/2017/11405.pdf
-
+taformadeinfancia.org/derechos-de-infancia/la-convencion-de-los-de-
+                                                                      rechos-de-la-infancia/?gclid=Cj0KCQiAmfmABhCHARIsACwPRAAOj2_
+                                                                      yi17mlUcZ5cueKsQ6ybwIMFgDq6NZJPOM208iQUXliX43k0AaAjJwEALw_
+                                                                      wcB
 
 ## 11.   Convención Interamericana sobre la Protección de los Derechos Humanos
 
-                                                                      de las Personas Mayores. Disponible en: http://www.oas.org/es/sla/ddi/
+**Definición Canónica:** de las Personas Mayores. Disponible en: http://www.oas.org/es/sla/ddi/
                                                                       docs/tratados_multilaterales_interamericanos_a-70_derechos_huma-
                                                                       nos_personas_mayores.pdf
 
+de las Personas Mayores. Disponible en: http://www.oas.org/es/sla/ddi/
+                                                                      docs/tratados_multilaterales_interamericanos_a-70_derechos_huma-
+                                                                      nos_personas_mayores.pdf
 
 ## 12.   Convención sobre los Derechos de las Personas con Discapacidad. Dis-
 
-                                                                      ponible en: https://www.acnur.org/publications/pub_prot/5b6cb1524/
+**Definición Canónica:** ponible en: https://www.acnur.org/publications/pub_prot/5b6cb1524/
                                                                       convencion-sobre-los-derechos-de-las-personas-con-discapacidad.
                                                                       html?gclid=Cj0KCQiAmfmABhCHARIsACwPRACi_gX3ZNGIyAye2zn-
                                                                       CEXuT54UuKs6z9yT5zgFYdxH_bCv5I4MKvPIaAr2QEALw_wcB
 
+ponible en: https://www.acnur.org/publications/pub_prot/5b6cb1524/
+                                                                      convencion-sobre-los-derechos-de-las-personas-con-discapacidad.
+                                                                      html?gclid=Cj0KCQiAmfmABhCHARIsACwPRACi_gX3ZNGIyAye2zn-
+                                                                      CEXuT54UuKs6z9yT5zgFYdxH_bCv5I4MKvPIaAr2QEALw_wcB
 
 ## 13.   OEA. (1994). Convención Interamericana para prevenir, sancionar y erra-
 
-                                                                      dicar la violencia contra la mujer, Convención de Belém do Pará, Belem
+**Definición Canónica:** dicar la violencia contra la mujer, Convención de Belém do Pará, Belem
+                                                                      do Pará, Brasil. Disponible: https://www.oas.org/juridico/spanish/trata-
+                                                                      dos/a-61.html
+
+dicar la violencia contra la mujer, Convención de Belém do Pará, Belem
                                                                       do Pará, Brasil. Disponible: https://www.oas.org/juridico/spanish/trata-
                                                                       dos/a-61.html
 
                                                                       Jurisprudencia internacional
 
-## 1.    Corte IDH, Caso Gonzales Lluy y otros vs. Ecuador, sentencia de 1 de sep-
-
-                                                                      tiembre de 2015.
-
-
-## 2.    Corte IDH. CASO ATALA RIFFO Y NIÑAS VS. CHILE (2012), 24 de febrero
-
-                                                                      2012.
-
-
-## 3.    Corte IDH, Caso Espinoza Gonzáles Vs. Perú, sentencia de 20 de noviem-
-
-                                                                      bre de 2014
-
-Violencia intrafamiliar:                                              Bibliografía                                                               201
-
-
-## 4.    Corte IDH, Caso del Penal Miguel Castro Castro Vs. Perú. Sentencia 25 de
-
-                                                                      noviembre de 2006
-
-
-## 5.    Corte IDH, Caso Fernández Ortega y otros Vs. México. Sentencia de 30 de
-
-                                                                      agosto de 2010
-
-
-## 6.    Corte IDH, Caso del Penal Miguel Castro Castro Vs. Perú, Sentencia 25 de
-
-                                                                      noviembre de 2006,
-
-
-## 7.    Corte IDH, Caso Gudiel Álvarez y otros (Diario Militar) Vs. Guatemala, Sen-
-
-                                                                      tencia de 20 de noviembre de 2012,
-
-
-## 8.    Corte IDH, Caso González y otras (“Campo Algodonero”) Vs. México, Sen-
-
-                                                                      tencia de 16 de noviembre de 2009.
-
-
-## 9.    Corte IDH, Caso V.R.P., V.P.C. y otros Vs. Nicaragua, Sentencia de 8 de
-
-                                                                      marzo de 2018.
-
-
-## 10.   Corte IDH, Caso Favela Nova Brasília Vs. Brasil, Sentencia de 16 de febrero
-
-
-                                                                      de 2017, párr. 243.
-
-
-## 11.   Corte IDH, caso Almonacid Arellano y otros Vs. Chile Sentencia de 26 de
-
-                                                                      sembre de 2006, párr. 124.
-
-                                                                      Videos
-
-## 1.    Alto al Femicidio. Disponible en https://www.youtube.com/watch?v=Vhd-
-
-                                                                      PpWWcZUo
-
-
-## 2.    Aun no es tarde para ti. Spot sobre feminicidio premiado con el primer pues-
-
-                                                                      to por el MIMP – PUCP. https://www.youtube.com/watch?v=vNgAPc7B5vc
-
-
-## 3.    Campaña argentina sobre violencia contra las mujeres. Disponible en ht-
-
-                                                                      tps://www.youtube.com/watch?v=IQjxslRQFgE
-
-
 ## 4.    El dice. Disponible en https://www.youtube.com/watch?v=U-hRiucot5Q
 
+**Definición Canónica:** 5.    Violencia de género - ovillo de lana. Disponible en https://www.youtube.
+                                                                      com/watch?v=JrEYZZk5MAE
 
-                                                                5.    Violencia de género - ovillo de lana. Disponible en https://www.youtube.
+5.    Violencia de género - ovillo de lana. Disponible en https://www.youtube.
                                                                       com/watch?v=JrEYZZk5MAE
 
                                                                 6.    Campaña Contra Maltrato Infantil UNICEF. Disponible en https://www.
                                                                       youtube.com/watch?v=cKa6pdZWpFI
 
-
-## 7.    Victimización secundaria en Chile - #NoMePreguntenMas. Disponible en
-
-                                                                      https://www.youtube.com/watch?v=3z2Co38yQhY
-
-
 ## 8.    El fenómeno de la victimización secundaria en el abuso sexual infantil. Dis-
 
-                                                                      ponible en https://www.youtube.com/watch?v=ZCRIeVLCvzE
+**Definición Canónica:** ponible en https://www.youtube.com/watch?v=ZCRIeVLCvzE
+
+ponible en https://www.youtube.com/watch?v=ZCRIeVLCvzE
 
                                                                 9.    https://www.youtube.com/watch?v=NtZaK-Jo8Qs
 
                                                                 10.   ¡Dale una bofetada! reacciones de los niños. Disponible en https://www.
                                                                       youtube.com/watch?v=Rn4PVsKXE5k
 
-
-## 11.   Campaña audiovisual contra el maltrato del Adulto Mayor. Disponible en
-
-                                                                      https://www.youtube.com/watch?v=lQwC1A8-yY0
-
-
 ## 12.   Campaña Social- Contra el Abandono del adulto Mayor https://www.you-
 
-                                                                      tube.com/watch?v=djQn4jQNlvA
+**Definición Canónica:** tube.com/watch?v=djQn4jQNlvA
+
+tube.com/watch?v=djQn4jQNlvA
 
 Violencia intrafamiliar:                                              Bibliografía                                                            202
 
                                                                 13.   ¡No al maltrato de los adultos mayores!. Disponible en https://www.youtu-
                                                                       be.com/watch?v=QL-JFGmnD1I
 
-
-## 14.   Campaña “JUSTICIA DE GENERO” - La Denuncia - Fundación AVON Y
-
-                                                                      AMJA. Disponible en https://www.youtube.com/watch?v=Gi0QeQ9WT5w
-
-
-## 15.   Campaña “JUSTICIA DE GENERO” - El Seguimiento de la Causa - Funda-
-
-                                                                      ción AVON y AMJA. Disponible en
-
-                                                                16.   https://www.youtube.com/watch?v=Mo7D1OweNkg
-
-
-## 17.   Campaña “JUSTICIA DE GENERO” - La Revisación Médica - Fundación
-
-                                                                      AVON y AMJA. Disponible en https://www.youtube.com/watch?v=kSs1Oi-
-                                                                      Vh4qw
-
-
 ## 18.   Campaña “JUSTICIA DE GENERO” - La Defensa - Fundación AVON y
 
-                                                                      AMJA. Disponible en https://www.youtube.com/watch?v=8iWie6HJuK4
+**Definición Canónica:** AMJA. Disponible en https://www.youtube.com/watch?v=8iWie6HJuK4
+**Concordancias Legales:** ley N° 20.066
+
+AMJA. Disponible en https://www.youtube.com/watch?v=8iWie6HJuK4
 
 Violencia intrafamiliar:                                                                                                                   203
 
@@ -9289,10 +8987,12 @@ fenómeno psicosocial                                                violencia i
 
 Violencia intrafamiliar:                                                                     Anexos                                                                        208
 
-
 ## 2. Tabla N° 2 Estereotipos masculinos y femeninos, es decir, cuales son las cualidades que se asig-
 
-                                                          nan a hombres y mujeres en nuestra sociedad por el solo hecho de serlo. Material del Servicio
+**Definición Canónica:** nan a hombres y mujeres en nuestra sociedad por el solo hecho de serlo. Material del Servicio
+                                                          Nacional de la Mujer y la Equidad de Género.
+
+nan a hombres y mujeres en nuestra sociedad por el solo hecho de serlo. Material del Servicio
                                                           Nacional de la Mujer y la Equidad de Género.
 
                                                                 Dimensiones                 Estereotipos masculinos              Estereotipos femeninos
@@ -9416,11 +9116,14 @@ fenómeno psicosocial                                                violencia i
                                                                                        por ello suelen minimizar y justificar las situaciones de violencia como estrategia de
                                                                                        sobrevivencia, es decir, “para que todo al menos siga igual”.
 
-
 ## “Las víctimas de       LA CONDUCTA VIOLENTA ES DE ABSOLUTA RESPONSABILIDAD DE QUIEN LA
 
+**Definición Canónica:** maltrato se lo         EJERCE. No hay NADA que justifique la violencia. Es más, las personas que ejercen
+                                                                buscan, algo ha-       violencia dentro o fuera de su hogar intentan, permanentemente, escudar su conducta
+                                                                cen para provocar      en las supuestas “provocaciones” de los/as demás, lo que les permite eludir su respon-
+                                                                al hombre”:            sabilidad. Este tipo de argumentos invierten la realidad, culpa
 
-                                                                maltrato se lo         EJERCE. No hay NADA que justifique la violencia. Es más, las personas que ejercen
+maltrato se lo         EJERCE. No hay NADA que justifique la violencia. Es más, las personas que ejercen
                                                                 buscan, algo ha-       violencia dentro o fuera de su hogar intentan, permanentemente, escudar su conducta
                                                                 cen para provocar      en las supuestas “provocaciones” de los/as demás, lo que les permite eludir su respon-
                                                                 al hombre”:            sabilidad. Este tipo de argumentos invierten la realidad, culpabilizando a la víctima en
@@ -9444,10 +9147,14 @@ fenómeno psicosocial                                                violencia i
                                                                                        especialmente en actos de violencia sexual, exhibicionismo o cuando hay asesinatos
                                                                                        de familiares, especialmente niños/as, mujeres y personas mayores
 
-
 ## “Los abusos se-        LA MAYORÍA DE LOS CASOS DE ABUSO SEXUAL OCURRE EN LUGARES CONOCI-
 
-                                                                xuales y las viola-    DOS O EN LA PROPIA CASA, y EL VICTIMARIO SUELE SER ALGUIEN DE LA FAMILIA
+**Definición Canónica:** xuales y las viola-    DOS O EN LA PROPIA CASA, y EL VICTIMARIO SUELE SER ALGUIEN DE LA FAMILIA
+                                                                ciones ocurren en      O UN CONOCIDO, tanto en el abuso de niños y niñas como en el de mujeres. En nin-
+                                                                lugares peligrosos     guna parte el hombre que ejerce violencia tendrá mayor confianza en la impunidad de
+                                                                y oscuros y el ata-    sus actos que en un espacio privado. No es extraño, por lo tanto, que el más b
+
+xuales y las viola-    DOS O EN LA PROPIA CASA, y EL VICTIMARIO SUELE SER ALGUIEN DE LA FAMILIA
                                                                 ciones ocurren en      O UN CONOCIDO, tanto en el abuso de niños y niñas como en el de mujeres. En nin-
                                                                 lugares peligrosos     guna parte el hombre que ejerce violencia tendrá mayor confianza en la impunidad de
                                                                 y oscuros y el ata-    sus actos que en un espacio privado. No es extraño, por lo tanto, que el más brutal de
@@ -9464,7 +9171,9 @@ fenómeno psicosocial                                                violencia i
 
 ## humano”:               UN SISTEMA DE CONDUCTAS APRENDIDAS A PARTIR DE MODELOS FAMILIARES Y
 
-                                                                                       SOCIALES, que la definen como un recurso válido en el ejercicio de poder y control
+**Definición Canónica:** SOCIALES, que la definen como un recurso válido en el ejercicio de poder y control
+
+SOCIALES, que la definen como un recurso válido en el ejercicio de poder y control
 
 Violencia intrafamiliar:                                                                          Anexos                                                                            211
 
@@ -9528,11 +9237,15 @@ fenómeno psicosocial                                                violencia i
 
 Violencia intrafamiliar:                                                                      Anexos                                                                       212
 
-
 ## 4. Tabla N° 4 Tipos o manifestaciones de maltrato infantil
 
+**Definición Canónica:** En cuanto a los tipos de malos tratos, también se presenta como maltrato físico, psicológico o
+                                                           emocional, negligencia, abandono, abuso sexual y explotación comercial infantil; mismos que
+                                                           generan graves daños y repercusiones en la trayectoria vital de los niños, niñas y adolescentes.
+                                                           Tabla adaptada de Larraín y Valdebenito (2007). El maltrato deja huella. Manual para la detec-
+                                            
 
-                                                           En cuanto a los tipos de malos tratos, también se presenta como maltrato físico, psicológico o
+En cuanto a los tipos de malos tratos, también se presenta como maltrato físico, psicológico o
                                                            emocional, negligencia, abandono, abuso sexual y explotación comercial infantil; mismos que
                                                            generan graves daños y repercusiones en la trayectoria vital de los niños, niñas y adolescentes.
                                                            Tabla adaptada de Larraín y Valdebenito (2007). El maltrato deja huella. Manual para la detec-
@@ -9764,7 +9477,13 @@ fenómeno psicosocial                                                violencia i
 
 ## parte de los profesionales y la denuncia que
 
-                                                                                                                          realizan algunas víctimas.
+**Definición Canónica:** realizan algunas víctimas.
+                                                                             – Todos los malos tratos son iguales.      – A pesar de las similitudes, hay muchas diferen-
+                                                                                                                          cias entre los diferentes tipos de malos tratos.
+                                                                             – Los malos tratos solo ocurren dentro
+                                                                               de la familia.                       
+
+realizan algunas víctimas.
                                                                              – Todos los malos tratos son iguales.      – A pesar de las similitudes, hay muchas diferen-
                                                                                                                           cias entre los diferentes tipos de malos tratos.
                                                                              – Los malos tratos solo ocurren dentro
@@ -10015,10 +9734,12 @@ fenómeno psicosocial                                                violencia i
 
 Violencia intrafamiliar:                                                                       Anexos                                                                       221
 
-
 ## 9. Tabla N° 9 Mitos hacia las personas con discapacidad (confeccionada a partir de los 10 Mitos
 
-                                                          sobre discapacidad de la página https://www.incluyeme.com/10-mitos-sobre-la-discapacidad/ )
+**Definición Canónica:** sobre discapacidad de la página https://www.incluyeme.com/10-mitos-sobre-la-discapacidad/ )
+**Concordancias Legales:** constitucion
+
+sobre discapacidad de la página https://www.incluyeme.com/10-mitos-sobre-la-discapacidad/ )
 
                                                                 Mitos                     Realidad
 
@@ -10126,13 +9847,3 @@ fenómeno psicosocial                                                violencia i
                                                               de la perspectiva de género realizada en etapas anteriores del proceso judicial
 
 ←   Índice de contenidos
-
-## Serie de
-
-Violencia intrafamiliar:                                  DOCUMENTOS 224
-fenómeno psicosocial                                      MATERIALES
-
-## Docentes
-
-
-   Academia Judicial de Chile | www.academiajudicial.cl
