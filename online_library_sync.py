@@ -142,6 +142,7 @@ class OnlineLibrarySyncManager:
 
         docs_count = 0
         inst_count = 0
+        fallidas: list = []
 
         # 1. Generar data/train.jsonl con los 58 textos completos
         with open(train_path, "w", encoding="utf-8") as f_train:
@@ -228,8 +229,10 @@ class OnlineLibrarySyncManager:
                             }
                             f_inst.write(json.dumps(inst_entry, ensure_ascii=False) + "\n")
                             inst_count += 1
-        except Exception:
-            pass
+        except Exception as e:
+            # Una entrada que no se pudo escribir se informa: un dataset incompleto en silencio es
+            # peor que un dataset con el aviso de qué faltó.
+            fallidas.append(f"{type(e).__name__}: {str(e)[:120]}")
 
         # 3. Asegurar persistencia de data/legal_knowledge_graph.json
         graph_path = os.path.join(target_dir, "legal_knowledge_graph.json")
@@ -238,8 +241,8 @@ class OnlineLibrarySyncManager:
                 from legal_graphify import LegalGraphifyEngine
                 engine = LegalGraphifyEngine()
                 engine.guardar_grafo_json(graph_path)
-            except Exception:
-                pass
+            except Exception as e:
+                fallidas.append(f"no se pudo dejar el grafo en data/: {type(e).__name__}: {str(e)[:100]}")
 
         return {
             "train_jsonl": train_path,
