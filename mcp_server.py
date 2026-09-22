@@ -86,34 +86,19 @@ library_sync_mgr = OnlineLibrarySyncManager()
 legal_graphify_engine = LegalGraphifyEngine()
 
 import case_intake
-import pjud_connector
 
 TOOLS = [
     {
-        "name": "pjud_consultar_causa",
-        "description": (
-            "Valida un Rol/RIT chileno, dice a qué jurisdicción apunta y arma la consulta del "
-            "estado de la causa en la Oficina Judicial Virtual: dónde, con qué clave, qué pasos y "
-            "por qué la suite no lo hace sola (el portal pide ClaveÚnica y captcha, y esto no "
-            "automatiza el acceso a credenciales personales). NO devuelve el estado de la causa: "
-            "eso hay que consultarlo."
-        ),
-        "inputSchema": {
-            "type": "object",
-            "properties": {
-                "rit": {"type": "string", "description": "Rol/RIT, por ejemplo 'T-1234-2026' o 'Rol 12345-2026'"}
-            },
-            "required": ["rit"]
-        }
-    },
-    {
         "name": "caso_analizar",
         "description": (
-            "Mesa de entrada: analiza un caso —una carpeta de expediente, un texto o una consulta en "
-            "lenguaje natural— y devuelve un PLAN: de qué se trata, qué herramientas usar y en qué "
-            "orden, y qué falta para poder avanzar. No modifica nada ni consulta servicios externos: "
-            "sólo lee lo que le pasás. La materia la decide con reglas (Rol/RIT y palabras clave "
-            "chilenas), no adivinando; si no alcanza la información, lo dice."
+            "Usala SIEMPRE que la persona pida analizar un caso, una carpeta de expediente, un "
+            "expediente, unos documentos o 'este caso', aunque no nombre ninguna herramienta: frases "
+            "como «¿podés analizar esta carpeta?», «analizame el caso de Ailin», «¿por dónde empiezo "
+            "con esto?» o «mirá estos documentos y decime de qué se trata» son exactamente su "
+            "entrada. Devuelve un PLAN: de qué se trata, qué herramientas usar y en qué orden, y qué "
+            "falta para poder avanzar. No modifica nada ni consulta servicios externos: sólo lee lo "
+            "que le pasás. La materia la decide con reglas (Rol/RIT y palabras clave chilenas), no "
+            "adivinando; si no alcanza la información, lo dice."
         ),
         "inputSchema": {
             "type": "object",
@@ -1102,9 +1087,7 @@ def _con_avisos(resultado):
 def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     try:
         args = args or {}
-        if name == "pjud_consultar_causa":
-            return pjud_connector.instrucciones_de_consulta(args.get("rit", ""))
-        elif name == "caso_analizar":
+        if name == "caso_analizar":
             return case_intake.caso_analizar(args.get("entrada", ""), args.get("tipo"),
                                              args.get("consulta", ""))
         elif name == "caso_ejecutar":

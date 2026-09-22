@@ -24,8 +24,26 @@ Always attribute and cite sources using the official brackets:
 
 ---
 
+## 3 bis. Cómo se pide en lenguaje natural (mesa de entrada)
+
+No hace falta nombrar una herramienta ni escribir un comando: se pide como se le pide a un colega.
+
+| Lo que dice la persona | Lo que pasa |
+|---|---|
+| «¿Podés analizar esta carpeta?» · «Analizame el caso de Ailin» · «¿Por dónde empiezo con esto?» | Se llama `caso_analizar`, que devuelve el plan: materia, fuero, herramientas en orden y lo que falta |
+| «Dale, ejecutá» · «Buscá las fuentes» · «Traeme lo que encuentres» | Se llama `caso_ejecutar` sobre ese plan |
+
+El agente **debe** usar `caso_analizar` ante esos pedidos, aunque la persona no nombre ninguna
+herramienta: así el trabajo no depende de que el modelo elija bien entre 71 herramientas. Y cuando
+la mesa dice que falta algo (el Rol/RIT, las fechas, el RUT), eso se le pide a la persona **antes**
+de ejecutar: no se completa por deducción.
+
+**El estado de una causa no lo trae la suite.** Se consulta en la Oficina Judicial Virtual, que pide
+ClaveÚnica y captcha: la suite no automatiza el acceso a un sistema con credenciales personales. La
+mesa lo dice en sus advertencias y no expone ninguna herramienta que prometa lo contrario.
+
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 72 official tools over 16 forensic, state, doctrinal and agentic connectors:
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 71 official tools over 16 forensic, state, doctrinal and agentic connectors:
 
 **BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).

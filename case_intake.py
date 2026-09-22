@@ -485,19 +485,20 @@ def planear(deteccion: Dict[str, Any], consulta: str = "") -> Dict[str, Any]:
     # Si el caso trae Rol/RIT, ese es el dato más valioso que hay: se busca la causa y la
     # jurisprudencia por ahí antes que por palabras sueltas.
     if deteccion["roles"]:
-        # Primero el RIT en sí: validarlo y dejar armada la consulta del estado de la causa. La
-        # suite no consulta el expediente (la OJV pide clave y captcha), así que acá se entrega
-        # lo que sí se puede: el RIT revisado, la sección exacta y el enlace.
-        con_letra = next((r for r in deteccion["roles"] if re.match(r"^[A-Z][-–]", r)), None)
-        pasos.append({
-            "herramienta": "pjud_consultar_causa",
-            "argumentos": {"rit": con_letra or deteccion["roles"][0]},
-            "por_que": (
-                "valida el Rol/RIT y deja armados los pasos y el enlace para consultar la causa en "
-                "la Oficina Judicial Virtual (la consulta la hace la persona: el portal pide clave "
-                "y captcha)"
-            ),
-        })
+        # El RIT se valida acá adentro (sin herramienta que prometa traer el estado de la causa:
+        # eso vive en la Oficina Judicial Virtual, y ahí no entra ningún sistema por su cuenta).
+        from pjud_connector import analizar_rit
+
+        for rol in deteccion["roles"][:3]:
+            revision = analizar_rit(rol)
+            if revision.get("valido") and not revision.get("jurisdiccion"):
+                advertencias.extend(revision["advertencias"])
+            elif not revision.get("valido", True):
+                advertencias.append(f"el Rol/RIT «{rol}» no calza con el formato esperado: revisalo")
+        advertencias.append(
+            "el estado de la causa se consulta en la Oficina Judicial Virtual con ClaveÚnica y "
+            "captcha: eso lo hace la persona, la suite no entra a un sistema con credenciales"
+        )
         # El buscador del Poder Judicial es literal: con una frase larga no encuentra nada. Se le
         # da la palabra más distintiva de la materia (dos o tres palabras cortas es lo que mejor
         # responde), y la frase completa queda para la doctrina, que sí entiende de frases.

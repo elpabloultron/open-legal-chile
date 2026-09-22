@@ -179,7 +179,7 @@ class TestEjecucion(unittest.TestCase):
         resultado = case_intake.caso_ejecutar(self.TEXTO, limite_pasos=3)
         self.assertEqual(len(resultado["resultados"]), 3)
         self.assertTrue(all(r["estado"] == "ok" for r in resultado["resultados"]))
-        self.assertEqual([n for n, _ in self.llamadas][0], "pjud_consultar_causa")
+        self.assertEqual([n for n, _ in self.llamadas][0], "pjud_search_jurisprudencia")
 
     def test_un_paso_que_falla_queda_anotado_y_no_tumba_la_mesa(self):
         def falso(nombre, argumentos):
@@ -195,13 +195,13 @@ class TestEjecucion(unittest.TestCase):
         self.assertIn("fallaron 2", resultado["resumen"])
 
     def test_los_pasos_sin_parametros_se_saltean_y_se_dicen(self):
-        resultado = case_intake.caso_ejecutar(self.TEXTO, pasos=[6], limite_pasos=6)
+        resultado = case_intake.caso_ejecutar(self.TEXTO, pasos=[5], limite_pasos=5)
         salteados = [r for r in resultado["resultados"] if r["estado"] == "salteado"]
         self.assertTrue(salteados)
         self.assertTrue(all("motivo" in s for s in salteados))
 
     def test_seleccionar_pasos_por_numero(self):
-        resultado = case_intake.caso_ejecutar(self.TEXTO, pasos=[3])
+        resultado = case_intake.caso_ejecutar(self.TEXTO, pasos=[2])
         self.assertEqual(len(resultado["resultados"]), 1)
         self.assertEqual(resultado["resultados"][0]["herramienta"], "dt_search_doctrina")
 
