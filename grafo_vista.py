@@ -175,7 +175,7 @@ def _posiciones_por_area(grafo, areas: Dict[str, str]) -> Dict[str, tuple]:
     ancho, alto = 4600.0, 3600.0
     ancho_celda, alto_celda = ancho / columnas, alto / filas
     ubicaciones: Dict[str, tuple] = {}
-    for i, (area, nodos_del_area) in enumerate(areas_ordenadas):
+    for i, (_area, nodos_del_area) in enumerate(areas_ordenadas):
         fila, columna = divmod(i, columnas)
         sub = grafo.subgraph(nodos_del_area)
         try:

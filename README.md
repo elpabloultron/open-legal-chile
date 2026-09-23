@@ -144,7 +144,7 @@ claude mcp add open-legal-chile python3 -m openlegal mcp
    cursor open-legal-chile
    ```
 2. Cursor detectará automáticamente `.cursor/mcp.json` y solicitará autorización para activar el servidor en un solo clic (**"Enable"**).
-3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 73 herramientas de inmediato.
+3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 74 herramientas de inmediato.
 
 ### Opción C: Instalación Global vía Smithery.ai (1-Comando)
 Registro oficial: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
@@ -218,7 +218,7 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
 
 ## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (73 Herramientas Oficiales)
 
-El servidor MCP expone **73 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **74 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
