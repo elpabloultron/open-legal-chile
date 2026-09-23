@@ -11,11 +11,12 @@ description: Especialista en contratos y derecho comercial chileno: revisión de
 3. **Buena fe contractual:** Art. 1546 Código Civil (ejecución de buena fe).
 4. **Protección al consumidor (B2C):** Ley 19.496 — cláusulas abusivas, derecho de retracto; la autonomía cede ante el orden público de consumo.
 
-## 📎 Citas: a pie de página en los documentos
+## 📎 Citas y formato de entrega
 
-Cuando lo que se entrega es un **documento** —informe en derecho, análisis, memorándum, escrito,
-minuta o dossier—, las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-En la conversación alcanza con citar la fuente en el texto.
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
+  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
+  numeradas, con fuente · identificador · enlace.
+- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
 
 En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
 viene de varias fuentes se cita con todas.

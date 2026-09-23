@@ -1,0 +1,791 @@
+{
+ "enlaces_norma": {
+  "Guia-aplicada-para-la-determinacion-de-penas.md": [
+   {
+    "clave": [
+     "15",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_15",
+    "label": "Código Penal, Art. 15"
+   },
+   {
+    "clave": [
+     "18",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_18",
+    "label": "Código Penal, Art. 18"
+   },
+   {
+    "clave": [
+     "50",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_50",
+    "label": "Código Penal, Art. 50"
+   }
+  ],
+  "Guia_Audiencia_Conciliacion_Laboral_v2.1.md": [
+   {
+    "clave": [
+     "161",
+     "trabajo"
+    ],
+    "nodo": "norma_codigo_del_trabajo_art_161",
+    "label": "Código del Trabajo, Art. 161"
+   }
+  ],
+  "Guia_Audiencia_Monitoria-v1.md": [
+   {
+    "clave": [
+     "168",
+     "trabajo"
+    ],
+    "nodo": "norma_codigo_del_trabajo_art_168",
+    "label": "Código del Trabajo, Art. 168"
+   }
+  ],
+  "Guia_Audiencia_Preparatoria-v1.md": [
+   {
+    "clave": [
+     "168",
+     "trabajo"
+    ],
+    "nodo": "norma_codigo_del_trabajo_art_168",
+    "label": "Código del Trabajo, Art. 168"
+   },
+   {
+    "clave": [
+     "489",
+     "trabajo"
+    ],
+    "nodo": "norma_codigo_del_trabajo_art_489",
+    "label": "Código del Trabajo, Art. 489"
+   },
+   {
+    "clave": [
+     "486",
+     "trabajo"
+    ],
+    "nodo": "norma_codigo_del_trabajo_art_486",
+    "label": "Código del Trabajo, Art. 486"
+   },
+   {
+    "clave": [
+     "171",
+     "trabajo"
+    ],
+    "nodo": "norma_codigo_del_trabajo_art_171",
+    "label": "Código del Trabajo, Art. 171"
+   }
+  ],
+  "Guia_Procedimiento_Abreviado_2025_v1.1.md": [
+   {
+    "clave": [
+     "1",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_1",
+    "label": "Código Penal, Art. 1"
+   },
+   {
+    "clave": [
+     "15",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_15",
+    "label": "Código Penal, Art. 15"
+   },
+   {
+    "clave": [
+     "17",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_17",
+    "label": "Código Penal, Art. 17"
+   },
+   {
+    "clave": [
+     "50",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_50",
+    "label": "Código Penal, Art. 50"
+   }
+  ],
+  "Guia_Procedimiento_Monitorio_2025_v1.1.md": [
+   {
+    "clave": [
+     "1",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_1",
+    "label": "Código Penal, Art. 1"
+   }
+  ],
+  "Guia_Procedimiento_Simplificado_2025_v1.1.md": [
+   {
+    "clave": [
+     "1",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_1",
+    "label": "Código Penal, Art. 1"
+   },
+   {
+    "clave": [
+     "15",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_15",
+    "label": "Código Penal, Art. 15"
+   }
+  ],
+  "Guia_audiencia_ejecucion_2025_v1.1.md": [
+   {
+    "clave": [
+     "18",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_18",
+    "label": "Código Penal, Art. 18"
+   }
+  ],
+  "Guia_audiencia_sobreseimineto_DNP_cautela_solicitud_diligencias_2025_V1.1.md": [
+   {
+    "clave": [
+     "10",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_10",
+    "label": "Código Penal, Art. 10"
+   }
+  ],
+  "Guia_determinación_de_penas_2025_v1.1.md": [
+   {
+    "clave": [
+     "50",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_50",
+    "label": "Código Penal, Art. 50"
+   }
+  ],
+  "Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1.md": [
+   {
+    "clave": [
+     "15",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_15",
+    "label": "Código Penal, Art. 15"
+   },
+   {
+    "clave": [
+     "7",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_7",
+    "label": "Código Penal, Art. 7"
+   }
+  ],
+  "Guía_conducción_audiencia_de_juicio_oral.md": [
+   {
+    "clave": [
+     "15",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_15",
+    "label": "Código Penal, Art. 15"
+   },
+   {
+    "clave": [
+     "1",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_1",
+    "label": "Código Penal, Art. 1"
+   },
+   {
+    "clave": [
+     "490",
+     "penal"
+    ],
+    "nodo": "norma_codigo_penal_art_490",
+    "label": "Código Penal, Art. 490"
+   }
+  ]
+ },
+ "enlaces_institucion": {
+  "Guia-aplicada-para-la-determinacion-de-penas.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_id_4_el_comportamiento_demostrado_con_anterioridad_y_posterioridad_a",
+    "label": "4. El comportamiento demostrado con anterioridad y posterioridad a"
+   },
+   {
+    "nodo": "inst_id_4_el_comportamiento_demostrado_con_anterioridad_y_posterioridad_a_la",
+    "label": "4. El comportamiento demostrado con anterioridad y posterioridad a la"
+   },
+   {
+    "nodo": "inst_derecho_penal",
+    "label": "Derecho penal"
+   },
+   {
+    "nodo": "inst_parte_especial",
+    "label": "Parte especial"
+   },
+   {
+    "nodo": "inst_penal_chileno",
+    "label": "Penal chileno"
+   },
+   {
+    "nodo": "inst_seguridad_individual",
+    "label": "Seguridad individual"
+   },
+   {
+    "nodo": "inst_abuso_de_confianza",
+    "label": "Abuso de confianza"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_Audiencia_Conciliacion_Laboral_v2.1.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_parte_demandada",
+    "label": "Parte demandada"
+   }
+  ],
+  "Guia_Audiencia_Juicio_Oral_Laboral.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_parte_demandada",
+    "label": "Parte demandada"
+   },
+   {
+    "nodo": "inst_criterios_jurisprudenciales",
+    "label": "Criterios jurisprudenciales"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_Audiencia_Monitoria-v1.md": [
+   {
+    "nodo": "inst_id_2_1_presentacion",
+    "label": "2.1     Presentación"
+   },
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_parte_demandada",
+    "label": "Parte demandada"
+   }
+  ],
+  "Guia_Audiencia_Preparatoria-v1.md": [
+   {
+    "nodo": "inst_id_6_3_procedimiento",
+    "label": "6.3     Procedimiento"
+   },
+   {
+    "nodo": "inst_id_3_1_presentacion",
+    "label": "3.1     Presentación"
+   },
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_la_experiencia_de",
+    "label": "La experiencia de"
+   },
+   {
+    "nodo": "inst_parte_demandada",
+    "label": "Parte demandada"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_Etica_10jul_2026.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_bibliografia",
+    "label": "Bibliografía"
+   },
+   {
+    "nodo": "inst_administracion_de_justicia",
+    "label": "Administración de justicia"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_Etica_7jul_2026.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_bibliografia",
+    "label": "Bibliografía"
+   },
+   {
+    "nodo": "inst_administracion_de_justicia",
+    "label": "Administración de justicia"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_Procedimiento_Abreviado_2025_v1.1.md": [
+   {
+    "nodo": "inst_control_judicial",
+    "label": "Control judicial"
+   },
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_Procedimiento_Monitorio_2025_v1.1.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   }
+  ],
+  "Guia_Procedimiento_Simplificado_2025_v1.1.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_la_experiencia_de",
+    "label": "La experiencia de"
+   },
+   {
+    "nodo": "inst_personas_migrantes",
+    "label": "Personas migrantes"
+   },
+   {
+    "nodo": "inst_penal_chileno",
+    "label": "Penal chileno"
+   },
+   {
+    "nodo": "inst_trata_de_personas",
+    "label": "Trata de personas"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_audiencia_ejecucion_2025_v1.1.md": [
+   {
+    "nodo": "inst_id_7_3_direccion",
+    "label": "7.3    Dirección"
+   },
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_la_experiencia_de",
+    "label": "La experiencia de"
+   },
+   {
+    "nodo": "inst_derecho_penal",
+    "label": "Derecho penal"
+   },
+   {
+    "nodo": "inst_trata_de_personas",
+    "label": "Trata de personas"
+   },
+   {
+    "nodo": "inst_seguridad_individual",
+    "label": "Seguridad individual"
+   },
+   {
+    "nodo": "inst_leyes_especiales",
+    "label": "Leyes especiales"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_audiencia_sobreseimineto_DNP_cautela_solicitud_diligencias_2025_V1.1.md": [
+   {
+    "nodo": "inst_control_judicial",
+    "label": "Control judicial"
+   },
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_la_experiencia_de",
+    "label": "La experiencia de"
+   },
+   {
+    "nodo": "inst_en_cuanto_al_fondo",
+    "label": "En cuanto al fondo"
+   },
+   {
+    "nodo": "inst_manual_de_derecho",
+    "label": "Manual de derecho"
+   },
+   {
+    "nodo": "inst_penal_chileno",
+    "label": "Penal chileno"
+   },
+   {
+    "nodo": "inst_trata_de_personas",
+    "label": "Trata de personas"
+   },
+   {
+    "nodo": "inst_seguridad_individual",
+    "label": "Seguridad individual"
+   },
+   {
+    "nodo": "inst_leyes_especiales",
+    "label": "Leyes especiales"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_conduccion_primera_audiencia_proceso_penal_V2.1.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_la_experiencia_de",
+    "label": "La experiencia de"
+   },
+   {
+    "nodo": "inst_bibliografia",
+    "label": "Bibliografía"
+   },
+   {
+    "nodo": "inst_estupefacientes",
+    "label": "Estupefacientes"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_determinación_de_penas_2025_v1.1.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_id_4_el_comportamiento_demostrado_con_anterioridad_y_posterioridad_a",
+    "label": "4. El comportamiento demostrado con anterioridad y posterioridad a"
+   },
+   {
+    "nodo": "inst_id_4_el_comportamiento_demostrado_con_anterioridad_y_posterioridad_a_la",
+    "label": "4. El comportamiento demostrado con anterioridad y posterioridad a la"
+   },
+   {
+    "nodo": "inst_derecho_penal",
+    "label": "Derecho penal"
+   },
+   {
+    "nodo": "inst_penal_chileno",
+    "label": "Penal chileno"
+   },
+   {
+    "nodo": "inst_estupefacientes",
+    "label": "Estupefacientes"
+   },
+   {
+    "nodo": "inst_seguridad_individual",
+    "label": "Seguridad individual"
+   },
+   {
+    "nodo": "inst_leyes_especiales",
+    "label": "Leyes especiales"
+   },
+   {
+    "nodo": "inst_empleados_publicos",
+    "label": "Empleados públicos"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_para_la_conduccion_de_audiencias_temas_transversales_abr1.md": [
+   {
+    "nodo": "inst_control_judicial",
+    "label": "Control judicial"
+   },
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_la_experiencia_de",
+    "label": "La experiencia de"
+   },
+   {
+    "nodo": "inst_administracion_de_justicia",
+    "label": "Administración de justicia"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_la_experiencia_de",
+    "label": "La experiencia de"
+   },
+   {
+    "nodo": "inst_parte_demandada",
+    "label": "Parte demandada"
+   },
+   {
+    "nodo": "inst_penal_chileno",
+    "label": "Penal chileno"
+   },
+   {
+    "nodo": "inst_seguridad_individual",
+    "label": "Seguridad individual"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_para_la_conduccion_de_las_Audiencias_de_Casos_de_Responsabilidad_Penal_Adolecente_202.md": [
+   {
+    "nodo": "inst_id_3_1_presentacion",
+    "label": "3.1     Presentación"
+   },
+   {
+    "nodo": "inst_id_2_8_preguntas",
+    "label": "2.8     Preguntas"
+   },
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_la_experiencia_de",
+    "label": "La experiencia de"
+   },
+   {
+    "nodo": "inst_id_5_1_aspectos",
+    "label": "5.1           Aspectos"
+   },
+   {
+    "nodo": "inst_penal_chileno",
+    "label": "Penal chileno"
+   },
+   {
+    "nodo": "inst_leyes_especiales",
+    "label": "Leyes especiales"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Guia_procedimiento_de_proteccion_30525.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_estupefacientes",
+    "label": "Estupefacientes"
+   }
+  ],
+  "Guía_conducción_audiencia_de_juicio_oral.md": [
+   {
+    "nodo": "inst_id_3_documental",
+    "label": "3. Documental"
+   },
+   {
+    "nodo": "inst_informacion_general",
+    "label": "Información general"
+   },
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_la_experiencia_de",
+    "label": "La experiencia de"
+   },
+   {
+    "nodo": "inst_personas_migrantes",
+    "label": "Personas migrantes"
+   },
+   {
+    "nodo": "inst_penal_chileno",
+    "label": "Penal chileno"
+   },
+   {
+    "nodo": "inst_estupefacientes",
+    "label": "Estupefacientes"
+   },
+   {
+    "nodo": "inst_trata_de_personas",
+    "label": "Trata de personas"
+   },
+   {
+    "nodo": "inst_leyes_especiales",
+    "label": "Leyes especiales"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ],
+  "Mensaje_Inicial.md": [
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   }
+  ],
+  "guia_para_la_conduccion_de_las_audiencias_de_familia_preparatoria_reservada_conciliacion_y.md": [
+   {
+    "nodo": "inst_id_1_los_estados",
+    "label": "1. Los Estados"
+   },
+   {
+    "nodo": "inst_control_judicial",
+    "label": "Control judicial"
+   },
+   {
+    "nodo": "inst_academia_judicial_de_chile",
+    "label": "Academia judicial de chile"
+   },
+   {
+    "nodo": "inst_introduccion",
+    "label": "Introducción"
+   },
+   {
+    "nodo": "inst_proteccion_de_las",
+    "label": "Protección de las"
+   },
+   {
+    "nodo": "inst_id_1_los_estados_partes_garantizaran_al_nino_que_este_en_condiciones_de",
+    "label": "1. Los Estados partes garantizarán al niño que esté en condiciones de"
+   },
+   {
+    "nodo": "inst_parte_demandada",
+    "label": "Parte demandada"
+   },
+   {
+    "nodo": "inst_trata_de_personas",
+    "label": "Trata de personas"
+   },
+   {
+    "nodo": "inst_administracion",
+    "label": "Administración"
+   }
+  ]
+ },
+ "total_norma": 24,
+ "total_institucion": 131,
+ "guias_con_enlaces": 21
+}

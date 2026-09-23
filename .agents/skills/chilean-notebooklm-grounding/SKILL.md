@@ -10,11 +10,12 @@ description: Investigación jurídica compleja y síntesis probatoria fundamenta
 2. **Citas Explícitas y Trazables:** Al consultar la base de conocimiento con `notebooklm_query`, se deben respetar las citas y referencias directas provistas por el modelo hacia los números de página de las sentencias, contratos o balances.
 3. **Mapeo Relacional de Redes de Poder:** Las investigaciones sobre fraude, simulación absoluta o desvío de fondos públicos exigen representar visualmente las redes corporativas y políticas mediante grafos de nodos y aristas (Mermaid / JSON).
 
-## 📎 Citas: a pie de página en los documentos
+## 📎 Citas y formato de entrega
 
-Cuando lo que se entrega es un **documento** —informe en derecho, análisis, memorándum, escrito,
-minuta o dossier—, las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-En la conversación alcanza con citar la fuente en el texto.
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
+  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
+  numeradas, con fuente · identificador · enlace.
+- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
 
 En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
 viene de varias fuentes se cita con todas.

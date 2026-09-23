@@ -37,8 +37,10 @@ dependencies = [
   # ellos el motor caía en silencio a un grado de conexión que igual informaba como
   # 'pagerank', y dos máquinas distintas devolvían órdenes distintos sin aviso.
   "numpy>=1.26",
-  "scipy>=1.11"
-]
+  "scipy>=1.11",
+  # Documentos de trabajo en Word (.docx): los escritos se entregan editables, no en PDF.
+  "python-docx>=1.1.0"
+  ]
 
 [project.optional-dependencies]
 ocr = [

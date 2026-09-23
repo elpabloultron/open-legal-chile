@@ -251,28 +251,32 @@ def test_el_lock_de_skills_corresponde_a_los_archivos():
     assert not desactualizadas, "\n".join(desactualizadas)
 
 
-def test_la_regla_de_citas_al_pie_esta_declarada():
-    """AGENTS.md §2 bis: toda respuesta cita su fuente a pie de página, venga de donde venga."""
+def test_la_regla_de_citas_y_entrega_esta_declarada():
+    """AGENTS.md §2 bis: en documentos, citas a pie de página y entrega en Word; en conversación, citas al final."""
     agents = _texto(RAIZ / "AGENTS.md")
     assert "a pie de página" in agents
     assert "informe en derecho" in agents, "no distingue documento de conversación"
+    assert "Word (.docx)" in agents, "no declara que los documentos se entregan en Word, no en PDF"
+    assert "al final" in agents, "no declara que en la conversación las citas van al final"
     assert "sin fuente verificable" in agents
     assert "Fuentes:" in agents
     readme = _texto(RAIZ / "README.md")
     assert "a pie de página" in readme, "el README no declara la regla de citación"
+    assert "Word (.docx)" in readme, "el README no declara la entrega en Word"
 
 
 def test_citas_en_skills_y_agentes():
-    """La regla de citación es del producto: vive en las skills y en los agentes, no sólo en AGENTS.md."""
+    """La regla de citas y entrega es del producto: vive en las skills y en los agentes, no sólo en AGENTS.md."""
     import json
 
     faltan = []
     for skill in _skills():
-        if "a pie de página en los documentos" not in _texto(skill):
+        contenido = _texto(skill)
+        if "Word (.docx)" not in contenido or "al final" not in contenido:
             faltan.append(str(skill.relative_to(RAIZ)))
     for agente in sorted((RAIZ / "agents").glob("*.json")):
         datos = json.loads(agente.read_text(encoding="utf-8"))
         sp = datos.get("systemPrompt", "")
-        if "a pie de página" not in sp or "informe en derecho" not in sp:
+        if "a pie de página" not in sp or "informe en derecho" not in sp or "Word (.docx)" not in sp:
             faltan.append(str(agente.relative_to(RAIZ)))
-    assert not faltan, f"sin la regla de citación: {faltan}"
+    assert not faltan, f"sin la regla de citas y entrega: {faltan}"
