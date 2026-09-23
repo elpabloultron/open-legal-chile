@@ -259,6 +259,16 @@ class OnlineLibrarySyncManager:
         """
         manifiesto = self.compilar_manifiesto_corpus()
 
+        # Métricas reales del grafo y de las guías (la tarjeta tenía cifras de la primera versión).
+        try:
+            grafo = json.loads(
+                (pathlib.Path(BASE_DIR) / "data/legal_knowledge_graph.json").read_text(encoding="utf-8")
+            )
+            nodos, aristas = len(grafo.get("nodes", [])), len(grafo.get("edges", []))
+        except Exception:
+            nodos, aristas = 0, 0
+        guias = len(list((pathlib.Path(BASE_DIR) / "corpus_guias_aj").glob("*.md")))
+
         card = f"""---
 language:
 - es
@@ -296,10 +306,11 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 ---
 
 ## 📊 Métricas del Corpus
-- **Obras y Guías Completas:** {manifiesto['total_documentos']} documentos
-- **Instituciones Dogmáticas FTS5:** 138 instituciones indexadas
-- **Nodos del Knowledge Graph:** 967 nodos interconectados
-- **Aristas Relacionales:** 1.366 relaciones tipificadas
+- **Documentos:** {manifiesto['total_documentos']} obras y materiales doctrinales completos
+- **Guías de la Academia Judicial:** {guias} guías de buenas prácticas judiciales (`guias_academia_judicial/`)
+- **Instituciones Dogmáticas:** índice FTS5 para búsqueda local (herramienta `doctrina_buscar`)
+- **Nodos del Knowledge Graph:** {nodos:,} nodos interconectados
+- **Aristas Relacionales:** {aristas:,} relaciones tipificadas
 - **Total Palabras:** {manifiesto['total_palabras']:,} palabras
 - **Visualizador Web Activo:** Habilitado mediante `data/train.jsonl` y `data/instituciones.jsonl` (Dataset Viewer oficial de Hugging Face).
 
@@ -310,18 +321,21 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 ```text
 ├── README.md                      # Dataset Card y especificaciones forenses
 ├── data/
-│   ├── train.jsonl                # 58 Obras completas en texto íntegro (Full-Text Dataset Viewer)
-│   ├── instituciones.jsonl        # 138 Fichas dogmáticas con definiciones canónicas y fallos rectores
-│   └── legal_knowledge_graph.json # Knowledge Graph multidimensional en formato NetworkX/Graphify
-└── doctrina/                      # Árbol de archivos Markdown en bruto organizados por disciplina
-    ├── civil/                     # Obligaciones, Responsabilidad, Bienes, Acto Jurídico, Sucesorio, Familia
-    ├── procesal/                  # Recursos Procesales, Casación, Disposiciones Comunes del CPC
-    ├── administrativo/            # Bases Constitucionales, Invalidez del Acto, Responsabilidad Estatal
-    ├── laboral/                   # Principios del Trabajo, Despido, Tutela de Derechos Fundamentales
-    ├── penal/                     # Teoría del Delito, Antijuridicidad, Iter Criminis y Culpabilidad
-    ├── constitucional/            # Bases de la Institucionalidad, Derechos Fundamentales, Recurso de Protección
-    ├── comercial/                 # Actos de Comercio, SpA, Títulos de Crédito, Concursos (Ley 20.720)
-    └── academia_judicial/         # Guías Oficiales de Conducción de Audiencias, Penas y Ética Judicial
+│   ├── train.jsonl                # Obras completas en texto íntegro (Full-Text Dataset Viewer)
+│   ├── instituciones.jsonl        # Fichas dogmáticas con definiciones canónicas y fallos rectores
+│   ├── legal_knowledge_graph.json # Knowledge Graph del corpus doctrinal (NetworkX/Graphify)
+│   ├── grafo_guias_aj.json        # Knowledge Graph propio de las guías de la Academia Judicial
+│   └── enlaces_guias_aj.json      # Enlaces de las guías con el corpus: por norma e institución
+├── doctrina/                      # Árbol de archivos Markdown en bruto organizados por disciplina
+│   ├── civil/                     # Obligaciones, Responsabilidad, Bienes, Acto Jurídico, Sucesorio, Familia
+│   ├── procesal/                  # Recursos Procesales, Casación, Disposiciones Comunes del CPC
+│   ├── administrativo/            # Bases Constitucionales, Invalidez del Acto, Responsabilidad Estatal
+│   ├── laboral/                   # Principios del Trabajo, Despido, Tutela de Derechos Fundamentales
+│   ├── penal/                     # Teoría del Delito, Antijuridicidad, Iter Criminis y Culpabilidad
+│   ├── constitucional/            # Bases de la Institucionalidad, Derechos Fundamentales, Recurso de Protección
+│   ├── comercial/                 # Actos de Comercio, SpA, Títulos de Crédito, Concursos (Ley 20.720)
+│   └── academia_judicial/         # Materiales docentes de la Academia Judicial
+└── guias_academia_judicial/       # Guías de buenas prácticas judiciales, en Markdown completo
 ```
 
 ---
@@ -347,12 +361,12 @@ print(subgrafo["subgrafo_resumen_yaml"])
 ```python
 from datasets import load_dataset
 
-# 1. Cargar las 58 obras completas en texto íntegro
+# 1. Cargar las obras completas en texto íntegro
 dataset_obras = load_dataset("{repo_id}", split="train")
 print(f"Obras cargadas: {{len(dataset_obras)}}")
 print(dataset_obras[0]["titulo"])
 
-# 2. Cargar las 138 instituciones dogmáticas con concordancias y fallos rectores
+# 2. Cargar las instituciones dogmáticas con concordancias y fallos rectores
 dataset_inst = load_dataset("{repo_id}", split="instituciones")
 print(f"Instituciones cargadas: {{len(dataset_inst)}}")
 print(dataset_inst[0]["institucion"])
@@ -478,6 +492,16 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
                 repo_type="dataset",
                 path_in_repo="doctrina"
             )
+
+            # 6. Subir las guías de la Academia Judicial (corpus aparte, con su propio grafo)
+            guias_dir = os.path.join(BASE_DIR, "corpus_guias_aj")
+            if os.path.isdir(guias_dir):
+                api.upload_folder(
+                    folder_path=guias_dir,
+                    repo_id=repo_id,
+                    repo_type="dataset",
+                    path_in_repo="guias_academia_judicial"
+                )
 
             return {
                 "exito": True,
