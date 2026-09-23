@@ -29,6 +29,16 @@ ACTIVE EVERY RESPONSE. No drift back to over-building. Still active if
 unsure. Off only: "stop ponytail" / "normal mode". Default: **full**.
 Switch: `/ponytail lite|full|ultra`.
 
+## 📎 Citas a pie de página
+
+**Toda respuesta que use una fuente la cita a pie de página**, venga de donde venga: conectores del
+Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de la Academia
+Judicial o el corpus publicado en Hugging Face. Sin fuente identificable se dice «sin fuente
+verificable» en vez de afirmar sin respaldo.
+
+Formato: `[Fuente - Identificador]` y el enlace cuando exista. Un dato con varias fuentes se cita
+con todas.
+
 ## The ladder
 
 Stop at the first rung that holds:

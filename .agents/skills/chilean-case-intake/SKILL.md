@@ -19,6 +19,16 @@ description: Mesa de entrada de casos chilenos. Recibe una carpeta de expediente
 4. **El caso lo cierra un abogado.** La mesa ordena el trabajo y trae las fuentes; la decisión
    jurídica y la firma son humanas.
 
+## 📎 Citas a pie de página
+
+**Toda respuesta que use una fuente la cita a pie de página**, venga de donde venga: conectores del
+Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de la Academia
+Judicial o el corpus publicado en Hugging Face. Sin fuente identificable se dice «sin fuente
+verificable» en vez de afirmar sin respaldo.
+
+Formato: `[Fuente - Identificador]` y el enlace cuando exista. Un dato con varias fuentes se cita
+con todas.
+
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
 Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill.

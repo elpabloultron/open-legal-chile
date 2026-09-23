@@ -10,6 +10,16 @@ description: Especialista en Derecho Eléctrico y Regulatorio de Energía en Chi
 * **Ley N° 20.936:** Nuevo marco de transmisión eléctrica y Coordinador Eléctrico Nacional.
 * **Panel de Expertos:** Órgano pericial con resoluciones vinculantes e inapelables sobre discrepancias tarifarias y técnicas.
 
+## 📎 Citas a pie de página
+
+**Toda respuesta que use una fuente la cita a pie de página**, venga de donde venga: conectores del
+Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de la Academia
+Judicial o el corpus publicado en Hugging Face. Sin fuente identificable se dice «sin fuente
+verificable» en vez de afirmar sin respaldo.
+
+Formato: `[Fuente - Identificador]` y el enlace cuando exista. Un dato con varias fuentes se cita
+con todas.
+
 ## 📚 Formato de Citación Obligatorio
 * Norma: `[BCN - DFL N° 4/2006, Art. <Número>]` o `[BCN - Ley N° 20.936, Art. <Número>]`
 * Dictamen Panel: `[Panel de Expertos - Dictamen N° <Número>-<Año>]`

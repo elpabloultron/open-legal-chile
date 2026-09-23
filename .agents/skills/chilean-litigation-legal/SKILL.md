@@ -11,6 +11,16 @@ description: Especialista en litigación civil, comercial y constitucional en Ch
 3. **Efecto relativo de las sentencias:** Art. 3 inc. 2 Código Civil; la jurisprudencia orienta pero no vincula (salvo unificaciones en materia laboral, que vinculan a los tribunales laborales).
 4. **Carga de la prueba:** Art. 1698 Código Civil (quien alega debe probar).
 
+## 📎 Citas a pie de página
+
+**Toda respuesta que use una fuente la cita a pie de página**, venga de donde venga: conectores del
+Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de la Academia
+Judicial o el corpus publicado en Hugging Face. Sin fuente identificable se dice «sin fuente
+verificable» en vez de afirmar sin respaldo.
+
+Formato: `[Fuente - Identificador]` y el enlace cuando exista. Un dato con varias fuentes se cita
+con todas.
+
 ## 📚 Formato de Citación Obligatorio
 * Constitución: `[CPR 1980 - Art. <Artículo> N° <Numeral>]`
 * Código de Procedimiento Civil: `[BCN - Código de Procedimiento Civil, Art. <Número>]`
