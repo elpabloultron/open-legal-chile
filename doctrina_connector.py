@@ -349,7 +349,17 @@ def get_institucion(
         sql += " AND area LIKE ?"
         params.append(_normalize_area_filter(area))
 
-    sql += " LIMIT 1;"
+    # Sin ORDER BY, el orden lo decidía el recorrido de archivos, que cambia entre plataformas (por
+    # eso el CI fallaba sólo en Windows) y que, con el corpus ampliado, devolvía la sección de un
+    # documento convertido en vez del tratado. Regla: primero la doctrina canónica, después el
+    # nombre más limpio y alfabético — así la búsqueda devuelve lo mismo en cualquier plataforma.
+    sql += (
+        " ORDER BY"
+        "   CASE WHEN filepath LIKE '%apuntes_orrego%' OR filepath LIKE '%academia_judicial%'"
+        "             OR filepath LIKE '%manuales%' THEN 1 ELSE 0 END,"
+        "   LENGTH(institucion) ASC, institucion ASC"
+        " LIMIT 1;"
+    )
     cursor.execute(sql, params)
     row = cursor.fetchone()
 
