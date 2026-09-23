@@ -236,7 +236,10 @@ def test_get_institucion_exact_and_fuzzy(temp_doctrina_db):
     # Caso 1: Búsqueda exacta de institución
     inst = get_institucion("Recurso de Protección", db_path=temp_doctrina_db)
     assert inst is not None
-    assert "Recurso de Protección" in inst["institucion"]
+    # El corpus ampliado trae títulos con numeración y en minúscula («4.3.2 Recurso de
+    # protección»): lo que importa es que la búsqueda encuentre la institución, no cómo la
+    # rotula el documento de origen.
+    assert "recurso de protecc" in inst["institucion"].lower()
     assert "Art. 20" in inst["concordancias"]
     assert "Cea Egaña" in inst["autor"]
 
