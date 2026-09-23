@@ -10,15 +10,15 @@ description: Auditoría de probidad administrativa, cruce de Declaraciones de In
 2. **Publicidad Obligatoria de Patrimonio e Intereses:** Ley N° 20.880 y su reglamento. Todo sujeto pasivo debe declarar oportunamente sus actividades profesionales, participaciones en sociedades, bienes inmuebles, vehículos y pasivos relevantes.
 3. **Inhabilidades e Incompatibilidades:** Prohibición estricta de intervenir en decisiones donde exista interés personal, de cónyuge o parientes hasta el tercer grado de consanguinidad o segundo de afinidad (Art. 62 N° 6 Ley 18.575).
 
-## 📎 Citas a pie de página
+## 📎 Citas: a pie de página en los documentos
 
-**Toda respuesta que use una fuente la cita a pie de página**, venga de donde venga: conectores del
-Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de la Academia
-Judicial o el corpus publicado en Hugging Face. Sin fuente identificable se dice «sin fuente
-verificable» en vez de afirmar sin respaldo.
+Cuando lo que se entrega es un **documento** —informe en derecho, análisis, memorándum, escrito,
+minuta o dossier—, las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
+En la conversación alcanza con citar la fuente en el texto.
 
-Formato: `[Fuente - Identificador]` y el enlace cuando exista. Un dato con varias fuentes se cita
-con todas.
+En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
+viene de varias fuentes se cita con todas.
+
 
 ## 📚 Formato de Citación Obligatorio
 * Declaración DIP: `[InfoProbidad - Declaración ID <ID>, Autoridad: <Nombre>]`

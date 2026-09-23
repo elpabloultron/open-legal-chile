@@ -22,27 +22,28 @@ Always attribute and cite sources using the official brackets:
 * **Environmental Sanctions:** `[SMA - Expediente SNIFA <Número>]`
 * **CGR Audit Reports:** `[CGR - Informe Final N° 123/2024]`
 
-### 2 bis. Citas a pie de página — regla dura
+### 2 bis. Citas: en los documentos, a pie de página
 
-**Toda** respuesta que use una fuente la cita **a pie de página**, sin importar de dónde venga:
-conectores estatales (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de
-la Academia Judicial, o cualquier documento que el corpus tenga publicado en Hugging Face.
+La forma de citar depende de **qué se entrega**:
 
-- Si no hay fuente identificable, se dice **«sin fuente verificable»** en vez de afirmar sin respaldo.
-- La cita va al final de la respuesta, numerada, con: **fuente · identificador · enlace** cuando exista.
-- Un dato proveniente de varias fuentes se cita con todas, no con la más cómoda.
-- Esto vale también para las herramientas y agentes: cada resultado debe poder rastrearse hasta su
-  origen (`filepath`, `url`, `Rol`, `N° de dictamen`, etc.), y las herramientas que devuelven texto
-  del corpus incluyen de dónde salió.
+- **Documentos** — informe en derecho, análisis, memorándum, escrito, minuta, dossier: las citas van
+  **a pie de página**, numeradas, con **fuente · identificador · enlace**. Un informe en derecho se
+  lee como un documento jurídico, y así se cita.
+- **Conversación** — una respuesta en el chat: la fuente se cita **en el texto**, con el estándar de
+  §2. No hace falta el pie de página, pero tampoco se afirma sin fuente.
 
-Formato del pie de página:
+En los dos casos: si no hay fuente identificable se dice **«sin fuente verificable»**; un dato que
+viene de varias fuentes se cita con todas, no con la más cómoda; y todo resultado de las herramientas
+debe poder rastrearse hasta su origen (`filepath`, `url`, `Rol`, `N° de dictamen`).
+
+Formato del pie de página en un documento:
 
 ```
 ---
 Fuentes:
 1. [BCN - Código del Trabajo, Art. 161] https://www.bcn.cl/leychile/...
 2. [Academia Judicial — Guía para la conducción de la audiencia preparatoria laboral] guias.academiajudicial.cl/...
-3. [Doctrina — Barros Bourie, Tratado de Responsabilidad Extracontractual] corpus: doctrina/civil/...
+3. [Doctrina — Barros Bourie, Tratado de Responsabilidad Extracontractiva] corpus: doctrina/civil/...
 ```
 
 ---

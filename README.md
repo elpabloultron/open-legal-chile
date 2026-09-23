@@ -687,18 +687,23 @@ Las contribuciones académicas y técnicas de estudiantes, docentes y abogados s
   <em>Desarrollado con vocación pública y rigor dogmático para la comunidad jurídica de la República de Chile.</em>
 </p>
 
-## Citas a pie de página
+## Citas
 
-**Toda respuesta que use una fuente la cita al final**, venga de donde venga: los conectores del
-Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD), la doctrina indexada, las guías de la Academia Judicial
-o el corpus publicado en Hugging Face. Sin fuente identificable, se dice «sin fuente verificable»
-en vez de afirmar sin respaldo.
+La forma de citar depende de **qué se entrega**:
+
+- **Documentos** — informe en derecho, análisis, memorándum, escrito, minuta, dossier: las citas van
+  **a pie de página**, numeradas, con fuente · identificador · enlace.
+- **Conversación**: la fuente se cita en el texto.
+
+Venga de donde venga —conectores del Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD), doctrina indexada,
+guías de la Academia Judicial o el corpus de Hugging Face—. Si no hay fuente identificable se dice
+«sin fuente verificable», y un dato con varias fuentes se cita con todas.
 
 ```
 ---
 Fuentes:
 1. [BCN - Código del Trabajo, Art. 161] https://www.bcn.cl/leychile/...
 2. [Academia Judicial — Guía para la conducción de la audiencia preparatoria laboral]
-3. [Doctrina — Barros Bourie, Tratado de Responsabilidad Extracontractual] doctrina/civil/...
+3. [Doctrina — Barros Bourie] doctrina/civil/...
 ```
 

@@ -61,3 +61,7 @@ brag-output/
 
 # Datos derivados y regenerables (los publica Hugging Face, no el repo)
 data/*.jsonl
+
+# Al recuperar el repositorio se aparta el .git dañado: nunca dentro del árbol
+.git_dañado_*/
+.git_dañado_*

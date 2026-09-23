@@ -29,15 +29,15 @@ ACTIVE EVERY RESPONSE. No drift back to over-building. Still active if
 unsure. Off only: "stop ponytail" / "normal mode". Default: **full**.
 Switch: `/ponytail lite|full|ultra`.
 
-## 📎 Citas a pie de página
+## 📎 Citas: a pie de página en los documentos
 
-**Toda respuesta que use una fuente la cita a pie de página**, venga de donde venga: conectores del
-Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de la Academia
-Judicial o el corpus publicado en Hugging Face. Sin fuente identificable se dice «sin fuente
-verificable» en vez de afirmar sin respaldo.
+Cuando lo que se entrega es un **documento** —informe en derecho, análisis, memorándum, escrito,
+minuta o dossier—, las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
+En la conversación alcanza con citar la fuente en el texto.
 
-Formato: `[Fuente - Identificador]` y el enlace cuando exista. Un dato con varias fuentes se cita
-con todas.
+En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
+viene de varias fuentes se cita con todas.
+
 
 ## The ladder
 
