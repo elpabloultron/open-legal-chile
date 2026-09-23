@@ -7,28 +7,43 @@ con preguntas al azar; esto es lo que lo explica.
 
 | Archivo | Qué es |
 | --- | --- |
-| `Open_Legal_Chile_como_funciona.pptx` | La presentación (16 láminas, de «qué es un LLM» a los números de la casa). |
+| `Open_Legal_Chile_como_funciona.pptx` | **La presentación (22 láminas).** Incluye los videos de las animaciones adentro: se reproducen con clic sobre cada cuadro. |
 | `animacion_llm.html` | Animación: la máquina de la siguiente palabra (cómo escribe un LLM). |
+| `animacion_grafo.html` | Animación: cómo se construyó el grafo (seis etapas, del PDF al mapa). |
+| `animacion_citas.html` | Animación: cómo operan las citas (documento vs conversación, y el rastreo). |
 | `animacion_flujo.html` | Animación: de la pregunta a la respuesta citada (las cinco etapas). |
+| `animacion_caso.html` | Animación: un caso de punta a punta (carpeta → mesa de entrada → fuentes → Word). |
 | `animacion_ahorro.html` | Animación: el ahorro de tokens medido (113.458 → 123). |
-| `img/capas.png` | Las capas del sistema: LLM → agente → MCP → herramientas. |
-| `img/flujo.png` | El camino de una pregunta. |
-| `img/ahorro.png` | El ahorro de tokens (gráfico, escala logarítmica). |
-| `img/subgrafo.png` | Muestra real del grafo: vecindario en torno a un caso de despido. |
 
-**Cómo abrirlas en clase:** las animaciones son HTML autónomo — se abren en el navegador
-(doble clic) y con `F11` quedan a pantalla completa. Se repiten solas con el botón «Repetir ↻».
+**Cómo abrirlas sueltas (por si quieren verlas en vivo):** son HTML autónomo — doble clic, y con
+`F11` quedan a pantalla completa. Se repiten solas con el botón «Repetir ↻».
+
+## Videos y arte
+
+- `video/*.mp4` — las seis animaciones grabadas (van incrustadas en el PowerPoint). Se regeneran con
+  `grabar_animaciones.py` (Playwright + ffmpeg; el venv de grabación vive en `~/.venvs/charla`).
+- `video/*_poster.png` — cuadro de portada de cada video (el que se ve hasta hacer clic).
+- `img/` — diagramas (capas, flujo, ahorro, muestra real del grafo) y el arte de portada y
+  separadores (redes de nodos).
+
+## Cómo se reconstruye el deck
+
+```bash
+.venv/bin/python docs/charla/construir_deck.py    # sistema de diseño propio + videos incrustados
+```
+
+El diseño es propio (paleta azul tinta + bronce, tipografías Calibri, tarjetas, números grandes y
+marcos para imágenes), inspirado en la arquitectura de bloques de `python-pptx-theme-kit` (GPL: se
+tomaron las ideas, no su código).
 
 ## Orden sugerido (flexible)
 
-1. Láminas 1–7: los cimientos (IA → agente → MCP → skill → capas).
-2. Animación 1 (la siguiente palabra): por qué un LLM inventa.
-3. Láminas 8–12: el corpus, el grafo y el ahorro.
-4. Animación 3 (el ahorro) y animación 2 (el flujo completo).
-5. Láminas 13–16 y **prueba en vivo** con preguntas del público.
+1. Láminas 1–9: los cimientos (IA → agente → MCP → skill → capas) — con la animación del LLM.
+2. Láminas 10–18: el conocimiento (contexto, grafo, ahorro, citas, caso) — con sus videos.
+3. Láminas 19–22: cifras, reglas, **prueba en vivo** y fuentes.
 
 ## Nota de honestidad
 
 Las cifras de las láminas salen del propio sistema (grafo, contadores de tokens y el medidor del
-corpus). Si algo no está verificado, se dice. La consulta de causas del PJUD fue retirada: no hay
+corpus), y la última lámina cita las fuentes. La consulta de causas del PJUD fue retirada: no hay
 puerta pública y podía entregar información errónea.
