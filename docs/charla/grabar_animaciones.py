@@ -26,7 +26,15 @@ ANIMACIONES = [
     ("animacion_grafo", 15.0, 10.0),
     ("animacion_citas", 13.5, 9.0),
     ("animacion_caso", 14.0, 9.5),
+    ("animacion_idea", 16.5, 9.0),
 ]
+
+# Se puede grabar solo algunas:  python grabar_animaciones.py animacion_idea
+import sys as _sys
+
+_pedidas = set(_sys.argv[1:])
+if _pedidas:
+    ANIMACIONES = [a for a in ANIMACIONES if a[0] in _pedidas]
 
 with sync_playwright() as p:
     navegador = p.chromium.launch()

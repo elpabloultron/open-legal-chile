@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Por qué nació y para qué es — Open Legal Chile</title>
+<style>
+  :root{--fg:var(--foreground,#12222f);--mut:var(--muted-foreground,#5a7086);--acc:var(--accent,#2e5d8a);--bor:var(--border,#d8e0e8);--card:var(--card,#f6f9fc)}
+  *{box-sizing:border-box}
+  body{margin:0;padding:20px 24px;font-family:var(--font-family,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif);color:var(--fg);background:transparent;max-width:1000px}
+  h1{font-size:20px;margin:0 0 3px}
+  .sub{margin:0 0 14px;color:var(--mut);font-size:13px}
+  .chips{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
+  .chip{border:1px solid var(--bor);border-radius:11px;padding:8px 10px;opacity:.42;transition:opacity .3s,border-color .3s,transform .3s;font-size:11.4px;color:var(--mut)}
+  .chip b{display:block;font-size:12.2px;color:var(--fg)}
+  .chip.on{opacity:1;border-color:var(--acc);transform:translateY(-2px)}
+  .escena{border:1px solid var(--bor);border-radius:14px;background:var(--card);padding:16px 16px 18px;min-height:300px}
+  .fade{opacity:0;transform:translateY(6px);animation:ap .5s forwards}
+  @keyframes ap{to{opacity:1;transform:none}}
+  .tres{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .prob{border:1px solid var(--bor);border-radius:11px;background:white;padding:12px 13px}
+  .prob b{display:block;font-size:13px;margin-bottom:4px}
+  .prob span{font-size:11.4px;color:var(--mut);line-height:1.5}
+  .puente{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:10px;align-items:center;margin-bottom:14px}
+  .bloque{border-radius:12px;padding:16px 12px;text-align:center;font-weight:700;color:white;font-size:14px}
+  .iv{background:#1f3b57}.dc{background:#1e7a5a}
+  .medio{text-align:center;font-size:12px;color:var(--mut);line-height:1.6}
+  .medio b{color:var(--acc);font-size:12.6px}
+  .sellos4{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:12px}
+  .sello{border:1px solid var(--bor);border-radius:10px;background:white;padding:9px 10px;font-size:11.2px;color:var(--mut);line-height:1.45}
+  .sello b{display:block;color:var(--fg);font-size:11.8px;margin-bottom:3px}
+  .dos{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .camino{border:1px solid var(--bor);border-radius:12px;background:white;padding:13px 14px}
+  .camino h3{margin:0 0 8px;font-size:13.2px}
+  .camino h3 .tag{font-size:10px;border-radius:6px;padding:2px 7px;background:var(--card);color:var(--mut);border:1px solid var(--bor);margin-left:6px;vertical-align:2px}
+  .camino li{font-size:11.6px;color:var(--mut);margin:5px 0;line-height:1.5}
+  .camino ul{margin:0;padding-left:16px}
+  .cierre{margin-top:12px;text-align:center;font-size:12.6px;color:var(--fg)}
+  .cierre b{color:var(--acc)}
+  .pie{margin-top:12px;display:flex;justify-content:space-between;align-items:center;color:var(--mut);font-size:12.2px}
+  button{font:inherit;font-size:12px;padding:7px 13px;border-radius:9px;border:1px solid var(--bor);background:transparent;color:var(--fg);cursor:pointer}
+  button:hover{border-color:var(--acc)}
+</style>
+</head>
+<body>
+  <h1>Por qué nació (y para qué es)</h1>
+  <p class="sub">La idea detrás de Open Legal Chile: <b>acercar la IA al derecho chileno</b>, con enfoque profesional y ético — para ejercer y para estudiar.</p>
+
+  <div class="chips" id="chips">
+    <div class="chip" data-i="0"><b>El punto de partida</b>tres problemas reales</div>
+    <div class="chip" data-i="1"><b>La idea</b>un puente con fuentes reales</div>
+    <div class="chip" data-i="2"><b>Dos caminos</b>ejercicio y estudio</div>
+    <div class="chip" data-i="3"><b>Un principio</b>profesional y ético</div>
+  </div>
+
+  <div class="escena" id="escena"></div>
+
+  <div class="pie">
+    <span id="pie">Y una misma regla para todo: si no hay fuente verificable, se dice.</span>
+    <button id="repetir">Repetir ↻</button>
+  </div>
+
+<script>
+const escena = document.getElementById("escena");
+const chips = [...document.querySelectorAll(".chip")];
+const pie = document.getElementById("pie");
+
+function aparecer(html, retardo){
+  escena.innerHTML = html;
+  [...escena.querySelectorAll(".fade")].forEach((el, k) => {
+    el.style.animationDelay = (k * (retardo || 160)) + "ms";
+  });
+}
+const F1 = `
+  <div class="tres">
+    <div class="prob fade"><b>La IA no conoce el derecho chileno</b>
+      <span>Los modelos generalistas se entrenaron con otros países: citan mal, ignoran nuestra
+      normativa y nuestros tribunales.</span></div>
+    <div class="prob fade"><b>Inventa con seguridad</b>
+      <span>Una cita de un fallo que no existe, un plazo que suena razonable. En derecho, eso no es
+      un detalle: es un riesgo.</span></div>
+    <div class="prob fade"><b>Las fuentes están dispersas</b>
+      <span>BCN, Contraloría, Dirección del Trabajo, doctrina, guías… cada consulta cuesta tiempo y
+      conocimiento experto.</span></div>
+  </div>
+  <div class="cierre fade" style="margin-top:16px">La pregunta que originó el proyecto: <b>¿y si la IA
+  trabajara con las fuentes reales del derecho chileno — y lo mostrara?</b></div>`;
+const F2 = `
+  <div class="puente">
+    <div class="bloque iv fade">IA<br><span style="font-weight:400;font-size:11.4px">que redacta y razona</span></div>
+    <div class="medio fade"><b>el puente: Open Legal Chile</b><br>
+      fuentes oficiales · corpus doctrinal completo · citas trazables<br>y reglas de la casa</div>
+    <div class="bloque dc fade">Derecho chileno<br><span style="font-weight:400;font-size:11.4px">con sus fuentes y su ética</span></div>
+  </div>
+  <div class="sellos4">
+    <div class="sello fade"><b>Conectores del Estado</b>BCN, CGR, DT, SII, CMF, SMA, PJUD…</div>
+    <div class="sello fade"><b>Corpus completo</b>248 documentos chilenos en Markdown</div>
+    <div class="sello fade"><b>Citas trazables</b>cada dato hasta su origen</div>
+    <div class="sello fade"><b>Reglas de la casa</b>citar siempre; no inventar jamás</div>
+  </div>`;
+const F3 = `
+  <div class="dos">
+    <div class="camino fade">
+      <h3>Para el ejercicio profesional <span class="tag">abogados y estudios</span></h3>
+      <ul>
+        <li>Informes en derecho y análisis con citas a pie de página, <b>en Word editable</b>.</li>
+        <li>Escritos y dossieres para tribunales, con carátulas y anexos.</li>
+        <li>Consulta a fuentes oficiales: BCN, Contraloría, DT, SII, CMF, SMA.</li>
+        <li>Privacidad y cumplimiento: tramitación ARCO, probidad, regulatorio.</li>
+      </ul>
+    </div>
+    <div class="camino fade">
+      <h3>Para el estudio y la docencia <span class="tag">universidad</span></h3>
+      <ul>
+        <li>El corpus doctrinal completo: apuntes, materiales y <b>guías de la Academia Judicial</b>.</li>
+        <li>El grafo para estudiar e investigar: instituciones, normas y fallos conectados.</li>
+        <li>Preparación de exámenes de grado y clínica jurídica.</li>
+        <li>Dataset público en Hugging Face: investigación con IA sobre derecho chileno.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="cierre fade" style="margin-top:14px">Un mismo sistema para <b>ejercer</b> y para
+  <b>estudiar</b>: porque el derecho se aprende y se ejerce con las mismas fuentes.</div>`;
+const F4 = `
+  <div class="sellos4" style="margin-top:2px">
+    <div class="sello fade"><b>Citar siempre</b>en documentos a pie de página; en la conversación, al final.</div>
+    <div class="sello fade"><b>Sin fuente, se dice</b>«no tengo fuente para esto» es una respuesta válida.</div>
+    <div class="sello fade"><b>Datos de personas, fuera</b>el corpus público no lleva información personal.</div>
+    <div class="sello fade"><b>Herramienta que miente, no existe</b>si puede dar información errónea, se retira.</div>
+  </div>
+  <div class="cierre fade" style="margin-top:18px">Profesional y ético no es una etiqueta: es
+  <b>cómo está construido</b> — en las 18 skills, los 19 agentes y cada herramienta.</div>
+  <div class="cierre fade" style="margin-top:8px;color:var(--mut);font-size:11.8px">Ese es el porqué.
+  Y el para qué: que la IA acerque —no reemplace— el trabajo jurídico chileno.</div>`;
+
+const FASES = [F1, F2, F3, F4];
+const FRASES = [
+  "Todo empezó con problemas concretos del trabajo jurídico chileno.",
+  "La idea no fue «una IA que sabe derecho»: fue un puente hacia las fuentes reales.",
+  "El mismo sistema sirve para ejercer y para estudiar: eso lo hace doblemente útil.",
+  "Y un principio que no se negocia: profesional y ético, con las fuentes a la vista."
+];
+let puntero = -1, timer = null;
+function correr(){
+  clearTimeout(timer);
+  puntero = -1;
+  chips.forEach(c => c.classList.remove("on"));
+  const paso = () => {
+    puntero++;
+    if (puntero >= FASES.length) return;
+    chips.forEach(c => c.classList.toggle("on", Number(c.dataset.i) === puntero));
+    pie.textContent = FRASES[puntero];
+    aparecer(FASES[puntero], 180);
+    timer = setTimeout(paso, 3600);
+  };
+  paso();
+}
+document.getElementById("repetir").onclick = correr;
+correr();
+</script>
+</body>
+</html>
