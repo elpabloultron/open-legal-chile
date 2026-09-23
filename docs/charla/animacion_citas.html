@@ -35,9 +35,9 @@
   <div class="dos">
     <div class="panel">
       <h2>En un documento (informe en derecho)</h2>
-      <div class="texto" id="docTexto">El plazo para reclamar por despido injustificado es de <span class="trazando" id="afirmacion">30 días corridos</span> desde la separación<span class="cita" id="marcaCita"></span>.</div>
+      <div class="texto" id="docTexto">El reclamo por <span class="trazando" id="afirmacion">despido injustificado</span> se presenta ante el Juzgado de Letras del Trabajo<span class="cita" id="marcaCita"></span>.</div>
       <div class="fuentes" id="docFuentes">
-        <div class="f" data-f="0"><b>1.</b> [BCN — Código del Trabajo, art. 486] bcn.cl/leychile</div>
+        <div class="f" data-f="0"><b>1.</b> [BCN — Código del Trabajo, art. 168 y ss.] bcn.cl/leychile</div>
         <div class="f" data-f="1"><b>2.</b> [DT — ORD. N.° 417/2025] dirección.gob.cl</div>
         <div class="f" data-f="2"><b>3.</b> [Academia Judicial — Guía audiencia preparatoria laboral]</div>
       </div>
@@ -48,7 +48,7 @@
       <div class="texto" id="convTexto"></div>
       <div class="fuentes" id="convFuentes" style="display:none">
         <b>Fuentes:</b>
-        <div class="f" data-f="0">1. [BCN — Código del Trabajo, art. 486 y art. 168]</div>
+        <div class="f" data-f="0">1. [BCN — Código del Trabajo, art. 168 y ss.]</div>
         <div class="f" data-f="1">2. [DT — ORD. N.° 417/2025]</div>
       </div>
       <div class="nota" id="notaConv"></div>
@@ -72,7 +72,7 @@ const afirmacion = document.getElementById("afirmacion");
 let timers = [];
 function T(fn, ms){ timers.push(setTimeout(fn, ms)); }
 
-const RESPUESTA = "El despido injustificado se reclama dentro de 60 días corridos (30 en tutela de derechos fundamentales), contados desde la separación.";
+const RESPUESTA = "El reclamo por despido injustificado se presenta ante el Juzgado de Letras del Trabajo; el procedimiento y los plazos los fija el Código del Trabajo (art. 168 y ss.).";
 function limpiar(){
   timers.forEach(clearTimeout); timers = [];
   marcaCita.textContent = "";
