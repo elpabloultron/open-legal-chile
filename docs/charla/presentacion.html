@@ -14,83 +14,69 @@
   *{box-sizing:border-box}
   html,body{height:100%}
   body{margin:0;background:var(--papel);color:var(--tinta);font-family:var(--sans);overflow:hidden}
-
-  /* barra de progreso y controles */
   #barra{position:fixed;top:0;left:0;right:0;height:2px;background:rgba(14,22,33,.08);z-index:50}
   #progreso{height:100%;width:0;background:var(--bronce);transition:width .5s cubic-bezier(.2,.7,.2,1)}
-  #controles{position:fixed;bottom:14px;right:18px;display:flex;align-items:center;gap:10px;z-index:50;
-    font-size:12px;color:var(--gris)}
-  #controles button{border:1px solid var(--linea);background:transparent;color:inherit;border-radius:9px;
-    padding:5px 11px;font:inherit;cursor:pointer;transition:border-color .25s}
+  #controles{position:fixed;bottom:14px;right:18px;display:flex;align-items:center;gap:10px;z-index:50;font-size:12px;color:var(--gris)}
+  #controles button{border:1px solid var(--linea);background:transparent;color:inherit;border-radius:9px;padding:5px 11px;font:inherit;cursor:pointer;transition:border-color .25s}
   #controles button:hover{border-color:var(--bronce)}
-  #puntos{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:6px;z-index:50}
-  #puntos i{width:6px;height:6px;border-radius:50%;background:var(--linea);cursor:pointer;transition:background .3s, transform .3s}
-  #puntos i.hoy{background:var(--bronce);transform:scale(1.35)}
-  .pista{position:fixed;top:16px;right:18px;z-index:60;font-size:11.5px;color:var(--gris);
-    border:1px solid var(--linea);border-radius:20px;padding:6px 13px;background:var(--papel);
-    opacity:0;transition:opacity .8s}
+  #puntos{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:50}
+  #puntos i{width:5px;height:5px;border-radius:50%;background:var(--linea);cursor:pointer;transition:background .3s, transform .3s}
+  #puntos i.hoy{background:var(--bronce);transform:scale(1.4)}
+  .pista{position:fixed;top:16px;right:18px;z-index:60;font-size:11.5px;color:var(--gris);border:1px solid var(--linea);border-radius:20px;padding:6px 13px;background:var(--papel);opacity:0;transition:opacity .8s}
   .pista.ver{opacity:1}
 
-  /* láminas */
-  .slide{position:fixed;inset:0;display:none;flex-direction:column;
-    padding:clamp(30px,5.4vh,62px) clamp(30px,6.5vw,104px) clamp(52px,7vh,74px)}
+  .slide{position:fixed;inset:0;display:none;flex-direction:column;padding:clamp(28px,5vh,58px) clamp(28px,6vw,96px) clamp(50px,6.6vh,70px)}
   .slide.activa{display:flex}
   .slide.oscura{background:var(--tinta);color:#EFEBE2}
   .slide.oscura .gris{color:#9AA7B4}
-
-  .ceja{font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--bronce);
-    display:flex;align-items:center;gap:14px;margin-bottom:1.6vh}
+  .ceja{font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--bronce);display:flex;align-items:center;gap:14px;margin-bottom:1.4vh}
   .ceja::before{content:"";width:30px;height:1px;background:var(--bronce);display:block}
-  h1{font-family:var(--serif);font-weight:500;font-size:clamp(40px,6.4vw,84px);line-height:1.02;
-    letter-spacing:-.015em;margin:0}
-  h2{font-family:var(--serif);font-weight:500;font-size:clamp(28px,3.6vw,50px);line-height:1.08;
-    letter-spacing:-.01em;margin:0}
+  h1{font-family:var(--serif);font-weight:500;font-size:clamp(40px,6.4vw,84px);line-height:1.02;letter-spacing:-.015em;margin:0}
+  h2{font-family:var(--serif);font-weight:500;font-size:clamp(26px,3.3vw,46px);line-height:1.08;letter-spacing:-.01em;margin:0}
   h3{font-size:15px;margin:0 0 6px;font-weight:700}
-  p{font-size:clamp(13.5px,1.35vw,17px);line-height:1.6;color:var(--gris);margin:0}
+  p{font-size:clamp(13px,1.3vw,16.5px);line-height:1.58;color:var(--gris);margin:0}
   .gris{color:var(--gris)}
-  .cuerpo{margin-top:2.6vh;flex:1;display:flex;flex-direction:column;gap:2.2vh;min-height:0}
-  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-  .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-  .tarjeta{border:1px solid var(--linea);border-radius:14px;padding:18px 20px;background:#fff}
+  .cuerpo{margin-top:2.2vh;flex:1;display:flex;flex-direction:column;gap:1.8vh;min-height:0}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  .tarjeta{border:1px solid var(--linea);border-radius:13px;padding:15px 17px;background:#fff}
   .oscura .tarjeta{background:rgba(255,255,255,.04);border-color:rgba(239,235,226,.18)}
-  .tarjeta b{font-size:14.5px}
-  .tarjeta p{margin-top:6px;font-size:13px}
+  .tarjeta b{font-size:14px}
+  .tarjeta p{margin-top:5px;font-size:12.6px}
   .acento{border-left:3px solid var(--bronce)}
-  .num{font-family:var(--serif);font-size:clamp(30px,3.6vw,52px);line-height:1;font-variant-numeric:tabular-nums}
-  .num small{display:block;font-family:var(--sans);font-size:12.5px;color:var(--gris);
-    margin-top:8px;line-height:1.45;font-weight:400}
+  .num{font-family:var(--serif);font-size:clamp(28px,3.3vw,48px);line-height:1;font-variant-numeric:tabular-nums}
+  .num small{display:block;font-family:var(--sans);font-size:12px;color:var(--gris);margin-top:7px;line-height:1.42;font-weight:400}
   .serif{font-family:var(--serif)}
   ul.lista{margin:0;padding:0;list-style:none}
-  ul.lista li{padding:7px 0 7px 18px;position:relative;font-size:clamp(13px,1.25vw,16px);color:var(--gris);border-bottom:1px solid rgba(228,223,212,.55)}
+  ul.lista li{padding:6px 0 6px 18px;position:relative;font-size:clamp(12.6px,1.2vw,15.5px);color:var(--gris);border-bottom:1px solid rgba(228,223,212,.55)}
   ul.lista li:last-child{border-bottom:0}
-  ul.lista li::before{content:"";position:absolute;left:0;top:15px;width:7px;height:1px;background:var(--bronce)}
+  ul.lista li::before{content:"";position:absolute;left:0;top:14px;width:7px;height:1px;background:var(--bronce)}
   ul.lista li b{color:var(--tinta)}
-
-  /* animaciones de entrada */
   .a{opacity:0;transform:translateY(16px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
   .a.on{opacity:1;transform:none}
   .regla{height:1px;background:var(--bronce);width:0;transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
   .regla.on{width:86px}
-
-  /* barras */
-  .fila{display:flex;align-items:center;gap:12px;margin:10px 0}
+  .fila{display:flex;align-items:center;gap:12px;margin:9px 0}
   .fila .etq{width:150px;font-size:13px;color:var(--gris)}
   .pista-bar{flex:1;height:10px;background:rgba(14,22,33,.06);border-radius:6px;overflow:hidden}
   .barra-i{height:100%;width:0;border-radius:6px;transition:width 1.4s cubic-bezier(.2,.7,.2,1)}
   .barra-i.b1{background:#C9D4E0}.barra-i.b2{background:var(--azul)}
   .fila .val{width:110px;text-align:right;font-variant-numeric:tabular-nums;font-size:13px;color:var(--tinta)}
-
-  /* canvas */
   canvas.red{position:absolute;inset:0;width:100%;height:100%;z-index:0}
   .encima{position:relative;z-index:1}
-
-  /* secuencias */
   .paso{opacity:.22;transition:opacity .5s, transform .5s;transform:translateY(4px)}
   .paso.hoy{opacity:1;transform:none}
   .flecha{color:var(--linea);font-size:20px;transition:color .5s}
   .flecha.hoy{color:var(--bronce)}
-
+  .chip{border:1px solid var(--linea);border-radius:9px;padding:6px 11px;font-size:12px;background:#fff;display:inline-flex;gap:6px;align-items:center}
+  .chip.apagado{opacity:.34;transition:opacity .35s,border-color .35s}
+  .chip.prende{opacity:1;border-color:var(--bronce)}
+  .consola{border:1px solid var(--linea);border-radius:12px;background:#0E1621;color:#EDEBE4;padding:12px 14px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;line-height:1.7;min-height:150px}
+  .consola .tu{color:#C9A24A}
+  .consola .ok{color:#8FD3A8}
+  .cursor{display:inline-block;width:2px;height:1.05em;background:var(--bronce);vertical-align:-2px;margin-left:2px;animation:parp 900ms steps(1) infinite}
+  @keyframes parp{50%{opacity:0}}
   @media (prefers-reduced-motion: reduce){ *{transition:none !important; animation:none !important} }
 </style>
 </head>
@@ -106,23 +92,22 @@
 </div>
 
 <script>
-/* ══════════════════════════════════════════════════════════════════════════
-   Open Legal Chile — presentación en HTML, minimalista y animada.
-   Un solo archivo. Navegación: ← → espacio · F pantalla completa · clic en los puntos.
-   Cada lámina es una escena animada: se re-ejecuta al entrar.
-   ══════════════════════════════════════════════════════════════════════════ */
+/* ══════════════════════════════════════════════════════════════════════════════════════════
+   Open Legal Chile — presentación en HTML, minimalista, 32 láminas animadas. Un solo archivo.
+   Navegación: ← → espacio · F pantalla completa · clic en los puntos.
+   ══════════════════════════════════════════════════════════════════════════════════════════ */
 
-const L = [];  // láminas: {html, escena?, corrida?}
+const L = [];
 function lamina(html, escena){ L.push({html, escena}); }
 
-/* ── 1 · Portada ─────────────────────────────────────────────────────────── */
+/* ── 1 · Portada ─────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a" style="position:absolute;inset:0"><canvas class="red" id="redPortada"></canvas></div>
 <div class="encima a" style="margin-top:auto">
   <div class="ceja">Prueba en vivo · Facultad de Derecho</div>
   <h1 class="a">Open Legal Chile</h1>
-  <div class="regla a" style="margin:26px 0 22px"></div>
-  <p class="a" style="max-width:760px;font-size:clamp(15px,1.6vw,20px)">
+  <div class="regla a" style="margin:24px 0 20px"></div>
+  <p class="a" style="max-width:780px;font-size:clamp(15px,1.55vw,20px)">
     Cómo funciona, de lo más básico a lo más complejo — y por qué existe:
     <b style="color:var(--tinta)">acercar la IA al derecho chileno</b>, con enfoque profesional y ético.</p>
 </div>
@@ -132,49 +117,52 @@ lamina(`
   <p class="a serif" style="font-size:15px;color:#B9A16B">№ 01</p>
 </div>`, "red");
 
-/* ── 2 · Por qué nació ───────────────────────────────────────────────────── */
+/* ── 2 · Por qué nació ───────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">La idea</div><h2 class="a">Por qué nació</h2></div>
 <div class="cuerpo">
   <div class="grid3">
     <div class="tarjeta a acento"><b>La IA no conoce el derecho chileno</b>
-      <p>Los modelos generalistas se entrenaron con otros países: citan mal, ignoran nuestra normativa y nuestros tribunales.</p></div>
+      <p>Los modelos generalistas se entrenaron con otros países: citan «discovery» o «punitive damages» —
+      figuras que no existen en nuestro proceso civil.</p></div>
     <div class="tarjeta a acento"><b>Inventa con seguridad</b>
-      <p>Una cita de un fallo que no existe, un plazo que suena razonable. En derecho eso no es un detalle: es un riesgo.</p></div>
+      <p>Una cita de un fallo que no existe, un plazo que suena razonable. En derecho eso no es un
+      detalle: es un riesgo disciplinario.</p></div>
     <div class="tarjeta a acento"><b>Las fuentes están dispersas</b>
-      <p>BCN, Contraloría, Dirección del Trabajo, doctrina, guías: cada consulta cuesta tiempo y conocimiento experto.</p></div>
+      <p>BCN, Contraloría, DT, SII, CMF, SMA, doctrina, guías: cada consulta cuesta tiempo y
+      conocimiento experto.</p></div>
   </div>
-  <p class="a serif" style="font-size:clamp(20px,2.3vw,31px);color:var(--tinta);margin-top:auto;max-width:900px">
-    La pregunta que lo originó: <i>¿y si la IA trabajara con las fuentes reales del derecho chileno —
-    y lo mostrara?</i></p>
-</div>`);
+  <p class="a serif" style="font-size:clamp(19px,2.15vw,29px);color:var(--tinta);margin-top:auto;max-width:920px">
+    La pregunta que lo originó: <span id="pqTexto"></span><span class="cursor" id="pqCursor"></span></p>
+</div>`, "porque");
 
-/* ── 3 · Para qué es ─────────────────────────────────────────────────────── */
+/* ── 3 · Para qué es ─────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">La idea</div><h2 class="a">Para qué es</h2>
-<p class="a" style="margin-top:10px">Un mismo sistema con dos caminos: porque el derecho se aprende y se ejerce con las mismas fuentes.</p></div>
+<p class="a" style="margin-top:8px">Un mismo sistema con dos caminos: el abogado dispone de <b style="color:var(--tinta)">74
+herramientas, 19 agentes y 18 skills</b> — y el estudiante, del mismo corpus que se usa en tribunales.</p></div>
 <div class="cuerpo">
   <div class="grid2" style="flex:1;min-height:0">
     <div class="tarjeta a"><h3>Para el ejercicio profesional</h3>
       <ul class="lista">
-        <li>Informes en derecho y análisis <b>con citas a pie de página, en Word editable</b>.</li>
-        <li>Escritos y dossieres para tribunales, con carátulas y anexos.</li>
-        <li>Consulta a fuentes oficiales: BCN, Contraloría, DT, SII, CMF, SMA.</li>
-        <li>Privacidad y cumplimiento: tramitación ARCO, probidad, regulatorio.</li>
+        <li class="chk">Informes en derecho y análisis <b>con citas a pie de página, en Word editable</b>.</li>
+        <li class="chk">Escritos y dossieres para tribunales, con presuma, carátulas y anexos.</li>
+        <li class="chk">Consulta a fuentes oficiales: BCN, Contraloría, DT, SII, CMF, SMA, PJUD.</li>
+        <li class="chk">Cumplimiento: privacidad y ARCO, probidad, marcas, plazos fatales.</li>
       </ul></div>
     <div class="tarjeta a"><h3>Para el estudio y la docencia</h3>
       <ul class="lista">
-        <li>El corpus doctrinal completo: apuntes, materiales y <b>guías de la Academia Judicial</b>.</li>
-        <li>El grafo para estudiar e investigar: instituciones, normas y fallos conectados.</li>
-        <li>Preparación de exámenes de grado y clínica jurídica.</li>
-        <li>Dataset público en Hugging Face: investigación con IA sobre derecho chileno.</li>
+        <li class="chk">El corpus completo: apuntes, manuales y <b>21 guías de la Academia Judicial</b>.</li>
+        <li class="chk">Examen de grado: interrogación socrática, cédulas y flashcards.</li>
+        <li class="chk">Clínica jurídica: fichas sociales y lenguaje claro para usuarios reales.</li>
+        <li class="chk">Dataset público en Hugging Face para investigar con IA.</li>
       </ul></div>
   </div>
-  <p class="a gris" style="font-size:13.5px">Enfoque profesional y ético en ambos caminos: citar siempre, no inventar
-  jamás, y dejar fuera los datos de las personas.</p>
-</div>`);
+  <p class="a gris" style="font-size:12.8px">Soberanía, en ambos caminos: 100 % local si se quiere (Ollama) — las causas no
+  salen del computador, cero API keys, cero fuga de datos (secreto profesional, art. 247 CP).</p>
+</div>`, "paraQue");
 
-/* ── 4 · El puente ───────────────────────────────────────────────────────── */
+/* ── 4 · El puente ───────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">La idea</div><h2 class="a">El puente</h2></div>
 <div class="cuerpo" style="justify-content:center">
@@ -182,88 +170,97 @@ lamina(`
     <div class="tarjeta" style="text-align:center;background:var(--tinta);color:#EFEBE2;border:0">
       <b style="font-size:17px">IA</b><p style="color:#9AA7B4;margin-top:4px">que redacta y razona</p></div>
     <div style="text-align:center">
-      <p class="serif" style="font-size:clamp(16px,1.9vw,24px);color:var(--tinta)">Open Legal Chile</p>
-      <p style="font-size:12.5px;margin-top:6px">fuentes oficiales · corpus doctrinal · citas trazables · reglas de la casa</p></div>
+      <p class="serif" style="font-size:clamp(15px,1.75vw,23px);color:var(--tinta)">Open Legal Chile</p>
+      <svg viewBox="0 0 240 26" style="width:80%;height:26px;margin:6px auto 4px" id="puenteSvg">
+        <line x1="6" y1="13" x2="234" y2="13" stroke="#E4DFD4" stroke-width="2"/>
+        <circle id="puentePunto" cx="6" cy="13" r="5" fill="#A67C2E"/>
+      </svg>
+      <p style="font-size:12.3px">conectores del Estado · corpus doctrinal · grafo de tokens · reglas de la casa</p></div>
     <div class="tarjeta" style="text-align:center;background:var(--verde);color:#fff;border:0">
       <b style="font-size:17px">Derecho chileno</b><p style="color:#CFE6DC;margin-top:4px">con sus fuentes y su ética</p></div>
   </div>
-  <div class="grid4 a" style="margin-top:2vh">
-    <div class="tarjeta"><b>Conectores del Estado</b><p>BCN, CGR, DT, SII, CMF, SMA, PJUD…</p></div>
-    <div class="tarjeta"><b>Corpus completo</b><p>248 documentos chilenos en Markdown</p></div>
-    <div class="tarjeta"><b>Citas trazables</b><p>cada dato hasta su origen</p></div>
-    <div class="tarjeta"><b>Reglas de la casa</b><p>citar siempre; no inventar jamás</p></div>
+  <div class="grid4 a" style="margin-top:1.6vh">
+    <div class="tarjeta"><b>10 conectores</b><p>del Estado, contra repositorios públicos — sin llaves ni registro.</p></div>
+    <div class="tarjeta"><b>248 documentos</b><p>en Markdown: la biblioteca que el sistema sabe leer.</p></div>
+    <div class="tarjeta"><b>Cada dato, rastreable</b><p>hasta su enlace, su Rol, su dictamen o su archivo.</p></div>
+    <div class="tarjeta"><b>Reglas de la casa</b><p>citar siempre; no inventar jamás; el abogado decide.</p></div>
   </div>
-  <p class="a serif" style="font-size:clamp(17px,1.9vw,25px);color:var(--tinta);text-align:center;margin-top:1.6vh">
+  <p class="a serif" style="font-size:clamp(16px,1.8vw,24px);color:var(--tinta);text-align:center;margin-top:1.2vh">
     La IA no reemplaza al abogado: lo <i>acerca</i> a sus fuentes.</p>
-</div>`);
+</div>`, "puente");
 
-/* ── 5 · LLM (escena animada) ────────────────────────────────────────────── */
+/* ── 5 · LLM ─────────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">Los cimientos</div><h2 class="a">¿Qué es una IA? ¿Y un «LLM»?</h2></div>
-<div class="cuerpo" style="display:grid;grid-template-columns:1.05fr 1.2fr;gap:26px">
+<div class="cuerpo" style="display:grid;grid-template-columns:1.05fr 1.2fr;gap:24px">
   <ul class="lista a" style="align-self:start">
     <li>Es una máquina que <b>apuesta a la palabra siguiente</b>: así se entrenó, leyendo millones de textos.</li>
     <li><b>No consulta una base de datos</b> ni «sabe» derecho: calcula probabilidades.</li>
     <li>Fortaleza: redacta, resume, traduce. <b>Debilidad: inventa con seguridad.</b></li>
+    <li>El límite real es el <b>contexto</b>: lee por tokens (≈ 4 caracteres cada uno) y todo lo que lee se paga.</li>
   </ul>
-  <div class="tarjeta a" style="display:flex;flex-direction:column;gap:12px">
-    <style>
-      #llmFrase{font-size:clamp(15px,1.7vw,21px);line-height:1.6;min-height:4.6em}
-      #llmFrase .nueva{color:var(--azul);font-weight:650}
-      #llmFrase .cursor{display:inline-block;width:2px;height:1.05em;background:var(--bronce);vertical-align:-2px;margin-left:2px;animation:parp 900ms steps(1) infinite}
-      @keyframes parp{50%{opacity:0}}
-      #llmPanel{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
-      .cand{border:1px solid var(--linea);border-radius:9px;padding:7px 9px;opacity:.35;transition:opacity .3s,border-color .3s}
-      .cand.on{opacity:1;border-color:var(--azul)}
-      .cand .w{font-size:12.5px;font-weight:650}
-      .cand .pct{font-size:10.5px;color:var(--gris);margin-top:2px}
-      .cand .b{height:6px;border-radius:4px;background:var(--azul);opacity:.35;margin-top:6px;width:0;transition:width .5s}
-      .cand.on .b{opacity:1}
-    </style>
-    <div id="llmFrase"></div>
-    <div id="llmPanel"></div>
-    <p class="gris" style="font-size:12px">Ilustración: el modelo elige «Corte» porque lo leyó miles de veces — y puede
+  <div class="tarjeta a" style="display:flex;flex-direction:column;gap:10px">
+    <div id="llmFrase" style="font-size:clamp(15px,1.6vw,20px);line-height:1.6;min-height:3.9em"></div>
+    <div id="llmPanel" style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px"></div>
+    <p class="gris" style="font-size:12px">Ilustración: elige «Corte» porque lo leyó miles de veces — y puede
     equivocarse con la misma seguridad.</p>
   </div>
 </div>`, "llm");
 
-/* ── 6 · Riesgo y respuesta ──────────────────────────────────────────────── */
+/* ── 6 · Riesgo, respuesta y regla ───────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">Los cimientos</div><h2 class="a">El riesgo, la respuesta y la regla</h2></div>
-<div class="cuerpo">
-  <div class="grid3">
-    <div class="tarjeta a acento"><b>El riesgo</b>
-      <p>Un modelo solo puede inventar un fallo que no existe, un artículo que no dice eso, un plazo que suena razonable — y decirlo con la misma seguridad con que acierta.</p></div>
-    <div class="tarjeta a acento" style="border-left-color:var(--verde)"><b>La respuesta</b>
-      <p>No se le pide memoria: se le conectan fuentes reales (conectores del Estado, doctrina, corpus) y se le exige citar.</p></div>
-    <div class="tarjeta a acento"><b>La regla</b>
-      <p>En los documentos, citas a pie de página. En la conversación, al final. Sin fuente verificable: se dice, no se rellena.</p></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1.1fr;gap:24px">
+  <div class="a" style="align-self:center">
+    <div class="tarjeta" style="font-family:ui-monospace,Menlo,monospace;font-size:13px;line-height:1.7">
+      <div id="riesgoLinea1">Según el <i>art. 1546</i> del Código Civil…</div>
+      <div id="riesgoLinea2" style="margin-top:8px;transition:opacity .5s;opacity:0">[CS - Rol N° <span id="riesgoRol">99.999-2099</span>] fallo que fija el criterio…</div>
+      <div id="riesgoTachado" style="margin-top:8px;opacity:0;transition:opacity .4s;color:var(--rojo)">✗ cita inventada: ese Rol no existe</div>
+      <div id="riesgoBueno" style="margin-top:8px;opacity:0;transition:opacity .5s;color:var(--verde)">✓ [BCN - Código Civil, Art. 1546] bcn.cl/leychile — verificado en la fuente</div>
+    </div>
+    <p class="gris" style="font-size:12px;margin-top:10px">Formato oficial de citación: <span style="font-family:monospace">[BCN - Código Civil, Art. 1545]</span> ·
+    <span style="font-family:monospace">[Dictamen DT N° 1234/15 de 2024]</span> · <span style="font-family:monospace">[CS - Rol N° 12.345-2023]</span>.</p>
   </div>
-  <p class="a serif" style="font-size:clamp(17px,1.9vw,25px);color:var(--tinta);margin-top:auto">
-    Sin citas, un modelo es un pasante del que no sabés si estudió o improvisó.</p>
-</div>`);
+  <div class="a" style="align-self:center">
+    <ul class="lista">
+      <li><b>El riesgo:</b> un modelo solo puede inventar un fallo que no existe — y decirlo con la seguridad con que acierta.</li>
+      <li><b>La respuesta:</b> no se le pide memoria; se le conectan fuentes reales y se le exige citar.</li>
+      <li><b>La regla:</b> documentos, citas a pie de página; conversación, citas al final; sin fuente verificable, se dice.</li>
+      <li><b>La salvaguarda:</b> crítica forense en 5 dimensiones y compuerta de revisión humana antes de presentar.</li>
+    </ul>
+  </div>
+</div>`, "riesgo");
 
-/* ── 7 · Agente ──────────────────────────────────────────────────────────── */
+/* ── 7 · Agente ──────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">Los cimientos</div><h2 class="a">¿Qué es un agente (o «harness»)?</h2></div>
 <div class="cuerpo">
   <div class="grid3">
-    <div class="tarjeta a"><b>El motor</b><p>El LLM solo: puede conversar, pero no busca, no lee tus archivos y olvida todo al cerrar.</p></div>
+    <div class="tarjeta a"><b>El motor</b><p>El LLM solo: puede conversar, pero no busca, no lee tus archivos y
+      olvida todo al cerrar.</p></div>
     <div class="tarjeta a acento" style="border-left-color:var(--verde)"><b>El auto completo</b>
-      <p>El agente le da herramientas, procedimientos, memoria, permisos y reglas. Decide cuándo usar cada cosa y deja rastro.</p></div>
-    <div class="tarjeta a acento"><b>Ejemplos</b><p>Claude Code · Antigravity · Hermes (el de esta casa). Todos hablan el mismo idioma de herramientas.</p></div>
+      <p>El agente le da herramientas, procedimientos, memoria, permisos y reglas. Decide cuándo usar cada
+      cosa y deja rastro.</p></div>
+    <div class="tarjeta a"><b>Así se ve por dentro</b>
+      <p style="margin-bottom:6px">Tarea: «analizá esta carpeta»</p>
+      <div id="agenteChips" style="display:flex;flex-wrap:wrap;gap:6px"></div>
+      <p id="agenteFin" style="margin-top:8px;opacity:0;transition:opacity .5s;color:var(--verde);font-size:12px">✓ 4 herramientas usadas · todo con su fuente</p>
+    </div>
   </div>
-  <p class="a gris">En la prueba en vivo: <b style="color:var(--tinta)">«analizá esta carpeta»</b> — el agente llama solo a las herramientas, sin comandos.</p>
-</div>`);
+  <p class="a gris">Ejemplos de harness: <b style="color:var(--tinta)">Claude Code</b> ·
+  <b style="color:var(--tinta)">Google Antigravity</b> · <b style="color:var(--tinta)">Hermes</b> — todos usan las
+  mismas herramientas por MCP, sin comandos.</p>
+</div>`, "agente");
 
-/* ── 8 · MCP ─────────────────────────────────────────────────────────────── */
+/* ── 8 · MCP ─────────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">Los cimientos</div><h2 class="a">MCP: el enchufe de las herramientas</h2></div>
-<div class="cuerpo" style="display:grid;grid-template-columns:1.1fr 1fr;gap:30px">
+<div class="cuerpo" style="display:grid;grid-template-columns:1.1fr 1fr;gap:26px">
   <ul class="lista a" style="align-self:start">
-    <li>Un <b>protocolo estándar</b>: como el USB-C, deja que cualquier agente use las mismas herramientas.</li>
-    <li>Open Legal Chile expone <b>74 herramientas</b> por MCP: BCN, Contraloría, DT, SII, CMF, SMA, doctrina, grafo…</li>
-    <li>El abogado no llama comandos: <b>pregunta en lenguaje natural</b> y el agente elige.</li>
+    <li>Un <b>protocolo estándar</b> (como el USB-C): cualquier agente compatible usa las mismas herramientas.</li>
+    <li>Open Legal Chile expone <b>74 herramientas</b> por MCP — protocolo 2024-11-05 — más <b>19 agentes</b> y el grafo.</li>
+    <li>El abogado no llama comandos: <b>pregunta en lenguaje natural</b> y el agente elige el enchufe correcto.</li>
+    <li>Funciona igual en Claude Code, Cursor, VS Code, Antigravity o como plugin de una línea.</li>
   </ul>
   <div class="a" style="align-self:center" id="mcpEscena">
     <div style="display:flex;align-items:flex-start;gap:0">
@@ -274,30 +271,31 @@ lamina(`
   </div>
 </div>`, "mcp");
 
-/* ── 9 · Skill ───────────────────────────────────────────────────────────── */
+/* ── 9 · Skill ───────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">Los cimientos</div><h2 class="a">¿Qué es una skill? El manual de procedimiento</h2></div>
-<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1.15fr;gap:26px">
+<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1.15fr;gap:24px">
   <ul class="lista a" style="align-self:start">
     <li>Un <b>procedimiento escrito</b> que el agente lee antes de actuar: como un protocolo del estudio.</li>
     <li>La casa tiene <b>18 skills</b>: laboral, familia, contratos, societario, dossier, auditoría…</li>
+    <li>Cada skill declara <b>para quién escribe</b>, cómo se ve su salida y su compuerta de revisión humana.</li>
     <li>Regla de oro: <b>lo que no tiene fuente verificable, se dice</b>; no se inventa.</li>
   </ul>
   <div class="tarjeta a"><h3>Ejemplo real: chilean-case-intake</h3>
-    <ul class="lista">
+    <ul class="lista" id="skillPasos">
       <li>1 · Detectar la materia por código (patrones chilenos: Rol, RIT, señales del texto).</li>
       <li>2 · Leer todos los documentos, incluido lo escaneado (OCR en español).</li>
       <li>3 · Armar la línea de tiempo y las partes.</li>
       <li>4 · Buscar normas, dictámenes y doctrina — cada uno con su fuente.</li>
       <li>5 · Redactar el informe en Word, con citas a pie de página.</li>
     </ul></div>
-</div>`);
+</div>`, "skill");
 
-/* ── 10 · Capas ──────────────────────────────────────────────────────────── */
+/* ── 10 · Capas ──────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">Los cimientos</div><h2 class="a">Todo junto, por capas</h2></div>
 <div class="cuerpo" style="justify-content:center;gap:0">
-  <div style="display:flex;flex-direction:column;gap:9px;max-width:900px;margin:0 auto;width:100%">
+  <div style="display:flex;flex-direction:column;gap:8px;max-width:920px;margin:0 auto;width:100%">
     <div class="tarjeta a" style="text-align:center;background:var(--azul);color:#fff;border:0"><b>1 · LLM</b>
       <p style="color:#D5E2EF">la máquina de la siguiente palabra</p></div>
     <div class="flecha a" style="text-align:center">▼</div>
@@ -307,39 +305,47 @@ lamina(`
     <div class="tarjeta a" style="text-align:center;background:var(--verde);color:#fff;border:0"><b>3 · MCP</b>
       <p style="color:#CFE6DC">el enchufe estándar de las herramientas</p></div>
     <div class="flecha a" style="text-align:center">▼</div>
-    <div class="grid4 a" style="gap:10px">
+    <div class="grid4 a" style="gap:9px">
       <div class="tarjeta" style="text-align:center"><b>74 herramientas</b></div>
+      <div class="tarjeta" style="text-align:center"><b>19 agentes</b></div>
       <div class="tarjeta" style="text-align:center"><b>18 skills</b></div>
       <div class="tarjeta" style="text-align:center"><b>corpus y grafo</b></div>
-      <div class="tarjeta" style="text-align:center"><b>conectores del Estado</b></div>
     </div>
     <div class="flecha a" style="text-align:center">▼</div>
     <div class="tarjeta a" style="text-align:center;background:#F1EDE3;border:0"><b>4 · El abogado</b>
-      <p>pregunta en lenguaje natural y recibe una respuesta citada</p></div>
+      <p>pregunta en lenguaje natural y recibe una respuesta citada; la decisión es suya</p></div>
   </div>
 </div>`);
 
-/* ── 11 · Separador Parte 2 ──────────────────────────────────────────────── */
+/* ── 11 · Separador Parte 2 ──────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a" style="position:absolute;inset:0"><canvas class="red" id="redSeccion"></canvas></div>
 <div class="encima a" style="margin-top:auto">
   <div class="ceja" style="color:var(--bronce2)">Parte 2</div>
   <h1 class="a" style="font-size:clamp(36px,5.4vw,70px)">El conocimiento</h1>
 </div>
-<div class="encima a" style="margin-top:auto;max-width:820px">
-  <p class="a" style="color:#C9CDD4">El corpus chileno en Markdown · cómo se construyó el grafo · el ahorro
-  de tokens medido · y cómo operan las citas.</p>
+<div class="encima a" style="margin-top:auto;max-width:840px">
+  <p class="a" style="color:#C9CDD4">El corpus chileno en Markdown · cómo se construyó el grafo · el ahorro de tokens
+  medido · y cómo operan las citas.</p>
 </div>`, "red2");
 
-/* ── 12 · El contexto ────────────────────────────────────────────────────── */
+/* ── 12 · El contexto ────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">El conocimiento</div><h2 class="a">El problema del contexto</h2></div>
 <div class="cuerpo">
   <div class="grid4">
     <div class="a"><div class="num" data-contador="248">0</div><small>documentos completos en Markdown</small></div>
     <div class="a"><div class="num" data-contador="68.9" data-decimales="1" data-sufijo=" M">0</div><small>caracteres: decenas de miles de páginas</small></div>
-    <div class="a"><div class="num">≈ 4</div><small>caracteres por token: cada palabra leída cuesta</small></div>
+    <div class="a"><div class="num">≈ 17 M</div><small>tokens si el modelo leyera todo, cada vez</small></div>
     <div class="a"><div class="num" style="color:var(--bronce)">99,9 %</div><small>menos tokens consultando por el grafo</small></div>
+  </div>
+  <div class="a" style="max-width:760px">
+    <div class="fila"><span class="etq">Leer todo el corpus</span>
+      <span class="pista-bar"><span class="barra-i b1" data-barra="100"></span></span>
+      <span class="val">no cabe</span></div>
+    <div class="fila"><span class="etq">Preguntar al grafo</span>
+      <span class="pista-bar"><span class="barra-i b2" data-barra="4"></span></span>
+      <span class="val">cabe siempre</span></div>
   </div>
   <ul class="lista a">
     <li>Leer el corpus entero en cada consulta es caro, lento — y peor: <b>lo importante se diluye</b>.</li>
@@ -347,42 +353,47 @@ lamina(`
   </ul>
 </div>`);
 
-/* ── 13 · Cómo se construyó el grafo (escena) ────────────────────────────── */
+/* ── 13 · Cómo se construyó el grafo ─────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">El conocimiento</div><h2 class="a">Cómo se construyó el grafo</h2></div>
-<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1.1fr;gap:26px">
+<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1.1fr;gap:24px">
   <ul class="lista" id="gPasos">
     <li>1 · <b>248 documentos</b> de origen, incluidos los escaneados (OCR en español).</li>
-    <li>2 · Texto a <b>Markdown con ficha</b>: definición, concordancias y fuente.</li>
+    <li>2 · Texto a <b>Markdown con ficha</b>: definición canónica, concordancias y fuente.</li>
     <li>3 · Cada institución, norma y fallo es un <b>nodo</b>.</li>
     <li>4 · Las citas entre documentos son las <b>aristas</b>.</li>
-    <li>5 · <b>46 comunidades</b>: los grupos del derecho chileno.</li>
-    <li>6 · Las <b>21 guías de la Academia Judicial</b> entran y se enlazan al corpus.</li>
+    <li>5 · <b>46 comunidades</b>: los grupos del derecho chileno (Leiden, modularidad 0,607).</li>
+    <li>6 · Las 21 guías de la Academia Judicial entran y se enlazan: <b>1.604 nodos propios + 155 enlaces</b>.</li>
   </ul>
   <div class="tarjeta a" style="padding:8px"><canvas id="cvGrafo" width="900" height="620" style="width:100%;height:auto;display:block"></canvas></div>
 </div>`, "grafo");
 
-/* ── 14 · El grafo en números ────────────────────────────────────────────── */
+/* ── 14 · El grafo en números ────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">El conocimiento</div><h2 class="a">El grafo, en números</h2></div>
-<div class="cuerpo">
-  <div class="grid4">
-    <div class="a"><div class="num" data-contador="11640">0</div><small>nodos: instituciones, normas, fallos y obras</small></div>
-    <div class="a"><div class="num" data-contador="22170">0</div><small>aristas: cómo se conectan entre sí</small></div>
-    <div class="a"><div class="num" data-contador="46">0</div><small>comunidades detectadas (Leiden)</small></div>
-    <div class="a"><div class="num" data-contador="202">0</div><small>obras y guías que lo alimentan</small></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:1.15fr 1fr;gap:24px">
+  <div>
+    <div class="grid2" style="row-gap:16px">
+      <div class="a"><div class="num" data-contador="11640">0</div><small>nodos: instituciones, normas, fallos y obras</small></div>
+      <div class="a"><div class="num" data-contador="22170">0</div><small>aristas: cómo se conectan entre sí</small></div>
+      <div class="a"><div class="num" data-contador="46">0</div><small>comunidades detectadas (Leiden)</small></div>
+      <div class="a"><div class="num" data-contador="202">0</div><small>obras y guías que lo alimentan</small></div>
+    </div>
+    <ul class="lista a" style="margin-top:12px">
+      <li>Preguntar al grafo devuelve <b>solo el vecindario relevante</b> del tema consultado.</li>
+      <li>Cada nodo se puede <b>rastrear hasta su archivo y su enlace</b>: el mapa no inventa, resume.</li>
+    </ul>
   </div>
-  <ul class="lista a">
-    <li>Preguntar al grafo devuelve <b>solo el vecindario relevante</b>: las normas, fallos y doctrina de ese tema.</li>
-    <li>Ejemplos reales: «recurso de protección» → Cea Egaña; «falta de servicio» → Bermúdez Soto.</li>
-    <li>Cada nodo se puede <b>rastrear hasta su archivo y su enlace</b>: el mapa no inventa, resume.</li>
-  </ul>
-</div>`);
+  <div class="tarjeta a" style="display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px">
+    <canvas id="cvEgo" width="640" height="420" style="width:100%;height:auto"></canvas>
+    <p class="gris" style="font-size:12px;text-align:center">El vecindario de un concepto: así responde el grafo</p>
+  </div>
+</div>`, "miniGrafo");
 
-/* ── 15 · El ahorro (escena) ─────────────────────────────────────────────── */
+/* ── 15 · El ahorro, medido ──────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">El conocimiento</div><h2 class="a">El ahorro de tokens, medido</h2></div>
-<div class="cuerpo" style="display:grid;grid-template-columns:1.15fr 1fr;gap:30px">
+<div class="cuerpo" style="display:grid;grid-template-columns:1.15fr 1fr;gap:28px">
   <div class="a" style="align-self:center">
     <div class="fila"><span class="etq">Leer todo el corpus</span>
       <span class="pista-bar"><span class="barra-i b1" data-barra="100"></span></span>
@@ -390,7 +401,7 @@ lamina(`
     <div class="fila"><span class="etq">Preguntar al grafo</span>
       <span class="pista-bar"><span class="barra-i b2" data-barra="3"></span></span>
       <span class="val" id="ahorroB">0</span></div>
-    <p class="serif" style="font-size:clamp(19px,2.2vw,30px);color:var(--tinta);margin-top:14px">
+    <p class="serif" style="font-size:clamp(18px,2.1vw,28px);color:var(--tinta);margin-top:12px">
       99,9 % menos — y la respuesta llega con sus fuentes.</p>
   </div>
   <div class="a">
@@ -399,15 +410,16 @@ lamina(`
       <li><b>«corrupción»</b>: 137 vs 89.720.</li>
       <li><b>«prescripción»</b>: 157 vs 850.</li>
     </ul>
-    <p class="gris" style="font-size:12.5px;margin-top:10px">Medido por el propio sistema
-    (<span style="font-family:monospace">calcular_ahorro_tokens</span>), sobre 248 documentos.</p>
+    <p class="gris" style="font-size:12.4px;margin-top:10px">Medido por el propio sistema
+    (<span style="font-family:monospace">calcular_ahorro_tokens</span>), sobre 248 documentos; el detalle está en
+    <span style="font-family:monospace">docs/medicion_tokens.md</span>.</p>
   </div>
 </div>`, "ahorro");
 
-/* ── 16 · Citas (escena) ─────────────────────────────────────────────────── */
+/* ── 16 · Citas ──────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">El conocimiento</div><h2 class="a">Cómo operan las citas</h2></div>
-<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
+<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
   <div class="tarjeta a" id="citaDoc">
     <h3 style="color:var(--gris);letter-spacing:.08em;text-transform:uppercase;font-size:11.5px">En un documento</h3>
     <p style="color:var(--tinta);font-size:15px" id="citaTexto">El reclamo por despido injustificado se presenta ante el
@@ -428,13 +440,13 @@ lamina(`
   </div>
 </div>
 <p class="a gris" id="citaPie" style="font-size:13px">Dos vías, una regla: toda fuente se cita — y se puede rastrear
-hasta su origen.</p>`, "citas");
+hasta su origen (enlace, Rol, dictamen o archivo).</p>`, "citas");
 
-/* ── 17 · Flujo (escena) ─────────────────────────────────────────────────── */
+/* ── 17 · Flujo ──────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">El conocimiento</div><h2 class="a">El camino de una pregunta</h2></div>
 <div class="cuerpo" style="justify-content:center">
-  <div style="display:flex;align-items:stretch;gap:10px" id="flujoPasos">
+  <div style="display:flex;align-items:stretch;gap:9px" id="flujoPasos">
     <div class="tarjeta paso" style="flex:1"><b>1 · Mesa de entrada</b><p>Decide por código, no adivinando.</p></div>
     <div class="flecha" style="align-self:center">→</div>
     <div class="tarjeta paso" style="flex:1"><b>2 · Conectores</b><p>DT, BCN… cada respuesta con su enlace.</p></div>
@@ -445,11 +457,11 @@ lamina(`
     <div class="flecha" style="align-self:center">→</div>
     <div class="tarjeta paso" style="flex:1"><b>5 · Respuesta</b><p>Citada: las fuentes al final.</p></div>
   </div>
-  <p class="a gris" style="text-align:center;margin-top:2vh">Cada etapa deja rastro: la respuesta se puede
-  rastrear hasta su origen.</p>
+  <p class="a gris" style="text-align:center;margin-top:2vh">Cada etapa deja rastro: qué herramienta se usó y con qué
+  fuente — la respuesta se puede auditar.</p>
 </div>`, "flujo");
 
-/* ── 18 · Un caso (escena) ───────────────────────────────────────────────── */
+/* ── 18 · Un caso ────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">El conocimiento</div><h2 class="a">Un caso, de punta a punta</h2>
 <p class="a" style="margin-top:8px">«Analizá esta carpeta»: esto ocurre por dentro, sin comandos.</p></div>
@@ -466,49 +478,279 @@ lamina(`
     <div class="tarjeta paso" style="background:#FDF9EE;border-color:#EADFC2"><b>5 · La entrega</b>
       <p><b style="color:#7A6420">Informe_en_derecho.docx</b> — Word, editable, con citas.</p></div>
   </div>
-  <p class="a gris" style="text-align:center">El resultado es un informe rastreable, listo para revisar y presentar.</p>
+  <p class="a gris" style="text-align:center">Resultado: un informe rastreable, listo para revisar y presentar.</p>
 </div>`, "caso");
 
-/* ── 19 · Números ────────────────────────────────────────────────────────── */
+/* ── 19 · Separador Parte 3 ──────────────────────────────────────────────────────────────── */
+lamina(`
+<div class="a" style="position:absolute;inset:0"><canvas class="red" id="redSeccion3"></canvas></div>
+<div class="encima a" style="margin-top:auto">
+  <div class="ceja" style="color:var(--bronce2)">Parte 3</div>
+  <h1 class="a" style="font-size:clamp(36px,5.4vw,70px)">Las herramientas</h1>
+</div>
+<div class="encima a" style="margin-top:auto;max-width:860px">
+  <p class="a" style="color:#C9CDD4">Las 74 herramientas, los 19 agentes y la mesa de entrada — en acción: qué se le
+  puede pedir al sistema y con qué responde.</p>
+</div>`, "red3");
+
+/* ── 20 · Conectores del Estado ──────────────────────────────────────────────────────────── */
+lamina(`
+<div class="a"><div class="ceja">Las herramientas</div><h2 class="a">10 conectores contra las fuentes oficiales</h2>
+<p class="a" style="margin-top:8px">Sin registro, sin API keys: repositorios públicos del Estado, con caché local
+para funcionar incluso sin internet.</p></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1.15fr;gap:24px">
+  <div class="a" id="conChips" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;align-content:start"></div>
+  <div class="a" style="display:flex;flex-direction:column;gap:10px">
+    <div class="consola"><div><span class="tu" id="conPregunta"></span><span class="cursor"></span></div>
+      <div id="conRespuesta" style="margin-top:8px;opacity:0;transition:opacity .5s"></div></div>
+    <p class="gris" style="font-size:12.4px">BCN (9 códigos + toda ley) · CGR (más de 50.000 dictámenes + auditorías) · DT
+    (Art. 161, Ley Karin, 40 horas) · PJUD y Corte Suprema · Tribunal Constitucional · CNE · Panel de Expertos · CMF ·
+    SII · SMA. Cada respuesta guarda su enlace.</p>
+  </div>
+</div>`, "conectores");
+
+/* ── 21 · Las 74 herramientas ────────────────────────────────────────────────────────────── */
+lamina(`
+<div class="a"><div class="ceja">Las herramientas</div><h2 class="a">Las 74 herramientas, por familias</h2></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:1.1fr 1fr;gap:24px">
+  <ul class="lista a" id="herFamilias">
+    <li><b>Fuentes del Estado (16)</b> — códigos, leyes, dictámenes, auditorías, sanciones, energía y competencia.</li>
+    <li><b>Doctrina y grafo (14)</b> — búsqueda FTS5, fichas, ingesta, subgrafos, caminos, impacto, pilares.</li>
+    <li><b>Escritos y expedientes (5)</b> — recurso de protección OJV, dossier con anexos, OCR pericial, brief.</li>
+    <li><b>Casos y entrada (4)</b> — mesa de entrada, RUT, competencias de órganos.</li>
+    <li><b>Docencia y clínica (6)</b> — examen de grado, cédulas, flashcards, lenguaje claro, intake social.</li>
+    <li><b>Cumplimiento y vigilancia (9)</b> — ARCO, marcas, plazos fatales, radar normativo, contratos.</li>
+    <li><b>Inmobiliario y títulos (3)</b> — cadena decenal CBR, checklist, mandato judicial art. 7 CPC.</li>
+    <li><b>Biblioteca, investigación y suite (17)</b> — NotebookLM, probidad, exportación de agentes, telemetría.</li>
+  </ul>
+  <div class="a" style="display:flex;flex-direction:column;gap:10px">
+    <div class="consola" id="herConsola" style="flex:1"></div>
+    <p class="gris" style="font-size:12.4px">El agente elige la herramienta según la pregunta; cada paso informa su
+    estado y <b>nunca devuelve un resultado inventado</b>: si una fuente no responde, lo dice.</p>
+  </div>
+</div>`, "herramientas");
+
+/* ── 22 · Los agentes ────────────────────────────────────────────────────────────────────── */
+lamina(`
+<div class="a"><div class="ceja">Las herramientas</div><h2 class="a">19 agentes especializados</h2>
+<p class="a" style="margin-top:8px">Perfiles que coordinan herramientas por sí solos — en modo determinista soberano
+(100 % offline) o asistido por un modelo.</p></div>
+<div class="cuerpo">
+  <div class="a" id="agRed" style="display:grid;grid-template-columns:repeat(5,1fr);gap:8px"></div>
+  <div class="a" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+    <div class="tarjeta"><b style="color:var(--gris);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase">Qué le puedes pedir</b>
+      <p id="agTarea" style="color:var(--tinta);font-size:14px;margin-top:8px;min-height:2.6em"></p></div>
+    <div class="tarjeta"><b style="color:var(--gris);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase">Cómo trabajan</b>
+      <p style="margin-top:8px">Autonomía con auto-crítica en 5 dimensiones (legalidad, doctrina, estructura OJV, coherencia
+      fáctica y compuertas éticas). Se exportan como subagentes para Claude Code o Antigravity.</p></div>
+  </div>
+</div>`, "agentes");
+
+/* ── 23 · La mesa de entrada ─────────────────────────────────────────────────────────────── */
+lamina(`
+<div class="a"><div class="ceja">Las herramientas</div><h2 class="a">La mesa de entrada, en acción</h2>
+<p class="a" style="margin-top:8px">Entra una carpeta o una consulta; sale un plan de trabajo — la materia se decide
+<b>por código</b>, no por corazonada.</p></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1.1fr;gap:24px">
+  <div class="a" style="display:flex;flex-direction:column;gap:10px">
+    <div class="tarjeta" style="text-align:center">
+      <b style="font-size:15px">📁 carpeta "Pérez vs. Constructora"</b>
+      <div id="mesaDocs" style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:10px"></div>
+    </div>
+    <div class="tarjeta" id="mesaDecision" style="opacity:0;transition:opacity .6s">
+      <div style="display:flex;gap:8px;flex-wrap:wrap" id="mesaChips"></div>
+      <p id="mesaFalta" style="margin-top:9px;font-size:12.4px"></p>
+    </div>
+  </div>
+  <div class="a">
+    <ul class="lista" id="mesaPlan">
+      <li>1 · Leer los documentos (y avisar lo que no pudo leer).</li>
+      <li>2 · Fijar materia, figura y fuero probable.</li>
+      <li>3 · Ordenar las herramientas a ejecutar, con su por qué.</li>
+      <li>4 · Ejecutar contra fuentes reales, paso a paso, con estado por paso.</li>
+      <li>5 · Reportar lo que falta — sin modificar nada ni inventar resultados.</li>
+    </ul>
+  </div>
+</div>`, "mesa");
+
+/* ── 24 · Documentos ─────────────────────────────────────────────────────────────────────── */
+lamina(`
+<div class="a"><div class="ceja">Las herramientas</div><h2 class="a">Escritos y documentos, en Word</h2>
+<p class="a" style="margin-top:8px">La regla de la casa: <b>el documento de trabajo se entrega editable</b>. El PDF,
+sólo para presentar.</p></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1.15fr;gap:24px">
+  <div class="a" style="display:flex;flex-direction:column;gap:10px;align-self:center">
+    <div class="tarjeta" style="font-family:ui-monospace,Menlo,monospace;font-size:12.4px;line-height:1.7">
+      <b style="font-family:var(--sans)">borrador.md</b><br>
+      # EN LO PRINCIPAL<br>**Primero:** vengo en interponer…<br>[1] [BCN - CPR, Art. 20]</div>
+    <div style="text-align:center;font-size:20px;color:var(--bronce);transition:transform .5s" id="docFlecha">↓</div>
+    <div class="tarjeta" id="docWord" style="opacity:0;transition:opacity .6s;border-color:#EADFC2;background:#FDF9EE">
+      <b>Informe_en_derecho.docx</b> <span class="chip" style="font-size:10.5px;margin-left:6px">Word · editable</span>
+      <p style="margin-top:7px;color:#7A6420;font-size:12.4px">Times 12 · justificado · citas a pie de página · pies «Página X de Y».</p>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap" id="docExtras"></div>
+  </div>
+  <div class="a">
+    <ul class="lista">
+      <li><b>Recurso de protección OJV</b>: estructura del Auto Acordado 94-2015, ONI, garantías del art. 19 CPR.</li>
+      <li><b>Dossieres para tribunales</b>: PDF A4 con carátulas divisorias, anexos foliados y marcadores TOC.</li>
+      <li><b>OCR en español</b> para escaneos y fotos — informa siempre qué motor usó y qué página no rindió.</li>
+      <li><b>Crítica forense antes de firmar</b>: revisa presuma, petitorio, plazos y terminología prohibida.</li>
+    </ul>
+  </div>
+</div>`, "documentos");
+
+/* ── 25 · Doctrina ───────────────────────────────────────────────────────────────────────── */
+lamina(`
+<div class="a"><div class="ceja">Las herramientas</div><h2 class="a">Doctrina: buscar y explicar</h2>
+<p class="a" style="margin-top:8px">El corpus indexado con búsqueda FTS5 y ranking BM25: se pregunta en lenguaje
+natural y responde con fichas, no con páginas.</p></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1.15fr;gap:24px">
+  <div class="a" style="display:flex;flex-direction:column;gap:10px">
+    <div class="consola"><div><span class="tu">» doctrina_search</span> <span id="docQuery"></span><span class="cursor"></span></div>
+      <div id="docHit" style="margin-top:8px;opacity:0;transition:opacity .5s"></div></div>
+    <div class="tarjeta" id="docFicha" style="opacity:0;transition:opacity .6s">
+      <b style="font-size:13.5px">Ficha: falta de servicio</b>
+      <p style="margin-top:6px;font-size:12.4px"><b style="color:var(--tinta)">Definición canónica:</b> la actividad
+      administrativa que funciona mal o no funciona…</p>
+      <p style="font-size:12.4px"><b style="color:var(--tinta)">Concordancias BCN:</b> [BCN - Ley 18.575, Art. 42]</p>
+      <p style="font-size:12.4px"><b style="color:var(--tinta)">Doctrina:</b> Bermúdez Soto, <i>Derecho Administrativo</i> — con su archivo en el corpus.</p>
+    </div>
+  </div>
+  <div class="a">
+    <ul class="lista">
+      <li><b>doctrina_search</b>: búsqueda por relevancia en los tratados chilenos indexados (Peñailillo, Barros, Gamonal, Bermúdez, Cury…).</li>
+      <li><b>doctrina_get_institucion</b>: ficha completa — definición, requisitos, operativa procesal, concordancias y fallos.</li>
+      <li><b>doctrina_ingestar_documento</b>: un PDF nuevo entra al corpus y al grafo en una sola operación.</li>
+      <li><b>academia_judicial_buscar_guias</b>: las 21 guías de buenas prácticas judiciales, también buscables.</li>
+    </ul>
+  </div>
+</div>`, "doctrina");
+
+/* ── 26 · El grafo como herramienta ──────────────────────────────────────────────────────── */
+lamina(`
+<div class="a"><div class="ceja">Las herramientas</div><h2 class="a">El grafo como herramienta</h2>
+<p class="a" style="margin-top:8px">No solo ahorra tokens: permite analizar el derecho como una red — caminos,
+impacto de una reforma y pilares del sistema.</p></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:1fr 1fr;gap:22px">
+  <div class="a">
+    <ul class="lista">
+      <li><b>graphify_consulta_subgrafo</b>: el vecindario de un concepto, listo para razonar.</li>
+      <li><b>graphify_trazar_camino</b>: cadena mínima entre dos conceptos (subsunción y argumentación).</li>
+      <li><b>graphify_analizar_impacto</b>: si cambia una norma, qué instituciones quedan afectadas (grado 1 y 2).</li>
+      <li><b>graphify_god_nodes</b>: los pilares del sistema por PageRank; <b>resumen_comunidades</b>: el panorama en ~644 tokens.</li>
+    </ul>
+  </div>
+  <div class="tarjeta a" style="display:flex;flex-direction:column;gap:6px;justify-content:center">
+    <canvas id="cvCamino" width="700" height="340" style="width:100%;height:auto"></canvas>
+    <p class="gris" style="font-size:12px;text-align:center">Camino mínimo: «despido injustificado» → «tutela de derechos fundamentales»</p>
+  </div>
+</div>`, "grafoHerramientas");
+
+/* ── 27 · Estudio y clínica ──────────────────────────────────────────────────────────────── */
+lamina(`
+<div class="a"><div class="ceja">Las herramientas</div><h2 class="a">Estudio, docencia y clínica</h2>
+<p class="a" style="margin-top:8px">El mismo corpus al servicio de la sala de clases y de la asistencia real.</p></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px">
+  <div class="tarjeta a" id="estGrado">
+    <b>Examen de grado</b>
+    <div class="consola" style="margin-top:8px;min-height:120px"><div><span class="tu">»</span> <span id="grPregunta"></span><span class="cursor"></span></div>
+      <div id="grEval" style="margin-top:7px;opacity:0;transition:opacity .5s"></div></div>
+  </div>
+  <div class="tarjeta a" id="estClinica">
+    <b>Clínica jurídica</b>
+    <p style="margin-top:8px;font-size:12.2px"><b style="color:var(--tinta)">El proveído dice:</b> «Téngase por
+    contestada la demanda».</p>
+    <p id="claro1" style="margin-top:7px;font-size:12.2px;opacity:0;transition:opacity .6s;color:var(--verde)"><b>En lenguaje
+    claro:</b> el tribunal leyó su respuesta y la dejó registrada en la carpeta del juicio.</p>
+    <p id="claro2" style="margin-top:7px;font-size:12.2px;opacity:0;transition:opacity .6s">Fichas sociales de ingreso
+    para casos de alimentos, familia y precario; auditoría de borradores de pasantes antes del visado.</p>
+  </div>
+  <div class="tarjeta a" id="estDataset">
+    <b>Para investigar</b>
+    <p style="margin-top:8px;font-size:12.2px">El corpus completo y los dos grafos, públicos, para investigación
+    con IA y clase:</p>
+    <div style="display:flex;flex-direction:column;gap:6px;margin-top:8px">
+      <span class="chip apagado" id="ds1">248 documentos en Markdown</span>
+      <span class="chip apagado" id="ds2">grafos: corpus y guías enlazadas</span>
+      <span class="chip apagado" id="ds3">Hugging Face · descarga directa</span>
+    </div>
+  </div>
+</div>`, "estudio");
+
+/* ── 28 · Cumplimiento y vigilancia ──────────────────────────────────────────────────────── */
+lamina(`
+<div class="a"><div class="ceja">Las herramientas</div><h2 class="a">Cumplimiento y vigilancia</h2>
+<p class="a" style="margin-top:8px">Plazos que no se pueden perder, datos que no se pueden filtrar y alertas que no
+se pueden dormir.</p></div>
+<div class="cuerpo" style="display:grid;grid-template-columns:1.1fr 1fr;gap:22px">
+  <div class="a">
+    <div class="tarjeta" style="display:flex;flex-direction:column;gap:10px">
+      <b style="font-size:13.5px">Vigilante de proveídos y plazos</b>
+      <div id="cumTimeline" style="display:flex;flex-direction:column;gap:8px"></div>
+    </div>
+    <ul class="lista" style="margin-top:10px">
+      <li><b>Radar normativo</b>: novedades del Diario Oficial, dictámenes CGR y circulares SII, por materia.</li>
+      <li><b>Contratos</b>: ventanas de preaviso, desahucio y tácita reconducción.</li>
+    </ul>
+  </div>
+  <div class="a">
+    <div class="tarjeta">
+      <b style="font-size:13.5px">Datos de personas: dentro del estudio, fuera del dataset</b>
+      <p style="margin-top:8px;font-size:12.4px">El corpus público no lleva información personal. Las carpetas de
+      casos se procesan localmente; la tramitación ARCO (Ley 19.628) se redacta en el estudio:</p>
+      <div class="consola" style="margin-top:8px"><div><span class="tu">» privacidad_tramitar_arco</span> —
+      solicitud de <b>acceso</b></div>
+        <div style="margin-top:6px">Solicitante: <span id="arcoNombre" style="transition:opacity .4s">María Pérez Soto</span>
+        · RUT <span id="arcoRut" style="transition:opacity .4s">12.345.678-9</span> · <span class="ok">→ respuesta modelo
+        Ley 19.628 lista para revisar</span></div></div>
+      <p class="gris" style="font-size:11.8px;margin-top:8px">Y en el dataset público, esos datos irían redactados:
+      <span style="font-family:monospace">M••• P••• · RUT ████</span>.</p>
+    </div>
+  </div>
+</div>`, "cumplimiento");
+
+/* ── 29 · Números ────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">El sistema</div><h2 class="a">Open Legal Chile, en números</h2></div>
 <div class="cuerpo" style="justify-content:center">
-  <div class="grid4" style="row-gap:22px">
+  <div class="grid4" style="row-gap:20px">
     <div class="a"><div class="num" data-contador="74">0</div><small>herramientas MCP</small></div>
     <div class="a"><div class="num" data-contador="10">0</div><small>conectores del Estado</small></div>
     <div class="a"><div class="num" data-contador="248">0</div><small>documentos completos</small></div>
     <div class="a"><div class="num" data-contador="11640">0</div><small>nodos del grafo</small></div>
     <div class="a"><div class="num" data-contador="19">0</div><small>agentes especializados</small></div>
     <div class="a"><div class="num" data-contador="18">0</div><small>skills de procedimiento</small></div>
+    <div class="a"><div class="num" data-contador="255">0</div><small>pruebas automáticas en verde</small></div>
     <div class="a"><div class="num" data-contador="6.17" data-decimales="2" data-sufijo=" M">0</div><small>caracteres de guías de la Academia Judicial</small></div>
-    <div class="a"><div class="num">2</div><small>grafos enlazados: corpus y guías</small></div>
   </div>
 </div>`);
 
-/* ── 20 · Reglas ─────────────────────────────────────────────────────────── */
+/* ── 30 · Reglas ─────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">El sistema</div><h2 class="a">Las reglas de la casa: citas y honestidad</h2></div>
 <div class="cuerpo" style="justify-content:center">
   <div class="tarjeta a acento"><b>Toda fuente se cita.</b>
-    <p>En documentos, a pie de página. En la conversación, al final.</p></div>
+    <p>En documentos, a pie de página. En la conversación, al final. Formato oficial:
+    <span style="font-family:monospace">[BCN - Código Civil, Art. 1545]</span> · <span style="font-family:monospace">[CS - Rol N° 12.345-2023]</span>.</p></div>
   <div class="tarjeta a acento" style="border-left-color:var(--verde)"><b>Los documentos salen en Word.</b>
-    <p>Editables, no sólo PDF: el abogado corrige sin conversiones.</p></div>
+    <p>Editables, no solo PDF: el abogado corrige sin conversiones.</p></div>
   <div class="tarjeta a acento"><b>Sin fuente verificable, se dice.</b>
-    <p>«No tengo fuente para esto» es una respuesta válida.</p></div>
+    <p>«No tengo fuente para esto» es una respuesta válida; nunca se rellena el hueco.</p></div>
   <div class="tarjeta a acento" style="border-left-color:var(--azul)"><b>Datos de personas, fuera del dataset.</b>
-    <p>El corpus público no lleva información personal.</p></div>
+    <p>El corpus público no lleva información personal; lo confidencial se procesa local.</p></div>
   <div class="tarjeta a acento" style="border-left-color:var(--rojo)"><b>Herramienta que puede mentir, no existe.</b>
     <p>La consulta de causas del PJUD se retiró: no hay puerta pública y podía dar información errónea.</p></div>
 </div>`);
 
-/* ── 21 · Cierre ─────────────────────────────────────────────────────────── */
+/* ── 31 · Cierre ─────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a" style="position:absolute;inset:0"><canvas class="red" id="redCierre"></canvas></div>
 <div class="encima a" style="margin-top:auto">
   <div class="ceja">Prueba en vivo</div>
   <h1 class="a" style="font-size:clamp(34px,5vw,66px)">En vivo: pregunten lo que quieran</h1>
 </div>
-<div class="encima a" style="margin-top:auto;max-width:900px">
+<div class="encima a" style="margin-top:auto;max-width:920px">
   <p class="a" style="color:#C9CDD4">Preguntas al azar, en lenguaje natural: casos, plazos, dictámenes, doctrina,
   análisis de documentos. Van a ver las herramientas trabajar y <b>las fuentes aparecer al final</b>.</p>
 </div>
@@ -516,34 +758,35 @@ lamina(`
   <p class="a" style="font-size:12.5px;color:#9AA7B4;line-height:1.8">
     github.com/elpabloultron/open-legal-chile · pypi.org/project/openlegal-chile ·
     huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile</p>
-</div>`, "red3");
+</div>`, "red4");
 
-/* ── 22 · Fuentes ────────────────────────────────────────────────────────── */
+/* ── 32 · Fuentes ────────────────────────────────────────────────────────────────────────── */
 lamina(`
 <div class="a"><div class="ceja">Cierre</div><h2 class="a">Fuentes de esta presentación</h2></div>
 <div class="cuerpo" style="justify-content:center">
   <ul class="lista a">
     <li><b>[Corpus completo en Hugging Face]</b> huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile — 248 documentos, 2 grafos y sus enlaces.</li>
-    <li><b>[Código y auditoría]</b> github.com/elpabloultron/open-legal-chile — CI, auditoría 360° y 251 pruebas.</li>
+    <li><b>[Código, CI y auditoría]</b> github.com/elpabloultron/open-legal-chile — 255 pruebas · auditoría 360° (bandit, semgrep, ruff, mypy).</li>
     <li><b>[Paquete instalable]</b> pypi.org/project/openlegal-chile (1.6.4).</li>
-    <li><b>[Cifras del grafo y del ahorro]</b> medidas por el propio sistema (legal_graphify · calcular_ahorro_tokens).</li>
-    <li><b>[Guías de la Academia Judicial]</b> guias.academiajudicial.cl — 21 guías, en Markdown completo.</li>
+    <li><b>[Cifras del grafo y del ahorro]</b> medidas por el propio sistema (legal_graphify · calcular_ahorro_tokens · docs/medicion_tokens.md).</li>
+    <li><b>[Guías de la Academia Judicial]</b> guias.academiajudicial.cl — 21 guías, en Markdown completo dentro del corpus.</li>
     <li><b>[Doctrina]</b> apuntes de Juan Andrés Orrego Acuña y materiales docentes de la Academia Judicial.</li>
-    <li><b>[Normativa y dictámenes]</b> bcn.cl/leychile · contraloria.cl · dt.gob.cl — citados en cada respuesta que los use.</li>
+    <li><b>[Normativa y dictámenes]</b> bcn.cl/leychile · contraloria.cl · dt.gob.cl · sii.cl · cmfchile.cl · sma.gob.cl — citados en cada respuesta que los use.</li>
   </ul>
   <p class="a gris" style="font-size:12.5px">La presentación practica lo que predica: sus propias cifras van con fuente.</p>
 </div>`);
 
-/* ══════════════════════════════════════════════════════════════════════════
-   Motor: pintado, navegación y animaciones
-   ══════════════════════════════════════════════════════════════════════════ */
+/* ══════════════════════════════════════════════════════════════════════════════════════════
+   Motor
+   ══════════════════════════════════════════════════════════════════════════════════════════ */
 const deck = document.getElementById("deck");
 const puntos = document.getElementById("puntos");
 const progreso = document.getElementById("progreso");
 const cuenta = document.getElementById("cuenta");
+const OSCURAS = new Set(["red2", "red3", "red4"]);
 L.forEach((l, i) => {
   const s = document.createElement("section");
-  s.className = "slide" + (i === 0 || l.escena === "red2" || l.escena === "red3" ? " oscura" : "");
+  s.className = "slide" + (i === 0 || OSCURAS.has(l.escena) ? " oscura" : "");
   s.innerHTML = l.html;
   s.dataset.escena = l.escena || "";
   s.dataset.i = i;
@@ -555,10 +798,10 @@ L.forEach((l, i) => {
 const slides = [...deck.querySelectorAll(".slide")];
 let actual = -1;
 let timers = [], rafRed = 0;
-const canvasActivos = [];
+function T(fn, ms){ timers.push(setTimeout(fn, ms)); }
 
 function limpiarEscenas(){
-  timers.forEach(t => clearTimeout(t));
+  timers.forEach(t => { clearTimeout(t); clearInterval(t); });
   timers = [];
   cancelAnimationFrame(rafRed);
   rafRed = 0;
@@ -570,11 +813,10 @@ function animar(s){
   as.forEach(el => { el.classList.remove("on"); });
   void s.offsetWidth;
   requestAnimationFrame(() => as.forEach((el, k) => {
-    el.style.transitionDelay = (k * 0.085) + "s";
+    el.style.transitionDelay = (k * 0.08) + "s";
     el.classList.add("on");
     if (el.classList.contains("regla")) el.style.transitionDelay = "0.35s";
   }));
-  // contadores
   s.querySelectorAll("[data-contador]").forEach(el => {
     const fin = parseFloat(el.dataset.contador);
     const dec = parseInt(el.dataset.decimales || "0", 10);
@@ -588,11 +830,9 @@ function animar(s){
     };
     requestAnimationFrame(paso);
   });
-  // barras
   s.querySelectorAll("[data-barra]").forEach((el, k) => {
-    timers.push(setTimeout(() => { el.style.width = el.dataset.barra + "%"; }, 350 + k * 260));
+    T(() => { el.style.width = el.dataset.barra + "%"; }, 350 + k * 240);
   });
-  // escenas propias
   const esc = s.dataset.escena;
   if (esc === "llm") escenaLLM(s);
   if (esc === "grafo") escenaGrafo(s);
@@ -601,7 +841,23 @@ function animar(s){
   if (esc === "caso") escenaCaso(s);
   if (esc === "citas") escenaCitas(s);
   if (esc === "ahorro") escenaAhorro(s);
-  if (esc === "red" || esc === "red2" || esc === "red3") redDeNodos(s);
+  if (esc === "porque") escenaPorQue(s);
+  if (esc === "paraQue") escenaParaQue(s);
+  if (esc === "puente") escenaPuente(s);
+  if (esc === "riesgo") escenaRiesgo(s);
+  if (esc === "agente") escenaAgente(s);
+  if (esc === "skill") escenaSkill(s);
+  if (esc === "miniGrafo") escenaMiniGrafo(s);
+  if (esc === "conectores") escenaConectores(s);
+  if (esc === "herramientas") escenaHerramientas(s);
+  if (esc === "agentes") escenaAgentes(s);
+  if (esc === "mesa") escenaMesa(s);
+  if (esc === "documentos") escenaDocumentos(s);
+  if (esc === "doctrina") escenaDoctrina(s);
+  if (esc === "grafoHerramientas") escenaGrafoHerramientas(s);
+  if (esc === "estudio") escenaEstudio(s);
+  if (esc === "cumplimiento") escenaCumplimiento(s);
+  if (esc === "red" || esc === "red2" || esc === "red3" || esc === "red4") redDeNodos(s);
 }
 
 function ir(i){
@@ -617,7 +873,19 @@ function ir(i){
   history.replaceState(null, "", "#" + (i + 1));
 }
 
-/* ── escenas particulares ────────────────────────────────────────────────── */
+/* ── helpers ─────────────────────────────────────────────────────────────────────────────── */
+function escribirEn(el, texto, ms){
+  el.textContent = "";
+  let i = 0;
+  const iv = setInterval(() => {
+    el.textContent = texto.slice(0, ++i);
+    if (i >= texto.length) clearInterval(iv);
+  }, ms);
+  timers.push(iv);
+  return iv;
+}
+
+/* ── escenas ─────────────────────────────────────────────────────────────────────────────── */
 function escenaLLM(s){
   const frase = s.querySelector("#llmFrase"), panel = s.querySelector("#llmPanel");
   if (!frase) return;
@@ -627,32 +895,38 @@ function escenaLLM(s){
     {e: "de", c: [["de", 81], ["Suprema", 9]]},
     {e: "Apelaciones", c: [["Apelaciones", 77], ["Justicia", 11]]},
     {e: "respectiva", c: [["respectiva", 46], ["que", 18]]},
-    {e: ".", c: [["fin de la frase", 93]]},
+    {e: ".", c: [[".", 93], [",", 5]]},
   ];
   let palabras = [...INICIO], i = 0;
   const pintar = (res) => {
     frase.innerHTML = palabras.map((p, k) =>
-      (k === palabras.length - 1 && res) ? `<span class="nueva">${p}</span>` : p).join(" ") +
+      (k === palabras.length - 1 && res) ? `<span class="nueva" style="color:var(--azul);font-weight:650">${p}</span>` : p).join(" ") +
       `<span class="cursor"></span>`;
   };
   const paso = () => {
     if (i >= PASOS.length) return;
     const p = PASOS[i];
-    panel.innerHTML = p.c.map(([w, v]) => `<div class="cand"><div class="w">${w}</div>
-      <div class="pct">${v} %</div><div class="b" data-v="${v}"></div></div>`).join("");
-    timers.push(setTimeout(() => {
+    panel.innerHTML = p.c.map(([w, v]) => `<div class="cand" style="border:1px solid var(--linea);border-radius:9px;padding:7px 9px;opacity:.35;transition:opacity .3s,border-color .3s">
+      <div style="font-size:12.4px;font-weight:650">${w === "." ? "fin de la frase" : "«" + w + "»"}</div>
+      <div style="font-size:10.4px;color:var(--gris);margin-top:2px">${v} %</div>
+      <div data-b="${v}" style="height:6px;border-radius:4px;background:var(--azul);opacity:.35;margin-top:6px;width:0;transition:width .5s"></div></div>`).join("");
+    T(() => {
       panel.querySelectorAll(".cand").forEach((el, k) => {
-        el.classList.toggle("on", k === 0);
-        el.querySelector(".b").style.width = p.c[k][1] + "%";
+        const ok = p.c[k][0] === p.e;
+        el.style.opacity = ok ? 1 : .35;
+        el.style.borderColor = ok ? "var(--azul)" : "var(--linea)";
+        const b = el.querySelector("[data-b]");
+        b.style.width = p.c[k][1] + "%";
+        b.style.opacity = ok ? 1 : .35;
       });
       palabras.push(p.e);
       pintar(true);
       i++;
-      timers.push(setTimeout(paso, 1150));
-    }, 560));
+      T(paso, 1100);
+    }, 540);
   };
   pintar(false);
-  timers.push(setTimeout(paso, 500));
+  T(paso, 450);
 }
 
 function escenaGrafo(s){
@@ -661,30 +935,26 @@ function escenaGrafo(s){
   const ctx = cv.getContext("2d");
   const W = 900, H = 620;
   const pasos = [...s.querySelectorAll("#gPasos li")];
-  let nodos = [], aristas = [];
+  const nodos = [], aristas = [];
   const rnd = (sem) => { let x = sem % 2147483647; return () => (x = x * 16807 % 2147483647) / 2147483647; };
   const r = rnd(7);
-  for (let i = 0; i < 84; i++) nodos.push({x: 60 + r() * 780, y: 50 + r() * 520, tipo: i % 9 === 0 ? "n" : (i % 13 === 0 ? "f" : "i"), t: 0});
+  for (let i = 0; i < 84; i++) nodos.push({x: 60 + r() * 780, y: 50 + r() * 520, tipo: i % 9 === 0 ? "n" : (i % 13 === 0 ? "f" : "i")});
   for (let i = 0; i < 70; i++){
     const a = nodos[(i * 7) % 84], b = nodos[(i * 13 + 5) % 84];
-    if (a !== b) aristas.push({a, b, t: 0});
+    if (a !== b) aristas.push({a, b});
   }
   const COL = {i: "#2E5D8A", n: "#1E7A5A", f: "#8F2F2F"};
   const comunidad = (y) => [0.15, 0.38, 0.62, 0.85][Math.floor(y / 155) % 4];
-  const etapas = [0, 1, 2, 3, 4, 5];
   const dibujar = (fase, prog) => {
     ctx.clearRect(0, 0, W, H);
-    if (fase >= 0){
-      nodos.slice(0, Math.round(nodos.length * (fase === 0 ? prog : 1))).forEach(n => {
-        if (fase === 0 && n.t > prog) return;
-        ctx.beginPath();
-        ctx.fillStyle = fase >= 4 ? ["#2E5D8A", "#1E7A5A", "#8F2F2F", "#A67C2E"][Math.floor(comunidad(n.y) * 4)] : COL[n.tipo];
-        ctx.globalAlpha = fase >= 2 ? .85 : .35;
-        ctx.arc(n.x, n.y, 4.6, 0, 6.283);
-        ctx.fill();
-        ctx.globalAlpha = 1;
-      });
-    }
+    if (fase >= 0) nodos.slice(0, Math.round(nodos.length * (fase === 0 ? prog : 1))).forEach(n => {
+      ctx.beginPath();
+      ctx.fillStyle = fase >= 4 ? ["#2E5D8A", "#1E7A5A", "#8F2F2F", "#A67C2E"][Math.floor(comunidad(n.y) * 4)] : COL[n.tipo];
+      ctx.globalAlpha = fase >= 2 ? .85 : .35;
+      ctx.arc(n.x, n.y, 4.6, 0, 6.283);
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    });
     if (fase >= 3) aristas.slice(0, Math.round(aristas.length * (fase === 3 ? prog : 1))).forEach(a => {
       ctx.beginPath();
       ctx.strokeStyle = "rgba(90,112,134,.5)";
@@ -692,13 +962,11 @@ function escenaGrafo(s){
       ctx.lineTo(a.a.x + (a.b.x - a.a.x) * (fase === 3 ? prog : 1), a.a.y + (a.b.y - a.a.y) * (fase === 3 ? prog : 1));
       ctx.stroke();
     });
-    if (fase >= 5){
-      for (let k = 0; k < 5; k++){
-        const nx = 120 + k * 165, ny = 90 + (k % 2) * 380;
-        ctx.beginPath(); ctx.fillStyle = "#A67C2E"; ctx.arc(nx, ny, 7, 0, 6.283); ctx.fill();
-        ctx.beginPath(); ctx.strokeStyle = "rgba(166,124,46,.7)";
-        ctx.moveTo(nx, ny); ctx.lineTo(nodos[k * 9].x, nodos[k * 9].y); ctx.stroke();
-      }
+    if (fase >= 5) for (let k = 0; k < 5; k++){
+      const nx = 120 + k * 165, ny = 90 + (k % 2) * 380;
+      ctx.beginPath(); ctx.fillStyle = "#A67C2E"; ctx.arc(nx, ny, 7, 0, 6.283); ctx.fill();
+      ctx.beginPath(); ctx.strokeStyle = "rgba(166,124,46,.7)";
+      ctx.moveTo(nx, ny); ctx.lineTo(nodos[k * 9].x, nodos[k * 9].y); ctx.stroke();
     }
   };
   let fase = -1;
@@ -713,18 +981,18 @@ function escenaGrafo(s){
       if (t < 1) requestAnimationFrame(paso);
     };
     requestAnimationFrame(paso);
-    timers.push(setTimeout(avanzar, fase === 0 ? 1100 : 1250));
+    T(avanzar, fase === 0 ? 1100 : 1250);
   };
+  pasos.forEach(li => { li.style.opacity = .3; li.style.transition = "opacity .5s"; });
   dibujar(-1, 0);
-  timers.push(setTimeout(avanzar, 700));
+  T(avanzar, 700);
 }
 
 function escenaMCP(s){
   const chips = s.querySelector("#mcpChips"), svg = s.querySelector("#mcpLineas");
   if (!chips) return;
   const N = ["BCN", "Contraloría", "DT", "Doctrina y guías", "Grafo"];
-  chips.innerHTML = N.map((t, k) => `<div class="tarjeta cc" style="opacity:0;transition:opacity .45s,transform .45s;transform:translateX(-6px);
-    padding:8px 13px;border-radius:10px"><b style="font-size:12.5px">${t}</b></div>`).join("");
+  chips.innerHTML = N.map(t => `<div style="opacity:0;transition:opacity .45s,transform .45s;transform:translateX(-6px);border:1px solid var(--linea);border-radius:10px;padding:8px 13px"><b style="font-size:12.5px">${t}</b></div>`).join("");
   svg.innerHTML = "";
   const H = chips.offsetHeight || 260;
   svg.setAttribute("height", String(H));
@@ -736,30 +1004,28 @@ function escenaMCP(s){
     svg.appendChild(l);
   });
   [...chips.children].forEach((c, k) => {
-    timers.push(setTimeout(() => { c.style.opacity = 1; c.style.transform = "none"; }, 500 + k * 230));
-    timers.push(setTimeout(() => {
+    T(() => { c.style.opacity = 1; c.style.transform = "none"; }, 450 + k * 220);
+    T(() => {
       const l = svg.children[k];
       l.style.transition = "all .45s";
       l.setAttribute("x2", "70");
       l.setAttribute("y2", String(Math.round(c.offsetTop + c.offsetHeight / 2)));
-    }, 680 + k * 230));
+    }, 640 + k * 220);
   });
 }
 
 function escenaFlujo(s){
   const pasos = [...s.querySelectorAll("#flujoPasos .paso")];
   const flechas = [...s.querySelectorAll("#flujoPasos .flecha")];
-  pasos.forEach((_, k) => timers.push(setTimeout(() => {
+  pasos.forEach((_, k) => T(() => {
     pasos.forEach((p, j) => p.classList.toggle("hoy", j <= k));
     flechas.forEach((f, j) => f.classList.toggle("hoy", j < k));
-  }, 650 + k * 950)));
+  }, 600 + k * 900));
 }
 
 function escenaCaso(s){
   const pasos = [...s.querySelectorAll("#casoPasos .paso")];
-  pasos.forEach((_, k) => timers.push(setTimeout(() => {
-    pasos.forEach((p, j) => p.classList.toggle("hoy", j <= k));
-  }, 600 + k * 1000)));
+  pasos.forEach((_, k) => T(() => pasos.forEach((p, j) => p.classList.toggle("hoy", j <= k)), 550 + k * 950));
 }
 
 function escenaCitas(s){
@@ -769,19 +1035,11 @@ function escenaCitas(s){
   const convFuentes = s.querySelector("#convFuentes");
   const pie = s.querySelector("#citaPie");
   if (!marca) return;
-  timers.push(setTimeout(() => { marca.textContent = " [1]"; marca.style.color = "var(--azul)"; marca.style.fontWeight = "700"; }, 900));
-  cf.forEach((p, k) => timers.push(setTimeout(() => { p.style.opacity = 1; }, 1500 + k * 500)));
-  timers.push(setTimeout(() => {
-    let i = 0;
-    const texto = "El reclamo por despido injustificado se presenta ante el Juzgado de Letras del Trabajo";
-    const iv = setInterval(() => {
-      convTexto.textContent = texto.slice(0, ++i);
-      if (i >= texto.length) clearInterval(iv);
-    }, 14);
-    timers.push(iv);
-  }, 2400));
-  timers.push(setTimeout(() => { convFuentes.style.opacity = 1; }, 4700));
-  timers.push(setTimeout(() => { if (pie) pie.textContent = "Cada dato se puede rastrear: afirmación → fuente citada → origen exacto (enlace, dictamen, archivo)."; }, 5600));
+  T(() => { marca.textContent = " [1]"; marca.style.color = "var(--azul)"; marca.style.fontWeight = "700"; }, 850);
+  cf.forEach((p, k) => T(() => { p.style.opacity = 1; }, 1450 + k * 480));
+  T(() => escribirEn(convTexto, "El reclamo por despido injustificado se presenta ante el Juzgado de Letras del Trabajo", 13), 2300);
+  T(() => { convFuentes.style.opacity = 1; }, 4600);
+  T(() => { if (pie) pie.textContent = "Cada dato se puede rastrear: afirmación → fuente citada → origen exacto (enlace, Rol, dictamen o archivo)."; }, 5500);
 }
 
 function escenaAhorro(s){
@@ -796,17 +1054,323 @@ function escenaAhorro(s){
     };
     requestAnimationFrame(paso);
   };
-  timers.push(setTimeout(() => animarNum(a, 113458, 1800), 400));
-  timers.push(setTimeout(() => animarNum(b, 123, 1800), 700));
+  T(() => animarNum(a, 113458, 1800), 350);
+  T(() => animarNum(b, 123, 1800), 650);
 }
 
-/* red de nodos (portada, secciones, cierre): elegante y lenta */
+function escenaPorQue(s){
+  const el = s.querySelector("#pqTexto");
+  if (!el) return;
+  T(() => escribirEn(el, "«¿y si la IA trabajara con las fuentes reales del derecho chileno — y lo mostrara?»", 24), 900);
+}
+
+function escenaParaQue(s){
+  const items = [...s.querySelectorAll(".chk")];
+  items.forEach(it => { it.style.opacity = .25; it.style.transition = "opacity .5s"; });
+  items.forEach((it, k) => T(() => { it.style.opacity = 1; }, 450 + k * 320));
+}
+
+function escenaPuente(s){
+  const punto = s.querySelector("#puentePunto");
+  if (!punto) return;
+  let x = 6, dir = 1;
+  const paso = () => {
+    x += dir * 3.2;
+    if (x > 234 || x < 6) dir *= -1;
+    punto.setAttribute("cx", String(x));
+    rafRed = requestAnimationFrame(paso);
+  };
+  paso();
+}
+
+function escenaRiesgo(s){
+  const l2 = s.querySelector("#riesgoLinea2");
+  const tach = s.querySelector("#riesgoTachado"), bueno = s.querySelector("#riesgoBueno");
+  if (!l2) return;
+  T(() => { l2.style.opacity = 1; }, 900);
+  T(() => { l2.style.textDecoration = "line-through"; l2.style.opacity = .45; tach.style.opacity = 1; }, 2100);
+  T(() => { bueno.style.opacity = 1; }, 3000);
+}
+
+function escenaAgente(s){
+  const chips = s.querySelector("#agenteChips"), fin = s.querySelector("#agenteFin");
+  if (!chips) return;
+  const N = ["leer carpeta (OCR)", "caso_analizar", "doctrina_search", "dt_search_doctrina"];
+  chips.innerHTML = "";
+  N.forEach((t, k) => {
+    const c = document.createElement("span");
+    c.className = "chip apagado";
+    c.textContent = t;
+    chips.appendChild(c);
+    T(() => c.classList.add("prende"), 500 + k * 420);
+  });
+  T(() => { fin.style.opacity = 1; }, 500 + N.length * 420);
+}
+
+function escenaSkill(s){
+  const items = [...s.querySelectorAll("#skillPasos li")];
+  items.forEach(it => { it.style.opacity = .3; it.style.transition = "opacity .45s"; });
+  items.forEach((it, k) => T(() => { it.style.opacity = 1; }, 450 + k * 480));
+}
+
+function escenaMiniGrafo(s){
+  const cv = s.querySelector("#cvEgo");
+  if (!cv) return;
+  const ctx = cv.getContext("2d");
+  const W = 640, H = 420;
+  const rnd = (sem) => { let x = sem % 2147483647; return () => (x = x * 16807 % 2147483647) / 2147483647; };
+  let intento = 0, t = 0;
+  const dibujar = (t) => {
+    ctx.clearRect(0, 0, W, H);
+    const r = rnd(11 + intento * 5);
+    const cx = W / 2, cy = H / 2 - 10;
+    const vecinos = [];
+    for (let i = 0; i < 16; i++){
+      const ang = (i / 16) * 6.283, d = 110 + r() * 60;
+      vecinos.push({x: cx + Math.cos(ang) * d, y: cy + Math.sin(ang) * d * .78, tono: i % 4});
+    }
+    vecinos.forEach((v, i) => {
+      const prog = Math.max(0, Math.min(1, (t - i * 4) / 22));
+      ctx.beginPath();
+      ctx.strokeStyle = `rgba(90,112,134,${0.5 * prog})`;
+      ctx.moveTo(cx, cy); ctx.lineTo(cx + (v.x - cx) * prog, cy + (v.y - cy) * prog);
+      ctx.stroke();
+    });
+    const pp = Math.max(0, Math.min(1, t / 20));
+    ctx.beginPath(); ctx.fillStyle = "#A67C2E"; ctx.arc(cx, cy, 9 * pp, 0, 6.283); ctx.fill();
+    vecinos.forEach((v, i) => {
+      const prog = Math.max(0, Math.min(1, (t - 12 - i * 4) / 22));
+      if (prog <= 0) return;
+      ctx.beginPath();
+      ctx.fillStyle = ["#2E5D8A", "#1E7A5A", "#8F2F2F", "#5A7086"][v.tono];
+      ctx.globalAlpha = .9 * prog;
+      ctx.arc(v.x, v.y, 4.4 * prog + 1, 0, 6.283);
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    });
+  };
+  const paso = () => {
+    t++;
+    dibujar(t);
+    if (t > 64) { intento++; t = 0; }
+    rafRed = requestAnimationFrame(paso);
+  };
+  paso();
+}
+
+function escenaConectores(s){
+  const chips = s.querySelector("#conChips");
+  const preg = s.querySelector("#conPregunta"), resp = s.querySelector("#conRespuesta");
+  if (!chips) return;
+  const NOMBRES = ["BCN", "CGR", "DT", "PJUD / Corte Suprema", "Tribunal Constitucional", "CNE", "Panel de Expertos", "CMF", "SII", "SMA"];
+  chips.innerHTML = NOMBRES.map((n, k) => `<span class="chip apagado" data-c="${k}">${n}</span>`).join("");
+  const pasos = [
+    [0, "¿qué dice el art. 1545 del Código Civil?", "✓ texto vigente + enlace a leychile.cl"],
+    [2, "¿dictámenes sobre el art. 161 tras la Ley Karin?", "✓ ORD. N.° 417/2025 · con enlace"],
+    [1, "¿informes sobre confianza legítima a contrata?", "✓ dictámenes + auditorías, con enlace"],
+    [9, "¿expedientes sancionatorios ambientales?", "✓ SNIFA: expedientes y PdC, con enlace"],
+  ];
+  const todos = [...chips.children];
+  pasos.forEach(([idx, q, a], k) => {
+    T(() => {
+      todos.forEach(c => c.classList.remove("prende"));
+      todos[idx].classList.add("prende");
+      resp.style.opacity = 0;
+      escribirEn(preg, q, 26);
+      T(() => { resp.textContent = a; resp.style.opacity = 1; }, q.length * 26 + 300);
+    }, 600 + k * 3400);
+  });
+}
+
+function escenaHerramientas(s){
+  const c = s.querySelector("#herConsola");
+  const fam = [...s.querySelectorAll("#herFamilias li")];
+  if (!c) return;
+  fam.forEach(li => { li.style.opacity = .3; li.style.transition = "opacity .45s"; });
+  fam.forEach((li, k) => T(() => { li.style.opacity = 1; }, 350 + k * 220));
+  const demos = [
+    ["¿plazo para reclamar por despido?", "dt_search_doctrina", "1 dictamen · ORD. N.° 417/2025 · con enlace"],
+    ["¿qué dice el art. 42 de la Ley 18.575?", "bcn_get_ley", "texto vigente + enlace a la fuente"],
+    ["analizá estos PDFs de la carpeta", "caso_analizar → OCR + caso_ejecutar", "plan de trabajo, paso a paso, con estado"],
+  ];
+  demos.forEach(([q, h, r], k) => {
+    T(() => {
+      c.innerHTML = "";
+      const d1 = document.createElement("div");
+      d1.innerHTML = `<span class="tu">»</span> `;
+      const sp = document.createElement("span");
+      d1.appendChild(sp);
+      c.appendChild(d1);
+      escribirEn(sp, q, 24);
+      T(() => {
+        const d2 = document.createElement("div");
+        d2.innerHTML = `<span style="opacity:.75">→ herramienta elegida: </span><b>${h}</b>`;
+        c.appendChild(d2);
+        const d3 = document.createElement("div");
+        d3.innerHTML = `<span class="ok">${r}</span>`;
+        c.appendChild(d3);
+      }, q.length * 24 + 350);
+    }, 900 + k * 3600);
+  });
+}
+
+function escenaAgentes(s){
+  const red = s.querySelector("#agRed");
+  const tarea = s.querySelector("#agTarea");
+  if (!red) return;
+  const AG = ["laboral", "litigios", "probidad", "inmobiliario", "forense", "regulatorio", "ambiental", "energia",
+              "corporativo", "contratos", "clínica", "examen de grado", "propiedad de datos", "investigación",
+              "expedientes", "dogmático", "ingestor", "vigilante", "mesa"];
+  red.innerHTML = AG.map(a => `<span class="chip apagado">${a}</span>`).join("");
+  const todos = [...red.children];
+  const EJEMPLOS = [
+    [0, "«calculá la indemnización del art. 168 y armá el reclamo»"],
+    [1, "«armá la estrategia y el escrito para esta carpeta civil»"],
+    [2, "«revisá estos contratos municipales por probidad»"],
+    [5, "«¿qué norma CMF aplica a este producto financiero?»"],
+    [10, "«traducí este proveído a lenguaje claro para la familia»"],
+    [11, "«tomame una interrogación de grado de obligaciones»"],
+  ];
+  EJEMPLOS.forEach(([idx, frase], k) => {
+    T(() => {
+      todos.forEach(c => c.classList.remove("prende"));
+      todos[idx].classList.add("prende");
+      tarea.textContent = frase;
+    }, 700 + k * 2600);
+  });
+  T(() => { todos.forEach(c => c.classList.add("prende")); tarea.textContent = "«y cualquiera de los 19, coordinando herramientas por sí solo»"; }, 700 + EJEMPLOS.length * 2600);
+}
+
+function escenaMesa(s){
+  const docs = s.querySelector("#mesaDocs"), dec = s.querySelector("#mesaDecision");
+  const chips = s.querySelector("#mesaChips"), falta = s.querySelector("#mesaFalta");
+  const plan = [...s.querySelectorAll("#mesaPlan li")];
+  if (!docs) return;
+  ["contrato.docx", "carta_despido.pdf", "correos.pdf", "certificado_afp.pdf"].forEach((d, k) => {
+    const sp = document.createElement("span");
+    sp.className = "chip apagado"; sp.textContent = d;
+    docs.appendChild(sp);
+    T(() => sp.classList.add("prende"), 450 + k * 320);
+  });
+  T(() => {
+    dec.style.opacity = 1;
+    chips.innerHTML = `<span class="chip">materia: <b>laboral</b> ✓</span>
+      <span class="chip">figura: <b>despido injustificado</b> ✓</span>
+      <span class="chip">fuero: ninguno detectado</span>`;
+    falta.textContent = "Falta: liquidaciones de sueldo y finiquito — el plan los pide antes de calcular.";
+  }, 2200);
+  plan.forEach(li => { li.style.opacity = .3; li.style.transition = "opacity .5s"; });
+  plan.forEach((li, k) => T(() => { li.style.opacity = 1; }, 3000 + k * 420));
+}
+
+function escenaDocumentos(s){
+  const word = s.querySelector("#docWord"), extras = s.querySelector("#docExtras"), fl = s.querySelector("#docFlecha");
+  if (!word) return;
+  T(() => { fl.style.transform = "translateY(4px)"; }, 900);
+  T(() => { word.style.opacity = 1; }, 1400);
+  T(() => {
+    extras.innerHTML = `<span class="chip">_Completo_con_Anexos.pdf · para presentar</span>
+      <span class="chip">carátula OJV · anexos foliados · TOC</span>`;
+    extras.querySelectorAll(".chip").forEach((c, k) => { c.style.opacity = 0; T(() => c.style.opacity = 1, k * 350); });
+  }, 2100);
+}
+
+function escenaDoctrina(s){
+  const q = s.querySelector("#docQuery"), hit = s.querySelector("#docHit"), ficha = s.querySelector("#docFicha");
+  if (!q) return;
+  T(() => escribirEn(q, "«falta de servicio del Estado»", 30), 500);
+  T(() => { hit.innerHTML = `<span style="opacity:.8">3 resultados · mejor: Bermúdez Soto, Derecho Administrativo</span>`;
+    hit.style.opacity = 1; }, 1500);
+  T(() => { ficha.style.opacity = 1; }, 2300);
+}
+
+function escenaGrafoHerramientas(s){
+  const cv = s.querySelector("#cvCamino");
+  if (!cv) return;
+  const ctx = cv.getContext("2d");
+  const W = 700, H = 340;
+  const rnd = (sem) => { let x = sem % 2147483647; return () => (x = x * 16807 % 2147483647) / 2147483647; };
+  const r = rnd(23);
+  const nodos = [];
+  for (let i = 0; i < 34; i++) nodos.push({x: 40 + r() * 620, y: 30 + r() * 280, t: i === 0 ? "ini" : (i === 33 ? "fin" : "")});
+  const camino = [nodos[0], nodos[7], nodos[18], nodos[26], nodos[33]];
+  const dibujar = (prog) => {
+    ctx.clearRect(0, 0, W, H);
+    nodos.forEach(n => {
+      ctx.beginPath();
+      ctx.fillStyle = n.t ? "#A67C2E" : "rgba(90,112,134,.45)";
+      ctx.arc(n.x, n.y, n.t ? 6 : 3.2, 0, 6.283);
+      ctx.fill();
+    });
+    ctx.beginPath();
+    ctx.strokeStyle = "#A67C2E";
+    ctx.lineWidth = 2.2;
+    const total = camino.length - 1;
+    const avance = prog * total;
+    ctx.moveTo(camino[0].x, camino[0].y);
+    for (let i = 1; i <= total; i++){
+      const seg = Math.min(1, Math.max(0, avance - (i - 1)));
+      const x = camino[i - 1].x + (camino[i].x - camino[i - 1].x) * seg;
+      const y = camino[i - 1].y + (camino[i].y - camino[i - 1].y) * seg;
+      ctx.lineTo(x, y);
+      if (seg < 1) break;
+    }
+    ctx.stroke();
+    ctx.lineWidth = 1;
+    ctx.fillStyle = "#3B4754";
+    ctx.font = "600 13px -apple-system, Segoe UI, Roboto, sans-serif";
+    ctx.fillText("despido injustificado", Math.max(8, nodos[0].x - 10), Math.max(18, nodos[0].y - 14));
+    ctx.fillText("tutela de derechos fundamentales", Math.max(8, nodos[33].x - 190), Math.min(H - 8, nodos[33].y + 26));
+  };
+  let t = 0;
+  const paso = () => {
+    t++;
+    dibujar(Math.min(1, t / 90));
+    if (t > 150) t = 0;
+    rafRed = requestAnimationFrame(paso);
+  };
+  paso();
+}
+
+function escenaEstudio(s){
+  const preg = s.querySelector("#grPregunta"), ev = s.querySelector("#grEval");
+  const claro1 = s.querySelector("#claro1"), claro2 = s.querySelector("#claro2");
+  const ds = ["ds1", "ds2", "ds3"].map(id => s.querySelector("#" + id));
+  if (!preg) return;
+  T(() => escribirEn(preg, "explique el efecto relativo de las sentencias (art. 3 CC)", 24), 500);
+  T(() => { ev.innerHTML = `<span class="ok">✓ respuesta evaluada · pauta: exactitud conceptual, fuente citada</span>`; ev.style.opacity = 1; }, 2600);
+  T(() => { claro1.style.opacity = 1; }, 1200);
+  T(() => { claro2.style.opacity = 1; }, 2100);
+  ds.forEach((c, k) => T(() => c.classList.add("prende"), 900 + k * 400));
+}
+
+function escenaCumplimiento(s){
+  const tl = s.querySelector("#cumTimeline");
+  const nombre = s.querySelector("#arcoNombre"), rut = s.querySelector("#arcoRut");
+  if (!tl) return;
+  const hitos = [
+    ["«Traslado» — proveído detectado", "plazo fatal: 5 días (art. 66 CPC)"],
+    ["«Autos para resolver» — sin plazo de las partes", "sólo queda esperar: nada que computar"],
+    ["«Téngase por contestada» — registrado", "se actualiza el estado del caso"],
+  ];
+  hitos.forEach(([t_, d_], k) => {
+    const div = document.createElement("div");
+    div.className = "chip apagado";
+    div.style.cssText = "display:flex;justify-content:space-between;gap:10px";
+    div.innerHTML = `<span>${t_}</span><b style="color:var(--bronce)">${d_}</b>`;
+    tl.appendChild(div);
+    T(() => div.classList.add("prende"), 600 + k * 900);
+  });
+  T(() => { nombre.style.opacity = .25; rut.style.opacity = .25; }, 3400);
+}
+
+/* red de nodos (portada, secciones, cierre) */
 function redDeNodos(s){
   const cv = s.querySelector("canvas.red");
   if (!cv) return;
   const ctx = cv.getContext("2d");
-  const ajustar = () => { cv.width = cv.clientWidth * devicePixelRatio; cv.height = cv.clientHeight * devicePixelRatio; };
-  ajustar();
+  cv.width = cv.clientWidth * devicePixelRatio;
+  cv.height = cv.clientHeight * devicePixelRatio;
   const rnd = (sem) => { let x = sem % 2147483647; return () => (x = x * 16807 % 2147483647) / 2147483647; };
   const r = rnd(31);
   const nodos = [];
@@ -844,7 +1408,7 @@ function redDeNodos(s){
   paso();
 }
 
-/* ── navegación ──────────────────────────────────────────────────────────── */
+/* ── navegación ──────────────────────────────────────────────────────────────────────────── */
 document.getElementById("sigue").addEventListener("click", () => ir(actual + 1));
 document.getElementById("antes").addEventListener("click", () => ir(actual - 1));
 window.addEventListener("keydown", (e) => {
@@ -859,7 +1423,7 @@ window.addEventListener("keydown", (e) => {
 });
 window.addEventListener("resize", () => {
   const s = slides[actual];
-  if (s) { const cv = s.querySelector("canvas.red"); if (cv){ cv.width = cv.clientWidth * devicePixelRatio; cv.height = cv.clientHeight * devicePixelRatio; } }
+  if (s){ const cv = s.querySelector("canvas.red"); if (cv){ cv.width = cv.clientWidth * devicePixelRatio; cv.height = cv.clientHeight * devicePixelRatio; } }
 });
 
 const inicial = parseInt((location.hash || "").replace("#", ""), 10);

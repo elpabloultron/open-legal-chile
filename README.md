@@ -7,14 +7,14 @@
 <p align="center">
   <a href="https://elpabloultron.github.io/open-legal-chile/"><img src="https://img.shields.io/badge/Web_Oficial-GitHub_Pages-gold?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web Oficial"/></a>
   <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
-  <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Biblioteca_MD-58_Obras_Can%C3%B3nicas-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Biblioteca_MD-248_Documentos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-167%2F167_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-255%2F255_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -26,7 +26,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (73 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-64-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (74 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-74-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -90,7 +90,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 63 Herramientas Forenses Registradas (v1.4.0 Suite Edition)                         │
+│   • 74 Herramientas Forenses Registradas (Suite Edition)                         │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
 │   • Generador Estandarizado de Recursos de Protección OJV (recurso_proteccion.py)       │
 │   • Knowledge Graph Jurídico y Ahorro de Tokens (legal_graphify.py)                     │
@@ -126,7 +126,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 
 > [!TIP]
 > **¿Deseas instalar Open Legal Chile como Plugin en 1-Click o 1-Comando?**  
-> Consulta la guía detallada en [**`PLUGINS.md`**](file:///home/pablo/Escritorio/Ultimaprensa/open-legal-chile/PLUGINS.md) para Claude Code, Cursor, VS Code, Windsurf y Smithery.ai.
+> Consulta la guía detallada en [**`PLUGINS.md`**](PLUGINS.md) para Claude Code, Cursor, VS Code, Windsurf y Smithery.ai.
 
 ### Opción A: Como Plugin Nativo en Claude Code (1-Comando)
 ```bash
@@ -159,7 +159,7 @@ npx -y smithery mcp add pablobenavidesjorquera/open-legal-chile
 pip install openlegal-chile
 ```
 
-El paquete **incluye el corpus doctrinal** (58 obras canónicas en Markdown) y **el grafo de
+El paquete **incluye el corpus doctrinal** (248 documentos chilenos en Markdown: doctrina, apuntes, materiales docentes y guías de la Academia Judicial) y **el grafo de
 conocimiento ya construido**, así que `graphify_*` y `doctrina_search` funcionan sin clonar
 nada más. El índice FTS5 de doctrina se construye solo en la primera búsqueda (unos segundos).
 Si instalas solo los módulos (por ejemplo copiando archivos sueltos), el motor lo dirá en vez de
@@ -364,9 +364,9 @@ El servidor MCP expone **74 herramientas oficiales** categorizadas funcionalment
 ### U. Ecosistema de Agentes Jurídicos Autónomos
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
-| `agent_list` | *(ninguno)* | Lista los 18 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades operativas. |
+| `agent_list` | *(ninguno)* | Lista los 19 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades operativas. |
 | `agent_run` | `agent_name` *(str)*, `task` *(str)*, `context` *(dict, opc)*, `provider` *(str, opc)* | Ejecuta un agente jurídico chileno autónomo en modo determinista soberano (100 % offline, cero API keys) o asistido por LLM multi-proveedor (Ollama, DeepSeek, Claude, Gemini, OpenAI). Ejecuta tareas de litigación, análisis de títulos CBR, probidad CGR, subsunción dogmática o auditoría forense con auto-crítica en 5 dimensiones procesales. |
-| `agent_export_subagents` | `target_dir` *(str, opc)*, `format` *(str, opc)* | Exporta los 18 perfiles de agentes jurídicos como subagentes configurados (.json o .md) para su adopción inmediata en entornos de desarrollo agentic como Claude Code (`.claude/subagents`) o Google Antigravity. |
+| `agent_export_subagents` | `target_dir` *(str, opc)*, `format` *(str, opc)* | Exporta los 19 perfiles de agentes jurídicos como subagentes configurados (.json o .md) para su adopción inmediata en entornos de desarrollo agentic como Claude Code (`.claude/subagents`) o Google Antigravity. |
 
 ---
 
@@ -431,7 +431,7 @@ Open Legal Chile cuenta con una base dogmática de tratados canónicos indexados
 * **Derecho Penal (Parte General):** Enrique Cury Urzúa
 * **Derecho del Trabajo y Relaciones Laborales:** Sergio Gamonal Contreras
 * **Derecho Constitucional y Acciones:** José Luis Cea Egaña
-* **Buenas Prácticas Judiciales y Formación:** Academia Judicial de Chile (15 Guías Oficiales)
+* **Buenas Prácticas Judiciales y Formación:** Academia Judicial de Chile (21 Guías Oficiales)
 
 ### 🏛️ Los 7 Pilares de la Dimensión Procesal Forense
 Cada institución doctrinal no solo define el instituto, sino que detalla su aplicación práctica en tribunales:
@@ -514,7 +514,7 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 
 ## 🧠 8. Catálogo de Skills y Subagentes (19 Especialidades)
 
-El directorio `agents/` incluye **18 perfiles de especialidad jurídica** adaptados al sistema continental chileno (importados y des-anglosajonizados de *claude-for-legal*):
+El directorio `agents/` incluye **19 perfiles de especialidad jurídica** adaptados al sistema continental chileno (importados y des-anglosajonizados de *claude-for-legal*):
 
 1. **`chilean-employment-legal`** (`agente-laboral`): Despidos (Art. 161/160 CT), Ley Karin (21.643), 40 Horas (21.561), finiquitos y doctrina DT.
 2. **`chilean-litigation-legal`** (`agente-litigios`): Demandas OJV Ley N° 20.886, recursos de protección estandarizados (Acta N.° 94-2015), cronología de hechos, recursos procesales y medidas precautorias.
@@ -552,7 +552,7 @@ Open Legal Chile incluye una potente interfaz de línea de comandos accesible me
 # Menú interactivo de la consola (opciones [0] a [18])
 openlegal
 
-# Listar agentes jurídicos autónomos disponibles (18 perfiles)
+# Listar agentes jurídicos autónomos disponibles (19 perfiles)
 openlegal agent list
 
 # Ejecutar un agente en modo determinista soberano (100 % local)
@@ -566,7 +566,7 @@ openlegal agent chat dogmatico
 # Exportar perfiles de subagentes para Google Antigravity o Claude Code
 openlegal agent export --format antigravity
 
-# Servidor MCP estándar para agentes de IA (64 herramientas)
+# Servidor MCP estándar para agentes de IA (74 herramientas)
 openlegal mcp
 
 # Chat jurídico interactivo con RAG soberano chileno
@@ -640,7 +640,7 @@ openlegal audit
 | **6. Linter & PEP** | `astral-sh/ruff` | **100% de reglas de arquitectura y estilo aprobadas** |
 | **7. Anti-Sobreingeniería**| `Ponytail` & `vulture`| **Filosofía Ponytail: Cero código muerto (*Lean already. Ship*)** |
 | **8. Mantenibilidad** | `rubik/radon` | **Rango A en lógica sustantiva y conectores** |
-| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **167/167 pruebas unitarias superadas satisfactoriamente** |
+| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **255/255 pruebas unitarias superadas satisfactoriamente** |
 
 Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
@@ -650,7 +650,7 @@ Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
 ```bash
 python3 -m pytest tests/ -v
-# ============================== 167 passed ==============================
+# ============================== 255 passed ==============================
 ```
 
 > Las pruebas tardan entre 15 y 60 segundos según la red: varias consultan en vivo portales del
@@ -686,6 +686,19 @@ Las contribuciones académicas y técnicas de estudiantes, docentes y abogados s
 <p align="center">
   <em>Desarrollado con vocación pública y rigor dogmático para la comunidad jurídica de la República de Chile.</em>
 </p>
+
+## 🎤 Material de la charla (de lo básico a lo más complejo)
+
+En [`docs/charla/`](docs/charla/) vive el material para explicar el sistema — desde qué es un LLM
+hasta la mesa de entrada, con la prueba en vivo:
+
+* **[`docs/charla/presentacion.html`](docs/charla/presentacion.html)** — la presentación completa en un
+  solo archivo: **32 láminas, todas animadas**, minimalista y sin dependencias externas
+  (`←` `→` para navegar, `F` para pantalla completa; cada lámina se re-anima al entrar).
+* [`docs/charla/Open_Legal_Chile_como_funciona.pptx`](docs/charla/Open_Legal_Chile_como_funciona.pptx)
+  — la misma historia en PowerPoint, con los videos de las animaciones incrustados.
+* [`docs/charla/README.md`](docs/charla/README.md) — qué contiene cada pieza y cómo se graba,
+  se reconstruye y se verifica (Playwright mide desbordes y errores de consola).
 
 ## Citas y formato de entrega
 
