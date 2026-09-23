@@ -26,6 +26,16 @@ Tags:
 - `yagni:` abstraction with one implementation, config nobody sets, layer with one caller.
 - `shrink:` same logic, fewer lines. Show the shorter form.
 
+## 📎 Citas a pie de página
+
+**Toda respuesta que use una fuente la cita a pie de página**, venga de donde venga: conectores del
+Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de la Academia
+Judicial o el corpus publicado en Hugging Face. Sin fuente identificable se dice «sin fuente
+verificable» en vez de afirmar sin respaldo.
+
+Formato: `[Fuente - Identificador]` y el enlace cuando exista. Un dato con varias fuentes se cita
+con todas.
+
 ## Examples
 
 ❌ "This EmailValidator class might be more complex than necessary, have you

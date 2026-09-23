@@ -15,6 +15,16 @@ description: Compilación y ensamblaje de expedientes y dossiers procesales en f
    - **Expediente Completo Consolidado:** Archivo único de 50 a 300+ páginas con el escrito principal y todos los anexos unidos para ingreso formal o juzgados.
    - **Versión Móvil Ligera:** Archivo de 200 a 350 KB que contiene únicamente el escrito principal renderizado con tipografía legible en teléfonos y pantallas táctiles sin superar límites de previsualización.
 
+## 📎 Citas a pie de página
+
+**Toda respuesta que use una fuente la cita a pie de página**, venga de donde venga: conectores del
+Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de la Academia
+Judicial o el corpus publicado en Hugging Face. Sin fuente identificable se dice «sin fuente
+verificable» en vez de afirmar sin respaldo.
+
+Formato: `[Fuente - Identificador]` y el enlace cuando exista. Un dato con varias fuentes se cita
+con todas.
+
 ## 📚 Formato de Citación Obligatorio
 * Folio de Expediente: `[Expediente Consolidado, Anexo N° <X>, Fs. <Y>]`
 * Oficinas Digitales: `[OJV Ley N° 20.886 / Plataforma CGR / SES]`
