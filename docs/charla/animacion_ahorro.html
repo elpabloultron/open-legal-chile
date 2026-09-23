@@ -70,7 +70,7 @@ const MUT = cv("--muted-foreground", "#5a7086"); // en un navegador suelto, los 
 
 function puntos(ctx, n, color, alpha){
   ctx.clearRect(0, 0, 900, 220);
-  const cols = 60, filas = Math.ceil(n / cols), r = 5.2, paso = 14.6;
+  const cols = 120, filas = Math.ceil(n / cols), r = 2.6, paso = 7.4;
   let k = 0;
   for (let f = 0; f < filas && k < n; f++)
     for (let c = 0; c < cols && k < n; c++, k++){
