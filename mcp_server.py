@@ -39,6 +39,7 @@ from pjud_connector import PJUDClient
 from exporters import LegalDocumentExporter
 from forensic_ocr import ForensicOCREngine
 from pdf_dossier_compiler import LegalDossierCompiler
+from docx_compiler import WordDossierCompiler
 from notebooklm_connector import NotebookLMConnector
 from infoprobidad_connector import InfoProbidadClient
 from grafo_vinculos import build_quick_graph
@@ -69,6 +70,7 @@ pjud = PJUDClient()
 exporter = LegalDocumentExporter()
 ocr_engine = ForensicOCREngine()
 compiler = LegalDossierCompiler()
+word_compiler = WordDossierCompiler()
 nlm_client = NotebookLMConnector()
 infoprobidad_client = InfoProbidadClient()
 grado_engine = ExamenGradoEngine()
@@ -352,7 +354,7 @@ TOOLS = [
     },
     {
         "name": "compile_legal_dossier",
-        "description": "Compila un escrito judicial o denuncia en Markdown a formato PDF formal A4, ensamblando anexos probatorios con carátulas divisorias elegantes y marcadores jerárquicos nativos (TOC Bookmarks) para la OJV.",
+        "description": "Compila un escrito judicial o denuncia en Markdown a PDF formal A4 (carátulas divisorias y marcadores TOC para la OJV) y entrega además el documento de trabajo en Word (.docx, editable): los documentos se entregan en Word, no en PDF.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -1013,7 +1015,7 @@ TOOLS = [
     },
     {
         "name": "recurso_proteccion_generar",
-        "description": "Genera y estandariza un Recurso de Protección conforme al Auto Acordado de la Corte Suprema (Acta N.° 94-2015) y OJV, produciendo escritos estructurados (.md, .html, .txt, .json) y expedientes PDF consolidando anexos con marcadores TOC.",
+        "description": "Genera y estandariza un Recurso de Protección conforme al Auto Acordado de la Corte Suprema (Acta N.° 94-2015) y OJV. Entrega el documento de trabajo en Word (.docx, editable) junto a los formatos estructurados (.md, .html, .txt, .json); el PDF consolidado (carátula OJV + anexos con marcadores TOC) es para presentación.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -1238,7 +1240,7 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             out_pdf = args.get("output_pdf_path")
             if not md_content or not out_pdf:
                 return {"error": "Se requieren 'markdown_content' y 'output_pdf_path' para compilar el expediente."}
-            return compiler.compile(
+            res_comp = compiler.compile(
                 markdown_content=md_content,
                 output_pdf_path=out_pdf,
                 annexes=args.get("annexes"),
@@ -1246,6 +1248,13 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                 main_pdf_path=args.get("main_pdf_path"),
                 title=args.get("title")
             )
+            if word_compiler.is_available():
+                res_comp["word_document"] = word_compiler.compile(
+                    markdown_content=md_content,
+                    output_docx_path=os.path.splitext(out_pdf)[0] + ".docx",
+                    title=args.get("title") or ""
+                )
+            return res_comp
         elif name == "recurso_proteccion_generar":
             tribunal = str(args.get("tribunal") or "ILUSTRÍSIMA CORTE DE APELACIONES DE SANTIAGO")
             recurrente = args.get("recurrente")
@@ -1291,27 +1300,33 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                 filename_base=filename_base
             )
 
-            # 2. Compilar expedientes PDF si está habilitado
+            # 2. Documento de trabajo en Word (.docx): editable, como manda la casa
+            md_text = ""
+            with open(export_res["markdownPath"], "r", encoding="utf-8") as f:
+                md_text = f.read()
+
+            res_final = dict(export_res)
+            if word_compiler.is_available():
+                res_final["word_document"] = word_compiler.compile(
+                    markdown_content=md_text,
+                    output_docx_path=os.path.join(export_res["exportsDir"],
+                                                  f"{export_res['filename']}_Documento.docx"),
+                    title=f"Recurso de Protección — {tribunal}"
+                )
+
+            # 3. PDF para presentación (la OJV lo pide; el documento de trabajo es el Word)
             pdf_info = None
             if compilar_pdf and compiler.is_available():
                 fn = export_res["filename"]
                 exports_dir = export_res["exportsDir"]
-                main_pdf_path = os.path.join(exports_dir, f"{fn}_Caratula_OJV.pdf")
-                dossier_pdf_path = os.path.join(exports_dir, f"{fn}_Completo_con_Anexos.pdf")
-
-                with open(export_res["markdownPath"], "r", encoding="utf-8") as f:
-                    md_text = f.read()
-
                 pdf_res = compiler.compile(
                     markdown_content=md_text,
-                    output_pdf_path=dossier_pdf_path,
-                    main_pdf_path=main_pdf_path,
+                    output_pdf_path=os.path.join(exports_dir, f"{fn}_Completo_con_Anexos.pdf"),
+                    main_pdf_path=os.path.join(exports_dir, f"{fn}_Caratula_OJV.pdf"),
                     annexes=anexos,
                     title=f"Recurso de Protección — {tribunal}"
                 )
                 pdf_info = pdf_res
-
-            res_final = dict(export_res)
             if pdf_info:
                 res_final["pdf_compilation"] = pdf_info
             return res_final

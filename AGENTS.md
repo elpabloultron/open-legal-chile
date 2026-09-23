@@ -22,15 +22,16 @@ Always attribute and cite sources using the official brackets:
 * **Environmental Sanctions:** `[SMA - Expediente SNIFA <Número>]`
 * **CGR Audit Reports:** `[CGR - Informe Final N° 123/2024]`
 
-### 2 bis. Citas: en los documentos, a pie de página
+### 2 bis. Citas y formato de entrega
 
-La forma de citar depende de **qué se entrega**:
+Depende de **qué se entrega**:
 
-- **Documentos** — informe en derecho, análisis, memorándum, escrito, minuta, dossier: las citas van
-  **a pie de página**, numeradas, con **fuente · identificador · enlace**. Un informe en derecho se
-  lee como un documento jurídico, y así se cita.
-- **Conversación** — una respuesta en el chat: la fuente se cita **en el texto**, con el estándar de
-  §2. No hace falta el pie de página, pero tampoco se afirma sin fuente.
+- **Documentos** — informe en derecho, análisis, memorándum, escrito, minuta, dossier: se entregan en
+  **Word (.docx), no en PDF**, para que se puedan modificar. Las citas van **a pie de página**,
+  numeradas, con **fuente · identificador · enlace**. Un informe en derecho se lee como un documento
+  jurídico, y así se cita.
+- **Conversación** — una respuesta en el chat: la respuesta va **primero**, y las citas van después
+  del texto, **al final** de todo.
 
 En los dos casos: si no hay fuente identificable se dice **«sin fuente verificable»**; un dato que
 viene de varias fuentes se cita con todas, no con la más cómoda; y todo resultado de las herramientas
@@ -38,6 +39,12 @@ debe poder rastrearse hasta su origen (`filepath`, `url`, `Rol`, `N° de dictame
 
 Formato del pie de página en un documento:
 
+```
+---
+Fuentes:
+1. [BCN - Código del Trabajo, Art. 161] https://www.bcn.cl/leychile/...
+2. [Academia Judicial — Guía para la conducción de la audiencia preparatoria laboral] guias.academiajudicial.cl/...
+3. [Doctrina — Barros Bourie, Tratado de Responsabilidad Extracontractiva] corpus: doctrina/civil/...
 ```
 ---
 Fuentes:

@@ -216,7 +216,7 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (73 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (74 Herramientas Oficiales)
 
 El servidor MCP expone **74 herramientas oficiales** categorizadas funcionalmente:
 
@@ -687,17 +687,16 @@ Las contribuciones académicas y técnicas de estudiantes, docentes y abogados s
   <em>Desarrollado con vocación pública y rigor dogmático para la comunidad jurídica de la República de Chile.</em>
 </p>
 
-## Citas
+## Citas y formato de entrega
 
-La forma de citar depende de **qué se entrega**:
+- **Documentos** — informe en derecho, análisis, memorándum, escrito, minuta, dossier: se entregan en
+  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
+  numeradas, con fuente · identificador · enlace.
+- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
 
-- **Documentos** — informe en derecho, análisis, memorándum, escrito, minuta, dossier: las citas van
-  **a pie de página**, numeradas, con fuente · identificador · enlace.
-- **Conversación**: la fuente se cita en el texto.
-
-Venga de donde venga —conectores del Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD), doctrina indexada,
-guías de la Academia Judicial o el corpus de Hugging Face—. Si no hay fuente identificable se dice
-«sin fuente verificable», y un dato con varias fuentes se cita con todas.
+Venga la fuente de donde venga —conectores del Estado (BCN, CGR, DT, SII, CMF, SMA, PJUD), doctrina
+indexada, guías de la Academia Judicial o el corpus de Hugging Face—. Si no hay fuente identificable
+se dice «sin fuente verificable», y un dato con varias fuentes se cita con todas.
 
 ```
 ---
@@ -706,4 +705,3 @@ Fuentes:
 2. [Academia Judicial — Guía para la conducción de la audiencia preparatoria laboral]
 3. [Doctrina — Barros Bourie] doctrina/civil/...
 ```
-

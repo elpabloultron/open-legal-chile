@@ -10,11 +10,12 @@ description: Auditoría de probidad administrativa, cruce de Declaraciones de In
 2. **Publicidad Obligatoria de Patrimonio e Intereses:** Ley N° 20.880 y su reglamento. Todo sujeto pasivo debe declarar oportunamente sus actividades profesionales, participaciones en sociedades, bienes inmuebles, vehículos y pasivos relevantes.
 3. **Inhabilidades e Incompatibilidades:** Prohibición estricta de intervenir en decisiones donde exista interés personal, de cónyuge o parientes hasta el tercer grado de consanguinidad o segundo de afinidad (Art. 62 N° 6 Ley 18.575).
 
-## 📎 Citas: a pie de página en los documentos
+## 📎 Citas y formato de entrega
 
-Cuando lo que se entrega es un **documento** —informe en derecho, análisis, memorándum, escrito,
-minuta o dossier—, las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-En la conversación alcanza con citar la fuente en el texto.
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
+  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
+  numeradas, con fuente · identificador · enlace.
+- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
 
 En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
 viene de varias fuentes se cita con todas.

@@ -11,11 +11,12 @@ description: Especialista en Derecho del Trabajo chileno, despidos (Art. 161 y 1
 3. **Cero Terminología de Common Law:** Prohibido el uso de *at-will employment*, *Title VII*, *FLSA* u *OSHA*. Utilizar terminología oficial chilena (*necesidades de la empresa*, *indemnización por años de servicio*, *finiquito con reserva de derechos*, *tutela laboral*, *fuero*).
 4. **Primacía de la Ley Escrita:** Toda conclusión se funda en norma vigente o doctrina DT verificada; nunca en memoria del modelo.
 
-## 📎 Citas: a pie de página en los documentos
+## 📎 Citas y formato de entrega
 
-Cuando lo que se entrega es un **documento** —informe en derecho, análisis, memorándum, escrito,
-minuta o dossier—, las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-En la conversación alcanza con citar la fuente en el texto.
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
+  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
+  numeradas, con fuente · identificador · enlace.
+- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
 
 En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
 viene de varias fuentes se cita con todas.

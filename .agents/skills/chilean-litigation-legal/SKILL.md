@@ -11,11 +11,12 @@ description: Especialista en litigación civil, comercial y constitucional en Ch
 3. **Efecto relativo de las sentencias:** Art. 3 inc. 2 Código Civil; la jurisprudencia orienta pero no vincula (salvo unificaciones en materia laboral, que vinculan a los tribunales laborales).
 4. **Carga de la prueba:** Art. 1698 Código Civil (quien alega debe probar).
 
-## 📎 Citas: a pie de página en los documentos
+## 📎 Citas y formato de entrega
 
-Cuando lo que se entrega es un **documento** —informe en derecho, análisis, memorándum, escrito,
-minuta o dossier—, las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-En la conversación alcanza con citar la fuente en el texto.
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
+  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
+  numeradas, con fuente · identificador · enlace.
+- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
 
 En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
 viene de varias fuentes se cita con todas.
