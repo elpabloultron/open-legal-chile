@@ -382,5 +382,65 @@
     "category": "Doctrina & Graphify",
     "description": "Convierte documentos (PDF, DOCX, TXT, MD) a Markdown canónico token-optimizado (RAE/ASALE y BCN/CS) y sincroniza de inmediato el Knowledge Graph y SQLite FTS5.",
     "full_description": "Convierte documentos (PDF, DOCX, TXT, MD) a Markdown canónico token-optimizado de alta densidad dogmática conforme a las normas RAE/ASALE y citas oficiales BCN/CS, actualizando automáticamente en caliente el Knowledge Graph multidimensional (legal_knowledge_graph.json) y el índice SQLite FTS5 de doctrina (doctrina.db)."
+  },
+  {
+    "name": "grafo_ver_corpus",
+    "category": "Doctrina & Graphify",
+    "description": "Abre una vista HTML interactiva del grafo de conocimiento del corpus completo (11.640 nodos) para explorarlo en el navegador.",
+    "full_description": "Genera una página autónoma con el grafo del corpus (11.640 nodos · 22.170 aristas) y sus comunidades: se abre en el navegador, sin servidor."
+  },
+  {
+    "name": "grafo_ver_caso",
+    "category": "Doctrina & Graphify",
+    "description": "Dibuja el grafo de un caso o carpeta concreta: entidades, normas y vínculos detectados en el expediente.",
+    "full_description": "Dibuja el grafo de un caso o carpeta concreta — partes, documentos, normas y vínculos — como página interactiva para revisar el expediente de un vistazo."
+  },
+  {
+    "name": "caso_analizar",
+    "category": "Agentes & IA Jurídica",
+    "description": "Mesa de entrada: analiza una carpeta o consulta, decide la materia por código y propone el plan de trabajo.",
+    "full_description": "Mesa de entrada: analiza una carpeta de expediente o una consulta, decide la materia y la figura por código (no por modelo), lista lo que falta y propone el plan de trabajo con las fuentes a consultar."
+  },
+  {
+    "name": "caso_ejecutar",
+    "category": "Agentes & IA Jurídica",
+    "description": "Ejecuta el plan de caso_analizar: consulta los servicios del Estado, cruza doctrina y grafo, y devuelve el expediente documentado.",
+    "full_description": "Ejecuta el plan de caso_analizar: consulta BCN, PJUD, CGR, DT, SII, CMF y SMA, cruza doctrina y grafo, y devuelve el expediente documentado con sus citas."
+  },
+  {
+    "name": "sii_oficios_por_anio",
+    "category": "Regulatorio & Fiscal",
+    "description": "Lista la jurisprudencia administrativa del SII (oficios y pronunciamientos) de un año, por serie y capítulo.",
+    "full_description": "Lista la jurisprudencia administrativa del SII (oficios y pronunciamientos del Director) de un año, organizada por serie y capítulo, con enlaces oficiales."
+  },
+  {
+    "name": "sii_descargar_oficio",
+    "category": "Regulatorio & Fiscal",
+    "description": "Descarga el PDF de un oficio del SII identificándolo por número y fecha.",
+    "full_description": "Descarga el PDF de un oficio de la jurisprudencia administrativa del SII identificándolo por su número y su fecha."
+  },
+  {
+    "name": "sii_actos_regionales",
+    "category": "Regulatorio & Fiscal",
+    "description": "Lista o busca los actos y resoluciones de las direcciones regionales del SII publicados por año.",
+    "full_description": "Lista o busca los actos y resoluciones que las direcciones regionales y unidades del SII publican por año, con su enlace oficial."
+  },
+  {
+    "name": "sii_convenios_internacionales",
+    "category": "Regulatorio & Fiscal",
+    "description": "Consulta los convenios tributarios internacionales del SII (doble imposición, intercambio de información).",
+    "full_description": "Consulta los convenios tributarios internacionales del SII: doble tributación, intercambio de información y tratados vigentes."
+  },
+  {
+    "name": "sii_jurisprudencia_judicial",
+    "category": "Regulatorio & Fiscal",
+    "description": "Busca sentencias de la jurisprudencia judicial del SII (Tribunales Tributarios y Aduaneros, Cortes).",
+    "full_description": "Busca sentencias de la jurisprudencia judicial del SII: Tribunales Tributarios y Aduaneros, Cortes de Apelaciones y Corte Suprema."
+  },
+  {
+    "name": "graphify_resumen_comunidades",
+    "category": "Doctrina & Graphify",
+    "description": "Panorama del corpus en ~644 tokens: comunidades detectadas (Leiden), sus temas y nodos centrales.",
+    "full_description": "Resume el corpus completo en ~644 tokens: detecta comunidades con Leiden (46 comunidades, modularidad 0,607) y describe los temas y nodos centrales de cada una."
   }
 ]

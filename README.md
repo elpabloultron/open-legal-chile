@@ -283,7 +283,7 @@ El servidor MCP expone **74 herramientas oficiales** categorizadas funcionalment
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
 | `ocr_extract_pdf` | `pdf_path`, `start_page`, `end_page`, `force_ocr`, `dpi`, `lang` | Extrae texto nativo o ejecuta OCR pericial (Tesseract) sobre expedientes judiciales escaneados y escrituras públicas notariales. |
-| `compile_legal_dossier` | `markdown_content`, `output_pdf_path`, `annexes` | Compila escritos judiciales en formato PDF A4 institucional, ensambla anexos documentales foliados y genera versión optimizada. |
+| `compile_legal_dossier` | `markdown_content`, `output_pdf_path`, `annexes` | Compila escritos judiciales en formato PDF A4 institucional, ensambla anexos documentales foliados y genera versión optimizada. Genera además el documento de trabajo en Word (.docx) editable. |
 | `export_brief_ojv` | `titulo`, `tribunal`, `comparecencia`, `hechos`, `derecho`, `peticiones`, `otrosies` | Genera y formatea un escrito judicial formal para la Oficina Judicial Virtual (OJV) en `.html`, `.md`, `.txt` y `.json`. |
 
 ### J. Privacidad (ARCO) y Propiedad Industrial (INAPI)
@@ -359,7 +359,7 @@ El servidor MCP expone **74 herramientas oficiales** categorizadas funcionalment
 ### T. Recursos Constitucionales y Estandarización OJV
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
-| `recurso_proteccion_generar` | `recurrente` *(dict)*, `recurrido` *(dict)*, `corte` *(str)*, `acto_u_omision` *(str)*, `garantias_afectadas` *(list)*, `petitorio` *(str)*, `oni` *(dict, opc)*, `anexos` *(list, opc)* | Genera y compila Recursos de Protección y expedientes judiciales OJV formalmente estandarizados conforme al Auto Acordado de la Excma. Corte Suprema (Acta N.° 94-2015), computando el plazo fatal de 30 días corridos, presuma anti-colapso, garantías del Art. 19 CPR, estatutos especiales (Leyes 21.430, 21.545, 19.712, Arts. 175-176 CPP), Orden de No Innovar (ONI) copulativa y compilación PDF con marcadores nativos TOC. |
+| `recurso_proteccion_generar` | `recurrente` *(dict)*, `recurrido` *(dict)*, `corte` *(str)*, `acto_u_omision` *(str)*, `garantias_afectadas` *(list)*, `petitorio` *(str)*, `oni` *(dict, opc)*, `anexos` *(list, opc)* | Genera y compila Recursos de Protección y expedientes judiciales OJV formalmente estandarizados conforme al Auto Acordado de la Excma. Corte Suprema (Acta N.° 94-2015), computando el plazo fatal de 30 días corridos, presuma anti-colapso, garantías del Art. 19 CPR, estatutos especiales (Leyes 21.430, 21.545, 19.712, Arts. 175-176 CPP), Orden de No Innovar (ONI) copulativa y compilación PDF con marcadores nativos TOC. Genera además el documento de trabajo en Word (.docx) editable. |
 
 ### U. Ecosistema de Agentes Jurídicos Autónomos
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -686,19 +686,6 @@ Las contribuciones académicas y técnicas de estudiantes, docentes y abogados s
 <p align="center">
   <em>Desarrollado con vocación pública y rigor dogmático para la comunidad jurídica de la República de Chile.</em>
 </p>
-
-## 🎤 Material de la charla (de lo básico a lo más complejo)
-
-En [`docs/charla/`](docs/charla/) vive el material para explicar el sistema — desde qué es un LLM
-hasta la mesa de entrada, con la prueba en vivo:
-
-* **[`docs/charla/presentacion.html`](docs/charla/presentacion.html)** — la presentación completa en un
-  solo archivo: **32 láminas, todas animadas**, minimalista y sin dependencias externas
-  (`←` `→` para navegar, `F` para pantalla completa; cada lámina se re-anima al entrar).
-* [`docs/charla/Open_Legal_Chile_como_funciona.pptx`](docs/charla/Open_Legal_Chile_como_funciona.pptx)
-  — la misma historia en PowerPoint, con los videos de las animaciones incrustados.
-* [`docs/charla/README.md`](docs/charla/README.md) — qué contiene cada pieza y cómo se graba,
-  se reconstruye y se verifica (Playwright mide desbordes y errores de consola).
 
 ## Citas y formato de entrega
 
