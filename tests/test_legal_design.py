@@ -249,3 +249,13 @@ def test_el_lock_de_skills_corresponde_a_los_archivos():
             desactualizadas.append(f"{nombre}: lock={entrada['sha256'][:12]}… archivo={real[:12]}…")
 
     assert not desactualizadas, "\n".join(desactualizadas)
+
+
+def test_la_regla_de_citas_al_pie_esta_declarada():
+    """AGENTS.md §2 bis: toda respuesta cita su fuente a pie de página, venga de donde venga."""
+    agents = _texto(RAIZ / "AGENTS.md")
+    assert "Citas a pie de página" in agents
+    assert "sin fuente verificable" in agents
+    assert "Fuentes:" in agents
+    readme = _texto(RAIZ / "README.md")
+    assert "Citas a pie de página" in readme, "el README no declara la regla de citación"
