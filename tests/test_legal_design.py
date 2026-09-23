@@ -254,11 +254,12 @@ def test_el_lock_de_skills_corresponde_a_los_archivos():
 def test_la_regla_de_citas_al_pie_esta_declarada():
     """AGENTS.md §2 bis: toda respuesta cita su fuente a pie de página, venga de donde venga."""
     agents = _texto(RAIZ / "AGENTS.md")
-    assert "Citas a pie de página" in agents
+    assert "a pie de página" in agents
+    assert "informe en derecho" in agents, "no distingue documento de conversación"
     assert "sin fuente verificable" in agents
     assert "Fuentes:" in agents
     readme = _texto(RAIZ / "README.md")
-    assert "Citas a pie de página" in readme, "el README no declara la regla de citación"
+    assert "a pie de página" in readme, "el README no declara la regla de citación"
 
 
 def test_citas_en_skills_y_agentes():
@@ -267,10 +268,11 @@ def test_citas_en_skills_y_agentes():
 
     faltan = []
     for skill in _skills():
-        if "Citas a pie de página" not in _texto(skill):
+        if "a pie de página en los documentos" not in _texto(skill):
             faltan.append(str(skill.relative_to(RAIZ)))
     for agente in sorted((RAIZ / "agents").glob("*.json")):
         datos = json.loads(agente.read_text(encoding="utf-8"))
-        if "a pie de página" not in datos.get("systemPrompt", ""):
+        sp = datos.get("systemPrompt", "")
+        if "a pie de página" not in sp or "informe en derecho" not in sp:
             faltan.append(str(agente.relative_to(RAIZ)))
     assert not faltan, f"sin la regla de citación: {faltan}"
