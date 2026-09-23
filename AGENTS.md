@@ -22,6 +22,29 @@ Always attribute and cite sources using the official brackets:
 * **Environmental Sanctions:** `[SMA - Expediente SNIFA <Número>]`
 * **CGR Audit Reports:** `[CGR - Informe Final N° 123/2024]`
 
+### 2 bis. Citas a pie de página — regla dura
+
+**Toda** respuesta que use una fuente la cita **a pie de página**, sin importar de dónde venga:
+conectores estatales (BCN, CGR, DT, SII, CMF, SMA, PJUD, CNE, TDLC), doctrina indexada, las guías de
+la Academia Judicial, o cualquier documento que el corpus tenga publicado en Hugging Face.
+
+- Si no hay fuente identificable, se dice **«sin fuente verificable»** en vez de afirmar sin respaldo.
+- La cita va al final de la respuesta, numerada, con: **fuente · identificador · enlace** cuando exista.
+- Un dato proveniente de varias fuentes se cita con todas, no con la más cómoda.
+- Esto vale también para las herramientas y agentes: cada resultado debe poder rastrearse hasta su
+  origen (`filepath`, `url`, `Rol`, `N° de dictamen`, etc.), y las herramientas que devuelven texto
+  del corpus incluyen de dónde salió.
+
+Formato del pie de página:
+
+```
+---
+Fuentes:
+1. [BCN - Código del Trabajo, Art. 161] https://www.bcn.cl/leychile/...
+2. [Academia Judicial — Guía para la conducción de la audiencia preparatoria laboral] guias.academiajudicial.cl/...
+3. [Doctrina — Barros Bourie, Tratado de Responsabilidad Extracontractual] corpus: doctrina/civil/...
+```
+
 ---
 
 ## 3 bis. Cómo se pide en lenguaje natural (mesa de entrada)
