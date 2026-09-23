@@ -52,6 +52,9 @@ with sync_playwright() as p:
         pagina.wait_for_timeout(int(max(0.2, segundos - segundo_poster) * 1000))
         video = pagina.video
         contexto.close()
+        if video is None:  # sin grabación no hay video que convertir
+            print(f"  ✗ {nombre}: la grabación no produjo video")
+            continue
         webm = pathlib.Path(video.path())
 
         mp4 = VIDEO / f"{nombre}.mp4"

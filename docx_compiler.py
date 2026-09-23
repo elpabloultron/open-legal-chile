@@ -20,9 +20,9 @@ try:
 
     _DOCX_DISPONIBLE = True
 except ImportError:
-    Document = None  # type: ignore[assignment]
-    WD_ALIGN_PARAGRAPH = None  # type: ignore[assignment]
-    Pt = None  # type: ignore[assignment]
+    Document = None  # type: ignore[misc,assignment]
+    WD_ALIGN_PARAGRAPH = None  # type: ignore[misc,assignment]
+    Pt = None  # type: ignore[misc,assignment]
     _DOCX_DISPONIBLE = False
 
 
