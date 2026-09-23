@@ -7,7 +7,9 @@ El cuadro de portada se verifica con Pillow: si saliera en blanco, se avisa.
 from __future__ import annotations
 
 import pathlib
+import shutil
 import subprocess
+import tempfile
 
 from PIL import Image, ImageStat
 from playwright.sync_api import sync_playwright
@@ -15,8 +17,10 @@ from playwright.sync_api import sync_playwright
 CHARLA = pathlib.Path("/home/pablo/Escritorio/open-legal-chile/docs/charla")
 VIDEO = CHARLA / "video"
 VIDEO.mkdir(exist_ok=True)
-TEMP = pathlib.Path("/tmp/grabaciones")
+TEMP = pathlib.Path(tempfile.gettempdir()) / "grabaciones"
 TEMP.mkdir(exist_ok=True)
+FFMPEG = shutil.which("ffmpeg")   # ruta completa: nada de rutas parciales (bandit B607)
+FFPROBE = shutil.which("ffprobe")
 
 # (archivo, segundos a grabar, segundo del cuadro de portada)
 ANIMACIONES = [
@@ -58,8 +62,11 @@ with sync_playwright() as p:
         webm = pathlib.Path(video.path())
 
         mp4 = VIDEO / f"{nombre}.mp4"
+        if FFMPEG is None:
+            print(f"  ✗ {nombre}: no hay ffmpeg en el sistema — sin conversión", flush=True)
+            continue
         subprocess.run(
-            ["ffmpeg", "-y", "-loglevel", "error", "-i", str(webm),
+            [FFMPEG, "-y", "-loglevel", "error", "-i", str(webm),
              "-c:v", "libx264", "-preset", "slow", "-crf", "22",
              "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-an", str(mp4)],
             check=True,
@@ -68,12 +75,15 @@ with sync_playwright() as p:
         with Image.open(poster) as im:
             gris = im.convert("L")
             desviacion = ImageStat.Stat(gris).stddev[0]
-        duracion = subprocess.run(
-            ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-             "-of", "default=nw=1:nk=1", str(mp4)],
-            capture_output=True, text=True).stdout.strip()
+        duracion = ""
+        if FFPROBE:
+            duracion = subprocess.run(
+                [FFPROBE, "-v", "error", "-show_entries", "format=duration",
+                 "-of", "default=nw=1:nk=1", str(mp4)],
+                capture_output=True, text=True).stdout.strip()
         estado = "✓" if desviacion > 8 else "⚠ PORTADA CASI EN BLANCO"
-        print(f"  {estado} {nombre}: {mp4.stat().st_size/1e6:.2f} MB · {float(duracion):.1f}s · "
+        detalle = f"{float(duracion):.1f}s" if duracion else "duración ?"
+        print(f"  {estado} {nombre}: {mp4.stat().st_size/1e6:.2f} MB · {detalle} · "
               f"portada σ={desviacion:.1f}", flush=True)
         webm.unlink(missing_ok=True)
     navegador.close()
