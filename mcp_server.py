@@ -1712,7 +1712,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.5.11"
+                            "version": "1.6.4"
                         }
                     }
                 }
