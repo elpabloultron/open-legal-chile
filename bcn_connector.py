@@ -6,6 +6,8 @@ Módulo para consultar, descargar, cachear e indexar leyes, decretos y códigos 
 import os
 import re
 import json
+import html
+import time
 import urllib.request
 import urllib.parse
 import defusedxml.ElementTree as ET
@@ -15,6 +17,8 @@ from config import BCN_API_KEY, safe_urlopen
 
 BCN_API_BASE = "https://www.bcn.cl/leychile/api/v1"
 BCN_XML_BASE = "https://www.leychile.cl/Consulta/obtxml"
+# Servicio vivo de LeyChile (el que usa su propio navegador) para versiones históricas.
+BCN_SERVICIOS_BASE = "https://servicios-leychile.bcn.cl"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "bcn_cache")
 
 CODIGOS_REPUBLICA = {
@@ -279,55 +283,144 @@ class BCNClient:
 
         return data
 
+    # ── Versiones históricas: servicio vivo de LeyChile ────────────────────
+    def _fetch_json_servicios(self, ruta: str, params: Dict[str, Any], intentos: int = 3) -> Any:
+        """Obtiene JSON del servicio de LeyChile que usa su propio navegador (reintenta: es intermitente)."""
+        url = f"{BCN_SERVICIOS_BASE}/{ruta}?{urllib.parse.urlencode(params)}"
+        headers = {'User-Agent': 'OpenLegalChile/1.0 (https://github.com/open-legal-chile)'}
+        ultimo_error: Optional[Exception] = None
+        for intento in range(intentos):
+            try:
+                req = urllib.request.Request(url, headers=headers)
+                with safe_urlopen(req, timeout=45) as resp:
+                    return json.loads(resp.read().decode("utf-8", errors="ignore"))
+            except Exception as error:  # noqa: BLE001 - red intermitente
+                ultimo_error = error
+                time.sleep(1.5 * (intento + 1))
+        raise ultimo_error if ultimo_error else RuntimeError("sin respuesta de LeyChile")
+
+    def _versiones_de(self, id_norma: int, use_cache: bool = True) -> List[Dict[str, Any]]:
+        """Lista de versiones de una norma (caché de un día: el historial cambia poco)."""
+        cache_file = self._get_cache_path("versiones", id_norma)
+        if use_cache and os.path.exists(cache_file) and time.time() - os.path.getmtime(cache_file) < 86400:
+            with open(cache_file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        listado = self._fetch_json_servicios("Consulta/get_versiones", {"idNorma": id_norma, "formato": "json"})
+        versiones = (listado.get("Versiones", {}) or {}).get("Version", []) or []
+        if isinstance(versiones, dict):
+            versiones = [versiones]
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(versiones, f, ensure_ascii=False)
+        return versiones
+
+    @staticmethod
+    def _texto_version(data: Any) -> str:
+        """Aplana el JSON de una versión de LeyChile (claves h/t) a texto corrido."""
+        partes: List[str] = []
+
+        def recorrer(obj: Any) -> None:
+            if isinstance(obj, dict):
+                for clave, valor in obj.items():
+                    if clave in ("h", "t") and isinstance(valor, str):
+                        partes.append(valor)
+                    else:
+                        recorrer(valor)
+            elif isinstance(obj, list):
+                for item in obj:
+                    recorrer(item)
+
+        recorrer(data)
+        texto = html.unescape(re.sub(r"<[^>]+>", " ", " ".join(partes)))
+        return re.sub(r"\s+", " ", texto).strip()
+
+    @staticmethod
+    def _version_para_fecha(versiones: List[Dict[str, Any]], fecha: str) -> Optional[Dict[str, Any]]:
+        """Elige la versión de la norma vigente en la fecha pedida, si LeyChile la registra."""
+        for version in versiones:
+            desde = str(version.get("@vigenteDesde", "") or "")
+            hasta = str(version.get("@vigenteHasta", "") or "")
+            if not desde or desde == "2222-02-02":
+                continue
+            if desde <= fecha and (not hasta or fecha <= hasta):
+                return version
+        return None
+
+    @staticmethod
+    def _extraer_articulo(texto: str, articulo: str) -> Optional[str]:
+        """Recorta el artículo pedido del texto corrido.
+
+        Las versiones antiguas encabezan «Art. 162.» y las modernas «Artículo 162.-»;
+        las referencias internas van en minúscula («el artículo 22»), así que no se cuelan.
+        """
+        objetivo = re.sub(r"\D", "", str(articulo))
+        if not objetivo:
+            return None
+        cabeceras = list(re.finditer(r"\bArt(?:ículo)?\.?\s*(\d+)\s*[°º]?\s*[.\-–—]+(?=\s|$)", texto))
+        for indice, coincidencia in enumerate(cabeceras):
+            if coincidencia.group(1) == objetivo:
+                fin = cabeceras[indice + 1].start() if indice + 1 < len(cabeceras) else len(texto)
+                return texto[coincidencia.start():fin].strip()[:12000]
+        return None
+
     def get_codigo_historico(self, codigo_nombre: str, fecha_historica: str, articulo: Optional[str] = None, use_cache: bool = True) -> Dict[str, Any]:
-        """Obtiene un Código de la República en una versión temporal histórica específica (YYYY-MM-DD)."""
+        """Código de la República en la versión vigente a una fecha (historial real de LeyChile)."""
         c_key = codigo_nombre.lower().strip()
         if c_key not in CODIGOS_REPUBLICA:
             raise ValueError(f"Código '{codigo_nombre}' no reconocido. Opciones: {list(CODIGOS_REPUBLICA.keys())}")
 
         id_norma = int(str(CODIGOS_REPUBLICA[c_key]["idNorma"]))
+        nombre = CODIGOS_REPUBLICA[c_key]["nombre"]
         fecha_clean = fecha_historica.strip()
-        cache_key = f"norma_{id_norma}_{fecha_clean}"
-        cache_file = self._get_cache_path("historica", cache_key)
+        url_norma = f"https://www.bcn.cl/leychile/navegar?idNorma={id_norma}"
+        cache_file = self._get_cache_path("historica", f"v2_{id_norma}_{fecha_clean}")
 
-        if use_cache and os.path.exists(cache_file):
-            with open(cache_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        else:
-            xml_data = self._fetch_xml({"opt": 7, "idNorma": id_norma, "idVersion": fecha_clean})
-            data = self._parse_norma_xml(xml_data)
-            with open(cache_file, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-
-        if articulo:
-            art_str = re.sub(r'\s*[-–]\s*', '-', str(articulo).lower().strip())
-            if art_str in data["articulos"]:
-                return {
-                    "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
-                    "fechaVersionSolicitada": fecha_clean,
-                    "fechaVersionEfectiva": data["fechaVersion"],
-                    "articulo": articulo,
-                    "texto": data["articulos"][art_str],
-                    "historiaLeyUrl": data.get("historiaLeyUrl", "")
-                }
-            for k, text in data["articulos"].items():
-                if k == art_str or k.startswith(art_str) or f"artículo {art_str}" in text.lower():
+        try:
+            if use_cache and os.path.exists(cache_file):
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    guardado = json.load(f)
+            else:
+                versiones = self._versiones_de(id_norma, use_cache=use_cache)
+                version = self._version_para_fecha(versiones, fecha_clean)
+                if version is None:
+                    primeras = sorted(str(v.get("@vigenteDesde", "")) for v in versiones if str(v.get("@vigenteDesde", ""))[:2] != "22" and v.get("@vigenteDesde"))
                     return {
-                        "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
-                        "fechaVersionSolicitada": fecha_clean,
-                        "fechaVersionEfectiva": data["fechaVersion"],
-                        "articulo": k,
-                        "texto": text,
-                        "historiaLeyUrl": data.get("historiaLeyUrl", "")
+                        "codigo": nombre, "fechaVersionSolicitada": fecha_clean,
+                        "error": (f"LeyChile no registra una versión de este código vigente al {fecha_clean}"
+                                  + (f"; su historial parte el {primeras[0]}." if primeras else ".")),
+                        "urlVersiones": url_norma,
                     }
+                data = self._fetch_json_servicios("Navegar/get_norma_json",
+                                                  {"idNorma": id_norma, "idVersion": fecha_clean, "agrupa_partes": 1})
+                guardado = {
+                    "texto": self._texto_version(data),
+                    "fechaVersionEfectiva": str(version.get("@vigenteDesde", "")),
+                    "tipoVersion": str(version.get("@tipoVersion", "")),
+                    "versionUrl": str((version.get("UrlVersion", {}) or {}).get("$", "") or url_norma),
+                }
+                with open(cache_file, "w", encoding="utf-8") as f:
+                    json.dump(guardado, f, ensure_ascii=False)
+        except Exception as error:  # noqa: BLE001 - el servicio de LeyChile falla seguido
             return {
-                "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
-                "fechaVersionSolicitada": fecha_clean,
-                "articulo": articulo,
-                "error": f"Artículo {articulo} no encontrado en la versión del código al {fecha_clean}."
+                "codigo": nombre, "fechaVersionSolicitada": fecha_clean,
+                "error": f"LeyChile no entregó la versión de esa fecha ({type(error).__name__}: {str(error)[:120]}).",
+                "urlVersiones": url_norma,
             }
 
-        return data
+        comun = {
+            "codigo": nombre,
+            "fechaVersionSolicitada": fecha_clean,
+            "fechaVersionEfectiva": guardado.get("fechaVersionEfectiva", ""),
+            "tipoVersion": guardado.get("tipoVersion", ""),
+            "versionOficialUrl": guardado.get("versionUrl", ""),
+        }
+        texto = guardado.get("texto", "")
+        if articulo:
+            fragmento = self._extraer_articulo(texto, articulo)
+            if fragmento:
+                return {**comun, "articulo": articulo, "texto": fragmento}
+            return {**comun, "articulo": articulo,
+                    "error": f"Artículo {articulo} no encontrado en la versión vigente al {fecha_clean}."}
+        return {**comun, "caracteres": len(texto), "texto_inicio": texto[:3000]}
 
     def search(self, query: str, limit: int = 5) -> List[Dict[str, Any]]:
         """Búsqueda de normas chilenas por número de ley, palabra clave frecuente o código de la República."""

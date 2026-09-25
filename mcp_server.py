@@ -730,7 +730,7 @@ TOOLS = [
     },
     {
         "name": "bcn_get_codigo_historico",
-        "description": "Consulta un Código de la República (civil, trabajo, cpc, penal, etc.) en una fecha histórica específica (YYYY-MM-DD) en la BCN.",
+        "description": "Consulta un Código de la República (civil, trabajo, cpc, penal, etc.) en la versión vigente a una fecha histórica (YYYY-MM-DD), con el historial real de versiones de LeyChile. Devuelve la versión efectiva, su enlace oficial y —si se pide— el texto del artículo a esa fecha. Ideal para ver cómo cambió una norma (p. ej. la jornada de 45 a 40 horas).",
         "inputSchema": {
             "type": "object",
             "properties": {
