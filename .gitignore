@@ -72,6 +72,16 @@ data/*.jsonl
 data/jurisprudencia/cs_sentencias_2anios.jsonl
 data/catalogo/instituciones_lite.jsonl
 
+# Textos íntegros nuevos (sentencias del TC y publicaciones ambientales):
+# se publican en Hugging Face y se regeneran con scripts/tc_pdfs_a_md.py y
+# scripts/publicaciones_a_md.py. Solo se versionan los README de cada carpeta.
+jurisprudencia_tc/*.md
+!jurisprudencia_tc/README.md
+jurisprudencia_tc/pdf/
+publicaciones_ambientales/*.md
+!publicaciones_ambientales/README.md
+publicaciones_ambientales/pdf/
+
 # Al recuperar el repositorio se aparta el .git dañado: nunca dentro del árbol
 .git_dañado_*/
 .git_dañado_*

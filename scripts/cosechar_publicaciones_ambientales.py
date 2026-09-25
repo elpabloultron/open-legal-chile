@@ -58,8 +58,8 @@ def primer_pdf(url: str) -> str:
         if r.status_code != 200:
             return ""
         soup = BeautifulSoup(r.content, "html.parser")
-        for a in soup.find_all("a", href=True):
-            href = str(a["href"])
+        for a in soup.find_all(["a", "iframe", "embed", "object"]):
+            href = str(a.get("href") or a.get("src") or a.get("data-src") or "")
             if ".pdf" in href.lower():
                 return href
     except Exception:
@@ -117,8 +117,8 @@ def cosechar_anuarios(tribunal: str, url: str) -> list[dict]:
             return res
         soup = BeautifulSoup(r.content, "html.parser")
         vistos: set[str] = set()
-        for a in soup.find_all("a", href=True):
-            href = str(a["href"])
+        for a in soup.find_all(["a", "iframe", "embed", "object"]):
+            href = str(a.get("href") or a.get("src") or a.get("data-src") or "")
             if ".pdf" not in href.lower() or "anuari" not in href.lower() or href in vistos:
                 continue
             vistos.add(href)
