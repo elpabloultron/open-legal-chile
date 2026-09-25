@@ -1393,7 +1393,7 @@
   },
   {
     "name": "graphify_consulta_subgrafo",
-    "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro medido del 31,9% al 90,5% de tokens según la institución (mediana 74,1%) respecto a la lectura del texto doctrinal completo. La medición es reproducible: docs/medicion_tokens.md.",
+    "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro mediano del 99,9% de tokens (ficha mediana: 91 tokens frente a la obra completa: 96.536) respecto a la lectura del texto doctrinal completo. La medición es reproducible: docs/medicion_tokens.md.",
     "inputSchema": {
       "type": "object",
       "properties": {
