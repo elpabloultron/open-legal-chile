@@ -10,9 +10,9 @@ import os
 import sys
 import json
 import re
-import urllib.request
 from bs4 import BeautifulSoup
 from typing import Dict, Any, List
+import requests
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data", "ambiental")
@@ -32,11 +32,11 @@ def harvest_3ta_anuarios() -> List[Dict[str, Any]]:
     url = "https://3ta.cl/publicaciones/anuario-de-jurisprudencia-ambiental/"
     results = []
     try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=12) as resp:
-            soup = BeautifulSoup(resp.read(), "html.parser")
+        resp = requests.get(url, headers=HEADERS, timeout=12)
+        if resp.status_code == 200:
+            soup = BeautifulSoup(resp.content, "html.parser")
             for a in soup.find_all("a", href=True):
-                href = a["href"]
+                href = str(a.get("href", ""))
                 if ".pdf" in href.lower() and "anuario" in href.lower():
                     # Extraer año del nombre
                     m = re.search(r"20\d\d", href)
@@ -62,25 +62,26 @@ def harvest_3ta_boletines(limit: int = 15) -> List[Dict[str, Any]]:
     url = "https://3ta.cl/publicaciones/boletin-jurisprudencia-ambiental/"
     results = []
     try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=12) as resp:
-            soup = BeautifulSoup(resp.read(), "html.parser")
-            post_links = []
+        resp = requests.get(url, headers=HEADERS, timeout=12)
+        if resp.status_code == 200:
+            soup = BeautifulSoup(resp.content, "html.parser")
+            post_links: List[tuple] = []
             for a in soup.find_all("a", href=True):
                 t = a.get_text(strip=True)
-                h = a["href"]
-                if "boletin-n" in h.lower() and h not in post_links:
+                h = str(a.get("href", ""))
+                if "boletin-n" in h.lower() and h not in [pl[1] for pl in post_links]:
                     post_links.append((t, h))
 
             for titulo, post_url in post_links[:limit]:
                 try:
-                    req_p = urllib.request.Request(post_url, headers=HEADERS)
-                    with urllib.request.urlopen(req_p, timeout=8) as r_p:
-                        s_p = BeautifulSoup(r_p.read(), "html.parser")
+                    r_p = requests.get(post_url, headers=HEADERS, timeout=8)
+                    if r_p.status_code == 200:
+                        s_p = BeautifulSoup(r_p.content, "html.parser")
                         pdf_url = ""
                         for pa in s_p.find_all("a", href=True):
-                            if ".pdf" in pa["href"].lower():
-                                pdf_url = pa["href"]
+                            pa_href = str(pa.get("href", ""))
+                            if ".pdf" in pa_href.lower():
+                                pdf_url = pa_href
                                 break
                         
                         m = re.search(r"N°?\s*(\d+)", titulo, re.IGNORECASE)
@@ -107,12 +108,12 @@ def harvest_2ta_anuarios() -> List[Dict[str, Any]]:
     url = "https://tribunalambiental.cl/informacion-institucional/sobre-el-tribunal-ambiental/anuario/"
     results = []
     try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=12) as resp:
-            soup = BeautifulSoup(resp.read(), "html.parser")
+        resp = requests.get(url, headers=HEADERS, timeout=12)
+        if resp.status_code == 200:
+            soup = BeautifulSoup(resp.content, "html.parser")
             vistos = set()
             for a in soup.find_all("a", href=True):
-                href = a["href"]
+                href = str(a.get("href", ""))
                 if ".pdf" in href.lower() and "anuario" in href.lower() and href not in vistos:
                     vistos.add(href)
                     m = re.search(r"20\d\d", href)
@@ -137,9 +138,9 @@ def harvest_1ta_sentencias(limit: int = 25) -> List[Dict[str, Any]]:
     url = "https://www.portaljudicial1ta.cl/sgc-ws/rest/sentencia/search?year=2025&month=0"
     results = []
     try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=12) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+        resp = requests.get(url, headers=HEADERS, timeout=12)
+        if resp.status_code == 200:
+            data = resp.json()
             docs_raw = data.get("response", [])
             docs = json.loads(docs_raw) if isinstance(docs_raw, str) else docs_raw
 
@@ -179,7 +180,6 @@ def generar_fichas_markdown(documentos: List[Dict[str, Any]]):
         f.write("---\n\n")
 
         for d in documentos:
-            trib = d.get("tribunal", "")
             titulo = d.get("titulo", "")
             materia = d.get("materia", "")
             enlace = d.get("url_pdf", "")
