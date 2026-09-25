@@ -218,19 +218,23 @@ class TribunalesAmbientalesClient:
                         doc = json.loads(line)
                         if tribunal and doc.get("tribunal", "").upper() != tribunal.upper():
                             continue
-                        text_corpus = f"{doc.get('titulo', '')} {doc.get('materia', '')} {doc.get('rol', '')} {doc.get('caratula', '')}".lower()
+                        text_corpus = f"{doc.get('titulo', '')} {doc.get('materia', '')} {doc.get('rol', '')} {doc.get('caratula', '')} {doc.get('descripcion_detallada', '')} {doc.get('resuelve', '')}".lower()
                         if q_lower in text_corpus or any(tok in text_corpus for tok in q_lower.split() if len(tok) > 3):
                             results.append({
                                 "origen": f"Jurisprudencia Oficial {doc.get('tribunal', 'Ambiental')}",
                                 "tribunal": doc.get("tribunal"),
-                                "titulo": doc.get("titulo"),
+                                "tribunal_nombre": doc.get("tribunal_nombre", ""),
+                                "titulo": doc.get("titulo") or doc.get("caratula"),
+                                "caratula": doc.get("caratula"),
                                 "tipo": doc.get("tipo"),
                                 "rol": doc.get("rol"),
                                 "fecha": doc.get("fecha"),
                                 "materia": doc.get("materia"),
-                                "link": doc.get("url_pdf")
+                                "resuelve": doc.get("resuelve"),
+                                "link": doc.get("url_pdf"),
+                                "expediente": doc.get("url_expediente")
                             })
-                            if len(results) >= 15:
+                            if len(results) >= 20:
                                 break
             except Exception:
                 pass

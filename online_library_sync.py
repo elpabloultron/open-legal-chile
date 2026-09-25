@@ -278,6 +278,23 @@ class OnlineLibrarySyncManager:
         guias = len(list((pathlib.Path(BASE_DIR) / "corpus_guias_aj").glob("*.md")))
         wiki_arts = len(list((pathlib.Path(BASE_DIR) / "graphify-out/wiki").glob("*.md")))
 
+        # Métricas de jurisprudencia judicial y ambiental
+        total_ambiental = 0
+        total_tc = 0
+        total_cs = 0
+        try:
+            p_amb = pathlib.Path(BASE_DIR) / "data/jurisprudencia/ambiental_sentencias.jsonl"
+            if p_amb.exists():
+                total_ambiental = sum(1 for _ in p_amb.open(encoding="utf-8") if _.strip())
+            p_tc = pathlib.Path(BASE_DIR) / "data/jurisprudencia/tc_sentencias.jsonl"
+            if p_tc.exists():
+                total_tc = sum(1 for _ in p_tc.open(encoding="utf-8") if _.strip())
+            p_cs = pathlib.Path(BASE_DIR) / "data/jurisprudencia/cs_sentencias.jsonl"
+            if p_cs.exists():
+                total_cs = sum(1 for _ in p_cs.open(encoding="utf-8") if _.strip())
+        except Exception:
+            pass
+
         card = f"""---
 language:
 - es
@@ -289,6 +306,7 @@ tags:
 - derecho
 - law
 - judicial
+- ambiental
 - markdown
 - knowledge-graph
 - graphify
@@ -306,18 +324,27 @@ configs:
     path: data/train.jsonl
   - split: instituciones
     path: data/instituciones.jsonl
+  - split: jurisprudencia_ambiental
+    path: data/jurisprudencia/ambiental_sentencias.jsonl
+  - split: tribunal_constitucional
+    path: data/jurisprudencia/tc_sentencias.jsonl
+  - split: corte_suprema
+    path: data/jurisprudencia/cs_sentencias.jsonl
 ---
 
 # 🇨🇱 Corpus Jurídico y Doctrinal de Chile en Markdown (Open Legal Chile)
 
-Bienvenido al repositorio oficial del **Corpus Jurídico Canónico y Doctrinal de Chile**, desarrollado y mantenido por **Open Legal Chile**.
-Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** al texto íntegro de la dogmática jurídica chilena, a las Guías Oficiales de la Academia Judicial y al **Knowledge Graph de Reducción Masiva de Tokens (LegalGraphify)**.
+Bienvenido al repositorio oficial del **Corpus Jurídico Canónico, Doctrinal y Jurisprudencial de Chile**, desarrollado y mantenido por **Open Legal Chile**.
+Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** al texto íntegro de la dogmática jurídica chilena, a las Guías Oficiales de la Academia Judicial, a los fallos de los Tribunales Ambientales (1TA, 2TA, 3TA) y al **Knowledge Graph de Reducción Masiva de Tokens (LegalGraphify)**.
 
 ---
 
 ## 📊 Métricas del Corpus y Knowledge Graph
 - **Documentos:** {manifiesto['total_documentos']} obras y materiales doctrinales completos
 - **Instituciones Dogmáticas:** 11.853 fichas estructuradas con definiciones canónicas, concordancias y fallos rectores (`data/instituciones.jsonl`)
+- **Jurisprudencia Tribunales Ambientales (1TA, 2TA, 3TA):** {total_ambiental:,} sentencias y resoluciones definitivas (`data/jurisprudencia/ambiental_sentencias.jsonl`)
+- **Jurisprudencia Tribunal Constitucional (TC):** {total_tc:,} sentencias e inaplicabilidades (`data/jurisprudencia/tc_sentencias.jsonl`)
+- **Jurisprudencia Rectora Corte Suprema (PJUD):** {total_cs:,} sentencias unificadoras (`data/jurisprudencia/cs_sentencias.jsonl`)
 - **Guías de la Academia Judicial:** {guias} guías de buenas prácticas judiciales (`guias_academia_judicial/`)
 - **Nodos del Knowledge Graph:** {nodos:,} nodos interconectados
 - **Aristas Relacionales:** {aristas:,} relaciones tipificadas
@@ -326,7 +353,7 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 - **Total Palabras:** {manifiesto['total_palabras']:,} palabras
 - **Visualizadores Interactivos Web:** `graphify/graph.html` (vis-network 2D) y `graphify/GRAPH_TREE.html` (D3 v7 colapsable)
 - **Formatos Universales de Grafos:** GraphML (`graphify/graph.graphml`) para Gephi/yEd y Cypher (`graphify/cypher.txt`) para Neo4j/FalkorDB
-- **Visualizador Web Activo:** Habilitado mediante `data/train.jsonl` y `data/instituciones.jsonl` (Dataset Viewer oficial de Hugging Face).
+- **Visualizador Web Activo:** Habilitado para todos los splits en el Dataset Viewer oficial de Hugging Face.
 
 ---
 
@@ -339,7 +366,11 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 │   ├── instituciones.jsonl        # 11.853 fichas dogmáticas con definiciones canónicas y fallos rectores
 │   ├── legal_knowledge_graph.json # Knowledge Graph del corpus doctrinal (NetworkX/Graphify)
 │   ├── grafo_guias_aj.json        # Knowledge Graph propio de las guías de la Academia Judicial
-│   └── enlaces_guias_aj.json      # Enlaces de las guías con el corpus: por norma e institución
+│   ├── enlaces_guias_aj.json      # Enlaces de las guías con el corpus: por norma e institución
+│   └── jurisprudencia/            # Corpus unificado de sentencias oficiales
+│       ├── ambiental_sentencias.jsonl # 885 sentencias completas (1TA, 2TA y 3TA Valdivia)
+│       ├── tc_sentencias.jsonl        # 38 sentencias del Tribunal Constitucional
+│       └── cs_sentencias.jsonl        # 10 fallos rectores de la Corte Suprema
 ├── graphify/                      # Artefactos del Knowledge Graph multidimensional
 │   ├── graph.json                 # Knowledge Graph completo ({nodos:,} nodos, {aristas:,} aristas)
 │   ├── graph.html                 # Visualizador interactivo 2D autónomo (vis-network)
@@ -349,6 +380,7 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 │   ├── cypher.txt                 # Script Cypher para Neo4j y FalkorDB
 │   └── wiki/                      # {wiki_arts} artículos Markdown sintetizados por comunidad
 ├── doctrina/                      # Árbol de archivos Markdown en bruto organizados por disciplina
+│   ├── ambiental/                 # Criterios Jurisprudenciales de las Cortes y Compendios de TA
 │   ├── civil/                     # Obligaciones, Responsabilidad, Bienes, Acto Jurídico, Sucesorio, Familia
 │   ├── procesal/                  # Recursos Procesales, Casación, Disposiciones Comunes del CPC
 │   ├── administrativo/            # Bases Constitucionales, Invalidez del Acto, Responsabilidad Estatal
