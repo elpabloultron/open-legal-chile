@@ -23,6 +23,7 @@ import pathlib
 import re
 import shutil
 import sys
+import tempfile
 import time
 import unicodedata
 
@@ -121,7 +122,8 @@ def main() -> int:
     print(f"══ grafo de partida: {len(nodos):,} nodos · {len(aristas):,} aristas")
     print(f"   índice de normas: {len(idx_normas):,} artículos con nodo")
 
-    shutil.copy2(GRAFO, pathlib.Path("/tmp") / "legal_knowledge_graph_pre_juris.json")
+    respaldo = pathlib.Path(tempfile.gettempdir()) / "legal_knowledge_graph_pre_juris.json"
+    shutil.copy2(GRAFO, respaldo)
 
     # 1 · órgano del TC (si no existe)
     if "organo_tc" not in ids:
@@ -226,7 +228,7 @@ def main() -> int:
     grafo["links"] = aristas
     GRAFO.write_text(json.dumps(grafo, ensure_ascii=False), encoding="utf-8")
     print(f"══ grafo final: {len(nodos):,} nodos · {len(aristas):,} aristas · {comunidades or '?'} comunidades")
-    print("   respaldo previo: /tmp/legal_knowledge_graph_pre_juris.json")
+    print(f"   respaldo previo: {respaldo}")
     return 0
 
 

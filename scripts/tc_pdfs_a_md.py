@@ -17,6 +17,7 @@ import argparse
 import json
 import pathlib
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -35,6 +36,7 @@ DIR_MD = BASE / "jurisprudencia_tc"
 DIR_PDF = DIR_MD / "pdf"
 UA = {"User-Agent": "OpenLegalChile/1.6.5 (Investigacion Juridica Soberana; Universidad de Los Lagos)"}
 TRABAJADORES = 5
+PDFTOTEXT = shutil.which("pdftotext") or "pdftotext"
 
 
 def nombre_archivo(rol: str) -> str:
@@ -64,7 +66,7 @@ def ficha(reg: dict, archivo: str) -> str:
 
 def texto_completo(pdf: pathlib.Path) -> tuple[str, str]:
     """Texto íntegro si el PDF trae capa de texto; si es escaneo, OCR acotado."""
-    prueba = subprocess.run(["pdftotext", "-layout", "-f", "1", "-l", "5", str(pdf), "-"],  # nosec B603
+    prueba = subprocess.run([PDFTOTEXT, "-layout", "-f", "1", "-l", "5", str(pdf), "-"],  # nosec B603
                             capture_output=True, text=True, timeout=120)
     if len((prueba.stdout or "").strip()) / 5 >= 120:
         return ing._texto_de_pdf(pdf)
