@@ -62,7 +62,7 @@ def test_ahorro_tokens_significativo(engine):
     # El umbral era 70% y pasaba solo porque el tamaño de cada obra se inflaba con un piso
     # de 1200 tokens: la medición real de 'simulacion' es 69,1% (968 -> 299). Se exige un
     # piso que el motor cumple con números honestos, y la distribución medida vive en
-    # docs/medicion_tokens.md (mínimo 30,4%, mediana 74,1%, máximo 90,5% sobre 105 instituciones).
+    # docs/medicion_tokens.md (mediana 99,9 % sobre 9.863 instituciones, medición 2026-09-25).
     assert m["porcentaje_ahorro"] >= 50.0
     assert "x" in m["factor_reduccion"]
 

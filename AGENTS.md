@@ -141,7 +141,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 
 **LegalGraphify Knowledge Graph:**
 40. `huggingface_search_dataset`: Search the public Hugging Face dataset (doctrina, guías, jurisprudencia y grafos) by term; returns the file paths and the dataset URL for citation.
-41. `graphify_consulta_subgrafo`: Extract synthetic subgraphs with a measured token reduction of 31.9 % to 90.5 % (median 74.1 %).
+41. `graphify_consulta_subgrafo`: Extract synthetic subgraphs with a measured median token reduction of 99.9 % (median card: 91 tokens vs. full work: 96.536 tokens; measured 2026-09-25 over 9,863 institutions).
 42. `graphify_trazar_camino`: Trace relational paths between concepts and statutory rules.
 43. `graphify_explicar_institucion`: 360° dogmatic explanation with statutory foundation and Supreme Court criteria.
 44. `graphify_analizar_impacto`: Topological blast radius analysis for legal reforms or jurisprudence shifts.

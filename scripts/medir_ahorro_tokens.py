@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Mide el ahorro de tokens de LegalGraphify sobre las 105 instituciones del grafo real.
+Mide el ahorro de tokens de LegalGraphify sobre todas las instituciones del grafo (~9.900).
 
 Qué hace:
     1. Carga el grafo publicado (data/legal_knowledge_graph.json) con el motor real
