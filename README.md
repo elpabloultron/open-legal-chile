@@ -520,7 +520,7 @@ El directorio `agents/` incluye **19 perfiles de especialidad jurídica** adapta
 1. **`chilean-employment-legal`** (`agente-laboral`): Despidos (Art. 161/160 CT), Ley Karin (21.643), 40 Horas (21.561), finiquitos y doctrina DT.
 2. **`chilean-litigation-legal`** (`agente-litigios`): Demandas OJV Ley N° 20.886, recursos de protección estandarizados (Acta N.° 94-2015), cronología de hechos, recursos procesales y medidas precautorias.
 3. **`chilean-real-estate-cbr`** (`agente-inmobiliario`): Estudio de títulos decenal (10 años), tradición dominical, gravámenes hipotecarios, prohibiciones registrales y mandatos judiciales (Art. 7 CPC).
-4. **`chilean-dogmatic-graphify`** (`agente-dogmatico`): Estratega de alta dogmática, subsunción técnico-jurídica, 58 tratados canónicos y deducción con subgrafos LegalGraphify (ahorro de tokens medido: 31,9 % a 90,5 %, mediana 74,1 %).
+4. **`chilean-dogmatic-graphify`** (`agente-dogmatico`): Estratega de alta dogmática, subsunción técnico-jurídica, el corpus doctrinal completo (228 obras y materiales + 21 guías judiciales) y deducción con subgrafos LegalGraphify (ahorro de tokens medido: 31,9 % a 90,5 %, mediana 74,1 %).
 5. **`chilean-administrative-legal`** (`agente-regulatorio`): Dictámenes e informes CGR, compras públicas (Ley 19.886) y vigilancia regulatoria.
 6. **`chilean-energy-legal`** (`agente-energia`): Contratos PPA de clientes libres, transmisión eléctrica Ley 20.936 y discrepancias del Panel de Expertos.
 7. **`chilean-environmental-legal`** (`agente-ambiental`): Fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento.

@@ -130,7 +130,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 
 **Dogmatic Doctrine & Academia Judicial:**
 31. `academia_judicial_buscar_guias`: Search 15 official training guides of the Academia Judicial de Chile.
-32. `biblioteca_compilar_manifiesto`: Compile and verify local manifest of 58 canonical treatises.
+32. `biblioteca_compilar_manifiesto`: Compile and verify the local manifest of the full Markdown corpus (228 doctrinal works + 21 Academia Judicial guides).
 33. `suite_telemetria_stats`: Query adoption telemetry and local usage metrics.
 34. `suite_verificar_actualizacion`: Check PyPI and GitHub for new suite versions.
 35. `suite_auto_update`: Automate self-update of openlegal-chile via pip.
@@ -160,7 +160,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 | `chilean-employment-legal` | `agente-laboral` | Despidos Art. 161/160, Ley Karin 21.643, 40 Horas (21.561), contratación, investigaciones internas, RIHS, DT |
 | `chilean-litigation-legal` | `agente-litigios` | Intake, demandas, recursos de protección (Acta N.° 94-2015), cronologías, tablas de elementos, escritos OJV, recursos |
 | `chilean-real-estate-cbr` | `agente-inmobiliario` | Estudio de títulos decenal (10 años), inscripciones CBR, escrituras públicas, gravámenes e hipotecas, mandatos Art. 7 CPC |
-| `chilean-dogmatic-graphify` | `agente-dogmatico` | Subsunción dogmática, doctrina canónica (58 tratados), consultas subgrafo LegalGraphify y blast radius |
+| `chilean-dogmatic-graphify` | `agente-dogmatico` | Subsunción dogmática, doctrina canónica (228 obras + 21 guías), consultas subgrafo LegalGraphify y blast radius |
 | `chilean-doctrine-ingestion` | `agente-ingestor` | Ingesta y normalización RAE/ASALE de documentos (.pdf, .docx, .txt) a Markdown canónico, sincronización FTS5 y Knowledge Graph |
 | `chilean-administrative-legal` | `agente-regulatorio` | Dictámenes/auditorías CGR, compras públicas (19.886), vigilancia regulatoria, brechas normativas |
 | `chilean-energy-legal` | `agente-energia` | DFL 4/2006, Ley 20.936, PPA clientes libres, Panel de Expertos, CNE |
@@ -209,7 +209,7 @@ All skills operate **strictly under Chilean Civil Law**, prohibit Common Law ter
 
 ### 17. `agente-dogmatico` (Estratega Dogmático y LegalGraphify)
 - **Role:** Consultor de alta dogmática jurídica y teoría del derecho chileno.
-- **Behavior:** Realiza subsunción técnico-jurídica, resuelve antinomias normativas, consulta los 58 tratados canónicos y traza cadenas de deducción con subgrafos LegalGraphify con ahorro masivo de tokens.
+- **Behavior:** Realiza subsunción técnico-jurídica, resuelve antinomias normativas, consulta el corpus doctrinal completo (228 obras y 21 guías) y traza cadenas de deducción con subgrafos LegalGraphify con ahorro masivo de tokens.
 - **Key Tools:** `graphify_consulta_subgrafo`, `graphify_trazar_camino`, `graphify_explicar_institucion`, `doctrina_search`, `doctrina_get_institucion`.
 
 ### 18. `agente-ingestor` (Agente Ingestor Doctrinal & Conversor a Markdown)
