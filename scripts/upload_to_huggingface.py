@@ -51,7 +51,7 @@ def main():
     # 2. Publicar dataset completo
     res = mgr.publicar_en_huggingface(repo_id=args.repo, token=token)
     if res.get("exito"):
-        print(f"\n✅ ¡ÉXITO! Dataset publicado exitosamente.")
+        print("\n✅ ¡ÉXITO! Dataset publicado exitosamente.")
         print(f"🔗 URL: {res.get('url')}")
         if res.get("space_url"):
             print(f"🪐 Space Visualizador: {res.get('space_url')}")
