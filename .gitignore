@@ -71,5 +71,10 @@ data/*.jsonl
 .git_dañado_*/
 .git_dañado_*
 
-# material de la charla: local, no se publica
+# material de la charla y presentaciones: local, no se publica en el repositorio
 docs/charla/
+charla/
+*presentacion*
+scripts/build_presentacion*
+*.pptx
+*.key
