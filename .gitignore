@@ -67,6 +67,11 @@ brag-output/
 # Datos derivados y regenerables (los publica Hugging Face, no el repo)
 data/*.jsonl
 
+# Derivados pesados: se regeneran con scripts/optimizar_catalogo_hf.py y
+# scripts/cosechar_jurisprudencia_2anios.py, y quedan publicados en Hugging Face.
+data/jurisprudencia/cs_sentencias_2anios.jsonl
+data/catalogo/instituciones_lite.jsonl
+
 # Al recuperar el repositorio se aparta el .git dañado: nunca dentro del árbol
 .git_dañado_*/
 .git_dañado_*

@@ -9,6 +9,8 @@ import os
 import pathlib
 import re
 import json
+import subprocess
+import sys
 import tarfile
 import shutil
 from typing import Dict, Any, List, Optional
@@ -283,6 +285,8 @@ class OnlineLibrarySyncManager:
         total_boletines = 0
         total_tc = 0
         total_cs = 0
+        total_cs_2 = 0
+        total_tc_2 = 0
         try:
             p_amb = pathlib.Path(BASE_DIR) / "data/jurisprudencia/ambiental_sentencias.jsonl"
             if p_amb.exists():
@@ -296,6 +300,12 @@ class OnlineLibrarySyncManager:
             p_cs = pathlib.Path(BASE_DIR) / "data/jurisprudencia/cs_sentencias.jsonl"
             if p_cs.exists():
                 total_cs = sum(1 for _ in p_cs.open(encoding="utf-8") if _.strip())
+            p_cs2 = pathlib.Path(BASE_DIR) / "data/jurisprudencia/cs_sentencias_2anios.jsonl"
+            if p_cs2.exists():
+                total_cs_2 = sum(1 for _ in p_cs2.open(encoding="utf-8") if _.strip())
+            p_tc2 = pathlib.Path(BASE_DIR) / "data/jurisprudencia/tc_sentencias_2anios.jsonl"
+            if p_tc2.exists():
+                total_tc_2 = sum(1 for _ in p_tc2.open(encoding="utf-8") if _.strip())
         except Exception:
             pass
 
@@ -336,6 +346,10 @@ configs:
     path: data/jurisprudencia/tc_sentencias.jsonl
   - split: corte_suprema
     path: data/jurisprudencia/cs_sentencias.jsonl
+  - split: corte_suprema_ultimos_2_anios
+    path: data/jurisprudencia/cs_sentencias_2anios.jsonl
+  - split: tribunal_constitucional_ultimos_2_anios
+    path: data/jurisprudencia/tc_sentencias_2anios.jsonl
 ---
 
 # 🇨🇱 Corpus Jurídico y Doctrinal de Chile en Markdown (Open Legal Chile)
@@ -352,6 +366,8 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 - **Anuarios y Boletines Ambientales Oficiales:** {total_boletines:,} publicaciones periódicas y memorias (`data/jurisprudencia/ambiental_boletines_anuarios.jsonl`)
 - **Jurisprudencia Tribunal Constitucional (TC):** {total_tc:,} sentencias e inaplicabilidades (`data/jurisprudencia/tc_sentencias.jsonl`)
 - **Jurisprudencia Rectora Corte Suprema (PJUD):** {total_cs:,} sentencias unificadoras (`data/jurisprudencia/cs_sentencias.jsonl`)
+- **Corte Suprema · últimos 2 años (buscador público PJUD):** {total_cs_2:,} sentencias con rol, sala, recurso, resultado, ministros y carátula (`data/jurisprudencia/cs_sentencias_2anios.jsonl`)
+- **Tribunal Constitucional · últimos 2 años:** {total_tc_2:,} sentencias con enlace al PDF oficial (`data/jurisprudencia/tc_sentencias_2anios.jsonl`)
 - **Guías de la Academia Judicial:** {guias} guías de buenas prácticas judiciales (`guias_academia_judicial/`)
 - **Nodos del Knowledge Graph:** {nodos:,} nodos interconectados
 - **Aristas Relacionales:** {aristas:,} relaciones tipificadas
@@ -368,23 +384,23 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 
 ```text
 ├── README.md                      # Dataset Card y especificaciones forenses
+├── llms.txt                       # Mapa para agentes: estructura, rutas y formato de cita
 ├── data/
 │   ├── train.jsonl                # Obras completas en texto íntegro (Full-Text Dataset Viewer)
-│   ├── instituciones.jsonl        # 11.853 fichas dogmáticas con definiciones canónicas y fallos rectores
+│   ├── instituciones.jsonl        # Fichas dogmáticas con definiciones canónicas y fallos rectores
+│   ├── catalogo/                  # Catálogo eficiente para LLM y harness (ver sección propia)
 │   ├── legal_knowledge_graph.json # Knowledge Graph del corpus doctrinal (NetworkX/Graphify)
 │   ├── grafo_guias_aj.json        # Knowledge Graph propio de las guías de la Academia Judicial
 │   ├── enlaces_guias_aj.json      # Enlaces de las guías con el corpus: por norma e institución
+│   ├── enlaces_guias_corpus.json  # Enlaces de cada guía con los documentos del corpus
 │   └── jurisprudencia/            # Corpus unificado de sentencias oficiales
-│       ├── ambiental_sentencias.jsonl # 885 sentencias completas (1TA, 2TA y 3TA Valdivia)
-│       ├── tc_sentencias.jsonl        # 38 sentencias del Tribunal Constitucional
-│       └── cs_sentencias.jsonl        # 10 fallos rectores de la Corte Suprema
-├── graphify/                      # Artefactos del Knowledge Graph multidimensional
-│   ├── graph.json                 # Knowledge Graph completo ({nodos:,} nodos, {aristas:,} aristas)
-│   ├── graph.html                 # Visualizador interactivo 2D autónomo (vis-network)
-│   ├── GRAPH_TREE.html            # Árbol colapsable interactivo D3 v7
-│   ├── GRAPH_REPORT.md            # Informe estructural de God Nodes y comunidades
-│   ├── graph.graphml              # Exportación universal para Gephi y yEd
-│   ├── cypher.txt                 # Script Cypher para Neo4j y FalkorDB
+│       ├── ambiental_sentencias.jsonl          # sentencias definitivas (1TA, 2TA y 3TA Valdivia)
+│       ├── ambiental_boletines_anuarios.jsonl  # anuarios y boletines de jurisprudencia ambientales
+│       ├── tc_sentencias.jsonl                 # Tribunal Constitucional (fallos rectores)
+│       ├── tc_sentencias_2anios.jsonl          # Tribunal Constitucional (últimos 2 años, con PDF)
+│       ├── cs_sentencias.jsonl                 # fallos rectores de la Corte Suprema
+│       └── cs_sentencias_2anios.jsonl          # Corte Suprema (últimos 2 años)
+├── graphify/                      # Wiki doctrinal derivada del grafo (el grafo vivo está en data/)
 │   └── wiki/                      # {wiki_arts} artículos Markdown sintetizados por comunidad
 ├── doctrina/                      # Árbol de archivos Markdown en bruto organizados por disciplina
 │   ├── ambiental/                 # Criterios Jurisprudenciales de las Cortes y Compendios de TA
@@ -414,6 +430,16 @@ subgrafo = engine.consultar_subgrafo("simulacion")
 print(subgrafo["subgrafo_resumen_yaml"])
 # Consumo: ~180 tokens (vs. 2.800 tokens de la lectura del capítulo crudo) -> Ahorro: 93.5%
 ```
+
+---
+
+## ⚡ Catálogo eficiente (para harness y LLM)
+
+- **`llms.txt`** — mapa de una página: qué hay, dónde está y cómo citarlo (`[Hugging Face - <ruta>]`).
+- **`data/catalogo/instituciones_lite.jsonl`** — las fichas dogmáticas sin el contenido íntegro: **11,5 MB en vez de 83,6 MB** (el texto completo sigue disponible en `doctrina/`).
+- **`data/catalogo/train_lite.jsonl`** — índice de las 228 obras: **0,1 MB en vez de 74,9 MB**.
+- **`data/catalogo/indice_citas.jsonl`** — cada documento con sus secciones y enlace directo: permite citar a pie de página el apartado exacto.
+- **`data/catalogo/indice_agentes.json`** — rutas «tema → archivo» por área dogmática y formato de cita.
 
 ---
 
@@ -511,15 +537,7 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
             return staging_dir
 
         archivos_clave = [
-            "graph.json",
-            "graph.html",
-            "GRAPH_TREE.html",
-            "GRAPH_CALLFLOW.html",
             "GRAPH_REPORT.md",
-            "graph.graphml",
-            "cypher.txt",
-            "manifest.json",
-            ".graphify_analysis.json",
         ]
 
         for fname in archivos_clave:
@@ -970,6 +988,11 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
             }
 
         try:
+            # 0. Regenerar el catálogo eficiente (llms.txt, versiones ligeras, índices de citas y agentes)
+            optimizador = os.path.join(BASE_DIR, "scripts", "optimizar_catalogo_hf.py")
+            if os.path.exists(optimizador):
+                subprocess.run([sys.executable, optimizador], cwd=BASE_DIR, check=False)
+
             # 1. Generar data/train.jsonl, data/instituciones.jsonl y data/legal_knowledge_graph.json
             jsonl_res = self.generar_dataset_train_jsonl()
 
@@ -995,6 +1018,16 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                     repo_id=repo_id,
                     repo_type="dataset",
                     path_in_repo="data"
+                )
+
+            # 4 bis. Subir llms.txt (mapa del corpus para agentes)
+            llms_path = os.path.join(BASE_DIR, "llms.txt")
+            if os.path.exists(llms_path):
+                api.upload_file(
+                    path_or_fileobj=llms_path,
+                    path_in_repo="llms.txt",
+                    repo_id=repo_id,
+                    repo_type="dataset"
                 )
 
             # 5. Subir carpeta doctrina/ con todos los 58 archivos Markdown íntegros
@@ -1029,6 +1062,29 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                     path_in_repo="graphify"
                 )
 
+            # 7 bis. Quitar del repositorio los artefactos pesados que ya no se publican
+            #        (el grafo íntegro vive en data/legal_knowledge_graph.json; la wiki se mantiene)
+            pesados_eliminados: object = 0
+            try:
+                existentes = set(api.list_repo_files(repo_id=repo_id, repo_type="dataset"))
+                pesados = [
+                    "graphify/graph.json", "graphify/graph.graphml", "graphify/cypher.txt",
+                    "graphify/graph.html", "graphify/GRAPH_TREE.html", "graphify/GRAPH_CALLFLOW.html",
+                    "graphify/.graphify_analysis.json", "graphify/manifest.json",
+                ]
+                a_borrar = [p for p in pesados if p in existentes]
+                if a_borrar:
+                    ops = getattr(importlib.import_module("huggingface_hub"), "CommitOperationDelete")
+                    api.create_commit(
+                        repo_id=repo_id,
+                        repo_type="dataset",
+                        operations=[ops(path_in_repo=p) for p in a_borrar],
+                        commit_message="chore(dataset): aligerar graphify/ — el grafo vive en data/",
+                    )
+                    pesados_eliminados = len(a_borrar)
+            except Exception as e:
+                pesados_eliminados = f"error: {e}"
+
             # 8. Publicar o actualizar el Space interactivo
             space_res = None
             try:
@@ -1042,6 +1098,7 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                 "total_documentos": jsonl_res.get("total_documentos"),
                 "total_instituciones": jsonl_res.get("total_instituciones"),
                 "total_articulos_wiki": wiki_count,
+                "artefactos_pesados_eliminados": pesados_eliminados,
                 "url": f"https://huggingface.co/datasets/{repo_id}",
                 "space_url": space_res.get("url") if space_res and space_res.get("exito") else None,
                 "mensaje": f"Dataset y artefactos de Graphify publicados exitosamente en Hugging Face: https://huggingface.co/datasets/{repo_id}"

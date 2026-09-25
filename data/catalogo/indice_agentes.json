@@ -1,0 +1,166 @@
+{
+  "dataset": "pablobenavidesj/doctrina-jurisprudencia-chile",
+  "resumen": {
+    "documentos_doctrina": 228,
+    "guias_academia_judicial": 21,
+    "fichas": 11858,
+    "obras_indexadas": 228,
+    "registros_jurisprudencia": 72485,
+    "nodos_grafo": 12973,
+    "aristas_grafo": 28346
+  },
+  "como_citar": {
+    "formato": "[Hugging Face - <ruta>]",
+    "url": "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/<ruta>"
+  },
+  "rutas": [
+    {
+      "area": "Judicial",
+      "fichas": 3977,
+      "abrir": [
+        "doctrina/academia_judicial/01_Derechos-sexuales-y-reproductivos.md",
+        "doctrina/academia_judicial/Ley-Antidiscriminacion.md",
+        "doctrina/academia_judicial/Redaccion-de-documentos-legales.md"
+      ]
+    },
+    {
+      "area": "Penal",
+      "fichas": 1565,
+      "abrir": [
+        "doctrina/academia_judicial/Derecho-Internacional-humanitario-y-DPI.md",
+        "doctrina/academia_judicial/MD64-Corrupcion.md",
+        "doctrina/academia_judicial/08_Habilitante-Penal.md"
+      ]
+    },
+    {
+      "area": "Familia",
+      "fichas": 1221,
+      "abrir": [
+        "doctrina/academia_judicial/10_Habilitante-Familia.md",
+        "doctrina/academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md",
+        "doctrina/academia_judicial/07_Normativa-en-materia-de-filiacion.md"
+      ]
+    },
+    {
+      "area": "Laboral",
+      "fichas": 1131,
+      "abrir": [
+        "doctrina/academia_judicial/09_Habilitante-Laboral.md",
+        "doctrina/academia_judicial/02_Tutela-de-DD-fundamentales-en-el-contexto-del-DT.md",
+        "doctrina/academia_judicial/02_Tribunales-Laborales-nociones-basicas-org.-y-funcionamiento.md"
+      ]
+    },
+    {
+      "area": "Constitucional",
+      "fichas": 1030,
+      "abrir": [
+        "doctrina/academia_judicial/MD38-Introduccion-a-los-derechos-humanos.md",
+        "doctrina/academia_judicial/Empresa-y-DDHH.md",
+        "doctrina/academia_judicial/11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md"
+      ]
+    },
+    {
+      "area": "Procesal",
+      "fichas": 1003,
+      "abrir": [
+        "doctrina/manuales/Derecho-Procesal-profesora-Cerra.md",
+        "doctrina/academia_judicial/07_DERECHO-PROCESAL_03.md",
+        "doctrina/academia_judicial/Derecho-procesal-organico-y-funcional.md"
+      ]
+    },
+    {
+      "area": "General",
+      "fichas": 856,
+      "abrir": [
+        "doctrina/manuales/doctrina48981.md",
+        "doctrina/apuntes_orrego/El Derecho y el ordenamiento jurídico.md",
+        "doctrina/apuntes_orrego/La Tradición.md"
+      ]
+    },
+    {
+      "area": "Civil",
+      "fichas": 840,
+      "abrir": [
+        "doctrina/academia_judicial/03_Responsabilidad-civil-por-negligencia-medica.md",
+        "doctrina/apuntes_orrego/Ley 19537-Copropiedad Inmobiliaria.md",
+        "doctrina/apuntes_orrego/Teoría General del Contrato.md"
+      ]
+    },
+    {
+      "area": "Administrativo",
+      "fichas": 131,
+      "abrir": [
+        "doctrina/academia_judicial/Acceso-a-la-informacion-publica-y-Transparencia.md"
+      ]
+    },
+    {
+      "area": "Derecho Civil",
+      "fichas": 57,
+      "abrir": [
+        "doctrina/civil/ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md",
+        "doctrina/civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md",
+        "doctrina/civil/vial_del_rio_acto_juridico/01_voluntad_consentimiento_y_vicios.md"
+      ]
+    },
+    {
+      "area": "Derecho Procesal",
+      "fichas": 11,
+      "abrir": [
+        "doctrina/procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md",
+        "doctrina/procesal/maturana_mosquera_recursos/01_teoria_general_y_reposicion.md",
+        "doctrina/procesal/maturana_mosquera_recursos/02_recurso_de_apelacion.md"
+      ]
+    },
+    {
+      "area": "Derecho Administrativo",
+      "fichas": 9,
+      "abrir": [
+        "doctrina/administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md",
+        "doctrina/administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md",
+        "doctrina/administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md"
+      ]
+    },
+    {
+      "area": "Derecho Penal",
+      "fichas": 9,
+      "abrir": [
+        "doctrina/penal/cury_parte_general/01_legalidad_conducta_y_tipicidad.md",
+        "doctrina/penal/cury_parte_general/02_antijuridicidad_y_justificacion.md",
+        "doctrina/penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md"
+      ]
+    },
+    {
+      "area": "Derecho del Trabajo (Laboral)",
+      "fichas": 7,
+      "abrir": [
+        "doctrina/laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md",
+        "doctrina/laboral/gamonal_derecho_del_trabajo/01_principios_del_derecho_del_trabajo.md",
+        "doctrina/laboral/gamonal_derecho_del_trabajo/02_contrato_individual_y_despido.md"
+      ]
+    },
+    {
+      "area": "Derecho Constitucional",
+      "fichas": 7,
+      "abrir": [
+        "doctrina/constitucional/cea_derecho_constitucional/02_derechos_fundamentales_y_orden_economico.md",
+        "doctrina/constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md",
+        "doctrina/constitucional/cea_derecho_constitucional/03_recurso_de_proteccion_y_justicia_constitucional.md"
+      ]
+    },
+    {
+      "area": "Derecho Comercial",
+      "fichas": 4,
+      "abrir": [
+        "doctrina/comercial/sandoval_derecho_comercial/01_actos_de_comercio_y_sociedades_capital_spa.md",
+        "doctrina/comercial/sandoval_derecho_comercial/02_titulos_de_credito_y_concursos_ley_20720.md"
+      ]
+    }
+  ],
+  "archivos_clave": {
+    "fichas_lite": "data/catalogo/instituciones_lite.jsonl",
+    "obras_lite": "data/catalogo/train_lite.jsonl",
+    "indice_citas": "data/catalogo/indice_citas.jsonl",
+    "grafo": "data/legal_knowledge_graph.json",
+    "llms": "llms.txt"
+  }
+}

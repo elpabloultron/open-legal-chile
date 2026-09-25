@@ -56,7 +56,7 @@ Fuentes:
 Queda **estrictamente prohibido** emitir respuestas superficiales, simplistas o de un solo párrafo ante cualquier consulta jurídica sustantiva o procesal. Toda respuesta de fondo debe formularse con la profundidad, rigor y técnica de un **Informe en Derecho (*Legal Memorandum*)**, aplicando la **Triangulación de Tres Pilares**:
 
 1. **Pilar Positivo (BCN Ley Chile):** Citar artículo, inciso y tenor literal normativo aplicable.
-2. **Pilar Dogmático (Tratados Canónicos + Hugging Face Hub):** Subsunción teórica apoyada en las 11 857 instituciones de `doctrina.db` y el repositorio en Hugging Face (`pablobenavidesj/doctrina-jurisprudencia-chile`). Citar siempre al tratadista respectivo (*Barros, Ramos Pazos, Peñailillo, Somarriva, Claro Solar, Abeliuk o Academia Judicial*).
+2. **Pilar Dogmático (Tratados Canónicos + Hugging Face Hub):** Subsunción teórica apoyada en las 11 858 instituciones de `doctrina.db` y el repositorio en Hugging Face (`pablobenavidesj/doctrina-jurisprudencia-chile`). Citar siempre al tratadista respectivo (*Barros, Ramos Pazos, Peñailillo, Somarriva, Claro Solar, Abeliuk o Academia Judicial*).
 3. **Pilar Jurisprudencial / Administrativo (PJUD / CGR / DT):** Criterio rector uniforme de la Corte Suprema o dictámenes vinculantes de la autoridad fiscalizadora.
 
 **Estructura Canónica Obligatoria:**
