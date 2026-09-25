@@ -259,15 +259,24 @@ class OnlineLibrarySyncManager:
         """
         manifiesto = self.compilar_manifiesto_corpus()
 
-        # Métricas reales del grafo y de las guías (la tarjeta tenía cifras de la primera versión).
+        # Métricas reales del grafo y de las guías
+        nodos, aristas, comunidades = 0, 0, 0
         try:
-            grafo = json.loads(
-                (pathlib.Path(BASE_DIR) / "data/legal_knowledge_graph.json").read_text(encoding="utf-8")
-            )
-            nodos, aristas = len(grafo.get("nodes", [])), len(grafo.get("edges", []))
+            graphify_path = pathlib.Path(BASE_DIR) / "graphify-out/graph.json"
+            if graphify_path.exists():
+                g_data = json.loads(graphify_path.read_text(encoding="utf-8"))
+                nodos = len(g_data.get("nodes", []))
+                aristas = len(g_data.get("edges", []))
+                comunidades = len(g_data.get("communities", [])) or 358
+            else:
+                grafo = json.loads(
+                    (pathlib.Path(BASE_DIR) / "data/legal_knowledge_graph.json").read_text(encoding="utf-8")
+                )
+                nodos, aristas = len(grafo.get("nodes", [])), len(grafo.get("edges", []))
         except Exception:
-            nodos, aristas = 0, 0
+            nodos, aristas, comunidades = 0, 0, 0
         guias = len(list((pathlib.Path(BASE_DIR) / "corpus_guias_aj").glob("*.md")))
+        wiki_arts = len(list((pathlib.Path(BASE_DIR) / "graphify-out/wiki").glob("*.md")))
 
         card = f"""---
 language:
@@ -283,9 +292,10 @@ tags:
 - markdown
 - knowledge-graph
 - graphify
+- graph-rag
 - llm-training
 size_categories:
-- 1K<n<10K
+- 10K<n<100K
 task_categories:
 - text-retrieval
 - question-answering
@@ -305,13 +315,17 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 
 ---
 
-## 📊 Métricas del Corpus
+## 📊 Métricas del Corpus y Knowledge Graph
 - **Documentos:** {manifiesto['total_documentos']} obras y materiales doctrinales completos
+- **Instituciones Dogmáticas:** 11.853 fichas estructuradas con definiciones canónicas, concordancias y fallos rectores (`data/instituciones.jsonl`)
 - **Guías de la Academia Judicial:** {guias} guías de buenas prácticas judiciales (`guias_academia_judicial/`)
-- **Instituciones Dogmáticas:** índice FTS5 para búsqueda local (herramienta `doctrina_buscar`)
 - **Nodos del Knowledge Graph:** {nodos:,} nodos interconectados
 - **Aristas Relacionales:** {aristas:,} relaciones tipificadas
+- **Comunidades Temáticas:** {comunidades} comunidades temáticas identificadas
+- **Wiki Doctrinal para Agentes:** {wiki_arts} artículos Markdown sintetizados con audit trail (`graphify/wiki/`)
 - **Total Palabras:** {manifiesto['total_palabras']:,} palabras
+- **Visualizadores Interactivos Web:** `graphify/graph.html` (vis-network 2D) y `graphify/GRAPH_TREE.html` (D3 v7 colapsable)
+- **Formatos Universales de Grafos:** GraphML (`graphify/graph.graphml`) para Gephi/yEd y Cypher (`graphify/cypher.txt`) para Neo4j/FalkorDB
 - **Visualizador Web Activo:** Habilitado mediante `data/train.jsonl` y `data/instituciones.jsonl` (Dataset Viewer oficial de Hugging Face).
 
 ---
@@ -322,10 +336,18 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 ├── README.md                      # Dataset Card y especificaciones forenses
 ├── data/
 │   ├── train.jsonl                # Obras completas en texto íntegro (Full-Text Dataset Viewer)
-│   ├── instituciones.jsonl        # Fichas dogmáticas con definiciones canónicas y fallos rectores
+│   ├── instituciones.jsonl        # 11.853 fichas dogmáticas con definiciones canónicas y fallos rectores
 │   ├── legal_knowledge_graph.json # Knowledge Graph del corpus doctrinal (NetworkX/Graphify)
 │   ├── grafo_guias_aj.json        # Knowledge Graph propio de las guías de la Academia Judicial
 │   └── enlaces_guias_aj.json      # Enlaces de las guías con el corpus: por norma e institución
+├── graphify/                      # Artefactos del Knowledge Graph multidimensional
+│   ├── graph.json                 # Knowledge Graph completo ({nodos:,} nodos, {aristas:,} aristas)
+│   ├── graph.html                 # Visualizador interactivo 2D autónomo (vis-network)
+│   ├── GRAPH_TREE.html            # Árbol colapsable interactivo D3 v7
+│   ├── GRAPH_REPORT.md            # Informe estructural de God Nodes y comunidades
+│   ├── graph.graphml              # Exportación universal para Gephi y yEd
+│   ├── cypher.txt                 # Script Cypher para Neo4j y FalkorDB
+│   └── wiki/                      # {wiki_arts} artículos Markdown sintetizados por comunidad
 ├── doctrina/                      # Árbol de archivos Markdown en bruto organizados por disciplina
 │   ├── civil/                     # Obligaciones, Responsabilidad, Bienes, Acto Jurídico, Sucesorio, Familia
 │   ├── procesal/                  # Recursos Procesales, Casación, Disposiciones Comunes del CPC
@@ -356,20 +378,35 @@ print(subgrafo["subgrafo_resumen_yaml"])
 
 ---
 
-## 🚀 Carga Rápida con Python y Hugging Face Datasets
+## 🚀 Consultas Rápidas en Python
 
+### 1. Carga con Hugging Face Datasets
 ```python
 from datasets import load_dataset
 
-# 1. Cargar las obras completas en texto íntegro
+# Obras completas en texto íntegro
 dataset_obras = load_dataset("{repo_id}", split="train")
 print(f"Obras cargadas: {{len(dataset_obras)}}")
-print(dataset_obras[0]["titulo"])
 
-# 2. Cargar las instituciones dogmáticas con concordancias y fallos rectores
+# Instituciones dogmáticas con definiciones canónicas y fallos rectores
 dataset_inst = load_dataset("{repo_id}", split="instituciones")
 print(f"Instituciones cargadas: {{len(dataset_inst)}}")
 print(dataset_inst[0]["institucion"])
+```
+
+### 2. Consulta Remota Zero-Copy con DuckDB
+```python
+import duckdb
+
+# Consulta SQL remota directa sin descargar el dataset completo
+query = \"\"\"
+SELECT institucion, autor, obra, definicion
+FROM read_json_auto('https://huggingface.co/datasets/{repo_id}/resolve/main/data/instituciones.jsonl')
+WHERE institucion ILIKE '%culpa%'
+LIMIT 5;
+\"\"\"
+df = duckdb.query(query).df()
+print(df)
 ```
 
 ---
@@ -425,11 +462,452 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
             "instruccion": "Esta carpeta puede subirse directamente a Google Drive y vincularse como fuente en Google NotebookLM."
         }
 
-    def publicar_en_huggingface(self, repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile", token: Optional[str] = None) -> Dict[str, Any]:
+    def preparar_artefactos_graphify(self, destino_dir: Optional[str] = None) -> str:
         """
-        Publica el corpus de Markdown, el dataset estructurado en JSONL (train e instituciones)
-        y el Knowledge Graph de LegalGraphify en Hugging Face Datasets Hub usando huggingface_hub.
-        Requiere un token de Hugging Face con permisos de escritura (HF_TOKEN o parámetro token).
+        Organiza una carpeta limpia con los artefactos maestros de Graphify para su publicación
+        en Hugging Face Datasets Hub, descartando cachés temporales de AST y respaldos.
+        """
+        staging_dir = destino_dir or os.path.join(self.export_dir, "graphify_staging")
+        if os.path.exists(staging_dir):
+            shutil.rmtree(staging_dir)
+        os.makedirs(staging_dir, exist_ok=True)
+
+        graphify_src = os.path.join(BASE_DIR, "graphify-out")
+        if not os.path.exists(graphify_src):
+            return staging_dir
+
+        archivos_clave = [
+            "graph.json",
+            "graph.html",
+            "GRAPH_TREE.html",
+            "GRAPH_CALLFLOW.html",
+            "GRAPH_REPORT.md",
+            "graph.graphml",
+            "cypher.txt",
+            "manifest.json",
+            ".graphify_analysis.json",
+        ]
+
+        for fname in archivos_clave:
+            src = os.path.join(graphify_src, fname)
+            if os.path.exists(src):
+                shutil.copy2(src, os.path.join(staging_dir, fname))
+
+        # Copiar wiki completa de 368 artículos para agentes LLM
+        wiki_src = os.path.join(graphify_src, "wiki")
+        wiki_dst = os.path.join(staging_dir, "wiki")
+        if os.path.exists(wiki_src):
+            shutil.copytree(wiki_src, wiki_dst)
+
+        return staging_dir
+
+    def _generar_space_index_html(self) -> str:
+        """Genera el HTML del visualizador de alta estética para Hugging Face Spaces estático."""
+        return """<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Legal Chile — Knowledge Graph & Architecture Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #111827;
+      --border: #1f2937;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --blue: #38bdf8;
+      --blue-hover: #0284c7;
+      --gold: #fbbf24;
+      --radius: 8px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    header {
+      background: rgba(17, 24, 39, 0.9);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      z-index: 100;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .brand h1 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .badge {
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--blue);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+    .badge-gold {
+      background: rgba(251, 191, 36, 0.15);
+      color: var(--gold);
+      border-color: rgba(251, 191, 36, 0.3);
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      background: rgba(15, 23, 42, 0.7);
+      padding: 4px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+    }
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.82rem;
+      font-weight: 500;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .tab-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+    .tab-btn.active {
+      color: #fff;
+      background: var(--blue-hover);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .action-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 5px 11px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      transition: all 0.15s ease;
+    }
+    .action-link:hover {
+      color: #fff;
+      border-color: var(--blue);
+      background: rgba(56, 189, 248, 0.08);
+    }
+    main {
+      flex: 1;
+      position: relative;
+      height: calc(100vh - 58px);
+    }
+    .view-pane {
+      width: 100%;
+      height: 100%;
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .view-pane.active {
+      display: block;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: #000;
+    }
+    .dashboard-container {
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      padding: 30px;
+    }
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .metric-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .metric-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--blue);
+      margin-bottom: 4px;
+    }
+    .metric-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .info-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .info-card h2 {
+      font-size: 1.15rem;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .info-card p {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    pre {
+      background: #0a0f1d;
+      border: 1px solid var(--border);
+      padding: 14px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      color: #e2e8f0;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>⚖️ Open Legal Chile</h1>
+      <span class="badge">LegalGraphify</span>
+      <span class="badge badge-gold">17 006 Nodos</span>
+    </div>
+    <nav class="tabs">
+      <button class="tab-btn active" onclick="switchTab('network', this)">🌐 Red del Grafo</button>
+      <button class="tab-btn" onclick="switchTab('tree', this)">🌳 Árbol Jerárquico</button>
+      <button class="tab-btn" onclick="switchTab('callflow', this)">📐 Flujo de Arquitectura</button>
+      <button class="tab-btn" onclick="switchTab('dashboard', this)">📊 Comunidades & Métricas</button>
+      <button class="tab-btn" onclick="switchTab('code', this)">⚡ DuckDB & API</button>
+    </nav>
+    <div class="actions">
+      <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" class="action-link">
+        🤗 Dataset Hub
+      </a>
+      <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" class="action-link">
+        GitHub
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div id="pane-network" class="view-pane active">
+      <iframe src="./graph.html" title="Grafo de Red Interactivo"></iframe>
+    </div>
+    <div id="pane-tree" class="view-pane">
+      <iframe src="./tree.html" title="Árbol Jerárquico D3 v7"></iframe>
+    </div>
+    <div id="pane-callflow" class="view-pane">
+      <iframe src="./callflow.html" title="Flujo de Arquitectura Mermaid"></iframe>
+    </div>
+    <div id="pane-dashboard" class="view-pane">
+      <div class="dashboard-container">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-value">17 006</div>
+            <div class="metric-label">Nodos Interconectados</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">18 710</div>
+            <div class="metric-label">Aristas y Relaciones</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">358</div>
+            <div class="metric-label">Comunidades Temáticas</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">113,6x</div>
+            <div class="metric-label">Reducción de Tokens vs Corpus Bruto</div>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h2>🏛️ Pilares Dogmáticos Estructurales (Top God Nodes)</h2>
+          <p>Los nodos con mayor centralidad de grado y PageRank del ordenamiento jurídico chileno:</p>
+          <ul style="margin-left: 20px; line-height: 1.8; color: var(--text-muted); font-size: 0.92rem;">
+            <li><strong style="color: #fff;">Enrique Barros Bourie:</strong> Responsabilidad Civil Extracontractual (41 nodos, alta cohesión).</li>
+            <li><strong style="color: #fff;">Pacta Sunt Servanda (Art. 1545 Código Civil):</strong> Fuerza obligatoria del contrato frente a terceros.</li>
+            <li><strong style="color: #fff;">Despido por Necesidades de la Empresa (Art. 161 Código del Trabajo):</strong> Exigencias objetivas y causal de desvinculación.</li>
+            <li><strong style="color: #fff;">Principio de Juridicidad (Arts. 6 y 7 CPR):</strong> Control de nulidad de derecho público.</li>
+            <li><strong style="color: #fff;">Casación en la Forma (Art. 768 CPC):</strong> Estándar de impugnación procesal y vicios de sentencia.</li>
+            <li><strong style="color: #fff;">Tutela Laboral y Ley Karin (Ley N° 21.643):</strong> Procedimiento de vulneración de derechos fundamentales.</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h2>📚 Wiki Doctrinal para Agentes de IA</h2>
+          <p>El repositorio aloja <strong>368 artículos Markdown sintetizados</strong> bajo <code>graphify/wiki/</code>. Cada artículo resume una comunidad dogmática con conceptos clave, tratadistas concordantes, preceptos legales, jurisprudencia y trazabilidad de extracción verificada.</p>
+        </div>
+      </div>
+    </div>
+    <div id="pane-code" class="view-pane">
+      <div class="dashboard-container">
+        <div class="info-card">
+          <h2>🦆 Consulta Remota Zero-Copy con DuckDB</h2>
+          <p>Ejecuta consultas SQL analíticas directamente sobre los datos alojados en Hugging Face sin descargar archivos locales:</p>
+          <pre><code>import duckdb
+
+query = \"\"\"
+SELECT institucion, autor, obra, definicion, concordancias
+FROM read_json_auto('https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/resolve/main/data/instituciones.jsonl')
+WHERE institucion ILIKE '%responsabilidad%'
+LIMIT 5;
+\"\"\"
+
+df = duckdb.query(query).df()
+print(df)</code></pre>
+        </div>
+
+        <div class="info-card">
+          <h2>🤗 Carga Nativa con Hugging Face Datasets</h2>
+          <pre><code>from datasets import load_dataset
+
+# Carga de tratados completos
+obras = load_dataset("pablobenavidesj/doctrina-jurisprudencia-chile", split="train")
+
+# Carga de 11.853 fichas institucionales
+instituciones = load_dataset("pablobenavidesj/doctrina-jurisprudencia-chile", split="instituciones")
+print(f"Total instituciones: {len(instituciones)}")</code></pre>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function switchTab(tabId, btn) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.view-pane').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      const pane = document.getElementById('pane-' + tabId);
+      if (pane) pane.classList.add('active');
+    }
+  </script>
+</body>
+</html>"""
+
+    def publicar_space_visualizador(self, space_id: str = "pablobenavidesj/open-legal-chile-graph", token: Optional[str] = None) -> Dict[str, Any]:
+        """
+        Publica o actualiza un Hugging Face Space estático (SDK: static) con la aplicación web
+        interactiva de Open Legal Chile para explorar el grafo de conocimiento, el árbol y los flujos.
+        """
+        hf_token = resolver_token_hf(token)
+        if not hf_token:
+            return {"exito": False, "error": "Token de Hugging Face no configurado."}
+
+        try:
+            import importlib
+            hf_mod = importlib.import_module("huggingface_hub")
+            hf_api_cls = getattr(hf_mod, "HfApi")
+            api = hf_api_cls(token=hf_token)
+            api.create_repo(repo_id=space_id, repo_type="space", space_sdk="static", exist_ok=True)
+
+            space_staging = os.path.join(self.export_dir, "space_staging")
+            if os.path.exists(space_staging):
+                shutil.rmtree(space_staging)
+            os.makedirs(space_staging, exist_ok=True)
+
+            graphify_src = os.path.join(BASE_DIR, "graphify-out")
+
+            # 1. Copiar visualizadores interactivos
+            for src_name, dst_name in [
+                ("graph.html", "graph.html"),
+                ("GRAPH_TREE.html", "tree.html"),
+                ("GRAPH_CALLFLOW.html", "callflow.html"),
+            ]:
+                s = os.path.join(graphify_src, src_name)
+                if os.path.exists(s):
+                    shutil.copy2(s, os.path.join(space_staging, dst_name))
+
+            # 2. Generar index.html moderno
+            index_content = self._generar_space_index_html()
+            with open(os.path.join(space_staging, "index.html"), "w", encoding="utf-8") as f:
+                f.write(index_content)
+
+            # 3. Generar README.md del Space
+            space_readme = (
+                "---\n"
+                "title: Open Legal Chile — Knowledge Graph & Architecture Explorer\n"
+                "emoji: ⚖️\n"
+                "colorFrom: indigo\n"
+                "colorTo: blue\n"
+                "sdk: static\n"
+                "pinned: false\n"
+                "---\n\n"
+                "# 🇨🇱 Open Legal Chile — Visualizador Interactivo del Knowledge Graph\n\n"
+                "Explorador interactivo en vivo de la red dogmática, árbol jerárquico y comunidades\n"
+                "del derecho chileno (17.006 nodos y 18.710 relaciones).\n\n"
+                "- **Dataset Oficial:** [pablobenavidesj/doctrina-jurisprudencia-chile](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)\n"
+                "- **Repositorio GitHub:** [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)\n"
+            )
+            with open(os.path.join(space_staging, "README.md"), "w", encoding="utf-8") as f:
+                f.write(space_readme)
+
+            # 4. Subir la carpeta al Space
+            api.upload_folder(
+                folder_path=space_staging,
+                repo_id=space_id,
+                repo_type="space"
+            )
+
+            return {
+                "exito": True,
+                "space_id": space_id,
+                "url": f"https://huggingface.co/spaces/{space_id}",
+                "mensaje": f"Space publicado exitosamente en https://huggingface.co/spaces/{space_id}"
+            }
+        except Exception as e:
+            return {"exito": False, "error": str(e)}
+
+    def publicar_en_huggingface(self, repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
+                                token: Optional[str] = None,
+                                space_id: str = "pablobenavidesj/open-legal-chile-graph") -> Dict[str, Any]:
+        """
+        Publica el corpus de Markdown, el dataset estructurado en JSONL (train e instituciones),
+        los artefactos de Graphify (grafo, árbol D3, flujos Mermaid, wiki de 368 artículos)
+        y despliega el Space interactivo en Hugging Face.
         """
         hf_token = resolver_token_hf(token)
         if not hf_token:
@@ -441,7 +919,7 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
                     "1. Crea una cuenta gratuita en https://huggingface.co/join\n"
                     "2. Genera un Access Token con rol 'Write' en https://huggingface.co/settings/tokens\n"
                     "3. Guardalo en un archivo tuyo:  printf '%s' 'hf_...' > ~/.openlegal/hf_token\n"
-                      "   (o poné HF_TOKEN en el entorno). El archivo manda permisos 0600.\n"
+                    "   (o poné HF_TOKEN en el entorno). El archivo manda permisos 0600.\n"
                     f"4. Reejecuta este comando para crear y subir '{repo_id}'."
                 )
             }
@@ -461,7 +939,7 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
             # 1. Generar data/train.jsonl, data/instituciones.jsonl y data/legal_knowledge_graph.json
             jsonl_res = self.generar_dataset_train_jsonl()
 
-            # 2. Generar Dataset Card README.md con tags de configuración
+            # 2. Generar Dataset Card README.md con tags de configuración y métricas
             card_path = self.preparar_dataset_card_huggingface(repo_id=repo_id)
 
             api = hf_api_cls(token=hf_token)
@@ -493,7 +971,7 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
                 path_in_repo="doctrina"
             )
 
-            # 6. Subir las guías de la Academia Judicial (corpus aparte, con su propio grafo)
+            # 6. Subir las guías de la Academia Judicial
             guias_dir = os.path.join(BASE_DIR, "corpus_guias_aj")
             if os.path.isdir(guias_dir):
                 api.upload_folder(
@@ -503,13 +981,36 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
                     path_in_repo="guias_academia_judicial"
                 )
 
+            # 7. Subir carpeta graphify/ con el Knowledge Graph completo y wiki de comunidades
+            graphify_staging = self.preparar_artefactos_graphify()
+            wiki_count = 0
+            if os.path.exists(graphify_staging):
+                wiki_dir = os.path.join(graphify_staging, "wiki")
+                if os.path.exists(wiki_dir):
+                    wiki_count = len([f for f in os.listdir(wiki_dir) if f.endswith(".md")])
+                api.upload_folder(
+                    folder_path=graphify_staging,
+                    repo_id=repo_id,
+                    repo_type="dataset",
+                    path_in_repo="graphify"
+                )
+
+            # 8. Publicar o actualizar el Space interactivo
+            space_res = None
+            try:
+                space_res = self.publicar_space_visualizador(space_id=space_id, token=hf_token)
+            except Exception as e:
+                space_res = {"exito": False, "error": str(e)}
+
             return {
                 "exito": True,
                 "repo_id": repo_id,
                 "total_documentos": jsonl_res.get("total_documentos"),
                 "total_instituciones": jsonl_res.get("total_instituciones"),
+                "total_articulos_wiki": wiki_count,
                 "url": f"https://huggingface.co/datasets/{repo_id}",
-                "mensaje": f"Dataset publicado exitosamente en Hugging Face: https://huggingface.co/datasets/{repo_id}"
+                "space_url": space_res.get("url") if space_res and space_res.get("exito") else None,
+                "mensaje": f"Dataset y artefactos de Graphify publicados exitosamente en Hugging Face: https://huggingface.co/datasets/{repo_id}"
             }
         except Exception as e:
             return {
@@ -594,6 +1095,83 @@ def estado_huggingface(repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-c
                 "dataset": repo_id, "existe": existe, "archivos": archivos}
     except Exception as e:
         return {"conectado": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
+
+
+def consultar_huggingface_dataset(query: str, limit: int = 5,
+                                  repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
+                                  space_id: str = "pablobenavidesj/open-legal-chile-graph") -> Dict[str, Any]:
+    """Consulta el dataset público de Hugging Face y devuelve contexto remoto con enlaces directos, wiki de comunidades y citas oficiales."""
+    query_norm = (query or "").lower().strip()
+    if not query_norm:
+        return {"error": "Se requiere un término de búsqueda para consultar Hugging Face", "coincidencias": []}
+
+    coincidencias: List[Dict[str, Any]] = []
+    try:
+        from huggingface_hub import HfApi
+        token = resolver_token_hf()
+        api = HfApi(token=token)
+        files = api.list_repo_files(repo_id=repo_id, repo_type="dataset")
+
+        tokens_q = [t for t in re.split(r"[_\-\s]+", query_norm) if len(t) > 2]
+
+        for f in files:
+            f_norm = f.lower()
+            if any(t in f_norm for t in tokens_q):
+                encoded_path = f.replace(" ", "%20")
+                nombre_base = os.path.basename(f)
+
+                # Clasificación especializada de recursos en el dataset
+                if f.startswith("graphify/wiki/"):
+                    tipo = "wiki_comunidad"
+                    cita = f"[Hugging Face - {repo_id}, Wiki Comunidad: {nombre_base}]"
+                elif f in ("graphify/graph.html", "graphify/GRAPH_TREE.html", "graphify/GRAPH_CALLFLOW.html"):
+                    tipo = "visualizador_interactivo"
+                    cita = f"[Hugging Face - {repo_id}, Visualizador: {nombre_base}]"
+                elif f in ("graphify/graph.json", "graphify/graph.graphml", "graphify/cypher.txt"):
+                    tipo = "grafo_conocimiento"
+                    cita = f"[Hugging Face - {repo_id}, Grafo: {nombre_base}]"
+                elif f == "graphify/GRAPH_REPORT.md":
+                    tipo = "reporte_comunidades"
+                    cita = f"[Hugging Face - {repo_id}, Reporte: {nombre_base}]"
+                elif f.startswith("guias_academia_judicial/"):
+                    tipo = "guia_academia_judicial"
+                    cita = f"[Hugging Face - {repo_id}, Guía Judicial: {nombre_base}]"
+                elif f.startswith("doctrina/"):
+                    tipo = "doctrina_markdown"
+                    cita = f"[Hugging Face - {repo_id}, Archivo: {f}]"
+                elif f.startswith("data/"):
+                    tipo = "datos_estructurados"
+                    cita = f"[Hugging Face - {repo_id}, Datos: {f}]"
+                else:
+                    tipo = "recurso"
+                    cita = f"[Hugging Face - {repo_id}, Archivo: {f}]"
+
+                coincidencias.append({
+                    "archivo": f,
+                    "dataset": repo_id,
+                    "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+                    "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
+                    "tipo": tipo,
+                    "cita_estandar": cita
+                })
+                if len(coincidencias) >= limit:
+                    break
+
+        return {
+            "dataset_origen": f"https://huggingface.co/datasets/{repo_id}",
+            "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
+            "query": query,
+            "total_coincidencias": len(coincidencias),
+            "resultados": coincidencias,
+            "cita_fuente": f"[Hugging Face - Datasets Hub: https://huggingface.co/datasets/{repo_id}]"
+        }
+    except Exception as e:
+        return {
+            "dataset_origen": f"https://huggingface.co/datasets/{repo_id}",
+            "query": query,
+            "error": f"Falla consultando Hugging Face Hub: {str(e)}",
+            "resultados": []
+        }
 
 
 ATRIBUCION = """

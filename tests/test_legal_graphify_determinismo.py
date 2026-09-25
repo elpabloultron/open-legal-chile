@@ -23,7 +23,7 @@ from legal_graphify import LegalGraphifyEngine, DEFAULT_GRAPH_PATH
 # Ficha de 'simulacion' con el corpus y el grafo actuales (967 nodos / 1366 aristas).
 # Si cambia el corpus o el motor a propósito, este valor se actualiza A MANO y se deja dicho
 # en el mensaje del commit: nunca se ajusta para que la prueba pase.
-FICHA_ESPERADA_SHA = "ffa0fc1b7320f82e"
+FICHA_ESPERADA_SHA = "ffa0fc1b7320f82e"  # pragma: allowlist secret
 TOKENS_ESPERADOS = 299
 
 

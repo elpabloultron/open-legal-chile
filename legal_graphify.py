@@ -1211,7 +1211,7 @@ class LegalGraphifyEngine:
             for edges_param in [None, "edges", "links"]:
                 candidato = _interpretar_con(edges_param)
                 if candidato is not None and candidato.number_of_nodes() > 0:
-                    loaded_graph = candidato
+                    loaded_graph = nx.DiGraph(candidato) if not candidato.is_directed() else candidato
                     break
 
             if loaded_graph is None or loaded_graph.number_of_nodes() == 0:

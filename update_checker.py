@@ -15,7 +15,7 @@ from typing import Dict, Any, Optional, Tuple
 
 from config import safe_urlopen
 
-CURRENT_VERSION = "1.3.0"
+CURRENT_VERSION = "1.6.4"
 PYPI_URL = "https://pypi.org/pypi/openlegal-chile/json"
 GITHUB_RELEASES_URL = "https://api.github.com/repos/elpabloultron/open-legal-chile/releases/latest"
 CACHE_FILE = os.path.join(os.path.dirname(__file__), ".update_cache.json")

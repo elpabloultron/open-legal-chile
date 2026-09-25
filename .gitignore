@@ -47,6 +47,11 @@ Thumbs.db
 scratch/
 scratch_*.py
 graphify-out/cache/
+graphify-out/[0-9]*/
+graphify-out/*.sig
+graphify-out/.graphify_labels.json*
+graphify-out/*.graphml
+graphify-out/cypher.txt
 uv.lock
 .update_cache.json
 

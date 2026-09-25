@@ -317,7 +317,9 @@ def search_doctrina(
             "autor": r[7],
             "obra": r[8],
             "operativa_procesal": r[9] if len(r) > 9 else "",
-            "bm25_score": round(float(r[10]), 4) if len(r) > 10 else 0.0
+            "bm25_score": round(float(r[10]), 4) if len(r) > 10 else 0.0,
+            "cita_oficial": f"[Doctrina - {r[7]}, {r[8]}, Institución: {r[1]}]",
+            "fuente_huggingface": "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"
         })
 
     conn.close()
@@ -392,7 +394,9 @@ def get_institucion(
         "concordancias": row[9],
         "fallo_rector": row[10],
         "filepath": row[11],
-        "tokens_aprox": row[12]
+        "tokens_aprox": row[12],
+        "cita_oficial": f"[Doctrina - {row[2]}, {row[3]}, Institución: {row[5]}]",
+        "fuente_huggingface": "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"
     }
 
 

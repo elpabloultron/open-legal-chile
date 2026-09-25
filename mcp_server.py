@@ -142,7 +142,9 @@ TOOLS = [
                 "entrada": {"type": "string", "description": "ruta de la carpeta o del archivo, o el texto mismo"},
                 "tipo": {"type": "string", "enum": ["carpeta", "texto", "consulta"],
                          "description": "cómo interpretar la entrada (por defecto se deduce)"},
-                "consulta": {"type": "string", "description": "la pregunta u objetivo, para que el plan apunte a eso"}
+                "consulta": {"type": "string", "description": "la pregunta u objetivo, para que el plan apunte a eso"},
+                "estudio_completo": {"type": "boolean",
+                                     "description": "Si es True, realiza en un solo paso local el análisis, consulta de marco normativo BCN y doctrina FTS5, consolidando la respuesta sin turnos adicionales"}
             },
             "required": ["entrada"]
         }
@@ -913,6 +915,18 @@ TOOLS = [
         }
     },
     {
+        "name": "huggingface_search_dataset",
+        "description": "Consulta el repositorio público oficial en Hugging Face Datasets Hub (pablobenavidesj/doctrina-jurisprudencia-chile) y recupera contexto y enlaces directos con citas oficiales.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Término de búsqueda doctrinal o institucional (ej. 'responsabilidad', 'despido', 'contratos')"},
+                "limit": {"type": "integer", "description": "Número máximo de archivos o recursos a devolver (por defecto 5)", "default": 5}
+            },
+            "required": ["query"]
+        }
+    },
+    {
         "name": "suite_telemetria_stats",
         "description": "Consulta estadísticas de adopción, descargas en PyPI, comunidad GitHub y métricas locales de la suite.",
         "inputSchema": {
@@ -1145,6 +1159,9 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
         elif name == "grafo_ver_caso":
             return grafo_vista.ver_caso(args.get("ruta", ""))
         elif name == "caso_analizar":
+            if bool(args.get("estudio_completo", False)):
+                return case_intake.caso_estudio_completo(args.get("entrada", ""), args.get("tipo"),
+                                                         args.get("consulta", ""))
             return case_intake.caso_analizar(args.get("entrada", ""), args.get("tipo"),
                                              args.get("consulta", ""))
         elif name == "caso_ejecutar":
@@ -1636,6 +1653,12 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                 manif["tar_gz"] = tar
                 manif["drive_bundle"] = drive
             return manif
+        elif name == "huggingface_search_dataset":
+            q = args.get("query")
+            if not q:
+                return {"error": "El parámetro 'query' es obligatorio."}
+            from online_library_sync import consultar_huggingface_dataset
+            return consultar_huggingface_dataset(query=q, limit=int(args.get("limit") or 5))
         elif name == "suite_telemetria_stats":
             from stats_tracker import get_suite_adoption_metrics
             return get_suite_adoption_metrics()
@@ -1683,8 +1706,74 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     except Exception as e:
         return {"error": f"Error ejecutando '{name}': {str(e)}"}
 
+TOOL_PROFILES: Dict[str, List[str]] = {
+    "laboral": [
+        "caso_analizar", "caso_ejecutar", "bcn_get_codigo", "bcn_get_ley",
+        "dt_search_doctrina", "pjud_search_jurisprudencia", "pjud_analizar_sentencia",
+        "doctrina_search", "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier"
+    ],
+    "inmobiliario": [
+        "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "cbr_estudio_titulos",
+        "cbr_checklist_documentos", "cpc_validar_mandato", "doctrina_search",
+        "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier"
+    ],
+    "litigios": [
+        "caso_analizar", "caso_ejecutar", "bcn_get_codigo", "bcn_get_ley",
+        "pjud_search_jurisprudencia", "pjud_analizar_sentencia", "pjud_interpretar_proveido",
+        "recurso_proteccion_generar", "cpc_validar_mandato", "doctrina_search",
+        "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier", "ocr_extract_pdf"
+    ],
+    "regulatorio": [
+        "caso_analizar", "bcn_get_ley", "cgr_search_jurisprudencia", "cgr_search_auditorias",
+        "infoprobidad_get_dip", "cmf_search_normativa", "cmf_buscar_sanciones",
+        "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "sma_search_sancionatorios",
+        "ambiental_buscar_jurisprudencia", "cne_get_centrales_y_proyectos", "panel_expertos_search",
+        "tdlc_search_jurisprudencia", "tdlc_buscar_icg_y_dictamenes", "entes_consultar_organo",
+        "export_brief_ojv"
+    ],
+    "corporativo": [
+        "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "cmf_search_normativa",
+        "cmf_buscar_sanciones", "sii_search_circulares", "sii_buscar_resoluciones_y_oficios",
+        "tdlc_search_jurisprudencia", "inapi_evaluar_marca", "inapi_cease_and_desist",
+        "privacidad_tramitar_arco", "rut_validar_chile", "export_brief_ojv"
+    ],
+    "dogmatico": [
+        "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "doctrina_search",
+        "doctrina_get_institucion", "doctrina_list_obras", "graphify_consulta_subgrafo",
+        "graphify_trazar_camino", "graphify_explicar_institucion", "graphify_analizar_impacto",
+        "graphify_god_nodes", "graphify_resumen_comunidades", "academia_judicial_buscar_guias",
+        "grafo_ver_corpus", "huggingface_search_dataset"
+    ],
+    "clinica": [
+        "clinica_lenguaje_claro", "clinica_intake_social", "clinica_auditar_borrador",
+        "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "export_brief_ojv"
+    ]
+}
+
+
+def get_active_tools(profile_name: Optional[str] = None) -> List[Dict[str, Any]]:
+    """Devuelve las herramientas activas según el perfil solicitado o la variable OPENLEGAL_PROFILE.
+    
+    Permite reducir la ventana de contexto de ~18.000 tokens a ~2.500 tokens para agentes especializados.
+    """
+    prof = (profile_name or os.environ.get("OPENLEGAL_PROFILE") or "").lower().strip()
+    if prof and prof in TOOL_PROFILES:
+        nombres = set(TOOL_PROFILES[prof])
+        return [t for t in TOOLS if t["name"] in nombres]
+    return TOOLS
+
+
 def main():
     """Bucle principal JSON-RPC 2.0 para el servidor MCP."""
+    profile_cli = None
+    for i, a in enumerate(sys.argv):
+        if a == "--profile" and i + 1 < len(sys.argv):
+            profile_cli = sys.argv[i + 1]
+        elif a.startswith("--profile="):
+            profile_cli = a.split("=", 1)[1]
+
+    tools_to_expose = get_active_tools(profile_cli)
+
     for line in sys.stdin:
         line = line.strip()
         if not line:
@@ -1721,7 +1810,7 @@ def main():
                     "jsonrpc": "2.0",
                     "id": req_id,
                     "result": {
-                        "tools": TOOLS
+                        "tools": tools_to_expose
                     }
                 }
             elif method == "tools/call":
@@ -1729,6 +1818,13 @@ def main():
                 tool_args = params.get("arguments", {})
                 res = handle_tool_call(tool_name, tool_args)
                 is_error = isinstance(res, dict) and "error" in res
+
+                # Formateo denso para ahorro de tokens (25-40% menos tokens que indent=2)
+                if os.environ.get("OPENLEGAL_PRETTY", "").lower() in ("1", "true", "yes"):
+                    payload_text = json.dumps(res, ensure_ascii=False, indent=2)
+                else:
+                    payload_text = json.dumps(res, ensure_ascii=False, separators=(',', ':'))
+
                 resp = {
                     "jsonrpc": "2.0",
                     "id": req_id,
@@ -1736,7 +1832,7 @@ def main():
                         "content": [
                             {
                                 "type": "text",
-                                "text": json.dumps(res, ensure_ascii=False, indent=2)
+                                "text": payload_text
                             }
                         ],
                         "isError": is_error
@@ -1758,7 +1854,7 @@ def main():
                     }
                 }
 
-            sys.stdout.write(json.dumps(resp, ensure_ascii=False) + "\n")
+            sys.stdout.write(json.dumps(resp, ensure_ascii=False, separators=(',', ':')) + "\n")
             sys.stdout.flush()
 
         except Exception as e:

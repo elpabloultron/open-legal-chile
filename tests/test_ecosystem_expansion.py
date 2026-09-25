@@ -249,7 +249,5 @@ class TestMCPServerNewTools:
         assert len(res) >= 1
 
     def test_mcp_total_tools_count(self):
-        # 74: 69 de base, más las dos de la mesa de entrada (caso_analizar y caso_ejecutar), las dos
-        # del visor de grafos (grafo_ver_corpus y grafo_ver_caso) y el resumen por comunidades
-        # (graphify_resumen_comunidades).
-        assert len(TOOLS) == 74
+        # 75: 74 de base más la consulta directa al Datasets Hub de Hugging Face (huggingface_search_dataset).
+        assert len(TOOLS) == 75

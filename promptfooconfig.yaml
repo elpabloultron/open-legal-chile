@@ -1,0 +1,82 @@
+description: "Open Legal Chile — Suite de Evaluación E2E de Razonamiento Jurídico y Anti-Alucinación"
+
+prompts:
+  - "{{pregunta}}"
+
+providers:
+  - id: "python:evals/promptfoo_provider.py"
+    label: "Open Legal Chile Engine"
+    config:
+      pythonExecutable: ".venv/bin/python"
+
+tests:
+  - description: "Caso 1: Ley Karin N° 21.643 - Acoso Laboral y Sexual"
+    vars:
+      pregunta: "¿Cuáles son las modificaciones principales que introduce la Ley N° 21.643 al Código del Trabajo respecto a la investigación del acoso laboral y sexual?"
+    assert:
+      - type: icontains
+        value: "21.643"
+      - type: icontains
+        value: "Art. 2 del Código del Trabajo"
+      - type: icontains
+        value: "Protocolo de prevención"
+      - type: icontains
+        value: "Medidas de resguardo inmediatas"
+      - type: not-icontains
+        value: "at-will"
+      - type: not-icontains
+        value: "Title VII"
+      - type: not-icontains
+        value: "OSHA"
+      - type: not-icontains
+        value: "punitive damages"
+
+  - description: "Caso 2: Confianza Legítima Contratas CGR"
+    vars:
+      pregunta: "¿Qué criterio jurisprudencial sostiene la Contraloría General de la República (CGR) respecto al principio de confianza legítima en la no renovación de contratas de más de 5 años?"
+    assert:
+      - type: icontains
+        value: "Confianza legítima"
+      - type: icontains
+        value: "Dictamen CGR"
+      - type: not-icontains
+        value: "subpoena"
+      - type: not-icontains
+        value: "grand jury"
+      - type: not-icontains
+        value: "discovery"
+
+  - description: "Caso 3: Recurso de Protección Constitucional"
+    vars:
+      pregunta: "¿Cuál es el plazo fatal y los requisitos de admisibilidad para interponer un Recurso de Protección ante la Corte de Apelaciones conforme al Auto Acordado de la Corte Suprema?"
+    assert:
+      - type: icontains
+        value: "30 días"
+      - type: icontains
+        value: "Auto Acordado"
+      - type: not-icontains
+        value: "habeas corpus federal"
+      - type: not-icontains
+        value: "injunction bond"
+
+  - description: "Caso 4: Procedimiento Sancionatorio SMA"
+    vars:
+      pregunta: "¿En qué plazo puede un titular sancionado por la SMA presentar un Programa de Cumplimiento (PdC) tras la formulación de cargos y qué efectos produce su aprobación?"
+    assert:
+      - type: icontains
+        value: "20.417"
+      - type: icontains
+        value: "10 o 15 días"
+      - type: not-icontains
+        value: "EPA consent decree"
+
+  - description: "Caso 5: Peajes Eléctricos y Contratos PPA"
+    vars:
+      pregunta: "¿Cuál es el régimen legal aplicable a la fijación de peajes de transmisión y servidumbres eléctricas para proyectos de energía renovable en Chile?"
+    assert:
+      - type: icontains
+        value: "4/2006"
+      - type: icontains
+        value: "Panel de Expertos"
+      - type: not-icontains
+        value: "FERC"

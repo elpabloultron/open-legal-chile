@@ -39,7 +39,9 @@ dependencies = [
   "numpy>=1.26",
   "scipy>=1.11",
   # Documentos de trabajo en Word (.docx): los escritos se entregan editables, no en PDF.
-  "python-docx>=1.1.0"
+  "python-docx>=1.1.0",
+  # Sincronización y publicación con Hugging Face Datasets Hub
+  "huggingface-hub>=0.20.0"
   ]
 
 [project.optional-dependencies]
