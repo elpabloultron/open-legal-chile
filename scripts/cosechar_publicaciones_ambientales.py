@@ -147,13 +147,13 @@ def boletines_historicos(ya: set[str]) -> list[dict]:
     for n in range(1, 40):
         if str(n) in ya:
             continue
+        posts: list[str] = []
         try:
             r = requests.get("https://3ta.cl/", params={"s": f"boletin n{n}"}, headers=HEADERS, timeout=25)
-            if r.status_code != 200:
-                continue
-            posts = sorted(set(re.findall(r'href="(https://3ta\.cl/noticias/boletin-n' + str(n) + r'(?!\d)[^"]+)"', r.text)))
-        except Exception:
-            continue
+            if r.status_code == 200:
+                posts = sorted(set(re.findall(r'href="(https://3ta\.cl/noticias/boletin-n' + str(n) + r'(?!\d)[^"]+)"', r.text)))
+        except requests.RequestException as e:
+            print(f"    [!] búsqueda del boletín n{n}: {e}", file=sys.stderr)
         for p in posts[:1]:
             pdf = primer_pdf(p)
             res.append({
