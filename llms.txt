@@ -1,0 +1,23 @@
+# Open Legal Chile — corpus jurídico chileno en Markdown
+> Doctrina íntegra (228 documentos), guías oficiales de la Academia Judicial (21),
+> fichas dogmáticas densas (11,858), jurisprudencia (72,485 registros de los Tribunales
+> Ambientales, Corte Suprema y Tribunal Constitucional) y un grafo de conocimiento con
+> reducción masiva de tokens.
+
+## Para agentes y LLM
+- Fichas de ~91 tokens (mediana) en vez de obras de ~96.536 tokens: `data/catalogo/instituciones_lite.jsonl`
+- Índice de obras (sin texto) con ruta al documento íntegro: `data/catalogo/train_lite.jsonl`
+- Índice de citas por archivo y sección: `data/catalogo/indice_citas.jsonl`
+- Rutas «tema → archivo»: `data/catalogo/indice_agentes.json`
+- Grafo (nodos y relaciones con archivo de origen): `data/legal_knowledge_graph.json`
+- Texto íntegro de cada obra: `doctrina/<ruta>.md` · Guías: `guias_academia_judicial/<ruta>.md`
+- Jurisprudencia: `data/jurisprudencia/*.jsonl` (ambiental, Corte Suprema, Tribunal Constitucional)
+
+## Formato de cita
+- Conversación: primero la respuesta y, al final, la lista de fuentes.
+- Documento (informe, memorándum, escrito): cita a pie de página numerada.
+- Cada fuente: `[Hugging Face - <ruta en el dataset>]`. Ejemplo: `[Hugging Face - doctrina/civil/ramos_pazos_obligaciones/01_concepto.md]`
+- Sin fuente identificable se dice «sin fuente verificable»; un dato con varias fuentes se cita con todas.
+
+## Licencia
+Documentos de terceros redistribuidos con atribución (ver la tarjeta del dataset).
