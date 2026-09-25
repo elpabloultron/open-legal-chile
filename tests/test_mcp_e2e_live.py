@@ -53,7 +53,7 @@ class MCPClientRunner:
             except Exception:
                 self.proc.kill()
 
-    def send_request(self, method: str, params: dict = None) -> dict:
+    def send_request(self, method: str, params: dict | None = None) -> dict:
         self.req_counter += 1
         req_id = self.req_counter
         msg = {
@@ -65,19 +65,20 @@ class MCPClientRunner:
             msg["params"] = params
 
         line = json.dumps(msg, ensure_ascii=False) + "\n"
+        assert self.proc is not None and self.proc.stdin is not None and self.proc.stdout is not None
         self.proc.stdin.write(line)
         self.proc.stdin.flush()
 
         resp_line = self.proc.stdout.readline()
         if not resp_line:
-            stderr = self.proc.stderr.read()
+            stderr = self.proc.stderr.read() if self.proc.stderr else ""
             raise RuntimeError(f"Servidor MCP cerró el stream sin respuesta. Stderr: {stderr}")
 
         data = json.loads(resp_line)
         assert data.get("id") == req_id, f"ID de respuesta no coincide: {data.get('id')} != {req_id}"
         return data
 
-    def call_tool(self, name: str, arguments: dict = None) -> tuple[dict, float]:
+    def call_tool(self, name: str, arguments: dict | None = None) -> tuple[dict, float]:
         start = time.perf_counter()
         resp = self.send_request("tools/call", {
             "name": name,
