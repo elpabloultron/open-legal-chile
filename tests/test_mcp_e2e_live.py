@@ -11,6 +11,7 @@ import json
 import os
 import subprocess
 import sys
+import threading
 import time
 import pytest
 
@@ -27,13 +28,14 @@ class MCPClientRunner:
         env = os.environ.copy()
         env["PYTHONUTF8"] = "1"
         env["PYTHONIOENCODING"] = "utf-8"
+        env["PYTHONUNBUFFERED"] = "1"
         if self.profile:
             env["OPENLEGAL_PROFILE"] = self.profile
         else:
             env.pop("OPENLEGAL_PROFILE", None)
 
         self.proc = subprocess.Popen(
-            [sys.executable, "mcp_server.py"],
+            [sys.executable, "-u", "mcp_server.py"],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
@@ -43,7 +45,26 @@ class MCPClientRunner:
             bufsize=1,
             env=env,
         )
+        self._stderr_lineas: list[str] = []
+        threading.Thread(target=self._drenar_stderr, daemon=True).start()
         return self
+
+    def _drenar_stderr(self) -> None:
+        """Vacía el stderr del servidor en segundo plano.
+
+        Si nadie lo lee, el buffer del hijo se llena y el servidor queda esperando para siempre:
+        eso colgó la CI de Windows/Python 3.10 durante 46 minutos (2026-09-25). En Linux no se
+        notaba porque el buffer es más grande y el servidor escribe poco en stderr.
+        """
+        try:
+            if self.proc is None or self.proc.stderr is None:
+                return
+            for linea in self.proc.stderr:
+                self._stderr_lineas.append(linea)
+                if len(self._stderr_lineas) > 400:
+                    del self._stderr_lineas[0]
+        except Exception:
+            pass
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         if self.proc:
@@ -71,7 +92,7 @@ class MCPClientRunner:
 
         resp_line = self.proc.stdout.readline()
         if not resp_line:
-            stderr = self.proc.stderr.read() if self.proc.stderr else ""
+            stderr = "".join(self._stderr_lineas[-40:])
             raise RuntimeError(f"Servidor MCP cerró el stream sin respuesta. Stderr: {stderr}")
 
         data = json.loads(resp_line)
