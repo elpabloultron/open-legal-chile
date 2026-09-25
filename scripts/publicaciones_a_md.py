@@ -17,6 +17,7 @@ import argparse
 import json
 import pathlib
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -35,6 +36,8 @@ DIR_MD = BASE / "publicaciones_ambientales"
 DIR_PDF = DIR_MD / "pdf"
 UA = {"User-Agent": "OpenLegalChile/1.6.5 (Investigacion Juridica Soberana; Universidad de Los Lagos)"}
 TRABAJADORES = 4
+PDFINFO = shutil.which("pdfinfo") or "pdfinfo"
+PDFTOTEXT = shutil.which("pdftotext") or "pdftotext"
 MAX_PAGINAS_OCR = 60  # escaneos enormes: OCR solo de la muestra inicial
 
 
@@ -80,13 +83,13 @@ def procesar(item: tuple[int, dict]) -> tuple[int, str]:
             time.sleep(0.2)
         paginas = 0
         try:
-            info = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True, timeout=60)  # nosec B603
+            info = subprocess.run([PDFINFO, str(pdf)], capture_output=True, text=True, timeout=60)  # nosec B603
             for linea in info.stdout.splitlines():
                 if linea.startswith("Pages:"):
                     paginas = int(linea.split()[1])
         except Exception:
             pass
-        prueba = subprocess.run(["pdftotext", "-layout", "-f", "1", "-l", "5", str(pdf), "-"],  # nosec B603
+        prueba = subprocess.run([PDFTOTEXT, "-layout", "-f", "1", "-l", "5", str(pdf), "-"],  # nosec B603
                                 capture_output=True, text=True, timeout=120)
         if len((prueba.stdout or "").strip()) / 5 >= 120:
             texto, metodo = ing._texto_de_pdf(pdf)                      # texto íntegro
