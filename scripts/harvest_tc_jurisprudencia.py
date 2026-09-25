@@ -10,10 +10,10 @@ import os
 import sys
 import json
 import sqlite3
-import urllib.request
 import urllib.parse
 from datetime import datetime
 from typing import Dict, Any, List, Optional
+import requests
 
 # Rutas del repositorio
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -58,12 +58,12 @@ def fetch_tc_sentencias(search_term: str, limit: int = 15) -> List[Dict[str, Any
         "Accept": "application/json"
     }
 
-    req = urllib.request.Request(url, headers=headers)
     results = []
 
     try:
-        with urllib.request.urlopen(req, timeout=12) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+        resp = requests.get(url, headers=headers, timeout=12)
+        if resp.status_code == 200:
+            data = resp.json()
             items = data.get("data", [])
             for it in items[:limit]:
                 folio = it.get("folio", "")

@@ -46,7 +46,7 @@ jobs:
 
       - name: 5. Strict Type Checking (python/mypy)
         run: |
-          mypy --ignore-missing-imports --explicit-package-bases --exclude '(\.venv|doctrina_raw)' .
+          mypy --ignore-missing-imports --explicit-package-bases --exclude '(\.venv|doctrina_raw|brag-output)' .
 
       - name: 6. Code Quality & Formatting (astral-sh/ruff)
         run: |
