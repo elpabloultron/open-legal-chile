@@ -76,7 +76,12 @@ CARPETAS_FUERA = {
     # Los datos derivados no son escritura del proyecto: el grafo y los índices reproducen lo que
     # dicen las fuentes. Si un manual de la Academia habla de «discovery», eso es contenido suyo,
     # no una figura del Common Law usada por nosotros. La regla mira lo que escribimos nosotros.
+    # Los corpus de terceros cosechados (sentencias del TC, publicaciones ambientales, guías
+    # oficiales) son texto íntegro ajeno: se verifica su integridad, no su vocabulario.
     "data",
+    "jurisprudencia_tc",
+    "publicaciones_ambientales",
+    "corpus_guias_aj",
 }
 SUFIJOS_REVISADOS = {".py", ".md", ".json", ".yaml", ".yml", ".toml", ".txt", ".html", ".sh", ".cfg", ".ini"}
 

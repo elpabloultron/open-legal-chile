@@ -334,10 +334,10 @@ task_categories:
 configs:
 - config_name: default
   data_files:
-  - split: train
-    path: data/train.jsonl
-  - split: instituciones
-    path: data/instituciones.jsonl
+  - split: instituciones_lite
+    path: data/catalogo/instituciones_lite.jsonl
+  - split: obras_lite
+    path: data/catalogo/train_lite.jsonl
   - split: jurisprudencia_ambiental
     path: data/jurisprudencia/ambiental_sentencias.jsonl
   - split: boletines_anuarios_ambientales
@@ -357,11 +357,13 @@ configs:
 Bienvenido al repositorio oficial del **Corpus Jurídico Canónico, Doctrinal y Jurisprudencial de Chile**, desarrollado y mantenido por **Open Legal Chile**.
 Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** al texto íntegro de la dogmática jurídica chilena, a las Guías Oficiales de la Academia Judicial, a los fallos de los Tribunales Ambientales (1TA, 2TA, 3TA), sus anuarios y boletines, y al **Knowledge Graph de Reducción Masiva de Tokens (LegalGraphify)** interconectado transversalmente.
 
+> **Versionado (2026-09-25):** las versiones plenas de entrenamiento (`data/train.jsonl`, `data/instituciones.jsonl`) viven en el dataset hermano **[pablobenavidesj/doctrina-jurisprudencia-chile-training](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile-training)**; este repositorio conserva las versiones «puntero» (`data/catalogo/instituciones_lite.jsonl`, `data/catalogo/train_lite.jsonl`) y el corpus íntegro en `doctrina/`. Las sentencias nuevas traen su texto en `jurisprudencia_tc/` y `publicaciones_ambientales/`.
+
 ---
 
 ## 📊 Métricas del Corpus y Knowledge Graph
 - **Documentos:** {manifiesto['total_documentos']} obras y materiales doctrinales completos
-- **Instituciones Dogmáticas:** 11.853 fichas estructuradas con definiciones canónicas, concordancias y fallos rectores (`data/instituciones.jsonl`)
+- **Instituciones Dogmáticas:** 11.858 fichas estructuradas con definiciones canónicas, concordancias y fallos rectores (`data/instituciones.jsonl`, versión plena en el dataset de entrenamiento)
 - **Jurisprudencia Tribunales Ambientales (1TA, 2TA, 3TA):** {total_ambiental:,} sentencias y resoluciones definitivas (`data/jurisprudencia/ambiental_sentencias.jsonl`)
 - **Anuarios y Boletines Ambientales Oficiales:** {total_boletines:,} publicaciones periódicas y memorias (`data/jurisprudencia/ambiental_boletines_anuarios.jsonl`)
 - **Jurisprudencia Tribunal Constitucional (TC):** {total_tc:,} sentencias e inaplicabilidades (`data/jurisprudencia/tc_sentencias.jsonl`)
@@ -963,6 +965,97 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
         except Exception as e:
             return {"exito": False, "error": str(e)}
 
+    def publicar_dataset_entrenamiento(self, repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile-training",
+                                       token: Optional[str] = None) -> Dict[str, Any]:
+        """Publica el dataset hermano con las versiones plenas para entrenamiento.
+
+        Contiene `data/train.jsonl` (obras completas) e `data/instituciones.jsonl`
+        (fichas con el contenido íntegro), que el dataset principal ya no aloja.
+        """
+        hf_token = resolver_token_hf(token)
+        if not hf_token:
+            return {"exito": False, "error": "Token de Hugging Face no configurado."}
+        train_path = os.path.join(BASE_DIR, "data", "train.jsonl")
+        inst_path = os.path.join(BASE_DIR, "data", "instituciones.jsonl")
+        if not (os.path.exists(train_path) and os.path.exists(inst_path)):
+            return {"exito": False, "error": "Faltan data/train.jsonl o data/instituciones.jsonl en el entorno."}
+        try:
+            import importlib
+            api = getattr(importlib.import_module("huggingface_hub"), "HfApi")(token=hf_token)
+            api.create_repo(repo_id=repo_id, repo_type="dataset", exist_ok=True)
+
+            n_obras = sum(1 for _ in open(train_path, encoding="utf-8"))
+            n_fichas = sum(1 for _ in open(inst_path, encoding="utf-8"))
+            mb_train = os.path.getsize(train_path) / 1e6
+            mb_inst = os.path.getsize(inst_path) / 1e6
+
+            # ida y vuelta eficiente: solo se sube lo que cambió de tamaño en el repositorio
+            remotos: dict[str, int] = {}
+            try:
+                for s in api.dataset_info(repo_id, files_metadata=True).siblings:
+                    remotos[s.rfilename] = s.size or 0
+            except Exception:
+                pass
+
+            subidos = []
+            for local, destino in ((train_path, "data/train.jsonl"), (inst_path, "data/instituciones.jsonl")):
+                if remotos.get(destino) == os.path.getsize(local):
+                    continue
+                api.upload_file(path_or_fileobj=local, path_in_repo=destino, repo_id=repo_id, repo_type="dataset")
+                subidos.append(destino)
+
+            card = f"""---
+language:
+- es
+license: other
+license_name: documentos-de-terceros-con-atribucion
+tags:
+- legal
+- chile
+- derecho
+- llm-training
+- fine-tuning
+- text-generation
+size_categories:
+- 10K<n<100K
+task_categories:
+- text-generation
+configs:
+- config_name: default
+  data_files:
+  - split: train
+    path: data/train.jsonl
+  - split: instituciones
+    path: data/instituciones.jsonl
+---
+
+# 🇨🇱 Corpus Jurídico Chileno — dataset de ENTRENAMIENTO (Open Legal Chile)
+
+Versiones **plenas** del corpus para entrenamiento/ajuste fino de modelos. El dataset de consulta y citación
+es [pablobenavidesj/doctrina-jurisprudencia-chile](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+(con las versiones «puntero» y el corpus íntegro en Markdown).
+
+## Contenido
+- **`data/train.jsonl`** — {n_obras} obras doctrinales completas con su texto íntegro ({mb_train:.1f} MB).
+- **`data/instituciones.jsonl`** — {n_fichas:,} fichas dogmáticas con el contenido íntegro ({mb_inst:.1f} MB):
+  definición canónica, concordancias, fallo rector y texto de la sección.
+
+## Cita
+`[Hugging Face - doctrina-jurisprudencia-chile-training, Archivo: <ruta>]`.
+
+## Licencia
+Documentos de terceros redistribuidos con atribución (ver la tarjeta del dataset de consulta).
+"""
+            api.upload_file(path_or_fileobj=card.encode("utf-8"), path_in_repo="README.md",
+                            repo_id=repo_id, repo_type="dataset")
+            return {
+                "exito": True, "repo_id": repo_id, "obras": n_obras, "fichas": n_fichas,
+                "mb": round(mb_train + mb_inst, 1), "subidos": subidos or "sin cambios",
+                "url": f"https://huggingface.co/datasets/{repo_id}",
+            }
+        except Exception as e:
+            return {"exito": False, "error": str(e)}
+
     def publicar_en_huggingface(self, repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
                                 token: Optional[str] = None,
                                 space_id: str = "pablobenavidesj/open-legal-chile-graph") -> Dict[str, Any]:
@@ -1020,14 +1113,15 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                 repo_type="dataset"
             )
 
-            # 4. Subir carpeta data/ (con train.jsonl, instituciones.jsonl y legal_knowledge_graph.json)
+            # 4. Subir carpeta data/ (sin las versiones plenas de entrenamiento, que van al dataset hermano)
             data_folder = os.path.join(BASE_DIR, "data")
             if os.path.exists(data_folder):
                 api.upload_folder(
                     folder_path=data_folder,
                     repo_id=repo_id,
                     repo_type="dataset",
-                    path_in_repo="data"
+                    path_in_repo="data",
+                    ignore_patterns=["instituciones.jsonl", "train.jsonl"],
                 )
 
             # 4 bis. Subir llms.txt (mapa del corpus para agentes)
@@ -1072,8 +1166,9 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                     path_in_repo="graphify"
                 )
 
-            # 7 bis. Quitar del repositorio los artefactos pesados que ya no se publican
-            #        (el grafo íntegro vive en data/legal_knowledge_graph.json; la wiki se mantiene)
+            # 7 bis. Quitar del repositorio los artefactos pesados y las versiones de entrenamiento
+            #        (el grafo íntegro vive en data/legal_knowledge_graph.json; train/instituciones plenos
+            #        van al dataset hermano -training)
             pesados_eliminados: object = 0
             try:
                 existentes = set(api.list_repo_files(repo_id=repo_id, repo_type="dataset"))
@@ -1081,6 +1176,7 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                     "graphify/graph.json", "graphify/graph.graphml", "graphify/cypher.txt",
                     "graphify/graph.html", "graphify/GRAPH_TREE.html", "graphify/GRAPH_CALLFLOW.html",
                     "graphify/.graphify_analysis.json", "graphify/manifest.json",
+                    "data/train.jsonl", "data/instituciones.jsonl",
                 ]
                 a_borrar = [p for p in pesados if p in existentes]
                 if a_borrar:
@@ -1089,11 +1185,30 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                         repo_id=repo_id,
                         repo_type="dataset",
                         operations=[ops(path_in_repo=p) for p in a_borrar],
-                        commit_message="chore(dataset): aligerar graphify/ — el grafo vive en data/",
+                        commit_message="chore(dataset): aligerar artefactos y mover las versiones plenas al dataset de entrenamiento",
                     )
                     pesados_eliminados = len(a_borrar)
             except Exception as e:
                 pesados_eliminados = f"error: {e}"
+
+            # 7 ter. Publicar el dataset hermano con las versiones plenas de entrenamiento
+            entrenamiento = self.publicar_dataset_entrenamiento(token=hf_token)
+
+            # 7 quater. Subir los textos íntegros nuevos (sentencias del TC y publicaciones ambientales)
+            for carpeta, descripcion in (
+                ("jurisprudencia_tc", "Sentencias del Tribunal Constitucional (últimos 2 años) en Markdown"),
+                ("publicaciones_ambientales", "Anuarios y boletines de los Tribunales Ambientales en Markdown"),
+            ):
+                ruta = os.path.join(BASE_DIR, carpeta)
+                if os.path.isdir(ruta):
+                    api.upload_folder(
+                        folder_path=ruta,
+                        repo_id=repo_id,
+                        repo_type="dataset",
+                        path_in_repo=carpeta,
+                        allow_patterns=["*.md"],
+                    )
+                    print(f"[✓] {descripcion}: {carpeta}/")
 
             # 8. Publicar o actualizar el Space interactivo
             space_res = None
@@ -1109,6 +1224,7 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                 "total_instituciones": jsonl_res.get("total_instituciones"),
                 "total_articulos_wiki": wiki_count,
                 "artefactos_pesados_eliminados": pesados_eliminados,
+                "dataset_entrenamiento": entrenamiento,
                 "url": f"https://huggingface.co/datasets/{repo_id}",
                 "space_url": space_res.get("url") if space_res and space_res.get("exito") else None,
                 "mensaje": f"Dataset y artefactos de Graphify publicados exitosamente en Hugging Face: https://huggingface.co/datasets/{repo_id}"

@@ -5,9 +5,9 @@
     "guias_academia_judicial": 21,
     "fichas": 11858,
     "obras_indexadas": 228,
-    "registros_jurisprudencia": 72478,
-    "nodos_grafo": 12973,
-    "aristas_grafo": 28346
+    "registros_jurisprudencia": 73499,
+    "nodos_grafo": 13938,
+    "aristas_grafo": 30746
   },
   "como_citar": {
     "formato": "[Hugging Face - <ruta>]",
