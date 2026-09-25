@@ -30,8 +30,8 @@ chileno en el mismo grafo**.
 - Grafo jurídico: **967 nodos / 1.366 aristas** — 105 instituciones, 572 artículos, 205 criterios de
   jurisprudencia, 57 obras y 13 vías procesales; cero nodos aislados.
 - Fusión con el grafo de código: **1.716 nodos / 2.782 enlaces** (749 nodos del AST).
-- Consultar una institución en vez de leer la obra completa ahorra **entre 31,9 % y 90,5 % de
-  tokens, con mediana 74,1 %** (medido sobre las 105 instituciones; el detalle está en
+- Consultar una institución en vez de leer la obra completa ahorra **una mediana de 99,9 % de tokens** (ficha mediana de 91 tokens frente a la
+  obra completa, cuya mediana es 96.536; medido sobre 9.863 instituciones; el detalle está en
   [`medicion_tokens.md`](medicion_tokens.md) y el script que lo reproduce en
   `scripts/medir_ahorro_tokens.py`).
 - Las consultas son **deterministas**: la misma pregunta devuelve la misma ficha, bit a bit

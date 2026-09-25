@@ -2219,7 +2219,7 @@
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-num">74,1%</div>
+          <div class="stat-num">99,9%</div>
           <div class="stat-label">
             <span>Ahorro de Tokens en Consultas (mediana)</span>
             <span class="claim-tag">[VERIFIED]</span>
@@ -2332,16 +2332,16 @@
       <div class="pillar-card" style="border-color: #86efac; background: linear-gradient(180deg, #ffffff 0%, #f0fdf4 100%);">
         <div>
           <div class="pillar-icon-badge" style="background: #bbf7d0; color: #15803d;">🧠</div>
-          <h3 class="pillar-title">LegalGraphify: reducción de tokens (mediana -74,1 %)</h3>
+          <h3 class="pillar-title">LegalGraphify: reducción de tokens (mediana -99,9 %)</h3>
           <p class="pillar-desc">
-            El motor de grafo de conocimiento relacional para el Derecho chileno. Transforma miles de páginas de doctrina en subgrafos estructurados en YAML que los modelos de lenguaje recorren con máxima precisión, reduciendo el consumo de contexto entre un 31,9 % y un 90,5 % según la institución (mediana 74,1 %) sin sufrir alucinaciones.
+            El motor de grafo de conocimiento relacional para el Derecho chileno. Transforma miles de páginas de doctrina en subgrafos estructurados en YAML que los modelos de lenguaje recorren con máxima precisión, reduciendo el consumo de contexto una mediana del 99,9 % (ficha mediana: 91 tokens frente a la obra completa: 96.536) sin sufrir alucinaciones.
           </p>
         </div>
         <div class="pillar-tags">
           <span class="pillar-tag">Knowledge Graph</span>
           <span class="pillar-tag">NetworkX Multidimensional</span>
           <span class="pillar-tag">Subgrafos YAML</span>
-          <span class="pillar-tag">-74,1 % Ahorro mediano de Tokens</span>
+          <span class="pillar-tag">-99,9 % Ahorro mediano de Tokens (ficha 91 vs. obra 96.536)</span>
         </div>
       </div>
 
@@ -2431,7 +2431,7 @@
     <span class="eyebrow-step">Compresión de Contexto & Razonamiento Dogmático</span>
     <h2 class="step-h2">LegalGraphify: motor ontológico de grafos para el derecho chileno</h2>
     <p class="step-desc">
-      En lugar de inyectar hasta 1 612 tokens de tratados crudos en el prompt de tu LLM, LegalGraphify estructura el ordenamiento jurídico de Chile en un grafo de conocimiento formal (<strong>12 973 nodos y 28 346 aristas ponderadas</strong>). Deduce subsunciones rigurosas, traza rutas de argumentación dogmática y comprime hasta <strong>113,6x</strong> el consumo de tokens sin alucinaciones. Incluye un resumen del corpus por comunidades (<strong>358 comunidades temáticas</strong>) y una Wiki Doctrinal sintetizada de <strong>369 artículos Markdown</strong> para agentes.
+      En lugar de inyectar hasta 1 612 tokens de tratados crudos en el prompt de tu LLM, LegalGraphify estructura el ordenamiento jurídico de Chile en un grafo de conocimiento formal (<strong>12 973 nodos y 28 346 aristas ponderadas</strong>). Deduce subsunciones rigurosas, traza rutas de argumentación dogmática y comprime hasta <strong>113,6x</strong> el consumo de tokens sin alucinaciones. Incluye un resumen del corpus por comunidades (<strong>33 comunidades temáticas</strong>) y una Wiki Doctrinal sintetizada de <strong>369 artículos Markdown</strong> para agentes.
     </p>
 
     <!-- Package & Repo Direct Link Banner -->
@@ -3232,8 +3232,8 @@ relaciones_directas:
   {
     "name": "graphify_consulta_subgrafo",
     "category": "Doctrina & Graphify",
-    "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro medido del 31,9%-90,5% de tokens según la institución (mediana 74,1%) respecto a la lectura del texto doctrinal completo..",
-    "full_description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro medido del 31,9%-90,5% de tokens según la institución (mediana 74,1%) respecto a la lectura del texto doctrinal completo."
+    "description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro mediano del 99,9% de tokens (ficha mediana: 91 tokens frente a la obra completa: 96.536) respecto a la lectura del texto doctrinal completo..",
+    "full_description": "Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro mediano del 99,9% de tokens (ficha mediana: 91 tokens frente a la obra completa: 96.536) respecto a la lectura del texto doctrinal completo."
   },
   {
     "name": "graphify_trazar_camino",
@@ -3346,8 +3346,8 @@ relaciones_directas:
   {
     "name": "graphify_resumen_comunidades",
     "category": "Doctrina & Graphify",
-    "description": "Panorama del corpus en ~644 tokens: comunidades detectadas (Leiden), sus temas y nodos centrales.",
-    "full_description": "Resume el corpus completo en ~644 tokens: detecta comunidades con Leiden (46 comunidades, modularidad 0,607) y describe los temas y nodos centrales de cada una."
+    "description": "Panorama del corpus en ~994 tokens: las 33 comunidades detectadas, sus temas y nodos centrales.",
+    "full_description": "Resume el corpus completo en ~994 tokens: agrupa los 12 973 nodos en 33 comunidades (modularidad 0,557) y describe los temas y nodos centrales de cada una."
   }
 ];
 
@@ -3355,7 +3355,7 @@ relaciones_directas:
     const SNIPPETS = {
       claude: {
         install: `# Instalar paquete CLI y MCP:\\n$ pip install openlegal-chile\\n\\n# Opcional con OCR (PaddleOCR ONNX):\\n$ pip install "openlegal-chile[ocr]"\\n\\n# O agregar como plugin en Claude Code:\\n$ claude plugin add openlegal-chile`,
-        query: `# Consultar subgrafo con reducción de tokens (31,9 % a 90,5 %, mediana 74,1 %):\\n$ openlegal graph "simulacion"\\n\\n# Buscar en tratados canónicos:\\n$ openlegal doctrina "objeto ilicito"`,
+        query: `# Consultar subgrafo con reducción de tokens (ahorro mediano 99,9 %; ficha 91 tokens vs. obra 96.536):\\n$ openlegal graph "simulacion"\\n\\n# Buscar en tratados canónicos:\\n$ openlegal doctrina "objeto ilicito"`,
         mcp: `# Iniciar en stdio para Claude Desktop o Claude Code:\\n$ openlegal-mcp\\n\\n# Configuración en ~/.claude/config.json:\\n# "openlegal": { "command": "openlegal-mcp" }`,
         graph: `# Consultar nodo ontológico en LegalGraphify:\\n$ openlegal graph "compensacion economica" --saltos 2\\n\\n# Visualizar en navegador:\\n$ xdg-open graphify-out/graph.html`
       },
@@ -3665,7 +3665,7 @@ autores_relevantes:
         alias: "dogmatico",
         category: "Dogmática & Ingesta",
         title: "Estratega Dogmático & LegalGraphify",
-        mission: "Subsunción dogmática de alta precisión, resolución de antinomias, consulta de 248 documentos chilenos y deducción relacional con subgrafos LegalGraphify (ahorro de tokens medido: 31,9 % a 90,5 %, mediana 74,1 %).",
+        mission: "Subsunción dogmática de alta precisión, resolución de antinomias, consulta de 248 documentos chilenos y deducción relacional con subgrafos LegalGraphify (ahorro de tokens mediano: 99,9 %).",
         tools: ["graphify_consulta_subgrafo", "graphify_trazar_camino", "graphify_explicar_institucion", "graphify_analizar_impacto", "doctrina_search"],
         cli: "openlegal agent run dogmatico \"Subsunción de imprevisión en contrato\""
       },

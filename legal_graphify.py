@@ -2,8 +2,9 @@
 Open Legal Chile — Motor LegalGraphify (Knowledge Graph Jurídico de Reducción de Tokens)
 Construye un grafo de conocimiento multidimensional a partir de los 58 textos doctrinales,
 manuales y guías de la Academia Judicial chilena.
-Permite consultas hiper-densas de subgrafos con un 31,9% a 90,5% de ahorro de tokens para LLMs
-(mediana 74,1%, medido sobre las 105 instituciones del grafo; el detalle y el script de medición
+Permite consultas hiper-densas de subgrafos con un ahorro mediano de 99,9 % de tokens para LLMs
+(medición 2026-09-25 sobre 9.863 instituciones: ficha mediana 91 tokens vs. obra completa 96.536;
+ el detalle y el script de medición
 están en docs/medicion_tokens.md). Antes este docstring prometía 85%-95%: era falso, lo inflaba
 un piso de 1200 tokens que se aplicaba al tamaño de cada obra.
 Compatible con el esquema Node-Link de NetworkX y Graphify Labs.
@@ -614,12 +615,17 @@ class LegalGraphifyEngine:
         una pregunta de panorama («¿qué hay de laboral?») alcanza con esto, y cuesta cientos de
         tokens en lugar de miles. Las comunidades son las que detectó el motor al construir.
         """
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+        if self.graph.number_of_nodes() == 0:
+            return {"error": "el grafo está vacío: no se cargó el corpus "
+                             "(revisá data/legal_knowledge_graph.json)"}
+
         por_comunidad: Dict[Any, List[str]] = {}
         for nid, datos in self.graph.nodes(data=True):
             clave = datos.get("comunidad", datos.get("community", 0))
             por_comunidad.setdefault(clave, []).append(nid)
-        if not por_comunidad:
-            return {"error": "el grafo no tiene comunidades: construilo primero"}
 
         carpetas = ("civil", "penal", "laboral", "familia", "procesal", "administrativo",
                     "constitucional", "comercial", "academia_judicial", "apuntes_orrego", "manuales")
@@ -659,7 +665,7 @@ class LegalGraphifyEngine:
     def consultar_subgrafo(self, query: str, max_hops: int = 1) -> Dict[str, Any]:
         """
         Recupera el subgrafo conectado para una consulta jurídica y genera una ficha sintética
-        hiper-densa (de ~80 a ~550 tokens según la institución, medido sobre las 105 del grafo)
+        hiper-densa (de ~50 a ~550 tokens según la institución, medido sobre el grafo completo)
         en lugar de inyectar textos completos de hasta ~1.600 tokens.
         """
         if not self.is_built:

@@ -351,7 +351,7 @@ El servidor MCP expone **75 herramientas oficiales** categorizadas funcionalment
 ### S. Knowledge Graph Jurídico y Optimización de Tokens (LegalGraphify)
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
-| `graphify_consulta_subgrafo` | `query` *(str)*, `max_hops` *(int, opc)*, `incluir_mermaid` *(bool, opc)* | Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro medido del 31,9 % al 90,5 % de tokens según la institución (mediana 74,1 %) respecto a la lectura del texto doctrinal completo. Medición reproducible en [`docs/medicion_tokens.md`](docs/medicion_tokens.md). |
+| `graphify_consulta_subgrafo` | `query` *(str)*, `max_hops` *(int, opc)*, `incluir_mermaid` *(bool, opc)* | Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro mediano del 99,9 % de tokens (ficha mediana: 91 tokens frente a la obra completa: 96.536) respecto a la lectura del texto doctrinal completo. Medición reproducible en [`docs/medicion_tokens.md`](docs/medicion_tokens.md). |
 | `graphify_trazar_camino` | `concepto_origen` *(str)*, `concepto_destino` *(str)* | Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify, deduciendo cadenas de subsunción y argumentación dogmática. |
 | `graphify_explicar_institucion` | `nombre` *(str)* | Genera una explicación dogmática 360° de una institución jurídica en LegalGraphify: definición, sustento positivo BCN, criterios de la Corte Suprema, operativas procesales y grado topológico. |
 | `graphify_analizar_impacto` | `nodo_modificado` *(str)* | Calcula el radio de afectación topológico (Blast Radius) cuando una norma legal o institución jurídica sufre una reforma legal o giro jurisprudencial, identificando entidades afectadas en grado 1 (directo) y grado 2 (cascada). |
@@ -445,7 +445,7 @@ Cada institución doctrinal no solo define el instituto, sino que detalla su apl
 6. **Plazos Fatales y Términos Probatorios:** Emplazamiento (15/18 días + tabla), términos probatorios (20 días ordinario, 8 días sumario, 10 días ejecutivo) y plazos de recursos (apelación 5/10 días, casación 15 días, protección 30 días corridos).
 7. **Defensas y Excepciones Típicas:** Excepciones dilatorias (Art. 303 CPC), excepciones de fondo y perentorias (*exceptio non adimpleti contractus* Art. 1552 CC, caducidad, prescripción extintiva).
 
-### 💡 Optimización de Tokens Medida (31,9 % a 90,5 %; mediana 74,1 %)
+### 💡 Optimización de Tokens Medida (mediana 99,9 %; ficha 91 tokens vs. obra 96.536)
 Mediante el compilador [`scripts/doctrina_parser.py`](scripts/doctrina_parser.py), los textos crudos y transcripciones doctrinales son depurados de ruido editorial y convertidos en **Markdown de Alta Densidad Dogmática** para alimentar el grafo. Ese compilador **no promete un ahorro propio**: los ahorros que publica este proyecto son los del grafo al consultar un subgrafo en vez de la obra completa, y se miden, no se estiman — ver [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
@@ -506,7 +506,7 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 
 ### 🧠 K. LegalGraphify: Reducción de Tokens con Grafos de Conocimiento (`legal_graphify.py`)
 * **Grafo Multidimensional de Dogmática Jurídica:** 967 nodos interconectados (instituciones dogmáticas, artículos de los Códigos BCN, fallos rectores de la Corte Suprema, tratadistas canónicos y vías procesales) y 1.366 aristas relacionales.
-* **Ahorro de Tokens Medido (31,9 % - 90,5 %; mediana 74,1 %):** En lugar de inyectar la obra doctrinal completa (135 - 1.612 tokens; mediana 847), el motor extrae un subgrafo conexo hiper-denso de 58 a 544 tokens (mediana 170) en formato estructurado (definición canónica, artículos concordantes, criterio CS rector y operativa procesal forense). Medición reproducible con `.venv/bin/python scripts/medir_ahorro_tokens.py` → [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
+* **Ahorro de Tokens Medido (mediana 99,9 %; medición 2026-09-25 sobre 9.863 instituciones):** En lugar de inyectar la obra doctrinal completa (mediana 96.536 tokens; máximo 313.985), el motor extrae un subgrafo conexo hiper-denso de 27 a 544 tokens (mediana 91) en formato estructurado (definición canónica, artículos concordantes, criterio CS rector y operativa procesal forense). Medición reproducible con `.venv/bin/python scripts/medir_ahorro_tokens.py` → [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 * **Diagramas Mermaid en Vivo:** Generación de diagramas de flujo relacional para visualizar el razonamiento dogmático de cada institución en tiempo real.
 * **Integración con Graphify (grafo de código + grafo jurídico):** Cómo se fusionan ambos grafos, qué se midió y por qué no se mantiene un fork, en [`docs/integracion_graphify.md`](docs/integracion_graphify.md).
 * **Comando CLI y Herramienta MCP:** Disponible como `openlegal graph "concepto"` y mediante la herramienta MCP `graphify_consulta_subgrafo`. Compatible con Graphify Labs CLI (`python -m graphify query "..."`) y exportación interactiva a navegador (`graphify-out/graph.html`).
@@ -520,7 +520,7 @@ El directorio `agents/` incluye **19 perfiles de especialidad jurídica** adapta
 1. **`chilean-employment-legal`** (`agente-laboral`): Despidos (Art. 161/160 CT), Ley Karin (21.643), 40 Horas (21.561), finiquitos y doctrina DT.
 2. **`chilean-litigation-legal`** (`agente-litigios`): Demandas OJV Ley N° 20.886, recursos de protección estandarizados (Acta N.° 94-2015), cronología de hechos, recursos procesales y medidas precautorias.
 3. **`chilean-real-estate-cbr`** (`agente-inmobiliario`): Estudio de títulos decenal (10 años), tradición dominical, gravámenes hipotecarios, prohibiciones registrales y mandatos judiciales (Art. 7 CPC).
-4. **`chilean-dogmatic-graphify`** (`agente-dogmatico`): Estratega de alta dogmática, subsunción técnico-jurídica, el corpus doctrinal completo (228 obras y materiales + 21 guías judiciales) y deducción con subgrafos LegalGraphify (ahorro de tokens medido: 31,9 % a 90,5 %, mediana 74,1 %).
+4. **`chilean-dogmatic-graphify`** (`agente-dogmatico`): Estratega de alta dogmática, subsunción técnico-jurídica, el corpus doctrinal completo (228 obras y materiales + 21 guías judiciales) y deducción con subgrafos LegalGraphify (ahorro de tokens mediano: 99,9 %; ficha 91 vs. obra 96.536).
 5. **`chilean-administrative-legal`** (`agente-regulatorio`): Dictámenes e informes CGR, compras públicas (Ley 19.886) y vigilancia regulatoria.
 6. **`chilean-energy-legal`** (`agente-energia`): Contratos PPA de clientes libres, transmisión eléctrica Ley 20.936 y discrepancias del Panel de Expertos.
 7. **`chilean-environmental-legal`** (`agente-ambiental`): Fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento.
