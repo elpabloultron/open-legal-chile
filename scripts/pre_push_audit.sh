@@ -32,12 +32,17 @@ echo -e "\n${YELLOW}[2/3] Ejecutando Ruff Linter...${NC}"
 "$ROOT_DIR/.venv/bin/ruff" check online_library_sync.py tests/test_mcp_e2e_live.py
 echo -e "${GREEN}✓ Ruff Linter aprobado sin errores.${NC}"
 
-# 3. Pruebas críticas y suite E2E en vivo
-echo -e "\n${YELLOW}[3/3] Ejecutando Pruebas E2E y Registro MCP...${NC}"
+# 3. Tipado estático con Mypy
+echo -e "\n${YELLOW}[3/4] Ejecutando Mypy Strict Type Checking...${NC}"
+"$ROOT_DIR/.venv/bin/mypy" --ignore-missing-imports --explicit-package-bases --exclude '(\.venv|doctrina_raw|brag-output)' tests/test_mcp_e2e_live.py evals/rag_evaluator.py
+echo -e "${GREEN}✓ Mypy Type Checker aprobado sin errores.${NC}"
+
+# 4. Pruebas críticas y suite E2E en vivo
+echo -e "\n${YELLOW}[4/4] Ejecutando Pruebas E2E y Registro MCP...${NC}"
 "$ROOT_DIR/.venv/bin/pytest" tests/test_mcp_e2e_live.py tests/test_registry.py tests/test_updates_and_stats.py -q
 echo -e "${GREEN}✓ Pruebas críticas aprobadas con éxito.${NC}"
 
 echo -e "\n${GREEN}======================================================${NC}"
-echo -e "${GREEN}✨ Auditoría Pre-Push 100% Superada. Subida permitida.${NC}"
+echo -e "${GREEN}✨ Auditoría Pre-Push 100% Superada (4/4). Subida permitida.${NC}"
 echo -e "${GREEN}======================================================${NC}\n"
 exit 0

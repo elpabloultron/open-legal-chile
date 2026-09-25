@@ -7,7 +7,7 @@ Evalúa la calidad del RAG híbrido (SQLite FTS5 + Hugging Face Hub):
 """
 
 import json
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 from doctrina_connector import search_doctrina, get_institucion
 from online_library_sync import consultar_huggingface_dataset
 
@@ -43,7 +43,7 @@ RAG_BENCHMARK_CASES = [
 ]
 
 
-def evaluate_rag_retrieval(cases: List[Dict[str, Any]] = None) -> Dict[str, Any]:
+def evaluate_rag_retrieval(cases: Optional[List[Dict[str, Any]]] = None) -> Dict[str, Any]:
     """Evalúa la precisión y grounding de la recuperación doctrinal y enlaces Hugging Face."""
     if cases is None:
         cases = RAG_BENCHMARK_CASES
@@ -57,20 +57,20 @@ def evaluate_rag_retrieval(cases: List[Dict[str, Any]] = None) -> Dict[str, Any]
     print("=" * 80)
 
     for case in cases:
-        query = case["query"]
-        autores_esp = case.get("autores_esperados", [case.get("autor_esperado", "")])
-        inst_clave = case["institucion_clave"]
+        query = str(case["query"])
+        autores_esp = list(case.get("autores_esperados", [case.get("autor_esperado", "")]))
+        inst_clave = str(case["institucion_clave"])
 
         # 1. Búsqueda en FTS5 SQLite (doctrina.db)
         docs = search_doctrina(query, limit=5)
         encontrado_autor = any(
-            any(esp.lower() in d.get("autor", "").lower() for esp in autores_esp)
+            any(str(esp).lower() in d.get("autor", "").lower() for esp in autores_esp)
             for d in docs
         )
         
         # 2. Búsqueda de Ficha Doctrinal
         inst_card = get_institucion(inst_clave)
-        tiene_ficha = inst_card.get("encontrado") is True or "autor" in inst_card
+        tiene_ficha = inst_card is not None and (inst_card.get("encontrado") is True or "autor" in inst_card)
 
         # 3. Verificación de Citas Oficiales y Hugging Face Links
         hf_links_ok = True
