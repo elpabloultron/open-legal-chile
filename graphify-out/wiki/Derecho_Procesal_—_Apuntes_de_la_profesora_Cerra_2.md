@@ -1,0 +1,34 @@
+# Derecho Procesal — Apuntes de la profesora Cerra
+
+> God node · 334 connections · `doctrina/manuales/Derecho-Procesal-profesora-Cerra.md`
+
+**Community:** [Derecho Procesal — Apuntes de la profesora Cerra](Derecho_Procesal_—_Apuntes_de_la_profesora_Cerra.md)
+
+## Connections by Relation
+
+### contains
+- Derecho-Procesal-profesora-Cerra.md `EXTRACTED`
+- Pregunta: EFECTOS DE LA INTERPOSICION DEL RECURSO DE `EXTRACTED`
+- Pregunta: QUE ES LA PRORROGA DE COMPETENCIA? `EXTRACTED`
+- Pregunta: 2CUAL ES EL CONCEPTO DE ESTE RECURSOP `EXTRACTED`
+- Pregunta: gCOMO RESUELVE ESTE RECURSO EL TRIBUNAL? `EXTRACTED`
+- Pregunta: COMO SE CLASIFICA EL AMPARO CONSTITUCIONAL? `EXTRACTED`
+- Pregunta:QUE GARANTIZA ELRECURSO DE AMPARO? `EXTRACTED`
+- Pregunta:CUALES SON LAS CARACTERISTICAS DEL AMPARO `EXTRACTED`
+- Pregunta: 2CUALES SON LOS REQUISrTOS PARA QUE PROCEDA LA `EXTRACTED`
+- PregUnta: QUEN PUEDE INTERPONER EL RECURSOY COMO? `EXTRACTED`
+- Pregunta: CUAL ES LA PROCEDENCIA DE ESTE RECURSOP `EXTRACTED`
+- Pregunta: CUAL ES LA LIMITACION DE SU INTERPOSICION? `EXTRACTED`
+- Pregunta: CONCEPTO DE RECURSO DE PROTECCION `EXTRACTED`
+- Progunta:CUALESELTRIBUNAL COMPETENTE PARA CONOCER `EXTRACTED`
+- Pregunta: REGLAS DE DISTRIBUCION DE CAUSAS EN ASUNTOS NO `EXTRACTED`
+- Progunta: CONCEPTO DE LA ACCION DE INAPLICABILIDAD POR `EXTRACTED`
+- Pregunta:TRAMITACION EN SEGUNDA INSTANCIA `EXTRACTED`
+- Pregunta: 2CUAL ES EL TRIBUNAL COMPETENTE PARA CONOCER `EXTRACTED`
+- PregUnta:COMO ELTRIBUNAL CONSTITUCIONAL CONOCE ESTA `EXTRACTED`
+- Progunta:CQUIEN ES LA PARTE LEGITIMADA PARA EJERCER `EXTRACTED`
+- *…and 314 more `contains` connection(s) not listed (lowest-degree first to go)*
+
+---
+
+*Part of the graphify knowledge wiki. See [index](index.md) to navigate.*

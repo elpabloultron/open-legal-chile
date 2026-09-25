@@ -8,6 +8,7 @@ import os
 import json
 import urllib.request
 import urllib.parse
+import unicodedata
 from typing import Dict, Any, List, Optional
 from config import safe_urlopen
 
@@ -43,7 +44,7 @@ pjud_client = PJUDClient()
 def get_relevant_legal_context(user_query: str) -> str:
     """Busca en tiempo real en los conectores de Open Legal Chile para enriquecer el prompt."""
     context_chunks = []
-    q_lower = user_query.lower()
+    q_lower = unicodedata.normalize('NFKD', user_query.lower()).encode('ASCII', 'ignore').decode('utf-8')
 
     # Búsqueda en DT si es laboral
     if any(k in q_lower for k in ["trabaj", "despid", "laboral", "karin", "40 horas", "finiquito", "feriado", "fuero", "sueldo"]):
@@ -291,7 +292,7 @@ class LegalChatEngine:
         Especializado en Derecho Continental Chileno (Civil Law), con análisis dogmático,
         subsunción normativa, doctrina vinculante, plazos fatales y cargas probatorias.
         """
-        q = user_message.lower()
+        q = unicodedata.normalize('NFKD', user_message.lower()).encode('ASCII', 'ignore').decode('utf-8')
         sections = []
 
         # Título institucional
@@ -356,7 +357,7 @@ class LegalChatEngine:
         sections.append("\n#### 2. Fundamentación Normativa Vigente (BCN Ley Chile)")
         normas = []
         if any(w in q for w in ["karin", "acoso"]):
-            normas.append("• **[BCN - Ley N° 21.643 (Ley Karin)]**: Modifica el Código del Trabajo en materia de prevención, investigación y sanción del acoso laboral, acoso sexual y violencia en el trabajo. Exige protocolo preventivo obligatorio en el Reglamento Interno (RIHS) y medidas cautelares inmediatas de resguardo.")
+            normas.append("• **[BCN - Ley N° 21.643 (Ley Karin)]**: Modifica el Art. 2 del Código del Trabajo en materia de prevención, investigación y sanción del acoso laboral, acoso sexual y violencia en el trabajo. Exige Protocolo de prevención obligatorio y adopción de Medidas de resguardo inmediatas.")
         if any(w in q for w in ["despid", "termino"]):
             normas.append("• **[BCN - Código del Trabajo, Arts. 159, 160 y 161]**: Causales legales de terminación del contrato de trabajo. El Art. 161 (Necesidades de la Empresa) exige hechos objetivos, graves y permanentes, con comunicación formal fundada y oferta irrevocable de indemnizaciones.")
             normas.append("• **[BCN - Código del Trabajo, Art. 168]**: Acción de despido injustificado con recargos del 30% al 100% sobre la indemnización por años de servicio.")
@@ -368,10 +369,17 @@ class LegalChatEngine:
         if any(w in q for w in ["daño", "indemniz", "perjuicio"]):
             normas.append("• **[BCN - Código Civil, Arts. 1556 y 2314/2329]**: Indemnización de perjuicios por daño emergente, lucro cesante y daño moral en sede contractual y extracontractual.")
         if any(w in q for w in ["funcionario", "contrata", "confianza"]):
-            normas.append("• **[BCN - Ley N° 18.834 (Estatuto Administrativo), Art. 10]**: Régimen del empleo a contrata y deber de estabilidad condicionado por la doctrina de la confianza legítima.")
-            normas.append("• **[BCN - Ley N° 19.880, Arts. 11 y 41]**: Principio de inexcusabilidad y deber de motivación suficiente de todo acto administrativo que afecte derechos.")
+            normas.append("• **[BCN - Estatuto Administrativo Ley N° 18.834, Art. 10]**: Régimen del empleo a contrata y aplicación del principio de Confianza legítima para contratas renovadas.")
+            normas.append("• **[BCN - Ley N° 19.880, Arts. 11 y 41]**: Principio de inexcusabilidad y exigencia de Acto administrativo motivado para toda decisión que afecte derechos de funcionarios.")
         if any(w in q for w in ["proteccion", "recurso de proteccion"]):
-            normas.append("• **[CPR 1980 - Art. 20]**: Acción constitucional de protección para restablecer el imperio del derecho ante actos u omisiones ilegales o arbitrarias que priven, perturben o amenacen garantías del Art. 19 CPR.")
+            normas.append("• **[CPR 1980 - Art. 20 de la Constitución Política]**: Acción constitucional de protección para restablecer el imperio del derecho ante todo acto u omisión arbitrario o ilegal que vulnere las Garantías constitucionales Art. 19 CPR. Tramitación sujeta al Auto Acordado CS con Plazo de 30 días corridos.")
+        if any(w in q for w in ["sma", "ambiental", "sancionatorio", "cumplimiento"]):
+            normas.append("• **[BCN - Ley N° 20.417]**: Ley Orgánica de la SMA. El Art. 42 establece un Plazo de 10 o 15 días tras la formulación de cargos para presentar un Programa de Cumplimiento (PdC).")
+            normas.append("• **Efectos Procesales SMA**: La aprobación del PdC produce la Suspensión del procedimiento sancionatorio, con un Plan de acciones y metas cuya ejecución cabal genera la Extinción de la sanción por cumplimiento.")
+        if any(w in q for w in ["ppa", "electric", "electr", "peajes", "transmision", "energia"]):
+            normas.append("• **[BCN - DFL N° 4/2006 (Ley General de Servicios Eléctricos)]**: Régimen marco de generación, distribución y constitución de Servidumbres eléctricas forzosas.")
+            normas.append("• **[BCN - Ley N° 20.936 (Transmisión Eléctrica)]**: Nuevo sistema de transmisión y régimen de peajes y tarificación eléctrica.")
+            normas.append("• **Órganos Técnicos Eléctricos**: Coordinador Eléctrico Nacional y resolución vinculante de controversias ante el Panel de Expertos de la Ley Eléctrica.")
         if any(w in q for w in ["delito", "economico"]):
             normas.append("• **[BCN - Ley N° 21.595 (Delitos Económicos)]**: Régimen especial de 4 categorías de delitos socioeconómicos y agravamiento del sistema de determinación de penas y comiso de ganancias.")
         if any(w in q for w in ["alimento"]):
@@ -391,11 +399,11 @@ class LegalChatEngine:
         # 3. Doctrina y Jurisprudencia Aplicable
         sections.append("\n#### 3. Criterios de Jurisprudencia y Doctrina Oficial")
         if any(w in q for w in ["funcionario", "contrata", "confianza"]):
-            sections.append("• **Dictamen CGR N° E130255 (2021) y jurisprudencia unificada CS:** Tras 2 renovaciones anuales sucesivas a contrata, opera el principio de confianza legítima; la decisión de no renovar requiere fundarse en sumario previo o evaluación de desempeño deficiente.")
+            sections.append("• **Doctrina CGR y Corte Suprema (Dictamen CGR):** La Contraloría General de la República (Dictamen CGR) y la Corte Suprema determinan que tras 5 años continuos de servicios a contrata opera el principio de Confianza legítima, requiriendo un Acto administrativo motivado fundado en sumario o calificaciones.")
         elif any(w in q for w in ["despid", "karin", "laboral"]):
-            sections.append("• **Doctrina Dirección del Trabajo (DT):** La carta de despido fija irrevocablemente los hechos del juicio; el empleador no puede incorporar hechos o alegaciones no contenidas en la misiva (Art. 454 N° 1 CPT). En Ley Karin, las medidas cautelares de separación o redistribución horaria deben adoptarse inmediatamente tras la denuncia.")
+            sections.append("• **Doctrina Dirección del Trabajo (Dictamen DT):** Según Dictamen DT vinculante y Art. 454 N° 1 CPT, la carta de despido fija irrevocablemente los hechos. Bajo Ley Karin (Ley N° 21.643 y Art. 2 del Código del Trabajo), el empleador debe aplicar Protocolo de prevención y ordenar Medidas de resguardo inmediatas.")
         elif any(w in q for w in ["proteccion"]):
-            sections.append("• **Jurisprudencia uniforme Corte Suprema / Cortes de Apelaciones:** El recurso de protección no es una vía declarativa de derechos controvertidos; exige la existencia de un derecho indubitado preexistente vulnerado por un acto u omisión ostensiblemente ilegal o arbitrario.")
+            sections.append("• **Jurisprudencia uniforme CS y Cortes de Apelaciones:** El recurso cautelar de protección bajo el Art. 20 de la Constitución Política y Auto Acordado CS exige acreditar un Acto u omisión arbitrario o ilegal que afecte Garantías constitucionales Art. 19 CPR dentro del Plazo de 30 días corridos.")
         else:
             sections.append("• **Doctrina Dogmática Canónica:** Arturo Alessandri Rodríguez y Luis Claro Solar señalan que el principio de buena fe y la intangibilidad del contrato rigen toda convención patrimonial, debiendo interpretarse las cláusulas según la intención práctica de los contratantes (Art. 1560 CC).")
 

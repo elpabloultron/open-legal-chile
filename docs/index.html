@@ -4,13 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Open Legal Chile · La Suite Soberana de Inteligencia Jurídica & Servidor MCP para IA</title>
-  <meta name="description" content="Open Legal Chile transforma 248 documentos chilenos y la jurisprudencia de Chile en un knowledge graph que tu asistente de IA recorre en vez de hacer grep. 74 herramientas MCP, 19 agentes jurídicos autónomos, 100 % on-device, Apache 2.0" />
+  <meta name="description" content="Open Legal Chile transforma 248 documentos chilenos y la jurisprudencia de Chile en un knowledge graph que tu asistente de IA recorre en vez de hacer grep. 75 herramientas MCP, 19 agentes jurídicos autónomos, 17 006 nodos, 100 % on-device, Apache 2.0" />
   <meta name="application-name" content="Open Legal Chile" />
   <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/" />
 
   <!-- Open Graph / Twitter -->
   <meta property="og:title" content="Open Legal Chile · The Legal Knowledge Graph for AI Assistants" />
-  <meta property="og:description" content="El knowledge graph jurídico que tu IA puede razonar. 248 documentos chilenos, 74 herramientas MCP, 19 agentes autónomos, 31,9 % a 90,5 % de ahorro de tokens (mediana 74,1 %). On-device, Apache 2.0" />
+  <meta property="og:description" content="El knowledge graph jurídico que tu IA puede razonar. 248 documentos chilenos, 75 herramientas MCP, 19 agentes autónomos, 17 006 nodos, 113,6x de reducción de tokens. On-device, Apache 2.0" />
   <meta property="og:url" content="https://elpabloultron.github.io/open-legal-chile/" />
   <meta property="og:site_name" content="Open Legal Chile" />
   <meta property="og:locale" content="es_CL" />
@@ -2036,10 +2036,11 @@
       <span class="nav-divider"></span>
       <nav class="nav-links">
         <a href="#suite" class="nav-link">La Suite</a>
-        <a href="#agentes" class="nav-link">18 Agentes</a>
-        <a href="#herramientas" class="nav-link">74 Herramientas MCP</a>
+        <a href="#agentes" class="nav-link">19 Agentes</a>
+        <a href="#herramientas" class="nav-link">75 Herramientas MCP</a>
         <a href="#doctrina" class="nav-link">Doctrina (58)</a>
         <a href="#graphify" class="nav-link">LegalGraphify</a>
+        <a href="https://huggingface.co/spaces/pablobenavidesj/open-legal-chile-graph" target="_blank" rel="noreferrer" class="nav-link" style="color: var(--verify); font-weight: 600;">🌐 Grafo en Vivo</a>
         <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="nav-link">Hugging Face</a>
         <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="nav-link">GitHub</a>
       </nav>
@@ -2058,10 +2059,11 @@
     <div class="mobile-menu-drawer" id="mobileMenuDrawer">
       <nav class="mobile-nav-list">
         <a href="#suite" class="mobile-nav-item">🏛️ La Suite (5 Pilares)</a>
-        <a href="#agentes" class="mobile-nav-item">🤖 18 Agentes Autónomos</a>
-        <a href="#herramientas" class="mobile-nav-item">⚡ 74 Herramientas MCP</a>
+        <a href="#agentes" class="mobile-nav-item">🤖 19 Agentes Autónomos</a>
+        <a href="#herramientas" class="mobile-nav-item">⚡ 75 Herramientas MCP</a>
         <a href="#doctrina" class="mobile-nav-item">📚 Doctrina Canónica (58)</a>
         <a href="#graphify" class="mobile-nav-item">🧠 LegalGraphify (Subgrafos)</a>
+        <a href="https://huggingface.co/spaces/pablobenavidesj/open-legal-chile-graph" target="_blank" rel="noreferrer" class="mobile-nav-item" style="color: var(--verify); font-weight: 600;">🌐 Grafo Interactivo en Vivo (Space)</a>
         <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="mobile-nav-item">🤗 Dataset Hugging Face</a>
         <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="mobile-nav-item">📦 Repositorio GitHub</a>
         <a href="#setup" class="mobile-nav-item mobile-cta-item">🚀 Comenzar / Instalar Suite</a>
@@ -2078,7 +2080,7 @@
       <div class="hero-left">
         <div class="hero-eyebrow">
           <span class="hero-dot"></span>
-          <span>74 Herramientas MCP</span>
+          <span>75 Herramientas MCP</span>
           <span style="opacity: 0.35;">·</span>
           <span>10 Conectores Oficiales</span>
           <span style="opacity: 0.35;">·</span>
@@ -2095,17 +2097,21 @@
         </p>
 
         <p class="hero-p">
-          Infraestructura integral y local-first para que <strong>Claude Code, Cursor, Windsurf, Copilot y Gemini</strong> operen con máxima precisión sobre el ordenamiento jurídico chileno: consulta normativa BCN en tiempo real, causas PJUD y escritos OJV, estudio de títulos inmobiliarios CBR, fiscalizaciones CMF/SII, <strong>248 documentos chilenos</strong> completos y compresión de grafo con <strong>LegalGraphify</strong>.
+          Infraestructura integral y local-first para que <strong>Claude Code, Cursor, Windsurf, Copilot y Gemini</strong> operen con máxima precisión sobre el ordenamiento jurídico chileno: consulta normativa BCN en tiempo real, causas PJUD y escritos OJV, estudio de títulos inmobiliarios CBR, fiscalizaciones CMF/SII, <strong>248 documentos chilenos</strong> completos y compresión de grafo con <strong>LegalGraphify (17 006 nodos y 18 710 aristas)</strong>.
         </p>
 
         <div class="hero-ctas">
-          <a href="#herramientas" class="btn-hero-primary">
+          <a href="https://huggingface.co/spaces/pablobenavidesj/open-legal-chile-graph" target="_blank" rel="noreferrer" class="btn-hero-primary" style="background: linear-gradient(135deg, #1e3a8a, #0284c7); border: 1px solid #38bdf8; color: #ffffff;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m4.93 4.93 4.24 4.24"></path><path d="m14.83 9.17 4.24-4.24"></path><path d="m14.83 14.83 4.24 4.24"></path><path d="m9.17 14.83-4.24 4.24"></path><circle cx="12" cy="12" r="4"></circle></svg>
+            🌐 Grafo en Vivo (Space)
+          </a>
+          <a href="#herramientas" class="btn-hero-secondary">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
-            Explorar 74 Herramientas MCP
+            75 Herramientas MCP
           </a>
           <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="btn-hero-secondary">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-            Dataset en Hugging Face (248 Documentos)
+            Dataset Hub (17k Nodos)
           </a>
           <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="btn-hero-secondary">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -2143,7 +2149,7 @@
             <!-- Layer 2: MCP Protocol -->
             <div class="suite-layer-card">
               <div class="suite-layer-head">
-                <span class="suite-layer-title">⚡ Servidor MCP Nativo (74 Tools)</span>
+                <span class="suite-layer-title">⚡ Servidor MCP Nativo (75 Tools)</span>
                 <span class="suite-layer-meta">Claude · Cursor · Gemini</span>
               </div>
               <div class="suite-layer-sub">Integración universal vía Model Context Protocol en stdio / JSON-RPC 2.0. Conexión en 1 comando.</div>
@@ -2162,7 +2168,7 @@
             <div class="suite-layer-card" style="border-color: rgba(74, 222, 128, 0.3); background: rgba(74, 222, 128, 0.06);">
               <div class="suite-layer-head">
                 <span class="suite-layer-title">🧠 Doctrina Canónica & LegalGraphify</span>
-                <span class="suite-layer-meta">-90,5 % Tokens (máx. medido) · Hugging Face</span>
+                <span class="suite-layer-meta">17.006 Nodos · Hugging Face Space</span>
               </div>
               <div class="suite-layer-sub">248 documentos chilenos (Alessandri, Somarriva, Claro Solar) indexados en FTS5 y comprimidos en grafos ontológicos.</div>
             </div>
@@ -2192,14 +2198,14 @@
     <div class="adoption-container">
       <div class="adoption-grid">
         <div class="stat-card">
-          <div class="stat-num">255</div>
+          <div class="stat-num">263</div>
           <div class="stat-label">
-            <span>Tests Unitarios (100% Green)</span>
+            <span>Tests Unitarios & E2E (100% Green)</span>
             <span class="claim-tag" style="border-color: #0284c7; color: #0284c7; background: #e0f2fe;">[VERIFIED]</span>
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-num">74</div>
+          <div class="stat-num">75</div>
           <div class="stat-label">
             <span>Herramientas MCP Registradas</span>
             <span class="claim-tag">[EXTRACTED]</span>
@@ -2338,9 +2344,9 @@
       <div class="pillar-card">
         <div>
           <div class="pillar-icon-badge" style="background: #fee2e2; color: #b91c1c;">⚡</div>
-          <h3 class="pillar-title">Servidor MCP con 74 herramientas</h3>
+          <h3 class="pillar-title">Servidor MCP con 75 herramientas</h3>
           <p class="pillar-desc">
-            Implementación nativa del Model Context Protocol (MCP) estándar de la industria. Permite que Claude Code, Cursor, Windsurf y Gemini invoquen cualquiera de las 64 funciones jurídicas directamente desde el chat o en pipelines de agentes autónomos, 100 % on-device y sin telemetría.
+            Implementación nativa del Model Context Protocol (MCP) estándar de la industria. Permite que Claude Code, Cursor, Windsurf y Gemini invoquen cualquiera de las 75 funciones jurídicas directamente desde el chat o en pipelines de agentes autónomos, 100 % on-device y sin telemetría.
           </p>
         </div>
         <div class="pillar-tags">
@@ -2420,7 +2426,7 @@
     <span class="eyebrow-step">Compresión de Contexto & Razonamiento Dogmático</span>
     <h2 class="step-h2">LegalGraphify: motor ontológico de grafos para el derecho chileno</h2>
     <p class="step-desc">
-      En lugar de inyectar hasta 1 612 tokens de tratados crudos en el prompt de tu LLM, LegalGraphify estructura el ordenamiento jurídico de Chile en un grafo de conocimiento formal (11.640 nodos y 22.170 aristas ponderadas). Deduce subsunciones rigurosas, traza rutas de argumentación dogmática y comprime entre un 31,9 % y un 90,5 % el consumo de tokens sin alucinaciones. Incluye un resumen del corpus por comunidades (Leiden: 46 comunidades, modularidad 0,607) en ~644 tokens.
+      En lugar de inyectar hasta 1 612 tokens de tratados crudos en el prompt de tu LLM, LegalGraphify estructura el ordenamiento jurídico de Chile en un grafo de conocimiento formal (<strong>17 006 nodos y 18 710 aristas ponderadas</strong>). Deduce subsunciones rigurosas, traza rutas de argumentación dogmática y comprime hasta <strong>113,6x</strong> el consumo de tokens sin alucinaciones. Incluye un resumen del corpus por comunidades (<strong>358 comunidades temáticas</strong>) y una Wiki Doctrinal sintetizada de <strong>369 artículos Markdown</strong> para agentes.
     </p>
 
     <!-- Package & Repo Direct Link Banner -->
@@ -2428,20 +2434,20 @@
       <div style="max-width: 640px;">
         <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
           <span style="background: rgba(74, 222, 128, 0.2); color: #86efac; border: 1px solid rgba(74, 222, 128, 0.4); font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; font-family: var(--font-mono); text-transform: uppercase;">Paquete independiente & open source</span>
-          <span style="font-size: 12px; color: rgba(255, 255, 255, 0.7); font-family: var(--font-mono);">Apache 2.0 · v0.1.0</span>
+          <span style="font-size: 12px; color: rgba(255, 255, 255, 0.7); font-family: var(--font-mono);">Apache 2.0 · v0.9.0</span>
         </div>
         <div style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; margin-bottom: 6px; color: #f4f8f6;">
-          Disponible como biblioteca CLI/Python y servidor MCP integrado
+          Disponible como biblioteca CLI/Python, servidor MCP y visualizador interactivo en Space
         </div>
         <p style="font-size: 13.5px; line-height: 1.5; color: rgba(255, 255, 255, 0.82); margin: 0;">
-          LegalGraphify funciona de manera autónoma en tus propios scripts o integrado nativamente en las 74 herramientas de Open Legal Chile. Salida en YAML denso, JSON estructurado y modo inferencia en cascada.
+          LegalGraphify funciona de manera autónoma en tus propios scripts o integrado nativamente en las 75 herramientas de Open Legal Chile. Salida en YAML denso, JSON estructurado, GraphML, Cypher y modo inferencia en cascada.
         </p>
       </div>
       <div style="display: flex; flex-direction: column; gap: 10px; min-width: 260px;">
-        <div style="background: rgba(0, 0, 0, 0.35); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 8px 14px; font-family: var(--font-mono); font-size: 13px; color: #86efac; display: flex; align-items: center; gap: 8px;">
-          <span style="color: rgba(255,255,255,0.4);">$</span>
-          <code>pip install legal-graphify</code>
-        </div>
+        <a href="https://huggingface.co/spaces/pablobenavidesj/open-legal-chile-graph" target="_blank" rel="noreferrer" style="background: linear-gradient(135deg, #38bdf8, #0284c7); color: #090d16; font-weight: 700; justify-content: center; font-size: 13px; padding: 10px 16px; border: none; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s ease;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m4.93 4.93 4.24 4.24"></path><path d="m14.83 9.17 4.24-4.24"></path><path d="m14.83 14.83 4.24 4.24"></path><path d="m9.17 14.83-4.24 4.24"></path><circle cx="12" cy="12" r="4"></circle></svg>
+          Explorar Grafo 3D/2D en Vivo (Space)
+        </a>
         <a href="https://github.com/elpabloultron/legal-graphify" target="_blank" rel="noreferrer" style="background: #ffffff; color: #062a22; font-weight: 700; justify-content: center; font-size: 13px; padding: 10px 16px; border: none; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s ease;">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
           Repositorio en GitHub (legal-graphify)
@@ -2740,9 +2746,12 @@ relaciones_directas:
       </div>
     </div>
 
-    <div style="margin-top: 28px; text-align: center;">
+    <div style="margin-top: 28px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px;">
+      <a href="https://huggingface.co/spaces/pablobenavidesj/open-legal-chile-graph" target="_blank" rel="noreferrer" class="btn-hero-primary" style="background: linear-gradient(135deg, #1e3a8a, #0284c7); border: 1px solid #38bdf8; color: #ffffff;">
+        🌐 Explorar Knowledge Graph Interactivo en Vivo (Hugging Face Space)
+      </a>
       <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="btn-hero-primary" style="background: #062a22; color: #ffffff;">
-        Abrir Dataset Viewer Interactivo en Hugging Face (248 Documentos)
+        🤗 Dataset Viewer & DuckDB en Hugging Face Datasets Hub
       </a>
     </div>
   </section>
@@ -2777,7 +2786,7 @@ relaciones_directas:
   <!-- Step 04: 64 MCP Tools Interactive Catalog -->
   <section id="herramientas" class="step-section">
     <span class="eyebrow-step">Catálogo de Herramientas</span>
-    <h2 class="step-h2">Catálogo exhaustivo de 74 herramientas MCP</h2>
+    <h2 class="step-h2">Catálogo exhaustivo de 75 herramientas MCP</h2>
     <p class="step-desc">
       Un servidor MCP unificado expone todas las facultades de búsqueda normativa BCN, doctrina FTS5, subgrafos LegalGraphify, CBR inmobiliario, agentes autónomos y jurisprudencia especializada.
     </p>
@@ -2786,9 +2795,9 @@ relaciones_directas:
     <div style="margin-bottom: 20px;">
       <input type="text" id="toolSearchInput" class="search-input-legal" style="width: 100%; margin-bottom: 14px;" placeholder="Filtrar herramientas por nombre o descripción (ej: graphify, bcn, cbr, sentencia, pjud, sii)..." />
       <div class="mcp-filter-bar" id="toolFilterBar">
-        <button class="filter-btn active" data-cat="all">Todas (74)</button>
+        <button class="filter-btn active" data-cat="all">Todas (75)</button>
         <button class="filter-btn" data-cat="Agentes & IA Jurídica">Agentes & IA Jurídica (5)</button>
-        <button class="filter-btn" data-cat="Doctrina & Graphify">Doctrina & Graphify (14)</button>
+        <button class="filter-btn" data-cat="Doctrina & Graphify">Doctrina & Graphify (15)</button>
         <button class="filter-btn" data-cat="BCN Normativo">BCN Normativo (4)</button>
         <button class="filter-btn" data-cat="CBR Inmobiliario">CBR Inmobiliario (2)</button>
         <button class="filter-btn" data-cat="Tribunales & PJUD">Tribunales & PJUD (6)</button>
@@ -3348,12 +3357,12 @@ relaciones_directas:
       cursor: {
         install: `# Configuración para Cursor en .cursor/mcp.json:\\n{\\n  "mcpServers": {\\n    "openlegal": {\\n      "command": "openlegal-mcp"\\n    }\\n  }\\n}`,
         query: `# Invocar herramienta MCP directamente en chat de Cursor:\\n> @openlegal doctrina_buscar_institucion "imprevision"\\n> @openlegal graphify_consulta_subgrafo "simulacion"`,
-        mcp: `# Conectar servidor stdio de 74 herramientas:\\n$ openlegal-mcp`,
+        mcp: `# Conectar servidor stdio de 75 herramientas:\\n$ openlegal-mcp`,
         graph: `# Inspección de relaciones jurídicas en Cursor Composer:\\n> Analiza el subgrafo ontológico de la nulidad de derecho público`
       },
       windsurf: {
         install: `# En ~/.codeium/windsurf/mcp_config.json:\\n{\\n  "mcpServers": {\\n    "openlegal": {\\n      "command": "openlegal-mcp"\\n    }\\n  }\\n}`,
-        query: `# Prompt en Cascade:\\n> Consulta las 74 herramientas de Open Legal Chile para validar el RUT y citar el Art. 1464 CC`,
+        query: `# Prompt en Cascade:\\n> Consulta las 75 herramientas de Open Legal Chile para validar el RUT y citar el Art. 1464 CC`,
         mcp: `# Modo stdio continuo:\\n$ openlegal-mcp`,
         graph: `# Subgrafos estructurados YAML:\\n$ openlegal graph "prevaricacion"`
       },

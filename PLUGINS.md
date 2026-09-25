@@ -125,6 +125,34 @@ Agrega lo siguiente en tu archivo de configuración de Claude Desktop:
 
 ---
 
+### ⚡ 7. Perfiles Temáticos Livianos para LLMs (Ahorro de Tokens)
+
+Para maximizar la precisión de los modelos y ahorrar entre un **70 % y 85 % de tokens de contexto** en cada turno (reduciendo el catálogo de ~18 000 a ~2 500 tokens), puedes limitar el catálogo de herramientas activas agregando el argumento `--profile <nombre>` o definiendo la variable de entorno `OPENLEGAL_PROFILE`:
+
+* **Perfiles disponibles:**
+  * `laboral` (11 herramientas): BCN Códigos/Leyes, DT Doctrina, PJUD, Doctrina FTS5, Dossiers.
+  * `inmobiliario` (10 herramientas): CBR Estudio, Gravámenes, Mandato Art. 7 CPC, BCN Civil.
+  * `litigios` (14 herramientas): PJUD Sentencias/Proveídos, Recurso de Protección, Mandato CPC, OCR.
+  * `regulatorio` (17 herramientas): CGR Dictámenes/Auditorías, InfoProbidad DIP, CMF, SII, SMA, CNE.
+  * `corporativo` (13 herramientas): CMF, SII, TDLC, Marcas INAPI, Derechos ARCO, RUT Chile.
+  * `dogmatico` (14 herramientas): Doctrina FTS5, Subgrafos LegalGraphify, Blast Radius, Academia Judicial.
+  * `clinica` (7 herramientas): Lenguaje Claro, Intake CAJ, Auditoría de Borradores.
+  * `completo` / `full` (74 herramientas, por defecto).
+
+Ejemplo en `.vscode/mcp.json` o Cursor para restringir al perfil laboral:
+```json
+{
+  "mcpServers": {
+    "open-legal-chile": {
+      "command": "python3",
+      "args": ["${workspaceFolder}/mcp_server.py", "--profile", "laboral"]
+    }
+  }
+}
+```
+
+---
+
 ## 🛠️ Verificación de Instalación
 
 Para comprobar que el servidor MCP responde correctamente en tu máquina, ejecuta en la terminal:

@@ -1,0 +1,13 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "mypy-type-checker.interpreter": ["${workspaceFolder}/.venv/bin/python"],
+  "ruff.interpreter": ["${workspaceFolder}/.venv/bin/python"]
+}

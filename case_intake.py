@@ -606,8 +606,12 @@ def _resumen(analisis: Dict[str, Any]) -> str:
     return "\n".join(lineas)
 
 
-def caso_analizar(entrada: str, tipo: Optional[str] = None, consulta: str = "") -> Dict[str, Any]:
-    """Punto de entrada: de un caso a un plan. No modifica nada, sólo lee y propone."""
+def caso_analizar(entrada: str, tipo: Optional[str] = None, consulta: str = "",
+                  estudio_completo: bool = False) -> Dict[str, Any]:
+    """Punto de entrada: de un caso a un plan. Si estudio_completo es True, consolida marco legal y doctrina en 1 paso."""
+    if estudio_completo:
+        return caso_estudio_completo(entrada, tipo=tipo, consulta=consulta)
+
     if not entrada or not str(entrada).strip():
         return {"error": "hace falta algo que analizar: una carpeta, un texto o una consulta",
                 "resumen": "MESA DE ENTRADA\n\nNo hay nada que analizar."}
@@ -692,4 +696,73 @@ def caso_ejecutar(entrada: str = "", tipo: Optional[str] = None, pasos: Optional
             + "\nCompuerta de revisión jurídica: lo que salió de acá lo valida un abogado habilitado "
             "antes de usarse."
         ),
+    }
+
+
+def caso_estudio_completo(entrada: str, tipo: Optional[str] = None, consulta: str = "") -> Dict[str, Any]:
+    """Estudio macro de un caso en un solo paso: análisis, marco normativo BCN y doctrina FTS5.
+    
+    Diseñado específicamente para modelos de lenguaje y agentes autónomos:
+    condensa en un único llamado local lo que antes requería 4 a 5 turnos de conversación.
+    """
+    analisis = caso_analizar(entrada, tipo=tipo, consulta=consulta)
+    if "error" in analisis:
+        return analisis
+
+    materia_str = analisis.get("materia") or ""
+    instituciones = analisis.get("instituciones", [])
+
+    # 1. Búsqueda de doctrina canónica FTS5
+    doctrina_matches: List[Dict[str, Any]] = []
+    termino = consulta or (instituciones[0] if instituciones else analisis.get("materia_etiqueta") or "derecho civil")
+    try:
+        from doctrina_connector import search_doctrina
+        raw_doc = search_doctrina(termino, limit=2)
+        for d in raw_doc:
+            doctrina_matches.append({
+                "obra": d.get("obra"),
+                "autor": d.get("autor"),
+                "institucion": d.get("institucion"),
+                "definicion": d.get("definicion", "")[:350]
+            })
+    except Exception:
+        pass
+
+    # 2. Marco legal prioritario desde conector BCN
+    normas_recuperadas: List[Dict[str, Any]] = []
+    try:
+        from bcn_connector import BCNClient
+        bcn = BCNClient()
+        if materia_str == "laboral":
+            res_art = bcn.get_codigo("trabajo", "161")
+            if "texto" in res_art and "error" not in res_art:
+                normas_recuperadas.append({
+                    "cuerpo": "Código del Trabajo",
+                    "articulo": "161",
+                    "cita_oficial": "[BCN - Código del Trabajo, Art. 161]",
+                    "extracto": res_art["texto"][:300].strip() + "…"
+                })
+        elif materia_str in ("civil", "contratos"):
+            res_art = bcn.get_codigo("civil", "1545")
+            if "texto" in res_art and "error" not in res_art:
+                normas_recuperadas.append({
+                    "cuerpo": "Código Civil",
+                    "articulo": "1545",
+                    "cita_oficial": "[BCN - Código Civil, Art. 1545]",
+                    "extracto": res_art["texto"][:300].strip() + "…"
+                })
+    except Exception:
+        pass
+
+    return {
+        "materia": analisis.get("materia_etiqueta"),
+        "fuero": analisis.get("fuero_probable"),
+        "instituciones": instituciones,
+        "normas_clave": normas_recuperadas,
+        "doctrina_canonica": doctrina_matches,
+        "fuente_huggingface": "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile",
+        "pasos_sugeridos": len(analisis.get("plan", [])),
+        "faltantes": analisis.get("faltantes", []),
+        "advertencias": analisis.get("advertencias", []),
+        "resumen_ejecutivo": analisis.get("resumen")
     }

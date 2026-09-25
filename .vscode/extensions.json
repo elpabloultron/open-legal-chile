@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "charliermarsh.ruff",
+    "ms-python.mypy-type-checker",
+    "qwtel.sqlite-viewer",
+    "tamasfe.even-better-toml",
+    "yzhang.markdown-all-in-one"
+  ]
+}

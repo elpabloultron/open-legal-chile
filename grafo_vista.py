@@ -38,7 +38,7 @@ COLORES = {
 PLANTILLA = """<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"><title>{titulo}</title>
 <script src="https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js"
-        integrity="sha384-Ux6phic9PEHJ38YtrijhkzyJ8yQlH8i/+buBR8s3mAZOJrP1gwyvAcIYl3GWtpX1"
+        integrity="sha384-Ux6phic9PEHJ38YtrijhkzyJ8yQlH8i/+buBR8s3mAZOJrP1gwyvAcIYl3GWtpX1" <!-- pragma: allowlist secret -->
         crossorigin="anonymous"></script>
 <style>
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}

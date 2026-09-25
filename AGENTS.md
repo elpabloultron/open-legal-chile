@@ -21,6 +21,8 @@ Always attribute and cite sources using the official brackets:
 * **Financial Commission Rules:** `[NCG CMF N° 461]`
 * **Environmental Sanctions:** `[SMA - Expediente SNIFA <Número>]`
 * **CGR Audit Reports:** `[CGR - Informe Final N° 123/2024]`
+* **Canonical Doctrine Treatises:** `[Doctrina - <Autor>, <Tratado>, Institución: <Nombre>]`
+* **Hugging Face Datasets Hub:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: <Ruta>]`
 
 ### 2 bis. Citas y formato de entrega
 
@@ -35,7 +37,7 @@ Depende de **qué se entrega**:
 
 En los dos casos: si no hay fuente identificable se dice **«sin fuente verificable»**; un dato que
 viene de varias fuentes se cita con todas, no con la más cómoda; y todo resultado de las herramientas
-debe poder rastrearse hasta su origen (`filepath`, `url`, `Rol`, `N° de dictamen`).
+debe poder rastrearse hasta su origen (`filepath`, `url`, `Rol`, `N° de dictamen`, `dataset Hugging Face`).
 
 Formato del pie de página en un documento:
 
@@ -45,13 +47,25 @@ Fuentes:
 1. [BCN - Código del Trabajo, Art. 161] https://www.bcn.cl/leychile/...
 2. [Academia Judicial — Guía para la conducción de la audiencia preparatoria laboral] guias.academiajudicial.cl/...
 3. [Doctrina — Barros Bourie, Tratado de Responsabilidad Extracontractiva] corpus: doctrina/civil/...
+4. [Hugging Face — pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/civil/barros.md] https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile
 ```
+
 ---
-Fuentes:
-1. [BCN - Código del Trabajo, Art. 161] https://www.bcn.cl/leychile/...
-2. [Academia Judicial — Guía para la conducción de la audiencia preparatoria laboral] guias.academiajudicial.cl/...
-3. [Doctrina — Barros Bourie, Tratado de Responsabilidad Extracontractiva] corpus: doctrina/civil/...
-```
+
+### 2 ter. Estándar de Contundencia y Subsunción Jurídica Tripartita
+Queda **estrictamente prohibido** emitir respuestas superficiales, simplistas o de un solo párrafo ante cualquier consulta jurídica sustantiva o procesal. Toda respuesta de fondo debe formularse con la profundidad, rigor y técnica de un **Informe en Derecho (*Legal Memorandum*)**, aplicando la **Triangulación de Tres Pilares**:
+
+1. **Pilar Positivo (BCN Ley Chile):** Citar artículo, inciso y tenor literal normativo aplicable.
+2. **Pilar Dogmático (Tratados Canónicos + Hugging Face Hub):** Subsunción teórica apoyada en las 11 857 instituciones de `doctrina.db` y el repositorio en Hugging Face (`pablobenavidesj/doctrina-jurisprudencia-chile`). Citar siempre al tratadista respectivo (*Barros, Ramos Pazos, Peñailillo, Somarriva, Claro Solar, Abeliuk o Academia Judicial*).
+3. **Pilar Jurisprudencial / Administrativo (PJUD / CGR / DT):** Criterio rector uniforme de la Corte Suprema o dictámenes vinculantes de la autoridad fiscalizadora.
+
+**Estructura Canónica Obligatoria:**
+* **I. Cuestión Jurídica y Planteamiento del Problema**
+* **II. Marco Normativo Positivo Vigente**
+* **III. Construcción Dogmática y Doctrinal** (concordancias en Hugging Face)
+* **IV. Criterio Jurisprudencial y Operativa Práctica**
+* **V. Dictamen Estratégico y Cursos de Acción**
+* **Fuentes:** al final de la respuesta, con enlaces verificables.
 
 ---
 

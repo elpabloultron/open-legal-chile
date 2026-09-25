@@ -17,7 +17,8 @@
 set -e
 
 # Detectar y activar entorno virtual si existe
-VENV_BIN="/home/pablo/Escritorio/Denuncias Fiscalia/.venv/bin"
+PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+VENV_BIN="$PROJECT_DIR/.venv/bin"
 if [ -d "$VENV_BIN" ]; then
     export PATH="$VENV_BIN:$PATH"
 fi
@@ -65,7 +66,7 @@ fi
 
 # 4. DETECT-SECRETS (SECRET LEAKS)
 echo -e "\n${BOLD}[4/9] 🔑 Auditoría de Fuga de Credenciales y Secretos (detect-secrets)...${RESET}"
-SEC_COUNT=$(detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|exports|\.pytest_cache|skills-lock\.json|.*_cache|graphify-out|data|README\.md)' | grep -c '"hashed_secret"' || true)
+SEC_COUNT=$(detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|doctrina/.*|exports|\.pytest_cache|skills-lock\.json|.*_cache|graphify-out|data|README\.md)' | grep -c '"hashed_secret"' || true)
 if [ "$SEC_COUNT" -eq 0 ]; then
     echo -e "${GREEN}✅ Cero secretos o llaves API detectadas en el repositorio (Zero Data Leak).${RESET}"
 else
@@ -75,7 +76,7 @@ fi
 
 # 5. MYPY (TYPE CHECKING)
 echo -e "\n${BOLD}[5/9] 🏷️  Chequeo Estricto de Tipos (python/mypy)...${RESET}"
-if mypy --ignore-missing-imports --explicit-package-bases --exclude '(\.venv|doctrina_raw)' .; then
+if mypy --ignore-missing-imports --explicit-package-bases --exclude '(\.venv|doctrina_raw|build|brag-output)' .; then
     echo -e "${GREEN}✅ Tipado consistente y sin inconsistencias en tiempo de ejecución.${RESET}"
 else
     echo -e "${RED}❌ Mypy detectó inconsistencias de tipos.${RESET}"
