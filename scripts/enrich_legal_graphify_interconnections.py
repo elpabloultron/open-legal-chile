@@ -347,7 +347,7 @@ def main():
         print("[*] Sincronizando artefactos web en graphify-out/...")
         with open(g_out_path, "w", encoding="utf-8") as f:
             json.dump(export_obj, f, ensure_ascii=False, indent=2)
-        print(f"[✓] Visualizador graphify-out/graph.json sincronizado.")
+        print("[✓] Visualizador graphify-out/graph.json sincronizado.")
 
     # 10. Generar artículo Wiki sintético para la comunidad ambiental
     os.makedirs(WIKI_DIR, exist_ok=True)
