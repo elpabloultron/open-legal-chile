@@ -280,12 +280,16 @@ class OnlineLibrarySyncManager:
 
         # Métricas de jurisprudencia judicial y ambiental
         total_ambiental = 0
+        total_boletines = 0
         total_tc = 0
         total_cs = 0
         try:
             p_amb = pathlib.Path(BASE_DIR) / "data/jurisprudencia/ambiental_sentencias.jsonl"
             if p_amb.exists():
                 total_ambiental = sum(1 for _ in p_amb.open(encoding="utf-8") if _.strip())
+            p_bol = pathlib.Path(BASE_DIR) / "data/jurisprudencia/ambiental_boletines_anuarios.jsonl"
+            if p_bol.exists():
+                total_boletines = sum(1 for _ in p_bol.open(encoding="utf-8") if _.strip())
             p_tc = pathlib.Path(BASE_DIR) / "data/jurisprudencia/tc_sentencias.jsonl"
             if p_tc.exists():
                 total_tc = sum(1 for _ in p_tc.open(encoding="utf-8") if _.strip())
@@ -326,6 +330,8 @@ configs:
     path: data/instituciones.jsonl
   - split: jurisprudencia_ambiental
     path: data/jurisprudencia/ambiental_sentencias.jsonl
+  - split: boletines_anuarios_ambientales
+    path: data/jurisprudencia/ambiental_boletines_anuarios.jsonl
   - split: tribunal_constitucional
     path: data/jurisprudencia/tc_sentencias.jsonl
   - split: corte_suprema
@@ -335,7 +341,7 @@ configs:
 # 🇨🇱 Corpus Jurídico y Doctrinal de Chile en Markdown (Open Legal Chile)
 
 Bienvenido al repositorio oficial del **Corpus Jurídico Canónico, Doctrinal y Jurisprudencial de Chile**, desarrollado y mantenido por **Open Legal Chile**.
-Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** al texto íntegro de la dogmática jurídica chilena, a las Guías Oficiales de la Academia Judicial, a los fallos de los Tribunales Ambientales (1TA, 2TA, 3TA) y al **Knowledge Graph de Reducción Masiva de Tokens (LegalGraphify)**.
+Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** al texto íntegro de la dogmática jurídica chilena, a las Guías Oficiales de la Academia Judicial, a los fallos de los Tribunales Ambientales (1TA, 2TA, 3TA), sus anuarios y boletines, y al **Knowledge Graph de Reducción Masiva de Tokens (LegalGraphify)** interconectado transversalmente.
 
 ---
 
@@ -343,6 +349,7 @@ Este repositorio ofrece acceso **100% completo, libre y gratuito (Apache-2.0)** 
 - **Documentos:** {manifiesto['total_documentos']} obras y materiales doctrinales completos
 - **Instituciones Dogmáticas:** 11.853 fichas estructuradas con definiciones canónicas, concordancias y fallos rectores (`data/instituciones.jsonl`)
 - **Jurisprudencia Tribunales Ambientales (1TA, 2TA, 3TA):** {total_ambiental:,} sentencias y resoluciones definitivas (`data/jurisprudencia/ambiental_sentencias.jsonl`)
+- **Anuarios y Boletines Ambientales Oficiales:** {total_boletines:,} publicaciones periódicas y memorias (`data/jurisprudencia/ambiental_boletines_anuarios.jsonl`)
 - **Jurisprudencia Tribunal Constitucional (TC):** {total_tc:,} sentencias e inaplicabilidades (`data/jurisprudencia/tc_sentencias.jsonl`)
 - **Jurisprudencia Rectora Corte Suprema (PJUD):** {total_cs:,} sentencias unificadoras (`data/jurisprudencia/cs_sentencias.jsonl`)
 - **Guías de la Academia Judicial:** {guias} guías de buenas prácticas judiciales (`guias_academia_judicial/`)
