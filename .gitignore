@@ -78,3 +78,6 @@ charla/
 scripts/build_presentacion*
 *.pptx
 *.key
+
+# Herramientas de auditoría externas auxiliares
+.agents/skills/security-audit/
