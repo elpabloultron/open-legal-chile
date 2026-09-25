@@ -39,32 +39,45 @@ def sin_acentos(texto: str) -> str:
 
 # ── 1 y 2 · versiones «puntero» ────────────────────────────────────────────────
 
+def _contar(ruta: pathlib.Path) -> int:
+    if not ruta.exists():
+        return 0
+    with open(ruta, encoding="utf-8") as f:
+        return sum(1 for _ in f)
+
+
 def generar_lite() -> dict:
     resumen: dict[str, dict] = {}
 
     origen = DATA / "instituciones.jsonl"
     destino = CATALOGO / "instituciones_lite.jsonl"
-    n = 0
-    with open(origen, encoding="utf-8") as f_in, open(destino, "w", encoding="utf-8") as f_out:
-        for linea in f_in:
-            r = json.loads(linea)
-            r.pop("contenido", None)
-            r["ruta_hf"] = URL_BASE + "doctrina/" + str(r.get("archivo", ""))
-            f_out.write(json.dumps(r, ensure_ascii=False) + "\n")
-            n += 1
-    resumen["instituciones_lite"] = {"filas": n, "mb": destino.stat().st_size / 1e6, "origen_mb": origen.stat().st_size / 1e6}
+    if not origen.exists():
+        print("  [!] sin data/instituciones.jsonl: se omite la versión ligera de las fichas")
+    else:
+        n = 0
+        with open(origen, encoding="utf-8") as f_in, open(destino, "w", encoding="utf-8") as f_out:
+            for linea in f_in:
+                r = json.loads(linea)
+                r.pop("contenido", None)
+                r["ruta_hf"] = URL_BASE + "doctrina/" + str(r.get("archivo", ""))
+                f_out.write(json.dumps(r, ensure_ascii=False) + "\n")
+                n += 1
+        resumen["instituciones_lite"] = {"filas": n, "mb": destino.stat().st_size / 1e6, "origen_mb": origen.stat().st_size / 1e6}
 
     origen = DATA / "train.jsonl"
     destino = CATALOGO / "train_lite.jsonl"
-    n = 0
-    with open(origen, encoding="utf-8") as f_in, open(destino, "w", encoding="utf-8") as f_out:
-        for linea in f_in:
-            r = json.loads(linea)
-            r.pop("texto_completo", None)
-            r["ruta_hf"] = URL_BASE + "doctrina/" + str(r.get("archivo", ""))
-            f_out.write(json.dumps(r, ensure_ascii=False) + "\n")
-            n += 1
-    resumen["train_lite"] = {"filas": n, "mb": destino.stat().st_size / 1e6, "origen_mb": origen.stat().st_size / 1e6}
+    if not origen.exists():
+        print("  [!] sin data/train.jsonl: se omite el índice ligero de obras")
+    else:
+        n = 0
+        with open(origen, encoding="utf-8") as f_in, open(destino, "w", encoding="utf-8") as f_out:
+            for linea in f_in:
+                r = json.loads(linea)
+                r.pop("texto_completo", None)
+                r["ruta_hf"] = URL_BASE + "doctrina/" + str(r.get("archivo", ""))
+                f_out.write(json.dumps(r, ensure_ascii=False) + "\n")
+                n += 1
+        resumen["train_lite"] = {"filas": n, "mb": destino.stat().st_size / 1e6, "origen_mb": origen.stat().st_size / 1e6}
     return resumen
 
 
@@ -107,8 +120,11 @@ def generar_indice_citas() -> dict:
 # ── 4 · índice de agentes (rutas y formato de cita) ───────────────────────────
 
 def _areas_desde_fichas(limite: int = 18) -> list[dict]:
+    ruta = DATA / "instituciones.jsonl"
+    if not ruta.exists():
+        return []
     fichas: list[dict] = []
-    with open(DATA / "instituciones.jsonl", encoding="utf-8") as f:
+    with open(ruta, encoding="utf-8") as f:
         for linea in f:
             r = json.loads(linea)
             fichas.append({"area": r.get("area", ""), "archivo": r.get("archivo", ""), "autor": r.get("autor", "")})
@@ -126,11 +142,21 @@ def _areas_desde_fichas(limite: int = 18) -> list[dict]:
 
 
 def generar_llms_y_agentes() -> dict:
-    n_fichas = sum(1 for _ in open(DATA / "instituciones.jsonl", encoding="utf-8"))
-    n_obras = sum(1 for _ in open(DATA / "train.jsonl", encoding="utf-8"))
+    fuente_fichas = DATA / "instituciones.jsonl"
+    if not fuente_fichas.exists():
+        print("  [!] sin data/instituciones.jsonl: se conservan llms.txt e indice_agentes.json ya existentes")
+        return {"fichas": 0, "obras": 0, "guias": 0, "doctrina": 0, "juris": 0}
+    n_fichas = _contar(fuente_fichas)
+    n_obras = _contar(DATA / "train.jsonl")
     n_guias = len(list((BASE / "corpus_guias_aj").glob("*.md")))
     n_doctrina = len(list((BASE / "doctrina").rglob("*.md")))
-    n_juris = sum(1 for f in (DATA / "jurisprudencia").glob("*.jsonl") for _ in open(f, encoding="utf-8"))
+    n_juris = sum(_contar(f) for f in (DATA / "jurisprudencia").glob("*.jsonl"))
+    nodos = aristas = 0
+    try:
+        grafo = json.loads((DATA / "legal_knowledge_graph.json").read_text(encoding="utf-8"))
+        nodos, aristas = len(grafo.get("nodes", [])), len(grafo.get("edges", []))
+    except (OSError, ValueError):
+        pass
 
     llms = f"""# Open Legal Chile — corpus jurídico chileno en Markdown
 > Doctrina íntegra ({n_doctrina} documentos), guías oficiales de la Academia Judicial ({n_guias}),
@@ -163,7 +189,7 @@ Documentos de terceros redistribuidos con atribución (ver la tarjeta del datase
         "resumen": {
             "documentos_doctrina": n_doctrina, "guias_academia_judicial": n_guias, "fichas": n_fichas,
             "obras_indexadas": n_obras, "registros_jurisprudencia": n_juris,
-            "nodos_grafo": 12973, "aristas_grafo": 28346,
+            "nodos_grafo": nodos, "aristas_grafo": aristas,
         },
         "como_citar": {"formato": "[Hugging Face - <ruta>]", "url": URL_BASE + "<ruta>"},
         "rutas": _areas_desde_fichas(),
