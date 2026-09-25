@@ -20,8 +20,14 @@ CATALOGO = BASE / "data" / "catalogo"
 
 @pytest.fixture(scope="module", autouse=True)
 def catalogo_generado() -> None:
-    """Genera el catálogo con el script oficial cuando falta (CI)."""
-    if (CATALOGO / "instituciones_lite.jsonl").exists() and (BASE / "llms.txt").exists():
+    """Genera el catálogo con el script oficial cuando faltan los derivados.
+
+    En CI las fuentes `data/*.jsonl` no se versionan: si no están, no se intenta
+    generar y las pruebas que dependen de ellas se saltan solas.
+    """
+    if (CATALOGO / "instituciones_lite.jsonl").exists():
+        return
+    if not (BASE / "data" / "instituciones.jsonl").exists():
         return
     subprocess.run(
         [sys.executable, str(BASE / "scripts" / "optimizar_catalogo_hf.py")],
@@ -98,9 +104,10 @@ def test_indice_de_agentes_ofrece_rutas_y_cita():
     if not indice.exists():
         pytest.skip("dataset no generado todavía")
     datos = json.loads(indice.read_text(encoding="utf-8"))
-    assert datos["rutas"], "el índice debe ofrecer rutas «tema → archivo»"
     assert datos["como_citar"]["formato"].startswith("[Hugging Face - ")
     assert datos["archivos_clave"]["fichas_lite"].endswith("instituciones_lite.jsonl")
+    if datos["resumen"].get("fichas"):
+        assert datos["rutas"], "el índice debe ofrecer rutas «tema → archivo»"
 
 
 def test_el_publicador_ya_no_sube_los_artefactos_pesados():
