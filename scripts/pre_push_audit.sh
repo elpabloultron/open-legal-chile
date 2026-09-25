@@ -37,12 +37,17 @@ echo -e "\n${YELLOW}[3/4] Ejecutando Mypy Strict Type Checking...${NC}"
 "$ROOT_DIR/.venv/bin/mypy" --ignore-missing-imports --explicit-package-bases --exclude '(\.venv|doctrina_raw|brag-output)' tests/test_mcp_e2e_live.py evals/rag_evaluator.py
 echo -e "${GREEN}✓ Mypy Type Checker aprobado sin errores.${NC}"
 
-# 4. Pruebas críticas y suite E2E en vivo
-echo -e "\n${YELLOW}[4/4] Ejecutando Pruebas E2E y Registro MCP...${NC}"
+# 4. Anti-Bloat & Dead Code Audit con Vulture
+echo -e "\n${YELLOW}[4/5] Ejecutando Vulture Dead Code Audit...${NC}"
+"$ROOT_DIR/.venv/bin/vulture" . --min-confidence 80 --exclude .venv,tests,brag-output
+echo -e "${GREEN}✓ Vulture Dead Code Audit aprobado sin hallazgos.${NC}"
+
+# 5. Pruebas críticas y suite E2E en vivo
+echo -e "\n${YELLOW}[5/5] Ejecutando Pruebas E2E y Registro MCP...${NC}"
 "$ROOT_DIR/.venv/bin/pytest" tests/test_mcp_e2e_live.py tests/test_registry.py tests/test_updates_and_stats.py -q
 echo -e "${GREEN}✓ Pruebas críticas aprobadas con éxito.${NC}"
 
 echo -e "\n${GREEN}======================================================${NC}"
-echo -e "${GREEN}✨ Auditoría Pre-Push 100% Superada (4/4). Subida permitida.${NC}"
+echo -e "${GREEN}✨ Auditoría Pre-Push 100% Superada (5/5). Subida permitida.${NC}"
 echo -e "${GREEN}======================================================${NC}\n"
 exit 0

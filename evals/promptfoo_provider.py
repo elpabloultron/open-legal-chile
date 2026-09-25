@@ -19,6 +19,7 @@ _engine = LegalChatEngine()
 
 def call_api(prompt: str, options: Optional[Dict[str, Any]] = None, context: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
     """Punto de entrada invocado por el runner de Promptfoo."""
+    _ = (options, context)
     try:
         resp = _engine.chat(user_message=prompt)
         return {
