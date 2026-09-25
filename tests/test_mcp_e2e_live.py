@@ -25,6 +25,8 @@ class MCPClientRunner:
 
     def __enter__(self):
         env = os.environ.copy()
+        env["PYTHONUTF8"] = "1"
+        env["PYTHONIOENCODING"] = "utf-8"
         if self.profile:
             env["OPENLEGAL_PROFILE"] = self.profile
         else:
@@ -36,6 +38,8 @@ class MCPClientRunner:
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
+            encoding="utf-8",
+            errors="replace",
             bufsize=1,
             env=env,
         )

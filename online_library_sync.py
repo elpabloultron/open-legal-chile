@@ -398,14 +398,9 @@ print(dataset_inst[0]["institucion"])
 ```python
 import duckdb
 
-# Consulta SQL remota directa sin descargar el dataset completo
-query = \"\"\"
-SELECT institucion, autor, obra, definicion
-FROM read_json_auto('https://huggingface.co/datasets/{repo_id}/resolve/main/data/instituciones.jsonl')
-WHERE institucion ILIKE '%culpa%'
-LIMIT 5;
-\"\"\"
-df = duckdb.query(query).df()
+# Consulta remota directa sin descargar el dataset completo
+url = "https://huggingface.co/datasets/{repo_id}/resolve/main/data/instituciones.jsonl"
+df = duckdb.read_json(url).filter("institucion ILIKE '%culpa%'").limit(5).df()
 print(df)
 ```
 
