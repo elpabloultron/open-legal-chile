@@ -26,7 +26,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (74 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-74-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (75 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-75-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -90,7 +90,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 74 Herramientas Forenses Registradas (Suite Edition)                         │
+│   • 75 Herramientas Forenses Registradas (Suite Edition)                         │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
 │   • Generador Estandarizado de Recursos de Protección OJV (recurso_proteccion.py)       │
 │   • Knowledge Graph Jurídico y Ahorro de Tokens (legal_graphify.py)                     │
@@ -144,7 +144,7 @@ claude mcp add open-legal-chile python3 -m openlegal mcp
    cursor open-legal-chile
    ```
 2. Cursor detectará automáticamente `.cursor/mcp.json` y solicitará autorización para activar el servidor en un solo clic (**"Enable"**).
-3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 74 herramientas de inmediato.
+3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 75 herramientas de inmediato.
 
 ### Opción C: Instalación Global vía Smithery.ai (1-Comando)
 Registro oficial: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
@@ -216,9 +216,9 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (74 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (75 Herramientas Oficiales)
 
-El servidor MCP expone **74 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **75 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -339,6 +339,7 @@ El servidor MCP expone **74 herramientas oficiales** categorizadas funcionalment
 | :--- | :--- | :--- |
 | `academia_judicial_buscar_guias` | `query` *(str)*, `materia` *(str, opc)* | Busca en las Guías Oficiales de Formación y Buenas Prácticas Judiciales de la Academia Judicial (Penal, Determinación de Penas, Laboral, Familia, Ética, IA). |
 | `biblioteca_compilar_manifiesto` | `generar_bundles` *(bool, opc)* | Compila el catálogo y métricas de la biblioteca online de Markdown y genera los paquetes para Hugging Face, GitHub Releases y Google Drive. |
+| `huggingface_search_dataset` | `query` *(str)*, `limit` *(int, opc)* | Busca en el dataset público de Hugging Face (doctrina, guías, jurisprudencia y grafos) y devuelve las rutas de archivo y el enlace del dataset para citar. |
 
 ### R. Telemetría Ética, Métricas de Adopción y Actualizaciones Automáticas
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -566,7 +567,7 @@ openlegal agent chat dogmatico
 # Exportar perfiles de subagentes para Google Antigravity o Claude Code
 openlegal agent export --format antigravity
 
-# Servidor MCP estándar para agentes de IA (74 herramientas)
+# Servidor MCP estándar para agentes de IA (75 herramientas)
 openlegal mcp
 
 # Chat jurídico interactivo con RAG soberano chileno

@@ -88,7 +88,7 @@ ClaveÚnica y captcha: la suite no automatiza el acceso a un sistema con credenc
 mesa lo dice en sus advertencias y no expone ninguna herramienta que prometa lo contrario.
 
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 74 official tools over 16 forensic, state, doctrinal and agentic connectors:
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 75 official tools over 16 forensic, state, doctrinal and agentic connectors:
 
 **BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).
@@ -140,16 +140,17 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 39. `doctrina_ingestar_documento`: Convert raw legal texts or documents (.pdf, .docx, .txt, .md) to canonical token-optimized Markdown (RAE/ASALE and BCN/CS) and immediately update knowledge graph and SQLite FTS5.
 
 **LegalGraphify Knowledge Graph:**
-40. `graphify_consulta_subgrafo`: Extract synthetic subgraphs with a measured token reduction of 31.9 % to 90.5 % (median 74.1 %).
-41. `graphify_trazar_camino`: Trace relational paths between concepts and statutory rules.
-42. `graphify_explicar_institucion`: 360° dogmatic explanation with statutory foundation and Supreme Court criteria.
-43. `graphify_analizar_impacto`: Topological blast radius analysis for legal reforms or jurisprudence shifts.
-44. `graphify_god_nodes`: Structural pillars identification via PageRank and centrality.
+40. `huggingface_search_dataset`: Search the public Hugging Face dataset (doctrina, guías, jurisprudencia y grafos) by term; returns the file paths and the dataset URL for citation.
+41. `graphify_consulta_subgrafo`: Extract synthetic subgraphs with a measured token reduction of 31.9 % to 90.5 % (median 74.1 %).
+42. `graphify_trazar_camino`: Trace relational paths between concepts and statutory rules.
+43. `graphify_explicar_institucion`: 360° dogmatic explanation with statutory foundation and Supreme Court criteria.
+44. `graphify_analizar_impacto`: Topological blast radius analysis for legal reforms or jurisprudence shifts.
+45. `graphify_god_nodes`: Structural pillars identification via PageRank and centrality.
 
 **Autonomous Legal Agents Runtime:**
-45. `agent_list`: List the 19 specialized Chilean legal agent profiles and capabilities.
-46. `agent_run`: Execute autonomous legal agents in deterministic sovereign mode (100 % offline) or LLM-assisted ReAct mode.
-47. `agent_export_subagents`: Export agent configurations for Claude Code (.claude/subagents) or Google Antigravity.
+46. `agent_list`: List the 19 specialized Chilean legal agent profiles and capabilities.
+47. `agent_run`: Execute autonomous legal agents in deterministic sovereign mode (100 % offline) or LLM-assisted ReAct mode.
+48. `agent_export_subagents`: Export agent configurations for Claude Code (.claude/subagents) or Google Antigravity.
 
 ---
 
