@@ -437,6 +437,12 @@ class LegalGraphifyEngine:
         q_norm = _normalize_str(query)
         palabras_q = set(q_norm.split())
 
+        # 0. Coincidencia directa por ID exacto o normalizado
+        if query in self.graph:
+            return query
+        if q_norm in self.graph:
+            return q_norm
+
         # 1. Coincidencia exacta o contiene en instituciones_index
         for name, nid in self.instituciones_index.items():
             if q_norm == name or q_norm in name:
@@ -445,18 +451,21 @@ class LegalGraphifyEngine:
         # 2. Coincidencia en normas
         for name, nid in self.normas_index.items():
             if q_norm in name:
-                # Retornar institución que usa la norma
                 preds = list(self.graph.predecessors(nid))
                 if preds:
                     return preds[0]
+                return nid
+
+        # 2.5 Coincidencia exacta o contiene con cualquier label del grafo (órganos, tribunales, autores, fallos)
+        for nid, data in self.graph.nodes(data=True):
+            lbl_norm = _normalize_str(data.get("label", ""))
+            if q_norm == lbl_norm or (len(q_norm) > 3 and q_norm in lbl_norm):
                 return nid
 
         # 3. Puntuación por solapamiento de palabras
         mejor_nodo = None
         max_score = 0
         for nid, data in self.graph.nodes(data=True):
-            if data.get("node_type") not in ("institucion", "obra"):
-                continue
             lbl_norm = _normalize_str(data.get("label", ""))
             def_norm = _normalize_str(data.get("definicion", ""))
             score = 0
