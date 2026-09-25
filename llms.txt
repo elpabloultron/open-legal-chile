@@ -1,6 +1,6 @@
 # Open Legal Chile — corpus jurídico chileno en Markdown
 > Doctrina íntegra (228 documentos), guías oficiales de la Academia Judicial (21),
-> fichas dogmáticas densas (11,858), jurisprudencia (72,485 registros de los Tribunales
+> fichas dogmáticas densas (11,858), jurisprudencia (72,478 registros de los Tribunales
 > Ambientales, Corte Suprema y Tribunal Constitucional) y un grafo de conocimiento con
 > reducción masiva de tokens.
 

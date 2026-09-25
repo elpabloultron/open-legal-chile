@@ -918,6 +918,16 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
             with open(os.path.join(space_staging, "index.html"), "w", encoding="utf-8") as f:
                 f.write(index_content)
 
+            # Métricas vivas para el README del Space
+            nodos, aristas = 0, 0
+            try:
+                grafo = json.loads(
+                    pathlib.Path(BASE_DIR, "data/legal_knowledge_graph.json").read_text(encoding="utf-8")
+                )
+                nodos, aristas = len(grafo.get("nodes", [])), len(grafo.get("edges", []))
+            except Exception:
+                pass
+
             # 3. Generar README.md del Space
             space_readme = (
                 "---\n"
@@ -930,7 +940,7 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                 "---\n\n"
                 "# 🇨🇱 Open Legal Chile — Visualizador Interactivo del Knowledge Graph\n\n"
                 "Explorador interactivo en vivo de la red dogmática, árbol jerárquico y comunidades\n"
-                "del derecho chileno (17.006 nodos y 18.710 relaciones).\n\n"
+                f"del derecho chileno ({nodos:,} nodos y {aristas:,} relaciones).\n\n"
                 "- **Dataset Oficial:** [pablobenavidesj/doctrina-jurisprudencia-chile](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)\n"
                 "- **Repositorio GitHub:** [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)\n"
             )
