@@ -94,6 +94,56 @@ def get_github_community_stats(repo: str = GITHUB_REPO, timeout: float = 3.0) ->
     return stats
 
 
+def _contar_herramientas_mcp() -> int:
+    """Cuenta las herramientas reales del servidor MCP (nunca una cifra fija)."""
+    try:
+        from mcp_server import TOOLS
+        return len(TOOLS)
+    except Exception:
+        pass
+    try:
+        import ast
+        import pathlib as _pl
+        src = _pl.Path(__file__).with_name("mcp_server.py").read_text(encoding="utf-8")
+        i = src.index("TOOLS = [")
+        nivel = 0
+        for j in range(i, len(src)):
+            if src[j] == "[":
+                nivel += 1
+            elif src[j] == "]":
+                nivel -= 1
+                if nivel == 0:
+                    break
+        return len(ast.literal_eval(src[i + len("TOOLS = "):j + 1]))
+    except Exception:
+        return 0
+
+
+def _contar_documentos_markdown() -> int:
+    """Cuenta el corpus Markdown local: doctrina + guías de la Academia Judicial."""
+    import pathlib as _pl
+    base = _pl.Path(__file__).resolve().parent
+    total = 0
+    for carpeta in ("doctrina", "corpus_guias_aj"):
+        d = base / carpeta
+        if d.is_dir():
+            total += len(list(d.rglob("*.md")))
+    return total
+
+
+def _version_actual() -> str:
+    """Versión de la suite desde la fuente única (update_checker) o los metadatos."""
+    try:
+        from update_checker import CURRENT_VERSION
+        return CURRENT_VERSION
+    except Exception:
+        try:
+            from importlib.metadata import version
+            return version("openlegal-chile")
+        except Exception:
+            return "desconocida"
+
+
 def get_suite_adoption_metrics() -> Dict[str, Any]:
     """
     Consolida las métricas de adopción globales de Open Legal Chile Suite:
@@ -118,14 +168,14 @@ def get_suite_adoption_metrics() -> Dict[str, Any]:
 
     return {
         "suite": "Open Legal Chile",
-        "version_actual": "1.3.0",
+        "version_actual": _version_actual(),
         "metricas_pypi": pypi,
         "metricas_github": gh,
         "capacidades_locales": {
-            "herramientas_mcp_oficiales": 54,
+            "herramientas_mcp_oficiales": _contar_herramientas_mcp(),
             "conectores_estado": 10,
             "instituciones_doctrinales_indexadas": total_instituciones,
-            "documentos_biblioteca_markdown": 58,
+            "documentos_biblioteca_markdown": _contar_documentos_markdown(),
             "filosofia": "100% Open Source (Apache-2.0) | Zero-Data Leak | $0 Costo"
         }
     }

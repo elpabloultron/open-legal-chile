@@ -70,7 +70,8 @@ def test_suite_adoption_metrics():
     assert metrics["suite"] == "Open Legal Chile"
     assert "metricas_pypi" in metrics
     assert "metricas_github" in metrics
-    assert metrics["capacidades_locales"]["herramientas_mcp_oficiales"] == 54
+    assert metrics["capacidades_locales"]["herramientas_mcp_oficiales"] == len(TOOLS)
+    assert metrics["capacidades_locales"]["documentos_biblioteca_markdown"] >= 200
     assert metrics["capacidades_locales"]["instituciones_doctrinales_indexadas"] >= 100
 
 
