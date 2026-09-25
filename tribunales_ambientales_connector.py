@@ -207,4 +207,32 @@ class TribunalesAmbientalesClient:
                     "criterio": cd["criterio"]
                 })
 
+        # 3. Buscar en el dataset de sentencias, boletines y anuarios cosechados
+        jsonl_path = os.path.join(os.path.dirname(__file__), "data", "jurisprudencia", "ambiental_sentencias.jsonl")
+        if os.path.exists(jsonl_path):
+            try:
+                with open(jsonl_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        if not line.strip():
+                            continue
+                        doc = json.loads(line)
+                        if tribunal and doc.get("tribunal", "").upper() != tribunal.upper():
+                            continue
+                        text_corpus = f"{doc.get('titulo', '')} {doc.get('materia', '')} {doc.get('rol', '')} {doc.get('caratula', '')}".lower()
+                        if q_lower in text_corpus or any(tok in text_corpus for tok in q_lower.split() if len(tok) > 3):
+                            results.append({
+                                "origen": f"Jurisprudencia Oficial {doc.get('tribunal', 'Ambiental')}",
+                                "tribunal": doc.get("tribunal"),
+                                "titulo": doc.get("titulo"),
+                                "tipo": doc.get("tipo"),
+                                "rol": doc.get("rol"),
+                                "fecha": doc.get("fecha"),
+                                "materia": doc.get("materia"),
+                                "link": doc.get("url_pdf")
+                            })
+                            if len(results) >= 15:
+                                break
+            except Exception:
+                pass
+
         return results

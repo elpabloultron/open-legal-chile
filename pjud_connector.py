@@ -145,7 +145,17 @@ class PJUDClient:
             with sqlite3.connect(self.db_path) as conn:
                 conn.row_factory = sqlite3.Row
                 cur = conn.cursor()
-                cur.execute("SELECT * FROM sentencias_judiciales")
+                cur.execute("""
+                    SELECT * FROM sentencias_judiciales 
+                    ORDER BY 
+                        CASE 
+                            WHEN tribunal = 'Corte Suprema' THEN 1 
+                            WHEN tribunal LIKE '%Apelaciones%' THEN 2 
+                            WHEN tribunal LIKE '%Constitucional%' THEN 3 
+                            ELSE 4 
+                        END, 
+                        id ASC
+                """)
                 rows = cur.fetchall()
 
                 for r in rows:
