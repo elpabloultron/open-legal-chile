@@ -457,6 +457,18 @@ def _herramientas_de_materia(materia: Dict[str, Any]) -> List[Dict[str, Any]]:
     return pasos
 
 
+def _hf_para_plan(consulta: str, lim: int = 2) -> Dict[str, Any]:
+    """El corpus publicado en Hugging Face, para que el plan arranque por la base citable.
+
+    Si no hay red (o el Hub falla), devuelve vacío: la mesa nunca inventa fuentes.
+    """
+    try:
+        from online_library_sync import consultar_huggingface_dataset
+        return consultar_huggingface_dataset(query=consulta, limit=lim)
+    except Exception:  # noqa: BLE001
+        return {"resultados": [], "citas": []}
+
+
 def planear(deteccion: Dict[str, Any], consulta: str = "") -> Dict[str, Any]:
     """Arma el plan ordenado: qué usar, con qué argumentos y por qué."""
     materia, advertencias = _materia_de(deteccion)
@@ -482,6 +494,13 @@ def planear(deteccion: Dict[str, Any], consulta: str = "") -> Dict[str, Any]:
         faltantes.append("la materia: conviene decir en una frase de qué se trata el caso")
 
     pasos: List[Dict[str, Any]] = []
+    # Paso 0 obligatorio: la base citable es el corpus publicado en Hugging Face (AGENTS.md §2 quater).
+    # El plan de la mesa tiene que arrancar por ahí, no por la memoria del modelo.
+    pasos.append({
+        "herramienta": "huggingface_search_dataset",
+        "argumentos": {"query": consulta or " ".join(deteccion["letras"]) or "derecho chileno"},
+        "por_que": "paso 0 obligatorio: el corpus en Hugging Face primero (dataset público, citable)",
+    })
     # Si el caso trae Rol/RIT, ese es el dato más valioso que hay: se busca la causa y la
     # jurisprudencia por ahí antes que por palabras sueltas.
     if deteccion["roles"]:
@@ -559,12 +578,17 @@ def planear(deteccion: Dict[str, Any], consulta: str = "") -> Dict[str, Any]:
                 )
             paso["por_que"] += " (la consulta la armó la mesa de entrada con lo detectado)"
 
+    # El corpus publicado se consulta solo cuando hay una consulta explícita: los análisis sin
+    # pregunta no pagan red (y las pruebas corren sin conectividad).
+    hf = _hf_para_plan(consulta) if consulta else {"resultados": [], "citas": []}
+
     return {
         "materia": materia["clave"] if materia else None,
         "materia_etiqueta": materia["etiqueta"] if materia else None,
         "fuero_probable": materia["fuero"] if materia else None,
         "instituciones": deteccion["instituciones"],
         "plan": pasos,
+        "citas_hf": hf.get("citas", []),
         "faltantes": faltantes,
         "advertencias": advertencias,
     }

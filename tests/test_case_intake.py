@@ -15,6 +15,7 @@ import pathlib
 import sys
 import tempfile
 import unittest
+import unittest.mock
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 
@@ -176,10 +177,12 @@ class TestEjecucion(unittest.TestCase):
         mcp_server.handle_tool_call = self.original
 
     def test_ejecuta_los_pasos_del_plan(self):
-        resultado = case_intake.caso_ejecutar(self.TEXTO, limite_pasos=3)
-        self.assertEqual(len(resultado["resultados"]), 3)
+        resultado = case_intake.caso_ejecutar(self.TEXTO, limite_pasos=4)
+        self.assertEqual(len(resultado["resultados"]), 4)
         self.assertTrue(all(r["estado"] == "ok" for r in resultado["resultados"]))
-        self.assertEqual([n for n, _ in self.llamadas][0], "pjud_search_jurisprudencia")
+        # El paso 0 es el corpus publicado: la mesa arranca por Hugging Face.
+        self.assertEqual([n for n, _ in self.llamadas][0], "huggingface_search_dataset")
+        self.assertEqual([n for n, _ in self.llamadas][1], "pjud_search_jurisprudencia")
 
     def test_un_paso_que_falla_queda_anotado_y_no_tumba_la_mesa(self):
         def falso(nombre, argumentos):
@@ -195,13 +198,20 @@ class TestEjecucion(unittest.TestCase):
         self.assertIn("fallaron 2", resultado["resumen"])
 
     def test_los_pasos_sin_parametros_se_saltean_y_se_dicen(self):
-        resultado = case_intake.caso_ejecutar(self.TEXTO, pasos=[5], limite_pasos=5)
+        plan = case_intake.caso_analizar(self.TEXTO)["plan"]
+        numero = next(i for i, p in enumerate(plan, 1)
+                      if p["herramienta"] in ("compile_legal_dossier", "graphify_consulta_subgrafo")
+                      and not p["argumentos"])
+        resultado = case_intake.caso_ejecutar(self.TEXTO, pasos=[numero], limite_pasos=len(plan))
         salteados = [r for r in resultado["resultados"] if r["estado"] == "salteado"]
         self.assertTrue(salteados)
         self.assertTrue(all("motivo" in s for s in salteados))
 
     def test_seleccionar_pasos_por_numero(self):
-        resultado = case_intake.caso_ejecutar(self.TEXTO, pasos=[2])
+        plan = case_intake.caso_analizar(self.TEXTO)["plan"]
+        # `caso_ejecutar` numera los pasos desde 1.
+        indice = next(i for i, p in enumerate(plan, 1) if p["herramienta"] == "dt_search_doctrina")
+        resultado = case_intake.caso_ejecutar(self.TEXTO, pasos=[indice])
         self.assertEqual(len(resultado["resultados"]), 1)
         self.assertEqual(resultado["resultados"][0]["herramienta"], "dt_search_doctrina")
 
@@ -212,6 +222,30 @@ class TestEjecucion(unittest.TestCase):
         mcp_server.handle_tool_call = falso
         resultado = case_intake.caso_ejecutar(self.TEXTO, limite_pasos=1)
         self.assertNotIn("salida", resultado["resultados"][0])
+
+
+class TestPaso0HuggingFace(unittest.TestCase):
+    """El plan arranca por el corpus publicado: Hugging Face es el paso 0 (AGENTS.md §2 quater)."""
+
+    TEXTO = "Despido injustificado de una trabajadora con fuero maternal."
+
+    @unittest.mock.patch("case_intake._hf_para_plan",
+                         return_value={"resultados": [{"archivo": "doctrina/x.md"}],
+                                       "citas": [{"formato": "[Hugging Face - repo, Archivo: doctrina/x.md]",
+                                                  "texto": "pasaje", "url": "https://hf.co/x"}]})
+    def test_el_plan_arranca_con_hugging_face_y_trae_sus_citas(self, hf):
+        analisis = case_intake.caso_analizar(self.TEXTO, consulta="fuero maternal")
+        self.assertEqual(analisis["plan"][0]["herramienta"], "huggingface_search_dataset")
+        self.assertTrue(analisis["plan"][0]["argumentos"].get("query"))
+        self.assertTrue(analisis["citas_hf"], "el plan debe traer las citas del corpus")
+        hf.assert_called_once_with("fuero maternal")
+
+    def test_sin_consulta_no_baja_nada_del_hub(self):
+        with unittest.mock.patch("case_intake._hf_para_plan",
+                                 side_effect=AssertionError("no debe llamarse sin consulta")):
+            analisis = case_intake.caso_analizar(self.TEXTO)
+        self.assertEqual(analisis["plan"][0]["herramienta"], "huggingface_search_dataset")
+        self.assertEqual(analisis["citas_hf"], [])
 
 
 if __name__ == "__main__":  # pragma: no cover
