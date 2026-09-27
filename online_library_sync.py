@@ -13,6 +13,7 @@ import subprocess
 import sys
 import tarfile
 import shutil
+import time
 from typing import Dict, Any, List, Optional
 
 BASE_DIR = os.path.dirname(__file__)
@@ -28,6 +29,14 @@ def compilar_manifiesto_biblioteca() -> Dict[str, Any]:
 
 
 ARCHIVO_TOKEN = "~/.openlegal/hf_token"  # nosec B105 (es la ruta de un archivo, no una credencial)
+
+# Caché local del dataset: una consulta no debe volver a bajar lo mismo, ni traer un archivo
+# entero cuando alcanza con los pasajes que rodean lo buscado.
+CACHE_HF = pathlib.Path.home() / ".openlegal" / "hf_cache"
+_TEXTO_HF = (".md", ".txt", ".jsonl", ".json")
+_TAMANO_MAX_HF = 6_000_000        # archivos de texto: más grande que esto no se lee entero
+_TAMANO_MAX_JSONL = 16_000_000    # jsonl: se filtran líneas, pero se acota lo que se baja
+_ARCHIVOS_HF_CACHE: Dict[str, Any] = {}
 
 
 def resolver_token_hf(token: Optional[str] = None) -> Optional[str]:
@@ -1314,6 +1323,88 @@ def estado_huggingface(repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-c
         return {"conectado": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
 
 
+def _normalizar_para_buscar(texto: str) -> str:
+    """Baja los acentos sin cambiar el largo: las posiciones siguen sirviendo sobre el texto original."""
+    return texto.translate(str.maketrans("áéíóúüñÁÉÍÓÚÜÑ", "aeiouunAEIOUUN"))
+
+
+def _listar_archivos_hf(repo_id: str) -> List[str]:
+    """Lista los archivos del dataset con caché en memoria (10 minutos)."""
+    global _ARCHIVOS_HF_CACHE
+    ahora = time.time()
+    if _ARCHIVOS_HF_CACHE.get("repo") == repo_id and ahora - _ARCHIVOS_HF_CACHE.get("t", 0) < 600:
+        return _ARCHIVOS_HF_CACHE.get("archivos", [])
+    from huggingface_hub import HfApi
+    archivos = HfApi(token=resolver_token_hf()).list_repo_files(repo_id=repo_id, repo_type="dataset")
+    _ARCHIVOS_HF_CACHE = {"repo": repo_id, "t": ahora, "archivos": archivos}
+    return archivos
+
+
+def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] = None) -> str:
+    """Devuelve el texto de un archivo del dataset (con caché local en ~/.openlegal/hf_cache).
+
+    Los .jsonl se filtran por línea para no cargar 80 MB de fichas en memoria; el resto se lee
+    entero solo si es razonablemente chico. Ante cualquier falla devuelve "" — la búsqueda sigue
+    funcionando con las rutas y nunca inventa texto.
+    """
+    if not archivo.lower().endswith(_TEXTO_HF):
+        return ""
+    destino = CACHE_HF / repo_id.replace("/", "__") / archivo
+    try:
+        if not destino.exists():
+            from huggingface_hub import hf_hub_download
+            ruta = hf_hub_download(repo_id=repo_id, filename=archivo, repo_type="dataset",
+                                   cache_dir=str(CACHE_HF / repo_id.replace("/", "__")))
+            origen = pathlib.Path(ruta)
+            if not origen.exists() or origen.stat().st_size > _TAMANO_MAX_JSONL:
+                return ""
+            destino.parent.mkdir(parents=True, exist_ok=True)
+            if destino.resolve() != origen.resolve():
+                destino.write_bytes(origen.read_bytes())
+        if destino.suffix == ".jsonl":
+            if destino.stat().st_size > _TAMANO_MAX_JSONL:
+                return ""
+            lineas: List[str] = []
+            agujas = [_normalizar_para_buscar(t).lower() for t in (tokens or []) if len(t) > 2]
+            with destino.open(encoding="utf-8", errors="ignore") as f:
+                for i, linea in enumerate(f):
+                    if i > 200_000:
+                        break
+                    if not agujas or any(a in _normalizar_para_buscar(linea).lower() for a in agujas):
+                        lineas.append(linea)
+                    if len(lineas) >= 20:
+                        break
+            return "".join(lineas)
+        if destino.stat().st_size > _TAMANO_MAX_HF:
+            return ""
+        return destino.read_text(encoding="utf-8", errors="ignore")
+    except Exception:
+        return ""
+
+
+def _extractos_hf(texto: str, tokens: List[str], ancho: int = 400, maximo: int = 3) -> List[str]:
+    """Devuelve hasta `maximo` pasajes del texto alrededor de los términos buscados.
+
+    Busca sin acentos («simulacion» encuentra «simulación») pero devuelve el texto original.
+    """
+    piezas: List[str] = []
+    bajo = _normalizar_para_buscar(texto).lower()
+    for token in tokens:
+        t = _normalizar_para_buscar(token).lower().strip()
+        if len(t) < 3:
+            continue
+        pos = bajo.find(t)
+        while pos >= 0 and len(piezas) < maximo:
+            inicio = max(0, pos - ancho // 2)
+            pasaje = re.sub(r"\s+", " ", texto[inicio:pos + ancho]).strip()
+            if pasaje and pasaje not in piezas:
+                piezas.append(pasaje)
+            pos = bajo.find(t, pos + len(t))
+        if len(piezas) >= maximo:
+            break
+    return piezas
+
+
 def consultar_huggingface_dataset(query: str, limit: int = 5,
                                   repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
                                   space_id: str = "pablobenavidesj/open-legal-chile-graph") -> Dict[str, Any]:
@@ -1323,11 +1414,9 @@ def consultar_huggingface_dataset(query: str, limit: int = 5,
         return {"error": "Se requiere un término de búsqueda para consultar Hugging Face", "coincidencias": []}
 
     coincidencias: List[Dict[str, Any]] = []
+    citas: List[Dict[str, Any]] = []
     try:
-        from huggingface_hub import HfApi
-        token = resolver_token_hf()
-        api = HfApi(token=token)
-        files = api.list_repo_files(repo_id=repo_id, repo_type="dataset")
+        files = _listar_archivos_hf(repo_id)
 
         tokens_q = [t for t in re.split(r"[_\-\s]+", query_norm) if len(t) > 2]
 
@@ -1363,14 +1452,24 @@ def consultar_huggingface_dataset(query: str, limit: int = 5,
                     tipo = "recurso"
                     cita = f"[Hugging Face - {repo_id}, Archivo: {f}]"
 
+                extractos = _extractos_hf(_descargar_trozo_hf(f, repo_id, tokens_q), tokens_q)
                 coincidencias.append({
                     "archivo": f,
                     "dataset": repo_id,
                     "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
                     "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
                     "tipo": tipo,
-                    "cita_estandar": cita
+                    "cita_estandar": cita,
+                    "extractos": extractos,
+                    "tiene_texto": bool(extractos),
                 })
+                if extractos:
+                    citas.append({
+                        "formato": cita,
+                        "texto": extractos[0],
+                        "url": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+                        "fuente": "huggingface",
+                    })
                 if len(coincidencias) >= limit:
                     break
 
@@ -1380,6 +1479,7 @@ def consultar_huggingface_dataset(query: str, limit: int = 5,
             "query": query,
             "total_coincidencias": len(coincidencias),
             "resultados": coincidencias,
+            "citas": citas,
             "cita_fuente": f"[Hugging Face - Datasets Hub: https://huggingface.co/datasets/{repo_id}]"
         }
     except Exception as e:
@@ -1387,7 +1487,8 @@ def consultar_huggingface_dataset(query: str, limit: int = 5,
             "dataset_origen": f"https://huggingface.co/datasets/{repo_id}",
             "query": query,
             "error": f"Falla consultando Hugging Face Hub: {str(e)}",
-            "resultados": []
+            "resultados": [],
+            "citas": []
         }
 
 
