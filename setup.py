@@ -55,12 +55,14 @@ setup(
         "defusedxml>=0.7.1",
         "pymupdf>=1.23.0",
         "markdown-pdf>=1.3.0",
-        "networkx>=3.0"
+        "networkx>=3.0",
+        "numpy>=1.26",
+        "scipy>=1.11",
+        "python-docx>=1.1.0",
+        "huggingface-hub>=0.20.0",
+        "rapidocr-onnxruntime>=1.2.0",  # OCR incluido: la instalación lleva todo
     ],
     packages=find_packages(),
-    extras_require={
-        "ocr": ["rapidocr-onnxruntime>=1.2.0"]
-    },
     include_package_data=True,
     package_data={
         "": [".env.example", "mcp_config.json", "smithery.yaml"]

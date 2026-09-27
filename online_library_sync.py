@@ -1102,7 +1102,7 @@ Documentos de terceros redistribuidos con atribución (ver la tarjeta del datase
             return {
                 "exito": False,
                 "error": "El paquete 'huggingface_hub' no está instalado en el entorno.",
-                "instrucciones": "Instálalo ejecutando: pip install huggingface_hub"
+                "instrucciones": "Es dependencia base: reinstala el paquete con 'pip install --force-reinstall openlegal-chile' y vuelve a intentar."
             }
 
         try:

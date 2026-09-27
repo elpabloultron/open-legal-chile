@@ -41,13 +41,14 @@ dependencies = [
   # Documentos de trabajo en Word (.docx): los escritos se entregan editables, no en PDF.
   "python-docx>=1.1.0",
   # Sincronización y publicación con Hugging Face Datasets Hub
-  "huggingface-hub>=0.20.0"
+  "huggingface-hub>=0.20.0",
+  # OCR SIEMPRE incluido: leer un escaneo o una foto no puede depender de un paso manual.
+  # Antes vivía en el extra [ocr] y quien instalaba el paquete se quedaba sin leer PDFs sin capa
+  # de texto. La regla del producto: «siempre se debe instalar todo».
+  "rapidocr-onnxruntime>=1.2.0"
   ]
 
 [project.optional-dependencies]
-ocr = [
-  "rapidocr-onnxruntime>=1.2.0"
-]
 dev = [
   "pytest>=7.0",
   "pytest-asyncio"
