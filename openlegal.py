@@ -570,7 +570,8 @@ Ejemplos de uso:
   openlegal generate <tipo>   -> Genera un borrador judicial completo (demanda, recurso, contrato)
   openlegal skills            -> Lista las habilidades y plugins jurídicos de la suite
   openlegal export            -> Exporta un escrito judicial forense a HTML/MD
-  openlegal check             -> Verifica el estado de las credenciales y conectores
+  openlegal check             -> Ejecuta el doctor real de la suite (mide OCR, corpus, grafo, MCP)
+  openlegal doctor            -> Igual que check: diagnóstico medido, sin tableros fijos
   openlegal search "..."      -> Realiza una búsqueda jurídica universal
   openlegal grado [materia]   -> Inicia el interrogador socrático para Examen de Grado
   openlegal vigilar [texto]   -> Analiza proveídos judiciales y calcula plazos fatales
@@ -587,7 +588,7 @@ Ejemplos de uso:
   openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (17 perfiles)
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -643,23 +644,18 @@ Ejemplos de uso:
                 print("\n\n👋 Cerrando chat jurídico.\n")
                 break
 
-    elif args.comando == "check":
+    elif args.comando in ("doctor", "check"):
         print_banner()
-        from config import check_configuration
-        status = check_configuration()
-        print("\n🔍 DIAGNÓSTICO DE CONECTORES Y MOTORES (100% OPEN SOURCE & SOBERANO):")
-        print(" • Motor IA Soberano:     ✅ Operativo (100% Offline, Cero API Keys, $0)")
-        print(f" • Modelos Libres (Ollama):{'🟢 Activo (localhost:11434)' if status['OLLAMA_ACTIVE'] else '⚪ Inactivo (Opcional)'}")
-        print(" • BCN Ley Chile (XML):    ✅ Operativo (Acceso Público sin claves)")
-        print(" • Contraloría (CGR):      ✅ Operativo (API Abierta)")
-        print(" • Dirección Trabajo (DT): ✅ Operativo (Catálogo Abierto)")
-        print(" • Poder Judicial (PJUD):  ✅ Operativo (Base Jurisprudencial Abierta)")
-        print(" • CNE Energía Abierta:    ✅ Operativo (Datos Abiertos)")
-        print(" • Panel de Expertos:      ✅ Operativo (API Abierta)")
-        print(" • CMF Mercado Valores:    ✅ Operativo (API Abierta)")
-        print(" • SII Tributario:         ✅ Operativo (Índices Abiertos)")
-        print(" • SMA Ambiental:          ✅ Operativo (SNIFA Abierto)")
-        print(" • TDLC Libre Competencia: ✅ Operativo (API Abierta)\n")
+        from diagnostico import diagnostico_completo
+
+        resumen = diagnostico_completo()
+        iconos = {"ok": "✅", "aviso": "⚠️", "error": "❌", "omitido": "⚪"}
+        print(f"\n🩺 DOCTOR DE OPEN LEGAL CHILE — estado: {resumen['estado'].upper()}\n")
+        for chequeo in resumen["chequeos"]:
+            print(f" {iconos.get(chequeo['estado'], '•')} {chequeo['nombre']:<18} {chequeo['detalle']}")
+            if chequeo.get("sugerencia"):
+                print(f"    ↳ {chequeo['sugerencia']}")
+        print()
 
     elif args.comando == "search" or args.buscar:
         q = " ".join(args.query) if args.query else args.buscar
