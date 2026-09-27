@@ -1022,7 +1022,7 @@
   },
   {
     "name": "bcn_get_codigo_historico",
-    "description": "Consulta un Código de la República (civil, trabajo, cpc, penal, etc.) en la versión vigente a una fecha histórica (YYYY-MM-DD), con el historial real de versiones de LeyChile; devuelve la versión efectiva, su enlace oficial y —si se pide— el artículo a esa fecha (p. ej. la jornada de 45 a 40 horas).",
+    "description": "Consulta un Código de la República (civil, trabajo, cpc, penal, etc.) en la versión vigente a una fecha histórica (YYYY-MM-DD), con el historial real de versiones de LeyChile. Devuelve la versión efectiva, su enlace oficial y —si se pide— el texto del artículo a esa fecha. Ideal para ver cómo cambió una norma (p. ej. la jornada de 45 a 40 horas).",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -1644,6 +1644,42 @@
           "description": "Directorio destino para guardar los archivos de configuración (opcional)"
         }
       }
+    }
+  },
+  {
+    "name": "consulta_maestra",
+    "description": "PRIMER PASO OBLIGATORIO de toda consulta jurídica: consulta el dataset de Hugging Face, la doctrina canónica, el grafo y las normas chilenas detectadas en la consulta, y devuelve las fuentes con su TEXTO LITERAL y su corchete de cita listo para pegar. Usala antes de responder aunque creas saber la respuesta: el producto no cita de memoria.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "consulta": {
+          "type": "string",
+          "description": "La consulta jurídica tal como la hizo la persona"
+        },
+        "max_fuentes": {
+          "type": "integer",
+          "description": "Cuántas fuentes por familia (por defecto 3)"
+        }
+      },
+      "required": [
+        "consulta"
+      ]
+    }
+  },
+  {
+    "name": "cita_texto",
+    "description": "Devuelve el TEXTO LITERAL de una norma citada, con su corchete oficial y su enlace. Usala antes de citar cualquier artículo: el producto no cita sin texto.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "referencia": {
+          "type": "string",
+          "description": "Ej.: 'Código Civil art. 1438', 'Ley 21.643 art. 2'"
+        }
+      },
+      "required": [
+        "referencia"
+      ]
     }
   }
 ]

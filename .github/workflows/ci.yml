@@ -31,3 +31,51 @@ jobs:
       - name: Run MCP Server & State Connectors Test Suite
         run: |
           python -m pytest tests/ -v
+
+  paquete-limpio:
+    # La instalación ES el producto: `pip install` tiene que dejar todo andando (OCR incluido) y el
+    # MCP tiene que exponer las herramientas del protocolo sin ningún paso manual por terminal.
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar el paquete como lo haría un usuario (venv limpio, sin -e)
+        run: |
+          python -m venv /tmp/limpio
+          /tmp/limpio/bin/python -m pip install --upgrade pip
+          /tmp/limpio/bin/pip install .
+
+      - name: El doctor mide de verdad y no encuentra errores (OCR incluido)
+        run: |
+          cd /tmp
+          /tmp/limpio/bin/openlegal doctor | tee doctor.txt
+          ! grep -q "❌" doctor.txt
+          grep -i "^ .*ocr" doctor.txt | grep -q "rapidocr"
+
+      - name: El MCP arranca y expone el protocolo completo
+        run: |
+          cd /tmp
+          python - <<'PY'
+          import json, subprocess
+
+          peticiones = "\n".join([
+              json.dumps({"jsonrpc": "2.0", "id": 1, "method": "initialize",
+                          "params": {"protocolVersion": "2024-11-05", "capabilities": {}}}),
+              json.dumps({"jsonrpc": "2.0", "id": 2, "method": "tools/list"}),
+          ]) + "\n"
+          corrida = subprocess.run(["/tmp/limpio/bin/openlegal-mcp"], input=peticiones,
+                                   capture_output=True, text=True, timeout=180)
+          respuestas = [json.loads(l) for l in corrida.stdout.splitlines() if l.strip().startswith("{")]
+          herramientas = [t["name"] for r in respuestas for t in (r.get("result", {}).get("tools") or [])]
+
+          assert len(herramientas) == 77, f"{len(herramientas)} herramientas en el paquete instalado"
+          for nombre in ("consulta_maestra", "cita_texto", "huggingface_search_dataset", "bcn_get_codigo"):
+              assert nombre in herramientas, f"falta {nombre}"
+          print(f"MCP OK: {len(herramientas)} herramientas")
+          PY

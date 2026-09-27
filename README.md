@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://elpabloultron.github.io/open-legal-chile/"><img src="https://img.shields.io/badge/Web_Oficial-GitHub_Pages-gold?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web Oficial"/></a>
   <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
-  <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Biblioteca_MD-248_Documentos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Biblioteca_MD-228_Documentos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
@@ -144,7 +144,7 @@ claude mcp add open-legal-chile python3 -m openlegal mcp
    cursor open-legal-chile
    ```
 2. Cursor detectará automáticamente `.cursor/mcp.json` y solicitará autorización para activar el servidor en un solo clic (**"Enable"**).
-3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 75 herramientas de inmediato.
+3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 77 herramientas de inmediato.
 
 ### Opción C: Instalación Global vía Smithery.ai (1-Comando)
 Registro oficial: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
@@ -159,24 +159,29 @@ npx -y smithery mcp add pablobenavidesjorquera/open-legal-chile
 pip install openlegal-chile
 ```
 
-El paquete **incluye el corpus doctrinal** (248 documentos chilenos en Markdown: doctrina, apuntes, materiales docentes y guías de la Academia Judicial) y **el grafo de
+Y una sola línea más para que **tu harness lo vea todo** (Antigravity, Claude Code, Cursor, VS Code,
+Codex, dsh): `openlegal integrar --todos --escribir` detecta qué harness tenés y escribe su
+configuración MCP —fusionando, sin pisar tus otros servidores y con respaldo `.bak`—. El detalle por
+cliente y cómo verificarlo está en [`docs/integracion-harness.md`](docs/integracion-harness.md).
+
+El paquete **incluye el corpus doctrinal** (228 documentos chilenos en Markdown: doctrina, apuntes, materiales docentes y guías de la Academia Judicial) y **el grafo de
 conocimiento ya construido**, así que `graphify_*` y `doctrina_search` funcionan sin clonar
 nada más. El índice FTS5 de doctrina se construye solo en la primera búsqueda (unos segundos).
 Si instalas solo los módulos (por ejemplo copiando archivos sueltos), el motor lo dirá en vez de
 responder "no encontrado" a todo: esa fue la falla silenciosa de las versiones anteriores a la
 1.5.4.
 
-**Para leer documentos escaneados o fotografiados** (boletas, escrituras, expedientes), instala el
-extra de OCR:
+**Para leer documentos escaneados o fotografiados** (boletas, escrituras, expedientes) no hay nada
+que instalar aparte: **el OCR viaja dentro del paquete** (RapidOCR). `pip install openlegal-chile`
+deja el motor robusto listo, sin extras ni comandos adicionales. Tesseract queda como respaldo del
+sistema operativo: sirve para escaneos limpios pero **falla con fotos torcidas o de baja
+resolución** (en pruebas con dos boletas notariales fotografiadas: 0 caracteres con Tesseract a
+cualquier rotación, 553 y 525 caracteres con RapidOCR). El extractor informa siempre qué motor usó
+y, si una página no rinde texto, lo advierte en vez de reportar éxito. Para ver qué quedó instalado:
 
 ```bash
-pip install "openlegal-chile[ocr]"
+openlegal doctor
 ```
-
-Sin ese extra el motor usa Tesseract, que sirve para escaneos limpios pero **falla con fotos
-torcidas o de baja resolución** (en pruebas con dos boletas notariales fotografiadas: 0 caracteres
-con Tesseract a cualquier rotación, 553 y 525 caracteres con RapidOCR). El extractor informa
-siempre qué motor usó y, si una página no rinde texto, lo advierte en vez de reportar éxito.
 
 ### Opción E: Instalación desde Código Fuente (Desarrollo)
 ```bash
@@ -216,15 +221,17 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (75 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (77 Herramientas Oficiales)
 
-El servidor MCP expone **75 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **77 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
 | `bcn_get_codigo` | `codigo` *(str)*, `articulo` *(str, opc)* | Consulta artículos o estructura de los 9 Códigos fundamentales chilenos (Civil, Trabajo, Procedimiento Civil, Penal, Comercio, Tributario, Minería, Aguas, Procesal Penal) en la BCN. |
-| `bcn_get_ley` | `numero` *(int)*, `articulo` *(str, opc)* | Descarga y parsea el texto oficial de cualquier ley de la República (ej. Ley 21.643 Karin, Ley 21.561 40 Horas, Ley 20.886 OJV). |
+| `bcn_get_ley` | `numero` *(int)*, `articulo` *(str, opc)* | Descarga y parsea el texto oficial de cualquier ley de la República (ej. Ley 21.643 Karin, Ley 21.561 40 Horas, Ley 20.886 OJV). Devuelve además el bloque `citas` con el corchete oficial y el **texto literal**. |
+| `consulta_maestra` | `consulta` *(str)*, `limite` *(int, opc)* | **Primer paso de toda consulta jurídica (§2 quater).** En una sola llamada: corpus de Hugging Face + doctrina canónica + subgrafo + normas detectadas, con el **texto literal** y el corchete de cada fuente, y la lista `faltantes` de lo que no se pudo traer. |
+| `cita_texto` | `referencia` *(str)* | Devuelve el **texto literal** de una norma citada («Código Civil art. 1438», «Ley 21.643 art. 2») con su corchete oficial y su enlace de BCN. Si la fuente no responde, lo declara `sin_fuente_verificable` en vez de inventar el tenor. |
 
 ### B. Jurisprudencia y Dictámenes Vinculantes
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -339,7 +346,7 @@ El servidor MCP expone **75 herramientas oficiales** categorizadas funcionalment
 | :--- | :--- | :--- |
 | `academia_judicial_buscar_guias` | `query` *(str)*, `materia` *(str, opc)* | Busca en las Guías Oficiales de Formación y Buenas Prácticas Judiciales de la Academia Judicial (Penal, Determinación de Penas, Laboral, Familia, Ética, IA). |
 | `biblioteca_compilar_manifiesto` | `generar_bundles` *(bool, opc)* | Compila el catálogo y métricas de la biblioteca online de Markdown y genera los paquetes para Hugging Face, GitHub Releases y Google Drive. |
-| `huggingface_search_dataset` | `query` *(str)*, `limit` *(int, opc)* | Busca en el dataset público de Hugging Face (doctrina, guías, jurisprudencia y grafos) y devuelve las rutas de archivo y el enlace del dataset para citar. |
+| `huggingface_search_dataset` | `query` *(str)*, `limit` *(int, opc)* | Busca en el dataset público de Hugging Face (doctrina, guías, jurisprudencia y grafos) y devuelve las rutas de archivo, el enlace del dataset y **los pasajes de texto (`extractos`) con su corchete de cita**, listos para citar. |
 
 ### R. Telemetría Ética, Métricas de Adopción y Actualizaciones Automáticas
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -619,8 +626,9 @@ openlegal stats
 # Comprobar y ejecutar la auto-actualización de la Suite
 openlegal update
 
-# Diagnóstico de estado de los conectores
-openlegal check
+# Diagnóstico real de la suite (mide OCR, corpus, grafo, citas y herramientas MCP)
+openlegal doctor
+openlegal check   # alias del anterior
 ```
 
 ---
