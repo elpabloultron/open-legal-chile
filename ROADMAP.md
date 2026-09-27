@@ -17,6 +17,7 @@
 
 ## 📍 Q3-Q4 2026: Expansión Forense y Base de Datos Vectorial
 * [x] **Catálogo de 7 habilidades jurídicas chilenas:** laboral, litigación, administrativo, energía, ambiental, contratos y corporativo (workflows importados y chilenizados de claude-for-legal).
+* [ ] **Legal CRM & Harness Bridge:** Ingesta automática de causas judiciales analizadas por la suite hacia un CRM web dockerizado con alertas multicanal (Telegram, WhatsApp, Email, SMS) para audiencias y plazos fatales ([ver doc](docs/CRM_HARNESS_INTEGRATION.md)).
 * [ ] **Base Vectorial Local Offline:** Embeddings locales de los 9 Códigos de la República y la Constitución Política para búsqueda semántica ultrarrápida sin conexión.
 * [ ] **Expansión a 100 Casos en *Chilean Legal Eval*:** Benchmark ampliado con derecho tributario y libre competencia.
 
