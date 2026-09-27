@@ -249,5 +249,5 @@ class TestMCPServerNewTools:
         assert len(res) >= 1
 
     def test_mcp_total_tools_count(self):
-        # 75: 74 de base más la consulta directa al Datasets Hub de Hugging Face (huggingface_search_dataset).
-        assert len(TOOLS) == 75
+        # 77: 75 de base + consulta_maestra (paso 0 con citas) + cita_texto (texto literal de una norma).
+        assert len(TOOLS) == 77

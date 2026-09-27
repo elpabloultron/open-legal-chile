@@ -1263,6 +1263,48 @@ def _subgrafo_para_consulta(query: str, hops: int = 1) -> Dict[str, Any]:
         return {}
 
 
+def _con_citas(resultado: Any, fuente: str, identificador: str, url: str = "", campo_texto: str = "texto") -> Any:
+    """Añade a un resultado individual la cita con su texto literal (aditivo, nunca reemplaza)."""
+    if not isinstance(resultado, dict):
+        return resultado
+    texto = str(resultado.get(campo_texto) or "")
+    if texto:
+        resultado["citas"] = list(resultado.get("citas") or []) + [
+            formatear_cita(fuente, identificador, url=url, texto=texto[:1200])]
+    return resultado
+
+
+def _citas_en_items(resultado: Any, fuente: str, campos_clave: tuple, campo_texto: str = "texto",
+                    maximo: int = 3) -> Any:
+    """Añade «citas» a cada ítem de una lista o de un dict con «resultados».
+
+    Es aditivo a propósito: la forma de la respuesta (lista o dict) no cambia, para no romper a
+    ningún consumidor; la cita viaja dentro del ítem, lista para pegar.
+    """
+    if isinstance(resultado, dict):
+        items = None
+        for clave in ("resultados", "dictamenes", "guias", "coincidencias", "items"):
+            if isinstance(resultado.get(clave), list):
+                items = resultado[clave]
+                break
+    elif isinstance(resultado, list):
+        items = resultado
+    else:
+        return resultado
+    for item in (items or [])[:maximo]:
+        if not isinstance(item, dict):
+            continue
+        ident = ", ".join(str(item.get(c)).strip() for c in campos_clave if item.get(c))
+        texto = str(item.get(campo_texto) or item.get("snippet") or item.get("resumen")
+                    or item.get("materia") or "")
+        if not ident or not texto:
+            continue
+        item["citas"] = list(item.get("citas") or []) + [
+            formatear_cita(fuente, ident[:180], url=str(item.get("url") or item.get("url_pdf") or ""),
+                           texto=texto[:900])]
+    return resultado
+
+
 def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     try:
         args = args or {}
@@ -1350,7 +1392,12 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             cod = args.get("codigo")
             if not cod:
                 return {"error": "El parámetro 'codigo' es obligatorio (ej. 'civil', 'trabajo', 'cpc')."}
-            return bcn.get_codigo(cod, args.get("articulo"))
+            dato = bcn.get_codigo(cod, args.get("articulo"))
+            if isinstance(dato, dict) and dato.get("texto"):
+                articulo = dato.get("articulo") or args.get("articulo") or ""
+                ident = CODIGOS.get(str(cod).lower(), str(cod)) + (f", Art. {articulo}" if articulo else "")
+                dato = _con_citas(dato, "BCN", ident, url=_url_codigo_bcn(str(cod).lower()))
+            return dato
         elif name == "bcn_get_ley":
             try:
                 num = int(args.get("numero") or 0)
@@ -1359,13 +1406,21 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             if num <= 0:
                 return {"error": "El número de ley debe ser un entero positivo."}
             art = args.get("articulo")
-            return bcn.get_articulo_ley(num, art) if art else bcn.get_ley(num)
+            dato = bcn.get_articulo_ley(num, art) if art else bcn.get_ley(num)
+            if isinstance(dato, dict) and dato.get("texto"):
+                ident = f"Ley N° {num}" + (f", Art. {art}" if art else "")
+                url = (f"https://www.bcn.cl/leychile/navegar?idLey={num}" if art
+                       else f"https://www.bcn.cl/leychile/navegar?idNorma={dato.get('normaId', '')}")
+                dato = _con_citas(dato, "BCN", ident, url=url)
+            return dato
         elif name == "cgr_search_jurisprudencia":
-            return cgr.search_jurisprudencia(args.get("query", ""))
+            return _citas_en_items(cgr.search_jurisprudencia(args.get("query", "")), "CGR",
+                                   campos_clave=("nombre", "anio"), campo_texto="texto")
         elif name == "cgr_search_auditorias":
             return cgr.search_auditorias(args.get("query", ""))
         elif name == "dt_search_doctrina":
-            return dt.search_dictamenes(args.get("query", ""), limit=10)
+            return _citas_en_items(dt.search_dictamenes(args.get("query", ""), limit=10), "Dictamen DT",
+                                   campos_clave=("titulo", "fecha"), campo_texto="materia")
         elif name == "cne_get_centrales_y_proyectos":
             region = (args.get("region") or "").strip()
             capacidad = cne.get_capacidad_instalada()
@@ -1586,7 +1641,7 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                 lim = int(args.get("limit", 5))
             except (ValueError, TypeError):
                 lim = 5
-            return {
+            return _citas_en_items({
                 "query": q,
                 "resultados": search_doctrina(
                     query=q,
@@ -1594,7 +1649,7 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                     autor=args.get("autor"),
                     limit=lim
                 )
-            }
+            }, "Doctrina", campos_clave=("autor", "obra"), campo_texto="definicion")
         elif name == "doctrina_get_institucion":
             nom = args.get("nombre")
             if not nom:
@@ -1822,7 +1877,8 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             q = args.get("query")
             if not q:
                 return {"error": "El parámetro 'query' es obligatorio."}
-            return aj_client.search_guias(q, args.get("materia"))
+            return _citas_en_items(aj_client.search_guias(q, args.get("materia")), "Academia Judicial",
+                                   campos_clave=("titulo", "materia"), campo_texto="descripcion")
         elif name == "biblioteca_compilar_manifiesto":
             bundles = bool(args.get("generar_bundles", False))
             manif = library_sync_mgr.compilar_manifiesto_corpus()
