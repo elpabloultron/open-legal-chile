@@ -38,6 +38,12 @@ _TAMANO_MAX_HF = 6_000_000        # archivos de texto: más grande que esto no s
 _TAMANO_MAX_JSONL = 16_000_000    # jsonl: se filtran líneas, pero se acota lo que se baja
 _ARCHIVOS_HF_CACHE: Dict[str, Any] = {}
 
+# Palabras que aparecen en casi cualquier consulta y no discriminan nada al buscar en el dataset.
+_PALABRAS_VACIAS = {"que", "qué", "del", "los", "las", "por", "para", "con", "sobre", "como", "dice",
+                    "cual", "cuál", "cuando", "donde", "dónde", "este", "esta", "son", "una", "uno",
+                    "sus", "mas", "más", "pero", "entre", "desde", "hasta", "segun", "según", "hay",
+                    "tiene", "todo", "toda", "otro", "otra", "esos", "esas", "esa", "ese"}
+
 
 def resolver_token_hf(token: Optional[str] = None) -> Optional[str]:
     """Busca el token de Hugging Face, en orden: parámetro, entorno, archivo local.
@@ -1340,6 +1346,39 @@ def _listar_archivos_hf(repo_id: str) -> List[str]:
     return archivos
 
 
+def _linea_jsonl_legible(linea: str) -> str:
+    """Convierte una línea de .jsonl en texto legible: una ficha cruda no es un pasaje citable."""
+    try:
+        dato = json.loads(linea)
+    except Exception:  # noqa: BLE001
+        return linea
+    if not isinstance(dato, dict):
+        return str(dato)
+    partes = []
+    for clave in ("titulo", "definicion", "materia", "snippet", "resumen", "contenido", "texto"):
+        valor = dato.get(clave)
+        if isinstance(valor, str) and valor.strip():
+            partes.append(f"{clave}: {valor.strip()}")
+        if len(partes) >= 3:
+            break
+    return " | ".join(partes) if partes else linea
+
+
+def _prioridad_hf(nombre: str) -> int:
+    """Ordena las coincidencias: primero el corpus legible, al final los índices de datos."""
+    if nombre.startswith("doctrina/"):
+        return 0
+    if nombre.startswith("guias_academia_judicial/"):
+        return 1
+    if nombre.startswith("jurisprudencia_tc/"):
+        return 2
+    if nombre.startswith("publicaciones_ambientales/"):
+        return 3
+    if nombre.startswith("data/"):
+        return 5
+    return 4
+
+
 def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] = None) -> str:
     """Devuelve el texto de un archivo del dataset (con caché local en ~/.openlegal/hf_cache).
 
@@ -1354,6 +1393,7 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
         if not destino.exists():
             from huggingface_hub import hf_hub_download
             ruta = hf_hub_download(repo_id=repo_id, filename=archivo, repo_type="dataset",
+                                   token=resolver_token_hf(),
                                    cache_dir=str(CACHE_HF / repo_id.replace("/", "__")))
             origen = pathlib.Path(ruta)
             if not origen.exists() or origen.stat().st_size > _TAMANO_MAX_JSONL:
@@ -1371,10 +1411,10 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
                     if i > 200_000:
                         break
                     if not agujas or any(a in _normalizar_para_buscar(linea).lower() for a in agujas):
-                        lineas.append(linea)
+                        lineas.append(_linea_jsonl_legible(linea))
                     if len(lineas) >= 20:
                         break
-            return "".join(lineas)
+            return "\n".join(lineas)
         if destino.stat().st_size > _TAMANO_MAX_HF:
             return ""
         return destino.read_text(encoding="utf-8", errors="ignore")
@@ -1418,60 +1458,61 @@ def consultar_huggingface_dataset(query: str, limit: int = 5,
     try:
         files = _listar_archivos_hf(repo_id)
 
-        tokens_q = [t for t in re.split(r"[_\-\s]+", query_norm) if len(t) > 2]
+        tokens_q = [t for t in (_normalizar_para_buscar(x).lower() for x in re.split(r"[_\-\s]+", query_norm))
+                    if len(t) > 2 and t not in _PALABRAS_VACIAS]
+        candidatos = sorted((f for f in files if any(t in _normalizar_para_buscar(f).lower() for t in tokens_q)),
+                            key=lambda f: (_prioridad_hf(f), f))
 
-        for f in files:
-            f_norm = f.lower()
-            if any(t in f_norm for t in tokens_q):
-                encoded_path = f.replace(" ", "%20")
-                nombre_base = os.path.basename(f)
+        for f in candidatos:
+            encoded_path = f.replace(" ", "%20")
+            nombre_base = os.path.basename(f)
 
-                # Clasificación especializada de recursos en el dataset
-                if f.startswith("graphify/wiki/"):
-                    tipo = "wiki_comunidad"
-                    cita = f"[Hugging Face - {repo_id}, Wiki Comunidad: {nombre_base}]"
-                elif f in ("graphify/graph.html", "graphify/GRAPH_TREE.html", "graphify/GRAPH_CALLFLOW.html"):
-                    tipo = "visualizador_interactivo"
-                    cita = f"[Hugging Face - {repo_id}, Visualizador: {nombre_base}]"
-                elif f in ("graphify/graph.json", "graphify/graph.graphml", "graphify/cypher.txt"):
-                    tipo = "grafo_conocimiento"
-                    cita = f"[Hugging Face - {repo_id}, Grafo: {nombre_base}]"
-                elif f == "graphify/GRAPH_REPORT.md":
-                    tipo = "reporte_comunidades"
-                    cita = f"[Hugging Face - {repo_id}, Reporte: {nombre_base}]"
-                elif f.startswith("guias_academia_judicial/"):
-                    tipo = "guia_academia_judicial"
-                    cita = f"[Hugging Face - {repo_id}, Guía Judicial: {nombre_base}]"
-                elif f.startswith("doctrina/"):
-                    tipo = "doctrina_markdown"
-                    cita = f"[Hugging Face - {repo_id}, Archivo: {f}]"
-                elif f.startswith("data/"):
-                    tipo = "datos_estructurados"
-                    cita = f"[Hugging Face - {repo_id}, Datos: {f}]"
-                else:
-                    tipo = "recurso"
-                    cita = f"[Hugging Face - {repo_id}, Archivo: {f}]"
+            # Clasificación especializada de recursos en el dataset
+            if f.startswith("graphify/wiki/"):
+                tipo = "wiki_comunidad"
+                cita = f"[Hugging Face - {repo_id}, Wiki Comunidad: {nombre_base}]"
+            elif f in ("graphify/graph.html", "graphify/GRAPH_TREE.html", "graphify/GRAPH_CALLFLOW.html"):
+                tipo = "visualizador_interactivo"
+                cita = f"[Hugging Face - {repo_id}, Visualizador: {nombre_base}]"
+            elif f in ("graphify/graph.json", "graphify/graph.graphml", "graphify/cypher.txt"):
+                tipo = "grafo_conocimiento"
+                cita = f"[Hugging Face - {repo_id}, Grafo: {nombre_base}]"
+            elif f == "graphify/GRAPH_REPORT.md":
+                tipo = "reporte_comunidades"
+                cita = f"[Hugging Face - {repo_id}, Reporte: {nombre_base}]"
+            elif f.startswith("guias_academia_judicial/"):
+                tipo = "guia_academia_judicial"
+                cita = f"[Hugging Face - {repo_id}, Guía Judicial: {nombre_base}]"
+            elif f.startswith("doctrina/"):
+                tipo = "doctrina_markdown"
+                cita = f"[Hugging Face - {repo_id}, Archivo: {f}]"
+            elif f.startswith("data/"):
+                tipo = "datos_estructurados"
+                cita = f"[Hugging Face - {repo_id}, Datos: {f}]"
+            else:
+                tipo = "recurso"
+                cita = f"[Hugging Face - {repo_id}, Archivo: {f}]"
 
-                extractos = _extractos_hf(_descargar_trozo_hf(f, repo_id, tokens_q), tokens_q)
-                coincidencias.append({
-                    "archivo": f,
-                    "dataset": repo_id,
-                    "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
-                    "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
-                    "tipo": tipo,
-                    "cita_estandar": cita,
-                    "extractos": extractos,
-                    "tiene_texto": bool(extractos),
+            extractos = _extractos_hf(_descargar_trozo_hf(f, repo_id, tokens_q), tokens_q)
+            coincidencias.append({
+                "archivo": f,
+                "dataset": repo_id,
+                "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+                "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
+                "tipo": tipo,
+                "cita_estandar": cita,
+                "extractos": extractos,
+                "tiene_texto": bool(extractos),
+            })
+            if extractos:
+                citas.append({
+                    "formato": cita,
+                    "texto": extractos[0],
+                    "url": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+                    "fuente": "huggingface",
                 })
-                if extractos:
-                    citas.append({
-                        "formato": cita,
-                        "texto": extractos[0],
-                        "url": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
-                        "fuente": "huggingface",
-                    })
-                if len(coincidencias) >= limit:
-                    break
+            if len(coincidencias) >= limit:
+                break
 
         return {
             "dataset_origen": f"https://huggingface.co/datasets/{repo_id}",
