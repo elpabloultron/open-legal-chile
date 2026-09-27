@@ -6,12 +6,24 @@ redacten con la identidad y el estilo propio del despacho.
 """
 
 import os
+import re
 import sys
 import json
+import unicodedata
 from pathlib import Path
 from typing import Dict, Any, Optional, List
 
 PROFILE_FILE = "practice_profile.json"
+
+# Palabras que no ayudan a reconocer una pregunta en lenguaje natural.
+_VACIAS = {"cual", "cuales", "como", "para", "sobre", "donde", "tiene", "prefiere", "usted", "suya"}
+
+
+def _palabras_clave(texto: str) -> set:
+    """Tokens significativos de un texto, sin tildes ni signos."""
+    sin_tildes = unicodedata.normalize("NFKD", texto or "").encode("ascii", "ignore").decode()
+    return {palabra for palabra in re.sub(r"[^a-z0-9]+", " ", sin_tildes.lower()).split()
+            if len(palabra) >= 4 and palabra not in _VACIAS}
 
 DEFAULT_QUESTIONS: List[Dict[str, Any]] = [
     {
@@ -79,9 +91,11 @@ class ColdStartInterviewEngine:
         return ColdStartInterviewEngine.save_profile(respuestas, base_dir=base_dir)
 
     @staticmethod
-    def save_profile(respuestas: Dict[str, Any], base_dir: str = ".") -> Dict[str, Any]:
-        """
-        Guarda el perfil de práctica en practice_profile.json y actualiza directrices.
+    def _guardar(respuestas: Dict[str, Any], base_dir: str = ".") -> Dict[str, Any]:
+        """Escribe el perfil y actualiza CLAUDE.md, sin imprimir nada.
+
+        El silencio es deliberado: el mismo motor corre dentro del servidor MCP, que habla JSON-RPC
+        por stdout — un print ahí rompería el protocolo con el harness.
         """
         out_path = os.path.join(base_dir, PROFILE_FILE)
         with open(out_path, "w", encoding="utf-8") as f:
@@ -114,6 +128,51 @@ class ColdStartInterviewEngine:
                     f.write(content)
             except Exception as e:
                 sys.stderr.write(f"No se pudo actualizar CLAUDE.md: {e}\n")
+
+        return respuestas
+
+    @staticmethod
+    def responder(pregunta: str = "", respuesta: str = "", base_dir: str = ".") -> Dict[str, Any]:
+        """Entrevista sin consola: así un harness arma el perfil porchat.
+
+        Sin argumentos devuelve el cuestionario y el perfil actual; con `pregunta` (el id, el texto
+        o unas palabras clave) y `respuesta`, guarda esa clave del perfil.
+        """
+        perfil = ColdStartInterviewEngine.load_profile(base_dir=base_dir) or {}
+        pregunta = (pregunta or "").strip()
+        if not pregunta:
+            return {"cuestionario": DEFAULT_QUESTIONS, "perfil": perfil, "claves": sorted(perfil)}
+
+        objetivo = _palabras_clave(pregunta)
+        elegido: Optional[Dict[str, Any]] = None
+        mejor = 0
+        for q in DEFAULT_QUESTIONS:
+            if q["id"].lower() == pregunta.lower().replace(" ", "_"):
+                elegido, mejor = q, 99
+                break
+            puntos = len((_palabras_clave(q["id"]) | _palabras_clave(q["pregunta"])) & objetivo)
+            if puntos > mejor:
+                elegido, mejor = q, puntos
+        if elegido is None or mejor == 0:
+            return {"error": f"No reconozco la pregunta «{pregunta}».",
+                    "claves": [q["id"] for q in DEFAULT_QUESTIONS], "perfil": perfil}
+
+        valor = (respuesta or "").strip() or str(elegido.get("default", ""))
+        opciones = elegido.get("opciones") or {}
+        if valor in opciones:
+            valor = opciones[valor]
+        perfil[elegido["id"]] = valor
+        guardado = ColdStartInterviewEngine._guardar(perfil, base_dir=base_dir)
+        return {"pregunta": elegido["id"], "respuesta": valor, "perfil": guardado,
+                "claves": sorted(guardado)}
+
+    @staticmethod
+    def save_profile(respuestas: Dict[str, Any], base_dir: str = ".") -> Dict[str, Any]:
+        """
+        Guarda el perfil de práctica en practice_profile.json y actualiza directrices.
+        """
+        respuestas = ColdStartInterviewEngine._guardar(respuestas, base_dir=base_dir)
+        out_path = os.path.join(base_dir, PROFILE_FILE)
 
         print("="*70)
         print("✅ PERFIL DE PRÁCTICA REGISTRADO EXITOSAMENTE")

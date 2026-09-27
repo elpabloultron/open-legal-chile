@@ -33,7 +33,7 @@ Codex y el parche Cordis de dsh se **agregan**, y siempre queda un `.bak` del ar
 ```bash
 echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | openlegal-mcp | \
   python -c "import sys,json; print(len(json.loads(sys.stdin.readline())['result']['tools']), 'herramientas')"
-# Esperado: 77 herramientas
+# Esperado: 84 herramientas
 ```
 
 **2. El doctor no encuentra errores**
@@ -67,5 +67,5 @@ devuelven el bloque `citas` con el texto** en cada resultado citable.
 |---|---|---|
 | El harness no muestra herramientas | No reiniciaste el cliente tras escribir la config | Reiniciá el harness (los hijos MCP se lanzan al arrancar) |
 | `openlegal-mcp: command not found` | El paquete no está en el `PATH` del cliente | Reinstalá con `pip install --force-reinstall openlegal-chile` y verificá `which openlegal-mcp` |
-| Aparecen menos de 77 herramientas | Perfil restringido del plugin (`laboral`, `dogmatico`…) | Usá el perfil `completo`/`full` |
+| Aparecen menos de 84 herramientas | Perfil restringido del plugin (`laboral`, `dogmatico`…) | Usá el perfil `completo`/`full` |
 | Una respuesta cita sin texto | El harness no siguió §2 quater | Agregá a su prompt de sistema: «usá `consulta_maestra` primero y no cites sin `cita_texto`» |
