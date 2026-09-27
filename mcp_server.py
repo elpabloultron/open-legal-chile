@@ -1392,6 +1392,23 @@ def _registro_estatal():
     return StateRegistry()
 
 
+def _items_del_organismo(valor: Any) -> List[Dict[str, Any]]:
+    """Normaliza la respuesta de un conector a una lista de resultados citables.
+
+    Los conectores del Estado no son uniformes: unos devuelven listas (BCN, DT, PJUD) y otros un dict
+    con «resultados» (CGR, SMA). Las listas traen además avisos honestos («este conector no cubre…»),
+    que no son fuentes: acá se descartan para la cita y el payload completo los conserva.
+    """
+    if isinstance(valor, list):
+        candidatos = valor
+    elif isinstance(valor, dict):
+        candidatos = next((valor[clave] for clave in ("resultados", "items", "docs")
+                           if isinstance(valor.get(clave), list)), [])
+    else:
+        return []
+    return [x for x in candidatos if isinstance(x, dict) and x.get("tipo") != "aviso"]
+
+
 def _raiz() -> pathlib.Path:
     return pathlib.Path(__file__).resolve().parent
 
@@ -1546,14 +1563,14 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                     ident = f"{CODIGOS[norma['obra']]}, Art. {norma['articulo']}"
                     url = _url_codigo_bcn(norma["obra"])
                 else:
-                    numero = int(norma["numero"])
+                    numero_ley = int(norma["numero"])
                     if norma.get("articulo"):
-                        dato = cliente.get_articulo_ley(numero, norma["articulo"])
-                        ident = f"Ley N° {numero}, Art. {norma['articulo']}"
-                        url = f"https://www.bcn.cl/leychile/navegar?idLey={numero}"
+                        dato = cliente.get_articulo_ley(numero_ley, norma["articulo"])
+                        ident = f"Ley N° {numero_ley}, Art. {norma['articulo']}"
+                        url = f"https://www.bcn.cl/leychile/navegar?idLey={numero_ley}"
                     else:
-                        dato = cliente.get_ley(numero)
-                        ident = f"Ley N° {numero}"
+                        dato = cliente.get_ley(numero_ley)
+                        ident = f"Ley N° {numero_ley}"
                         url = f"https://www.bcn.cl/leychile/navegar?idNorma={dato.get('normaId', '')}"
                 texto = str(dato.get("texto") or "")
                 if not texto:
@@ -1572,29 +1589,33 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             if not consulta:
                 return {"error": "El parámetro 'consulta' es obligatorio."}
             resultados = _registro_estatal().search_all(consulta)
-            citas: List[Dict[str, Any]] = []
+            citas_halladas: List[Dict[str, Any]] = []
             if isinstance(resultados, dict):
-                for organismo, items in resultados.items():
-                    for it in (items or [])[:3]:
-                        if not isinstance(it, dict):
-                            continue
-                        nombre = it.get("nombre") or it.get("title") or it.get("titulo")
+                for organismo, valor in resultados.items():
+                    if organismo == "query":
+                        continue
+                    for it in _items_del_organismo(valor)[:3]:
+                        nombre = (it.get("nombre") or it.get("materia") or it.get("title")
+                                  or it.get("titulo") or it.get("docId"))
                         if not nombre:
                             continue
-                        citas.append(formatear_cita(
-                            str(organismo).upper(), str(nombre), url=str(it.get("url") or ""),
-                            texto=str(it.get("resumen") or it.get("snippet") or "")[:600]))
-            return {"consulta": consulta, "resultados": resultados, "citas": citas}
+                        citas_halladas.append(formatear_cita(
+                            str(organismo).upper(), str(nombre),
+                            url=str(it.get("url") or it.get("pdfUrl") or it.get("enlace") or ""),
+                            texto=str(it.get("texto") or it.get("conclusiones") or it.get("resumen")
+                                      or it.get("snippet") or "")[:600]))
+            return {"consulta": consulta, "resultados": resultados, "citas": citas_halladas}
 
         elif name == "critique_documento":
             texto = (args.get("texto") or "").strip()
             if not texto:
                 return {"error": "El parámetro 'texto' es obligatorio (el borrador a auditar)."}
             from critique import LegalCritiqueEngine
-            res = LegalCritiqueEngine().critique(texto, provider=args.get("provider"))
-            if not isinstance(res, dict):
-                return {"informe": str(res), "citas": []}
-            return {"informe": res.get("critique") or res.get("error", ""), "citas": res.get("citas", [])}
+            informe = LegalCritiqueEngine().critique(texto, provider=args.get("provider"))
+            if not isinstance(informe, dict):
+                return {"informe": str(informe), "citas": []}
+            return {"informe": informe.get("critique") or informe.get("error", ""),
+                    "citas": informe.get("citas", [])}
 
         elif name == "generar_documento":
             tipo = (args.get("tipo") or "demanda_civil").lower()
@@ -1608,7 +1629,7 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                 return {"error": f"Tipo desconocido: {tipo}. Opciones: {', '.join(plantillas)}"}
             if not (args.get("hechos") or args.get("peticiones")):
                 return {"error": "Faltan los hechos o las peticiones: sin eso el escrito sale en blanco."}
-            res = LegalDocumentExporter.export_brief(
+            exportado = LegalDocumentExporter.export_brief(
                 titulo_principal=plantillas[tipo],
                 tribunal=args.get("tribunal", ""),
                 presuma_data={"materia": args.get("materia", ""), "demandante": args.get("demandante", ""),
@@ -1619,7 +1640,7 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                 peticiones=args.get("peticiones", ""),
                 otrosies=args.get("otrosies") or [],
             )
-            return {"tipo": tipo, "entregable": "word", "archivos": res, "citas": res.get("citas", [])}
+            return {"tipo": tipo, "entregable": "word", "archivos": exportado, "citas": exportado.get("citas", [])}
 
         elif name == "entrevista_estudio":
             from cold_start import ColdStartInterviewEngine
@@ -2303,7 +2324,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.7.1"
+                            "version": "1.7.2"
                         }
                     }
                 }

@@ -40,6 +40,8 @@ COMANDO_A_HERRAMIENTA = {
 def _comandos_cli() -> set:
     fuente = (RAIZ / "openlegal.py").read_text(encoding="utf-8")
     coincidencia = re.search(r'add_argument\("comando".*?choices=\[(.*?)\]', fuente, re.S)
+    if coincidencia is None:
+        raise AssertionError("no se encontró el add_argument('comando') con choices= en openlegal.py")
     return set(re.findall(r'"([a-z-]+)"', coincidencia.group(1)))
 
 
