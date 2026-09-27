@@ -15,6 +15,20 @@ import integraciones_harness as ih
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 
 
+def _correr_cli(*argumentos: str, cwd: pathlib.Path) -> subprocess.CompletedProcess:
+    """Corre la CLI como la corre el usuario, leyendo su salida en UTF-8.
+
+    En Windows el pipe decodifica con cp1252 por defecto: el banner (⚖️, tildes) mata al hilo lector,
+    `stdout` queda en None y la prueba falla con un TypeError que no dice nada
+    («argument of type 'NoneType' is not iterable»). La codificación se declara acá, igual que en el
+    punto de entrada del producto (openlegal.py reconfigura su stdout a UTF-8).
+    """
+    return subprocess.run(
+        [sys.executable, str(RAIZ / "openlegal.py"), *argumentos],
+        capture_output=True, text=True, encoding="utf-8", errors="replace", cwd=str(cwd),
+    )
+
+
 def test_configuracion_claude_code_es_json_valido():
     cfg = ih.configuracion("claude-code")
 
@@ -99,12 +113,10 @@ def test_escribir_dsh_fusiona_el_parche_sin_pisar(tmp_path):
 
 
 def test_la_cli_lista_clientes_e_integra(tmp_path):
-    listado = subprocess.run([sys.executable, str(RAIZ / "openlegal.py"), "integrar"],
-                             capture_output=True, text=True, cwd=str(tmp_path))
+    listado = _correr_cli("integrar", cwd=tmp_path)
     assert "claude-code" in listado.stdout and "dsh" in listado.stdout
 
-    escrito = subprocess.run([sys.executable, str(RAIZ / "openlegal.py"), "integrar", "claude-code", "--escribir"],
-                             capture_output=True, text=True, cwd=str(tmp_path))
+    escrito = _correr_cli("integrar", "claude-code", "--escribir", cwd=tmp_path)
     assert (tmp_path / ".mcp.json").exists(), escrito.stdout + escrito.stderr
     assert "open-legal-chile" in (tmp_path / ".mcp.json").read_text(encoding="utf-8")
 
@@ -124,8 +136,7 @@ def test_la_cli_integra_todos_los_detectados(tmp_path):
     (tmp_path / ".claude").mkdir()
     (tmp_path / ".vscode").mkdir()
 
-    corrida = subprocess.run([sys.executable, str(RAIZ / "openlegal.py"), "integrar", "--todos", "--escribir"],
-                             capture_output=True, text=True, cwd=str(tmp_path))
+    corrida = _correr_cli("integrar", "--todos", "--escribir", cwd=tmp_path)
 
     assert (tmp_path / ".mcp.json").exists(), corrida.stdout + corrida.stderr
     assert (tmp_path / ".vscode" / "mcp.json").exists(), corrida.stdout + corrida.stderr
