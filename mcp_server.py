@@ -2303,7 +2303,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.7.0"
+                            "version": "1.7.1"
                         }
                     }
                 }

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openlegal-chile"
-version = "1.7.0"
+version = "1.7.1"
 description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
 readme = "README.md"
 authors = [
@@ -75,6 +75,61 @@ openlegal-mcp = "mcp_server:main"
 
 [tool.setuptools]
 include-package-data = true
+
+# Los módulos raíz se declaran ACÁ: es la lista que el build usa de verdad.
+# Un módulo nuevo sin declarar no viaja al wheel y el paquete instalado revienta al importar
+# (pasó en 1.7.0: el MCP no arrancaba por `docx_compiler` ausente, y `diagnostico`,
+# `citas_legales`, `integraciones_harness`, `case_intake` tampoco iban en el wheel).
+# `tests/test_empaquetado.py` lo impide: si agregás un .py en la raíz, tiene que estar acá.
+py-modules = [
+    "academia_judicial_connector",
+    "agents_runtime",
+    "ambiental_connector",
+    "bcn_connector",
+    "case_intake",
+    "cbr_titles",
+    "cgr_connector",
+    "chat_engine",
+    "citas_legales",
+    "clinica_juridica",
+    "cmf_connector",
+    "cne_connector",
+    "cold_start",
+    "config",
+    "critique",
+    "diagnostico",
+    "doc2md_ingestor",
+    "docket_watcher",
+    "doctrina_connector",
+    "docx_compiler",
+    "dt_connector",
+    "entes_publicos",
+    "examen_grado",
+    "exporters",
+    "forensic_ocr",
+    "grafo_vinculos",
+    "grafo_vista",
+    "infoprobidad_connector",
+    "ingesta_fuentes",
+    "integraciones_harness",
+    "legal_graphify",
+    "mcp_server",
+    "notebooklm_connector",
+    "online_library_sync",
+    "openlegal",
+    "panel_expertos_connector",
+    "pdf_dossier_compiler",
+    "pjud_connector",
+    "privacidad_inapi",
+    "query_openlegal_laws",
+    "recurso_proteccion",
+    "sentencias_parser",
+    "sii_connector",
+    "stats_tracker",
+    "tdlc_connector",
+    "tribunales_ambientales_connector",
+    "update_checker",
+]
 
 [tool.setuptools.data-files]
 "openlegal-chile" = [".env.example", "mcp_config.json", "smithery.yaml"]

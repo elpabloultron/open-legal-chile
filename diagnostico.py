@@ -17,16 +17,35 @@ BASE_DIR = pathlib.Path(__file__).resolve().parent
 ESTADOS = ("ok", "aviso", "error", "omitido")
 
 
-def _chequeo_version() -> Dict[str, Any]:
-    version = "desconocida"
+def _version_instalada() -> str:
+    """La versión que el usuario tiene delante: primero la del paquete instalado con pip.
+
+    El wheel no lleva pyproject.toml, así que leerlo desde BASE_DIR solo sirve en el repo; en una
+    instalación normal tiene que salir de los metadatos del paquete.
+    """
+    try:
+        from importlib.metadata import version as version_paquete
+
+        return version_paquete("openlegal-chile")
+    except Exception:  # noqa: BLE001 - sin metadatos seguimos con las otras fuentes
+        pass
     try:
         import tomllib
 
         datos = tomllib.loads((BASE_DIR / "pyproject.toml").read_text(encoding="utf-8"))
-        version = datos["project"]["version"]
-    except Exception:  # noqa: BLE001 - la versión no puede tumbar el diagnóstico
+        return datos["project"]["version"]
+    except Exception:  # noqa: BLE001
         pass
-    return {"nombre": "version", "estado": "ok", "detalle": f"openlegal-chile {version}"}
+    try:
+        from update_checker import CURRENT_VERSION
+
+        return CURRENT_VERSION
+    except Exception:  # noqa: BLE001
+        return "desconocida"
+
+
+def _chequeo_version() -> Dict[str, Any]:
+    return {"nombre": "version", "estado": "ok", "detalle": f"openlegal-chile {_version_instalada()}"}
 
 
 def _chequeo_ocr() -> Dict[str, Any]:
@@ -92,7 +111,9 @@ def _chequeo_grafo() -> Dict[str, Any]:
 def _chequeo_indices() -> Dict[str, Any]:
     db = BASE_DIR / "doctrina.db"
     if not db.exists():
-        return {"nombre": "indices", "estado": "aviso",
+        # Normal en una instalación nueva: el índice se arma solo en la primera búsqueda. No es
+        # una falla, así que no degrada el estado (antes el doctor gritaba «degradado» al instalar).
+        return {"nombre": "indices", "estado": "ok",
                 "detalle": "el índice FTS de doctrina se construye en la primera búsqueda"}
     try:
         import sqlite3

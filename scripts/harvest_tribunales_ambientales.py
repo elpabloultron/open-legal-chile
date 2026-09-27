@@ -24,7 +24,7 @@ os.makedirs(DOC_DIR, exist_ok=True)
 os.makedirs(os.path.dirname(OUTPUT_JSONL), exist_ok=True)
 
 HEADERS = {
-    "User-Agent": "OpenLegalChile/1.7.0 (Universidad de Los Lagos; Investigacion Ambiental Soberana)"
+    "User-Agent": "OpenLegalChile/1.7.1 (Universidad de Los Lagos; Investigacion Ambiental Soberana)"
 }
 
 def harvest_3ta_anuarios() -> List[Dict[str, Any]]:

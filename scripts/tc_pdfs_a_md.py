@@ -34,7 +34,7 @@ SENTENCIAS = BASE / "data" / "jurisprudencia" / "tc_sentencias_2anios.jsonl"
 INDICE = BASE / "data" / "jurisprudencia" / "tc_textos.jsonl"
 DIR_MD = BASE / "jurisprudencia_tc"
 DIR_PDF = DIR_MD / "pdf"
-UA = {"User-Agent": "OpenLegalChile/1.7.0 (Investigacion Juridica Soberana; Universidad de Los Lagos)"}
+UA = {"User-Agent": "OpenLegalChile/1.7.1 (Investigacion Juridica Soberana; Universidad de Los Lagos)"}
 TRABAJADORES = 5
 PDFTOTEXT = shutil.which("pdftotext") or "pdftotext"
 

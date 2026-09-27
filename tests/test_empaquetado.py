@@ -75,3 +75,28 @@ def test_el_codigo_no_manda_a_instalar_dependencias_por_terminal():
         assert "rapidocr-onnxruntime" not in texto, f"{nombre}: instrucción manual del OCR"
         assert "[ocr]" not in texto, f"{nombre}: el extra de OCR ya no existe"
         assert "pip install huggingface_hub" not in texto, f"{nombre}: es dependencia base"
+
+
+def test_todos_los_modulos_de_la_raiz_viajan_en_el_paquete():
+    """Candado: un módulo sin declarar no llega al wheel y el paquete instalado no arranca.
+
+    Pasó en 1.7.0: la lista de módulos vivía duplicada en setup.py, sin docx_compiler, case_intake,
+    diagnostico, citas_legales, integraciones_harness ni doc2md_ingestor. El MCP del paquete
+    publicado no importaba (`ModuleNotFoundError: docx_compiler`) y devolvía cero herramientas.
+    La lista canónica es la de pyproject.toml; acá se exige que esté completa.
+    """
+    tomllib = pytest.importorskip("tomllib", reason="requiere Python 3.11+")
+    cfg = tomllib.loads((RAIZ / "pyproject.toml").read_text(encoding="utf-8"))
+    declarados = set(cfg["tool"]["setuptools"]["py-modules"])
+
+    reales = {p.stem for p in RAIZ.glob("*.py")} - {"setup", "conftest"}
+    faltan = sorted(reales - declarados)
+    sobran = sorted(declarados - reales)
+    assert not faltan, f"módulos que NO viajan al wheel: {faltan}"
+    assert not sobran, f"declarados pero inexistentes: {sobran}"
+
+    # Una sola fuente de verdad: setup.py no debe volver a tener su propia lista.
+    setup_py = (RAIZ / "setup.py").read_text(encoding="utf-8")
+    assert "py_modules=" not in setup_py, (
+        "py_modules volvió a setup.py: dos listas divergentes son la falla que dejó 1.7.0 roto")
+
