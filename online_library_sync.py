@@ -1392,7 +1392,12 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
     try:
         if not destino.exists():
             from huggingface_hub import hf_hub_download
-            ruta = hf_hub_download(repo_id=repo_id, filename=archivo, repo_type="dataset",
+            # El dataset es el PROPIO de Open Legal Chile, que esta misma suite publica y actualiza:
+            # la búsqueda tiene que ver el corpus más fresco, no una revisión congelada. Lo que se
+            # baja son datos (markdown/jsonl) que nunca se ejecutan y se validan antes de usarse
+            # (extensión permitida, tope de tamaño y lectura defensiva de cada línea).
+            ruta = hf_hub_download(  # nosec B615
+                                   repo_id=repo_id, filename=archivo, repo_type="dataset",
                                    token=resolver_token_hf(),
                                    cache_dir=str(CACHE_HF / repo_id.replace("/", "__")))
             origen = pathlib.Path(ruta)

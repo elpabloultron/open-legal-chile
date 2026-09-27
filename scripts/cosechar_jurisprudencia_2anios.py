@@ -31,7 +31,7 @@ BASE_DIR = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data" / "jurisprudencia"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-UA = {"User-Agent": "OpenLegalChile/1.6.5 (Investigacion Juridica Soberana; Universidad de Los Lagos)"}
+UA = {"User-Agent": "OpenLegalChile/1.7.0 (Investigacion Juridica Soberana; Universidad de Los Lagos)"}
 HDR_HTML = {**UA, "Accept": "text/html,application/xhtml+xml"}
 
 PAUSA = 0.25  # cortesía con los servidores públicos
