@@ -6,6 +6,7 @@ dictámenes, auditorías y jurisprudencia administrativa de la República de Chi
 
 import sys
 import os
+import json
 import argparse
 
 # Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
@@ -586,12 +587,15 @@ Ejemplos de uso:
   openlegal update            -> Comprueba y ejecuta la auto-actualización de la Suite
   openlegal graph "..."       -> Consulta el Knowledge Graph (LegalGraphify) con ahorro mediano de tokens del 99,9 %
   openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (17 perfiles)
+  openlegal integrar         -> Muestra y escribe la configuración MCP de tu harness (--escribir)
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "integrar", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
+    parser.add_argument("--escribir", action="store_true", help="Con 'integrar': escribe la configuración del harness (con respaldo)")
+    parser.add_argument("--todos", action="store_true", help="Con 'integrar': configura todos los harness detectados en la máquina")
     args = parser.parse_args()
 
     if args.comando == "mcp":
@@ -643,6 +647,48 @@ Ejemplos de uso:
             except KeyboardInterrupt:
                 print("\n\n👋 Cerrando chat jurídico.\n")
                 break
+
+    if args.comando == "integrar":
+        from integraciones_harness import (clientes as clientes_ih, configuracion as config_ih,
+                                           detectar_instalados, escribir as escribir_ih,
+                                           escribir_todos as escribir_todos_ih)
+
+        cliente = (args.query[0] if args.query else "").strip()
+        if args.todos:
+            print_banner()
+            detectados = detectar_instalados()
+            if not detectados:
+                print("\nNo detecté harness instalados en esta máquina. Opciones: " + ", ".join(clientes_ih()))
+                print("Ejemplo: openlegal integrar claude-code --escribir\n")
+                return
+            print(f"\n🔌 Integrando {len(detectados)} harness detectados: {', '.join(detectados)}\n")
+            for resultado in escribir_todos_ih(detectados):
+                print(json.dumps(resultado, ensure_ascii=False))
+            print("\n✅ Listo. Reiniciá cada harness: tienen que verse 77 herramientas MCP.\n")
+            return
+        if not cliente:
+            print_banner()
+            print("\n🔌 INTEGRAR OPEN LEGAL CHILE EN TU HARNESS (77 herramientas MCP)\n")
+            for nombre in clientes_ih():
+                cfg = config_ih(nombre)
+                print(f" • {nombre:<12} → {cfg['ruta']}")
+            print("\nEjemplo: openlegal integrar claude-code --escribir")
+            print("Sin --escribir, solo muestra el contenido listo para pegar.\n")
+            return
+        try:
+            cfg = config_ih(cliente)
+        except ValueError as exc:
+            print(f"❌ {exc}")
+            return
+        if not args.escribir:
+            print(f"# {cfg['cliente']} → {cfg['ruta']} (agregá --escribir para guardarlo)\n")
+            print(cfg["contenido"])
+            return
+        resultado = escribir_ih(cfg["cliente"])
+        print(json.dumps(resultado, ensure_ascii=False, indent=2))
+        if resultado["estado"] in ("escrito", "fusionado", "agregado"):
+            print("\n✅ Listo. Reiniciá el harness y pedile «tools/list»: tienen que verse 77 herramientas.")
+        return
 
     elif args.comando in ("doctor", "check"):
         print_banner()
