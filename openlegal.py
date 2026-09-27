@@ -802,21 +802,18 @@ Ejemplos de uso:
 
     elif args.comando == "skills":
         print_banner()
-        print("""
-🧩 HABILIDADES Y AGENTES JURÍDICOS ACTIVOS (Open Legal Chile):
---------------------------------------------------------------------------------
- 1. 💼 chilean-employment-legal     -> Despidos Art. 161/160, Ley Karin, 40 Horas, RIHS, DT
- 2. ⚖️ chilean-litigation-legal     -> Demandas OJV Ley 20.886, Intake, Cronologías, Recursos
- 3. 📜 chilean-administrative-legal -> Dictámenes CGR, Compras Públicas, Vigilancia Regulatoria
- 4. ⚡ chilean-energy-legal         -> PPA Clientes Libres, DFL 4/2006, Panel de Expertos
- 5. 🌱 chilean-environmental-legal  -> Sancionatorios SMA/SNIFA, Programas de Cumplimiento
- 6. ✍️ chilean-contract-legal      -> Revisión de Contratos, NDA, Renovaciones, Ley 19.496
- 7. 🏛️ chilean-corporate-legal     -> SpA/S.A., Compliance SII/CMF, Actas, Cierres FNE
---------------------------------------------------------------------------------
-Workflows importados y chilenizados del proyecto claude-for-legal de Anthropic
-(Apache-2.0), adaptados estrictamente al Derecho Continental chileno.
-Usa 'openlegal chat' o 'openlegal mcp' para conectarlos con tu agente de IA preferido.
-""")
+        print("\n🧩 HABILIDADES Y AGENTES JURÍDICOS ACTIVOS (Open Legal Chile)\n")
+        try:
+            from mcp_server import _listar_skills
+            catalogo = _listar_skills()
+            for indice, skill in enumerate(catalogo["skills"], 1):
+                print(f" {indice:>2}. 🧩 {skill['nombre']:<32} {skill['titulo'][:60]}")
+            print(f"\n🤖 Agentes autónomos ({len(catalogo['agentes'])}): " + ", ".join(catalogo["agentes"]))
+            print("\nUsá `openlegal integrar --todos --escribir` para que tu harness vea todas las herramientas,")
+            print("y `openlegal doctor` para comprobar qué quedó instalado.")
+        except Exception as exc:  # noqa: BLE001 - el listado no puede tumbar la consola
+            print(f"No pude listar las skills ({exc}). Reinstalá el paquete si falta el corpus.")
+        print()
 
 
     elif args.comando == "export":

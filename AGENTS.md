@@ -110,7 +110,7 @@ ClaveÚnica y captcha: la suite no automatiza el acceso a un sistema con credenc
 mesa lo dice en sus advertencias y no expone ninguna herramienta que prometa lo contrario.
 
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 77 official tools over 16 forensic, state, doctrinal and agentic connectors:
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 84 official tools over 16 forensic, state, doctrinal and agentic connectors:
 
 **BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).
@@ -177,6 +177,13 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 **Protocolo de citas (§2 quater) — paso 0 y texto literal:**
 49. `consulta_maestra`: PRIMER PASO de toda consulta jurídica. Ejecuta en una sola llamada el corpus de Hugging Face, la doctrina canónica, el grafo y las normas detectadas en la consulta; devuelve `citas[]` con el **texto literal** y el corchete de cada fuente, más `faltantes[]`.
 50. `cita_texto`: devuelve el TEXTO LITERAL de una norma citada («Código Civil art. 1438», «Ley 21.643 art. 2») con su corchete oficial y su enlace de BCN. El producto no cita sin texto.
+51. `suite_doctor`: diagnóstico medido de la instalación (versión, OCR, corpus, grafo, índice FTS, citas, herramientas MCP y token de Hugging Face).
+52. `busqueda_universal`: búsqueda simultánea en los 10 organismos del Estado, con citas listas.
+53. `skills_listar`: las 18 skills jurídicas y los 19 agentes reales del producto.
+54. `skill_ver`: el contenido completo de una skill, para que el harness aplique su criterio.
+55. `critique_documento`: auditoría forense de un borrador (5 dimensiones).
+56. `generar_documento`: escrito completo con plantilla chilena, entregado en Word (.docx editable).
+57. `entrevista_estudio`: entrevista de arranque del despacho sin consola (guarda el perfil de práctica).
 
 ---
 

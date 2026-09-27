@@ -294,14 +294,27 @@ POR TANTO,
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(json_data, f, ensure_ascii=False, indent=2)
 
-        return {
+        # 6. Word editable (regla del producto: el entregable de trabajo es .docx, nunca PDF)
+        docx_path = os.path.join(EXPORTS_DIR, f"{filename}.docx")
+        compilado = cls.export_brief_docx(markdown_content=md_content, output_docx_path=docx_path,
+                                         title=titulo_principal)
+
+        resultado = {
             "filename": filename,
             "markdownPath": md_path,
             "htmlPath": html_path,
             "textPath": txt_path,
             "jsonPath": json_path,
-            "exportsDir": EXPORTS_DIR
+            "docxPath": docx_path if compilado.get("ok") else "",
+            "exportsDir": EXPORTS_DIR,
         }
+        return resultado
+
+    @classmethod
+    def export_brief_docx(cls, markdown_content: str, output_docx_path: str, title: str = "") -> Dict[str, Any]:
+        """Compila el escrito a Word (.docx). Los documentos de trabajo van editables, no en PDF."""
+        from docx_compiler import WordDossierCompiler
+        return WordDossierCompiler().compile(markdown_content, output_docx_path, title=title)
 
     @classmethod
     def export_recurso_proteccion(

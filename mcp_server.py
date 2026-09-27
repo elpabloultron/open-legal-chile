@@ -8,6 +8,7 @@ a través del protocolo estándar MCP sobre stdio (JSON-RPC 2.0).
 import sys
 import json
 import os
+import pathlib
 from datetime import datetime
 
 # Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
@@ -1170,6 +1171,86 @@ TOOLS = [
             },
             "required": ["referencia"]
         }
+    },
+    {
+        "name": "suite_doctor",
+        "description": "Diagnóstico REAL de la instalación (versión, OCR y sus motores, corpus doctrinal, grafo, "
+                       "índice FTS, formateador de citas y herramientas MCP). Usalo para comprobar que todo está "
+                       "disponible antes de prometer algo.",
+        "inputSchema": {"type": "object", "properties": {}}
+    },
+    {
+        "name": "busqueda_universal",
+        "description": "Busca un término a la vez en los 10 organismos del Estado (BCN, CGR, DT, PJUD, TC, CNE, "
+                       "Panel de Expertos, CMF, SII, SMA/TDLC) y devuelve los resultados con sus citas listas.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"consulta": {"type": "string", "description": "Término o frase a buscar"}},
+            "required": ["consulta"]
+        }
+    },
+    {
+        "name": "critique_documento",
+        "description": "Auditoría forense de un borrador judicial (5 dimensiones: hecho, derecho, prueba, "
+                       "procedimiento y estrategia) con el motor de crítica del producto.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "texto": {"type": "string", "description": "El borrador a auditar"},
+                "provider": {"type": "string", "description": "Proveedor de IA opcional (si se omite, usa el motor local)"}
+            },
+            "required": ["texto"]
+        }
+    },
+    {
+        "name": "generar_documento",
+        "description": "Genera un escrito completo con plantilla chilena (demanda civil, recurso de protección, "
+                       "demanda laboral, contrato PPA) y lo entrega en Word (.docx editable) más HTML/MD/TXT/JSON. "
+                       "El entregable de trabajo es Word, nunca PDF.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "tipo": {"type": "string", "enum": ["demanda_civil", "proteccion", "laboral", "ppa"]},
+                "tribunal": {"type": "string"},
+                "demandante": {"type": "string"},
+                "rut": {"type": "string"},
+                "demandado": {"type": "string"},
+                "comparecencia": {"type": "string"},
+                "hechos": {"type": "string"},
+                "derecho": {"type": "string"},
+                "peticiones": {"type": "string"},
+                "otrosies": {"type": "array", "items": {"type": "object"}}
+            },
+            "required": ["tipo", "hechos", "peticiones"]
+        }
+    },
+    {
+        "name": "entrevista_estudio",
+        "description": "Entrevista de arranque del estudio, sin consola: sin argumentos devuelve el cuestionario y "
+                       "el perfil actual; con 'pregunta' y 'respuesta' guarda cada clave del perfil de práctica.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "pregunta": {"type": "string", "description": "La clave o el texto de la pregunta (ej. 'tono procesal')"},
+                "respuesta": {"type": "string", "description": "La respuesta del usuario (ej. '2' o 'formal')"},
+                "base_dir": {"type": "string", "description": "Carpeta donde vive el perfil (por defecto, la actual)"}
+            }
+        }
+    },
+    {
+        "name": "skills_listar",
+        "description": "Lista las 18 skills jurídicas y los 19 agentes autónomos reales del producto, con su título.",
+        "inputSchema": {"type": "object", "properties": {}}
+    },
+    {
+        "name": "skill_ver",
+        "description": "Devuelve el contenido completo de una skill (por su nombre, ej. 'chilean-employment-legal'): "
+                       "así el harness aplica el criterio del producto sin abrir archivos a mano.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"nombre": {"type": "string", "description": "Nombre de la skill (carpeta en .agents/skills)"}},
+            "required": ["nombre"]
+        }
     }
 ]
 
@@ -1305,6 +1386,113 @@ def _citas_en_items(resultado: Any, fuente: str, campos_clave: tuple, campo_text
     return resultado
 
 
+def _registro_estatal():
+    """Registro de conectores del Estado (indirección: permite probar sin red)."""
+    from connectors.registry import StateRegistry
+    return StateRegistry()
+
+
+def _raiz() -> pathlib.Path:
+    return pathlib.Path(__file__).resolve().parent
+
+
+def _listar_skills() -> Dict[str, Any]:
+    """Las 18 skills y los 19 agentes reales del producto (el texto fijo de la CLI decía 7)."""
+    skills = []
+    for archivo in sorted((_raiz() / ".agents" / "skills").glob("*/SKILL.md")):
+        texto = archivo.read_text(encoding="utf-8", errors="ignore")
+        titulo = next((linea.lstrip("# ").strip() for linea in texto.splitlines() if linea.startswith("# ")),
+                      archivo.parent.name)
+        skills.append({"nombre": archivo.parent.name, "titulo": titulo})
+    agentes = []
+    for archivo in sorted((_raiz() / "agents").glob("*.json")):
+        try:
+            agentes.append(json.loads(archivo.read_text(encoding="utf-8")).get("name", archivo.stem))
+        except Exception:  # noqa: BLE001 - un JSON roto no puede tumbar el listado
+            agentes.append(archivo.stem)
+    return {"skills": skills, "agentes": agentes}
+
+
+def _texto_protocolo() -> str:
+    """El protocolo de citación tal como está escrito en AGENTS.md (§2 quater)."""
+    agentes = _raiz() / "AGENTS.md"
+    if not agentes.exists():
+        return "Protocolo no disponible: falta AGENTS.md en el paquete."
+    texto = agentes.read_text(encoding="utf-8")
+    inicio = texto.find("### 2 quater")
+    if inicio == -1:
+        return texto[:4000]
+    fin = texto.find("\n---", inicio)
+    return texto[inicio:fin if fin != -1 else inicio + 4000]
+
+
+PROMPTS = [
+    {
+        "name": "protocolo_citas",
+        "description": "Protocolo de respuesta obligatorio (§2 quater): Hugging Face primero, fuente oficial "
+                       "después, cada cita con su texto literal y el formato de salida por tipo de documento.",
+        "arguments": [],
+        "_texto": (
+            "Al responder una consulta jurídica chilena seguí este orden, sin excepciones:\n"
+            "1. Primer paso: `consulta_maestra` (o `huggingface_search_dataset`). El corpus publicado en "
+            "Hugging Face es la base citable; no respondas de memoria.\n"
+            "2. Después, la fuente oficial que corresponda: BCN (norma), DT/CGR/SII/CMF (dictamen), "
+            "PJUD/TC/ambientales (fallo), Academia Judicial (guía).\n"
+            "3. Antes de citar, traé el texto literal con `cita_texto` (o usá el bloque `citas` del "
+            "resultado). Si la fuente no se pudo leer, decí «sin fuente verificable».\n"
+            "4. Formato: en conversación, la respuesta primero y el bloque «Fuentes:» al final. En "
+            "documentos, entregá Word (.docx editable) con citas a pie de página: fuente · identificador · enlace.\n"
+            "5. Los corchetes van en el formato oficial: [BCN - Código Civil, Art. 1438], "
+            "[Dictamen DT - ORD. N° …], [CS - Rol N° …], [CGR - …], [Academia Judicial - …], [SMAs/TA - …]."
+        ),
+    },
+    {
+        "name": "consulta_juridica_completa",
+        "description": "Receta de punta a punta para una consulta o un caso: qué herramientas usar, en qué orden y "
+                       "cómo cerrar la respuesta.",
+        "arguments": [{"name": "consulta", "description": "La pregunta jurídica del usuario", "required": False}],
+        "_texto": (
+            "Consulta: {consulta}\n\n"
+            "1. `consulta_maestra` con la consulta (trae corpus de Hugging Face + doctrina + grafo + normas, "
+            "con texto literal y corchetes).\n"
+            "2. Si hay que analizar documentos o una carpeta: `caso_analizar` y después `caso_ejecutar`.\n"
+            "3. Para el texto de una norma puntual: `cita_texto`.\n"
+            "4. Respondé primero y cerrá con el bloque «Fuentes:»; cada afirmación jurídica con su corchete y "
+            "su texto literal. Lo que no se pudo traer se declara (campo `faltantes`), no se rellena."
+        ),
+    },
+]
+
+
+def _recursos_disponibles() -> List[Dict[str, str]]:
+    return [
+        {"uri": "openlegal://reglas/citacion", "name": "Protocolo de citación (§2 quater)",
+         "description": "Cómo se responde y se cita: Hugging Face primero, texto literal obligatorio.",
+         "mimeType": "text/markdown"},
+        {"uri": "openlegal://catalogo/herramientas", "name": "Catálogo de herramientas MCP",
+         "description": "Nombres y descripciones de todas las herramientas del servidor.",
+         "mimeType": "application/json"},
+        {"uri": "openlegal://reglas/integracion", "name": "Integración por harness",
+         "description": "Comando por cliente (Antigravity, Claude Code, Cursor, VS Code, Codex, dsh) y verificación.",
+         "mimeType": "text/markdown"},
+    ]
+
+
+def _leer_recurso(uri: str) -> Optional[Dict[str, str]]:
+    if uri == "openlegal://reglas/citacion":
+        return {"uri": uri, "mimeType": "text/markdown", "text": _texto_protocolo()}
+    if uri == "openlegal://catalogo/herramientas":
+        catalogo = [{"name": t["name"], "description": t.get("description", "")} for t in TOOLS]
+        return {"uri": uri, "mimeType": "application/json",
+                "text": json.dumps(catalogo, ensure_ascii=False, indent=2)}
+    if uri == "openlegal://reglas/integracion":
+        ruta = _raiz() / "docs" / "integracion-harness.md"
+        if not ruta.exists():
+            return None
+        return {"uri": uri, "mimeType": "text/markdown", "text": ruta.read_text(encoding="utf-8")}
+    return None
+
+
 def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     try:
         args = args or {}
@@ -1375,6 +1563,81 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
                 return {"referencia": referencia, "normas_detectadas": normas, "citas": [cita]}
             except Exception as e:  # noqa: BLE001
                 return {"error": f"No pude traer el texto: {str(e)[:160]}", "sin_fuente_verificable": True}
+        elif name == "suite_doctor":
+            from diagnostico import diagnostico_completo
+            return diagnostico_completo()
+
+        elif name == "busqueda_universal":
+            consulta = (args.get("consulta") or "").strip()
+            if not consulta:
+                return {"error": "El parámetro 'consulta' es obligatorio."}
+            resultados = _registro_estatal().search_all(consulta)
+            citas: List[Dict[str, Any]] = []
+            if isinstance(resultados, dict):
+                for organismo, items in resultados.items():
+                    for it in (items or [])[:3]:
+                        if not isinstance(it, dict):
+                            continue
+                        nombre = it.get("nombre") or it.get("title") or it.get("titulo")
+                        if not nombre:
+                            continue
+                        citas.append(formatear_cita(
+                            str(organismo).upper(), str(nombre), url=str(it.get("url") or ""),
+                            texto=str(it.get("resumen") or it.get("snippet") or "")[:600]))
+            return {"consulta": consulta, "resultados": resultados, "citas": citas}
+
+        elif name == "critique_documento":
+            texto = (args.get("texto") or "").strip()
+            if not texto:
+                return {"error": "El parámetro 'texto' es obligatorio (el borrador a auditar)."}
+            from critique import LegalCritiqueEngine
+            res = LegalCritiqueEngine().critique(texto, provider=args.get("provider"))
+            if not isinstance(res, dict):
+                return {"informe": str(res), "citas": []}
+            return {"informe": res.get("critique") or res.get("error", ""), "citas": res.get("citas", [])}
+
+        elif name == "generar_documento":
+            tipo = (args.get("tipo") or "demanda_civil").lower()
+            plantillas = {
+                "demanda_civil": "DEMANDA ORDINARIA DE RESOLUCIÓN DE CONTRATO E INDEMNIZACIÓN DE PERJUICIOS",
+                "proteccion": "RECURSO DE PROTECCIÓN CONSTITUCIONAL",
+                "laboral": "DEMANDA POR DESPIDO INJUSTIFICADO Y COBRO DE PRESTACIONES",
+                "ppa": "CONTRATO DE SUMINISTRO DE ENERGÍA ELÉCTRICA (PPA CLIENTE LIBRE)",
+            }
+            if tipo not in plantillas:
+                return {"error": f"Tipo desconocido: {tipo}. Opciones: {', '.join(plantillas)}"}
+            if not (args.get("hechos") or args.get("peticiones")):
+                return {"error": "Faltan los hechos o las peticiones: sin eso el escrito sale en blanco."}
+            res = LegalDocumentExporter.export_brief(
+                titulo_principal=plantillas[tipo],
+                tribunal=args.get("tribunal", ""),
+                presuma_data={"materia": args.get("materia", ""), "demandante": args.get("demandante", ""),
+                              "rut_dte": args.get("rut", ""), "demandado": args.get("demandado", "")},
+                comparecencia=args.get("comparecencia", ""),
+                hechos=args.get("hechos", ""),
+                derecho=args.get("derecho", ""),
+                peticiones=args.get("peticiones", ""),
+                otrosies=args.get("otrosies") or [],
+            )
+            return {"tipo": tipo, "entregable": "word", "archivos": res, "citas": res.get("citas", [])}
+
+        elif name == "entrevista_estudio":
+            from cold_start import ColdStartInterviewEngine
+            return ColdStartInterviewEngine.responder(args.get("pregunta", ""), args.get("respuesta", ""),
+                                                      base_dir=args.get("base_dir", "."))
+
+        elif name == "skills_listar":
+            return _listar_skills()
+
+        elif name == "skill_ver":
+            nombre = (args.get("nombre") or "").strip()
+            if not nombre or "/" in nombre or "\\" in nombre or ".." in nombre:
+                return {"error": "El parámetro 'nombre' es obligatorio (nombre simple, sin barras)."}
+            archivo = _raiz() / ".agents" / "skills" / nombre / "SKILL.md"
+            if not archivo.exists():
+                return {"error": f"No existe la skill «{nombre}».", "disponibles": [s["nombre"] for s in _listar_skills()["skills"]]}
+            return {"nombre": nombre, "contenido": archivo.read_text(encoding="utf-8", errors="ignore")}
+
         if name == "grafo_ver_corpus":
             return grafo_vista.ver_corpus(args.get("consulta"), int(args.get("max_nodos") or 250))
         elif name == "grafo_ver_caso":
@@ -2032,7 +2295,11 @@ def main():
                     "result": {
                         "protocolVersion": "2024-11-05",
                         "capabilities": {
-                            "tools": {}
+                            "tools": {},
+                            # El harness no sólo ve las herramientas: también puede leer las reglas
+                            # del producto (protocolo de citación) y el catálogo.
+                            "prompts": {"listChanged": False},
+                            "resources": {"listChanged": False, "subscribe": False}
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
@@ -2040,6 +2307,44 @@ def main():
                         }
                     }
                 }
+            elif method == "prompts/list":
+                resp = {
+                    "jsonrpc": "2.0",
+                    "id": req_id,
+                    "result": {
+                        "prompts": [{clave: valor for clave, valor in prompt.items() if not clave.startswith("_")}
+                                    for prompt in PROMPTS]
+                    }
+                }
+            elif method == "prompts/get":
+                nombre = params.get("name")
+                elegido = next((p for p in PROMPTS if p["name"] == nombre), None)
+                if elegido is None:
+                    resp = {"jsonrpc": "2.0", "id": req_id,
+                            "error": {"code": -32602, "message": f"Prompt desconocido: {nombre}"}}
+                else:
+                    texto = elegido["_texto"]
+                    for clave, valor in (params.get("arguments") or {}).items():
+                        texto = texto.replace("{" + str(clave) + "}", str(valor))
+                    resp = {
+                        "jsonrpc": "2.0",
+                        "id": req_id,
+                        "result": {
+                            "description": elegido["description"],
+                            "messages": [{"role": "user", "content": {"type": "text", "text": texto}}]
+                        }
+                    }
+            elif method == "resources/list":
+                resp = {"jsonrpc": "2.0", "id": req_id,
+                        "result": {"resources": _recursos_disponibles()}}
+            elif method == "resources/read":
+                uri = params.get("uri", "")
+                contenido = _leer_recurso(uri)
+                if contenido is None:
+                    resp = {"jsonrpc": "2.0", "id": req_id,
+                            "error": {"code": -32602, "message": f"Recurso desconocido: {uri}"}}
+                else:
+                    resp = {"jsonrpc": "2.0", "id": req_id, "result": {"contents": [contenido]}}
             elif method == "tools/list":
                 resp = {
                     "jsonrpc": "2.0",

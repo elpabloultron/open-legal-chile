@@ -118,7 +118,7 @@ class MCPClientRunner:
 
 
 def test_mcp_e2e_handshake_and_catalog():
-    """Valida el handshake y el catálogo de las 75 herramientas oficiales."""
+    """Valida el handshake y el catálogo de las 84 herramientas oficiales."""
     with MCPClientRunner() as client:
         # 1. Initialize
         init_resp = client.send_request("initialize", {
@@ -129,6 +129,9 @@ def test_mcp_e2e_handshake_and_catalog():
         assert "result" in init_resp
         server_info = init_resp["result"].get("serverInfo", {})
         assert server_info.get("name") in ("open-legal-chile", "open-legal-chile-mcp")
+        capacidades = init_resp["result"].get("capabilities", {})
+        assert "tools" in capacidades
+        assert "prompts" in capacidades and "resources" in capacidades, capacidades
 
         # 2. Ping
         ping_resp = client.send_request("ping")
@@ -137,13 +140,34 @@ def test_mcp_e2e_handshake_and_catalog():
         # 3. Tools List
         tools_resp = client.send_request("tools/list")
         tools = tools_resp.get("result", {}).get("tools", [])
-        assert len(tools) == 77, f"Esperadas 77 herramientas, obtenidas: {len(tools)}"
+        assert len(tools) == 84, f"Esperadas 84 herramientas, obtenidas: {len(tools)}"
 
         for tool in tools:
             assert "name" in tool
             assert "description" in tool
             assert "inputSchema" in tool
             assert tool["inputSchema"].get("type") == "object"
+
+
+def test_mcp_e2e_prompts_y_recursos():
+    """El harness también puede leer las reglas del producto (protocolo de citación y catálogo)."""
+    with MCPClientRunner() as client:
+        client.send_request("initialize")
+
+        prompts = client.send_request("prompts/list").get("result", {}).get("prompts", [])
+        nombres = {p["name"] for p in prompts}
+        assert {"protocolo_citas", "consulta_juridica_completa"} <= nombres
+
+        protocolo = client.send_request("prompts/get", {"name": "protocolo_citas"})
+        texto = protocolo["result"]["messages"][0]["content"]["text"]
+        assert "Hugging Face" in texto and "cita_texto" in texto
+
+        recursos = client.send_request("resources/list").get("result", {}).get("resources", [])
+        assert "openlegal://reglas/citacion" in {r["uri"] for r in recursos}
+
+        reglas = client.send_request("resources/read", {"uri": "openlegal://reglas/citacion"})
+        contenido = reglas["result"]["contents"][0]["text"]
+        assert "2 quater" in contenido and "texto literal" in contenido
 
 
 def test_mcp_e2e_live_tools_execution():
