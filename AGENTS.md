@@ -69,6 +69,28 @@ Queda **estrictamente prohibido** emitir respuestas superficiales, simplistas o 
 
 ---
 
+### 2 quater. Protocolo de respuesta (obligatorio para cualquier harness)
+
+El orden no es opcional. Cualquier harness —Antigravity, Claude Code, Cursor, VS Code, dsh— que
+use el MCP de Open Legal Chile responde así:
+
+1. **Hugging Face primero.** Ante cualquier consulta jurídica, el primer paso es `consulta_maestra`
+   (o, en su defecto, `huggingface_search_dataset`): el corpus publicado es la base citable. No se
+   responde de memoria del modelo, ni siquiera cuando «ya se sabe» la respuesta.
+2. **Fuente oficial después.** Norma (BCN), dictamen (DT/CGR/SII/CMF), fallo (PJUD/TC/ambientales) o
+   guía (Academia Judicial) según la materia.
+3. **Cada cita viaja con su texto literal.** Antes de citar `[BCN - Código Civil, Art. 1545]` se llamó
+   a `cita_texto` (o la herramienta devolvió el texto en su bloque `citas`). Si el texto no se pudo
+   traer, se dice **«sin fuente verificable»**: nunca se cita a ciegas ni se parafrasea el tenor como
+   si fuera el texto.
+4. **Formato.** En conversación: la respuesta primero y el bloque `Fuentes:` al final. En documentos
+   (.docx, nunca PDF): citas a pie de página con **fuente · identificador · enlace**.
+
+`consulta_maestra` devuelve `citas[]` con `formato`, `texto` y `url`, y además `faltantes[]` (lo que
+no se pudo traer). Si algo aparece en `faltantes`, se declara en la respuesta; no se rellena solo.
+
+---
+
 ## 3 bis. Cómo se pide en lenguaje natural (mesa de entrada)
 
 No hace falta nombrar una herramienta ni escribir un comando: se pide como se le pide a un colega.
@@ -88,7 +110,7 @@ ClaveÚnica y captcha: la suite no automatiza el acceso a un sistema con credenc
 mesa lo dice en sus advertencias y no expone ninguna herramienta que prometa lo contrario.
 
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 75 official tools over 16 forensic, state, doctrinal and agentic connectors:
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 77 official tools over 16 forensic, state, doctrinal and agentic connectors:
 
 **BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).
@@ -140,7 +162,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 39. `doctrina_ingestar_documento`: Convert raw legal texts or documents (.pdf, .docx, .txt, .md) to canonical token-optimized Markdown (RAE/ASALE and BCN/CS) and immediately update knowledge graph and SQLite FTS5.
 
 **LegalGraphify Knowledge Graph:**
-40. `huggingface_search_dataset`: Search the public Hugging Face dataset (doctrina, guías, jurisprudencia y grafos) by term; returns the file paths and the dataset URL for citation.
+40. `huggingface_search_dataset`: Search the public Hugging Face dataset (doctrina, guías, jurisprudencia y grafos) by term; returns the file paths, the dataset URL **and the text passages (`extractos`) with their citation bracket**, ready to quote.
 41. `graphify_consulta_subgrafo`: Extract synthetic subgraphs with a measured median token reduction of 99.9 % (median card: 91 tokens vs. full work: 96.536 tokens; measured 2026-09-25 over 9,863 institutions).
 42. `graphify_trazar_camino`: Trace relational paths between concepts and statutory rules.
 43. `graphify_explicar_institucion`: 360° dogmatic explanation with statutory foundation and Supreme Court criteria.
@@ -151,6 +173,10 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 46. `agent_list`: List the 19 specialized Chilean legal agent profiles and capabilities.
 47. `agent_run`: Execute autonomous legal agents in deterministic sovereign mode (100 % offline) or LLM-assisted ReAct mode.
 48. `agent_export_subagents`: Export agent configurations for Claude Code (.claude/subagents) or Google Antigravity.
+
+**Protocolo de citas (§2 quater) — paso 0 y texto literal:**
+49. `consulta_maestra`: PRIMER PASO de toda consulta jurídica. Ejecuta en una sola llamada el corpus de Hugging Face, la doctrina canónica, el grafo y las normas detectadas en la consulta; devuelve `citas[]` con el **texto literal** y el corchete de cada fuente, más `faltantes[]`.
+50. `cita_texto`: devuelve el TEXTO LITERAL de una norma citada («Código Civil art. 1438», «Ley 21.643 art. 2») con su corchete oficial y su enlace de BCN. El producto no cita sin texto.
 
 ---
 

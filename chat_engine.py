@@ -33,6 +33,7 @@ PRINCIPIOS FUNDAMENTALES:
    - [CS - Rol N° XX.XXX-AAAA, Fecha: DD-MM-AAAA] o [C.A. de Santiago - Rol N° XXX-AAAA]
    - [Circular SII N° XX (AAAA)] o [NCG CMF N° XXX]
 5. Si se detecta un caso de alta trascendencia o inminencia procesal, incluye la advertencia de revisión jurídica por abogado habilitado.
+6. Antes de citar cualquier artículo, traé su TEXTO LITERAL con la herramienta `cita_texto` (o usá el bloque `citas` que devuelven las herramientas): no se cita de memoria ni sin texto. Si la fuente no se pudo leer, decí «sin fuente verificable».
 """
 
 cgr_client = CGRClient()
