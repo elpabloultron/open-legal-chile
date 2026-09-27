@@ -55,6 +55,7 @@ from tribunales_ambientales_connector import TribunalesAmbientalesClient
 from academia_judicial_connector import AcademiaJudicialClient
 from online_library_sync import OnlineLibrarySyncManager
 from legal_graphify import LegalGraphifyEngine
+from citas_legales import CODIGOS, detectar_normas, formatear_cita
 
 # Inicializar clientes
 bcn = BCNClient()
@@ -1133,6 +1134,42 @@ TOOLS = [
                 }
             }
         }
+    },
+    {
+        "name": "consulta_maestra",
+        "description": "PRIMER PASO OBLIGATORIO de toda consulta jurídica: consulta el dataset de Hugging Face, "
+                       "la doctrina canónica, el grafo y las normas chilenas detectadas en la consulta, y devuelve "
+                       "las fuentes con su TEXTO LITERAL y su corchete de cita listo para pegar. Usala antes de "
+                       "responder aunque creas saber la respuesta: el producto no cita de memoria.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "consulta": {
+                    "type": "string",
+                    "description": "La consulta jurídica tal como la hizo la persona"
+                },
+                "max_fuentes": {
+                    "type": "integer",
+                    "description": "Cuántas fuentes por familia (por defecto 3)"
+                }
+            },
+            "required": ["consulta"]
+        }
+    },
+    {
+        "name": "cita_texto",
+        "description": "Devuelve el TEXTO LITERAL de una norma citada, con su corchete oficial y su enlace. "
+                       "Usala antes de citar cualquier artículo: el producto no cita sin texto.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "referencia": {
+                    "type": "string",
+                    "description": "Ej.: 'Código Civil art. 1438', 'Ley 21.643 art. 2'"
+                }
+            },
+            "required": ["referencia"]
+        }
     }
 ]
 
@@ -1151,9 +1188,151 @@ def _con_avisos(resultado):
     return resultado
 
 
+def _hf_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
+    """El corpus publicado en Hugging Face, con sus pasajes citables (paso 0 de toda consulta)."""
+    try:
+        from online_library_sync import consultar_huggingface_dataset
+        return consultar_huggingface_dataset(query=query, limit=lim)
+    except Exception as e:  # noqa: BLE001 — la respuesta no se cae si el Hub no está
+        return {"resultados": [], "citas": [], "error": f"Hugging Face no respondió: {str(e)[:160]}"}
+
+
+def _doctrina_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
+    """La doctrina canónica del corpus, con su corchete y su texto."""
+    try:
+        resultados = search_doctrina(query=query, limit=lim) or []
+        citas = []
+        for r in resultados:
+            texto = str(r.get("definicion") or r.get("snippet") or "")[:900]
+            if not texto:
+                continue
+            citas.append(formatear_cita("Doctrina", f"{r.get('autor') or 's/d'}, {r.get('obra') or 'obra'}",
+                                        url=r.get("fuente_huggingface", ""), texto=texto))
+        return {"resultados": resultados, "citas": citas}
+    except Exception as e:  # noqa: BLE001
+        return {"resultados": [], "citas": [], "error": str(e)[:160]}
+
+
+def _url_codigo_bcn(obra: str) -> str:
+    try:
+        from bcn_connector import CODIGOS_REPUBLICA
+        return f"https://www.bcn.cl/leychile/navegar?idNorma={CODIGOS_REPUBLICA[obra.lower()]['idNorma']}"
+    except Exception:  # noqa: BLE001
+        return "https://www.bcn.cl/leychile/"
+
+
+def _normas_para_consulta(query: str) -> List[Dict[str, Any]]:
+    """Trae el texto literal de las normas mencionadas en la consulta (códigos y leyes)."""
+    try:
+        normas = detectar_normas(query)[:3]
+    except Exception:  # noqa: BLE001
+        return []
+    salida: List[Dict[str, Any]] = []
+    for norma in normas:
+        try:
+            if norma["familia"] == "codigo":
+                dato = bcn.get_codigo(norma["obra"], norma["articulo"])
+                if dato.get("texto"):
+                    dato["url"] = _url_codigo_bcn(norma["obra"])
+                salida.append(dato)
+            else:
+                numero = int(norma["numero"])
+                if norma.get("articulo"):
+                    dato = bcn.get_articulo_ley(numero, norma["articulo"])
+                    dato["url"] = f"https://www.bcn.cl/leychile/navegar?idLey={numero}"
+                    dato["ley_numero"] = numero
+                else:
+                    dato = bcn.get_ley(numero)
+                    dato["url"] = f"https://www.bcn.cl/leychile/navegar?idNorma={dato.get('normaId', '')}"
+                salida.append(dato)
+        except Exception as e:  # noqa: BLE001
+            salida.append({"error": str(e)[:160], "etiqueta": norma.get("etiqueta", "")})
+    return salida
+
+
+def _bcn_para_citas():
+    """Cliente BCN para resolver citas (indirección: permite probar sin red)."""
+    return bcn
+
+
+def _subgrafo_para_consulta(query: str, hops: int = 1) -> Dict[str, Any]:
+    """El subgrafo dogmático alrededor de la consulta (si el grafo no responde, va vacío)."""
+    try:
+        return legal_graphify_engine.consultar_subgrafo(query, max_hops=hops)
+    except Exception:  # noqa: BLE001
+        return {}
+
+
 def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     try:
         args = args or {}
+        if name == "consulta_maestra":
+            consulta = (args.get("consulta") or "").strip()
+            if not consulta:
+                return {"error": "El parámetro 'consulta' es obligatorio."}
+            lim = int(args.get("max_fuentes") or 3)
+            hf = _hf_para_consulta(consulta, lim)
+            doctrina = _doctrina_para_consulta(consulta, lim)
+            normas = _normas_para_consulta(consulta)
+            subgrafo = _subgrafo_para_consulta(consulta)
+            citas: List[Dict[str, Any]] = list(hf.get("citas") or []) + list(doctrina.get("citas") or [])
+            for n in normas:
+                texto = str(n.get("texto") or "")
+                if not texto:
+                    continue
+                if n.get("codigo"):
+                    ident = f"{n['codigo']}, Art. {n.get('articulo', '')}".strip().rstrip(",")
+                else:
+                    titulo = n.get("titulo") or f"Ley N° {n.get('ley_numero') or n.get('ley', '')}"
+                    ident = f"{titulo}, Art. {n.get('articulo', '')}".strip().rstrip(",")
+                citas.append(formatear_cita("BCN", ident, url=n.get("url", ""), texto=texto[:1200]))
+            faltantes = [clave for clave, ok in (
+                ("huggingface", bool(hf.get("citas"))),
+                ("doctrina", bool(doctrina.get("resultados"))),
+                ("normas", bool([n for n in normas if n.get("texto")])),
+            ) if not ok]
+            return {
+                "consulta": consulta,
+                "hallazgos": {"huggingface": hf.get("resultados", []),
+                              "doctrina": doctrina.get("resultados", []),
+                              "normas": normas,
+                              "subgrafo": subgrafo},
+                "citas": citas,
+                "faltantes": faltantes,
+                "como_citar": "Pegá cada cita con su texto literal. En conversación: la respuesta primero y las "
+                              "fuentes al final. En documentos: citas a pie de página (fuente · identificador · enlace).",
+            }
+        elif name == "cita_texto":
+            referencia = (args.get("referencia") or "").strip()
+            normas = detectar_normas(referencia)
+            if not normas:
+                return {"error": f"No pude reconocer una norma en «{referencia}». Probá con «Código Civil art. 1438».",
+                        "sin_fuente_verificable": True}
+            norma = normas[0]
+            try:
+                cliente = _bcn_para_citas()
+                if norma["familia"] == "codigo":
+                    dato = cliente.get_codigo(norma["obra"], norma["articulo"])
+                    ident = f"{CODIGOS[norma['obra']]}, Art. {norma['articulo']}"
+                    url = _url_codigo_bcn(norma["obra"])
+                else:
+                    numero = int(norma["numero"])
+                    if norma.get("articulo"):
+                        dato = cliente.get_articulo_ley(numero, norma["articulo"])
+                        ident = f"Ley N° {numero}, Art. {norma['articulo']}"
+                        url = f"https://www.bcn.cl/leychile/navegar?idLey={numero}"
+                    else:
+                        dato = cliente.get_ley(numero)
+                        ident = f"Ley N° {numero}"
+                        url = f"https://www.bcn.cl/leychile/navegar?idNorma={dato.get('normaId', '')}"
+                texto = str(dato.get("texto") or "")
+                if not texto:
+                    return {"error": "La fuente respondió sin texto: no se cita lo que no se pudo leer.",
+                            "sin_fuente_verificable": True, "detalle": str(dato)[:300]}
+                cita = formatear_cita("BCN", ident, url=url, texto=texto[:1200])
+                return {"referencia": referencia, "normas_detectadas": normas, "citas": [cita]}
+            except Exception as e:  # noqa: BLE001
+                return {"error": f"No pude traer el texto: {str(e)[:160]}", "sin_fuente_verificable": True}
         if name == "grafo_ver_corpus":
             return grafo_vista.ver_corpus(args.get("consulta"), int(args.get("max_nodos") or 250))
         elif name == "grafo_ver_caso":
