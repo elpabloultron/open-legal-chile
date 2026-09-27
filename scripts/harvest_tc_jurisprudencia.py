@@ -54,7 +54,7 @@ def fetch_tc_sentencias(search_term: str, limit: int = 15) -> List[Dict[str, Any
     params = urllib.parse.urlencode({"filter": json.dumps(filter_data)})
     url = f"{TC_API_URL}?{params}"
     headers = {
-        "User-Agent": "OpenLegalChile/1.7.0 (Investigacion Juridica Soberana; Universidad de Los Lagos)",
+        "User-Agent": "OpenLegalChile/1.7.1 (Investigacion Juridica Soberana; Universidad de Los Lagos)",
         "Accept": "application/json"
     }
 

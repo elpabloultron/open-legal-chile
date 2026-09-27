@@ -326,7 +326,7 @@ def main():
         "multigraph": False,
         "graph": {
             "name": "Open Legal Chile — Knowledge Graph Jurídico Integral",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "total_nodes": len(final_nodes),
             "total_edges": len(final_links)
         },
