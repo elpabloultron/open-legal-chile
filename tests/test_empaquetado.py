@@ -51,3 +51,27 @@ def test_el_grafo_existe_y_no_esta_vacio():
     datos = json.loads(grafo.read_text(encoding="utf-8"))
     assert len(datos["nodes"]) >= 900, f"el grafo tiene {len(datos['nodes'])} nodos"
     assert "edges" in datos, "el grafo debe usar el esquema Node-Link estándar"
+
+
+def test_el_ocr_viaja_como_dependencia_base():
+    """La instalación lleva todo: el OCR no se instala aparte («siempre se debe instalar todo»)."""
+    tomllib = pytest.importorskip("tomllib", reason="requiere Python 3.11+")
+    cfg = tomllib.loads((RAIZ / "pyproject.toml").read_text(encoding="utf-8"))
+    proyecto = cfg["project"]
+
+    assert any("rapidocr" in dep for dep in proyecto["dependencies"]), (
+        "rapidocr-onnxruntime tiene que estar en las dependencias base, no en un extra")
+    assert "ocr" not in proyecto.get("optional-dependencies", {}), (
+        "el extra 'ocr' dejó de existir: el OCR ya no es opcional")
+
+    setup_py = (RAIZ / "setup.py").read_text(encoding="utf-8")
+    assert "rapidocr" in setup_py, "setup.py (vía legada) también tiene que llevar el OCR"
+
+
+def test_el_codigo_no_manda_a_instalar_dependencias_por_terminal():
+    """El producto no le pide al usuario abrir una terminal para completar la instalación."""
+    for nombre in ("forensic_ocr.py", "online_library_sync.py"):
+        texto = (RAIZ / nombre).read_text(encoding="utf-8")
+        assert "rapidocr-onnxruntime" not in texto, f"{nombre}: instrucción manual del OCR"
+        assert "[ocr]" not in texto, f"{nombre}: el extra de OCR ya no existe"
+        assert "pip install huggingface_hub" not in texto, f"{nombre}: es dependencia base"

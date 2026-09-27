@@ -52,10 +52,15 @@ class ForensicOCREngine:
 
     @staticmethod
     def get_install_instructions() -> Dict[str, str]:
-        """Instrucciones de instalación de los motores de OCR por sistema operativo y python."""
+        """Estado de los motores de OCR.
+
+        El motor robusto (RapidOCR) viaja en la instalación del paquete: no hay extra que pedir ni
+        comando que ejecutar. Tesseract queda como respaldo del sistema operativo (es un binario,
+        no un paquete de Python).
+        """
         return {
-            "rapidocr_python": "pip install rapidocr-onnxruntime",
-            "paddleocr_python": "pip install paddleocr paddlepaddle",
+            "rapidocr_python": "incluido en la instalación de openlegal-chile: no hay nada que instalar",
+            "paddleocr_python": "no hace falta: el motor incluido ya lee fotos y escaneos",
             "windows_winget": "winget install UB-Mannheim.TesseractOCR",
             "linux_apt": "sudo apt update && sudo apt install -y tesseract-ocr tesseract-ocr-spa",
             "macos_brew": "brew install tesseract tesseract-lang"
@@ -362,9 +367,9 @@ class ForensicOCREngine:
                     advertencias.append(
                         f"página {page_num}: el OCR ({page_engine}) no extrajo ni un carácter. "
                         "Suele tratarse de una fotografía torcida, oscura o de baja resolución: vuelve a "
-                        "fotografiar el documento (de frente, con luz pareja y a pantalla completa) o "
-                        "instala el motor robusto para fotos con 'pip install \"openlegal-chile[ocr]\"' "
-                        "(RapidOCR), que en pruebas leyó completo lo que Tesseract no pudo leer."
+                        "fotografiar el documento (de frente, con luz pareja y a pantalla completa). "
+                        "El motor robusto para fotos (RapidOCR) viaja en la instalación: si este entorno "
+                        "no lo tiene, reinstala el paquete con 'pip install --force-reinstall openlegal-chile'."
                     )
                 if fallo_pagina:
                     paginas_con_error += 1
