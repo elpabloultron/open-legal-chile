@@ -240,7 +240,7 @@ def pedir_http(url: str, metodo: str = "GET", headers: Optional[Dict[str, str]] 
             continue
         _devolver_canal(esquema, partes.netloc, timeout, canal)
         if respuesta.status >= 400:
-            raise urllib.error.HTTPError(url, respuesta.status, respuesta.reason, None, None)
+            raise urllib.error.HTTPError(url, respuesta.status, respuesta.reason, respuesta.headers, None)
         return datos
     raise ultimo_error if ultimo_error else RuntimeError("sin respuesta HTTP")
 
