@@ -628,7 +628,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.10.0"
+                            "version": "1.11.0"
                         }
                     }
                 }
