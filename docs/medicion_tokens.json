@@ -108509,8 +108509,8 @@
     "texto_completo_tokens_min": 135,
     "texto_completo_tokens_mediana": 96536,
     "texto_completo_tokens_max": 313985,
-    "nodos_grafo": 12973,
-    "aristas_grafo": 28346,
+    "nodos_grafo": 14050,
+    "aristas_grafo": 31017,
     "advertencias_motor": [],
     "instituciones_sin_resolver": [
       [

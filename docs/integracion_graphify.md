@@ -71,4 +71,4 @@ Paridad verificada función por función (27-09-2026):
 | parser de artículos (lo único irrepetible) | rescatado como `extract_articulos_de_codigo()` / `ingerir_codigo_bcn()`, ya arreglado |
 
 Su propio README admite que su `data/legal_knowledge_graph.json` era un artefacto de este proyecto
-que no podía reconstruir: **947 nodos / 1.215 aristas** frente a los **13.938 / 30.746** de acá.
+que no podía reconstruir: **947 nodos / 1.215 aristas** frente a los **14.050 / 31.017** de acá.

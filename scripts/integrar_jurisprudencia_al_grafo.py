@@ -7,6 +7,8 @@ Añade al grafo (data/legal_knowledge_graph.json):
     enlazadas al órgano y a las normas que citan;
   · las publicaciones oficiales de los Tribunales Ambientales (anuarios y boletines) con su
     texto en Markdown, enlazadas al tribunal y a las normas que citan;
+  · la biblioteca ambiental (libros del concurso, informes en derecho, foros y manuales) con su
+    texto en Markdown, enlazada al tribunal de origen y a las normas que cita;
   · recalcula las comunidades con el mismo algoritmo del motor (modularidad voraz).
 
 Uso:
@@ -33,6 +35,7 @@ BASE = pathlib.Path(__file__).resolve().parent.parent
 GRAFO = BASE / "data" / "legal_knowledge_graph.json"
 TC_INDICE = BASE / "data" / "jurisprudencia" / "tc_textos.jsonl"
 PUB_INDICE = BASE / "data" / "jurisprudencia" / "publicaciones_textos.jsonl"
+BIB_INDICE = BASE / "data" / "jurisprudencia" / "biblioteca_ambiental.jsonl"
 
 
 def _cargar_modulo(nombre: str, ruta: pathlib.Path):
@@ -200,6 +203,70 @@ def main() -> int:
                     enlaces_norma += 1
             nuevos_pub += 1
     print(f"══ Publicaciones ambientales: +{nuevos_pub} con texto · enlaces a normas acumulados {enlaces_norma}")
+
+    # 3a bis · poda de nodos obsoletos: los anuarios y boletines de generaciones anteriores cuyos
+    # archivos ya no existen (renombrados o corregidos después) quedan en el grafo citando
+    # documentos que no están. Se podan con sus aristas; una corrida limpia no borra nada.
+    vigentes = set()
+    if PUB_INDICE.exists():
+        for linea in open(PUB_INDICE, encoding="utf-8"):
+            reg = json.loads(linea)
+            if reg.get("caracteres") and reg.get("archivo_md"):
+                vigentes.add(reg["archivo_md"])
+    if vigentes:
+        obsoletos = {n["id"] for n in nodos
+                     if n.get("node_type") == "anuario_boletin_ambiental" and n.get("source_file") not in vigentes}
+        if obsoletos:
+            nodos[:] = [n for n in nodos if n["id"] not in obsoletos]
+            ids.difference_update(obsoletos)
+            aristas[:] = [a for a in aristas
+                          if a.get("source") not in obsoletos and a.get("target") not in obsoletos]
+            print(f"══ Poda: {len(obsoletos)} nodos obsoletos de publicaciones retirados del grafo")
+
+    # 3b · biblioteca ambiental (libros del concurso, informes, foros, manuales y docencia)
+    nuevos_bib = 0
+    if BIB_INDICE.exists():
+        for linea in open(BIB_INDICE, encoding="utf-8"):
+            reg = json.loads(linea)
+            if not reg.get("caracteres"):
+                continue
+            nid = "bib_amb_" + slug(reg.get("titulo", ""))
+            if nid in ids:
+                continue
+            nodos.append({
+                "id": nid, "label": reg.get("titulo", ""), "node_type": "estudio_ambiental",
+                "tipo": reg.get("tipo"), "tribunal": reg.get("tribunal"), "autor": reg.get("autor"),
+                "source_file": reg["archivo_md"], "tokens_archivo": reg.get("tokens_aprox"),
+                "url": reg.get("url_pdf") or "",
+            })
+            ids.add(nid)
+            organo = f"organo_{(reg.get('tribunal') or 'ta').lower()}"
+            if organo in ids:
+                aristas.append({"source": nid, "target": organo, "relation": "publicado_por", "weight": 1.0})
+            md = BASE / reg["archivo_md"]
+            if md.exists():
+                texto = md.read_text(encoding="utf-8", errors="replace")
+                for norm_id in normas_citadas(texto, claves_mod, idx_normas, idx_leyes, tope=15):
+                    aristas.append({"source": nid, "target": norm_id, "relation": "cita_norma", "weight": 1.0})
+                    enlaces_norma += 1
+            nuevos_bib += 1
+    print(f"══ Biblioteca ambiental: +{nuevos_bib} documentos con texto")
+
+    # 3c · dedupe de aristas: cada corrida re-procesa los documentos y volvía a sumar las mismas
+    # relaciones (publicado_por, cita_norma ×n). Se conserva la primera aparición de cada trio.
+    if aristas:
+        vistas = set()
+        unicas = []
+        for e in aristas:
+            clave = (e.get("source"), e.get("target"), e.get("relation"))
+            if clave in vistas:
+                continue
+            vistas.add(clave)
+            unicas.append(e)
+        retiradas = len(aristas) - len(unicas)
+        aristas[:] = unicas
+        if retiradas:
+            print(f"══ Poda: {retiradas} aristas duplicadas retiradas")
 
     # 4 · comunidades con el mismo algoritmo del motor
     comunidades = 0
