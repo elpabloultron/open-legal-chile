@@ -560,6 +560,14 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
 
         archivos_clave = [
             "GRAPH_REPORT.md",
+            # Los formatos universales y los visualizadores que la tarjeta del dataset promete:
+            # viajan al hub y NO se borran en el aligerado. Solo graph.json queda fuera (el grafo
+            # íntegro vive en data/legal_knowledge_graph.json).
+            "GRAPH_TREE.html",
+            "GRAPH_CALLFLOW.html",
+            "graph.html",
+            "graph.graphml",
+            "cypher.txt",
         ]
 
         for fname in archivos_clave:
@@ -1192,9 +1200,12 @@ Documentos de terceros redistribuidos con atribución (ver la tarjeta del datase
             pesados_eliminados: object = 0
             try:
                 existentes = set(api.list_repo_files(repo_id=repo_id, repo_type="dataset"))
+                # Ojo: los visualizadores y los formatos universales (graphml/cypher) NO se borran —
+                # la tarjeta del dataset los promete y su público los usa (Gephi/yEd, Neo4j). Lo que
+                # sí se aligera: graph.json (duplicado de data/legal_knowledge_graph.json) y las
+                # versiones plenas de entrenamiento (viven en el dataset hermano -training).
                 pesados = [
-                    "graphify/graph.json", "graphify/graph.graphml", "graphify/cypher.txt",
-                    "graphify/graph.html", "graphify/GRAPH_TREE.html", "graphify/GRAPH_CALLFLOW.html",
+                    "graphify/graph.json",
                     "graphify/.graphify_analysis.json", "graphify/manifest.json",
                     "data/train.jsonl", "data/instituciones.jsonl",
                 ]
