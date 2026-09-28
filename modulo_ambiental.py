@@ -71,6 +71,35 @@ def _norm(texto: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFKD", texto.lower()) if not unicodedata.combining(c))
 
 
+# Cachés por proceso: el corpus no cambia mientras corre una sesión (el caso real es el servidor
+# MCP de larga vida), y leer + normalizar decenas de MB en cada consulta costaba segundos.
+_TEXTOS: dict[tuple[str, int], tuple[str, str]] = {}   # (ruta, mtime_ns) → (texto, texto normalizado)
+_FILAS: list[dict] | None = None                       # registros de los índices (.jsonl)
+
+
+def _limpiar_caches() -> None:
+    """Vacía los cachés por proceso (para pruebas y para releer un corpus que cambió en disco)."""
+    global _FILAS
+    _TEXTOS.clear()
+    _FILAS = None
+
+
+def _texto_cacheado(ruta: pathlib.Path) -> tuple[str, str]:
+    """El texto y su normalizado, leídos una sola vez por proceso.
+
+    La clave incluye el mtime: si el archivo cambia en disco se relee solo, y la versión vieja
+    se suelta. Se mantiene una sola versión vigente por archivo; el corpus completo en memoria
+    pesa lo que el corpus (decenas de MB), el precio de no pagar segundos por consulta.
+    """
+    clave = (str(ruta), ruta.stat().st_mtime_ns)
+    if clave not in _TEXTOS:
+        texto = ruta.read_text(encoding="utf-8", errors="replace")
+        for vieja in [k for k in _TEXTOS if k[0] == str(ruta)]:
+            del _TEXTOS[vieja]
+        _TEXTOS[clave] = (texto, _norm(texto))
+    return _TEXTOS[clave]
+
+
 def es_materia_ambiental(consulta: str) -> bool:
     """¿La consulta o el caso es de materia ambiental? (SMA, SEIA/RCA, daño, humedales, LO-SMA…)."""
     t = _norm(consulta or "")
@@ -100,6 +129,10 @@ def _calza(t: str, bajo: str) -> bool:
 
 
 def _filas_colecciones() -> list[dict]:
+    """Los registros de los índices, cacheados por proceso (los .jsonl del corpus no cambian en vivo)."""
+    global _FILAS
+    if _FILAS is not None:
+        return _FILAS
     filas: list[dict] = []
     for coleccion, ruta in INDICES:
         if not ruta.exists():
@@ -126,7 +159,8 @@ def _filas_colecciones() -> list[dict]:
                 "archivo": f"doctrina/ambiental/{md.name}",
                 "url_oficial": "",
             })
-    return filas
+    _FILAS = filas
+    return _FILAS
 
 
 def _archivo_por_rol() -> dict[tuple, str]:
@@ -166,12 +200,11 @@ def _buscar_en_archivo(reg: dict, terminos: list[str]) -> dict | None:
     ruta = BASE / reg["archivo"] if reg.get("archivo") else None
     if ruta and ruta.is_file():
         try:
-            texto = ruta.read_text(encoding="utf-8", errors="replace")
+            texto, bajo = _texto_cacheado(ruta)
         except OSError:
-            texto = ""
+            texto, bajo = "", ""
         if texto:
             tamano = len(texto)
-            bajo = _norm(texto)
             coincidencias = sum(1 for t in terminos if _calza(t, bajo))
             fragmento = _fragmento(bajo, texto, terminos)
     if not en_titulo and not coincidencias:
