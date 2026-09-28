@@ -12,10 +12,11 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import safe_urlopen
+from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
 
 BASE_URL = "https://www.dt.gob.cl/legislacion/1624"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "dt_cache")
+_TTL_CACHE_SEGUNDOS = 7 * 24 * 60 * 60  # la DT publica a diario, pero el listado cambia poco
 
 
 def _texto_plano(trozo: str) -> str:
@@ -83,12 +84,9 @@ class DTClient:
     def get_index_ordinarios(self, use_cache: bool = True) -> List[Dict[str, str]]:
         """Descarga e indexa el listado maestro de Ordinarios y Dictámenes de la DT."""
         cache_file = self._get_cache_path("index_ordinarios_v2")  # v2: incluye la MATERIA de cada uno
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        data = leer_json_si_se_puede(cache_file) if use_cache else None
+        if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return data
 
         url = f"{BASE_URL}/w3-propertyvalue-147182.html"
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Laboral Chile)'}
@@ -99,6 +97,8 @@ class DTClient:
                 page_html = resp.read().decode("utf-8", errors="ignore")
             index_list = _parsear_indice_dt(page_html, BASE_URL)
         except Exception as e:
+            if data:
+                return data  # copia vencida: mejor el índice viejo que ningún índice
             return [_aviso(
                 "No se pudo cargar el índice de dictámenes y ordinarios de la DT",
                 f"El sitio de la DT no respondió ({e}). Esto NO significa que no existan dictámenes "
@@ -131,52 +131,54 @@ class DTClient:
             url = article_id_or_url
 
         cache_file = self._get_cache_path(f"doc_{article_id}")
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        data = leer_json_si_se_puede(cache_file) if use_cache else None
+        if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return data
 
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Laboral Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
-        with safe_urlopen(req, timeout=20) as resp:
-            html = resp.read().decode("utf-8", errors="ignore")
+        try:
+            with safe_urlopen(req, timeout=20) as resp:
+                html = resp.read().decode("utf-8", errors="ignore")
+        except Exception:
+            if data is not None:
+                return {**data, "copia_local_vencida": True}
+            raise
 
-            title_m = re.search(r'<title>(.*?)</title>', html)
-            title = title_m.group(1).replace(" - DT - Normativa 3.0", "").strip() if title_m else ""
+        title_m = re.search(r'<title>(.*?)</title>', html)
+        title = title_m.group(1).replace(" - DT - Normativa 3.0", "").strip() if title_m else ""
 
-            # Extraer párrafos
-            raw_p = re.findall(r'<p[^>]*>(.*?)</p>', html, re.DOTALL)
-            clean_paragraphs = []
-            for p in raw_p:
-                clean = re.sub(r'<[^>]+>', ' ', p).strip()
-                clean = re.sub(r'\s+', ' ', clean)
-                if clean and len(clean) > 15 and not clean.startswith("Inicio /") and "Dirección del Trabajo" not in clean:
-                    clean_paragraphs.append(clean)
+        # Extraer párrafos
+        raw_p = re.findall(r'<p[^>]*>(.*?)</p>', html, re.DOTALL)
+        clean_paragraphs = []
+        for p in raw_p:
+            clean = re.sub(r'<[^>]+>', ' ', p).strip()
+            clean = re.sub(r'\s+', ' ', clean)
+            if clean and len(clean) > 15 and not clean.startswith("Inicio /") and "Dirección del Trabajo" not in clean:
+                clean_paragraphs.append(clean)
 
-            # Extraer materias y doctrina
-            materias = ""
-            doctrina = ""
-            if len(clean_paragraphs) > 0:
-                materias = clean_paragraphs[0]
-            if len(clean_paragraphs) > 1:
-                doctrina = clean_paragraphs[1]
+        # Extraer materias y doctrina
+        materias = ""
+        doctrina = ""
+        if len(clean_paragraphs) > 0:
+            materias = clean_paragraphs[0]
+        if len(clean_paragraphs) > 1:
+            doctrina = clean_paragraphs[1]
 
-            doc_data = {
-                "articleId": article_id,
-                "titulo": title,
-                "url": url,
-                "materias": materias,
-                "doctrina": doctrina,
-                "parrafos": clean_paragraphs
-            }
+        doc_data = {
+            "articleId": article_id,
+            "titulo": title,
+            "url": url,
+            "materias": materias,
+            "doctrina": doctrina,
+            "parrafos": clean_paragraphs
+        }
 
-            with open(cache_file, "w", encoding="utf-8") as f:
-                json.dump(doc_data, f, ensure_ascii=False, indent=2)
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(doc_data, f, ensure_ascii=False, indent=2)
 
-            return doc_data
+        return doc_data
 
     def search_dictamenes(self, query: str, limit: int = 10) -> List[Dict[str, Any]]:
         """Busca dictámenes y ordinarios de la DT por número o por tema.
