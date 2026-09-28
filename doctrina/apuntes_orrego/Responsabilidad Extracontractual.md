@@ -6468,7 +6468,7 @@ extracontractual?
 - [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
 - [Extinción de las Obligaciones](Extinción%20de%20las%20Obligaciones.md) — cita mutua
 - [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
-- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO I: VOLUNTAD, CONSENTIMIENTO Y VICIOS](../civil/vial_del_rio_acto_juridico/01_voluntad_consentimiento_y_vicios.md) — cita mutua
+- [TRATADO DE LOS RECURSOS PROCESALES — CAPÍTULO III: CASACIÓN EN LA FORMA, FONDO Y QUEJA](../procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md) — cita mutua
 - [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](../administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)

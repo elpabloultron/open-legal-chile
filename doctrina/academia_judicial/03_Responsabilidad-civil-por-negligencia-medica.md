@@ -12612,9 +12612,9 @@ ción de Desarrollo Social de Providencia y otro        90. Zorín S.A. con Comp
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelacion](12_Gobierno-Judicial.md) — cita mutua
-- [Cortes de Apelaciones: nociones básicas de organización y funcionamiento](04_Corte-de-Apelaciones-nociones-basicas-de-org.-y-funcionamiento.md) — cita mutua
 - [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
-- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
+- [Cortes de Apelaciones: nociones básicas de organización y funcionamiento](04_Corte-de-Apelaciones-nociones-basicas-de-org.-y-funcionamiento.md) — cita mutua
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md) — mismo tema (2 conexiones)
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

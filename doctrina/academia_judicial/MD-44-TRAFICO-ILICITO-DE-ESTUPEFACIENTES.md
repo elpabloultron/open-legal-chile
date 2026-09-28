@@ -6773,7 +6773,7 @@ Materiales Docentes          Referencias
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Ley 20.000: problemas actuales en su interpretación](MD44-Principales-figuras-penales-de-la-Ley-20.000.md) — cita mutua
 - [doctrina48981](../manuales/doctrina48981.md) — cita mutua
-- [Corrupción](MD64-Corrupcion.md) — cita mutua
+- [Terrorismo](MD-58-TERRORISMO.md) — cita mutua
 - [Clima laboral y calidad de vida](MD-47-CLIMA-LABORAL-Y-CALIDAD-DE-VIDA.md) — cita mutua
 
 **Guías de la Academia Judicial que usan esta obra:**

@@ -13039,10 +13039,10 @@ modificación?
 
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
-- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Habilitante para juez de juzgado de familia](../academia_judicial/10_Habilitante-Familia.md) — cita mutua
+- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Los bienes familiares](Los%20bienes%20familiares.md) — cita mutua
-- [De la Responsabilidad Precontractual](De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (2 conexiones)
+- [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — mismo tema (2 conexiones)
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

@@ -50,11 +50,10 @@ Se tramita ante los Juzgados de Familia mediante procedimiento ordinario (Ley N�
 - [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — mismo tema (2 conexiones)
 - [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO II: ANTIJURIDICIDAD Y CULPA](../barros_bourie_responsabilidad/02_antijuridicidad_y_culpa.md) — mismo tema (2 conexiones)
 - [DERECHO DEL TRABAJO — CAPÍTULO III: TUTELA LABORAL, LEY KARIN Y DAÑO MORAL](../../laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md) — mismo tema (2 conexiones)
-- [DE LAS OBLIGACIONES — CAPÍTULO III: DERECHOS AUXILIARES DEL ACREEDOR](../ramos_pazos_obligaciones/03_derechos_auxiliares_del_acreedor.md) — mismo tema (1 conexiones)
+- [DERECHO DE FAMILIA — CAPÍTULO I: SOCIEDAD CONYUGAL Y REGÍMENES PATRIMONIALES](01_sociedad_conyugal_y_regimenes_patrimoniales.md) — mismo tema (1 conexiones)
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia Audiencia Conciliacion Laboral](../../../corpus_guias_aj/Guia_Audiencia_Conciliacion_Laboral_v2.1.md) — la usa como material de apoyo
-- [Guia para la conduccion de audiencias temas transversales abr](../../../corpus_guias_aj/Guia_para_la_conduccion_de_audiencias_temas_transversales_abr1.md) — la usa como material de apoyo
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
 

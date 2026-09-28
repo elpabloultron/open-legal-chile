@@ -5431,8 +5431,8 @@ especial.
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
 - [Responsabilidad Extracontractual](Responsabilidad%20Extracontractual.md) — cita mutua
-- [Contrato de compraventa](Contrato%20de%20compraventa.md) — cita mutua
 - [La prescripcion](La%20prescripcion.md) — cita mutua
+- [Contrato de compraventa](Contrato%20de%20compraventa.md) — cita mutua
 - [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)

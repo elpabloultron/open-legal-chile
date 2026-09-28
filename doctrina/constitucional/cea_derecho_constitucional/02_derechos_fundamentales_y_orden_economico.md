@@ -50,8 +50,8 @@ Conjunto de principios y normas fundamentales que regulan la organización y est
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [TRATADO DE LOS BIENES — CAPÍTULO II: EL DOMINIO Y MODOS DE ADQUIRIR](../../civil/penailillo_bienes/02_dominio_y_modos_de_adquirir.md) — cita mutua
 - [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
-- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO III: FALTA DE SERVICIO Y DERECHO SANCIONADOR](../../administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md) — cita mutua
 - [TRATADO DE DERECHO PENAL: PARTE GENERAL — CAPÍTULO I: LEGALIDAD, CONDUCTA Y TIPICIDAD](../../penal/cury_parte_general/01_legalidad_conducta_y_tipicidad.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO III: FALTA DE SERVICIO Y DERECHO SANCIONADOR](../../administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md) — cita mutua
 - [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO III: ACCIONES CONSTITUCIONALES Y TRIBUNAL CONSTI](03_recurso_de_proteccion_y_justicia_constitucional.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)

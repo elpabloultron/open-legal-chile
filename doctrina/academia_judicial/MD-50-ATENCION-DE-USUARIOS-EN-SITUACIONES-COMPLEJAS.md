@@ -4577,13 +4577,13 @@ Materiales Docentes          Referencias
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Atención de usuarios en situaciones complejas y de vulnerabilidad](MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md) — cita mutua
 - [Introducción a los Derechos Humanos](MD38-Introduccion-a-los-derechos-humanos.md) — cita mutua
-- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
-- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Determinación, aplicación y ejecución de penas](MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md) — cita mutua
+- [Clima laboral y calidad de vida](MD-47-CLIMA-LABORAL-Y-CALIDAD-DE-VIDA.md) — cita mutua
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia Etica 10jul](../../corpus_guias_aj/Guia_Etica_10jul_2026.md) — la usa como material de apoyo
+- [Guía de Ética 24 de septiembre de 2026](../../corpus_guias_aj/Guia_Etica_24_sep_2026.md) — la usa como material de apoyo
 - [Guia Etica 7jul](../../corpus_guias_aj/Guia_Etica_7jul_2026.md) — la usa como material de apoyo
-- [guia para la conduccion de las audiencias de familia preparatoria reservada conciliacion y](../../corpus_guias_aj/guia_para_la_conduccion_de_las_audiencias_de_familia_preparatoria_reservada_conciliacion_y.md) — la usa como material de apoyo
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

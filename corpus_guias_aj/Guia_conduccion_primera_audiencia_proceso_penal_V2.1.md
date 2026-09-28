@@ -4325,11 +4325,11 @@ S
 - (sin conexiones medidas todavía)
 
 **Obras del canon que esta guía trabaja:**
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](../doctrina/academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md)
 - [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md)
 - [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD-59-USO-DE-LA-FUERZA.md)
 - [Responsabilidad penal adolescente](../doctrina/academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md)
-- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](../doctrina/academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md)
-- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](../doctrina/academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md)
 
 **Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
 

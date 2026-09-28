@@ -10454,7 +10454,7 @@ La decisión judicial debe restablecer el derecho vulnerado y, cuando lo amerite
 - [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
 - [Normativa en materia de filiación](07_Normativa-en-materia-de-filiacion.md) — cita mutua
 - [La Familia y el Matrimonio](../apuntes_orrego/La%20Familia%20y%20el%20Matrimonio.md) — cita mutua
-- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (2 conexiones)
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md) — mismo tema (2 conexiones)
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [guia para la conduccion de las audiencias de familia preparatoria reservada conciliacion y](../../corpus_guias_aj/guia_para_la_conduccion_de_las_audiencias_de_familia_preparatoria_reservada_conciliacion_y.md) — la usa como material de apoyo

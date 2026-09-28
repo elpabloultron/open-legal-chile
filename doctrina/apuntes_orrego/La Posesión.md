@@ -2716,8 +2716,8 @@ minoritaria sobre esta materia?
 - [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
 - [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
 - [Regímenes Matrimoniales](Regímenes%20Matrimoniales.md) — cita mutua
-- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
-- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 11 (defensa de las asignaciones)](Sucesorio%2011%20defensa%20de%20las%20asignaciones.md) — mismo tema (1 conexiones)
+- [El Derecho y el ordenamiento jurídico](El%20Derecho%20y%20el%20ordenamiento%20jurídico.md) — mismo tema (1 conexiones)
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

@@ -81,7 +81,7 @@ Obligación en que concurren varios deudores y a cada uno de ellos puede exigirs
 - [DE LAS OBLIGACIONES — CAPÍTULO III: DERECHOS AUXILIARES DEL ACREEDOR](03_derechos_auxiliares_del_acreedor.md) — cita mutua
 - [DE LAS OBLIGACIONES — CAPÍTULO IV: EXTINCIÓN DE OBLIGACIONES Y PRELACIÓN DE CRÉDITOS](04_modos_de_extinguir_y_prelacion_de_creditos.md) — cita mutua
 - [doctrina48981](../../manuales/doctrina48981.md) — cita mutua
-- [DERECHO DE FAMILIA — CAPÍTULO II: COMPENSACIÓN ECONÓMICA Y ALIMENTOS](../ramos_pazos_familia/02_compensacion_economica_y_alimentos.md) — cita mutua
+- [DERECHO DE FAMILIA — CAPÍTULO I: SOCIEDAD CONYUGAL Y REGÍMENES PATRIMONIALES](../ramos_pazos_familia/01_sociedad_conyugal_y_regimenes_patrimoniales.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
 

@@ -52,8 +52,8 @@ Mecanismo de control represivo y concreto encomendado en forma exclusiva al Trib
 
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [DERECHO ADMINISTRATIVO: BASES FUNDAMENTALES — CAPÍTULO I: JURIDICIDAD Y NULIDAD DE DERECHO](../../administrativo/soto_kloss_bases/01_principio_de_juridicidad_y_nulidad_derecho_publico.md) — cita mutua
-- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
 - [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO II: DERECHOS FUNDAMENTALES Y ORDEN PÚBLICO ECONÓ](02_derechos_fundamentales_y_orden_economico.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
 - [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO IV: DAÑO, CAUSALIDAD Y PRESCRIPCIÓN](../../civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md) — cita mutua
 - [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — mismo tema (2 conexiones)
 

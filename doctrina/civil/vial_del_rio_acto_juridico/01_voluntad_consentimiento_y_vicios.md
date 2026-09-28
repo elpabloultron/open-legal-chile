@@ -79,7 +79,7 @@ El dolo **no se presume** sino en los casos especialmente previstos por la ley (
 - [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO III: INEFICACIAS, NULIDAD Y SIMULACIÓN](03_ineficacias_nulidad_y_simulacion.md) — cita mutua
 - [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO II: OBJETO, CAUSA Y SOLEMNIDADES](02_objeto_causa_y_solemnidades.md) — cita mutua
 - [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](../penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
-- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](../../administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
+- [TRATADO DE LOS RECURSOS PROCESALES — CAPÍTULO III: CASACIÓN EN LA FORMA, FONDO Y QUEJA](../../procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
 

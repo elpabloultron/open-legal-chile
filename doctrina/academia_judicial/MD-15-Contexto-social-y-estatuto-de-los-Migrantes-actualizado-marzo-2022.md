@@ -4517,8 +4517,8 @@ origen (derecha) de los migrantes internacionales en 2019 (en millo-       6.   
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Control judicial del proceso: Case Management](14_Control-judicial-del-proceso-Case-Management.md) — cita mutua
-- [Regímenes Matrimoniales](../apuntes_orrego/Regímenes%20Matrimoniales.md) — cita mutua
 - [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](../apuntes_orrego/Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
+- [Regímenes Matrimoniales](../apuntes_orrego/Regímenes%20Matrimoniales.md) — cita mutua
 - [Acciones Protectoras](../apuntes_orrego/Acciones%20Protectoras.md) — mismo tema (2 conexiones)
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)

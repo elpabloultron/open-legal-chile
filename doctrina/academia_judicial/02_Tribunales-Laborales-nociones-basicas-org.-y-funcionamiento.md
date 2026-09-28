@@ -7833,8 +7833,8 @@ Establecer indicadores de gestión es una manera de medir si el
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Tribunales No Reformados: nociones básicas de organización y funcionamiento](05_tribunales-no-reformados-nociones-basicas-de-org.-y-funcionamiento.md) — cita mutua
 - [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
-- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
-- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — mismo tema (2 conexiones)
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md) — mismo tema (2 conexiones)
+- [Habilitante para juez de juzgado de letras del trabajo](09_Habilitante-Laboral.md) — mismo tema (2 conexiones)
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia Audiencia Monitoria](../../corpus_guias_aj/Guia_Audiencia_Monitoria-v1.md) — la usa como material de apoyo

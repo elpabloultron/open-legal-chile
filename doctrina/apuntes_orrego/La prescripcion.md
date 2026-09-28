@@ -1272,7 +1272,7 @@ cuál es dicho momento?
 - [Extinción de las Obligaciones](Extinción%20de%20las%20Obligaciones.md) — cita mutua
 - [Contrato de compraventa](Contrato%20de%20compraventa.md) — cita mutua
 - [Responsabilidad Extracontractual](Responsabilidad%20Extracontractual.md) — mismo tema (2 conexiones)
-- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Sucesorio 11 (defensa de las asignaciones)](Sucesorio%2011%20defensa%20de%20las%20asignaciones.md) — mismo tema (1 conexiones)
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

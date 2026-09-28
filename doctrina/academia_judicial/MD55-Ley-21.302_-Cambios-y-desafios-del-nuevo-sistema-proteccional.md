@@ -3576,12 +3576,12 @@ Materiales Docentes          Referencias
 - [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md) — cita mutua
 - [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
 - [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
-- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+- [Guía para la conducción de audiencias de familia (Preparatoria, Reservada, Conciliación y ](aj_audiencias_familia.md) — mismo tema (1 conexiones)
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia Audiencia Juicio Oral Laboral](../../corpus_guias_aj/Guia_Audiencia_Juicio_Oral_Laboral.md) — la usa como material de apoyo
 - [Guia Procedimiento Monitorio 2025](../../corpus_guias_aj/Guia_Procedimiento_Monitorio_2025_v1.1.md) — la usa como material de apoyo
-- [Guia para la conduccion de audiencias temas transversales abr](../../corpus_guias_aj/Guia_para_la_conduccion_de_audiencias_temas_transversales_abr1.md) — la usa como material de apoyo
+- [Guía de buenas prácticas para la consejería técnica en tribunales de familia (jun 2026)](../../corpus_guias_aj/Guia_buenas_practicas_consejeria_tecnica_familia_jun_2026.md) — la usa como material de apoyo
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

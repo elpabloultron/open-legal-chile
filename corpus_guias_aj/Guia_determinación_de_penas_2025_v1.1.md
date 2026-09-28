@@ -4701,10 +4701,10 @@ de enero de 2022, en relación con la 2ª oración del artículo 2 b) inc. 2°, 
 
 **Obras del canon que esta guía trabaja:**
 - [Juzgados de Garantía: nociones básicas de organización y funcionamiento](../doctrina/academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md)
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md)
 - [Guía para audiencias de Responsabilidad Penal Adolescente (RPA)](../doctrina/academia_judicial/aj_responsabilidad_penal_adolescente.md)
 - [Responsabilidad penal adolescente](../doctrina/academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md)
-- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](../doctrina/academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md)
-- [Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales](../doctrina/academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md)
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](../doctrina/academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md)
 
 **Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
 

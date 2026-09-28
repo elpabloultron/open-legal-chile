@@ -3448,9 +3448,12 @@ Ejecutores testamentarios. Partición, Santiago de Chile, Editorial Jurídica de
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
 - [La Prenda sin Dezplazamiento de la Ley 20190](La%20Prenda%20sin%20Dezplazamiento%20de%20la%20Ley%2020190.md) — cita mutua
-- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
-- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
-- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+- [Sucesorio 11 (defensa de las asignaciones)](Sucesorio%2011%20defensa%20de%20las%20asignaciones.md) — mismo tema (1 conexiones)
+- [El Derecho y el ordenamiento jurídico](El%20Derecho%20y%20el%20ordenamiento%20jurídico.md) — mismo tema (1 conexiones)
+- [El Derecho Real de Conservación](El%20Derecho%20Real%20de%20Conservación.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guía sobre inteligencia artificial para juezas y jueces](../../corpus_guias_aj/Guia_sobre_inteligencia_artificial_para_juezas_y_jueces.md) — la usa como material de apoyo
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

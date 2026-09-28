@@ -9569,9 +9569,9 @@ Corte Suprema (2024): rol 218.048-2023.
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
 - [La Posesión](La%20Posesión.md) — cita mutua
-- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
-- [Contexto Social y estatuto de los migrantes en Chile (Actualizado a marzo 2022 &#8211; Ley](../academia_judicial/MD-15-Contexto-social-y-estatuto-de-los-Migrantes-actualizado-marzo-2022.md) — cita mutua
 - [Regímenes Matrimoniales](Regímenes%20Matrimoniales.md) — cita mutua
+- [Contexto Social y estatuto de los migrantes en Chile (Actualizado a marzo 2022 &#8211; Ley](../academia_judicial/MD-15-Contexto-social-y-estatuto-de-los-Migrantes-actualizado-marzo-2022.md) — cita mutua
+- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

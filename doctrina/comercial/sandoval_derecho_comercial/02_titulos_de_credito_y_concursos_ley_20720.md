@@ -42,9 +42,9 @@ La dictación de la **Resolución de Liquidación** produce de pleno derecho el 
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
 - [MANUAL DE DERECHO COMERCIAL — CAPÍTULO I: ACTOS DE COMERCIO Y SOCIEDADES (SpA)](01_actos_de_comercio_y_sociedades_capital_spa.md) — cita mutua
-- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO III: FALTA DE SERVICIO Y DERECHO SANCIONADOR](../../administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md) — mismo tema (1 conexiones)
+- [DE LAS OBLIGACIONES — CAPÍTULO I: CONCEPTO, ELEMENTOS Y CLASIFICACIONES](../../civil/ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md) — mismo tema (1 conexiones)
 - [DE LAS OBLIGACIONES — CAPÍTULO III: DERECHOS AUXILIARES DEL ACREEDOR](../../civil/ramos_pazos_obligaciones/03_derechos_auxiliares_del_acreedor.md) — mismo tema (1 conexiones)
-- [doctrina48981](../../manuales/doctrina48981.md) — mismo tema (1 conexiones)
+- [DE LAS OBLIGACIONES — CAPÍTULO IV: EXTINCIÓN DE OBLIGACIONES Y PRELACIÓN DE CRÉDITOS](../../civil/ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md) — mismo tema (1 conexiones)
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
 

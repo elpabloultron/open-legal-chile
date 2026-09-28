@@ -45,6 +45,7 @@ Conducta funcionaria intachable, caracterizada por un desempeño honesto y leal 
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia Etica 10jul](../../../corpus_guias_aj/Guia_Etica_10jul_2026.md) — la usa como material de apoyo
+- [Guía de Ética 24 de septiembre de 2026](../../../corpus_guias_aj/Guia_Etica_24_sep_2026.md) — la usa como material de apoyo
 - [Guia Etica 7jul](../../../corpus_guias_aj/Guia_Etica_7jul_2026.md) — la usa como material de apoyo
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
