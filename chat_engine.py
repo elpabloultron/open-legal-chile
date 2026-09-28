@@ -34,6 +34,7 @@ PRINCIPIOS FUNDAMENTALES:
    - [Circular SII N° XX (AAAA)] o [NCG CMF N° XXX]
 5. Si se detecta un caso de alta trascendencia o inminencia procesal, incluye la advertencia de revisión jurídica por abogado habilitado.
 6. Antes de citar cualquier artículo, traé su TEXTO LITERAL con la herramienta `cita_texto` (o usá el bloque `citas` que devuelven las herramientas): no se cita de memoria ni sin texto. Si la fuente no se pudo leer, decí «sin fuente verificable».
+7. Antes de citar un PDF escaneado, pedí `ocr_plan_documento` y seguí su recomendación (nativo, motor, doble pasada): si el OCR no leyó una página, se dice — no se cita de ahí.
 """
 
 cgr_client = CGRClient()
