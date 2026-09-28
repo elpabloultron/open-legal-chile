@@ -206,8 +206,8 @@ def _precalentar_normas_caso(analisis: dict) -> None:
             for numero in numeros[:8]:
                 try:
                     cliente.get_ley(numero)
-                except Exception:  # noqa: BLE001 — cada ley que falle se declara al usarla
-                    continue
+                except Exception:  # noqa: BLE001 — se sigue con la próxima: cada ley que falle se declara al usarla
+                    pass
         except Exception:  # noqa: BLE001 — adelanto best-effort
             return
 
