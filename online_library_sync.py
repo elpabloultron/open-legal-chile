@@ -1693,7 +1693,10 @@ def refrescar_cache_corpus(repo_id: str = "pablobenavidesj/doctrina-jurisprudenc
                 continue
             try:
                 from huggingface_hub import hf_hub_download
-                ruta = hf_hub_download(repo_id=repo_id, filename=it.path, repo_type="dataset",
+                # Es el dataset PROPIO del proyecto (mismo criterio que _descargar_trozo_hf): lo que
+                # se baja son datos que nunca se ejecutan y se validan antes de usarse.
+                ruta = hf_hub_download(  # nosec B615
+                                       repo_id=repo_id, filename=it.path, repo_type="dataset",
                                        token=resolver_token_hf(),
                                        cache_dir=str(_repo_cache_dir(repo_id)),
                                        force_download=forzar)
