@@ -84,6 +84,20 @@ def _terminos(consulta: str) -> list[str]:
     return [t for t in re.findall(r"[\w\-]+", _norm(consulta or "")) if len(t) >= 3][:12]
 
 
+def _variantes(t: str) -> tuple[str, ...]:
+    """Plurales: «humedales» calza con «humedal» y «residuos» con «residuo»."""
+    vs = {t}
+    if len(t) > 4 and t.endswith("es"):
+        vs.add(t[:-2])
+    if len(t) > 3 and t.endswith("s"):
+        vs.add(t[:-1])
+    return tuple(vs)
+
+
+def _calza(t: str, bajo: str) -> bool:
+    return any(v in bajo for v in _variantes(t))
+
+
 def _filas_colecciones() -> list[dict]:
     filas: list[dict] = []
     for coleccion, ruta in INDICES:
@@ -126,14 +140,14 @@ def _archivo_por_rol() -> dict[tuple, str]:
     return mapa
 
 
-def _fragmento(texto: str, terminos: list[str], ancho: int = 360) -> str:
-    """El pasaje literal alrededor del primer término, con puntos suspensivos si se recorta."""
-    bajo = _norm(texto)
+def _fragmento(bajo: str, texto: str, terminos: list[str], ancho: int = 360) -> str:
+    """El pasaje literal alrededor del primer término hallado (recibe ya normalizado `bajo`)."""
     pos = -1
     for t in terminos:
-        p = bajo.find(t)
-        if p >= 0 and (pos < 0 or p < pos):
-            pos = p
+        for v in _variantes(t):
+            p = bajo.find(v)
+            if p >= 0 and (pos < 0 or p < pos):
+                pos = p
     if pos < 0:
         return ""
     ini = max(0, pos - ancho // 3)
@@ -144,8 +158,10 @@ def _fragmento(texto: str, terminos: list[str], ancho: int = 360) -> str:
 
 def _buscar_en_archivo(reg: dict, terminos: list[str]) -> dict | None:
     titulo = _norm(f"{reg.get('titulo', '')} {reg.get('tipo', '')}")
-    en_titulo = sum(1 for t in terminos if t in titulo)
+    en_titulo = sum(1 for t in terminos if _calza(t, titulo))
     fragmento = ""
+    coincidencias = 0
+    tamano = 0
     ruta = BASE / reg["archivo"] if reg.get("archivo") else None
     if ruta and ruta.is_file():
         try:
@@ -153,12 +169,18 @@ def _buscar_en_archivo(reg: dict, terminos: list[str]) -> dict | None:
         except OSError:
             texto = ""
         if texto:
-            fragmento = _fragmento(texto, terminos)
-    if not en_titulo and not fragmento:
+            tamano = len(texto)
+            bajo = _norm(texto)
+            coincidencias = sum(1 for t in terminos if _calza(t, bajo))
+            fragmento = _fragmento(bajo, texto, terminos)
+    if not en_titulo and not coincidencias:
         return None
     item = dict(reg)
     item["fragmento"] = fragmento
-    item["puntaje"] = 3 * en_titulo + (1 if fragmento else 0)
+    item["tamano"] = tamano
+    # El título manda; el contenido pesa parejo y acotado, para que un compendio de un millón de
+    # caracteres (anuarios, manuales) no tape a un documento específico que calza mejor.
+    item["puntaje"] = 3 * en_titulo + min(4, coincidencias)
     item["cita"] = f"[Hugging Face - {reg['archivo']}]" if reg.get("archivo") else f"[Doctrina - {reg.get('titulo', '')}]"
     item["enlace"] = f"{HF_BASE}/{reg['archivo']}" if reg.get("archivo") else ""
     return item
@@ -183,15 +205,20 @@ def consulta_ambiental(consulta: str, limite: int = 8, incluir_subgrafo: bool = 
         for r in client.search_jurisprudencia(consulta):
             archivo = archivo_por_rol.get((str(r.get("tribunal", "")).upper(), str(r.get("rol", ""))), "")
             titulo = r.get("titulo") or r.get("caratula") or ""
+            resumen = re.sub(r"\s+", " ", str(r.get("criterio") or r.get("materia") or r.get("resuelve") or "")).strip()
+            # 9 de base (la jurisprudencia manda) + hasta 3 por calzar la consulta: así el caso de
+            # humedales sube sobre la reclamación genérica de turno.
+            en_sentencia = sum(1 for t in terminos if _calza(t, _norm(f"{titulo} {r.get('materia') or ''} {resumen}")))
             resultados.append({
                 "coleccion": "jurisprudencia_ambiental",
                 "titulo": titulo,
-                "tipo": r.get("tipo") or "sentencia",
+                "tipo": r.get("tipo") or r.get("origen") or r.get("materia") or "sentencia",
                 "tribunal": r.get("tribunal") or "",
                 "archivo": archivo,
                 "url_oficial": r.get("link") or "",
-                "fragmento": re.sub(r"\s+", " ", str(r.get("criterio") or r.get("materia") or r.get("resuelve") or "")).strip()[:400],
-                "puntaje": 2,
+                "fragmento": resumen[:400],
+                "puntaje": 9 + min(3, en_sentencia),
+                "tamano": 0,
                 "cita": f"[Hugging Face - {archivo}]" if archivo else f"[TA - {r.get('tribunal', '')} · {titulo[:70]}]",
                 "enlace": f"{HF_BASE}/{archivo}" if archivo else (r.get("link") or ""),
             })
@@ -208,7 +235,9 @@ def consulta_ambiental(consulta: str, limite: int = 8, incluir_subgrafo: bool = 
     else:
         faltantes.append("colecciones locales")
 
-    resultados.sort(key=lambda x: -x["puntaje"])
+    # Las sentencias (9) van primero; entre documentos de igual puntaje gana el más breve,
+    # que es el más específico frente a compendios y manuales.
+    resultados.sort(key=lambda x: (-x["puntaje"], x.get("tamano", 0)))
     resultados = resultados[: max(1, limite)]
 
     citas = []
