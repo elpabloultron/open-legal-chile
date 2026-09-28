@@ -34,7 +34,8 @@ def _linea_con_limite(proceso, segundos: float = 120.0) -> str:
 
 def test_el_progreso_sale_con_el_server_corriendo_como_script():
     proceso = subprocess.Popen([sys.executable, "mcp_server.py"], cwd=REPO,
-                               stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True)
+                               stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True,
+                               encoding="utf-8")
     try:
         def enviar(objeto):
             proceso.stdin.write(json.dumps(objeto) + "\n")
