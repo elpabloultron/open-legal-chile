@@ -41,7 +41,7 @@
    },
    {
     "archivo": "academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md",
-    "peso": 0.107,
+    "peso": 0.106,
     "claves": [
      "COT|art_164",
      "CPP|art_15",
@@ -52,19 +52,19 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
-    "peso": 0.082,
+    "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
+    "peso": 0.072,
     "claves": [
      "CP|art_12",
      "CP|art_15",
      "CP|art_18",
      "CP|art_68",
      "CP|art_69",
-     "LEY|20000"
+     "LEY|20066"
     ]
    },
    {
-    "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
+    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
     "peso": 0.072,
     "claves": [
      "CP|art_12",
@@ -86,7 +86,7 @@
    },
    {
     "archivo": "academia_judicial/MD-36-AUTOCUIDADO-Y-ADAPTACION-NUEVAS-MODALIDADESDE-TRABAJO.md",
-    "peso": 0.1,
+    "peso": 0.111,
     "claves": [
      "LEY|16744"
     ]
@@ -132,7 +132,7 @@
    },
    {
     "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
-    "peso": 0.2,
+    "peso": 0.214,
     "claves": [
      "LEY|19968",
      "LEY|20886",
@@ -263,7 +263,7 @@
    },
    {
     "archivo": "academia_judicial/07_DERECHO-PROCESAL_03.md",
-    "peso": 0.059,
+    "peso": 0.061,
     "claves": [
      "LEY|19346",
      "LEY|20880"
@@ -278,7 +278,7 @@
    },
    {
     "archivo": "academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md",
-    "peso": 0.053,
+    "peso": 0.056,
     "claves": [
      "LEY|20880"
     ]
@@ -309,7 +309,7 @@
    },
    {
     "archivo": "academia_judicial/07_DERECHO-PROCESAL_03.md",
-    "peso": 0.059,
+    "peso": 0.061,
     "claves": [
      "LEY|19346",
      "LEY|20880"
@@ -324,7 +324,7 @@
    },
    {
     "archivo": "academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md",
-    "peso": 0.053,
+    "peso": 0.056,
     "claves": [
      "LEY|20880"
     ]
@@ -355,7 +355,7 @@
    },
    {
     "archivo": "academia_judicial/07_DERECHO-PROCESAL_03.md",
-    "peso": 0.059,
+    "peso": 0.061,
     "claves": [
      "LEY|19346",
      "LEY|20880"
@@ -370,7 +370,7 @@
    },
    {
     "archivo": "academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md",
-    "peso": 0.053,
+    "peso": 0.056,
     "claves": [
      "LEY|20880"
     ]
@@ -378,21 +378,21 @@
   ],
   "Guia_Procedimiento_Abreviado_2025_v1.1": [
    {
-    "archivo": "academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md",
-    "peso": 0.094,
-    "claves": [
-     "LEY|18216",
-     "LEY|20000",
-     "LEY|20084"
-    ]
-   },
-   {
     "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
     "peso": 0.091,
     "claves": [
      "CPP|art_297",
      "LEY|18216",
      "LEY|20000"
+    ]
+   },
+   {
+    "archivo": "academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md",
+    "peso": 0.091,
+    "claves": [
+     "LEY|18216",
+     "LEY|20000",
+     "LEY|20084"
     ]
    },
    {
@@ -409,7 +409,7 @@
    },
    {
     "archivo": "academia_judicial/MD-59-USO-DE-LA-FUERZA.md",
-    "peso": 0.087,
+    "peso": 0.086,
     "claves": [
      "CPP|art_17",
      "CPP|art_17-ter",
@@ -420,49 +420,35 @@
     ]
    },
    {
-    "archivo": "academia_judicial/06_TOP-funciones-basica-de-organizacion-y-funcionamiento.md",
-    "peso": 0.073,
-    "claves": [
-     "LEY|18216",
-     "LEY|20000",
-     "LEY|20084"
-    ]
-   },
-   {
     "archivo": "academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md",
-    "peso": 0.07,
+    "peso": 0.068,
     "claves": [
      "CPP|art_297",
      "CPP|art_340",
      "LEY|20000"
     ]
+   },
+   {
+    "archivo": "academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md",
+    "peso": 0.061,
+    "claves": [
+     "CPP|art_297",
+     "LEY|18216"
+    ]
    }
   ],
   "Guia_Procedimiento_Monitorio_2025_v1.1": [
    {
-    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
-    "peso": 0.114,
+    "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
+    "peso": 0.086,
     "claves": [
      "LEY|2",
-     "LEY|20000",
      "LEY|20084",
      "LEY|21302"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
-    "peso": 0.09,
-    "claves": [
-     "CP|art_1",
-     "CP|art_9",
-     "CP|art_96",
-     "LEY|20000",
-     "LEY|20084",
-     "LEY|21302"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
+    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
     "peso": 0.086,
     "claves": [
      "LEY|2",
@@ -482,18 +468,28 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md",
-    "peso": 0.074,
+    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
+    "peso": 0.075,
     "claves": [
-     "CPP|art_102",
      "CP|art_1",
-     "LEY|20000",
-     "LEY|20084"
+     "CP|art_9",
+     "CP|art_96",
+     "LEY|20084",
+     "LEY|21302"
     ]
    },
    {
     "archivo": "academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md",
     "peso": 0.056,
+    "claves": [
+     "CPP|art_102",
+     "CP|art_1",
+     "LEY|20084"
+    ]
+   },
+   {
+    "archivo": "academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md",
+    "peso": 0.055,
     "claves": [
      "CPP|art_102",
      "CP|art_1",
@@ -514,7 +510,7 @@
    },
    {
     "archivo": "academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md",
-    "peso": 0.095,
+    "peso": 0.094,
     "claves": [
      "CPP|art_15",
      "CPP|art_31",
@@ -558,13 +554,15 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md",
-    "peso": 0.069,
+    "archivo": "academia_judicial/MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md",
+    "peso": 0.065,
     "claves": [
-     "CPP|art_8",
-     "LEY|20000",
-     "LEY|20066",
-     "LEY|21057"
+     "CPP|art_15",
+     "CPP|art_31",
+     "CPP|art_38",
+     "CPP|art_4",
+     "CPP|art_468",
+     "CPP|art_8"
     ]
    }
   ],
@@ -606,8 +604,18 @@
     ]
    },
    {
+    "archivo": "manuales/Derecho-Procesal-profesora-Cerra.md",
+    "peso": 0.077,
+    "claves": [
+     "CPR|art_19",
+     "CPR|art_95",
+     "LEY|20000",
+     "LEY|5"
+    ]
+   },
+   {
     "archivo": "academia_judicial/RPPJ.md",
-    "peso": 0.085,
+    "peso": 0.072,
     "claves": [
      "CPP|art_11",
      "CPP|art_19",
@@ -618,25 +626,15 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
-    "peso": 0.082,
+    "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
+    "peso": 0.071,
     "claves": [
      "CPP|art_6",
      "CPR|art_19",
      "CP|art_1",
      "CP|art_6",
      "CP|art_9",
-     "LEY|20000"
-    ]
-   },
-   {
-    "archivo": "manuales/Derecho-Procesal-profesora-Cerra.md",
-    "peso": 0.077,
-    "claves": [
-     "CPR|art_19",
-     "CPR|art_95",
-     "LEY|20000",
-     "LEY|5"
+     "LEY|20066"
     ]
    }
   ],
@@ -687,6 +685,15 @@
     ]
    },
    {
+    "archivo": "academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md",
+    "peso": 0.043,
+    "claves": [
+     "COT|art_5",
+     "CPP|art_93",
+     "LEY|20084"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD-59-USO-DE-LA-FUERZA.md",
     "peso": 0.043,
     "claves": [
@@ -695,94 +702,83 @@
      "CPR|art_19",
      "LEY|20084"
     ]
-   },
-   {
-    "archivo": "academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md",
-    "peso": 0.043,
-    "claves": [
-     "COT|art_5",
-     "CPP|art_93",
-     "LEY|20084"
-    ]
    }
   ],
   "Guia_buenas_practicas_consejeria_tecnica_familia_jun_2026": [
+   {
+    "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
+    "peso": 0.174,
+    "claves": [
+     "LEY|19968",
+     "LEY|21057",
+     "LEY|21302",
+     "LEY|21430"
+    ]
+   },
    {
     "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
     "peso": 0.174,
     "claves": [
      "LEY|19968",
-     "LEY|20000",
      "LEY|21057",
+     "LEY|21302",
      "LEY|21430"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md",
-    "peso": 0.133,
+    "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
+    "peso": 0.148,
     "claves": [
-     "LEY|19",
-     "LEY|19968",
      "LEY|20000",
-     "LEY|20066"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
-    "peso": 0.13,
-    "claves": [
-     "LEY|19968",
+     "LEY|20066",
      "LEY|21057",
-     "LEY|21430"
+     "LEY|21302"
     ]
    },
    {
     "archivo": "academia_judicial/01_Tribunales-de-Familia-nociones-basicas-de-org-y-funcionamiento.md",
-    "peso": 0.114,
+    "peso": 0.111,
     "claves": [
      "LEY|19968",
-     "LEY|20000",
      "LEY|20286",
-     "LEY|21120"
+     "LEY|21120",
+     "LEY|21430"
     ]
    },
    {
-    "archivo": "academia_judicial/Ley-Antidiscriminacion.md",
+    "archivo": "academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md",
     "peso": 0.111,
     "claves": [
-     "LEY|19968",
-     "LEY|20",
-     "LEY|20000",
+     "LEY|20066",
      "LEY|21057",
-     "LEY|21120"
+     "LEY|21302"
     ]
    },
    {
-    "archivo": "academia_judicial/06_Convencion-de-los-DD-de-NNA-en-el-contexto-judicial.md",
-    "peso": 0.111,
+    "archivo": "academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md",
+    "peso": 0.108,
     "claves": [
      "LEY|19968",
-     "LEY|20",
-     "LEY|20000",
-     "LEY|21057"
+     "LEY|20066",
+     "LEY|20427",
+     "LEY|21430"
     ]
    }
   ],
   "Guia_conduccion_primera_audiencia_proceso_penal_V2.1": [
    {
-    "archivo": "academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md",
-    "peso": 0.096,
+    "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
+    "peso": 0.105,
     "claves": [
-     "CPP|art_93",
      "LEY|20000",
      "LEY|20066",
-     "LEY|20084",
-     "LEY|21057"
+     "LEY|21057",
+     "LEY|21302"
     ]
    },
    {
     "archivo": "academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md",
-    "peso": 0.096,
+    "peso": 0.095,
     "claves": [
      "CPP|art_129",
      "CPP|art_26",
@@ -794,7 +790,7 @@
    },
    {
     "archivo": "academia_judicial/MD-59-USO-DE-LA-FUERZA.md",
-    "peso": 0.096,
+    "peso": 0.093,
     "claves": [
      "CPP|art_129",
      "CPP|art_26",
@@ -806,7 +802,7 @@
    },
    {
     "archivo": "academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md",
-    "peso": 0.089,
+    "peso": 0.088,
     "claves": [
      "CPP|art_12",
      "CPP|art_132",
@@ -817,34 +813,25 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
+    "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
     "peso": 0.086,
     "claves": [
-     "LEY|20000",
      "LEY|20084",
-     "LEY|21057"
+     "LEY|21057",
+     "LEY|21302"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
-    "peso": 0.079,
+    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
+    "peso": 0.086,
     "claves": [
-     "LEY|20000",
-     "LEY|20066",
-     "LEY|21057"
+     "LEY|20084",
+     "LEY|21057",
+     "LEY|21302"
     ]
    }
   ],
   "Guia_determinación_de_penas_2025_v1.1": [
-   {
-    "archivo": "academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md",
-    "peso": 0.103,
-    "claves": [
-     "LEY|18216",
-     "LEY|20000",
-     "LEY|20084"
-    ]
-   },
    {
     "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
     "peso": 0.1,
@@ -852,6 +839,15 @@
      "LEY|18216",
      "LEY|20000",
      "LEY|20066"
+    ]
+   },
+   {
+    "archivo": "academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md",
+    "peso": 0.1,
+    "claves": [
+     "LEY|18216",
+     "LEY|20000",
+     "LEY|20084"
     ]
    },
    {
@@ -864,7 +860,7 @@
    },
    {
     "archivo": "academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md",
-    "peso": 0.096,
+    "peso": 0.095,
     "claves": [
      "CP|art_1",
      "CP|art_69",
@@ -875,24 +871,23 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md",
-    "peso": 0.089,
+    "archivo": "academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md",
+    "peso": 0.075,
     "claves": [
-     "CP|art_1",
-     "LEY|20000",
-     "LEY|20066",
-     "LEY|20084"
+     "LEY|17798",
+     "LEY|18216",
+     "LEY|20066"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
-    "peso": 0.085,
+    "archivo": "academia_judicial/MD57-Terrorismo.md",
+    "peso": 0.074,
     "claves": [
      "CP|art_1",
-     "CP|art_69",
+     "LEY|17798",
      "LEY|20000",
-     "LEY|20066",
-     "LEY|20084"
+     "LEY|20393",
+     "LEY|21121"
     ]
    }
   ],
@@ -910,12 +905,22 @@
    },
    {
     "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
-    "peso": 0.192,
+    "peso": 0.2,
     "claves": [
      "LEY|19968",
      "LEY|2",
      "LEY|21057",
      "LEY|21302",
+     "LEY|21430"
+    ]
+   },
+   {
+    "archivo": "academia_judicial/06_Convencion-de-los-DD-de-NNA-en-el-contexto-judicial.md",
+    "peso": 0.1,
+    "claves": [
+     "LEY|14908",
+     "LEY|19968",
+     "LEY|21057",
      "LEY|21430"
     ]
    },
@@ -932,7 +937,7 @@
    },
    {
     "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
-    "peso": 0.083,
+    "peso": 0.085,
     "claves": [
      "CPP|art_6",
      "LEY|19968",
@@ -942,22 +947,11 @@
     ]
    },
    {
-    "archivo": "academia_judicial/06_Convencion-de-los-DD-de-NNA-en-el-contexto-judicial.md",
-    "peso": 0.073,
+    "archivo": "academia_judicial/01_Tribunales-de-Familia-nociones-basicas-de-org-y-funcionamiento.md",
+    "peso": 0.075,
     "claves": [
      "LEY|14908",
      "LEY|19968",
-     "LEY|21057"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD67-Ley-21430-sobre-garantias-y-proteccion-integral-de-los-derechos-de-la-ninez-y-adolesc.md",
-    "peso": 0.071,
-    "claves": [
-     "LEY|19968",
-     "LEY|21",
-     "LEY|21057",
-     "LEY|21302",
      "LEY|21430"
     ]
    }
@@ -982,7 +976,7 @@
    },
    {
     "archivo": "academia_judicial/MD-59-USO-DE-LA-FUERZA.md",
-    "peso": 0.041,
+    "peso": 0.04,
     "claves": [
      "CPP|art_17",
      "CPP|art_26",
@@ -1019,7 +1013,7 @@
   "Guia_para_la_conduccion_de_las_Audiencias_de_Casos_de_Responsabilidad_Penal_Adolecente_202": [
    {
     "archivo": "academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md",
-    "peso": 0.145,
+    "peso": 0.155,
     "claves": [
      "COT|art_164",
      "CPP|art_15",
@@ -1027,17 +1021,6 @@
      "CPP|art_25-bis",
      "CPP|art_37-bis",
      "CPP|art_6"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
-    "peso": 0.135,
-    "claves": [
-     "LEY|20000",
-     "LEY|20084",
-     "LEY|21057",
-     "LEY|21302",
-     "LEY|21430"
     ]
    },
    {
@@ -1062,15 +1045,13 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
-    "peso": 0.101,
+    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
+    "peso": 0.108,
     "claves": [
-     "CPP|art_6",
-     "LEY|20000",
-     "LEY|20066",
      "LEY|20084",
      "LEY|21057",
-     "LEY|21302"
+     "LEY|21302",
+     "LEY|21430"
     ]
    },
    {
@@ -1081,6 +1062,16 @@
      "LEY|20066",
      "LEY|21057",
      "LEY|21302"
+    ]
+   },
+   {
+    "archivo": "academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md",
+    "peso": 0.098,
+    "claves": [
+     "LEY|18216",
+     "LEY|20000",
+     "LEY|20084",
+     "LEY|21430"
     ]
    }
   ],
@@ -1097,7 +1088,7 @@
    },
    {
     "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
-    "peso": 0.25,
+    "peso": 0.267,
     "claves": [
      "LEY|16618",
      "LEY|19968",
@@ -1107,11 +1098,12 @@
    },
    {
     "archivo": "academia_judicial/01_Tribunales-de-Familia-nociones-basicas-de-org-y-funcionamiento.md",
-    "peso": 0.103,
+    "peso": 0.143,
     "claves": [
      "CPC|art_23",
      "LEY|16618",
-     "LEY|19968"
+     "LEY|19968",
+     "LEY|21430"
     ]
    },
    {
@@ -1149,7 +1141,7 @@
    },
    {
     "archivo": "academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md",
-    "peso": 0.043,
+    "peso": 0.042,
     "claves": [
      "LEY|19496"
     ]
@@ -1185,17 +1177,6 @@
   ],
   "Guía_conducción_audiencia_de_juicio_oral": [
    {
-    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
-    "peso": 0.172,
-    "claves": [
-     "LEY|20000",
-     "LEY|20084",
-     "LEY|20886",
-     "LEY|21057",
-     "LEY|21302"
-    ]
-   },
-   {
     "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
     "peso": 0.156,
     "claves": [
@@ -1217,6 +1198,16 @@
     ]
    },
    {
+    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
+    "peso": 0.138,
+    "claves": [
+     "LEY|20084",
+     "LEY|20886",
+     "LEY|21057",
+     "LEY|21302"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md",
     "peso": 0.125,
     "claves": [
@@ -1228,7 +1219,7 @@
    },
    {
     "archivo": "academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md",
-    "peso": 0.125,
+    "peso": 0.121,
     "claves": [
      "LEY|18216",
      "LEY|20000",
@@ -1237,15 +1228,15 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
-    "peso": 0.115,
+    "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
+    "peso": 0.098,
     "claves": [
      "CP|art_15",
      "CP|art_68",
-     "LEY|20000",
      "LEY|20066",
      "LEY|20084",
-     "LEY|21057"
+     "LEY|21057",
+     "LEY|21302"
     ]
    }
   ],
@@ -1262,7 +1253,7 @@
    },
    {
     "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
-    "peso": 0.154,
+    "peso": 0.16,
     "claves": [
      "LEY|16618",
      "LEY|19968",
@@ -1293,18 +1284,19 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
-    "peso": 0.125,
+    "archivo": "academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md",
+    "peso": 0.128,
     "claves": [
-     "CPR|art_4",
-     "LEY|19",
+     "LEY|1",
+     "LEY|19620",
      "LEY|19968",
-     "LEY|20066"
+     "LEY|20066",
+     "LEY|21430"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md",
-    "peso": 0.121,
+    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
+    "peso": 0.125,
     "claves": [
      "CPR|art_4",
      "LEY|19",
