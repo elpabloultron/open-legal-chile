@@ -10706,3 +10706,21 @@ www.pjud.cl/documents/10179/12162845/CODI-                 de la Corporación Ad
 de Patrimonio e Intereses: https://www.pjud.cl/          funcionarios y empleados del Poder Judicial.
                                              documents/396588/0/Acta+118-2016.pdf/1ffa-               https://obtienearchivo.bcn.cl/obtienearchivo?i-
                                              8dab-b1bd-4a02-aee4-6eddcfd73f54                         d=recursoslegales/10221.3/4201/1/HL19390.pdf
+
+<!-- enlaces:generado sha256:4a711e0a45e9c7f4b1e3f134ea4dc099b5cbb310e3a968c7f5043ddd59b9d05b -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derecho Procesal Orgánico y Funcional](07_DERECHO-PROCESAL_03.md) — cita mutua
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+- [Guía de Audiencia de Conciliación Laboral](aj_conciliacion_laboral.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Etica 10jul](../../corpus_guias_aj/Guia_Etica_10jul_2026.md) — la usa como material de apoyo
+- [Guia Etica 7jul](../../corpus_guias_aj/Guia_Etica_7jul_2026.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/Derecho-procesal-organico-y-funcional.md>

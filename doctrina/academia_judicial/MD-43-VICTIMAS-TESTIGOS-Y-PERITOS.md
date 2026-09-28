@@ -1816,3 +1816,22 @@ trabajaron en este libro: Constanza Valenzuela, Ana María Moraga,
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:f5c4ecd564c8d551d3ebf5bed1a0be39ff02c848d2adea3a21b92d2899cf9c2c -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Determinación, aplicación y ejecución de penas](MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md) — cita mutua
+- [doctrina48981](../manuales/doctrina48981.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Procedimiento Abreviado 2025](../../corpus_guias_aj/Guia_Procedimiento_Abreviado_2025_v1.1.md) — la usa como material de apoyo
+- [Guia Procedimiento Simplificado 2025](../../corpus_guias_aj/Guia_Procedimiento_Simplificado_2025_v1.1.md) — la usa como material de apoyo
+- [Guia para la conduccion de las Audiencias de Casos de Responsabilidad Penal Adolecente 202](../../corpus_guias_aj/Guia_para_la_conduccion_de_las_Audiencias_de_Casos_de_Responsabilidad_Penal_Adolecente_202.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md>

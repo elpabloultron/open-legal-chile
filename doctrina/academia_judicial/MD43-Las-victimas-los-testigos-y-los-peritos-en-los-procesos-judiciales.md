@@ -1818,3 +1818,22 @@ trabajaron en este libro: Constanza Valenzuela, Ana María Moraga,
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:fba1e4df30015c7cf2430a6f6921c875a6f3aad016bf8cef578e25090f36ba91 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md) — cita mutua
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Procedimiento Abreviado 2025](../../corpus_guias_aj/Guia_Procedimiento_Abreviado_2025_v1.1.md) — la usa como material de apoyo
+- [Guia Procedimiento Simplificado 2025](../../corpus_guias_aj/Guia_Procedimiento_Simplificado_2025_v1.1.md) — la usa como material de apoyo
+- [Guia para la conduccion de las Audiencias de Casos de Responsabilidad Penal Adolecente 202](../../corpus_guias_aj/Guia_para_la_conduccion_de_las_Audiencias_de_Casos_de_Responsabilidad_Penal_Adolecente_202.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md>

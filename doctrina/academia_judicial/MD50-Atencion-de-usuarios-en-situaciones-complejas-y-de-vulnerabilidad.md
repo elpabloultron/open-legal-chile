@@ -4569,3 +4569,22 @@ Ana María González, Constanza Valenzuela y Marco Antonio Coloma
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:8b12cec6ab7e798abbc35693f1de89991a6cfb2c80b63e4323df6f71dc1a383b -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Atención de usuarios en situaciones complejas y de vulnerabilidad](MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md) — cita mutua
+- [Introducción a los Derechos Humanos](MD38-Introduccion-a-los-derechos-humanos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [doctrina48981](../manuales/doctrina48981.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Etica 10jul](../../corpus_guias_aj/Guia_Etica_10jul_2026.md) — la usa como material de apoyo
+- [Guia Etica 7jul](../../corpus_guias_aj/Guia_Etica_7jul_2026.md) — la usa como material de apoyo
+- [guia para la conduccion de las audiencias de familia preparatoria reservada conciliacion y](../../corpus_guias_aj/guia_para_la_conduccion_de_las_audiencias_de_familia_preparatoria_reservada_conciliacion_y.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md>

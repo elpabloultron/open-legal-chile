@@ -36,3 +36,17 @@ Facultad correlativa de exigir de una persona determinada el cumplimiento de una
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 577]` `[BCN - Código Civil, Art. 578]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 23.410-2020, Fecha: 04-11-2021]`
+
+<!-- enlaces:generado sha256:1e9fdf60420ce349b32bea08f1b234c6821c13398c84b1b1419c02b2d9144c65 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE LOS BIENES — CAPÍTULO II: EL DOMINIO Y MODOS DE ADQUIRIR](02_dominio_y_modos_de_adquirir.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO III: LA POSESIÓN Y TEORÍA DE LA POSESIÓN INSCRITA](03_posesion_y_posesion_inscrita.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO I: CONCEPTO, ELEMENTOS Y CLASIFICACIONES](../ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+- [DERECHO SUCESORIO — CAPÍTULO I: APERTURA, DELACIÓN Y DERECHO REAL DE HERENCIA](../somarriva_sucesorio/01_apertura_delacion_y_derecho_real_de_herencia.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/penailillo_bienes/01_concepto_y_clasificacion_de_los_bienes.md>

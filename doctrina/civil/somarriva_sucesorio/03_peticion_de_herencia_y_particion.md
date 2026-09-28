@@ -37,3 +37,17 @@ Procesalmente, la acción de partición es imprescriptible e irrenunciable antic
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 1317]` `[BCN - Código Civil, Art. 1325]` `[BCN - Código Civil, Art. 1344]` `[BCN - Código de Procedimiento Civil, Art. 646]` `[BCN - Código de Procedimiento Civil, Art. 660]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 41.250-2020, Fecha: 14-04-2021]`
+
+<!-- enlaces:generado sha256:abab4ebb8db5ed3257448f4bfe2c79dd066831f10ff9aa3eb06b78b914e5ec13 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](../penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+- [DERECHO SUCESORIO — CAPÍTULO I: APERTURA, DELACIÓN Y DERECHO REAL DE HERENCIA](01_apertura_delacion_y_derecho_real_de_herencia.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO II: EMPLAZAMIENTO, PRECAUTORIAS Y JUICIO ORDINARIO](../../procesal/orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md) — cita mutua
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO II: OBJETO, CAUSA Y SOLEMNIDADES](../vial_del_rio_acto_juridico/02_objeto_causa_y_solemnidades.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/somarriva_sucesorio/03_peticion_de_herencia_y_particion.md>

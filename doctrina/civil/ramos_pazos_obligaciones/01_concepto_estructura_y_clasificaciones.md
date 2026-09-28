@@ -72,3 +72,17 @@ Obligación en que concurren varios deudores y a cada uno de ellos puede exigirs
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 1511]` `[BCN - Código Civil, Art. 1514]` `[BCN - Código Civil, Art. 1522]` `[BCN - Código Civil, Art. 1610 N° 3]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 39.810-2020, Fecha: 03-12-2021]`
+
+<!-- enlaces:generado sha256:3968b7107ff323d12e98bda3353adcf1f120d46e4c78038035be8a401a546bd5 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO III: DERECHOS AUXILIARES DEL ACREEDOR](03_derechos_auxiliares_del_acreedor.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO IV: EXTINCIÓN DE OBLIGACIONES Y PRELACIÓN DE CRÉDITOS](04_modos_de_extinguir_y_prelacion_de_creditos.md) — cita mutua
+- [doctrina48981](../../manuales/doctrina48981.md) — cita mutua
+- [DERECHO DE FAMILIA — CAPÍTULO II: COMPENSACIÓN ECONÓMICA Y ALIMENTOS](../ramos_pazos_familia/02_compensacion_economica_y_alimentos.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md>

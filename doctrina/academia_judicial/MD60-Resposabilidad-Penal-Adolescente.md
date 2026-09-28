@@ -5976,3 +5976,22 @@ UNICEF (2021b). Los niños, niñas y adolescentes tienen derechos. Dispo-
 Vallejos, Claudia y Pamela Rubio (2021) Mediación Penal en Tribunal de
    Tratamiento de Drogas Adolescente, Departamento de Investigación y
    Formación LEASUR. Disponible en https://bit.ly/3DNElE0.
+
+<!-- enlaces:generado sha256:a84e424fa14a6df9e9b3e1e32a522cc05b6a42b37fe3c00f95f9b14b208b4a1e -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Determinación, aplicación y ejecución de penas](MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Regulación nacional y convención internacional sobre personas con discapacidad](11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia aplicada para la determinacion de penas](../../corpus_guias_aj/Guia-aplicada-para-la-determinacion-de-penas.md) — la usa como material de apoyo
+- [Guia Procedimiento Simplificado 2025](../../corpus_guias_aj/Guia_Procedimiento_Simplificado_2025_v1.1.md) — la usa como material de apoyo
+- [Guia conduccion primera audiencia proceso penal V](../../corpus_guias_aj/Guia_conduccion_primera_audiencia_proceso_penal_V2.1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md>

@@ -7749,3 +7749,22 @@ de    la   prueba   documental    aporta   a   las   hipótesis   en   competenc
                                         los aspectos más relevantes para la decisión sobre los hechos. Además,
                                         facilitaría el control intersubjetivo del razonamiento probatorio, al explicitar los
                                         criterios utilizados para seleccionar y valorar los documentos más significativos.]
+
+<!-- enlaces:generado sha256:f0a9a496c210bbe854828e28fdaa73c80d432c0b4b36d04d46d51661e98caca1 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Juzgados de Garantía: nociones básicas de organización y funcionamiento](../doctrina/academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md)
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md)
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guía_conducción_audiencia_de_juicio_oral.md>

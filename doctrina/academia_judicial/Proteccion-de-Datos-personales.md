@@ -9667,3 +9667,17 @@ de Datos                                                                        
                                                                                  no supone un ejercicio ilimitado e irrestricto de tal derecho en términos que le
                                                                                  permita atribuir públicamente al actor un actuar reñido con la ley y poco profesional
                                                                                  (Considerando 7º).
+
+<!-- enlaces:generado sha256:46913d290958a691466b5a3085635df66ae153453cd875ef9abddf4a45e8030f -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Derecho Informático](Derecho-informatico.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/Proteccion-de-Datos-personales.md>

@@ -9123,3 +9123,17 @@ Revista Ius Et Praxis, Vol. 25, pp. 359-402.
                                                                                                       48.   Viñuales, Olga. 2002. Lesbofobia. Barcelona :
                                               intersex en contextos de salud y educación”. 2017.
                                                                                                             Bellaterra, 2002.
+
+<!-- enlaces:generado sha256:f5d907ab1175e9b3d903943c676e15f68ed2c18cef4d16565d091955e9a7962a -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Curso sobre estándares internacionales en materia de orientación sexual e identidad de gén](05_Curso-sobre-estandares-internacionales-en-materia-de-O.-sexual-y-genero.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/Ley-de-Identidad-de-Genero.md>

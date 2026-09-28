@@ -2708,3 +2708,17 @@ minoritaria sobre esta materia?
            _____________________________====____________________
 
                          La Posesión – Juan Andrés Orrego Acuña                       46
+
+<!-- enlaces:generado sha256:cade1c08c88015ce2c517aff1859d0beea83e7e4e8c39f3c188100f979b9946e -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
+- [Regímenes Matrimoniales](Regímenes%20Matrimoniales.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/La%20Posesión.md>

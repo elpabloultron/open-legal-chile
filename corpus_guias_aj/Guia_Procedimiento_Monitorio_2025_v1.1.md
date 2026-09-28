@@ -1621,3 +1621,22 @@ monitorio.
                                    Notifíquese a los intervinientes por medio de correo electrónico.
 
                                    Sirva la presente resolución de suficiente y atento oficio remisor.
+
+<!-- enlaces:generado sha256:e6d8e0db00ba24bcb58f6b860d0d4622894aff0cca078a70b7c06f82721a9904 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Manual psicosociolegal sobre abuso sexual infantil](../doctrina/academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md)
+- [Manual psicosociolegal sobre abuso sexual infantil](../doctrina/academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md)
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](../doctrina/academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_Procedimiento_Monitorio_2025_v1.1.md>

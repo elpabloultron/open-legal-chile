@@ -35,3 +35,17 @@ Se tramita en juicio ordinario civil de mayor cuantía ante el Juez de Letras en
 
 **Concordancias Legales:** `[BCN - CPR, Art. 7 inc. 3]` `[BCN - Ley N° 18.575, Art. 4]` `[BCN - Ley N° 18.575, Art. 42]` `[BCN - DFL 1 Consejo de Defensa del Estado, Art. 2]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 25.105-2018, Fecha: 06-08-2019]`
+
+<!-- enlaces:generado sha256:05978400f72330fb14080365264b0e5e8373be57ed990a72fa8dc39280757962 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO I: BASES CONSTITUCIONALES Y PRINCIPIOS](../bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](../../constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO III: ACCIONES CONSTITUCIONALES Y TRIBUNAL CONSTI](../../constitucional/cea_derecho_constitucional/03_recurso_de_proteccion_y_justicia_constitucional.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](../bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
+- [TRATADO DE DERECHO PENAL: PARTE GENERAL — CAPÍTULO III: CULPABILIDAD, ITER CRIMINIS Y PART](../../penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/administrativo/soto_kloss_bases/01_principio_de_juridicidad_y_nulidad_derecho_publico.md>

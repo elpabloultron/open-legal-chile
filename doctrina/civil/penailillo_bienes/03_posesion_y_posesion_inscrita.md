@@ -33,3 +33,16 @@ Dogmática formulada por Andrés Bello y desarrollada por la doctrina (Peñailil
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 724]` `[BCN - Código Civil, Art. 728]` `[BCN - Código Civil, Art. 730]` `[BCN - Código Civil, Art. 924]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 23.410-2020, Fecha: 04-11-2021]` `[CS - Rol N° 38.920-2021, Fecha: 18-08-2022]`
+
+<!-- enlaces:generado sha256:b73e848962f8c81abb231f7a454109ef0b38acc1d3ad8f0988c94ad87469b8c0 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE LOS BIENES — CAPÍTULO I: CONCEPTO Y CLASIFICACIÓN DE LOS BIENES](01_concepto_y_clasificacion_de_los_bienes.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO II: EL DOMINIO Y MODOS DE ADQUIRIR](02_dominio_y_modos_de_adquirir.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](04_acciones_protectoras_del_dominio_y_precario.md) — mismo tema (1 conexiones)
+- [DERECHO DEL TRABAJO — CAPÍTULO III: TUTELA LABORAL, LEY KARIN Y DAÑO MORAL](../../laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/penailillo_bienes/03_posesion_y_posesion_inscrita.md>

@@ -3497,3 +3497,17 @@ partición? B) ¿Qué carácter tiene la acción? C) ¿En qué casos excepciones
 demandarse la partición?
 
                        La Propiedad – Juan Andrés Orrego Acuña                   63
+
+<!-- enlaces:generado sha256:df129016e5c239b0f428573a41087bba1730e289de0743ee58a39a5e52258eb7 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+- [De la Responsabilidad Precontractual](De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/La%20Propiedad.md>

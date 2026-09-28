@@ -38,3 +38,16 @@ Mecanismo objetivo de desvinculación fundado en razones técnicas, económicas 
 
 **Concordancias Legales:** `[BCN - Código del Trabajo, Art. 161]` `[BCN - Código del Trabajo, Art. 168]` `[BCN - Ley N° 19.728, Art. 13]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 28.321-2021, Pleno / Unificación de Doctrina, Fecha: 09-09-2022]`
+
+<!-- enlaces:generado sha256:e567eb803a914105c18315239a6c59c7a996627a8705dccbb3db3f4c8a73c22f -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DERECHO DEL TRABAJO — CAPÍTULO I: PRINCIPIOS FORMATIVOS Y PROTECTORES](01_principios_del_derecho_del_trabajo.md) — cita mutua
+- [DERECHO DEL TRABAJO — CAPÍTULO III: TUTELA LABORAL, LEY KARIN Y DAÑO MORAL](03_tutela_laboral_y_dano_moral.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — mismo tema (1 conexiones)
+- [DERECHO DE FAMILIA — CAPÍTULO II: COMPENSACIÓN ECONÓMICA Y ALIMENTOS](../../civil/ramos_pazos_familia/02_compensacion_economica_y_alimentos.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/laboral/gamonal_derecho_del_trabajo/02_contrato_individual_y_despido.md>

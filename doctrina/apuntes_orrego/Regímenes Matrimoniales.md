@@ -9952,3 +9952,17 @@ gananciales y el régimen de sociedad conyugal?
 gananciales y el régimen de separación total de bienes?
 
                    Regímenes Matrimoniales – Juan Andrés Orrego Acuña                171
+
+<!-- enlaces:generado sha256:bd4b5a0e1665c290547706384ce0db388a157c844723455f59b1c82c74847d89 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Contexto Social y estatuto de los migrantes en Chile (Actualizado a marzo 2022 &#8211; Ley](../academia_judicial/MD-15-Contexto-social-y-estatuto-de-los-Migrantes-actualizado-marzo-2022.md) — cita mutua
+- [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
+- [Control judicial del proceso: Case Management](../academia_judicial/14_Control-judicial-del-proceso-Case-Management.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Regímenes%20Matrimoniales.md>

@@ -1884,3 +1884,17 @@ de Alejandro Pérsico Paris y Fernando Castro Sapiains
        Como parte del equipo de Tipográfica,
  trabajaron en este libro: Alejandra González Mege,
   Constanza Valenzuela y Marco Antonio Coloma
+
+<!-- enlaces:generado sha256:641e6fe23772844a4a66c575b462a570c94df755d83f7b4ba13d79e4d0ea5c52 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Clima laboral y calidad de vida](MD-47-CLIMA-LABORAL-Y-CALIDAD-DE-VIDA.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD47-Clima-laboral-y-calidad-de-vida.md>

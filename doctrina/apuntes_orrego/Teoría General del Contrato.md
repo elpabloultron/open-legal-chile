@@ -7316,3 +7316,17 @@ fallecimiento del cedente, artículo 18 del Decreto Ley N° 993).
 d) El plazo extintivo: así, por ejemplo, en la sociedad, el arrendamiento y el comodato.
 
                     Teoría General del Contrato – Juan Andrés Orrego Acuña                141
+
+<!-- enlaces:generado sha256:77cf0bb5ea4a350cd0b7b7ca2a0acf907e387b65f0c924b7e354a993efb46547 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+- [De la Responsabilidad Precontractual](De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Teoría%20General%20del%20Contrato.md>

@@ -32,3 +32,17 @@ Doctrina conforme a la cual el ejercicio de la soberanía nacional reconoce como
 
 **Concordancias Legales:** `[BCN - CPR, Art. 5]` `[Convención Americana sobre Derechos Humanos (Pacto de San José), Art. 1]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 45.120-2017, Fecha: 18-04-2018]` `[CS - Rol N° 31.200-2020, Fecha: 07-09-2021]`
+
+<!-- enlaces:generado sha256:abc9e3d662aa1e75e8ab3ec06d9e1fa908266ecbd5df240272259bfb785a597e -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO I: BASES CONSTITUCIONALES Y PRINCIPIOS](../../administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md) — cita mutua
+- [doctrina48981](../../manuales/doctrina48981.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO I: JURISDICCIÓN, COMPETENCIA Y NOTIFICACIONES](../../procesal/orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md) — cita mutua
+- [Habilitante para juez de juzgado de garantía y tribunal de juicio oral en lo penal](../../academia_judicial/08_Habilitante-Penal.md) — cita mutua
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO I: MODELOS Y ESTRUCTURA GENERAL](../../civil/barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md>

@@ -3210,3 +3210,17 @@ cosas de poca monta o módico valor.
              ______________________******_____________________
 
                          Los Bienes – Juan Andrés Orrego Acuña                     58
+
+<!-- enlaces:generado sha256:0853d2ee2f6e4f1583f3cf5ff865a053870e355fcf2debdb8d7b0d56ae6cbd46 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+- [De la Responsabilidad Precontractual](De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+- [Sucesorio 7 (de las legítimas)](Sucesorio%207%20de%20las%20legítimas.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Los%20Bienes.md>

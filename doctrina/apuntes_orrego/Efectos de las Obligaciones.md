@@ -7977,3 +7977,17 @@ es el procedimiento aplicable a estas acciones?
                     _________________*****____________________
 
                    Efectos de las obligaciones - Juan Andrés Orrego Acuña       140
+
+<!-- enlaces:generado sha256:718d535b1f350b266aab56b1ed8bb37968bcfc57998b42beae894f236b4ed9d6 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Responsabilidad civil por negligencia médica](../academia_judicial/03_Responsabilidad-civil-por-negligencia-medica.md) — mismo tema (2 conexiones)
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Efectos%20de%20las%20Obligaciones.md>

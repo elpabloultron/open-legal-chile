@@ -34,3 +34,17 @@ La vulneración de la buena fe objetiva del Art. 1546 CC autoriza al demandado a
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 706]` `[BCN - Código Civil, Art. 1546]` `[BCN - Código de Procedimiento Civil, Art. 767]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 27.650-2019, Fecha: 08-01-2020]`
+
+<!-- enlaces:generado sha256:dc786314910a94854f9e4d4ef0a2a034ac2e0aaeeb481a8eab2e42d458ec4805 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [LOS CONTRATOS: PARTE GENERAL — CAPÍTULO II: IMPREVISIÓN, EFECTO RELATIVO E INTERPRETACIÓN](02_imprevision_efecto_relativo_e_interpretacion.md) — cita mutua
+- [TRATADO DE LOS RECURSOS PROCESALES — CAPÍTULO III: CASACIÓN EN LA FORMA, FONDO Y QUEJA](../../procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md) — cita mutua
+- [doctrina48981](../../manuales/doctrina48981.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO IV: EXTINCIÓN DE OBLIGACIONES Y PRELACIÓN DE CRÉDITOS](../ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md) — cita mutua
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO I: MODELOS Y ESTRUCTURA GENERAL](../barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/lopez_santa_maria_contratos/01_principios_contractuales_y_buena_fe.md>

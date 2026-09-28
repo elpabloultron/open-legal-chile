@@ -5992,3 +5992,20 @@ de Gonzalo Andrés Aguilera Chaparro y Héctor Flavio Galleguillos Carmona
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:e73ed196c37d3279341856ebc3f5946c3f537a48ca9726b8fca0d89f44ad0d45 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Peritajes en procedimientos reformados: análisis y valoración](MD-56-PERITAJES-EN-PROCEDIMIENTOS.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia para la conduccion de la audiencia de preparacion de juicio oral 2025](../../corpus_guias_aj/Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD56-Peritajes-en-procedimientos-reformados_-Analisis-y-valoracion.md>

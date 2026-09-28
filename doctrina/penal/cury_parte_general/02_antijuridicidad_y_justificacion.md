@@ -47,3 +47,14 @@ Situación de peligro grave, inminente y no provocado para un bien jurídico tut
 
 **Concordancias Legales:** `[BCN - Código Penal, Art. 10 N° 7]` `[BCN - Código Penal, Art. 10 N° 11]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 16.890-2021, Fecha: 11-08-2022]`
+
+<!-- enlaces:generado sha256:1c62937d0b77ab603de31bbb8d830aacb5abce1e38869d5a3fa2bb1d3fe614b4 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE DERECHO PENAL: PARTE GENERAL — CAPÍTULO I: LEGALIDAD, CONDUCTA Y TIPICIDAD](01_legalidad_conducta_y_tipicidad.md) — cita mutua
+- [TRATADO DE DERECHO PENAL: PARTE GENERAL — CAPÍTULO III: CULPABILIDAD, ITER CRIMINIS Y PART](03_culpabilidad_iter_criminis_y_participacion.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/penal/cury_parte_general/02_antijuridicidad_y_justificacion.md>

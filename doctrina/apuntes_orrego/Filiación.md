@@ -4098,3 +4098,17 @@ de goce, según ya se estudió (art. 250 Nº 2).
              _______________________*****_______________________
 
             La Filiación y la Protección de los Incapaces – Juan Andrés Orrego Acuña   74
+
+<!-- enlaces:generado sha256:4b4d9600bd325efabf31f7c51e212ff36f8c7d75eb1158cc9eea15e04641d009 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Derecho de Alimentos](Derecho%20de%20Alimentos.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Filiación.md>

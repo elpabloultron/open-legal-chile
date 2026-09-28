@@ -35,3 +35,17 @@ La dictación de la **Resolución de Liquidación** produce de pleno derecho el 
 
 **Concordancias Legales:** `[BCN - Ley N° 20.720, Art. 56]` `[BCN - Ley N° 20.720, Art. 57]` `[BCN - Ley N° 20.720, Art. 115]` `[BCN - Ley N° 20.720, Art. 130]` `[BCN - Ley N° 20.720, Art. 255]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 32.180-2019, Fecha: 29-10-2020]`
+
+<!-- enlaces:generado sha256:8163d24d7322b57d2a739f15b79736290ec7b843c1eabc72d5f72428c6282ab6 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [MANUAL DE DERECHO COMERCIAL — CAPÍTULO I: ACTOS DE COMERCIO Y SOCIEDADES (SpA)](01_actos_de_comercio_y_sociedades_capital_spa.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO III: FALTA DE SERVICIO Y DERECHO SANCIONADOR](../../administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md) — mismo tema (1 conexiones)
+- [DE LAS OBLIGACIONES — CAPÍTULO III: DERECHOS AUXILIARES DEL ACREEDOR](../../civil/ramos_pazos_obligaciones/03_derechos_auxiliares_del_acreedor.md) — mismo tema (1 conexiones)
+- [doctrina48981](../../manuales/doctrina48981.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/comercial/sandoval_derecho_comercial/02_titulos_de_credito_y_concursos_ley_20720.md>

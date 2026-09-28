@@ -21,3 +21,17 @@ Depuración de la acusación, exclusión de pruebas ilícitas o sobreabundantes 
 
 El documento íntegro en formato PDF oficial se encuentra disponible en:
 [Guía para la conducción de la audiencia de preparación de juicio oral (APJO)](https://guias.academiajudicial.cl/guias/preparacion_juicio_oral/Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1.pdf)
+
+<!-- enlaces:generado sha256:ce4da0c6702f1e7fcbfbe364ec7bc0abd7fea6a25546d74763f65d63e6ed2bc9 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Guía para audiencias de Responsabilidad Penal Adolescente (RPA)](aj_responsabilidad_penal_adolescente.md) — cita mutua
+- [Guía de Audiencia de Conciliación Laboral](aj_conciliacion_laboral.md) — cita mutua
+- [Guía para la Audiencia de Juicio Oral Laboral](aj_juicio_oral_laboral.md) — cita mutua
+- [Guía de conducción de la primera audiencia en el proceso penal](aj_primera_audiencia_penal.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/aj_apjo_penal.md>

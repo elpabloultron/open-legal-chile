@@ -125,3 +125,13 @@ Al conocer de los recursos de casación en el fondo contra las sentencias defini
 4. [Segundo Tribunal Ambiental de Santiago — Sentencias y Resoluciones] https://tribunalambiental.cl/sentencias/
 5. [Primer Tribunal Ambiental de Antofagasta — Portal Judicial] https://www.portaljudicial1ta.cl/sgc-web/sentencias.html
 6. [Hugging Face — pablobenavidesj/doctrina-jurisprudencia-chile] https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile
+
+<!-- enlaces:generado sha256:f5f023fa398dfd4293d032df63eb62f6ae3f924442b5b9beb94527a00db00d34 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/ambiental/CRITERIOS_JURISPRUDENCIALES_TRIBUNALES_AMBIENTALES.md>

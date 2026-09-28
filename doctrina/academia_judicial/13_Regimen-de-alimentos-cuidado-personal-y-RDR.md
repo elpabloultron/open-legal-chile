@@ -6650,3 +6650,20 @@ en la etapa de ejecución de la relación jurídica
 en el siglo XIX. Encuentros y desencuentros con
                                              la modernidad filosófica”, en Teología y vida (Vol.
                                              56, N° 2), pp. 187-217.
+
+<!-- enlaces:generado sha256:cbbc423192280d182f412976a3bf80520f58b377192a2004d3f21a25ff7ce80d -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Empresa y Derechos Humanos](Empresa-y-DDHH.md) — cita mutua
+- [Convenio 169 de la OIT sobre Pueblos Indígenas](Convenio-169-de-la-OIT-sobre-pueblos-indigenas.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Acceso a la Información Pública y Transparencia](Acceso-a-la-informacion-publica-y-Transparencia.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia procedimiento de proteccion](../../corpus_guias_aj/Guia_procedimiento_de_proteccion_30525.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/13_Regimen-de-alimentos-cuidado-personal-y-RDR.md>

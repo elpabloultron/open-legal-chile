@@ -37,3 +37,17 @@ Para hacer valer judicialmente el Art. 150 CC frente a embargos deducidos por ac
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 150]` `[BCN - Código Civil, Art. 1777]` `[BCN - Código de Procedimiento Civil, Art. 518]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 20.890-2020, Fecha: 24-03-2021]`
+
+<!-- enlaces:generado sha256:74ca5033c0b296323c00f3976b84b51e6fd3a1f8ffff121fe85a727725041205 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DE LAS OBLIGACIONES — CAPÍTULO I: CONCEPTO, ELEMENTOS Y CLASIFICACIONES](../ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — mismo tema (1 conexiones)
+- [DE LAS OBLIGACIONES — CAPÍTULO III: DERECHOS AUXILIARES DEL ACREEDOR](../ramos_pazos_obligaciones/03_derechos_auxiliares_del_acreedor.md) — mismo tema (1 conexiones)
+- [DERECHO DE FAMILIA — CAPÍTULO II: COMPENSACIÓN ECONÓMICA Y ALIMENTOS](02_compensacion_economica_y_alimentos.md) — mismo tema (1 conexiones)
+- [DE LAS OBLIGACIONES — CAPÍTULO IV: EXTINCIÓN DE OBLIGACIONES Y PRELACIÓN DE CRÉDITOS](../ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/ramos_pazos_familia/01_sociedad_conyugal_y_regimenes_patrimoniales.md>

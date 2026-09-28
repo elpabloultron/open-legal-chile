@@ -6765,3 +6765,22 @@ Materiales Docentes                                          Referencias
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:866472d52d315f6731fe18a17435d1031dea52059215884f59dd0b3c464219e7 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD44-Principales-figuras-penales-de-la-Ley-20.000.md) — cita mutua
+- [doctrina48981](../manuales/doctrina48981.md) — cita mutua
+- [Corrupción](MD64-Corrupcion.md) — cita mutua
+- [Clima laboral y calidad de vida](MD-47-CLIMA-LABORAL-Y-CALIDAD-DE-VIDA.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia aplicada para la determinacion de penas](../../corpus_guias_aj/Guia-aplicada-para-la-determinacion-de-penas.md) — la usa como material de apoyo
+- [Guia Procedimiento Simplificado 2025](../../corpus_guias_aj/Guia_Procedimiento_Simplificado_2025_v1.1.md) — la usa como material de apoyo
+- [Guia audiencia ejecucion 2025](../../corpus_guias_aj/Guia_audiencia_ejecucion_2025_v1.1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md>

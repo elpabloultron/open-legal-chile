@@ -46,3 +46,17 @@ Mecanismo de control represivo y concreto encomendado en forma exclusiva al Trib
 
 **Concordancias Legales:** `[BCN - CPR, Art. 93 N° 6]` `[BCN - CPR, Art. 93 N° 7]` `[BCN - Ley N° 17.997 Orgánica Constitucional del Tribunal Constitucional, Art. 79]`  
 **Criterio Jurisprudencial Rector:** `[STC - Rol N° 1.518-2009, Fecha: 21-01-2010]` `[STC - Rol N° 3.245-2016, Fecha: 15-12-2016]`
+
+<!-- enlaces:generado sha256:1db94052ef9e95513132c844e48a7ee66b6e289a0b60e4ba61d9d66772ac3b0b -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DERECHO ADMINISTRATIVO: BASES FUNDAMENTALES — CAPÍTULO I: JURIDICIDAD Y NULIDAD DE DERECHO](../../administrativo/soto_kloss_bases/01_principio_de_juridicidad_y_nulidad_derecho_publico.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO II: DERECHOS FUNDAMENTALES Y ORDEN PÚBLICO ECONÓ](02_derechos_fundamentales_y_orden_economico.md) — cita mutua
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO IV: DAÑO, CAUSALIDAD Y PRESCRIPCIÓN](../../civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/constitucional/cea_derecho_constitucional/03_recurso_de_proteccion_y_justicia_constitucional.md>

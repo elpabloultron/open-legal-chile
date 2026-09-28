@@ -323,3 +323,17 @@ prescribe en dosis mayores o menores que las necesarias.
       que sufre un pianista).
 
                  _____________________****_____________________
+
+<!-- enlaces:generado sha256:9f3006c340fb7643ae420119034c2e15df9354821437e34a989d0a85889afdba -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+- [De la Responsabilidad Precontractual](De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/De%20la%20Responsabilidad%20de%20los%20Profesionales%20en%20General%20y%20de%20los%20Médicos%20en%20Particular.md>

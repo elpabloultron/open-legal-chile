@@ -2691,3 +2691,17 @@ de Claudia Poblete Olmedo y Guillermo Soto Vergara
       Como parte del equipo de Tipográfica,
       trabajaron en este libro: Daniela Rogel,
   Constanza Valenzuela y Marco Antonio Coloma
+
+<!-- enlaces:generado sha256:7d7d9be016062fd5d2dfda17b84ad06d44d348bbe3b24432373057ddde14ce38 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [doctrina48981](../manuales/doctrina48981.md) — cita mutua
+- [Terrorismo](MD-58-TERRORISMO.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD59-Lenguaje-claro.md>

@@ -12605,3 +12605,17 @@ Recoleta y otro (2015): Corte de Apelaciones de          diciembre de 2016;
 ción de Desarrollo Social de Providencia y otro        90. Zorín S.A. con Compañía Siderúrgica Huachipa-
                                             (2018): Corte Suprema, 27 de junio de 2018, Rol            to S.A. (2012): Corte Suprema, 31 de octubre de
                                             N° 38145-2017;                                             2012, Rol N° 3325-2012.
+
+<!-- enlaces:generado sha256:728ca5bbd51bd28a93f6e448094cc087442cb00a5bcad351c4679d254c0a04d0 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelacion](12_Gobierno-Judicial.md) — cita mutua
+- [Cortes de Apelaciones: nociones básicas de organización y funcionamiento](04_Corte-de-Apelaciones-nociones-basicas-de-org.-y-funcionamiento.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/03_Responsabilidad-civil-por-negligencia-medica.md>

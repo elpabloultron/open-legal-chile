@@ -1145,3 +1145,17 @@ con vínculo matrimonial vigente, el Servicio de Registro Civil e Identificació
         Se explica la sustitución, pues si quien recurre al procedimiento de rectificación fuere
 una persona casada, quiere decir que es mayor de edad, caso en el cual el procedimiento ya
 no es judicial sino administrativo.
+
+<!-- enlaces:generado sha256:393b2a46fd9cef22e75843f1a878e85cc582a016c4f804c823fc930d1fe48586 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+- [De la Responsabilidad Precontractual](De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Comentarios%20Ley%2021400%20y%20la%20Ley%2021515.md>

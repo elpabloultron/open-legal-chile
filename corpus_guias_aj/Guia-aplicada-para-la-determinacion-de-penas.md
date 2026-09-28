@@ -5735,3 +5735,22 @@ sanción original hubiese sido de 4 años de Libertad Asistida Especial con Inte
 Parcial.
 
 © 2026 Academia Judicial
+
+<!-- enlaces:generado sha256:2c1df81f643a240cf64077aec2dbb091bc5c122dd76820350310219f2c214bd2 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD44-Principales-figuras-penales-de-la-Ley-20.000.md)
+- [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md)
+- [Determinación, aplicación y ejecución de penas](../doctrina/academia_judicial/MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md)
+- [Responsabilidad penal adolescente](../doctrina/academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md)
+- [Manual psicosociolegal sobre abuso sexual infantil](../doctrina/academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia-aplicada-para-la-determinacion-de-penas.md>

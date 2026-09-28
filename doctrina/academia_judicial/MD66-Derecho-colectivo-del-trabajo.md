@@ -5300,3 +5300,17 @@ trabajaron en este libro: Sandra Sanhueza, Alejandra González Mege,
 
 Academia Judicial de Chile   Obligaciones estatales contra la tortura
 Materiales Docentes                                     Referencias
+
+<!-- enlaces:generado sha256:4ab8af56f4a707c73b6c37f70b127ab1f17779fbe90077a9c360945e4dd50c6b -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Regulación nacional y convención internacional sobre personas con discapacidad](11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md) — cita mutua
+- [Manual psicosociolegal sobre abuso sexual infantil](MD-48-ABUSO-SEXUAL-INFANTL.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD66-Derecho-colectivo-del-trabajo.md>

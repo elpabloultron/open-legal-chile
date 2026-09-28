@@ -8176,3 +8176,17 @@ Materiales Docentes                                             Referencias
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:62218e90f7250e1f1cfa9d8670fbe27b568c98b853a0f88e954a0b9502bdac33 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Regulación nacional y convención internacional sobre personas con discapacidad](11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md) — cita mutua
+- [Manual psicosociolegal sobre abuso sexual infantil](MD-48-ABUSO-SEXUAL-INFANTL.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD62-Derechos-de-las-personas-mayores.md>

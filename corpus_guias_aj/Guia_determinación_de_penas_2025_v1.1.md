@@ -4692,3 +4692,22 @@ de enero de 2022, en relación con la 2ª oración del artículo 2 b) inc. 2°, 
                                  respecto la sentencia del Tribunal de Juicio Oral en lo Penal de Rancagua, RIT 490-2022, 07 de junio de 2024,
                                  en relación con las dificultades interpretativas de los respectivos preceptos penales, antes y después de la
                                  ley N° 21.412, incluyendo consideraciones de antijuridicidad material.
+
+<!-- enlaces:generado sha256:5263f365038d70be962dd5602f43c0ebbda4d35595df39e2e70dc51dbc5c4bd5 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Juzgados de Garantía: nociones básicas de organización y funcionamiento](../doctrina/academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md)
+- [Guía para audiencias de Responsabilidad Penal Adolescente (RPA)](../doctrina/academia_judicial/aj_responsabilidad_penal_adolescente.md)
+- [Responsabilidad penal adolescente](../doctrina/academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md)
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](../doctrina/academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md)
+- [Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales](../doctrina/academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_determinación_de_penas_2025_v1.1.md>

@@ -1537,3 +1537,17 @@ caso.
 caso.
 
                    Las Acciones Protectoras – Juan Andrés Orrego Acuña            28
+
+<!-- enlaces:generado sha256:e6dfbfae7244b9a074c3f1074937b4f85c2d389a3c987c87795b71e074ec4f71 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Ley 19537-Copropiedad Inmobiliaria](Ley%2019537-Copropiedad%20Inmobiliaria.md) — cita mutua
+- [Regímenes Matrimoniales](Regímenes%20Matrimoniales.md) — cita mutua
+- [Teoría General del Contrato](Teoría%20General%20del%20Contrato.md) — cita mutua
+- [La Familia y el Matrimonio](La%20Familia%20y%20el%20Matrimonio.md) — cita mutua
+- [Contrato de compraventa](Contrato%20de%20compraventa.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Acciones%20Protectoras.md>

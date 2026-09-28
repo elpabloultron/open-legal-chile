@@ -10906,3 +10906,17 @@ Bibliografia
 
 INDICE.
 Sdiesrid GhJovise
+
+<!-- enlaces:generado sha256:2b52037c1483aa83bf97f0647fe33b40885fed062549cbca92c077d50247aa7b -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [doctrina48981](doctrina48981.md) — cita mutua
+- [Habilitante para juez de juzgado de garantía y tribunal de juicio oral en lo penal](../academia_judicial/08_Habilitante-Penal.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](../academia_judicial/MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Terrorismo](../academia_judicial/MD-58-TERRORISMO.md) — cita mutua
+- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/manuales/Derecho-Procesal-profesora-Cerra.md>

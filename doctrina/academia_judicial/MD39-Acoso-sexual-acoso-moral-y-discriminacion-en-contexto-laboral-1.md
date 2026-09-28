@@ -4192,3 +4192,16 @@ Materiales Docentes                                                Referencias
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:4b3f79852842231944c8e3e13f286db70d9b75a22214b1a490e5434029f344c1 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Audiencia Preparatoria](../../corpus_guias_aj/Guia_Audiencia_Preparatoria-v1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD39-Acoso-sexual-acoso-moral-y-discriminacion-en-contexto-laboral-1.md>

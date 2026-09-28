@@ -6377,3 +6377,17 @@ Yamin, Alicia E., Oscar Parra Vera y Camila Gianella (2013). «Colombia:
             Como parte del equipo de Tipográfica,
          trabajaron en este libro: Gabriela Villanueva,
 Daniela Rogel, Constanza Valenzuela y Marco Antonio Coloma
+
+<!-- enlaces:generado sha256:e3878dbde0ccb542c74b4c1776acf30ac850478fac6a4943f89e1103a56d2f1f -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Derechos económicos, sociales y culturales](MD-53-DERECHOS-ECONOMICOS-SOCIALES-Y-CULTURALES.md) — cita mutua
+- [Introducción a los Derechos Humanos](MD38-Introduccion-a-los-derechos-humanos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [doctrina48981](../manuales/doctrina48981.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD53-Derechos-economicos-sociales-y-culturales.md>

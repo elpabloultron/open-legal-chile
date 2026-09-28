@@ -3441,3 +3441,17 @@ voluntad del testador fue extinguir la deuda147.
    Manuel Somarriva Undurraga, Derecho Sucesorio, ob. cit., p. 322.
    Pablo Rodríguez Grez, Instituciones de Derecho Sucesorio. Pérdida, defensa y pago de las asignaciones.
 Ejecutores testamentarios. Partición, Santiago de Chile, Editorial Jurídica de Chile, 1994, Volumen 1, p. 194.
+
+<!-- enlaces:generado sha256:cc8a4f39c7bd620fdf0cd0be3d3320e3de46bb2f56e6371dd90ea265e9d0a806 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [La Prenda sin Dezplazamiento de la Ley 20190](La%20Prenda%20sin%20Dezplazamiento%20de%20la%20Ley%2020190.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Contrato%20de%20prenda.md>

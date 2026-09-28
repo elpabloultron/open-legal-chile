@@ -4530,3 +4530,17 @@ nociones básicas                           y Presidencia
                                           — En algunas Cortes, se considera también la verificación de que
                                             cada sala cuente con la dotación necesaria de ministros, apoyando
                                             en la planificación de la integración de las mismas.
+
+<!-- enlaces:generado sha256:1760936dd0aa10341821f3ad34a7f257b31278ad98b32075030b6ecd95347a00 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelacion](12_Gobierno-Judicial.md) — cita mutua
+- [Responsabilidad civil por negligencia médica](03_Responsabilidad-civil-por-negligencia-medica.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/04_Corte-de-Apelaciones-nociones-basicas-de-org.-y-funcionamiento.md>

@@ -4752,3 +4752,17 @@ adjudica el inmueble gravado a falta de posturas admisibles? Fundamente su
 respuesta.
 
                       Contrato de hipoteca – Juan Andrés Orrego Acuña                  84
+
+<!-- enlaces:generado sha256:7adc9b48d2e5446d3f0318c8a2416fbcd6be35e66e5b0f8067605dd676c3c2a8 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [La Tradición](La%20Tradición.md) — cita mutua
+- [Teoría de la Prueba](Teoría%20de%20la%20Prueba.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Contrato%20de%20Hipoteca.md>

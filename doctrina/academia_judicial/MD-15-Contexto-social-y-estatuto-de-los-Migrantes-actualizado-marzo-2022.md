@@ -4510,3 +4510,17 @@ origen (derecha) de los migrantes internacionales en 2019 (en millo-       6.   
      2019, cantidad por país.                                                        nómicos.                                                                  de justicia chilenos.
 6.   Figura No. 6. Población de migrantes internacionales a mediado de          8.   Tabla No. 8. Principales disposiciones internacionales que regulan    31. Tabla No. 31. Distribución de casos que aplican la CDN, de acuerdo
      2019, cantidad por región.                                                      la movilidad humana.                                                      con la causal legal que funda la medida de expulsión, período 20137.   Figura No. 7. Número de refugiados de los cinco principales países         9.   Tabla No. 9. Principales disposiciones internacionales que regulan        18.
+
+<!-- enlaces:generado sha256:b18489a7fdbdde92eca6540a74bcb523a95b5998494c9fe04d7f55953d8d60c7 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Control judicial del proceso: Case Management](14_Control-judicial-del-proceso-Case-Management.md) — cita mutua
+- [Regímenes Matrimoniales](../apuntes_orrego/Regímenes%20Matrimoniales.md) — cita mutua
+- [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](../apuntes_orrego/Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
+- [Acciones Protectoras](../apuntes_orrego/Acciones%20Protectoras.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD-15-Contexto-social-y-estatuto-de-los-Migrantes-actualizado-marzo-2022.md>

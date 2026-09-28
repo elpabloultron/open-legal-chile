@@ -9301,3 +9301,22 @@ adolescente condenado
                                           de adultos.
 
                                         › Las resoluciones adoptadas (todas) son apelables.
+
+<!-- enlaces:generado sha256:3dcd1c1e0e441c5d8a5f06affea05fa2b7fb2a6d385bb34b2bcbcd285ee3d7e3 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Responsabilidad penal adolescente](../doctrina/academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md)
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md)
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_para_la_conduccion_de_las_Audiencias_de_Casos_de_Responsabilidad_Penal_Adolecente_202.md>

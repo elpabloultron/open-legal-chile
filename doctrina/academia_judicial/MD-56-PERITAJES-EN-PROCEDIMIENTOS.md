@@ -5992,3 +5992,17 @@ de Gonzalo Andrés Aguilera Chaparro y Héctor Flavio Galleguillos Carmona
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:cd36abe3bfcc98b958e1a77fc5e7cbb45f3c4a41446c10dfe0835cb67da248f5 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Peritajes en procedimientos reformados: análisis y valoración](MD56-Peritajes-en-procedimientos-reformados_-Analisis-y-valoracion.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Regulación nacional y convención internacional sobre personas con discapacidad](11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD-56-PERITAJES-EN-PROCEDIMIENTOS.md>

@@ -3810,3 +3810,22 @@ Wilenmann, Javier (2014). «El fundamento del estado de necesidad jus-
          Como parte del equipo de Tipográfica,
       trabajaron en este libro: Ana María Moraga,
      Constanza Valenzuela y Marco Antonio Coloma
+
+<!-- enlaces:generado sha256:cc1f241f13d52318e7e131e110f1db9638a0f2268fe0c58bf5912ca3756752d6 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Uso de la fuerza por funcionarios estatales: Límites y excesos](MD-59-USO-DE-LA-FUERZA.md) — cita mutua
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Procedimiento Abreviado 2025](../../corpus_guias_aj/Guia_Procedimiento_Abreviado_2025_v1.1.md) — la usa como material de apoyo
+- [Guia audiencia sobreseimineto DNP cautela solicitud diligencias 2025 V](../../corpus_guias_aj/Guia_audiencia_sobreseimineto_DNP_cautela_solicitud_diligencias_2025_V1.1.md) — la usa como material de apoyo
+- [Guia conduccion primera audiencia proceso penal V](../../corpus_guias_aj/Guia_conduccion_primera_audiencia_proceso_penal_V2.1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md>

@@ -2065,3 +2065,22 @@ Suprema que nos proporcionó el formato de la sentencia.
                                   Regístrese quedan los intervinientes notificados.
 
                                   Téngase presente la renuncia de los plazos.
+
+<!-- enlaces:generado sha256:388b11f2b068e15f37eca445a10ee53b1dc66826f377fce6cc7207596fad940d -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Juzgados de Garantía: nociones básicas de organización y funcionamiento](../doctrina/academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md)
+- [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md)
+- [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD-59-USO-DE-LA-FUERZA.md)
+- [Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales](../doctrina/academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md)
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_Procedimiento_Abreviado_2025_v1.1.md>

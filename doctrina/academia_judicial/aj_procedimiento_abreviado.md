@@ -21,3 +21,17 @@ Presupuestos de procedencia (Art. 406 CPP), consentimiento informado del imputad
 
 El documento íntegro en formato PDF oficial se encuentra disponible en:
 [Guía de Procedimiento Abreviado en Juzgados de Garantía](https://guias.academiajudicial.cl/guias/juzgados_de_garantia/Guia_Procedimiento_Abreviado_2025_v1.1.pdf)
+
+<!-- enlaces:generado sha256:9219bb9ae0eb01a7bd5c271360722fce1d8e3bf03d3fd9c0b7e4088537c6f0b4 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Guía para audiencias de Responsabilidad Penal Adolescente (RPA)](aj_responsabilidad_penal_adolescente.md) — cita mutua
+- [Guía de Audiencia de Conciliación Laboral](aj_conciliacion_laboral.md) — cita mutua
+- [Guía para la Audiencia de Juicio Oral Laboral](aj_juicio_oral_laboral.md) — cita mutua
+- [Guía de conducción de la primera audiencia en el proceso penal](aj_primera_audiencia_penal.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/aj_procedimiento_abreviado.md>

@@ -2532,3 +2532,22 @@ judicial
 
                                          › Sitio de Ética Judicial del Poder Judicial chileno: https://www.pjud.cl/post/
                                            etica-judicial-cs
+
+<!-- enlaces:generado sha256:72a46eb28dba6514c9490b97ecbd2a5d85823b13fd9127ef3f1929f647f7831a -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO I: BASES CONSTITUCIONALES Y PRINCIPIOS](../doctrina/administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md)
+- [Derecho Procesal Orgánico y Funcional](../doctrina/academia_judicial/Derecho-procesal-organico-y-funcional.md)
+- [Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelacion](../doctrina/academia_judicial/12_Gobierno-Judicial.md)
+- [Derecho Procesal Orgánico y Funcional](../doctrina/academia_judicial/07_DERECHO-PROCESAL_03.md)
+- [Atención de usuarios en situaciones complejas y de vulnerabilidad](../doctrina/academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_Etica_10jul_2026.md>

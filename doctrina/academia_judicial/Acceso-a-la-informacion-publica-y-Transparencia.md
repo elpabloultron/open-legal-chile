@@ -8104,3 +8104,17 @@ nos. Resolución 1/2018: Corrupción y Derechos       17.   República de El Sal
 mala de 1985. Reformada por Acuerdo Legislativo           de la justicia abierta en los poderes, órganos y
                                                            Nº 18-93 del 17 de noviembre de 1993.
                                                                                                                      organismos judiciales iberoamericanos.
+
+<!-- enlaces:generado sha256:56a73e4912a1eebbda05c455b052c7ed1f629d61535294759558f70bd2e3474e -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Convenio 169 de la OIT sobre Pueblos Indígenas](Convenio-169-de-la-OIT-sobre-pueblos-indigenas.md) — cita mutua
+- [Régimen de alimentos, cuidado personal y relación directa y regular aplicado a la decisión](13_Regimen-de-alimentos-cuidado-personal-y-RDR.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/Acceso-a-la-informacion-publica-y-Transparencia.md>

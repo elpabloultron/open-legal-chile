@@ -32,3 +32,17 @@ Recurso ordinario que se interpone ante el mismo tribunal que dictó una resoluc
 
 **Concordancias Legales:** `[BCN - Código de Procedimiento Civil, Art. 181]` `[BCN - Código de Procedimiento Civil, Art. 182]` `[BCN - Código de Procedimiento Civil, Art. 189]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 29.410-2020, Fecha: 08-09-2021]`
+
+<!-- enlaces:generado sha256:cb2ad7281de2ec2b7a52b9c198cdea014a2268ec4a87405690d97c3fb409b35d -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE LOS RECURSOS PROCESALES — CAPÍTULO II: EL RECURSO DE APELACIÓN](02_recurso_de_apelacion.md) — cita mutua
+- [TRATADO DE LOS RECURSOS PROCESALES — CAPÍTULO III: CASACIÓN EN LA FORMA, FONDO Y QUEJA](03_recursos_de_casacion_forma_y_fondo.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO I: JURISDICCIÓN, COMPETENCIA Y NOTIFICACIONES](../orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](../../civil/penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/procesal/maturana_mosquera_recursos/01_teoria_general_y_reposicion.md>

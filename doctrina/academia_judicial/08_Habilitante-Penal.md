@@ -19116,3 +19116,17 @@ triunfal del procedimiento penal americano en el mundo?)”. Cuadernos del
 derechos humanos”. Disponible en: http://www.derechoshumanos.udp.cl/
                                              derechoshumanos/images/InformeAnual/2007/Cap%2006%20Responsa-
                                              bilidad%20penal%20juvenil%20y%20DDHH.pdf.
+
+<!-- enlaces:generado sha256:7f82cc05ea286b864bf80b2b1f3bd67e8a10e21068a2b125bddf5491c634f72f -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [doctrina48981](../manuales/doctrina48981.md) — cita mutua
+- [Derecho Procesal — Apuntes de la profesora Cerra](../manuales/Derecho-Procesal-profesora-Cerra.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](../constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
+- [Guía para audiencias de Responsabilidad Penal Adolescente (RPA)](aj_responsabilidad_penal_adolescente.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/08_Habilitante-Penal.md>

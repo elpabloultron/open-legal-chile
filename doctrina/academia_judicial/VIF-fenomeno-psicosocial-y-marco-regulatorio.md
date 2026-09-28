@@ -9847,3 +9847,20 @@ sobre discapacidad de la página https://www.incluyeme.com/10-mitos-sobre-la-dis
                                                               de la perspectiva de género realizada en etapas anteriores del proceso judicial
 
 ←   Índice de contenidos
+
+<!-- enlaces:generado sha256:184a51d79135f0b39a13ec1ca60a8182dd7d925a3da676e034d0940bcfadba63 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [doctrina48981](../manuales/doctrina48981.md) — cita mutua
+- [Convenio 169 de la OIT sobre Pueblos Indígenas](Convenio-169-de-la-OIT-sobre-pueblos-indigenas.md) — cita mutua
+- [Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelacion](12_Gobierno-Judicial.md) — cita mutua
+- [Debido Proceso](MD65-Debido-Proceso.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia determinación de penas 2025](../../corpus_guias_aj/Guia_determinación_de_penas_2025_v1.1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md>
