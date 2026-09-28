@@ -76,7 +76,9 @@ use el MCP de Open Legal Chile responde así:
 
 1. **Hugging Face primero.** Ante cualquier consulta jurídica, el primer paso es `consulta_maestra`
    (o, en su defecto, `huggingface_search_dataset`): el corpus publicado es la base citable. No se
-   responde de memoria del modelo, ni siquiera cuando «ya se sabe» la respuesta.
+   responde de memoria del modelo, ni siquiera cuando «ya se sabe» la respuesta. Si la materia es
+   ambiental —SMA/SNIFA, SEIA/RCA, daño ambiental, humedales, tribunales ambientales—, el primer
+   paso es `ambiental_consulta_maestra` (§2 quinquies).
 2. **Fuente oficial después.** Norma (BCN), dictamen (DT/CGR/SII/CMF), fallo (PJUD/TC/ambientales) o
    guía (Academia Judicial) según la materia.
 3. **Cada cita viaja con su texto literal.** Antes de citar `[BCN - Código Civil, Art. 1545]` se llamó
@@ -89,6 +91,16 @@ use el MCP de Open Legal Chile responde así:
 `consulta_maestra` devuelve `citas[]` con `formato`, `texto` y `url`, y además `faltantes[]` (lo que
 no se pudo traer). Si algo aparece en `faltantes`, se declara en la respuesta; no se rellena solo.
 
+### 2 quinquies. Módulo especial de derecho ambiental
+
+Cuando la consulta o el caso es de materia ambiental, el primer paso es `ambiental_consulta_maestra`
+(herramienta 58). Consulta en una sola llamada las 886 sentencias de los Tribunales Ambientales
+(1TA, 2TA, 3TA), los anuarios y boletines 2TA/3TA, la biblioteca ambiental (libros del Concurso
+Nacional de Comentarios de Sentencias, informes en derecho, foros, manuales y material docente) y la
+doctrina ambiental; devuelve el plan, los resultados con texto literal y las citas
+`[Hugging Face - <archivo>]`. Con `incluir_subgrafo=true` añade el subgrafo de LegalGraphify con su
+ahorro de tokens. Si el corpus no cubre algo, aparece en `faltantes[]` y se declara, no se rellena.
+
 ---
 
 ## 3 bis. Cómo se pide en lenguaje natural (mesa de entrada)
@@ -99,9 +111,10 @@ No hace falta nombrar una herramienta ni escribir un comando: se pide como se le
 |---|---|
 | «¿Podés analizar esta carpeta?» · «Analizame el caso de Ailin» · «¿Por dónde empiezo con esto?» | Se llama `caso_analizar`, que devuelve el plan: materia, fuero, herramientas en orden y lo que falta |
 | «Dale, ejecutá» · «Buscá las fuentes» · «Traeme lo que encuentres» | Se llama `caso_ejecutar` sobre ese plan |
+| «Es un caso ambiental» · «Mirá la sanción de la SMA» · «¿Qué dijo el Tribunal Ambiental?» | Se llama el módulo `ambiental_consulta_maestra`: sentencias TA, anuarios, boletines, biblioteca ambiental y doctrina, con texto literal |
 
 El agente **debe** usar `caso_analizar` ante esos pedidos, aunque la persona no nombre ninguna
-herramienta: así el trabajo no depende de que el modelo elija bien entre 71 herramientas. Y cuando
+herramienta: así el trabajo no depende de que el modelo elija bien entre 87 herramientas. Y cuando
 la mesa dice que falta algo (el Rol/RIT, las fechas, el RUT), eso se le pide a la persona **antes**
 de ejecutar: no se completa por deducción.
 
@@ -110,7 +123,7 @@ ClaveÚnica y captcha: la suite no automatiza el acceso a un sistema con credenc
 mesa lo dice en sus advertencias y no expone ninguna herramienta que prometa lo contrario.
 
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 86 official tools over 16 forensic, state, doctrinal and agentic connectors:
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`) — 87 official tools over 16 forensic, state, doctrinal and agentic connectors:
 
 **BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).
@@ -136,7 +149,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 17. `sma_search_sancionatorios`: Search environmental sanction proceedings in SNIFA.
 18. `tdlc_search_jurisprudencia`: Search antitrust rulings from the TDLC.
 19. `tdlc_buscar_icg_y_dictamenes`: Search TDLC non-contentious opinions and general instructions.
-20. `ambiental_buscar_jurisprudencia`: Search environmental tribunal jurisprudence (1TA, 2TA, 3TA).
+20. `ambiental_buscar_jurisprudencia`: Search environmental tribunal jurisprudence (1TA, 2TA, 3TA). Para el corpus ambiental completo —anuarios, boletines, informes en derecho, libros del concurso y foros—, usá el módulo `ambiental_consulta_maestra` (ítem 58).
 
 **Judicial & Forensic Extraction:**
 21. `pjud_search_jurisprudencia`: Search rulings of the Supreme Court and Constitutional Court (TC).
@@ -184,6 +197,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 55. `critique_documento`: auditoría forense de un borrador (5 dimensiones).
 56. `generar_documento`: escrito completo con plantilla chilena, entregado en Word (.docx editable).
 57. `entrevista_estudio`: entrevista de arranque del despacho sin consola (guarda el perfil de práctica).
+58. `ambiental_consulta_maestra`: el módulo especial de derecho ambiental (§2 quinquies). Reúne las 886 sentencias de los Tribunales Ambientales, los anuarios y boletines 2TA/3TA, la biblioteca ambiental (libros del Concurso Nacional de Comentarios de Sentencias, informes en derecho, foros, manuales y material docente) y la doctrina ambiental; devuelve plan, resultados con texto literal y citas `[Hugging Face - <archivo>]`. Con `incluir_subgrafo=true` añade el subgrafo de LegalGraphify con su ahorro de tokens.
 
 ---
 

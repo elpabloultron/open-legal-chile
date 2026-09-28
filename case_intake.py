@@ -75,7 +75,7 @@ INSTITUCIONES: Dict[str, Dict[str, Any]] = {
     "SMA": {
         "claves": ("sma", "superintendencia del medio ambiente", "snifa", "rca",
                    "sanción ambiental", "seia", "eia", "dia"),
-        "herramientas": ["sma_search_sancionatorios", "ambiental_buscar_jurisprudencia"],
+        "herramientas": ["ambiental_consulta_maestra", "sma_search_sancionatorios", "ambiental_buscar_jurisprudencia"],
         "etiqueta": "Superintendencia del Medio Ambiente",
     },
     "TDLC": {
@@ -158,7 +158,7 @@ MATERIAS: List[Dict[str, Any]] = [
         "fuero": "Tribunal Ambiental · SMA",
         "claves": ("ambiental", "seia", "rca", "sma", "snifa", "medio ambiente", "eia", "dia",
                    "sanción ambiental", "sancion ambiental", "programa de cumplimiento"),
-        "herramientas": ["sma_search_sancionatorios", "ambiental_buscar_jurisprudencia"],
+        "herramientas": ["ambiental_consulta_maestra", "sma_search_sancionatorios", "ambiental_buscar_jurisprudencia"],
         "argumentos": {},
     },
     {
@@ -274,7 +274,7 @@ HERRAMIENTAS_DE_BUSQUEDA = (
     "pjud_search_jurisprudencia", "cgr_search_jurisprudencia", "cgr_search_auditorias",
     "dt_search_doctrina", "cmf_search_normativa", "sii_search_circulares",
     "sii_buscar_resoluciones_y_oficios", "tdlc_search_jurisprudencia",
-    "tdlc_buscar_icg_y_dictamenes", "ambiental_buscar_jurisprudencia",
+    "tdlc_buscar_icg_y_dictamenes", "ambiental_consulta_maestra", "ambiental_buscar_jurisprudencia",
     "sma_search_sancionatorios", "panel_expertos_search", "doctrina_search",
 )
 

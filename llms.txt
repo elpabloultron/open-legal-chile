@@ -1,7 +1,8 @@
 # Open Legal Chile — corpus jurídico chileno en Markdown
 > Doctrina íntegra (228 documentos), guías oficiales de la Academia Judicial (24),
 > fichas dogmáticas densas (11,858), jurisprudencia (74,385 registros de los Tribunales
-> Ambientales, Corte Suprema y Tribunal Constitucional) y un grafo de conocimiento con
+> Ambientales, Corte Suprema y Tribunal Constitucional), publicaciones ambientales y
+> biblioteca de derecho ambiental (165 documentos) y un grafo de conocimiento con
 > reducción masiva de tokens.
 
 ## Para agentes y LLM
@@ -12,6 +13,8 @@
 - Grafo (nodos y relaciones con archivo de origen): `data/legal_knowledge_graph.json`
 - Texto íntegro de cada obra: `doctrina/<ruta>.md` · Guías: `guias_academia_judicial/<ruta>.md`
 - Jurisprudencia: `data/jurisprudencia/*.jsonl` (ambiental, Corte Suprema, Tribunal Constitucional)
+- Publicaciones ambientales: `publicaciones_ambientales/*.md` (78: anuarios y boletines 2TA/3TA)
+- Biblioteca ambiental: `biblioteca_ambiental/*.md` (87: libros del Concurso Nacional de Comentarios de Sentencias, informes en derecho, foros, manuales y material docente)
 
 ## Formato de cita
 - Conversación: primero la respuesta y, al final, la lista de fuentes.

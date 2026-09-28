@@ -586,12 +586,13 @@ Ejemplos de uso:
   openlegal guias "..."       -> Consulta las guías de formación de la Academia Judicial
   openlegal stats             -> Muestra estadísticas globales de adopción (PyPI/GitHub)
   openlegal update            -> Comprueba y ejecuta la auto-actualización de la Suite
+  openlegal ambiental "..."   -> Módulo especial de derecho ambiental (sentencias, anuarios, boletines y biblioteca)
   openlegal graph "..."       -> Consulta el Knowledge Graph (LegalGraphify) con ahorro mediano de tokens del 99,9 %
   openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (17 perfiles)
   openlegal integrar         -> Muestra y escribe la configuración MCP de tu harness (--escribir)
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -599,6 +600,7 @@ Ejemplos de uso:
     parser.add_argument("--escribir", action="store_true", help="Con 'integrar': escribe la configuración del harness (con respaldo)")
     parser.add_argument("--todos", action="store_true", help="Con 'integrar': configura todos los harness detectados en la máquina")
     parser.add_argument("--json", action="store_true", help="Con 'instalar': salida legible por máquinas")
+    parser.add_argument("--grafo", action="store_true", help="Con 'ambiental': añade el subgrafo de LegalGraphify con su ahorro de tokens (la primera consulta carga su índice)")
     args = parser.parse_args()
 
     if args.comando == "mcp":
@@ -1074,6 +1076,31 @@ Ejemplos de uso:
             print(f"[{idx+1}] 📘 {g.get('titulo')} [{g.get('materia')}]")
             print(f"  📄 {g.get('descripcion')}")
             print(f"  🔗 PDF: {g.get('url_pdf')}\n")
+
+    elif args.comando == "ambiental":
+        from modulo_ambiental import consulta_ambiental
+        print_banner()
+        q = " ".join(args.query) if args.query else ""
+        if not q:
+            print("⚠️ Uso: openlegal ambiental \"<consulta>\" [--grafo]")
+            return 1
+        res = consulta_ambiental(q, limite=8, incluir_subgrafo=bool(args.grafo))
+        print(f"🌿 MÓDULO DE DERECHO AMBIENTAL: '{res['consulta']}'")
+        print(f"Materia ambiental: {'sí' if res['materia_ambiental'] else 'no'} · resultados: {len(res['resultados'])}")
+        print("-" * 65)
+        for r in res["resultados"]:
+            print(f"\n[{r.get('tipo', '')}] {r['titulo'][:100]}")
+            print(f"  {r['cita']} {r['enlace']}")
+            if r.get("fragmento"):
+                print(f"  «{r['fragmento'][:240]}»")
+        if res.get("subgrafo"):
+            m = (res["subgrafo"] or {}).get("metricas_tokens") or {}
+            if m:
+                print(f"\nSubgrafo: ahorro {m.get('porcentaje_ahorro', '?')} % · factor {m.get('factor_reduccion', '?')}"
+                      f" ({m.get('tokens_subgrafo', '?')} vs {m.get('tokens_texto_completo', '?')} tokens)")
+        if res.get("faltantes"):
+            print(f"Faltantes: {', '.join(res['faltantes'])}")
+        print()
 
     elif args.comando == "stats":
         from stats_tracker import get_suite_adoption_metrics

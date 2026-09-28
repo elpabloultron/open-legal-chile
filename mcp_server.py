@@ -895,6 +895,19 @@ TOOLS = [
         }
     },
     {
+        "name": "ambiental_consulta_maestra",
+        "description": "Módulo especial de derecho ambiental: PRIMERA consulta cuando la consulta o el caso es de materia ambiental (SMA, SEIA/RCA, daño ambiental, tribunales ambientales, humedales, LO-SMA). Busca en un solo paso entre las 886 sentencias de los Tribunales Ambientales, los anuarios y boletines 2TA/3TA, la biblioteca ambiental (libros del Concurso Nacional de Comentarios de Sentencias, informes en derecho, foros, manuales y material docente) y la doctrina ambiental; devuelve el plan, los resultados con texto literal y las citas [Hugging Face - <archivo>]. Con incluir_subgrafo=true añade el subgrafo de LegalGraphify y su ahorro de tokens.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "consulta": {"type": "string", "description": "Consulta o caso de materia ambiental (ej. 'daño ambiental en humedales urbanos', 'sanción SMA por incumplimiento de RCA')"},
+                "limite": {"type": "integer", "description": "Máximo de resultados (por defecto 8)", "default": 8},
+                "incluir_subgrafo": {"type": "boolean", "description": "Añade el subgrafo de LegalGraphify con su ahorro de tokens (por defecto False: el primer subgrafo de cada proceso carga su índice)", "default": False}
+            },
+            "required": ["consulta"]
+        }
+    },
+    {
         "name": "academia_judicial_buscar_guias",
         "description": "Busca en las Guías Oficiales de Buenas Prácticas Judiciales de la Academia Judicial de Chile (penal, determinación de penas, laboral, familia, ética, IA).",
         "inputSchema": {
@@ -1141,7 +1154,10 @@ TOOLS = [
         "description": "PRIMER PASO OBLIGATORIO de toda consulta jurídica: consulta el dataset de Hugging Face, "
                        "la doctrina canónica, el grafo y las normas chilenas detectadas en la consulta, y devuelve "
                        "las fuentes con su TEXTO LITERAL y su corchete de cita listo para pegar. Usala antes de "
-                       "responder aunque creas saber la respuesta: el producto no cita de memoria.",
+                       "responder aunque creas saber la respuesta: el producto no cita de memoria. Si la materia "
+                       "es ambiental (SMA, SEIA/RCA, daño ambiental, humedales, Tribunales Ambientales), el primer "
+                       "paso es el módulo `ambiental_consulta_maestra`, que cubre además los anuarios, boletines y "
+                       "la biblioteca ambiental completos.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -1482,7 +1498,9 @@ PROMPTS = [
         "_texto": (
             "Al responder una consulta jurídica chilena seguí este orden, sin excepciones:\n"
             "1. Primer paso: `consulta_maestra` (o `huggingface_search_dataset`). El corpus publicado en "
-            "Hugging Face es la base citable; no respondas de memoria.\n"
+            "Hugging Face es la base citable; no respondas de memoria. Si la materia es ambiental (SMA, "
+            "SEIA/RCA, daño ambiental, humedales, Tribunales Ambientales), el primer paso es el módulo "
+            "`ambiental_consulta_maestra`.\n"
             "2. Después, la fuente oficial que corresponda: BCN (norma), DT/CGR/SII/CMF (dictamen), "
             "PJUD/TC/ambientales (fallo), Academia Judicial (guía).\n"
             "3. Antes de citar, traé el texto literal con `cita_texto` (o usá el bloque `citas` del "
@@ -1501,7 +1519,7 @@ PROMPTS = [
         "_texto": (
             "Consulta: {consulta}\n\n"
             "1. `consulta_maestra` con la consulta (trae corpus de Hugging Face + doctrina + grafo + normas, "
-            "con texto literal y corchetes).\n"
+            "con texto literal y corchetes). Si la materia es ambiental, `ambiental_consulta_maestra`.\n"
             "2. Si hay que analizar documentos o una carpeta: `caso_analizar` y después `caso_ejecutar`.\n"
             "3. Para el texto de una norma puntual: `cita_texto`.\n"
             "4. Respondé primero y cerrá con el bloque «Fuentes:»; cada afirmación jurídica con su corchete y "
@@ -2209,6 +2227,13 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             if not q:
                 return {"error": "El parámetro 'query' es obligatorio."}
             return ambientales_client.search_jurisprudencia(q, args.get("tribunal"))
+        elif name == "ambiental_consulta_maestra":
+            consulta = (args.get("consulta") or "").strip()
+            if not consulta:
+                return {"error": "El parámetro 'consulta' es obligatorio."}
+            from modulo_ambiental import consulta_ambiental
+            return consulta_ambiental(consulta, limite=int(args.get("limite") or 8),
+                                      incluir_subgrafo=bool(args.get("incluir_subgrafo", False)))
         elif name == "academia_judicial_buscar_guias":
             q = args.get("query")
             if not q:

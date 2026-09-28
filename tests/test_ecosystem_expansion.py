@@ -250,4 +250,4 @@ class TestMCPServerNewTools:
 
     def test_mcp_total_tools_count(self):
         # 77: 75 de base + consulta_maestra (paso 0 con citas) + cita_texto (texto literal de una norma).
-        assert len(TOOLS) == 86
+        assert len(TOOLS) == 87
