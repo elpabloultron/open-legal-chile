@@ -11197,3 +11197,21 @@ www.pjud.cl/documents/10179/12162845/CODI-                 de la Corporación Ad
 de Patrimonio e Intereses: https://www.pjud.cl/          funcionarios y empleados del Poder Judicial.
                                              documents/396588/0/Acta+118-2016.pdf/1ffa-               https://obtienearchivo.bcn.cl/obtienearchivo?i-
                                              8dab-b1bd-4a02-aee4-6eddcfd73f54                         d=recursoslegales/10221.3/4201/1/HL19390.pdf
+
+<!-- enlaces:generado sha256:22d054eea4da3065136637aa6761249004ae323e6e865aa69445070d6eb2968c -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Derecho Procesal Orgánico y Funcional](Derecho-procesal-organico-y-funcional.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — mismo tema (2 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Etica 10jul](../../corpus_guias_aj/Guia_Etica_10jul_2026.md) — la usa como material de apoyo
+- [Guia Etica 7jul](../../corpus_guias_aj/Guia_Etica_7jul_2026.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/07_DERECHO-PROCESAL_03.md>

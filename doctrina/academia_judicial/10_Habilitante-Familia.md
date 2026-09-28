@@ -10445,3 +10445,20 @@ La decisión judicial debe restablecer el derecho vulnerado y, cuando lo amerite
                                                   Plazo
 
                                                                                       Firma Consejero Técnico
+
+<!-- enlaces:generado sha256:5895b887c8d12421d953243da63117607d86469fcce6548b65622c9711964d3e -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Normativa en materia de filiación](07_Normativa-en-materia-de-filiacion.md) — cita mutua
+- [La Familia y el Matrimonio](../apuntes_orrego/La%20Familia%20y%20el%20Matrimonio.md) — cita mutua
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (2 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [guia para la conduccion de las audiencias de familia preparatoria reservada conciliacion y](../../corpus_guias_aj/guia_para_la_conduccion_de_las_audiencias_de_familia_preparatoria_reservada_conciliacion_y.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/10_Habilitante-Familia.md>

@@ -2974,3 +2974,22 @@ Ana María González, Constanza Valenzuela y Marco Antonio Coloma.
 
 Academia Judicial de Chile   Autocuidado
 Materiales Docentes           Referencias
+
+<!-- enlaces:generado sha256:59a2bf3a4de1cb0255dfb062b210697da12f13a78d1ec7914fdb80b64be46dd8 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Manual psicosociolegal sobre abuso sexual infantil](MD-48-ABUSO-SEXUAL-INFANTL.md) — cita mutua
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia aplicada para la determinacion de penas](../../corpus_guias_aj/Guia-aplicada-para-la-determinacion-de-penas.md) — la usa como material de apoyo
+- [Guia Procedimiento Monitorio 2025](../../corpus_guias_aj/Guia_Procedimiento_Monitorio_2025_v1.1.md) — la usa como material de apoyo
+- [Guia audiencia ejecucion 2025](../../corpus_guias_aj/Guia_audiencia_ejecucion_2025_v1.1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md>

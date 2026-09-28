@@ -55,3 +55,17 @@ Mecanismo judicial sumario destinado a obtener la restitución de una cosa raíz
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 2195]` `[BCN - Código de Procedimiento Civil, Art. 680 N° 1]` `[BCN - Código de Procedimiento Civil, Art. 686]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 11.230-2021, Fecha: 02-09-2022]` `[CS - Rol N° 42.100-2022, Fecha: 18-05-2023]`
+
+<!-- enlaces:generado sha256:cf763431227771267d6a034d1ac173bd087d25cff9c48c4fd7870e4e4b0a01e6 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO II: EMPLAZAMIENTO, PRECAUTORIAS Y JUICIO ORDINARIO](../../procesal/orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](../../administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO I: VOLUNTAD, CONSENTIMIENTO Y VICIOS](../vial_del_rio_acto_juridico/01_voluntad_consentimiento_y_vicios.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO I: JURISDICCIÓN, COMPETENCIA Y NOTIFICACIONES](../../procesal/orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md>

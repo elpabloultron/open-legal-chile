@@ -4733,3 +4733,22 @@ Dictado por ________, juez o jueza del Juzgado de Garantía de ______.
                                                                         ﻿
 
                                                                         ﻿
+
+<!-- enlaces:generado sha256:dfdb67dd4474eb47d6e2216b1261b06e064899577a8d93c195da529c46fd62df -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [TRATADO DE DERECHO PENAL: PARTE GENERAL — CAPÍTULO III: CULPABILIDAD, ITER CRIMINIS Y PART](../doctrina/penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md)
+- [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md)
+- [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD-59-USO-DE-LA-FUERZA.md)
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](../doctrina/academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md)
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](../doctrina/academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1.md>

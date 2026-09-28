@@ -6377,3 +6377,17 @@ Yamin, Alicia E., Oscar Parra Vera y Camila Gianella (2013). «Colombia:
             Como parte del equipo de Tipográfica,
          trabajaron en este libro: Gabriela Villanueva,
 Daniela Rogel, Constanza Valenzuela y Marco Antonio Coloma
+
+<!-- enlaces:generado sha256:ac24e0bbe6b63183248feeecf7ecedc8cb1140118006447bc88b8a9df2e11b4c -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Derechos económicos, sociales y culturales](MD53-Derechos-economicos-sociales-y-culturales.md) — cita mutua
+- [Introducción a los Derechos Humanos](MD38-Introduccion-a-los-derechos-humanos.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD-53-DERECHOS-ECONOMICOS-SOCIALES-Y-CULTURALES.md>

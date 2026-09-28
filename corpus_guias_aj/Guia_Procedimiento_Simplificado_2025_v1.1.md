@@ -2996,3 +2996,22 @@ Dictada por _________, Juez/jueza de Garantía de __________.
                                    La sentencia dictada oralmente en audiencia, se encuentra íntegramente
                                    consignada en el registro de audio de este Tribunal, de conformidad a lo dispuesto
                                    en los artículos 39 y siguientes del Código Procesal Penal.
+
+<!-- enlaces:generado sha256:c72b46c73adb3f412562baa4cc443117e9342cc3cc2dd47070c0349dcf420ca3 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Responsabilidad penal adolescente](../doctrina/academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md)
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md)
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md)
+- [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD44-Principales-figuras-penales-de-la-Ley-20.000.md)
+- [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_Procedimiento_Simplificado_2025_v1.1.md>

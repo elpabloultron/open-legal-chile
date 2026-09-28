@@ -35,3 +35,17 @@ El vicio o falsedad en las búsquedas del Art. 44 CPC (estampadas fraudulentamen
 
 **Concordancias Legales:** `[BCN - Código de Procedimiento Civil, Art. 38]` `[BCN - Código de Procedimiento Civil, Art. 40]` `[BCN - Código de Procedimiento Civil, Art. 44]` `[BCN - Código de Procedimiento Civil, Art. 48]` `[BCN - Código de Procedimiento Civil, Art. 50]` `[BCN - Código de Procedimiento Civil, Art. 80]` `[BCN - Ley N° 20.886, Art. 3]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 42.110-2019, Fecha: 17-06-2020]`
+
+<!-- enlaces:generado sha256:6f74153857b671495e379fde961a7c3fac9414d8acd578dc95f18a47835cf233 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](../../constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO II: EMPLAZAMIENTO, PRECAUTORIAS Y JUICIO ORDINARIO](02_emplazamiento_medidas_precautorias_y_prueba.md) — cita mutua
+- [Habilitante para juez de juzgado de garantía y tribunal de juicio oral en lo penal](../../academia_judicial/08_Habilitante-Penal.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](../../civil/penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+- [DERECHO DEL TRABAJO — CAPÍTULO III: TUTELA LABORAL, LEY KARIN Y DAÑO MORAL](../../laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/procesal/orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md>

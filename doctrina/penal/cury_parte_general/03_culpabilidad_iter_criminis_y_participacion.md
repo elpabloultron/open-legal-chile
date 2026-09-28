@@ -45,3 +45,20 @@ Juicio de reproche personal que se formula al autor imputable porque, teniendo l
 
 **Concordancias Legales:** `[BCN - Código Penal, Art. 14]` `[BCN - Código Penal, Art. 15]` `[BCN - Código Penal, Art. 16]` `[BCN - Código Penal, Art. 17]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 41.200-2021, Fecha: 15-03-2022]`
+
+<!-- enlaces:generado sha256:372bc75687535728d45ecfacc6b75b1838595c6c28058b100be2184f09261566 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE DERECHO PENAL: PARTE GENERAL — CAPÍTULO I: LEGALIDAD, CONDUCTA Y TIPICIDAD](01_legalidad_conducta_y_tipicidad.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO I: BASES CONSTITUCIONALES Y PRINCIPIOS](../../administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md) — cita mutua
+- [DERECHO ADMINISTRATIVO: BASES FUNDAMENTALES — CAPÍTULO I: JURIDICIDAD Y NULIDAD DE DERECHO](../../administrativo/soto_kloss_bases/01_principio_de_juridicidad_y_nulidad_derecho_publico.md) — cita mutua
+- [doctrina48981](../../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](../../constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — mismo tema (2 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia para la conduccion de la audiencia de preparacion de juicio oral 2025](../../../corpus_guias_aj/Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md>

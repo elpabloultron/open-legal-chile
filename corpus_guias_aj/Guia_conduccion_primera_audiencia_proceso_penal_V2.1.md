@@ -4317,3 +4317,22 @@ S
 
                                   T
                                   traducción 10
+
+<!-- enlaces:generado sha256:cf104624d7cbb9dec9a4da7d52a68c2de57fb1db7af34386a86856d4908156be -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md)
+- [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD-59-USO-DE-LA-FUERZA.md)
+- [Responsabilidad penal adolescente](../doctrina/academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md)
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](../doctrina/academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md)
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](../doctrina/academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_conduccion_primera_audiencia_proceso_penal_V2.1.md>

@@ -435,3 +435,12 @@ Corpus sistematizado para la **Universidad de Los Lagos** y el foro nacional. Co
 - **Materia analizada:** Minería, recursos hídricos, salares y comunidades indígenas del norte
 - **Documento oficial:** [Causa R-125-2025 — Sociedad Hell Resto Pub Limitada  con Superintendencia del Medio Ambiente ](https://www.portaljudicial1ta.cl/sgc-ws/rest/servlet/download-file?file=13018)
 
+<!-- enlaces:generado sha256:c082881a760e20799cbf0a768dced9fbb33706f77ad3d55050984e5c7269b785 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/ambiental/COMPENDIO_JURISPRUDENCIA_AMBIENTAL.md>

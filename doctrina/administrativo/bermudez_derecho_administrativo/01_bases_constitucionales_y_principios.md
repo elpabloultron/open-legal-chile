@@ -32,3 +32,21 @@ Conducta funcionaria intachable, caracterizada por un desempeño honesto y leal 
 
 **Concordancias Legales:** `[BCN - CPR, Art. 8]` `[BCN - Ley N° 18.575, Art. 52]` `[BCN - Ley N° 20.880 sobre Probidad, Art. 1]` `[BCN - Ley N° 20.285 de Acceso a la Información Pública, Art. 3]`  
 **Criterio Jurisprudencial Rector:** `[Dictamen CGR N° E123.456, Fecha: 2023]` `[CS - Rol N° 19.340-2021, Fecha: 11-10-2022]`
+
+<!-- enlaces:generado sha256:929238d0ad1002a06d2ff8157dedbc8cdeee6b99e3baffe923630e8fcee276be -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](../../constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
+- [doctrina48981](../../manuales/doctrina48981.md) — cita mutua
+- [DERECHO ADMINISTRATIVO: BASES FUNDAMENTALES — CAPÍTULO I: JURIDICIDAD Y NULIDAD DE DERECHO](../soto_kloss_bases/01_principio_de_juridicidad_y_nulidad_derecho_publico.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
+- [TRATADO DE DERECHO PENAL: PARTE GENERAL — CAPÍTULO III: CULPABILIDAD, ITER CRIMINIS Y PART](../../penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Etica 10jul](../../../corpus_guias_aj/Guia_Etica_10jul_2026.md) — la usa como material de apoyo
+- [Guia Etica 7jul](../../../corpus_guias_aj/Guia_Etica_7jul_2026.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md>

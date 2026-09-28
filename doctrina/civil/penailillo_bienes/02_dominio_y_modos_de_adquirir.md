@@ -46,3 +46,17 @@ Mecanismo solemne y exclusivo instituido por el legislador chileno mediante el c
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 686]` `[BCN - Código Civil, Art. 724]` `[BCN - Código Civil, Art. 924]` `[Reglamento del Registro Conservatorio de Bienes Raíces de 1857]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 10.456-2020, Fecha: 29-06-2021]`
+
+<!-- enlaces:generado sha256:b46c549d3f52335f4217c0194f84f35d95c73ff51b518b47302fbf9bcd415cd5 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE LOS BIENES — CAPÍTULO I: CONCEPTO Y CLASIFICACIÓN DE LOS BIENES](01_concepto_y_clasificacion_de_los_bienes.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO III: LA POSESIÓN Y TEORÍA DE LA POSESIÓN INSCRITA](03_posesion_y_posesion_inscrita.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO II: DERECHOS FUNDAMENTALES Y ORDEN PÚBLICO ECONÓ](../../constitucional/cea_derecho_constitucional/02_derechos_fundamentales_y_orden_economico.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO I: JURISDICCIÓN, COMPETENCIA Y NOTIFICACIONES](../../procesal/orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/penailillo_bienes/02_dominio_y_modos_de_adquirir.md>

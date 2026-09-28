@@ -2100,3 +2100,19 @@ El material que constituye los formatos o esquemas de actas y resoluciones, se
 
                                    https://guias.academiajudicial.cl/guias/juzgados_laborales/Anexo_Formatos_de_
                                    resoluciones.docx
+
+<!-- enlaces:generado sha256:62a507120313f14020f2d8e0ac3a89d8b31b2d7bb5282b08b8fd84248250853e -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Tribunales Laborales: nociones básicas de organización y funcionamiento](../doctrina/academia_judicial/02_Tribunales-Laborales-nociones-basicas-org.-y-funcionamiento.md)
+- [Control judicial del proceso: Case Management](../doctrina/academia_judicial/14_Control-judicial-del-proceso-Case-Management.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_Audiencia_Monitoria-v1.md>

@@ -3567,3 +3567,22 @@ trabajaron en este libro: Alejandra González, Ana María González,
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:b896bc5853f5078068fceec8d42ff937342af78aac8ae09cb66df1880be7bffe -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Audiencia Juicio Oral Laboral](../../corpus_guias_aj/Guia_Audiencia_Juicio_Oral_Laboral.md) — la usa como material de apoyo
+- [Guia Procedimiento Monitorio 2025](../../corpus_guias_aj/Guia_Procedimiento_Monitorio_2025_v1.1.md) — la usa como material de apoyo
+- [Guia para la conduccion de audiencias temas transversales abr](../../corpus_guias_aj/Guia_para_la_conduccion_de_audiencias_temas_transversales_abr1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md>

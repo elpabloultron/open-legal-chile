@@ -34,3 +34,15 @@ En litigios corporativos entre accionistas de una SpA (impugnación de acuerdos,
 
 **Concordancias Legales:** `[BCN - Código de Comercio, Art. 424]` `[BCN - Código de Comercio, Art. 425]` `[BCN - Código de Comercio, Art. 440]` `[BCN - Ley N° 18.046, Art. 4]` `[BCN - Ley N° 18.046, Art. 125]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 21.340-2021, Fecha: 14-09-2022]`
+
+<!-- enlaces:generado sha256:162eed6816ef996edc71d839134b408695a284e7ee9b764baa5e2607cae2a6a6 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [MANUAL DE DERECHO COMERCIAL — CAPÍTULO II: TÍTULOS DE CRÉDITO E INSOLVENCIA (LEY 20.720)](02_titulos_de_credito_y_concursos_ley_20720.md) — cita mutua
+- [DERECHO DEL TRABAJO — CAPÍTULO I: PRINCIPIOS FORMATIVOS Y PROTECTORES](../../laboral/gamonal_derecho_del_trabajo/01_principios_del_derecho_del_trabajo.md) — mismo tema (2 conexiones)
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/comercial/sandoval_derecho_comercial/01_actos_de_comercio_y_sociedades_capital_spa.md>

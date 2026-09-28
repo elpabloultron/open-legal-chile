@@ -1171,3 +1171,22 @@ El material que constituye los formatos o esquemas de actas y resoluciones, se
 
                                     https://guias.academiajudicial.cl/guias/juzgados_laborales/Anexo_Formatos_de_
                                     resoluciones.docx
+
+<!-- enlaces:generado sha256:518d7c863c508c7fe0221d5b01f49b64a3b7ae3f747e1de719dc6916192ab564 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Autocuidado y adaptación a nuevas modalidades de trabajo](../doctrina/academia_judicial/MD36-Autocuidado-y-adaptacion-a-nuevas-modalidades-de-trabajo.md)
+- [Autocuidado y adaptación a nuevas modalidades de trabajo](../doctrina/academia_judicial/MD-36-AUTOCUIDADO-Y-ADAPTACION-NUEVAS-MODALIDADESDE-TRABAJO.md)
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO III: PRESUNCIONES DE CULPA Y RESPON](../doctrina/civil/barros_bourie_responsabilidad/03_presunciones_de_culpa_y_responsabilidad_estricta.md)
+- [Sucesorio 6 (donaciones revocables acrecimiento sustitución y primera parte sucesión forzo](../doctrina/apuntes_orrego/Sucesorio%206%20donaciones%20revocables%20acrecimiento%20sustitución%20y%20primera%20parte%20sucesión%20forzos.md)
+- [DERECHO DE FAMILIA — CAPÍTULO II: COMPENSACIÓN ECONÓMICA Y ALIMENTOS](../doctrina/civil/ramos_pazos_familia/02_compensacion_economica_y_alimentos.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_Audiencia_Conciliacion_Laboral_v2.1.md>

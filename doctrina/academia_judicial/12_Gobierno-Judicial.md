@@ -5333,3 +5333,22 @@ Judicial y Ministro de Corte                                                    
 
 Curso habilitante para Fiscal                                                     Introducción   DOCUMENTOS 136
 Judicial y Ministro de Corte                                                                     MATERIALES
+
+<!-- enlaces:generado sha256:927273f3a37d17705197781f7e2fcb3453093c9b4b16b5e44f6738461bbcfcdc -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Cortes de Apelaciones: nociones básicas de organización y funcionamiento](04_Corte-de-Apelaciones-nociones-basicas-de-org.-y-funcionamiento.md) — cita mutua
+- [Responsabilidad civil por negligencia médica](03_Responsabilidad-civil-por-negligencia-medica.md) — cita mutua
+- [Convenio 169 de la OIT sobre Pueblos Indígenas](Convenio-169-de-la-OIT-sobre-pueblos-indigenas.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Audiencia Conciliacion Laboral](../../corpus_guias_aj/Guia_Audiencia_Conciliacion_Laboral_v2.1.md) — la usa como material de apoyo
+- [Guia Audiencia Juicio Oral Laboral](../../corpus_guias_aj/Guia_Audiencia_Juicio_Oral_Laboral.md) — la usa como material de apoyo
+- [Guia Etica 10jul](../../corpus_guias_aj/Guia_Etica_10jul_2026.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/12_Gobierno-Judicial.md>

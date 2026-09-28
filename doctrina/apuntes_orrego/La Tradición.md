@@ -3997,3 +3997,17 @@ que no está escriturado. ¿Qué riesgo se presenta en este caso para el cesiona
                      _______******_______
 
                          La Tradición – Juan Andrés Orrego Acuña                       69
+
+<!-- enlaces:generado sha256:e0a3dee8ec4c5b581ed47f8c6b96f3e03bffd5c1d23dff77e9215235e8559da0 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Contrato de Hipoteca](Contrato%20de%20Hipoteca.md) — cita mutua
+- [Teoría de la Prueba](Teoría%20de%20la%20Prueba.md) — cita mutua
+- [Teoría del Acto Jurídico](Teoría%20del%20Acto%20Jurídico.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/La%20Tradición.md>

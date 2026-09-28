@@ -13033,3 +13033,17 @@ de unión civil.
 modificación?
 
                    La Familia y el Matrimonio – Juan Andrés Orrego Acuña             230
+
+<!-- enlaces:generado sha256:4632605a3f215c1317243e6bfe8f94d5a5557b2440c3e1c26bf5d3bfffe9d484 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Habilitante para juez de juzgado de familia](../academia_judicial/10_Habilitante-Familia.md) — cita mutua
+- [Los bienes familiares](Los%20bienes%20familiares.md) — cita mutua
+- [De la Responsabilidad Precontractual](De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/La%20Familia%20y%20el%20Matrimonio.md>

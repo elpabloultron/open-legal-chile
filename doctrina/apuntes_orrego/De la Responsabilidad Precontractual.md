@@ -1407,3 +1407,17 @@ negociales previos”, en Revista “LEX ET VERITAS”, de la Facultad de Cienci
 de la Universidad Internacional Sek (Santiago, Editora Metropolitana, año 2004).
 
           De la Responsabilidad Precontractual – Juan Andrés Orrego Acuña             29
+
+<!-- enlaces:generado sha256:ceeb36440a4e0e0f4182cff25b0e948a3c03144c7f19c913b39d88a59665fd7c -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Normativa en materia de filiación](../academia_judicial/07_Normativa-en-materia-de-filiacion.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](../academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [La Familia y el Matrimonio](La%20Familia%20y%20el%20Matrimonio.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md>

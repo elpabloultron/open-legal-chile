@@ -4547,3 +4547,20 @@ Materiales Docentes                                                        Refer
 
 Academia Judicial de Chile   Obligaciones estatales contra la tortura
 Materiales Docentes                                     Referencias
+
+<!-- enlaces:generado sha256:a78ae2933f96d13a44452addf4a0177a0b61d981a3d17a9abf5cf93bbde74556 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Terrorismo](MD-58-TERRORISMO.md) — cita mutua
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [Lenguaje claro](MD59-Lenguaje-claro.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia determinación de penas 2025](../../corpus_guias_aj/Guia_determinación_de_penas_2025_v1.1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD57-Terrorismo.md>

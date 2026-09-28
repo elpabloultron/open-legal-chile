@@ -5782,3 +5782,17 @@ nombramiento de un curador especial para varios asuntos a la vez.253
       Ramos Pazos, René, ob. cit., Nº 918, p. 647.
 
       De las guardas en general y de las tutelas y curadurías en particular – Juan Andrés Orrego Acuña   103
+
+<!-- enlaces:generado sha256:f3dee9ecf8e1f46ff1a1f8c3e17df9649c69f188d6ece25c4906fde88fd2a23f -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+- [De la Responsabilidad Precontractual](De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/De%20las%20Guardas%20en%20General%20y%20de%20las%20Tutelas%20y%20Curadurías%20en%20Particular.md>

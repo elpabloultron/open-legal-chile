@@ -59,3 +59,20 @@ Regla procesal probatoria específica de tutela laboral conforme a la cual el tr
 
 **Concordancias Legales:** `[BCN - Código del Trabajo, Art. 2]` `[BCN - Código del Trabajo, Art. 184]` `[BCN - Código del Trabajo, Art. 489]` `[BCN - Ley N° 21.643 Ley Karin, Art. 1]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 9.043-2020, Fecha: 18-08-2021]` `[CS - Rol N° 12.890-2023, Fecha: 20-11-2023]`
+
+<!-- enlaces:generado sha256:53c9e5a711973ea26c923eb757e636bd466c7395c6b2f1b1606838fcf1bea21c -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO I: JURISDICCIÓN, COMPETENCIA Y NOTIFICACIONES](../../procesal/orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md) — cita mutua
+- [DERECHO DEL TRABAJO — CAPÍTULO I: PRINCIPIOS FORMATIVOS Y PROTECTORES](01_principios_del_derecho_del_trabajo.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](../../constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
+- [DERECHO DEL TRABAJO — CAPÍTULO II: CONTRATO, IUS VARIANDI Y DESPIDO ART. 161 CT](02_contrato_individual_y_despido.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — mismo tema (2 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Audiencia Preparatoria](../../../corpus_guias_aj/Guia_Audiencia_Preparatoria-v1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md>

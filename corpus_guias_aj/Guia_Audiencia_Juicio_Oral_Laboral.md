@@ -2294,3 +2294,22 @@ El material que constituye los formatos o esquemas de actas y resoluciones, se
 
                                     https://guias.academiajudicial.cl/guias/juzgados_laborales/Anexo_Formatos_de_
                                     resoluciones.docx
+
+<!-- enlaces:generado sha256:b8fe5d44b18a6a408635a70056ede41bf512ac0464a4bcba8a496cd44f57d70f -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md)
+- [Guía para el procedimiento de medidas de protección en tribunales de familia](../doctrina/academia_judicial/aj_proteccion_familia.md)
+- [Guía para la conducción de audiencias de familia (Preparatoria, Reservada, Conciliación y ](../doctrina/academia_judicial/aj_audiencias_familia.md)
+- [Control judicial del proceso: Case Management](../doctrina/academia_judicial/14_Control-judicial-del-proceso-Case-Management.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_Audiencia_Juicio_Oral_Laboral.md>

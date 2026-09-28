@@ -51,3 +51,20 @@ La causa se presume (Art. 1467 inc. 2 CC). Quien alegue inexistencia de causa o 
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 1445 N° 4]` `[BCN - Código Civil, Art. 1467]` `[BCN - Código Civil, Art. 1682]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 44.512-2021, Fecha: 22-03-2022]`
+
+<!-- enlaces:generado sha256:eaa67cef7e316f1860c27135bb2b34f8886674633bd18e47ede753a817392dbc -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO I: VOLUNTAD, CONSENTIMIENTO Y VICIOS](01_voluntad_consentimiento_y_vicios.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO II: EMPLAZAMIENTO, PRECAUTORIAS Y JUICIO ORDINARIO](../../procesal/orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md) — cita mutua
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO III: INEFICACIAS, NULIDAD Y SIMULACIÓN](03_ineficacias_nulidad_y_simulacion.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](../penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Audiencia Preparatoria](../../../corpus_guias_aj/Guia_Audiencia_Preparatoria-v1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/vial_del_rio_acto_juridico/02_objeto_causa_y_solemnidades.md>

@@ -41,3 +41,17 @@ La prueba reina en el juicio de simulación es la **prueba de presunciones judic
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 1707]` `[BCN - Código Civil, Art. 1712]` `[BCN - Código de Procedimiento Civil, Art. 426]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 22.105-2019, Fecha: 04-05-2020]`
+
+<!-- enlaces:generado sha256:9db81fa95707e85ba8244090969cdbe2d05686072ef40d62743866c6fe33d02c -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO I: VOLUNTAD, CONSENTIMIENTO Y VICIOS](01_voluntad_consentimiento_y_vicios.md) — cita mutua
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO II: OBJETO, CAUSA Y SOLEMNIDADES](02_objeto_causa_y_solemnidades.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO I: BASES CONSTITUCIONALES Y PRINCIPIOS](../../administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md) — mismo tema (2 conexiones)
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO I: MODELOS Y ESTRUCTURA GENERAL](../barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/vial_del_rio_acto_juridico/03_ineficacias_nulidad_y_simulacion.md>

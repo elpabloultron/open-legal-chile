@@ -3567,3 +3567,22 @@ trabajaron en este libro: Alejandra González, Ana María González,
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:da51621abe852f7b650a8ce248d61c255c0e7deefa33ea346abbf31b80b4dc8b -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Regulación nacional y convención internacional sobre personas con discapacidad](11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Audiencia Juicio Oral Laboral](../../corpus_guias_aj/Guia_Audiencia_Juicio_Oral_Laboral.md) — la usa como material de apoyo
+- [Guia Procedimiento Monitorio 2025](../../corpus_guias_aj/Guia_Procedimiento_Monitorio_2025_v1.1.md) — la usa como material de apoyo
+- [Guia para la conduccion de audiencias temas transversales abr](../../corpus_guias_aj/Guia_para_la_conduccion_de_audiencias_temas_transversales_abr1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md>

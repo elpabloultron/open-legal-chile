@@ -42,3 +42,17 @@ Las medidas precautorias pueden decretarse sin previa notificación del afectado
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 1464]` `[BCN - Código de Procedimiento Civil, Art. 279]` `[BCN - Código de Procedimiento Civil, Art. 290]` `[BCN - Código de Procedimiento Civil, Art. 297]` `[BCN - Código de Procedimiento Civil, Art. 298]` `[BCN - Código de Procedimiento Civil, Art. 302]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 14.560-2021, Fecha: 19-05-2022]`
+
+<!-- enlaces:generado sha256:92b3a4137ef017f6f2e99d5106fddc2214e1e19fc1610729c67a71971aa50e41 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](../../civil/penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO I: JURISDICCIÓN, COMPETENCIA Y NOTIFICACIONES](01_jurisdiccion_competencia_y_notificaciones.md) — cita mutua
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO II: OBJETO, CAUSA Y SOLEMNIDADES](../../civil/vial_del_rio_acto_juridico/02_objeto_causa_y_solemnidades.md) — cita mutua
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO I: VOLUNTAD, CONSENTIMIENTO Y VICIOS](../../civil/vial_del_rio_acto_juridico/01_voluntad_consentimiento_y_vicios.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/procesal/orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md>

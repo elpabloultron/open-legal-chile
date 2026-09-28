@@ -63,3 +63,17 @@ Modo de extinguir la acción indemnizatoria aquiliana por el transcurso de cuatr
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 2314]` `[BCN - Código Civil, Art. 2332]` `[BCN - Ley N° 19.300 sobre Bases Generales del Medio Ambiente, Art. 63]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 8.910-2021, Fecha: 05-08-2021]`
+
+<!-- enlaces:generado sha256:b2beddefb34bda1cb9115c512cab26a292f8456902a7cbf8d40126ee9b88a301 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO I: MODELOS Y ESTRUCTURA GENERAL](01_modelos_y_elementos_de_la_responsabilidad.md) — cita mutua
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO II: ANTIJURIDICIDAD Y CULPA](02_antijuridicidad_y_culpa.md) — cita mutua
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO III: PRESUNCIONES DE CULPA Y RESPON](03_presunciones_de_culpa_y_responsabilidad_estricta.md) — cita mutua
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO I: VOLUNTAD, CONSENTIMIENTO Y VICIOS](../vial_del_rio_acto_juridico/01_voluntad_consentimiento_y_vicios.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md>

@@ -36,3 +36,17 @@ En el estudio de títulos inmobiliarios, la cesión de derechos hereditarios sob
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 577]` `[BCN - Código Civil, Art. 688]` `[BCN - Código Civil, Art. 704 N° 4]` `[BCN - Código Civil, Art. 1269]` `[BCN - Código Civil, Art. 2512]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 48.910-2019, Fecha: 02-09-2020]`
+
+<!-- enlaces:generado sha256:31602647535ed675aa26a6ae1418997d01f2f486e6bf336e2c4be4f32f9c59a5 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DERECHO SUCESORIO — CAPÍTULO II: ASIGNACIONES FORZOSAS Y POSESIÓN EFECTIVA](02_asignaciones_forzosas_y_posesion_efectiva.md) — cita mutua
+- [DERECHO SUCESORIO — CAPÍTULO III: PETICIÓN DE HERENCIA Y PARTICIÓN](03_peticion_de_herencia_y_particion.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO I: CONCEPTO Y CLASIFICACIÓN DE LOS BIENES](../penailillo_bienes/01_concepto_y_clasificacion_de_los_bienes.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO I: CONCEPTO, ELEMENTOS Y CLASIFICACIONES](../ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md) — mismo tema (1 conexiones)
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO II: OBJETO, CAUSA Y SOLEMNIDADES](../vial_del_rio_acto_juridico/02_objeto_causa_y_solemnidades.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/somarriva_sucesorio/01_apertura_delacion_y_derecho_real_de_herencia.md>

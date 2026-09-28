@@ -4344,3 +4344,17 @@ de Antonio Faúndez Ugalde y Francisco Javier Orellana Rivera
            Como parte del equipo de Tipográfica,
      trabajaron en este libro: Alejandra González Mege,
       Constanza Valenzuela y Marco Antonio Coloma
+
+<!-- enlaces:generado sha256:6333672d13c377f2f5ee9de14a6d808e01511ef7829728fc9c21f1af81dbda0c -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Rol probatorio de documentación  tributaria  y aduanera](MD-41-ROL-PROBATORIO-DE-DOCUMENTACION-TRIBUTARIA-Y-ADUANERA.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD41-Rol-probatorio-de-documentacion-tributaria-y-aduanera.md>

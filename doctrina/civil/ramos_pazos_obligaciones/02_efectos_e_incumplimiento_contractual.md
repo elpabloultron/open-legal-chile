@@ -71,3 +71,17 @@ Aquella en que una persona, para asegurar el cumplimiento de una obligación, se
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 1535]` `[BCN - Código Civil, Art. 1542]` `[BCN - Código Civil, Art. 1544]` `[BCN - Código Civil, Art. 1556]` `[BCN - Código Civil, Art. 1558]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 22.140-2019, Fecha: 11-12-2020]`
+
+<!-- enlaces:generado sha256:c86a6bf5a4d92a31b3e9ef80285562d651aad5e40b6a4d013fd108761eb9a689 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO I: VOLUNTAD, CONSENTIMIENTO Y VICIOS](../vial_del_rio_acto_juridico/01_voluntad_consentimiento_y_vicios.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO I: CONCEPTO, ELEMENTOS Y CLASIFICACIONES](01_concepto_estructura_y_clasificaciones.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](../penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](../../administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO II: EMPLAZAMIENTO, PRECAUTORIAS Y JUICIO ORDINARIO](../../procesal/orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md>

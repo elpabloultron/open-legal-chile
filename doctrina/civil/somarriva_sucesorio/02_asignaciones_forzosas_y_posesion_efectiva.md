@@ -40,3 +40,15 @@ La omisión de las inscripciones del Art. 688 CC no produce nulidad absoluta de 
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 688]` `[BCN - Código de Procedimiento Civil, Art. 877]` `[BCN - Ley N° 19.903, Art. 1]` `[BCN - Ley N° 19.903, Art. 8]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 10.354-2018, Fecha: 03-04-2019]`
+
+<!-- enlaces:generado sha256:5dc5783e0f316bfe884741a611e08923e52d3e24fac083dc375324166eecec08 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DERECHO SUCESORIO — CAPÍTULO I: APERTURA, DELACIÓN Y DERECHO REAL DE HERENCIA](01_apertura_delacion_y_derecho_real_de_herencia.md) — cita mutua
+- [DERECHO SUCESORIO — CAPÍTULO III: PETICIÓN DE HERENCIA Y PARTICIÓN](03_peticion_de_herencia_y_particion.md) — mismo tema (2 conexiones)
+- [TRATADO DE LOS BIENES — CAPÍTULO I: CONCEPTO Y CLASIFICACIÓN DE LOS BIENES](../penailillo_bienes/01_concepto_y_clasificacion_de_los_bienes.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/somarriva_sucesorio/02_asignaciones_forzosas_y_posesion_efectiva.md>

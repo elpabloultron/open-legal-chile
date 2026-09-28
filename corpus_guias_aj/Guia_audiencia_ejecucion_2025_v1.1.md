@@ -4184,3 +4184,22 @@ F Señalar fecha, día y hora de audiencia.
                                    F Dictar las resoluciones anexas que correspondan.
 
                                    F Explicar en lenguaje claro y sencillo a los usuarios presentes.
+
+<!-- enlaces:generado sha256:998b61c1b432cb31edb4910a4b9a9f3c7f2866f2bcda3950cfc55d9bce9326bf -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Determinación, aplicación y ejecución de penas](../doctrina/academia_judicial/MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md)
+- [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD44-Principales-figuras-penales-de-la-Ley-20.000.md)
+- [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md)
+- [Responsabilidad Penal de las Personas Jurídicas](../doctrina/academia_judicial/RPPJ.md)
+- [Manual psicosociolegal sobre abuso sexual infantil](../doctrina/academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_audiencia_ejecucion_2025_v1.1.md>

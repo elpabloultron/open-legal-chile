@@ -51,3 +51,17 @@ Conjunto de reglas y preferencias legales conforme a las cuales deben pagarse lo
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 2470]` `[BCN - Código Civil, Art. 2472]` `[BCN - Código Civil, Art. 2477]` `[BCN - Código Civil, Art. 2489]` `[BCN - Ley N° 20.720, Art. 250]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 27.890-2020, Fecha: 15-04-2021]`
+
+<!-- enlaces:generado sha256:a856a804eb77fb7c7370afc561da1cc64aab67b016d60b2328aa8afb186fe797 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO I: CONCEPTO, ELEMENTOS Y CLASIFICACIONES](01_concepto_estructura_y_clasificaciones.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](../../administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO III: FALTA DE SERVICIO Y DERECHO SANCIONADOR](../../administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md) — cita mutua
+- [doctrina48981](../../manuales/doctrina48981.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md>

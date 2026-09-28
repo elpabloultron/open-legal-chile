@@ -6765,3 +6765,22 @@ Materiales Docentes                                          Referencias
 
 Academia Judicial de Chile    Teletrabajo
 Materiales Docentes          Referencias
+
+<!-- enlaces:generado sha256:b748bcc205b1a314a799071efc49b8f1c39cbc632d67039ca3c502c9a62cb2d2 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia aplicada para la determinacion de penas](../../corpus_guias_aj/Guia-aplicada-para-la-determinacion-de-penas.md) — la usa como material de apoyo
+- [Guia Procedimiento Simplificado 2025](../../corpus_guias_aj/Guia_Procedimiento_Simplificado_2025_v1.1.md) — la usa como material de apoyo
+- [Guia audiencia ejecucion 2025](../../corpus_guias_aj/Guia_audiencia_ejecucion_2025_v1.1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD44-Principales-figuras-penales-de-la-Ley-20.000.md>

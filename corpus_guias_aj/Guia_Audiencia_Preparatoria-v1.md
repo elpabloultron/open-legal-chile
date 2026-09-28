@@ -3720,3 +3720,22 @@ El material que constituye los formatos o esquemas de actas y resoluciones, se
 
                                    https://guias.academiajudicial.cl/guias/juzgados_laborales/Anexo_Formatos_de_
                                    resoluciones.docx
+
+<!-- enlaces:generado sha256:7bc316ad1ca60e697a364b4d465160bf2909d621de142c9baa091851a6b8fd91 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [DERECHO DEL TRABAJO — CAPÍTULO III: TUTELA LABORAL, LEY KARIN Y DAÑO MORAL](../doctrina/laboral/gamonal_derecho_del_trabajo/03_tutela_laboral_y_dano_moral.md)
+- [Acoso sexual,  acoso moral  y discriminación  en contexto  laboral](../doctrina/academia_judicial/MD39-Acoso-sexual-acoso-moral-y-discriminacion-en-contexto-laboral.md)
+- [Acoso sexual,  acoso moral  y discriminación  en contexto  laboral](../doctrina/academia_judicial/MD39-Acoso-sexual-acoso-moral-y-discriminacion-en-contexto-laboral-1.md)
+- [Acoso sexual,  acoso moral  y discriminación  en contexto  laboral](../doctrina/academia_judicial/MD-39-ACOSO-SEXUAL-ACOSO-MORAL-Y-DISCRIMINACION.md)
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO II: OBJETO, CAUSA Y SOLEMNIDADES](../doctrina/civil/vial_del_rio_acto_juridico/02_objeto_causa_y_solemnidades.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_Audiencia_Preparatoria-v1.md>

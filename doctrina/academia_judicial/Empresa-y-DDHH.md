@@ -11524,3 +11524,17 @@ y Derechos                                                        y derechos hum
                                                                           — Herramienta ACNUDH/Centro de Derechos Humanos
                                                                             UDP/Contraloría General de la República de Chile,
                                                                             Cartillas, 2018. Disponible en línea.
+
+<!-- enlaces:generado sha256:bca3b956c9f7f19423ea8d4fee6d7f4e110102ca7e9eb989d393309301692496 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Régimen de alimentos, cuidado personal y relación directa y regular aplicado a la decisión](13_Regimen-de-alimentos-cuidado-personal-y-RDR.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Convenio 169 de la OIT sobre Pueblos Indígenas](Convenio-169-de-la-OIT-sobre-pueblos-indigenas.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/Empresa-y-DDHH.md>

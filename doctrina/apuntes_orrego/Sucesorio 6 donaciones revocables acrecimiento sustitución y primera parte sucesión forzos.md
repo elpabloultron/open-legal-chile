@@ -1597,3 +1597,21 @@ pero no puede imponerse al alimentario. 33
      Cfr. Rodríguez Grez, Pablo, ob. cit., pp. 284 y 285.
 
                                  Sucesorio 6 – Juan Andrés Orrego Acuña              28
+
+<!-- enlaces:generado sha256:bac8fb78da8e19a369824ba0be3654be4b91bd8dbdf51f673691d70a448f9df0 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+- [De la Responsabilidad Precontractual](De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Audiencia Conciliacion Laboral](../../corpus_guias_aj/Guia_Audiencia_Conciliacion_Laboral_v2.1.md) — la usa como material de apoyo
+- [Guia para la conduccion de audiencias temas transversales abr](../../corpus_guias_aj/Guia_para_la_conduccion_de_audiencias_temas_transversales_abr1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Sucesorio%206%20donaciones%20revocables%20acrecimiento%20sustitución%20y%20primera%20parte%20sucesión%20forzos.md>

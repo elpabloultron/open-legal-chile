@@ -10045,3 +10045,17 @@ respuesta.
             _____________*****______________
 
                 El Contrato de Compraventa – Juan Andrés Orrego Acuña    180
+
+<!-- enlaces:generado sha256:789a0b8406a6f5ce94c8239d0a3aa781815405177abf23f2ae386d0e60601df9 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Extinción de las Obligaciones](Extinción%20de%20las%20Obligaciones.md) — cita mutua
+- [Responsabilidad Extracontractual](Responsabilidad%20Extracontractual.md) — cita mutua
+- [La prescripcion](La%20prescripcion.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Contrato%20de%20compraventa.md>

@@ -6753,3 +6753,17 @@ Ana María Moraga, Constanza Valenzuela y Marco Antonio Coloma.
 
 Academia Judicial de Chile   Autocuidado
 Materiales Docentes           Referencias
+
+<!-- enlaces:generado sha256:4d3f04fbad642fd9b3e8cc0c80904013834d2263f2e242400e9a72e3c602effe -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Comunicación y cumplimiento de resoluciones judiciales](MD-46-COMUNICACION-Y-CUMPLIMIENTO-RESOLUCIONES-JUDICIALES.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
+- [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
+- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD46-Comunicaciones-y-cumplimiento-de-resoluciones-judiciales.md>

@@ -6679,3 +6679,22 @@ F Señalar fecha, día y hora de audiencia.
                                     F Explicar en lenguaje claro y sencillo al afectado.
 
 Audiencia de sobreseimiento, no perseverar, cautela de garantía, autorización de diligencias
+
+<!-- enlaces:generado sha256:f72dfad96bc1c3eceb3f403fc4a548b47eca8b1359202e5ea4ba966057249041 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Responsabilidad Penal de las Personas Jurídicas](../doctrina/academia_judicial/RPPJ.md)
+- [Debido Proceso](../doctrina/academia_judicial/MD65-Debido-Proceso.md)
+- [Determinación, aplicación y ejecución de penas](../doctrina/academia_judicial/MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md)
+- [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md)
+- [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD-59-USO-DE-LA-FUERZA.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_audiencia_sobreseimineto_DNP_cautela_solicitud_diligencias_2025_V1.1.md>

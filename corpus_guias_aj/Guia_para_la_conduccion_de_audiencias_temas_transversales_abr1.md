@@ -3938,3 +3938,22 @@ especiales como el Protocolo I de la Ley Nº21.057 y artículo 51 de la Ley Nº2
                                           Es un trámite sencillo de depósito, que puede efectuarse en línea.
 
 © 2025 Academia Judicial
+
+<!-- enlaces:generado sha256:ff9186e2cc6b9022bce52694faaf69dd53be8e910fbf8ce34579a6b832553fb5 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md)
+- [Convención de derechos de niños, niñas y adolescentes en el contexto judicial nacional](../doctrina/academia_judicial/06_Convencion-de-los-DD-de-NNA-en-el-contexto-judicial.md)
+- [Sucesorio 6 (donaciones revocables acrecimiento sustitución y primera parte sucesión forzo](../doctrina/apuntes_orrego/Sucesorio%206%20donaciones%20revocables%20acrecimiento%20sustitución%20y%20primera%20parte%20sucesión%20forzos.md)
+- [DERECHO DE FAMILIA — CAPÍTULO II: COMPENSACIÓN ECONÓMICA Y ALIMENTOS](../doctrina/civil/ramos_pazos_familia/02_compensacion_economica_y_alimentos.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_para_la_conduccion_de_audiencias_temas_transversales_abr1.md>

@@ -43,3 +43,17 @@ Recurso ordinario concedido al litigante agraviado por una resolución judicial 
 
 **Concordancias Legales:** `[BCN - Código de Procedimiento Civil, Art. 191]` `[BCN - Código de Procedimiento Civil, Art. 194]` `[BCN - Código de Procedimiento Civil, Art. 216]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 25.140-2021, Fecha: 19-05-2022]`
+
+<!-- enlaces:generado sha256:c27ff489b957904160b3b984d1219603a401a700d37fb6802a86a0933dbfc61d -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE LOS RECURSOS PROCESALES — CAPÍTULO I: TEORÍA DE LA IMPUGNACIÓN Y REPOSICIÓN](01_teoria_general_y_reposicion.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](../../civil/penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO I: JURISDICCIÓN, COMPETENCIA Y NOTIFICACIONES](../orellana_romero_disposiciones_comunes/01_jurisdiccion_competencia_y_notificaciones.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO II: EMPLAZAMIENTO, PRECAUTORIAS Y JUICIO ORDINARIO](../orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/procesal/maturana_mosquera_recursos/02_recurso_de_apelacion.md>

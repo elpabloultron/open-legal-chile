@@ -1532,3 +1532,17 @@ desplazamiento.
 caducidad del plazo convenido para el cumplimiento de obligaciones caucionadas con
 prenda sin desplazamiento. Nos parece relevante enumerarlos, aludiendo al precepto
 respectivo. Son ellos:
+
+<!-- enlaces:generado sha256:b1e9db4cb989f5c2f7d5a69eeefecdfed5f49519d16b2156ad692765eb074fc8 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Contrato de prenda](Contrato%20de%20prenda.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+- [Sucesorio 3 (sucesión testada primera parte)](Sucesorio%203%20sucesión%20testada%20primera%20parte.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/La%20Prenda%20sin%20Dezplazamiento%20de%20la%20Ley%2020190.md>

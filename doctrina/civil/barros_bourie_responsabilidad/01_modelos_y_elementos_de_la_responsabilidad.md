@@ -44,3 +44,17 @@ Acto humano voluntario exteriorizado en el mundo fáctico, imputable a una perso
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 2314]` `[BCN - Código Civil, Art. 2329]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 18.410-2020, Fecha: 14-04-2021]`
+
+<!-- enlaces:generado sha256:3b64ae8c83434aa15db8224e5dcd415362f6ec1b3175683f4f5bb479b94621a8 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO III: PRESUNCIONES DE CULPA Y RESPON](03_presunciones_de_culpa_y_responsabilidad_estricta.md) — cita mutua
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO IV: DAÑO, CAUSALIDAD Y PRESCRIPCIÓN](04_dano_causalidad_imputacion_y_prescripcion.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](../../constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
+- [Habilitante para juez de juzgado de garantía y tribunal de juicio oral en lo penal](../../academia_judicial/08_Habilitante-Penal.md) — cita mutua
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO II: ANTIJURIDICIDAD Y CULPA](02_antijuridicidad_y_culpa.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md>

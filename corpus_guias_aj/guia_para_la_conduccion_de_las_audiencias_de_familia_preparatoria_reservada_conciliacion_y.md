@@ -7793,3 +7793,22 @@ superior del niño (ISN) y
                                    cualquier caso ventilado ante los Tribunales de Familia, tiene un énfasis en aquellos
                                    casos que implicarían la separación del niño o niña de su familia. Esta se encuentra
                                    en el siguiente enlace: https://www.unicef.org
+
+<!-- enlaces:generado sha256:8a0a832c7aa759b7d1e18883b406388fe190112fcfb2b5b5fd5025c0b68b7f32 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Habilitante para juez de juzgado de familia](../doctrina/academia_judicial/10_Habilitante-Familia.md)
+- [Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelacion](../doctrina/academia_judicial/12_Gobierno-Judicial.md)
+- [Atención de usuarios en situaciones complejas y de vulnerabilidad](../doctrina/academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md)
+- [Atención de usuarios en situaciones complejas y de vulnerabilidad](../doctrina/academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/guia_para_la_conduccion_de_las_audiencias_de_familia_preparatoria_reservada_conciliacion_y.md>

@@ -3761,3 +3761,21 @@ DEL PROCESO:
                        Director académico/ Coordinador/ Docente (1):   Ramón García Odgers
                                                         Docente (2):   Claudio Fuentes Maureira
                                                         Docente (3):   Rodrigo Silva Goñi
+
+<!-- enlaces:generado sha256:995f76569b7526dc34baeee01f66ba4be716dd265b3ad4910e7ce26c33d27846 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Contexto Social y estatuto de los migrantes en Chile (Actualizado a marzo 2022 &#8211; Ley](MD-15-Contexto-social-y-estatuto-de-los-Migrantes-actualizado-marzo-2022.md) — cita mutua
+- [Regímenes Matrimoniales](../apuntes_orrego/Regímenes%20Matrimoniales.md) — cita mutua
+- [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](../apuntes_orrego/Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
+- [Acciones Protectoras](../apuntes_orrego/Acciones%20Protectoras.md) — mismo tema (2 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Audiencia Juicio Oral Laboral](../../corpus_guias_aj/Guia_Audiencia_Juicio_Oral_Laboral.md) — la usa como material de apoyo
+- [Guia Audiencia Monitoria](../../corpus_guias_aj/Guia_Audiencia_Monitoria-v1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/14_Control-judicial-del-proceso-Case-Management.md>

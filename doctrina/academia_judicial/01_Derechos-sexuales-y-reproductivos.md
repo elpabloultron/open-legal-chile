@@ -8466,3 +8466,17 @@ tivo (2008).
 chos y deberes de las personas en relación a las             Penas Crueles, Inhumanos o Degradantes (1984)
                                             actividades vinculadas con su atención de salud,             y su protocolo facultativo (2002).
                                             Diario Oficial, 26 de diciembre de 2012.
+
+<!-- enlaces:generado sha256:3b1831a87a415e709ab34b7cf09b747a8ff0847413237c55ad58ca544a4d269f -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Introducción a los Derechos Humanos](MD38-Introduccion-a-los-derechos-humanos.md) — cita mutua
+- [Derecho Internacional Humanitario y el Derecho Penal Internacional](Derecho-Internacional-humanitario-y-DPI.md) — cita mutua
+- [Habilitante para juez de juzgado de letras del trabajo](09_Habilitante-Laboral.md) — cita mutua
+- [Habilitante para juez de juzgado de familia](10_Habilitante-Familia.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/01_Derechos-sexuales-y-reproductivos.md>

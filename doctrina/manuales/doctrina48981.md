@@ -19419,3 +19419,17 @@ herramientas útiles para el jurista:
      +34902121215               atencion.latam@tirantonline.com
 
      +34963696675               latam@tirantonline.com
+
+<!-- enlaces:generado sha256:d9c55d791ca216ae3ce9e8a9c389b02dc3fa3bf8ad9fe41b42256121abfcb418 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derecho Procesal — Apuntes de la profesora Cerra](Derecho-Procesal-profesora-Cerra.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO I: BASES DE LA INSTITUCIONALIDAD Y BLOQUE CONSTI](../constitucional/cea_derecho_constitucional/01_bases_de_la_institucionalidad_y_bloque_constitucional.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO I: BASES CONSTITUCIONALES Y PRINCIPIOS](../administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md) — cita mutua
+- [Habilitante para juez de juzgado de garantía y tribunal de juicio oral en lo penal](../academia_judicial/08_Habilitante-Penal.md) — cita mutua
+- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/manuales/doctrina48981.md>

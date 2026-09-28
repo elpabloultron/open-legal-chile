@@ -12358,3 +12358,17 @@ Valdés A., Sr. Héctor Carreño S., Sr. Guillermo Silva G., Sra. Rosa Maggi D. 
 Eduardo Fuentes B.
 
            Ley N° 19.537, sobre Copropiedad Inmobiliaria – Juan Andrés Orrego Acuña   254
+
+<!-- enlaces:generado sha256:245c111aecb72cd7b8618debc591d8dca1eab956085058e853d9681fb3e2169a -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
+- [Extinción de las Obligaciones](Extinción%20de%20las%20Obligaciones.md) — cita mutua
+- [Sucesorio 1 (conceptos fundamentales)](Sucesorio%201%20conceptos%20fundamentales.md) — mismo tema (1 conexiones)
+- [Los Bienes](Los%20Bienes.md) — mismo tema (1 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Ley%2019537-Copropiedad%20Inmobiliaria.md>

@@ -38,3 +38,17 @@ La determinación de la intención de los contratantes es una cuestión de hecho
 
 **Concordancias Legales:** `[BCN - Código Civil, Art. 1560]` `[BCN - Código Civil, Art. 1562]` `[BCN - Código Civil, Art. 1564]` `[BCN - Código Civil, Art. 1566]` `[BCN - Código de Procedimiento Civil, Art. 767]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 33.420-2019, Fecha: 15-06-2020]`
+
+<!-- enlaces:generado sha256:a712ec3287c6ccc4215964d69baf7ae9440a6aa9bf087d4b54e59b311c7b8914 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [LOS CONTRATOS: PARTE GENERAL — CAPÍTULO I: PRINCIPIOS CONTRACTUALES Y BUENA FE](01_principios_contractuales_y_buena_fe.md) — cita mutua
+- [TRATADO DE LOS RECURSOS PROCESALES — CAPÍTULO III: CASACIÓN EN LA FORMA, FONDO Y QUEJA](../../procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md) — cita mutua
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO I: MODELOS Y ESTRUCTURA GENERAL](../barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md) — cita mutua
+- [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO IV: DAÑO, CAUSALIDAD Y PRESCRIPCIÓN](../barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md) — cita mutua
+- [CURSO DE DERECHO PROCESAL — CAPÍTULO II: EMPLAZAMIENTO, PRECAUTORIAS Y JUICIO ORDINARIO](../../procesal/orellana_romero_disposiciones_comunes/02_emplazamiento_medidas_precautorias_y_prueba.md) — mismo tema (2 conexiones)
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/civil/lopez_santa_maria_contratos/02_imprevision_efecto_relativo_e_interpretacion.md>

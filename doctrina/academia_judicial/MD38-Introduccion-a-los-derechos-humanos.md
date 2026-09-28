@@ -15159,3 +15159,17 @@ Materiales Docentes                                                        Refer
 
 Academia Judicial de Chile   Introducción a los derechos humanos
 Materiales Docentes                                   Referencias
+
+<!-- enlaces:generado sha256:b6c4b179fb18330f4b17cedb5fb687c3263a1fab3294fb64f0b292abb7139501 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Atención de usuarios en situaciones complejas y de vulnerabilidad](MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md) — cita mutua
+- [Atención de usuarios en situaciones complejas y de vulnerabilidad](MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md) — cita mutua
+- [Debido Proceso](MD65-Debido-Proceso.md) — cita mutua
+- [Derechos económicos, sociales y culturales](MD-53-DERECHOS-ECONOMICOS-SOCIALES-Y-CULTURALES.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD38-Introduccion-a-los-derechos-humanos.md>

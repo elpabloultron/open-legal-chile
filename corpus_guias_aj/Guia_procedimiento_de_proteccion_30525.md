@@ -2773,3 +2773,22 @@ asistencia a clases, rendimiento académico, comportamiento con pares y
                                    Se informa que si las parte desean conocer la causa, interiorizarse de los informes
                                    podrán acceder al sistema electrónico de tramitación usando su clave única a
                                    través de https://oficinajudicialvirtual.pjud.cl
+
+<!-- enlaces:generado sha256:71b801b8fd327fcf78fc11c8d60d13bb502be4cbf4748cc8dee67759c96a8cd8 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- (sin conexiones medidas todavía)
+
+**Obras del canon que esta guía trabaja:**
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md)
+- [Tribunales de Familia: nociones básicas de organización y funcionamiento](../doctrina/academia_judicial/01_Tribunales-de-Familia-nociones-basicas-de-org-y-funcionamiento.md)
+- [Régimen de alimentos, cuidado personal y relación directa y regular aplicado a la decisión](../doctrina/academia_judicial/13_Regimen-de-alimentos-cuidado-personal-y-RDR.md)
+- [Guía para el procedimiento de medidas de protección en tribunales de familia](../doctrina/academia_judicial/aj_proteccion_familia.md)
+
+**Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../jurisprudencia_tc/README.md) · [Sentencias ambientales](../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/corpus_guias_aj/Guia_procedimiento_de_proteccion_30525.md>

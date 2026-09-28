@@ -13157,3 +13157,17 @@ PUEBLOS INDÍGENAS (2009): “Promoción y protec-
                                                ción de todos los derechos humanos, civiles, eco-
                                                nómicos, sociales y culturales incluido el derecho al
                                                desarrollo”, A/HRC/12/34, 15 de julio de 2009
+
+<!-- enlaces:generado sha256:661f441e6caaa56c99107e6e815258e59e29af5aae5614afae30903573348146 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Ley Antidiscriminación](Ley-Antidiscriminacion.md) — cita mutua
+- [Régimen de alimentos, cuidado personal y relación directa y regular aplicado a la decisión](13_Regimen-de-alimentos-cuidado-personal-y-RDR.md) — cita mutua
+- [Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelacion](12_Gobierno-Judicial.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/Convenio-169-de-la-OIT-sobre-pueblos-indigenas.md>

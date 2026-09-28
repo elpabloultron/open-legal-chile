@@ -2974,3 +2974,22 @@ Ana María González, Constanza Valenzuela y Marco Antonio Coloma.
 
 Academia Judicial de Chile   Autocuidado
 Materiales Docentes           Referencias
+
+<!-- enlaces:generado sha256:0785f793e7c013f273c91963a5e90c122cbf26b3df2fa6a717da77a47910fff2 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
+- [Regulación nacional y convención internacional sobre personas con discapacidad](11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md) — cita mutua
+- [Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales](MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia aplicada para la determinacion de penas](../../corpus_guias_aj/Guia-aplicada-para-la-determinacion-de-penas.md) — la usa como material de apoyo
+- [Guia Procedimiento Monitorio 2025](../../corpus_guias_aj/Guia_Procedimiento_Monitorio_2025_v1.1.md) — la usa como material de apoyo
+- [Guia audiencia ejecucion 2025](../../corpus_guias_aj/Guia_audiencia_ejecucion_2025_v1.1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md>

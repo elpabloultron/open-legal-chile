@@ -5424,3 +5424,17 @@ especial.
 180.- Señale las diferencias entre la prescripción extintiva y la caducidad.
 
              Extinción de las Obligaciones – Juan Andrés Orrego Acuña               100
+
+<!-- enlaces:generado sha256:9dd972100c1679f435b55c6e86d6f19dd2089283d75d90a0d54164b82b865310 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
+- [Responsabilidad Extracontractual](Responsabilidad%20Extracontractual.md) — cita mutua
+- [Contrato de compraventa](Contrato%20de%20compraventa.md) — cita mutua
+- [La prescripcion](La%20prescripcion.md) — cita mutua
+- [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/apuntes_orrego/Extinción%20de%20las%20Obligaciones.md>

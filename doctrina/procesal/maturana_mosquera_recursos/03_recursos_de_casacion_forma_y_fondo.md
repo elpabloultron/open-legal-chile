@@ -50,3 +50,17 @@ Recurso de carácter estrictamente disciplinario que tiene por exclusivo objeto 
 
 **Concordancias Legales:** `[BCN - Código Orgánico de Tribunales, Art. 545]` `[BCN - Código Orgánico de Tribunales, Art. 548]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 10.120-2022, Fecha: 09-06-2022]`
+
+<!-- enlaces:generado sha256:25349518d5d3e272da6b3c71f8464544673876bbb36f115297b7f84bb5d5b183 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO I: VOLUNTAD, CONSENTIMIENTO Y VICIOS](../../civil/vial_del_rio_acto_juridico/01_voluntad_consentimiento_y_vicios.md) — cita mutua
+- [TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO](../../civil/penailillo_bienes/04_acciones_protectoras_del_dominio_y_precario.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](../../administrativo/bermudez_derecho_administrativo/02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
+- [LOS CONTRATOS: PARTE GENERAL — CAPÍTULO II: IMPREVISIÓN, EFECTO RELATIVO E INTERPRETACIÓN](../../civil/lopez_santa_maria_contratos/02_imprevision_efecto_relativo_e_interpretacion.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md>

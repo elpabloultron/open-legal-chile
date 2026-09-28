@@ -7825,3 +7825,20 @@ Establecer indicadores de gestión es una manera de medir si el
                                                        —        Manual único para tribunales.
 
 ←                                        Índice de contenidos
+
+<!-- enlaces:generado sha256:3ec4b5dadfd322a5a1113674d74eaf9c4466ac50d40f30d85480ba60154e8291 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Tribunales No Reformados: nociones básicas de organización y funcionamiento](05_tribunales-no-reformados-nociones-basicas-de-org.-y-funcionamiento.md) — cita mutua
+- [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
+- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — mismo tema (2 conexiones)
+- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — mismo tema (2 conexiones)
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia Audiencia Monitoria](../../corpus_guias_aj/Guia_Audiencia_Monitoria-v1.md) — la usa como material de apoyo
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/academia_judicial/02_Tribunales-Laborales-nociones-basicas-org.-y-funcionamiento.md>

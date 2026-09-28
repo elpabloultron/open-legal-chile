@@ -33,3 +33,17 @@ Manifestación del *ius puniendi* estatal encomendada a órganos administrativos
 
 **Concordancias Legales:** `[BCN - CPR, Art. 19 N° 3]` `[BCN - Ley N° 19.880, Art. 2]` `[BCN - Ley N° 20.417 Orgánica SMA, Art. 38]`  
 **Criterio Jurisprudencial Rector:** `[CS - Rol N° 41.200-2019, Fecha: 10-06-2020]` `[STC - Rol N° 479-2006, Fecha: 08-08-2006]`
+
+<!-- enlaces:generado sha256:82b89f52489654fb8a8db11d13f00ab0e3caf934444dfa19dce474bb9d6f8b99 -->
+## Véase también
+
+**Obras del canon relacionadas** — por los temas y las normas que comparten:
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO IV: EXTINCIÓN DE OBLIGACIONES Y PRELACIÓN DE CRÉDITOS](../../civil/ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md) — cita mutua
+- [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO I: BASES CONSTITUCIONALES Y PRINCIPIOS](01_bases_constitucionales_y_principios.md) — cita mutua
+- [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO II: DERECHOS FUNDAMENTALES Y ORDEN PÚBLICO ECONÓ](../../constitucional/cea_derecho_constitucional/02_derechos_fundamentales_y_orden_economico.md) — cita mutua
+
+**Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
+
+**Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/administrativo/bermudez_derecho_administrativo/03_responsabilidad_falta_de_servicio_y_sancionador.md>
