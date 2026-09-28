@@ -108,3 +108,25 @@ def test_el_bloque_es_aditivo_en_un_ejemplo(tmp_path):
     texto2 = archivo.read_text(encoding="utf-8")
     assert texto2.count(MARCADOR) == 1
     assert texto2.startswith(original)
+
+def test_no_revienta_si_el_archivo_vive_en_otro_disco(tmp_path, monkeypatch):
+    """Windows real: D: vs C: hacen estallar os.path.relpath. El bloque debe caer a ruta absoluta."""
+    import importlib.util
+    import os as _os
+
+    spec = importlib.util.spec_from_file_location(
+        "enlazar_corpus", RAIZ / "scripts" / "enlazar_corpus.py")
+    assert spec is not None and spec.loader is not None
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+
+    def relpath_simulado(path, start=None):
+        raise ValueError("path is on mount 'D:', start on mount 'C:'")
+
+    monkeypatch.setattr(_os.path, "relpath", relpath_simulado)
+    archivo = tmp_path / "obra.md"
+    archivo.write_text("# Obra\n\nTexto.\n", encoding="utf-8")
+    mod.aplicar_bloque(archivo, mod.bloque_para(archivo, [], [], {}))
+    texto = archivo.read_text(encoding="utf-8")
+    assert MARCADOR in texto and "## Véase también" in texto
+    assert "Publicado en Hugging Face" in texto
