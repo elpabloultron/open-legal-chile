@@ -195,7 +195,7 @@ en Markdown y con índices para agentes ([`llms.txt`](https://huggingface.co/dat
 | Guías AJ | Academia Judicial de Chile, texto íntegro | **24 guías** |
 | Corte Suprema | ficha Markdown + enlace oficial (el texto íntegro exige sesión PJUD) | **70 523 fichas** |
 | Tribunal Constitucional | texto íntegro | **967 sentencias** |
-| Ambientales (1TA/2TA/3TA) | 2TA/3TA con texto íntegro; 1TA como ficha con enlace (su portal ya no sirve PDFs) | **886 sentencias** |
+| Ambientales (1TA/2TA/3TA) | 735 con texto íntegro · 151 fichas (las 111 de 1TA: su portal ya no sirve PDFs) | **886 sentencias** |
 | Publicaciones ambientales | boletines y anuarios | **55** |
 
 Cada obra trae al final un bloque **«Véase también»** con sus conexiones medidas (grafo de citas,
