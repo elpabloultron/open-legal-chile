@@ -41,6 +41,9 @@ _ARCHIVOS_HF_CACHE: Dict[str, Any] = {}
 # Candado del memo: el precalentado del arranque y la primera consulta pueden pedir el listado
 # a la vez; con él, el segundo espera la descarga en curso en vez de duplicarla (~18 s c/u).
 _ARCHIVOS_HF_LOCK = threading.Lock()
+# El listado del dataset cambia poco: la copia en disco vale un día y evita pagar el hub
+# (~18 s por proceso, medido el 2026-09-28) en la primera consulta de cada sesión.
+_TTL_LISTADO_DISCO = 24 * 3600
 
 # Frescura de la caché: cada cuánto se revalida un archivo contra el hub y dónde se recuerda
 # qué revisión está bajada (el blob_id de git identifica el contenido sin tener que bajarlo).
@@ -1354,11 +1357,17 @@ def _normalizar_para_buscar(texto: str) -> str:
     return texto.translate(str.maketrans("áéíóúüñÁÉÍÓÚÜÑ", "aeiouunAEIOUUN"))
 
 
+def _ruta_listado_hf(repo_id: str) -> pathlib.Path:
+    return CACHE_HF / (repo_id.replace("/", "__") + "__listado.json")
+
+
 def _listar_archivos_hf(repo_id: str) -> List[str]:
-    """Lista los archivos del dataset con caché en memoria (10 minutos).
+    """Lista los archivos del dataset: memoria (10 min) → disco (24 h) → hub.
 
     El candado cubre la carrera del arranque: el precalentado del server y la primera consulta
     pueden pedir el listado a la vez; sin él ambos pagaban la misma descarga (~18 s cada uno).
+    La copia en disco hace que la primera consulta de cada sesión no lo pague de nuevo; sin red,
+    la copia aunque vencida se usa igual (es un índice de búsqueda, no una cita).
     """
     global _ARCHIVOS_HF_CACHE
     ahora = time.time()
@@ -1368,9 +1377,32 @@ def _listar_archivos_hf(repo_id: str) -> List[str]:
         ahora = time.time()
         if _ARCHIVOS_HF_CACHE.get("repo") == repo_id and ahora - _ARCHIVOS_HF_CACHE.get("t", 0) < 600:
             return _ARCHIVOS_HF_CACHE.get("archivos", [])
-        from huggingface_hub import HfApi
-        archivos = HfApi(token=resolver_token_hf()).list_repo_files(repo_id=repo_id, repo_type="dataset")
+        ruta = _ruta_listado_hf(repo_id)
+        archivos_disco: List[str] = []
+        vencido = True
+        try:
+            dato = json.loads(ruta.read_text(encoding="utf-8"))
+            archivos_disco = [str(a) for a in (dato.get("archivos") or [])]
+            vencido = ahora - float(dato.get("t") or 0) >= _TTL_LISTADO_DISCO
+        except Exception:  # noqa: BLE001 — sin copia legible se va al hub
+            pass
+        if archivos_disco and not vencido:
+            _ARCHIVOS_HF_CACHE = {"repo": repo_id, "t": ahora, "archivos": archivos_disco}
+            return archivos_disco
+        try:
+            from huggingface_hub import HfApi
+            archivos = HfApi(token=resolver_token_hf()).list_repo_files(repo_id=repo_id, repo_type="dataset")
+        except Exception:
+            if archivos_disco:  # sin red: el índice viejo sirve (no se marca fresco)
+                return archivos_disco
+            raise
         _ARCHIVOS_HF_CACHE = {"repo": repo_id, "t": ahora, "archivos": archivos}
+        try:
+            ruta.parent.mkdir(parents=True, exist_ok=True)
+            ruta.write_text(json.dumps({"repo": repo_id, "t": ahora, "archivos": archivos},
+                                       ensure_ascii=False), encoding="utf-8")
+        except Exception:  # noqa: BLE001 — no poder guardar no puede tumbar una búsqueda
+            pass
         return archivos
 
 

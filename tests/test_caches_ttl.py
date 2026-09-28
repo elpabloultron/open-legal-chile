@@ -26,7 +26,7 @@ def _envejecer(ruta, dias=40):
 
 def test_ley_fresca_no_va_a_la_red(monkeypatch, tmp_path):
     cliente = bcn_connector.BCNClient(cache_dir=str(tmp_path))
-    cache = tmp_path / "ley_99999.json"
+    cache = tmp_path / "ley_p2_99999.json"
     cache.write_text(json.dumps({"titulo": "de prueba", "articulos": {"1": "uno"}}),
                      encoding="utf-8")
 
@@ -41,7 +41,7 @@ def test_ley_fresca_no_va_a_la_red(monkeypatch, tmp_path):
 
 def test_ley_vencida_se_refresca(monkeypatch, tmp_path):
     cliente = bcn_connector.BCNClient(cache_dir=str(tmp_path))
-    cache = tmp_path / "ley_99999.json"
+    cache = tmp_path / "ley_p2_99999.json"
     cache.write_text(json.dumps({"titulo": "vieja", "articulos": {"1": "viejo"}}),
                      encoding="utf-8")
     _envejecer(cache, dias=40)
@@ -59,7 +59,7 @@ def test_ley_vencida_se_refresca(monkeypatch, tmp_path):
 
 def test_ley_vencida_sin_red_entrega_la_copia_marcada(monkeypatch, tmp_path):
     cliente = bcn_connector.BCNClient(cache_dir=str(tmp_path))
-    cache = tmp_path / "ley_99999.json"
+    cache = tmp_path / "ley_p2_99999.json"
     cache.write_text(json.dumps({"titulo": "vieja", "articulos": {"1": "viejo"}}),
                      encoding="utf-8")
     _envejecer(cache, dias=40)
@@ -156,13 +156,14 @@ def test_snifa_vencida_sin_red_entrega_copia_marcada(monkeypatch, tmp_path):
     assert datos.get("copia_local_vencida") is True
 
 
-def test_listado_hf_concurrente_descarga_una_sola_vez(monkeypatch):
+def test_listado_hf_concurrente_descarga_una_sola_vez(monkeypatch, tmp_path):
     """El precalentado del server y la primera consulta piden el listado a la vez: una descarga."""
     from concurrent.futures import ThreadPoolExecutor
 
     import online_library_sync as ols
 
     pytest.importorskip("huggingface_hub")
+    monkeypatch.setattr(ols, "CACHE_HF", tmp_path)
 
     llamadas = []
 
@@ -184,3 +185,84 @@ def test_listado_hf_concurrente_descarga_una_sola_vez(monkeypatch):
 
     assert all(r == ["a.md", "b.md"] for r in resultados)
     assert len(llamadas) == 1, "cuatro llamadas simultáneas no pueden pagar cuatro descargas"
+
+
+# ─────────────────── Listado HF en disco (24 h) ───────────────────
+
+
+def _hf_falso(monkeypatch, ols, archivos):
+    llamadas = []
+
+    class _Hf:
+        def __init__(self, *args, **kwargs):
+            pass
+
+        def list_repo_files(self, repo_id, repo_type=None):
+            llamadas.append(repo_id)
+            return list(archivos)
+
+    monkeypatch.setattr("huggingface_hub.HfApi", _Hf)
+    monkeypatch.setattr(ols, "resolver_token_hf", lambda: "token-falso")
+    return llamadas
+
+
+def test_listado_hf_se_reutiliza_desde_disco(monkeypatch, tmp_path):
+    """Segundo proceso (memoria vacía) lee la copia en disco: no vuelve a pagar el hub (~18 s)."""
+    import online_library_sync as ols
+
+    pytest.importorskip("huggingface_hub")
+
+    monkeypatch.setattr(ols, "CACHE_HF", tmp_path)
+    monkeypatch.setattr(ols, "_ARCHIVOS_HF_CACHE", {})
+    llamadas = _hf_falso(monkeypatch, ols, ["a.md", "b.md"])
+
+    assert ols._listar_archivos_hf("repo/prueba") == ["a.md", "b.md"]
+    assert llamadas == ["repo/prueba"]
+    assert (tmp_path / "repo__prueba__listado.json").exists(), "la copia queda en disco"
+
+    monkeypatch.setattr(ols, "_ARCHIVOS_HF_CACHE", {})   # memoria vacía = proceso nuevo
+    assert ols._listar_archivos_hf("repo/prueba") == ["a.md", "b.md"]
+    assert len(llamadas) == 1, "con la copia en disco no se vuelve al hub"
+
+
+def test_listado_hf_vencido_se_refresca(monkeypatch, tmp_path):
+    import online_library_sync as ols
+
+    pytest.importorskip("huggingface_hub")
+
+    monkeypatch.setattr(ols, "CACHE_HF", tmp_path)
+    monkeypatch.setattr(ols, "_ARCHIVOS_HF_CACHE", {})
+    mapa = tmp_path / "repo__prueba__listado.json"
+    mapa.write_text(json.dumps({"repo": "repo/prueba", "t": time.time() - 999_999,
+                                "archivos": ["viejo.md"]}), encoding="utf-8")
+    llamadas = _hf_falso(monkeypatch, ols, ["nuevo.md"])
+
+    assert ols._listar_archivos_hf("repo/prueba") == ["nuevo.md"]
+    assert llamadas == ["repo/prueba"], "vencida la copia, se revalida contra el hub"
+    actualizado = json.loads(mapa.read_text(encoding="utf-8"))
+    assert actualizado["archivos"] == ["nuevo.md"], "la copia de disco se actualiza"
+
+
+def test_listado_hf_vencido_sin_red_usa_la_copia(monkeypatch, tmp_path):
+    """Sin red, el índice viejo sirve igual: es un índice de búsqueda, no una cita."""
+    import online_library_sync as ols
+
+    pytest.importorskip("huggingface_hub")
+
+    monkeypatch.setattr(ols, "CACHE_HF", tmp_path)
+    monkeypatch.setattr(ols, "_ARCHIVOS_HF_CACHE", {})
+    monkeypatch.setattr(ols, "resolver_token_hf", lambda: "token-falso")
+    mapa = tmp_path / "repo__prueba__listado.json"
+    mapa.write_text(json.dumps({"repo": "repo/prueba", "t": time.time() - 999_999,
+                                "archivos": ["viejo.md"]}), encoding="utf-8")
+
+    class _HfRoto:
+        def __init__(self, *args, **kwargs):
+            pass
+
+        def list_repo_files(self, repo_id, repo_type=None):
+            raise RuntimeError("sin red")
+
+    monkeypatch.setattr("huggingface_hub.HfApi", _HfRoto)
+
+    assert ols._listar_archivos_hf("repo/prueba") == ["viejo.md"]
