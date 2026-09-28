@@ -19,6 +19,9 @@ import pathlib
 import re
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
+
+# Base pública del corpus en Hugging Face (el derivado no se versiona; el README lo enlaza ahí).
+BASE_HF = "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/jurisprudencia_cs"
 ORIGEN_POR_DEFECTO = RAIZ / "data" / "jurisprudencia" / "cs_sentencias_2anios.jsonl"
 DESTINO_POR_DEFECTO = RAIZ / "jurisprudencia_cs"
 
@@ -140,7 +143,9 @@ def main() -> int:
                 f"# Índice — Corte Suprema, era {era}\n\n"
                 f"{len(lineas)} fichas. Formato: carátula · fecha · resultado.\n\n"
                 + "\n".join(lineas) + "\n", encoding="utf-8")
-            eras.append(f"[{era}](INDICE_{era}.md) ({len(lineas)})")
+            # Los índices viven en Hugging Face (el corpus derivado no se versiona): el README los
+            # enlaza por URL absoluta para que el enlace valga en el repositorio y en la web.
+            eras.append(f"[{era}]({BASE_HF}/INDICE_{era}.md) ({len(lineas)})")
             print(f"  índice {indice.name}: {len(lineas)} entradas")
         readme = args.destino / "README.md"
         readme.write_text(README.format(total=escritos, indices=" · ".join(eras)), encoding="utf-8")
