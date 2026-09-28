@@ -118,6 +118,39 @@ def precalentar_caches() -> None:
         pass
 
 
+# ── Progreso MCP: el cliente pone `params._meta.progressToken` en cada tools/call ─────────────
+# Sin token no se escribe nada: los clientes que no saben de avances ven el protocolo de siempre.
+_STDOUT_LOCK = threading.Lock()
+_TOKEN_PROGRESO: Any = None
+
+
+def _fijar_token_progreso(token: Any) -> None:
+    """Fija el token de avance de la llamada en curso (lo llama main por cada tools/call)."""
+    global _TOKEN_PROGRESO
+    _TOKEN_PROGRESO = token
+
+
+def enviar_progreso(mensaje: str, avance: int = 0, total: Optional[int] = None) -> None:
+    """Emite una notificación `notifications/progress` de la llamada en curso (no-op sin token).
+
+    Se escribe bajo el mismo candado que las respuestas finales para que una notificación nunca
+    parta a medias una respuesta del protocolo; sin token no se escribe nada.
+    """
+    token = _TOKEN_PROGRESO
+    if token is None:
+        return
+    params: Dict[str, Any] = {"progressToken": token, "progress": avance}
+    if total is not None:
+        params["total"] = total
+    if mensaje:
+        params["message"] = mensaje
+    linea = json.dumps({"jsonrpc": "2.0", "method": "notifications/progress", "params": params},
+                       ensure_ascii=False, separators=(",", ":"))
+    with _STDOUT_LOCK:
+        sys.stdout.write(linea + "\n")
+        sys.stdout.flush()
+
+
 import case_intake
 import grafo_vista
 
@@ -648,7 +681,11 @@ def main():
             elif method == "tools/call":
                 tool_name = params.get("name")
                 tool_args = params.get("arguments", {})
-                res = handle_tool_call(tool_name, tool_args)
+                _fijar_token_progreso((params.get("_meta") or {}).get("progressToken"))
+                try:
+                    res = handle_tool_call(tool_name, tool_args)
+                finally:
+                    _fijar_token_progreso(None)
                 is_error = isinstance(res, dict) and "error" in res
 
                 # Formateo denso para ahorro de tokens (25-40% menos tokens que indent=2)
@@ -686,8 +723,9 @@ def main():
                     }
                 }
 
-            sys.stdout.write(json.dumps(resp, ensure_ascii=False, separators=(',', ':')) + "\n")
-            sys.stdout.flush()
+            with _STDOUT_LOCK:
+                sys.stdout.write(json.dumps(resp, ensure_ascii=False, separators=(',', ':')) + "\n")
+                sys.stdout.flush()
 
         except Exception as e:
             err_resp = {
@@ -695,8 +733,9 @@ def main():
                 "id": None,
                 "error": {"code": -32603, "message": str(e)}
             }
-            sys.stdout.write(json.dumps(err_resp) + "\n")
-            sys.stdout.flush()
+            with _STDOUT_LOCK:
+                sys.stdout.write(json.dumps(err_resp) + "\n")
+                sys.stdout.flush()
 
 if __name__ == "__main__":
     main()

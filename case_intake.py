@@ -675,7 +675,8 @@ def caso_analizar(entrada: str, tipo: Optional[str] = None, consulta: str = "",
 def caso_ejecutar(entrada: str = "", tipo: Optional[str] = None, pasos: Optional[List[int]] = None,
                   limite_pasos: int = 12) -> Dict[str, Any]:
     """Ejecuta los pasos del plan. Cada paso deja su resultado o su error, y nada se inventa."""
-    import mcp_server  # import perezoso: mcp_server importa este módulo al registrarlo
+    from config import servidor_actual
+    mcp_server = servidor_actual()  # el server que corre: como script → __main__; importado → mcp_server
 
     analisis = caso_analizar(entrada, tipo)
     if "error" in analisis:
@@ -689,6 +690,8 @@ def caso_ejecutar(entrada: str = "", tipo: Optional[str] = None, pasos: Optional
 
     resultados: List[Dict[str, Any]] = []
     for numero, paso in enumerate(elegidos, 1):
+        mcp_server.enviar_progreso(f"Paso {numero} de {len(elegidos)}: {paso['herramienta']}",
+                                   numero, len(elegidos))
         herramienta = paso["herramienta"]
         argumentos = dict(paso["argumentos"])
         # Los argumentos que faltan se completan con lo que se pudo detectar, y si no alcanza

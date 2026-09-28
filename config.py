@@ -100,6 +100,23 @@ def safe_urlopen(req, timeout: float = 30.0):
     return urllib.request.urlopen(req, timeout=timeout)  # nosec B310
 
 
+def servidor_actual():
+    """Devuelve el módulo del server que está corriendo (importado o como script).
+
+    Corriendo `python mcp_server.py` el server vive en `__main__`, y un `import mcp_server` desde
+    los despachadores crea una SEGUNDA copia del módulo con estado propio (medido el 2026-09-28:
+    222 ms de reimport, y el token de progreso en None ⇒ las notificaciones se perdían en
+    silencio). Por eso todos los despachadores resuelven el módulo por acá.
+    """
+    import sys
+    for nombre in ("mcp_server", "__main__"):
+        modulo = sys.modules.get(nombre)
+        if modulo is not None and hasattr(modulo, "handle_tool_call"):
+            return modulo
+    import mcp_server  # último recurso: nadie lo tenía cargado (script suelto)
+    return mcp_server
+
+
 # ── Canal HTTP persistente (keep-alive): conexiones reutilizables por host ───────────────────
 # Medido el 2026-09-28: cada consulta abría su propia conexión (negociación TLS completa cada
 # vez). En ráfagas —varios artículos de una ley, varias leyes de una consulta— la conexión se

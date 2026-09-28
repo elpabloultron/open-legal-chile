@@ -4,6 +4,7 @@ from typing import TYPE_CHECKING, Any
 if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de mcp_server
     from mcp_server import (
         ambientales_client,
+        enviar_progreso,
     )
 
 
@@ -12,7 +13,8 @@ def _refrescar() -> None:
 
     Corre en cada despacho: los bloques movidos usan los mismos objetos vivos del servidor,
     incluidas las sustituciones que hagan las pruebas con monkeypatch."""
-    import mcp_server as _m
+    from config import servidor_actual
+    _m = servidor_actual()
     _g = globals()
     _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
 
@@ -58,8 +60,11 @@ def despachar(name: str, args: dict) -> Any:
         if not consulta:
             return {"error": "El parámetro 'consulta' es obligatorio."}
         from modulo_ambiental import consulta_ambiental
-        return consulta_ambiental(consulta, limite=int(args.get("limite") or 8),
-                                  incluir_subgrafo=bool(args.get("incluir_subgrafo", False)))
+        enviar_progreso("Ambiental: corpus, sentencias y doctrina", 1, 3)
+        resultado = consulta_ambiental(consulta, limite=int(args.get("limite") or 8),
+                                       incluir_subgrafo=bool(args.get("incluir_subgrafo", False)))
+        enviar_progreso("Ambiental: listo", 3, 3)
+        return resultado
     return None
 
 

@@ -24,7 +24,8 @@ def _refrescar() -> None:
 
     Corre en cada despacho: los bloques movidos usan los mismos objetos vivos del servidor,
     incluidas las sustituciones que hagan las pruebas con monkeypatch."""
-    import mcp_server as _m
+    from config import servidor_actual
+    _m = servidor_actual()
     _g = globals()
     _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
 
