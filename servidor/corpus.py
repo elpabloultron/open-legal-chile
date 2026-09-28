@@ -67,16 +67,22 @@ TOOLS = [
     {
         "name": "cita_texto",
         "description": "Devuelve el TEXTO LITERAL de una norma citada, con su corchete oficial y su enlace. "
-                       "Usala antes de citar cualquier artículo: el producto no cita sin texto.",
+                       "Usala antes de citar cualquier artículo: el producto no cita sin texto. "
+                       "Para verificar varias de una vez, pasá `referencias` (lote): una sola llamada, "
+                       "una pasada de red por norma única.",
         "inputSchema": {
             "type": "object",
             "properties": {
                 "referencia": {
                     "type": "string",
                     "description": "Ej.: 'Código Civil art. 1438', 'Ley 21.643 art. 2'"
+                },
+                "referencias": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Lote de normas a verificar juntas (ej. ['Ley 19.300 art. 47', 'Ley 20.417 art. 48']). Lo que falle queda en `faltantes`."
                 }
-            },
-            "required": ["referencia"]
+            }
         }
     },
     {
@@ -329,6 +335,103 @@ TOOLS = [
 ]
 
 
+def _cita_de_norma(cliente: Any, norma: dict) -> dict:
+    """Resuelve el texto literal de una norma ya identificada: cita lista o error declarado."""
+    try:
+        if norma["familia"] == "codigo":
+            dato = cliente.get_codigo(norma["obra"], norma["articulo"])
+            ident = f"{CODIGOS[norma['obra']]}, Art. {norma['articulo']}"
+            url = _url_codigo_bcn(norma["obra"])
+        else:
+            numero_ley = int(norma["numero"])
+            if norma.get("articulo"):
+                dato = cliente.get_articulo_ley(numero_ley, norma["articulo"])
+                ident = f"Ley N° {numero_ley}, Art. {norma['articulo']}"
+                url = f"https://www.bcn.cl/leychile/navegar?idLey={numero_ley}"
+            else:
+                dato = cliente.get_ley(numero_ley)
+                ident = f"Ley N° {numero_ley}"
+                url = f"https://www.bcn.cl/leychile/navegar?idNorma={dato.get('normaId', '')}"
+    except Exception as e:  # noqa: BLE001 — se declara, no se inventa
+        return {"error": f"No pude traer el texto: {str(e)[:160]}", "sin_fuente_verificable": True}
+    texto = str(dato.get("texto") or "")
+    if not texto:
+        return {"error": "La fuente respondió sin texto: no se cita lo que no se pudo leer.",
+                "sin_fuente_verificable": True, "detalle": str(dato)[:300]}
+    return {"cita": formatear_cita("BCN", ident, url=url, texto=texto[:1200])}
+
+
+def _citas_por_lote(referencias: list) -> dict:
+    """Verifica varias normas en una sola llamada: una pasada de red por norma única.
+
+    Los artículos de una misma ley comparten descarga (detección → dedupe → pool de 6) y lo
+    que no se pudo traer queda aparte en `faltantes`, declarado y sin rellenar.
+    """
+    from concurrent.futures import ThreadPoolExecutor
+
+    pendientes: list = []
+    resultados: list = []
+    for referencia in referencias:
+        normas = detectar_normas(referencia)
+        if not normas:
+            resultados.append({"referencia": referencia,
+                               "error": f"No pude reconocer una norma en «{referencia}».",
+                               "sin_fuente_verificable": True})
+            continue
+        pendientes.append((referencia, normas[0]))
+
+    try:
+        cliente = _bcn_para_citas()
+    except Exception as e:  # noqa: BLE001
+        return {"error": f"No pude traer los textos: {str(e)[:160]}",
+                "sin_fuente_verificable": True, "faltantes": list(referencias)}
+
+    claves: dict = {}
+    for _, norma in pendientes:
+        clave = (norma["familia"], norma["obra"] if norma["familia"] == "codigo"
+                 else norma["numero"])
+        claves.setdefault(clave, norma)
+
+    def _calentar(item):
+        clave, norma = item
+        try:
+            if norma["familia"] == "codigo":
+                cliente.get_codigo(norma["obra"])
+            else:
+                cliente.get_ley(int(norma["numero"]))
+            return clave, ""
+        except Exception as e:  # noqa: BLE001
+            return clave, str(e)[:160]
+
+    errores: dict = {}
+    with ThreadPoolExecutor(max_workers=min(6, max(1, len(claves))),
+                            thread_name_prefix="citas") as pool:
+        for clave, error in pool.map(_calentar, list(claves.items())):
+            if error:
+                errores[clave] = error
+
+    for referencia, norma in pendientes:
+        clave = (norma["familia"], norma["obra"] if norma["familia"] == "codigo"
+                 else norma["numero"])
+        if clave in errores:
+            resultados.append({"referencia": referencia,
+                               "error": f"No pude traer el texto: {errores[clave]}",
+                               "sin_fuente_verificable": True})
+            continue
+        resultados.append({"referencia": referencia, **_cita_de_norma(cliente, norma)})
+
+    citas = [r["cita"] for r in resultados if "cita" in r]
+    faltantes = [r["referencia"] for r in resultados if "error" in r]
+    return {
+        "total": len(referencias),
+        "citas": citas,
+        "faltantes": faltantes,
+        "resultados": resultados,
+        "como_citar": ("Pegá cada cita con su texto literal; lo que esté en `faltantes` "
+                       "se declara como «sin fuente verificable»."),
+    }
+
+
 def despachar(name: str, args: dict) -> Any:
     _refrescar()
     if name == "consulta_maestra":
@@ -374,36 +477,28 @@ def despachar(name: str, args: dict) -> Any:
                           "fuentes al final. En documentos: citas a pie de página (fuente · identificador · enlace).",
         }
     elif name == "cita_texto":
+        lote = args.get("referencias")
+        if isinstance(lote, str):
+            lote = lote.replace(";", "\n").split("\n")
+        if isinstance(lote, list):
+            lote = [str(una).strip() for una in lote if str(una).strip()]
+        else:
+            lote = []
+        if lote:
+            return _citas_por_lote(lote)
         referencia = (args.get("referencia") or "").strip()
         normas = detectar_normas(referencia)
         if not normas:
             return {"error": f"No pude reconocer una norma en «{referencia}». Probá con «Código Civil art. 1438».",
                     "sin_fuente_verificable": True}
-        norma = normas[0]
         try:
             cliente = _bcn_para_citas()
-            if norma["familia"] == "codigo":
-                dato = cliente.get_codigo(norma["obra"], norma["articulo"])
-                ident = f"{CODIGOS[norma['obra']]}, Art. {norma['articulo']}"
-                url = _url_codigo_bcn(norma["obra"])
-            else:
-                numero_ley = int(norma["numero"])
-                if norma.get("articulo"):
-                    dato = cliente.get_articulo_ley(numero_ley, norma["articulo"])
-                    ident = f"Ley N° {numero_ley}, Art. {norma['articulo']}"
-                    url = f"https://www.bcn.cl/leychile/navegar?idLey={numero_ley}"
-                else:
-                    dato = cliente.get_ley(numero_ley)
-                    ident = f"Ley N° {numero_ley}"
-                    url = f"https://www.bcn.cl/leychile/navegar?idNorma={dato.get('normaId', '')}"
-            texto = str(dato.get("texto") or "")
-            if not texto:
-                return {"error": "La fuente respondió sin texto: no se cita lo que no se pudo leer.",
-                        "sin_fuente_verificable": True, "detalle": str(dato)[:300]}
-            cita = formatear_cita("BCN", ident, url=url, texto=texto[:1200])
-            return {"referencia": referencia, "normas_detectadas": normas, "citas": [cita]}
         except Exception as e:  # noqa: BLE001
             return {"error": f"No pude traer el texto: {str(e)[:160]}", "sin_fuente_verificable": True}
+        resultado = _cita_de_norma(cliente, normas[0])
+        if "cita" in resultado:
+            return {"referencia": referencia, "normas_detectadas": normas, "citas": [resultado["cita"]]}
+        return resultado
     elif name == "busqueda_universal":
         consulta = (args.get("consulta") or "").strip()
         if not consulta:
