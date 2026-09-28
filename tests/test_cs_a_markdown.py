@@ -32,13 +32,13 @@ def test_convierte_una_ficha_a_markdown(tmp_path):
         capture_output=True, text=True, encoding="utf-8", errors="replace")
 
     assert corrida.returncode == 0, corrida.stderr
-    generado = tmp_path / "salida" / "2026" / "50838-2026.md"
+    generado = tmp_path / "salida" / "2026" / "09" / "50838-2026.md"
     assert generado.exists()
     texto = generado.read_text(encoding="utf-8")
     assert "# SERVICIO DE SALUD c/ OTRO" in texto
     assert "[50838-2026](https://juris.pjud.cl" in texto
     assert "Corte Suprema" in texto and "2026-09-24" in texto
-    assert "Hugging Face - jurisprudencia_cs/2026/50838-2026.md" in texto
+    assert "Hugging Face - jurisprudencia_cs/2026/09/50838-2026.md" in texto
 
 
 def test_no_inventa_datos_que_faltan(tmp_path):
@@ -48,7 +48,7 @@ def test_no_inventa_datos_que_faltan(tmp_path):
     subprocess.run([sys.executable, str(RAIZ / "scripts" / "cs_a_markdown.py"),
                     "--origen", str(origen), "--destino", str(tmp_path / "salida")],
                    check=True, capture_output=True)
-    texto = (tmp_path / "salida" / "2024" / "1-2024.md").read_text(encoding="utf-8")
+    texto = (tmp_path / "salida" / "2024" / "sin-fecha" / "1-2024.md").read_text(encoding="utf-8")
     assert "—" in texto, "los campos ausentes se marcan con «—», nunca con texto inventado"
 
 
@@ -68,5 +68,5 @@ def test_indices_por_era(tmp_path):
     indice = tmp_path / "salida" / "INDICE_2026.md"
     assert indice.exists()
     contenido = indice.read_text(encoding="utf-8")
-    assert "100-2026" in contenido and "[UNO c/ DOS](2026/100-2026.md)" in contenido
+    assert "100-2026" in contenido and "[UNO c/ DOS](2026/09/100-2026.md)" in contenido
     assert "200-2026" in contenido

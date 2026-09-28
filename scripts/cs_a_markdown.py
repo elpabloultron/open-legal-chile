@@ -39,7 +39,7 @@ PLANTILLA = """# {caratula}
 **Fuente oficial:** [{rol}]({link})
 
 ---
-Cita: `[Hugging Face - jurisprudencia_cs/{era}/{archivo}]`
+Cita: `[Hugging Face - jurisprudencia_cs/{ruta_rel}]`
 """
 
 README = """# Jurisprudencia de la Corte Suprema (fichas)
@@ -71,6 +71,11 @@ def nombre_archivo(rol: str) -> str:
 
 def ficha_a_markdown(dato: dict) -> tuple[str, pathlib.Path]:
     era = str(dato.get("era") or "sin-era")
+    mes = "sin-fecha"
+    fecha = str(dato.get("fecha") or "")
+    coincidencia = re.match(r"\d{4}-(\d{2})", fecha)
+    if coincidencia:
+        mes = coincidencia.group(1)
     archivo = nombre_archivo(valor(dato, "rol"))
     texto = PLANTILLA.format(
         caratula=valor(dato, "caratula"), tribunal=valor(dato, "tribunal"),
@@ -79,8 +84,9 @@ def ficha_a_markdown(dato: dict) -> tuple[str, pathlib.Path]:
         resultado=valor(dato, "resultado"), tribunal_origen=valor(dato, "tribunal_origen"),
         ministros=valor(dato, "ministros"), publicacion=valor(dato, "publicacion"),
         fallo_anonimizado=valor(dato, "fallo_anonimizado"),
-        link=dato.get("link_detalle") or "https://juris.pjud.cl/", archivo=archivo)
-    return texto, pathlib.Path(era) / archivo
+        link=dato.get("link_detalle") or "https://juris.pjud.cl/",
+        ruta_rel=f"{era}/{mes}/{archivo}")
+    return texto, pathlib.Path(era) / mes / archivo
 
 
 def main() -> int:
