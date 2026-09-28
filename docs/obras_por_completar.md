@@ -56,6 +56,13 @@ nuevas se convirtieron con el conversor de arriba (caracteres contados, no estim
   `data/enlaces_guias_corpus.json` (enlace por norma compartida) y sus bloques «Véase
   también» ya las conectan; el grafo de guías queda pendiente de reconstrucción con su
   extractor de normas.
+- **Enlaces guías ↔ corpus (medido 2026-09-28):** 23 guías con lista de enlaces (134 en total;
+  2-6 por guía, mediana 6) y bloques «Véase también» en 24/24 guías y 227/228 obras de
+  `doctrina/`. Huecos declarados: en guías como `Guia_Audiencia_Juicio_Oral_Laboral.md` la sección
+  «relacionadas» sale «(sin conexiones medidas todavía)» —el enlace por norma compartida no
+  alcanzó— y hay títulos truncados en algunos listados (p. ej. «…Conciliación y»). Umbral
+  propuesto para la próxima regeneración: **≥3 obras por guía**; el insumo que falta es el
+  extractor de normas del grafo de guías (pendiente de arriba).
 - **1TA · 111 sentencias ambientales:** el portal dejó de servir los PDF (301 → `sgc-web`,
   ya sólo HTML); quedan como ficha + enlace, declarado en `jurisprudencia_ambiental/README.md`.
 - **Textos íntegros de la Corte Suprema (70.523):** el buscador del PJUD exige sesión;

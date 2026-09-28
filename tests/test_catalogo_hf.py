@@ -110,10 +110,25 @@ def test_indice_de_agentes_ofrece_rutas_y_cita():
         assert datos["rutas"], "el índice debe ofrecer rutas «tema → archivo»"
 
 
-def test_el_publicador_ya_no_sube_los_artefactos_pesados():
-    """graphify/ en Hugging Face conserva solo la wiki y el informe (los dumps viven en data/)."""
+def test_los_visualizadores_y_formatos_universales_van_al_dataset():
+    """La tarjeta del dataset promete graph.html, GRAPH_TREE.html, graph.graphml y cypher.txt:
+    tienen que publicarse en graphify/ y NO borrarse en el aligerado (solo graph.json queda
+    fuera: el grafo íntegro vive en data/legal_knowledge_graph.json)."""
     fuente = (BASE / "online_library_sync.py").read_text(encoding="utf-8")
     bloque = fuente.split("def preparar_artefactos_graphify", 1)[1].split("def ", 1)[0]
-    for pesado in ("graph.graphml", "cypher.txt", "GRAPH_TREE.html", ".graphify_analysis.json"):
-        assert pesado not in bloque, f"{pesado} no debe volver a publicarse en graphify/"
-    assert "wiki" in bloque and "GRAPH_REPORT.md" in bloque
+    for publicable in ("graph.html", "GRAPH_TREE.html", "GRAPH_CALLFLOW.html",
+                       "graph.graphml", "cypher.txt", "GRAPH_REPORT.md"):
+        assert publicable in bloque, f"{publicable} debe publicarse en graphify/"
+    assert "wiki" in bloque
+    # El aligerado (publicar_en_huggingface) ya no puede borrarlos del dataset:
+    aligerado = fuente.split("pesados = [", 1)[1].split("]", 1)[0]
+    for conservado in ("graph.html", "GRAPH_TREE.html", "graph.graphml", "cypher.txt"):
+        assert conservado not in aligerado, f"{conservado} no debe borrarse del dataset"
+    assert "graphify/graph.json" in aligerado
+
+
+def test_el_dump_del_grafo_no_duplica_en_graphify():
+    """graph.json no viaja a graphify/: el grafo íntegro vive en data/legal_knowledge_graph.json."""
+    fuente = (BASE / "online_library_sync.py").read_text(encoding="utf-8")
+    bloque = fuente.split("def preparar_artefactos_graphify", 1)[1].split("def ", 1)[0]
+    assert '"graph.json"' not in bloque
