@@ -258,10 +258,10 @@ def main() -> int:
         vistas = set()
         unicas = []
         for e in aristas:
-            clave = (e.get("source"), e.get("target"), e.get("relation"))
-            if clave in vistas:
+            firma = (e.get("source"), e.get("target"), e.get("relation"))
+            if firma in vistas:
                 continue
-            vistas.add(clave)
+            vistas.add(firma)
             unicas.append(e)
         retiradas = len(aristas) - len(unicas)
         aristas[:] = unicas
