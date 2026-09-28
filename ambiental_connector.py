@@ -11,7 +11,7 @@ import json
 import time
 import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import pedir_http
+from config import pedir_http, registrar_tiempo
 
 BASE_URL = "https://snifa.sma.gob.cl"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "ambiental_cache")
@@ -50,10 +50,14 @@ class SMAClient:
         }
 
         data_bytes = urllib.parse.urlencode(payload).encode("utf-8")
-        raw = pedir_http(url, "POST",
-                         headers={"Content-Type": "application/x-www-form-urlencoded",
-                                  "Accept": "application/json"},
-                         cuerpo=data_bytes, timeout=25).decode("utf-8", errors="ignore")
+        t0 = time.perf_counter()
+        try:
+            raw = pedir_http(url, "POST",
+                             headers={"Content-Type": "application/x-www-form-urlencoded",
+                                      "Accept": "application/json"},
+                             cuerpo=data_bytes, timeout=25).decode("utf-8", errors="ignore")
+        finally:
+            registrar_tiempo("snifa.red", time.perf_counter() - t0)
         res_json = json.loads(raw)
         total = res_json.get("recordsTotal", 0)
         rows = res_json.get("data", [])
@@ -95,6 +99,7 @@ class SMAClient:
         """
         clean_key = f"sanc_{nombre}_{expediente}_{categoria}_{limit}".replace(" ", "_").lower()
         cache_file = self._get_cache_path(clean_key)
+        t0 = time.perf_counter()
 
         data = None
         if use_cache and os.path.exists(cache_file):
@@ -107,6 +112,7 @@ class SMAClient:
                 data = None
 
         if data is not None and self._cache_fresco(cache_file):
+            registrar_tiempo("snifa.cache", time.perf_counter() - t0)
             return data
         try:
             return self._consultar_snifa(nombre, expediente, categoria, limit, cache_file)

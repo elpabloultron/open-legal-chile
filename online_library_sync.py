@@ -15,6 +15,8 @@ import tarfile
 import shutil
 import time
 import threading
+
+from config import registrar_tiempo
 from typing import Dict, Any, List, Optional
 
 BASE_DIR = os.path.dirname(__file__)
@@ -1391,7 +1393,11 @@ def _listar_archivos_hf(repo_id: str) -> List[str]:
             return archivos_disco
         try:
             from huggingface_hub import HfApi
-            archivos = HfApi(token=resolver_token_hf()).list_repo_files(repo_id=repo_id, repo_type="dataset")
+            t0 = time.perf_counter()
+            try:
+                archivos = HfApi(token=resolver_token_hf()).list_repo_files(repo_id=repo_id, repo_type="dataset")
+            finally:
+                registrar_tiempo("hf.listado", time.perf_counter() - t0)
         except Exception:
             if archivos_disco:  # sin red: el índice viejo sirve (no se marca fresco)
                 return archivos_disco
@@ -1537,10 +1543,14 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
             # la búsqueda tiene que ver el corpus más fresco, no una revisión congelada. Lo que se
             # baja son datos (markdown/jsonl) que nunca se ejecutan y se validan antes de usarse
             # (extensión permitida, tope de tamaño y lectura defensiva de cada línea).
-            ruta = hf_hub_download(  # nosec B615
-                                   repo_id=repo_id, filename=archivo, repo_type="dataset",
-                                   token=resolver_token_hf(),
-                                   cache_dir=str(CACHE_HF / repo_id.replace("/", "__")))
+            t0 = time.perf_counter()
+            try:
+                ruta = hf_hub_download(  # nosec B615
+                                       repo_id=repo_id, filename=archivo, repo_type="dataset",
+                                       token=resolver_token_hf(),
+                                       cache_dir=str(CACHE_HF / repo_id.replace("/", "__")))
+            finally:
+                registrar_tiempo("hf.descarga", time.perf_counter() - t0)
             origen = pathlib.Path(ruta)
             if not origen.exists() or origen.stat().st_size > _TAMANO_MAX_JSONL:
                 return ""

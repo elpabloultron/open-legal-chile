@@ -5,11 +5,13 @@ o desde las variables del sistema operativo sin dependencias externas.
 """
 
 import http.client
+import math
 import os
 import threading
 import time
 import urllib.error
 import urllib.parse
+from collections import deque
 from typing import Any, Dict, List, Optional, Tuple
 
 
@@ -115,6 +117,42 @@ def servidor_actual():
             return modulo
     import mcp_server  # último recurso: nadie lo tenía cargado (script suelto)
     return mcp_server
+
+
+# ── Telemetría de rendimiento por fases (en memoria: sin disco, sin red, sin datos personales) ──
+_TIEMPOS: Dict[str, Any] = {}
+_TIEMPOS_LOCK = threading.Lock()
+_TIEMPOS_MAX = 200
+
+
+def registrar_tiempo(clave: str, segundos: float) -> None:
+    """Guarda una medición «conector.fase» para el doctor; jamás tumba una consulta."""
+    try:
+        with _TIEMPOS_LOCK:
+            serie = _TIEMPOS.setdefault(clave, deque(maxlen=_TIEMPOS_MAX))
+            serie.append(float(segundos))
+    except Exception:  # noqa: BLE001 — la telemetría es lo último que puede fallar
+        pass
+
+
+def _percentil(orden: List[float], q: float) -> float:
+    """Percentil de «rango más cercano»: p95 de 5 muestras es la mayor, como se espera."""
+    return orden[min(len(orden) - 1, max(0, math.ceil(q * len(orden)) - 1))]
+
+
+def tiempos_resumen() -> Dict[str, Dict[str, float]]:
+    """p50/p95 por «conector.fase» con la cantidad de muestras de este proceso."""
+    with _TIEMPOS_LOCK:
+        copia = {k: list(v) for k, v in _TIEMPOS.items()}
+    resumen: Dict[str, Dict[str, float]] = {}
+    for clave, serie in copia.items():
+        if not serie:
+            continue
+        orden = sorted(serie)
+        resumen[clave] = {"n": len(orden),
+                          "p50_ms": round(1000 * _percentil(orden, 0.5), 1),
+                          "p95_ms": round(1000 * _percentil(orden, 0.95), 1)}
+    return resumen
 
 
 # ── Canal HTTP persistente (keep-alive): conexiones reutilizables por host ───────────────────

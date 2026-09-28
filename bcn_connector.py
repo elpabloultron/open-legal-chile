@@ -12,7 +12,7 @@ import urllib.parse
 import defusedxml.ElementTree as ET
 from typing import Dict, Any, List, Optional
 
-from config import BCN_API_KEY, pedir_http
+from config import BCN_API_KEY, pedir_http, registrar_tiempo
 
 BCN_API_BASE = "https://www.bcn.cl/leychile/api/v1"
 BCN_XML_BASE = "https://www.leychile.cl/Consulta/obtxml"
@@ -96,7 +96,11 @@ class BCNClient:
     def _fetch_xml(self, params: Dict[str, Any]) -> str:
         """Obtiene XML desde el servicio web de la BCN (conexión persistente por host)."""
         url = f"{BCN_XML_BASE}?{urllib.parse.urlencode(params)}"
-        return pedir_http(url, timeout=30.0).decode("utf-8", errors="ignore")
+        t0 = time.perf_counter()
+        try:
+            return pedir_http(url, timeout=30.0).decode("utf-8", errors="ignore")
+        finally:
+            registrar_tiempo("bcn.red", time.perf_counter() - t0)
 
     def _parse_norma_xml(self, xml_content: str) -> Dict[str, Any]:
         """Parsea el XML de una norma chilena a estructura de datos limpia."""
@@ -190,7 +194,10 @@ class BCNClient:
 
     def _descargar_norma(self, params: Dict[str, Any], cache_file: str) -> Dict[str, Any]:
         """Descarga una norma, la parsea y deja la copia local al día."""
-        norma_data = self._parse_norma_xml(self._fetch_xml(params))
+        xml = self._fetch_xml(params)
+        t0 = time.perf_counter()
+        norma_data = self._parse_norma_xml(xml)
+        registrar_tiempo("bcn.parseo", time.perf_counter() - t0)
         with open(cache_file, "w", encoding="utf-8") as f:
             json.dump(norma_data, f, ensure_ascii=False, indent=2)
         return norma_data
@@ -202,8 +209,10 @@ class BCNClient:
         se entrega la copia vencida marcada con `copia_local_vencida` (degradación honesta).
         """
         cache_file = self._get_cache_path("ley", id_ley)
+        t0 = time.perf_counter()
         data = self._leer_cache(cache_file) if use_cache else None
         if data is not None and self._cache_fresco(cache_file):
+            registrar_tiempo("bcn.cache", time.perf_counter() - t0)
             return data
         try:
             return self._descargar_norma({"opt": 7, "idLey": id_ley}, cache_file)
@@ -215,8 +224,10 @@ class BCNClient:
     def get_norma(self, id_norma: int, use_cache: bool = True) -> Dict[str, Any]:
         """Obtiene una norma chilena por su ID interno de BCN (ej. Códigos de la República)."""
         cache_file = self._get_cache_path("norma", id_norma)
+        t0 = time.perf_counter()
         data = self._leer_cache(cache_file) if use_cache else None
         if data is not None and self._cache_fresco(cache_file):
+            registrar_tiempo("bcn.cache", time.perf_counter() - t0)
             return data
         try:
             return self._descargar_norma({"opt": 7, "idNorma": id_norma}, cache_file)

@@ -88,7 +88,15 @@ def despachar(name: str, args: dict) -> Any:
     _refrescar()
     if name == "suite_doctor":
         from diagnostico import diagnostico_completo
-        return diagnostico_completo()
+        resumen = diagnostico_completo()
+        try:
+            from config import tiempos_resumen
+            rendimiento = tiempos_resumen()
+            if rendimiento:
+                resumen["rendimiento"] = rendimiento
+        except Exception:  # noqa: BLE001 — la telemetría no puede tumbar el doctor
+            pass
+        return resumen
     elif name == "suite_instalar":
         import integraciones_harness as ih
         from diagnostico import diagnostico_completo
@@ -117,7 +125,13 @@ def despachar(name: str, args: dict) -> Any:
         return {"nombre": nombre, "contenido": archivo.read_text(encoding="utf-8", errors="ignore")}
     elif name == "suite_telemetria_stats":
         from stats_tracker import get_suite_adoption_metrics
-        return get_suite_adoption_metrics()
+        metricas = get_suite_adoption_metrics()
+        try:
+            from config import tiempos_resumen
+            metricas["rendimiento_fases"] = tiempos_resumen()
+        except Exception:  # noqa: BLE001 — la telemetría no puede tumbar las métricas
+            pass
+        return metricas
     elif name == "suite_verificar_actualizacion":
         from update_checker import check_for_updates
         force = bool(args.get("forzar", False))
