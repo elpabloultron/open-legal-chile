@@ -10,10 +10,11 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import safe_urlopen
+from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
 
 BASE_URL = "https://www.contraloria.cl/apibusca"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cgr_cache")
+_TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60  # la jurisprudencia de la CGR cambia lento: un mes
 
 
 class CGRClient:
@@ -30,12 +31,9 @@ class CGRClient:
         cache_key = f"{source}_{clean_q}_p{page}"
         cache_file = self._get_cache_path(cache_key)
 
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        data = leer_json_si_se_puede(cache_file) if use_cache else None
+        if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return data
 
         url = f"{BASE_URL}/search/{source}"
         date_name = "fecha_promulgación" if source == "legislacion" else "fecha_documento"
@@ -61,52 +59,57 @@ class CGRClient:
             }
         )
 
-        with safe_urlopen(req, timeout=30) as resp:
-            raw = resp.read().decode("utf-8", errors="ignore")
-            res_json = json.loads(raw)
+        try:
+            with safe_urlopen(req, timeout=30) as resp:
+                raw = resp.read().decode("utf-8", errors="ignore")
+        except Exception:
+            if data is not None:
+                return {**data, "copia_local_vencida": True}
+            raise
+        res_json = json.loads(raw)
 
-            hits = res_json.get("hits", {})
-            total_val = hits.get("total", {})
-            total_count = total_val.get("value", 0) if isinstance(total_val, dict) else total_val
-            raw_items = hits.get("hits", [])
+        hits = res_json.get("hits", {})
+        total_val = hits.get("total", {})
+        total_count = total_val.get("value", 0) if isinstance(total_val, dict) else total_val
+        raw_items = hits.get("hits", [])
 
-            clean_results = []
-            for item in raw_items:
-                src = item.get("_source", {})
-                doc_id = src.get("numeric_doc_id") or src.get("doc_id") or src.get("número") or src.get("numero") or item.get("_id")
-                fecha = src.get("fecha_documento") or src.get("fecha") or ""
-                nombre = src.get("nombre") or src.get("title") or src.get("titulo") or ""
-                materia = src.get("materia") or src.get("resena") or src.get("descriptores") or nombre or ""
-                objetivo = src.get("objetivo") or ""
-                conclusiones = src.get("conclusiones") or ""
-                texto = src.get("texto_completo") or src.get("texto") or src.get("resumen") or conclusiones or objetivo or ""
-                organismo = src.get("organismo") or src.get("organismos_destinatarios") or src.get("servicio_") or ""
-                pdf_url = src.get("pdf") or ""
+        clean_results = []
+        for item in raw_items:
+            src = item.get("_source", {})
+            doc_id = src.get("numeric_doc_id") or src.get("doc_id") or src.get("número") or src.get("numero") or item.get("_id")
+            fecha = src.get("fecha_documento") or src.get("fecha") or ""
+            nombre = src.get("nombre") or src.get("title") or src.get("titulo") or ""
+            materia = src.get("materia") or src.get("resena") or src.get("descriptores") or nombre or ""
+            objetivo = src.get("objetivo") or ""
+            conclusiones = src.get("conclusiones") or ""
+            texto = src.get("texto_completo") or src.get("texto") or src.get("resumen") or conclusiones or objetivo or ""
+            organismo = src.get("organismo") or src.get("organismos_destinatarios") or src.get("servicio_") or ""
+            pdf_url = src.get("pdf") or ""
 
-                clean_results.append({
-                    "docId": str(doc_id),
-                    "nombre": nombre.strip(),
-                    "fecha": fecha[:10] if len(fecha) >= 10 else fecha,
-                    "materia": materia.strip(),
-                    "objetivo": objetivo.strip() if isinstance(objetivo, str) else "",
-                    "conclusiones": conclusiones.strip() if isinstance(conclusiones, str) else "",
-                    "organismo": organismo if isinstance(organismo, str) else "",
-                    "texto": texto.strip() if isinstance(texto, str) else "",
-                    "pdfUrl": pdf_url if pdf_url.startswith("http") else (f"https://www.contraloria.cl{pdf_url}" if pdf_url else "")
-                })
+            clean_results.append({
+                "docId": str(doc_id),
+                "nombre": nombre.strip(),
+                "fecha": fecha[:10] if len(fecha) >= 10 else fecha,
+                "materia": materia.strip(),
+                "objetivo": objetivo.strip() if isinstance(objetivo, str) else "",
+                "conclusiones": conclusiones.strip() if isinstance(conclusiones, str) else "",
+                "organismo": organismo if isinstance(organismo, str) else "",
+                "texto": texto.strip() if isinstance(texto, str) else "",
+                "pdfUrl": pdf_url if pdf_url.startswith("http") else (f"https://www.contraloria.cl{pdf_url}" if pdf_url else "")
+            })
 
-            output_data = {
-                "query": query,
-                "source": source,
-                "total": total_count,
-                "page": page,
-                "resultados": clean_results
-            }
+        output_data = {
+            "query": query,
+            "source": source,
+            "total": total_count,
+            "page": page,
+            "resultados": clean_results
+        }
 
-            with open(cache_file, "w", encoding="utf-8") as f:
-                json.dump(output_data, f, ensure_ascii=False, indent=2)
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-            return output_data
+        return output_data
 
     def get_dictamen(self, doc_id: str) -> Dict[str, Any]:
         """Obtiene el texto completo de un dictamen específico por su número/código oficial."""
