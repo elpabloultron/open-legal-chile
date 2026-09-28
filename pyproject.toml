@@ -138,7 +138,7 @@ py-modules = [
 "openlegal-chile" = [".env.example", "mcp_config.json", "smithery.yaml"]
 
 [tool.setuptools.packages.find]
-include = ["connectors*", "domain*", "doctrina*", "data*"]
+include = ["connectors*", "domain*", "doctrina*", "data*", "servidor*"]
 namespaces = true
 
 # El corpus doctrinal y el grafo viajan DENTRO del paquete. Antes no: el wheel publicado en

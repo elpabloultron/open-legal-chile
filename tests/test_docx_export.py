@@ -56,5 +56,8 @@ def test_el_servidor_expone_el_compilador_word():
     assert "from docx_compiler import WordDossierCompiler" in fuente
     assert "word_compiler = WordDossierCompiler()" in fuente
     # las dos vías de documentos lo usan: recurso de protección y dossier genérico
-    assert fuente.count('res_final["word_document"] = word_compiler.compile(') == 1
-    assert fuente.count('res_comp["word_document"] = word_compiler.compile(') == 1
+    # (los despachos viven en servidor/forense.py desde el split por dominios)
+    todo = fuente + "".join(p.read_text(encoding="utf-8")
+                            for p in sorted((RAIZ / "servidor").glob("*.py")))
+    assert todo.count('res_final["word_document"] = word_compiler.compile(') == 1
+    assert todo.count('res_comp["word_document"] = word_compiler.compile(') == 1

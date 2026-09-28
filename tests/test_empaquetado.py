@@ -68,6 +68,16 @@ def test_el_ocr_viaja_como_dependencia_base():
     assert "rapidocr" in setup_py, "setup.py (vía legada) también tiene que llevar el OCR"
 
 
+def test_los_dominios_del_servidor_viajan_en_el_paquete():
+    """servidor/ (los dominios de herramientas) tiene que viajar en el wheel: si no, el MCP
+    instalado no encuentra la mitad de las herramientas."""
+    tomllib = pytest.importorskip("tomllib", reason="requiere Python 3.11+")
+    cfg = tomllib.loads((RAIZ / "pyproject.toml").read_text(encoding="utf-8"))
+    incluidos = cfg["tool"]["setuptools"]["packages"]["find"]["include"]
+    assert any(p.startswith("servidor") for p in incluidos), incluidos
+    assert (RAIZ / "servidor" / "corpus.py").exists()
+
+
 def test_el_codigo_no_manda_a_instalar_dependencias_por_terminal():
     """El producto no le pide al usuario abrir una terminal para completar la instalación."""
     for nombre in ("forensic_ocr.py", "online_library_sync.py"):
