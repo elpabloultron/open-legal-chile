@@ -98,7 +98,7 @@ def recomendar_ocr(ruta: str, contexto: str = "", tipo_documento: str | None = N
                 "Hay un plazo en juego: el texto extraído se coteja con el original en las fechas antes "
                 "de computarlo (art. 66 CPC: el plazo corre desde la notificación y un dígito cambia el día).")
         if regla.get("aviso"):
-            avisos.append(regla["aviso"])
+            avisos.append(str(regla["aviso"]))
         if senales["paginas"] > 40:
             avisos.append(f"Son {senales['paginas']} páginas: conviene procesar por rangos y revisar el "
                           "contrato de cada página (ok/length) antes de citar.")
