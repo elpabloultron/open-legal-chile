@@ -41,12 +41,23 @@ PDFTOTEXT = shutil.which("pdftotext") or "pdftotext"
 MAX_PAGINAS_OCR = 60  # escaneos enormes: OCR solo de la muestra inicial
 
 
+def anio_de_url(url: str, respaldo: str = "") -> str:
+    """Año del anuario a partir del nombre del archivo: el PDF de «Anuario 2015» se sube
+    en 2014 y el de «Anuario 2018» en 2019 — la carpeta de subida engaña, el nombre no."""
+    from urllib.parse import unquote
+    segmento = unquote((url or "").rstrip("/").split("/")[-1])
+    anios = re.findall(r"20\d\d", segmento)
+    return anios[-1] if anios else respaldo
+
+
 def nombre_archivo(reg: dict) -> str:
     trib = reg.get("tribunal", "ta").lower()
     if str(reg.get("tipo", "")).startswith("Boletín"):
         return f"{trib}_boletin_{reg.get('numero', 'S-N')}"
     anio = str(reg.get("anio") or "s-a")
-    return f"{trib}_anuario_{re.sub(r'[^0-9]', '', anio) or 's-a'}"
+    base = f"{trib}_anuario_{re.sub(r'[^0-9]', '', anio) or 's-a'}"
+    tomo = str(reg.get("tomo") or "").strip()
+    return f"{base}_tomo{tomo}" if tomo else base
 
 
 def ficha(reg: dict, archivo: str) -> str:
@@ -144,6 +155,15 @@ def main() -> int:
     with open(PUBLICACIONES, "w", encoding="utf-8") as f:
         for reg in filas:
             f.write(json.dumps(reg, ensure_ascii=False) + "\n")
+    escribir_salidas(filas)
+    print(f"══ listo: {ok} convertidas · {saltadas} ya estaban · {fallidas} con problema")
+    print(f"   → {DIR_MD} · índice: {INDICE}")
+    return 0
+
+
+def escribir_salidas(filas: list) -> None:
+    """Regenera el índice de publicaciones. Separado de main para poder reescribirlo
+    tras una reparación puntual (p. ej. un nombre de anuario que colisionaba)."""
     with open(INDICE, "w", encoding="utf-8") as f:
         for reg in filas:
             if reg.get("archivo_md") and reg.get("caracteres"):
@@ -154,9 +174,6 @@ def main() -> int:
                     "tokens_aprox": reg.get("tokens_aprox"), "metodo": reg.get("metodo"),
                     "url_pdf": reg.get("url_pdf"),
                 }, ensure_ascii=False) + "\n")
-    print(f"══ listo: {ok} convertidas · {saltadas} ya estaban · {fallidas} con problema")
-    print(f"   → {DIR_MD} · índice: {INDICE}")
-    return 0
 
 
 if __name__ == "__main__":
