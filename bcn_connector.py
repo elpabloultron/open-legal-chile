@@ -20,6 +20,9 @@ BCN_XML_BASE = "https://www.leychile.cl/Consulta/obtxml"
 # Servicio vivo de LeyChile (el que usa su propio navegador) para versiones históricas.
 BCN_SERVICIOS_BASE = "https://servicios-leychile.bcn.cl"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "bcn_cache")
+# Las normas consolidadas cambian solo cuando una reforma las modifica: la copia local se
+# revalida a los 30 días (vencida, se intenta refrescar; sin red, se entrega marcada).
+_TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60
 
 CODIGOS_REPUBLICA = {
     "civil": {"idNorma": 172986, "nombre": "Código Civil de Chile"},
@@ -142,35 +145,55 @@ class BCNClient:
         }
 
 
-    def get_ley(self, id_ley: int, use_cache: bool = True) -> Dict[str, Any]:
-        """Obtiene una ley chilena por su número oficial (ej. 21643)."""
-        cache_file = self._get_cache_path("ley", id_ley)
-        if use_cache and os.path.exists(cache_file):
+    def _cache_fresco(self, cache_file: str, ttl: float = _TTL_CACHE_SEGUNDOS) -> bool:
+        """¿La copia local existe y está dentro del TTL? (el mtime es la fecha de descarga)."""
+        return os.path.exists(cache_file) and (time.time() - os.path.getmtime(cache_file)) < ttl
+
+    def _leer_cache(self, cache_file: str) -> Optional[Dict[str, Any]]:
+        """La copia local si se puede leer: una copia ilegible no es una copia."""
+        try:
             with open(cache_file, "r", encoding="utf-8") as f:
-                return json.load(f)
+                dato = json.load(f)
+            return dato if isinstance(dato, dict) else None
+        except Exception:  # noqa: BLE001
+            return None
 
-        xml_data = self._fetch_xml({"opt": 7, "idLey": id_ley})
-        norma_data = self._parse_norma_xml(xml_data)
-
+    def _descargar_norma(self, params: Dict[str, Any], cache_file: str) -> Dict[str, Any]:
+        """Descarga una norma, la parsea y deja la copia local al día."""
+        norma_data = self._parse_norma_xml(self._fetch_xml(params))
         with open(cache_file, "w", encoding="utf-8") as f:
             json.dump(norma_data, f, ensure_ascii=False, indent=2)
-
         return norma_data
+
+    def get_ley(self, id_ley: int, use_cache: bool = True) -> Dict[str, Any]:
+        """Obtiene una ley chilena por su número oficial (ej. 21643).
+
+        La copia local caduca a los 30 días: vencida, se intenta refrescar; si la red falla,
+        se entrega la copia vencida marcada con `copia_local_vencida` (degradación honesta).
+        """
+        cache_file = self._get_cache_path("ley", id_ley)
+        data = self._leer_cache(cache_file) if use_cache else None
+        if data is not None and self._cache_fresco(cache_file):
+            return data
+        try:
+            return self._descargar_norma({"opt": 7, "idLey": id_ley}, cache_file)
+        except Exception:
+            if data is not None:
+                return {**data, "copia_local_vencida": True}
+            raise
 
     def get_norma(self, id_norma: int, use_cache: bool = True) -> Dict[str, Any]:
         """Obtiene una norma chilena por su ID interno de BCN (ej. Códigos de la República)."""
         cache_file = self._get_cache_path("norma", id_norma)
-        if use_cache and os.path.exists(cache_file):
-            with open(cache_file, "r", encoding="utf-8") as f:
-                return json.load(f)
-
-        xml_data = self._fetch_xml({"opt": 7, "idNorma": id_norma})
-        norma_data = self._parse_norma_xml(xml_data)
-
-        with open(cache_file, "w", encoding="utf-8") as f:
-            json.dump(norma_data, f, ensure_ascii=False, indent=2)
-
-        return norma_data
+        data = self._leer_cache(cache_file) if use_cache else None
+        if data is not None and self._cache_fresco(cache_file):
+            return data
+        try:
+            return self._descargar_norma({"opt": 7, "idNorma": id_norma}, cache_file)
+        except Exception:
+            if data is not None:
+                return {**data, "copia_local_vencida": True}
+            raise
 
     def get_codigo(self, codigo_nombre: str, articulo: Optional[str] = None) -> Dict[str, Any]:
         """Obtiene un Código de la República (civil, trabajo, cpc, cpp, penal, comercio, tributario, mineria, aguas)."""

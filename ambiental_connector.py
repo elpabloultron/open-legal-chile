@@ -8,6 +8,7 @@ import os
 import sys
 import re
 import json
+import time
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
@@ -15,6 +16,9 @@ from config import safe_urlopen
 
 BASE_URL = "https://snifa.sma.gob.cl"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "ambiental_cache")
+# Los expedientes del SNIFA cambian de estado con el tiempo: la copia local se revalida a la
+# semana (vencida, se intenta refrescar; sin red, se entrega marcada).
+_TTL_CACHE_SEGUNDOS = 7 * 24 * 60 * 60
 
 
 class SMAClient:
@@ -27,18 +31,13 @@ class SMAClient:
     def _get_cache_path(self, key: str) -> str:
         return os.path.join(self.cache_dir, f"{key}.json")
 
-    def search_sancionatorios(self, nombre: str = "", expediente: str = "", categoria: str = "", limit: int = 15, use_cache: bool = True) -> Dict[str, Any]:
-        """Busca procedimientos sancionatorios ambientales en la base oficial SNIFA de la SMA."""
-        clean_key = f"sanc_{nombre}_{expediente}_{categoria}_{limit}".replace(" ", "_").lower()
-        cache_file = self._get_cache_path(clean_key)
+    def _cache_fresco(self, cache_file: str, ttl: float = _TTL_CACHE_SEGUNDOS) -> bool:
+        """¿La copia local existe y está dentro del TTL? (el mtime es la fecha de consulta)."""
+        return os.path.exists(cache_file) and (time.time() - os.path.getmtime(cache_file)) < ttl
 
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
-
+    def _consultar_snifa(self, nombre: str, expediente: str, categoria: str, limit: int,
+                         cache_file: str) -> Dict[str, Any]:
+        """Consulta el grid público del SNIFA y deja la copia local al día."""
         url = f"{BASE_URL}/Sancionatorio/ObtenerResultadosGrid"
         payload = {
             "draw": 1,
@@ -96,6 +95,34 @@ class SMAClient:
                 json.dump(output, f, ensure_ascii=False, indent=2)
 
             return output
+
+    def search_sancionatorios(self, nombre: str = "", expediente: str = "", categoria: str = "", limit: int = 15, use_cache: bool = True) -> Dict[str, Any]:
+        """Busca procedimientos sancionatorios ambientales en la base oficial SNIFA de la SMA.
+
+        La copia local caduca a la semana: vencida, se intenta refrescar; si la red falla,
+        se entrega la copia vencida marcada con `copia_local_vencida` (degradación honesta).
+        """
+        clean_key = f"sanc_{nombre}_{expediente}_{categoria}_{limit}".replace(" ", "_").lower()
+        cache_file = self._get_cache_path(clean_key)
+
+        data = None
+        if use_cache and os.path.exists(cache_file):
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                if not isinstance(data, dict):
+                    data = None
+            except Exception:  # noqa: BLE001 — una copia ilegible no es una copia
+                data = None
+
+        if data is not None and self._cache_fresco(cache_file):
+            return data
+        try:
+            return self._consultar_snifa(nombre, expediente, categoria, limit, cache_file)
+        except Exception:
+            if data is not None:
+                return {**data, "copia_local_vencida": True}
+            raise
 
 
 # Alias de compatibilidad hacia atrás (nomenclatura histórica)

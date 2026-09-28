@@ -1,0 +1,186 @@
+"""Las copias locales de BCN y SNIFA caducan: antes vivían para siempre, sin refrescarse nunca.
+
+Medido el 2026-09-28: la caché de leyes se reusaba sin fecha límite (también cuando una ley ya
+pudo haber cambiado); ahora se revalida —30 días BCN, 7 días SNIFA— con degradación honesta si
+la red falla: se entrega la copia vencida marcada, en vez de un error.
+"""
+
+import json
+import os
+import time
+
+import pytest
+
+import ambiental_connector
+import bcn_connector
+
+
+def _envejecer(ruta, dias=40):
+    """Las cosas viejas se hacen con mtime, como la vida real."""
+    viejo = time.time() - dias * 24 * 60 * 60
+    os.utime(ruta, (viejo, viejo))
+
+
+# ─────────────────────────── BCN (30 días) ───────────────────────────
+
+
+def test_ley_fresca_no_va_a_la_red(monkeypatch, tmp_path):
+    cliente = bcn_connector.BCNClient(cache_dir=str(tmp_path))
+    cache = tmp_path / "ley_99999.json"
+    cache.write_text(json.dumps({"titulo": "de prueba", "articulos": {"1": "uno"}}),
+                     encoding="utf-8")
+
+    def _sin_red(*_a, **_k):
+        raise AssertionError("no debía consultar la red con la copia fresca")
+
+    monkeypatch.setattr(cliente, "_fetch_xml", _sin_red)
+
+    datos = cliente.get_ley(99999)
+    assert datos["articulos"]["1"] == "uno"
+
+
+def test_ley_vencida_se_refresca(monkeypatch, tmp_path):
+    cliente = bcn_connector.BCNClient(cache_dir=str(tmp_path))
+    cache = tmp_path / "ley_99999.json"
+    cache.write_text(json.dumps({"titulo": "vieja", "articulos": {"1": "viejo"}}),
+                     encoding="utf-8")
+    _envejecer(cache, dias=40)
+
+    monkeypatch.setattr(cliente, "_fetch_xml", lambda params: "<norma/>")
+    monkeypatch.setattr(cliente, "_parse_norma_xml",
+                        lambda xml: {"titulo": "nueva", "articulos": {"1": "nuevo"},
+                                     "fechaVersion": "2026-09-28"})
+
+    datos = cliente.get_ley(99999)
+    assert datos["articulos"]["1"] == "nuevo"
+    guardado = json.loads(cache.read_text(encoding="utf-8"))
+    assert guardado["articulos"]["1"] == "nuevo", "la copia vencida se reemplaza"
+
+
+def test_ley_vencida_sin_red_entrega_la_copia_marcada(monkeypatch, tmp_path):
+    cliente = bcn_connector.BCNClient(cache_dir=str(tmp_path))
+    cache = tmp_path / "ley_99999.json"
+    cache.write_text(json.dumps({"titulo": "vieja", "articulos": {"1": "viejo"}}),
+                     encoding="utf-8")
+    _envejecer(cache, dias=40)
+
+    def _sin_red(*_a, **_k):
+        raise RuntimeError("red caída")
+
+    monkeypatch.setattr(cliente, "_fetch_xml", _sin_red)
+
+    datos = cliente.get_ley(99999)
+    assert datos["articulos"]["1"] == "viejo"
+    assert datos.get("copia_local_vencida") is True, (
+        "usar una copia vencida tiene que verse en la respuesta"
+    )
+
+
+# ─────────────────────────── SNIFA / SMA (7 días) ───────────────────────────
+
+
+class _Respuesta:
+    def __init__(self, cuerpo: str):
+        self._cuerpo = cuerpo
+
+    def read(self):
+        return self._cuerpo.encode("utf-8")
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_a):
+        return False
+
+
+def _respuesta_snifa(expediente="D-1-2026"):
+    fila = ["", expediente, "unidad fiscalizable", "Titular SpA", "Planta de compostaje",
+            "Los Lagos", "en curso", '<a href="/Sancionatorio/Ficha/99">Ver ficha</a>']
+    return _Respuesta(cuerpo=json.dumps({"recordsTotal": 1, "data": [fila]}))
+
+
+def test_snifa_fresca_no_repite_la_red(monkeypatch, tmp_path):
+    llamadas = []
+
+    def _urlopen(req, timeout=25):
+        llamadas.append(1)
+        return _respuesta_snifa()
+
+    monkeypatch.setattr(ambiental_connector, "safe_urlopen", _urlopen)
+    cliente = ambiental_connector.SMAClient(cache_dir=str(tmp_path))
+
+    primera = cliente.search_sancionatorios(nombre="prueba")
+    segunda = cliente.search_sancionatorios(nombre="prueba")
+
+    assert len(llamadas) == 1, "la copia fresca evita la segunda consulta"
+    assert primera["resultados"][0]["expediente"] == "D-1-2026"
+    assert segunda["resultados"][0]["expediente"] == "D-1-2026"
+
+
+def test_snifa_vencida_se_refresca(monkeypatch, tmp_path):
+    llamadas = []
+
+    def _urlopen(req, timeout=25):
+        llamadas.append(1)
+        return _respuesta_snifa()
+
+    monkeypatch.setattr(ambiental_connector, "safe_urlopen", _urlopen)
+    cliente = ambiental_connector.SMAClient(cache_dir=str(tmp_path))
+
+    cliente.search_sancionatorios(nombre="prueba")
+    cache = next(tmp_path.glob("sanc_*.json"))
+    _envejecer(cache, dias=10)
+
+    cliente.search_sancionatorios(nombre="prueba")
+    assert len(llamadas) == 2, "vencida la copia, se revalida contra el SNIFA"
+
+
+def test_snifa_vencida_sin_red_entrega_copia_marcada(monkeypatch, tmp_path):
+    estado = {"red": True}
+
+    def _urlopen(req, timeout=25):
+        if not estado["red"]:
+            raise RuntimeError("red caída")
+        return _respuesta_snifa()
+
+    monkeypatch.setattr(ambiental_connector, "safe_urlopen", _urlopen)
+    cliente = ambiental_connector.SMAClient(cache_dir=str(tmp_path))
+
+    cliente.search_sancionatorios(nombre="prueba")
+    cache = next(tmp_path.glob("sanc_*.json"))
+    _envejecer(cache, dias=10)
+    estado["red"] = False
+
+    datos = cliente.search_sancionatorios(nombre="prueba")
+    assert datos["resultados"][0]["expediente"] == "D-1-2026"
+    assert datos.get("copia_local_vencida") is True
+
+
+def test_listado_hf_concurrente_descarga_una_sola_vez(monkeypatch):
+    """El precalentado del server y la primera consulta piden el listado a la vez: una descarga."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    import online_library_sync as ols
+
+    pytest.importorskip("huggingface_hub")
+
+    llamadas = []
+
+    class _HfFalso:
+        def __init__(self, *args, **kwargs):
+            pass
+
+        def list_repo_files(self, repo_id, repo_type=None):
+            llamadas.append(repo_id)
+            time.sleep(0.3)
+            return ["a.md", "b.md"]
+
+    monkeypatch.setattr("huggingface_hub.HfApi", _HfFalso)
+    monkeypatch.setattr(ols, "resolver_token_hf", lambda: "token-falso")
+    monkeypatch.setattr(ols, "_ARCHIVOS_HF_CACHE", {})
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        resultados = list(pool.map(lambda _: ols._listar_archivos_hf("repo/prueba"), range(4)))
+
+    assert all(r == ["a.md", "b.md"] for r in resultados)
+    assert len(llamadas) == 1, "cuatro llamadas simultáneas no pueden pagar cuatro descargas"
