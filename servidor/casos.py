@@ -1,4 +1,5 @@
 """Herramientas de la mesa de entrada, los agentes y NotebookLM."""
+import threading
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de mcp_server
@@ -172,14 +173,58 @@ TOOLS = [
 ]
 
 
+def _precalentar_normas_caso(analisis: dict) -> None:
+    """Adelanta en segundo plano las leyes que menciona el caso (best-effort, hilo daemon).
+
+    Medido el 2026-09-28: la primera consulta a cada ley paga red; adelantarla deja la caché
+    caliente para cuando el abogado pregunte. Nada de esto puede fallar hacia afuera: es un
+    adelanto, no una promesa.
+    """
+    import json as _json
+
+    from citas_legales import detectar_normas
+
+    numeros: list = []
+    for norma in detectar_normas(_json.dumps(analisis, ensure_ascii=False)[:200_000]):
+        if norma["familia"] != "ley":
+            continue
+        try:
+            numero = int(norma["numero"])
+        except (TypeError, ValueError):
+            continue
+        if 9000 <= numero <= 30000 and numero not in numeros:
+            numeros.append(numero)
+    if not numeros:
+        return
+
+    def _trabajo() -> None:
+        try:
+            from bcn_connector import BCNClient
+
+            cliente = BCNClient()
+            for numero in numeros[:8]:
+                try:
+                    cliente.get_ley(numero)
+                except Exception:  # noqa: BLE001 — cada ley que falle se declara al usarla
+                    continue
+        except Exception:  # noqa: BLE001 — adelanto best-effort
+            return
+
+    threading.Thread(target=_trabajo, name="precalentar-normas", daemon=True).start()
+
+
 def despachar(name: str, args: dict) -> Any:
     _refrescar()
     if name == "caso_analizar":
         if bool(args.get("estudio_completo", False)):
-            return case_intake.caso_estudio_completo(args.get("entrada", ""), args.get("tipo"),
-                                                     args.get("consulta", ""))
-        return case_intake.caso_analizar(args.get("entrada", ""), args.get("tipo"),
-                                         args.get("consulta", ""))
+            resultado = case_intake.caso_estudio_completo(args.get("entrada", ""), args.get("tipo"),
+                                                          args.get("consulta", ""))
+        else:
+            resultado = case_intake.caso_analizar(args.get("entrada", ""), args.get("tipo"),
+                                                  args.get("consulta", ""))
+        if isinstance(resultado, dict) and "error" not in resultado:
+            _precalentar_normas_caso(resultado)
+        return resultado
     elif name == "caso_ejecutar":
         return case_intake.caso_ejecutar(args.get("entrada", ""), args.get("tipo"),
                                          args.get("pasos"), int(args.get("limite_pasos") or 12))
