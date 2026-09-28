@@ -7,14 +7,14 @@
 <p align="center">
   <a href="https://elpabloultron.github.io/open-legal-chile/"><img src="https://img.shields.io/badge/Web_Oficial-GitHub_Pages-gold?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web Oficial"/></a>
   <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
-  <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Biblioteca_MD-228_Documentos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Biblioteca_MD-228_Obras-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-255%2F255_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-365%2F365_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -26,7 +26,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (75 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-75-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (86 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-86-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -90,7 +90,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 75 Herramientas Forenses Registradas (Suite Edition)                         │
+│   • 86 Herramientas Forenses Registradas (Suite Edition)                         │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
 │   • Generador Estandarizado de Recursos de Protección OJV (recurso_proteccion.py)       │
 │   • Knowledge Graph Jurídico y Ahorro de Tokens (legal_graphify.py)                     │
@@ -126,7 +126,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 
 > [!TIP]
 > **¿Deseas instalar Open Legal Chile como Plugin en 1-Click o 1-Comando?**  
-> Consulta la guía detallada en [**`PLUGINS.md`**](PLUGINS.md) para Claude Code, Cursor, VS Code, Windsurf y Smithery.ai.
+> Consulta la guía detallada en [**`PLUGINS.md`**](PLUGINS.md) para Claude Code, Cursor, VS Code, Cline y Smithery.ai.
 
 ### Instalación en un comando
 
@@ -139,7 +139,7 @@ Antigravity), escribe su configuración MCP **fusionando** con lo que ya tenías
 te deja el estado verificado con `openlegal doctor`. Para agentes, `openlegal instalar --json`
 devuelve el mismo resumen en JSON, y desde el harness está la herramienta `suite_instalar`.
 
-> Las otras vías —plugin nativo de Claude Code, autodetección de Cursor / VS Code / Windsurf,
+> Las otras vías —plugin nativo de Claude Code, autodetección de Cursor / VS Code / Cline,
 > Smithery.ai, instalación desde el código fuente y el `mcp_config.json` de Antigravity— están en
 > [**`PLUGINS.md`**](PLUGINS.md). El detalle por cliente —y cómo verificar que el harness ve las
 > herramientas— está en [`docs/integracion-harness.md`](docs/integracion-harness.md).
@@ -182,6 +182,26 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
   DEEPSEEK_API_KEY="sk-..."
   OPENAI_API_KEY="sk-..."
   ```
+
+### 🌐 El corpus publicado en Hugging Face
+
+Todo el corpus vive en el dataset público
+[`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile),
+en Markdown y con índices para agentes ([`llms.txt`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/llms.txt)):
+
+| Colección | Qué trae | Cifra medida |
+|---|---|---|
+| Doctrina | tratados, apuntes y materiales docentes, texto íntegro | **228 obras** |
+| Guías AJ | Academia Judicial de Chile, texto íntegro | **24 guías** |
+| Corte Suprema | ficha Markdown + enlace oficial (el texto íntegro exige sesión PJUD) | **70 523 fichas** |
+| Tribunal Constitucional | texto íntegro | **967 sentencias** |
+| Ambientales (1TA/2TA/3TA) | 2TA/3TA con texto íntegro; 1TA como ficha con enlace (su portal ya no sirve PDFs) | **886 sentencias** |
+| Publicaciones ambientales | boletines y anuarios | **55** |
+
+Cada obra trae al final un bloque **«Véase también»** con sus conexiones medidas (grafo de citas,
+normas compartidas y guías que la usan). La cita oficial es `[BCN - Código, Art. N]`, siempre con el
+texto literal del artículo; el detalle del grafo está en [`docs/grafo.md`](docs/grafo.md) y la
+medición del ahorro en [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
@@ -319,7 +339,7 @@ El servidor MCP expone **86 herramientas oficiales** categorizadas funcionalment
 | `suite_verificar_actualizacion` | `forzar` *(bool, opc)* | Comprueba en segundo plano si existe una versión más reciente en PyPI o GitHub con instrucciones precisas para agentes de IA. |
 | `suite_auto_update` | *(ninguno)* | Ejecuta la actualización automática y segura de la Suite en el entorno local (vía git pull o pip install --upgrade). |
 
-### S. Knowledge Graph Jurídico y Optimización de Tokens (LegalGraphify)
+### S. Knowledge Graph Jurídico y Optimización de Tokens (el motor interno `legal_graphify.py`)
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
 | `graphify_consulta_subgrafo` | `query` *(str)*, `max_hops` *(int, opc)*, `incluir_mermaid` *(bool, opc)* | Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro mediano del 99,9 % de tokens (ficha mediana: 91 tokens frente a la obra completa: 96.536) respecto a la lectura del texto doctrinal completo. Medición reproducible en [`docs/medicion_tokens.md`](docs/medicion_tokens.md). |
@@ -479,7 +499,7 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 * **Dataset de entrenamiento aparte:** las versiones plenas (`train.jsonl` 74,9 MB e `instituciones.jsonl` 83,6 MB) viven en [`pablobenavidesj/doctrina-jurisprudencia-chile-training`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile-training); el dataset principal quedó en ~168 MB con el corpus íntegro en `doctrina/` y las versiones «puntero».
 * **Jurisprudencia ampliada (2026-09-25):** 886 sentencias de los Tribunales Ambientales (1TA 111 · 2TA 441 · 3TA 334), 55 publicaciones oficiales de jurisprudencia ambiental (anuarios y boletines), 70 523 sentencias de la Corte Suprema y 966 del Tribunal Constitucional de los últimos dos años, con rol, sala, fecha, recurso, resultado y ministros (los textos de la Suprema quedan bajo sesión PJUD; el TC incluye enlace al PDF oficial).
 
-### 🧠 K. LegalGraphify: Reducción de Tokens con Grafos de Conocimiento (`legal_graphify.py`)
+### 🧠 K. El grafo interno: reducción de tokens con conocimiento conectado (`legal_graphify.py`)
 * **Grafo Multidimensional de Dogmática Jurídica:** 13.938 nodos interconectados (instituciones dogmáticas, artículos de los Códigos BCN, fallos rectores de la Corte Suprema y del Tribunal Constitucional, publicaciones de los Tribunales Ambientales, tratadistas canónicos y vías procesales) y 30.746 aristas relacionales (27 comunidades, modularidad 0,682).
 * **Ahorro de Tokens Medido (mediana 99,9 %; medición 2026-09-25 sobre 9.863 instituciones):** En lugar de inyectar la obra doctrinal completa (mediana 96.536 tokens; máximo 313.985), el motor extrae un subgrafo conexo hiper-denso de 27 a 544 tokens (mediana 91) en formato estructurado (definición canónica, artículos concordantes, criterio CS rector y operativa procesal forense). Medición reproducible con `.venv/bin/python scripts/medir_ahorro_tokens.py` → [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 * **Diagramas Mermaid en Vivo:** Generación de diagramas de flujo relacional para visualizar el razonamiento dogmático de cada institución en tiempo real.
@@ -542,7 +562,7 @@ openlegal agent chat dogmatico
 # Exportar perfiles de subagentes para Google Antigravity o Claude Code
 openlegal agent export --format antigravity
 
-# Servidor MCP estándar para agentes de IA (75 herramientas)
+# Servidor MCP estándar para agentes de IA (86 herramientas)
 openlegal mcp
 
 # Chat jurídico interactivo con RAG soberano chileno
@@ -617,7 +637,7 @@ openlegal audit
 | **6. Linter & PEP** | `astral-sh/ruff` | **100% de reglas de arquitectura y estilo aprobadas** |
 | **7. Anti-Sobreingeniería**| `Ponytail` & `vulture`| **Filosofía Ponytail: Cero código muerto (*Lean already. Ship*)** |
 | **8. Mantenibilidad** | `rubik/radon` | **Rango A en lógica sustantiva y conectores** |
-| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **255/255 pruebas unitarias superadas satisfactoriamente** |
+| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **365/365 pruebas unitarias superadas satisfactoriamente** |
 
 Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
@@ -627,7 +647,7 @@ Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
 ```bash
 python3 -m pytest tests/ -v
-# ============================== 255 passed ==============================
+# ============================== 365 passed ==============================
 ```
 
 > Las pruebas tardan entre 15 y 60 segundos según la red: varias consultan en vivo portales del
