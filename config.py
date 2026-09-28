@@ -5,6 +5,7 @@ o desde las variables del sistema operativo sin dependencias externas.
 """
 
 import http.client
+import json
 import math
 import os
 import threading
@@ -153,6 +154,20 @@ def tiempos_resumen() -> Dict[str, Dict[str, float]]:
                           "p50_ms": round(1000 * _percentil(orden, 0.5), 1),
                           "p95_ms": round(1000 * _percentil(orden, 0.95), 1)}
     return resumen
+
+
+def cache_fresco(ruta: str, ttl_segundos: float) -> bool:
+    """¿La copia local existe y está dentro del TTL? (el mtime es la fecha de descarga)."""
+    return os.path.exists(ruta) and (time.time() - os.path.getmtime(ruta)) < ttl_segundos
+
+
+def leer_json_si_se_puede(ruta: str) -> Optional[Any]:
+    """La copia local si se puede leer: una copia ilegible no es una copia."""
+    try:
+        with open(ruta, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:  # noqa: BLE001 — una copia ilegible no es una copia
+        return None
 
 
 # ── Canal HTTP persistente (keep-alive): conexiones reutilizables por host ───────────────────
