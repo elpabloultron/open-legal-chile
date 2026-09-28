@@ -300,12 +300,26 @@ class BCNClient:
         raise ultimo_error if ultimo_error else RuntimeError("sin respuesta de LeyChile")
 
     def _versiones_de(self, id_norma: int, use_cache: bool = True) -> List[Dict[str, Any]]:
-        """Lista de versiones de una norma (caché de un día: el historial cambia poco)."""
+        """Lista de versiones de una norma (caché de un día: el historial cambia poco).
+
+        Si el servicio intermitente de LeyChile no responde, se devuelve la copia vencida si
+        existe: una lista de ayer sirve más que un error —y la fecha pedida decide más arriba—
+        dejando marcado que se degradó para que el error final lo diga.
+        """
         cache_file = self._get_cache_path("versiones", id_norma)
         if use_cache and os.path.exists(cache_file) and time.time() - os.path.getmtime(cache_file) < 86400:
             with open(cache_file, "r", encoding="utf-8") as f:
+                self._versiones_degradadas = False
                 return json.load(f)
-        listado = self._fetch_json_servicios("Consulta/get_versiones", {"idNorma": id_norma, "formato": "json"})
+        try:
+            listado = self._fetch_json_servicios("Consulta/get_versiones", {"idNorma": id_norma, "formato": "json"})
+        except Exception:  # noqa: BLE001 — el servicio de LeyChile falla seguido
+            if os.path.exists(cache_file):
+                self._versiones_degradadas = True
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            raise
+        self._versiones_degradadas = False
         versiones = (listado.get("Versiones", {}) or {}).get("Version", []) or []
         if isinstance(versiones, dict):
             versiones = [versiones]
@@ -383,10 +397,12 @@ class BCNClient:
                 version = self._version_para_fecha(versiones, fecha_clean)
                 if version is None:
                     primeras = sorted(str(v.get("@vigenteDesde", "")) for v in versiones if str(v.get("@vigenteDesde", ""))[:2] != "22" and v.get("@vigenteDesde"))
+                    aviso = (" (la lista de versiones pudo no actualizarse: el servicio de LeyChile está intermitente)"
+                             if getattr(self, "_versiones_degradadas", False) else "")
                     return {
                         "codigo": nombre, "fechaVersionSolicitada": fecha_clean,
                         "error": (f"LeyChile no registra una versión de este código vigente al {fecha_clean}"
-                                  + (f"; su historial parte el {primeras[0]}." if primeras else ".")),
+                                  + (f"; su historial parte el {primeras[0]}." if primeras else ".") + aviso),
                         "urlVersiones": url_norma,
                     }
                 data = self._fetch_json_servicios("Navegar/get_norma_json",
