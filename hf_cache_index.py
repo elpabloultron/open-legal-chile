@@ -28,7 +28,7 @@ def _normalizar(texto: str) -> str:
 
 def _ruta_indice(ruta: pathlib.Path) -> pathlib.Path:
     DIR_INDICES.mkdir(parents=True, exist_ok=True)
-    clave = hashlib.sha1(str(ruta.resolve()).encode("utf-8")).hexdigest()[:16]
+    clave = hashlib.sha1(str(ruta.resolve()).encode("utf-8"), usedforsecurity=False).hexdigest()[:16]
     return DIR_INDICES / f"{clave}.f5.db"
 
 

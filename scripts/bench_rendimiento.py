@@ -52,7 +52,7 @@ def medir_fts() -> dict:
     tmp = pathlib.Path(tempfile.mkdtemp(prefix="bench_hf_"))
     original = hf_cache_index.DIR_INDICES
     hf_cache_index.DIR_INDICES = tmp / "indices"
-    transformar = lambda l: json.loads(l)["texto"]  # noqa: E731 — lambda corta por claridad
+    transformar = lambda linea: json.loads(linea)["texto"]  # noqa: E731 — lambda corta por claridad
     try:
         grande = tmp / "grande.jsonl"
         with grande.open("w", encoding="utf-8") as f:
@@ -88,8 +88,11 @@ def medir_ambiental() -> dict:
         t0 = time.perf_counter()
         mod.consulta_ambiental("humedales", limite=3)
         return {"detalle": f"corpus local ausente (CI): arranque {time.perf_counter() - t0:.2f} s"}
-    t0 = time.perf_counter(); r1 = mod.consulta_ambiental("humedales", limite=5); t1 = time.perf_counter()
-    r2 = mod.consulta_ambiental("humedales", limite=5); t2 = time.perf_counter()
+    t0 = time.perf_counter()
+    r1 = mod.consulta_ambiental("humedales", limite=5)
+    t1 = time.perf_counter()
+    r2 = mod.consulta_ambiental("humedales", limite=5)
+    t2 = time.perf_counter()
     return {"detalle": f"1ª {t1 - t0:.2f} s (fría) · 2ª {t2 - t1:.2f} s (caliente) · "
                        f"{len(r1['resultados'])} y {len(r2['resultados'])} resultados",
             "segundos_fria": round(t1 - t0, 2), "segundos_caliente": round(t2 - t1, 2)}
@@ -100,10 +103,10 @@ def medir_consulta_maestra() -> dict:
     import mcp_server as m
     originales = (m._hf_para_consulta, m._doctrina_para_consulta,
                   m._normas_para_consulta, m._subgrafo_para_consulta)
-    m._hf_para_consulta = lambda q, lim=3: {"resultados": [], "citas": []}
-    m._doctrina_para_consulta = lambda q, lim=3: {"resultados": [], "citas": []}
-    m._normas_para_consulta = lambda q: []
-    m._subgrafo_para_consulta = lambda q, hops=1: {}
+    m._hf_para_consulta = lambda query, lim=3: {"resultados": [], "citas": []}
+    m._doctrina_para_consulta = lambda query, lim=3: {"resultados": [], "citas": []}
+    m._normas_para_consulta = lambda query: []
+    m._subgrafo_para_consulta = lambda query, hops=1: {}
     try:
         r = m.handle_tool_call("consulta_maestra", {"consulta": "humedales"})
     finally:
