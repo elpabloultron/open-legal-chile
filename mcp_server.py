@@ -1566,10 +1566,16 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             if not consulta:
                 return {"error": "El parámetro 'consulta' es obligatorio."}
             lim = int(args.get("max_fuentes") or 3)
-            hf = _hf_para_consulta(consulta, lim)
-            doctrina = _doctrina_para_consulta(consulta, lim)
-            normas = _normas_para_consulta(consulta)
-            subgrafo = _subgrafo_para_consulta(consulta)
+            # Los cuatro sondeos son independientes (HF, doctrina, normas, subgrafo):
+            # en paralelo la consulta espera al más lento, no a la suma.
+            from concurrent.futures import ThreadPoolExecutor
+            with ThreadPoolExecutor(max_workers=4, thread_name_prefix="consulta") as pool:
+                f_hf = pool.submit(_hf_para_consulta, consulta, lim)
+                f_doctrina = pool.submit(_doctrina_para_consulta, consulta, lim)
+                f_normas = pool.submit(_normas_para_consulta, consulta)
+                f_subgrafo = pool.submit(_subgrafo_para_consulta, consulta)
+                hf, doctrina, normas, subgrafo = (f_hf.result(), f_doctrina.result(),
+                                                  f_normas.result(), f_subgrafo.result())
             citas: List[Dict[str, Any]] = list(hf.get("citas") or []) + list(doctrina.get("citas") or [])
             for n in normas:
                 texto = str(n.get("texto") or "")
