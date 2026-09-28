@@ -10,10 +10,11 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import safe_urlopen
+from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
 
 BASE_URL = "https://discrepancias.panelexpertos.cl/api/v1"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "panel_expertos_cache")
+_TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60  # los dictámenes del Panel cambian lento: un mes
 
 
 class PanelExpertosClient:
@@ -29,12 +30,9 @@ class PanelExpertosClient:
         cache_key = f"discrepancies_p{page}_s{size}"
         cache_file = self._get_cache_path(cache_key)
 
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
         url = f"{BASE_URL}/discrepancies?page={page}&size={size}"
         req = urllib.request.Request(
@@ -46,13 +44,21 @@ class PanelExpertosClient:
             }
         )
 
-        with safe_urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+        try:
+            with safe_urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+        except Exception:
+            if copia is not None:
+                try:
+                    return {**copia, "copia_local_vencida": True}
+                except TypeError:
+                    return copia
+            raise
 
-            with open(cache_file, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
 
-            return data
+        return data
 
     def search_dictamenes(self, query: str, max_pages: int = 5, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Busca dictámenes y discrepancias por texto (empresa, materia, número, palabra clave)."""

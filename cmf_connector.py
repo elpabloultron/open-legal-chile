@@ -12,10 +12,12 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import safe_urlopen
+from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
 
 BASE_URL = "https://www.cmfchile.cl/portal/normativa/624"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cmf_cache")
+_TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60      # normativa CMF: cambia lento, un mes
+_TTL_SANCIONES_SEGUNDOS = 7 * 24 * 60 * 60   # sanciones: se publican al ritmo del día, una semana
 
 # Las resoluciones sancionatorias viven en otra sección del sitio y vienen en una tabla con columnas
 # N° | FECHA | MATERIA | ARCHIVO, una tabla por mercado: S seguros, V valores, B bancos.
@@ -86,44 +88,47 @@ class CMFClient:
     def get_index_normas(self, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Descarga e indexa el listado de Resoluciones, NCG y Circulares de la CMF."""
         cache_file = self._get_cache_path("index_normativa")
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        data = leer_json_si_se_puede(cache_file) if use_cache else None
+        if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return data
 
         url = f"{BASE_URL}/w4-propertyvalue-49322.html"
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Financiero Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
-        with safe_urlopen(req, timeout=30) as resp:
-            html = resp.read().decode("utf-8", errors="ignore")
-            # Extraer enlaces a normas
-            items = re.findall(r'<a[^>]+href=["\']([^"\']*(?:w4-article-[0-9]+|article)[^"\']*)["\'][^>]*>(.*?)</a>', html)
-            index_list = []
-            seen = set()
+        try:
+            with safe_urlopen(req, timeout=30) as resp:
+                html = resp.read().decode("utf-8", errors="ignore")
+        except Exception:
+            if data:
+                return data  # copia vencida: mejor el índice viejo que ningún índice
+            raise
 
-            for link, title in items:
-                clean_title = re.sub(r'<[^>]+>', '', title).strip()
-                if clean_title and clean_title not in seen:
-                    seen.add(clean_title)
-                    article_id = ""
-                    m_id = re.search(r'article-([0-9]+)', link)
-                    if m_id:
-                        article_id = m_id.group(1)
+        # Extraer enlaces a normas
+        items = re.findall(r'<a[^>]+href=["\']([^"\']*(?:w4-article-[0-9]+|article)[^"\']*)["\'][^>]*>(.*?)</a>', html)
+        index_list = []
+        seen = set()
 
-                    index_list.append({
-                        "titulo": clean_title,
-                        "articleId": article_id,
-                        "url": link if link.startswith("http") else f"{BASE_URL}/{link}",
-                        "pdfUrl": f"{BASE_URL}/articles-{article_id}_doc_pdf.pdf" if article_id else ""
-                    })
+        for link, title in items:
+            clean_title = re.sub(r'<[^>]+>', '', title).strip()
+            if clean_title and clean_title not in seen:
+                seen.add(clean_title)
+                article_id = ""
+                m_id = re.search(r'article-([0-9]+)', link)
+                if m_id:
+                    article_id = m_id.group(1)
 
-            with open(cache_file, "w", encoding="utf-8") as f:
-                json.dump(index_list, f, ensure_ascii=False, indent=2)
+                index_list.append({
+                    "titulo": clean_title,
+                    "articleId": article_id,
+                    "url": link if link.startswith("http") else f"{BASE_URL}/{link}",
+                    "pdfUrl": f"{BASE_URL}/articles-{article_id}_doc_pdf.pdf" if article_id else ""
+                })
 
-            return index_list
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(index_list, f, ensure_ascii=False, indent=2)
+
+        return index_list
 
     def search_normativa(self, query: str, limit: int = 15) -> List[Dict[str, Any]]:
         """Busca en el catálogo de normativa CMF por término, tipo (NCG, Circular, Resolución) o número."""
@@ -149,12 +154,9 @@ class CMFClient:
         vigentes —N° | FECHA | MATERIA | ARCHIVO— de los tres mercados: seguros, valores y bancos.
         """
         cache_file = self._get_cache_path("sanciones_cmf_v2")  # v2: la caché anterior estaba vacía
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        data = leer_json_si_se_puede(cache_file) if use_cache else None
+        if data is not None and cache_fresco(cache_file, _TTL_SANCIONES_SEGUNDOS):
+            return data
 
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Financiero Chile)'}
         sanciones: List[Dict[str, Any]] = []
@@ -183,6 +185,9 @@ class CMFClient:
             with open(cache_file, "w", encoding="utf-8") as f:
                 json.dump(sanciones, f, ensure_ascii=False, indent=2)
             return sanciones
+
+        if data:
+            return data  # copia vencida: mejor la lista vieja que ningún listado
 
         detalle = "; ".join(fallos) if fallos else "las tablas respondieron pero sin filas reconocibles"
         return [_aviso(

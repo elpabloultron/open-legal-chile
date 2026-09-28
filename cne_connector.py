@@ -13,11 +13,12 @@ import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
 
-from config import CNE_EMAIL, CNE_PASSWORD, safe_urlopen
+from config import CNE_EMAIL, CNE_PASSWORD, cache_fresco, leer_json_si_se_puede, safe_urlopen
 
 CNE_BASE_URL = "https://api.cne.cl"
 BASE_URL = "https://api.cne.cl/api/v1"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cne_cache")
+_TTL_CACHE_SEGUNDOS = 7 * 24 * 60 * 60  # los datos de energía se mueven semana a semana
 
 
 class CNEClient:
@@ -89,14 +90,12 @@ class CNEClient:
 
     def _get(self, endpoint: str, cache_key: Optional[str] = None, use_cache: bool = True) -> Any:
         """Realiza una petición GET autenticada a la API de la CNE descomprimiendo gzip."""
+        copia = None
         if cache_key:
             cache_file = self._get_cache_path(cache_key)
-            if os.path.exists(cache_file):
-                try:
-                    with open(cache_file, "r", encoding="utf-8") as f:
-                        return json.load(f)
-                except Exception:
-                    pass
+            copia = leer_json_si_se_puede(cache_file) if use_cache else None
+            if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+                return copia
 
         token = self.login()
         if not token:
@@ -134,7 +133,7 @@ class CNEClient:
 
                 return data
         except Exception:
-            return []
+            return copia if copia is not None else []
 
 
     # =========================================================================

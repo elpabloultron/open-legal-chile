@@ -12,10 +12,11 @@ import json
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import safe_urlopen
+from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
 
 BASE_URL = "https://www.tdlc.cl/wp-json/wp/v2"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "tdlc_cache")
+_TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60  # la jurisprudencia del TDLC cambia lento: un mes
 
 
 class TDLCClient:
@@ -31,12 +32,9 @@ class TDLCClient:
         cache_key = f"sentencias_p{page}_s{per_page}"
         cache_file = self._get_cache_path(cache_key)
 
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
         url = f"{BASE_URL}/tdlc-sentencias?page={page}&per_page={per_page}"
         req = urllib.request.Request(
@@ -47,36 +45,38 @@ class TDLCClient:
             }
         )
 
-        with safe_urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+        try:
+            with safe_urlopen(req, timeout=20) as resp:
+                data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+        except Exception:
+            if copia:
+                return copia  # copia vencida: mejor la lista vieja que ninguna
+            raise
 
-            clean_results = []
-            for item in data:
-                raw_title = item.get("title", {}).get("rendered", "")
-                clean_title = html.unescape(re.sub(r'<[^>]+>', '', raw_title).strip())
-                clean_results.append({
-                    "id": item.get("id"),
-                    "titulo": clean_title,
-                    "fecha": item.get("date", "")[:10],
-                    "link": item.get("link", "")
-                })
+        clean_results = []
+        for item in data:
+            raw_title = item.get("title", {}).get("rendered", "")
+            clean_title = html.unescape(re.sub(r'<[^>]+>', '', raw_title).strip())
+            clean_results.append({
+                "id": item.get("id"),
+                "titulo": clean_title,
+                "fecha": item.get("date", "")[:10],
+                "link": item.get("link", "")
+            })
 
-            with open(cache_file, "w", encoding="utf-8") as f:
-                json.dump(clean_results, f, ensure_ascii=False, indent=2)
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(clean_results, f, ensure_ascii=False, indent=2)
 
-            return clean_results
+        return clean_results
 
     def get_dictamenes(self, page: int = 1, per_page: int = 10, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Obtiene el listado oficial de Dictámenes no contenciosos del TDLC."""
         cache_key = f"dictamenes_p{page}_s{per_page}"
         cache_file = self._get_cache_path(cache_key)
 
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
         url = f"{BASE_URL}/dictamenes?page={page}&per_page={per_page}"
         req = urllib.request.Request(url, headers={"User-Agent": "OpenLegalChile/1.0", "Accept": "application/json"})
@@ -94,19 +94,16 @@ class TDLCClient:
                     json.dump(res, f, ensure_ascii=False, indent=2)
                 return res
         except Exception:
-            return []
+            return copia if copia else []
 
     def get_instrucciones_generales(self, page: int = 1, per_page: int = 10, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Obtiene las Instrucciones de Carácter General (ICG) emitidas por el TDLC."""
         cache_key = f"icg_p{page}_s{per_page}"
         cache_file = self._get_cache_path(cache_key)
 
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
         url = f"{BASE_URL}/instrucciones-generales?page={page}&per_page={per_page}"
         req = urllib.request.Request(url, headers={"User-Agent": "OpenLegalChile/1.0", "Accept": "application/json"})
@@ -124,7 +121,7 @@ class TDLCClient:
                     json.dump(res, f, ensure_ascii=False, indent=2)
                 return res
         except Exception:
-            return []
+            return copia if copia else []
 
     def search_jurisprudencia(self, query: str, max_pages: int = 3) -> List[Dict[str, Any]]:
         """Busca en sentencias, dictámenes e instrucciones generales del TDLC por término o empresa involucrada."""
