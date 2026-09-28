@@ -606,6 +606,9 @@ openlegal doctrina "simulacion y error sustancial"
 # Consultar las guías de formación de la Academia Judicial
 openlegal guias "determinacion de penas"
 
+# El módulo especial de derecho ambiental (sentencias TA, anuarios, boletines y biblioteca)
+openlegal ambiental "daño ambiental en humedales urbanos"
+
 # Consultar estadísticas globales de adopción (PyPI / GitHub)
 openlegal stats
 

@@ -194,7 +194,8 @@ def procesar(item: tuple[int, dict]) -> tuple[int, str]:
     md = DIR_MD / f"{nombre}.md"
     pdf = pathlib.Path(reg.get("ruta_pdf") or (DIR_PDF / f"{nombre}.pdf"))
     if md.exists() and md.stat().st_size > 500:
-        return idx, f"saltada|{nombre}|{md.stat().st_size}"
+        chars = len(md.read_text(encoding="utf-8", errors="replace"))
+        return idx, f"saltada|{nombre}|{chars}"
     try:
         if not pdf.exists():
             raise FileNotFoundError(f"falta el PDF {pdf}")
@@ -304,11 +305,6 @@ def materiales(aplicar_dedupe: bool = True) -> list[dict]:
 
     if aplicar_dedupe:
         vistos: dict[str, str] = {}
-        for pdf in sorted(DIR_PDF.glob("*.pdf")):
-            try:
-                vistos[_sha256(pdf)] = pdf.name
-            except OSError:
-                pass
         unicas: list[dict] = []
         nombres: set[str] = set()
         for reg in filas:
@@ -363,6 +359,11 @@ def main() -> int:
                 print(f"  ✓ {nombre} · {int(partes[2]):,} chars · {partes[3]}")
             elif estado == "saltada":
                 saltadas += 1
+                if len(partes) > 2 and partes[2].isdigit() and not reg.get("caracteres"):
+                    reg["caracteres"] = int(partes[2])
+                    reg["tokens_aprox"] = int(partes[2]) // 4
+                    reg["metodo"] = "ya estaba"
+                    print(f"  · {nombre} · {int(partes[2]):,} chars (ya estaba)")
             else:
                 fallidas += 1
                 print(f"  [!] {nombre}: {partes[2] if len(partes) > 2 else ''}")

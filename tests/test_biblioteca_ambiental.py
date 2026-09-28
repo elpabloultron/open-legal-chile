@@ -50,3 +50,16 @@ def test_ficha_cita_huggingface():
     texto = mod.ficha(reg, "2ta_informe_derecho_03.md")
     assert "[Hugging Face - biblioteca_ambiental/2ta_informe_derecho_03.md]" in texto
     assert "Rodrigo Silva Montes" in texto
+
+
+def test_materiales_incluye_los_oficiales():
+    """Regresión: el dedupe se sembraba con los PDF oficiales y los eliminaba a todos
+    (los libros del concurso, los informes y los foros nunca llegaban a la colección)."""
+    mod = _modulo()
+    filas = mod.materiales()
+    por_tipo: dict[str, int] = {}
+    for r in filas:
+        por_tipo[r["tipo"]] = por_tipo.get(r["tipo"], 0) + 1
+    assert por_tipo.get("libro_concurso") == 6, por_tipo
+    assert por_tipo.get("informe") == 14, por_tipo
+    assert por_tipo.get("foro") == 5, por_tipo
