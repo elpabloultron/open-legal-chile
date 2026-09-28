@@ -14,6 +14,7 @@ import sys
 import tarfile
 import shutil
 import time
+import threading
 from typing import Dict, Any, List, Optional
 
 BASE_DIR = os.path.dirname(__file__)
@@ -37,6 +38,9 @@ _TEXTO_HF = (".md", ".txt", ".jsonl", ".json")
 _TAMANO_MAX_HF = 6_000_000        # archivos de texto: más grande que esto no se lee entero
 _TAMANO_MAX_JSONL = 16_000_000    # jsonl: se filtran líneas, pero se acota lo que se baja
 _ARCHIVOS_HF_CACHE: Dict[str, Any] = {}
+# Candado del memo: el precalentado del arranque y la primera consulta pueden pedir el listado
+# a la vez; con él, el segundo espera la descarga en curso en vez de duplicarla (~18 s c/u).
+_ARCHIVOS_HF_LOCK = threading.Lock()
 
 # Frescura de la caché: cada cuánto se revalida un archivo contra el hub y dónde se recuerda
 # qué revisión está bajada (el blob_id de git identifica el contenido sin tener que bajarlo).
@@ -1351,15 +1355,23 @@ def _normalizar_para_buscar(texto: str) -> str:
 
 
 def _listar_archivos_hf(repo_id: str) -> List[str]:
-    """Lista los archivos del dataset con caché en memoria (10 minutos)."""
+    """Lista los archivos del dataset con caché en memoria (10 minutos).
+
+    El candado cubre la carrera del arranque: el precalentado del server y la primera consulta
+    pueden pedir el listado a la vez; sin él ambos pagaban la misma descarga (~18 s cada uno).
+    """
     global _ARCHIVOS_HF_CACHE
     ahora = time.time()
     if _ARCHIVOS_HF_CACHE.get("repo") == repo_id and ahora - _ARCHIVOS_HF_CACHE.get("t", 0) < 600:
         return _ARCHIVOS_HF_CACHE.get("archivos", [])
-    from huggingface_hub import HfApi
-    archivos = HfApi(token=resolver_token_hf()).list_repo_files(repo_id=repo_id, repo_type="dataset")
-    _ARCHIVOS_HF_CACHE = {"repo": repo_id, "t": ahora, "archivos": archivos}
-    return archivos
+    with _ARCHIVOS_HF_LOCK:
+        ahora = time.time()
+        if _ARCHIVOS_HF_CACHE.get("repo") == repo_id and ahora - _ARCHIVOS_HF_CACHE.get("t", 0) < 600:
+            return _ARCHIVOS_HF_CACHE.get("archivos", [])
+        from huggingface_hub import HfApi
+        archivos = HfApi(token=resolver_token_hf()).list_repo_files(repo_id=repo_id, repo_type="dataset")
+        _ARCHIVOS_HF_CACHE = {"repo": repo_id, "t": ahora, "archivos": archivos}
+        return archivos
 
 
 def _linea_jsonl_legible(linea: str) -> str:

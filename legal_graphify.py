@@ -555,7 +555,10 @@ class LegalGraphifyEngine:
         documento inexistente del paquete).
         """
         if not self.is_built:
-            self.construir_grafo_desde_doctrina()
+            # Igual que en consultar_subgrafo: artefacto publicado primero, reconstrucción
+            # desde doctrina solo como último recurso.
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
 
         extraido = extract_articulos_de_codigo(codigo_nombre, texto)
         articulos = sum(
@@ -669,7 +672,10 @@ class LegalGraphifyEngine:
         en lugar de inyectar textos completos de hasta ~1.600 tokens.
         """
         if not self.is_built:
-            self.construir_grafo_desde_doctrina()
+            # Artefacto publicado primero (instantáneo); reconstruir desde doctrina es el
+            # último recurso: en frío cuesta decenas de segundos.
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
 
         nodo_central = self._buscar_nodo_relevante(query)
         if not nodo_central or not self.graph.has_node(nodo_central):
@@ -797,7 +803,9 @@ class LegalGraphifyEngine:
     def exportar_subgrafo_mermaid(self, query: str, max_hops: int = 1) -> str:
         """Genera diagrama Mermaid interactivo centrado en el subgrafo de la consulta."""
         if not self.is_built:
-            self.construir_grafo_desde_doctrina()
+            # Mismo orden que consultar_subgrafo: artefacto publicado antes de reconstruir.
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
 
         nodo_central = self._buscar_nodo_relevante(query)
         if not nodo_central or not self.graph.has_node(nodo_central):
@@ -1186,17 +1194,24 @@ class LegalGraphifyEngine:
 
         return filepath
 
-    def cargar_grafo_json(self, filepath: str = DEFAULT_GRAPH_PATH) -> bool:
-        """Carga el grafo serializado desde un archivo JSON para consulta instantánea."""
+    def cargar_grafo_json(self, filepath: Optional[str] = None) -> bool:
+        """Carga el grafo serializado desde un archivo JSON para consulta instantánea.
+
+        Sin `filepath` usa DEFAULT_GRAPH_PATH — evaluado en la llamada, no al definir la clase,
+        para que las pruebas (y cada runtime) puedan apuntar a otro artefacto.
+        """
+        filepath = filepath or DEFAULT_GRAPH_PATH
         if not os.path.exists(filepath):
             # No es un error (primera corrida), pero tampoco puede quedar en silencio: el
             # consumidor tiene que poder distinguir "no hay artefacto todavía" de "el grafo
             # tiene datos y los estoy usando".
-            self.advertencias.append(
+            aviso = (
                 f"No existe el grafo en {filepath} (no hay nada cargado). Si el corpus sí está, "
                 f"reconstrúyelo con construir_grafo_desde_doctrina(); si instalaste desde PyPI, el "
                 "corpus doctrinal no viaja dentro del paquete."
             )
+            if aviso not in self.advertencias:  # sin duplicar: cada consulta reintenta la carga
+                self.advertencias.append(aviso)
             return False
         self.advertencias = []
         try:
