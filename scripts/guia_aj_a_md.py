@@ -12,11 +12,13 @@ nada se resume ni se recorta.
 import argparse
 import pathlib
 import re
+import shutil
 import subprocess
 import sys
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 DESTINO = RAIZ / "corpus_guias_aj"
+PDFTOTEXT = shutil.which("pdftotext") or "pdftotext"
 
 PLANTILLA = """---
 titulo: {titulo}
@@ -37,7 +39,7 @@ extraccion: pdftotext
 
 
 def texto_del_pdf(ruta: pathlib.Path) -> str:
-    corrida = subprocess.run(["pdftotext", "-q", str(ruta), "-"],
+    corrida = subprocess.run([PDFTOTEXT, "-q", str(ruta), "-"],
                              capture_output=True, text=True, encoding="utf-8", errors="replace")
     return corrida.stdout.strip()
 
