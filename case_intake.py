@@ -550,14 +550,30 @@ def planear(deteccion: Dict[str, Any], consulta: str = "") -> Dict[str, Any]:
         "por_que": "relación entre las instituciones del caso, sin gastar tokens de más",
     })
     if deteccion["documentos"]:
-        pasos.append({
-            "herramienta": "ocr_extract_pdf" if any(
-                d["extension"] in EXTENSIONES_DOCUMENTO or d["extension"] in EXTENSIONES_IMAGEN
-                for d in deteccion["documentos"]
-            ) else "doctrina_ingestar_documento",
-            "argumentos": {},
-            "por_que": "los documentos hay que leerlos: los escaneados por OCR, los de texto directo",
-        })
+        leibles = [d["ruta"] for d in deteccion["documentos"]
+                   if d["extension"] in EXTENSIONES_DOCUMENTO or d["extension"] in EXTENSIONES_IMAGEN]
+        if leibles:
+            # Antes de extraer, la recomendación razonada de OCR: mide el PDF y decide (nativo si ya
+            # trae capa de texto; motor y doble pasada si hay plazos o cifras en juego). El paso va
+            # primero para que el plan muestre la recomendación, no sólo la extracción.
+            pasos.append({
+                "herramienta": "ocr_plan_documento",
+                "argumentos": {"pdf_path": leibles[0],
+                               "contexto": consulta or " ".join(deteccion["letras"]) or "caso"},
+                "por_que": "mide el documento y recomienda cómo extraerlo con fundamento (nativo / "
+                           "motor / doble pasada si hay plazos): no se reinterpreta lo que la fuente ya dice",
+            })
+            pasos.append({
+                "herramienta": "ocr_extract_pdf",
+                "argumentos": {"pdf_path": leibles[0]},
+                "por_que": "los documentos hay que leerlos: los escaneados por OCR, los de texto directo",
+            })
+        else:
+            pasos.append({
+                "herramienta": "doctrina_ingestar_documento",
+                "argumentos": {},
+                "por_que": "los documentos hay que leerlos: los escaneados por OCR, los de texto directo",
+            })
         pasos.append({
             "herramienta": "compile_legal_dossier",
             "argumentos": {},

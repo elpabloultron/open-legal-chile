@@ -20,3 +20,9 @@ def test_agents_declara_el_protocolo_de_respuesta():
 def test_el_prompt_del_chat_exige_texto_literal():
     fuente = (RAIZ / "chat_engine.py").read_text(encoding="utf-8")
     assert "texto literal" in fuente.lower()
+
+
+def test_el_prompt_del_chat_pide_el_plan_de_ocr_antes_de_citar():
+    fuente = (RAIZ / "chat_engine.py").read_text(encoding="utf-8")
+    assert "ocr_plan_documento" in fuente, "el chat pide el plan de OCR antes de citar un escaneo"
+    assert "no se cita de ahí" in fuente

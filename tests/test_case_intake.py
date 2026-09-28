@@ -133,6 +133,12 @@ class TestDecision(unittest.TestCase):
             self.assertIn("demanda", tipos)
             self.assertIn("contestacion", tipos)
             self.assertIn("ocr_extract_pdf", [p["herramienta"] for p in analisis["plan"]])
+            herramientas = [p["herramienta"] for p in analisis["plan"]]
+            assert "ocr_plan_documento" in herramientas, "la mesa recomienda el OCR antes de extraer"
+            assert herramientas.index("ocr_plan_documento") < herramientas.index("ocr_extract_pdf")
+            paso_ocr = next(p for p in analisis["plan"] if p["herramienta"] == "ocr_plan_documento")
+            assert paso_ocr["argumentos"]["pdf_path"].endswith(".pdf")
+            assert paso_ocr["argumentos"]["contexto"]
 
     def test_una_carpeta_que_no_existe_lo_dice(self):
         analisis = case_intake.caso_analizar("/no/existe/esta/carpeta", tipo="carpeta")
