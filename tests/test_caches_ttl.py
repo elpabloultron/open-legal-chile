@@ -252,3 +252,29 @@ def test_listado_hf_vencido_sin_red_usa_la_copia(monkeypatch, tmp_path):
     monkeypatch.setattr("huggingface_hub.HfApi", _HfRoto)
 
     assert ols._listar_archivos_hf("repo/prueba") == ["viejo.md"]
+
+
+# ─────────────────────────── Helpers de caché (config) ───────────────────────────
+
+def test_cache_fresco_y_vencido(tmp_path):
+    import config
+
+    archivo = tmp_path / "c.json"
+    assert config.cache_fresco(str(archivo), 60) is False          # no existe
+    archivo.write_text("{}", encoding="utf-8")
+    assert config.cache_fresco(str(archivo), 60) is True
+    vencido = time.time() - 3600
+    os.utime(archivo, (vencido, vencido))
+    assert config.cache_fresco(str(archivo), 60) is False
+
+
+def test_leer_json_si_se_puede(tmp_path):
+    import config
+
+    assert config.leer_json_si_se_puede(str(tmp_path / "nada.json")) is None
+    roto = tmp_path / "roto.json"
+    roto.write_text("{no es json", encoding="utf-8")
+    assert config.leer_json_si_se_puede(str(roto)) is None
+    bueno = tmp_path / "bueno.json"
+    bueno.write_text('{"a": 1}', encoding="utf-8")
+    assert config.leer_json_si_se_puede(str(bueno)) == {"a": 1}

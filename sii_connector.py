@@ -13,10 +13,11 @@ import uuid
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import safe_urlopen
+from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
 
 BASE_URL = "https://www.sii.cl/normativa_legislacion"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "sii_cache")
+_TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60  # los índices del SII cambian lento: un mes
 
 
 def _texto_plano(trozo: str) -> str:
@@ -306,12 +307,9 @@ class SIIClient:
         cache_key = f"circulares_{anio}_v2"  # v2: incluye la MATERIA (la caché anterior no la tenía)
         cache_file = self._get_cache_path(cache_key)
 
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
         url = f"{BASE_URL}/circulares/{anio}/indcir{anio}.htm"
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
@@ -338,6 +336,8 @@ class SIIClient:
                     )]
 
         except Exception as e:
+            if copia:
+                return copia  # copia vencida: mejor el índice viejo que ningún índice
             circulares_list = [_aviso(
                 f"No se pudo cargar el índice de circulares {anio}",
                 f"El SII no respondió o la dirección del índice cambió ({e}). Esto NO significa que "
@@ -351,12 +351,9 @@ class SIIClient:
         cache_key = f"resoluciones_{anio}"
         cache_file = self._get_cache_path(cache_key)
 
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
         url = f"{BASE_URL}/resoluciones/{anio}/res_ind{anio}.htm"
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
@@ -382,6 +379,8 @@ class SIIClient:
                     )]
 
         except Exception as e:
+            if copia:
+                return copia  # copia vencida: mejor el índice viejo que ningún índice
             resoluciones_list = [_aviso(
                 f"No se pudo cargar el índice de resoluciones exentas {anio}",
                 f"La dirección que usa este conector ya no responde ({e}). Verificado el 18-09-2026: "
@@ -408,12 +407,9 @@ class SIIClient:
         cache_key = f"oficios_{anio}_v2"  # v2: la caché anterior estaba vacía
         cache_file = self._get_cache_path(cache_key)
 
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
         headers = {
             'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)',
@@ -441,6 +437,9 @@ class SIIClient:
             with open(cache_file, "w", encoding="utf-8") as f:
                 json.dump(oficios_list, f, ensure_ascii=False, indent=2)
             return oficios_list
+
+        if copia:
+            return copia  # copia vencida: mejor la lista vieja que ningún listado
 
         detalle = "; ".join(fallos) if fallos else "el servicio respondió sin publicaciones"
         return [_aviso(
@@ -501,13 +500,9 @@ class SIIClient:
         """
         cache_key = f"actos_ddrr_{anio}"
         cache_file = self._get_cache_path(cache_key)
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    actos_cacheados: List[Dict[str, Any]] = json.load(f)
-                return self._filtrar_por_direccion(actos_cacheados, direccion)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return self._filtrar_por_direccion(copia, direccion)
 
         maestro = SII_ACTOS_MAESTRO.format(base=BASE_URL, anio=anio)
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
@@ -515,6 +510,8 @@ class SIIClient:
             with safe_urlopen(urllib.request.Request(maestro, headers=headers), timeout=30) as resp:
                 html_maestro = resp.read().decode("utf-8", errors="ignore")
         except Exception as e:
+            if copia is not None:
+                return self._filtrar_por_direccion(copia, direccion)  # copia vencida antes que aviso
             return [_aviso(
                 f"No se pudo cargar el índice de actos y resoluciones {anio}",
                 f"La página maestra del SII no respondió ({e}). Esto NO significa que no haya actos "
@@ -602,12 +599,9 @@ class SIIClient:
         aplicación en Chile, la autoridad competente y los textos en español e inglés.
         """
         cache_file = self._get_cache_path("convenios_internacionales")
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
         url = f"{BASE_URL}/convenios_internacionales.html"
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'}
@@ -615,6 +609,8 @@ class SIIClient:
             with safe_urlopen(urllib.request.Request(url, headers=headers), timeout=30) as resp:
                 pagina = resp.read().decode("utf-8", errors="ignore")
         except Exception as e:
+            if copia:
+                return copia  # copia vencida: mejor el cuadro viejo que ningún cuadro
             return [_aviso(
                 "No se pudo cargar el cuadro de convenios tributarios internacionales",
                 f"El sitio del SII no respondió ({e}). Esto NO significa que no existan convenios.",
@@ -662,12 +658,9 @@ class SIIClient:
         la decisión, el resultado y los artículos que cada sentencia cita.
         """
         cache_file = self._get_cache_path("jurisprudencia_judicial")
-        if use_cache and os.path.exists(cache_file):
-            try:
-                with open(cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception:
-                pass
+        copia = leer_json_si_se_puede(cache_file) if use_cache else None
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
         datos = {
             "orderByField": "fecha",
@@ -685,6 +678,8 @@ class SIIClient:
             with safe_urlopen(req, timeout=120) as resp:
                 respuesta = json.loads(resp.read().decode("utf-8", errors="ignore"))
         except Exception as e:
+            if copia:
+                return copia  # copia vencida: mejor la lista vieja que ningún listado
             return [_aviso(
                 "No se pudo cargar la jurisprudencia judicial del SII",
                 f"El servicio no respondió ({e}). Esto NO significa que no existan sentencias.",
