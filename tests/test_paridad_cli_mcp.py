@@ -17,6 +17,8 @@ COMANDO_A_HERRAMIENTA = {
     "check": "suite_doctor",
     "doctor": "suite_doctor",
     "search": "busqueda_universal",
+    "ocr": "ocr_plan_documento",
+    "instalar": "suite_instalar",
     "skills": "skills_listar",
     "critique": "critique_documento",
     "generate": "generar_documento",

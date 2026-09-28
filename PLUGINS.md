@@ -1,6 +1,9 @@
 # 🔌 Instalación en 1-Click / 1-Comando (Plugins & MCP)
 ## Open Legal Chile Suite v1.3.0
 
+> Estas son las **vías alternativas** (plugins, registros, autodetección). El camino directo es un
+> solo comando: `pip install openlegal-chile && openlegal instalar` — ver el README.
+
 **Open Legal Chile Suite** implementa de forma nativa el protocolo estándar **MCP (Model Context Protocol)** y cuenta con manifiestos preconfigurados para su integración inmediata y sin fricción ("zero-config") en todos los entornos de agentes de Inteligencia Artificial líderes del mercado.
 
 ---
@@ -14,7 +17,7 @@ Desde cualquier terminal en tu proyecto:
 ```bash
 claude plugin add elpabloultron/open-legal-chile
 ```
-*Claude Code detectará automáticamente el archivo `.claude-plugin/plugin.json` y registrará las 84 herramientas jurídicas*
+*Claude Code detectará automáticamente el archivo `.claude-plugin/plugin.json` y registrará las 86 herramientas jurídicas*
 
 #### Opción B: Como Servidor MCP en Claude Code
 ```bash
@@ -137,7 +140,7 @@ Para maximizar la precisión de los modelos y ahorrar entre un **70 % y 85 % de 
   * `corporativo` (13 herramientas): CMF, SII, TDLC, Marcas INAPI, Derechos ARCO, RUT Chile.
   * `dogmatico` (14 herramientas): Doctrina FTS5, Subgrafos LegalGraphify, Blast Radius, Academia Judicial.
   * `clinica` (7 herramientas): Lenguaje Claro, Intake CAJ, Auditoría de Borradores.
-  * `completo` / `full` (84 herramientas, por defecto).
+  * `completo` / `full` (86 herramientas, por defecto).
 
 Ejemplo en `.vscode/mcp.json` o Cursor para restringir al perfil laboral:
 ```json
@@ -169,7 +172,7 @@ print(f'✅ Open Legal Chile Suite activa: {len(tools)} herramientas MCP disponi
 
 Salida esperada:
 ```text
-✅ Open Legal Chile Suite activa: 84 herramientas MCP disponibles.
+✅ Open Legal Chile Suite activa: 86 herramientas MCP disponibles.
 ```
 
 ---

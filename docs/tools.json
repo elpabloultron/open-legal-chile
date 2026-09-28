@@ -1681,5 +1681,188 @@
         "referencia"
       ]
     }
+  },
+  {
+    "name": "suite_doctor",
+    "description": "Diagnóstico REAL de la instalación (versión, OCR y sus motores, corpus doctrinal, grafo, índice FTS, formateador de citas y herramientas MCP). Usalo para comprobar que todo está disponible antes de prometer algo.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "suite_instalar",
+    "description": "Deja el harness configurado y verificado en un paso: detecta los harnesses de la carpeta (Claude Code, Cursor, VS Code, dsh, Codex, Antigravity), escribe su configuración MCP si escribir=True y devuelve el estado del doctor. Equivale a `openlegal instalar` en la terminal.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "carpeta": {
+          "type": "string",
+          "description": "Carpeta a revisar (por defecto, la actual)"
+        },
+        "escribir": {
+          "type": "boolean",
+          "description": "true para dejar la configuración escrita (con respaldo)"
+        }
+      }
+    }
+  },
+  {
+    "name": "ocr_plan_documento",
+    "description": "Recomienda —con razonamiento del sistema jurídico chileno— cómo extraer el texto de un PDF: nativo si ya trae capa de texto; si está escaneado, OCR con motor y DPI según el tipo (expediente_judicial, escritura_notarial, sentencia_antigua, documento_administrativo, tabla_o_liquidacion) y doble pasada cuando hay plazos o cifras en juego (art. 66 CPC). Devuelve el plan, su fundamento y las alternativas: la decisión es del harness.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "pdf_path": {
+          "type": "string",
+          "description": "Ruta del PDF a medir"
+        },
+        "contexto": {
+          "type": "string",
+          "description": "Para qué se usará (consulta o caso en curso)"
+        },
+        "tipo_documento": {
+          "type": "string",
+          "description": "Opcional: expediente_judicial, escritura_notarial, sentencia_antigua, documento_administrativo o tabla_o_liquidacion"
+        }
+      },
+      "required": [
+        "pdf_path"
+      ]
+    }
+  },
+  {
+    "name": "busqueda_universal",
+    "description": "Busca un término a la vez en los 10 organismos del Estado (BCN, CGR, DT, PJUD, TC, CNE, Panel de Expertos, CMF, SII, SMA/TDLC) y devuelve los resultados con sus citas listas.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "consulta": {
+          "type": "string",
+          "description": "Término o frase a buscar"
+        }
+      },
+      "required": [
+        "consulta"
+      ]
+    }
+  },
+  {
+    "name": "critique_documento",
+    "description": "Auditoría forense de un borrador judicial (5 dimensiones: hecho, derecho, prueba, procedimiento y estrategia) con el motor de crítica del producto.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "texto": {
+          "type": "string",
+          "description": "El borrador a auditar"
+        },
+        "provider": {
+          "type": "string",
+          "description": "Proveedor de IA opcional (si se omite, usa el motor local)"
+        }
+      },
+      "required": [
+        "texto"
+      ]
+    }
+  },
+  {
+    "name": "generar_documento",
+    "description": "Genera un escrito completo con plantilla chilena (demanda civil, recurso de protección, demanda laboral, contrato PPA) y lo entrega en Word (.docx editable) más HTML/MD/TXT/JSON. El entregable de trabajo es Word, nunca PDF.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "demanda_civil",
+            "proteccion",
+            "laboral",
+            "ppa"
+          ]
+        },
+        "tribunal": {
+          "type": "string"
+        },
+        "demandante": {
+          "type": "string"
+        },
+        "rut": {
+          "type": "string"
+        },
+        "demandado": {
+          "type": "string"
+        },
+        "comparecencia": {
+          "type": "string"
+        },
+        "hechos": {
+          "type": "string"
+        },
+        "derecho": {
+          "type": "string"
+        },
+        "peticiones": {
+          "type": "string"
+        },
+        "otrosies": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "tipo",
+        "hechos",
+        "peticiones"
+      ]
+    }
+  },
+  {
+    "name": "entrevista_estudio",
+    "description": "Entrevista de arranque del estudio, sin consola: sin argumentos devuelve el cuestionario y el perfil actual; con 'pregunta' y 'respuesta' guarda cada clave del perfil de práctica.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "pregunta": {
+          "type": "string",
+          "description": "La clave o el texto de la pregunta (ej. 'tono procesal')"
+        },
+        "respuesta": {
+          "type": "string",
+          "description": "La respuesta del usuario (ej. '2' o 'formal')"
+        },
+        "base_dir": {
+          "type": "string",
+          "description": "Carpeta donde vive el perfil (por defecto, la actual)"
+        }
+      }
+    }
+  },
+  {
+    "name": "skills_listar",
+    "description": "Lista las 18 skills jurídicas y los 19 agentes autónomos reales del producto, con su título.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "skill_ver",
+    "description": "Devuelve el contenido completo de una skill (por su nombre, ej. 'chilean-employment-legal'): así el harness aplica el criterio del producto sin abrir archivos a mano.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "nombre": {
+          "type": "string",
+          "description": "Nombre de la skill (carpeta en .agents/skills)"
+        }
+      },
+      "required": [
+        "nombre"
+      ]
+    }
   }
 ]

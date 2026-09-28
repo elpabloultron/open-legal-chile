@@ -118,7 +118,7 @@ class MCPClientRunner:
 
 
 def test_mcp_e2e_handshake_and_catalog():
-    """Valida el handshake y el catálogo de las 84 herramientas oficiales."""
+    """Valida el handshake y el catálogo de las 86 herramientas oficiales."""
     with MCPClientRunner() as client:
         # 1. Initialize
         init_resp = client.send_request("initialize", {
@@ -140,7 +140,7 @@ def test_mcp_e2e_handshake_and_catalog():
         # 3. Tools List
         tools_resp = client.send_request("tools/list")
         tools = tools_resp.get("result", {}).get("tools", [])
-        assert len(tools) == 84, f"Esperadas 84 herramientas, obtenidas: {len(tools)}"
+        assert len(tools) == 86, f"Esperadas 86 herramientas, obtenidas: {len(tools)}"
 
         for tool in tools:
             assert "name" in tool

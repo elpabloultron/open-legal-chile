@@ -1180,6 +1180,36 @@ TOOLS = [
         "inputSchema": {"type": "object", "properties": {}}
     },
     {
+        "name": "suite_instalar",
+        "description": "Deja el harness configurado y verificado en un paso: detecta los harnesses de la carpeta "
+                       "(Claude Code, Cursor, VS Code, dsh, Codex, Antigravity), escribe su configuración MCP si "
+                       "escribir=True y devuelve el estado del doctor. Equivale a `openlegal instalar` en la terminal.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "carpeta": {"type": "string", "description": "Carpeta a revisar (por defecto, la actual)"},
+                "escribir": {"type": "boolean", "description": "true para dejar la configuración escrita (con respaldo)"}
+            }
+        }
+    },
+    {
+        "name": "ocr_plan_documento",
+        "description": "Recomienda —con razonamiento del sistema jurídico chileno— cómo extraer el texto de un PDF: "
+                       "nativo si ya trae capa de texto; si está escaneado, OCR con motor y DPI según el tipo "
+                       "(expediente_judicial, escritura_notarial, sentencia_antigua, documento_administrativo, "
+                       "tabla_o_liquidacion) y doble pasada cuando hay plazos o cifras en juego (art. 66 CPC). "
+                       "Devuelve el plan, su fundamento y las alternativas: la decisión es del harness.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "pdf_path": {"type": "string", "description": "Ruta del PDF a medir"},
+                "contexto": {"type": "string", "description": "Para qué se usará (consulta o caso en curso)"},
+                "tipo_documento": {"type": "string", "description": "Opcional: expediente_judicial, escritura_notarial, sentencia_antigua, documento_administrativo o tabla_o_liquidacion"}
+            },
+            "required": ["pdf_path"]
+        }
+    },
+    {
         "name": "busqueda_universal",
         "description": "Busca un término a la vez en los 10 organismos del Estado (BCN, CGR, DT, PJUD, TC, CNE, "
                        "Panel de Expertos, CMF, SII, SMA/TDLC) y devuelve los resultados con sus citas listas.",
@@ -1583,6 +1613,28 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
         elif name == "suite_doctor":
             from diagnostico import diagnostico_completo
             return diagnostico_completo()
+
+        elif name == "suite_instalar":
+            import integraciones_harness as ih
+            from diagnostico import diagnostico_completo
+
+            carpeta = args.get("carpeta") or "."
+            detectados = ih.detectar_instalados(carpeta)
+            escritos = ih.escribir_todos(detectados, carpeta_base=carpeta) if (detectados and args.get("escribir")) else []
+            resumen = diagnostico_completo()
+            return {
+                "harnesses": detectados,
+                "escritos": [{"cliente": r.get("cliente"), "ruta": r.get("ruta"), "estado": r.get("estado")} for r in escritos],
+                "doctor": {"estado": resumen["estado"]},
+                "herramientas": len(TOOLS),
+                "verificacion": "openlegal doctor",
+                "nota": "con escribir=True deja la configuración escrita; el harness tiene que reiniciarse para verla",
+            }
+
+        elif name == "ocr_plan_documento":
+            from ocr_decision import recomendar_ocr
+            return recomendar_ocr(args.get("pdf_path") or "", args.get("contexto", ""),
+                                  args.get("tipo_documento"))
 
         elif name == "busqueda_universal":
             consulta = (args.get("consulta") or "").strip()
