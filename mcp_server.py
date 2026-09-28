@@ -9,6 +9,7 @@ import sys
 import json
 import os
 import pathlib
+import threading
 from datetime import datetime
 
 # Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
@@ -88,6 +89,34 @@ ambientales_client = TribunalesAmbientalesClient()
 aj_client = AcademiaJudicialClient()
 library_sync_mgr = OnlineLibrarySyncManager()
 legal_graphify_engine = LegalGraphifyEngine()
+
+
+def _precalentar_hf() -> None:
+    """Warmup del listado del dataset de Hugging Face (memoizado 10 min por proceso).
+
+    Medido el 2026-09-28: la primera consulta HF de un proceso nuevo pagaba ~18 s de listado.
+    Sin red o sin token se salta en silencio: cada herramienta lo declarará cuando se use.
+    """
+    from online_library_sync import _listar_archivos_hf
+    _listar_archivos_hf("pablobenavidesj/doctrina-jurisprudencia-chile")
+
+
+def precalentar_caches() -> None:
+    """Deja calientes las cachés caras del arranque, sin bloquear el handshake MCP.
+
+    El grafo publicado (0,3 s) y el listado de Hugging Face (~18 s la primera vez por proceso)
+    se preparan en un hilo de fondo al arrancar el server. Nada de esto puede tumbar el server:
+    si falta el artefacto o la red, se sigue — y las herramientas lo dirán al usarse.
+    """
+    try:
+        legal_graphify_engine.cargar_grafo_json()
+    except Exception:  # noqa: BLE001 — un precalentado caído no puede tumbar el server
+        pass
+    try:
+        _precalentar_hf()
+    except Exception:  # noqa: BLE001 — sin red o sin token, se dirá al usarla
+        pass
+
 
 import case_intake
 import grafo_vista
@@ -530,6 +559,10 @@ def main():
             profile_cli = a.split("=", 1)[1]
 
     tools_to_expose = get_active_tools(profile_cli)
+
+    # Precalentado en segundo plano: la primera consulta no pagará el arranque en frío
+    # (grafo publicado + listado HF). Si algo falla, el server sigue y se avisa al usar.
+    threading.Thread(target=precalentar_caches, name="precalentado", daemon=True).start()
 
     for line in sys.stdin:
         line = line.strip()
