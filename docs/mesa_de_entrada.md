@@ -41,6 +41,22 @@ SMA, la doctrina indexada y los documentos de la carpeta. Un paso que falla qued
 error; un paso al que le faltan parámetros se saltea **diciendo por qué**; nunca devuelve un
 resultado inventado.
 
+## Verificación viva (2026-09-27)
+
+Corrida real, con el corpus y el grafo completos:
+
+| Paso | Herramienta / comando | Resultado medido |
+|---|---|---|
+| Plan | `caso_analizar(entrada="/tmp/caso_demo3", consulta="despido con fuero maternal")` | materia `laboral` · 8 pasos: `huggingface_search_dataset` → `dt_search_doctrina` → `bcn_get_codigo` → `doctrina_search` → `graphify_consulta_subgrafo` → `ocr_plan_documento` → `ocr_extract_pdf` → `compile_legal_dossier` |
+| Subgrafo (MCP) | `graphify_consulta_subgrafo({"query": "despido indirecto"})` | nodo `3.3.3.2 Autodespido o despido indirecto` (área Laboral, fuente Academia Judicial) |
+| Subgrafo (CLI) | `openlegal graph "responsabilidad extracontractual por culpa"` | nodo `TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO II` (Derecho Civil) |
+| Grafo del caso | `grafo_ver_caso({"ruta": "/tmp/caso_demo3"})` | 3 nodos · 2 aristas → `~/.openlegal/grafos/caso.html` |
+| OCR | `ocr_extract_pdf({"pdf_path": "…/formulario-bcn.pdf"})` | 4 de 4 páginas nativas, motor `native`, sin advertencias |
+
+El plan arranca por `huggingface_search_dataset`: la regla de la casa es consultar el corpus publicado
+antes que cualquier otra fuente. Y el grafo del caso arma el mapa con lo que **ya tiene texto** (`.md`/`.txt`):
+un PDF o un `.docx` pasan antes por la extracción/OCR, que es el paso que el propio plan trae.
+
 ## Lo que hoy no hace, dicho de frente
 
 - **No consulta el expediente por su Rol/RIT.** La suite busca **jurisprudencia** en el Poder
