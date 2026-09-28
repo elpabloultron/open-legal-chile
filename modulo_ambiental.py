@@ -49,7 +49,8 @@ _ENGINE = None
 
 
 def _engine():
-    """Motor de LegalGraphify cacheado por proceso: su primer subgrafo cargó (~72 s) y luego responde en segundos."""
+    """Motor de LegalGraphify cacheado por proceso: la carga del grafo cuesta ~0,4 s medidos
+    (2026-09-28) y se evita repetirla en cada consulta."""
     global _ENGINE
     if _ENGINE is None:
         from legal_graphify import LegalGraphifyEngine
@@ -189,8 +190,8 @@ def _buscar_en_archivo(reg: dict, terminos: list[str]) -> dict | None:
 def consulta_ambiental(consulta: str, limite: int = 8, incluir_subgrafo: bool = False) -> dict:
     """La consulta maestro del módulo: resultados citables del corpus ambiental completo.
 
-    `incluir_subgrafo` es opcional: la primera consulta al grafo de un proceso carga su índice
-    (~70 s) y las siguientes responden en segundos; el módulo no lo paga salvo que se pida.
+    `incluir_subgrafo` es opcional: la carga del grafo cuesta ~0,4 s medidos (2026-09-28) y se
+    paga una sola vez por proceso; el módulo no la hace salvo que se pida.
     """
     consulta = (consulta or "").strip()
     terminos = _terminos(consulta)
