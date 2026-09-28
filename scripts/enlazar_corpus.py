@@ -88,7 +88,11 @@ def bloque_para(archivo: pathlib.Path, vecinos: list, guias: list, opciones: dic
     for relativo, nombre in COLECCIONES:
         destino = RAIZ / relativo
         if destino.exists():
-            rel = os.path.relpath(destino, start=archivo.parent).replace("\\", "/")
+            try:
+                # Windows: si el archivo vive en otro disco, relpath estalla; se usa la ruta absoluta.
+                rel = os.path.relpath(destino, start=archivo.parent).replace("\\", "/")
+            except ValueError:
+                rel = destino.as_posix()
             colecciones.append(f"[{nombre}]({_enlace(rel)})")
     if colecciones:
         lineas.append("")
@@ -222,7 +226,10 @@ def _conexiones_de_guias(archivos: set[str]) -> tuple[dict[str, list[tuple[str, 
 
 
 def _rel(archivo: pathlib.Path, destino: pathlib.Path) -> str:
-    return os.path.relpath(destino, start=archivo.parent).replace("\\", "/")
+    try:
+        return os.path.relpath(destino, start=archivo.parent).replace("\\", "/")
+    except ValueError:  # otro disco (Windows): ruta absoluta antes que reventar
+        return destino.as_posix()
 
 
 # ── principal ─────────────────────────────────────────────────────────────────────────
