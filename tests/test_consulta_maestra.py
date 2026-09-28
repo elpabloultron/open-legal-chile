@@ -63,3 +63,24 @@ def test_la_herramienta_esta_declarada_en_el_catalogo():
     assert "consulta_maestra" in nombres
     descripcion = next(t["description"] for t in mcp_server.TOOLS if t["name"] == "consulta_maestra")
     assert "PRIMER PASO" in descripcion
+
+
+def test_los_sondeos_corren_en_paralelo(monkeypatch):
+    """Los cuatro sondeos son independientes: el tiempo total no puede ser la suma."""
+    import time
+
+    def _lento(valor):
+        def _fn(*a, **k):
+            time.sleep(0.4)
+            return valor
+        return _fn
+    monkeypatch.setattr(mcp_server, "_hf_para_consulta", _lento({"resultados": [], "citas": []}))
+    monkeypatch.setattr(mcp_server, "_doctrina_para_consulta", _lento({"resultados": [], "citas": []}))
+    monkeypatch.setattr(mcp_server, "_normas_para_consulta", _lento([]))
+    monkeypatch.setattr(mcp_server, "_subgrafo_para_consulta", _lento({}))
+
+    t0 = time.time()
+    mcp_server.handle_tool_call("consulta_maestra", {"consulta": "humedales", "max_fuentes": 1})
+    transcurrido = time.time() - t0
+
+    assert transcurrido < 1.0, f"secuencial tardaría ≥1.6 s; tardó {transcurrido:.2f} s"
