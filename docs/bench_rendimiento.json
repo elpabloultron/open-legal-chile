@@ -1,12 +1,12 @@
 {
-  "fecha": "2026-09-28 19:48",
+  "fecha": "2026-09-28 20:28",
   "python": "3.13.15",
   "plataforma": "Linux-7.2.8-1-cachyos-x86_64-with-glibc2.44",
   "mediciones": [
     {
       "medicion": "import mcp_server",
-      "segundos": 0.419,
-      "detalle": "arranque en proceso nuevo: 295 ms (decisión 2026-09-28: sin arranque perezoso, YAGNI)"
+      "segundos": 0.567,
+      "detalle": "arranque en proceso nuevo: 416 ms (decisión 2026-09-28: sin arranque perezoso, YAGNI)"
     },
     {
       "medicion": "grafo (carga + subgrafo)",
@@ -15,21 +15,21 @@
     },
     {
       "medicion": "subgrafo en frío (proceso nuevo)",
-      "segundos": 0.438,
-      "detalle": "1ª consulta en proceso nuevo: 0.28 s (antes del arreglo: 62-70 s) · encontrado=True"
+      "segundos": 0.42,
+      "detalle": "1ª consulta en proceso nuevo: 0.27 s (antes del arreglo: 62-70 s) · encontrado=True"
     },
     {
       "medicion": "fts trigram (200k líneas)",
-      "segundos": 1.525,
-      "detalle": "200k líneas · indexado 1.18 s · consulta 1 ms (1 resultado)",
-      "segundos_indexado": 1.183,
+      "segundos": 1.519,
+      "detalle": "200k líneas · indexado 1.17 s · consulta 1 ms (1 resultado)",
+      "segundos_indexado": 1.175,
       "ms_consulta": 1
     },
     {
       "medicion": "consulta ambiental (fría/caliente)",
-      "segundos": 4.194,
-      "detalle": "1ª 4.10 s (fría) · 2ª 0.09 s (caliente) · 5 y 5 resultados",
-      "segundos_fria": 4.1,
+      "segundos": 4.204,
+      "detalle": "1ª 4.11 s (fría) · 2ª 0.09 s (caliente) · 5 y 5 resultados",
+      "segundos_fria": 4.11,
       "segundos_caliente": 0.09
     },
     {
