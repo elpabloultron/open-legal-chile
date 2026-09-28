@@ -82,6 +82,16 @@ publicaciones_ambientales/*.md
 !publicaciones_ambientales/README.md
 publicaciones_ambientales/pdf/
 
+# Fichas de la Corte Suprema y sentencias ambientales: se regeneran con
+# scripts/cs_a_markdown.py y scripts/ambientales_a_md.py, y se publican en Hugging Face.
+# Solo se versiona el README de cada colección.
+jurisprudencia_cs/*/
+jurisprudencia_cs/*.md
+!jurisprudencia_cs/README.md
+jurisprudencia_ambiental/*/
+jurisprudencia_ambiental/*.md
+!jurisprudencia_ambiental/README.md
+
 # Al recuperar el repositorio se aparta el .git dañado: nunca dentro del árbol
 .git_dañado_*/
 .git_dañado_*
