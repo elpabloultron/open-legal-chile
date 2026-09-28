@@ -212,7 +212,7 @@ El servidor MCP expone **87 herramientas oficiales** categorizadas funcionalment
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
-| `bcn_get_codigo` | `codigo` *(str)*, `articulo` *(str, opc)* | Consulta artículos o estructura de los 9 Códigos fundamentales chilenos (Civil, Trabajo, Procedimiento Civil, Penal, Comercio, Tributario, Minería, Aguas, Procesal Penal) en la BCN. |
+| `bcn_get_codigo` | `codigo` *(str)*, `articulo` *(str, opc)* | Consulta artículos o estructura de los 9 Códigos fundamentales chilenos (Civil, Trabajo, Procedimiento Civil, Penal, Comercio, Tributario, Minería, Aguas, Procesal Penal), la Constitución Política y el Código Sanitario, en la BCN. |
 | `bcn_get_ley` | `numero` *(int)*, `articulo` *(str, opc)* | Descarga y parsea el texto oficial de cualquier ley de la República (ej. Ley 21.643 Karin, Ley 21.561 40 Horas, Ley 20.886 OJV). Devuelve además el bloque `citas` con el corchete oficial y el **texto literal**. |
 | `consulta_maestra` | `consulta` *(str)*, `limite` *(int, opc)* | **Primer paso de toda consulta jurídica (§2 quater).** En una sola llamada: corpus de Hugging Face + doctrina canónica + subgrafo + normas detectadas, con el **texto literal** y el corchete de cada fuente, y la lista `faltantes` de lo que no se pudo traer. |
 | `cita_texto` | `referencia` *(str)* · `referencias` *(list, opcional)* | Devuelve el **texto literal** de una norma citada («Código Civil art. 1438», «Ley 21.643 art. 2») con su corchete oficial y su enlace de BCN. Con `referencias` verifica un lote en una sola llamada (una pasada de red por norma única; lo que falle queda en `faltantes`). Si la fuente no responde, lo declara `sin_fuente_verificable` en vez de inventar el tenor. |
@@ -374,7 +374,7 @@ Cada conector fue desarrollado para comunicarse directamente con las plataformas
 
 1. **📜 Biblioteca del Congreso Nacional (BCN Ley Chile):**
    * *Mecanismo:* Consulta directa al portal público XML de la BCN (`leychile.cl/Consulta/obtxml`).
-   * *Cobertura:* Toda la legislación de la República y los 9 Códigos positivos actualizados en tiempo real. **No requiere registro ni API key**.
+   * *Cobertura:* Toda la legislación de la República, los 9 Códigos positivos, la Constitución Política y el Código Sanitario, actualizados en tiempo real. **No requiere registro ni API key**.
 2. **🏛️ Contraloría General de la República (CGR):**
    * *Mecanismo:* API REST abierta de jurisprudencia administrativa.
    * *Cobertura:* Más de 50.000 dictámenes sobre confianza legítima a contrata, estatuto administrativo y probidad, más 9.600 Informes de Auditoría.

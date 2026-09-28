@@ -40,7 +40,7 @@ def _refrescar() -> None:
 TOOLS = [
     {
         "name": "bcn_get_codigo",
-        "description": "Consulta artículos o estructura de los 9 Códigos de la República de Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN.",
+        "description": "Consulta artículos o estructura de los 9 Códigos de la República de Chile (civil, trabajo, cpc, cpp, penal, comercio, tributario, minería, aguas), la Constitución Política y el Código Sanitario, en la BCN.",
         "inputSchema": {
             "type": "object",
             "properties": {
