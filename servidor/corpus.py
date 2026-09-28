@@ -21,6 +21,7 @@ if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de 
         detectar_normas,
         doctrina_get_inst,
         doctrina_list_obras,
+        enviar_progreso,
         formatear_cita,
         grafo_vista,
         legal_graphify_engine,
@@ -34,7 +35,8 @@ def _refrescar() -> None:
 
     Corre en cada despacho: los bloques movidos usan los mismos objetos vivos del servidor,
     incluidas las sustituciones que hagan las pruebas con monkeypatch."""
-    import mcp_server as _m
+    from config import servidor_actual
+    _m = servidor_actual()
     _g = globals()
     _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
 
@@ -441,12 +443,24 @@ def despachar(name: str, args: dict) -> Any:
         lim = int(args.get("max_fuentes") or 3)
         # Los cuatro sondeos son independientes (HF, doctrina, normas, subgrafo):
         # en paralelo la consulta espera al más lento, no a la suma.
+        enviar_progreso("Consulta maestra: 4 sondeos en paralelo (Hugging Face, doctrina, BCN, subgrafo)",
+                        0, 4)
+
+        def _anunciar(etiqueta: str, hechos: int):
+            def _envolver(fn):
+                def _paso(*a, **k):
+                    resultado = fn(*a, **k)
+                    enviar_progreso(f"{etiqueta} listo", hechos, 4)
+                    return resultado
+                return _paso
+            return _envolver
+
         from concurrent.futures import ThreadPoolExecutor
         with ThreadPoolExecutor(max_workers=4, thread_name_prefix="consulta") as pool:
-            f_hf = pool.submit(_hf_para_consulta, consulta, lim)
-            f_doctrina = pool.submit(_doctrina_para_consulta, consulta, lim)
-            f_normas = pool.submit(_normas_para_consulta, consulta)
-            f_subgrafo = pool.submit(_subgrafo_para_consulta, consulta)
+            f_hf = pool.submit(_anunciar("Hugging Face", 1)(_hf_para_consulta), consulta, lim)
+            f_doctrina = pool.submit(_anunciar("Doctrina", 2)(_doctrina_para_consulta), consulta, lim)
+            f_normas = pool.submit(_anunciar("Normas BCN", 3)(_normas_para_consulta), consulta)
+            f_subgrafo = pool.submit(_anunciar("Subgrafo", 4)(_subgrafo_para_consulta), consulta)
             hf, doctrina, normas, subgrafo = (f_hf.result(), f_doctrina.result(),
                                               f_normas.result(), f_subgrafo.result())
         citas: List[Dict[str, Any]] = list(hf.get("citas") or []) + list(doctrina.get("citas") or [])
