@@ -9,10 +9,9 @@ import sys
 import re
 import json
 import time
-import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import safe_urlopen
+from config import pedir_http
 
 BASE_URL = "https://snifa.sma.gob.cl"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "ambiental_cache")
@@ -51,50 +50,42 @@ class SMAClient:
         }
 
         data_bytes = urllib.parse.urlencode(payload).encode("utf-8")
-        req = urllib.request.Request(
-            url,
-            data=data_bytes,
-            headers={
-                "Content-Type": "application/x-www-form-urlencoded",
-                "Accept": "application/json",
-                "User-Agent": "OpenLegalChile/1.0 (Derecho Ambiental Chile)"
-            }
-        )
+        raw = pedir_http(url, "POST",
+                         headers={"Content-Type": "application/x-www-form-urlencoded",
+                                  "Accept": "application/json"},
+                         cuerpo=data_bytes, timeout=25).decode("utf-8", errors="ignore")
+        res_json = json.loads(raw)
+        total = res_json.get("recordsTotal", 0)
+        rows = res_json.get("data", [])
 
-        with safe_urlopen(req, timeout=25) as resp:
-            raw = resp.read().decode("utf-8", errors="ignore")
-            res_json = json.loads(raw)
-            total = res_json.get("recordsTotal", 0)
-            rows = res_json.get("data", [])
+        results = []
+        for r in rows:
+            cleaned = [re.sub(r'<[^>]+>', '', str(c)).strip() for c in r]
+            btn_html = str(r[-1]) if len(r) > 0 else ""
+            link_m = re.search(r'href=["\']([^"\']+)["\']', btn_html)
+            link = link_m.group(1) if link_m else ""
+            ficha_id = link.split("/")[-1] if link else ""
 
-            results = []
-            for r in rows:
-                cleaned = [re.sub(r'<[^>]+>', '', str(c)).strip() for c in r]
-                btn_html = str(r[-1]) if len(r) > 0 else ""
-                link_m = re.search(r'href=["\']([^"\']+)["\']', btn_html)
-                link = link_m.group(1) if link_m else ""
-                ficha_id = link.split("/")[-1] if link else ""
+            results.append({
+                "id": ficha_id,
+                "expediente": cleaned[1] if len(cleaned) > 1 else "",
+                "unidadFiscalizable": cleaned[2] if len(cleaned) > 2 else "",
+                "titular": cleaned[3] if len(cleaned) > 3 else "",
+                "categoria": cleaned[4] if len(cleaned) > 4 else "",
+                "region": cleaned[5] if len(cleaned) > 5 else "",
+                "estado": cleaned[6] if len(cleaned) > 6 else "",
+                "fichaUrl": f"{BASE_URL}{link}" if link else ""
+            })
 
-                results.append({
-                    "id": ficha_id,
-                    "expediente": cleaned[1] if len(cleaned) > 1 else "",
-                    "unidadFiscalizable": cleaned[2] if len(cleaned) > 2 else "",
-                    "titular": cleaned[3] if len(cleaned) > 3 else "",
-                    "categoria": cleaned[4] if len(cleaned) > 4 else "",
-                    "region": cleaned[5] if len(cleaned) > 5 else "",
-                    "estado": cleaned[6] if len(cleaned) > 6 else "",
-                    "fichaUrl": f"{BASE_URL}{link}" if link else ""
-                })
+        output = {
+            "total": total,
+            "resultados": results
+        }
 
-            output = {
-                "total": total,
-                "resultados": results
-            }
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
 
-            with open(cache_file, "w", encoding="utf-8") as f:
-                json.dump(output, f, ensure_ascii=False, indent=2)
-
-            return output
+        return output
 
     def search_sancionatorios(self, nombre: str = "", expediente: str = "", categoria: str = "", limit: int = 15, use_cache: bool = True) -> Dict[str, Any]:
         """Busca procedimientos sancionatorios ambientales en la base oficial SNIFA de la SMA.

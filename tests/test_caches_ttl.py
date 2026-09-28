@@ -79,34 +79,20 @@ def test_ley_vencida_sin_red_entrega_la_copia_marcada(monkeypatch, tmp_path):
 # ─────────────────────────── SNIFA / SMA (7 días) ───────────────────────────
 
 
-class _Respuesta:
-    def __init__(self, cuerpo: str):
-        self._cuerpo = cuerpo
-
-    def read(self):
-        return self._cuerpo.encode("utf-8")
-
-    def __enter__(self):
-        return self
-
-    def __exit__(self, *_a):
-        return False
-
-
 def _respuesta_snifa(expediente="D-1-2026"):
     fila = ["", expediente, "unidad fiscalizable", "Titular SpA", "Planta de compostaje",
             "Los Lagos", "en curso", '<a href="/Sancionatorio/Ficha/99">Ver ficha</a>']
-    return _Respuesta(cuerpo=json.dumps({"recordsTotal": 1, "data": [fila]}))
+    return json.dumps({"recordsTotal": 1, "data": [fila]}).encode("utf-8")
 
 
 def test_snifa_fresca_no_repite_la_red(monkeypatch, tmp_path):
     llamadas = []
 
-    def _urlopen(req, timeout=25):
+    def _pedir(url, metodo="GET", headers=None, cuerpo=None, timeout=25):
         llamadas.append(1)
         return _respuesta_snifa()
 
-    monkeypatch.setattr(ambiental_connector, "safe_urlopen", _urlopen)
+    monkeypatch.setattr(ambiental_connector, "pedir_http", _pedir)
     cliente = ambiental_connector.SMAClient(cache_dir=str(tmp_path))
 
     primera = cliente.search_sancionatorios(nombre="prueba")
@@ -120,11 +106,11 @@ def test_snifa_fresca_no_repite_la_red(monkeypatch, tmp_path):
 def test_snifa_vencida_se_refresca(monkeypatch, tmp_path):
     llamadas = []
 
-    def _urlopen(req, timeout=25):
+    def _pedir(url, metodo="GET", headers=None, cuerpo=None, timeout=25):
         llamadas.append(1)
         return _respuesta_snifa()
 
-    monkeypatch.setattr(ambiental_connector, "safe_urlopen", _urlopen)
+    monkeypatch.setattr(ambiental_connector, "pedir_http", _pedir)
     cliente = ambiental_connector.SMAClient(cache_dir=str(tmp_path))
 
     cliente.search_sancionatorios(nombre="prueba")
@@ -138,12 +124,12 @@ def test_snifa_vencida_se_refresca(monkeypatch, tmp_path):
 def test_snifa_vencida_sin_red_entrega_copia_marcada(monkeypatch, tmp_path):
     estado = {"red": True}
 
-    def _urlopen(req, timeout=25):
+    def _pedir(url, metodo="GET", headers=None, cuerpo=None, timeout=25):
         if not estado["red"]:
             raise RuntimeError("red caída")
         return _respuesta_snifa()
 
-    monkeypatch.setattr(ambiental_connector, "safe_urlopen", _urlopen)
+    monkeypatch.setattr(ambiental_connector, "pedir_http", _pedir)
     cliente = ambiental_connector.SMAClient(cache_dir=str(tmp_path))
 
     cliente.search_sancionatorios(nombre="prueba")

@@ -8,12 +8,11 @@ import re
 import json
 import html
 import time
-import urllib.request
 import urllib.parse
 import defusedxml.ElementTree as ET
 from typing import Dict, Any, List, Optional
 
-from config import BCN_API_KEY, safe_urlopen
+from config import BCN_API_KEY, pedir_http
 
 BCN_API_BASE = "https://www.bcn.cl/leychile/api/v1"
 BCN_XML_BASE = "https://www.leychile.cl/Consulta/obtxml"
@@ -95,13 +94,9 @@ class BCNClient:
         return os.path.join(self.cache_dir, f"{key_type}_{key_val}.json")
 
     def _fetch_xml(self, params: Dict[str, Any]) -> str:
-        """Obtiene XML desde el servicio web de la BCN."""
-        query_str = urllib.parse.urlencode(params)
-        url = f"{BCN_XML_BASE}?{query_str}"
-        headers = {'User-Agent': 'OpenLegalChile/1.0 (https://github.com/open-legal-chile)'}
-        req = urllib.request.Request(url, headers=headers)
-        with safe_urlopen(req, timeout=30) as resp:
-            return resp.read().decode('utf-8', errors='ignore')
+        """Obtiene XML desde el servicio web de la BCN (conexión persistente por host)."""
+        url = f"{BCN_XML_BASE}?{urllib.parse.urlencode(params)}"
+        return pedir_http(url, timeout=30.0).decode("utf-8", errors="ignore")
 
     def _parse_norma_xml(self, xml_content: str) -> Dict[str, Any]:
         """Parsea el XML de una norma chilena a estructura de datos limpia."""
@@ -316,13 +311,10 @@ class BCNClient:
     def _fetch_json_servicios(self, ruta: str, params: Dict[str, Any], intentos: int = 3) -> Any:
         """Obtiene JSON del servicio de LeyChile que usa su propio navegador (reintenta: es intermitente)."""
         url = f"{BCN_SERVICIOS_BASE}/{ruta}?{urllib.parse.urlencode(params)}"
-        headers = {'User-Agent': 'OpenLegalChile/1.0 (https://github.com/open-legal-chile)'}
         ultimo_error: Optional[Exception] = None
         for intento in range(intentos):
             try:
-                req = urllib.request.Request(url, headers=headers)
-                with safe_urlopen(req, timeout=45) as resp:
-                    return json.loads(resp.read().decode("utf-8", errors="ignore"))
+                return json.loads(pedir_http(url, timeout=45.0).decode("utf-8", errors="ignore"))
             except Exception as error:  # noqa: BLE001 - red intermitente
                 ultimo_error = error
                 time.sleep(1.5 * (intento + 1))

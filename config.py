@@ -4,8 +4,13 @@ Carga automáticamente las variables de entorno desde el archivo .env local
 o desde las variables del sistema operativo sin dependencias externas.
 """
 
+import http.client
 import os
-from typing import Optional
+import threading
+import time
+import urllib.error
+import urllib.parse
+from typing import Any, Dict, List, Optional, Tuple
 
 
 def load_env_file(filepath: Optional[str] = None) -> None:
@@ -93,6 +98,81 @@ def safe_urlopen(req, timeout: float = 30.0):
         raise ValueError(f"Esquema de URL no permitido por políticas de seguridad: {url}")
     # nosemgrep: python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected
     return urllib.request.urlopen(req, timeout=timeout)  # nosec B310
+
+
+# ── Canal HTTP persistente (keep-alive): conexiones reutilizables por host ───────────────────
+# Medido el 2026-09-28: cada consulta abría su propia conexión (negociación TLS completa cada
+# vez). En ráfagas —varios artículos de una ley, varias leyes de una consulta— la conexión se
+# reutiliza; si el servidor la cerró por inactividad, se descarta y se reintenta una vez con
+# una nueva. Pila de conexiones libres por host: una conexión en uso no se comparte entre hilos.
+_CANALES: Dict[str, List[Tuple[http.client.HTTPConnection, float]]] = {}
+_CANALES_LOCK = threading.Lock()
+_CANALES_MAX_LIBRES = 4
+
+
+def _tomar_canal(esquema: str, host: str, timeout: float) -> http.client.HTTPConnection:
+    """Saca una conexión libre del host (o crea una nueva si no hay)."""
+    clave = f"{esquema}://{host}"
+    while True:
+        with _CANALES_LOCK:
+            pila = _CANALES.setdefault(clave, [])
+            if not pila:
+                break
+            canal, t = pila.pop()
+        if t == timeout:
+            return canal
+        try:
+            canal.close()
+        except Exception:  # noqa: BLE001
+            pass
+    clase = http.client.HTTPSConnection if esquema == "https" else http.client.HTTPConnection
+    return clase(host, timeout=timeout)
+
+
+def _devolver_canal(esquema: str, host: str, timeout: float,
+                    canal: http.client.HTTPConnection) -> None:
+    """Devuelve la conexión a la pila de libres (o la cierra si ya hay demasiadas)."""
+    clave = f"{esquema}://{host}"
+    with _CANALES_LOCK:
+        pila = _CANALES.setdefault(clave, [])
+        if len(pila) < _CANALES_MAX_LIBRES:
+            pila.append((canal, timeout))
+            return
+    try:
+        canal.close()
+    except Exception:  # noqa: BLE001
+        pass
+
+
+def pedir_http(url: str, metodo: str = "GET", headers: Optional[Dict[str, str]] = None,
+               cuerpo: Optional[bytes] = None, timeout: float = 30.0) -> bytes:
+    """GET/POST con conexión reutilizada por host; reintenta una vez si la persistente murió."""
+    if not (url.startswith("http://") or url.startswith("https://")):
+        raise ValueError(f"Esquema de URL no permitido por políticas de seguridad: {url}")
+    partes = urllib.parse.urlsplit(url)
+    ruta = partes.path + (("?" + partes.query) if partes.query else "")
+    esquema = "https" if partes.scheme == "https" else "http"
+    cabeceras = {"User-Agent": "OpenLegalChile/1.0 (https://github.com/open-legal-chile)"}
+    cabeceras.update(headers or {})
+    ultimo_error: Optional[Exception] = None
+    for _intento in (1, 2):
+        canal = _tomar_canal(esquema, partes.netloc, timeout)
+        try:
+            canal.request(metodo, ruta, body=cuerpo, headers=cabeceras)
+            respuesta = canal.getresponse()
+            datos = respuesta.read()
+        except (http.client.HTTPException, OSError, urllib.error.URLError) as error:
+            ultimo_error = error
+            try:
+                canal.close()
+            except Exception:  # noqa: BLE001
+                pass
+            continue
+        _devolver_canal(esquema, partes.netloc, timeout, canal)
+        if respuesta.status >= 400:
+            raise urllib.error.HTTPError(url, respuesta.status, respuesta.reason, None, None)
+        return datos
+    raise ultimo_error if ultimo_error else RuntimeError("sin respuesta HTTP")
 
 
 if __name__ == "__main__":
