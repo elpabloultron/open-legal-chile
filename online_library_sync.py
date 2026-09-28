@@ -38,6 +38,11 @@ _TAMANO_MAX_HF = 6_000_000        # archivos de texto: más grande que esto no s
 _TAMANO_MAX_JSONL = 16_000_000    # jsonl: se filtran líneas, pero se acota lo que se baja
 _ARCHIVOS_HF_CACHE: Dict[str, Any] = {}
 
+# Frescura de la caché: cada cuánto se revalida un archivo contra el hub y dónde se recuerda
+# qué revisión está bajada (el blob_id de git identifica el contenido sin tener que bajarlo).
+_TTL_VERIFICACION_HF = 12 * 3600
+_ARCHIVO_SINCRONIA = "_sincronia.json"
+
 # Palabras que aparecen en casi cualquier consulta y no discriminan nada al buscar en el dataset.
 _PALABRAS_VACIAS = {"que", "qué", "del", "los", "las", "por", "para", "con", "sobre", "como", "dice",
                     "cual", "cuál", "cuando", "donde", "dónde", "este", "esta", "son", "una", "uno",
@@ -1379,6 +1384,85 @@ def _prioridad_hf(nombre: str) -> int:
     return 4
 
 
+def _hf_api():
+    """El cliente de la API de Hugging Face (indirección para las pruebas)."""
+    from huggingface_hub import HfApi
+    return HfApi(token=resolver_token_hf())
+
+
+def _repo_cache_dir(repo_id: str) -> pathlib.Path:
+    """La carpeta local de un repo del hub dentro de la caché del corpus."""
+    return CACHE_HF / repo_id.replace("/", "__")
+
+
+def _leer_sincronia(repo_dir: pathlib.Path) -> dict:
+    """La metadata de revisiones de un repo cacheado; sin archivo se revalida todo de nuevo."""
+    try:
+        dato = json.loads((repo_dir / _ARCHIVO_SINCRONIA).read_text(encoding="utf-8"))
+        if isinstance(dato, dict) and isinstance(dato.get("archivos"), dict):
+            return dato
+    except Exception:  # noqa: BLE001 — sin metadata se revalida, no se rompe
+        pass
+    return {"archivos": {}}
+
+
+def _escribir_sincronia(repo_dir: pathlib.Path, meta: dict) -> None:
+    """Escritura atómica: una metadata a medias es peor que no tenerla."""
+    repo_dir.mkdir(parents=True, exist_ok=True)
+    tmp = repo_dir / (_ARCHIVO_SINCRONIA + ".tmp")
+    tmp.write_text(json.dumps(meta, ensure_ascii=False), encoding="utf-8")
+    os.replace(tmp, repo_dir / _ARCHIVO_SINCRONIA)
+
+
+def _blob_remoto(archivo: str, repo_id: str) -> Optional[str]:
+    """El blob_id del archivo en el hub (identifica su revisión sin bajar contenido). None sin red."""
+    try:
+        info = _hf_api().get_paths_info(repo_id, [archivo], repo_type="dataset")
+    except Exception:  # noqa: BLE001 — sin red se sigue con la copia local
+        return None
+    for it in info or []:
+        blob = getattr(it, "blob_id", None)
+        if blob:
+            return str(blob)
+    return None
+
+
+def _archivo_cambio_en_hub(archivo: str, repo_id: str) -> bool:
+    """True si hay que re-bajar el archivo (el hub tiene otro blob_id).
+
+    Con la verificación fresca (< _TTL_VERIFICACION_HF) ni consulta el hub. Si el hub no
+    responde devuelve False —se sigue usando la copia— y NO marca la verificación: la próxima
+    consulta vuelve a intentar.
+    """
+    repo_dir = _repo_cache_dir(repo_id)
+    meta = _leer_sincronia(repo_dir)
+    entrada = dict(meta["archivos"].get(archivo) or {})
+    ahora = time.time()
+    if entrada.get("blob_id") and ahora - float(entrada.get("verificado") or 0) < _TTL_VERIFICACION_HF:
+        return False
+    blob = _blob_remoto(archivo, repo_id)
+    if blob is None:
+        return False
+    if entrada.get("blob_id") == blob:
+        entrada["verificado"] = ahora
+        meta["archivos"][archivo] = entrada
+        _escribir_sincronia(repo_dir, meta)
+        return False
+    return True  # el hub tiene otra revisión: que el flujo normal la baje
+
+
+def _anotar_descarga(archivo: str, repo_id: str) -> None:
+    """Registra la revisión recién bajada (blob_id + fecha) para no revalidar de inmediato."""
+    try:
+        repo_dir = _repo_cache_dir(repo_id)
+        meta = _leer_sincronia(repo_dir)
+        meta["archivos"][archivo] = {"blob_id": _blob_remoto(archivo, repo_id) or "",
+                                     "verificado": time.time()}
+        _escribir_sincronia(repo_dir, meta)
+    except Exception:  # noqa: BLE001 — la metadata es una optimización, no un requisito
+        pass
+
+
 def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] = None) -> str:
     """Devuelve el texto de un archivo del dataset (con caché local en ~/.openlegal/hf_cache).
 
@@ -1390,6 +1474,8 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
         return ""
     destino = CACHE_HF / repo_id.replace("/", "__") / archivo
     try:
+        if destino.exists() and _archivo_cambio_en_hub(archivo, repo_id):
+            destino.unlink()  # el hub tiene una revisión más nueva: se vuelve a bajar
         if not destino.exists():
             from huggingface_hub import hf_hub_download
             # El dataset es el PROPIO de Open Legal Chile, que esta misma suite publica y actualiza:
@@ -1406,6 +1492,7 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
             destino.parent.mkdir(parents=True, exist_ok=True)
             if destino.resolve() != origen.resolve():
                 destino.write_bytes(origen.read_bytes())
+            _anotar_descarga(archivo, repo_id)
         if destino.suffix == ".jsonl":
             if destino.stat().st_size > _TAMANO_MAX_JSONL:
                 return ""
@@ -1536,6 +1623,80 @@ def consultar_huggingface_dataset(query: str, limit: int = 5,
             "resultados": [],
             "citas": []
         }
+
+
+def _archivos_en_cache(repo_dir: pathlib.Path) -> List[str]:
+    """Archivos del corpus presentes en la caché (deja fuera el cache interno de huggingface_hub)."""
+    ignorar = {_ARCHIVO_SINCRONIA, _ARCHIVO_SINCRONIA + ".tmp", "CACHEDIR.TAG"}
+    salida: List[str] = []
+    for p in repo_dir.rglob("*"):
+        if not p.is_file():
+            continue
+        rel = p.relative_to(repo_dir).as_posix()
+        if p.name in ignorar or rel.startswith("datasets--") or rel.startswith(".locks"):
+            continue
+        salida.append(rel)
+    return salida
+
+
+def estado_cache_corpus(repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile") -> dict:
+    """Qué hay en la caché local del corpus: archivos, MB y cuántos quedaron atrás en el hub."""
+    repo_dir = _repo_cache_dir(repo_id)
+    meta = _leer_sincronia(repo_dir)
+    archivos = _archivos_en_cache(repo_dir)
+    bytes_totales = sum((repo_dir / a).stat().st_size for a in archivos)
+    desactualizados: List[str] = []
+    sin_registrar: List[str] = []
+    try:
+        for i in range(0, len(archivos), 50):   # en lotes: una llamada de API revisa hasta 50 archivos
+            lote = archivos[i:i + 50]
+            for it in _hf_api().get_paths_info(repo_id, lote, repo_type="dataset"):
+                blob = str(getattr(it, "blob_id", "") or "")
+                guardado = str((meta["archivos"].get(it.path) or {}).get("blob_id") or "")
+                if not guardado:
+                    sin_registrar.append(it.path)   # caché anterior a esta metadata: se registra al refrescar
+                elif blob and blob != guardado:
+                    desactualizados.append(it.path)
+    except Exception:  # noqa: BLE001 — sin red el estado local igual sirve
+        desactualizados = []
+        sin_registrar = []
+    return {"archivos": len(archivos), "mb": round(bytes_totales / 1e6, 1),
+            "desactualizados": desactualizados, "sin_registrar": sin_registrar}
+
+
+def refrescar_cache_corpus(repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
+                           forzar: bool = False) -> dict:
+    """Baja las revisiones nuevas de lo YA cacheado (los archivos que nunca se usaron no se bajan)."""
+    repo_dir = _repo_cache_dir(repo_id)
+    meta = _leer_sincronia(repo_dir)
+    archivos = _archivos_en_cache(repo_dir)
+    actualizados, errores = 0, []
+    for i in range(0, len(archivos), 50):
+        lote = archivos[i:i + 50]
+        try:
+            info = _hf_api().get_paths_info(repo_id, lote, repo_type="dataset")
+        except Exception as error:  # noqa: BLE001
+            errores.append(str(error)[:120])
+            continue
+        for it in info:
+            blob = str(getattr(it, "blob_id", "") or "")
+            guardado = str((meta["archivos"].get(it.path) or {}).get("blob_id") or "")
+            if not forzar and blob and blob == guardado:
+                continue
+            try:
+                from huggingface_hub import hf_hub_download
+                ruta = hf_hub_download(repo_id=repo_id, filename=it.path, repo_type="dataset",
+                                       token=resolver_token_hf(),
+                                       cache_dir=str(_repo_cache_dir(repo_id)),
+                                       force_download=forzar)
+                (repo_dir / it.path).parent.mkdir(parents=True, exist_ok=True)
+                (repo_dir / it.path).write_bytes(pathlib.Path(ruta).read_bytes())
+                meta["archivos"][it.path] = {"blob_id": blob, "verificado": time.time()}
+                actualizados += 1
+            except Exception as error:  # noqa: BLE001
+                errores.append(f"{it.path}: {str(error)[:100]}")
+    _escribir_sincronia(repo_dir, meta)
+    return {"actualizados": actualizados, "errores": errores, "revisados": len(archivos)}
 
 
 ATRIBUCION = """

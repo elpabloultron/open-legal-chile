@@ -592,7 +592,7 @@ Ejemplos de uso:
   openlegal integrar         -> Muestra y escribe la configuración MCP de tu harness (--escribir)
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -601,6 +601,8 @@ Ejemplos de uso:
     parser.add_argument("--todos", action="store_true", help="Con 'integrar': configura todos los harness detectados en la máquina")
     parser.add_argument("--json", action="store_true", help="Con 'instalar': salida legible por máquinas")
     parser.add_argument("--grafo", action="store_true", help="Con 'ambiental': añade el subgrafo de LegalGraphify con su ahorro de tokens (la primera consulta carga su índice)")
+    parser.add_argument("--refrescar", action="store_true", help="Con 'cache': baja del hub las revisiones nuevas de lo ya cacheado")
+    parser.add_argument("--forzar", action="store_true", help="Con 'cache --refrescar': vuelve a bajar todo lo cacheado, aunque no haya cambiado")
     args = parser.parse_args()
 
     if args.comando == "mcp":
@@ -1132,6 +1134,26 @@ Ejemplos de uso:
         print(f"Mensaje: {res.get('mensaje')}")
         if res.get("salida"):
             print("\nDetalle:\n" + res.get("salida")[:500])
+        print()
+
+    elif args.comando == "cache":
+        from online_library_sync import estado_cache_corpus, refrescar_cache_corpus
+        print_banner()
+        if args.refrescar:
+            res = refrescar_cache_corpus(forzar=args.forzar)
+            print(f"✅ Refresco del corpus cacheado: {res['actualizados']} actualizados de {res['revisados']} revisados")
+            for e in res["errores"][:5]:
+                print(f"  [!] {e}")
+        else:
+            est = estado_cache_corpus()
+            print(f"🗂️ Caché del corpus: {est['archivos']} archivos · {est['mb']} MB")
+            print(f"Desactualizados en el hub: {len(est['desactualizados'])}")
+            for a in est["desactualizados"][:10]:
+                print(f"  · {a}")
+            if est.get("sin_registrar"):
+                print(f"Sin registrar la revisión (se registra al refrescar): {len(est['sin_registrar'])}")
+            if est["desactualizados"] or est.get("sin_registrar"):
+                print("Refrescalos con: openlegal cache --refrescar")
         print()
 
     elif args.comando == "graph":
