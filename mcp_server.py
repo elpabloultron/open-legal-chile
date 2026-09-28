@@ -1624,7 +1624,7 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
             resumen = diagnostico_completo()
             return {
                 "harnesses": detectados,
-                "escritos": [{"cliente": r.get("cliente"), "ruta": r.get("ruta"), "estado": r.get("estado")} for r in escritos],
+                "escritos": [{"cliente": r.get("cliente"), "archivo": r.get("archivo"), "estado": r.get("estado")} for r in escritos],
                 "doctor": {"estado": resumen["estado"]},
                 "herramientas": len(TOOLS),
                 "verificacion": "openlegal doctor",
@@ -2376,7 +2376,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.7.2"
+                            "version": "1.8.0"
                         }
                     }
                 }
