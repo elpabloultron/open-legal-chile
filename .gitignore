@@ -82,6 +82,14 @@ publicaciones_ambientales/*.md
 !publicaciones_ambientales/README.md
 publicaciones_ambientales/pdf/
 
+# Biblioteca ambiental (libros del concurso, informes en derecho, foros, manuales y material
+# docente): se convierte con scripts/biblioteca_ambiental_a_md.py y se publica en Hugging Face.
+# Solo se versiona el README; el material fuente del usuario queda fuera del repositorio.
+biblioteca_ambiental/*.md
+!biblioteca_ambiental/README.md
+biblioteca_ambiental/pdf/
+ambiental/
+
 # Fichas de la Corte Suprema y sentencias ambientales: se regeneran con
 # scripts/cs_a_markdown.py y scripts/ambientales_a_md.py, y se publican en Hugging Face.
 # Solo se versiona el README de cada colección.
