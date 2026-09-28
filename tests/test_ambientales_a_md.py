@@ -6,10 +6,13 @@ al Markdown.
 """
 import importlib.util
 import pathlib
+import shutil
 
 import pytest
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
+requiere_poppler = pytest.mark.skipif(
+    shutil.which("pdftotext") is None, reason="requiere poppler (pdftotext)")
 
 
 def _modulo():
@@ -50,6 +53,7 @@ def _registro() -> dict:
     }
 
 
+@requiere_poppler
 def test_convierte_pdf_con_capa_de_texto(tmp_path):
     mod = _modulo()
     estado, archivo, caracteres, metodo = mod.convertir(
@@ -84,6 +88,7 @@ def test_pdf_que_no_responde_queda_como_ficha(tmp_path, monkeypatch):
     assert "45-2026" in texto
 
 
+@requiere_poppler
 def test_pdf_escaneado_pasa_por_ocr(tmp_path, monkeypatch):
     mod = _modulo()
     fitz = pytest.importorskip("fitz")
