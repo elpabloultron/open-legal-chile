@@ -375,9 +375,10 @@ class LegalChatEngine:
             normas.append("• **[BCN - Ley N° 19.880, Arts. 11 y 41]**: Principio de inexcusabilidad y exigencia de Acto administrativo motivado para toda decisión que afecte derechos de funcionarios.")
         if any(w in q for w in ["proteccion", "recurso de proteccion"]):
             normas.append("• **[CPR 1980 - Art. 20 de la Constitución Política]**: Acción constitucional de protección para restablecer el imperio del derecho ante todo acto u omisión arbitrario o ilegal que vulnere las Garantías constitucionales Art. 19 CPR. Tramitación sujeta al Auto Acordado CS con Plazo de 30 días corridos.")
-        if any(w in q for w in ["sma", "ambiental", "sancionatorio", "cumplimiento"]):
+        if any(w in q for w in ["sma", "ambiental", "sancionatorio", "cumplimiento", "seia", "rca", "humedal", "daño ambiental"]):
             normas.append("• **[BCN - Ley N° 20.417]**: Ley Orgánica de la SMA. El Art. 42 establece un Plazo de 10 o 15 días tras la formulación de cargos para presentar un Programa de Cumplimiento (PdC).")
             normas.append("• **Efectos Procesales SMA**: La aprobación del PdC produce la Suspensión del procedimiento sancionatorio, con un Plan de acciones y metas cuya ejecución cabal genera la Extinción de la sanción por cumplimiento.")
+            normas.append("• **Módulo de derecho ambiental**: primer paso `ambiental_consulta_maestra` — las 886 sentencias de los Tribunales Ambientales, los anuarios y boletines 2TA/3TA y la biblioteca ambiental (libros del Concurso Nacional de Comentarios, informes en derecho, foros, manuales), con citas [Hugging Face - <archivo>] y texto literal.")
         if any(w in q for w in ["ppa", "electric", "electr", "peajes", "transmision", "energia"]):
             normas.append("• **[BCN - DFL N° 4/2006 (Ley General de Servicios Eléctricos)]**: Régimen marco de generación, distribución y constitución de Servidumbres eléctricas forzosas.")
             normas.append("• **[BCN - Ley N° 20.936 (Transmisión Eléctrica)]**: Nuevo sistema de transmisión y régimen de peajes y tarificación eléctrica.")

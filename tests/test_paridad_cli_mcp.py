@@ -32,6 +32,7 @@ COMANDO_A_HERRAMIENTA = {
     "grado": "grado_interrogar",
     "graph": "graphify_consulta_subgrafo",
     "guias": "academia_judicial_buscar_guias",
+    "ambiental": "ambiental_consulta_maestra",
     "inapi": "inapi_evaluar_marca",
     "stats": "suite_telemetria_stats",
     "update": "suite_auto_update",

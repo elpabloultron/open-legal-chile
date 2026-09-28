@@ -26,7 +26,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (86 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-86-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (87 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-87-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -90,7 +90,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 86 Herramientas Forenses Registradas (Suite Edition)                         │
+│   • 87 Herramientas Forenses Registradas (Suite Edition)                         │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
 │   • Generador Estandarizado de Recursos de Protección OJV (recurso_proteccion.py)       │
 │   • Knowledge Graph Jurídico y Ahorro de Tokens (legal_graphify.py)                     │
@@ -205,9 +205,9 @@ medición del ahorro en [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (86 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (87 Herramientas Oficiales)
 
-El servidor MCP expone **86 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **87 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -324,6 +324,7 @@ El servidor MCP expone **86 herramientas oficiales** categorizadas funcionalment
 | `tdlc_buscar_icg_y_dictamenes` | `query` *(str)* | Busca en la jurisprudencia del TDLC: sentencias contenciosas, dictámenes no contenciosos e Instrucciones de Carácter General (ICG). |
 | `cmf_buscar_sanciones` | `query` *(str)* | Busca en el registro oficial de Resoluciones Sancionatorias y procedimientos de sanción aplicados por la CMF. |
 | `ambiental_buscar_jurisprudencia` | `query` *(str)*, `tribunal` *(str, opc)* | Busca en los Compendios Anuales de Jurisprudencia Ambiental y fallos de los Tribunales Ambientales (1TA, 2TA, 3TA). |
+| `ambiental_consulta_maestra` | `consulta` *(str)*, `limite` *(int, opc)*, `incluir_subgrafo` *(bool, opc)* | El módulo especial de derecho ambiental (§2 quinquies): consulta las 886 sentencias de los Tribunales Ambientales, los anuarios y boletines 2TA/3TA, la biblioteca ambiental (libros del Concurso de Comentarios, informes en derecho, foros, manuales y material docente) y la doctrina ambiental; devuelve plan, texto literal y citas `[Hugging Face - <archivo>]`. |
 
 ### Q. Academia Judicial de Chile y Biblioteca Online de Markdown
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -495,9 +496,10 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 * **Guías Oficiales de Formación Judicial:** Ingesta y consulta de las 22+ guías oficiales de `guias.academiajudicial.cl` (Penal, Determinación de Penas, Preparación de Juicio Oral, Familia, Laboral, Ética e Inteligencia Artificial en tribunales).
 * **Biblioteca Online en Markdown:** Publicación y empaquetado gratuito del corpus para Hugging Face Datasets ([`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)), releases comprimidos de GitHub y carpetas estructuradas para Google Drive y Google NotebookLM.
 * **Catálogo eficiente para agentes (2026-09-25):** el dataset suma `llms.txt` (mapa del corpus y formato de cita), `data/catalogo/instituciones_lite.jsonl` (fichas sin el texto íntegro: 11,5 MB en vez de 83,6 MB), `data/catalogo/train_lite.jsonl` (índice de obras: 0,1 MB en vez de 74,9 MB), `data/catalogo/indice_citas.jsonl` (documento · secciones · enlace directo para citas a pie de página) y `data/catalogo/indice_agentes.json` (rutas «tema → archivo»).
-* **Textos íntegros nuevos (2026-09-25):** `jurisprudencia_tc/` con las **966 sentencias del Tribunal Constitucional** de los últimos dos años en Markdown (ficha de cita + texto completo, descargadas del buscador oficial) y `publicaciones_ambientales/` con los **anuarios y boletines de los Tribunales Ambientales** (55 publicaciones). Se convierten con `scripts/tc_pdfs_a_md.py` y `scripts/publicaciones_a_md.py`.
+* **Textos íntegros nuevos (2026-09-25):** `jurisprudencia_tc/` con las **966 sentencias del Tribunal Constitucional** de los últimos dos años en Markdown (ficha de cita + texto completo, descargadas del buscador oficial) y `publicaciones_ambientales/` con los **anuarios y boletines de los Tribunales Ambientales** (78 publicaciones). Se convierten con `scripts/tc_pdfs_a_md.py` y `scripts/publicaciones_a_md.py`.
 * **Dataset de entrenamiento aparte:** las versiones plenas (`train.jsonl` 74,9 MB e `instituciones.jsonl` 83,6 MB) viven en [`pablobenavidesj/doctrina-jurisprudencia-chile-training`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile-training); el dataset principal quedó en ~168 MB con el corpus íntegro en `doctrina/` y las versiones «puntero».
-* **Jurisprudencia ampliada (2026-09-25):** 886 sentencias de los Tribunales Ambientales (1TA 111 · 2TA 441 · 3TA 334), 55 publicaciones oficiales de jurisprudencia ambiental (anuarios y boletines), 70 523 sentencias de la Corte Suprema y 966 del Tribunal Constitucional de los últimos dos años, con rol, sala, fecha, recurso, resultado y ministros (los textos de la Suprema quedan bajo sesión PJUD; el TC incluye enlace al PDF oficial).
+* **Jurisprudencia ampliada (2026-09-25):** 886 sentencias de los Tribunales Ambientales (1TA 111 · 2TA 441 · 3TA 334), 78 publicaciones oficiales de jurisprudencia ambiental (anuarios y boletines 2TA/3TA), 70 523 sentencias de la Corte Suprema y 966 del Tribunal Constitucional de los últimos dos años, con rol, sala, fecha, recurso, resultado y ministros (los textos de la Suprema quedan bajo sesión PJUD; el TC incluye enlace al PDF oficial).
+* **Biblioteca ambiental (2026-09-28):** colección nueva `biblioteca_ambiental/` con **87 documentos** convertidos a Markdown —los 6 libros del Concurso Nacional de Comentarios de Sentencias, los 14 informes en derecho de los Tribunales Ambientales, los foros, manuales y material docente— más los anuarios y boletines al día (78 publicaciones). El módulo especial `ambiental_consulta_maestra` (herramienta 87) consulta todo junto con `openlegal ambiental "…"`.
 
 ### 🧠 K. El grafo interno: reducción de tokens con conocimiento conectado (`legal_graphify.py`)
 * **Grafo Multidimensional de Dogmática Jurídica:** 13.938 nodos interconectados (instituciones dogmáticas, artículos de los Códigos BCN, fallos rectores de la Corte Suprema y del Tribunal Constitucional, publicaciones de los Tribunales Ambientales, tratadistas canónicos y vías procesales) y 30.746 aristas relacionales (27 comunidades, modularidad 0,682).
@@ -562,7 +564,7 @@ openlegal agent chat dogmatico
 # Exportar perfiles de subagentes para Google Antigravity o Claude Code
 openlegal agent export --format antigravity
 
-# Servidor MCP estándar para agentes de IA (86 herramientas)
+# Servidor MCP estándar para agentes de IA (87 herramientas)
 openlegal mcp
 
 # Chat jurídico interactivo con RAG soberano chileno

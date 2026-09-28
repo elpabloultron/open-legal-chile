@@ -22,7 +22,7 @@ def test_el_readme_no_vuelve_a_las_cifras_viejas():
 def test_las_cifras_nuevas_estan_presentes():
     web = (RAIZ / "docs" / "index.html").read_text(encoding="utf-8")
     minuscula = web.lower()
-    assert "86 herramientas mcp" in minuscula or "86 herramientas" in minuscula
+    assert "87 herramientas mcp" in minuscula or "87 herramientas" in minuscula
     assert "228 obras" in web or "228 Obras" in web
     assert "openlegal instalar" in web
 

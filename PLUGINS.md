@@ -17,7 +17,7 @@ Desde cualquier terminal en tu proyecto:
 ```bash
 claude plugin add elpabloultron/open-legal-chile
 ```
-*Claude Code detectará automáticamente el archivo `.claude-plugin/plugin.json` y registrará las 86 herramientas jurídicas*
+*Claude Code detectará automáticamente el archivo `.claude-plugin/plugin.json` y registrará las 87 herramientas jurídicas*
 
 #### Opción B: Como Servidor MCP en Claude Code
 ```bash
@@ -140,7 +140,7 @@ Para maximizar la precisión de los modelos y ahorrar entre un **70 % y 85 % de 
   * `corporativo` (13 herramientas): CMF, SII, TDLC, Marcas INAPI, Derechos ARCO, RUT Chile.
   * `dogmatico` (14 herramientas): Doctrina FTS5, Subgrafos LegalGraphify, Blast Radius, Academia Judicial.
   * `clinica` (7 herramientas): Lenguaje Claro, Intake CAJ, Auditoría de Borradores.
-  * `completo` / `full` (86 herramientas, por defecto).
+  * `completo` / `full` (87 herramientas, por defecto).
 
 Ejemplo en `.vscode/mcp.json` o Cursor para restringir al perfil laboral:
 ```json
@@ -172,7 +172,7 @@ print(f'✅ Open Legal Chile Suite activa: {len(tools)} herramientas MCP disponi
 
 Salida esperada:
 ```text
-✅ Open Legal Chile Suite activa: 86 herramientas MCP disponibles.
+✅ Open Legal Chile Suite activa: 87 herramientas MCP disponibles.
 ```
 
 ---

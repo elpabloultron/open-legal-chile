@@ -1294,6 +1294,32 @@
     }
   },
   {
+    "name": "ambiental_consulta_maestra",
+    "description": "Módulo especial de derecho ambiental: PRIMERA consulta cuando la consulta o el caso es de materia ambiental (SMA, SEIA/RCA, daño ambiental, tribunales ambientales, humedales, LO-SMA). Busca en un solo paso entre las 886 sentencias de los Tribunales Ambientales, los anuarios y boletines 2TA/3TA, la biblioteca ambiental (libros del Concurso Nacional de Comentarios de Sentencias, informes en derecho, foros, manuales y material docente) y la doctrina ambiental; devuelve el plan, los resultados con texto literal y las citas [Hugging Face - <archivo>]. Con incluir_subgrafo=true añade el subgrafo de LegalGraphify y su ahorro de tokens.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "consulta": {
+          "type": "string",
+          "description": "Consulta o caso de materia ambiental (ej. 'daño ambiental en humedales urbanos', 'sanción SMA por incumplimiento de RCA')"
+        },
+        "limite": {
+          "type": "integer",
+          "description": "Máximo de resultados (por defecto 8)",
+          "default": 8
+        },
+        "incluir_subgrafo": {
+          "type": "boolean",
+          "description": "Añade el subgrafo de LegalGraphify con su ahorro de tokens (por defecto False: el primer subgrafo de cada proceso carga su índice)",
+          "default": false
+        }
+      },
+      "required": [
+        "consulta"
+      ]
+    }
+  },
+  {
     "name": "academia_judicial_buscar_guias",
     "description": "Busca en las Guías Oficiales de Buenas Prácticas Judiciales de la Academia Judicial de Chile (penal, determinación de penas, laboral, familia, ética, IA).",
     "inputSchema": {
@@ -1648,7 +1674,7 @@
   },
   {
     "name": "consulta_maestra",
-    "description": "PRIMER PASO OBLIGATORIO de toda consulta jurídica: consulta el dataset de Hugging Face, la doctrina canónica, el grafo y las normas chilenas detectadas en la consulta, y devuelve las fuentes con su TEXTO LITERAL y su corchete de cita listo para pegar. Usala antes de responder aunque creas saber la respuesta: el producto no cita de memoria.",
+    "description": "PRIMER PASO OBLIGATORIO de toda consulta jurídica: consulta el dataset de Hugging Face, la doctrina canónica, el grafo y las normas chilenas detectadas en la consulta, y devuelve las fuentes con su TEXTO LITERAL y su corchete de cita listo para pegar. Usala antes de responder aunque creas saber la respuesta: el producto no cita de memoria. Si la materia es ambiental (SMA, SEIA/RCA, daño ambiental, humedales, Tribunales Ambientales), el primer paso es el módulo `ambiental_consulta_maestra`, que cubre además los anuarios, boletines y la biblioteca ambiental completos.",
     "inputSchema": {
       "type": "object",
       "properties": {
