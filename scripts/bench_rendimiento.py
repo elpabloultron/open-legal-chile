@@ -44,6 +44,28 @@ def medir_grafo() -> dict:
     return {"detalle": f"{nodos:,} nodos · subgrafo {'ok' if r else 'vacío'}"}
 
 
+def medir_subgrafo_frio() -> dict:
+    """La 1ª consulta al grafo en un proceso nuevo, SIN cargar el artefacto a mano.
+
+    Es el camino del server recién arrancado: antes del arreglo del 2026-09-28 reconstruía el
+    corpus doctrinal completo (62-70 s medidos); ahora carga el JSON publicado (~0,3 s) y responde.
+    """
+    codigo = (
+        "import time,sys;sys.path.insert(0, '.');"
+        "from legal_graphify import LegalGraphifyEngine;"
+        "e = LegalGraphifyEngine();"
+        "t = time.perf_counter();r = e.consultar_subgrafo('humedal');"
+        "print(f'{time.perf_counter()-t:.2f}', r.get('encontrado'))"
+    )
+    salida = subprocess.run([sys.executable, "-c", codigo], cwd=RAIZ, capture_output=True,
+                            text=True, encoding="utf-8", timeout=300)
+    partes = (salida.stdout or "").strip().split()
+    if len(partes) != 2:
+        raise RuntimeError(f"salida inesperada: {salida.stdout!r} {salida.stderr[-200:]!r}")
+    return {"detalle": f"1ª consulta en proceso nuevo: {float(partes[0]):.2f} s "
+                       f"(antes del arreglo: 62-70 s) · encontrado={partes[1]}"}
+
+
 def medir_fts() -> dict:
     """Índice trigram sobre 200k líneas: indexado una vez y consulta después (en ms)."""
     import shutil
@@ -118,6 +140,7 @@ def medir_consulta_maestra() -> dict:
 MEDICIONES = (
     ("import mcp_server", medir_import_mcp),
     ("grafo (carga + subgrafo)", medir_grafo),
+    ("subgrafo en frío (proceso nuevo)", medir_subgrafo_frio),
     ("fts trigram (200k líneas)", medir_fts),
     ("consulta ambiental (fría/caliente)", medir_ambiental),
     ("consulta_maestra (armado)", medir_consulta_maestra),
@@ -183,7 +206,9 @@ def main() -> None:
         "",
         "Notas: la carga del grafo (~0,4 s) desmintió la cifra falsa de «~72 s» que había quedado",
         "de una corrida con la CPU saturada por OCR; el arranque del MCP (~0,40 s) cerró el ítem del",
-        "arranque perezoso como no-acción (YAGNI).",
+        "arranque perezoso como no-acción (YAGNI). El 2026-09-28 (noche) la 1ª consulta al grafo en",
+        "frío pasó de 62-70 s a ~1 s: el subgrafo carga primero el artefacto publicado y el server lo",
+        "precalienta en segundo plano al arrancar.",
         "",
     ]
 

@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-406%2F406_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-420%2F420_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -215,7 +215,7 @@ El servidor MCP expone **87 herramientas oficiales** categorizadas funcionalment
 | `bcn_get_codigo` | `codigo` *(str)*, `articulo` *(str, opc)* | Consulta artículos o estructura de los 9 Códigos fundamentales chilenos (Civil, Trabajo, Procedimiento Civil, Penal, Comercio, Tributario, Minería, Aguas, Procesal Penal) en la BCN. |
 | `bcn_get_ley` | `numero` *(int)*, `articulo` *(str, opc)* | Descarga y parsea el texto oficial de cualquier ley de la República (ej. Ley 21.643 Karin, Ley 21.561 40 Horas, Ley 20.886 OJV). Devuelve además el bloque `citas` con el corchete oficial y el **texto literal**. |
 | `consulta_maestra` | `consulta` *(str)*, `limite` *(int, opc)* | **Primer paso de toda consulta jurídica (§2 quater).** En una sola llamada: corpus de Hugging Face + doctrina canónica + subgrafo + normas detectadas, con el **texto literal** y el corchete de cada fuente, y la lista `faltantes` de lo que no se pudo traer. |
-| `cita_texto` | `referencia` *(str)* | Devuelve el **texto literal** de una norma citada («Código Civil art. 1438», «Ley 21.643 art. 2») con su corchete oficial y su enlace de BCN. Si la fuente no responde, lo declara `sin_fuente_verificable` en vez de inventar el tenor. |
+| `cita_texto` | `referencia` *(str)* · `referencias` *(list, opcional)* | Devuelve el **texto literal** de una norma citada («Código Civil art. 1438», «Ley 21.643 art. 2») con su corchete oficial y su enlace de BCN. Con `referencias` verifica un lote en una sola llamada (una pasada de red por norma única; lo que falle queda en `faltantes`). Si la fuente no responde, lo declara `sin_fuente_verificable` en vez de inventar el tenor. |
 
 ### B. Jurisprudencia y Dictámenes Vinculantes
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -642,7 +642,7 @@ openlegal audit
 | **6. Linter & PEP** | `astral-sh/ruff` | **100% de reglas de arquitectura y estilo aprobadas** |
 | **7. Anti-Sobreingeniería**| `Ponytail` & `vulture`| **Filosofía Ponytail: Cero código muerto (*Lean already. Ship*)** |
 | **8. Mantenibilidad** | `rubik/radon` | **Rango A en lógica sustantiva y conectores** |
-| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **406/406 pruebas unitarias superadas satisfactoriamente** |
+| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **420/420 pruebas unitarias superadas satisfactoriamente** |
 
 Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
@@ -652,7 +652,7 @@ Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
 ```bash
 python3 -m pytest tests/ -v
-# ============================== 406 passed ==============================
+# ============================== 420 passed ==============================
 ```
 
 > Las pruebas tardan entre 15 y 60 segundos según la red: varias consultan en vivo portales del
