@@ -222,14 +222,14 @@ def standardize_legal_citations(text: str) -> str:
 
     for pattern, nombre_codigo in codigos_map:
         res = re.sub(
-            rf"\b(Arts?\.?\s*\d+(?:\s*(?:bis|ter|quater))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*)\s+{pattern}",
+            rf"\b(Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*)\s+{pattern}",
             rf"[BCN - {nombre_codigo}, \1]",
             res,
             flags=re.IGNORECASE,
         )
         # Formato inverso: 'Código Civil, Art. 1545' (con negative lookbehind para evitar duplicar)
         res = re.sub(
-            rf"(?<!\[BCN -\s)\b{nombre_codigo},?\s+(Arts?\.?\s*\d+(?:\s*(?:bis|ter|quater))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*)",
+            rf"(?<!\[BCN -\s)\b{nombre_codigo},?\s+(Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*)",
             rf"[BCN - {nombre_codigo}, \1]",
             res,
             flags=re.IGNORECASE,
@@ -246,12 +246,12 @@ def standardize_legal_citations(text: str) -> str:
     }
     for sigla, nombre_codigo in siglas_map.items():
         res = re.sub(
-            rf"\b(Arts?\.?\s*\d+(?:\s*(?:bis|ter|quater))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*)\s+del\s+{sigla}\b",
+            rf"\b(Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*)\s+del\s+{sigla}\b",
             rf"[BCN - {nombre_codigo}, \1]",
             res,
         )
         res = re.sub(
-            rf"\b(Arts?\.?\s*\d+(?:\s*(?:bis|ter|quater))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*)\s+{sigla}\b(?!\w)",
+            rf"\b(Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*)\s+{sigla}\b(?!\w)",
             rf"[BCN - {nombre_codigo}, \1]",
             res,
         )
@@ -263,7 +263,7 @@ def standardize_legal_citations(text: str) -> str:
         return f"[BCN - Ley N° {num}{art_part}]"
 
     res = re.sub(
-        r"\bLey\s*(?:N\.?°?|número)?\s*(\d{1,2}(?:\.?\d{3}))(?:\s*,?\s*(Arts?\.?\s*\d+(?:\s*(?:bis|ter))?(?:\s*inc\.?\s*\d+)?))?\b",
+        r"\bLey\s*(?:N\.?°?|número)?\s*(\d{1,2}(?:\.?\d{3}))(?:\s*,?\s*(Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*inc\.?\s*\d+)?))?\b",
         _format_ley,
         res,
         flags=re.IGNORECASE,
@@ -359,7 +359,7 @@ def segment_institutions(clean_text: str) -> List[Dict[str, Any]]:
         # 4. Concordancias BCN
         concordancias = re.findall(r"\[BCN\s*-\s*[^\]]+\]", body)
         if not concordancias:
-            concordancias = re.findall(r"(?:Arts?\.?\s*\d+(?:\s*(?:bis|ter|quater))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*\s*(?:del\s*)?(?:Código Civil|Código del Trabajo|CPC|CPP|CP|COT|CPR|Ley\s*\d+[\.\d]*))", body)
+            concordancias = re.findall(r"(?:Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N\.?°?\s*\d+))*\s*(?:del\s*)?(?:Código Civil|Código del Trabajo|CPC|CPP|CP|COT|CPR|Ley\s*\d+[\.\d]*))", body)
 
         # 5. Criterios Jurisprudenciales
         criterios = re.findall(r"\[(?:CS|C\.?A\.?)\s*-\s*Rol\s*[^\]]+\]", body)

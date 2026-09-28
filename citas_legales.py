@@ -19,10 +19,38 @@ CODIGOS = {
     "tributario": "Código Tributario",
     "aguas": "Código de Aguas",
     "mineria": "Código de Minería",
+    "constitucion": "Constitución Política de la República",
+    "sanitario": "Código Sanitario",
 }
 
-_OBRAS = "|".join(sorted(CODIGOS, key=len, reverse=True))
-_ART = r"\d+[a-zA-Z]?"
+# Alias de escritura frecuente: «CPR», «Constitución Política», «Código Sanitario».
+_ALIAS_OBRA = {
+    "constitucion": r"(?:constituci[oó]n(?:\s+pol[ií]tica)?|cpr)",
+    "sanitario": r"(?:c[oó]digo\s+sanitario|sanitario)",
+}
+
+
+def _alternacion_obras() -> str:
+    """Alternación de nombres de obra: los alias por sí solos y después las claves simples."""
+    partes = list(_ALIAS_OBRA.values())
+    partes += [re.escape(k) for k in CODIGOS if k not in _ALIAS_OBRA]
+    return "|".join(sorted(partes, key=len, reverse=True))
+
+
+def _obra_canonica(capturada: str) -> str:
+    """«Constitución Política»/«CPR» → «constitucion»; «Código Sanitario» → «sanitario»."""
+    texto = " ".join(capturada.lower().split())
+    if re.fullmatch(r"(?:constituci[oó]n(?:\s+pol[ií]tica)?|cpr)", texto):
+        return "constitucion"
+    if re.fullmatch(r"(?:c[oó]digo\s+sanitario|sanitario)", texto):
+        return "sanitario"
+    return texto
+
+
+_OBRAS = _alternacion_obras()
+# Sufijos latinos completos, con la tilde real de «quáter» (la que envenenó la caché).
+_SUFIJOS_LATINOS = r"(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies)"
+_ART = r"\d+(?:\s*[-–]\s*[a-zA-Z]|\s*" + _SUFIJOS_LATINOS + r")?"
 _NUM_LEY = r"\d{2,6}(?:\.\d{3})?(?!\d)"
 _PREFIJO_CODIGO = r"(?:c[oó]digo\s+(?:de\s+l[ao]s?\s+|del\s+|de\s+)?)?"
 _ARTICULO = r"(?:art[íi]culos?|arts?\.?)\s*"
@@ -75,8 +103,9 @@ def detectar_normas(texto: str) -> List[Dict[str, Any]]:
     vistos = set()
     for regex in (_RE_CODIGO_ADELANTE, _RE_CODIGO_ATRAS):
         for m in regex.finditer(texto or ""):
-            obra = m.group("obra").lower()
-            articulo = m.group("art")
+            obra = _obra_canonica(m.group("obra"))
+            capturado = m.group("art")
+            articulo = " ".join(capturado.split()).lower() if capturado else None
             clave = ("codigo", obra, articulo)
             if clave in vistos:
                 continue
@@ -88,7 +117,8 @@ def detectar_normas(texto: str) -> List[Dict[str, Any]]:
     for regex in (_RE_LEY_ADELANTE, _RE_LEY_ATRAS):
         for m in regex.finditer(texto or ""):
             numero = m.group("num").replace(".", "")
-            articulo = m.group("art")
+            capturado = m.group("art")
+            articulo = " ".join(capturado.split()).lower() if capturado else None
             clave = ("ley", numero, articulo)
             if clave in vistos:
                 continue

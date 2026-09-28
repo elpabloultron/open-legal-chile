@@ -23,6 +23,9 @@ CACHE_DIR = os.path.join(os.path.dirname(__file__), "bcn_cache")
 # Las normas consolidadas cambian solo cuando una reforma las modifica: la copia local se
 # revalida a los 30 días (vencida, se intenta refrescar; sin red, se entrega marcada).
 _TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60
+# v2: el parser de artículos cambió (sufijos latinos con tilde: «25 quáter» ya no se guarda
+# bajo la clave «25»); las copias viejas de parseo no se reutilizan.
+_VERSION_PARSER = 2
 
 CODIGOS_REPUBLICA = {
     "civil": {"idNorma": 172986, "nombre": "Código Civil de Chile"},
@@ -33,7 +36,9 @@ CODIGOS_REPUBLICA = {
     "comercio": {"idNorma": 1974, "nombre": "Código de Comercio"},
     "tributario": {"idNorma": 6368, "nombre": "Código Tributario (DL 830)"},
     "aguas": {"idNorma": 5605, "nombre": "Código de Aguas (DFL 1122)"},
-    "mineria": {"idNorma": 29668, "nombre": "Código de Minería (Ley 18.248)"}
+    "mineria": {"idNorma": 29668, "nombre": "Código de Minería (Ley 18.248)"},
+    "constitucion": {"idNorma": 242302, "nombre": "Constitución Política de la República"},
+    "sanitario": {"idNorma": 5595, "nombre": "Código Sanitario (DFL 725)"}
 }
 
 LEYES_FRECUENTES = {
@@ -50,6 +55,34 @@ LEYES_FRECUENTES = {
 }
 
 
+def _clave_articulo(valor: Any) -> str:
+    """Normaliza la clave de un artículo para comparar: «25 Quáter.» ≡ «25 quater» ≡ «25 quáter»."""
+    texto = re.sub(r"[\s.\-–]+", " ", str(valor).lower()).strip()
+    return texto.translate(str.maketrans("áéíóúü", "aeiouu"))
+
+
+def _buscar_articulo(articulos: Dict[str, Any], pedido: str):
+    """(clave, texto) del artículo pedido: coincidencia canónica exacta primero, difusa después.
+
+    El difuso existe porque los rotulados varían («Artículo 25.-», «25 quáter»); el orden importa:
+    pedir «25 quinquies» no puede devolver el «25 quáter» (falla silenciosa del 2026-09-28).
+    """
+    objetivo = _clave_articulo(pedido)
+    for clave, texto in articulos.items():
+        if _clave_articulo(clave) == objetivo:
+            return clave, texto
+    for clave, texto in articulos.items():
+        if _clave_articulo(clave).startswith(objetivo + " "):
+            return clave, texto
+    for clave, texto in articulos.items():
+        if _clave_articulo(clave).startswith(objetivo):
+            return clave, texto
+    for clave, texto in articulos.items():
+        if f"artículo {str(pedido).lower().strip()}" in str(texto).lower():
+            return clave, texto
+    return None
+
+
 class BCNClient:
     def __init__(self, api_key: str = BCN_API_KEY, cache_dir: str = CACHE_DIR):
         self.api_key = api_key
@@ -57,6 +90,8 @@ class BCNClient:
         os.makedirs(self.cache_dir, exist_ok=True)
 
     def _get_cache_path(self, key_type: str, key_val: Any) -> str:
+        if key_type in ("ley", "norma", "historica"):
+            key_type = f"{key_type}_p{_VERSION_PARSER}"
         return os.path.join(self.cache_dir, f"{key_type}_{key_val}.json")
 
     def _fetch_xml(self, params: Dict[str, Any]) -> str:
@@ -124,7 +159,7 @@ class BCNClient:
             estructuras.append(item)
 
             # Detectar número de artículo con soporte extendido para sufijos latinos y alfanuméricos (ej. 183-A, 183-B, bis, ter)
-            match = re.search(r'(?:Art[íi]culo|Art\.)\s*([0-9]+(?:\s*[-–]\s*[a-zA-Z]|\s*(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies))?|primero|segundo|tercero|cuarto|quinto)', texto, re.IGNORECASE)
+            match = re.search(r'(?:Art[íi]culo|Art\.)\s*([0-9]+(?:\s*[-–]\s*[a-zA-Z]|\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?|primero|segundo|tercero|cuarto|quinto)', texto, re.IGNORECASE)
             if match:
                 art_num = re.sub(r'\s*[-–]\s*', '-', match.group(1).lower().strip())
                 articulos_map[art_num] = texto
@@ -196,7 +231,7 @@ class BCNClient:
             raise
 
     def get_codigo(self, codigo_nombre: str, articulo: Optional[str] = None) -> Dict[str, Any]:
-        """Obtiene un Código de la República (civil, trabajo, cpc, cpp, penal, comercio, tributario, mineria, aguas)."""
+        """Obtiene un Código de la República (civil, trabajo, cpc, cpp, penal, comercio, tributario, mineria, aguas, constitucion, sanitario)."""
         c_key = codigo_nombre.lower().strip()
         if c_key not in CODIGOS_REPUBLICA:
             raise ValueError(f"Código '{codigo_nombre}' no reconocido. Opciones: {list(CODIGOS_REPUBLICA.keys())}")
@@ -205,24 +240,15 @@ class BCNClient:
         data = self.get_norma(id_norma)
 
         if articulo:
-            art_str = str(articulo).lower().strip()
-            # Buscar en el mapa de artículos
-            if art_str in data["articulos"]:
+            encontrado = _buscar_articulo(data["articulos"], str(articulo))
+            if encontrado:
+                clave, texto = encontrado
                 return {
                     "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
-                    "articulo": articulo,
-                    "texto": data["articulos"][art_str],
+                    "articulo": clave,
+                    "texto": texto,
                     "fechaVersion": data["fechaVersion"]
                 }
-            # Búsqueda difusa en el articulado
-            for k, text in data["articulos"].items():
-                if k.startswith(art_str) or f"artículo {art_str}" in text.lower() or f"artículo {art_str}.-" in text.lower():
-                    return {
-                        "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
-                        "articulo": k,
-                        "texto": text,
-                        "fechaVersion": data["fechaVersion"]
-                    }
             return {
                 "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
                 "articulo": articulo,
@@ -234,27 +260,16 @@ class BCNClient:
     def get_articulo_ley(self, id_ley: int, articulo: str) -> Dict[str, Any]:
         """Obtiene un artículo específico de una ley (ej. Ley 21643, Art. 1)."""
         data = self.get_ley(id_ley)
-        art_str = str(articulo).lower().strip()
-
-        if art_str in data["articulos"]:
+        encontrado = _buscar_articulo(data["articulos"], str(articulo))
+        if encontrado:
+            clave, texto = encontrado
             return {
                 "ley": id_ley,
                 "titulo": data["titulo"],
-                "articulo": articulo,
-                "texto": data["articulos"][art_str],
+                "articulo": clave,
+                "texto": texto,
                 "fechaVersion": data["fechaVersion"]
             }
-
-        for k, text in data["articulos"].items():
-            if k.startswith(art_str) or f"artículo {art_str}" in text.lower():
-                return {
-                    "ley": id_ley,
-                    "titulo": data["titulo"],
-                    "articulo": k,
-                    "texto": text,
-                    "fechaVersion": data["fechaVersion"]
-                }
-
         return {
             "ley": id_ley,
             "articulo": articulo,
@@ -277,26 +292,17 @@ class BCNClient:
                 json.dump(data, f, ensure_ascii=False, indent=2)
 
         if articulo:
-            art_str = re.sub(r'\s*[-–]\s*', '-', str(articulo).lower().strip())
-            if art_str in data["articulos"]:
+            encontrado = _buscar_articulo(data["articulos"], str(articulo))
+            if encontrado:
+                clave, texto = encontrado
                 return {
                     "ley": id_ley,
                     "fechaVersionSolicitada": fecha_clean,
                     "fechaVersionEfectiva": data["fechaVersion"],
-                    "articulo": articulo,
-                    "texto": data["articulos"][art_str],
+                    "articulo": clave,
+                    "texto": texto,
                     "historiaLeyUrl": data.get("historiaLeyUrl", "")
                 }
-            for k, text in data["articulos"].items():
-                if k == art_str or k.startswith(art_str) or f"artículo {art_str}" in text.lower():
-                    return {
-                        "ley": id_ley,
-                        "fechaVersionSolicitada": fecha_clean,
-                        "fechaVersionEfectiva": data["fechaVersion"],
-                        "articulo": k,
-                        "texto": text,
-                        "historiaLeyUrl": data.get("historiaLeyUrl", "")
-                    }
             return {
                 "ley": id_ley,
                 "fechaVersionSolicitada": fecha_clean,
@@ -547,7 +553,7 @@ if __name__ == "__main__":
         pass
     parser = argparse.ArgumentParser(description="Conector CLI Open Legal Chile - BCN Ley Chile")
     parser.add_argument("--ley", type=int, help="Número de Ley (ej. 21643)")
-    parser.add_argument("--codigo", type=str, help="Nombre del Código (civil, trabajo, cpc, cpp, penal, comercio, tributario, mineria, aguas)")
+    parser.add_argument("--codigo", type=str, help="Nombre del Código (civil, trabajo, cpc, cpp, penal, comercio, tributario, mineria, aguas, constitucion, sanitario)")
     parser.add_argument("--art", type=str, help="Número de Artículo (ej. 1545, 161, 254)")
     args = parser.parse_args()
 

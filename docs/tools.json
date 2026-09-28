@@ -101,7 +101,7 @@
   },
   {
     "name": "bcn_get_codigo",
-    "description": "Consulta artículos o estructura de los 9 Códigos de la República de Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp) en la BCN.",
+    "description": "Consulta artículos o estructura de los 9 Códigos de la República de Chile (civil, trabajo, cpc, cpp, penal, comercio, tributario, minería, aguas), la Constitución Política y el Código Sanitario, en la BCN.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -1694,18 +1694,22 @@
   },
   {
     "name": "cita_texto",
-    "description": "Devuelve el TEXTO LITERAL de una norma citada, con su corchete oficial y su enlace. Usala antes de citar cualquier artículo: el producto no cita sin texto.",
+    "description": "Devuelve el TEXTO LITERAL de una norma citada, con su corchete oficial y su enlace. Usala antes de citar cualquier artículo: el producto no cita sin texto. Para verificar varias de una vez, pasá `referencias` (lote): una sola llamada, una pasada de red por norma única.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "referencia": {
           "type": "string",
           "description": "Ej.: 'Código Civil art. 1438', 'Ley 21.643 art. 2'"
+        },
+        "referencias": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lote de normas a verificar juntas (ej. ['Ley 19.300 art. 47', 'Ley 20.417 art. 48']). Lo que falle queda en `faltantes`."
         }
-      },
-      "required": [
-        "referencia"
-      ]
+      }
     }
   },
   {

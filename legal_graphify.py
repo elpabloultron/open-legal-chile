@@ -70,7 +70,7 @@ def extract_articulos_de_codigo(codigo_nombre: str, texto: str) -> nx.DiGraph:
         r"^(?=\s*(?:Art[íi]culo|Art\.)\s+\d+)", re.IGNORECASE | re.MULTILINE
     )
     encabezado_articulo = re.compile(
-        r"^\s*(?:Art[íi]culo|Art\.)\s+(\d+(?:\s*(?:bis|ter|quater))?)\s*[\.\-:]?\s*",
+        r"^\s*(?:Art[íi]culo|Art\.)\s+(\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?)\s*[\.\-:]?\s*",
         re.IGNORECASE,
     )
 
@@ -264,7 +264,7 @@ class LegalGraphifyEngine:
                         concordancias_raw.extend(re.findall(r"\[([^\]]+)\]", conc_header.group(1)))
                     # Búsqueda adicional en texto
                     concordancias_raw.extend(re.findall(r"\[(BCN\s*-\s*[^\]]+)\]", sec_clean))
-                    concordancias_raw.extend(re.findall(r"(?:Arts?\.?\s*\d+(?:\s*(?:bis|ter|quater))?(?:\s*(?:inc\.?\s*\d+|N°\s*\d+))*\s*(?:del\s*)?(?:CC|CPC|CPP|CP|COT|CT|CPR|Ley\s*\d+[\.\d]*))", sec_clean))
+                    concordancias_raw.extend(re.findall(r"(?:Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N°\s*\d+))*\s*(?:del\s*)?(?:CC|CPC|CPP|CP|COT|CT|CPR|Ley\s*\d+[\.\d]*))", sec_clean))
 
                     # Extraer Criterio Jurisprudencial Rector
                     jurisprudencia_raw = []
