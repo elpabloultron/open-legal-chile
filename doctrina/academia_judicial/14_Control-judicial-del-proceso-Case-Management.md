@@ -3768,8 +3768,8 @@ DEL PROCESO:
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Contexto Social y estatuto de los migrantes en Chile (Actualizado a marzo 2022 &#8211; Ley](MD-15-Contexto-social-y-estatuto-de-los-Migrantes-actualizado-marzo-2022.md) — cita mutua
-- [Regímenes Matrimoniales](../apuntes_orrego/Regímenes%20Matrimoniales.md) — cita mutua
 - [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](../apuntes_orrego/Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — cita mutua
+- [Regímenes Matrimoniales](../apuntes_orrego/Regímenes%20Matrimoniales.md) — cita mutua
 - [Acciones Protectoras](../apuntes_orrego/Acciones%20Protectoras.md) — mismo tema (2 conexiones)
 
 **Guías de la Academia Judicial que usan esta obra:**

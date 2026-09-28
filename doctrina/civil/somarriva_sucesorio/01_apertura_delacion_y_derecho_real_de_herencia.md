@@ -41,8 +41,8 @@ En el estudio de títulos inmobiliarios, la cesión de derechos hereditarios sob
 ## Véase también
 
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
-- [DERECHO SUCESORIO — CAPÍTULO II: ASIGNACIONES FORZOSAS Y POSESIÓN EFECTIVA](02_asignaciones_forzosas_y_posesion_efectiva.md) — cita mutua
 - [DERECHO SUCESORIO — CAPÍTULO III: PETICIÓN DE HERENCIA Y PARTICIÓN](03_peticion_de_herencia_y_particion.md) — cita mutua
+- [DERECHO SUCESORIO — CAPÍTULO II: ASIGNACIONES FORZOSAS Y POSESIÓN EFECTIVA](02_asignaciones_forzosas_y_posesion_efectiva.md) — cita mutua
 - [TRATADO DE LOS BIENES — CAPÍTULO I: CONCEPTO Y CLASIFICACIÓN DE LOS BIENES](../penailillo_bienes/01_concepto_y_clasificacion_de_los_bienes.md) — cita mutua
 - [DE LAS OBLIGACIONES — CAPÍTULO I: CONCEPTO, ELEMENTOS Y CLASIFICACIONES](../ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md) — mismo tema (1 conexiones)
 - [TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO II: OBJETO, CAUSA Y SOLEMNIDADES](../vial_del_rio_acto_juridico/02_objeto_causa_y_solemnidades.md) — mismo tema (1 conexiones)

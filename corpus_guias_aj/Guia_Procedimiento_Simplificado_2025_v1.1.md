@@ -3004,9 +3004,9 @@ Dictada por _________, Juez/jueza de Garantía de __________.
 - (sin conexiones medidas todavía)
 
 **Obras del canon que esta guía trabaja:**
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md)
 - [Responsabilidad penal adolescente](../doctrina/academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md)
 - [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md)
-- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md)
 - [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD44-Principales-figuras-penales-de-la-Ley-20.000.md)
 - [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md)
 

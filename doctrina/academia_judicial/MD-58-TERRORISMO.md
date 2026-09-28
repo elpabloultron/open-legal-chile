@@ -4556,7 +4556,7 @@ Materiales Docentes                                     Referencias
 - [Terrorismo](MD57-Terrorismo.md) — cita mutua
 - [doctrina48981](../manuales/doctrina48981.md) — cita mutua
 - [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
-- [Corrupción](MD64-Corrupcion.md) — cita mutua
+- [Clima laboral y calidad de vida](MD-47-CLIMA-LABORAL-Y-CALIDAD-DE-VIDA.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

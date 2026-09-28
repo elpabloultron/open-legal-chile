@@ -15167,8 +15167,8 @@ Materiales Docentes                                   Referencias
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Atención de usuarios en situaciones complejas y de vulnerabilidad](MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md) — cita mutua
 - [Atención de usuarios en situaciones complejas y de vulnerabilidad](MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md) — cita mutua
-- [Debido Proceso](MD65-Debido-Proceso.md) — cita mutua
 - [Derechos económicos, sociales y culturales](MD-53-DERECHOS-ECONOMICOS-SOCIALES-Y-CULTURALES.md) — cita mutua
+- [Debido Proceso](MD65-Debido-Proceso.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

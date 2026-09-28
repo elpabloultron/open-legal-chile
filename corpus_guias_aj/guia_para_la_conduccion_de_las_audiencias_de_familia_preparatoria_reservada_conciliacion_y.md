@@ -7801,11 +7801,11 @@ superior del niño (ISN) y
 - (sin conexiones medidas todavía)
 
 **Obras del canon que esta guía trabaja:**
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
+- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md)
 - [Habilitante para juez de juzgado de familia](../doctrina/academia_judicial/10_Habilitante-Familia.md)
 - [Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelacion](../doctrina/academia_judicial/12_Gobierno-Judicial.md)
 - [Atención de usuarios en situaciones complejas y de vulnerabilidad](../doctrina/academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md)
-- [Atención de usuarios en situaciones complejas y de vulnerabilidad](../doctrina/academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md)
-- [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
 
 **Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
 

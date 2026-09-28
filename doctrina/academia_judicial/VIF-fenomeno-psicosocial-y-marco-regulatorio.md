@@ -9856,10 +9856,7 @@ sobre discapacidad de la página https://www.incluyeme.com/10-mitos-sobre-la-dis
 - [doctrina48981](../manuales/doctrina48981.md) — cita mutua
 - [Convenio 169 de la OIT sobre Pueblos Indígenas](Convenio-169-de-la-OIT-sobre-pueblos-indigenas.md) — cita mutua
 - [Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelacion](12_Gobierno-Judicial.md) — cita mutua
-- [Debido Proceso](MD65-Debido-Proceso.md) — cita mutua
-
-**Guías de la Academia Judicial que usan esta obra:**
-- [Guia determinación de penas 2025](../../corpus_guias_aj/Guia_determinación_de_penas_2025_v1.1.md) — la usa como material de apoyo
+- [Ley 21.430 sobre garantías y protección integral de los derechos de la niñez y adolescenci](MD67-Ley-21430-sobre-garantias-y-proteccion-integral-de-los-derechos-de-la-ninez-y-adolesc.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

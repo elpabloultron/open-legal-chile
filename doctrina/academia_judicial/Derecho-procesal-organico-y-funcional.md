@@ -10714,11 +10714,12 @@ de Patrimonio e Intereses: https://www.pjud.cl/          funcionarios y empleado
 - [Derecho Procesal Orgánico y Funcional](07_DERECHO-PROCESAL_03.md) — cita mutua
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
-- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
-- [Guía de Audiencia de Conciliación Laboral](aj_conciliacion_laboral.md) — mismo tema (1 conexiones)
+- [Guía para la conducción de audiencias de familia (Preparatoria, Reservada, Conciliación y ](aj_audiencias_familia.md) — mismo tema (1 conexiones)
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md) — mismo tema (1 conexiones)
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia Etica 10jul](../../corpus_guias_aj/Guia_Etica_10jul_2026.md) — la usa como material de apoyo
+- [Guía de Ética 24 de septiembre de 2026](../../corpus_guias_aj/Guia_Etica_24_sep_2026.md) — la usa como material de apoyo
 - [Guia Etica 7jul](../../corpus_guias_aj/Guia_Etica_7jul_2026.md) — la usa como material de apoyo
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)

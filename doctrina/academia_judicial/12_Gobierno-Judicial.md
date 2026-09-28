@@ -5340,9 +5340,9 @@ Judicial y Ministro de Corte                                                    
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — cita mutua
-- [Cortes de Apelaciones: nociones básicas de organización y funcionamiento](04_Corte-de-Apelaciones-nociones-basicas-de-org.-y-funcionamiento.md) — cita mutua
 - [Responsabilidad civil por negligencia médica](03_Responsabilidad-civil-por-negligencia-medica.md) — cita mutua
 - [Convenio 169 de la OIT sobre Pueblos Indígenas](Convenio-169-de-la-OIT-sobre-pueblos-indigenas.md) — cita mutua
+- [Tribunales Orales en lo Penal: nociones básicas de organización y funcionamiento](06_TOP-funciones-basica-de-organizacion-y-funcionamiento.md) — cita mutua
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia Audiencia Conciliacion Laboral](../../corpus_guias_aj/Guia_Audiencia_Conciliacion_Laboral_v2.1.md) — la usa como material de apoyo

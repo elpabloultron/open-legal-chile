@@ -4196,7 +4196,7 @@ F Señalar fecha, día y hora de audiencia.
 - [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD44-Principales-figuras-penales-de-la-Ley-20.000.md)
 - [Ley 20.000: problemas actuales en su interpretación](../doctrina/academia_judicial/MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md)
 - [Responsabilidad Penal de las Personas Jurídicas](../doctrina/academia_judicial/RPPJ.md)
-- [Manual psicosociolegal sobre abuso sexual infantil](../doctrina/academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md)
+- [Manual psicosociolegal sobre abuso sexual infantil](../doctrina/academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md)
 
 **Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
 

@@ -2980,10 +2980,10 @@ Materiales Docentes           Referencias
 
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
-- [Teletrabajo,  trabajo a distancia  y nuevas formas  de organización](MD-37-TELETRABAJO-TRABAJO-A-DISTANCIA.md) — cita mutua
-- [Ley 20.000: problemas actuales en su interpretación](MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md) — cita mutua
-- [Regulación nacional y convención internacional sobre personas con discapacidad](11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md) — cita mutua
-- [Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales](MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md) — cita mutua
+- [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md) — cita mutua
+- [Ley 21.430 sobre garantías y protección integral de los derechos de la niñez y adolescenci](MD67-Ley-21430-sobre-garantias-y-proteccion-integral-de-los-derechos-de-la-ninez-y-adolesc.md) — cita mutua
+- [Derechos de las y los pacientes](MD68-Derechos-de-los-pacientes-1.md) — cita mutua
+- [Derechos de las personas mayores](MD62-Derechos-de-las-personas-mayores.md) — cita mutua
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia aplicada para la determinacion de penas](../../corpus_guias_aj/Guia-aplicada-para-la-determinacion-de-penas.md) — la usa como material de apoyo

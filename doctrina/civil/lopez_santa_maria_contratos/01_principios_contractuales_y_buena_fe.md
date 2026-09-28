@@ -41,9 +41,12 @@ La vulneración de la buena fe objetiva del Art. 1546 CC autoriza al demandado a
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [LOS CONTRATOS: PARTE GENERAL — CAPÍTULO II: IMPREVISIÓN, EFECTO RELATIVO E INTERPRETACIÓN](02_imprevision_efecto_relativo_e_interpretacion.md) — cita mutua
 - [TRATADO DE LOS RECURSOS PROCESALES — CAPÍTULO III: CASACIÓN EN LA FORMA, FONDO Y QUEJA](../../procesal/maturana_mosquera_recursos/03_recursos_de_casacion_forma_y_fondo.md) — cita mutua
-- [doctrina48981](../../manuales/doctrina48981.md) — cita mutua
 - [DE LAS OBLIGACIONES — CAPÍTULO IV: EXTINCIÓN DE OBLIGACIONES Y PRELACIÓN DE CRÉDITOS](../ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md) — cita mutua
+- [doctrina48981](../../manuales/doctrina48981.md) — cita mutua
 - [TRATADO DE RESPONSABILIDAD EXTRACONTRACTUAL — CAPÍTULO I: MODELOS Y ESTRUCTURA GENERAL](../barros_bourie_responsabilidad/01_modelos_y_elementos_de_la_responsabilidad.md) — cita mutua
+
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guía sobre inteligencia artificial para juezas y jueces](../../../corpus_guias_aj/Guia_sobre_inteligencia_artificial_para_juezas_y_jueces.md) — la usa como material de apoyo
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../../publicaciones_ambientales/README.md)
 

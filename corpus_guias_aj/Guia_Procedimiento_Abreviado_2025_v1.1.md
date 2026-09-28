@@ -2074,10 +2074,10 @@ Suprema que nos proporcionó el formato de la sentencia.
 
 **Obras del canon que esta guía trabaja:**
 - [Juzgados de Garantía: nociones básicas de organización y funcionamiento](../doctrina/academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md)
+- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md)
 - [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md)
 - [Uso de la fuerza por funcionarios estatales: Límites y excesos](../doctrina/academia_judicial/MD-59-USO-DE-LA-FUERZA.md)
-- [Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales](../doctrina/academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md)
-- [Las víctimas, los testigos y los peritos en los procesos  judiciales](../doctrina/academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md)
+- [Tribunales Orales en lo Penal: nociones básicas de organización y funcionamiento](../doctrina/academia_judicial/06_TOP-funciones-basica-de-organizacion-y-funcionamiento.md)
 
 **Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
 

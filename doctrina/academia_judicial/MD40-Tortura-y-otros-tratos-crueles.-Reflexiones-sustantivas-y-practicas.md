@@ -5812,16 +5812,16 @@ Materiales Docentes                                     Referencias
 ## Véase también
 
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
-- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas](MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md) — cita mutua
+- [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
 - [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
-- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+- [Guía para la conducción de audiencias de familia (Preparatoria, Reservada, Conciliación y ](aj_audiencias_familia.md) — mismo tema (1 conexiones)
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia Procedimiento Monitorio 2025](../../corpus_guias_aj/Guia_Procedimiento_Monitorio_2025_v1.1.md) — la usa como material de apoyo
 - [Guia audiencia sobreseimineto DNP cautela solicitud diligencias 2025 V](../../corpus_guias_aj/Guia_audiencia_sobreseimineto_DNP_cautela_solicitud_diligencias_2025_V1.1.md) — la usa como material de apoyo
-- [Guia conduccion primera audiencia proceso penal V](../../corpus_guias_aj/Guia_conduccion_primera_audiencia_proceso_penal_V2.1.md) — la usa como material de apoyo
+- [Guia para la conduccion de la audiencia de preparacion de juicio oral 2025](../../corpus_guias_aj/Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1.md) — la usa como material de apoyo
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

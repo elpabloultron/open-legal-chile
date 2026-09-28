@@ -28,9 +28,9 @@ El documento íntegro en formato PDF oficial se encuentra disponible en:
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Guía para audiencias de Responsabilidad Penal Adolescente (RPA)](aj_responsabilidad_penal_adolescente.md) — cita mutua
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
-- [Guía para la Audiencia de Juicio Oral Laboral](aj_juicio_oral_laboral.md) — cita mutua
-- [Guía de conducción de la primera audiencia en el proceso penal](aj_primera_audiencia_penal.md) — cita mutua
-- [Guía de Procedimiento Abreviado en Juzgados de Garantía](aj_procedimiento_abreviado.md) — cita mutua
+- [Guía para la conducción de audiencias de familia (Preparatoria, Reservada, Conciliación y ](aj_audiencias_familia.md) — cita mutua
+- [Guía aplicada para la determinación de penas](aj_determinacion_penas.md) — cita mutua
+- [Guía para la conducción de la audiencia de preparación de juicio oral (APJO)](aj_apjo_penal.md) — cita mutua
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

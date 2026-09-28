@@ -3948,9 +3948,9 @@ especiales como el Protocolo I de la Ley Nº21.057 y artículo 51 de la Ley Nº2
 **Obras del canon que esta guía trabaja:**
 - [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md)
 - [Ley 21.302: cambios y desafíos del nuevo sistema proteccional](../doctrina/academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md)
+- [Manual psicosociolegal sobre abuso sexual infantil](../doctrina/academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md)
+- [Manual psicosociolegal sobre abuso sexual infantil](../doctrina/academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md)
 - [Convención de derechos de niños, niñas y adolescentes en el contexto judicial nacional](../doctrina/academia_judicial/06_Convencion-de-los-DD-de-NNA-en-el-contexto-judicial.md)
-- [Sucesorio 6 (donaciones revocables acrecimiento sustitución y primera parte sucesión forzo](../doctrina/apuntes_orrego/Sucesorio%206%20donaciones%20revocables%20acrecimiento%20sustitución%20y%20primera%20parte%20sucesión%20forzos.md)
-- [DERECHO DE FAMILIA — CAPÍTULO II: COMPENSACIÓN ECONÓMICA Y ALIMENTOS](../doctrina/civil/ramos_pazos_familia/02_compensacion_economica_y_alimentos.md)
 
 **Grafo de las guías:** <https://github.com/elpabloultron/open-legal-chile/blob/main/data/grafo_guias_aj.json>
 

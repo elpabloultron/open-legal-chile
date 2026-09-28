@@ -1413,10 +1413,10 @@ de la Universidad Internacional Sek (Santiago, Editora Metropolitana, año 2004)
 
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [Acciones Protectoras](Acciones%20Protectoras.md) — cita mutua
-- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Normativa en materia de filiación](../academia_judicial/07_Normativa-en-materia-de-filiacion.md) — cita mutua
+- [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
+- [Inscripciones paralelas en el Registro Conservatorio de Bienes Raices](Inscripciones%20paralelas%20en%20el%20Registro%20Conservatorio%20de%20Bienes%20Raices.md) — mismo tema (2 conexiones)
 - [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](../academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
-- [La Familia y el Matrimonio](La%20Familia%20y%20el%20Matrimonio.md) — mismo tema (2 conexiones)
 
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 

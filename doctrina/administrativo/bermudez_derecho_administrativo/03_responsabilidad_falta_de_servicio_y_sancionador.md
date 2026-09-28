@@ -39,8 +39,8 @@ Manifestación del *ius puniendi* estatal encomendada a órganos administrativos
 
 **Obras del canon relacionadas** — por los temas y las normas que comparten:
 - [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO II: EL ACTO ADMINISTRATIVO, INVALIDACIÓN Y NULID](02_el_acto_administrativo_y_su_invalidez.md) — cita mutua
-- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
 - [DE LAS OBLIGACIONES — CAPÍTULO IV: EXTINCIÓN DE OBLIGACIONES Y PRELACIÓN DE CRÉDITOS](../../civil/ramos_pazos_obligaciones/04_modos_de_extinguir_y_prelacion_de_creditos.md) — cita mutua
+- [DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL](../../civil/ramos_pazos_obligaciones/02_efectos_e_incumplimiento_contractual.md) — cita mutua
 - [DERECHO ADMINISTRATIVO GENERAL — CAPÍTULO I: BASES CONSTITUCIONALES Y PRINCIPIOS](01_bases_constitucionales_y_principios.md) — cita mutua
 - [DERECHO CONSTITUCIONAL CHILENO — CAPÍTULO II: DERECHOS FUNDAMENTALES Y ORDEN PÚBLICO ECONÓ](../../constitucional/cea_derecho_constitucional/02_derechos_fundamentales_y_orden_economico.md) — cita mutua
 

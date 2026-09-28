@@ -3819,7 +3819,7 @@ Wilenmann, Javier (2014). «El fundamento del estado de necesidad jus-
 - [Derechos sexuales y reproductivos](01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 - [Violencia intrafamiliar: fenómeno psicosocial y marco regulatorio](VIF-fenomeno-psicosocial-y-marco-regulatorio.md) — mismo tema (2 conexiones)
 - [doctrina48981](../manuales/doctrina48981.md) — mismo tema (2 conexiones)
-- [De la Responsabilidad Precontractual](../apuntes_orrego/De%20la%20Responsabilidad%20Precontractual.md) — mismo tema (1 conexiones)
+- [Guía para la conducción de audiencias de familia (Preparatoria, Reservada, Conciliación y ](aj_audiencias_familia.md) — mismo tema (1 conexiones)
 
 **Guías de la Academia Judicial que usan esta obra:**
 - [Guia Procedimiento Abreviado 2025](../../corpus_guias_aj/Guia_Procedimiento_Abreviado_2025_v1.1.md) — la usa como material de apoyo

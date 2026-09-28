@@ -10917,6 +10917,9 @@ Sdiesrid GhJovise
 - [Terrorismo](../academia_judicial/MD-58-TERRORISMO.md) — cita mutua
 - [Derechos sexuales y reproductivos](../academia_judicial/01_Derechos-sexuales-y-reproductivos.md) — cita mutua
 
+**Guías de la Academia Judicial que usan esta obra:**
+- [Guia audiencia ejecucion 2025](../../corpus_guias_aj/Guia_audiencia_ejecucion_2025_v1.1.md) — la usa como material de apoyo
+
 **Colecciones del corpus:** [Fichas de la Corte Suprema](../../jurisprudencia_cs/README.md) · [Sentencias del Tribunal Constitucional](../../jurisprudencia_tc/README.md) · [Sentencias ambientales](../../jurisprudencia_ambiental/README.md) · [Publicaciones ambientales](../../publicaciones_ambientales/README.md)
 
 **Publicado en Hugging Face:** <https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/main/doctrina/manuales/Derecho-Procesal-profesora-Cerra.md>
