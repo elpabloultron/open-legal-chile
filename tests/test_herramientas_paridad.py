@@ -14,6 +14,18 @@ def test_suite_doctor_devuelve_el_diagnostico_medido():
     assert {"ocr", "corpus", "grafo", "herramientas_mcp"} <= nombres
 
 
+def test_ocr_plan_documento_esta_en_el_catalogo_y_razona(tmp_path, monkeypatch):
+    import ocr_decision
+
+    assert "ocr_plan_documento" in {t["name"] for t in mcp_server.TOOLS}
+    monkeypatch.setattr(ocr_decision, "_ruta_existe", lambda r: True)
+    res = mcp_server.handle_tool_call("ocr_plan_documento",
+                                      {"pdf_path": str(tmp_path / "escaneo.pdf"),
+                                       "contexto": "expediente con plazo de notificación"})
+    assert res["recomendado"]["modo"] in ("nativo", "ocr")
+    assert res["razonamiento"] and "como_ejecutar" in res
+
+
 def test_busqueda_universal_agrega_citas(monkeypatch):
     class FalsoRegistro:
         def search_all(self, consulta):

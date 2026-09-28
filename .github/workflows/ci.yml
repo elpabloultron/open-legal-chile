@@ -74,10 +74,27 @@ jobs:
           respuestas = [json.loads(l) for l in corrida.stdout.splitlines() if l.strip().startswith("{")]
           herramientas = [t["name"] for r in respuestas for t in (r.get("result", {}).get("tools") or [])]
 
-          assert len(herramientas) == 84, f"{len(herramientas)} herramientas en el paquete instalado"
+          assert len(herramientas) == 86, f"{len(herramientas)} herramientas en el paquete instalado"
           for nombre in ("consulta_maestra", "cita_texto", "huggingface_search_dataset", "bcn_get_codigo",
                          "suite_doctor", "busqueda_universal", "skills_listar", "skill_ver",
-                         "critique_documento", "generar_documento", "entrevista_estudio"):
+                         "critique_documento", "generar_documento", "entrevista_estudio",
+                         "ocr_plan_documento", "suite_instalar"):
               assert nombre in herramientas, f"falta {nombre}"
           print(f"MCP OK: {len(herramientas)} herramientas")
+          PY
+
+      - name: Un solo comando deja el harness configurado y verificado (openlegal instalar)
+        run: |
+          mkdir -p /tmp/proyecto/.claude && cd /tmp/proyecto
+          HOME=/tmp/casa_vacia /tmp/limpio/bin/openlegal instalar --json > instalar.json
+          python3 - <<'PY'
+          import json, pathlib
+
+          texto = open("/tmp/proyecto/instalar.json", encoding="utf-8").read()
+          datos = json.loads(texto[texto.index("{"):])
+          assert datos["harnesses"] == ["claude-code"], datos
+          assert datos["doctor"]["estado"] in ("ok", "degradado"), datos
+          assert datos["herramientas"] == 86, datos
+          assert pathlib.Path("/tmp/proyecto/.mcp.json").exists(), "no escribió la configuración"
+          print("instalar OK:", datos["harnesses"], "·", datos["doctor"]["estado"])
           PY

@@ -7,6 +7,7 @@ dictámenes, auditorías y jurisprudencia administrativa de la República de Chi
 import sys
 import os
 import json
+import pathlib
 import argparse
 
 # Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
@@ -590,12 +591,14 @@ Ejemplos de uso:
   openlegal integrar         -> Muestra y escribe la configuración MCP de tu harness (--escribir)
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "integrar", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "stats", "update", "graph", "agent", "agents"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
+    parser.add_argument("--contexto", type=str, default=None, help="Con 'ocr': para qué se usará el documento (plazo, escritura, tabla…)")
     parser.add_argument("--escribir", action="store_true", help="Con 'integrar': escribe la configuración del harness (con respaldo)")
     parser.add_argument("--todos", action="store_true", help="Con 'integrar': configura todos los harness detectados en la máquina")
+    parser.add_argument("--json", action="store_true", help="Con 'instalar': salida legible por máquinas")
     args = parser.parse_args()
 
     if args.comando == "mcp":
@@ -648,10 +651,44 @@ Ejemplos de uso:
                 print("\n\n👋 Cerrando chat jurídico.\n")
                 break
 
+    if args.comando == "instalar":
+        import integraciones_harness as ih
+        from diagnostico import diagnostico_completo
+
+        carpeta = pathlib.Path.cwd()
+        detectados = ih.detectar_instalados(carpeta)
+        if not detectados:
+            print("No se detectó ningún harness en esta carpeta (se buscó .claude, .cursor, .vscode, .dsh, "
+                  ".codex y .antigravity). Configuralos igual con: openlegal integrar --todos --escribir")
+        escritos = ih.escribir_todos(detectados, carpeta_base=carpeta) if detectados else []
+        resumen = diagnostico_completo()
+        from mcp_server import TOOLS as _TOOLS_MCP
+
+        if args.json:
+            print(json.dumps({
+                "harnesses": detectados,
+                "archivos": {r.get("cliente"): r.get("ruta") for r in escritos},
+                "estado_config": [r.get("estado") for r in escritos],
+                "doctor": {"estado": resumen["estado"]},
+                "herramientas": len(_TOOLS_MCP),
+                "verificacion": "openlegal doctor",
+            }, ensure_ascii=False, indent=2))
+        else:
+            print_banner()
+            print(f"\n📦 INSTALACIÓN COMPLETA — harness configurados: {', '.join(detectados) or 'ninguno'}")
+            print(f"   {len(_TOOLS_MCP)} herramientas MCP · estado del sistema: {resumen['estado'].upper()}")
+            print("   Verificalo con: openlegal doctor\n")
+        return
+
     if args.comando == "integrar":
         from integraciones_harness import (clientes as clientes_ih, configuracion as config_ih,
                                            detectar_instalados, escribir as escribir_ih,
                                            escribir_todos as escribir_todos_ih)
+        try:
+            from mcp_server import TOOLS as _TOOLS_MCP
+            total_mcp = len(_TOOLS_MCP)
+        except Exception:  # noqa: BLE001
+            total_mcp = 85
 
         cliente = (args.query[0] if args.query else "").strip()
         if args.todos:
@@ -664,11 +701,11 @@ Ejemplos de uso:
             print(f"\n🔌 Integrando {len(detectados)} harness detectados: {', '.join(detectados)}\n")
             for resultado in escribir_todos_ih(detectados):
                 print(json.dumps(resultado, ensure_ascii=False))
-            print("\n✅ Listo. Reiniciá cada harness: tienen que verse 77 herramientas MCP.\n")
+            print(f"\n✅ Listo. Reiniciá cada harness: tienen que verse {total_mcp} herramientas MCP.\n")
             return
         if not cliente:
             print_banner()
-            print("\n🔌 INTEGRAR OPEN LEGAL CHILE EN TU HARNESS (77 herramientas MCP)\n")
+            print(f"\n🔌 INTEGRAR OPEN LEGAL CHILE EN TU HARNESS ({total_mcp} herramientas MCP)\n")
             for nombre in clientes_ih():
                 cfg = config_ih(nombre)
                 print(f" • {nombre:<12} → {cfg['ruta']}")
@@ -687,7 +724,33 @@ Ejemplos de uso:
         resultado = escribir_ih(cfg["cliente"])
         print(json.dumps(resultado, ensure_ascii=False, indent=2))
         if resultado["estado"] in ("escrito", "fusionado", "agregado"):
-            print("\n✅ Listo. Reiniciá el harness y pedile «tools/list»: tienen que verse 77 herramientas.")
+            print(f"\n✅ Listo. Reiniciá el harness y pedile «tools/list»: tienen que verse {total_mcp} herramientas.")
+        return
+
+    elif args.comando == "ocr":
+        from ocr_decision import recomendar_ocr
+
+        ruta = " ".join(args.query) if args.query else ""
+        if not ruta:
+            print("❌ Uso: openlegal ocr <ruta-del-pdf> [--contexto \"expediente con plazo corriendo\"]")
+            return
+        plan = recomendar_ocr(ruta, args.contexto or "")
+        if plan.get("error"):
+            print(f"❌ {plan['error']}")
+            return
+        print_banner()
+        print(f"\n🔍 PLAN DE OCR — {plan['documento']}")
+        print(f"   tipo: {plan['tipo_documento']} · páginas: {plan['senales']['paginas']} · "
+              f"con capa de texto: {plan['senales']['paginas_con_texto']}")
+        print(f"   recomendado: {plan['recomendado']}")
+        for alternativa in plan["alternativas"]:
+            print(f"   alternativa: {alternativa}")
+        print("\n Razonamiento:")
+        for linea in plan["razonamiento"]:
+            print(f"   • {linea}")
+        for aviso in plan["avisos"]:
+            print(f"   ⚠️  {aviso}")
+        print(f"\n Ejecutar con: {plan['como_ejecutar']['herramienta']} {plan['como_ejecutar']['argumentos']}\n")
         return
 
     elif args.comando in ("doctor", "check"):

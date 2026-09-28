@@ -128,41 +128,21 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 > **¿Deseas instalar Open Legal Chile como Plugin en 1-Click o 1-Comando?**  
 > Consulta la guía detallada en [**`PLUGINS.md`**](PLUGINS.md) para Claude Code, Cursor, VS Code, Windsurf y Smithery.ai.
 
-### Opción A: Como Plugin Nativo en Claude Code (1-Comando)
-```bash
-claude plugin add elpabloultron/open-legal-chile
-```
-*O como servidor MCP:*
-```bash
-claude mcp add open-legal-chile python3 -m openlegal mcp
-```
-
-### Opción B: Autodetección 1-Click en Cursor y VS Code / Windsurf
-1. Clona o abre la carpeta del proyecto en Cursor o VS Code:
-   ```bash
-   git clone https://github.com/elpabloultron/open-legal-chile.git
-   cursor open-legal-chile
-   ```
-2. Cursor detectará automáticamente `.cursor/mcp.json` y solicitará autorización para activar el servidor en un solo clic (**"Enable"**).
-3. En VS Code / Windsurf / Cline, `.vscode/mcp.json` activa las 84 herramientas de inmediato.
-
-### Opción C: Instalación Global vía Smithery.ai (1-Comando)
-Registro oficial: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
+### Instalación en un comando
 
 ```bash
-# Conectar servidor en clientes compatibles (Claude, Cursor, etc.):
-npx -y smithery mcp add pablobenavidesjorquera/open-legal-chile
+pip install openlegal-chile && openlegal instalar
 ```
 
-### Opción D: Instalación vía PyPI (Producción)
-```bash
-pip install openlegal-chile
-```
+`openlegal instalar` detecta tu harness en la carpeta (Claude Code, Cursor, VS Code, dsh, Codex,
+Antigravity), escribe su configuración MCP **fusionando** con lo que ya tenías (con respaldo `.bak`) y
+te deja el estado verificado con `openlegal doctor`. Para agentes, `openlegal instalar --json`
+devuelve el mismo resumen en JSON, y desde el harness está la herramienta `suite_instalar`.
 
-Y una sola línea más para que **tu harness lo vea todo** (Antigravity, Claude Code, Cursor, VS Code,
-Codex, dsh): `openlegal integrar --todos --escribir` detecta qué harness tenés y escribe su
-configuración MCP —fusionando, sin pisar tus otros servidores y con respaldo `.bak`—. El detalle por
-cliente y cómo verificarlo está en [`docs/integracion-harness.md`](docs/integracion-harness.md).
+> Las otras vías —plugin nativo de Claude Code, autodetección de Cursor / VS Code / Windsurf,
+> Smithery.ai, instalación desde el código fuente y el `mcp_config.json` de Antigravity— están en
+> [**`PLUGINS.md`**](PLUGINS.md). El detalle por cliente —y cómo verificar que el harness ve las
+> herramientas— está en [`docs/integracion-harness.md`](docs/integracion-harness.md).
 
 El paquete **incluye el corpus doctrinal** (228 documentos chilenos en Markdown: doctrina, apuntes, materiales docentes y guías de la Academia Judicial) y **el grafo de
 conocimiento ya construido**, así que `graphify_*` y `doctrina_search` funcionan sin clonar
@@ -183,28 +163,12 @@ y, si una página no rinde texto, lo advierte en vez de reportar éxito. Para ve
 openlegal doctor
 ```
 
-### Opción E: Instalación desde Código Fuente (Desarrollo)
-```bash
-git clone https://github.com/elpabloultron/open-legal-chile.git
-cd open-legal-chile
-pip install -e .
-```
+Además, `openlegal ocr <documento.pdf> [--contexto "expediente con plazo corriendo"]` recomienda
+—con razonamiento chileno— cómo extraerlo: nativo si ya trae capa de texto; si está escaneado, el
+motor y el DPI según el tipo (expediente, escritura notarial, sentencia antigua, documento
+administrativo, tabla) y doble pasada cuando hay plazos en juego (art. 66 CPC). La misma
+recomendación está en el MCP como `ocr_plan_documento`.
 
-### Opción F: Integración en Google Antigravity
-Configura tu `mcp_config.json` apuntando al repositorio:
-```json
-{
-  "mcpServers": {
-    "open-legal-chile": {
-      "command": "python3",
-      "args": ["-m", "openlegal", "mcp"],
-      "env": {
-        "PYTHONIOENCODING": "utf-8"
-      }
-    }
-  }
-}
-```
 
 ### ⚙️ Modos de Inferencia: Soberano vs. Modelos Externos
 Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin enviar datos al exterior):
@@ -221,9 +185,9 @@ Open Legal Chile opera **por defecto en Modo Soberano** (100% gratuito y sin env
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (84 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (86 Herramientas Oficiales)
 
-El servidor MCP expone **84 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **86 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
