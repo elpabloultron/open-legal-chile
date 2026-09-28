@@ -50,7 +50,10 @@ def _comandos_cli() -> set:
 
 
 def _herramientas_mcp() -> set:
+    """Los esquemas viven en servidor/<dominio>.py (mcp_server.py los ensambla en TOOLS)."""
     fuente = (RAIZ / "mcp_server.py").read_text(encoding="utf-8")
+    for modulo in sorted((RAIZ / "servidor").glob("*.py")):
+        fuente += modulo.read_text(encoding="utf-8")
     return set(re.findall(r'"name": "([a-z_0-9]+)"', fuente))
 
 
