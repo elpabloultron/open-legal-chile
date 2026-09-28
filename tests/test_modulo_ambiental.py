@@ -43,3 +43,27 @@ def test_fragmento_con_corpus_local():
     r = mod.consulta_ambiental("humedales", limite=5)
     assert r["resultados"]
     assert any(x.get("fragmento") for x in r["resultados"])
+
+
+def test_el_texto_se_lee_una_vez_por_proceso(monkeypatch):
+    """La segunda consulta no puede volver a leer el corpus: ese es el punto del caché."""
+    if not (RAIZ / "publicaciones_ambientales").exists() and not (RAIZ / "biblioteca_ambiental").exists():
+        pytest.skip("corpus local no presente (CI)")
+    mod = _modulo()
+    mod._limpiar_caches()
+    llamadas = {"n": 0}
+    original = pathlib.Path.read_text
+
+    def _cuenta(self, *a, **k):
+        if "ambientales" in str(self) or "biblioteca_ambiental" in str(self):
+            llamadas["n"] += 1
+        return original(self, *a, **k)
+    monkeypatch.setattr(pathlib.Path, "read_text", _cuenta)
+
+    r1 = mod.consulta_ambiental("humedales", limite=5)
+    primera = llamadas["n"]
+    assert primera > 0, "la primera consulta sí lee el corpus"
+
+    r2 = mod.consulta_ambiental("humedales", limite=5)
+    assert llamadas["n"] == primera, "la segunda consulta no debe releer el corpus"
+    assert r1["resultados"][0]["titulo"] == r2["resultados"][0]["titulo"]
