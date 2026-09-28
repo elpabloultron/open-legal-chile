@@ -12,8 +12,8 @@ externo: es una biblioteca del paquete, con sus herramientas MCP y su comando de
 2. **Ingesta** — `LegalGraphifyEngine.construir_grafo_desde_doctrina()` lee el corpus y extrae
    instituciones, normas (`norm_label`), obras, autores y vías procesales;
    `scripts/integrar_jurisprudencia_al_grafo.py` suma la jurisprudencia al mismo grafo.
-3. **Comunidades y jerarquía** — Louvain sobre las aristas → **27 comunidades** (modularidad
-   **0,682**) y PageRank → «god nodes»: pilares dogmáticos y normas centrales.
+3. **Comunidades y jerarquía** — Louvain sobre las aristas → **52 comunidades** (modularidad
+   **0,641**) y PageRank → «god nodes»: pilares dogmáticos y normas centrales.
 4. **Consulta en lenguaje natural** — el harness pide un subgrafo o una explicación y recibe una
    ficha hiper-densa con citas verificables, en vez de leer la obra completa.
 

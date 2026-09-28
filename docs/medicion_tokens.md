@@ -1,6 +1,6 @@
 # Medición del ahorro de tokens de LegalGraphify
 
-*Generado por `scripts/medir_ahorro_tokens.py` el 2026-09-25 20:22 UTC (PYTHONHASHSEED=0).*
+*Generado por `scripts/medir_ahorro_tokens.py` el 2026-09-28 16:12 UTC (PYTHONHASHSEED=0).*
 
 ## Método
 
@@ -16,7 +16,7 @@
 - **Ahorro (%):** `(texto_completo - subgrafo) / texto_completo * 100`.
 
 Ambos números los calcula el motor (`legal_graphify.py`, campo `metricas_tokens`);
-este script solo los recorre y los tabula. El grafo medido tiene 12973 nodos y 28346 aristas.
+este script solo los recorre y los tabula. El grafo medido tiene 14050 nodos y 31017 aristas.
 
 **Qué NO se mide.**
 
