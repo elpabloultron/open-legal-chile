@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-28 14:25",
+  "python": "3.13.15",
+  "plataforma": "Linux-7.2.8-1-cachyos-x86_64-with-glibc2.44",
+  "mediciones": [
+    {
+      "medicion": "import mcp_server",
+      "segundos": 0.48,
+      "detalle": "arranque en proceso nuevo: 361 ms (decisión 2026-09-28: sin arranque perezoso, YAGNI)"
+    },
+    {
+      "medicion": "grafo (carga + subgrafo)",
+      "segundos": 0.35,
+      "detalle": "14,050 nodos · subgrafo ok"
+    },
+    {
+      "medicion": "fts trigram (200k líneas)",
+      "segundos": 1.443,
+      "detalle": "200k líneas · indexado 1.11 s · consulta 1 ms (1 resultado)",
+      "segundos_indexado": 1.114,
+      "ms_consulta": 1
+    },
+    {
+      "medicion": "consulta ambiental (fría/caliente)",
+      "segundos": 4.645,
+      "detalle": "1ª 4.51 s (fría) · 2ª 0.13 s (caliente) · 5 y 5 resultados",
+      "segundos_fria": 4.51,
+      "segundos_caliente": 0.13
+    },
+    {
+      "medicion": "consulta_maestra (armado)",
+      "segundos": 0.277,
+      "detalle": "armado sin red · faltantes: ['huggingface', 'doctrina', 'normas']"
+    }
+  ]
+}

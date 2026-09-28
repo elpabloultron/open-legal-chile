@@ -662,6 +662,7 @@ python3 -m pytest tests/ -v
 * **`.github/workflows/ci.yml`:** Matriz de integración continua en Ubuntu y Windows probando Python 3.10, 3.11, 3.12, 3.13 y 3.14.
 * **`.github/workflows/audit.yml`:** Auditoría de seguridad y calidad estricta en cada commit y Pull Request.
 * **`.github/workflows/state-api-monitor.yml`:** Monitor programado diario que verifica la disponibilidad y tiempos de respuesta de los portales del Estado de Chile.
+* **`scripts/bench_rendimiento.py`:** Benchmarks versionados (arranque MCP, carga del grafo, FTS trigram, consulta ambiental y `consulta_maestra`) que escriben su serie en [`docs/bench_rendimiento.md`](docs/bench_rendimiento.md); `--comparar` imprime los deltas contra la corrida guardada.
 
 ---
 
