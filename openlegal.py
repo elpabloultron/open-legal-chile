@@ -667,7 +667,7 @@ Ejemplos de uso:
         if args.json:
             print(json.dumps({
                 "harnesses": detectados,
-                "archivos": {r.get("cliente"): r.get("ruta") for r in escritos},
+                "archivos": {r.get("cliente"): r.get("archivo") for r in escritos},
                 "estado_config": [r.get("estado") for r in escritos],
                 "doctor": {"estado": resumen["estado"]},
                 "herramientas": len(_TOOLS_MCP),
