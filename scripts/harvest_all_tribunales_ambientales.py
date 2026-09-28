@@ -34,6 +34,17 @@ def clean_text(text: str) -> str:
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
+def limpiar_url_pdf(url: str) -> str:
+    """Sanea un href de PDF antes de guardarlo: el HTML malformado del sitio deja colas
+    como «"» o «target=» pegadas a la URL, y a veces «.pdff». Corta en el primer .pdf."""
+    m = re.search(r"(https?://[^\s\"'<>]+?\.pdff?)", url or "", re.I)
+    if m:
+        limpia = m.group(1)
+        if limpia.lower().endswith(".pdff"):
+            limpia = limpia[:-1]  # el doble f es artefacto de parseo, no del archivo
+        return limpia
+    return (url or "").strip().strip("\"'")
+
 def harvest_1ta() -> list:
     print("[1TA] Cosechando Primer Tribunal Ambiental (Antofagasta)...")
     sentencias_1ta = []
@@ -107,7 +118,7 @@ def harvest_2ta() -> list:
                 pdf_url = "https://tribunalambiental.cl"
                 expediente_url = "https://causas.tribunalambiental.cl"
                 for a in links:
-                    h = str(a.get("href", ""))
+                    h = limpiar_url_pdf(str(a.get("href", "")))
                     if ".pdf" in h.lower():
                         pdf_url = h
                     elif "causas.tribunalambiental.cl" in h:
@@ -200,7 +211,7 @@ def harvest_3ta() -> list:
                 pdf_url = "https://3ta.cl"
                 expediente_url = "https://causas.3ta.cl"
                 for a in tr.find_all("a", href=True):
-                    h = str(a.get("href", ""))
+                    h = limpiar_url_pdf(str(a.get("href", "")))
                     if ".pdf" in h.lower():
                         pdf_url = h
                     elif "causas.3ta.cl" in h:

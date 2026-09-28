@@ -196,6 +196,21 @@ def main() -> int:
     with open(SENTENCIAS, "w", encoding="utf-8") as f:
         for reg in filas:
             f.write(json.dumps(reg, ensure_ascii=False) + "\n")
+    total_completo, total_fichas = escribir_salidas(filas)
+    print(f"══ listo: {ok} con texto íntegro · {fichas} fichas · {saltadas} ya estaban · "
+          f"{fallidas} con problema")
+    print(f"   → {DIR_MD} · índice: {INDICE} · README: README.md · "
+          f"texto íntegro {total_completo} · fichas {total_fichas}")
+    return 0
+
+
+def escribir_salidas(filas: list) -> tuple[int, int]:
+    """Regenera el índice y el README de la colección desde las filas del registro.
+
+    Se separa de main para que una recuperación puntual (p. ej. una URL que quedó sucia
+    en la cosecha) pueda volver a escribir las salidas sin recorrer las 886 de nuevo.
+    Devuelve (con texto íntegro, fichas).
+    """
     with open(INDICE, "w", encoding="utf-8") as f:
         for reg in filas:
             if reg.get("archivo_md"):
@@ -206,8 +221,6 @@ def main() -> int:
                     "tokens_aprox": reg.get("tokens_aprox"), "metodo": reg.get("metodo"),
                     "url_pdf": reg.get("url_pdf"),
                 }, ensure_ascii=False) + "\n")
-    print(f"══ listo: {ok} con texto íntegro · {fichas} fichas · {saltadas} ya estaban · "
-          f"{fallidas} con problema")
 
     conteo: dict[str, list[int]] = {}
     for reg in filas:
@@ -219,7 +232,8 @@ def main() -> int:
     total_fichas = sum(p[1] for p in conteo.values())
     readme = DIR_MD / "README.md"
     filas_readme = "\n".join(
-        f"- {nombre}: {p[0]} con texto íntegro · {p[1]} fichas" for nombre, p in sorted(conteo.items()))
+        f"- {nombre}: {p[0]} con texto íntegro · {p[1]} "
+        f"{'ficha' if p[1] == 1 else 'fichas'}" for nombre, p in sorted(conteo.items()))
     readme.write_text(
         "# Jurisprudencia ambiental\n\n"
         f"{total_completo + total_fichas} sentencias de los Tribunales Ambientales (1TA, 2TA y 3TA):\n"
@@ -230,9 +244,7 @@ def main() -> int:
         "- Cita: `[Hugging Face - jurisprudencia_ambiental/<tribunal>/<rol>.md]`\n"
         "- Fuente: portales de los Tribunales Ambientales de Chile (documentos públicos).\n",
         encoding="utf-8")
-    print(f"   → {DIR_MD} · índice: {INDICE} · README: {readme.name} · "
-          f"texto íntegro {total_completo} · fichas {total_fichas}")
-    return 0
+    return total_completo, total_fichas
 
 
 if __name__ == "__main__":
