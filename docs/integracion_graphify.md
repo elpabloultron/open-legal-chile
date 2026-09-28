@@ -52,3 +52,23 @@ salida. Por eso: se instala la versión publicada, se ejecuta `graphify update .
 `graphify-out/`, y el grafo jurídico se integra con `integrar_con_graphify()`. Si algún día hace
 falta la estructura modular de Graphify dentro de este proyecto, se rehace aquí, con la API en
 español y las pruebas de esta suite como red — no al revés.
+
+## El gemelo `legal-graphify`: archivado, y nada de valor vive sólo allí
+
+El repositorio `elpabloultron/legal-graphify` quedó **archivado el 18-09-2026** (público, 0
+estrellas, 0 forks) y su README ya apunta acá. **No se toca**: todo se hace en open-legal-chile.
+
+Paridad verificada función por función (27-09-2026):
+
+| Pieza del gemelo | Dónde vive hoy en open-legal-chile |
+|---|---|
+| `core/engine.py`, `reasoning.py`, `centrality.py` | `legal_graphify.py`: `consultar_subgrafo()`, `encontrar_camino()`, `explicar_institucion()`, `analizar_impacto_normativo()`, `calcular_god_nodes()` |
+| `mermaid.py` | `exportar_subgrafo_mermaid()` |
+| extractores bcn / doc2md / doctrine | `bcn_connector`, `doc2md_ingestor`, `doctrina_connector` |
+| `agents/doc2md_agent.py` | `agente-ingestor` |
+| `cli.py` / `server.py` | `openlegal graph` + las 6 herramientas `graphify_*` del MCP |
+| `benchmark_token_savings.py` | `scripts/medir_ahorro_tokens.py` + `docs/medicion_tokens.md` (99,9 % medido) |
+| parser de artículos (lo único irrepetible) | rescatado como `extract_articulos_de_codigo()` / `ingerir_codigo_bcn()`, ya arreglado |
+
+Su propio README admite que su `data/legal_knowledge_graph.json` era un artefacto de este proyecto
+que no podía reconstruir: **947 nodos / 1.215 aristas** frente a los **13.938 / 30.746** de acá.
