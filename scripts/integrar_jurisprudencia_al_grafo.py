@@ -293,6 +293,11 @@ def main() -> int:
     grafo["nodes"] = nodos
     grafo["edges"] = aristas
     grafo["links"] = aristas
+    # 3d · la metadata del grafo se refresca al escribir: sin esto, `graph.total_nodes/total_edges`
+    # conservaba los conteos de la generación anterior (12.973/28.346 con 14.050/31.017 reales).
+    meta = grafo.setdefault("graph", {})
+    meta["total_nodes"] = len(nodos)
+    meta["total_edges"] = len(aristas)
     GRAFO.write_text(json.dumps(grafo, ensure_ascii=False), encoding="utf-8")
     print(f"══ grafo final: {len(nodos):,} nodos · {len(aristas):,} aristas · {comunidades or '?'} comunidades")
     print(f"   respaldo previo: {respaldo}")

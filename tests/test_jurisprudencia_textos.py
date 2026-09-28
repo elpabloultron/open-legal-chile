@@ -78,3 +78,17 @@ def test_el_publicador_separa_el_dataset_de_entrenamiento():
         "el dataset principal no debe volver a subir las versiones plenas"
     assert '"data/train.jsonl", "data/instituciones.jsonl"' in fuente, \
         "el publicador debe retirar del dataset principal las versiones plenas si estaban"
+
+
+def test_la_metadata_del_grafo_esta_alineada_con_sus_listas():
+    """El integrador refresca `graph.total_nodes/total_edges` al escribir el archivo.
+
+    Sin ese refresco, la metadata del grafo publicado conservaba los conteos de la
+    generación anterior (12.973/28.346 con 14.050/31.017 reales en el momento del arreglo).
+    """
+    grafo = json.loads(GRAFO.read_text(encoding="utf-8"))
+    meta = grafo.get("graph", {})
+    assert meta.get("total_nodes") == len(grafo["nodes"]), \
+        "graph.total_nodes debe igualar a la lista real de nodos"
+    assert meta.get("total_edges") == len(grafo["edges"]), \
+        "graph.total_edges debe igualar a la lista real de aristas"
