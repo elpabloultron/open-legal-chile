@@ -1496,8 +1496,16 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
         if destino.suffix == ".jsonl":
             if destino.stat().st_size > _TAMANO_MAX_JSONL:
                 return ""
-            lineas: List[str] = []
             agujas = [_normalizar_para_buscar(t).lower() for t in (tokens or []) if len(t) > 2]
+            try:
+                import hf_cache_index
+                lineas = hf_cache_index.buscar(
+                    destino, agujas, maximo=20, transformar=_linea_jsonl_legible,
+                    normalizar=lambda t: _normalizar_para_buscar(t).lower())
+                return "\n".join(lineas)
+            except Exception:  # noqa: BLE001 — el índice es una optimización, no un requisito
+                pass
+            lineas = []
             with destino.open(encoding="utf-8", errors="ignore") as f:
                 for i, linea in enumerate(f):
                     if i > 200_000:
