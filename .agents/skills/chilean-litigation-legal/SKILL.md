@@ -152,3 +152,13 @@ Todo informe en derecho describe **los hechos del caso**, cita **ley, doctrina y
 **transcribe íntegro en el cuerpo el artículo de cada norma citada**, con su cita `[BCN - …]` y su
 enlace; el bloque `Fuentes:` cierra el documento. Se genera con `generar_documento` tipo `informe`
 (entregable Word). Una cita sin su texto literal no es citable: va «sin fuente verificable».
+
+Además de los hechos (obligatorios), el informe exige el **análisis jurídico** (`analisis`): la
+subsunción de los hechos en las normas es el cuerpo del documento — sin él, `generar_documento`
+devuelve error. La **jurisprudencia y la doctrina se buscan solas en el material local** cuando no
+se las entrega: sentencias de los Tribunales Ambientales (886), fallos de la Corte Suprema (más de
+70.000 de los últimos dos años, vía `pjud_search_jurisprudencia`), TC (966), biblioteca ambiental y
+corpus canónico. Los fallos con texto completo en disco (TC, 2TA/3TA) se citan con su **pasaje
+literal**; las fichas de la Corte Suprema (~1 KB) se citan con rol, fecha y enlace — nunca se
+inventa texto. Entregable: Word **A4 u oficio, texto justificado, sin saltos de página** (doble
+espaciado entre capítulos).
