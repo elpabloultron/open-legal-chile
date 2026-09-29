@@ -1,5 +1,5 @@
 """Herramientas del corpus: consulta maestra, doctrina, grafo de conocimiento y biblioteca."""
-from typing import TYPE_CHECKING, Any
+from typing import TYPE_CHECKING, Any, Optional
 
 if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de mcp_server
     from mcp_server import (
@@ -337,8 +337,12 @@ TOOLS = [
 ]
 
 
-def _cita_de_norma(cliente: Any, norma: dict) -> dict:
-    """Resuelve el texto literal de una norma ya identificada: cita lista o error declarado."""
+def _cita_de_norma(cliente: Any, norma: dict, limite: Optional[int] = 1200) -> dict:
+    """Resuelve el texto literal de una norma ya identificada: cita lista o error declarado.
+
+    `limite=None` entrega el texto COMPLETO (para documentos); por defecto recorta a 1200
+    caracteres, que es lo correcto para una respuesta de conversación.
+    """
     try:
         if norma["familia"] == "codigo":
             dato = cliente.get_codigo(norma["obra"], norma["articulo"])
@@ -360,10 +364,11 @@ def _cita_de_norma(cliente: Any, norma: dict) -> dict:
     if not texto:
         return {"error": "La fuente respondió sin texto: no se cita lo que no se pudo leer.",
                 "sin_fuente_verificable": True, "detalle": str(dato)[:300]}
-    return {"cita": formatear_cita("BCN", ident, url=url, texto=texto[:1200])}
+    recorte = texto if limite is None else texto[:limite]
+    return {"cita": formatear_cita("BCN", ident, url=url, texto=recorte)}
 
 
-def _citas_por_lote(referencias: list) -> dict:
+def _citas_por_lote(referencias: list, limite: Optional[int] = 1200) -> dict:
     """Verifica varias normas en una sola llamada: una pasada de red por norma única.
 
     Los artículos de una misma ley comparten descarga (detección → dedupe → pool de 6) y lo
@@ -420,7 +425,7 @@ def _citas_por_lote(referencias: list) -> dict:
                                "error": f"No pude traer el texto: {errores[clave]}",
                                "sin_fuente_verificable": True})
             continue
-        resultados.append({"referencia": referencia, **_cita_de_norma(cliente, norma)})
+        resultados.append({"referencia": referencia, **_cita_de_norma(cliente, norma, limite=limite)})
 
     citas = [r["cita"] for r in resultados if "cita" in r]
     faltantes = [r["referencia"] for r in resultados if "error" in r]
