@@ -96,3 +96,45 @@ def test_el_separador_es_doble_espaciado_y_no_salto_de_pagina(tmp_path):
               if b.get(qn("w:type")) == "page"]
     assert saltos == [], "el separador no puede generar páginas en blanco"
     assert any(p.text == "" for p in documento.paragraphs), "el separador deja el doble espaciado"
+
+
+def test_el_docx_va_en_a4_y_con_el_cuerpo_justificado(tmp_path):
+    """Regla del usuario: tamaño A4 y texto justificado (el cuerpo y las citas), no carta gringa."""
+    from docx.enum.text import WD_ALIGN_PARAGRAPH
+    from docx.shared import Cm
+
+    from docx_compiler import WordDossierCompiler
+
+    salida = tmp_path / "a4.docx"
+    res = WordDossierCompiler().compile(
+        "# INFORME\n\nEl contrato debe ejecutarse de buena fe.\n\n> «La buena fe es el alma de los contratos.»",
+        str(salida))
+    assert res["ok"], res
+
+    from docx import Document
+
+    documento = Document(str(salida))
+    seccion = documento.sections[0]
+    assert abs(seccion.page_width - Cm(21)) <= 635, seccion.page_width  # twips: tolerancia de 1 twip
+    assert abs(seccion.page_height - Cm(29.7)) <= 635, seccion.page_height
+    cuerpo = [p for p in documento.paragraphs if "buena fe" in p.text]
+    assert cuerpo, [p.text for p in documento.paragraphs]
+    assert all(p.alignment == WD_ALIGN_PARAGRAPH.JUSTIFY for p in cuerpo), \
+        "el cuerpo y las citas van justificados"
+
+
+def test_el_docx_acepta_tamano_oficio(tmp_path):
+    """Variante pedida por el usuario: oficio chileno (21,59 × 33,02 cm)."""
+    from docx.shared import Cm
+
+    from docx_compiler import WordDossierCompiler
+
+    salida = tmp_path / "oficio.docx"
+    res = WordDossierCompiler().compile("Texto\n", str(salida), tamano="oficio")
+    assert res["ok"], res
+
+    from docx import Document
+
+    seccion = Document(str(salida)).sections[0]
+    assert abs(seccion.page_width - Cm(21.59)) <= 635, seccion.page_width
+    assert abs(seccion.page_height - Cm(33.02)) <= 635, seccion.page_height
