@@ -80,3 +80,23 @@ def test_lote_documentado_en_el_esquema():
     propiedades = herramienta["inputSchema"]["properties"]
     assert "referencias" in propiedades
     assert propiedades["referencias"]["type"] == "array"
+
+
+def test_lote_sin_recorte_para_documentos(monkeypatch):
+    """Con `limite=None` el lote entrega el texto completo (documentos); por defecto, recorta."""
+    import servidor.corpus as corpus
+
+    class _FakeBCN:
+        def get_codigo(self, obra, articulo=None):
+            return {"texto": "N" * 5000, "normaId": "1"}
+
+        def get_ley(self, numero):
+            return {"texto": "N" * 5000, "normaId": "2"}
+
+    monkeypatch.setattr(corpus, "_bcn_para_citas", lambda: _FakeBCN())
+
+    largo = corpus._citas_por_lote(["Código Civil art. 1545"], limite=None)
+    corto = corpus._citas_por_lote(["Código Civil art. 1545"])
+
+    assert len(largo["citas"][0]["texto"]) == 5000
+    assert len(corto["citas"][0]["texto"]) == 1200
