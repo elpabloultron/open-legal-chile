@@ -135,3 +135,33 @@ def test_skill_ver_avisa_cuando_no_existe():
     res = mcp_server.handle_tool_call("skill_ver", {"nombre": "skill-inexistente"})
 
     assert "error" in res
+
+
+def test_generar_documento_informe_transcribe_normas(tmp_path, monkeypatch):
+    """El tipo «informe» arma el informe en derecho y entrega Word, con las normas transcritas."""
+    import informe_derecho
+
+    monkeypatch.setattr(informe_derecho, "EXPORTS_DIR", str(tmp_path))
+    monkeypatch.setattr(
+        informe_derecho, "_textos_de_normas",
+        lambda referencias: {"citas": [{"formato": "[BCN - Código Civil, Art. 1545]",
+                                        "texto": "LOS CONTRATOS DEBEN EJECUTARSE DE BUENA FE " * 4,
+                                        "url": "https://www.bcn.cl/x",
+                                        "cita_completa": "[BCN - Código Civil, Art. 1545] https://www.bcn.cl/x"}],
+                             "faltantes": []})
+    monkeypatch.setattr(informe_derecho, "_doctrina_para", lambda termino, limite=3: [])
+
+    res = mcp_server.handle_tool_call("generar_documento", {
+        "tipo": "informe",
+        "objeto": "¿Es procedente la acción por incumplimiento contractual?",
+        "hechos": ("1. Las partes celebraron un contrato de prestación de servicios. "
+                   "2. La demandada no pagó las facturas vencidas. "
+                   "3. Se irrogaron perjuicios que se avaluarán en ejecución."),
+        "normas": ["Código Civil art. 1545"],
+        "peticiones": "Se acoja la acción en todas sus partes.",
+    })
+
+    assert res["entregable"] == "word", res
+    ruta = pathlib.Path(res["archivos"]["docxPath"])
+    assert ruta.exists() and ruta.suffix == ".docx"
+    assert res["citas"] and res["citas"][0]["formato"] == "[BCN - Código Civil, Art. 1545]"
