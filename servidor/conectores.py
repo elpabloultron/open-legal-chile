@@ -284,7 +284,7 @@ TOOLS = [
     },
     {
         "name": "pjud_search_jurisprudencia",
-        "description": "Busca sentencias y fallos rectores de la Corte Suprema (Unificación Laboral, Constitucional, Civil) y Tribunal Constitucional (TC).",
+        "description": "Busca jurisprudencia en el corpus local cosechado —70.523 sentencias de la Corte Suprema de los últimos dos años, 966 del Tribunal Constitucional y los fallos rectores CS/TC— por carátula, materia, recurso, resultado y doctrina; insensible a acentos.",
         "inputSchema": {
             "type": "object",
             "properties": {

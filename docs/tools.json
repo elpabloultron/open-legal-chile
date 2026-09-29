@@ -282,7 +282,7 @@
   },
   {
     "name": "pjud_search_jurisprudencia",
-    "description": "Busca sentencias y fallos rectores de la Corte Suprema (Unificación Laboral, Constitucional, Civil) y Tribunal Constitucional (TC).",
+    "description": "Busca jurisprudencia en el corpus local cosechado —70.523 sentencias de la Corte Suprema de los últimos dos años, 966 del Tribunal Constitucional y los fallos rectores CS/TC— por carátula, materia, recurso, resultado y doctrina; insensible a acentos.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -1799,7 +1799,7 @@
   },
   {
     "name": "generar_documento",
-    "description": "Genera un documento de trabajo completo y lo entrega en Word (.docx editable) más HTML/MD/TXT/JSON. Tipos: demanda civil, recurso de protección, demanda laboral, contrato PPA, o «informe» — el informe en derecho: describe los hechos del caso, transcribe ÍNTEGRO el artículo de cada norma citada (con su cita y enlace) e incorpora doctrina y jurisprudencia. Regla del producto: no se cita sin texto.",
+    "description": "Genera un documento de trabajo completo y lo entrega en Word (.docx editable, hoja A4, texto justificado) más HTML/MD/TXT/JSON. Tipos: demanda civil, recurso de protección, demanda laboral, contrato PPA, o «informe» — el informe en derecho EXTENSO: describe los hechos del caso, desarrolla el análisis jurídico y transcribe ÍNTEGRO el artículo de cada norma citada (con su cita y enlace); la doctrina y la jurisprudencia se buscan solas en el material local (sentencias TA, biblioteca ambiental, fallos rectores CS/TC) cuando no se las entregan. Regla del producto: no se cita sin texto.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -1842,7 +1842,11 @@
         },
         "hechos": {
           "type": "string",
-          "description": "Los hechos del caso (obligatorio; el informe los describe)"
+          "description": "Los hechos del caso — narración extensa (fechas, conductas, circunstancias, perjuicios)"
+        },
+        "analisis": {
+          "type": "string",
+          "description": "Informe: el análisis jurídico extenso (subsunción de los hechos en las normas, contraargumentos) — es el cuerpo del informe"
         },
         "derecho": {
           "type": "string"
