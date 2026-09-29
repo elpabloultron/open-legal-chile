@@ -4,9 +4,34 @@ Inspirado en el sistema de auto-crítica de 5 dimensiones de Open Design, adapta
 estrictamente para el Ordenamiento Jurídico de la República de Chile (Civil Law).
 """
 
+import re
 import sys
 from typing import Dict, Any, Optional
 from chat_engine import LegalChatEngine
+
+
+def _descripcion_de_hechos(texto: str) -> str:
+    """El bloque de hechos del documento ('' si no hay capítulo identificable)."""
+    encabezado = re.search(r"(?im)^[^\n]{0,80}\bhechos\b[^\n]{0,80}$", texto)
+    if not encabezado:
+        return ""
+    resto = texto[encabezado.end():]
+    corte = re.search(
+        r"(?im)^[^\n]{0,80}\b(?:derecho|marco normativo|doctrina|jurisprudencia|por tanto|"
+        r"peticiones|dictamen|fundamentos)\b[^\n]{0,80}$", resto)
+    return resto[: corte.start()] if corte else resto[:3000]
+
+
+def _citas_sin_transcripcion(texto: str) -> list:
+    """Las normas citadas que no vienen acompañadas de su texto literal (transcripción)."""
+    from citas_legales import detectar_normas
+
+    normas = detectar_normas(texto)
+    if not normas:
+        return []
+    if re.search(r"«[^»]{80,}»", texto):
+        return []
+    return [n.get("etiqueta", "") for n in normas]
 
 CRITIQUE_SYSTEM_PROMPT = """Eres el Auditor Forense Principal de Open Legal Chile.
 Tu misión es auditar y criticar exhaustivamente un escrito judicial, contrato o dictamen
@@ -20,6 +45,8 @@ bajo el Derecho Continental Chileno (Civil Law) a través de 5 dimensiones estri
 2. DOCTRINA Y JURISPRUDENCIA APLICABLE (CGR, DT, CS, C.A., TDLC):
    - ¿Se incorpora la doctrina administrativa vinculante o judicial relevante?
    - ¿Se cita correctamente el formato [BCN - ...], [Dictamen DT N° X/AAAA], [Dictamen CGR N° X (AAAA)], [CS - Rol N° ..., Fecha: ...]?
+   - Toda norma citada viaja con su TEXTO LITERAL transcrito en el cuerpo del documento; una cita
+     sin texto es un hallazgo («sin fuente verificable» si no se pudo traer).
 
 3. ESTRUCTURA FORENSE Y TRAMITACIÓN DIGITAL (Ley 20.886 / CPC):
    - ¿Cumple con la Presuma OJV, comparecencia, capítulos de Hechos y Derecho, Por Tanto y Otrosíes?
@@ -72,6 +99,14 @@ class LegalCritiqueEngine:
         else:
             d1_findings.append("Cumplimiento estricto de terminología de Derecho Continental (Civil Law).")
 
+        # Transcripción: regla del producto — la norma citada viaja con su texto literal en el cuerpo.
+        normas_sin_texto = _citas_sin_transcripcion(text)
+        if normas_sin_texto:
+            d1_score = max(1, d1_score - 2)
+            d1_findings.append(
+                "Se citan normas sin transcribir su texto literal en el cuerpo "
+                f"({', '.join(normas_sin_texto[:3])}): transcripción completa + cita, no solo la cita.")
+
         d1_score = max(1, min(10, d1_score))
 
         # --- Dimensión 2: Doctrina y Jurisprudencia Aplicable ---
@@ -113,6 +148,19 @@ class LegalCritiqueEngine:
             d3_findings.append(f"Estructura procesal OJV identificada: {', '.join(elementos_ojv)}.")
         else:
             d3_findings.append(f"Estructura procesal incompleta para OJV. Solo contiene: {', '.join(elementos_ojv) if elementos_ojv else 'Formato libre'}.")
+
+        # Hechos del caso: un informe no puede no describirlos.
+        bloque_hechos = _descripcion_de_hechos(text)
+        if not bloque_hechos:
+            d3_score = max(1, d3_score - 2)
+            d3_findings.append("No se describe un capítulo de hechos del caso: el informe debe "
+                               "relatar los hechos (fechas, conductas, circunstancias).")
+        elif len(bloque_hechos.strip()) < 300:
+            d3_score = max(1, d3_score - 1)
+            d3_findings.append(f"Los hechos están descritos de manera insuficiente "
+                               f"({len(bloque_hechos.strip())} caracteres).")
+        else:
+            d3_findings.append("Capítulo de hechos presente y desarrollado.")
 
         d3_score = max(1, min(10, d3_score))
 
