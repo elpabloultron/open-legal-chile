@@ -111,6 +111,7 @@ py-modules = [
     "grafo_vista",
     "hf_cache_index",
     "infoprobidad_connector",
+    "informe_derecho",
     "ingesta_fuentes",
     "integraciones_harness",
     "legal_graphify",
