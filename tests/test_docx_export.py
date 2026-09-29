@@ -61,3 +61,20 @@ def test_el_servidor_expone_el_compilador_word():
                             for p in sorted((RAIZ / "servidor").glob("*.py")))
     assert todo.count('res_final["word_document"] = word_compiler.compile(') == 1
     assert todo.count('res_comp["word_document"] = word_compiler.compile(') == 1
+
+
+def test_cita_literal_del_informe_llega_al_docx(tmp_path):
+    """La transcripción «…» de una norma entra al Word como bloque citado en cursiva."""
+    from docx_compiler import WordDossierCompiler
+
+    salida = tmp_path / "informe.docx"
+    res = WordDossierCompiler().compile(
+        "# INFORME\n> «Los contratos deben ejecutarse de buena fe.»", str(salida))
+
+    assert res["ok"], res
+    from docx import Document
+
+    documento = Document(str(salida))
+    con_cita = [p for p in documento.paragraphs if "buena fe" in p.text]
+    assert con_cita, [p.text for p in documento.paragraphs]
+    assert any(r.italic for p in con_cita for r in p.runs), "la cita literal va en cursiva (bloque citado)"
