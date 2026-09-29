@@ -97,10 +97,12 @@ TOOLS = [
     },
     {
         "name": "generar_documento",
-        "description": "Genera un documento de trabajo completo y lo entrega en Word (.docx editable) más HTML/MD/TXT/JSON. "
-                       "Tipos: demanda civil, recurso de protección, demanda laboral, contrato PPA, o «informe» — el informe "
-                       "en derecho: describe los hechos del caso, transcribe ÍNTEGRO el artículo de cada norma citada "
-                       "(con su cita y enlace) e incorpora doctrina y jurisprudencia. Regla del producto: no se cita sin texto.",
+        "description": "Genera un documento de trabajo completo y lo entrega en Word (.docx editable, hoja A4, texto "
+                       "justificado) más HTML/MD/TXT/JSON. Tipos: demanda civil, recurso de protección, demanda laboral, "
+                       "contrato PPA, o «informe» — el informe en derecho EXTENSO: describe los hechos del caso, desarrolla "
+                       "el análisis jurídico y transcribe ÍNTEGRO el artículo de cada norma citada (con su cita y enlace); "
+                       "la doctrina y la jurisprudencia se buscan solas en el material local (sentencias TA, biblioteca "
+                       "ambiental, fallos rectores CS/TC) cuando no se las entregan. Regla del producto: no se cita sin texto.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -113,7 +115,8 @@ TOOLS = [
                 "objeto": {"type": "string", "description": "Informe: la cuestión jurídica planteada (obligatoria)"},
                 "materia": {"type": "string", "description": "Informe: materia (laboral, civil, ambiental…)"},
                 "caso": {"type": "string", "description": "Informe: identificación del caso"},
-                "hechos": {"type": "string", "description": "Los hechos del caso (obligatorio; el informe los describe)"},
+                "hechos": {"type": "string", "description": "Los hechos del caso — narración extensa (fechas, conductas, circunstancias, perjuicios)"},
+                "analisis": {"type": "string", "description": "Informe: el análisis jurídico extenso (subsunción de los hechos en las normas, contraargumentos) — es el cuerpo del informe"},
                 "derecho": {"type": "string"},
                 "normas": {"type": "array", "items": {"type": "string"},
                            "description": "Informe: normas a transcribir («Código Civil art. 1545»); las mencionadas en los textos se detectan solas"},
@@ -463,6 +466,7 @@ def despachar(name: str, args: dict) -> Any:
             return exportar_informe_en_derecho(
                 objeto=str(args.get("objeto") or ""),
                 hechos=args.get("hechos") or "",
+                analisis=str(args.get("analisis") or ""),
                 dictamen=str(args.get("dictamen") or args.get("peticiones") or ""),
                 materia=str(args.get("materia") or ""),
                 caso=str(args.get("caso") or ""),

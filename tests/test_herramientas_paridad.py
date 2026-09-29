@@ -149,7 +149,9 @@ def test_generar_documento_informe_transcribe_normas(tmp_path, monkeypatch):
                                         "url": "https://www.bcn.cl/x",
                                         "cita_completa": "[BCN - Código Civil, Art. 1545] https://www.bcn.cl/x"}],
                              "faltantes": []})
-    monkeypatch.setattr(informe_derecho, "_doctrina_para", lambda termino, limite=3: [])
+    monkeypatch.setattr(informe_derecho, "_doctrina_para", lambda termino, limite=5: [])
+    monkeypatch.setattr(informe_derecho, "_material_local",
+                        lambda consulta, limite=8: {"jurisprudencia": [], "doctrina": []})
 
     res = mcp_server.handle_tool_call("generar_documento", {
         "tipo": "informe",
@@ -157,6 +159,9 @@ def test_generar_documento_informe_transcribe_normas(tmp_path, monkeypatch):
         "hechos": ("1. Las partes celebraron un contrato de prestación de servicios. "
                    "2. La demandada no pagó las facturas vencidas. "
                    "3. Se irrogaron perjuicios que se avaluarán en ejecución."),
+        "analisis": ("El artículo 1545 del Código Civil consagra la fuerza obligatoria del contrato, de "
+                     "modo que el incumplimiento imputable habilita demandar la resolución o el cumplimiento "
+                     "forzado, más la indemnización de los perjuicios que se acrediten en el proceso."),
         "normas": ["Código Civil art. 1545"],
         "peticiones": "Se acoja la acción en todas sus partes.",
     })
