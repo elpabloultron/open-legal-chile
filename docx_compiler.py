@@ -65,6 +65,12 @@ class WordDossierCompiler:
             documento.add_heading(despojado[2:].strip(), level=0)
         elif despojado in {"---", "***", "___"}:
             documento.add_page_break()
+        elif despojado.startswith("> "):
+            parrafo = documento.add_paragraph()
+            parrafo.paragraph_format.left_indent = Pt(28)
+            self._runs_con_formato(parrafo, despojado[2:].strip())
+            for run in parrafo.runs:
+                run.italic = True
         elif despojado.startswith(("- ", "* ")) and len(despojado) > 2:
             parrafo = documento.add_paragraph(style="List Bullet")
             self._runs_con_formato(parrafo, despojado[2:].strip())
