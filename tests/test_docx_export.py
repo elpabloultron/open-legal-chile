@@ -78,3 +78,21 @@ def test_cita_literal_del_informe_llega_al_docx(tmp_path):
     con_cita = [p for p in documento.paragraphs if "buena fe" in p.text]
     assert con_cita, [p.text for p in documento.paragraphs]
     assert any(r.italic for p in con_cita for r in p.runs), "la cita literal va en cursiva (bloque citado)"
+
+
+def test_el_separador_es_doble_espaciado_y_no_salto_de_pagina(tmp_path):
+    """Regla del usuario: nada de páginas en blanco; un doble espaciado separa capítulos."""
+    from docx_compiler import WordDossierCompiler
+    from docx.oxml.ns import qn
+
+    salida = tmp_path / "sin_saltos.docx"
+    res = WordDossierCompiler().compile("I. Uno\n\n---\n\nII. Dos", str(salida))
+    assert res["ok"], res
+
+    from docx import Document
+
+    documento = Document(str(salida))
+    saltos = [b for b in documento._element.findall(".//" + qn("w:br"))
+              if b.get(qn("w:type")) == "page"]
+    assert saltos == [], "el separador no puede generar páginas en blanco"
+    assert any(p.text == "" for p in documento.paragraphs), "el separador deja el doble espaciado"

@@ -64,7 +64,8 @@ class WordDossierCompiler:
         elif despojado.startswith("# "):
             documento.add_heading(despojado[2:].strip(), level=0)
         elif despojado in {"---", "***", "___"}:
-            documento.add_page_break()
+            # Separador de capítulo: doble espaciado, sin salto de página (nada de páginas en blanco).
+            documento.add_paragraph()
         elif despojado.startswith("> "):
             parrafo = documento.add_paragraph()
             parrafo.paragraph_format.left_indent = Pt(28)
