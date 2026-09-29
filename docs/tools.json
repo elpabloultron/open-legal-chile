@@ -1799,13 +1799,14 @@
   },
   {
     "name": "generar_documento",
-    "description": "Genera un escrito completo con plantilla chilena (demanda civil, recurso de protección, demanda laboral, contrato PPA) y lo entrega en Word (.docx editable) más HTML/MD/TXT/JSON. El entregable de trabajo es Word, nunca PDF.",
+    "description": "Genera un documento de trabajo completo y lo entrega en Word (.docx editable) más HTML/MD/TXT/JSON. Tipos: demanda civil, recurso de protección, demanda laboral, contrato PPA, o «informe» — el informe en derecho: describe los hechos del caso, transcribe ÍNTEGRO el artículo de cada norma citada (con su cita y enlace) e incorpora doctrina y jurisprudencia. Regla del producto: no se cita sin texto.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "tipo": {
           "type": "string",
           "enum": [
+            "informe",
             "demanda_civil",
             "proteccion",
             "laboral",
@@ -1827,11 +1828,49 @@
         "comparecencia": {
           "type": "string"
         },
+        "objeto": {
+          "type": "string",
+          "description": "Informe: la cuestión jurídica planteada (obligatoria)"
+        },
+        "materia": {
+          "type": "string",
+          "description": "Informe: materia (laboral, civil, ambiental…)"
+        },
+        "caso": {
+          "type": "string",
+          "description": "Informe: identificación del caso"
+        },
         "hechos": {
-          "type": "string"
+          "type": "string",
+          "description": "Los hechos del caso (obligatorio; el informe los describe)"
         },
         "derecho": {
           "type": "string"
+        },
+        "normas": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Informe: normas a transcribir («Código Civil art. 1545»); las mencionadas en los textos se detectan solas"
+        },
+        "doctrina": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "description": "Informe: doctrina ya reunida ({obra, autor, institucion, texto}); si se omite se busca en el corpus canónico"
+        },
+        "jurisprudencia": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "description": "Informe: fallos o dictámenes ({cita, texto})"
+        },
+        "dictamen": {
+          "type": "string",
+          "description": "Informe: la conclusión (si se omite se usa 'peticiones')"
         },
         "peticiones": {
           "type": "string"
@@ -1845,8 +1884,7 @@
       },
       "required": [
         "tipo",
-        "hechos",
-        "peticiones"
+        "hechos"
       ]
     }
   },

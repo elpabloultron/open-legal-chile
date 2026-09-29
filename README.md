@@ -276,6 +276,7 @@ El servidor MCP expone **87 herramientas oficiales** categorizadas funcionalment
 | `ocr_extract_pdf` | `pdf_path`, `start_page`, `end_page`, `force_ocr`, `dpi`, `lang` | Extrae texto nativo o ejecuta OCR pericial (Tesseract) sobre expedientes judiciales escaneados y escrituras públicas notariales. |
 | `compile_legal_dossier` | `markdown_content`, `output_pdf_path`, `annexes` | Compila escritos judiciales en formato PDF A4 institucional, ensambla anexos documentales foliados y genera versión optimizada. Genera además el documento de trabajo en Word (.docx) editable. |
 | `export_brief_ojv` | `titulo`, `tribunal`, `comparecencia`, `hechos`, `derecho`, `peticiones`, `otrosies` | Genera y formatea un escrito judicial formal para la Oficina Judicial Virtual (OJV) en `.html`, `.md`, `.txt` y `.json`. |
+| `generar_documento` | `tipo` *(str)*, `hechos` *(str)*, `peticiones` *(str)*, `objeto`/`derecho`/`dictamen`/`normas`/`doctrina`/`jurisprudencia` *(opc)* | Genera documentos de trabajo en Word (.docx editable) más HTML/MD/TXT/JSON: demanda civil, recurso de protección, demanda laboral, contrato PPA — o el **informe en derecho** (tipo `informe`): describe los **hechos del caso**, transcribe **íntegro en el cuerpo** el artículo de cada norma citada —con su cita `[BCN - …]` y su enlace— e incorpora doctrina y jurisprudencia. Una cita sin su texto literal queda declarada «sin fuente verificable»: no se cita a ciegas. |
 
 ### J. Privacidad (ARCO) y Propiedad Industrial (INAPI)
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
