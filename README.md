@@ -223,7 +223,7 @@ El servidor MCP expone **87 herramientas oficiales** categorizadas funcionalment
 | `cgr_search_jurisprudencia` | `query` *(str)* | Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República. |
 | `cgr_search_auditorias` | `query` *(str)* | Consulta el catálogo de más de 9.600 Informes Finales de Auditoría e investigaciones especiales de la CGR. |
 | `dt_search_doctrina` | `query` *(str)* | Busca dictámenes y doctrina laboral vinculante de la Dirección del Trabajo (DT) con enlace al texto completo. |
-| `pjud_search_jurisprudencia` | `query` *(str)*, `sala` *(str, opc)* | Busca fallos rectores de la Corte Suprema (Unificación Laboral, Tercera Sala Constitucional, Primera Sala Civil) y fallos del Tribunal Constitucional (TC). |
+| `pjud_search_jurisprudencia` | `query` *(str)*, `sala` *(str, opc)* | Busca en el corpus local cosechado: 70.523 sentencias de la Corte Suprema (últimos dos años), 966 del Tribunal Constitucional y los fallos rectores CS/TC — por carátula, materia, recurso, resultado y doctrina. |
 
 ### C. Regulación Sectorial e Instituciones Públicas
 | Herramienta MCP | Parámetros | Descripción de Operatividad |

@@ -95,6 +95,129 @@ def _strip_accents(text: str) -> str:
         text = text.replace(a, b)
     return text
 
+# ── Corpus local cosechado (CS · TC) ────────────────────────────────────────────────────────
+#
+# Las sentencias se cosechan al jsonl de `data/jurisprudencia/` (Corte Suprema de los últimos
+# dos años y TC completo) y viajan al dataset de Hugging Face. Aquí se buscan de vuelta: sin
+# esto el corpus quedaba cosechado pero nunca consultado.
+
+DATA_JURISPRUDENCIA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "jurisprudencia")
+
+_CORPUS_CACHE: Dict[str, Any] = {"clave": None, "registros": []}
+_CORPUS_EXCLUIDOS = {"link", "link_detalle", "link_pdf", "documento_id", "id_buscador", "archivo_md", "metodo"}
+
+
+def _rutas_corpus_local() -> List[str]:
+    """Los jsonl del corpus cosechado que existan, del grano grueso al curado."""
+    nombres = ("cs_sentencias_2anios.jsonl", "tc_sentencias_2anios.jsonl",
+               "cs_sentencias.jsonl", "tc_sentencias.jsonl")
+    return [os.path.join(DATA_JURISPRUDENCIA, n) for n in nombres
+            if os.path.exists(os.path.join(DATA_JURISPRUDENCIA, n))]
+
+
+def _texto_registro(registro: Dict[str, Any]) -> str:
+    """Todo el texto del registro (los campos anidados se aplanan) para buscar dentro."""
+    partes: List[str] = []
+    for clave, valor in registro.items():
+        if clave in _CORPUS_EXCLUIDOS:
+            continue
+        if isinstance(valor, dict):
+            partes.extend(str(v) for v in valor.values())
+        else:
+            partes.append(str(valor or ""))
+    return _strip_accents(" ".join(partes).lower())
+
+
+def _resumen_registro(registro: Dict[str, Any]) -> str:
+    """El digesto citable del registro: doctrina, detalle del TC, o recurso + resultado."""
+    doctrina = str(registro.get("doctrina") or "").strip()
+    if doctrina:
+        return doctrina
+    detalle = registro.get("detalle")
+    if isinstance(detalle, dict):
+        detalle = " ".join(str(v) for v in detalle.values() if v)
+    detalle = str(detalle or "").strip()
+    if detalle:
+        return detalle
+    punta = " ".join(p for p in (str(registro.get("recurso") or "").strip(),
+                                 str(registro.get("resultado") or "").strip()) if p)
+    return punta or str(registro.get("caratula") or "").strip()
+
+
+def _cargar_corpus_local() -> List[Dict[str, Any]]:
+    """El corpus a memoria, una vez por proceso (se recarga si los archivos cambian)."""
+    rutas = _rutas_corpus_local()
+    clave: List[Any] = []
+    for ruta in rutas:
+        try:
+            clave.append((ruta, os.path.getmtime(ruta), os.path.getsize(ruta)))
+        except OSError:
+            continue
+    if _CORPUS_CACHE["clave"] == tuple(clave):
+        return _CORPUS_CACHE["registros"]
+    registros: List[Dict[str, Any]] = []
+    vistos = set()
+    for ruta in rutas:
+        try:
+            with open(ruta, "r", encoding="utf-8") as archivo:
+                for linea in archivo:
+                    linea = linea.strip()
+                    if not linea:
+                        continue
+                    try:
+                        registro = json.loads(linea)
+                    except json.JSONDecodeError:
+                        continue
+                    firma = (str(registro.get("tribunal") or ""), str(registro.get("rol") or ""))
+                    if firma in vistos:
+                        continue
+                    vistos.add(firma)
+                    registro["_texto"] = _texto_registro(registro)
+                    registros.append(registro)
+        except OSError:
+            continue
+    _CORPUS_CACHE["clave"] = tuple(clave)
+    _CORPUS_CACHE["registros"] = registros
+    return registros
+
+
+def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any]]:
+    """Busca en el corpus local cosechado (Corte Suprema de los últimos dos años y TC completo)
+    por carátula, materia, recurso, resultado y doctrina — insensible a acentos.
+
+    Puntúa cada registro por los términos que contiene (los términos largos pesan doble) y
+    devuelve los más específicos y recientes. Los registros salen con `origen="corpus_local"`.
+    """
+    try:
+        registros = _cargar_corpus_local()
+    except Exception:  # noqa: BLE001 — sin corpus se devuelve vacío, no se cae la búsqueda
+        return []
+    if not registros:
+        return []
+    q_norm = _strip_accents(query.lower().strip())
+    tokens = [t for t in q_norm.split() if len(t) > 2]
+    if not tokens:
+        return []
+    minimo = 2 if len(tokens) > 1 else 1
+    puntuados: List[Any] = []
+    for registro in registros:
+        texto = registro.get("_texto") or ""
+        peso = sum(2 if len(t) >= 8 else 1 for t in tokens if t in texto)
+        if peso < minimo:
+            continue
+        if q_norm in texto:
+            peso += 3
+        puntuados.append((peso, registro.get("fecha") or "", registro))
+    puntuados.sort(key=lambda p: str(p[1]), reverse=True)
+    puntuados.sort(key=lambda p: p[0], reverse=True)
+    salida: List[Dict[str, Any]] = []
+    for _, _, registro in puntuados[:limit]:
+        limpio = {k: v for k, v in registro.items() if k != "_texto"}
+        limpio["origen"] = "corpus_local"
+        salida.append(limpio)
+    return salida
+
+
 class PJUDClient:
     def __init__(self, db_path: str = DB_PATH):
         self.db_path = db_path
@@ -185,6 +308,33 @@ class PJUDClient:
 
         except Exception as e:
             results.append({"error": f"Error consultando jurisprudencia: {str(e)}"})
+
+        # El corpus local cosechado (CS/TC), después de los fallos rectores y sin repetirlos.
+        try:
+            vistos = {(str(r.get("tribunal") or "").lower(), str(r.get("rol") or "")) for r in results}
+            for s in buscar_sentencias_locales(query, limit=limit):
+                firma = (str(s.get("tribunal") or "").lower(), str(s.get("rol") or ""))
+                if firma in vistos:
+                    continue
+                if sala and _strip_accents(sala.lower()) not in _strip_accents(str(s.get("sala") or "").lower()):
+                    continue
+                vistos.add(firma)
+                results.append({
+                    "tribunal": s.get("tribunal") or "",
+                    "sala": s.get("sala") or "",
+                    "rol": s.get("rol") or "",
+                    "fecha": s.get("fecha") or "",
+                    "caratula": s.get("caratula") or "",
+                    "materia": s.get("materia") or s.get("recurso") or s.get("tipo") or "",
+                    "doctrina": _resumen_registro(s),
+                    "normas": s.get("normas") or s.get("precepto") or "",
+                    "link": s.get("link") or s.get("link_detalle") or s.get("link_pdf") or "",
+                    "origen": "corpus_local",
+                })
+                if len(results) >= limit:
+                    break
+        except Exception:  # noqa: BLE001 — la búsqueda curada ya respondió; el corpus es adicional
+            pass
 
         return results
 
