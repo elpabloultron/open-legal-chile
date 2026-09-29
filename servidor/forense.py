@@ -97,24 +97,35 @@ TOOLS = [
     },
     {
         "name": "generar_documento",
-        "description": "Genera un escrito completo con plantilla chilena (demanda civil, recurso de protección, "
-                       "demanda laboral, contrato PPA) y lo entrega en Word (.docx editable) más HTML/MD/TXT/JSON. "
-                       "El entregable de trabajo es Word, nunca PDF.",
+        "description": "Genera un documento de trabajo completo y lo entrega en Word (.docx editable) más HTML/MD/TXT/JSON. "
+                       "Tipos: demanda civil, recurso de protección, demanda laboral, contrato PPA, o «informe» — el informe "
+                       "en derecho: describe los hechos del caso, transcribe ÍNTEGRO el artículo de cada norma citada "
+                       "(con su cita y enlace) e incorpora doctrina y jurisprudencia. Regla del producto: no se cita sin texto.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "tipo": {"type": "string", "enum": ["demanda_civil", "proteccion", "laboral", "ppa"]},
+                "tipo": {"type": "string", "enum": ["informe", "demanda_civil", "proteccion", "laboral", "ppa"]},
                 "tribunal": {"type": "string"},
                 "demandante": {"type": "string"},
                 "rut": {"type": "string"},
                 "demandado": {"type": "string"},
                 "comparecencia": {"type": "string"},
-                "hechos": {"type": "string"},
+                "objeto": {"type": "string", "description": "Informe: la cuestión jurídica planteada (obligatoria)"},
+                "materia": {"type": "string", "description": "Informe: materia (laboral, civil, ambiental…)"},
+                "caso": {"type": "string", "description": "Informe: identificación del caso"},
+                "hechos": {"type": "string", "description": "Los hechos del caso (obligatorio; el informe los describe)"},
                 "derecho": {"type": "string"},
+                "normas": {"type": "array", "items": {"type": "string"},
+                           "description": "Informe: normas a transcribir («Código Civil art. 1545»); las mencionadas en los textos se detectan solas"},
+                "doctrina": {"type": "array", "items": {"type": "object"},
+                             "description": "Informe: doctrina ya reunida ({obra, autor, institucion, texto}); si se omite se busca en el corpus canónico"},
+                "jurisprudencia": {"type": "array", "items": {"type": "object"},
+                                   "description": "Informe: fallos o dictámenes ({cita, texto})"},
+                "dictamen": {"type": "string", "description": "Informe: la conclusión (si se omite se usa 'peticiones')"},
                 "peticiones": {"type": "string"},
                 "otrosies": {"type": "array", "items": {"type": "object"}}
             },
-            "required": ["tipo", "hechos", "peticiones"]
+            "required": ["tipo", "hechos"]
         }
     },
     {
@@ -446,6 +457,21 @@ def despachar(name: str, args: dict) -> Any:
                 "citas": informe.get("citas", [])}
     elif name == "generar_documento":
         tipo = (args.get("tipo") or "demanda_civil").lower()
+        if tipo == "informe":
+            from informe_derecho import exportar_informe_en_derecho
+
+            return exportar_informe_en_derecho(
+                objeto=str(args.get("objeto") or ""),
+                hechos=args.get("hechos") or "",
+                dictamen=str(args.get("dictamen") or args.get("peticiones") or ""),
+                materia=str(args.get("materia") or ""),
+                caso=str(args.get("caso") or ""),
+                derecho=str(args.get("derecho") or ""),
+                normas=args.get("normas") if isinstance(args.get("normas"), list) else [],
+                doctrina=args.get("doctrina") if isinstance(args.get("doctrina"), list) else [],
+                jurisprudencia=(args.get("jurisprudencia")
+                                if isinstance(args.get("jurisprudencia"), list) else []),
+            )
         plantillas = {
             "demanda_civil": "DEMANDA ORDINARIA DE RESOLUCIÓN DE CONTRATO E INDEMNIZACIÓN DE PERJUICIOS",
             "proteccion": "RECURSO DE PROTECCIÓN CONSTITUCIONAL",
@@ -453,7 +479,7 @@ def despachar(name: str, args: dict) -> Any:
             "ppa": "CONTRATO DE SUMINISTRO DE ENERGÍA ELÉCTRICA (PPA CLIENTE LIBRE)",
         }
         if tipo not in plantillas:
-            return {"error": f"Tipo desconocido: {tipo}. Opciones: {', '.join(plantillas)}"}
+            return {"error": f"Tipo desconocido: {tipo}. Opciones: informe, {', '.join(plantillas)}"}
         if not (args.get("hechos") or args.get("peticiones")):
             return {"error": "Faltan los hechos o las peticiones: sin eso el escrito sale en blanco."}
         exportado = LegalDocumentExporter.export_brief(
