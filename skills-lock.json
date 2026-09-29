@@ -41,7 +41,7 @@
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-litigation-legal/SKILL.md",
-      "sha256": "41db2554f016113b7063ecf95d8c5205274af6f682bfce96ed9247a5a98be2d1"
+      "sha256": "c2a822e9adb19d68e7ee519635d0e8a1ddde7c06898e65f632a8efd5ed71029f"
     },
     "chilean-case-intake": {
       "source": "local",
