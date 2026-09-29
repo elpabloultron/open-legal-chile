@@ -191,6 +191,27 @@ def _fragmento(bajo: str, texto: str, terminos: list[str], ancho: int = 360) -> 
     return ("… " if ini else "") + frag + (" …" if fin < len(texto) else "")
 
 
+_MIN_TEXTO_SENTENCIA = 4000   # bajo esto el archivo es una ficha, no el texto del fallo
+
+
+def _extracto_de_sentencia(archivo: str, terminos: list[str]) -> str:
+    """El pasaje literal de la sentencia si su texto completo está en disco.
+
+    Las fichas de ~1 KB no son el texto del fallo: ahí se devuelve vacío y quien llama
+    describe el documento en vez de citarlo como si fuera su texto.
+    """
+    if not archivo:
+        return ""
+    ruta = BASE / archivo
+    try:
+        if not ruta.is_file() or ruta.stat().st_size < _MIN_TEXTO_SENTENCIA:
+            return ""
+        texto, bajo = _texto_cacheado(ruta)
+    except OSError:
+        return ""
+    return _fragmento(bajo, texto, terminos)
+
+
 def _buscar_en_archivo(reg: dict, terminos: list[str]) -> dict | None:
     titulo = _norm(f"{reg.get('titulo', '')} {reg.get('tipo', '')}")
     en_titulo = sum(1 for t in terminos if _calza(t, titulo))
@@ -240,6 +261,13 @@ def consulta_ambiental(consulta: str, limite: int = 8, incluir_subgrafo: bool = 
             archivo = archivo_por_rol.get((str(r.get("tribunal", "")).upper(), str(r.get("rol", ""))), "")
             titulo = r.get("titulo") or r.get("caratula") or ""
             resumen = re.sub(r"\s+", " ", str(r.get("criterio") or r.get("materia") or r.get("resuelve") or "")).strip()
+            # El pasaje literal manda: si la sentencia tiene su texto completo en disco (2TA/3TA),
+            # se cita de ahí; sin texto se describe el fallo, nunca se cita su «materia» como texto.
+            fragmento = _extracto_de_sentencia(archivo, terminos)
+            if not fragmento:
+                descripcion = " · ".join(p for p in (
+                    str(r.get("tipo") or "Sentencia").strip(), titulo, str(r.get("fecha") or "").strip()) if p)
+                fragmento = re.sub(r"\s+", " ", str(r.get("criterio") or "")).strip()[:400] or descripcion
             # 9 de base (la jurisprudencia manda) + hasta 3 por calzar la consulta: así el caso de
             # humedales sube sobre la reclamación genérica de turno.
             en_sentencia = sum(1 for t in terminos if _calza(t, _norm(f"{titulo} {r.get('materia') or ''} {resumen}")))
@@ -250,7 +278,7 @@ def consulta_ambiental(consulta: str, limite: int = 8, incluir_subgrafo: bool = 
                 "tribunal": r.get("tribunal") or "",
                 "archivo": archivo,
                 "url_oficial": r.get("link") or "",
-                "fragmento": resumen[:400],
+                "fragmento": fragmento,
                 "puntaje": 9 + min(3, en_sentencia),
                 "tamano": 0,
                 "cita": f"[Hugging Face - {archivo}]" if archivo else f"[TA - {r.get('tribunal', '')} · {titulo[:70]}]",

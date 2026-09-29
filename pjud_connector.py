@@ -9,7 +9,7 @@ import sys
 import json
 import sqlite3
 import re
-from typing import Dict, Any, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "pjud_cache")
 DB_PATH = os.path.join(os.path.dirname(__file__), "jurisprudencia_judicial.db")
@@ -101,7 +101,8 @@ def _strip_accents(text: str) -> str:
 # dos años y TC completo) y viajan al dataset de Hugging Face. Aquí se buscan de vuelta: sin
 # esto el corpus quedaba cosechado pero nunca consultado.
 
-DATA_JURISPRUDENCIA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "jurisprudencia")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_JURISPRUDENCIA = os.path.join(BASE_DIR, "data", "jurisprudencia")
 
 _CORPUS_CACHE: Dict[str, Any] = {"clave": None, "registros": []}
 _CORPUS_EXCLUIDOS = {"link", "link_detalle", "link_pdf", "documento_id", "id_buscador", "archivo_md", "metodo"}
@@ -128,8 +129,66 @@ def _texto_registro(registro: Dict[str, Any]) -> str:
     return _strip_accents(" ".join(partes).lower())
 
 
-def _resumen_registro(registro: Dict[str, Any]) -> str:
-    """El digesto citable del registro: doctrina, detalle del TC, o recurso + resultado."""
+_MIN_TEXTO_SENTENCIA = 4000   # bajo esto el archivo es una ficha, no el texto de la sentencia
+_TEXTOS_SENTENCIAS: Dict[Tuple[str, int], Tuple[str, str]] = {}
+
+
+def _texto_de_sentencia(ruta: str) -> Tuple[str, str]:
+    """El texto del fallo y su normalizado, leídos una sola vez por proceso (mtime-keyed)."""
+    clave = (ruta, os.stat(ruta).st_mtime_ns)
+    if clave not in _TEXTOS_SENTENCIAS:
+        with open(ruta, "r", encoding="utf-8", errors="replace") as archivo:
+            texto = archivo.read()
+        for vieja in [k for k in _TEXTOS_SENTENCIAS if k[0] == ruta]:
+            del _TEXTOS_SENTENCIAS[vieja]
+        _TEXTOS_SENTENCIAS[clave] = (texto, _strip_accents(texto.lower()))
+    return _TEXTOS_SENTENCIAS[clave]
+
+
+def _extracto_de_sentencia(registro: Dict[str, Any], tokens: List[str]) -> str:
+    """El pasaje literal del fallo cuando su texto completo vive en el repo.
+
+    El TC publica sus sentencias completas en `jurisprudencia_tc/`; la Corte Suprema publica
+    fichas de ~1 KB (el texto se consulta en su buscador), que no se citan como si fueran texto.
+    """
+    rutas: List[str] = []
+    archivo = str(registro.get("archivo_md") or "").strip()
+    if archivo:
+        rutas.append(os.path.join(BASE_DIR, archivo))
+    fecha = str(registro.get("fecha") or "")
+    rol = str(registro.get("rol") or "")
+    if rol and re.match(r"^\d{4}-\d{2}", fecha):
+        rutas.append(os.path.join(BASE_DIR, "jurisprudencia_cs", fecha[:4], fecha[5:7], f"{rol}.md"))
+    for ruta in rutas:
+        try:
+            if not os.path.isfile(ruta) or os.path.getsize(ruta) < _MIN_TEXTO_SENTENCIA:
+                continue
+            texto, bajo = _texto_de_sentencia(ruta)
+        except OSError:
+            continue
+        pos = -1
+        for token in tokens:
+            variante = token[:-1] if token.endswith("s") and len(token) > 4 else token
+            for t in (token, variante):
+                hallado = bajo.find(t)
+                if hallado >= 0 and (pos < 0 or hallado < pos):
+                    pos = hallado
+        if pos < 0:
+            continue
+        ini = max(0, pos - 160)
+        fin = min(len(texto), pos + 420)
+        pasaje = re.sub(r"\s+", " ", texto[ini:fin]).strip()
+        return ("… " if ini else "") + pasaje + (" …" if fin < len(texto) else "")
+    return ""
+
+
+def _resumen_registro(registro: Dict[str, Any], tokens: Optional[List[str]] = None) -> str:
+    """El digesto citable del registro: el pasaje literal del fallo si está en el repo, o la
+    doctrina/detalle del índice, o recurso + resultado."""
+    if tokens:
+        extracto = _extracto_de_sentencia(registro, tokens)
+        if extracto:
+            return extracto
     doctrina = str(registro.get("doctrina") or "").strip()
     if doctrina:
         return doctrina
@@ -326,7 +385,7 @@ class PJUDClient:
                     "fecha": s.get("fecha") or "",
                     "caratula": s.get("caratula") or "",
                     "materia": s.get("materia") or s.get("recurso") or s.get("tipo") or "",
-                    "doctrina": _resumen_registro(s),
+                    "doctrina": _resumen_registro(s, tokens),
                     "normas": s.get("normas") or s.get("precepto") or "",
                     "link": s.get("link") or s.get("link_detalle") or s.get("link_pdf") or "",
                     "origen": "corpus_local",
