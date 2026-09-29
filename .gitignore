@@ -114,3 +114,6 @@ scripts/build_presentacion*
 
 # Herramientas de auditoría externas auxiliares
 .agents/skills/security-audit/
+
+# Planes de trabajo por workspace (viven con el repo, no se versionan)
+.hermes/
