@@ -1,15 +1,17 @@
-"""Informe en Derecho: hechos del caso + triple pilar + transcripción literal de cada norma.
+"""Informe en Derecho: hechos + análisis + triple pilar + transcripción literal de cada norma.
 
-Regla del producto (AGENTS.md §2 y §2 ter): un informe describe los hechos del caso, cita la ley
-con su texto literal transcrito íntegro en el cuerpo, la doctrina y la jurisprudencia aplicables,
-y cierra con el dictamen y las fuentes numeradas. Este módulo arma ese documento y lo entrega en
-Word (.docx editable), más HTML/MD/TXT/JSON — nunca PDF como entregable de trabajo.
+Regla del producto (AGENTS.md §2 y §2 ter): un informe describe los hechos del caso, desarrolla el
+análisis jurídico (subsunción), cita la ley con su texto literal transcrito íntegro en el cuerpo, la
+doctrina y la jurisprudencia aplicables —buscadas solas en el material local cuando no se las
+entregan— y cierra con el dictamen y las fuentes numeradas. Se entrega en Word (.docx editable),
+más HTML/MD/TXT/JSON — nunca PDF como entregable de trabajo.
 """
 from __future__ import annotations
 
 import html
 import json
 import os
+import re
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 
@@ -17,9 +19,12 @@ from citas_legales import bloque_fuentes, detectar_normas
 from exporters import EXPORTS_DIR
 
 ESTRUCTURA = ["I. Cuestión jurídica planteada", "II. Los hechos", "III. Marco normativo vigente",
-              "IV. Doctrina", "V. Jurisprudencia", "VI. Dictamen", "Fuentes"]
-_MIN_HECHOS = 120  # bajo esto los hechos son un placeholder: se rechaza
-_TOPE_TEXTO = 8000  # una ley entera no cabe en el cuerpo; los artículos sí entran completos
+              "IV. Análisis jurídico", "V. Doctrina", "VI. Jurisprudencia", "VII. Dictamen", "Fuentes"]
+_MIN_HECHOS = 120     # bajo esto los hechos son un placeholder: se rechaza
+_MIN_ANALISIS = 200   # bajo esto el «análisis» es un relleno: se rechaza
+_MIN_INFORME = 8000   # un informe breve no es informe: se advierte para que se desarrolle
+_TOPE_TEXTO = 8000    # una ley entera no cabe en el cuerpo; los artículos sí entran completos
+_MAX_DOCTRINA = 5
 
 
 def _textos_de_normas(referencias: List[str]) -> Dict[str, Any]:
@@ -30,18 +35,87 @@ def _textos_de_normas(referencias: List[str]) -> Dict[str, Any]:
     return _corpus._citas_por_lote(list(referencias), limite=None)
 
 
-def _doctrina_para(termino: str, limite: int = 3) -> List[Dict[str, Any]]:
-    """Doctrina canónica del FTS5 local para el término dado (best-effort: si falla, vacío)."""
+def _limpiar(texto: Any) -> str:
+    """Espacios colapsados: los extractos vienen con saltos y sangrías del PDF original."""
+    return re.sub(r"\s+", " ", str(texto or "")).strip()
+
+
+def _doctrina_para(termino: str, limite: int = _MAX_DOCTRINA) -> List[Dict[str, Any]]:
+    """Doctrina canónica del FTS5 local para el término dado (best-effort: si falla, vacío).
+
+    Una entrada sin texto utilizable no es citable: se salta (el snippet reemplaza a la definición
+    cuando esta viene vacía).
+    """
     if not termino.strip():
         return []
     try:
         from doctrina_connector import search_doctrina
 
-        return [{"obra": d.get("obra") or "", "autor": d.get("autor") or "",
-                 "institucion": d.get("institucion") or "", "texto": d.get("definicion") or ""}
-                for d in search_doctrina(termino, limit=limite)]
+        salida: List[Dict[str, Any]] = []
+        for d in search_doctrina(termino, limit=limite):
+            texto = _limpiar(d.get("definicion")) or _limpiar(re.sub(r"[【】]", "", str(d.get("snippet") or "")))
+            if len(texto) < 60:
+                continue
+            salida.append({"obra": d.get("obra") or "", "autor": d.get("autor") or "",
+                           "institucion": d.get("institucion") or "", "texto": texto})
+        return salida
     except Exception:  # noqa: BLE001 — sin doctrina se declara, no se inventa
         return []
+
+
+def _fallos_rectores(consulta: str, limite: int) -> List[Dict[str, Any]]:
+    """Los fallos rectores CS/TC del índice local, con la forma de los resultados ambientales."""
+    from pjud_connector import PJUDClient
+
+    resultados: List[Dict[str, Any]] = []
+    for r in PJUDClient().search_jurisprudencia(consulta, limit=limite):
+        if r.get("error") or not _limpiar(r.get("doctrina")):
+            continue
+        prefijo = "TC" if "Constitucional" in str(r.get("tribunal") or "") else "CS"
+        fecha = str(r.get("fecha") or "").strip()
+        cita = f"[{prefijo} - {r.get('rol', '')}" + (f", {fecha}" if fecha else "") + "]"
+        if r.get("caratula"):
+            cita += f" {r['caratula']}"
+        resultados.append({"coleccion": "fallos_rectores", "titulo": r.get("caratula") or r.get("materia") or "",
+                           "tipo": r.get("materia") or "", "fragmento": _limpiar(r.get("doctrina")),
+                           "cita": cita, "enlace": r.get("link") or ""})
+    return resultados
+
+
+def _material_local(consulta: str, limite: int = 8) -> Dict[str, List[Dict[str, Any]]]:
+    """Jurisprudencia y doctrina del material local del producto (best-effort, nada inventado).
+
+    Materia ambiental: las 886 sentencias de los Tribunales Ambientales y la biblioteca ambiental
+    (informes en derecho, foros, manuales) vía el módulo especial. Otras materias: los fallos
+    rectores CS/TC indexados en `jurisprudencia_judicial.db`.
+    """
+    consulta = (consulta or "").strip()
+    if not consulta:
+        return {"jurisprudencia": [], "doctrina": []}
+    try:
+        from modulo_ambiental import consulta_ambiental, es_materia_ambiental
+
+        if es_materia_ambiental(consulta):
+            paquete = consulta_ambiental(consulta, limite=max(4, limite))
+        else:
+            paquete = {"resultados": _fallos_rectores(consulta, limite)}
+    except Exception:  # noqa: BLE001 — sin material se declara, no se inventa
+        return {"jurisprudencia": [], "doctrina": []}
+
+    jurisprudencia: List[Dict[str, Any]] = []
+    doctrina: List[Dict[str, Any]] = []
+    for r in paquete.get("resultados") or []:
+        texto = _limpiar(r.get("fragmento"))
+        cita = str(r.get("cita") or "").strip()
+        if not texto or not cita:
+            continue
+        if r.get("coleccion") in ("jurisprudencia_ambiental", "fallos_rectores"):
+            jurisprudencia.append({"cita": cita, "texto": texto, "url": r.get("enlace") or ""})
+        else:
+            doctrina.append({"cita": cita, "texto": texto, "url": r.get("enlace") or "",
+                             "obra": r.get("titulo") or "", "autor": "",
+                             "institucion": r.get("tipo") or "biblioteca"})
+    return {"jurisprudencia": jurisprudencia, "doctrina": doctrina}
 
 
 def _normas_del_caso(objeto: str, hechos: str, derecho: str, normas: List[str]) -> List[str]:
@@ -67,7 +141,9 @@ def _numerar_hechos(hechos: Any) -> List[str]:
 
 
 def _cita_doctrina(entrada: Dict[str, Any]) -> str:
-    """Corchete oficial de doctrina: [Doctrina - Autor, Obra, Institución: X]."""
+    """El corchete de la doctrina: el propio ([Hugging Face - …]) o [Doctrina - Autor, Obra, Institución: X]."""
+    if str(entrada.get("cita") or "").strip():
+        return str(entrada["cita"]).strip()
     etiqueta = ", ".join(p for p in (entrada.get("autor") or "", entrada.get("obra") or "") if p)
     if entrada.get("institucion"):
         etiqueta += f", Institución: {entrada['institucion']}"
@@ -77,7 +153,8 @@ def _cita_doctrina(entrada: Dict[str, Any]) -> str:
 def exportar_informe_en_derecho(
     objeto: str,
     hechos: Any,
-    dictamen: str,
+    analisis: Any = "",
+    dictamen: str = "",
     materia: str = "",
     caso: str = "",
     derecho: str = "",
@@ -86,9 +163,12 @@ def exportar_informe_en_derecho(
     jurisprudencia: Optional[List[Dict[str, Any]]] = None,
     filename_base: Optional[str] = None,
 ) -> Dict[str, Any]:
-    """Arma el informe en derecho completo y lo entrega en Word + HTML/MD/TXT/JSON."""
+    """Arma el informe en derecho completo (extenso) y lo entrega en Word + HTML/MD/TXT/JSON."""
     objeto = (objeto or "").strip()
     dictamen = (dictamen or "").strip()
+    if isinstance(analisis, list):
+        analisis = "\n\n".join(str(p).strip() for p in analisis if str(p).strip())
+    analisis = str(analisis or "").strip()
     items_hechos = _numerar_hechos(hechos)
     texto_hechos = " ".join(items_hechos)
 
@@ -98,41 +178,58 @@ def exportar_informe_en_derecho(
     if len(texto_hechos) < _MIN_HECHOS:
         return {"error": "Los hechos del caso llegan vacíos o de mentira: descríbalos con fechas, "
                          "conductas y circunstancias. Sin hechos no hay informe en derecho."}
+    if len(analisis) < _MIN_ANALISIS:
+        return {"error": "Falta el análisis jurídico ('analisis'): es el cuerpo del informe — la "
+                         "subsunción de los hechos en las normas, con doctrina y jurisprudencia, y los "
+                         "contraargumentos. Un informe sin análisis sale breve y no sirve."}
     if not dictamen:
         return {"error": "Falta el dictamen (la conclusión del informe; 'peticiones' sirve de respaldo)."}
 
     advertencias: List[str] = []
-    if len(texto_hechos) < 400:
+    faltantes: List[str] = []
+    if len(texto_hechos) < 600:
         advertencias.append(f"La descripción de hechos es escueta ({len(texto_hechos)} caracteres): "
                             "se recomienda desarrollarla con fechas y circunstancias.")
+    if len(analisis) < 800:
+        advertencias.append(f"El análisis jurídico es escueto ({len(analisis)} caracteres): "
+                            "se recomienda desarrollar la subsunción y los contraargumentos.")
 
     # III. Normas: transcripción literal + cita (regla: no se cita sin texto)
     referencias = _normas_del_caso(objeto, texto_hechos, derecho, list(normas or []))
     lote = _textos_de_normas(referencias) if referencias else {"citas": [], "faltantes": []}
     citas_normas = list(lote.get("citas") or [])
-    faltantes: List[str] = list(lote.get("faltantes") or [])
+    faltantes.extend(lote.get("faltantes") or [])
     for cita in citas_normas:
         if len(cita.get("texto") or "") > _TOPE_TEXTO:
             cita["texto"] = cita["texto"][:_TOPE_TEXTO].rstrip() + "…"
             advertencias.append(f"Se recorta {cita['formato']} a {_TOPE_TEXTO} caracteres "
                                 "(texto mayor que un artículo: se transcribe lo esencial y el enlace).")
 
-    # IV. Doctrina: la pedida o, por defecto, el FTS5 canónico
-    entradas_doctrina = [d for d in (doctrina or []) if str(d.get("texto") or "").strip()]
-    if not entradas_doctrina:
-        entradas_doctrina = _doctrina_para(objeto[:120] or materia)
-        if entradas_doctrina:
-            advertencias.append("La doctrina se buscó automáticamente en el corpus canónico (FTS5).")
-        else:
-            faltantes.append("doctrina")
+    # V y VI · Doctrina y jurisprudencia: las entregadas o, si no, el material local del producto
+    entradas_doctrina = [d for d in (doctrina or []) if _limpiar(d.get("texto"))]
+    entradas_juris = [j for j in (jurisprudencia or []) if _limpiar(j.get("texto"))]
+    material: Dict[str, List[Dict[str, Any]]] = {"jurisprudencia": [], "doctrina": []}
+    if not entradas_doctrina or not entradas_juris:
+        material = _material_local(f"{objeto} {texto_hechos[:200]}".strip())
 
-    # V. Jurisprudencia: la pedida; si no hay, se declara (se busca por organismo)
-    entradas_juris = [j for j in (jurisprudencia or []) if str(j.get("texto") or "").strip()]
+    if not entradas_juris:
+        entradas_juris = list(material["jurisprudencia"])[:4]
+        if entradas_juris:
+            advertencias.append("La jurisprudencia se buscó automáticamente en el material local "
+                                "(sentencias de los Tribunales Ambientales y fallos rectores CS/TC).")
     if not entradas_juris:
         faltantes.append("jurisprudencia")
-        advertencias.append("Sin jurisprudencia citada: búsquela por organismo "
-                            "(pjud_search_jurisprudencia, sma_search_sancionatorios, "
+        advertencias.append("Sin jurisprudencia: el material local no registró fallos aplicables; "
+                            "búsquela por organismo (pjud_search_jurisprudencia, ambiental_buscar_jurisprudencia, "
                             "cgr_search_jurisprudencia…) y vuelva a generar el informe.")
+
+    if not entradas_doctrina:
+        entradas_doctrina = [d for d in (list(material["doctrina"])[:3] + _doctrina_para(objeto[:120] or materia))
+                             if _limpiar(d.get("texto"))][:_MAX_DOCTRINA]
+        if entradas_doctrina:
+            advertencias.append("La doctrina se buscó automáticamente (biblioteca ambiental y corpus canónico).")
+        else:
+            faltantes.append("doctrina")
 
     # ── Cuerpo del documento ────────────────────────────────────────────────────────────────
     lineas: List[str] = ["# INFORME EN DERECHO", ""]
@@ -161,14 +258,18 @@ def exportar_informe_en_derecho(
         for f in normas_faltantes:
             lineas += [f"- {f}: sin fuente verificable (no se cita a ciegas).", ""]
 
-    lineas += ["## IV. Doctrina", ""]
+    lineas += ["## IV. Análisis jurídico", ""]
+    for parrafo in [p.strip() for p in analisis.split("\n\n") if p.strip()]:
+        lineas += [parrafo, ""]
+
+    lineas += ["## V. Doctrina", ""]
     if entradas_doctrina:
         for d in entradas_doctrina:
             lineas += [f"**{_cita_doctrina(d)}**", "", f"> «{str(d.get('texto')).strip()}»", ""]
     else:
         lineas += ["_Sin fuente verificable en el corpus para este término._", ""]
 
-    lineas += ["## V. Jurisprudencia", ""]
+    lineas += ["## VI. Jurisprudencia", ""]
     if entradas_juris:
         for j in entradas_juris:
             lineas += [f"**{j.get('cita') or '[Fuente sin identificar]'}**", "",
@@ -176,7 +277,7 @@ def exportar_informe_en_derecho(
     else:
         lineas += ["_No se citó jurisprudencia ni dictamen administrativo (ver advertencias)._", ""]
 
-    lineas += ["## VI. Dictamen", "", dictamen, ""]
+    lineas += ["## VII. Dictamen", "", dictamen, ""]
 
     citas_fuentes = list(citas_normas)
     for d in entradas_doctrina:
@@ -188,6 +289,9 @@ def exportar_informe_en_derecho(
                "de redacción conforme al ordenamiento jurídico de Chile. Debe ser validado por un "
                "abogado habilitado antes de su firma o presentación."]
     md_content = "\n".join(lineas)
+    if len(md_content) < _MIN_INFORME:
+        advertencias.append(f"El informe mide {len(md_content)} caracteres: los informes en derecho "
+                            "son extensos — desarrolle los hechos y el análisis antes de firmarlo.")
 
     # ── Salidas: Word (entregable) + HTML/MD/TXT/JSON (misma carpeta que los escritos) ──────
     filename = filename_base or f"informe_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -203,7 +307,7 @@ def exportar_informe_en_derecho(
     with open(rutas["json"], "w", encoding="utf-8") as archivo:
         json.dump({"fecha_generacion": datetime.now().isoformat(timespec="seconds"),
                    "tipo": "informe_en_derecho", "estructura": ESTRUCTURA, "materia": materia,
-                   "caso": caso, "objeto": objeto, "hechos": items_hechos,
+                   "caso": caso, "objeto": objeto, "hechos": items_hechos, "analisis": analisis,
                    "normas": [{"cita": c["formato"], "texto": c["texto"], "url": c["url"]}
                               for c in citas_normas],
                    "doctrina": entradas_doctrina, "jurisprudencia": entradas_juris,

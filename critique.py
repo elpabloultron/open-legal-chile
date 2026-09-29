@@ -162,6 +162,12 @@ class LegalCritiqueEngine:
         else:
             d3_findings.append("Capítulo de hechos presente y desarrollado.")
 
+        # Extensión: los escritos forenses son extensos; uno breve se devuelve a desarrollar.
+        if len(text.strip()) < 6000:
+            d3_score = max(1, d3_score - 1)
+            d3_findings.append(f"El documento es breve para un escrito judicial ({len(text.strip())} "
+                               "caracteres): desarrolle los hechos, el análisis jurídico y la jurisprudencia.")
+
         d3_score = max(1, min(10, d3_score))
 
         # --- Dimensión 4: Coherencia Fáctica y Carga de la Prueba (Art. 1698 CC) ---

@@ -100,3 +100,13 @@ def test_critique_conforme_con_hechos_y_transcripcion():
 
     assert "No se describe un capítulo de hechos" not in crit
     assert "sin transcribir" not in crit.lower()
+
+
+def test_critique_flag_documento_breve():
+    """Los escritos forenses son extensos: uno breve se devuelve a desarrollar."""
+    engine = LegalCritiqueEngine()
+    texto = "HECHOS\n" + ("El proveedor incumplió el contrato durante meses. " * 8) + "\nPetitorio: se acoja."
+
+    res = engine.critique(texto, provider="soberano")
+
+    assert "breve" in res["critique"].lower()
