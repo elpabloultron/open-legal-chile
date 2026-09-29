@@ -102,7 +102,7 @@ def test_doctrina_automatica_cuando_no_la_piden(tmp_path, monkeypatch):
     monkeypatch.setattr(informe_derecho, "_doctrina_para",
                         lambda termino, limite=5: [{"obra": "Tratado de Responsabilidad",
                                                     "autor": "Barros Bourie", "institucion": "Daño moral",
-                                                    "texto": "El daño moral se acredita por presunciones."}])
+                                                    "texto": "La responsabilidad ambiental se acredita por presunciones."}])
 
     res = informe_derecho.exportar_informe_en_derecho(objeto=OBJETO, hechos=HECHOS, analisis=ANALISIS,
                                                       dictamen="Se acoja.")

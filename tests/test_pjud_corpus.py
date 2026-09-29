@@ -107,3 +107,24 @@ def test_las_fichas_de_la_cs_no_se_citan_como_texto(tmp_path, monkeypatch):
 
     entrada = next(r for r in res if r.get("rol") == "3000-2025")
     assert entrada["doctrina"] == "CASACIÓN SE RECHAZA EL RECURSO"
+
+
+def test_el_pasaje_del_tc_sale_del_cuerpo_y_no_de_la_ficha(tmp_path, monkeypatch):
+    """El fallo del TC viene después del primer separador: no se cita la ficha de metadata."""
+    (tmp_path / "jurisprudencia_tc").mkdir()
+    (tmp_path / "jurisprudencia_tc" / "8002-2025-INA.md").write_text(
+        "# INA-STC — Rol N° 8002-2025-INA\n\n- **Rol:** Rol N° 8002-2025-INA\n"
+        "- **Carátula:** gestión por cautelares de ruido\n\n---\n"
+        "Considerando: la cautelar de ruido se acoge en el cuerpo del fallo. " + "w" * 6000,
+        encoding="utf-8")
+    ruta = tmp_path / "corpus.jsonl"
+    registro = {"tribunal": "Tribunal Constitucional", "rol": "8002-2025-INA", "fecha": "2025-09-01",
+                "caratula": "gestión por cautelares de ruido", "archivo_md": "jurisprudencia_tc/8002-2025-INA.md"}
+    ruta.write_text(json.dumps(registro, ensure_ascii=False) + "\n", encoding="utf-8")
+    _parchear_corpus(monkeypatch, str(ruta))
+
+    res = PJUDClient().search_jurisprudencia("cautelares ruido cuerpo")
+
+    entrada = next(r for r in res if r.get("rol") == "8002-2025-INA")
+    assert "cuerpo del fallo" in entrada["doctrina"]
+    assert "**Rol:**" not in entrada["doctrina"]

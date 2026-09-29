@@ -166,18 +166,36 @@ def _extracto_de_sentencia(registro: Dict[str, Any], tokens: List[str]) -> str:
             texto, bajo = _texto_de_sentencia(ruta)
         except OSError:
             continue
+        corte = texto.find("\n---\n")
+        if 0 <= corte <= 4000 and len(texto) - corte > 2000:
+            texto, bajo = texto[corte:], bajo[corte:]
         pos = -1
+        largo = 0
         for token in tokens:
-            variante = token[:-1] if token.endswith("s") and len(token) > 4 else token
-            for t in (token, variante):
+            variantes = {token}
+            if token.endswith("es") and len(token) > 4:
+                variantes.add(token[:-2])
+            if token.endswith("s") and len(token) > 4:
+                variantes.add(token[:-1])
+            for t in variantes:
                 hallado = bajo.find(t)
-                if hallado >= 0 and (pos < 0 or hallado < pos):
-                    pos = hallado
+                if hallado < 0:
+                    continue
+                if len(token) > largo or (len(token) == largo and (pos < 0 or hallado < pos)):
+                    pos, largo = hallado, len(token)
         if pos < 0:
             continue
         ini = max(0, pos - 160)
         fin = min(len(texto), pos + 420)
-        pasaje = re.sub(r"\s+", " ", texto[ini:fin]).strip()
+        if ini > 0:
+            espacio = texto.find(" ", ini)
+            if 0 <= espacio - ini <= 60:
+                ini = espacio + 1
+        if fin < len(texto):
+            espacio = texto.rfind(" ", ini, fin)
+            if 0 <= fin - espacio <= 80:
+                fin = espacio
+        pasaje = re.sub(r"\s+", " ", texto[ini:fin]).strip().replace("**", "")
         return ("… " if ini else "") + pasaje + (" …" if fin < len(texto) else "")
     return ""
 

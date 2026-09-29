@@ -12,6 +12,7 @@ import html
 import json
 import os
 import re
+import unicodedata
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 
@@ -38,6 +39,27 @@ def _textos_de_normas(referencias: List[str]) -> Dict[str, Any]:
 def _limpiar(texto: Any) -> str:
     """Espacios colapsados: los extractos vienen con saltos y sangrías del PDF original."""
     return re.sub(r"\s+", " ", str(texto or "")).strip()
+
+
+_TERMINOS_GENERICOS = {"procedente", "cautelares", "cautelar", "medida", "medidas", "recurso", "recursos",
+                       "sentencia", "sentencias", "denuncia", "denunciar", "presente", "solicita", "objeto",
+                       "respecto", "efectos", "mediante", "acuerdo", "conforme", "puede", "debe", "tiene"}
+
+
+def _sin_acentos(texto: str) -> str:
+    """Sin tildes: «adopción» calza con «adopcion»."""
+    return "".join(c for c in unicodedata.normalize("NFKD", texto) if not unicodedata.combining(c))
+
+
+def _calza_doctrina(entrada: Dict[str, Any], claves: List[str]) -> bool:
+    """El calce mínimo de una entrada canónica: dos términos del objeto, o uno bien específico.
+
+    «procedente» o «cautelares» aparecen en cualquier repertorio: con una sola coincidencia
+    así, la sección se llenaba de doctrina penal o de familia en un informe ambiental.
+    """
+    texto = _sin_acentos(_limpiar(entrada.get("texto")).lower())
+    hallados = [t for t in claves if _sin_acentos(t) in texto]
+    return len(hallados) >= 2 or any(len(t) >= 9 for t in hallados)
 
 
 def _doctrina_para(termino: str, limite: int = _MAX_DOCTRINA) -> List[Dict[str, Any]]:
@@ -224,8 +246,16 @@ def exportar_informe_en_derecho(
                             "cgr_search_jurisprudencia…) y vuelva a generar el informe.")
 
     if not entradas_doctrina:
-        entradas_doctrina = [d for d in (list(material["doctrina"])[:3] + _doctrina_para(objeto[:120] or materia))
-                             if _limpiar(d.get("texto"))][:_MAX_DOCTRINA]
+        # La biblioteca del caso manda; el corpus canónico (FTS) entra solo si calza de verdad.
+        claves = [t for t in re.findall(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ-]{6,}", objeto.lower())
+                  if t not in _TERMINOS_GENERICOS]
+        entradas_doctrina = [d for d in material["doctrina"][:3] if _limpiar(d.get("texto"))]
+        for d in _doctrina_para(objeto[:120] or materia):
+            if not _limpiar(d.get("texto")):
+                continue
+            if not claves or _calza_doctrina(d, claves):
+                entradas_doctrina.append(d)
+        entradas_doctrina = entradas_doctrina[:_MAX_DOCTRINA]
         if entradas_doctrina:
             advertencias.append("La doctrina se buscó automáticamente (biblioteca ambiental y corpus canónico).")
         else:
