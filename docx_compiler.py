@@ -5,7 +5,7 @@ corregirlos. El PDF, cuando haga falta (presentación, notificación), se obtien
 o con LibreOffice — pero el documento de trabajo es editable.
 
 Convierte el Markdown del escrito (encabezados `#`, `##`, `###`, negritas `**…**`, viñetas)
-en un .docx con tipografía forense: Times New Roman 12, cuerpo justificado.
+en un .docx con tipografía forense: Times New Roman 12, cuerpo justificado, hoja A4 (u oficio).
 """
 from __future__ import annotations
 
@@ -16,12 +16,13 @@ from typing import Any, Dict
 try:
     from docx import Document
     from docx.enum.text import WD_ALIGN_PARAGRAPH
-    from docx.shared import Pt
+    from docx.shared import Cm, Pt
 
     _DOCX_DISPONIBLE = True
 except ImportError:
     Document = None  # type: ignore[misc,assignment]
     WD_ALIGN_PARAGRAPH = None  # type: ignore[misc,assignment]
+    Cm = None  # type: ignore[misc,assignment]
     Pt = None  # type: ignore[misc,assignment]
     _DOCX_DISPONIBLE = False
 
@@ -33,11 +34,16 @@ class WordDossierCompiler:
         """True si python-docx está instalado y se puede compilar Word."""
         return _DOCX_DISPONIBLE
 
-    def compile(self, markdown_content: str, output_docx_path: str, title: str = "") -> Dict[str, Any]:
-        """Escribe `markdown_content` como documento Word en `output_docx_path`."""
-        if not _DOCX_DISPONIBLE or Document is None or Pt is None or WD_ALIGN_PARAGRAPH is None:
+    def compile(self, markdown_content: str, output_docx_path: str, title: str = "",
+                tamano: str = "a4") -> Dict[str, Any]:
+        """Escribe `markdown_content` como documento Word en `output_docx_path`.
+
+        `tamano`: "a4" (por defecto) u "oficio" chileno (21,59 × 33,02 cm) — nunca carta gringa.
+        """
+        if not _DOCX_DISPONIBLE or Document is None or Pt is None or Cm is None or WD_ALIGN_PARAGRAPH is None:
             return {"ok": False, "motivo": "python-docx no está instalado"}
         documento = Document()
+        self._configurar_pagina(documento, tamano)
         normal: Any = documento.styles["Normal"]
         normal.font.name = "Times New Roman"
         normal.font.size = Pt(12)
@@ -50,6 +56,15 @@ class WordDossierCompiler:
         os.makedirs(carpeta, exist_ok=True)
         documento.save(output_docx_path)
         return {"ok": True, "ruta": output_docx_path, "caracteres": len(markdown_content)}
+
+    @staticmethod
+    def _configurar_pagina(documento: Any, tamano: str) -> None:
+        """Hoja forense: A4 (por defecto) u oficio chileno; nada de carta gringa."""
+        dimensiones = {"a4": (21.0, 29.7), "oficio": (21.59, 33.02)}
+        ancho_cm, alto_cm = dimensiones.get(str(tamano).strip().lower(), dimensiones["a4"])
+        for seccion in documento.sections:
+            seccion.page_width = Cm(ancho_cm)
+            seccion.page_height = Cm(alto_cm)
 
     # ── internos ────────────────────────────────────────────────────────────────────────────
     def _agregar_linea(self, documento: Any, linea: str) -> None:
@@ -68,12 +83,14 @@ class WordDossierCompiler:
             documento.add_paragraph()
         elif despojado.startswith("> "):
             parrafo = documento.add_paragraph()
+            parrafo.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
             parrafo.paragraph_format.left_indent = Pt(28)
             self._runs_con_formato(parrafo, despojado[2:].strip())
             for run in parrafo.runs:
                 run.italic = True
         elif despojado.startswith(("- ", "* ")) and len(despojado) > 2:
             parrafo = documento.add_paragraph(style="List Bullet")
+            parrafo.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
             self._runs_con_formato(parrafo, despojado[2:].strip())
         else:
             parrafo = documento.add_paragraph()
