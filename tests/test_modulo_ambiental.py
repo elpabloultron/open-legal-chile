@@ -138,3 +138,46 @@ def test_sin_texto_se_describe_el_fallo_y_no_se_cita_la_materia(tmp_path, monkey
     fragmento = res["resultados"][0]["fragmento"]
     assert "Huasco Altinos" in fragmento
     assert "Contencioso Ambiental / SMA / SEA" not in fragmento
+
+
+def test_el_pasaje_sale_del_fallo_y_no_de_la_ficha(tmp_path, monkeypatch):
+    """El archivo abre con la ficha; el fallo viene después del primer separador."""
+    mod = _modulo()
+    monkeypatch.setattr(mod, "BASE", tmp_path)
+    (tmp_path / "s.md").write_text(
+        "# Reclamación — R-1-2025\n\n- **Rol:** R-1-2025\n- **Carátula:** Vecinos con SMA por cautelares\n\n---\n"
+        + "Considerando: la cautelar de ruido se acoge en el cuerpo del fallo. " + "w" * 6000,
+        encoding="utf-8")
+
+    extracto = mod._extracto_de_sentencia("s.md", ["cautelares"])
+
+    assert "cuerpo del fallo" in extracto
+    assert "**Rol:**" not in extracto
+
+
+def test_la_consulta_reserva_cupos_para_documentos(tmp_path, monkeypatch):
+    """Con la jurisprudencia tapando todos los cupos, la consulta salía mono-temática."""
+    mod = _modulo()
+    monkeypatch.setattr(mod, "BASE", tmp_path)
+    monkeypatch.setattr(mod, "_archivo_por_rol", lambda: {})
+
+    import tribunales_ambientales_connector
+
+    class Conector:
+        def search_jurisprudencia(self, consulta):
+            return [{"tribunal": "2TA", "rol": f"R-{i}-2025", "titulo": f"Sentencia {i} humedal",
+                     "caratula": f"Caso {i}", "materia": "SMA", "fecha": "2025-01-01", "tipo": "Reclamación"}
+                    for i in range(10)]
+
+    monkeypatch.setattr(tribunales_ambientales_connector, "TribunalesAmbientalesClient", Conector)
+    (tmp_path / "guia.md").write_text("Guía sobre humedales urbanos y sus criterios de delimitación.",
+                                      encoding="utf-8")
+    monkeypatch.setattr(mod, "_filas_colecciones", lambda: [{
+        "coleccion": "publicaciones_ambientales", "titulo": "Guía de humedales", "tipo": "guia",
+        "tribunal": "", "archivo": "guia.md", "url_oficial": ""}])
+
+    res = mod.consulta_ambiental("humedales", limite=6)
+
+    colecciones = [x["coleccion"] for x in res["resultados"]]
+    assert "publicaciones_ambientales" in colecciones
+    assert colecciones.count("jurisprudencia_ambiental") <= 5

@@ -176,18 +176,34 @@ def _archivo_por_rol() -> dict[tuple, str]:
 
 
 def _fragmento(bajo: str, texto: str, terminos: list[str], ancho: int = 360) -> str:
-    """El pasaje literal alrededor del primer término hallado (recibe ya normalizado `bajo`)."""
+    """El pasaje literal alrededor del mejor término hallado (recibe ya normalizado `bajo`).
+
+    El ancla es el término más largo que calza —«cautelares» antes que «ante»—: un término
+    genérico aparece en cualquier parte y ancla el pasaje donde no hay nada que citar. Los
+    bordes se ajustan a palabras completas.
+    """
     pos = -1
+    largo = 0
     for t in terminos:
         for v in _variantes(t):
             p = bajo.find(v)
-            if p >= 0 and (pos < 0 or p < pos):
-                pos = p
+            if p < 0:
+                continue
+            if len(t) > largo or (len(t) == largo and (pos < 0 or p < pos)):
+                pos, largo = p, len(t)
     if pos < 0:
         return ""
     ini = max(0, pos - ancho // 3)
     fin = min(len(texto), pos + ancho)
-    frag = re.sub(r"\s+", " ", texto[ini:fin]).strip()
+    if ini > 0:
+        espacio = texto.find(" ", ini)
+        if 0 <= espacio - ini <= 60:
+            ini = espacio + 1
+    if fin < len(texto):
+        espacio = texto.rfind(" ", ini, fin)
+        if 0 <= fin - espacio <= 80:
+            fin = espacio
+    frag = re.sub(r"\s+", " ", texto[ini:fin]).strip().replace("**", "")
     return ("… " if ini else "") + frag + (" …" if fin < len(texto) else "")
 
 
@@ -197,8 +213,9 @@ _MIN_TEXTO_SENTENCIA = 4000   # bajo esto el archivo es una ficha, no el texto d
 def _extracto_de_sentencia(archivo: str, terminos: list[str]) -> str:
     """El pasaje literal de la sentencia si su texto completo está en disco.
 
-    Las fichas de ~1 KB no son el texto del fallo: ahí se devuelve vacío y quien llama
-    describe el documento en vez de citarlo como si fuera su texto.
+    Los archivos abren con la ficha (bullets de metadata) y el fallo viene después del primer
+    separador: se cita del cuerpo, nunca de la ficha. Las fichas de ~1 KB no son texto del fallo:
+    ahí se devuelve vacío y quien llama describe el documento en vez de citarlo como si fuera suyo.
     """
     if not archivo:
         return ""
@@ -209,7 +226,10 @@ def _extracto_de_sentencia(archivo: str, terminos: list[str]) -> str:
         texto, bajo = _texto_cacheado(ruta)
     except OSError:
         return ""
-    return _fragmento(bajo, texto, terminos)
+    corte = texto.find("\n---\n")
+    if 0 <= corte <= 4000 and len(texto) - corte > 2000:
+        texto, bajo = texto[corte:], bajo[corte:]
+    return _fragmento(bajo, texto, terminos, ancho=500)
 
 
 def _buscar_en_archivo(reg: dict, terminos: list[str]) -> dict | None:
@@ -298,9 +318,20 @@ def consulta_ambiental(consulta: str, limite: int = 8, incluir_subgrafo: bool = 
         faltantes.append("colecciones locales")
 
     # Las sentencias (9) van primero; entre documentos de igual puntaje gana el más breve,
-    # que es el más específico frente a compendios y manuales.
-    resultados.sort(key=lambda x: (-x["puntaje"], x.get("tamano", 0)))
-    resultados = resultados[: max(1, limite)]
+    # que es el más específico frente a compendios y manuales. Pero con la jurisprudencia
+    # tapando todos los cupos la consulta salía mono-temática: se reserva hasta un tercio
+    # del cupo para documentos (doctrina, guías, manuales) — la otra pata del corpus.
+    sentencias = sorted((r for r in resultados if r["coleccion"] == "jurisprudencia_ambiental"),
+                        key=lambda x: (-x["puntaje"], x.get("tamano", 0)))
+    documentos = sorted((r for r in resultados if r["coleccion"] != "jurisprudencia_ambiental"),
+                        key=lambda x: (-x["puntaje"], x.get("tamano", 0)))
+    tope = max(1, limite)
+    cupo_docs = min(len(documentos), tope // 3)
+    seleccion = sentencias[: tope - cupo_docs] + documentos[: cupo_docs]
+    if len(seleccion) < tope:
+        resto = sentencias[tope - cupo_docs:] + documentos[cupo_docs:]
+        seleccion += resto[: tope - len(seleccion)]
+    resultados = sorted(seleccion, key=lambda x: (-x["puntaje"], x.get("tamano", 0)))
 
     citas = []
     for r in resultados:
