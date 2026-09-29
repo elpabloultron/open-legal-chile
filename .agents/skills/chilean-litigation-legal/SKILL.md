@@ -145,3 +145,10 @@ Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a es
 
 ### Salida
 Markdown + CSV con columnas: Elemento / Norma / Evidencia / Fuente (folio) / Brecha.
+
+## Informes en derecho (estándar del producto)
+
+Todo informe en derecho describe **los hechos del caso**, cita **ley, doctrina y jurisprudencia**, y
+**transcribe íntegro en el cuerpo el artículo de cada norma citada**, con su cita `[BCN - …]` y su
+enlace; el bloque `Fuentes:` cierra el documento. Se genera con `generar_documento` tipo `informe`
+(entregable Word). Una cita sin su texto literal no es citable: va «sin fuente verificable».

@@ -195,7 +195,7 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 53. `skills_listar`: las 18 skills jurídicas y los 19 agentes reales del producto.
 54. `skill_ver`: el contenido completo de una skill, para que el harness aplique su criterio.
 55. `critique_documento`: auditoría forense de un borrador (5 dimensiones).
-56. `generar_documento`: escrito completo con plantilla chilena, entregado en Word (.docx editable).
+56. `generar_documento`: escrito completo con plantilla chilena — demanda, protección, laboral, PPA — o informe en derecho (tipo informe): describe los hechos del caso, transcribe íntegro el artículo de cada norma citada con su cita, e incorpora doctrina y jurisprudencia; entregado en Word (.docx editable).
 57. `entrevista_estudio`: entrevista de arranque del despacho sin consola (guarda el perfil de práctica).
 58. `ambiental_consulta_maestra`: el módulo especial de derecho ambiental (§2 quinquies). Reúne las 886 sentencias de los Tribunales Ambientales, los anuarios y boletines 2TA/3TA, la biblioteca ambiental (libros del Concurso Nacional de Comentarios de Sentencias, informes en derecho, foros, manuales y material docente) y la doctrina ambiental; devuelve plan, resultados con texto literal y citas `[Hugging Face - <archivo>]`. Con `incluir_subgrafo=true` añade el subgrafo de LegalGraphify con su ahorro de tokens.
 
