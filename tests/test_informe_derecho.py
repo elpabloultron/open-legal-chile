@@ -96,3 +96,25 @@ def test_detecta_normas_mencionadas_en_los_textos(tmp_path, monkeypatch):
         hechos=HECHOS, dictamen="Se acoja.")
 
     assert any("Código Civil" in r for r in capturadas["refs"])
+
+
+def test_textos_de_normas_refresca_el_servidor_y_pide_sin_recorte(monkeypatch):
+    """El lote real corre con los globales del servidor inyectados y sin el recorte de 1200."""
+    import servidor.corpus as corpus
+
+    visto = {}
+
+    def _refrescar():
+        visto["refrescado"] = True
+
+    def _lote(referencias, limite=1200):
+        visto["limite"] = limite
+        return {"citas": [], "faltantes": []}
+
+    monkeypatch.setattr(corpus, "_refrescar", _refrescar)
+    monkeypatch.setattr(corpus, "_citas_por_lote", _lote)
+
+    res = informe_derecho._textos_de_normas(["Código Civil art. 1545"])
+
+    assert visto == {"refrescado": True, "limite": None}
+    assert res == {"citas": [], "faltantes": []}

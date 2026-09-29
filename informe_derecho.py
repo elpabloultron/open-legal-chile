@@ -24,9 +24,10 @@ _TOPE_TEXTO = 8000  # una ley entera no cabe en el cuerpo; los artículos sí en
 
 def _textos_de_normas(referencias: List[str]) -> Dict[str, Any]:
     """El texto literal COMPLETO de cada norma (sin el recorte de 1200 de la conversación)."""
-    from servidor.corpus import _citas_por_lote
+    from servidor import corpus as _corpus
 
-    return _citas_por_lote(list(referencias), limite=None)
+    _corpus._refrescar()  # inyecta los globales del servidor (clientes y helpers) como en el despacho
+    return _corpus._citas_por_lote(list(referencias), limite=None)
 
 
 def _doctrina_para(termino: str, limite: int = 3) -> List[Dict[str, Any]]:
