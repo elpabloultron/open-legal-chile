@@ -68,3 +68,35 @@ def test_check_configuration_sovereign():
     cfg = check_configuration()
     assert cfg.get("OPEN_SOURCE_SOBERANO") is True
     assert "bcn" in cfg.get("CONNECTORS_OPEN", {})
+
+
+def test_critique_flag_informe_sin_hechos():
+    engine = LegalCritiqueEngine()
+    texto = ("INFORME\n\nI. Cuestión jurídica\n¿Procede la acción?\n\n"
+             "III. Marco normativo\n[BCN - Código Civil, Art. 1545]\n")
+
+    res = engine.critique(texto, provider="soberano")
+
+    assert "hechos" in res["critique"].lower()
+
+
+def test_critique_flag_cita_sin_transcripcion():
+    engine = LegalCritiqueEngine()
+    texto = ("HECHOS\n" + ("El proveedor incumplió el contrato durante meses. " * 8) +
+             "\nLa norma aplicable es el artículo 1545 del Código Civil.")
+
+    res = engine.critique(texto, provider="soberano")
+
+    assert "texto literal" in res["critique"].lower()
+
+
+def test_critique_conforme_con_hechos_y_transcripcion():
+    engine = LegalCritiqueEngine()
+    texto = ("HECHOS\n" + ("El proveedor incumplió el contrato durante meses. " * 8) +
+             "\nEl artículo 1545 del Código Civil dispone: «" + ("La buena fe obliga a lo pactado. " * 6) + "»")
+
+    res = engine.critique(texto, provider="soberano")
+    crit = res["critique"]
+
+    assert "No se describe un capítulo de hechos" not in crit
+    assert "sin transcribir" not in crit.lower()
