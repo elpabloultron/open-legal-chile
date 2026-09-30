@@ -26,7 +26,7 @@ def _hashear(texto: str) -> str:
 
 def test_todas_las_obras_tienen_su_bloque_de_enlaces():
     sin_bloque = [p for p in (RAIZ / "doctrina").rglob("*.md")
-                  if p.name != "README.md" and MARCADOR not in p.read_text(encoding="utf-8")]
+                  if p.name != "README.md" and "revistas" not in p.parts and MARCADOR not in p.read_text(encoding="utf-8")]
     sin_bloque += [p for p in (RAIZ / "corpus_guias_aj").rglob("*.md")
                    if p.name != "README.md" and MARCADOR not in p.read_text(encoding="utf-8")]
     assert not sin_bloque, f"{len(sin_bloque)} obras sin enlaces: {sin_bloque[:5]}"

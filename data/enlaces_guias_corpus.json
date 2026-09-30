@@ -1,6 +1,6 @@
 {
  "guias": 24,
- "claves_de_norma_en_el_corpus": 3361,
+ "claves_de_norma_en_el_corpus": 4371,
  "enlaces": {
   "Guia-aplicada-para-la-determinacion-de-penas": [
    {
@@ -78,45 +78,45 @@
   ],
   "Guia_Audiencia_Conciliacion_Laboral_v2.1": [
    {
-    "archivo": "academia_judicial/MD36-Autocuidado-y-adaptacion-a-nuevas-modalidades-de-trabajo.md",
-    "peso": 0.111,
+    "archivo": "revistas/rdpucv/2019/S0718-68512019000200277_demanda_por_distintos_danos_morales_de_la_teoria_a_la_motiva.md",
+    "peso": 0.2,
     "claves": [
      "LEY|16744"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-36-AUTOCUIDADO-Y-ADAPTACION-NUEVAS-MODALIDADESDE-TRABAJO.md",
-    "peso": 0.111,
+    "archivo": "revistas/rdpucv/1984/134_algunos_comentarios_sobre_problemas_juridicos_puntuales_suscitados_en_la_aplicac.md",
+    "peso": 0.2,
     "claves": [
      "LEY|16744"
     ]
    },
    {
-    "archivo": "civil/barros_bourie_responsabilidad/03_presunciones_de_culpa_y_responsabilidad_estricta.md",
-    "peso": 0.083,
+    "archivo": "revistas/rdpucv/2012/S0718-68512012000200006_evolucion_del_dano_moral_por_termino_del_contrato_de_trabajo.md",
+    "peso": 0.167,
     "claves": [
      "LEY|16744"
     ]
    },
    {
-    "archivo": "apuntes_orrego/Sucesorio 6 donaciones revocables acrecimiento sustitución y primera parte sucesión forzos.md",
-    "peso": 0.077,
+    "archivo": "revistas/rdpucv/1989/239_la_prticipacion_de_los_trabajadores_en_la_empresa_segun_el_ordenamiento_legal_ch.md",
+    "peso": 0.167,
     "claves": [
-     "LEY|14908"
+     "LEY|16744"
     ]
    },
    {
-    "archivo": "civil/ramos_pazos_familia/02_compensacion_economica_y_alimentos.md",
-    "peso": 0.071,
+    "archivo": "revistas/rdpucv/2016/S0718-68512016000200011_nuevos_riesgos_laborales_la_tutela_de_los_trabajadores_agrar.md",
+    "peso": 0.143,
     "claves": [
-     "LEY|14908"
+     "LEY|16744"
     ]
    },
    {
-    "archivo": "academia_judicial/12_Gobierno-Judicial.md",
-    "peso": 0.059,
+    "archivo": "revistas/rdpucv/2021/S0718-68512021000200031_teletrabajo_como_nuevo_paradigma_laboral_algunos_aspectos_cr.md",
+    "peso": 0.125,
     "claves": [
-     "LEY|14908"
+     "LEY|16744"
     ]
    }
   ],
@@ -165,11 +165,10 @@
     ]
    },
    {
-    "archivo": "academia_judicial/12_Gobierno-Judicial.md",
-    "peso": 0.1,
+    "archivo": "revistas/rdpucv/2018/S0718-68512018000100159_sobre_el_caracter_normativo_y_tendencialmente_vinculante_de_.md",
+    "peso": 0.111,
     "claves": [
-     "LEY|19968",
-     "LEY|20886"
+     "LEY|19968"
     ]
    }
   ],
@@ -270,14 +269,14 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
+    "archivo": "revistas/rdpucv/2023/S0718-68512023000200005_liquidacion_de_empresas_viables_en_chile_reflexiones_en_torn.md",
     "peso": 0.056,
     "claves": [
-     "LEY|20880"
+     "LEY|19346"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md",
+    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
     "peso": 0.056,
     "claves": [
      "LEY|20880"
@@ -316,14 +315,14 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
+    "archivo": "revistas/rdpucv/2023/S0718-68512023000200005_liquidacion_de_empresas_viables_en_chile_reflexiones_en_torn.md",
     "peso": 0.056,
     "claves": [
-     "LEY|20880"
+     "LEY|19346"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md",
+    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
     "peso": 0.056,
     "claves": [
      "LEY|20880"
@@ -362,14 +361,14 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
+    "archivo": "revistas/rdpucv/2023/S0718-68512023000200005_liquidacion_de_empresas_viables_en_chile_reflexiones_en_torn.md",
     "peso": 0.056,
     "claves": [
-     "LEY|20880"
+     "LEY|19346"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-50-ATENCION-DE-USUARIOS-EN-SITUACIONES-COMPLEJAS.md",
+    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
     "peso": 0.056,
     "claves": [
      "LEY|20880"
@@ -377,6 +376,25 @@
    }
   ],
   "Guia_Procedimiento_Abreviado_2025_v1.1": [
+   {
+    "archivo": "revistas/rdpucv/2019/S0718-68512019000100255_las_penas_alternativas_a_la_carcel_en_chile_un_analisis_desd.md",
+    "peso": 0.111,
+    "claves": [
+     "CP|art_11",
+     "LEY|18216",
+     "LEY|19970",
+     "LEY|20000"
+    ]
+   },
+   {
+    "archivo": "revistas/rdpucv/2011/S0718-68512011000100014_discrecionalidad_del_ministerio_publico_y_objeto_del_juicio_.md",
+    "peso": 0.103,
+    "claves": [
+     "CP|art_407",
+     "LEY|18216",
+     "LEY|20084"
+    ]
+   },
    {
     "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
     "peso": 0.091,
@@ -417,23 +435,6 @@
      "LEY|18216",
      "LEY|20000",
      "LEY|20084"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md",
-    "peso": 0.068,
-    "claves": [
-     "CPP|art_297",
-     "CPP|art_340",
-     "LEY|20000"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md",
-    "peso": 0.061,
-    "claves": [
-     "CPP|art_297",
-     "LEY|18216"
     ]
    }
   ],
@@ -479,17 +480,16 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md",
-    "peso": 0.056,
+    "archivo": "revistas/rdpucv/2015/S0718-68512015000200005_autoria_y_participacion_en_el_delito_de_produccion_de_materi.md",
+    "peso": 0.057,
     "claves": [
-     "CPP|art_102",
      "CP|art_1",
      "LEY|20084"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md",
-    "peso": 0.055,
+    "archivo": "academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md",
+    "peso": 0.056,
     "claves": [
      "CPP|art_102",
      "CP|art_1",
@@ -518,6 +518,16 @@
      "CPP|art_449",
      "CPP|art_5",
      "CPP|art_9"
+    ]
+   },
+   {
+    "archivo": "revistas/rdpucv/2019/S0718-68512019000100255_las_penas_alternativas_a_la_carcel_en_chile_un_analisis_desd.md",
+    "peso": 0.087,
+    "claves": [
+     "LEY|18216",
+     "LEY|19970",
+     "LEY|20000",
+     "LEY|20603"
     ]
    },
    {
@@ -551,18 +561,6 @@
      "CP|art_17",
      "CP|art_4",
      "LEY|18216"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md",
-    "peso": 0.065,
-    "claves": [
-     "CPP|art_15",
-     "CPP|art_31",
-     "CPP|art_38",
-     "CPP|art_4",
-     "CPP|art_468",
-     "CPP|art_8"
     ]
    }
   ],
@@ -640,6 +638,16 @@
   ],
   "Guia_audiencia_sobreseimineto_DNP_cautela_solicitud_diligencias_2025_V1.1": [
    {
+    "archivo": "revistas/rdpucv/2011/S0718-68512011000200013_la_accion_penal_y_la_victima_en_el_derecho_chileno.md",
+    "peso": 0.083,
+    "claves": [
+     "CPP|art_259",
+     "CPP|art_53",
+     "CPR|art_186",
+     "CPR|art_19"
+    ]
+   },
+   {
     "archivo": "academia_judicial/RPPJ.md",
     "peso": 0.062,
     "claves": [
@@ -663,6 +671,15 @@
     ]
    },
    {
+    "archivo": "revistas/rdpucv/2012/S0718-68512012000100014_es_el_tribunal_constitucional_el_supremo_interprete_de_la_co.md",
+    "peso": 0.048,
+    "claves": [
+     "CPR|art_186",
+     "CPR|art_19",
+     "CPR|art_93"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md",
     "peso": 0.044,
     "claves": [
@@ -676,25 +693,6 @@
    },
    {
     "archivo": "academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md",
-    "peso": 0.043,
-    "claves": [
-     "CPP|art_83",
-     "CPP|art_93",
-     "CPR|art_19",
-     "LEY|20084"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md",
-    "peso": 0.043,
-    "claves": [
-     "COT|art_5",
-     "CPP|art_93",
-     "LEY|20084"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD-59-USO-DE-LA-FUERZA.md",
     "peso": 0.043,
     "claves": [
      "CPP|art_83",
@@ -736,6 +734,16 @@
     ]
    },
    {
+    "archivo": "revistas/rdpucv/2023/S0718-68512023000100087_acreedores_involuntarios_en_el_derecho_concursal_reflexiones.md",
+    "peso": 0.133,
+    "claves": [
+     "LEY|19968",
+     "LEY|20",
+     "LEY|21",
+     "LEY|38"
+    ]
+   },
+   {
     "archivo": "academia_judicial/01_Tribunales-de-Familia-nociones-basicas-de-org-y-funcionamiento.md",
     "peso": 0.111,
     "claves": [
@@ -746,22 +754,12 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md",
+    "archivo": "revistas/rdpucv/2022/S0718-68512022000200063_subsistencia_de_la_reserva_legal_de_cabotaje_de_carga_en_chi.md",
     "peso": 0.111,
     "claves": [
-     "LEY|20066",
-     "LEY|21057",
-     "LEY|21302"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md",
-    "peso": 0.108,
-    "claves": [
-     "LEY|19968",
-     "LEY|20066",
-     "LEY|20427",
-     "LEY|21430"
+     "LEY|19",
+     "LEY|20",
+     "LEY|21"
     ]
    }
   ],
@@ -833,6 +831,17 @@
   ],
   "Guia_determinación_de_penas_2025_v1.1": [
    {
+    "archivo": "revistas/rdpucv/2018/S0718-68512018000200035_facultades_autonomas_de_la_policia_en_el_sistema_procesal_pe.md",
+    "peso": 0.147,
+    "claves": [
+     "LEY|18216",
+     "LEY|18290",
+     "LEY|19327",
+     "LEY|20084",
+     "LEY|20931"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
     "peso": 0.1,
     "claves": [
@@ -871,23 +880,11 @@
     ]
    },
    {
-    "archivo": "academia_judicial/VIF-fenomeno-psicosocial-y-marco-regulatorio.md",
-    "peso": 0.075,
+    "archivo": "revistas/rdpucv/2019/S0718-68512019000200177_dos_proyecciones_de_la_teoria_del_delito_en_la_imposicion_de.md",
+    "peso": 0.095,
     "claves": [
-     "LEY|17798",
-     "LEY|18216",
-     "LEY|20066"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD57-Terrorismo.md",
-    "peso": 0.074,
-    "claves": [
-     "CP|art_1",
-     "LEY|17798",
-     "LEY|20000",
-     "LEY|20393",
-     "LEY|21121"
+     "LEY|20084",
+     "LEY|20931"
     ]
    }
   ],
@@ -925,6 +922,15 @@
     ]
    },
    {
+    "archivo": "revistas/rdpucv/2023/S0718-68512023000100087_acreedores_involuntarios_en_el_derecho_concursal_reflexiones.md",
+    "peso": 0.088,
+    "claves": [
+     "LEY|14908",
+     "LEY|19968",
+     "LEY|21"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
     "peso": 0.085,
     "claves": [
@@ -945,15 +951,6 @@
      "LEY|21302",
      "LEY|21430"
     ]
-   },
-   {
-    "archivo": "academia_judicial/01_Tribunales-de-Familia-nociones-basicas-de-org-y-funcionamiento.md",
-    "peso": 0.075,
-    "claves": [
-     "LEY|14908",
-     "LEY|19968",
-     "LEY|21430"
-    ]
    }
   ],
   "Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1": [
@@ -963,6 +960,14 @@
     "claves": [
      "CP|art_15",
      "CP|art_17"
+    ]
+   },
+   {
+    "archivo": "revistas/rdpucv/2019/S0718-68512019000100255_las_penas_alternativas_a_la_carcel_en_chile_un_analisis_desd.md",
+    "peso": 0.05,
+    "claves": [
+     "CP|art_11",
+     "LEY|19970"
     ]
    },
    {
@@ -998,16 +1003,6 @@
      "CPP|art_93",
      "LEY|21057"
     ]
-   },
-   {
-    "archivo": "academia_judicial/MD56-Peritajes-en-procedimientos-reformados_-Analisis-y-valoracion.md",
-    "peso": 0.036,
-    "claves": [
-     "CPP|art_261",
-     "CPP|art_276",
-     "CPP|art_5",
-     "LEY|21394"
-    ]
    }
   ],
   "Guia_para_la_conduccion_de_las_Audiencias_de_Casos_de_Responsabilidad_Penal_Adolecente_202": [
@@ -1032,6 +1027,17 @@
      "LEY|20066",
      "LEY|21057",
      "LEY|21302"
+    ]
+   },
+   {
+    "archivo": "revistas/rdpucv/2018/S0718-68512018000200035_facultades_autonomas_de_la_policia_en_el_sistema_procesal_pe.md",
+    "peso": 0.109,
+    "claves": [
+     "LEY|18216",
+     "LEY|18290",
+     "LEY|19327",
+     "LEY|20084",
+     "LEY|20931"
     ]
    },
    {
@@ -1062,16 +1068,6 @@
      "LEY|20066",
      "LEY|21057",
      "LEY|21302"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md",
-    "peso": 0.098,
-    "claves": [
-     "LEY|18216",
-     "LEY|20000",
-     "LEY|20084",
-     "LEY|21430"
     ]
    }
   ],
@@ -1107,6 +1103,22 @@
     ]
    },
    {
+    "archivo": "revistas/rdpucv/2007/S0718-68512007000100007_una_mirada_critica_a_la_regulacion_de_las_medidas_de_segurid.md",
+    "peso": 0.133,
+    "claves": [
+     "LEY|16618",
+     "LEY|19968"
+    ]
+   },
+   {
+    "archivo": "revistas/rdpucv/2014/S0718-68512014000200006_la_titularidad_del_cuidado_personal_y_el_ejercicio_de_la_rel.md",
+    "peso": 0.118,
+    "claves": [
+     "LEY|16618",
+     "LEY|19968"
+    ]
+   },
+   {
     "archivo": "academia_judicial/13_Regimen-de-alimentos-cuidado-personal-y-RDR.md",
     "peso": 0.1,
     "claves": [
@@ -1115,61 +1127,47 @@
      "LEY|19",
      "LEY|19968"
     ]
-   },
-   {
-    "archivo": "academia_judicial/aj_proteccion_familia.md",
-    "peso": 0.1,
-    "claves": [
-     "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/aj_audiencias_familia.md",
-    "peso": 0.1,
-    "claves": [
-     "LEY|19968"
-    ]
    }
   ],
   "Guia_sobre_inteligencia_artificial_para_juezas_y_jueces": [
    {
-    "archivo": "civil/lopez_santa_maria_contratos/01_principios_contractuales_y_buena_fe.md",
+    "archivo": "revistas/rdpucv/2019/S0718-68512019000200301_comentario_a_la_sentencia_rol_n_894_eo_2017_del_tercer_juzga.md",
+    "peso": 1.0,
+    "claves": [
+     "LEY|19496"
+    ]
+   },
+   {
+    "archivo": "revistas/rdpucv/2021/S0718-68512021000100004_la_legitimacion_activa_en_procesos_correctivos_y_sancionator.md",
+    "peso": 0.25,
+    "claves": [
+     "LEY|19496"
+    ]
+   },
+   {
+    "archivo": "revistas/rdpucv/1998/407_particularidades_de_los_contratos_de_adhesion_en_la_ley_n_19_496.md",
+    "peso": 0.25,
+    "claves": [
+     "LEY|19496"
+    ]
+   },
+   {
+    "archivo": "revistas/rdpucv/2013/S0718-68512013000200006_la_estafa_como_delito_economico.md",
+    "peso": 0.2,
+    "claves": [
+     "LEY|19496"
+    ]
+   },
+   {
+    "archivo": "revistas/rdpucv/2018/S0718-68512018000200173_las_funciones_de_la_razonabilidad_en_el_derecho_privado_chil.md",
     "peso": 0.167,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md",
-    "peso": 0.042,
-    "claves": [
-     "LEY|19496"
-    ]
-   },
-   {
-    "archivo": "apuntes_orrego/Contrato de prenda.md",
-    "peso": 0.036,
-    "claves": [
-     "LEY|19496"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/Derecho-informatico.md",
-    "peso": 0.026,
-    "claves": [
-     "LEY|19496"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md",
-    "peso": 0.026,
-    "claves": [
-     "LEY|19496"
-    ]
-   },
-   {
-    "archivo": "apuntes_orrego/La Propiedad.md",
-    "peso": 0.023,
+    "archivo": "revistas/rdpucv/2011/S0718-68512011000200003_la_distribucion_del_riesgo_y_la_buena_fe_a_proposito_del_err.md",
+    "peso": 0.167,
     "claves": [
      "LEY|19496"
     ]

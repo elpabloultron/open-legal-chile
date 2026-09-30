@@ -24,6 +24,8 @@ panel_expertos_cache/
 pjud_cache/
 exports/
 doctrina_raw/
+data/rdpucv/pdfs/
+data/rdpucv/pdfs_scielo/
 *.db
 openlegal_cache.db
 casos/
@@ -101,6 +103,10 @@ jurisprudencia_cs/*.md
 jurisprudencia_ambiental/*/
 jurisprudencia_ambiental/*.md
 !jurisprudencia_ambiental/README.md
+
+# Revistas de derecho (RDPUCV y periódicos jurídicos): se publican en Hugging Face
+doctrina/revistas/**/*.md
+!doctrina/revistas/README.md
 
 # Al recuperar el repositorio se aparta el .git dañado: nunca dentro del árbol
 .git_dañado_*/
