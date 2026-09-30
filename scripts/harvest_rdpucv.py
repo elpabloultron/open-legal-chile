@@ -13,14 +13,15 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-try:
-    import defusedxml.ElementTree as ET
-except ImportError:
-    import xml.etree.ElementTree as ET  # nosec B405
+import defusedxml.ElementTree as ET
 from typing import Any, Dict, List, Optional
 
+ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
+sys.path.insert(0, str(ROOT_DIR))
+from config import safe_urlopen
+
 OAI_ENDPOINT = "https://www.projurepucv.cl/index.php/rderecho/oai"
-DATA_DIR = pathlib.Path(__file__).parent.parent / "data" / "rdpucv"
+DATA_DIR = ROOT_DIR / "data" / "rdpucv"
 MANIFEST_PATH = DATA_DIR / "catalogo_articulos.jsonl"
 
 NS = {
@@ -156,7 +157,7 @@ def cosechar_catalogo_completo(max_reintentos: int = 5) -> List[Dict[str, Any]]:
         for intento in range(1, max_reintentos + 1):
             try:
                 req = urllib.request.Request(url, headers=headers)
-                with urllib.request.urlopen(req, timeout=30) as resp:
+                with safe_urlopen(req, timeout=30) as resp:
                     raw_xml = resp.read()
                 tree = ET.fromstring(raw_xml)  # nosec B314
                 exito = True
