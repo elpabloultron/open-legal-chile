@@ -1,12 +1,20 @@
 """Herramientas del corpus: consulta maestra, doctrina, grafo de conocimiento y biblioteca."""
 from typing import TYPE_CHECKING, Any, Optional
+from citas_legales import CODIGOS, detectar_normas, formatear_cita
+
+
+def _url_codigo_bcn(obra: str) -> str:
+    try:
+        from bcn_connector import CODIGOS_REPUBLICA
+        return f"https://www.bcn.cl/leychile/navegar?idNorma={CODIGOS_REPUBLICA[obra.lower()]['idNorma']}"
+    except Exception:
+        return "https://www.bcn.cl/leychile/"
 
 if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de mcp_server
     from mcp_server import (
         CODIGOS,
         Dict,
         List,
-        _bcn_para_citas,
         _citas_en_items,
         _con_avisos,
         _doctrina_para_consulta,
@@ -15,7 +23,6 @@ if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de 
         _normas_para_consulta,
         _registro_estatal,
         _subgrafo_para_consulta,
-        _url_codigo_bcn,
         aj_client,
         build_quick_graph,
         detectar_normas,
@@ -28,6 +35,12 @@ if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de 
         library_sync_mgr,
         search_doctrina,
     )
+
+
+def _bcn_para_citas():
+    from config import servidor_actual
+    _m = servidor_actual()
+    return getattr(_m, "_bcn_para_citas", lambda: None)()
 
 
 def _refrescar() -> None:

@@ -79,9 +79,11 @@ def menu_interactivo():
         print(" [16] 🔄 Actualizaciones: Comprobar versión más reciente y auto-actualizar")
         print(" [17] 🧠 LegalGraphify: Consultar Subgrafo de Conocimiento (ahorro mediano 99,9 %: ficha 91 vs. obra 96.536 tokens)")
         print(" [18] 🤖 Agentes Jurídicos de IA: Orquestación autónoma multi-herramienta")
+        print(" [19] 📂 Espacio de Casos: Crear expediente local con ingesta MD y subgrafo del caso")
+        print(" [20] 🧠 Búsqueda Vectorial Híbrida: Consultar 9 Códigos y CPR (Dense + FTS5)")
         print(" [0] 🚪 Salir")
 
-        opc = input("\n👉 Selecciona una opción (0-18): ").strip()
+        opc = input("\n👉 Selecciona una opción (0-20): ").strip()
 
         if opc == "0":
             print("\n👋 ¡Hasta luego! Cerrando Open Legal Chile.\n")
@@ -554,7 +556,28 @@ def menu_interactivo():
             except Exception as e:
                 print(f"Error en motor de agentes: {e}")
 
+        elif opc == "19":
+            print("\n--- 📂 ESPACIO DE CASOS Y SUBGRAFO LOCAL ---")
+            entrada = input("Ruta de carpeta, archivo o texto del caso: ").strip()
+            if entrada:
+                import case_intake
+                analisis = case_intake.caso_analizar(entrada)
+                print("\n" + analisis.get("resumen", ""))
+
+        elif opc == "20":
+            print("\n--- 🧠 BÚSQUEDA VECTORIAL HÍBRIDA (9 CÓDIGOS Y CPR) ---")
+            from vector_engine import obtener_motor_vectorial
+            motor = obtener_motor_vectorial()
+            q = input("Consulta conceptual (ej. 'fuerza obligatoria del contrato'): ").strip()
+            if q:
+                hits = motor.buscar_hibrido(q, top_k=5)
+                print(f"\nResultados híbridos para: '{q}'\n" + "-" * 70)
+                for i, h in enumerate(hits, 1):
+                    print(f"[{i}] {h['etiqueta_bcn']} (Puntaje RRF: {h.get('puntaje_rrf', 0):.4f})")
+                    print(f"    {h['texto'][:180]}...\n")
+
         input("\n[Presiona Enter para volver al menú principal...]")
+
 
 
 def main():
@@ -589,10 +612,12 @@ Ejemplos de uso:
   openlegal ambiental "..."   -> Módulo especial de derecho ambiental (sentencias, anuarios, boletines y biblioteca)
   openlegal graph "..."       -> Consulta el Knowledge Graph (LegalGraphify) con ahorro mediano de tokens del 99,9 %
   openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (17 perfiles)
+  openlegal caso <texto/ruta> -> Abre o crea expediente local con ingesta MD y subgrafo del caso
+  openlegal vector "..."      -> Búsqueda semántica híbrida en los 9 Códigos y CPR (Dense + BM25)
   openlegal integrar         -> Muestra y escribe la configuración MCP de tu harness (--escribir)
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents", "caso", "vector"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -1137,6 +1162,11 @@ Ejemplos de uso:
         print()
 
     elif args.comando == "cache":
+        tokens = [t.lower() for t in (args.query or [])]
+        if "warm" in tokens or "calentar" in tokens:
+            from scripts.cache_warming import ejecutar_cache_warming
+            ejecutar_cache_warming()
+            return
         from online_library_sync import estado_cache_corpus, refrescar_cache_corpus
         print_banner()
         if args.refrescar:
@@ -1155,6 +1185,40 @@ Ejemplos de uso:
             if est["desactualizados"] or est.get("sin_registrar"):
                 print("Refrescalos con: openlegal cache --refrescar")
         print()
+
+    elif args.comando == "caso":
+        import case_intake
+        print_banner()
+        entrada = " ".join(args.query).strip()
+        if not entrada:
+            entrada = input("👉 Ingresa la ruta de la carpeta, archivo o consulta del caso: ").strip()
+        if entrada:
+            print("\n📂 Analizando caso y creando espacio de trabajo local...")
+            analisis = case_intake.caso_analizar(entrada)
+            print("\n" + analisis.get("resumen", ""))
+        return
+
+    elif args.comando == "vector":
+        from vector_engine import obtener_motor_vectorial
+        print_banner()
+        motor = obtener_motor_vectorial()
+        tokens = args.query or []
+        subcmd = tokens[0].lower() if tokens else ""
+        if subcmd in ("indexar", "warm", "precalentar"):
+            print("🧠 Indexando Códigos de la República y CPR vectorialmente...")
+            res = motor.indexar_desde_bcn_cache(forzar=args.forzar)
+            print(f"✅ Artículos indexados: {sum(res.values())}")
+        else:
+            consulta = " ".join(tokens).strip()
+            if not consulta:
+                consulta = input("🔍 Búsqueda vectorial híbrida (9 Códigos y CPR): ").strip()
+            if consulta:
+                hits = motor.buscar_hibrido(consulta, top_k=5)
+                print(f"\n✨ Resultados Híbridos (Dense + BM25) para: '{consulta}'\n" + "-"*80)
+                for i, h in enumerate(hits, 1):
+                    print(f"[{i}] {h['etiqueta_bcn']} (RRF: {h.get('puntaje_rrf', 0):.4f})")
+                    print(f"    {h['texto'][:200]}...\n")
+        return
 
     elif args.comando == "graph":
         from legal_graphify import LegalGraphifyEngine

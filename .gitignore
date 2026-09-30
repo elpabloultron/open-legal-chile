@@ -26,6 +26,8 @@ exports/
 doctrina_raw/
 *.db
 openlegal_cache.db
+casos/
+!casos/.gitkeep
 
 # Artefactos de prueba y cachés
 .pytest_cache/

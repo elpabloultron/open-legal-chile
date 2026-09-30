@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-453%2F453_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-500%2F500_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -91,6 +91,8 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
 │   • 87 Herramientas Forenses Registradas (Suite Edition)                         │
+│   • Espacios de Casos Locales con LegalGraphify (case_workspace.py, case_graph.py)     │
+│   • Motor Vectorial Híbrido Dense + BM25 con RRF (vector_engine.py)                     │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
 │   • Generador Estandarizado de Recursos de Protección OJV (recurso_proteccion.py)       │
 │   • Knowledge Graph Jurídico y Ahorro de Tokens (legal_graphify.py)                     │
@@ -616,6 +618,15 @@ openlegal stats
 # Comprobar y ejecutar la auto-actualización de la Suite
 openlegal update
 
+# Mesa de entrada y análisis de causas con espacio de trabajo local y grafo interactivo
+openlegal caso "Causa RIT T-456-2024 ante Juzgado del Trabajo"
+
+# Búsqueda vectorial híbrida (Dense Similitud Coseno + BM25 FTS5 con RRF) sobre Códigos y CPR
+openlegal vector "despido por necesidades de la empresa"
+
+# Pre-calentar caché local con los Códigos de la República y jurisprudencia unificada
+openlegal cache warm
+
 # Diagnóstico real de la suite (mide OCR, corpus, grafo, citas y herramientas MCP)
 openlegal doctor
 openlegal check   # alias del anterior
@@ -643,7 +654,7 @@ openlegal audit
 | **6. Linter & PEP** | `astral-sh/ruff` | **100% de reglas de arquitectura y estilo aprobadas** |
 | **7. Anti-Sobreingeniería**| `Ponytail` & `vulture`| **Filosofía Ponytail: Cero código muerto (*Lean already. Ship*)** |
 | **8. Mantenibilidad** | `rubik/radon` | **Rango A en lógica sustantiva y conectores** |
-| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **453/453 pruebas unitarias superadas satisfactoriamente** |
+| **9. Pruebas Funcionales** | `pytest-dev/pytest` | **500/500 pruebas unitarias superadas satisfactoriamente** |
 
 Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 
@@ -652,13 +663,13 @@ Consulta el informe institucional pormenorizado en [`AUDIT.md`](AUDIT.md).
 ## 🧪 11. Pruebas Automatizadas y Verificación Continua
 
 ```bash
-python3 -m pytest tests/ -v
-# ============================== 453 passed ==============================
+python3 -m pytest -n auto -q
+# ============================== 500 passed in 44.59s ==============================
 ```
 
-> Las pruebas tardan entre 15 y 60 segundos según la red: varias consultan en vivo portales del
-> Estado (BCN, DT, CGR, PJUD). Las que fallan por eso se saltan con `pytest.skip`, no se dan por
-> pasadas.
+> Las pruebas se ejecutan en paralelo con `pytest-xdist` completando las 500 pruebas en menos de
+> 45 segundos. Varias consultan en vivo portales del Estado (BCN, DT, CGR, PJUD). Las que fallan
+> por indisponibilidad de red se saltan con `pytest.skip`, garantizando resiliencia sin falsos positivos.
 
 * **`.github/workflows/ci.yml`:** Matriz de integración continua en Ubuntu y Windows probando Python 3.10, 3.11, 3.12, 3.13 y 3.14.
 * **`.github/workflows/audit.yml`:** Auditoría de seguridad y calidad estricta en cada commit y Pull Request.
