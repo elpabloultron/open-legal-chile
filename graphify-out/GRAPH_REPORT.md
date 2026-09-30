@@ -1,17 +1,17 @@
 # Graph Report - open-legal-chile  (2026-09-30)
 
 ## Corpus Check
-- 524 files · ~11,844,586 words
+- 527 files · ~11,847,394 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 17 file(s) not represented in the graph (top: .jsonl 11, (none) 3, .mdc 1)
 
 ## Summary
-- 20564 nodes · 50412 edges · 446 communities (369 shown, 77 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 170 edges (avg confidence: 0.91)
+- 20605 nodes · 50504 edges · 425 communities (352 shown, 73 thin omitted)
+- Extraction: 44% EXTRACTED · 56% INFERRED · 0% AMBIGUOUS · INFERRED: 28516 edges (avg confidence: 1.0)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3b871438`
+- Built from commit: `67b64989`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -34,7 +34,7 @@
 - Academia Judicial de Chile
 - Derecho Procesal — Apuntes de la profesora Cerra
 - 3.4.1.1 Antecedente histórico de la figura en
-- json
+- test_conectores_materia.py
 - Derecho Internacional Humanitario y el Derecho Penal Internacional
 - Ley 20.417, Art. 3 (Potestades sancionadoras y cautelares de la SMA)
 - Tribunales No Reformados: nociones básicas de organización y funcionamiento
@@ -89,7 +89,7 @@
 - Guia aplicada para la determinacion de penas
 - Guia Audiencia Preparatoria
 - Cumplimientos en materias de familia
-- main
+- test_claude_legal_suite.py
 - Atención de usuarios en situaciones complejas y de vulnerabilidad
 - Ley 20.000: problemas actuales en su interpretación
 - Ley 20.000: problemas actuales en su interpretación
@@ -98,7 +98,7 @@
 - Atención de usuarios en situaciones complejas y de vulnerabilidad
 - Derecho Matrimonial
 - El Objeto del Acto Jurídico y Objeto Ilícito (Art. 1460 a 1466 CC)
-- online_library_sync.py
+- openlegal.py
 - Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelaciones
 - Peritajes en procedimientos reformados: análisis y valoración
 - Responsabilidad penal adolescente
@@ -124,7 +124,7 @@
 - Interpretación, argumentación y razonamiento judicial
 - Guia para la conduccion de audiencias temas transversales abr
 - Juzgados de Garantía: nociones básicas de organización y funcionamiento
-- ingesta_fuentes.py
+- ambientales_a_md.py
 - Enrique Cury Urzúa
 - Concepto, Resoluciones Apelables y Plazos (Arts. 186 al 189 CPC)
 - Terrorismo
@@ -152,8 +152,8 @@
 - Clima laboral y calidad de vida
 - jurisprudencia_tc/README.md
 - El Juicio de Precario (Art. 2195 inc. 2 CC)
-- LegalChatEngine
-- detectar_normas
+- json
+- diagnostico_completo
 - Rol probatorio de documentación  tributaria  y aduanera
 - Pueblos originarios y acceso a la justicia
 - Derechos de las y los pacientes
@@ -176,13 +176,13 @@
 - Ley 20.417, Art. 35 (Clasificación de infracciones: gravísimas, graves y leves)
 - Uso de la fuerza por funcionarios estatales: Límites y excesos
 - Uso de la fuerza por funcionarios estatales: Límites y excesos
-- test_vector_engine.py
+- VectorLegalEngine
 - El rol judicial en los procedimientos ante las Cortes de Apelaciones
 - Los bienes familiares
 - Acceso a la justicia: nuevas aproximaciones
 - 2. Esta relación especial de sujeción es una fuente de restricción de
 - Efectos de las Obligaciones
-- ColdStartInterviewEngine
+- CNEClient
 - Cumplimiento Forzado de las Obligaciones (Ejecución en Naturaleza)
 - Capítulo 1
 - Ley 21.302: cambios y desafíos del nuevo sistema proteccional
@@ -193,16 +193,16 @@
 - Guia Audiencia Conciliacion Laboral
 - Guia Procedimiento Monitorio 2025
 - Ley 21.430 sobre garantías y protección integral de los derechos de la niñez y adolescencia
-- integrar_jurisprudencia_al_grafo.py
+- ingestar_lote_masivo.py
 - test_caches_ttl.py
 - BaseLegalAgent
 - test_legal_design.py
 - Guia Procedimiento Abreviado 2025
 - README.md
 - Office aplicado al trabajo judicial
-- Ley 21.302: cambios y desafíos del nuevo sistema proteccional
+- WordDossierCompiler
 - Catálogo de Modos de Extinguir las Obligaciones (Art. 1567 CC)
-- AcademiaJudicialClient
+- modulo_ambiental.py
 - Habilidad: Derecho Laboral de Chile (chilean-employment-legal)
 - Gestión de equipos en tribunales
 - título. Tratándose de las faltas indicadas en los artículos 494, Nº 5, y 496, Nº
@@ -229,7 +229,7 @@
 - NotebookLMConnector
 - legal_design.md
 - Criterios Jurisprudenciales de los Tribunales Ambientales y de la Corte Suprema de Chile
-- DoctrinaTokenOptimizer
+- CBRTitleStudyEngine
 - 5. Safety Gates & Agent Specializations
 - Habilidad: Contratos y Derecho Comercial de Chile (chilean-contract-legal)
 - Habilidad: Derecho Corporativo y Societario de Chile (chilean-corporate-legal)
@@ -254,29 +254,29 @@
 - MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md
 - Los modos de adquirir el dominio
 - Sucesorio 6 (donaciones revocables acrecimiento sustitución y primera parte sucesión forzosa)
-- _html_del_grafo
-- harvest_tribunales_ambientales.py
+- grafo_vista.py
+- cosechar_publicaciones_ambientales.py
 - test_resumen_comunidades.py
-- LegalAgentRuntime
-- Sucesorio 5 (herencias y legados)
+- Sucesorio 8 (de la sucesión semiforzosa)
+- Contrato de Arrendamiento
 - recomendar_ocr
 - cosechar_jurisprudencia_2anios.py
-- test_empaquetado.py
+- La Propiedad
 - Docentes
-- Comentarios Ley 21400 y la Ley 21515
+- Sucesorio 15
 - Los Bienes
 - Sucesorio 16 (Del pago de las deudas hereditarias y testamentarias)
-- .get_available_engines
+- TestAnalizarRit
 - ⚖️ 7. Módulos Forenses y Pedagógicos de Especialidad
-- cosechar_publicaciones_ambientales.py
+- Guía de Procedimiento Abreviado en Juzgados de Garantía
 - TestEjecucion
 - TestDecision
 - Ponytail
-- Manual psicosociolegal sobre abuso sexual infantil
+- De la Responsabilidad Precontractual
 - Derechos Reales Limitados
 - Terminación por Necesidades de la Empresa (Art. 161 CT) y Descuento AFC
 - Corte Suprema · Tercera Sala Constitucional y Contencioso Administrativa
-- test_jurisprudencia_textos.py
+- Las Personas Naturales
 - Habilidad: Compilación y Ensamblaje de Expedientes Judiciales (chilean-dossier-assembly)
 - Habilidad: Peritaje Documental y OCR Judicial (chilean-forensic-evidence)
 - Habilidad: Auditoría de Probidad y Patrimonio Público (chilean-probity-investigation)
@@ -294,13 +294,10 @@
 - parte de los bienes comunes, de manera que a su respecto los actores carecen de
 - La Sociedad por Acciones (SpA) en el Derecho Chileno (Arts. 424 a 446 C.Com)
 - Open Legal Chile — Reglas Maestras del Proyecto
-- test_ocr_pagina_ilegible.py
 - test_paridad_cli_mcp.py
 - test_suite_portabilidad.py
 - 49. Lucy Treizman Sacks y otros con Rodrigo Erazo
-- 444               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán
 - Guía de Inicio Rápido (Quickstart)
-- TestVerCaso
 - test_web_actualizada.py
 - ponytail-audit/SKILL.md
 - Ponytail Gain
@@ -323,16 +320,11 @@
 - Sucesorio 12 (Albaceas)
 - Sucesorio 7 (de las legítimas)
 - Canon Doctrinal Jurídico Chileno — Open Legal Chile
-- fetch_tc_sentencias
-- TestElDisparadorEnLenguajeNatural
-- .search_all
 - open-legal-chile
 - Notas de arquitectura
-- 21. Nayade Fernández Medel con Clínica Las Condes            Clínica San Carlos S.A. y otro (2018): Corte Su-
 - 38. Juan Sarabia Tolosa y otros con Servicio de Sa-      53. Macarena Estay Estay y otro con Ilustre Munici-
 - 41. Judith Cecilia González Concha con Clínica Los       56. Maricel Vallejos García con Servicio de Salud
 - Del Abuso de los Derechos
-- El Derecho Real de Conservación
 - 5.1.2 Nº 7 de la Ordenanza General de Urbanismo y Construcciones sólo es necesario el
 - Sucesorio 10 (medidas conservativas)
 - DERECHO DEL TRABAJO — CAPÍTULO III: TUTELA LABORAL, LEY KARIN Y DAÑO MORAL
@@ -341,24 +333,18 @@
 - Perfil de Estudio Jurídico o Empresa — Open Legal Chile
 - Plantilla de Tablero (Dashboard) — Open Legal Chile
 - 🗺️ Hoja de Ruta Oficial (ROADMAP 2026-2027)
-- _linea_con_limite
 - open-legal-chile
 - graphify reference: add a URL and watch a folder
 - graphify reference: commit hook and native CLAUDE.md integration
 - graphify reference: incremental update and cluster-only
 - Mensaje_Inicial.md
 - 69. Patricia Loreto Muñoz Oliva con Servicio de Salud
-- 88. VIDAL, Álvaro (2006): “La responsabilidad del         5.   Bidasoa Limitada y otros con Patricia Isaacs
-- 91. VIDAL, Álvaro (2008): “Las acciones civiles deri-
 - Contrato de mutuo
 - De la Responsabilidad de los Profesionales en General y de los Médicos en Particular
 - El Censo
-- El Decreto Ley 2695
 - Fundamentos Constitucionales de la Responsabilidad Extracontractual
-- La Cesión de Derechos
 - 19 N° 24 inc. 2° y 20 de nuestra Constitución Política, art. 582 del Código Civil y art. 9 del
 - Los atributos de la personalidad
-- Los Cuasicontratos
 - Ordinaria de la sociedad conyugal
 - Sucesorio 4 (sucesión testada segunda parte)
 - 326               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán
@@ -366,7 +352,6 @@
 - ⚡ 3. Instalación y Puesta en Marcha
 - graphify reference: GitHub clone and cross-repo merge
 - graphify reference: transcribe video and audio
-- 133   La jurisprudencia más reciente ha refrendado la fuerza integradora de la buena fe objetiva. Véase Corte
 - 13. Cristóbal Tienken Fernández con Clínica Las          27.   Carlos Henríquez Durán y otro (2007): Corte de
 - 16. Manuel Eugenio Elgueta Ariztía con Pizarreño S.A     30. Jacqueline González Cantillana y otros con
 - 18. Estado de Chile con Minimal Enterprises Com-         32. John Durson Wagner y otros con Luciano Basauri
@@ -382,9 +367,6 @@
 - 1.1                Concepto
 - Contrato de Depósito
 - La Anticresis
-- parte denunciante, para que se aumente la suma fijada por indemnización de daño
-- parte final del inc. 1º del N° 5 del art. 1740. Quedan comprendidos en esta
-- Sucesorio 14 (aceptación y repudiación de las asignaciones)
 - Sucesorio 9 (pérdida de las asignaciones forzosas)
 - Tendencias Modernas sobre Responsabilidad
 - Pregunta: DE EJEMPLOS EN QUE HAYA DOS O MAS TRIBUNALES
@@ -397,14 +379,11 @@
 - §6. abusos sexuales (arts. 365 bis a 366 ter)
 - (art. 470 n° 6)
 - Y de la honra. régimen de prensa
-- call_api
 - rules/graphify.md
-- .format_cli_summary
 - workflows/graphify.md
 - audit.sh script
 - .claude/CLAUDE.md
 - extraction-spec.md
-- _descripcion_de_hechos
 - 3.8.          El despido atentatorio de derechos
 - Parte de la doctrina y jurisprudencia estima que la indemnización
 - 12. Cristina Hormazábal Andrade con GD Ingeniería            de Salud de Concepción (2012): Corte de Apela-
@@ -491,7 +470,7 @@
 - 2-file cycle: `mcp_server.py -> servidor/forense.py -> mcp_server.py`
 - 2-file cycle: `mcp_server.py -> servidor/suite.py -> mcp_server.py`
 
-## Communities (446 total, 77 thin omitted)
+## Communities (425 total, 73 thin omitted)
 
 ### Community 0 - "1.1. Prohibiciones de ingreso"
 Cohesion: 0.20
@@ -499,7 +478,7 @@ Nodes (10): 1.1. Prohibiciones de ingreso, Normas jurídicas citadas, Rol N° 10
 
 ### Community 1 - "sumario. Los mismos derechos corresponderán a los herederos del conde-"
 Cohesion: 0.02
-Nodes (116): sumario. Los mismos derechos corresponderán a los herederos del conde-, 32                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, Art. 110 CPP, Art. 114 CPP, Art. 122 CPP, Art. 124 CPP, Art. 12 CPP, Art. 133 CPP (+108 more)
+Nodes (118): sumario. Los mismos derechos corresponderán a los herederos del conde-, 32                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, Art. 110 CPP, Art. 114 CPP, Art. 122 CPP, Art. 124 CPP, Art. 12 CPP, Art. 133 CPP (+110 more)
 
 ### Community 2 - "Responsabilidad Extracontractual"
 Cohesion: 0.04
@@ -548,16 +527,16 @@ Cohesion: 0.02
 Nodes (223): 100. VALENZUELA, Cecilia; VILLAVICENCIO, Luis, 101 rojas pascual (2015), 102. VONSTRITZKY, Johannes (2013): “El desarrollo, 103. WARENIUS, LU; FAXELID, EA; CHISHIMBA, PN;             6.   Caso “Artavia Murillo y otros vs. Costa Rica”, 108   El comité también formula recomendaciones sobre cualquier cuestión que afecte a las mujeres, a la que, 10. Boletín N° 11.126-07 y 11.522-07. Proyecto de ley que modifica, 10. Ley N° 19.874. Facilita la denuncia en caso de atentados sexuales, 11. Boletín N° 11.144-07 y 11.092. Proyecto de ley que modifica la (+215 more)
 
 ### Community 15 - "Academia Judicial de Chile"
-Cohesion: 0.01
-Nodes (383): Academia Judicial de Chile, 10. Diseño de instrumentos de financiamiento descentralizados para, 10. Establecer, en los casos en que no hay representante legal, un sis-, 10. Participación de organizaciones de sociedad civil en procesos de, 10. Realizar pericias conforme a los estándares del Protocolo de Es-, 10. Reconocimiento de buenas prácticas de educación en derechos, 10. Relatoría especial sobre verdad, justicia, reparación y garantías, 10. Tener en cuenta la brecha digital, es decir, las dificultades para (+375 more)
+Cohesion: 0.02
+Nodes (377): Academia Judicial de Chile, 10. Diseño de instrumentos de financiamiento descentralizados para, 10. Establecer, en los casos en que no hay representante legal, un sis-, 10. Participación de organizaciones de sociedad civil en procesos de, 10. Realizar pericias conforme a los estándares del Protocolo de Es-, 10. Reconocimiento de buenas prácticas de educación en derechos, 10. Relatoría especial sobre verdad, justicia, reparación y garantías, 10. Tener en cuenta la brecha digital, es decir, las dificultades para (+369 more)
 
 ### Community 16 - "Derecho Procesal — Apuntes de la profesora Cerra"
 Cohesion: 0.01
 Nodes (340): 10. Las partes podran comparecer y defenderse personalmenDEARRENDAMIENTO DELALEY18.101?, 13)DISPOSICIONES COMUNES A TODO PROCEDIMIENTO.Carlos, 1553 C.C.). Si es necesario embargar y realizar bienes, se, 1)DERECHO PROCESAL.JUICIO ORDINARIOY RECURSOS PROPregunta:COMO SE SOLICITA?, 1. Formas en que, 1. Los tribunales chilenos tienen competencia para juzgar, 1. Objeto, 2. Que el recurso de apelacion se hubiere interpuesto dentro (+332 more)
 
-### Community 18 - "json"
-Cohesion: 0.02
-Nodes (216): Open Legal Chile — Conector e Indexador Oficial Academia Judicial de Chile…, Open Legal Chile — Motor de Ejecución de Agentes Jurídicos Especializados…, Open Legal Chile — Conector Oficial Derecho Ambiental (SMA / SNIFA / Tribunales…, Cliente oficial de la Superintendencia del Medio Ambiente (SMA / SNIFA)., SMAClient, argparse, Open Legal Chile — Conector Oficial Biblioteca del Congreso Nacional (BCN Ley…, bs4 (+208 more)
+### Community 18 - "test_conectores_materia.py"
+Cohesion: 0.03
+Nodes (111): _aviso(), CMFClient, _coincide(), _parsear_sanciones_cmf(), Any, Busca en el catálogo de normativa CMF por término, tipo (NCG, Circular,…, Indexa las resoluciones sancionatorias que la CMF publica por mercado. La…, Busca en el registro de sanciones de la CMF por número, entidad o materia. (+103 more)
 
 ### Community 19 - "Derecho Internacional Humanitario y el Derecho Penal Internacional"
 Cohesion: 0.01
@@ -597,7 +576,7 @@ Nodes (279): 10          Audiencia                  Audiencia, 10. CALAMANDREI, 
 
 ### Community 29 - "Juan Andrés Orrego Acuña"
 Cohesion: 0.02
-Nodes (233): Juan Andrés Orrego Acuña, 1464 N° 3 del Código Civil). También deberá cerciorarse el notario que el arrendador, 9.9. Prescripción de la acción derivada de un contrato de prestación de, Años, según se trate de inmuebles urbanos o rústicos, que forman parte, Contrato de Arrendamiento, Contrato de arrendamiento113, El contrato de arrendamiento1, parte que “Si la finca es subastada a instancias de un acreedor hipotecario, y la (+225 more)
+Nodes (229): Juan Andrés Orrego Acuña, 1. En la inscripción de nacimiento del primero de los hijos comunes, los progenitores, 2. En toda inscripción de nacimiento en que al tiempo de la inscripción quede determinada, 3. En la inscripción de nacimiento de un hijo cuya filiación al tiempo de la inscripción quede, Al código civil y otros cuerpos legales por, Comentarios Ley 21400 y la Ley 21515, nuevo: “TÍTULO IV BIS DE LA SOLICITUD DE DISOLUCIÓN DEL VÍNCULO, parte su mujer: le bastará el consentimiento de su mujer, si no estuviere imposibilitada de (+221 more)
 
 ### Community 30 - "Tutela de Derechos Fundamentales en el contexto del derecho del trabajo"
 Cohesion: 0.02
@@ -635,7 +614,7 @@ Nodes (205): 105. SORDI, Bárbara (2015): “Programas de rehabilitación para a
 
 ### Community 38 - "mcp_server.py"
 Cohesion: 0.02
-Nodes (165): CBRTitleStudyEngine, JudicialPowerVerifier, Any, Open Legal Chile — Estudio de Títulos Inmobiliarios, CBR y Poderes Judiciales…, Motor de auditoría para estudios de títulos de dominio decenal e inscripciones…, Entrega el checklist exhaustivo de documentos obligatorios para un estudio de…, Verificador forense de comparecencia en juicio y personerías (Ley 18.120 y…, Audita el texto de un mandato judicial o patrocinio y poder otorgado en un… (+157 more)
+Nodes (141): _alternacion_obras(), bloque_fuentes(), detectar_normas(), formatear_cita(), _obra_canonica(), Any, Formato único de citas (AGENTS.md §2) y detección de normas en texto libre.…, Alternación de nombres de obra: los alias por sí solos y después las claves… (+133 more)
 
 ### Community 39 - "Derecho Procesal Orgánico y Funcional"
 Cohesion: 0.01
@@ -695,11 +674,11 @@ Nodes (148): 103   Este recurso fue introducido en la Constitución de 1925 por 
 
 ### Community 53 - "LegalGraphifyEngine"
 Cohesion: 0.02
-Nodes (106): DiGraph, Cómo se fusionan, El gemelo `legal-graphify`: archivado, y nada de valor vive sólo allí, Integración con Graphify: el grafo de código y el grafo jurídico, Números medidos (18-09-2026), Por qué no mantenemos un fork, Qué aporta cada uno, extract_articulos_de_codigo() (+98 more)
+Nodes (124): collections, DiGraph, Cómo se fusionan, El gemelo `legal-graphify`: archivado, y nada de valor vive sólo allí, Integración con Graphify: el grafo de código y el grafo jurídico, Números medidos (18-09-2026), Por qué no mantenemos un fork, Qué aporta cada uno (+116 more)
 
 ### Community 54 - "pathlib"
-Cohesion: 0.02
-Nodes (93): Open Legal Chile — Motor Forense de OCR y Extracción de Documentos Judiciales…, build_quick_graph(), LegalGraphBuilder, Any, Open Legal Chile — Generador de Grafos de Vínculos y Redes Corporativas…, Construye un grafo relacional de forma tolerante a nombres de campos y tipos., Sanitiza identificadores para compatibilidad estricta con la sintaxis de…, Genera diagrama Mermaid compatible con Markdown, GitHub y Antigravity. (+85 more)
+Cohesion: 0.01
+Nodes (133): Open Legal Chile — Motor Forense de OCR y Extracción de Documentos Judiciales…, build_quick_graph(), LegalGraphBuilder, Any, Open Legal Chile — Generador de Grafos de Vínculos y Redes Corporativas…, Construye un grafo relacional de forma tolerante a nombres de campos y tipos., Sanitiza identificadores para compatibilidad estricta con la sintaxis de…, Genera diagrama Mermaid compatible con Markdown, GitHub y Antigravity. (+125 more)
 
 ### Community 55 - "Responsabilidad Penal de las Personas Jurídicas"
 Cohesion: 0.03
@@ -711,7 +690,7 @@ Nodes (134): 108. Sentencia Tribunal Constitucional. Rol Nº 2246-, 12.   Ley N�
 
 ### Community 57 - "handle_tool_call"
 Cohesion: 0.02
-Nodes (99): io, handle_tool_call(), ficha_a_markdown(), main(), nombre_archivo(), Path, Fichas de la Corte Suprema (JSONL) → un Markdown por sentencia, con su enlace…, Devuelve el campo como texto legible; los ausentes se marcan «—», nunca se… (+91 more)
+Nodes (97): io, handle_tool_call(), ficha_a_markdown(), main(), nombre_archivo(), Path, Fichas de la Corte Suprema (JSONL) → un Markdown por sentencia, con su enlace…, Devuelve el campo como texto legible; los ausentes se marcan «—», nunca se… (+89 more)
 
 ### Community 58 - "Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales"
 Cohesion: 0.03
@@ -742,8 +721,8 @@ Cohesion: 0.03
 Nodes (116): 121      Recordemos que tratamiento de datos personales es, para la Directiva 95/46/CE “cualquier operación o, 122      RALLO LOMBARTE, Artemi: “El debate europeo sobre el derecho al olvido en internet”. En Hacia un Nuevo, 126      Como se recordará, Edward Snowden era un consultor tecnológico estadounidense, antiguo empleado de la, 129      CÓRDOBA CASTROVERDE, Diego y DÍEZ-PICAZO GIMÉNEZ, Ignacio: “Reflexiones sobre los retos de la, 131      RALLO LOMBARTE, Artemi: “El debate europeo sobre el derecho al olvido en internet”. En Hacia un nuevo, 133      MUÑOZ MASSOUH, Ana María: “Eliminación de datos personales en internet: el reconocimiento del derecho, 137      DAVARA FERNÁNDEZ DE MARCOS, Elena: “El Reglamento Europeo de Protección de Datos”. En Derecho, 13       Debe tenerse presente que el derecho a la protección de los datos personales como tal (no nos estamos (+108 more)
 
 ### Community 65 - "BCNClient"
-Cohesion: 0.03
-Nodes (75): Any, ¿La copia local existe y está dentro del TTL? (el mtime es la fecha de…, Consulta el grid público del SNIFA y deja la copia local al día., Busca procedimientos sancionatorios ambientales en la base oficial SNIFA de la…, BCNClient, recorrer(), _buscar_articulo(), _clave_articulo() (+67 more)
+Cohesion: 0.05
+Nodes (55): BCNClient, recorrer(), _buscar_articulo(), _clave_articulo(), Any, Parsea el XML de una norma chilena a estructura de datos limpia., ¿La copia local existe y está dentro del TTL? (el mtime es la fecha de…, La copia local si se puede leer: una copia ilegible no es una copia. (+47 more)
 
 ### Community 66 - "Tortura y otros  tratos crueles. Reflexiones  sustantivas  y prácticas"
 Cohesion: 0.02
@@ -775,9 +754,9 @@ Nodes (104): 10.1 Orden de ofrecimiento de la prueba, 10.2.10 Declaración de pa
 Cohesion: 0.04
 Nodes (103): 10 Artículo 28 de la Ley 21.430, derecho a ser oído: «Todo niño, niña o adolescente, 11 En ese sentido, nuestra jurisprudencia ha comentado: «Noveno: que, conviene, 11 Inciso final artículo 18 Ley 19.968: «Tratándose de los procedimientos señalados, 11 Sentencia de la Corte de Apelaciones de Santiago, rol 1.356-2015, 14 de julio de, 11 Sentencia de la Corte de Apelaciones de Santiago, rol 275-2021, 18 de febrero, 12 Al respecto, véase la sentencia de la Corte Suprema, rol 29.228-2018, 3 de febrero, 12 Sentencia de la Corte Suprema, rol 134.271-2022, 13 de diciembre de 2022. En el, 14.908. Para realizar las presentaciones judiciales deberá disponerse de (+95 more)
 
-### Community 73 - "main"
-Cohesion: 0.03
-Nodes (82): ClinicaJuridicaEngine, Any, Open Legal Chile — Asistencia Jurídica Social, Clínicas Universitarias y…, Motor de gestión para clínicas jurídicas y asistencia judicial comunitaria en…, Audita formalmente el borrador de un escrito jurídico redactado por un pasante…, Traduce una resolución judicial chilena densa a lenguaje claro y comprensible…, Genera la ficha sociojurídica inicial de atención en consultorio de asistencia…, DocketWatcherEngine (+74 more)
+### Community 73 - "test_claude_legal_suite.py"
+Cohesion: 0.04
+Nodes (48): ClinicaJuridicaEngine, Any, Motor de gestión para clínicas jurídicas y asistencia judicial comunitaria en…, Audita formalmente el borrador de un escrito jurídico redactado por un pasante…, Traduce una resolución judicial chilena densa a lenguaje claro y comprensible…, Genera la ficha sociojurídica inicial de atención en consultorio de asistencia…, ColdStartInterviewEngine, _palabras_clave() (+40 more)
 
 ### Community 74 - "Atención de usuarios en situaciones complejas y de vulnerabilidad"
 Cohesion: 0.02
@@ -801,7 +780,7 @@ Nodes (96): René Ramos Pazos, DERECHO DE FAMILIA — CAPÍTULO I: SOCIEDAD CONY
 
 ### Community 79 - "Atención de usuarios en situaciones complejas y de vulnerabilidad"
 Cohesion: 0.02
-Nodes (95): 10. Arraigo: Es el proceso a través del cual se establece una relación, 10. En casos de personas solicitantes de asilo y refugiadas con causas, 10. Excepcionalidad en la detención: Las prácticas migratorias deben, 11. No revictimización: Desde los estudios del Derecho Penal y las, 11. Protección internacional: Es la ayuda que se ofrece a una persona, 12. Interseccionalidad: Es una herramienta metodológica que permite, 12. Permiso de residencia: Es aquel que permite a extranjeros solicitar, 13. Garantizar que se cumplan los siguientes derechos al acceder a la (+87 more)
+Nodes (101): 10. Arraigo: Es el proceso a través del cual se establece una relación, 10. En casos de personas solicitantes de asilo y refugiadas con causas, 10. Excepcionalidad en la detención: Las prácticas migratorias deben, 11. No revictimización: Desde los estudios del Derecho Penal y las, 11. Protección internacional: Es la ayuda que se ofrece a una persona, 12. Interseccionalidad: Es una herramienta metodológica que permite, 12. Permiso de residencia: Es aquel que permite a extranjeros solicitar, 13. Garantizar que se cumplan los siguientes derechos al acceder a la (+93 more)
 
 ### Community 80 - "Derecho Matrimonial"
 Cohesion: 0.04
@@ -811,9 +790,9 @@ Nodes (95): 10 En dicha comunidad los bienes adquiridos a título oneroso durant
 Cohesion: 0.03
 Nodes (92): Víctor Vial del Río, 🏛️ El Dolo Civil y la Maquinación Fraudulenta (Arts. 44 y 1458 CC), 🏛️ El Error como Vicio del Consentimiento (Arts. 1451 a 1455 CC), 🏛️ La Fuerza o Violencia Moral e Intimidación (Arts. 1456 y 1457 CC), 🏛️ La Voluntad Jurídica y Formación del Consentimiento, TEORÍA GENERAL DEL ACTO JURÍDICO — CAPÍTULO I: VOLUNTAD, CONSENTIMIENTO Y VICIOS, Véase también, 🏛️ El Objeto del Acto Jurídico y Objeto Ilícito (Art. 1460 a 1466 CC) (+84 more)
 
-### Community 82 - "online_library_sync.py"
-Cohesion: 0.04
-Nodes (70): _anotar_descarga(), _archivo_cambio_en_hub(), _archivos_en_cache(), _blob_remoto(), compilar_manifiesto_biblioteca(), _descargar_trozo_hf(), _escribir_sincronia(), estado_cache_corpus() (+62 more)
+### Community 82 - "openlegal.py"
+Cohesion: 0.02
+Nodes (150): LegalDocumentExporter, Any, date, Genera documentos legales con formato forense chileno y los exporta a…, Compila el escrito a Word (.docx). Los documentos de trabajo van editables, no…, Genera y exporta un Recurso de Protección completo en formatos .html, .md, .txt…, Genera la presuma estándar obligatoria para la Oficina Judicial Virtual (OJV)., Exporta un escrito judicial completo a HTML, Markdown, Texto Plano y JSON. (+142 more)
 
 ### Community 83 - "Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelaciones"
 Cohesion: 0.04
@@ -833,7 +812,7 @@ Nodes (88): 11 El reenvío al Libro II del Código de Procedimiento Civil —por
 
 ### Community 87 - "Resumen Ejecutivo de Práctica Judicial"
 Cohesion: 0.03
-Nodes (85): Consulta y Descarga del Documento Original, Guía para la conducción de la audiencia de preparación de juicio oral (APJO), Materia: Penal | Fecha: 2025-04-10, Resumen Ejecutivo de Práctica Judicial, Véase también, Consulta y Descarga del Documento Original, Guía para la Audiencia Preparatoria Laboral, Materia: Laboral | Fecha: 2025-02-15 (+77 more)
+Nodes (80): Consulta y Descarga del Documento Original, Guía para la conducción de la audiencia de preparación de juicio oral (APJO), Materia: Penal | Fecha: 2025-04-10, Resumen Ejecutivo de Práctica Judicial, Véase también, Consulta y Descarga del Documento Original, Guía para la Audiencia Preparatoria Laboral, Materia: Laboral | Fecha: 2025-02-15 (+72 more)
 
 ### Community 88 - "Contexto Social y estatuto de los migrantes en Chile (Actualizado a marzo 2022 &#8211; Ley 21.325)"
 Cohesion: 0.05
@@ -848,8 +827,8 @@ Cohesion: 0.02
 Nodes (81): 10 Explicó que esta proposición se funda tanto en los principios generales sobre prescripción de la pena, 12 No se aplica, en cambio, para el cumplimiento del acuerdo reparatorio, que tiene sus reglas propias, 1.1 Dispersión normativa, 1.2 Dispersión institucional, 1.3 Necesidad de tribunales de ejecución, 1.4 Problemas en el sistema informático, 1.4 Problemas en el sistema informático  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 6, 1.5 Principio contradictorio (+73 more)
 
 ### Community 91 - "test_recurso_proteccion.py"
-Cohesion: 0.04
-Nodes (63): datetime, docx, Any, Compilador de documentos Word (.docx) para los escritos y dossieres de la…, Negritas e itálicas del Markdown, como runs del párrafo., Convierte el Markdown de un escrito en un .docx editable., True si python-docx está instalado y se puede compilar Word., Escribe `markdown_content` como documento Word en `output_docx_path`. `tamano`:… (+55 more)
+Cohesion: 0.06
+Nodes (40): Formatea la presuma y suma para Recursos de Protección conforme a la OJV., LegalDossierCompiler, Any, Convierte una imagen (png, jpg, jpeg, webp) en página PDF limpia., Compila el escrito Markdown a PDF, ensambla correlativamente los anexos…, Compila escritos judiciales y ensambla expedientes consolidados con marcadores…, Verifica si PyMuPDF y markdown_pdf están disponibles., Genera una página A4 con diseño sobrio e institucional para separar anexos… (+32 more)
 
 ### Community 92 - "Cortes de Apelaciones: nociones básicas de organización y funcionamiento"
 Cohesion: 0.05
@@ -864,8 +843,8 @@ Cohesion: 0.04
 Nodes (59): CaseGraphEngine, extraer_entidades_de_markdown(), Any, Path, Serializa el grafo en JSON y genera el visualizador HTML., Escribe un archivo HTML interactivo autónomo para explorar el grafo del caso., Genera un identificador alfanumérico limpio para nodos del grafo., Extrae hechos, partes, fechas, montos y normas de un texto Markdown de caso. (+51 more)
 
 ### Community 95 - "informe_derecho.py"
-Cohesion: 0.05
-Nodes (71): bloque_fuentes(), Bloque de fuentes para el final de una respuesta o el pie de un documento., _calza_doctrina(), _cita_doctrina(), _doctrina_para(), exportar_informe_en_derecho(), _fallos_rectores(), _html_del_informe() (+63 more)
+Cohesion: 0.03
+Nodes (91): Open Legal Chile — Estudio de Títulos Inmobiliarios, CBR y Poderes Judiciales…, datetime, Open Legal Chile — Vigilante Procesal (Docket Watcher) y Radar Regulatorio…, get_institucion(), index_all_doctrina(), init_db(), list_obras(), _normalize_area_filter() (+83 more)
 
 ### Community 96 - "Guia conduccion primera audiencia proceso penal V"
 Cohesion: 0.03
@@ -915,9 +894,9 @@ Nodes (70): 14 GUTIERREZ MOYA, CARLOS Y OLMEDO DONOSO GERMAN. Herramientas anal�
 Cohesion: 0.05
 Nodes (70): 10.   Acta 53-2020 Auto Acordado sobre Funciona-, 1.1    Definición, 1.2          Procedimientos, 1.3    Administrador, 1.4   Unidades de los Juzgados, 20. Intervinientes: Personas o instituciones que in-, 21. Medidas cautelares: Decisiones del tribunal que, 22. Medidas cautelares personales: decisiones del           33. Salidas alternativas: Formas de poner término (+62 more)
 
-### Community 108 - "ingesta_fuentes.py"
-Cohesion: 0.05
-Nodes (64): concurrent_futures, _a_markdown(), _concordancias(), convertir_pdf(), convertir_todo(), _es_titulo(), inferir_materia(), _limpiar() (+56 more)
+### Community 108 - "ambientales_a_md.py"
+Cohesion: 0.06
+Nodes (54): concurrent_futures, convertir_pdf(), convertir_todo(), _limpiar(), Any, Path, Saca encabezados y pies repetidos, números de página sueltos y guiones de corte., Recorre las fuentes y escribe el corpus en Markdown. Devuelve el informe. (+46 more)
 
 ### Community 109 - "Enrique Cury Urzúa"
 Cohesion: 0.04
@@ -1023,13 +1002,13 @@ Nodes (53): 12     En el desarrollo de      Su comunicación         No comunica
 Cohesion: 0.04
 Nodes (53): título de crédito). Algo semejante puede decirse respecto de los elementos de, 🏛️ El Juicio de Precario (Art. 2195 inc. 2 CC), 🏛️ La Acción Reivindicatoria (Art. 889 CC), TRATADO DE LOS BIENES — CAPÍTULO IV: ACCIONES PROTECTORAS DEL DOMINIO Y PRECARIO, Véase también, CS - Rol N° 11.230-2021, Fecha: 02-09-2022, CS - Rol N° 24.312-2018, Fecha: 11-09-2019, CS - Rol N° 35.890-2017, Fecha: 21-08-2018 (+45 more)
 
-### Community 137 - "LegalChatEngine"
-Cohesion: 0.06
-Nodes (37): get_relevant_legal_context(), LegalChatEngine, Any, Motor de consulta a modelos de lenguaje (LLMs) multi-proveedor con soporte de…, Llama a la API de DeepSeek (deepseek-chat o deepseek-reasoner)., Llama a la API de Anthropic Claude con soporte para Thinking / Reasoning y…, Llama a la API de Google Gemini soportando tanto API Key (AIza...) como OAuth2…, Llama a OpenAI o proveedores compatibles (Groq, OpenRouter). (+29 more)
+### Community 137 - "json"
+Cohesion: 0.02
+Nodes (139): Open Legal Chile — Conector e Indexador Oficial Academia Judicial de Chile…, Open Legal Chile — Motor de Ejecución de Agentes Jurídicos Especializados…, Open Legal Chile — Conector Oficial Derecho Ambiental (SMA / SNIFA / Tribunales…, argparse, Open Legal Chile — Conector Oficial Biblioteca del Congreso Nacional (BCN Ley…, Open Legal Chile — Motor de Grafo de Caso (case_graph.py) Construye y actualiza…, CGRClient, Any (+131 more)
 
-### Community 138 - "detectar_normas"
-Cohesion: 0.06
-Nodes (44): detectar_normas(), _obra_canonica(), Any, «Constitución Política»/«CPR» → «constitucion»; «Código Sanitario» →…, Detecta menciones de códigos y leyes con artículo, para ir a buscar su texto…, _citas_sin_transcripcion(), Las normas citadas que no vienen acompañadas de su texto literal…, _chequeo_citas() (+36 more)
+### Community 138 - "diagnostico_completo"
+Cohesion: 0.17
+Nodes (20): _chequeo_citas(), _chequeo_corpus(), _chequeo_grafo(), _chequeo_herramientas_mcp(), _chequeo_hugging_face(), _chequeo_indices(), _chequeo_ocr(), _chequeo_version() (+12 more)
 
 ### Community 139 - "Rol probatorio de documentación  tributaria  y aduanera"
 Cohesion: 0.05
@@ -1089,7 +1068,7 @@ Nodes (46): 11. Párrafos             Los párrafos tienen al    Se sugiere evit
 
 ### Community 153 - "Autocuidado y adaptación a nuevas modalidades de trabajo"
 Cohesion: 0.06
-Nodes (45): 114     Referencias, 1 Academia Judicial de Chile (2020). «Informe de Detección de Necesidades, 1 Organización Mundial de la Salud. Nota Descriptiva 389 sobre la protección de, 1. Trato inadecuado: todo acto de violencia contra la integridad físi-, 2 Para más información sobre normas de gestión y desarrollo de personas del, 3 El Servicio Civil cuenta con un banco de buenas prácticas laborales del sector, 3. Entorpecimiento laboral: toda acción tendiente a obstaculizar el, 3 Véase también la Encuesta Nacional de Calidad de Vida (Encavi) del Ministerio (+37 more)
+Nodes (44): 114     Referencias, 1 Academia Judicial de Chile (2020). «Informe de Detección de Necesidades, 1 Organización Mundial de la Salud. Nota Descriptiva 389 sobre la protección de, 1. Trato inadecuado: todo acto de violencia contra la integridad físi-, 2 Para más información sobre normas de gestión y desarrollo de personas del, 3 El Servicio Civil cuenta con un banco de buenas prácticas laborales del sector, 3. Entorpecimiento laboral: toda acción tendiente a obstaculizar el, 3 Véase también la Encuesta Nacional de Calidad de Vida (Encavi) del Ministerio (+36 more)
 
 ### Community 154 - "Acoso sexual,  acoso moral  y discriminación  en contexto  laboral"
 Cohesion: 0.04
@@ -1104,8 +1083,8 @@ Cohesion: 0.04
 Nodes (45): 10 Este es un estudio internacional que incluye también el análisis de comentarios, 10 Juzgado de Letras del Trabajo de Valparaíso, RIT T-288-2017, 20 de octubre de, 11 Segundo Juzgado de Letras del Trabajo de Santiago, RIT O-5244-2019, 5 de, 12 Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia, 12 Juzgado de Letras del Trabajo de Concepción, RIT T-94-2015, 9 de octubre de, 13 Artículo 2 Convención Belém do Pará: «Se entenderá que violencia contra la, 13 Segundo Juzgado de Letras del Trabajo de Santiago, RIT T-309-2018, 7 de junio, 14 Convenio 190 sobre la Violencia y el Acoso de la Organización Internacional (+37 more)
 
 ### Community 157 - "ForensicOCREngine"
-Cohesion: 0.07
-Nodes (33): ForensicOCREngine, Any, Ejecuta RapidOCR (modelos PaddleOCR v4 en ONNX)., Ejecuta PaddleOCR oficial., Ejecuta Tesseract OCR mediante subproceso CLI., Obtiene la lista de modelos de lenguaje instalados en Tesseract., Selecciona el idioma solicitado o retrocede a 'eng' si no está disponible., Resuelve el idioma del OCR y deja constancia de cualquier rebaja. Un expediente… (+25 more)
+Cohesion: 0.05
+Nodes (39): ForensicOCREngine, Any, Resuelve el motor de OCR a utilizar según disponibilidad., Ejecuta RapidOCR (modelos PaddleOCR v4 en ONNX)., Ejecuta PaddleOCR oficial., Ejecuta Tesseract OCR mediante subproceso CLI., Obtiene la lista de modelos de lenguaje instalados en Tesseract., Selecciona el idioma solicitado o retrocede a 'eng' si no está disponible. (+31 more)
 
 ### Community 158 - "Ley 20.417, Art. 35 (Clasificación de infracciones: gravísimas, graves y leves)"
 Cohesion: 0.10
@@ -1119,9 +1098,9 @@ Nodes (43): 108     Referencias, 150 A inciso 1, 148 y 150 A, inciso final, todo
 Cohesion: 0.05
 Nodes (43): 108     Referencias, 150 A inciso 1, 148 y 150 A, inciso final, todos del Código Penal, respecto, 1 Asigna a los principios especificados en instrumentos administrativos un rol de, 1. Derecho a ser atendida. La víctima de un delito tiene derecho a ser, 1 En el Sistema Interamericano artículo 1.1 de la Convención Americana sobre, 1 Se agradece especialmente la selección de casos realizada por Marcela Toledo, 1. Se procurará incorporar el Código de conducta a la legislación y a, 29. Inmediatamente después de la acción policial del 24 de agosto de (+35 more)
 
-### Community 161 - "test_vector_engine.py"
-Cohesion: 0.07
-Nodes (30): ndarray, numpy, fixture, Pruebas unitarias para el motor vectorial local integrado (vector_engine.py)., Base de datos vectorial aislada para pruebas., test_init_vector_db(), test_normalizar_texto(), test_obtener_motor_vectorial_singleton() (+22 more)
+### Community 161 - "VectorLegalEngine"
+Cohesion: 0.09
+Nodes (21): ndarray, test_init_vector_db(), test_semantic_embedding_engine(), test_vector_legal_engine_indexacion_y_busqueda(), init_vector_db(), Any, Connection, Codifica un lote de textos a una matriz NumPy (N, dim). (+13 more)
 
 ### Community 162 - "El rol judicial en los procedimientos ante las Cortes de Apelaciones"
 Cohesion: 0.08
@@ -1142,12 +1121,12 @@ Nodes (39): 2. Esta relación especial de sujeción es una fuente de restricció
                                          146 CPP, Art. 148 CPP, Art. 167 CPP, Art. 179 CPP (+31 more)
 
 ### Community 166 - "Efectos de las Obligaciones"
-Cohesion: 0.09
-Nodes (39): 14. Hay abundante jurisprudencia. Así, por ejemplo, se ha fallado que ‘si una de las, 161. Y aun en cuanto a estos presúmese por lo regular que se limitó la intención de las, 2317. En otras palabras, esta norma se referiría al dolo como maquinación fraudulenta, 2468. Un acto causa perjuicio a los acreedores, en este contexto, cuando ocasiona la, 2469. En efecto, el Art. 2465 permite efectuar la ejecución de todos los bienes del, 2.2. En la transacción (art. 2463). Como expresa Vodanovic, “La solución de la ley, 2. La subordinación puede ser total o parcial. En el primer caso, ninguna parte del, 2. Tratándose de contratos bilaterales, no admite la ley, en las obligaciones de dar, por (+31 more)
-
-### Community 167 - "ColdStartInterviewEngine"
 Cohesion: 0.08
-Nodes (25): ColdStartInterviewEngine, _palabras_clave(), Any, Entrevista sin consola: así un harness arma el perfil porchat. Sin argumentos…, Guarda el perfil de práctica en practice_profile.json y actualiza directrices., Tokens significativos de un texto, sin tildes ni signos., Motor interactivo para calibrar el perfil de práctica del estudio., Ejecuta la entrevista interactiva por terminal. (+17 more)
+Nodes (42): 133   La jurisprudencia más reciente ha refrendado la fuerza integradora de la buena fe objetiva. Véase Corte, 14. Hay abundante jurisprudencia. Así, por ejemplo, se ha fallado que ‘si una de las, 161. Y aun en cuanto a estos presúmese por lo regular que se limitó la intención de las, 2317. En otras palabras, esta norma se referiría al dolo como maquinación fraudulenta, 2468. Un acto causa perjuicio a los acreedores, en este contexto, cuando ocasiona la, 2469. En efecto, el Art. 2465 permite efectuar la ejecución de todos los bienes del, 2.2. En la transacción (art. 2463). Como expresa Vodanovic, “La solución de la ley, 2. La subordinación puede ser total o parcial. En el primer caso, ninguna parte del (+34 more)
+
+### Community 167 - "CNEClient"
+Cohesion: 0.11
+Nodes (17): CNEClient, Any, Obtiene la capacidad instalada de generación eléctrica (MW) por tecnología y…, Obtiene proyectos de energía en tramitación en el Sistema de Evaluación…, Obtiene el catastro de proyectos de generación y transmisión eléctrica en…, Obtiene la generación eléctrica bruta mensual (GWh) por central y empresa…, Obtiene estadísticas de clientes libres (consumos > 500 kW / 5 MW para…, Obtiene estadísticas de clientes sujetos a fijación de precios y tarifas de… (+9 more)
 
 ### Community 168 - "Cumplimiento Forzado de las Obligaciones (Ejecución en Naturaleza)"
 Cohesion: 0.06
@@ -1158,8 +1137,8 @@ Cohesion: 0.06
 Nodes (36): 1. Principio de igualdad: Refiere al goce y al ejercicio efectivo de los, 2. Enfoque de género en el acceso a la justicia: La incorporación del, 3. Principio de no discriminación de género: Refiere a la prohibición, 4. Principio de no violencia de género: Implica orientar los esfuerzos, 5. Principio de participación e inclusión: Refiere a que la toma de, 6. Cuatro ejes estratégicos: i) No discriminación de género; ii) enfo-, Capítulo 1, Capítulo 2 (+28 more)
 
 ### Community 170 - "Ley 21.302: cambios y desafíos del nuevo sistema proteccional"
-Cohesion: 0.06
-Nodes (36): 1. Los Estados partes garantizarán al niño que esté en condiciones de, 1. Los Estados partes garantizarán al niño que esté en condiciones de, 1. Los Estados partes respetarán los derechos enunciados en la presente, 1. Los Estados partes respetarán los derechos enunciados en la presente, 1. Resumen general del flujo del nuevo Servicio Mejor Niñez, 2. Con tal fin, se dará en particular al niño oportunidad de ser escucha-, 2. Con tal fin, se dará en particular al niño oportunidad de ser escucha-, 2 CRC, Observación General Número 5 de 2003, Medidas generales de aplicación (+28 more)
+Cohesion: 0.03
+Nodes (66): 1. Los Estados partes garantizarán al niño que esté en condiciones de, 1. Los Estados partes garantizarán al niño que esté en condiciones de, 1. Los Estados partes respetarán los derechos enunciados en la presente, 1. Los Estados partes respetarán los derechos enunciados en la presente, 1. Resumen general del flujo del nuevo Servicio Mejor Niñez, 2. Con tal fin, se dará en particular al niño oportunidad de ser escucha-, 2. Con tal fin, se dará en particular al niño oportunidad de ser escucha-, 2 CRC, Observación General Número 5 de 2003, Medidas generales de aplicación (+58 more)
 
 ### Community 171 - "test_integrar_harness.py"
 Cohesion: 0.10
@@ -1167,7 +1146,7 @@ Nodes (33): CompletedProcess, clientes(), configuracion(), detectar_instalados()
 
 ### Community 172 - "184. Asimismo, se podrá cautelar la demanda civil, solicitando alguna de"
 Cohesion: 0.06
-Nodes (35): 184. Asimismo, se podrá cautelar la demanda civil, solicitando alguna de, Art. 116 CPP, Art. 125 CPP, Art. 126 CPP, Art. 139 CPP, Art. 151 CPP, Art. 157 CPP, Art. 159 CPP (+27 more)
+Nodes (36): 184. Asimismo, se podrá cautelar la demanda civil, solicitando alguna de, Art. 116 CPP, Art. 125 CPP, Art. 126 CPP, Art. 139 CPP, Art. 151 CPP, Art. 157 CPP, Art. 159 CPP (+28 more)
 
 ### Community 173 - "case_intake.py"
 Cohesion: 0.10
@@ -1189,17 +1168,17 @@ Nodes (33): 1.   Por     una     parte,     hay     quienes       estiman       
 Cohesion: 0.11
 Nodes (33): 124. El Comité recomienda que el Estado parte adopte el paradigma de, 1 Adicionalmente, en el artículo 6 letra h) de la Ley 21.302 se habla de «supervisión, 1 Dieciocho y no diez, como erradamente afirman Carreta y Barcia (2019). La, 1 El 13 de enero de 2023 fue publicado en el Diario Oficial el decreto número 12 que, 1. Si la intervención con la familia en contexto de voluntariedad no, 2 Solo a modo de ejemplo podemos citar Corte Suprema, 4 de junio de 2019, rol, 3 El artículo 4 de la Ley 21.302 contempla veinte principios rectores. Un examen de, 3 Entró en vigencia el 2 de septiembre de 1990. A enero de 2023, 196 estados la (+25 more)
 
-### Community 178 - "integrar_jurisprudencia_al_grafo.py"
-Cohesion: 0.09
-Nodes (27): collections, main(), norm(), Open Legal Chile — Script de Optimización e Interconexión Ontológica…, _cargar_modulo(), indices_de_normas(), main(), normas_citadas() (+19 more)
+### Community 178 - "ingestar_lote_masivo.py"
+Cohesion: 0.11
+Nodes (28): fnmatch, invalidar_cache_catalogo(), Invalida la caché en memoria del catálogo de instituciones para recargar…, ingestar_directorio(), main(), procesar_lote(), Any, Path (+20 more)
 
 ### Community 179 - "test_caches_ttl.py"
-Cohesion: 0.09
-Nodes (22): _envejecer(), _hf_falso(), Las copias locales de BCN y SNIFA caducan: antes vivían para siempre, sin…, El precalentado del server y la primera consulta piden el listado a la vez: una…, Las cosas viejas se hacen con mtime, como la vida real., Segundo proceso (memoria vacía) lee la copia en disco: no vuelve a pagar el hub…, Sin red, el índice viejo sirve igual: es un índice de búsqueda, no una cita., _respuesta_snifa() (+14 more)
+Cohesion: 0.04
+Nodes (45): Any, Cliente oficial de la Superintendencia del Medio Ambiente (SMA / SNIFA)., ¿La copia local existe y está dentro del TTL? (el mtime es la fecha de…, Consulta el grid público del SNIFA y deja la copia local al día., Busca procedimientos sancionatorios ambientales en la base oficial SNIFA de la…, SMAClient, _devolver_canal(), pedir_http() (+37 more)
 
 ### Community 180 - "BaseLegalAgent"
-Cohesion: 0.21
-Nodes (12): AgentExecutionResult, AgentStep, BaseLegalAgent, Any, Clase base de agente jurídico especializado en el Derecho Continental Chileno., Ejecuta la misión del agente según el modo solicitado., Ejecuta una herramienta del catálogo MCP de Open Legal Chile., Pipeline algorítmico determinista especializado según el rol del agente. (+4 more)
+Cohesion: 0.10
+Nodes (26): AgentExecutionResult, AgentStep, BaseLegalAgent, LegalAgentRuntime, Any, Orquestador central del ecosistema de Agentes de Open Legal Chile., Carga todas las especificaciones de agentes desde el directorio de agentes., Obtiene un agente por su nombre canónico o alias corto. (+18 more)
 
 ### Community 181 - "test_legal_design.py"
 Cohesion: 0.12
@@ -1217,17 +1196,17 @@ Nodes (23): 📐 1. Principios Fundacionales de Diseño, 🏗️ 2. Diagrama de 
 Cohesion: 0.10
 Nodes (30): 1. Crearemos una planilla con los datos necesarios, en este caso, rol de la, 1. Presione la tecla Alt. Verá que aparecen unos cuadros pequeños, 1. Presione la tecla Alt. Verá que aparecen unos cuadros pequeños, 1. Vaya a la pestaña Revisar y escoja la opción Permitir que los usuarios, 1. Vaya a la pestaña Revisar y seleccione Proteger hoja. Deje las, 2. Comience a escribir. Verá cómo este adquiere el formato que ha, 2. En caso de que no encuentre el ícono del comando deseado, haga clic, 2. En caso de que no encuentre el ícono del comando deseado, haga clic (+22 more)
 
-### Community 185 - "Ley 21.302: cambios y desafíos del nuevo sistema proteccional"
-Cohesion: 0.07
-Nodes (30): 1. Los Estados partes garantizarán al niño que esté en condiciones de, 1. Los Estados partes garantizarán al niño que esté en condiciones de, 1. Los Estados partes respetarán los derechos enunciados en la presente, 1. Los Estados partes respetarán los derechos enunciados en la presente, 1. Resumen general del flujo del nuevo Servicio Mejor Niñez, 2. Con tal fin, se dará en particular al niño oportunidad de ser escucha-, 2. Con tal fin, se dará en particular al niño oportunidad de ser escucha-, 2 CRC, Observación General Número 5 de 2003, Medidas generales de aplicación (+22 more)
+### Community 185 - "WordDossierCompiler"
+Cohesion: 0.12
+Nodes (19): Any, Negritas e itálicas del Markdown, como runs del párrafo., Convierte el Markdown de un escrito en un .docx editable., True si python-docx está instalado y se puede compilar Word., Escribe `markdown_content` como documento Word en `output_docx_path`. `tamano`:…, Hoja forense: A4 (por defecto) u oficio chileno; nada de carta gringa., WordDossierCompiler, Prueba de la regla de la casa: los documentos se entregan en Word (.docx),… (+11 more)
 
 ### Community 186 - "Catálogo de Modos de Extinguir las Obligaciones (Art. 1567 CC)"
 Cohesion: 0.07
 Nodes (30): 🏛️ Catálogo de Modos de Extinguir las Obligaciones (Art. 1567 CC), DE LAS OBLIGACIONES — CAPÍTULO IV: EXTINCIÓN DE OBLIGACIONES Y PRELACIÓN DE CRÉDITOS, 🏛️ Prelación de Créditos y Clases de Privilegios (Arts. 2470 al 2491 CC), 🏛️ Prescripción Extintiva o Liberatoria (Arts. 2514 al 2524 CC), Véase también, CS - Rol N° 14.120-2019, Fecha: 19-08-2020, CS - Rol N° 27.890-2020, Fecha: 15-04-2021, Rol N° 14.120-2019 (+22 more)
 
-### Community 187 - "AcademiaJudicialClient"
-Cohesion: 0.09
-Nodes (15): AcademiaJudicialClient, Any, Cliente para buscar, consultar e indexar las Guías de la Academia Judicial de…, Retorna el catálogo completo de las Guías Oficiales de la Academia Judicial de…, Busca en el catálogo de guías de la Academia Judicial por término o materia…, Indexa todas las guías de la Academia Judicial en la base de datos FTS5 de…, Genera un archivo Markdown enriquecido para una guía de la Academia Judicial en…, TestTribunalesAmbientalesYAcademiaJudicial (+7 more)
+### Community 187 - "modulo_ambiental.py"
+Cohesion: 0.05
+Nodes (41): AcademiaJudicialClient, Any, Cliente para buscar, consultar e indexar las Guías de la Academia Judicial de…, Retorna el catálogo completo de las Guías Oficiales de la Academia Judicial de…, Busca en el catálogo de guías de la Academia Judicial por término o materia…, Indexa todas las guías de la Academia Judicial en la base de datos FTS5 de…, Genera un archivo Markdown enriquecido para una guía de la Academia Judicial en…, _archivo_por_rol() (+33 more)
 
 ### Community 188 - "Habilidad: Derecho Laboral de Chile (chilean-employment-legal)"
 Cohesion: 0.07
@@ -1235,15 +1214,15 @@ Nodes (28): 📎 Citas y formato de entrega, Compuertas, Compuertas, Compuertas,
 
 ### Community 189 - "Gestión de equipos en tribunales"
 Cohesion: 0.12
-Nodes (29): 1. Como facilitador de nuestras reuniones, ¿cuáles son las cosas clave que esperas de mí? ¿Cuáles son tus, 1. Establecimiento de objetivos mutuos. Las personas deben tener una, 1. Estime el tiempo necesario para la reunión, para ello considere la, 1. Los programas de difusión de la información consisten en hacer, 1. Para el tribunal como organización, 1. Registrar información. Lleva registro de los temas tratados, registro, 2. Moderar. En algunos casos, cuando los equipos están en una etapa, 2. Para los equipos de trabajo (+21 more)
+Nodes (28): 1. Como facilitador de nuestras reuniones, ¿cuáles son las cosas clave que esperas de mí? ¿Cuáles son tus, 1. Establecimiento de objetivos mutuos. Las personas deben tener una, 1. Estime el tiempo necesario para la reunión, para ello considere la, 1. Los programas de difusión de la información consisten en hacer, 1. Para el tribunal como organización, 1. Registrar información. Lleva registro de los temas tratados, registro, 2. Moderar. En algunos casos, cuando los equipos están en una etapa, 2. Para los equipos de trabajo (+20 more)
 
 ### Community 190 - "título. Tratándose de las faltas indicadas en los artículos 494, Nº 5, y 496, Nº"
 Cohesion: 0.09
 Nodes (28): título. Tratándose de las faltas indicadas en los artículos 494, Nº 5, y 496, Nº, 280               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 284               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, parte, como en el ejemplo de Politoff, la apropiación de una chimenea de mármol, Art. 113 CPP, Art. 1231 CC, Art. 140 CPP, Art. 143 CPP (+20 more)
 
 ### Community 191 - "test_agents.py"
-Cohesion: 0.07
-Nodes (27): Open Legal Chile — Pruebas Unitarias para el Motor de Agentes Jurídicos (Agents…, Verifica el análisis de causales de despido y doctrina DT., Verifica el análisis ontológico 360° en LegalGraphify., Verifica la carga dinámica de los 18 perfiles de agentes desde agents/*.json., Verifica la auditoría en 5 dimensiones del Red Team judicial., Verifica la interpretación de proveídos OJV y plazos fatales., Verifica la traducción a Lenguaje Claro y orientación CAJ., Verifica la ingesta, normalización RAE y asimilación al grafo del Agente… (+19 more)
+Cohesion: 0.08
+Nodes (25): Open Legal Chile — Pruebas Unitarias para el Motor de Agentes Jurídicos (Agents…, Verifica el análisis de causales de despido y doctrina DT., Verifica el análisis ontológico 360° en LegalGraphify., Verifica la carga dinámica de los 18 perfiles de agentes desde agents/*.json., Verifica la auditoría en 5 dimensiones del Red Team judicial., Verifica la interpretación de proveídos OJV y plazos fatales., Verifica la traducción a Lenguaje Claro y orientación CAJ., Verifica las 3 nuevas herramientas MCP expuestas en mcp_server. (+17 more)
 
 ### Community 192 - "models.py"
 Cohesion: 0.12
@@ -1271,7 +1250,7 @@ Nodes (23): 📎 Citas y formato de entrega, Compuertas, Compuertas, Compuertas,
 
 ### Community 198 - "18.216. Transcurrido el plazo previsto en el inciso anterior sin que el imputado"
 Cohesion: 0.10
-Nodes (23): 18.216. Transcurrido el plazo previsto en el inciso anterior sin que el imputado, 336               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 460                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, Art. 142 CPP, Art. 153 CPP, Art. 156 CPP, Art. 162 CPP, Art. 190 CPP (+15 more)
+Nodes (31): 18.216. Transcurrido el plazo previsto en el inciso anterior sin que el imputado, 230               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, §2. HOMICIDIO SIMPLE (ART. 391 Nº 2), 336               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 444               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 460                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, parte o colabore en la comisión del delito que se ejecuta mediante el documento que, Y 232) (+23 more)
 
 ### Community 199 - "Concepto y clasificación de las Obligaciones"
 Cohesion: 0.17
@@ -1335,9 +1314,9 @@ Nodes (13): 📎 Citas y formato de entrega, 📚 Formato de Citación Obligator
 Cohesion: 0.11
 Nodes (19): 1. Criterios en Demandas de Reparación por Daño Ambiental (Art. 17 N° 2 Ley 20.600), 2. Criterios en Reclamaciones Sancionatorias contra la SMA (Art. 17 N° 3 Ley 20.600), 3. Criterios en SEIA, Fraccionamiento y Participación Ciudadana (Art. 17 N° 1 Ley 20.600), 4. Criterios Específicos del 3.ᵉʳ Tribunal Ambiental (Valdivia / Región de Los Lagos), 5. Criterios de la Excma. Corte Suprema en Recursos de Casación en el Fondo (Art. 26 Ley 20.600), A. El concepto de «Significancia» del daño ecológico, A. Estándar de Tipicidad y Motivación del Acto Sancionatorio, A. Fraccionamiento de proyectos (Art. 11 bis Ley 19.300) (+11 more)
 
-### Community 215 - "DoctrinaTokenOptimizer"
-Cohesion: 0.13
-Nodes (14): calculate_token_compression(), clean_and_optimize_markdown(), DoctrinaTokenOptimizer, Any, Calcula la métrica de ahorro de tokens entre el texto crudo y el Markdown…, Limpia ruido y artefactos editoriales de un texto crudo de doctrina., Calcula estadísticas de compresión de tokens entre texto original y optimizado., Estima tokens basado en el promedio de ~4 caracteres por token en español. (+6 more)
+### Community 215 - "CBRTitleStudyEngine"
+Cohesion: 0.12
+Nodes (10): CBRTitleStudyEngine, JudicialPowerVerifier, Any, Motor de auditoría para estudios de títulos de dominio decenal e inscripciones…, Entrega el checklist exhaustivo de documentos obligatorios para un estudio de…, Verificador forense de comparecencia en juicio y personerías (Ley 18.120 y…, Audita el texto de un mandato judicial o patrocinio y poder otorgado en un…, Valida formalmente los datos de una inscripción registral en el Conservador. (+2 more)
 
 ### Community 216 - "5. Safety Gates & Agent Specializations"
 Cohesion: 0.11
@@ -1364,8 +1343,8 @@ Cohesion: 0.11
 Nodes (18): 1. Requisitos de la Mora del Deudor (Art. 1551 CC), 2. La Purga de la Mora (Art. 1552 CC), 🏛️ Cumplimiento Forzado de las Obligaciones (Ejecución en Naturaleza), DE LAS OBLIGACIONES — CAPÍTULO II: EFECTOS, INCUMPLIMIENTO Y MORA CONTRACTUAL, 🏛️ Indemnización de Perjuicios y Cláusula Penal (Art. 1535 CC), 🏛️ La Mora del Deudor y la Excepción de Contrato No Cumplido, Véase también, CS - Rol N° 22.140-2019, Fecha: 11-12-2020 (+10 more)
 
 ### Community 222 - "200 CPP y del Art. 13 Ley Nº 20.000; b) la rotura de sellos puestos sobre efectos o"
-Cohesion: 0.19
-Nodes (18): §13. usurpación de atribuciones (arts. 221 y 222), 144               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 200 CPP y del Art. 13 Ley Nº 20.000; b) la rotura de sellos puestos sobre efectos o, 370                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 382               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 434               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 452                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, Art. 2162 CC (+10 more)
+Cohesion: 0.25
+Nodes (15): §13. usurpación de atribuciones (arts. 221 y 222), 144               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 200 CPP y del Art. 13 Ley Nº 20.000; b) la rotura de sellos puestos sobre efectos o, 370                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 382               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 434               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, 452                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, Art. 2162 CC (+7 more)
 
 ### Community 223 - "⚖️ Open Legal Chile"
 Cohesion: 0.11
@@ -1427,25 +1406,25 @@ Nodes (14): 1.1.1. El propietario del inmueble procedió con justa causa de erro
 Cohesion: 0.26
 Nodes (14): 1211 El título se divide en los siguientes párrafos: 1° “De las asignaciones alimenticias, 2. Para otros, la ley sólo quiso referirse a las pensiones alimenticias que a la muerte, 3. Una tercera doctrina, que ha prevalecido en las Cortes, entiende que no obstante, 4.6. Naturaleza jurídica de los alimentos: ¿Asignación a título singular?, Capitulo iii: concurrencia de los derechos anteriores con el derecho de, Cuarta parte: de las donaciones revocables. 1, N° 1). 16, parte de la cuarta de libre disposición; excepcionalmente, podría gravarse la cuarta de (+6 more)
 
-### Community 241 - "_html_del_grafo"
-Cohesion: 0.15
-Nodes (14): _areas_del_corpus(), _html_del_grafo(), _leyenda(), _posiciones(), _posiciones_por_area(), Any, Devuelve {nombre de archivo: área} leyendo el corpus. Primero el encabezado del…, Acomoda cada área del derecho en su propia región: se ven como grupos, no como… (+6 more)
+### Community 241 - "grafo_vista.py"
+Cohesion: 0.18
+Nodes (15): _areas_del_corpus(), _html_del_grafo(), _leyenda(), _posiciones(), _posiciones_por_area(), Any, Vista de los grafos: un HTML que se abre y se mira. El motor (LegalGraphify)…, Devuelve {nombre de archivo: área} leyendo el corpus. Primero el encabezado del… (+7 more)
 
-### Community 242 - "harvest_tribunales_ambientales.py"
-Cohesion: 0.24
-Nodes (13): generar_fichas_markdown(), harvest_1ta_sentencias(), harvest_2ta_anuarios(), harvest_3ta_anuarios(), harvest_3ta_boletines(), main(), Any, Obtiene los Anuarios del Segundo Tribunal Ambiental de Santiago. (+5 more)
+### Community 242 - "cosechar_publicaciones_ambientales.py"
+Cohesion: 0.09
+Nodes (33): bs4, boletines_historicos(), cargar(), clave(), cosechar_3ta_boletines(), cosechar_anuarios(), main(), primer_pdf() (+25 more)
 
 ### Community 243 - "test_resumen_comunidades.py"
 Cohesion: 0.21
 Nodes (5): _motor(), El resumen por comunidades: el panorama del grafo en unos cientos de tokens. Es…, Lo que importa para el ahorro: que el panorama cueste cientos de tokens, no…, TestElDisparadorEnLenguajeNatural, TestResumenPorComunidades
 
-### Community 244 - "LegalAgentRuntime"
-Cohesion: 0.24
-Nodes (7): LegalAgentRuntime, Orquestador central del ecosistema de Agentes de Open Legal Chile., Carga todas las especificaciones de agentes desde el directorio de agentes., Obtiene un agente por su nombre canónico o alias corto., Retorna el catálogo ordenado de agentes únicos disponibles., Ejecuta un agente legal por nombre., Genera configuraciones de subagentes exportables para Claude Code…
+### Community 244 - "Sucesorio 8 (de la sucesión semiforzosa)"
+Cohesion: 0.22
+Nodes (18): 1.4. Carácter mudable de los alimentos: cosa juzgada provisional en materia de, 1.5. Imposición del pago de alimentos a determinados asignatarios. Responsabilidad, 1.6. Resumen de las reglas a que se somete el pago de los alimentos como asignación, 2.4. Restituciones: casos en que el legitimario puede exigir un saldo o puede estar, 2.5 Situaciones que pueden presentarse en el pago de las legítimas, según, 4.3 No es susceptible de sujetarse a modalidades o gravámenes, salvo las excepciones, 5.4 Sanción por la infracción de la promesa, 5.- asignaciones voluntarias a titulo singular (+10 more)
 
-### Community 245 - "Sucesorio 5 (herencias y legados)"
-Cohesion: 0.29
-Nodes (13): 1127. Pueden legarse las cosas muebles y los inmuebles. Incluso, con ciertas, 2.2. asignaciones a titulo universal o herencias. 1, 2. Los bienes nacionales de uso público, o los de propiedad estatal o municipal, 5. Cosas muebles, inmuebles e incluso algunas universalidades jurídicas (propone, 6. Las cosas cuya adquisición está prohibida por la ley (por ejemplo, explosivos y, 7.1. Existe cosa juzgada respecto de los herederos, en un juicio seguido contra o por el, 7.2. En cuanto a la posibilidad de que los herederos puedan o no demandar la nulidad, 7.3. En contra de los herederos del deudor hipotecario procede la acción personal y no (+5 more)
+### Community 245 - "Contrato de Arrendamiento"
+Cohesion: 0.35
+Nodes (11): 1464 N° 3 del Código Civil). También deberá cerciorarse el notario que el arrendador, 9.9. Prescripción de la acción derivada de un contrato de prestación de, Años, según se trate de inmuebles urbanos o rústicos, que forman parte, Contrato de Arrendamiento, Contrato de arrendamiento113, El contrato de arrendamiento1, parte que “Si la finca es subastada a instancias de un acreedor hipotecario, y la, (si se trata del arrendamiento de un inmueble urbano regido por la ley (+3 more)
 
 ### Community 246 - "recomendar_ocr"
 Cohesion: 0.27
@@ -1455,17 +1434,17 @@ Nodes (11): _detectar_tipo(), Any, Recomienda el plan de OCR de un documento con
 Cohesion: 0.28
 Nodes (12): cosechar_cs(), cosechar_tc(), cs_compacto(), cs_pagina(), cs_sesion(), main(), Path, La API del TC ordena por ingreso; se consulta día por día con fecha exacta. (+4 more)
 
-### Community 248 - "test_empaquetado.py"
-Cohesion: 0.15
-Nodes (9): Empaquetado: el paquete publicado tiene que llevar el corpus y el grafo. El…, La instalación lleva todo: el OCR no se instala aparte («siempre se debe…, servidor/ (los dominios de herramientas) tiene que viajar en el wheel: si no,…, El producto no le pide al usuario abrir una terminal para completar la…, Candado: un módulo sin declarar no llega al wheel y el paquete instalado no…, test_el_codigo_no_manda_a_instalar_dependencias_por_terminal(), test_el_ocr_viaja_como_dependencia_base(), test_los_dominios_del_servidor_viajan_en_el_paquete() (+1 more)
+### Community 248 - "La Propiedad"
+Cohesion: 0.38
+Nodes (10): 11.1. Extinción por adquirir la propiedad otra persona. 11.2. Extinción sin que se, 858.2 CC). La renuncia, sin embargo, no permitirá liberarse de obligaciones que ya, La Propiedad, parte de ellos (así, si en la comunidad existe un inmueble y un automóvil, cada, parte de nadie. Se trata además de un negocio jurídico unilateral no recepticio. No es, Sumario: 1.- Generalidades. 2.- Definición de comunidad y de copropiedad. 3.-, Sumario: Introducción. 1.- Dominio y propiedad. 2.- Definiciones. 3.- Principios acerca, título, ocupen las unidades, sean copropietarios, o titulares de otros derechos reales o (+2 more)
 
 ### Community 249 - "Docentes"
-Cohesion: 0.17
-Nodes (12): 1 Que pueden consultarse en la base de datos de estadísticas oficiales de delitos, 4 Véase «Percepción de los procesos de investigación y judicialización en los casos, 5.103               Mujeres, Capítulo 1, Capítulo 2, Capítulo 3, Capítulo 4, Docentes (+4 more)
+Cohesion: 0.09
+Nodes (25): 1 Que pueden consultarse en la base de datos de estadísticas oficiales de delitos, 4 Véase «Percepción de los procesos de investigación y judicialización en los casos, 5.103               Mujeres, Capítulo 1, Capítulo 2, Capítulo 3, Capítulo 4, Docentes (+17 more)
 
-### Community 250 - "Comentarios Ley 21400 y la Ley 21515"
-Cohesion: 0.32
-Nodes (12): 1. En la inscripción de nacimiento del primero de los hijos comunes, los progenitores, 2. En toda inscripción de nacimiento en que al tiempo de la inscripción quede determinada, 3. En la inscripción de nacimiento de un hijo cuya filiación al tiempo de la inscripción quede, Al código civil y otros cuerpos legales por, Comentarios Ley 21400 y la Ley 21515, nuevo: “TÍTULO IV BIS DE LA SOLICITUD DE DISOLUCIÓN DEL VÍNCULO, parte su mujer: le bastará el consentimiento de su mujer, si no estuviere imposibilitada de, Partida de nacimiento de las personas mayores de catorce y (+4 more)
+### Community 250 - "Sucesorio 15"
+Cohesion: 0.52
+Nodes (7): 10. Situación del heredero beneficiario, que paga deudas que exceden el valor de los, 2. Concepto, 4. Efectos que se originan, cuando las personas jurídicas de Derecho Público y los, I. los beneficios en el código civil chileno, Ii. el beneficio de inventario, que invoca el heredero, Sucesorio 15, Véase también
 
 ### Community 251 - "Los Bienes"
 Cohesion: 0.32
@@ -1475,17 +1454,13 @@ Nodes (12): 13. Las cosas corporales son las que se pueden tocar, como un fundo,
 Cohesion: 0.27
 Nodes (12): 1141. Los legados, en cuanto a la forma en que deben contribuir a los citados pagos, se, 1. Concepto de deudas hereditarias y testamentarias, 2. Que no exista oposición de parte de los acreedores personales del heredero (oposición, 5. Casos en que los acreedores hereditarios y testamentarios no pueden solicitar el, 7. El beneficio de separación obtenido por uno de los acreedores hereditarios o, 7. El beneficio de separación obtenido por uno de los acreedores hereditarios o, I. del pago de las deudas hereditarias y testamentarias, Ii. del beneficio de separación (+4 more)
 
-### Community 253 - ".get_available_engines"
-Cohesion: 0.21
-Nodes (6): Resuelve el motor de OCR a utilizar según disponibilidad., Verifica si RapidOCR (modelos de PaddleOCR en ONNX) está disponible., Verifica si el framework PaddleOCR nativo está disponible., Verifica si el binario del sistema Tesseract está disponible., Verifica si PyMuPDF y al menos un motor de OCR están disponibles., Retorna la lista de motores de extracción y OCR actualmente utilizables.
-
 ### Community 254 - "⚖️ 7. Módulos Forenses y Pedagógicos de Especialidad"
 Cohesion: 0.17
 Nodes (12): ⚖️ 7. Módulos Forenses y Pedagógicos de Especialidad, 🔍 A. Motor de Crítica Forense en 5 Dimensiones (`critique.py`), ⏱️ B. Vigilante Procesal de Proveídos (`docket_watcher.py`), 🎓 C. Simulador Socrático de Examen de Grado (`examen_grado.py`), 🤝 D. Clínica Jurídica y Lenguaje Claro (`clinica_juridica.py`), 🌐 E. Modelado de Redes y Probidad Pública (`grafo_vinculos.py` e `infoprobidad_connector.py`), 📑 F. Peritaje OCR y Compilador de Expedientes (`forensic_ocr.py` y `pdf_dossier_compiler.py`), 🏡 G. Estudio de Títulos Inmobiliarios, CBR y Mandato Judicial (`cbr_titles.py`) (+4 more)
 
-### Community 255 - "cosechar_publicaciones_ambientales.py"
-Cohesion: 0.27
-Nodes (11): boletines_historicos(), cargar(), clave(), cosechar_3ta_boletines(), cosechar_anuarios(), main(), primer_pdf(), Anuarios publicados en una página institucional. (+3 more)
+### Community 255 - "Guía de Procedimiento Abreviado en Juzgados de Garantía"
+Cohesion: 0.40
+Nodes (5): Consulta y Descarga del Documento Original, Guía de Procedimiento Abreviado en Juzgados de Garantía, Materia: Penal | Fecha: 2025-03-01, Resumen Ejecutivo de Práctica Judicial, Véase también
 
 ### Community 256 - "TestEjecucion"
 Cohesion: 0.20
@@ -1499,9 +1474,9 @@ Nodes (3): La tabla: caso → materia → herramientas., Las 15 filas de la tabl
 Cohesion: 0.18
 Nodes (10): Boundaries, 📎 Citas y formato de entrega, Intensity, Output, Persistence, Ponytail, 🎨 Presentación y Lenguaje Claro (Legal Design), Rules (+2 more)
 
-### Community 259 - "Manual psicosociolegal sobre abuso sexual infantil"
-Cohesion: 0.18
-Nodes (11): 1 Que pueden consultarse en la base de datos de estadísticas oficiales de delitos, 4 Véase «Percepción de los procesos de investigación y judicialización en los casos, 5.103               Mujeres, Capítulo 1, Capítulo 2, Capítulo 3, Capítulo 4, Docentes (+3 more)
+### Community 259 - "De la Responsabilidad Precontractual"
+Cohesion: 0.70
+Nodes (5): 6. Si el contrato ha sido concluído queda obligada a restituir la suma o a entregar la, De la Responsabilidad Precontractual, parte.”, Véase también, Énfasis en los tratos negociales previos1
 
 ### Community 260 - "Derechos Reales Limitados"
 Cohesion: 0.33
@@ -1515,9 +1490,9 @@ Nodes (11): DERECHO DEL TRABAJO — CAPÍTULO II: CONTRATO, IUS VARIANDI Y DESPI
 Cohesion: 0.18
 Nodes (11): Corte Suprema · Tercera Sala Constitucional y Contencioso Administrativa, CS · Rol N° 12.890-2023 — Pérez con Servicios Mineros SpA, CS · Rol N° 15.678-2021 — Banco de Chile con Agrícola Los Boldos L, CS · Rol N° 23.456-2022 — Acuña con Municipalidad de Santiago, CS · Rol N° 34.567-2022 — Rojas con Constructora del Pacífico Ltda, CS · Rol N° 45.123-2021 — González con Empresa Nacional S.A., CS · Rol N° 45.890-2022 — Comunidad Indígena Kawésqar con Servicio, CS · Rol N° 78.901-2023 — Junta de Vecinos Alerce con Inmobiliaria (+3 more)
 
-### Community 263 - "test_jurisprudencia_textos.py"
-Cohesion: 0.22
-Nodes (7): _filas(), Path, Pruebas de los textos íntegros nuevos y de su integración al grafo jurídico. -…, El integrador refresca `graph.total_nodes/total_edges` al escribir el archivo.…, test_indice_publicaciones_cubre_los_anuarios_y_boletines(), test_indice_tc_cubre_las_sentencias(), test_la_metadata_del_grafo_esta_alineada_con_sus_listas()
+### Community 263 - "Las Personas Naturales"
+Cohesion: 0.83
+Nodes (4): 5.7. Formalidades que deben cumplirse para obtener la declaración de muerte, Las Personas Naturales, Las personas naturales1, Véase también
 
 ### Community 264 - "Habilidad: Compilación y Ensamblaje de Expedientes Judiciales (chilean-dossier-assembly)"
 Cohesion: 0.20
@@ -1587,10 +1562,6 @@ Nodes (9): CS - Rol N° 21.340-2021, Fecha: 14-09-2022, Rol N° 21.340-2021, La 
 Cohesion: 0.22
 Nodes (8): 1. Identidad y Filosofía Jurídica, 2 bis. Estándar de Contundencia y Subsunción Jurídica Tripartita (Respuestas de Alto Nivel), 2. Sistema Obligatorio de Citación y Atribución de Fuentes, 3. Estructura de Escritos Judiciales y Forenses en Chile, 4. Compuertas Éticas y de Responsabilidad Profesional (*Gates*), Estructura Canónica Obligatoria de Respuesta:, Open Legal Chile — Reglas Maestras del Proyecto, Principios Fundamentales:
 
-### Community 281 - "test_ocr_pagina_ilegible.py"
-Cohesion: 0.28
-Nodes (8): motor(), _pdf_de_una_pagina(), fixture, El OCR no puede reportar éxito cuando no leyó nada. Caso real (18-09-2026): dos…, Una página de la que no se extrajo texto del documento no puede quedar como…, El aviso tiene que ser accionable: qué hacer, no solo que falló., test_pagina_ilegible_dice_como_arreglarlo(), test_pagina_sin_texto_no_se_reporta_como_exito()
-
 ### Community 282 - "test_paridad_cli_mcp.py"
 Cohesion: 0.31
 Nodes (8): _comandos_cli(), _herramientas_mcp(), Nada que la CLI pueda hacer debe quedar invisible para un harness. Este test es…, Los esquemas viven en servidor/<dominio>.py (mcp_server.py los ensambla en…, Además de las herramientas, el harness tiene que poder leer las reglas del…, test_cada_comando_tiene_herramienta_o_esta_en_la_allowlist(), test_el_protocolo_viaja_como_prompts_y_recursos_mcp(), test_las_capacidades_de_paridad_estan_expuestas()
@@ -1600,13 +1571,9 @@ Cohesion: 0.36
 Nodes (7): AST, expr, _esta_activo(), _llamadas_de_subprocess(), La suite tiene que correr en Windows, no sólo en Linux. En Windows el pipe de…, True sólo si el argumento quedó escrito literalmente como True (no si es una…, test_las_pruebas_que_decodifican_salida_declaran_la_codificacion()
 
 ### Community 284 - "49. Lucy Treizman Sacks y otros con Rodrigo Erazo"
-Cohesion: 0.25
-Nodes (8): 49. Lucy Treizman Sacks y otros con Rodrigo Erazo, Rol
-                                            N° 16920-2013, Rol N° 2074-2009, Rol N° 2217-2000, Rol N° 44501-2017, Rol N° 4931-2006, Rol N° 5883-2012, Rol N° 776-2008
-
-### Community 285 - "444               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán"
-Cohesion: 0.57
-Nodes (8): 230               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, §2. HOMICIDIO SIMPLE (ART. 391 Nº 2), 444               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán, parte o colabore en la comisión del delito que se ejecuta mediante el documento que, Y 232), Art. 108 CPP, Art. 193 CP, Art. 61 CPC
+Cohesion: 0.08
+Nodes (21): 21. Nayade Fernández Medel con Clínica Las Condes            Clínica San Carlos S.A. y otro (2018): Corte Su-, 49. Lucy Treizman Sacks y otros con Rodrigo Erazo, 88. VIDAL, Álvaro (2006): “La responsabilidad del         5.   Bidasoa Limitada y otros con Patricia Isaacs, 91. VIDAL, Álvaro (2008): “Las acciones civiles deri-, Rol N° 11526-2017, Rol N°        14421-2013, Rol N° 15996-2013, Rol
+                                            N° 16920-2013 (+13 more)
 
 ### Community 286 - "Guía de Inicio Rápido (Quickstart)"
 Cohesion: 0.25
@@ -1696,10 +1663,6 @@ Nodes (6): 1199. Procede entonces descontar de ella la parte en que se están ap
 Cohesion: 0.33
 Nodes (5): 🏛️ 1. Obras y Tratados Canónicos Digitalizados por Capítulos, ⚖️ 2. Cumplimiento Estricto de Propiedad Intelectual (Ley N° 17.336), ⚡ 3. Estándar de Optimización de Tokens, 🔍 4. Uso del Motor FTS5 y Herramientas MCP, Canon Doctrinal Jurídico Chileno — Open Legal Chile
 
-### Community 311 - "fetch_tc_sentencias"
-Cohesion: 0.40
-Nodes (6): fetch_tc_sentencias(), main(), Any, Inserta las sentencias en SQLite y las vuelca a un archivo JSONL., Consulta la API oficial del Tribunal Constitucional de Chile., sync_to_db_and_jsonl()
-
 ### Community 314 - "open-legal-chile"
 Cohesion: 0.40
 Nodes (4): PYTHONIOENCODING, PYTHONPATH, python3, open-legal-chile
@@ -1707,10 +1670,6 @@ Nodes (4): PYTHONIOENCODING, PYTHONPATH, python3, open-legal-chile
 ### Community 315 - "Notas de arquitectura"
 Cohesion: 0.40
 Nodes (4): 1. Los conectores se quedan en la raíz (no se mueven a `connectors/`), 2. `mcp_server.py` delega en `servidor/` (un módulo por dominio), 3. El arranque del MCP queda como está (sin lazy loading), Notas de arquitectura
-
-### Community 316 - "21. Nayade Fernández Medel con Clínica Las Condes            Clínica San Carlos S.A. y otro (2018): Corte Su-"
-Cohesion: 0.40
-Nodes (5): 21. Nayade Fernández Medel con Clínica Las Condes            Clínica San Carlos S.A. y otro (2018): Corte Su-, Rol N° 15996-2013, Rol N° 1745-2017, Rol N° 19182-2017, Rol N° 7995-2011
 
 ### Community 317 - "38. Juan Sarabia Tolosa y otros con Servicio de Sa-      53. Macarena Estay Estay y otro con Ilustre Munici-"
 Cohesion: 0.40
@@ -1723,10 +1682,6 @@ Nodes (5): 41. Judith Cecilia González Concha con Clínica Los       56. Marice
 ### Community 319 - "Del Abuso de los Derechos"
 Cohesion: 0.70
 Nodes (5): 2. Los actos de emulación; y, 3. El acto debe carecer de utilidad para quien ejerce el derecho.7, Del Abuso de los Derechos, Del abuso de los derechos1, Véase también
-
-### Community 320 - "El Derecho Real de Conservación"
-Cohesion: 0.70
-Nodes (5): 4. Las Municipalidades; o, El Derecho Real de Conservación, El derecho real de conservación1, título oneroso. En cambio, si se adquiere a título gratuito, ingresará al haber propio del, Véase también
 
 ### Community 321 - "5.1.2 Nº 7 de la Ordenanza General de Urbanismo y Construcciones sólo es necesario el"
 Cohesion: 0.40
@@ -1761,10 +1716,6 @@ Nodes (4): Estructura (de arriba hacia abajo), Mantenlo aburrido, Plantilla de T
 Cohesion: 0.40
 Nodes (4): 📍 2027: Soberanía Forense y Profundidad Doctrinal Nacional, 🗺️ Hoja de Ruta Oficial (ROADMAP 2026-2027), 📍 Q1-Q2 2026: Consolidación del Protocolo MCP, 📍 Q3-Q4 2026: Espacios de Casos, Motor Vectorial y Rendimiento
 
-### Community 329 - "_linea_con_limite"
-Cohesion: 0.40
-Nodes (3): _linea_con_limite(), readline con límite de tiempo: si el server se cuelga, la prueba no se cuelga…, test_el_progreso_sale_con_el_server_corriendo_como_script()
-
 ### Community 330 - "open-legal-chile"
 Cohesion: 0.40
 Nodes (4): PYTHONIOENCODING, PYTHONPATH, python3, open-legal-chile
@@ -1789,14 +1740,6 @@ Nodes (3): Mensaje Inicial, Mensaje Inicial, Véase también
 Cohesion: 0.50
 Nodes (4): 69. Patricia Loreto Muñoz Oliva con Servicio de Salud, Rol N° 100796-2016, Rol N° 2121-2009, Rol N° 3365-2014
 
-### Community 336 - "88. VIDAL, Álvaro (2006): “La responsabilidad del         5.   Bidasoa Limitada y otros con Patricia Isaacs"
-Cohesion: 0.50
-Nodes (4): 88. VIDAL, Álvaro (2006): “La responsabilidad del         5.   Bidasoa Limitada y otros con Patricia Isaacs, Rol N° 11526-2017, Rol N° 27175-2014, Rol N° 35723-2017
-
-### Community 337 - "91. VIDAL, Álvaro (2008): “Las acciones civiles deri-"
-Cohesion: 0.50
-Nodes (4): 91. VIDAL, Álvaro (2008): “Las acciones civiles deri-, Rol N°        14421-2013, Rol N° 2779-2018, Rol N° 375-2013
-
 ### Community 338 - "Contrato de mutuo"
 Cohesion: 0.83
 Nodes (4): 1610 N° 6, en las normas del pago con subrogación legal. Conforme al precepto, el préstamo que un tercero le, Contrato de mutuo, O préstamo de consumo1, Véase también
@@ -1809,17 +1752,9 @@ Nodes (4): 2006. El mismo artículo 1999 rige para las profesiones que se regula
 Cohesion: 0.83
 Nodes (4): 1801. Si el censo no se inscribe, el censuario sólo estará obligado en favor, Capitulo x : el censo, El Censo, Véase también
 
-### Community 341 - "El Decreto Ley 2695"
-Cohesion: 0.83
-Nodes (4): C nstitución del d mini s bre ella1, El Decreto Ley 2695, parte del bien raíz, proporcionado por el Servicio de Imp estos Internos. El criterio del, Véase también
-
 ### Community 342 - "Fundamentos Constitucionales de la Responsabilidad Extracontractual"
 Cohesion: 0.83
 Nodes (4): 18.575. Otro caso emblemático de responsabilidad civil del Fisco por falta de, Fundamentos Constitucionales de la Responsabilidad Extracontractual, La responsabilidad extracontractual1, Véase también
-
-### Community 343 - "La Cesión de Derechos"
-Cohesion: 0.83
-Nodes (4): La Cesión de Derechos, parte, se crea una solución de continuidad o vacío en el Registro de Propiedad, cuestión que, título, no ha querido referirse indudablemente a su entrega material, pues lo que se, Véase también
 
 ### Community 344 - "19 N° 24 inc. 2° y 20 de nuestra Constitución Política, art. 582 del Código Civil y art. 9 del"
 Cohesion: 0.50
@@ -1829,10 +1764,6 @@ Nodes (4): 19 N° 24 inc. 2° y 20 de nuestra Constitución Política, art. 582 
 ### Community 345 - "Los atributos de la personalidad"
 Cohesion: 0.83
 Nodes (4): 2.2. Clases de capacidad. 2.3. Capacidad de goce, atributo de la personalidad. 2.4. La, Los atributos de la personalidad, parte, el cambio del orden de los apellidos del solicitante provocará el cambio del, Véase también
-
-### Community 346 - "Los Cuasicontratos"
-Cohesion: 0.83
-Nodes (4): La ley como fuente de las obligaciones, Los Cuasicontratos, Los cuasicontratos1, Véase también
 
 ### Community 347 - "Ordinaria de la sociedad conyugal"
 Cohesion: 0.50
@@ -1853,10 +1784,6 @@ Nodes (4): 🌟 1. Visión, Filosofía y Soberanía Jurídica, 🎨 Diseño Lega
 ### Community 351 - "⚡ 3. Instalación y Puesta en Marcha"
 Cohesion: 0.50
 Nodes (4): ⚡ 3. Instalación y Puesta en Marcha, 🌐 El corpus publicado en Hugging Face, Instalación en un comando, ⚙️ Modos de Inferencia: Soberano vs. Modelos Externos
-
-### Community 354 - "133   La jurisprudencia más reciente ha refrendado la fuerza integradora de la buena fe objetiva. Véase Corte"
-Cohesion: 0.67
-Nodes (3): 133   La jurisprudencia más reciente ha refrendado la fuerza integradora de la buena fe objetiva. Véase Corte, Rol N° 165-2014, Rol N° 2073-2013
 
 ### Community 355 - "13. Cristóbal Tienken Fernández con Clínica Las          27.   Carlos Henríquez Durán y otro (2007): Corte de"
 Cohesion: 0.67
@@ -1922,19 +1849,6 @@ Nodes (3): Contrato de Depósito, Del deposito y del secuestro 1, Véase tambié
 Cohesion: 1.00
 Nodes (3): La Anticresis, La anticresis 1, Véase también
 
-### Community 370 - "parte denunciante, para que se aumente la suma fijada por indemnización de daño"
-Cohesion: 0.67
-Nodes (3): parte denunciante, para que se aumente la suma fijada por indemnización de daño, Rol N° 26.936-2015, Rol N°
-5.762-2014
-
-### Community 371 - "parte final del inc. 1º del N° 5 del art. 1740. Quedan comprendidos en esta"
-Cohesion: 0.67
-Nodes (3): parte final del inc. 1º del N° 5 del art. 1740. Quedan comprendidos en esta, Rol N° 16.342-2013, Rol N°433-2013
-
-### Community 372 - "Sucesorio 14 (aceptación y repudiación de las asignaciones)"
-Cohesion: 1.00
-Nodes (3): Asignaciones por causa de muerte1, Sucesorio 14 (aceptación y repudiación de las asignaciones), Véase también
-
 ### Community 373 - "Sucesorio 9 (pérdida de las asignaciones forzosas)"
 Cohesion: 1.00
 Nodes (3): De las asignaciones forzosas1, Sucesorio 9 (pérdida de las asignaciones forzosas), Véase también
@@ -1987,28 +1901,24 @@ Cohesion: 0.67
 Nodes (3): Y de la honra. régimen de prensa, Art. 158 CP, Art. 36
 Ley 19.733
 
-### Community 385 - "call_api"
-Cohesion: 0.67
-Nodes (3): call_api(), Any, Punto de entrada invocado por el runner de Promptfoo.
-
 ## Knowledge Gaps
 - **6078 isolated node(s):** `python3`, `PYTHONIOENCODING`, `PYTHONPATH`, `python3`, `PYTHONIOENCODING` (+6073 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 7325 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **77 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 7344 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **73 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Habilitante para juez de juzgado de garantía y tribunal de juicio oral en lo penal` connect `Habilitante para juez de juzgado de garantía y tribunal de juicio oral en lo penal` to `sumario. Los mismos derechos corresponderán a los herederos del conde-`, `2. Esta relación especial de sujeción es una fuente de restricción de`, `18.216. Transcurrido el plazo previsto en el inciso anterior sin que el imputado`, `parte, las medidas necesarias para permitir dicho ejercicio. Si esas medidas`, `título, el procedimiento por delito de acción privada se regirá por las normas`, `184. Asimismo, se podrá cautelar la demanda civil, solicitando alguna de`, `Academia Judicial de Chile`, `parte determinará el orden en que rendirá su prueba, correspondiendo recibir`, `parte, un instrumento público, el tribunal, junto con su devolución, ordenará`, `título 3° del libro II, cuando fuere previsible que la persona de cuya declara-`, `1. Fallos que acogen requerimiento`, `2. Fallos que rechazan el requerimiento`, `5.2                Tribunal de juicio oral`, `título. Tratándose de las faltas indicadas en los artículos 494, Nº 5, y 496, Nº`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
-- **Why does `doctrina48981` connect `doctrina48981` to `Y de la honra. régimen de prensa`, `sumario. Los mismos derechos corresponderán a los herederos del conde-`, `título 3° del libro II, cuando fuere previsible que la persona de cuya declara-`, `444               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `100               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§11. obstrucción a la investigación (art. 269 bis)`, `236                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `278               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `294               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§2. prevaricación judicial (arts. 223 a 227)`, `302               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `332               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§15. FRAUDES EN LA ADMINISTRACIÓN (ARTS. 469 Nº 3 Y Nº 4, Y`, `Bien jurídico y constitución`, `352                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `42                 Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `436                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `44                 Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `474               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§4. malversación de caudales públicos (arts. 233 a 235)`, `512               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§7. auxilio al suicidio (art. 393)`, `Administración de justicia`, `(arts. 193 y 194)`, `Certificados y licencias médicas (arts. 199 a 207)`, `ESTRICTO. MODALIDADES DE TRÁFICO (ART. 3º INC. 1º)`, `título de parricida, pudiendo considerarse el envenenamiento como circunstancia`, `título. Tratándose de las faltas indicadas en los artículos 494, Nº 5, y 496, Nº`, `193 Nº 2): aquí lo importante no es tanto suponer la participación de per-`, `parte, las medidas necesarias para permitir dicho ejercicio. Si esas medidas`, `18.216. Transcurrido el plazo previsto en el inciso anterior sin que el imputado`, `326               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `200 CPP y del Art. 13 Ley Nº 20.000; b) la rotura de sellos puestos sobre efectos o`, `124               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `224 Nº1 y 225 Nº1), sí podrían ser responsables eventualmente de prevari-`, `442               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `504                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `510                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `516                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§6. abusos sexuales (arts. 365 bis a 366 ter)`, `(art. 470 n° 6)`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **Why does `Convenio 169 de la OIT sobre Pueblos Indígenas` connect `Convenio 169 de la OIT sobre Pueblos Indígenas` to `Acceso a la Información Pública y Transparencia`, `3.8.3 Constitución    de    servidumbres`, `Gobierno Judicial. Curso habilitante para Fiscal Judicial y Ministro de Corte de Apelaciones`, `Academia Judicial de Chile`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `doctrina48981` connect `doctrina48981` to `Y de la honra. régimen de prensa`, `sumario. Los mismos derechos corresponderán a los herederos del conde-`, `título 3° del libro II, cuando fuere previsible que la persona de cuya declara-`, `100               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§11. obstrucción a la investigación (art. 269 bis)`, `236                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `278               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `294               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§2. prevaricación judicial (arts. 223 a 227)`, `302               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `332               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§15. FRAUDES EN LA ADMINISTRACIÓN (ARTS. 469 Nº 3 Y Nº 4, Y`, `Bien jurídico y constitución`, `352                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `42                 Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `436                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `44                 Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `474               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§4. malversación de caudales públicos (arts. 233 a 235)`, `512               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§7. auxilio al suicidio (art. 393)`, `Administración de justicia`, `(arts. 193 y 194)`, `Certificados y licencias médicas (arts. 199 a 207)`, `ESTRICTO. MODALIDADES DE TRÁFICO (ART. 3º INC. 1º)`, `título de parricida, pudiendo considerarse el envenenamiento como circunstancia`, `título. Tratándose de las faltas indicadas en los artículos 494, Nº 5, y 496, Nº`, `193 Nº 2): aquí lo importante no es tanto suponer la participación de per-`, `parte, las medidas necesarias para permitir dicho ejercicio. Si esas medidas`, `18.216. Transcurrido el plazo previsto en el inciso anterior sin que el imputado`, `326               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `200 CPP y del Art. 13 Ley Nº 20.000; b) la rotura de sellos puestos sobre efectos o`, `124               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `224 Nº1 y 225 Nº1), sí podrían ser responsables eventualmente de prevari-`, `442               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `504                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `510                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `516                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§6. abusos sexuales (arts. 365 bis a 366 ter)`, `(art. 470 n° 6)`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `Ley Antidiscriminación` connect `Ley Antidiscriminación` to `Convenio 169 de la OIT sobre Pueblos Indígenas`, `Academia Judicial de Chile`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `python3`, `PYTHONIOENCODING`, `PYTHONPATH` to the rest of the system?**
   _6078 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `sumario. Los mismos derechos corresponderán a los herederos del conde-` be split into smaller, more focused modules?**
-  _Cohesion score 0.017391304347826087 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.017094017094017096 - nodes in this community are weakly interconnected._
 - **Should `Responsabilidad Extracontractual` be split into smaller, more focused modules?**
   _Cohesion score 0.03596403596403597 - nodes in this community are weakly interconnected._
 - **Should `Las Asignaciones Forzosas en el Derecho Civil Chileno (Art. 1167 CC)` be split into smaller, more focused modules?**
