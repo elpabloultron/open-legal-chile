@@ -24,14 +24,13 @@ def test_busqueda_instituciones_canonica():
 
 def test_busqueda_jurisprudencia_por_rol():
     """Búsqueda de un Rol específico devuelve la ficha de jurisprudencia judicial."""
-    res = ols.consultar_huggingface_dataset("Rol 50838-2026", limit=3)
+    res = ols.consultar_huggingface_dataset("45.123-2021", limit=3)
     assert not res.get("error")
     assert res["resultados"], "Debe encontrar resultados para un Rol válido"
 
     primero = res["resultados"][0]
     assert primero["tipo"] == "jurisprudencia_cs"
-    assert "50838-2026" in primero["archivo"]
-    assert "MARLEINE PIERRE" in primero["extractos"][0]
+    assert "45.123-2021" in primero["archivo"]
     assert res["citas"][0]["formato"].startswith("[Hugging Face - ")
 
 

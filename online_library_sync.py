@@ -1699,6 +1699,8 @@ def _obtener_catalogo_instituciones() -> Tuple[List[Dict[str, Any]], Dict[str, L
             return _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
 
         cat_path = os.path.join(BASE_DIR, "data", "catalogo", "instituciones_lite.jsonl")
+        if not os.path.isfile(cat_path):
+            cat_path = os.path.join(BASE_DIR, "data", "catalogo", "train_lite.jsonl")
         items: List[Dict[str, Any]] = []
         indice: Dict[str, List[int]] = {}
 
@@ -1711,6 +1713,10 @@ def _obtener_catalogo_instituciones() -> Tuple[List[Dict[str, Any]], Dict[str, L
                             continue
                         try:
                             it = json.loads(line)
+                            if "institucion" not in it and "titulo" in it:
+                                it["institucion"] = it.get("titulo", "")
+                            if "definicion" not in it:
+                                it["definicion"] = it.get("materia", "")
                             items.append(it)
                         except Exception:
                             pass
@@ -1822,6 +1828,7 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
     resultados: List[Dict[str, Any]] = []
     for s in sentencias:
         rol = str(s.get("rol") or "").strip()
+        clean_rol = re.sub(r"^Rol\s*N°?\s*", "", rol, flags=re.IGNORECASE).strip()
         fecha = str(s.get("fecha") or "").strip()
         tribunal = str(s.get("tribunal") or "Corte Suprema").strip()
         caratula = str(s.get("caratula") or "").strip()
@@ -1829,16 +1836,16 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
         resultado_fallo = str(s.get("resultado") or "").strip()
 
         if "Constitucional" in tribunal or s.get("archivo_md", "").startswith("jurisprudencia_tc"):
-            archivo_hf = f"jurisprudencia_tc/{rol}.md"
+            archivo_hf = f"jurisprudencia_tc/{clean_rol}.md"
             tipo = "jurisprudencia_tc"
         elif "Ambiental" in tribunal or s.get("archivo_md", "").startswith("jurisprudencia_ambiental"):
-            archivo_hf = s.get("archivo_md") or f"jurisprudencia_ambiental/{rol}.md"
+            archivo_hf = s.get("archivo_md") or f"jurisprudencia_ambiental/{clean_rol}.md"
             tipo = "jurisprudencia_ambiental"
         else:
             if re.match(r"^\d{4}-\d{2}", fecha):
-                archivo_hf = f"jurisprudencia_cs/{fecha[:4]}/{fecha[5:7]}/{rol}.md"
+                archivo_hf = f"jurisprudencia_cs/{fecha[:4]}/{fecha[5:7]}/{clean_rol}.md"
             else:
-                archivo_hf = f"jurisprudencia_cs/{fecha[:4] if len(fecha) >= 4 else '2026'}/01/{rol}.md"
+                archivo_hf = f"jurisprudencia_cs/{fecha[:4] if len(fecha) >= 4 else '2026'}/01/{clean_rol}.md"
             tipo = "jurisprudencia_cs"
 
         encoded_path = archivo_hf.replace(" ", "%20")
