@@ -1,13 +1,13 @@
 {
   "dataset": "pablobenavidesj/doctrina-jurisprudencia-chile",
   "resumen": {
-    "documentos_doctrina": 1096,
+    "documentos_doctrina": 1957,
     "guias_academia_judicial": 24,
-    "fichas": 14690,
-    "obras_indexadas": 1097,
+    "fichas": 17269,
+    "obras_indexadas": 1957,
     "registros_jurisprudencia": 74518,
-    "nodos_grafo": 15450,
-    "aristas_grafo": 34732
+    "nodos_grafo": 16234,
+    "aristas_grafo": 34432
   },
   "como_citar": {
     "formato": "[Hugging Face - <ruta>]",
@@ -33,12 +33,39 @@
       ]
     },
     {
+      "area": "Civil",
+      "fichas": 1838,
+      "abrir": [
+        "doctrina/academia_judicial/03_Responsabilidad-civil-por-negligencia-medica.md",
+        "doctrina/apuntes_orrego/Ley 19537-Copropiedad Inmobiliaria.md",
+        "doctrina/apuntes_orrego/Teoría General del Contrato.md"
+      ]
+    },
+    {
       "area": "Penal",
-      "fichas": 1576,
+      "fichas": 1789,
       "abrir": [
         "doctrina/academia_judicial/Derecho-Internacional-humanitario-y-DPI.md",
         "doctrina/academia_judicial/MD64-Corrupcion.md",
         "doctrina/academia_judicial/08_Habilitante-Penal.md"
+      ]
+    },
+    {
+      "area": "Constitucional",
+      "fichas": 1545,
+      "abrir": [
+        "doctrina/academia_judicial/MD38-Introduccion-a-los-derechos-humanos.md",
+        "doctrina/academia_judicial/Empresa-y-DDHH.md",
+        "doctrina/academia_judicial/11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md"
+      ]
+    },
+    {
+      "area": "Procesal",
+      "fichas": 1395,
+      "abrir": [
+        "doctrina/manuales/Derecho-Procesal-profesora-Cerra.md",
+        "doctrina/academia_judicial/07_DERECHO-PROCESAL_03.md",
+        "doctrina/academia_judicial/Derecho-procesal-organico-y-funcional.md"
       ]
     },
     {
@@ -52,7 +79,7 @@
     },
     {
       "area": "Laboral",
-      "fichas": 1145,
+      "fichas": 1181,
       "abrir": [
         "doctrina/academia_judicial/09_Habilitante-Laboral.md",
         "doctrina/academia_judicial/02_Tutela-de-DD-fundamentales-en-el-contexto-del-DT.md",
@@ -60,37 +87,21 @@
       ]
     },
     {
-      "area": "Constitucional",
-      "fichas": 1038,
+      "area": "Comercial",
+      "fichas": 423,
       "abrir": [
-        "doctrina/academia_judicial/MD38-Introduccion-a-los-derechos-humanos.md",
-        "doctrina/academia_judicial/Empresa-y-DDHH.md",
-        "doctrina/academia_judicial/11_Las-personas-con-discapacidad-en-el-razonamiento-judicial.md"
-      ]
-    },
-    {
-      "area": "Procesal",
-      "fichas": 1011,
-      "abrir": [
-        "doctrina/manuales/Derecho-Procesal-profesora-Cerra.md",
-        "doctrina/academia_judicial/07_DERECHO-PROCESAL_03.md",
-        "doctrina/academia_judicial/Derecho-procesal-organico-y-funcional.md"
-      ]
-    },
-    {
-      "area": "Civil",
-      "fichas": 891,
-      "abrir": [
-        "doctrina/academia_judicial/03_Responsabilidad-civil-por-negligencia-medica.md",
-        "doctrina/apuntes_orrego/Ley 19537-Copropiedad Inmobiliaria.md",
-        "doctrina/apuntes_orrego/Teoría General del Contrato.md"
+        "doctrina/revistas/rchd/2006/S0718-34372006000100005_algunas_precisiones_en_torno_a_los_intereses_supraindividual.md",
+        "doctrina/revistas/rchd/2006/S0718-34372006000100008_libertad_religiosa_y_derecho_natural_en_los_estados_unidos.md",
+        "doctrina/revistas/rchd/2006/S0718-34372006000100009_el_caso_almacenes_paris_algunas_consideraciones_en_torno_al_.md"
       ]
     },
     {
       "area": "Administrativo",
-      "fichas": 132,
+      "fichas": 147,
       "abrir": [
-        "doctrina/academia_judicial/Acceso-a-la-informacion-publica-y-Transparencia.md"
+        "doctrina/academia_judicial/Acceso-a-la-informacion-publica-y-Transparencia.md",
+        "doctrina/revistas/rchd/2012/S0718-34372012000300009_expropiacion_indirecta_por_medidas_cautelares_en_procedimien.md",
+        "doctrina/revistas/rchd/2014/S0718-34372014000200009_contra_la_confianza_legitima_como_limite_a_la_invalidacion_d.md"
       ]
     },
     {
@@ -100,6 +111,15 @@
         "doctrina/civil/ramos_pazos_obligaciones/01_concepto_estructura_y_clasificaciones.md",
         "doctrina/civil/barros_bourie_responsabilidad/04_dano_causalidad_imputacion_y_prescripcion.md",
         "doctrina/civil/vial_del_rio_acto_juridico/01_voluntad_consentimiento_y_vicios.md"
+      ]
+    },
+    {
+      "area": "Ambiental",
+      "fichas": 54,
+      "abrir": [
+        "doctrina/revistas/rchd/2008/S0718-34372008000200008_corral_talciani_hernan_2007_derecho_civil_y_persona_humana_c.md",
+        "doctrina/revistas/rchd/2008/S0718-34372008000300013_harris_john_2007_enhancing_evolution_the_ethical_case_for_ma.md",
+        "doctrina/revistas/rchd/2009/S0718-34372009000100010_d_8217_agostino_francesco_2006_lezioni_di_teoria_del_diritto.md"
       ]
     },
     {

@@ -1,6 +1,6 @@
 {
  "guias": 24,
- "claves_de_norma_en_el_corpus": 4371,
+ "claves_de_norma_en_el_corpus": 5042,
  "enlaces": {
   "Guia-aplicada-para-la-determinacion-de-penas": [
    {
@@ -52,19 +52,19 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
-    "peso": 0.072,
+    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
+    "peso": 0.094,
     "claves": [
-     "CP|art_12",
-     "CP|art_15",
-     "CP|art_18",
-     "CP|art_68",
-     "CP|art_69",
-     "LEY|20066"
+     "LEY|18290",
+     "LEY|19327",
+     "LEY|20066",
+     "LEY|20084",
+     "LEY|21527",
+     "LEY|21675"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
+    "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
     "peso": 0.072,
     "claves": [
      "CP|art_12",
@@ -92,6 +92,13 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2022/S0718-34372022000100155_comentario_de_jurisprudencia_del_despido_de_un_trabajador_po.md",
+    "peso": 0.2,
+    "claves": [
+     "LEY|16744"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2012/S0718-68512012000200006_evolucion_del_dano_moral_por_termino_del_contrato_de_trabajo.md",
     "peso": 0.167,
     "claves": [
@@ -108,13 +115,6 @@
    {
     "archivo": "revistas/rdpucv/2016/S0718-68512016000200011_nuevos_riesgos_laborales_la_tutela_de_los_trabajadores_agrar.md",
     "peso": 0.143,
-    "claves": [
-     "LEY|16744"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2021/S0718-68512021000200031_teletrabajo_como_nuevo_paradigma_laboral_algunos_aspectos_cr.md",
-    "peso": 0.125,
     "claves": [
      "LEY|16744"
     ]
@@ -140,39 +140,53 @@
     ]
    },
    {
-    "archivo": "academia_judicial/aj_proteccion_familia.md",
-    "peso": 0.125,
+    "archivo": "revistas/rchd/2023/S0718-34372023000200003_el_interes_del_demandado_en_su_defensa_en_la_etapa_de_discus.md",
+    "peso": 0.188,
     "claves": [
-     "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/aj_audiencias_familia.md",
-    "peso": 0.125,
-    "claves": [
-     "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/14_Control-judicial-del-proceso-Case-Management.md",
-    "peso": 0.122,
-    "claves": [
-     "CT|art_430",
-     "CT|art_454",
      "LEY|19968",
-     "LEY|20",
+     "LEY|20886",
+     "LEY|21226"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/2022/S0718-34372022000200163_concepto_fundamento_y_tiempo_de_la_litispendencia_en_el_proc.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|19968",
      "LEY|20886"
     ]
    },
    {
-    "archivo": "revistas/rdpucv/2018/S0718-68512018000100159_sobre_el_caracter_normativo_y_tendencialmente_vinculante_de_.md",
-    "peso": 0.111,
+    "archivo": "revistas/rchd/2019/S0718-34372019000300717_la_motivacion_de_la_sentencia_en_el_procedimiento_monitorio_.md",
+    "peso": 0.125,
+    "claves": [
+     "LEY|19968",
+     "LEY|20"
+    ]
+   },
+   {
+    "archivo": "academia_judicial/aj_proteccion_familia.md",
+    "peso": 0.125,
     "claves": [
      "LEY|19968"
     ]
    }
   ],
   "Guia_Audiencia_Monitoria-v1": [
+   {
+    "archivo": "revistas/rchd/2026/S0718-34372026000100002_la_prueba_en_las_investigaciones_por_acoso_y_violencia_en_el.md",
+    "peso": 0.091,
+    "claves": [
+     "CT|art_454"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/2019/S0718-34372019000300717_la_motivacion_de_la_sentencia_en_el_procedimiento_monitorio_.md",
+    "peso": 0.083,
+    "claves": [
+     "CT|art_501"
+    ]
+   },
    {
     "archivo": "academia_judicial/02_Tribunales-Laborales-nociones-basicas-org.-y-funcionamiento.md",
     "peso": 0.029,
@@ -214,6 +228,13 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2015/S0718-34372015000200011_la_carga_de_la_prueba_en_el_contencioso_administrativo_ambie.md",
+    "peso": 0.056,
+    "claves": [
+     "LEY|18880"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD-39-ACOSO-SEXUAL-ACOSO-MORAL-Y-DISCRIMINACION.md",
     "peso": 0.054,
     "claves": [
@@ -222,18 +243,10 @@
     ]
    },
    {
-    "archivo": "civil/vial_del_rio_acto_juridico/02_objeto_causa_y_solemnidades.md",
-    "peso": 0.05,
+    "archivo": "revistas/rchd/2010/S0718-34372010000100005_las_medidas_conservativas_como_parte_integrante_de_la_estruc.md",
+    "peso": 0.053,
     "claves": [
      "CPC|art_453"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/Tramitacion-electronica-de-causas.md",
-    "peso": 0.042,
-    "claves": [
-     "CT|art_30",
-     "CT|art_4"
     ]
    }
   ],
@@ -246,6 +259,13 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
+    "peso": 0.091,
+    "claves": [
+     "LEY|21675"
+    ]
+   },
+   {
     "archivo": "academia_judicial/Derecho-procesal-organico-y-funcional.md",
     "peso": 0.074,
     "claves": [
@@ -273,13 +293,6 @@
     "peso": 0.056,
     "claves": [
      "LEY|19346"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
-    "peso": 0.056,
-    "claves": [
-     "LEY|20880"
     ]
    }
   ],
@@ -292,6 +305,13 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
+    "peso": 0.091,
+    "claves": [
+     "LEY|21675"
+    ]
+   },
+   {
     "archivo": "academia_judicial/Derecho-procesal-organico-y-funcional.md",
     "peso": 0.074,
     "claves": [
@@ -319,13 +339,6 @@
     "peso": 0.056,
     "claves": [
      "LEY|19346"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
-    "peso": 0.056,
-    "claves": [
-     "LEY|20880"
     ]
    }
   ],
@@ -338,6 +351,13 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
+    "peso": 0.091,
+    "claves": [
+     "LEY|21675"
+    ]
+   },
+   {
     "archivo": "academia_judicial/Derecho-procesal-organico-y-funcional.md",
     "peso": 0.074,
     "claves": [
@@ -365,13 +385,6 @@
     "peso": 0.056,
     "claves": [
      "LEY|19346"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
-    "peso": 0.056,
-    "claves": [
-     "LEY|20880"
     ]
    }
   ],
@@ -480,24 +493,33 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2023/S0718-34372023000200004_el_hurto_famelico_en_las_decisiones_de_los_tribunales_penale.md",
+    "peso": 0.061,
+    "claves": [
+     "CPP|art_391",
+     "CP|art_1"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2015/S0718-68512015000200005_autoria_y_participacion_en_el_delito_de_produccion_de_materi.md",
     "peso": 0.057,
     "claves": [
      "CP|art_1",
      "LEY|20084"
     ]
-   },
-   {
-    "archivo": "academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md",
-    "peso": 0.056,
-    "claves": [
-     "CPP|art_102",
-     "CP|art_1",
-     "LEY|20084"
-    ]
    }
   ],
   "Guia_Procedimiento_Simplificado_2025_v1.1": [
+   {
+    "archivo": "revistas/rchd/2020/S0718-34372020000200513_fundamento_politico_criminal_y_naturaleza_juridica_de_las_pe.md",
+    "peso": 0.095,
+    "claves": [
+     "LEY|17798",
+     "LEY|18216",
+     "LEY|19970",
+     "LEY|20603"
+    ]
+   },
    {
     "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
     "peso": 0.095,
@@ -541,18 +563,6 @@
    },
    {
     "archivo": "academia_judicial/MD44-Principales-figuras-penales-de-la-Ley-20.000.md",
-    "peso": 0.069,
-    "claves": [
-     "CPP|art_4",
-     "CPP|art_8",
-     "CPP|art_9",
-     "CP|art_17",
-     "CP|art_4",
-     "LEY|18216"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD-44-TRAFICO-ILICITO-DE-ESTUPEFACIENTES.md",
     "peso": 0.069,
     "claves": [
      "CPP|art_4",
@@ -692,13 +702,11 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md",
+    "archivo": "revistas/rchd/2013/S0718-34372013000100013_la_censura_previa_y_el_estado_regulador_propuestas_para_una_.md",
     "peso": 0.043,
     "claves": [
-     "CPP|art_83",
-     "CPP|art_93",
      "CPR|art_19",
-     "LEY|20084"
+     "CPR|art_93"
     ]
    }
   ],
@@ -724,6 +732,27 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2025/S0718-34372025000100035_el_derecho_a_la_propia_imagen_del_paciente_en_el_sistema_jur.md",
+    "peso": 0.158,
+    "claves": [
+     "LEY|19",
+     "LEY|19968",
+     "LEY|20",
+     "LEY|21",
+     "LEY|21120",
+     "LEY|21430"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/2020/S0718-34372020000100101_problemas_relativos_a_la_prueba_en_cada_etapa_de_la_activida.md",
+    "peso": 0.15,
+    "claves": [
+     "LEY|19968",
+     "LEY|20066",
+     "LEY|21120"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
     "peso": 0.148,
     "claves": [
@@ -741,25 +770,6 @@
      "LEY|20",
      "LEY|21",
      "LEY|38"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/01_Tribunales-de-Familia-nociones-basicas-de-org-y-funcionamiento.md",
-    "peso": 0.111,
-    "claves": [
-     "LEY|19968",
-     "LEY|20286",
-     "LEY|21120",
-     "LEY|21430"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2022/S0718-68512022000200063_subsistencia_de_la_reserva_legal_de_cabotaje_de_carga_en_chi.md",
-    "peso": 0.111,
-    "claves": [
-     "LEY|19",
-     "LEY|20",
-     "LEY|21"
     ]
    }
   ],
@@ -811,16 +821,16 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
+    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
     "peso": 0.086,
     "claves": [
-     "LEY|20084",
-     "LEY|21057",
-     "LEY|21302"
+     "LEY|20",
+     "LEY|20066",
+     "LEY|20084"
     ]
    },
    {
-    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
+    "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
     "peso": 0.086,
     "claves": [
      "LEY|20084",
@@ -831,6 +841,17 @@
   ],
   "Guia_determinación_de_penas_2025_v1.1": [
    {
+    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
+    "peso": 0.208,
+    "claves": [
+     "LEY|18290",
+     "LEY|19327",
+     "LEY|20066",
+     "LEY|20084",
+     "LEY|21527"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2018/S0718-68512018000200035_facultades_autonomas_de_la_policia_en_el_sistema_procesal_pe.md",
     "peso": 0.147,
     "claves": [
@@ -839,6 +860,25 @@
      "LEY|19327",
      "LEY|20084",
      "LEY|20931"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/2020/S0718-34372020000200513_fundamento_politico_criminal_y_naturaleza_juridica_de_las_pe.md",
+    "peso": 0.138,
+    "claves": [
+     "LEY|17798",
+     "LEY|18216",
+     "LEY|18290",
+     "LEY|20931"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/2015/S0718-34372015000300011_el_principio_de_obligatoriedad_en_el_ejercicio_de_la_accion_.md",
+    "peso": 0.136,
+    "claves": [
+     "LEY|18216",
+     "LEY|18290",
+     "LEY|20084"
     ]
    },
    {
@@ -857,34 +897,6 @@
      "LEY|18216",
      "LEY|20000",
      "LEY|20084"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/aj_responsabilidad_penal_adolescente.md",
-    "peso": 0.1,
-    "claves": [
-     "LEY|20084",
-     "LEY|21527"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md",
-    "peso": 0.095,
-    "claves": [
-     "CP|art_1",
-     "CP|art_69",
-     "LEY|18216",
-     "LEY|18290",
-     "LEY|19327",
-     "LEY|20000"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2019/S0718-68512019000200177_dos_proyecciones_de_la_teoria_del_delito_en_la_imposicion_de.md",
-    "peso": 0.095,
-    "claves": [
-     "LEY|20084",
-     "LEY|20931"
     ]
    }
   ],
@@ -912,6 +924,24 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2026/S0718-34372026000200171_sobre_el_control_de_los_presupuestos_procesales_comentario_a.md",
+    "peso": 0.13,
+    "claves": [
+     "LEY|14908",
+     "LEY|18120",
+     "LEY|19968"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/2023/S0718-34372023000200003_el_interes_del_demandado_en_su_defensa_en_la_etapa_de_discus.md",
+    "peso": 0.103,
+    "claves": [
+     "LEY|18120",
+     "LEY|19968",
+     "LEY|21394"
+    ]
+   },
+   {
     "archivo": "academia_judicial/06_Convencion-de-los-DD-de-NNA-en-el-contexto-judicial.md",
     "peso": 0.1,
     "claves": [
@@ -929,37 +959,31 @@
      "LEY|19968",
      "LEY|21"
     ]
-   },
-   {
-    "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
-    "peso": 0.085,
-    "claves": [
-     "CPP|art_6",
-     "LEY|19968",
-     "LEY|21057",
-     "LEY|21302",
-     "LEY|21430"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD-48-ABUSO-SEXUAL-INFANTL.md",
-    "peso": 0.085,
-    "claves": [
-     "CPP|art_6",
-     "LEY|19968",
-     "LEY|21057",
-     "LEY|21302",
-     "LEY|21430"
-    ]
    }
   ],
   "Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1": [
+   {
+    "archivo": "revistas/rchd/2025/S0718-34372025000300006_videoconferencias_y_debido_proceso_repensando_las_audiencias.md",
+    "peso": 0.062,
+    "claves": [
+     "LEY|21",
+     "LEY|21394"
+    ]
+   },
    {
     "archivo": "penal/cury_parte_general/03_culpabilidad_iter_criminis_y_participacion.md",
     "peso": 0.061,
     "claves": [
      "CP|art_15",
      "CP|art_17"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/2020/S0718-34372020000200513_fundamento_politico_criminal_y_naturaleza_juridica_de_las_pe.md",
+    "peso": 0.056,
+    "claves": [
+     "LEY|17798",
+     "LEY|19970"
     ]
    },
    {
@@ -987,25 +1011,21 @@
      "CPP|art_26",
      "CPP|art_93"
     ]
-   },
-   {
-    "archivo": "academia_judicial/MD40-Tortura-y-otros-tratos-crueles.-Reflexiones-sustantivas-y-practicas.md",
-    "peso": 0.039,
-    "claves": [
-     "CPP|art_93",
-     "LEY|21057"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD-40-TORTURA-Y-OTROS-TRATOS-CRUELES..md",
-    "peso": 0.038,
-    "claves": [
-     "CPP|art_93",
-     "LEY|21057"
-    ]
    }
   ],
   "Guia_para_la_conduccion_de_las_Audiencias_de_Casos_de_Responsabilidad_Penal_Adolecente_202": [
+   {
+    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
+    "peso": 0.171,
+    "claves": [
+     "LEY|18290",
+     "LEY|19327",
+     "LEY|20",
+     "LEY|20066",
+     "LEY|20084",
+     "LEY|21527"
+    ]
+   },
    {
     "archivo": "academia_judicial/MD60-Resposabilidad-Penal-Adolescente.md",
     "peso": 0.155,
@@ -1059,16 +1079,6 @@
      "LEY|21302",
      "LEY|21430"
     ]
-   },
-   {
-    "archivo": "academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md",
-    "peso": 0.1,
-    "claves": [
-     "LEY|18216",
-     "LEY|20066",
-     "LEY|21057",
-     "LEY|21302"
-    ]
    }
   ],
   "Guia_procedimiento_de_proteccion_30525": [
@@ -1111,20 +1121,20 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2025/S0718-34372025000100035_el_derecho_a_la_propia_imagen_del_paciente_en_el_sistema_jur.md",
+    "peso": 0.125,
+    "claves": [
+     "LEY|19",
+     "LEY|19968",
+     "LEY|21",
+     "LEY|21430"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2014/S0718-68512014000200006_la_titularidad_del_cuidado_personal_y_el_ejercicio_de_la_rel.md",
     "peso": 0.118,
     "claves": [
      "LEY|16618",
-     "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/13_Regimen-de-alimentos-cuidado-personal-y-RDR.md",
-    "peso": 0.1,
-    "claves": [
-     "LEY|16",
-     "LEY|16618",
-     "LEY|19",
      "LEY|19968"
     ]
    }
@@ -1133,6 +1143,13 @@
    {
     "archivo": "revistas/rdpucv/2019/S0718-68512019000200301_comentario_a_la_sentencia_rol_n_894_eo_2017_del_tercer_juzga.md",
     "peso": 1.0,
+    "claves": [
+     "LEY|19496"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/2006/S0718-34372006000100005_algunas_precisiones_en_torno_a_los_intereses_supraindividual.md",
+    "peso": 0.5,
     "claves": [
      "LEY|19496"
     ]
@@ -1152,22 +1169,15 @@
     ]
    },
    {
-    "archivo": "revistas/rdpucv/2013/S0718-68512013000200006_la_estafa_como_delito_economico.md",
-    "peso": 0.2,
+    "archivo": "revistas/rchd/2023/S0718-34372023000100005_problemas_fundamentales_para_la_delimitacion_de_la_8220_situ.md",
+    "peso": 0.25,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rdpucv/2018/S0718-68512018000200173_las_funciones_de_la_razonabilidad_en_el_derecho_privado_chil.md",
-    "peso": 0.167,
-    "claves": [
-     "LEY|19496"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2011/S0718-68512011000200003_la_distribucion_del_riesgo_y_la_buena_fe_a_proposito_del_err.md",
-    "peso": 0.167,
+    "archivo": "revistas/rchd/2018/S0718-34372018000200275_el_dano_moral_en_materia_contractual_la_mirada_de_la_corte_s.md",
+    "peso": 0.25,
     "claves": [
      "LEY|19496"
     ]
@@ -1183,6 +1193,16 @@
      "LEY|20066",
      "LEY|21057",
      "LEY|21302"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
+    "peso": 0.138,
+    "claves": [
+     "LEY|18290",
+     "LEY|20066",
+     "LEY|20084",
+     "LEY|21675"
     ]
    },
    {
@@ -1216,25 +1236,13 @@
     ]
    },
    {
-    "archivo": "academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md",
+    "archivo": "revistas/rchd/2020/S0718-34372020000200513_fundamento_politico_criminal_y_naturaleza_juridica_de_las_pe.md",
     "peso": 0.121,
     "claves": [
+     "LEY|17798",
      "LEY|18216",
-     "LEY|20000",
-     "LEY|20084",
-     "LEY|20886"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
-    "peso": 0.098,
-    "claves": [
-     "CP|art_15",
-     "CP|art_68",
-     "LEY|20066",
-     "LEY|20084",
-     "LEY|21057",
-     "LEY|21302"
+     "LEY|18290",
+     "LEY|19970"
     ]
    }
   ],
@@ -1272,6 +1280,15 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/2018/S0718-34372018000200407_el_derecho_del_nino_a_ser_oido_en_la_justicia_de_familia_la_.md",
+    "peso": 0.136,
+    "claves": [
+     "LEY|19620",
+     "LEY|19947",
+     "LEY|19968"
+    ]
+   },
+   {
     "archivo": "academia_judicial/12_Gobierno-Judicial.md",
     "peso": 0.133,
     "claves": [
@@ -1290,16 +1307,6 @@
      "LEY|19968",
      "LEY|20066",
      "LEY|21430"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD50-Atencion-de-usuarios-en-situaciones-complejas-y-de-vulnerabilidad.md",
-    "peso": 0.125,
-    "claves": [
-     "CPR|art_4",
-     "LEY|19",
-     "LEY|19968",
-     "LEY|20066"
     ]
    }
   ]
