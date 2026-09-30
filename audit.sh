@@ -40,7 +40,7 @@ FAILED=0
 
 # 1. PIP-AUDIT (SCA)
 echo -e "\n${BOLD}[1/9] 📦 Escaneando vulnerabilidades en dependencias (pypa/pip-audit)...${RESET}"
-if pip-audit; then
+if pip-audit .; then
     echo -e "${GREEN}✅ Dependencias 100% libres de vulnerabilidades conocidas.${RESET}"
 else
     echo -e "${RED}❌ Se encontraron vulnerabilidades en librerías.${RESET}"
