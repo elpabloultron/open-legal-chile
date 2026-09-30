@@ -42,6 +42,7 @@ def procesar_lote(
     materia: str = "",
     destino_dir: Optional[str | pathlib.Path] = None,
     actualizar_grafo: bool = True,
+    actualizar_fts: bool = True,
     dry_run: bool = False,
     verbose: bool = True,
 ) -> Dict[str, Any]:
@@ -109,15 +110,16 @@ def procesar_lote(
             print("[*] Sincronizando índices y catálogos consolidados...")
 
         # 1. Indexar FTS5
-        try:
-            from doctrina_connector import index_all_doctrina
-            total_fts = index_all_doctrina()
-            fts_ok = True
-            if verbose:
-                print(f"  ✓ FTS5 doctrina.db actualizado ({total_fts} instituciones indexadas)")
-        except Exception as e:
-            if verbose:
-                print(f"  ✗ Error al indexar FTS5: {e}")
+        if actualizar_fts:
+            try:
+                from doctrina_connector import index_all_doctrina
+                total_fts = index_all_doctrina()
+                fts_ok = True
+                if verbose:
+                    print(f"  ✓ FTS5 doctrina.db actualizado ({total_fts} instituciones indexadas)")
+            except Exception as e:
+                if verbose:
+                    print(f"  ✗ Error al indexar FTS5: {e}")
 
         # 2. Reconstruir LegalGraphify Knowledge Graph con motor O(1)
         if actualizar_grafo:
@@ -206,6 +208,7 @@ def ingestar_directorio(
     patron: str = "*",
     recursivo: bool = True,
     actualizar_grafo: bool = True,
+    actualizar_fts: bool = True,
     dry_run: bool = False,
     verbose: bool = True,
 ) -> Dict[str, Any]:
@@ -240,6 +243,7 @@ def ingestar_directorio(
         materia=materia,
         destino_dir=destino_dir,
         actualizar_grafo=actualizar_grafo,
+        actualizar_fts=actualizar_fts,
         dry_run=dry_run,
         verbose=verbose,
     )
@@ -258,6 +262,7 @@ def main() -> int:
     parser.add_argument("--patron", default="*", help="Filtro glob para nombres de archivo (ej. '*.docx').")
     parser.add_argument("--no-recursivo", action="store_false", dest="recursivo", help="No buscar en subdirectorios.")
     parser.add_argument("--no-grafo", action="store_false", dest="actualizar_grafo", help="Omitir reconstrucción del Knowledge Graph.")
+    parser.add_argument("--no-fts", "--sin-fts", action="store_false", dest="actualizar_fts", help="Omitir reindexación SQLite FTS5.")
     parser.add_argument("--dry-run", action="store_true", help="Simular ingesta sin escribir archivos ni modificar bases de datos.")
 
     args = parser.parse_args()
@@ -272,6 +277,7 @@ def main() -> int:
             patron=args.patron,
             recursivo=args.recursivo,
             actualizar_grafo=args.actualizar_grafo,
+            actualizar_fts=args.actualizar_fts,
             dry_run=args.dry_run,
             verbose=True,
         )
