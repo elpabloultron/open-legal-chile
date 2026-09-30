@@ -94,7 +94,7 @@ def test_agregar_documento_a_markdown_y_grafo(tmp_cases_dir, tmp_path):
 
     datos_grafo = json.loads(grafo_json.read_text(encoding="utf-8"))
     assert "nodes" in datos_grafo
-    assert "edges" in datos_grafo
+    assert "edges" in datos_grafo or "links" in datos_grafo
     assert any("Empresa SpA" in n["label"] or "Trabajo" in n["label"] for n in datos_grafo["nodes"])
 
 

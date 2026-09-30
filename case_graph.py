@@ -166,7 +166,17 @@ class CaseGraphEngine:
         json_path = self.grafo_dir / "grafo_caso.json"
         html_path = self.grafo_dir / "grafo_caso.html"
 
-        data = nx.node_link_data(self.graph)
+        try:
+            data = nx.node_link_data(self.graph, edges="edges")
+        except TypeError:
+            data = nx.node_link_data(self.graph)
+
+        # Garantizar compatibilidad con versiones de NetworkX tanto antiguas como modernas
+        if "links" in data and "edges" not in data:
+            data["edges"] = data["links"]
+        elif "edges" in data and "links" not in data:
+            data["links"] = data["edges"]
+
         json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
         # Generar vista HTML interactiva
@@ -188,7 +198,8 @@ class CaseGraphEngine:
     def _generar_html_interactivo(self, target_path: Path, data: Dict[str, Any]) -> None:
         """Escribe un archivo HTML interactivo autónomo para explorar el grafo del caso."""
         nodos_json = json.dumps(data.get("nodes", []), ensure_ascii=False)
-        aristas_json = json.dumps(data.get("links", []), ensure_ascii=False)
+        aristas = data.get("edges") or data.get("links") or []
+        aristas_json = json.dumps(aristas, ensure_ascii=False)
 
         colores = {
             "caso": "#8B5CF6",

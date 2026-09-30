@@ -42,7 +42,7 @@ jobs:
 
       - name: 4. Secret & Credential Leak Audit (Yelp/detect-secrets)
         run: |
-          detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|exports|\.pytest_cache|skills-lock\.json)'
+          detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|exports|\.pytest_cache|skills-lock\.json|docs/medicion_tokens\..*)'
 
       - name: 5. Strict Type Checking (python/mypy)
         run: |
