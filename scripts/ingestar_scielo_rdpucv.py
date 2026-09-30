@@ -14,14 +14,12 @@ import re
 import sys
 import time
 import urllib.request
-try:
-    import defusedxml.ElementTree as ET
-except ImportError:
-    import xml.etree.ElementTree as ET  # nosec B405
+import defusedxml.ElementTree as ET
 from typing import Any, Dict, List, Optional, Tuple
 
 ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
 sys.path.insert(0, str(ROOT_DIR))
+from config import safe_urlopen
 
 from scripts.convert_rdpucv_to_md import inferir_area, extraer_instituciones_y_normas, limpiar_texto_articulo, extraer_texto_pdf
 
@@ -67,7 +65,7 @@ def cosechar_catalogo_scielo() -> List[Dict[str, Any]]:
 
     while True:
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with safe_urlopen(req, timeout=30) as resp:
             tree = ET.parse(resp)  # nosec B314
         root = tree.getroot()
         records = root.findall(".//oai:record", NS)
@@ -158,7 +156,7 @@ def resolver_y_descargar_pdf_scielo(articulo: Dict[str, Any]) -> Tuple[bool, str
 
     try:
         req = urllib.request.Request(url_sci, headers=headers)
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        with safe_urlopen(req, timeout=15) as resp:
             html = resp.read().decode("utf-8", errors="ignore")
 
         m = re.search(r'window\.location="([^"]+\.pdf)"', html)
@@ -167,7 +165,7 @@ def resolver_y_descargar_pdf_scielo(articulo: Dict[str, Any]) -> Tuple[bool, str
 
         pdf_url = m.group(1).replace("http://www.scielo.cl/", "https://scielo.conicyt.cl/")
         req2 = urllib.request.Request(pdf_url, headers=headers)
-        with urllib.request.urlopen(req2, timeout=25) as resp2:
+        with safe_urlopen(req2, timeout=25) as resp2:
             pdf_bytes = resp2.read()
 
         if len(pdf_bytes) > 2048:

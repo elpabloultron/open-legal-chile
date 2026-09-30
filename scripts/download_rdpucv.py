@@ -16,7 +16,11 @@ import urllib.error
 import urllib.request
 from typing import Any, Dict, List, Tuple
 
-DATA_DIR = pathlib.Path(__file__).parent.parent / "data" / "rdpucv"
+ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
+sys.path.insert(0, str(ROOT_DIR))
+from config import safe_urlopen
+
+DATA_DIR = ROOT_DIR / "data" / "rdpucv"
 MANIFEST_PATH = DATA_DIR / "catalogo_articulos.jsonl"
 PDF_DIR = DATA_DIR / "pdfs"
 LOG_PATH = DATA_DIR / "descargas_log.jsonl"
@@ -88,7 +92,7 @@ def descargar_articulo(articulo: Dict[str, Any], reintentos: int = 4) -> Tuple[b
     for intento in range(1, reintentos + 1):
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=45) as resp:
+            with safe_urlopen(req, timeout=45) as resp:
                 # Comprobar si redirigió a un visor HTML o entregó PDF
                 content_type = resp.headers.get("Content-Type", "")
                 datos = resp.read()
@@ -100,7 +104,7 @@ def descargar_articulo(articulo: Dict[str, Any], reintentos: int = 4) -> Tuple[b
                     if m:
                         url_directa = m.group(1).replace("&amp;", "&")
                         req_directa = urllib.request.Request(url_directa, headers=headers)
-                        with urllib.request.urlopen(req_directa, timeout=45) as resp2:
+                        with safe_urlopen(req_directa, timeout=45) as resp2:
                             datos = resp2.read()
 
                 if len(datos) > 1024:
