@@ -112,7 +112,7 @@ def servidor_actual():
     silencio). Por eso todos los despachadores resuelven el módulo por acá.
     """
     import sys
-    for nombre in ("mcp_server", "__main__"):
+    for nombre in ("__main__", "mcp_server"):
         modulo = sys.modules.get(nombre)
         if modulo is not None and hasattr(modulo, "handle_tool_call"):
             return modulo

@@ -625,6 +625,11 @@ def _resumen(analisis: Dict[str, Any]) -> str:
     if analisis["deteccion"]["documentos"]:
         lineas.append(f"Documentos: {len(analisis['deteccion']['documentos'])} "
                       f"({', '.join(analisis['deteccion']['tipos_de_documento'])})")
+    if "workspace" in analisis and isinstance(analisis["workspace"], dict) and "ruta_workspace" in analisis["workspace"]:
+        ws = analisis["workspace"]
+        lineas.append(f"Carpeta de caso: {ws['ruta_workspace']}")
+        if "grafo" in ws and "total_nodos" in ws.get("grafo", {}):
+            lineas.append(f"Grafo de caso: {ws['grafo']['total_nodos']} nodos · vista en {ws['grafo'].get('grafo_html')}")
     lineas.append("")
     lineas.append(f"Plan ({len(analisis['plan'])} pasos):")
     for i, paso in enumerate(analisis["plan"], 1):
@@ -666,6 +671,19 @@ def caso_analizar(entrada: str, tipo: Optional[str] = None, consulta: str = "",
         "deteccion": deteccion,
         **planeado,
     }
+    try:
+        from case_workspace import crear_o_cargar_caso
+        ws = crear_o_cargar_caso(str(entrada), consulta=str(consulta or ""),
+                                 metadatos={
+                                     "materia": planeado.get("materia"),
+                                     "materia_etiqueta": planeado.get("materia_etiqueta"),
+                                     "fuero_probable": planeado.get("fuero_probable"),
+                                     "roles": deteccion.get("roles")
+                                 })
+        analisis["workspace"] = ws.obtener_resumen()
+    except Exception as _err:
+        analisis["workspace"] = {"error": str(_err)}
+
     analisis["resumen"] = _resumen(analisis)
     return analisis
 

@@ -51,7 +51,8 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
   "pytest>=7.0",
-  "pytest-asyncio"
+  "pytest-asyncio",
+  "pytest-xdist>=3.5.0"
 ]
 audit = [
   "bandit>=1.7.5",
@@ -86,7 +87,9 @@ py-modules = [
     "agents_runtime",
     "ambiental_connector",
     "bcn_connector",
+    "case_graph",
     "case_intake",
+    "case_workspace",
     "cbr_titles",
     "cgr_connector",
     "chat_engine",
@@ -133,6 +136,7 @@ py-modules = [
     "tdlc_connector",
     "tribunales_ambientales_connector",
     "update_checker",
+    "vector_engine",
 ]
 
 [tool.setuptools.data-files]

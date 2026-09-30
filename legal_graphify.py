@@ -107,7 +107,7 @@ class LegalGraphifyEngine:
         self.instituciones_index: Dict[str, str] = {}  # norm_name -> node_id
         self.normas_index: Dict[str, str] = {}         # norm_name -> node_id
         self.is_built = False
-        # Avisos de esta corrida, misma convención que el CRM (avisar, no inventar).
+        # Avisos de esta corrida, misma convención de la suite (avisar, no inventar).
         # Hoy lo usa la carga del grafo: si el artefacto publicado está corrupto o no
         # es Node-Link, se reconstruye desde doctrina/ — y quien consulta merece saberlo,
         # porque entonces la respuesta ya no viene del artefacto que creía estar usando.

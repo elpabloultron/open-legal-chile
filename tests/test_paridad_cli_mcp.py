@@ -38,6 +38,8 @@ COMANDO_A_HERRAMIENTA = {
     "stats": "suite_telemetria_stats",
     "update": "suite_auto_update",
     "vigilar": "vigilante_analizar_resolucion",
+    "caso": "caso_analizar",
+    "vector": "busqueda_universal",
 }
 
 
