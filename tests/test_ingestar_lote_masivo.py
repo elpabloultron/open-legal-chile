@@ -26,6 +26,8 @@ def test_ingestar_lote_masivo_dry_run(tmp_path):
 
 def test_ingestar_lote_masivo_ejecucion(tmp_path, monkeypatch):
     """Verifica la ejecución de un lote procesando archivos temporales con flags de grafo desactivado."""
+    monkeypatch.setattr("doctrina_connector.index_all_doctrina", lambda: 10)
+
     doc = tmp_path / "cesion_creditos.txt"
     doc.write_text(
         "De la cesión de derechos y créditos.\n"
@@ -52,3 +54,23 @@ def test_ingestar_lote_masivo_ejecucion(tmp_path, monkeypatch):
     assert res["tokens_originales"] > 0
     assert res["tokens_markdown"] > 0
     assert res["fts_actualizado"] is True
+
+
+def test_ingestar_lote_masivo_sin_fts(tmp_path):
+    """Verifica que procesar_lote respete el flag actualizar_fts=False."""
+    doc = tmp_path / "prueba_sin_fts.txt"
+    doc.write_text("Contrato de mandato judicial. Art. 7 CPC.", encoding="utf-8")
+
+    res = procesar_lote(
+        archivos=[doc],
+        area="procesal",
+        tratadista="Procesal",
+        destino_dir=tmp_path,
+        actualizar_grafo=False,
+        actualizar_fts=False,
+        dry_run=False,
+        verbose=False,
+    )
+
+    assert res["exitosos"] == 1
+    assert res["fts_actualizado"] is False
