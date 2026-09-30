@@ -162,7 +162,7 @@ class LegalGraphifyEngine:
         total_secciones = 0
 
         for root, _, files in os.walk(self.doctrina_dir):
-            if "doctrina_raw" in root:
+            if "doctrina_raw" in root or "revistas" in root:
                 continue
             for file in sorted(files):
                 if not file.endswith(".md") or file.startswith("."):

@@ -26,6 +26,8 @@ exports/
 doctrina_raw/
 data/rdpucv/pdfs/
 data/rdpucv/pdfs_scielo/
+data/rchd/pdfs/
+data/rchd/pdfs_scielo/
 *.db
 openlegal_cache.db
 casos/
