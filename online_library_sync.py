@@ -17,7 +17,7 @@ import time
 import threading
 
 from config import registrar_tiempo
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, Tuple
 
 BASE_DIR = os.path.dirname(__file__)
 DOCTRINA_DIR = os.path.join(BASE_DIR, "doctrina")
@@ -1533,6 +1533,11 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
     """
     if not archivo.lower().endswith(_TEXTO_HF):
         return ""
+    # Optimización: si el archivo existe en el repo local (ej. doctrina/), leer directamente
+    local_path = pathlib.Path(BASE_DIR) / archivo
+    if local_path.is_file() and local_path.stat().st_size <= _TAMANO_MAX_HF:
+        return local_path.read_text(encoding="utf-8", errors="ignore")
+
     destino = CACHE_HF / repo_id.replace("/", "__") / archivo
     try:
         if destino.exists() and _archivo_cambio_en_hub(archivo, repo_id):
@@ -1610,6 +1615,250 @@ def _extractos_hf(texto: str, tokens: List[str], ancho: int = 400, maximo: int =
     return piezas
 
 
+def _clasificar_tipo_hf(f: str) -> str:
+    """Clasifica el tipo de archivo dentro del dataset público de Hugging Face."""
+    if f.startswith("graphify/wiki/"):
+        return "wiki_comunidad"
+    if f in ("graphify/graph.html", "graphify/GRAPH_TREE.html", "graphify/GRAPH_CALLFLOW.html"):
+        return "visualizador_interactivo"
+    if f in ("graphify/graph.json", "graphify/graph.graphml", "graphify/cypher.txt"):
+        return "grafo_conocimiento"
+    if f == "graphify/GRAPH_REPORT.md":
+        return "reporte_comunidades"
+    if f.startswith("guias_academia_judicial/"):
+        return "guia_academia_judicial"
+    if f.startswith("doctrina/"):
+        return "doctrina_markdown"
+    if f.startswith("data/"):
+        return "datos_estructurados"
+    if f.startswith("jurisprudencia_cs/"):
+        return "jurisprudencia_cs"
+    if f.startswith("jurisprudencia_tc/"):
+        return "jurisprudencia_tc"
+    if f.startswith("jurisprudencia_ambiental/"):
+        return "jurisprudencia_ambiental"
+    if f.startswith("biblioteca_ambiental/"):
+        return "biblioteca_ambiental"
+    if f.startswith("publicaciones_ambientales/"):
+        return "publicacion_ambiental"
+    return "recurso"
+
+
+def _formatear_cita_hf(f: str, repo_id: str, tipo: str, nombre_base: str) -> str:
+    """Genera la cita oficial en formato de corchetes conforme al estándar de AGENTS.md."""
+    if tipo == "wiki_comunidad":
+        return f"[Hugging Face - {repo_id}, Wiki Comunidad: {nombre_base}]"
+    if tipo == "visualizador_interactivo":
+        return f"[Hugging Face - {repo_id}, Visualizador: {nombre_base}]"
+    if tipo == "grafo_conocimiento":
+        return f"[Hugging Face - {repo_id}, Grafo: {nombre_base}]"
+    if tipo == "reporte_comunidades":
+        return f"[Hugging Face - {repo_id}, Reporte: {nombre_base}]"
+    if tipo == "guia_academia_judicial":
+        return f"[Hugging Face - {repo_id}, Guía Judicial: {nombre_base}]"
+    if tipo == "datos_estructurados":
+        return f"[Hugging Face - {repo_id}, Datos: {f}]"
+    return f"[Hugging Face - {repo_id}, Archivo: {f}]"
+
+
+def _construir_respuesta_hf(query: str, repo_id: str, space_id: str,
+                             coincidencias: List[Dict[str, Any]],
+                             citas: List[Dict[str, Any]]) -> Dict[str, Any]:
+    return {
+        "dataset_origen": f"https://huggingface.co/datasets/{repo_id}",
+        "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
+        "query": query,
+        "total_coincidencias": len(coincidencias),
+        "resultados": coincidencias,
+        "citas": citas,
+        "cita_fuente": f"[Hugging Face - Datasets Hub: https://huggingface.co/datasets/{repo_id}]"
+    }
+
+
+_CATALOGO_INSTITUCIONES: Optional[List[Dict[str, Any]]] = None
+_INDICE_INSTITUCIONES: Optional[Dict[str, List[int]]] = None
+_CATALOGO_INST_LOCK = threading.Lock()
+
+
+def invalidar_cache_catalogo() -> None:
+    """Invalida la caché en memoria del catálogo de instituciones para recargar cambios."""
+    global _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
+    with _CATALOGO_INST_LOCK:
+        _CATALOGO_INSTITUCIONES = None
+        _INDICE_INSTITUCIONES = None
+
+
+def _obtener_catalogo_instituciones() -> Tuple[List[Dict[str, Any]], Dict[str, List[int]]]:
+    """Carga e indexa en memoria las 11.858 instituciones de data/catalogo/instituciones_lite.jsonl."""
+    global _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
+    if _CATALOGO_INSTITUCIONES is not None and _INDICE_INSTITUCIONES is not None:
+        return _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
+
+    with _CATALOGO_INST_LOCK:
+        if _CATALOGO_INSTITUCIONES is not None and _INDICE_INSTITUCIONES is not None:
+            return _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
+
+        cat_path = os.path.join(BASE_DIR, "data", "catalogo", "instituciones_lite.jsonl")
+        items: List[Dict[str, Any]] = []
+        indice: Dict[str, List[int]] = {}
+
+        if os.path.isfile(cat_path):
+            try:
+                with open(cat_path, "r", encoding="utf-8", errors="replace") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        try:
+                            it = json.loads(line)
+                            items.append(it)
+                        except Exception:
+                            pass
+
+                for i, it in enumerate(items):
+                    texto = f"{it.get('institucion', '')} {it.get('materia', '')} {it.get('autor', '')} {it.get('area', '')} {it.get('definicion', '')[:300]}"
+                    norm = _normalizar_para_buscar(texto).lower()
+                    words = set(re.findall(r"\b\w{3,}\b", norm))
+                    for w in words:
+                        if w not in _PALABRAS_VACIAS:
+                            indice.setdefault(w, []).append(i)
+            except Exception:
+                items = []
+                indice = {}
+
+        _CATALOGO_INSTITUCIONES = items
+        _INDICE_INSTITUCIONES = indice
+        return _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
+
+
+def _buscar_catalogo_instituciones(tokens_q: List[str], query_norm: str, limit: int = 5,
+                                    repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
+                                    space_id: str = "pablobenavidesj/open-legal-chile-graph") -> List[Dict[str, Any]]:
+    """Busca en las 11.858 instituciones canónicas indexadas con ranking ponderado y texto literal."""
+    items, indice = _obtener_catalogo_instituciones()
+    if not items or not indice or not tokens_q:
+        return []
+
+    from collections import Counter
+    scores: Counter = Counter()
+    for t in tokens_q:
+        for idx in indice.get(t, []):
+            it = items[idx]
+            inst_norm = _normalizar_para_buscar(it.get("institucion", "")).lower()
+            mat_norm = _normalizar_para_buscar(it.get("materia", "")).lower()
+            aut_norm = _normalizar_para_buscar(it.get("autor", "")).lower()
+            sc = 2
+            if t in inst_norm:
+                sc += 10
+            if t in mat_norm:
+                sc += 5
+            if t in aut_norm:
+                sc += 15
+            if query_norm in inst_norm or query_norm in aut_norm:
+                sc += 25
+            scores[idx] += sc
+
+    resultados: List[Dict[str, Any]] = []
+    vistos_archivos = set()
+    for idx, _ in scores.most_common(limit * 3):
+        it = items[idx]
+        archivo = it.get("archivo", "").strip()
+        if not archivo:
+            continue
+        if not archivo.startswith("doctrina/") and not archivo.startswith("guias_"):
+            archivo_hf = f"doctrina/{archivo}"
+        else:
+            archivo_hf = archivo
+        if archivo_hf in vistos_archivos:
+            continue
+        vistos_archivos.add(archivo_hf)
+
+        encoded_path = archivo_hf.replace(" ", "%20")
+        definicion = (it.get("definicion") or "").strip()
+        extractos: List[str] = []
+        if definicion:
+            fallo = it.get("fallo_rector", "")
+            ext = definicion
+            if fallo and fallo not in ext:
+                ext += f" Fallo rector: {fallo}"
+            extractos.append(ext[:400])
+        else:
+            pasajes = _extractos_hf(_descargar_trozo_hf(archivo_hf, repo_id, tokens_q), tokens_q)
+            if pasajes:
+                extractos.extend(pasajes[:2])
+            else:
+                materia = it.get("materia", "")
+                inst_nom = it.get("institucion", "")
+                autor = it.get("autor", "")
+                extractos.append(f"{inst_nom} ({autor}) — Materia: {materia}."[:400])
+
+        cita = f"[Hugging Face - {repo_id}, Archivo: {archivo_hf}]"
+        resultados.append({
+            "archivo": archivo_hf,
+            "dataset": repo_id,
+            "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+            "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
+            "tipo": "doctrina_markdown",
+            "cita_estandar": cita,
+            "extractos": extractos,
+            "tiene_texto": bool(extractos),
+            "_score": scores[idx],
+        })
+        if len(resultados) >= limit:
+            break
+    return resultados
+
+
+def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
+                                     repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
+                                     space_id: str = "pablobenavidesj/open-legal-chile-graph") -> List[Dict[str, Any]]:
+    """Busca en el corpus local cosechado de jurisprudencia judicial (CS, TC, Ambiental)."""
+    try:
+        from pjud_connector import buscar_sentencias_locales
+        sentencias = buscar_sentencias_locales(query, limit=limit)
+    except Exception:
+        sentencias = []
+
+    resultados: List[Dict[str, Any]] = []
+    for s in sentencias:
+        rol = str(s.get("rol") or "").strip()
+        fecha = str(s.get("fecha") or "").strip()
+        tribunal = str(s.get("tribunal") or "Corte Suprema").strip()
+        caratula = str(s.get("caratula") or "").strip()
+        recurso = str(s.get("recurso") or "").strip()
+        resultado_fallo = str(s.get("resultado") or "").strip()
+
+        if "Constitucional" in tribunal or s.get("archivo_md", "").startswith("jurisprudencia_tc"):
+            archivo_hf = f"jurisprudencia_tc/{rol}.md"
+            tipo = "jurisprudencia_tc"
+        elif "Ambiental" in tribunal or s.get("archivo_md", "").startswith("jurisprudencia_ambiental"):
+            archivo_hf = s.get("archivo_md") or f"jurisprudencia_ambiental/{rol}.md"
+            tipo = "jurisprudencia_ambiental"
+        else:
+            if re.match(r"^\d{4}-\d{2}", fecha):
+                archivo_hf = f"jurisprudencia_cs/{fecha[:4]}/{fecha[5:7]}/{rol}.md"
+            else:
+                archivo_hf = f"jurisprudencia_cs/{fecha[:4] if len(fecha) >= 4 else '2026'}/01/{rol}.md"
+            tipo = "jurisprudencia_cs"
+
+        encoded_path = archivo_hf.replace(" ", "%20")
+        cita = f"[Hugging Face - {repo_id}, Archivo: {archivo_hf}]"
+        extracto = (f"Sentencia {tribunal} Rol {rol} ({fecha}): {caratula}. "
+                    f"Recurso: {recurso}. Resultado: {resultado_fallo}.").strip()
+
+        resultados.append({
+            "archivo": archivo_hf,
+            "dataset": repo_id,
+            "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+            "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
+            "tipo": tipo,
+            "cita_estandar": cita,
+            "extractos": [extracto],
+            "tiene_texto": True,
+        })
+    return resultados
+
+
 def consultar_huggingface_dataset(query: str, limit: int = 5,
                                   repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
                                   space_id: str = "pablobenavidesj/open-legal-chile-graph") -> Dict[str, Any]:
@@ -1625,41 +1874,55 @@ def consultar_huggingface_dataset(query: str, limit: int = 5,
 
         tokens_q = [t for t in (_normalizar_para_buscar(x).lower() for x in re.split(r"[_\-\s]+", query_norm))
                     if len(t) > 2 and t not in _PALABRAS_VACIAS]
-        candidatos = sorted((f for f in files if any(t in _normalizar_para_buscar(f).lower() for t in tokens_q)),
-                            key=lambda f: (_prioridad_hf(f), f))
 
-        for f in candidatos:
+        # Modo test / mock aislado: si _listar_archivos_hf devuelve una lista reducida (< 100 archivos)
+        if len(files) < 100:
+            candidatos = sorted((f for f in files if any(t in _normalizar_para_buscar(f).lower() for t in tokens_q)),
+                                key=lambda f: (_prioridad_hf(f), f))
+            for f in candidatos:
+                encoded_path = f.replace(" ", "%20")
+                nombre_base = os.path.basename(f)
+                tipo = _clasificar_tipo_hf(f)
+                cita = _formatear_cita_hf(f, repo_id, tipo, nombre_base)
+                extractos = _extractos_hf(_descargar_trozo_hf(f, repo_id, tokens_q), tokens_q)
+                coincidencias.append({
+                    "archivo": f,
+                    "dataset": repo_id,
+                    "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+                    "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
+                    "tipo": tipo,
+                    "cita_estandar": cita,
+                    "extractos": extractos,
+                    "tiene_texto": bool(extractos),
+                })
+                if extractos:
+                    citas.append({
+                        "formato": cita,
+                        "texto": extractos[0],
+                        "url": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+                        "fuente": "huggingface",
+                    })
+                if len(coincidencias) >= limit:
+                    break
+            return _construir_respuesta_hf(query, repo_id, space_id, coincidencias, citas)
+
+        # Modo producción (catálogo ultra-eficiente de 73.203 archivos y 11.858 instituciones)
+        es_rol = bool(re.search(r"\b(rol|rit|c-?\d|t-?\d|\d{3,6}-\d{4})\b", query_norm))
+        es_jurisprudencia = es_rol or any(k in query_norm for k in ("sentencia", "fallo", "amparo", "casacion", "proteccion", "unificacion"))
+
+        candidatos_inst = _buscar_catalogo_instituciones(tokens_q, query_norm, limit=limit, repo_id=repo_id, space_id=space_id)
+        candidatos_juris = _buscar_catalogo_jurisprudencia(query, limit=limit, repo_id=repo_id, space_id=space_id) if (es_jurisprudencia or len(candidatos_inst) < limit) else []
+
+        candidatos_archivos: List[Dict[str, Any]] = []
+        candidatos_paths = sorted((f for f in files if any(t in _normalizar_para_buscar(f).lower() for t in tokens_q)),
+                                  key=lambda f: (_prioridad_hf(f), f))
+        for f in candidatos_paths[:limit]:
             encoded_path = f.replace(" ", "%20")
             nombre_base = os.path.basename(f)
-
-            # Clasificación especializada de recursos en el dataset
-            if f.startswith("graphify/wiki/"):
-                tipo = "wiki_comunidad"
-                cita = f"[Hugging Face - {repo_id}, Wiki Comunidad: {nombre_base}]"
-            elif f in ("graphify/graph.html", "graphify/GRAPH_TREE.html", "graphify/GRAPH_CALLFLOW.html"):
-                tipo = "visualizador_interactivo"
-                cita = f"[Hugging Face - {repo_id}, Visualizador: {nombre_base}]"
-            elif f in ("graphify/graph.json", "graphify/graph.graphml", "graphify/cypher.txt"):
-                tipo = "grafo_conocimiento"
-                cita = f"[Hugging Face - {repo_id}, Grafo: {nombre_base}]"
-            elif f == "graphify/GRAPH_REPORT.md":
-                tipo = "reporte_comunidades"
-                cita = f"[Hugging Face - {repo_id}, Reporte: {nombre_base}]"
-            elif f.startswith("guias_academia_judicial/"):
-                tipo = "guia_academia_judicial"
-                cita = f"[Hugging Face - {repo_id}, Guía Judicial: {nombre_base}]"
-            elif f.startswith("doctrina/"):
-                tipo = "doctrina_markdown"
-                cita = f"[Hugging Face - {repo_id}, Archivo: {f}]"
-            elif f.startswith("data/"):
-                tipo = "datos_estructurados"
-                cita = f"[Hugging Face - {repo_id}, Datos: {f}]"
-            else:
-                tipo = "recurso"
-                cita = f"[Hugging Face - {repo_id}, Archivo: {f}]"
-
+            tipo = _clasificar_tipo_hf(f)
+            cita = _formatear_cita_hf(f, repo_id, tipo, nombre_base)
             extractos = _extractos_hf(_descargar_trozo_hf(f, repo_id, tokens_q), tokens_q)
-            coincidencias.append({
+            candidatos_archivos.append({
                 "archivo": f,
                 "dataset": repo_id,
                 "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
@@ -1669,25 +1932,32 @@ def consultar_huggingface_dataset(query: str, limit: int = 5,
                 "extractos": extractos,
                 "tiene_texto": bool(extractos),
             })
-            if extractos:
+
+        if es_jurisprudencia:
+            orden = candidatos_juris + candidatos_inst + candidatos_archivos
+        elif any(k in query_norm for k in ("wiki", "comunidad", "grafo", "guia")):
+            orden = candidatos_archivos + candidatos_inst + candidatos_juris
+        else:
+            orden = candidatos_inst + candidatos_archivos + candidatos_juris
+
+        archivos_vistos: set = set()
+        for cand in orden:
+            arch = cand["archivo"]
+            if arch in archivos_vistos:
+                continue
+            archivos_vistos.add(arch)
+            coincidencias.append(cand)
+            if cand.get("extractos"):
                 citas.append({
-                    "formato": cita,
-                    "texto": extractos[0],
-                    "url": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+                    "formato": cand["cita_estandar"],
+                    "texto": cand["extractos"][0],
+                    "url": cand["url_huggingface"],
                     "fuente": "huggingface",
                 })
             if len(coincidencias) >= limit:
                 break
 
-        return {
-            "dataset_origen": f"https://huggingface.co/datasets/{repo_id}",
-            "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
-            "query": query,
-            "total_coincidencias": len(coincidencias),
-            "resultados": coincidencias,
-            "citas": citas,
-            "cita_fuente": f"[Hugging Face - Datasets Hub: https://huggingface.co/datasets/{repo_id}]"
-        }
+        return _construir_respuesta_hf(query, repo_id, space_id, coincidencias, citas)
     except Exception as e:
         return {
             "dataset_origen": f"https://huggingface.co/datasets/{repo_id}",

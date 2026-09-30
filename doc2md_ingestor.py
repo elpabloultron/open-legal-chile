@@ -463,7 +463,8 @@ def ingestar_documento_doctrinal(
     obra: str = "",
     materia: str = "",
     actualizar_grafo: bool = True,
-    target_path: Optional[str] = None
+    target_path: Optional[str] = None,
+    actualizar_fts: bool = True
 ) -> Dict[str, Any]:
     """
     Pipeline de ingesta integral:
@@ -535,12 +536,13 @@ def ingestar_documento_doctrinal(
     # Sincronización automática 1: Índice SQLite FTS5 de doctrina
     fts_actualizado = False
     total_inst_fts = 0
-    try:
-        from doctrina_connector import index_all_doctrina
-        total_inst_fts = index_all_doctrina()
-        fts_actualizado = True
-    except Exception as e:
-        print(f"Advertencia al indexar doctrina FTS5: {e}", file=sys.stderr)
+    if actualizar_fts:
+        try:
+            from doctrina_connector import index_all_doctrina
+            total_inst_fts = index_all_doctrina()
+            fts_actualizado = True
+        except Exception as e:
+            print(f"Advertencia al indexar doctrina FTS5: {e}", file=sys.stderr)
 
     # Sincronización automática 2: Grafo de Conocimiento (LegalGraphify)
     grafo_actualizado = False

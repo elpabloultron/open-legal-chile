@@ -14,6 +14,7 @@ import os
 import re
 import json
 import unicodedata
+from collections import defaultdict
 from typing import Dict, Any, List, Optional, Set, Tuple
 
 import networkx as nx
@@ -106,12 +107,33 @@ class LegalGraphifyEngine:
         self.graph = nx.DiGraph()
         self.instituciones_index: Dict[str, str] = {}  # norm_name -> node_id
         self.normas_index: Dict[str, str] = {}         # norm_name -> node_id
+        self._label_index: Dict[str, str] = {}         # norm_label -> node_id
+        self._word_to_nodes: Dict[str, Set[str]] = defaultdict(set)     # word -> set(node_ids)
+        self._def_word_to_nodes: Dict[str, Set[str]] = defaultdict(set) # def_word -> set(node_ids)
         self.is_built = False
         # Avisos de esta corrida, misma convención de la suite (avisar, no inventar).
         # Hoy lo usa la carga del grafo: si el artefacto publicado está corrupto o no
         # es Node-Link, se reconstruye desde doctrina/ — y quien consulta merece saberlo,
         # porque entonces la respuesta ya no viene del artefacto que creía estar usando.
         self.advertencias: List[str] = []
+
+    def _actualizar_indice_invertido(self) -> None:
+        """Construye índices invertidos en memoria O(1) para resolución ultra-rápida de nodos."""
+        self._label_index.clear()
+        self._word_to_nodes.clear()
+        self._def_word_to_nodes.clear()
+        for nid, d in self.graph.nodes(data=True):
+            lbl_norm = _normalize_str(d.get("label", ""))
+            if lbl_norm:
+                self._label_index[lbl_norm] = nid
+                for w in re.findall(r"\b\w+\b", lbl_norm):
+                    if len(w) > 3:
+                        self._word_to_nodes[w].add(nid)
+            def_norm = _normalize_str(d.get("definicion", ""))
+            if def_norm:
+                for w in re.findall(r"\b\w+\b", def_norm):
+                    if len(w) > 3:
+                        self._def_word_to_nodes[w].add(nid)
 
     def _parse_frontmatter(self, text: str) -> Tuple[Dict[str, str], str]:
         """Extrae metadatos frontmatter si existen."""
@@ -372,6 +394,7 @@ class LegalGraphifyEngine:
         self._detectar_comunidades()
 
         self.is_built = True
+        self._actualizar_indice_invertido()
 
         # Un grafo vacío no es un detalle: significa que las cinco herramientas graphify_*
         # responderán "no encontrado" a todo. La causa más común es haber instalado el paquete
@@ -457,35 +480,32 @@ class LegalGraphifyEngine:
                     return preds[0]
                 return nid
 
-        # 2.5 Coincidencia exacta o contiene con cualquier label del grafo (órganos, tribunales, autores, fallos)
-        for nid, data in self.graph.nodes(data=True):
-            lbl_norm = _normalize_str(data.get("label", ""))
-            if q_norm == lbl_norm or (len(q_norm) > 3 and q_norm in lbl_norm):
-                return nid
+        # 2.5 Coincidencia exacta o contiene con cualquier label del grafo (O(1))
+        if q_norm in self._label_index:
+            return self._label_index[q_norm]
+        if len(q_norm) > 3:
+            for lbl_norm, nid in self._label_index.items():
+                if q_norm in lbl_norm:
+                    return nid
 
-        # 3. Puntuación por solapamiento de palabras
-        mejor_nodo = None
-        max_score = 0
-        for nid, data in self.graph.nodes(data=True):
-            lbl_norm = _normalize_str(data.get("label", ""))
-            def_norm = _normalize_str(data.get("definicion", ""))
-            score = 0
-            for w in palabras_q:
-                if len(w) > 3:
-                    # Palabra completa, no subcadena: «inexistente» no puede dar por encontrado
-                    # un nodo que dice «inexistentes». El emparejamiento laxo hacía que una
-                    # consulta sin sentido cayera en un nodo cualquiera del corpus grande.
-                    patron = re.compile(r"\b" + re.escape(w) + r"\b")
-                    if patron.search(lbl_norm):
-                        score += 5
-                    if patron.search(def_norm):
-                        score += 2
-            if score > max_score:
-                max_score = score
-                mejor_nodo = nid
+        # 3. Puntuación ultra-rápida por solapamiento de palabras con índice invertido (O(K))
+        if not self._word_to_nodes and self.graph.number_of_nodes() > 0:
+            self._actualizar_indice_invertido()
 
-        if mejor_nodo:
-            return mejor_nodo
+        candidatos_score: Dict[str, int] = defaultdict(int)
+        for w in palabras_q:
+            if len(w) > 3:
+                for nid in self._word_to_nodes.get(w, ()):
+                    candidatos_score[nid] += 5
+                for nid in self._def_word_to_nodes.get(w, ()):
+                    candidatos_score[nid] += 2
+
+        if candidatos_score:
+            max_score = max(candidatos_score.values())
+            # Desempate determinista: mayor grado y luego orden alfabético
+            mejores = [nid for nid, sc in candidatos_score.items() if sc == max_score]
+            mejores.sort(key=lambda nid: (-self.graph.degree(nid), nid))
+            return mejores[0]
 
         # 4. Último recurso: el término puede no nombrar ningún nodo y, aun así, ser el
         # tema de una obra ('compraventa' aparece en 4 tratados sin ser el label de
@@ -1263,6 +1283,7 @@ class LegalGraphifyEngine:
                     lbl = _normalize_str(d.get("label", ""))
                     self.normas_index[lbl] = nid
             self.is_built = True
+            self._actualizar_indice_invertido()
             return True
         except Exception as exc:
             self.advertencias.append(
