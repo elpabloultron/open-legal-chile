@@ -552,9 +552,9 @@
     "semantic_hash": ""
   },
   "data/enlaces_guias_corpus.json": {
-    "mtime": 1790826604.6651683,
-    "seen": 1790826793.0315366,
-    "ast_hash": "06aa48dfb345097d26483a5149ed906b",
+    "mtime": 1790859820.4743738,
+    "seen": 1790860109.7027862,
+    "ast_hash": "c0fb97d8a20d432bb471e9a34bcd9268",
     "semantic_hash": ""
   },
   "doc2md_ingestor.py": {
@@ -1002,9 +1002,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1790826682.865868,
-    "seen": 1790826793.0352287,
-    "ast_hash": "a5497f67c51c6a43c251b4660a041c88",
+    "mtime": 1790859969.4450688,
+    "seen": 1790860109.706467,
+    "ast_hash": "0993150ccfbeadd3fa2da74eed66ef8f",
     "semantic_hash": ""
   },
   "ROADMAP.md": {
@@ -1272,9 +1272,9 @@
     "semantic_hash": ""
   },
   "docs/index.html": {
-    "mtime": 1790826767.4084644,
-    "seen": 1790826793.0360675,
-    "ast_hash": "73d60eb3488e940f30cab1126a94de98",
+    "mtime": 1790859999.782748,
+    "seen": 1790860109.7075257,
+    "ast_hash": "6f6966547bbe648243c311ecee0209c3",
     "semantic_hash": ""
   },
   "docs/integracion_graphify.md": {
@@ -2754,9 +2754,9 @@
     "semantic_hash": ""
   },
   "data/catalogo/indice_agentes.json": {
-    "mtime": 1790826574.387346,
-    "seen": 1790826793.031517,
-    "ast_hash": "ac24900ebcb8192cffba1b8b5913a560",
+    "mtime": 1790859781.5824976,
+    "seen": 1790860109.702767,
+    "ast_hash": "381d4329eb1ec26bb592aec01e17da80",
     "semantic_hash": ""
   },
   "diagnostico.py": {
@@ -3324,9 +3324,9 @@
     "semantic_hash": ""
   },
   "llms.txt": {
-    "mtime": 1790826573.580651,
-    "seen": 1790826793.040526,
-    "ast_hash": "bc441b4e1e2f3c6cfcaed748e65ed3f0",
+    "mtime": 1790859780.4751089,
+    "seen": 1790860109.7124245,
+    "ast_hash": "25acf7a95c8540b2c308f4eaaed3ba3b",
     "semantic_hash": ""
   },
   "publicaciones_ambientales/README.md": {
@@ -3402,9 +3402,9 @@
     "semantic_hash": ""
   },
   "doctrina/revistas/README.md": {
-    "mtime": 1790826665.1721673,
-    "seen": 1790826793.040454,
-    "ast_hash": "cf36ef96f9a5bee7a5066ddad5a9ea0d",
+    "mtime": 1790859924.6405447,
+    "seen": 1790860109.7123573,
+    "ast_hash": "5cce3b8a040c5b3b467dd8481ead2261",
     "semantic_hash": ""
   },
   "scripts/ingestar_ojs_rchd_historico.py": {
@@ -3441,6 +3441,36 @@
     "mtime": 1790826432.1093385,
     "seen": 1790826793.0326316,
     "ast_hash": "c6a4f053e89390d8711280e4da63faf2",
+    "semantic_hash": ""
+  },
+  "scripts/ingestar_rda_uchile.py": {
+    "mtime": 1790855037.1710594,
+    "seen": 1790860109.7038724,
+    "ast_hash": "2b4db9ecd378978500863f30ab6d0ab0",
+    "semantic_hash": ""
+  },
+  "scripts/ingestar_rduach.py": {
+    "mtime": 1790855054.6068738,
+    "seen": 1790860109.7038736,
+    "ast_hash": "461ef474110787a3dc9fa11ec72f4918",
+    "semantic_hash": ""
+  },
+  "scripts/ingestar_rducn.py": {
+    "mtime": 1790855045.9649658,
+    "seen": 1790860109.7038743,
+    "ast_hash": "479c03773218570f918d3aa08261e272",
+    "semantic_hash": ""
+  },
+  "scripts/ingestar_rehj.py": {
+    "mtime": 1790855064.4027693,
+    "seen": 1790860109.7038925,
+    "ast_hash": "dcb95ca99a0d4a5958457b451156ce75",
+    "semantic_hash": ""
+  },
+  "scripts/ingestar_revistas_cientificas.py": {
+    "mtime": 1790860074.1909645,
+    "seen": 1790860109.7038932,
+    "ast_hash": "e7a81ff18e4899dcb0b20ac880f34017",
     "semantic_hash": ""
   }
 }

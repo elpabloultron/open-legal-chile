@@ -1,6 +1,6 @@
 {
  "guias": 24,
- "claves_de_norma_en_el_corpus": 6142,
+ "claves_de_norma_en_el_corpus": 6884,
  "enlaces": {
   "Guia-aplicada-para-la-determinacion-de-penas": [
    {
@@ -85,6 +85,13 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2018/rduach_2018_v31_n1_165_el_acoso_laboral_y_la_obligacion_de_seguridad_en_el_trabajo.md",
+    "peso": 0.25,
+    "claves": [
+     "LEY|16744"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/2004/73485_el_cambio_de_la_jurisprudencia_y_los_instrumentos_procesales.md",
     "peso": 0.25,
     "claves": [
@@ -108,13 +115,6 @@
    },
    {
     "archivo": "revistas/rdpucv/2019/S0718-68512019000200277_demanda_por_distintos_danos_morales_de_la_teoria_a_la_motiva.md",
-    "peso": 0.2,
-    "claves": [
-     "LEY|16744"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/1984/134_algunos_comentarios_sobre_problemas_juridicos_puntuales_suscitados_en_la_aplicac.md",
     "peso": 0.2,
     "claves": [
      "LEY|16744"
@@ -149,6 +149,14 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2022/rduach_2022_v35_n1_1615_la_proteccion_integral_de_los_derechos_de_la_ninez_bajo_el_c.md",
+    "peso": 0.2,
+    "claves": [
+     "LEY|19968",
+     "LEY|21302"
+    ]
+   },
+   {
     "archivo": "revistas/rchdt/2019/rchdt_2019_v8_n1_51991_tribunales_civiles_en_linea_una_propuesta_para_introducirlos.md",
     "peso": 0.2,
     "claves": [
@@ -163,15 +171,6 @@
      "LEY|19968",
      "LEY|20"
     ]
-   },
-   {
-    "archivo": "revistas/rchd/2023/S0718-34372023000200003_el_interes_del_demandado_en_su_defensa_en_la_etapa_de_discus.md",
-    "peso": 0.188,
-    "claves": [
-     "LEY|19968",
-     "LEY|20886",
-     "LEY|21226"
-    ]
    }
   ],
   "Guia_Audiencia_Monitoria-v1": [
@@ -180,6 +179,20 @@
     "peso": 0.333,
     "claves": [
      "CT|art_454"
+    ]
+   },
+   {
+    "archivo": "revistas/rducn/2012/rducn_2012_v19_n2_1975_prueba_inmediacion_y_potestades_en_el_proceso_laboral_observ.md",
+    "peso": 0.2,
+    "claves": [
+     "CT|art_454"
+    ]
+   },
+   {
+    "archivo": "revistas/rduach/2019/rduach_2019_v32_n1_429_el_rol_del_juez_laboral_en_la_admisibilidad_del_procedimient.md",
+    "peso": 0.167,
+    "claves": [
+     "CT|art_500"
     ]
    },
    {
@@ -202,20 +215,6 @@
     "claves": [
      "CT|art_501"
     ]
-   },
-   {
-    "archivo": "academia_judicial/02_Tribunales-Laborales-nociones-basicas-org.-y-funcionamiento.md",
-    "peso": 0.029,
-    "claves": [
-     "CT|art_500"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/14_Control-judicial-del-proceso-Case-Management.md",
-    "peso": 0.025,
-    "claves": [
-     "CT|art_454"
-    ]
    }
   ],
   "Guia_Audiencia_Preparatoria-v1": [
@@ -224,6 +223,27 @@
     "peso": 0.095,
     "claves": [
      "CT|art_486",
+     "CT|art_489"
+    ]
+   },
+   {
+    "archivo": "revistas/rducn/2012/rducn_2012_v19_n2_1975_prueba_inmediacion_y_potestades_en_el_proceso_laboral_observ.md",
+    "peso": 0.083,
+    "claves": [
+     "CT|art_478"
+    ]
+   },
+   {
+    "archivo": "revistas/rducn/2011/rducn_2011_v18_n1_2054_el_recurso_de_nulidad_laboral_como_herramienta_de_control_de.md",
+    "peso": 0.083,
+    "claves": [
+     "CT|art_478"
+    ]
+   },
+   {
+    "archivo": "revistas/rducn/2010/rducn_2010_v17_n2_2084_accion_de_tutela_laboral_y_despido_indirecto_comentario_a_la.md",
+    "peso": 0.083,
+    "claves": [
      "CT|art_489"
     ]
    },
@@ -240,27 +260,6 @@
     "claves": [
      "CT|art_453",
      "CT|art_478"
-    ]
-   },
-   {
-    "archivo": "revistas/rchdp/2026/1016_healthcare_liability_due_to_medical_negligence_a_proposal_fo.md",
-    "peso": 0.067,
-    "claves": [
-     "CT|art_4"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/1979/79470_reflexiones_sobre_la_nueva_institucionalidad.md",
-    "peso": 0.062,
-    "claves": [
-     "LEY|18880"
-    ]
-   },
-   {
-    "archivo": "revistas/rchdp/2024/728_the_beginning_of_the_computation_of_the_limitation_period_in.md",
-    "peso": 0.059,
-    "claves": [
-     "CT|art_510"
     ]
    }
   ],
@@ -501,23 +500,34 @@
     ]
    },
    {
-    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_19729_caracter_mixto_de_la_destinacion_a_un_tratamiento_medico_en_.md",
-    "peso": 0.061,
+    "archivo": "revistas/rducn/2022/rducn_2022_v29_ns_n_4235_metodos_alternativos_de_solucion_de_conflictos_y_la_mediacio.md",
+    "peso": 0.065,
     "claves": [
-     "LEY|20000",
-     "LEY|21240"
+     "CP|art_1",
+     "CP|art_9"
     ]
    },
    {
-    "archivo": "revistas/rchd/2023/S0718-34372023000200004_el_hurto_famelico_en_las_decisiones_de_los_tribunales_penale.md",
-    "peso": 0.061,
+    "archivo": "revistas/rducn/2016/rducn_2016_v23_n1_1803_consideraciones_acerca_de_los_criterios_de_unidad_de_accion_.md",
+    "peso": 0.062,
     "claves": [
-     "CPP|art_391",
-     "CP|art_1"
+     "CP|art_1",
+     "LEY|20000"
     ]
    }
   ],
   "Guia_Procedimiento_Simplificado_2025_v1.1": [
+   {
+    "archivo": "revistas/rduach/2016/rduach_2016_v29_n1_329_aplicabilidad_en_el_actual_sistema_procesal_penal_de_las_med.md",
+    "peso": 0.098,
+    "claves": [
+     "CPP|art_15",
+     "LEY|18216",
+     "LEY|20000",
+     "LEY|20066",
+     "LEY|20603"
+    ]
+   },
    {
     "archivo": "revistas/rchd/2020/S0718-34372020000200513_fundamento_politico_criminal_y_naturaleza_juridica_de_las_pe.md",
     "peso": 0.095,
@@ -568,15 +578,6 @@
      "LEY|20066",
      "LEY|21057"
     ]
-   },
-   {
-    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_20312_dotando_de_sentido_al_femicidio_por_razones_de_genero.md",
-    "peso": 0.07,
-    "claves": [
-     "LEY|18216",
-     "LEY|20066",
-     "LEY|21"
-    ]
    }
   ],
   "Guia_audiencia_ejecucion_2025_v1.1": [
@@ -617,6 +618,16 @@
     ]
    },
    {
+    "archivo": "revistas/rducn/2016/rducn_2016_v23_n1_1803_consideraciones_acerca_de_los_criterios_de_unidad_de_accion_.md",
+    "peso": 0.082,
+    "claves": [
+     "CPR|art_19",
+     "CP|art_1",
+     "LEY|18216",
+     "LEY|20000"
+    ]
+   },
+   {
     "archivo": "manuales/Derecho-Procesal-profesora-Cerra.md",
     "peso": 0.077,
     "claves": [
@@ -627,27 +638,14 @@
     ]
    },
    {
-    "archivo": "academia_judicial/RPPJ.md",
-    "peso": 0.072,
+    "archivo": "revistas/rduach/2016/rduach_2016_v29_n1_329_aplicabilidad_en_el_actual_sistema_procesal_penal_de_las_med.md",
+    "peso": 0.076,
     "claves": [
-     "CPP|art_11",
-     "CPP|art_19",
-     "CP|art_1",
-     "CP|art_4",
-     "CP|art_6",
-     "CP|art_8"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD48-Manual-psicosociolegal-sobre-abuso-sexual-infantil.md",
-    "peso": 0.071,
-    "claves": [
-     "CPP|art_6",
      "CPR|art_19",
-     "CP|art_1",
-     "CP|art_6",
-     "CP|art_9",
-     "LEY|20066"
+     "LEY|18216",
+     "LEY|20000",
+     "LEY|20066",
+     "LEY|20603"
     ]
    }
   ],
@@ -663,6 +661,15 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2018/rduach_2018_v31_n2_261_estudio_legal_empirico_sobre_el_uso_del_derecho_comparado_po.md",
+    "peso": 0.062,
+    "claves": [
+     "CPR|art_19",
+     "CPR|art_93",
+     "CPR|art_95"
+    ]
+   },
+   {
     "archivo": "academia_judicial/RPPJ.md",
     "peso": 0.062,
     "claves": [
@@ -671,6 +678,24 @@
      "CPP|art_252",
      "CPP|art_93",
      "CP|art_250"
+    ]
+   },
+   {
+    "archivo": "revistas/rda_uchile/2019/rda_uchile_2019_n12_54224_la_mitigacion_del_cambio_climatico_como_parametro_de_actuaci.md",
+    "peso": 0.059,
+    "claves": [
+     "CPR|art_19",
+     "CPR|art_93",
+     "LEY|19880"
+    ]
+   },
+   {
+    "archivo": "revistas/rducn/2012/rducn_2012_v19_n2_1981_correos_electronicos_y_subsecretario_del_interior_nuevamente.md",
+    "peso": 0.058,
+    "claves": [
+     "CPR|art_19",
+     "CPR|art_93",
+     "LEY|19880"
     ]
    },
    {
@@ -683,35 +708,6 @@
      "CPP|art_93",
      "CPR|art_19",
      "CPR|art_36"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2012/S0718-68512012000100014_es_el_tribunal_constitucional_el_supremo_interprete_de_la_co.md",
-    "peso": 0.048,
-    "claves": [
-     "CPR|art_186",
-     "CPR|art_19",
-     "CPR|art_93"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD61-Determinacion_aplicacion-y-ejecucion-de-penas.md",
-    "peso": 0.044,
-    "claves": [
-     "CPP|art_11",
-     "CPP|art_238",
-     "CPP|art_36",
-     "CPP|art_39",
-     "CPP|art_41",
-     "CPP|art_6"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2013/S0718-34372013000100013_la_censura_previa_y_el_estado_regulador_propuestas_para_una_.md",
-    "peso": 0.043,
-    "claves": [
-     "CPR|art_19",
-     "CPR|art_93"
     ]
    }
   ],
@@ -800,6 +796,15 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2020/rduach_2020_v33_n1_1249_como_fallan_y_controlan_la_ejecucion_de_las_penas_sustitutiv.md",
+    "peso": 0.094,
+    "claves": [
+     "LEY|20",
+     "LEY|20084",
+     "LEY|20931"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD-59-USO-DE-LA-FUERZA.md",
     "peso": 0.093,
     "claves": [
@@ -830,15 +835,6 @@
      "LEY|20",
      "LEY|20066",
      "LEY|20084"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
-    "peso": 0.086,
-    "claves": [
-     "LEY|20084",
-     "LEY|21057",
-     "LEY|21302"
     ]
    }
   ],
@@ -876,6 +872,16 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2018/rduach_2018_v31_n1_176_permite_el_articulo_449_del_codigo_penal_compensar_racionalm.md",
+    "peso": 0.148,
+    "claves": [
+     "CP|art_69",
+     "LEY|1",
+     "LEY|18216",
+     "LEY|20931"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2018/S0718-68512018000200035_facultades_autonomas_de_la_policia_en_el_sistema_procesal_pe.md",
     "peso": 0.147,
     "claves": [
@@ -894,15 +900,6 @@
      "LEY|18216",
      "LEY|18290",
      "LEY|20931"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2015/S0718-34372015000300011_el_principio_de_obligatoriedad_en_el_ejercicio_de_la_accion_.md",
-    "peso": 0.136,
-    "claves": [
-     "LEY|18216",
-     "LEY|18290",
-     "LEY|20084"
     ]
    }
   ],
@@ -948,6 +945,15 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2025/rduach_2025_v38_n2_2212_las_oficinas_locales_de_la_ninez_como_agentes_relevantesen_l.md",
+    "peso": 0.125,
+    "claves": [
+     "LEY|19968",
+     "LEY|21302",
+     "LEY|21430"
+    ]
+   },
+   {
     "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1637_legal_treatment_of_parenthood_for_persons_with_disabilities_.md",
     "peso": 0.114,
     "claves": [
@@ -956,18 +962,17 @@
      "LEY|21302",
      "LEY|21430"
     ]
-   },
-   {
-    "archivo": "revistas/rchd/2023/S0718-34372023000200003_el_interes_del_demandado_en_su_defensa_en_la_etapa_de_discus.md",
-    "peso": 0.103,
-    "claves": [
-     "LEY|18120",
-     "LEY|19968",
-     "LEY|21394"
-    ]
    }
   ],
   "Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1": [
+   {
+    "archivo": "revistas/rducn/2018/rducn_2018_v25_n1_3003_alcances_de_la_accion_de_amparo_ante_el_juez_de_garantia.md",
+    "peso": 0.067,
+    "claves": [
+     "CPP|art_17",
+     "CPP|art_281"
+    ]
+   },
    {
     "archivo": "revistas/rchdt/2022/rchdt_2022_v11_n2_63970_el_uso_de_videoconferencias_desconfianza_en_la_tecnologia_o_.md",
     "peso": 0.067,
@@ -1006,15 +1011,6 @@
     "claves": [
      "CP|art_11",
      "LEY|19970"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md",
-    "peso": 0.041,
-    "claves": [
-     "CPP|art_17",
-     "CPP|art_26",
-     "CPP|art_93"
     ]
    }
   ],
@@ -1055,6 +1051,16 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2020/rduach_2020_v33_n1_1249_como_fallan_y_controlan_la_ejecucion_de_las_penas_sustitutiv.md",
+    "peso": 0.118,
+    "claves": [
+     "LEY|18216",
+     "LEY|20",
+     "LEY|20084",
+     "LEY|20931"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2018/S0718-68512018000200035_facultades_autonomas_de_la_policia_en_el_sistema_procesal_pe.md",
     "peso": 0.109,
     "claves": [
@@ -1067,16 +1073,6 @@
    },
    {
     "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
-    "peso": 0.108,
-    "claves": [
-     "LEY|20084",
-     "LEY|21057",
-     "LEY|21302",
-     "LEY|21430"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD-55-LEY-21302-NUEVO-SISTEMA-PROTECCIONAL.md",
     "peso": 0.108,
     "claves": [
      "LEY|20084",
@@ -1118,6 +1114,15 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2025/rduach_2025_v38_n2_2212_las_oficinas_locales_de_la_ninez_como_agentes_relevantesen_l.md",
+    "peso": 0.231,
+    "claves": [
+     "LEY|19968",
+     "LEY|21302",
+     "LEY|21430"
+    ]
+   },
+   {
     "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_22466_lineas_jurisprudenciales_de_la_corte_suprema_en_materias_de_.md",
     "peso": 0.182,
     "claves": [
@@ -1134,55 +1139,46 @@
      "LEY|21302",
      "LEY|21430"
     ]
-   },
-   {
-    "archivo": "revistas/rchdp/2019/434_nature_and_requirements_of_the_provisory_personal_care_in_ju.md",
-    "peso": 0.167,
-    "claves": [
-     "LEY|16618",
-     "LEY|19",
-     "LEY|19968"
-    ]
    }
   ],
   "Guia_sobre_inteligencia_artificial_para_juezas_y_jueces": [
    {
-    "archivo": "revistas/rdpucv/2019/S0718-68512019000200301_comentario_a_la_sentencia_rol_n_894_eo_2017_del_tercer_juzga.md",
+    "archivo": "revistas/rducn/2022/rducn_2022_v29_ns_n_4509_morales_ortiz_m_e_dir_y_mendoza_alonzo_p_coord_2019_derecho_.md",
     "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rchdp/2024/944_the_scope_of_the_admiss_ibility_examination_of_the_class_act.md",
+    "archivo": "revistas/rducn/2021/rducn_2021_v28_ns_n_3491_los_contornos_del_dano_moral_comentario_a_la_sentencia_de_la.md",
     "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rchdp/2024/838_the_protection_of_the_dignity_of_the_consumer_in_the_bill_se.md",
+    "archivo": "revistas/rduach/2024/rduach_2024_v37_n1_1868_el_ejercicio_ilegitimo_de_la_libertad_de_empresa_en_las_clau.md",
     "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rchdp/2021/614_supplementary_function_of_contractual_good_faith_and_derived.md",
+    "archivo": "revistas/rduach/2011/rduach_2011_v24_n2_559_la_autonomia_de_la_accion_en_interes_general_de_los_consumid.md",
     "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rchdp/2020/514_nulity_of_abuse_clauses_in_reservations_promises_of_sale_and.md",
+    "archivo": "revistas/rduach/2011/rduach_2011_v24_n2_551_la_relatividad_de_los_derechos_subjetivos_de_los_consumidore.md",
     "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rchdp/2019/375_contratos_por_adhesion_y_clausulas_abusivas_por_que_el_estad.md",
+    "archivo": "revistas/rduach/2007/rduach_2007_v20_n1_667_llegar_y_llevar_una_mirada_al_credito_de_las_casas_comercial.md",
     "peso": 1.0,
     "claves": [
      "LEY|19496"
@@ -1232,6 +1228,16 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2023/rduach_2023_v36_n2_1795_la_regulacion_penal_con_perspectiva_de_genero_y_los_principi.md",
+    "peso": 0.125,
+    "claves": [
+     "LEY|18216",
+     "LEY|20066",
+     "LEY|20084",
+     "LEY|21523"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD43-Las-victimas-los-testigos-y-los-peritos-en-los-procesos-judiciales.md",
     "peso": 0.125,
     "claves": [
@@ -1239,16 +1245,6 @@
      "LEY|20066",
      "LEY|21057",
      "LEY|21302"
-    ]
-   },
-   {
-    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_20312_dotando_de_sentido_al_femicidio_por_razones_de_genero.md",
-    "peso": 0.121,
-    "claves": [
-     "LEY|18216",
-     "LEY|20066",
-     "LEY|21523",
-     "LEY|21675"
     ]
    }
   ],
@@ -1276,6 +1272,27 @@
     ]
    },
    {
+    "archivo": "revistas/rduach/2025/rduach_2025_v38_n2_2212_las_oficinas_locales_de_la_ninez_como_agentes_relevantesen_l.md",
+    "peso": 0.182,
+    "claves": [
+     "LEY|19968",
+     "LEY|20032",
+     "LEY|21302",
+     "LEY|21430"
+    ]
+   },
+   {
+    "archivo": "revistas/rducn/2024/rducn_2024_v31_ns_n_6655_tutela_cautelar_en_los_procedimientos_proteccionales_de_nino.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|1",
+     "LEY|14908",
+     "LEY|16618",
+     "LEY|19968",
+     "LEY|20066"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
     "peso": 0.16,
     "claves": [
@@ -1292,27 +1309,6 @@
      "LEY|16618",
      "LEY|19968",
      "LEY|21302",
-     "LEY|21430"
-    ]
-   },
-   {
-    "archivo": "revistas/rchdp/2014/120_the_new_principles_of_family_law.md",
-    "peso": 0.159,
-    "claves": [
-     "LEY|14908",
-     "LEY|16618",
-     "LEY|19",
-     "LEY|19620",
-     "LEY|19947",
-     "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_22466_lineas_jurisprudenciales_de_la_corte_suprema_en_materias_de_.md",
-    "peso": 0.15,
-    "claves": [
-     "LEY|19947",
-     "LEY|19968",
      "LEY|21430"
     ]
    }

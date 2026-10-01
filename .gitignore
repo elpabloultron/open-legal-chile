@@ -34,6 +34,10 @@ data/rchdcp/pdfs/
 data/rchdt/pdfs/
 data/dacc/pdfs/
 data/rdudec/pdfs/
+data/rducn/pdfs/
+data/rduach/pdfs/
+data/rda_uchile/pdfs/
+data/rehj/pdfs/
 *.db
 openlegal_cache.db
 casos/
