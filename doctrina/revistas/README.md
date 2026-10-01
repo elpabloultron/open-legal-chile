@@ -56,3 +56,22 @@ Conforme al protocolo de citas de Open Legal Chile:
 ### Formato de Citación Estándar
 - **Cita doctrinal:** `[RChDP - N° <Número> (<Año>), <Autor>, <Título>]`
 - **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rchdp/<Año>/<archivo>.md]`
+
+---
+
+## 4. Revista Chilena de Derecho y Ciencia Política (RChDCP — Universidad Católica de Temuco)
+
+- **Institución:** Escuela de Derecho y Departamento de Ciencia Política, Facultad de Ciencias Jurídicas, Económicas y Administrativas, Universidad Católica de Temuco (UCT).
+- **Identificador OAI-PMH:** `oai:ojs.pkp.sfu.ca:article/...`
+- **ISSN:** 0719-2150 (versión en línea) / 0718-9389 (versión impresa)
+- **Cobertura:** 316 artículos normalizados en Markdown canónico (2010 – 2026), cubriendo la totalidad de la historia de la revista desde su Vol. 1 N° 1 (2010) hasta el presente.
+- **Áreas temáticas:** Derecho Constitucional y Régimen Político, Derechos Humanos y Pueblos Originarios (Convenio 169 OIT, jurisdicción indígena), Derecho Administrativo y Ambiental, Derecho Penal y Procesal Penal, Derecho Civil y del Consumo, Ciencia Política y Relaciones Internacionales.
+
+### Publicación y Acceso
+- **Dataset:** [`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+- **Ruta de la colección:** `doctrina/revistas/rchdcp/`
+
+### Formato de Citación Estándar
+- **Cita doctrinal:** `[RChDCP - Vol. <Volumen> N° <Número> (<Año>), <Autor>, <Título>]`
+- **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rchdcp/<Año>/<archivo>.md]`
+

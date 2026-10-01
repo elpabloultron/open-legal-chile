@@ -1,10 +1,10 @@
 {
   "dataset": "pablobenavidesj/doctrina-jurisprudencia-chile",
   "resumen": {
-    "documentos_doctrina": 3677,
+    "documentos_doctrina": 3993,
     "guias_academia_judicial": 24,
-    "fichas": 17269,
-    "obras_indexadas": 3677,
+    "fichas": 17878,
+    "obras_indexadas": 3993,
     "registros_jurisprudencia": 74518,
     "nodos_grafo": 14050,
     "aristas_grafo": 31017
@@ -15,21 +15,21 @@
   },
   "rutas": [
     {
+      "area": "General",
+      "fichas": 4104,
+      "abrir": [
+        "doctrina/manuales/doctrina48981.md",
+        "doctrina/apuntes_orrego/El Derecho y el ordenamiento jurídico.md",
+        "doctrina/apuntes_orrego/La Tradición.md"
+      ]
+    },
+    {
       "area": "Judicial",
       "fichas": 4022,
       "abrir": [
         "doctrina/academia_judicial/01_Derechos-sexuales-y-reproductivos.md",
         "doctrina/academia_judicial/Ley-Antidiscriminacion.md",
         "doctrina/academia_judicial/Redaccion-de-documentos-legales.md"
-      ]
-    },
-    {
-      "area": "General",
-      "fichas": 3495,
-      "abrir": [
-        "doctrina/manuales/doctrina48981.md",
-        "doctrina/apuntes_orrego/El Derecho y el ordenamiento jurídico.md",
-        "doctrina/apuntes_orrego/La Tradición.md"
       ]
     },
     {
