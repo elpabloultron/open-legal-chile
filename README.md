@@ -194,14 +194,14 @@ en Markdown y con índices para agentes ([`llms.txt`](https://huggingface.co/dat
 | Colección | Qué trae | Cifra medida |
 |---|---|---|
 | Doctrina | tratados, apuntes y materiales docentes, texto íntegro | **228 obras** |
-| Revistas de Derecho | RChD UC (1974-2026, 2 086 arts.), RDPUCV (1977-2024, 868 arts.), RChDP UDP (2003-2026, 494 arts.), RChDCP UCT (2010-2026, 316 arts.), RChDT UChile (2012-2026, 232 arts.), DACC UdeC (2025-2026, 21 arts.) y RDUdeC (1933-2026, 226 arts.), OJS/SciELO en Markdown | **4 243 artículos** |
+| Revistas de Derecho | RChD UC (1974-2026, 2 086 arts.), RDPUCV (1977-2024, 868 arts.), RDUACh (1990-2026, 1 011 arts.), REHJ PUCV (1976-2025, 950 arts.), RDUCN (1994-2026, 737 arts.), RChDP UDP (2003-2026, 494 arts.), RChDCP UCT (2010-2026, 316 arts.), RDA UChile (2002-2026, 229 arts.), RDUdeC (1933-2026, 226 arts.), RChDT UChile (2012-2026, 232 arts.) y DACC UdeC (2025-2026, 21 arts.), OJS/SciELO en Markdown | **7 170 artículos** |
 | Guías AJ | Academia Judicial de Chile, texto íntegro | **24 guías** |
 | Corte Suprema | ficha Markdown + enlace oficial (el texto íntegro exige sesión PJUD) | **70 536 fichas** |
 | Tribunal Constitucional | texto íntegro | **967 sentencias** |
 | Ambientales (1TA/2TA/3TA) | 735 con texto íntegro · 151 fichas (las 111 de 1TA: su portal ya no sirve PDFs) | **886 sentencias** |
 | Publicaciones ambientales | boletines y anuarios | **55** |
 
-En total: **4 472 documentos de doctrina y revistas académicas** estructuradas en Markdown y **19 288 fichas dogmáticas densas** con índice rápido `train_lite.jsonl` e `instituciones_lite.jsonl` para citación grounded sin alucinaciones.
+En total: **7 399 documentos de doctrina y revistas académicas** estructuradas en Markdown y **25 556 fichas dogmáticas densas** con índice rápido `train_lite.jsonl` e `instituciones_lite.jsonl` para citación grounded sin alucinaciones.
 
 Cada obra trae al final un bloque **«Véase también»** con sus conexiones medidas (grafo de citas,
 normas compartidas y guías que la usan). La cita oficial es `[BCN - Código, Art. N]`, siempre con el

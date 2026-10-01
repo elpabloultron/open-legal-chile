@@ -129,6 +129,79 @@ Conforme al protocolo de citas de Open Legal Chile:
 - **Cita doctrinal:** `[RDUdeC - Vol. <Volumen> N° <Número> (<Año>), <Autor>, <Título>]`
 - **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rdudec/<Año>/<archivo>.md]`
 
+---
+
+## 8. Revista de Derecho Ambiental (RDA-UChile — Universidad de Chile)
+
+- **Institución:** Centro de Derecho Ambiental (CDA), Facultad de Derecho, Universidad de Chile.
+- **Identificador OAI-PMH:** `https://revistaderechoambiental.uchile.cl/index.php/RDA/oai`
+- **ISSN:** 0719-6636 (versión en línea) / 0717-3806 (versión impresa)
+- **Cobertura:** 229 artículos normalizados en Markdown canónico (2002 – 2026), cubriendo la totalidad de las ediciones publicadas desde su fundación.
+- **Áreas temáticas:** Derecho Ambiental sustantivo y procesal, Sistema de Evaluación de Impacto Ambiental (SEIA), Resoluciones de Calificación Ambiental (RCA), Daño Ambiental y Jurisprudencia de los Tribunales Ambientales (1TA, 2TA, 3TA), Ley Marco de Cambio Climático (Ley 21.455), Derecho de Aguas, Biodiversidad y Áreas Protegidas (SBAP).
+
+### Publicación y Acceso
+- **Dataset:** [`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+- **Ruta de la colección:** `doctrina/revistas/rda_uchile/`
+
+### Formato de Citación Estándar
+- **Cita doctrinal:** `[RDA-UChile - N° <Número> (<Año>), <Autor>, <Título>]`
+- **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rda_uchile/<Año>/<archivo>.md]`
+
+---
+
+## 9. Revista de Derecho (Coquimbo — RDUCN, Universidad Católica del Norte)
+
+- **Institución:** Escuela de Derecho Coquimbo, Facultad de Ciencias Jurídicas, Universidad Católica del Norte.
+- **Identificador OAI-PMH:** `https://revistaderecho.ucn.cl/index.php/revista-derecho/oai`
+- **ISSN:** 0718-9753 (versión en línea) / 0717-5345 (versión impresa)
+- **Cobertura:** 737 artículos normalizados en Markdown canónico (1994 – 2026), cubriendo más de tres décadas de producción dogmática regional y nacional.
+- **Áreas temáticas:** Derecho Civil Patrimonial (obligaciones, contratos, garantías y responsabilidad civil), Derecho de Minería y Recursos Naturales, Derecho de Aguas, Derecho Constitucional y Derechos Fundamentales, Derecho Procesal Civil y Penal, Derecho Administrativo y Municipal, Derecho del Trabajo y Relaciones Laborales.
+
+### Publicación y Acceso
+- **Dataset:** [`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+- **Ruta de la colección:** `doctrina/revistas/rducn/`
+
+### Formato de Citación Estándar
+- **Cita doctrinal:** `[RDUCN - Vol. <Volumen> N° <Número> (<Año>), <Autor>, <Título>]`
+- **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rducn/<Año>/<archivo>.md]`
+
+---
+
+## 10. Revista de Derecho (Valdivia — RDUACh, Universidad Austral de Chile)
+
+- **Institución:** Facultad de Ciencias Jurídicas y Sociales, Universidad Austral de Chile.
+- **Identificador OAI-PMH:** `https://revistaderechovaldivia.cl/index.php/revde/oai`
+- **ISSN:** 0718-0950 (versión en línea) / 0717-0599 (versión impresa)
+- **Cobertura:** 1 011 artículos normalizados en Markdown canónico (1990 – 2026), que representan 36 años ininterrumpidos de una de las revistas Scopus/SciELO de mayor tradición dogmática en el sur de Chile.
+- **Áreas temáticas:** Dogmática Civil y Teoría del Negocio Jurídico, Derecho de Contratos y Remedios Contractuales, Responsabilidad Civil Extracontractual y Médica, Derecho Penal Sustantivo (imputación objetiva, tipicidad, teoría de la pena), Derecho Procesal Orgánico y Garantías Constitucionales del Proceso, Derecho Administrativo Sancionador y Responsabilidad del Estado, Filosofía y Teoría del Derecho.
+
+### Publicación y Acceso
+- **Dataset:** [`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+- **Ruta de la colección:** `doctrina/revistas/rduach/`
+
+### Formato de Citación Estándar
+- **Cita doctrinal:** `[RDUACh - Vol. <Volumen> N° <Número> (<Año>), <Autor>, <Título>]`
+- **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rduach/<Año>/<archivo>.md]`
+
+---
+
+## 11. Revista de Estudios Histórico-Jurídicos (REHJ — Pontificia Universidad Católica de Valparaíso)
+
+- **Institución:** Escuela de Derecho, Pontificia Universidad Católica de Valparaíso.
+- **Identificador OAI-PMH:** `https://rehj.cl/index.php/rehj/oai`
+- **ISSN:** 0717-6260 (versión en línea) / 0716-5455 (versión impresa)
+- **Cobertura:** 950 artículos normalizados en Markdown canónico (1976 – 2025), medio siglo de historia del derecho chileno, derecho romano, derecho indiano y codificación civil fundado por el profesor Alejandro Guzmán Brito.
+- **Áreas temáticas:** Derecho Romano clásico, justinianeo y recepción medieval, Fuentes Romanas y Digesto, Historia del Derecho Indiano e Instituciones Coloniales, Historia del Derecho Patrio Chileno y Codificación Civil (influencia de Andrés Bello), Historia del Pensamiento Político y Jurídico Occidental, Derecho Canónico Histórico y Fuentes Eclesiásticas.
+
+### Publicación y Acceso
+- **Dataset:** [`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+- **Ruta de la colección:** `doctrina/revistas/rehj/`
+
+### Formato de Citación Estándar
+- **Cita doctrinal:** `[REHJ - N° <Número> (<Año>), <Autor>, <Título>]`
+- **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rehj/<Año>/<archivo>.md]`
+
+
 
 
 
