@@ -38,3 +38,21 @@ Conforme al protocolo de citas de Open Legal Chile:
 ### Formato de Citación Estándar
 - **Cita doctrinal:** `[RDPUCV - Núm. <Volumen> (<Año>), <Autor>, <Título>]`
 - **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rdpucv/<Año>/<archivo>.md]`
+
+---
+
+## 3. Revista Chilena de Derecho Privado (RChDP — Fundación Fernando Fueyo Laneri / UDP)
+
+- **Institución:** Fundación Fernando Fueyo Laneri, Facultad de Derecho, Universidad Diego Portales (UDP).
+- **Identificador OAI-PMH:** `oai:oai.rchdp.cl:article/...`
+- **ISSN:** 0718-8072 (versión en línea) / 0718-0233 (versión impresa)
+- **Cobertura:** 494 artículos normalizados en Markdown canónico (2003 – 2026), abarcando más de dos décadas de especialización en obligaciones, contratos, responsabilidad civil, derechos reales y consumo.
+- **Áreas temáticas:** Derecho Civil Patrimonial, Obligaciones y Contratos, Responsabilidad Civil, Derechos Reales y Bienes, Familia y Sucesiones, Derecho del Consumo, Derecho Comercial y Societario.
+
+### Publicación y Acceso
+- **Dataset:** [`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+- **Ruta de la colección:** `doctrina/revistas/rchdp/`
+
+### Formato de Citación Estándar
+- **Cita doctrinal:** `[RChDP - N° <Número> (<Año>), <Autor>, <Título>]`
+- **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rchdp/<Año>/<archivo>.md]`

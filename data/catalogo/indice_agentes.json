@@ -1,10 +1,10 @@
 {
   "dataset": "pablobenavidesj/doctrina-jurisprudencia-chile",
   "resumen": {
-    "documentos_doctrina": 3183,
+    "documentos_doctrina": 3677,
     "guias_academia_judicial": 24,
     "fichas": 17269,
-    "obras_indexadas": 3183,
+    "obras_indexadas": 3677,
     "registros_jurisprudencia": 74518,
     "nodos_grafo": 14050,
     "aristas_grafo": 31017
