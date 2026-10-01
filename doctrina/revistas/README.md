@@ -75,3 +75,22 @@ Conforme al protocolo de citas de Open Legal Chile:
 - **Cita doctrinal:** `[RChDCP - Vol. <Volumen> N° <Número> (<Año>), <Autor>, <Título>]`
 - **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rchdcp/<Año>/<archivo>.md]`
 
+---
+
+## 5. Revista Chilena de Derecho y Tecnología (RChDT — Universidad de Chile)
+
+- **Institución:** Centro de Estudios en Derecho, Tecnología y Sociedad (CEDI), Facultad de Derecho, Universidad de Chile.
+- **Identificador OAI-PMH:** `oai:ojs.pkp.sfu.ca:article/...`
+- **ISSN:** 0719-2584 (versión en línea) / 0719-2576 (versión impresa)
+- **Cobertura:** 232 artículos normalizados en Markdown canónico (2012 – 2026), cubriendo la totalidad de las ediciones publicadas desde su fundación en el Vol. 1 N° 1 (2012) hasta el presente.
+- **Áreas temáticas:** Derecho de la Inteligencia Artificial y Algoritmos, Protección de Datos Personales y Privacidad (Ley 19.628 / 21.719), Ciberseguridad y Delitos Informáticos (Ley 21.459), Propiedad Intelectual en Entornos Digitales, Software y Licencias Libres, Comercio Electrónico y Smart Contracts, Plataformas Digitales y Neutralidad de Red, Neuroderechos y Gobierno Digital.
+
+### Publicación y Acceso
+- **Dataset:** [`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+- **Ruta de la colección:** `doctrina/revistas/rchdt/`
+
+### Formato de Citación Estándar
+- **Cita doctrinal:** `[RChDT - Vol. <Volumen> N° <Número> (<Año>), <Autor>, <Título>]`
+- **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rchdt/<Año>/<archivo>.md]`
+
+
