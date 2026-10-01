@@ -1,6 +1,6 @@
 {
  "guias": 24,
- "claves_de_norma_en_el_corpus": 5926,
+ "claves_de_norma_en_el_corpus": 6020,
  "enlaces": {
   "Guia-aplicada-para-la-determinacion-de-penas": [
    {
@@ -123,6 +123,14 @@
   ],
   "Guia_Audiencia_Juicio_Oral_Laboral": [
    {
+    "archivo": "revistas/rchdt/2020/rchdt_2020_v9_n1_57339_a_proposito_del_covid_19_seria_recomendable_para_chile_la_me.md",
+    "peso": 0.25,
+    "claves": [
+     "LEY|19968",
+     "LEY|21226"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
     "peso": 0.214,
     "claves": [
@@ -141,6 +149,14 @@
     ]
    },
    {
+    "archivo": "revistas/rchdt/2019/rchdt_2019_v8_n1_51991_tribunales_civiles_en_linea_una_propuesta_para_introducirlos.md",
+    "peso": 0.2,
+    "claves": [
+     "LEY|19968",
+     "LEY|20886"
+    ]
+   },
+   {
     "archivo": "revistas/rchdp/2018/26_civil_justice_double_helix_towards_an_integral_system_of_con.md",
     "peso": 0.2,
     "claves": [
@@ -155,22 +171,6 @@
      "LEY|19968",
      "LEY|20886",
      "LEY|21226"
-    ]
-   },
-   {
-    "archivo": "revistas/rchdcp/2011/rchdcp_2011_v2_n2_1424_quality_of_family_mediation_tendered_surpassing_the_express_.md",
-    "peso": 0.182,
-    "claves": [
-     "LEY|19968",
-     "LEY|20"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2022/S0718-34372022000200163_concepto_fundamento_y_tiempo_de_la_litispendencia_en_el_proc.md",
-    "peso": 0.167,
-    "claves": [
-     "LEY|19968",
-     "LEY|20886"
     ]
    }
   ],
@@ -960,6 +960,14 @@
   ],
   "Guia_para_la_conduccion_de_la_audiencia_de_preparacion_de_juicio_oral_2025_v1": [
    {
+    "archivo": "revistas/rchdt/2022/rchdt_2022_v11_n2_63970_el_uso_de_videoconferencias_desconfianza_en_la_tecnologia_o_.md",
+    "peso": 0.067,
+    "claves": [
+     "LEY|21057",
+     "LEY|21394"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/2025/S0718-34372025000300006_videoconferencias_y_debido_proceso_repensando_las_audiencias.md",
     "peso": 0.062,
     "claves": [
@@ -994,15 +1002,6 @@
    {
     "archivo": "academia_judicial/MD58-Uso-de-la-fuerza-por-funcionarios-estatales_-Limites-y-excesos.md",
     "peso": 0.041,
-    "claves": [
-     "CPP|art_17",
-     "CPP|art_26",
-     "CPP|art_93"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD-59-USO-DE-LA-FUERZA.md",
-    "peso": 0.04,
     "claves": [
      "CPP|art_17",
      "CPP|art_26",

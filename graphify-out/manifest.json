@@ -552,9 +552,9 @@
     "semantic_hash": ""
   },
   "data/enlaces_guias_corpus.json": {
-    "mtime": 1790822589.5608869,
-    "seen": 1790822742.3517978,
-    "ast_hash": "ae5c0905c66ab6b06e94f1e368fd4a17",
+    "mtime": 1790825298.066036,
+    "seen": 1790825396.138022,
+    "ast_hash": "f186d20bb656d64ee2972a1bc9334aca",
     "semantic_hash": ""
   },
   "doc2md_ingestor.py": {
@@ -1002,9 +1002,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1790822695.844376,
-    "seen": 1790822742.3556921,
-    "ast_hash": "a6de88d8999f83827b82250b1d198ec6",
+    "mtime": 1790825355.4849272,
+    "seen": 1790825396.1417353,
+    "ast_hash": "7587afeee9fa8fd00568dee4c92ddfad",
     "semantic_hash": ""
   },
   "ROADMAP.md": {
@@ -1272,9 +1272,9 @@
     "semantic_hash": ""
   },
   "docs/index.html": {
-    "mtime": 1790822716.931489,
-    "seen": 1790822742.3565567,
-    "ast_hash": "5f4bd729634d2d31e225694b94744301",
+    "mtime": 1790825373.5198934,
+    "seen": 1790825396.1425755,
+    "ast_hash": "5b7dd247e9f30a497d128090c63c3f39",
     "semantic_hash": ""
   },
   "docs/integracion_graphify.md": {
@@ -2754,9 +2754,9 @@
     "semantic_hash": ""
   },
   "data/catalogo/indice_agentes.json": {
-    "mtime": 1790822561.7148273,
-    "seen": 1790822742.3517752,
-    "ast_hash": "0730fbf0b60a1c395f376d3efa09582d",
+    "mtime": 1790825268.964286,
+    "seen": 1790825396.1380024,
+    "ast_hash": "b8e97f32156d936c8e76ed01895bceb7",
     "semantic_hash": ""
   },
   "diagnostico.py": {
@@ -3324,9 +3324,9 @@
     "semantic_hash": ""
   },
   "llms.txt": {
-    "mtime": 1790822561.0372884,
-    "seen": 1790822742.3610747,
-    "ast_hash": "6209cda9712adfe395cafaa8b6b609ce",
+    "mtime": 1790825268.1955323,
+    "seen": 1790825396.1470556,
+    "ast_hash": "81370929c2308070aea4953c48daf5d4",
     "semantic_hash": ""
   },
   "publicaciones_ambientales/README.md": {
@@ -3402,9 +3402,9 @@
     "semantic_hash": ""
   },
   "doctrina/revistas/README.md": {
-    "mtime": 1790822662.0391972,
-    "seen": 1790822742.3610065,
-    "ast_hash": "0485b2beae03b6ecc9f9bb6f3a52ca7f",
+    "mtime": 1790825345.0755367,
+    "seen": 1790825396.1469905,
+    "ast_hash": "e7424cb558ac716dae14cdeb124294db",
     "semantic_hash": ""
   },
   "scripts/ingestar_ojs_rchd_historico.py": {
@@ -3423,6 +3423,12 @@
     "mtime": 1790822284.1003852,
     "seen": 1790822742.352924,
     "ast_hash": "5a8699d1a10498833d805183f5addd5f",
+    "semantic_hash": ""
+  },
+  "scripts/ingestar_rchdt_uchile.py": {
+    "mtime": 1790825132.4504046,
+    "seen": 1790825396.139097,
+    "ast_hash": "9222575779360d5e3d64fcef2ee91a03",
     "semantic_hash": ""
   }
 }
