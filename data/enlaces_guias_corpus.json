@@ -1,6 +1,6 @@
 {
  "guias": 24,
- "claves_de_norma_en_el_corpus": 5712,
+ "claves_de_norma_en_el_corpus": 5926,
  "enlaces": {
   "Guia-aplicada-para-la-determinacion-de-penas": [
    {
@@ -158,19 +158,19 @@
     ]
    },
    {
+    "archivo": "revistas/rchdcp/2011/rchdcp_2011_v2_n2_1424_quality_of_family_mediation_tendered_surpassing_the_express_.md",
+    "peso": 0.182,
+    "claves": [
+     "LEY|19968",
+     "LEY|20"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/2022/S0718-34372022000200163_concepto_fundamento_y_tiempo_de_la_litispendencia_en_el_proc.md",
     "peso": 0.167,
     "claves": [
      "LEY|19968",
      "LEY|20886"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2019/S0718-34372019000300717_la_motivacion_de_la_sentencia_en_el_procedimiento_monitorio_.md",
-    "peso": 0.125,
-    "claves": [
-     "LEY|19968",
-     "LEY|20"
     ]
    }
   ],
@@ -252,6 +252,20 @@
   ],
   "Guia_Etica_10jul_2026": [
    {
+    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1659_the_lawyer_has_to_act_in_a_righteous_way_did_i_read_properly.md",
+    "peso": 0.2,
+    "claves": [
+     "LEY|21675"
+    ]
+   },
+   {
+    "archivo": "revistas/rchdcp/2022/rchdcp_2022_v13_n2_1286_university_autonomy_in_chile_between_the_state_and_the_marke.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|20880"
+    ]
+   },
+   {
     "archivo": "administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md",
     "peso": 0.167,
     "claves": [
@@ -278,26 +292,25 @@
     "peso": 0.062,
     "claves": [
      "LEY|20880"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/07_DERECHO-PROCESAL_03.md",
-    "peso": 0.061,
-    "claves": [
-     "LEY|19346",
-     "LEY|20880"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2023/S0718-68512023000200005_liquidacion_de_empresas_viables_en_chile_reflexiones_en_torn.md",
-    "peso": 0.056,
-    "claves": [
-     "LEY|19346"
     ]
    }
   ],
   "Guia_Etica_24_sep_2026": [
    {
+    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1659_the_lawyer_has_to_act_in_a_righteous_way_did_i_read_properly.md",
+    "peso": 0.2,
+    "claves": [
+     "LEY|21675"
+    ]
+   },
+   {
+    "archivo": "revistas/rchdcp/2022/rchdcp_2022_v13_n2_1286_university_autonomy_in_chile_between_the_state_and_the_marke.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|20880"
+    ]
+   },
+   {
     "archivo": "administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md",
     "peso": 0.167,
     "claves": [
@@ -324,26 +337,25 @@
     "peso": 0.062,
     "claves": [
      "LEY|20880"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/07_DERECHO-PROCESAL_03.md",
-    "peso": 0.061,
-    "claves": [
-     "LEY|19346",
-     "LEY|20880"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2023/S0718-68512023000200005_liquidacion_de_empresas_viables_en_chile_reflexiones_en_torn.md",
-    "peso": 0.056,
-    "claves": [
-     "LEY|19346"
     ]
    }
   ],
   "Guia_Etica_7jul_2026": [
    {
+    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1659_the_lawyer_has_to_act_in_a_righteous_way_did_i_read_properly.md",
+    "peso": 0.2,
+    "claves": [
+     "LEY|21675"
+    ]
+   },
+   {
+    "archivo": "revistas/rchdcp/2022/rchdcp_2022_v13_n2_1286_university_autonomy_in_chile_between_the_state_and_the_marke.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|20880"
+    ]
+   },
+   {
     "archivo": "administrativo/bermudez_derecho_administrativo/01_bases_constitucionales_y_principios.md",
     "peso": 0.167,
     "claves": [
@@ -370,21 +382,6 @@
     "peso": 0.062,
     "claves": [
      "LEY|20880"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/07_DERECHO-PROCESAL_03.md",
-    "peso": 0.061,
-    "claves": [
-     "LEY|19346",
-     "LEY|20880"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2023/S0718-68512023000200005_liquidacion_de_empresas_viables_en_chile_reflexiones_en_torn.md",
-    "peso": 0.056,
-    "claves": [
-     "LEY|19346"
     ]
    }
   ],
@@ -744,6 +741,15 @@
     ]
    },
    {
+    "archivo": "revistas/rchdcp/2011/rchdcp_2011_v2_n2_1424_quality_of_family_mediation_tendered_surpassing_the_express_.md",
+    "peso": 0.15,
+    "claves": [
+     "LEY|19968",
+     "LEY|20",
+     "LEY|20286"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/2020/S0718-34372020000100101_problemas_relativos_a_la_prueba_en_cada_etapa_de_la_activida.md",
     "peso": 0.15,
     "claves": [
@@ -760,16 +766,6 @@
      "LEY|20066",
      "LEY|21057",
      "LEY|21302"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2023/S0718-68512023000100087_acreedores_involuntarios_en_el_derecho_concursal_reflexiones.md",
-    "peso": 0.133,
-    "claves": [
-     "LEY|19968",
-     "LEY|20",
-     "LEY|21",
-     "LEY|38"
     ]
    }
   ],
@@ -882,21 +878,21 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
-    "peso": 0.1,
+    "archivo": "revistas/rchdcp/2025/rchdcp_2025_v16_n1_1611_social_adequacy_and_private_corruption_applicability_of_the_.md",
+    "peso": 0.115,
     "claves": [
-     "LEY|18216",
-     "LEY|20000",
-     "LEY|20066"
+     "LEY|20393",
+     "LEY|21121",
+     "LEY|21595"
     ]
    },
    {
-    "archivo": "academia_judicial/03_Juzgados-de-Garantia-nociones-basicas-de-org.-y-funcionamiento.md",
-    "peso": 0.1,
+    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1750_supervision_de_la_persona_juridica_en_la_ley_de_delitos_econ.md",
+    "peso": 0.111,
     "claves": [
-     "LEY|18216",
-     "LEY|20000",
-     "LEY|20084"
+     "LEY|20393",
+     "LEY|21121",
+     "LEY|21595"
     ]
    }
   ],
@@ -933,6 +929,16 @@
     ]
    },
    {
+    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1637_legal_treatment_of_parenthood_for_persons_with_disabilities_.md",
+    "peso": 0.114,
+    "claves": [
+     "LEY|14908",
+     "LEY|19968",
+     "LEY|21302",
+     "LEY|21430"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/2023/S0718-34372023000200003_el_interes_del_demandado_en_su_defensa_en_la_etapa_de_discus.md",
     "peso": 0.103,
     "claves": [
@@ -949,15 +955,6 @@
      "LEY|19968",
      "LEY|21057",
      "LEY|21430"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2023/S0718-68512023000100087_acreedores_involuntarios_en_el_derecho_concursal_reflexiones.md",
-    "peso": 0.088,
-    "claves": [
-     "LEY|14908",
-     "LEY|19968",
-     "LEY|21"
     ]
    }
   ],
@@ -1103,6 +1100,16 @@
     ]
    },
    {
+    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1637_legal_treatment_of_parenthood_for_persons_with_disabilities_.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|16618",
+     "LEY|19968",
+     "LEY|21302",
+     "LEY|21430"
+    ]
+   },
+   {
     "archivo": "revistas/rchdp/2019/434_nature_and_requirements_of_the_provisory_personal_care_in_ju.md",
     "peso": 0.167,
     "claves": [
@@ -1122,21 +1129,11 @@
     ]
    },
    {
-    "archivo": "revistas/rdpucv/2007/S0718-68512007000100007_una_mirada_critica_a_la_regulacion_de_las_medidas_de_segurid.md",
-    "peso": 0.133,
-    "claves": [
-     "LEY|16618",
-     "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2025/S0718-34372025000100035_el_derecho_a_la_propia_imagen_del_paciente_en_el_sistema_jur.md",
-    "peso": 0.125,
+    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1702_neurotechnologies_in_court_proceedings_a_qualitative_study_o.md",
+    "peso": 0.143,
     "claves": [
      "LEY|19",
-     "LEY|19968",
-     "LEY|21",
-     "LEY|21430"
+     "LEY|19968"
     ]
    }
   ],
@@ -1249,6 +1246,18 @@
   ],
   "guia_para_la_conduccion_de_las_audiencias_de_familia_preparatoria_reservada_conciliacion_y": [
    {
+    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1637_legal_treatment_of_parenthood_for_persons_with_disabilities_.md",
+    "peso": 0.226,
+    "claves": [
+     "LEY|14908",
+     "LEY|16618",
+     "LEY|19620",
+     "LEY|19947",
+     "LEY|19968",
+     "LEY|21302"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
     "peso": 0.16,
     "claves": [
@@ -1298,18 +1307,6 @@
      "LEY|19947",
      "LEY|19968",
      "LEY|20066"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/10_Habilitante-Familia.md",
-    "peso": 0.143,
-    "claves": [
-     "CPP|art_47",
-     "LEY|14908",
-     "LEY|16618",
-     "LEY|19620",
-     "LEY|19947",
-     "LEY|19968"
     ]
    }
   ]
