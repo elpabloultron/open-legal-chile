@@ -29,6 +29,7 @@ import defusedxml.ElementTree as ET
 
 ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
 sys.path.insert(0, str(ROOT_DIR))
+from config import safe_urlopen
 from online_library_sync import resolver_token_hf
 
 DATA_DIR = ROOT_DIR / "data" / "rchdp"
@@ -180,7 +181,7 @@ def cosechar_articulos_oai() -> List[Dict[str, Any]]:
     while url:
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with safe_urlopen(req, timeout=30) as resp:
                 xml_data = resp.read()
             root = ET.fromstring(xml_data)
 
@@ -313,7 +314,7 @@ def procesar_articulo(art: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if pdf_url:
         try:
             req = urllib.request.Request(pdf_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with safe_urlopen(req, timeout=30) as resp:
                 pdf_bytes = resp.read()
             if len(pdf_bytes) > 1000 and pdf_bytes.startswith(b"%PDF"):
                 with tempfile.NamedTemporaryFile(suffix=".pdf") as tf:
