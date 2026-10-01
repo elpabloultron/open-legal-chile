@@ -1,6 +1,6 @@
 {
  "guias": 24,
- "claves_de_norma_en_el_corpus": 5042,
+ "claves_de_norma_en_el_corpus": 5508,
  "enlaces": {
   "Guia-aplicada-para-la-determinacion-de-penas": [
    {
@@ -78,6 +78,21 @@
   ],
   "Guia_Audiencia_Conciliacion_Laboral_v2.1": [
    {
+    "archivo": "revistas/rchd/2004/73485_el_cambio_de_la_jurisprudencia_y_los_instrumentos_procesales.md",
+    "peso": 0.25,
+    "claves": [
+     "LEY|16744"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/1999/77186_del_dano_por_repercusion_o_rebote.md",
+    "peso": 0.222,
+    "claves": [
+     "LEY|14908",
+     "LEY|16744"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2019/S0718-68512019000200277_demanda_por_distintos_danos_morales_de_la_teoria_a_la_motiva.md",
     "peso": 0.2,
     "claves": [
@@ -101,20 +116,6 @@
    {
     "archivo": "revistas/rdpucv/2012/S0718-68512012000200006_evolucion_del_dano_moral_por_termino_del_contrato_de_trabajo.md",
     "peso": 0.167,
-    "claves": [
-     "LEY|16744"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/1989/239_la_prticipacion_de_los_trabajadores_en_la_empresa_segun_el_ordenamiento_legal_ch.md",
-    "peso": 0.167,
-    "claves": [
-     "LEY|16744"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2016/S0718-68512016000200011_nuevos_riesgos_laborales_la_tutela_de_los_trabajadores_agrar.md",
-    "peso": 0.143,
     "claves": [
      "LEY|16744"
     ]
@@ -212,6 +213,20 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/1994/77900_outsourcing_y_subcontratacion.md",
+    "peso": 0.083,
+    "claves": [
+     "CT|art_4"
+    ]
+   },
+   {
+    "archivo": "revistas/rchd/1979/79470_reflexiones_sobre_la_nueva_institucionalidad.md",
+    "peso": 0.062,
+    "claves": [
+     "LEY|18880"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD39-Acoso-sexual-acoso-moral-y-discriminacion-en-contexto-laboral.md",
     "peso": 0.056,
     "claves": [
@@ -232,21 +247,6 @@
     "peso": 0.056,
     "claves": [
      "LEY|18880"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD-39-ACOSO-SEXUAL-ACOSO-MORAL-Y-DISCRIMINACION.md",
-    "peso": 0.054,
-    "claves": [
-     "CT|art_486",
-     "CT|art_489"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2010/S0718-34372010000100005_las_medidas_conservativas_como_parte_integrante_de_la_estruc.md",
-    "peso": 0.053,
-    "claves": [
-     "CPC|art_453"
     ]
    }
   ],
@@ -1155,6 +1155,13 @@
     ]
    },
    {
+    "archivo": "revistas/rchd/1998/77406_deber_de_informacion_y_de_informarse_ante_el_seguro_de_desgr.md",
+    "peso": 0.5,
+    "claves": [
+     "LEY|19496"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2021/S0718-68512021000100004_la_legitimacion_activa_en_procesos_correctivos_y_sancionator.md",
     "peso": 0.25,
     "claves": [
@@ -1170,13 +1177,6 @@
    },
    {
     "archivo": "revistas/rchd/2023/S0718-34372023000100005_problemas_fundamentales_para_la_delimitacion_de_la_8220_situ.md",
-    "peso": 0.25,
-    "claves": [
-     "LEY|19496"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2018/S0718-34372018000200275_el_dano_moral_en_materia_contractual_la_mirada_de_la_corte_s.md",
     "peso": 0.25,
     "claves": [
      "LEY|19496"

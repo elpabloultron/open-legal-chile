@@ -8,9 +8,8 @@ Este directorio alberga las colecciones periódicas y revistas jurídicas indexa
 
 - **Institución:** Facultad de Derecho, Pontificia Universidad Católica de Chile (UC).
 - **Identificador SciELO:** `S0718-3437...`
-- **ISSN:** 0718-3437 (versión en línea) / 0716-0747 (versión impresa)
-- **Cobertura:** 860 artículos normalizados en Markdown canónico (2006 – 2026), cubriendo dos décadas ininterrumpidas de la doctrina más prestigiosa del país.
-- **Áreas temáticas:** Derecho Civil, Derecho Constitucional, Derecho Administrativo, Derecho Penal, Derecho Procesal, Derecho Comercial, Derecho Laboral y Derecho Ambiental.
+- **Cobertura:** 2 086 artículos normalizados en Markdown canónico (1974 – 2026), cubriendo más de cinco décadas ininterrumpidas de la doctrina más prestigiosa del país, desde su fundación en el Vol. 1 N° 1 (1974) hasta el presente.
+- **Áreas temáticas:** Derecho Civil, Derecho Constitucional, Derecho Administrativo, Derecho Penal, Derecho Procesal, Derecho Comercial, Derecho Laboral, Filosofía e Historia del Derecho y Derecho Ambiental.
 
 ### Publicación y Acceso
 Los textos íntegros en Markdown y metadatos estructurados se encuentran alojados y sincronizados públicamente en el repositorio de **Hugging Face Hub**:
