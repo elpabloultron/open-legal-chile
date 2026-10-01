@@ -93,4 +93,23 @@ Conforme al protocolo de citas de Open Legal Chile:
 - **Cita doctrinal:** `[RChDT - Vol. <Volumen> N° <Número> (<Año>), <Autor>, <Título>]`
 - **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rchdt/<Año>/<archivo>.md]`
 
+---
+
+## 6. Revista Derecho, Ambiente y Cambio Climático (DACC — Universidad de Concepción)
+
+- **Institución:** Facultad de Ciencias Jurídicas y Sociales, Universidad de Concepción (UdeC).
+- **Identificador OAI-PMH:** `oai:ojs3.152.74.17.22:article/...`
+- **ISSN:** 3087-2715 (versión en línea) / 3087-2642 (versión impresa)
+- **Cobertura:** 21 artículos normalizados en Markdown canónico (2025 – 2026), cubriendo la totalidad de los números publicados desde su fundación (Núm. 1, Núm. 2 y Núm. 3).
+- **Áreas temáticas:** Sistema de Evaluación de Impacto Ambiental (SEIA), Resoluciones de Calificación Ambiental (RCA) y caducidad, Daño Ambiental y Tribunales Ambientales, Ley Marco de Cambio Climático (Ley 21.455) y litigación climática, Código de Aguas y patentes por no uso, Consulta Indígena y Ley Lafkenche (Ley 20.249), Delitos Ambientales bajo la Ley 21.595 de Delitos Económicos y Ambientales.
+
+### Publicación y Acceso
+- **Dataset:** [`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+- **Ruta de la colección:** `doctrina/revistas/dacc/`
+
+### Formato de Citación Estándar
+- **Cita doctrinal:** `[DACC - Núm. <Número> (<Año>), <Autor>, <Título>]`
+- **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/dacc/<Año>/<archivo>.md]`
+
+
 
