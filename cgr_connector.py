@@ -7,6 +7,7 @@ Instructivos y Auditorías vinculantes de la Contraloría General de la Repúbli
 import os
 import sys
 import json
+import re
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
@@ -17,6 +18,55 @@ CACHE_DIR = os.path.join(os.path.dirname(__file__), "cgr_cache")
 _TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60  # la jurisprudencia de la CGR cambia lento: un mes
 
 
+def _normalizar_hit(item: Dict[str, Any]) -> Dict[str, Any]:
+    """Traduce un registro crudo del indice de la CGR al formato citable de la suite."""
+    src = item.get("_source", {})
+    # doc_id ("E311060N23") es el identificador citable: incluye el anio.
+    # numeric_doc_id ("E311060") lo omite y no sirve para citar.
+    # En auditorias el identificador citable es "número" ("460/2026"); numeric_doc_id
+    # trae solo el correlativo ("460") y pierde el anio.
+    doc_id = (src.get("doc_id") or src.get("número") or src.get("numero")
+              or src.get("numeric_doc_id") or item.get("_id"))
+    fecha = src.get("fecha_documento") or src.get("fecha_promulgación") or src.get("fecha") or ""
+    fecha = fecha[:10] if len(fecha) >= 10 else fecha
+    nombre = src.get("nombre") or src.get("title") or src.get("titulo") or ""
+    conclusiones = src.get("conclusiones") or ""
+    objetivo = src.get("objetivo") or ""
+    # El texto integro viaja en documento_completo dentro de la propia respuesta
+    # de busqueda: no hace falta un segundo viaje al lector HTML del portal.
+    texto = (src.get("documento_completo") or src.get("texto_completo") or src.get("texto")
+             or src.get("resumen") or conclusiones or objetivo or "")
+    organismo = (src.get("destinatarios") or src.get("organismo")
+                 or src.get("organismos_destinatarios") or src.get("servicio_") or "")
+    tipo = src.get("_tipo") or "dictamenes"
+    # Procedencia citable. Ademas, los dictamenes anteriores a 2000 no traen
+    # documento_completo en el indice pero si se leen en esta URL.
+    url_html = f"https://www.contraloria.cl/pdfbuscador/{tipo}/{doc_id}/html"
+    pdf_url = src.get("pdf") or ""
+    if pdf_url and not pdf_url.startswith("http"):
+        pdf_url = f"https://www.contraloria.cl{pdf_url}"
+
+    def _txt(valor: Any) -> str:
+        return valor.strip() if isinstance(valor, str) else ""
+
+    return {
+        "docId": str(doc_id),
+        "numero": _txt(src.get("n_dictamen") or src.get("número") or src.get("numeric_doc_id") or ""),
+        "anio": str(src.get("year_doc_id") or fecha[:4]),
+        "nombre": _txt(nombre),
+        "fecha": fecha,
+        "materia": _txt(src.get("materia") or src.get("resena") or src.get("descriptores") or nombre),
+        "descriptores": _txt(src.get("descriptores")),
+        "fuentesLegales": _txt(src.get("fuentes_legales")),
+        "objetivo": _txt(objetivo),
+        "conclusiones": _txt(conclusiones),
+        "organismo": _txt(organismo),
+        "texto": _txt(texto),
+        "pdfUrl": pdf_url,
+        "urlHtml": url_html,
+    }
+
+
 class CGRClient:
     def __init__(self, cache_dir: str = CACHE_DIR):
         self.cache_dir = cache_dir
@@ -25,8 +75,13 @@ class CGRClient:
     def _get_cache_path(self, key: str) -> str:
         return os.path.join(self.cache_dir, f"{key}.json")
 
-    def search_jurisprudencia(self, query: str, source: str = "dictamenes", page: int = 1, exact: bool = False, use_cache: bool = True) -> Dict[str, Any]:
-        """Busca en el Sistema de Jurisprudencia de la Contraloría General de la República."""
+    def search_jurisprudencia(self, query: str, source: str = "dictamenes", page: int = 0, exact: bool = False, use_cache: bool = True) -> Dict[str, Any]:
+        """Busca en el Sistema de Jurisprudencia de la Contraloría General de la República.
+
+        La API de la CGR es 0-indexada y entrega 20 documentos por página:
+        ``page=1`` devuelve la SEGUNDA página, y por eso una consulta acotada
+        respondía ``total`` mayor que cero con ``resultados`` vacío.
+        """
         clean_q = query.strip().replace(" ", "_").lower()
         cache_key = f"{source}_{clean_q}_p{page}"
         cache_file = self._get_cache_path(cache_key)
@@ -73,30 +128,7 @@ class CGRClient:
         total_count = total_val.get("value", 0) if isinstance(total_val, dict) else total_val
         raw_items = hits.get("hits", [])
 
-        clean_results = []
-        for item in raw_items:
-            src = item.get("_source", {})
-            doc_id = src.get("numeric_doc_id") or src.get("doc_id") or src.get("número") or src.get("numero") or item.get("_id")
-            fecha = src.get("fecha_documento") or src.get("fecha") or ""
-            nombre = src.get("nombre") or src.get("title") or src.get("titulo") or ""
-            materia = src.get("materia") or src.get("resena") or src.get("descriptores") or nombre or ""
-            objetivo = src.get("objetivo") or ""
-            conclusiones = src.get("conclusiones") or ""
-            texto = src.get("texto_completo") or src.get("texto") or src.get("resumen") or conclusiones or objetivo or ""
-            organismo = src.get("organismo") or src.get("organismos_destinatarios") or src.get("servicio_") or ""
-            pdf_url = src.get("pdf") or ""
-
-            clean_results.append({
-                "docId": str(doc_id),
-                "nombre": nombre.strip(),
-                "fecha": fecha[:10] if len(fecha) >= 10 else fecha,
-                "materia": materia.strip(),
-                "objetivo": objetivo.strip() if isinstance(objetivo, str) else "",
-                "conclusiones": conclusiones.strip() if isinstance(conclusiones, str) else "",
-                "organismo": organismo if isinstance(organismo, str) else "",
-                "texto": texto.strip() if isinstance(texto, str) else "",
-                "pdfUrl": pdf_url if pdf_url.startswith("http") else (f"https://www.contraloria.cl{pdf_url}" if pdf_url else "")
-            })
+        clean_results = [_normalizar_hit(item) for item in raw_items]
 
         output_data = {
             "query": query,
@@ -112,21 +144,38 @@ class CGRClient:
         return output_data
 
     def get_dictamen(self, doc_id: str) -> Dict[str, Any]:
-        """Obtiene el texto completo de un dictamen específico por su número/código oficial."""
-        res = self.search_jurisprudencia(doc_id, source="dictamenes", exact=True)
-        if res.get("resultados"):
-            return res["resultados"][0]
-        # Búsqueda abierta si no es exacto
-        res = self.search_jurisprudencia(doc_id, source="dictamenes", exact=False)
-        if res.get("resultados"):
-            return res["resultados"][0]
-        return {"error": f"Dictamen {doc_id} no encontrado en la base de la CGR."}
+        """Obtiene un dictamen por su código oficial, validando el identificador.
 
-    def search_instructivos(self, query: str, page: int = 1) -> Dict[str, Any]:
+        ``exact_search`` de la CGR no filtra: solo estrecha el análisis del texto.
+        Quedarse con ``resultados[0]`` devolvía otro dictamen (pedir E311060N23
+        entregaba 0E6541N25). Ante duda se retorna error con los candidatos:
+        una cita falsa es peor que una búsqueda sin resultado.
+        """
+        buscado = doc_id.strip().upper().replace(" ", "")
+        candidatos: List[Dict[str, Any]] = []
+        for exact in (True, False):
+            res = self.search_jurisprudencia(buscado, source="dictamenes", exact=exact)
+            for item in res.get("resultados", []):
+                if item["docId"].upper() == buscado or item.get("numero", "").upper() == buscado:
+                    return item
+                candidatos.append(item)
+            # Fallback: <NUMERO>N<AA>, comparando número y año por separado.
+            m = re.match(r"^(\d*[A-Z]?\d+)[N/-](\d{2,4})$", buscado)
+            if m:
+                numero, anio = m.group(1).lstrip("0"), m.group(2)[-2:]
+                for item in res.get("resultados", []):
+                    if item.get("numero", "").upper().lstrip("0") == numero and item.get("anio", "")[-2:] == anio:
+                        return item
+        return {
+            "error": f"Dictamen {doc_id} no encontrado con identificador exacto en la base de la CGR.",
+            "candidatos": [c["docId"] for c in candidatos[:5]],
+        }
+
+    def search_instructivos(self, query: str, page: int = 0) -> Dict[str, Any]:
         """Busca en los Instructivos y Circulares generales de la CGR."""
         return self.search_jurisprudencia(query, source="instructivos", page=page)
 
-    def search_auditorias(self, query: str, page: int = 1) -> Dict[str, Any]:
+    def search_auditorias(self, query: str, page: int = 0) -> Dict[str, Any]:
         """Busca en los Informes Finales de Auditoría de la CGR."""
         return self.search_jurisprudencia(query, source="auditoria", page=page)
 
