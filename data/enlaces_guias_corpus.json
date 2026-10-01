@@ -1,6 +1,6 @@
 {
  "guias": 24,
- "claves_de_norma_en_el_corpus": 6025,
+ "claves_de_norma_en_el_corpus": 6142,
  "enlaces": {
   "Guia-aplicada-para-la-determinacion-de-penas": [
    {
@@ -78,6 +78,13 @@
   ],
   "Guia_Audiencia_Conciliacion_Laboral_v2.1": [
    {
+    "archivo": "revistas/rdudec/2017/rdudec_2017_v85_n241_742_por_la_transmisibilidad_de_la_accion_a_favor_de_los_heredero.md",
+    "peso": 0.25,
+    "claves": [
+     "LEY|16744"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/2004/73485_el_cambio_de_la_jurisprudencia_y_los_instrumentos_procesales.md",
     "peso": 0.25,
     "claves": [
@@ -93,6 +100,13 @@
     ]
    },
    {
+    "archivo": "revistas/rdudec/2021/rdudec_2021_v89_n250_3243_el_deber_de_obediencia_del_trabajador_dependiente_presupuest.md",
+    "peso": 0.2,
+    "claves": [
+     "LEY|16744"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2019/S0718-68512019000200277_demanda_por_distintos_danos_morales_de_la_teoria_a_la_motiva.md",
     "peso": 0.2,
     "claves": [
@@ -102,20 +116,6 @@
    {
     "archivo": "revistas/rdpucv/1984/134_algunos_comentarios_sobre_problemas_juridicos_puntuales_suscitados_en_la_aplicac.md",
     "peso": 0.2,
-    "claves": [
-     "LEY|16744"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2022/S0718-34372022000100155_comentario_de_jurisprudencia_del_despido_de_un_trabajador_po.md",
-    "peso": 0.2,
-    "claves": [
-     "LEY|16744"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2012/S0718-68512012000200006_evolucion_del_dano_moral_por_termino_del_contrato_de_trabajo.md",
-    "peso": 0.167,
     "claves": [
      "LEY|16744"
     ]
@@ -176,8 +176,22 @@
   ],
   "Guia_Audiencia_Monitoria-v1": [
    {
+    "archivo": "revistas/rdudec/2021/rdudec_2021_v89_n250_4634_preguntas_no_admitidas_en_el_interrogatorio_laboral_de_testi.md",
+    "peso": 0.333,
+    "claves": [
+     "CT|art_454"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/2026/S0718-34372026000100002_la_prueba_en_las_investigaciones_por_acoso_y_violencia_en_el.md",
     "peso": 0.091,
+    "claves": [
+     "CT|art_454"
+    ]
+   },
+   {
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_22344_el_derecho_de_defensa_de_la_persona_trabajadora_denunciada_e.md",
+    "peso": 0.083,
     "claves": [
      "CT|art_454"
     ]
@@ -259,6 +273,13 @@
     ]
    },
    {
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_21336_el_consentimiento_sexual_una_primera_cartografia_de_problema.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|21675"
+    ]
+   },
+   {
     "archivo": "revistas/rchdcp/2022/rchdcp_2022_v13_n2_1286_university_autonomy_in_chile_between_the_state_and_the_marke.md",
     "peso": 0.167,
     "claves": [
@@ -273,25 +294,17 @@
     ]
    },
    {
-    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
-    "peso": 0.091,
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_22172_violencia_vicaria_encuadre_conceptual_alcance_y_respuestas_j.md",
+    "peso": 0.125,
     "claves": [
      "LEY|21675"
     ]
    },
    {
-    "archivo": "academia_judicial/Derecho-procesal-organico-y-funcional.md",
-    "peso": 0.074,
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_20460_irrelevancia_del_actuar_pasional_en_la_imputacion_y_en_la_de.md",
+    "peso": 0.111,
     "claves": [
-     "LEY|19346",
-     "LEY|20880"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/12_Gobierno-Judicial.md",
-    "peso": 0.062,
-    "claves": [
-     "LEY|20880"
+     "LEY|21675"
     ]
    }
   ],
@@ -304,6 +317,13 @@
     ]
    },
    {
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_21336_el_consentimiento_sexual_una_primera_cartografia_de_problema.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|21675"
+    ]
+   },
+   {
     "archivo": "revistas/rchdcp/2022/rchdcp_2022_v13_n2_1286_university_autonomy_in_chile_between_the_state_and_the_marke.md",
     "peso": 0.167,
     "claves": [
@@ -318,25 +338,17 @@
     ]
    },
    {
-    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
-    "peso": 0.091,
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_22172_violencia_vicaria_encuadre_conceptual_alcance_y_respuestas_j.md",
+    "peso": 0.125,
     "claves": [
      "LEY|21675"
     ]
    },
    {
-    "archivo": "academia_judicial/Derecho-procesal-organico-y-funcional.md",
-    "peso": 0.074,
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_20460_irrelevancia_del_actuar_pasional_en_la_imputacion_y_en_la_de.md",
+    "peso": 0.111,
     "claves": [
-     "LEY|19346",
-     "LEY|20880"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/12_Gobierno-Judicial.md",
-    "peso": 0.062,
-    "claves": [
-     "LEY|20880"
+     "LEY|21675"
     ]
    }
   ],
@@ -349,6 +361,13 @@
     ]
    },
    {
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_21336_el_consentimiento_sexual_una_primera_cartografia_de_problema.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|21675"
+    ]
+   },
+   {
     "archivo": "revistas/rchdcp/2022/rchdcp_2022_v13_n2_1286_university_autonomy_in_chile_between_the_state_and_the_marke.md",
     "peso": 0.167,
     "claves": [
@@ -363,25 +382,17 @@
     ]
    },
    {
-    "archivo": "revistas/rchd/2024/S0718-34372024000300006_la_nueva_regulacion_del_quebrantamiento_de_condena_de_adoles.md",
-    "peso": 0.091,
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_22172_violencia_vicaria_encuadre_conceptual_alcance_y_respuestas_j.md",
+    "peso": 0.125,
     "claves": [
      "LEY|21675"
     ]
    },
    {
-    "archivo": "academia_judicial/Derecho-procesal-organico-y-funcional.md",
-    "peso": 0.074,
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_20460_irrelevancia_del_actuar_pasional_en_la_imputacion_y_en_la_de.md",
+    "peso": 0.111,
     "claves": [
-     "LEY|19346",
-     "LEY|20880"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/12_Gobierno-Judicial.md",
-    "peso": 0.062,
-    "claves": [
-     "LEY|20880"
+     "LEY|21675"
     ]
    }
   ],
@@ -490,19 +501,19 @@
     ]
    },
    {
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_19729_caracter_mixto_de_la_destinacion_a_un_tratamiento_medico_en_.md",
+    "peso": 0.061,
+    "claves": [
+     "LEY|20000",
+     "LEY|21240"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/2023/S0718-34372023000200004_el_hurto_famelico_en_las_decisiones_de_los_tribunales_penale.md",
     "peso": 0.061,
     "claves": [
      "CPP|art_391",
      "CP|art_1"
-    ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2015/S0718-68512015000200005_autoria_y_participacion_en_el_delito_de_produccion_de_materi.md",
-    "peso": 0.057,
-    "claves": [
-     "CP|art_1",
-     "LEY|20084"
     ]
    }
   ],
@@ -559,15 +570,12 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD44-Principales-figuras-penales-de-la-Ley-20.000.md",
-    "peso": 0.069,
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_20312_dotando_de_sentido_al_femicidio_por_razones_de_genero.md",
+    "peso": 0.07,
     "claves": [
-     "CPP|art_4",
-     "CPP|art_8",
-     "CPP|art_9",
-     "CP|art_17",
-     "CP|art_4",
-     "LEY|18216"
+     "LEY|18216",
+     "LEY|20066",
+     "LEY|21"
     ]
    }
   ],
@@ -741,6 +749,15 @@
     ]
    },
    {
+    "archivo": "revistas/rdudec/2022/rdudec_2022_v90_n251_2420_la_internacion_proteccional_de_ninos_en_el_derecho_internaci.md",
+    "peso": 0.15,
+    "claves": [
+     "LEY|19968",
+     "LEY|21302",
+     "LEY|21430"
+    ]
+   },
+   {
     "archivo": "revistas/rchdcp/2011/rchdcp_2011_v2_n2_1424_quality_of_family_mediation_tendered_surpassing_the_express_.md",
     "peso": 0.15,
     "claves": [
@@ -756,16 +773,6 @@
      "LEY|19968",
      "LEY|20066",
      "LEY|21120"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD-43-VICTIMAS-TESTIGOS-Y-PERITOS.md",
-    "peso": 0.148,
-    "claves": [
-     "LEY|20000",
-     "LEY|20066",
-     "LEY|21057",
-     "LEY|21302"
     ]
    }
   ],
@@ -848,6 +855,27 @@
     ]
    },
    {
+    "archivo": "revistas/rdudec/2019/rdudec_2019_v87_n246_1399_los_efectos_de_la_media_prescripcion_penal.md",
+    "peso": 0.161,
+    "claves": [
+     "CP|art_21",
+     "LEY|17727",
+     "LEY|17798",
+     "LEY|18290",
+     "LEY|20931"
+    ]
+   },
+   {
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_20320_justicia_restaurativa_entre_italia_y_chile_que_respuestas_pa.md",
+    "peso": 0.154,
+    "claves": [
+     "LEY|20084",
+     "LEY|20393",
+     "LEY|21527",
+     "LEY|21595"
+    ]
+   },
+   {
     "archivo": "revistas/rdpucv/2018/S0718-68512018000200035_facultades_autonomas_de_la_policia_en_el_sistema_procesal_pe.md",
     "peso": 0.147,
     "claves": [
@@ -876,24 +904,6 @@
      "LEY|18290",
      "LEY|20084"
     ]
-   },
-   {
-    "archivo": "revistas/rchdcp/2025/rchdcp_2025_v16_n1_1611_social_adequacy_and_private_corruption_applicability_of_the_.md",
-    "peso": 0.115,
-    "claves": [
-     "LEY|20393",
-     "LEY|21121",
-     "LEY|21595"
-    ]
-   },
-   {
-    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1750_supervision_de_la_persona_juridica_en_la_ley_de_delitos_econ.md",
-    "peso": 0.111,
-    "claves": [
-     "LEY|20393",
-     "LEY|21121",
-     "LEY|21595"
-    ]
    }
   ],
   "Guia_para_la_conduccion_de_audiencias_temas_transversales_abr1": [
@@ -915,6 +925,15 @@
      "LEY|19968",
      "LEY|2",
      "LEY|21057",
+     "LEY|21302",
+     "LEY|21430"
+    ]
+   },
+   {
+    "archivo": "revistas/rdudec/2022/rdudec_2022_v90_n251_2420_la_internacion_proteccional_de_ninos_en_el_derecho_internaci.md",
+    "peso": 0.13,
+    "claves": [
+     "LEY|19968",
      "LEY|21302",
      "LEY|21430"
     ]
@@ -945,16 +964,6 @@
      "LEY|18120",
      "LEY|19968",
      "LEY|21394"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/06_Convencion-de-los-DD-de-NNA-en-el-contexto-judicial.md",
-    "peso": 0.1,
-    "claves": [
-     "LEY|14908",
-     "LEY|19968",
-     "LEY|21057",
-     "LEY|21430"
     ]
    }
   ],
@@ -1079,6 +1088,16 @@
   ],
   "Guia_procedimiento_de_proteccion_30525": [
    {
+    "archivo": "revistas/rdudec/2022/rdudec_2022_v90_n251_2420_la_internacion_proteccional_de_ninos_en_el_derecho_internaci.md",
+    "peso": 0.364,
+    "claves": [
+     "LEY|16618",
+     "LEY|19968",
+     "LEY|21302",
+     "LEY|21430"
+    ]
+   },
+   {
     "archivo": "academia_judicial/MD55-Ley-21.302_-Cambios-y-desafios-del-nuevo-sistema-proteccional.md",
     "peso": 0.267,
     "claves": [
@@ -1099,6 +1118,14 @@
     ]
    },
    {
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_22466_lineas_jurisprudenciales_de_la_corte_suprema_en_materias_de_.md",
+    "peso": 0.182,
+    "claves": [
+     "LEY|19968",
+     "LEY|21430"
+    ]
+   },
+   {
     "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1637_legal_treatment_of_parenthood_for_persons_with_disabilities_.md",
     "peso": 0.167,
     "claves": [
@@ -1113,24 +1140,6 @@
     "peso": 0.167,
     "claves": [
      "LEY|16618",
-     "LEY|19",
-     "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/01_Tribunales-de-Familia-nociones-basicas-de-org-y-funcionamiento.md",
-    "peso": 0.143,
-    "claves": [
-     "CPC|art_23",
-     "LEY|16618",
-     "LEY|19968",
-     "LEY|21430"
-    ]
-   },
-   {
-    "archivo": "revistas/rchdcp/2026/rchdcp_2026_v17_n1_1702_neurotechnologies_in_court_proceedings_a_qualitative_study_o.md",
-    "peso": 0.143,
-    "claves": [
      "LEY|19",
      "LEY|19968"
     ]
@@ -1233,13 +1242,13 @@
     ]
    },
    {
-    "archivo": "revistas/rchd/2020/S0718-34372020000200513_fundamento_politico_criminal_y_naturaleza_juridica_de_las_pe.md",
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n257_20312_dotando_de_sentido_al_femicidio_por_razones_de_genero.md",
     "peso": 0.121,
     "claves": [
-     "LEY|17798",
      "LEY|18216",
-     "LEY|18290",
-     "LEY|19970"
+     "LEY|20066",
+     "LEY|21523",
+     "LEY|21675"
     ]
    }
   ],
@@ -1254,6 +1263,16 @@
      "LEY|19947",
      "LEY|19968",
      "LEY|21302"
+    ]
+   },
+   {
+    "archivo": "revistas/rdudec/2022/rdudec_2022_v90_n251_2420_la_internacion_proteccional_de_ninos_en_el_derecho_internaci.md",
+    "peso": 0.19,
+    "claves": [
+     "LEY|16618",
+     "LEY|19968",
+     "LEY|21302",
+     "LEY|21430"
     ]
    },
    {
@@ -1289,23 +1308,12 @@
     ]
    },
    {
-    "archivo": "revistas/rchdp/2014/146_childs_and_teenagers_rights_special_protection_in_chilean_la.md",
-    "peso": 0.148,
+    "archivo": "revistas/rdudec/2025/rdudec_2025_v93_n258_22466_lineas_jurisprudenciales_de_la_corte_suprema_en_materias_de_.md",
+    "peso": 0.15,
     "claves": [
-     "LEY|1",
-     "LEY|14908",
-     "LEY|16618",
-     "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "revistas/rchdp/2013/179_economic_nature_compensation_based_on_equity_or_attribution_.md",
-    "peso": 0.148,
-    "claves": [
-     "LEY|14908",
      "LEY|19947",
      "LEY|19968",
-     "LEY|20066"
+     "LEY|21430"
     ]
    }
   ]
