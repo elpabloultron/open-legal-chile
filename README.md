@@ -194,14 +194,14 @@ en Markdown y con índices para agentes ([`llms.txt`](https://huggingface.co/dat
 | Colección | Qué trae | Cifra medida |
 |---|---|---|
 | Doctrina | tratados, apuntes y materiales docentes, texto íntegro | **228 obras** |
-| Revistas de Derecho | RChD UC (2006-2026, 860 arts.) y RDPUCV (1977-2024, 868 arts.), SciELO/Pro Jure en Markdown | **1 728 artículos** |
+| Revistas de Derecho | RChD UC (1974-2026, 2 086 arts.) y RDPUCV (1977-2024, 868 arts.), OJS/SciELO/Pro Jure en Markdown | **2 954 artículos** |
 | Guías AJ | Academia Judicial de Chile, texto íntegro | **24 guías** |
 | Corte Suprema | ficha Markdown + enlace oficial (el texto íntegro exige sesión PJUD) | **70 536 fichas** |
 | Tribunal Constitucional | texto íntegro | **967 sentencias** |
 | Ambientales (1TA/2TA/3TA) | 735 con texto íntegro · 151 fichas (las 111 de 1TA: su portal ya no sirve PDFs) | **886 sentencias** |
 | Publicaciones ambientales | boletines y anuarios | **55** |
 
-En total: **1 956 documentos de doctrina y revistas académicas** estructuradas en Markdown y **17 269 fichas dogmáticas densas** con índice rápido `train_lite.jsonl` e `instituciones_lite.jsonl` para citación grounded sin alucinaciones.
+En total: **3 182 documentos de doctrina y revistas académicas** estructuradas en Markdown y **17 269 fichas dogmáticas densas** con índice rápido `train_lite.jsonl` e `instituciones_lite.jsonl` para citación grounded sin alucinaciones.
 
 Cada obra trae al final un bloque **«Véase también»** con sus conexiones medidas (grafo de citas,
 normas compartidas y guías que la usan). La cita oficial es `[BCN - Código, Art. N]`, siempre con el

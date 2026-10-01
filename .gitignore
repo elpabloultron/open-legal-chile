@@ -28,6 +28,7 @@ data/rdpucv/pdfs/
 data/rdpucv/pdfs_scielo/
 data/rchd/pdfs/
 data/rchd/pdfs_scielo/
+data/rchd/pdfs_historicos/
 *.db
 openlegal_cache.db
 casos/
