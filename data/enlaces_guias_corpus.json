@@ -1,6 +1,6 @@
 {
  "guias": 24,
- "claves_de_norma_en_el_corpus": 5508,
+ "claves_de_norma_en_el_corpus": 5712,
  "enlaces": {
   "Guia-aplicada-para-la-determinacion-de-penas": [
    {
@@ -141,6 +141,14 @@
     ]
    },
    {
+    "archivo": "revistas/rchdp/2018/26_civil_justice_double_helix_towards_an_integral_system_of_con.md",
+    "peso": 0.2,
+    "claves": [
+     "LEY|19968",
+     "LEY|20"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/2023/S0718-34372023000200003_el_interes_del_demandado_en_su_defensa_en_la_etapa_de_discus.md",
     "peso": 0.188,
     "claves": [
@@ -163,13 +171,6 @@
     "claves": [
      "LEY|19968",
      "LEY|20"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/aj_proteccion_familia.md",
-    "peso": 0.125,
-    "claves": [
-     "LEY|19968"
     ]
    }
   ],
@@ -220,6 +221,21 @@
     ]
    },
    {
+    "archivo": "revistas/rchdp/2017/3_la_admision_tacita_de_los_hechos_por_no_contestacion_de_la_d.md",
+    "peso": 0.074,
+    "claves": [
+     "CT|art_453",
+     "CT|art_478"
+    ]
+   },
+   {
+    "archivo": "revistas/rchdp/2026/1016_healthcare_liability_due_to_medical_negligence_a_proposal_fo.md",
+    "peso": 0.067,
+    "claves": [
+     "CT|art_4"
+    ]
+   },
+   {
     "archivo": "revistas/rchd/1979/79470_reflexiones_sobre_la_nueva_institucionalidad.md",
     "peso": 0.062,
     "claves": [
@@ -227,26 +243,10 @@
     ]
    },
    {
-    "archivo": "academia_judicial/MD39-Acoso-sexual-acoso-moral-y-discriminacion-en-contexto-laboral.md",
-    "peso": 0.056,
+    "archivo": "revistas/rchdp/2024/728_the_beginning_of_the_computation_of_the_limitation_period_in.md",
+    "peso": 0.059,
     "claves": [
-     "CT|art_486",
-     "CT|art_489"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD39-Acoso-sexual-acoso-moral-y-discriminacion-en-contexto-laboral-1.md",
-    "peso": 0.056,
-    "claves": [
-     "CT|art_486",
-     "CT|art_489"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2015/S0718-34372015000200011_la_carga_de_la_prueba_en_el_contencioso_administrativo_ambie.md",
-    "peso": 0.056,
-    "claves": [
-     "LEY|18880"
+     "CT|art_510"
     ]
    }
   ],
@@ -1103,6 +1103,15 @@
     ]
    },
    {
+    "archivo": "revistas/rchdp/2019/434_nature_and_requirements_of_the_provisory_personal_care_in_ju.md",
+    "peso": 0.167,
+    "claves": [
+     "LEY|16618",
+     "LEY|19",
+     "LEY|19968"
+    ]
+   },
+   {
     "archivo": "academia_judicial/01_Tribunales-de-Familia-nociones-basicas-de-org-y-funcionamiento.md",
     "peso": 0.143,
     "claves": [
@@ -1129,14 +1138,6 @@
      "LEY|21",
      "LEY|21430"
     ]
-   },
-   {
-    "archivo": "revistas/rdpucv/2014/S0718-68512014000200006_la_titularidad_del_cuidado_personal_y_el_ejercicio_de_la_rel.md",
-    "peso": 0.118,
-    "claves": [
-     "LEY|16618",
-     "LEY|19968"
-    ]
    }
   ],
   "Guia_sobre_inteligencia_artificial_para_juezas_y_jueces": [
@@ -1148,36 +1149,36 @@
     ]
    },
    {
-    "archivo": "revistas/rchd/2006/S0718-34372006000100005_algunas_precisiones_en_torno_a_los_intereses_supraindividual.md",
-    "peso": 0.5,
+    "archivo": "revistas/rchdp/2024/944_the_scope_of_the_admiss_ibility_examination_of_the_class_act.md",
+    "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rchd/1998/77406_deber_de_informacion_y_de_informarse_ante_el_seguro_de_desgr.md",
-    "peso": 0.5,
+    "archivo": "revistas/rchdp/2024/838_the_protection_of_the_dignity_of_the_consumer_in_the_bill_se.md",
+    "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rdpucv/2021/S0718-68512021000100004_la_legitimacion_activa_en_procesos_correctivos_y_sancionator.md",
-    "peso": 0.25,
+    "archivo": "revistas/rchdp/2021/614_supplementary_function_of_contractual_good_faith_and_derived.md",
+    "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rdpucv/1998/407_particularidades_de_los_contratos_de_adhesion_en_la_ley_n_19_496.md",
-    "peso": 0.25,
+    "archivo": "revistas/rchdp/2020/514_nulity_of_abuse_clauses_in_reservations_promises_of_sale_and.md",
+    "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
    },
    {
-    "archivo": "revistas/rchd/2023/S0718-34372023000100005_problemas_fundamentales_para_la_delimitacion_de_la_8220_situ.md",
-    "peso": 0.25,
+    "archivo": "revistas/rchdp/2019/375_contratos_por_adhesion_y_clausulas_abusivas_por_que_el_estad.md",
+    "peso": 1.0,
     "claves": [
      "LEY|19496"
     ]
@@ -1268,6 +1269,38 @@
     ]
    },
    {
+    "archivo": "revistas/rchdp/2014/120_the_new_principles_of_family_law.md",
+    "peso": 0.159,
+    "claves": [
+     "LEY|14908",
+     "LEY|16618",
+     "LEY|19",
+     "LEY|19620",
+     "LEY|19947",
+     "LEY|19968"
+    ]
+   },
+   {
+    "archivo": "revistas/rchdp/2014/146_childs_and_teenagers_rights_special_protection_in_chilean_la.md",
+    "peso": 0.148,
+    "claves": [
+     "LEY|1",
+     "LEY|14908",
+     "LEY|16618",
+     "LEY|19968"
+    ]
+   },
+   {
+    "archivo": "revistas/rchdp/2013/179_economic_nature_compensation_based_on_equity_or_attribution_.md",
+    "peso": 0.148,
+    "claves": [
+     "LEY|14908",
+     "LEY|19947",
+     "LEY|19968",
+     "LEY|20066"
+    ]
+   },
+   {
     "archivo": "academia_judicial/10_Habilitante-Familia.md",
     "peso": 0.143,
     "claves": [
@@ -1277,36 +1310,6 @@
      "LEY|19620",
      "LEY|19947",
      "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "revistas/rchd/2018/S0718-34372018000200407_el_derecho_del_nino_a_ser_oido_en_la_justicia_de_familia_la_.md",
-    "peso": 0.136,
-    "claves": [
-     "LEY|19620",
-     "LEY|19947",
-     "LEY|19968"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/12_Gobierno-Judicial.md",
-    "peso": 0.133,
-    "claves": [
-     "LEY|14908",
-     "LEY|19947",
-     "LEY|19968",
-     "LEY|20066"
-    ]
-   },
-   {
-    "archivo": "academia_judicial/MD51-Valoracion-probatoria_-Exigencias-legales-jurisprudenciales-y-doctrinales.md",
-    "peso": 0.128,
-    "claves": [
-     "LEY|1",
-     "LEY|19620",
-     "LEY|19968",
-     "LEY|20066",
-     "LEY|21430"
     ]
    }
   ]
