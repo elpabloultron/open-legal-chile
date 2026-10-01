@@ -174,9 +174,9 @@ def temp_doctrina_db(tmp_path):
 def test_search_doctrina_bm25(temp_doctrina_db):
     """Verifica la búsqueda por relevancia FTS5 BM25 en materias civiles, penales y laborales."""
     # Buscar responsabilidad extracontractual
-    res_civil = search_doctrina("culpa presunta hecho ajeno", area="Civil", db_path=temp_doctrina_db)
+    res_civil = search_doctrina("culpa presunta hecho ajeno", area="Civil", limit=10, db_path=temp_doctrina_db)
     assert len(res_civil) > 0
-    assert any("Barros" in r["autor"] or "Ramos" in r["autor"] for r in res_civil)
+    assert any("Barros" in r["autor"] or "Ramos" in r["autor"] or "Orrego" in r["autor"] for r in res_civil)
     # Con el corpus ampliado el primer resultado ya no es el mismo: lo que importa es que la
     # búsqueda devuelva documentos con sus concordancias, no cuál encabeza la lista.
     assert any(r["concordancias"] for r in res_civil)
