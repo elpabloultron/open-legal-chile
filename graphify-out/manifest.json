@@ -438,9 +438,9 @@
     "semantic_hash": "559017cbfe7631a463da7ee270359f20"
   },
   "tests/test_doctrina.py": {
-    "mtime": 1790124516.91846,
-    "seen": 1790291142.9961412,
-    "ast_hash": "6823693fa6454762ddf42e2508c69c79",
+    "mtime": 1790860928.6251926,
+    "seen": 1790867276.0739238,
+    "ast_hash": "6cad8694024bf5f122df1dd65b5cb64a",
     "semantic_hash": ""
   },
   "tests/test_ecosystem_expansion.py": {
@@ -1002,9 +1002,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1790859969.4450688,
-    "seen": 1790860109.706467,
-    "ast_hash": "0993150ccfbeadd3fa2da74eed66ef8f",
+    "mtime": 1790867236.005829,
+    "seen": 1790867276.0755353,
+    "ast_hash": "0c1d5d0fa05c418ac54e1ad334dabfe2",
     "semantic_hash": ""
   },
   "ROADMAP.md": {
@@ -1266,15 +1266,15 @@
     "semantic_hash": ""
   },
   "docs/architecture.md": {
-    "mtime": 1790368180.2232404,
-    "seen": 1790784720.1866634,
-    "ast_hash": "f104672c633fd87f6a9f991d5945e338",
+    "mtime": 1790866819.4185567,
+    "seen": 1790867276.0762615,
+    "ast_hash": "709492972e8efd83dc1eda332d4045d2",
     "semantic_hash": ""
   },
   "docs/index.html": {
-    "mtime": 1790859999.782748,
-    "seen": 1790860109.7075257,
-    "ast_hash": "6f6966547bbe648243c311ecee0209c3",
+    "mtime": 1790867181.824553,
+    "seen": 1790867276.0763094,
+    "ast_hash": "8b5798927296cd253315fe108b5c85d7",
     "semantic_hash": ""
   },
   "docs/integracion_graphify.md": {
@@ -3471,6 +3471,18 @@
     "mtime": 1790860074.1909645,
     "seen": 1790860109.7038932,
     "ast_hash": "e7a81ff18e4899dcb0b20ac880f34017",
+    "semantic_hash": ""
+  },
+  "scripts/update_web_index.py": {
+    "mtime": 1790867141.413096,
+    "seen": 1790867276.0733166,
+    "ast_hash": "d6dacf76dfdd9238731b5a0b153416d0",
+    "semantic_hash": ""
+  },
+  "docs/whitepaper_arquitectura_cientifica.md": {
+    "mtime": 1790866787.7700114,
+    "seen": 1790867276.0764167,
+    "ast_hash": "4121ccfaf2640215df436c8828104861",
     "semantic_hash": ""
   }
 }

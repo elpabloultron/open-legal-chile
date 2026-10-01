@@ -7,14 +7,14 @@
 <p align="center">
   <a href="https://elpabloultron.github.io/open-legal-chile/"><img src="https://img.shields.io/badge/Web_Oficial-GitHub_Pages-gold?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web Oficial"/></a>
   <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
-  <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Biblioteca_MD-228_Obras-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Corpus_MD-7.399_Obras_y_Artículos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
-  <img src="https://img.shields.io/badge/MCP-Protocol_2024--11--05-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
+  <img src="https://img.shields.io/badge/Herramientas_MCP-87_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-500%2F500_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-507%2F507_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -146,7 +146,7 @@ devuelve el mismo resumen en JSON, y desde el harness está la herramienta `suit
 > [**`PLUGINS.md`**](PLUGINS.md). El detalle por cliente —y cómo verificar que el harness ve las
 > herramientas— está en [`docs/integracion-harness.md`](docs/integracion-harness.md).
 
-El paquete **incluye el corpus doctrinal** (228 documentos chilenos en Markdown: doctrina, apuntes, materiales docentes y guías de la Academia Judicial) y **el grafo de
+El paquete **incluye el corpus doctrinal** (7.399 documentos chilenos en Markdown: 228 tratados canónicos, apuntes, materiales docentes y guías de la Academia Judicial, más 7.170 artículos de 11 revistas científicas chilenas) y **el grafo de
 conocimiento ya construido**, así que `graphify_*` y `doctrina_search` funcionan sin clonar
 nada más. El índice FTS5 de doctrina se construye solo en la primera búsqueda (unos segundos).
 Si instalas solo los módulos (por ejemplo copiando archivos sueltos), el motor lo dirá en vez de
@@ -506,11 +506,11 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 * **Dataset de entrenamiento aparte:** las versiones plenas (`train.jsonl` 74,9 MB e `instituciones.jsonl` 83,6 MB) viven en [`pablobenavidesj/doctrina-jurisprudencia-chile-training`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile-training); el dataset principal quedó en ~168 MB con el corpus íntegro en `doctrina/` y las versiones «puntero».
 * **Jurisprudencia ampliada:** 886 sentencias de los Tribunales Ambientales (1TA 111 · 2TA 441 · 3TA 334), 78 publicaciones oficiales de jurisprudencia ambiental (anuarios y boletines 2TA/3TA), 70 536 sentencias de la Corte Suprema y 967 del Tribunal Constitucional de los últimos dos años, con rol, sala, fecha, recurso, resultado y ministros (los textos de la Suprema quedan bajo sesión PJUD; el TC incluye enlace al PDF oficial).
 * **Biblioteca ambiental (2026-09-28):** colección `biblioteca_ambiental/` con **88 documentos** convertidos a Markdown —los 6 libros del Concurso Nacional de Comentarios de Sentencias, los 14 informes en derecho de los Tribunales Ambientales, los foros, manuales y material docente— más los anuarios y boletines al día (79 publicaciones). El módulo especial `ambiental_consulta_maestra` (herramienta 87) consulta todo junto con `openlegal ambiental "…"`.
-* **Catálogo Rápido e Indexado en Memoria para Hugging Face (2026-09-30):** La búsqueda remota en Hugging Face (`online_library_sync.py`) integra resolución instantánea sobre las 11.858 instituciones dogmáticas (`instituciones_lite.jsonl`) y las 70.536 causas judiciales, con lectura local directa (0 ms) de textos ya presentes en el repo, extractos literales garantizados y citas oficiales estandarizadas (`[Hugging Face - ...]`).
+* **Catálogo Rápido e Indexado en Memoria para Hugging Face (2026-09-30):** La búsqueda remota en Hugging Face (`online_library_sync.py`) integra resolución instantánea sobre las 25.556 instituciones dogmáticas (`instituciones_lite.jsonl`) y las 70.536 causas judiciales, con lectura local directa (0 ms) de textos ya presentes en el repo, extractos literales garantizados y citas oficiales estandarizadas (`[Hugging Face - ...]`).
 * **Pipeline de Ingesta Masiva y Grounding (`scripts/ingestar_lote_masivo.py`):** Ingesta por lote de colecciones documentales (.pdf, .docx, .txt, .md) con normalización ortotipográfica RAE/ASALE, compresión de tokens, y sincronización consolidada (FTS5 doctrina.db, LegalGraphify y catálogos) sin degradación de rendimiento.
 
 ### 🧠 K. El grafo interno: reducción de tokens con conocimiento conectado (`legal_graphify.py`)
-* **Grafo Multidimensional de Dogmática Jurídica:** 14.050 nodos interconectados (instituciones dogmáticas, artículos de los Códigos BCN, fallos rectores de la Corte Suprema y del Tribunal Constitucional, publicaciones de los Tribunales Ambientales, biblioteca ambiental y tratadistas canónicos) y 31.017 aristas relacionales (52 comunidades, modularidad 0,641).
+* **Grafo Multidimensional de Dogmática Jurídica:** 20.990 nodos interconectados (instituciones dogmáticas, artículos de los Códigos BCN, fallos rectores de la Corte Suprema y del Tribunal Constitucional, publicaciones de los Tribunales Ambientales, biblioteca ambiental y tratadistas canónicos) y 51.590 aristas relacionales (427 comunidades ontológicas).
 * **Índice Invertido O(1) de Alta Velocidad (2026-09-30):** Indexación de labels, tokens y definiciones en memoria con resolución de nodos en **0,006 ms (9.000x más rápido que regex lineal)**, permitiendo consultas instantáneas de subgrafos y blast radius topológico sobre grafos masivos.
 * **Ahorro de Tokens Medido (mediana 99,9 %; medición 2026-09-28 sobre 9.863 instituciones):** En lugar de inyectar la obra doctrinal completa (mediana 96.536 tokens; máximo 313.985), el motor extrae un subgrafo conexo hiper-denso de 27 a 544 tokens (mediana 91) en formato estructurado (definición canónica, artículos concordantes, criterio CS rector y operativa procesal forense). Medición reproducible con `.venv/bin/python scripts/medir_ahorro_tokens.py` → [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 * **Diagramas Mermaid en Vivo:** Generación de diagramas de flujo relacional para visualizar el razonamiento dogmático de cada institución en tiempo real.
@@ -526,7 +526,7 @@ El directorio `agents/` incluye **19 perfiles de especialidad jurídica** adapta
 1. **`chilean-employment-legal`** (`agente-laboral`): Despidos (Art. 161/160 CT), Ley Karin (21.643), 40 Horas (21.561), finiquitos y doctrina DT.
 2. **`chilean-litigation-legal`** (`agente-litigios`): Demandas OJV Ley N° 20.886, recursos de protección estandarizados (Acta N.° 94-2015), cronología de hechos, recursos procesales y medidas precautorias.
 3. **`chilean-real-estate-cbr`** (`agente-inmobiliario`): Estudio de títulos decenal (10 años), tradición dominical, gravámenes hipotecarios, prohibiciones registrales y mandatos judiciales (Art. 7 CPC).
-4. **`chilean-dogmatic-graphify`** (`agente-dogmatico`): Estratega de alta dogmática, subsunción técnico-jurídica, el corpus doctrinal completo (228 obras y materiales + 21 guías judiciales) y deducción con subgrafos LegalGraphify (ahorro de tokens mediano: 99,9 %; ficha 91 vs. obra 96.536).
+4. **`chilean-dogmatic-graphify`** (`agente-dogmatico`): Estratega de alta dogmática, subsunción técnico-jurídica, el corpus doctrinal completo (7.399 obras y artículos + 24 guías de la Academia Judicial) y deducción con subgrafos LegalGraphify (ahorro de tokens mediano: 99,9 %; ficha 91 vs. obra 96.536).
 5. **`chilean-administrative-legal`** (`agente-regulatorio`): Dictámenes e informes CGR, compras públicas (Ley 19.886) y vigilancia regulatoria.
 6. **`chilean-energy-legal`** (`agente-energia`): Contratos PPA de clientes libres, transmisión eléctrica Ley 20.936 y discrepancias del Panel de Expertos.
 7. **`chilean-environmental-legal`** (`agente-ambiental`): Fiscalizaciones SMA (SNIFA), infracciones a RCAs y Programas de Cumplimiento.
