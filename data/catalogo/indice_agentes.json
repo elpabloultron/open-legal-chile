@@ -1,10 +1,10 @@
 {
   "dataset": "pablobenavidesj/doctrina-jurisprudencia-chile",
   "resumen": {
-    "documentos_doctrina": 4225,
+    "documentos_doctrina": 4246,
     "guias_academia_judicial": 24,
-    "fichas": 18563,
-    "obras_indexadas": 4225,
+    "fichas": 18626,
+    "obras_indexadas": 4246,
     "registros_jurisprudencia": 74518,
     "nodos_grafo": 14050,
     "aristas_grafo": 31017
@@ -16,7 +16,7 @@
   "rutas": [
     {
       "area": "General",
-      "fichas": 4789,
+      "fichas": 4852,
       "abrir": [
         "doctrina/manuales/doctrina48981.md",
         "doctrina/apuntes_orrego/El Derecho y el ordenamiento jurídico.md",
