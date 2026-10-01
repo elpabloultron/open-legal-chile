@@ -111,5 +111,24 @@ Conforme al protocolo de citas de Open Legal Chile:
 - **Cita doctrinal:** `[DACC - Núm. <Número> (<Año>), <Autor>, <Título>]`
 - **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/dacc/<Año>/<archivo>.md]`
 
+---
+
+## 7. Revista de Derecho (Universidad de Concepción — RDUdeC)
+
+- **Institución:** Facultad de Ciencias Jurídicas y Sociales, Universidad de Concepción (UdeC).
+- **Identificador OAI-PMH:** `oai:ojs3.152.74.17.22:article/...`
+- **ISSN:** 0718-591X (versión en línea) / 0303-9986 (versión impresa)
+- **Cobertura:** 226 artículos normalizados en Markdown canónico (1933 – 2026), incluyendo el volumen fundacional histórico de 1933 y la colección digitalizada moderna (2017 – 2026) de una de las revistas decanas del derecho chileno.
+- **Áreas temáticas:** Derecho Civil Patrimonial (obligaciones, contratos, lucro cesante y responsabilidad civil por tratadistas como Daniel Peñailillo Arévalo), Derecho Procesal y Colaboración Procesal, Derecho Penal y Criminología, Derecho Constitucional y Libertades Públicas, Derecho Administrativo, Derecho del Trabajo y Relaciones Laborales, Filosofía y Teoría General del Derecho.
+
+### Publicación y Acceso
+- **Dataset:** [`pablobenavidesj/doctrina-jurisprudencia-chile`](https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile)
+- **Ruta de la colección:** `doctrina/revistas/rdudec/`
+
+### Formato de Citación Estándar
+- **Cita doctrinal:** `[RDUdeC - Vol. <Volumen> N° <Número> (<Año>), <Autor>, <Título>]`
+- **Cita dataset:** `[Hugging Face - pablobenavidesj/doctrina-jurisprudencia-chile, Archivo: doctrina/revistas/rdudec/<Año>/<archivo>.md]`
+
+
 
 
