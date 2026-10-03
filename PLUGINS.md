@@ -6,7 +6,7 @@
 > archivos y verificación por cliente, está en [docs/integracion-harness.md](docs/integracion-harness.md).
 
 **Open Legal Chile Suite** implementa el protocolo estándar **MCP (Model Context Protocol)** y trae
-manifiestos listos para los harness de agentes más usados. Todos exponen las mismas **87 herramientas**.
+manifiestos listos para los harness de agentes más usados. Todos exponen las mismas **88 herramientas**.
 
 **Requisito para plugins y extensiones:** [uv](https://docs.astral.sh/uv/) (`uvx`). El servidor se
 lanza con `uvx --from openlegal-chile openlegal-mcp`, que instala el paquete de PyPI en un entorno
@@ -128,11 +128,11 @@ plugin de Claude Code se elige al activarlo. Todo perfil incluye `consulta_maest
 | `laboral` | 14 | BCN, DT, PJUD, doctrina, escritos OJV |
 | `inmobiliario` | 13 | CBR, mandato Art. 7 CPC, BCN civil |
 | `litigios` | 17 | PJUD, proveídos, recurso de protección, OCR |
-| `regulatorio` | 21 | CGR, InfoProbidad, CMF, SII, SMA, CNE, Panel, TDLC |
-| `corporativo` | 16 | CMF, SII, TDLC, INAPI, derechos ARCO, RUT |
+| `regulatorio` | 22 | CGR, InfoProbidad, CMF, SII, SMA, CNE, Panel, TDLC |
+| `corporativo` | 17 | CMF, SII, TDLC, INAPI, derechos ARCO, RUT |
 | `dogmatico` | 18 | doctrina, LegalGraphify, Academia Judicial, Hugging Face |
 | `clinica` | 10 | lenguaje claro, intake, auditoría de borradores |
-| (sin perfil) | 87 | todo |
+| (sin perfil) | 88 | todo |
 
 ```bash
 openlegal-mcp --profile laboral        # o: openlegal mcp --profile laboral
@@ -148,7 +148,7 @@ printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | openlegal-mcp |
 openlegal doctor
 ```
 
-Salida esperada: `✅ 87 herramientas MCP` y el doctor sin ❌.
+Salida esperada: `✅ 88 herramientas MCP` y el doctor sin ❌.
 
 ---
 

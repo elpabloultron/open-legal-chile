@@ -1,7 +1,7 @@
 {
   "name": "open-legal-chile",
   "version": "1.13.1",
-  "description": "Derecho chileno (Civil Law) con fuentes oficiales: 87 herramientas MCP (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), doctrina, grafo LegalGraphify y OCR forense. Requiere uv (uvx).",
+  "description": "Derecho chileno (Civil Law) con fuentes oficiales: 88 herramientas MCP (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), doctrina, grafo LegalGraphify y OCR forense. Requiere uv (uvx).",
   "mcpServers": {
     "open-legal-chile": {
       "command": "uvx",
@@ -16,7 +16,7 @@
   "settings": [
     {
       "name": "Perfil de herramientas",
-      "description": "Vacío = las 87 herramientas. Para ahorrar contexto: laboral, inmobiliario, litigios, regulatorio, corporativo, dogmatico o clinica.",
+      "description": "Vacío = las 88 herramientas. Para ahorrar contexto: laboral, inmobiliario, litigios, regulatorio, corporativo, dogmatico o clinica.",
       "envVar": "OPENLEGAL_PROFILE"
     },
     {

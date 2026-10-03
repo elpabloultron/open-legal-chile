@@ -27,7 +27,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (87 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-87-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (88 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-88-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -91,7 +91,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 87 Herramientas Forenses Registradas (Suite Edition)                         │
+│   • 88 Herramientas Forenses Registradas (Suite Edition)                         │
 │   • Espacios de Casos Locales con LegalGraphify (case_workspace.py, case_graph.py)     │
 │   • Motor Vectorial Híbrido Dense + BM25 con RRF (vector_engine.py)                     │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
@@ -131,7 +131,7 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
    - **Archivo:** `legal_open_jev.py`
    - **Latencia:** `< 5 ms` en CPU local, 100% offline, cero costo de tokens y confidencialidad inviolable (Art. 247 CP).
    - **Primitivas:**
-     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 87 herramientas MCP a 3-5 pertinentes a la materia (ahorro de más de 12.000 tokens de prompt por turno).
+     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 88 herramientas MCP a 3-5 pertinentes a la materia (ahorro de más de 12.000 tokens de prompt por turno).
      - `JevNoul`: Compuertas binarias estrictas de validez formal: plazos fatales de caducidad laboral (Art. 168 CT: 60/90 días), prescripción civil (Arts. 2514-2515 CC), plazos constitucionales de protección (Art. 20 CPR: 30 días corridos), cómputo procesal de días hábiles judiciales (Art. 66 CPC), validación matemática de RUT Módulo 11 y facultades especiales de personería (Art. 7 inc. 2 CPC).
      - `JevScore`: Ponderación local ultrarrápida de relevancia temática.
 
@@ -255,9 +255,9 @@ medición del ahorro en [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (87 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (88 Herramientas Oficiales)
 
-El servidor MCP expone **87 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **88 herramientas oficiales** categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -618,7 +618,7 @@ openlegal agent chat dogmatico
 # Exportar perfiles de subagentes para Google Antigravity o Claude Code
 openlegal agent export --format antigravity
 
-# Servidor MCP estándar para agentes de IA (87 herramientas)
+# Servidor MCP estándar para agentes de IA (88 herramientas)
 openlegal mcp
 
 # Chat jurídico interactivo con RAG soberano chileno

@@ -3,7 +3,7 @@
 Una instalación, todos los clientes. El objetivo es que **ningún usuario tenga que abrir una
 terminal más que para este comando** ni editar archivos de configuración a mano.
 
-Hay dos caminos y los dos dejan las **87 herramientas MCP** visibles:
+Hay dos caminos y los dos dejan las **88 herramientas MCP** visibles:
 
 | Camino | Requisito | Comando del servidor |
 |---|---|---|
@@ -111,7 +111,7 @@ Perfiles: `laboral`, `inmobiliario`, `litigios`, `regulatorio`, `corporativo`, `
 ```bash
 printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | openlegal-mcp | \
   python -c "import sys,json; print(len(json.loads(sys.stdin.readline())['result']['tools']), 'herramientas')"
-# Esperado: 87 herramientas
+# Esperado: 88 herramientas
 ```
 
 **2. El doctor no encuentra errores**
@@ -147,5 +147,5 @@ herramientas devuelven el bloque `citas` con el texto literal en cada resultado 
 | `uvx: command not found` | uv no está instalado | Instalá uv, o usá el camino pip: `openlegal integrar <cliente> --escribir` |
 | El primer arranque se corta por tiempo | uvx todavía está descargando dependencias | Precalentá con `uvx --from openlegal-chile openlegal-mcp < /dev/null`; en Claude Code también sirve `MCP_TIMEOUT=60000` |
 | `openlegal-mcp: command not found` | El paquete no está en el PATH del cliente | Volvé a correr `openlegal integrar <cliente> --escribir`, que escribe la ruta absoluta |
-| Aparecen menos de 87 herramientas | Hay un perfil activo (`OPENLEGAL_PROFILE` o `--profile`) | Quitá el perfil para ver todas |
+| Aparecen menos de 88 herramientas | Hay un perfil activo (`OPENLEGAL_PROFILE` o `--profile`) | Quitá el perfil para ver todas |
 | Una respuesta cita sin texto | El harness no siguió §2 quater | Agregá a su prompt de sistema: «usá `consulta_maestra` primero y no cites sin `cita_texto`» |

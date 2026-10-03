@@ -14,7 +14,7 @@ La aplicación de modelos de lenguaje de gran escala (*Large Language Models*, L
 Este artículo científico presenta **Open Legal Chile**, el primer ecosistema abierto, modular y soberano (*Local-First*, $0 de costo de licenciamiento y *Zero-Data Leak*) específicamente diseñado para el ordenamiento jurídico de la República de Chile bajo el estándar internacional **Model Context Protocol (MCP)**. La arquitectura integra:
 1. **Un Knowledge Graph Jurídico Multidimensional (LegalGraphify):** que modela ontológicamente 20 990 nodos (instituciones dogmáticas, normas, autores, obras, tribunales y sentencias) y 51 590 aristas en 427 comunidades, logrando una **reducción mediana del 99,9 % en el consumo de tokens** (de 96 536 tokens por tratado a 91 tokens por subgrafo sintético).
 2. **El mayor corpus abierto de doctrina y ciencia jurídica chilena:** compuesto por 7 399 obras estructuradas en Markdown RAE/ASALE (228 obras canónicas fundamentales más la totalidad de las 11 revistas científicas periódicas de Derecho de Chile, con 7 170 artículos entre 1933 y 2026), 25 556 fichas dogmáticas de alta densidad, 70 536 fallos de la Corte Suprema, 967 del Tribunal Constitucional y 886 de Tribunales Ambientales.
-3. **Un servidor MCP maestro con 87 herramientas operativas:** organizadas en 16 dominios forenses que cubren desde la exégesis de la Biblioteca del Congreso Nacional (BCN) y 10 conectores públicos del Estado hasta el peritaje OCR judicial y el estudio decenal de títulos inmobiliarios.
+3. **Un servidor MCP maestro con 88 herramientas operativas:** organizadas en 16 dominios forenses que cubren desde la exégesis de la Biblioteca del Congreso Nacional (BCN) y 10 conectores públicos del Estado hasta el peritaje OCR judicial y el estudio decenal de títulos inmobiliarios.
 4. **Un runtime de 19 agentes jurídicos autónomos soberanos y 18 skills:** gobernados por compuertas éticas y una subsunción tripartita obligatoria (*Pilar Positivo + Pilar Dogmático + Pilar Jurisprudencial*).
 
 **Palabras clave:** Inteligencia Artificial Jurídica, Model Context Protocol (MCP), Derecho Continental (*Civil Law*), Knowledge Graphs, Reducción de Tokens, Legal Tech Soberano, Derecho Chileno.
@@ -76,7 +76,7 @@ graph TB
 
     subgraph MCPLayer ["Capa 2: Servidor Maestro MCP (mcp_server.py)"]
         Router["Dispensador Maestro & Enrutador Modular"]
-        Tools["87 Herramientas Forenses Registradas"]
+        Tools["88 Herramientas Forenses Registradas"]
         Gates["Compuertas de Seguridad Ética y Revisión OJV"]
     end
 
@@ -103,9 +103,9 @@ graph TB
 
 ---
 
-## 4. Taxonomía de las 87 Herramientas del Servidor MCP
+## 4. Taxonomía de las 88 Herramientas del Servidor MCP
 
-Las 87 herramientas operativas se articulan en 16 dominios funcionales:
+Las 88 herramientas operativas se articulan en 16 dominios funcionales:
 
 | N° | Dominio Funcional | Cantidad | Herramientas | Propósito y Capacidades |
 |:---:|---|:---:|---|---|

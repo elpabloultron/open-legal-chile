@@ -394,7 +394,7 @@
   },
   {
     "name": "sii_search_circulares",
-    "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026). Permite buscar por término o analizar circulares en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar instrucciones por tema.",
+    "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) por número o por la materia del índice oficial (no distingue tildes, plural ni orden de las palabras). Para leer el texto íntegro de un acto, usar sii_leer_documento. Permite buscar por término o analizar circulares en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar instrucciones por tema.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -428,6 +428,13 @@
           "type": "boolean",
           "default": false,
           "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"
+        },
+        "anios": {
+          "type": "array",
+          "description": "Años a consultar (por defecto, los últimos siete)",
+          "items": {
+            "type": "integer"
+          }
         }
       }
     },
@@ -1570,7 +1577,7 @@
         },
         "anios": {
           "type": "array",
-          "description": "Años a consultar (por defecto 2023 a 2026)",
+          "description": "Años a consultar (por defecto, los últimos siete)",
           "items": {
             "type": "integer"
           }
@@ -1624,12 +1631,55 @@
         },
         "destino": {
           "type": "string",
-          "description": "Ruta donde guardar el PDF (opcional: si se omite, sólo se informa el tamaño descargado)"
+          "description": "Ruta donde guardar el PDF (opcional: si se omite, queda en la caché y se informa la ruta)"
         }
       },
       "required": [
         "numero",
         "fecha"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "sii_leer_documento",
+    "description": "Devuelve el texto íntegro de una circular, resolución exenta u oficio del SII, extraído del PDF oficial (queda guardado en la caché junto a un .txt). Úsalo para citar: la materia del índice es sólo un resumen.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "circular",
+            "resolucion",
+            "oficio"
+          ],
+          "description": "Clase de documento"
+        },
+        "numero": {
+          "type": "string",
+          "description": "Número del documento (p. ej. 50, 115 o 1873)"
+        },
+        "anio": {
+          "type": "integer",
+          "description": "Año de publicación (por defecto, el año en curso)"
+        },
+        "fecha": {
+          "type": "string",
+          "description": "Fecha dd/mm/aaaa; necesaria si en ese año hay dos oficios con el mismo número (Renta, IVA y Otras normas numeran por separado)"
+        },
+        "max_caracteres": {
+          "type": "integer",
+          "description": "Tope de caracteres del texto devuelto (por defecto 60000; el .txt guarda el texto completo)"
+        }
+      },
+      "required": [
+        "tipo",
+        "numero"
       ]
     },
     "annotations": {

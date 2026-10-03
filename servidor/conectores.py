@@ -206,7 +206,7 @@ TOOLS = [
     },
     {
         "name": "sii_search_circulares",
-        "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026). Permite buscar por término o analizar circulares en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar instrucciones por tema.",
+        "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) por número o por la materia del índice oficial (no distingue tildes, plural ni orden de las palabras). Para leer el texto íntegro de un acto, usar sii_leer_documento. Permite buscar por término o analizar circulares en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar instrucciones por tema.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -215,7 +215,8 @@ TOOLS = [
                 "numeros": {"type": "array", "items": {"type": "string"}, "description": "Lista de circulares para análisis en lote"},
                 "tema_relevante": {"type": "string", "description": "Tema tributario controvertido para rankear y citar la instrucción pertinente"},
                 "descargar_formato": {"type": "string", "enum": ["pdf"], "description": "Descargar el PDF oficial de la circular ('pdf')"},
-                "convertir_a_md_y_graficar": {"type": "boolean", "default": False, "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"}
+                "convertir_a_md_y_graficar": {"type": "boolean", "default": False, "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"},
+                "anios": {"type": "array", "description": "Años a consultar (por defecto, los últimos siete)", "items": {"type": "integer"}}
             }
         }
     },
@@ -226,7 +227,7 @@ TOOLS = [
             "type": "object",
             "properties": {
                 "query": {"type": "string", "description": "Término de búsqueda tributaria o número de resolución/oficio"},
-                "anios": {"type": "array", "description": "Años a consultar (por defecto 2023 a 2026)", "items": {"type": "integer"}}
+                "anios": {"type": "array", "description": "Años a consultar (por defecto, los últimos siete)", "items": {"type": "integer"}}
             },
             "required": ["query"]
         }
@@ -250,9 +251,24 @@ TOOLS = [
                 "numero": {"type": "string", "description": "Número del oficio tal como aparece en el listado (p. ej. 2407 o 0358)"},
                 "fecha": {"type": "string", "description": "Fecha de publicación del oficio, formato dd/mm/aaaa"},
                 "anio": {"type": "integer", "description": "Año del índice a consultar (por defecto, el año en curso)"},
-                "destino": {"type": "string", "description": "Ruta donde guardar el PDF (opcional: si se omite, sólo se informa el tamaño descargado)"}
+                "destino": {"type": "string", "description": "Ruta donde guardar el PDF (opcional: si se omite, queda en la caché y se informa la ruta)"}
             },
             "required": ["numero", "fecha"]
+        }
+    },
+    {
+        "name": "sii_leer_documento",
+        "description": "Devuelve el texto íntegro de una circular, resolución exenta u oficio del SII, extraído del PDF oficial (queda guardado en la caché junto a un .txt). Úsalo para citar: la materia del índice es sólo un resumen.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "tipo": {"type": "string", "enum": ["circular", "resolucion", "oficio"], "description": "Clase de documento"},
+                "numero": {"type": "string", "description": "Número del documento (p. ej. 50, 115 o 1873)"},
+                "anio": {"type": "integer", "description": "Año de publicación (por defecto, el año en curso)"},
+                "fecha": {"type": "string", "description": "Fecha dd/mm/aaaa; necesaria si en ese año hay dos oficios con el mismo número (Renta, IVA y Otras normas numeran por separado)"},
+                "max_caracteres": {"type": "integer", "description": "Tope de caracteres del texto devuelto (por defecto 60000; el .txt guarda el texto completo)"}
+            },
+            "required": ["tipo", "numero"]
         }
     },
     {
@@ -584,7 +600,7 @@ def despachar(name: str, args: dict) -> Any:
             if isinstance(numeros, list):
                 lista_ids.extend([str(d).strip() for d in numeros if str(d).strip()])
             if not lista_ids and args.get("query"):
-                sr_sii = sii.search_circulares(args.get("query", ""))
+                sr_sii = sii.search_circulares(args.get("query", ""), args.get("anios"))
                 lista_ids = [str(d.get("numero") or d.get("titulo")) for d in sr_sii[:3] if isinstance(d, dict) and d.get("tipo") != "aviso" and (d.get("numero") or d.get("titulo"))]
             if lista_ids:
                 return sii.procesar_y_graficar_sii(
@@ -594,7 +610,14 @@ def despachar(name: str, args: dict) -> Any:
                     convertir_a_md=convertir_md,
                     descargar_formato=descargar
                 )
-        return sii.search_circulares(args.get("query", ""))
+        return sii.search_circulares(args.get("query", ""), args.get("anios"))
+    elif name == "sii_leer_documento":
+        tipo = str(args.get("tipo") or "").strip()
+        numero = str(args.get("numero") or "").strip()
+        if not tipo or not numero:
+            return {"error": "Los parámetros 'tipo' y 'numero' son obligatorios."}
+        return sii.leer_documento(tipo, numero, args.get("anio"), args.get("fecha"),
+                                  int(args.get("max_caracteres") or 60000))
     elif name == "sii_buscar_resoluciones_y_oficios":
         q = args.get("query")
         if not q:

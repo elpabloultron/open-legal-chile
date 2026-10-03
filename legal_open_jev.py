@@ -5,7 +5,7 @@ Inspirado en la teoría de pensamiento rápido (Sistema 1 de Daniel Kahneman) y 
 arquitectura de decisiones eficientes de Jev (TypeSafe AI).
 
 Ejecuta decisiones discretas, deterministicas y estructuradas en < 5 ms en CPU local:
-1. Choice: Triage y enrutamiento dinámico de herramientas MCP (filtra de 87 a 3-5 tools).
+1. Choice: Triage y enrutamiento dinámico de herramientas MCP (filtra de 88 a 3-5 tools).
 2. Noul: Compuertas binarias de admisibilidad, RUT (Módulo 11), mandatos (Art. 7 CPC)
    y plazos fatales (caducidad Art. 168 CT, protección Art. 20 CPR, prescripción Arts. 2514-2515 CC).
 3. Score: Calificación ultrarrápida de relevancia para pasajes y candidatos normativos.
@@ -86,7 +86,7 @@ class JevDecision:
 
 
 # ---------------------------------------------------------------------------
-# Catálogo Taxonómico de Enrutamiento (87 Herramientas MCP en 16 Dominios)
+# Catálogo Taxonómico de Enrutamiento (88 Herramientas MCP en 16 Dominios)
 # ---------------------------------------------------------------------------
 
 TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
@@ -188,7 +188,7 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "sii_search_circulares", "consulta_maestra", "bcn_get_codigo", "sii_buscar_resoluciones_y_oficios"
         ],
         "herramientas_apoyo": [
-            "sii_oficios_por_anio", "sii_jurisprudencia_judicial", "bcn_get_ley"
+            "sii_leer_documento", "sii_oficios_por_anio", "sii_jurisprudencia_judicial", "bcn_get_ley"
         ]
     },
     "libre_competencia": {
@@ -253,7 +253,7 @@ class LegalOpenJevEngine:
     def evaluate_choice(self, query: str, max_tools: int = 5) -> JevChoice:
         """
         Analiza la consulta y selecciona las 3 a 5 herramientas MCP pertinentes
-        de entre las 87 oficiales, reduciendo el overhead de contexto > 70%.
+        de entre las 88 oficiales, reduciendo el overhead de contexto > 70%.
         """
         q_norm = _normalizar_texto(query)
         if not q_norm:
@@ -311,7 +311,7 @@ class LegalOpenJevEngine:
             if t not in tools:
                 tools.append(t)
 
-        # Cálculo de tokens ahorrados: 87 tools ~14.384 tokens vs 4 tools ~800 tokens
+        # Cálculo de tokens ahorrados: 88 tools ~14.384 tokens vs 4 tools ~800 tokens
         tokens_ahorrados = max(0, 14384 - (len(tools) * 200))
 
         return JevChoice(

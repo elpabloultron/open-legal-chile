@@ -270,7 +270,7 @@ jobs:
           assert len(catalogo["agentes"]) >= 19, catalogo
           assert "Protocolo no disponible" not in respuestas[4]["result"]["contents"][0]["text"]
 
-          assert len(herramientas) == 87, f"{len(herramientas)} herramientas en el paquete instalado"
+          assert len(herramientas) == 88, f"{len(herramientas)} herramientas en el paquete instalado"
           for nombre in ("consulta_maestra", "cita_texto", "huggingface_search_dataset", "bcn_get_codigo",
                          "suite_doctor", "busqueda_universal", "skills_listar", "skill_ver",
                          "critique_documento", "generar_documento", "entrevista_estudio",
@@ -290,7 +290,7 @@ jobs:
           datos = json.loads(texto[texto.index("{"):])
           assert datos["harnesses"] == ["claude-code"], datos
           assert datos["doctor"]["estado"] in ("ok", "degradado"), datos
-          assert datos["herramientas"] == 87, datos
+          assert datos["herramientas"] == 88, datos
           assert pathlib.Path("/tmp/proyecto/.mcp.json").exists(), "no escribió la configuración"
           print("instalar OK:", datos["harnesses"], "·", datos["doctor"]["estado"])
           PY

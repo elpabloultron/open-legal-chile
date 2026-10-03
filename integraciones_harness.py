@@ -1,7 +1,7 @@
 """Configuración MCP lista para cada harness: una instalación, todos los clientes.
 
 El producto apunta a que cualquier harness (Claude Code, Claude Desktop, Cursor, VS Code, Gemini
-CLI, Antigravity, Windsurf, Codex, OpenCode, dsh…) vea las 87 herramientas sin editar archivos a
+CLI, Antigravity, Windsurf, Codex, OpenCode, dsh…) vea las 88 herramientas sin editar archivos a
 mano y sin abrir una terminal más que para este comando. Ninguna integración pisa lo que la
 persona ya tenga configurado: los JSON se fusionan (con respaldo `.bak`) y el parche Cordis de dsh
 se agrega al final del que exista, porque en ese harness los plugins viven en capas.

@@ -1,6 +1,6 @@
 {
   "name": "open-legal-chile",
-  "description": "Open Legal Chile: suite de inteligencia jurídica para el ordenamiento chileno (Civil Law). Instalá «open-legal-chile» para tener todo (MCP de 87 herramientas, 18 skills y 19 agentes); las skills por materia se pueden instalar sueltas y traen el plugin principal como dependencia.",
+  "description": "Open Legal Chile: suite de inteligencia jurídica para el ordenamiento chileno (Civil Law). Instalá «open-legal-chile» para tener todo (MCP de 88 herramientas, 18 skills y 19 agentes); las skills por materia se pueden instalar sueltas y traen el plugin principal como dependencia.",
   "owner": {
     "name": "Open Legal Chile"
   },
@@ -8,7 +8,7 @@
     {
       "name": "open-legal-chile",
       "displayName": "Open Legal Chile (suite completa)",
-      "description": "La suite completa: servidor MCP con 87 herramientas (10 conectores oficiales del Estado, doctrina, grafo LegalGraphify, OCR forense, escritos OJV), 18 skills y 19 agentes jurídicos. Requiere uv (uvx). Es la opción recomendada: incluye todas las skills de este marketplace.",
+      "description": "La suite completa: servidor MCP con 88 herramientas (10 conectores oficiales del Estado, doctrina, grafo LegalGraphify, OCR forense, escritos OJV), 18 skills y 19 agentes jurídicos. Requiere uv (uvx). Es la opción recomendada: incluye todas las skills de este marketplace.",
       "author": {
         "name": "Open Legal Chile"
       },

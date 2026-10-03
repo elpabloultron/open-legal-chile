@@ -3,7 +3,7 @@
 Gemini CLI, Antigravity, Codex/OpenAI y Copilot validan los `inputSchema` más estricto que
 Claude: un array sin `items`, un `required` que nombra campos que no existen o una unión de
 tipos (`"type": ["string", "object"]`) bastan para que descarten la herramienta o el servidor
-completo. Esta prueba recorre las 87 herramientas con esas reglas.
+completo. Esta prueba recorre las 88 herramientas con esas reglas.
 """
 
 import re

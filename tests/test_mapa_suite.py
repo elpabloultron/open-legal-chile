@@ -129,7 +129,7 @@ def test_suite_instalar_deja_el_mapa_listo_con_avances(mapa_activo, tmp_path, mo
     monkeypatch.setattr(mcp_server, "enviar_progreso", lambda *a, **k: avances.append(a))
     res = mcp_server.handle_tool_call("suite_instalar", {"carpeta": str(tmp_path)})
     assert res["mapa"]["activo"] is True and res["mapa"]["sha_fuente"] == "9" * 40
-    assert res["herramientas"] == 87
+    assert res["herramientas"] == 88
 
 
 def test_suite_instalar_sin_mapa_igual_instala(tmp_path):

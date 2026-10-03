@@ -13,6 +13,8 @@ import uuid
 import pathlib
 import urllib.request
 import urllib.parse
+import unicodedata
+from datetime import datetime
 from typing import Dict, Any, List, Optional
 from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
 
@@ -31,17 +33,84 @@ def _aviso(titulo: str, mensaje: str) -> Dict[str, Any]:
     return {"tipo": "aviso", "titulo": titulo, "mensaje": mensaje}
 
 
+def _texto_pdf(ruta: str) -> tuple:
+    """Texto de un PDF con capa de texto, y su número de páginas."""
+    # PyMuPDF es dependencia del paquete; se importa aquí para no cargarlo en cada búsqueda.
+    import pymupdf
+
+    with pymupdf.open(ruta) as doc:
+        paginas = [pagina.get_text() for pagina in doc]
+    return "\n".join(paginas).strip(), len(paginas)
+
+
 def _coincide(texto: str, consulta: str) -> bool:
     """Coincidencia por palabra completa, no por trozo.
 
     Buscar «IVA» con un `in` simple encuentra «administratIVA» y devuelve circulares que no tienen
     nada que ver. Se exige límite de palabra (y se respeta una consulta de varias palabras).
     """
+    return _puntaje(texto, consulta) > 0
+
+
+# Palabras que no distinguen una materia de otra: si se exigieran, «sociedad de profesionales» no
+# encontraría «sociedades profesionales», y si se buscaran solas traerían el índice completo.
+_PALABRAS_VACIAS = frozenset(
+    "a al con de del e el en la las lo los o para por que se sobre su sus un una u y".split())
+_NUMERO_CON_PUNTOS = re.compile(r"\d{1,3}(?:\.\d{3})+")
+_PALABRA = re.compile(r"\w+(?:[./-]\w+)*")
+
+
+def _sin_tildes(texto: str) -> str:
+    descompuesto = unicodedata.normalize("NFKD", texto or "")
+    return "".join(c for c in descompuesto if not unicodedata.combining(c)).lower()
+
+
+def _raiz(palabra: str) -> str:
+    """Singular aproximado, para que el plural no deje fuera la materia.
+
+    El SII escribe «sociedades de profesionales» en la Res. Ex. 82/2024 y «sociedad de
+    profesionales» en sus oficios: con coincidencia literal, buscar una forma no encontraba la otra.
+    No es un lematizador; basta con que singular y plural caigan en la misma raíz. Un número con
+    puntos («21.420») se compara sin ellos, para que «21420» lo encuentre.
+    """
+    if _NUMERO_CON_PUNTOS.fullmatch(palabra):
+        return palabra.replace(".", "")
+    if len(palabra) > 4 and palabra.endswith("es"):
+        palabra = palabra[:-2]
+    elif len(palabra) > 3 and palabra.endswith("s"):
+        palabra = palabra[:-1]
+    if len(palabra) > 4 and palabra.endswith("e"):
+        palabra = palabra[:-1]
+    return palabra
+
+
+def _raices(texto: str) -> set:
+    return {_raiz(t) for t in _PALABRA.findall(_sin_tildes(texto))}
+
+
+def _puntaje(texto: str, consulta: str) -> int:
+    """2 si la frase aparece tal cual, 1 si están todas sus palabras, 0 si no.
+
+    La frase exacta se exige con límite de palabra: buscar «IVA» no debe encontrar
+    «administratIVA». Si no aparece tal cual, basta con que estén todas las palabras con contenido,
+    sin importar tildes, plural ni orden.
+    """
     consulta = (consulta or "").strip()
     if not consulta:
-        return False
+        return 0
     patron = r"\b" + r"\s+".join(re.escape(p) for p in consulta.split()) + r"\b"
-    return re.search(patron, texto, re.IGNORECASE) is not None
+    if re.search(patron, texto or "", re.IGNORECASE):
+        return 2
+    buscadas = {_raiz(t) for t in _PALABRA.findall(_sin_tildes(consulta)) if t not in _PALABRAS_VACIAS}
+    if not buscadas:
+        return 0
+    return 1 if buscadas <= _raices(texto) else 0
+
+
+def _anios_recientes(cuantos: int) -> List[int]:
+    """Los últimos `cuantos` años, del actual hacia atrás. Fijarlos en el código los deja viejos."""
+    actual = datetime.now().year
+    return list(range(actual, actual - cuantos, -1))
 
 
 # La MATERIA de cada circular va en el párrafo que sigue al enlace. El índice del SII la publica ahí
@@ -303,6 +372,107 @@ class SIIClient:
     def _get_cache_path(self, key: str) -> str:
         return os.path.join(self.cache_dir, f"{key}.json")
 
+    def _ruta_pdf(self, nombre: str, extension: str = "pdf") -> str:
+        carpeta = os.path.join(self.cache_dir, "pdf")
+        os.makedirs(carpeta, exist_ok=True)
+        return os.path.join(carpeta, f"{re.sub(r'[^0-9A-Za-z_.-]', '_', nombre)}.{extension}")
+
+    def leer_documento(self, tipo: str, numero: str, anio: Optional[int] = None,
+                       fecha: Optional[str] = None, max_caracteres: int = 60000) -> Dict[str, Any]:
+        """Devuelve el TEXTO ÍNTEGRO de una circular, resolución exenta u oficio del SII.
+
+        Los índices sólo traen la materia, un resumen de una o dos líneas que no basta para citar:
+        la Circular 50 de 2022 trata de las sociedades de profesionales y su materia no lo dice.
+        Este método ubica el documento en el índice oficial, baja el PDF (queda en la caché, junto a
+        un .txt con el texto) y extrae el texto con PyMuPDF. Si el PDF es un escaneo sin capa de
+        texto, lo dice y entrega la ruta para pasarlo por OCR, en vez de devolver un texto vacío.
+        """
+        clase = _sin_tildes(tipo or "").strip()
+        anio = int(anio or datetime.now().year)
+        if clase.startswith("circ"):
+            clase, indice = "circular", self.get_circulares_por_anio(anio)
+        elif clase.startswith("res"):
+            clase, indice = "resolucion", self.get_resoluciones_por_anio(anio)
+        elif clase.startswith("ofi"):
+            clase, indice = "oficio", self.get_oficios_por_anio(anio)
+        else:
+            return {"ok": False, "error": "El tipo debe ser 'circular', 'resolucion' u 'oficio'."}
+
+        buscado = str(numero or "").strip().lstrip("0") or "0"
+        avisos = [i for i in indice if i.get("tipo") == "aviso"]
+        candidatos = [i for i in indice if i.get("tipo") != "aviso"
+                      and str(i.get("numero", "")).lstrip("0") == buscado]
+        if fecha:
+            candidatos = [i for i in candidatos if str(i.get("fecha", "")).strip() == fecha.strip()]
+        if not candidatos:
+            return {"ok": False, "avisos": avisos, "error": (
+                f"No se encontró {clase} N° {numero} en el índice de {anio}. Revisa el año: el índice "
+                "es por año de publicación.")}
+        if len(candidatos) > 1:
+            # Renta, IVA y Otras normas numeran por separado: el número solo no identifica un oficio.
+            return {"ok": False, "error": (
+                f"Hay {len(candidatos)} documentos N° {numero} en {anio}; indica la fecha (dd/mm/aaaa)."),
+                "candidatos": [{k: c.get(k, "") for k in ("numero", "fecha", "serie", "materia")}
+                               for c in candidatos]}
+
+        item = candidatos[0]
+        base = f"{clase}_{anio}_{buscado}" + (
+            f"_{re.sub(r'[^0-9]', '', str(item.get('fecha', '')))}" if clase == "oficio" else "")
+        ruta = self._ruta_pdf(base)
+        if not (os.path.exists(ruta) and os.path.getsize(ruta) > 0):
+            if clase == "oficio":
+                bajada = self.descargar_oficio(item, destino=ruta)
+                if not bajada.get("ok"):
+                    return bajada
+            else:
+                url = item.get("pdfUrl", "")
+                req = urllib.request.Request(url, headers={'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'})
+                try:
+                    with safe_urlopen(req, timeout=60) as resp:
+                        contenido = resp.read()
+                except Exception as e:
+                    return {"ok": False, "error": f"no se pudo descargar {url}: {e}"}
+                with open(ruta, "wb") as f:
+                    f.write(contenido)
+
+        with open(ruta, "rb") as f:
+            es_pdf = f.read(4) == b"%PDF"
+        if es_pdf:
+            texto, paginas = _texto_pdf(ruta)
+        else:
+            # Algunos índices antiguos enlazan una página HTML en vez de un PDF.
+            with open(ruta, "rb") as f:
+                texto, paginas = _texto_plano(f.read().decode("utf-8", errors="ignore")), 1
+
+        resultado: Dict[str, Any] = {
+            "ok": True,
+            "tipo": clase,
+            "numero": item.get("numero", ""),
+            "anio": anio,
+            "fecha": item.get("fecha", ""),
+            "titulo": item.get("titulo", ""),
+            "materia": item.get("materia", ""),
+            "materia_legal": item.get("materia_legal", ""),
+            "url": item.get("pdfUrl") or item.get("url", ""),
+            "archivo": ruta,
+            "paginas": paginas,
+            "caracteres": len(texto),
+        }
+        if not texto.strip():
+            resultado["aviso"] = (
+                "El documento no tiene capa de texto (es un escaneo). Pásalo por OCR con "
+                f"ocr_extract_pdf usando el archivo {ruta}.")
+            resultado["texto"] = ""
+            return resultado
+
+        ruta_txt = os.path.splitext(ruta)[0] + ".txt"
+        with open(ruta_txt, "w", encoding="utf-8") as f:
+            f.write(texto)
+        resultado["archivo_texto"] = ruta_txt
+        resultado["truncado"] = len(texto) > max_caracteres > 0
+        resultado["texto"] = texto[:max_caracteres] if resultado["truncado"] else texto
+        return resultado
+
     def get_circulares_por_anio(self, anio: int = 2026, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Descarga e indexa el listado oficial de Circulares del SII para un año específico."""
         cache_key = f"circulares_{anio}_v2"  # v2: incluye la MATERIA (la caché anterior no la tenía)
@@ -384,11 +554,11 @@ class SIIClient:
                 return copia  # copia vencida: mejor el índice viejo que ningún índice
             resoluciones_list = [_aviso(
                 f"No se pudo cargar el índice de resoluciones exentas {anio}",
-                f"La dirección que usa este conector ya no responde ({e}). Verificado el 18-09-2026: "
-                f"{url} devuelve 404 en todos los años probados (2023 a 2026). Es la URL la que está "
-                "obsoleta, no la ausencia de resoluciones: hay que actualizarla a la nueva ubicación "
-                "del SII. Mientras tanto, el SII publica cada resolución también en su buscador "
-                "oficial, o se puede consultar por número en el sitio del Servicio.",
+                f"La dirección que usa este conector no respondió ({e}): {url}. Esto NO significa "
+                "que no existan resoluciones de ese año. Si el error es 404 de forma persistente, el "
+                "SII movió el índice y hay que actualizar la URL (el 02-10-2026 respondía en todos los "
+                "años de 2019 a 2026). Mientras tanto, cada resolución se puede consultar en el sitio "
+                "del Servicio.",
             )]
 
         return resoluciones_list
@@ -478,9 +648,13 @@ class SIIClient:
         except Exception as e:
             return {"ok": False, "error": f"no se pudo descargar: {e}"}
 
-        if destino:
-            with open(destino, "wb") as f:
-                f.write(contenido)
+        # Sin destino el PDF queda en la caché: antes se descargaba y se descartaba, y la respuesta
+        # informaba el tamaño de un archivo que nadie podía abrir.
+        if not destino:
+            fecha = re.sub(r"\D", "", str(item.get("fecha", "")))
+            destino = self._ruta_pdf(f"oficio_{item.get('anio', '')}_{item.get('numero', '')}_{fecha}")
+        with open(destino, "wb") as f:
+            f.write(contenido)
 
         return {
             "ok": True,
@@ -760,10 +934,10 @@ class SIIClient:
         «vacío» y «la fuente está caída» son cosas distintas y no deben confundirse.
         """
         if not anios:
-            anios = [2026, 2025, 2024, 2023]
+            anios = _anios_recientes(7)  # cubre la Ley 21.420 (2022) y sus resoluciones e instrucciones
 
         q_lower = query.lower().strip()
-        matches: List[Dict[str, Any]] = []
+        puntuados: List[tuple] = []
         avisos: List[Dict[str, Any]] = []
 
         for yr in anios:
@@ -774,11 +948,17 @@ class SIIClient:
                         continue
                     texto = (f"{item.get('titulo', '')} {item.get('materia', '')} "
                              f"{item.get('materia_legal', '')}")
-                    if _coincide(texto, q_lower) or q_lower == str(item.get("numero", "")).lower():
-                        matches.append(item)
+                    numero = str(item.get("numero", "")).lower()
+                    puntaje = 3 if q_lower and q_lower.lstrip("0") == numero.lstrip("0") else _puntaje(texto, q_lower)
+                    if puntaje:
+                        puntuados.append((puntaje, item))
 
-        if matches:
-            return matches
+        if puntuados:
+            # Primero el número exacto, luego la frase tal cual, luego las que traen todas las
+            # palabras; dentro de cada grupo se respeta el orden por año. Si un año no cargó, el
+            # aviso va al final: un resultado parcial no debe pasar por completo.
+            puntuados.sort(key=lambda par: -par[0])
+            return [item for _, item in puntuados] + avisos
 
         if avisos:
             return avisos
@@ -786,7 +966,9 @@ class SIIClient:
         return [_aviso(
             f"Sin resoluciones ni oficios del SII para «{query}»",
             f"Se buscó en el número, el título y la materia de los años "
-            f"{', '.join(str(a) for a in anios)}.",
+            f"{', '.join(str(a) for a in anios)}, sin distinguir tildes, plural ni orden de las "
+            "palabras. La materia es un resumen breve: si el tema no aparece, prueba con el artículo "
+            "o la ley que se interpreta (p. ej. «12 letra E» o «21.420»).",
         )]
 
     def search_circulares(self, query: str, anios: Optional[List[int]] = None) -> List[Dict[str, Any]]:
@@ -798,10 +980,10 @@ class SIIClient:
         búsqueda temática devolvía cero resultados.
         """
         if not anios:
-            anios = [2026, 2025, 2024, 2023, 2022, 2021, 2020]
+            anios = _anios_recientes(7)
 
         q_lower = query.lower().strip()
-        matches: List[Dict[str, Any]] = []
+        puntuados: List[tuple] = []
         avisos: List[Dict[str, Any]] = []
 
         for yr in anios:
@@ -811,19 +993,26 @@ class SIIClient:
                     continue
                 num = str(c.get("numero", "")).lower()
                 texto = f"{c.get('titulo', '')} {c.get('materia', '')}"
-                if _coincide(texto, q_lower) or q_lower == num or _coincide(texto, f"circular {q_lower}"):
-                    matches.append(c)
+                if q_lower and q_lower == num:
+                    puntaje = 3
+                else:
+                    puntaje = max(_puntaje(texto, q_lower), _puntaje(texto, f"circular {q_lower}"))
+                if puntaje:
+                    puntuados.append((puntaje, c))
 
-        if matches:
-            return matches
+        if puntuados:
+            puntuados.sort(key=lambda par: -par[0])
+            return [c for _, c in puntuados] + avisos
 
         # Sin resultados se explica qué se buscó y dónde: un vacío mudo se lee como «no existe».
-        matches.append(_aviso(
+        matches: List[Dict[str, Any]] = [_aviso(
             f"Sin circulares del SII para «{query}» en los años consultados",
             "Se buscó en el número, el título y la materia de las circulares de "
-            f"{', '.join(str(a) for a in anios)}. Si esperabas resultados, revisa el término o "
-            "pide un año concreto con get_circulares_por_anio.",
-        ))
+            f"{', '.join(str(a) for a in anios)}, sin distinguir tildes, plural ni orden de las "
+            "palabras. La materia es un resumen breve que a veces sólo nombra la ley o el artículo "
+            "(la Circular 50 de 2022, sobre sociedades de profesionales, dice «artículo 6 de la Ley "
+            "N° 21.420»): prueba con la norma, o pide un año con get_circulares_por_anio.",
+        )]
         matches.extend(avisos)
         return matches
 
