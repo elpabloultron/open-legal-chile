@@ -279,7 +279,7 @@ def test_mcp_tool_recurso_proteccion_generar(tmp_path):
             "domicilio": "Av. San Josemaría Escrivá de Balaguer 5551, Vitacura"
         },
         "acto_lesivo": "Suspensión unilateral de derechos societarios sin debido proceso",
-        "fecha_acto": "2026-09-02",
+        "fecha_acto": (date.today() - timedelta(days=5)).isoformat(),
         "hechos": ["1. La directiva suspendió la membresía por acuerdo informal."],
         "garantias": ["19_2", "19_3_5", "19_24"],
         "anexos": [
