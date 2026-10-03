@@ -210,9 +210,9 @@
     "semantic_hash": "6a043b9fa838408812e99eefc237ca56"
   },
   "doctrina_connector.py": {
-    "mtime": 1790289949.0877106,
-    "seen": 1790291142.995718,
-    "ast_hash": "4425852efc4227fb85f2012e42895ef3",
+    "mtime": 1791053537.843084,
+    "seen": 1791061760.1361933,
+    "ast_hash": "1516052b5a63d11056143c288fc7e979",
     "semantic_hash": ""
   },
   "domain/__init__.py": {
@@ -258,9 +258,9 @@
     "semantic_hash": "f02efcf0b20800ea3d2973c74f474f38"
   },
   "exporters.py": {
-    "mtime": 1790545330.3840377,
-    "seen": 1790784720.1848419,
-    "ast_hash": "b809c00322f0c970b29a62c41d2de1c1",
+    "mtime": 1791061507.8086605,
+    "seen": 1791061760.1363504,
+    "ast_hash": "3df30c553ff43eee5adca5c49a536d6c",
     "semantic_hash": ""
   },
   "forensic_ocr.py": {
@@ -282,15 +282,15 @@
     "semantic_hash": "d00157600bed7db3566b4a9a79d72f38"
   },
   "mcp_config.json": {
-    "mtime": 1788666758.9534245,
-    "seen": 1788703307.405446,
-    "ast_hash": "06aed02303a931a4d39fa2a6d3e06b6b",
-    "semantic_hash": "06aed02303a931a4d39fa2a6d3e06b6b"
+    "mtime": 1791053562.1728904,
+    "seen": 1791061760.1364682,
+    "ast_hash": "7e06b0edd4de262e4cf69648632b994c",
+    "semantic_hash": ""
   },
   "mcp_server.py": {
-    "mtime": 1790638078.5659182,
-    "seen": 1790784720.1849174,
-    "ast_hash": "07e9d9de89c8e4af7d4849a6af33fa0c",
+    "mtime": 1791052783.4496655,
+    "seen": 1791061760.1364694,
+    "ast_hash": "4e7ef2c03cfe30bea85122dc20045e75",
     "semantic_hash": ""
   },
   "notebooklm_connector.py": {
@@ -348,9 +348,9 @@
     "semantic_hash": "3df5ae492c894e691e14e9416aa81f60"
   },
   "pyproject.toml": {
-    "mtime": 1790783344.3501327,
-    "seen": 1790784720.1849859,
-    "ast_hash": "965ae280bc52f975481b79d2f94de94f",
+    "mtime": 1791061355.1296225,
+    "seen": 1791061760.136634,
+    "ast_hash": "f5453f4148487193dd292e855de6459d",
     "semantic_hash": ""
   },
   "query_openlegal_laws.py": {
@@ -540,9 +540,9 @@
     "semantic_hash": ""
   },
   "case_intake.py": {
-    "mtime": 1790783576.692064,
-    "seen": 1790784720.1846178,
-    "ast_hash": "695df8b3e8e6443a08ffc47fdd7f6abf",
+    "mtime": 1791061531.1454988,
+    "seen": 1791061760.1358664,
+    "ast_hash": "b361f8df866c3b6a7bad3a84a2e230e0",
     "semantic_hash": ""
   },
   "data/enlaces_guias_aj.json": {
@@ -588,9 +588,9 @@
     "semantic_hash": ""
   },
   "legal_graphify.py": {
-    "mtime": 1790810223.8740823,
-    "seen": 1790817035.3884354,
-    "ast_hash": "0e19a5d6195bd4d928e107bc041f0bbb",
+    "mtime": 1791053377.4263477,
+    "seen": 1791061760.1364655,
+    "ast_hash": "a3857e473dc0fa9d96435a6ccc308979",
     "semantic_hash": ""
   },
   "recurso_proteccion.py": {
@@ -606,9 +606,9 @@
     "semantic_hash": ""
   },
   "server.json": {
-    "mtime": 1790638078.5662737,
-    "seen": 1790784720.185097,
-    "ast_hash": "9136a5a70c819f2126be58622c776761",
+    "mtime": 1791053569.74883,
+    "seen": 1791061760.1374338,
+    "ast_hash": "2769917df012d0a1820b536d71cf106f",
     "semantic_hash": ""
   },
   "tests/test_agents.py": {
@@ -642,9 +642,9 @@
     "semantic_hash": ""
   },
   "tests/test_empaquetado.py": {
-    "mtime": 1790617205.6244583,
-    "seen": 1790784720.185235,
-    "ast_hash": "95c966fb22e72d9042a0071c67bde107",
+    "mtime": 1791053619.5184321,
+    "seen": 1791061760.1380134,
+    "ast_hash": "f317a9b3d56a0f4f13a5637c115138e5",
     "semantic_hash": ""
   },
   "tests/test_grafo_vista.py": {
@@ -1002,9 +1002,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1790867236.005829,
-    "seen": 1790867276.0755353,
-    "ast_hash": "0c1d5d0fa05c418ac54e1ad334dabfe2",
+    "mtime": 1791061620.7248476,
+    "seen": 1791061760.1397111,
+    "ast_hash": "5b54b7a63432216ebb6a8a55bd753e54",
     "semantic_hash": ""
   },
   "ROADMAP.md": {
@@ -2682,9 +2682,9 @@
     "semantic_hash": ""
   },
   "smithery.yaml": {
-    "mtime": 1789749102.9674728,
-    "seen": 1790291142.9964948,
-    "ast_hash": "5ecd010582651eb043b2cc663a76dcc0",
+    "mtime": 1791053586.0297,
+    "seen": 1791061760.145055,
+    "ast_hash": "8fea83d0ae062092eed73be040b187b9",
     "semantic_hash": ""
   },
   "Manuales/Derecho-Procesal-profesora-Cerra(1).pdf": {
@@ -2940,27 +2940,27 @@
     "semantic_hash": ""
   },
   "servidor/ambiental.py": {
-    "mtime": 1790783042.0702617,
-    "seen": 1790784720.185098,
-    "ast_hash": "635d154863f39b9a17ba9df6a3eba332",
+    "mtime": 1791052858.015171,
+    "seen": 1791061760.1374512,
+    "ast_hash": "1b433b111be0c1efc32f0368429dfaef",
     "semantic_hash": ""
   },
   "servidor/casos.py": {
-    "mtime": 1790783054.7678154,
-    "seen": 1790784720.1850986,
-    "ast_hash": "565f52dd9f41ddd33317564794dcf171",
+    "mtime": 1791061550.1513646,
+    "seen": 1791061760.1374521,
+    "ast_hash": "ed83f8dcfb3fbc5a3f4fd50a11a112c9",
     "semantic_hash": ""
   },
   "servidor/conectores.py": {
-    "mtime": 1790783122.4923985,
-    "seen": 1790784720.1850996,
-    "ast_hash": "b0122d31d0a03d78bd786d338f2f58b2",
+    "mtime": 1791053711.3156934,
+    "seen": 1791061760.137453,
+    "ast_hash": "869a0270f8c95604cb12b596638e45fa",
     "semantic_hash": ""
   },
   "servidor/corpus.py": {
-    "mtime": 1790788825.4041574,
-    "seen": 1790800211.5965717,
-    "ast_hash": "689481e2dad424ae2097c4e1fce6eda3",
+    "mtime": 1791052819.780427,
+    "seen": 1791061760.1374538,
+    "ast_hash": "92b6684338b7d1335126e931b9860a35",
     "semantic_hash": ""
   },
   "servidor/forense.py": {
@@ -3483,6 +3483,36 @@
     "mtime": 1790866787.7700114,
     "seen": 1790867276.0764167,
     "ast_hash": "4121ccfaf2640215df436c8828104861",
+    "semantic_hash": ""
+  },
+  "legal_canvas.py": {
+    "mtime": 1791061702.2762177,
+    "seen": 1791061760.1364648,
+    "ast_hash": "5f53b6be48069e9b9b888f623a415f5d",
+    "semantic_hash": ""
+  },
+  "legal_open_jev.py": {
+    "mtime": 1791061191.008423,
+    "seen": 1791061760.1364672,
+    "ast_hash": "e103a70ec542b0a3c6ed1a9c3c96d1db",
+    "semantic_hash": ""
+  },
+  "tests/test_legal_canvas.py": {
+    "mtime": 1791061560.6202898,
+    "seen": 1791061760.138235,
+    "ast_hash": "1e1f9fbb20b6f3ce902e5e5d4649a03f",
+    "semantic_hash": ""
+  },
+  "tests/test_legal_open_jev.py": {
+    "mtime": 1791061708.397169,
+    "seen": 1791061760.1383305,
+    "ast_hash": "0288c8d60e421ca845d1e68efac14f90",
+    "semantic_hash": ""
+  },
+  "docs/paper_cientifico_open_legal_chile.md": {
+    "mtime": 1791061643.6036742,
+    "seen": 1791061760.1406696,
+    "ast_hash": "14190d8b8a3e70e6854c502930c7fdca",
     "semantic_hash": ""
   }
 }

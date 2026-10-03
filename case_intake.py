@@ -652,7 +652,7 @@ def _resumen(analisis: Dict[str, Any]) -> str:
 
 
 def caso_analizar(entrada: str, tipo: Optional[str] = None, consulta: str = "",
-                  estudio_completo: bool = False) -> Dict[str, Any]:
+                  estudio_completo: bool = False, generar_dashboard: bool = False) -> Dict[str, Any]:
     """Punto de entrada: de un caso a un plan. Si estudio_completo es True, consolida marco legal y doctrina en 1 paso."""
     if estudio_completo:
         return caso_estudio_completo(entrada, tipo=tipo, consulta=consulta)
@@ -685,6 +685,12 @@ def caso_analizar(entrada: str, tipo: Optional[str] = None, consulta: str = "",
         analisis["workspace"] = {"error": str(_err)}
 
     analisis["resumen"] = _resumen(analisis)
+    if generar_dashboard:
+        try:
+            from legal_canvas import LegalCanvasEngine
+            analisis["dashboard_html"] = LegalCanvasEngine.render_case_dashboard(analisis)
+        except Exception:
+            pass
     return analisis
 
 

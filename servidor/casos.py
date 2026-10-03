@@ -41,7 +41,9 @@ TOOLS = [
                          "description": "cómo interpretar la entrada (por defecto se deduce)"},
                 "consulta": {"type": "string", "description": "la pregunta u objetivo, para que el plan apunte a eso"},
                 "estudio_completo": {"type": "boolean",
-                                     "description": "Si es True, realiza en un solo paso local el análisis, consulta de marco normativo BCN y doctrina FTS5, consolidando la respuesta sin turnos adicionales"}
+                                     "description": "Si es True, realiza en un solo paso local el análisis, consulta de marco normativo BCN y doctrina FTS5, consolidando la respuesta sin turnos adicionales"},
+                "generar_dashboard": {"type": "boolean",
+                                      "description": "Si es True, genera un dashboard HTML autónomo e interactivo con LegalCanvas (SVG, checklist y citas)"}
             },
             "required": ["entrada"]
         }
@@ -222,7 +224,8 @@ def despachar(name: str, args: dict) -> Any:
                                                           args.get("consulta", ""))
         else:
             resultado = case_intake.caso_analizar(args.get("entrada", ""), args.get("tipo"),
-                                                  args.get("consulta", ""))
+                                                  args.get("consulta", ""),
+                                                  generar_dashboard=bool(args.get("generar_dashboard", False)))
         if isinstance(resultado, dict) and "error" not in resultado:
             _precalentar_normas_caso(resultado)
         return resultado
