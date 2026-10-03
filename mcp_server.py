@@ -122,6 +122,7 @@ def precalentar_caches() -> None:
 # ── Progreso MCP: el cliente pone `params._meta.progressToken` en cada tools/call ─────────────
 # Sin token no se escribe nada: los clientes que no saben de avances ven el protocolo de siempre.
 _STDOUT_LOCK = threading.Lock()
+_OUTPUT_STREAM: Optional[Any] = None
 _TOKEN_PROGRESO: Any = None
 
 
@@ -147,9 +148,10 @@ def enviar_progreso(mensaje: str, avance: int = 0, total: Optional[int] = None) 
         params["message"] = mensaje
     linea = json.dumps({"jsonrpc": "2.0", "method": "notifications/progress", "params": params},
                        ensure_ascii=False, separators=(",", ":"))
+    out = _OUTPUT_STREAM if _OUTPUT_STREAM is not None else sys.stdout
     with _STDOUT_LOCK:
-        sys.stdout.write(linea + "\n")
-        sys.stdout.flush()
+        out.write(linea + "\n")
+        out.flush()
 
 
 import case_intake
@@ -599,6 +601,8 @@ def get_active_tools(profile_name: Optional[str] = None) -> List[Dict[str, Any]]
 
 def main():
     """Bucle principal JSON-RPC 2.0 para el servidor MCP."""
+    global _OUTPUT_STREAM
+    _OUTPUT_STREAM = sys.stdout
     profile_cli = None
     for i, a in enumerate(sys.argv):
         if a == "--profile" and i + 1 < len(sys.argv):
@@ -742,9 +746,10 @@ def main():
                     }
                 }
 
+            out = _OUTPUT_STREAM if _OUTPUT_STREAM is not None else sys.stdout
             with _STDOUT_LOCK:
-                sys.stdout.write(json.dumps(resp, ensure_ascii=False, separators=(',', ':')) + "\n")
-                sys.stdout.flush()
+                out.write(json.dumps(resp, ensure_ascii=False, separators=(',', ':')) + "\n")
+                out.flush()
 
         except Exception as e:
             req_id_err = req.get("id") if (isinstance(req, dict) and req.get("id") is not None) else None
@@ -753,9 +758,10 @@ def main():
                 "id": req_id_err,
                 "error": {"code": -32603, "message": str(e)}
             }
+            out = _OUTPUT_STREAM if _OUTPUT_STREAM is not None else sys.stdout
             with _STDOUT_LOCK:
-                sys.stdout.write(json.dumps(err_resp) + "\n")
-                sys.stdout.flush()
+                out.write(json.dumps(err_resp) + "\n")
+                out.flush()
 
 if __name__ == "__main__":
     main()
