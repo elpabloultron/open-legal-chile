@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script to update docs/index.html with:
-1. Exact 87 MCP tools metadata across 8 categories
+1. Exact 88 MCP tools metadata across 8 categories
 2. Updated stats: 7,399 works, 25,556 institutions, 20,990 nodes, 51,590 edges, 11 journals, 507 tests
 3. Playful animations:
    - Interactive hero graph canvas with floating Chilean legal institutions and cursor connection
@@ -81,6 +81,7 @@ def build_all_tools_dataset():
         "sii_buscar_resoluciones_y_oficios": "Regulatorio & Fiscal",
         "sii_oficios_por_anio": "Regulatorio & Fiscal",
         "sii_descargar_oficio": "Regulatorio & Fiscal",
+        "sii_leer_documento": "Regulatorio & Fiscal",
         "sii_actos_regionales": "Regulatorio & Fiscal",
         "sii_convenios_internacionales": "Regulatorio & Fiscal",
         "sii_jurisprudencia_judicial": "Regulatorio & Fiscal",

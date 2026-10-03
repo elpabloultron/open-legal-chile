@@ -135,7 +135,7 @@ No hace falta nombrar una herramienta ni escribir un comando: se pide como se le
 | «Es un caso ambiental» · «Mirá la sanción de la SMA» · «¿Qué dijo el Tribunal Ambiental?» | Se llama el módulo `ambiental_consulta_maestra`: sentencias TA, anuarios, boletines, biblioteca ambiental y doctrina, con texto literal |
 
 El agente **debe** usar `caso_analizar` ante esos pedidos, aunque la persona no nombre ninguna
-herramienta: así el trabajo no depende de que el modelo elija bien entre 87 herramientas. Y cuando
+herramienta: así el trabajo no depende de que el modelo elija bien entre 88 herramientas. Y cuando
 la mesa dice que falta algo (el Rol/RIT, las fechas, el RUT), eso se le pide a la persona **antes**
 de ejecutar: no se completa por deducción.
 
@@ -144,7 +144,7 @@ ClaveÚnica y captcha: la suite no automatiza el acceso a un sistema con credenc
 mesa lo dice en sus advertencias y no expone ninguna herramienta que prometa lo contrario.
 
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`; tool schemas and dispatch live per-domain in `servidor/`) — 87 official tools over 16 forensic, state, doctrinal and agentic connectors:
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`; tool schemas and dispatch live per-domain in `servidor/`) — 88 official tools over 16 forensic, state, doctrinal and agentic connectors:
 
 **BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).
