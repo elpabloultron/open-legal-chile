@@ -10,6 +10,7 @@ import json
 import os
 import pathlib
 import threading
+import contextlib
 from datetime import datetime
 
 # Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
@@ -255,6 +256,20 @@ ORDEN_ORIGEN: List[str] = [
 if sorted(_POR_NOMBRE) != sorted(ORDEN_ORIGEN):
     raise RuntimeError("servidor/: los dominios no cubren exactamente las herramientas esperadas")
 TOOLS: List[Dict[str, Any]] = [_POR_NOMBRE[_n] for _n in ORDEN_ORIGEN]
+
+# Metadatos de anotaciones oficiales MCP (readOnlyHint / openWorldHint) para Claude Opus y harnesses
+_HERRAMIENTAS_ESCRITURA = {
+    "recurso_proteccion_generar", "generar_documento", "compile_legal_dossier",
+    "export_brief_ojv", "doctrina_ingestar_documento", "suite_auto_update", "suite_instalar"
+}
+for _t in TOOLS:
+    if "annotations" not in _t:
+        _es_escritura = _t["name"] in _HERRAMIENTAS_ESCRITURA
+        _t["annotations"] = {
+            "readOnlyHint": not _es_escritura,
+            "destructiveHint": False,
+            "openWorldHint": not _es_escritura,
+        }
 
 def _con_avisos(resultado):
     """
@@ -614,11 +629,13 @@ def main():
                 continue
 
             if method == "initialize":
+                solicitada = params.get("protocolVersion")
+                protocol_ver = solicitada if solicitada in ("2024-11-05", "2025-06-18", "2025-11-25") else "2024-11-05"
                 resp = {
                     "jsonrpc": "2.0",
                     "id": req_id,
                     "result": {
-                        "protocolVersion": "2024-11-05",
+                        "protocolVersion": protocol_ver,
                         "capabilities": {
                             "tools": {},
                             # El harness no sólo ve las herramientas: también puede leer las reglas
@@ -663,7 +680,7 @@ def main():
                 resp = {"jsonrpc": "2.0", "id": req_id,
                         "result": {"resources": _recursos_disponibles()}}
             elif method == "resources/read":
-                uri = params.get("uri", "")
+                uri = (params or {}).get("uri", "")
                 contenido = _leer_recurso(uri)
                 if contenido is None:
                     resp = {"jsonrpc": "2.0", "id": req_id,
@@ -683,7 +700,9 @@ def main():
                 tool_args = params.get("arguments", {})
                 _fijar_token_progreso((params.get("_meta") or {}).get("progressToken"))
                 try:
-                    res = handle_tool_call(tool_name, tool_args)
+                    # Blindaje contra stdout pollution: cualquier print espurio viaja a stderr
+                    with contextlib.redirect_stdout(sys.stderr):
+                        res = handle_tool_call(tool_name, tool_args)
                 finally:
                     _fijar_token_progreso(None)
                 is_error = isinstance(res, dict) and "error" in res
@@ -728,9 +747,10 @@ def main():
                 sys.stdout.flush()
 
         except Exception as e:
+            req_id_err = req.get("id") if (isinstance(req, dict) and req.get("id") is not None) else None
             err_resp = {
                 "jsonrpc": "2.0",
-                "id": None,
+                "id": req_id_err,
                 "error": {"code": -32603, "message": str(e)}
             }
             with _STDOUT_LOCK:

@@ -8,7 +8,7 @@ import os
 import sys
 import re
 import sqlite3
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, Tuple
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DOCTRINA_DIR = os.path.join(BASE_DIR, "doctrina")
@@ -223,6 +223,189 @@ def _normalize_area_filter(area: str) -> str:
     return f"%{area}%"
 
 
+def _has_doctrina_db(db_path: str = DB_PATH) -> bool:
+    """Verifica si la base de datos doctrina.db existe y tiene al menos un registro."""
+    if not os.path.exists(db_path):
+        return False
+    try:
+        conn = sqlite3.connect(db_path)
+        cur = conn.cursor()
+        cur.execute("SELECT 1 FROM doctrina_instituciones LIMIT 1;")
+        res = cur.fetchone()
+        conn.close()
+        return bool(res)
+    except Exception:
+        return False
+
+
+def _item_to_institucion_dict(it: Dict[str, Any]) -> Dict[str, Any]:
+    definicion = it.get("definicion", "")
+    operativa = it.get("operativa_procesal", "")
+    contenido = definicion
+    if operativa:
+        contenido = f"{definicion}\n\n**Operativa Procesal Forense:**\n{operativa}"
+    return {
+        "id": it.get("id"),
+        "area": it.get("area", "General"),
+        "autor": it.get("autor", "Autor Desconocido"),
+        "obra": it.get("obra", ""),
+        "materia": it.get("materia", ""),
+        "institucion": it.get("institucion", ""),
+        "definicion": definicion,
+        "contenido": contenido,
+        "operativa_procesal": operativa,
+        "concordancias": it.get("concordancias", ""),
+        "fallo_rector": it.get("fallo_rector", ""),
+        "filepath": it.get("archivo", ""),
+        "tokens_aprox": it.get("tokens_aprox", 0),
+        "cita_oficial": f"[Doctrina - {it.get('autor')}, {it.get('obra')}, Institución: {it.get('institucion')}]",
+        "fuente_huggingface": it.get("ruta_hf", "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile")
+    }
+
+
+def _search_doctrina_catalogo(
+    query: str,
+    area: Optional[str] = None,
+    autor: Optional[str] = None,
+    limit: int = 5
+) -> List[Dict[str, Any]]:
+    """Búsqueda de respaldo en el catálogo en memoria de instituciones_lite.jsonl."""
+    try:
+        from online_library_sync import _obtener_catalogo_instituciones, _normalizar_para_buscar, _PALABRAS_VACIAS
+    except ImportError:
+        return []
+
+    items, indice = _obtener_catalogo_instituciones()
+    if not items:
+        return []
+
+    clean_query = _normalizar_para_buscar(query).lower().strip()
+    words = [w for w in re.findall(r"\b\w{3,}\b", clean_query) if w not in _PALABRAS_VACIAS]
+    if not words:
+        words = clean_query.split()
+
+    from collections import Counter
+    scores: Counter = Counter()
+
+    for w in words:
+        for idx in indice.get(w, []):
+            it = items[idx]
+            inst_norm = _normalizar_para_buscar(it.get("institucion", "")).lower()
+            mat_norm = _normalizar_para_buscar(it.get("materia", "")).lower()
+            aut_norm = _normalizar_para_buscar(it.get("autor", "")).lower()
+            sc = 2
+            if w in inst_norm:
+                sc += 10
+            if w in mat_norm:
+                sc += 5
+            if w in aut_norm:
+                sc += 15
+            if clean_query in inst_norm or clean_query in aut_norm:
+                sc += 25
+            scores[idx] += sc
+
+    area_filter = area.lower().strip() if area else None
+    autor_filter = autor.lower().strip() if autor else None
+
+    results: List[Dict[str, Any]] = []
+    vistos_inst = set()
+
+    for idx, sc in scores.most_common(limit * 5):
+        it = items[idx]
+        it_area = it.get("area", "")
+        it_autor = it.get("autor", "")
+        it_inst = it.get("institucion", "")
+
+        if area_filter and area_filter not in it_area.lower():
+            continue
+        if autor_filter and autor_filter not in it_autor.lower():
+            continue
+
+        if it_inst in vistos_inst:
+            continue
+        vistos_inst.add(it_inst)
+
+        definicion = it.get("definicion", "")
+        snippet = definicion[:300] + ("..." if len(definicion) > 300 else "")
+
+        results.append({
+            "id": it.get("id", idx + 1),
+            "institucion": it_inst,
+            "definicion": definicion,
+            "snippet": snippet,
+            "concordancias": it.get("concordancias", ""),
+            "fallo_rector": it.get("fallo_rector", ""),
+            "area": it_area,
+            "autor": it_autor,
+            "obra": it.get("obra", ""),
+            "operativa_procesal": it.get("operativa_procesal", ""),
+            "bm25_score": round(float(sc), 4),
+            "cita_oficial": f"[Doctrina - {it_autor}, {it.get('obra')}, Institución: {it_inst}]",
+            "fuente_huggingface": it.get("ruta_hf", "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile")
+        })
+        if len(results) >= limit:
+            break
+
+    return results
+
+
+def _get_institucion_catalogo(
+    nombre_o_termino: str,
+    area: Optional[str] = None
+) -> Optional[Dict[str, Any]]:
+    """Recupera la institución desde el catálogo en memoria de instituciones_lite.jsonl."""
+    try:
+        from online_library_sync import _obtener_catalogo_instituciones, _normalizar_para_buscar
+    except ImportError:
+        return None
+
+    items, _ = _obtener_catalogo_instituciones()
+    if not items:
+        return None
+
+    term_norm = _normalizar_para_buscar(nombre_o_termino).lower().strip()
+    area_filter = area.lower().strip() if area else None
+
+    # 1. Búsqueda exacta
+    for it in items:
+        it_area = it.get("area", "")
+        if area_filter and area_filter not in it_area.lower():
+            continue
+        inst_norm = _normalizar_para_buscar(it.get("institucion", "")).lower().strip()
+        if inst_norm == term_norm:
+            return _item_to_institucion_dict(it)
+
+    # 2. Búsqueda por contención
+    candidatos = []
+    for it in items:
+        it_area = it.get("area", "")
+        if area_filter and area_filter not in it_area.lower():
+            continue
+        inst_norm = _normalizar_para_buscar(it.get("institucion", "")).lower().strip()
+        if term_norm in inst_norm:
+            candidatos.append(it)
+
+    if candidatos:
+        def _sort_key(it: Dict[str, Any]) -> Tuple[int, int, str]:
+            archivo = it.get("archivo", "").lower()
+            penalizar = 1 if ("apuntes" in archivo or "academia_judicial" in archivo or "manuales" in archivo) else 0
+            return (penalizar, len(it.get("institucion", "")), it.get("institucion", ""))
+
+        candidatos.sort(key=_sort_key)
+        return _item_to_institucion_dict(candidatos[0])
+
+    # 3. Búsqueda en materia o autor
+    for it in items:
+        it_area = it.get("area", "")
+        if area_filter and area_filter not in it_area.lower():
+            continue
+        mat_norm = _normalizar_para_buscar(it.get("materia", "")).lower()
+        if term_norm in mat_norm:
+            return _item_to_institucion_dict(it)
+
+    return None
+
+
 def search_doctrina(
     query: str,
     area: Optional[str] = None,
@@ -233,9 +416,14 @@ def search_doctrina(
     """
     Busca doctrina dogmática chilena utilizando FTS5 con ranking BM25.
     Permite filtrar por área (Civil, Laboral, Penal, etc.) y por autor.
+    Si la base de datos local no existe o no tiene registros, consulta
+    el catálogo en memoria de instituciones_lite.jsonl.
     """
-    if not os.path.exists(db_path):
-        index_all_doctrina(db_path=db_path)
+    if not _has_doctrina_db(db_path):
+        if os.path.exists(DOCTRINA_DIR) and any(f.endswith(".md") for _, _, fs in os.walk(DOCTRINA_DIR) for f in fs):
+            index_all_doctrina(db_path=db_path)
+        else:
+            return _search_doctrina_catalogo(query, area=area, autor=autor, limit=limit)
 
     conn = init_db(db_path)
     cursor = conn.cursor()
@@ -323,6 +511,10 @@ def search_doctrina(
         })
 
     conn.close()
+
+    if not results:
+        results = _search_doctrina_catalogo(query, area=area, autor=autor, limit=limit)
+
     return results
 
 
@@ -334,8 +526,11 @@ def get_institucion(
     """
     Recupera la ficha doctrinal completa y detallada de una institución jurídica específica.
     """
-    if not os.path.exists(db_path):
-        index_all_doctrina(db_path=db_path)
+    if not _has_doctrina_db(db_path):
+        if os.path.exists(DOCTRINA_DIR) and any(f.endswith(".md") for _, _, fs in os.walk(DOCTRINA_DIR) for f in fs):
+            index_all_doctrina(db_path=db_path)
+        else:
+            return _get_institucion_catalogo(nombre_o_termino, area=area)
 
     conn = init_db(db_path)
     cursor = conn.cursor()
@@ -379,7 +574,7 @@ def get_institucion(
     conn.close()
 
     if not row:
-        return None
+        return _get_institucion_catalogo(nombre_o_termino, area=area)
 
     return {
         "id": row[0],
@@ -402,31 +597,58 @@ def get_institucion(
 
 def list_obras(db_path: str = DB_PATH) -> List[Dict[str, Any]]:
     """Lista las obras y tratados indexados con sus autores, áreas y cantidad de instituciones."""
-    if not os.path.exists(db_path):
-        index_all_doctrina(db_path=db_path)
+    if _has_doctrina_db(db_path):
+        conn = init_db(db_path)
+        cursor = conn.cursor()
+        cursor.execute("""
+        SELECT area, autor, obra, COUNT(*) as num_instituciones, SUM(tokens_aprox) as total_tokens
+        FROM doctrina_instituciones
+        GROUP BY area, autor, obra
+        ORDER BY area ASC, autor ASC;
+        """)
+        rows = cursor.fetchall()
+        conn.close()
+        if rows:
+            return [
+                {
+                    "area": r[0],
+                    "autor": r[1],
+                    "obra": r[2],
+                    "num_instituciones": r[3],
+                    "tokens_aprox": r[4]
+                }
+                for r in rows
+            ]
 
-    conn = init_db(db_path)
-    cursor = conn.cursor()
+    # Fallback al catálogo en memoria de instituciones_lite.jsonl
+    try:
+        from online_library_sync import _obtener_catalogo_instituciones
+        items, _ = _obtener_catalogo_instituciones()
+    except Exception:
+        items = []
 
-    cursor.execute("""
-    SELECT area, autor, obra, COUNT(*) as num_instituciones, SUM(tokens_aprox) as total_tokens
-    FROM doctrina_instituciones
-    GROUP BY area, autor, obra
-    ORDER BY area ASC, autor ASC;
-    """)
-    rows = cursor.fetchall()
-    conn.close()
+    if not items:
+        return []
 
-    return [
-        {
-            "area": r[0],
-            "autor": r[1],
-            "obra": r[2],
-            "num_instituciones": r[3],
-            "tokens_aprox": r[4]
-        }
-        for r in rows
-    ]
+    from collections import defaultdict
+    obras_map: Dict[Tuple[str, str, str], Dict[str, Any]] = defaultdict(lambda: {"count": 0, "tokens": 0})
+    for it in items:
+        area = it.get("area", "General")
+        autor = it.get("autor", "Autor Desconocido")
+        obra = it.get("obra", "Tratado General")
+        obras_map[(area, autor, obra)]["count"] += 1
+        obras_map[(area, autor, obra)]["tokens"] += it.get("tokens_aprox", 0)
+
+    res = []
+    for (area, autor, obra), stats in sorted(obras_map.items()):
+        res.append({
+            "area": area,
+            "autor": autor,
+            "obra": obra,
+            "num_instituciones": stats["count"],
+            "tokens_aprox": stats["tokens"]
+        })
+    return res
 
 
 if __name__ == "__main__":

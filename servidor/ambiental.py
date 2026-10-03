@@ -51,14 +51,14 @@ TOOLS = [
 def despachar(name: str, args: dict) -> Any:
     _refrescar()
     if name == "ambiental_buscar_jurisprudencia":
-        q = args.get("query")
+        q = (args.get("query") or args.get("consulta") or args.get("q") or "").strip()
         if not q:
-            return {"error": "El parámetro 'query' es obligatorio."}
+            return {"error": "El parámetro 'query' (o 'consulta') es obligatorio."}
         return ambientales_client.search_jurisprudencia(q, args.get("tribunal"))
     elif name == "ambiental_consulta_maestra":
-        consulta = (args.get("consulta") or "").strip()
+        consulta = (args.get("consulta") or args.get("query") or args.get("q") or "").strip()
         if not consulta:
-            return {"error": "El parámetro 'consulta' es obligatorio."}
+            return {"error": "El parámetro 'consulta' (o 'query') es obligatorio."}
         from modulo_ambiental import consulta_ambiental
         enviar_progreso("Ambiental: corpus, sentencias y doctrina", 1, 3)
         resultado = consulta_ambiental(consulta, limite=int(args.get("limite") or 8),

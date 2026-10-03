@@ -467,10 +467,9 @@ class LegalGraphifyEngine:
         if q_norm in self.graph:
             return q_norm
 
-        # 1. Coincidencia exacta o contiene en instituciones_index
-        for name, nid in self.instituciones_index.items():
-            if q_norm == name or q_norm in name:
-                return nid
+        # 1. Coincidencia exacta O(1) en instituciones
+        if q_norm in self.instituciones_index:
+            return self.instituciones_index[q_norm]
 
         # 2. Coincidencia en normas
         for name, nid in self.normas_index.items():
@@ -480,13 +479,55 @@ class LegalGraphifyEngine:
                     return preds[0]
                 return nid
 
-        # 2.5 Coincidencia exacta o contiene con cualquier label del grafo (O(1))
-        if q_norm in self._label_index:
-            return self._label_index[q_norm]
+        # 2.5 Coincidencia por contención o todas las palabras en instituciones canónicas
+        # Prioriza la entidad dogmática con mayor grado y penaliza fragmentos no normalizados
+        candidatos_sub: List[Tuple[int, int, str]] = []  # (-score, len(label), nid)
+        palabras_q_list = [w for w in q_norm.split() if len(w) > 2]
+
         if len(q_norm) > 3:
+            for name, nid in self.instituciones_index.items():
+                if q_norm in name or (len(palabras_q_list) > 1 and all(w in name for w in palabras_q_list)):
+                    if self.graph.has_node(nid):
+                        deg = self.graph.degree(nid)
+                        score = deg * 10
+                        if q_norm in name:
+                            score += 5
+                        if name.startswith(("id_", "1", "2", "3", "4", "5", "6", "7", "8", "9", "pregunta", "parte ")):
+                            score -= 50
+                        candidatos_sub.append((-score, len(name), nid))
+
+            if candidatos_sub:
+                candidatos_sub.sort()
+                return candidatos_sub[0][2]
+
+            # Si no hubo coincidencia en instituciones, buscar en _label_index resolviendo vías a su institución
+            if q_norm in self._label_index:
+                nid = self._label_index[q_norm]
+                if self.graph.nodes[nid].get("node_type") == "via_procesal":
+                    preds = list(self.graph.predecessors(nid))
+                    if preds:
+                        return preds[0]
+                return nid
+
             for lbl_norm, nid in self._label_index.items():
                 if q_norm in lbl_norm:
-                    return nid
+                    if self.graph.has_node(nid):
+                        deg = self.graph.degree(nid)
+                        score = deg * 10
+                        target_nid = nid
+                        if self.graph.nodes[nid].get("node_type") == "via_procesal":
+                            preds = list(self.graph.predecessors(nid))
+                            if preds:
+                                target_nid = preds[0]
+                                deg = self.graph.degree(target_nid)
+                                score = deg * 10
+                        if lbl_norm.startswith(("id_", "1", "2", "3", "4", "5", "6", "7", "8", "9", "pregunta", "parte ")):
+                            score -= 50
+                        candidatos_sub.append((-score, len(lbl_norm), target_nid))
+
+            if candidatos_sub:
+                candidatos_sub.sort()
+                return candidatos_sub[0][2]
 
         # 3. Puntuación ultra-rápida por solapamiento de palabras con índice invertido (O(K))
         if not self._word_to_nodes and self.graph.number_of_nodes() > 0:

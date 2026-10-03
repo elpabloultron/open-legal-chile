@@ -455,9 +455,9 @@ def _citas_por_lote(referencias: list, limite: Optional[int] = 1200) -> dict:
 def despachar(name: str, args: dict) -> Any:
     _refrescar()
     if name == "consulta_maestra":
-        consulta = (args.get("consulta") or "").strip()
+        consulta = (args.get("consulta") or args.get("query") or args.get("q") or args.get("termino") or "").strip()
         if not consulta:
-            return {"error": "El parámetro 'consulta' es obligatorio."}
+            return {"error": "El parámetro 'consulta' (o 'query') es obligatorio."}
         lim = int(args.get("max_fuentes") or 3)
         # Los cuatro sondeos son independientes (HF, doctrina, normas, subgrafo):
         # en paralelo la consulta espera al más lento, no a la suma.
@@ -532,9 +532,9 @@ def despachar(name: str, args: dict) -> Any:
             return {"referencia": referencia, "normas_detectadas": normas, "citas": [resultado["cita"]]}
         return resultado
     elif name == "busqueda_universal":
-        consulta = (args.get("consulta") or "").strip()
+        consulta = (args.get("consulta") or args.get("query") or args.get("q") or args.get("termino") or "").strip()
         if not consulta:
-            return {"error": "El parámetro 'consulta' es obligatorio."}
+            return {"error": "El parámetro 'consulta' (o 'query') es obligatorio."}
         resultados = _registro_estatal().search_all(consulta)
         citas_halladas: List[Dict[str, Any]] = []
         if isinstance(resultados, dict):
