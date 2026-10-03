@@ -1,4 +1,5 @@
 """Herramientas de los conectores oficiales del Estado (BCN, CGR, DT, CNE, CMF, SII, SMA, TDLC, PJUD…)."""
+import re
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de mcp_server
@@ -366,11 +367,12 @@ def despachar(name: str, args: dict) -> Any:
         return dato
     elif name == "bcn_get_ley":
         try:
-            num = int(args.get("numero") or 0)
+            raw = str(args.get("numero") or args.get("ley") or args.get("ley_numero") or "").strip()
+            num = int(re.sub(r"[^\d]", "", raw) or 0)
         except (ValueError, TypeError):
             return {"error": f"Número de ley inválido: {args.get('numero')}"}
         if num <= 0:
-            return {"error": "El número de ley debe ser un entero positivo."}
+            return {"error": "El número de ley debe ser un entero positivo (ej. 21643 o '21.643')."}
         art = args.get("articulo")
         dato = bcn.get_articulo_ley(num, art) if art else bcn.get_ley(num)
         if isinstance(dato, dict) and dato.get("texto"):
@@ -380,7 +382,8 @@ def despachar(name: str, args: dict) -> Any:
             dato = _con_citas(dato, "BCN", ident, url=url)
         return dato
     elif name == "bcn_get_ley_historica":
-        num = int(args.get("numero") or 0)
+        raw = str(args.get("numero") or args.get("ley") or args.get("ley_numero") or "").strip()
+        num = int(re.sub(r"[^\d]", "", raw) or 0)
         fecha = args.get("fecha")
         if not num or not fecha:
             return {"error": "Los parámetros 'numero' y 'fecha' (YYYY-MM-DD) son obligatorios."}

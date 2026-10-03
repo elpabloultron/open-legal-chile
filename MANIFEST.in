@@ -17,3 +17,13 @@ recursive-include .agents/skills *.md
 recursive-include agents *.json
 recursive-include references *.md
 recursive-include scripts *.py
+recursive-include data *.json *.jsonl
+prune doctrina_raw
+prune exports
+prune jurisprudencia_ambiental
+prune data/scrapes
+exclude doctrina.db
+exclude doctrina.db-wal
+exclude doctrina.db-shm
+exclude *.tar.gz
+exclude *.zip

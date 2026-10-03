@@ -37,7 +37,8 @@ def test_declara_el_corpus_y_los_datos_como_paquetes():
         "sin namespaces, setuptools no descubre doctrina/ ni data/ (no tienen __init__.py)"
     )
     assert setuptools["package-data"]["doctrina"] == ["**/*.md"]
-    assert setuptools["package-data"]["data"] == ["**/*.json"]
+    assert "**/*.json" in setuptools["package-data"]["data"]
+    assert "**/*.jsonl" in setuptools["package-data"]["data"]
 
 
 def test_el_corpus_existe_y_tiene_las_obras():
