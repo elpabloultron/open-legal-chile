@@ -16,14 +16,14 @@ cuando el servicio no responde.
 
 ## 2. `mcp_server.py` delega en `servidor/` (un módulo por dominio)
 
-Las 87 herramientas viven en `servidor/` — `ambiental.py`, `corpus.py`, `conectores.py`,
+Las 88 herramientas viven en `servidor/` — `ambiental.py`, `corpus.py`, `conectores.py`,
 `forense.py`, `casos.py`, `suite.py` — cada una con sus esquemas (`TOOLS`) y su despacho
 (`despachar(name, args)`). `mcp_server.py` conserva el protocolo, los recursos/prompts, los helpers
 compartidos y el ensamblado de `TOOLS` en el orden original de listado. Los bloques despachados usan
 los objetos vivos del servidor: cada módulo los trae a su espacio de nombres en cada llamada
 (`_refrescar()`), lo que mantiene las sustituciones de las pruebas (monkeypatch) y evita copias que
 deriven. Guardas que lo protegen: `tests/test_paridad_cli_mcp.py`, `tests/test_mcp_e2e_live.py`
-(87 herramientas), `tests/test_empaquetado.py` (el paquete viaja en el wheel) y la comprobación de
+(88 herramientas), `tests/test_empaquetado.py` (el paquete viaja en el wheel) y la comprobación de
 conteo al importar `mcp_server`.
 
 ## 3. El arranque del MCP queda como está (sin lazy loading)

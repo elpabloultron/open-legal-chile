@@ -22,7 +22,7 @@
 4. **10 Conectores Oficiales del Estado de Chile:**
    * Consultas dinámicas y verificables sin simulación: BCN Ley Chile, Contraloría General de la República (CGR), Dirección del Trabajo (DT), Comisión Nacional de Energía (CNE), Panel de Expertos, CMF, SII, SMA (SNIFA), TDLC y PJUD (Corte Suprema / Tribunal Constitucional).
 
-5. **Servidor FastMCP Maestro (87 Herramientas Oficiales):**
+5. **Servidor FastMCP Maestro (88 Herramientas Oficiales):**
    * Implementación estricta de la especificación MCP (*Model Context Protocol*) para consumo inmediato en Claude Code, Cursor, Windsurf, Google Antigravity y Gemini CLI.
 
 6. **Auditoría Forense y Auto-Crítica en 5 Dimensiones:**
@@ -81,9 +81,9 @@
 
 ---
 
-## 🔌 3. Catálogo Funcional del Servidor MCP (87 Herramientas Oficiales)
+## 🔌 3. Catálogo Funcional del Servidor MCP (88 Herramientas Oficiales)
 
-Las 87 herramientas del servidor maestro MCP se estructuran en 16 dominios:
+Las 88 herramientas del servidor maestro MCP se estructuran en 16 dominios:
 
 | N° | Categoría Funcional | Cantidad | Herramientas Clave |
 |:---:|---|:---:|---|
@@ -97,7 +97,7 @@ Las 87 herramientas del servidor maestro MCP se estructuran en 16 dominios:
 | **8** | **CBR Inmobiliario & Registral** | 2 | `cbr_estudio_titulos`, `cbr_checklist_documentos` |
 | **9** | **Derecho Administrativo & Probidad** | 4 | `cgr_search_jurisprudencia`, `cgr_search_auditorias`, `infoprobidad_get_dip`, `entes_consultar_organo` |
 | **10** | **Derecho del Trabajo** | 1 | `dt_search_doctrina` |
-| **11** | **Derecho Tributario & SII** | 7 | `sii_search_circulares`, `sii_buscar_resoluciones_y_oficios`, `sii_oficios_por_anio`, `sii_descargar_oficio`, `sii_actos_regionales`, `sii_convenios_internacionales`, `sii_jurisprudencia_judicial` |
+| **11** | **Derecho Tributario & SII** | 8 | `sii_search_circulares`, `sii_buscar_resoluciones_y_oficios`, `sii_oficios_por_anio`, `sii_descargar_oficio`, `sii_leer_documento`, `sii_actos_regionales`, `sii_convenios_internacionales`, `sii_jurisprudencia_judicial` |
 | **12** | **Mercado Financiero & Libre Competencia** | 4 | `cmf_search_normativa`, `cmf_buscar_sanciones`, `tdlc_search_jurisprudencia`, `tdlc_buscar_icg_y_dictamenes` |
 | **13** | **Derecho Ambiental & Energía** | 5 | `ambiental_consulta_maestra`, `ambiental_buscar_jurisprudencia`, `sma_search_sancionatorios`, `cne_get_centrales_y_proyectos`, `panel_expertos_search` |
 | **14** | **Academia Judicial, Grado & Clínica** | 7 | `academia_judicial_buscar_guias`, `grado_interrogar`, `grado_generar_cedula`, `grado_obtener_flashcards`, `clinica_lenguaje_claro`, `clinica_intake_social`, `clinica_auditar_borrador` |

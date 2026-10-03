@@ -251,6 +251,7 @@ ORDEN_ORIGEN: List[str] = [
     "sii_buscar_resoluciones_y_oficios",
     "sii_oficios_por_anio",
     "sii_descargar_oficio",
+    "sii_leer_documento",
     "sii_actos_regionales",
     "sii_convenios_internacionales",
     "sii_jurisprudencia_judicial",
@@ -752,14 +753,14 @@ TOOL_PROFILES: Dict[str, List[str]] = {
     "regulatorio": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_ley", "cgr_search_jurisprudencia", "cgr_search_auditorias",
         "infoprobidad_get_dip", "cmf_search_normativa", "cmf_buscar_sanciones",
-        "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "sma_search_sancionatorios",
+        "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "sii_leer_documento", "sma_search_sancionatorios",
         "ambiental_consulta_maestra", "ambiental_buscar_jurisprudencia", "cne_get_centrales_y_proyectos", "panel_expertos_search",
         "tdlc_search_jurisprudencia", "tdlc_buscar_icg_y_dictamenes", "entes_consultar_organo",
         "export_brief_ojv"
     ],
     "corporativo": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "cmf_search_normativa",
-        "cmf_buscar_sanciones", "sii_search_circulares", "sii_buscar_resoluciones_y_oficios",
+        "cmf_buscar_sanciones", "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "sii_leer_documento",
         "tdlc_search_jurisprudencia", "inapi_evaluar_marca", "inapi_cease_and_desist",
         "privacidad_tramitar_arco", "rut_validar_chile", "export_brief_ojv"
     ],
