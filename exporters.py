@@ -299,10 +299,30 @@ POR TANTO,
         compilado = cls.export_brief_docx(markdown_content=md_content, output_docx_path=docx_path,
                                          title=titulo_principal)
 
+        # 7. Dashboard visual interactivo LegalCanvas (micro-UI autónoma de revisión humana)
+        dashboard_path = os.path.join(EXPORTS_DIR, f"{filename}_dashboard.html")
+        try:
+            from legal_canvas import LegalCanvasEngine
+            dashboard_html = LegalCanvasEngine.render_brief_dashboard(
+                titulo_principal=titulo_principal,
+                tribunal=tribunal,
+                presuma_data=presuma_data,
+                comparecencia=comparecencia,
+                hechos=hechos,
+                derecho=derecho,
+                peticiones=peticiones,
+                otrosies=otrosies
+            )
+            with open(dashboard_path, "w", encoding="utf-8") as f:
+                f.write(dashboard_html)
+        except Exception:
+            dashboard_path = ""
+
         resultado = {
             "filename": filename,
             "markdownPath": md_path,
             "htmlPath": html_path,
+            "dashboardPath": dashboard_path,
             "textPath": txt_path,
             "jsonPath": json_path,
             "docxPath": docx_path if compilado.get("ok") else "",

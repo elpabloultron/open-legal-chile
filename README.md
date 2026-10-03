@@ -122,6 +122,29 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+### 🧩 La Tríada Neuro-Simbólica Soberana: LegalOpenJev, LegalGraphify y LegalCanvas
+
+Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process Architecture*)** inspirada en la psicología cognitiva (Kahneman) y la ingeniería de software local-first:
+
+1. **⚡ `LegalOpenJev` (Motor de Sistema 1 — Pensamiento Rápido):**
+   - **Archivo:** `legal_open_jev.py`
+   - **Latencia:** `< 5 ms` en CPU local, 100% offline, cero costo de tokens y confidencialidad inviolable (Art. 247 CP).
+   - **Primitivas:**
+     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 87 herramientas MCP a 3-5 pertinentes a la materia (ahorro de más de 12.000 tokens de prompt por turno).
+     - `JevNoul`: Compuertas binarias estrictas de validez formal: plazos fatales de caducidad laboral (Art. 168 CT: 60/90 días), prescripción civil (Arts. 2514-2515 CC), plazos constitucionales de protección (Art. 20 CPR: 30 días corridos), cómputo procesal de días hábiles judiciales (Art. 66 CPC), validación matemática de RUT Módulo 11 y facultades especiales de personería (Art. 7 inc. 2 CPC).
+     - `JevScore`: Ponderación local ultrarrápida de relevancia temática.
+
+2. **🧠 `LegalGraphify` (Motor de Grafo de Conocimiento — Pensamiento Profundo):**
+   - **Archivo:** `legal_graphify.py`
+   - **Topología:** Grafo ontológico multidimensional con 14.050 nodos y ~20.000 relaciones del derecho chileno.
+   - **Eficiencia Medida:** Reducción de contexto del 99,9% (mediana de 91 tokens por subgrafo sintético frente a 96.536 tokens de la obra doctrinal completa).
+   - **Capacidades:** Extracción de subgrafos egocéntricos de radio 1, identificación de instituciones estructurales mediante PageRank (*God Nodes*), y trazado de caminos de deducción dogmática entre normas y fallos rectores de la Corte Suprema.
+
+3. **🎨 `LegalCanvas` (Motor de Dashboards Visuales e Interfaz de Entrega):**
+   - **Archivo:** `legal_canvas.py`
+   - **Filosofía:** Dashboards interactivos y micro-UIs de alta densidad de información (Thariq Shihipar / Claude Code) en un **único archivo HTML autónomo**, con CSS y SVG embebidos y **cero dependencias externas** (sin CDNs, sin npm, 100% offline y confidencial).
+   - **Componentes:** Carátula procesal, línea de tiempo SVG interactiva, semáforo de riesgo y caducidad, checklist probatorio con casillas de verificación, y cajón de citas oficiales con botón *Click-to-Copy* (`[BCN - ...]`, `[CS - ...]`, `[Doctrina - ...]`).
+
 ---
 
 ## ⚡ 3. Instalación y Puesta en Marcha
