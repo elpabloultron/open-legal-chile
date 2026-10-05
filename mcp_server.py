@@ -428,6 +428,147 @@ def _items_del_organismo(valor: Any) -> List[Dict[str, Any]]:
     return [x for x in candidatos if isinstance(x, dict) and x.get("tipo") != "aviso"]
 
 
+def _detectar_dominios_estatales(query: str) -> List[str]:
+    """Determina los organismos públicos relevantes para la consulta según términos clave."""
+    q = (query or "").lower()
+    organismos: List[str] = []
+
+    # Laboral
+    if any(k in q for k in (
+        "trabajador", "empleador", "despido", "finiquito", "laboral", "remuneracion",
+        "ley karin", "40 horas", "sindicato", "huelga", "subcontratacion", "tutela",
+        "inspeccion del trabajo", "direccion del trabajo", "dt", "art 161", "art 160",
+        "necesidades de la empresa", "licencia medica", "fuero"
+    )):
+        organismos.append("dt")
+        if "pjud" not in organismos:
+            organismos.append("pjud")
+
+    # Administrativo / Probidad
+    if any(k in q for k in (
+        "contraloria", "cgr", "dictamen cgr", "sumario", "estatuto administrativo",
+        "probidad", "dip", "infoprobidad", "compras publicas", "licitacion", "mercado publico",
+        "ley 19886", "confianza legitima", "contrata", "planta", "municipalidad", "funcionario publico"
+    )):
+        if "cgr" not in organismos:
+            organismos.append("cgr")
+
+    # Tributario
+    if any(k in q for k in (
+        "sii", "impuesto", "tributario", "iva", "renta", "lir", "factura",
+        "elusion", "evasion", "tta", "circular sii", "oficio sii", "codigo tributario"
+    )):
+        if "sii" not in organismos:
+            organismos.append("sii")
+
+    # Ambiental
+    if any(k in q for k in (
+        "ambiental", "medio ambiente", "sma", "snifa", "seia", "rca", "eia", "dia",
+        "humedal", "daño ambiental", "tribunal ambiental", "1ta", "2ta", "3ta"
+    )):
+        if "sma" not in organismos:
+            organismos.append("sma")
+
+    # Libre Competencia
+    if any(k in q for k in (
+        "tdlc", "libre competencia", "fne", "colusion", "monopolio", "concentracion",
+        "abuso de posicion", "dl 211"
+    )):
+        if "tdlc" not in organismos:
+            organismos.append("tdlc")
+
+    # Financiero / Mercado de Valores / Bancario
+    if any(k in q for k in (
+        "cmf", "mercado de valores", "banco", "financiero", "insider trading",
+        "ncg", "norma de caracter general", "accionista", "sociedad anonima", "ley 18045"
+    )):
+        if "cmf" not in organismos:
+            organismos.append("cmf")
+
+    # Energía
+    if any(k in q for k in (
+        "cne", "energia", "electrico", "tarifa electrica", "panel de expertos",
+        "ppa", "transmision electrica", "generacion electrica"
+    )):
+        if "cne" not in organismos:
+            organismos.append("cne")
+        if "panel" not in organismos:
+            organismos.append("panel")
+
+    # Fallback judicial rector en Derecho Civil/General
+    if not organismos or any(k in q for k in (
+        "corte suprema", "corte de apelaciones", "recurso", "demanda", "prescripcion",
+        "contrato", "responsabilidad", "indemnizacion", "daño moral", "casacion", "pjud", "juicio"
+    )):
+        if "pjud" not in organismos:
+            organismos.append("pjud")
+
+    return organismos[:3]
+
+
+def _organismos_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
+    """Consulta a los organismos oficiales del Estado según la materia detectada."""
+    try:
+        reg = _registro_estatal()
+        organismos = _detectar_dominios_estatales(query)
+        resultados_org: Dict[str, Any] = {}
+        citas_org: List[Dict[str, Any]] = []
+        for org in organismos:
+            res = None
+            try:
+                if org == "dt":
+                    res = reg.dt.search_dictamenes(query, limit=lim)
+                elif org == "cgr":
+                    res = reg.cgr.search_jurisprudencia(query)
+                elif org == "pjud":
+                    res = reg.pjud.search_jurisprudencia(query, limit=lim)
+                elif org == "sii":
+                    res = reg.sii.search_circulares(query)
+                elif org == "sma":
+                    res = reg.sma.search_sancionatorios(nombre=query)
+                elif org == "tdlc":
+                    res = reg.tdlc.search_jurisprudencia(query)
+                elif org == "cmf":
+                    res = reg.cmf.search_normativa(query)
+                elif org == "cne":
+                    res = reg.cne.search(query)
+                elif org == "panel":
+                    res = reg.panel.search_dictamenes(query)
+            except Exception:
+                res = None
+
+            if res is not None:
+                resultados_org[org] = res
+                items = _items_del_organismo(res)
+                for it in items[:lim]:
+                    ident = (it.get("rol") or it.get("numero") or it.get("nombre")
+                             or it.get("materia") or it.get("title") or it.get("titulo")
+                             or it.get("docId"))
+                    if it.get("rol") and it.get("caratula"):
+                        ident = f"{it['rol']} ({it['caratula']})"
+                    elif it.get("numero") and it.get("fecha"):
+                        ident = f"Dictamen {it['numero']} de {it['fecha']}"
+                    elif it.get("numero"):
+                        ident = f"Dictamen {it['numero']}"
+
+                    if not ident:
+                        continue
+                    texto = str(it.get("texto") or it.get("doctrina") or it.get("materia")
+                                or it.get("conclusiones") or it.get("resumen")
+                                or it.get("snippet") or "")[:800]
+                    if not texto:
+                        continue
+                    url = str(it.get("url") or it.get("link") or it.get("pdfUrl") or it.get("enlace") or "")
+                    citas_org.append(formatear_cita(
+                        org.upper(), str(ident),
+                        url=url,
+                        texto=texto
+                    ))
+        return {"organismos": organismos, "resultados": resultados_org, "citas": citas_org}
+    except Exception as e:
+        return {"organismos": [], "resultados": {}, "citas": [], "error": str(e)[:160]}
+
+
 def _raiz() -> pathlib.Path:
     return pathlib.Path(__file__).resolve().parent
 
@@ -465,23 +606,25 @@ def _texto_protocolo() -> str:
 PROMPTS = [
     {
         "name": "protocolo_citas",
-        "description": "Protocolo de respuesta obligatorio (§2 quater): Hugging Face primero, fuente oficial "
-                       "después, cada cita con su texto literal y el formato de salida por tipo de documento.",
+        "description": "Protocolo de respuesta obligatorio (§2 quater): Hugging Face y conectores estatales siempre, "
+                       "cada cita con su texto literal y el formato de salida por tipo de documento.",
         "arguments": [],
         "_texto": (
             "Al responder una consulta jurídica chilena seguí este orden, sin excepciones:\n"
-            "1. Primer paso: `consulta_maestra` (o `huggingface_search_dataset`). El corpus publicado en "
-            "Hugging Face es la base citable; no respondas de memoria. Si la materia es ambiental (SMA, "
-            "SEIA/RCA, daño ambiental, humedales, Tribunales Ambientales), el primer paso es el módulo "
+            "1. Hugging Face y Conectores Estatales siempre: el primer paso es `consulta_maestra` (o `huggingface_search_dataset`). "
+            "El corpus publicado en Hugging Face y las fuentes del Estado son la base citable; no respondas de memoria. "
+            "Si la materia es ambiental (SMA, SEIA/RCA, daño ambiental, humedales, Tribunales Ambientales), el primer paso es el módulo "
             "`ambiental_consulta_maestra`.\n"
-            "2. Después, la fuente oficial que corresponda: BCN (norma), DT/CGR/SII/CMF (dictamen), "
-            "PJUD/TC/ambientales (fallo), Academia Judicial (guía).\n"
-            "3. Antes de citar, traé el texto literal con `cita_texto` (o usá el bloque `citas` del "
-            "resultado). Si la fuente no se pudo leer, decí «sin fuente verificable».\n"
-            "4. Formato: en conversación, la respuesta primero y el bloque «Fuentes:» al final. En "
-            "documentos, entregá Word (.docx editable) con citas a pie de página: fuente · identificador · enlace.\n"
-            "5. Los corchetes van en el formato oficial: [BCN - Código Civil, Art. 1438], "
-            "[Dictamen DT - ORD. N° …], [CS - Rol N° …], [CGR - …], [Academia Judicial - …], [SMAs/TA - …]."
+            "2. Conectores oficiales del Estado: `consulta_maestra` consulta automáticamente a los organismos estatales según la materia "
+            "(DT y PJUD en laboral; CGR en administrativo; SII en tributario; SMA/TA en ambiental; PJUD en civil general, etc.). "
+            "Si el harness o modelo decide invocar herramientas específicas por materia, debe consultar SIEMPRE tanto al conector estatal "
+            "correspondiente como a la data de Hugging Face.\n"
+            "3. Antes de citar, traé el texto literal con `cita_texto` (o usá el bloque `citas` del resultado). Si la fuente no se pudo leer, "
+            "decí «sin fuente verificable».\n"
+            "4. Formato: en conversación, la respuesta primero y el bloque «Fuentes:» al final. En documentos, entregá Word (.docx editable) "
+            "con citas a pie de página: fuente · identificador · enlace.\n"
+            "5. Los corchetes van en el formato oficial: [BCN - Código Civil, Art. 1438], [Dictamen DT - ORD. N° …], "
+            "[CS - Rol N° …], [CGR - …], [Academia Judicial - …], [SMA - Expediente …]."
         ),
     },
     {
@@ -491,7 +634,7 @@ PROMPTS = [
         "arguments": [{"name": "consulta", "description": "La pregunta jurídica del usuario", "required": False}],
         "_texto": (
             "Consulta: {consulta}\n\n"
-            "1. `consulta_maestra` con la consulta (trae corpus de Hugging Face + doctrina + grafo + normas, "
+            "1. `consulta_maestra` con la consulta (trae corpus de Hugging Face + organismos estatales + doctrina + grafo + normas, "
             "con texto literal y corchetes). Si la materia es ambiental, `ambiental_consulta_maestra`.\n"
             "2. Si hay que analizar documentos o una carpeta: `caso_analizar` y después `caso_ejecutar`.\n"
             "3. Para el texto de una norma puntual: `cita_texto`.\n"
@@ -649,7 +792,7 @@ def main():
                         },
                         "serverInfo": {
                             "name": "open-legal-chile-mcp",
-                            "version": "1.12.0"
+                            "version": "1.13.0"
                         }
                     }
                 }

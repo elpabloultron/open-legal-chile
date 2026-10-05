@@ -68,7 +68,8 @@ class SentenciaParserEngine:
             es_derecho = bool(re.search(r"art[íi]culo|ley|c[oó]digo|jurisprudencia|doctrina|precepto|mandato\s+legal|hermen[eé]utica", cuerpo_c, re.IGNORECASE))
             info_c = {
                 "numero": num_c,
-                "texto": cuerpo_c[:300] + ("..." if len(cuerpo_c) > 300 else ""),
+                "texto": cuerpo_c,
+                "texto_resumen": cuerpo_c[:300] + ("..." if len(cuerpo_c) > 300 else ""),
                 "tipo": "DERECHO" if es_derecho else "HECHO"
             }
             considerandos_lista.append(info_c)
@@ -76,6 +77,19 @@ class SentenciaParserEngine:
                 considerandos_derecho.append(info_c)
             else:
                 considerandos_hecho.append(info_c)
+
+        # Fallback para resoluciones breves, confirmatorias o sin numeración explícita
+        if not considerandos_lista:
+            cuerpo_util = parte_considerativa_raw.strip() or parte_expositiva.strip() or texto.strip()
+            if cuerpo_util:
+                info_c = {
+                    "numero": "Único",
+                    "texto": cuerpo_util,
+                    "texto_resumen": cuerpo_util[:300] + ("..." if len(cuerpo_util) > 300 else ""),
+                    "tipo": "DERECHO"
+                }
+                considerandos_lista.append(info_c)
+                considerandos_derecho.append(info_c)
 
         # 4. Votos Disidentes y Prevenciones
         disidencia_match = re.search(r"(?:Acordada\s+con\s+el\s+voto\s+en\s+contra|Voto\s+disidente|Disidente|Disiente)(.*?)(?=(?:Reg[ií]strese|Notif[ií]quese|Pronunciada|$))", texto, re.DOTALL | re.IGNORECASE)
@@ -123,6 +137,7 @@ class SentenciaParserEngine:
             "considerandos_de_hecho": len(considerandos_hecho),
             "considerandos_de_derecho": len(considerandos_derecho),
             "muestra_considerandos": considerandos_lista[:5],
+            "todos_considerandos": considerandos_lista,
             "parte_resolutiva": parte_resolutiva[:500] + ("..." if len(parte_resolutiva) > 500 else ""),
             "votos": {
                 "hay_disidencia": tiene_disidencia,
@@ -132,6 +147,181 @@ class SentenciaParserEngine:
             },
             "regimen_costas": regimen_costas
         }
+
+    def seleccionar_considerando_relevante(
+        self,
+        considerandos: List[Dict[str, Any]],
+        tema: str
+    ) -> Optional[Dict[str, Any]]:
+        """
+        Rankea y selecciona el considerando más pertinente frente a un tema jurídico específico.
+        Pondera coincidencia de términos clave, considerandos de derecho y mención de normas.
+        """
+        if not considerandos:
+            return None
+        if not tema or not tema.strip():
+            # Devuelve el primer considerando de derecho o el primero disponible
+            for c in considerandos:
+                if c.get("tipo") == "DERECHO":
+                    return c
+            return considerandos[0]
+
+        stopwords = {
+            "de", "la", "el", "en", "un", "una", "unos", "unas", "por", "los", "las", "y", "o",
+            "que", "con", "para", "sobre", "del", "al", "se", "su", "sus", "es", "son", "fue",
+            "este", "esta", "estos", "estas", "como", "pero", "mas", "a", "ante", "bajo", "cabe"
+        }
+
+        tema_limpio = re.sub(r"[^a-zA-Z0-9áéíóúÁÉÍÓÚñÑ\s]+", " ", tema.lower())
+        tokens = [t for t in tema_limpio.split() if len(t) > 2 and t not in stopwords]
+
+        mejor_c = None
+        mejor_score = -1
+
+        for c in considerandos:
+            texto_c = (c.get("texto") or "").lower()
+            score = 0
+
+            # 1. Coincidencia de tokens
+            for tok in tokens:
+                if tok in texto_c:
+                    score += 15
+
+            # 2. Coincidencia de frase exacta
+            if tema_limpio.strip() in texto_c:
+                score += 60
+
+            # 3. Bonus considerando de derecho
+            if c.get("tipo") == "DERECHO":
+                score += 20
+
+            # 4. Bonus presencia de normas o jurisprudencia
+            if re.search(r"art[íi]culo|ley|c[oó]digo|jurisprudencia|doctrina|cpr|constituci[oó]n", texto_c):
+                score += 15
+
+            if score > mejor_score:
+                mejor_score = score
+                mejor_c = c
+
+        return mejor_c or (considerandos[0] if considerandos else None)
+
+    def formatear_cita_considerando(
+        self,
+        considerando: Dict[str, Any],
+        sentencia_info: Dict[str, Any],
+        max_longitud: int = 350
+    ) -> Dict[str, Any]:
+        """
+        Genera la cita jurídica canónica conforme a la directiva de AGENTS.md:
+        [CS - Rol N° ..., Fecha: ..., Considerando X: «...»]
+        """
+        tribunal = sentencia_info.get("tribunal") or "Corte Suprema"
+        rol = sentencia_info.get("rol") or "S-N"
+        fecha = sentencia_info.get("fecha") or ""
+        link = sentencia_info.get("link") or sentencia_info.get("url_origen") or "https://juris.pjud.cl"
+        num = considerando.get("numero") or "Único"
+        texto = considerando.get("texto") or ""
+
+        # Prefijo del tribunal conforme a AGENTS.md
+        if "Suprema" in tribunal:
+            trib_prefijo = "CS"
+        elif "Apelaciones" in tribunal:
+            m_ciudad = re.search(r"(?:Corte\s+de\s+Apelaciones|C\.?A\.?)\s+de\s+([A-Za-zÁÉÍÓÚñÑ]+)", tribunal, re.IGNORECASE)
+            trib_prefijo = f"C.A. de {m_ciudad.group(1)}" if m_ciudad else "C.A."
+        elif "Constitucional" in tribunal:
+            trib_prefijo = "TC"
+        else:
+            trib_prefijo = tribunal
+
+        # Formato de fecha
+        fecha_str = f", Fecha: {fecha}" if fecha else ""
+
+        # Extracto representativo limpio
+        extracto = texto.strip()
+        if len(extracto) > max_longitud:
+            # Buscar el último punto o coma antes de max_longitud
+            corte_idx = extracto.rfind(".", 0, max_longitud)
+            if corte_idx > int(max_longitud * 0.5):
+                extracto = extracto[:corte_idx + 1]
+            else:
+                extracto = extracto[:max_longitud].rstrip() + "..."
+
+        corchete_base = f"[{trib_prefijo} - Rol N° {rol}{fecha_str}, Considerando {num}]"
+        cita_canonica = f"[{trib_prefijo} - Rol N° {rol}{fecha_str}, Considerando {num}: «{extracto}»]"
+
+        return {
+            "corchete": corchete_base,
+            "cita_canonica": cita_canonica,
+            "tribunal": tribunal,
+            "tribunal_prefijo": trib_prefijo,
+            "rol": rol,
+            "fecha": fecha,
+            "numero_considerando": num,
+            "extracto_literal": extracto,
+            "texto_completo": texto,
+            "enlace_oficial": link
+        }
+
+    def analizar_lote_sentencias(
+        self,
+        lista_sentencias: List[Dict[str, Any]],
+        tema_relevante: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        Analiza un conjunto de sentencias (individual o multi-sentencia), segmentando sus
+        considerandos y extrayendo los considerandos más pertinentes para fundar una línea
+        jurisprudencial uniforme.
+        """
+        resultados_sentencias = []
+        citas_destacadas = []
+
+        for s in lista_sentencias:
+            texto_sent = s.get("texto_integral") or s.get("texto_sentencia") or ""
+            info_parseada = self.parsear_sentencia(texto_sent) if texto_sent else {}
+
+            # Fusionar metadatos
+            meta_sent = {
+                "tribunal": s.get("tribunal") or info_parseada.get("tribunal") or "Corte Suprema",
+                "rol": s.get("rol") or info_parseada.get("rol") or "S-N",
+                "fecha": s.get("fecha") or "",
+                "caratula": s.get("caratula") or "",
+                "recurso": s.get("recurso") or "",
+                "link": s.get("link") or s.get("url_origen") or "https://juris.pjud.cl"
+            }
+
+            cons_lista = info_parseada.get("todos_considerandos") or s.get("considerandos_lista") or []
+
+            cons_elegido = None
+            cita_info = None
+
+            if cons_lista and tema_relevante:
+                cons_elegido = self.seleccionar_considerando_relevante(cons_lista, tema_relevante)
+            elif cons_lista:
+                # Selecciona el considerando más relevante por defecto (de derecho)
+                cons_elegido = self.seleccionar_considerando_relevante(cons_lista, "")
+
+            if cons_elegido:
+                cita_info = self.formatear_cita_considerando(cons_elegido, meta_sent)
+                citas_destacadas.append(cita_info)
+
+            resultados_sentencias.append({
+                "metadatos": meta_sent,
+                "estructura": {
+                    "total_considerandos": len(cons_lista),
+                    "considerandos_de_derecho": info_parseada.get("considerandos_de_derecho", 0),
+                    "parte_resolutiva": info_parseada.get("parte_resolutiva", ""),
+                    "costas": info_parseada.get("regimen_costas", "")
+                },
+                "considerando_destacado": cita_info
+            })
+
+        return {
+            "total_sentencias_analizadas": len(lista_sentencias),
+            "tema_evaluado": tema_relevante or "General / Fundamento de Derecho",
+            "citas_destacadas": citas_destacadas,
+            "sentencias": resultados_sentencias
+        }
+
 
 
 class ProveidosParser:

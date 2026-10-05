@@ -103,7 +103,7 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "bcn_get_codigo", "dt_search_doctrina", "consulta_maestra", "generar_documento"
         ],
         "herramientas_apoyo": [
-            "doctrina_search", "graphify_consulta_subgrafo", "vigilante_contrato_plazos"
+            "pjud_search_jurisprudencia", "doctrina_search", "graphify_consulta_subgrafo"
         ]
     },
     "civil_contratos": {
@@ -115,10 +115,10 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "nulidad absoluta", "nulidad relativa", "rescilacion", "art 1545", "art 1489"
         ],
         "herramientas_nucleo": [
-            "bcn_get_codigo", "consulta_maestra", "doctrina_search", "generar_documento"
+            "bcn_get_codigo", "consulta_maestra", "pjud_search_jurisprudencia", "generar_documento"
         ],
         "herramientas_apoyo": [
-            "graphify_explicar_institucion", "pjud_search_jurisprudencia", "cita_texto"
+            "doctrina_search", "graphify_explicar_institucion", "cita_texto"
         ]
     },
     "inmobiliario_cbr": {
@@ -129,10 +129,10 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "dominio", "posesion efectiva", "deslinde", "rol de avaluo", "titulo de dominio"
         ],
         "herramientas_nucleo": [
-            "cbr_estudio_titulos", "cbr_checklist_documentos", "cpc_validar_mandato", "bcn_get_codigo"
+            "cbr_estudio_titulos", "consulta_maestra", "cbr_checklist_documentos", "cpc_validar_mandato"
         ],
         "herramientas_apoyo": [
-            "doctrina_search", "compile_legal_dossier"
+            "bcn_get_codigo", "doctrina_search", "compile_legal_dossier"
         ]
     },
     "ambiental": {
@@ -157,7 +157,7 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "fonasa", "alza de plan", "acto arbitrario", "acto ilegal", "garantia constitucional"
         ],
         "herramientas_nucleo": [
-            "recurso_proteccion_generar", "bcn_get_codigo", "pjud_search_jurisprudencia", "consulta_maestra"
+            "recurso_proteccion_generar", "consulta_maestra", "pjud_search_jurisprudencia", "bcn_get_codigo"
         ],
         "herramientas_apoyo": [
             "graphify_consulta_subgrafo", "export_brief_ojv"
@@ -171,10 +171,10 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "ley 19886", "confianza legitima", "contrata", "planta", "municipalidad"
         ],
         "herramientas_nucleo": [
-            "cgr_search_jurisprudencia", "cgr_search_auditorias", "infoprobidad_get_dip", "entes_consultar_organo"
+            "cgr_search_jurisprudencia", "consulta_maestra", "cgr_search_auditorias", "infoprobidad_get_dip"
         ],
         "herramientas_apoyo": [
-            "bcn_get_ley", "consulta_maestra"
+            "entes_consultar_organo", "bcn_get_ley"
         ]
     },
     "tributario": {
@@ -185,10 +185,10 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "elusion", "evasion", "tta", "circular sii", "oficio sii"
         ],
         "herramientas_nucleo": [
-            "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "bcn_get_codigo", "sii_oficios_por_anio"
+            "sii_search_circulares", "consulta_maestra", "bcn_get_codigo", "sii_buscar_resoluciones_y_oficios"
         ],
         "herramientas_apoyo": [
-            "sii_jurisprudencia_judicial", "bcn_get_ley"
+            "sii_oficios_por_anio", "sii_jurisprudencia_judicial", "bcn_get_ley"
         ]
     },
     "libre_competencia": {
@@ -198,10 +198,10 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "abuso de posicion dominante", "concentracion", "icg", "dictamen tdlc", "dl 211"
         ],
         "herramientas_nucleo": [
-            "tdlc_search_jurisprudencia", "tdlc_buscar_icg_y_dictamenes", "bcn_get_ley"
+            "tdlc_search_jurisprudencia", "consulta_maestra", "tdlc_buscar_icg_y_dictamenes", "bcn_get_ley"
         ],
         "herramientas_apoyo": [
-            "consulta_maestra", "pjud_search_jurisprudencia"
+            "pjud_search_jurisprudencia", "doctrina_search"
         ]
     },
     "mercado_financiero": {
@@ -211,10 +211,10 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "banco", "mercado de valores", "seguro", "insider trading", "sancion cmf", "ley 18045"
         ],
         "herramientas_nucleo": [
-            "cmf_search_normativa", "cmf_buscar_sanciones", "bcn_get_ley"
+            "cmf_search_normativa", "consulta_maestra", "cmf_buscar_sanciones", "bcn_get_ley"
         ],
         "herramientas_apoyo": [
-            "consulta_maestra", "entes_consultar_organo"
+            "entes_consultar_organo", "doctrina_search"
         ]
     },
     "energia": {
@@ -224,10 +224,10 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "dfl 4", "transmision electrica", "generacion", "ppa", "cliente libre", "mercado electrico"
         ],
         "herramientas_nucleo": [
-            "cne_get_centrales_y_proyectos", "panel_expertos_search", "bcn_get_ley"
+            "cne_get_centrales_y_proyectos", "consulta_maestra", "panel_expertos_search", "bcn_get_ley"
         ],
         "herramientas_apoyo": [
-            "consulta_maestra", "entes_consultar_organo"
+            "entes_consultar_organo", "doctrina_search"
         ]
     }
 }

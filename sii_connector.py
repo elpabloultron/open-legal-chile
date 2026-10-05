@@ -10,6 +10,7 @@ import re
 import html
 import json
 import uuid
+import pathlib
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
@@ -825,6 +826,232 @@ class SIIClient:
         ))
         matches.extend(avisos)
         return matches
+
+    def descargar_circular_pdf(self, item_o_url: Any, destino: Optional[str] = None) -> Optional[str]:
+        """Descarga el PDF oficial de una circular del SII."""
+        pdf_url = ""
+        numero = "doc"
+        if isinstance(item_o_url, str):
+            pdf_url = item_o_url
+            m = re.search(r'circu([0-9]+)\.pdf', pdf_url, re.IGNORECASE)
+            if m:
+                numero = m.group(1)
+        elif isinstance(item_o_url, dict):
+            pdf_url = item_o_url.get("pdfUrl") or item_o_url.get("url") or ""
+            numero = str(item_o_url.get("numero") or "doc")
+
+        if not pdf_url:
+            return None
+
+        dest_folder = pathlib.Path(self.cache_dir) / "descargas_pdf"
+        dest_folder.mkdir(parents=True, exist_ok=True)
+        target_path = pathlib.Path(destino) if destino else dest_folder / f"circular_sii_{numero}.pdf"
+
+        if target_path.exists() and target_path.stat().st_size > 1000:
+            return str(target_path)
+
+        try:
+            req = urllib.request.Request(pdf_url, headers={'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'})
+            with safe_urlopen(req, timeout=30) as resp:
+                pdf_bytes = resp.read()
+            if len(pdf_bytes) > 1000:
+                target_path.write_bytes(pdf_bytes)
+                return str(target_path)
+        except Exception:
+            pass
+        return None
+
+    def get_circular_integral(self, numero_o_query: str, anio: Optional[int] = None, descargar_formato: Optional[str] = None) -> Dict[str, Any]:
+        """Obtiene una circular del SII con texto integral (extraído de PDF u OCR), metadatos y citas."""
+        q = str(numero_o_query).strip()
+        circulares = self.get_circulares_por_anio(anio) if anio else self.search_circulares(q)
+        match_item = None
+        for c in circulares:
+            if isinstance(c, dict) and c.get("tipo") != "aviso":
+                c_num = str(c.get("numero", "")).strip()
+                if c_num and (c_num == q or f"circular {c_num}" == q.lower() or _coincide(c.get("titulo", ""), q)):
+                    match_item = c
+                    break
+
+        if not match_item and circulares and isinstance(circulares[0], dict) and circulares[0].get("tipo") != "aviso":
+            match_item = circulares[0]
+
+        if not match_item:
+            return {"error": f"Circular '{numero_o_query}' no encontrada en el SII."}
+
+        pdf_url = match_item.get("pdfUrl", "")
+        ruta_pdf = self.descargar_circular_pdf(match_item) if pdf_url else None
+
+        texto_pdf = ""
+        if ruta_pdf:
+            try:
+                import pymupdf
+                pdf_doc: Any = pymupdf.open(ruta_pdf)
+                t_paginas = [pdf_doc[i].get_text() for i in range(len(pdf_doc))]
+                texto_extraido = "\n\n".join([t.strip() for t in t_paginas if t.strip()])
+                if len(texto_extraido) > 80:
+                    texto_pdf = texto_extraido
+                else:
+                    from forensic_ocr import ForensicOCREngine
+                    ocr_res = ForensicOCREngine().extract_from_pdf(ruta_pdf, start_page=1, end_page=min(4, len(pdf_doc)))
+                    texto_pdf = "\n\n".join([p.get("text", "") for p in ocr_res.get("pages", []) if p.get("text")]).strip()
+            except Exception:
+                pass
+
+        identificador = f"Circular N° {match_item.get('numero', q)}" if match_item.get("numero") else match_item.get("titulo", f"Circular SII {q}")
+        materia = match_item.get("materia") or match_item.get("titulo") or ""
+        texto_final = texto_pdf if len(texto_pdf) > 80 else materia
+
+        doc = {
+            "organismo": "SII",
+            "tipo_acto": "Circular",
+            "identificador": identificador,
+            "numero": match_item.get("numero", q),
+            "anio": match_item.get("anio", anio or 2026),
+            "fecha": f"{match_item.get('anio', '')}",
+            "materia": materia,
+            "titulo": match_item.get("titulo", ""),
+            "texto": texto_final,
+            "texto_integral": texto_final,
+            "link_oficial": pdf_url,
+            "pdfUrl": pdf_url,
+        }
+
+        if descargar_formato and descargar_formato.lower() == "pdf" and ruta_pdf:
+            doc["archivo_descargado"] = ruta_pdf
+            doc["formato_descargado"] = "pdf"
+
+        return doc
+
+    def get_oficio_integral(self, numero_o_query: str, anio: Optional[int] = None, descargar_formato: Optional[str] = None) -> Dict[str, Any]:
+        """Obtiene un oficio de la jurisprudencia administrativa del SII con texto completo y PDF."""
+        q = str(numero_o_query).strip()
+        oficios = self.get_oficios_por_anio(anio) if anio else self.search_resoluciones_y_oficios(q)
+        match_item = None
+        for o in oficios:
+            if isinstance(o, dict) and o.get("tipo") != "aviso":
+                o_num = str(o.get("numero", "")).strip()
+                if o_num and (o_num == q or f"oficio {o_num}" == q.lower() or _coincide(o.get("titulo", ""), q)):
+                    match_item = o
+                    break
+
+        if not match_item and oficios and isinstance(oficios[0], dict) and oficios[0].get("tipo") != "aviso":
+            match_item = oficios[0]
+
+        if not match_item:
+            return {"error": f"Oficio '{numero_o_query}' no encontrado en la jurisprudencia administrativa del SII."}
+
+        ruta_pdf = None
+        if match_item.get("descarga"):
+            dest_folder = pathlib.Path(self.cache_dir) / "descargas_pdf"
+            dest_folder.mkdir(parents=True, exist_ok=True)
+            o_num = match_item.get("numero", "doc")
+            target_file = str(dest_folder / f"oficio_sii_{o_num}.pdf")
+            res_descarga = self.descargar_oficio(match_item, destino=target_file)
+            if res_descarga.get("ok"):
+                ruta_pdf = target_file
+
+        texto_pdf = ""
+        if ruta_pdf:
+            try:
+                import pymupdf
+                pdf_doc: Any = pymupdf.open(ruta_pdf)
+                t_paginas = [pdf_doc[i].get_text() for i in range(len(pdf_doc))]
+                texto_extraido = "\n\n".join([t.strip() for t in t_paginas if t.strip()])
+                if len(texto_extraido) > 80:
+                    texto_pdf = texto_extraido
+                else:
+                    from forensic_ocr import ForensicOCREngine
+                    ocr_res = ForensicOCREngine().extract_from_pdf(ruta_pdf, start_page=1, end_page=min(4, len(pdf_doc)))
+                    texto_pdf = "\n\n".join([p.get("text", "") for p in ocr_res.get("pages", []) if p.get("text")]).strip()
+            except Exception:
+                pass
+
+        identificador = f"Oficio N° {match_item.get('numero', q)}" if match_item.get("numero") else match_item.get("titulo", f"Oficio SII {q}")
+        materia = match_item.get("materia") or match_item.get("titulo") or ""
+        texto_final = texto_pdf if len(texto_pdf) > 80 else materia
+
+        doc = {
+            "organismo": "SII",
+            "tipo_acto": "Oficio",
+            "identificador": identificador,
+            "numero": match_item.get("numero", q),
+            "fecha": match_item.get("fecha", ""),
+            "materia": materia,
+            "titulo": match_item.get("titulo", ""),
+            "fuentes_legales": match_item.get("referencia_legal", ""),
+            "texto": texto_final,
+            "texto_integral": texto_final,
+            "link_oficial": match_item.get("url") or "",
+        }
+
+        if descargar_formato and descargar_formato.lower() == "pdf" and ruta_pdf:
+            doc["archivo_descargado"] = ruta_pdf
+            doc["formato_descargado"] = "pdf"
+
+        return doc
+
+    def procesar_y_graficar_sii(
+        self,
+        ids_o_docs: List[Any],
+        tema_relevante: Optional[str] = None,
+        tipo: str = "circular",
+        convertir_a_md: bool = True,
+        descargar_formato: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """Pipeline unificado para circulares y oficios del SII."""
+        from resolucion_administrativa2md import convertir_lote_dictamenes
+        from resoluciones_parser import ResolucionesParserEngine
+        from legal_graphify import LegalGraphifyEngine
+
+        docs_procesar = []
+        for item in ids_o_docs:
+            if isinstance(item, str):
+                if tipo == "oficio":
+                    doc_obj = self.get_oficio_integral(item, descargar_formato=descargar_formato)
+                else:
+                    doc_obj = self.get_circular_integral(item, descargar_formato=descargar_formato)
+                docs_procesar.append(doc_obj)
+            elif isinstance(item, dict):
+                docs_procesar.append(item)
+
+        rutas_md = []
+        if convertir_a_md:
+            try:
+                rutas_md = [str(p) for p in convertir_lote_dictamenes(docs_procesar)]
+                for i, r_path in enumerate(rutas_md):
+                    if i < len(docs_procesar):
+                        docs_procesar[i]["ruta_md"] = r_path
+            except Exception:
+                pass
+
+        info_grafo = {}
+        try:
+            graph_engine = LegalGraphifyEngine()
+            insumos = rutas_md if rutas_md else docs_procesar
+            info_grafo = graph_engine.ingerir_lote_dictamenes(insumos, guardar_disco=False)
+        except Exception as e:
+            info_grafo = {"error": f"Error integrando con LegalGraphify: {str(e)}"}
+
+        parser_engine = ResolucionesParserEngine()
+        analisis = parser_engine.analizar_lote_resoluciones(docs_procesar, tema_relevante=tema_relevante)
+
+        return {
+            "organismo": "SII",
+            "total_pronunciamientos": len(docs_procesar),
+            "tema_relevante": tema_relevante or "General",
+            "citas_destacadas": analisis.get("citas_destacadas", []),
+            "grafo_impacto": {
+                "nodos_nuevos": info_grafo.get("nodos_nuevos_totales", 0),
+                "enlaces_nuevos": info_grafo.get("enlaces_nuevos_totales", 0),
+                "grafo_total": info_grafo.get("grafo", {})
+            },
+            "archivos_generados": {
+                "markdown": rutas_md,
+                "descargas_oficiales": [d.get("archivo_descargado") for d in docs_procesar if d.get("archivo_descargado")]
+            },
+            "detalle_pronunciamientos": analisis.get("documentos", [])
+        }
 
 
 # ==============================================================================

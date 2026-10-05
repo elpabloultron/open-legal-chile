@@ -31,3 +31,49 @@ def test_mcp_pjud_tool():
     assert isinstance(res, list)
     assert len(res) > 0
     assert "Isapres" in res[0]["caratula"] or "tabla" in res[0]["doctrina"].lower()
+
+
+def test_mcp_pjud_analizar_sentencia_texto():
+    texto_prueba = """
+    Santiago, diez de marzo de dos mil veintiséis.
+    VISTOS:
+    Demanda de indemnización de perjuicios.
+    CONSIDERANDO:
+    1° Que el actor demanda daño moral derivado de accidente laboral.
+    2° Que el artículo 184 del Código del Trabajo impone al empleador el deber de seguridad.
+    SE RESUELVE:
+    Se acoge la demanda condenando al pago de indemnización con costas.
+    """
+    res = handle_tool_call("pjud_analizar_sentencia", {
+        "texto_sentencia": texto_prueba,
+        "convertir_a_md_y_graficar": False
+    })
+    assert "total_considerandos" in res or "total_sentencias" in res
+    if "total_considerandos" in res:
+        assert res["total_considerandos"] == 2
+        assert "CONDENA EN COSTAS" in res["regimen_costas"]
+
+
+def test_mcp_pjud_analizar_sentencia_con_considerandos():
+    texto_prueba = """
+    Santiago, diez de marzo de dos mil veintiséis.
+    VISTOS:
+    Protección de derechos fundamentales.
+    CONSIDERANDO:
+    1° Que se reclama el cese de contrata.
+    2° Que conforme a la confianza legítima, tras dos años se requiere acto motivado.
+    3° Que la omisión de motivación vulnera la garantía de igualdad.
+    SE RESUELVE:
+    Se acoge el recurso.
+    """
+    res = handle_tool_call("pjud_analizar_sentencia", {
+        "texto_sentencia": texto_prueba,
+        "tema_relevante": "confianza legítima contrata motivación",
+        "convertir_a_md_y_graficar": True
+    })
+    assert "citas_destacadas" in res
+    assert len(res["citas_destacadas"]) >= 1
+    cita = res["citas_destacadas"][0]
+    assert cita["numero_considerando"] == "2°"
+    assert "confianza legítima" in cita["extracto_literal"].lower()
+

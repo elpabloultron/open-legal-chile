@@ -114,7 +114,7 @@ def servidor_actual():
     import sys
     for nombre in ("__main__", "mcp_server"):
         modulo = sys.modules.get(nombre)
-        if modulo is not None and hasattr(modulo, "handle_tool_call"):
+        if modulo is not None and hasattr(modulo, "TOOLS") and hasattr(modulo, "handle_tool_call"):
             return modulo
     import mcp_server  # último recurso: nadie lo tenía cargado (script suelto)
     return mcp_server

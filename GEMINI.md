@@ -48,6 +48,11 @@ Queda **estrictamente prohibido** emitir respuestas superficiales, genéricas o 
 * **V. Dictamen Estratégico y Cursos de Acción:** Conclusión ejecutiva, riesgos y vías procesales concretas.
 * **Fuentes (al pie de la respuesta):** En las conversaciones, las citas van siempre **al final de todo**, numeradas, con formato de corchetes oficial y enlaces verificables. En documentos (.docx), van a pie de página.
 
+### Protocolo de Búsqueda Dual Obligatorio (Hugging Face + Conectores Oficiales del Estado):
+Frente a cualquier consulta sustantiva o procesal, el agente y el harness deben:
+1. **Ejecutar `consulta_maestra`** como primer paso: ésta sondea en paralelo Hugging Face, doctrina canónica, normas BCN, subgrafo LegalGraphify y los conectores oficiales del Estado según la materia detectada (DT y PJUD en laboral; CGR en administrativo; SII en tributario; SMA/TA en ambiental; PJUD en civil general, etc.).
+2. **Si se invocan herramientas específicas por materia:** el modelo y el harness están obligados a consultar **SIEMPRE** tanto al conector estatal pertinente (`dt_search_doctrina`, `cgr_search_jurisprudencia`, `sii_search_circulares`, `pjud_search_jurisprudencia`, etc.) como a la data de Hugging Face (`huggingface_search_dataset`). Jamás se omite la jurisprudencia/doctrina administrativa estatal ni el corpus dogmático de Hugging Face.
+
 ---
 
 ## 3. Estructura de Escritos Judiciales y Forenses en Chile

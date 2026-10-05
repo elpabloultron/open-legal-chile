@@ -29,15 +29,21 @@ class RegistroFalso:
 
 def test_normaliza_listas_dicts_y_avisos(monkeypatch):
     monkeypatch.setattr(mcp_server, "_registro_estatal", lambda: RegistroFalso())
+    monkeypatch.setattr(mcp_server, "_hf_para_consulta", lambda q, lim=3: {
+        "resultados": [{"archivo": "doctrina/laboral/tutela.md"}],
+        "citas": [{"formato": "[Hugging Face - doctrina/laboral/tutela.md]", "texto": "texto doctrina",
+                   "url": "https://hf.co/tutela", "fuente": "huggingface"}]
+    })
 
     resultado = mcp_server.handle_tool_call("busqueda_universal", {"consulta": "acoso laboral"})
 
     assert "error" not in resultado, resultado
-    # Los avisos no son fuentes: quedan en el payload, no en las citas.
-    assert len(resultado["citas"]) == 2, resultado["citas"]
+    # Los avisos no son fuentes: quedan en el payload, no en las citas. Integra HF + órganos estatales.
+    assert len(resultado["citas"]) == 3, resultado["citas"]
     fuentes = {c["formato"] for c in resultado["citas"]}
     assert "[CGR - Procede otorgar beneficio]" in fuentes
     assert "[DT - Dictamen N° 653]" in fuentes
+    assert "[Hugging Face - doctrina/laboral/tutela.md]" in fuentes
     assert all(c["url"] for c in resultado["citas"]), "cada cita lleva su enlace"
 
 
@@ -47,6 +53,7 @@ def test_sin_resultados_no_falla_ni_inventa(monkeypatch):
             return {"query": consulta, "sma": {}, "pjud": []}
 
     monkeypatch.setattr(mcp_server, "_registro_estatal", lambda: RegistroVacio())
+    monkeypatch.setattr(mcp_server, "_hf_para_consulta", lambda q, lim=3: {"resultados": [], "citas": []})
 
     resultado = mcp_server.handle_tool_call("busqueda_universal", {"consulta": "algo"})
 

@@ -670,6 +670,350 @@ class LegalGraphifyEngine:
             "advertencias": list(self.advertencias),
         }
 
+    def ingerir_sentencia_judicial(self, doc_o_path: Any) -> Dict[str, Any]:
+        """
+        Incorpora una sentencia judicial (o su archivo Markdown) al Knowledge Graph.
+        Genera el nodo de la sentencia (`sentencia_judicial`), los nodos de considerandos clave,
+        y enlaza la sentencia con artículos legales (BCN) y nodos dogmáticos existentes.
+        """
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+
+        from sentencia2md import parsear_frontmatter_yaml, segmentar_secciones_sentencia
+
+        # Si se pasa una ruta de archivo .md
+        doc_dict: Dict[str, Any] = {}
+        if isinstance(doc_o_path, (str, os.PathLike)) and str(doc_o_path).endswith(".md"):
+            p = os.path.abspath(doc_o_path)
+            if os.path.exists(p):
+                with open(p, "r", encoding="utf-8") as f:
+                    cuerpo_md = f.read()
+                meta, _ = parsear_frontmatter_yaml(cuerpo_md)
+                doc_dict = dict(meta)
+                sec = segmentar_secciones_sentencia(cuerpo_md)
+                doc_dict["considerandos_lista"] = sec.get("considerandos", [])
+                doc_dict["texto_integral"] = cuerpo_md
+        elif isinstance(doc_o_path, dict):
+            doc_dict = dict(doc_o_path)
+        else:
+            return {"error": "Formato de sentencia no soportado (se espera dict o ruta .md)"}
+
+        rol = str(doc_dict.get("rol", "")).strip()
+        tribunal = str(doc_dict.get("tribunal", "Corte Suprema")).strip()
+        fecha = str(doc_dict.get("fecha", "")).strip()
+        caratula = str(doc_dict.get("caratula", "")).strip()
+        recurso = str(doc_dict.get("recurso", "")).strip()
+        resultado = str(doc_dict.get("resultado", "")).strip()
+        link_oficial = str(doc_dict.get("link_oficial") or doc_dict.get("url_origen") or doc_dict.get("link") or "").strip()
+
+        if not rol:
+            return {"error": "La sentencia no especifica Rol o identificador de causa"}
+
+        sentencia_id = _sanitize_id(f"{tribunal}_{rol}", "sentencia")
+        etiqueta_sentencia = f"[{tribunal} - Rol N° {rol}]"
+
+        nodos_nuevos, enlaces_nuevos = 0, 0
+
+        # 1. Agregar nodo de la sentencia
+        if not self.graph.has_node(sentencia_id):
+            self.graph.add_node(
+                sentencia_id,
+                label=etiqueta_sentencia,
+                node_type="sentencia_judicial",
+                rol=rol,
+                tribunal=tribunal,
+                fecha=fecha,
+                caratula=caratula,
+                recurso=recurso,
+                resultado=resultado,
+                link=link_oficial,
+                community=3
+            )
+            nodos_nuevos += 1
+            self._label_index[_normalize_str(etiqueta_sentencia)] = sentencia_id
+            self._label_index[_normalize_str(f"rol {rol}")] = sentencia_id
+
+        # 2. Considerandos
+        cons_list = doc_dict.get("considerandos_lista")
+        if not cons_list:
+            texto_base = doc_dict.get("texto_integral") or doc_dict.get("texto_sentencia") or ""
+            if texto_base:
+                sec = segmentar_secciones_sentencia(texto_base)
+                cons_list = sec.get("considerandos", [])
+
+        if cons_list:
+            for c in cons_list:
+                num = str(c.get("numero", "")).strip()
+                c_texto = c.get("texto", "")
+                c_id = _sanitize_id(f"{sentencia_id}_cons_{num}", "cons")
+                c_label = f"Considerando {num} (Rol {rol})"
+                
+                if not self.graph.has_node(c_id):
+                    self.graph.add_node(
+                        c_id,
+                        label=c_label,
+                        node_type="considerando_judicial",
+                        numero=num,
+                        tipo=c.get("tipo", "HECHO"),
+                        texto=c_texto[:600],
+                        community=3
+                    )
+                    nodos_nuevos += 1
+                
+                if not self.graph.has_edge(sentencia_id, c_id):
+                    self.graph.add_edge(sentencia_id, c_id, relation="contiene_considerando")
+                    enlaces_nuevos += 1
+
+                # Enlazar normas del considerando si las hay
+                for n_str in c.get("normas_citadas", []):
+                    norma_norm = _normalize_str(n_str)
+                    target_nid = self.normas_index.get(norma_norm)
+                    if not target_nid:
+                        # Si no existe, crear nodo liviano de norma
+                        target_nid = _sanitize_id(n_str, "norma")
+                        if not self.graph.has_node(target_nid):
+                            self.graph.add_node(target_nid, label=n_str, node_type="articulo_legal", community=2)
+                            nodos_nuevos += 1
+                            self.normas_index[norma_norm] = target_nid
+                    if not self.graph.has_edge(c_id, target_nid):
+                        self.graph.add_edge(c_id, target_nid, relation="aplica_norma")
+                        enlaces_nuevos += 1
+
+        # 3. Vincular con instituciones dogmáticas detectadas en el texto
+        texto_completo = doc_dict.get("texto_integral") or doc_dict.get("texto_sentencia") or ""
+        texto_norm = _normalize_str(texto_completo)
+        
+        # Muestreo sobre las instituciones dogmáticas del índice
+        for inst_norm, inst_nid in list(self.instituciones_index.items())[:500]:
+            if len(inst_norm) > 4 and inst_norm in texto_norm:
+                if not self.graph.has_edge(sentencia_id, inst_nid):
+                    self.graph.add_edge(sentencia_id, inst_nid, relation="aplica_doctrina")
+                    enlaces_nuevos += 1
+
+        self.is_built = True
+
+        return {
+            "sentencia_id": sentencia_id,
+            "rol": rol,
+            "tribunal": tribunal,
+            "nodos_nuevos": nodos_nuevos,
+            "enlaces_nuevos": enlaces_nuevos,
+            "total_considerandos": len(cons_list) if cons_list else 0,
+            "grafo": {
+                "nodos": self.graph.number_of_nodes(),
+                "aristas": self.graph.number_of_edges(),
+            }
+        }
+
+    def ingerir_lote_sentencias(
+        self,
+        lista_sentencias: List[Any],
+        guardar_disco: bool = False
+    ) -> Dict[str, Any]:
+        """Ingesta una lista de sentencias (rutas .md o diccionarios) en lote."""
+        resultados = []
+        nodos_totales, enlaces_totales = 0, 0
+        for s in lista_sentencias:
+            res = self.ingerir_sentencia_judicial(s)
+            if "error" not in res:
+                nodos_totales += res.get("nodos_nuevos", 0)
+                enlaces_totales += res.get("enlaces_nuevos", 0)
+            resultados.append(res)
+
+        if guardar_disco and self.is_built:
+            self.guardar_grafo_json()
+
+        return {
+            "total_sentencias": len(lista_sentencias),
+            "nodos_nuevos_totales": nodos_totales,
+            "enlaces_nuevos_totales": enlaces_totales,
+            "detalles": resultados,
+            "grafo": {
+                "nodos": self.graph.number_of_nodes(),
+                "aristas": self.graph.number_of_edges(),
+            }
+        }
+
+    def ingerir_dictamen_administrativo(self, doc_o_path: Any) -> Dict[str, Any]:
+        """
+        Incorpora un dictamen o resolución administrativa (o su archivo Markdown) al Knowledge Graph.
+        Genera el nodo del pronunciamiento administrativo (`dictamen_administrativo`), los nodos
+        de criterios y consideraciones jurídicas, y enlaza con artículos legales (BCN) y doctrina canónica.
+        """
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+
+        from resolucion_administrativa2md import parsear_frontmatter_yaml, segmentar_secciones_administrativas
+
+        # Si se pasa una ruta de archivo .md
+        doc_dict: Dict[str, Any] = {}
+        if isinstance(doc_o_path, (str, os.PathLike)) and str(doc_o_path).endswith(".md"):
+            p = os.path.abspath(doc_o_path)
+            if os.path.exists(p):
+                with open(p, "r", encoding="utf-8") as f:
+                    cuerpo_md = f.read()
+                meta, _ = parsear_frontmatter_yaml(cuerpo_md)
+                doc_dict = dict(meta)
+                sec = segmentar_secciones_administrativas(cuerpo_md, organismo=str(doc_dict.get("organismo", "CGR")))
+                doc_dict["consideraciones_lista"] = sec.get("consideraciones", [])
+                doc_dict["texto_integral"] = cuerpo_md
+        elif isinstance(doc_o_path, dict):
+            doc_dict = dict(doc_o_path)
+        else:
+            return {"error": "Formato de pronunciamiento administrativo no soportado (se espera dict o ruta .md)"}
+
+        organismo = str(doc_dict.get("organismo", "CGR")).strip().upper()
+        tipo_acto = str(doc_dict.get("tipo_acto", "Dictamen")).strip()
+        identificador = str(doc_dict.get("identificador") or doc_dict.get("numero") or doc_dict.get("docId") or "").strip()
+        fecha = str(doc_dict.get("fecha", "")).strip()
+        materia = str(doc_dict.get("materia", "")).strip()
+        link_oficial = str(doc_dict.get("link_oficial") or doc_dict.get("url_oficial") or doc_dict.get("link") or doc_dict.get("url") or doc_dict.get("pdfUrl") or "").strip()
+
+        if not identificador:
+            return {"error": "El pronunciamiento no especifica número o identificador"}
+
+        dictamen_id = _sanitize_id(f"{organismo}_{tipo_acto}_{identificador}", "dictamen")
+        etiqueta_dictamen = f"[{organismo} - {tipo_acto} N° {identificador}]"
+
+        nodos_nuevos, enlaces_nuevos = 0, 0
+
+        # 1. Agregar nodo del dictamen/resolución
+        if not self.graph.has_node(dictamen_id):
+            self.graph.add_node(
+                dictamen_id,
+                label=etiqueta_dictamen,
+                node_type="dictamen_administrativo",
+                organismo=organismo,
+                tipo_acto=tipo_acto,
+                identificador=identificador,
+                fecha=fecha,
+                materia=materia,
+                link=link_oficial,
+                community=4
+            )
+            nodos_nuevos += 1
+            self._label_index[_normalize_str(etiqueta_dictamen)] = dictamen_id
+            self._label_index[_normalize_str(f"{organismo} {identificador}")] = dictamen_id
+
+        # 2. Consideraciones y criterios
+        cons_list = doc_dict.get("consideraciones_lista")
+        if not cons_list:
+            texto_base = doc_dict.get("texto_integral") or doc_dict.get("texto") or doc_dict.get("documento") or ""
+            if texto_base:
+                sec = segmentar_secciones_administrativas(texto_base, organismo=organismo)
+                cons_list = sec.get("consideraciones", [])
+
+        if cons_list:
+            for c in cons_list:
+                num = str(c.get("numero", "")).strip()
+                c_texto = c.get("texto", "")
+                c_id = _sanitize_id(f"{dictamen_id}_parr_{num}", "criterio")
+                c_label = f"Párrafo {num} ({organismo} {identificador})"
+
+                if not self.graph.has_node(c_id):
+                    self.graph.add_node(
+                        c_id,
+                        label=c_label,
+                        node_type="criterio_administrativo",
+                        numero=num,
+                        es_analisis_juridico=c.get("es_analisis_juridico", True),
+                        texto=c_texto[:600],
+                        community=4
+                    )
+                    nodos_nuevos += 1
+
+                if not self.graph.has_edge(dictamen_id, c_id):
+                    self.graph.add_edge(dictamen_id, c_id, relation="contiene_criterio")
+                    enlaces_nuevos += 1
+
+                # Enlazar normas citadas si las hay
+                for n_str in c.get("normas_citadas", []):
+                    norma_norm = _normalize_str(n_str)
+                    target_nid = self.normas_index.get(norma_norm)
+                    if not target_nid:
+                        target_nid = _sanitize_id(n_str, "norma")
+                        if not self.graph.has_node(target_nid):
+                            self.graph.add_node(target_nid, label=n_str, node_type="articulo_legal", community=2)
+                            nodos_nuevos += 1
+                            self.normas_index[norma_norm] = target_nid
+                    if not self.graph.has_edge(c_id, target_nid):
+                        self.graph.add_edge(c_id, target_nid, relation="interpreta_norma")
+                        enlaces_nuevos += 1
+
+        # Enlazar fuentes legales generales del documento
+        fuentes_doc = doc_dict.get("fuentes_legales") or doc_dict.get("marco_normativo") or []
+        if isinstance(fuentes_doc, str):
+            fuentes_doc = [f.strip() for f in fuentes_doc.split(",") if f.strip()]
+        for n_str in fuentes_doc:
+            norma_norm = _normalize_str(n_str)
+            target_nid = self.normas_index.get(norma_norm)
+            if not target_nid:
+                target_nid = _sanitize_id(n_str, "norma")
+                if not self.graph.has_node(target_nid):
+                    self.graph.add_node(target_nid, label=n_str, node_type="articulo_legal", community=2)
+                    nodos_nuevos += 1
+                    self.normas_index[norma_norm] = target_nid
+            if not self.graph.has_edge(dictamen_id, target_nid):
+                self.graph.add_edge(dictamen_id, target_nid, relation="interpreta_norma")
+                enlaces_nuevos += 1
+
+        # 3. Vincular con instituciones dogmáticas detectadas en el texto
+        texto_completo = doc_dict.get("texto_integral") or doc_dict.get("texto") or doc_dict.get("documento") or materia
+        texto_norm = _normalize_str(texto_completo)
+
+        for inst_norm, inst_nid in list(self.instituciones_index.items())[:500]:
+            if len(inst_norm) > 4 and inst_norm in texto_norm:
+                if not self.graph.has_edge(dictamen_id, inst_nid):
+                    self.graph.add_edge(dictamen_id, inst_nid, relation="fija_doctrina_administrativa")
+                    enlaces_nuevos += 1
+
+        self.is_built = True
+
+        return {
+            "dictamen_id": dictamen_id,
+            "organismo": organismo,
+            "identificador": identificador,
+            "nodos_nuevos": nodos_nuevos,
+            "enlaces_nuevos": enlaces_nuevos,
+            "total_criterios": len(cons_list) if cons_list else 0,
+            "grafo": {
+                "nodos": self.graph.number_of_nodes(),
+                "aristas": self.graph.number_of_edges(),
+            }
+        }
+
+    def ingerir_lote_dictamenes(
+        self,
+        lista_dictamenes: List[Any],
+        guardar_disco: bool = False
+    ) -> Dict[str, Any]:
+        """Ingesta una lista de dictámenes o resoluciones administrativas en lote."""
+        resultados = []
+        nodos_totales, enlaces_totales = 0, 0
+        for d in lista_dictamenes:
+            res = self.ingerir_dictamen_administrativo(d)
+            if "error" not in res:
+                nodos_totales += res.get("nodos_nuevos", 0)
+                enlaces_totales += res.get("enlaces_nuevos", 0)
+            resultados.append(res)
+
+        if guardar_disco and self.is_built:
+            self.guardar_grafo_json()
+
+        return {
+            "total_dictamenes": len(lista_dictamenes),
+            "nodos_nuevos_totales": nodos_totales,
+            "enlaces_nuevos_totales": enlaces_totales,
+            "detalles": resultados,
+            "grafo": {
+                "nodos": self.graph.number_of_nodes(),
+                "aristas": self.graph.number_of_edges(),
+            }
+        }
+
+    ingerir_lote_resoluciones = ingerir_lote_dictamenes
 
     def resumen_por_comunidades(self, top_n: int = 12, representativos: int = 4) -> Dict[str, Any]:
         """Resumen jerárquico: qué hay en cada comunidad, sin leer los nodos.

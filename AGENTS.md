@@ -74,13 +74,20 @@ Queda **estrictamente prohibido** emitir respuestas superficiales, simplistas o 
 El orden no es opcional. Cualquier harness —Antigravity, Claude Code, Cursor, VS Code, dsh— que
 use el MCP de Open Legal Chile responde así:
 
-1. **Hugging Face primero.** Ante cualquier consulta jurídica, el primer paso es `consulta_maestra`
-   (o, en su defecto, `huggingface_search_dataset`): el corpus publicado es la base citable. No se
+1. **Hugging Face y Conectores Estatales siempre.** Ante cualquier consulta jurídica, el primer paso
+   es `consulta_maestra` (o, en su defecto, `huggingface_search_dataset` junto con los conectores
+   estatales oficiales que correspondan a la materia: DT, CGR, SII, PJUD, SMA, CMF, etc.): el corpus
+   publicado en Hugging Face y las fuentes del Estado son la base citable indispensable. No se
    responde de memoria del modelo, ni siquiera cuando «ya se sabe» la respuesta. Si la materia es
    ambiental —SMA/SNIFA, SEIA/RCA, daño ambiental, humedales, tribunales ambientales—, el primer
    paso es `ambiental_consulta_maestra` (§2 quinquies).
-2. **Fuente oficial después.** Norma (BCN), dictamen (DT/CGR/SII/CMF), fallo (PJUD/TC/ambientales) o
-   guía (Academia Judicial) según la materia.
+2. **Conectores oficiales del Estado en la búsqueda.** Frente a toda consulta sustantiva o procesal,
+   el LLM y el harness deben recurrir a `consulta_maestra` —que consulta en paralelo a los organismos
+   oficiales según la materia— o invocar directamente los conectores estatales oficiales correspondientes
+   (DT y PJUD en laboral; CGR en administrativo/probidad; SII en tributario; SMA/TA en ambiental;
+   TDLC en libre competencia; CMF en valores/banca; CNE/Panel en energía; PJUD en litigios civiles),
+   triangulando siempre la norma (BCN), la doctrina canónica en Hugging Face y la jurisprudencia o
+   dictamen vinculante del órgano fiscalizador.
 3. **Cada cita viaja con su texto literal.** Antes de citar `[BCN - Código Civil, Art. 1545]` se llamó
    a `cita_texto` (o la herramienta devolvió el texto en su bloque `citas`). Si el texto no se pudo
    traer, se dice **«sin fuente verificable»**: nunca se cita a ciegas ni se parafrasea el tenor como
