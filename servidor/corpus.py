@@ -17,10 +17,12 @@ if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de 
         List,
         _citas_en_items,
         _con_avisos,
+        _detectar_dominios_estatales,
         _doctrina_para_consulta,
         _hf_para_consulta,
         _items_del_organismo,
         _normas_para_consulta,
+        _organismos_para_consulta,
         _registro_estatal,
         _subgrafo_para_consulta,
         aj_client,
@@ -57,13 +59,14 @@ def _refrescar() -> None:
 TOOLS = [
     {
         "name": "consulta_maestra",
-        "description": "PRIMER PASO OBLIGATORIO de toda consulta jurídica: consulta el dataset de Hugging Face, "
-                       "la doctrina canónica, el grafo y las normas chilenas detectadas en la consulta, y devuelve "
-                       "las fuentes con su TEXTO LITERAL y su corchete de cita listo para pegar. Usala antes de "
-                       "responder aunque creas saber la respuesta: el producto no cita de memoria. Si la materia "
-                       "es ambiental (SMA, SEIA/RCA, daño ambiental, humedales, Tribunales Ambientales), el primer "
-                       "paso es el módulo `ambiental_consulta_maestra`, que cubre además los anuarios, boletines y "
-                       "la biblioteca ambiental completos.",
+        "description": "PRIMER PASO OBLIGATORIO de toda consulta jurídica: consulta simultáneamente el dataset "
+                       "de Hugging Face, la doctrina canónica, el grafo, las normas chilenas (BCN) y los organismos "
+                       "oficiales del Estado según la materia detectada (DT, CGR, SII, PJUD, SMA, CMF, etc.), "
+                       "devolviendo las fuentes con su TEXTO LITERAL y su corchete de cita listo para pegar. Usala "
+                       "antes de responder aunque creas saber la respuesta: el producto no cita de memoria. Si la "
+                       "materia es ambiental (SMA, SEIA/RCA, daño ambiental, humedales, Tribunales Ambientales), el "
+                       "primer paso es el módulo `ambiental_consulta_maestra`, que cubre además los anuarios, "
+                       "boletines y la biblioteca ambiental completos.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -102,8 +105,9 @@ TOOLS = [
     },
     {
         "name": "busqueda_universal",
-        "description": "Busca un término a la vez en los 10 organismos del Estado (BCN, CGR, DT, PJUD, TC, CNE, "
-                       "Panel de Expertos, CMF, SII, SMA/TDLC) y devuelve los resultados con sus citas listas.",
+        "description": "Busca un término a la vez en el dataset de Hugging Face y en los 10 organismos del Estado "
+                       "(BCN, CGR, DT, PJUD, TC, CNE, Panel de Expertos, CMF, SII, SMA/TDLC), devolviendo los "
+                       "resultados con sus citas listas y texto literal.",
         "inputSchema": {
             "type": "object",
             "properties": {"consulta": {"type": "string", "description": "Término o frase a buscar"}},
@@ -459,29 +463,36 @@ def despachar(name: str, args: dict) -> Any:
         if not consulta:
             return {"error": "El parámetro 'consulta' (o 'query') es obligatorio."}
         lim = int(args.get("max_fuentes") or 3)
-        # Los cuatro sondeos son independientes (HF, doctrina, normas, subgrafo):
+        # Los cinco sondeos son independientes (HF, doctrina, normas, subgrafo, organismos del Estado):
         # en paralelo la consulta espera al más lento, no a la suma.
-        enviar_progreso("Consulta maestra: 4 sondeos en paralelo (Hugging Face, doctrina, BCN, subgrafo)",
-                        0, 4)
+        enviar_progreso("Consulta maestra: 5 sondeos en paralelo (Hugging Face, doctrina, BCN, subgrafo, organismos)",
+                        0, 5)
 
         def _anunciar(etiqueta: str, hechos: int):
             def _envolver(fn):
                 def _paso(*a, **k):
                     resultado = fn(*a, **k)
-                    enviar_progreso(f"{etiqueta} listo", hechos, 4)
+                    enviar_progreso(f"{etiqueta} listo", hechos, 5)
                     return resultado
                 return _paso
             return _envolver
 
         from concurrent.futures import ThreadPoolExecutor
-        with ThreadPoolExecutor(max_workers=4, thread_name_prefix="consulta") as pool:
+        with ThreadPoolExecutor(max_workers=5, thread_name_prefix="consulta") as pool:
             f_hf = pool.submit(_anunciar("Hugging Face", 1)(_hf_para_consulta), consulta, lim)
             f_doctrina = pool.submit(_anunciar("Doctrina", 2)(_doctrina_para_consulta), consulta, lim)
             f_normas = pool.submit(_anunciar("Normas BCN", 3)(_normas_para_consulta), consulta)
             f_subgrafo = pool.submit(_anunciar("Subgrafo", 4)(_subgrafo_para_consulta), consulta)
-            hf, doctrina, normas, subgrafo = (f_hf.result(), f_doctrina.result(),
-                                              f_normas.result(), f_subgrafo.result())
-        citas: List[Dict[str, Any]] = list(hf.get("citas") or []) + list(doctrina.get("citas") or [])
+            f_organismos = pool.submit(_anunciar("Organismos Estado", 5)(_organismos_para_consulta), consulta, lim)
+            hf, doctrina, normas, subgrafo, organismos = (
+                f_hf.result(), f_doctrina.result(),
+                f_normas.result(), f_subgrafo.result(), f_organismos.result()
+            )
+        citas: List[Dict[str, Any]] = (
+            list(hf.get("citas") or []) +
+            list(doctrina.get("citas") or []) +
+            list(organismos.get("citas") or [])
+        )
         for n in normas:
             texto = str(n.get("texto") or "")
             if not texto:
@@ -496,13 +507,15 @@ def despachar(name: str, args: dict) -> Any:
             ("huggingface", bool(hf.get("citas"))),
             ("doctrina", bool(doctrina.get("resultados"))),
             ("normas", bool([n for n in normas if n.get("texto")])),
+            ("organismos", bool(organismos.get("citas"))),
         ) if not ok]
         return {
             "consulta": consulta,
             "hallazgos": {"huggingface": hf.get("resultados", []),
                           "doctrina": doctrina.get("resultados", []),
                           "normas": normas,
-                          "subgrafo": subgrafo},
+                          "subgrafo": subgrafo,
+                          "organismos": organismos.get("resultados", {})},
             "citas": citas,
             "faltantes": faltantes,
             "como_citar": "Pegá cada cita con su texto literal. En conversación: la respuesta primero y las "
@@ -537,20 +550,35 @@ def despachar(name: str, args: dict) -> Any:
             return {"error": "El parámetro 'consulta' (o 'query') es obligatorio."}
         resultados = _registro_estatal().search_all(consulta)
         citas_halladas: List[Dict[str, Any]] = []
+        hf = _hf_para_consulta(consulta, lim=3)
+        if isinstance(resultados, dict):
+            resultados["huggingface"] = hf.get("resultados", [])
         if isinstance(resultados, dict):
             for organismo, valor in resultados.items():
-                if organismo == "query":
+                if organismo in ("query", "huggingface"):
                     continue
                 for it in _items_del_organismo(valor)[:3]:
-                    nombre = (it.get("nombre") or it.get("materia") or it.get("title")
-                              or it.get("titulo") or it.get("docId"))
-                    if not nombre:
+                    ident = str(it.get("rol") or it.get("numero") or it.get("nombre")
+                                or it.get("materia") or it.get("title") or it.get("titulo")
+                                or it.get("docId") or "")
+                    if it.get("rol") and it.get("caratula"):
+                        ident = f"{it['rol']} ({it['caratula']})"
+                    elif it.get("numero") and it.get("fecha"):
+                        ident = f"Dictamen {it['numero']} de {it['fecha']}"
+                    elif it.get("numero"):
+                        ident = f"Dictamen {it['numero']}"
+
+                    if not ident:
                         continue
+                    texto = str(it.get("texto") or it.get("doctrina") or it.get("materia")
+                                or it.get("conclusiones") or it.get("resumen")
+                                or it.get("snippet") or "")[:600]
+                    url = str(it.get("url") or it.get("link") or it.get("pdfUrl") or it.get("enlace") or "")
                     citas_halladas.append(formatear_cita(
-                        str(organismo).upper(), str(nombre),
-                        url=str(it.get("url") or it.get("pdfUrl") or it.get("enlace") or ""),
-                        texto=str(it.get("texto") or it.get("conclusiones") or it.get("resumen")
-                                  or it.get("snippet") or "")[:600]))
+                        str(organismo).upper(), str(ident),
+                        url=url,
+                        texto=texto))
+        citas_halladas.extend(hf.get("citas") or [])
         return {"consulta": consulta, "resultados": resultados, "citas": citas_halladas}
     if name == "grafo_ver_corpus":
         return grafo_vista.ver_corpus(args.get("consulta"), int(args.get("max_nodos") or 250))

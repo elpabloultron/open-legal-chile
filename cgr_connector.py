@@ -6,7 +6,10 @@ Instructivos y Auditorías vinculantes de la Contraloría General de la Repúbli
 
 import os
 import sys
+import re
+import html
 import json
+import pathlib
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
@@ -82,20 +85,42 @@ class CGRClient:
             materia = src.get("materia") or src.get("resena") or src.get("descriptores") or nombre or ""
             objetivo = src.get("objetivo") or ""
             conclusiones = src.get("conclusiones") or ""
-            texto = src.get("texto_completo") or src.get("texto") or src.get("resumen") or conclusiones or objetivo or ""
             organismo = src.get("organismo") or src.get("organismos_destinatarios") or src.get("servicio_") or ""
+
+            # Extracción limpia del texto completo desde _source["documento"]
+            raw_doc_html = src.get("documento") or src.get("documento_raw") or ""
+            clean_doc_text = ""
+            if raw_doc_html:
+                clean_doc_text = re.sub(r"<br\s*/?>", "\n", raw_doc_html)
+                clean_doc_text = re.sub(r"<[^>]+>", " ", clean_doc_text)
+                clean_doc_text = html.unescape(clean_doc_text)
+                clean_doc_text = re.sub(r"[ \t]+", " ", clean_doc_text)
+                clean_doc_text = re.sub(r"\n{3,}", "\n\n", clean_doc_text).strip()
+
+            texto = clean_doc_text or src.get("texto_completo") or src.get("texto") or src.get("resumen") or conclusiones or objetivo or materia or ""
+
+            # Resolución del enlace al PDF oficial firmado
             pdf_url = src.get("pdf") or ""
+            if not pdf_url and doc_id and source == "dictamenes":
+                year_2d = str(src.get("year_doc_id") or (fecha[:4] if len(fecha) >= 4 else "24"))[-2:]
+                pdf_url = f"https://www.contraloria.cl/pdfbuscador/dictamenes/{doc_id}N{year_2d}/pdf"
+            elif pdf_url and not pdf_url.startswith("http"):
+                pdf_url = f"https://www.contraloria.cl{pdf_url}"
 
             clean_results.append({
                 "docId": str(doc_id),
-                "nombre": nombre.strip(),
+                "organismo": "CGR",
+                "tipo_acto": "Dictamen" if source == "dictamenes" else ("Auditoría" if source == "auditoria" else "Instructivo"),
+                "nombre": nombre.strip() if isinstance(nombre, str) else "",
                 "fecha": fecha[:10] if len(fecha) >= 10 else fecha,
-                "materia": materia.strip(),
+                "materia": materia.strip() if isinstance(materia, str) else "",
                 "objetivo": objetivo.strip() if isinstance(objetivo, str) else "",
                 "conclusiones": conclusiones.strip() if isinstance(conclusiones, str) else "",
-                "organismo": organismo if isinstance(organismo, str) else "",
+                "organismo_destinatario": organismo if isinstance(organismo, str) else "",
                 "texto": texto.strip() if isinstance(texto, str) else "",
-                "pdfUrl": pdf_url if pdf_url.startswith("http") else (f"https://www.contraloria.cl{pdf_url}" if pdf_url else "")
+                "texto_integral": texto.strip() if isinstance(texto, str) else "",
+                "pdfUrl": pdf_url,
+                "link_oficial": pdf_url or f"https://www.contraloria.cl/portal/dictamenes/{doc_id}"
             })
 
         output_data = {
@@ -111,16 +136,129 @@ class CGRClient:
 
         return output_data
 
-    def get_dictamen(self, doc_id: str) -> Dict[str, Any]:
-        """Obtiene el texto completo de un dictamen específico por su número/código oficial."""
-        res = self.search_jurisprudencia(doc_id, source="dictamenes", exact=True)
-        if res.get("resultados"):
-            return res["resultados"][0]
-        # Búsqueda abierta si no es exacto
+    def descargar_pdf_oficial(self, doc_id: str, year: str = "") -> Optional[str]:
+        """Descarga el PDF oficial firmado del dictamen desde el servidor de la Contraloría."""
+        clean_id = str(doc_id).strip()
+        y_2d = year[-2:] if year else "24"
+        if "N" in clean_id:
+            codigo_pdf = clean_id
+        else:
+            codigo_pdf = f"{clean_id}N{y_2d}"
+
+        dest_folder = pathlib.Path(self.cache_dir) / "descargas_pdf"
+        dest_folder.mkdir(parents=True, exist_ok=True)
+        target_path = dest_folder / f"dictamen_cgr_{clean_id}.pdf"
+
+        if target_path.exists() and target_path.stat().st_size > 1000:
+            return str(target_path)
+
+        url = f"https://www.contraloria.cl/pdfbuscador/dictamenes/{codigo_pdf}/pdf"
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "OpenLegalChile/1.0 (Derecho Administrativo Chile)"})
+            with safe_urlopen(req, timeout=30) as resp:
+                pdf_bytes = resp.read()
+            if len(pdf_bytes) > 1000:
+                target_path.write_bytes(pdf_bytes)
+                return str(target_path)
+        except Exception:
+            pass
+        return None
+
+    def get_dictamen_integral(self, doc_id: str, descargar_formato: Optional[str] = None) -> Dict[str, Any]:
+        """Obtiene el texto completo, metadatos y PDF oficial de un dictamen específico."""
         res = self.search_jurisprudencia(doc_id, source="dictamenes", exact=False)
+        doc = None
         if res.get("resultados"):
-            return res["resultados"][0]
-        return {"error": f"Dictamen {doc_id} no encontrado en la base de la CGR."}
+            doc = res["resultados"][0]
+
+        if not doc:
+            return {"error": f"Dictamen {doc_id} no encontrado en la base de la CGR."}
+
+        if descargar_formato and descargar_formato.lower() == "pdf":
+            ruta_pdf = self.descargar_pdf_oficial(doc.get("docId", ""), year=doc.get("fecha", "")[:4])
+            if ruta_pdf:
+                doc["archivo_descargado"] = ruta_pdf
+                doc["formato_descargado"] = "pdf"
+
+        return doc
+
+    def get_dictamen(self, doc_id: str) -> Dict[str, Any]:
+        """Obtiene el texto de un dictamen (mantiene compatibilidad hacia atrás)."""
+        return self.get_dictamen_integral(doc_id)
+
+    def get_dictamenes_lote(self, doc_ids: List[str], descargar_formato: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Obtiene una lista de dictámenes en lote."""
+        docs = []
+        for did in doc_ids:
+            docs.append(self.get_dictamen_integral(did, descargar_formato=descargar_formato))
+        return docs
+
+    def procesar_y_graficar_dictamenes(
+        self,
+        ids_o_docs: List[Any],
+        tema_relevante: Optional[str] = None,
+        convertir_a_md: bool = True,
+        descargar_formato: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        Pipeline unificado para dictámenes de Contraloría:
+        1. Resuelve documentos (busca texto íntegro).
+        2. Convierte a Markdown Canónico (dictamen2md).
+        3. Ingesta en LegalGraphify.
+        4. Desglosa y rankea consideraciones con ResolucionesParserEngine.
+        """
+        from resolucion_administrativa2md import convertir_lote_dictamenes
+        from resoluciones_parser import ResolucionesParserEngine
+        from legal_graphify import LegalGraphifyEngine
+
+        docs_procesar = []
+        for item in ids_o_docs:
+            if isinstance(item, str):
+                doc_obj = self.get_dictamen_integral(item, descargar_formato=descargar_formato)
+                docs_procesar.append(doc_obj)
+            elif isinstance(item, dict):
+                docs_procesar.append(item)
+
+        # Conversión a Markdown Canónico
+        rutas_md = []
+        if convertir_a_md:
+            try:
+                rutas_md = [str(p) for p in convertir_lote_dictamenes(docs_procesar)]
+                for i, r_path in enumerate(rutas_md):
+                    if i < len(docs_procesar):
+                        docs_procesar[i]["ruta_md"] = r_path
+            except Exception:
+                pass
+
+        # Ingesta en LegalGraphify
+        info_grafo = {}
+        try:
+            graph_engine = LegalGraphifyEngine()
+            insumos = rutas_md if rutas_md else docs_procesar
+            info_grafo = graph_engine.ingerir_lote_dictamenes(insumos, guardar_disco=False)
+        except Exception as e:
+            info_grafo = {"error": f"Error integrando con LegalGraphify: {str(e)}"}
+
+        # Análisis y citación canónica
+        parser_engine = ResolucionesParserEngine()
+        analisis = parser_engine.analizar_lote_resoluciones(docs_procesar, tema_relevante=tema_relevante)
+
+        return {
+            "organismo": "CGR",
+            "total_dictamenes": len(docs_procesar),
+            "tema_relevante": tema_relevante or "General",
+            "citas_destacadas": analisis.get("citas_destacadas", []),
+            "grafo_impacto": {
+                "nodos_nuevos": info_grafo.get("nodos_nuevos_totales", 0),
+                "enlaces_nuevos": info_grafo.get("enlaces_nuevos_totales", 0),
+                "grafo_total": info_grafo.get("grafo", {})
+            },
+            "archivos_generados": {
+                "markdown": rutas_md,
+                "descargas_oficiales": [d.get("archivo_descargado") for d in docs_procesar if d.get("archivo_descargado")]
+            },
+            "detalle_dictamenes": analisis.get("documentos", [])
+        }
 
     def search_instructivos(self, query: str, page: int = 1) -> Dict[str, Any]:
         """Busca en los Instructivos y Circulares generales de la CGR."""

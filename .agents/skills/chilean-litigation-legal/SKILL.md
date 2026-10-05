@@ -162,3 +162,27 @@ corpus canónico. Los fallos con texto completo en disco (TC, 2TA/3TA) se citan 
 literal**; las fichas de la Corte Suprema (~1 KB) se citan con rol, fecha y enlace — nunca se
 inventa texto. Entregable: Word **A4 u oficio, texto justificado, sin saltos de página** (doble
 espaciado entre capítulos).
+
+---
+
+## 🏛️ Workflow 5: Líneas Jurisprudenciales Multi-Sentencia y Citación de Considerandos
+
+**Propósito:** Construir líneas jurisprudenciales uniformes y sólidas para fundar demandas, recursos (protección, unificación, casación) o informes en derecho, analizando una o múltiples sentencias de la Corte Suprema y Cortes de Apelaciones.
+
+### Pasos Operativos:
+1. **Búsqueda y Detección de Precedentes:**
+   - Buscar sentencias en `juris.pjud.cl` o en el corpus local mediante `pjud_search_jurisprudencia(query="...", en_vivo=True)`.
+   - Identificar 1 a 5 fallos concordantes relevantes para el caso.
+2. **Descarga Oficial y Conversión a Markdown:**
+   - Invocar `pjud_analizar_sentencia` pasando el parámetro `rol` o la lista de `roles` (ej. `roles=["14076-2026", "45123-2021"]`), especificando `tema_relevante` y opcionalmente `descargar_formato="docx"`.
+   - El sistema descarga los documentos oficiales, los transforma a Markdown Canónico con Frontmatter YAML (`data/jurisprudencia_md/`), e ingesta los fallos y sus considerandos en LegalGraphify (`legal_knowledge_graph.json`).
+3. **Selección y Ranking Anatómico del Considerando Clave:**
+   - Para cada sentencia del lote, el motor evalúa todos los considerandos de hecho y derecho frente al `tema_relevante` y extrae el considerando rector (*ratio decidendi*).
+4. **Citación Canónica Obligatoria (AGENTS.md):**
+   - Transcribir el considerando seleccionado con su corchete oficial y su extracto literal exacto entre comillas latinas:
+     - Corte Suprema: `[CS - Rol N° 45.123-2021, Fecha: 15-09-2022, Considerando Quinto: «...»]`
+     - Cortes de Apelaciones: `[C.A. de Santiago - Rol N° 7.974-2026, Fecha: 02-10-2026, Considerando Tercero: «...»]`
+   - Cada cita viaja con su enlace oficial verificable a `juris.pjud.cl`.
+5. **Compuerta Anti-Alucinación:**
+   - Jamás parafrasear un considerando haciéndolo pasar por cita literal. Si el texto no está disponible en disco o en la API, se declara `[sin fuente verificable]`.
+

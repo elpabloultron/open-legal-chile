@@ -45,13 +45,15 @@ def test_consulta_maestra_emite_avances(monkeypatch):
                         lambda q, lim=3: {"resultados": [], "citas": []})
     monkeypatch.setattr(mcp_server, "_normas_para_consulta", lambda q: [])
     monkeypatch.setattr(mcp_server, "_subgrafo_para_consulta", lambda q, hops=1: {})
+    monkeypatch.setattr(mcp_server, "_organismos_para_consulta",
+                        lambda q, lim=3: {"resultados": {}, "citas": []})
 
     resultado = mcp_server.handle_tool_call("consulta_maestra", {"consulta": "humedales"})
 
     avisos = [json.loads(linea) for linea in buf.getvalue().splitlines() if linea.strip()]
     avances = sorted(a["params"]["progress"] for a in avisos
                      if a.get("method") == "notifications/progress")
-    assert avances == [0, 1, 2, 3, 4], avisos
+    assert avances == [0, 1, 2, 3, 4, 5], avisos
     assert "faltantes" in resultado
 
 

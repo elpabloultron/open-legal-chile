@@ -92,13 +92,17 @@ TOOLS = [
     },
     {
         "name": "cgr_search_jurisprudencia",
-        "description": "Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República (CGR).",
+        "description": "Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República (CGR). Permite buscar por término o analizar dictámenes individuales o en lote (doc_id/doc_ids), descargar PDF oficial firmado, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar consideraciones relevantes por tema.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Término de búsqueda jurídica (ej. 'confianza legitima contrata', 'probidad')"}
-            },
-            "required": ["query"]
+                "query": {"type": "string", "description": "Término de búsqueda jurídica (ej. 'confianza legitima contrata', 'probidad')"},
+                "doc_id": {"type": "string", "description": "Código o número de dictamen CGR a buscar o analizar a fondo (ej. 'D286N26', 'E123456')"},
+                "doc_ids": {"type": "array", "items": {"type": "string"}, "description": "Lista de códigos de dictámenes CGR para análisis en lote"},
+                "tema_relevante": {"type": "string", "description": "Punto de derecho o tema controvertido para rankear y citar consideraciones específicas"},
+                "descargar_formato": {"type": "string", "enum": ["pdf"], "description": "Descargar el PDF oficial firmado desde la CGR ('pdf')"},
+                "convertir_a_md_y_graficar": {"type": "boolean", "default": False, "description": "Convierte a Markdown canónico e ingesta en el grafo LegalGraphify"}
+            }
         }
     },
     {
@@ -114,13 +118,17 @@ TOOLS = [
     },
     {
         "name": "dt_search_doctrina",
-        "description": "Busca dictámenes, pronunciamientos y doctrina laboral vinculante de la Dirección del Trabajo (DT).",
+        "description": "Busca dictámenes, pronunciamientos y doctrina laboral vinculante de la Dirección del Trabajo (DT). Permite buscar por materia o número, o analizar dictámenes individuales o en lote (numero/numeros/articleId), descargar PDF oficial, aplicar OCR forense si está escaneado, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar consideraciones relevantes por tema.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Materia o número de dictamen (ej. 'acoso laboral ley karin', 'artículo 161', '344')"}
-            },
-            "required": ["query"]
+                "query": {"type": "string", "description": "Materia o número de dictamen (ej. 'acoso laboral ley karin', 'artículo 161', '344')"},
+                "numero": {"type": "string", "description": "Número u orden de dictamen DT a analizar (ej. 'ORD. N° 344', '129517')"},
+                "numeros": {"type": "array", "items": {"type": "string"}, "description": "Lista de dictámenes u ordinarios DT para análisis en lote"},
+                "tema_relevante": {"type": "string", "description": "Punto laboral controvertido para rankear y citar la doctrina o consideración específica"},
+                "descargar_formato": {"type": "string", "enum": ["pdf"], "description": "Descargar el PDF oficial adjunto ('pdf')"},
+                "convertir_a_md_y_graficar": {"type": "boolean", "default": False, "description": "Convierte a Markdown canónico e ingesta en el grafo LegalGraphify"}
+            }
         }
     },
     {
@@ -135,24 +143,32 @@ TOOLS = [
     },
     {
         "name": "panel_expertos_search",
-        "description": "Busca dictámenes vinculantes y resolución de discrepancias técnicas y tarifarias en el Panel de Expertos de la Ley Eléctrica.",
+        "description": "Busca dictámenes vinculantes y resolución de discrepancias técnicas y tarifarias en el Panel de Expertos de la Ley Eléctrica. Permite buscar por término o analizar dictámenes en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar consideraciones por tema.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Materia o empresa en controversia (ej. 'peajes', 'coordinador electrico')"}
-            },
-            "required": ["query"]
+                "query": {"type": "string", "description": "Materia, número de discrepancia o empresa en controversia (ej. 'peajes', '12-2023')"},
+                "numero": {"type": "string", "description": "Número de dictamen o discrepancia a analizar (ej. '12-2023')"},
+                "numeros": {"type": "array", "items": {"type": "string"}, "description": "Lista de dictámenes o discrepancias para análisis en lote"},
+                "tema_relevante": {"type": "string", "description": "Tema controvertido para rankear y citar la determinación técnica pertinente"},
+                "descargar_formato": {"type": "string", "enum": ["pdf"], "description": "Descargar el PDF oficial firmado del dictamen ('pdf')"},
+                "convertir_a_md_y_graficar": {"type": "boolean", "default": False, "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"}
+            }
         }
     },
     {
         "name": "cmf_search_normativa",
-        "description": "Busca Normas de Carácter General (NCG) y circulares de la Comisión para el Mercado Financiero (CMF).",
+        "description": "Busca Normas de Carácter General (NCG) y circulares de la Comisión para el Mercado Financiero (CMF). Permite buscar por término o analizar normas en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar disposiciones por tema.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Término o número de NCG (ej. '461', 'gobierno corporativo', 'sostenibilidad')"}
-            },
-            "required": ["query"]
+                "query": {"type": "string", "description": "Término o número de NCG (ej. '461', 'gobierno corporativo', 'sostenibilidad')"},
+                "numero": {"type": "string", "description": "Número de NCG o resolución a analizar (ej. '461')"},
+                "numeros": {"type": "array", "items": {"type": "string"}, "description": "Lista de números de NCG para análisis en lote"},
+                "tema_relevante": {"type": "string", "description": "Punto de mercado o regulatorio controvertido para rankear y citar disposiciones específicas"},
+                "descargar_formato": {"type": "string", "enum": ["pdf"], "description": "Descargar el PDF oficial de la norma ('pdf')"},
+                "convertir_a_md_y_graficar": {"type": "boolean", "default": False, "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"}
+            }
         }
     },
     {
@@ -168,13 +184,17 @@ TOOLS = [
     },
     {
         "name": "sii_search_circulares",
-        "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026).",
+        "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026). Permite buscar por término o analizar circulares en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar instrucciones por tema.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Materia tributaria o año (ej. 'iva servicios', 'gasto tributario', '2024')"}
-            },
-            "required": ["query"]
+                "query": {"type": "string", "description": "Materia tributaria o año (ej. 'iva servicios', 'gasto tributario', '2024')"},
+                "numero": {"type": "string", "description": "Número de circular a analizar (ej. '45', '35')"},
+                "numeros": {"type": "array", "items": {"type": "string"}, "description": "Lista de circulares para análisis en lote"},
+                "tema_relevante": {"type": "string", "description": "Tema tributario controvertido para rankear y citar la instrucción pertinente"},
+                "descargar_formato": {"type": "string", "enum": ["pdf"], "description": "Descargar el PDF oficial de la circular ('pdf')"},
+                "convertir_a_md_y_graficar": {"type": "boolean", "default": False, "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"}
+            }
         }
     },
     {
@@ -252,24 +272,31 @@ TOOLS = [
     },
     {
         "name": "sma_search_sancionatorios",
-        "description": "Busca expedientes y procedimientos sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA).",
+        "description": "Busca expedientes y procedimientos sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA). Permite analizar expedientes individuales o en lote, estructurar la formulación de cargos, convertir a Markdown canónico e ingestar en LegalGraphify.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Nombre de empresa o titular sancionado (ej. 'Minera', 'Poblacion', 'D-160')"}
-            },
-            "required": ["query"]
+                "query": {"type": "string", "description": "Nombre de empresa o titular sancionado (ej. 'Minera', 'Poblacion', 'D-160')"},
+                "expediente": {"type": "string", "description": "Rol de expediente SNIFA a analizar (ej. 'D-045-2023', 'D-160-2026')"},
+                "expedientes": {"type": "array", "items": {"type": "string"}, "description": "Lista de expedientes SNIFA para análisis en lote"},
+                "tema_relevante": {"type": "string", "description": "Punto ambiental controvertido para rankear y citar infracciones específicas"},
+                "convertir_a_md_y_graficar": {"type": "boolean", "default": False, "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"}
+            }
         }
     },
     {
         "name": "tdlc_search_jurisprudencia",
-        "description": "Busca sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC).",
+        "description": "Busca sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC). Permite analizar sentencias individuales o en lote, descargar PDF oficial, aplicar OCR forense si es necesario, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar consideraciones y resolutivos por tema.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Materia o empresa contenciosa (ej. 'colusion farmacias', 'abuso posicion dominante')"}
-            },
-            "required": ["query"]
+                "query": {"type": "string", "description": "Materia o empresa contenciosa (ej. 'colusion farmacias', 'abuso posicion dominante')"},
+                "numero": {"type": "string", "description": "Número de sentencia o resolución TDLC a analizar (ej. '216/2026', '180/2022')"},
+                "numeros": {"type": "array", "items": {"type": "string"}, "description": "Lista de sentencias TDLC para análisis en lote"},
+                "tema_relevante": {"type": "string", "description": "Punto controvertido de libre competencia para rankear y citar el resolutivo pertinente"},
+                "descargar_formato": {"type": "string", "enum": ["pdf"], "description": "Descargar el PDF oficial firmado ('pdf')"},
+                "convertir_a_md_y_graficar": {"type": "boolean", "default": False, "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"}
+            }
         }
     },
     {
@@ -297,13 +324,18 @@ TOOLS = [
     },
     {
         "name": "pjud_analizar_sentencia",
-        "description": "Desglosa estructuralmente una sentencia judicial chilena conforme al Art. 170 CPC (parte expositiva, considerandos de hecho/derecho, parte resolutiva, votos disidentes y costas Art. 144 CPC).",
+        "description": "Desglosa estructuralmente sentencias judiciales chilenas conforme al Art. 170 CPC. Soporta fallos individuales o lotes (roles múltiples/línea jurisprudencial), descarga oficial en PDF/DOCX desde juris.pjud.cl, conversión a Markdown canónico, ingesta en LegalGraphify y ranking/citación de considerandos relevantes por tema.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "texto_sentencia": {"type": "string", "description": "Texto completo o extracto de la sentencia judicial"}
-            },
-            "required": ["texto_sentencia"]
+                "texto_sentencia": {"type": "string", "description": "Texto completo o extracto de una sentencia judicial (opcional si se especifica 'rol' o 'roles')"},
+                "rol": {"type": "string", "description": "Rol de la causa judicial a buscar y analizar en vivo (ej. '14076-2026', '504-2026')"},
+                "roles": {"type": "array", "items": {"type": "string"}, "description": "Lista de Roles de causas para análisis en lote y construcción de líneas jurisprudenciales (ej. ['14076-2026', '45123-2021'])"},
+                "corte": {"type": "string", "enum": ["cs", "ca"], "default": "cs", "description": "Tribunal a consultar: 'cs' (Corte Suprema) o 'ca' (Cortes de Apelaciones)"},
+                "tema_relevante": {"type": "string", "description": "Tema o punto controvertido del caso para rankear y citar el considerando pertinente (ej. 'descuento de AFC', 'confianza legítima')"},
+                "descargar_formato": {"type": "string", "enum": ["pdf", "docx"], "description": "Formato de archivo oficial a descargar desde juris.pjud.cl ('pdf' o 'docx')"},
+                "convertir_a_md_y_graficar": {"type": "boolean", "default": True, "description": "Si es True, convierte a Markdown canónico (sentencia2md) e ingesta en LegalGraphify"}
+            }
         }
     },
     {
@@ -395,11 +427,57 @@ def despachar(name: str, args: dict) -> Any:
             return {"error": "Los parámetros 'codigo' y 'fecha' (YYYY-MM-DD) son obligatorios."}
         return bcn.get_codigo_historico(cod, fecha, args.get("articulo"))
     elif name == "cgr_search_jurisprudencia":
+        doc_id = args.get("doc_id")
+        doc_ids = args.get("doc_ids")
+        tema = args.get("tema_relevante")
+        convertir_md = bool(args.get("convertir_a_md_y_graficar", False))
+        descargar = args.get("descargar_formato")
+
+        if doc_id or doc_ids or tema or convertir_md or descargar:
+            lista_ids = []
+            if doc_id:
+                lista_ids.append(str(doc_id).strip())
+            if isinstance(doc_ids, list):
+                lista_ids.extend([str(d).strip() for d in doc_ids if str(d).strip()])
+            if not lista_ids and args.get("query"):
+                sr = cgr.search_jurisprudencia(args.get("query", ""))
+                res_items = sr.get("resultados", []) if isinstance(sr, dict) else []
+                lista_ids = [r.get("docId") for r in res_items[:3] if r.get("docId")]
+            if lista_ids:
+                return cgr.procesar_y_graficar_dictamenes(
+                    lista_ids,
+                    tema_relevante=tema,
+                    convertir_a_md=convertir_md,
+                    descargar_formato=descargar
+                )
         return _citas_en_items(cgr.search_jurisprudencia(args.get("query", "")), "CGR",
                                campos_clave=("nombre", "anio"), campo_texto="texto")
     elif name == "cgr_search_auditorias":
         return cgr.search_auditorias(args.get("query", ""))
     elif name == "dt_search_doctrina":
+        numero = args.get("numero") or args.get("article_id")
+        numeros = args.get("numeros")
+        tema = args.get("tema_relevante")
+        convertir_md = bool(args.get("convertir_a_md_y_graficar", False))
+        descargar = args.get("descargar_formato")
+
+        if numero or numeros or tema or convertir_md or descargar:
+            lista_ids = []
+            if numero:
+                lista_ids.append(str(numero).strip())
+            if isinstance(numeros, list):
+                lista_ids.extend([str(d).strip() for d in numeros if str(d).strip()])
+            if not lista_ids and args.get("query"):
+                sr_dt = dt.search_dictamenes(args.get("query", ""), limit=3)
+                if isinstance(sr_dt, list):
+                    lista_ids = [str(r.get("articleId") or r.get("numero")) for r in sr_dt if isinstance(r, dict) and (r.get("articleId") or r.get("numero"))]
+            if lista_ids:
+                return dt.procesar_y_graficar_dictamenes(
+                    lista_ids,
+                    tema_relevante=tema,
+                    convertir_a_md=convertir_md,
+                    descargar_formato=descargar
+                )
         return _citas_en_items(dt.search_dictamenes(args.get("query", ""), limit=10), "Dictamen DT",
                                campos_clave=("titulo", "fecha"), campo_texto="materia")
     elif name == "cne_get_centrales_y_proyectos":
@@ -422,8 +500,50 @@ def despachar(name: str, args: dict) -> Any:
             "proyectos_sea_muestra": proy_list[:15]
         }
     elif name == "panel_expertos_search":
+        numero = args.get("numero")
+        numeros = args.get("numeros")
+        tema = args.get("tema_relevante")
+        convertir_md = bool(args.get("convertir_a_md_y_graficar", False))
+        descargar = args.get("descargar_formato")
+        if numero or numeros or tema or convertir_md or descargar:
+            lista_ids = []
+            if numero:
+                lista_ids.append(str(numero).strip())
+            if isinstance(numeros, list):
+                lista_ids.extend([str(d).strip() for d in numeros if str(d).strip()])
+            if not lista_ids and args.get("query"):
+                sr_panel = panel.search_dictamenes(args.get("query", ""), max_pages=1)
+                lista_ids = [str(d.get("numero")) for d in sr_panel[:3] if d.get("numero")]
+            if lista_ids:
+                return panel.procesar_y_graficar_panel(
+                    lista_ids,
+                    tema_relevante=tema,
+                    convertir_a_md=convertir_md,
+                    descargar_formato=descargar
+                )
         return panel.search_dictamenes(args.get("query", ""))
     elif name == "cmf_search_normativa":
+        numero = args.get("numero")
+        numeros = args.get("numeros")
+        tema = args.get("tema_relevante")
+        convertir_md = bool(args.get("convertir_a_md_y_graficar", False))
+        descargar = args.get("descargar_formato")
+        if numero or numeros or tema or convertir_md or descargar:
+            lista_ids = []
+            if numero:
+                lista_ids.append(str(numero).strip())
+            if isinstance(numeros, list):
+                lista_ids.extend([str(d).strip() for d in numeros if str(d).strip()])
+            if not lista_ids and args.get("query"):
+                sr_cmf = cmf.search_normativa(args.get("query", ""))
+                lista_ids = [str(d.get("titulo")) for d in sr_cmf[:3] if isinstance(d, dict) and d.get("tipo") != "aviso" and d.get("titulo")]
+            if lista_ids:
+                return cmf.procesar_y_graficar_cmf(
+                    lista_ids,
+                    tema_relevante=tema,
+                    convertir_a_md=convertir_md,
+                    descargar_formato=descargar
+                )
         return cmf.search_normativa(args.get("query", ""))
     elif name == "cmf_buscar_sanciones":
         q = args.get("query")
@@ -431,6 +551,28 @@ def despachar(name: str, args: dict) -> Any:
             return {"error": "El parámetro 'query' es obligatorio."}
         return cmf.search_sanciones(q)
     elif name == "sii_search_circulares":
+        numero = args.get("numero")
+        numeros = args.get("numeros")
+        tema = args.get("tema_relevante")
+        convertir_md = bool(args.get("convertir_a_md_y_graficar", False))
+        descargar = args.get("descargar_formato")
+        if numero or numeros or tema or convertir_md or descargar:
+            lista_ids = []
+            if numero:
+                lista_ids.append(str(numero).strip())
+            if isinstance(numeros, list):
+                lista_ids.extend([str(d).strip() for d in numeros if str(d).strip()])
+            if not lista_ids and args.get("query"):
+                sr_sii = sii.search_circulares(args.get("query", ""))
+                lista_ids = [str(d.get("numero") or d.get("titulo")) for d in sr_sii[:3] if isinstance(d, dict) and d.get("tipo") != "aviso" and (d.get("numero") or d.get("titulo"))]
+            if lista_ids:
+                return sii.procesar_y_graficar_sii(
+                    lista_ids,
+                    tema_relevante=tema,
+                    tipo="circular",
+                    convertir_a_md=convertir_md,
+                    descargar_formato=descargar
+                )
         return sii.search_circulares(args.get("query", ""))
     elif name == "sii_buscar_resoluciones_y_oficios":
         q = args.get("query")
@@ -481,8 +623,51 @@ def despachar(name: str, args: dict) -> Any:
             limite=int(args.get("limite") or 20),
         )
     elif name == "sma_search_sancionatorios":
+        exp = args.get("expediente")
+        exps = args.get("expedientes")
+        tema = args.get("tema_relevante")
+        convertir_md = bool(args.get("convertir_a_md_y_graficar", False))
+        descargar = args.get("descargar_formato")
+        if exp or exps or tema or convertir_md:
+            lista_ids = []
+            if exp:
+                lista_ids.append(str(exp).strip())
+            if isinstance(exps, list):
+                lista_ids.extend([str(d).strip() for d in exps if str(d).strip()])
+            if not lista_ids and args.get("query"):
+                sr = sma.search_sancionatorios(nombre=args.get("query", ""))
+                res_items = sr.get("resultados", []) if isinstance(sr, dict) else []
+                lista_ids = [r.get("expediente") for r in res_items[:3] if r.get("expediente")]
+            if lista_ids:
+                return sma.procesar_y_graficar_sma(
+                    lista_ids,
+                    tema_relevante=tema,
+                    convertir_a_md=convertir_md,
+                    descargar_formato=descargar
+                )
         return sma.search_sancionatorios(nombre=args.get("query", ""))
     elif name == "tdlc_search_jurisprudencia":
+        numero = args.get("numero")
+        numeros = args.get("numeros")
+        tema = args.get("tema_relevante")
+        convertir_md = bool(args.get("convertir_a_md_y_graficar", False))
+        descargar = args.get("descargar_formato")
+        if numero or numeros or tema or convertir_md or descargar:
+            lista_ids = []
+            if numero:
+                lista_ids.append(str(numero).strip())
+            if isinstance(numeros, list):
+                lista_ids.extend([str(d).strip() for d in numeros if str(d).strip()])
+            if not lista_ids and args.get("query"):
+                sr_tdlc = tdlc.search_jurisprudencia(args.get("query", ""), max_pages=1)
+                lista_ids = [str(d.get("titulo")) for d in sr_tdlc[:3] if d.get("titulo")]
+            if lista_ids:
+                return tdlc.procesar_y_graficar_tdlc(
+                    lista_ids,
+                    tema_relevante=tema,
+                    convertir_a_md=convertir_md,
+                    descargar_formato=descargar
+                )
         return tdlc.search_jurisprudencia(args.get("query", ""))
     elif name == "tdlc_buscar_icg_y_dictamenes":
         q = args.get("query")
@@ -493,8 +678,43 @@ def despachar(name: str, args: dict) -> Any:
         return pjud.search_jurisprudencia(args.get("query", ""), sala=args.get("sala"))
     elif name == "pjud_analizar_sentencia":
         txt = args.get("texto_sentencia")
+        rol = args.get("rol")
+        roles = args.get("roles")
+        tema_relevante = args.get("tema_relevante")
+        corte = args.get("corte", "cs")
+        descargar_formato = args.get("descargar_formato")
+        convertir_a_md_y_graficar = args.get("convertir_a_md_y_graficar", True)
+
+        items_procesar = []
+        if roles and isinstance(roles, list):
+            items_procesar = roles
+        elif rol:
+            items_procesar = [rol]
+
+        if items_procesar:
+            return pjud.procesar_y_graficar_sentencias(
+                roles_o_docs=items_procesar,
+                corte=corte,
+                tema_relevante=tema_relevante,
+                convertir_a_md=convertir_a_md_y_graficar,
+                descargar_formato=descargar_formato
+            )
+
         if not txt:
-            return {"error": "El parámetro 'texto_sentencia' es obligatorio."}
+            return {"error": "Debe especificar 'texto_sentencia', 'rol' o 'roles' para analizar."}
+
+        if tema_relevante or convertir_a_md_y_graficar:
+            doc_simulado = {
+                "rol": "S-N",
+                "tribunal": "Corte Suprema" if corte == "cs" else "Corte de Apelaciones",
+                "texto_integral": txt
+            }
+            return pjud.procesar_y_graficar_sentencias(
+                roles_o_docs=[doc_simulado],
+                corte=corte,
+                tema_relevante=tema_relevante,
+                convertir_a_md=convertir_a_md_y_graficar
+            )
         return sentencia_engine.parsear_sentencia(txt)
     elif name == "pjud_interpretar_proveido":
         txt = args.get("texto_proveido")

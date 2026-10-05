@@ -22,6 +22,9 @@ ambiental_cache/
 tdlc_cache/
 panel_expertos_cache/
 pjud_cache/
+data/pjud_descargas/
+data/jurisprudencia_md/
+data/dictamenes_md/
 exports/
 doctrina_raw/
 data/rdpucv/pdfs/

@@ -9,6 +9,7 @@ import sys
 import re
 import html
 import json
+import pathlib
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
@@ -117,6 +118,36 @@ class DTClient:
 
         return index_list
 
+    def descargar_pdf_oficial(self, article_id_or_url: str, pdf_url: Optional[str] = None) -> Optional[str]:
+        """Descarga el PDF oficial firmado del dictamen u ordinario de la DT."""
+        art_id = str(article_id_or_url).strip()
+        m = re.search(r'article-([0-9]+)', art_id)
+        if m:
+            clean_id = m.group(1)
+        elif art_id.isdigit():
+            clean_id = art_id
+        else:
+            clean_id = re.sub(r'[^0-9]+', '', art_id) or "doc"
+
+        dest_folder = pathlib.Path(self.cache_dir) / "descargas_pdf"
+        dest_folder.mkdir(parents=True, exist_ok=True)
+        target_path = dest_folder / f"dictamen_dt_{clean_id}.pdf"
+
+        if target_path.exists() and target_path.stat().st_size > 1000:
+            return str(target_path)
+
+        url = pdf_url or f"{BASE_URL}/articles-{clean_id}_recurso_pdf.pdf"
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'OpenLegalChile/1.0 (Derecho Laboral Chile)'})
+            with safe_urlopen(req, timeout=30) as resp:
+                pdf_bytes = resp.read()
+            if len(pdf_bytes) > 1000:
+                target_path.write_bytes(pdf_bytes)
+                return str(target_path)
+        except Exception:
+            pass
+        return None
+
     def get_dictamen_content(self, article_id_or_url: str, use_cache: bool = True) -> Dict[str, Any]:
         """Descarga y parsea el contenido completo, materias y doctrina de un dictamen de la DT."""
         if str(article_id_or_url).isdigit():
@@ -132,12 +163,13 @@ class DTClient:
 
         cache_file = self._get_cache_path(f"doc_{article_id}")
         data = leer_json_si_se_puede(cache_file) if use_cache else None
-        if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+        if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS) and data.get("texto_integral"):
             return data
 
         headers = {'User-Agent': 'OpenLegalChile/1.0 (Derecho Laboral Chile)'}
         req = urllib.request.Request(url, headers=headers)
 
+        html = ""
         try:
             with safe_urlopen(req, timeout=20) as resp:
                 html = resp.read().decode("utf-8", errors="ignore")
@@ -166,19 +198,182 @@ class DTClient:
         if len(clean_paragraphs) > 1:
             doctrina = clean_paragraphs[1]
 
+        # Detección de PDF oficial adjunto
+        pdf_match = re.search(r'href=["\']([^"\']*articles-[^"\']*_recurso[^"\']*\.pdf)["\']', html, re.IGNORECASE)
+        pdf_url = ""
+        if pdf_match:
+            raw_pdf = pdf_match.group(1)
+            pdf_url = raw_pdf if raw_pdf.startswith("http") else f"{BASE_URL}/{raw_pdf.lstrip('/')}"
+        elif article_id.isdigit():
+            pdf_url = f"{BASE_URL}/articles-{article_id}_recurso_pdf.pdf"
+
+        # Extraer texto profundo del PDF si el HTML sólo trae resumen
+        texto_pdf = ""
+        ruta_pdf_descargado = None
+        if pdf_url:
+            ruta_pdf_descargado = self.descargar_pdf_oficial(article_id, pdf_url=pdf_url)
+            if ruta_pdf_descargado:
+                try:
+                    import pymupdf
+                    pdf_doc: Any = pymupdf.open(ruta_pdf_descargado)
+                    t_paginas = [pdf_doc[i].get_text() for i in range(len(pdf_doc))]
+                    texto_extraido = "\n\n".join([t.strip() for t in t_paginas if t.strip()])
+                    if len(texto_extraido) > 80:
+                        texto_pdf = texto_extraido
+                    else:
+                        # Si es escaneado, aplicar OCR forense en las primeras páginas
+                        from forensic_ocr import ForensicOCREngine
+                        ocr_res = ForensicOCREngine().extract_from_pdf(ruta_pdf_descargado, start_page=1, end_page=min(4, len(pdf_doc)))
+                        texto_pdf = "\n\n".join([p.get("text", "") for p in ocr_res.get("pages", []) if p.get("text")]).strip()
+                except Exception:
+                    pass
+
+        texto_integral = texto_pdf if len(texto_pdf) > 80 else "\n\n".join(clean_paragraphs)
+
         doc_data = {
             "articleId": article_id,
             "titulo": title,
             "url": url,
+            "pdfUrl": pdf_url,
             "materias": materias,
             "doctrina": doctrina,
-            "parrafos": clean_paragraphs
+            "parrafos": clean_paragraphs,
+            "texto": texto_integral,
+            "texto_integral": texto_integral,
+            "archivo_descargado": ruta_pdf_descargado
         }
 
         with open(cache_file, "w", encoding="utf-8") as f:
             json.dump(doc_data, f, ensure_ascii=False, indent=2)
 
         return doc_data
+
+    def get_dictamen_integral(self, numero_o_id: str, descargar_formato: Optional[str] = None) -> Dict[str, Any]:
+        """Obtiene el texto completo, metadatos y PDF oficial de un dictamen u ordinario DT."""
+        art_id = str(numero_o_id).strip()
+        doc_meta = None
+
+        if not art_id.isdigit():
+            idx = self.get_index_ordinarios()
+            q = art_id.lower().strip()
+            q_num = re.sub(r'^(?:ord\.?\s*(?:n[°º]?)?\s*|dictamen\s*(?:n[°º]?)?\s*)', '', q).strip()
+            for item in idx:
+                if isinstance(item, dict):
+                    num_item = str(item.get("numero", "")).lower().strip()
+                    num_item_clean = re.sub(r'^(?:ord\.?\s*(?:n[°º]?)?\s*|dictamen\s*(?:n[°º]?)?\s*)', '', num_item).strip()
+                    if q == num_item or q_num == num_item_clean or _coincide(num_item, q):
+                        art_id = item.get("articleId", "")
+                        doc_meta = item
+                        break
+
+        if not art_id:
+            return {"error": f"Dictamen u ordinario '{numero_o_id}' no encontrado en el índice de la DT."}
+
+        raw_doc = self.get_dictamen_content(art_id)
+        if not raw_doc or not isinstance(raw_doc, dict):
+            return {"error": f"No se pudo obtener el contenido del dictamen ID {art_id}."}
+
+        identificador = doc_meta.get("numero") if doc_meta else (raw_doc.get("titulo") or f"ORD. N° {art_id}")
+        fecha = doc_meta.get("fecha", "") if doc_meta else ""
+        materia = (doc_meta.get("materia", "") if doc_meta and doc_meta.get("materia") else raw_doc.get("materias", "")).strip()
+
+        doc = {
+            "organismo": "DT",
+            "tipo_acto": "Dictamen",
+            "identificador": identificador,
+            "numero": identificador,
+            "fecha": fecha,
+            "materia": materia,
+            "doctrina": raw_doc.get("doctrina", ""),
+            "texto": raw_doc.get("texto_integral") or raw_doc.get("texto") or raw_doc.get("doctrina") or materia,
+            "texto_integral": raw_doc.get("texto_integral") or raw_doc.get("texto") or raw_doc.get("doctrina") or materia,
+            "link_oficial": raw_doc.get("url", ""),
+            "url": raw_doc.get("url", ""),
+            "pdfUrl": raw_doc.get("pdfUrl", ""),
+            "articleId": art_id
+        }
+
+        if descargar_formato and descargar_formato.lower() == "pdf":
+            ruta_pdf = self.descargar_pdf_oficial(art_id, pdf_url=raw_doc.get("pdfUrl"))
+            if ruta_pdf:
+                doc["archivo_descargado"] = ruta_pdf
+                doc["formato_descargado"] = "pdf"
+
+        return doc
+
+    def get_dictamenes_lote(self, numeros_o_ids: List[str], descargar_formato: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Obtiene una lista de dictámenes DT en lote."""
+        docs = []
+        for nid in numeros_o_ids:
+            docs.append(self.get_dictamen_integral(nid, descargar_formato=descargar_formato))
+        return docs
+
+    def procesar_y_graficar_dictamenes(
+        self,
+        ids_o_docs: List[Any],
+        tema_relevante: Optional[str] = None,
+        convertir_a_md: bool = True,
+        descargar_formato: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        Pipeline unificado para dictámenes de la Dirección del Trabajo:
+        1. Resuelve documentos (busca texto íntegro/OCR).
+        2. Convierte a Markdown Canónico (dictamen2md).
+        3. Ingesta en LegalGraphify.
+        4. Desglosa y rankea consideraciones con ResolucionesParserEngine.
+        """
+        from resolucion_administrativa2md import convertir_lote_dictamenes
+        from resoluciones_parser import ResolucionesParserEngine
+        from legal_graphify import LegalGraphifyEngine
+
+        docs_procesar = []
+        for item in ids_o_docs:
+            if isinstance(item, str):
+                doc_obj = self.get_dictamen_integral(item, descargar_formato=descargar_formato)
+                docs_procesar.append(doc_obj)
+            elif isinstance(item, dict):
+                docs_procesar.append(item)
+
+        # Conversión a Markdown Canónico
+        rutas_md = []
+        if convertir_a_md:
+            try:
+                rutas_md = [str(p) for p in convertir_lote_dictamenes(docs_procesar)]
+                for i, r_path in enumerate(rutas_md):
+                    if i < len(docs_procesar):
+                        docs_procesar[i]["ruta_md"] = r_path
+            except Exception:
+                pass
+
+        # Ingesta en LegalGraphify
+        info_grafo = {}
+        try:
+            graph_engine = LegalGraphifyEngine()
+            insumos = rutas_md if rutas_md else docs_procesar
+            info_grafo = graph_engine.ingerir_lote_dictamenes(insumos, guardar_disco=False)
+        except Exception as e:
+            info_grafo = {"error": f"Error integrando con LegalGraphify: {str(e)}"}
+
+        # Análisis y citación canónica
+        parser_engine = ResolucionesParserEngine()
+        analisis = parser_engine.analizar_lote_resoluciones(docs_procesar, tema_relevante=tema_relevante)
+
+        return {
+            "organismo": "DT",
+            "total_dictamenes": len(docs_procesar),
+            "tema_relevante": tema_relevante or "General",
+            "citas_destacadas": analisis.get("citas_destacadas", []),
+            "grafo_impacto": {
+                "nodos_nuevos": info_grafo.get("nodos_nuevos_totales", 0),
+                "enlaces_nuevos": info_grafo.get("enlaces_nuevos_totales", 0),
+                "grafo_total": info_grafo.get("grafo", {})
+            },
+            "archivos_generados": {
+                "markdown": rutas_md,
+                "descargas_oficiales": [d.get("archivo_descargado") for d in docs_procesar if d.get("archivo_descargado")]
+            },
+            "detalle_dictamenes": analisis.get("documentos", [])
+        }
 
     def search_dictamenes(self, query: str, limit: int = 10) -> List[Dict[str, Any]]:
         """Busca dictámenes y ordinarios de la DT por número o por tema.

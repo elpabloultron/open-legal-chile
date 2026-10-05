@@ -298,6 +298,7 @@ def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any
 class PJUDClient:
     def __init__(self, db_path: str = DB_PATH):
         self.db_path = db_path
+        self._scraper = None
         os.makedirs(CACHE_DIR, exist_ok=True)
         self._init_db()
 
@@ -332,11 +333,197 @@ class PJUDClient:
         except Exception:
             pass
 
-    def search_jurisprudencia(self, query: str, sala: Optional[str] = None, limit: int = 10) -> List[Dict[str, Any]]:
+    @property
+    def scraper(self):
+        """Inicializa de forma lazy el scraper web oficial de juris.pjud.cl."""
+        if self._scraper is None:
+            try:
+                from scripts.cosechar_pjud_scrapper import PJUDScraper
+                self._scraper = PJUDScraper()
+            except Exception:
+                self._scraper = None
+        return self._scraper
+
+    def search_online(
+        self,
+        query: str,
+        corte: str = "cs",
+        limite: int = 5,
+        offset: int = 0
+    ) -> List[Dict[str, Any]]:
+        """Busca sentencias judiciales en vivo en juris.pjud.cl (Corte Suprema o Cortes de Apelaciones)."""
+        sc = self.scraper
+        if not sc:
+            return [{"error": "Scraper PJUD no disponible o falló inicialización."}]
+        try:
+            return sc.buscar(tipo_corte=corte, texto=query, limite=limite, offset=offset)
+        except Exception as e:
+            return [{"error": f"Error consultando juris.pjud.cl en vivo: {str(e)}"}]
+
+    def get_sentencia_integral(
+        self,
+        rol_o_id: str,
+        corte: str = "cs",
+        descargar_formato: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        Obtiene el texto completo y metadatos de una sentencia por Rol o ID numérico.
+        Opcionalmente descarga el documento oficial en formato PDF o Word DOCX.
+        """
+        sc = self.scraper
+        if not sc:
+            return {"error": "Scraper PJUD no disponible."}
+
+        limpio = str(rol_o_id).strip()
+        doc = None
+
+        if limpio.isdigit():
+            docs = sc.buscar(tipo_corte=corte, texto=limpio, limite=1)
+            if docs:
+                doc = docs[0]
+        else:
+            docs = sc.buscar(tipo_corte=corte, texto=limpio, limite=3)
+            for d in docs:
+                if limpio.lower() in d.get("rol", "").lower():
+                    doc = d
+                    break
+            if not doc and docs:
+                doc = docs[0]
+
+        if not doc:
+            return {"error": f"No se encontró sentencia con Rol/ID '{rol_o_id}' en {corte.upper()}."}
+
+        if descargar_formato and descargar_formato.lower() in ("pdf", "docx", "html"):
+            try:
+                ruta_descarga = sc.descargar_documento(
+                    doc_id=doc.get("id"),
+                    tipo_corte=corte,
+                    formato=descargar_formato.lower()
+                )
+                doc["archivo_descargado"] = str(ruta_descarga)
+                doc["formato_descargado"] = descargar_formato.lower()
+            except Exception as e:
+                doc["error_descarga"] = str(e)
+
+        return doc
+
+    def get_sentencias_lote(
+        self,
+        roles_o_ids: List[str],
+        corte: str = "cs",
+        descargar_formato: Optional[str] = None
+    ) -> List[Dict[str, Any]]:
+        """Obtiene un lote de sentencias judiciales de forma estructurada."""
+        docs = []
+        for ident in roles_o_ids:
+            res = self.get_sentencia_integral(ident, corte=corte, descargar_formato=descargar_formato)
+            docs.append(res)
+        return docs
+
+    def procesar_y_graficar_sentencias(
+        self,
+        roles_o_docs: List[Any],
+        corte: str = "cs",
+        tema_relevante: Optional[str] = None,
+        convertir_a_md: bool = True,
+        descargar_formato: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        Pipeline unificado forense:
+        1. Resuelve las sentencias (descarga texto y metadatos si son roles).
+        2. Convierte a Markdown Canónico (sentencia2md).
+        3. Ingesta las sentencias y considerandos en LegalGraphify.
+        4. Desglosa y rankea los considerandos más pertinentes con SentenciaParserEngine.
+        """
+        from sentencias_parser import SentenciaParserEngine
+        from sentencia2md import convertir_lote_sentencias
+        from legal_graphify import LegalGraphifyEngine
+
+        docs_procesar = []
+        for item in roles_o_docs:
+            if isinstance(item, str):
+                doc_obj = self.get_sentencia_integral(item, corte=corte, descargar_formato=descargar_formato)
+                docs_procesar.append(doc_obj)
+            elif isinstance(item, dict):
+                docs_procesar.append(item)
+
+        # 2. Conversión a Markdown Canónico
+        rutas_md = []
+        if convertir_a_md:
+            try:
+                rutas_md = [str(p) for p in convertir_lote_sentencias(docs_procesar)]
+                for i, r_path in enumerate(rutas_md):
+                    if i < len(docs_procesar):
+                        docs_procesar[i]["ruta_md"] = r_path
+            except Exception:
+                pass
+
+        # 3. Ingesta en LegalGraphify
+        info_grafo = {}
+        try:
+            graph_engine = LegalGraphifyEngine()
+            insumos = rutas_md if rutas_md else docs_procesar
+            info_grafo = graph_engine.ingerir_lote_sentencias(insumos, guardar_disco=False)
+        except Exception as e:
+            info_grafo = {"error": f"Error integrando con LegalGraphify: {str(e)}"}
+
+        # 4. Análisis anatómico y selección de considerandos
+        parser_engine = SentenciaParserEngine()
+        analisis_considerandos = parser_engine.analizar_lote_sentencias(
+            docs_procesar,
+            tema_relevante=tema_relevante
+        )
+
+        return {
+            "total_sentencias": len(docs_procesar),
+            "tema_relevante": tema_relevante or "General",
+            "citas_destacadas": analisis_considerandos.get("citas_destacadas", []),
+            "grafo_impacto": {
+                "nodos_nuevos": info_grafo.get("nodos_nuevos_totales", 0),
+                "enlaces_nuevos": info_grafo.get("enlaces_nuevos_totales", 0),
+                "grafo_total": info_grafo.get("grafo", {})
+            },
+            "archivos_generados": {
+                "markdown": rutas_md,
+                "descargas_oficiales": [d.get("archivo_descargado") for d in docs_procesar if d.get("archivo_descargado")]
+            },
+            "detalle_sentencias": analisis_considerandos.get("sentencias", [])
+        }
+
+    def search_jurisprudencia(
+        self,
+        query: str,
+        sala: Optional[str] = None,
+        limit: int = 10,
+        en_vivo: bool = False,
+        corte: str = "cs"
+    ) -> List[Dict[str, Any]]:
         """
         Busca sentencias judiciales de la Corte Suprema, Cortes de Apelaciones y TC
         por materia, doctrina, rol o palabras clave (insensible a acentos).
+        Si en_vivo=True, consulta adicionalmente el portal juris.pjud.cl en tiempo real.
         """
+        results = []
+        if en_vivo:
+            try:
+                en_vivo_docs = self.search_online(query, corte=corte, limite=limit)
+                for d in en_vivo_docs:
+                    if "error" not in d:
+                        results.append({
+                            "tribunal": d.get("tribunal", "Corte Suprema"),
+                            "sala": d.get("sala", ""),
+                            "rol": d.get("rol", ""),
+                            "fecha": d.get("fecha", ""),
+                            "caratula": d.get("caratula", ""),
+                            "materia": d.get("recurso", "") or "Sentencia en vivo",
+                            "doctrina": (d.get("texto_integral") or "")[:300],
+                            "normas": "Ver texto en fallo",
+                            "link": d.get("url_origen") or "https://juris.pjud.cl",
+                            "origen": "juris.pjud.cl (en vivo)",
+                            "id_pjud": d.get("id")
+                        })
+            except Exception:
+                pass
         q_norm = _strip_accents(query.lower().strip())
         tokens = [t for t in q_norm.split() if len(t) > 2]
         results = []
