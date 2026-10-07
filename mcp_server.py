@@ -603,7 +603,7 @@ def _texto_protocolo() -> str:
     return texto[inicio:fin if fin != -1 else inicio + 4000]
 
 
-PROMPTS = [
+PROMPTS: List[Dict[str, Any]] = [
     {
         "name": "protocolo_citas",
         "description": "Protocolo de respuesta obligatorio (§2 quater): Hugging Face y conectores estatales siempre, "
@@ -911,7 +911,7 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
         if method == "tools/list":
             return _resultado(req_id, {"tools": tools_to_expose})
         if method == "tools/call":
-            tool_name = params.get("name")
+            tool_name = str(params.get("name") or "")
             tool_args = params.get("arguments") or {}
             _fijar_token_progreso((params.get("_meta") or {}).get("progressToken"))
             try:
@@ -921,7 +921,7 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
             finally:
                 _fijar_token_progreso(None)
             is_error = isinstance(res, dict) and "error" in res
-            res = ajustar_salida(str(tool_name), res)
+            res = ajustar_salida(tool_name, res)
 
             # Formateo denso para ahorro de tokens (25-40% menos tokens que indent=2)
             if os.environ.get("OPENLEGAL_PRETTY", "").lower() in ("1", "true", "yes"):

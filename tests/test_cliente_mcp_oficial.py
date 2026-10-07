@@ -44,7 +44,7 @@ async def _recorrido() -> dict:
             textos = {}
             for recurso in recursos:
                 contenido = await sesion.read_resource(recurso.uri)
-                textos[str(recurso.uri)] = contenido.contents[0].text
+                textos[str(recurso.uri)] = getattr(contenido.contents[0], "text", "")
             rut = await sesion.call_tool("rut_validar_chile", {"rut": "11.111.111-1"})
             skills = await sesion.call_tool("skills_listar", {})
             inexistente = await sesion.call_tool("herramienta_que_no_existe", {})
@@ -54,8 +54,8 @@ async def _recorrido() -> dict:
                 "herramientas": [h.name for h in herramientas],
                 "prompts": [p.name for p in prompts],
                 "recursos": textos,
-                "rut": (json.loads(rut.content[0].text), _campo(rut, "isError", "is_error")),
-                "skills": json.loads(skills.content[0].text),
+                "rut": (json.loads(getattr(rut.content[0], "text", "")), _campo(rut, "isError", "is_error")),
+                "skills": json.loads(getattr(skills.content[0], "text", "")),
                 "inexistente_es_error": _campo(inexistente, "isError", "is_error"),
             }
 

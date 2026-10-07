@@ -22,7 +22,9 @@ NOMBRES = {t["name"] for t in TOOLS}
 
 def _version_pyproject() -> str:
     texto = (RAIZ / "pyproject.toml").read_text(encoding="utf-8")
-    return re.search(r'(?m)^version = "([^"]+)"', texto).group(1)
+    encontrada = re.search(r'(?m)^version = "([^"]+)"', texto)
+    assert encontrada, "pyproject.toml sin versión"
+    return encontrada.group(1)
 
 
 def test_el_plugin_declara_las_skills():
