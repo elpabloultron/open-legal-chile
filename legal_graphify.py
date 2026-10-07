@@ -46,6 +46,10 @@ def _sanitize_id(text: str, prefix: str = "") -> str:
     return clean
 
 
+# Lo que sigue a la cabecera en una nota de modificación del margen: «, Nº 2», «Nº 25», «L. 19.250».
+_RE_NOTA_DE_MARGEN = re.compile(r"(?:,|N[º°]|L\.\s*\d|Ley\s+N?[º°]?\s*\d)")
+
+
 def _articulos_de_texto(texto: str) -> Dict[str, str]:
     """Artículos (clave -> cuerpo sin el rótulo) de un texto corrido de código, sin pisar homónimos.
 
@@ -61,7 +65,22 @@ def _articulos_de_texto(texto: str) -> Dict[str, str]:
     # Solo cuenta como rótulo una línea que EMPIEZA con «Art.»/«Artículo» en mayúscula inicial: en
     # minúscula es una remisión en medio de una frase («…lo dispuesto en el\nartículo 12 de esta ley»).
     inicio_articulo = re.compile(r"^(?=\s*(?:ART|Art)[A-Za-zÍíÁá\ufffd]*\.?\s*\d)", re.MULTILINE)
-    fragmentos = [f for f in inicio_articulo.split(texto) if f.strip()]
+    # El margen del texto oficial trae notas de modificación en línea propia («Art. 1º, Nº 2», «Art. 16»):
+    # empiezan con «Art.» pero no son artículos. Medido sobre el Código Civil, 150 de los 2.901 cortes
+    # eran notas; cada una, leída como «Artículo 1», hacía retroceder la numeración y partía el código en
+    # 75 cuerpos (el principal conservaba 794 de 2.567 artículos). Una cabecera sin cuerpo, o seguida de una
+    # nota («, Nº 2», «Nº 25», «L. 19.250»), se reincorpora al artículo anterior. Es una heurística: la vía
+    # exacta es pasar `articulos=` (el mapa del conector), que no reinterpreta ningún texto.
+    fragmentos: List[str] = []
+    for fragmento in inicio_articulo.split(texto):
+        if not fragmento.strip():
+            continue
+        cabecera = _cabecera(fragmento.lstrip())
+        resto = fragmento.lstrip()[cabecera["fin"]:].lstrip() if cabecera else ""
+        if fragmentos and cabecera and (not resto or _RE_NOTA_DE_MARGEN.match(resto)):
+            fragmentos[-1] += fragmento
+        else:
+            fragmentos.append(fragmento)
     estructuras = [{"tipoParte": "Artículo", "texto": f.lstrip()} for f in fragmentos]
     articulos: Dict[str, str] = {}
     for clave, fragmento in _segmentar_articulos(estructuras)["articulos"].items():

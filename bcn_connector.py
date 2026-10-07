@@ -4,6 +4,7 @@ Módulo para consultar, descargar, cachear e indexar leyes, decretos y códigos 
 """
 
 import contextlib
+import functools
 import os
 import re
 import json
@@ -101,8 +102,8 @@ _RE_CABECERA = re.compile(
     r"(?:(?:L\.|Ley)\s*N?[°º]?\s*[\d.]+\s*|(?i:derogado)\s*)?[\s\"“”«»']*"
     r"(?i:art(?:[íi�]culo)?)\.?\s*"
     r"(?:"
-    r"(?P<num>\d+)"
-    r"(?:\s*[-–]\s*(?P<sub>\d+)(?!\d))?"
+    r"(?P<num>\d{1,5})(?!\d)"
+    r"(?:\s*[-–]\s*(?P<sub>\d{1,5})(?!\d))?"
     r"(?:\.?\s?[°º]|\.?o" + _FIN_PALABRA + r")?"
     r"|"
     r"(?P<pal>(?i:" + _ORDINAL + r"|[uú]nic[oa]|final|transitori[oa]))" + _FIN_PALABRA +
@@ -112,17 +113,32 @@ _LETRA = r"[A-ZÑ]"
 # Un sufijo a la vez, anclado donde quedó el anterior. Para no confundir «Artículo 25 Terminado…»
 # con «25 ter» ni «Artículo 12 A los efectos…» con «12 A», cada forma exige su límite:
 #   latino   «bis», «ter», «quáter»… con límite de palabra (admite «32. BIS» y «297 bis»);
-#   letra    «183-A» / «183-AE» (1 o 2 letras pegadas al guion: 183-A no es 183-AE), «161 - A.»,
+#   letra    «183-A» / «183-AE» (una letra, o dos MAYÚSCULAS, pegadas al guion: 183-A no es 183-AE y
+#            «Artículo 10-De los plazos» no es «10-de»), «161 - A.»,
 #            «12 A.-», «152 quáter O bis» (una mayúscula separada, seguida de puntuación o de otro
 #            sufijo latino) y «319 a)» / «313° a.» (una minúscula pegada a su paréntesis o punto).
 _RE_SUFIJOS = (
-    ("-", re.compile(r"\s*[-–](?P<s>[A-Za-zÑñ]{1,2})" + _FIN_PALABRA)),
+    ("-", re.compile(r"\s*[-–](?P<s>[A-ZÑ]{2}|[A-Za-zÑñ])" + _FIN_PALABRA)),
     ("-", re.compile(r"\s*[-–]\s+(?P<s>" + _LETRA + r")" + _FIN_PALABRA + r"(?=\s*[.:)])")),
     (" ", re.compile(r"\s*[-–.]?\s*(?i:(?P<s>" + _SUFIJOS_LATINOS + r"))" + _FIN_PALABRA)),
+    # «Art. 67 L. 19.250» es el artículo 67 con la leyenda de la ley que lo modificó, no el «67 l»: la
+    # letra seguida de «. <dígito>» es la abreviatura «L.» de «Ley» (o «D.»…), no un sufijo.
     (" ", re.compile(r"\s+(?P<s>" + _LETRA + r")" + _FIN_PALABRA
-                     + r"(?=\s*[.\-–:)]|\s+(?i:" + _SUFIJOS_LATINOS + r")" + _FIN_PALABRA + r")")),
+                     + r"(?!\.\s*\d)(?=\s*[.\-–:)]|\s+(?i:" + _SUFIJOS_LATINOS + r")" + _FIN_PALABRA + r")")),
     (" ", re.compile(r"\.?\s+(?P<s>[a-zñ])(?=\))")),
     (" ", re.compile(r"\s+(?P<s>[a-zñ])(?=\.)")),
+)
+# Código Penal «Artículo 313° c Las penas…»: tras el signo ordinal, una letra minúscula suelta y una
+# oración que empieza con mayúscula. Solo se admite detrás de «°»/«º»: sin él, «Artículo 12 a Los…» sería
+# una frase y no el artículo «12 a».
+_RE_LETRA_TRAS_ORDINAL = re.compile(r"\s+(?P<s>[a-zñ])(?=\s+[A-ZÁÉÍÓÚÑ])")
+# Cabecera dentro del texto corrido de una versión histórica (`_texto_version` aplana el JSON de LeyChile):
+# «Art. 22.», «Artículo 22.-», «Artículo 183-A.-», «Art. 161 bis.». Se exige que cierre con punto o guion,
+# para no leer una remisión («Art. 12 A los efectos») ni una nota de modificación («Art. 22 N° 1 D.O.»).
+_RE_CABECERA_CORRIDA = re.compile(
+    r"\bArt(?:ículo)?\.?\s*(?P<num>\d{1,5})\s*[°º]?"
+    r"(?:\s*[-–]?\s*(?P<suf>(?-i:[A-Z]{1,2})|" + _SUFIJOS_LATINOS + r")" + _FIN_PALABRA + r")?"
+    r"\s*[.\-–—]+(?=\s|$)"
 )
 _RE_SIGUE_TRANSITORIO = re.compile(r"\s*(?i:transitori[oa])" + _FIN_PALABRA)
 # Disposiciones transitorias de la Constitución: «PRIMERA.-», «VIGESIMA PRIMERA.-», con leyenda
@@ -162,6 +178,17 @@ def _sin_tildes(texto: str) -> str:
 
 
 def _clave_articulo(valor: Any) -> str:
+    # Ningún rótulo de artículo pasa de unos 40 caracteres: el tope evita que un pedido gigante
+    # (texto pegado por error) se quede en la caché de normalizaciones.
+    return _clave_articulo_texto(str(valor)[:200])
+
+
+# Medido sobre el Código Civil (2.567 claves): un pedido que no está en el mapa con su clave canónica
+# («25 quater» frente a «25 quáter») o que no existe recorría todas las claves normalizándolas (25 ms
+# por consulta; 200 consultas fallidas en un lote de cita_texto, 5 s). Con la caché, cada clave se
+# normaliza una sola vez en el proceso y la consulta cuesta microsegundos.
+@functools.lru_cache(maxsize=65536)
+def _clave_articulo_texto(valor: str) -> str:
     """Normaliza la clave de un artículo para comparar: «25 Quáter.» ≡ «25 quater» ≡ «25 quáter».
 
     También iguala «Art. 3º», «artículo 3» y «3» y une los ordinales compuestos («décimo tercero»
@@ -169,7 +196,7 @@ def _clave_articulo(valor: Any) -> str:
     """
     texto = _sin_tildes(str(valor).lower())
     texto = re.sub(r"^\W*art(?:iculos?|s)?(?![^\W\d_])\.?", "", texto)
-    texto = re.sub(r"(?<=\d)\s*[°º]", "", texto)
+    texto = re.sub(r"(?<=\d)\s*[°ºª]", "", texto)
     texto = re.sub(r"(?<=\d)\.?o(?![^\W\d_])", "", texto)
     texto = re.sub(r"[\s.\-–]+", " ", texto).strip()
     texto = _RE_ORDINAL_COMPUESTO.sub(r"\1\2", texto)
@@ -226,6 +253,11 @@ def _cabecera(texto: str, base: int = 0) -> Optional[Dict[str, Any]]:
                     break
             else:
                 break
+        if pos == m.end() and texto[m.end() - 1:m.end()] in ("°", "º"):
+            letra = _RE_LETRA_TRAS_ORDINAL.match(texto, pos)
+            if letra:
+                clave += " " + letra.group("s")
+                pos = letra.end()
         transitorio = bool(_RE_SIGUE_TRANSITORIO.match(texto, pos))
         return {"clase": "num", "clave": clave, "valor": int(m.group("num")),
                 "transitorio": transitorio, "fin": base + pos}
@@ -417,7 +449,10 @@ def _normalizar_pedido(pedido: Any) -> Any:
     clave = _clave_articulo(pedido)
     transitorio = bool(re.search(r"\btransitori[oa]s?\b", clave))
     if transitorio:
-        clave = re.sub(r"\btransitori[oa]s?\b", " ", clave).strip() or "transitorio"
+        # «Cuarta disposición transitoria» (la forma en que se cita la Constitución) y «artículo 4
+        # transitorio» llegan al mismo rótulo que «cuarta transitoria».
+        clave = re.sub(r"\b(?:transitori[oa]s?|disposicion(?:es)?|articulos?)\b", " ", clave)
+        clave = re.sub(r"\s+", " ", clave).strip() or "transitorio"
     return clave, transitorio
 
 
@@ -428,6 +463,28 @@ def _buscar_exacto(mapa: Dict[str, Any], objetivo: str):
         if _clave_articulo(clave) == objetivo:
             return clave, texto
     return None
+
+
+def _buscar_transitorio(mapa: Dict[str, Any], objetivo: str):
+    """Como `_buscar_exacto`, y además «4 transitorio» ≡ «cuarta transitoria» (y a la inversa).
+
+    Los transitorios de unas normas se rotulan con número (Código del Trabajo: «Art. 1o») y los de otras
+    con ordinal (Constitución: «CUARTA.-»; Ley 21.643: «Artículo segundo transitorio»), y quien cita
+    escribe cualquiera de las dos formas: es el mismo numeral. Solo vale si el valor coincide con UNA
+    clave; si dos claves tienen el mismo valor no se adivina.
+    """
+    exacto = _buscar_exacto(mapa, objetivo)
+    if exacto:
+        return exacto
+    valor = int(objetivo) if objetivo.isdigit() else _valor_ordinal(objetivo)
+    if valor is None:
+        return None
+    candidatos = []
+    for clave, texto in mapa.items():
+        k = _clave_articulo(clave)
+        if k != objetivo and (int(k) if k.isdigit() else _valor_ordinal(k)) == valor:
+            candidatos.append((clave, texto))
+    return candidatos[0] if len(candidatos) == 1 else None
 
 
 def _resolver_articulo(datos: Dict[str, Any], pedido: Any):
@@ -445,14 +502,14 @@ def _resolver_articulo(datos: Dict[str, Any], pedido: Any):
     anexos = datos.get("cuerpos_anexos") or []
 
     if transitorio:
-        hallado = _buscar_exacto(transitorios, objetivo)
+        hallado = _buscar_transitorio(transitorios, objetivo)
         if hallado:
             return (hallado[0], hallado[1], {"transitorio": True}), []
         # En el Código de Comercio los transitorios quedan tras el Libro IV, que trae numeración
         # propia: viven en un cuerpo anexo. Si el rótulo está en uno solo, no hay ambigüedad.
         candidatos = []
         for anexo in anexos:
-            h = _buscar_exacto(anexo.get("articulos_transitorios") or {}, objetivo)
+            h = _buscar_transitorio(anexo.get("articulos_transitorios") or {}, objetivo)
             if h:
                 candidatos.append((anexo, h))
         if len(candidatos) == 1:
@@ -491,8 +548,12 @@ def _resolver_articulo(datos: Dict[str, Any], pedido: Any):
             sugerencias.append(
                 "No existe ese número sin sufijo; existen: " + ", ".join(variantes[:6]) + "."
             )
-        if _buscar_exacto(transitorios, objetivo):
-            sugerencias.append(f"Existe un artículo transitorio con ese número: pídalo como «{objetivo} transitorio».")
+        existe = _buscar_transitorio(transitorios, objetivo)
+        if existe:
+            sugerencias.append(
+                f"Existe un artículo transitorio con ese número («{existe[0]}»): pídalo agregando la palabra "
+                "«transitorio» o «transitoria»."
+            )
         en_anexos = sum(1 for a in anexos if _buscar_exacto(a.get("articulos") or {}, objetivo))
         if en_anexos:
             sugerencias.append(
@@ -918,13 +979,18 @@ class BCNClient:
 
         Las versiones antiguas encabezan «Art. 162.» y las modernas «Artículo 162.-»;
         las referencias internas van en minúscula («el artículo 22»), así que no se cuelan.
+
+        La cabecera incluye el sufijo («Artículo 183-A.-», «Art. 161 bis.»): antes se descartaba todo lo
+        que no fuera dígito del pedido, así que «183-A» entregaba el artículo 183, y el texto del 161
+        arrastraba el del 161 bis hasta la cabecera siguiente. Se compara número Y sufijo.
         """
-        objetivo = re.sub(r"\D", "", str(articulo))
-        if not objetivo:
+        if not re.search(r"\d", str(articulo)):
             return None
-        cabeceras = list(re.finditer(r"\bArt(?:ículo)?\.?\s*(\d+)\s*[°º]?\s*[.\-–—]+(?=\s|$)", texto))
+        objetivo = _clave_articulo(articulo)
+        cabeceras = list(_RE_CABECERA_CORRIDA.finditer(texto))
         for indice, coincidencia in enumerate(cabeceras):
-            if coincidencia.group(1) == objetivo:
+            rotulo = coincidencia.group("num") + (" " + coincidencia.group("suf") if coincidencia.group("suf") else "")
+            if _clave_articulo(rotulo) == objetivo:
                 fin = cabeceras[indice + 1].start() if indice + 1 < len(cabeceras) else len(texto)
                 return texto[coincidencia.start():fin].strip()[:12000]
         return None

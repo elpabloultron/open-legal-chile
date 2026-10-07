@@ -382,7 +382,16 @@ def _cita_de_norma(cliente: Any, norma: dict, limite: Optional[int] = 1200) -> d
         return {"error": "La fuente respondió sin texto: no se cita lo que no se pudo leer.",
                 "sin_fuente_verificable": True, "detalle": str(dato)[:300]}
     recorte = texto if limite is None else texto[:limite]
-    return {"cita": formatear_cita("BCN", ident, url=url, texto=recorte)}
+    resultado: dict = {"cita": formatear_cita("BCN", ident, url=url, texto=recorte)}
+    # El conector avisa cuando el texto no es el del cuerpo principal de la norma (Ley 20.416: cinco
+    # cuerpos de peso parecido; artículo ordinal tomado de un texto anexo). Sin este aviso, la cita
+    # saldría con su corchete oficial y nada que advierta al lector.
+    if dato.get("aviso_cuerpos"):
+        resultado["aviso"] = str(dato["aviso_cuerpos"])
+    elif dato.get("cuerpo") == "anexo":
+        resultado["aviso"] = ("El artículo se tomó de un cuerpo anexo de la norma (texto aprobado dentro de "
+                              "ella o ley que el decreto refunde); confirme en el texto oficial.")
+    return resultado
 
 
 def _citas_por_lote(referencias: list, limite: Optional[int] = 1200) -> dict:
@@ -542,7 +551,10 @@ def despachar(name: str, args: dict) -> Any:
             return {"error": f"No pude traer el texto: {str(e)[:160]}", "sin_fuente_verificable": True}
         resultado = _cita_de_norma(cliente, normas[0])
         if "cita" in resultado:
-            return {"referencia": referencia, "normas_detectadas": normas, "citas": [resultado["cita"]]}
+            respuesta = {"referencia": referencia, "normas_detectadas": normas, "citas": [resultado["cita"]]}
+            if resultado.get("aviso"):
+                respuesta["aviso"] = resultado["aviso"]
+            return respuesta
         return resultado
     elif name == "busqueda_universal":
         consulta = (args.get("consulta") or args.get("query") or args.get("q") or args.get("termino") or "").strip()

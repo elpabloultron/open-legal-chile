@@ -7,7 +7,7 @@ texto literal de una norma mencionada en lenguaje natural.
 """
 
 import re
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 CODIGOS = {
     "civil": "Código Civil",
@@ -50,7 +50,22 @@ def _obra_canonica(capturada: str) -> str:
 _OBRAS = _alternacion_obras()
 # Sufijos latinos completos, con la tilde real de «quáter» (la que envenenó la caché).
 _SUFIJOS_LATINOS = r"(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies)"
-_ART = r"\d+(?:\s*[-–]\s*[a-zA-Z]|\s*" + _SUFIJOS_LATINOS + r")?"
+# Un sufijo a la vez (hasta tres: «152 quáter A»). Cada forma exige su límite, porque la regex es
+# IGNORECASE y sin él se leía de más o de menos (medido: «183-AE» se cortaba en «183-A», y «161-bis» en
+# «161-b», con lo que cita_texto entregaba OTRO artículo; «25 Terminado» se leía «25 ter»):
+#   · latino  «bis», «ter», «quáter»… con límite de palabra;
+#   · guion   una letra, o dos (183-AE), sin letra pegada detrás;
+#   · letra   separada («16 B», «183 AE», «313 c»), solo si cierra la mención (fin, puntuación, «de»/«del»):
+#             así «art. 12 A los efectos» no se lee como «12 A». Dos letras solo en mayúscula.
+_FIN_LETRAS = r"(?![^\W\d_])"
+_SUFIJO_ART = (
+    r"(?:\s*[-–]?\s*" + _SUFIJOS_LATINOS + _FIN_LETRAS
+    + r"|\s*[-–]\s*(?:(?-i:[A-Z]{1,2})|[a-z])" + _FIN_LETRAS
+    + r"|\s+(?:(?-i:[A-Z]{1,2})|[a-z])" + _FIN_LETRAS + r"(?=\s*(?:[.,;:)\]]|$)|\s+(?:de|del)\b))"
+)
+# «Art. 1° transitorio»: sin este cierre se pedía el artículo 1 del articulado permanente.
+_TRANSITORIO_ART = r"(?:\s*[°º]?\s*transitori[oa]s?\b)?"
+_ART = r"\d+[°º]?(?:" + _SUFIJO_ART + r"){0,3}" + _TRANSITORIO_ART
 _NUM_LEY = r"\d{2,6}(?:\.\d{3})?(?!\d)"
 _PREFIJO_CODIGO = r"(?:c[oó]digo\s+(?:de\s+l[ao]s?\s+|del\s+|de\s+)?)?"
 _ARTICULO = r"(?:art[íi]culos?|arts?\.?)\s*"
@@ -93,6 +108,15 @@ def bloque_fuentes(citas: List[Dict[str, str]]) -> str:
     return "\n".join(lineas)
 
 
+def _articulo_canonico(capturado: Optional[str]) -> Optional[str]:
+    """«3º bis» → «3 bis», «1° Transitorio» → «1 transitorio»: minúsculas, sin signo ordinal ni espacios dobles."""
+    if not capturado:
+        return None
+    texto = re.sub(r"(?<=\d)\s*[°º]", "", capturado)
+    texto = re.sub(r"\s*[-–]\s*(?=" + _SUFIJOS_LATINOS + _FIN_LETRAS + r")", " ", texto, flags=re.IGNORECASE)
+    return " ".join(texto.split()).lower()
+
+
 def detectar_normas(texto: str) -> List[Dict[str, Any]]:
     """Detecta menciones de códigos y leyes con artículo, para ir a buscar su texto literal.
 
@@ -105,7 +129,7 @@ def detectar_normas(texto: str) -> List[Dict[str, Any]]:
         for m in regex.finditer(texto or ""):
             obra = _obra_canonica(m.group("obra"))
             capturado = m.group("art")
-            articulo = " ".join(capturado.split()).lower() if capturado else None
+            articulo = _articulo_canonico(capturado)
             clave = ("codigo", obra, articulo)
             if clave in vistos:
                 continue
@@ -118,7 +142,7 @@ def detectar_normas(texto: str) -> List[Dict[str, Any]]:
         for m in regex.finditer(texto or ""):
             numero = m.group("num").replace(".", "")
             capturado = m.group("art")
-            articulo = " ".join(capturado.split()).lower() if capturado else None
+            articulo = _articulo_canonico(capturado)
             clave = ("ley", numero, articulo)
             if clave in vistos:
                 continue
