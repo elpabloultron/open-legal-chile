@@ -71,6 +71,10 @@ def test_el_ignore_no_saca_codigo_de_la_suite():
 def test_el_grafo_de_codigo_es_local():
     lineas = (RAIZ / ".gitignore").read_text(encoding="utf-8").splitlines()
     assert "graphify-out/" in lineas, "graphify-out/ se regenera local en ~9 s: no se versiona"
+    # Paridad con lo que ignoraba graphify-out/ antes del movimiento: si alguien corre graphify con
+    # GRAPHIFY_OUT=graphify-doctrinal, sus subproductos tampoco se versionan.
+    for regla in ("cache/", "[0-9]*/", "*.sig", ".graphify_labels.json*", "*.graphml", "cypher.txt"):
+        assert f"graphify-doctrinal/{regla}" in lineas, f"falta graphify-doctrinal/{regla} en .gitignore"
 
 
 def test_el_grafo_doctrinal_vive_fuera_de_graphify_out():

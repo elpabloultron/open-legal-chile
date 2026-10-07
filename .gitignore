@@ -69,6 +69,7 @@ scratch_*.py
 # se versiona; cada cambio de código renumeraba comunidades y reescribía miles de líneas.
 graphify-out/
 graphify-doctrinal/cache/
+graphify-doctrinal/[0-9]*/
 graphify-doctrinal/*.sig
 graphify-doctrinal/.graphify_labels.json*
 graphify-doctrinal/*.graphml

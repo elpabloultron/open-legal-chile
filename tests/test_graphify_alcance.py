@@ -55,6 +55,9 @@ def test_las_carpetas_salen_de_graphifyignore():
     pytest.param({"tool_name": "Read", "tool_input": {"file_path": ".agents/skills/x/SKILL.md"}}, id="skills"),
     pytest.param({"tool_name": "Grep", "tool_input": {"pattern": "x", "path": "./doctrina/"}}, id="barra_final"),
     pytest.param({"tool_name": "Read", "tool_input": {"file_path": "servidor/../doctrina/a.md"}}, id="con_punto_punto"),
+    # Ruta de Windows dentro de un comando de Bash (Git Bash la recibe con `\\`).
+    pytest.param({"tool_name": "Bash", "tool_input": {"command": "type doctrina\\civil\\a.md"}},
+                 id="bash_ruta_windows"),
 ])
 def test_el_corpus_queda_fuera(entrada):
     assert alcance.fuera_del_grafo(entrada, PROYECTO, CARPETAS) is True
@@ -72,6 +75,16 @@ def test_rutas_estilo_windows():
     assert alcance.fuera_del_grafo(relativa, "C:\\proj", CARPETAS) is True
 
 
+def test_windows_no_distingue_mayusculas(monkeypatch):
+    # NTFS no distingue mayúsculas: el Explorador puede dar `c:\\Proj\\Doctrina\\a.md`. Solo se simula
+    # `os.name` (las funciones comparan textos, sin tocar el disco), para cubrirlo también en Linux.
+    entrada = {"tool_name": "Read", "tool_input": {"file_path": "c:\\PROJ\\Doctrina\\a.md"}}
+    monkeypatch.setattr(alcance.os, "name", "nt")
+    assert alcance.fuera_del_grafo(entrada, "C:\\proj", CARPETAS) is True
+    monkeypatch.setattr(alcance.os, "name", "posix")
+    assert alcance.fuera_del_grafo(entrada, "C:\\proj", CARPETAS) is False
+
+
 @pytest.mark.parametrize("entrada", [
     pytest.param({"tool_name": "Read", "tool_input": {"file_path": "servidor/corpus.py"}}, id="read_codigo"),
     pytest.param({"tool_name": "Read", "tool_input": {"file_path": ".claude/hooks/graphify-sesion.sh"}},
@@ -87,6 +100,10 @@ def test_rutas_estilo_windows():
                  id="grep_carpeta_de_codigo"),
     # Una carpeta de código que solo empieza igual que una excluida no es la excluida.
     pytest.param({"tool_name": "Read", "tool_input": {"file_path": "datos_de_prueba/a.py"}}, id="prefijo_parcial"),
+    # Mutación comprobada: con `startswith(carpeta)` sin la barra, «database/» caía dentro de «data/».
+    pytest.param({"tool_name": "Read", "tool_input": {"file_path": "database/a.py"}}, id="prefijo_database"),
+    pytest.param({"tool_name": "Grep", "tool_input": {"pattern": "x", "path": f"{PROYECTO}/doctrina_x"}},
+                 id="prefijo_doctrina_x"),
     pytest.param({"tool_name": "Read", "tool_input": "no-es-un-dict"}, id="tool_input_invalido"),
 ])
 def test_el_codigo_queda_dentro(entrada):
@@ -147,3 +164,15 @@ def test_el_corpus_no_avisa_ni_marca(monkeypatch, capsys, tmp_path):
 @pytest.mark.parametrize("basura", ["no-json", "[1, 2]", ""])
 def test_json_invalido_falla_abierta(monkeypatch, capsys, tmp_path, basura):
     assert _correr(monkeypatch, capsys, tmp_path, basura)[0] == 2
+
+
+def test_stdin_en_utf8_aunque_la_pagina_de_codigos_sea_otra(monkeypatch, capsys, tmp_path):
+    # En Windows el stdin de texto usaría cp1252: la guardia lee los bytes y decodifica en UTF-8.
+    shutil.copy(RAIZ / ".graphifyignore", tmp_path / ".graphifyignore")
+    cuerpo = json.dumps({"session_id": "añ1", "tool_name": "Bash",
+                         "tool_input": {"command": "grep -rn 'compraventa ñandú' servidor/"}},
+                        ensure_ascii=False).encode("utf-8")
+    monkeypatch.setenv("CLAUDE_PROJECT_DIR", str(tmp_path))
+    monkeypatch.setattr("sys.stdin", io.TextIOWrapper(io.BytesIO(cuerpo), encoding="cp1252"))
+    assert alcance.main(["search"]) == 1
+    assert pathlib.Path(capsys.readouterr().out.strip()).name == "a1-search"
