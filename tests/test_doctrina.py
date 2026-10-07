@@ -332,8 +332,11 @@ def test_mcp_doctrina_error_handling():
     assert "error" in err_not_found
 
 
-def test_mcp_doctrina_ingestar_documento(tmp_path):
+def test_mcp_doctrina_ingestar_documento(tmp_path, monkeypatch):
     """Verifica la invocación de doctrina_ingestar_documento a través de handle_tool_call."""
+    # La ingesta indexa el documento en FTS5: que lo haga en una base temporal, no en doctrina.db.
+    monkeypatch.setattr("doctrina_connector.DB_PATH", str(tmp_path / "doctrina.db"))
+    monkeypatch.setattr("doctrina_connector.DOCTRINA_DIR", str(tmp_path / "doctrina_vacia"))
     src = tmp_path / "doctrina_test.txt"
     src.write_text(
         "Tratado de Derecho Civil.\nPor René Ramos Pazos.\n\n"

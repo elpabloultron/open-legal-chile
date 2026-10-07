@@ -204,7 +204,7 @@ TOOLS = [
     },
     {
         "name": "doctrina_ingestar_documento",
-        "description": "Convierte documentos (PDF, DOCX, TXT, MD) o textos a Markdown canónico de alta densidad dogmática (normas RAE/ASALE y citas chilenas BCN/CS) y actualiza automáticamente el Knowledge Graph (legal_knowledge_graph.json) y el índice SQLite FTS5 de doctrina.",
+        "description": "Convierte documentos (PDF, DOCX, TXT, MD) o textos a Markdown canónico de alta densidad dogmática (normas RAE/ASALE y citas chilenas BCN/CS) y agrega de forma incremental solo ese documento al índice SQLite FTS5 de doctrina y al Knowledge Graph (legal_knowledge_graph.json), sin reconstruirlos: tarda segundos.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -231,7 +231,7 @@ TOOLS = [
                 },
                 "actualizar_grafo": {
                     "type": "boolean",
-                    "description": "Si es True, asimila y reconstruye de inmediato el Knowledge Graph de LegalGraphify (legal_knowledge_graph.json).",
+                    "description": "Si es True, agrega de inmediato los nodos del documento al Knowledge Graph de LegalGraphify (legal_knowledge_graph.json), sin reconstruirlo.",
                     "default": True
                 },
                 "target_path": {
@@ -629,7 +629,8 @@ def despachar(name: str, args: dict) -> Any:
             obra=args.get("obra", ""),
             materia=args.get("materia", ""),
             actualizar_grafo=bool(args.get("actualizar_grafo", True)),
-            target_path=args.get("target_path")
+            target_path=args.get("target_path"),
+            motor_grafo=legal_graphify_engine
         )
     elif name == "academia_judicial_buscar_guias":
         q = args.get("query")

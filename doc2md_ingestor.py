@@ -464,16 +464,23 @@ def ingestar_documento_doctrinal(
     materia: str = "",
     actualizar_grafo: bool = True,
     target_path: Optional[str] = None,
-    actualizar_fts: bool = True
+    actualizar_fts: bool = True,
+    motor_grafo: Optional[Any] = None
 ) -> Dict[str, Any]:
     """
     Pipeline de ingesta integral:
     1. Extrae texto de la fuente (PDF, DOCX, TXT, MD).
     2. Aplica ortotipografía RAE/ASALE y estandarización de citas chilenas.
     3. Genera Markdown canónico token-optimizado y lo persiste en disco.
-    4. Sincroniza automáticamente:
-       - El índice SQLite FTS5 de doctrina (doctrina.db).
-       - El Knowledge Graph multidimensional (data/legal_knowledge_graph.json) si actualizar_grafo es True.
+    4. Sincroniza de forma incremental, solo con el documento nuevo:
+       - El índice SQLite FTS5 de doctrina (doctrina.db): upsert de sus fichas.
+       - El Knowledge Graph multidimensional (data/legal_knowledge_graph.json) si actualizar_grafo
+         es True: se agregan sus nodos al grafo publicado, sin reconstruir el corpus.
+       Reconstruir ambos por cada documento tardaba ~167 s (casi todo, la modularidad del grafo)
+       y cortaba a los clientes MCP con timeout de 60 s.
+
+    `motor_grafo` es el LegalGraphifyEngine vivo del servidor MCP: si ya está cargado, el
+    documento se agrega sobre él, así que las herramientas graphify_* lo ven de inmediato.
     """
     raw_text = extract_text_from_source(file_path)
     if not raw_text.strip():
@@ -533,34 +540,54 @@ def ingestar_documento_doctrinal(
     if inst_count == 0:
         inst_count = len(re.findall(r"^##\s+", canonical_md, re.MULTILINE))
 
-    # Sincronización automática 1: Índice SQLite FTS5 de doctrina
+    advertencias: List[str] = []
+
+    # Sincronización automática 1: Índice SQLite FTS5 de doctrina (solo este documento)
     fts_actualizado = False
     total_inst_fts = 0
+    inst_indexadas_fts = 0
     if actualizar_fts:
         try:
-            from doctrina_connector import index_all_doctrina
-            total_inst_fts = index_all_doctrina()
+            from doctrina_connector import index_doctrina_file
+            res_fts = index_doctrina_file(str(out_file))
+            total_inst_fts = res_fts["total"]
+            inst_indexadas_fts = res_fts["indexadas"]
             fts_actualizado = True
         except Exception as e:
             print(f"Advertencia al indexar doctrina FTS5: {e}", file=sys.stderr)
+            advertencias.append(f"No se pudo indexar el documento en FTS5: {e}")
 
-    # Sincronización automática 2: Grafo de Conocimiento (LegalGraphify)
+    # Sincronización automática 2: Grafo de Conocimiento (LegalGraphify), solo este documento
     grafo_actualizado = False
     total_nodos = 0
     total_aristas = 0
+    nodos_agregados = 0
     if actualizar_grafo:
         try:
             from legal_graphify import LegalGraphifyEngine
-            engine = LegalGraphifyEngine(doctrina_dir=DOCTRINA_DIR)
-            engine.construir_grafo_desde_doctrina()
-            engine.guardar_grafo_json(DEFAULT_GRAPH_PATH)
-            grafo_actualizado = True
-            total_nodos = engine.graph.number_of_nodes()
-            total_aristas = engine.graph.number_of_edges()
+            engine = motor_grafo if motor_grafo is not None and getattr(motor_grafo, "is_built", False) else None
+            if engine is None:
+                engine = LegalGraphifyEngine(doctrina_dir=DOCTRINA_DIR)
+                if not engine.cargar_grafo_json(DEFAULT_GRAPH_PATH):
+                    # Sin artefacto no hay a qué agregar: reconstruir el corpus aquí volvería a
+                    # costar minutos, así que se avisa y se deja la reconstrucción a quien la pida.
+                    engine = None
+                    advertencias.append(
+                        f"No existe el grafo publicado en {DEFAULT_GRAPH_PATH}: el documento no se "
+                        "agregó al Knowledge Graph. Reconstrúyelo con `python legal_graphify.py --build`."
+                    )
+            if engine is not None:
+                res_grafo = engine.incorporar_archivo_doctrina(str(out_file))
+                engine.guardar_grafo_json(DEFAULT_GRAPH_PATH)
+                grafo_actualizado = True
+                nodos_agregados = res_grafo["nodos_agregados"]
+                total_nodos = res_grafo["total_nodos"]
+                total_aristas = res_grafo["total_aristas"]
         except Exception as e:
             print(f"Advertencia al actualizar Knowledge Graph: {e}", file=sys.stderr)
+            advertencias.append(f"No se pudo actualizar el Knowledge Graph: {e}")
 
-    return {
+    resultado = {
         "status": "success",
         "file_path": str(file_path),
         "markdown_path": str(out_file),
@@ -576,6 +603,11 @@ def ingestar_documento_doctrinal(
         "fts_actualizado": fts_actualizado,
         "total_nodos_grafo": total_nodos,
         "total_aristas_grafo": total_aristas,
+        "nodos_agregados_grafo": nodos_agregados,
         "total_instituciones_fts": total_inst_fts,
+        "instituciones_indexadas_fts": inst_indexadas_fts,
         "mensaje": f"Documento asimilado exitosamente: {inst_count} instituciones dogmáticas incorporadas al canon."
     }
+    if advertencias:
+        resultado["advertencias"] = advertencias
+    return resultado

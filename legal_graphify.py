@@ -14,7 +14,7 @@ import os
 import re
 import json
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from typing import Dict, Any, List, Optional, Set, Tuple
 
 import networkx as nx
@@ -123,17 +123,21 @@ class LegalGraphifyEngine:
         self._word_to_nodes.clear()
         self._def_word_to_nodes.clear()
         for nid, d in self.graph.nodes(data=True):
-            lbl_norm = _normalize_str(d.get("label", ""))
-            if lbl_norm:
-                self._label_index[lbl_norm] = nid
-                for w in re.findall(r"\b\w+\b", lbl_norm):
-                    if len(w) > 3:
-                        self._word_to_nodes[w].add(nid)
-            def_norm = _normalize_str(d.get("definicion", ""))
-            if def_norm:
-                for w in re.findall(r"\b\w+\b", def_norm):
-                    if len(w) > 3:
-                        self._def_word_to_nodes[w].add(nid)
+            self._indexar_nodo(nid, d)
+
+    def _indexar_nodo(self, nid: str, d: Dict[str, Any]) -> None:
+        """Registra un nodo en los índices invertidos (etiqueta y palabras de la definición)."""
+        lbl_norm = _normalize_str(d.get("label", ""))
+        if lbl_norm:
+            self._label_index[lbl_norm] = nid
+            for w in re.findall(r"\b\w+\b", lbl_norm):
+                if len(w) > 3:
+                    self._word_to_nodes[w].add(nid)
+        def_norm = _normalize_str(d.get("definicion", ""))
+        if def_norm:
+            for w in re.findall(r"\b\w+\b", def_norm):
+                if len(w) > 3:
+                    self._def_word_to_nodes[w].add(nid)
 
     def _parse_frontmatter(self, text: str) -> Tuple[Dict[str, str], str]:
         """Extrae metadatos frontmatter si existen."""
@@ -149,6 +153,239 @@ class LegalGraphifyEngine:
                         meta[k.strip()] = v.strip().strip('"').strip("'")
                 return meta, body
         return {}, text
+
+    def _incorporar_archivo(self, filepath: str) -> Tuple[Set[str], int]:
+        """
+        Incorpora al grafo las entidades y relaciones de un archivo de doctrina.
+
+        Es el cuerpo por archivo de construir_grafo_desde_doctrina, separado para que la ingesta
+        de un documento pueda agregar solo ese archivo al grafo publicado. Devuelve los ids de los
+        nodos que tocó (creados o actualizados) y la cantidad de secciones institucionales.
+        """
+        tocados: Set[str] = set()
+        total_secciones = 0
+        try:
+            rel_path = os.path.relpath(filepath, BASE_DIR)
+        except ValueError:
+            # Windows: la carpeta y el repo pueden estar en discos distintos (C: y D:)
+            # y relpath no cruza unidades. Se usa la ruta normalizada, que alcanza para
+            # las comprobaciones por subcadena que vienen después.
+            rel_path = filepath.replace(chr(92), '/')
+
+        with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+            text = f.read()
+
+        frontmatter, body = self._parse_frontmatter(text)
+
+        # Extraer título de obra y tratadista
+        obra_match = re.search(r"^#\s+(.+)$", body, re.MULTILINE)
+        obra = frontmatter.get("titulo") or (obra_match.group(1).strip() if obra_match else os.path.basename(filepath).replace(".md", ""))
+
+        meta_match = re.search(
+            r"\*\*Tratadistas?:\*\*\s*([^|]+)\|\s*\*\*Área:\*\*\s*([^|]+)\|\s*\*\*Materia:\*\*\s*(.+)$",
+            body,
+            re.MULTILINE
+        )
+        if meta_match:
+            autor = meta_match.group(1).strip()
+            area = meta_match.group(2).strip()
+            materia = meta_match.group(3).strip()
+        else:
+            autor = frontmatter.get("autor", "Academia Judicial de Chile" if "academia_judicial" in rel_path else "Doctrina Nacional")
+            area = frontmatter.get("materia", "Derecho Práctico Judicial" if "academia_judicial" in rel_path else "General")
+            materia = frontmatter.get("titulo", "")
+
+        # Registrar nodo de Autor
+        autor_id = _sanitize_id(autor, "autor")
+        tocados.add(autor_id)
+        if not self.graph.has_node(autor_id):
+            self.graph.add_node(
+                autor_id,
+                label=autor,
+                node_type="autor",
+                file_type="legal_author",
+                source_file=rel_path,
+                community=1
+            )
+
+        # Calcular tokens aproximados del archivo completo.
+        # Sin piso a propósito: antes esto era max(1200, ...) y como 54 de los 58
+        # archivos de doctrina están bajo ese umbral, el 93% de las instituciones
+        # reportaba 1200 tokens sin importar su tamaño real (de 118 a 1612), lo que
+        # inflaba el ahorro que se publica. El número debe ser el del archivo.
+        tokens_archivo_total = max(1, int(len(text.split()) * 1.3))
+
+        # Registrar nodo de Obra
+        obra_id = _sanitize_id(obra, "obra")
+        tocados.add(obra_id)
+        if not self.graph.has_node(obra_id):
+            self.graph.add_node(
+                obra_id,
+                label=obra,
+                node_type="obra",
+                file_type="legal_work",
+                area=area,
+                source_file=rel_path,
+                tokens_archivo=tokens_archivo_total,
+                community=1
+            )
+        self.graph.add_edge(obra_id, autor_id, relation="escrito_por", weight=1.0)
+
+        # Dividir por secciones
+        secciones = re.split(r"\n##\s+(?:🏛️\s*)?", body)
+        if len(secciones) <= 1:
+            # Guía de la Academia Judicial sin múltiples secciones '## '
+            secciones = [body]
+
+        for sec in secciones:
+            sec_clean = sec.strip()
+            if not sec_clean or sec_clean.startswith("# ") or sec_clean.startswith("**Tratadista"):
+                continue
+
+            lines = sec_clean.split("\n")
+            titulo = lines[0].strip().lstrip("#").strip()
+            if not titulo or len(titulo) < 3:
+                continue
+
+            total_secciones += 1
+            inst_id = _sanitize_id(titulo, "inst")
+            tocados.add(inst_id)
+
+            # Extraer Definición Canónica
+            def_match = re.search(
+                r"\*\*Definición Canónica(?:\s*\([^)]+\))?:\*\*\s*\n*(.*?)(?=\n\n|\n\*\*|\n\*|\Z)",
+                sec_clean,
+                re.DOTALL
+            )
+            definicion = def_match.group(1).strip() if def_match else ""
+            if not definicion and len(lines) > 1:
+                # Extraer primera oración explicativa
+                for line_item in lines[1:]:
+                    l_str = line_item.strip()
+                    if l_str and not l_str.startswith("**") and not l_str.startswith("#"):
+                        definicion = l_str[:250] + ("..." if len(l_str) > 250 else "")
+                        break
+
+            # Extraer Operativa Procesal Forense
+            proc_match = re.search(
+                r"\*\*Operativa Procesal Forense:\*\*\s*\n*(.*?)(?=\n\n\*\*|\n\*\*Concordancias|\n\*\*Criterio|\n---\Z|\Z)",
+                sec_clean,
+                re.DOTALL
+            )
+            operativa_procesal = proc_match.group(1).strip() if proc_match else ""
+
+            # Extraer Concordancias Legales
+            concordancias_raw = []
+            conc_header = re.search(r"\*\*Concordancias Legales:\*\*\s*(.+)", sec_clean)
+            if conc_header:
+                concordancias_raw.extend(re.findall(r"\[([^\]]+)\]", conc_header.group(1)))
+            # Búsqueda adicional en texto
+            concordancias_raw.extend(re.findall(r"\[(BCN\s*-\s*[^\]]+)\]", sec_clean))
+            concordancias_raw.extend(re.findall(r"(?:Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N°\s*\d+))*\s*(?:del\s*)?(?:CC|CPC|CPP|CP|COT|CT|CPR|Ley\s*\d+[\.\d]*))", sec_clean))
+
+            # Extraer Criterio Jurisprudencial Rector
+            jurisprudencia_raw = []
+            fallo_header = re.search(r"\*\*Criterio Jurisprudencial Rector:\*\*\s*(.+)", sec_clean)
+            if fallo_header:
+                jurisprudencia_raw.extend(re.findall(r"\[([^\]]+)\]", fallo_header.group(1)))
+            jurisprudencia_raw.extend(re.findall(r"\[((?:CS|STC|CA)\s*-\s*Rol\s*N°\s*[^\]]+)\]", sec_clean))
+            jurisprudencia_raw.extend(re.findall(r"Rol\s*N°?\s*\d+[\.\d]*-\d{4}", sec_clean))
+
+            # Calcular tokens aproximados de la sección y del archivo completo
+            tokens_seccion = int(len(sec_clean.split()) * 1.3)
+
+            # Registrar Nodo de Institución
+            self.graph.add_node(
+                inst_id,
+                label=titulo,
+                node_type="institucion",
+                file_type="legal_doctrine",
+                area=area,
+                materia=materia,
+                autor=autor,
+                obra=obra,
+                definicion=definicion,
+                operativa_procesal=operativa_procesal,
+                source_file=rel_path,
+                tokens_seccion=tokens_seccion,
+                tokens_completos=tokens_archivo_total,
+                norm_label=_normalize_str(titulo),
+                community=0
+            )
+            self.instituciones_index[_normalize_str(titulo)] = inst_id
+            self.instituciones_index[_normalize_str(titulo.replace("🏛️", "").strip())] = inst_id
+
+            # Conectar Institución -> Autor y Obra
+            self.graph.add_edge(inst_id, autor_id, relation="analizado_por", weight=1.0)
+            self.graph.add_edge(inst_id, obra_id, relation="contenido_en", weight=1.0)
+
+            # Procesar y conectar Normas Legales
+            normas_vistas: Set[str] = set()
+            for norm_text in concordancias_raw:
+                clean_norm = norm_text.replace("BCN -", "").strip(" `[]")
+                if not clean_norm or clean_norm in normas_vistas or len(clean_norm) < 3:
+                    continue
+                normas_vistas.add(clean_norm)
+
+                norm_id = _sanitize_id(clean_norm, "norma")
+                tocados.add(norm_id)
+                if not self.graph.has_node(norm_id):
+                    self.graph.add_node(
+                        norm_id,
+                        label=clean_norm,
+                        node_type="articulo_legal",
+                        file_type="legal_norm",
+                        source_file=rel_path,
+                        norm_label=_normalize_str(clean_norm),
+                        community=2
+                    )
+                    self.normas_index[_normalize_str(clean_norm)] = norm_id
+
+                self.graph.add_edge(inst_id, norm_id, relation="fundamenta_en", weight=1.0)
+
+            # Procesar y conectar Jurisprudencia CS
+            fallos_vistos: Set[str] = set()
+            for f_text in jurisprudencia_raw:
+                clean_f = f_text.strip(" `[]")
+                if not clean_f or clean_f in fallos_vistos or len(clean_f) < 4:
+                    continue
+                fallos_vistos.add(clean_f)
+
+                fallo_id = _sanitize_id(clean_f, "fallo")
+                tocados.add(fallo_id)
+                if not self.graph.has_node(fallo_id):
+                    self.graph.add_node(
+                        fallo_id,
+                        label=clean_f,
+                        node_type="jurisprudencia",
+                        file_type="legal_ruling",
+                        source_file=rel_path,
+                        community=3
+                    )
+                self.graph.add_edge(inst_id, fallo_id, relation="criterio_jurisprudencial", weight=1.0)
+
+            # Extraer y conectar Vías Procesales
+            if operativa_procesal:
+                vias_detectadas = re.findall(
+                    r"(?:demanda\s+ordinaria|accion\s+reivindicatoria|recurso\s+de\s+casacion|recurso\s+de\s+apelacion|recurso\s+de\s+proteccion|tutela\s+laboral|juicio\s+ejecutivo|juicio\s+sumario|excepcion\s+dilatoria|excepcion\s+perentoria|procedimiento\s+abreviado|audiencia\s+preparatoria|medida\s+precautoria|medida\s+cautelar)",
+                    _normalize_str(operativa_procesal)
+                )
+                for via in set(vias_detectadas):
+                    via_id = _sanitize_id(via, "via")
+                    tocados.add(via_id)
+                    via_label = via.title()
+                    if not self.graph.has_node(via_id):
+                        self.graph.add_node(
+                            via_id,
+                            label=via_label,
+                            node_type="via_procesal",
+                            file_type="legal_procedure",
+                            source_file=rel_path,
+                            community=4
+                        )
+                    self.graph.add_edge(inst_id, via_id, relation="via_procesal", weight=1.0)
+
+        return tocados, total_secciones
 
     def construir_grafo_desde_doctrina(self) -> Dict[str, Any]:
         """
@@ -171,221 +408,8 @@ class LegalGraphifyEngine:
                     continue
 
                 filepath = os.path.join(root, file)
-                try:
-                    rel_path = os.path.relpath(filepath, BASE_DIR)
-                except ValueError:
-                    # Windows: la carpeta y el repo pueden estar en discos distintos (C: y D:)
-                    # y relpath no cruza unidades. Se usa la ruta normalizada, que alcanza para
-                    # las comprobaciones por subcadena que vienen después.
-                    rel_path = filepath.replace(chr(92), '/')
                 archivos_procesados += 1
-
-                with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
-                    text = f.read()
-
-                frontmatter, body = self._parse_frontmatter(text)
-
-                # Extraer título de obra y tratadista
-                obra_match = re.search(r"^#\s+(.+)$", body, re.MULTILINE)
-                obra = frontmatter.get("titulo") or (obra_match.group(1).strip() if obra_match else file.replace(".md", ""))
-
-                meta_match = re.search(
-                    r"\*\*Tratadistas?:\*\*\s*([^|]+)\|\s*\*\*Área:\*\*\s*([^|]+)\|\s*\*\*Materia:\*\*\s*(.+)$",
-                    body,
-                    re.MULTILINE
-                )
-                if meta_match:
-                    autor = meta_match.group(1).strip()
-                    area = meta_match.group(2).strip()
-                    materia = meta_match.group(3).strip()
-                else:
-                    autor = frontmatter.get("autor", "Academia Judicial de Chile" if "academia_judicial" in rel_path else "Doctrina Nacional")
-                    area = frontmatter.get("materia", "Derecho Práctico Judicial" if "academia_judicial" in rel_path else "General")
-                    materia = frontmatter.get("titulo", "")
-
-                # Registrar nodo de Autor
-                autor_id = _sanitize_id(autor, "autor")
-                if not self.graph.has_node(autor_id):
-                    self.graph.add_node(
-                        autor_id,
-                        label=autor,
-                        node_type="autor",
-                        file_type="legal_author",
-                        source_file=rel_path,
-                        community=1
-                    )
-
-                # Calcular tokens aproximados del archivo completo.
-                # Sin piso a propósito: antes esto era max(1200, ...) y como 54 de los 58
-                # archivos de doctrina están bajo ese umbral, el 93% de las instituciones
-                # reportaba 1200 tokens sin importar su tamaño real (de 118 a 1612), lo que
-                # inflaba el ahorro que se publica. El número debe ser el del archivo.
-                tokens_archivo_total = max(1, int(len(text.split()) * 1.3))
-
-                # Registrar nodo de Obra
-                obra_id = _sanitize_id(obra, "obra")
-                if not self.graph.has_node(obra_id):
-                    self.graph.add_node(
-                        obra_id,
-                        label=obra,
-                        node_type="obra",
-                        file_type="legal_work",
-                        area=area,
-                        source_file=rel_path,
-                        tokens_archivo=tokens_archivo_total,
-                        community=1
-                    )
-                self.graph.add_edge(obra_id, autor_id, relation="escrito_por", weight=1.0)
-
-                # Dividir por secciones
-                secciones = re.split(r"\n##\s+(?:🏛️\s*)?", body)
-                if len(secciones) <= 1:
-                    # Guía de la Academia Judicial sin múltiples secciones '## '
-                    secciones = [body]
-
-                for sec in secciones:
-                    sec_clean = sec.strip()
-                    if not sec_clean or sec_clean.startswith("# ") or sec_clean.startswith("**Tratadista"):
-                        continue
-
-                    lines = sec_clean.split("\n")
-                    titulo = lines[0].strip().lstrip("#").strip()
-                    if not titulo or len(titulo) < 3:
-                        continue
-
-                    total_secciones += 1
-                    inst_id = _sanitize_id(titulo, "inst")
-
-                    # Extraer Definición Canónica
-                    def_match = re.search(
-                        r"\*\*Definición Canónica(?:\s*\([^)]+\))?:\*\*\s*\n*(.*?)(?=\n\n|\n\*\*|\n\*|\Z)",
-                        sec_clean,
-                        re.DOTALL
-                    )
-                    definicion = def_match.group(1).strip() if def_match else ""
-                    if not definicion and len(lines) > 1:
-                        # Extraer primera oración explicativa
-                        for line_item in lines[1:]:
-                            l_str = line_item.strip()
-                            if l_str and not l_str.startswith("**") and not l_str.startswith("#"):
-                                definicion = l_str[:250] + ("..." if len(l_str) > 250 else "")
-                                break
-
-                    # Extraer Operativa Procesal Forense
-                    proc_match = re.search(
-                        r"\*\*Operativa Procesal Forense:\*\*\s*\n*(.*?)(?=\n\n\*\*|\n\*\*Concordancias|\n\*\*Criterio|\n---\Z|\Z)",
-                        sec_clean,
-                        re.DOTALL
-                    )
-                    operativa_procesal = proc_match.group(1).strip() if proc_match else ""
-
-                    # Extraer Concordancias Legales
-                    concordancias_raw = []
-                    conc_header = re.search(r"\*\*Concordancias Legales:\*\*\s*(.+)", sec_clean)
-                    if conc_header:
-                        concordancias_raw.extend(re.findall(r"\[([^\]]+)\]", conc_header.group(1)))
-                    # Búsqueda adicional en texto
-                    concordancias_raw.extend(re.findall(r"\[(BCN\s*-\s*[^\]]+)\]", sec_clean))
-                    concordancias_raw.extend(re.findall(r"(?:Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N°\s*\d+))*\s*(?:del\s*)?(?:CC|CPC|CPP|CP|COT|CT|CPR|Ley\s*\d+[\.\d]*))", sec_clean))
-
-                    # Extraer Criterio Jurisprudencial Rector
-                    jurisprudencia_raw = []
-                    fallo_header = re.search(r"\*\*Criterio Jurisprudencial Rector:\*\*\s*(.+)", sec_clean)
-                    if fallo_header:
-                        jurisprudencia_raw.extend(re.findall(r"\[([^\]]+)\]", fallo_header.group(1)))
-                    jurisprudencia_raw.extend(re.findall(r"\[((?:CS|STC|CA)\s*-\s*Rol\s*N°\s*[^\]]+)\]", sec_clean))
-                    jurisprudencia_raw.extend(re.findall(r"Rol\s*N°?\s*\d+[\.\d]*-\d{4}", sec_clean))
-
-                    # Calcular tokens aproximados de la sección y del archivo completo
-                    tokens_seccion = int(len(sec_clean.split()) * 1.3)
-
-                    # Registrar Nodo de Institución
-                    self.graph.add_node(
-                        inst_id,
-                        label=titulo,
-                        node_type="institucion",
-                        file_type="legal_doctrine",
-                        area=area,
-                        materia=materia,
-                        autor=autor,
-                        obra=obra,
-                        definicion=definicion,
-                        operativa_procesal=operativa_procesal,
-                        source_file=rel_path,
-                        tokens_seccion=tokens_seccion,
-                        tokens_completos=tokens_archivo_total,
-                        norm_label=_normalize_str(titulo),
-                        community=0
-                    )
-                    self.instituciones_index[_normalize_str(titulo)] = inst_id
-                    self.instituciones_index[_normalize_str(titulo.replace("🏛️", "").strip())] = inst_id
-
-                    # Conectar Institución -> Autor y Obra
-                    self.graph.add_edge(inst_id, autor_id, relation="analizado_por", weight=1.0)
-                    self.graph.add_edge(inst_id, obra_id, relation="contenido_en", weight=1.0)
-
-                    # Procesar y conectar Normas Legales
-                    normas_vistas: Set[str] = set()
-                    for norm_text in concordancias_raw:
-                        clean_norm = norm_text.replace("BCN -", "").strip(" `[]")
-                        if not clean_norm or clean_norm in normas_vistas or len(clean_norm) < 3:
-                            continue
-                        normas_vistas.add(clean_norm)
-
-                        norm_id = _sanitize_id(clean_norm, "norma")
-                        if not self.graph.has_node(norm_id):
-                            self.graph.add_node(
-                                norm_id,
-                                label=clean_norm,
-                                node_type="articulo_legal",
-                                file_type="legal_norm",
-                                source_file=rel_path,
-                                norm_label=_normalize_str(clean_norm),
-                                community=2
-                            )
-                            self.normas_index[_normalize_str(clean_norm)] = norm_id
-
-                        self.graph.add_edge(inst_id, norm_id, relation="fundamenta_en", weight=1.0)
-
-                    # Procesar y conectar Jurisprudencia CS
-                    fallos_vistos: Set[str] = set()
-                    for f_text in jurisprudencia_raw:
-                        clean_f = f_text.strip(" `[]")
-                        if not clean_f or clean_f in fallos_vistos or len(clean_f) < 4:
-                            continue
-                        fallos_vistos.add(clean_f)
-
-                        fallo_id = _sanitize_id(clean_f, "fallo")
-                        if not self.graph.has_node(fallo_id):
-                            self.graph.add_node(
-                                fallo_id,
-                                label=clean_f,
-                                node_type="jurisprudencia",
-                                file_type="legal_ruling",
-                                source_file=rel_path,
-                                community=3
-                            )
-                        self.graph.add_edge(inst_id, fallo_id, relation="criterio_jurisprudencial", weight=1.0)
-
-                    # Extraer y conectar Vías Procesales
-                    if operativa_procesal:
-                        vias_detectadas = re.findall(
-                            r"(?:demanda\s+ordinaria|accion\s+reivindicatoria|recurso\s+de\s+casacion|recurso\s+de\s+apelacion|recurso\s+de\s+proteccion|tutela\s+laboral|juicio\s+ejecutivo|juicio\s+sumario|excepcion\s+dilatoria|excepcion\s+perentoria|procedimiento\s+abreviado|audiencia\s+preparatoria|medida\s+precautoria|medida\s+cautelar)",
-                            _normalize_str(operativa_procesal)
-                        )
-                        for via in set(vias_detectadas):
-                            via_id = _sanitize_id(via, "via")
-                            via_label = via.title()
-                            if not self.graph.has_node(via_id):
-                                self.graph.add_node(
-                                    via_id,
-                                    label=via_label,
-                                    node_type="via_procesal",
-                                    file_type="legal_procedure",
-                                    source_file=rel_path,
-                                    community=4
-                                )
-                            self.graph.add_edge(inst_id, via_id, relation="via_procesal", weight=1.0)
+                total_secciones += self._incorporar_archivo(filepath)[1]
 
         # Establecer conexiones cruzadas entre instituciones (co-ocurrencia y referencias dogmáticas)
         self._conectar_instituciones_cruzadas()
@@ -424,8 +448,12 @@ class LegalGraphifyEngine:
         }
         return stats
 
-    def _conectar_instituciones_cruzadas(self) -> None:
-        """Enlaza instituciones jurídicas que comparten normas clave o se citan dogmáticamente."""
+    def _conectar_instituciones_cruzadas(self, solo: Optional[Set[str]] = None) -> None:
+        """Enlaza instituciones jurídicas que comparten normas clave o se citan dogmáticamente.
+
+        Con `solo`, crea únicamente los pares en que participa alguna de esas instituciones: es
+        lo que necesita la ingesta incremental, sin volver a enlazar el resto del grafo.
+        """
         # Enlace por normas compartidas
         norma_a_insts: Dict[str, List[str]] = {}
         for u, v, data in self.graph.edges(data=True):
@@ -436,6 +464,8 @@ class LegalGraphifyEngine:
             if len(insts) > 1:
                 for i in range(len(insts)):
                     for j in range(i + 1, min(len(insts), i + 4)):
+                        if solo is not None and insts[i] not in solo and insts[j] not in solo:
+                            continue
                         if not self.graph.has_edge(insts[i], insts[j]):
                             self.graph.add_edge(
                                 insts[i],
@@ -443,6 +473,51 @@ class LegalGraphifyEngine:
                                 relation="comparte_norma",
                                 weight=0.8
                             )
+
+    def incorporar_archivo_doctrina(self, filepath: str) -> Dict[str, Any]:
+        """
+        Agrega al grafo ya cargado los nodos y aristas de un solo archivo de doctrina.
+
+        Es la vía de la ingesta de un documento. construir_grafo_desde_doctrina recorre todo el
+        corpus y recalcula la modularidad global (greedy_modularity_communities): medido el
+        2026-10-07, 240 de sus 247 s por documento. Además partía de un grafo vacío, así que
+        cada ingesta borraba del artefacto publicado los nodos que no vienen de doctrina/
+        (jurisprudencia TC, publicaciones ambientales, órganos del Estado).
+
+        Aquí no se recalcula la modularidad. Los nodos que ya existían conservan su comunidad
+        y los nuevos toman la comunidad mayoritaria de sus vecinos ya existentes. Es una
+        aproximación local: `python legal_graphify.py --build` recalcula todo.
+        """
+        previas = {nid: d.get("community") for nid, d in self.graph.nodes(data=True)}
+
+        tocados, secciones = self._incorporar_archivo(filepath)
+        instituciones = {n for n in tocados if self.graph.nodes[n].get("node_type") == "institucion"}
+        self._conectar_instituciones_cruzadas(solo=instituciones)
+
+        nuevos = tocados - previas.keys()
+        for nid in tocados:
+            if nid in previas:
+                # add_node sobre una institución repetida pisa su comunidad con el valor por defecto
+                self.graph.nodes[nid]["community"] = previas[nid]
+        for nid in nuevos:
+            votos = Counter(
+                previas[v] for v in nx.all_neighbors(self.graph, nid)
+                if previas.get(v) is not None
+            )
+            if votos:
+                self.graph.nodes[nid]["community"] = votos.most_common(1)[0][0]
+
+        for nid in tocados:
+            self._indexar_nodo(nid, self.graph.nodes[nid])
+        self.is_built = True
+
+        return {
+            "archivo": filepath,
+            "secciones": secciones,
+            "nodos_agregados": len(nuevos),
+            "total_nodos": self.graph.number_of_nodes(),
+            "total_aristas": self.graph.number_of_edges(),
+        }
 
     def _detectar_comunidades(self) -> None:
         """Aplica detección de comunidades por modularidad voraz de Clauset-Newman-Moore."""
