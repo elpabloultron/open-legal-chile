@@ -1,7 +1,20 @@
 """Pruebas del pipeline de ingesta masiva y grounding de citas (scripts/ingestar_lote_masivo.py)."""
 
 import pathlib
+
+import pytest
+
 from scripts.ingestar_lote_masivo import ingestar_directorio, procesar_lote
+
+
+@pytest.fixture(autouse=True)
+def _sin_regenerar_catalogos(monkeypatch):
+    """Al cerrar un lote, procesar_lote regenera los catálogos del corpus real: sin esto cada
+    corrida reescribía (y vaciaba) data/catalogo/*.jsonl versionados y dejaba ~170 MB de JSONL
+    en data/."""
+    monkeypatch.setattr("online_library_sync.OnlineLibrarySyncManager.generar_dataset_train_jsonl", lambda self: {})
+    monkeypatch.setattr("scripts.optimizar_catalogo_hf.generar_lite", lambda: {})
+    monkeypatch.setattr("scripts.optimizar_catalogo_hf.generar_indice_citas", lambda: {})
 
 
 def test_ingestar_lote_masivo_dry_run(tmp_path):
