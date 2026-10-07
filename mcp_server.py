@@ -59,6 +59,7 @@ from academia_judicial_connector import AcademiaJudicialClient
 from online_library_sync import OnlineLibrarySyncManager
 from legal_graphify import LegalGraphifyEngine
 from citas_legales import CODIGOS, detectar_normas, formatear_cita
+from recursos import ruta_recurso
 
 # Inicializar clientes
 bcn = BCNClient()
@@ -572,20 +573,16 @@ def _organismos_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
         return {"organismos": [], "resultados": {}, "citas": [], "error": str(e)[:160]}
 
 
-def _raiz() -> pathlib.Path:
-    return pathlib.Path(__file__).resolve().parent
-
-
 def _listar_skills() -> Dict[str, Any]:
     """Las 18 skills y los 19 agentes reales del producto (el texto fijo de la CLI decía 7)."""
     skills = []
-    for archivo in sorted((_raiz() / ".agents" / "skills").glob("*/SKILL.md")):
+    for archivo in sorted(ruta_recurso(".agents/skills").glob("*/SKILL.md")):
         texto = archivo.read_text(encoding="utf-8", errors="ignore")
         titulo = next((linea.lstrip("# ").strip() for linea in texto.splitlines() if linea.startswith("# ")),
                       archivo.parent.name)
         skills.append({"nombre": archivo.parent.name, "titulo": titulo})
     agentes = []
-    for archivo in sorted((_raiz() / "agents").glob("*.json")):
+    for archivo in sorted(ruta_recurso("agents").glob("*.json")):
         try:
             agentes.append(json.loads(archivo.read_text(encoding="utf-8")).get("name", archivo.stem))
         except Exception:  # noqa: BLE001 - un JSON roto no puede tumbar el listado
@@ -595,7 +592,7 @@ def _listar_skills() -> Dict[str, Any]:
 
 def _texto_protocolo() -> str:
     """El protocolo de citación tal como está escrito en AGENTS.md (§2 quater)."""
-    agentes = _raiz() / "AGENTS.md"
+    agentes = ruta_recurso("AGENTS.md")
     if not agentes.exists():
         return "Protocolo no disponible: falta AGENTS.md en el paquete."
     texto = agentes.read_text(encoding="utf-8")
@@ -670,7 +667,7 @@ def _leer_recurso(uri: str) -> Optional[Dict[str, str]]:
         return {"uri": uri, "mimeType": "application/json",
                 "text": json.dumps(catalogo, ensure_ascii=False, indent=2)}
     if uri == "openlegal://reglas/integracion":
-        ruta = _raiz() / "docs" / "integracion-harness.md"
+        ruta = ruta_recurso("docs/integracion-harness.md")
         if not ruta.exists():
             return None
         return {"uri": uri, "mimeType": "text/markdown", "text": ruta.read_text(encoding="utf-8")}

@@ -19,8 +19,10 @@ from mcp_server import handle_tool_call, TOOLS
 from critique import LegalCritiqueEngine
 from chat_engine import LegalChatEngine
 from recurso_proteccion import RecursoProteccionEngine
+from recursos import ruta_recurso
 
-AGENTS_DIR = os.path.join(os.path.dirname(__file__), "agents")
+# En el repo, agents/ junto al código; instalado con pip/uvx, en <prefijo>/share/openlegal-chile/agents.
+AGENTS_DIR = str(ruta_recurso("agents"))
 
 
 @dataclass

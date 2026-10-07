@@ -33,6 +33,7 @@ setup(
         "console_scripts": [
             "openlegal=openlegal:main",
             "openlegal-mcp=mcp_server:main",
+            "openlegal-chile=mcp_server:main",
         ],
     },
     classifiers=[
