@@ -149,3 +149,39 @@ def test_http_plano_por_proxy_pide_url_absoluta(monkeypatch):
     canal = config._CANALES["http://snifa.sma.gob.cl"][0][0]
     assert (canal.host, canal.port) == ("proxy.local", 8080)
     assert canal.peticiones == [("GET", "http://snifa.sma.gob.cl/x?y=1")]
+
+
+class _RespuestaConEstado(_RespuestaFalsa):
+    def __init__(self, status, cuerpo=b'{"ok": true}', headers=None):
+        super().__init__(cuerpo)
+        self.status = status
+        self.reason = "Too Many Requests" if status == 429 else "OK"
+        self.headers = headers or {}
+
+
+def test_429_se_reintenta_respetando_retry_after(monkeypatch):
+    """La BCN respondía 429 con varios procesos consultando a la vez (CI, estudios tras una IP)."""
+    esperas = []
+    monkeypatch.setattr(config.time, "sleep", lambda s: esperas.append(s))
+    respuestas = [_RespuestaConEstado(429, b"", {"Retry-After": "2"}), _RespuestaConEstado(200, b"listo")]
+    monkeypatch.setattr(_ConexionFalsa, "getresponse", lambda self: respuestas.pop(0))
+    assert config.pedir_http("https://www.leychile.cl/Consulta/obtxml?opt=7") == b"listo"
+    assert esperas == [2.0]
+
+
+def test_429_persistente_termina_en_error_con_espera_acotada(monkeypatch):
+    esperas = []
+    monkeypatch.setattr(config.time, "sleep", lambda s: esperas.append(s))
+    monkeypatch.setattr(_ConexionFalsa, "getresponse",
+                        lambda self: _RespuestaConEstado(429, b"", {"Retry-After": "3600"}))
+    with pytest.raises(config.urllib.error.HTTPError) as error:
+        config.pedir_http("https://www.leychile.cl/x")
+    assert error.value.code == 429
+    assert len(esperas) == config._REINTENTOS_TASA and max(esperas) <= config._ESPERA_MAXIMA
+
+
+def test_404_no_se_reintenta(monkeypatch):
+    monkeypatch.setattr(config.time, "sleep", lambda s: pytest.fail("un 404 no se reintenta"))
+    monkeypatch.setattr(_ConexionFalsa, "getresponse", lambda self: _RespuestaConEstado(404, b""))
+    with pytest.raises(config.urllib.error.HTTPError):
+        config.pedir_http("https://ejemplo.cl/no-existe")
