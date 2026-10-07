@@ -1,7 +1,7 @@
 {
   "name": "open-legal-chile",
   "displayName": "Open Legal Chile",
-  "version": "1.13.0",
+  "version": "1.13.1",
   "description": "Suite de inteligencia jurídica para el derecho chileno (Civil Law): 87 herramientas MCP con 10 conectores oficiales del Estado (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), doctrina canónica, grafo LegalGraphify, OCR forense, 18 skills y 19 agentes especializados. Requiere uv (uvx) para lanzar el servidor MCP.",
   "author": {
     "name": "Pablo Benavides Jorquera / Open Legal Chile Contributors",
@@ -43,7 +43,7 @@
   "mcpServers": {
     "open-legal-chile": {
       "command": "uvx",
-      "args": ["--from", "openlegal-chile==1.13.0", "openlegal-mcp"],
+      "args": ["--from", "openlegal-chile==1.13.1", "openlegal-mcp"],
       "env": {
         "PYTHONIOENCODING": "utf-8",
         "PYTHONUNBUFFERED": "1",
