@@ -46,7 +46,33 @@ def _sanitize_id(text: str, prefix: str = "") -> str:
     return clean
 
 
-def extract_articulos_de_codigo(codigo_nombre: str, texto: str) -> nx.DiGraph:
+def _articulos_de_texto(texto: str) -> Dict[str, str]:
+    """Artículos (clave -> cuerpo sin el rótulo) de un texto corrido de código, sin pisar homónimos.
+
+    Un texto de código descargado del BCN trae, además del código, sus leyes anexas y sus
+    transitorios, y en todos hay un «Artículo 1». El nodo del grafo se identifica por la etiqueta
+    «<código>, Art. N»; con el recorrido anterior el último «Artículo 1» del texto reemplazaba los
+    atributos del primero (el mismo defecto que tuvo el parser de `bcn_connector`). Se reutiliza su
+    lectura de cabeceras y su segmentación por cuerpos: el mapa sale del cuerpo con más artículos.
+    """
+    # Perezoso: bcn_connector importa la configuración de red, que el grafo no necesita para nada más.
+    from bcn_connector import _cabecera, _segmentar_articulos
+
+    # Solo cuenta como rótulo una línea que EMPIEZA con «Art.»/«Artículo» en mayúscula inicial: en
+    # minúscula es una remisión en medio de una frase («…lo dispuesto en el\nartículo 12 de esta ley»).
+    inicio_articulo = re.compile(r"^(?=\s*(?:ART|Art)[A-Za-zÍíÁá\ufffd]*\.?\s*\d)", re.MULTILINE)
+    fragmentos = [f for f in inicio_articulo.split(texto) if f.strip()]
+    estructuras = [{"tipoParte": "Artículo", "texto": f.lstrip()} for f in fragmentos]
+    articulos: Dict[str, str] = {}
+    for clave, fragmento in _segmentar_articulos(estructuras)["articulos"].items():
+        cabecera = _cabecera(fragmento)
+        fin = cabecera["fin"] if cabecera else 0
+        articulos[clave] = fragmento[fin:].lstrip(" \t\r\n.-–:_").strip()
+    return articulos
+
+
+def extract_articulos_de_codigo(codigo_nombre: str, texto: str,
+                                articulos: Optional[Dict[str, str]] = None) -> nx.DiGraph:
     """
     Convierte el texto oficial de un código (p. ej. el que entrega el conector BCN) en un grafo
     de artículos: un nodo `cuerpo_legal` para el código y uno `articulo_legal` por artículo,
@@ -62,32 +88,35 @@ def extract_articulos_de_codigo(codigo_nombre: str, texto: str) -> nx.DiGraph:
     del paquete no sobrevivía a una coma (su grupo intermedio excluía la puntuación, así que
     en un código real encontraba casi ningún artículo): aquí se corta el texto por encabezado
     de artículo, que es más tolerante y no inventa límites.
+
+    Si ya se tiene el mapa de artículos que entrega `BCNClient.get_codigo(...)["articulos"]`
+    (clave -> texto con rótulo), se pasa en `articulos` y no se re-interpreta ningún texto: es la
+    vía correcta, porque ese mapa ya viene segmentado por cuerpos y sin artículos pisados.
     """
     grafo = nx.DiGraph()
     codigo_id = _sanitize_id(codigo_nombre, "codigo")
     grafo.add_node(codigo_id, label=codigo_nombre, node_type="cuerpo_legal", community=2)
 
-    inicio_articulo = re.compile(
-        r"^(?=\s*(?:Art[íi]culo|Art\.)\s+\d+)", re.IGNORECASE | re.MULTILINE
-    )
-    encabezado_articulo = re.compile(
-        r"^\s*(?:Art[íi]culo|Art\.)\s+(\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?)\s*[\.\-:]?\s*",
-        re.IGNORECASE,
-    )
+    if articulos is None:
+        articulos = _articulos_de_texto(texto)
+    else:
+        from bcn_connector import _cabecera
 
-    for fragmento in inicio_articulo.split(texto):
-        if not fragmento.strip():
-            continue
-        encabezado = encabezado_articulo.match(fragmento)
-        if not encabezado:
-            continue
-        etiqueta = f"{codigo_nombre}, Art. {encabezado.group(1).strip()}"
+        limpios: Dict[str, str] = {}
+        for clave, cuerpo in articulos.items():
+            cabecera = _cabecera(str(cuerpo))
+            fin = cabecera["fin"] if cabecera else 0
+            limpios[clave] = str(cuerpo)[fin:].lstrip(" \t\r\n.-–:_").strip()
+        articulos = limpios
+
+    for clave, cuerpo in articulos.items():
+        etiqueta = f"{codigo_nombre}, Art. {clave}"
         nodo_id = _sanitize_id(etiqueta, "norma")
         grafo.add_node(
             nodo_id,
             label=etiqueta,
             node_type="articulo_legal",
-            texto=fragmento[encabezado.end():].strip()[:500],
+            texto=cuerpo[:500],
             community=2,
         )
         grafo.add_edge(nodo_id, codigo_id, relation="pertenece_a")
@@ -605,7 +634,8 @@ class LegalGraphifyEngine:
             self.advertencias.append(aviso)
         return elegido
 
-    def ingerir_codigo_bcn(self, codigo_nombre: str, texto: str) -> Dict[str, Any]:
+    def ingerir_codigo_bcn(self, codigo_nombre: str, texto: str,
+                           articulos: Optional[Dict[str, str]] = None) -> Dict[str, Any]:
         """
         Incorpora al grafo los artículos de un código cuyo texto oficial se obtuvo del BCN
         (por ejemplo `BCNClient.get_codigo(...)`). Los artículos que ya están no se
@@ -621,11 +651,11 @@ class LegalGraphifyEngine:
             if not self.cargar_grafo_json():
                 self.construir_grafo_desde_doctrina()
 
-        extraido = extract_articulos_de_codigo(codigo_nombre, texto)
-        articulos = sum(
+        extraido = extract_articulos_de_codigo(codigo_nombre, texto, articulos=articulos)
+        articulos_detectados = sum(
             1 for _, d in extraido.nodes(data=True) if d.get("node_type") == "articulo_legal"
         )
-        if articulos == 0:
+        if articulos_detectados == 0:
             # Un texto sin artículos no toca el grafo: agregar el nodo del código por agregarlo
             # dejaría basura ('Código Inventado') y daría la apariencia de una ingesta hecha.
             self.advertencias.append(
@@ -660,7 +690,7 @@ class LegalGraphifyEngine:
 
         return {
             "codigo": codigo_nombre,
-            "articulos_detectados": articulos,
+            "articulos_detectados": articulos_detectados,
             "nodos_nuevos": nodos_nuevos,
             "enlaces_nuevos": enlaces_nuevos,
             "grafo": {

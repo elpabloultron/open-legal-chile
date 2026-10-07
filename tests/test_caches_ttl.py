@@ -26,7 +26,7 @@ def _envejecer(ruta, dias=40):
 
 def test_ley_fresca_no_va_a_la_red(monkeypatch, tmp_path):
     cliente = bcn_connector.BCNClient(cache_dir=str(tmp_path))
-    cache = tmp_path / "ley_p2_99999.json"
+    cache = tmp_path / os.path.basename(cliente._get_cache_path("ley", 99999))
     cache.write_text(json.dumps({"titulo": "de prueba", "articulos": {"1": "uno"}}),
                      encoding="utf-8")
 
@@ -41,7 +41,7 @@ def test_ley_fresca_no_va_a_la_red(monkeypatch, tmp_path):
 
 def test_ley_vencida_se_refresca(monkeypatch, tmp_path):
     cliente = bcn_connector.BCNClient(cache_dir=str(tmp_path))
-    cache = tmp_path / "ley_p2_99999.json"
+    cache = tmp_path / os.path.basename(cliente._get_cache_path("ley", 99999))
     cache.write_text(json.dumps({"titulo": "vieja", "articulos": {"1": "viejo"}}),
                      encoding="utf-8")
     _envejecer(cache, dias=40)
@@ -59,7 +59,7 @@ def test_ley_vencida_se_refresca(monkeypatch, tmp_path):
 
 def test_ley_vencida_sin_red_entrega_la_copia_marcada(monkeypatch, tmp_path):
     cliente = bcn_connector.BCNClient(cache_dir=str(tmp_path))
-    cache = tmp_path / "ley_p2_99999.json"
+    cache = tmp_path / os.path.basename(cliente._get_cache_path("ley", 99999))
     cache.write_text(json.dumps({"titulo": "vieja", "articulos": {"1": "viejo"}}),
                      encoding="utf-8")
     _envejecer(cache, dias=40)
