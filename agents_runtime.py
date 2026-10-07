@@ -19,8 +19,15 @@ from mcp_server import handle_tool_call, TOOLS
 from critique import LegalCritiqueEngine
 from chat_engine import LegalChatEngine
 from recurso_proteccion import RecursoProteccionEngine
+from recursos import ruta_recurso
 
-AGENTS_DIR = os.path.join(os.path.dirname(__file__), "agents")
+# En el repo, agents/ junto al código; instalado con pip/uvx, en <prefijo>/share/openlegal-chile/agents.
+AGENTS_DIR = str(ruta_recurso("agents"))
+
+# Prefijos con que Claude Code nombra las herramientas MCP: mcp__<servidor>__<herramienta> para un
+# servidor del proyecto o del usuario, y mcp__plugin_<plugin>_<servidor>__<herramienta> para el plugin.
+PREFIJO_MCP_PROYECTO = "mcp__open-legal-chile__"
+PREFIJO_MCP_PLUGIN = "mcp__plugin_open-legal-chile_open-legal-chile__"
 
 
 @dataclass
@@ -237,13 +244,16 @@ class BaseLegalAgent:
         }
         acto_lesivo = context.get("acto_lesivo") or task
         fecha_acto = context.get("fecha_acto") or time.strftime("%Y-%m-%d")
+        # Sin fecha de interposición el cómputo usa «hoy»: una prueba con fecha_acto fija dejaba de ser
+        # tempestiva sola a los 31 días (se rompía el 2026-10-09). Quien conozca la fecha, la informa.
+        fecha_interposicion = context.get("fecha_interposicion")
         hechos = context.get("hechos") or [f"1. {task}"]
         garantias = context.get("garantias") or ["19_1", "19_24"]
         anexos = context.get("anexos") or []
         compilar_pdf = bool(context.get("compilar_pdf", True))
 
         # Paso 1: Cómputo de plazo fatal (Auto Acordado CS Acta N.° 94-2015)
-        deadline_info = RecursoProteccionEngine.compute_deadline(fecha_acto)
+        deadline_info = RecursoProteccionEngine.compute_deadline(fecha_acto, fecha_interposicion)
         steps.append(AgentStep(
             step_number=1,
             thought="Calculando plazo fatal de 30 días corridos según el Numeral 1.° del Auto Acordado de la Corte Suprema.",
@@ -269,6 +279,8 @@ class BaseLegalAgent:
             "anexos": anexos,
             "compilar_pdf": compilar_pdf
         }
+        if fecha_interposicion:
+            gen_args["fecha_interposicion"] = fecha_interposicion
         gen_res = self._execute_tool("recurso_proteccion_generar", gen_args)
         steps.append(AgentStep(
             step_number=2,
@@ -1158,26 +1170,22 @@ class LegalAgentRuntime:
             )
         return agent.run(task=task, context=context, mode=mode, provider=provider)
 
-    def export_subagents_config(self, target_dir: Optional[str] = None) -> Dict[str, str]:
+    def export_subagents_config(self, target_dir: Optional[str] = None,
+                                prefijo_mcp: str = PREFIJO_MCP_PROYECTO) -> Dict[str, str]:
         """
-        Genera configuraciones de subagentes exportables para Claude Code (.claude/agents/*.md)
-        y Cursor (.cursor/rules/*.mdc).
+        Genera los subagentes en formato Claude Code (.claude/agents/<nombre>.md).
+
+        `prefijo_mcp` es el prefijo con que Claude Code expone las herramientas del servidor:
+        PREFIJO_MCP_PROYECTO si se configuró con .mcp.json / `claude mcp add open-legal-chile`,
+        PREFIJO_MCP_PLUGIN si viene del plugin. Sin el prefijo correcto el subagente queda sin
+        herramientas (pasaba hasta 1.13.0: se escribían los nombres pelados).
         """
         exported = {}
         for agent_info in self.list_agents():
             agent = self.get_agent(agent_info["name"])
             if not agent:
                 continue
-
-            # Formato Claude Code Markdown Subagent
-            claude_md = f"""---
-name: {agent.name}
-description: {agent.description}
-tools: {json.dumps(agent.tools)}
----
-
-{agent.system_prompt}
-"""
+            claude_md = subagente_markdown(agent, prefijo_mcp)
             exported[f"claude_{agent.name}"] = claude_md
 
             # Si se proporcionó directorio de salida, guardarlo
@@ -1188,6 +1196,23 @@ tools: {json.dumps(agent.tools)}
                     f.write(claude_md)
 
         return exported
+
+
+def subagente_markdown(agent: Any, prefijo_mcp: str = PREFIJO_MCP_PROYECTO) -> str:
+    """Un agente como subagente de Claude Code: frontmatter YAML válido y el prompt de sistema.
+
+    `agent` es cualquier objeto con name, description, tools y system_prompt (un BaseLegalAgent o
+    el SimpleNamespace que arma scripts/generar_agentes_plugin.py desde el JSON).
+
+    La descripción va entre comillas (JSON es YAML válido): los «:» de textos como
+    «Art. 161: necesidades de la empresa» rompían el frontmatter. `tools` es la lista separada por
+    comas que espera Claude Code, con el nombre calificado de cada herramienta MCP.
+    """
+    lineas = ["---", f"name: {agent.name}", f"description: {json.dumps(agent.description, ensure_ascii=False)}"]
+    if agent.tools:
+        lineas.append("tools: " + ", ".join(prefijo_mcp + t for t in agent.tools))
+    lineas += ["---", "", agent.system_prompt.strip(), ""]
+    return "\n".join(lineas)
 
 
 # Instancia singleton predeterminada

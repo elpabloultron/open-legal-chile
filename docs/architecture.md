@@ -12,7 +12,7 @@
    * Sin fugas de secreto profesional (*Art. 247 del Código Penal* y *Ley N° 19.628 sobre Protección de la Vida Privada*).
 
 2. **Ecosistema de Agentes Jurídicos Autónomos (19 Perfiles Especializados & 18 Skills):**
-   * Runtime unificado en [`agents_runtime.py`](file:///home/pablo/Escritorio/open-legal-chile/agents_runtime.py) con dos modalidades de operación:
+   * Runtime unificado en [`agents_runtime.py`](../agents_runtime.py) con dos modalidades de operación:
      * **Modo Determinista Soberano (100 % Offline, Cero API Keys):** Ejecución de pipelines forenses estandarizados (litigios y recursos de protección, auditoría decenal de títulos CBR, probidad administrativa CGR, despidos y tutelas laborales, asimilación de doctrina).
      * **Modo Asistido por LLM (ReAct Multi-Proveedor):** Ciclos de *Pensamiento / Acción / Observación* integrando Ollama, DeepSeek, Claude, Gemini o OpenAI, con inyección de doctrina nacional.
 

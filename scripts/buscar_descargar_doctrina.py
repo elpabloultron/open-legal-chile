@@ -70,7 +70,7 @@ FUENTES_DOCTRINALES_ABIERTAS = [
 
 
 class DoctrinaDownloader:
-    def __init__(self, raw_dir: str = "/home/pablo/Escritorio/Ultimaprensa/open-legal-chile/doctrina_raw"):
+    def __init__(self, raw_dir: str = str(Path(__file__).resolve().parent.parent / "doctrina_raw")):
         self.raw_dir = Path(raw_dir)
         self.raw_dir.mkdir(parents=True, exist_ok=True)
 

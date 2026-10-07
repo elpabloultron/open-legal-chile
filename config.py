@@ -4,6 +4,7 @@ Carga automáticamente las variables de entorno desde el archivo .env local
 o desde las variables del sistema operativo sin dependencias externas.
 """
 
+import base64
 import http.client
 import json
 import math
@@ -12,6 +13,7 @@ import threading
 import time
 import urllib.error
 import urllib.parse
+import urllib.request
 from collections import deque
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -196,7 +198,38 @@ def _tomar_canal(esquema: str, host: str, timeout: float) -> http.client.HTTPCon
         except Exception:  # noqa: BLE001
             pass
     clase = http.client.HTTPSConnection if esquema == "https" else http.client.HTTPConnection
-    return clase(host, timeout=timeout)
+    proxy = _proxy_para(esquema, host)
+    if proxy is None:
+        return clase(host, timeout=timeout)
+    # Detrás de un proxy (red de un estudio, CI, sesión en la nube): HTTPS va por túnel CONNECT y
+    # HTTP pide la URL absoluta al proxy. Sin esto, http.client ignoraba HTTPS_PROXY y la BCN
+    # respondía 429 o no respondía (medido el 2026-10-07: urllib 200, canal directo 429).
+    partes_proxy = urllib.parse.urlsplit(proxy)
+    if not partes_proxy.hostname:  # variable de proxy mal formada: mejor directo que nada
+        return clase(host, timeout=timeout)
+    puerto = partes_proxy.port or (443 if partes_proxy.scheme == "https" else 80)
+    cabeceras_proxy: Dict[str, str] = {}
+    if partes_proxy.username:
+        credencial = f"{urllib.parse.unquote(partes_proxy.username)}:{urllib.parse.unquote(partes_proxy.password or '')}"
+        cabeceras_proxy["Proxy-Authorization"] = "Basic " + base64.b64encode(credencial.encode()).decode()
+    # Misma clase que la conexión directa (HTTPS verifica certificados por defecto en Python ≥ 3.10):
+    # la conexión va al proxy y, en HTTPS, el TLS se negocia con el host final dentro del túnel.
+    canal = clase(partes_proxy.hostname, puerto, timeout=timeout)
+    if esquema == "https":
+        canal.set_tunnel(host, headers=cabeceras_proxy or None)
+        return canal
+    canal._olc_cabeceras_proxy = cabeceras_proxy  # type: ignore[attr-defined]
+    return canal
+
+
+def _proxy_para(esquema: str, host: str) -> Optional[str]:
+    """URL del proxy que corresponde al host según HTTP(S)_PROXY / NO_PROXY, o None si va directo."""
+    try:
+        if urllib.request.proxy_bypass(host.split(":")[0]):
+            return None
+        return urllib.request.getproxies().get(esquema) or None
+    except Exception:  # noqa: BLE001 — una variable de entorno rara no puede cortar la consulta
+        return None
 
 
 def _devolver_canal(esquema: str, host: str, timeout: float,
@@ -214,21 +247,42 @@ def _devolver_canal(esquema: str, host: str, timeout: float,
         pass
 
 
-def pedir_http(url: str, metodo: str = "GET", headers: Optional[Dict[str, str]] = None,
-               cuerpo: Optional[bytes] = None, timeout: float = 30.0) -> bytes:
-    """GET/POST con conexión reutilizada por host; reintenta una vez si la persistente murió."""
-    if not (url.startswith("http://") or url.startswith("https://")):
-        raise ValueError(f"Esquema de URL no permitido por políticas de seguridad: {url}")
-    partes = urllib.parse.urlsplit(url)
+# Límite de tasa del servidor (429) o caída momentánea (503): se reintenta respetando Retry-After,
+# con tope para no colgar una herramienta. Medido el 2026-10-07: la BCN respondía 429 cuando varios
+# procesos consultaban a la vez (CI con 10 jobs en paralelo; un estudio con varios usuarios tras una IP).
+_ESTADOS_REINTENTABLES = (429, 503)
+_REINTENTOS_TASA = 3
+_ESPERA_MAXIMA = 8.0
+
+
+def _espera_reintento(cabeceras: Any, intento: int) -> float:
+    """Segundos a esperar: el Retry-After del servidor si lo trae (en segundos), si no 1,5·2ⁿ."""
+    valor = None
+    try:
+        valor = cabeceras.get("Retry-After") if cabeceras is not None else None
+    except Exception:  # noqa: BLE001 — cabeceras raras: se usa el retroceso por defecto
+        valor = None
+    try:
+        espera = float(valor) if valor is not None else 1.5 * (2 ** intento)
+    except (TypeError, ValueError):  # Retry-After con fecha HTTP: retroceso por defecto
+        espera = 1.5 * (2 ** intento)
+    return max(0.0, min(espera, _ESPERA_MAXIMA))
+
+
+def _pedir_una_vez(url: str, partes: urllib.parse.SplitResult, metodo: str, cabeceras: Dict[str, str],
+                   cuerpo: Optional[bytes], timeout: float) -> Tuple[Any, bytes]:
+    """Una petición con el canal persistente; reintenta una vez si la conexión reutilizada murió."""
     ruta = partes.path + (("?" + partes.query) if partes.query else "")
     esquema = "https" if partes.scheme == "https" else "http"
-    cabeceras = {"User-Agent": "OpenLegalChile/1.0 (https://github.com/open-legal-chile)"}
-    cabeceras.update(headers or {})
     ultimo_error: Optional[Exception] = None
     for _intento in (1, 2):
         canal = _tomar_canal(esquema, partes.netloc, timeout)
+        extra_proxy = getattr(canal, "_olc_cabeceras_proxy", None)
         try:
-            canal.request(metodo, ruta, body=cuerpo, headers=cabeceras)
+            if extra_proxy is not None:  # HTTP plano vía proxy: URL absoluta en la línea de pedido
+                canal.request(metodo, url, body=cuerpo, headers={**cabeceras, **extra_proxy})
+            else:
+                canal.request(metodo, ruta, body=cuerpo, headers=cabeceras)
             respuesta = canal.getresponse()
             datos = respuesta.read()
         except (http.client.HTTPException, OSError, urllib.error.URLError) as error:
@@ -239,10 +293,28 @@ def pedir_http(url: str, metodo: str = "GET", headers: Optional[Dict[str, str]] 
                 pass
             continue
         _devolver_canal(esquema, partes.netloc, timeout, canal)
+        return respuesta, datos
+    raise ultimo_error if ultimo_error else RuntimeError("sin respuesta HTTP")
+
+
+def pedir_http(url: str, metodo: str = "GET", headers: Optional[Dict[str, str]] = None,
+               cuerpo: Optional[bytes] = None, timeout: float = 30.0) -> bytes:
+    """GET/POST con conexión reutilizada por host; reintenta si la persistente murió o ante 429/503."""
+    if not (url.startswith("http://") or url.startswith("https://")):
+        raise ValueError(f"Esquema de URL no permitido por políticas de seguridad: {url}")
+    partes = urllib.parse.urlsplit(url)
+    cabeceras = {"User-Agent": "OpenLegalChile/1.0 (https://github.com/elpabloultron/open-legal-chile)"}
+    cabeceras.update(headers or {})
+    for intento in range(_REINTENTOS_TASA + 1):
+        respuesta, datos = _pedir_una_vez(url, partes, metodo, cabeceras, cuerpo, timeout)
+        cabeceras_resp = getattr(respuesta, "headers", None)
+        if respuesta.status in _ESTADOS_REINTENTABLES and intento < _REINTENTOS_TASA:
+            time.sleep(_espera_reintento(cabeceras_resp, intento))
+            continue
         if respuesta.status >= 400:
             raise urllib.error.HTTPError(url, respuesta.status, respuesta.reason, respuesta.headers, None)
         return datos
-    raise ultimo_error if ultimo_error else RuntimeError("sin respuesta HTTP")
+    raise RuntimeError("sin respuesta HTTP")  # pragma: no cover — el bucle siempre retorna o lanza
 
 
 if __name__ == "__main__":

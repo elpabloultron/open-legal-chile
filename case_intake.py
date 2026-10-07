@@ -737,12 +737,28 @@ def caso_ejecutar(entrada: str = "", tipo: Optional[str] = None, pasos: Optional
             resultados.append({"paso": numero, "herramienta": herramienta, "estado": "salteado",
                                "motivo": "el plan no trae los parámetros: los define el abogado"})
             continue
-        if herramienta == "bcn_get_codigo" and not argumentos:
-            argumentos = {"codigo": "civil"}
+        if herramienta == "bcn_get_codigo" and not argumentos.get("articulo"):
+            # Sin artículo, bcn_get_codigo devuelve el Código entero (1,4 a 2,4 millones de caracteres:
+            # medido el 2026-10-07, caso_ejecutar respondía ~3,7 M y ningún harness lo puede leer). Se pide
+            # solo el artículo que el caso menciona; si no menciona ninguno, el paso se saltea con su motivo.
+            codigo = argumentos.get("codigo") or "civil"
+            articulos = _articulos_mencionados(entrada, codigo)
+            ya_pedidos = {(r.get("codigo"), r.get("articulo")) for r in resultados}
+            pendientes = [a for a in articulos if (codigo, a) not in ya_pedidos]
+            if not pendientes:
+                resultados.append({"paso": numero, "herramienta": herramienta, "estado": "salteado",
+                                   "codigo": codigo,
+                                   "motivo": f"el caso no menciona un artículo del Código ({codigo}): pedí el "
+                                             "texto puntual con cita_texto o bcn_get_codigo con 'articulo'"})
+                continue
+            argumentos = {"codigo": codigo, "articulo": pendientes[0]}
         try:
             salida = mcp_server.handle_tool_call(herramienta, argumentos)
-            resultados.append({"paso": numero, "herramienta": herramienta, "estado": "ok",
-                               "largo": len(str(salida)), "salida": salida})
+            fila = {"paso": numero, "herramienta": herramienta, "estado": "ok",
+                    "largo": len(str(salida)), "salida": salida}
+            if herramienta == "bcn_get_codigo":
+                fila.update(codigo=argumentos.get("codigo"), articulo=argumentos.get("articulo"))
+            resultados.append(fila)
         except Exception as err:  # noqa: BLE001 — un paso que falla no tumba la mesa
             resultados.append({"paso": numero, "herramienta": herramienta, "estado": "error",
                                "motivo": f"{type(err).__name__}: {err}"})
@@ -764,6 +780,26 @@ def caso_ejecutar(entrada: str = "", tipo: Optional[str] = None, pasos: Optional
             "antes de usarse."
         ),
     }
+
+
+def _articulos_mencionados(entrada: str, codigo: str) -> List[str]:
+    """Artículos del Código `codigo` que el texto del caso menciona (vacío si es una ruta o no hay)."""
+    try:
+        if pathlib.Path(entrada).exists():
+            return []
+    except (OSError, ValueError):
+        pass
+    try:
+        from citas_legales import detectar_normas
+        normas = detectar_normas(entrada or "")
+    except Exception:  # noqa: BLE001 — sin detector, el paso se saltea con su motivo
+        return []
+    vistos: List[str] = []
+    for norma in normas:
+        if norma.get("familia") == "codigo" and norma.get("obra") == codigo and norma.get("articulo"):
+            if norma["articulo"] not in vistos:
+                vistos.append(norma["articulo"])
+    return vistos
 
 
 def caso_estudio_completo(entrada: str, tipo: Optional[str] = None, consulta: str = "") -> Dict[str, Any]:

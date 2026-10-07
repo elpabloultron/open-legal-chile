@@ -1,6 +1,6 @@
 # Guía de Inicio Rápido (Quickstart)
 
-**Configuración en 60 segundos** para comenzar a usar Open Legal Chile en tu agente de IA preferido (**Antigravity**, **Claude Code**, **Cursor**, **OpenCode**, **Codex**).
+**Configuración en 60 segundos** para comenzar a usar Open Legal Chile en tu agente de IA preferido (**Claude Code**, **Gemini CLI**, **Cursor**, **VS Code**, **Claude Desktop**, **Antigravity**, **Windsurf**, **OpenCode**, **Codex**).
 
 ---
 
@@ -19,32 +19,33 @@ Copia `.env.example` a `.env` y completa las claves que tengas:
 | `OPENAI_API_KEY` | Chat jurídico opcional con OpenAI |
 | `OLLAMA_HOST` | Host para Ollama local (por defecto `http://localhost:11434`) |
 
-> Ejecuta `openlegal check` para verificar el estado de los conectores y motores.
+> Ejecuta `openlegal doctor` para verificar el estado de la instalación (OCR, corpus, grafo, herramientas, skills y agentes).
 
 ---
 
 ## 🤖 2. Conectar el servidor MCP a tu agente
 
-**Antigravity (Google Gemini) / Cursor** — agrega a `mcp_config.json`:
-
-```json
-{
-  "mcpServers": {
-    "open-legal-chile": {
-      "command": "python",
-      "args": ["mcp_server.py"]
-    }
-  }
-}
-```
-
-**Claude Code**:
+**Claude Code**: plugin con MCP, 18 skills y 19 agentes (requiere [uv](https://docs.astral.sh/uv/)):
 
 ```bash
-claude mcp add open-legal-chile python mcp_server.py
+claude plugin marketplace add elpabloultron/open-legal-chile
+claude plugin install open-legal-chile@open-legal-chile
 ```
 
-**OpenCode** — ya viene configurado en `opencode.json` (usa `mcp_server.py` relativo al proyecto).
+Solo el servidor: `claude mcp add open-legal-chile -- uvx --from openlegal-chile openlegal-mcp`
+
+**Gemini CLI**: `gemini extensions install https://github.com/elpabloultron/open-legal-chile`
+
+**Cursor, VS Code, Claude Desktop, Antigravity, Windsurf, Codex, OpenCode, dsh**:
+
+```bash
+pip install openlegal-chile
+openlegal instalar                         # detecta los harness de la carpeta y los configura
+openlegal integrar <cliente> --escribir    # o un cliente puntual (--global: configuración de usuario)
+```
+
+Dentro de este repositorio ya vienen configurados `.mcp.json` (Claude Code), `.cursor/mcp.json`,
+`.vscode/mcp.json` y `opencode.json`. Detalle por cliente: [docs/integracion-harness.md](docs/integracion-harness.md).
 
 ---
 
@@ -74,17 +75,23 @@ python openlegal.py check
 
 ## 🧩 4. Habilidades y agentes jurídicos chilenos
 
-Open Legal Chile incluye **7 habilidades** (`.agents/skills/`) y **7 agentes** (`agents/*.json`):
+Open Legal Chile incluye **18 habilidades** (`.agents/skills/`) y **19 agentes** (`agents/*.json`, con
+su versión `agents/*.md` para Claude Code). Algunos ejemplos por área:
 
 | Área | Skill | Agente |
 |------|-------|--------|
 | Laboral | `chilean-employment-legal` | `agente-laboral` |
 | Litigación OJV | `chilean-litigation-legal` | `agente-litigios` |
 | Administrativo / CGR | `chilean-administrative-legal` | `agente-regulatorio` |
+| Probidad | `chilean-probity-investigation` | `agente-probidad` |
 | Energía | `chilean-energy-legal` | `agente-energia` |
 | Ambiental / SMA | `chilean-environmental-legal` | `agente-ambiental` |
 | Contratos | `chilean-contract-legal` | `agente-contratos` |
 | Corporativo | `chilean-corporate-legal` | `agente-corporativo` |
+| Mesa de entrada | `chilean-case-intake` | `agente-mesa` |
+| Peritaje y OCR | `chilean-forensic-evidence` | `agente-forense` |
+
+La lista completa sale con `openlegal skills` o con la herramienta MCP `skills_listar`.
 
 Cada skill y agente opera **estrictamente bajo Derecho Continental chileno** (Civil Law), prohíbe terminología de Common Law y exige el estándar de citación oficial de [AGENTS.md](AGENTS.md).
 

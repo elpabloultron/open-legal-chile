@@ -28,11 +28,12 @@ def _ruta_existe(ruta: str) -> bool:
 
 
 def senales_del_pdf(ruta: str) -> Dict[str, Any]:
-    import fitz  # PyMuPDF
+    import pymupdf as fitz  # `import fitz` imprime un aviso de deprecación (en stdout)
 
     doc = fitz.open(str(ruta))
-    chars = [len(p.get_text("text") or "") for p in doc]
-    imagenes = [len(p.get_images(full=True)) for p in doc]
+    paginas_doc = [doc.load_page(i) for i in range(doc.page_count)]
+    chars = [len(p.get_text("text") or "") for p in paginas_doc]
+    imagenes = [len(p.get_images(full=True)) for p in paginas_doc]
     paginas = doc.page_count
     con_texto = sum(1 for c in chars if c > 80)
     return {

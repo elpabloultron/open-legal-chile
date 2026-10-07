@@ -1,12 +1,12 @@
 {
-  "mcpServers": {
+  "servers": {
     "open-legal-chile": {
+      "type": "stdio",
       "command": "python3",
-      "args": [
-        "${workspaceFolder}/mcp_server.py"
-      ],
+      "args": ["${workspaceFolder}/mcp_server.py"],
       "env": {
         "PYTHONIOENCODING": "utf-8",
+        "PYTHONUNBUFFERED": "1",
         "PYTHONPATH": "${workspaceFolder}"
       }
     }

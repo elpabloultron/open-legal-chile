@@ -1,12 +1,30 @@
-# Smithery configuration for Open Legal Chile Suite MCP Server
-# Registry: https://smithery.ai
-name: openlegal-chile
-description: Suite Integral de Inteligencia y Práctica Jurídica para Chile (Civil Law) con 87 herramientas MCP oficiales.
+# Smithery: https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile
+# Servidor stdio: commandFunction arma el comando a partir de la configuración del usuario.
+# uvx instala el paquete de PyPI en un entorno aislado (requiere uv); no hace falta clonar el repo.
 startCommand:
   type: stdio
-  config:
-    command: python3
-    args:
-      - mcp_server.py
-    env:
-      PYTHONIOENCODING: utf-8
+  configSchema:
+    type: object
+    properties:
+      perfil:
+        type: string
+        description: "Vacío = las 87 herramientas. Para ahorrar contexto: laboral, inmobiliario, litigios, regulatorio, corporativo, dogmatico o clinica."
+        default: ""
+      hfToken:
+        type: string
+        description: "Token de Hugging Face (opcional): más cuota de descarga del corpus publicado."
+        default: ""
+  commandFunction: |-
+    (config) => ({
+      command: 'uvx',
+      args: ['--from', 'openlegal-chile', 'openlegal-mcp'],
+      env: {
+        PYTHONIOENCODING: 'utf-8',
+        PYTHONUNBUFFERED: '1',
+        OPENLEGAL_PROFILE: (config && config.perfil) || '',
+        HF_TOKEN: (config && config.hfToken) || ''
+      }
+    })
+  exampleConfig:
+    perfil: ""
+    hfToken: ""

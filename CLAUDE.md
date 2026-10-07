@@ -18,29 +18,32 @@ Este repositorio es una suite de inteligencia jurídica y servidor Model Context
 
 ```
 open-legal-chile/
-├── mcp_server.py             # Servidor MCP estándar JSON-RPC 2.0 (13 herramientas forenses)
-├── openlegal.py              # Consola CLI interactiva y comandos unificados
-├── chat_engine.py            # Motor de chat multi-proveedor (Gemini, Claude, DeepSeek, OpenAI, Ollama)
-├── critique.py               # Motor de crítica forense en 5 dimensiones
-├── exporters.py              # Generador de escritos OJV (Ley N° 20.886) en HTML, Markdown, texto plano y JSON
-├── config.py                 # Gestor centralizado de configuración y variables .env
-├── domain/                   # Modelos de dominio tipificados (dataclasses)
-├── connectors/               # Deep module de registro unificado con caché SQLite
-│   ├── registry.py           # StateRegistry unificado
-│   └── __init__.py
-├── bcn_connector.py          # Conector BCN Ley Chile (9 Códigos y leyes)
-├── cgr_connector.py          # Conector Contraloría (Dictámenes y auditorías)
-├── dt_connector.py           # Conector Dirección del Trabajo (Doctrina laboral)
-├── pjud_connector.py         # Conector Jurisprudencia Judicial (Corte Suprema y TC)
-├── cne_connector.py          # Conector Comisión Nacional de Energía
-├── panel_expertos_connector.py # Conector Panel de Expertos Ley Eléctrica
-├── cmf_connector.py          # Conector Comisión para el Mercado Financiero
-├── sii_connector.py          # Conector Servicio de Impuestos Internos
-├── ambiental_connector.py    # Conector SMA / SNIFA Ambiental
-├── tdlc_connector.py         # Conector Libre Competencia TDLC
+├── mcp_server.py             # Servidor MCP JSON-RPC 2.0 sobre stdio: protocolo, perfiles y ensamblado (87 herramientas)
+├── servidor/                 # Esquemas y despacho de las herramientas, un módulo por dominio
+│   ├── conectores.py         # BCN, CGR, DT, CNE, Panel, CMF, SII, SMA, TDLC, PJUD
+│   ├── corpus.py · forense.py · casos.py · ambiental.py · suite.py
+├── openlegal.py              # CLI (openlegal mcp | doctor | instalar | integrar | …)
+├── integraciones_harness.py  # Config MCP por harness (Claude Code/Desktop, Cursor, VS Code, Gemini, Codex, …)
+├── diagnostico.py            # `openlegal doctor` / herramienta suite_doctor
+├── recursos.py               # Ubica skills, agentes y AGENTS.md (repo o share/openlegal-chile instalado)
+├── agents_runtime.py         # Runtime de agentes y exportación a subagentes de Claude Code
+├── agents/                   # 19 agentes: *.json (fuente) y *.md (subagentes del plugin, generados)
+├── .agents/skills/           # 18 skills (SKILL.md), compartidas por todos los harness
+├── .claude-plugin/           # plugin.json (MCP por uvx + skills + agentes) y marketplace.json
+├── gemini-extension.json     # Extensión de Gemini CLI
+├── chat_engine.py · critique.py · exporters.py · config.py   # chat, crítica, escritos OJV, configuración y red
+├── *_connector.py            # Conectores del Estado (BCN, CGR, DT, PJUD, CNE, Panel, CMF, SII, SMA, TDLC, …)
+├── connectors/registry.py    # StateRegistry unificado con caché
+├── domain/ · doctrina/ · data/   # modelos, corpus doctrinal y grafo LegalGraphify (viajan en el wheel)
+├── scripts/                  # Ingestas, bump de versión, generador de agentes del plugin
 ├── evals/                    # Benchmark de evaluación jurídica chilena
-└── tests/                    # Test suite automatizada con pytest
+└── tests/                    # Suite pytest (protocolo, esquemas portables, plugin, empaquetado, conectores…)
 ```
+
+Al agregar o cambiar una herramienta: esquema y despacho en `servidor/<dominio>.py`, nombre en
+`ORDEN_ORIGEN` de `mcp_server.py`. Al cambiar `agents/*.json`: `python scripts/generar_agentes_plugin.py`.
+Al subir versión: `python scripts/bump_version.py <patch|minor|major>` (también actualiza el plugin
+y la extensión de Gemini, que fijan la versión que lanza uvx).
 
 ---
 
@@ -56,7 +59,13 @@ python mcp_server.py
 # Iniciar CLI interactivo
 python openlegal.py
 
-# Ejecutar benchmark de evaluación jurídica
+# Diagnóstico de la instalación
+python openlegal.py doctor
+
+# Plugin de Claude Code y extensión de Gemini
+claude plugin validate .claude-plugin/plugin.json && claude plugin validate .claude-plugin/marketplace.json
+python scripts/generar_agentes_plugin.py --check
+npx -y @google/gemini-cli extensions validate .
 ```
 
 ## graphify
