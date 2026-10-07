@@ -218,8 +218,11 @@ def test_mcp_agent_tools():
     assert len(res_exp) >= 18
 
 
-def test_deterministic_pipeline_ingestor(tmp_path):
+def test_deterministic_pipeline_ingestor(tmp_path, monkeypatch):
     """Verifica la ingesta, normalización RAE y asimilación al grafo del Agente Ingestor."""
+    # La ingesta indexa el documento en FTS5: que lo haga en una base temporal, no en doctrina.db.
+    monkeypatch.setattr("doctrina_connector.DB_PATH", str(tmp_path / "doctrina.db"))
+    monkeypatch.setattr("doctrina_connector.DOCTRINA_DIR", str(tmp_path / "doctrina_vacia"))
     sample_doc = (
         "Tratado de la Responsabilidad Extracontractual.\n"
         "Por don Enrique Barros Bourie.\n\n"

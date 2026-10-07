@@ -3579,7 +3579,7 @@ relaciones_directas:
     "name": "doctrina_ingestar_documento",
     "category": "Doctrina & Graphify",
     "description": "Convierte documentos (PDF, DOCX, TXT, MD) o textos a Markdown canónico de alta densidad dogmática (normas RAE/ASALE y citas chi...",
-    "full_description": "Convierte documentos (PDF, DOCX, TXT, MD) o textos a Markdown canónico de alta densidad dogmática (normas RAE/ASALE y citas chilenas BCN/CS) y actualiza automáticamente el Knowledge Graph (legal_knowledge_graph.json) y el índice SQLite FTS5 de doctrina."
+    "full_description": "Convierte documentos (PDF, DOCX, TXT, MD) o textos a Markdown canónico de alta densidad dogmática (normas RAE/ASALE y citas chilenas BCN/CS) y agrega de forma incremental solo ese documento al índice SQLite FTS5 de doctrina y al Knowledge Graph (legal_knowledge_graph.json), sin reconstruirlos: tarda segundos."
   },
   {
     "name": "grado_interrogar",

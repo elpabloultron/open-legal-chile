@@ -875,8 +875,8 @@ class BaseLegalAgent:
         # Paso 3: Sincronización en caliente de grafos y motor FTS5
         steps.append(AgentStep(
             step_number=3,
-            thought="Sincronizando de forma inmediata el Knowledge Graph multidimensional y reconstruyendo el índice FTS5 de doctrina.",
-            action="LegalGraphifyEngine.guardar_grafo_json & index_all_doctrina",
+            thought="Sincronizando de forma incremental el Knowledge Graph multidimensional y el índice FTS5 de doctrina con el documento nuevo.",
+            action="LegalGraphifyEngine.incorporar_archivo_doctrina & index_doctrina_file",
             action_input={"actualizar_grafo": actualizar_grafo},
             observation={
                 "grafo_actualizado": res_ingest.get("grafo_actualizado"),

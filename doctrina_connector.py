@@ -15,9 +15,13 @@ DOCTRINA_DIR = os.path.join(BASE_DIR, "doctrina")
 DB_PATH = os.path.join(BASE_DIR, "doctrina.db")
 
 
-def init_db(db_path: str = DB_PATH) -> sqlite3.Connection:
-    """Inicializa la base de datos SQLite con tablas relacionales y FTS5."""
-    conn = sqlite3.connect(db_path)
+def init_db(db_path: Optional[str] = None) -> sqlite3.Connection:
+    """Inicializa la base de datos SQLite con tablas relacionales y FTS5.
+
+    Las rutas por defecto (DB_PATH, DOCTRINA_DIR) se leen en cada llamada y no al definir la
+    función, para que las pruebas puedan apuntarlas a un directorio temporal con monkeypatch.
+    """
+    conn = sqlite3.connect(db_path or DB_PATH)
     conn.execute("PRAGMA journal_mode=WAL;")
     cursor = conn.cursor()
 
@@ -149,8 +153,36 @@ def parse_doctrina_file(filepath: str) -> List[Dict[str, Any]]:
     return instituciones
 
 
-def index_all_doctrina(doctrina_dir: str = DOCTRINA_DIR, db_path: str = DB_PATH) -> int:
+def _insertar_institucion(cursor: sqlite3.Cursor, inst: Dict[str, Any]) -> None:
+    """Inserta una ficha en la tabla relacional y en el índice FTS5 con el mismo rowid."""
+    cursor.execute("""
+    INSERT INTO doctrina_instituciones 
+    (area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+    """, (
+        inst["area"], inst["autor"], inst["obra"], inst["materia"],
+        inst["institucion"], inst["definicion"], inst["contenido"],
+        inst["operativa_procesal"],
+        inst["concordancias"], inst["fallo_rector"], inst["filepath"],
+        inst["tokens_aprox"]
+    ))
+    rowid = cursor.lastrowid
+
+    cursor.execute("""
+    INSERT INTO doctrina_fts 
+    (rowid, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, area, autor, obra)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+    """, (
+        rowid, inst["institucion"], inst["definicion"], inst["contenido"],
+        inst["operativa_procesal"],
+        inst["concordancias"], inst["fallo_rector"], inst["area"],
+        inst["autor"], inst["obra"]
+    ))
+
+
+def index_all_doctrina(doctrina_dir: Optional[str] = None, db_path: Optional[str] = None) -> int:
     """Escanea el directorio de doctrina e indexa todos los archivos Markdown en SQLite FTS5."""
+    doctrina_dir = doctrina_dir or DOCTRINA_DIR
     if not os.path.exists(doctrina_dir):
         return 0
 
@@ -173,29 +205,7 @@ def index_all_doctrina(doctrina_dir: str = DOCTRINA_DIR, db_path: str = DB_PATH)
                 try:
                     instituciones = parse_doctrina_file(filepath)
                     for inst in instituciones:
-                        cursor.execute("""
-                        INSERT INTO doctrina_instituciones 
-                        (area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
-                        """, (
-                            inst["area"], inst["autor"], inst["obra"], inst["materia"],
-                            inst["institucion"], inst["definicion"], inst["contenido"],
-                            inst["operativa_procesal"],
-                            inst["concordancias"], inst["fallo_rector"], inst["filepath"],
-                            inst["tokens_aprox"]
-                        ))
-                        rowid = cursor.lastrowid
-
-                        cursor.execute("""
-                        INSERT INTO doctrina_fts 
-                        (rowid, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, area, autor, obra)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
-                        """, (
-                            rowid, inst["institucion"], inst["definicion"], inst["contenido"],
-                            inst["operativa_procesal"],
-                            inst["concordancias"], inst["fallo_rector"], inst["area"],
-                            inst["autor"], inst["obra"]
-                        ))
+                        _insertar_institucion(cursor, inst)
                         total_instituciones += 1
                 except Exception as e:
                     print(f"Error procesando {filepath}: {e}", file=sys.stderr)
@@ -203,6 +213,51 @@ def index_all_doctrina(doctrina_dir: str = DOCTRINA_DIR, db_path: str = DB_PATH)
     conn.commit()
     conn.close()
     return total_instituciones
+
+
+def index_doctrina_file(
+    filepath: str,
+    db_path: Optional[str] = None,
+    doctrina_dir: Optional[str] = None
+) -> Dict[str, int]:
+    """
+    Indexa (o reindexa) un solo archivo Markdown en doctrina.db sin reconstruir el índice.
+
+    Es lo que usa la ingesta de un documento: reindexar el corpus completo por cada archivo
+    nuevo costaba segundos que se suman al grafo y no aportaba nada. Las fichas previas del
+    mismo archivo se reemplazan (upsert por ruta), así que reingestar no duplica filas.
+
+    Si la base no existe o está vacía (clon recién hecho), primero se indexa el corpus una vez:
+    dejar la base con un solo documento haría que search_doctrina dejara de autoindexar el resto.
+    """
+    db_path = db_path or DB_PATH
+    # Misma forma que produce os.walk sobre DOCTRINA_DIR (absoluto): así el upsert reemplaza
+    # la fila que dejó una indexación completa en vez de duplicarla.
+    filepath = os.path.abspath(filepath)
+
+    if not _has_doctrina_db(db_path):
+        index_all_doctrina(doctrina_dir=doctrina_dir, db_path=db_path)
+
+    instituciones = parse_doctrina_file(filepath)
+
+    conn = init_db(db_path)
+    try:
+        cursor = conn.cursor()
+        cursor.execute("SELECT id FROM doctrina_instituciones WHERE filepath = ?;", (filepath,))
+        previas = [r[0] for r in cursor.fetchall()]
+        cursor.executemany("DELETE FROM doctrina_fts WHERE rowid = ?;", [(i,) for i in previas])
+        cursor.execute("DELETE FROM doctrina_instituciones WHERE filepath = ?;", (filepath,))
+
+        for inst in instituciones:
+            _insertar_institucion(cursor, inst)
+
+        cursor.execute("SELECT COUNT(*) FROM doctrina_instituciones;")
+        total = cursor.fetchone()[0]
+        conn.commit()
+    finally:
+        conn.close()
+
+    return {"indexadas": len(instituciones), "reemplazadas": len(previas), "total": total}
 
 
 def _normalize_area_filter(area: str) -> str:
@@ -223,8 +278,9 @@ def _normalize_area_filter(area: str) -> str:
     return f"%{area}%"
 
 
-def _has_doctrina_db(db_path: str = DB_PATH) -> bool:
+def _has_doctrina_db(db_path: Optional[str] = None) -> bool:
     """Verifica si la base de datos doctrina.db existe y tiene al menos un registro."""
+    db_path = db_path or DB_PATH
     if not os.path.exists(db_path):
         return False
     try:
@@ -411,7 +467,7 @@ def search_doctrina(
     area: Optional[str] = None,
     autor: Optional[str] = None,
     limit: int = 5,
-    db_path: str = DB_PATH
+    db_path: Optional[str] = None
 ) -> List[Dict[str, Any]]:
     """
     Busca doctrina dogmática chilena utilizando FTS5 con ranking BM25.
@@ -419,6 +475,7 @@ def search_doctrina(
     Si la base de datos local no existe o no tiene registros, consulta
     el catálogo en memoria de instituciones_lite.jsonl.
     """
+    db_path = db_path or DB_PATH
     if not _has_doctrina_db(db_path):
         if os.path.exists(DOCTRINA_DIR) and any(f.endswith(".md") for _, _, fs in os.walk(DOCTRINA_DIR) for f in fs):
             index_all_doctrina(db_path=db_path)
@@ -521,11 +578,12 @@ def search_doctrina(
 def get_institucion(
     nombre_o_termino: str,
     area: Optional[str] = None,
-    db_path: str = DB_PATH
+    db_path: Optional[str] = None
 ) -> Optional[Dict[str, Any]]:
     """
     Recupera la ficha doctrinal completa y detallada de una institución jurídica específica.
     """
+    db_path = db_path or DB_PATH
     if not _has_doctrina_db(db_path):
         if os.path.exists(DOCTRINA_DIR) and any(f.endswith(".md") for _, _, fs in os.walk(DOCTRINA_DIR) for f in fs):
             index_all_doctrina(db_path=db_path)
@@ -595,8 +653,9 @@ def get_institucion(
     }
 
 
-def list_obras(db_path: str = DB_PATH) -> List[Dict[str, Any]]:
+def list_obras(db_path: Optional[str] = None) -> List[Dict[str, Any]]:
     """Lista las obras y tratados indexados con sus autores, áreas y cantidad de instituciones."""
+    db_path = db_path or DB_PATH
     if _has_doctrina_db(db_path):
         conn = init_db(db_path)
         cursor = conn.cursor()
