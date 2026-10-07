@@ -7,7 +7,7 @@
     "grado_interrogar",
     "grado_generar_cedula",
     "grado_obtener_flashcards",
-    "doctrina_buscar",
+    "doctrina_search",
     "bcn_get_codigo"
   ]
 }

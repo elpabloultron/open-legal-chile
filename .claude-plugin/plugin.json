@@ -1,11 +1,14 @@
 {
   "name": "open-legal-chile",
+  "displayName": "Open Legal Chile",
   "version": "1.13.0",
-  "description": "Suite Integral de Inteligencia y Práctica Jurídica para Chile (Civil Law): 87 Herramientas MCP oficiales, 10 conectores del Estado, doctrina canónica en FTS5, guías de la Academia Judicial, estudio de títulos decenal CBR, mandatos Art. 7 CPC, telemetría ética y auto-actualizaciones.",
+  "description": "Suite de inteligencia jurídica para el derecho chileno (Civil Law): 87 herramientas MCP con 10 conectores oficiales del Estado (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), doctrina canónica, grafo LegalGraphify, OCR forense, 18 skills y 19 agentes especializados. Requiere uv (uvx) para lanzar el servidor MCP.",
   "author": {
     "name": "Pablo Benavides Jorquera / Open Legal Chile Contributors",
     "url": "https://github.com/elpabloultron/open-legal-chile"
   },
+  "homepage": "https://github.com/elpabloultron/open-legal-chile",
+  "repository": "https://github.com/elpabloultron/open-legal-chile",
   "license": "Apache-2.0",
   "keywords": [
     "chile",
@@ -21,12 +24,31 @@
     "tdlc",
     "academia-judicial"
   ],
+  "skills": ["./.agents/skills/"],
+  "userConfig": {
+    "perfil": {
+      "type": "string",
+      "title": "Perfil de herramientas",
+      "description": "Vacío = las 87 herramientas. Para ahorrar contexto: laboral, inmobiliario, litigios, regulatorio, corporativo, dogmatico o clinica.",
+      "default": ""
+    },
+    "hf_token": {
+      "type": "string",
+      "title": "Token de Hugging Face (opcional)",
+      "description": "Da más cuota de descarga al corpus publicado en Hugging Face. Sin token las consultas van anónimas.",
+      "sensitive": true,
+      "default": ""
+    }
+  },
   "mcpServers": {
     "open-legal-chile": {
-      "command": "python3",
-      "args": ["-m", "openlegal", "mcp"],
+      "command": "uvx",
+      "args": ["--from", "openlegal-chile==1.13.0", "openlegal-mcp"],
       "env": {
-        "PYTHONIOENCODING": "utf-8"
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUNBUFFERED": "1",
+        "OPENLEGAL_PROFILE": "${user_config.perfil}",
+        "HF_TOKEN": "${user_config.hf_token}"
       }
     }
   }
