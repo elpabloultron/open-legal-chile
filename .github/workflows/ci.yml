@@ -6,6 +6,13 @@ on:
   pull_request:
     branches: [ main ]
 
+
+# Un push nuevo a la misma rama de un PR cancela la corrida anterior: ahorra runners y evita que
+# varias matrices en paralelo consulten la BCN a la vez (respondía 429). En main no se cancela.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   test:
     runs-on: ${{ matrix.os }}
