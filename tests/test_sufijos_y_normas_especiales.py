@@ -78,11 +78,15 @@ def test_get_articulo_ley_encuentra_el_sufijo_con_o_sin_tilde(monkeypatch, tmp_p
     assert cliente.get_articulo_ley(9999, "25")["texto"].startswith("Artículo 25.-")
 
 
-def test_las_copias_de_parseo_van_a_la_version_2(tmp_path):
-    """La copia envenenada (quáter bajo la clave «25») no se reutiliza: nombres nuevos."""
+def test_las_copias_de_parseo_van_a_la_version_3(tmp_path):
+    """Las copias de parseo llevan la versión del parser en el nombre.
+
+    La v2 corrigió el «quáter» bajo la clave «25»; la v3, los artículos homónimos pisados (ver
+    tests/test_bcn_parser.py). La copia anterior no se reutiliza tal cual: se re-deriva sin red.
+    """
     cliente = BCNClient(cache_dir=str(tmp_path))
-    assert cliente._get_cache_path("ley", 19300).endswith("ley_p2_19300.json")
-    assert cliente._get_cache_path("norma", 242302).endswith("norma_p2_242302.json")
+    assert cliente._get_cache_path("ley", 19300).endswith("ley_p3_19300.json")
+    assert cliente._get_cache_path("norma", 242302).endswith("norma_p3_242302.json")
     assert cliente._get_cache_path("versiones", 123).endswith("versiones_123.json")
 
 

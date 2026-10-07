@@ -217,32 +217,62 @@ class VectorLegalEngine:
         finally:
             con.close()
 
+    def version_indice(self) -> int:
+        """Versión del parser BCN con que se construyó el índice (0 = sin marcar o anterior a la v3)."""
+        con = self._conectar()
+        try:
+            fila = con.execute("PRAGMA user_version;").fetchone()
+        finally:
+            con.close()
+        return int(fila[0]) if fila else 0
+
+    def _marcar_version_indice(self, version: int) -> None:
+        con = self._conectar()
+        try:
+            con.execute(f"PRAGMA user_version = {int(version)};")
+            con.commit()
+        finally:
+            con.close()
+
     def indexar_desde_bcn_cache(self, forzar: bool = False) -> Dict[str, int]:
-        """Indexa todos los Códigos y CPR presentes en bcn_cache/."""
-        from bcn_connector import CODIGOS_REPUBLICA
+        """Indexa todos los Códigos y CPR presentes en bcn_cache/.
+
+        Lee el mapa de artículos del parser vigente (si solo hay copia v2, la re-deriva en memoria sin
+        escribirla): la v2 pisaba artículos homónimos, así que un índice armado con ella tiene textos
+        ajenos bajo el número de otro artículo (el Art. 1 del Código Civil era de la Ley 16.271). Un
+        índice sin la marca de la versión vigente se reconstruye entero, y los cuerpos que ya no tienen
+        copia local se retiran: un texto equivocado es peor que ninguno.
+        """
+        from bcn_connector import CODIGOS_REPUBLICA, _VERSION_PARSER, cargar_articulos_cache
+
+        desactualizado = self.version_indice() != _VERSION_PARSER
+        forzar = forzar or desactualizado
 
         resumen = {}
         for clave, meta in CODIGOS_REPUBLICA.items():
-            id_norma = meta["idNorma"]
-            posibles_archivos = [
-                os.path.join(BCN_CACHE_DIR, f"norma_p2_{id_norma}.json"),
-                os.path.join(BCN_CACHE_DIR, f"norma_{id_norma}.json"),
-            ]
-            articulos = {}
-            for ruta in posibles_archivos:
-                if os.path.exists(ruta):
-                    try:
-                        with open(ruta, "r", encoding="utf-8") as f:
-                            data = json.load(f)
-                            if data.get("articulos"):
-                                articulos = data["articulos"]
-                                break
-                    except Exception:
-                        pass
+            articulos = cargar_articulos_cache(BCN_CACHE_DIR, meta["idNorma"])
             if articulos:
                 total = self.indexar_cuerpo_legal(clave, articulos, str(meta["nombre"]), forzar=forzar)
                 resumen[clave] = total
+        if desactualizado:
+            self._retirar_cuerpos_fuera_de(set(resumen))
+            self._marcar_version_indice(_VERSION_PARSER)
         return resumen
+
+    def _retirar_cuerpos_fuera_de(self, conservar: set) -> None:
+        """Borra del índice los cuerpos legales que no se reconstruyeron con el parser vigente."""
+        con = self._conectar()
+        try:
+            previos = [f[0] for f in con.execute("SELECT DISTINCT cuerpo_legal FROM articulos_vectorial;")]
+            for cuerpo in previos:
+                if cuerpo not in conservar:
+                    con.execute("DELETE FROM articulos_vectorial WHERE cuerpo_legal = ?", (cuerpo,))
+                    con.execute("DELETE FROM articulos_fts WHERE cuerpo_legal = ?", (cuerpo,))
+            con.commit()
+            self._cached_matrix = None
+            self._cached_metadata = None
+        finally:
+            con.close()
 
     def _cargar_matriz_en_memoria(self, cuerpo_legal: Optional[str] = None) -> Tuple[np.ndarray, List[Dict[str, Any]]]:
         """Carga en RAM los vectores como matriz NumPy para producto punto ultrarrápido."""
