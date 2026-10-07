@@ -4,6 +4,7 @@ Carga automáticamente las variables de entorno desde el archivo .env local
 o desde las variables del sistema operativo sin dependencias externas.
 """
 
+import base64
 import http.client
 import json
 import math
@@ -12,6 +13,7 @@ import threading
 import time
 import urllib.error
 import urllib.parse
+import urllib.request
 from collections import deque
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -196,7 +198,35 @@ def _tomar_canal(esquema: str, host: str, timeout: float) -> http.client.HTTPCon
         except Exception:  # noqa: BLE001
             pass
     clase = http.client.HTTPSConnection if esquema == "https" else http.client.HTTPConnection
-    return clase(host, timeout=timeout)
+    proxy = _proxy_para(esquema, host)
+    if proxy is None:
+        return clase(host, timeout=timeout)
+    # Detrás de un proxy (red de un estudio, CI, sesión en la nube): HTTPS va por túnel CONNECT y
+    # HTTP pide la URL absoluta al proxy. Sin esto, http.client ignoraba HTTPS_PROXY y la BCN
+    # respondía 429 o no respondía (medido el 2026-10-07: urllib 200, canal directo 429).
+    partes_proxy = urllib.parse.urlsplit(proxy)
+    puerto = partes_proxy.port or (443 if partes_proxy.scheme == "https" else 80)
+    cabeceras_proxy: Dict[str, str] = {}
+    if partes_proxy.username:
+        credencial = f"{urllib.parse.unquote(partes_proxy.username)}:{urllib.parse.unquote(partes_proxy.password or '')}"
+        cabeceras_proxy["Proxy-Authorization"] = "Basic " + base64.b64encode(credencial.encode()).decode()
+    if esquema == "https":
+        canal = http.client.HTTPSConnection(partes_proxy.hostname, puerto, timeout=timeout)
+        canal.set_tunnel(host, headers=cabeceras_proxy or None)
+        return canal
+    canal = http.client.HTTPConnection(partes_proxy.hostname, puerto, timeout=timeout)
+    canal._olc_cabeceras_proxy = cabeceras_proxy  # type: ignore[attr-defined]
+    return canal
+
+
+def _proxy_para(esquema: str, host: str) -> Optional[str]:
+    """URL del proxy que corresponde al host según HTTP(S)_PROXY / NO_PROXY, o None si va directo."""
+    try:
+        if urllib.request.proxy_bypass(host.split(":")[0]):
+            return None
+        return urllib.request.getproxies().get(esquema) or None
+    except Exception:  # noqa: BLE001 — una variable de entorno rara no puede cortar la consulta
+        return None
 
 
 def _devolver_canal(esquema: str, host: str, timeout: float,
@@ -222,13 +252,17 @@ def pedir_http(url: str, metodo: str = "GET", headers: Optional[Dict[str, str]] 
     partes = urllib.parse.urlsplit(url)
     ruta = partes.path + (("?" + partes.query) if partes.query else "")
     esquema = "https" if partes.scheme == "https" else "http"
-    cabeceras = {"User-Agent": "OpenLegalChile/1.0 (https://github.com/open-legal-chile)"}
+    cabeceras = {"User-Agent": "OpenLegalChile/1.0 (https://github.com/elpabloultron/open-legal-chile)"}
     cabeceras.update(headers or {})
     ultimo_error: Optional[Exception] = None
     for _intento in (1, 2):
         canal = _tomar_canal(esquema, partes.netloc, timeout)
+        extra_proxy = getattr(canal, "_olc_cabeceras_proxy", None)
         try:
-            canal.request(metodo, ruta, body=cuerpo, headers=cabeceras)
+            if extra_proxy is not None:  # HTTP plano vía proxy: URL absoluta en la línea de pedido
+                canal.request(metodo, url, body=cuerpo, headers={**cabeceras, **extra_proxy})
+            else:
+                canal.request(metodo, ruta, body=cuerpo, headers=cabeceras)
             respuesta = canal.getresponse()
             datos = respuesta.read()
         except (http.client.HTTPException, OSError, urllib.error.URLError) as error:
