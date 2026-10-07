@@ -244,13 +244,16 @@ class BaseLegalAgent:
         }
         acto_lesivo = context.get("acto_lesivo") or task
         fecha_acto = context.get("fecha_acto") or time.strftime("%Y-%m-%d")
+        # Sin fecha de interposición el cómputo usa «hoy»: una prueba con fecha_acto fija dejaba de ser
+        # tempestiva sola a los 31 días (se rompía el 2026-10-09). Quien conozca la fecha, la informa.
+        fecha_interposicion = context.get("fecha_interposicion")
         hechos = context.get("hechos") or [f"1. {task}"]
         garantias = context.get("garantias") or ["19_1", "19_24"]
         anexos = context.get("anexos") or []
         compilar_pdf = bool(context.get("compilar_pdf", True))
 
         # Paso 1: Cómputo de plazo fatal (Auto Acordado CS Acta N.° 94-2015)
-        deadline_info = RecursoProteccionEngine.compute_deadline(fecha_acto)
+        deadline_info = RecursoProteccionEngine.compute_deadline(fecha_acto, fecha_interposicion)
         steps.append(AgentStep(
             step_number=1,
             thought="Calculando plazo fatal de 30 días corridos según el Numeral 1.° del Auto Acordado de la Corte Suprema.",
@@ -276,6 +279,8 @@ class BaseLegalAgent:
             "anexos": anexos,
             "compilar_pdf": compilar_pdf
         }
+        if fecha_interposicion:
+            gen_args["fecha_interposicion"] = fecha_interposicion
         gen_res = self._execute_tool("recurso_proteccion_generar", gen_args)
         steps.append(AgentStep(
             step_number=2,
