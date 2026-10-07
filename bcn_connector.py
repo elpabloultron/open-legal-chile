@@ -25,6 +25,40 @@ _TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60
 # v2: el parser de artículos cambió (sufijos latinos con tilde: «25 quáter» ya no se guarda
 # bajo la clave «25»); las copias viejas de parseo no se reutilizan.
 _VERSION_PARSER = 2
+# Versión interna del mapa `articulos` (campo «parser» del JSON, distinta del sufijo _p2 del archivo):
+# v3 = gana la PRIMERA aparición de cada número, porque el idNorma 172986 trae el Código Civil y,
+# a continuación, leyes embebidas (4.808, 17.344, 16.618, 14.908, 16.271) con sus propios Arts. 1…
+# Las copias con versión menor se reconstruyen desde `estructuras` al leerlas.
+_VERSION_ARTICULOS = 3
+
+_RE_ARTICULO = re.compile(
+    r'(?:Art[íi]culo|Art\.)\s*([0-9]+(?:\s*[-–]\s*[a-zA-Z]|\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?|primero|segundo|tercero|cuarto|quinto)',
+    re.IGNORECASE,
+)
+
+
+def _construir_articulos(estructuras: List[Dict[str, Any]]) -> Dict[str, str]:
+    """Mapa «número de artículo → texto» desde las estructuras; ante un número repetido gana el primero.
+
+    Soporta sufijos latinos y alfanuméricos (183-A, bis, ter…). Los números repetidos que vienen
+    después son leyes embebidas o transitorios y no deben pisar al articulado del Código.
+    """
+    articulos: Dict[str, str] = {}
+    for item in estructuras:
+        texto = item.get("texto", "")
+        match = _RE_ARTICULO.search(texto)
+        if match:
+            art_num = re.sub(r'\s*[-–]\s*', '-', match.group(1).lower().strip())
+            articulos.setdefault(art_num, texto)
+    return articulos
+
+
+def reconstruir_articulos_si_antiguo(data: Dict[str, Any]) -> Dict[str, Any]:
+    """Corrige en memoria el mapa `articulos` de una copia local anterior a la v3."""
+    if data.get("estructuras") and data.get("parser", 0) < _VERSION_ARTICULOS:
+        data["articulos"] = _construir_articulos(data["estructuras"])
+        data["parser"] = _VERSION_ARTICULOS
+    return data
 
 CODIGOS_REPUBLICA = {
     "civil": {"idNorma": 172986, "nombre": "Código Civil de Chile"},
@@ -142,7 +176,6 @@ class BCNClient:
 
         # Extraer articulado y estructuras funcionales
         estructuras = []
-        articulos_map = {}
 
         for node in root.findall('.//EstructuraFuncional'):
             tipo = node.attrib.get('tipoParte', '')
@@ -157,11 +190,7 @@ class BCNClient:
             }
             estructuras.append(item)
 
-            # Detectar número de artículo con soporte extendido para sufijos latinos y alfanuméricos (ej. 183-A, 183-B, bis, ter)
-            match = re.search(r'(?:Art[íi]culo|Art\.)\s*([0-9]+(?:\s*[-–]\s*[a-zA-Z]|\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?|primero|segundo|tercero|cuarto|quinto)', texto, re.IGNORECASE)
-            if match:
-                art_num = re.sub(r'\s*[-–]\s*', '-', match.group(1).lower().strip())
-                articulos_map[art_num] = texto
+        articulos_map = _construir_articulos(estructuras)
 
         historia_ley_url = f"https://www.bcn.cl/historiadelaley/historia-de-la-ley/vista-expandida/{norma_id}" if norma_id else ""
 
@@ -174,6 +203,7 @@ class BCNClient:
             "derogado": derogado,
             "historiaLeyUrl": historia_ley_url,
             "totalEstructuras": len(estructuras),
+            "parser": _VERSION_ARTICULOS,
             "articulos": articulos_map,
             "estructuras": estructuras
         }
@@ -188,7 +218,7 @@ class BCNClient:
         try:
             with open(cache_file, "r", encoding="utf-8") as f:
                 dato = json.load(f)
-            return dato if isinstance(dato, dict) else None
+            return reconstruir_articulos_si_antiguo(dato) if isinstance(dato, dict) else None
         except Exception:  # noqa: BLE001
             return None
 
