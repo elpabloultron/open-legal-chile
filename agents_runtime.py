@@ -24,6 +24,11 @@ from recursos import ruta_recurso
 # En el repo, agents/ junto al código; instalado con pip/uvx, en <prefijo>/share/openlegal-chile/agents.
 AGENTS_DIR = str(ruta_recurso("agents"))
 
+# Prefijos con que Claude Code nombra las herramientas MCP: mcp__<servidor>__<herramienta> para un
+# servidor del proyecto o del usuario, y mcp__plugin_<plugin>_<servidor>__<herramienta> para el plugin.
+PREFIJO_MCP_PROYECTO = "mcp__open-legal-chile__"
+PREFIJO_MCP_PLUGIN = "mcp__plugin_open-legal-chile_open-legal-chile__"
+
 
 @dataclass
 class AgentStep:
@@ -1160,26 +1165,22 @@ class LegalAgentRuntime:
             )
         return agent.run(task=task, context=context, mode=mode, provider=provider)
 
-    def export_subagents_config(self, target_dir: Optional[str] = None) -> Dict[str, str]:
+    def export_subagents_config(self, target_dir: Optional[str] = None,
+                                prefijo_mcp: str = PREFIJO_MCP_PROYECTO) -> Dict[str, str]:
         """
-        Genera configuraciones de subagentes exportables para Claude Code (.claude/agents/*.md)
-        y Cursor (.cursor/rules/*.mdc).
+        Genera los subagentes en formato Claude Code (.claude/agents/<nombre>.md).
+
+        `prefijo_mcp` es el prefijo con que Claude Code expone las herramientas del servidor:
+        PREFIJO_MCP_PROYECTO si se configuró con .mcp.json / `claude mcp add open-legal-chile`,
+        PREFIJO_MCP_PLUGIN si viene del plugin. Sin el prefijo correcto el subagente queda sin
+        herramientas (pasaba hasta 1.13.0: se escribían los nombres pelados).
         """
         exported = {}
         for agent_info in self.list_agents():
             agent = self.get_agent(agent_info["name"])
             if not agent:
                 continue
-
-            # Formato Claude Code Markdown Subagent
-            claude_md = f"""---
-name: {agent.name}
-description: {agent.description}
-tools: {json.dumps(agent.tools)}
----
-
-{agent.system_prompt}
-"""
+            claude_md = subagente_markdown(agent, prefijo_mcp)
             exported[f"claude_{agent.name}"] = claude_md
 
             # Si se proporcionó directorio de salida, guardarlo
@@ -1190,6 +1191,20 @@ tools: {json.dumps(agent.tools)}
                     f.write(claude_md)
 
         return exported
+
+
+def subagente_markdown(agent: "BaseLegalAgent", prefijo_mcp: str = PREFIJO_MCP_PROYECTO) -> str:
+    """Un agente como subagente de Claude Code: frontmatter YAML válido y el prompt de sistema.
+
+    La descripción va entre comillas (JSON es YAML válido): los «:» de textos como
+    «Art. 161: necesidades de la empresa» rompían el frontmatter. `tools` es la lista separada por
+    comas que espera Claude Code, con el nombre calificado de cada herramienta MCP.
+    """
+    lineas = ["---", f"name: {agent.name}", f"description: {json.dumps(agent.description, ensure_ascii=False)}"]
+    if agent.tools:
+        lineas.append("tools: " + ", ".join(prefijo_mcp + t for t in agent.tools))
+    lineas += ["---", "", agent.system_prompt.strip(), ""]
+    return "\n".join(lineas)
 
 
 # Instancia singleton predeterminada
