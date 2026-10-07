@@ -15,7 +15,8 @@
       "version": "1.13.0",
       "transport": {
         "type": "stdio"
-      }
+      },
+      "runtimeHint": "uvx"
     }
   ]
 }

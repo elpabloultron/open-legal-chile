@@ -1,0 +1,29 @@
+{
+  "name": "open-legal-chile",
+  "version": "1.13.0",
+  "description": "Derecho chileno (Civil Law) con fuentes oficiales: 87 herramientas MCP (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), doctrina, grafo LegalGraphify y OCR forense. Requiere uv (uvx).",
+  "mcpServers": {
+    "open-legal-chile": {
+      "command": "uvx",
+      "args": ["--from", "openlegal-chile==1.13.0", "openlegal-mcp"],
+      "env": {
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Perfil de herramientas",
+      "description": "Vacío = las 87 herramientas. Para ahorrar contexto: laboral, inmobiliario, litigios, regulatorio, corporativo, dogmatico o clinica.",
+      "envVar": "OPENLEGAL_PROFILE"
+    },
+    {
+      "name": "Token de Hugging Face",
+      "description": "Opcional: más cuota de descarga del corpus publicado en Hugging Face.",
+      "envVar": "HF_TOKEN",
+      "sensitive": true
+    }
+  ]
+}
