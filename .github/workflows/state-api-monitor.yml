@@ -9,6 +9,9 @@ on:
 jobs:
   health-check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
 
     env:
       BCN_API_KEY: ${{ secrets.BCN_API_KEY }}
@@ -23,12 +26,27 @@ jobs:
         with:
           python-version: "3.11"
 
+      # Antes se instalaba solo pytest: la colección caía con ModuleNotFoundError (defusedxml) y
+      # continue-on-error lo tapaba, así que el monitor estaba en verde sin haber medido nada.
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest
+          pip install -e ".[dev]"
 
       - name: Execute State API Health Verification
-        continue-on-error: true
         run: |
           python -m pytest tests/test_connectors.py -v
+
+      - name: Abrir (o comentar) un issue si alguna API del Estado falló
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          titulo="Monitor de APIs del Estado: falla en la verificación diaria"
+          enlace="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          abierto=$(gh issue list --state open --search "in:title \"$titulo\"" --json number --jq '.[0].number')
+          if [ -n "$abierto" ]; then
+            gh issue comment "$abierto" --body "Vuelve a fallar: $enlace"
+          else
+            gh issue create --title "$titulo" --body "La verificación diaria de los conectores del Estado falló: $enlace"
+          fi
