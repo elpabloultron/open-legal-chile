@@ -56,3 +56,22 @@ def test_la_cli_expone_doctor():
 
     assert '"doctor"' in fuente, "la CLI tiene que ofrecer `openlegal doctor`"
     assert "diagnostico_completo" in fuente, "y tiene que usar el diagnóstico real"
+
+
+def test_el_doctor_revisa_los_recursos_y_el_entorno():
+    chequeos = {c["nombre"]: c for c in diagnostico.diagnostico_completo()["chequeos"]}
+    assert chequeos["recursos"]["estado"] == "ok", chequeos["recursos"]
+    assert "18 skills" in chequeos["recursos"]["detalle"] or "skills" in chequeos["recursos"]["detalle"]
+    # Lo opcional informa, no degrada.
+    assert chequeos["entorno"]["estado"] == "ok" and "uvx" in chequeos["entorno"]["detalle"]
+    assert chequeos["harness"]["estado"] == "ok"
+
+
+def test_token_de_hugging_face_por_entorno_cuenta(monkeypatch, tmp_path):
+    """El plugin pasa el token por HF_TOKEN (userConfig): el doctor no puede decir que falta."""
+    monkeypatch.setattr(diagnostico.pathlib.Path, "home", classmethod(lambda cls: tmp_path))
+    monkeypatch.setenv("HF_TOKEN", "hf_prueba")
+    assert diagnostico._chequeo_hugging_face()["estado"] == "ok"
+    monkeypatch.setenv("HF_TOKEN", "")
+    monkeypatch.delenv("HUGGING_FACE_HUB_TOKEN", raising=False)
+    assert diagnostico._chequeo_hugging_face()["estado"] == "aviso"

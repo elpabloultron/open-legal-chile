@@ -9,7 +9,9 @@ instalación del paquete lleva todo.
 from __future__ import annotations
 
 import json
+import os
 import pathlib
+import shutil
 from typing import Any, Dict, List
 
 BASE_DIR = pathlib.Path(__file__).resolve().parent
@@ -171,9 +173,63 @@ def _chequeo_hugging_face() -> Dict[str, Any]:
     if token.exists():
         return {"nombre": "hugging_face", "estado": "ok",
                 "detalle": "cliente instalado y token local presente"}
+    # El plugin de Claude Code y la extensión de Gemini pasan el token por entorno (userConfig).
+    if any((os.environ.get(v) or "").strip() for v in ("HF_TOKEN", "HUGGING_FACE_HUB_TOKEN")):
+        return {"nombre": "hugging_face", "estado": "ok",
+                "detalle": "cliente instalado y token presente en el entorno (HF_TOKEN)"}
     return {"nombre": "hugging_face", "estado": "aviso",
             "detalle": "cliente instalado; sin token local (las descargas van anónimas y con menos cuota)",
             "sugerencia": "guarda tu token en ~/.openlegal/hf_token (permisos 600)"}
+
+
+def _chequeo_recursos() -> Dict[str, Any]:
+    """Skills, agentes y protocolo de citación: en el repo o instalados en share/openlegal-chile."""
+    try:
+        from recursos import ruta_recurso
+    except Exception as exc:  # noqa: BLE001
+        return {"nombre": "recursos", "estado": "error", "detalle": f"no pude cargar recursos.py ({str(exc)[:120]})"}
+    skills = list(ruta_recurso(".agents/skills").glob("*/SKILL.md"))
+    agentes = list(ruta_recurso("agents").glob("*.json"))
+    protocolo = ruta_recurso("AGENTS.md").exists()
+    detalle = f"{len(skills)} skills · {len(agentes)} agentes · protocolo de citación {'presente' if protocolo else 'ausente'}"
+    if skills and agentes and protocolo:
+        return {"nombre": "recursos", "estado": "ok", "detalle": detalle}
+    return {"nombre": "recursos", "estado": "error", "detalle": detalle,
+            "sugerencia": "reinstala el paquete: skills, agentes y AGENTS.md viajan en share/openlegal-chile"}
+
+
+def _chequeo_entorno() -> Dict[str, Any]:
+    """Programas externos opcionales: informa qué hay, no degrada el estado."""
+    partes = []
+    partes.append("uvx " + ("presente" if shutil.which("uvx") else "ausente (lo usan el plugin de Claude Code y la "
+                                                                    "extensión de Gemini para lanzar el MCP)"))
+    poppler = [b for b in ("pdftotext", "pdfinfo", "pdftoppm") if shutil.which(b)]
+    partes.append("poppler " + ("presente" if len(poppler) == 3 else
+                                "ausente (solo lo usan las ingestas masivas de PDF; el OCR usa PyMuPDF y RapidOCR)"))
+    nlm = shutil.which("nlm") or (pathlib.Path.home() / ".local" / "bin" / "nlm").exists()
+    partes.append("nlm " + ("presente" if nlm else "ausente (solo para las herramientas notebooklm_*)"))
+    return {"nombre": "entorno", "estado": "ok", "detalle": " · ".join(partes)}
+
+
+def _chequeo_harness() -> Dict[str, Any]:
+    """Qué harness de esta carpeta ya tienen configurado el servidor (informativo)."""
+    try:
+        import integraciones_harness as ih
+    except Exception as exc:  # noqa: BLE001
+        return {"nombre": "harness", "estado": "ok", "detalle": f"no se pudo revisar ({str(exc)[:80]})"}
+    base = pathlib.Path.cwd()
+    configurados = []
+    for cliente, ruta in ih._RUTA_PROYECTO.items():
+        archivo = base / ruta
+        try:
+            if archivo.is_file() and ih.SERVIDOR in archivo.read_text(encoding="utf-8", errors="ignore"):
+                configurados.append(f"{cliente} ({ruta})")
+        except OSError:
+            continue
+    if configurados:
+        return {"nombre": "harness", "estado": "ok", "detalle": "configurado en esta carpeta: " + ", ".join(configurados)}
+    return {"nombre": "harness", "estado": "ok",
+            "detalle": "sin configuración MCP en esta carpeta (plugin, configuración global o `openlegal integrar`)"}
 
 
 def diagnostico_completo() -> Dict[str, Any]:
@@ -186,7 +242,10 @@ def diagnostico_completo() -> Dict[str, Any]:
         _chequeo_indices(),
         _chequeo_citas(),
         _chequeo_herramientas_mcp(),
+        _chequeo_recursos(),
         _chequeo_hugging_face(),
+        _chequeo_entorno(),
+        _chequeo_harness(),
     ]
     if any(c["estado"] == "error" for c in chequeos):
         estado = "error"
