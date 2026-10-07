@@ -219,7 +219,7 @@ class VectorLegalEngine:
 
     def indexar_desde_bcn_cache(self, forzar: bool = False) -> Dict[str, int]:
         """Indexa todos los Códigos y CPR presentes en bcn_cache/."""
-        from bcn_connector import CODIGOS_REPUBLICA
+        from bcn_connector import CODIGOS_REPUBLICA, reconstruir_articulos_si_antiguo
 
         resumen = {}
         for clave, meta in CODIGOS_REPUBLICA.items():
@@ -233,7 +233,7 @@ class VectorLegalEngine:
                 if os.path.exists(ruta):
                     try:
                         with open(ruta, "r", encoding="utf-8") as f:
-                            data = json.load(f)
+                            data = reconstruir_articulos_si_antiguo(json.load(f))
                             if data.get("articulos"):
                                 articulos = data["articulos"]
                                 break
