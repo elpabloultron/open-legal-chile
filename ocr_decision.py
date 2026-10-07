@@ -28,7 +28,7 @@ def _ruta_existe(ruta: str) -> bool:
 
 
 def senales_del_pdf(ruta: str) -> Dict[str, Any]:
-    import fitz  # PyMuPDF
+    import pymupdf as fitz  # `import fitz` imprime un aviso de deprecación (en stdout)
 
     doc = fitz.open(str(ruta))
     chars = [len(p.get_text("text") or "") for p in doc]

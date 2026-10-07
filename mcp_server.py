@@ -767,6 +767,75 @@ INSTRUCCIONES = (
 )
 
 
+# Tope de salida por llamada, en caracteres del JSON. Claude Code corta las respuestas MCP por encima
+# de ~25 000 tokens (MAX_MCP_OUTPUT_TOKENS) y en cualquier harness una respuesta gigante llena el
+# contexto: medido el 2026-10-07, ocr_extract_pdf devolvía 3,2 M de caracteres por un manual y
+# cgr_search_auditorias 220 mil. Lo que pasa del tope se guarda completo en disco y la respuesta lleva
+# una versión recortada (misma forma, textos y listas acortados) con la ruta del archivo.
+# OPENLEGAL_MAX_SALIDA=0 lo desactiva.
+_RECORTES = ((4000, 50), (2000, 25), (1000, 12), (500, 6), (250, 3), (120, 2))
+
+
+def _max_salida() -> int:
+    try:
+        return int(os.environ.get("OPENLEGAL_MAX_SALIDA", "60000"))
+    except ValueError:
+        return 60000
+
+
+def _recortar(valor: Any, max_texto: int, max_items: int) -> Any:
+    if isinstance(valor, str):
+        if len(valor) <= max_texto:
+            return valor
+        return valor[:max_texto] + f" … [recortado: {len(valor)} caracteres en total]"
+    if isinstance(valor, list):
+        recortada = [_recortar(x, max_texto, max_items) for x in valor[:max_items]]
+        if len(valor) > max_items:
+            recortada.append(f"… [{len(valor) - max_items} elementos más en la salida completa]")
+        return recortada
+    if isinstance(valor, dict):
+        return {k: _recortar(v, max_texto, max_items) for k, v in valor.items()}
+    return valor
+
+
+def _guardar_salida_completa(nombre: str, texto: str) -> Optional[str]:
+    try:
+        carpeta = pathlib.Path(os.environ.get("OPENLEGAL_SALIDAS_DIR") or pathlib.Path.home() / ".openlegal" / "salidas")
+        carpeta.mkdir(parents=True, exist_ok=True)
+        seguro = "".join(c if c.isalnum() or c in "-_" else "_" for c in nombre)[:60] or "herramienta"
+        ruta = carpeta / f"{seguro}-{datetime.now().strftime('%Y%m%d-%H%M%S-%f')}.json"
+        ruta.write_text(texto, encoding="utf-8")
+        return str(ruta)
+    except OSError:
+        return None
+
+
+def ajustar_salida(nombre: str, resultado: Any) -> Any:
+    """Devuelve el resultado tal cual si cabe en el tope; si no, una versión recortada con aviso."""
+    tope = _max_salida()
+    if tope <= 0:
+        return resultado
+    completo = json.dumps(resultado, ensure_ascii=False, separators=(",", ":"))
+    if len(completo) <= tope:
+        return resultado
+    archivo = _guardar_salida_completa(nombre, completo)
+    aviso = {
+        "caracteres_originales": len(completo),
+        "tope": tope,
+        "archivo_completo": archivo,
+        "nota": "La salida superaba el tope del canal MCP y se recortó (textos y listas acortados). "
+                "La salida íntegra quedó en 'archivo_completo'; para menos volumen, acotá la consulta "
+                "(artículo puntual, menos resultados o menos páginas).",
+    }
+    for max_texto, max_items in _RECORTES:
+        recortado = _recortar(resultado, max_texto, max_items)
+        envoltura = dict(recortado) if isinstance(recortado, dict) else {"resultado": recortado}
+        envoltura["_salida_recortada"] = aviso
+        if len(json.dumps(envoltura, ensure_ascii=False, separators=(",", ":"))) <= tope:
+            return envoltura
+    return {"_salida_recortada": aviso, "inicio": completo[: max(0, tope - 2000)]}
+
+
 def _error(req_id: Any, codigo: int, mensaje: str) -> Dict[str, Any]:
     return {"jsonrpc": "2.0", "id": req_id, "error": {"code": codigo, "message": mensaje}}
 
@@ -852,6 +921,7 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
             finally:
                 _fijar_token_progreso(None)
             is_error = isinstance(res, dict) and "error" in res
+            res = ajustar_salida(str(tool_name), res)
 
             # Formateo denso para ahorro de tokens (25-40% menos tokens que indent=2)
             if os.environ.get("OPENLEGAL_PRETTY", "").lower() in ("1", "true", "yes"):
@@ -890,10 +960,27 @@ def atender_linea(line: str, tools_to_expose: List[Dict[str, Any]]) -> Any:
     return procesar_mensaje(req, tools_to_expose)
 
 
+def _mensajes_de_librerias_a_stderr() -> None:
+    """stdout es el canal del protocolo: nada que no sea JSON-RPC puede escribirse ahí.
+
+    PyMuPDF guarda el sys.stdout real al importarse (forensic_ocr lo importa al arrancar) y escribe
+    ahí sus avisos, por fuera del redirect_stdout de cada tools/call. Medido el 2026-10-07: el aviso
+    de deprecación de `import fitz` llegaba al cliente como una línea no-JSON que el SDK oficial
+    rechazaba. Sus mensajes van a stderr.
+    """
+    try:
+        import pymupdf
+
+        pymupdf.set_messages(stream=sys.stderr)
+    except Exception:  # noqa: BLE001 — sin PyMuPDF (o una versión sin set_messages) no hay nada que desviar
+        pass
+
+
 def main():
     """Bucle principal JSON-RPC 2.0 para el servidor MCP."""
     global _OUTPUT_STREAM
     _OUTPUT_STREAM = sys.stdout
+    _mensajes_de_librerias_a_stderr()
     profile_cli = None
     for i, a in enumerate(sys.argv):
         if a == "--profile" and i + 1 < len(sys.argv):
