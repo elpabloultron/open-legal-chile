@@ -628,6 +628,7 @@ Ejemplos de uso:
     parser.add_argument("--grafo", action="store_true", help="Con 'ambiental': añade el subgrafo de LegalGraphify con su ahorro de tokens (la primera consulta carga su índice)")
     parser.add_argument("--refrescar", action="store_true", help="Con 'cache': baja del hub las revisiones nuevas de lo ya cacheado")
     parser.add_argument("--forzar", action="store_true", help="Con 'cache --refrescar': vuelve a bajar todo lo cacheado, aunque no haya cambiado")
+    parser.add_argument("--profile", type=str, default=None, help="Con 'mcp': perfil temático de herramientas (laboral, litigios, regulatorio…); también OPENLEGAL_PROFILE")
     args = parser.parse_args()
 
     if args.comando == "mcp":
