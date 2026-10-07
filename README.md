@@ -539,7 +539,7 @@ Herramienta de vinculación con el medio y asistencia judicial social:
 * **Ahorro de Tokens Medido (mediana 99,9 %; medición 2026-09-28 sobre 9.863 instituciones):** En lugar de inyectar la obra doctrinal completa (mediana 96.536 tokens; máximo 313.985), el motor extrae un subgrafo conexo hiper-denso de 27 a 544 tokens (mediana 91) en formato estructurado (definición canónica, artículos concordantes, criterio CS rector y operativa procesal forense). Medición reproducible con `.venv/bin/python scripts/medir_ahorro_tokens.py` → [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 * **Diagramas Mermaid en Vivo:** Generación de diagramas de flujo relacional para visualizar el razonamiento dogmático de cada institución en tiempo real.
 * **Integración con Graphify (grafo de código + grafo jurídico):** Cómo se fusionan ambos grafos, qué se midió y por qué no se mantiene un fork, en [`docs/integracion_graphify.md`](docs/integracion_graphify.md).
-* **Comando CLI y Herramienta MCP:** Disponible como `openlegal graph "concepto"` y mediante la herramienta MCP `graphify_consulta_subgrafo`. Compatible con Graphify Labs CLI (`python -m graphify query "..."`) y exportación interactiva a navegador (`graphify-out/graph.html`).
+* **Comando CLI y Herramienta MCP:** Disponible como `openlegal graph "concepto"` y mediante la herramienta MCP `graphify_consulta_subgrafo`. Compatible con Graphify Labs CLI (`python -m graphify query "..."`) y exportación interactiva a navegador (`graphify-doctrinal/graph.html`).
 
 ---
 

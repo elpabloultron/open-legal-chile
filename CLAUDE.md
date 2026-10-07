@@ -35,6 +35,8 @@ open-legal-chile/
 ├── *_connector.py            # Conectores del Estado (BCN, CGR, DT, PJUD, CNE, Panel, CMF, SII, SMA, TDLC, …)
 ├── connectors/registry.py    # StateRegistry unificado con caché
 ├── domain/ · doctrina/ · data/   # modelos, corpus doctrinal y grafo LegalGraphify (viajan en el wheel)
+├── graphify-doctrinal/      # grafo doctrinal de graphify: wiki y visualizadores que se publican en HF
+├── graphify-out/            # grafo del CÓDIGO (local, no versionado; alcance en .graphifyignore)
 ├── scripts/                  # Ingestas, bump de versión, generador de agentes del plugin
 ├── evals/                    # Benchmark de evaluación jurídica chilena
 └── tests/                    # Suite pytest (protocolo, esquemas portables, plugin, empaquetado, conectores…)
@@ -68,12 +70,24 @@ python scripts/generar_agentes_plugin.py --check
 npx -y @google/gemini-cli extensions validate .
 ```
 
-## graphify
+## graphify (grafo del CÓDIGO, no del derecho)
 
-This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+`graphify-out/` es el grafo del código de la suite (módulos, herramientas MCP, conectores, pruebas)
+que arma la CLI de terceros graphify. Es local y no se versiona: en las sesiones en la nube lo
+instala y construye `.claude/hooks/graphify-sesion.sh` (~9 s, en segundo plano); en una máquina
+propia, `uvx --from graphifyy==0.9.79 graphify update .`. Qué entra lo fija `.graphifyignore`.
 
-Rules:
-- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
-- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
-- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
-- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+No confundir con el grafo JURÍDICO (`data/legal_knowledge_graph.json`), que se consulta con las
+herramientas MCP `graphify_*`, ni con `graphify-doctrinal/` (wiki y visualizadores que se publican
+en Hugging Face). Una pregunta de derecho chileno sigue el protocolo de citas (`consulta_maestra`,
+`cita_texto`): la CLI de graphify no sabe nada de normas.
+
+Reglas:
+- Pregunta sobre el código: si existe `graphify-out/graph.json`, primero `graphify query "<pregunta>"`;
+  `graphify path "<A>" "<B>"` para relaciones y `graphify explain "<símbolo>"` para un nodo. Si no
+  existe, se navega con Grep/Read.
+- `graphify-out/GRAPH_REPORT.md`, solo para una revisión amplia de arquitectura.
+- Después de modificar código, `graphify update .` (solo AST, sin costo de API; no ensucia git).
+  Si se niega porque el grafo «se achicaría», es un `graphify-out/` de antes de `.graphifyignore`:
+  borrarlo y volver a correr.
+- No correr `graphify claude install` ni sus pares de Cursor/Antigravity: reescriben estas reglas.

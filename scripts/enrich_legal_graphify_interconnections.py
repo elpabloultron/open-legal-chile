@@ -20,7 +20,7 @@ from typing import Dict, Any, List, Set, Tuple
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 JURIS_DIR = os.path.join(DATA_DIR, "jurisprudencia")
-GRAPH_OUT_DIR = os.path.join(BASE_DIR, "graphify-out")
+GRAPH_OUT_DIR = os.path.join(BASE_DIR, "graphify-doctrinal")
 WIKI_DIR = os.path.join(GRAPH_OUT_DIR, "wiki")
 
 def norm(text: str) -> str:
@@ -341,13 +341,13 @@ def main():
     print(f"    -> Total Nodos: {len(final_nodes):,}")
     print(f"    -> Total Aristas: {len(final_links):,}")
 
-    # 9. Actualizar también graphify-out/graph.json para los visualizadores web D3 y vis-network
+    # 9. Actualizar también graphify-doctrinal/graph.json para los visualizadores web D3 y vis-network
     g_out_path = os.path.join(GRAPH_OUT_DIR, "graph.json")
     if os.path.exists(GRAPH_OUT_DIR):
-        print("[*] Sincronizando artefactos web en graphify-out/...")
+        print("[*] Sincronizando artefactos web en graphify-doctrinal/...")
         with open(g_out_path, "w", encoding="utf-8") as f:
             json.dump(export_obj, f, ensure_ascii=False, indent=2)
-        print("[✓] Visualizador graphify-out/graph.json sincronizado.")
+        print("[✓] Visualizador graphify-doctrinal/graph.json sincronizado.")
 
     # 10. Generar artículo Wiki sintético para la comunidad ambiental
     os.makedirs(WIKI_DIR, exist_ok=True)

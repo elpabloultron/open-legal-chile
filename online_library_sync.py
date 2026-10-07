@@ -20,6 +20,10 @@ from config import registrar_tiempo
 from typing import Dict, Any, List, Optional, Tuple
 
 BASE_DIR = os.path.dirname(__file__)
+# Grafo DOCTRINAL de graphify (wiki de comunidades y visualizadores que se publican en Hugging Face).
+# Hasta 1.13.1 vivía en graphify-out/, la carpeta de trabajo de la CLI de graphify: un
+# `graphify update .` lo pisaba con el grafo de código y `graphify uninstall --purge` lo borraba.
+GRAPHIFY_DOCTRINAL_DIR = os.path.join(BASE_DIR, "graphify-doctrinal")
 DOCTRINA_DIR = os.path.join(BASE_DIR, "doctrina")
 DOCTRINA_RAW = os.path.join(BASE_DIR, "doctrina_raw")
 EXPORTS_DIR = os.path.join(BASE_DIR, "exports", "biblioteca_online_md")
@@ -293,7 +297,7 @@ class OnlineLibrarySyncManager:
         # Métricas reales del grafo y de las guías
         nodos, aristas, comunidades = 0, 0, 0
         try:
-            graphify_path = pathlib.Path(BASE_DIR) / "graphify-out/graph.json"
+            graphify_path = pathlib.Path(GRAPHIFY_DOCTRINAL_DIR) / "graph.json"
             if graphify_path.exists():
                 g_data = json.loads(graphify_path.read_text(encoding="utf-8"))
                 nodos = len(g_data.get("nodes", []))
@@ -307,7 +311,7 @@ class OnlineLibrarySyncManager:
         except Exception:
             nodos, aristas, comunidades = 0, 0, 0
         guias = len(list((pathlib.Path(BASE_DIR) / "corpus_guias_aj").glob("*.md")))
-        wiki_arts = len(list((pathlib.Path(BASE_DIR) / "graphify-out/wiki").glob("*.md")))
+        wiki_arts = len(list((pathlib.Path(GRAPHIFY_DOCTRINAL_DIR) / "wiki").glob("*.md")))
 
         # Métricas de jurisprudencia judicial y ambiental
         total_ambiental = 0
@@ -563,7 +567,7 @@ Proyecto: [Open Legal Chile](https://github.com/elpabloultron/open-legal-chile)
             shutil.rmtree(staging_dir)
         os.makedirs(staging_dir, exist_ok=True)
 
-        graphify_src = os.path.join(BASE_DIR, "graphify-out")
+        graphify_src = GRAPHIFY_DOCTRINAL_DIR
         if not os.path.exists(graphify_src):
             return staging_dir
 
@@ -940,7 +944,7 @@ print(f"Total instituciones: {len(instituciones)}")</code></pre>
                 shutil.rmtree(space_staging)
             os.makedirs(space_staging, exist_ok=True)
 
-            graphify_src = os.path.join(BASE_DIR, "graphify-out")
+            graphify_src = GRAPHIFY_DOCTRINAL_DIR
 
             # 1. Copiar visualizadores interactivos
             for src_name, dst_name in [

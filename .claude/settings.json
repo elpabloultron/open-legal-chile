@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "command -v graphify >/dev/null 2>&1 && graphify hook-guard search || true"
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/graphify-guardia.sh search || true"
           }
         ]
       },
@@ -25,7 +25,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "command -v graphify >/dev/null 2>&1 && graphify hook-guard read || true"
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/graphify-guardia.sh read || true"
           }
         ]
       }

@@ -21,3 +21,6 @@ fi
 
 # Sin PYTHONPATH: pytest ya define pythonpath=["."] y mcp_server.py agrega su propia carpeta. Un
 # PYTHONPATH relativo hace que cualquier pip/python tome la carpeta actual como importable.
+
+# graphify (grafo de código que exige CLAUDE.md): instala y construye sin bloquear ni fallar.
+bash "$(dirname "$0")/graphify-sesion.sh" || true

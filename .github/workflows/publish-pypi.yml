@@ -14,6 +14,8 @@ jobs:
       publish: ${{ steps.detect.outputs.publish }}
       version: ${{ steps.detect.outputs.version }}
       pypi_version: ${{ steps.detect.outputs.pypi_version }}
+      registry_publish: ${{ steps.registro.outputs.registry_publish }}
+      server_name: ${{ steps.registro.outputs.server_name }}
     steps:
       - uses: actions/checkout@v7
 
@@ -32,6 +34,28 @@ jobs:
           else
             echo "publish=false" >> "$GITHUB_OUTPUT"
             echo ">>> Sin version nueva (local=${LOCAL_VERSION} == PyPI=${PYPI_VERSION}). Nada que publicar."
+          fi
+
+      # El registro oficial de MCP se pone al día por su cuenta: se publica cuando NO tiene esta
+      # versión, aunque PyPI ya la tenga. Medido el 07-10-2026: el registro seguía en 1.5.1
+      # («55 herramientas», 13-09-2026) con PyPI en 1.13.0, porque este workflow nunca le mandó
+      # server.json. Solo un 404 cuenta como «falta»: si el registro no responde, se reintenta en
+      # el próximo push en vez de publicar a ciegas.
+      - name: Detectar si el registro MCP tiene esta versión
+        id: registro
+        env:
+          VERSION: ${{ steps.detect.outputs.version }}
+        run: |
+          NAME=$(python3 -c "import json; print(json.load(open('server.json', encoding='utf-8'))['name'])")
+          CODIGO=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 \
+            "https://registry.modelcontextprotocol.io/v0.1/servers/${NAME/\//%2F}/versions/${VERSION}" || true)
+          echo "server_name=${NAME}" >> "$GITHUB_OUTPUT"
+          if [ "$CODIGO" = "404" ]; then
+            echo "registry_publish=true" >> "$GITHUB_OUTPUT"
+            echo ">>> El registro MCP no tiene ${NAME} ${VERSION}: se publicará"
+          else
+            echo "registry_publish=false" >> "$GITHUB_OUTPUT"
+            echo ">>> Registro MCP: HTTP ${CODIGO} para ${VERSION} (200 = ya publicada). No se publica."
           fi
 
   build-and-publish:
@@ -84,3 +108,81 @@ jobs:
           else
             echo ">>> El release v${VERSION} ya existe"
           fi
+
+  publish-mcp-registry:
+    # Job aparte y tolerante: cuando corre, el paquete ya está en PyPI y el release creado, así que
+    # un rechazo del registro (que está en preview) no puede deshacer ni bloquear nada de eso.
+    needs: [detect-version, build-and-publish]
+    if: ${{ !cancelled() && needs.detect-version.outputs.registry_publish == 'true' && needs.build-and-publish.result != 'failure' }}
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      id-token: write   # login github-oidc: el registro concede io.github.<dueño del repo>/* (sin secretos)
+    env:
+      VERSION: ${{ needs.detect-version.outputs.version }}
+      SERVER_NAME: ${{ needs.detect-version.outputs.server_name }}
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: server.json declara la versión que se publica
+        run: |
+          python3 - <<'PY'
+          import json, os
+          s = json.load(open("server.json", encoding="utf-8"))
+          v = os.environ["VERSION"]
+          assert s["version"] == v and all(p["version"] == v for p in s["packages"]), (s["version"], v)
+          print(f"server.json {s['name']} {v}")
+          PY
+
+      # El registro valida el paquete contra PyPI (versión publicada y `mcp-name:` en la
+      # descripción, que es el README). Recién subido, PyPI puede tardar en servir la versión.
+      - name: Esperar a que PyPI sirva la versión
+        run: |
+          for intento in $(seq 1 20); do
+            if curl -fsS -o /dev/null --max-time 30 "https://pypi.org/pypi/openlegal-chile/${VERSION}/json"; then
+              echo ">>> PyPI sirve openlegal-chile ${VERSION} (intento ${intento})"
+              exit 0
+            fi
+            sleep 30
+          done
+          echo "::warning::PyPI no sirve openlegal-chile ${VERSION} tras 10 minutos: no se publica en el registro MCP."
+          exit 1
+
+      # Última versión a propósito: el registro rechaza binarios viejos («invalid audience», según
+      # su guía de GitHub Actions). La integridad se verifica contra el checksums del mismo release.
+      - name: Instalar mcp-publisher
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=$(gh release view --repo modelcontextprotocol/registry --json tagName --jq .tagName)
+          gh release download "$TAG" --repo modelcontextprotocol/registry \
+            --pattern 'mcp-publisher_linux_amd64.tar.gz' --pattern 'registry_*_checksums.txt'
+          sha256sum --check --ignore-missing registry_*_checksums.txt
+          tar xzf mcp-publisher_linux_amd64.tar.gz mcp-publisher
+          ./mcp-publisher --version
+
+      - name: Login en el registro MCP (GitHub OIDC)
+        run: ./mcp-publisher login github-oidc
+
+      - name: Publicar server.json
+        run: |
+          if ./mcp-publisher publish server.json > publicar.log 2>&1; then
+            cat publicar.log
+            echo "::notice::Registro MCP: ${SERVER_NAME} ${VERSION} publicado."
+          elif grep -qiE "duplicate version|already exists" publicar.log; then
+            cat publicar.log
+            echo "::notice::El registro MCP ya tenía ${SERVER_NAME} ${VERSION}."
+          else
+            cat publicar.log
+            echo "::warning::El registro MCP rechazó server.json. PyPI y el release no se afectan."
+            exit 1
+          fi
+
+      - name: El registro sirve la versión publicada
+        run: |
+          curl -fsS --max-time 30 \
+            "https://registry.modelcontextprotocol.io/v0.1/servers/${SERVER_NAME/\//%2F}/versions/${VERSION}" \
+            | python3 -c "import json, os, sys; assert json.load(sys.stdin)['server']['version'] == os.environ['VERSION']"

@@ -1,14 +1,18 @@
 ---
 trigger: always_on
-description: Consult the graphify knowledge graph at graphify-out/ for codebase and architecture questions.
+description: Grafo del CÓDIGO de la suite (graphify-out/, local). El derecho chileno se consulta con las herramientas MCP graphify_*, no con esta CLI.
 ---
 
-## graphify
+## graphify (grafo del código)
 
-This project has a graphify knowledge graph at graphify-out/.
+`graphify-out/` es el grafo del código (módulos, herramientas MCP, conectores, pruebas). Es local y
+no se versiona; se construye con `uvx --from graphifyy==0.9.79 graphify update .` y su alcance lo
+fija `.graphifyignore` (sin doctrina, datos ni skills). El grafo jurídico es
+`data/legal_knowledge_graph.json` (herramientas MCP `graphify_*`); para derecho chileno, primero
+`consulta_maestra` y `cita_texto`.
 
-Rules:
-- For codebase or architecture questions, when `graphify-out/graph.json` exists, first run `graphify query "<question>"` (CLI) or `query_graph` (MCP). Use `graphify path "<A>" "<B>"` / `shortest_path` for relationships and `graphify explain "<concept>"` / `get_node` for focused concepts. These return a scoped subgraph, usually much smaller than `GRAPH_REPORT.md` or raw grep output.
-- If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
-- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context
-- After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)
+Reglas:
+- Pregunta sobre el código: si existe `graphify-out/graph.json`, primero `graphify query "<pregunta>"`;
+  `graphify path "<A>" "<B>"` para relaciones y `graphify explain "<símbolo>"` para un nodo.
+- `graphify-out/GRAPH_REPORT.md`, solo para una revisión amplia de arquitectura.
+- Después de modificar código, `graphify update .` (solo AST, sin costo de API; no ensucia git).

@@ -1678,7 +1678,7 @@ class LegalGraphifyEngine:
             self.construir_grafo_desde_doctrina()
             return True
 
-    def integrar_con_graphify(self, graphify_out_path: str = "graphify-out/graph.json") -> Dict[str, Any]:
+    def integrar_con_graphify(self, graphify_out_path: str = "graphify-doctrinal/graph.json") -> Dict[str, Any]:
         """
         Fusiona el grafo de conocimiento jurídico con el grafo general de Graphify (código + AST),
         permitiendo que herramientas como 'graphify explain' y 'graph.html' abarquen la doctrina legal.
@@ -1787,7 +1787,7 @@ def main():
     parser.add_argument("--stats", action="store_true", help="Muestra estadísticas estructurales del grafo")
     parser.add_argument("--mermaid", action="store_true", help="Imprime el diagrama de subgrafo en sintaxis Mermaid")
     parser.add_argument("--hops", type=int, default=1, help="Radio de saltos para el subgrafo (por defecto 1)")
-    parser.add_argument("--merge-graphify", action="store_true", help="Fusiona con graphify-out/graph.json")
+    parser.add_argument("--merge-graphify", action="store_true", help="Fusiona con graphify-doctrinal/graph.json (grafo doctrinal de graphify)")
 
     args = parser.parse_args()
     engine = LegalGraphifyEngine()

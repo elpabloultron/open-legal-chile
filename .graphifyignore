@@ -1,0 +1,43 @@
+# .graphifyignore — qué NO entra al grafo de CÓDIGO de graphify (sintaxis de .gitignore).
+#
+# graphify-out/ es el mapa del código de la suite para `graphify query/path/explain`: módulos,
+# herramientas MCP, conectores y pruebas. Se genera local (no se versiona) con `graphify update .`.
+# El derecho chileno NO va acá: el grafo jurídico es data/legal_knowledge_graph.json (herramientas
+# MCP graphify_*) y los visualizadores doctrinales publicados en Hugging Face viven en
+# graphify-doctrinal/. Medido el 07-10-2026: sin este archivo el grafo tenía 21.521 nodos, 68 %
+# secciones de doctrina, y sus nodos más conectados eran «Academia Judicial de Chile» (8.073
+# aristas) y «doctrina48981»; con él quedan 3.740 nodos de código y documentación del proyecto
+# (4,5 MB en vez de 37 MB) y los más conectados son LegalGraphifyEngine y handle_tool_call().
+# graphify lee .gitignore y este archivo: aquí solo se puede excluir MÁS, nunca re-incluir.
+
+# Corpus jurídico y material de estudio (texto de terceros, no código)
+doctrina/
+corpus_guias_aj/
+investigacion_academica/
+jurisprudencia_cs/
+jurisprudencia_tc/
+jurisprudencia_ambiental/
+publicaciones_ambientales/
+biblioteca_ambiental/
+Manuales/
+references/
+
+# Grafo doctrinal de graphify (visualizadores y wiki que se publican en Hugging Face)
+graphify-doctrinal/
+
+# Datos derivados, catálogos y especificaciones de servicios del Estado
+data/
+bcn_spec_files/
+bcn_openapi_spec.yaml
+docs/*.json
+docs/*.pdf
+docs/*.html
+
+# Instrucciones para agentes: se versionan y empaquetan, pero son prosa jurídica, no código
+.agents/skills/
+.claude/skills/
+
+# Salidas generadas y expedientes locales (además de lo que ya ignora .gitignore)
+graphify-out/
+exports/
+casos/

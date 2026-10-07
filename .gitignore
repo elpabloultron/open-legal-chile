@@ -65,12 +65,14 @@ Thumbs.db
 .system_generated/
 scratch/
 scratch_*.py
-graphify-out/cache/
-graphify-out/[0-9]*/
-graphify-out/*.sig
-graphify-out/.graphify_labels.json*
-graphify-out/*.graphml
-graphify-out/cypher.txt
+# Grafo de CÓDIGO de graphify: se genera local con `graphify update .` (~9 s, determinista) y no
+# se versiona; cada cambio de código renumeraba comunidades y reescribía miles de líneas.
+graphify-out/
+graphify-doctrinal/cache/
+graphify-doctrinal/*.sig
+graphify-doctrinal/.graphify_labels.json*
+graphify-doctrinal/*.graphml
+graphify-doctrinal/cypher.txt
 uv.lock
 .update_cache.json
 

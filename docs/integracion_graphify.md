@@ -10,13 +10,13 @@ para que nadie tenga que creer una cifra de folleto.
 | | Graphify | Open Legal Chile |
 |---|---|---|
 | Qué grafica | el código del repositorio y sus dependencias (AST) | 58 tratados de doctrina chilena, normas BCN, criterios de la Corte Suprema, vías procesales y autores |
-| Artefacto | `graphify-out/graph.json` (Node-Link) | `data/legal_knowledge_graph.json` (Node-Link) |
-| Cómo se produce | `graphify update .` (solo AST, sin costo de API) | `LegalGraphifyEngine.construir_grafo_desde_doctrina()` (0,15 s sobre el corpus) |
-| Cómo se consulta | CLI de Graphify | herramientas MCP `graphify_*` y `openlegal graph "concepto"` |
+| Artefacto | `graphify-out/graph.json` (Node-Link), **local y no versionado**; su alcance lo fija `.graphifyignore` | `data/legal_knowledge_graph.json` (Node-Link) |
+| Cómo se produce | `graphify update .` (solo AST, sin costo de API, ~9 s; en la nube lo corre `.claude/hooks/graphify-sesion.sh`) | `LegalGraphifyEngine.construir_grafo_desde_doctrina()` (0,15 s sobre el corpus) |
+| Cómo se consulta | CLI de Graphify (`graphify query/path/explain`) | herramientas MCP `graphify_*` y `openlegal graph "concepto"` |
 
 ## Cómo se fusionan
 
-`legal_graphify.integrar_con_graphify("graphify-out/graph.json")` carga el grafo de Graphify y le
+`legal_graphify.integrar_con_graphify("graphify-doctrinal/graph.json")` carga el grafo doctrinal de Graphify y le
 agrega los nodos y enlaces jurídicos que faltan, marcándolos `_origin: "legal_graphify"`; los del
 código quedan como `_origin: "ast"`. La comparación es por la terna `(origen, destino, relación)`,
 así que la integración es **idempotente**: correrla dos, tres o diez veces no duplica nada
@@ -24,6 +24,27 @@ así que la integración es **idempotente**: correrla dos, tres o diez veces no 
 
 El resultado se exporta a `graph.html` (vis.js) y abarca **el código del repositorio y el derecho
 chileno en el mismo grafo**.
+
+## Dos grafos de Graphify, dos carpetas (07-10-2026)
+
+Hasta 1.13.1 `graphify-out/` hacía dos trabajos incompatibles: era el grafo que CLAUDE.md mandaba
+consultar para preguntas de **código** y, a la vez, el grafo **doctrinal** cuyos visualizadores y
+wiki publica `online_library_sync.py` en Hugging Face. Medido sobre el artefacto versionado:
+21.521 nodos (68 % secciones de doctrina, 2.103 de código, sin `recursos.py`), 37 MB, y sus nodos
+más conectados eran «Academia Judicial de Chile» (8.073 aristas) y «doctrina48981».
+
+- `graphify-doctrinal/`: el grafo doctrinal, movido byte a byte (mismo blob en git, cero costo).
+  Lo leen `online_library_sync.py` (tarjeta y Space de Hugging Face) y
+  `scripts/enrich_legal_graphify_interconnections.py`. `graphify update` no lo toca.
+- `graphify-out/`: el grafo del código, local. Con `.graphifyignore`, 3.740 nodos en ~9 s (4,5 MB),
+  idéntico byte a byte entre dos clones; los nodos más conectados pasan a ser
+  `LegalGraphifyEngine`, `handle_tool_call()`, `safe_urlopen()` y `BCNClient`. No se versiona porque
+  cada cambio de código renumera comunidades: agregar una función reescribía ~16.000 líneas de
+  `graph.json`.
+
+Por qué no se regeneró en su lugar: con `.graphifyignore`, `graphify update .` sobre la carpeta vieja
+se niega a escribir (el grafo «se achicaría» de 21.521 a 4.798 nodos) y con `--force` deja 1.113
+nodos jurídicos sin archivo de origen que nunca se desalojan.
 
 ## Números medidos (18-09-2026)
 
@@ -48,8 +69,8 @@ chileno en el mismo grafo**.
 
 Un fork de Graphify tendría que reescribirse cada vez que el proyecto original cambia (va por 0.9.63
 y publica sus versiones en PyPI como `graphifyy`), y este repositorio solo necesita **consumir** su
-salida. Por eso: se instala la versión publicada, se ejecuta `graphify update .` para regenerar
-`graphify-out/`, y el grafo jurídico se integra con `integrar_con_graphify()`. Si algún día hace
+salida. Por eso: se instala la versión publicada, se ejecuta `graphify update .` (versión fijada en
+`.claude/hooks/graphify-sesion.sh`) para regenerar `graphify-out/`, y el grafo jurídico se integra con `integrar_con_graphify()`. Si algún día hace
 falta la estructura modular de Graphify dentro de este proyecto, se rehace aquí, con la API en
 español y las pruebas de esta suite como red — no al revés.
 
