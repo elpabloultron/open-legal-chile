@@ -205,16 +205,19 @@ def _tomar_canal(esquema: str, host: str, timeout: float) -> http.client.HTTPCon
     # HTTP pide la URL absoluta al proxy. Sin esto, http.client ignoraba HTTPS_PROXY y la BCN
     # respondía 429 o no respondía (medido el 2026-10-07: urllib 200, canal directo 429).
     partes_proxy = urllib.parse.urlsplit(proxy)
+    if not partes_proxy.hostname:  # variable de proxy mal formada: mejor directo que nada
+        return clase(host, timeout=timeout)
     puerto = partes_proxy.port or (443 if partes_proxy.scheme == "https" else 80)
     cabeceras_proxy: Dict[str, str] = {}
     if partes_proxy.username:
         credencial = f"{urllib.parse.unquote(partes_proxy.username)}:{urllib.parse.unquote(partes_proxy.password or '')}"
         cabeceras_proxy["Proxy-Authorization"] = "Basic " + base64.b64encode(credencial.encode()).decode()
+    # Misma clase que la conexión directa (HTTPS verifica certificados por defecto en Python ≥ 3.10):
+    # la conexión va al proxy y, en HTTPS, el TLS se negocia con el host final dentro del túnel.
+    canal = clase(partes_proxy.hostname, puerto, timeout=timeout)
     if esquema == "https":
-        canal = http.client.HTTPSConnection(partes_proxy.hostname, puerto, timeout=timeout)
         canal.set_tunnel(host, headers=cabeceras_proxy or None)
         return canal
-    canal = http.client.HTTPConnection(partes_proxy.hostname, puerto, timeout=timeout)
     canal._olc_cabeceras_proxy = cabeceras_proxy  # type: ignore[attr-defined]
     return canal
 

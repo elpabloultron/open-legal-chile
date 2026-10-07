@@ -1193,8 +1193,11 @@ class LegalAgentRuntime:
         return exported
 
 
-def subagente_markdown(agent: "BaseLegalAgent", prefijo_mcp: str = PREFIJO_MCP_PROYECTO) -> str:
+def subagente_markdown(agent: Any, prefijo_mcp: str = PREFIJO_MCP_PROYECTO) -> str:
     """Un agente como subagente de Claude Code: frontmatter YAML válido y el prompt de sistema.
+
+    `agent` es cualquier objeto con name, description, tools y system_prompt (un BaseLegalAgent o
+    el SimpleNamespace que arma scripts/generar_agentes_plugin.py desde el JSON).
 
     La descripción va entre comillas (JSON es YAML válido): los «:» de textos como
     «Art. 161: necesidades de la empresa» rompían el frontmatter. `tools` es la lista separada por
