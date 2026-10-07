@@ -1,0 +1,22 @@
+#!/bin/bash
+# Sesiones de Claude Code en la nube: deja instaladas las dependencias para que las pruebas,
+# el servidor MCP y el doctor corran sin pasos manuales. En una máquina local no hace nada.
+set -euo pipefail
+
+if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
+  exit 0
+fi
+
+cd "${CLAUDE_PROJECT_DIR:-$(dirname "$0")/../..}"
+
+# Idempotente: si el paquete ya está instalado en modo editable con sus extras, pip no baja nada.
+if ! python3 -m pip install -q -e ".[dev]" 2>/dev/null; then
+  python3 -m pip install -q --break-system-packages -e ".[dev]"
+fi
+
+# poppler (pdftotext/pdfinfo/pdftoppm): lo usan el OCR y la ingesta de PDFs.
+if ! command -v pdftotext >/dev/null 2>&1 && command -v apt-get >/dev/null 2>&1; then
+  (apt-get install -y -qq poppler-utils >/dev/null 2>&1 || true)
+fi
+
+echo 'export PYTHONPATH="."' >> "${CLAUDE_ENV_FILE:-/dev/null}"
