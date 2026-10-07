@@ -22,8 +22,8 @@ class NotebookLMConnector:
             self.nlm_bin = nlm_bin
         elif which_nlm:
             self.nlm_bin = which_nlm
-        elif os.path.exists("/home/pablo/.local/bin/nlm"):
-            self.nlm_bin = "/home/pablo/.local/bin/nlm"
+        elif os.path.exists(os.path.expanduser("~/.local/bin/nlm")):  # pipx / uv tool sin ~/.local/bin en el PATH
+            self.nlm_bin = os.path.expanduser("~/.local/bin/nlm")
         else:
             self.nlm_bin = "nlm"
 

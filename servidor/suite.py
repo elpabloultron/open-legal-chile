@@ -4,7 +4,6 @@ from typing import TYPE_CHECKING, Any
 if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de mcp_server
     from mcp_server import (
         _listar_skills,
-        _raiz,
     )
 
 
@@ -119,7 +118,8 @@ def despachar(name: str, args: dict) -> Any:
         nombre = (args.get("nombre") or "").strip()
         if not nombre or "/" in nombre or "\\" in nombre or ".." in nombre:
             return {"error": "El parámetro 'nombre' es obligatorio (nombre simple, sin barras)."}
-        archivo = _raiz() / ".agents" / "skills" / nombre / "SKILL.md"
+        from recursos import ruta_recurso
+        archivo = ruta_recurso(".agents/skills") / nombre / "SKILL.md"
         if not archivo.exists():
             return {"error": f"No existe la skill «{nombre}».", "disponibles": [s["nombre"] for s in _listar_skills()["skills"]]}
         return {"nombre": nombre, "contenido": archivo.read_text(encoding="utf-8", errors="ignore")}

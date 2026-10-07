@@ -111,3 +111,55 @@ def test_todos_los_modulos_de_la_raiz_viajan_en_el_paquete():
     assert "py_modules=" not in setup_py, (
         "py_modules volvió a setup.py: dos listas divergentes son la falla que dejó 1.7.0 roto")
 
+
+
+def _setuptools_cfg():
+    tomllib = pytest.importorskip("tomllib", reason="requiere Python 3.11+")
+    return tomllib.loads((RAIZ / "pyproject.toml").read_text(encoding="utf-8"))
+
+
+def test_las_skills_agentes_y_protocolo_viajan_como_data_files():
+    """Hasta 1.13.0 el wheel no los llevaba: instalado con pip/uvx, skills_listar y agent_list
+    devolvían vacío y openlegal://reglas/citacion decía «Protocolo no disponible»."""
+    data_files = _setuptools_cfg()["tool"]["setuptools"]["data-files"]
+    destino = "share/openlegal-chile"
+    assert "AGENTS.md" in data_files[destino]
+    assert "agents/*.json" in data_files[f"{destino}/agents"]
+    assert "agents/*.md" in data_files[f"{destino}/agents"]
+    assert "docs/integracion-harness.md" in data_files[f"{destino}/docs"]
+    for carpeta in sorted((RAIZ / ".agents" / "skills").iterdir()):
+        if (carpeta / "SKILL.md").exists():
+            clave = f"{destino}/.agents/skills/{carpeta.name}"
+            assert data_files.get(clave) == [f".agents/skills/{carpeta.name}/SKILL.md"], (
+                f"la skill {carpeta.name} no viaja en el wheel: agregala a [tool.setuptools.data-files]")
+
+
+def test_el_ejecutable_se_llama_como_el_paquete():
+    """`uvx openlegal-chile` y los clientes del registro MCP buscan un ejecutable con el nombre del
+    paquete; sin el alias, fallaban con «no executable named openlegal-chile»."""
+    scripts = _setuptools_cfg()["project"]["scripts"]
+    assert scripts["openlegal-chile"] == scripts["openlegal-mcp"] == "mcp_server:main"
+    assert "openlegal-chile=mcp_server:main" in (RAIZ / "setup.py").read_text(encoding="utf-8")
+
+
+def test_ruta_recurso_encuentra_la_copia_instalada(tmp_path, monkeypatch):
+    """Sin el repo al lado (instalación pip/uvx), el recurso sale de <prefijo>/share/openlegal-chile."""
+    import recursos
+
+    instalado = tmp_path / "prefijo" / "share" / "openlegal-chile" / ".agents" / "skills" / "demo"
+    instalado.mkdir(parents=True)
+    (instalado / "SKILL.md").write_text("# Demo\n", encoding="utf-8")
+    monkeypatch.setattr(recursos, "RAIZ", tmp_path / "site-packages")
+    monkeypatch.setattr(recursos.sys, "prefix", str(tmp_path / "prefijo"))
+
+    assert recursos.ruta_recurso(".agents/skills") == instalado.parent
+    assert recursos.ruta_recurso("no/existe") == tmp_path / "site-packages" / "no" / "existe"
+
+
+def test_ningun_archivo_versionado_apunta_a_una_carpeta_personal():
+    """Rutas como /home/<usuario>/… solo funcionan en la máquina de quien las escribió."""
+    revisar = [RAIZ / "mcp_config.json", RAIZ / ".cursor" / "mcp.json", RAIZ / ".vscode" / "mcp.json",
+               RAIZ / ".claude-plugin" / "plugin.json", RAIZ / "notebooklm_connector.py"]
+    for archivo in revisar:
+        if archivo.exists():
+            assert "/home/pablo" not in archivo.read_text(encoding="utf-8"), archivo

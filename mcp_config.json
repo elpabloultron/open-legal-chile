@@ -1,14 +1,12 @@
 {
   "mcpServers": {
     "open-legal-chile": {
-      "command": "python3",
-      "args": [
-        "/home/pablo/Escritorio/open-legal-chile/mcp_server.py"
-      ],
-      "description": "Suite Integral de Inteligencia y Práctica Jurídica de Chile: 87 Herramientas MCP oficiales (10 Conectores del Estado BCN/CGR/DT/PJUD/SII/CMF/SMA/TDLC/CNE/Panel, Estudio de Títulos Decenal CBR, Mandatos Art. 7 CPC, Deconstrucción de Sentencias Art. 170 CPC, Doctrina Canónica FTS5, Guías Academia Judicial, Telemetría Ética y Auto-Actualización).",
+      "command": "openlegal-mcp",
+      "args": [],
+      "description": "Open Legal Chile: 87 herramientas MCP de derecho chileno (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos, doctrina, grafo y OCR). Requiere `pip install openlegal-chile`; sin instalar, usar command \"uvx\" con args [\"--from\", \"openlegal-chile\", \"openlegal-mcp\"].",
       "env": {
         "PYTHONIOENCODING": "utf-8",
-        "PYTHONPATH": "/home/pablo/Escritorio/open-legal-chile"
+        "PYTHONUNBUFFERED": "1"
       }
     }
   }
