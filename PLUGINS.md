@@ -1,183 +1,157 @@
 # 🔌 Instalación en 1-Click / 1-Comando (Plugins & MCP)
-## Open Legal Chile Suite v1.3.0
+## Open Legal Chile Suite v1.13.0
 
-> Estas son las **vías alternativas** (plugins, registros, autodetección). El camino directo es un
-> solo comando: `pip install openlegal-chile && openlegal instalar` — ver el README.
+> El camino directo es un solo comando: `pip install openlegal-chile && openlegal instalar`. Esta
+> página reúne las **vías por harness** (plugins, extensiones, registros). La guía completa, con
+> archivos y verificación por cliente, está en [docs/integracion-harness.md](docs/integracion-harness.md).
 
-**Open Legal Chile Suite** implementa de forma nativa el protocolo estándar **MCP (Model Context Protocol)** y cuenta con manifiestos preconfigurados para su integración inmediata y sin fricción ("zero-config") en todos los entornos de agentes de Inteligencia Artificial líderes del mercado.
+**Open Legal Chile Suite** implementa el protocolo estándar **MCP (Model Context Protocol)** y trae
+manifiestos listos para los harness de agentes más usados. Todos exponen las mismas **87 herramientas**.
 
----
-
-## ⚡ Métodos de Instalación en 1-Click / 1-Comando
-
-### 1. 🤖 Claude Code (CLI Oficial de Anthropic)
-
-#### Opción A: Como Plugin Nativo de Claude Code (Recomendado)
-Desde cualquier terminal en tu proyecto:
-```bash
-claude plugin add elpabloultron/open-legal-chile
-```
-*Claude Code detectará automáticamente el archivo `.claude-plugin/plugin.json` y registrará las 87 herramientas jurídicas*
-
-#### Opción B: Como Servidor MCP en Claude Code
-```bash
-claude mcp add open-legal-chile python3 -m openlegal mcp
-```
-O si clonaste el repositorio localmente:
-```bash
-claude mcp add open-legal-chile python3 /ruta/a/open-legal-chile/mcp_server.py
-```
+**Requisito para plugins y extensiones:** [uv](https://docs.astral.sh/uv/) (`uvx`). El servidor se
+lanza con `uvx --from openlegal-chile openlegal-mcp`, que instala el paquete de PyPI en un entorno
+aislado. La primera vez descarga ~150 MB; precalentalo con
+`uvx --from openlegal-chile openlegal-mcp < /dev/null` para que el primer arranque no se corte.
 
 ---
 
-### 2. ⚡ Cursor IDE (1-Click Workspace Auto-Detection)
+## ⚡ Métodos de Instalación
 
-El repositorio incluye el archivo `.cursor/mcp.json`. Al clonar o abrir la carpeta `open-legal-chile` en **Cursor**:
-1. Abre Cursor en la carpeta del repositorio:
-   ```bash
-   cursor /ruta/a/open-legal-chile
-   ```
-2. Aparecerá una notificación emergente automática:
-   > *"MCP Server detected: open-legal-chile. Do you want to enable it?"*
-3. Haz clic en **Enable**.
-4. ¡Listo! Ya puedes pedirle al agente de Cursor:
-   > *"Analiza este borrador de demanda civil aplicando el Artículo 254 del CPC y revisa si el mandato judicial cumple con el Artículo 7 del CPC."*
+### 1. 🤖 Claude Code (CLI oficial de Anthropic)
 
-*Configuración manual en Cursor (`Settings -> Features -> MCP -> Add New MCP Server`):*
-- **Name:** `open-legal-chile`
-- **Type:** `stdio`
-- **Command:** `python3`
-- **Args:** `mcp_server.py`
+#### Opción A: plugin (recomendado): MCP + 18 skills + 19 agentes
+```bash
+claude plugin marketplace add elpabloultron/open-legal-chile
+claude plugin install open-legal-chile@open-legal-chile
+```
+El marketplace también ofrece las skills por materia (`chilean-employment-legal`,
+`chilean-litigation-legal`, …). Cada una instala el plugin principal como dependencia, porque usa
+sus herramientas MCP.
+
+#### Opción B: solo el servidor MCP
+```bash
+claude mcp add open-legal-chile -- uvx --from openlegal-chile openlegal-mcp
+```
+Con el paquete ya instalado (`pip install openlegal-chile`): `claude mcp add open-legal-chile -- openlegal-mcp`.
+El `--` separa las opciones de `claude mcp add` de las del servidor y es obligatorio.
 
 ---
 
-### 3. 🌊 VS Code / Windsurf / Cline / Roo Code
+### 2. ♊ Gemini CLI
 
-El repositorio incluye el archivo `.vscode/mcp.json`. Cuando abras la carpeta en **VS Code**, **Windsurf** o con extensiones como **Cline** o **Roo Code**, el servidor MCP se carga automáticamente.
+```bash
+gemini extensions install https://github.com/elpabloultron/open-legal-chile
+```
+La extensión (`gemini-extension.json`) lanza el servidor con uvx y agrega `GEMINI.md` al contexto.
 
-Contenido del archivo de configuración (`.vscode/mcp.json`):
+---
+
+### 3. ⚡ Cursor IDE
+
+El repositorio incluye `.cursor/mcp.json`: al abrir la carpeta en Cursor aparece la opción de
+habilitar el servidor `open-legal-chile`. En cualquier otro proyecto:
+```bash
+openlegal integrar cursor --escribir          # o --global para ~/.cursor/mcp.json
+```
+
+---
+
+### 4. 🌊 VS Code (Copilot)
+
+El repositorio incluye `.vscode/mcp.json`. VS Code usa la clave **`servers`** (no `mcpServers`):
 ```json
 {
-  "mcpServers": {
+  "servers": {
     "open-legal-chile": {
+      "type": "stdio",
       "command": "python3",
       "args": ["${workspaceFolder}/mcp_server.py"],
-      "env": {
-        "PYTHONIOENCODING": "utf-8",
-        "PYTHONPATH": "${workspaceFolder}"
-      }
+      "env": { "PYTHONIOENCODING": "utf-8", "PYTHONPATH": "${workspaceFolder}" }
     }
   }
 }
 ```
+En otro proyecto: `openlegal integrar vscode --escribir` (o `--global` para tu configuración de usuario).
 
 ---
 
-### 4. 🌐 Registro Global Smithery.ai (1-Comando Universal)
-
-Ficha pública en el registro: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
-
-Puedes conectar Open Legal Chile en cualquier cliente soportado con un único comando:
+### 5. 🏄 Windsurf, Codex, OpenCode, dsh
 
 ```bash
-npx -y smithery mcp add pablobenavidesjorquera/open-legal-chile
+openlegal integrar windsurf --escribir      # ~/.codeium/windsurf/mcp_config.json
+openlegal integrar codex --escribir         # .codex/config.toml
+openlegal integrar opencode --escribir      # opencode.json
+openlegal integrar dsh --escribir           # cordis.patch.yml
 ```
 
 ---
 
-### 5. 🪐 Google Antigravity (Multi-Agente Autónomo)
+### 6. 🪐 Google Antigravity
 
-En **Google Antigravity**, la suite se conecta inmediatamente referenciando `mcp_config.json` en las configuraciones del workspace o en `~/.gemini/antigravity/mcp_config.json`:
-
-```json
-{
-  "mcpServers": {
-    "open-legal-chile": {
-      "command": "python3",
-      "args": ["/ruta/absoluta/open-legal-chile/mcp_server.py"],
-      "env": {
-        "PYTHONIOENCODING": "utf-8"
-      }
-    }
-  }
-}
+`mcp_config.json` del repositorio ya es portable (usa `openlegal-mcp`). Para tu usuario:
+```bash
+openlegal integrar antigravity --escribir --global    # ~/.gemini/antigravity/mcp_config.json
 ```
 
 ---
 
-### 6. 🍎 Claude Desktop (macOS / Windows / Linux)
+### 7. 🍎 Claude Desktop (macOS / Windows / Linux)
 
-Agrega lo siguiente en tu archivo de configuración de Claude Desktop:
-- **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
-- **Linux:** `~/.config/Claude/claude_desktop_config.json`
-
-```json
-{
-  "mcpServers": {
-    "open-legal-chile": {
-      "command": "python3",
-      "args": ["/ruta/absoluta/open-legal-chile/mcp_server.py"],
-      "env": {
-        "PYTHONIOENCODING": "utf-8"
-      }
-    }
-  }
-}
+```bash
+openlegal integrar claude-desktop --escribir
 ```
+Escribe la ruta absoluta de `openlegal-mcp` en `claude_desktop_config.json`. Claude Desktop no hereda
+el PATH de la terminal, así que un `openlegal-mcp` a secas no funcionaría. Con `--uvx` usa uvx.
 
 ---
 
-### ⚡ 7. Perfiles Temáticos Livianos para LLMs (Ahorro de Tokens)
+### 8. 🌐 Registros: MCP Registry y Smithery
 
-Para maximizar la precisión de los modelos y ahorrar entre un **70 % y 85 % de tokens de contexto** en cada turno (reduciendo el catálogo de ~18 000 a ~2 500 tokens), puedes limitar el catálogo de herramientas activas agregando el argumento `--profile <nombre>` o definiendo la variable de entorno `OPENLEGAL_PROFILE`:
+- **MCP Registry**: `server.json` publica el paquete PyPI `openlegal-chile` (ejecutable `openlegal-chile`, `uvx openlegal-chile`).
+- **Smithery**: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
+  ```bash
+  npx -y smithery mcp add pablobenavidesjorquera/open-legal-chile
+  ```
 
-* **Perfiles disponibles:**
-  * `laboral` (11 herramientas): BCN Códigos/Leyes, DT Doctrina, PJUD, Doctrina FTS5, Dossiers.
-  * `inmobiliario` (10 herramientas): CBR Estudio, Gravámenes, Mandato Art. 7 CPC, BCN Civil.
-  * `litigios` (14 herramientas): PJUD Sentencias/Proveídos, Recurso de Protección, Mandato CPC, OCR.
-  * `regulatorio` (17 herramientas): CGR Dictámenes/Auditorías, InfoProbidad DIP, CMF, SII, SMA, CNE.
-  * `corporativo` (13 herramientas): CMF, SII, TDLC, Marcas INAPI, Derechos ARCO, RUT Chile.
-  * `dogmatico` (14 herramientas): Doctrina FTS5, Subgrafos LegalGraphify, Blast Radius, Academia Judicial.
-  * `clinica` (7 herramientas): Lenguaje Claro, Intake CAJ, Auditoría de Borradores.
-  * `completo` / `full` (87 herramientas, por defecto).
+---
 
-Ejemplo en `.vscode/mcp.json` o Cursor para restringir al perfil laboral:
-```json
-{
-  "mcpServers": {
-    "open-legal-chile": {
-      "command": "python3",
-      "args": ["${workspaceFolder}/mcp_server.py", "--profile", "laboral"]
-    }
-  }
-}
+### ⚡ 9. Perfiles temáticos livianos (ahorro de tokens)
+
+Para ahorrar contexto, o para no pasarte del límite de herramientas de clientes como Cursor o
+Windsurf, limitá el catálogo con `--profile <nombre>` o con la variable `OPENLEGAL_PROFILE`. En el
+plugin de Claude Code se elige al activarlo. Todo perfil incluye `consulta_maestra`, `cita_texto` y
+`suite_doctor`, que el protocolo de citación exige.
+
+| Perfil | Herramientas | Foco |
+|---|---|---|
+| `laboral` | 14 | BCN, DT, PJUD, doctrina, escritos OJV |
+| `inmobiliario` | 13 | CBR, mandato Art. 7 CPC, BCN civil |
+| `litigios` | 17 | PJUD, proveídos, recurso de protección, OCR |
+| `regulatorio` | 21 | CGR, InfoProbidad, CMF, SII, SMA, CNE, Panel, TDLC |
+| `corporativo` | 16 | CMF, SII, TDLC, INAPI, derechos ARCO, RUT |
+| `dogmatico` | 18 | doctrina, LegalGraphify, Academia Judicial, Hugging Face |
+| `clinica` | 10 | lenguaje claro, intake, auditoría de borradores |
+| (sin perfil) | 87 | todo |
+
+```bash
+openlegal-mcp --profile laboral        # o: openlegal mcp --profile laboral
 ```
 
 ---
 
 ## 🛠️ Verificación de Instalación
 
-Para comprobar que el servidor MCP responde correctamente en tu máquina, ejecuta en la terminal:
-
 ```bash
-python3 -c "
-import subprocess, json
-p = subprocess.Popen(['python3', 'mcp_server.py'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True)
-stdout, _ = p.communicate(json.dumps({'jsonrpc': '2.0', 'id': 1, 'method': 'tools/list'}) + '\n', timeout=5)
-tools = json.loads([l for l in stdout.splitlines() if 'result' in l][0])['result']['tools']
-print(f'✅ Open Legal Chile Suite activa: {len(tools)} herramientas MCP disponibles.')
-"
+printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | openlegal-mcp | \
+  python3 -c "import sys,json; print('✅', len(json.loads(sys.stdin.readline())['result']['tools']), 'herramientas MCP')"
+openlegal doctor
 ```
 
-Salida esperada:
-```text
-✅ Open Legal Chile Suite activa: 87 herramientas MCP disponibles.
-```
+Salida esperada: `✅ 87 herramientas MCP` y el doctor sin ❌.
 
 ---
 
 ## 🛡️ Principios de Privacidad y Costo Cero
-- **100% Código Abierto (Apache-2.0).**
-- **Cero API Keys obligatorias:** Todas las consultas a BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, Doctrina FTS5 y CBR se realizan de forma soberana o contra APIs públicas sin cobro.
-- **Sin telemetría oculta ni bloqueo de proveedores:** El estándar MCP garantiza que el usuario es el dueño absoluto de sus datos y de su infraestructura de IA.
+- **100% código abierto (Apache-2.0).**
+- **Cero API keys obligatorias:** BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, doctrina y CBR se consultan contra fuentes públicas sin cobro. El token de Hugging Face es opcional: solo da más cuota de descarga.
+- **Sin telemetría oculta ni bloqueo de proveedores:** con MCP, el usuario es dueño de sus datos y de su infraestructura de IA.

@@ -59,6 +59,7 @@ from academia_judicial_connector import AcademiaJudicialClient
 from online_library_sync import OnlineLibrarySyncManager
 from legal_graphify import LegalGraphifyEngine
 from citas_legales import CODIGOS, detectar_normas, formatear_cita
+from recursos import ruta_recurso
 
 # Inicializar clientes
 bcn = BCNClient()
@@ -264,12 +265,15 @@ _HERRAMIENTAS_ESCRITURA = {
     "recurso_proteccion_generar", "generar_documento", "compile_legal_dossier",
     "export_brief_ojv", "doctrina_ingestar_documento", "suite_auto_update", "suite_instalar"
 }
+# Las que cambian el entorno de la persona (git pull / pip install / archivos de configuración de
+# sus harness): el cliente debe poder pedir confirmación antes de correrlas.
+_HERRAMIENTAS_DESTRUCTIVAS = {"suite_auto_update", "suite_instalar"}
 for _t in TOOLS:
     if "annotations" not in _t:
         _es_escritura = _t["name"] in _HERRAMIENTAS_ESCRITURA
         _t["annotations"] = {
             "readOnlyHint": not _es_escritura,
-            "destructiveHint": False,
+            "destructiveHint": _t["name"] in _HERRAMIENTAS_DESTRUCTIVAS,
             "openWorldHint": not _es_escritura,
         }
 
@@ -569,20 +573,16 @@ def _organismos_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
         return {"organismos": [], "resultados": {}, "citas": [], "error": str(e)[:160]}
 
 
-def _raiz() -> pathlib.Path:
-    return pathlib.Path(__file__).resolve().parent
-
-
 def _listar_skills() -> Dict[str, Any]:
     """Las 18 skills y los 19 agentes reales del producto (el texto fijo de la CLI decía 7)."""
     skills = []
-    for archivo in sorted((_raiz() / ".agents" / "skills").glob("*/SKILL.md")):
+    for archivo in sorted(ruta_recurso(".agents/skills").glob("*/SKILL.md")):
         texto = archivo.read_text(encoding="utf-8", errors="ignore")
         titulo = next((linea.lstrip("# ").strip() for linea in texto.splitlines() if linea.startswith("# ")),
                       archivo.parent.name)
         skills.append({"nombre": archivo.parent.name, "titulo": titulo})
     agentes = []
-    for archivo in sorted((_raiz() / "agents").glob("*.json")):
+    for archivo in sorted(ruta_recurso("agents").glob("*.json")):
         try:
             agentes.append(json.loads(archivo.read_text(encoding="utf-8")).get("name", archivo.stem))
         except Exception:  # noqa: BLE001 - un JSON roto no puede tumbar el listado
@@ -592,7 +592,7 @@ def _listar_skills() -> Dict[str, Any]:
 
 def _texto_protocolo() -> str:
     """El protocolo de citación tal como está escrito en AGENTS.md (§2 quater)."""
-    agentes = _raiz() / "AGENTS.md"
+    agentes = ruta_recurso("AGENTS.md")
     if not agentes.exists():
         return "Protocolo no disponible: falta AGENTS.md en el paquete."
     texto = agentes.read_text(encoding="utf-8")
@@ -603,7 +603,7 @@ def _texto_protocolo() -> str:
     return texto[inicio:fin if fin != -1 else inicio + 4000]
 
 
-PROMPTS = [
+PROMPTS: List[Dict[str, Any]] = [
     {
         "name": "protocolo_citas",
         "description": "Protocolo de respuesta obligatorio (§2 quater): Hugging Face y conectores estatales siempre, "
@@ -667,7 +667,7 @@ def _leer_recurso(uri: str) -> Optional[Dict[str, str]]:
         return {"uri": uri, "mimeType": "application/json",
                 "text": json.dumps(catalogo, ensure_ascii=False, indent=2)}
     if uri == "openlegal://reglas/integracion":
-        ruta = _raiz() / "docs" / "integracion-harness.md"
+        ruta = ruta_recurso("docs/integracion-harness.md")
         if not ruta.exists():
             return None
         return {"uri": uri, "mimeType": "text/markdown", "text": ruta.read_text(encoding="utf-8")}
@@ -685,45 +685,50 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     except Exception as e:
         return {"error": f"Error ejecutando '{name}': {str(e)}"}
 
+# Todo perfil lleva lo que exige el protocolo de citación: `consulta_maestra` como primer paso,
+# `cita_texto` antes de citar y `suite_doctor` para diagnosticar. Antes ningún perfil traía las tres
+# y el modo perfil contradecía el prompt `protocolo_citas`.
+_PROTOCOLO_BASE: List[str] = ["consulta_maestra", "cita_texto", "suite_doctor"]
+
 TOOL_PROFILES: Dict[str, List[str]] = {
-    "laboral": [
+    "laboral": _PROTOCOLO_BASE + [
         "caso_analizar", "caso_ejecutar", "bcn_get_codigo", "bcn_get_ley",
         "dt_search_doctrina", "pjud_search_jurisprudencia", "pjud_analizar_sentencia",
         "doctrina_search", "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier"
     ],
-    "inmobiliario": [
+    "inmobiliario": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "cbr_estudio_titulos",
         "cbr_checklist_documentos", "cpc_validar_mandato", "doctrina_search",
         "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier"
     ],
-    "litigios": [
+    "litigios": _PROTOCOLO_BASE + [
         "caso_analizar", "caso_ejecutar", "bcn_get_codigo", "bcn_get_ley",
         "pjud_search_jurisprudencia", "pjud_analizar_sentencia", "pjud_interpretar_proveido",
         "recurso_proteccion_generar", "cpc_validar_mandato", "doctrina_search",
         "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier", "ocr_extract_pdf"
     ],
-    "regulatorio": [
+    "regulatorio": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_ley", "cgr_search_jurisprudencia", "cgr_search_auditorias",
         "infoprobidad_get_dip", "cmf_search_normativa", "cmf_buscar_sanciones",
         "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "sma_search_sancionatorios",
-        "ambiental_buscar_jurisprudencia", "cne_get_centrales_y_proyectos", "panel_expertos_search",
+        "ambiental_consulta_maestra", "ambiental_buscar_jurisprudencia", "cne_get_centrales_y_proyectos", "panel_expertos_search",
         "tdlc_search_jurisprudencia", "tdlc_buscar_icg_y_dictamenes", "entes_consultar_organo",
         "export_brief_ojv"
     ],
-    "corporativo": [
+    "corporativo": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "cmf_search_normativa",
         "cmf_buscar_sanciones", "sii_search_circulares", "sii_buscar_resoluciones_y_oficios",
         "tdlc_search_jurisprudencia", "inapi_evaluar_marca", "inapi_cease_and_desist",
         "privacidad_tramitar_arco", "rut_validar_chile", "export_brief_ojv"
     ],
-    "dogmatico": [
+    "dogmatico": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "doctrina_search",
         "doctrina_get_institucion", "doctrina_list_obras", "graphify_consulta_subgrafo",
         "graphify_trazar_camino", "graphify_explicar_institucion", "graphify_analizar_impacto",
         "graphify_god_nodes", "graphify_resumen_comunidades", "academia_judicial_buscar_guias",
         "grafo_ver_corpus", "huggingface_search_dataset"
     ],
-    "clinica": [
+    "clinica": _PROTOCOLO_BASE + [
         "clinica_lenguaje_claro", "clinica_intake_social", "clinica_auditar_borrador",
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "export_brief_ojv"
     ]
@@ -742,10 +747,240 @@ def get_active_tools(profile_name: Optional[str] = None) -> List[Dict[str, Any]]
     return TOOLS
 
 
+# Versiones del protocolo MCP que este servidor habla, de la más nueva a la más antigua. Si el
+# cliente pide una que no está, se responde con la más nueva (así lo pide la especificación) y el
+# cliente decide si sigue; antes se respondía con la más antigua.
+VERSIONES_PROTOCOLO = ("2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05")
+
+# Lo que todo harness recibe en `initialize` (campo estándar `instructions`): el protocolo de
+# citación llega aunque el cliente nunca pida prompts ni recursos.
+INSTRUCCIONES = (
+    "Open Legal Chile: derecho chileno (Civil Law) con fuentes oficiales del Estado. "
+    "Primer paso de toda consulta jurídica: `consulta_maestra` (en materia ambiental, "
+    "`ambiental_consulta_maestra`); trae el corpus de Hugging Face, los organismos estatales, la doctrina, "
+    "el grafo y las normas con su texto literal. Antes de citar, usá `cita_texto` o el bloque `citas` del "
+    "resultado; lo que no se pudo leer se declara «sin fuente verificable». Corchetes oficiales: "
+    "[BCN - Código Civil, Art. 1438], [CS - Rol N° …], [Dictamen DT N° …], [CGR - …]. Nunca uses "
+    "terminología de Common Law. Respuesta primero y bloque «Fuentes:» al final; los documentos se "
+    "entregan en Word (.docx) con citas a pie de página. Protocolo completo: prompt `protocolo_citas` "
+    "o recurso openlegal://reglas/citacion. Estado de la instalación: `suite_doctor`."
+)
+
+
+# Tope de salida por llamada, en caracteres del JSON. Claude Code corta las respuestas MCP por encima
+# de ~25 000 tokens (MAX_MCP_OUTPUT_TOKENS) y en cualquier harness una respuesta gigante llena el
+# contexto: medido el 2026-10-07, ocr_extract_pdf devolvía 3,2 M de caracteres por un manual y
+# cgr_search_auditorias 220 mil. Lo que pasa del tope se guarda completo en disco y la respuesta lleva
+# una versión recortada (misma forma, textos y listas acortados) con la ruta del archivo.
+# OPENLEGAL_MAX_SALIDA=0 lo desactiva.
+_RECORTES = ((4000, 50), (2000, 25), (1000, 12), (500, 6), (250, 3), (120, 2))
+
+
+def _max_salida() -> int:
+    try:
+        return int(os.environ.get("OPENLEGAL_MAX_SALIDA", "60000"))
+    except ValueError:
+        return 60000
+
+
+def _recortar(valor: Any, max_texto: int, max_items: int) -> Any:
+    if isinstance(valor, str):
+        if len(valor) <= max_texto:
+            return valor
+        return valor[:max_texto] + f" … [recortado: {len(valor)} caracteres en total]"
+    if isinstance(valor, list):
+        recortada = [_recortar(x, max_texto, max_items) for x in valor[:max_items]]
+        if len(valor) > max_items:
+            recortada.append(f"… [{len(valor) - max_items} elementos más en la salida completa]")
+        return recortada
+    if isinstance(valor, dict):
+        return {k: _recortar(v, max_texto, max_items) for k, v in valor.items()}
+    return valor
+
+
+def _guardar_salida_completa(nombre: str, texto: str) -> Optional[str]:
+    try:
+        carpeta = pathlib.Path(os.environ.get("OPENLEGAL_SALIDAS_DIR") or pathlib.Path.home() / ".openlegal" / "salidas")
+        carpeta.mkdir(parents=True, exist_ok=True)
+        seguro = "".join(c if c.isalnum() or c in "-_" else "_" for c in nombre)[:60] or "herramienta"
+        ruta = carpeta / f"{seguro}-{datetime.now().strftime('%Y%m%d-%H%M%S-%f')}.json"
+        ruta.write_text(texto, encoding="utf-8")
+        return str(ruta)
+    except OSError:
+        return None
+
+
+def ajustar_salida(nombre: str, resultado: Any) -> Any:
+    """Devuelve el resultado tal cual si cabe en el tope; si no, una versión recortada con aviso."""
+    tope = _max_salida()
+    if tope <= 0:
+        return resultado
+    completo = json.dumps(resultado, ensure_ascii=False, separators=(",", ":"))
+    if len(completo) <= tope:
+        return resultado
+    archivo = _guardar_salida_completa(nombre, completo)
+    aviso = {
+        "caracteres_originales": len(completo),
+        "tope": tope,
+        "archivo_completo": archivo,
+        "nota": "La salida superaba el tope del canal MCP y se recortó (textos y listas acortados). "
+                "La salida íntegra quedó en 'archivo_completo'; para menos volumen, acotá la consulta "
+                "(artículo puntual, menos resultados o menos páginas).",
+    }
+    for max_texto, max_items in _RECORTES:
+        recortado = _recortar(resultado, max_texto, max_items)
+        envoltura = dict(recortado) if isinstance(recortado, dict) else {"resultado": recortado}
+        envoltura["_salida_recortada"] = aviso
+        if len(json.dumps(envoltura, ensure_ascii=False, separators=(",", ":"))) <= tope:
+            return envoltura
+    return {"_salida_recortada": aviso, "inicio": completo[: max(0, tope - 2000)]}
+
+
+def _error(req_id: Any, codigo: int, mensaje: str) -> Dict[str, Any]:
+    return {"jsonrpc": "2.0", "id": req_id, "error": {"code": codigo, "message": mensaje}}
+
+
+def _resultado(req_id: Any, resultado: Dict[str, Any]) -> Dict[str, Any]:
+    return {"jsonrpc": "2.0", "id": req_id, "result": resultado}
+
+
+def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """Atiende un mensaje JSON-RPC ya decodificado. Devuelve la respuesta, o None si no lleva.
+
+    Las notificaciones (sin `id`, como notifications/initialized o notifications/cancelled) no
+    reciben respuesta; un mensaje que no es un objeto recibe -32600 en vez de quedar sin respuesta.
+    """
+    if not isinstance(req, dict):
+        return _error(None, -32600, "Petición inválida: se esperaba un objeto JSON-RPC")
+    req_id = req.get("id")
+    if req_id is None:
+        return None
+    method = req.get("method")
+    params = req.get("params") or {}
+    if not isinstance(method, str) or not isinstance(params, dict):
+        return _error(req_id, -32600, "Petición inválida: falta 'method' o 'params' no es un objeto")
+
+    try:
+        if method == "initialize":
+            solicitada = params.get("protocolVersion")
+            return _resultado(req_id, {
+                "protocolVersion": solicitada if solicitada in VERSIONES_PROTOCOLO else VERSIONES_PROTOCOLO[0],
+                "capabilities": {
+                    "tools": {},
+                    # El harness no sólo ve las herramientas: también puede leer las reglas
+                    # del producto (protocolo de citación) y el catálogo.
+                    "prompts": {"listChanged": False},
+                    "resources": {"listChanged": False, "subscribe": False}
+                },
+                "serverInfo": {
+                    "name": "open-legal-chile-mcp",
+                    "title": "Open Legal Chile",
+                    "version": "1.13.1"
+                },
+                "instructions": INSTRUCCIONES,
+            })
+        if method == "ping":
+            return _resultado(req_id, {})
+        if method == "prompts/list":
+            return _resultado(req_id, {
+                "prompts": [{clave: valor for clave, valor in prompt.items() if not clave.startswith("_")}
+                            for prompt in PROMPTS]
+            })
+        if method == "prompts/get":
+            nombre = params.get("name")
+            elegido = next((p for p in PROMPTS if p["name"] == nombre), None)
+            if elegido is None:
+                return _error(req_id, -32602, f"Prompt desconocido: {nombre}")
+            texto = elegido["_texto"]
+            for clave, valor in (params.get("arguments") or {}).items():
+                texto = texto.replace("{" + str(clave) + "}", str(valor))
+            return _resultado(req_id, {
+                "description": elegido["description"],
+                "messages": [{"role": "user", "content": {"type": "text", "text": texto}}]
+            })
+        if method == "resources/list":
+            return _resultado(req_id, {"resources": _recursos_disponibles()})
+        if method == "resources/templates/list":
+            return _resultado(req_id, {"resourceTemplates": []})
+        if method == "resources/read":
+            uri = params.get("uri", "")
+            contenido = _leer_recurso(uri)
+            if contenido is None:
+                return _error(req_id, -32602, f"Recurso desconocido: {uri}")
+            return _resultado(req_id, {"contents": [contenido]})
+        if method == "tools/list":
+            return _resultado(req_id, {"tools": tools_to_expose})
+        if method == "tools/call":
+            tool_name = str(params.get("name") or "")
+            tool_args = params.get("arguments") or {}
+            _fijar_token_progreso((params.get("_meta") or {}).get("progressToken"))
+            try:
+                # Blindaje contra stdout pollution: cualquier print espurio viaja a stderr
+                with contextlib.redirect_stdout(sys.stderr):
+                    res = handle_tool_call(tool_name, tool_args)
+            finally:
+                _fijar_token_progreso(None)
+            is_error = isinstance(res, dict) and "error" in res
+            res = ajustar_salida(tool_name, res)
+
+            # Formateo denso para ahorro de tokens (25-40% menos tokens que indent=2)
+            if os.environ.get("OPENLEGAL_PRETTY", "").lower() in ("1", "true", "yes"):
+                payload_text = json.dumps(res, ensure_ascii=False, indent=2)
+            else:
+                payload_text = json.dumps(res, ensure_ascii=False, separators=(',', ':'))
+            return _resultado(req_id, {"content": [{"type": "text", "text": payload_text}], "isError": is_error})
+        return _error(req_id, -32601, f"Método no encontrado: {method}")
+    except Exception as e:  # noqa: BLE001 — un error de una petición no puede tumbar el servidor
+        return _error(req_id, -32603, str(e))
+
+
+def _escribir(mensaje: Any) -> None:
+    out = _OUTPUT_STREAM if _OUTPUT_STREAM is not None else sys.stdout
+    with _STDOUT_LOCK:
+        out.write(json.dumps(mensaje, ensure_ascii=False, separators=(',', ':')) + "\n")
+        out.flush()
+
+
+def atender_linea(line: str, tools_to_expose: List[Dict[str, Any]]) -> Any:
+    """Decodifica una línea del canal stdio y devuelve lo que hay que contestar (o None).
+
+    JSON inválido → -32700 con id null (antes el servidor moría si era la primera línea, y en las
+    siguientes contestaba con el id de la petición anterior). Un lote JSON-RPC (array) se atiende
+    elemento por elemento y se contesta con el array de respuestas.
+    """
+    try:
+        req = json.loads(line)
+    except ValueError as e:
+        return _error(None, -32700, f"JSON inválido: {e}")
+    if isinstance(req, list):
+        if not req:
+            return _error(None, -32600, "Petición inválida: lote vacío")
+        respuestas = [r for r in (procesar_mensaje(item, tools_to_expose) for item in req) if r is not None]
+        return respuestas or None
+    return procesar_mensaje(req, tools_to_expose)
+
+
+def _mensajes_de_librerias_a_stderr() -> None:
+    """stdout es el canal del protocolo: nada que no sea JSON-RPC puede escribirse ahí.
+
+    PyMuPDF guarda el sys.stdout real al importarse (forensic_ocr lo importa al arrancar) y escribe
+    ahí sus avisos, por fuera del redirect_stdout de cada tools/call. Medido el 2026-10-07: el aviso
+    de deprecación de `import fitz` llegaba al cliente como una línea no-JSON que el SDK oficial
+    rechazaba. Sus mensajes van a stderr.
+    """
+    try:
+        import pymupdf
+
+        pymupdf.set_messages(stream=sys.stderr)
+    except Exception:  # noqa: BLE001 — sin PyMuPDF (o una versión sin set_messages) no hay nada que desviar
+        pass
+
+
 def main():
     """Bucle principal JSON-RPC 2.0 para el servidor MCP."""
     global _OUTPUT_STREAM
     _OUTPUT_STREAM = sys.stdout
+    _mensajes_de_librerias_a_stderr()
     profile_cli = None
     for i, a in enumerate(sys.argv):
         if a == "--profile" and i + 1 < len(sys.argv):
@@ -763,148 +998,9 @@ def main():
         line = line.strip()
         if not line:
             continue
-        try:
-            req = json.loads(line)
-            if not isinstance(req, dict):
-                continue
-            req_id = req.get("id")
-            method = req.get("method")
-            params = req.get("params", {})
-
-            if req_id is None:
-                # Las notificaciones (como notifications/initialized) no deben recibir respuesta
-                continue
-
-            if method == "initialize":
-                solicitada = params.get("protocolVersion")
-                protocol_ver = solicitada if solicitada in ("2024-11-05", "2025-06-18", "2025-11-25") else "2024-11-05"
-                resp = {
-                    "jsonrpc": "2.0",
-                    "id": req_id,
-                    "result": {
-                        "protocolVersion": protocol_ver,
-                        "capabilities": {
-                            "tools": {},
-                            # El harness no sólo ve las herramientas: también puede leer las reglas
-                            # del producto (protocolo de citación) y el catálogo.
-                            "prompts": {"listChanged": False},
-                            "resources": {"listChanged": False, "subscribe": False}
-                        },
-                        "serverInfo": {
-                            "name": "open-legal-chile-mcp",
-                            "version": "1.13.0"
-                        }
-                    }
-                }
-            elif method == "prompts/list":
-                resp = {
-                    "jsonrpc": "2.0",
-                    "id": req_id,
-                    "result": {
-                        "prompts": [{clave: valor for clave, valor in prompt.items() if not clave.startswith("_")}
-                                    for prompt in PROMPTS]
-                    }
-                }
-            elif method == "prompts/get":
-                nombre = params.get("name")
-                elegido = next((p for p in PROMPTS if p["name"] == nombre), None)
-                if elegido is None:
-                    resp = {"jsonrpc": "2.0", "id": req_id,
-                            "error": {"code": -32602, "message": f"Prompt desconocido: {nombre}"}}
-                else:
-                    texto = elegido["_texto"]
-                    for clave, valor in (params.get("arguments") or {}).items():
-                        texto = texto.replace("{" + str(clave) + "}", str(valor))
-                    resp = {
-                        "jsonrpc": "2.0",
-                        "id": req_id,
-                        "result": {
-                            "description": elegido["description"],
-                            "messages": [{"role": "user", "content": {"type": "text", "text": texto}}]
-                        }
-                    }
-            elif method == "resources/list":
-                resp = {"jsonrpc": "2.0", "id": req_id,
-                        "result": {"resources": _recursos_disponibles()}}
-            elif method == "resources/read":
-                uri = (params or {}).get("uri", "")
-                contenido = _leer_recurso(uri)
-                if contenido is None:
-                    resp = {"jsonrpc": "2.0", "id": req_id,
-                            "error": {"code": -32602, "message": f"Recurso desconocido: {uri}"}}
-                else:
-                    resp = {"jsonrpc": "2.0", "id": req_id, "result": {"contents": [contenido]}}
-            elif method == "tools/list":
-                resp = {
-                    "jsonrpc": "2.0",
-                    "id": req_id,
-                    "result": {
-                        "tools": tools_to_expose
-                    }
-                }
-            elif method == "tools/call":
-                tool_name = params.get("name")
-                tool_args = params.get("arguments", {})
-                _fijar_token_progreso((params.get("_meta") or {}).get("progressToken"))
-                try:
-                    # Blindaje contra stdout pollution: cualquier print espurio viaja a stderr
-                    with contextlib.redirect_stdout(sys.stderr):
-                        res = handle_tool_call(tool_name, tool_args)
-                finally:
-                    _fijar_token_progreso(None)
-                is_error = isinstance(res, dict) and "error" in res
-
-                # Formateo denso para ahorro de tokens (25-40% menos tokens que indent=2)
-                if os.environ.get("OPENLEGAL_PRETTY", "").lower() in ("1", "true", "yes"):
-                    payload_text = json.dumps(res, ensure_ascii=False, indent=2)
-                else:
-                    payload_text = json.dumps(res, ensure_ascii=False, separators=(',', ':'))
-
-                resp = {
-                    "jsonrpc": "2.0",
-                    "id": req_id,
-                    "result": {
-                        "content": [
-                            {
-                                "type": "text",
-                                "text": payload_text
-                            }
-                        ],
-                        "isError": is_error
-                    }
-                }
-            elif method == "ping":
-                resp = {
-                    "jsonrpc": "2.0",
-                    "id": req_id,
-                    "result": {}
-                }
-            else:
-                resp = {
-                    "jsonrpc": "2.0",
-                    "id": req_id,
-                    "error": {
-                        "code": -32601,
-                        "message": f"Método no encontrado: {method}"
-                    }
-                }
-
-            out = _OUTPUT_STREAM if _OUTPUT_STREAM is not None else sys.stdout
-            with _STDOUT_LOCK:
-                out.write(json.dumps(resp, ensure_ascii=False, separators=(',', ':')) + "\n")
-                out.flush()
-
-        except Exception as e:
-            req_id_err = req.get("id") if (isinstance(req, dict) and req.get("id") is not None) else None
-            err_resp = {
-                "jsonrpc": "2.0",
-                "id": req_id_err,
-                "error": {"code": -32603, "message": str(e)}
-            }
-            out = _OUTPUT_STREAM if _OUTPUT_STREAM is not None else sys.stdout
-            with _STDOUT_LOCK:
-                out.write(json.dumps(err_resp) + "\n")
-                out.flush()
+        respuesta = atender_linea(line, tools_to_expose)
+        if respuesta is not None:
+            _escribir(respuesta)
 
 if __name__ == "__main__":
     main()

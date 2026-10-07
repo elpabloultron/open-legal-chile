@@ -8,6 +8,13 @@ on:
   schedule:
     - cron: '0 4 * * 1'  # Ejecución semanal preventiva
 
+
+# Un push nuevo a la misma rama de un PR cancela la corrida anterior: ahorra runners y evita que
+# varias matrices en paralelo consulten la BCN a la vez (respondía 429). En main no se cancela.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   audit:
     name: Security, Quality & Anti-Bloat Audit

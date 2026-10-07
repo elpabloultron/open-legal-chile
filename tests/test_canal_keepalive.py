@@ -45,8 +45,14 @@ class _ConexionFalsa:
         self.cerrada = True
 
 
+_VARIABLES_PROXY = ("HTTPS_PROXY", "https_proxy", "HTTP_PROXY", "http_proxy", "ALL_PROXY", "all_proxy",
+                    "NO_PROXY", "no_proxy")
+
+
 @pytest.fixture(autouse=True)
 def _limpiar(monkeypatch):
+    for variable in _VARIABLES_PROXY:  # la máquina que corre las pruebas puede estar tras un proxy
+        monkeypatch.delenv(variable, raising=False)
     monkeypatch.setattr("http.client.HTTPSConnection", _ConexionFalsa)
     _ConexionFalsa.creadas = 0
     config._CANALES.clear()
@@ -102,3 +108,80 @@ def test_snifa_usa_el_canal(monkeypatch, tmp_path):
     datos = cliente.search_sancionatorios(nombre="prueba")
     assert datos["total"] == 0
     assert llamadas and "ObtenerResultadosGrid" in llamadas[0]
+
+
+class _ConexionProxyFalsa(_ConexionFalsa):
+    def __init__(self, host, port=None, timeout=None):
+        super().__init__(host, timeout=timeout)
+        self.port = port
+        self.tunel = None
+        self.cabeceras_tunel = None
+
+    def set_tunnel(self, host, port=None, headers=None):
+        self.tunel = host
+        self.cabeceras_tunel = headers
+
+
+def test_https_respeta_el_proxy_con_tunel(monkeypatch):
+    """Tras un proxy (estudio, CI, nube) la conexión va por CONNECT al proxy, no directo al host."""
+    monkeypatch.setattr("http.client.HTTPSConnection", _ConexionProxyFalsa)
+    monkeypatch.setenv("HTTPS_PROXY", "http://usuario:clave@proxy.local:3128")
+    assert config.pedir_http("https://www.leychile.cl/Consulta/obtxml?opt=7") == b'{"ok": true}'
+    canal = config._CANALES["https://www.leychile.cl"][0][0]
+    assert (canal.host, canal.port, canal.tunel) == ("proxy.local", 3128, "www.leychile.cl")
+    assert canal.cabeceras_tunel["Proxy-Authorization"].startswith("Basic ")
+    assert canal.peticiones == [("GET", "/Consulta/obtxml?opt=7")]
+
+
+def test_no_proxy_va_directo(monkeypatch):
+    monkeypatch.setattr("http.client.HTTPSConnection", _ConexionProxyFalsa)
+    monkeypatch.setenv("HTTPS_PROXY", "http://proxy.local:3128")
+    monkeypatch.setenv("NO_PROXY", "ejemplo.cl")
+    config.pedir_http("https://ejemplo.cl/a")
+    canal = config._CANALES["https://ejemplo.cl"][0][0]
+    assert canal.host == "ejemplo.cl" and canal.tunel is None
+
+
+def test_http_plano_por_proxy_pide_url_absoluta(monkeypatch):
+    monkeypatch.setattr("http.client.HTTPConnection", _ConexionProxyFalsa)
+    monkeypatch.setenv("HTTP_PROXY", "http://proxy.local:8080")
+    config.pedir_http("http://snifa.sma.gob.cl/x?y=1")
+    canal = config._CANALES["http://snifa.sma.gob.cl"][0][0]
+    assert (canal.host, canal.port) == ("proxy.local", 8080)
+    assert canal.peticiones == [("GET", "http://snifa.sma.gob.cl/x?y=1")]
+
+
+class _RespuestaConEstado(_RespuestaFalsa):
+    def __init__(self, status, cuerpo=b'{"ok": true}', headers=None):
+        super().__init__(cuerpo)
+        self.status = status
+        self.reason = "Too Many Requests" if status == 429 else "OK"
+        self.headers = headers or {}
+
+
+def test_429_se_reintenta_respetando_retry_after(monkeypatch):
+    """La BCN respondía 429 con varios procesos consultando a la vez (CI, estudios tras una IP)."""
+    esperas = []
+    monkeypatch.setattr(config.time, "sleep", lambda s: esperas.append(s))
+    respuestas = [_RespuestaConEstado(429, b"", {"Retry-After": "2"}), _RespuestaConEstado(200, b"listo")]
+    monkeypatch.setattr(_ConexionFalsa, "getresponse", lambda self: respuestas.pop(0))
+    assert config.pedir_http("https://www.leychile.cl/Consulta/obtxml?opt=7") == b"listo"
+    assert esperas == [2.0]
+
+
+def test_429_persistente_termina_en_error_con_espera_acotada(monkeypatch):
+    esperas = []
+    monkeypatch.setattr(config.time, "sleep", lambda s: esperas.append(s))
+    monkeypatch.setattr(_ConexionFalsa, "getresponse",
+                        lambda self: _RespuestaConEstado(429, b"", {"Retry-After": "3600"}))
+    with pytest.raises(config.urllib.error.HTTPError) as error:
+        config.pedir_http("https://www.leychile.cl/x")
+    assert error.value.code == 429
+    assert len(esperas) == config._REINTENTOS_TASA and max(esperas) <= config._ESPERA_MAXIMA
+
+
+def test_404_no_se_reintenta(monkeypatch):
+    monkeypatch.setattr(config.time, "sleep", lambda s: pytest.fail("un 404 no se reintenta"))
+    monkeypatch.setattr(_ConexionFalsa, "getresponse", lambda self: _RespuestaConEstado(404, b""))
+    with pytest.raises(config.urllib.error.HTTPError):
+        config.pedir_http("https://ejemplo.cl/no-existe")

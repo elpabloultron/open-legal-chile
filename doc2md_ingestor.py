@@ -59,9 +59,9 @@ def extract_text_from_source(source: str | Path) -> str:
 
         elif ext == ".pdf":
             try:
-                import fitz  # type: ignore # PyMuPDF
+                import pymupdf as fitz  # type: ignore # `import fitz` está deprecado y avisa por stdout
                 doc = fitz.open(source)
-                pages_text = [page.get_text() for page in doc]
+                pages_text = [doc.load_page(i).get_text() for i in range(doc.page_count)]
                 text = "\n\n".join(pages_text).strip()
                 if text:
                     return text

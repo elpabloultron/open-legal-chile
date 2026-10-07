@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "open-legal-chile": {
+      "command": "python3",
+      "args": ["mcp_server.py"],
+      "env": {
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}

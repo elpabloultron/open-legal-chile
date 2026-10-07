@@ -45,6 +45,7 @@ def procesar_lote(
     actualizar_fts: bool = True,
     dry_run: bool = False,
     verbose: bool = True,
+    actualizar_catalogo: bool = True,
 ) -> Dict[str, Any]:
     """
     Procesa una lista de archivos jurídicos de manera secuencial o por lote,
@@ -137,26 +138,28 @@ def procesar_lote(
                 if verbose:
                     print(f"  ✗ Error al actualizar Knowledge Graph: {e}")
 
-        # 3. Regenerar catálogos ligeros e invalidar caché
-        try:
-            from online_library_sync import OnlineLibrarySyncManager
-            mgr = OnlineLibrarySyncManager()
-            mgr.generar_dataset_train_jsonl()
-
+        # 3. Regenerar catálogos ligeros e invalidar caché. Reescribe data/catalogo/ del repositorio:
+        # un lote en una carpeta temporal (las pruebas) lo apaga con actualizar_catalogo=False.
+        if actualizar_catalogo:
             try:
-                from scripts.optimizar_catalogo_hf import generar_indice_citas, generar_lite
-                generar_lite()
-                generar_indice_citas()
-            except Exception:
-                pass
+                from online_library_sync import OnlineLibrarySyncManager
+                mgr = OnlineLibrarySyncManager()
+                mgr.generar_dataset_train_jsonl()
 
-            invalidar_cache_catalogo()
-            catalogo_ok = True
-            if verbose:
-                print("  ✓ Catálogos y caché en memoria refrescados.")
-        except Exception as e:
-            if verbose:
-                print(f"  ✗ Error al refrescar catálogos: {e}")
+                try:
+                    from scripts.optimizar_catalogo_hf import generar_indice_citas, generar_lite
+                    generar_lite()
+                    generar_indice_citas()
+                except Exception:
+                    pass
+
+                invalidar_cache_catalogo()
+                catalogo_ok = True
+                if verbose:
+                    print("  ✓ Catálogos y caché en memoria refrescados.")
+            except Exception as e:
+                if verbose:
+                    print(f"  ✗ Error al refrescar catálogos: {e}")
 
     duracion = round(time.perf_counter() - t_inicio, 2)
     ahorro_total_pct = (

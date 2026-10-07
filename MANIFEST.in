@@ -14,7 +14,8 @@ include GEMINI.md
 include openlegal.manifest.json
 include skills-lock.json
 recursive-include .agents/skills *.md
-recursive-include agents *.json
+recursive-include agents *.json *.md
+include docs/integracion-harness.md
 recursive-include references *.md
 recursive-include scripts *.py
 recursive-include data *.json *.jsonl

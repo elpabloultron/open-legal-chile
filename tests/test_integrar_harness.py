@@ -15,6 +15,12 @@ import integraciones_harness as ih
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 
 
+def _es_openlegal_mcp(comando: str) -> bool:
+    """El comando es openlegal-mcp, a secas o con su ruta absoluta (las apps de escritorio no
+    heredan el PATH de la terminal, por eso se escribe la ruta completa cuando se conoce)."""
+    return pathlib.Path(comando).name in ("openlegal-mcp", "openlegal-mcp.exe")
+
+
 def _correr_cli(*argumentos: str, cwd: pathlib.Path) -> subprocess.CompletedProcess:
     """Corre la CLI como la corre el usuario, leyendo su salida en UTF-8.
 
@@ -34,7 +40,7 @@ def test_configuracion_claude_code_es_json_valido():
 
     assert cfg["ruta"] == ".mcp.json"
     datos = json.loads(cfg["contenido"])
-    assert datos["mcpServers"]["open-legal-chile"]["command"] == "openlegal-mcp"
+    assert _es_openlegal_mcp(datos["mcpServers"]["open-legal-chile"]["command"])
 
 
 def test_configuracion_vscode_usa_la_clave_servers():
@@ -47,7 +53,7 @@ def test_configuracion_vscode_usa_la_clave_servers():
 def test_configuracion_antigravity_reusa_el_formato_mcpservers():
     datos = json.loads(ih.configuracion("antigravity")["contenido"])
 
-    assert datos["mcpServers"]["open-legal-chile"]["command"] == "openlegal-mcp"
+    assert _es_openlegal_mcp(datos["mcpServers"]["open-legal-chile"]["command"])
 
 
 def test_configuracion_codex_es_toml_de_mcp_servers():
@@ -66,7 +72,8 @@ def test_configuracion_dsh_es_un_parche_cordis():
 
 
 def test_clientes_disponibles():
-    assert {"claude-code", "cursor", "vscode", "antigravity", "codex", "dsh", "generic"} <= set(ih.clientes())
+    assert {"claude-code", "claude-desktop", "cursor", "vscode", "gemini", "antigravity", "windsurf", "codex",
+            "opencode", "dsh", "generic"} <= set(ih.clientes())
 
 
 def test_cliente_desconocido_lo_dice():
@@ -85,7 +92,7 @@ def test_escribir_respalda_y_conserva_los_servidores_previos(tmp_path):
 
     datos = json.loads((tmp_path / ".mcp.json").read_text(encoding="utf-8"))
     assert datos["mcpServers"]["viejo"] == {"command": "x"}, "no puede borrar lo que ya estaba"
-    assert datos["mcpServers"]["open-legal-chile"]["command"] == "openlegal-mcp"
+    assert _es_openlegal_mcp(datos["mcpServers"]["open-legal-chile"]["command"])
     respaldo = (tmp_path / ".mcp.json.bak").read_text(encoding="utf-8")
     assert "viejo" in respaldo
     assert resultado["estado"] == "fusionado"
@@ -154,3 +161,61 @@ def test_todos_cae_al_home_cuando_el_directorio_no_tiene_pistas(tmp_path, monkey
 
     assert [r["cliente"] for r in resultados] == ["dsh"]
     assert (falso_home / "cordis.patch.yml").exists(), "la configuración global va a la casa"
+
+
+def test_configuracion_gemini_cli_usa_settings_json():
+    cfg = ih.configuracion("gemini")
+    assert cfg["ruta"] == ".gemini/settings.json"
+    assert _es_openlegal_mcp(json.loads(cfg["contenido"])["mcpServers"]["open-legal-chile"]["command"])
+
+
+def test_configuracion_opencode_usa_la_clave_mcp_con_comando_en_lista():
+    datos = json.loads(ih.configuracion("opencode")["contenido"])
+    servidor = datos["mcp"]["open-legal-chile"]
+    assert servidor["type"] == "local" and servidor["enabled"] is True
+    assert isinstance(servidor["command"], list) and _es_openlegal_mcp(servidor["command"][0])
+
+
+def test_claude_desktop_y_windsurf_son_globales():
+    for cliente, final in (("claude-desktop", "claude_desktop_config.json"), ("windsurf", "mcp_config.json")):
+        ruta = pathlib.Path(ih.configuracion(cliente)["ruta"])
+        assert ruta.is_absolute() and ruta.name == final, ruta
+
+
+def test_vscode_global_va_a_la_carpeta_de_usuario_de_code():
+    ruta = pathlib.Path(ih.configuracion("vscode", global_=True)["ruta"])
+    assert ruta.parts[-3:] == ("Code", "User", "mcp.json"), ruta
+
+
+def test_modo_uvx_no_requiere_el_paquete_instalado():
+    servidor = json.loads(ih.configuracion("cursor", uvx=True)["contenido"])["mcpServers"]["open-legal-chile"]
+    assert servidor["command"] == "uvx"
+    assert servidor["args"][0] == "--from" and servidor["args"][1].startswith("openlegal-chile")
+    assert servidor["args"][-1] == "openlegal-mcp"
+
+
+def test_codex_toml_escapa_rutas_de_windows():
+    tomllib = __import__("pytest").importorskip("tomllib")
+    original = ih.comando_servidor
+    try:
+        ih.comando_servidor = lambda: r"C:\Users\Ana\venv\Scripts\openlegal-mcp.exe"
+        datos = tomllib.loads(ih.configuracion("codex")["contenido"])
+    finally:
+        ih.comando_servidor = original
+    servidor = datos["mcp_servers"]["open-legal-chile"]
+    assert servidor["command"].endswith("openlegal-mcp.exe") and servidor["env"]["PYTHONUNBUFFERED"] == "1"
+
+
+def test_alias_de_clientes():
+    assert ih.configuracion("gemini-cli")["cliente"] == "gemini"
+    assert ih.configuracion("claude")["cliente"] == "claude-code"
+
+
+def test_claude_code_global_se_registra_con_el_cli(tmp_path, monkeypatch):
+    """El alcance de usuario de Claude Code vive en ~/.claude.json: se registra con `claude mcp add -s user`."""
+    monkeypatch.setattr(pathlib.Path, "home", classmethod(lambda cls: tmp_path))
+    monkeypatch.setattr(ih.shutil, "which", lambda nombre: None if nombre == "claude" else None)
+    resultado = ih.escribir("claude-code", carpeta_base=tmp_path)
+    assert resultado["estado"] == "manual"
+    assert "claude mcp add -s user" in resultado["nota"]
+    assert not (tmp_path / ".mcp.json").exists(), "~/.mcp.json no es el alcance de usuario de Claude Code"

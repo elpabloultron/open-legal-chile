@@ -23,10 +23,15 @@ CODIGOS = {
     "sanitario": "Código Sanitario",
 }
 
-# Alias de escritura frecuente: «CPR», «Constitución Política», «Código Sanitario».
+# Alias de escritura frecuente: «CPR», «Constitución Política», «Código Sanitario» y los nombres
+# completos de los códigos procesales. Sin estos dos últimos, «Código de Procedimiento Civil art. 66»
+# se resolvía como Código Civil art. 66 y «Código Procesal Penal art. 140» como Código Penal art. 140
+# (medido el 2026-10-07: cita_texto devolvía el artículo de otro código con su corchete oficial).
 _ALIAS_OBRA = {
     "constitucion": r"(?:constituci[oó]n(?:\s+pol[ií]tica)?|cpr)",
     "sanitario": r"(?:c[oó]digo\s+sanitario|sanitario)",
+    "cpc": r"(?:procedimiento\s+civil|cpc)",
+    "cpp": r"(?:procesal\s+penal|cpp)",
 }
 
 
@@ -38,12 +43,11 @@ def _alternacion_obras() -> str:
 
 
 def _obra_canonica(capturada: str) -> str:
-    """«Constitución Política»/«CPR» → «constitucion»; «Código Sanitario» → «sanitario»."""
+    """«Constitución Política»/«CPR» → «constitucion»; «Procedimiento Civil» → «cpc»; etc."""
     texto = " ".join(capturada.lower().split())
-    if re.fullmatch(r"(?:constituci[oó]n(?:\s+pol[ií]tica)?|cpr)", texto):
-        return "constitucion"
-    if re.fullmatch(r"(?:c[oó]digo\s+sanitario|sanitario)", texto):
-        return "sanitario"
+    for clave, patron in _ALIAS_OBRA.items():
+        if re.fullmatch(patron, texto):
+            return clave
     return texto
 
 

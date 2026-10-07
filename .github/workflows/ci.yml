@@ -6,6 +6,13 @@ on:
   pull_request:
     branches: [ main ]
 
+
+# Un push nuevo a la misma rama de un PR cancela la corrida anterior: ahorra runners y evita que
+# varias matrices en paralelo consulten la BCN a la vez (respondía 429). En main no se cancela.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   test:
     runs-on: ${{ matrix.os }}
@@ -73,11 +80,23 @@ jobs:
               json.dumps({"jsonrpc": "2.0", "id": 1, "method": "initialize",
                           "params": {"protocolVersion": "2024-11-05", "capabilities": {}}}),
               json.dumps({"jsonrpc": "2.0", "id": 2, "method": "tools/list"}),
+              json.dumps({"jsonrpc": "2.0", "id": 3, "method": "tools/call",
+                          "params": {"name": "skills_listar", "arguments": {}}}),
+              json.dumps({"jsonrpc": "2.0", "id": 4, "method": "resources/read",
+                          "params": {"uri": "openlegal://reglas/citacion"}}),
           ]) + "\n"
-          corrida = subprocess.run(["/tmp/limpio/bin/openlegal-mcp"], input=peticiones,
+          # openlegal-chile: alias con el nombre del paquete (uvx openlegal-chile / registro MCP)
+          corrida = subprocess.run(["/tmp/limpio/bin/openlegal-chile"], input=peticiones,
                                    capture_output=True, text=True, timeout=180)
-          respuestas = [json.loads(l) for l in corrida.stdout.splitlines() if l.strip().startswith("{")]
-          herramientas = [t["name"] for r in respuestas for t in (r.get("result", {}).get("tools") or [])]
+          respuestas = {r.get("id"): r for r in (json.loads(l) for l in corrida.stdout.splitlines()
+                                                  if l.strip().startswith("{"))}
+          herramientas = [t["name"] for t in respuestas[2]["result"]["tools"]]
+          catalogo = json.loads(respuestas[3]["result"]["content"][0]["text"])
+          assert respuestas[1]["result"].get("instructions"), "initialize sin instructions"
+          # Skills, agentes y protocolo viajan como data-files (hasta 1.13.0 el wheel no los llevaba)
+          assert len(catalogo["skills"]) >= 18, catalogo
+          assert len(catalogo["agentes"]) >= 19, catalogo
+          assert "Protocolo no disponible" not in respuestas[4]["result"]["contents"][0]["text"]
 
           assert len(herramientas) == 87, f"{len(herramientas)} herramientas en el paquete instalado"
           for nombre in ("consulta_maestra", "cita_texto", "huggingface_search_dataset", "bcn_get_codigo",
@@ -103,3 +122,41 @@ jobs:
           assert pathlib.Path("/tmp/proyecto/.mcp.json").exists(), "no escribió la configuración"
           print("instalar OK:", datos["harnesses"], "·", datos["doctor"]["estado"])
           PY
+
+  harness:
+    # Lo que ven los harness de verdad: el plugin y el marketplace de Claude Code validados por su
+    # CLI, la extensión de Gemini CLI validada por la suya, y el servidor recorrido con el cliente
+    # oficial del SDK de MCP. Hasta 1.13.0 el plugin cargaba 0 skills y 0 agentes sin que nada fallara.
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Instalar la suite y el SDK oficial de MCP
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]" "mcp>=1.10"
+
+      - name: Cliente oficial del SDK de MCP, esquemas portables, plugin y protocolo
+        run: |
+          python -m pytest -q tests/test_cliente_mcp_oficial.py tests/test_protocolo_mcp.py \
+            tests/test_esquemas_portables.py tests/test_plugin_claude.py tests/test_integrar_harness.py
+
+      - name: Los agentes del plugin están sincronizados con los JSON
+        run: python scripts/generar_agentes_plugin.py --check
+
+      - name: Claude Code valida el plugin y el marketplace
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude plugin validate .claude-plugin/plugin.json | tee plugin.txt
+          claude plugin validate .claude-plugin/marketplace.json | tee marketplace.txt
+          # El único aviso admitido es CLAUDE.md en la raíz (es contexto del repo, no del plugin).
+          ! grep -E "Error|error:|×" plugin.txt marketplace.txt
+
+      - name: Gemini CLI valida la extensión
+        run: npx -y @google/gemini-cli@latest extensions validate .

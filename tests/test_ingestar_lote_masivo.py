@@ -44,6 +44,7 @@ def test_ingestar_lote_masivo_ejecucion(tmp_path, monkeypatch):
         materia="Cesión de Créditos",
         destino_dir=tmp_path,
         actualizar_grafo=False,
+        actualizar_catalogo=False,  # no reescribir data/catalogo/ del repositorio
         dry_run=False,
         verbose=False,
     )
@@ -68,6 +69,7 @@ def test_ingestar_lote_masivo_sin_fts(tmp_path):
         destino_dir=tmp_path,
         actualizar_grafo=False,
         actualizar_fts=False,
+        actualizar_catalogo=False,
         dry_run=False,
         verbose=False,
     )

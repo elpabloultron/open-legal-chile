@@ -1,10 +1,20 @@
 {
   "name": "open-legal-chile",
-  "description": "Ecosistema de agentes de IA, habilidades (skills) y conectores jurídicos especializados en el ordenamiento legal chileno (Civil Law): derecho laboral, litigación OJV, administrativo CGR, ambiental SMA, eléctrico CNE, contratos, corporativo y libre competencia TDLC.",
+  "description": "Open Legal Chile: suite de inteligencia jurídica para el ordenamiento chileno (Civil Law). Instalá «open-legal-chile» para tener todo (MCP de 87 herramientas, 18 skills y 19 agentes); las skills por materia se pueden instalar sueltas y traen el plugin principal como dependencia.",
   "owner": {
     "name": "Open Legal Chile"
   },
   "plugins": [
+    {
+      "name": "open-legal-chile",
+      "displayName": "Open Legal Chile (suite completa)",
+      "description": "La suite completa: servidor MCP con 87 herramientas (10 conectores oficiales del Estado, doctrina, grafo LegalGraphify, OCR forense, escritos OJV), 18 skills y 19 agentes jurídicos. Requiere uv (uvx). Es la opción recomendada: incluye todas las skills de este marketplace.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./",
+      "category": "legal"
+    },
     {
       "name": "chilean-employment-legal",
       "displayName": "Derecho Laboral Chile",
@@ -12,7 +22,11 @@
       "author": {
         "name": "Open Legal Chile"
       },
-      "source": "./.agents/skills/chilean-employment-legal"
+      "source": "./.agents/skills/chilean-employment-legal",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
     },
     {
       "name": "chilean-litigation-legal",
@@ -21,7 +35,11 @@
       "author": {
         "name": "Open Legal Chile"
       },
-      "source": "./.agents/skills/chilean-litigation-legal"
+      "source": "./.agents/skills/chilean-litigation-legal",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
     },
     {
       "name": "chilean-administrative-legal",
@@ -30,7 +48,11 @@
       "author": {
         "name": "Open Legal Chile"
       },
-      "source": "./.agents/skills/chilean-administrative-legal"
+      "source": "./.agents/skills/chilean-administrative-legal",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
     },
     {
       "name": "chilean-energy-legal",
@@ -39,7 +61,11 @@
       "author": {
         "name": "Open Legal Chile"
       },
-      "source": "./.agents/skills/chilean-energy-legal"
+      "source": "./.agents/skills/chilean-energy-legal",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
     },
     {
       "name": "chilean-environmental-legal",
@@ -48,7 +74,11 @@
       "author": {
         "name": "Open Legal Chile"
       },
-      "source": "./.agents/skills/chilean-environmental-legal"
+      "source": "./.agents/skills/chilean-environmental-legal",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
     },
     {
       "name": "chilean-contract-legal",
@@ -57,7 +87,11 @@
       "author": {
         "name": "Open Legal Chile"
       },
-      "source": "./.agents/skills/chilean-contract-legal"
+      "source": "./.agents/skills/chilean-contract-legal",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
     },
     {
       "name": "chilean-corporate-legal",
@@ -66,7 +100,76 @@
       "author": {
         "name": "Open Legal Chile"
       },
-      "source": "./.agents/skills/chilean-corporate-legal"
+      "source": "./.agents/skills/chilean-corporate-legal",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-case-intake",
+      "displayName": "Mesa de Entrada de Casos",
+      "description": "Mesa de entrada de casos chilenos: recibe una carpeta de expediente, un texto o una consulta, clasifica la materia (Rol/RIT y palabras clave), arma el plan de herramientas, ejecuta los pasos seguros y declara lo que falta.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-case-intake",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-dossier-assembly",
+      "displayName": "Ensamblaje de Dossiers Procesales",
+      "description": "Compilación de expedientes y dossiers procesales en PDF judicial A4: foliado digital, portadas separadoras de anexos y exportación dual (tribunales y móvil).",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-dossier-assembly",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-forensic-evidence",
+      "displayName": "Peritaje Documental y OCR Forense",
+      "description": "Peritaje documental, extracción de texto y OCR sobre expedientes escaneados, actas notariales y resoluciones públicas (CPC, Ley 20.886).",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-forensic-evidence",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-notebooklm-grounding",
+      "displayName": "Investigación con NotebookLM",
+      "description": "Investigación jurídica compleja y síntesis probatoria fundamentada con Google NotebookLM, ingesta documental masiva y grafos de vínculos.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-notebooklm-grounding",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-probity-investigation",
+      "displayName": "Probidad e InfoProbidad",
+      "description": "Auditoría de probidad administrativa: cruce de Declaraciones de Intereses y Patrimonio (InfoProbidad), conflictos de interés y fiscalización bajo la Ley 20.880 y la Ley 18.575.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-probity-investigation",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
     }
   ]
 }

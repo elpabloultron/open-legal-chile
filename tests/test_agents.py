@@ -54,6 +54,7 @@ def test_deterministic_pipeline_litigios():
         context={
             "tribunal": "Ilustrísima Corte de Apelaciones de Valparaíso",
             "fecha_acto": "2026-09-08",
+            "fecha_interposicion": "2026-09-14",
             "compilar_pdf": False
         },
         mode="deterministic"

@@ -34,6 +34,19 @@ FILES = {
     "server.json": [
         r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"'
     ],
+    "update_checker.py": [
+        r'CURRENT_VERSION = "([0-9]+\.[0-9]+\.[0-9]+)"'
+    ],
+    # El plugin de Claude Code y la extensión de Gemini fijan la versión del paquete que lanza uvx:
+    # tienen que moverse junto con PyPI, si no el plugin nuevo corre el servidor viejo.
+    ".claude-plugin/plugin.json": [
+        r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"',
+        r'openlegal-chile==([0-9]+\.[0-9]+\.[0-9]+)'
+    ],
+    "gemini-extension.json": [
+        r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"',
+        r'openlegal-chile==([0-9]+\.[0-9]+\.[0-9]+)'
+    ],
 }
 
 VERSION_RE = re.compile(r"^[0-9]+\.[0-9]+\.[0-9]+$")

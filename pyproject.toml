@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openlegal-chile"
-version = "1.13.0"
+version = "1.13.1"
 description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
 readme = "README.md"
 authors = [
@@ -68,6 +68,9 @@ audit = [
 [project.scripts]
 openlegal = "openlegal:main"
 openlegal-mcp = "mcp_server:main"
+# Mismo nombre que el paquete: `uvx openlegal-chile` (y los clientes que leen server.json del
+# registro MCP) arrancan el servidor sin tener que saber que el ejecutable se llama openlegal-mcp.
+openlegal-chile = "mcp_server:main"
 
 [project.urls]
 "Homepage" = "https://github.com/elpabloultron/open-legal-chile"
@@ -132,8 +135,8 @@ py-modules = [
     "pdf_dossier_compiler",
     "pjud_connector",
     "privacidad_inapi",
-    "query_openlegal_laws",
     "recurso_proteccion",
+    "recursos",
     "resolucion_administrativa2md",
     "resoluciones_parser",
     "sentencia2md",
@@ -148,6 +151,31 @@ py-modules = [
 
 [tool.setuptools.data-files]
 "openlegal-chile" = [".env.example", "mcp_config.json", "smithery.yaml"]
+# Recursos que no son código y que las herramientas leen (skills_listar, skill_ver, agent_list y los
+# recursos openlegal://reglas/*). recursos.ruta_recurso() los busca en <prefijo>/share/openlegal-chile.
+# Una entrada por skill: data-files aplana las carpetas. tests/test_empaquetado.py exige que cada
+# carpeta de .agents/skills/ tenga la suya.
+"share/openlegal-chile" = ["AGENTS.md"]
+"share/openlegal-chile/agents" = ["agents/*.json", "agents/*.md"]
+"share/openlegal-chile/docs" = ["docs/integracion-harness.md"]
+"share/openlegal-chile/.agents/skills/chilean-administrative-legal" = [".agents/skills/chilean-administrative-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-case-intake" = [".agents/skills/chilean-case-intake/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-contract-legal" = [".agents/skills/chilean-contract-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-corporate-legal" = [".agents/skills/chilean-corporate-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-dossier-assembly" = [".agents/skills/chilean-dossier-assembly/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-employment-legal" = [".agents/skills/chilean-employment-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-energy-legal" = [".agents/skills/chilean-energy-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-environmental-legal" = [".agents/skills/chilean-environmental-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-forensic-evidence" = [".agents/skills/chilean-forensic-evidence/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-litigation-legal" = [".agents/skills/chilean-litigation-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-notebooklm-grounding" = [".agents/skills/chilean-notebooklm-grounding/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-probity-investigation" = [".agents/skills/chilean-probity-investigation/SKILL.md"]
+"share/openlegal-chile/.agents/skills/ponytail" = [".agents/skills/ponytail/SKILL.md"]
+"share/openlegal-chile/.agents/skills/ponytail-audit" = [".agents/skills/ponytail-audit/SKILL.md"]
+"share/openlegal-chile/.agents/skills/ponytail-debt" = [".agents/skills/ponytail-debt/SKILL.md"]
+"share/openlegal-chile/.agents/skills/ponytail-gain" = [".agents/skills/ponytail-gain/SKILL.md"]
+"share/openlegal-chile/.agents/skills/ponytail-help" = [".agents/skills/ponytail-help/SKILL.md"]
+"share/openlegal-chile/.agents/skills/ponytail-review" = [".agents/skills/ponytail-review/SKILL.md"]
 
 [tool.setuptools.packages.find]
 include = ["connectors*", "domain*", "doctrina*", "data*", "servidor*"]

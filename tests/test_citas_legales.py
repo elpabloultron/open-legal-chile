@@ -44,3 +44,25 @@ def test_detecta_normas_en_orden_inverso():
 
 def test_no_inventa_normas_donde_no_las_hay():
     assert citas_legales.detectar_normas("hola, ¿cómo estás?") == []
+
+
+def test_los_codigos_procesales_con_nombre_completo_no_se_confunden():
+    """«Código de Procedimiento Civil art. 66» se resolvía como Código Civil art. 66, y «Código
+    Procesal Penal art. 140» como Código Penal art. 140: cita_texto devolvía el artículo de otro
+    código con su corchete oficial."""
+    from citas_legales import detectar_normas
+
+    casos = {
+        "Código de Procedimiento Civil art. 66": ("cpc", "66"),
+        "el artículo 254 del Código de Procedimiento Civil": ("cpc", "254"),
+        "art. 254 CPC": ("cpc", "254"),
+        "Código Procesal Penal art. 140": ("cpp", "140"),
+        "según el artículo 140 del Código Procesal Penal": ("cpp", "140"),
+        "Código Penal art. 391": ("penal", "391"),
+        "Código Civil art. 1545": ("civil", "1545"),
+    }
+    for texto, esperado in casos.items():
+        normas = detectar_normas(texto)
+        assert [(n["obra"], n["articulo"]) for n in normas] == [esperado], (texto, normas)
+    assert detectar_normas("Código de Procedimiento Civil art. 66")[0]["etiqueta"] == \
+        "BCN - Código de Procedimiento Civil, Art. 66"

@@ -625,9 +625,12 @@ Ejemplos de uso:
     parser.add_argument("--escribir", action="store_true", help="Con 'integrar': escribe la configuración del harness (con respaldo)")
     parser.add_argument("--todos", action="store_true", help="Con 'integrar': configura todos los harness detectados en la máquina")
     parser.add_argument("--json", action="store_true", help="Con 'instalar': salida legible por máquinas")
+    parser.add_argument("--uvx", action="store_true", help="Con 'integrar'/'instalar': lanzar el MCP con uvx (no requiere el paquete instalado, solo uv)")
+    parser.add_argument("--global", dest="global_", action="store_true", help="Con 'integrar': escribir la configuración global (de usuario) del harness")
     parser.add_argument("--grafo", action="store_true", help="Con 'ambiental': añade el subgrafo de LegalGraphify con su ahorro de tokens (la primera consulta carga su índice)")
     parser.add_argument("--refrescar", action="store_true", help="Con 'cache': baja del hub las revisiones nuevas de lo ya cacheado")
     parser.add_argument("--forzar", action="store_true", help="Con 'cache --refrescar': vuelve a bajar todo lo cacheado, aunque no haya cambiado")
+    parser.add_argument("--profile", type=str, default=None, help="Con 'mcp': perfil temático de herramientas (laboral, litigios, regulatorio…); también OPENLEGAL_PROFILE")
     args = parser.parse_args()
 
     if args.comando == "mcp":
@@ -687,9 +690,10 @@ Ejemplos de uso:
         carpeta = pathlib.Path.cwd()
         detectados = ih.detectar_instalados(carpeta)
         if not detectados:
-            print("No se detectó ningún harness en esta carpeta (se buscó .claude, .cursor, .vscode, .dsh, "
-                  ".codex y .antigravity). Configuralos igual con: openlegal integrar --todos --escribir")
-        escritos = ih.escribir_todos(detectados, carpeta_base=carpeta) if detectados else []
+            print("No se detectó ningún harness en esta carpeta (se buscó .claude, .cursor, .vscode, .gemini, "
+                  ".codex, .dsh, opencode.json y .antigravity). Configuralos igual con: "
+                  "openlegal integrar <cliente> --escribir (o --global para la configuración de usuario)")
+        escritos = ih.escribir_todos(detectados, carpeta_base=carpeta, uvx=args.uvx) if detectados else []
         resumen = diagnostico_completo()
         from mcp_server import TOOLS as _TOOLS_MCP
 
@@ -728,7 +732,7 @@ Ejemplos de uso:
                 print("Ejemplo: openlegal integrar claude-code --escribir\n")
                 return
             print(f"\n🔌 Integrando {len(detectados)} harness detectados: {', '.join(detectados)}\n")
-            for resultado in escribir_todos_ih(detectados):
+            for resultado in escribir_todos_ih(detectados, uvx=args.uvx):
                 print(json.dumps(resultado, ensure_ascii=False))
             print(f"\n✅ Listo. Reiniciá cada harness: tienen que verse {total_mcp} herramientas MCP.\n")
             return
@@ -736,13 +740,14 @@ Ejemplos de uso:
             print_banner()
             print(f"\n🔌 INTEGRAR OPEN LEGAL CHILE EN TU HARNESS ({total_mcp} herramientas MCP)\n")
             for nombre in clientes_ih():
-                cfg = config_ih(nombre)
-                print(f" • {nombre:<12} → {cfg['ruta']}")
+                cfg = config_ih(nombre, uvx=args.uvx, global_=args.global_)
+                print(f" • {nombre:<15} → {cfg['ruta']}")
             print("\nEjemplo: openlegal integrar claude-code --escribir")
-            print("Sin --escribir, solo muestra el contenido listo para pegar.\n")
+            print("Sin --escribir, solo muestra el contenido listo para pegar. --global: configuración de usuario;")
+            print("--uvx: lanza el servidor con uvx (no hace falta tener el paquete instalado, solo uv).\n")
             return
         try:
-            cfg = config_ih(cliente)
+            cfg = config_ih(cliente, uvx=args.uvx, global_=args.global_)
         except ValueError as exc:
             print(f"❌ {exc}")
             return
@@ -750,9 +755,10 @@ Ejemplos de uso:
             print(f"# {cfg['cliente']} → {cfg['ruta']} (agregá --escribir para guardarlo)\n")
             print(cfg["contenido"])
             return
-        resultado = escribir_ih(cfg["cliente"])
+        resultado = escribir_ih(cfg["cliente"], carpeta_base=pathlib.Path.home() if args.global_ else None,
+                                uvx=args.uvx)
         print(json.dumps(resultado, ensure_ascii=False, indent=2))
-        if resultado["estado"] in ("escrito", "fusionado", "agregado"):
+        if resultado["estado"] in ("escrito", "fusionado", "agregado", "registrado"):
             print(f"\n✅ Listo. Reiniciá el harness y pedile «tools/list»: tienen que verse {total_mcp} herramientas.")
         return
 
