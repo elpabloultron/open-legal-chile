@@ -187,11 +187,27 @@ TOOLS = [
                 "recurrente": {
                     "type": "object",
                     "description": "Datos del recurrente: nombre, run, domicilio, email, profesion_oficio, representado_nombre (opcional), representado_run (opcional)",
+                    "properties": {
+                        "nombre": {"type": "string", "description": "Nombre completo del recurrente"},
+                        "run": {"type": "string", "description": "RUN del recurrente (ej. 12.345.678-9)"},
+                        "domicilio": {"type": "string", "description": "Domicilio del recurrente"},
+                        "email": {"type": "string", "description": "Correo electrónico para notificaciones"},
+                        "profesion_oficio": {"type": "string", "description": "Profesión u oficio"},
+                        "representado_nombre": {"type": "string", "description": "Nombre de la persona representada (opcional)"},
+                        "representado_run": {"type": "string", "description": "RUN de la persona representada (opcional)"}
+                    },
                     "required": ["nombre", "run", "domicilio", "email"]
                 },
                 "recurrido": {
                     "type": "object",
                     "description": "Datos de la recurrida: nombre, rut (opcional o 'se desconoce'), domicilio (opcional), email (opcional), representante_legal (opcional)",
+                    "properties": {
+                        "nombre": {"type": "string", "description": "Nombre o razón social de la recurrida"},
+                        "rut": {"type": "string", "description": "RUT de la recurrida, o 'se desconoce'"},
+                        "domicilio": {"type": "string", "description": "Domicilio de la recurrida (opcional)"},
+                        "email": {"type": "string", "description": "Correo electrónico de la recurrida (opcional)"},
+                        "representante_legal": {"type": "string", "description": "Representante legal (opcional)"}
+                    },
                     "required": ["nombre"]
                 },
                 "acto_lesivo": {"type": "string", "description": "Descripción precisa del acto u omisión arbitrario e ilegal impugnado"},
@@ -199,7 +215,15 @@ TOOLS = [
                 "hechos": {
                     "type": "array",
                     "description": "Cronología de hechos numerados. Cada elemento puede ser texto o dict con 'texto' y 'anexo' (ej. 'Anexo 1')",
-                    "items": {"type": ["string", "object"]}
+                    "items": {
+                        "anyOf": [
+                            {"type": "string"},
+                            {"type": "object", "properties": {
+                                "texto": {"type": "string", "description": "Relato del hecho"},
+                                "anexo": {"type": "string", "description": "Anexo que lo acredita (ej. 'Anexo 1')"}
+                            }}
+                        ]
+                    }
                 },
                 "garantias": {
                     "type": "array",

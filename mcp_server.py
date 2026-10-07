@@ -688,45 +688,50 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     except Exception as e:
         return {"error": f"Error ejecutando '{name}': {str(e)}"}
 
+# Todo perfil lleva lo que exige el protocolo de citación: `consulta_maestra` como primer paso,
+# `cita_texto` antes de citar y `suite_doctor` para diagnosticar. Antes ningún perfil traía las tres
+# y el modo perfil contradecía el prompt `protocolo_citas`.
+_PROTOCOLO_BASE: List[str] = ["consulta_maestra", "cita_texto", "suite_doctor"]
+
 TOOL_PROFILES: Dict[str, List[str]] = {
-    "laboral": [
+    "laboral": _PROTOCOLO_BASE + [
         "caso_analizar", "caso_ejecutar", "bcn_get_codigo", "bcn_get_ley",
         "dt_search_doctrina", "pjud_search_jurisprudencia", "pjud_analizar_sentencia",
         "doctrina_search", "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier"
     ],
-    "inmobiliario": [
+    "inmobiliario": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "cbr_estudio_titulos",
         "cbr_checklist_documentos", "cpc_validar_mandato", "doctrina_search",
         "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier"
     ],
-    "litigios": [
+    "litigios": _PROTOCOLO_BASE + [
         "caso_analizar", "caso_ejecutar", "bcn_get_codigo", "bcn_get_ley",
         "pjud_search_jurisprudencia", "pjud_analizar_sentencia", "pjud_interpretar_proveido",
         "recurso_proteccion_generar", "cpc_validar_mandato", "doctrina_search",
         "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier", "ocr_extract_pdf"
     ],
-    "regulatorio": [
+    "regulatorio": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_ley", "cgr_search_jurisprudencia", "cgr_search_auditorias",
         "infoprobidad_get_dip", "cmf_search_normativa", "cmf_buscar_sanciones",
         "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "sma_search_sancionatorios",
-        "ambiental_buscar_jurisprudencia", "cne_get_centrales_y_proyectos", "panel_expertos_search",
+        "ambiental_consulta_maestra", "ambiental_buscar_jurisprudencia", "cne_get_centrales_y_proyectos", "panel_expertos_search",
         "tdlc_search_jurisprudencia", "tdlc_buscar_icg_y_dictamenes", "entes_consultar_organo",
         "export_brief_ojv"
     ],
-    "corporativo": [
+    "corporativo": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "cmf_search_normativa",
         "cmf_buscar_sanciones", "sii_search_circulares", "sii_buscar_resoluciones_y_oficios",
         "tdlc_search_jurisprudencia", "inapi_evaluar_marca", "inapi_cease_and_desist",
         "privacidad_tramitar_arco", "rut_validar_chile", "export_brief_ojv"
     ],
-    "dogmatico": [
+    "dogmatico": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "doctrina_search",
         "doctrina_get_institucion", "doctrina_list_obras", "graphify_consulta_subgrafo",
         "graphify_trazar_camino", "graphify_explicar_institucion", "graphify_analizar_impacto",
         "graphify_god_nodes", "graphify_resumen_comunidades", "academia_judicial_buscar_guias",
         "grafo_ver_corpus", "huggingface_search_dataset"
     ],
-    "clinica": [
+    "clinica": _PROTOCOLO_BASE + [
         "clinica_lenguaje_claro", "clinica_intake_social", "clinica_auditar_borrador",
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "export_brief_ojv"
     ]
