@@ -11,6 +11,9 @@
 # graphify lee .gitignore y este archivo: aquí solo se puede excluir MÁS, nunca re-incluir.
 
 # Corpus jurídico y material de estudio (texto de terceros, no código)
+# investigacion_academica/generar_docx_paper.py queda fuera a propósito: arma el .docx del artículo
+# académico, no es código de la suite (lo amarra tests/test_graphify_codigo.py, que exige que esa
+# sea la única excepción de código versionado).
 doctrina/
 corpus_guias_aj/
 investigacion_academica/

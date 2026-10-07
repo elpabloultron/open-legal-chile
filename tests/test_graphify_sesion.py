@@ -1,11 +1,13 @@
 """graphify en las sesiones en la nube: se instala fijado, construye el grafo de código sin
-bloquear, nunca hace fallar la sesión y su guardia no empuja al grafo de código a quien estudia
-doctrina.
+retener el arranque, nunca hace fallar la sesión y su guardia no empuja al grafo de código a quien
+estudia doctrina.
 
-Hasta 1.13.1 CLAUDE.md exigía `graphify query` y `graphify update .`, pero graphify no estaba
+Hasta 1.13.0 CLAUDE.md exigía `graphify query` y `graphify update .`, pero graphify no estaba
 instalado en ninguna sesión (los hooks PreToolUse quedaban mudos) y, ya instalado, `hook-guard`
 respondía «MANDATORY: You MUST run graphify» incluso al leer doctrina/README.md.
 Las pruebas usan dobles de `uv` y `graphify` en tmp_path: sin red y sin tocar el repositorio.
+La decisión de alcance de la guardia (qué carpetas calla) se prueba en tests/test_graphify_alcance.py,
+que corre también en Windows; aquí se prueba el envoltorio bash y la sesión.
 """
 from __future__ import annotations
 
@@ -16,6 +18,7 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 
 import pytest
 
@@ -29,8 +32,8 @@ pytestmark = pytest.mark.skipif(
     reason="los hooks de Claude Code en la nube son bash sobre Linux",
 )
 
-_HERRAMIENTAS = ("bash", "sh", "cat", "grep", "sed", "paste", "head", "mkdir", "timeout",
-                 "setsid", "nohup", "dirname", "cp", "chmod", "env")
+_HERRAMIENTAS = ("bash", "sh", "cat", "grep", "head", "mkdir", "rm", "timeout", "sleep",
+                 "setsid", "nohup", "dirname", "basename", "cp", "chmod", "env")
 
 _GRAPHIFY_DOBLE = """#!/bin/sh
 echo "graphify $*" >> "$DOBLE_LOG"
@@ -45,6 +48,7 @@ exit 0
 _UV_DOBLE = """#!/bin/sh
 echo "uv $*" >> "$DOBLE_LOG"
 if [ "$1 $2" = "tool install" ]; then
+  [ -n "${DOBLE_UV_LENTO:-}" ] && sleep "$DOBLE_UV_LENTO"
   [ -n "${DOBLE_UV_FALLA:-}" ] && exit 1
   for a in "$@"; do case "$a" in graphifyy==*) echo "graphify ${a#graphifyy==}" > "$DOBLE_VERSION" ;; esac; done
   cp "$DOBLE_GRAPHIFY" "$DOBLE_TOOLBIN/graphify" && chmod +x "$DOBLE_TOOLBIN/graphify"
@@ -70,6 +74,9 @@ def entorno(tmp_path):
         real = shutil.which(nombre)
         if real:
             (sistema / nombre).symlink_to(real)
+    # La guardia delega el alcance en graphify_alcance.py: necesita un Python, que no es del sistema
+    # aislado sino el del intérprete que corre pytest.
+    (sistema / "python3").symlink_to(sys.executable)
     dobles = tmp_path / "dobles"
     toolbin = tmp_path / "toolbin"
     dobles.mkdir()
@@ -143,6 +150,9 @@ def test_si_uv_falla_la_sesion_sigue(entorno):
     r = _correr(SESION, env)
     assert r.returncode == 0
     assert "graphify update" not in _llamadas(entorno)
+    # El trabajo desacoplado deja la causa en el log de la sesión (la sesión misma no imprime nada).
+    log = (entorno["proyecto"] / "graphify-out" / ".sesion.log").read_text(encoding="utf-8")
+    assert "uv tool install falló" in log
 
 
 def test_es_idempotente_y_no_duplica_el_path(entorno):
@@ -153,29 +163,121 @@ def test_es_idempotente_y_no_duplica_el_path(entorno):
     assert _llamadas(entorno).count("tool install") == 1
 
 
-@pytest.mark.parametrize("ruta", [
-    "doctrina/civil/orrego/teoria_general_del_contrato.md",
-    "data/legal_knowledge_graph.json",
-    "corpus_guias_aj/Guia_Audiencia_Monitoria-v1.md",
-    ".agents/skills/chilean-case-intake/SKILL.md",
-])
-def test_la_guardia_calla_en_el_corpus_juridico(entorno, ruta):
+def test_no_imprime_nada_en_el_stdout_del_hook(entorno):
+    # Claude Code agrega el stdout de un hook SessionStart al contexto de la sesión.
+    r = _correr(SESION, entorno["env"])
+    assert r.returncode == 0 and r.stdout == ""
+
+
+def test_funciona_con_ruta_relativa_desde_otro_directorio(entorno):
+    # Con CLAUDE_PROJECT_DIR definido, el script cambia de directorio: su propia ruta (para relanzarse
+    # en modo --trabajo) se calcula antes. Con `$0` relativo y el cd hecho, el trabajo no arrancaba.
+    r = subprocess.run(["bash", "./graphify-sesion.sh"], env=entorno["env"], cwd=HOOKS, text=True,
+                       encoding="utf-8", capture_output=True, timeout=60)
+    assert r.returncode == 0, r.stderr
+    assert (entorno["proyecto"] / "graphify-out" / "graph.json").exists()
+
+
+@pytest.mark.skipif(shutil.which("setsid") is None or shutil.which("nohup") is None,
+                    reason="el desacople usa nohup y setsid")
+def test_no_retiene_la_sesion_mientras_instala_y_construye(entorno):
+    # Sin OPENLEGAL_GRAPHIFY_ESPERAR: la rama real. Un uv que tarda 3 s en instalar no puede retener el
+    # arranque. Con capture_output=True, subprocess.run espera el cierre de los pipes: si el proceso
+    # desacoplado los heredara, devolvería recién a los ~3 s y Claude Code esperaría al grafo.
+    env = {k: v for k, v in entorno["env"].items() if k != "OPENLEGAL_GRAPHIFY_ESPERAR"}
+    env["DOBLE_UV_LENTO"] = "3"
+    inicio = time.monotonic()
+    r = _correr(SESION, env)
+    demora = time.monotonic() - inicio
+    assert r.returncode == 0, r.stderr
+    assert demora < 1.5, f"el hook retuvo la sesión {demora:.2f} s"
+    assert r.stdout == ""
+    grafo = entorno["proyecto"] / "graphify-out" / "graph.json"
+    assert not grafo.exists(), "el grafo se construye después, ya desacoplado"
+    limite = time.monotonic() + 15
+    while not grafo.exists() and time.monotonic() < limite:
+        time.sleep(0.1)
+    assert grafo.exists(), "el proceso desacoplado no llegó a construir el grafo"
+
+
+def test_la_sesion_reinicia_las_marcas_de_aviso(entorno):
+    marca = entorno["proyecto"] / "graphify-out" / ".guardia" / "x-read"
+    marca.parent.mkdir(parents=True)
+    marca.touch()
+    assert _correr(SESION, entorno["env"]).returncode == 0
+    assert not marca.parent.exists(), "SessionStart (incluido compact/clear) debe volver a permitir el aviso"
+
+
+@pytest.fixture
+def guardia(entorno):
+    """Guardia lista: graphify doble en el PATH y un graph.json (sin él la guardia sale temprano)."""
     shutil.copy(entorno["env"]["DOBLE_GRAPHIFY"], entorno["dobles"] / "graphify")
-    entrada = json.dumps({"tool_name": "Read", "tool_input": {"file_path": f"{entorno['proyecto']}/{ruta}"}})
-    r = _correr(GUARDIA, entorno["env"], "read", entrada=entrada)
+    grafo = entorno["proyecto"] / "graphify-out"
+    grafo.mkdir()
+    (grafo / "graph.json").write_text('{"nodes": []}', encoding="utf-8")
+    return entorno
+
+
+def _evento(herramienta, sesion="s1", **campos):
+    return json.dumps({"session_id": sesion, "tool_name": herramienta, "tool_input": campos})
+
+
+@pytest.mark.parametrize("herramienta,tipo,campos", [
+    pytest.param("Read", "read", {"file_path": "{P}/doctrina/civil/orrego/teoria_general_del_contrato.md"},
+                 id="read_doctrina"),
+    pytest.param("Read", "read", {"file_path": "{P}/data/legal_knowledge_graph.json"}, id="read_data"),
+    pytest.param("Read", "read", {"file_path": "{P}/.agents/skills/chilean-case-intake/SKILL.md"}, id="skills"),
+    pytest.param("Grep", "search", {"pattern": "compraventa", "path": "{P}/doctrina"}, id="grep_path_sin_barra"),
+    pytest.param("Glob", "read", {"pattern": "*.md", "path": "{P}/corpus_guias_aj"}, id="glob_path"),
+    pytest.param("Bash", "search", {"command": "rg -n compraventa doctrina"}, id="bash_rg"),
+    pytest.param("Read", "read", {"file_path": "doctrina\\civil\\a.md"}, id="windows"),
+])
+def test_la_guardia_calla_en_el_corpus_juridico(guardia, herramienta, tipo, campos):
+    campos = {k: v.replace("{P}", str(guardia["proyecto"])) for k, v in campos.items()}
+    r = _correr(GUARDIA, guardia["env"], tipo, entrada=_evento(herramienta, **campos))
+    assert r.returncode == 0 and r.stdout == ""
+    assert "hook-guard" not in _llamadas(guardia)
+
+
+@pytest.mark.parametrize("tipo,herramienta,campos", [
+    ("read", "Read", {"file_path": "servidor/corpus.py"}),
+    ("search", "Bash", {"command": "grep -rn ORDEN_ORIGEN mcp_server.py"}),
+])
+def test_la_guardia_deja_pasar_el_codigo(guardia, tipo, herramienta, campos):
+    r = _correr(GUARDIA, guardia["env"], tipo, entrada=_evento(herramienta, **campos))
+    assert r.returncode == 0
+    assert json.loads(r.stdout) == {"guardia": tipo}
+
+
+def test_la_guardia_avisa_una_vez_por_sesion(guardia):
+    codigo = _evento("Read", sesion="s1", file_path="servidor/corpus.py")
+    primero = _correr(GUARDIA, guardia["env"], "read", entrada=codigo)
+    assert json.loads(primero.stdout) == {"guardia": "read"}
+    segundo = _correr(GUARDIA, guardia["env"], "read", entrada=codigo)
+    assert segundo.returncode == 0 and segundo.stdout == ""
+    otra = _correr(GUARDIA, guardia["env"], "read", entrada=_evento("Read", "s2", file_path="servidor/corpus.py"))
+    assert json.loads(otra.stdout) == {"guardia": "read"}
+
+
+def test_un_comando_sin_aviso_no_consume_el_aviso_de_la_sesion(guardia):
+    # La marca se crea solo si graphify avisó: si no hubo aviso, el siguiente Grep todavía lo recibe.
+    (guardia["dobles"] / "graphify").write_text("#!/bin/sh\ncat > /dev/null\nexit 0\n", encoding="utf-8")
+    sin_aviso = _correr(GUARDIA, guardia["env"], "search", entrada=_evento("Bash", command="ls servidor"))
+    assert sin_aviso.stdout == ""
+    assert not (guardia["proyecto"] / "graphify-out" / ".guardia").exists()
+
+
+def test_la_guardia_sin_grafo_no_llama_a_graphify(entorno):
+    shutil.copy(entorno["env"]["DOBLE_GRAPHIFY"], entorno["dobles"] / "graphify")
+    r = _correr(GUARDIA, entorno["env"], "read", entrada=_evento("Read", file_path="servidor/corpus.py"))
     assert r.returncode == 0 and r.stdout == ""
     assert "hook-guard" not in _llamadas(entorno)
 
 
-@pytest.mark.parametrize("tipo,entrada", [
-    ("read", {"tool_name": "Read", "tool_input": {"file_path": "servidor/corpus.py"}}),
-    ("search", {"tool_name": "Bash", "tool_input": {"command": "grep -rn ORDEN_ORIGEN mcp_server.py"}}),
-])
-def test_la_guardia_deja_pasar_el_codigo(entorno, tipo, entrada):
-    shutil.copy(entorno["env"]["DOBLE_GRAPHIFY"], entorno["dobles"] / "graphify")
-    r = _correr(GUARDIA, entorno["env"], tipo, entrada=json.dumps(entrada))
-    assert r.returncode == 0
-    assert json.loads(r.stdout) == {"guardia": tipo}
+def test_la_guardia_sin_python_falla_abierta(guardia):
+    (guardia["sistema"] / "python3").unlink()
+    r = _correr(GUARDIA, guardia["env"], "read", entrada=_evento("Read", file_path="servidor/corpus.py"))
+    assert r.returncode == 0 and r.stdout == ""
 
 
 def test_la_guardia_sin_graphify_no_dice_nada(entorno):
@@ -184,12 +286,22 @@ def test_la_guardia_sin_graphify_no_dice_nada(entorno):
     assert r.returncode == 0 and r.stdout == ""
 
 
-def test_los_hooks_registrados_son_tolerantes():
+def test_los_hooks_de_graphify_son_tolerantes():
     settings = json.loads((RAIZ / ".claude" / "settings.json").read_text(encoding="utf-8"))
     comandos = [h["command"] for grupo in settings["hooks"]["PreToolUse"] for h in grupo["hooks"]]
-    assert comandos and all("graphify-guardia.sh" in c and c.rstrip().endswith("|| true") for c in comandos)
+    # Solo los de graphify: un hook futuro sin relación con graphify no debe romper esta prueba.
+    de_graphify = [c for c in comandos if "graphify" in c]
+    assert de_graphify, "debe haber al menos un hook PreToolUse de graphify"
+    for comando in de_graphify:
+        assert "graphify-guardia.sh" in comando and comando.rstrip().endswith("|| true"), comando
     inicio = (HOOKS / "session-start.sh").read_text(encoding="utf-8")
     assert re.search(r'graphify-sesion\.sh"?\s*\|\|\s*true', inicio), "graphify no puede cortar el arranque"
+    # La carpeta de los hooks se calcula antes del cd: con una ruta relativa, después apuntaría mal.
+    lineas = [x.strip() for x in inicio.splitlines() if x.strip() and not x.strip().startswith("#")]
+    pos_hooks = next(i for i, x in enumerate(lineas) if x.startswith("HOOKS_DIR="))
+    pos_cd = next(i for i, x in enumerate(lineas) if x.startswith("cd "))
+    assert pos_hooks < pos_cd
+    assert '"$HOOKS_DIR/graphify-sesion.sh"' in inicio
 
 
 def test_la_version_fijada_es_la_documentada():

@@ -48,12 +48,20 @@ def test_el_registro_va_en_un_job_aparte_que_no_frena_pypi():
     registro = jobs["publish-mcp-registry"]
     assert set(registro["needs"]) == {"detect-version", "build-and-publish"}
     assert registro["continue-on-error"] is True
-    assert "!cancelled()" in registro["if"] and "build-and-publish.result != 'failure'" in registro["if"]
+    condicion = registro["if"]
+    assert "!cancelled()" in condicion
+    # Una versión publicada en el registro no se puede cambiar: solo desde main o un release, nunca
+    # desde un workflow_dispatch en una rama cualquiera.
+    assert "refs/heads/main" in condicion and "github.event_name == 'release'" in condicion
+    # 'cancelled' y 'failure' no pasan; 'skipped' sí (PyPI ya tenía la versión y el registro va atrasado).
+    assert '["success","skipped"]' in condicion and "!= 'failure'" not in condicion
     assert registro["permissions"] == {"contents": "read", "id-token": "write"}
+    assert registro["env"]["BUILD_RESULT"] == "${{ needs.build-and-publish.result }}"
     pasos = "\n".join(s.get("run", "") for s in registro["steps"])
     assert "mcp-publisher login github-oidc" in pasos
     assert "mcp-publisher publish server.json" in pasos
     assert "sha256sum --check" in pasos, "el binario se verifica contra el checksums del release"
+    assert "BUILD_RESULT" in pasos, "la espera a PyPI depende de si este run subió la versión"
     assert "secrets." not in json.dumps(registro), "OIDC: el job no necesita secretos"
     assert "mcp-publisher" not in json.dumps(jobs["build-and-publish"]), "PyPI no depende del registro"
 

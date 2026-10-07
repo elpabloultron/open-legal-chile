@@ -112,8 +112,15 @@ jobs:
   publish-mcp-registry:
     # Job aparte y tolerante: cuando corre, el paquete ya está en PyPI y el release creado, así que
     # un rechazo del registro (que está en preview) no puede deshacer ni bloquear nada de eso.
+    #
+    # Solo main y release: una versión publicada en el registro NO se puede cambiar («The version
+    # string MUST be unique… cannot be changed», versioning.mdx), así que un workflow_dispatch
+    # desde una rama cualquiera dejaría fija una versión que después no se corrige. Y solo se
+    # acepta 'success' o 'skipped' de build-and-publish: 'cancelled' o 'failure' no (con
+    # `!= 'failure'` pasaba 'cancelled'). 'skipped' es el caso en que PyPI ya tenía la versión y el
+    # registro va atrasado.
     needs: [detect-version, build-and-publish]
-    if: ${{ !cancelled() && needs.detect-version.outputs.registry_publish == 'true' && needs.build-and-publish.result != 'failure' }}
+    if: ${{ !cancelled() && (github.ref == 'refs/heads/main' || github.event_name == 'release') && needs.detect-version.outputs.registry_publish == 'true' && contains(fromJSON('["success","skipped"]'), needs.build-and-publish.result) }}
     runs-on: ubuntu-latest
     continue-on-error: true
     timeout-minutes: 20
@@ -123,6 +130,7 @@ jobs:
     env:
       VERSION: ${{ needs.detect-version.outputs.version }}
       SERVER_NAME: ${{ needs.detect-version.outputs.server_name }}
+      BUILD_RESULT: ${{ needs.build-and-publish.result }}
 
     steps:
       - uses: actions/checkout@v7
@@ -138,17 +146,22 @@ jobs:
           PY
 
       # El registro valida el paquete contra PyPI (versión publicada y `mcp-name:` en la
-      # descripción, que es el README). Recién subido, PyPI puede tardar en servir la versión.
+      # descripción, que es el README). Recién subido, PyPI puede tardar en servir la versión: se
+      # espera hasta 10 minutos (20 intentos cada 30 s) solo si este mismo run la subió
+      # (BUILD_RESULT=success). Si build-and-publish se omitió, PyPI ya la tenía o no la va a
+      # tener: un solo intento, en vez de esperar 10 minutos inútiles en cada push.
       - name: Esperar a que PyPI sirva la versión
         run: |
-          for intento in $(seq 1 20); do
+          INTENTOS=1
+          [ "$BUILD_RESULT" = "success" ] && INTENTOS=20
+          for intento in $(seq 1 "$INTENTOS"); do
             if curl -fsS -o /dev/null --max-time 30 "https://pypi.org/pypi/openlegal-chile/${VERSION}/json"; then
               echo ">>> PyPI sirve openlegal-chile ${VERSION} (intento ${intento})"
               exit 0
             fi
-            sleep 30
+            [ "$intento" -lt "$INTENTOS" ] && sleep 30
           done
-          echo "::warning::PyPI no sirve openlegal-chile ${VERSION} tras 10 minutos: no se publica en el registro MCP."
+          echo "::warning::PyPI no sirve openlegal-chile ${VERSION} (${INTENTOS} intento(s), build-and-publish=${BUILD_RESULT}): no se publica en el registro MCP."
           exit 1
 
       # Última versión a propósito: el registro rechaza binarios viejos («invalid audience», según
@@ -181,8 +194,17 @@ jobs:
             exit 1
           fi
 
+      # El registro puede tardar unos segundos en servir lo recién publicado: 3 intentos cada 10 s.
       - name: El registro sirve la versión publicada
         run: |
-          curl -fsS --max-time 30 \
-            "https://registry.modelcontextprotocol.io/v0.1/servers/${SERVER_NAME/\//%2F}/versions/${VERSION}" \
-            | python3 -c "import json, os, sys; assert json.load(sys.stdin)['server']['version'] == os.environ['VERSION']"
+          for intento in 1 2 3; do
+            if curl -fsS --max-time 30 \
+                "https://registry.modelcontextprotocol.io/v0.1/servers/${SERVER_NAME/\//%2F}/versions/${VERSION}" \
+                | python3 -c "import json, os, sys; assert json.load(sys.stdin)['server']['version'] == os.environ['VERSION']"; then
+              echo ">>> El registro MCP sirve ${SERVER_NAME} ${VERSION} (intento ${intento})"
+              exit 0
+            fi
+            [ "$intento" -lt 3 ] && sleep 10
+          done
+          echo "::warning::El registro MCP no sirve ${SERVER_NAME} ${VERSION} tras 3 intentos."
+          exit 1

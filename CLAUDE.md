@@ -88,6 +88,9 @@ Reglas:
   existe, se navega con Grep/Read.
 - `graphify-out/GRAPH_REPORT.md`, solo para una revisión amplia de arquitectura.
 - Después de modificar código, `graphify update .` (solo AST, sin costo de API; no ensucia git).
-  Si se niega porque el grafo «se achicaría», es un `graphify-out/` de antes de `.graphifyignore`:
-  borrarlo y volver a correr.
+  Si se niega porque el grafo «se achicaría», `graphify-out/` es local y desechable: borrarlo y
+  volver a correr (pasa con un `graphify-out/` anterior a `.graphifyignore` o después de sumar
+  exclusiones).
+- La guardia `PreToolUse` avisa una vez por sesión y tipo, y calla en las carpetas que excluye
+  `.graphifyignore`.
 - No correr `graphify claude install` ni sus pares de Cursor/Antigravity: reescriben estas reglas.

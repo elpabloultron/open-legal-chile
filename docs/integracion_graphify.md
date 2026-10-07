@@ -22,12 +22,12 @@ código quedan como `_origin: "ast"`. La comparación es por la terna `(origen, 
 así que la integración es **idempotente**: correrla dos, tres o diez veces no duplica nada
 (verificado: la primera corrida agrega 967 nodos y 1.366 enlaces; las siguientes, 0 y 0).
 
-El resultado se exporta a `graph.html` (vis.js) y abarca **el código del repositorio y el derecho
-chileno en el mismo grafo**.
+El resultado se exporta a `graph.html` (vis.js) del grafo doctrinal (`graphify-doctrinal/`); el grafo
+de código local (`graphify-out/`) no se fusiona.
 
 ## Dos grafos de Graphify, dos carpetas (07-10-2026)
 
-Hasta 1.13.1 `graphify-out/` hacía dos trabajos incompatibles: era el grafo que CLAUDE.md mandaba
+Hasta 1.13.0 `graphify-out/` hacía dos trabajos incompatibles: era el grafo que CLAUDE.md mandaba
 consultar para preguntas de **código** y, a la vez, el grafo **doctrinal** cuyos visualizadores y
 wiki publica `online_library_sync.py` en Hugging Face. Medido sobre el artefacto versionado:
 21.521 nodos (68 % secciones de doctrina, 2.103 de código, sin `recursos.py`), 37 MB, y sus nodos
@@ -45,6 +45,19 @@ más conectados eran «Academia Judicial de Chile» (8.073 aristas) y «doctrina
 Por qué no se regeneró en su lugar: con `.graphifyignore`, `graphify update .` sobre la carpeta vieja
 se niega a escribir (el grafo «se achicaría» de 21.521 a 4.798 nodos) y con `--force` deja 1.113
 nodos jurídicos sin archivo de origen que nunca se desalojan.
+
+**Decisión de producto pendiente del titular.** Hasta 1.13.0 `integrar_con_graphify()` y
+`legal_graphify.py --merge-graphify` fusionaban por defecto en `graphify-out/graph.json`; ahora lo
+hacen en `graphify-doctrinal/graph.json`. Se eligió el comportamiento conservador: conserva lo que
+hoy consume Hugging Face (la fusión es idempotente y ese grafo ya trae los nodos jurídicos
+fusionados) y evita diluir el grafo de código local (de 3.740 a unos 17.800 nodos). Las otras dos
+salidas posibles, fusionar en el grafo de código local o retirar la función, no se tomaron.
+
+**Qué avisa la guardia.** Los hooks `PreToolUse` de `.claude/settings.json` pasan por
+`.claude/hooks/graphify-guardia.sh`: callan en las carpetas que excluye `.graphifyignore` (la decide
+`graphify_alcance.py`) y avisan una vez por sesión y por tipo (`search`/`read`), porque el aviso
+nativo de graphify cuesta unos 100 tokens por Read y 47 por Grep, siempre. Que se activen o se
+quiten, y con qué frecuencia, es una decisión del titular.
 
 ## Números medidos (18-09-2026)
 
@@ -67,10 +80,13 @@ nodos jurídicos sin archivo de origen que nunca se desalojan.
 
 ## Por qué no mantenemos un fork
 
-Un fork de Graphify tendría que reescribirse cada vez que el proyecto original cambia (va por 0.9.63
+Un fork de Graphify tendría que reescribirse cada vez que el proyecto original cambia (va por 0.9.79
 y publica sus versiones en PyPI como `graphifyy`), y este repositorio solo necesita **consumir** su
-salida. Por eso: se instala la versión publicada, se ejecuta `graphify update .` (versión fijada en
-`.claude/hooks/graphify-sesion.sh`) para regenerar `graphify-out/`, y el grafo jurídico se integra con `integrar_con_graphify()`. Si algún día hace
+salida. Por eso: se instala la versión publicada, se ejecuta `graphify update .` para regenerar
+`graphify-out/`, y el grafo jurídico se integra con `integrar_con_graphify()`. La versión está fijada
+en `.claude/hooks/graphify-sesion.sh` por cadena de suministro (un paquete de terceros que se instala
+solo en cada sesión) y porque `hook-guard` ya trae un modo `--strict` capaz de denegar un Read; el
+grafo es local, así que sus bytes no importan. Si algún día hace
 falta la estructura modular de Graphify dentro de este proyecto, se rehace aquí, con la API en
 español y las pruebas de esta suite como red — no al revés.
 

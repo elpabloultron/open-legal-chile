@@ -12,3 +12,6 @@ chileno NO está ahí: se consulta con las herramientas MCP `graphify_*` y `cons
   existe, Read/Grep como siempre. Incluí esta regla en los subagentes que exploren código.
 - `graphify-out/GRAPH_REPORT.md`, solo para una revisión amplia de arquitectura.
 - Después de modificar código, `graphify update .` (solo AST, sin costo de API; no ensucia git).
+  Si se niega porque el grafo «se achicaría», `graphify-out/` es local y desechable: borrarlo y
+  volver a correr (pasa con un `graphify-out/` anterior a `.graphifyignore` o después de sumar
+  exclusiones).

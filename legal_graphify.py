@@ -1680,8 +1680,10 @@ class LegalGraphifyEngine:
 
     def integrar_con_graphify(self, graphify_out_path: str = "graphify-doctrinal/graph.json") -> Dict[str, Any]:
         """
-        Fusiona el grafo de conocimiento jurídico con el grafo general de Graphify (código + AST),
-        permitiendo que herramientas como 'graphify explain' y 'graph.html' abarquen la doctrina legal.
+        Fusiona el grafo jurídico con el grafo DOCTRINAL de Graphify (graphify-doctrinal/graph.json:
+        código histórico más doctrina), que alimenta los visualizadores publicados en Hugging Face.
+        El grafo de código local de la CLI no se fusiona: lo diluiría (21.521 contra 3.740 nodos,
+        medido el 07-10-2026). La fusión es idempotente.
         """
         if not self.is_built:
             self.construir_grafo_desde_doctrina()

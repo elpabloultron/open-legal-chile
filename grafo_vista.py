@@ -2,7 +2,7 @@
 
 El motor (LegalGraphify) arma grafos; esto los hace visibles. Escribe un archivo HTML
 autocontenido —los datos van adentro, la librería de dibujo se baja de un CDN, igual que
-graphify-out/graph.html— con nodos coloreados por tipo o comunidad, etiquetas al pasar el mouse y
+graphify-doctrinal/graph.html— con nodos coloreados por tipo o comunidad, etiquetas al pasar el mouse y
 el detalle de cada nodo.
 
 Dos entradas:

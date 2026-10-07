@@ -16,3 +16,6 @@ Reglas:
   `graphify path "<A>" "<B>"` para relaciones y `graphify explain "<símbolo>"` para un nodo.
 - `graphify-out/GRAPH_REPORT.md`, solo para una revisión amplia de arquitectura.
 - Después de modificar código, `graphify update .` (solo AST, sin costo de API; no ensucia git).
+  Si se niega porque el grafo «se achicaría», `graphify-out/` es local y desechable: borrarlo y
+  volver a correr (pasa con un `graphify-out/` anterior a `.graphifyignore` o después de sumar
+  exclusiones).

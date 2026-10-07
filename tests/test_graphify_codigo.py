@@ -10,9 +10,12 @@ regla de CLAUDE.md fallaba en cada sesión. El grafo doctrinal pasó, byte a byt
 from __future__ import annotations
 
 import ast
-import fnmatch
 import inspect
 import pathlib
+import shutil
+import subprocess
+
+import pytest
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 IGNORE = RAIZ / ".graphifyignore"
@@ -31,17 +34,38 @@ def test_el_grafo_de_codigo_excluye_el_corpus_juridico_y_los_datos():
         assert carpeta in reglas, f".graphifyignore debe excluir {carpeta}"
 
 
-def test_el_grafo_de_codigo_no_pierde_codigo():
-    reglas = _reglas()
-    assert not any(r.startswith("!") for r in reglas), "graphify no re-incluye lo que ignora .gitignore"
-    excluidas = {r.rstrip("/") for r in reglas if r.endswith("/") and "*" not in r}
-    for carpeta in ("servidor", "connectors", "domain", "scripts", "tests", "evals", "agents", ".claude/hooks"):
-        assert carpeta not in excluidas, f"{carpeta}/ es código: no puede salir del grafo"
-    assert not any(r.endswith(".py") or r in ("*", "*.*") for r in reglas), reglas
-    # Ningún patrón de archivo tapa un módulo de la raíz (los que lista pyproject en py-modules).
-    de_archivo = [r for r in reglas if not r.endswith("/")]
-    for modulo in RAIZ.glob("*.py"):
-        assert not any(fnmatch.fnmatch(modulo.name, r) for r in de_archivo), modulo.name
+def test_el_ignore_no_saca_codigo_de_la_suite():
+    """La semántica real de exclusión, no las líneas: .gitignore + .graphifyignore, como las aplica graphify.
+
+    Comparar líneas literales no veía que `investigacion_academica/` se lleva un .py versionado. Aquí se
+    usa el mismo motor de patrones que graphify (`check-ignore --no-index`, que también evalúa lo que ya
+    está versionado) sobre cada .py y .sh del repositorio.
+    """
+    if shutil.which("git") is None or not (RAIZ / ".git").exists():
+        pytest.skip("requiere git y un checkout con .git")
+
+    def _excluidos(rutas: list[str]) -> set[str]:
+        r = subprocess.run(
+            ["git", "-c", f"core.excludesFile={IGNORE.as_posix()}", "check-ignore", "--no-index", "--stdin", "-z"],
+            input="\0".join(rutas) + "\0", capture_output=True, text=True, encoding="utf-8", cwd=RAIZ,
+            timeout=120)
+        assert r.returncode in (0, 1), r.stderr  # 1 = ninguna ruta ignorada
+        return {x for x in r.stdout.split("\0") if x}
+
+    versionados = subprocess.run(["git", "ls-files", "-z", "*.py", "*.sh"], capture_output=True, text=True,
+                                 encoding="utf-8", cwd=RAIZ, timeout=120)
+    assert versionados.returncode == 0, versionados.stderr
+    codigo = [x for x in versionados.stdout.split("\0") if x]
+    assert "servidor/corpus.py" in codigo and ".claude/hooks/graphify-sesion.sh" in codigo
+    assert _excluidos(codigo) == {"investigacion_academica/generar_docx_paper.py"}, (
+        "el grafo de código perdería archivos de la suite; la única excepción declarada es la del paper")
+
+    # Y el corpus sí queda fuera: lo que el grafo de código no debe diluir.
+    muestras = ["doctrina/civil/x.md", "data/legal_knowledge_graph.json", ".agents/skills/a/SKILL.md",
+                "docs/index.html", "corpus_guias_aj/g.md"]
+    assert _excluidos(muestras) == set(muestras)
+    assert not _excluidos(["servidor/corpus.py", "docs/grafo.md", "tests/test_graphify_codigo.py"])
+    assert not any(r.startswith("!") for r in _reglas()), "graphify no re-incluye lo que ignora .gitignore"
 
 
 def test_el_grafo_de_codigo_es_local():
@@ -61,3 +85,7 @@ def test_el_grafo_doctrinal_vive_fuera_de_graphify_out():
         rutas = [n.value for n in ast.walk(arbol) if isinstance(n, ast.Constant) and isinstance(n.value, str)
                  and "graphify-out" in n.value]
         assert not rutas, f"{archivo}: graphify-out/ es el grafo de código local; lo doctrinal va en graphify-doctrinal/"
+    # Ninguna referencia viva al graph.html de la carpeta de trabajo de graphify: ahora es el grafo de
+    # código local. El visualizador doctrinal es graphify-doctrinal/graph.html.
+    for archivo in ("docs/index.html", "grafo_vista.py", "README.md"):
+        assert "graphify-out/graph.html" not in (RAIZ / archivo).read_text(encoding="utf-8"), archivo

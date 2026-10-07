@@ -21,7 +21,7 @@ from typing import Dict, Any, List, Optional, Tuple
 
 BASE_DIR = os.path.dirname(__file__)
 # Grafo DOCTRINAL de graphify (wiki de comunidades y visualizadores que se publican en Hugging Face).
-# Hasta 1.13.1 vivía en graphify-out/, la carpeta de trabajo de la CLI de graphify: un
+# Hasta 1.13.0 vivía en graphify-out/, la carpeta de trabajo de la CLI de graphify: un
 # `graphify update .` lo pisaba con el grafo de código y `graphify uninstall --purge` lo borraba.
 GRAPHIFY_DOCTRINAL_DIR = os.path.join(BASE_DIR, "graphify-doctrinal")
 DOCTRINA_DIR = os.path.join(BASE_DIR, "doctrina")
