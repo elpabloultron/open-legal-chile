@@ -185,7 +185,11 @@ class TestEjecucion(unittest.TestCase):
     def test_ejecuta_los_pasos_del_plan(self):
         resultado = case_intake.caso_ejecutar(self.TEXTO, limite_pasos=4)
         self.assertEqual(len(resultado["resultados"]), 4)
-        self.assertTrue(all(r["estado"] == "ok" for r in resultado["resultados"]))
+        # Un paso puede saltearse con su motivo (p. ej. bcn_get_codigo cuando el caso no menciona un
+        # artículo: traer el Código entero eran millones de caracteres), pero nunca fallar en silencio.
+        self.assertTrue(all(r["estado"] in ("ok", "salteado") for r in resultado["resultados"]))
+        self.assertTrue(all(r.get("motivo") for r in resultado["resultados"] if r["estado"] == "salteado"))
+        self.assertFalse([a for n, a in self.llamadas if n == "bcn_get_codigo" and not a.get("articulo")])
         # El paso 0 es el corpus publicado: la mesa arranca por Hugging Face.
         self.assertEqual([n for n, _ in self.llamadas][0], "huggingface_search_dataset")
         self.assertEqual([n for n, _ in self.llamadas][1], "pjud_search_jurisprudencia")

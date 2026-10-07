@@ -19,4 +19,5 @@ if ! command -v pdftotext >/dev/null 2>&1 && command -v apt-get >/dev/null 2>&1;
   (apt-get install -y -qq poppler-utils >/dev/null 2>&1 || true)
 fi
 
-echo 'export PYTHONPATH="."' >> "${CLAUDE_ENV_FILE:-/dev/null}"
+# Sin PYTHONPATH: pytest ya define pythonpath=["."] y mcp_server.py agrega su propia carpeta. Un
+# PYTHONPATH relativo hace que cualquier pip/python tome la carpeta actual como importable.
