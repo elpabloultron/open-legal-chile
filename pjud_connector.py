@@ -105,7 +105,29 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_JURISPRUDENCIA = os.path.join(BASE_DIR, "data", "jurisprudencia")
 
 _CORPUS_CACHE: Dict[str, Any] = {"clave": None, "registros": []}
-_CORPUS_EXCLUIDOS = {"link", "link_detalle", "link_pdf", "documento_id", "id_buscador", "archivo_md", "metodo"}
+_CORPUS_EXCLUIDOS = {"link", "link_detalle", "link_pdf", "documento_id", "id_buscador", "archivo_md", "metodo",
+                     "archivo_fuente"}
+
+
+def ruta_hf_corte_suprema(registro: Dict[str, Any]) -> Optional[str]:
+    """La ruta de la ficha de la Corte Suprema en el dataset de HF, o None si no se puede armar.
+
+    El dataset guarda `jurisprudencia_cs/{era}/{mes}/{rol}.md`: la carpeta es la ERA del rol (el
+    año que lleva el rol, «10641-2024» → 2024), no el año de la fecha del fallo, y el mes sí sale
+    de la fecha. Antes se usaba el año de la fecha y el 18,8 % de las rutas no existía (un fallo
+    del 2026-03-04 con rol 10641-2024 vive en 2024/03, no en 2026/03). El rol va sin puntos de
+    miles, como en los nombres de archivo («29.635-2018» → «29635-2018»).
+    """
+    rol = re.sub(r"^\s*Rol\s*N?[°º.]?\s*", "", str(registro.get("rol") or ""), flags=re.IGNORECASE).strip()
+    m = re.fullmatch(r"(\d{1,3}(?:\.\d{3})+|\d{1,7})-(\d{4})", rol)
+    fecha = str(registro.get("fecha") or "").strip()
+    if not m or not re.match(r"^\d{4}-\d{2}", fecha):
+        return None
+    numero = int(m.group(1).replace(".", ""))
+    era = str(registro.get("era") or m.group(2)).strip()
+    if not re.fullmatch(r"\d{4}", era):
+        return None
+    return f"jurisprudencia_cs/{era}/{fecha[5:7]}/{numero}-{m.group(2)}.md"
 
 
 def _rutas_corpus_local() -> List[str]:
@@ -155,10 +177,9 @@ def _extracto_de_sentencia(registro: Dict[str, Any], tokens: List[str]) -> str:
     archivo = str(registro.get("archivo_md") or "").strip()
     if archivo:
         rutas.append(os.path.join(BASE_DIR, archivo))
-    fecha = str(registro.get("fecha") or "")
-    rol = str(registro.get("rol") or "")
-    if rol and re.match(r"^\d{4}-\d{2}", fecha):
-        rutas.append(os.path.join(BASE_DIR, "jurisprudencia_cs", fecha[:4], fecha[5:7], f"{rol}.md"))
+    ruta_cs = ruta_hf_corte_suprema(registro)
+    if ruta_cs:
+        rutas.append(os.path.join(BASE_DIR, *ruta_cs.split("/")))
     for ruta in rutas:
         try:
             if not os.path.isfile(ruta) or os.path.getsize(ruta) < _MIN_TEXTO_SENTENCIA:
@@ -250,6 +271,9 @@ def _cargar_corpus_local() -> List[Dict[str, Any]]:
                         continue
                     vistos.add(firma)
                     registro["_texto"] = _texto_registro(registro)
+                    # De qué archivo del dataset sale el registro: es la cita real cuando el
+                    # registro no tiene una ficha .md propia en HF (p. ej. cs_sentencias.jsonl).
+                    registro["archivo_fuente"] = os.path.relpath(ruta, BASE_DIR).replace(os.sep, "/")
                     registros.append(registro)
         except OSError:
             continue

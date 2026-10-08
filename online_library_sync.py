@@ -1817,10 +1817,16 @@ def _buscar_catalogo_instituciones(tokens_q: List[str], query_norm: str, limit: 
 
 def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
                                      repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
-                                     space_id: str = "pablobenavidesj/open-legal-chile-graph") -> List[Dict[str, Any]]:
-    """Busca en el corpus local cosechado de jurisprudencia judicial (CS, TC, Ambiental)."""
+                                     space_id: str = "pablobenavidesj/open-legal-chile-graph",
+                                     archivos: Optional[set] = None) -> List[Dict[str, Any]]:
+    """Busca en el corpus local cosechado de jurisprudencia judicial (CS, TC, Ambiental).
+
+    `archivos` es el listado del dataset: si viene, ninguna ruta se cita sin estar en él. Una
+    ruta que no existe se reemplaza por el archivo del dataset donde vive el registro (su JSONL):
+    nunca se inventa una ruta.
+    """
     try:
-        from pjud_connector import buscar_sentencias_locales
+        from pjud_connector import buscar_sentencias_locales, ruta_hf_corte_suprema
         sentencias = buscar_sentencias_locales(query, limit=limit)
     except Exception:
         sentencias = []
@@ -1835,18 +1841,26 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
         recurso = str(s.get("recurso") or "").strip()
         resultado_fallo = str(s.get("resultado") or "").strip()
 
-        if "Constitucional" in tribunal or s.get("archivo_md", "").startswith("jurisprudencia_tc"):
-            archivo_hf = f"jurisprudencia_tc/{clean_rol}.md"
+        archivo_md = str(s.get("archivo_md") or "").strip()
+        fuente = str(s.get("archivo_fuente") or "").strip()
+        if "Constitucional" in tribunal or archivo_md.startswith("jurisprudencia_tc"):
+            archivo_hf = archivo_md or f"jurisprudencia_tc/{clean_rol}.md"
             tipo = "jurisprudencia_tc"
-        elif "Ambiental" in tribunal or s.get("archivo_md", "").startswith("jurisprudencia_ambiental"):
-            archivo_hf = s.get("archivo_md") or f"jurisprudencia_ambiental/{clean_rol}.md"
+        elif "Ambiental" in tribunal or archivo_md.startswith("jurisprudencia_ambiental"):
+            archivo_hf = archivo_md or f"jurisprudencia_ambiental/{clean_rol}.md"
             tipo = "jurisprudencia_ambiental"
         else:
-            if re.match(r"^\d{4}-\d{2}", fecha):
-                archivo_hf = f"jurisprudencia_cs/{fecha[:4]}/{fecha[5:7]}/{clean_rol}.md"
-            else:
-                archivo_hf = f"jurisprudencia_cs/{fecha[:4] if len(fecha) >= 4 else '2026'}/01/{clean_rol}.md"
+            # La ficha .md de la CS vive en jurisprudencia_cs/{era}/{mes}/{rol}.md. Sin listado,
+            # solo se da por cierta cuando el registro sale del índice que generó esas fichas.
+            archivo_hf = archivo_md or ruta_hf_corte_suprema(s) or ""
+            if archivo_hf and archivos is None and not archivo_md \
+                    and not fuente.endswith("cs_sentencias_2anios.jsonl"):
+                archivo_hf = ""
             tipo = "jurisprudencia_cs"
+        if fuente and (not archivo_hf or (archivos is not None and archivo_hf not in archivos)):
+            archivo_hf = fuente
+        if not archivo_hf:
+            continue
 
         encoded_path = archivo_hf.replace(" ", "%20")
         cita = f"[Hugging Face - {repo_id}, Archivo: {archivo_hf}]"
@@ -1918,7 +1932,8 @@ def consultar_huggingface_dataset(query: str, limit: int = 5,
         es_jurisprudencia = es_rol or any(k in query_norm for k in ("sentencia", "fallo", "amparo", "casacion", "proteccion", "unificacion"))
 
         candidatos_inst = _buscar_catalogo_instituciones(tokens_q, query_norm, limit=limit, repo_id=repo_id, space_id=space_id)
-        candidatos_juris = _buscar_catalogo_jurisprudencia(query, limit=limit, repo_id=repo_id, space_id=space_id) if (es_jurisprudencia or len(candidatos_inst) < limit) else []
+        candidatos_juris = _buscar_catalogo_jurisprudencia(query, limit=limit, repo_id=repo_id, space_id=space_id,
+                                                           archivos=set(files)) if (es_jurisprudencia or len(candidatos_inst) < limit) else []
 
         candidatos_archivos: List[Dict[str, Any]] = []
         candidatos_paths = sorted((f for f in files if any(t in _normalizar_para_buscar(f).lower() for t in tokens_q)),
