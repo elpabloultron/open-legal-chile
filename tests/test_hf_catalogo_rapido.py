@@ -23,14 +23,21 @@ def test_busqueda_instituciones_canonica():
 
 
 def test_busqueda_jurisprudencia_por_rol():
-    """Búsqueda de un Rol específico devuelve la ficha de jurisprudencia judicial."""
+    """Búsqueda de un Rol específico devuelve la ficha de jurisprudencia judicial, citando un
+    archivo que EXISTE en el dataset.
+
+    Antes esta prueba exigía `45.123-2021` dentro de la ruta: era la ruta que inventaba el bug de
+    la carpeta (año de la fecha en vez de la era del rol) y no existe en HF. El registro vive en
+    `data/jurisprudencia/cs_sentencias.jsonl`, y eso es lo que se cita."""
     res = ols.consultar_huggingface_dataset("45.123-2021", limit=3)
     assert not res.get("error")
     assert res["resultados"], "Debe encontrar resultados para un Rol válido"
 
     primero = res["resultados"][0]
     assert primero["tipo"] == "jurisprudencia_cs"
-    assert "45.123-2021" in primero["archivo"]
+    assert primero["archivo"] in set(ols._listar_archivos_hf("pablobenavidesj/doctrina-jurisprudencia-chile"))
+    assert primero["archivo"] == "data/jurisprudencia/cs_sentencias.jsonl"
+    assert "45.123-2021" in primero["extractos"][0]
     assert res["citas"][0]["formato"].startswith("[Hugging Face - ")
 
 
