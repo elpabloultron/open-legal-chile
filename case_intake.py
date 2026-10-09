@@ -373,6 +373,14 @@ def detectar(entrada: str, tipo: Optional[str] = None) -> Dict[str, Any]:
         if letra in LETRAS_RIT:
             letras.append(letra)
 
+    # Los mismos roles con su ID canónico, solo cuando el contexto dice de qué tribunal son (Corte
+    # Suprema, TC, tribunal ambiental): un RIT o una causa de la Corte de Apelaciones no entra.
+    try:
+        from citas_legales import roles_canonicos
+        canonicos = [i for i, _ in roles_canonicos(plano)]
+    except Exception:  # noqa: BLE001 — la detección sigue sin la gramática canónica
+        canonicos = []
+
     if re.search(r"(?i)\bRIT\b|\bROL\b", plano) and not roles:
         notas.append("menciona un Rol/RIT pero el número no se pudo leer: no se usa para decidir")
 
@@ -403,6 +411,7 @@ def detectar(entrada: str, tipo: Optional[str] = None) -> Dict[str, Any]:
     return {
         "texto_analizado": len(plano),
         "roles": sorted(set(roles))[:10],
+        "roles_canonicos": canonicos[:10],
         "letras": sorted(set(letras)),
         "puntajes": puntajes,
         "instituciones": instituciones,
@@ -651,6 +660,26 @@ def _resumen(analisis: Dict[str, Any]) -> str:
     return "\n".join(lineas)
 
 
+def _fichas_mapa(roles_canonicos: List[str]) -> List[Dict[str, Any]]:
+    """La ficha del mapa del corpus de HF de cada rol detectado CON su contexto (una causa de la
+    Corte Suprema, del TC o de un tribunal ambiental; nunca un RIT ni una causa de la Corte de
+    Apelaciones o de un juzgado). Sin mapa listo, vacío. No usa la red."""
+    try:
+        from online_library_sync import cliente_mapa
+        from pjud_connector import _registro_de_fila_mapa
+        cliente = cliente_mapa()
+        if cliente is None:
+            return []
+        fichas: List[Dict[str, Any]] = []
+        for id_ in dict.fromkeys(roles_canonicos):
+            fila = cliente.entrada(id_)
+            if fila:
+                fichas.append(_registro_de_fila_mapa(cliente, fila))
+        return fichas
+    except Exception:  # noqa: BLE001 — la mesa de entrada sigue sin el mapa
+        return []
+
+
 def caso_analizar(entrada: str, tipo: Optional[str] = None, consulta: str = "",
                   estudio_completo: bool = False, generar_dashboard: bool = False) -> Dict[str, Any]:
     """Punto de entrada: de un caso a un plan. Si estudio_completo es True, consolida marco legal y doctrina en 1 paso."""
@@ -671,6 +700,9 @@ def caso_analizar(entrada: str, tipo: Optional[str] = None, consulta: str = "",
         "deteccion": deteccion,
         **planeado,
     }
+    fichas = _fichas_mapa(deteccion.get("roles_canonicos") or [])
+    if fichas:
+        analisis["fichas_mapa"] = fichas
     try:
         from case_workspace import crear_o_cargar_caso
         ws = crear_o_cargar_caso(str(entrada), consulta=str(consulta or ""),
