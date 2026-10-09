@@ -82,7 +82,7 @@ def _bajar_base_hf(destino: Path, revision: str, token: Optional[str]) -> Option
 def cmd_estado(a: argparse.Namespace) -> int:
     trabajo = _trabajo(a.trabajo)
     token = _token()
-    sha, modificado = (a.sha, "") if a.sha else inventario.sha_main(token=token)
+    sha, modificado = inventario.sha_main(token=token, revision=a.sha) if a.sha else inventario.sha_main(token=token)
     inv = _filtrar(inventario.inventario(sha, token=token), a.prefijos)
     base: Optional[Dict[str, Any]] = None
     origen_base = None
