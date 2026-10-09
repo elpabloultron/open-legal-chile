@@ -98,6 +98,20 @@ use el MCP de Open Legal Chile responde así:
 `consulta_maestra` devuelve `citas[]` con `formato`, `texto` y `url`, y además `faltantes[]` (lo que
 no se pudo traer). Si algo aparece en `faltantes`, se declara en la respuesta; no se rellena solo.
 
+### 2 quater bis. El mapa del corpus es el paso 0
+
+`consulta_maestra` y las herramientas de Hugging Face, PJUD, doctrina y grafo consultan primero el
+**mapa del corpus** (`data/mapa/` del dataset): un índice de los ~80 mil archivos con IDs canónicos y
+las normas y roles que cita cada uno. Por eso:
+
+- Un rol, un artículo o una ley se pide tal cual: «Rol 10641-2024», «art. 2314 del Código Civil»,
+  «STC 2402». `huggingface_search_dataset` acepta además `rol`, `norma`, `coleccion` (`cs`, `tc`,
+  `ta`, `doc`) y `entidad` (`ministro:…`, `sala:cs-3`, `autor:…`, `revista:…`).
+- Se cita la **URL fijada** (`url_huggingface`, a la revisión de la fuente) y no la vigente: es la
+  que prueba qué texto se leyó.
+- Si la respuesta trae `mapa.activo = false` o un aviso, se informa: la consulta usó las fuentes de
+  siempre (sin el mapa) o un mapa de una fecha anterior.
+
 ### 2 quinquies. Módulo especial de derecho ambiental
 
 Cuando la consulta o el caso es de materia ambiental, el primer paso es `ambiental_consulta_maestra`

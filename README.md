@@ -227,6 +227,27 @@ en Markdown y con índices para agentes ([`llms.txt`](https://huggingface.co/dat
 
 En total: **7 399 documentos de doctrina y revistas académicas** estructuradas en Markdown y **25 556 fichas dogmáticas densas** con índice rápido `train_lite.jsonl` e `instituciones_lite.jsonl` para citación grounded sin alucinaciones.
 
+#### 🗺️ El mapa de conocimiento del corpus
+
+Sobre el dataset vive además un **mapa de conocimiento total** (`data/mapa/` en el propio dataset):
+una fila por cada archivo —las 70 mil fichas de la Corte Suprema incluidas— con su ID canónico
+(`cs:10641-2024`, `tc:2402`, `ta:3ta:r-21-2021`, `norma:cc:2314`, `norma:cpr:19:n3`…), sus metadatos
+(rol, fecha, sala, recurso, ministros, autores, revista) y las normas y roles que cita su texto,
+extraídos con una gramática determinista. Encima va la **capa conectora de LegalGraphify**: normas,
+autores, revistas, ministros, salas, tribunales y recursos, con sus comunidades.
+
+- **Se actualiza solo.** La Action diaria [`mapa-hf.yml`](.github/workflows/mapa-hf.yml) mira si el
+  dataset cambió, reconstruye **solo lo nuevo** (delta por blob), valida, publica en HF y abre un PR
+  que mueve [`mapa_corpus/puntero.json`](mapa_corpus/puntero.json) a la revisión nueva.
+- **Se consulta siempre.** `consulta_maestra`, `huggingface_search_dataset` (con `rol`, `norma`,
+  `coleccion` y `entidad`), `pjud_search_jurisprudencia`, `doctrina_search` y `graphify_*` resuelven
+  primero contra el mapa: rol exacto, quién cita una norma, los fallos de un ministro o de una sala,
+  y búsqueda de texto sin tildes. Cada resultado trae la URL **fijada** a la revisión de la fuente.
+- **Sin red en la consulta.** El mapa se descarga verificado (sha256) en segundo plano a
+  `~/.openlegal/mapa/`; `openlegal cache mapa` muestra su estado y `suite_instalar` lo deja listo.
+
+Detalle del formato, la gramática de citas y la operación en [`docs/mapa.md`](docs/mapa.md).
+
 Cada obra trae al final un bloque **«Véase también»** con sus conexiones medidas (grafo de citas,
 normas compartidas y guías que la usan). La cita oficial es `[BCN - Código, Art. N]`, siempre con el
 texto literal del artículo; el detalle del grafo está en [`docs/grafo.md`](docs/grafo.md) y la
