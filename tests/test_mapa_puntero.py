@@ -191,3 +191,28 @@ def test_cli_verificar_puntero_nulo_no_usa_la_red(tmp_path, monkeypatch):
     nulo = tmp_path / "puntero.json"
     nulo.write_text(json.dumps({"repo_id": "x", "revision_mapa": None}), encoding="utf-8")
     assert cli.main(["verificar-puntero", "--puntero", str(nulo)]) == 0
+
+
+def test_solo_cambia_el_estado_igual_se_publica(mapa, tmp_path):
+    """Reglas nuevas con el mismo resultado: sin publicar el estado, cada corrida reconstruiría."""
+    estado = json.loads((mapa / "estado.json").read_text(encoding="utf-8"))
+    remoto = dict(estado, version_reglas="reglas-viejas")
+    api = ApiFalsa()
+    res = publicador.publicar(str(mapa), remoto, "a" * 40, None, api=api, forzar_versiones=True,
+                              ruta_puntero=tmp_path / "p.json")
+    assert res["publicado"] and res["subir"] == [] and res["borrar"] == []
+    assert _rutas(api.commits[0]["operaciones"]) == [("CommitOperationAdd", f"{RUTA_HF}/estado.json")]
+
+
+def test_tag_siguiente_al_mayor_y_tag_fallido_no_pierde_el_puntero(mapa, tmp_path):
+    assert publicador.siguiente_tag(["mapa-1", "mapa-3", "otro", "mapa-x"]) == "mapa-4"
+    assert publicador.siguiente_tag([]) == "mapa-1"
+
+    class ApiTagFalla(ApiFalsa):
+        def create_tag(self, *a, **k):
+            raise RuntimeError("409 tag ya existe")
+
+    destino = tmp_path / "p.json"
+    res = publicador.publicar(str(mapa), None, "a" * 40, None, api=ApiTagFalla(tags=["mapa-2"]),
+                              forzar_versiones=True, ruta_puntero=destino)
+    assert res["publicado"] and res["tag"] == "" and json.loads(destino.read_text())["revision_mapa"] == "c" * 40

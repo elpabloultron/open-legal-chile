@@ -113,7 +113,7 @@ def armar(dir_mapa: Path, destino: Path, revision: str, sha256_estado: str) -> D
     try:
         con.executescript("PRAGMA journal_mode=OFF; PRAGMA synchronous=OFF; PRAGMA page_size=8192;" + _ESQUEMA_SQL)
         citas: List[Tuple[int, str, int, int]] = []
-        for rel in sorted(estado.get("archivos", {})):
+        for rel in sorted(particiones.archivos_de(estado)):
             filas = particiones.leer((dir_mapa / rel).read_bytes())
             if rel.startswith("entradas/"):
                 for f in filas:

@@ -80,6 +80,7 @@ python -m mapa_corpus construir --trabajo <dir>        # baja solo lo nuevo, ree
 python -m mapa_corpus validar   --trabajo <dir>        # IDs, rutas, aristas, comunidades, humo
 python -m mapa_corpus publicar  --trabajo <dir> [--dry-run]   # 1 commit en HF + tag mapa-<n> + puntero
 python -m mapa_corpus actualizar --trabajo <dir>       # los cuatro pasos
+python -m mapa_corpus puntero   --trabajo <dir>        # rehace el puntero al mapa ya publicado
 python -m mapa_corpus verificar-puntero                # el puntero apunta a un mapa íntegro
 ```
 
@@ -103,10 +104,18 @@ siguientes procesan solo el delta.
 [`constraints-constructor.txt`](../mapa_corpus/constraints-constructor.txt): otra versión de
 Louvain cambiaría las comunidades sin que cambie el corpus.
 
-- El commit lleva `parent_commit`: si `main` del dataset avanzó entretanto, HF lo rechaza y la
-  corrida queda «superada».
-- Cada publicación deja un tag `mapa-<n>`, y nunca se aplasta el historial del dataset. Así las
-  revisiones que fijan los paquetes ya instalados no desaparecen.
+- La base del plan se baja fijada a la misma revisión que el inventario. Al publicar, si el
+  `estado.json` de `main` ya no es esa base (otra publicación entretanto), la corrida queda
+  «superada» y la próxima la rehace. El commit lleva `parent_commit`: si `main` avanza entre la
+  lectura y el commit, HF lo rechaza.
+- Si cambian las reglas pero no el resultado, se publica solo `estado.json`: sin eso, cada corrida
+  volvería a reconstruir todo.
+- Cada publicación deja un tag `mapa-<n>` (el mayor publicado + 1), y nunca se aplasta el historial
+  del dataset. Así las revisiones que fijan los paquetes ya instalados no desaparecen.
+- Las rutas de un `estado.json` bajado de HF son un dato no confiable: solo se aceptan
+  `entradas|entidades|grafo/<nombre>.jsonl.gz`, sin subcarpetas ni `..`.
+- Si el mapa quedó publicado pero el PR de su puntero no llegó (falta el token, se cerró…),
+  `estado` lo detecta y la Action rehace solo ese PR con `python -m mapa_corpus puntero`.
 
 ## La Action diaria
 

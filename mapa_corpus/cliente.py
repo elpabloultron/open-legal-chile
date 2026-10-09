@@ -34,7 +34,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import quote
 
-from mapa_corpus import REPO_ID, RUTA_HF, indice
+from mapa_corpus import REPO_ID, RUTA_HF, indice, particiones
 
 log = logging.getLogger("mapa_corpus")
 
@@ -296,7 +296,7 @@ class MapaCliente:
         if sha_estado and _sha256(estado_bytes) != sha_estado:
             raise RuntimeError("estado.json del mapa no coincide con el sha256 del puntero")
         estado = json.loads(estado_bytes.decode("utf-8"))
-        for rel, meta in sorted(estado.get("archivos", {}).items()):
+        for rel, meta in sorted(particiones.archivos_de(estado).items()):
             ruta = descarga / rel
             if ruta.exists() and _sha256(ruta.read_bytes()) == meta.get("sha256_gz"):
                 continue
