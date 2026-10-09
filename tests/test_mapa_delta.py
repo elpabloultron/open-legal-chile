@@ -95,7 +95,10 @@ def test_validar_detecta_una_particion_alterada(tmp_path):
     inv, _, estado, _ = _construir(_datos_base(), tmp_path / "m")
     rel = next(r for r in estado["archivos"] if r.startswith("entradas/tc"))
     ruta = tmp_path / "m" / rel
-    ruta.write_bytes(ruta.read_bytes() + b"\x00")
+    from mapa_corpus import particiones
+    ruta.write_bytes(particiones.comprimir(particiones.descomprimir(ruta.read_bytes()) + b'{"id":"tc:1"}\n'))
+    assert any("sha256_gz no calza" in p for p in constructor.validar(str(tmp_path / "m"), inv))
+    ruta.write_bytes(b"no es gzip")
     assert any("sha256_gz no calza" in p for p in constructor.validar(str(tmp_path / "m"), inv))
 
 
@@ -359,3 +362,132 @@ def test_colision_de_ids_se_resuelve_igual_en_delta_cuando_cae_el_principal(tmp_
     assert estado_delta["calidad"].get("ids_compartidos", 0) == 0
     _construir(sin_a, tmp_path / "completo")
     assert _bytes_de(tmp_path / "m") == _bytes_de(tmp_path / "completo")
+
+
+# ── Rutas del estado (dato no confiable), nombres de partición y NFC ─────────────────────────
+@pytest.mark.parametrize("rel", ["entradas/../../x.jsonl.gz", "../estado.jsonl.gz", "entradas/a/b.jsonl.gz",
+                                 "entradas\\..\\x.jsonl.gz", "estado.json", "/etc/x.jsonl.gz", "entradas/.jsonl.gz"])
+def test_archivos_de_rechaza_rutas_fuera_del_mapa(rel):
+    from mapa_corpus import particiones
+    with pytest.raises(ValueError, match="inválida"):
+        particiones.archivos_de({"archivos": {rel: {"sha256_gz": "0" * 64}}})
+
+
+def test_particiones_con_nombres_seguros():
+    from mapa_corpus import particiones
+    assert particiones.particion_de("doctrina/Derecho Civil/x.md") == "entradas/doc-derecho_civil"
+    assert particiones.particion_de("doctrina/revistas/Rev. Ñuñoa/2020/x.md") == "entradas/doc-rev-rev_nunoa"
+    nombre = particiones.particion_de("doctrina/../../x/y.md") + particiones.EXTENSION
+    assert particiones.archivos_de({"archivos": {nombre: {}}})
+
+
+def test_nfc_deja_rutas_y_enlaces_literales():
+    import unicodedata
+    from mapa_corpus import particiones
+    nfd = unicodedata.normalize("NFD", "doctrina/civil/Teoría.md")
+    fila = particiones.nfc({"ruta": nfd, "titulo": nfd, "url": nfd})
+    assert fila["ruta"] == nfd and fila["url"] == nfd                 # la ruta de HF, tal cual
+    assert fila["titulo"] == unicodedata.normalize("NFC", nfd)
+
+
+def test_ruta_nfd_valida_y_no_se_vuelve_a_bajar(tmp_path):
+    import unicodedata
+    ruta = unicodedata.normalize("NFD", "doctrina/civil/Teoría del contrato.md")
+    datos = dict(_datos_base(), **{ruta: "# Teoría\n\nEl artículo 1545 del Código Civil.\n".encode("utf-8")})
+    inv, _, _, _ = _construir(datos, tmp_path / "m")
+    assert constructor.validar(str(tmp_path / "m"), inv) == []
+    _, desc, _, _ = _construir(datos, tmp_path / "m", base=constructor.leer_mapa(str(tmp_path / "m")))
+    assert desc.pedidos == []
+
+
+# ── El delta da el mismo estado que reconstruir, también en la calidad ───────────────────────
+def test_calidad_de_un_archivo_omitido_se_conserva_en_el_delta(tmp_path, monkeypatch):
+    monkeypatch.setattr(constructor, "MAX_BYTES", 1000)            # la revista (más grande) se omite
+    datos = _datos_base()
+    _construir(datos, tmp_path / "m")
+    datos[RUTA_TA] += b"\nOtro parrafo.\n"
+    _, _, estado, _ = _construir(datos, tmp_path / "m", base=constructor.leer_mapa(str(tmp_path / "m")))
+    _construir(datos, tmp_path / "completo")
+    assert estado["calidad"].get("fila:omitido_por_tamano", 0) >= 1
+    assert _bytes_de(tmp_path / "m") == _bytes_de(tmp_path / "completo")
+
+
+def _fichas_cs_md():
+    salida = {}
+    for ruta in FICHAS_CS:
+        rol, era = ruta.rsplit("/", 1)[1][:-3], ruta.split("/")[1]
+        salida[ruta] = (f"# Ficha\n\n- **Tribunal:** Corte Suprema — TERCERA, CONSTITUCIONAL\n"
+                        f"- **Rol:** {rol} · **Era:** {era} · **Fecha:** {era}-03-04\n").encode("utf-8")
+    return salida
+
+
+def test_indice_cs_borrado_el_delta_relee_las_fichas(tmp_path):
+    datos = dict(_datos_base(), **_fichas_cs_md())
+    _construir(datos, tmp_path / "m")
+    sin_indice = {k: v for k, v in datos.items() if k != constructor.INDICE_CS}
+    _, desc, _, _ = _construir(sin_indice, tmp_path / "m", base=constructor.leer_mapa(str(tmp_path / "m")))
+    assert sorted(desc.pedidos) == sorted(FICHAS_CS)               # sin índice, las fichas salen del .md
+    _construir(sin_indice, tmp_path / "completo")
+    assert _bytes_de(tmp_path / "m") == _bytes_de(tmp_path / "completo")
+
+
+# ── Colisiones con el mismo nombre de archivo ────────────────────────────────────────────────
+def test_mismo_rol_en_tres_meses_da_ids_distintos(tmp_path):
+    rutas = [f"jurisprudencia_ambiental/3TA/{m}/R-21-2021.md" for m in ("a", "b", "c")]
+    datos = dict(_datos_base(), **{r: _ficha_ta(f"- **Materia:** {r}\n") for r in rutas})
+    inv, _, estado, _ = _construir(datos, tmp_path / "m")
+    assert constructor.validar(str(tmp_path / "m"), inv) == []
+    ids_ = {f["ruta"]: f["id"] for f in constructor.leer_mapa(str(tmp_path / "m"))["filas"] if f["ruta"] in rutas}
+    assert len(set(ids_.values())) == 3 and estado["calidad"]["ids_compartidos"] == 2
+
+
+# ── validar acepta una partición recomprimida con otro zlib si el contenido es el mismo ───────
+def test_validar_acepta_otra_compresion_del_mismo_contenido(tmp_path):
+    import gzip
+    from mapa_corpus import particiones
+    inv, _, estado, _ = _construir(_datos_base(), tmp_path / "m")
+    rel = next(r for r in estado["archivos"] if r.startswith("entradas/tc"))
+    ruta = tmp_path / "m" / rel
+    otra = gzip.compress(particiones.descomprimir(ruta.read_bytes()), compresslevel=1, mtime=0)
+    assert otra != ruta.read_bytes()
+    ruta.write_bytes(otra)
+    assert constructor.validar(str(tmp_path / "m"), inv) == []
+
+
+# ── CLI: el puntero que no llegó se rehace; un mapa publicado entretanto deja la corrida superada ──
+def test_estado_sin_cambios_pero_puntero_atrasado(cli_falso, tmp_path, monkeypatch):
+    from mapa_corpus import publicador
+    publicado = tmp_path / "publicado" / "estado.json"
+    monkeypatch.setattr(cli, "_bajar_base_hf", lambda destino, rev, token: (
+        destino.mkdir(parents=True, exist_ok=True), (destino / "estado.json").write_bytes(publicado.read_bytes()),
+        cli_falso.estado_hf["base"])[-1])
+    puntero = tmp_path / "puntero.json"
+    puntero.write_text(json.dumps({"revision_mapa": None, "sha256_estado": None}), encoding="utf-8")
+    monkeypatch.setattr(publicador, "PUNTERO", puntero)
+    plan, salida = cli_falso.correr()
+    assert plan["cambio"] is False and plan["puntero_pendiente"] is True and "puntero=true" in salida
+    trabajo = tmp_path / "trabajo"
+    assert cli.main(["puntero", "--trabajo", str(trabajo), "--github-output", str(tmp_path / "out2")]) == 0
+    nuevo = json.loads(puntero.read_text(encoding="utf-8"))
+    assert nuevo["revision_mapa"] == SHA and nuevo["sha256_estado"] == \
+        __import__("hashlib").sha256(publicado.read_bytes()).hexdigest()
+    assert "revision_mapa=" + SHA in (tmp_path / "out2").read_text(encoding="utf-8")
+    assert (trabajo / "reporte.md").exists()
+    # Con el puntero al día, nada pendiente.
+    assert cli_falso.correr()[0]["puntero_pendiente"] is False
+
+
+@pytest.mark.parametrize("remoto, codigo", [("igual", 0), ("otro", 3)])
+def test_publicar_superado_si_el_mapa_publicado_cambio(tmp_path, monkeypatch, remoto, codigo):
+    trabajo = tmp_path / "trabajo"
+    (trabajo / "base").mkdir(parents=True)
+    (trabajo / "base" / "estado.json").write_bytes(b'{"base": 1}')
+    (trabajo / "plan.json").write_text(json.dumps({"sha": SHA, "base": "hf:main", "prefijos": []}), encoding="utf-8")
+    monkeypatch.setattr(cli, "_token", lambda: None)
+    monkeypatch.setattr(cli.inventario, "sha_main", lambda token=None: ("h" * 40, None))
+    monkeypatch.setattr(cli, "_bajar_estado", lambda rev, token: b'{"base": 1}' if remoto == "igual" else b'{"x": 2}')
+    llamadas = []
+    monkeypatch.setattr(cli.publicador, "publicar", lambda d, rem, padre, token, **k: (
+        llamadas.append((rem, padre)), {"publicado": False, "motivo": "dry-run"})[-1])
+    assert cli.main(["publicar", "--trabajo", str(trabajo)]) == codigo
+    assert llamadas == ([({"base": 1}, "h" * 40)] if codigo == 0 else [])

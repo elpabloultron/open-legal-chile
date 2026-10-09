@@ -17,6 +17,7 @@ import json
 import logging
 import os
 import re
+import zlib
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple
@@ -145,21 +146,41 @@ def resolver_colisiones(filas: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any
         grupos[f["id"]].append(f)
     salida: List[Dict[str, Any]] = []
     colisiones = 0
+    usados = set(grupos)
     for _, grupo in sorted(grupos.items()):
         grupo.sort(key=lambda f: (f.get("tipo") == "sintesis", f.get("ruta", "")))
         salida.append(grupo[0])
         for f in grupo[1:]:
             colisiones += 1
             f = dict(f)
-            sufijo = "sintesis" if f.get("tipo") == "sintesis" else ids.slug(f.get("ruta", "").rsplit("/", 1)[-1][:-3])
+            ruta = f.get("ruta", "")
+            sufijo = "sintesis" if f.get("tipo") == "sintesis" else ids.slug(ruta.rsplit("/", 1)[-1][:-3])
+            # El mismo rol en dos meses (…/03/1-2024.md y …/05/1-2024.md) o dos síntesis de una
+            # causa darían el mismo sufijo: entonces va la ruta entera y, en último caso, un número.
+            nuevo = f"{f['id']}:{sufijo}"
+            if nuevo in usados:
+                nuevo = f"{f['id']}:{ids.slug(ruta.rsplit('.', 1)[0])}"
+            candidato, n = nuevo, 2
+            while candidato in usados:
+                candidato, n = f"{nuevo}-{n}", n + 1
+            usados.add(candidato)
             f["id_base"] = f["id"]
-            f["id"] = f"{f['id']}:{sufijo}"
+            f["id"] = candidato
             f["calidad"] = sorted(set(f.get("calidad", [])) | {"id_compartido"})
             salida.append(f)
     return salida, colisiones
 
 
 # ── Construcción ──────────────────────────────────────────────────────────────────────────
+# Contadores que salen de leer el índice de la CS (no de una fila): pasan de corrida en corrida.
+_CALIDAD_INDICE_CS = frozenset({"cs_linea_invalida", "cs_indice_sin_ficha_md"})
+
+
+def _marcar(fila: Dict[str, Any], marca: str) -> Dict[str, Any]:
+    """La fila con una marca de calidad más (se cuenta como `fila:<marca>` en el estado)."""
+    return {**fila, "calidad": sorted(set(fila.get("calidad", [])) | {marca})}
+
+
 def _filas_cs(indice: bytes, inv: Dict[str, Archivo]) -> Tuple[List[Dict[str, Any]], Dict[str, int]]:
     from pjud_connector import ruta_hf_corte_suprema
     filas: List[Dict[str, Any]] = []
@@ -201,25 +222,30 @@ def construir(inv: Dict[str, Archivo], sha: str, descargador: Descargador, curad
     avisar(f"delta: +{len(altas)} ~{len(mods)} -{len(bajas)} (base {'sí' if usar_base else 'no'})")
 
     filas: Dict[str, Dict[str, Any]] = {r: f for r, f in previas.items() if r in inv and r not in a_procesar}
+    # La calidad se cuenta sobre las filas finales (marcas `calidad` de cada fila), no sobre lo
+    # procesado en esta corrida: así un delta y una reconstrucción completa dan el mismo estado.
     calidad: Counter = Counter()
 
-    # CS: siempre desde su índice cuando algo de la CS (o el índice) cambió.
-    cs_tocada = any(r.startswith("jurisprudencia_cs/") for r in a_procesar | set(bajas)) or INDICE_CS in a_procesar
-    if cs_tocada and INDICE_CS in inv:
-        avisar("CS: leyendo el índice cs_sentencias_2anios.jsonl")
+    # CS: siempre desde su índice cuando algo de la CS (o el índice, también si desapareció) cambió.
+    cs_tocada = any(r.startswith("jurisprudencia_cs/") for r in a_procesar | set(bajas)) or \
+        INDICE_CS in a_procesar or INDICE_CS in bajas
+    if cs_tocada:
         for r in [r for r in filas if r.startswith("jurisprudencia_cs/") and r.split("/")[1].isdigit()]:
             del filas[r]
+    if cs_tocada and INDICE_CS in inv:
+        avisar("CS: leyendo el índice cs_sentencias_2anios.jsonl")
         cs_filas, cs_calidad = _filas_cs(descargador.obtener(inv[INDICE_CS]), inv)
         calidad.update(cs_calidad)
         for f in cs_filas:
             filas[f["ruta"]] = f
+    elif usar_base and base and INDICE_CS in inv:
+        # El índice no se releyó: sus contadores son los de la corrida que lo leyó.
+        calidad.update({k: v for k, v in base["estado"].get("calidad", {}).items() if k in _CALIDAD_INDICE_CS})
     # Fichas CS sin fila en el índice: se leen del .md.
-    faltan_cs = [r for r in inv if r.startswith("jurisprudencia_cs/") and r.split("/")[1].isdigit()
-                 and r not in filas]
-    if faltan_cs:
-        calidad["cs_ficha_fuera_del_indice"] += len(faltan_cs)
+    faltan_cs = {r for r in inv if r.startswith("jurisprudencia_cs/") and r.split("/")[1].isdigit()
+                 and r not in filas}
     a_bajar: List[Archivo] = []
-    for r in sorted(set(a_procesar) | set(faltan_cs)):
+    for r in sorted(set(a_procesar) | faltan_cs):
         if r in filas:
             continue
         a = inv[r]
@@ -227,8 +253,7 @@ def construir(inv: Dict[str, Archivo], sha: str, descargador: Descargador, curad
         if solo:
             filas[r] = extractores.fila_archivo(solo[0], solo[1], r, a.blob, a.bytes)
         elif a.bytes > MAX_BYTES and r not in EXCEPCIONES_TAMANO:
-            calidad["omitido_por_tamano"] += 1
-            filas[r] = extractores.fila_archivo("arch", "arch", r, a.blob, a.bytes)
+            filas[r] = _marcar(extractores.fila_archivo("arch", "arch", r, a.blob, a.bytes), "omitido_por_tamano")
         else:
             a_bajar.append(a)
     avisar(f"descargando {len(a_bajar)} archivos (fijados a {sha[:8]})")
@@ -241,10 +266,10 @@ def construir(inv: Dict[str, Archivo], sha: str, descargador: Descargador, curad
             try:
                 fila = extractores.extraer(a.ruta, datos.pop(a.ruta), a.blob)
             except Exception as exc:  # noqa: BLE001 — un archivo raro no tumba el mapa: queda anotado
-                calidad["error_extraccion"] += 1
                 log.warning("no se pudo extraer %s: %s", a.ruta, exc)
-                fila = None
-            filas[a.ruta] = fila or extractores.fila_archivo("arch", "arch", a.ruta, a.blob, a.bytes)
+                fila = _marcar(extractores.fila_archivo("arch", "arch", a.ruta, a.blob, a.bytes), "error_extraccion")
+            fila = fila or extractores.fila_archivo("arch", "arch", a.ruta, a.blob, a.bytes)
+            filas[a.ruta] = _marcar(fila, "cs_fuera_del_indice") if a.ruta in faltan_cs else fila
         hechos = inicio + len(tanda)
         if hechos % (TANDA * 4) == 0 or hechos == len(a_bajar):
             avisar(f"  {hechos}/{len(a_bajar)}")
@@ -300,7 +325,7 @@ def escribir(resultado: Dict[str, Any], destino: str, estado_previo: Optional[Di
     anterior (lo publicado), así otra versión de zlib no hace parecer distinto lo que es igual.
     """
     base = Path(destino)
-    previos = (estado_previo or {}).get("archivos", {})
+    previos = particiones.archivos_de(estado_previo or {})
     archivos: Dict[str, Dict[str, Any]] = {}
     for nombre in sorted(resultado["particiones"]):
         filas = resultado["particiones"][nombre]
@@ -336,7 +361,7 @@ def leer_mapa(dir_mapa: str) -> Dict[str, Any]:
     base = Path(dir_mapa)
     estado = json.loads((base / "estado.json").read_text(encoding="utf-8"))
     filas: List[Dict[str, Any]] = []
-    for rel in sorted(estado.get("archivos", {})):
+    for rel in sorted(particiones.archivos_de(estado)):
         if rel.startswith("entradas/"):
             filas.extend(particiones.leer((base / rel).read_bytes()))
     return {"estado": estado, "filas": filas}
@@ -346,6 +371,13 @@ def leer_mapa(dir_mapa: str) -> Dict[str, Any]:
 _RE_ID = re.compile(r"^(?:cs|tc|ta|doc|guia|bib|pub|dato|graphify|arch|csidx|taidx):\S+$")
 
 
+def _sha_contenido(datos_gz: bytes) -> str:
+    try:
+        return particiones.sha256(particiones.descomprimir(datos_gz))
+    except (OSError, EOFError, zlib.error):
+        return ""
+
+
 def validar(dir_mapa: str, inv: Optional[Dict[str, Archivo]] = None,
             base: Optional[Dict[str, Any]] = None) -> List[str]:
     """Lista de problemas (vacía = válido)."""
@@ -353,9 +385,15 @@ def validar(dir_mapa: str, inv: Optional[Dict[str, Archivo]] = None,
     raiz = Path(dir_mapa)
     estado = json.loads((raiz / "estado.json").read_text(encoding="utf-8"))
     filas_por_parte: Dict[str, List[Dict[str, Any]]] = {}
-    for rel, meta in estado.get("archivos", {}).items():
+    try:
+        archivos = particiones.archivos_de(estado)
+    except ValueError as exc:
+        return [str(exc)]
+    for rel, meta in archivos.items():
         datos = (raiz / rel).read_bytes()
-        if particiones.sha256(datos) != meta["sha256_gz"]:
+        if particiones.sha256(datos) != meta["sha256_gz"] and _sha_contenido(datos) != meta.get("sha256_contenido"):
+            # Un archivo sin cambios recomprimido aquí (otro zlib) conserva el sha256_gz de lo
+            # publicado: vale si su contenido es el mismo.
             problemas.append(f"sha256_gz no calza: {rel}")
             continue
         filas = particiones.leer(datos)

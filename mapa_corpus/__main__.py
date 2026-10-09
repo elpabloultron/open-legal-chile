@@ -1,4 +1,4 @@
-"""CLI del constructor del mapa: `python -m mapa_corpus <estado|construir|validar|publicar|actualizar|verificar-puntero>`.
+"""CLI del constructor del mapa: `python -m mapa_corpus <estado|construir|validar|publicar|puntero|actualizar|verificar-puntero>`.
 
 `--trabajo` es la carpeta de trabajo (plan.json, base/, mapa/, reporte). Nunca debe quedar
 dentro de `data/` del repo: el publicador de catálogos sube `data/` entero a HF.
@@ -67,7 +67,7 @@ def _bajar_base_hf(destino: Path, revision: str, token: Optional[str]) -> Option
     destino.mkdir(parents=True, exist_ok=True)
     (destino / "estado.json").write_bytes(r.content)
     estado = json.loads(r.content)
-    for rel, meta in estado.get("archivos", {}).items():
+    for rel, meta in particiones.archivos_de(estado).items():
         if not rel.startswith("entradas/"):
             continue
         datos = s.get(f"{inventario.ENDPOINT}/datasets/{REPO_ID}/resolve/{revision}/{RUTA_HF}/{rel}", timeout=120)
@@ -89,16 +89,21 @@ def cmd_estado(a: argparse.Namespace) -> int:
     if a.base_dir:
         base, origen_base = constructor.leer_mapa(a.base_dir), f"local:{a.base_dir}"
     elif not a.sin_base:
-        base = _bajar_base_hf(trabajo / "base", "main", token)
+        # La base, fijada a la misma revisión que el inventario: publicar exige que siga siendo esa.
+        base = _bajar_base_hf(trabajo / "base", sha, token)
         origen_base = "hf:main" if base else None
     reglas = constructor.version_reglas()
     huella = inventario.huella(inv.values(), reglas)
-    motivo, cambio = "", True
+    motivo, cambio, puntero_pendiente = "", True, False
     if base is None and getattr(a, "requiere_base", False):
         cambio, motivo = False, "sin mapa publicado: la primera construcción se lanza a mano (modo completo)"
     elif base and base["estado"].get("huella_fuente") == huella and \
             base["estado"].get("curado", {}).get("sha256") == _sha_curado():
         cambio, motivo = False, "huella y grafo curado iguales a lo publicado"
+        # El mapa ya está en HF pero el PR de su puntero no llegó (sin token, cerrado…): se rehace.
+        puntero_pendiente = _puntero_desactualizado(trabajo / "base" / "estado.json")
+        if puntero_pendiente:
+            motivo += "; el puntero del repo no apunta a él"
     elif modificado and not a.ignorar_movimiento:
         edad = (datetime.now(timezone.utc) - datetime.fromisoformat(modificado.replace("Z", "+00:00"))).total_seconds()
         if edad < MOVIMIENTO_MINUTOS * 60:
@@ -108,19 +113,45 @@ def cmd_estado(a: argparse.Namespace) -> int:
         prev = {f["ruta"]: str(f.get("blob", "")) for f in (base or {}).get("filas", []) if f.get("ruta")}
         altas, mods, bajas = inventario.delta(prev, inv) if modo == "delta" else (sorted(inv), [], [])
         motivo = f"{modo}: +{len(altas)} ~{len(mods)} -{len(bajas)}"
-    plan = {"sha": sha, "modificado": modificado, "base": origen_base, "cambio": cambio, "motivo": motivo,
-            "huella": huella, "prefijos": a.prefijos or []}
+    plan = {"sha": sha, "modificado": modificado, "base": origen_base, "sin_base": bool(a.sin_base),
+            "cambio": cambio, "motivo": motivo, "huella": huella, "prefijos": a.prefijos or [],
+            "puntero_pendiente": puntero_pendiente}
     (trabajo / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
     log.info("estado: %s", plan)
     modo_plan = motivo.split(":", 1)[0] if cambio else ""
     _salida_github(a.github_output, {"cambio": str(cambio).lower(), "sha_fuente": sha, "motivo": motivo,
-                                     "modo": modo_plan})
+                                     "modo": modo_plan, "puntero": str(puntero_pendiente).lower()})
     return 0
 
 
 def _sha_curado() -> str:
     import hashlib
     return hashlib.sha256(CURADO.read_bytes()).hexdigest() if CURADO.exists() else ""
+
+
+def _puntero_desactualizado(estado_publicado: Path) -> bool:
+    if not estado_publicado.exists():
+        return False
+    try:
+        actual = json.loads(publicador.PUNTERO.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        actual = {}
+    return bool(actual.get("sha256_estado") != particiones.sha256(estado_publicado.read_bytes()))
+
+
+def cmd_puntero(a: argparse.Namespace) -> int:
+    """El puntero al mapa ya publicado (el de la base del plan), cuando el PR que lo llevaba no llegó."""
+    trabajo = _trabajo(a.trabajo)
+    plan = json.loads((trabajo / "plan.json").read_text(encoding="utf-8"))
+    estado_bytes = (trabajo / "base" / "estado.json").read_bytes()
+    puntero = publicador.escribir_puntero(estado_bytes, plan["sha"])
+    (trabajo / "reporte.md").write_text(
+        f"## Mapa del corpus — puntero\n\nEl mapa de la fuente `{str(puntero['sha_fuente'])[:8]}` ya está publicado "
+        f"en HF (revisión `{plan['sha']}`), pero el PR de su puntero no se fusionó: este lo rehace.\n",
+        encoding="utf-8")
+    _salida_github(a.github_output, {"publicado": "true", "revision_mapa": plan["sha"],
+                                     "sha_fuente": puntero.get("sha_fuente") or ""})
+    return 0
 
 
 def cmd_construir(a: argparse.Namespace) -> int:
@@ -176,25 +207,28 @@ def cmd_publicar(a: argparse.Namespace) -> int:
     if plan.get("prefijos"):
         raise SystemExit("un mapa parcial (--prefijos) no se publica")
     token = _token()
-    base_estado = None
-    if (trabajo / "base" / "estado.json").exists():
-        base_estado = json.loads((trabajo / "base" / "estado.json").read_text(encoding="utf-8"))
+    # Lo publicado AHORA es la base del commit (parent_commit = este HEAD: si main se mueve de aquí
+    # al commit, HF lo rechaza). Si el plan se hizo contra el mapa de HF y ese mapa ya no es el
+    # mismo (otra publicación entretanto), el delta calculado es inválido: la corrida queda superada.
     head, _ = inventario.sha_main(token=token)
-    if base_estado and plan.get("base") == "hf:main":
-        remoto = _bajar_estado(head, token)
-        if remoto and remoto.get("sha256") != (base_estado or {}).get("sha256") and \
-                remoto.get("sha_fuente") != base_estado.get("sha_fuente"):
-            log.error("superado: el mapa publicado cambió durante la corrida")
+    remoto_bytes = _bajar_estado(head, token)
+    if not str(plan.get("base") or "").startswith("local:") and not plan.get("sin_base"):
+        base_ruta = trabajo / "base" / "estado.json"
+        if remoto_bytes != (base_ruta.read_bytes() if base_ruta.exists() else None):
+            log.error("superado: el mapa publicado cambió durante la corrida (la próxima lo rehace)")
             return 3
-    res = publicador.publicar(str(trabajo / "mapa"), base_estado, head, token,
+    remoto = json.loads(remoto_bytes) if remoto_bytes else None
+    res = publicador.publicar(str(trabajo / "mapa"), remoto, head, token,
                               dry_run=a.dry_run, forzar_versiones=a.forzar_versiones)
     log.info("publicación: %s", json.dumps({k: v for k, v in res.items() if k != "puntero"}, ensure_ascii=False)[:2000])
     _salida_github(a.github_output, {"publicado": str(res.get("publicado")).lower(),
-                                     "revision_mapa": res.get("revision_mapa", "")})
+                                     "revision_mapa": res.get("revision_mapa", ""),
+                                     "sha_fuente": (res.get("puntero") or {}).get("sha_fuente") or ""})
     return 0
 
 
-def _bajar_estado(revision: str, token: Optional[str]) -> Optional[Dict[str, Any]]:
+def _bajar_estado(revision: str, token: Optional[str]) -> Optional[bytes]:
+    """Los bytes de `estado.json` del mapa en `revision` (None si no hay mapa publicado)."""
     import requests
     h = {"Authorization": f"Bearer {token}"} if token else {}
     r = requests.get(f"{inventario.ENDPOINT}/datasets/{REPO_ID}/resolve/{revision}/{RUTA_HF}/estado.json",
@@ -202,8 +236,7 @@ def _bajar_estado(revision: str, token: Optional[str]) -> Optional[Dict[str, Any
     if r.status_code == 404:
         return None
     r.raise_for_status()
-    datos: Dict[str, Any] = json.loads(r.content)
-    return datos
+    return bytes(r.content)
 
 
 def cmd_actualizar(a: argparse.Namespace) -> int:
@@ -271,6 +304,10 @@ def main(argv: Optional[List[str]] = None) -> int:
     sp.add_argument("--dry-run", action="store_true")
     sp.add_argument("--forzar-versiones", action="store_true")
     sp.set_defaults(fn=cmd_publicar)
+
+    sp = sub.add_parser("puntero", help="rehacer el puntero al mapa ya publicado (si su PR no llegó)")
+    comunes(sp)
+    sp.set_defaults(fn=cmd_puntero)
 
     sp = sub.add_parser("actualizar")
     comunes(sp)

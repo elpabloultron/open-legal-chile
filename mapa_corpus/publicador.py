@@ -14,10 +14,11 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from mapa_corpus import ESQUEMA, REPO_ID, RUTA_HF
+from mapa_corpus import ESQUEMA, REPO_ID, RUTA_HF, particiones
 
 log = logging.getLogger("mapa_corpus")
 
@@ -50,12 +51,18 @@ def versiones_distintas() -> List[str]:
 
 def operaciones(dir_mapa: str, estado_remoto: Optional[Dict[str, Any]]) -> Dict[str, List[str]]:
     """Qué subir y qué borrar comparando el estado local con el publicado."""
-    local = json.loads((Path(dir_mapa) / "estado.json").read_text(encoding="utf-8"))
-    remoto = (estado_remoto or {}).get("archivos", {})
-    subir = sorted(rel for rel, meta in local["archivos"].items()
+    local = particiones.archivos_de(json.loads((Path(dir_mapa) / "estado.json").read_text(encoding="utf-8")))
+    remoto = particiones.archivos_de(estado_remoto or {})
+    subir = sorted(rel for rel, meta in local.items()
                    if remoto.get(rel, {}).get("sha256_gz") != meta["sha256_gz"])
-    borrar = sorted(rel for rel in remoto if rel not in local["archivos"])
+    borrar = sorted(rel for rel in remoto if rel not in local)
     return {"subir": subir, "borrar": borrar}
+
+
+def siguiente_tag(nombres: List[str]) -> str:
+    """`mapa-<n>` con n = el mayor publicado + 1 (contar los tags chocaría si alguno se borró)."""
+    numeros = [int(m.group(1)) for m in map(re.compile(r"mapa-(\d+)").fullmatch, nombres) if m]
+    return f"mapa-{max(numeros, default=0) + 1}"
 
 
 def escribir_puntero(estado_bytes: bytes, revision: Optional[str], ruta: Optional[Path] = None) -> Dict[str, Any]:
@@ -81,7 +88,9 @@ def publicar(dir_mapa: str, estado_remoto: Optional[Dict[str, Any]], parent_comm
              ruta_puntero: Optional[Path] = None) -> Dict[str, Any]:
     ops = operaciones(dir_mapa, estado_remoto)
     estado_bytes = (Path(dir_mapa) / "estado.json").read_bytes()
-    if not ops["subir"] and not ops["borrar"]:
+    # Sin particiones distintas el estado igual puede haber cambiado (otras reglas o fuente con el
+    # mismo resultado): se publica solo el estado, o la próxima corrida reconstruiría otra vez.
+    if not ops["subir"] and not ops["borrar"] and json.loads(estado_bytes) == estado_remoto:
         return {"publicado": False, "motivo": "sin cambios", **ops}
     if dry_run:
         return {"publicado": False, "motivo": "dry-run", **ops}
@@ -107,8 +116,13 @@ def publicar(dir_mapa: str, estado_remoto: Optional[Dict[str, Any]], parent_comm
     info = api.create_commit(repo_id=repo_id, repo_type="dataset", operations=operaciones_hf,
                              commit_message=mensaje, parent_commit=parent_commit)
     revision = str(info.oid)
-    refs = api.list_repo_refs(repo_id, repo_type="dataset")
-    n = sum(1 for t in (refs.tags or []) if str(t.name).startswith("mapa-")) + 1
-    api.create_tag(repo_id, tag=f"mapa-{n}", revision=revision, repo_type="dataset")
+    # El puntero primero: el commit ya está en HF y es lo que importa; un tag que falle no lo pierde.
     puntero = escribir_puntero(estado_bytes, revision, ruta_puntero)
-    return {"publicado": True, "revision_mapa": revision, "tag": f"mapa-{n}", "puntero": puntero, **ops}
+    refs = api.list_repo_refs(repo_id, repo_type="dataset")
+    tag = siguiente_tag([str(t.name) for t in (refs.tags or [])])
+    try:
+        api.create_tag(repo_id, tag=tag, revision=revision, repo_type="dataset")
+    except Exception as exc:  # noqa: BLE001 — sin tag la revisión igual queda fijada por el puntero
+        log.warning("no se pudo crear el tag %s: %s", tag, exc)
+        tag = ""
+    return {"publicado": True, "revision_mapa": revision, "tag": tag, "puntero": puntero, **ops}

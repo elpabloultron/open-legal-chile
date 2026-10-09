@@ -45,6 +45,7 @@ jobs:
     timeout-minutes: 150
     outputs:
       cambio: ${{ steps.estado.outputs.cambio }}
+      puntero: ${{ steps.estado.outputs.puntero }}
       sha_fuente: ${{ steps.estado.outputs.sha_fuente }}
       motivo: ${{ steps.estado.outputs.motivo }}
     steps:
@@ -104,7 +105,7 @@ jobs:
           key: mapa-fuentes-${{ steps.estado.outputs.sha_fuente }}
 
       - name: Entregar el mapa al job de publicación
-        if: steps.estado.outputs.cambio == 'true'
+        if: steps.estado.outputs.cambio == 'true' || steps.estado.outputs.puntero == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: mapa
@@ -119,7 +120,9 @@ jobs:
 
   publicar:
     needs: construir
-    if: needs.construir.outputs.cambio == 'true' && (github.event_name == 'schedule' || inputs.publicar)
+    if: >-
+      (needs.construir.outputs.cambio == 'true' || needs.construir.outputs.puntero == 'true') &&
+      (github.event_name == 'schedule' || inputs.publicar)
     runs-on: ubuntu-latest
     timeout-minutes: 30
     # El token con escritura en el dataset vive SOLO en este environment (con revisores si se quiere).
@@ -145,7 +148,13 @@ jobs:
         id: publicar
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          CAMBIO: ${{ needs.construir.outputs.cambio }}
         run: |
+          if [ "$CAMBIO" != "true" ]; then
+            # El mapa ya está en HF; solo falta el PR de su puntero (una corrida anterior no lo abrió).
+            python -m mapa_corpus puntero --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT"
+            exit 0
+          fi
           if [ -z "$HF_TOKEN" ]; then
             echo "::notice::Falta el secreto HF_TOKEN en el environment hf-publicar: el mapa se construyó y validó, pero no se publica."
             echo "publicado=false" >> "$GITHUB_OUTPUT"
@@ -169,7 +178,7 @@ jobs:
           branch: mapa/puntero
           add-paths: mapa_corpus/puntero.json
           commit-message: "mapa: puntero a la revisión ${{ steps.publicar.outputs.revision_mapa }}"
-          title: "mapa: puntero a la fuente ${{ needs.construir.outputs.sha_fuente }}"
+          title: "mapa: puntero a la fuente ${{ steps.publicar.outputs.sha_fuente }}"
           body-path: ${{ env.TRABAJO }}/reporte.md
           delete-branch: true
 

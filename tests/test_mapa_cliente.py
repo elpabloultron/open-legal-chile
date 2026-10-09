@@ -304,3 +304,16 @@ def test_cache_de_otro_esquema_de_indice_se_rearma(entorno, mapa_local):
     assert nuevo.indice() is None                                  # no se consulta una base incompatible
     assert nuevo.asegurar(bloquear=True, timeout=60) and nuevo.entrada("tc:2402")
     assert json.loads(marca.read_text(encoding="utf-8"))["indice"] == mod_cliente.indice.ESQUEMA_INDICE
+
+
+def test_estado_con_rutas_fuera_del_mapa_se_rechaza_sin_escribir(entorno, mapa_local, tmp_path):
+    """Con OPENLEGAL_MAPA=main el estado no se verifica contra un sha256 del repo: sus rutas son un
+    dato no confiable y ninguna puede escribir fuera de la caché."""
+    malo = (json.dumps({"archivos": {"entradas/../../../escape.jsonl.gz": {"sha256_gz": "0" * 64}}}) + "\n").encode()
+    (mapa_local / "estado.json").write_bytes(malo)
+    sesion = SesionFalsa({REV_1: mapa_local})
+    c = mod_cliente.MapaCliente(puntero=_puntero(REV_1, malo), sesion=sesion)
+    assert c.asegurar(bloquear=True, timeout=60) is False
+    assert "inválida" in c.error and c.indice() is None
+    assert [u for u in sesion.pedidos if "escape" in u] == []
+    assert not list(tmp_path.rglob("escape.jsonl.gz"))

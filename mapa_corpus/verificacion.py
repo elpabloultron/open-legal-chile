@@ -20,8 +20,12 @@ def verificar_puntero(puntero: Dict[str, Any]) -> List[str]:
     if r.status_code != 200:
         return [f"no se pudo leer estado.json@{rev}: HTTP {r.status_code}"]
     if hashlib.sha256(r.content).hexdigest() != puntero.get("sha256_estado"):
-        problemas.append("sha256 de estado.json no calza con el puntero")
+        return ["sha256 de estado.json no calza con el puntero"]   # nada de él es confiable
     estado = json.loads(r.content)
+    try:
+        archivos = particiones.archivos_de(estado)
+    except ValueError as exc:
+        return [str(exc)]
     if estado.get("sha_fuente") != puntero.get("sha_fuente"):
         problemas.append("sha_fuente del estado no calza con el puntero")
     existe = requests.get(f"{inventario.ENDPOINT}/api/datasets/{repo}/revision/{puntero.get('sha_fuente')}",
@@ -31,7 +35,7 @@ def verificar_puntero(puntero: Dict[str, Any]) -> List[str]:
     with tempfile.TemporaryDirectory() as tmp:
         destino = Path(tmp)
         (destino / "estado.json").write_bytes(r.content)
-        for rel, meta in estado.get("archivos", {}).items():
+        for rel, meta in archivos.items():
             d = requests.get(f"{base}/{rel}", timeout=120)
             if d.status_code != 200 or particiones.sha256(d.content) != meta["sha256_gz"]:
                 problemas.append(f"archivo publicado distinto o ausente: {rel}")

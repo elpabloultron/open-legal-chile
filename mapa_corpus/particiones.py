@@ -12,19 +12,44 @@ import gzip
 import hashlib
 import io
 import json
+import re
 import unicodedata
 from typing import Any, Dict, Iterable, List
 
 EXTENSION = ".jsonl.gz"
+# Lo único que un estado.json puede listar: `<carpeta>/<nombre>.jsonl.gz`, sin subcarpetas ni
+# «..». El estado que se baja de HF es un dato no confiable: con esto ninguna ruta suya escribe,
+# lee ni borra fuera del directorio del mapa.
+_RE_ARCHIVO = re.compile(r"(?:entradas|entidades|grafo)/[a-z0-9][a-z0-9_.-]*\.jsonl\.gz", re.ASCII)
+# Rutas, blobs y enlaces del dataset se copian tal cual: una ruta NFD es OTRA ruta en HF.
+_LITERALES = frozenset({"ruta", "blob", "url", "url_oficial", "doi"})
+
+
+def archivos_de(estado: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
+    """`estado["archivos"]`, rechazando cualquier ruta que no sea una partición del mapa."""
+    archivos = estado.get("archivos") or {}
+    if not isinstance(archivos, dict):
+        raise ValueError("estado.json: «archivos» no es un objeto")
+    for rel, meta in archivos.items():
+        if not isinstance(rel, str) or not _RE_ARCHIVO.fullmatch(rel) or not isinstance(meta, dict):
+            raise ValueError(f"estado.json: ruta de partición inválida {rel!r}")
+    return archivos
+
+
+def slug_particion(nombre: str) -> str:
+    """Nombre de carpeta del dataset → parte de un nombre de partición válido («Derecho Civil» →
+    «derecho_civil»)."""
+    plano = unicodedata.normalize("NFKD", nombre).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9_-]+", "_", plano).strip("_") or "x"
 
 
 def nfc(valor: Any) -> Any:
     """La fila tal como queda escrita: textos en NFC (el mismo nombre con tildes compuestas o
-    descompuestas es UN nombre), sin floats."""
+    descompuestas es UN nombre), sin floats. Rutas y enlaces quedan literales."""
     if isinstance(valor, str):
         return unicodedata.normalize("NFC", valor)
     if isinstance(valor, dict):
-        return {nfc(k): nfc(v) for k, v in valor.items()}
+        return {nfc(k): (v if k in _LITERALES else nfc(v)) for k, v in valor.items()}
     if isinstance(valor, (list, tuple)):
         return [nfc(v) for v in valor]
     if isinstance(valor, float):
@@ -80,9 +105,9 @@ def particion_de(ruta: str) -> str:
         return "entradas/ta-otros"
     if raiz == "doctrina":
         if len(partes) >= 4 and partes[1] == "revistas":
-            return f"entradas/doc-rev-{partes[2].lower()}"
+            return f"entradas/doc-rev-{slug_particion(partes[2])}"
         if len(partes) >= 3:
-            return f"entradas/doc-{partes[1].lower()}"
+            return f"entradas/doc-{slug_particion(partes[1])}"
         return "entradas/doc-otros"
     if raiz == "guias_academia_judicial":
         return "entradas/guias"
