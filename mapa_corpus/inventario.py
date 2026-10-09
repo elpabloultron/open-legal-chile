@@ -101,6 +101,8 @@ def delta(previo: Dict[str, str], actual: Dict[str, Archivo]) -> Tuple[List[str]
 
 def blob_git(datos: bytes) -> str:
     """El oid de git de un blob: sha1("blob <n>\\0" + datos). No es un uso criptográfico."""
+    # El oid de git ES sha1 por definición (lo que informa el hub): integridad, no seguridad.
+    # nosemgrep: python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1
     h = hashlib.sha1(usedforsecurity=False)
     h.update(b"blob %d\x00" % len(datos))
     h.update(datos)

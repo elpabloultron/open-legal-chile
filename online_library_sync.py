@@ -1610,6 +1610,8 @@ def _blob_local(archivo: str, repo_id: str, copia: pathlib.Path) -> str:
         datos = copia.read_bytes()
     except OSError:
         return ""
+    # El oid de git ES sha1 por definición (lo que informa el hub): integridad, no seguridad.
+    # nosemgrep: python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1
     return hashlib.sha1(b"blob %d\0" % len(datos) + datos, usedforsecurity=False).hexdigest()
 
 
