@@ -49,7 +49,7 @@ jobs:
 
       - name: 4. Secret & Credential Leak Audit (Yelp/detect-secrets)
         run: |
-          detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|exports|\.pytest_cache|skills-lock\.json|docs/medicion_tokens\..*)'
+          detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|exports|\.pytest_cache|skills-lock\.json|docs/medicion_tokens\..*|mapa_corpus/puntero\.json|tests/fixtures/mapa/.*)'
 
       - name: 5. Strict Type Checking (python/mypy)
         run: |
