@@ -182,6 +182,38 @@ def _chequeo_hugging_face() -> Dict[str, Any]:
             "sugerencia": "guarda tu token en ~/.openlegal/hf_token (permisos 600)"}
 
 
+def _chequeo_mapa() -> Dict[str, Any]:
+    """El mapa del corpus de Hugging Face (índice de las ~80 mil fuentes del dataset), sin red.
+
+    Nunca es un error: sin mapa, las herramientas responden con sus fuentes de siempre. Es aviso
+    solo si hay una revisión publicada que todavía no se descargó, o si se usa una caché anterior.
+    """
+    try:
+        from mapa_corpus.cliente import obtener_cliente
+        cliente = obtener_cliente()
+    except Exception as exc:  # noqa: BLE001
+        return {"nombre": "mapa_corpus", "estado": "aviso", "detalle": f"no se pudo revisar ({str(exc)[:120]})"}
+    if not cliente.habilitado:
+        return {"nombre": "mapa_corpus", "estado": "ok", "detalle": "desactivado (OPENLEGAL_MAPA=off)"}
+    breve = cliente.estado_breve()
+    if breve.get("activo"):
+        conteos = breve.get("conteos") or {}
+        detalle = (f"listo: fuente {str(breve.get('sha_fuente') or '')[:8]} del "
+                   f"{str(breve.get('fecha_fuente') or '')[:10] or 's/f'} · {conteos.get('entradas', '?')} entradas")
+        if breve.get("aviso"):
+            return {"nombre": "mapa_corpus", "estado": "aviso", "detalle": f"{detalle} — {breve['aviso']}",
+                    "sugerencia": "se actualiza solo en segundo plano; para forzarlo, usa la herramienta suite_instalar"}
+        return {"nombre": "mapa_corpus", "estado": "ok", "detalle": detalle}
+    if not cliente.puntero.get("revision_mapa") and not cliente.local and cliente.modo != "main":
+        return {"nombre": "mapa_corpus", "estado": "ok",
+                "detalle": "aún no publicado para esta versión: las herramientas usan el corpus de siempre"}
+    detalle = "no descargado todavía" + (f" (último error: {breve['error']})" if breve.get("error") else "")
+    if breve.get("descargando"):
+        detalle = "descargando en segundo plano"
+    return {"nombre": "mapa_corpus", "estado": "aviso", "detalle": detalle,
+            "sugerencia": "se descarga solo al iniciar el servidor; para forzarlo, usa la herramienta suite_instalar"}
+
+
 def _chequeo_recursos() -> Dict[str, Any]:
     """Skills, agentes y protocolo de citación: en el repo o instalados en share/openlegal-chile."""
     try:
@@ -244,6 +276,7 @@ def diagnostico_completo() -> Dict[str, Any]:
         _chequeo_herramientas_mcp(),
         _chequeo_recursos(),
         _chequeo_hugging_face(),
+        _chequeo_mapa(),
         _chequeo_entorno(),
         _chequeo_harness(),
     ]
