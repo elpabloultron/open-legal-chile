@@ -2213,6 +2213,10 @@ def _resultado_mapa(cliente: Any, fila: Dict[str, Any], repo_id: str, space_id: 
         _cita_corte_suprema(fila) if fila.get("col") == "cs" else "")
     if cita_oficial:
         resultado["cita_oficial"] = cita_oficial
+    if fila.get("col") == "cs" and fila.get("rol"):
+        # El dataset trae la ficha de la CS, no el fallo: el texto íntegro se consulta en vivo.
+        resultado["como_obtener_texto"] = (f"pjud_analizar_sentencia con rol='{fila['rol']}': el texto íntegro "
+                                           "se trae en vivo de juris.pjud.cl")
     return resultado
 
 

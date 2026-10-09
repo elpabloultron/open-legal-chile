@@ -165,3 +165,69 @@ def test_rol_que_el_mapa_no_tiene_no_trae_fallos_del_mismo_anio(mapa_con_ruido, 
     monkeypatch.setattr(pjud_connector, "_cargar_corpus_local", lambda: [local])
     res = buscar_sentencias_locales("Rol 99999-2024", limit=5)
     assert [r["origen"] for r in res] == ["corpus_local"]          # nada del mapa por «2024»
+
+
+# ── Del mapa a la sentencia completa, en vivo ─────────────────────────────────────────────────
+class _ScraperFalso:
+    def __init__(self, docs=None, falla=None):
+        self.docs, self.falla, self.consultas = docs or [], falla, []
+
+    def buscar(self, tipo_corte="cs", texto="", limite=10, offset=0, **_):
+        self.consultas.append(texto)
+        if self.falla:
+            raise self.falla
+        return list(self.docs)
+
+
+def _doc(rol, documento_id, texto="CONSIDERANDO: 1° Que …"):
+    return {"id": f"solr-{documento_id}", "documento_id": documento_id, "rol": rol, "tribunal": "Corte Suprema",
+            "texto_integral": texto}
+
+
+def _cliente_pjud(tmp_path, scraper):
+    cliente = pjud_connector.PJUDClient(db_path=str(tmp_path / "pjud.db"))
+    cliente._scraper = scraper
+    return cliente
+
+
+def test_la_ficha_del_mapa_elige_el_documento_exacto(mapa_activo, tmp_path, monkeypatch):
+    from conftest import FILAS_MAPA_MINIMO
+    ficha = next(f for f in FILAS_MAPA_MINIMO if f["id"] == "cs:10641-2024")
+    otro = _doc("1064-2024", 5, "Otra causa que menciona el 10641-2024")
+    exacto = _doc("10641-2024", 777)
+    monkeypatch.setattr(pjud_connector, "_ficha_cs_del_mapa", lambda rol: dict(ficha, documento_id=777))
+    scraper = _ScraperFalso([otro, _doc("10641-2024", 9), exacto])
+    doc = _cliente_pjud(tmp_path, scraper).get_sentencia_integral("Rol N° 10.641-2024")
+    assert doc["documento_id"] == 777 and doc["id_mapa"] == "cs:10641-2024"
+    assert scraper.consultas == ["10641-2024"]
+
+
+def test_sin_coincidencia_no_se_entrega_otra_causa(tmp_path):
+    scraper = _ScraperFalso([_doc("641-2024", 1, "Otra causa")])
+    doc = _cliente_pjud(tmp_path, scraper).get_sentencia_integral("10641-2024")
+    assert "error" in doc                                   # antes devolvía el primero de la lista
+
+
+def test_sin_juris_pjud_se_entrega_la_ficha_con_aviso(mapa_activo, tmp_path):
+    scraper = _ScraperFalso(falla=ConnectionError("Connection reset by peer"))
+    doc = _cliente_pjud(tmp_path, scraper).get_sentencia_integral("Rol N° 10.641-2024")
+    assert doc["id_mapa"] == "cs:10641-2024" and doc["sala"] == SALA_3 and doc["texto_integral"] == ""
+    assert "Texto íntegro no disponible" in doc["aviso"] and "juris.pjud.cl" in doc["aviso"]
+    assert f"/blob/{'9' * 40}/" in doc["url_huggingface"]
+
+
+def test_sin_mapa_un_fallo_de_red_sigue_siendo_un_error(tmp_path):
+    import pytest
+    scraper = _ScraperFalso(falla=ConnectionError("Connection reset by peer"))
+    with pytest.raises(ConnectionError):
+        _cliente_pjud(tmp_path, scraper).get_sentencia_integral("10641-2024")
+
+
+def test_las_fichas_cs_del_mapa_dicen_como_obtener_el_texto(mapa_activo):
+    import online_library_sync as ols
+    primero = buscar_sentencias_locales("Rol 10641-2024", limit=1)[0]
+    assert "pjud_analizar_sentencia" in primero["como_obtener_texto"] and "10641-2024" in primero["como_obtener_texto"]
+    hf = ols.consultar_huggingface_dataset("Rol 10641-2024", limit=1)["resultados"][0]
+    assert "pjud_analizar_sentencia" in hf["como_obtener_texto"]
+    tc = [r for r in buscar_sentencias_locales("indemnización de perjuicios", limit=5) if r.get("id_mapa", "").startswith("tc:")]
+    assert all("como_obtener_texto" not in r for r in tc)
