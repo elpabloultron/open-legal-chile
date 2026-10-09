@@ -101,7 +101,8 @@ def cmd_estado(a: argparse.Namespace) -> int:
             base["estado"].get("curado", {}).get("sha256") == _sha_curado():
         cambio, motivo = False, "huella y grafo curado iguales a lo publicado"
         # El mapa ya está en HF pero el PR de su puntero no llegó (sin token, cerrado…): se rehace.
-        puntero_pendiente = _puntero_desactualizado(trabajo / "base" / "estado.json")
+        puntero_pendiente = _puntero_desactualizado(trabajo / "base" / "estado.json",
+                                                    [Path(a.puntero_pr)] if getattr(a, "puntero_pr", None) else [])
         if puntero_pendiente:
             motivo += "; el puntero del repo no apunta a él"
     elif modificado and not a.ignorar_movimiento:
@@ -129,14 +130,19 @@ def _sha_curado() -> str:
     return hashlib.sha256(CURADO.read_bytes()).hexdigest() if CURADO.exists() else ""
 
 
-def _puntero_desactualizado(estado_publicado: Path) -> bool:
+def _puntero_desactualizado(estado_publicado: Path, en_pr: List[Path]) -> bool:
+    """Ni el puntero del repo ni el de un PR del puntero abierto (`en_pr`) apuntan al mapa
+    publicado. Con el PR abierto no hay nada que rehacer: se espera a que lo fusionen."""
     if not estado_publicado.exists():
         return False
-    try:
-        actual = json.loads(publicador.PUNTERO.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
-        actual = {}
-    return bool(actual.get("sha256_estado") != particiones.sha256(estado_publicado.read_bytes()))
+    publicado = particiones.sha256(estado_publicado.read_bytes())
+    for ruta in [publicador.PUNTERO, *en_pr]:
+        try:
+            if json.loads(ruta.read_text(encoding="utf-8")).get("sha256_estado") == publicado:
+                return False
+        except (OSError, ValueError):
+            continue
+    return True
 
 
 def cmd_puntero(a: argparse.Namespace) -> int:
@@ -144,12 +150,17 @@ def cmd_puntero(a: argparse.Namespace) -> int:
     trabajo = _trabajo(a.trabajo)
     plan = json.loads((trabajo / "plan.json").read_text(encoding="utf-8"))
     estado_bytes = (trabajo / "base" / "estado.json").read_bytes()
-    puntero = publicador.escribir_puntero(estado_bytes, plan["sha"])
+    token = _token()
+    # La revisión de la publicación (la del tag mapa-<n> con este mismo estado.json), no el HEAD del
+    # día: así el puntero rehecho no cambia de una corrida a otra y su revisión queda protegida.
+    revision = publicador.revision_publicada(estado_bytes, lambda rev: _bajar_estado(rev, token),
+                                             token=token) or plan["sha"]
+    puntero = publicador.escribir_puntero(estado_bytes, revision)
     (trabajo / "reporte.md").write_text(
         f"## Mapa del corpus — puntero\n\nEl mapa de la fuente `{str(puntero['sha_fuente'])[:8]}` ya está publicado "
-        f"en HF (revisión `{plan['sha']}`), pero el PR de su puntero no se fusionó: este lo rehace.\n",
+        f"en HF (revisión `{revision}`), pero el PR de su puntero no se fusionó: este lo rehace.\n",
         encoding="utf-8")
-    _salida_github(a.github_output, {"publicado": "true", "revision_mapa": plan["sha"],
+    _salida_github(a.github_output, {"publicado": "true", "revision_mapa": revision,
                                      "sha_fuente": puntero.get("sha_fuente") or ""})
     return 0
 
@@ -285,6 +296,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     sp.add_argument("--ignorar-movimiento", action="store_true")
     sp.add_argument("--requiere-base", action="store_true",
                     help="sin mapa publicado no se construye (corridas programadas)")
+    sp.add_argument("--puntero-pr", default=None,
+                    help="puntero.json de un PR del puntero abierto (si ya apunta al mapa, no se rehace)")
     sp.set_defaults(fn=cmd_estado)
 
     sp = sub.add_parser("construir")

@@ -358,6 +358,8 @@ class LegalGraphifyEngine:
         self._alias_mapa: Dict[str, str] = {}           # ID curado legado -> ID canónico del mapa
         self._label_mapa: Dict[str, str] = {}           # etiqueta normalizada -> nodo de la capa
         self._previas_mapa: Dict[str, Dict[str, Any]] = {}  # atributos curados que la capa pisó
+        self._roles_curados: Dict[str, str] = {}        # ID de rol (cs:/tc:/ta:) -> nodo curado de ese rol
+        self._roles_curados_version = -1
 
     @_con_cerrojo
     def _actualizar_indice_invertido(self) -> None:
@@ -813,15 +815,14 @@ class LegalGraphifyEngine:
 
         # 1.2 Con la capa del mapa: alias e índice exacto (un rol o una norma citados como tales).
         # Un rol que el mapa no tiene puede seguir en el grafo curado (fallos antiguos citados en la
-        # doctrina: «Rol N° 4.821-2019»), así que siguen los pasos curados; lo que se salta es la
-        # búsqueda en el texto de toda la doctrina (~12 s), que terminaría devolviendo una
-        # institución cualquiera que menciona el número.
-        rol_fuera_del_mapa = False
+        # doctrina: «Rol N° 4.821-2019»), pero solo vale el nodo que ES ese rol: los pasos por
+        # palabras sueltas («causa», «sentencia», «rol») y la búsqueda en el texto de la doctrina
+        # (~12 s) devolverían una institución o un fallo cualquiera.
         if self.origen_grafo == CAPA_MAPA:
             en_mapa = self._buscar_en_mapa(query)
             if en_mapa == _ROL_INEXISTENTE:
-                rol_fuera_del_mapa = True
-            elif en_mapa:
+                return self._nodo_curado_del_rol(_ids_de_consulta(query), q_norm)
+            if en_mapa:
                 return en_mapa
 
         # 1.5 Con la capa del mapa: nombre exacto de una entidad del mapa (un ministro, una sala,
@@ -904,9 +905,6 @@ class LegalGraphifyEngine:
             mejores = [nid for nid, sc in candidatos_score.items() if sc == max_score]
             mejores.sort(key=lambda nid: (-self._grado_curado(nid), nid))
             return mejores[0]
-
-        if rol_fuera_del_mapa:
-            return None
 
         # 4. Último recurso: el término puede no nombrar ningún nodo y, aun así, ser el
         # tema de una obra ('compraventa' aparece en 4 tratados sin ser el label de
@@ -997,6 +995,32 @@ class LegalGraphifyEngine:
         if all(i.startswith(("cs:", "tc:", "ta:")) for i in ids):
             return _ROL_INEXISTENTE
         return None
+
+    def _nodo_curado_del_rol(self, ids: List[str], q_norm: str = "") -> Optional[str]:
+        """El nodo curado cuya etiqueta es ese mismo rol («Rol N° 4.821-2019»), o None.
+
+        Primero la etiqueta idéntica a la consulta (lo que daba el flujo sin mapa); si no, un índice
+        rol → nodo armado una vez por versión del grafo con las etiquetas que nombran un rol, donde
+        ante dos nodos del mismo rol gana el de jurisprudencia y, luego, el ID menor."""
+        if self._roles_curados_version != self._version:
+            if not self._label_index and self.graph.number_of_nodes() > 0:
+                self._actualizar_indice_invertido()
+            mejores: Dict[str, Tuple[int, str]] = {}
+            for nid in set(self._label_index.values()):
+                datos = self.graph.nodes[nid] if nid in self.graph else {}
+                etiqueta = str(datos.get("label") or "")
+                if not re.search(r"\b(?:rol|stc)\b", etiqueta, re.IGNORECASE):
+                    continue
+                prioridad = 0 if str(datos.get("node_type", "")).startswith("jurisprudencia") else 1
+                for id_ in _ids_de_consulta(etiqueta):
+                    if id_.startswith(("cs:", "tc:", "ta:")) and (prioridad, nid) < mejores.get(id_, (2, "")):
+                        mejores[id_] = (prioridad, nid)
+            self._roles_curados = {id_: nid for id_, (_, nid) in mejores.items()}
+            self._roles_curados_version = self._version
+        exacto = self._label_index.get(q_norm) if q_norm else None
+        if exacto and exacto in self.graph and set(_ids_de_consulta(str(self.graph.nodes[exacto].get("label") or ""))) & set(ids):
+            return exacto
+        return next((self._roles_curados[i] for i in ids if i in self._roles_curados), None)
 
     def _buscar_por_texto_mapa(self, query: str) -> Optional[str]:
         """Último paso con la capa del mapa: búsqueda de texto (FTS) en las 80 mil entradas.

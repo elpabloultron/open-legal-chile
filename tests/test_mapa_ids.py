@@ -91,6 +91,14 @@ def roles(t):
     ("los Arts. 17 N° 2, 18 Nº2, 20 y 24 de la Ley Nº 20.600",
      ["norma:ley-20600:17:n2", "norma:ley-20600:18:n2", "norma:ley-20600:20", "norma:ley-20600:24"]),
     ("el artículo 19 N° 2, 3 y 24 de la Constitución", ["norma:cpr:19:n2", "norma:cpr:19:n24", "norma:cpr:19:n3"]),
+    # …pero un número contiguo al N° anterior sigue siendo numeral del mismo artículo.
+    ("artículos 17 N° 5, 6 y 8 de la Ley N° 20.600 y 53 de la Ley N° 19.880",
+     ["norma:ley-19880:53", "norma:ley-20600:17:n5", "norma:ley-20600:17:n6", "norma:ley-20600:17:n8"]),
+    ("las atenuantes de los artículos 11 N° 6 y 9 del Código Penal", ["norma:cp:11:n6", "norma:cp:11:n9"]),
+    ("los arts. 254 N° 4° y 5°, 309 N° 4° y 5°, 160 y 170 N° 6 del CPC",
+     ["norma:cpc:160", "norma:cpc:170:n6", "norma:cpc:254:n4", "norma:cpc:254:n5", "norma:cpc:309:n4",
+      "norma:cpc:309:n5"]),
+    ("los artículos 92 N° 1 y 95 del CPC", ["norma:cpc:92:n1", "norma:cpc:95"]),
     # Salvo en el artículo 19 de la CPR (26 numerales): lo que pasa de 26 es otro artículo.
     ("los artículos 19 N° 2 y 3 de la CPR", ["norma:cpr:19:n2", "norma:cpr:19:n3"]),
     ("los artículos 19 N° 3 y 76 de la Carta Fundamental", ["norma:cpr:19:n3", "norma:cpr:76"]),

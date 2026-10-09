@@ -216,3 +216,24 @@ def test_tag_siguiente_al_mayor_y_tag_fallido_no_pierde_el_puntero(mapa, tmp_pat
     res = publicador.publicar(str(mapa), None, "a" * 40, None, api=ApiTagFalla(tags=["mapa-2"]),
                               forzar_versiones=True, ruta_puntero=destino)
     assert res["publicado"] and res["tag"] == "" and json.loads(destino.read_text())["revision_mapa"] == "c" * 40
+
+
+def test_revision_publicada_es_la_del_tag_con_ese_estado():
+    estados = {"a" * 40: b'{"v": 1}', "b" * 40: b'{"v": 2}', "c" * 40: None}
+
+    class Api:
+        def list_repo_refs(self, repo_id, repo_type):
+            return SimpleNamespace(tags=[SimpleNamespace(name="mapa-1", target_commit="a" * 40),
+                                         SimpleNamespace(name="mapa-2", target_commit="b" * 40),
+                                         SimpleNamespace(name="mapa-3", target_commit="c" * 40),
+                                         SimpleNamespace(name="v1.0", target_commit="d" * 40)])
+
+    pedidas = []
+
+    def bajar(rev):
+        pedidas.append(rev)
+        return estados.get(rev)
+
+    assert publicador.revision_publicada(b'{"v": 1}', bajar, api=Api()) == "a" * 40
+    assert pedidas == ["c" * 40, "b" * 40, "a" * 40]              # del tag más reciente al más antiguo
+    assert publicador.revision_publicada(b'{"v": 9}', bajar, api=Api()) is None
