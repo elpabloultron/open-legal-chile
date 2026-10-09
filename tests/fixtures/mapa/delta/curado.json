@@ -1,0 +1,16 @@
+{
+ "nodes": [
+  {"id": "via_recurso_de_proteccion", "node_type": "via_procesal", "label": "Recurso de Protección"},
+  {"id": "norma_ley_17997", "node_type": "cuerpo_legal", "label": "Ley N° 17.997, Orgánica Constitucional del Tribunal Constitucional"},
+  {"id": "organo_tc", "node_type": "organo_estado", "label": "Tribunal Constitucional"},
+  {"id": "organo_1ta", "node_type": "organo_estado", "label": "Primer Tribunal Ambiental de Antofagasta"},
+  {"id": "sent_tc_rol_n_15907_06a_ina", "node_type": "jurisprudencia_tc", "label": "TC · Rol N° 15907-06a-INA",
+   "url": "https://buscador-backend.tcchile.cl/api/extended/13139/download"},
+  {"id": "institucion_inadmisibilidad", "node_type": "institucion", "label": "Inadmisibilidad del requerimiento de inaplicabilidad"}
+ ],
+ "edges": [
+  {"source": "sent_tc_rol_n_15907_06a_ina", "target": "institucion_inadmisibilidad", "relation": "trata"},
+  {"source": "institucion_inadmisibilidad", "target": "organo_tc", "relation": "conoce"},
+  {"source": "norma_ley_17997", "target": "organo_tc", "relation": "regula"}
+ ]
+}

@@ -88,27 +88,33 @@ def _limpiar_vacios(fila: Dict[str, Any]) -> Dict[str, Any]:
 
 
 # ── Corte Suprema ─────────────────────────────────────────────────────────────────────────
+def _txt(valor: Any) -> str:
+    """Texto de un campo de ficha con espacios normalizados; «—» (sin dato) es vacío."""
+    t = " ".join(str(valor or "").split())
+    return "" if t in ("—", "-", "–") else t
+
+
 def fila_cs(registro: Dict[str, Any], ruta: str, blob: str, n_bytes: int) -> Optional[Dict[str, Any]]:
     """Una fila del índice CS (o los campos leídos del .md, con las mismas claves) → fila."""
     id_ = ids.id_cs(str(registro.get("rol") or ""))
     if not id_:
         return None
-    fila = _base("cs", ruta, blob, n_bytes, id_, " ".join(str(registro.get("caratula") or "").split()))
+    fila = _base("cs", ruta, blob, n_bytes, id_, _txt(registro.get("caratula")))
     era = registro.get("era")
     fila.update({
         "rol": id_[3:],
         "era": int(str(era)) if str(era or "").isdigit() else int(id_.rsplit("-", 1)[1]),
         "fecha": fecha_iso(registro.get("fecha")),
-        "sala": ids.sala_id(str(registro.get("sala") or "")),
-        "recurso": ids.recurso_id(str(registro.get("recurso") or "")),
-        "recurso_txt": " ".join(str(registro.get("recurso") or "").split()),
-        "resultado": " ".join(str(registro.get("resultado") or "").split()),
-        "origen": ids.tribunal_id(str(registro.get("tribunal_origen") or "")),
-        "origen_txt": " ".join(str(registro.get("tribunal_origen") or "").split()),
+        "sala": ids.sala_id(_txt(registro.get("sala"))),
+        "recurso": ids.recurso_id(_txt(registro.get("recurso"))),
+        "recurso_txt": _txt(registro.get("recurso")),
+        "resultado": _txt(registro.get("resultado")),
+        "origen": ids.tribunal_id(_txt(registro.get("tribunal_origen"))),
+        "origen_txt": _txt(registro.get("tribunal_origen")),
         "ministros": ids.ministros(str(registro.get("ministros") or "")),
         "ministros_txt": [" ".join(m.split()) for m in re.split(r"\s*,\s*", str(registro.get("ministros") or ""))
                           if m.strip() and m.strip() not in ("—", "-")],
-        "publicacion": " ".join(str(registro.get("publicacion") or "").split()),
+        "publicacion": _txt(registro.get("publicacion")),
     })
     doc = registro.get("documento_id")
     if isinstance(doc, int) or (isinstance(doc, str) and doc.isdigit()):
@@ -262,9 +268,8 @@ def fila_doc(ruta: str, datos: bytes, blob: str) -> Dict[str, Any]:
     meta, cuerpo = leer_front_matter(texto)
     partes = ruta.split("/")
     es_revista = len(partes) >= 4 and partes[1] == "revistas"
-    rel = ruta[len("doctrina/"):-3] if ruta.endswith(".md") else ruta[len("doctrina/"):]
     titulo = " ".join(str(meta.get("titulo") or _titulo(texto) or partes[-1][:-3]).split())
-    fila = _base("doc", ruta, blob, len(datos), f"doc:{rel}", titulo)
+    fila = _base("doc", ruta, blob, len(datos), ids.id_ruta("doc", ruta, "doctrina/"), titulo)
     m_trat = re.search(r"\*\*Tratadistas?:\*\*\s*([^|\n]+)", texto[:5000])
     autores_txt = _autores(meta, {}) if (meta.get("autores") or meta.get("autor")) else (
         ids.separar_autores(m_trat.group(1)) if m_trat else [])
@@ -308,7 +313,7 @@ def fila_simple(col: str, prefijo: str, raiz: str, ruta: str, datos: bytes, blob
     if rel.endswith(".md"):
         rel = rel[:-3]
     titulo = " ".join(str(meta.get("titulo") or _titulo(texto) or rel).split())
-    fila = _base(col, ruta, blob, len(datos), f"{prefijo}:{rel}", titulo)
+    fila = _base(col, ruta, blob, len(datos), ids.id_ruta(prefijo, ruta, raiz), titulo)
     texto_util = _cuerpo_tras_cabecera(texto) or cuerpo
     fila.update({
         "tribunal": " ".join(v.get("tribunal", "").split()),
@@ -325,7 +330,7 @@ def fila_simple(col: str, prefijo: str, raiz: str, ruta: str, datos: bytes, blob
 def fila_archivo(col: str, prefijo: str, ruta: str, blob: str, n_bytes: int) -> Dict[str, Any]:
     """`data/**`, la raíz y `graphify/**`: solo inventario (no se extrae nada)."""
     nombre = ruta.rsplit("/", 1)[-1]
-    return _base(col, ruta, blob, n_bytes, f"{prefijo}:{ruta}", nombre)
+    return _base(col, ruta, blob, n_bytes, prefijo + ":" + re.sub(r"\s+", "_", ruta), nombre)
 
 
 def extraer(ruta: str, datos: bytes, blob: str) -> Optional[Dict[str, Any]]:
