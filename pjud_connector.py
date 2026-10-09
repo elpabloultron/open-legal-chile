@@ -340,7 +340,57 @@ def _registro_de_fila_mapa(cliente: Any, fila: Dict[str, Any]) -> Dict[str, Any]
         "archivo_md": ruta,
         "id_mapa": str(fila.get("id") or ""),
         "origen": "mapa_hf",
+        **({"como_obtener_texto": f"pjud_analizar_sentencia con rol='{rol}': el texto íntegro se trae en vivo "
+                                  "de juris.pjud.cl"} if col == "cs" else {}),
     }
+
+
+def _ficha_cs_del_mapa(rol: str) -> Optional[Dict[str, Any]]:
+    """La ficha de la Corte Suprema del mapa del corpus para un rol, o None (sin mapa, sin red)."""
+    try:
+        from citas_legales import rol_canonico
+        from online_library_sync import cliente_mapa
+        cliente = cliente_mapa()
+        id_ = rol_canonico(rol, "cs") if cliente is not None else None
+        fila = cliente.entrada(id_) if id_ else None
+        return fila if fila and fila.get("col") == "cs" else None
+    except Exception:  # noqa: BLE001 — el mapa suma, nunca tumba la consulta en vivo
+        return None
+
+
+def _elegir_documento(docs: List[Dict[str, Any]], rol: str, ficha: Optional[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """El documento de la búsqueda en vivo que ES el pedido: el de la ficha (documento_id) o el de
+    rol canónico igual. Nunca el primero de la lista sin más: podría ser otra causa que solo
+    menciona el número."""
+    from citas_legales import rol_canonico
+    if ficha and ficha.get("documento_id") is not None:
+        for d in docs:
+            if str(d.get("documento_id")) == str(ficha["documento_id"]):
+                return d
+    buscado = rol_canonico(rol, "cs")
+    for d in docs:
+        rol_doc = str(d.get("rol") or "")
+        if buscado and rol_canonico(rol_doc, "cs") == buscado:
+            return d
+        if not buscado and rol.lower() in rol_doc.lower():
+            return d
+    return None
+
+
+def _respaldo_ficha(ficha: Dict[str, Any], motivo: str) -> Dict[str, Any]:
+    """Sin el texto en vivo: la ficha del mapa (sala, ministros, recurso, resultado, fecha) con el
+    enlace oficial, y el aviso de que el texto íntegro no se pudo leer."""
+    from online_library_sync import cliente_mapa
+    registro = _registro_de_fila_mapa(cliente_mapa(), ficha)
+    registro.update({
+        "texto_integral": "",
+        "documento_id": ficha.get("documento_id"),
+        "url_origen": "https://juris.pjud.cl/busqueda?Corte_Suprema",
+        "aviso": (f"Texto íntegro no disponible: {motivo}. Se entrega la ficha del mapa del corpus; el "
+                  "texto oficial se consulta en el buscador de jurisprudencia del Poder Judicial "
+                  "(juris.pjud.cl). Sin el texto, no citar considerandos («sin fuente verificable»)."),
+    })
+    return registro
 
 
 def _sentencias_del_mapa(query: str, limit: int) -> List[Dict[str, Any]]:
@@ -507,28 +557,36 @@ class PJUDClient:
         Obtiene el texto completo y metadatos de una sentencia por Rol o ID numérico.
         Opcionalmente descarga el documento oficial en formato PDF o Word DOCX.
         """
+        limpio = str(rol_o_id).strip()
+        # Con el mapa del corpus, la ficha de la CS dice qué documento oficial es (documento_id):
+        # el texto íntegro se trae en vivo de ese documento, sin descargar el corpus.
+        ficha = _ficha_cs_del_mapa(limpio) if corte == "cs" and not limpio.isdigit() else None
         sc = self.scraper
         if not sc:
-            return {"error": "Scraper PJUD no disponible."}
+            return _respaldo_ficha(ficha, "el buscador de juris.pjud.cl no está disponible") if ficha \
+                else {"error": "Scraper PJUD no disponible."}
 
-        limpio = str(rol_o_id).strip()
         doc = None
-
-        if limpio.isdigit():
-            docs = sc.buscar(tipo_corte=corte, texto=limpio, limite=1)
-            if docs:
-                doc = docs[0]
-        else:
-            docs = sc.buscar(tipo_corte=corte, texto=limpio, limite=3)
-            for d in docs:
-                if limpio.lower() in d.get("rol", "").lower():
-                    doc = d
-                    break
-            if not doc and docs:
-                doc = docs[0]
+        try:
+            if limpio.isdigit():
+                docs = sc.buscar(tipo_corte=corte, texto=limpio, limite=1)
+                if docs:
+                    doc = docs[0]
+            else:
+                consulta = str((ficha or {}).get("rol") or limpio)
+                docs = sc.buscar(tipo_corte=corte, texto=consulta, limite=10 if ficha else 3)
+                doc = _elegir_documento(docs, limpio, ficha)
+        except Exception as e:  # noqa: BLE001 — sin juris.pjud.cl, la ficha del mapa sigue sirviendo
+            if ficha:
+                return _respaldo_ficha(ficha, f"juris.pjud.cl no respondió ({str(e)[:120]})")
+            raise
 
         if not doc:
+            if ficha:
+                return _respaldo_ficha(ficha, "juris.pjud.cl no devolvió el documento de esta ficha")
             return {"error": f"No se encontró sentencia con Rol/ID '{rol_o_id}' en {corte.upper()}."}
+        if ficha:
+            doc.setdefault("id_mapa", str(ficha.get("id") or ""))
 
         if descargar_formato and descargar_formato.lower() in ("pdf", "docx", "html"):
             try:

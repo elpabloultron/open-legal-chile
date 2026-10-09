@@ -150,6 +150,7 @@ class PJUDScraper:
 
         return {
             "id": doc_id,
+            "documento_id": d.get("sent__crr_documento_i"),
             "tipo_corte": tipo_corte,
             "tribunal": corte,
             "sala": sala,
