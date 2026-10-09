@@ -288,14 +288,29 @@ def test_consulta_maestra_con_clave_mapa(mapa_activo, servidor, red_prohibida):
 
 
 def test_consulta_maestra_sin_mapa_avisa(servidor, monkeypatch):
-    """`hf` puede no traer `mapa` (falló o es otra implementación): se lee aparte y se avisa."""
+    """`hf` puede no traer `mapa` (falló o es otra implementación): se lee aparte. Hay aviso solo si
+    hay un mapa publicado que todavía no se descarga; apagado o sin publicar, nada que avisar."""
+    from mapa_corpus import cliente as mod_cliente
     monkeypatch.setattr(servidor, "_hf_para_consulta", lambda q, lim=3: {"resultados": [], "citas": []})
 
-    res = servidor.handle_tool_call("consulta_maestra", {"consulta": "simulación"})
-
-    assert res["mapa"]["activo"] is False
-    assert len(res["avisos"]) == 1 and "mapa del corpus" in res["avisos"][0]
+    res = servidor.handle_tool_call("consulta_maestra", {"consulta": "simulación"})          # apagado
+    assert res["mapa"]["activo"] is False and "avisos" not in res
     assert sorted(servidor.avances_de_prueba) == [0, 1, 2, 3, 4, 5]
+
+    monkeypatch.setenv("OPENLEGAL_MAPA", "")
+    try:
+        monkeypatch.setattr(mod_cliente, "leer_puntero", lambda *a, **k: {"revision_mapa": None})
+        mod_cliente.reiniciar_cliente()
+        res = servidor.handle_tool_call("consulta_maestra", {"consulta": "simulación"})      # sin publicar
+        assert res["mapa"]["publicado"] is False and "avisos" not in res
+
+        monkeypatch.setattr(mod_cliente, "leer_puntero",
+                            lambda *a, **k: {"revision_mapa": "1" * 40, "sha256_estado": "2" * 64})
+        mod_cliente.reiniciar_cliente()
+        res = servidor.handle_tool_call("consulta_maestra", {"consulta": "simulación"})      # publicado
+        assert len(res["avisos"]) == 1 and "suite_instalar" in res["avisos"][0]
+    finally:
+        mod_cliente.reiniciar_cliente()
 
 
 def test_huggingface_search_dataset_pasa_los_parametros(mapa_activo, servidor):
@@ -410,3 +425,16 @@ def test_grafo_ver_corpus_elige_los_vecinos_mas_conectados(servidor, monkeypatch
     assert all(f"v{i}" in contenido for i in ("39", "38", "37"))
     assert "v00" not in contenido and "hoja_" not in contenido
     assert motor.graph.number_of_nodes() == 41 + sum(range(40)), "el grafo compartido no se modifica"
+
+
+def test_rol_en_formato_oficial_sin_ruido(fabrica_mapa, monkeypatch, tmp_path, sin_cliente_al_salir, red_prohibida):
+    """«Rol N° 10.641-2024»: la ficha exacta y quién la cita; no otros fallos de 2024 por texto."""
+    ruido = [{"id": f"cs:{100 + i}-2024", "col": "cs", "ruta": f"jurisprudencia_cs/2024/04/{100 + i}-2024.md",
+              "blob": f"{i:040d}", "bytes": 700, "fecha": "2024-04-01", "era": 2024, "rol": f"{100 + i}-2024",
+              "titulo": f"CAUSA {i} CON FISCO", "sala": "sala:cs-3"} for i in range(30)]
+    _activar(monkeypatch, tmp_path, fabrica_mapa(filas=FILAS_MAPA_MINIMO + ruido, destino=tmp_path / "ruido"))
+    for consulta in ("Rol N° 10.641-2024", "rol n° 10641-2024"):
+        res = ols.consultar_huggingface_dataset(consulta, limit=5)
+        assert [r["archivo"] for r in res["resultados"]] == [RUTA_CS, "jurisprudencia_tc/2402-12-INA.md"]
+        assert res["mapa_consulta"]["ids"] == ["cs:10641-2024"]
+    assert red_prohibida == []

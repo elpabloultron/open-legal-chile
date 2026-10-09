@@ -472,10 +472,12 @@ def _estado_mapa() -> dict:
 
 
 def _aviso_mapa(mapa: dict) -> str:
-    """El aviso de la consulta cuando el mapa no está activo (o responde con una caché anterior)."""
+    """El aviso de la consulta cuando el mapa no está activo (o responde con una caché anterior).
+    Apagado o aún sin publicar no hay nada que avisar: no falta nada que el usuario pueda hacer
+    (igual que `suite_doctor`)."""
     if mapa.get("aviso"):
         return str(mapa["aviso"])
-    if mapa.get("activo"):
+    if mapa.get("activo") or mapa.get("publicado") is False or str(mapa.get("motivo", "")).startswith("desactivado"):
         return ""
     motivo = mapa.get("motivo") or mapa.get("error") or "no hay un mapa listo"
     return (f"El mapa del corpus de Hugging Face no está activo ({motivo}): la consulta usó las fuentes de "

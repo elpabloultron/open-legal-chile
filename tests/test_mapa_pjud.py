@@ -4,6 +4,8 @@ Con el mapa diminuto de `tests/conftest.py` (sin red). Sin mapa (el estado por d
 suite), todo responde exactamente como antes.
 """
 
+import pytest
+
 import case_intake
 import pjud_connector
 from pjud_connector import buscar_sentencias_locales
@@ -114,3 +116,52 @@ def test_espacio_del_caso_cita_con_url_fijada_y_guarda_la_revision(tmp_path, mon
                                             "archivo": "jurisprudencia_cs/2024/03/10641-2024.md", "url": url}]
     assert meta["corpus_huggingface"] == {"revision": "local", "sha_fuente": "9" * 40, "fecha_fuente": "2026-10-01"}
     assert url in (tmp_path / "caso" / "markdown" / "fuentes_hf.md").read_text(encoding="utf-8")
+
+
+def test_espacio_del_caso_con_la_respuesta_real_de_hf(mapa_activo, tmp_path, monkeypatch):
+    """Las citas reales de `consultar_huggingface_dataset` traen la URL fijada, no el archivo."""
+    import online_library_sync
+    from case_workspace import CaseWorkspace
+
+    monkeypatch.setattr(online_library_sync, "_descargar_trozo_hf", lambda *a, **k: "")
+    ws = CaseWorkspace(tmp_path / "caso")
+    ws.enriquecer_con_huggingface("Rol 10641-2024")
+    fuentes = ws.leer_metadatos()["fuentes_huggingface"]
+    ficha = next(f for f in fuentes if f["archivo"] == "jurisprudencia_cs/2024/03/10641-2024.md")
+    assert f"/blob/{'9' * 40}/jurisprudencia_cs/2024/03/10641-2024.md" in ficha["url"]
+    assert "URL fijada" in (tmp_path / "caso" / "markdown" / "fuentes_hf.md").read_text(encoding="utf-8")
+
+
+@pytest.fixture
+def mapa_con_ruido(fabrica_mapa, tmp_path, monkeypatch):
+    """El mapa diminuto más 30 fallos de 2024: «2024» por texto calzaría con todos."""
+    from conftest import FILAS_MAPA_MINIMO
+    from mapa_corpus import cliente
+
+    ruido = [{"id": f"cs:{100 + i}-2024", "col": "cs", "ruta": f"jurisprudencia_cs/2024/04/{100 + i}-2024.md",
+              "blob": f"{i:040d}", "bytes": 700, "fecha": "2024-04-01", "era": 2024, "rol": f"{100 + i}-2024",
+              "titulo": f"CAUSA {i} CON FISCO", "sala": "sala:cs-3"} for i in range(30)]
+    destino = fabrica_mapa(filas=FILAS_MAPA_MINIMO + ruido, destino=tmp_path / "mapa_ruido")
+    monkeypatch.setenv("OPENLEGAL_MAPA", "")
+    monkeypatch.setenv("OPENLEGAL_MAPA_LOCAL", str(destino))
+    monkeypatch.setenv("OPENLEGAL_MAPA_DIR", str(tmp_path / "cache_ruido"))
+    cliente.reiniciar_cliente()
+    c = cliente.obtener_cliente()
+    assert c.asegurar(bloquear=True, timeout=120), c.error
+    yield c
+    cliente.reiniciar_cliente()
+
+
+@pytest.mark.parametrize("consulta", ["Rol N° 10.641-2024", "Rol 10641-2024", "rol n° 10641-2024"])
+def test_rol_en_formato_oficial_sin_ruido(mapa_con_ruido, monkeypatch, consulta):
+    monkeypatch.setattr(pjud_connector, "_cargar_corpus_local", lambda: [])
+    res = buscar_sentencias_locales(consulta, limit=5)
+    assert [r["id_mapa"] for r in res] == ["cs:10641-2024"]
+
+
+def test_rol_que_el_mapa_no_tiene_no_trae_fallos_del_mismo_anio(mapa_con_ruido, monkeypatch):
+    local = {"tribunal": "Corte Suprema", "rol": "Rol N° 99.999-2024", "fecha": "2024-01-01",
+             "caratula": "Otra", "_texto": "rol 99999-2024 otra"}
+    monkeypatch.setattr(pjud_connector, "_cargar_corpus_local", lambda: [local])
+    res = buscar_sentencias_locales("Rol 99999-2024", limit=5)
+    assert [r["origen"] for r in res] == ["corpus_local"]          # nada del mapa por «2024»

@@ -349,24 +349,27 @@ def _sentencias_del_mapa(query: str, limit: int) -> List[Dict[str, Any]]:
     y los tribunales ambientales. Sin mapa listo, vacío. Nunca usa la red."""
     try:
         from citas_legales import resolver_consulta
-        from online_library_sync import _ids_de_entidad, cliente_mapa
+        from online_library_sync import _ids_de_entidad, _prosa, _tokens_consulta, cliente_mapa
         cliente = cliente_mapa()
         if cliente is None:
             return []
         colecciones = ["cs", "tc", "ta"]
         filas: List[Dict[str, Any]] = []
-        for id_ in resolver_consulta(query):
-            if id_.startswith(("cs:", "tc:", "ta:")):
-                fila = cliente.entrada(id_)
-                if fila:
-                    filas.append(fila)
+        roles = [i for i in resolver_consulta(query) if i.startswith(("cs:", "tc:", "ta:"))]
+        for id_ in roles:
+            fila = cliente.entrada(id_)
+            if fila:
+                filas.append(fila)
         nombre = _RE_TRATAMIENTO_PJUD.sub("", query).strip()
         entidades = [e for e in (_ids_de_entidad(cliente, nombre) if nombre else [])
                      if e.startswith(("ministro:", "sala:", "recurso:", "tribunal:", "organo:"))]
         if entidades:
             filas += cliente.citantes(entidades, colecciones, limite=limit)[0]
-        if len(filas) < limit:
-            filas += cliente.buscar(query, colecciones, limite=limit)
+        # Con el rol ya resuelto (esté o no en el mapa), el texto busca solo lo que la consulta dice
+        # además de él: «Rol 10641-2024» por texto calzaría con miles de fallos de 2024.
+        texto = " ".join(_prosa(_tokens_consulta(query))) if roles else query
+        if len(filas) < limit and texto.strip():
+            filas += cliente.buscar(texto, colecciones, limite=limit)
         salida: List[Dict[str, Any]] = []
         vistos: set = set()
         for fila in filas:

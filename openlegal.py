@@ -89,11 +89,15 @@ def _imprimir_mapa(breve: dict, sangria: str = "") -> None:
         conteos = breve.get("conteos") or {}
         print(f"{sangria}🗺️ Mapa del corpus: fuente {str(breve.get('sha_fuente') or '')[:8]} del "
               f"{str(breve.get('fecha_fuente') or '')[:10] or 's/f'} · {conteos.get('entradas', '?')} entradas")
+        extras = ["aviso", "nota", "error"]
     else:
-        motivo = breve.get("motivo") or breve.get("aviso") or breve.get("error") or "no disponible"
-        print(f"{sangria}🗺️ Mapa del corpus: {motivo}")
-    for clave in ("aviso", "nota", "error"):
-        if breve.get("activo") and breve.get(clave):
+        # Una descarga fallida se dice primero, y sin el aviso de «se descarga en segundo plano»:
+        # en la CLI el proceso termina aquí y no queda nada descargando.
+        principal = next((k for k in ("error", "motivo", "aviso") if breve.get(k)), "")
+        print(f"{sangria}🗺️ Mapa del corpus: {breve.get(principal) or 'no disponible'}")
+        extras = ["nota"] + ([] if breve.get("error") or principal == "aviso" else ["aviso"])
+    for clave in extras:
+        if breve.get(clave):
             print(f"{sangria}   ↳ {breve[clave]}")
 
 

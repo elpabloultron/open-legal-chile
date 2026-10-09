@@ -822,8 +822,9 @@ def rol_canonico(texto: str, tribunal: Optional[str] = None) -> Optional[str]:
     return None
 
 
+# «n°» va aparte: «°» no es letra y un `\b` tras él no calzaría nunca («Rol N° 10.641-2024»).
 _RE_RUIDO_CONSULTA = re.compile(
-    r"\b(?:rol(?:es)?|causa|sentencia|fallo|n°|de|del|la|el|en|corte\s+suprema|excma\.?|cs|recurso|ficha)\b",
+    r"\b(?:rol(?:es)?|causa|sentencia|fallo|de|del|la|el|en|corte\s+suprema|excma\.?|cs|recurso|ficha)\b|\bn°",
     re.IGNORECASE)
 _RE_CONSULTA_NO_CS = re.compile(r"corte\s+de\s+apelaciones|\bC\.\s?A\.|juzgado|\bRIT\b|\bRUC\b|\bC-\d", re.IGNORECASE)
 
