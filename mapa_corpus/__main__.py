@@ -94,7 +94,9 @@ def cmd_estado(a: argparse.Namespace) -> int:
     reglas = constructor.version_reglas()
     huella = inventario.huella(inv.values(), reglas)
     motivo, cambio = "", True
-    if base and base["estado"].get("huella_fuente") == huella and \
+    if base is None and getattr(a, "requiere_base", False):
+        cambio, motivo = False, "sin mapa publicado: la primera construcción se lanza a mano (modo completo)"
+    elif base and base["estado"].get("huella_fuente") == huella and \
             base["estado"].get("curado", {}).get("sha256") == _sha_curado():
         cambio, motivo = False, "huella y grafo curado iguales a lo publicado"
     elif modificado and not a.ignorar_movimiento:
@@ -248,6 +250,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     sp.add_argument("--sin-base", action="store_true", help="ignorar el mapa publicado (construcción completa)")
     sp.add_argument("--prefijos", nargs="*", default=None, help="solo para pruebas: limitar el inventario")
     sp.add_argument("--ignorar-movimiento", action="store_true")
+    sp.add_argument("--requiere-base", action="store_true",
+                    help="sin mapa publicado no se construye (corridas programadas)")
     sp.set_defaults(fn=cmd_estado)
 
     sp = sub.add_parser("construir")
