@@ -321,6 +321,36 @@ def test_un_rol_que_el_mapa_no_tiene_da_none_sin_recorrer_la_doctrina(motor_con_
     assert llamadas == []
 
 
+def test_un_fallo_curado_que_el_mapa_no_tiene_se_sigue_encontrando(tmp_path, cliente_mapa, monkeypatch):
+    """La CS del mapa cubre dos años; los fallos antiguos citados en la doctrina viven en el curado."""
+    curado = json.loads(json.dumps(CURADO))
+    curado["nodes"].append({"id": "fallo_rol_n_4_821_2019", "label": "Rol N° 4.821-2019",
+                            "node_type": "jurisprudencia", "community": 3})
+    curado["edges"].append({"source": "inst_responsabilidad_extracontractual", "target": "fallo_rol_n_4_821_2019",
+                            "relation": "criterio_jurisprudencial", "weight": 1.0})
+    motor = _motor(tmp_path, curado)
+    sin_mapa = motor._buscar_nodo_relevante("Rol N° 4.821-2019")
+    motor.cargar_capa_mapa(cliente_mapa.directorio())
+    llamadas = []
+    monkeypatch.setattr(motor, "_buscar_por_corpus", lambda q: llamadas.append(q))
+    assert sin_mapa == "fallo_rol_n_4_821_2019"
+    assert motor._buscar_nodo_relevante("Rol N° 4.821-2019") == sin_mapa
+    assert motor.consultar_subgrafo("Rol N° 4.821-2019")["encontrado"] is True
+    assert llamadas == []
+
+
+def test_la_institucion_exacta_gana_a_la_norma_del_mapa(tmp_path, cliente_mapa):
+    curado = json.loads(json.dumps(CURADO))
+    curado["nodes"].append({"id": "inst_hecho_ilicito_art_2314_cc", "label": "Hecho ilícito (Art. 2314 CC)",
+                            "node_type": "institucion", "community": 0})
+    curado["edges"].append({"source": "inst_hecho_ilicito_art_2314_cc", "target": "norma_art_2314_cc",
+                            "relation": "fundamenta_en", "weight": 1.0})
+    motor = _motor(tmp_path, curado)
+    assert motor._buscar_nodo_relevante("Hecho ilícito (Art. 2314 CC)") == "inst_hecho_ilicito_art_2314_cc"
+    motor.cargar_capa_mapa(cliente_mapa.directorio())
+    assert motor._buscar_nodo_relevante("Hecho ilícito (Art. 2314 CC)") == "inst_hecho_ilicito_art_2314_cc"
+
+
 def test_un_rol_sin_mapa_sigue_el_flujo_de_siempre(tmp_path, monkeypatch):
     motor = _motor(tmp_path)
     llamadas = []
@@ -474,16 +504,23 @@ def test_mermaid_usa_alias_y_respeta_el_tope(motor_con_mapa, monkeypatch):
     assert "quedaron fuera del diagrama" in recortado
 
 
-def test_mermaid_sin_mapa_conserva_nodos_y_aristas(tmp_path):
+def test_mermaid_sin_mapa_conserva_nodos_y_aristas(tmp_path, monkeypatch):
     motor = _motor(tmp_path)
     diagrama = motor.exportar_subgrafo_mermaid("responsabilidad extracontractual")
-    etiquetas = re.findall(r'^\s+n\d+\["([^"]+)"\]', diagrama, re.MULTILINE)
-    # Los mismos 6 nodos y 5 aristas que el diagrama de siempre: la institución y sus 5 vecinos
-    # (el considerando queda a 2 saltos y la ficha del TC no tiene aristas en el curado).
+    etiquetas = re.findall(r'^\s+(\w+)\["([^"]+)"\]', diagrama, re.MULTILINE)
+    # Los mismos 6 nodos y 5 aristas que el diagrama de siempre, con sus IDs de siempre: la
+    # institución y sus 5 vecinos (el considerando queda a 2 saltos y la ficha del TC no tiene
+    # aristas en el curado).
     assert sorted(etiquetas) == sorted([
-        "Responsabilidad extracontractual", "Código Civil, Art. 2314", "Art. 2314 del Código Civil",
-        "Enrique Barros Bourie", "Recurso De Proteccion", "CS - Rol N° 1.234-2023"])
+        ("inst_responsabilidad_extracontractual", "Responsabilidad extracontractual"),
+        ("norma_art_2314_cc", "Código Civil, Art. 2314"),
+        ("norma_art_2314_del_codigo_civil", "Art. 2314 del Código Civil"),
+        ("autor_enrique_barros", "Enrique Barros Bourie"), ("via_recurso_de_proteccion", "Recurso De Proteccion"),
+        ("fallo_cs_rol_n_1_234_2023", "CS - Rol N° 1.234-2023")])
     assert diagrama.count("-->") == 5
+    # Sin la capa del mapa tampoco hay tope: el diagrama de siempre, completo.
+    monkeypatch.setattr(legal_graphify, "TOPE_NODOS_MERMAID", 3)
+    assert motor.exportar_subgrafo_mermaid("responsabilidad extracontractual") == diagrama
 
 
 def test_el_camino_se_cachea_y_se_invalida_al_cambiar_el_grafo(tmp_path):
@@ -514,6 +551,9 @@ def test_el_camino_cacheado_es_el_mismo_que_el_de_siempre():
 
 # ── Motor compartido y carga perezosa ──────────────────────────────────────────────────────────
 def test_el_motor_compartido_es_uno_por_proceso():
+    # mcp_server y modulo_ambiental guardan el motor del proceso al importarse: al terminar se
+    # devuelve ese mismo, o las pruebas que vienen después verían dos motores distintos.
+    original = legal_graphify.obtener_motor_compartido()
     legal_graphify.reiniciar_motor_compartido()
     try:
         uno = legal_graphify.obtener_motor_compartido()
@@ -522,7 +562,8 @@ def test_el_motor_compartido_es_uno_por_proceso():
         legal_graphify.reiniciar_motor_compartido()
         assert legal_graphify.obtener_motor_compartido() is not uno
     finally:
-        legal_graphify.reiniciar_motor_compartido()
+        with legal_graphify._MOTOR_COMPARTIDO_LOCK:
+            legal_graphify._MOTOR_COMPARTIDO = original
 
 
 def test_la_capa_se_sube_en_la_primera_consulta_que_la_necesita(tmp_path, cliente_mapa):

@@ -191,9 +191,16 @@ def test_apagado_no_consulta_nada(entorno, monkeypatch):
     assert c.estado_breve()["activo"] is False
 
 
-def test_puntero_nulo_sin_mapa_y_con_aviso(entorno):
+def test_puntero_nulo_sin_mapa_ni_aviso(entorno):
+    """Nada publicado: no hay qué descargar ni qué forzar, así que tampoco hay aviso."""
     c = mod_cliente.MapaCliente(puntero={"revision_mapa": None})
     assert c.indice() is None and c.entrada("cs:10641-2024") is None
+    breve = c.estado_breve()
+    assert breve["activo"] is False and breve["publicado"] is False and "aviso" not in breve
+
+
+def test_publicado_sin_descargar_avisa(entorno):
+    c = mod_cliente.MapaCliente(puntero={"revision_mapa": REV_1, "sha256_estado": "2" * 64})
     breve = c.estado_breve()
     assert breve["activo"] is False and "suite_instalar" in breve["aviso"]
 

@@ -128,9 +128,10 @@ class MapaCliente:
                 otras = self._listas()
                 if not otras:
                     self._indice, self._indice_dir = None, None
+                    # Sin nada publicado no hay qué descargar ni qué forzar: sin aviso.
                     self._aviso = ("El mapa del corpus de Hugging Face aún no está descargado: la consulta usó "
                                    "las fuentes de siempre. Se descarga en segundo plano; para forzarlo, usa la "
-                                   "herramienta suite_instalar.")
+                                   "herramienta suite_instalar.") if self.publicado else ""
                     return None
                 elegido = otras[0]
                 meta = self._leer_json(elegido / "LISTO")
@@ -150,6 +151,9 @@ class MapaCliente:
         if not self.habilitado:
             return {"activo": False, "motivo": "desactivado (OPENLEGAL_MAPA=off)"}
         ind = self.indice()
+        if ind is None and not self.publicado:
+            return {"activo": False, "publicado": False,
+                    "motivo": "aún no publicado para esta versión: se usan las fuentes de siempre"}
         if ind is None:
             return {"activo": False, "aviso": self._aviso, "descargando": self.descargando, "error": self.error or None}
         meta = ind.meta()
@@ -159,6 +163,11 @@ class MapaCliente:
         if self._aviso:
             salida["aviso"] = self._aviso
         return salida
+
+    @property
+    def publicado(self) -> bool:
+        """Hay algo que descargar: una revisión en el puntero, el modo `main` o un mapa local."""
+        return bool(self.local or self.modo == "main" or self.puntero.get("revision_mapa"))
 
     @property
     def descargando(self) -> bool:

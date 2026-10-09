@@ -136,3 +136,14 @@ def test_suite_instalar_sin_mapa_igual_instala(tmp_path):
     mod_cliente.reiniciar_cliente()
     res = mcp_server.handle_tool_call("suite_instalar", {"carpeta": str(tmp_path)})
     assert res["mapa"]["activo"] is False and res["doctor"]["estado"] in ("ok", "degradado", "error")
+
+
+def test_cli_cache_mapa_muestra_el_error_de_una_descarga_fallida(monkeypatch, capsys):
+    breve = {"activo": False, "aviso": "Se descarga en segundo plano; para forzarlo, usa suite_instalar.",
+             "error": "HTTP 503 en estado.json", "descargando": False}
+    monkeypatch.setattr(openlegal, "_asegurar_mapa", lambda espera: breve)
+    monkeypatch.setattr(sys, "argv", ["openlegal", "cache", "mapa", "--refrescar"])
+    openlegal.main()
+    salida = capsys.readouterr().out
+    assert "Mapa del corpus: HTTP 503 en estado.json" in salida
+    assert "segundo plano" not in salida                     # el proceso termina: nada sigue bajando

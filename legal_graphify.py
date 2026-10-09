@@ -806,20 +806,23 @@ class LegalGraphifyEngine:
         if q_norm in self.graph:
             return q_norm
 
-        # 0.5 Con la capa del mapa: alias e índice exacto (un rol o una norma citados como tales).
-        # Un rol que el mapa no tiene no existe en el corpus: se responde «no encontrado» de
-        # inmediato, en vez de recorrer el texto de toda la doctrina (~12 s) para terminar
-        # devolviendo una institución cualquiera que menciona el número.
+        # 1. Coincidencia exacta O(1) en instituciones (antes que el mapa: «Obligaciones Naturales
+        # y Civiles (Art. 1470 CC)» es la institución curada, no la ficha del artículo 1470).
+        if q_norm in self.instituciones_index:
+            return self.instituciones_index[q_norm]
+
+        # 1.2 Con la capa del mapa: alias e índice exacto (un rol o una norma citados como tales).
+        # Un rol que el mapa no tiene puede seguir en el grafo curado (fallos antiguos citados en la
+        # doctrina: «Rol N° 4.821-2019»), así que siguen los pasos curados; lo que se salta es la
+        # búsqueda en el texto de toda la doctrina (~12 s), que terminaría devolviendo una
+        # institución cualquiera que menciona el número.
+        rol_fuera_del_mapa = False
         if self.origen_grafo == CAPA_MAPA:
             en_mapa = self._buscar_en_mapa(query)
             if en_mapa == _ROL_INEXISTENTE:
-                return None
-            if en_mapa:
+                rol_fuera_del_mapa = True
+            elif en_mapa:
                 return en_mapa
-
-        # 1. Coincidencia exacta O(1) en instituciones
-        if q_norm in self.instituciones_index:
-            return self.instituciones_index[q_norm]
 
         # 1.5 Con la capa del mapa: nombre exacto de una entidad del mapa (un ministro, una sala,
         # una revista, una norma por su etiqueta), con o sin el tratamiento («ministra …»).
@@ -901,6 +904,9 @@ class LegalGraphifyEngine:
             mejores = [nid for nid, sc in candidatos_score.items() if sc == max_score]
             mejores.sort(key=lambda nid: (-self._grado_curado(nid), nid))
             return mejores[0]
+
+        if rol_fuera_del_mapa:
+            return None
 
         # 4. Último recurso: el término puede no nombrar ningún nodo y, aun así, ser el
         # tema de una obra ('compraventa' aparece en 4 tratados sin ser el label de
@@ -1694,12 +1700,15 @@ class LegalGraphifyEngine:
 
         distancias = self._ego(g, nodo_central, max_hops, acotar_curados=consulta is not None)
         sub_nodes = sorted(distancias)
+        # Alias y tope solo cuando el subgrafo trae la capa del mapa: un diagrama solo curado sale
+        # idéntico al de siempre (sus IDs no rompen Mermaid).
+        con_mapa = any(g.nodes[n].get("capa") == CAPA_MAPA or ":" in n for n in sub_nodes)
         omitidos = 0
-        if len(sub_nodes) > TOPE_NODOS_MERMAID:
+        if con_mapa and len(sub_nodes) > TOPE_NODOS_MERMAID:
             prioridad = sorted(distancias, key=lambda n: (distancias[n], g.nodes[n].get("capa") == CAPA_MAPA, n))
             sub_nodes = sorted(prioridad[:TOPE_NODOS_MERMAID])
             omitidos = len(distancias) - len(sub_nodes)
-        alias = {nid: f"n{i}" for i, nid in enumerate(sub_nodes)}
+        alias = {nid: (f"n{i}" if con_mapa else nid) for i, nid in enumerate(sub_nodes)}
         hay_mapa = any(g.nodes[n].get("capa") == CAPA_MAPA for n in sub_nodes)
 
         titulo = str(g.nodes[nodo_central].get("label", query)).replace("\n", " ")

@@ -153,10 +153,12 @@ class CaseWorkspace:
         # que se leyó (la vigente puede cambiar después).
         urls = {str(i.get("archivo") or ""): str(i.get("url_huggingface") or "")
                 for i in resultados.get("resultados", []) if i.get("url_huggingface")}
+        # Las citas de la consulta traen la URL (fijada) y no el archivo: se recupera por la URL.
+        archivo_de_url = {url: archivo for archivo, url in urls.items()}
         citas_registradas = []
         for extracto in resultados.get("citas", []):
             cita = extracto.get("formato") or extracto.get("cita", "[Hugging Face]")
-            archivo = extracto.get("archivo", "")
+            archivo = extracto.get("archivo") or archivo_de_url.get(str(extracto.get("url") or ""), "")
             texto = (extracto.get("texto") or "").strip()
             registro = {"cita": cita, "archivo": archivo}
             if urls.get(archivo):
