@@ -19,6 +19,8 @@ include docs/integracion-harness.md
 recursive-include references *.md
 recursive-include scripts *.py
 recursive-include data *.json *.jsonl
+include mapa_corpus/puntero.json
+include mapa_corpus/constraints-constructor.txt
 prune doctrina_raw
 prune exports
 prune jurisprudencia_ambiental

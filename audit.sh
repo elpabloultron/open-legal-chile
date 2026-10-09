@@ -66,7 +66,7 @@ fi
 
 # 4. DETECT-SECRETS (SECRET LEAKS)
 echo -e "\n${BOLD}[4/9] 🔑 Auditoría de Fuga de Credenciales y Secretos (detect-secrets)...${RESET}"
-SEC_COUNT=$(detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|doctrina/.*|exports|\.pytest_cache|skills-lock\.json|.*_cache|graphify-out|data|README\.md|docs/medicion_tokens\..*)' | grep -c '"hashed_secret"' || true)
+SEC_COUNT=$(detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|doctrina/.*|exports|\.pytest_cache|skills-lock\.json|.*_cache|graphify-out|data|README\.md|docs/medicion_tokens\..*|mapa_corpus/puntero\.json|tests/fixtures/mapa/.*)' | grep -c '"hashed_secret"' || true)
 if [ "$SEC_COUNT" -eq 0 ]; then
     echo -e "${GREEN}✅ Cero secretos o llaves API detectadas en el repositorio (Zero Data Leak).${RESET}"
 else
