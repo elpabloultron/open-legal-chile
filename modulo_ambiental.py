@@ -53,8 +53,10 @@ def _engine():
     (2026-09-28) y se evita repetirla en cada consulta."""
     global _ENGINE
     if _ENGINE is None:
-        from legal_graphify import LegalGraphifyEngine
-        _ENGINE = LegalGraphifyEngine()
+        # El motor compartido del proceso: un solo grafo en memoria (con la capa del mapa del
+        # corpus cuando está lista) en vez de una copia por módulo.
+        from legal_graphify import obtener_motor_compartido
+        _ENGINE = obtener_motor_compartido()
     return _ENGINE
 
 PLAN = (

@@ -2398,7 +2398,7 @@
   },
   {
     "name": "suite_instalar",
-    "description": "Deja el harness configurado y verificado en un paso: detecta los harnesses de la carpeta (Claude Code, Cursor, VS Code, dsh, Codex, Antigravity), escribe su configuración MCP si escribir=True y devuelve el estado del doctor. Equivale a `openlegal instalar` en la terminal.",
+    "description": "Deja el harness configurado y verificado en un paso: detecta los harnesses de la carpeta (Claude Code, Cursor, VS Code, dsh, Codex, Antigravity), escribe su configuración MCP si escribir=True, deja descargado el mapa del corpus de Hugging Face (verificado, con avances) y devuelve el estado del doctor. Equivale a `openlegal instalar` en la terminal.",
     "inputSchema": {
       "type": "object",
       "properties": {

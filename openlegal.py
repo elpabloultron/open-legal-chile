@@ -57,6 +57,46 @@ def print_banner():
     print(banner)
 
 
+def _estado_mapa() -> dict:
+    """Estado del mapa del corpus de Hugging Face, sin red."""
+    try:
+        from mapa_corpus.cliente import obtener_cliente
+        return dict(obtener_cliente().estado_breve())
+    except Exception as e:  # noqa: BLE001
+        return {"activo": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
+
+
+def _asegurar_mapa(espera: float) -> dict:
+    """Deja listo el mapa del corpus (descarga verificada + índice local), esperando hasta `espera`
+    segundos. Un fallo de red no es un error de la suite: queda informado en el estado."""
+    try:
+        from mapa_corpus.cliente import obtener_cliente
+        cliente = obtener_cliente()
+        if cliente.habilitado:
+            cliente.asegurar(bloquear=True, timeout=espera)
+        breve = dict(cliente.estado_breve())
+        if cliente.descargando:
+            breve["nota"] = "la descarga del mapa sigue en segundo plano"
+        if cliente.error:
+            breve["error"] = cliente.error
+        return breve
+    except Exception as e:  # noqa: BLE001
+        return {"activo": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
+
+
+def _imprimir_mapa(breve: dict, sangria: str = "") -> None:
+    if breve.get("activo"):
+        conteos = breve.get("conteos") or {}
+        print(f"{sangria}🗺️ Mapa del corpus: fuente {str(breve.get('sha_fuente') or '')[:8]} del "
+              f"{str(breve.get('fecha_fuente') or '')[:10] or 's/f'} · {conteos.get('entradas', '?')} entradas")
+    else:
+        motivo = breve.get("motivo") or breve.get("aviso") or breve.get("error") or "no disponible"
+        print(f"{sangria}🗺️ Mapa del corpus: {motivo}")
+    for clave in ("aviso", "nota", "error"):
+        if breve.get("activo") and breve.get(clave):
+            print(f"{sangria}   ↳ {breve[clave]}")
+
+
 def menu_interactivo():
     print_banner()
     while True:
@@ -628,7 +668,7 @@ Ejemplos de uso:
     parser.add_argument("--uvx", action="store_true", help="Con 'integrar'/'instalar': lanzar el MCP con uvx (no requiere el paquete instalado, solo uv)")
     parser.add_argument("--global", dest="global_", action="store_true", help="Con 'integrar': escribir la configuración global (de usuario) del harness")
     parser.add_argument("--grafo", action="store_true", help="Con 'ambiental': añade el subgrafo de LegalGraphify con su ahorro de tokens (la primera consulta carga su índice)")
-    parser.add_argument("--refrescar", action="store_true", help="Con 'cache': baja del hub las revisiones nuevas de lo ya cacheado")
+    parser.add_argument("--refrescar", action="store_true", help="Con 'cache': baja del hub las revisiones nuevas de lo ya cacheado; con 'cache mapa': descarga y verifica el mapa del corpus")
     parser.add_argument("--forzar", action="store_true", help="Con 'cache --refrescar': vuelve a bajar todo lo cacheado, aunque no haya cambiado")
     parser.add_argument("--profile", type=str, default=None, help="Con 'mcp': perfil temático de herramientas (laboral, litigios, regulatorio…); también OPENLEGAL_PROFILE")
     args = parser.parse_args()
@@ -694,6 +734,8 @@ Ejemplos de uso:
                   ".codex, .dsh, opencode.json y .antigravity). Configuralos igual con: "
                   "openlegal integrar <cliente> --escribir (o --global para la configuración de usuario)")
         escritos = ih.escribir_todos(detectados, carpeta_base=carpeta, uvx=args.uvx) if detectados else []
+        # La instalación deja el mapa del corpus listo; un fallo de red no la hace fallar (queda el aviso).
+        mapa = _asegurar_mapa(600.0)
         resumen = diagnostico_completo()
         from mcp_server import TOOLS as _TOOLS_MCP
 
@@ -704,12 +746,14 @@ Ejemplos de uso:
                 "estado_config": [r.get("estado") for r in escritos],
                 "doctor": {"estado": resumen["estado"]},
                 "herramientas": len(_TOOLS_MCP),
+                "mapa": mapa,
                 "verificacion": "openlegal doctor",
             }, ensure_ascii=False, indent=2))
         else:
             print_banner()
             print(f"\n📦 INSTALACIÓN COMPLETA — harness configurados: {', '.join(detectados) or 'ninguno'}")
             print(f"   {len(_TOOLS_MCP)} herramientas MCP · estado del sistema: {resumen['estado'].upper()}")
+            _imprimir_mapa(mapa, sangria="   ")
             print("   Verificalo con: openlegal doctor\n")
         return
 
@@ -1172,6 +1216,14 @@ Ejemplos de uso:
         if "warm" in tokens or "calentar" in tokens:
             from scripts.cache_warming import ejecutar_cache_warming
             ejecutar_cache_warming()
+            return
+        if "mapa" in tokens:
+            print_banner()
+            if args.refrescar:
+                print("🗺️ Descargando y verificando el mapa del corpus de Hugging Face…")
+            breve = _asegurar_mapa(1800.0) if args.refrescar else _estado_mapa()
+            _imprimir_mapa(breve)
+            print()
             return
         from online_library_sync import estado_cache_corpus, refrescar_cache_corpus
         print_banner()
