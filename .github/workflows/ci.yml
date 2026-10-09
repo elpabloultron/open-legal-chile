@@ -44,6 +44,49 @@ jobs:
         run: |
           python -m pytest tests/ -n auto -q
 
+  mapa-puntero:
+    # Si un PR cambia mapa_corpus/puntero.json (lo abre la Action «Mapa del corpus HF»), se verifica
+    # contra HF con lectura pública: sha256 del estado y de cada archivo, sha_fuente existente y el
+    # mapa validado entero. Un puntero a un mapa roto no llega a main.
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: ¿Cambió el puntero?
+        id: cambio
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if git diff --quiet "$BASE_SHA" HEAD -- mapa_corpus/puntero.json; then
+            echo "puntero=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "puntero=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v7
+        if: steps.cambio.outputs.puntero == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Verificar el mapa publicado al que apunta
+        if: steps.cambio.outputs.puntero == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+          python -m mapa_corpus verificar-puntero
+          OPENLEGAL_MAPA= OPENLEGAL_MAPA_DIR="$RUNNER_TEMP/mapa" python - <<'PY'
+          from mapa_corpus.cliente import MapaCliente
+          c = MapaCliente()
+          assert c.asegurar(bloquear=True, timeout=900), c.error
+          assert c.entrada("cs:10641-2024") is not None, "consulta de humo: rol CS"
+          assert c.buscar("indemnización de perjuicios"), "consulta de humo: texto"
+          print("mapa OK:", c.estado_breve())
+          PY
+
   paquete-limpio:
     # La instalación ES el producto: `pip install` tiene que dejar todo andando (OCR incluido) y el
     # MCP tiene que exponer las herramientas del protocolo sin ningún paso manual por terminal.
