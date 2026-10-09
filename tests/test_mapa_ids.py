@@ -86,6 +86,24 @@ def roles(t):
     ("con la Ley General de Educación Nº 20.370,4 con", ["norma:ley-20370"]),
     ("el Código de Procedimiento Penal24.", ["norma:cpp1906"]),
     ("la misma Ley N° 0000177 CIENTO SETENTA Y SIETE 17.322 y", ["norma:ley-17322"]),
+    # Tras «artículos» (plural), un N° singular rige solo a su artículo: el resto son artículos.
+    ("en los artículos 17 Nº 4 y 32 de la Ley Nº 20.600", ["norma:ley-20600:17:n4", "norma:ley-20600:32"]),
+    ("los Arts. 17 N° 2, 18 Nº2, 20 y 24 de la Ley Nº 20.600",
+     ["norma:ley-20600:17:n2", "norma:ley-20600:18:n2", "norma:ley-20600:20", "norma:ley-20600:24"]),
+    ("el artículo 19 N° 2, 3 y 24 de la Constitución", ["norma:cpr:19:n2", "norma:cpr:19:n24", "norma:cpr:19:n3"]),
+    # Salvo en el artículo 19 de la CPR (26 numerales): lo que pasa de 26 es otro artículo.
+    ("los artículos 19 N° 2 y 3 de la CPR", ["norma:cpr:19:n2", "norma:cpr:19:n3"]),
+    ("los artículos 19 N° 3 y 76 de la Carta Fundamental", ["norma:cpr:19:n3", "norma:cpr:76"]),
+    ("los artículos 19 N° 3, 19 N° 7 y 19 N° 24 de la Constitución",
+     ["norma:cpr:19:n24", "norma:cpr:19:n3", "norma:cpr:19:n7"]),
+    # El numeral antes del artículo, abreviado o en lista.
+    ("el N° 7 del art. 434 del Código de Procedimiento Civil", ["norma:cpc:434:n7"]),
+    ("según las reglas de los números 1 y 2 del artículo 61 del Código Penal", ["norma:cp:61:n1", "norma:cp:61:n2"]),
+    # OCR de los fallos ambientales: «1a» por «la».
+    ("los articulos 17 N° 8, 18 N° 7 de 1a Ley N° 20.600", ["norma:ley-20600:17:n8", "norma:ley-20600:18:n7"]),
+    # El artículo seguido de un cuerpo que la gramática no reconoce no hereda el anterior.
+    ("del artículo 25 ter de la Ley N° 19.300, artículo 73 y artículo 4° transitorio del Decreto Supremo N° 40",
+     ["norma:ley-19300:25ter"]),
 ])
 def test_normas_canonicas(frase, esperado):
     assert normas(frase) == esperado
@@ -100,6 +118,12 @@ def test_normas_canonicas(frase, esperado):
     "Mensaje N° 1167-362 del Proyecto de Ley iniciado por el Ejecutivo",
     "el CC del contrato",                                        # sigla suelta no distintiva
     "el artículo 1545",                                          # sin cuerpo explícito
+    # Derecho comparado: no son los códigos ni la Constitución de Chile.
+    "los artículos 253 y 254 del Código Penal español",
+    "los artículos 322 a 326 del Código Penal belga de 1867",
+    "el artículo 1382 del Código Civil francés",
+    "el Código Civil y Comercial de la Nación",
+    "la Constitución Política de la República de Guatemala",
 ])
 def test_normas_negativas(frase):
     assert normas(frase) == []
@@ -262,3 +286,35 @@ def test_conjunto_de_referencia(ruta):
     exhaustividad = tp / (tp + fn) if tp + fn else 1.0
     assert precision >= PISO_PRECISION, f"{ruta.stem}: precisión {precision:.3f} (tp={tp} fp={fp})"
     assert exhaustividad >= PISO_EXHAUSTIVIDAD, f"{ruta.stem}: exhaustividad {exhaustividad:.3f} (fn={fn})"
+
+
+# ── Conjuntos de evaluación (fallos ambientales y doctrina) ───────────────────────────────────
+# Anotados aparte de los de referencia y medidos sin ajustar la gramática a ellos (precisión
+# 0,81 / exhaustividad 0,64); después se corrigieron los errores de fondo que mostraron (N° singular
+# en listas de artículos, códigos extranjeros, «N° 7 del art. 434»). La precisión es estricta:
+# no cuenta como error el cuerpo solo («Ley N° 19.300») cuando la anotación pedía sus artículos y
+# la lista no se pudo atribuir: es una cita menos precisa, no una falsa. Medido: 0,98 y 1,00 de
+# precisión estricta; 0,667 y 0,726 de exhaustividad.
+EVALUACION = sorted((Path(__file__).parent / "fixtures" / "mapa").glob("evaluacion_*.jsonl"))
+PISO_PRECISION_ESTRICTA = 0.95
+PISO_EXHAUSTIVIDAD_EVALUACION = 0.64
+
+
+@pytest.mark.skipif(not EVALUACION, reason="sin conjuntos de evaluación")
+@pytest.mark.parametrize("ruta", EVALUACION, ids=lambda p: p.stem)
+def test_conjunto_de_evaluacion(ruta):
+    tp = fp = fn = 0
+    for linea in ruta.read_text(encoding="utf-8").splitlines():
+        if not linea.strip():
+            continue
+        caso = json.loads(linea)
+        esperado = set(caso.get("normas", [])) | set(caso.get("roles", []))
+        normas_obt, roles_obt = c.normas_y_roles(caso["texto"])
+        obtenido = {i for i, _ in normas_obt} | {i for i, _ in roles_obt}
+        tp += len(esperado & obtenido)
+        fp += sum(1 for i in obtenido - esperado if not any(e.startswith(i + ":") for e in esperado))
+        fn += len(esperado - obtenido)
+    precision = tp / (tp + fp) if tp + fp else 1.0
+    exhaustividad = tp / (tp + fn) if tp + fn else 1.0
+    assert precision >= PISO_PRECISION_ESTRICTA, f"{ruta.stem}: precisión {precision:.3f} (tp={tp} fp={fp})"
+    assert exhaustividad >= PISO_EXHAUSTIVIDAD_EVALUACION, f"{ruta.stem}: exhaustividad {exhaustividad:.3f} (fn={fn})"

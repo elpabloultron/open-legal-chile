@@ -164,14 +164,27 @@ CUERPOS: Dict[str, str] = {
     "csan": "Código Sanitario", "cjm": "Código de Justicia Militar", "losma": "LOSMA",
 }
 
-# «Constitución española», «Constitución de 1925»: no son la CPR vigente.
-_NO_EXTRANJERA = (r"(?!\s+(?:espa[ñn]ola|francesa|alemana|italiana|argentina|colombiana|peruana|mexicana|"
+# «Constitución española», «Constitución de 1925», «Constitución Política de la República de
+# Guatemala»: no son la CPR vigente.
+_PAISES = (r"guatemala|colombia|ecuador|bolivia|per[uú]|venezuela|paraguay|uruguay|m[eé]xico|cuba|honduras|"
+           r"nicaragua|panam[aá]|costa\s+rica|el\s+salvador|argentina|brasil|portugal|espa[ñn]a|italia|francia|"
+           r"alemania|b[eé]lgica")
+_NO_EXTRANJERA = (r"(?!\s+(?:pol[ií]tica\s+)?(?:de\s+la\s+rep[uú]blica\s+)?(?:de|del)\s+(?:" + _PAISES + r")\b)"
+                  r"(?!\s+(?:espa[ñn]ola|francesa|alemana|italiana|argentina|colombiana|peruana|mexicana|"
                   r"brasile[ñn]a|ecuatoriana|boliviana|portuguesa|federal|europea|estadounidense|norteamericana|"
                   r"de\s+(?:los\s+)?(?:estados|ee\.?\s?uu|espa|alemania|italia|francia|1925|1833|1828|1823|1822|1818)"
                   r"|de\s+la\s+(?:naci[oó]n\s+argentina|rep[uú]blica\s+(?:federal|de\s+(?!chile)))))")
+# «Código Penal español», «Código Civil francés», «Código Civil y Comercial de la Nación»: derecho
+# comparado, no el código chileno (la doctrina los cita a menudo junto a los nuestros).
+_NO_EXTRANJERO = (r"(?!\s+(?:espa[ñn]ol|franc[eé]s|alem[aá]n|italiano|belga|argentino|peruano|colombiano|"
+                  r"mexicano|uruguayo|ecuatoriano|boliviano|venezolano|paraguayo|brasile[ñn]o|portugu[eé]s|suizo|"
+                  r"austr[ií]aco|holand[eé]s|japon[eé]s|napole[oó]nico|modelo|tipo|y\s+comercial|"
+                  r"de\s+(?:napole[oó]n|v[eé]lez|quebec|la\s+naci[oó]n|espa[ñn]a|francia|alemania|italia|"
+                  r"b[eé]lgica|argentina|per[uú]|colombia|m[eé]xico|uruguay|ecuador|bolivia|brasil|portugal|suiza))"
+                  r"(?![^\W\d_]))")
 # Nombres de cuerpos: del más largo al más corto, para que «Código de Procedimiento Civil» gane
 # a «Código Civil» y «Código Procesal Penal» a «Código Penal». Insensibles a mayúsculas.
-_CUERPOS_NOMBRE: List[Tuple[str, str]] = [
+_CUERPOS_NOMBRE: List[Tuple[str, str]] = [(p + _NO_EXTRANJERO, c) for p, c in (
     (r"c[oó]digo\s+de\s+procedimiento\s+civil", "cpc"),
     (r"c[oó]digo\s+de\s+procedimiento\s+penal", "cpp1906"),
     (r"c[oó]digo\s+procesal\s+penal", "cpp"),
@@ -185,6 +198,7 @@ _CUERPOS_NOMBRE: List[Tuple[str, str]] = [
     (r"c[oó]digo\s+de\s+aguas", "caguas"),
     (r"c[oó]digo\s+de\s+miner[ií]a", "cmin"),
     (r"c[oó]digo\s+sanitario", "csan"),
+)] + [
     (r"ley\s+org[aá]nica\s+(?:constitucional\s+)?de\s+la\s+superintendencia\s+del\s+medio\s+ambiente", "losma"),
     (r"ley\s+org[aá]nica\s+constitucional\s+del\s+tribunal\s+constitucional", "ley-17997"),
     (r"ley\s+(?:org[aá]nica\s+constitucional\s+)?de\s+bases\s+generales\s+de\s+la\s+administraci[oó]n\s+del\s+estado", "ley-18575"),
@@ -244,22 +258,29 @@ _ORDINAL_NUM = {"primero": 1, "primer": 1, "primera": 1, "segundo": 2, "segunda"
                 "septimo": 7, "septima": 7, "octavo": 8, "octava": 8, "noveno": 9, "novena": 9,
                 "decimo": 10, "decima": 10, "undecimo": 11, "undecima": 11, "duodecimo": 12, "duodecima": 12,
                 "vigesimo": 20, "vigesima": 20}
-# «numeral 3 del artículo 19» / «del numeral tercero, del artículo 19»
+# «numeral 3 del artículo 19» / «del numeral tercero, del artículo 19» / «el N° 7 del art. 434» /
+# «los números 1 y 2 del artículo 61»
+_NUMERAL_PREVIO_ITEM = r"(?:\d{1,3}|" + _ORDINAL_CARDINAL + r")"
 _RE_NUMERAL_PREVIO = re.compile(
-    r"(?=[nN](?:°|[uU][mM][eE][rR][aA][lL]))\b(?:numeral(?:es)?|N°s?)\s*(?P<k>\d{1,3}|" + _ORDINAL_CARDINAL + r")\s*°?\s*,?\s+del\s+art[íi]culo\s+(?=\d)",
+    r"(?=[nN](?:°|[uUúÚ][mM][eE][rR]))\b(?:numeral(?:es)?|n[úu]meros|N°s?)\s*"
+    r"(?P<k>" + _NUMERAL_PREVIO_ITEM + r"(?:\s*°?\s*(?:,\s*|\s+[ye]\s+)" + _NUMERAL_PREVIO_ITEM + r")*)"
+    r"\s*°?\s*,?\s+del\s+art(?:[íi]culo\s+|\.\s*)(?=\d)",
     re.IGNORECASE)
+_RE_NUMERAL_PREVIO_ITEM = re.compile(_NUMERAL_PREVIO_ITEM, re.IGNORECASE)
 _SEP_ITEM = r"\s*(?:,\s*(?:(?:y|e)\s+)?|(?:y|e)\s+)"
 _INCISO_ITEM = r"(?:\d{1,2}\s*°?|" + _ORDINAL_PALABRA + r")"
 # En una lista de incisos, «SEGUNDA» seguida de «FRASE» ya no es otro inciso sino la frase del anterior.
 _INCISO_ITEM_LISTA = r"(?:\d{1,2}\s*°?|" + _ORDINAL_PALABRA + r"(?!\s+(?:parte|frase|oraci[oó]n)\b))"
 _PARENTESIS_CORTO = r"(?:\s*\([^()]{1,40}\))?"
 _NUMERAL_ITEM = r"\d{1,3}\s*°?" + _PARENTESIS_CORTO
+# En «arts. 17 N° 2, 18 N° 7 y 20», el «18» que trae su propio N° ya es otro artículo.
+_NUMERAL_ITEM_LISTA = r"\d{1,3}(?!\d|\s*°?\s*N°)\s*°?" + _PARENTESIS_CORTO
 _LETRA_ITEM = r"[a-zñ]\)?(?!\w)"
 _RE_MODIFICADOR = re.compile(
     r"\s*,?\s*(?:(?:y|e)\s+)?(?:"
     r"(?P<inciso>inc(?:isos?|s?\.)\s*" + _INCISO_ITEM + r"(?:" + _SEP_ITEM + _INCISO_ITEM_LISTA + r")*)"
     r"|(?P<numeral>(?:del\s+)?(?:N°s?|numeral(?:es)?)\s*" + _NUMERAL_ITEM +
-    r"(?:" + _SEP_ITEM + r"(?:N°\s*)?" + _NUMERAL_ITEM + r")*)"
+    r"(?:" + _SEP_ITEM + r"(?:N°\s*)?" + _NUMERAL_ITEM_LISTA + r")*)"
     r"|(?P<numeral_palabra>(?:del\s+)?numeral\s+" + _ORDINAL_CARDINAL + r")"
     r"|(?P<letra>(?:letras?|literal(?:es)?)\s+" + _LETRA_ITEM + r"(?:\s*(?:,|y|e)\s*" + _LETRA_ITEM + r")*"
     r"|[a-zñ]\)(?!\w))"
@@ -270,6 +291,10 @@ _RE_MODIFICADOR = re.compile(
     # «incisos primero, N° 6°, y decimoprimero»: el ordinal suelto continúa la lista de incisos.
     r"|(?P<ordinal>" + _ORDINAL_CARDINAL + r")(?!\s+(?:parte|frase|oraci[oó]n|transitori)|\w)"
     r")", re.IGNORECASE)
+# Tras «artículos» (plural), un N° singular rige solo al artículo que lo trae: en «los artículos
+# 17 N° 4 y 32 de la Ley N° 20.600» el 32 es otro artículo, no el numeral 32 del artículo 17.
+_RE_NUMERAL_UNO = re.compile(
+    r"\s*,?\s*(?:(?:y|e)\s+)?(?:del\s+)?(?:N°|numeral)\s*" + _NUMERAL_ITEM + r"(?![^\W_])", re.IGNORECASE)
 _RE_SEPARADOR_LISTA = re.compile(
     r"\s*(?:,|;)?\s*(?:y|e|o|u|ni|a|al|hasta|en\s+relaci[oó]n\s+(?:con|al))?\s*(?:el|los|con\s+el)?\s*"
     r"(?:art[íi]culos?\s*|arts?\.\s*)?(?=\d)", re.IGNORECASE)
@@ -278,7 +303,8 @@ _RE_CONECTOR = re.compile(
     # Fórmula de los fallos del TC: «… y en las demás disposiciones citadas y pertinentes de la Constitución»
     r"(?:,?\s*y\s+(?:en\s+)?(?:las\s+)?dem[aá]s\s+(?:disposiciones|normas|preceptos)\s+(?:citad[oa]s\s+y\s+)?"
     r"pertinentes\s+)?"
-    r"\(?\s*(?:(?:del|de\s+la|de\s+los|de\s+las|de|a\s+la|al)\s+"
+    # «de 1a Ley N° 20.600»: el OCR de los fallos ambientales lee «la» como «1a».
+    r"\(?\s*(?:(?:del|de\s+la|de\s+1a|de\s+los|de\s+las|de|a\s+la|al)\s+"
     r"(?:(?:citad[oa]|actual|vigente|antiguo|nuevo|referid[oa]|mismo|nuestr[oa]|"
     r"texto\s+(?:original|refundido|vigente)\s+del?)\s+)*)?",
     re.IGNORECASE)
@@ -291,6 +317,12 @@ _RE_HUECO_ADELANTE = re.compile(
 # «la Carta Fundamental garantiza en su artículo 19 N° 16»: el cuerpo es el sujeto de la oración.
 _RE_HUECO_EN_SU = re.compile(r"^[^.;:()\[\]]{0,50}?\ben\s+sus?\s+$", re.IGNORECASE)
 _MAX_HUECO, _MAX_HUECO_EN_SU = 30, 60
+# «Ley N° 19.300, artículo 73 del Decreto Supremo N° 40»: el artículo trae su propio cuerpo, aunque
+# la gramática no lo reconozca; nunca se le asigna el cuerpo que lo precede.
+_RE_OTRO_CUERPO = re.compile(
+    r"\s*,?\s*(?:del|de\s+la|de\s+los|de\s+las|de|al|a\s+la)\s+(?:decreto|d\.\s?s\.|reglamento|resoluci[oó]n|"
+    r"circular|auto\s+acordado|acta|convenio|tratado|convenci[oó]n|pacto|c[oó]digo|ley|constituci[oó]n|"
+    r"estatuto|ordenanza)(?![^\W\d_])", re.IGNORECASE)
 # Artículo sin la palabra «artículo»: «el 19 N° 3 de nuestra Carta Fundamental», «del 146 del COT».
 _RE_ARTICULO_IMPLICITO = re.compile(
     r"(?=[eEaA][lL]\s+\d|[dD][eE][lL]\s+\d)\b(?:el|del|al)\s+(?=\d{1,4}(?![\d°]|[.,]\d)(?:\s*,?\s*(?:N°|inciso|letra|literal|numeral)|"
@@ -409,8 +441,41 @@ def _cuerpos_en(t: str) -> List[Tuple[int, int, str]]:
     return limpios
 
 
-def _lista_articulos(t: str, pos: int) -> Tuple[List[Tuple[str, List[int]]], int]:
-    """Desde `pos` (justo después de «artículo»): artículos con sus numerales, y dónde termina."""
+_RE_NUMERAL_O_PARENTESIS = re.compile(r"[()]|\d{1,3}")
+_RE_GRADO = re.compile(r"\s*°?")
+# El artículo 19 de la CPR tiene 26 numerales: en «los artículos 19 N° 2 y 3 de la Constitución» el
+# 3 es un numeral; en «los artículos 19 N° 3 y 76 de la Carta Fundamental» el 76 es otro artículo.
+_NUMERALES_CPR_19 = 26
+
+
+def _numerales_hasta(grupo: str, tope: int) -> Tuple[List[int], int]:
+    """Numerales de un grupo («N° 2, 3 y 76») hasta el primero, después del primero, que pasa
+    `tope`: (numerales, largo consumido). Lo que va entre paréntesis no cuenta."""
+    numerales: List[int] = []
+    fin, profundidad = len(grupo), 0
+    for m in _RE_NUMERAL_O_PARENTESIS.finditer(grupo):
+        s = m.group()
+        if s in "()":
+            profundidad += 1 if s == "(" else -1
+            continue
+        if profundidad > 0:
+            continue
+        if numerales and int(s) > tope:
+            break
+        numerales.append(int(s))
+        fin = _RE_GRADO.match(grupo, m.end()).end()  # type: ignore[union-attr]
+    else:
+        fin = len(grupo)
+    return numerales, fin
+
+
+def _lista_articulos(t: str, pos: int, plural: bool = False,
+                     tope: Optional[int] = None) -> Tuple[List[Tuple[str, List[int]]], int]:
+    """Desde `pos` (justo después de «artículo»): artículos con sus numerales, y dónde termina.
+
+    `plural` («artículos», «arts.»): un N° singular toma un solo numeral y lo que sigue en la
+    lista son otros artículos. `tope`: una lista de numerales sigue solo con números hasta el
+    tope (el resto son otros artículos)."""
     arts: List[Tuple[str, List[int]]] = []
     while True:
         m = _ART_TOKEN.match(t, pos)
@@ -423,15 +488,24 @@ def _lista_articulos(t: str, pos: int) -> Tuple[List[Tuple[str, List[int]]], int
             mod = _RE_MODIFICADOR.match(t, pos)
             if not mod or mod.end() == pos:
                 break
+            fin_mod = mod.end()
             if mod.group("numeral"):
-                sin_parentesis = re.sub(r"\([^()]*\)", "", mod.group("numeral"))
-                numerales.extend(int(k) for k in _RE_NUMERALES.findall(sin_parentesis))
+                uno = _RE_NUMERAL_UNO.match(t, pos) if plural else None
+                if uno:
+                    fin_mod = uno.end()
+                if tope is not None and not uno:
+                    hasta, largo = _numerales_hasta(t[pos:fin_mod], tope)
+                    numerales.extend(hasta)
+                    fin_mod = pos + largo
+                else:
+                    sin_parentesis = re.sub(r"\([^()]*\)", "", t[pos:fin_mod])
+                    numerales.extend(int(k) for k in _RE_NUMERALES.findall(sin_parentesis))
             elif mod.group("numeral_palabra"):
                 palabra = re.sub(r"^(?:del\s+)?numeral\s+", "", mod.group("numeral_palabra"), flags=re.IGNORECASE)
                 k = _ordinal_a_int(palabra)
                 if k:
                     numerales.append(k)
-            pos = mod.end()
+            pos = fin_mod
         arts.append((art, numerales))
         sep = _RE_SEPARADOR_LISTA.match(t, pos)
         if not sep or not _ART_TOKEN.match(t, sep.end()):
@@ -496,18 +570,21 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
             return por_fin[fines[i]]
         return None
 
-    previos = {m.end(): _ordinal_a_int(m.group("k")) for m in _RE_NUMERAL_PREVIO.finditer(t)}
+    previos = {m.end(): [k for k in map(_ordinal_a_int, _RE_NUMERAL_PREVIO_ITEM.findall(m.group("k"))) if k]
+               for m in _RE_NUMERAL_PREVIO.finditer(t)}
     inicios = sorted([(m.start(), m.end(), False) for m in _RE_ARTICULO.finditer(t)] +
                      [(m.start(), m.end(), True) for m in _RE_ARTICULO_IMPLICITO.finditer(t)])
     consumido = -1  # hasta dónde llegó la última frase (con sus continuaciones): no se recuenta
     for inicio, tras_palabra, implicito in inicios:
         if inicio < consumido:
             continue
-        arts, fin = _lista_articulos(t, tras_palabra)
+        palabra = t[inicio:tras_palabra].rstrip().lower()
+        plural = not implicito and (palabra.endswith("s") or palabra.startswith("arts"))
+        arts, fin = _lista_articulos(t, tras_palabra, plural)
         if not arts:
             continue
-        if tras_palabra in previos and previos[tras_palabra] and not arts[0][1]:
-            arts[0] = (arts[0][0], [previos[tras_palabra]])
+        if previos.get(tras_palabra) and not arts[0][1]:
+            arts[0] = (arts[0][0], previos[tras_palabra])
         cuerpo = _cuerpo_tras(fin)
         if implicito:
             # Sin la palabra «artículo» solo vale con un código, la CPR o una sigla justo después
@@ -517,10 +594,17 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
                 continue
             if _cuerpo_real(cuerpo) == "cpr" and not (arts[0][0].isdigit() and int(arts[0][0]) <= 200):
                 continue
-        elif cuerpo is None:
+        elif cuerpo is None and not _RE_OTRO_CUERPO.match(t, fin):
             cuerpo = _cuerpo_antes(inicio)
         if cuerpo is None:
             continue
+        if plural and _cuerpo_real(cuerpo) == "cpr" and any(a == "19" for a, _ in arts):
+            # «los artículos 19 N° 2 y 3 de la CPR»: en el artículo 19 de la CPR, sus numerales.
+            arts19, fin19 = _lista_articulos(t, tras_palabra, False, _NUMERALES_CPR_19)
+            if not t[min(fin, fin19):max(fin, fin19)].strip():   # la misma frase, leída de otro modo
+                arts = arts19
+                if previos.get(tras_palabra) and not arts[0][1]:
+                    arts[0] = (arts[0][0], previos[tras_palabra])
         usados.add(cuerpo)
         cuenta.update(_ids_de(_cuerpo_real(cuerpo), arts))
         # «artículo 3 de la Ley N° 19.880 y 19 de la Constitución»
@@ -530,7 +614,7 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
             cont = _RE_CONTINUACION.match(t, pos)
             if not cont:
                 break
-            mas, fin2 = _lista_articulos(t, cont.end())
+            mas, fin2 = _lista_articulos(t, cont.end(), plural)
             otro = _cuerpo_tras(fin2) if mas else None
             if otro is None:
                 break
