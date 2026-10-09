@@ -1,0 +1,187 @@
+name: Mapa del corpus HF
+
+# Mantiene el mapa de conocimiento del dataset pablobenavidesj/doctrina-jurisprudencia-chile:
+# cada día mira si el dataset cambió; si cambió, reconstruye SOLO lo nuevo (delta por blob), lo
+# valida, lo publica en el propio dataset (data/mapa/, un commit + tag mapa-<n>) y abre un PR que
+# actualiza mapa_corpus/puntero.json. Al fusionar ese PR, todos los clientes consultan el mapa nuevo.
+#
+# Secretos (Settings → Secrets and variables → Actions):
+# - HF_TOKEN, en el environment «hf-publicar»: token fine-grained con escritura SOLO en el dataset.
+# - HF_TOKEN_LECTURA (opcional): token de lectura; sube el cupo de descargas de HF.
+# - MAPA_APP_ID (variable) + MAPA_APP_PRIVATE_KEY (secreto) de una GitHub App con contents y
+#   pull-requests de escritura, o en su defecto MAPA_PR_TOKEN (PAT fine-grained). Un PR abierto con el
+#   GITHUB_TOKEN no dispara la CI; por eso hace falta una de esas dos credenciales.
+# La primera publicación se lanza a mano: Actions → «Mapa del corpus HF» → Run workflow, modo=completo.
+
+on:
+  schedule:
+    - cron: '23 7 * * *'   # 04:23 / 03:23 en Chile
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'delta (solo lo nuevo) o completo (rehacer todo el mapa)'
+        type: choice
+        options: [delta, completo]
+        default: delta
+      publicar:
+        description: 'Publicar en HF y abrir el PR del puntero'
+        type: boolean
+        default: true
+
+concurrency:
+  group: mapa-hf
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  TRABAJO: ${{ github.workspace }}/../mapa-trabajo
+  OPENLEGAL_MAPA_FUENTES: ${{ github.workspace }}/../mapa-fuentes
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    outputs:
+      cambio: ${{ steps.estado.outputs.cambio }}
+      sha_fuente: ${{ steps.estado.outputs.sha_fuente }}
+      motivo: ${{ steps.estado.outputs.motivo }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Instalar con las versiones fijadas del constructor
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]" -c mapa_corpus/constraints-constructor.txt
+
+      - name: ¿Cambió el dataset?
+        id: estado
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN_LECTURA }}
+          MODO_PEDIDO: ${{ inputs.modo }}
+        run: |
+          extra=""
+          if [ "$MODO_PEDIDO" = "completo" ]; then extra="--sin-base"; fi
+          python -m mapa_corpus estado --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT" $extra
+
+      - name: Caché de fuentes por blob (restaurar)
+        if: steps.estado.outputs.cambio == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.OPENLEGAL_MAPA_FUENTES }}
+          key: mapa-fuentes-${{ steps.estado.outputs.sha_fuente }}
+          restore-keys: mapa-fuentes-
+
+      - name: Construir (solo lo nuevo)
+        if: steps.estado.outputs.cambio == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN_LECTURA }}
+          MODO: ${{ steps.estado.outputs.modo }}
+        run: |
+          python -m mapa_corpus construir --trabajo "$TRABAJO" --modo "$MODO" \
+            --reporte "$TRABAJO/reporte.md" --podar-cache
+
+      - name: Validar el mapa y correr sus pruebas
+        if: steps.estado.outputs.cambio == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN_LECTURA }}
+        run: |
+          python -m mapa_corpus validar --trabajo "$TRABAJO"
+          python -m pytest -q tests/test_mapa_*.py
+
+      - name: Caché de fuentes por blob (guardar)
+        if: always() && steps.estado.outputs.cambio == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ env.OPENLEGAL_MAPA_FUENTES }}
+          key: mapa-fuentes-${{ steps.estado.outputs.sha_fuente }}
+
+      - name: Entregar el mapa al job de publicación
+        if: steps.estado.outputs.cambio == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: mapa
+          path: |
+            ${{ env.TRABAJO }}/plan.json
+            ${{ env.TRABAJO }}/reporte.md
+            ${{ env.TRABAJO }}/reporte.json
+            ${{ env.TRABAJO }}/mapa/
+            ${{ env.TRABAJO }}/base/estado.json
+          include-hidden-files: false
+          retention-days: 7
+
+  publicar:
+    needs: construir
+    if: needs.construir.outputs.cambio == 'true' && (github.event_name == 'schedule' || inputs.publicar)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # El token con escritura en el dataset vive SOLO en este environment (con revisores si se quiere).
+    environment: hf-publicar
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Instalar con las versiones fijadas del constructor
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e . -c mapa_corpus/constraints-constructor.txt
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: mapa
+          path: ${{ env.TRABAJO }}
+
+      - name: Publicar en HF (un commit con lo que cambió + tag)
+        id: publicar
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python -m mapa_corpus publicar --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT"
+
+      - name: Credencial para abrir el PR (GitHub App)
+        id: app
+        if: steps.publicar.outputs.publicado == 'true' && vars.MAPA_APP_ID != ''
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.MAPA_APP_ID }}
+          private-key: ${{ secrets.MAPA_APP_PRIVATE_KEY }}
+
+      - name: PR con el puntero nuevo
+        if: steps.publicar.outputs.publicado == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ steps.app.outputs.token || secrets.MAPA_PR_TOKEN }}
+          branch: mapa/puntero
+          add-paths: mapa_corpus/puntero.json
+          commit-message: "mapa: puntero a la revisión ${{ steps.publicar.outputs.revision_mapa }}"
+          title: "mapa: puntero a la fuente ${{ needs.construir.outputs.sha_fuente }}"
+          body-path: ${{ env.TRABAJO }}/reporte.md
+          delete-branch: true
+
+  aviso-falla:
+    needs: [construir, publicar]
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Abrir (o comentar) un issue si la actualización del mapa falló
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          titulo="Mapa del corpus HF: falla en la actualización diaria"
+          enlace="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          abierto=$(gh issue list --state open --search "in:title \"$titulo\"" --json number --jq '.[0].number')
+          if [ -n "$abierto" ]; then
+            gh issue comment "$abierto" --body "Vuelve a fallar: $enlace"
+          else
+            gh issue create --title "$titulo" --body "La actualización diaria del mapa del corpus falló: $enlace"
+          fi
