@@ -5,12 +5,14 @@ name: Mapa del corpus HF
 # valida, lo publica en el propio dataset (data/mapa/, un commit + tag mapa-<n>) y abre un PR que
 # actualiza mapa_corpus/puntero.json. Al fusionar ese PR, todos los clientes consultan el mapa nuevo.
 #
-# Secretos (Settings → Secrets and variables → Actions):
-# - HF_TOKEN, en el environment «hf-publicar»: token fine-grained con escritura SOLO en el dataset.
-# - HF_TOKEN_LECTURA (opcional): token de lectura; sube el cupo de descargas de HF.
-# - MAPA_APP_ID (variable) + MAPA_APP_PRIVATE_KEY (secreto) de una GitHub App con contents y
-#   pull-requests de escritura, o en su defecto MAPA_PR_TOKEN (PAT fine-grained). Un PR abierto con el
-#   GITHUB_TOKEN no dispara la CI; por eso hace falta una de esas dos credenciales.
+# Puesta en marcha (dos cosas, ver docs/mapa.md):
+# 1. Secreto HF_TOKEN (Settings → Secrets and variables → Actions): token fine-grained de Hugging
+#    Face con escritura SOLO en el dataset. Puede ir en el repo o en el environment «hf-publicar».
+# 2. Settings → Actions → General → «Allow GitHub Actions to create and approve pull requests».
+# Opcionales: HF_TOKEN_LECTURA (sube el cupo de descargas de HF) y una GitHub App (variable
+# MAPA_APP_ID + secreto MAPA_APP_PRIVATE_KEY) o un PAT MAPA_PR_TOKEN: con ellos el PR del puntero
+# además dispara la CI. Sin ellos el PR se abre con el GITHUB_TOKEN y el puntero se verifica aquí
+# mismo (verificar-puntero), antes de abrirlo.
 # La primera publicación se lanza a mano: Actions → «Mapa del corpus HF» → Run workflow, modo=completo.
 
 on:
@@ -140,8 +142,11 @@ jobs:
       (github.event_name == 'schedule' || inputs.publicar)
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    # El token con escritura en el dataset vive SOLO en este environment (con revisores si se quiere).
+    # El token con escritura en el dataset solo llega a este job (environment con revisores si se quiere).
     environment: hf-publicar
+    permissions:
+      contents: write          # rama mapa/puntero
+      pull-requests: write     # PR del puntero con el GITHUB_TOKEN
     steps:
       - uses: actions/checkout@v7
 
@@ -171,11 +176,15 @@ jobs:
             exit 0
           fi
           if [ -z "$HF_TOKEN" ]; then
-            echo "::notice::Falta el secreto HF_TOKEN en el environment hf-publicar: el mapa se construyó y validó, pero no se publica."
+            echo "::notice::Falta el secreto HF_TOKEN (Settings → Secrets and variables → Actions): el mapa se construyó y validó, pero no se publica."
             echo "publicado=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           python -m mapa_corpus publicar --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT"
+
+      - name: Verificar el puntero contra lo publicado en HF
+        if: steps.publicar.outputs.publicado == 'true'
+        run: python -m mapa_corpus verificar-puntero
 
       - name: Credencial para abrir el PR (GitHub App)
         id: app
@@ -189,7 +198,7 @@ jobs:
         if: steps.publicar.outputs.publicado == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ steps.app.outputs.token || secrets.MAPA_PR_TOKEN }}
+          token: ${{ steps.app.outputs.token || secrets.MAPA_PR_TOKEN || github.token }}
           branch: mapa/puntero
           add-paths: mapa_corpus/puntero.json
           commit-message: "mapa: puntero a la revisión ${{ steps.publicar.outputs.revision_mapa }}"
