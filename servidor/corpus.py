@@ -266,12 +266,18 @@ TOOLS = [
     },
     {
         "name": "huggingface_search_dataset",
-        "description": "Consulta el repositorio público oficial en Hugging Face Datasets Hub (pablobenavidesj/doctrina-jurisprudencia-chile) y recupera contexto y enlaces directos con citas oficiales.",
+        "description": "Consulta el repositorio público oficial en Hugging Face Datasets Hub (pablobenavidesj/doctrina-jurisprudencia-chile) y recupera contexto y enlaces directos con citas oficiales. "
+                       "Con el mapa del corpus busca primero lo exacto (rol, norma o entidad: la ficha y quién la cita) y "
+                       "cita con la URL fijada a la revisión del dataset.",
         "inputSchema": {
             "type": "object",
             "properties": {
                 "query": {"type": "string", "description": "Término de búsqueda doctrinal o institucional (ej. 'responsabilidad', 'despido', 'contratos')"},
-                "limit": {"type": "integer", "description": "Número máximo de archivos o recursos a devolver (por defecto 5)", "default": 5}
+                "limit": {"type": "integer", "description": "Número máximo de archivos o recursos a devolver (por defecto 5)", "default": 5},
+                "rol": {"type": "string", "description": "Rol exacto de una causa (ej. '10641-2024' de la Corte Suprema, '2402-12-INA' del TC, 'R-21-2021' ambiental): trae su ficha y los documentos que la citan (opcional)"},
+                "norma": {"type": "string", "description": "Norma citada (ej. 'art. 1545 del Código Civil', 'Ley 19.300'): los documentos del dataset que la citan (opcional)"},
+                "coleccion": {"type": "string", "description": "Acota a una colección: 'cs' (Corte Suprema), 'tc', 'ta' (tribunales ambientales), 'doc' (doctrina y revistas), 'guia', 'bib' o 'pub' (opcional)"},
+                "entidad": {"type": "string", "description": "Ministro, autor, revista, sala o recurso, por nombre o ID del mapa (ej. 'María Gajardo Harboe', 'revista:rchd'): los documentos vinculados (opcional)"}
             },
             "required": ["query"]
         }
@@ -456,6 +462,99 @@ def _citas_por_lote(referencias: list, limite: Optional[int] = 1200) -> dict:
     }
 
 
+def _estado_mapa() -> dict:
+    """Estado del mapa del corpus de Hugging Face (sin red); nunca lanza."""
+    try:
+        from online_library_sync import estado_mapa
+        return estado_mapa()
+    except Exception as e:  # noqa: BLE001 — sin mapa la consulta sigue con sus fuentes de siempre
+        return {"activo": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
+
+
+def _aviso_mapa(mapa: dict) -> str:
+    """El aviso de la consulta cuando el mapa no está activo (o responde con una caché anterior)."""
+    if mapa.get("aviso"):
+        return str(mapa["aviso"])
+    if mapa.get("activo"):
+        return ""
+    motivo = mapa.get("motivo") or mapa.get("error") or "no hay un mapa listo"
+    return (f"El mapa del corpus de Hugging Face no está activo ({motivo}): la consulta usó las fuentes de "
+            "siempre, sin la búsqueda exacta por rol, norma ni entidad del mapa.")
+
+
+def _con_revistas_del_mapa(locales: Any, consulta: str, limite: int, area: Any = None, autor: Any = None) -> Any:
+    """`doctrina_search` se completa con los artículos de las revistas del dataset (vía el mapa del
+    corpus): llenan los cupos que la doctrina local deja libres y, desde `limit` 3, un tercio de
+    los cupos es para ellas. Sin mapa listo, los resultados locales tal cual."""
+    try:
+        from online_library_sync import revistas_del_mapa
+        revistas = revistas_del_mapa(str(consulta), limite, area=area, autor=autor)
+    except Exception:  # noqa: BLE001 — el mapa suma, nunca tumba la búsqueda de doctrina
+        revistas = []
+    if not revistas or not isinstance(locales, list):
+        return locales
+    cupo = min(len(revistas), max(limite - len(locales), limite // 3))
+    return locales[:max(0, limite - cupo)] + revistas[:cupo]
+
+
+def _ver_corpus(motor: Any, consulta: Optional[str], max_nodos: int = 250, salida: Optional[str] = None) -> dict:
+    """`grafo_ver_corpus` sobre el motor COMPARTIDO del servidor: el grafo que ya está en memoria
+    (con la capa del mapa del corpus, si la hay), sin volver a leerlo del disco. `max_nodos` acota
+    también el subgrafo de una consulta: una norma del mapa puede tener miles de vecinos."""
+    import contextlib
+    import os
+
+    import grafo_vista as vista
+
+    max_nodos = max(1, int(max_nodos))
+    if not getattr(motor, "is_built", False) and not motor.cargar_grafo_json():
+        return {"error": "no se pudo cargar el grafo del corpus: construilo con "
+                         "`python legal_graphify.py --build`"}
+    # Si el motor expone su candado (carga y cambio del grafo), el recorte se hace bajo él.
+    candado: Any = getattr(motor, "_lock", None)
+    if not hasattr(candado, "__enter__"):
+        candado = contextlib.nullcontext()
+    with candado:
+        grafo = motor.graph
+        muestra = False
+        if consulta:
+            encontrado = motor._buscar_nodo_relevante(consulta)  # noqa: SLF001 (API interna del motor)
+            if not encontrado or not grafo.has_node(encontrado):
+                return {"error": f"no encontré nada en el grafo para «{consulta}»",
+                        "sugerencia": "probá con una palabra sola (despido, posesión, nulidad)"}
+            vecinos = (set(grafo.successors(encontrado)) | set(grafo.predecessors(encontrado))) - {encontrado}
+            if len(vecinos) + 1 > max_nodos:
+                # Los vecinos más conectados, en orden determinista; el nodo consultado, siempre.
+                vecinos = set(sorted(vecinos, key=lambda n: (-grafo.degree(n), str(n)))[:max_nodos - 1])
+                muestra = True
+            grafo = grafo.subgraph(vecinos | {encontrado}).copy()
+            titulo = f"Grafo del corpus — subgrafo de «{consulta}»"
+            nota = (f"El nodo de «{consulta}» y {grafo.number_of_nodes() - 1} de sus vecinos más conectados "
+                    "(recorte para que se pueda leer)." if muestra else
+                    f"El nodo de «{consulta}» y sus vecinos en el corpus indexado por LegalGraphify.")
+        else:
+            if grafo.number_of_nodes() > max_nodos:
+                import networkx as nx
+
+                try:
+                    rango = nx.pagerank(grafo, alpha=0.85, max_iter=100)
+                except Exception:  # noqa: BLE001 — sin convergencia, el grado basta para elegir
+                    rango = {n: grafo.degree(n) for n in grafo.nodes}
+                elegidos = [n for n, _ in sorted(rango.items(), key=lambda x: (-x[1], str(x[0])))[:max_nodos]]
+                grafo = grafo.subgraph(elegidos).copy()
+                muestra = True
+            else:
+                grafo = grafo.copy()
+            titulo = "El grafo del derecho chileno"
+            nota = (f"El corpus completo indexado por LegalGraphify. Acá se muestran {grafo.number_of_nodes()} "
+                    "de los nodos más conectados (PageRank) para que se pueda leer." if muestra else
+                    "El corpus completo indexado por LegalGraphify.")
+    archivo = salida or os.path.join(vista.SALIDA_POR_DEFECTO, "corpus.html")
+    vista._html_del_grafo(grafo, titulo, nota, archivo)  # noqa: SLF001 (mismo HTML que grafo_vista)
+    return {"archivo": archivo, "nodos": grafo.number_of_nodes(), "aristas": grafo.number_of_edges(),
+            "muestra": muestra, "como_abrirlo": f"abrilo en el navegador: {archivo}"}
+
+
 def despachar(name: str, args: dict) -> Any:
     _refrescar()
     if name == "consulta_maestra":
@@ -509,7 +608,10 @@ def despachar(name: str, args: dict) -> Any:
             ("normas", bool([n for n in normas if n.get("texto")])),
             ("organismos", bool(organismos.get("citas"))),
         ) if not ok]
-        return {
+        # El mapa del corpus viaja con el sondeo de Hugging Face; si ese sondeo no lo trae (falló
+        # o lo sustituyó otra implementación), se lee aparte, sin red.
+        mapa = hf.get("mapa") if isinstance(hf.get("mapa"), dict) else _estado_mapa()
+        respuesta = {
             "consulta": consulta,
             "hallazgos": {"huggingface": hf.get("resultados", []),
                           "doctrina": doctrina.get("resultados", []),
@@ -520,7 +622,12 @@ def despachar(name: str, args: dict) -> Any:
             "faltantes": faltantes,
             "como_citar": "Pegá cada cita con su texto literal. En conversación: la respuesta primero y las "
                           "fuentes al final. En documentos: citas a pie de página (fuente · identificador · enlace).",
+            "mapa": mapa,
         }
+        aviso = _aviso_mapa(mapa)
+        if aviso:
+            respuesta["avisos"] = [aviso]
+        return respuesta
     elif name == "cita_texto":
         lote = args.get("referencias")
         if isinstance(lote, str):
@@ -581,7 +688,7 @@ def despachar(name: str, args: dict) -> Any:
         citas_halladas.extend(hf.get("citas") or [])
         return {"consulta": consulta, "resultados": resultados, "citas": citas_halladas}
     if name == "grafo_ver_corpus":
-        return grafo_vista.ver_corpus(args.get("consulta"), int(args.get("max_nodos") or 250))
+        return _ver_corpus(legal_graphify_engine, args.get("consulta"), int(args.get("max_nodos") or 250))
     elif name == "grafo_ver_caso":
         return grafo_vista.ver_caso(args.get("ruta", ""))
     elif name == "generar_grafo_vinculos":
@@ -598,14 +705,15 @@ def despachar(name: str, args: dict) -> Any:
             lim = int(args.get("limit", 5))
         except (ValueError, TypeError):
             lim = 5
+        locales = search_doctrina(
+            query=q,
+            area=args.get("area"),
+            autor=args.get("autor"),
+            limit=lim
+        )
         return _citas_en_items({
             "query": q,
-            "resultados": search_doctrina(
-                query=q,
-                area=args.get("area"),
-                autor=args.get("autor"),
-                limit=lim
-            )
+            "resultados": _con_revistas_del_mapa(locales, q, lim, args.get("area"), args.get("autor"))
         }, "Doctrina", campos_clave=("autor", "obra"), campo_texto="definicion")
     elif name == "doctrina_get_institucion":
         nom = args.get("nombre")
@@ -649,10 +757,12 @@ def despachar(name: str, args: dict) -> Any:
         return manif
     elif name == "huggingface_search_dataset":
         q = args.get("query")
-        if not q:
+        filtros: Dict[str, Any] = {clave: args[clave] for clave in ("rol", "norma", "coleccion", "entidad")
+                                   if args.get(clave)}
+        if not q and not (set(filtros) - {"coleccion"}):
             return {"error": "El parámetro 'query' es obligatorio."}
         from online_library_sync import consultar_huggingface_dataset
-        return consultar_huggingface_dataset(query=q, limit=int(args.get("limit") or 5))
+        return consultar_huggingface_dataset(query=q or "", limit=int(args.get("limit") or 5), **filtros)
     elif name == "graphify_resumen_comunidades":
         return legal_graphify_engine.resumen_por_comunidades(int(args.get("top_n") or 12))
     elif name == "graphify_consulta_subgrafo":

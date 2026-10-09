@@ -5,6 +5,7 @@ para su consulta directa por modelos de IA (Gemini, Claude, GPT, Antigravity)
 y su publicación gratuita en Hugging Face Datasets, GitHub Releases y Google Drive / NotebookLM.
 """
 
+import hashlib
 import os
 import pathlib
 import re
@@ -17,7 +18,7 @@ import time
 import threading
 
 from config import registrar_tiempo
-from typing import Dict, Any, List, Optional, Tuple
+from typing import Dict, Any, Iterator, List, Optional, Sequence, Tuple
 
 BASE_DIR = os.path.dirname(__file__)
 DOCTRINA_DIR = os.path.join(BASE_DIR, "doctrina")
@@ -1359,19 +1360,88 @@ def _normalizar_para_buscar(texto: str) -> str:
     return texto.translate(str.maketrans("áéíóúüñÁÉÍÓÚÜÑ", "aeiouunAEIOUUN"))
 
 
+# ── Mapa del corpus (mapa_corpus/) ────────────────────────────────────────────────────────────
+# Con un mapa LISTO del dataset, el listado de archivos, el blob de cada uno y la revisión que se
+# baja salen del mapa, sin red; las búsquedas lo consultan primero (rol, norma o entidad exactos y
+# su texto) y citan con la URL fijada a la revisión de la fuente. Sin mapa, todo sigue como antes.
+REPO_HF = "pablobenavidesj/doctrina-jurisprudencia-chile"
+_RUTAS_MAPA: Dict[str, Any] = {}
+_RUTAS_MAPA_LOCK = threading.Lock()
+
+
+def cliente_mapa(repo_id: str = REPO_HF) -> Any:
+    """El cliente del mapa si hay uno LISTO que describa `repo_id`; si no, None. Nunca usa la red."""
+    try:
+        from mapa_corpus.cliente import obtener_cliente
+        cliente = obtener_cliente()
+        if not cliente.habilitado or cliente.repo_id != repo_id or cliente.indice() is None:
+            return None
+        return cliente
+    except Exception:  # noqa: BLE001 — sin mapa el producto sigue con sus fuentes de siempre
+        return None
+
+
+def estado_mapa(repo_id: str = REPO_HF) -> Dict[str, Any]:
+    """Lo que una herramienta informa del mapa (`estado_breve`): si está activo, de qué fuente y
+    con qué avisos. Nunca usa la red ni lanza."""
+    try:
+        from mapa_corpus.cliente import obtener_cliente
+        cliente = obtener_cliente()
+        if cliente.repo_id != repo_id:
+            return {"activo": False, "motivo": f"el mapa describe {cliente.repo_id}, no {repo_id}"}
+        return dict(cliente.estado_breve())
+    except Exception as e:  # noqa: BLE001
+        return {"activo": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
+
+
+def _memo_mapa(cliente: Any) -> Dict[str, Any]:
+    """{ruta: blob}, rutas ordenadas y sha de la fuente del mapa en uso, memorizados por revisión:
+    armar las 80 mil rutas cuesta ~0,2 s y una búsqueda las consulta varias veces."""
+    ind = cliente.indice()
+    if ind is None:
+        return {"blobs": {}, "lista": [], "sha_fuente": ""}
+    meta = ind.meta()
+    clave = f"{meta.get('revision')}:{meta.get('sha256_estado')}"
+    with _RUTAS_MAPA_LOCK:
+        if _RUTAS_MAPA.get("clave") != clave:
+            blobs = cliente.rutas()
+            _RUTAS_MAPA.clear()
+            _RUTAS_MAPA.update({"clave": clave, "blobs": blobs, "lista": sorted(blobs),
+                                "sha_fuente": str(meta.get("sha_fuente") or "")})
+        return _RUTAS_MAPA
+
+
+def _blobs_mapa(cliente: Any) -> Dict[str, str]:
+    return _memo_mapa(cliente)["blobs"] if cliente is not None else {}
+
+
+def _url_hf(archivo: str, repo_id: str, cliente: Any = None) -> Dict[str, str]:
+    """La URL del archivo: fijada a la revisión de la fuente (y la vigente aparte) si el mapa lo
+    registra; si no, la de `main` de siempre."""
+    if cliente is not None and archivo in _blobs_mapa(cliente):
+        return {"url_huggingface": cliente.url(archivo), "url_vigente": cliente.url(archivo, fijada=False)}
+    return {"url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{archivo.replace(' ', '%20')}"}
+
+
 def _ruta_listado_hf(repo_id: str) -> pathlib.Path:
     return CACHE_HF / (repo_id.replace("/", "__") + "__listado.json")
 
 
 def _listar_archivos_hf(repo_id: str) -> List[str]:
-    """Lista los archivos del dataset: memoria (10 min) → disco (24 h) → hub.
+    """Lista los archivos del dataset: mapa del corpus → memoria (10 min) → disco (24 h) → hub.
 
+    Con un mapa listo el listado sale de él, sin red: el del hub (~18 s) deja de ser requisito.
     El candado cubre la carrera del arranque: el precalentado del server y la primera consulta
     pueden pedir el listado a la vez; sin él ambos pagaban la misma descarga (~18 s cada uno).
     La copia en disco hace que la primera consulta de cada sesión no lo pague de nuevo; sin red,
     la copia aunque vencida se usa igual (es un índice de búsqueda, no una cita).
     """
     global _ARCHIVOS_HF_CACHE
+    cliente = cliente_mapa(repo_id)
+    if cliente is not None:
+        lista = _memo_mapa(cliente)["lista"]
+        if lista:
+            return lista
     ahora = time.time()
     if _ARCHIVOS_HF_CACHE.get("repo") == repo_id and ahora - _ARCHIVOS_HF_CACHE.get("t", 0) < 600:
         return _ARCHIVOS_HF_CACHE.get("archivos", [])
@@ -1476,7 +1546,11 @@ def _escribir_sincronia(repo_dir: pathlib.Path, meta: dict) -> None:
 
 
 def _blob_remoto(archivo: str, repo_id: str) -> Optional[str]:
-    """El blob_id del archivo en el hub (identifica su revisión sin bajar contenido). None sin red."""
+    """El blob_id del archivo (identifica su revisión sin bajar contenido): el que registra el mapa
+    del corpus, sin red; si el mapa no lo tiene, el del hub. None sin red."""
+    blob = _blobs_mapa(cliente_mapa(repo_id)).get(archivo)
+    if blob:
+        return blob
     try:
         info = _hf_api().get_paths_info(repo_id, [archivo], repo_type="dataset")
     except Exception:  # noqa: BLE001 — sin red se sigue con la copia local
@@ -1512,16 +1586,61 @@ def _archivo_cambio_en_hub(archivo: str, repo_id: str) -> bool:
     return True  # el hub tiene otra revisión: que el flujo normal la baje
 
 
-def _anotar_descarga(archivo: str, repo_id: str) -> None:
+def _anotar_descarga(archivo: str, repo_id: str, blob: Optional[str] = None) -> None:
     """Registra la revisión recién bajada (blob_id + fecha) para no revalidar de inmediato."""
     try:
         repo_dir = _repo_cache_dir(repo_id)
         meta = _leer_sincronia(repo_dir)
-        meta["archivos"][archivo] = {"blob_id": _blob_remoto(archivo, repo_id) or "",
+        meta["archivos"][archivo] = {"blob_id": blob or _blob_remoto(archivo, repo_id) or "",
                                      "verificado": time.time()}
         _escribir_sincronia(repo_dir, meta)
     except Exception:  # noqa: BLE001 — la metadata es una optimización, no un requisito
         pass
+
+
+def _blob_local(archivo: str, repo_id: str, copia: pathlib.Path) -> str:
+    """El blob de la copia en caché: el registrado al bajarla o, sin registro, el blob git de su
+    contenido (sha1 de «blob <largo>\\0<bytes>», lo mismo que informa el hub). "" si no se sabe."""
+    registrado = str((_leer_sincronia(_repo_cache_dir(repo_id))["archivos"].get(archivo) or {}).get("blob_id") or "")
+    if registrado:
+        return registrado
+    try:
+        if copia.stat().st_size > _TAMANO_MAX_HF:
+            return ""
+        datos = copia.read_bytes()
+    except OSError:
+        return ""
+    return hashlib.sha1(b"blob %d\0" % len(datos) + datos, usedforsecurity=False).hexdigest()
+
+
+def _bajar_hf(archivo: str, repo_id: str, destino: pathlib.Path, revision: Optional[str] = None) -> bool:
+    """Baja un archivo del dataset a la caché local. Con `revision` (el sha de la fuente del mapa)
+    baja esa revisión FIJADA; sin ella, la vigente. False si no se pudo usar."""
+    from huggingface_hub import hf_hub_download
+    t0 = time.perf_counter()
+    try:
+        if revision:
+            # Con mapa: la revisión de la fuente que el mapa describe, la misma que citan sus URLs.
+            ruta = hf_hub_download(repo_id=repo_id, filename=archivo, repo_type="dataset", revision=revision,
+                                   token=resolver_token_hf(), cache_dir=str(CACHE_HF / repo_id.replace("/", "__")))
+        else:
+            # El dataset es el PROPIO de Open Legal Chile, que esta misma suite publica y actualiza:
+            # sin mapa, la búsqueda tiene que ver el corpus más fresco, no una revisión congelada. Lo
+            # que se baja son datos (markdown/jsonl) que nunca se ejecutan y se validan antes de
+            # usarse (extensión permitida, tope de tamaño y lectura defensiva de cada línea).
+            ruta = hf_hub_download(  # nosec B615
+                                   repo_id=repo_id, filename=archivo, repo_type="dataset",
+                                   token=resolver_token_hf(),
+                                   cache_dir=str(CACHE_HF / repo_id.replace("/", "__")))
+    finally:
+        registrar_tiempo("hf.descarga", time.perf_counter() - t0)
+    origen = pathlib.Path(ruta)
+    if not origen.exists() or origen.stat().st_size > _TAMANO_MAX_JSONL:
+        return False
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    if destino.resolve() != origen.resolve():
+        destino.write_bytes(origen.read_bytes())
+    return True
 
 
 def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] = None) -> str:
@@ -1530,6 +1649,10 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
     Los .jsonl se filtran por línea para no cargar 80 MB de fichas en memoria; el resto se lee
     entero solo si es razonablemente chico. Ante cualquier falla devuelve "" — la búsqueda sigue
     funcionando con las rutas y nunca inventa texto.
+
+    Con el mapa del corpus, la copia vale si su blob es el que registra el mapa (sin preguntarle
+    al hub); si difiere, se baja la revisión FIJADA de la fuente del mapa, la misma que citan
+    sus URLs. Un archivo que el mapa no registra sigue el camino de siempre.
     """
     if not archivo.lower().endswith(_TEXTO_HF):
         return ""
@@ -1540,29 +1663,22 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
 
     destino = CACHE_HF / repo_id.replace("/", "__") / archivo
     try:
-        if destino.exists() and _archivo_cambio_en_hub(archivo, repo_id):
-            destino.unlink()  # el hub tiene una revisión más nueva: se vuelve a bajar
-        if not destino.exists():
-            from huggingface_hub import hf_hub_download
-            # El dataset es el PROPIO de Open Legal Chile, que esta misma suite publica y actualiza:
-            # la búsqueda tiene que ver el corpus más fresco, no una revisión congelada. Lo que se
-            # baja son datos (markdown/jsonl) que nunca se ejecutan y se validan antes de usarse
-            # (extensión permitida, tope de tamaño y lectura defensiva de cada línea).
-            t0 = time.perf_counter()
-            try:
-                ruta = hf_hub_download(  # nosec B615
-                                       repo_id=repo_id, filename=archivo, repo_type="dataset",
-                                       token=resolver_token_hf(),
-                                       cache_dir=str(CACHE_HF / repo_id.replace("/", "__")))
-            finally:
-                registrar_tiempo("hf.descarga", time.perf_counter() - t0)
-            origen = pathlib.Path(ruta)
-            if not origen.exists() or origen.stat().st_size > _TAMANO_MAX_JSONL:
-                return ""
-            destino.parent.mkdir(parents=True, exist_ok=True)
-            if destino.resolve() != origen.resolve():
-                destino.write_bytes(origen.read_bytes())
-            _anotar_descarga(archivo, repo_id)
+        cliente = cliente_mapa(repo_id)
+        blob_mapa = _blobs_mapa(cliente).get(archivo)
+        if blob_mapa:
+            if destino.exists() and _blob_local(archivo, repo_id, destino) != blob_mapa:
+                destino.unlink()  # la copia no es la revisión que describe el mapa
+            if not destino.exists():
+                if not _bajar_hf(archivo, repo_id, destino, revision=_memo_mapa(cliente)["sha_fuente"] or None):
+                    return ""
+                _anotar_descarga(archivo, repo_id, blob=blob_mapa)
+        else:
+            if destino.exists() and _archivo_cambio_en_hub(archivo, repo_id):
+                destino.unlink()  # el hub tiene una revisión más nueva: se vuelve a bajar
+            if not destino.exists():
+                if not _bajar_hf(archivo, repo_id, destino):
+                    return ""
+                _anotar_descarga(archivo, repo_id)
         if destino.suffix == ".jsonl":
             if destino.stat().st_size > _TAMANO_MAX_JSONL:
                 return ""
@@ -1766,6 +1882,7 @@ def _buscar_catalogo_instituciones(tokens_q: List[str], query_norm: str, limit: 
 
     resultados: List[Dict[str, Any]] = []
     vistos_archivos = set()
+    cliente = cliente_mapa(repo_id)
     for idx, _ in scores.most_common(limit * 3):
         it = items[idx]
         archivo = it.get("archivo", "").strip()
@@ -1779,7 +1896,6 @@ def _buscar_catalogo_instituciones(tokens_q: List[str], query_norm: str, limit: 
             continue
         vistos_archivos.add(archivo_hf)
 
-        encoded_path = archivo_hf.replace(" ", "%20")
         definicion = (it.get("definicion") or "").strip()
         extractos: List[str] = []
         if definicion:
@@ -1802,7 +1918,7 @@ def _buscar_catalogo_instituciones(tokens_q: List[str], query_norm: str, limit: 
         resultados.append({
             "archivo": archivo_hf,
             "dataset": repo_id,
-            "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+            **_url_hf(archivo_hf, repo_id, cliente),
             "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
             "tipo": "doctrina_markdown",
             "cita_estandar": cita,
@@ -1823,7 +1939,8 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
 
     `archivos` es el listado del dataset: si viene, ninguna ruta se cita sin estar en él. Una
     ruta que no existe se reemplaza por el archivo del dataset donde vive el registro (su JSONL):
-    nunca se inventa una ruta.
+    nunca se inventa una ruta. Con el mapa del corpus, la ruta de la ficha sale del mapa (por el
+    ID canónico del rol) y su URL queda fijada a la revisión de la fuente.
     """
     try:
         from pjud_connector import buscar_sentencias_locales, ruta_hf_corte_suprema
@@ -1831,6 +1948,7 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
     except Exception:
         sentencias = []
 
+    cliente = cliente_mapa(repo_id) if sentencias else None
     resultados: List[Dict[str, Any]] = []
     for s in sentencias:
         rol = str(s.get("rol") or "").strip()
@@ -1843,7 +1961,11 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
 
         archivo_md = str(s.get("archivo_md") or "").strip()
         fuente = str(s.get("archivo_fuente") or "").strip()
-        if "Constitucional" in tribunal or archivo_md.startswith("jurisprudencia_tc"):
+        fila = _fila_mapa_de_sentencia(cliente, s) if cliente is not None else None
+        if fila and fila.get("ruta"):
+            archivo_hf = str(fila["ruta"])
+            tipo = _clasificar_tipo_hf(archivo_hf)
+        elif "Constitucional" in tribunal or archivo_md.startswith("jurisprudencia_tc"):
             archivo_hf = archivo_md or f"jurisprudencia_tc/{clean_rol}.md"
             tipo = "jurisprudencia_tc"
         elif "Ambiental" in tribunal or archivo_md.startswith("jurisprudencia_ambiental"):
@@ -1862,7 +1984,6 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
         if not archivo_hf:
             continue
 
-        encoded_path = archivo_hf.replace(" ", "%20")
         cita = f"[Hugging Face - {repo_id}, Archivo: {archivo_hf}]"
         extracto = (f"Sentencia {tribunal} Rol {rol} ({fecha}): {caratula}. "
                     f"Recurso: {recurso}. Resultado: {resultado_fallo}.").strip()
@@ -1870,7 +1991,7 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
         resultados.append({
             "archivo": archivo_hf,
             "dataset": repo_id,
-            "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
+            **_url_hf(archivo_hf, repo_id, cliente),
             "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
             "tipo": tipo,
             "cita_estandar": cita,
@@ -1880,114 +2001,493 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
     return resultados
 
 
+# Colecciones del mapa y sus nombres de uso común (el parámetro `coleccion`).
+_ALIAS_COLECCION = {
+    "cs": "cs", "corte_suprema": "cs", "suprema": "cs", "jurisprudencia_cs": "cs",
+    "tc": "tc", "constitucional": "tc", "tribunal_constitucional": "tc", "jurisprudencia_tc": "tc",
+    "ta": "ta", "ambiental": "ta", "ambientales": "ta", "tribunales_ambientales": "ta",
+    "jurisprudencia_ambiental": "ta",
+    "doc": "doc", "doctrina": "doc", "revista": "doc", "revistas": "doc",
+    "guia": "guia", "guias": "guia", "academia_judicial": "guia", "guias_academia_judicial": "guia",
+    "bib": "bib", "biblioteca": "bib", "biblioteca_ambiental": "bib",
+    "pub": "pub", "publicaciones": "pub", "publicaciones_ambientales": "pub",
+    "dato": "dato", "datos": "dato", "data": "dato", "graphify": "graphify",
+}
+# Colección de un resultado que no viene del mapa (catálogo, rutas), según su tipo.
+_COLECCION_DE_TIPO = {
+    "jurisprudencia_cs": "cs", "jurisprudencia_tc": "tc", "jurisprudencia_ambiental": "ta",
+    "doctrina_markdown": "doc", "guia_academia_judicial": "guia", "biblioteca_ambiental": "bib",
+    "publicacion_ambiental": "pub", "datos_estructurados": "dato", "wiki_comunidad": "graphify",
+    "visualizador_interactivo": "graphify", "grafo_conocimiento": "graphify", "reporte_comunidades": "graphify",
+}
+# Palabras que delatan una consulta de jurisprudencia (sin tildes).
+_PALABRAS_JURISPRUDENCIA = ("sentencia", "fallo", "amparo", "casacion", "proteccion", "unificacion")
+_RE_ROL_CONSULTA = re.compile(r"\b(rol|rit|c-?\d|t-?\d|\d{3,6}-\d{4})\b")
+# El corpus con texto (doctrina, guías, TC, ambientales): en la búsqueda de texto del mapa va antes
+# que las fichas de la CS, que solo traen metadatos (carátula, partes).
+_COLS_CON_TEXTO = ["doc", "guia", "tc", "ta", "pub", "bib"]
+# Palabras que acompañan a un identificador («Rol», «art.», «Código Civil»): si la consulta no trae
+# nada más que eso, ES el identificador, y la búsqueda de texto del mapa solo sumaría ruido.
+_PALABRAS_DE_IDENTIFICADOR = {
+    "rol", "roles", "causa", "sentencia", "fallo", "ficha", "corte", "suprema", "excma", "recurso", "stc",
+    "tribunal", "constitucional", "ambiental", "art", "arts", "articulo", "articulos", "inciso", "numeral",
+    "bis", "ter", "transitorio", "codigo", "civil", "penal", "procesal", "procedimiento", "trabajo",
+    "comercio", "aguas", "mineria", "organico", "tribunales", "ley", "leyes", "decreto", "dfl",
+    "constitucion", "politica", "republica", "cpr", "inc", "nro", "num",
+}
+
+
+def _tokens_consulta(texto: str) -> List[str]:
+    """Términos de búsqueda sin tildes, sin palabras vacías ni términos de dos letras."""
+    return [t for t in (_normalizar_para_buscar(x).lower() for x in re.split(r"[_\-\s]+", texto.lower().strip()))
+            if len(t) > 2 and t not in _PALABRAS_VACIAS]
+
+
+def _prosa(tokens: List[str]) -> List[str]:
+    """Los términos que no son parte de un identificador (números de rol o de artículo, «Rol»,
+    «art.», «Código Civil»…): lo que la consulta dice además del rol o la norma."""
+    salida: List[str] = []
+    for t in tokens:
+        limpio = re.sub(r"[\W_]+", "", t)
+        if limpio and not limpio.isdigit() and limpio not in _PALABRAS_DE_IDENTIFICADOR:
+            salida.append(t)
+    return salida
+
+
+def _colecciones(valor: Any) -> List[str]:
+    """«cs», «Corte Suprema», «doctrina, tc» o una lista → colecciones del mapa, sin repetir."""
+    crudos = valor if isinstance(valor, (list, tuple)) else re.split(r"[,;]", str(valor or ""))
+    salida: List[str] = []
+    for crudo in crudos:
+        clave = re.sub(r"[\s\-]+", "_", _normalizar_para_buscar(str(crudo)).lower().strip())
+        col = _ALIAS_COLECCION.get(clave, clave)
+        if col and re.fullmatch(r"[a-z_]+", col) and col not in salida:
+            salida.append(col)
+    return salida
+
+
+def _sin_repetir(valores: Sequence[Optional[str]]) -> List[str]:
+    salida: List[str] = []
+    for valor in valores:
+        if valor and valor not in salida:
+            salida.append(valor)
+    return salida
+
+
+def _ids_de_rol(cliente: Any, rol: str) -> List[str]:
+    """IDs canónicos de un rol dado como parámetro (CS, TC o ambiental); si alguno existe en el
+    mapa, solo los que existen («R-21-2021» puede ser de cualquiera de los tres tribunales)."""
+    from citas_legales import rol_canonico
+    rol = str(rol or "").strip()
+    if re.match(r"^(?:cs|tc|ta):\S", rol):
+        return [rol]
+    candidatos = _sin_repetir([rol_canonico(rol, tribunal) for tribunal in (None, "tc", "1ta", "2ta", "3ta")])
+    existentes = [i for i in candidatos if cliente.entrada(i) is not None]
+    return existentes or candidatos[:1]
+
+
+def _ids_de_norma(norma: str) -> List[str]:
+    """IDs canónicos de una norma dada como parámetro («art. 1545 del Código Civil», «Ley 19.300»)."""
+    from citas_legales import normas_canonicas, resolver_consulta
+    norma = str(norma or "").strip()
+    if norma.startswith("norma:"):
+        return [norma]
+    ids = [i for i in resolver_consulta(norma) if i.startswith("norma:")]
+    return ids or [i for i, _ in normas_canonicas(norma)]
+
+
+def _ids_de_entidad(cliente: Any, entidad: str) -> List[str]:
+    """IDs del mapa de un ministro, autor, revista, sala, tribunal o recurso, dado por su nombre
+    («María Gajardo Harboe», «Tercera Sala») o por su ID («revista:rchd»): solo los que existen."""
+    entidad = str(entidad or "").strip()
+    if re.match(r"^[a-z_]+:\S", entidad):
+        return [entidad]
+    from mapa_corpus import ids as ids_mapa
+    slug = ids_mapa.slug(entidad)
+    candidatos = _sin_repetir([ids_mapa.ministro_id(entidad), ids_mapa.autor_id(entidad),
+                               ids_mapa.revista_id(entidad) if slug else None, ids_mapa.sala_id(entidad),
+                               ids_mapa.tribunal_id(entidad), ids_mapa.recurso_id(entidad),
+                               f"organo:{slug}" if slug else None])
+    return [i for i in candidatos if cliente.entidad(i) is not None]
+
+
+def _fila_mapa_de_sentencia(cliente: Any, s: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """La entrada del mapa de una sentencia del corpus local (por el ID canónico de su rol), o None."""
+    from citas_legales import rol_canonico
+    id_ = next((str(s[c]) for c in ("id_mapa", "id") if re.match(r"^(?:cs|tc|ta):\S", str(s.get(c) or ""))), "")
+    if not id_:
+        rol = str(s.get("rol") or "")
+        tribunal = _normalizar_para_buscar(str(s.get("tribunal") or "")).lower()
+        archivo_md = str(s.get("archivo_md") or "")
+        if "constitucional" in tribunal or archivo_md.startswith("jurisprudencia_tc"):
+            id_ = rol_canonico(rol, "tc") or ""
+        elif "ambiental" in tribunal or archivo_md.startswith("jurisprudencia_ambiental"):
+            m = re.search(r"/([123])TA/", archivo_md, re.IGNORECASE)
+            numero = m.group(1) if m else next(
+                (n for palabra, n in (("primer", "1"), ("segundo", "2"), ("tercer", "3")) if palabra in tribunal), "")
+            id_ = (rol_canonico(rol, f"{numero}ta") or "") if numero else ""
+        else:
+            id_ = rol_canonico(rol, "cs") or ""
+    try:
+        return cliente.entrada(id_) if id_ else None
+    except Exception:  # noqa: BLE001 — sin mapa consultable, la ruta se arma como siempre
+        return None
+
+
+def _cita_corte_suprema(fila: Dict[str, Any]) -> str:
+    """«[CS - Rol N° 10.641-2024, Fecha: 04-03-2026]», el corchete oficial de una ficha de la CS."""
+    m = re.fullmatch(r"(\d+)-(\d{4})", str(fila.get("rol") or ""))
+    if not m:
+        return ""
+    rol = f"{int(m.group(1)):,}".replace(",", ".") + f"-{m.group(2)}"
+    f = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", str(fila.get("fecha") or ""))
+    return f"[CS - Rol N° {rol}, Fecha: {f.group(3)}-{f.group(2)}-{f.group(1)}]" if f else f"[CS - Rol N° {rol}]"
+
+
+def _texto_local_hf(archivo: str, repo_id: str, blob: str) -> str:
+    """El texto del archivo si ya está en disco (el repo, o la caché con el blob que registra el
+    mapa); si no, "". Nunca baja nada: sirve para que un resultado del mapa traiga el pasaje."""
+    if not archivo.lower().endswith((".md", ".txt")) or archivo.startswith("/") \
+            or ".." in pathlib.PurePosixPath(archivo).parts:
+        return ""
+    for ruta, exige_blob in ((pathlib.Path(BASE_DIR) / archivo, False), (_repo_cache_dir(repo_id) / archivo, True)):
+        try:
+            if ruta.is_file() and ruta.stat().st_size <= _TAMANO_MAX_HF \
+                    and (not exige_blob or _blob_local(archivo, repo_id, ruta) == blob):
+                return ruta.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+    return ""
+
+
+def _extractos_mapa(fila: Dict[str, Any], tokens: List[str], repo_id: str) -> List[str]:
+    """Pasajes citables de una entrada del mapa: la ficha de la CS tal como la registra el
+    dataset; del resto, el pasaje que calza (si el texto ya está en disco) o su resumen."""
+    if fila.get("col") == "cs":
+        partes = [f"Sentencia Corte Suprema Rol {fila.get('rol') or ''} ({fila.get('fecha') or 's/f'}): "
+                  f"{fila.get('titulo') or ''}."]
+        if fila.get("recurso_txt"):
+            partes.append(f"Recurso: {fila['recurso_txt']}.")
+        if fila.get("resultado"):
+            partes.append(f"Resultado: {fila['resultado']}.")
+        if fila.get("ministros_txt"):
+            partes.append("Ministros: " + ", ".join(str(m) for m in fila["ministros_txt"]) + ".")
+        return [" ".join(partes)]
+    pasajes: List[str] = []
+    if tokens:
+        pasajes = _extractos_hf(_texto_local_hf(str(fila.get("ruta") or ""), repo_id, str(fila.get("blob") or "")),
+                                tokens)
+    resumen = " ".join(str(fila.get("resumen") or "").split())
+    if not pasajes and resumen:
+        pasajes = (_extractos_hf(resumen, tokens) if tokens else []) or [resumen]
+    return pasajes[:3]
+
+
+def _resultado_mapa(cliente: Any, fila: Dict[str, Any], repo_id: str, space_id: str, tokens: List[str],
+                    relacion: str) -> Dict[str, Any]:
+    """Un resultado de búsqueda desde una entrada del mapa, con la forma de siempre más su ID, su
+    colección, cómo calzó (`relacion`: exacto, cita o texto) y las dos URLs."""
+    ruta = str(fila.get("ruta") or "")
+    tipo = _clasificar_tipo_hf(ruta)
+    extractos = _extractos_mapa(fila, tokens, repo_id)
+    resultado: Dict[str, Any] = {
+        "archivo": ruta,
+        "dataset": repo_id,
+        "url_huggingface": cliente.url(ruta),
+        "url_vigente": cliente.url(ruta, fijada=False),
+        "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
+        "tipo": tipo,
+        "cita_estandar": _formatear_cita_hf(ruta, repo_id, tipo, os.path.basename(ruta)),
+        "extractos": extractos,
+        "tiene_texto": bool(extractos),
+        "origen": "mapa_hf",
+        "id": fila.get("id"),
+        "coleccion": fila.get("col"),
+        "relacion": relacion,
+    }
+    for clave in ("titulo", "fecha", "rol", "recurso_txt", "resultado", "ministros_txt", "autores_txt",
+                  "revista", "anio"):
+        if fila.get(clave):
+            resultado[clave] = fila[clave]
+    cita_oficial = fila.get("cita_oficial") or fila.get("cita") or (
+        _cita_corte_suprema(fila) if fila.get("col") == "cs" else "")
+    if cita_oficial:
+        resultado["cita_oficial"] = cita_oficial
+    return resultado
+
+
+def _grupos_de_texto(texto: str, terminos: str, cols: List[str]) -> List[Tuple[Optional[List[str]], str]]:
+    """(colecciones, términos) de cada pasada de la búsqueda de texto del mapa, en orden: el corpus
+    con texto antes que las fichas de la CS (solo metadatos), salvo en una consulta de
+    jurisprudencia; la wiki del dataset primero si se la pide; al final, el resto."""
+    if not terminos:
+        return []
+    if cols:
+        return [(cols, terminos)]
+    plano = _normalizar_para_buscar(texto).lower()
+    if _RE_ROL_CONSULTA.search(plano) or any(k in plano for k in _PALABRAS_JURISPRUDENCIA):
+        return [(["cs"], terminos), (_COLS_CON_TEXTO, terminos), (None, terminos)]
+    if any(k in plano for k in ("wiki", "comunidad", "grafo")):
+        # En la wiki se busca el tema, no la palabra «wiki» (que calza con todas sus páginas).
+        tema = " ".join(t for t in terminos.split() if not t.startswith(("wiki", "comunidad", "grafo")))
+        return [(["graphify"], tema or terminos), (_COLS_CON_TEXTO, terminos), (["cs"], terminos), (None, terminos)]
+    return [(_COLS_CON_TEXTO, terminos), (["cs"], terminos), (None, terminos)]
+
+
+def _buscar_en_mapa(cliente: Any, texto: str, rol: Optional[str], norma: Optional[str], entidad: Optional[str],
+                    cols: List[str], limit: int, repo_id: str, space_id: str,
+                    tokens: List[str]) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """Lo que el mapa sabe de la consulta, en orden: las fichas exactas (rol), quién cita la
+    norma, el rol o la entidad, y después su búsqueda de texto. Nunca usa la red."""
+    from citas_legales import resolver_consulta
+    exactos: List[str] = _ids_de_rol(cliente, rol) if rol else []
+    citados: List[str] = list(exactos)
+    if norma:
+        citados += _ids_de_norma(norma)
+    if entidad:
+        citados += _ids_de_entidad(cliente, entidad)
+    de_consulta = resolver_consulta(texto) if texto else []
+    exactos = _sin_repetir(exactos + [i for i in de_consulta if not i.startswith("norma:")])
+    citados = _sin_repetir(citados + de_consulta)
+
+    filas: List[Tuple[Dict[str, Any], str]] = []
+    for id_ in exactos:
+        fila = cliente.entrada(id_)
+        if fila:
+            filas.append((fila, "exacto"))
+    total_citantes = 0
+    if citados:
+        citantes, total_citantes = cliente.citantes(citados, cols or None, limite=limit)
+        filas += [(f, "cita") for f in citantes]
+    # Con un identificador resuelto, el texto solo busca lo que la consulta dice además de él.
+    consulta_texto = " ".join(_prosa(tokens) if (exactos or citados) else tokens)
+    for grupo, terminos in _grupos_de_texto(texto, consulta_texto, cols):
+        if len(filas) >= limit:
+            break
+        filas += [(f, "texto") for f in cliente.buscar(terminos, grupo, limite=limit)]
+
+    resultados: List[Dict[str, Any]] = []
+    vistos: set = set()
+    for fila, relacion in filas:
+        ruta = fila.get("ruta")
+        if not ruta or ruta in vistos or (cols and fila.get("col") not in cols):
+            continue
+        vistos.add(ruta)
+        resultados.append(_resultado_mapa(cliente, fila, repo_id, space_id, tokens, relacion))
+    detalle: Dict[str, Any] = {}
+    if exactos or citados or cols:
+        detalle = {"ids": _sin_repetir(exactos + citados), "citantes_total": total_citantes, "colecciones": cols}
+    return resultados, detalle
+
+
+def _candidatos_tradicionales(consulta: str, query_norm: str, tokens_q: List[str], limit: int, repo_id: str,
+                              space_id: str, excluir: set, cliente: Any,
+                              cols: Optional[List[str]] = None) -> Iterator[Dict[str, Any]]:
+    """Los candidatos de siempre, en su orden: catálogo de instituciones, de jurisprudencia y rutas
+    del dataset (con un listado de prueba de < 100 archivos, solo las rutas). Es un generador: el
+    texto de cada ruta se baja recién cuando el consumidor lo pide. Con `cols`, lo que cae fuera de
+    esas colecciones ni se busca ni se baja."""
+    files = _listar_archivos_hf(repo_id)
+
+    def _en_cols(*tipos: str) -> bool:
+        return not cols or any(_COLECCION_DE_TIPO.get(t) in cols for t in tipos)
+
+    def _por_ruta(f: str) -> Dict[str, Any]:
+        tipo = _clasificar_tipo_hf(f)
+        extractos = _extractos_hf(_descargar_trozo_hf(f, repo_id, tokens_q), tokens_q)
+        return {
+            "archivo": f,
+            "dataset": repo_id,
+            **_url_hf(f, repo_id, cliente),
+            "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
+            "tipo": tipo,
+            "cita_estandar": _formatear_cita_hf(f, repo_id, tipo, os.path.basename(f)),
+            "extractos": extractos,
+            "tiene_texto": bool(extractos),
+        }
+
+    candidatos_paths = sorted((f for f in files if f not in excluir and _en_cols(_clasificar_tipo_hf(f))
+                               and any(t in _normalizar_para_buscar(f).lower() for t in tokens_q)),
+                              key=lambda f: (_prioridad_hf(f), f))
+    # Modo test / mock aislado: si _listar_archivos_hf devuelve una lista reducida (< 100 archivos)
+    if len(files) < 100:
+        for f in candidatos_paths:
+            yield _por_ruta(f)
+        return
+
+    # Modo producción (catálogo ultra-eficiente de 73.203 archivos y 11.858 instituciones)
+    es_rol = bool(_RE_ROL_CONSULTA.search(query_norm))
+    es_jurisprudencia = es_rol or any(k in query_norm for k in _PALABRAS_JURISPRUDENCIA)
+
+    candidatos_inst = _buscar_catalogo_instituciones(tokens_q, query_norm, limit=limit, repo_id=repo_id, space_id=space_id) \
+        if _en_cols("doctrina_markdown") else []
+    candidatos_juris = _buscar_catalogo_jurisprudencia(consulta, limit=limit, repo_id=repo_id, space_id=space_id,
+                                                       archivos=set(files)) \
+        if (es_jurisprudencia or len(candidatos_inst) < limit) \
+        and _en_cols("jurisprudencia_cs", "jurisprudencia_tc", "jurisprudencia_ambiental") else []
+    candidatos_archivos = [_por_ruta(f) for f in candidatos_paths[:limit]]
+
+    if es_jurisprudencia:
+        orden = candidatos_juris + candidatos_inst + candidatos_archivos
+    elif any(k in query_norm for k in ("wiki", "comunidad", "grafo", "guia")):
+        orden = candidatos_archivos + candidatos_inst + candidatos_juris
+    else:
+        orden = candidatos_inst + candidatos_archivos + candidatos_juris
+    yield from orden
+
+
 def consultar_huggingface_dataset(query: str, limit: int = 5,
-                                  repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
-                                  space_id: str = "pablobenavidesj/open-legal-chile-graph") -> Dict[str, Any]:
-    """Consulta el dataset público de Hugging Face y devuelve contexto remoto con enlaces directos, wiki de comunidades y citas oficiales."""
-    query_norm = (query or "").lower().strip()
+                                  repo_id: str = REPO_HF,
+                                  space_id: str = "pablobenavidesj/open-legal-chile-graph",
+                                  rol: Optional[str] = None, norma: Optional[str] = None,
+                                  coleccion: Any = None, entidad: Optional[str] = None) -> Dict[str, Any]:
+    """Consulta el dataset público de Hugging Face y devuelve contexto remoto con enlaces directos, wiki de comunidades y citas oficiales.
+
+    Orden: lo exacto del mapa del corpus (el rol, la norma o la entidad, de los parámetros o de la
+    consulta: la ficha y quién la cita) → su búsqueda de texto → el catálogo de instituciones y de
+    jurisprudencia → las rutas del dataset. Cada resultado del mapa trae `url_huggingface` FIJADA a
+    la revisión de la fuente y `url_vigente` (main); la respuesta suma la clave `mapa` con su
+    estado. Sin mapa listo la búsqueda es la de siempre. `coleccion` acota a cs, tc, ta, doc, guia,
+    bib o pub (también «Corte Suprema», «doctrina»…).
+    """
+    texto = str(query or "").strip() or " ".join(str(v).strip() for v in (rol, norma, entidad)
+                                                 if v and str(v).strip())
+    query_norm = texto.lower().strip()
     if not query_norm:
         return {"error": "Se requiere un término de búsqueda para consultar Hugging Face", "coincidencias": []}
+    consulta = query if str(query or "").strip() else texto
 
+    cliente = cliente_mapa(repo_id)
+    estado = cliente.estado_breve() if cliente is not None else estado_mapa(repo_id)
+    cols = _colecciones(coleccion)
     coincidencias: List[Dict[str, Any]] = []
     citas: List[Dict[str, Any]] = []
-    try:
-        files = _listar_archivos_hf(repo_id)
+    vistos: set = set()
+    detalle: Dict[str, Any] = {}
 
-        tokens_q = [t for t in (_normalizar_para_buscar(x).lower() for x in re.split(r"[_\-\s]+", query_norm))
-                    if len(t) > 2 and t not in _PALABRAS_VACIAS]
-
-        # Modo test / mock aislado: si _listar_archivos_hf devuelve una lista reducida (< 100 archivos)
-        if len(files) < 100:
-            candidatos = sorted((f for f in files if any(t in _normalizar_para_buscar(f).lower() for t in tokens_q)),
-                                key=lambda f: (_prioridad_hf(f), f))
-            for f in candidatos:
-                encoded_path = f.replace(" ", "%20")
-                nombre_base = os.path.basename(f)
-                tipo = _clasificar_tipo_hf(f)
-                cita = _formatear_cita_hf(f, repo_id, tipo, nombre_base)
-                extractos = _extractos_hf(_descargar_trozo_hf(f, repo_id, tokens_q), tokens_q)
-                coincidencias.append({
-                    "archivo": f,
-                    "dataset": repo_id,
-                    "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
-                    "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
-                    "tipo": tipo,
-                    "cita_estandar": cita,
-                    "extractos": extractos,
-                    "tiene_texto": bool(extractos),
-                })
-                if extractos:
-                    citas.append({
-                        "formato": cita,
-                        "texto": extractos[0],
-                        "url": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
-                        "fuente": "huggingface",
-                    })
-                if len(coincidencias) >= limit:
-                    break
-            return _construir_respuesta_hf(query, repo_id, space_id, coincidencias, citas)
-
-        # Modo producción (catálogo ultra-eficiente de 73.203 archivos y 11.858 instituciones)
-        es_rol = bool(re.search(r"\b(rol|rit|c-?\d|t-?\d|\d{3,6}-\d{4})\b", query_norm))
-        es_jurisprudencia = es_rol or any(k in query_norm for k in ("sentencia", "fallo", "amparo", "casacion", "proteccion", "unificacion"))
-
-        candidatos_inst = _buscar_catalogo_instituciones(tokens_q, query_norm, limit=limit, repo_id=repo_id, space_id=space_id)
-        candidatos_juris = _buscar_catalogo_jurisprudencia(query, limit=limit, repo_id=repo_id, space_id=space_id,
-                                                           archivos=set(files)) if (es_jurisprudencia or len(candidatos_inst) < limit) else []
-
-        candidatos_archivos: List[Dict[str, Any]] = []
-        candidatos_paths = sorted((f for f in files if any(t in _normalizar_para_buscar(f).lower() for t in tokens_q)),
-                                  key=lambda f: (_prioridad_hf(f), f))
-        for f in candidatos_paths[:limit]:
-            encoded_path = f.replace(" ", "%20")
-            nombre_base = os.path.basename(f)
-            tipo = _clasificar_tipo_hf(f)
-            cita = _formatear_cita_hf(f, repo_id, tipo, nombre_base)
-            extractos = _extractos_hf(_descargar_trozo_hf(f, repo_id, tokens_q), tokens_q)
-            candidatos_archivos.append({
-                "archivo": f,
-                "dataset": repo_id,
-                "url_huggingface": f"https://huggingface.co/datasets/{repo_id}/blob/main/{encoded_path}",
-                "space_interactivo": f"https://huggingface.co/spaces/{space_id}",
-                "tipo": tipo,
-                "cita_estandar": cita,
-                "extractos": extractos,
-                "tiene_texto": bool(extractos),
+    def _agregar(cand: Dict[str, Any]) -> bool:
+        """Suma un candidato sin repetir archivo ni salir de las colecciones pedidas; True al llegar al límite."""
+        if cand["archivo"] in vistos:
+            return False
+        if cols and (cand.get("coleccion") or _COLECCION_DE_TIPO.get(str(cand.get("tipo") or ""), "")) not in cols:
+            return False
+        vistos.add(cand["archivo"])
+        coincidencias.append(cand)
+        if cand.get("extractos"):
+            citas.append({
+                "formato": cand["cita_estandar"],
+                "texto": cand["extractos"][0],
+                "url": cand["url_huggingface"],
+                "fuente": "huggingface",
             })
+        return len(coincidencias) >= limit
 
-        if es_jurisprudencia:
-            orden = candidatos_juris + candidatos_inst + candidatos_archivos
-        elif any(k in query_norm for k in ("wiki", "comunidad", "grafo", "guia")):
-            orden = candidatos_archivos + candidatos_inst + candidatos_juris
-        else:
-            orden = candidatos_inst + candidatos_archivos + candidatos_juris
-
-        archivos_vistos: set = set()
-        for cand in orden:
-            arch = cand["archivo"]
-            if arch in archivos_vistos:
-                continue
-            archivos_vistos.add(arch)
-            coincidencias.append(cand)
-            if cand.get("extractos"):
-                citas.append({
-                    "formato": cand["cita_estandar"],
-                    "texto": cand["extractos"][0],
-                    "url": cand["url_huggingface"],
-                    "fuente": "huggingface",
-                })
-            if len(coincidencias) >= limit:
-                break
-
-        return _construir_respuesta_hf(query, repo_id, space_id, coincidencias, citas)
+    try:
+        tokens_q = _tokens_consulta(query_norm)
+        lleno = False
+        if cliente is not None:
+            del_mapa, detalle = _buscar_en_mapa(cliente, texto, rol, norma, entidad, cols, limit, repo_id,
+                                                space_id, tokens_q)
+            lleno = any(_agregar(cand) for cand in del_mapa)
+            if detalle.get("ids"):
+                # El mapa ya resolvió el rol, la norma o la entidad: el catálogo y las rutas buscan
+                # solo el resto de la consulta («2024» calzaría con miles de rutas).
+                tokens_q = _prosa(tokens_q)
+        if not lleno:
+            for cand in _candidatos_tradicionales(consulta, query_norm, tokens_q, limit, repo_id, space_id,
+                                                  vistos, cliente, cols):
+                if _agregar(cand):
+                    break
+        respuesta = _construir_respuesta_hf(consulta, repo_id, space_id, coincidencias, citas)
     except Exception as e:
         return {
             "dataset_origen": f"https://huggingface.co/datasets/{repo_id}",
-            "query": query,
+            "query": consulta,
             "error": f"Falla consultando Hugging Face Hub: {str(e)}",
             "resultados": [],
-            "citas": []
+            "citas": [],
+            "mapa": estado,
         }
+    respuesta["mapa"] = estado
+    if detalle:
+        respuesta["mapa_consulta"] = detalle
+    return respuesta
+
+
+def _nombre_revista(cliente: Any, id_revista: str, memo: Dict[str, str]) -> str:
+    if id_revista not in memo:
+        entidad = cliente.entidad(id_revista) or {}
+        memo[id_revista] = str(entidad.get("label") or id_revista.split(":", 1)[-1].upper())
+    return memo[id_revista]
+
+
+def _etiquetas_normas(normas: Any, maximo: int = 8) -> str:
+    """«Código Civil, Art. 2314; Ley N° 19.300» de las normas más citadas de una entrada."""
+    from citas_legales import etiqueta_norma
+    etiquetas: List[str] = []
+    pares = [n for n in (normas or []) if isinstance(n, (list, tuple)) and len(n) == 2]
+    for id_, _ in sorted(pares, key=lambda n: (-int(n[1]), str(n[0])))[:maximo]:
+        try:
+            etiquetas.append(etiqueta_norma(str(id_)))
+        except (ValueError, KeyError):
+            continue
+    return "; ".join(etiquetas)
+
+
+def revistas_del_mapa(query: str, limite: int = 5, area: Optional[str] = None, autor: Optional[str] = None,
+                      repo_id: str = REPO_HF) -> List[Dict[str, Any]]:
+    """Artículos de las revistas jurídicas del dataset que calzan con la consulta (vía el mapa), con
+    la forma de los resultados de `doctrina_search`: título, resumen, autores, revista, normas,
+    `cita_oficial` y `fuente_huggingface` FIJADA a la revisión de la fuente. Sin mapa listo, [].
+    Nunca usa la red."""
+    cliente = cliente_mapa(repo_id)
+    tokens = _tokens_consulta(str(query or ""))
+    if cliente is None or limite <= 0 or not tokens:
+        return []
+    terminos = tokens + (_tokens_consulta(str(autor)) if autor else [])
+    filas = [f for f in cliente.buscar(" ".join(terminos), ["doc"], limite=max(4 * limite, 20))
+             if f.get("revista") and f.get("ruta")]
+    # Primero los artículos con texto: una ficha «texto íntegro en PDF» no tiene pasaje que citar.
+    filas.sort(key=lambda f: not f.get("tiene_texto"))
+    if autor:
+        aguja = _normalizar_para_buscar(str(autor)).lower().strip()
+        filas = [f for f in filas if aguja in _normalizar_para_buscar(" ".join(f.get("autores_txt") or [])).lower()]
+    if area:
+        aguja = _normalizar_para_buscar(str(area)).lower().strip()
+        filas = [f for f in filas if aguja in _normalizar_para_buscar(str(f.get("area_declarada") or "")).lower()]
+    memo: Dict[str, str] = {}
+    salida: List[Dict[str, Any]] = []
+    for f in filas[:limite]:
+        ruta = str(f["ruta"])
+        titulo = str(f.get("titulo") or os.path.basename(ruta))
+        autores = "; ".join(str(a) for a in (f.get("autores_txt") or [])) or "s/d"
+        obra = _nombre_revista(cliente, str(f["revista"]), memo)
+        resumen = " ".join(str(f.get("resumen") or "").split())
+        snippet = (_extractos_hf(resumen, tokens, ancho=300, maximo=1) or [resumen[:300]])[0]
+        url = cliente.url(ruta)
+        salida.append({
+            "id": f.get("id"),
+            "institucion": titulo,
+            "definicion": resumen,
+            "snippet": snippet,
+            "concordancias": _etiquetas_normas(f.get("normas")),
+            "fallo_rector": "",
+            "area": str(f.get("area_declarada") or "Revistas"),
+            "autor": autores,
+            "obra": obra,
+            "operativa_procesal": "",
+            "bm25_score": 0.0,
+            "cita_oficial": str(f.get("cita_oficial") or f.get("cita") or f"[Doctrina - {autores}, {titulo}, {obra}]"),
+            "fuente_huggingface": url,
+            "url": url,
+            "url_vigente": cliente.url(ruta, fijada=False),
+            "archivo": ruta,
+            "revista": f.get("revista"),
+            "anio": f.get("anio"),
+            "resumen": resumen,
+            "origen": "mapa_hf",
+        })
+    return salida
 
 
 def _archivos_en_cache(repo_dir: pathlib.Path) -> List[str]:
