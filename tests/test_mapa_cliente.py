@@ -288,3 +288,19 @@ def test_cliente_compartido(entorno, monkeypatch):
     monkeypatch.setenv("OPENLEGAL_MAPA", "")
     mod_cliente.reiniciar_cliente()
     assert mod_cliente.obtener_cliente().habilitado
+
+
+def test_cache_de_otro_esquema_de_indice_se_rearma(entorno, mapa_local):
+    """Una base armada por una versión anterior del índice no se consulta: se vuelve a armar."""
+    estado = (mapa_local / "estado.json").read_bytes()
+    sesion = SesionFalsa({REV_1: mapa_local})
+    c = mod_cliente.MapaCliente(puntero=_puntero(REV_1, estado), sesion=sesion)
+    assert c.asegurar(bloquear=True, timeout=60)
+    marca = entorno / "cache" / REV_1 / "LISTO"
+    vieja = json.loads(marca.read_text(encoding="utf-8"))
+    vieja["indice"] = "1"
+    marca.write_text(json.dumps(vieja), encoding="utf-8")
+    nuevo = mod_cliente.MapaCliente(puntero=_puntero(REV_1, estado), sesion=sesion)
+    assert nuevo.indice() is None                                  # no se consulta una base incompatible
+    assert nuevo.asegurar(bloquear=True, timeout=60) and nuevo.entrada("tc:2402")
+    assert json.loads(marca.read_text(encoding="utf-8"))["indice"] == mod_cliente.indice.ESQUEMA_INDICE
