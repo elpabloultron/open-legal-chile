@@ -66,6 +66,7 @@ Thumbs.db
 scratch/
 scratch_*.py
 graphify-out/cache/
+graphify-out/converted/
 graphify-out/[0-9]*/
 graphify-out/*.sig
 graphify-out/.graphify_labels.json*
