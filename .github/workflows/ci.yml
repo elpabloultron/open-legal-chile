@@ -81,6 +81,9 @@ jobs:
           OPENLEGAL_MAPA= OPENLEGAL_MAPA_DIR="$RUNNER_TEMP/mapa" python - <<'PY'
           from mapa_corpus.cliente import MapaCliente
           c = MapaCliente()
+          if not c.puntero.get("revision_mapa"):
+              print("puntero sin revisión (mapa aún no publicado): sin consultas de humo")
+              raise SystemExit(0)
           assert c.asegurar(bloquear=True, timeout=900), c.error
           assert c.entrada("cs:10641-2024") is not None, "consulta de humo: rol CS"
           assert c.buscar("indemnización de perjuicios"), "consulta de humo: texto"
