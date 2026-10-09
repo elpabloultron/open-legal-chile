@@ -127,11 +127,12 @@ Louvain cambiaría las comunidades sin que cambie el corpus.
 **Job `construir`.** No tiene token de escritura. Corre `estado`, `construir`, `validar` y las
 pruebas del mapa, con la caché de fuentes en `actions/cache`.
 
-**Job `publicar`.** Corre en el environment `hf-publicar`, el único con el token de escritura.
-Publica en HF y abre el PR `mapa/puntero`, que cambia solo `mapa_corpus/puntero.json`.
+**Job `publicar`.** Es el único que recibe el token de escritura (environment `hf-publicar`).
+Publica en HF, verifica el puntero contra lo publicado (`verificar-puntero`) y abre el PR
+`mapa/puntero`, que cambia solo `mapa_corpus/puntero.json`.
 
 **Job `mapa-puntero` de la CI** ([`ci.yml`](../.github/workflows/ci.yml)). Cuando un PR cambia el
-puntero, lo verifica con lectura pública:
+puntero, lo vuelve a verificar con lectura pública:
 
 - el sha256 del estado y el de cada archivo;
 - que exista el `sha_fuente`;
@@ -140,18 +141,26 @@ puntero, lo verifica con lectura pública:
 
 Si una corrida falla, se abre o se comenta un issue.
 
-**Secretos que hay que crear una vez:**
+**Puesta en marcha (una sola vez, ~10 minutos):**
+
+1. En Hugging Face (*Settings → Access Tokens → Create new token → Fine-grained*): un token con
+   **«Write access to contents/settings of selected repos»** solo para
+   `pablobenavidesj/doctrina-jurisprudencia-chile`.
+2. En GitHub (*Settings → Secrets and variables → Actions → New repository secret*): guardarlo
+   como `HF_TOKEN`.
+3. En GitHub (*Settings → Actions → General → Workflow permissions*): marcar **«Allow GitHub
+   Actions to create and approve pull requests»**.
+4. Lanzar la primera publicación a mano: *Actions → «Mapa del corpus HF» → Run workflow*, con
+   `modo=completo`. Así las versiones de las dependencias son las fijadas. Al fusionar el PR del
+   puntero, todos los clientes pasan a consultar el mapa.
+
+**Opcionales:**
 
 | Dónde | Nombre | Para qué |
 |---|---|---|
-| Environment `hf-publicar` | `HF_TOKEN` | Token *fine-grained* con escritura **solo** en el dataset |
-| Secrets (opcional) | `HF_TOKEN_LECTURA` | Más cupo de descargas para construir |
-| Variables + Secrets | `MAPA_APP_ID` + `MAPA_APP_PRIVATE_KEY` | GitHub App que abre el PR del puntero (un PR abierto con `GITHUB_TOKEN` no dispara la CI) |
-| Secrets (alternativa) | `MAPA_PR_TOKEN` | PAT *fine-grained* con `contents` y `pull-requests` de escritura |
-
-La **primera publicación** se lanza a mano: Actions → «Mapa del corpus HF» → *Run workflow*, con
-`modo=completo`. Así las versiones de las dependencias son las fijadas. Al fusionar el PR del
-puntero, todos los clientes pasan a consultar el mapa.
+| Secrets | `HF_TOKEN_LECTURA` | Más cupo de descargas al construir (sin él se lee anónimo) |
+| Variables + Secrets | `MAPA_APP_ID` + `MAPA_APP_PRIVATE_KEY` | GitHub App que abre el PR del puntero; así el PR además dispara la CI (un PR abierto con el `GITHUB_TOKEN` no la dispara, por eso el puntero se verifica antes en la Action) |
+| Secrets (alternativa) | `MAPA_PR_TOKEN` | PAT *fine-grained* con `contents` y `pull-requests` de escritura, en lugar de la App |
 
 ## Cómo lo consulta Open Legal Chile
 
