@@ -39,7 +39,8 @@ def version_reglas() -> str:
     """Hash del código que decide el contenido de las filas: si cambia, se reconstruye todo."""
     h = hashlib.sha256()
     base = Path(__file__).resolve().parent
-    for nombre in ("extractores.py", "ids.py", "texto.py", "grafo.py"):
+    # Todo lo que decide el contenido: extracción, IDs, entidades/colisiones y serialización.
+    for nombre in ("extractores.py", "ids.py", "texto.py", "grafo.py", "constructor.py", "particiones.py"):
         h.update((base / nombre).read_bytes())
     h.update((base.parent / "citas_legales.py").read_bytes())
     h.update(f"{VERSION_CONSTRUCTOR}|{extractores.VERSION_EXTRACTORES}|{ESQUEMA}".encode())
@@ -126,9 +127,21 @@ def entidades(filas: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
 # ── Colisiones de IDs ─────────────────────────────────────────────────────────────────────
 def resolver_colisiones(filas: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], int]:
     """Dos archivos con el mismo ID: gana el principal (no síntesis) y, a igualdad, la ruta menor;
-    los demás reciben el sufijo del nombre de archivo. Determinista sobre el conjunto completo."""
+    los demás reciben el sufijo del nombre de archivo y guardan su `id_base`.
+
+    Se resuelve siempre desde los IDs base: en un delta, una fila que heredó un sufijo de la corrida
+    anterior vuelve a competir por su ID (si el archivo que lo tenía desapareció, lo recupera), igual
+    que en una reconstrucción completa."""
     grupos: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for f in filas:
+        if f.get("id_base"):
+            f = dict(f)
+            f["id"] = f.pop("id_base")
+            marcas = [c for c in f.get("calidad", []) if c != "id_compartido"]
+            if marcas:
+                f["calidad"] = marcas
+            else:
+                f.pop("calidad", None)
         grupos[f["id"]].append(f)
     salida: List[Dict[str, Any]] = []
     colisiones = 0
@@ -139,6 +152,7 @@ def resolver_colisiones(filas: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any
             colisiones += 1
             f = dict(f)
             sufijo = "sintesis" if f.get("tipo") == "sintesis" else ids.slug(f.get("ruta", "").rsplit("/", 1)[-1][:-3])
+            f["id_base"] = f["id"]
             f["id"] = f"{f['id']}:{sufijo}"
             f["calidad"] = sorted(set(f.get("calidad", [])) | {"id_compartido"})
             salida.append(f)
@@ -235,7 +249,9 @@ def construir(inv: Dict[str, Archivo], sha: str, descargador: Descargador, curad
         if hechos % (TANDA * 4) == 0 or hechos == len(a_bajar):
             avisar(f"  {hechos}/{len(a_bajar)}")
 
-    lista, colisiones = resolver_colisiones(list(filas.values()))
+    # En memoria, igual que en disco (NFC): si no, un nombre con tildes descompuestas contaría como
+    # otro en las entidades de una construcción completa y no en las de un delta (que lee de disco).
+    lista, colisiones = resolver_colisiones([particiones.nfc(f) for f in filas.values()])
     calidad["ids_compartidos"] += colisiones
     for f in lista:
         for marca in f.get("calidad", []):

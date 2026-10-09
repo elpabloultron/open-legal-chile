@@ -310,3 +310,52 @@ def test_estado_programado_sin_mapa_publicado_no_construye(cli_falso):
     plan, salida = cli_falso.correr("--requiere-base")
     assert plan["cambio"] is False and "a mano" in plan["motivo"] and "cambio=false" in salida
     assert cli_falso.correr()[0]["cambio"] is True              # a mano (sin la marca) sí construye
+
+
+# ── Regresiones: el delta tiene que dar exactamente lo mismo que reconstruir ────────────────────
+def _revista(autor):
+    return (f'---\ntitulo: "Estudio"\nautores: "{autor}"\nrevista: "Revista Chilena de Derecho"\nanio: 2020\n---\n\n'
+            "# Estudio\n\nTexto.\n").encode("utf-8")
+
+
+def test_nombres_en_nfd_y_nfc_son_el_mismo_autor_en_delta_y_completo(tmp_path):
+    """En memoria las filas recién extraídas pueden traer tildes descompuestas (NFD); en disco van
+    en NFC. Si las entidades se cuentan antes de normalizar, el rótulo del autor cambia según la
+    construcción sea completa o delta."""
+    import unicodedata
+    nfd = unicodedata.normalize("NFD", "Fernández Toledo, Raúl")
+    datos = dict(_datos_base(), **{
+        "doctrina/revistas/rchd/2020/a.md": _revista(nfd),
+        "doctrina/revistas/rchd/2021/b.md": _revista("Fernández Toledo, Raúl"),
+        "doctrina/revistas/rchd/2022/c.md": _revista("Raúl Fernández Toledo"),
+        "doctrina/revistas/rchd/2023/d.md": _revista("Raúl Fernández Toledo"),
+    })
+    # Completo: NFD 1 + NFC 1 frente a «Raúl…» 2 → ganaba «Raúl…»; el delta (filas de disco, NFC)
+    # contaba 2 contra 2 y el desempate elegía «Fernández…»: dos mapas distintos del mismo dataset.
+    previos = {k: v for k, v in datos.items() if not k.endswith("d.md")}
+    _construir(previos, tmp_path / "m")
+    _construir(datos, tmp_path / "m", base=constructor.leer_mapa(str(tmp_path / "m")))
+    _construir(datos, tmp_path / "completo")
+    assert _bytes_de(tmp_path / "m") == _bytes_de(tmp_path / "completo")
+
+
+def _ficha_ta(extra=""):
+    return ("# Reclamación — R-21-2021\n\n- **Tribunal:** Tercer Tribunal Ambiental\n- **Rol:** R-21-2021\n"
+            f"- **Fecha:** 2021-11-02\n{extra}").encode("utf-8")
+
+
+def test_colision_de_ids_se_resuelve_igual_en_delta_cuando_cae_el_principal(tmp_path):
+    a, b = "jurisprudencia_ambiental/3TA/R-21-2021.md", "jurisprudencia_ambiental/3TA/R-21-2021_copia.md"
+    datos = dict(_datos_base(), **{a: _ficha_ta(), b: _ficha_ta("- **Materia:** copia\n")})
+    _, _, estado, _ = _construir(datos, tmp_path / "m")
+    filas = {f["ruta"]: f for f in constructor.leer_mapa(str(tmp_path / "m"))["filas"]}
+    assert filas[a]["id"] == "ta:3ta:r-21-2021" and filas[b]["id"].startswith("ta:3ta:r-21-2021:")
+    assert estado["calidad"]["ids_compartidos"] == 1
+    # Desaparece el archivo que tenía el ID: la copia lo recupera, igual que si se reconstruyera todo.
+    sin_a = {k: v for k, v in datos.items() if k != a}
+    _, _, estado_delta, _ = _construir(sin_a, tmp_path / "m", base=constructor.leer_mapa(str(tmp_path / "m")))
+    filas = {f["ruta"]: f for f in constructor.leer_mapa(str(tmp_path / "m"))["filas"]}
+    assert filas[b]["id"] == "ta:3ta:r-21-2021" and "id_base" not in filas[b]
+    assert estado_delta["calidad"].get("ids_compartidos", 0) == 0
+    _construir(sin_a, tmp_path / "completo")
+    assert _bytes_de(tmp_path / "m") == _bytes_de(tmp_path / "completo")

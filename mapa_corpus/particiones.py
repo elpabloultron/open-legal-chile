@@ -18,20 +18,22 @@ from typing import Any, Dict, Iterable, List
 EXTENSION = ".jsonl.gz"
 
 
-def _nfc(valor: Any) -> Any:
+def nfc(valor: Any) -> Any:
+    """La fila tal como queda escrita: textos en NFC (el mismo nombre con tildes compuestas o
+    descompuestas es UN nombre), sin floats."""
     if isinstance(valor, str):
         return unicodedata.normalize("NFC", valor)
     if isinstance(valor, dict):
-        return {_nfc(k): _nfc(v) for k, v in valor.items()}
+        return {nfc(k): nfc(v) for k, v in valor.items()}
     if isinstance(valor, (list, tuple)):
-        return [_nfc(v) for v in valor]
+        return [nfc(v) for v in valor]
     if isinstance(valor, float):
         raise TypeError("el mapa no admite floats (rompen el determinismo): usa enteros")
     return valor
 
 
 def linea(fila: Dict[str, Any]) -> str:
-    return json.dumps(_nfc(fila), ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return json.dumps(nfc(fila), ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
 
 def serializar(filas: Iterable[Dict[str, Any]]) -> bytes:
