@@ -303,3 +303,10 @@ def test_estado_reglas_nuevas_es_construccion_completa(cli_falso):
 def test_trabajo_dentro_de_data_se_rechaza():
     with pytest.raises(SystemExit):
         cli._trabajo(os.path.join(str(cli.REPO_RAIZ), "data", "mapa_trabajo"))
+
+
+def test_estado_programado_sin_mapa_publicado_no_construye(cli_falso):
+    cli_falso.estado_hf["base"] = None
+    plan, salida = cli_falso.correr("--requiere-base")
+    assert plan["cambio"] is False and "a mano" in plan["motivo"] and "cambio=false" in salida
+    assert cli_falso.correr()[0]["cambio"] is True              # a mano (sin la marca) sí construye

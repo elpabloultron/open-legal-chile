@@ -67,6 +67,8 @@ jobs:
         run: |
           extra=""
           if [ "$MODO_PEDIDO" = "completo" ]; then extra="--sin-base"; fi
+          # El cron no hace la primera construcción: esa se lanza a mano (modo completo).
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then extra="$extra --requiere-base"; fi
           python -m mapa_corpus estado --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT" $extra
 
       - name: Caché de fuentes por blob (restaurar)
@@ -143,7 +145,13 @@ jobs:
         id: publicar
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: python -m mapa_corpus publicar --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT"
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "::notice::Falta el secreto HF_TOKEN en el environment hf-publicar: el mapa se construyó y validó, pero no se publica."
+            echo "publicado=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python -m mapa_corpus publicar --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT"
 
       - name: Credencial para abrir el PR (GitHub App)
         id: app
