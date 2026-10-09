@@ -339,6 +339,30 @@ def test_un_fallo_curado_que_el_mapa_no_tiene_se_sigue_encontrando(tmp_path, cli
     assert llamadas == []
 
 
+def test_un_rol_fuera_del_mapa_no_cae_en_una_institucion_por_palabras_sueltas(tmp_path, cliente_mapa, monkeypatch):
+    """«causa rol 4321-2020» no es la Causa Lícita ni otra sentencia que diga «rol»: o es el nodo de
+    ese mismo rol, o no hay."""
+    curado = json.loads(json.dumps(CURADO))
+    curado["nodes"] += [
+        {"id": "inst_la_causa_licita_art_1467_cc", "label": "La Causa Lícita y Teoría de la Causa (Art. 1467 CC)",
+         "node_type": "institucion", "definicion": "La causa de la obligación y su licitud.", "community": 0},
+        {"id": "inst_criterio_rol_60655_2021", "label": "Mismo criterio se sigue en sentencia Corte Suprema rol 60655-2021",
+         "node_type": "institucion", "community": 0},
+        {"id": "fallo_rol_n_4_821_2019", "label": "Rol N° 4.821-2019", "node_type": "jurisprudencia", "community": 3},
+    ]
+    curado["edges"].append({"source": "inst_responsabilidad_extracontractual", "target": "fallo_rol_n_4_821_2019",
+                            "relation": "criterio_jurisprudencial", "weight": 1.0})
+    motor = _motor(tmp_path, curado)
+    motor.cargar_capa_mapa(cliente_mapa.directorio())
+    llamadas = []
+    monkeypatch.setattr(motor, "_buscar_por_corpus", lambda q: llamadas.append(q))
+    for consulta in ("causa rol 4321-2020", "Rol N° 5-2021", "sentencia rol 3-2024", "causa Rol N° 12.345-2023"):
+        assert motor._buscar_nodo_relevante(consulta) is None, consulta
+    assert motor.consultar_subgrafo("causa rol 4321-2020")["encontrado"] is False
+    assert motor._buscar_nodo_relevante("causa Rol N° 4.821-2019") == "fallo_rol_n_4_821_2019"
+    assert llamadas == []
+
+
 def test_la_institucion_exacta_gana_a_la_norma_del_mapa(tmp_path, cliente_mapa):
     curado = json.loads(json.dumps(CURADO))
     curado["nodes"].append({"id": "inst_hecho_ilicito_art_2314_cc", "label": "Hecho ilícito (Art. 2314 CC)",

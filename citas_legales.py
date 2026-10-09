@@ -10,7 +10,7 @@ import bisect
 import re
 import unicodedata
 from collections import Counter
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 CODIGOS = {
     "civil": "Código Civil",
@@ -291,8 +291,8 @@ _RE_MODIFICADOR = re.compile(
     # «incisos primero, N° 6°, y decimoprimero»: el ordinal suelto continúa la lista de incisos.
     r"|(?P<ordinal>" + _ORDINAL_CARDINAL + r")(?!\s+(?:parte|frase|oraci[oó]n|transitori)|\w)"
     r")", re.IGNORECASE)
-# Tras «artículos» (plural), un N° singular rige solo al artículo que lo trae: en «los artículos
-# 17 N° 4 y 32 de la Ley N° 20.600» el 32 es otro artículo, no el numeral 32 del artículo 17.
+# Tras «artículos» (plural), un N° singular marca una lista de numerales solo contiguos (ver
+# `_contiguo`): en «los artículos 17 N° 4 y 32 de la Ley N° 20.600» el 32 es otro artículo.
 _RE_NUMERAL_UNO = re.compile(
     r"\s*,?\s*(?:(?:y|e)\s+)?(?:del\s+)?(?:N°|numeral)\s*" + _NUMERAL_ITEM + r"(?![^\W_])", re.IGNORECASE)
 _RE_SEPARADOR_LISTA = re.compile(
@@ -448,9 +448,20 @@ _RE_GRADO = re.compile(r"\s*°?")
 _NUMERALES_CPR_19 = 26
 
 
-def _numerales_hasta(grupo: str, tope: int) -> Tuple[List[int], int]:
-    """Numerales de un grupo («N° 2, 3 y 76») hasta el primero, después del primero, que pasa
-    `tope`: (numerales, largo consumido). Lo que va entre paréntesis no cuenta."""
+def _hasta_26(previo: int, numero: int) -> bool:
+    return numero <= _NUMERALES_CPR_19
+
+
+def _contiguo(previo: int, numero: int) -> bool:
+    """Tras «artículos» con un N° singular, el número siguiente sigue siendo un numeral del mismo
+    artículo solo si es contiguo: «17 N° 5, 6 y 8», «11 N° 6 y 9 del Código Penal» (numerales)
+    frente a «17 N° 4 y 32», «92 N° 1 y 95» o «17 N° 3, 18 N° 3, 25» (otros artículos)."""
+    return previo < numero <= previo + 3
+
+
+def _numerales_hasta(grupo: str, sigue: Callable[[int, int], bool]) -> Tuple[List[int], int]:
+    """Numerales de un grupo («N° 2, 3 y 76») mientras cada uno siga al anterior según `sigue`
+    (desde el segundo): (numerales, largo consumido). Lo que va entre paréntesis no cuenta."""
     numerales: List[int] = []
     fin, profundidad = len(grupo), 0
     for m in _RE_NUMERAL_O_PARENTESIS.finditer(grupo):
@@ -460,7 +471,7 @@ def _numerales_hasta(grupo: str, tope: int) -> Tuple[List[int], int]:
             continue
         if profundidad > 0:
             continue
-        if numerales and int(s) > tope:
+        if numerales and not sigue(numerales[-1], int(s)):
             break
         numerales.append(int(s))
         fin = _RE_GRADO.match(grupo, m.end()).end()  # type: ignore[union-attr]
@@ -470,12 +481,12 @@ def _numerales_hasta(grupo: str, tope: int) -> Tuple[List[int], int]:
 
 
 def _lista_articulos(t: str, pos: int, plural: bool = False,
-                     tope: Optional[int] = None) -> Tuple[List[Tuple[str, List[int]]], int]:
+                     sigue: Optional[Callable[[int, int], bool]] = None) -> Tuple[List[Tuple[str, List[int]]], int]:
     """Desde `pos` (justo después de «artículo»): artículos con sus numerales, y dónde termina.
 
-    `plural` («artículos», «arts.»): un N° singular toma un solo numeral y lo que sigue en la
-    lista son otros artículos. `tope`: una lista de numerales sigue solo con números hasta el
-    tope (el resto son otros artículos)."""
+    `plural` («artículos», «arts.»): tras un N° singular, la lista de numerales sigue solo con
+    números contiguos; lo demás son otros artículos. `sigue`: el criterio para seguir una lista
+    de numerales (el resto son otros artículos)."""
     arts: List[Tuple[str, List[int]]] = []
     while True:
         m = _ART_TOKEN.match(t, pos)
@@ -490,11 +501,11 @@ def _lista_articulos(t: str, pos: int, plural: bool = False,
                 break
             fin_mod = mod.end()
             if mod.group("numeral"):
-                uno = _RE_NUMERAL_UNO.match(t, pos) if plural else None
-                if uno:
-                    fin_mod = uno.end()
-                if tope is not None and not uno:
-                    hasta, largo = _numerales_hasta(t[pos:fin_mod], tope)
+                criterio = sigue
+                if criterio is None and plural and _RE_NUMERAL_UNO.match(t, pos):
+                    criterio = _contiguo
+                if criterio is not None:
+                    hasta, largo = _numerales_hasta(t[pos:fin_mod], criterio)
                     numerales.extend(hasta)
                     fin_mod = pos + largo
                 else:
@@ -600,7 +611,7 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
             continue
         if plural and _cuerpo_real(cuerpo) == "cpr" and any(a == "19" for a, _ in arts):
             # «los artículos 19 N° 2 y 3 de la CPR»: en el artículo 19 de la CPR, sus numerales.
-            arts19, fin19 = _lista_articulos(t, tras_palabra, False, _NUMERALES_CPR_19)
+            arts19, fin19 = _lista_articulos(t, tras_palabra, False, _hasta_26)
             if not t[min(fin, fin19):max(fin, fin19)].strip():   # la misma frase, leída de otro modo
                 arts = arts19
                 if previos.get(tras_palabra) and not arts[0][1]:

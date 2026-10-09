@@ -115,7 +115,9 @@ Louvain cambiaría las comunidades sin que cambie el corpus.
 - Las rutas de un `estado.json` bajado de HF son un dato no confiable: solo se aceptan
   `entradas|entidades|grafo/<nombre>.jsonl.gz`, sin subcarpetas ni `..`.
 - Si el mapa quedó publicado pero el PR de su puntero no llegó (falta el token, se cerró…),
-  `estado` lo detecta y la Action rehace solo ese PR con `python -m mapa_corpus puntero`.
+  `estado` lo detecta y la Action rehace solo ese PR con `python -m mapa_corpus puntero`, fijado a
+  la revisión del tag `mapa-<n>` de esa publicación. Mientras haya un PR del puntero abierto que ya
+  apunta al mapa, no se toca.
 
 ## La Action diaria
 

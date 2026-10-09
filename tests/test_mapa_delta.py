@@ -466,12 +466,18 @@ def test_estado_sin_cambios_pero_puntero_atrasado(cli_falso, tmp_path, monkeypat
     monkeypatch.setattr(publicador, "PUNTERO", puntero)
     plan, salida = cli_falso.correr()
     assert plan["cambio"] is False and plan["puntero_pendiente"] is True and "puntero=true" in salida
+    # Con el PR del puntero abierto y apuntando al mapa publicado, no se rehace nada cada día.
+    sha256_publicado = __import__("hashlib").sha256(publicado.read_bytes()).hexdigest()
+    en_pr = tmp_path / "puntero_pr.json"
+    en_pr.write_text(json.dumps({"sha256_estado": sha256_publicado}), encoding="utf-8")
+    assert cli_falso.correr("--puntero-pr", str(en_pr))[0]["puntero_pendiente"] is False
+    # Sin PR abierto se rehace, fijado a la revisión del tag de la publicación (no al HEAD del día).
+    monkeypatch.setattr(publicador, "revision_publicada", lambda estado, bajar, token=None: "t" * 40)
     trabajo = tmp_path / "trabajo"
     assert cli.main(["puntero", "--trabajo", str(trabajo), "--github-output", str(tmp_path / "out2")]) == 0
     nuevo = json.loads(puntero.read_text(encoding="utf-8"))
-    assert nuevo["revision_mapa"] == SHA and nuevo["sha256_estado"] == \
-        __import__("hashlib").sha256(publicado.read_bytes()).hexdigest()
-    assert "revision_mapa=" + SHA in (tmp_path / "out2").read_text(encoding="utf-8")
+    assert nuevo["revision_mapa"] == "t" * 40 and nuevo["sha256_estado"] == sha256_publicado
+    assert "revision_mapa=" + "t" * 40 in (tmp_path / "out2").read_text(encoding="utf-8")
     assert (trabajo / "reporte.md").exists()
     # Con el puntero al día, nada pendiente.
     assert cli_falso.correr()[0]["puntero_pendiente"] is False

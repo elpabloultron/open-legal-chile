@@ -43,6 +43,9 @@ jobs:
   construir:
     runs-on: ubuntu-latest
     timeout-minutes: 150
+    permissions:
+      contents: read
+      pull-requests: read
     outputs:
       cambio: ${{ steps.estado.outputs.cambio }}
       puntero: ${{ steps.estado.outputs.puntero }}
@@ -60,6 +63,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -e ".[dev]" -c mapa_corpus/constraints-constructor.txt
 
+      - name: ¿Hay un PR del puntero abierto?
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Si el mapa ya está en HF y su PR sigue abierto, no se rehace el puntero cada día.
+          mkdir -p "$TRABAJO"
+          abiertos=$(gh pr list --head mapa/puntero --state open --json number --jq 'length' 2>/dev/null || echo 0)
+          if [ "${abiertos:-0}" != "0" ] && git fetch --depth=1 origin mapa/puntero; then
+            git show FETCH_HEAD:mapa_corpus/puntero.json > "$TRABAJO/puntero_pr.json" || rm -f "$TRABAJO/puntero_pr.json"
+          fi
+
       - name: ¿Cambió el dataset?
         id: estado
         env:
@@ -70,6 +84,7 @@ jobs:
           if [ "$MODO_PEDIDO" = "completo" ]; then extra="--sin-base"; fi
           # El cron no hace la primera construcción: esa se lanza a mano (modo completo).
           if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then extra="$extra --requiere-base"; fi
+          if [ -f "$TRABAJO/puntero_pr.json" ]; then extra="$extra --puntero-pr $TRABAJO/puntero_pr.json"; fi
           python -m mapa_corpus estado --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT" $extra
 
       - name: Caché de fuentes por blob (restaurar)

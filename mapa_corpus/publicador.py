@@ -16,7 +16,7 @@ import json
 import logging
 import re
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Callable, Dict, List, Optional
 
 from mapa_corpus import ESQUEMA, REPO_ID, RUTA_HF, particiones
 
@@ -63,6 +63,27 @@ def siguiente_tag(nombres: List[str]) -> str:
     """`mapa-<n>` con n = el mayor publicado + 1 (contar los tags chocaría si alguno se borró)."""
     numeros = [int(m.group(1)) for m in map(re.compile(r"mapa-(\d+)").fullmatch, nombres) if m]
     return f"mapa-{max(numeros, default=0) + 1}"
+
+
+def revision_publicada(estado_bytes: bytes, bajar_estado: Callable[[str], Optional[bytes]],
+                       token: Optional[str] = None, repo_id: str = REPO_ID, api: Any = None,
+                       maximo: int = 5) -> Optional[str]:
+    """El commit del tag `mapa-<n>` más reciente (entre los `maximo` últimos) cuyo estado.json es
+    `estado_bytes`, o None si ninguno calza."""
+    if api is None:
+        from huggingface_hub import HfApi
+        api = HfApi(token=token)
+    tags = []
+    for t in api.list_repo_refs(repo_id, repo_type="dataset").tags or []:
+        m = re.fullmatch(r"mapa-(\d+)", str(t.name))
+        if m:
+            tags.append((int(m.group(1)), str(t.target_commit)))
+    objetivo = hashlib.sha256(estado_bytes).hexdigest()
+    for _, commit in sorted(tags, reverse=True)[:maximo]:
+        datos = bajar_estado(commit)
+        if datos is not None and hashlib.sha256(datos).hexdigest() == objetivo:
+            return commit
+    return None
 
 
 def escribir_puntero(estado_bytes: bytes, revision: Optional[str], ruta: Optional[Path] = None) -> Dict[str, Any]:
