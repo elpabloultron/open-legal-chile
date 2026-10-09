@@ -130,6 +130,8 @@ def sala_id(sala: str) -> Optional[str]:
     if not s:
         return None
     primera = re.split(r"[\s,]+", s)[0]
+    if re.search(r"\bpleno\b", s):  # «TRIBUNAL PLENO», «Pleno»
+        return "sala:cs-pleno"
     if primera in _SALAS:
         return f"sala:{_SALAS[primera]}"
     return f"sala:cs-{slug(s)}"
