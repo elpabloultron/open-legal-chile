@@ -106,6 +106,7 @@ def fila_cs(registro: Dict[str, Any], ruta: str, blob: str, n_bytes: int) -> Opt
         "era": int(str(era)) if str(era or "").isdigit() else int(id_.rsplit("-", 1)[1]),
         "fecha": fecha_iso(registro.get("fecha")),
         "sala": ids.sala_id(_txt(registro.get("sala"))),
+        "sala_txt": _txt(registro.get("sala")),
         "recurso": ids.recurso_id(_txt(registro.get("recurso"))),
         "recurso_txt": _txt(registro.get("recurso")),
         "resultado": _txt(registro.get("resultado")),

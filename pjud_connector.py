@@ -282,23 +282,133 @@ def _cargar_corpus_local() -> List[Dict[str, Any]]:
     return registros
 
 
-def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any]]:
-    """Busca en el corpus local cosechado (Corte Suprema de los últimos dos años y TC completo)
-    por carátula, materia, recurso, resultado y doctrina — insensible a acentos.
+_TRIBUNAL_DE_COLECCION = {"cs": "Corte Suprema", "tc": "Tribunal Constitucional"}
+_RE_TRATAMIENTO_PJUD = re.compile(
+    r"^\s*(?:(?:el|la|los|las)\s+)?(?:ministr[oa]s?|magistrad[oa]s?|juez(?:a|as|es)?|sr\.?|sra\.?|don|doña)\s+",
+    re.IGNORECASE)
+_RE_EXTENDED_TC = re.compile(r"/extended/(\d+)/")
+_TA_DE_TRIBUNAL = {"1ta": "1ta", "2ta": "2ta", "3ta": "3ta", "primer": "1ta", "segundo": "2ta", "tercer": "3ta"}
 
-    Puntúa cada registro por los términos que contiene (los términos largos pesan doble) y
-    devuelve los más específicos y recientes. Los registros salen con `origen="corpus_local"`.
+
+def _id_canonico_registro(registro: Dict[str, Any]) -> Optional[str]:
+    """ID del mapa de un registro del corpus local, para no repetirlo: la CS por su rol, el TC por
+    el documento oficial (`extended/<id>`: la cabecera del registro suele ser de otra causa) y los
+    ambientales por tribunal y rol."""
+    from citas_legales import rol_canonico
+    if registro.get("id_mapa"):
+        return str(registro["id_mapa"])
+    tribunal = _strip_accents(str(registro.get("tribunal") or "").lower())
+    rol = str(registro.get("rol") or "")
+    if "constitucional" in tribunal:
+        oficial = _RE_EXTENDED_TC.search(str(registro.get("link") or ""))
+        return f"tc:{oficial.group(1)}" if oficial else rol_canonico(rol, "tc")
+    if "suprema" in tribunal:
+        return rol_canonico(rol, "cs")
+    for clave, ta in _TA_DE_TRIBUNAL.items():
+        if tribunal.startswith(clave):
+            return rol_canonico(rol, ta)
+    return None
+
+
+def _registro_de_fila_mapa(cliente: Any, fila: Dict[str, Any]) -> Dict[str, Any]:
+    """Una entrada del mapa (CS, TC o ambiental) con las claves de los registros del corpus local,
+    más la URL del archivo fijada a la revisión de la fuente y la vigente."""
+    from mapa_corpus.grafo import ORGANOS
+    col = str(fila.get("col") or "")
+    tribunal = _TRIBUNAL_DE_COLECCION.get(col, "")
+    if not tribunal and fila.get("tribunal"):
+        tribunal = ORGANOS.get(str(fila["tribunal"]), str(fila["tribunal"]))
+    # El rol de la fila o, si no viene, el de su ID canónico («ta:3ta:r-21-2021» → R-21-2021).
+    rol = str(fila.get("rol") or str(fila.get("id") or "").rsplit(":", 1)[-1])
+    if col == "ta":
+        rol = rol.upper()
+    ruta = str(fila.get("ruta") or "")
+    url = cliente.url(ruta) if ruta else ""
+    return {
+        "tribunal": tribunal,
+        "sala": str(fila.get("sala_txt") or ""),
+        "rol": rol,
+        "fecha": str(fila.get("fecha") or ""),
+        "caratula": str(fila.get("titulo") or ""),
+        "materia": str(fila.get("materia") or fila.get("recurso_txt") or fila.get("tipo") or ""),
+        "resultado": str(fila.get("resultado") or fila.get("resuelve") or ""),
+        "ministros": ", ".join(fila.get("ministros_txt") or []),
+        "resumen": str(fila.get("resumen") or ""),
+        "link": url,
+        "url_huggingface": url,
+        "url_vigente": cliente.url(ruta, fijada=False) if ruta else "",
+        "archivo_md": ruta,
+        "id_mapa": str(fila.get("id") or ""),
+        "origen": "mapa_hf",
+    }
+
+
+def _sentencias_del_mapa(query: str, limit: int) -> List[Dict[str, Any]]:
+    """Sentencias del mapa del corpus de HF: el rol exacto, los fallos de un ministro, una sala, un
+    recurso o un tribunal nombrados en la consulta, y después la búsqueda de texto en la CS, el TC
+    y los tribunales ambientales. Sin mapa listo, vacío. Nunca usa la red."""
+    try:
+        from citas_legales import resolver_consulta
+        from online_library_sync import _ids_de_entidad, cliente_mapa
+        cliente = cliente_mapa()
+        if cliente is None:
+            return []
+        colecciones = ["cs", "tc", "ta"]
+        filas: List[Dict[str, Any]] = []
+        for id_ in resolver_consulta(query):
+            if id_.startswith(("cs:", "tc:", "ta:")):
+                fila = cliente.entrada(id_)
+                if fila:
+                    filas.append(fila)
+        nombre = _RE_TRATAMIENTO_PJUD.sub("", query).strip()
+        entidades = [e for e in (_ids_de_entidad(cliente, nombre) if nombre else [])
+                     if e.startswith(("ministro:", "sala:", "recurso:", "tribunal:", "organo:"))]
+        if entidades:
+            filas += cliente.citantes(entidades, colecciones, limite=limit)[0]
+        if len(filas) < limit:
+            filas += cliente.buscar(query, colecciones, limite=limit)
+        salida: List[Dict[str, Any]] = []
+        vistos: set = set()
+        for fila in filas:
+            if fila.get("id") in vistos or fila.get("col") not in colecciones:
+                continue
+            vistos.add(fila.get("id"))
+            salida.append(_registro_de_fila_mapa(cliente, fila))
+            if len(salida) >= limit:
+                break
+        return salida
+    except Exception:  # noqa: BLE001 — sin mapa la búsqueda sigue con el corpus local
+        return []
+
+
+def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any]]:
+    """Busca en el mapa del corpus de Hugging Face (si está listo) y en el corpus local cosechado
+    (Corte Suprema de los últimos dos años y TC completo) por carátula, materia, recurso, resultado
+    y doctrina — insensible a acentos.
+
+    Primero lo que resuelve el mapa (rol exacto, fallos de un ministro o una sala, texto), con
+    `origen="mapa_hf"` y la URL fijada a la revisión de la fuente; después el corpus local, sin
+    repetir una causa que el mapa ya trajo. Del corpus local, cada registro se puntúa por los
+    términos que contiene (los términos largos pesan doble) y salen los más específicos y
+    recientes, con `origen="corpus_local"`.
     """
+    del_mapa = _sentencias_del_mapa(query, limit)
+    vistos_mapa = {r["id_mapa"] for r in del_mapa if r.get("id_mapa")}
     try:
         registros = _cargar_corpus_local()
-    except Exception:  # noqa: BLE001 — sin corpus se devuelve vacío, no se cae la búsqueda
-        return []
+    except Exception:  # noqa: BLE001 — sin corpus se devuelve lo del mapa, no se cae la búsqueda
+        return del_mapa
     if not registros:
-        return []
+        return del_mapa
+    if vistos_mapa:
+        registros = [r for r in registros if _id_canonico_registro(r) not in vistos_mapa]
+    if len(del_mapa) >= limit:
+        return del_mapa[:limit]
+    limit -= len(del_mapa)
     q_norm = _strip_accents(query.lower().strip())
     tokens = [t for t in q_norm.split() if len(t) > 2]
     if not tokens:
-        return []
+        return del_mapa
     minimo = 2 if len(tokens) > 1 else 1
     puntuados: List[Any] = []
     for registro in registros:
@@ -316,7 +426,7 @@ def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any
         limpio = {k: v for k, v in registro.items() if k != "_texto"}
         limpio["origen"] = "corpus_local"
         salida.append(limpio)
-    return salida
+    return del_mapa + salida
 
 
 class PJUDClient:
@@ -617,7 +727,9 @@ class PJUDClient:
                     "doctrina": _resumen_registro(s, tokens),
                     "normas": s.get("normas") or s.get("precepto") or "",
                     "link": s.get("link") or s.get("link_detalle") or s.get("link_pdf") or "",
-                    "origen": "corpus_local",
+                    "origen": s.get("origen") or "corpus_local",
+                    **{k: s[k] for k in ("url_huggingface", "url_vigente", "id_mapa", "resultado", "ministros")
+                       if s.get(k)},
                 })
                 if len(results) >= limit:
                     break
