@@ -12,10 +12,18 @@ Compatible con el esquema Node-Link de NetworkX y Graphify Labs.
 
 import os
 import re
+import sys
 import json
+import gzip
+import hashlib
+import functools
+import itertools
+import threading
+import time
 import unicodedata
 from collections import Counter, defaultdict
-from typing import Dict, Any, List, Optional, Set, Tuple
+from pathlib import Path
+from typing import Dict, Any, Callable, Iterator, List, Optional, Set, Tuple, TypeVar, Union, cast
 
 import networkx as nx
 
@@ -23,6 +31,218 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DOCTRINA_DIR = os.path.join(BASE_DIR, "doctrina")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 DEFAULT_GRAPH_PATH = os.path.join(DATA_DIR, "legal_knowledge_graph.json")
+# El artefacto versionado tal como lo fija el repositorio: aunque una prueba reapunte
+# DEFAULT_GRAPH_PATH, volcar la capa del mapa aquí sigue prohibido (ver guardar_grafo_json).
+_GRAFO_VERSIONADO = DEFAULT_GRAPH_PATH
+
+# ── Capa del mapa del corpus de Hugging Face (mapa_corpus/) ──────────────────────────────────
+# Marca de los nodos y aristas que vienen del mapa (atributo `capa`). Lo curado no la lleva.
+CAPA_MAPA = "mapa"
+# Vecinos de la capa del mapa que entran al subgrafo por nodo y por salto: una norma como el
+# Código Civil tiene miles (sus artículos y los documentos que la citan). Los vecinos curados
+# entran siempre, así que la ficha de una institución curada no cambia con el mapa cargado.
+TOPE_VECINOS_POR_SALTO = 30
+# Elementos por lista en la ficha de un nodo del mapa (el total de cada lista va al lado).
+TOPE_LISTA_FICHA = 8
+# Fallos de la Corte Suprema que se materializan por consulta (el total se informa igual).
+TOPE_FALLOS_CS = 10
+# Nodos de un diagrama Mermaid: con más que esto el diagrama no se lee.
+TOPE_NODOS_MERMAID = 60
+
+# Tipos de nodo que trae el mapa: con qué clave los nombra la ficha, cómo se titulan en la
+# explicación y si sus fallos de la Corte Suprema se traen del índice. Los 70 mil fallos de la CS
+# no son nodos del grafo: se materializan por consulta (ver _vista_consulta).
+_TIPOS_FICHA: Dict[str, Dict[str, Any]] = {
+    "norma": {"clave": "norma", "titulo": "Norma", "fallos_cs": True},
+    "ministro": {"clave": "ministro", "titulo": "Ministro", "fallos_cs": True},
+    "sala": {"clave": "sala", "titulo": "Sala de la Corte Suprema", "fallos_cs": True},
+    "recurso": {"clave": "recurso", "titulo": "Recurso", "fallos_cs": True},
+    "tribunal": {"clave": "tribunal", "titulo": "Tribunal", "fallos_cs": False},
+    "organo": {"clave": "organo", "titulo": "Órgano", "fallos_cs": False},
+    "autor": {"clave": "autor", "titulo": "Autor", "fallos_cs": False},
+    "revista": {"clave": "revista", "titulo": "Revista", "fallos_cs": False},
+    "documento": {"clave": "documento", "titulo": "Documento", "fallos_cs": False},
+    "guia": {"clave": "guia", "titulo": "Guía de la Academia Judicial", "fallos_cs": False},
+    "estudio": {"clave": "estudio", "titulo": "Estudio ambiental", "fallos_cs": False},
+    "publicacion": {"clave": "publicacion", "titulo": "Publicación ambiental", "fallos_cs": False},
+    "sentencia_tc": {"clave": "sentencia_tc", "titulo": "Sentencia del Tribunal Constitucional", "fallos_cs": False},
+    "sentencia_ta": {"clave": "sentencia_ta", "titulo": "Sentencia de un Tribunal Ambiental", "fallos_cs": False},
+    "sentencia_cs": {"clave": "sentencia_cs", "titulo": "Fallo de la Corte Suprema", "fallos_cs": False},
+}
+# Colección de una entrada del mapa → tipo de nodo, para materializar una entrada que no es nodo.
+_TIPO_DE_COLECCION = {"cs": "sentencia_cs", "tc": "sentencia_tc", "ta": "sentencia_ta", "doc": "documento",
+                      "guia": "guia", "bib": "estudio", "pub": "publicacion"}
+# Campo de una entrada → relación con que se materializa la arista hacia la entidad citada.
+_RELACION_DE_CAMPO = {
+    "ministros": "integrado_por", "sala": "resuelto_por", "tribunal": "resuelto_por",
+    "recurso": "resuelve_recurso", "origen": "proviene_de", "redactor": "redactado_por",
+    "normas": "cita_norma", "autores": "escrito_por", "revista": "publicado_en",
+    "cita_cs": "cita_rol", "cita_tc": "cita_rol", "cita_ta": "cita_rol",
+    "gestion_cs": "gestion_pendiente", "acumuladas": "acumula",
+}
+# Lista de la ficha según la relación y su sentido ("sale": del nodo al vecino; "entra": al revés).
+# El orden de esta tabla es el orden de las listas en la ficha; lo que no figura va a vinculos_subgrafo.
+_CLAVES_RELACION: Dict[Tuple[str, str], str] = {
+    ("parte_de", "sale"): "parte_de",
+    ("parte_de", "entra"): "articulos_y_numerales",
+    ("resuelto_por", "sale"): "resuelto_por",
+    ("resuelve_recurso", "sale"): "recurso",
+    ("proviene_de", "sale"): "tribunal_de_origen",
+    ("integrado_por", "sale"): "integrado_por",
+    ("redactado_por", "sale"): "redactado_por",
+    ("escrito_por", "sale"): "autores",
+    ("publicado_en", "sale"): "revista",
+    ("cita_norma", "sale"): "normas_citadas",
+    ("cita_rol", "sale"): "roles_citados",
+    ("gestion_pendiente", "sale"): "gestion_pendiente",
+    ("acumula", "sale"): "acumula",
+    ("integra_sala", "sale"): "salas",
+    ("integra_sala", "entra"): "ministros",
+    ("conoce_recurso", "sale"): "recursos",
+    ("conoce_recurso", "entra"): "salas_que_lo_conocen",
+    ("eleva_a", "sale"): "eleva_a",
+    ("eleva_a", "entra"): "tribunales_de_origen",
+    ("equivale_a", "sale"): "via_procesal",
+    ("equivale_a", "entra"): "recursos_equivalentes",
+    ("cita_norma", "entra"): "citada_por",
+    ("cita_rol", "entra"): "citado_por",
+    ("resuelto_por", "entra"): "sentencias",
+    ("integrado_por", "entra"): "sentencias_que_integra",
+    ("redactado_por", "entra"): "sentencias_que_redacta",
+    ("escrito_por", "entra"): "obras",
+    ("publicado_en", "entra"): "articulos",
+    ("gestion_pendiente", "entra"): "requerimientos_tc",
+    ("acumula", "entra"): "acumulada_en",
+    ("mismo_documento", "sale"): "documento_oficial",
+    ("mismo_documento", "entra"): "fichas_curadas",
+    ("mismo_archivo", "sale"): "documento_oficial",
+    ("mismo_archivo", "entra"): "fichas_curadas",
+    ("refiere_a", "sale"): "fallo_del_corpus",
+    ("refiere_a", "entra"): "fichas_curadas",
+    ("fundamenta_en", "entra"): "instituciones",
+    ("contenido_en", "entra"): "instituciones",
+    ("analizado_por", "entra"): "instituciones",
+    ("aplica_norma", "entra"): "aplicada_en",
+}
+_ORDEN_CLAVES = {clave: i for i, clave in enumerate(dict.fromkeys(_CLAVES_RELACION.values()))}
+_TIPOS_NORMA = ("norma", "articulo_legal", "cuerpo_legal")
+_TIPOS_SENTENCIA = ("sentencia_cs", "sentencia_tc", "sentencia_ta", "jurisprudencia", "jurisprudencia_tc",
+                    "jurisprudencia_cs", "sentencia_judicial")
+# Títulos que se quitan antes de buscar a una persona por su nombre («ministra María Gajardo Harboe»).
+_RE_TRATAMIENTO = re.compile(r"^(?:(?:el|la)\s+)?(?:ministr[oa]|magistrad[oa]|juez[a]?|sr\.?|sra\.?|don|dona)\s+")
+# Sentinela de _buscar_en_mapa: la consulta es un rol que el mapa no tiene (no seguir buscando).
+_ROL_INEXISTENTE = "\x00rol-inexistente"
+
+# Valor previo «no estaba» de un atributo curado que la capa del mapa pisó (para restaurarlo).
+_AUSENTE = object()
+
+_F = TypeVar("_F", bound=Callable[..., Any])
+
+
+class GrafoConCapaMapaError(RuntimeError):
+    """El grafo en memoria trae la capa del mapa: no se puede volcar al artefacto versionado."""
+
+
+def _es_grafo_versionado(ruta: str) -> bool:
+    """¿Es `ruta` el artefacto versionado del repositorio (o el que DEFAULT_GRAPH_PATH fija ahora)?"""
+    destino = os.path.normcase(os.path.abspath(ruta))
+    return destino in {os.path.normcase(os.path.abspath(p)) for p in (DEFAULT_GRAPH_PATH, _GRAFO_VERSIONADO)}
+
+
+def _con_cerrojo(metodo: _F) -> _F:
+    """Serializa con el RLock del motor las cargas y los cambios del grafo y de sus índices.
+
+    Las consultas no lo toman: leen el grafo vigente, que la carga de la capa del mapa reemplaza
+    de una sola vez (copia y cambio), así que nunca ven un grafo a medio armar. Cada llamada sube
+    la versión del grafo, que invalida las cachés derivadas (la vista no dirigida de los caminos).
+    """
+    @functools.wraps(metodo)
+    def envoltura(self: "LegalGraphifyEngine", *args: Any, **kwargs: Any) -> Any:
+        with self._lock:
+            try:
+                return metodo(self, *args, **kwargs)
+            finally:
+                self._version += 1
+    return cast(_F, envoltura)
+
+
+def _filas_gz(ruta: Path) -> Iterator[Dict[str, Any]]:
+    """Filas de una partición del mapa (JSONL comprimido), leídas de a una: la de citas a normas
+    tiene 113 mil filas y armarlas todas en una lista antes de usarlas costaba ~30 MB más."""
+    with gzip.open(ruta, "rt", encoding="utf-8") as f:
+        for linea in f:
+            if linea.strip():
+                yield json.loads(linea)
+
+
+def _copiar_digrafo(g: nx.DiGraph, sin_capa: bool = False) -> nx.DiGraph:
+    """Copia de un DiGraph que conserva el orden de sucesores Y de predecesores.
+
+    `nx.DiGraph.copy()` rehace los predecesores en el orden de los nodos de origen, y
+    `_buscar_nodo_relevante` usa el primer predecesor: con una copia común, cargar el mapa podía
+    cambiar a qué institución se resuelve una norma curada. Con `sin_capa` deja fuera los nodos y
+    las aristas de la capa del mapa. Los atributos de lo curado se copian (diccionarios nuevos).
+    """
+    h = nx.DiGraph()
+    h.graph.update(g.graph)
+    for n, d in g._node.items():
+        if sin_capa and d.get("capa") == CAPA_MAPA:
+            continue
+        h._node[n] = dict(d)
+        h._succ[n] = {}
+        h._pred[n] = {}
+    for u, vecinos in g._succ.items():
+        if u not in h._node:
+            continue
+        destino = h._succ[u]
+        for v, d in vecinos.items():
+            if v not in h._node or (sin_capa and d.get("capa") == CAPA_MAPA):
+                continue
+            destino[v] = d if d.get("capa") == CAPA_MAPA else dict(d)
+    for v, vecinos in g._pred.items():
+        if v not in h._node:
+            continue
+        origen = h._pred[v]
+        for u in vecinos:
+            datos = h._succ.get(u, {}).get(v)
+            if datos is not None:
+                origen[u] = datos
+    return h
+
+
+def _ids_de_consulta(query: str) -> List[str]:
+    """IDs canónicos a los que apunta una consulta (`citas_legales.resolver_consulta`). Una
+    consulta que es un solo rol con la palabra «rol» («Rol N° 4.321-2020») se resuelve también con
+    `rol_canonico`: resolver_consulta no la reconoce cuando el «N°» va sin contexto de tribunal."""
+    try:
+        from citas_legales import resolver_consulta, rol_canonico
+    except ImportError:  # pragma: no cover — viaja en el mismo paquete
+        return []
+    ids = resolver_consulta(query)
+    if not ids and re.search(r"\brol\b", query, re.IGNORECASE):
+        canonico = rol_canonico(query.strip())
+        ids = [canonico] if canonico else []
+    return ids
+
+
+def _fecha_desc(fecha: str) -> Tuple[int, Tuple[int, ...]]:
+    """Clave de orden para fechas ISO de la más reciente a la más antigua; sin fecha, al final."""
+    return (0, tuple(-ord(c) for c in fecha)) if fecha else (1, ())
+
+
+def _miles(n: int) -> str:
+    return f"{n:,}".replace(",", ".")
+
+
+def cita_fallo_cs(fila: Dict[str, Any]) -> str:
+    """Corchete oficial de un fallo de la Corte Suprema del mapa: «[CS - Rol N° 1.234-2023, Fecha:
+    10-05-2023]». Sin fecha registrada, el corchete va sin ella (no se inventa)."""
+    rol = str(fila.get("rol") or str(fila.get("id", "")).split(":", 1)[-1])
+    m = re.fullmatch(r"(\d+)-(\d{4})", rol)
+    rol_fmt = f"{_miles(int(m.group(1)))}-{m.group(2)}" if m else rol
+    fecha = str(fila.get("fecha") or "")
+    mf = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", fecha)
+    return f"[CS - Rol N° {rol_fmt}, Fecha: {mf.group(3)}-{mf.group(2)}-{mf.group(1)}]" if mf else f"[CS - Rol N° {rol_fmt}]"
 
 
 def _normalize_str(text: str) -> str:
@@ -102,7 +322,7 @@ class LegalGraphifyEngine:
     tratadistas y vías procesales desde los 58 manuales y tratados.
     """
 
-    def __init__(self, doctrina_dir: str = DOCTRINA_DIR):
+    def __init__(self, doctrina_dir: str = DOCTRINA_DIR, usar_mapa: bool = False):
         self.doctrina_dir = doctrina_dir
         self.graph = nx.DiGraph()
         self.instituciones_index: Dict[str, str] = {}  # norm_name -> node_id
@@ -116,7 +336,30 @@ class LegalGraphifyEngine:
         # es Node-Link, se reconstruye desde doctrina/ — y quien consulta merece saberlo,
         # porque entonces la respuesta ya no viene del artefacto que creía estar usando.
         self.advertencias: List[str] = []
+        # De dónde viene el grafo en memoria: "repo" (el artefacto curado más lo ingerido en esta
+        # sesión) o "mapa" (con la capa del mapa del corpus superpuesta, ver cargar_capa_mapa).
+        self.origen_grafo = "repo"
+        # Con `usar_mapa`, la primera consulta que lo necesita sube la capa del mapa si el cliente
+        # tiene una revisión lista (sin red y sin esperar). Lo usa el motor compartido del proceso;
+        # un motor suelto (conectores, scripts, pruebas) se comporta como siempre.
+        self.usar_mapa = usar_mapa
+        # Cliente del mapa inyectable (pruebas); por defecto, el compartido del proceso.
+        self.cliente_mapa: Any = None
+        self._lock = threading.RLock()
+        self._version = 0
+        self._cache_no_dirigido: Optional[Tuple[Tuple[int, int, int, int], nx.Graph]] = None
+        self._reiniciar_estado_mapa()
 
+    def _reiniciar_estado_mapa(self) -> None:
+        """Olvida la capa del mapa: el grafo en memoria vuelve a ser solo el del repositorio."""
+        self.origen_grafo = "repo"
+        self._capa: Dict[str, Any] = {}                 # firma y resumen de la capa cargada
+        self._canon_a_curado: Dict[str, str] = {}       # ID canónico del mapa -> nodo curado que lo lleva
+        self._alias_mapa: Dict[str, str] = {}           # ID curado legado -> ID canónico del mapa
+        self._label_mapa: Dict[str, str] = {}           # etiqueta normalizada -> nodo de la capa
+        self._previas_mapa: Dict[str, Dict[str, Any]] = {}  # atributos curados que la capa pisó
+
+    @_con_cerrojo
     def _actualizar_indice_invertido(self) -> None:
         """Construye índices invertidos en memoria O(1) para resolución ultra-rápida de nodos."""
         self._label_index.clear()
@@ -126,7 +369,13 @@ class LegalGraphifyEngine:
             self._indexar_nodo(nid, d)
 
     def _indexar_nodo(self, nid: str, d: Dict[str, Any]) -> None:
-        """Registra un nodo en los índices invertidos (etiqueta y palabras de la definición)."""
+        """Registra un nodo en los índices invertidos (etiqueta y palabras de la definición).
+
+        Los nodos de la capa del mapa no entran: tienen su propio índice exacto (_label_mapa) y su
+        búsqueda de texto (el FTS del mapa); mezclarlos aquí cambiaría a qué institución curada se
+        resuelve una consulta en prosa."""
+        if d.get("capa") == CAPA_MAPA:
+            return
         lbl_norm = _normalize_str(d.get("label", ""))
         if lbl_norm:
             self._label_index[lbl_norm] = nid
@@ -229,7 +478,7 @@ class LegalGraphifyEngine:
                 tokens_archivo=tokens_archivo_total,
                 community=1
             )
-        self.graph.add_edge(obra_id, autor_id, relation="escrito_por", weight=1.0)
+        self._agregar_arista(obra_id, autor_id, relation="escrito_por", weight=1.0)
 
         # Dividir por secciones
         secciones = re.split(r"\n##\s+(?:🏛️\s*)?", body)
@@ -316,8 +565,8 @@ class LegalGraphifyEngine:
             self.instituciones_index[_normalize_str(titulo.replace("🏛️", "").strip())] = inst_id
 
             # Conectar Institución -> Autor y Obra
-            self.graph.add_edge(inst_id, autor_id, relation="analizado_por", weight=1.0)
-            self.graph.add_edge(inst_id, obra_id, relation="contenido_en", weight=1.0)
+            self._agregar_arista(inst_id, autor_id, relation="analizado_por", weight=1.0)
+            self._agregar_arista(inst_id, obra_id, relation="contenido_en", weight=1.0)
 
             # Procesar y conectar Normas Legales
             normas_vistas: Set[str] = set()
@@ -341,7 +590,7 @@ class LegalGraphifyEngine:
                     )
                     self.normas_index[_normalize_str(clean_norm)] = norm_id
 
-                self.graph.add_edge(inst_id, norm_id, relation="fundamenta_en", weight=1.0)
+                self._agregar_arista(inst_id, norm_id, relation="fundamenta_en", weight=1.0)
 
             # Procesar y conectar Jurisprudencia CS
             fallos_vistos: Set[str] = set()
@@ -362,7 +611,7 @@ class LegalGraphifyEngine:
                         source_file=rel_path,
                         community=3
                     )
-                self.graph.add_edge(inst_id, fallo_id, relation="criterio_jurisprudencial", weight=1.0)
+                self._agregar_arista(inst_id, fallo_id, relation="criterio_jurisprudencial", weight=1.0)
 
             # Extraer y conectar Vías Procesales
             if operativa_procesal:
@@ -383,14 +632,28 @@ class LegalGraphifyEngine:
                             source_file=rel_path,
                             community=4
                         )
-                    self.graph.add_edge(inst_id, via_id, relation="via_procesal", weight=1.0)
+                    self._agregar_arista(inst_id, via_id, relation="via_procesal", weight=1.0)
 
         return tocados, total_secciones
 
+    def _agregar_arista(self, u: str, v: str, **atributos: Any) -> None:
+        """`add_edge` que no actualiza en el lugar una arista de la capa del mapa.
+
+        Los atributos de esas aristas son diccionarios compartidos entre muchas (ver
+        cargar_capa_mapa): `add_edge` sobre una existente los actualiza en el lugar y cambiaría
+        cientos de aristas a la vez. Si lo curado afirma la arista, pasa a ser curada y propia.
+        Sin mapa es exactamente `add_edge`."""
+        previa = self.graph.get_edge_data(u, v)
+        if previa is not None and previa.get("capa") == CAPA_MAPA:
+            self.graph.remove_edge(u, v)
+        self.graph.add_edge(u, v, **atributos)
+
+    @_con_cerrojo
     def construir_grafo_desde_doctrina(self) -> Dict[str, Any]:
         """
         Escanea el directorio de doctrina e indexa todas las entidades dogmáticas y relaciones.
         """
+        self._reiniciar_estado_mapa()
         self.graph.clear()
         self.instituciones_index.clear()
         self.normas_index.clear()
@@ -474,6 +737,7 @@ class LegalGraphifyEngine:
                                 weight=0.8
                             )
 
+    @_con_cerrojo
     def incorporar_archivo_doctrina(self, filepath: str) -> Dict[str, Any]:
         """
         Agrega al grafo ya cargado los nodos y aristas de un solo archivo de doctrina.
@@ -542,17 +806,32 @@ class LegalGraphifyEngine:
         if q_norm in self.graph:
             return q_norm
 
+        # 0.5 Con la capa del mapa: alias e índice exacto (un rol o una norma citados como tales).
+        # Un rol que el mapa no tiene no existe en el corpus: se responde «no encontrado» de
+        # inmediato, en vez de recorrer el texto de toda la doctrina (~12 s) para terminar
+        # devolviendo una institución cualquiera que menciona el número.
+        if self.origen_grafo == CAPA_MAPA:
+            en_mapa = self._buscar_en_mapa(query)
+            if en_mapa == _ROL_INEXISTENTE:
+                return None
+            if en_mapa:
+                return en_mapa
+
         # 1. Coincidencia exacta O(1) en instituciones
         if q_norm in self.instituciones_index:
             return self.instituciones_index[q_norm]
 
+        # 1.5 Con la capa del mapa: nombre exacto de una entidad del mapa (un ministro, una sala,
+        # una revista, una norma por su etiqueta), con o sin el tratamiento («ministra …»).
+        if self.origen_grafo == CAPA_MAPA:
+            for clave in dict.fromkeys((q_norm, _RE_TRATAMIENTO.sub("", q_norm))):
+                if clave in self._label_mapa and self._label_mapa[clave] in self.graph:
+                    return self._label_mapa[clave]
+
         # 2. Coincidencia en normas
         for name, nid in self.normas_index.items():
             if q_norm in name:
-                preds = list(self.graph.predecessors(nid))
-                if preds:
-                    return preds[0]
-                return nid
+                return self._primer_predecesor(nid) or nid
 
         # 2.5 Coincidencia por contención o todas las palabras en instituciones canónicas
         # Prioriza la entidad dogmática con mayor grado y penaliza fragmentos no normalizados
@@ -563,7 +842,7 @@ class LegalGraphifyEngine:
             for name, nid in self.instituciones_index.items():
                 if q_norm in name or (len(palabras_q_list) > 1 and all(w in name for w in palabras_q_list)):
                     if self.graph.has_node(nid):
-                        deg = self.graph.degree(nid)
+                        deg = self._grado_curado(nid)
                         score = deg * 10
                         if q_norm in name:
                             score += 5
@@ -579,22 +858,22 @@ class LegalGraphifyEngine:
             if q_norm in self._label_index:
                 nid = self._label_index[q_norm]
                 if self.graph.nodes[nid].get("node_type") == "via_procesal":
-                    preds = list(self.graph.predecessors(nid))
-                    if preds:
-                        return preds[0]
+                    primero = self._primer_predecesor(nid)
+                    if primero:
+                        return primero
                 return nid
 
             for lbl_norm, nid in self._label_index.items():
                 if q_norm in lbl_norm:
                     if self.graph.has_node(nid):
-                        deg = self.graph.degree(nid)
+                        deg = self._grado_curado(nid)
                         score = deg * 10
                         target_nid = nid
                         if self.graph.nodes[nid].get("node_type") == "via_procesal":
-                            preds = list(self.graph.predecessors(nid))
-                            if preds:
-                                target_nid = preds[0]
-                                deg = self.graph.degree(target_nid)
+                            primero = self._primer_predecesor(nid)
+                            if primero:
+                                target_nid = primero
+                                deg = self._grado_curado(target_nid)
                                 score = deg * 10
                         if lbl_norm.startswith(("id_", "1", "2", "3", "4", "5", "6", "7", "8", "9", "pregunta", "parte ")):
                             score -= 50
@@ -620,7 +899,7 @@ class LegalGraphifyEngine:
             max_score = max(candidatos_score.values())
             # Desempate determinista: mayor grado y luego orden alfabético
             mejores = [nid for nid, sc in candidatos_score.items() if sc == max_score]
-            mejores.sort(key=lambda nid: (-self.graph.degree(nid), nid))
+            mejores.sort(key=lambda nid: (-self._grado_curado(nid), nid))
             return mejores[0]
 
         # 4. Último recurso: el término puede no nombrar ningún nodo y, aun así, ser el
@@ -628,13 +907,131 @@ class LegalGraphifyEngine:
         # ninguna institución). Se busca en el TEXTO del corpus y se avisa de dónde salió.
         return self._buscar_por_corpus(query)
 
+    # ── Resolución con la capa del mapa ──────────────────────────────────────────────────────
+    def _es_del_mapa(self, datos: Dict[str, Any]) -> bool:
+        """Un nodo de la capa del mapa, o un nodo curado que lleva un ID canónico del mapa."""
+        return datos.get("capa") == CAPA_MAPA or "id_mapa" in datos
+
+    def _primer_predecesor(self, nid: str) -> Optional[str]:
+        """El primer predecesor de un nodo (la institución que se funda en una norma, la que usa una
+        vía). Sin mapa es `predecessors(nid)[0]`, como siempre; con la capa cargada se descartan
+        los predecesores del mapa (documentos, recursos) y se prefiere una institución curada."""
+        preds = list(self.graph.predecessors(nid))
+        if self.origen_grafo == CAPA_MAPA:
+            curados = [p for p in preds if self.graph.nodes[p].get("capa") != CAPA_MAPA]
+            preds = [p for p in curados if self.graph.nodes[p].get("node_type") == "institucion"] or curados
+        return preds[0] if preds else None
+
+    def _grado_curado(self, nid: str) -> int:
+        """Grado del nodo sin contar las aristas de la capa del mapa: ordena candidatos curados
+        igual con o sin el mapa (una norma curada con 800 citas del mapa no le gana a una institución)."""
+        if self.origen_grafo != CAPA_MAPA:
+            return int(self.graph.degree(nid))
+        g = self.graph
+        return sum(1 for d in itertools.chain(g.succ[nid].values(), g.pred[nid].values())
+                   if d.get("capa") != CAPA_MAPA)
+
+    def _cliente_activo(self) -> Any:
+        """El cliente del mapa si tiene una revisión lista, o None. Nunca usa la red."""
+        cliente = self.cliente_mapa
+        if cliente is None:
+            try:
+                from mapa_corpus.cliente import obtener_cliente
+            except ImportError:
+                return None
+            cliente = obtener_cliente()
+        try:
+            if not cliente.habilitado or cliente.indice() is None:
+                return None
+        except Exception:  # noqa: BLE001 — una caché ilegible deja al grafo como sin mapa
+            return None
+        return cliente
+
+    def _nodo_de_id(self, id_: str) -> Optional[str]:
+        """Nodo del grafo que corresponde a un ID (canónico del mapa, legado curado o propio)."""
+        if id_ in self.graph:
+            return id_
+        curado = self._canon_a_curado.get(id_)
+        if curado and curado in self.graph:
+            return curado
+        canonico = self._alias_mapa.get(id_)
+        if canonico and canonico != id_:
+            if canonico in self.graph:
+                return canonico
+            curado = self._canon_a_curado.get(canonico)
+            if curado and curado in self.graph:
+                return curado
+        return None
+
+    def _buscar_en_mapa(self, query: str) -> Optional[str]:
+        """Paso exacto con la capa del mapa: alias e IDs canónicos de `resolver_consulta`.
+
+        Devuelve el nodo; el ID canónico de una entrada del índice que no es nodo (un fallo de la
+        CS que nadie cita: se materializa en la vista de la consulta); `_ROL_INEXISTENTE` si la
+        consulta es solo roles y ninguno está en el mapa; o None para seguir con el flujo común
+        (prosa, o una norma que el mapa no registra)."""
+        directo = self._nodo_de_id(query.strip())
+        if directo:
+            return directo
+        ids = _ids_de_consulta(query)
+        if not ids:
+            return None
+        cliente = self._cliente_activo()
+        for id_ in ids:
+            nodo = self._nodo_de_id(id_)
+            if nodo:
+                return nodo
+            fila = cliente.entrada(id_) if cliente is not None else None
+            if fila:
+                nodo = self._nodo_de_id(str(fila.get("id") or ""))
+                if nodo:
+                    return nodo
+                if fila.get("col") in _TIPO_DE_COLECCION:
+                    return str(fila["id"])
+        if all(i.startswith(("cs:", "tc:", "ta:")) for i in ids):
+            return _ROL_INEXISTENTE
+        return None
+
+    def _buscar_por_texto_mapa(self, query: str) -> Optional[str]:
+        """Último paso con la capa del mapa: búsqueda de texto (FTS) en las 80 mil entradas.
+        Devuelve el nodo (o la entrada materializable) mejor ranqueado y deja el aviso de que la
+        coincidencia es de texto."""
+        cliente = self._cliente_activo()
+        if cliente is None:
+            return None
+        filas = cliente.buscar(query, limite=10)
+        for fila in filas:
+            id_ = str(fila.get("id") or "")
+            elegido = self._nodo_de_id(id_) or (id_ if fila.get("col") in _TIPO_DE_COLECCION else None)
+            if not elegido:
+                continue
+            etiqueta = (self.graph.nodes[elegido].get("label") if elegido in self.graph else None) or fila.get("titulo") or elegido
+            aviso = (
+                f"'{query}' no es el nombre de ningún nodo del grafo, pero aparece en el texto de "
+                f"{len(filas)} archivo(s) del mapa del corpus de Hugging Face: se resolvió al mejor "
+                f"ranqueado ('{etiqueta}'). La coincidencia es de TEXTO, no de nombre: revisa el "
+                "subgrafo antes de citarlo."
+            )
+            if aviso not in self.advertencias:
+                self.advertencias.append(aviso)
+            return elegido
+        return None
+
     def _buscar_por_corpus(self, query: str) -> Optional[str]:
         """
         Resuelve una consulta que no calza con ningún nodo buscándola en el texto de las obras.
         Devuelve la institución mejor conectada entre las obras que la mencionan, y deja un
         aviso: la coincidencia es de texto, no de nombre. Preferible a responder "no encontrado"
-        cuando el tema sí está en la doctrina.
+        cuando el tema sí está en la doctrina. Con la capa del mapa cargada, si la doctrina local
+        no lo tiene, se busca además en el texto indexado del mapa (FTS), con el mismo aviso.
         """
+        elegido = self._buscar_por_corpus_doctrina(query)
+        if elegido is None and self.origen_grafo == CAPA_MAPA and len(_normalize_str(query)) >= 4:
+            elegido = self._buscar_por_texto_mapa(query)
+        return elegido
+
+    def _buscar_por_corpus_doctrina(self, query: str) -> Optional[str]:
+        """El recorrido de siempre por el texto de doctrina/ (ver _buscar_por_corpus)."""
         q_norm = _normalize_str(query)
         if len(q_norm) < 4:
             return None
@@ -667,7 +1064,7 @@ class LegalGraphifyEngine:
         # procesos. Hoy hay un máximo único, pero el orden no puede quedar al azar del hash.
         elegido = max(
             sorted(candidatos, key=lambda n: self.graph.nodes[n].get("label", n)),
-            key=lambda n: self.graph.degree(n),
+            key=lambda n: self._grado_curado(n),
         )
         etiqueta = self.graph.nodes[elegido].get("label", elegido)
         aviso = (
@@ -680,6 +1077,7 @@ class LegalGraphifyEngine:
             self.advertencias.append(aviso)
         return elegido
 
+    @_con_cerrojo
     def ingerir_codigo_bcn(self, codigo_nombre: str, texto: str) -> Dict[str, Any]:
         """
         Incorpora al grafo los artículos de un código cuyo texto oficial se obtuvo del BCN
@@ -745,6 +1143,7 @@ class LegalGraphifyEngine:
             "advertencias": list(self.advertencias),
         }
 
+    @_con_cerrojo
     def ingerir_sentencia_judicial(self, doc_o_path: Any) -> Dict[str, Any]:
         """
         Incorpora una sentencia judicial (o su archivo Markdown) al Knowledge Graph.
@@ -910,6 +1309,7 @@ class LegalGraphifyEngine:
             }
         }
 
+    @_con_cerrojo
     def ingerir_dictamen_administrativo(self, doc_o_path: Any) -> Dict[str, Any]:
         """
         Incorpora un dictamen o resolución administrativa (o su archivo Markdown) al Knowledge Graph.
@@ -1151,33 +1551,28 @@ class LegalGraphifyEngine:
         hiper-densa (de ~50 a ~550 tokens según la institución, medido sobre el grafo completo)
         en lugar de inyectar textos completos de hasta ~1.600 tokens.
         """
-        if not self.is_built:
-            # Artefacto publicado primero (instantáneo); reconstruir desde doctrina es el
-            # último recurso: en frío cuesta decenas de segundos.
-            if not self.cargar_grafo_json():
-                self.construir_grafo_desde_doctrina()
+        # Artefacto publicado primero (instantáneo); reconstruir desde doctrina es el último
+        # recurso: en frío cuesta decenas de segundos.
+        self._preparar_consulta()
 
         nodo_central = self._buscar_nodo_relevante(query)
+        # Un nodo del mapa (o una entrada del índice que no es nodo) tiene su propia ficha, armada
+        # sobre una vista de la consulta con los fallos de la CS materializados.
+        consulta = self._consulta_mapa(nodo_central, max_hops)
+        if consulta is not None and nodo_central:
+            return self._resultado_mapa(nodo_central, consulta)
         if not nodo_central or not self.graph.has_node(nodo_central):
             return {
                 "encontrado": False,
                 "query": query,
-                "mensaje": f"No se encontró un nodo dogmático conectado para '{query}'.",
+                "mensaje": self._mensaje_no_encontrado(query),
                 "sugerencias": list(self.instituciones_index.keys())[:5]
             }
 
         central_data = self.graph.nodes[nodo_central]
 
-        # Extraer ego-subgrafo
-        sub_nodes = set([nodo_central])
-        current_layer = set([nodo_central])
-        for _ in range(max_hops):
-            next_layer = set()
-            for n in current_layer:
-                next_layer.update(self.graph.successors(n))
-                next_layer.update(self.graph.predecessors(n))
-            sub_nodes.update(next_layer)
-            current_layer = next_layer
+        # Extraer ego-subgrafo (los vecinos de la capa del mapa, si está cargada, con tope por salto)
+        sub_nodes = set(self._ego(self.graph, nodo_central, max_hops))
 
         # Clasificar vecinos
         normas = []
@@ -1281,30 +1676,37 @@ class LegalGraphifyEngine:
         }
 
     def exportar_subgrafo_mermaid(self, query: str, max_hops: int = 1) -> str:
-        """Genera diagrama Mermaid interactivo centrado en el subgrafo de la consulta."""
-        if not self.is_built:
-            # Mismo orden que consultar_subgrafo: artefacto publicado antes de reconstruir.
-            if not self.cargar_grafo_json():
-                self.construir_grafo_desde_doctrina()
+        """Genera diagrama Mermaid interactivo centrado en el subgrafo de la consulta.
+
+        Los nodos van con alias `n0..nk` (en el orden de sus IDs) y su etiqueta entre comillas: los
+        IDs del mapa llevan «:» («norma:cc:1545», «cs:1234-2023») y Mermaid los rompe. Más de
+        TOPE_NODOS_MERMAID nodos no se leen: se dejan los más cercanos al centro (lo curado antes
+        que la capa del mapa) y el diagrama dice cuántos quedaron fuera.
+        """
+        # Mismo orden que consultar_subgrafo: artefacto publicado antes de reconstruir.
+        self._preparar_consulta()
 
         nodo_central = self._buscar_nodo_relevante(query)
-        if not nodo_central or not self.graph.has_node(nodo_central):
+        consulta = self._consulta_mapa(nodo_central, max_hops)
+        g = consulta["vista"] if consulta is not None else self.graph
+        if not nodo_central or not g.has_node(nodo_central):
             return "```mermaid\ngraph TD\n    A[\"No se encontró nodo para la consulta\"]\n```"
 
-        sub_nodes = set([nodo_central])
-        current_layer = set([nodo_central])
-        for _ in range(max_hops):
-            next_layer = set()
-            for n in current_layer:
-                next_layer.update(self.graph.successors(n))
-                next_layer.update(self.graph.predecessors(n))
-            sub_nodes.update(next_layer)
-            current_layer = next_layer
+        distancias = self._ego(g, nodo_central, max_hops, acotar_curados=consulta is not None)
+        sub_nodes = sorted(distancias)
+        omitidos = 0
+        if len(sub_nodes) > TOPE_NODOS_MERMAID:
+            prioridad = sorted(distancias, key=lambda n: (distancias[n], g.nodes[n].get("capa") == CAPA_MAPA, n))
+            sub_nodes = sorted(prioridad[:TOPE_NODOS_MERMAID])
+            omitidos = len(distancias) - len(sub_nodes)
+        alias = {nid: f"n{i}" for i, nid in enumerate(sub_nodes)}
+        hay_mapa = any(g.nodes[n].get("capa") == CAPA_MAPA for n in sub_nodes)
 
+        titulo = str(g.nodes[nodo_central].get("label", query)).replace("\n", " ")
         lines = [
             "```mermaid",
             "---",
-            f"title: Subgrafo de Conocimiento Jurídico — {self.graph.nodes[nodo_central].get('label', query)}",
+            f"title: Subgrafo de Conocimiento Jurídico — {titulo}",
             "---",
             "graph TD",
             "    %% Clases estilizadas",
@@ -1314,43 +1716,50 @@ class LegalGraphifyEngine:
             "    classDef fallo fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#bf360c;",
             "    classDef via fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#880e4f;",
             "    classDef autor fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c;",
-            ""
         ]
+        if hay_mapa:
+            lines.append("    classDef mapa fill:#eceff1,stroke:#546e7a,stroke-width:1px,color:#263238;")
+        lines.append("")
 
         # Nodos
-        for nid in sorted(sub_nodes):
-            data = self.graph.nodes[nid]
-            lbl = data.get("label", nid).replace('"', "'").replace("\n", " ")
+        for nid in sub_nodes:
+            data = g.nodes[nid]
+            lbl = str(data.get("label", nid)).replace('"', "'").replace("\n", " ")
             if len(lbl) > 40:
                 lbl = lbl[:37] + "..."
             ntype = data.get("node_type", "institucion")
-            lines.append(f'    {nid}["{lbl}"]')
+            nodo = alias[nid]
+            lines.append(f'    {nodo}["{lbl}"]')
 
             if nid == nodo_central:
-                lines.append(f"    class {nid} central;")
+                lines.append(f"    class {nodo} central;")
             elif ntype in ("institucion", "obra"):
-                lines.append(f"    class {nid} institucion;")
-            elif ntype == "articulo_legal":
-                lines.append(f"    class {nid} norma;")
-            elif ntype == "jurisprudencia":
-                lines.append(f"    class {nid} fallo;")
+                lines.append(f"    class {nodo} institucion;")
+            elif ntype in ("articulo_legal", "norma"):
+                lines.append(f"    class {nodo} norma;")
+            elif ntype == "jurisprudencia" or (data.get("capa") == CAPA_MAPA and ntype in _TIPOS_SENTENCIA):
+                lines.append(f"    class {nodo} fallo;")
             elif ntype == "via_procesal":
-                lines.append(f"    class {nid} via;")
+                lines.append(f"    class {nodo} via;")
             elif ntype == "autor":
-                lines.append(f"    class {nid} autor;")
+                lines.append(f"    class {nodo} autor;")
+            elif data.get("capa") == CAPA_MAPA:
+                lines.append(f"    class {nodo} mapa;")
 
         lines.append("")
 
         # Aristas
-        subgraph = self.graph.subgraph(sub_nodes)
+        subgraph = g.subgraph(sub_nodes)
         for u, v, data in subgraph.edges(data=True):
             rel = data.get("relation", "")
             if rel:
                 rel_clean = rel.replace("_", " ")
-                lines.append(f"    {u} -->|{rel_clean}| {v}")
+                lines.append(f"    {alias[u]} -->|{rel_clean}| {alias[v]}")
             else:
-                lines.append(f"    {u} --> {v}")
+                lines.append(f"    {alias[u]} --> {alias[v]}")
 
+        if omitidos:
+            lines.append(f"    %% {omitidos} nodos más quedaron fuera del diagrama (tope de {TOPE_NODOS_MERMAID})")
         lines.append("```")
         return "\n".join(lines)
 
@@ -1359,9 +1768,7 @@ class LegalGraphifyEngine:
         Calcula y traza los caminos relacionales mínimos entre dos conceptos, instituciones o normas.
         Permite a LLMs y abogados deducir cadenas de subsunción y argumentación dogmática.
         """
-        if not self.is_built:
-            if not self.cargar_grafo_json():
-                self.construir_grafo_desde_doctrina()
+        self._preparar_consulta()
 
         nodo_a = self._buscar_nodo_relevante(origen)
         nodo_b = self._buscar_nodo_relevante(destino)
@@ -1379,7 +1786,9 @@ class LegalGraphifyEngine:
                 "sugerencias": list(self.instituciones_index.keys())[:5]
             }
 
-        undirected = self.graph.to_undirected()
+        # Vista no dirigida cacheada: copiar el grafo en cada consulta costaba un recorrido
+        # completo (con la capa del mapa, ~180 mil aristas por llamada).
+        undirected = self._no_dirigido()
 
         if not nx.has_path(undirected, nodo_a, nodo_b):
             return {
@@ -1441,12 +1850,15 @@ class LegalGraphifyEngine:
         """
         Genera un desglose explicativo 360° de una institución o concepto jurídico:
         antecedentes normativos, vías procesales, fallos de la Corte Suprema, autores y posición en el grafo.
+        Un nodo del mapa (norma, ministro, sala, recurso, documento…) se explica con sus listas
+        propias y los fallos de la Corte Suprema que lo citan, traídos del índice del mapa.
         """
-        if not self.is_built:
-            if not self.cargar_grafo_json():
-                self.construir_grafo_desde_doctrina()
+        self._preparar_consulta()
 
         nodo = self._buscar_nodo_relevante(query)
+        consulta = self._consulta_mapa(nodo, 1)
+        if consulta is not None and nodo:
+            return self._explicacion_mapa(nodo, consulta)
         if not nodo or not self.graph.has_node(nodo):
             return {
                 "encontrado": False,
@@ -1496,12 +1908,15 @@ class LegalGraphifyEngine:
         """
         Calcula el radio de afectación (Blast Radius) topológico cuando una norma legal,
         artículo o institución dogmática sufre una reforma legal o giro jurisprudencial.
+        Para un nodo del mapa, los afectados se ordenan por peso y fecha, y se suman los fallos de
+        la Corte Suprema que lo citan (del índice del mapa).
         """
-        if not self.is_built:
-            if not self.cargar_grafo_json():
-                self.construir_grafo_desde_doctrina()
+        self._preparar_consulta()
 
         nodo = self._buscar_nodo_relevante(objetivo)
+        consulta = self._consulta_mapa(nodo, 1)
+        if consulta is not None and nodo:
+            return self._impacto_mapa(nodo, consulta)
         if not nodo or not self.graph.has_node(nodo):
             return {
                 "encontrado": False,
@@ -1645,6 +2060,7 @@ class LegalGraphifyEngine:
             )
         }
 
+    @_con_cerrojo
     def guardar_grafo_json(self, filepath: str = DEFAULT_GRAPH_PATH) -> str:
         """Serializa el grafo en formato Node-Link JSON estándar de NetworkX / Graphify.
 
@@ -1653,7 +2069,18 @@ class LegalGraphifyEngine:
         lectores de este módulo aceptan cualquiera de las dos) y sí inflaba el
         archivo ~39%, además de permitir que ambas copias divergieran al editarse
         sólo una de ellas.
+
+        Con la capa del mapa cargada (`origen_grafo != "repo"`) el artefacto versionado no se
+        escribe: lanza GrafoConCapaMapaError. La capa vive en Hugging Face y se superpone en
+        memoria; volcarla al repositorio duplicaría 30 mil nodos que quedarían desfasados con la
+        próxima revisión del mapa. Otra ruta (un respaldo, graphify-out) sí se puede escribir.
         """
+        if self.origen_grafo != "repo" and _es_grafo_versionado(filepath):
+            raise GrafoConCapaMapaError(
+                f"El grafo en memoria trae la capa del mapa del corpus (origen_grafo={self.origen_grafo!r}): "
+                f"no se vuelca a {filepath}. Para guardar lo curado, carga el artefacto en un motor sin "
+                "la capa (LegalGraphifyEngine().cargar_grafo_json()), incorpora ahí y guarda ese."
+            )
         if not self.is_built:
             self.construir_grafo_desde_doctrina()
 
@@ -1674,11 +2101,14 @@ class LegalGraphifyEngine:
 
         return filepath
 
+    @_con_cerrojo
     def cargar_grafo_json(self, filepath: Optional[str] = None) -> bool:
         """Carga el grafo serializado desde un archivo JSON para consulta instantánea.
 
         Sin `filepath` usa DEFAULT_GRAPH_PATH — evaluado en la llamada, no al definir la clase,
-        para que las pruebas (y cada runtime) puedan apuntar a otro artefacto.
+        para que las pruebas (y cada runtime) puedan apuntar a otro artefacto. Reemplaza el
+        grafo en memoria: si traía la capa del mapa, la capa se va (`origen_grafo` vuelve a
+        "repo"); el motor compartido la vuelve a subir en la próxima consulta.
         """
         filepath = filepath or DEFAULT_GRAPH_PATH
         if not os.path.exists(filepath):
@@ -1733,6 +2163,7 @@ class LegalGraphifyEngine:
                 return True
 
             self.graph = loaded_graph
+            self._reiniciar_estado_mapa()
             self.instituciones_index.clear()
             self.normas_index.clear()
             for nid, d in self.graph.nodes(data=True):
@@ -1752,6 +2183,704 @@ class LegalGraphifyEngine:
             )
             self.construir_grafo_desde_doctrina()
             return True
+
+    # ── Capa del mapa del corpus de Hugging Face ─────────────────────────────────────────────
+    def _preparar_consulta(self) -> None:
+        """Lo que toda consulta necesita: el grafo cargado (artefacto publicado primero; reconstruir
+        desde doctrina es el último recurso) y, en el motor compartido, la capa del mapa si el
+        cliente tiene una revisión lista. Nunca usa la red ni espera una descarga."""
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+        if self.usar_mapa:
+            self.subir_capa_mapa()
+
+    @staticmethod
+    def _marca_directorio(carpeta: Path) -> Tuple[str, int, int]:
+        """Marca barata de un mapa en disco (ruta, mtime y tamaño de estado.json): evita releer y
+        hashear el estado en cada consulta para saber si la capa cargada sigue siendo la vigente."""
+        try:
+            st = (carpeta / "estado.json").stat()
+            return (str(carpeta.resolve()), int(st.st_mtime_ns), int(st.st_size))
+        except OSError:
+            return (str(carpeta), 0, 0)
+
+    def subir_capa_mapa(self) -> bool:
+        """Sube (o renueva) la capa del mapa desde el cliente del mapa si tiene una revisión lista.
+
+        Sin red y sin esperar: si otro hilo está cargando el grafo, la consulta sigue sin la capa y
+        la toma la siguiente. Una carga que falló no se reintenta con el mismo mapa (queda el
+        aviso). Devuelve si quedó la capa cargada."""
+        cliente = self._cliente_activo()
+        directorio = cliente.directorio() if cliente is not None else None
+        if directorio is None:
+            return self.origen_grafo == CAPA_MAPA
+        marca = self._marca_directorio(Path(directorio))
+        if marca == self._capa.get("marca") or marca == getattr(self, "_marca_fallida", None):
+            return self.origen_grafo == CAPA_MAPA
+        if not self._lock.acquire(blocking=False):
+            return self.origen_grafo == CAPA_MAPA
+        try:
+            self.cargar_capa_mapa(directorio)
+        except Exception as exc:  # noqa: BLE001 — sin la capa, el grafo curado sigue respondiendo
+            self._marca_fallida = marca
+            aviso = (f"No se pudo cargar la capa del mapa del corpus ({type(exc).__name__}: {exc}): el grafo "
+                     "responde solo con lo curado del repositorio.")
+            if aviso not in self.advertencias:
+                self.advertencias.append(aviso)
+        finally:
+            self._lock.release()
+        return self.origen_grafo == CAPA_MAPA
+
+    @_con_cerrojo
+    def cargar_capa_mapa(self, dir_mapa: Union[str, "os.PathLike[str]"]) -> Dict[str, Any]:
+        """Superpone la capa conectora del mapa del corpus sobre el grafo curado ya cargado.
+
+        `dir_mapa` es la carpeta de un mapa (`MapaCliente.directorio()` o la salida de
+        `python -m mapa_corpus construir`); se leen sus particiones `grafo/nodos-*`,
+        `grafo/aristas-*`, `grafo/alias` y `grafo/comunidades`.
+
+        - Lo que ya está en memoria se conserva (el artefacto curado y lo ingerido en la sesión): la
+          capa se suma encima, no lo reemplaza.
+        - Un nodo del mapa con alias a un nodo curado presente NO se duplica: sus aristas se cuelgan
+          del nodo curado, que pasa a llevar `id_mapa` (su ID canónico) y `tipo_mapa`. Excepción:
+          las fichas `sent_tc_*` curadas no se funden con `tc:*` (su cabecera es de otra causa):
+          quedan enlazadas con una arista `mismo_documento` y marcadas con `calidad_mapa`.
+        - Los nodos nuevos llevan `node_type` = tipo del mapa, `label`, `capa="mapa"` y la comunidad
+          del mapa; las aristas, `relation`, `weight` y `capa="mapa"`. Si el mapa ya trae una
+          arista entre los mismos nodos que una curada, manda la curada. Las comunidades del mapa
+          (Louvain sobre curado + capa) se aplican también a los nodos curados que lista.
+        - Idempotente: la misma carpeta con el mismo `estado.json` no se vuelve a cargar; otra
+          revisión reemplaza la capa anterior (y restaura lo curado que ésta había pisado).
+        - Se arma sobre una copia y se cambia de una vez: una consulta en curso nunca ve el grafo a
+          medio armar. Fija `origen_grafo = "mapa"`.
+
+        Memoria: los atributos de las aristas de la capa son diccionarios compartidos entre las
+        aristas de igual relación y peso (~500 para 150 mil aristas), y las particiones se leen de
+        a una fila. Medido el 2026-10-09 con el mapa completo (sha fuente 9378453d: 32 462 nodos,
+        150 641 aristas) sobre el curado de 14 050 nodos: 30 464 nodos y 149 096 aristas nuevos
+        (1 998 fundidos con curados) en 1,4 s y ~51 MB extra (RSS y memoria viva neta); con un
+        diccionario por arista y leyendo cada partición entera eran ~100 MB. La carga es perezosa
+        (primera consulta que la necesita) y nunca al importar.
+
+        Devuelve {"nodos", "aristas", "segundos"} (lo que agregó la capa) y el detalle de la carga.
+        """
+        inicio = time.perf_counter()
+        carpeta = Path(dir_mapa)
+        try:
+            estado_bytes = (carpeta / "estado.json").read_bytes()
+        except OSError as exc:
+            raise ValueError(f"'{carpeta}' no es un mapa del corpus: falta estado.json ({exc})") from exc
+        firma = hashlib.sha256(estado_bytes).hexdigest() + "|" + str(carpeta.resolve())
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+        if self.origen_grafo == CAPA_MAPA and self._capa.get("firma") == firma:
+            return dict(self._capa["resumen"], segundos=round(time.perf_counter() - inicio, 3), ya_cargada=True)
+
+        estado = json.loads(estado_bytes.decode("utf-8"))
+        declarados = sorted(r for r in (estado.get("archivos") or {}) if r.startswith("grafo/"))
+        if not declarados:
+            declarados = sorted(p.relative_to(carpeta).as_posix() for p in (carpeta / "grafo").glob("*.jsonl.gz"))
+
+        # Base: lo que hay en memoria sin la capa anterior, con lo curado que ésta pisó restaurado.
+        g = _copiar_digrafo(self.graph, sin_capa=self.origen_grafo == CAPA_MAPA)
+        self._restaurar_previas(g, self._previas_mapa)
+        nodos_g, succ, pred = g._node, g._succ, g._pred
+
+        alias: Dict[str, str] = {}
+        if "grafo/alias.jsonl.gz" in declarados:
+            alias = {str(f["id"]): str(f["a"]) for f in _filas_gz(carpeta / "grafo/alias.jsonl.gz")}
+        canon_a_curado: Dict[str, str] = {}
+        puentes_tc: List[Tuple[str, str]] = []
+        for legado in sorted(alias):
+            canonico, datos = alias[legado], nodos_g.get(legado)
+            if datos is None:
+                continue
+            if canonico.startswith("tc:") and (legado.startswith("sent_tc_") or datos.get("node_type") == "jurisprudencia_tc"):
+                puentes_tc.append((legado, canonico))
+                continue
+            canon_a_curado.setdefault(canonico, legado)
+
+        previas: Dict[str, Dict[str, Any]] = {}
+
+        def pisar(nid: str, clave: str, valor: Any) -> None:
+            datos = nodos_g[nid]
+            guardado = previas.setdefault(nid, {})
+            if clave not in guardado:
+                guardado[clave] = datos.get(clave, _AUSENTE)
+            datos[clave] = valor
+
+        label_mapa: Dict[str, str] = {}
+        nuevos = fusionados = 0
+        for rel in declarados:
+            if not rel.startswith("grafo/nodos-"):
+                continue
+            tipo_particion = rel[len("grafo/nodos-"):-len(".jsonl.gz")]
+            for fila in _filas_gz(carpeta / rel):
+                nid = str(fila["id"])
+                tipo = sys.intern(str(fila.get("tipo") or tipo_particion))
+                label = str(fila.get("label") or nid)
+                destino = canon_a_curado.get(nid)
+                if destino is None and nid in nodos_g:
+                    # Un nodo en memoria con el mismo ID canónico: se marca, no se duplica.
+                    destino = canon_a_curado[nid] = nid
+                if destino is not None:
+                    pisar(destino, "id_mapa", nid)
+                    pisar(destino, "tipo_mapa", tipo)
+                    if "c" in fila:
+                        pisar(destino, "community", fila["c"])
+                    fusionados += 1
+                else:
+                    atributos: Dict[str, Any] = {"label": label, "node_type": tipo, "capa": CAPA_MAPA}
+                    if "c" in fila:
+                        atributos["community"] = fila["c"]
+                    for clave in ("fecha", "anio", "ruta", "col"):
+                        if clave in fila:
+                            atributos[clave] = sys.intern(fila[clave]) if clave == "col" else fila[clave]
+                    g.add_node(nid, **atributos)
+                    destino = nid
+                    nuevos += 1
+                label_mapa.setdefault(_normalize_str(label), destino)
+
+        def resolver(x: str) -> Optional[str]:
+            if x in canon_a_curado:
+                return canon_a_curado[x]
+            if x in nodos_g:
+                return x
+            canonico = alias.get(x)
+            if canonico is not None:
+                return canon_a_curado.get(canonico) or (canonico if canonico in nodos_g else None)
+            return None
+
+        def marcar_tc(curado: str, oficial: str) -> None:
+            if nodos_g[curado].get("capa") != CAPA_MAPA:
+                pisar(curado, "calidad_mapa", "cabecera_desalineada")
+                pisar(curado, "documento_oficial", oficial)
+
+        # Un diccionario por (relación, peso), compartido por todas las aristas que lo tienen: las
+        # consultas no los modifican y _agregar_arista los reemplaza antes de que lo curado escriba.
+        compartidos: Dict[Tuple[str, int], Dict[str, Any]] = {}
+        agregadas = colgantes = 0
+        for rel in declarados:
+            if not rel.startswith("grafo/aristas-"):
+                continue
+            relacion = sys.intern(rel[len("grafo/aristas-"):-len(".jsonl.gz")])
+            for fila in _filas_gz(carpeta / rel):
+                s, t = resolver(str(fila["s"])), resolver(str(fila["t"]))
+                if s is None or t is None:
+                    colgantes += 1
+                    continue
+                if s == t:
+                    continue
+                peso = int(fila.get("w") or 1)
+                previa = succ[s].get(t)
+                if previa is None:
+                    datos = compartidos.get((relacion, peso))
+                    if datos is None:
+                        datos = compartidos[(relacion, peso)] = {"relation": relacion, "weight": peso, "capa": CAPA_MAPA}
+                    succ[s][t] = pred[t][s] = datos
+                    agregadas += 1
+                elif previa.get("capa") == CAPA_MAPA:
+                    relaciones = tuple(previa.get("relaciones") or (previa["relation"],))
+                    if relacion not in relaciones:
+                        # Dos relaciones entre los mismos nodos (un ministro que integró y redactó):
+                        # la arista pasa a tener su propio diccionario con ambas.
+                        succ[s][t] = pred[t][s] = dict(previa, relaciones=relaciones + (relacion,),
+                                                       weight=max(int(previa.get("weight") or 1), peso))
+                if relacion in ("mismo_documento", "mismo_archivo"):
+                    marcar_tc(s, t)
+
+        for legado, canonico in puentes_tc:
+            oficial = resolver(canonico)
+            if oficial is None or oficial == legado:
+                continue
+            if succ[legado].get(oficial) is None:
+                succ[legado][oficial] = pred[oficial][legado] = {"relation": "mismo_documento", "weight": 1,
+                                                                  "capa": CAPA_MAPA}
+                agregadas += 1
+            marcar_tc(legado, oficial)
+
+        if "grafo/comunidades.jsonl.gz" in declarados:
+            for fila in _filas_gz(carpeta / "grafo/comunidades.jsonl.gz"):
+                nid = str(fila["id"])
+                destino = canon_a_curado.get(nid) or nid
+                if "c" in fila and destino in nodos_g and nodos_g[destino].get("capa") != CAPA_MAPA:
+                    pisar(destino, "community", fila["c"])
+
+        limpiar = getattr(nx, "_clear_cache", None)
+        if callable(limpiar):
+            limpiar(g)
+        resumen = {
+            "nodos": nuevos,
+            "aristas": agregadas,
+            "fusionados": fusionados,
+            "aristas_sin_extremo": colgantes,
+            "total_nodos": g.number_of_nodes(),
+            "total_aristas": g.number_of_edges(),
+            "directorio": str(carpeta),
+            "sha_fuente": estado.get("sha_fuente"),
+            "fecha_fuente": estado.get("fecha_fuente"),
+        }
+        # El cambio, de una vez (seguimos bajo el RLock).
+        self.graph = g
+        self.origen_grafo = CAPA_MAPA
+        self._capa = {"firma": firma, "resumen": resumen, "marca": self._marca_directorio(carpeta)}
+        self._canon_a_curado = canon_a_curado
+        self._alias_mapa = alias
+        self._label_mapa = label_mapa
+        self._previas_mapa = previas
+        self._cache_no_dirigido = None
+        return dict(resumen, segundos=round(time.perf_counter() - inicio, 3))
+
+    @staticmethod
+    def _restaurar_previas(g: nx.DiGraph, previas: Dict[str, Dict[str, Any]]) -> None:
+        """Devuelve a los nodos curados los atributos que la capa del mapa había pisado."""
+        for nid, atributos in previas.items():
+            if nid not in g:
+                continue
+            datos = g.nodes[nid]
+            for clave, valor in atributos.items():
+                if valor is _AUSENTE:
+                    datos.pop(clave, None)
+                else:
+                    datos[clave] = valor
+
+    @_con_cerrojo
+    def quitar_capa_mapa(self) -> bool:
+        """Saca la capa del mapa del grafo en memoria (lo curado y lo ingerido se conservan, con
+        sus atributos de antes). Devuelve si había una capa que quitar."""
+        if self.origen_grafo != CAPA_MAPA:
+            return False
+        g = _copiar_digrafo(self.graph, sin_capa=True)
+        self._restaurar_previas(g, self._previas_mapa)
+        self.graph = g
+        self._reiniciar_estado_mapa()
+        self._cache_no_dirigido = None
+        return True
+
+    # ── Subgrafos y vistas por consulta ──────────────────────────────────────────────────────
+    def _no_dirigido(self) -> nx.Graph:
+        """Vista no dirigida del grafo para los caminos, cacheada hasta que el grafo cambia.
+
+        Se arma con las mismas aristas y en el mismo orden que `to_undirected()` (los caminos salen
+        idénticos), pero sin copiar atributos. Se invalida con la versión del grafo (cada carga o
+        ingesta) y con su tamaño (por si alguien lo tocó por fuera del motor)."""
+        g = self.graph
+        clave = (id(g), self._version, g.number_of_nodes(), g.number_of_edges())
+        cache = self._cache_no_dirigido
+        if cache is None or cache[0] != clave:
+            undirected = nx.Graph()
+            undirected.add_nodes_from(g)
+            undirected.add_edges_from(g.edges())
+            cache = self._cache_no_dirigido = (clave, undirected)
+        return cache[1]
+
+    def _ordenar_vecinos(self, g: nx.DiGraph, n: str, vecinos: List[str]) -> List[str]:
+        """Vecinos de `n` de más a menos peso de la arista que los une y, a igual peso, del más
+        reciente al más antiguo (los sin fecha al final); el ID desempata."""
+        def clave(v: str) -> Tuple[float, Tuple[int, Tuple[int, ...]], str]:
+            datos = g.succ[n].get(v) or g.pred[n].get(v) or {}
+            nodo = g.nodes[v]
+            return (-float(datos.get("weight") or 1), _fecha_desc(str(nodo.get("fecha") or nodo.get("anio") or "")), str(v))
+        return sorted(vecinos, key=clave)
+
+    def _vecinos_acotados(self, g: nx.DiGraph, n: str, acotar_curados: bool = False) -> List[str]:
+        """Vecinos de un nodo para el subgrafo, a lo más TOPE_VECINOS_POR_SALTO de la capa del mapa
+        (los de más peso y más recientes primero). Los curados entran todos y en el orden de
+        siempre (sucesores y luego predecesores): así el subgrafo de una institución curada es el
+        mismo con o sin el mapa. Con `acotar_curados` (la ficha de un nodo del mapa) el tope vale
+        para todos: una norma del mapa fundida con una curada puede tener cientos de cada lado."""
+        if acotar_curados:
+            vecinos = list(dict.fromkeys(itertools.chain(g.successors(n), g.predecessors(n))))
+            if len(vecinos) <= TOPE_VECINOS_POR_SALTO:
+                return vecinos
+            return self._ordenar_vecinos(g, n, vecinos)[:TOPE_VECINOS_POR_SALTO]
+        curados: List[str] = []
+        del_mapa: List[str] = []
+        for v in itertools.chain(g.successors(n), g.predecessors(n)):
+            (del_mapa if g.nodes[v].get("capa") == CAPA_MAPA else curados).append(v)
+        if len(del_mapa) > TOPE_VECINOS_POR_SALTO:
+            del_mapa = self._ordenar_vecinos(g, n, list(dict.fromkeys(del_mapa)))[:TOPE_VECINOS_POR_SALTO]
+        return curados + del_mapa
+
+    def _ego(self, g: nx.DiGraph, centro: str, max_hops: int, acotar_curados: bool = False) -> Dict[str, int]:
+        """Nodos a lo más a `max_hops` saltos del centro (en cualquier sentido), con su distancia.
+        Sin la capa del mapa es exactamente el ego-subgrafo de siempre."""
+        distancias = {centro: 0}
+        frontera = [centro]
+        for salto in range(1, max(0, int(max_hops)) + 1):
+            siguiente: List[str] = []
+            for n in frontera:
+                for v in self._vecinos_acotados(g, n, acotar_curados):
+                    if v not in distancias:
+                        distancias[v] = salto
+                        siguiente.append(v)
+            frontera = siguiente
+        return distancias
+
+    @staticmethod
+    def _tipo_mapa(datos: Dict[str, Any]) -> Optional[str]:
+        """Tipo del mapa de un nodo (el suyo si es de la capa, `tipo_mapa` si es curado fundido)."""
+        if datos.get("tipo_mapa"):
+            return str(datos["tipo_mapa"])
+        return str(datos.get("node_type")) if datos.get("capa") == CAPA_MAPA else None
+
+    @staticmethod
+    def _atributos_de_entrada(fila: Dict[str, Any]) -> Dict[str, Any]:
+        """Atributos de nodo para una entrada del índice que se materializa en una vista."""
+        col = str(fila.get("col") or "")
+        atributos: Dict[str, Any] = {"label": str(fila.get("titulo") or fila.get("id")),
+                                     "node_type": _TIPO_DE_COLECCION.get(col, "documento"),
+                                     "capa": CAPA_MAPA, "materializado": True}
+        for clave in ("col", "fecha", "anio", "ruta", "rol", "resultado", "recurso_txt"):
+            if fila.get(clave) not in (None, "", []):
+                atributos[clave] = fila[clave]
+        return atributos
+
+    @staticmethod
+    def _referencias_de_entrada(fila: Dict[str, Any]) -> Iterator[Tuple[str, str]]:
+        """(ID citado, relación) de cada referencia de una entrada del índice (ministros, sala,
+        recurso, normas, roles…), en orden de campo."""
+        propio = fila.get("id")
+        for campo in sorted(fila):
+            relacion = _RELACION_DE_CAMPO.get(campo)
+            if not relacion:
+                continue
+            valor = fila[campo]
+            for item in valor if isinstance(valor, list) else [valor]:
+                destino = item[0] if isinstance(item, list) and item else item
+                if isinstance(destino, str) and destino and destino != propio:
+                    yield destino, relacion
+
+    def _relacion_hacia(self, fila: Dict[str, Any], destino: str) -> str:
+        for referido, relacion in self._referencias_de_entrada(fila):
+            if referido == destino:
+                return relacion
+        return "cita"
+
+    def _consulta_mapa(self, nodo: Optional[str], max_hops: int = 1) -> Optional[Dict[str, Any]]:
+        """La VISTA de una consulta sobre un nodo del mapa, o None si el nodo es curado (o no hay capa).
+
+        La vista es un grafo propio de la consulta: el ego-subgrafo acotado del nodo y, si es una
+        norma, un ministro, una sala o un recurso, los fallos de la Corte Suprema que lo citan
+        (del índice del mapa, con tope), materializados solo aquí. El grafo compartido no se toca,
+        así que el resultado de una consulta no depende de cuáles se hicieron antes. Si el nodo no
+        está en el grafo pero sí en el índice (un fallo de la CS que nadie cita), la vista lo
+        materializa con sus referencias.
+
+        Devuelve {"vista", "base" (grafo donde leer los vecinos del nodo), "fallos", "total",
+        "con_fallos", "entrada" (la fila del índice del nodo, si la tiene)}.
+        """
+        if not nodo or self.origen_grafo != CAPA_MAPA:
+            return None
+        g = self.graph
+        if nodo in g and not self._es_del_mapa(g.nodes[nodo]):
+            return None
+        cliente = self._cliente_activo()
+        vista = nx.DiGraph()
+        entrada: Optional[Dict[str, Any]] = None
+        if nodo in g:
+            base = g
+            distancias = self._ego(g, nodo, max_hops, acotar_curados=True)
+            for n in distancias:
+                vista.add_node(n, **g.nodes[n])
+            for u in distancias:
+                for v, datos in g.succ[u].items():
+                    if v in distancias:
+                        vista.add_edge(u, v, **datos)
+        else:
+            entrada = cliente.entrada(nodo) if cliente is not None else None
+            if not entrada or str(entrada.get("id")) != nodo:
+                return None
+            base = vista
+            vista.add_node(nodo, **self._atributos_de_entrada(entrada))
+            for destino, relacion in self._referencias_de_entrada(entrada):
+                vecino = self._nodo_de_id(destino)
+                if vecino and vecino != nodo and not vista.has_edge(nodo, vecino):
+                    if vecino not in vista:
+                        vista.add_node(vecino, **g.nodes[vecino])
+                    vista.add_edge(nodo, vecino, relation=relacion, weight=1, capa=CAPA_MAPA)
+
+        datos_nodo = base.nodes[nodo]
+        tipo = self._tipo_mapa(datos_nodo)
+        id_mapa = str(datos_nodo.get("id_mapa") or nodo)
+        if entrada is None and cliente is not None and tipo in _TIPO_DE_COLECCION.values():
+            try:
+                entrada = cliente.entrada(id_mapa)
+            except Exception:  # noqa: BLE001 — sin la fila solo falta la medición de tokens
+                entrada = None
+        con_fallos = bool(tipo and _TIPOS_FICHA.get(tipo, {}).get("fallos_cs"))
+        fallos: List[Dict[str, Any]] = []
+        total: Optional[int] = None
+        if con_fallos and cliente is not None:
+            try:
+                fallos, total = cliente.citantes([id_mapa], ["cs"], TOPE_FALLOS_CS)
+            except Exception:  # noqa: BLE001 — un índice ilegible se informa como total desconocido
+                fallos, total = [], None
+            for fila in fallos:
+                fid = str(fila["id"])
+                if fid not in vista:
+                    vista.add_node(fid, **(dict(g.nodes[fid]) if fid in g else self._atributos_de_entrada(fila)))
+                if not vista.has_edge(fid, nodo):
+                    vista.add_edge(fid, nodo, relation=self._relacion_hacia(fila, id_mapa), weight=1,
+                                   capa=CAPA_MAPA, materializada=True)
+        return {"vista": vista, "base": base, "fallos": fallos, "total": total, "con_fallos": con_fallos,
+                "entrada": entrada, "tipo": tipo, "id_mapa": id_mapa, "cliente": cliente}
+
+    def vista_mapa(self, nodo: str, max_hops: int = 1) -> Optional[nx.DiGraph]:
+        """Subgrafo propio de una consulta sobre un nodo del mapa (con los fallos de la CS que lo
+        citan materializados), o None si el nodo es curado o no hay capa del mapa cargada. Es una
+        copia: modificarla no toca el grafo compartido."""
+        consulta = self._consulta_mapa(nodo, max_hops)
+        return consulta["vista"] if consulta is not None else None
+
+    # ── Fichas de los nodos del mapa ─────────────────────────────────────────────────────────
+    @staticmethod
+    def _linea_fallo(fila: Dict[str, Any]) -> str:
+        texto = f"{cita_fallo_cs(fila)} {fila.get('titulo') or ''}".strip()
+        return f"{texto} — {fila['resultado']}" if fila.get("resultado") else texto
+
+    def _fallo_resumen(self, fila: Dict[str, Any], cliente: Any) -> Dict[str, Any]:
+        """Un fallo de la CS materializado, con su corchete oficial y su archivo en HF (fijado)."""
+        resumen: Dict[str, Any] = {
+            "id": fila.get("id"), "rol": fila.get("rol"), "fecha": fila.get("fecha"),
+            "caratula": fila.get("titulo"), "sala": fila.get("sala"), "recurso": fila.get("recurso_txt"),
+            "resultado": fila.get("resultado"), "ruta": fila.get("ruta"), "cita": cita_fallo_cs(fila),
+        }
+        if cliente is not None and fila.get("ruta"):
+            try:
+                resumen["url_huggingface"] = cliente.url(str(fila["ruta"]))
+            except Exception:  # noqa: BLE001 — la URL es un agregado
+                pass
+        return resumen
+
+    def _grupos_vecinos(self, g: nx.DiGraph, nodo: str, sin_fallos_cs: bool) -> Dict[str, List[Tuple[Any, str, str]]]:
+        """Vecinos de un nodo agrupados en las listas de su ficha (ver _CLAVES_RELACION), cada lista
+        de más a menos peso y de la fecha más reciente a la más antigua. Con `sin_fallos_cs`, los
+        fallos de la CS quedan fuera: van en `fallos_cs`, traídos completos del índice."""
+        grupos: Dict[str, List[Tuple[Any, str, str]]] = defaultdict(list)
+        vistos: Set[Tuple[str, str]] = set()
+        for sentido, vecinos in (("sale", g.succ[nodo]), ("entra", g.pred[nodo])):
+            for v, datos in vecinos.items():
+                nodo_v = g.nodes[v]
+                if sin_fallos_cs and nodo_v.get("node_type") == "sentencia_cs":
+                    continue
+                etiqueta = str(nodo_v.get("label") or v)
+                fecha = _fecha_desc(str(nodo_v.get("fecha") or nodo_v.get("anio") or ""))
+                for relacion in datos.get("relaciones") or (datos.get("relation") or "conecta_con",):
+                    clave = _CLAVES_RELACION.get((relacion, sentido), "vinculos_subgrafo")
+                    if clave == "vinculos_subgrafo":
+                        texto = f"{relacion} -> {etiqueta}" if sentido == "sale" else f"{etiqueta} -> {relacion}"
+                    else:
+                        texto = etiqueta
+                    if (clave, v) in vistos:
+                        continue
+                    vistos.add((clave, v))
+                    grupos[clave].append(((-float(datos.get("weight") or 1), fecha, texto, str(v)), texto, v))
+        for lista in grupos.values():
+            lista.sort(key=lambda x: x[0])
+        return dict(sorted(grupos.items(), key=lambda kv: _ORDEN_CLAVES.get(kv[0], len(_ORDEN_CLAVES))))
+
+    @staticmethod
+    def _conteos_vecinos(g: nx.DiGraph, nodo: str, sin_fallos_cs: bool) -> Dict[str, int]:
+        conteo: Counter = Counter()
+        for v in set(g.successors(nodo)) | set(g.predecessors(nodo)):
+            tipo = g.nodes[v].get("node_type")
+            if tipo in _TIPOS_NORMA:
+                conteo["normas"] += 1
+            elif tipo in _TIPOS_SENTENCIA and not (sin_fallos_cs and tipo == "sentencia_cs"):
+                conteo["fallos"] += 1
+            elif tipo == "via_procesal":
+                conteo["vias"] += 1
+            elif tipo == "institucion":
+                conteo["instituciones"] += 1
+        return dict(conteo)
+
+    def _ficha_mapa(self, nodo: str, consulta: Dict[str, Any]) -> Tuple[str, Dict[str, List[Tuple[Any, str, str]]]]:
+        """Ficha YAML hiper-densa de un nodo del mapa: qué es, sus listas por relación (con tope y
+        total) y, para normas, ministros, salas y recursos, los fallos de la CS que lo citan."""
+        g = consulta["base"]
+        datos = g.nodes[nodo]
+        tipo = consulta["tipo"] or str(datos.get("node_type") or "nodo")
+        con_indice = consulta["con_fallos"] and consulta["total"] is not None
+        grupos = self._grupos_vecinos(g, nodo, sin_fallos_cs=con_indice)
+        lineas = [f"{_TIPOS_FICHA.get(tipo, {}).get('clave', tipo)}: {json.dumps(str(datos.get('label') or nodo), ensure_ascii=False)}",
+                  f"id_mapa: {json.dumps(consulta['id_mapa'], ensure_ascii=False)}"]
+        for clave in ("fecha", "rol", "resultado", "ruta", "calidad_mapa", "documento_oficial"):
+            if datos.get(clave):
+                lineas.append(f"{clave}: {json.dumps(str(datos[clave]), ensure_ascii=False)}")
+        for clave, lista in grupos.items():
+            lineas.append(f"{clave}: {json.dumps([texto for _, texto, _ in lista[:TOPE_LISTA_FICHA]], ensure_ascii=False)}")
+            if len(lista) > TOPE_LISTA_FICHA:
+                lineas.append(f"{clave}_total: {len(lista)}")
+        if consulta["con_fallos"]:
+            if consulta["total"] is None:
+                lineas.append('fallos_cs_total: "sin índice del mapa: no se pudieron contar"')
+            else:
+                lineas.append(f"fallos_cs_total: {consulta['total']}")
+                lineas.append(f"fallos_cs: {json.dumps([self._linea_fallo(f) for f in consulta['fallos']], ensure_ascii=False)}")
+        return "\n".join(lineas), grupos
+
+    def _resultado_mapa(self, nodo: str, consulta: Dict[str, Any]) -> Dict[str, Any]:
+        """Resultado de consultar_subgrafo para un nodo del mapa: mismas claves que el de una
+        institución curada, más las del mapa (capa, tipo, id_mapa, fallos_cs, fallos_cs_total)."""
+        g = consulta["base"]
+        datos = g.nodes[nodo]
+        ficha, grupos = self._ficha_mapa(nodo, consulta)
+        tokens_subgrafo = int(len(ficha.split()) * 1.3)
+        # Texto que la ficha resume y que se dejó de leer: los fallos listados y el propio archivo
+        # del nodo. Misma convención del motor (1,3 tokens por palabra), con ~6 bytes por palabra
+        # en español UTF-8. Si no hay texto medido, no se inventa un ahorro: queda en cero.
+        filas = list(consulta["fallos"]) + ([consulta["entrada"]] if consulta["entrada"] else [])
+        bytes_base = sum(int(f.get("bytes") or 0) for f in filas)
+        tokens_completos = int(bytes_base * 1.3 / 6)
+        base_medicion = f"bytes de {len(filas)} archivo(s) del corpus que la ficha resume"
+        if tokens_completos <= 0:
+            tokens_completos = tokens_subgrafo
+            base_medicion = "sin texto medido que la ficha reemplace: el ahorro no se informa"
+        ahorro = max(0, tokens_completos - tokens_subgrafo)
+        conteos = self._conteos_vecinos(g, nodo, sin_fallos_cs=consulta["con_fallos"] and consulta["total"] is not None)
+        cliente = consulta["cliente"]
+        resultado: Dict[str, Any] = {
+            "encontrado": True,
+            "nodo_id": nodo,
+            "label": datos.get("label"),
+            "subgrafo_resumen_yaml": ficha,
+            "metricas_tokens": {
+                "tokens_subgrafo": tokens_subgrafo,
+                "tokens_texto_completo": tokens_completos,
+                "tokens_ahorrados": ahorro,
+                "porcentaje_ahorro": round((ahorro / max(1, tokens_completos)) * 100, 1),
+                "factor_reduccion": f"{round(tokens_completos / max(1, tokens_subgrafo), 1)}x",
+                "base_medicion": base_medicion,
+            },
+            "subgrafo_info": {
+                "total_nodos_subgrafo": consulta["vista"].number_of_nodes(),
+                "normas_conectadas": conteos.get("normas", 0),
+                "fallos_conectados": conteos.get("fallos", 0) + int(consulta["total"] or 0),
+                "vias_conectadas": conteos.get("vias", 0),
+                "listas": {clave: len(lista) for clave, lista in grupos.items()},
+            },
+            "capa": CAPA_MAPA,
+            "tipo": consulta["tipo"],
+            "id_mapa": consulta["id_mapa"],
+        }
+        if consulta["con_fallos"]:
+            resultado["fallos_cs"] = [self._fallo_resumen(f, cliente) for f in consulta["fallos"]]
+            resultado["fallos_cs_total"] = consulta["total"]
+        if cliente is not None and datos.get("ruta"):
+            try:
+                resultado["url_huggingface"] = cliente.url(str(datos["ruta"]))
+            except Exception:  # noqa: BLE001 — la URL es un agregado
+                pass
+        return resultado
+
+    def _explicacion_mapa(self, nodo: str, consulta: Dict[str, Any]) -> Dict[str, Any]:
+        """explicar_institucion para un nodo del mapa: sus listas por relación y sus fallos de la CS."""
+        g = consulta["base"]
+        datos = g.nodes[nodo]
+        tipo = consulta["tipo"] or str(datos.get("node_type") or "nodo")
+        con_indice = consulta["con_fallos"] and consulta["total"] is not None
+        grupos = self._grupos_vecinos(g, nodo, sin_fallos_cs=con_indice)
+        lineas = [f"# {_TIPOS_FICHA.get(tipo, {}).get('titulo', 'Nodo del mapa')}: {datos.get('label')}", "",
+                  f"**ID canónico:** {consulta['id_mapa']} | **Comunidad:** {datos.get('community')}"]
+        for clave in ("fecha", "rol", "resultado", "ruta"):
+            if datos.get(clave):
+                lineas.append(f"**{clave.capitalize()}:** {datos[clave]}")
+        if datos.get("calidad_mapa"):
+            lineas.append(f"**Aviso de calidad:** {datos['calidad_mapa']} (documento oficial: {datos.get('documento_oficial')})")
+        for clave, lista in grupos.items():
+            lineas += ["", f"### {clave.replace('_', ' ').capitalize()} ({len(lista)})"]
+            lineas += [f"- {texto}" for _, texto, _ in lista[:TOPE_LISTA_FICHA]]
+            if len(lista) > TOPE_LISTA_FICHA:
+                lineas.append(f"- … y {len(lista) - TOPE_LISTA_FICHA} más")
+        if consulta["con_fallos"]:
+            if consulta["total"] is None:
+                lineas += ["", "### Jurisprudencia de la Corte Suprema",
+                           "- Índice del mapa no disponible: no se pudieron contar los fallos que lo citan."]
+            else:
+                lineas += ["", f"### Jurisprudencia de la Corte Suprema ({consulta['total']} fallos en el mapa; "
+                               f"se muestran {len(consulta['fallos'])})"]
+                lineas += [f"- {self._linea_fallo(f)}" for f in consulta["fallos"]] or [
+                    "- Ningún fallo de la Corte Suprema del corpus lo registra."]
+        conteos = self._conteos_vecinos(g, nodo, sin_fallos_cs=con_indice)
+        resultado: Dict[str, Any] = {
+            "encontrado": True,
+            "nodo_id": nodo,
+            "label": datos.get("label"),
+            "tipo": tipo,
+            "comunidad": datos.get("community"),
+            "estadisticas_conexiones": {
+                "grado_total": g.in_degree(nodo) + g.out_degree(nodo),
+                "normas_positivas": conteos.get("normas", 0),
+                "fallos_rector": conteos.get("fallos", 0) + int(consulta["total"] or 0),
+                "vias_procesales": conteos.get("vias", 0),
+                "conceptos_vecinos": conteos.get("instituciones", 0),
+            },
+            "explicacion_markdown": "\n".join(lineas),
+            "capa": CAPA_MAPA,
+            "id_mapa": consulta["id_mapa"],
+        }
+        if consulta["con_fallos"]:
+            resultado["fallos_cs"] = [self._fallo_resumen(f, consulta["cliente"]) for f in consulta["fallos"]]
+            resultado["fallos_cs_total"] = consulta["total"]
+        return resultado
+
+    def _impacto_mapa(self, nodo: str, consulta: Dict[str, Any]) -> Dict[str, Any]:
+        """analizar_impacto_normativo para un nodo del mapa: afectados por peso y fecha, más los
+        fallos de la CS que lo citan (del índice)."""
+        g = consulta["base"]
+        datos = g.nodes[nodo]
+        etiqueta = datos.get("label", nodo)
+        directos = set(g.predecessors(nodo)) or set(g.successors(nodo))
+        directos_info = [{"id": n, "label": g.nodes[n].get("label", n), "tipo": g.nodes[n].get("node_type", "institucion"),
+                          "obra": g.nodes[n].get("obra", "")}
+                         for n in self._ordenar_vecinos(g, nodo, sorted(directos))]
+        cascada: Set[str] = set()
+        for d in directos:
+            for succ in g.successors(d):
+                if succ != nodo and succ not in directos:
+                    cascada.add(succ)
+        cascada_info = [{"id": n, "label": g.nodes[n].get("label", n), "tipo": g.nodes[n].get("node_type", "institucion")}
+                        for n in sorted(cascada, key=lambda x: (str(g.nodes[x].get("label", x)), x))]
+        fallos_total = int(consulta["total"] or 0)
+        total = len(directos) + len(cascada) + fallos_total
+        nivel = "ALTO" if total >= 8 else ("MEDIO" if total >= 3 else "BAJO")
+        resultado: Dict[str, Any] = {
+            "encontrado": True,
+            "objetivo": etiqueta,
+            "tipo_nodo": consulta["tipo"] or datos.get("node_type"),
+            "nivel_riesgo_impacto": nivel,
+            "metricas_impacto": {
+                "afectados_directos_grado_1": len(directos_info),
+                "afectados_cascada_grado_2": len(cascada_info),
+                "fallos_cs_grado_1": fallos_total,
+                "total_entidades_impactadas": total,
+            },
+            "impacto_directo": directos_info[:15],
+            "impacto_cascada": cascada_info[:15],
+            "dictamen_sintetico": (
+                f"Una reforma o variación en '{etiqueta}' genera un impacto {nivel}. Afecta directamente a "
+                f"{len(directos_info)} nodos del grafo (documentos, sentencias, instituciones) y a {fallos_total} "
+                f"fallos de la Corte Suprema del corpus, y repercute en cascada sobre {len(cascada_info)} más."
+            ),
+            "capa": CAPA_MAPA,
+            "id_mapa": consulta["id_mapa"],
+        }
+        if consulta["con_fallos"]:
+            resultado["fallos_cs"] = [self._fallo_resumen(f, consulta["cliente"]) for f in consulta["fallos"]]
+            resultado["fallos_cs_total"] = consulta["total"]
+        return resultado
+
+    def _mensaje_no_encontrado(self, query: str) -> str:
+        """Mensaje de «no encontrado»; con la capa del mapa, si la consulta era un rol, lo dice."""
+        if self.origen_grafo == CAPA_MAPA:
+            ids = _ids_de_consulta(query)
+            if ids and all(i.startswith(("cs:", "tc:", "ta:")) for i in ids):
+                return (f"El rol {', '.join(ids)} no está en el mapa del corpus de Hugging Face: no hay "
+                        "sentencia que mostrar. Revisa el número, el año y el tribunal.")
+        return f"No se encontró un nodo dogmático conectado para '{query}'."
 
     def integrar_con_graphify(self, graphify_out_path: str = "graphify-out/graph.json") -> Dict[str, Any]:
         """
@@ -1844,6 +2973,29 @@ class LegalGraphifyEngine:
             "total_aristas_final": len(existing_data[edge_key])
         }
 
+
+_MOTOR_COMPARTIDO: Optional[LegalGraphifyEngine] = None
+_MOTOR_COMPARTIDO_LOCK = threading.Lock()
+
+
+def obtener_motor_compartido() -> LegalGraphifyEngine:
+    """El motor del proceso (servidor MCP y sus herramientas: corpus, ambiental, vista del grafo).
+
+    Un solo grafo en memoria, con la capa del mapa del corpus cuando el cliente del mapa tiene una
+    revisión lista: se sube en la primera consulta que la necesita, sin red y nunca al importar.
+    Las herramientas lo comparten en vez de cargar cada una su copia del grafo (y de la capa)."""
+    global _MOTOR_COMPARTIDO
+    with _MOTOR_COMPARTIDO_LOCK:
+        if _MOTOR_COMPARTIDO is None:
+            _MOTOR_COMPARTIDO = LegalGraphifyEngine(usar_mapa=True)
+        return _MOTOR_COMPARTIDO
+
+
+def reiniciar_motor_compartido() -> None:
+    """Para las pruebas: el próximo `obtener_motor_compartido()` arma un motor nuevo."""
+    global _MOTOR_COMPARTIDO
+    with _MOTOR_COMPARTIDO_LOCK:
+        _MOTOR_COMPARTIDO = None
 
 def main():
     """Punto de entrada CLI para LegalGraphify."""

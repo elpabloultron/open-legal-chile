@@ -49,6 +49,7 @@ FILAS_MAPA_MINIMO = [
      "normas": [["norma:losma:35", 1]], "alias": ["ta:3ta:r-35-2021"],
      "ministros": ["ministro:javier-millar-silva"], "ministros_txt": ["JAVIER MILLAR SILVA"]},
     {"id": "doc:revistas/rchd/2020/responsabilidad", "col": "doc", "sub": "revistas", "revista": "revista:rchd",
+     "revista_txt": "Revista Chilena de Derecho",
      "ruta": "doctrina/revistas/rchd/2020/responsabilidad.md", "blob": "f" * 40, "bytes": 5000,
      "titulo": "La responsabilidad extracontractual en la jurisprudencia", "tiene_texto": True,
      "resumen": "Estudio sobre el artículo 2314 del Código Civil y el daño moral.",
