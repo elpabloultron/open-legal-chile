@@ -1,12 +1,15 @@
 """Índice local del mapa: SQLite + FTS5 armado desde las particiones publicadas en HF.
 
-Una base por revisión del mapa, de solo lectura una vez armada:
+Una base por revisión del mapa, de solo lectura una vez armada (≈ 120 MB para los 80 mil archivos):
 
-- `entrada`: una fila por archivo del dataset (id, colección, ruta, blob, título, fecha, fila JSON).
+- `entrada`: una fila por archivo del dataset (id, colección, ruta, blob, título, fecha y la fila
+  JSON comprimida con zlib).
 - `entrada_fts`: texto buscable (título, resumen, carátula, autores, ministros, rol, ruta…), con
-  `unicode61 remove_diacritics 2` para que «indemnizacion» calce con «indemnización».
-- `cita`: cada referencia de una entrada a una entidad o a otra entrada (normas, roles, autores,
-  ministros, sala, recurso, tribunal, revista), con el campo de origen como relación y su peso.
+  `unicode61 remove_diacritics 2` para que «indemnizacion» calce con «indemnización». Es
+  *contentless*: guarda el índice invertido, no una segunda copia del texto (se une por `rowid`).
+- `ref` + `cita`: cada referencia de una entrada a una entidad o a otra entrada (normas, roles,
+  autores, ministros, sala, recurso, tribunal, revista), con el campo de origen como relación y su
+  peso; los IDs van como enteros y la clave primaria (destino, rel, origen) es el índice.
 - `entidad`: normas, autores, revistas, ministros, salas, tribunales y recursos con sus conteos.
 - `alias`: los IDs equivalentes (causas acumuladas, nodos curados de LegalGraphify).
 - `meta`: revisión, fuente y sha256 del `estado.json` con que se armó.
@@ -20,6 +23,7 @@ import json
 import os
 import sqlite3
 import time
+import zlib
 from pathlib import Path
 from typing import Any, Dict, Iterable, Iterator, List, Optional, Tuple
 
@@ -30,16 +34,17 @@ PREFIJOS_REFERENCIA = ("norma:", "autor:", "ministro:", "sala:", "recurso:", "re
                        "tribunal:", "cs:", "tc:", "ta:")
 # Campos de la fila que no son texto buscable (identificadores técnicos).
 _NO_BUSCABLE = {"blob", "bytes", "chars", "col", "id", "documento_id", "era", "secciones", "url_oficial"}
+# Cambia cuando cambia el esquema de la base: una caché armada con otro esquema se rearma.
+ESQUEMA_INDICE = "2"
 _ESQUEMA_SQL = """
-CREATE TABLE entrada (id TEXT PRIMARY KEY, col TEXT NOT NULL, ruta TEXT, blob TEXT, bytes INTEGER,
-                      titulo TEXT, fecha TEXT, fila TEXT NOT NULL);
+CREATE TABLE entrada (n INTEGER PRIMARY KEY, id TEXT NOT NULL UNIQUE, col TEXT NOT NULL, ruta TEXT,
+                      blob TEXT, bytes INTEGER, titulo TEXT, fecha TEXT, fila BLOB NOT NULL);
 CREATE INDEX entrada_ruta ON entrada(ruta);
-CREATE INDEX entrada_col_fecha ON entrada(col, fecha);
-CREATE VIRTUAL TABLE entrada_fts USING fts5(id UNINDEXED, col UNINDEXED, titulo, texto,
+CREATE VIRTUAL TABLE entrada_fts USING fts5(titulo, texto, content = '',
                                             tokenize = 'unicode61 remove_diacritics 2');
-CREATE TABLE cita (origen TEXT NOT NULL, destino TEXT NOT NULL, rel TEXT NOT NULL, n INTEGER NOT NULL);
-CREATE INDEX cita_destino ON cita(destino, rel);
-CREATE INDEX cita_origen ON cita(origen);
+CREATE TABLE ref (n INTEGER PRIMARY KEY, id TEXT NOT NULL UNIQUE);
+CREATE TABLE cita (destino INTEGER NOT NULL, rel TEXT NOT NULL, origen INTEGER NOT NULL, n INTEGER NOT NULL,
+                   PRIMARY KEY (destino, rel, origen)) WITHOUT ROWID;
 CREATE TABLE entidad (id TEXT PRIMARY KEY, tipo TEXT NOT NULL, label TEXT, fila TEXT NOT NULL);
 CREATE INDEX entidad_tipo ON entidad(tipo);
 CREATE TABLE alias (alias TEXT PRIMARY KEY, id TEXT NOT NULL);
@@ -49,6 +54,15 @@ CREATE TABLE meta (clave TEXT PRIMARY KEY, valor TEXT NOT NULL);
 
 def _json(valor: Any) -> str:
     return json.dumps(valor, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+
+
+def _comprimir(fila: Dict[str, Any]) -> bytes:
+    return zlib.compress(_json(fila).encode("utf-8"), 6)
+
+
+def _fila(blob: bytes) -> Dict[str, Any]:
+    datos: Dict[str, Any] = json.loads(zlib.decompress(blob).decode("utf-8"))
+    return datos
 
 
 def _referencias(fila: Dict[str, Any]) -> Iterator[Tuple[str, str, int]]:
@@ -88,20 +102,32 @@ def armar(dir_mapa: Path, destino: Path, revision: str, sha256_estado: str) -> D
     if tmp.exists():
         tmp.unlink()
     conteos = {"entradas": 0, "citas": 0, "entidades": 0, "alias": 0}
+    refs_n: Dict[str, int] = {}
+
+    def _ref(id_: str) -> int:
+        if id_ not in refs_n:
+            refs_n[id_] = len(refs_n) + 1
+        return refs_n[id_]
+
     con = sqlite3.connect(str(tmp))
     try:
-        con.executescript("PRAGMA journal_mode=OFF; PRAGMA synchronous=OFF;" + _ESQUEMA_SQL)
+        con.executescript("PRAGMA journal_mode=OFF; PRAGMA synchronous=OFF; PRAGMA page_size=8192;" + _ESQUEMA_SQL)
+        citas: List[Tuple[int, str, int, int]] = []
         for rel in sorted(estado.get("archivos", {})):
             filas = particiones.leer((dir_mapa / rel).read_bytes())
             if rel.startswith("entradas/"):
                 for f in filas:
-                    con.execute("INSERT OR REPLACE INTO entrada VALUES (?,?,?,?,?,?,?,?)",
-                                (f["id"], f.get("col", ""), f.get("ruta"), f.get("blob"), f.get("bytes"),
-                                 f.get("titulo"), f.get("fecha"), _json(f)))
-                    con.execute("INSERT INTO entrada_fts VALUES (?,?,?,?)",
-                                (f["id"], f.get("col", ""), f.get("titulo") or "", _texto_buscable(f)))
+                    cur = con.execute("INSERT OR IGNORE INTO entrada (id, col, ruta, blob, bytes, titulo, fecha, fila) "
+                                      "VALUES (?,?,?,?,?,?,?,?)",
+                                      (f["id"], f.get("col", ""), f.get("ruta"), f.get("blob"), f.get("bytes"),
+                                       f.get("titulo"), f.get("fecha"), _comprimir(f)))
+                    if not cur.rowcount:
+                        continue  # ID repetido entre particiones: el mapa validado no lo tiene
+                    n = int(cur.lastrowid or 0)
+                    con.execute("INSERT INTO entrada_fts (rowid, titulo, texto) VALUES (?,?,?)",
+                                (n, f.get("titulo") or "", _texto_buscable(f)))
                     refs = list(_referencias(f))
-                    con.executemany("INSERT INTO cita VALUES (?,?,?,?)", [(f["id"], d, r, n) for d, r, n in refs])
+                    citas.extend((_ref(d), r, n, k) for d, r, k in refs)
                     for d, r, _ in refs:
                         if r == "alias":
                             con.execute("INSERT OR IGNORE INTO alias VALUES (?,?)", (d, f["id"]))
@@ -114,10 +140,13 @@ def armar(dir_mapa: Path, destino: Path, revision: str, sha256_estado: str) -> D
             elif rel.startswith("grafo/alias"):
                 con.executemany("INSERT OR REPLACE INTO alias VALUES (?,?)", [(f["id"], f["a"]) for f in filas])
                 conteos["alias"] += len(filas)
+        con.executemany("INSERT INTO ref VALUES (?,?)", sorted((n, i) for i, n in refs_n.items()))
+        con.executemany("INSERT OR IGNORE INTO cita VALUES (?,?,?,?)", sorted(citas))
         meta = {"revision": revision, "sha256_estado": sha256_estado, "sha_fuente": estado.get("sha_fuente") or "",
                 "fecha_fuente": estado.get("fecha_fuente") or "", "esquema": str(estado.get("esquema", "")),
-                "conteos": _json(estado.get("conteos", {}))}
+                "esquema_indice": ESQUEMA_INDICE, "conteos": _json(estado.get("conteos", {}))}
         con.executemany("INSERT INTO meta VALUES (?,?)", sorted(meta.items()))
+        con.execute("INSERT INTO entrada_fts (entrada_fts) VALUES ('optimize')")
         con.commit()
         con.execute("PRAGMA optimize")
     finally:
@@ -170,7 +199,7 @@ class Indice:
             return []
         filas = self._filas("SELECT e.fila FROM json_each(?) AS j JOIN entrada AS e ON e.id = j.value "
                             "ORDER BY j.key", (_json(ids),))
-        return [json.loads(r["fila"]) for r in filas]
+        return [_fila(r["fila"]) for r in filas]
 
     def entrada(self, id_: str) -> Optional[Dict[str, Any]]:
         r = self.entradas([self.canonico(id_)])
@@ -178,7 +207,7 @@ class Indice:
 
     def por_ruta(self, ruta: str) -> Optional[Dict[str, Any]]:
         r = self._filas("SELECT fila FROM entrada WHERE ruta = ?", (ruta,))
-        return json.loads(r[0]["fila"]) if r else None
+        return _fila(r[0]["fila"]) if r else None
 
     def rutas(self) -> Dict[str, str]:
         """{ruta: blob} de todo el dataset inventariado (reemplaza el listado del hub)."""
@@ -194,14 +223,14 @@ class Indice:
         if not destinos:
             return [], 0
         cols = _json(colecciones or [])
-        base = ("FROM cita AS c JOIN entrada AS e ON e.id = c.origen "
-                "WHERE c.destino IN (SELECT value FROM json_each(?)) "
+        base = ("FROM ref AS r JOIN cita AS c ON c.destino = r.n JOIN entrada AS e ON e.n = c.origen "
+                "WHERE r.id IN (SELECT value FROM json_each(?)) "
                 "AND (json_array_length(?) = 0 OR e.col IN (SELECT value FROM json_each(?)))")
         total = self._filas("SELECT COUNT(DISTINCT c.origen) AS n " + base, (_json(destinos), cols, cols))[0]["n"]
         filas = self._filas("SELECT e.fila, SUM(c.n) AS peso " + base +
-                            " GROUP BY e.id ORDER BY peso DESC, e.fecha DESC, e.id LIMIT ?",
+                            " GROUP BY e.n ORDER BY peso DESC, e.fecha DESC, e.id LIMIT ?",
                             (_json(destinos), cols, cols, int(limite)))
-        return [json.loads(r["fila"]) for r in filas], int(total)
+        return [_fila(r["fila"]) for r in filas], int(total)
 
     def buscar(self, consulta: str, colecciones: Optional[List[str]] = None, limite: int = 10) -> List[Dict[str, Any]]:
         """Búsqueda de texto (BM25, el título pesa el triple). La consulta se pasa como frase de
@@ -215,9 +244,9 @@ class Indice:
         for union in (" ", " OR "):
             expresion = union.join(f'"{t}"' for t in terminos[:12])
             filas = self._filas(
-                "SELECT e.fila FROM entrada_fts AS f JOIN entrada AS e ON e.id = f.id "
-                "WHERE entrada_fts MATCH ? AND (json_array_length(?) = 0 OR f.col IN (SELECT value FROM json_each(?))) "
-                "ORDER BY bm25(entrada_fts, 0.0, 0.0, 3.0, 1.0), e.id LIMIT ?", (expresion, cols, cols, int(limite)))
+                "SELECT e.fila FROM entrada_fts AS f JOIN entrada AS e ON e.n = f.rowid "
+                "WHERE entrada_fts MATCH ? AND (json_array_length(?) = 0 OR e.col IN (SELECT value FROM json_each(?))) "
+                "ORDER BY bm25(entrada_fts, 3.0, 1.0), e.id LIMIT ?", (expresion, cols, cols, int(limite)))
             if filas or len(terminos) == 1:
                 break
-        return [json.loads(r["fila"]) for r in filas]
+        return [_fila(r["fila"]) for r in filas]

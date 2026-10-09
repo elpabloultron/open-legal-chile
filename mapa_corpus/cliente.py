@@ -99,15 +99,21 @@ class MapaCliente:
 
     def _listo(self, rev: str, sha_estado: Optional[str] = None) -> bool:
         marca = self._leer_json(self.raiz / rev / "LISTO")
-        if not marca or not (self.raiz / rev / "mapa.sqlite").exists():
+        if not self._compatible(marca) or not (self.raiz / rev / "mapa.sqlite").exists():
             return False
         return sha_estado is None or marca.get("sha256_estado") == sha_estado
+
+    @staticmethod
+    def _compatible(marca: Dict[str, Any]) -> bool:
+        """Una base armada por otra versión del índice no se consulta: se rearma."""
+        return bool(marca) and marca.get("indice") == indice.ESQUEMA_INDICE
 
     def _listas(self) -> List[Path]:
         """Revisiones listas en caché, la más reciente primero."""
         if not self.raiz.exists():
             return []
-        listas = [d for d in self.raiz.iterdir() if d.is_dir() and (d / "LISTO").exists() and (d / "mapa.sqlite").exists()]
+        listas = [d for d in self.raiz.iterdir() if d.is_dir() and (d / "mapa.sqlite").exists()
+                  and self._compatible(self._leer_json(d / "LISTO"))]
         return sorted(listas, key=lambda d: (d / "LISTO").stat().st_mtime, reverse=True)
 
     def indice(self) -> Optional[indice.Indice]:
@@ -312,7 +318,7 @@ class MapaCliente:
             marca.unlink()
         indice.armar(destino / "descarga", destino / "mapa.sqlite", rev, sha)
         datos = {"revision": rev, "sha256_estado": sha, "sha_fuente": estado.get("sha_fuente"),
-                 "fecha_fuente": estado.get("fecha_fuente"), "origen": origen}
+                 "fecha_fuente": estado.get("fecha_fuente"), "origen": origen, "indice": indice.ESQUEMA_INDICE}
         marca.write_text(json.dumps(datos, ensure_ascii=False, sort_keys=True), encoding="utf-8")
 
     def _podar(self, vigente: str) -> None:
