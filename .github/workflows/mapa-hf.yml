@@ -37,10 +37,6 @@ concurrency:
 permissions:
   contents: read
 
-env:
-  TRABAJO: ${{ github.workspace }}/../mapa-trabajo
-  OPENLEGAL_MAPA_FUENTES: ${{ github.workspace }}/../mapa-fuentes
-
 jobs:
   construir:
     runs-on: ubuntu-latest
@@ -54,6 +50,12 @@ jobs:
       sha_fuente: ${{ steps.estado.outputs.sha_fuente }}
       motivo: ${{ steps.estado.outputs.motivo }}
     steps:
+      # Rutas absolutas, fuera del checkout y sin «..» (upload-artifact y cache las rechazan).
+      - name: Carpetas de trabajo
+        run: |
+          echo "TRABAJO=$RUNNER_TEMP/mapa-trabajo" >> "$GITHUB_ENV"
+          echo "OPENLEGAL_MAPA_FUENTES=$RUNNER_TEMP/mapa-fuentes" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@v7
 
       - uses: actions/setup-python@v7
@@ -148,6 +150,12 @@ jobs:
       contents: write          # rama mapa/puntero
       pull-requests: write     # PR del puntero con el GITHUB_TOKEN
     steps:
+      # Rutas absolutas, fuera del checkout y sin «..» (upload-artifact y cache las rechazan).
+      - name: Carpetas de trabajo
+        run: |
+          echo "TRABAJO=$RUNNER_TEMP/mapa-trabajo" >> "$GITHUB_ENV"
+          echo "OPENLEGAL_MAPA_FUENTES=$RUNNER_TEMP/mapa-fuentes" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@v7
 
       - uses: actions/setup-python@v7

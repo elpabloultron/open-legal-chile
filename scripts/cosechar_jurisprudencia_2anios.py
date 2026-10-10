@@ -164,7 +164,6 @@ def tc_compacto(it: dict) -> dict:
         nombre = (d.get("parametro", {}) or {}).get("nombre", "")
         if nombre:
             campos[nombre] = str(d.get("valor", ""))
-    doc_id = it.get("id")
     folio, codigo = it.get("folio"), it.get("codigo", "")
     return {
         "tribunal": "Tribunal Constitucional",
@@ -177,22 +176,36 @@ def tc_compacto(it: dict) -> dict:
         "resultado": campos.get("Resultado", ""),
         "ministro": campos.get("Ministro", ""),
         "detalle": campos,
-        "link_pdf": f"https://buscador-backend.tcchile.cl/api/extended/{doc_id}/download" if doc_id else "",
+        # El documento oficial se pide por el NÚMERO DE ROL (folio), no por el id de la ficha: con el
+        # id, `extended/` devuelve la causa cuyo rol es ese número (otra sentencia). Ese error dejó
+        # las 965 sentencias del dataset con la cabecera de una causa y el texto de otra.
+        "link_pdf": link_documento_tc(folio),
+        "ficha_id": it.get("id"),
+        "folio": folio,
+        "codigo": codigo,
     }
 
 
-def cosechar_tc(desde: str, limite_dias: int = 1200) -> pathlib.Path:
-    """La API del TC ordena por ingreso; se consulta día por día con fecha exacta."""
+def link_documento_tc(folio: object) -> str:
+    """URL del documento oficial (PDF) de la sentencia del TC con ese número de rol."""
+    numero = re.sub(r"\D", "", str(folio or ""))
+    return f"https://buscador-backend.tcchile.cl/api/extended/{int(numero)}/download" if numero else ""
+
+
+def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "") -> pathlib.Path:
+    """La API del TC ordena por ingreso; se consulta día por día con fecha exacta, de `hasta`
+    (por defecto hoy) hacia atrás hasta `desde`. Sin tope de días por defecto: el rango lo acota
+    (una ampliación desde 2021 recorre más de 2 000 días)."""
     salida = DATA_DIR / "tc_sentencias_2anios.jsonl"
     fin = dt.date.fromisoformat(desde)
-    dia = dt.date.today()
+    dia = dt.date.fromisoformat(hasta) if hasta else dt.date.today()
     print(f"[TC] cosechando de {desde} a {dia.isoformat()} (día por día) …")
     s = requests.Session()
     vistos: set[str] = set()
     total = 0
     with open(salida, "w", encoding="utf-8") as f:
         contador_dias = 0
-        while dia >= fin and contador_dias < limite_dias:
+        while dia >= fin and (not limite_dias or contador_dias < limite_dias):
             page = 1
             while True:
                 try:
@@ -233,13 +246,14 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Cosecha de jurisprudencia de los últimos años (CS y TC).")
     ap.add_argument("--tribunal", choices=("cs", "tc", "ambos"), default="ambos")
     ap.add_argument("--desde", default="2024-09-25", help="fecha de corte (YYYY-MM-DD)")
+    ap.add_argument("--hasta", default="", help="TC: última fecha a consultar (YYYY-MM-DD; por defecto hoy)")
     ap.add_argument("--limite-paginas", type=int, default=1500)
     args = ap.parse_args()
 
     if args.tribunal in ("cs", "ambos"):
         cosechar_cs(args.desde, args.limite_paginas)
     if args.tribunal in ("tc", "ambos"):
-        cosechar_tc(args.desde)
+        cosechar_tc(args.desde, hasta=args.hasta)
     return 0
 
 
