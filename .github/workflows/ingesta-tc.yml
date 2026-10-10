@@ -1,0 +1,81 @@
+name: Ingesta TC
+
+# Trae las sentencias del Tribunal Constitucional desde su buscador oficial, las convierte a
+# Markdown (texto íntegro del PDF oficial, verificado contra su número de rol) y las sube a
+# jurisprudencia_tc/ del dataset de Hugging Face. El mapa del corpus las toma en su corrida diaria.
+#
+# - Programada: cada lunes, las sentencias de los últimos 45 días.
+# - A mano (Actions → «Ingesta TC» → Run workflow): un rango de fechas, p. ej. desde 2021-01-01
+#   para reemplazar las sentencias que tenían la cabecera de otra causa y sumar las que faltan.
+# Usa el mismo secreto HF_TOKEN que la publicación del mapa.
+
+on:
+  schedule:
+    - cron: '41 6 * * 1'
+  workflow_dispatch:
+    inputs:
+      desde:
+        description: 'Desde (YYYY-MM-DD). Vacío = últimos 45 días'
+        required: false
+        default: ''
+      hasta:
+        description: 'Hasta (YYYY-MM-DD). Vacío = hoy'
+        required: false
+        default: ''
+      subir:
+        description: 'Subir a Hugging Face (si no, solo revisa)'
+        type: boolean
+        default: true
+
+concurrency:
+  group: ingesta-tc
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  ingesta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    environment: hf-publicar
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Instalar (pdftotext y OCR en español para los PDF escaneados)
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q poppler-utils tesseract-ocr tesseract-ocr-spa
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Rango de fechas
+        env:
+          DESDE_PEDIDO: ${{ inputs.desde }}
+          HASTA_PEDIDO: ${{ inputs.hasta }}
+        run: |
+          desde="${DESDE_PEDIDO:-$(date -u -d '45 days ago' +%F)}"
+          python -c "import datetime, sys; [datetime.date.fromisoformat(x) for x in sys.argv[1:] if x]" "$desde" "$HASTA_PEDIDO"
+          echo "DESDE=$desde" >> "$GITHUB_ENV"
+          echo "HASTA=$HASTA_PEDIDO" >> "$GITHUB_ENV"
+
+      - name: Cosechar las fichas del TC (día por día)
+        run: python scripts/cosechar_jurisprudencia_2anios.py --tribunal tc --desde "$DESDE" --hasta "$HASTA"
+
+      - name: Convertir los PDF oficiales a Markdown (verificando el rol)
+        run: python scripts/tc_pdfs_a_md.py --rehacer
+
+      - name: Subir a Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          SUBIR: ${{ github.event_name == 'schedule' || inputs.subir }}
+        run: |
+          if [ "$SUBIR" != "true" ] || [ -z "$HF_TOKEN" ]; then
+            python scripts/subir_tc_hf.py --dry-run
+          else
+            python scripts/subir_tc_hf.py
+          fi
