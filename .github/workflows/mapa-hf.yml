@@ -88,8 +88,19 @@ jobs:
           if [ "$MODO_PEDIDO" = "completo" ]; then extra="--sin-base"; fi
           # El cron no hace la primera construcción: esa se lanza a mano (modo completo).
           if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then extra="$extra --requiere-base"; fi
+          # A mano se construye aunque el dataset haya cambiado hace poco (p. ej., recién subido el
+          # TC): si quedara a medias, la corrida diaria lo completa.
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then extra="$extra --ignorar-movimiento"; fi
           if [ -f "$TRABAJO/puntero_pr.json" ]; then extra="$extra --puntero-pr $TRABAJO/puntero_pr.json"; fi
           python -m mapa_corpus estado --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT" $extra
+
+      - name: Qué decidió (resumen de la corrida)
+        env:
+          CAMBIO: ${{ steps.estado.outputs.cambio }}
+          MOTIVO: ${{ steps.estado.outputs.motivo }}
+        run: |
+          echo "::notice title=Mapa del corpus::cambio=$CAMBIO · $MOTIVO"
+          printf '### Mapa del corpus\n\n- cambio: %s\n- motivo: %s\n' "$CAMBIO" "$MOTIVO" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Caché de fuentes por blob (restaurar)
         if: steps.estado.outputs.cambio == 'true'

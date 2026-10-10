@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from datetime import date
 from typing import Any, Dict, Optional, Tuple
 
@@ -77,6 +78,55 @@ def leer_vinetas(texto: str, limite: int = 6000) -> Dict[str, str]:
             if clave not in campos:
                 campos[clave] = m.group("v").strip()
     return campos
+
+
+_UNIDADES = ["", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez", "once",
+             "doce", "trece", "catorce", "quince", "dieciseis", "diecisiete", "dieciocho", "diecinueve",
+             "veinte", "veintiuno", "veintidos", "veintitres", "veinticuatro", "veinticinco", "veintiseis",
+             "veintisiete", "veintiocho", "veintinueve", "treinta"]
+_NUMEROS = {p: i for i, p in enumerate(_UNIDADES) if p}
+_NUMEROS.update({"un": 1, "primero": 1, "veintiun": 21, "treinta y uno": 31})
+_PALABRA_NUM = r"(?:\d{1,2}|treinta y uno|[a-z]+)"
+_RE_FECHA_RESOLUCION = re.compile(
+    r"\[\s*(\d{1,2})\s+de\s+([a-z]+)\s+de\s+(\d{4})\s*\]"
+    rf"|\bsantiago\s*,?\s*(?:a\s+)?({_PALABRA_NUM})\s+de\s+([a-z]+)\s+(?:de|del)\s+"
+    r"(\d{4}|dos\s+mil(?:\s+(?:treinta y uno|[a-z]+))?)\b")
+
+
+def _sin_tildes(texto: str) -> str:
+    return "".join(c for c in unicodedata.normalize("NFKD", texto) if not unicodedata.combining(c))
+
+
+def _numero(palabra: str) -> Optional[int]:
+    palabra = palabra.strip()
+    return int(palabra) if palabra.isdigit() else _NUMEROS.get(palabra)
+
+
+def fecha_resolucion(texto: Any, alcance: int = 3000) -> Optional[str]:
+    """La fecha de la resolución o sentencia del TC, en ISO: «[8 de julio de 2021]» bajo el rol de
+    las sentencias o «Santiago, quince de abril de dos mil veintiuno.» al comienzo de las
+    resoluciones (la primera fecha en cifras de estas es la de presentación del requerimiento)."""
+    s = _sin_tildes(" ".join(str(texto or "")[: alcance * 2].split())[:alcance].lower())
+    for m in _RE_FECHA_RESOLUCION.finditer(s):
+        if m.group(1):
+            dia, mes, anio = int(m.group(1)), _MESES.get(m.group(2)), int(m.group(3))
+        else:
+            dia, mes = _numero(m.group(4)) or 0, _MESES.get(m.group(5))
+            texto_anio = " ".join(m.group(6).split())
+            if texto_anio.isdigit():
+                anio = int(texto_anio)
+            else:
+                resto = texto_anio[len("dos mil"):].strip()
+                sufijo = _numero(resto) if resto else 0
+                if sufijo is None:
+                    continue
+                anio = 2000 + sufijo
+        if mes and 1900 <= anio <= 2100:
+            try:
+                return date(anio, mes, dia).isoformat()
+            except ValueError:
+                continue
+    return None
 
 
 def fecha_iso(texto: Any) -> Optional[str]:

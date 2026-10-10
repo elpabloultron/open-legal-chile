@@ -157,22 +157,31 @@ def tc_por_dia(dia: str, page: int, sesion: requests.Session) -> dict:
     return r.json()
 
 
+def _valor_ficha(valor: object) -> str:
+    """Los campos vacíos de la API llegan como null o «None»: se dejan en blanco."""
+    texto = "" if valor is None else str(valor).strip()
+    return "" if texto in ("None", "null") else texto
+
+
 def tc_compacto(it: dict) -> dict:
-    detalles = it.get("detalle", []) or []
     campos: dict[str, str] = {}
-    for d in detalles:
+    for d in it.get("detalle", []) or []:
         nombre = (d.get("parametro", {}) or {}).get("nombre", "")
-        if nombre:
-            campos[nombre] = str(d.get("valor", ""))
+        valor = _valor_ficha(d.get("valor"))
+        # Hay parámetros repetidos («Precepto legal impugnado» dos o tres veces): vale el primero con valor.
+        if nombre and valor and not campos.get(nombre):
+            campos[nombre] = valor
     folio, codigo = it.get("folio"), it.get("codigo", "")
     return {
         "tribunal": "Tribunal Constitucional",
-        "sala": "Pleno",
+        "sala": campos.get("Sala", ""),
         "rol": f"Rol N° {folio}-{codigo}" if folio else "Rol S/N",
         "fecha": (it.get("fecha_sentencia") or "")[:10],
         "tipo": (it.get("template", {}) or {}).get("nombre", ""),
+        # La gestión pendiente de la ficha NO siempre es de esta causa (en las fichas antiguas casi
+        # nunca): tc_pdfs_a_md la escribe solo si sus números aparecen en el texto oficial.
         "caratula": campos.get("Gestión pendiente", "")[:200],
-        "precepto": campos.get("Precepto legal", "")[:300],
+        "precepto": (campos.get("Precepto legal impugnado") or campos.get("Precepto legal", ""))[:300],
         "resultado": campos.get("Resultado", ""),
         "ministro": campos.get("Ministro", ""),
         "detalle": campos,
@@ -186,59 +195,117 @@ def tc_compacto(it: dict) -> dict:
     }
 
 
+def motivo_para_omitir(it: dict) -> str:
+    """Fichas que no se publican: las reservadas (p. ej., con menores de edad) y las de prueba del
+    propio TC, cuyo folio no es un número («testrol2», «1234rolprueba») y apuntaría a otra causa."""
+    if str(it.get("es_reservada") or "0").strip() not in ("0", "", "False", "false"):
+        return "reservada"
+    if not re.fullmatch(r"\d+", str(it.get("folio") or "").strip()):
+        return "prueba"
+    return ""
+
+
 def link_documento_tc(folio: object) -> str:
     """URL del documento oficial (PDF) de la sentencia del TC con ese número de rol."""
     numero = re.sub(r"\D", "", str(folio or ""))
     return f"https://buscador-backend.tcchile.cl/api/extended/{int(numero)}/download" if numero else ""
 
 
-def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "") -> pathlib.Path:
+def _caratulas_previas(salida: pathlib.Path) -> dict[str, str]:
+    """La gestión pendiente de la cosecha anterior, por rol. La API dejó de entregarla en 2026 y las
+    de esa cosecha sí eran de su causa; tc_pdfs_a_md igual la verifica contra el texto oficial."""
+    previas: dict[str, str] = {}
+    if salida.exists():
+        for linea in salida.read_text(encoding="utf-8").splitlines():
+            try:
+                reg = json.loads(linea)
+            except ValueError:
+                continue
+            if reg.get("rol") and _valor_ficha(reg.get("caratula")):   # la cosecha vieja guardaba «None»
+                previas[reg["rol"]] = _valor_ficha(reg.get("caratula"))
+    return previas
+
+
+def _pedir_dia(dia: str, page: int, s: requests.Session, intentos: int = 4) -> dict | None:
+    for intento in range(intentos):
+        try:
+            return tc_por_dia(dia, page, s)
+        except Exception as e:  # noqa: BLE001 — red, 429/5xx o JSON roto: se reintenta
+            if intento == intentos - 1:
+                print(f"[TC] {dia} página {page}: error {str(e)[:120]}")
+                return None
+            time.sleep(2 * 2 ** intento)
+    return None
+
+
+def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "",
+                fallidos: pathlib.Path | None = None) -> pathlib.Path:
     """La API del TC ordena por ingreso; se consulta día por día con fecha exacta, de `hasta`
     (por defecto hoy) hacia atrás hasta `desde`. Sin tope de días por defecto: el rango lo acota
-    (una ampliación desde 2021 recorre más de 2 000 días)."""
+    (una ampliación desde 2021 recorre más de 2 000 días).
+
+    Un día que no responde tras los reintentos se vuelve a pedir al final; si sigue fallando se
+    anota en `fallidos` (la Action termina en rojo para que se relance) en vez de perderse callado."""
     salida = DATA_DIR / "tc_sentencias_2anios.jsonl"
+    previas = _caratulas_previas(salida)
     fin = dt.date.fromisoformat(desde)
     dia = dt.date.fromisoformat(hasta) if hasta else dt.date.today()
     print(f"[TC] cosechando de {desde} a {dia.isoformat()} (día por día) …")
     s = requests.Session()
     vistos: set[str] = set()
+    omitidas: dict[str, int] = {"reservada": 0, "prueba": 0}
     total = 0
+
+    def cosechar_dia(fecha: str, f) -> bool:
+        nonlocal total
+        page = 1
+        while True:
+            j = _pedir_dia(fecha, page, s)
+            if j is None:
+                return False
+            docs = j.get("data", []) or []
+            for it in docs:
+                motivo = motivo_para_omitir(it)
+                if motivo:
+                    omitidas[motivo] += 1
+                    continue
+                c = tc_compacto(it)
+                if not c["fecha"] or c["fecha"] < desde or c["rol"] in vistos:
+                    continue
+                if not c["caratula"] and previas.get(c["rol"]):
+                    c["caratula"] = previas[c["rol"]]
+                    c["caratula_origen"] = "cosecha_anterior"
+                vistos.add(c["rol"])
+                f.write(json.dumps(c, ensure_ascii=False) + "\n")
+                total += 1
+            f.flush()
+            meta = j.get("meta", {}) or {}
+            if not docs or page * (meta.get("per_page") or 5) >= (meta.get("total") or 0):
+                return True
+            page += 1
+            time.sleep(PAUSA)
+
+    pendientes: list[str] = []
     with open(salida, "w", encoding="utf-8") as f:
         contador_dias = 0
         while dia >= fin and (not limite_dias or contador_dias < limite_dias):
-            page = 1
-            while True:
-                try:
-                    j = tc_por_dia(dia.isoformat(), page, s)
-                except Exception:
-                    time.sleep(2)
-                    try:
-                        j = tc_por_dia(dia.isoformat(), page, s)
-                    except Exception as e2:
-                        print(f"[TC] {dia} página {page}: error {e2} — se salta el día")
-                        j = {}
-                docs = j.get("data", [])
-                if not docs:
-                    break
-                for it in docs:
-                    c = tc_compacto(it)
-                    if not c["fecha"] or c["fecha"] < desde or c["rol"] in vistos:
-                        continue
-                    vistos.add(c["rol"])
-                    f.write(json.dumps(c, ensure_ascii=False) + "\n")
-                    total += 1
-                f.flush()
-                meta = j.get("meta", {}) or {}
-                if page * (meta.get("per_page") or 5) >= (meta.get("total") or 0):
-                    break
-                page += 1
-                time.sleep(PAUSA)
+            if not cosechar_dia(dia.isoformat(), f):
+                pendientes.append(dia.isoformat())
             contador_dias += 1
             if contador_dias % 30 == 0:
                 print(f"[TC] … {dia.isoformat()} · van {total} sentencias")
             time.sleep(PAUSA)
             dia -= dt.timedelta(days=1)
-    print(f"[TC] listo: {total} sentencias → {salida}")
+        if pendientes:
+            print(f"[TC] reintentando {len(pendientes)} día(s) que no respondieron …")
+            time.sleep(10)
+            pendientes = [d for d in pendientes if not cosechar_dia(d, f)]
+    print(f"[TC] listo: {total} sentencias → {salida} · omitidas: {omitidas['reservada']} reservadas, "
+          f"{omitidas['prueba']} de prueba · días sin respuesta: {len(pendientes)}")
+    if pendientes:
+        print(f"::warning::TC: {len(pendientes)} día(s) sin respuesta de la API: {', '.join(pendientes[:20])}")
+    if fallidos is not None:
+        fallidos.write_text("".join(f"{d}\n" for d in pendientes), encoding="utf-8")
     return salida
 
 
@@ -248,12 +315,14 @@ def main() -> int:
     ap.add_argument("--desde", default="2024-09-25", help="fecha de corte (YYYY-MM-DD)")
     ap.add_argument("--hasta", default="", help="TC: última fecha a consultar (YYYY-MM-DD; por defecto hoy)")
     ap.add_argument("--limite-paginas", type=int, default=1500)
+    ap.add_argument("--fallidos", default="", help="TC: archivo donde anotar los días que la API no respondió")
     args = ap.parse_args()
 
     if args.tribunal in ("cs", "ambos"):
         cosechar_cs(args.desde, args.limite_paginas)
     if args.tribunal in ("tc", "ambos"):
-        cosechar_tc(args.desde, hasta=args.hasta)
+        cosechar_tc(args.desde, hasta=args.hasta,
+                    fallidos=pathlib.Path(args.fallidos) if args.fallidos else None)
     return 0
 
 

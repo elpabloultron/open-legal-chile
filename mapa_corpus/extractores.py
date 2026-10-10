@@ -22,11 +22,11 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from citas_legales import normalizar_texto_juridico, normas_canonicas, normas_y_roles, roles_canonicos
 from mapa_corpus import ids
-from mapa_corpus.texto import fecha_iso, leer_front_matter, leer_vinetas
+from mapa_corpus.texto import fecha_iso, fecha_resolucion, leer_front_matter, leer_vinetas
 
 RESUMEN = 600
 # Reglas de extracción: subir este número fuerza una reconstrucción completa del mapa.
-VERSION_EXTRACTORES = "1"
+VERSION_EXTRACTORES = "2"
 
 
 def _decodificar(datos: bytes) -> str:
@@ -136,9 +136,11 @@ def registro_desde_md_cs(texto: str) -> Dict[str, Any]:
 
 # ── Tribunal Constitucional ───────────────────────────────────────────────────────────────
 # El rol propio en el cuerpo: con sufijo del TC («13.139-22-INA») o tras «Sentencia»/«STC».
+# «N°» es opcional: el encabezado de las sentencias es «Sentencia Rol 15.686-24 INA» y el pie de las
+# resoluciones «Rol Nº 15.707-24 INA.» (la sigla puede ir sin guion).
 _RE_ROL_CUERPO_TC = re.compile(
-    r"\bRol\s*N°?\s*(\d{1,3}(?:\.\d{3})+|\d{1,6})\s*-\s*\d{2}\s*-\s*[A-Z]{2,5}\b"
-    r"|\b(?:Sentencia|STC)\s+Rol\s*N°?\s*(\d{1,3}(?:\.\d{3})+|\d{1,6})\s*-\s*\d{2,4}", re.IGNORECASE)
+    r"\bRol(?:es)?\s*(?:N[°º]?\s*)?(\d{1,3}(?:\.\d{3})+|\d{1,6})\s*-\s*\d{2}\s*-?\s*[A-Z]{2,5}\b"
+    r"|\b(?:Sentencia|STC)\s+Rol\s*(?:N[°º]?\s*)?(\d{1,3}(?:\.\d{3})+|\d{1,6})\s*-\s*\d{2,4}", re.IGNORECASE)
 _RE_EXTENDED = re.compile(r"/extended/(\d+)/")
 
 
@@ -153,6 +155,13 @@ def fila_tc(ruta: str, datos: bytes, blob: str) -> Dict[str, Any]:
     candidatos = [int((m.group(1) or m.group(2)).replace(".", "")) for m in _RE_ROL_CUERPO_TC.finditer(inicio)]
     m_ext = _RE_EXTENDED.search(v.get("documento oficial", ""))
     ext = int(m_ext.group(1)) if m_ext else None
+    # Las resoluciones nombran su rol solo al pie y pueden citar otro rol antes («STC Rol N° 8536-20»):
+    # si el número del documento oficial está en cualquier parte del cuerpo, esa es su identidad.
+    if ext is not None and ext not in candidatos and len(cuerpo) > 4000:
+        en_todo = {int((m.group(1) or m.group(2)).replace(".", ""))
+                   for m in _RE_ROL_CUERPO_TC.finditer(normalizar_texto_juridico(cuerpo))}
+        if ext in en_todo:
+            candidatos.insert(0, ext)
     if ext is not None and ext in candidatos:
         numero, fuente_id = ext, "cuerpo"
     elif candidatos:
@@ -175,7 +184,10 @@ def fila_tc(ruta: str, datos: bytes, blob: str) -> Dict[str, Any]:
     fila.update({
         "rol": str(numero),
         "tipo": titulo.split("—", 1)[0].strip() if "—" in titulo else "",
-        "fecha": fecha_iso(inicio[:1500]) or fecha_iso(v.get("fecha")),
+        # La fecha de la cabecera, cuando la cabecera es de esta causa: en las resoluciones la primera
+        # fecha en cifras del cuerpo es la de presentación del requerimiento.
+        "fecha": (fecha_iso(v.get("fecha")) if "cabecera_desalineada" not in calidad else None)
+                 or fecha_resolucion(cuerpo) or fecha_iso(inicio[:1500]) or fecha_iso(v.get("fecha")),
         "cabecera": _limpiar_vacios({"rol": cab_rol, "fecha": fecha_iso(v.get("fecha")),
                                      "gestion": " ".join(v.get("gestión pendiente / carátula", "").split()),
                                      "resultado": v.get("resultado", "") if v.get("resultado") != "None" else ""}),
