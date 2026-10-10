@@ -71,6 +71,7 @@ def mapa(fabrica_mapa):
 def test_publicar_sube_todo_la_primera_vez_y_escribe_el_puntero(mapa, tmp_path):
     api = ApiFalsa(tags=["mapa-1", "otro"])
     destino = tmp_path / "puntero.json"
+    versionado = PUNTERO.read_bytes()
     res = publicador.publicar(str(mapa), None, "a" * 40, None, api=api, forzar_versiones=True, ruta_puntero=destino)
     estado_bytes = (mapa / "estado.json").read_bytes()
     assert res["publicado"] and res["tag"] == "mapa-2" and api.tags_creados == [("mapa-2", "c" * 40)]
@@ -81,7 +82,7 @@ def test_publicar_sube_todo_la_primera_vez_y_escribe_el_puntero(mapa, tmp_path):
     puntero = json.loads(destino.read_text(encoding="utf-8"))
     assert puntero["revision_mapa"] == "c" * 40
     assert puntero["sha256_estado"] == hashlib.sha256(estado_bytes).hexdigest()
-    assert json.loads(PUNTERO.read_text(encoding="utf-8"))["revision_mapa"] is None   # el versionado, intacto
+    assert PUNTERO.read_bytes() == versionado                  # el versionado, intacto
 
 
 def test_publicar_solo_lo_cambiado_y_borra_lo_que_ya_no_existe(mapa, tmp_path):
