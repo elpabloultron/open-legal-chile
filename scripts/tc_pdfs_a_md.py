@@ -20,7 +20,6 @@ import re
 import shutil
 import subprocess
 import sys
-import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
@@ -29,6 +28,7 @@ BASE = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE))
 
 import ingesta_fuentes as ing  # noqa: E402
+from scripts.cosechar_jurisprudencia_2anios import link_documento_tc  # noqa: E402
 
 SENTENCIAS = BASE / "data" / "jurisprudencia" / "tc_sentencias_2anios.jsonl"
 INDICE = BASE / "data" / "jurisprudencia" / "tc_textos.jsonl"
@@ -42,6 +42,29 @@ PDFTOTEXT = shutil.which("pdftotext") or "pdftotext"
 def nombre_archivo(rol: str) -> str:
     limpio = re.sub(r"[^A-Za-z0-9._-]+", "_", rol.replace("Rol N° ", "").strip())
     return limpio or "sin_rol"
+
+
+def numero_rol(reg: dict) -> int:
+    """El número de rol de la sentencia: el folio de la ficha o, en registros viejos, el del rol."""
+    m = re.search(r"\d[\d.]*", str(reg.get("folio") or reg.get("rol") or ""))
+    return int(m.group().replace(".", "")) if m else 0
+
+
+def link_oficial(reg: dict) -> str:
+    """El PDF oficial pedido por número de rol. Los registros cosechados antes guardaban un enlace
+    con el id de la ficha, que trae OTRA causa: se rehace siempre desde el rol."""
+    numero = numero_rol(reg)
+    return link_documento_tc(numero) if numero else str(reg.get("link_pdf") or "")
+
+
+def corresponde(texto: str, numero: int) -> bool:
+    """El documento es de esa causa: su comienzo nombra el rol («Rol 15.686-24», «Rol N° 15686-24-INA»,
+    «Rol 15.738-2024»)."""
+    if not numero:
+        return False
+    con_puntos = f"{numero:,}".replace(",", ".")
+    patron = rf"(?<![\d.])(?:{re.escape(con_puntos)}|{numero})\s*-\s*(?:\d{{4}}|\d{{2}})(?!\d)"
+    return re.search(patron, " ".join(texto[:8000].split())) is not None
 
 
 def ficha(reg: dict, archivo: str) -> str:
@@ -73,16 +96,17 @@ def texto_completo(pdf: pathlib.Path) -> tuple[str, str]:
     return ing._texto_de_pdf(pdf, max_paginas=60)
 
 
-def procesar(item: tuple[int, dict]) -> tuple[int, str]:
+def procesar(item: tuple[int, dict], rehacer: bool = False) -> tuple[int, str]:
     idx, reg = item
     nombre = nombre_archivo(reg["rol"])
     md = DIR_MD / f"{nombre}.md"
     pdf = DIR_PDF / f"{nombre}.pdf"
-    if md.exists() and md.stat().st_size > 500:
+    if not rehacer and md.exists() and md.stat().st_size > 500:
         return idx, f"saltada|{nombre}|{md.stat().st_size}"
+    reg["link_pdf"] = link_oficial(reg)
     try:
         if not pdf.exists():
-            r = requests.get(reg.get("link_pdf", ""), headers=UA, timeout=120)
+            r = requests.get(reg["link_pdf"], headers=UA, timeout=120)
             r.raise_for_status()
             if not r.content.startswith(b"%PDF"):
                 raise ValueError("la respuesta no es un PDF")
@@ -90,6 +114,9 @@ def procesar(item: tuple[int, dict]) -> tuple[int, str]:
         texto, metodo = texto_completo(pdf)
         if len(texto.strip()) < 200:
             raise ValueError(f"texto insuficiente ({len(texto.strip())} chars, {metodo})")
+        if not corresponde(texto, numero_rol(reg)):
+            pdf.unlink(missing_ok=True)
+            raise ValueError(f"el documento no es de la causa Rol {numero_rol(reg)}: no se escribe")
         cuerpo = ing._limpiar(texto)
         md.write_text(ficha(reg, f"{nombre}.md") + cuerpo + "\n", encoding="utf-8")
         return idx, f"ok|{nombre}|{len(cuerpo)}|{metodo}"
@@ -100,6 +127,8 @@ def procesar(item: tuple[int, dict]) -> tuple[int, str]:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Convierte a Markdown las sentencias del TC (últimos 2 años).")
     ap.add_argument("--limite", type=int, default=0, help="procesar solo las primeras N (prueba)")
+    ap.add_argument("--rehacer", action="store_true",
+                    help="reescribir también los .md que ya existen (p. ej., los que tenían el texto de otra causa)")
     args = ap.parse_args()
     DIR_PDF.mkdir(parents=True, exist_ok=True)
     filas = [json.loads(linea) for linea in open(SENTENCIAS, encoding="utf-8")]
@@ -110,7 +139,7 @@ def main() -> int:
 
     ok = saltadas = fallidas = 0
     with ThreadPoolExecutor(max_workers=TRABAJADORES) as pool:
-        futuros = {pool.submit(procesar, item): item for item in pendientes}
+        futuros = {pool.submit(procesar, item, args.rehacer): item for item in pendientes}
         for n, fut in enumerate(as_completed(futuros), 1):
             idx, resultado = fut.result()
             partes = resultado.split("|")
