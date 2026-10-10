@@ -30,7 +30,7 @@ BASE = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE))
 
 import ingesta_fuentes as ing  # noqa: E402
-from mapa_corpus.texto import fecha_resolucion  # noqa: E402
+from mapa_corpus.texto import fecha_resolucion, nombra_rol_tc  # noqa: E402
 from scripts.cosechar_jurisprudencia_2anios import link_documento_tc  # noqa: E402
 
 SENTENCIAS = BASE / "data" / "jurisprudencia" / "tc_sentencias_2anios.jsonl"
@@ -62,19 +62,9 @@ def link_oficial(reg: dict) -> str:
 
 
 def corresponde(texto: str, numero: int) -> bool:
-    """El documento es de esa causa: nombra su rol al comienzo (sentencias: «Rol 15.686-24»,
-    «Rol 15.738-2024», «Rol N° 15686-24-INA») o al pie (las resoluciones de inadmisibilidad solo lo
-    nombran antes de las firmas: «Rol Nº 15.707-24 INA.»). También «Rol N° 16.615-INA» (sin año),
-    las acumuladas «Rol 15.713 (15.777)-24» y las listas «Rol 11.315/11.317-21-CPT»."""
-    if not numero:
-        return False
-    plano = " ".join(texto.split())
-    zona = plano[:8000] + " … " + plano[-3000:]
-    con_puntos = f"{numero:,}".replace(",", ".")
-    num = rf"(?<![\d.])(?:{re.escape(con_puntos)}|{numero})(?!\d|\.\d)"
-    patron = (rf"{num}\s*-\s*(?:\d{{4}}|\d{{2}}|[A-Z]{{2,5}})(?![\dA-Za-z])"
-              rf"|(?i:\bRol(?:es)?)\s*(?:N[°º]?\s*)?(?:[\d.]+\s*(?:/|\(|y|,)\s*)*{num}\s*(?:/|\(|\))")
-    return re.search(patron, zona) is not None
+    """El documento es de esa causa: lo nombra en el encabezado («Sentencia Rol 15.686-24 INA») o en el
+    pie, antes de las firmas («Rol Nº 15.707-24 INA.»). Ver mapa_corpus.texto.nombra_rol_tc."""
+    return nombra_rol_tc(texto, numero)
 
 
 _RE_CORREO = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
@@ -83,8 +73,13 @@ _RE_ID_GESTION = re.compile(r"\d[\d.]{2,}\s*-\s*(?:\d{4}|\d{2}|[\dkK])(?![\dkK])
 
 
 def ocultar_correos(texto: str) -> str:
-    """Las resoluciones traen impresos los correos de notificación (de abogados y partes)."""
-    return _RE_CORREO.sub("[correo omitido]", texto)
+    """Las resoluciones traen impresos los correos de notificación (de abogados y partes). pdftotext
+    los parte en dos líneas («usuario⏎ @GMAIL.COM», «usuario@ESTUDIO-⏎ ABOGADOS.CL»): se unen antes
+    de ocultarlos, y lo que aún tenga «@» se oculta igual (el .md no publica ninguna)."""
+    texto = re.sub(r"([\w.+-])[ \t]*\n[ \t]*(@[\w-])", r"\1\2", texto)
+    texto = re.sub(r"(@[\w.-]*-)[ \t]*\n[ \t]*([\w-])", r"\1\2", texto)
+    texto = _RE_CORREO.sub("[correo omitido]", texto)
+    return re.sub(r"[^\s\[\]]*@[^\s\[\]]*", "[correo omitido]", texto)
 
 
 def gestion_verificada(gestion: str, texto: str) -> str:
@@ -105,11 +100,22 @@ def rol_oficial(texto: str, numero: int) -> str:
     return f"Rol N° {numero}-{m.group(1)}-{m.group(2)}" if m else ""
 
 
+# «Se declara inadmisible», «SE DECLARA: Derechamente inadmisible», «se declara improcedente», «no se
+# acoge a tramitación». La palabra «sentencia» suelta no basta: aparece en el precepto citado
+# («citación para sentencia», «la sentencia recurrida»); el encabezado es «Sentencia Rol …».
+_RE_INADMISIBLE = re.compile(r"declara\s*:?\s*(?:\w+\s+){0,2}(?:inadmisible|improcedente)"
+                             r"|no\s+se\s+acoge\s+a\s+tr[aá]mit", re.IGNORECASE)
+
+
+def _es_sentencia(plano: str) -> bool:
+    return re.search(r"\bSentencia\s+Rol", plano[:600], re.IGNORECASE) is not None
+
+
 def tipo_documento(texto: str, tipo_ficha: str) -> str:
     """El tipo según el documento: a veces la ficha dice «STC» y el PDF es una inadmisibilidad."""
     plano = " ".join(texto[:20000].split())
-    es_sentencia = re.search(r"\bSentencia\b", plano[:600], re.IGNORECASE) is not None
-    inadmisible = re.search(r"declara\s+inadmisible", plano, re.IGNORECASE) is not None
+    es_sentencia = _es_sentencia(plano)
+    inadmisible = _RE_INADMISIBLE.search(plano) is not None
     if tipo_ficha.endswith("-STC") and not es_sentencia and inadmisible:
         return tipo_ficha[: -len("STC")] + "Inadmisibilidad"
     if tipo_ficha.endswith("-Inadmisibilidad") and es_sentencia and not inadmisible:
@@ -117,10 +123,58 @@ def tipo_documento(texto: str, tipo_ficha: str) -> str:
     return tipo_ficha
 
 
+def documento_de_la_ficha(datos: dict, texto: str) -> str:
+    """Motivo para no publicar si el PDF no es la resolución de la ficha: `extended/` entrega el último
+    documento de la causa, que puede ser un proveído posterior. "" si corresponde."""
+    tipo = str(datos.get("tipo") or "")
+    plano = " ".join(texto[:20000].split())
+    if tipo.endswith("-Inadmisibilidad") and not re.search(r"inadmisib|improceden|no\s+se\s+acoge\s+a\s+tr[aá]mit",
+                                                            plano, re.IGNORECASE):
+        return "el documento no es una resolución de inadmisibilidad (¿un proveído posterior?)"
+    # Solo inaplicabilidad: otras «-STC» (inhabilidades, CPR…) son resoluciones de sala sin encabezado.
+    if tipo == "INA-STC" and not _es_sentencia(plano):
+        return "el documento no es una sentencia (¿un proveído posterior?)"
+    return ""
+
+
+def _firmas(texto: str) -> list:
+    """Las fechas de las firmas electrónicas del documento («Fecha: 27/03/2025»)."""
+    import datetime as dt
+    fechas = []
+    for d, m, a in re.findall(r"Fecha:\s*(\d{2})/(\d{2})/(\d{4})", texto):
+        try:
+            fechas.append(dt.date(int(a), int(m), int(d)))
+        except ValueError:
+            continue
+    return sorted(fechas)
+
+
+def fecha_del_documento(texto: str, fecha_ficha: str) -> str:
+    """La fecha de la resolución según el documento, acotada por sus firmas electrónicas: el TC a
+    veces escribe mal el año («veintisiete de marzo de dos mil veinticuatro» firmado el 27/03/2025)."""
+    import datetime as dt
+    fecha_doc = fecha_resolucion(texto)
+    firmas = _firmas(texto)
+    if not firmas:
+        return fecha_doc or fecha_ficha
+    desde, hasta = firmas[0] - dt.timedelta(days=60), firmas[-1]
+
+    def dentro(fecha: str | None) -> bool:
+        try:
+            return bool(fecha) and desde <= dt.date.fromisoformat(str(fecha)) <= hasta
+        except ValueError:
+            return False
+    if dentro(fecha_doc):
+        return str(fecha_doc)
+    if dentro(fecha_ficha):
+        return fecha_ficha
+    return firmas[0].isoformat()
+
+
 def ajustar_con_documento(reg: dict, texto: str, numero: int) -> dict:
     """La ficha corregida con lo que dice el documento oficial: fecha, tipo, rol citable y gestión."""
     datos = dict(reg)
-    fecha_doc = fecha_resolucion(texto)
+    fecha_doc = fecha_del_documento(texto, str(reg.get("fecha") or ""))
     if fecha_doc and fecha_doc != reg.get("fecha"):
         datos["fecha"], datos["fecha_ficha"] = fecha_doc, reg.get("fecha", "")
     tipo = tipo_documento(texto, str(reg.get("tipo") or ""))
@@ -211,6 +265,9 @@ def procesar(item: tuple[int, dict], rehacer: bool = False) -> tuple[int, str]:
             pdf.unlink(missing_ok=True)
             raise ValueError(f"el documento no es de la causa Rol {numero}: no se escribe")
         datos = ajustar_con_documento(reg, texto, numero)
+        motivo = documento_de_la_ficha(datos, texto)
+        if motivo:
+            raise ValueError(f"{motivo}: no se escribe")
         cuerpo = ocultar_correos(ing._limpiar(texto))
         md.write_text(ficha(datos, f"{nombre}.md") + cuerpo + "\n", encoding="utf-8")
         for clave in ("fecha", "fecha_ficha", "tipo", "tipo_ficha", "rol_oficial", "caratula"):
@@ -234,6 +291,8 @@ def main() -> int:
     ap.add_argument("--limite", type=int, default=0, help="procesar solo las primeras N (prueba)")
     ap.add_argument("--rehacer", action="store_true",
                     help="reescribir también los .md que ya existen (p. ej., los que tenían el texto de otra causa)")
+    ap.add_argument("--fallidas", default="",
+                    help="archivo donde anotar las que fallaron por la red o el TC (vale la pena relanzarlas)")
     args = ap.parse_args()
     DIR_PDF.mkdir(parents=True, exist_ok=True)
     filas = [json.loads(linea) for linea in open(SENTENCIAS, encoding="utf-8")]
@@ -284,7 +343,12 @@ def main() -> int:
                 }, ensure_ascii=False) + "\n")
     print(f"══ listo: {ok} convertidas · {saltadas} ya estaban · {fallidas} con problema")
     resumen_github([f"### Conversión del TC: {ok} convertidas · {saltadas} ya estaban · {fallidas} con problema", ""]
-                   + [f"- {e}" for e in sorted(errores)[:200]])
+                   + [f"- {e}" for e in sorted(errores)])
+    if args.fallidas:
+        # Solo las que fallaron por la red o el servidor del TC: las rechazadas por contenido (otra
+        # causa, un proveído) o un 404 no cambian con otro intento.
+        reintentables = [e for e in errores if "el TC no respondió" in e]
+        pathlib.Path(args.fallidas).write_text("".join(f"{e}\n" for e in sorted(reintentables)), encoding="utf-8")
     print(f"   → {DIR_MD} · índice: {INDICE}")
     return 0
 

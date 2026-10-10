@@ -22,7 +22,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from citas_legales import normalizar_texto_juridico, normas_canonicas, normas_y_roles, roles_canonicos
 from mapa_corpus import ids
-from mapa_corpus.texto import fecha_iso, fecha_resolucion, leer_front_matter, leer_vinetas
+from mapa_corpus.texto import fecha_iso, fecha_resolucion, leer_front_matter, leer_vinetas, nombra_rol_tc
 
 RESUMEN = 600
 # Reglas de extracción: subir este número fuerza una reconstrucción completa del mapa.
@@ -156,12 +156,10 @@ def fila_tc(ruta: str, datos: bytes, blob: str) -> Dict[str, Any]:
     m_ext = _RE_EXTENDED.search(v.get("documento oficial", ""))
     ext = int(m_ext.group(1)) if m_ext else None
     # Las resoluciones nombran su rol solo al pie y pueden citar otro rol antes («STC Rol N° 8536-20»):
-    # si el número del documento oficial está en cualquier parte del cuerpo, esa es su identidad.
-    if ext is not None and ext not in candidatos and len(cuerpo) > 4000:
-        en_todo = {int((m.group(1) or m.group(2)).replace(".", ""))
-                   for m in _RE_ROL_CUERPO_TC.finditer(normalizar_texto_juridico(cuerpo))}
-        if ext in en_todo:
-            candidatos.insert(0, ext)
+    # si el documento oficial nombra su número donde el TC pone el rol propio, esa es su identidad
+    # (el mismo criterio con que tc_pdfs_a_md decide escribirlo).
+    if ext is not None and ext not in candidatos and nombra_rol_tc(cuerpo, ext):
+        candidatos.insert(0, ext)
     if ext is not None and ext in candidatos:
         numero, fuente_id = ext, "cuerpo"
     elif candidatos:

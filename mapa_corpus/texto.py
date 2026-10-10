@@ -86,11 +86,41 @@ _UNIDADES = ["", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho
              "veintisiete", "veintiocho", "veintinueve", "treinta"]
 _NUMEROS = {p: i for i, p in enumerate(_UNIDADES) if p}
 _NUMEROS.update({"un": 1, "primero": 1, "veintiun": 21, "treinta y uno": 31})
-_PALABRA_NUM = r"(?:\d{1,2}|treinta y uno|[a-z]+)"
+_PALABRA_NUM = r"(?:\d{1,2}°?|treinta y uno|[a-z]+)"
 _RE_FECHA_RESOLUCION = re.compile(
     r"\[\s*(\d{1,2})\s+de\s+([a-z]+)\s+de\s+(\d{4})\s*\]"
     rf"|\bsantiago\s*,?\s*(?:a\s+)?({_PALABRA_NUM})\s+de\s+([a-z]+)\s+(?:de|del)\s+"
     r"(\d{4}|dos\s+mil(?:\s+(?:treinta y uno|[a-z]+))?)\b")
+
+
+_ROL_LISTA = (r"\bRol(?:es)?\s*N[°º]?\s*((?:[\d.]+\s*(?:-\s*\d{2,4})?\s*(?:-?\s*[A-Z]{2,5})?\s*"
+              r"(?:/|\(|\by\b|,)\s*(?:N[°º]?\s*)?)*[\d.]+\s*\)?\s*"
+              r"(?:-\s*\d{2,4}(?![\d])(?:\s*-?\s*[A-Z]{2,5}\b)?|-?\s*[A-Z]{2,5}\b))")
+_RE_PIE_TC = re.compile(_ROL_LISTA)
+
+
+def _numeros(fragmento: str) -> set:
+    return {int(n.replace(".", "")) for n in re.findall(r"(?<![\d.])\d{1,3}(?:\.\d{3})+|(?<![\d.])\d{3,6}(?![\d])",
+                                                          fragmento)}
+
+
+def nombra_rol_tc(texto: str, numero: int) -> bool:
+    """El documento del TC es de la causa `numero`: lo nombra donde el TC pone el rol propio, no en
+    una cita cualquiera. Encabezado de las sentencias («Sentencia Rol 15.686-24 INA», «Sentencia Rol
+    9231-2020», acumuladas «Sentencia Roles N° 16.122-25-INHP y N° 16.138-25-INHP», «15.713
+    (15.777)-24») o el ÚLTIMO rol del documento, el del pie antes de las firmas («Rol Nº 15.707-24
+    INA.», «Rol N° 16.615-INA»). Un precedente citado («STC Rol N° 8536-20», «como se resolvió en
+    causa Rol N° 16.067-24 INA») no cuenta."""
+    if not numero:
+        return False
+    plano = " ".join(str(texto or "").split())
+    con_puntos = f"{numero:,}".replace(",", ".")
+    num = rf"(?<![\d.])(?:{re.escape(con_puntos)}|{numero})(?![\d]|\.\d)"
+    otro = r"[\d.]+\s*(?:-\s*\d{2,4})?\s*(?:-?\s*[A-Z]{2,5})?\s*(?:/|\(|\by\b|,)\s*(?:N[°º]?\s*)?"
+    if re.search(rf"\bSentencia\s+Rol(?:es)?\s*(?:N[°º]?\s*)?(?:{otro})*{num}", plano[:1500]):
+        return True
+    pies = list(_RE_PIE_TC.finditer(plano[-2500:]))
+    return bool(pies) and numero in _numeros(pies[-1].group(1))
 
 
 def _sin_tildes(texto: str) -> str:
@@ -98,7 +128,7 @@ def _sin_tildes(texto: str) -> str:
 
 
 def _numero(palabra: str) -> Optional[int]:
-    palabra = palabra.strip()
+    palabra = palabra.strip().rstrip("°")
     return int(palabra) if palabra.isdigit() else _NUMEROS.get(palabra)
 
 

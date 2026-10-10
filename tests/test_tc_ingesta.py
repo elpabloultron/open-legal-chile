@@ -71,18 +71,38 @@ def _md_tc(rol, cuerpo, enlace=None, fecha="2025-06-12"):
 
 
 class _ApiHF:
-    """Hugging Face simulado: el árbol de jurisprudencia_tc/ y los commits que se hacen."""
+    """Hugging Face simulado: el árbol de jurisprudencia_tc/, la cabeza de main y los commits."""
 
-    def __init__(self, remotos=()):
+    def __init__(self, remotos=(), sin_cambios=False, fallas=()):
         self.remotos = list(remotos)
         self.commits = []
+        self.head = "0" * 40
+        self.sin_cambios = sin_cambios          # HF no crea commit y devuelve la cabeza actual
+        self.fallas = list(fallas)              # excepciones que lanzan los próximos create_commit
 
     def list_repo_tree(self, repo_id, repo_type=None, path_in_repo=None):
         return [SimpleNamespace(path=f"jurisprudencia_tc/{n}") for n in self.remotos]
 
+    def repo_info(self, repo_id, repo_type=None):
+        return SimpleNamespace(sha=self.head)
+
+    def get_paths_info(self, repo_id, paths, repo_type=None):
+        return [SimpleNamespace(path=p) for p in paths if p.rsplit("/", 1)[-1] in self.remotos]
+
     def create_commit(self, **kw):
+        if self.fallas:
+            raise self.fallas.pop(0)
+        if self.sin_cambios:
+            return SimpleNamespace(oid=self.head)
         self.commits.append(kw)
-        return SimpleNamespace(oid=str(len(self.commits)) * 40)
+        for op in kw["operations"]:
+            nombre = op.path_in_repo.rsplit("/", 1)[-1]
+            if type(op).__name__ == "CommitOperationDelete":
+                self.remotos.remove(nombre)
+            elif nombre not in self.remotos:
+                self.remotos.append(nombre)
+        self.head = str(len(self.commits)) * 40
+        return SimpleNamespace(oid=self.head)
 
 
 def test_solo_se_suben_las_sentencias_con_cabecera_y_texto_de_la_misma_causa(tmp_path):
@@ -97,6 +117,7 @@ def test_solo_se_suben_las_sentencias_con_cabecera_y_texto_de_la_misma_causa(tmp
     api = _ApiHF()
     res = subir_tc_hf.subir(tmp_path, "hf_x", api=api, bajar=lambda ruta: b"")
     assert res["subido"] and res["commits"] == ["1" * 40] and res["rechazados"] == ["15907-06a-INA.md"]
+    assert res["borrar"] == [] and len(api.commits) == 1               # nada que retirar: sin commit de bajas
     subidos = [op.path_in_repo for op in api.commits[0]["operations"]]
     assert subidos == ["jurisprudencia_tc/README.md", "jurisprudencia_tc/15686-06a-INA.md"]
     assert api.commits[0]["repo_type"] == "dataset"
@@ -118,15 +139,63 @@ def test_se_sube_por_lotes_y_se_retiran_los_defectuosos_que_no_se_rehicieron(tmp
         pedidos.append(ruta)
         return remotos[ruta]
 
-    res = subir_tc_hf.subir(tmp_path, "hf_x", api=api, bajar=bajar, lote=2)
-    # Se retira el defectuoso que no se rehízo y el resto de prueba; el bueno de otro año queda, y el
-    # 15000 (defectuoso en HF) se reemplaza con el nuevo, no se borra.
-    assert res["borrar"] == ["jurisprudencia_tc/15907-06a-INA.md", "jurisprudencia_tc/testrol2-34566.md"]
-    assert sorted(pedidos) == ["jurisprudencia_tc/14000-06a-INA.md", "jurisprudencia_tc/15907-06a-INA.md"]
-    assert [len(c["operations"]) for c in api.commits] == [2, 2, 1, 2]      # 3 lotes de altas + las bajas
-    assert {type(op).__name__ for op in api.commits[-1]["operations"]} == {"CommitOperationDelete"}
     seco = subir_tc_hf.subir(tmp_path, None, api=_ApiHF(api.remotos), bajar=bajar, dry_run=True)
-    assert seco["subido"] is False and seco["borrar"] == res["borrar"] and seco["commits"] == []
+    res = subir_tc_hf.subir(tmp_path, "hf_x", api=api, bajar=bajar, lote=2, reservadas=["14000-06a-INA.md"])
+    # Se retiran el defectuoso que no se rehízo, el resto de prueba y la causa reservada (esta sin
+    # descargarla); el 15000 (defectuoso en HF) se reemplaza con el nuevo, no se borra.
+    assert res["borrar"] == ["jurisprudencia_tc/14000-06a-INA.md", "jurisprudencia_tc/15907-06a-INA.md",
+                             "jurisprudencia_tc/testrol2-34566.md"]
+    assert pedidos.count("jurisprudencia_tc/15907-06a-INA.md") == 2 and res["sin_revisar"] == []
+    assert pedidos.count("jurisprudencia_tc/14000-06a-INA.md") == 1             # solo en el dry-run
+    assert [len(c["operations"]) for c in api.commits] == [2, 2, 1, 3]      # 3 lotes de altas + las bajas
+    assert {type(op).__name__ for op in api.commits[-1]["operations"]} == {"CommitOperationDelete"}
+    assert seco["subido"] is False and seco["commits"] == [] and len(seco["borrar"]) == 2
+
+
+def test_lo_que_no_se_puede_leer_de_hf_no_se_borra_y_lo_nuevo_igual_se_sube(tmp_path):
+    (tmp_path / "15686-06a-INA.md").write_text(_md_tc("15686-06a-INA", "Sentencia Rol 15.686-24 INA VISTOS"),
+                                               encoding="utf-8")
+    api = _ApiHF(["15907-06a-INA.md"])
+
+    def bajar(ruta):
+        raise subir_tc_hf.requests.ConnectionError("HF no responde")
+
+    res = subir_tc_hf.subir(tmp_path, "hf_x", api=api, bajar=bajar)
+    assert res["subido"] and res["borrar"] == [] and res["sin_revisar"] == ["jurisprudencia_tc/15907-06a-INA.md"]
+    assert "15907-06a-INA.md" in api.remotos and "15686-06a-INA.md" in api.remotos
+
+
+def test_un_lote_sin_cambios_no_cuenta_como_commit_y_un_4xx_no_se_reintenta(tmp_path, monkeypatch):
+    (tmp_path / "15686-06a-INA.md").write_text(_md_tc("15686-06a-INA", "Sentencia Rol 15.686-24 INA VISTOS"),
+                                               encoding="utf-8")
+    res = subir_tc_hf.subir(tmp_path, "hf_x", api=_ApiHF(sin_cambios=True), bajar=lambda r: b"")
+    assert res["subido"] is False and res["commits"] == []
+
+    monkeypatch.setattr(subir_tc_hf.time, "sleep", lambda s: None)
+    prohibido = Exception("403 Forbidden")
+    prohibido.response = SimpleNamespace(status_code=403)
+    api = _ApiHF(fallas=[prohibido])
+    with __import__("pytest").raises(Exception, match="403"):
+        subir_tc_hf.subir(tmp_path, "hf_x", api=api, bajar=lambda r: b"")
+    caido = Exception("502 Bad Gateway")
+    caido.response = SimpleNamespace(status_code=502)
+    api = _ApiHF(fallas=[caido])
+    assert subir_tc_hf.subir(tmp_path, "hf_x", api=api, bajar=lambda r: b"")["commits"] == ["1" * 40]
+
+
+def test_el_borrado_no_pide_retirar_lo_que_ya_no_existe(tmp_path):
+    api = _ApiHF(["testrol2-34566.md"])
+    llamadas = []
+    original = api.get_paths_info
+
+    def paths_info(repo_id, paths, repo_type=None):
+        llamadas.append(list(paths))
+        api.remotos.clear()                         # otro proceso ya lo retiró
+        return original(repo_id, paths, repo_type)
+
+    api.get_paths_info = paths_info
+    res = subir_tc_hf.subir(tmp_path, "hf_x", api=api, bajar=lambda r: b"")
+    assert llamadas == [["jurisprudencia_tc/testrol2-34566.md"]] and api.commits == [] and res["commits"] == []
 
 
 def test_las_inadmisibilidades_nombran_su_rol_solo_al_pie():
@@ -244,3 +313,77 @@ def test_la_ampliacion_recorre_todo_el_rango_pedido(tmp_path, monkeypatch):
     assert len(dias) == 1461 and dias[0] == "2024-12-31" and dias[-1] == "2021-01-01"
     filas = salida.read_text(encoding="utf-8").splitlines()
     assert len(filas) == 1 and "extended/9876/download" in filas[0]
+
+
+def test_el_rol_cuenta_en_el_encabezado_o_en_el_ultimo_rol_del_pie_y_no_en_un_precedente():
+    relleno = "Considerando. " * 300
+    assert tc.corresponde("Sentencia Roles N° 16.122-25-INHP y N° 16.138-25-INHP [10 de abril de 2025]", 16138)
+    assert tc.corresponde(f"{relleno} como se resolvió en causa Rol N° 16.067-24 INA, c. 7°. "
+                          "Comuníquese. Rol N° 16.410-25-INA.", 16410)
+    assert not tc.corresponde(f"{relleno} como se resolvió en causa Rol N° 16.067-24 INA, c. 7°. "
+                              "Comuníquese. Rol N° 16.410-25-INA.", 16067)              # precedente citado
+    assert not tc.corresponde("según la STC (c. 11°, Rol N° 12.338). " + relleno, 12338)
+    assert not tc.corresponde("en la causa civil Rol N° C-9240-2024 " + relleno, 9240)
+
+
+def test_el_tipo_sale_del_documento_sin_confundir_la_palabra_sentencia():
+    inadmisible = ("Santiago, nueve de enero de dos mil veinticinco. VISTOS: el precepto impugnado regula la "
+                   "citación para sentencia… SE DECLARA: Derechamente inadmisible el requerimiento.")
+    assert tc.tipo_documento(inadmisible, "INA-Inadmisibilidad") == "INA-Inadmisibilidad"
+    assert tc.tipo_documento("Sentencia Rol 9231-2020 [8 de julio de 2021] … se rechaza", "INA-STC") == "INA-STC"
+    assert tc.tipo_documento("Santiago, … se declara improcedente el requerimiento", "INA-STC") == "INA-Inadmisibilidad"
+
+
+def test_un_proveido_posterior_no_se_publica_como_la_resolucion_de_la_ficha():
+    proveido = ("Santiago, catorce de octubre de dos mil veinticinco. Advirtiéndose un error en la incorporación "
+                "de un escrito, desglósese. Rol N° 16.450-25-INA.")
+    assert "proveído" in tc.documento_de_la_ficha({"tipo": "INA-Inadmisibilidad"}, proveido)
+    assert tc.documento_de_la_ficha({"tipo": "INA-STC"}, proveido)
+    assert tc.documento_de_la_ficha({"tipo": "INHM-STC"}, proveido) == ""     # resoluciones de sala, sin encabezado
+    assert tc.documento_de_la_ficha({"tipo": "INA-STC"}, "Sentencia Rol 15.686-24 INA VISTOS") == ""
+
+
+def test_la_fecha_del_documento_se_controla_con_las_firmas():
+    texto = ("Santiago, veintisiete de marzo de dos mil veinticuatro. VISTOS … Rol N° 16.295-25-INA. "
+             "María Angélica Barriga Meza Fecha: 27/03/2025 ABC Fecha: 28/03/2025")
+    assert tc.fecha_del_documento(texto, "2025-03-27") == "2025-03-27"           # el año mal escrito no gana
+    assert tc.fecha_del_documento(texto, "2024-01-01") == "2025-03-27"           # ni la ficha fuera de rango
+    bien = "Sentencia Rol 14.685-23 INA [7 de mayo de 2024] … Fecha: 08/05/2024"
+    assert tc.fecha_del_documento(bien, "2024-05-08") == "2024-05-07"
+    assert tc.fecha_del_documento("Santiago, 1° de abril de 2025.", "") == "2025-04-01"
+
+
+def test_los_correos_partidos_por_un_salto_de_linea_tambien_se_ocultan():
+    texto = ("Para: GASTON80\n        @GMAIL.COM; mariana26\n @gmail.com\n"
+             "CC: CONTACTO@LOGAN-\n   ABOGADOS.CL; raro@@x")
+    oculto = tc.ocultar_correos(texto)
+    assert "@" not in oculto and "GASTON80" not in oculto and "LOGAN" not in oculto and "mariana26" not in oculto
+
+
+def test_la_cosecha_se_detiene_si_la_api_no_responde_y_anota_lo_pendiente(tmp_path, monkeypatch):
+    monkeypatch.setattr(cosecha, "DATA_DIR", tmp_path)
+    monkeypatch.setattr(cosecha, "PAUSA", 0)
+    monkeypatch.setattr(cosecha.time, "sleep", lambda s: None)
+    pedidos = []
+
+    def caida(fecha, page, s):
+        pedidos.append(fecha)
+        raise cosecha.requests.ConnectionError("caída")
+
+    monkeypatch.setattr(cosecha, "tc_por_dia", caida)
+    fallidos = tmp_path / "fallidos.txt"
+    cosecha.cosechar_tc("2025-01-01", hasta="2025-06-30", fallidos=fallidos)
+    dias = sorted(set(pedidos))
+    assert len(dias) == cosecha.CORTE_DIAS_SEGUIDOS                     # no recorre los 181 días
+    lineas = fallidos.read_text(encoding="utf-8").splitlines()
+    assert lineas[-1] == "2025-01-01..2025-06-20" and len(lineas) == cosecha.CORTE_DIAS_SEGUIDOS + 1
+
+
+def test_las_reservadas_quedan_anotadas_para_retirarlas(tmp_path, monkeypatch):
+    monkeypatch.setattr(cosecha, "DATA_DIR", tmp_path)
+    monkeypatch.setattr(cosecha, "PAUSA", 0)
+    fichas = [dict(FICHA_API), dict(FICHA_API, folio="11526", codigo="06a-INA", es_reservada=1)]
+    monkeypatch.setattr(cosecha, "tc_por_dia", lambda f, p, s: {"data": fichas, "meta": {"total": 2, "per_page": 5}})
+    reservadas = tmp_path / "reservadas.txt"
+    cosecha.cosechar_tc("2025-06-12", hasta="2025-06-12", reservadas=reservadas)
+    assert reservadas.read_text(encoding="utf-8") == "11526-06a-INA.md\n"
