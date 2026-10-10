@@ -163,3 +163,16 @@ def test_ningun_archivo_versionado_apunta_a_una_carpeta_personal():
     for archivo in revisar:
         if archivo.exists():
             assert "/home/pablo" not in archivo.read_text(encoding="utf-8"), archivo
+
+
+def test_el_mapa_del_corpus_viaja_con_su_puntero():
+    """`mapa_corpus` (constructor y cliente del mapa del dataset de HF) viaja en el wheel junto
+    con el puntero: sin `puntero.json` el paquete instalado no sabe qué revisión del mapa usar."""
+    tomllib = pytest.importorskip("tomllib", reason="requiere Python 3.11+")
+    cfg = tomllib.loads((RAIZ / "pyproject.toml").read_text(encoding="utf-8"))
+    setuptools = cfg["tool"]["setuptools"]
+    assert any(p.startswith("mapa_corpus") for p in setuptools["packages"]["find"]["include"])
+    assert "puntero.json" in setuptools["package-data"]["mapa_corpus"]
+    assert (RAIZ / "mapa_corpus" / "puntero.json").exists()
+    manifiesto = (RAIZ / "MANIFEST.in").read_text(encoding="utf-8")
+    assert "mapa_corpus/puntero.json" in manifiesto

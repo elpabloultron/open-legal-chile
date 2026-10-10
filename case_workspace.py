@@ -149,26 +149,44 @@ class CaseWorkspace:
         fuentes_md = self.md_dir / "fuentes_hf.md"
         bloques = [f"# Fuentes Doctrinales y Jurisprudenciales — Hugging Face\n\n**Término de consulta:** {termino_busqueda}\n**Fecha:** {dt.date.today().isoformat()}\n\n---\n"]
 
+        # Con el mapa del corpus, cada archivo se cita con la URL fijada a la revisión de la fuente
+        # que se leyó (la vigente puede cambiar después).
+        urls = {str(i.get("archivo") or ""): str(i.get("url_huggingface") or "")
+                for i in resultados.get("resultados", []) if i.get("url_huggingface")}
+        # Las citas de la consulta traen la URL (fijada) y no el archivo: se recupera por la URL.
+        archivo_de_url = {url: archivo for archivo, url in urls.items()}
         citas_registradas = []
         for extracto in resultados.get("citas", []):
             cita = extracto.get("formato") or extracto.get("cita", "[Hugging Face]")
-            archivo = extracto.get("archivo", "")
+            archivo = extracto.get("archivo") or archivo_de_url.get(str(extracto.get("url") or ""), "")
             texto = (extracto.get("texto") or "").strip()
-            citas_registradas.append({"cita": cita, "archivo": archivo})
-            bloques.append(f"### {cita}\n\n*Archivo:* `{archivo}`\n\n> {texto}\n\n---\n")
+            registro = {"cita": cita, "archivo": archivo}
+            if urls.get(archivo):
+                registro["url"] = urls[archivo]
+            citas_registradas.append(registro)
+            enlace = f"\n*URL fijada:* {urls[archivo]}" if urls.get(archivo) else ""
+            bloques.append(f"### {cita}\n\n*Archivo:* `{archivo}`{enlace}\n\n> {texto}\n\n---\n")
 
         for item in resultados.get("resultados", []):
             cita_est = item.get("cita_estandar") or item.get("cita", "[Hugging Face]")
             if not any(c["cita"] == cita_est for c in citas_registradas):
                 arch = item.get("archivo", "")
-                citas_registradas.append({"cita": cita_est, "archivo": arch})
-                bloques.append(f"### {cita_est}\n\n*Archivo:* `{arch}`\n\n---\n")
+                registro = {"cita": cita_est, "archivo": arch}
+                if item.get("url_huggingface"):
+                    registro["url"] = item["url_huggingface"]
+                citas_registradas.append(registro)
+                enlace = f"\n*URL fijada:* {item['url_huggingface']}" if item.get("url_huggingface") else ""
+                bloques.append(f"### {cita_est}\n\n*Archivo:* `{arch}`{enlace}\n\n---\n")
 
         fuentes_md.write_text("\n".join(bloques), encoding="utf-8")
 
         # Guardar en caso.json
         meta = self.leer_metadatos()
         meta["fuentes_huggingface"] = citas_registradas
+        mapa = resultados.get("mapa") or {}
+        if mapa.get("activo"):
+            # Qué revisión del corpus respaldó estas fuentes: deja el caso reproducible.
+            meta["corpus_huggingface"] = {k: mapa.get(k) for k in ("revision", "sha_fuente", "fecha_fuente")}
         self.guardar_metadatos(meta)
 
         # Actualizar subgrafo con las nuevas fuentes

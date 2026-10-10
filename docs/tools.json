@@ -14,6 +14,11 @@
           "description": "Cuántos nodos mostrar como máximo (por defecto 250, recortados por PageRank)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -30,6 +35,11 @@
       "required": [
         "ruta"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -58,11 +68,20 @@
         "estudio_completo": {
           "type": "boolean",
           "description": "Si es True, realiza en un solo paso local el análisis, consulta de marco normativo BCN y doctrina FTS5, consolidando la respuesta sin turnos adicionales"
+        },
+        "generar_dashboard": {
+          "type": "boolean",
+          "description": "Si es True, genera un dashboard HTML autónomo e interactivo con LegalCanvas (SVG, checklist y citas)"
         }
       },
       "required": [
         "entrada"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -97,6 +116,11 @@
       "required": [
         "entrada"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -117,6 +141,11 @@
       "required": [
         "codigo"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -137,22 +166,56 @@
       "required": [
         "numero"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "cgr_search_jurisprudencia",
-    "description": "Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República (CGR).",
+    "description": "Busca dictámenes vinculantes en la jurisprudencia administrativa de la Contraloría General de la República (CGR). Permite buscar por término o analizar dictámenes individuales o en lote (doc_id/doc_ids), descargar PDF oficial firmado, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar consideraciones relevantes por tema.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "query": {
           "type": "string",
           "description": "Término de búsqueda jurídica (ej. 'confianza legitima contrata', 'probidad')"
+        },
+        "doc_id": {
+          "type": "string",
+          "description": "Código o número de dictamen CGR a buscar o analizar a fondo (ej. 'D286N26', 'E123456')"
+        },
+        "doc_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de códigos de dictámenes CGR para análisis en lote"
+        },
+        "tema_relevante": {
+          "type": "string",
+          "description": "Punto de derecho o tema controvertido para rankear y citar consideraciones específicas"
+        },
+        "descargar_formato": {
+          "type": "string",
+          "enum": [
+            "pdf"
+          ],
+          "description": "Descargar el PDF oficial firmado desde la CGR ('pdf')"
+        },
+        "convertir_a_md_y_graficar": {
+          "type": "boolean",
+          "default": false,
+          "description": "Convierte a Markdown canónico e ingesta en el grafo LegalGraphify"
         }
-      },
-      "required": [
-        "query"
-      ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -169,22 +232,56 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "dt_search_doctrina",
-    "description": "Busca dictámenes, pronunciamientos y doctrina laboral vinculante de la Dirección del Trabajo (DT).",
+    "description": "Busca dictámenes, pronunciamientos y doctrina laboral vinculante de la Dirección del Trabajo (DT). Permite buscar por materia o número, o analizar dictámenes individuales o en lote (numero/numeros/articleId), descargar PDF oficial, aplicar OCR forense si está escaneado, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar consideraciones relevantes por tema.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "query": {
           "type": "string",
           "description": "Materia o número de dictamen (ej. 'acoso laboral ley karin', 'artículo 161', '344')"
+        },
+        "numero": {
+          "type": "string",
+          "description": "Número u orden de dictamen DT a analizar (ej. 'ORD. N° 344', '129517')"
+        },
+        "numeros": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de dictámenes u ordinarios DT para análisis en lote"
+        },
+        "tema_relevante": {
+          "type": "string",
+          "description": "Punto laboral controvertido para rankear y citar la doctrina o consideración específica"
+        },
+        "descargar_formato": {
+          "type": "string",
+          "enum": [
+            "pdf"
+          ],
+          "description": "Descargar el PDF oficial adjunto ('pdf')"
+        },
+        "convertir_a_md_y_graficar": {
+          "type": "boolean",
+          "default": false,
+          "description": "Convierte a Markdown canónico e ingesta en el grafo LegalGraphify"
         }
-      },
-      "required": [
-        "query"
-      ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -198,86 +295,229 @@
           "description": "Región de Chile (opcional)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "panel_expertos_search",
-    "description": "Busca dictámenes vinculantes y resolución de discrepancias técnicas y tarifarias en el Panel de Expertos de la Ley Eléctrica.",
+    "description": "Busca dictámenes vinculantes y resolución de discrepancias técnicas y tarifarias en el Panel de Expertos de la Ley Eléctrica. Permite buscar por término o analizar dictámenes en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar consideraciones por tema.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "query": {
           "type": "string",
-          "description": "Materia o empresa en controversia (ej. 'peajes', 'coordinador electrico')"
+          "description": "Materia, número de discrepancia o empresa en controversia (ej. 'peajes', '12-2023')"
+        },
+        "numero": {
+          "type": "string",
+          "description": "Número de dictamen o discrepancia a analizar (ej. '12-2023')"
+        },
+        "numeros": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de dictámenes o discrepancias para análisis en lote"
+        },
+        "tema_relevante": {
+          "type": "string",
+          "description": "Tema controvertido para rankear y citar la determinación técnica pertinente"
+        },
+        "descargar_formato": {
+          "type": "string",
+          "enum": [
+            "pdf"
+          ],
+          "description": "Descargar el PDF oficial firmado del dictamen ('pdf')"
+        },
+        "convertir_a_md_y_graficar": {
+          "type": "boolean",
+          "default": false,
+          "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"
         }
-      },
-      "required": [
-        "query"
-      ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "cmf_search_normativa",
-    "description": "Busca Normas de Carácter General (NCG) y circulares de la Comisión para el Mercado Financiero (CMF).",
+    "description": "Busca Normas de Carácter General (NCG) y circulares de la Comisión para el Mercado Financiero (CMF). Permite buscar por término o analizar normas en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar disposiciones por tema.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "query": {
           "type": "string",
           "description": "Término o número de NCG (ej. '461', 'gobierno corporativo', 'sostenibilidad')"
+        },
+        "numero": {
+          "type": "string",
+          "description": "Número de NCG o resolución a analizar (ej. '461')"
+        },
+        "numeros": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de números de NCG para análisis en lote"
+        },
+        "tema_relevante": {
+          "type": "string",
+          "description": "Punto de mercado o regulatorio controvertido para rankear y citar disposiciones específicas"
+        },
+        "descargar_formato": {
+          "type": "string",
+          "enum": [
+            "pdf"
+          ],
+          "description": "Descargar el PDF oficial de la norma ('pdf')"
+        },
+        "convertir_a_md_y_graficar": {
+          "type": "boolean",
+          "default": false,
+          "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"
         }
-      },
-      "required": [
-        "query"
-      ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "sii_search_circulares",
-    "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026).",
+    "description": "Busca circulares e instrucciones oficiales del Director del Servicio de Impuestos Internos (SII) (2020-2026). Permite buscar por término o analizar circulares en lote/individuales, descargar PDF oficial, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar instrucciones por tema.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "query": {
           "type": "string",
           "description": "Materia tributaria o año (ej. 'iva servicios', 'gasto tributario', '2024')"
+        },
+        "numero": {
+          "type": "string",
+          "description": "Número de circular a analizar (ej. '45', '35')"
+        },
+        "numeros": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de circulares para análisis en lote"
+        },
+        "tema_relevante": {
+          "type": "string",
+          "description": "Tema tributario controvertido para rankear y citar la instrucción pertinente"
+        },
+        "descargar_formato": {
+          "type": "string",
+          "enum": [
+            "pdf"
+          ],
+          "description": "Descargar el PDF oficial de la circular ('pdf')"
+        },
+        "convertir_a_md_y_graficar": {
+          "type": "boolean",
+          "default": false,
+          "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"
         }
-      },
-      "required": [
-        "query"
-      ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "sma_search_sancionatorios",
-    "description": "Busca expedientes y procedimientos sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA).",
+    "description": "Busca expedientes y procedimientos sancionatorios ambientales en el SNIFA de la Superintendencia del Medio Ambiente (SMA). Permite analizar expedientes individuales o en lote, estructurar la formulación de cargos, convertir a Markdown canónico e ingestar en LegalGraphify.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "query": {
           "type": "string",
           "description": "Nombre de empresa o titular sancionado (ej. 'Minera', 'Poblacion', 'D-160')"
+        },
+        "expediente": {
+          "type": "string",
+          "description": "Rol de expediente SNIFA a analizar (ej. 'D-045-2023', 'D-160-2026')"
+        },
+        "expedientes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de expedientes SNIFA para análisis en lote"
+        },
+        "tema_relevante": {
+          "type": "string",
+          "description": "Punto ambiental controvertido para rankear y citar infracciones específicas"
+        },
+        "convertir_a_md_y_graficar": {
+          "type": "boolean",
+          "default": false,
+          "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"
         }
-      },
-      "required": [
-        "query"
-      ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "tdlc_search_jurisprudencia",
-    "description": "Busca sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC).",
+    "description": "Busca sentencias, resoluciones e instrucciones de carácter general del Tribunal de Defensa de la Libre Competencia (TDLC). Permite analizar sentencias individuales o en lote, descargar PDF oficial, aplicar OCR forense si es necesario, convertir a Markdown canónico, ingestar en LegalGraphify y desglosar consideraciones y resolutivos por tema.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "query": {
           "type": "string",
           "description": "Materia o empresa contenciosa (ej. 'colusion farmacias', 'abuso posicion dominante')"
+        },
+        "numero": {
+          "type": "string",
+          "description": "Número de sentencia o resolución TDLC a analizar (ej. '216/2026', '180/2022')"
+        },
+        "numeros": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de sentencias TDLC para análisis en lote"
+        },
+        "tema_relevante": {
+          "type": "string",
+          "description": "Punto controvertido de libre competencia para rankear y citar el resolutivo pertinente"
+        },
+        "descargar_formato": {
+          "type": "string",
+          "enum": [
+            "pdf"
+          ],
+          "description": "Descargar el PDF oficial firmado ('pdf')"
+        },
+        "convertir_a_md_y_graficar": {
+          "type": "boolean",
+          "default": false,
+          "description": "Convierte a Markdown canónico e ingesta en LegalGraphify"
         }
-      },
-      "required": [
-        "query"
-      ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -298,6 +538,11 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -345,6 +590,11 @@
         "derecho",
         "peticiones"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "openWorldHint": false
     }
   },
   {
@@ -399,6 +649,11 @@
       "required": [
         "pdf_path"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -461,6 +716,11 @@
         "markdown_content",
         "output_pdf_path"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "openWorldHint": false
     }
   },
   {
@@ -477,6 +737,11 @@
       "required": [
         "query_or_url"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -485,6 +750,11 @@
     "inputSchema": {
       "type": "object",
       "properties": {}
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -501,6 +771,11 @@
       "required": [
         "title"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -526,6 +801,11 @@
         "notebook_id",
         "file_path"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -547,6 +827,11 @@
         "notebook_id",
         "prompt"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -578,6 +863,11 @@
         "nodes",
         "edges"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -606,6 +896,11 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -626,6 +921,11 @@
       "required": [
         "nombre"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -634,6 +934,11 @@
     "inputSchema": {
       "type": "object",
       "properties": {}
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -676,6 +981,11 @@
       "required": [
         "file_path"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "openWorldHint": false
     }
   },
   {
@@ -695,6 +1005,11 @@
           "default": "media"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -711,6 +1026,11 @@
       "required": [
         "tema"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -728,6 +1048,11 @@
           "description": "Tipo ('definicion', 'plazo')"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -749,6 +1074,11 @@
       "required": [
         "resolucion_texto"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -768,6 +1098,11 @@
           "default": 15
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -794,6 +1129,11 @@
         "tipo_contrato",
         "fecha_vencimiento"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -815,6 +1155,11 @@
       "required": [
         "texto_resolucion"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -835,6 +1180,11 @@
       "required": [
         "materia"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -856,6 +1206,11 @@
       "required": [
         "borrador_texto"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -887,6 +1242,11 @@
         "rut",
         "datos_solicitados"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -918,6 +1278,11 @@
         "infractor",
         "hechos_infraccion"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -939,6 +1304,11 @@
       "required": [
         "marca_propuesta"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -963,6 +1333,11 @@
       "required": [
         "inscripciones"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -977,6 +1352,11 @@
           "default": "urbano"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -993,6 +1373,11 @@
       "required": [
         "texto_mandato"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1018,6 +1403,11 @@
         "numero",
         "fecha"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1043,6 +1433,11 @@
         "codigo",
         "fecha"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1059,6 +1454,11 @@
       "required": [
         "rut"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1075,22 +1475,66 @@
       "required": [
         "organo"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "pjud_analizar_sentencia",
-    "description": "Desglosa estructuralmente una sentencia judicial chilena conforme al Art. 170 CPC (parte expositiva, considerandos de hecho/derecho, parte resolutiva, votos disidentes y costas Art. 144 CPC).",
+    "description": "Desglosa estructuralmente sentencias judiciales chilenas conforme al Art. 170 CPC. Soporta fallos individuales o lotes (roles múltiples/línea jurisprudencial), descarga oficial en PDF/DOCX desde juris.pjud.cl, conversión a Markdown canónico, ingesta en LegalGraphify y ranking/citación de considerandos relevantes por tema.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "texto_sentencia": {
           "type": "string",
-          "description": "Texto completo o extracto de la sentencia judicial"
+          "description": "Texto completo o extracto de una sentencia judicial (opcional si se especifica 'rol' o 'roles')"
+        },
+        "rol": {
+          "type": "string",
+          "description": "Rol de la causa judicial a buscar y analizar en vivo (ej. '14076-2026', '504-2026')"
+        },
+        "roles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de Roles de causas para análisis en lote y construcción de líneas jurisprudenciales (ej. ['14076-2026', '45123-2021'])"
+        },
+        "corte": {
+          "type": "string",
+          "enum": [
+            "cs",
+            "ca"
+          ],
+          "default": "cs",
+          "description": "Tribunal a consultar: 'cs' (Corte Suprema) o 'ca' (Cortes de Apelaciones)"
+        },
+        "tema_relevante": {
+          "type": "string",
+          "description": "Tema o punto controvertido del caso para rankear y citar el considerando pertinente (ej. 'descuento de AFC', 'confianza legítima')"
+        },
+        "descargar_formato": {
+          "type": "string",
+          "enum": [
+            "pdf",
+            "docx"
+          ],
+          "description": "Formato de archivo oficial a descargar desde juris.pjud.cl ('pdf' o 'docx')"
+        },
+        "convertir_a_md_y_graficar": {
+          "type": "boolean",
+          "default": true,
+          "description": "Si es True, convierte a Markdown canónico (sentencia2md) e ingesta en LegalGraphify"
         }
-      },
-      "required": [
-        "texto_sentencia"
-      ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1107,6 +1551,11 @@
       "required": [
         "texto_proveido"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1130,6 +1579,11 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1143,6 +1597,11 @@
           "description": "Año a listar (por defecto, el año en curso)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1172,6 +1631,11 @@
         "numero",
         "fecha"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1197,6 +1661,11 @@
           "description": "Máximo de resultados (por defecto 50)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1210,6 +1679,11 @@
           "description": "País, materia o documento relacionado (opcional: sin él se listan todos)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1239,6 +1713,11 @@
           "description": "Máximo de resultados (por defecto 20)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1255,6 +1734,11 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1271,6 +1755,11 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1291,6 +1780,11 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1317,6 +1811,11 @@
       "required": [
         "consulta"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1337,6 +1836,11 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1351,11 +1855,16 @@
           "default": false
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "huggingface_search_dataset",
-    "description": "Consulta el repositorio público oficial en Hugging Face Datasets Hub (pablobenavidesj/doctrina-jurisprudencia-chile) y recupera contexto y enlaces directos con citas oficiales.",
+    "description": "Consulta el repositorio público oficial en Hugging Face Datasets Hub (pablobenavidesj/doctrina-jurisprudencia-chile) y recupera contexto y enlaces directos con citas oficiales. Con el mapa del corpus busca primero lo exacto (rol, norma o entidad: la ficha y quién la cita) y cita con la URL fijada a la revisión del dataset.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -1367,11 +1876,32 @@
           "type": "integer",
           "description": "Número máximo de archivos o recursos a devolver (por defecto 5)",
           "default": 5
+        },
+        "rol": {
+          "type": "string",
+          "description": "Rol exacto de una causa (ej. '10641-2024' de la Corte Suprema, '2402-12-INA' del TC, 'R-21-2021' ambiental): trae su ficha y los documentos que la citan (opcional)"
+        },
+        "norma": {
+          "type": "string",
+          "description": "Norma citada (ej. 'art. 1545 del Código Civil', 'Ley 19.300'): los documentos del dataset que la citan (opcional)"
+        },
+        "coleccion": {
+          "type": "string",
+          "description": "Acota a una colección: 'cs' (Corte Suprema), 'tc', 'ta' (tribunales ambientales), 'doc' (doctrina y revistas), 'guia', 'bib' o 'pub' (opcional)"
+        },
+        "entidad": {
+          "type": "string",
+          "description": "Ministro, autor, revista, sala o recurso, por nombre o ID del mapa (ej. 'María Gajardo Harboe', 'revista:rchd'): los documentos vinculados (opcional)"
         }
       },
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1380,6 +1910,11 @@
     "inputSchema": {
       "type": "object",
       "properties": {}
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1394,6 +1929,11 @@
           "default": false
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1402,6 +1942,11 @@
     "inputSchema": {
       "type": "object",
       "properties": {}
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "openWorldHint": false
     }
   },
   {
@@ -1415,6 +1960,11 @@
           "description": "Cuántas comunidades mostrar (por defecto 12)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1441,6 +1991,11 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1467,6 +2022,11 @@
         "origen",
         "destino"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1483,6 +2043,11 @@
       "required": [
         "query"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1499,6 +2064,11 @@
       "required": [
         "objetivo"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1513,6 +2083,11 @@
           "default": 10
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1528,6 +2103,36 @@
         "recurrente": {
           "type": "object",
           "description": "Datos del recurrente: nombre, run, domicilio, email, profesion_oficio, representado_nombre (opcional), representado_run (opcional)",
+          "properties": {
+            "nombre": {
+              "type": "string",
+              "description": "Nombre completo del recurrente"
+            },
+            "run": {
+              "type": "string",
+              "description": "RUN del recurrente (ej. 12.345.678-9)"
+            },
+            "domicilio": {
+              "type": "string",
+              "description": "Domicilio del recurrente"
+            },
+            "email": {
+              "type": "string",
+              "description": "Correo electrónico para notificaciones"
+            },
+            "profesion_oficio": {
+              "type": "string",
+              "description": "Profesión u oficio"
+            },
+            "representado_nombre": {
+              "type": "string",
+              "description": "Nombre de la persona representada (opcional)"
+            },
+            "representado_run": {
+              "type": "string",
+              "description": "RUN de la persona representada (opcional)"
+            }
+          },
           "required": [
             "nombre",
             "run",
@@ -1538,6 +2143,28 @@
         "recurrido": {
           "type": "object",
           "description": "Datos de la recurrida: nombre, rut (opcional o 'se desconoce'), domicilio (opcional), email (opcional), representante_legal (opcional)",
+          "properties": {
+            "nombre": {
+              "type": "string",
+              "description": "Nombre o razón social de la recurrida"
+            },
+            "rut": {
+              "type": "string",
+              "description": "RUT de la recurrida, o 'se desconoce'"
+            },
+            "domicilio": {
+              "type": "string",
+              "description": "Domicilio de la recurrida (opcional)"
+            },
+            "email": {
+              "type": "string",
+              "description": "Correo electrónico de la recurrida (opcional)"
+            },
+            "representante_legal": {
+              "type": "string",
+              "description": "Representante legal (opcional)"
+            }
+          },
           "required": [
             "nombre"
           ]
@@ -1554,9 +2181,23 @@
           "type": "array",
           "description": "Cronología de hechos numerados. Cada elemento puede ser texto o dict con 'texto' y 'anexo' (ej. 'Anexo 1')",
           "items": {
-            "type": [
-              "string",
-              "object"
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "texto": {
+                    "type": "string",
+                    "description": "Relato del hecho"
+                  },
+                  "anexo": {
+                    "type": "string",
+                    "description": "Anexo que lo acredita (ej. 'Anexo 1')"
+                  }
+                }
+              }
             ]
           }
         },
@@ -1619,6 +2260,11 @@
         "hechos",
         "garantias"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "openWorldHint": false
     }
   },
   {
@@ -1627,6 +2273,11 @@
     "inputSchema": {
       "type": "object",
       "properties": {}
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1657,6 +2308,11 @@
         "agent_name",
         "task"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1670,11 +2326,16 @@
           "description": "Directorio destino para guardar los archivos de configuración (opcional)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "consulta_maestra",
-    "description": "PRIMER PASO OBLIGATORIO de toda consulta jurídica: consulta el dataset de Hugging Face, la doctrina canónica, el grafo y las normas chilenas detectadas en la consulta, y devuelve las fuentes con su TEXTO LITERAL y su corchete de cita listo para pegar. Usala antes de responder aunque creas saber la respuesta: el producto no cita de memoria. Si la materia es ambiental (SMA, SEIA/RCA, daño ambiental, humedales, Tribunales Ambientales), el primer paso es el módulo `ambiental_consulta_maestra`, que cubre además los anuarios, boletines y la biblioteca ambiental completos.",
+    "description": "PRIMER PASO OBLIGATORIO de toda consulta jurídica: consulta simultáneamente el dataset de Hugging Face, la doctrina canónica, el grafo, las normas chilenas (BCN) y los organismos oficiales del Estado según la materia detectada (DT, CGR, SII, PJUD, SMA, CMF, etc.), devolviendo las fuentes con su TEXTO LITERAL y su corchete de cita listo para pegar. Usala antes de responder aunque creas saber la respuesta: el producto no cita de memoria. Si la materia es ambiental (SMA, SEIA/RCA, daño ambiental, humedales, Tribunales Ambientales), el primer paso es el módulo `ambiental_consulta_maestra`, que cubre además los anuarios, boletines y la biblioteca ambiental completos.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -1690,6 +2351,11 @@
       "required": [
         "consulta"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1710,6 +2376,11 @@
           "description": "Lote de normas a verificar juntas (ej. ['Ley 19.300 art. 47', 'Ley 20.417 art. 48']). Lo que falle queda en `faltantes`."
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1718,11 +2389,16 @@
     "inputSchema": {
       "type": "object",
       "properties": {}
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "suite_instalar",
-    "description": "Deja el harness configurado y verificado en un paso: detecta los harnesses de la carpeta (Claude Code, Cursor, VS Code, dsh, Codex, Antigravity), escribe su configuración MCP si escribir=True y devuelve el estado del doctor. Equivale a `openlegal instalar` en la terminal.",
+    "description": "Deja el harness configurado y verificado en un paso: detecta los harnesses de la carpeta (Claude Code, Cursor, VS Code, dsh, Codex, Antigravity), escribe su configuración MCP si escribir=True, deja descargado el mapa del corpus de Hugging Face (verificado, con avances) y devuelve el estado del doctor. Equivale a `openlegal instalar` en la terminal.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -1735,6 +2411,11 @@
           "description": "true para dejar la configuración escrita (con respaldo)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "openWorldHint": false
     }
   },
   {
@@ -1759,11 +2440,16 @@
       "required": [
         "pdf_path"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
     "name": "busqueda_universal",
-    "description": "Busca un término a la vez en los 10 organismos del Estado (BCN, CGR, DT, PJUD, TC, CNE, Panel de Expertos, CMF, SII, SMA/TDLC) y devuelve los resultados con sus citas listas.",
+    "description": "Busca un término a la vez en el dataset de Hugging Face y en los 10 organismos del Estado (BCN, CGR, DT, PJUD, TC, CNE, Panel de Expertos, CMF, SII, SMA/TDLC), devolviendo los resultados con sus citas listas y texto literal.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -1775,6 +2461,11 @@
       "required": [
         "consulta"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1795,6 +2486,11 @@
       "required": [
         "texto"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1890,6 +2586,11 @@
         "tipo",
         "hechos"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "openWorldHint": false
     }
   },
   {
@@ -1911,6 +2612,11 @@
           "description": "Carpeta donde vive el perfil (por defecto, la actual)"
         }
       }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1919,6 +2625,11 @@
     "inputSchema": {
       "type": "object",
       "properties": {}
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   },
   {
@@ -1935,6 +2646,11 @@
       "required": [
         "nombre"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
     }
   }
 ]

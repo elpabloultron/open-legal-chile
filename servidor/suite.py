@@ -4,7 +4,12 @@ from typing import TYPE_CHECKING, Any
 if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de mcp_server
     from mcp_server import (
         _listar_skills,
+        enviar_progreso,
     )
+
+# Cuánto espera suite_instalar al mapa del corpus antes de responder (la descarga sigue en segundo
+# plano si no alcanzó: el cliente del mapa la termina igual).
+ESPERA_MAPA_INSTALAR = 120.0
 
 
 def _refrescar() -> None:
@@ -30,7 +35,8 @@ TOOLS = [
         "name": "suite_instalar",
         "description": "Deja el harness configurado y verificado en un paso: detecta los harnesses de la carpeta "
                        "(Claude Code, Cursor, VS Code, dsh, Codex, Antigravity), escribe su configuración MCP si "
-                       "escribir=True y devuelve el estado del doctor. Equivale a `openlegal instalar` en la terminal.",
+                       "escribir=True, deja descargado el mapa del corpus de Hugging Face (verificado, con avances) "
+                       "y devuelve el estado del doctor. Equivale a `openlegal instalar` en la terminal.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -83,6 +89,31 @@ TOOLS = [
 ]
 
 
+def _asegurar_mapa_con_avances(espera: float = ESPERA_MAPA_INSTALAR) -> dict:
+    """Deja listo el mapa del corpus (descarga verificada + índice), informando avances al cliente
+    MCP. Si no alcanza en `espera` segundos, responde igual: la descarga sigue en segundo plano."""
+    import time
+    try:
+        from mapa_corpus.cliente import obtener_cliente
+        cliente = obtener_cliente()
+        if not cliente.habilitado:
+            return cliente.estado_breve()
+        cliente.asegurar()
+        inicio = time.monotonic()
+        while cliente.descargando and time.monotonic() - inicio < espera:
+            enviar_progreso("Mapa del corpus de Hugging Face: descarga e índice", int(time.monotonic() - inicio),
+                            int(espera))
+            time.sleep(2.0)
+        breve = dict(cliente.estado_breve())
+        if cliente.descargando:
+            breve["nota"] = "la descarga del mapa sigue en segundo plano: las herramientas lo usarán al terminar"
+        if cliente.error:
+            breve["error"] = cliente.error
+        return breve
+    except Exception as e:  # noqa: BLE001 — sin mapa, la instalación igual queda hecha
+        return {"activo": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
+
+
 def despachar(name: str, args: dict) -> Any:
     _refrescar()
     if name == "suite_doctor":
@@ -98,17 +129,21 @@ def despachar(name: str, args: dict) -> Any:
         return resumen
     elif name == "suite_instalar":
         import integraciones_harness as ih
+        from config import servidor_actual
         from diagnostico import diagnostico_completo
 
         carpeta = args.get("carpeta") or "."
         detectados = ih.detectar_instalados(carpeta)
         escritos = ih.escribir_todos(detectados, carpeta_base=carpeta) if (detectados and args.get("escribir")) else []
+        mapa = _asegurar_mapa_con_avances()
         resumen = diagnostico_completo()
         return {
             "harnesses": detectados,
             "escritos": [{"cliente": r.get("cliente"), "archivo": r.get("archivo"), "estado": r.get("estado")} for r in escritos],
+            "mapa": mapa,
             "doctor": {"estado": resumen["estado"]},
-            "herramientas": len(TOOLS),
+            # Las del servidor completo (87), no las de este módulo: `TOOLS` acá son solo las de la suite.
+            "herramientas": len(getattr(servidor_actual(), "TOOLS", TOOLS)),
             "verificacion": "openlegal doctor",
             "nota": "con escribir=True deja la configuración escrita; el harness tiene que reiniciarse para verla",
         }
