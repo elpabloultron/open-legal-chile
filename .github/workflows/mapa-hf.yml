@@ -44,6 +44,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: read
+      actions: read            # ver si hay una «Ingesta TC» en curso
     outputs:
       cambio: ${{ steps.estado.outputs.cambio }}
       puntero: ${{ steps.estado.outputs.puntero }}
@@ -83,14 +84,22 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN_LECTURA }}
           MODO_PEDIDO: ${{ inputs.modo }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           extra=""
           if [ "$MODO_PEDIDO" = "completo" ]; then extra="--sin-base"; fi
           # El cron no hace la primera construcción: esa se lanza a mano (modo completo).
           if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then extra="$extra --requiere-base"; fi
-          # A mano se construye aunque el dataset haya cambiado hace poco (p. ej., recién subido el
-          # TC): si quedara a medias, la corrida diaria lo completa.
-          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then extra="$extra --ignorar-movimiento"; fi
+          # A mano se construye aunque el dataset haya cambiado hace poco (p. ej., recién subido el TC),
+          # salvo que una «Ingesta TC» siga subiendo lotes: ahí se espera, para no publicar a medias.
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            subiendo=$(gh run list --workflow ingesta-tc.yml --status in_progress --json databaseId --jq length 2>/dev/null || echo 1)
+            if [ "${subiendo:-1}" = "0" ]; then
+              extra="$extra --ignorar-movimiento"
+            else
+              echo "::notice title=Mapa del corpus::Hay una «Ingesta TC» en curso: se respeta la espera de 45 min tras el último cambio."
+            fi
+          fi
           if [ -f "$TRABAJO/puntero_pr.json" ]; then extra="$extra --puntero-pr $TRABAJO/puntero_pr.json"; fi
           python -m mapa_corpus estado --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT" $extra
 

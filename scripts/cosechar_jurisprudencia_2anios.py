@@ -180,7 +180,7 @@ def tc_compacto(it: dict) -> dict:
         "tipo": (it.get("template", {}) or {}).get("nombre", ""),
         # La gestión pendiente de la ficha NO siempre es de esta causa (en las fichas antiguas casi
         # nunca): tc_pdfs_a_md la escribe solo si sus números aparecen en el texto oficial.
-        "caratula": campos.get("Gestión pendiente", "")[:200],
+        "caratula": campos.get("Gestión pendiente", "")[:600],
         "precepto": (campos.get("Precepto legal impugnado") or campos.get("Precepto legal", ""))[:300],
         "resultado": campos.get("Resultado", ""),
         "ministro": campos.get("Ministro", ""),
@@ -211,9 +211,16 @@ def link_documento_tc(folio: object) -> str:
     return f"https://buscador-backend.tcchile.cl/api/extended/{int(numero)}/download" if numero else ""
 
 
+def _recortar(texto: str, largo: int = 200) -> str:
+    """La cosecha anterior guardaba la gestión cortada a 200 caracteres, a veces a mitad de palabra."""
+    if len(texto) < largo:
+        return texto
+    return texto[: texto.rfind(" ")].rstrip(" ,;:") + " …" if " " in texto else texto
+
+
 def _caratulas_previas(salida: pathlib.Path) -> dict[str, str]:
-    """La gestión pendiente de la cosecha anterior, por rol. La API dejó de entregarla en 2026 y las
-    de esa cosecha sí eran de su causa; tc_pdfs_a_md igual la verifica contra el texto oficial."""
+    """La gestión pendiente de la cosecha anterior, por rol. La API dejó de entregarla en 2026; la de
+    esa cosecha no siempre era de su causa, por eso tc_pdfs_a_md la verifica contra el texto oficial."""
     previas: dict[str, str] = {}
     if salida.exists():
         for linea in salida.read_text(encoding="utf-8").splitlines():
@@ -222,7 +229,7 @@ def _caratulas_previas(salida: pathlib.Path) -> dict[str, str]:
             except ValueError:
                 continue
             if reg.get("rol") and _valor_ficha(reg.get("caratula")):   # la cosecha vieja guardaba «None»
-                previas[reg["rol"]] = _valor_ficha(reg.get("caratula"))
+                previas[reg["rol"]] = _recortar(_valor_ficha(reg.get("caratula")))
     return previas
 
 
@@ -238,14 +245,21 @@ def _pedir_dia(dia: str, page: int, s: requests.Session, intentos: int = 4) -> d
     return None
 
 
+CORTE_DIAS_SEGUIDOS = 10   # tantos días seguidos sin respuesta: la API está caída o nos bloqueó
+
+
 def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "",
-                fallidos: pathlib.Path | None = None) -> pathlib.Path:
+                fallidos: pathlib.Path | None = None, reservadas: pathlib.Path | None = None,
+                max_minutos: float = 0) -> pathlib.Path:
     """La API del TC ordena por ingreso; se consulta día por día con fecha exacta, de `hasta`
     (por defecto hoy) hacia atrás hasta `desde`. Sin tope de días por defecto: el rango lo acota
     (una ampliación desde 2021 recorre más de 2 000 días).
 
     Un día que no responde tras los reintentos se vuelve a pedir al final; si sigue fallando se
-    anota en `fallidos` (la Action termina en rojo para que se relance) en vez de perderse callado."""
+    anota en `fallidos` (la Action termina en rojo para que se relance) en vez de perderse callado.
+    Si fallan CORTE_DIAS_SEGUIDOS días seguidos, o se agota `max_minutos`, la cosecha se detiene, anota
+    el rango pendiente y deja que la conversión y la subida sigan con lo ya cosechado. Las causas
+    reservadas se anotan en `reservadas` («<folio>-<código>.md») para retirarlas de HF."""
     salida = DATA_DIR / "tc_sentencias_2anios.jsonl"
     previas = _caratulas_previas(salida)
     fin = dt.date.fromisoformat(desde)
@@ -254,7 +268,9 @@ def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "",
     s = requests.Session()
     vistos: set[str] = set()
     omitidas: dict[str, int] = {"reservada": 0, "prueba": 0}
+    nombres_reservados: list[str] = []
     total = 0
+    inicio = time.monotonic()
 
     def cosechar_dia(fecha: str, f) -> bool:
         nonlocal total
@@ -268,6 +284,8 @@ def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "",
                 motivo = motivo_para_omitir(it)
                 if motivo:
                     omitidas[motivo] += 1
+                    if motivo == "reservada" and it.get("folio"):
+                        nombres_reservados.append(f"{it['folio']}-{it.get('codigo', '')}.md")
                     continue
                 c = tc_compacto(it)
                 if not c["fecha"] or c["fecha"] < desde or c["rol"] in vistos:
@@ -286,17 +304,33 @@ def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "",
             time.sleep(PAUSA)
 
     pendientes: list[str] = []
+    cortado = ""
     with open(salida, "w", encoding="utf-8") as f:
-        contador_dias = 0
+        contador_dias = seguidos = 0
         while dia >= fin and (not limite_dias or contador_dias < limite_dias):
-            if not cosechar_dia(dia.isoformat(), f):
+            if max_minutos and time.monotonic() - inicio > max_minutos * 60:
+                cortado = f"se agotó el tiempo ({max_minutos:g} min)"
+                break
+            if cosechar_dia(dia.isoformat(), f):
+                seguidos = 0
+            else:
                 pendientes.append(dia.isoformat())
+                seguidos += 1
+                if seguidos >= CORTE_DIAS_SEGUIDOS:
+                    cortado = f"{seguidos} días seguidos sin respuesta de la API"
+                    dia -= dt.timedelta(days=1)
+                    break
             contador_dias += 1
             if contador_dias % 30 == 0:
                 print(f"[TC] … {dia.isoformat()} · van {total} sentencias")
             time.sleep(PAUSA)
             dia -= dt.timedelta(days=1)
-        if pendientes:
+        if cortado:
+            # Lo que quedó sin recorrer va como un rango para relanzar, sin golpear más a la API.
+            if dia >= fin:
+                pendientes.append(f"{fin.isoformat()}..{dia.isoformat()}")
+            print(f"::warning::TC: cosecha detenida ({cortado}); queda pendiente lo anotado en los fallidos")
+        elif pendientes:
             print(f"[TC] reintentando {len(pendientes)} día(s) que no respondieron …")
             time.sleep(10)
             pendientes = [d for d in pendientes if not cosechar_dia(d, f)]
@@ -306,6 +340,8 @@ def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "",
         print(f"::warning::TC: {len(pendientes)} día(s) sin respuesta de la API: {', '.join(pendientes[:20])}")
     if fallidos is not None:
         fallidos.write_text("".join(f"{d}\n" for d in pendientes), encoding="utf-8")
+    if reservadas is not None:
+        reservadas.write_text("".join(f"{n}\n" for n in sorted(set(nombres_reservados))), encoding="utf-8")
     return salida
 
 
@@ -316,13 +352,17 @@ def main() -> int:
     ap.add_argument("--hasta", default="", help="TC: última fecha a consultar (YYYY-MM-DD; por defecto hoy)")
     ap.add_argument("--limite-paginas", type=int, default=1500)
     ap.add_argument("--fallidos", default="", help="TC: archivo donde anotar los días que la API no respondió")
+    ap.add_argument("--reservadas", default="", help="TC: archivo donde anotar las causas reservadas omitidas")
+    ap.add_argument("--max-minutos", type=float, default=0, help="TC: detener la cosecha pasado este tiempo")
     args = ap.parse_args()
 
     if args.tribunal in ("cs", "ambos"):
         cosechar_cs(args.desde, args.limite_paginas)
     if args.tribunal in ("tc", "ambos"):
         cosechar_tc(args.desde, hasta=args.hasta,
-                    fallidos=pathlib.Path(args.fallidos) if args.fallidos else None)
+                    fallidos=pathlib.Path(args.fallidos) if args.fallidos else None,
+                    reservadas=pathlib.Path(args.reservadas) if args.reservadas else None,
+                    max_minutos=args.max_minutos)
     return 0
 
 

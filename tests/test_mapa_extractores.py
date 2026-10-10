@@ -59,6 +59,15 @@ def test_tc_una_resolucion_que_cita_otro_rol_antes_del_suyo_no_queda_desalineada
     assert fila["fecha"] == "2024-10-29"                    # la de la resolución, no la de presentación
 
 
+def test_tc_un_pie_sin_anio_con_un_precedente_antes_no_queda_desalineado():
+    """El mismo criterio que la conversión: «Rol N° 16.615-INA» al pie es el rol propio, aunque antes
+    se cite «STC Rol N° 8536-20-INA»."""
+    cuerpo = ("Santiago, tres de marzo de dos mil veinticinco. Como resolvió la STC Rol N° 8536-20-INA, "
+              + "considerando. " * 50 + "Proveído. Rol N° 16.615-INA.")
+    fila = _extraer("jurisprudencia_tc/16615-06b-INA.md", _md_tc("16615-06b-INA", "2025-03-03", cuerpo))
+    assert fila["id"] == "tc:16615" and not fila.get("calidad")
+
+
 def test_basura_de_prueba_del_scraper_no_se_inventaria():
     assert inventario.excluido("jurisprudencia_tc/testrol2-34566.md")
     assert not inventario.excluido("jurisprudencia_tc/2402-12-INA.md")

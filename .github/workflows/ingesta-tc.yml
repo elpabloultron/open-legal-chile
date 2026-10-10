@@ -68,11 +68,14 @@ jobs:
 
       - name: Cosechar las fichas del TC (día por día)
         run: |
+          # Con la API caída se detiene sola (10 días seguidos sin respuesta o 240 min) y sigue con lo
+          # cosechado; lo pendiente queda anotado para relanzar.
           python scripts/cosechar_jurisprudencia_2anios.py --tribunal tc --desde "$DESDE" --hasta "$HASTA" \
-            --fallidos "$RUNNER_TEMP/tc_dias_fallidos.txt"
+            --fallidos "$RUNNER_TEMP/tc_dias_fallidos.txt" --reservadas "$RUNNER_TEMP/tc_reservadas.txt" \
+            --max-minutos 240
 
       - name: Convertir los PDF oficiales a Markdown (verificando el rol)
-        run: python scripts/tc_pdfs_a_md.py --rehacer
+        run: python scripts/tc_pdfs_a_md.py --rehacer --fallidas "$RUNNER_TEMP/tc_conv_fallidas.txt"
 
       - name: Respaldo de lo convertido (por si la subida falla)
         uses: actions/upload-artifact@v4
@@ -90,22 +93,34 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           SUBIR: ${{ github.event_name == 'schedule' || inputs.subir }}
         run: |
+          extra="--reservadas $RUNNER_TEMP/tc_reservadas.txt"
           if [ "$SUBIR" != "true" ]; then
-            python scripts/subir_tc_hf.py --dry-run
+            python scripts/subir_tc_hf.py --dry-run $extra
           elif [ -z "$HF_TOKEN" ]; then
             echo "::error::Falta el secreto HF_TOKEN (Settings → Secrets and variables → Actions)."
             exit 1
-          elif [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
-            python scripts/subir_tc_hf.py --exigir-subida
+          elif [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] && [ -s data/jurisprudencia/tc_sentencias_2anios.jsonl ]; then
+            # A mano y con fichas cosechadas, que no se suba nada es un error (no lo es un día sin sentencias).
+            python scripts/subir_tc_hf.py --exigir-subida $extra
           else
-            python scripts/subir_tc_hf.py
+            python scripts/subir_tc_hf.py $extra
           fi
 
-      - name: ¿Quedaron días sin cosechar?
+      - name: ¿Quedó algo por relanzar?
+        if: ${{ !cancelled() }}
         run: |
+          rojo=0
           if [ -s "$RUNNER_TEMP/tc_dias_fallidos.txt" ]; then
             echo "### Días que la API del TC no respondió (relanzar con ese rango)" >> "$GITHUB_STEP_SUMMARY"
             sed 's/^/- /' "$RUNNER_TEMP/tc_dias_fallidos.txt" >> "$GITHUB_STEP_SUMMARY"
-            echo "::error::La API del TC no respondió algunos días: lo cosechado se subió, falta relanzar esos días."
+            rojo=1
+          fi
+          if [ -s "$RUNNER_TEMP/tc_conv_fallidas.txt" ]; then
+            echo "### Sentencias cuyo PDF no se pudo bajar (relanzar su rango de fechas)" >> "$GITHUB_STEP_SUMMARY"
+            sed 's/^/- /' "$RUNNER_TEMP/tc_conv_fallidas.txt" >> "$GITHUB_STEP_SUMMARY"
+            rojo=1
+          fi
+          if [ "$rojo" = 1 ]; then
+            echo "::error::Quedaron días o sentencias sin traer por fallas de la red o del TC: ver el resumen y relanzar."
             exit 1
           fi
