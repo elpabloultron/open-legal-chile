@@ -1,0 +1,233 @@
+"""Jurisprudencia y casos con el mapa del corpus: primero el mapa, después el corpus local.
+
+Con el mapa diminuto de `tests/conftest.py` (sin red). Sin mapa (el estado por defecto de la
+suite), todo responde exactamente como antes.
+"""
+
+import pytest
+
+import case_intake
+import pjud_connector
+from pjud_connector import buscar_sentencias_locales
+
+SALA_3 = "TERCERA, CONSTITUCIONAL"
+
+
+def test_rol_exacto_viene_del_mapa_con_url_fijada(mapa_activo):
+    res = buscar_sentencias_locales("Rol 10641-2024", limit=5)
+    primero = res[0]
+    assert primero["origen"] == "mapa_hf" and primero["id_mapa"] == "cs:10641-2024"
+    assert primero["tribunal"] == "Corte Suprema" and primero["rol"] == "10641-2024"
+    assert primero["sala"] == SALA_3 and primero["ministros"] == "MARÍA GAJARDO HARBOE"
+    assert primero["link"] == primero["url_huggingface"]
+    assert f"/blob/{'9' * 40}/jurisprudencia_cs/2024/03/10641-2024.md" in primero["url_huggingface"]
+    assert primero["url_vigente"].endswith("/blob/main/jurisprudencia_cs/2024/03/10641-2024.md")
+
+
+def test_fallos_de_una_ministra(mapa_activo):
+    for consulta in ("María Gajardo Harboe", "ministra María Gajardo Harboe"):
+        ids = [r["id_mapa"] for r in buscar_sentencias_locales(consulta, limit=5) if r["origen"] == "mapa_hf"]
+        assert set(ids) == {"cs:10641-2024", "cs:1234-2023"}
+
+
+def test_tribunal_ambiental_por_su_rol(mapa_activo):
+    res = [r for r in buscar_sentencias_locales("R-21-2021 del Tercer Tribunal Ambiental", limit=3)
+           if r["origen"] == "mapa_hf"]
+    assert res and res[0]["id_mapa"] == "ta:3ta:r-21-2021" and res[0]["rol"] == "R-21-2021"
+
+
+def test_no_repite_lo_que_el_mapa_ya_trajo(mapa_activo, monkeypatch):
+    local = {"tribunal": "Corte Suprema", "sala": "Tercera Sala", "rol": "Rol N° 10.641-2024", "fecha": "2026-03-04",
+             "caratula": "Pérez con Fisco", "_texto": "rol 10641-2024 perez con fisco"}
+    otro = {"tribunal": "Corte Suprema", "rol": "Rol N° 777-2020", "fecha": "2020-01-01",
+            "caratula": "Otra causa", "_texto": "rol 10641-2024 otra causa citada"}
+    monkeypatch.setattr(pjud_connector, "_cargar_corpus_local", lambda: [local, otro])
+    res = buscar_sentencias_locales("10641-2024", limit=10)
+    assert [r["origen"] for r in res] == ["mapa_hf", "corpus_local"]
+    assert res[1]["rol"] == "Rol N° 777-2020"
+
+
+def test_tc_local_se_reconoce_por_su_documento_oficial():
+    """La cabecera de los registros del TC suele ser de otra causa: la identidad sale del
+    documento oficial, igual que en el mapa."""
+    registro = {"tribunal": "Tribunal Constitucional", "rol": "Rol N° 16674-06a-INA",
+                "link": "https://buscador-backend.tcchile.cl/api/extended/13532/download"}
+    assert pjud_connector._id_canonico_registro(registro) == "tc:13532"
+    assert pjud_connector._id_canonico_registro({"tribunal": "Corte Suprema", "rol": "Rol N° 45.123-2021"}) == \
+        "cs:45123-2021"
+    assert pjud_connector._id_canonico_registro({"tribunal": "3TA", "rol": "R-21-2021"}) == "ta:3ta:r-21-2021"
+
+
+def test_sin_mapa_es_el_corpus_local_de_siempre(monkeypatch):
+    registros = [{"tribunal": "Corte Suprema", "rol": "Rol N° 1-2024", "fecha": "2024-01-01",
+                  "caratula": "Despido injustificado", "_texto": "despido injustificado"}]
+    monkeypatch.setattr(pjud_connector, "_cargar_corpus_local", lambda: registros)
+    res = buscar_sentencias_locales("despido injustificado", limit=5)
+    assert res == [{"tribunal": "Corte Suprema", "rol": "Rol N° 1-2024", "fecha": "2024-01-01",
+                    "caratula": "Despido injustificado", "origen": "corpus_local"}]
+
+
+def test_pjud_search_pasa_los_campos_del_mapa(mapa_activo, tmp_path):
+    cliente = pjud_connector.PJUDClient(db_path=str(tmp_path / "pjud.db"))
+    res = [r for r in cliente.search_jurisprudencia("10641-2024", limit=5) if r.get("origen") == "mapa_hf"]
+    assert res and res[0]["id_mapa"] == "cs:10641-2024" and res[0]["url_huggingface"].startswith("https://")
+    assert res[0]["sala"] == SALA_3
+
+
+def test_mesa_de_entrada_trae_la_ficha_del_rol(mapa_activo, monkeypatch):
+    monkeypatch.setattr("case_workspace.crear_o_cargar_caso", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("x")))
+    analisis = case_intake.caso_analizar("Recurso de protección ante la Corte Suprema, Rol N° 10.641-2024, "
+                                         "sobre la cobertura de una isapre.")
+    fichas = analisis["fichas_mapa"]
+    assert [f["id_mapa"] for f in fichas] == ["cs:10641-2024"]
+    assert fichas[0]["url_huggingface"].startswith("https://huggingface.co/datasets/")
+
+
+def test_mesa_de_entrada_ignora_un_rit_y_no_inventa_fichas(mapa_activo, monkeypatch):
+    monkeypatch.setattr("case_workspace.crear_o_cargar_caso", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("x")))
+    analisis = case_intake.caso_analizar("Juicio laboral RIT O-1234-2023 ante el Juzgado de Letras del Trabajo.")
+    assert "fichas_mapa" not in analisis
+
+
+def test_mesa_de_entrada_sin_mapa_no_agrega_la_clave(monkeypatch):
+    monkeypatch.setattr("case_workspace.crear_o_cargar_caso", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("x")))
+    analisis = case_intake.caso_analizar("Corte Suprema, Rol N° 10.641-2024.")
+    assert "fichas_mapa" not in analisis
+
+
+def test_espacio_del_caso_cita_con_url_fijada_y_guarda_la_revision(tmp_path, monkeypatch):
+    import online_library_sync
+    from case_workspace import CaseWorkspace
+
+    url = "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/blob/" + "9" * 40 + \
+        "/jurisprudencia_cs/2024/03/10641-2024.md"
+    respuesta = {
+        "resultados": [{"archivo": "jurisprudencia_cs/2024/03/10641-2024.md", "url_huggingface": url,
+                        "cita_estandar": "[CS - Rol N° 10.641-2024, Fecha: 04-03-2026]"}],
+        "citas": [{"formato": "[CS - Rol N° 10.641-2024, Fecha: 04-03-2026]",
+                   "archivo": "jurisprudencia_cs/2024/03/10641-2024.md", "texto": "Confirma."}],
+        "mapa": {"activo": True, "revision": "local", "sha_fuente": "9" * 40, "fecha_fuente": "2026-10-01"},
+    }
+    monkeypatch.setattr(online_library_sync, "consultar_huggingface_dataset", lambda *a, **k: respuesta)
+    ws = CaseWorkspace(tmp_path / "caso")
+    ws.enriquecer_con_huggingface("Rol 10641-2024")
+    meta = ws.leer_metadatos()
+    assert meta["fuentes_huggingface"] == [{"cita": "[CS - Rol N° 10.641-2024, Fecha: 04-03-2026]",
+                                            "archivo": "jurisprudencia_cs/2024/03/10641-2024.md", "url": url}]
+    assert meta["corpus_huggingface"] == {"revision": "local", "sha_fuente": "9" * 40, "fecha_fuente": "2026-10-01"}
+    assert url in (tmp_path / "caso" / "markdown" / "fuentes_hf.md").read_text(encoding="utf-8")
+
+
+def test_espacio_del_caso_con_la_respuesta_real_de_hf(mapa_activo, tmp_path, monkeypatch):
+    """Las citas reales de `consultar_huggingface_dataset` traen la URL fijada, no el archivo."""
+    import online_library_sync
+    from case_workspace import CaseWorkspace
+
+    monkeypatch.setattr(online_library_sync, "_descargar_trozo_hf", lambda *a, **k: "")
+    ws = CaseWorkspace(tmp_path / "caso")
+    ws.enriquecer_con_huggingface("Rol 10641-2024")
+    fuentes = ws.leer_metadatos()["fuentes_huggingface"]
+    ficha = next(f for f in fuentes if f["archivo"] == "jurisprudencia_cs/2024/03/10641-2024.md")
+    assert f"/blob/{'9' * 40}/jurisprudencia_cs/2024/03/10641-2024.md" in ficha["url"]
+    assert "URL fijada" in (tmp_path / "caso" / "markdown" / "fuentes_hf.md").read_text(encoding="utf-8")
+
+
+@pytest.fixture
+def mapa_con_ruido(fabrica_mapa, tmp_path, monkeypatch):
+    """El mapa diminuto más 30 fallos de 2024: «2024» por texto calzaría con todos."""
+    from conftest import FILAS_MAPA_MINIMO
+    from mapa_corpus import cliente
+
+    ruido = [{"id": f"cs:{100 + i}-2024", "col": "cs", "ruta": f"jurisprudencia_cs/2024/04/{100 + i}-2024.md",
+              "blob": f"{i:040d}", "bytes": 700, "fecha": "2024-04-01", "era": 2024, "rol": f"{100 + i}-2024",
+              "titulo": f"CAUSA {i} CON FISCO", "sala": "sala:cs-3"} for i in range(30)]
+    destino = fabrica_mapa(filas=FILAS_MAPA_MINIMO + ruido, destino=tmp_path / "mapa_ruido")
+    monkeypatch.setenv("OPENLEGAL_MAPA", "")
+    monkeypatch.setenv("OPENLEGAL_MAPA_LOCAL", str(destino))
+    monkeypatch.setenv("OPENLEGAL_MAPA_DIR", str(tmp_path / "cache_ruido"))
+    cliente.reiniciar_cliente()
+    c = cliente.obtener_cliente()
+    assert c.asegurar(bloquear=True, timeout=120), c.error
+    yield c
+    cliente.reiniciar_cliente()
+
+
+@pytest.mark.parametrize("consulta", ["Rol N° 10.641-2024", "Rol 10641-2024", "rol n° 10641-2024"])
+def test_rol_en_formato_oficial_sin_ruido(mapa_con_ruido, monkeypatch, consulta):
+    monkeypatch.setattr(pjud_connector, "_cargar_corpus_local", lambda: [])
+    res = buscar_sentencias_locales(consulta, limit=5)
+    assert [r["id_mapa"] for r in res] == ["cs:10641-2024"]
+
+
+def test_rol_que_el_mapa_no_tiene_no_trae_fallos_del_mismo_anio(mapa_con_ruido, monkeypatch):
+    local = {"tribunal": "Corte Suprema", "rol": "Rol N° 99.999-2024", "fecha": "2024-01-01",
+             "caratula": "Otra", "_texto": "rol 99999-2024 otra"}
+    monkeypatch.setattr(pjud_connector, "_cargar_corpus_local", lambda: [local])
+    res = buscar_sentencias_locales("Rol 99999-2024", limit=5)
+    assert [r["origen"] for r in res] == ["corpus_local"]          # nada del mapa por «2024»
+
+
+# ── Del mapa a la sentencia completa, en vivo ─────────────────────────────────────────────────
+class _ScraperFalso:
+    def __init__(self, docs=None, falla=None):
+        self.docs, self.falla, self.consultas = docs or [], falla, []
+
+    def buscar(self, tipo_corte="cs", texto="", limite=10, offset=0, **_):
+        self.consultas.append(texto)
+        if self.falla:
+            raise self.falla
+        return list(self.docs)
+
+
+def _doc(rol, documento_id, texto="CONSIDERANDO: 1° Que …"):
+    return {"id": f"solr-{documento_id}", "documento_id": documento_id, "rol": rol, "tribunal": "Corte Suprema",
+            "texto_integral": texto}
+
+
+def _cliente_pjud(tmp_path, scraper):
+    cliente = pjud_connector.PJUDClient(db_path=str(tmp_path / "pjud.db"))
+    cliente._scraper = scraper
+    return cliente
+
+
+def test_la_ficha_del_mapa_elige_el_documento_exacto(mapa_activo, tmp_path, monkeypatch):
+    from conftest import FILAS_MAPA_MINIMO
+    ficha = next(f for f in FILAS_MAPA_MINIMO if f["id"] == "cs:10641-2024")
+    otro = _doc("1064-2024", 5, "Otra causa que menciona el 10641-2024")
+    exacto = _doc("10641-2024", 777)
+    monkeypatch.setattr(pjud_connector, "_ficha_cs_del_mapa", lambda rol: dict(ficha, documento_id=777))
+    scraper = _ScraperFalso([otro, _doc("10641-2024", 9), exacto])
+    doc = _cliente_pjud(tmp_path, scraper).get_sentencia_integral("Rol N° 10.641-2024")
+    assert doc["documento_id"] == 777 and doc["id_mapa"] == "cs:10641-2024"
+    assert scraper.consultas == ["10641-2024"]
+
+
+def test_sin_coincidencia_no_se_entrega_otra_causa(tmp_path):
+    scraper = _ScraperFalso([_doc("641-2024", 1, "Otra causa")])
+    doc = _cliente_pjud(tmp_path, scraper).get_sentencia_integral("10641-2024")
+    assert "error" in doc                                   # antes devolvía el primero de la lista
+
+
+def test_sin_juris_pjud_se_entrega_la_ficha_con_aviso(mapa_activo, tmp_path):
+    scraper = _ScraperFalso(falla=ConnectionError("Connection reset by peer"))
+    doc = _cliente_pjud(tmp_path, scraper).get_sentencia_integral("Rol N° 10.641-2024")
+    assert doc["id_mapa"] == "cs:10641-2024" and doc["sala"] == SALA_3 and doc["texto_integral"] == ""
+    assert "Texto íntegro no disponible" in doc["aviso"] and "juris.pjud.cl" in doc["aviso"]
+    assert f"/blob/{'9' * 40}/" in doc["url_huggingface"]
+
+
+def test_sin_mapa_un_fallo_de_red_sigue_siendo_un_error(tmp_path):
+    import pytest
+    scraper = _ScraperFalso(falla=ConnectionError("Connection reset by peer"))
+    with pytest.raises(ConnectionError):
+        _cliente_pjud(tmp_path, scraper).get_sentencia_integral("10641-2024")
+
+
+def test_las_fichas_cs_del_mapa_dicen_como_obtener_el_texto(mapa_activo):
+    import online_library_sync as ols
+    primero = buscar_sentencias_locales("Rol 10641-2024", limit=1)[0]
+    assert "pjud_analizar_sentencia" in primero["como_obtener_texto"] and "10641-2024" in primero["como_obtener_texto"]
+    hf = ols.consultar_huggingface_dataset("Rol 10641-2024", limit=1)["resultados"][0]
+    assert "pjud_analizar_sentencia" in hf["como_obtener_texto"]
+    tc = [r for r in buscar_sentencias_locales("indemnización de perjuicios", limit=5) if r.get("id_mapa", "").startswith("tc:")]
+    assert all("como_obtener_texto" not in r for r in tc)

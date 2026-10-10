@@ -178,7 +178,7 @@ py-modules = [
 "share/openlegal-chile/.agents/skills/ponytail-review" = [".agents/skills/ponytail-review/SKILL.md"]
 
 [tool.setuptools.packages.find]
-include = ["connectors*", "domain*", "doctrina*", "data*", "servidor*"]
+include = ["connectors*", "domain*", "doctrina*", "data*", "servidor*", "mapa_corpus*"]
 namespaces = true
 
 # El corpus doctrinal y el grafo viajan DENTRO del paquete. Antes no: el wheel publicado en
@@ -189,6 +189,9 @@ namespaces = true
 [tool.setuptools.package-data]
 doctrina = ["**/*.md"]
 data = ["**/*.json", "**/*.jsonl"]
+# El puntero al mapa del corpus publicado en HF (revisión fija + sha256) y las versiones con que
+# se construye: el cliente instalado los necesita para descargar y verificar el mapa.
+mapa_corpus = ["puntero.json", "constraints-constructor.txt"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

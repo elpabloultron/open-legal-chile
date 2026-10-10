@@ -1,0 +1,228 @@
+name: Mapa del corpus HF
+
+# Mantiene el mapa de conocimiento del dataset pablobenavidesj/doctrina-jurisprudencia-chile:
+# cada día mira si el dataset cambió; si cambió, reconstruye SOLO lo nuevo (delta por blob), lo
+# valida, lo publica en el propio dataset (data/mapa/, un commit + tag mapa-<n>) y abre un PR que
+# actualiza mapa_corpus/puntero.json. Al fusionar ese PR, todos los clientes consultan el mapa nuevo.
+#
+# Puesta en marcha (dos cosas, ver docs/mapa.md):
+# 1. Secreto HF_TOKEN (Settings → Secrets and variables → Actions): token fine-grained de Hugging
+#    Face con escritura SOLO en el dataset. Puede ir en el repo o en el environment «hf-publicar».
+# 2. Settings → Actions → General → «Allow GitHub Actions to create and approve pull requests».
+# Opcionales: HF_TOKEN_LECTURA (sube el cupo de descargas de HF) y una GitHub App (variable
+# MAPA_APP_ID + secreto MAPA_APP_PRIVATE_KEY) o un PAT MAPA_PR_TOKEN: con ellos el PR del puntero
+# además dispara la CI. Sin ellos el PR se abre con el GITHUB_TOKEN y el puntero se verifica aquí
+# mismo (verificar-puntero), antes de abrirlo.
+# La primera publicación se lanza a mano: Actions → «Mapa del corpus HF» → Run workflow, modo=completo.
+
+on:
+  schedule:
+    - cron: '23 7 * * *'   # 04:23 / 03:23 en Chile
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'delta (solo lo nuevo) o completo (rehacer todo el mapa)'
+        type: choice
+        options: [delta, completo]
+        default: delta
+      publicar:
+        description: 'Publicar en HF y abrir el PR del puntero'
+        type: boolean
+        default: true
+
+concurrency:
+  group: mapa-hf
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  TRABAJO: ${{ github.workspace }}/../mapa-trabajo
+  OPENLEGAL_MAPA_FUENTES: ${{ github.workspace }}/../mapa-fuentes
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      cambio: ${{ steps.estado.outputs.cambio }}
+      puntero: ${{ steps.estado.outputs.puntero }}
+      sha_fuente: ${{ steps.estado.outputs.sha_fuente }}
+      motivo: ${{ steps.estado.outputs.motivo }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Instalar con las versiones fijadas del constructor
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]" -c mapa_corpus/constraints-constructor.txt
+
+      - name: ¿Hay un PR del puntero abierto?
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Si el mapa ya está en HF y su PR sigue abierto, no se rehace el puntero cada día.
+          mkdir -p "$TRABAJO"
+          abiertos=$(gh pr list --head mapa/puntero --state open --json number --jq 'length' 2>/dev/null || echo 0)
+          if [ "${abiertos:-0}" != "0" ] && git fetch --depth=1 origin mapa/puntero; then
+            git show FETCH_HEAD:mapa_corpus/puntero.json > "$TRABAJO/puntero_pr.json" || rm -f "$TRABAJO/puntero_pr.json"
+          fi
+
+      - name: ¿Cambió el dataset?
+        id: estado
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN_LECTURA }}
+          MODO_PEDIDO: ${{ inputs.modo }}
+        run: |
+          extra=""
+          if [ "$MODO_PEDIDO" = "completo" ]; then extra="--sin-base"; fi
+          # El cron no hace la primera construcción: esa se lanza a mano (modo completo).
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then extra="$extra --requiere-base"; fi
+          if [ -f "$TRABAJO/puntero_pr.json" ]; then extra="$extra --puntero-pr $TRABAJO/puntero_pr.json"; fi
+          python -m mapa_corpus estado --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT" $extra
+
+      - name: Caché de fuentes por blob (restaurar)
+        if: steps.estado.outputs.cambio == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.OPENLEGAL_MAPA_FUENTES }}
+          key: mapa-fuentes-${{ steps.estado.outputs.sha_fuente }}
+          restore-keys: mapa-fuentes-
+
+      - name: Construir (solo lo nuevo)
+        if: steps.estado.outputs.cambio == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN_LECTURA }}
+          MODO: ${{ steps.estado.outputs.modo }}
+        run: |
+          python -m mapa_corpus construir --trabajo "$TRABAJO" --modo "$MODO" \
+            --reporte "$TRABAJO/reporte.md" --podar-cache
+
+      - name: Validar el mapa y correr sus pruebas
+        if: steps.estado.outputs.cambio == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN_LECTURA }}
+        run: |
+          python -m mapa_corpus validar --trabajo "$TRABAJO"
+          python -m pytest -q tests/test_mapa_*.py
+
+      - name: Caché de fuentes por blob (guardar)
+        if: always() && steps.estado.outputs.cambio == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ env.OPENLEGAL_MAPA_FUENTES }}
+          key: mapa-fuentes-${{ steps.estado.outputs.sha_fuente }}
+
+      - name: Entregar el mapa al job de publicación
+        if: steps.estado.outputs.cambio == 'true' || steps.estado.outputs.puntero == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: mapa
+          path: |
+            ${{ env.TRABAJO }}/plan.json
+            ${{ env.TRABAJO }}/reporte.md
+            ${{ env.TRABAJO }}/reporte.json
+            ${{ env.TRABAJO }}/mapa/
+            ${{ env.TRABAJO }}/base/estado.json
+          include-hidden-files: false
+          retention-days: 7
+
+  publicar:
+    needs: construir
+    if: >-
+      (needs.construir.outputs.cambio == 'true' || needs.construir.outputs.puntero == 'true') &&
+      (github.event_name == 'schedule' || inputs.publicar)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # El token con escritura en el dataset solo llega a este job (environment con revisores si se quiere).
+    environment: hf-publicar
+    permissions:
+      contents: write          # rama mapa/puntero
+      pull-requests: write     # PR del puntero con el GITHUB_TOKEN
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Instalar con las versiones fijadas del constructor
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e . -c mapa_corpus/constraints-constructor.txt
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: mapa
+          path: ${{ env.TRABAJO }}
+
+      - name: Publicar en HF (un commit con lo que cambió + tag)
+        id: publicar
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          CAMBIO: ${{ needs.construir.outputs.cambio }}
+        run: |
+          if [ "$CAMBIO" != "true" ]; then
+            # El mapa ya está en HF; solo falta el PR de su puntero (una corrida anterior no lo abrió).
+            python -m mapa_corpus puntero --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ -z "$HF_TOKEN" ]; then
+            echo "::notice::Falta el secreto HF_TOKEN (Settings → Secrets and variables → Actions): el mapa se construyó y validó, pero no se publica."
+            echo "publicado=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python -m mapa_corpus publicar --trabajo "$TRABAJO" --github-output "$GITHUB_OUTPUT"
+
+      - name: Verificar el puntero contra lo publicado en HF
+        if: steps.publicar.outputs.publicado == 'true'
+        run: python -m mapa_corpus verificar-puntero
+
+      - name: Credencial para abrir el PR (GitHub App)
+        id: app
+        if: steps.publicar.outputs.publicado == 'true' && vars.MAPA_APP_ID != ''
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.MAPA_APP_ID }}
+          private-key: ${{ secrets.MAPA_APP_PRIVATE_KEY }}
+
+      - name: PR con el puntero nuevo
+        if: steps.publicar.outputs.publicado == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ steps.app.outputs.token || secrets.MAPA_PR_TOKEN || github.token }}
+          branch: mapa/puntero
+          add-paths: mapa_corpus/puntero.json
+          commit-message: "mapa: puntero a la revisión ${{ steps.publicar.outputs.revision_mapa }}"
+          title: "mapa: puntero a la fuente ${{ steps.publicar.outputs.sha_fuente }}"
+          body-path: ${{ env.TRABAJO }}/reporte.md
+          delete-branch: true
+
+  aviso-falla:
+    needs: [construir, publicar]
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Abrir (o comentar) un issue si la actualización del mapa falló
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          titulo="Mapa del corpus HF: falla en la actualización diaria"
+          enlace="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          abierto=$(gh issue list --state open --search "in:title \"$titulo\"" --json number --jq '.[0].number')
+          if [ -n "$abierto" ]; then
+            gh issue comment "$abierto" --body "Vuelve a fallar: $enlace"
+          else
+            gh issue create --title "$titulo" --body "La actualización diaria del mapa del corpus falló: $enlace"
+          fi

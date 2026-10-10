@@ -105,7 +105,29 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_JURISPRUDENCIA = os.path.join(BASE_DIR, "data", "jurisprudencia")
 
 _CORPUS_CACHE: Dict[str, Any] = {"clave": None, "registros": []}
-_CORPUS_EXCLUIDOS = {"link", "link_detalle", "link_pdf", "documento_id", "id_buscador", "archivo_md", "metodo"}
+_CORPUS_EXCLUIDOS = {"link", "link_detalle", "link_pdf", "documento_id", "id_buscador", "archivo_md", "metodo",
+                     "archivo_fuente"}
+
+
+def ruta_hf_corte_suprema(registro: Dict[str, Any]) -> Optional[str]:
+    """La ruta de la ficha de la Corte Suprema en el dataset de HF, o None si no se puede armar.
+
+    El dataset guarda `jurisprudencia_cs/{era}/{mes}/{rol}.md`: la carpeta es la ERA del rol (el
+    año que lleva el rol, «10641-2024» → 2024), no el año de la fecha del fallo, y el mes sí sale
+    de la fecha. Antes se usaba el año de la fecha y el 18,8 % de las rutas no existía (un fallo
+    del 2026-03-04 con rol 10641-2024 vive en 2024/03, no en 2026/03). El rol va sin puntos de
+    miles, como en los nombres de archivo («29.635-2018» → «29635-2018»).
+    """
+    rol = re.sub(r"^\s*Rol\s*N?[°º.]?\s*", "", str(registro.get("rol") or ""), flags=re.IGNORECASE).strip()
+    m = re.fullmatch(r"(\d{1,3}(?:\.\d{3})+|\d{1,7})-(\d{4})", rol)
+    fecha = str(registro.get("fecha") or "").strip()
+    if not m or not re.match(r"^\d{4}-\d{2}", fecha):
+        return None
+    numero = int(m.group(1).replace(".", ""))
+    era = str(registro.get("era") or m.group(2)).strip()
+    if not re.fullmatch(r"\d{4}", era):
+        return None
+    return f"jurisprudencia_cs/{era}/{fecha[5:7]}/{numero}-{m.group(2)}.md"
 
 
 def _rutas_corpus_local() -> List[str]:
@@ -155,10 +177,9 @@ def _extracto_de_sentencia(registro: Dict[str, Any], tokens: List[str]) -> str:
     archivo = str(registro.get("archivo_md") or "").strip()
     if archivo:
         rutas.append(os.path.join(BASE_DIR, archivo))
-    fecha = str(registro.get("fecha") or "")
-    rol = str(registro.get("rol") or "")
-    if rol and re.match(r"^\d{4}-\d{2}", fecha):
-        rutas.append(os.path.join(BASE_DIR, "jurisprudencia_cs", fecha[:4], fecha[5:7], f"{rol}.md"))
+    ruta_cs = ruta_hf_corte_suprema(registro)
+    if ruta_cs:
+        rutas.append(os.path.join(BASE_DIR, *ruta_cs.split("/")))
     for ruta in rutas:
         try:
             if not os.path.isfile(ruta) or os.path.getsize(ruta) < _MIN_TEXTO_SENTENCIA:
@@ -250,6 +271,9 @@ def _cargar_corpus_local() -> List[Dict[str, Any]]:
                         continue
                     vistos.add(firma)
                     registro["_texto"] = _texto_registro(registro)
+                    # De qué archivo del dataset sale el registro: es la cita real cuando el
+                    # registro no tiene una ficha .md propia en HF (p. ej. cs_sentencias.jsonl).
+                    registro["archivo_fuente"] = os.path.relpath(ruta, BASE_DIR).replace(os.sep, "/")
                     registros.append(registro)
         except OSError:
             continue
@@ -258,23 +282,186 @@ def _cargar_corpus_local() -> List[Dict[str, Any]]:
     return registros
 
 
-def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any]]:
-    """Busca en el corpus local cosechado (Corte Suprema de los últimos dos años y TC completo)
-    por carátula, materia, recurso, resultado y doctrina — insensible a acentos.
+_TRIBUNAL_DE_COLECCION = {"cs": "Corte Suprema", "tc": "Tribunal Constitucional"}
+_RE_TRATAMIENTO_PJUD = re.compile(
+    r"^\s*(?:(?:el|la|los|las)\s+)?(?:ministr[oa]s?|magistrad[oa]s?|juez(?:a|as|es)?|sr\.?|sra\.?|don|doña)\s+",
+    re.IGNORECASE)
+_RE_EXTENDED_TC = re.compile(r"/extended/(\d+)/")
+_TA_DE_TRIBUNAL = {"1ta": "1ta", "2ta": "2ta", "3ta": "3ta", "primer": "1ta", "segundo": "2ta", "tercer": "3ta"}
 
-    Puntúa cada registro por los términos que contiene (los términos largos pesan doble) y
-    devuelve los más específicos y recientes. Los registros salen con `origen="corpus_local"`.
+
+def _id_canonico_registro(registro: Dict[str, Any]) -> Optional[str]:
+    """ID del mapa de un registro del corpus local, para no repetirlo: la CS por su rol, el TC por
+    el documento oficial (`extended/<id>`: la cabecera del registro suele ser de otra causa) y los
+    ambientales por tribunal y rol."""
+    from citas_legales import rol_canonico
+    if registro.get("id_mapa"):
+        return str(registro["id_mapa"])
+    tribunal = _strip_accents(str(registro.get("tribunal") or "").lower())
+    rol = str(registro.get("rol") or "")
+    if "constitucional" in tribunal:
+        oficial = _RE_EXTENDED_TC.search(str(registro.get("link") or ""))
+        return f"tc:{oficial.group(1)}" if oficial else rol_canonico(rol, "tc")
+    if "suprema" in tribunal:
+        return rol_canonico(rol, "cs")
+    for clave, ta in _TA_DE_TRIBUNAL.items():
+        if tribunal.startswith(clave):
+            return rol_canonico(rol, ta)
+    return None
+
+
+def _registro_de_fila_mapa(cliente: Any, fila: Dict[str, Any]) -> Dict[str, Any]:
+    """Una entrada del mapa (CS, TC o ambiental) con las claves de los registros del corpus local,
+    más la URL del archivo fijada a la revisión de la fuente y la vigente."""
+    from mapa_corpus.grafo import ORGANOS
+    col = str(fila.get("col") or "")
+    tribunal = _TRIBUNAL_DE_COLECCION.get(col, "")
+    if not tribunal and fila.get("tribunal"):
+        tribunal = ORGANOS.get(str(fila["tribunal"]), str(fila["tribunal"]))
+    # El rol de la fila o, si no viene, el de su ID canónico («ta:3ta:r-21-2021» → R-21-2021).
+    rol = str(fila.get("rol") or str(fila.get("id") or "").rsplit(":", 1)[-1])
+    if col == "ta":
+        rol = rol.upper()
+    ruta = str(fila.get("ruta") or "")
+    url = cliente.url(ruta) if ruta else ""
+    return {
+        "tribunal": tribunal,
+        "sala": str(fila.get("sala_txt") or ""),
+        "rol": rol,
+        "fecha": str(fila.get("fecha") or ""),
+        "caratula": str(fila.get("titulo") or ""),
+        "materia": str(fila.get("materia") or fila.get("recurso_txt") or fila.get("tipo") or ""),
+        "resultado": str(fila.get("resultado") or fila.get("resuelve") or ""),
+        "ministros": ", ".join(fila.get("ministros_txt") or []),
+        "resumen": str(fila.get("resumen") or ""),
+        "link": url,
+        "url_huggingface": url,
+        "url_vigente": cliente.url(ruta, fijada=False) if ruta else "",
+        "archivo_md": ruta,
+        "id_mapa": str(fila.get("id") or ""),
+        "origen": "mapa_hf",
+        **({"como_obtener_texto": f"pjud_analizar_sentencia con rol='{rol}': el texto íntegro se trae en vivo "
+                                  "de juris.pjud.cl"} if col == "cs" else {}),
+    }
+
+
+def _ficha_cs_del_mapa(rol: str) -> Optional[Dict[str, Any]]:
+    """La ficha de la Corte Suprema del mapa del corpus para un rol, o None (sin mapa, sin red)."""
+    try:
+        from citas_legales import rol_canonico
+        from online_library_sync import cliente_mapa
+        cliente = cliente_mapa()
+        id_ = rol_canonico(rol, "cs") if cliente is not None else None
+        fila = cliente.entrada(id_) if id_ else None
+        return fila if fila and fila.get("col") == "cs" else None
+    except Exception:  # noqa: BLE001 — el mapa suma, nunca tumba la consulta en vivo
+        return None
+
+
+def _elegir_documento(docs: List[Dict[str, Any]], rol: str, ficha: Optional[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """El documento de la búsqueda en vivo que ES el pedido: el de la ficha (documento_id) o el de
+    rol canónico igual. Nunca el primero de la lista sin más: podría ser otra causa que solo
+    menciona el número."""
+    from citas_legales import rol_canonico
+    if ficha and ficha.get("documento_id") is not None:
+        for d in docs:
+            if str(d.get("documento_id")) == str(ficha["documento_id"]):
+                return d
+    buscado = rol_canonico(rol, "cs")
+    for d in docs:
+        rol_doc = str(d.get("rol") or "")
+        if buscado and rol_canonico(rol_doc, "cs") == buscado:
+            return d
+        if not buscado and rol.lower() in rol_doc.lower():
+            return d
+    return None
+
+
+def _respaldo_ficha(ficha: Dict[str, Any], motivo: str) -> Dict[str, Any]:
+    """Sin el texto en vivo: la ficha del mapa (sala, ministros, recurso, resultado, fecha) con el
+    enlace oficial, y el aviso de que el texto íntegro no se pudo leer."""
+    from online_library_sync import cliente_mapa
+    registro = _registro_de_fila_mapa(cliente_mapa(), ficha)
+    registro.update({
+        "texto_integral": "",
+        "documento_id": ficha.get("documento_id"),
+        "url_origen": "https://juris.pjud.cl/busqueda?Corte_Suprema",
+        "aviso": (f"Texto íntegro no disponible: {motivo}. Se entrega la ficha del mapa del corpus; el "
+                  "texto oficial se consulta en el buscador de jurisprudencia del Poder Judicial "
+                  "(juris.pjud.cl). Sin el texto, no citar considerandos («sin fuente verificable»)."),
+    })
+    return registro
+
+
+def _sentencias_del_mapa(query: str, limit: int) -> List[Dict[str, Any]]:
+    """Sentencias del mapa del corpus de HF: el rol exacto, los fallos de un ministro, una sala, un
+    recurso o un tribunal nombrados en la consulta, y después la búsqueda de texto en la CS, el TC
+    y los tribunales ambientales. Sin mapa listo, vacío. Nunca usa la red."""
+    try:
+        from citas_legales import resolver_consulta
+        from online_library_sync import _ids_de_entidad, _prosa, _tokens_consulta, cliente_mapa
+        cliente = cliente_mapa()
+        if cliente is None:
+            return []
+        colecciones = ["cs", "tc", "ta"]
+        filas: List[Dict[str, Any]] = []
+        roles = [i for i in resolver_consulta(query) if i.startswith(("cs:", "tc:", "ta:"))]
+        for id_ in roles:
+            fila = cliente.entrada(id_)
+            if fila:
+                filas.append(fila)
+        nombre = _RE_TRATAMIENTO_PJUD.sub("", query).strip()
+        entidades = [e for e in (_ids_de_entidad(cliente, nombre) if nombre else [])
+                     if e.startswith(("ministro:", "sala:", "recurso:", "tribunal:", "organo:"))]
+        if entidades:
+            filas += cliente.citantes(entidades, colecciones, limite=limit)[0]
+        # Con el rol ya resuelto (esté o no en el mapa), el texto busca solo lo que la consulta dice
+        # además de él: «Rol 10641-2024» por texto calzaría con miles de fallos de 2024.
+        texto = " ".join(_prosa(_tokens_consulta(query))) if roles else query
+        if len(filas) < limit and texto.strip():
+            filas += cliente.buscar(texto, colecciones, limite=limit)
+        salida: List[Dict[str, Any]] = []
+        vistos: set = set()
+        for fila in filas:
+            if fila.get("id") in vistos or fila.get("col") not in colecciones:
+                continue
+            vistos.add(fila.get("id"))
+            salida.append(_registro_de_fila_mapa(cliente, fila))
+            if len(salida) >= limit:
+                break
+        return salida
+    except Exception:  # noqa: BLE001 — sin mapa la búsqueda sigue con el corpus local
+        return []
+
+
+def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any]]:
+    """Busca en el mapa del corpus de Hugging Face (si está listo) y en el corpus local cosechado
+    (Corte Suprema de los últimos dos años y TC completo) por carátula, materia, recurso, resultado
+    y doctrina — insensible a acentos.
+
+    Primero lo que resuelve el mapa (rol exacto, fallos de un ministro o una sala, texto), con
+    `origen="mapa_hf"` y la URL fijada a la revisión de la fuente; después el corpus local, sin
+    repetir una causa que el mapa ya trajo. Del corpus local, cada registro se puntúa por los
+    términos que contiene (los términos largos pesan doble) y salen los más específicos y
+    recientes, con `origen="corpus_local"`.
     """
+    del_mapa = _sentencias_del_mapa(query, limit)
+    vistos_mapa = {r["id_mapa"] for r in del_mapa if r.get("id_mapa")}
     try:
         registros = _cargar_corpus_local()
-    except Exception:  # noqa: BLE001 — sin corpus se devuelve vacío, no se cae la búsqueda
-        return []
+    except Exception:  # noqa: BLE001 — sin corpus se devuelve lo del mapa, no se cae la búsqueda
+        return del_mapa
     if not registros:
-        return []
+        return del_mapa
+    if vistos_mapa:
+        registros = [r for r in registros if _id_canonico_registro(r) not in vistos_mapa]
+    if len(del_mapa) >= limit:
+        return del_mapa[:limit]
+    limit -= len(del_mapa)
     q_norm = _strip_accents(query.lower().strip())
     tokens = [t for t in q_norm.split() if len(t) > 2]
     if not tokens:
-        return []
+        return del_mapa
     minimo = 2 if len(tokens) > 1 else 1
     puntuados: List[Any] = []
     for registro in registros:
@@ -292,7 +479,7 @@ def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any
         limpio = {k: v for k, v in registro.items() if k != "_texto"}
         limpio["origen"] = "corpus_local"
         salida.append(limpio)
-    return salida
+    return del_mapa + salida
 
 
 class PJUDClient:
@@ -370,28 +557,36 @@ class PJUDClient:
         Obtiene el texto completo y metadatos de una sentencia por Rol o ID numérico.
         Opcionalmente descarga el documento oficial en formato PDF o Word DOCX.
         """
+        limpio = str(rol_o_id).strip()
+        # Con el mapa del corpus, la ficha de la CS dice qué documento oficial es (documento_id):
+        # el texto íntegro se trae en vivo de ese documento, sin descargar el corpus.
+        ficha = _ficha_cs_del_mapa(limpio) if corte == "cs" and not limpio.isdigit() else None
         sc = self.scraper
         if not sc:
-            return {"error": "Scraper PJUD no disponible."}
+            return _respaldo_ficha(ficha, "el buscador de juris.pjud.cl no está disponible") if ficha \
+                else {"error": "Scraper PJUD no disponible."}
 
-        limpio = str(rol_o_id).strip()
         doc = None
-
-        if limpio.isdigit():
-            docs = sc.buscar(tipo_corte=corte, texto=limpio, limite=1)
-            if docs:
-                doc = docs[0]
-        else:
-            docs = sc.buscar(tipo_corte=corte, texto=limpio, limite=3)
-            for d in docs:
-                if limpio.lower() in d.get("rol", "").lower():
-                    doc = d
-                    break
-            if not doc and docs:
-                doc = docs[0]
+        try:
+            if limpio.isdigit():
+                docs = sc.buscar(tipo_corte=corte, texto=limpio, limite=1)
+                if docs:
+                    doc = docs[0]
+            else:
+                consulta = str((ficha or {}).get("rol") or limpio)
+                docs = sc.buscar(tipo_corte=corte, texto=consulta, limite=10 if ficha else 3)
+                doc = _elegir_documento(docs, limpio, ficha)
+        except Exception as e:  # noqa: BLE001 — sin juris.pjud.cl, la ficha del mapa sigue sirviendo
+            if ficha:
+                return _respaldo_ficha(ficha, f"juris.pjud.cl no respondió ({str(e)[:120]})")
+            raise
 
         if not doc:
+            if ficha:
+                return _respaldo_ficha(ficha, "juris.pjud.cl no devolvió el documento de esta ficha")
             return {"error": f"No se encontró sentencia con Rol/ID '{rol_o_id}' en {corte.upper()}."}
+        if ficha:
+            doc.setdefault("id_mapa", str(ficha.get("id") or ""))
 
         if descargar_formato and descargar_formato.lower() in ("pdf", "docx", "html"):
             try:
@@ -593,7 +788,9 @@ class PJUDClient:
                     "doctrina": _resumen_registro(s, tokens),
                     "normas": s.get("normas") or s.get("precepto") or "",
                     "link": s.get("link") or s.get("link_detalle") or s.get("link_pdf") or "",
-                    "origen": "corpus_local",
+                    "origen": s.get("origen") or "corpus_local",
+                    **{k: s[k] for k in ("url_huggingface", "url_vigente", "id_mapa", "resultado", "ministros")
+                       if s.get(k)},
                 })
                 if len(results) >= limit:
                     break

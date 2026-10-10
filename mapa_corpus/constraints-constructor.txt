@@ -1,0 +1,3 @@
+# Versiones fijadas SOLO para el constructor del mapa (determinismo de Louvain y de la API de HF).
+networkx==3.7
+huggingface-hub==2.1.1

@@ -57,7 +57,7 @@ from sentencias_parser import SentenciaParserEngine, ProveidosParser
 from tribunales_ambientales_connector import TribunalesAmbientalesClient
 from academia_judicial_connector import AcademiaJudicialClient
 from online_library_sync import OnlineLibrarySyncManager
-from legal_graphify import LegalGraphifyEngine
+from legal_graphify import obtener_motor_compartido
 from citas_legales import CODIGOS, detectar_normas, formatear_cita
 from recursos import ruta_recurso
 
@@ -90,7 +90,9 @@ proveidos_engine = ProveidosParser()
 ambientales_client = TribunalesAmbientalesClient()
 aj_client = AcademiaJudicialClient()
 library_sync_mgr = OnlineLibrarySyncManager()
-legal_graphify_engine = LegalGraphifyEngine()
+# El motor del proceso: el mismo que usan corpus, ambiental y la vista del grafo, con la capa del
+# mapa del corpus cuando el cliente del mapa tiene una revisión lista (sin red en la consulta).
+legal_graphify_engine = obtener_motor_compartido()
 
 
 def _precalentar_hf() -> None:
@@ -103,17 +105,45 @@ def _precalentar_hf() -> None:
     _listar_archivos_hf("pablobenavidesj/doctrina-jurisprudencia-chile")
 
 
+# Cuánto espera el precalentado (en su hilo de fondo) a que el mapa quede listo antes de subir su
+# capa al grafo; la primera construcción del índice local toma ~15 s después de la descarga.
+ESPERA_MAPA_SEGUNDOS = 1800
+
+
+def _precalentar_mapa() -> None:
+    """Deja listo el mapa del corpus (descarga verificada + índice local, en su propio hilo) y sube
+    su capa al grafo compartido. Si el mapa está apagado o el puntero aún no tiene revisión, no hace
+    nada. Nunca bloquea el handshake: corre dentro del hilo de precalentado."""
+    from mapa_corpus.cliente import obtener_cliente
+    cliente = obtener_cliente()
+    if not cliente.habilitado:
+        return
+    cliente.asegurar(bloquear=True, timeout=ESPERA_MAPA_SEGUNDOS)
+    subir = getattr(legal_graphify_engine, "subir_capa_mapa", None)
+    if callable(subir):
+        subir()
+
+
 def precalentar_caches() -> None:
     """Deja calientes las cachés caras del arranque, sin bloquear el handshake MCP.
 
-    El grafo publicado (0,3 s) y el listado de Hugging Face (~18 s la primera vez por proceso)
-    se preparan en un hilo de fondo al arrancar el server. Nada de esto puede tumbar el server:
-    si falta el artefacto o la red, se sigue — y las herramientas lo dirán al usarse.
+    El grafo publicado (0,3 s), el mapa del corpus (descarga e índice, en paralelo) y el listado
+    de Hugging Face (~18 s la primera vez por proceso; con el mapa listo sale de él) se preparan
+    en hilos de fondo al arrancar el server. Nada de esto puede tumbar el server: si falta el
+    artefacto o la red, se sigue — y las herramientas lo dirán al usarse.
     """
     try:
         legal_graphify_engine.cargar_grafo_json()
     except Exception:  # noqa: BLE001 — un precalentado caído no puede tumbar el server
         pass
+
+    def _mapa_seguro() -> None:
+        try:
+            _precalentar_mapa()
+        except Exception:  # noqa: BLE001 — sin mapa, las herramientas usan sus fuentes de siempre
+            pass
+
+    threading.Thread(target=_mapa_seguro, name="openlegal-precalentar-mapa", daemon=True).start()
     try:
         _precalentar_hf()
     except Exception:  # noqa: BLE001 — sin red o sin token, se dirá al usarla
