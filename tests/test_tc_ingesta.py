@@ -87,3 +87,24 @@ def test_solo_se_suben_las_sentencias_con_cabecera_y_texto_de_la_misma_causa(tmp
     assert llamadas[0]["allow_patterns"] == ["15686-06a-INA.md"] and llamadas[0]["path_in_repo"] == "jurisprudencia_tc"
     assert llamadas[0]["delete_patterns"] == ["testrol*"] and llamadas[0]["repo_type"] == "dataset"
     assert subir_tc_hf.subir(tmp_path, None, dry_run=True)["subido"] is False
+
+
+def test_la_ampliacion_recorre_todo_el_rango_pedido(tmp_path, monkeypatch):
+    # Antes había un tope de 1 200 días: desde 2021 la cosecha se cortaba en 2023 sin avisar.
+    monkeypatch.setattr(cosecha, "DATA_DIR", tmp_path)
+    monkeypatch.setattr(cosecha, "PAUSA", 0)
+    monkeypatch.setattr(cosecha.time, "sleep", lambda s: None)
+    dias = []
+
+    def por_dia(fecha, page, s):
+        dias.append(fecha)
+        if fecha != "2021-01-04":
+            return {"data": [], "meta": {"total": 0, "per_page": 5}}
+        return {"data": [dict(FICHA_API, folio="9876", fecha_sentencia="2021-01-04 00:00:00")],
+                "meta": {"total": 1, "per_page": 5}}
+
+    monkeypatch.setattr(cosecha, "tc_por_dia", por_dia)
+    salida = cosecha.cosechar_tc("2021-01-01", hasta="2024-12-31")
+    assert len(dias) == 1461 and dias[0] == "2024-12-31" and dias[-1] == "2021-01-01"
+    filas = salida.read_text(encoding="utf-8").splitlines()
+    assert len(filas) == 1 and "extended/9876/download" in filas[0]

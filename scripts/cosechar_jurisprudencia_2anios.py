@@ -192,9 +192,10 @@ def link_documento_tc(folio: object) -> str:
     return f"https://buscador-backend.tcchile.cl/api/extended/{int(numero)}/download" if numero else ""
 
 
-def cosechar_tc(desde: str, limite_dias: int = 1200, hasta: str = "") -> pathlib.Path:
+def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "") -> pathlib.Path:
     """La API del TC ordena por ingreso; se consulta día por día con fecha exacta, de `hasta`
-    (por defecto hoy) hacia atrás hasta `desde`."""
+    (por defecto hoy) hacia atrás hasta `desde`. Sin tope de días por defecto: el rango lo acota
+    (una ampliación desde 2021 recorre más de 2 000 días)."""
     salida = DATA_DIR / "tc_sentencias_2anios.jsonl"
     fin = dt.date.fromisoformat(desde)
     dia = dt.date.fromisoformat(hasta) if hasta else dt.date.today()
@@ -204,7 +205,7 @@ def cosechar_tc(desde: str, limite_dias: int = 1200, hasta: str = "") -> pathlib
     total = 0
     with open(salida, "w", encoding="utf-8") as f:
         contador_dias = 0
-        while dia >= fin and contador_dias < limite_dias:
+        while dia >= fin and (not limite_dias or contador_dias < limite_dias):
             page = 1
             while True:
                 try:

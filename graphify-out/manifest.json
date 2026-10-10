@@ -300,9 +300,9 @@
     "semantic_hash": ""
   },
   "online_library_sync.py": {
-    "mtime": 1791538309.9354463,
-    "seen": 1791580212.6767335,
-    "ast_hash": "4ab06d2c6fc6aea61f112137e3646e2c",
+    "mtime": 1791585654.2914512,
+    "seen": 1791591729.529324,
+    "ast_hash": "7ef7db54c998a928e31b14e92e983b8d",
     "semantic_hash": ""
   },
   "opencode.json": {
@@ -336,9 +336,9 @@
     "semantic_hash": ""
   },
   "pjud_connector.py": {
-    "mtime": 1791573252.1640723,
-    "seen": 1791580212.6767852,
-    "ast_hash": "35242b5ca293b5c5a7ad4a673a2969e9",
+    "mtime": 1791585277.5503898,
+    "seen": 1791591729.5294323,
+    "ast_hash": "17c6f494204f533acf80cbb3eba6c33a",
     "semantic_hash": ""
   },
   "privacidad_inapi.py": {
@@ -2748,9 +2748,9 @@
     "semantic_hash": ""
   },
   "scripts/cosechar_jurisprudencia_2anios.py": {
-    "mtime": 1791333759.6804998,
-    "seen": 1791386572.0476832,
-    "ast_hash": "1974e08569adb32541955105af2ea8f8",
+    "mtime": 1791591688.749762,
+    "seen": 1791591729.5298629,
+    "ast_hash": "b1664e348b4b19234acbe4777de410ed",
     "semantic_hash": ""
   },
   "scripts/cosechar_publicaciones_ambientales.py": {
@@ -2844,9 +2844,9 @@
     "semantic_hash": ""
   },
   "scripts/tc_pdfs_a_md.py": {
-    "mtime": 1791333759.6816308,
-    "seen": 1791386572.0477817,
-    "ast_hash": "0980d7a6730069a132b7fc33cbc6b9ef",
+    "mtime": 1791590789.5422783,
+    "seen": 1791591729.5309706,
+    "ast_hash": "07f4caccce360cca51f81bdc3dfacb36",
     "semantic_hash": ""
   },
   "scripts/upload_to_huggingface.py": {
@@ -3666,9 +3666,9 @@
     "semantic_hash": ""
   },
   "scripts/cosechar_pjud_scrapper.py": {
-    "mtime": 1791333759.6804998,
-    "seen": 1791386572.0476856,
-    "ast_hash": "6b1c5d91d65894ece65a4e65116b8520",
+    "mtime": 1791585277.5507438,
+    "seen": 1791591729.5298648,
+    "ast_hash": "fca2f4cdf58797ebdfc3503eb2431b40",
     "semantic_hash": ""
   },
   "tests/test_pjud_scrapper.py": {
@@ -3822,9 +3822,9 @@
     "semantic_hash": ""
   },
   "mapa_corpus/inventario.py": {
-    "mtime": 1791482335.401232,
-    "seen": 1791580212.67671,
-    "ast_hash": "10518c57c2762eefd882a26ee8355617",
+    "mtime": 1791585654.2894008,
+    "seen": 1791591729.5291095,
+    "ast_hash": "4f80f94e97d67ab7260e3ed5b6d116d7",
     "semantic_hash": ""
   },
   "mapa_corpus/particiones.py": {
@@ -3948,9 +3948,9 @@
     "semantic_hash": ""
   },
   "tests/test_mapa_pjud.py": {
-    "mtime": 1791573210.904539,
-    "seen": 1791580212.6798868,
-    "ast_hash": "36a4402de2e3e714b6670b7a81267aa5",
+    "mtime": 1791585271.0250485,
+    "seen": 1791591729.533126,
+    "ast_hash": "d704f03c2c6af42abcb574f56311b373",
     "semantic_hash": ""
   },
   "tests/test_mapa_puntero.py": {
@@ -3984,9 +3984,9 @@
     "semantic_hash": ""
   },
   ".github/workflows/mapa-hf.yml": {
-    "mtime": 1791580133.8934896,
-    "seen": 1791580212.681726,
-    "ast_hash": "c06504d97eb1bb138e0b7a6fa208f34f",
+    "mtime": 1791581355.7351596,
+    "seen": 1791591729.5347855,
+    "ast_hash": "d656f3ecd9967fc76d3ac543722473a8",
     "semantic_hash": ""
   },
   "agents/ambiental.md": {
@@ -4110,9 +4110,9 @@
     "semantic_hash": ""
   },
   "docs/mapa.md": {
-    "mtime": 1791580169.665048,
-    "seen": 1791580212.6832693,
-    "ast_hash": "bb767a97e2a14200bcc59bdddefb75a5",
+    "mtime": 1791581368.4545364,
+    "seen": 1791591729.5369344,
+    "ast_hash": "8abd1febcdc671e357d30f0ef1dae0de",
     "semantic_hash": ""
   },
   "mapa_corpus/constraints-constructor.txt": {
@@ -4149,6 +4149,24 @@
     "mtime": 1791503588.169274,
     "seen": 1791580212.6901457,
     "ast_hash": "2491c9ad2f6b8eee05e6da93a79c1191",
+    "semantic_hash": ""
+  },
+  "scripts/subir_tc_hf.py": {
+    "mtime": 1791590624.7155678,
+    "seen": 1791591729.5309448,
+    "ast_hash": "4a73e8fa1f99d38f6ff7748688c5c0bf",
+    "semantic_hash": ""
+  },
+  "tests/test_tc_ingesta.py": {
+    "mtime": 1791591680.7238514,
+    "seen": 1791591729.5338542,
+    "ast_hash": "9079aea875994dd8d394673ffa22a0c2",
+    "semantic_hash": ""
+  },
+  ".github/workflows/ingesta-tc.yml": {
+    "mtime": 1791590633.8115685,
+    "seen": 1791591729.5347836,
+    "ast_hash": "eecc043345c7cf31d3a41fa53830b33e",
     "semantic_hash": ""
   }
 }
