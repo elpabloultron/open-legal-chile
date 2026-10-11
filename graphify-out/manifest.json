@@ -582,9 +582,9 @@
     "semantic_hash": ""
   },
   "legal_graphify.py": {
-    "mtime": 1791580087.8330562,
-    "seen": 1791580212.6766672,
-    "ast_hash": "4403944ab9bb7e63b3f9221161304d44",
+    "mtime": 1791721341.0174472,
+    "seen": 1791722135.1383283,
+    "ast_hash": "6305014a0cf40a564873776fe7107a56",
     "semantic_hash": ""
   },
   "recurso_proteccion.py": {
@@ -2796,9 +2796,9 @@
     "semantic_hash": ""
   },
   "scripts/harvest_tc_jurisprudencia.py": {
-    "mtime": 1791333759.6816308,
-    "seen": 1791386572.0477183,
-    "ast_hash": "af78ed571c54cbe642359adc82286b86",
+    "mtime": 1791721341.0174472,
+    "seen": 1791722135.139879,
+    "ast_hash": "4fcc954b651551aa3bf27a00b088eaac",
     "semantic_hash": ""
   },
   "scripts/harvest_tribunales_ambientales.py": {
@@ -2814,9 +2814,9 @@
     "semantic_hash": ""
   },
   "scripts/integrar_jurisprudencia_al_grafo.py": {
-    "mtime": 1791333759.6816308,
-    "seen": 1791386572.0477545,
-    "ast_hash": "67e7502c76bb066a48ef8f10f6e839a9",
+    "mtime": 1791721341.0174472,
+    "seen": 1791722135.1402614,
+    "ast_hash": "d23b0fe2e19c0136ac9abd7cbfaa1718",
     "semantic_hash": ""
   },
   "scripts/optimizar_catalogo_hf.py": {
@@ -3804,9 +3804,9 @@
     "semantic_hash": ""
   },
   "mapa_corpus/grafo.py": {
-    "mtime": 1791482611.5134146,
-    "seen": 1791580212.6767054,
-    "ast_hash": "48c31e2ba693c2007cee63e8c78bfb50",
+    "mtime": 1791721346.349447,
+    "seen": 1791722135.1384685,
+    "ast_hash": "8a93e5ce6d46179fc2a2b6fc2dba98b0",
     "semantic_hash": ""
   },
   "mapa_corpus/ids.py": {
@@ -3924,15 +3924,15 @@
     "semantic_hash": ""
   },
   "tests/test_mapa_grafo.py": {
-    "mtime": 1791537033.2411656,
-    "seen": 1791580212.6798804,
-    "ast_hash": "e8495d24a166fc5ea8c5c765b14f48db",
+    "mtime": 1791721341.0174472,
+    "seen": 1791722135.1425872,
+    "ast_hash": "1fca12a7eb37b86be2782482e8c49c4a",
     "semantic_hash": ""
   },
   "tests/test_mapa_grafo_union.py": {
-    "mtime": 1791580041.4814916,
-    "seen": 1791580212.679882,
-    "ast_hash": "55cc6088b4d9de902e815f2a2ffd09bf",
+    "mtime": 1791721341.0174472,
+    "seen": 1791722135.1425908,
+    "ast_hash": "fb4b7a6f7d7b50198fb315fbea656184",
     "semantic_hash": ""
   },
   "tests/test_mapa_hf.py": {
@@ -4173,6 +4173,12 @@
     "mtime": 1791596378.5567753,
     "seen": 1791596451.6959562,
     "ast_hash": "317308d7c4ee196edcac1531a2ed371b",
+    "semantic_hash": ""
+  },
+  "tests/test_grafo_tc_rehecho.py": {
+    "mtime": 1791721274.7915044,
+    "seen": 1791722135.1419096,
+    "ast_hash": "5df4300e8c950277678f952924bb8002",
     "semantic_hash": ""
   }
 }
