@@ -1,21 +1,24 @@
 name: Ingesta TC
 
 # Trae las sentencias del Tribunal Constitucional desde su buscador oficial, las convierte a
-# Markdown (texto íntegro del PDF oficial, verificado contra su número de rol) y las sube a
-# jurisprudencia_tc/ del dataset de Hugging Face. El mapa del corpus las toma en su corrida diaria.
+# Markdown (texto íntegro del PDF oficial, verificado contra su número de rol; fecha y tipo del
+# propio documento; correos de notificación ocultos; sin causas reservadas) y las sube a
+# jurisprudencia_tc/ del dataset de Hugging Face por lotes. Al final retira de HF los archivos
+# viejos que tenían la cabecera de una causa y el texto de otra y que esta corrida no rehízo.
+# El mapa del corpus los toma en su corrida diaria.
 #
-# - Programada: cada lunes, las sentencias de los últimos 45 días.
-# - A mano (Actions → «Ingesta TC» → Run workflow): un rango de fechas, p. ej. desde 2021-01-01
-#   para reemplazar las sentencias que tenían la cabecera de otra causa y sumar las que faltan.
+# - Programada: cada lunes, el último año (el TC carga su buscador con meses de rezago; lo que no
+#   cambió no genera commits).
+# - A mano (Actions → «Ingesta TC» → Run workflow): un rango de fechas.
 # Usa el mismo secreto HF_TOKEN que la publicación del mapa.
 
 on:
   schedule:
-    - cron: '41 6 * * 1'
+    - cron: '41 4 * * 1'   # lunes, lejos de la corrida diaria del mapa (07:23)
   workflow_dispatch:
     inputs:
       desde:
-        description: 'Desde (YYYY-MM-DD). Vacío = últimos 45 días'
+        description: 'Desde (YYYY-MM-DD). Vacío = último año'
         required: false
         default: ''
       hasta:
@@ -58,24 +61,69 @@ jobs:
           DESDE_PEDIDO: ${{ inputs.desde }}
           HASTA_PEDIDO: ${{ inputs.hasta }}
         run: |
-          desde="${DESDE_PEDIDO:-$(date -u -d '45 days ago' +%F)}"
+          desde="${DESDE_PEDIDO:-$(date -u -d '365 days ago' +%F)}"
           python -c "import datetime, sys; [datetime.date.fromisoformat(x) for x in sys.argv[1:] if x]" "$desde" "$HASTA_PEDIDO"
           echo "DESDE=$desde" >> "$GITHUB_ENV"
           echo "HASTA=$HASTA_PEDIDO" >> "$GITHUB_ENV"
 
       - name: Cosechar las fichas del TC (día por día)
-        run: python scripts/cosechar_jurisprudencia_2anios.py --tribunal tc --desde "$DESDE" --hasta "$HASTA"
+        run: |
+          # Con la API caída se detiene sola (10 días seguidos sin respuesta o 180 min) y sigue con lo
+          # cosechado; lo pendiente queda anotado para relanzar. Cosecha (180) + conversión (100) dejan
+          # tiempo a la subida y al resumen dentro de los 350 min del job.
+          python scripts/cosechar_jurisprudencia_2anios.py --tribunal tc --desde "$DESDE" --hasta "$HASTA" \
+            --fallidos "$RUNNER_TEMP/tc_dias_fallidos.txt" --reservadas "$RUNNER_TEMP/tc_reservadas.txt" \
+            --max-minutos 180
 
       - name: Convertir los PDF oficiales a Markdown (verificando el rol)
-        run: python scripts/tc_pdfs_a_md.py --rehacer
+        run: |
+          python scripts/tc_pdfs_a_md.py --rehacer --fallidas "$RUNNER_TEMP/tc_conv_fallidas.txt" \
+            --max-minutos 100
+
+      - name: Respaldo de lo convertido (por si la subida falla)
+        uses: actions/upload-artifact@v4
+        with:
+          name: tc-markdown
+          path: |
+            jurisprudencia_tc/*.md
+            data/jurisprudencia/tc_sentencias_2anios.jsonl
+            data/jurisprudencia/tc_textos.jsonl
+          retention-days: 7
+          if-no-files-found: warn
 
       - name: Subir a Hugging Face
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           SUBIR: ${{ github.event_name == 'schedule' || inputs.subir }}
         run: |
-          if [ "$SUBIR" != "true" ] || [ -z "$HF_TOKEN" ]; then
-            python scripts/subir_tc_hf.py --dry-run
+          extra="--reservadas $RUNNER_TEMP/tc_reservadas.txt"
+          if [ "$SUBIR" != "true" ]; then
+            python scripts/subir_tc_hf.py --dry-run $extra
+          elif [ -z "$HF_TOKEN" ]; then
+            echo "::error::Falta el secreto HF_TOKEN (Settings → Secrets and variables → Actions)."
+            exit 1
+          elif [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] && [ -s data/jurisprudencia/tc_sentencias_2anios.jsonl ]; then
+            # A mano y con fichas cosechadas, que no se suba nada es un error (no lo es un día sin sentencias).
+            python scripts/subir_tc_hf.py --exigir-subida $extra
           else
-            python scripts/subir_tc_hf.py
+            python scripts/subir_tc_hf.py $extra
+          fi
+
+      - name: ¿Quedó algo por relanzar?
+        if: ${{ !cancelled() }}
+        run: |
+          rojo=0
+          if [ -s "$RUNNER_TEMP/tc_dias_fallidos.txt" ]; then
+            echo "### Días que la API del TC no respondió (relanzar con ese rango)" >> "$GITHUB_STEP_SUMMARY"
+            sed 's/^/- /' "$RUNNER_TEMP/tc_dias_fallidos.txt" >> "$GITHUB_STEP_SUMMARY"
+            rojo=1
+          fi
+          if [ -s "$RUNNER_TEMP/tc_conv_fallidas.txt" ]; then
+            echo "### Sentencias cuyo PDF no se pudo bajar (relanzar su rango de fechas)" >> "$GITHUB_STEP_SUMMARY"
+            sed 's/^/- /' "$RUNNER_TEMP/tc_conv_fallidas.txt" >> "$GITHUB_STEP_SUMMARY"
+            rojo=1
+          fi
+          if [ "$rojo" = 1 ]; then
+            echo "::error::Quedaron días o sentencias sin traer por fallas de la red o del TC: ver el resumen y relanzar."
+            exit 1
           fi
