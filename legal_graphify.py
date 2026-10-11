@@ -2277,8 +2277,9 @@ class LegalGraphifyEngine:
           capa se suma encima, no lo reemplaza.
         - Un nodo del mapa con alias a un nodo curado presente NO se duplica: sus aristas se cuelgan
           del nodo curado, que pasa a llevar `id_mapa` (su ID canónico) y `tipo_mapa`. Excepción:
-          las fichas `sent_tc_*` curadas no se funden con `tc:*` (su cabecera es de otra causa):
-          quedan enlazadas con una arista `mismo_documento` y marcadas con `calidad_mapa`.
+          las fichas `sent_tc_*` viejas (cabecera de otra causa) no se funden con `tc:*`: quedan
+          enlazadas con una arista `mismo_documento` y marcadas con `calidad_mapa`. Las rearmadas
+          con el documento de su propio rol sí se funden.
         - Los nodos nuevos llevan `node_type` = tipo del mapa, `label`, `capa="mapa"` y la comunidad
           del mapa; las aristas, `relation`, `weight` y `capa="mapa"`. Si el mapa ya trae una
           arista entre los mismos nodos que una curada, manda la curada. Las comunidades del mapa
@@ -2298,6 +2299,8 @@ class LegalGraphifyEngine:
 
         Devuelve {"nodos", "aristas", "segundos"} (lo que agregó la capa) y el detalle de la carga.
         """
+        from mapa_corpus.grafo import tc_alineada  # perezoso: sin mapa no se importa el paquete
+
         inicio = time.perf_counter()
         carpeta = Path(dir_mapa)
         try:
@@ -2330,7 +2333,8 @@ class LegalGraphifyEngine:
             canonico, datos = alias[legado], nodos_g.get(legado)
             if datos is None:
                 continue
-            if canonico.startswith("tc:") and (legado.startswith("sent_tc_") or datos.get("node_type") == "jurisprudencia_tc"):
+            if canonico.startswith("tc:") and (legado.startswith("sent_tc_") or datos.get("node_type") == "jurisprudencia_tc") \
+                    and not tc_alineada(datos, int(canonico[3:]) if canonico[3:].isdigit() else -1):
                 puentes_tc.append((legado, canonico))
                 continue
             canon_a_curado.setdefault(canonico, legado)

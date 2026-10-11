@@ -7,6 +7,7 @@ en la base de datos local SQLite (jurisprudencia_judicial.db) y exporta a JSONL 
 """
 
 import os
+import re
 import sys
 import json
 import sqlite3
@@ -87,8 +88,11 @@ def fetch_tc_sentencias(search_term: str, limit: int = 15) -> List[Dict[str, Any
                         resultado = val
 
                 template_name = it.get("template", {}).get("complete_name", "Inaplicabilidad de Precepto Legal")
-                doc_id = it.get("id")
-                pdf_link = f"https://buscador-backend.tcchile.cl/api/extended/{doc_id}/download" if doc_id else "https://buscador.tcchile.cl"
+                # El PDF oficial se pide por NÚMERO DE ROL (folio): con el id de la ficha, `extended/`
+                # entrega la causa cuyo rol es ese número (otra sentencia).
+                numero = re.sub(r"\D", "", str(folio or ""))
+                pdf_link = (f"https://buscador-backend.tcchile.cl/api/extended/{int(numero)}/download" if numero
+                            else "https://buscador.tcchile.cl")
 
                 doctrina = f"{template_name}. Conflicto: {search_term}. "
                 if resultado:

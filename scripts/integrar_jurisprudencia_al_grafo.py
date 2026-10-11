@@ -12,7 +12,11 @@ Añade al grafo (data/legal_knowledge_graph.json):
   · recalcula las comunidades con el mismo algoritmo del motor (modularidad voraz).
 
 Uso:
-    python scripts/integrar_jurisprudencia_al_grafo.py [--sin-comunidades]
+    python scripts/integrar_jurisprudencia_al_grafo.py [--sin-comunidades] [--rehacer-tc]
+
+`--rehacer-tc` quita las fichas del TC del grafo y las vuelve a armar desde los .md corregidos de
+`jurisprudencia_tc/` (rol oficial, fecha y gestión verificados en el documento, enlace al PDF por
+número de rol). Las fichas anteriores se habían armado con documentos de otra causa.
 """
 
 from __future__ import annotations
@@ -32,10 +36,16 @@ import unicodedata
 import networkx as nx
 
 BASE = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE))
+
+from citas_legales import normas_canonicas  # noqa: E402
+from mapa_corpus.grafo import padres_norma  # noqa: E402
+from mapa_corpus.texto import leer_vinetas  # noqa: E402
 GRAFO = BASE / "data" / "legal_knowledge_graph.json"
 TC_INDICE = BASE / "data" / "jurisprudencia" / "tc_textos.jsonl"
 PUB_INDICE = BASE / "data" / "jurisprudencia" / "publicaciones_textos.jsonl"
 BIB_INDICE = BASE / "data" / "jurisprudencia" / "biblioteca_ambiental.jsonl"
+TC_CURADAS = BASE / "data" / "jurisprudencia" / "tc_sentencias.jsonl"
 
 
 def _cargar_modulo(nombre: str, ruta: pathlib.Path):
@@ -111,9 +121,38 @@ def normas_citadas(texto: str, claves_mod, idx_normas: dict[tuple, str], idx_ley
     return [nid for nid, _ in contador.most_common(tope)]
 
 
+def indice_canonico(nodos: list[dict]) -> dict[str, str]:
+    """ID canónico (`norma:cc:1545`) → nodo de norma del grafo curado, por la etiqueta del nodo (como
+    los alias del mapa del corpus): solo cuando la etiqueta nombra exactamente una norma."""
+    idx: dict[str, str] = {}
+    for n in nodos:
+        nid = str(n.get("id", ""))
+        if nid.startswith("norma_"):
+            canon = [i for i, _ in normas_canonicas(str(n.get("label") or ""))]
+            if len(canon) == 1:
+                idx.setdefault(canon[0], nid)
+    return idx
+
+
+def normas_del_tc(texto: str, idx_canon: dict[str, str], legado: list[str], tope: int = 25) -> list[str]:
+    """Normas que cita una sentencia del TC, con la gramática canónica del repo («artículo 1545 del
+    Código Civil», «artículo 19 N° 3 de la Constitución», «Ley N° 18.575») y, si el grafo no tiene el
+    numeral, su artículo. Se suman las del extractor antiguo (`legado`)."""
+    contador: collections.Counter = collections.Counter()
+    for canon, veces in normas_canonicas(texto[:400_000]):
+        destino = idx_canon.get(canon) or next((idx_canon[p] for _, p in padres_norma(canon) if p in idx_canon), None)
+        if destino:
+            contador[destino] += veces
+    for nid in legado:
+        contador[nid] += 1
+    return [nid for nid, _ in contador.most_common(tope)]
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Integra jurisprudencia nueva al grafo jurídico.")
     ap.add_argument("--sin-comunidades", action="store_true", help="no recalcular comunidades (rápido)")
+    ap.add_argument("--rehacer-tc", action="store_true",
+                    help="quitar las fichas del TC y rearmarlas desde los .md corregidos")
     args = ap.parse_args()
 
     claves_mod = _cargar_modulo("optimizar_catalogo_hf", BASE / "scripts" / "optimizar_catalogo_hf.py")
@@ -122,6 +161,7 @@ def main() -> int:
     aristas: list[dict] = grafo["edges"]
     ids = {n["id"] for n in nodos}
     idx_normas, idx_leyes = indices_de_normas(nodos)
+    idx_canon = indice_canonico(nodos)
     print(f"══ grafo de partida: {len(nodos):,} nodos · {len(aristas):,} aristas")
     print(f"   índice de normas: {len(idx_normas):,} artículos con nodo")
 
@@ -136,29 +176,49 @@ def main() -> int:
         })
         ids.add("organo_tc")
 
-    # 2 · sentencias del TC (últimos 2 años) con su Markdown
+    # 2 · sentencias del TC con su Markdown
+    if args.rehacer_tc:
+        viejos = {n["id"] for n in nodos if n.get("node_type") == "jurisprudencia_tc"}
+        nodos[:] = [n for n in nodos if n["id"] not in viejos]
+        aristas[:] = [a for a in aristas if a.get("source") not in viejos and a.get("target") not in viejos]
+        ids.difference_update(viejos)
+        print(f"══ TC: {len(viejos)} fichas anteriores retiradas para rearmarlas desde los .md corregidos")
+    materias = {}
+    if TC_CURADAS.exists():
+        for linea in open(TC_CURADAS, encoding="utf-8"):
+            if linea.strip():
+                reg = json.loads(linea)
+                materias[reg.get("rol")] = reg.get("materia")
     nuevos_tc = 0
     enlaces_norma = 0
     if TC_INDICE.exists():
         for linea in open(TC_INDICE, encoding="utf-8"):
             reg = json.loads(linea)
+            if not reg.get("archivo_md"):
+                continue
             nid = "sent_tc_" + slug(reg["rol"].replace("Rol N° ", "rol_n_"))
             if nid in ids:
                 continue
             md = BASE / reg["archivo_md"]
             if not md.exists():
                 continue
-            nodos.append({
-                "id": nid, "label": f"TC · {reg['rol']} — {str(reg.get('tipo') or '')[:60]}",
+            texto = md.read_text(encoding="utf-8", errors="replace")
+            ficha = leer_vinetas(texto[:4000])
+            rol_oficial = ficha.get("rol oficial", "")
+            nodo = {
+                "id": nid, "label": f"TC · {rol_oficial or reg['rol']} — {str(reg.get('tipo') or '')[:60]}",
                 "node_type": "jurisprudencia_tc", "file_type": "legal_judgment",
-                "rol": reg["rol"], "fecha": reg.get("fecha"), "tipo": reg.get("tipo"),
+                "rol": reg["rol"], "rol_oficial": rol_oficial, "fecha": reg.get("fecha"), "tipo": reg.get("tipo"),
+                "gestion": ficha.get("gestión pendiente / carátula", ""), "materia": materias.get(reg["rol"]),
                 "source_file": reg["archivo_md"], "tokens_archivo": reg.get("tokens_aprox"),
-                "url": "https://buscador.tcchile.cl",
-            })
+                "url": reg.get("link_pdf") or ficha.get("documento oficial") or "https://buscador.tcchile.cl",
+            }
+            nodos.append({k: v for k, v in nodo.items() if v not in (None, "")})
             ids.add(nid)
             aristas.append({"source": nid, "target": "organo_tc", "relation": "resuelto_por", "weight": 1.0})
-            texto = md.read_text(encoding="utf-8", errors="replace")
-            for norm_id in normas_citadas(texto, claves_mod, idx_normas, idx_leyes):
+            cuerpo = texto.split("\n---\n", 1)[-1]      # sin la ficha: su gestión es de otra causa
+            legado = normas_citadas(cuerpo, claves_mod, idx_normas, idx_leyes)
+            for norm_id in normas_del_tc(cuerpo, idx_canon, legado):
                 aristas.append({"source": nid, "target": norm_id, "relation": "cita_norma", "weight": 1.0})
                 enlaces_norma += 1
             nuevos_tc += 1
