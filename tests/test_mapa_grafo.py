@@ -134,3 +134,18 @@ def test_resolver_colisiones_determinista(orden):
     assert sorted((f["ruta"], f["id"]) for f in resueltas) == sorted(
         (f["ruta"], f["id"]) for f in constructor.resolver_colisiones(list(reversed(filas)))[0])
     assert len({f["id"] for f in resueltas}) == 2
+
+
+def test_una_ficha_tc_rearmada_se_funde_con_su_causa():
+    """Las fichas rearmadas con el PDF pedido por número de rol (rol 13139 → extended/13139) son la
+    misma causa que tc:13139: alias, no puente. La vieja (15907 → extended/13139) sigue con puente."""
+    curado = json.loads(json.dumps(CURADO))
+    curado["nodes"].append({"id": "sent_tc_rol_n_13139_06a_ina", "node_type": "jurisprudencia_tc",
+                            "label": "TC · Rol N° 13139-22-INA — INA-STC", "rol": "Rol N° 13139-06a-INA",
+                            "url": "https://buscador-backend.tcchile.cl/api/extended/13139/download"})
+    _, alias, puentes = _capa(curado=curado)
+    assert alias["sent_tc_rol_n_13139_06a_ina"] == "tc:13139"
+    assert not any(p[0] == "sent_tc_rol_n_13139_06a_ina" for p in puentes)
+    assert ("sent_tc_rol_n_15907_06a_ina", "tc:13139", "mismo_documento") in puentes
+    assert grafo.tc_alineada({"rol": "Rol N° 13.139-06a-INA"}, 13139)
+    assert not grafo.tc_alineada({"label": "TC · Rol N° 9999-12-INA"}, 2402)

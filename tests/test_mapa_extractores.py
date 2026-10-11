@@ -31,7 +31,41 @@ def test_tc_identidad_por_el_cuerpo_y_no_por_la_cabecera():
     assert "cabecera_desalineada" in fila["calidad"]
     assert "norma:cpr:93:n6" in dict(fila["normas"])          # la fórmula final de inaplicabilidad
     assert "tc:15907" not in fila.get("cita_tc", [])           # ninguna cita hacia la cabecera
-    assert fila["fecha"] == "2022-04-07"
+    # La de la resolución («Santiago, seis de mayo de dos mil veintidós»), no la de presentación
+    # del requerimiento («con fecha 7 de abril de 2022»), que es la primera fecha en cifras.
+    assert fila["fecha"] == "2022-05-06"
+
+
+def _md_tc(rol, fecha, cuerpo):
+    numero = rol.split("-")[0]
+    return (f"# INA-Inadmisibilidad — Rol N° {rol}\n\n- **Rol:** Rol N° {rol}\n- **Fecha:** {fecha}\n"
+            f"- **Documento oficial:** https://buscador-backend.tcchile.cl/api/extended/{numero}/download\n\n---\n\n{cuerpo}")
+
+
+def test_tc_el_encabezado_de_las_sentencias_identifica_la_causa():
+    """«Sentencia Rol 9231-2020» (sin «N°») es el rol propio: identidad por el cuerpo, no por el enlace."""
+    fila = _extraer("jurisprudencia_tc/9231-06a-INA.md",
+                    _md_tc("9231-06a-INA", "2021-07-08", "Sentencia Rol 9231-2020 [8 de julio de 2021] VISTOS: …"))
+    assert fila["id"] == "tc:9231" and not fila.get("calidad") and fila["fecha"] == "2021-07-08"
+
+
+def test_tc_una_resolucion_que_cita_otro_rol_antes_del_suyo_no_queda_desalineada():
+    """Las inadmisibilidades nombran su rol solo al pie; antes pueden citar un precedente."""
+    cuerpo = ("Santiago, veintinueve de octubre de dos mil veinticuatro. VISTOS: con fecha 2 de septiembre de "
+              "2024 se presentó un requerimiento; como resolvió la STC Rol N° 8536-20-INA, " + "considerando. " * 400
+              + "SE DECLARA INADMISIBLE. Rol N° 15.068-24-INA.")
+    fila = _extraer("jurisprudencia_tc/15068-06b-INA.md", _md_tc("15068-06b-INA", "2024-10-29", cuerpo))
+    assert fila["id"] == "tc:15068" and not fila.get("calidad")
+    assert fila["fecha"] == "2024-10-29"                    # la de la resolución, no la de presentación
+
+
+def test_tc_un_pie_sin_anio_con_un_precedente_antes_no_queda_desalineado():
+    """El mismo criterio que la conversión: «Rol N° 16.615-INA» al pie es el rol propio, aunque antes
+    se cite «STC Rol N° 8536-20-INA»."""
+    cuerpo = ("Santiago, tres de marzo de dos mil veinticinco. Como resolvió la STC Rol N° 8536-20-INA, "
+              + "considerando. " * 50 + "Proveído. Rol N° 16.615-INA.")
+    fila = _extraer("jurisprudencia_tc/16615-06b-INA.md", _md_tc("16615-06b-INA", "2025-03-03", cuerpo))
+    assert fila["id"] == "tc:16615" and not fila.get("calidad")
 
 
 def test_basura_de_prueba_del_scraper_no_se_inventaria():

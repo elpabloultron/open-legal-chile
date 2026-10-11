@@ -128,16 +128,20 @@ def _limpiar(texto: str) -> str:
         if 5 < len(clave) < 90:
             conteo[clave] = conteo.get(clave, 0) + 1
     repetidas = {c for c, n in conteo.items() if n >= 6}
-    salida = []
+    salida: List[str] = []
     for linea in lineas:
         clave = linea.strip()
         if clave in repetidas:
             continue
-        if re.fullmatch(r"[-–—\s]*\d{1,4}[-–—\s]*", clave):  # sólo un número de página
+        # Sólo un número de página (si la línea anterior termina en guion, es el final de una cifra
+        # partida: «RUC 2010062802-» / «4»).
+        if re.fullmatch(r"[-–—\s]*\d{1,4}[-–—\s]*", clave) and not (salida and salida[-1].endswith("-")):
             continue
         salida.append(linea.rstrip())
     texto = "\n".join(salida)
-    texto = re.sub(r"(\w)-\n(\w)", r"\1\2", texto)          # palabra cortada por salto
+    # Palabra cortada por salto («consti-\ntucional»). Solo entre letras: «Rol 185-\n2020» o
+    # «RUC 2010062802-\n4» llevan un guion de verdad y no se pegan.
+    texto = re.sub(r"([^\W\d_])-\n([^\W\d_])", r"\1\2", texto)
     texto = re.sub(r"\n{3,}", "\n\n", texto)                 # aire de sobra
     return texto.strip()
 
