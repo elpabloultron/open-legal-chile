@@ -149,14 +149,23 @@ def construir_capa(filas: List[Dict[str, Any]], entidades: Dict[str, List[Dict[s
     return g
 
 
+def tc_alineada(nodo: Dict[str, Any], numero: int) -> bool:
+    """La ficha curada del TC es de la causa `numero` (la de su documento oficial): su rol, o el rol
+    de su etiqueta si no lo trae, tiene ese número. Las fichas de la cosecha vieja no lo cumplen."""
+    rol = str(nodo.get("rol") or "") or str(nodo.get("label") or "")
+    m = re.search(r"Rol\s*N?[°º]?\s*(\d[\d.]*)", rol)
+    return m is not None and int(m.group(1).replace(".", "")) == numero
+
+
 def alias_curados(curado: Dict[str, Any], g: Grafo, filas: List[Dict[str, Any]]) -> Tuple[Dict[str, str], List[Tuple[str, str, str]]]:
     """(alias legado→canónico, aristas puente). Solo alias inequívocos; lo dudoso va como arista.
 
     - `norma_*` → `norma:*` cuando su etiqueta da exactamente un ID canónico.
     - `obra_*`, `bib_amb_*`, `pub_amb_*` → la entrada cuya ruta es su `source_file`.
     - `organo_*` → `organo:*`; `autor_*` → `autor:*` si el nombre coincide.
-    - `sent_tc_*`: su cabecera es de otra causa (ver extractores), así que NO se fusiona: se
-      enlaza con `mismo_documento` a la entrada del documento oficial (`extended/<id>`).
+    - `sent_tc_*` → `tc:<n>` si su documento oficial (`extended/<n>`) es el de su propio rol (las
+      fichas rearmadas con el PDF pedido por número de rol). Las viejas, cuya cabecera es de otra
+      causa, NO se fusionan: se enlazan con `mismo_documento` a la entrada del documento oficial.
     - `sent_amb_*` → `ta:*` por tribunal + rol; `fallo_*`/`sent_cs_*` → `cs:*` solo si el fallo
       existe en el corpus cosechado.
     """
@@ -184,7 +193,10 @@ def alias_curados(curado: Dict[str, Any], g: Grafo, filas: List[Dict[str, Any]])
         elif tipo == "jurisprudencia_tc":
             m = re.search(r"/extended/(\d+)/", str(n.get("url") or ""))
             if m and f"tc:{m.group(1)}" in g.nodos:
-                puentes.append((nid, f"tc:{m.group(1)}", "mismo_documento"))
+                if tc_alineada(n, int(m.group(1))):
+                    destino = f"tc:{m.group(1)}"
+                else:
+                    puentes.append((nid, f"tc:{m.group(1)}", "mismo_documento"))
         elif nid.startswith("sent_amb_"):
             trib = str(n.get("tribunal") or "").lower()
             ta = rol_canonico(str(n.get("rol") or ""), trib) if trib in ("1ta", "2ta", "3ta") else None

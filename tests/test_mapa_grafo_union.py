@@ -609,3 +609,16 @@ def test_con_el_mapa_apagado_no_hay_capa(tmp_path):
     res = motor.consultar_subgrafo("responsabilidad extracontractual")
     assert motor.origen_grafo == "repo"
     assert "capa" not in res and "fallos_cs" not in res
+
+
+def test_una_ficha_tc_de_su_propia_causa_se_funde_con_el_mapa(tmp_path, fabrica_mapa):
+    curado = json.loads(json.dumps(CURADO))
+    for n in curado["nodes"]:
+        if n["id"] == "sent_tc_rol_n_2402_12_ina":
+            n.update(label="TC · Rol N° 2402-12-INA — INA-STC", rol="Rol N° 2402-12-INA")
+    motor = _motor(tmp_path, curado)
+    motor.cargar_capa_mapa(fabrica_mapa(curado=curado))
+    g = motor.graph
+    curada = g.nodes["sent_tc_rol_n_2402_12_ina"]
+    assert curada.get("id_mapa") == "tc:2402" and "tc:2402" not in g.nodes
+    assert "calidad_mapa" not in curada and "documento_oficial" not in curada
