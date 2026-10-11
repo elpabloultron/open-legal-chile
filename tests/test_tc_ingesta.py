@@ -5,6 +5,7 @@ cuyo rol es ese número: las 965 sentencias del dataset quedaron con la cabecera
 texto de otra. Sin red: la API, el PDF y Hugging Face se simulan.
 """
 
+import json
 import pathlib
 from types import SimpleNamespace
 
@@ -387,3 +388,102 @@ def test_las_reservadas_quedan_anotadas_para_retirarlas(tmp_path, monkeypatch):
     reservadas = tmp_path / "reservadas.txt"
     cosecha.cosechar_tc("2025-06-12", hasta="2025-06-12", reservadas=reservadas)
     assert reservadas.read_text(encoding="utf-8") == "11526-06a-INA.md\n"
+
+
+def test_los_correos_anexados_no_tapan_el_pie_propio():
+    # 13230 (2022): el pie propio va antes de los correos de notificación, que nombran la gestión.
+    cuerpo = ("Santiago, … SE DECLARA INADMISIBLE el requerimiento. " + "Considerando. " * 200
+              + "Rol N° 13.230-22-INA. Pronunciada por la Primera Sala. "
+              + "De: Notificaciones Enviado el: miércoles, 6 de julio de 2022 9:25 Asunto: Comunica "
+              + "resolución Rol 13230‐22 en el proceso Rol N° 7935-2022 " * 30)
+    assert tc.corresponde(cuerpo, 13230) and not tc.corresponde(cuerpo, 7935)
+
+
+def test_la_gestion_heredada_sale_del_detalle_integro(tmp_path):
+    integra = ("Proceso penal por el delito de tráfico de drogas en pequeñas cantidades, seguido en contra del "
+               "requirente ante el Juzgado de Garantía de Calama, actualmente en etapa de investigación formalizada, "
+               "en el proceso penal RIT N° 169-2024, RUC N° 2100844233-6")
+    assert len(integra) > 200 and "169-2024" not in integra[:200]       # la cosecha vieja lo cortaba antes
+    salida = tmp_path / "tc.jsonl"
+    salida.write_text(json.dumps({"rol": "Rol N° 17127-06a-INA", "caratula": integra[:200],
+                                  "detalle": {"Gestión pendiente": integra}}, ensure_ascii=False) + "\n"
+                      + json.dumps({"rol": "Rol N° 17128-06a-INA", "caratula": "Gestión sin detalle " * 15}) + "\n",
+                      encoding="utf-8")
+    previas = cosecha._caratulas_previas(salida)
+    assert previas["Rol N° 17127-06a-INA"] == integra                       # con el RUC del final
+    assert previas["Rol N° 17128-06a-INA"].endswith(" …")                  # sin detalle: recortada a palabra
+
+
+def test_el_reintento_de_la_cosecha_respeta_el_plazo(tmp_path, monkeypatch):
+    monkeypatch.setattr(cosecha, "DATA_DIR", tmp_path)
+    monkeypatch.setattr(cosecha, "PAUSA", 0)
+    monkeypatch.setattr(cosecha.time, "sleep", lambda s: None)
+    reloj = [0.0]
+    monkeypatch.setattr(cosecha.time, "monotonic", lambda: reloj[0])
+    pedidos = []
+
+    def lenta(fecha, page, s):
+        pedidos.append(fecha)
+        reloj[0] += 60                                   # cada pedido fallido tarda un minuto
+        if fecha.endswith(("-03", "-06", "-09")):
+            raise cosecha.requests.Timeout("lenta")
+        return {"data": [], "meta": {"total": 0, "per_page": 5}}
+
+    monkeypatch.setattr(cosecha, "tc_por_dia", lenta)
+    fallidos = tmp_path / "f.txt"
+    cosecha.cosechar_tc("2025-01-01", hasta="2025-01-10", fallidos=fallidos, max_minutos=25)
+    # Primera pasada: 7 días buenos (1 pedido) y 3 caídos (4 intentos) = 19 min. El reintento alcanza a
+    # pedir el 9 (23 min) y el 6 (27 min); el 3 ya no se pide: pasó el plazo y queda anotado.
+    assert sorted(fallidos.read_text(encoding="utf-8").split()) == ["2025-01-03", "2025-01-06", "2025-01-09"]
+    assert (pedidos.count("2025-01-09"), pedidos.count("2025-01-06"), pedidos.count("2025-01-03")) == (8, 8, 4)
+
+
+def test_la_conversion_con_el_plazo_vencido_deja_lo_pendiente_como_reintentable(monkeypatch):
+    llamado = []
+    monkeypatch.setattr(tc, "procesar", lambda item, rehacer=False: llamado.append(item) or (item[0], "ok|x|1|p"))
+    _, estado = tc.procesar_con_plazo((3, {"rol": "Rol N° 15686-06a-INA"}), True, tc.time.monotonic() - 1)
+    assert estado.startswith("error|15686-06a-INA|") and "el TC no respondió" in estado and not llamado
+    assert tc.procesar_con_plazo((3, {"rol": "Rol N° 15686-06a-INA"}), True, 0)[1] == "ok|x|1|p"
+
+
+def test_un_502_al_preparar_las_bajas_se_reintenta(tmp_path, monkeypatch):
+    monkeypatch.setattr(subir_tc_hf.time, "sleep", lambda s: None)
+    api = _ApiHF(["testrol2-34566.md"])
+    original = api.get_paths_info
+    fallas = [Exception("502 Bad Gateway")]
+    fallas[0].response = SimpleNamespace(status_code=502)
+
+    def paths_info(repo_id, paths, repo_type=None):
+        if fallas:
+            raise fallas.pop(0)
+        return original(repo_id, paths, repo_type)
+
+    api.get_paths_info = paths_info
+    res = subir_tc_hf.subir(tmp_path, "hf_x", api=api, bajar=lambda r: b"")
+    assert res["commits"] == ["1" * 40] and api.remotos == []
+
+
+def test_un_corte_a_mitad_de_la_descarga_o_una_pagina_de_mantencion_son_reintentables(monkeypatch):
+    monkeypatch.setattr(tc.time, "sleep", lambda s: None)
+    respuestas = [tc.requests.exceptions.ChunkedEncodingError("IncompleteRead"),
+                  SimpleNamespace(status_code=200, content=b"<html>mantencion</html>", raise_for_status=lambda: None),
+                  SimpleNamespace(status_code=403, content=b"", raise_for_status=lambda: None),
+                  SimpleNamespace(status_code=200, content=b"%PDF-1.7 ok", raise_for_status=lambda: None)]
+
+    def get(url, headers=None, timeout=None):
+        r = respuestas.pop(0)
+        if isinstance(r, Exception):
+            raise r
+        return r
+
+    monkeypatch.setattr(tc.requests, "get", get)
+    assert tc.descargar_pdf("https://buscador-backend.tcchile.cl/api/extended/16048/download") == b"%PDF-1.7 ok"
+    respuestas[:] = [SimpleNamespace(status_code=403, content=b"", raise_for_status=lambda: None)] * 4
+    with __import__("pytest").raises(ValueError, match="el TC no respondió"):
+        tc.descargar_pdf("https://buscador-backend.tcchile.cl/api/extended/16048/download")
+
+
+def test_no_admitir_a_tramitacion_tambien_es_una_inadmisibilidad():
+    texto = "Santiago, … no se admite a tramitación el requerimiento deducido. Rol N° 16.100-25-INA."
+    assert tc.documento_de_la_ficha({"tipo": "INA-Inadmisibilidad"}, texto) == ""
+    assert tc.tipo_documento("Santiago, … téngase por no presentado el requerimiento.", "INA-STC") == "INA-Inadmisibilidad"

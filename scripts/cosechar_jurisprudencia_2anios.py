@@ -228,8 +228,12 @@ def _caratulas_previas(salida: pathlib.Path) -> dict[str, str]:
                 reg = json.loads(linea)
             except ValueError:
                 continue
-            if reg.get("rol") and _valor_ficha(reg.get("caratula")):   # la cosecha vieja guardaba «None»
-                previas[reg["rol"]] = _recortar(_valor_ficha(reg.get("caratula")))
+            # El campo `caratula` venía cortado a 200 caracteres; el `detalle` del mismo registro trae
+            # la gestión íntegra (con el RIT/RUC del final, que es lo que se verifica).
+            integra = _valor_ficha((reg.get("detalle") or {}).get("Gestión pendiente"))[:600]
+            gestion = integra or _recortar(_valor_ficha(reg.get("caratula")))   # la vieja guardaba «None»
+            if reg.get("rol") and gestion:
+                previas[reg["rol"]] = gestion
     return previas
 
 
@@ -333,7 +337,19 @@ def cosechar_tc(desde: str, limite_dias: int = 0, hasta: str = "",
         elif pendientes:
             print(f"[TC] reintentando {len(pendientes)} día(s) que no respondieron …")
             time.sleep(10)
-            pendientes = [d for d in pendientes if not cosechar_dia(d, f)]
+            # La segunda pasada respeta los mismos topes: lo que no alcanza queda anotado.
+            quedan, seguidos = [], 0
+            for i, d in enumerate(pendientes):
+                if (max_minutos and time.monotonic() - inicio > max_minutos * 60) or seguidos >= CORTE_DIAS_SEGUIDOS:
+                    quedan += pendientes[i:]
+                    print(f"::warning::TC: reintento detenido; quedan {len(pendientes) - i} día(s) sin pedir")
+                    break
+                if cosechar_dia(d, f):
+                    seguidos = 0
+                else:
+                    quedan.append(d)
+                    seguidos += 1
+            pendientes = quedan
     print(f"[TC] listo: {total} sentencias → {salida} · omitidas: {omitidas['reservada']} reservadas, "
           f"{omitidas['prueba']} de prueba · días sin respuesta: {len(pendientes)}")
     if pendientes:

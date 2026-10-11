@@ -2748,9 +2748,9 @@
     "semantic_hash": ""
   },
   "scripts/cosechar_jurisprudencia_2anios.py": {
-    "mtime": 1791656595.6762924,
-    "seen": 1791656762.5906823,
-    "ast_hash": "fbc539c58a805de3fb74330d7d5c04d0",
+    "mtime": 1791677204.5963068,
+    "seen": 1791677315.8124785,
+    "ast_hash": "171d15983270e09808838929fffd4e95",
     "semantic_hash": ""
   },
   "scripts/cosechar_publicaciones_ambientales.py": {
@@ -2844,9 +2844,9 @@
     "semantic_hash": ""
   },
   "scripts/tc_pdfs_a_md.py": {
-    "mtime": 1791656594.5172398,
-    "seen": 1791656762.5922143,
-    "ast_hash": "356f65602eebee9f13f9db587f14475d",
+    "mtime": 1791677192.8285317,
+    "seen": 1791677315.8152435,
+    "ast_hash": "ff83919287ac3e07e43e164c08f33d7f",
     "semantic_hash": ""
   },
   "scripts/upload_to_huggingface.py": {
@@ -3846,9 +3846,9 @@
     "semantic_hash": ""
   },
   "mapa_corpus/texto.py": {
-    "mtime": 1791656597.8964283,
-    "seen": 1791656762.5895658,
-    "ast_hash": "6ebdd9f0c65677a3d32922110db575c1",
+    "mtime": 1791677194.9684522,
+    "seen": 1791677315.8106356,
+    "ast_hash": "675487037fdb7bc2fea301381aa8086b",
     "semantic_hash": ""
   },
   "mapa_corpus/verificacion.py": {
@@ -4152,21 +4152,21 @@
     "semantic_hash": ""
   },
   "scripts/subir_tc_hf.py": {
-    "mtime": 1791656672.3470643,
-    "seen": 1791656762.5921845,
-    "ast_hash": "bfb3610fa84a34ca17fa5e39414e56f9",
+    "mtime": 1791677194.2970867,
+    "seen": 1791677315.8151827,
+    "ast_hash": "2f9083d7251c883a224245f7907cf815",
     "semantic_hash": ""
   },
   "tests/test_tc_ingesta.py": {
-    "mtime": 1791656588.5335798,
-    "seen": 1791656762.5963888,
-    "ast_hash": "30b6d7ca2b64c327721ae01e6cc8fbc7",
+    "mtime": 1791677203.5428796,
+    "seen": 1791677315.8191106,
+    "ast_hash": "0684c711f0be0abdf6e73f83516a0c98",
     "semantic_hash": ""
   },
   ".github/workflows/ingesta-tc.yml": {
-    "mtime": 1791656564.227416,
-    "seen": 1791656762.5988286,
-    "ast_hash": "8622d2320f6e0c1653f59328f3b35352",
+    "mtime": 1791677150.7123437,
+    "seen": 1791677315.8200586,
+    "ast_hash": "2905770a59f1cf2931191deb9537130e",
     "semantic_hash": ""
   },
   "tests/test_workflows_rutas.py": {
