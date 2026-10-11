@@ -101,10 +101,12 @@ def rol_oficial(texto: str, numero: int) -> str:
 
 
 # «Se declara inadmisible», «SE DECLARA: Derechamente inadmisible», «se declara improcedente», «no se
-# acoge a tramitación». La palabra «sentencia» suelta no basta: aparece en el precepto citado
-# («citación para sentencia», «la sentencia recurrida»); el encabezado es «Sentencia Rol …».
-_RE_INADMISIBLE = re.compile(r"declara\s*:?\s*(?:\w+\s+){0,2}(?:inadmisible|improcedente)"
-                             r"|no\s+se\s+acoge\s+a\s+tr[aá]mit", re.IGNORECASE)
+# acoge/admite a tramitación», «téngase por no presentado». La palabra «sentencia» suelta no basta:
+# aparece en el precepto citado («citación para sentencia», «la sentencia recurrida»); el encabezado
+# es «Sentencia Rol …».
+_NO_ADMITE = r"no\s+se\s+(?:acoge|admite)\s+a\s+tr[aá]mit|t[ée]ngase\s+por\s+no\s+presentad"
+_RE_INADMISIBLE = re.compile(r"declara\s*:?\s*(?:\w+\s+){0,2}(?:inadmisible|improcedente)|" + _NO_ADMITE,
+                             re.IGNORECASE)
 
 
 def _es_sentencia(plano: str) -> bool:
@@ -128,8 +130,8 @@ def documento_de_la_ficha(datos: dict, texto: str) -> str:
     documento de la causa, que puede ser un proveído posterior. "" si corresponde."""
     tipo = str(datos.get("tipo") or "")
     plano = " ".join(texto[:20000].split())
-    if tipo.endswith("-Inadmisibilidad") and not re.search(r"inadmisib|improceden|no\s+se\s+acoge\s+a\s+tr[aá]mit",
-                                                            plano, re.IGNORECASE):
+    if tipo.endswith("-Inadmisibilidad") and not re.search(r"inadmisib|improceden|" + _NO_ADMITE, plano,
+                                                            re.IGNORECASE):
         return "el documento no es una resolución de inadmisibilidad (¿un proveído posterior?)"
     # Solo inaplicabilidad: otras «-STC» (inhabilidades, CPR…) son resoluciones de sala sin encabezado.
     if tipo == "INA-STC" and not _es_sentencia(plano):
@@ -192,14 +194,16 @@ def descargar_pdf(url: str, intentos: int = 4) -> bytes:
         try:
             r = requests.get(url, headers=UA, timeout=120)
             estado = getattr(r, "status_code", 200)
-            if estado in REINTENTABLES:
+            # 429/5xx, y también un 403 o una página HTML (mantención, cortafuegos): son pasajeros.
+            if estado in REINTENTABLES or estado == 403:
                 raise requests.ConnectionError(f"HTTP {estado}")
             r.raise_for_status()
             inicio = r.content.find(b"%PDF", 0, 1024)
             if inicio < 0:
-                raise ValueError("la respuesta no es un PDF")
+                raise requests.ConnectionError("la respuesta no es un PDF (¿página de mantención?)")
             return r.content[inicio:]
-        except (requests.ConnectionError, requests.Timeout) as e:
+        except (requests.ConnectionError, requests.Timeout, requests.exceptions.ChunkedEncodingError,
+                requests.exceptions.ContentDecodingError) as e:
             if intento == intentos - 1:
                 raise ValueError(f"el TC no respondió: {str(e)[:60]}") from e
             time.sleep(3 * 2 ** intento)
@@ -278,6 +282,14 @@ def procesar(item: tuple[int, dict], rehacer: bool = False) -> tuple[int, str]:
         return idx, f"error|{nombre}|{type(e).__name__}: {str(e)[:70]}"
 
 
+def procesar_con_plazo(item: tuple[int, dict], rehacer: bool, limite: float) -> tuple[int, str]:
+    """`procesar`, salvo que ya venció el plazo de la corrida: entonces no se pide el PDF y queda
+    como reintentable, para que la subida y el resumen alcancen a correr dentro del job."""
+    if limite and time.monotonic() > limite:
+        return item[0], f"error|{nombre_archivo(item[1]['rol'])}|ValueError: el TC no respondió: se agotó el plazo"
+    return procesar(item, rehacer)
+
+
 def resumen_github(lineas: list[str]) -> None:
     """Agrega el resumen al de la corrida de la Action (si corre en una)."""
     destino = os.environ.get("GITHUB_STEP_SUMMARY")
@@ -293,7 +305,10 @@ def main() -> int:
                     help="reescribir también los .md que ya existen (p. ej., los que tenían el texto de otra causa)")
     ap.add_argument("--fallidas", default="",
                     help="archivo donde anotar las que fallaron por la red o el TC (vale la pena relanzarlas)")
+    ap.add_argument("--max-minutos", type=float, default=0,
+                    help="pasado este plazo no se piden más PDF: lo pendiente queda en --fallidas")
     args = ap.parse_args()
+    limite = time.monotonic() + args.max_minutos * 60 if args.max_minutos else 0.0
     DIR_PDF.mkdir(parents=True, exist_ok=True)
     filas = [json.loads(linea) for linea in open(SENTENCIAS, encoding="utf-8")]
     pendientes = [(i, r) for i, r in enumerate(filas)]
@@ -304,7 +319,7 @@ def main() -> int:
     ok = saltadas = fallidas = 0
     errores: list[str] = []
     with ThreadPoolExecutor(max_workers=TRABAJADORES) as pool:
-        futuros = {pool.submit(procesar, item, args.rehacer): item for item in pendientes}
+        futuros = {pool.submit(procesar_con_plazo, item, args.rehacer, limite): item for item in pendientes}
         for n, fut in enumerate(as_completed(futuros), 1):
             idx, resultado = fut.result()
             partes = resultado.split("|")

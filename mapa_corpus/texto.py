@@ -119,7 +119,11 @@ def nombra_rol_tc(texto: str, numero: int) -> bool:
     otro = r"[\d.]+\s*(?:-\s*\d{2,4})?\s*(?:-?\s*[A-Z]{2,5})?\s*(?:/|\(|\by\b|,)\s*(?:N[°º]?\s*)?"
     if re.search(rf"\bSentencia\s+Rol(?:es)?\s*(?:N[°º]?\s*)?(?:{otro})*{num}", plano[:1500]):
         return True
-    pies = list(_RE_PIE_TC.finditer(plano[-2500:]))
+    # Algunas resoluciones traen anexados los correos de notificación («Enviado el: … Asunto: …»),
+    # que nombran otros roles (la gestión, la causa): el pie propio es el de antes del primer correo.
+    correo = re.search(r"\bEnviado(?: el)?:\s", plano)
+    zona = plano[:correo.start()] if correo else plano
+    pies = list(_RE_PIE_TC.finditer(zona[-2500:]))
     return bool(pies) and numero in _numeros(pies[-1].group(1))
 
 

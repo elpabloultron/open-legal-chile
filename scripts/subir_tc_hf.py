@@ -115,10 +115,12 @@ def _commit(api: Any, repo_id: str, operaciones: Callable[[], List[Any]], mensaj
     """Un commit en HF. Las operaciones se recrean en cada intento (las ya usadas guardan el estado
     remoto de antes y reenviarían un lote que sí entró). Devuelve "" si no hubo nada que cambiar."""
     for intento in range(intentos):
-        ops = operaciones()
-        if not ops:
-            return ""
         try:
+            # Armar las operaciones también va con reintento: para las bajas consulta get_paths_info,
+            # que en huggingface_hub no reintenta solo un 502.
+            ops = operaciones()
+            if not ops:
+                return ""
             antes = str(getattr(api.repo_info(repo_id, repo_type="dataset"), "sha", "") or "")
             info = api.create_commit(repo_id=repo_id, repo_type="dataset", operations=ops, commit_message=mensaje)
             oid = str(getattr(info, "oid", "") or info)

@@ -68,14 +68,17 @@ jobs:
 
       - name: Cosechar las fichas del TC (día por día)
         run: |
-          # Con la API caída se detiene sola (10 días seguidos sin respuesta o 240 min) y sigue con lo
-          # cosechado; lo pendiente queda anotado para relanzar.
+          # Con la API caída se detiene sola (10 días seguidos sin respuesta o 180 min) y sigue con lo
+          # cosechado; lo pendiente queda anotado para relanzar. Cosecha (180) + conversión (100) dejan
+          # tiempo a la subida y al resumen dentro de los 350 min del job.
           python scripts/cosechar_jurisprudencia_2anios.py --tribunal tc --desde "$DESDE" --hasta "$HASTA" \
             --fallidos "$RUNNER_TEMP/tc_dias_fallidos.txt" --reservadas "$RUNNER_TEMP/tc_reservadas.txt" \
-            --max-minutos 240
+            --max-minutos 180
 
       - name: Convertir los PDF oficiales a Markdown (verificando el rol)
-        run: python scripts/tc_pdfs_a_md.py --rehacer --fallidas "$RUNNER_TEMP/tc_conv_fallidas.txt"
+        run: |
+          python scripts/tc_pdfs_a_md.py --rehacer --fallidas "$RUNNER_TEMP/tc_conv_fallidas.txt" \
+            --max-minutos 100
 
       - name: Respaldo de lo convertido (por si la subida falla)
         uses: actions/upload-artifact@v4
