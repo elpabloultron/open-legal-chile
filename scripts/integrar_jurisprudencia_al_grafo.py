@@ -39,7 +39,7 @@ BASE = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE))
 
 from citas_legales import normas_canonicas  # noqa: E402
-from mapa_corpus.grafo import padres_norma  # noqa: E402
+from mapa_corpus.grafo import norma_de_etiqueta, padres_norma  # noqa: E402
 from mapa_corpus.texto import leer_vinetas  # noqa: E402
 GRAFO = BASE / "data" / "legal_knowledge_graph.json"
 TC_INDICE = BASE / "data" / "jurisprudencia" / "tc_textos.jsonl"
@@ -123,14 +123,15 @@ def normas_citadas(texto: str, claves_mod, idx_normas: dict[tuple, str], idx_ley
 
 def indice_canonico(nodos: list[dict]) -> dict[str, str]:
     """ID canónico (`norma:cc:1545`) → nodo de norma del grafo curado, por la etiqueta del nodo (como
-    los alias del mapa del corpus): solo cuando la etiqueta nombra exactamente una norma."""
+    los alias del mapa del corpus): solo cuando la etiqueta nombra exactamente una norma. Un artículo
+    («Ley N° 17.997 …, Art. 79») nunca queda como la ley entera: le llegarían las citas de toda la ley."""
     idx: dict[str, str] = {}
     for n in nodos:
         nid = str(n.get("id", ""))
         if nid.startswith("norma_"):
-            canon = [i for i, _ in normas_canonicas(str(n.get("label") or ""))]
-            if len(canon) == 1:
-                idx.setdefault(canon[0], nid)
+            canon = norma_de_etiqueta(str(n.get("label") or ""))
+            if canon:
+                idx.setdefault(canon, nid)
     return idx
 
 

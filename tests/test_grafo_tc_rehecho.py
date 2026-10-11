@@ -22,6 +22,7 @@ MD = """# INA-STC — Rol N° 15686-06a-INA
 ---
 
 Sentencia Rol 15.686-24 INA [12 de junio de 2025]. VISTOS: … se impugna el artículo 1545 del Código Civil …
+conforme al artículo 84 de la Ley N° 17.997, Orgánica Constitucional del Tribunal Constitucional …
 Rol N° 15.686-24-INA.
 """
 
@@ -44,6 +45,10 @@ def base(tmp_path, monkeypatch):
         {"id": "organo_tc", "label": "Tribunal Constitucional de Chile", "node_type": "organo_estado"},
         {"id": "norma_codigo_civil_art_1545", "label": "Código Civil, Art. 1545", "node_type": "articulo_legal"},
         {"id": "norma_cpr_19_8", "label": "CPR Art. 19 N° 8", "node_type": "articulo_legal"},
+        # Un artículo cuya etiqueta lleva el nombre de la ley antes del número de artículo.
+        {"id": "norma_ley_n_17_997_organica_constitucional_del_tribunal_constitucional_art_79",
+         "label": "Ley N° 17.997 Orgánica Constitucional del Tribunal Constitucional, Art. 79",
+         "node_type": "articulo_legal"},
         # Ficha vieja: cabecera de 15686, texto y enlace de otra causa (extended/13336).
         {"id": "sent_tc_rol_n_15686_06a_ina", "label": "TC · Rol N° 15686-06a-INA — INA-STC",
          "node_type": "jurisprudencia_tc", "rol": "Rol N° 15686-06a-INA",
@@ -81,6 +86,8 @@ def test_rehacer_tc_quita_lo_armado_con_otra_causa_y_lo_rearma_con_el_documento_
     assert ("sent_tc_rol_n_15686_06a_ina", "norma_codigo_civil_art_1545", "cita_norma") in aristas
     assert ("sent_tc_rol_n_15686_06a_ina", "organo_tc", "resuelto_por") in aristas
     assert not any("99999" in a["source"] for a in g["edges"])
+    # Cita el art. 84 de la LOC del TC: no se le atribuye el art. 79, que es otro artículo.
+    assert not any(t.endswith("_art_79") for (s, t, r) in aristas if s == "sent_tc_rol_n_15686_06a_ina")
 
 
 def test_sin_rehacer_no_se_toca_lo_que_ya_estaba(base, monkeypatch):
