@@ -112,6 +112,18 @@ def roles(t):
     # El artículo seguido de un cuerpo que la gramática no reconoce no hereda el anterior.
     ("del artículo 25 ter de la Ley N° 19.300, artículo 73 y artículo 4° transitorio del Decreto Supremo N° 40",
      ["norma:ley-19300:25ter"]),
+    # Tras un inciso, un número de 3 cifras o con su propio inciso ya es otro artículo (no el inciso 27).
+    ("en sus artículos 276 inciso tercero y 277 inciso segundo del Código Procesal Penal",
+     ["norma:cpp:276", "norma:cpp:277"]),
+    ("los artículos 470 inciso primero y 1511 del Código Civil", ["norma:cc:1511", "norma:cc:470"]),
+    ("los artículos 8° inciso segundo y 38 inciso primero de la Constitución", ["norma:cpr:38", "norma:cpr:8"]),
+    ("el artículo 19 inciso 2 y 3 de la Constitución", ["norma:cpr:19"]),
+    # Cierre distributivo, «Código de Trabajo» y la sigla «CPol.».
+    ("los artículos 1545 y 1546, ambos del Código Civil", ["norma:cc:1545", "norma:cc:1546"]),
+    ("los artículos 7 y 168, todos del Código de Trabajo", ["norma:ct:168", "norma:ct:7"]),
+    ("(artículo 19 N° 26 CPol.)", ["norma:cpr:19:n26"]),
+    # Timbre de foja con el número de página en medio de la cita.
+    ("el artículo 374 letra 0000159 3 CIENTO CINCUENTA Y NUEVE e) del Código Procesal Penal", ["norma:cpp:374"]),
 ])
 def test_normas_canonicas(frase, esperado):
     assert normas(frase) == esperado

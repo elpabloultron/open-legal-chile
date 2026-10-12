@@ -9,7 +9,7 @@ buscador oficial (`buscador.tcchile.cl`) y convertidas a Markdown.
   documento oficial) y el texto completo del documento.
 - **Verificación:** el documento oficial se pide por número de rol y solo se publica si su texto
   nombra ese rol. La fecha y el tipo salen del propio documento (si la ficha del buscador dice otra
-  cosa, queda anotado). La gestión pendiente se escribe solo si sus RIT/RUC/Rol aparecen en el texto.
+  cosa, queda anotado). La gestión pendiente se escribe solo si todos sus RIT/RUC/Rol aparecen en el texto.
 - **Privacidad:** los correos electrónicos de las notificaciones se reemplazan por «[correo omitido]»
   y no se publican las causas que el TC marca como reservadas.
 - **Reproducible:** `python scripts/cosechar_jurisprudencia_2anios.py --tribunal tc --desde AAAA-MM-DD`,

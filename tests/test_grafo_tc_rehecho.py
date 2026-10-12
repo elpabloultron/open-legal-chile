@@ -23,6 +23,7 @@ MD = """# INA-STC — Rol N° 15686-06a-INA
 
 Sentencia Rol 15.686-24 INA [12 de junio de 2025]. VISTOS: … se impugna el artículo 1545 del Código Civil …
 conforme al artículo 84 de la Ley N° 17.997, Orgánica Constitucional del Tribunal Constitucional …
+requerimiento de inaplicabilidad por inconstitucionalidad, por mandato del literal g) del artículo 8° de la Ley …
 Rol N° 15.686-24-INA.
 """
 
@@ -44,6 +45,9 @@ def base(tmp_path, monkeypatch):
     grafo = {"graph": {}, "nodes": [
         {"id": "organo_tc", "label": "Tribunal Constitucional de Chile", "node_type": "organo_estado"},
         {"id": "norma_codigo_civil_art_1545", "label": "Código Civil, Art. 1545", "node_type": "articulo_legal"},
+        # Hermano de la misma norma: gana el primero por id, el que el mapa funde con norma:cc:1545.
+        {"id": "norma_art_1545_cc", "label": "Art. 1545 CC", "node_type": "articulo_legal"},
+        {"id": "norma_cpr_art_8", "label": "CPR, Art. 8", "node_type": "articulo_legal"},
         {"id": "norma_cpr_19_8", "label": "CPR Art. 19 N° 8", "node_type": "articulo_legal"},
         # Un artículo cuya etiqueta lleva el nombre de la ley antes del número de artículo.
         {"id": "norma_ley_n_17_997_organica_constitucional_del_tribunal_constitucional_art_79",
@@ -83,7 +87,10 @@ def test_rehacer_tc_quita_lo_armado_con_otra_causa_y_lo_rearma_con_el_documento_
     assert nodo["gestion"].startswith("Causa Rol C-1-2024") and nodo["label"].startswith("TC · Rol N° 15686-24-INA")
     aristas = {(a["source"], a["target"], a["relation"]) for a in g["edges"]}
     assert ("sent_tc_rol_n_15686_06a_ina", "norma_cpr_19_8", "cita_norma") not in aristas    # la de otra causa
-    assert ("sent_tc_rol_n_15686_06a_ina", "norma_codigo_civil_art_1545", "cita_norma") in aristas
+    assert ("sent_tc_rol_n_15686_06a_ina", "norma_art_1545_cc", "cita_norma") in aristas
+    assert ("sent_tc_rol_n_15686_06a_ina", "norma_codigo_civil_art_1545", "cita_norma") not in aristas
+    # «inconstitucionalidad … artículo 8° de la Ley» no es el art. 8 de la Constitución.
+    assert ("sent_tc_rol_n_15686_06a_ina", "norma_cpr_art_8", "cita_norma") not in aristas
     assert ("sent_tc_rol_n_15686_06a_ina", "organo_tc", "resuelto_por") in aristas
     assert not any("99999" in a["source"] for a in g["edges"])
     # Cita el art. 84 de la LOC del TC: no se le atribuye el art. 79, que es otro artículo.

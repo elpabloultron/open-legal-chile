@@ -532,7 +532,8 @@ class LegalGraphifyEngine:
                 concordancias_raw.extend(re.findall(r"\[([^\]]+)\]", conc_header.group(1)))
             # Búsqueda adicional en texto
             concordancias_raw.extend(re.findall(r"\[(BCN\s*-\s*[^\]]+)\]", sec_clean))
-            concordancias_raw.extend(re.findall(r"(?:Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N°\s*\d+))*\s*(?:del\s*)?(?:CC|CPC|CPP|CP|COT|CT|CPR|Ley\s*\d+[\.\d]*))", sec_clean))
+            # El cierre `\b` impide leer «Art. 20 CPR» como «Art. 20 CP» (el Código Penal).
+            concordancias_raw.extend(re.findall(r"(?:Arts?\.?\s*\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))?(?:\s*(?:inc\.?\s*\d+|N°\s*\d+))*\s*(?:del\s*)?(?:CC|CPC|CPP|CP|COT|CT|CPR|Ley\s*\d+[\.\d]*)\b)", sec_clean))
 
             # Extraer Criterio Jurisprudencial Rector
             jurisprudencia_raw = []
@@ -573,7 +574,8 @@ class LegalGraphifyEngine:
             # Procesar y conectar Normas Legales
             normas_vistas: Set[str] = set()
             for norm_text in concordancias_raw:
-                clean_norm = norm_text.replace("BCN -", "").strip(" `[]")
+                # «(Art.⏎   291 CPP)»: la cita puede venir partida en líneas; la etiqueta va en una.
+                clean_norm = " ".join(norm_text.replace("BCN -", "").split()).strip(" `[]")
                 if not clean_norm or clean_norm in normas_vistas or len(clean_norm) < 3:
                     continue
                 normas_vistas.add(clean_norm)

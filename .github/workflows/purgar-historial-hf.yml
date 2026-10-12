@@ -1,0 +1,75 @@
+name: Purgar historial HF
+
+# Borra el historial del dataset de Hugging Face (IRREVERSIBLE): las revisiones anteriores dejan de
+# servirse. Retirar un archivo de `main` no lo borra de HF, que sigue sirviendo sus versiones viejas
+# por sha (causas reservadas del TC, correos de notificación). Ver scripts/purgar_historial_hf.py.
+#
+# Solo a mano: Actions → «Purgar historial HF» → Run workflow, escribiendo el repo en «confirmar».
+# Después, lanzar «Mapa del corpus HF» con modo=completo: el mapa fija la revisión de la fuente, que
+# la purga reemplaza, y se vuelve a publicar sobre la revisión nueva.
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmar:
+        description: 'Escriba pablobenavidesj/doctrina-jurisprudencia-chile para confirmar'
+        required: true
+        default: ''
+      retirar_mapa:
+        description: 'Borrar data/mapa/ antes de aplastar (se vuelve a publicar después)'
+        type: boolean
+        default: true
+      simular:
+        description: 'Solo listar referencias y commits, sin borrar nada'
+        type: boolean
+        default: false
+
+concurrency:
+  group: purgar-historial-hf
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  purgar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: hf-publicar
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Instalar
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Nada más escribiendo en el dataset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Una subida a medias quedaría en el historial nuevo o haría fallar el squash.
+          for wf in ingesta-tc.yml mapa-hf.yml; do
+            corriendo=$(gh run list --workflow "$wf" --status in_progress --json databaseId --jq length)
+            if [ "$corriendo" != "0" ]; then
+              echo "::error::Hay una corrida de $wf en curso: espere a que termine y vuelva a lanzar la purga."
+              exit 1
+            fi
+          done
+
+      - name: Purgar
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          CONFIRMAR: ${{ inputs.confirmar }}
+          RETIRAR_MAPA: ${{ inputs.retirar_mapa }}
+          SIMULAR: ${{ inputs.simular }}
+        run: |
+          extra=""
+          if [ "$RETIRAR_MAPA" = "true" ]; then extra="$extra --retirar-mapa"; fi
+          if [ "$SIMULAR" = "true" ]; then extra="$extra --dry-run"; fi
+          python scripts/purgar_historial_hf.py --confirmar "$CONFIRMAR" $extra
