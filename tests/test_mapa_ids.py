@@ -122,6 +122,15 @@ def roles(t):
     ("los artículos 1545 y 1546, ambos del Código Civil", ["norma:cc:1545", "norma:cc:1546"]),
     ("los artículos 7 y 168, todos del Código de Trabajo", ["norma:ct:168", "norma:ct:7"]),
     ("(artículo 19 N° 26 CPol.)", ["norma:cpr:19:n26"]),
+    # En la CPR, tras un art. 19 con numerales, «3 inciso sexto» es su numeral 3 (no el art. 3); en
+    # otra ley, «18 inciso segundo» sigue siendo otro artículo.
+    ("se alega la vulneración del artículo 19 N° 2 inciso primero, y 3 inciso sexto de la Constitución",
+     ["norma:cpr:19:n2", "norma:cpr:19:n3"]),
+    ("la libertad personal, reconocida en el artículo 19 numeral 7 en relación con el artículo 5, inciso segundo, "
+     "de la Carta fundamental", ["norma:cpr:19:n7", "norma:cpr:5"]),
+    ("el artículo 17 N° 2 inciso primero, y 18 inciso segundo de la Ley N° 20.600",
+     ["norma:ley-20600:17:n2", "norma:ley-20600:18"]),
+    ("los artículos 6°; 7° y 19 N° 3 de la Constitución", ["norma:cpr:19:n3", "norma:cpr:6", "norma:cpr:7"]),
     # Timbre de foja con el número de página en medio de la cita.
     ("el artículo 374 letra 0000159 3 CIENTO CINCUENTA Y NUEVE e) del Código Procesal Penal", ["norma:cpp:374"]),
 ])

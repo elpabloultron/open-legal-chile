@@ -487,13 +487,17 @@ def _numerales_hasta(grupo: str, sigue: Callable[[int, int], bool]) -> Tuple[Lis
 
 
 def _lista_articulos(t: str, pos: int, plural: bool = False,
-                     sigue: Optional[Callable[[int, int], bool]] = None) -> Tuple[List[Tuple[str, List[int]]], int]:
+                     sigue: Optional[Callable[[int, int], bool]] = None,
+                     con_inciso: Optional[List[bool]] = None) -> Tuple[List[Tuple[str, List[int]]], int]:
     """Desde `pos` (justo después de «artículo»): artículos con sus numerales, y dónde termina.
 
     `plural` («artículos», «arts.»): tras un N° singular, la lista de numerales sigue solo con
     números contiguos; lo demás son otros artículos. `sigue`: el criterio para seguir una lista
-    de numerales (el resto son otros artículos)."""
+    de numerales (el resto son otros artículos). `con_inciso`, si se pasa, anota por artículo si
+    trajo su propio inciso y llegó con un separador desnudo («, y 3 inciso sexto»; no «en relación
+    con el artículo 5, inciso segundo»), lo que en la CPR lo hace numeral del art. 19 anterior."""
     arts: List[Tuple[str, List[int]]] = []
+    desnudo = False
     while True:
         m = _ART_TOKEN.match(t, pos)
         if not m:
@@ -501,11 +505,13 @@ def _lista_articulos(t: str, pos: int, plural: bool = False,
         art = _art_id(m)
         pos = m.end()
         numerales: List[int] = []
+        inciso = False
         while True:
             mod = _RE_MODIFICADOR.match(t, pos)
             if not mod or mod.end() == pos:
                 break
             fin_mod = mod.end()
+            inciso = inciso or bool(mod.group("inciso"))
             if mod.group("numeral"):
                 criterio = sigue
                 if criterio is None and plural and _RE_NUMERAL_UNO.match(t, pos):
@@ -524,11 +530,30 @@ def _lista_articulos(t: str, pos: int, plural: bool = False,
                     numerales.append(k)
             pos = fin_mod
         arts.append((art, numerales))
+        if con_inciso is not None:
+            con_inciso.append(inciso and desnudo)
         sep = _RE_SEPARADOR_LISTA.match(t, pos)
         if not sep or not _ART_TOKEN.match(t, sep.end()):
             break
+        desnudo = _RE_SEPARADOR_DESNUDO.fullmatch(sep.group()) is not None
         pos = sep.end()
     return arts, pos
+
+
+_RE_SEPARADOR_DESNUDO = re.compile(r"\s*,?\s*(?:(?:y|e)\s+)?", re.IGNORECASE)
+
+
+def _numerales_del_19(arts: List[Tuple[str, List[int]]], con_inciso: List[bool]) -> List[Tuple[str, List[int]]]:
+    """En la CPR, «artículo 19 N° 2 inciso primero, y 3 inciso sexto»: el 3, que trae su propio
+    inciso tras un art. 19 con numerales, es su numeral 3 (el art. 3 no llega al inciso sexto)."""
+    salida: List[Tuple[str, List[int]]] = []
+    for i, (art, numerales) in enumerate(arts):
+        if (salida and salida[-1][0] == "19" and salida[-1][1] and not numerales and i < len(con_inciso)
+                and con_inciso[i] and art.isdigit() and int(art) <= _NUMERALES_CPR_19):
+            salida[-1] = ("19", salida[-1][1] + [int(art)])
+            continue
+        salida.append((art, numerales))
+    return salida
 
 
 def _ids_de(cuerpo: str, arts: List[Tuple[str, List[int]]]) -> List[str]:
@@ -597,7 +622,8 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
             continue
         palabra = t[inicio:tras_palabra].rstrip().lower()
         plural = not implicito and (palabra.endswith("s") or palabra.startswith("arts"))
-        arts, fin = _lista_articulos(t, tras_palabra, plural)
+        con_inciso: List[bool] = []
+        arts, fin = _lista_articulos(t, tras_palabra, plural, con_inciso=con_inciso)
         if not arts:
             continue
         if previos.get(tras_palabra) and not arts[0][1]:
@@ -617,11 +643,14 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
             continue
         if plural and _cuerpo_real(cuerpo) == "cpr" and any(a == "19" for a, _ in arts):
             # «los artículos 19 N° 2 y 3 de la CPR»: en el artículo 19 de la CPR, sus numerales.
-            arts19, fin19 = _lista_articulos(t, tras_palabra, False, _hasta_26)
+            inciso19: List[bool] = []
+            arts19, fin19 = _lista_articulos(t, tras_palabra, False, _hasta_26, inciso19)
             if not t[min(fin, fin19):max(fin, fin19)].strip():   # la misma frase, leída de otro modo
-                arts = arts19
+                arts, con_inciso = arts19, inciso19
                 if previos.get(tras_palabra) and not arts[0][1]:
                     arts[0] = (arts[0][0], previos[tras_palabra])
+        if _cuerpo_real(cuerpo) == "cpr":
+            arts = _numerales_del_19(arts, con_inciso)
         usados.add(cuerpo)
         cuenta.update(_ids_de(_cuerpo_real(cuerpo), arts))
         # «artículo 3 de la Ley N° 19.880 y 19 de la Constitución»
@@ -631,10 +660,13 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
             cont = _RE_CONTINUACION.match(t, pos)
             if not cont:
                 break
-            mas, fin2 = _lista_articulos(t, cont.end(), plural)
+            inciso_mas: List[bool] = []
+            mas, fin2 = _lista_articulos(t, cont.end(), plural, con_inciso=inciso_mas)
             otro = _cuerpo_tras(fin2) if mas else None
             if otro is None:
                 break
+            if _cuerpo_real(otro) == "cpr":
+                mas = _numerales_del_19(mas, inciso_mas)
             usados.add(otro)
             cuenta.update(_ids_de(_cuerpo_real(otro), mas))
             pos = otro[1]
