@@ -192,7 +192,7 @@ _CUERPOS_NOMBRE: List[Tuple[str, str]] = [(p + _NO_EXTRANJERO, c) for p, c in (
     (r"c[oó]digo\s+de\s+justicia\s+militar", "cjm"),
     (r"c[oó]digo\s+civil", "cc"),
     (r"c[oó]digo\s+penal", "cp"),
-    (r"c[oó]digo\s+del\s+trabajo", "ct"),
+    (r"c[oó]digo\s+del?\s+trabajo", "ct"),
     (r"c[oó]digo\s+tributario", "ctrib"),
     (r"c[oó]digo\s+de\s+comercio", "ccom"),
     (r"c[oó]digo\s+de\s+aguas", "caguas"),
@@ -217,7 +217,7 @@ _CUERPOS_SIGLA: List[Tuple[str, str]] = [
     (r"C\.\s?P\.\s?R\.?|CPR", "cpr"), (r"C\.\s?del\s?T\.?|CT", "ct"), (r"C\.\s?C\.?|CC", "cc"),
     (r"C\.\s?P\.?|CP", "cp"), (r"LOSMA", "losma"), (r"LBGMA", "ley-19300"), (r"LBPA", "ley-19880"),
     (r"LOCBGAE", "ley-18575"), (r"LOC\s+del\s+TC|LOC\s?TC", "ley-17997"), (r"LPDC", "ley-19496"),
-    (r"LTA", "ley-20600"),
+    (r"LTA", "ley-20600"), (r"CPol\.?", "cpr"),
 ]
 # Las siglas «sueltas» (sin artículo) son ruido frecuente: solo estas generan el ID del cuerpo.
 _SIGLAS_DISTINTIVAS = {"losma", "ley-19300", "ley-19880", "ley-18575", "ley-17997", "ley-19496", "ley-20600"}
@@ -268,9 +268,12 @@ _RE_NUMERAL_PREVIO = re.compile(
     re.IGNORECASE)
 _RE_NUMERAL_PREVIO_ITEM = re.compile(_NUMERAL_PREVIO_ITEM, re.IGNORECASE)
 _SEP_ITEM = r"\s*(?:,\s*(?:(?:y|e)\s+)?|(?:y|e)\s+)"
-_INCISO_ITEM = r"(?:\d{1,2}\s*°?|" + _ORDINAL_PALABRA + r")"
-# En una lista de incisos, «SEGUNDA» seguida de «FRASE» ya no es otro inciso sino la frase del anterior.
-_INCISO_ITEM_LISTA = r"(?:\d{1,2}\s*°?|" + _ORDINAL_PALABRA + r"(?!\s+(?:parte|frase|oraci[oó]n)\b))"
+_INCISO_ITEM = r"(?:\d{1,2}(?!\d)\s*°?|" + _ORDINAL_PALABRA + r")"
+# En una lista de incisos, «SEGUNDA» seguida de «FRASE» ya no es otro inciso sino la frase del anterior,
+# y un número de 3 cifras o con su propio inciso, N° o letra ya es otro artículo: en «artículos 276
+# inciso tercero y 277» el 277 no es el inciso 27, ni en «8° inciso segundo y 38 inciso primero» el 38.
+_INCISO_ITEM_LISTA = (r"(?:\d{1,2}(?!\d)\s*°?(?!\s*(?:inc(?:isos?|s?\.)|N°|numeral(?:es)?|letras?|literal))|"
+                      + _ORDINAL_PALABRA + r"(?!\s+(?:parte|frase|oraci[oó]n)\b))")
 _PARENTESIS_CORTO = r"(?:\s*\([^()]{1,40}\))?"
 _NUMERAL_ITEM = r"\d{1,3}\s*°?" + _PARENTESIS_CORTO
 # En «arts. 17 N° 2, 18 N° 7 y 20», el «18» que trae su propio N° ya es otro artículo.
@@ -304,7 +307,9 @@ _RE_CONECTOR = re.compile(
     r"(?:,?\s*y\s+(?:en\s+)?(?:las\s+)?dem[aá]s\s+(?:disposiciones|normas|preceptos)\s+(?:citad[oa]s\s+y\s+)?"
     r"pertinentes\s+)?"
     # «de 1a Ley N° 20.600»: el OCR de los fallos ambientales lee «la» como «1a».
-    r"\(?\s*(?:(?:del|de\s+la|de\s+1a|de\s+los|de\s+las|de|a\s+la|al)\s+"
+    # «los artículos 1545 y 1546, ambos del Código Civil», «todos (los anteriores) del Código del Trabajo».
+    r"\(?\s*(?:(?:(?:ambos|ambas|todos|todas)(?:\s+(?:los\s+anteriores|ellos|ellas))?\s+)?"
+    r"(?:del|de\s+la|de\s+1a|de\s+los|de\s+las|de|a\s+la|al)\s+"
     r"(?:(?:citad[oa]|actual|vigente|antiguo|nuevo|referid[oa]|mismo|nuestr[oa]|"
     r"texto\s+(?:original|refundido|vigente)\s+del?)\s+)*)?",
     re.IGNORECASE)
@@ -331,7 +336,7 @@ _RE_CONTINUACION = re.compile(
     # «… DEL D.L. N° 3.500, QUE ESTABLECE NUEVO SISTEMA DE PENSIONES, Y 22, INCISOS …»: se salta la
     # cláusula descriptiva del cuerpo si después viene otro artículo (que igual debe traer su cuerpo).
     r"(?:\s*,\s*(?:que|de|del|sobre|relativ[oa]|en\s+materia)\s[^;()]{1,160}?"
-    r"(?=\s*,?\s*(?:y|e)\s+(?:el\s+|los\s+|al\s+)?(?:art[íi]culos?\s*|arts?\.\s*)?\d))?"
+    r"(?=\s*[,;]?\s*(?:y|e)\s+(?:el\s+|los\s+|al\s+)?(?:art[íi]culos?\s*|arts?\.\s*)?\d))?"
     r"\s*(?:,|;)?\s*(?:y|e|o|u|así\s+como)\s+(?:el\s+|los\s+|al\s+)?(?:art[íi]culos?\s*|arts?\.\s*)?(?=\d)",
     re.IGNORECASE)
 _RE_NUMERALES = re.compile(r"\d{1,3}")
@@ -351,9 +356,10 @@ _PALABRA_NUMERO = (r"(?:CERO|UNO?|UNA|DOS|TRES|CUATRO|CINCO|SEIS|SIETE|OCHO|NUEV
                    r"QUINCE|DIECI[A-ZÁÉÍÓÚ]+|VEINTE|VEINTI[A-ZÁÉÍÓÚ]+|TREINTA|CUARENTA|CINCUENTA|SESENTA|SETENTA|"
                    r"OCHENTA|NOVENTA|CIEN|CIENTO|DOSCIENTOS|TRESCIENTOS|CUATROCIENTOS|QUINIENTOS|SEISCIENTOS|"
                    r"SETECIENTOS|OCHOCIENTOS|NOVECIENTOS|MIL)")
-# Timbre de foja de los fallos del TC que pdftotext intercala en el texto: «0000177 CIENTO SETENTA Y SIETE».
+# Timbre de foja de los fallos del TC que pdftotext intercala en el texto: «0000177 CIENTO SETENTA Y SIETE»,
+# a veces con el número de página entre medio («0000159 3 CIENTO CINCUENTA Y NUEVE»).
 _RE_TIMBRE_FOJA = re.compile(
-    r"(?=0)\b0\d{5,7} " + _PALABRA_NUMERO + r"(?: (?:Y )?" + _PALABRA_NUMERO + r")*\b ?")
+    r"(?=0)\b0\d{5,7} (?:\d{1,3} )?" + _PALABRA_NUMERO + r"(?: (?:Y )?" + _PALABRA_NUMERO + r")*\b ?")
 
 
 def normalizar_texto_juridico(texto: str) -> str:
@@ -481,13 +487,17 @@ def _numerales_hasta(grupo: str, sigue: Callable[[int, int], bool]) -> Tuple[Lis
 
 
 def _lista_articulos(t: str, pos: int, plural: bool = False,
-                     sigue: Optional[Callable[[int, int], bool]] = None) -> Tuple[List[Tuple[str, List[int]]], int]:
+                     sigue: Optional[Callable[[int, int], bool]] = None,
+                     con_inciso: Optional[List[bool]] = None) -> Tuple[List[Tuple[str, List[int]]], int]:
     """Desde `pos` (justo después de «artículo»): artículos con sus numerales, y dónde termina.
 
     `plural` («artículos», «arts.»): tras un N° singular, la lista de numerales sigue solo con
     números contiguos; lo demás son otros artículos. `sigue`: el criterio para seguir una lista
-    de numerales (el resto son otros artículos)."""
+    de numerales (el resto son otros artículos). `con_inciso`, si se pasa, anota por artículo si
+    trajo su propio inciso y llegó con un separador desnudo («, y 3 inciso sexto»; no «en relación
+    con el artículo 5, inciso segundo»), lo que en la CPR lo hace numeral del art. 19 anterior."""
     arts: List[Tuple[str, List[int]]] = []
+    desnudo = False
     while True:
         m = _ART_TOKEN.match(t, pos)
         if not m:
@@ -495,11 +505,13 @@ def _lista_articulos(t: str, pos: int, plural: bool = False,
         art = _art_id(m)
         pos = m.end()
         numerales: List[int] = []
+        inciso = False
         while True:
             mod = _RE_MODIFICADOR.match(t, pos)
             if not mod or mod.end() == pos:
                 break
             fin_mod = mod.end()
+            inciso = inciso or bool(mod.group("inciso"))
             if mod.group("numeral"):
                 criterio = sigue
                 if criterio is None and plural and _RE_NUMERAL_UNO.match(t, pos):
@@ -518,11 +530,30 @@ def _lista_articulos(t: str, pos: int, plural: bool = False,
                     numerales.append(k)
             pos = fin_mod
         arts.append((art, numerales))
+        if con_inciso is not None:
+            con_inciso.append(inciso and desnudo)
         sep = _RE_SEPARADOR_LISTA.match(t, pos)
         if not sep or not _ART_TOKEN.match(t, sep.end()):
             break
+        desnudo = _RE_SEPARADOR_DESNUDO.fullmatch(sep.group()) is not None
         pos = sep.end()
     return arts, pos
+
+
+_RE_SEPARADOR_DESNUDO = re.compile(r"\s*,?\s*(?:(?:y|e)\s+)?", re.IGNORECASE)
+
+
+def _numerales_del_19(arts: List[Tuple[str, List[int]]], con_inciso: List[bool]) -> List[Tuple[str, List[int]]]:
+    """En la CPR, «artículo 19 N° 2 inciso primero, y 3 inciso sexto»: el 3, que trae su propio
+    inciso tras un art. 19 con numerales, es su numeral 3 (el art. 3 no llega al inciso sexto)."""
+    salida: List[Tuple[str, List[int]]] = []
+    for i, (art, numerales) in enumerate(arts):
+        if (salida and salida[-1][0] == "19" and salida[-1][1] and not numerales and i < len(con_inciso)
+                and con_inciso[i] and art.isdigit() and int(art) <= _NUMERALES_CPR_19):
+            salida[-1] = ("19", salida[-1][1] + [int(art)])
+            continue
+        salida.append((art, numerales))
+    return salida
 
 
 def _ids_de(cuerpo: str, arts: List[Tuple[str, List[int]]]) -> List[str]:
@@ -591,7 +622,8 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
             continue
         palabra = t[inicio:tras_palabra].rstrip().lower()
         plural = not implicito and (palabra.endswith("s") or palabra.startswith("arts"))
-        arts, fin = _lista_articulos(t, tras_palabra, plural)
+        con_inciso: List[bool] = []
+        arts, fin = _lista_articulos(t, tras_palabra, plural, con_inciso=con_inciso)
         if not arts:
             continue
         if previos.get(tras_palabra) and not arts[0][1]:
@@ -611,11 +643,14 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
             continue
         if plural and _cuerpo_real(cuerpo) == "cpr" and any(a == "19" for a, _ in arts):
             # «los artículos 19 N° 2 y 3 de la CPR»: en el artículo 19 de la CPR, sus numerales.
-            arts19, fin19 = _lista_articulos(t, tras_palabra, False, _hasta_26)
+            inciso19: List[bool] = []
+            arts19, fin19 = _lista_articulos(t, tras_palabra, False, _hasta_26, inciso19)
             if not t[min(fin, fin19):max(fin, fin19)].strip():   # la misma frase, leída de otro modo
-                arts = arts19
+                arts, con_inciso = arts19, inciso19
                 if previos.get(tras_palabra) and not arts[0][1]:
                     arts[0] = (arts[0][0], previos[tras_palabra])
+        if _cuerpo_real(cuerpo) == "cpr":
+            arts = _numerales_del_19(arts, con_inciso)
         usados.add(cuerpo)
         cuenta.update(_ids_de(_cuerpo_real(cuerpo), arts))
         # «artículo 3 de la Ley N° 19.880 y 19 de la Constitución»
@@ -625,10 +660,13 @@ def _normas_de(t: str) -> List[Tuple[str, int]]:
             cont = _RE_CONTINUACION.match(t, pos)
             if not cont:
                 break
-            mas, fin2 = _lista_articulos(t, cont.end(), plural)
+            inciso_mas: List[bool] = []
+            mas, fin2 = _lista_articulos(t, cont.end(), plural, con_inciso=inciso_mas)
             otro = _cuerpo_tras(fin2) if mas else None
             if otro is None:
                 break
+            if _cuerpo_real(otro) == "cpr":
+                mas = _numerales_del_19(mas, inciso_mas)
             usados.add(otro)
             cuenta.update(_ids_de(_cuerpo_real(otro), mas))
             pos = otro[1]

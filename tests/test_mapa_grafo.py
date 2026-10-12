@@ -92,6 +92,26 @@ def test_alias_curados_y_puente_del_tc():
     assert ("sent_tc_rol_n_15907_06a_ina", "tc:13139", "mismo_documento") in puentes
 
 
+def test_la_etiqueta_de_un_articulo_no_se_lee_como_la_ley_entera():
+    assert grafo.norma_de_etiqueta("Ley N° 17.997 Orgánica Constitucional del Tribunal Constitucional, Art. 79") \
+        == "norma:ley-17997:79"
+    assert grafo.norma_de_etiqueta("DFL 1 Consejo de Defensa del Estado, Art. 48") == "norma:dfl-1:48"
+    assert grafo.norma_de_etiqueta("Código Civil, Art. 1545") == "norma:cc:1545"
+    assert grafo.norma_de_etiqueta("Ley N° 17.997") == "norma:ley-17997"
+    assert grafo.norma_de_etiqueta("CPR 1980, Art. 19 N° 8 (Medio ambiente libre de contaminación)") == "norma:cpr:19:n8"
+    assert grafo.norma_de_etiqueta("Constitución de 1925, Art. 10") is None
+    articulo = {"id": "norma_ley_n_17_997_organica_art_79", "node_type": "articulo_legal",
+                "label": "Ley N° 17.997 Orgánica Constitucional del Tribunal Constitucional, Art. 79"}
+    curado = {**CURADO, "nodes": CURADO["nodes"] + [articulo]}
+    _, alias, _ = _capa(curado=curado)
+    assert "norma_ley_n_17_997_organica_art_79" not in alias      # el mapa no tiene el art. 79: sin alias
+    assert alias["norma_ley_17997"] == "norma:ley-17997"
+    filas = _filas() + [{"id": "doc:civil/otra", "col": "doc", "ruta": "doctrina/civil/otra.md", "blob": "e" * 40,
+                         "bytes": 1, "titulo": "Otra", "normas": [["norma:ley-17997:79", 1]]}]
+    _, alias, _ = _capa(filas=filas, curado=curado)
+    assert alias["norma_ley_n_17_997_organica_art_79"] == "norma:ley-17997:79"
+
+
 def test_comunidades_no_dependen_del_orden_de_insercion():
     filas = _filas()
     capa, alias, puentes = _capa(filas)

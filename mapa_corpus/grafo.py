@@ -149,6 +149,24 @@ def construir_capa(filas: List[Dict[str, Any]], entidades: Dict[str, List[Dict[s
     return g
 
 
+_RE_ETIQUETA_ARTICULO = re.compile(r"^(?P<cuerpo>.+?),\s*Art(?:ículo|\.)?\s*(?P<art>\S.*)$")
+
+
+def norma_de_etiqueta(label: str) -> Optional[str]:
+    """La norma que nombra la etiqueta de un nodo curado, si es una sola. «Ley N° 17.997 Orgánica
+    Constitucional del Tribunal Constitucional, Art. 79» es el art. 79, no la ley entera: con el
+    nombre de la ley entre su número y el artículo la gramática solo ve la ley, así que se relee como
+    «artículo 79 de la …». Una etiqueta de artículo nunca se lee como el cuerpo completo. El año de la
+    Constitución vigente («CPR 1980, Art. 19 N° 8») no es parte de la cita."""
+    label = re.sub(r"\b(CPR|Constituci[oó]n(?:\s+Pol[ií]tica)?)\s+(?:de\s+)?1980\b", r"\1", label)
+    canon = [i for i, _ in normas_canonicas(label)]
+    m = _RE_ETIQUETA_ARTICULO.match(label.strip())
+    if m and len(canon) == 1 and canon[0].count(":") < 2:
+        canon = [i for i, _ in normas_canonicas(f"artículo {m.group('art')} de la {m.group('cuerpo')}")
+                 if i.count(":") >= 2]
+    return canon[0] if len(canon) == 1 else None
+
+
 def tc_alineada(nodo: Dict[str, Any], numero: int) -> bool:
     """La ficha curada del TC es de la causa `numero` (la de su documento oficial): su rol, o el rol
     de su etiqueta si no lo trae, tiene ese número. Las fichas de la cosecha vieja no lo cumplen."""
@@ -179,9 +197,8 @@ def alias_curados(curado: Dict[str, Any], g: Grafo, filas: List[Dict[str, Any]])
         fuente = str(n.get("source_file") or "")
         destino: Optional[str] = None
         if tipo in ("articulo_legal", "cuerpo_legal") and nid.startswith("norma_"):
-            canon = [i for i, _ in normas_canonicas(label)]
-            if len(canon) == 1 and canon[0] in g.nodos:
-                destino = canon[0]
+            canon = norma_de_etiqueta(label)
+            destino = canon if canon and canon in g.nodos else None
         elif tipo in ("obra", "estudio_ambiental", "anuario_boletin_ambiental") and fuente in por_ruta:
             destino = por_ruta[fuente]
         elif tipo == "organo_estado" and nid.startswith("organo_"):
