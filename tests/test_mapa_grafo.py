@@ -98,6 +98,8 @@ def test_la_etiqueta_de_un_articulo_no_se_lee_como_la_ley_entera():
     assert grafo.norma_de_etiqueta("DFL 1 Consejo de Defensa del Estado, Art. 48") == "norma:dfl-1:48"
     assert grafo.norma_de_etiqueta("Código Civil, Art. 1545") == "norma:cc:1545"
     assert grafo.norma_de_etiqueta("Ley N° 17.997") == "norma:ley-17997"
+    assert grafo.norma_de_etiqueta("CPR 1980, Art. 19 N° 8 (Medio ambiente libre de contaminación)") == "norma:cpr:19:n8"
+    assert grafo.norma_de_etiqueta("Constitución de 1925, Art. 10") is None
     articulo = {"id": "norma_ley_n_17_997_organica_art_79", "node_type": "articulo_legal",
                 "label": "Ley N° 17.997 Orgánica Constitucional del Tribunal Constitucional, Art. 79"}
     curado = {**CURADO, "nodes": CURADO["nodes"] + [articulo]}

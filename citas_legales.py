@@ -192,7 +192,7 @@ _CUERPOS_NOMBRE: List[Tuple[str, str]] = [(p + _NO_EXTRANJERO, c) for p, c in (
     (r"c[oó]digo\s+de\s+justicia\s+militar", "cjm"),
     (r"c[oó]digo\s+civil", "cc"),
     (r"c[oó]digo\s+penal", "cp"),
-    (r"c[oó]digo\s+del\s+trabajo", "ct"),
+    (r"c[oó]digo\s+del?\s+trabajo", "ct"),
     (r"c[oó]digo\s+tributario", "ctrib"),
     (r"c[oó]digo\s+de\s+comercio", "ccom"),
     (r"c[oó]digo\s+de\s+aguas", "caguas"),
@@ -217,7 +217,7 @@ _CUERPOS_SIGLA: List[Tuple[str, str]] = [
     (r"C\.\s?P\.\s?R\.?|CPR", "cpr"), (r"C\.\s?del\s?T\.?|CT", "ct"), (r"C\.\s?C\.?|CC", "cc"),
     (r"C\.\s?P\.?|CP", "cp"), (r"LOSMA", "losma"), (r"LBGMA", "ley-19300"), (r"LBPA", "ley-19880"),
     (r"LOCBGAE", "ley-18575"), (r"LOC\s+del\s+TC|LOC\s?TC", "ley-17997"), (r"LPDC", "ley-19496"),
-    (r"LTA", "ley-20600"),
+    (r"LTA", "ley-20600"), (r"CPol\.?", "cpr"),
 ]
 # Las siglas «sueltas» (sin artículo) son ruido frecuente: solo estas generan el ID del cuerpo.
 _SIGLAS_DISTINTIVAS = {"losma", "ley-19300", "ley-19880", "ley-18575", "ley-17997", "ley-19496", "ley-20600"}
@@ -268,9 +268,12 @@ _RE_NUMERAL_PREVIO = re.compile(
     re.IGNORECASE)
 _RE_NUMERAL_PREVIO_ITEM = re.compile(_NUMERAL_PREVIO_ITEM, re.IGNORECASE)
 _SEP_ITEM = r"\s*(?:,\s*(?:(?:y|e)\s+)?|(?:y|e)\s+)"
-_INCISO_ITEM = r"(?:\d{1,2}\s*°?|" + _ORDINAL_PALABRA + r")"
-# En una lista de incisos, «SEGUNDA» seguida de «FRASE» ya no es otro inciso sino la frase del anterior.
-_INCISO_ITEM_LISTA = r"(?:\d{1,2}\s*°?|" + _ORDINAL_PALABRA + r"(?!\s+(?:parte|frase|oraci[oó]n)\b))"
+_INCISO_ITEM = r"(?:\d{1,2}(?!\d)\s*°?|" + _ORDINAL_PALABRA + r")"
+# En una lista de incisos, «SEGUNDA» seguida de «FRASE» ya no es otro inciso sino la frase del anterior,
+# y un número de 3 cifras o con su propio inciso, N° o letra ya es otro artículo: en «artículos 276
+# inciso tercero y 277» el 277 no es el inciso 27, ni en «8° inciso segundo y 38 inciso primero» el 38.
+_INCISO_ITEM_LISTA = (r"(?:\d{1,2}(?!\d)\s*°?(?!\s*(?:inc(?:isos?|s?\.)|N°|numeral(?:es)?|letras?|literal))|"
+                      + _ORDINAL_PALABRA + r"(?!\s+(?:parte|frase|oraci[oó]n)\b))")
 _PARENTESIS_CORTO = r"(?:\s*\([^()]{1,40}\))?"
 _NUMERAL_ITEM = r"\d{1,3}\s*°?" + _PARENTESIS_CORTO
 # En «arts. 17 N° 2, 18 N° 7 y 20», el «18» que trae su propio N° ya es otro artículo.
@@ -304,7 +307,9 @@ _RE_CONECTOR = re.compile(
     r"(?:,?\s*y\s+(?:en\s+)?(?:las\s+)?dem[aá]s\s+(?:disposiciones|normas|preceptos)\s+(?:citad[oa]s\s+y\s+)?"
     r"pertinentes\s+)?"
     # «de 1a Ley N° 20.600»: el OCR de los fallos ambientales lee «la» como «1a».
-    r"\(?\s*(?:(?:del|de\s+la|de\s+1a|de\s+los|de\s+las|de|a\s+la|al)\s+"
+    # «los artículos 1545 y 1546, ambos del Código Civil», «todos (los anteriores) del Código del Trabajo».
+    r"\(?\s*(?:(?:(?:ambos|ambas|todos|todas)(?:\s+(?:los\s+anteriores|ellos|ellas))?\s+)?"
+    r"(?:del|de\s+la|de\s+1a|de\s+los|de\s+las|de|a\s+la|al)\s+"
     r"(?:(?:citad[oa]|actual|vigente|antiguo|nuevo|referid[oa]|mismo|nuestr[oa]|"
     r"texto\s+(?:original|refundido|vigente)\s+del?)\s+)*)?",
     re.IGNORECASE)
@@ -331,7 +336,7 @@ _RE_CONTINUACION = re.compile(
     # «… DEL D.L. N° 3.500, QUE ESTABLECE NUEVO SISTEMA DE PENSIONES, Y 22, INCISOS …»: se salta la
     # cláusula descriptiva del cuerpo si después viene otro artículo (que igual debe traer su cuerpo).
     r"(?:\s*,\s*(?:que|de|del|sobre|relativ[oa]|en\s+materia)\s[^;()]{1,160}?"
-    r"(?=\s*,?\s*(?:y|e)\s+(?:el\s+|los\s+|al\s+)?(?:art[íi]culos?\s*|arts?\.\s*)?\d))?"
+    r"(?=\s*[,;]?\s*(?:y|e)\s+(?:el\s+|los\s+|al\s+)?(?:art[íi]culos?\s*|arts?\.\s*)?\d))?"
     r"\s*(?:,|;)?\s*(?:y|e|o|u|así\s+como)\s+(?:el\s+|los\s+|al\s+)?(?:art[íi]culos?\s*|arts?\.\s*)?(?=\d)",
     re.IGNORECASE)
 _RE_NUMERALES = re.compile(r"\d{1,3}")
@@ -351,9 +356,10 @@ _PALABRA_NUMERO = (r"(?:CERO|UNO?|UNA|DOS|TRES|CUATRO|CINCO|SEIS|SIETE|OCHO|NUEV
                    r"QUINCE|DIECI[A-ZÁÉÍÓÚ]+|VEINTE|VEINTI[A-ZÁÉÍÓÚ]+|TREINTA|CUARENTA|CINCUENTA|SESENTA|SETENTA|"
                    r"OCHENTA|NOVENTA|CIEN|CIENTO|DOSCIENTOS|TRESCIENTOS|CUATROCIENTOS|QUINIENTOS|SEISCIENTOS|"
                    r"SETECIENTOS|OCHOCIENTOS|NOVECIENTOS|MIL)")
-# Timbre de foja de los fallos del TC que pdftotext intercala en el texto: «0000177 CIENTO SETENTA Y SIETE».
+# Timbre de foja de los fallos del TC que pdftotext intercala en el texto: «0000177 CIENTO SETENTA Y SIETE»,
+# a veces con el número de página entre medio («0000159 3 CIENTO CINCUENTA Y NUEVE»).
 _RE_TIMBRE_FOJA = re.compile(
-    r"(?=0)\b0\d{5,7} " + _PALABRA_NUMERO + r"(?: (?:Y )?" + _PALABRA_NUMERO + r")*\b ?")
+    r"(?=0)\b0\d{5,7} (?:\d{1,3} )?" + _PALABRA_NUMERO + r"(?: (?:Y )?" + _PALABRA_NUMERO + r")*\b ?")
 
 
 def normalizar_texto_juridico(texto: str) -> str:

@@ -582,9 +582,9 @@
     "semantic_hash": ""
   },
   "legal_graphify.py": {
-    "mtime": 1791721341.0174472,
-    "seen": 1791722135.1383283,
-    "ast_hash": "6305014a0cf40a564873776fe7107a56",
+    "mtime": 1791766397.606876,
+    "seen": 1791768474.8919146,
+    "ast_hash": "c170d84c44ee8bed91c68fdc4f23fb2d",
     "semantic_hash": ""
   },
   "recurso_proteccion.py": {
@@ -2670,9 +2670,9 @@
     "semantic_hash": ""
   },
   "citas_legales.py": {
-    "mtime": 1791580011.0872164,
-    "seen": 1791580212.675437,
-    "ast_hash": "9a2383591b76f5ce40035495608e4f26",
+    "mtime": 1791766397.606876,
+    "seen": 1791768474.8908772,
+    "ast_hash": "4b350c72ce987e2e9a20834ef16b4461",
     "semantic_hash": ""
   },
   "data/catalogo/indice_agentes.json": {
@@ -2814,9 +2814,9 @@
     "semantic_hash": ""
   },
   "scripts/integrar_jurisprudencia_al_grafo.py": {
-    "mtime": 1791732350.90268,
-    "seen": 1791763724.403152,
-    "ast_hash": "da2aab4b43f718c1bf2ea352b7326f14",
+    "mtime": 1791766397.606876,
+    "seen": 1791768474.8939228,
+    "ast_hash": "3a0dd9b8a020652f12811fa23a58866b",
     "semantic_hash": ""
   },
   "scripts/optimizar_catalogo_hf.py": {
@@ -2844,9 +2844,9 @@
     "semantic_hash": ""
   },
   "scripts/tc_pdfs_a_md.py": {
-    "mtime": 1791677192.8285317,
-    "seen": 1791677315.8152435,
-    "ast_hash": "ff83919287ac3e07e43e164c08f33d7f",
+    "mtime": 1791766397.606876,
+    "seen": 1791768474.8942378,
+    "ast_hash": "76d24851f77985da8faa27f7beb94196",
     "semantic_hash": ""
   },
   "scripts/upload_to_huggingface.py": {
@@ -3240,9 +3240,9 @@
     "semantic_hash": ""
   },
   "jurisprudencia_tc/README.md": {
-    "mtime": 1791637679.790342,
-    "seen": 1791637988.2537286,
-    "ast_hash": "2b1bfd4ff83243dd983404db4cf011ee",
+    "mtime": 1791768413.4341471,
+    "seen": 1791768474.9067638,
+    "ast_hash": "8af90dd80b994f772a2791c272799a19",
     "semantic_hash": ""
   },
   "llms.txt": {
@@ -3804,9 +3804,9 @@
     "semantic_hash": ""
   },
   "mapa_corpus/grafo.py": {
-    "mtime": 1791732350.90268,
-    "seen": 1791763724.4012544,
-    "ast_hash": "8add9a04e0bb0e614435ab02ff8bf6bb",
+    "mtime": 1791766397.606876,
+    "seen": 1791768474.8921444,
+    "ast_hash": "f67212818763746e0ce28e1ca827da09",
     "semantic_hash": ""
   },
   "mapa_corpus/ids.py": {
@@ -3924,9 +3924,9 @@
     "semantic_hash": ""
   },
   "tests/test_mapa_grafo.py": {
-    "mtime": 1791732337.3265514,
-    "seen": 1791763724.4053488,
-    "ast_hash": "2e393abf0e8ba99e475bc6172c31fb71",
+    "mtime": 1791766397.606876,
+    "seen": 1791768474.8960104,
+    "ast_hash": "d81d33b252eca9ed1969657b09b9ae90",
     "semantic_hash": ""
   },
   "tests/test_mapa_grafo_union.py": {
@@ -3942,9 +3942,9 @@
     "semantic_hash": ""
   },
   "tests/test_mapa_ids.py": {
-    "mtime": 1791580007.6254923,
-    "seen": 1791580212.6798851,
-    "ast_hash": "15eb91bde5c22357ef6424c4b66d96fc",
+    "mtime": 1791766397.606876,
+    "seen": 1791768474.8960836,
+    "ast_hash": "58fb07aefed2dcd888b50702e943a13c",
     "semantic_hash": ""
   },
   "tests/test_mapa_pjud.py": {
@@ -4158,9 +4158,9 @@
     "semantic_hash": ""
   },
   "tests/test_tc_ingesta.py": {
-    "mtime": 1791677203.5428796,
-    "seen": 1791677315.8191106,
-    "ast_hash": "0684c711f0be0abdf6e73f83516a0c98",
+    "mtime": 1791766397.606876,
+    "seen": 1791768474.8968468,
+    "ast_hash": "5dadb367792ffc1c92225d1948faeb87",
     "semantic_hash": ""
   },
   ".github/workflows/ingesta-tc.yml": {
@@ -4176,9 +4176,33 @@
     "semantic_hash": ""
   },
   "tests/test_grafo_tc_rehecho.py": {
-    "mtime": 1791732332.0185516,
-    "seen": 1791763724.4047637,
-    "ast_hash": "61268f99dbd5249c4d611b93a6180af1",
+    "mtime": 1791766397.606876,
+    "seen": 1791768474.8954942,
+    "ast_hash": "395ddc0f8b971eab36af4fbf6cefde21",
+    "semantic_hash": ""
+  },
+  "scripts/purgar_historial_hf.py": {
+    "mtime": 1791768338.155305,
+    "seen": 1791768474.894147,
+    "ast_hash": "8a37ccd60ea4a0b92341f88659d1b0f9",
+    "semantic_hash": ""
+  },
+  "tests/test_concordancias_doctrina.py": {
+    "mtime": 1791766088.4735394,
+    "seen": 1791768474.8952382,
+    "ast_hash": "367954c2afc69438085c53a47fb62f34",
+    "semantic_hash": ""
+  },
+  "tests/test_purgar_historial.py": {
+    "mtime": 1791768338.1618826,
+    "seen": 1791768474.8966012,
+    "ast_hash": "b869fff62acf321af56ad366fe5f3a1f",
+    "semantic_hash": ""
+  },
+  ".github/workflows/purgar-historial-hf.yml": {
+    "mtime": 1791768352.6072204,
+    "seen": 1791768474.8978345,
+    "ast_hash": "fbb785cdac3a70f70252a33919d6237d",
     "semantic_hash": ""
   }
 }
