@@ -69,7 +69,11 @@ def corresponde(texto: str, numero: int) -> bool:
 
 _RE_CORREO = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
 # Identificadores de una gestión (RIT, RUC, Rol): «C-4106-2020», «1700797652-6», «Rol N° 49.322-2021».
-_RE_ID_GESTION = re.compile(r"\d[\d.]{2,}\s*-\s*(?:\d{4}|\d{2}|[\dkK])(?![\dkK])|(?<![\d.])\d{1,2}\s*-\s*\d{4}(?!\d)")
+# RUC con sus guiones («RUC 23-3-0350530-K», que el documento escribe «2330350530-K»), RIT y Roles
+# («1521-2023», «C-3521-2022», «14.048-2023», «4-2025»).
+_RE_RUC = r"\d{1,2}\s*-\s*\d\s*-\s*\d{5,9}\s*-\s*[\dkK]"
+_RE_ID_GESTION = re.compile(r"(?<![\d.])" + _RE_RUC + r"(?![\dkK])|\d[\d.]{2,}\s*-\s*(?:\d{4}|\d{2}|[\dkK])(?![\dkK])"
+                            r"|(?<![\d.])\d{1,2}\s*-\s*\d{4}(?!\d)")
 
 
 def ocultar_correos(texto: str) -> str:
@@ -82,14 +86,23 @@ def ocultar_correos(texto: str) -> str:
     return re.sub(r"[^\s\[\]]*@[^\s\[\]]*", "[correo omitido]", texto)
 
 
+def _patron_id(ident: str) -> str:
+    """Un RUC se busca por sus dígitos, con o sin guiones intermedios; el resto, tal cual."""
+    if re.fullmatch(r"\d{1,2}-\d-\d{5,9}-[\dK]|\d{8,11}-[\dK]", ident):
+        return r"(?<![\dK])" + "-?".join(re.escape(c) for c in ident.replace("-", "")) + r"(?![\dK])"
+    return rf"(?<!\d){re.escape(ident)}(?![\dK])"
+
+
 def gestion_verificada(gestion: str, texto: str) -> str:
-    """La gestión pendiente de la ficha solo si sus identificadores (RIT, RUC, Rol) aparecen en el
-    documento: en las fichas antiguas del buscador suele ser la de otra causa."""
+    """La gestión pendiente de la ficha solo si TODOS sus identificadores (RIT, RUC, Rol) aparecen en
+    el documento: en las fichas antiguas del buscador suele ser la de otra causa, y aun en las de su
+    causa puede traer un número mal transcrito («RUC N° 23100328939-3» por «2310028939-3») o un rol
+    que el documento no nombra. Lo que no se puede verificar entero no se publica."""
     ids = {re.sub(r"[.\s]", "", m.group()).upper() for m in _RE_ID_GESTION.finditer(gestion or "")}
     if not ids:
         return ""
     plano = re.sub(r"[.\s]", "", texto).upper()
-    return gestion if any(re.search(rf"(?<!\d){re.escape(i)}(?![\dK])", plano) for i in ids) else ""
+    return gestion if all(re.search(_patron_id(i), plano) for i in ids) else ""
 
 
 def rol_oficial(texto: str, numero: int) -> str:

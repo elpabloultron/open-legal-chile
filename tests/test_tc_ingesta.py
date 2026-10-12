@@ -245,9 +245,16 @@ def test_la_ficha_se_corrige_con_el_documento_y_se_ocultan_los_correos(tmp_path,
 def test_la_gestion_se_escribe_solo_si_aparece_en_el_documento():
     assert tc.gestion_verificada("Causa Rol C-139-2022 del Juzgado de Letras de Talca",
                                  "en los autos Rol C-139-2022 seguidos ante el Juzgado de Talca")
-    assert tc.gestion_verificada("RUC N° 2100552184-7, RIT N° 1128-2021", "RUC 2.100.552.184-7") != ""
+    assert tc.gestion_verificada("RUC N° 2100552184-7, RIT N° 1128-2021", "RUC 2.100.552.184-7, RIT 1128-2021") != ""
     assert tc.gestion_verificada("RIT T-3-2020, Juzgado de San Antonio", "en la causa RIT T-13-2020") == ""
     assert tc.gestion_verificada("Juzgado de Garantía de Vallenar", "cualquier texto") == ""
+    # Todos sus números: un RUC mal transcrito en la ficha (15023) no se publica aunque el RIT calce.
+    assert tc.gestion_verificada("proceso penal RIT N° 1521-2023, RUC N° 23100328939-3",
+                                 "RIT N° 1521-2023, RUC N° 2310028939-3") == ""
+    assert tc.gestion_verificada("RUC N° 2100552184-7, RIT N° 1128-2021", "RUC 2.100.552.184-7") == ""
+    # El RUC con guiones del buscador es el mismo que el documento escribe sin ellos (15421).
+    assert tc.gestion_verificada("RIT C-579-2023, RUC 23-3-0350530-K, Juzgado de Letras del Trabajo de Castro",
+                                 "causa RIT C-579-2023, RUC 2330350530-K") != ""
 
 
 def test_las_reservadas_y_las_fichas_de_prueba_no_se_cosechan(tmp_path, monkeypatch):

@@ -39,7 +39,7 @@ BASE = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE))
 
 from citas_legales import normas_canonicas  # noqa: E402
-from mapa_corpus.grafo import padres_norma  # noqa: E402
+from mapa_corpus.grafo import norma_de_etiqueta, padres_norma  # noqa: E402
 from mapa_corpus.texto import leer_vinetas  # noqa: E402
 GRAFO = BASE / "data" / "legal_knowledge_graph.json"
 TC_INDICE = BASE / "data" / "jurisprudencia" / "tc_textos.jsonl"
@@ -123,28 +123,31 @@ def normas_citadas(texto: str, claves_mod, idx_normas: dict[tuple, str], idx_ley
 
 def indice_canonico(nodos: list[dict]) -> dict[str, str]:
     """ID canónico (`norma:cc:1545`) → nodo de norma del grafo curado, por la etiqueta del nodo (como
-    los alias del mapa del corpus): solo cuando la etiqueta nombra exactamente una norma."""
+    los alias del mapa del corpus): solo cuando la etiqueta nombra exactamente una norma. Un artículo
+    («Ley N° 17.997 …, Art. 79») nunca queda como la ley entera: le llegarían las citas de toda la ley."""
     idx: dict[str, str] = {}
-    for n in nodos:
+    # Entre nodos hermanos de la misma norma gana el primero por id, el mismo que funde el mapa
+    # (legal_graphify.cargar_capa_mapa): así la sentencia cuelga del nodo que el mapa une a su canónico.
+    for n in sorted(nodos, key=lambda n: str(n.get("id", ""))):
         nid = str(n.get("id", ""))
         if nid.startswith("norma_"):
-            canon = [i for i, _ in normas_canonicas(str(n.get("label") or ""))]
-            if len(canon) == 1:
-                idx.setdefault(canon[0], nid)
+            canon = norma_de_etiqueta(str(n.get("label") or ""))
+            if canon:
+                idx.setdefault(canon, nid)
     return idx
 
 
-def normas_del_tc(texto: str, idx_canon: dict[str, str], legado: list[str], tope: int = 25) -> list[str]:
+def normas_del_tc(texto: str, idx_canon: dict[str, str], tope: int = 25) -> list[str]:
     """Normas que cita una sentencia del TC, con la gramática canónica del repo («artículo 1545 del
     Código Civil», «artículo 19 N° 3 de la Constitución», «Ley N° 18.575») y, si el grafo no tiene el
-    numeral, su artículo. Se suman las del extractor antiguo (`legado`)."""
+    numeral, su artículo. Sin el extractor antiguo (`normas_citadas`): toma por Constitución el
+    «constitucional» de «inconstitucionalidad» o de «Orgánica Constitucional», y en una muestra
+    revisada a mano 13 de sus 15 aristas propias eran de otra norma."""
     contador: collections.Counter = collections.Counter()
     for canon, veces in normas_canonicas(texto[:400_000]):
         destino = idx_canon.get(canon) or next((idx_canon[p] for _, p in padres_norma(canon) if p in idx_canon), None)
         if destino:
             contador[destino] += veces
-    for nid in legado:
-        contador[nid] += 1
     return [nid for nid, _ in contador.most_common(tope)]
 
 
@@ -217,8 +220,7 @@ def main() -> int:
             ids.add(nid)
             aristas.append({"source": nid, "target": "organo_tc", "relation": "resuelto_por", "weight": 1.0})
             cuerpo = texto.split("\n---\n", 1)[-1]      # sin la ficha: su gestión es de otra causa
-            legado = normas_citadas(cuerpo, claves_mod, idx_normas, idx_leyes)
-            for norm_id in normas_del_tc(cuerpo, idx_canon, legado):
+            for norm_id in normas_del_tc(cuerpo, idx_canon):
                 aristas.append({"source": nid, "target": norm_id, "relation": "cita_norma", "weight": 1.0})
                 enlaces_norma += 1
             nuevos_tc += 1
