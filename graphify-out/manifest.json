@@ -2814,9 +2814,9 @@
     "semantic_hash": ""
   },
   "scripts/integrar_jurisprudencia_al_grafo.py": {
-    "mtime": 1791721341.0174472,
-    "seen": 1791722135.1402614,
-    "ast_hash": "d23b0fe2e19c0136ac9abd7cbfaa1718",
+    "mtime": 1791732350.90268,
+    "seen": 1791763724.403152,
+    "ast_hash": "da2aab4b43f718c1bf2ea352b7326f14",
     "semantic_hash": ""
   },
   "scripts/optimizar_catalogo_hf.py": {
@@ -3804,9 +3804,9 @@
     "semantic_hash": ""
   },
   "mapa_corpus/grafo.py": {
-    "mtime": 1791721346.349447,
-    "seen": 1791722135.1384685,
-    "ast_hash": "8a93e5ce6d46179fc2a2b6fc2dba98b0",
+    "mtime": 1791732350.90268,
+    "seen": 1791763724.4012544,
+    "ast_hash": "8add9a04e0bb0e614435ab02ff8bf6bb",
     "semantic_hash": ""
   },
   "mapa_corpus/ids.py": {
@@ -3924,9 +3924,9 @@
     "semantic_hash": ""
   },
   "tests/test_mapa_grafo.py": {
-    "mtime": 1791721341.0174472,
-    "seen": 1791722135.1425872,
-    "ast_hash": "1fca12a7eb37b86be2782482e8c49c4a",
+    "mtime": 1791732337.3265514,
+    "seen": 1791763724.4053488,
+    "ast_hash": "2e393abf0e8ba99e475bc6172c31fb71",
     "semantic_hash": ""
   },
   "tests/test_mapa_grafo_union.py": {
@@ -4176,9 +4176,9 @@
     "semantic_hash": ""
   },
   "tests/test_grafo_tc_rehecho.py": {
-    "mtime": 1791721274.7915044,
-    "seen": 1791722135.1419096,
-    "ast_hash": "5df4300e8c950277678f952924bb8002",
+    "mtime": 1791732332.0185516,
+    "seen": 1791763724.4047637,
+    "ast_hash": "61268f99dbd5249c4d611b93a6180af1",
     "semantic_hash": ""
   }
 }
