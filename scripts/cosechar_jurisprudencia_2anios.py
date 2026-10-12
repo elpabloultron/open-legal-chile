@@ -212,8 +212,10 @@ def link_documento_tc(folio: object) -> str:
 
 
 def _recortar(texto: str, largo: int = 200) -> str:
-    """La cosecha anterior guardaba la gestión cortada a 200 caracteres, a veces a mitad de palabra."""
-    if len(texto) < largo:
+    """La cosecha antigua guardaba la gestión cortada a 200 caracteres justos, a veces a mitad de
+    palabra: esa se recorta a la última palabra completa. Desde que la gestión se guarda íntegra (hasta
+    600), una de otro largo ya está completa y no se toca."""
+    if len(texto) != largo:
         return texto
     return texto[: texto.rfind(" ")].rstrip(" ,;:") + " …" if " " in texto else texto
 
