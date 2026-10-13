@@ -67,6 +67,20 @@ jobs:
         run: |
           radon mi . -s -e ".venv/*,doctrina_raw/*"
 
+      # Misma caché de normas de la BCN que ci.yml (ver allí por qué): la suite también consulta la
+      # BCN y corre a la vez que la matriz. Se restaura recién aquí, después de los escáneres.
+      - name: Semana (caché de la BCN)
+        id: semana
+        run: echo "semana=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+
+      - name: Caché de normas de la BCN
+        uses: actions/cache@v4
+        with:
+          path: bcn_cache
+          key: bcn-${{ runner.os }}-${{ hashFiles('bcn_connector.py') }}-${{ steps.semana.outputs.semana }}
+          restore-keys: |
+            bcn-${{ runner.os }}-${{ hashFiles('bcn_connector.py') }}-
+
       - name: 9. Regression Test Suite (pytest-dev/pytest)
         run: |
           pytest tests/ -v
