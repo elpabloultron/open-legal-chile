@@ -414,11 +414,14 @@ def test_la_gestion_heredada_sale_del_detalle_integro(tmp_path):
     salida = tmp_path / "tc.jsonl"
     salida.write_text(json.dumps({"rol": "Rol N° 17127-06a-INA", "caratula": integra[:200],
                                   "detalle": {"Gestión pendiente": integra}}, ensure_ascii=False) + "\n"
-                      + json.dumps({"rol": "Rol N° 17128-06a-INA", "caratula": "Gestión sin detalle " * 15}) + "\n",
-                      encoding="utf-8")
+                      + json.dumps({"rol": "Rol N° 17128-06a-INA", "caratula": ("Gestión sin detalle alguna " * 10)[:200]})
+                      + "\n" + json.dumps({"rol": "Rol N° 14470-06a-INA", "caratula": integra}, ensure_ascii=False)
+                      + "\n", encoding="utf-8")
     previas = cosecha._caratulas_previas(salida)
     assert previas["Rol N° 17127-06a-INA"] == integra                       # con el RUC del final
-    assert previas["Rol N° 17128-06a-INA"].endswith(" …")                  # sin detalle: recortada a palabra
+    assert previas["Rol N° 17128-06a-INA"].endswith(" …")                  # el corte viejo: a palabra completa
+    # Una cosecha nueva ya guardó la gestión íntegra (más de 200): se hereda tal cual, sin «…».
+    assert previas["Rol N° 14470-06a-INA"] == integra
 
 
 def test_el_reintento_de_la_cosecha_respeta_el_plazo(tmp_path, monkeypatch):
