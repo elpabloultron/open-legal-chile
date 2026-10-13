@@ -40,6 +40,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install -e ".[dev]"
 
+      # La BCN responde 429 cuando los 10 jobs de la matriz (y la auditoría) bajan a la vez el Código
+      # Civil entero desde runners vacíos: rompió test_mcp_e2e_live en main (8f01a9a) y en los PR #10,
+      # #11 y #13. Las normas bajadas se guardan entre corridas; el conector las da por frescas 30 días
+      # (mtime de la descarga, que la caché conserva) y después las vuelve a pedir: la red de la BCN se
+      # sigue probando, una vez al mes y no en cada push. La semana renueva la clave para que la copia
+      # que se guarda no envejezca más que eso.
+      - name: Semana (caché de la BCN)
+        id: semana
+        shell: bash
+        run: echo "semana=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+
+      - name: Caché de normas de la BCN
+        uses: actions/cache@v4
+        with:
+          path: bcn_cache
+          key: bcn-${{ runner.os }}-${{ hashFiles('bcn_connector.py') }}-${{ steps.semana.outputs.semana }}
+          restore-keys: |
+            bcn-${{ runner.os }}-${{ hashFiles('bcn_connector.py') }}-
+
       - name: Run MCP Server & State Connectors Test Suite (Parallel with xdist)
         run: |
           python -m pytest tests/ -n auto -q
