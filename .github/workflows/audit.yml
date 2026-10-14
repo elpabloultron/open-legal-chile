@@ -67,19 +67,24 @@ jobs:
         run: |
           radon mi . -s -e ".venv/*,doctrina_raw/*"
 
-      # Misma caché de normas de la BCN que ci.yml (ver allí por qué): la suite también consulta la
-      # BCN y corre a la vez que la matriz. Se restaura recién aquí, después de los escáneres.
-      - name: Semana (caché de la BCN)
-        id: semana
-        run: echo "semana=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+      # Las normas de la BCN que guarda el job bcn-cache de ci.yml (ver allí por qué): la suite también
+      # las consulta y corre a la vez que la matriz. Sólo se restauran —la más reciente del PR o de
+      # main—, recién aquí, después de los escáneres, y el touch las deja frescas para la suite.
+      - name: Clave de la caché de la BCN
+        id: clave
+        run: echo "blob=$(git rev-parse HEAD:bcn_connector.py)" >> "$GITHUB_OUTPUT"
 
-      - name: Caché de normas de la BCN
-        uses: actions/cache@v4
+      - name: Restaurar las normas de la BCN
+        uses: actions/cache/restore@v4
         with:
           path: bcn_cache
-          key: bcn-${{ runner.os }}-${{ hashFiles('bcn_connector.py') }}-${{ steps.semana.outputs.semana }}
+          key: bcn-${{ steps.clave.outputs.blob }}-audit-${{ github.run_id }}
           restore-keys: |
-            bcn-${{ runner.os }}-${{ hashFiles('bcn_connector.py') }}-
+            bcn-${{ steps.clave.outputs.blob }}-
+          enableCrossOsArchive: true
+
+      - name: Las normas restauradas no vencen durante la suite
+        run: if [ -d bcn_cache ]; then find bcn_cache -type f -exec touch {} +; fi
 
       - name: 9. Regression Test Suite (pytest-dev/pytest)
         run: |
