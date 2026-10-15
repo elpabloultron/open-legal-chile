@@ -22493,7 +22493,7 @@
       "file_type": "code",
       "norm_label": "_caratulas_previas()",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L221"
+      "source_location": "L223"
     },
     {
       "id": "scripts_cosechar_jurisprudencia_2anios_cosechar_cs",
@@ -22517,7 +22517,7 @@
       "file_type": "code",
       "norm_label": "cosechar_tc()",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L255"
+      "source_location": "L257"
     },
     {
       "id": "scripts_cosechar_jurisprudencia_2anios_cosechar_tc_cosechar_dia",
@@ -22529,7 +22529,7 @@
       "file_type": "code",
       "norm_label": "cosechar_dia()",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L279"
+      "source_location": "L281"
     },
     {
       "id": "scripts_cosechar_jurisprudencia_2anios_cs_compacto",
@@ -22589,7 +22589,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L364"
+      "source_location": "L366"
     },
     {
       "id": "scripts_cosechar_jurisprudencia_2anios_motivo_para_omitir",
@@ -22613,7 +22613,7 @@
       "file_type": "code",
       "norm_label": "_pedir_dia()",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L240"
+      "source_location": "L242"
     },
     {
       "id": "scripts_cosechar_jurisprudencia_2anios_recortar",
@@ -23201,7 +23201,7 @@
       "file_type": "code",
       "norm_label": "test_el_reintento_de_la_cosecha_respeta_el_plazo()",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L424"
+      "source_location": "L427"
     },
     {
       "id": "tests_test_tc_ingesta_test_el_reintento_de_la_cosecha_respeta_el_plazo_lenta",
@@ -23213,7 +23213,7 @@
       "file_type": "code",
       "norm_label": "lenta()",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L432"
+      "source_location": "L435"
     },
     {
       "id": "tests_test_tc_ingesta_test_el_rol_cuenta_en_el_encabezado_o_en_el_ultimo_rol_del_pie_y_no_en_un_precedente",
@@ -23273,7 +23273,7 @@
       "file_type": "code",
       "norm_label": "test_la_conversion_con_el_plazo_vencido_deja_lo_pendiente_como_reintentable()",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L448"
+      "source_location": "L451"
     },
     {
       "id": "tests_test_tc_ingesta_test_la_cosecha_se_detiene_si_la_api_no_responde_y_anota_lo_pendiente",
@@ -23501,7 +23501,7 @@
       "file_type": "code",
       "norm_label": "test_no_admitir_a_tramitacion_tambien_es_una_inadmisibilidad()",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L493"
+      "source_location": "L496"
     },
     {
       "id": "tests_test_tc_ingesta_test_se_sube_por_lotes_y_se_retiran_los_defectuosos_que_no_se_rehicieron",
@@ -23549,7 +23549,7 @@
       "file_type": "code",
       "norm_label": "test_un_502_al_preparar_las_bajas_se_reintenta()",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L456"
+      "source_location": "L459"
     },
     {
       "id": "tests_test_tc_ingesta_test_un_502_al_preparar_las_bajas_se_reintenta_paths_info",
@@ -23561,7 +23561,7 @@
       "file_type": "code",
       "norm_label": "paths_info()",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L463"
+      "source_location": "L466"
     },
     {
       "id": "tests_test_tc_ingesta_test_un_corte_a_mitad_de_la_descarga_o_una_pagina_de_mantencion_son_reintentables",
@@ -23573,7 +23573,7 @@
       "file_type": "code",
       "norm_label": "test_un_corte_a_mitad_de_la_descarga_o_una_pagina_de_mantencion_son_reintentables()",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L473"
+      "source_location": "L476"
     },
     {
       "id": "tests_test_tc_ingesta_test_un_corte_a_mitad_de_la_descarga_o_una_pagina_de_mantencion_son_reintentables_get",
@@ -23585,7 +23585,7 @@
       "file_type": "code",
       "norm_label": "get()",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L480"
+      "source_location": "L483"
     },
     {
       "id": "tests_test_tc_ingesta_test_un_lote_sin_cambios_no_cuenta_como_commit_y_un_4xx_no_se_reintenta",
@@ -198409,17 +198409,17 @@
     },
     {
       "id": "scripts_cosechar_jurisprudencia_2anios_rationale_215",
-      "label": "La cosecha anterior guardaba la gesti\u00f3n cortada a 200 caracteres, a veces a\u2026",
+      "label": "La cosecha antigua guardaba la gesti\u00f3n cortada a 200 caracteres justos, a veces\u2026",
       "_origin": "ast",
       "community": 62,
       "community_name": "tc_pdfs_a_md.py",
       "file_type": "rationale",
-      "norm_label": "la cosecha anterior guardaba la gestion cortada a 200 caracteres, a veces a...",
+      "norm_label": "la cosecha antigua guardaba la gestion cortada a 200 caracteres justos, a veces...",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
       "source_location": "L215"
     },
     {
-      "id": "scripts_cosechar_jurisprudencia_2anios_rationale_222",
+      "id": "scripts_cosechar_jurisprudencia_2anios_rationale_224",
       "label": "La gesti\u00f3n pendiente de la cosecha anterior, por rol. La API dej\u00f3 de entregarla\u2026",
       "_origin": "ast",
       "community": 62,
@@ -198427,10 +198427,10 @@
       "file_type": "rationale",
       "norm_label": "la gestion pendiente de la cosecha anterior, por rol. la api dejo de entregarla...",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L222"
+      "source_location": "L224"
     },
     {
-      "id": "scripts_cosechar_jurisprudencia_2anios_rationale_258",
+      "id": "scripts_cosechar_jurisprudencia_2anios_rationale_260",
       "label": "La API del TC ordena por ingreso; se consulta d\u00eda por d\u00eda con fecha exacta, de\u2026",
       "_origin": "ast",
       "community": 62,
@@ -198438,7 +198438,7 @@
       "file_type": "rationale",
       "norm_label": "la api del tc ordena por ingreso; se consulta dia por dia con fecha exacta, de...",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L258"
+      "source_location": "L260"
     },
     {
       "id": "scripts_subir_tc_hf_rationale_105",
@@ -295535,7 +295535,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L233",
+      "source_location": "L235",
       "weight": 1.0
     },
     {
@@ -295547,7 +295547,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L234",
+      "source_location": "L236",
       "weight": 1.0
     },
     {
@@ -295595,7 +295595,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L268",
+      "source_location": "L270",
       "weight": 1.0
     },
     {
@@ -295607,7 +295607,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L283",
+      "source_location": "L285",
       "weight": 1.0
     },
     {
@@ -295619,7 +295619,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L288",
+      "source_location": "L290",
       "weight": 1.0
     },
     {
@@ -295631,7 +295631,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L294",
+      "source_location": "L296",
       "weight": 1.0
     },
     {
@@ -295643,7 +295643,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L376",
+      "source_location": "L378",
       "weight": 1.0
     },
     {
@@ -295655,7 +295655,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L378",
+      "source_location": "L380",
       "weight": 1.0
     },
     {
@@ -295667,7 +295667,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L243",
+      "source_location": "L245",
       "weight": 1.0
     },
     {
@@ -317615,7 +317615,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L441",
+      "source_location": "L444",
       "weight": 1.0
     },
     {
@@ -317663,7 +317663,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L451",
+      "source_location": "L454",
       "weight": 1.0
     },
     {
@@ -317723,7 +317723,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L419",
+      "source_location": "L420",
       "weight": 1.0
     },
     {
@@ -317867,7 +317867,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L495",
+      "source_location": "L498",
       "weight": 1.0
     },
     {
@@ -317879,7 +317879,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L496",
+      "source_location": "L499",
       "weight": 1.0
     },
     {
@@ -317975,7 +317975,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L458",
+      "source_location": "L461",
       "weight": 1.0
     },
     {
@@ -317987,7 +317987,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L469",
+      "source_location": "L472",
       "weight": 1.0
     },
     {
@@ -317999,7 +317999,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L487",
+      "source_location": "L490",
       "weight": 1.0
     },
     {
@@ -318863,7 +318863,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L279",
+      "source_location": "L281",
       "weight": 1.0
     },
     {
@@ -351623,7 +351623,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L221",
+      "source_location": "L223",
       "weight": 1.0
     },
     {
@@ -351647,7 +351647,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L240",
+      "source_location": "L242",
       "weight": 1.0
     },
     {
@@ -352463,7 +352463,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L255",
+      "source_location": "L257",
       "weight": 1.0
     },
     {
@@ -523383,7 +523383,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L221",
+      "source_location": "L223",
       "weight": 1.0
     },
     {
@@ -523394,7 +523394,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L240",
+      "source_location": "L242",
       "weight": 1.0
     },
     {
@@ -523405,7 +523405,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L255",
+      "source_location": "L257",
       "weight": 1.0
     },
     {
@@ -523416,7 +523416,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L364",
+      "source_location": "L366",
       "weight": 1.0
     },
     {
@@ -537375,7 +537375,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L424",
+      "source_location": "L427",
       "weight": 1.0
     },
     {
@@ -537386,7 +537386,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L448",
+      "source_location": "L451",
       "weight": 1.0
     },
     {
@@ -537397,7 +537397,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L456",
+      "source_location": "L459",
       "weight": 1.0
     },
     {
@@ -537408,7 +537408,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L473",
+      "source_location": "L476",
       "weight": 1.0
     },
     {
@@ -537419,7 +537419,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L493",
+      "source_location": "L496",
       "weight": 1.0
     },
     {
@@ -537474,7 +537474,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L463",
+      "source_location": "L466",
       "weight": 1.0
     },
     {
@@ -537485,7 +537485,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L480",
+      "source_location": "L483",
       "weight": 1.0
     },
     {
@@ -552768,25 +552768,25 @@
       "weight": 1.0
     },
     {
-      "source": "scripts_cosechar_jurisprudencia_2anios_rationale_222",
+      "source": "scripts_cosechar_jurisprudencia_2anios_rationale_224",
       "target": "scripts_cosechar_jurisprudencia_2anios_caratulas_previas",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L222",
+      "source_location": "L224",
       "weight": 1.0
     },
     {
-      "source": "scripts_cosechar_jurisprudencia_2anios_rationale_258",
+      "source": "scripts_cosechar_jurisprudencia_2anios_rationale_260",
       "target": "scripts_cosechar_jurisprudencia_2anios_cosechar_tc",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/cosechar_jurisprudencia_2anios.py",
-      "source_location": "L258",
+      "source_location": "L260",
       "weight": 1.0
     },
     {
@@ -583505,7 +583505,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L439",
+      "source_location": "L442",
       "weight": 1.0
     },
     {
@@ -583577,7 +583577,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L486",
+      "source_location": "L489",
       "weight": 1.0
     },
     {
@@ -583709,7 +583709,7 @@
       "confidence_score": 0.85,
       "context": "assignment",
       "source_file": "tests/test_tc_ingesta.py",
-      "source_location": "L468",
+      "source_location": "L471",
       "weight": 1.0
     },
     {
@@ -873049,5 +873049,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "24cf1f7f7bf8e2fa165e9b2e2a4cd275d51f1af7"
+  "built_at_commit": "81d4d774a9b1085ac6458f8c009b7179ef1b3008"
 }

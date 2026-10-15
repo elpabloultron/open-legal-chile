@@ -846,15 +846,15 @@
     "semantic_hash": ""
   },
   ".github/workflows/audit.yml": {
-    "mtime": 1791502956.2499356,
-    "seen": 1791580212.68172,
-    "ast_hash": "55bbdb2534a4dbe3f954f7f08be125ff",
+    "mtime": 1791936767.022737,
+    "seen": 1792108513.4492836,
+    "ast_hash": "564a863cc1a38e709b3a26650afd4f27",
     "semantic_hash": ""
   },
   ".github/workflows/ci.yml": {
-    "mtime": 1791537326.6260338,
-    "seen": 1791580212.6817224,
-    "ast_hash": "0654ae4797cb9bde67063342ebf64fe7",
+    "mtime": 1792106984.8113177,
+    "seen": 1792108513.4492857,
+    "ast_hash": "38fcf2261604b636531b05c4594f92bb",
     "semantic_hash": ""
   },
   ".github/workflows/publish-pypi.yml": {
@@ -2748,9 +2748,9 @@
     "semantic_hash": ""
   },
   "scripts/cosechar_jurisprudencia_2anios.py": {
-    "mtime": 1791677204.5963068,
-    "seen": 1791677315.8124785,
-    "ast_hash": "171d15983270e09808838929fffd4e95",
+    "mtime": 1791845998.9889803,
+    "seen": 1792108513.441919,
+    "ast_hash": "3fa06a4e71f62c14244245833d554788",
     "semantic_hash": ""
   },
   "scripts/cosechar_publicaciones_ambientales.py": {
@@ -3240,8 +3240,8 @@
     "semantic_hash": ""
   },
   "jurisprudencia_tc/README.md": {
-    "mtime": 1791768413.4341471,
-    "seen": 1791768474.9067638,
+    "mtime": 1792108467.9283004,
+    "seen": 1792108513.4625008,
     "ast_hash": "8af90dd80b994f772a2791c272799a19",
     "semantic_hash": ""
   },
@@ -4158,9 +4158,9 @@
     "semantic_hash": ""
   },
   "tests/test_tc_ingesta.py": {
-    "mtime": 1791766397.606876,
-    "seen": 1791768474.8968468,
-    "ast_hash": "5dadb367792ffc1c92225d1948faeb87",
+    "mtime": 1791845997.6135688,
+    "seen": 1792108513.4485848,
+    "ast_hash": "5c06560840395d7843c1c4d17c08e8d3",
     "semantic_hash": ""
   },
   ".github/workflows/ingesta-tc.yml": {
