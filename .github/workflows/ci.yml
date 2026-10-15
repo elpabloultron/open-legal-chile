@@ -14,7 +14,113 @@ concurrency:
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
+  bcn-cache:
+    # La BCN responde 429 cuando los 10 jobs de la matriz (y la auditoría) bajan a la vez el Código
+    # Civil entero desde runners vacíos: rompió test_mcp_e2e_live en main (8f01a9a) y en los PR #10,
+    # #11 y #13. Las pruebas en vivo sólo piden tres normas (Código Civil, Código del Trabajo y Ley
+    # 21.643): este job es el único que va a la red por ellas —restaura la copia guardada, refresca lo
+    # vencido según los 30 días del conector y guarda sólo si algo cambió—; la matriz y la auditoría
+    # sólo restauran. La clave usa el blob de git de bcn_connector.py (hashFiles cambia con el CRLF del
+    # checkout de Windows) y el archivo es multiplataforma (enableCrossOsArchive).
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      # bcn_connector y config sólo usan la biblioteca estándar y defusedxml: sin el paquete entero
+      # (numpy, scipy, OCR…) este job, del que depende la matriz, tarda un minuto menos.
+      - name: Instalar
+        run: python -m pip install "defusedxml>=0.7.1"
+
+      - name: Clave de la caché de la BCN
+        id: clave
+        run: echo "blob=$(git rev-parse HEAD:bcn_connector.py)" >> "$GITHUB_OUTPUT"
+
+      - name: Restaurar las normas guardadas
+        id: restaurar
+        uses: actions/cache/restore@v4
+        with:
+          path: bcn_cache
+          key: bcn-${{ steps.clave.outputs.blob }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            bcn-${{ steps.clave.outputs.blob }}-
+          enableCrossOsArchive: true
+
+      # Una norma que no se pudo refrescar pero tiene copia es sólo un aviso (la BCN falla a ratos).
+      # En rojo: si alguna queda sin copia legible —así «Re-run failed jobs» relanza este job con la
+      # matriz— o si lleva más de 45 días sin refrescarse (15 días seguidos de fallas: ya no es un rato).
+      - name: Refrescar lo vencido (única consulta a la BCN de la corrida)
+        run: |
+          touch "$RUNNER_TEMP/antes"
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          import time
+
+          from bcn_connector import BCNClient, CODIGOS_REPUBLICA
+
+          bcn = BCNClient()
+          normas = (
+              ("Código Civil", lambda: bcn.get_codigo("civil"),
+               bcn._get_cache_path("norma", int(CODIGOS_REPUBLICA["civil"]["idNorma"]))),
+              ("Código del Trabajo", lambda: bcn.get_codigo("trabajo"),
+               bcn._get_cache_path("norma", int(CODIGOS_REPUBLICA["trabajo"]["idNorma"]))),
+              ("Ley 21.643", lambda: bcn.get_ley(21643), bcn._get_cache_path("ley", 21643)),
+          )
+          fallas = []
+          for nombre, pedir, ruta in normas:
+              try:
+                  if pedir().get("copia_local_vencida"):
+                      print(f"::warning::BCN: {nombre} no se pudo refrescar; las pruebas usan la copia vencida")
+              except Exception as error:  # noqa: BLE001 — sin copia y sin red: se informa abajo
+                  print(f"::warning::BCN: {nombre}: {error}")
+              try:
+                  with open(ruta, encoding="utf-8") as f:
+                      articulos = json.load(f).get("articulos")
+                  dias = (time.time() - os.path.getmtime(ruta)) / 86400
+              except (OSError, ValueError):
+                  fallas.append(f"{nombre} sin copia legible")
+                  continue
+              if not articulos:
+                  fallas.append(f"{nombre}: la copia no trae artículos")
+              elif dias > 45:
+                  fallas.append(f"{nombre} lleva {dias:.0f} días sin refrescarse")
+              else:
+                  print(f"{nombre}: {len(articulos)} artículos, copia de hace {dias:.1f} días")
+          for falla in fallas:
+              print(f"::error::BCN: {falla}")
+          sys.exit(1 if fallas else 0)
+          PY
+
+      # !cancelled() y no always(): una cancelación a mitad de una descarga no debe guardar un JSON cortado.
+      - name: ¿Hay algo nuevo que guardar?
+        id: guardar
+        if: ${{ !cancelled() }}
+        env:
+          RESTAURADA: ${{ steps.restaurar.outputs.cache-matched-key }}
+        run: |
+          # Sólo con normas en la carpeta, y si no había copia o se refrescó alguna.
+          [ -d bcn_cache ] && [ -n "$(find bcn_cache -type f)" ] || exit 0
+          if [ -z "$RESTAURADA" ] || [ -n "$(find bcn_cache -type f -newer "$RUNNER_TEMP/antes")" ]; then
+            echo "guardar=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Guardar las normas refrescadas
+        if: ${{ !cancelled() && steps.guardar.outputs.guardar == 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: bcn_cache
+          key: bcn-${{ steps.clave.outputs.blob }}-${{ github.run_id }}-${{ github.run_attempt }}
+          enableCrossOsArchive: true
+
   test:
+    needs: bcn-cache
+    if: ${{ !cancelled() }}    # sin la caché (la BCN no respondió) la matriz corre igual
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30        # un cuelgue no debe quemar 46 minutos (Windows/3.10, 2026-09-25)
     strategy:
@@ -39,6 +145,26 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -e ".[dev]"
+
+      # Las normas de la BCN las refrescó el job bcn-cache (ver allí por qué). Aquí sólo se restauran,
+      # y el touch las deja frescas para que ningún job de la matriz vuelva a pedirlas a la vez.
+      - name: Clave de la caché de la BCN
+        id: clave
+        shell: bash
+        run: echo "blob=$(git rev-parse HEAD:bcn_connector.py)" >> "$GITHUB_OUTPUT"
+
+      - name: Restaurar las normas de la BCN
+        uses: actions/cache/restore@v4
+        with:
+          path: bcn_cache
+          key: bcn-${{ steps.clave.outputs.blob }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            bcn-${{ steps.clave.outputs.blob }}-
+          enableCrossOsArchive: true
+
+      - name: Las normas restauradas no vencen durante la suite
+        shell: bash
+        run: if [ -d bcn_cache ]; then /usr/bin/find bcn_cache -type f -exec touch {} +; fi
 
       - name: Run MCP Server & State Connectors Test Suite (Parallel with xdist)
         run: |
