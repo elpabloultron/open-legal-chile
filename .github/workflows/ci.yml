@@ -31,10 +31,10 @@ jobs:
         with:
           python-version: "3.12"
 
+      # bcn_connector y config sólo usan la biblioteca estándar y defusedxml: sin el paquete entero
+      # (numpy, scipy, OCR…) este job, del que depende la matriz, tarda un minuto menos.
       - name: Instalar
-        run: |
-          python -m pip install --upgrade pip
-          pip install -e .
+        run: python -m pip install "defusedxml>=0.7.1"
 
       - name: Clave de la caché de la BCN
         id: clave
@@ -50,27 +50,57 @@ jobs:
             bcn-${{ steps.clave.outputs.blob }}-
           enableCrossOsArchive: true
 
+      # Una norma que no se pudo refrescar pero tiene copia es sólo un aviso (la BCN falla a ratos).
+      # En rojo: si alguna queda sin copia legible —así «Re-run failed jobs» relanza este job con la
+      # matriz— o si lleva más de 45 días sin refrescarse (15 días seguidos de fallas: ya no es un rato).
       - name: Refrescar lo vencido (única consulta a la BCN de la corrida)
-        continue-on-error: true
         run: |
           touch "$RUNNER_TEMP/antes"
           python - <<'PY'
-          from bcn_connector import BCNClient
+          import json
+          import os
+          import sys
+          import time
+
+          from bcn_connector import BCNClient, CODIGOS_REPUBLICA
 
           bcn = BCNClient()
-          for nombre, pedir in (("Código Civil", lambda: bcn.get_codigo("civil")),
-                                ("Código del Trabajo", lambda: bcn.get_codigo("trabajo")),
-                                ("Ley 21.643", lambda: bcn.get_ley(21643))):
-              datos = pedir()
-              if datos.get("copia_local_vencida"):
-                  print(f"::warning::BCN: {nombre} no se pudo refrescar; las pruebas usan la copia vencida")
+          normas = (
+              ("Código Civil", lambda: bcn.get_codigo("civil"),
+               bcn._get_cache_path("norma", int(CODIGOS_REPUBLICA["civil"]["idNorma"]))),
+              ("Código del Trabajo", lambda: bcn.get_codigo("trabajo"),
+               bcn._get_cache_path("norma", int(CODIGOS_REPUBLICA["trabajo"]["idNorma"]))),
+              ("Ley 21.643", lambda: bcn.get_ley(21643), bcn._get_cache_path("ley", 21643)),
+          )
+          fallas = []
+          for nombre, pedir, ruta in normas:
+              try:
+                  if pedir().get("copia_local_vencida"):
+                      print(f"::warning::BCN: {nombre} no se pudo refrescar; las pruebas usan la copia vencida")
+              except Exception as error:  # noqa: BLE001 — sin copia y sin red: se informa abajo
+                  print(f"::warning::BCN: {nombre}: {error}")
+              try:
+                  with open(ruta, encoding="utf-8") as f:
+                      articulos = json.load(f).get("articulos")
+                  dias = (time.time() - os.path.getmtime(ruta)) / 86400
+              except (OSError, ValueError):
+                  fallas.append(f"{nombre} sin copia legible")
+                  continue
+              if not articulos:
+                  fallas.append(f"{nombre}: la copia no trae artículos")
+              elif dias > 45:
+                  fallas.append(f"{nombre} lleva {dias:.0f} días sin refrescarse")
               else:
-                  print(f"{nombre}: {len(datos.get('articulos', {}))} artículos")
+                  print(f"{nombre}: {len(articulos)} artículos, copia de hace {dias:.1f} días")
+          for falla in fallas:
+              print(f"::error::BCN: {falla}")
+          sys.exit(1 if fallas else 0)
           PY
 
+      # !cancelled() y no always(): una cancelación a mitad de una descarga no debe guardar un JSON cortado.
       - name: ¿Hay algo nuevo que guardar?
         id: guardar
-        if: always()
+        if: ${{ !cancelled() }}
         env:
           RESTAURADA: ${{ steps.restaurar.outputs.cache-matched-key }}
         run: |
@@ -81,7 +111,7 @@ jobs:
           fi
 
       - name: Guardar las normas refrescadas
-        if: always() && steps.guardar.outputs.guardar == 'true'
+        if: ${{ !cancelled() && steps.guardar.outputs.guardar == 'true' }}
         uses: actions/cache/save@v4
         with:
           path: bcn_cache
