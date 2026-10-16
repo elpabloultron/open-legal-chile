@@ -23,6 +23,7 @@ from __future__ import annotations
 import json
 import os
 import pathlib
+import re
 import shutil
 import subprocess
 import sys
@@ -44,6 +45,7 @@ _RUTA_PROYECTO = {
     "gemini": ".gemini/settings.json",
     "antigravity": "mcp_config.json",
     "codex": ".codex/config.toml",
+    "hermes": ".hermes/config.yaml",
     "opencode": "opencode.json",
     "dsh": "cordis.patch.yml",
     "generic": ".mcp.json",
@@ -54,7 +56,7 @@ _SOLO_GLOBAL = ("claude-desktop", "windsurf")
 
 def clientes() -> List[str]:
     return ["claude-code", "claude-desktop", "cursor", "vscode", "gemini", "antigravity", "windsurf",
-            "codex", "opencode", "dsh", "generic"]
+            "codex", "hermes", "opencode", "dsh", "generic"]
 
 
 def comando_servidor() -> str:
@@ -117,6 +119,7 @@ def ruta_global(cliente: str) -> Optional[pathlib.Path]:
         "antigravity": casa / ".gemini" / "antigravity" / "mcp_config.json",
         "windsurf": casa / ".codeium" / "windsurf" / "mcp_config.json",
         "codex": casa / ".codex" / "config.toml",
+        "hermes": casa / ".hermes" / "config.yaml",
         "opencode": soporte / "opencode" / "opencode.json",
         "dsh": casa / "cordis.patch.yml",
         "generic": casa / ".mcp.json",
@@ -125,7 +128,13 @@ def ruta_global(cliente: str) -> Optional[pathlib.Path]:
 
 def _normalizar(cliente: str) -> str:
     c = (cliente or "").strip().lower()
-    alias = {"claude": "claude-code", "gemini-cli": "gemini", "code": "vscode", "vs-code": "vscode"}
+    alias = {
+        "claude": "claude-code",
+        "gemini-cli": "gemini",
+        "code": "vscode",
+        "vs-code": "vscode",
+        "hermes-agent": "hermes",
+    }
     c = alias.get(c, c)
     if c not in clientes():
         raise ValueError(f"Cliente desconocido: {cliente}. Opciones: {', '.join(clientes())}")
@@ -163,6 +172,18 @@ def configuracion(cliente: str, uvx: bool = False, global_: bool = False) -> Dic
                 f'args = {json.dumps(entrada["args"])}\n\n'
                 f'[mcp_servers.{SERVIDOR}.env]\nPYTHONUNBUFFERED = "1"\n')
         return {"cliente": c, "clave": "", "ruta": ruta, "contenido": toml}
+    if c == "hermes":
+        argumentos = "[" + ", ".join(json.dumps(a) for a in entrada["args"]) + "]"
+        yaml_hermes = (
+            "mcp_servers:\n"
+            f"  {SERVIDOR}:\n"
+            f"    command: {json.dumps(entrada['command'])}\n"
+            f"    args: {argumentos}\n"
+            "    env:\n"
+            '      PYTHONUNBUFFERED: "1"\n'
+            "    enabled: true\n"
+        )
+        return {"cliente": c, "clave": "", "ruta": ruta, "contenido": yaml_hermes}
     # dsh
     argumentos = "[" + ", ".join(f"'{a}'" for a in entrada["args"]) + "]"
     yaml = (
@@ -187,6 +208,7 @@ def _pistas(global_: bool) -> Dict[str, Tuple[str, ...]]:
         "vscode": (".vscode", ".config/Code", ".config/Code - Insiders"),
         "gemini": (".gemini",),
         "codex": (".codex", ".config/codex"),
+        "hermes": (".hermes",),
         "opencode": ("opencode.json", ".opencode", ".config/opencode"),
         "dsh": (".dsh",),
         "antigravity": (".antigravity", ".gemini/antigravity", ".config/Antigravity"),
@@ -274,6 +296,16 @@ def escribir(cliente: str, destino: Optional[Union[str, pathlib.Path]] = None,
             datos = {}
         datos.setdefault(cfg["clave"], {})[SERVIDOR] = json.loads(cfg["contenido"])[cfg["clave"]][SERVIDOR]
         ruta.write_text(_json_bonito(datos), encoding="utf-8")
+        estado = "fusionado"
+    elif c == "hermes" and re.search(r"(?m)^mcp_servers:\s*(?:\{\}|null|~)?\s*(?:#.*)?$", previo):
+        bloque_hijo = cfg["contenido"].split("\n", 1)[1].rstrip("\n")
+        nuevo = re.sub(
+            r"(?m)^mcp_servers:\s*(?:\{\}|null|~)?\s*((?:#.*)?)$",
+            lambda m: f"mcp_servers:{(' ' + m.group(1)) if m.group(1) else ''}\n{bloque_hijo}",
+            previo,
+            count=1,
+        )
+        ruta.write_text(nuevo, encoding="utf-8")
         estado = "fusionado"
     else:
         # TOML/YAML: el bloque se agrega al final (en dsh el parche se compone por capas).

@@ -81,6 +81,7 @@ Desktop, Cursor o VS Code abiertos desde el dock) no heredan el PATH de la termi
 | Antigravity | `antigravity` | `mcp_config.json` | `~/.gemini/antigravity/mcp_config.json` |
 | Windsurf | `windsurf` | — | `~/.codeium/windsurf/mcp_config.json` |
 | Codex | `codex` | `.codex/config.toml` | `~/.codex/config.toml` |
+| Hermes (Nous Research) | `hermes` | `.hermes/config.yaml` (clave `mcp_servers`) | `~/.hermes/config.yaml` |
 | OpenCode | `opencode` | `opencode.json` (clave `mcp`) | `opencode/opencode.json` en la carpeta de configuración |
 | dsh (DeepSeek Harness) | `dsh` | `cordis.patch.yml` | `~/cordis.patch.yml` |
 | Genérico (MCP estándar) | `generic` | `.mcp.json` | `~/.mcp.json` |

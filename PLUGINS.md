@@ -75,11 +75,12 @@ En otro proyecto: `openlegal integrar vscode --escribir` (o `--global` para tu c
 
 ---
 
-### 5. 🏄 Windsurf, Codex, OpenCode, dsh
+### 5. 🏄 Windsurf, Codex, Hermes, OpenCode, dsh
 
 ```bash
 openlegal integrar windsurf --escribir      # ~/.codeium/windsurf/mcp_config.json
 openlegal integrar codex --escribir         # .codex/config.toml
+openlegal integrar hermes --escribir        # ~/.hermes/config.yaml (o .hermes/config.yaml)
 openlegal integrar opencode --escribir      # opencode.json
 openlegal integrar dsh --escribir           # cordis.patch.yml
 ```
