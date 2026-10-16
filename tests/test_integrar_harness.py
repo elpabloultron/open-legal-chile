@@ -209,6 +209,25 @@ def test_codex_toml_escapa_rutas_de_windows():
 def test_alias_de_clientes():
     assert ih.configuracion("gemini-cli")["cliente"] == "gemini"
     assert ih.configuracion("claude")["cliente"] == "claude-code"
+    assert ih.configuracion("hermes-agent")["cliente"] == "hermes"
+
+
+def test_configuracion_y_fusion_hermes_yaml(tmp_path):
+    cfg = ih.configuracion("hermes")
+    assert cfg["ruta"] == ".hermes/config.yaml"
+    assert "mcp_servers:" in cfg["contenido"] and "open-legal-chile:" in cfg["contenido"]
+
+    destino = tmp_path / ".hermes" / "config.yaml"
+    destino.parent.mkdir(parents=True)
+    destino.write_text(
+        "model: gpt-5\nmcp_servers:\n  antigravity:\n    command: /usr/bin/python3\n    enabled: true\n",
+        encoding="utf-8",
+    )
+    resultado = ih.escribir("hermes", carpeta_base=tmp_path)
+    assert resultado["estado"] == "fusionado"
+    texto = destino.read_text(encoding="utf-8")
+    assert texto.count("mcp_servers:") == 1
+    assert "antigravity:" in texto and "open-legal-chile:" in texto
 
 
 def test_claude_code_global_se_registra_con_el_cli(tmp_path, monkeypatch):
@@ -219,3 +238,4 @@ def test_claude_code_global_se_registra_con_el_cli(tmp_path, monkeypatch):
     assert resultado["estado"] == "manual"
     assert "claude mcp add -s user" in resultado["nota"]
     assert not (tmp_path / ".mcp.json").exists(), "~/.mcp.json no es el alcance de usuario de Claude Code"
+
