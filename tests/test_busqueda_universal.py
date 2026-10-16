@@ -17,8 +17,11 @@ class RegistroFalso:
             "bcn": [{"tipo": "aviso", "titulo": "La búsqueda de BCN no cubre esto",
                      "mensaje": "Resuelve por número de ley."}],
             "cgr": {"resultados": [
-                {"docId": "E584740", "nombre": "", "materia": "Procede otorgar beneficio",
-                 "pdfUrl": "https://www.contraloria.cl/e584740", "texto": "…"},
+                # La forma real del conector (cgr_connector._normalizar_hit): código con año, N° y fecha.
+                {"docId": "E584740N23", "numero": "E584740", "anio": "2023", "fecha": "2023-05-02",
+                 "nombre": "Dictamen E584740", "materia": "Procede otorgar beneficio",
+                 "url": "https://www.contraloria.cl/pdfbuscador/dictamenes/E584740N23/html",
+                 "pdfUrl": "https://www.contraloria.cl/pdfbuscador/dictamenes/E584740N23/pdf", "texto": "…"},
             ]},
             "dt": [{"titulo": "Dictamen N° 653", "url": "https://dt.gob.cl/653",
                     "resumen": "Sobre acoso laboral."}],
@@ -41,7 +44,7 @@ def test_normaliza_listas_dicts_y_avisos(monkeypatch):
     # Los avisos no son fuentes: quedan en el payload, no en las citas. Integra HF + órganos estatales.
     assert len(resultado["citas"]) == 3, resultado["citas"]
     fuentes = {c["formato"] for c in resultado["citas"]}
-    assert "[CGR - Procede otorgar beneficio]" in fuentes
+    assert "[CGR - Dictamen E584740 de 2023-05-02]" in fuentes
     assert "[DT - Dictamen N° 653]" in fuentes
     assert "[Hugging Face - doctrina/laboral/tutela.md]" in fuentes
     assert all(c["url"] for c in resultado["citas"]), "cada cita lleva su enlace"
