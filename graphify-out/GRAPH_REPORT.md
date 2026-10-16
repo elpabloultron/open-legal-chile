@@ -1,7 +1,7 @@
-# Graph Report - open-legal-chile  (2026-10-12)
+# Graph Report - open-legal-chile  (2026-10-15)
 
 ## Corpus Check
-- 653 files · ~12,516,771 words
+- 653 files · ~12,532,252 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 35 file(s) not represented in the graph (top: .jsonl 30, (none) 2, .example 1)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `24cf1f7f`
+- Built from commit: `81d4d774`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -1992,7 +1992,7 @@ Ley 19.733
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `doctrina48981` connect `doctrina48981` to `124               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `224 Nº1 y 225 Nº1), sí podrían ser responsables eventualmente de prevari-`, `parte, las medidas necesarias para permitir dicho ejercicio. Si esas medidas`, `504                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `510                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `516                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§6. abusos sexuales (arts. 365 bis a 366 ter)`, `(art. 470 n° 6)`, `Y de la honra. régimen de prensa`, `184. Asimismo, se podrá cautelar la demanda civil, solicitando alguna de`, `§15. FRAUDES EN LA ADMINISTRACIÓN (ARTS. 469 Nº 3 Y Nº 4, Y`, `Bien jurídico y constitución`, `título 3° del libro II, cuando fuere previsible que la persona de cuya declara-`, `193 Nº 2): aquí lo importante no es tanto suponer la participación de per-`, `100               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§11. obstrucción a la investigación (art. 269 bis)`, `236                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `278               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `294               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§2. prevaricación judicial (arts. 223 a 227)`, `302               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `332               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `352                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `42                 Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `436                Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `44                 Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `474               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§4. malversación de caudales públicos (arts. 233 a 235)`, `512               Jean Pierre Matus Acuña y Mª Cecilia Ramírez Guzmán`, `§7. auxilio al suicidio (art. 393)`, `Administración de justicia`, `(arts. 193 y 194)`, `sumario. Los mismos derechos corresponderán a los herederos del conde-`, `Certificados y licencias médicas (arts. 199 a 207)`, `ESTRICTO. MODALIDADES DE TRÁFICO (ART. 3º INC. 1º)`, `título de parricida, pudiendo considerarse el envenenamiento como circunstancia`, `2. Esta relación especial de sujeción es una fuente de restricción de`, `parte, un instrumento público, el tribunal, junto con su devolución, ordenará`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `session-start.sh script`, `python3`, `PYTHONIOENCODING` to the rest of the system?**
   _6197 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Ley de Identidad de Género` be split into smaller, more focused modules?**
