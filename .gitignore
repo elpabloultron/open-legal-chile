@@ -55,6 +55,7 @@ dist/
 build/
 *.exe
 *.spec
+*.tar.gz
 *.egg-info/
 openlegal_chile.egg-info/
 

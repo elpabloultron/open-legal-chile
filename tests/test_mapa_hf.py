@@ -35,6 +35,7 @@ def red_prohibida(tmp_path, monkeypatch):
             raise AssertionError(f"la prueba no puede llamar al hub ({nombre})")
         return _prohibido
 
+    monkeypatch.setattr(ols, "BASE_DIR", str(tmp_path / "base_vacia"))
     monkeypatch.setattr(ols, "CACHE_HF", tmp_path / "hf_cache")
     monkeypatch.setattr(ols, "_ARCHIVOS_HF_CACHE", {})
     monkeypatch.setattr(huggingface_hub, "hf_hub_download", _hub("hf_hub_download"))
