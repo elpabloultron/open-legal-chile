@@ -181,7 +181,7 @@ def menu_interactivo():
                     res = cgr_client.search_jurisprudencia(q)
                     print(f"\n🏛️ Total Dictámenes encontrados: {res.get('total')}")
                     for idx, item in enumerate(res.get("resultados", [])[:5]):
-                        print(f"\n[{idx+1}] Dictamen CGR N° {item.get('docId')} ({item.get('fecha')})")
+                        print(f"\n[{idx+1}] Dictamen CGR N° {item.get('numero') or item.get('docId')} ({item.get('anio') or item.get('fecha')})")
                         print(f"  📌 Materia: {item.get('materia')}")
             except Exception as e:
                 print("Error:", e)
@@ -300,7 +300,7 @@ def menu_interactivo():
                 cgr_res = cgr_client.search_jurisprudencia(query)
                 print(f"\n🏛️ Contraloría (CGR): {cgr_res.get('total')} dictámenes encontrados")
                 for it in cgr_res.get("resultados", [])[:2]:
-                    print(f"  * [{it.get('docId')}] {it.get('materia')[:120]}...")
+                    print(f"  * [Dictamen CGR N° {it.get('numero') or it.get('docId')} ({it.get('anio') or it.get('fecha')})] {it.get('materia')[:120]}...")
             except Exception:
                 pass
 
@@ -874,7 +874,7 @@ Ejemplos de uso:
         cgr_res = res.get("cgr", {})
         print(f"\n🏛️ Contraloría (CGR): {cgr_res.get('total', 'error')} dictámenes")
         for it in (cgr_res.get("resultados") or [])[:3]:
-            print(f"  * [Dictamen CGR N° {it.get('docId')}] {it.get('materia')}")
+            print(f"  * [Dictamen CGR N° {it.get('numero') or it.get('docId')} ({it.get('anio') or it.get('fecha')})] {it.get('materia')}")
 
         # DT
         dt_res = res.get("dt", [])

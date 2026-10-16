@@ -485,7 +485,7 @@ class BaseLegalAgent:
         ]
         if dictamenes:
             for d in dictamenes[:3]:
-                out.append(f"- **Dictamen CGR N.° {d.get('docId', d.get('numero', 'S/N'))} ({d.get('fecha', '')}):** {d.get('materia', '')[:200]}")
+                out.append(f"- **Dictamen CGR N.° {d.get('numero') or d.get('docId') or 'S/N'} ({d.get('anio') or d.get('fecha', '')}):** {d.get('materia', '')[:200]}")
         else:
             out.append("- No se registraron dictámenes adversos directos sobre el término exacto.")
 

@@ -144,15 +144,15 @@
     "semantic_hash": "0d1504271a88c68c4a544e1ab83c4243"
   },
   "cgr_connector.py": {
-    "mtime": 1791333758.4768581,
-    "seen": 1791386572.0475535,
-    "ast_hash": "dd8534f0b0a84dfcc3d4dcf0b900af8a",
+    "mtime": 1792110688.4275026,
+    "seen": 1792110725.0871663,
+    "ast_hash": "061a426f6281390e15b465dbf8ebdd01",
     "semantic_hash": ""
   },
   "chat_engine.py": {
-    "mtime": 1791333758.4776309,
-    "seen": 1791386572.047555,
-    "ast_hash": "84bb4367dc606a48e7604ed636d60aaa",
+    "mtime": 1792110688.4312627,
+    "seen": 1792110725.0871737,
+    "ast_hash": "d929a878105b0b9d039ad8e2227802f6",
     "semantic_hash": ""
   },
   "clinica_juridica.py": {
@@ -318,9 +318,9 @@
     "semantic_hash": ""
   },
   "openlegal.py": {
-    "mtime": 1791573252.1640723,
-    "seen": 1791580212.6767387,
-    "ast_hash": "2a77f302727f21d1bb76c6fa768224ae",
+    "mtime": 1792110688.4352627,
+    "seen": 1792110725.088199,
+    "ast_hash": "74e23db7df3ecd6a1b3ad0e088641b1d",
     "semantic_hash": ""
   },
   "panel_expertos_connector.py": {
@@ -390,9 +390,9 @@
     "semantic_hash": ""
   },
   "skills-lock.json": {
-    "mtime": 1791333759.6856308,
-    "seen": 1791386572.047818,
-    "ast_hash": "50a89754d37231fc476165d36cc1e5de",
+    "mtime": 1792110688.4352627,
+    "seen": 1792110725.0896351,
+    "ast_hash": "e6c4c1a2b8d22f51ca879303af5e3744",
     "semantic_hash": ""
   },
   "stats_tracker.py": {
@@ -426,10 +426,10 @@
     "semantic_hash": "4e4a0c4f739f7d79dab3d2eca29071d2"
   },
   "tests/test_connectors.py": {
-    "mtime": 1791333759.6869454,
-    "seen": 1791386572.047874,
-    "ast_hash": "559017cbfe7631a463da7ee270359f20",
-    "semantic_hash": "559017cbfe7631a463da7ee270359f20"
+    "mtime": 1792110688.4415774,
+    "seen": 1792110725.0900846,
+    "ast_hash": "6d97c58e15fd38c861c65c6e4ff6533e",
+    "semantic_hash": ""
   },
   "tests/test_doctrina.py": {
     "mtime": 1791386620.4929717,
@@ -528,9 +528,9 @@
     "semantic_hash": ""
   },
   "agents_runtime.py": {
-    "mtime": 1791481527.2061753,
-    "seen": 1791580212.6753132,
-    "ast_hash": "0196c914ff5c0449c575a1e78ebfad0c",
+    "mtime": 1792110688.4275026,
+    "seen": 1792110725.0870547,
+    "ast_hash": "4aed564140613658701e0973469d00e2",
     "semantic_hash": ""
   },
   "case_intake.py": {
@@ -558,9 +558,9 @@
     "semantic_hash": ""
   },
   "docs/tools.json": {
-    "mtime": 1791559687.3073955,
-    "seen": 1791580212.675894,
-    "ast_hash": "c64c4efac04495e2557bd49d67185e61",
+    "mtime": 1792110688.4312627,
+    "seen": 1792110725.0874753,
+    "ast_hash": "2178f2885cb35ea647b35fd66270b0e6",
     "semantic_hash": ""
   },
   "docx_compiler.py": {
@@ -582,9 +582,9 @@
     "semantic_hash": ""
   },
   "legal_graphify.py": {
-    "mtime": 1791766397.606876,
-    "seen": 1791768474.8919146,
-    "ast_hash": "c170d84c44ee8bed91c68fdc4f23fb2d",
+    "mtime": 1792110688.4312627,
+    "seen": 1792110725.0878298,
+    "ast_hash": "c45192f0d9877980b60632940ca682f6",
     "semantic_hash": ""
   },
   "recurso_proteccion.py": {
@@ -714,9 +714,9 @@
     "semantic_hash": ""
   },
   ".agents/skills/chilean-administrative-legal/SKILL.md": {
-    "mtime": 1791333758.2880635,
-    "seen": 1791386572.0480433,
-    "ast_hash": "e2795e192d5e17f9bfa13842cf5b94a0",
+    "mtime": 1792110688.4275026,
+    "seen": 1792110725.0914495,
+    "ast_hash": "2eddb5aee4c501e120a1540ddf631a29",
     "semantic_hash": ""
   },
   ".agents/skills/chilean-case-intake/SKILL.md": {
@@ -2874,9 +2874,9 @@
     "semantic_hash": ""
   },
   "servidor/conectores.py": {
-    "mtime": 1791333759.6854508,
-    "seen": 1791386572.0478044,
-    "ast_hash": "3ce61a5ff6b10808259c502861f701c3",
+    "mtime": 1792110688.4352627,
+    "seen": 1792110725.0895562,
+    "ast_hash": "b542b5e009ac88d3b803273d9cfbb2cd",
     "semantic_hash": ""
   },
   "servidor/corpus.py": {
@@ -2928,9 +2928,9 @@
     "semantic_hash": ""
   },
   "tests/test_busqueda_universal.py": {
-    "mtime": 1791333759.6869454,
-    "seen": 1791386572.0478427,
-    "ast_hash": "48830689168a7fbf9e8bef3358e0de61",
+    "mtime": 1792110688.4352627,
+    "seen": 1792110725.0898502,
+    "ast_hash": "65eebf2aa36a27fdcd7002add345db3d",
     "semantic_hash": ""
   },
   "tests/test_caches_ttl.py": {
@@ -2970,9 +2970,9 @@
     "semantic_hash": ""
   },
   "tests/test_citas_en_herramientas.py": {
-    "mtime": 1791333759.6869454,
-    "seen": 1791386572.0478644,
-    "ast_hash": "04ea736b6b435fe9b6ae627ef93cb40b",
+    "mtime": 1792110688.4352627,
+    "seen": 1792110725.0900047,
+    "ast_hash": "5ef30ff6448e6ca822614225e46e8fac",
     "semantic_hash": ""
   },
   "tests/test_citas_legales.py": {
@@ -4203,6 +4203,18 @@
     "mtime": 1791768352.6072204,
     "seen": 1791768474.8978345,
     "ast_hash": "fbb785cdac3a70f70252a33919d6237d",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/cgr/respuestas_api.json": {
+    "mtime": 1792110688.4352627,
+    "seen": 1792110725.0896823,
+    "ast_hash": "59cd5c792539f31d0095378078e4ca92",
+    "semantic_hash": ""
+  },
+  "tests/test_cgr_conector.py": {
+    "mtime": 1792110688.4352627,
+    "seen": 1792110725.08993,
+    "ast_hash": "d7fd7cd7af0e5dc7ccc9290b3591d65f",
     "semantic_hash": ""
   }
 }

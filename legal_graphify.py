@@ -1381,7 +1381,12 @@ class LegalGraphifyEngine:
         if not identificador:
             return {"error": "El pronunciamiento no especifica número o identificador"}
 
-        dictamen_id = _sanitize_id(f"{organismo}_{tipo_acto}_{identificador}", "dictamen")
+        # La CGR reutiliza números entre años (049495N09 y 049495N12): sin el año dos dictámenes
+        # distintos serían un mismo nodo. La etiqueta conserva el número con que se cita.
+        clave_nodo = identificador
+        if organismo == "CGR" and fecha[:4].isdigit() and not re.search(r"N\d{2}$", identificador):
+            clave_nodo = f"{identificador}_{fecha[:4]}"
+        dictamen_id = _sanitize_id(f"{organismo}_{tipo_acto}_{clave_nodo}", "dictamen")
         etiqueta_dictamen = f"[{organismo} - {tipo_acto} N° {identificador}]"
 
         nodos_nuevos, enlaces_nuevos = 0, 0

@@ -185,7 +185,7 @@
         },
         "doc_id": {
           "type": "string",
-          "description": "Código o número de dictamen CGR a buscar o analizar a fondo (ej. 'D286N26', 'E123456')"
+          "description": "Código de dictamen CGR a analizar a fondo, con su año (ej. 'E311060N23', 'D286N26' o '49495/2009'); si el número sin año corresponde a varios dictámenes se devuelven los candidatos"
         },
         "doc_ids": {
           "type": "array",
