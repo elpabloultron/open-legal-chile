@@ -237,5 +237,39 @@ def test_claude_code_global_se_registra_con_el_cli(tmp_path, monkeypatch):
     resultado = ih.escribir("claude-code", carpeta_base=tmp_path)
     assert resultado["estado"] == "manual"
     assert "claude mcp add -s user" in resultado["nota"]
+    assert "-- open-legal-chile" in resultado["nota"]
     assert not (tmp_path / ".mcp.json").exists(), "~/.mcp.json no es el alcance de usuario de Claude Code"
+
+
+def test_claude_code_global_ejecuta_comando_cli(tmp_path, monkeypatch):
+    llamadas = []
+
+    def mock_run(orden, capture_output, text, timeout):
+        llamadas.append(orden)
+        return subprocess.CompletedProcess(orden, 0, stdout="Added stdio MCP server", stderr="")
+
+    monkeypatch.setattr(pathlib.Path, "home", classmethod(lambda cls: tmp_path))
+    monkeypatch.setattr(ih.shutil, "which", lambda nombre: "/usr/bin/claude" if nombre == "claude" else None)
+    monkeypatch.setattr(ih.subprocess, "run", mock_run)
+
+    resultado = ih.escribir("claude-code", carpeta_base=tmp_path)
+    assert resultado["estado"] == "registrado"
+    assert len(llamadas) == 1
+    assert llamadas[0][:8] == ["claude", "mcp", "add", "-s", "user", "-e", "PYTHONUNBUFFERED=1", "--"]
+    assert llamadas[0][8] == "open-legal-chile"
+
+
+def test_escribir_json_no_falso_positivo_por_subcadena(tmp_path):
+    cursor_file = tmp_path / ".cursor" / "mcp.json"
+    cursor_file.parent.mkdir(parents=True)
+    cursor_file.write_text(
+        json.dumps({"mcpServers": {"vindex-legal": {"env": {"PYTHONPATH": "/opt/open-legal-chile/bin"}}}}),
+        encoding="utf-8"
+    )
+    resultado = ih.escribir("cursor", carpeta_base=tmp_path)
+    assert resultado["estado"] == "fusionado"
+    datos = json.loads(cursor_file.read_text(encoding="utf-8"))
+    assert "vindex-legal" in datos["mcpServers"]
+    assert "open-legal-chile" in datos["mcpServers"]
+
 

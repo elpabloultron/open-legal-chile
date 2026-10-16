@@ -543,61 +543,73 @@ def _detectar_dominios_estatales(query: str) -> List[str]:
 def _organismos_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
     """Consulta a los organismos oficiales del Estado según la materia detectada."""
     try:
+        import concurrent.futures
+
         reg = _registro_estatal()
         organismos = _detectar_dominios_estatales(query)
         resultados_org: Dict[str, Any] = {}
         citas_org: List[Dict[str, Any]] = []
-        for org in organismos:
-            res = None
-            try:
-                if org == "dt":
-                    res = reg.dt.search_dictamenes(query, limit=lim)
-                elif org == "cgr":
-                    res = reg.cgr.search_jurisprudencia(query)
-                elif org == "pjud":
-                    res = reg.pjud.search_jurisprudencia(query, limit=lim)
-                elif org == "sii":
-                    res = reg.sii.search_circulares(query)
-                elif org == "sma":
-                    res = reg.sma.search_sancionatorios(nombre=query)
-                elif org == "tdlc":
-                    res = reg.tdlc.search_jurisprudencia(query)
-                elif org == "cmf":
-                    res = reg.cmf.search_normativa(query)
-                elif org == "cne":
-                    res = reg.cne.search(query)
-                elif org == "panel":
-                    res = reg.panel.search_dictamenes(query)
-            except Exception:
-                res = None
+        if not organismos:
+            return {"organismos": [], "resultados": {}, "citas": []}
 
-            if res is not None:
-                resultados_org[org] = res
-                items = _items_del_organismo(res)
-                for it in items[:lim]:
-                    ident = (it.get("rol") or it.get("numero") or it.get("nombre")
-                             or it.get("materia") or it.get("title") or it.get("titulo")
-                             or it.get("docId"))
-                    if it.get("rol") and it.get("caratula"):
-                        ident = f"{it['rol']} ({it['caratula']})"
-                    elif it.get("numero") and it.get("fecha"):
-                        ident = f"Dictamen {it['numero']} de {it['fecha']}"
-                    elif it.get("numero"):
-                        ident = f"Dictamen {it['numero']}"
+        def _consultar(org: str) -> Any:
+            if org == "dt":
+                return reg.dt.search_dictamenes(query, limit=lim)
+            if org == "cgr":
+                return reg.cgr.search_jurisprudencia(query)
+            if org == "pjud":
+                return reg.pjud.search_jurisprudencia(query, limit=lim)
+            if org == "sii":
+                return reg.sii.search_circulares(query)
+            if org == "sma":
+                return reg.sma.search_sancionatorios(nombre=query)
+            if org == "tdlc":
+                return reg.tdlc.search_jurisprudencia(query)
+            if org == "cmf":
+                return reg.cmf.search_normativa(query)
+            if org == "cne":
+                if not (os.environ.get("CNE_EMAIL") and os.environ.get("CNE_PASSWORD")):
+                    return []
+                return reg.cne.search(query)
+            if org == "panel":
+                return reg.panel.search_dictamenes(query)
+            return None
 
-                    if not ident:
-                        continue
-                    texto = str(it.get("texto") or it.get("doctrina") or it.get("materia")
-                                or it.get("conclusiones") or it.get("resumen")
-                                or it.get("snippet") or "")[:800]
-                    if not texto:
-                        continue
-                    url = str(it.get("url") or it.get("link") or it.get("pdfUrl") or it.get("enlace") or "")
-                    citas_org.append(formatear_cita(
-                        org.upper(), str(ident),
-                        url=url,
-                        texto=texto
-                    ))
+        with concurrent.futures.ThreadPoolExecutor(max_workers=len(organismos)) as pool:
+            futuros = {org: pool.submit(_consultar, org) for org in organismos}
+            for org in organismos:
+                try:
+                    res = futuros[org].result(timeout=4.5)
+                except Exception:
+                    res = None
+
+                if res is not None:
+                    resultados_org[org] = res
+                    items = _items_del_organismo(res)
+                    for it in items[:lim]:
+                        ident = (it.get("rol") or it.get("numero") or it.get("nombre")
+                                 or it.get("materia") or it.get("title") or it.get("titulo")
+                                 or it.get("docId"))
+                        if it.get("rol") and it.get("caratula"):
+                            ident = f"{it['rol']} ({it['caratula']})"
+                        elif it.get("numero") and it.get("fecha"):
+                            ident = f"Dictamen {it['numero']} de {it['fecha']}"
+                        elif it.get("numero"):
+                            ident = f"Dictamen {it['numero']}"
+
+                        if not ident:
+                            continue
+                        texto = str(it.get("texto") or it.get("doctrina") or it.get("materia")
+                                    or it.get("conclusiones") or it.get("resumen")
+                                    or it.get("snippet") or "")[:800]
+                        if not texto:
+                            continue
+                        url = str(it.get("url") or it.get("link") or it.get("pdfUrl") or it.get("enlace") or "")
+                        citas_org.append(formatear_cita(
+                            org.upper(), str(ident),
+                            url=url,
+                            texto=texto
+                        ))
         return {"organismos": organismos, "resultados": resultados_org, "citas": citas_org}
     except Exception as e:
         return {"organismos": [], "resultados": {}, "citas": [], "error": str(e)[:160]}

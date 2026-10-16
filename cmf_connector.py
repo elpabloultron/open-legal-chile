@@ -26,6 +26,14 @@ BASE_SANCIONES = "https://www.cmfchile.cl/institucional/sanciones/sanciones_merc
 MERCADOS_SANCIONES = {"S": "seguros", "V": "valores", "B": "bancos"}
 
 
+import unicodedata
+
+
+def _sin_tildes(s: str) -> str:
+    """Elimina marcas de acentuación diacrítica para comparaciones tolerantes a tildes."""
+    return "".join(c for c in unicodedata.normalize("NFD", s or "") if unicodedata.category(c) != "Mn")
+
+
 def _texto_plano(trozo: str) -> str:
     """HTML -> texto: sin etiquetas, sin entidades (&Oacute;), sin espacios repetidos."""
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", trozo or ""))).strip()
@@ -42,7 +50,75 @@ def _coincide(texto: str, consulta: str) -> bool:
     if not consulta:
         return False
     patron = r"\b" + r"\s+".join(re.escape(p) for p in consulta.split()) + r"\b"
-    return re.search(patron, texto, re.IGNORECASE) is not None
+    if re.search(patron, texto or "", re.IGNORECASE) is not None:
+        return True
+    patron_st = r"\b" + r"\s+".join(re.escape(p) for p in _sin_tildes(consulta).split()) + r"\b"
+    return re.search(patron_st, _sin_tildes(texto or ""), re.IGNORECASE) is not None
+
+
+NORMAS_ESTRUCTURALES_CMF: List[Dict[str, Any]] = [
+    {
+        "titulo": "Norma de Carácter General Nº 461 - Modifica estructura y contenido de la Memoria Anual incorporando estándares de sostenibilidad (ESG/ASG) y gobierno corporativo",
+        "numero": "NCG N° 461",
+        "fecha": "12/11/2021",
+        "materia": "Modifica la Norma de Carácter General N° 30 y la Circular N° 991, estableciendo nuevas exigencias de información sobre sostenibilidad y gobierno corporativo en las Memorias Anuales de las entidades fiscalizadas.",
+        "articleId": "49939",
+        "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-49939.html",
+        "pdfUrl": "https://www.cmfchile.cl/portal/normativa/624/articles-49939_doc_pdf.pdf",
+        "alias": ["461", "ncg 461", "sostenibilidad", "esg", "asg", "memoria anual", "gobierno corporativo"]
+    },
+    {
+        "titulo": "Norma de Carácter General Nº 502 - Regula la inscripción, requisitos y obligaciones de los prestadores de servicios de asesoría de inversión bajo la Ley Fintech (Ley N° 21.521)",
+        "numero": "NCG N° 502",
+        "fecha": "23/11/2023",
+        "materia": "Regula la inscripción en el Registro de Prestadores de Servicios Financieros, acreditación de requisitos, patrimonio mínimo, garantías y obligaciones de información para prestadores de servicios de asesoría de inversión bajo el Título II de la Ley N° 21.521.",
+        "articleId": "51460",
+        "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-51460.html",
+        "pdfUrl": "https://www.cmfchile.cl/portal/normativa/624/articles-51460_doc_pdf.pdf",
+        "alias": ["502", "ncg 502", "asesoria de inversion", "asesoría de inversión", "fintech", "asesores de inversion", "asesores de inversión", "21.521", "ley fintech"]
+    },
+    {
+        "titulo": "Norma de Carácter General Nº 514 - Establece normas para la implementación y funcionamiento del Sistema de Finanzas Abiertas (SFA) de la Ley N° 21.521 (Ley Fintech)",
+        "numero": "NCG N° 514",
+        "fecha": "18/07/2024",
+        "materia": "Regula la arquitectura general, estándares técnicos de APIs, seguridad de la información, consentimiento de los clientes, participantes y requerimientos del Sistema de Finanzas Abiertas (SFA) conforme a la Ley N° 21.521.",
+        "articleId": "67123",
+        "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-67123.html",
+        "pdfUrl": "https://www.cmfchile.cl/portal/normativa/624/articles-67123_doc_pdf.pdf",
+        "alias": ["514", "ncg 514", "finanzas abiertas", "open finance", "sfa", "sistema de finanzas abiertas", "21.521", "ley fintech"]
+    },
+    {
+        "titulo": "Norma de Carácter General Nº 30 - Normas sobre inscripción de emisores y valores de oferta pública en el Registro de Valores y remisión de información continua al mercado",
+        "numero": "NCG N° 30",
+        "fecha": "10/11/1989",
+        "materia": "Fija normas relativas a la inscripción de emisores y de valores de oferta pública en el Registro de Valores, divulgación de hechos esenciales e información continua y periódica a remitir a la Comisión y al público.",
+        "articleId": "1473",
+        "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-1473.html",
+        "pdfUrl": "https://www.cmfchile.cl/portal/normativa/624/articles-1473_doc_pdf.pdf",
+        "alias": ["30", "ncg 30", "oferta publica", "oferta pública", "registro de valores", "emisores de valores", "hechos esenciales"]
+    },
+    {
+        "titulo": "Norma de Carácter General Nº 435 - Establece medios tecnológicos para la participación remota y votación electrónica a distancia en juntas de accionistas y asambleas de aportantes",
+        "numero": "NCG N° 435",
+        "fecha": "18/03/2020",
+        "materia": "Imparte instrucciones sobre sistemas y mecanismos tecnológicos que permitan la participación y votación a distancia en juntas de accionistas de sociedades anónimas y asambleas de aportantes de fondos fiscalizados.",
+        "articleId": "48560",
+        "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-48560.html",
+        "pdfUrl": "https://www.cmfchile.cl/portal/normativa/624/articles-48560_doc_pdf.pdf",
+        "alias": ["435", "ncg 435", "votacion electronica", "votación electrónica", "juntas remotas", "participacion remota", "participación remota", "juntas a distancia"]
+    },
+    {
+        "titulo": "Norma de Carácter General Nº 450 - Complementa y actualiza instrucciones sobre mecanismos de votación electrónica y asambleas a distancia en entidades fiscalizadas",
+        "numero": "NCG N° 450",
+        "fecha": "19/03/2021",
+        "materia": "Actualiza las instrucciones impartidas mediante la NCG N° 435 relativas a la implementación de sistemas de votación remota o electrónica para juntas generales de accionistas y asambleas.",
+        "articleId": "49348",
+        "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-49348.html",
+        "pdfUrl": "https://www.cmfchile.cl/portal/normativa/624/articles-49348_doc_pdf.pdf",
+        "alias": ["450", "ncg 450", "votacion electronica", "votación electrónica", "asambleas a distancia", "votacion remota", "votación remota"]
+    }
+]
+
 
 
 def _parsear_sanciones_cmf(page_html: str) -> List[Dict[str, Any]]:
@@ -137,10 +213,41 @@ class CMFClient:
         q_lower = query.lower().strip()
         matches = []
 
-        for item in index:
-            title = item.get("titulo", "").lower()
-            if q_lower in title:
-                matches.append(item)
+        if q_lower:
+            for item in index:
+                title = item.get("titulo", "").lower()
+                if q_lower in title:
+                    matches.append(item)
+                    if len(matches) >= limit:
+                        break
+
+        # Si no hubo resultados entre las normas recientes del portal, verificar respaldo canónico de NCGs estructurales
+        if not matches and q_lower:
+            q_st = _sin_tildes(q_lower)
+            m_num = re.search(r'\b([0-9]{2,3})\b', q_lower)
+            q_num = m_num.group(1) if m_num else None
+
+            for ncg in NORMAS_ESTRUCTURALES_CMF:
+                ncg_num = re.search(r'\b([0-9]{2,3})\b', ncg.get("numero", ""))
+                ncg_num_str = ncg_num.group(1) if ncg_num else ""
+
+                # Coincidencia por número exacto (ej. "461", "NCG 461")
+                if q_num and q_num == ncg_num_str:
+                    matches.append(ncg)
+                    continue
+
+                # Coincidencia por título o materia
+                if q_st in _sin_tildes(ncg.get("titulo", "")).lower() or q_st in _sin_tildes(ncg.get("materia", "")).lower():
+                    matches.append(ncg)
+                    continue
+
+                # Coincidencia por alias
+                for al in ncg.get("alias", []):
+                    al_st = _sin_tildes(al).lower()
+                    if al_st == q_st or al_st in q_st or q_st in al_st:
+                        matches.append(ncg)
+                        break
+
                 if len(matches) >= limit:
                     break
 

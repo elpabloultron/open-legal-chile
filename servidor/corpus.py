@@ -1,5 +1,6 @@
 """Herramientas del corpus: consulta maestra, doctrina, grafo de conocimiento y biblioteca."""
-from typing import TYPE_CHECKING, Any, Optional
+import os
+from typing import TYPE_CHECKING, Any, Dict, List, Optional
 from citas_legales import CODIGOS, detectar_normas, formatear_cita
 
 
@@ -657,7 +658,66 @@ def despachar(name: str, args: dict) -> Any:
         consulta = (args.get("consulta") or args.get("query") or args.get("q") or args.get("termino") or "").strip()
         if not consulta:
             return {"error": "El parámetro 'consulta' (o 'query') es obligatorio."}
-        resultados = _registro_estatal().search_all(consulta)
+
+        reg = _registro_estatal()
+        if not hasattr(reg, "bcn") and hasattr(reg, "search_all"):
+            resultados = reg.search_all(consulta)
+        else:
+            cached = getattr(reg, "_get_cached", lambda *a: None)("all", consulta)
+            if cached and isinstance(cached, dict):
+                resultados = cached
+            else:
+                resultados = {
+                    "query": consulta,
+                    "bcn": [], "cgr": {}, "dt": [], "cne": [], "panel": [],
+                    "cmf": [], "sii": [], "sma": {}, "tdlc": [], "pjud": []
+                }
+
+                def _invocar_conector(clave: str):
+                    if clave == "cne":
+                        if not (os.environ.get("CNE_EMAIL") and os.environ.get("CNE_PASSWORD")):
+                            return clave, []
+                        return clave, reg.cne.search(consulta)
+                    elif clave == "bcn":
+                        return clave, reg.bcn.search(consulta)
+                    elif clave == "cgr":
+                        return clave, reg.cgr.search_jurisprudencia(consulta)
+                    elif clave == "dt":
+                        return clave, reg.dt.search_dictamenes(consulta, limit=5)
+                    elif clave == "panel":
+                        return clave, reg.panel.search_dictamenes(consulta)
+                    elif clave == "cmf":
+                        return clave, reg.cmf.search_normativa(consulta)
+                    elif clave == "sii":
+                        return clave, reg.sii.search_circulares(consulta)
+                    elif clave == "sma":
+                        return clave, reg.sma.search_sancionatorios(nombre=consulta)
+                    elif clave == "tdlc":
+                        return clave, reg.tdlc.search_jurisprudencia(consulta)
+                    elif clave == "pjud":
+                        return clave, reg.pjud.search_jurisprudencia(consulta, limit=5)
+                    return clave, []
+
+                claves = ["bcn", "cgr", "dt", "cne", "panel", "cmf", "sii", "sma", "tdlc", "pjud"]
+                import concurrent.futures
+                with concurrent.futures.ThreadPoolExecutor(max_workers=10, thread_name_prefix="universal") as pool:
+                    futuros = {pool.submit(_invocar_conector, k): k for k in claves}
+                    for fut in concurrent.futures.as_completed(futuros):
+                        k = futuros[fut]
+                        try:
+                            _, res = fut.result(timeout=6.0)
+                        except (concurrent.futures.TimeoutError, TimeoutError):
+                            res = [{"error": "timeout"}] if k not in ("cgr", "sma") else {"error": "timeout"}
+                        except Exception as e:
+                            res = [{"error": str(e)}] if k not in ("cgr", "sma") else {"error": str(e)}
+                        resultados[k] = res
+
+                if hasattr(reg, "_set_cached"):
+                    try:
+                        reg._set_cached("all", consulta, resultados)
+                    except Exception:
+                        pass
+
         citas_halladas: List[Dict[str, Any]] = []
         hf = _hf_para_consulta(consulta, lim=3)
         if isinstance(resultados, dict):
