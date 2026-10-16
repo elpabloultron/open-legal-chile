@@ -23,7 +23,7 @@ viene de varias fuentes se cita con todas.
 
 
 ## 📚 Formato de Citación Obligatorio
-* Dictamen CGR: `[Dictamen CGR N° <DocID> (<Año>)]`
+* Dictamen CGR: `[Dictamen CGR N° <Número> (<Año>)]` (campos `numero` y `anio` del conector: `[Dictamen CGR N° E311060 (2023)]`)
 * Informe Auditoría: `[CGR - Informe Final N° <Número>/<Año>]`
 * Normativa sectorial: `[NCG CMF N° <Número>]`, `[Circular SII N° <Número> (<Año>)]`, `[Dictamen DT N° <Número>/<Año>]`
 * Ley: `[BCN - Ley N° <Número>, Art. <Número>]`

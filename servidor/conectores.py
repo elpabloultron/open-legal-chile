@@ -39,6 +39,28 @@ def _refrescar() -> None:
     _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
 
 
+def _citas_cgr(resultado: Any, maximo: int = 3) -> Any:
+    """Añade a cada dictamen su cita en el formato oficial: [Dictamen CGR N° E311060 (2023)].
+
+    Aditiva, como _citas_en_items: la forma de la respuesta no cambia. Cita la materia —lo que el
+    resultado trae—, con el enlace al lector oficial de la Contraloría.
+    """
+    items = resultado.get("resultados") if isinstance(resultado, dict) else None
+    for item in (items if isinstance(items, list) else [])[:maximo]:
+        if not isinstance(item, dict):
+            continue
+        numero, anio = str(item.get("numero") or "").strip(), str(item.get("anio") or "").strip()
+        texto = str(item.get("texto") or item.get("materia") or "")
+        if not (numero and anio and texto):
+            continue
+        formato = f"[Dictamen CGR N° {numero} ({anio})]"
+        url = str(item.get("url") or item.get("pdfUrl") or "")
+        item["citas"] = list(item.get("citas") or []) + [{
+            "formato": formato, "texto": texto[:900], "url": url, "fuente": "CGR",
+            "cita_completa": f"{formato} {url}".strip()}]
+    return resultado
+
+
 TOOLS = [
     {
         "name": "bcn_get_codigo",
@@ -97,7 +119,7 @@ TOOLS = [
             "type": "object",
             "properties": {
                 "query": {"type": "string", "description": "Término de búsqueda jurídica (ej. 'confianza legitima contrata', 'probidad')"},
-                "doc_id": {"type": "string", "description": "Código o número de dictamen CGR a buscar o analizar a fondo (ej. 'D286N26', 'E123456')"},
+                "doc_id": {"type": "string", "description": "Código de dictamen CGR a analizar a fondo, con su año (ej. 'E311060N23', 'D286N26' o '49495/2009'); si el número sin año corresponde a varios dictámenes se devuelven los candidatos"},
                 "doc_ids": {"type": "array", "items": {"type": "string"}, "description": "Lista de códigos de dictámenes CGR para análisis en lote"},
                 "tema_relevante": {"type": "string", "description": "Punto de derecho o tema controvertido para rankear y citar consideraciones específicas"},
                 "descargar_formato": {"type": "string", "enum": ["pdf"], "description": "Descargar el PDF oficial firmado desde la CGR ('pdf')"},
@@ -450,8 +472,7 @@ def despachar(name: str, args: dict) -> Any:
                     convertir_a_md=convertir_md,
                     descargar_formato=descargar
                 )
-        return _citas_en_items(cgr.search_jurisprudencia(args.get("query", "")), "CGR",
-                               campos_clave=("nombre", "anio"), campo_texto="texto")
+        return _citas_cgr(cgr.search_jurisprudencia(args.get("query", "")))
     elif name == "cgr_search_auditorias":
         return cgr.search_auditorias(args.get("query", ""))
     elif name == "dt_search_doctrina":

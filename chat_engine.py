@@ -66,7 +66,7 @@ def get_relevant_legal_context(user_query: str) -> str:
             if cgr_res.get("resultados"):
                 context_chunks.append("--- DICTÁMENES CONTRALORÍA (CGR) EN VIVO ---")
                 for it in cgr_res.get("resultados", [])[:2]:
-                    context_chunks.append(f"• Dictamen CGR N° {it.get('docId')} ({it.get('fecha')}): {it.get('materia')[:250]}")
+                    context_chunks.append(f"• Dictamen CGR N° {it.get('numero') or it.get('docId')} ({it.get('anio') or it.get('fecha')}): {it.get('materia')[:250]}")
         except Exception:
             pass
 

@@ -79,7 +79,7 @@ def test_cgr_trae_citas_por_dictamen(monkeypatch):
     res = mcp_server.handle_tool_call("cgr_search_jurisprudencia", {"query": "confianza legitima"})
 
     cita = res["resultados"][0]["citas"][0]
-    assert cita["formato"] == "[CGR - Dictamen E123456, 2024]"
+    assert cita["formato"] == "[Dictamen CGR N° E123456 (2024)]", "formato oficial (CLAUDE.md, AGENTS.md)"
     assert cita["texto"]
 
 

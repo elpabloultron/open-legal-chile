@@ -1,0 +1,333 @@
+{
+ "oficina de partes virtual": {
+  "hits": {
+   "total": {
+    "value": 2,
+    "relation": "eq"
+   },
+   "hits": [
+    {
+     "_id": "E311060N23",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "E311060N23",
+      "numeric_doc_id": "E311060",
+      "n_dictamen": "E311060",
+      "year_doc_id": "2023",
+      "fecha_documento": "2023-02-13T00:00:00+00:00",
+      "materia": "Desestima solicitud de reconsideración del dictamen que indica. Autoridad fiscalizadora deberá asegurar la recepción de antecedentes en la forma que señala.\n",
+      "descriptores": "Carabineros, servicios de guardias de seguridad, autorizaciones, tramitación electrónica, procedimiento digital, impugnación actos, agendamiento horas\n",
+      "fuentes_legales": "Ley 21180 art/1, ley 21180 art/segundo tran, ley 21180 art/cuarto tran, DFL 1/2020 sepre,\nley 21180 art/tercero tran, ley 19880 art/5, ley 19880 art/19\n",
+      "destinatarios": "Secretario General de Carabineros de Chile\n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nNº E311060              Fecha: 13-II-2023\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N&#xBA; E311060              Fecha: 13-II-2023</font><br>\n<br>I. Antecedentes"
+     }
+    },
+    {
+     "_id": "E72477N21",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "E72477N21",
+      "numeric_doc_id": "E72477",
+      "n_dictamen": "E72477",
+      "year_doc_id": "2021",
+      "fecha_documento": "2021-01-29T00:00:00+00:00",
+      "materia": "Representa la resolución N° 94, de 2020, de la Dirección de Vialidad.\n",
+      "descriptores": "Facultades CGR, toma de razón, obras públicas, aprobación bases, consultoría mejoramiento conexión vial, falta de fundamentos, falta de antecedentes\n",
+      "fuentes_legales": "Ley 18575 art/9 inc/2, DTO 48/94 moopp art/57 inc/2, DTO 48/94 moopp art/55, DTO 48/94 moopp art/2,\nDTO 223/2009 moopp, DTO 75/2004 moopp art/76 num/2, DTO 75/2",
+      "destinatarios": "Director de Vialidad\n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nN° E72477                            Fecha: 29-I-2021\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N° E72477                            Fecha: 29-I-2021</font><br>\n<br>I. Antecedentes"
+     }
+    }
+   ]
+  }
+ },
+ "E311060N23": {
+  "hits": {
+   "total": {
+    "value": 2,
+    "relation": "eq"
+   },
+   "hits": [
+    {
+     "_id": "0E6541N25",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "0E6541N25",
+      "numeric_doc_id": "0E6541",
+      "n_dictamen": "E6541",
+      "year_doc_id": "2025",
+      "fecha_documento": "2025-01-15T00:00:00+00:00",
+      "materia": "Servicio de Registro Civil e Identificación se encuentra habilitado para implementar sistema de agendamiento digital de horas para la realización de los trámite",
+      "descriptores": "SRCEI, agendamiento previo horas\n",
+      "fuentes_legales": "pol art/1, ley 18575 art/3, ley 18575 art/28, ley 18575 art/5, ley 18575 art/31,\nley 19477 art/3, ley 19477 art/4 num/4, ley 19477 art/6, ley 19477 art/7 lt/a,\n",
+      "destinatarios": "Director Nacional del Servcio de Registro Civil e Identificación \n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nN° E6541 Fecha: 15-01-2025\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N° E6541 Fecha: 15-01-2025</font><br>\n<br>I. Antecedentes"
+     }
+    },
+    {
+     "_id": "E311060N23",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "E311060N23",
+      "numeric_doc_id": "E311060",
+      "n_dictamen": "E311060",
+      "year_doc_id": "2023",
+      "fecha_documento": "2023-02-13T00:00:00+00:00",
+      "materia": "Desestima solicitud de reconsideración del dictamen que indica. Autoridad fiscalizadora deberá asegurar la recepción de antecedentes en la forma que señala.\n",
+      "descriptores": "Carabineros, servicios de guardias de seguridad, autorizaciones, tramitación electrónica, procedimiento digital, impugnación actos, agendamiento horas\n",
+      "fuentes_legales": "Ley 21180 art/1, ley 21180 art/segundo tran, ley 21180 art/cuarto tran, DFL 1/2020 sepre,\nley 21180 art/tercero tran, ley 19880 art/5, ley 19880 art/19\n",
+      "destinatarios": "Secretario General de Carabineros de Chile\n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nNº E311060              Fecha: 13-II-2023\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N&#xBA; E311060              Fecha: 13-II-2023</font><br>\n<br>I. Antecedentes"
+     }
+    }
+   ]
+  }
+ },
+ "49495": {
+  "hits": {
+   "total": {
+    "value": 3,
+    "relation": "eq"
+   },
+   "hits": [
+    {
+     "_id": "E72477N21",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "E72477N21",
+      "numeric_doc_id": "E72477",
+      "n_dictamen": "E72477",
+      "year_doc_id": "2021",
+      "fecha_documento": "2021-01-29T00:00:00+00:00",
+      "materia": "Representa la resolución N° 94, de 2020, de la Dirección de Vialidad.\n",
+      "descriptores": "Facultades CGR, toma de razón, obras públicas, aprobación bases, consultoría mejoramiento conexión vial, falta de fundamentos, falta de antecedentes\n",
+      "fuentes_legales": "Ley 18575 art/9 inc/2, DTO 48/94 moopp art/57 inc/2, DTO 48/94 moopp art/55, DTO 48/94 moopp art/2,\nDTO 223/2009 moopp, DTO 75/2004 moopp art/76 num/2, DTO 75/2",
+      "destinatarios": "Director de Vialidad\n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nN° E72477                            Fecha: 29-I-2021\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N° E72477                            Fecha: 29-I-2021</font><br>\n<br>I. Antecedentes"
+     }
+    },
+    {
+     "_id": "049495N12",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "049495N12",
+      "numeric_doc_id": "049495",
+      "n_dictamen": "49495",
+      "year_doc_id": "2012",
+      "fecha_documento": "2012-08-13T00:00:00+00:00",
+      "materia": "Abstención de cursar resolución 114, de 2012, de la Dirección General de Obras Públicas, que aprueba  bases de precalificación para el registro especial de cont",
+      "descriptores": "DGOP,  bases de precalificación registro de contratistas, abstención toma de razón\n",
+      "fuentes_legales": "POL art/19 num/15, POL art/19 num/22, ley 18575 art/9 inc/2, \ndto 75/2004 Moopp, dto 312/2003 relac, DFL 1123/81 Justi,\ndto 285/94 Moopp\n",
+      "destinatarios": "Director General de Obras Públicas\n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nN° 49.495     Fecha : 13-VIII-2012\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N° 49.495     Fecha : 13-VIII-2012</font><br>\n<br>I. Antecedentes"
+     }
+    },
+    {
+     "_id": "049495N09",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "049495N09",
+      "numeric_doc_id": "049495",
+      "n_dictamen": "49495",
+      "year_doc_id": "2009",
+      "fecha_documento": "2009-09-08T00:00:00+00:00",
+      "materia": "Las Juntas Clasificadoras pueden confirmar o modificar las calificaciones sujetas a revisión, con los datos que les sirvan de fundamento o con otros que dispong",
+      "descriptores": "Gendarmería, proceso calificatorio, reclamación \n",
+      "fuentes_legales": "Dto 235/82 Justi art/22\n",
+      "destinatarios": "Director Nacional de Gendarmería de Chile\n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nN° 49.495 Fecha: 08-IX-2009\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N° 49.495 Fecha: 08-IX-2009</font><br>\n<br>I. Antecedentes"
+     }
+    }
+   ]
+  }
+ },
+ "D289": {
+  "hits": {
+   "total": {
+    "value": 1,
+    "relation": "eq"
+   },
+   "hits": [
+    {
+     "_id": "D289N26",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "D289N26",
+      "numeric_doc_id": "D289",
+      "n_dictamen": "289",
+      "year_doc_id": "2026",
+      "fecha_documento": "2026-05-18T00:00:00+00:00",
+      "materia": "Rechaza reclamo sobre proceso calificatorio.\n",
+      "descriptores": "MUN, calificaciones, solicitud escrita de informe a jefatura directa anterior, omisión no imputable a precalificador, precalificación por subrogante legal, falt",
+      "fuentes_legales": "Ley 18883 art/37, DTO 1228/92 inter art/20 inc/2, ley 19880 art/5\n",
+      "destinatarios": "Alcalde de la Municipalidad de El Bosque\n",
+      "criterio": "Genera Jurisprudencia",
+      "documento_completo": "\n\nN° D289                       Fecha: 18-05-2026\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N° D289                       Fecha: 18-05-2026</font><br>\n<br>I. Antecedentes"
+     }
+    }
+   ]
+  }
+ },
+ "OF131056": {
+  "hits": {
+   "total": {
+    "value": 1,
+    "relation": "eq"
+   },
+   "hits": [
+    {
+     "_id": "OF131056N26",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "OF131056N26",
+      "numeric_doc_id": "OF131056",
+      "n_dictamen": "131056",
+      "year_doc_id": "2026",
+      "fecha_documento": "2026-07-09T00:00:00+00:00",
+      "materia": "Reconsidera oficio N° E98575, de 2025, de la Contraloría Regional del Maule. En situación planteada no se configuró la inhabilidad prevista en el  artículo 54, ",
+      "descriptores": "MUN, contrato de honorarios, inhabilidad por parentesco\n",
+      "fuentes_legales": "Ley 18575 art/54 lt/b, ley 18883 art/85 lt/d, ley 18883 art/86, ley 18575 art/64 inc/1\n",
+      "destinatarios": "Alcalde de la Municipalidad de Longaví\n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nN° OF131056                     Fecha: 09-07-2026\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N° OF131056                     Fecha: 09-07-2026</font><br>\n<br>I. Antecedentes"
+     }
+    }
+   ]
+  }
+ },
+ "auditoria:patrimonio cultural": {
+  "hits": {
+   "total": {
+    "value": 4264,
+    "relation": "eq"
+   },
+   "hits": [
+    {
+     "_id": "622/2026",
+     "_source": {
+      "_tipo": "auditoria",
+      "numeric_doc_id": "622",
+      "year_doc_id": "2026",
+      "fecha_documento": "2026-10-07T00:00:00+00:00",
+      "destinatarios": "\r\n<ul>\r\n<li>\r\nRecurrente\r\n</li>\r\n<li>\r\nDirector Regional\r\n</li>\r\n</ul>\r\n",
+      "número": "622/2026",
+      "servicio_": "MUNICIPALIDAD DE SALAMANCA",
+      "nombre": "Informe Final N° 622_2026 INVE MUNICIPALIDAD DE SALAMANCA FINANCIAMIENTO DEL CLUB DE FÚTBOL BRUJAS DE SALAMANCA.OCT.2026_Censurado",
+      "tipo": "Informe de Investigación Especial",
+      "objetivo": "Investigar lo denunciado respecto de eventuales irregularidades asociadas al financiamiento del club de fútbol Brujas de Salamanca por parte del municipio, dete",
+      "conclusiones": "•\tSe verificó que la Municipalidad de Salamanca contrató a jugadores de fútbol, cuerpo técnico y personal de apoyo del club Municipal Salamanca para realizar fu",
+      "pdf": "https://www.contraloria.cl/SicaProd/SICAv3-BIFAPortalCGR/servletfichainforme?id=622"
+     }
+    }
+   ]
+  }
+ },
+ "instructivos:sumarios": {
+  "hits": {
+   "total": {
+    "value": 29,
+    "relation": "eq"
+   },
+   "hits": [
+    {
+     "_id": "IN29N26",
+     "_source": {
+      "_tipo": "instructivos",
+      "doc_id": "IN29N26",
+      "numeric_doc_id": "I",
+      "n_dictamen": "29",
+      "year_doc_id": "2026",
+      "fecha_documento": "2026-09-16T00:00:00+00:00",
+      "materia": "Imparte instrucciones sobre sumarios administrativos, investigaciones sumarias y procedimientos que se indican. Deja sin efecto jurisprudencia que se señala.\n",
+      "descriptores": "Instrucciones sobre sumarios administrativos, investigaciones sumarias y procedimientos\n",
+      "fuentes_legales": "ley 10336 art/6, ley 10336 art/9, ley 18834 art/136 inc/1, ley 18834 art/135 inc/2,\nley 18834 art/135 inc/3, ley 18834 art/137, pol art/98, ley 19880 art/11, \nl",
+      "destinatarios": "Jefaturas de entidades públicas\n",
+      "criterio": "Genera Jurisprudencia",
+      "documento_completo": "\n\nN° IN29   Fecha: 16-09-2026\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N° IN29   Fecha: 16-09-2026</font><br>\n<br>I. Antecedentes"
+     }
+    }
+   ]
+  }
+ },
+ "E311060": {
+  "hits": {
+   "total": {
+    "value": 3,
+    "relation": "eq"
+   },
+   "hits": [
+    {
+     "_id": "0E6541N25",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "0E6541N25",
+      "numeric_doc_id": "0E6541",
+      "n_dictamen": "E6541",
+      "year_doc_id": "2025",
+      "fecha_documento": "2025-01-15T00:00:00+00:00",
+      "materia": "Servicio de Registro Civil e Identificación se encuentra habilitado para implementar sistema de agendamiento digital de horas para la realización de los trámite",
+      "descriptores": "SRCEI, agendamiento previo horas\n",
+      "fuentes_legales": "pol art/1, ley 18575 art/3, ley 18575 art/28, ley 18575 art/5, ley 18575 art/31,\nley 19477 art/3, ley 19477 art/4 num/4, ley 19477 art/6, ley 19477 art/7 lt/a,\n",
+      "destinatarios": "Director Nacional del Servcio de Registro Civil e Identificación \n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nN° E6541 Fecha: 15-01-2025\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N° E6541 Fecha: 15-01-2025</font><br>\n<br>I. Antecedentes"
+     }
+    },
+    {
+     "_id": "E402560N23",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "E402560N23",
+      "numeric_doc_id": "E402560",
+      "n_dictamen": "E402560",
+      "year_doc_id": "2023",
+      "fecha_documento": "2023-10-10T00:00:00+00:00",
+      "materia": "No se autoriza a la Dirección del Trabajo eliminar los documentos señalados, mientras no se cumpla con los requisitos que rigen la materia.\n",
+      "descriptores": "DITRA, eliminación documentos, antecedentes respaldo pago a proveedores, documentación objeto de revisión, cumplimiento requisitos, mantención en soporte papel\n",
+      "fuentes_legales": "Ley 10336 art/21 inc/1, ley 10336 art/21 inc/2, \n",
+      "destinatarios": "Director del Trabajo\n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nNº E402560                  Fecha: 10-X-2023\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N&#xBA; E402560                  Fecha: 10-X-2023</font><br>\n<br>I. Antecedentes"
+     }
+    },
+    {
+     "_id": "E311060N23",
+     "_source": {
+      "_tipo": "dictamenes",
+      "doc_id": "E311060N23",
+      "numeric_doc_id": "E311060",
+      "n_dictamen": "E311060",
+      "year_doc_id": "2023",
+      "fecha_documento": "2023-02-13T00:00:00+00:00",
+      "materia": "Desestima solicitud de reconsideración del dictamen que indica. Autoridad fiscalizadora deberá asegurar la recepción de antecedentes en la forma que señala.\n",
+      "descriptores": "Carabineros, servicios de guardias de seguridad, autorizaciones, tramitación electrónica, procedimiento digital, impugnación actos, agendamiento horas\n",
+      "fuentes_legales": "Ley 21180 art/1, ley 21180 art/segundo tran, ley 21180 art/cuarto tran, DFL 1/2020 sepre,\nley 21180 art/tercero tran, ley 19880 art/5, ley 19880 art/19\n",
+      "destinatarios": "Secretario General de Carabineros de Chile\n",
+      "criterio": "Aplica Jurisprudencia",
+      "documento_completo": "\n\nNº E311060              Fecha: 13-II-2023\n\nI. Antecedentes\n\n(texto recortado para la prueba)",
+      "documento_completo_raw": "<font face=\"Arial\">N&#xBA; E311060              Fecha: 13-II-2023</font><br>\n<br>I. Antecedentes"
+     }
+    }
+   ]
+  }
+ }
+}
