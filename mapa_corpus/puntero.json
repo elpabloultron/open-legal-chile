@@ -19,10 +19,10 @@
     "nodos": 33242
   },
   "esquema": 1,
-  "fecha_fuente": "2026-10-16T00:32:42.000Z",
+  "fecha_fuente": "2026-10-16T00:51:05.000Z",
   "repo_id": "pablobenavidesj/doctrina-jurisprudencia-chile",
-  "revision_mapa": "1aec018c455ce3436a0a5799f4e8599009f35173",
+  "revision_mapa": "8031b60d6ff6f4b62fb1ea6449b5bb3ee74493e5",
   "ruta": "data/mapa",
-  "sha256_estado": "ad496b0fd23b9570ff50032f802c90f340bbc643d9d9713bcd16b060db5da675",
-  "sha_fuente": "190718ce1217196433d2f222c18b9faca09dd240"
+  "sha256_estado": "cd7f0f060c1cf4b222de83b1faaf701b488adec6503e778f587e5dcb2d66a876",
+  "sha_fuente": "1aec018c455ce3436a0a5799f4e8599009f35173"
 }
