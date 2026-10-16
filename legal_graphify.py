@@ -210,6 +210,16 @@ def _copiar_digrafo(g: nx.DiGraph, sin_capa: bool = False) -> nx.DiGraph:
     return h
 
 
+# Caché en memoria de particiones descomprimidas de la capa del mapa del corpus
+# Clave: (str(pathlib.Path(directorio).resolve()), estado.get("sha256_estado") o mtime)
+_CACHE_CAPA_MAPA: Dict[Tuple[str, Any], Dict[str, Any]] = {}
+
+# Caché en memoria de grafos base reconstruidos desde doctrina/ o cargados desde JSON
+_CACHE_DOCTRINA_GRAFO: Dict[Tuple[str, float], Tuple[nx.DiGraph, Dict[str, str], Dict[str, str], Dict[str, Any]]] = {}
+_CACHE_JSON_GRAFO: Dict[Tuple[str, float], Tuple[nx.DiGraph, Dict[str, str], Dict[str, str]]] = {}
+_CACHE_DOCTRINA_TEXTOS: Dict[str, Tuple[Tuple[str, str], ...]] = {}
+
+
 def _ids_de_consulta(query: str) -> List[str]:
     """IDs canónicos a los que apunta una consulta (`citas_legales.resolver_consulta`). Una
     consulta que es un solo rol con la palabra «rol» («Rol N° 4.321-2020») se resuelve también con
@@ -662,6 +672,21 @@ class LegalGraphifyEngine:
         self.instituciones_index.clear()
         self.normas_index.clear()
 
+        doc_path = Path(self.doctrina_dir).resolve()
+        try:
+            mtime = doc_path.stat().st_mtime
+        except OSError:
+            mtime = 0
+        clave_doc = (str(doc_path), mtime)
+        if clave_doc in _CACHE_DOCTRINA_GRAFO:
+            cached_g, cached_inst, cached_normas, cached_stats = _CACHE_DOCTRINA_GRAFO[clave_doc]
+            self.graph = _copiar_digrafo(cached_g)
+            self.instituciones_index = dict(cached_inst)
+            self.normas_index = dict(cached_normas)
+            self._actualizar_indice_invertido()
+            self.is_built = True
+            return dict(cached_stats)
+
         archivos_procesados = 0
         total_secciones = 0
 
@@ -713,6 +738,13 @@ class LegalGraphifyEngine:
             "total_jurisprudencia": sum(1 for _, d in self.graph.nodes(data=True) if d.get("node_type") == "jurisprudencia"),
             "total_vias_procesales": sum(1 for _, d in self.graph.nodes(data=True) if d.get("node_type") == "via_procesal"),
         }
+        if self.graph.number_of_nodes() > 0:
+            _CACHE_DOCTRINA_GRAFO[clave_doc] = (
+                _copiar_digrafo(self.graph),
+                dict(self.instituciones_index),
+                dict(self.normas_index),
+                dict(stats),
+            )
         return stats
 
     def _conectar_instituciones_cruzadas(self, solo: Optional[Set[str]] = None) -> None:
@@ -1068,17 +1100,21 @@ class LegalGraphifyEngine:
         if len(q_norm) < 4:
             return None
 
-        archivos: List[str] = []
-        for raiz, _, nombres in os.walk(self.doctrina_dir):
-            for nombre in nombres:
-                if not nombre.endswith(".md"):
-                    continue
-                try:
-                    with open(os.path.join(raiz, nombre), "r", encoding="utf-8", errors="ignore") as f:
-                        if q_norm in _normalize_str(f.read()):
-                            archivos.append(nombre)
-                except OSError:
-                    continue
+        doc_key = str(Path(self.doctrina_dir).resolve())
+        if doc_key not in _CACHE_DOCTRINA_TEXTOS:
+            textos: List[Tuple[str, str]] = []
+            for raiz, _, nombres in os.walk(self.doctrina_dir):
+                for nombre in nombres:
+                    if not nombre.endswith(".md"):
+                        continue
+                    try:
+                        with open(os.path.join(raiz, nombre), "r", encoding="utf-8", errors="ignore") as f:
+                            textos.append((nombre, _normalize_str(f.read())))
+                    except OSError:
+                        continue
+            _CACHE_DOCTRINA_TEXTOS[doc_key] = tuple(textos)
+
+        archivos = [nombre for nombre, txt in _CACHE_DOCTRINA_TEXTOS[doc_key] if q_norm in txt]
         if not archivos:
             return None
 
@@ -2164,6 +2200,22 @@ class LegalGraphifyEngine:
                 self.advertencias.append(aviso)
             return False
         self.advertencias = []
+
+        try:
+            mtime = os.path.getmtime(filepath)
+        except OSError:
+            mtime = 0
+        clave_json = (str(Path(filepath).resolve()), mtime)
+        if clave_json in _CACHE_JSON_GRAFO:
+            cached_g, cached_inst, cached_normas = _CACHE_JSON_GRAFO[clave_json]
+            self.graph = _copiar_digrafo(cached_g)
+            self._reiniciar_estado_mapa()
+            self.instituciones_index = dict(cached_inst)
+            self.normas_index = dict(cached_normas)
+            self._actualizar_indice_invertido()
+            self.is_built = True
+            return True
+
         try:
             with open(filepath, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -2215,6 +2267,12 @@ class LegalGraphifyEngine:
                     self.normas_index[lbl] = nid
             self.is_built = True
             self._actualizar_indice_invertido()
+            if self.graph.number_of_nodes() > 0:
+                _CACHE_JSON_GRAFO[clave_json] = (
+                    _copiar_digrafo(self.graph),
+                    dict(self.instituciones_index),
+                    dict(self.normas_index),
+                )
             return True
         except Exception as exc:
             self.advertencias.append(
@@ -2331,9 +2389,54 @@ class LegalGraphifyEngine:
         self._restaurar_previas(g, self._previas_mapa)
         nodos_g, succ, pred = g._node, g._succ, g._pred
 
-        alias: Dict[str, str] = {}
-        if "grafo/alias.jsonl.gz" in declarados:
-            alias = {str(f["id"]): str(f["a"]) for f in _filas_gz(carpeta / "grafo/alias.jsonl.gz")}
+        # Cacheo en memoria a nivel de módulo indexado por (str(pathlib.Path(carpeta).resolve()), estado.get("sha256_estado") o mtime)
+        try:
+            mtime = (carpeta / "estado.json").stat().st_mtime
+        except OSError:
+            mtime = 0
+        clave_cache = (str(carpeta.resolve()), estado.get("sha256_estado") or mtime)
+
+        if clave_cache in _CACHE_CAPA_MAPA:
+            datos_cache = _CACHE_CAPA_MAPA[clave_cache]
+            alias = dict(datos_cache["alias"])
+            particiones_nodos = datos_cache["nodos"]
+            particiones_aristas = datos_cache["aristas"]
+            filas_comunidades = datos_cache["comunidades"]
+        else:
+            cached_alias: Dict[str, str] = {}
+            if "grafo/alias.jsonl.gz" in declarados:
+                cached_alias = {str(f["id"]): str(f["a"]) for f in _filas_gz(carpeta / "grafo/alias.jsonl.gz")}
+
+            cached_nodos: List[Tuple[str, str, Tuple[Dict[str, Any], ...]]] = []
+            for rel in declarados:
+                if not rel.startswith("grafo/nodos-"):
+                    continue
+                tipo_particion = rel[len("grafo/nodos-"):-len(".jsonl.gz")]
+                cached_nodos.append((rel, tipo_particion, tuple(_filas_gz(carpeta / rel))))
+
+            cached_aristas: List[Tuple[str, str, Tuple[Dict[str, Any], ...]]] = []
+            for rel in declarados:
+                if not rel.startswith("grafo/aristas-"):
+                    continue
+                relacion = sys.intern(rel[len("grafo/aristas-"):-len(".jsonl.gz")])
+                cached_aristas.append((rel, relacion, tuple(_filas_gz(carpeta / rel))))
+
+            cached_comunidades: Tuple[Dict[str, Any], ...] = ()
+            if "grafo/comunidades.jsonl.gz" in declarados:
+                cached_comunidades = tuple(_filas_gz(carpeta / "grafo/comunidades.jsonl.gz"))
+
+            datos_cache = {
+                "alias": cached_alias,
+                "nodos": cached_nodos,
+                "aristas": cached_aristas,
+                "comunidades": cached_comunidades,
+            }
+            _CACHE_CAPA_MAPA[clave_cache] = datos_cache
+            alias = dict(cached_alias)
+            particiones_nodos = cached_nodos
+            particiones_aristas = cached_aristas
+            filas_comunidades = cached_comunidades
+
         canon_a_curado: Dict[str, str] = {}
         puentes_tc: List[Tuple[str, str]] = []
         for legado in sorted(alias):
@@ -2357,11 +2460,8 @@ class LegalGraphifyEngine:
 
         label_mapa: Dict[str, str] = {}
         nuevos = fusionados = 0
-        for rel in declarados:
-            if not rel.startswith("grafo/nodos-"):
-                continue
-            tipo_particion = rel[len("grafo/nodos-"):-len(".jsonl.gz")]
-            for fila in _filas_gz(carpeta / rel):
+        for _rel, tipo_particion, filas in particiones_nodos:
+            for fila in filas:
                 nid = str(fila["id"])
                 tipo = sys.intern(str(fila.get("tipo") or tipo_particion))
                 label = str(fila.get("label") or nid)
@@ -2406,11 +2506,8 @@ class LegalGraphifyEngine:
         # consultas no los modifican y _agregar_arista los reemplaza antes de que lo curado escriba.
         compartidos: Dict[Tuple[str, int], Dict[str, Any]] = {}
         agregadas = colgantes = 0
-        for rel in declarados:
-            if not rel.startswith("grafo/aristas-"):
-                continue
-            relacion = sys.intern(rel[len("grafo/aristas-"):-len(".jsonl.gz")])
-            for fila in _filas_gz(carpeta / rel):
+        for _rel, relacion, filas in particiones_aristas:
+            for fila in filas:
                 s, t = resolver(str(fila["s"])), resolver(str(fila["t"]))
                 if s is None or t is None:
                     colgantes += 1
@@ -2445,12 +2542,11 @@ class LegalGraphifyEngine:
                 agregadas += 1
             marcar_tc(legado, oficial)
 
-        if "grafo/comunidades.jsonl.gz" in declarados:
-            for fila in _filas_gz(carpeta / "grafo/comunidades.jsonl.gz"):
-                nid = str(fila["id"])
-                destino = canon_a_curado.get(nid) or nid
-                if "c" in fila and destino in nodos_g and nodos_g[destino].get("capa") != CAPA_MAPA:
-                    pisar(destino, "community", fila["c"])
+        for fila in filas_comunidades:
+            nid = str(fila["id"])
+            destino = canon_a_curado.get(nid) or nid
+            if "c" in fila and destino in nodos_g and nodos_g[destino].get("capa") != CAPA_MAPA:
+                pisar(destino, "community", fila["c"])
 
         limpiar = getattr(nx, "_clear_cache", None)
         if callable(limpiar):

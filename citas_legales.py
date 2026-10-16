@@ -79,6 +79,51 @@ _RE_LEY_ATRAS = re.compile(
     _ARTICULO + r"(?P<art>" + _ART + r")[\s\S]{0,20}(?:de\s+l[ao]s?\s+)?ley\s*n?[°º]?\s*(?P<num>" + _NUM_LEY + r")",
     re.IGNORECASE)
 
+# Marcadores inequívocos de código matriz chileno cuando un artículo aparece huérfano
+_MARCADORES_CODIGO: Dict[str, List[str]] = {
+    "trabajo": [
+        r"despido",
+        r"necesidades\s+de\s+la\s+empresa",
+        r"finiquito",
+        r"fuero\s+laboral",
+        r"tutela\s+laboral",
+        r"autodespido",
+        r"jornada\s+de\s+trabajo",
+        r"empleador(?:es)?",
+        r"trabajador(?:es)?",
+        r"direcci[oó]n\s+del\s+trabajo",
+        r"indemnizaci[oó]n\s+por\s+a[ñn]os\s+de\s+servicio",
+    ],
+    "civil": [
+        r"incumplimiento\s+contractual",
+        r"estudio\s+de\s+t[ií]tulos",
+        r"posesi[oó]n\s+inscrita",
+        r"tradici[oó]n",
+        r"responsabilidad\s+extracontractual",
+        r"cl[aá]usula\s+penal",
+        r"resciliaci[oó]n",
+        r"nulidad\s+absoluta",
+    ],
+    "cpc": [
+        r"recurso\s+de\s+casaci[oó]n",
+        r"juicio\s+ejecutivo",
+        r"autos\s+para\s+fallo",
+        r"abandono\s+del\s+procedimiento",
+        r"excepciones\s+dilatorias",
+        r"mandato\s+judicial",
+    ],
+}
+
+_RE_MARCADORES = {
+    cod: re.compile(r"\b(?:" + "|".join(pats) + r")\b", re.IGNORECASE)
+    for cod, pats in _MARCADORES_CODIGO.items()
+}
+
+_RE_ART_HUERFANO = re.compile(
+    r"\b" + _ARTICULO + r"(?P<art>" + _ART + r")\b",
+    re.IGNORECASE,
+)
+
 
 def formatear_cita(fuente: str, identificador: str, url: str = "", texto: str = "") -> Dict[str, str]:
     """Devuelve la cita en el formato oficial del producto, con su texto literal."""
@@ -108,8 +153,10 @@ def detectar_normas(texto: str) -> List[Dict[str, Any]]:
     """
     salida: List[Dict[str, Any]] = []
     vistos = set()
+    tramos_cubiertos: List[Tuple[int, int]] = []
     for regex in (_RE_CODIGO_ADELANTE, _RE_CODIGO_ATRAS):
         for m in regex.finditer(texto or ""):
+            tramos_cubiertos.append(m.span())
             obra = _obra_canonica(m.group("obra"))
             capturado = m.group("art")
             articulo = " ".join(capturado.split()).lower() if capturado else None
@@ -120,9 +167,11 @@ def detectar_normas(texto: str) -> List[Dict[str, Any]]:
             salida.append({
                 "familia": "codigo", "obra": obra, "articulo": articulo,
                 "etiqueta": f"BCN - {CODIGOS[obra]}, Art. {articulo}",
+                "tipo": "codigo", "codigo": obra,
             })
     for regex in (_RE_LEY_ADELANTE, _RE_LEY_ATRAS):
         for m in regex.finditer(texto or ""):
+            tramos_cubiertos.append(m.span())
             numero = m.group("num").replace(".", "")
             capturado = m.group("art")
             articulo = " ".join(capturado.split()).lower() if capturado else None
@@ -133,7 +182,37 @@ def detectar_normas(texto: str) -> List[Dict[str, Any]]:
             etiqueta = f"BCN - Ley N° {numero}"
             if articulo:
                 etiqueta += f", Art. {articulo}"
-            salida.append({"familia": "ley", "numero": numero, "articulo": articulo, "etiqueta": etiqueta})
+            salida.append({"familia": "ley", "numero": numero, "articulo": articulo, "etiqueta": etiqueta, "tipo": "ley"})
+
+    # Inferencia segura de código matriz si quedaron artículos huérfanos sin código ni ley explícitos
+    huerfanos: List[str] = []
+    for m in _RE_ART_HUERFANO.finditer(texto or ""):
+        m_start, m_end = m.span()
+        if any(max(m_start, t_start) < min(m_end, t_end) for t_start, t_end in tramos_cubiertos):
+            continue
+        capturado = m.group("art")
+        if capturado:
+            art = " ".join(capturado.split()).lower()
+            if art not in huerfanos:
+                huerfanos.append(art)
+
+    if huerfanos:
+        codigos_con_marcador = [
+            cod for cod, reg in _RE_MARCADORES.items()
+            if reg.search(texto or "")
+        ]
+        if len(codigos_con_marcador) == 1:
+            obra = codigos_con_marcador[0]
+            for art in huerfanos:
+                clave = ("codigo", obra, art)
+                if clave not in vistos:
+                    vistos.add(clave)
+                    salida.append({
+                        "familia": "codigo", "obra": obra, "articulo": art,
+                        "etiqueta": f"BCN - {CODIGOS[obra]}, Art. {art}",
+                        "tipo": "codigo", "codigo": obra,
+                    })
+
     # Una misma norma puede aparecer mencionada con y sin artículo («la Ley 21.643» y «el
     # artículo 2 de la Ley 21.643»): se conserva la mención con artículo y se evita el duplicado.
     con_articulo = {(n["familia"], n.get("obra") or n.get("numero")) for n in salida if n.get("articulo")}

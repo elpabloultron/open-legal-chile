@@ -491,7 +491,7 @@ def despachar(name: str, args: dict) -> Any:
             if not lista_ids and args.get("query"):
                 sr_dt = dt.search_dictamenes(args.get("query", ""), limit=3)
                 if isinstance(sr_dt, list):
-                    lista_ids = [str(r.get("articleId") or r.get("numero")) for r in sr_dt if isinstance(r, dict) and (r.get("articleId") or r.get("numero"))]
+                    lista_ids = [str(r.get("articleId") or r.get("numero")) for r in sr_dt if isinstance(r, dict) and (r.get("articleId") or r.get("numero")) and r.get("tipo") != "aviso"]
             if lista_ids:
                 return dt.procesar_y_graficar_dictamenes(
                     lista_ids,

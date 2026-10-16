@@ -66,3 +66,37 @@ def test_los_codigos_procesales_con_nombre_completo_no_se_confunden():
         assert [(n["obra"], n["articulo"]) for n in normas] == [esperado], (texto, normas)
     assert detectar_normas("Código de Procedimiento Civil art. 66")[0]["etiqueta"] == \
         "BCN - Código de Procedimiento Civil, Art. 66"
+
+
+def test_inferencia_segura_codigo_matriz():
+    """Artículos huérfanos con marcadores inequívocos de un único código chileno se asocian a ese código matriz."""
+    from citas_legales import detectar_normas
+
+    # Trabajo
+    normas = detectar_normas("despido por necesidades de la empresa art. 161")
+    assert len(normas) == 1
+    assert normas[0]["tipo"] == "codigo"
+    assert normas[0]["codigo"] == "trabajo"
+    assert normas[0]["articulo"] == "161"
+    assert normas[0]["etiqueta"] == "BCN - Código del Trabajo, Art. 161"
+
+    # Civil
+    normas_civ = detectar_normas("demanda de responsabilidad extracontractual art. 2314")
+    assert len(normas_civ) == 1
+    assert normas_civ[0]["codigo"] == "civil"
+    assert normas_civ[0]["articulo"] == "2314"
+    assert normas_civ[0]["etiqueta"] == "BCN - Código Civil, Art. 2314"
+
+    # CPC
+    normas_cpc = detectar_normas("solicita abandono del procedimiento art. 152")
+    assert len(normas_cpc) == 1
+    assert normas_cpc[0]["codigo"] == "cpc"
+    assert normas_cpc[0]["articulo"] == "152"
+    assert normas_cpc[0]["etiqueta"] == "BCN - Código de Procedimiento Civil, Art. 152"
+
+    # Conflicto entre múltiples códigos: no inventa ni asume
+    assert detectar_normas("despido e incumplimiento contractual art. 161") == []
+
+    # Sin marcadores inequívocos: no inventa norma
+    assert detectar_normas("art. 161") == []
+

@@ -12,12 +12,18 @@ import json
 import pathlib
 import urllib.request
 import urllib.parse
+import unicodedata
 from typing import Dict, Any, List, Optional
 from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
 
 BASE_URL = "https://www.dt.gob.cl/legislacion/1624"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "dt_cache")
 _TTL_CACHE_SEGUNDOS = 7 * 24 * 60 * 60  # la DT publica a diario, pero el listado cambia poco
+
+
+def _sin_tildes(s: str) -> str:
+    """Elimina marcas de acentuación diacrítica para comparaciones tolerantes a tildes."""
+    return "".join(c for c in unicodedata.normalize("NFD", s or "") if unicodedata.category(c) != "Mn")
 
 
 def _texto_plano(trozo: str) -> str:
@@ -36,7 +42,35 @@ def _coincide(texto: str, consulta: str) -> bool:
     if not consulta:
         return False
     patron = r"\b" + r"\s+".join(re.escape(p) for p in consulta.split()) + r"\b"
-    return re.search(patron, texto, re.IGNORECASE) is not None
+    if re.search(patron, texto or "", re.IGNORECASE) is not None:
+        return True
+    patron_st = r"\b" + r"\s+".join(re.escape(p) for p in _sin_tildes(consulta).split()) + r"\b"
+    return re.search(patron_st, _sin_tildes(texto or ""), re.IGNORECASE) is not None
+
+
+ALIAS_MATERIAS_DT: Dict[str, List[str]] = {
+    "ley karin": ["21.643", "acoso laboral", "acoso sexual", "violencia en el trabajo"],
+    "karin": ["21.643", "acoso laboral", "acoso sexual", "violencia en el trabajo"],
+    "acoso laboral": ["acoso laboral", "21.643", "acoso"],
+    "40 horas": ["21.561", "reducción de la jornada", "jornada de 40 horas", "cuarenta horas"],
+    "cuarenta horas": ["21.561", "reducción de la jornada", "jornada de 40 horas"],
+    "jornada 40 horas": ["21.561", "reducción de la jornada"],
+    "gratificacion": ["gratificación", "artículo 47", "artículo 50", "gratificacion legal"],
+    "gratificación": ["gratificación", "artículo 47", "artículo 50", "gratificacion legal"],
+    "finiquito": ["finiquito", "terminación del contrato", "161", "160", "reserva de derechos"],
+    "finiquitos": ["finiquito", "terminación del contrato", "161", "160"],
+    "tutela laboral": ["tutela laboral", "derechos fundamentales", "vulneración de derechos"],
+    "tutela": ["tutela laboral", "derechos fundamentales"],
+    "subcontratacion": ["subcontratación", "183-a", "empresa principal", "contratista"],
+    "subcontratación": ["subcontratación", "183-a", "empresa principal", "contratista"],
+    "sala cuna": ["sala cuna", "artículo 203", "bono compensatorio"],
+    "teletrabajo": ["teletrabajo", "trabajo a distancia", "152 quater"],
+    "trabajo a distancia": ["teletrabajo", "trabajo a distancia", "152 quater"],
+    "licencia medica": ["licencia médica", "subsidio por incapacidad", "incapacidad laboral"],
+    "licencia médica": ["licencia médica", "subsidio por incapacidad", "incapacidad laboral"],
+    "necesidades de la empresa": ["necesidades de la empresa", "161", "artículo 161"],
+    "despido injustificado": ["despido injustificado", "168", "artículo 161"],
+}
 
 
 # Cada dictamen de la DT viene en un bloque «recuadro» con su número, su fecha, su MATERIA (el
@@ -423,6 +457,34 @@ class DTClient:
         ]
         if por_tema:
             return por_tema[:limit]
+
+        # Respaldo por auto-expansión de alias/sugerencias oficiales
+        q_norm = _sin_tildes(q)
+        terminos_respaldo: List[str] = []
+        for alias_key, terminos in ALIAS_MATERIAS_DT.items():
+            alias_key_norm = _sin_tildes(alias_key)
+            if alias_key_norm in q_norm or q_norm in alias_key_norm or _coincide(q_norm, alias_key_norm):
+                for t in terminos:
+                    if t not in terminos_respaldo and _sin_tildes(t) != q_norm:
+                        terminos_respaldo.append(t)
+
+        if terminos_respaldo:
+            resultados_alias: List[Dict[str, Any]] = []
+            vistos: set = set()
+            for termino in terminos_respaldo:
+                for item in index:
+                    clave_item = item.get("articleId") or item.get("numero")
+                    if clave_item in vistos:
+                        continue
+                    if _coincide(item.get("materia", ""), termino) or _coincide(item.get("numero", ""), termino):
+                        vistos.add(clave_item)
+                        resultados_alias.append(item)
+                        if len(resultados_alias) >= limit:
+                            break
+                if len(resultados_alias) >= limit:
+                    break
+            if resultados_alias:
+                return resultados_alias[:limit]
 
         return [_aviso(
             f"Sin dictámenes de la DT para «{query}»",

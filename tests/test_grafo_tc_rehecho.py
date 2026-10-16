@@ -28,41 +28,43 @@ Rol N° 15.686-24-INA.
 """
 
 
+_OPTIMIZAR_PY_TEXT = open(os.path.join(os.path.dirname(integrar.__file__), "optimizar_catalogo_hf.py"), encoding="utf-8").read()
+_TC_TEXTOS_JSONL = json.dumps({
+    "rol": "Rol N° 15686-06a-INA", "fecha": "2025-06-12", "tipo": "INA-STC",
+    "archivo_md": "jurisprudencia_tc/15686-06a-INA.md", "tokens_aprox": 50,
+    "link_pdf": "https://buscador-backend.tcchile.cl/api/extended/15686/download"}, ensure_ascii=False) + "\n"
+_GRAFO_JSON_TEXT = json.dumps({"graph": {}, "nodes": [
+    {"id": "organo_tc", "label": "Tribunal Constitucional de Chile", "node_type": "organo_estado"},
+    {"id": "norma_codigo_civil_art_1545", "label": "Código Civil, Art. 1545", "node_type": "articulo_legal"},
+    # Hermano de la misma norma: gana el primero por id, el que el mapa funde con norma:cc:1545.
+    {"id": "norma_art_1545_cc", "label": "Art. 1545 CC", "node_type": "articulo_legal"},
+    {"id": "norma_cpr_art_8", "label": "CPR, Art. 8", "node_type": "articulo_legal"},
+    {"id": "norma_cpr_19_8", "label": "CPR Art. 19 N° 8", "node_type": "articulo_legal"},
+    # Un artículo cuya etiqueta lleva el nombre de la ley antes del número de artículo.
+    {"id": "norma_ley_n_17_997_organica_constitucional_del_tribunal_constitucional_art_79",
+     "label": "Ley N° 17.997 Orgánica Constitucional del Tribunal Constitucional, Art. 79",
+     "node_type": "articulo_legal"},
+    # Ficha vieja: cabecera de 15686, texto y enlace de otra causa (extended/13336).
+    {"id": "sent_tc_rol_n_15686_06a_ina", "label": "TC · Rol N° 15686-06a-INA — INA-STC",
+     "node_type": "jurisprudencia_tc", "rol": "Rol N° 15686-06a-INA",
+     "url": "https://buscador-backend.tcchile.cl/api/extended/13336/download"},
+    {"id": "sent_tc_rol_n_99999_06a_ina", "label": "TC · Rol N° 99999-06a-INA", "node_type": "jurisprudencia_tc"},
+], "edges": [
+    {"source": "sent_tc_rol_n_15686_06a_ina", "target": "norma_cpr_19_8", "relation": "cita_norma", "weight": 1.0},
+    {"source": "sent_tc_rol_n_99999_06a_ina", "target": "organo_tc", "relation": "dictada_por", "weight": 1.0},
+]}, ensure_ascii=False)
+
+
 @pytest.fixture
 def base(tmp_path, monkeypatch):
     (tmp_path / "scripts").mkdir()
-    real = os.path.join(os.path.dirname(integrar.__file__), "optimizar_catalogo_hf.py")
-    (tmp_path / "scripts" / "optimizar_catalogo_hf.py").write_text(open(real, encoding="utf-8").read(), encoding="utf-8")
+    (tmp_path / "scripts" / "optimizar_catalogo_hf.py").write_text(_OPTIMIZAR_PY_TEXT, encoding="utf-8")
     (tmp_path / "jurisprudencia_tc").mkdir()
     (tmp_path / "jurisprudencia_tc" / "15686-06a-INA.md").write_text(MD, encoding="utf-8")
     datos = tmp_path / "data" / "jurisprudencia"
     datos.mkdir(parents=True)
-    (datos / "tc_textos.jsonl").write_text(json.dumps({
-        "rol": "Rol N° 15686-06a-INA", "fecha": "2025-06-12", "tipo": "INA-STC",
-        "archivo_md": "jurisprudencia_tc/15686-06a-INA.md", "tokens_aprox": 50,
-        "link_pdf": "https://buscador-backend.tcchile.cl/api/extended/15686/download"}, ensure_ascii=False) + "\n",
-        encoding="utf-8")
-    grafo = {"graph": {}, "nodes": [
-        {"id": "organo_tc", "label": "Tribunal Constitucional de Chile", "node_type": "organo_estado"},
-        {"id": "norma_codigo_civil_art_1545", "label": "Código Civil, Art. 1545", "node_type": "articulo_legal"},
-        # Hermano de la misma norma: gana el primero por id, el que el mapa funde con norma:cc:1545.
-        {"id": "norma_art_1545_cc", "label": "Art. 1545 CC", "node_type": "articulo_legal"},
-        {"id": "norma_cpr_art_8", "label": "CPR, Art. 8", "node_type": "articulo_legal"},
-        {"id": "norma_cpr_19_8", "label": "CPR Art. 19 N° 8", "node_type": "articulo_legal"},
-        # Un artículo cuya etiqueta lleva el nombre de la ley antes del número de artículo.
-        {"id": "norma_ley_n_17_997_organica_constitucional_del_tribunal_constitucional_art_79",
-         "label": "Ley N° 17.997 Orgánica Constitucional del Tribunal Constitucional, Art. 79",
-         "node_type": "articulo_legal"},
-        # Ficha vieja: cabecera de 15686, texto y enlace de otra causa (extended/13336).
-        {"id": "sent_tc_rol_n_15686_06a_ina", "label": "TC · Rol N° 15686-06a-INA — INA-STC",
-         "node_type": "jurisprudencia_tc", "rol": "Rol N° 15686-06a-INA",
-         "url": "https://buscador-backend.tcchile.cl/api/extended/13336/download"},
-        {"id": "sent_tc_rol_n_99999_06a_ina", "label": "TC · Rol N° 99999-06a-INA", "node_type": "jurisprudencia_tc"},
-    ], "edges": [
-        {"source": "sent_tc_rol_n_15686_06a_ina", "target": "norma_cpr_19_8", "relation": "cita_norma", "weight": 1.0},
-        {"source": "sent_tc_rol_n_99999_06a_ina", "target": "organo_tc", "relation": "dictada_por", "weight": 1.0},
-    ]}
-    (datos / "legal_knowledge_graph.json").write_text(json.dumps(grafo, ensure_ascii=False), encoding="utf-8")
+    (datos / "tc_textos.jsonl").write_text(_TC_TEXTOS_JSONL, encoding="utf-8")
+    (datos / "legal_knowledge_graph.json").write_text(_GRAFO_JSON_TEXT, encoding="utf-8")
     monkeypatch.setattr(integrar, "BASE", tmp_path)
     monkeypatch.setattr(integrar, "GRAFO", datos / "legal_knowledge_graph.json")
     monkeypatch.setattr(integrar, "TC_INDICE", datos / "tc_textos.jsonl")

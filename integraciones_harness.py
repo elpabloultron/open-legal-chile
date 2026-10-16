@@ -242,7 +242,7 @@ def detectar_instalados(carpeta_base: Optional[Union[str, pathlib.Path]] = None)
 def _registrar_claude_code_usuario(uvx: bool) -> Dict[str, str]:
     """Alcance de usuario de Claude Code: vive en ~/.claude.json y se registra con su CLI."""
     comando, argumentos = lanzador(uvx)
-    orden = ["claude", "mcp", "add", "-s", "user", "-e", "PYTHONUNBUFFERED=1", SERVIDOR, "--", comando, *argumentos]
+    orden = ["claude", "mcp", "add", "-s", "user", "-e", "PYTHONUNBUFFERED=1", "--", SERVIDOR, comando, *argumentos]
     if not shutil.which("claude"):
         return {"cliente": "claude-code", "archivo": "~/.claude.json", "estado": "manual",
                 "nota": "no se encontró el CLI de Claude Code; registralo con: " + " ".join(orden)}
@@ -275,7 +275,15 @@ def escribir(cliente: str, destino: Optional[Union[str, pathlib.Path]] = None,
     ruta.parent.mkdir(parents=True, exist_ok=True)
 
     previo = ruta.read_text(encoding="utf-8") if ruta.exists() else ""
-    if SERVIDOR in previo or ID_DSH in previo:
+    if cfg["clave"] and previo.strip():
+        try:
+            datos_previos = json.loads(previo)
+            if isinstance(datos_previos, dict) and SERVIDOR in datos_previos.get(cfg["clave"], {}):
+                return {"cliente": cfg["cliente"], "archivo": str(ruta), "estado": "ya_configurado",
+                        "nota": "ya estaba configurado: no se tocó el archivo"}
+        except (json.JSONDecodeError, AttributeError):
+            pass
+    elif not cfg["clave"] and (SERVIDOR in previo or ID_DSH in previo):
         return {"cliente": cfg["cliente"], "archivo": str(ruta), "estado": "ya_configurado",
                 "nota": "ya estaba configurado: no se tocó el archivo"}
 
