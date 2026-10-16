@@ -41,6 +41,16 @@ def test_cgr_dictamenes():
         pytest.skip(f"Portal CGR no disponible temporalmente: {e}")
 
 
+def test_cgr_dictamen_por_identificador_en_vivo(tmp_path):
+    """Humo del issue #1 contra la API real: el dictamen pedido, con su texto (sólo se salta sin red)."""
+    try:
+        d = CGRClient(cache_dir=str(tmp_path)).get_dictamen("E311060N23")
+    except NETWORK_ERRORS as e:
+        pytest.skip(f"Portal CGR no disponible temporalmente: {e}")
+    assert d.get("docId") == "E311060N23", d.get("error") or d.get("docId")
+    assert d.get("anio") == "2023" and len(d.get("texto", "")) > 1000, "el texto íntegro vuelve vacío"
+
+
 def test_dt_laboral():
     try:
         client = DTClient()

@@ -5,7 +5,7 @@
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-administrative-legal/SKILL.md",
-      "sha256": "58750b9204f787bfed3120ea5435812f6e94e6c6490cddd079d1dd255f944a70"
+      "sha256": "1a0430714bc0f0a5b5c136514d84384dd67b16dc1c75ffb963c26621efc9e044"
     },
     "chilean-contract-legal": {
       "source": "local",
