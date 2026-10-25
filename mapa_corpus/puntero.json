@@ -2,7 +2,7 @@
   "constructor": "1.0.0",
   "conteos": {
     "alias": 3552,
-    "aristas": 159571,
+    "aristas": 159780,
     "col_arch": 9,
     "col_bib": 87,
     "col_cs": 70523,
@@ -13,16 +13,16 @@
     "col_guia": 21,
     "col_pub": 78,
     "col_ta": 886,
-    "col_tc": 1352,
-    "comunidades": 58,
-    "entradas": 80759,
-    "nodos": 33242
+    "col_tc": 1361,
+    "comunidades": 61,
+    "entradas": 80768,
+    "nodos": 33258
   },
   "esquema": 1,
-  "fecha_fuente": "2026-10-16T00:32:42.000Z",
+  "fecha_fuente": "2026-10-19T10:23:19.000Z",
   "repo_id": "pablobenavidesj/doctrina-jurisprudencia-chile",
-  "revision_mapa": "1aec018c455ce3436a0a5799f4e8599009f35173",
+  "revision_mapa": "fc44b551bb5c65cb34779e1c176221d7330282a7",
   "ruta": "data/mapa",
-  "sha256_estado": "ad496b0fd23b9570ff50032f802c90f340bbc643d9d9713bcd16b060db5da675",
-  "sha_fuente": "190718ce1217196433d2f222c18b9faca09dd240"
+  "sha256_estado": "e8de571fa2f1a95c38d453663b09720fdcaffe6e4989cc94c5a9a53a80cfde0d",
+  "sha_fuente": "ee5ebd7a9d291831ed065969fa0311bd87f44d91"
 }
