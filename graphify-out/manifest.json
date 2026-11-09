@@ -318,9 +318,9 @@
     "semantic_hash": ""
   },
   "openlegal.py": {
-    "mtime": 1792118562.0,
-    "seen": 1794244071.0432253,
-    "ast_hash": "74e23db7df3ecd6a1b3ad0e088641b1d",
+    "mtime": 1794244859.939421,
+    "seen": 1794246131.6282809,
+    "ast_hash": "38731adacbec1dea322b41574b4bc12f",
     "semantic_hash": ""
   },
   "panel_expertos_connector.py": {
@@ -3072,9 +3072,9 @@
     "semantic_hash": ""
   },
   "tests/test_paridad_cli_mcp.py": {
-    "mtime": 1790784106.0,
-    "seen": 1794244071.0434217,
-    "ast_hash": "df7c420452e97b86c4497b97fa30da39",
+    "mtime": 1794244831.77182,
+    "seen": 1794246131.631522,
+    "ast_hash": "3c16be109c49dd682307b764609f7ff8",
     "semantic_hash": ""
   },
   "tests/test_pjud_corpus.py": {
@@ -4203,6 +4203,18 @@
     "mtime": 1794243140.0183794,
     "seen": 1794244071.0434458,
     "ast_hash": "49efec74fbd8cfc34a50fae82169a931",
+    "semantic_hash": ""
+  },
+  "scripts/ci_watchdog.py": {
+    "mtime": 1794245034.8329842,
+    "seen": 1794246131.628707,
+    "ast_hash": "5624be3daf50389e0fa06d9a99b1adf2",
+    "semantic_hash": ""
+  },
+  "tests/test_ci_watchdog.py": {
+    "mtime": 1794244887.239036,
+    "seen": 1794246131.6303818,
+    "ast_hash": "d7e72074245ade35118cefc00c47613d",
     "semantic_hash": ""
   }
 }
