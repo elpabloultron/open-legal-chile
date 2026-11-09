@@ -918,7 +918,7 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
                 "serverInfo": {
                     "name": "open-legal-chile-mcp",
                     "title": "Open Legal Chile",
-                    "version": "1.13.1"
+                    "version": "1.14.0"
                 },
                 "instructions": INSTRUCCIONES,
             })
