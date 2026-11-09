@@ -659,9 +659,10 @@ Ejemplos de uso:
   openlegal caso <texto/ruta> -> Abre o crea expediente local con ingesta MD y subgrafo del caso
   openlegal vector "..."      -> Búsqueda semántica híbrida en los 9 Códigos y CPR (Dense + BM25)
   openlegal integrar         -> Muestra y escribe la configuración MCP de tu harness (--escribir)
+  openlegal ci                -> Supervisa GitHub Actions y auto-repara fallos en CI
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents", "caso", "vector"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents", "caso", "vector", "ci"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -1427,6 +1428,12 @@ Ejemplos de uso:
                 print("\n" + res.format_cli_summary())
             else:
                 print(f"⚠️ Comando o agente '{subcmd}' desconocido. Usa: openlegal agent [list|run|chat|export]")
+
+    elif args.comando == "ci":
+        from scripts.ci_watchdog import vigilar_y_reparar
+        commit = args.query[0] if args.query else None
+        rc = vigilar_y_reparar(commit_sha=commit, watch=True, auto_fix=True)
+        sys.exit(rc)
 
     else:
         menu_interactivo()
