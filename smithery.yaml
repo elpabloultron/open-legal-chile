@@ -8,7 +8,7 @@ startCommand:
     properties:
       perfil:
         type: string
-        description: "Vacío = las 87 herramientas. Para ahorrar contexto: laboral, inmobiliario, litigios, regulatorio, corporativo, dogmatico o clinica."
+        description: "Vacío = las 88 herramientas. Para ahorrar contexto: laboral, inmobiliario, litigios, regulatorio, corporativo, dogmatico o clinica."
         default: ""
       hfToken:
         type: string
