@@ -11,8 +11,8 @@ import re
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 
 # Solo interfaz de consola, o ya cubierto por una herramienta MCP equivalente.
-# 'cache' es mantenimiento de la caché local del corpus (como 'audit': consola pura).
-ALLOWLIST = {"menu", "chat", "query", "mcp", "agent", "agents", "audit", "cache"}
+# 'cache' es mantenimiento de la caché local del corpus (como 'audit' o 'ci': consola pura).
+ALLOWLIST = {"menu", "chat", "query", "mcp", "agent", "agents", "audit", "cache", "ci"}
 
 COMANDO_A_HERRAMIENTA = {
     "check": "suite_doctor",
