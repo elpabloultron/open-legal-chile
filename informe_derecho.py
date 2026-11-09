@@ -154,12 +154,46 @@ def _normas_del_caso(objeto: str, hechos: str, derecho: str, normas: List[str]) 
 def _numerar_hechos(hechos: Any) -> List[str]:
     """Los hechos como lista numerable: acepta lista o texto de varios párrafos/líneas."""
     if isinstance(hechos, list):
-        return [str(h).strip() for h in hechos if str(h).strip()]
-    bruto = str(hechos or "")
-    items = [p.strip() for p in bruto.split("\n\n") if p.strip()]
-    if len(items) <= 1:
-        items = [p.strip() for p in bruto.split("\n") if p.strip()]
-    return items
+        items = [str(h).strip() for h in hechos if str(h).strip()]
+    else:
+        bruto = str(hechos or "")
+        items = [p.strip() for p in bruto.split("\n\n") if p.strip()]
+        if len(items) <= 1:
+            items = [p.strip() for p in bruto.split("\n") if p.strip()]
+    # El informe numera solo: un «1.» que traiga el hecho saldría «1. 1.».
+    return [re.sub(r"^\d{1,3}[.)]\s+", "", h) for h in items]
+
+
+def _parrafos_de_cita(texto: Any) -> List[str]:
+    """Reúne en incisos el texto de la BCN, que llega cortado a ~60 columnas.
+
+    Un salto de línea solo abre inciso si la línea siguiente viene en blanco, sangrada o es un
+    literal («a)   …»); si no, es el corte de columna y la línea se une a la anterior.
+    """
+    parrafos: List[str] = []
+    actual: List[str] = []
+    for linea in str(texto or "").split("\n"):
+        abre = (not linea.strip() or linea[:2].isspace()
+                or re.match(r"[a-zñ0-9]{1,3}\)\s{2,}", linea) is not None)
+        if abre and actual:
+            parrafos.append(" ".join(actual))
+            actual = []
+        if linea.strip():
+            actual.append(re.sub(r"\s+", " ", linea.strip()))
+    if actual:
+        parrafos.append(" ".join(actual))
+    return parrafos
+
+
+def _bloque_cita(texto: Any) -> List[str]:
+    """La cita literal como bloque: un «> » por inciso (cada uno ocupa el ancho de la hoja)."""
+    parrafos = _parrafos_de_cita(texto) or [""]
+    parrafos[0] = "«" + parrafos[0]
+    parrafos[-1] = parrafos[-1] + "»"
+    lineas: List[str] = []
+    for p in parrafos:
+        lineas += [f"> {p}", ""]
+    return lineas
 
 
 def _cita_doctrina(entrada: Dict[str, Any]) -> str:
@@ -278,8 +312,8 @@ def exportar_informe_en_derecho(
     lineas += ["## III. Marco normativo vigente", ""]
     if citas_normas:
         for cita in citas_normas:
-            lineas += [f"**{cita['formato']}**", "", f"> «{cita['texto'].strip()}»", "",
-                       f"Cita: {cita['cita_completa']}", ""]
+            lineas += [f"**{cita['formato']}**", ""] + _bloque_cita(cita["texto"])
+            lineas += [f"Cita: {cita['cita_completa']}", ""]
     else:
         lineas += ["_No se detectaron normas citables en el caso (sin fuente verificable)._", ""]
     normas_faltantes = [f for f in faltantes if f not in ("doctrina", "jurisprudencia")]
@@ -295,15 +329,14 @@ def exportar_informe_en_derecho(
     lineas += ["## V. Doctrina", ""]
     if entradas_doctrina:
         for d in entradas_doctrina:
-            lineas += [f"**{_cita_doctrina(d)}**", "", f"> «{str(d.get('texto')).strip()}»", ""]
+            lineas += [f"**{_cita_doctrina(d)}**", ""] + _bloque_cita(d.get("texto"))
     else:
         lineas += ["_Sin fuente verificable en el corpus para este término._", ""]
 
     lineas += ["## VI. Jurisprudencia", ""]
     if entradas_juris:
         for j in entradas_juris:
-            lineas += [f"**{j.get('cita') or '[Fuente sin identificar]'}**", "",
-                       f"> «{str(j.get('texto')).strip()}»", ""]
+            lineas += [f"**{j.get('cita') or '[Fuente sin identificar]'}**", ""] + _bloque_cita(j.get("texto"))
     else:
         lineas += ["_No se citó jurisprudencia ni dictamen administrativo (ver advertencias)._", ""]
 
@@ -377,6 +410,6 @@ def _html_del_informe(md_content: str) -> str:
     return ("<!DOCTYPE html>\n<html lang=\"es\">\n<head><meta charset=\"UTF-8\">"
             "<title>Informe en Derecho — Open Legal Chile</title>\n"
             "<style>body{font-family:'Times New Roman',serif;max-width:820px;margin:40px auto;"
-            "padding:30px;line-height:1.4;}blockquote{margin-left:24px;padding-left:14px;"
-            "border-left:3px solid #999;font-style:italic;}p{text-align:justify;}</style>"
+            "padding:30px;line-height:1.4;}blockquote{margin:0 0 10px 24px;padding-left:14px;"
+            "border-left:3px solid #999;font-style:italic;text-align:justify;}p{text-align:justify;}</style>"
             "</head>\n<body>\n" + "\n".join(cuerpo) + "\n</body>\n</html>\n")

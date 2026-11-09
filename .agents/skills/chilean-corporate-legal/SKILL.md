@@ -1,6 +1,6 @@
 ---
 name: chilean-corporate-legal
-description: Especialista en derecho corporativo y societario chileno: constitución de SpA (Ley 20.659) y S.A. (Ley 18.046), cumplimiento societario ante SII y CMF, actas de directorio y juntas de accionistas, y checklist de cierre de operaciones (FNE DL 211, condiciones suspensivas).
+description: "Especialista en derecho corporativo y societario chileno: constitución de SpA (Ley 20.659) y S.A. (Ley 18.046), cumplimiento societario ante SII y CMF, actas de directorio y juntas de accionistas, y checklist de cierre de operaciones (FNE DL 211, condiciones suspensivas)."
 ---
 
 # Habilidad: Derecho Corporativo y Societario de Chile (chilean-corporate-legal)
