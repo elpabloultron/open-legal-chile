@@ -5,6 +5,7 @@ Causa Rol C-895-2023 · 2° Juzgado de Letras de Osorno
 Open Legal Chile — Plataforma Forense y Regulatoria
 """
 
+import tempfile
 import os
 import sys
 from pathlib import Path
@@ -507,7 +508,7 @@ def main():
         user_css=CSS_STYLES
     )
     
-    temp_pdf = "/tmp/temp_informe_c895.pdf"
+    temp_pdf = str(Path(tempfile.gettempdir()) / "temp_informe_c895.pdf")  # nosec B108
     pdf.save(temp_pdf)
     
     print(">>> 2. Aplicando foliado formal, encabezados y navegación con PyMuPDF...")
@@ -577,7 +578,7 @@ def main():
         os.remove(temp_pdf)
         
     size_bytes = OUTPUT_PDF.stat().st_size
-    print(f">>> PDF CREADO CON ÉXITO:")
+    print(">>> PDF CREADO CON ÉXITO:")
     print(f"    Ruta: {OUTPUT_PDF}")
     print(f"    Tamaño: {size_bytes} bytes ({size_bytes / 1024:.1f} KB)")
     print(f"    Total de páginas: {total_pages}")
