@@ -242,20 +242,24 @@ def crear_o_cargar_caso(entrada: str, consulta: str = "", metadatos: Optional[Di
     ws.guardar_metadatos(meta)
 
     # Si la entrada es un archivo o directorio existente, ingestar sus documentos automáticamente
-    p_entrada = Path(entrada).expanduser()
-    if p_entrada.exists():
-        if p_entrada.is_file():
-            try:
-                ws.agregar_documento(p_entrada)
-            except Exception:
-                pass
-        elif p_entrada.is_dir():
-            for f in sorted(p_entrada.glob("*")):
-                if f.is_file() and f.suffix.lower() in {".pdf", ".docx", ".txt", ".md"}:
+    try:
+        if "\n" not in entrada and len(entrada) <= 1024:
+            p_entrada = Path(entrada).expanduser()
+            if not any(len(part) > 255 for part in p_entrada.parts) and p_entrada.exists():
+                if p_entrada.is_file():
                     try:
-                        ws.agregar_documento(f)
+                        ws.agregar_documento(p_entrada)
                     except Exception:
                         pass
+                elif p_entrada.is_dir():
+                    for f in sorted(p_entrada.glob("*")):
+                        if f.is_file() and f.suffix.lower() in {".pdf", ".docx", ".txt", ".md"}:
+                            try:
+                                ws.agregar_documento(f)
+                            except Exception:
+                                pass
+    except (OSError, ValueError):
+        pass
 
     # Enriquecer automáticamente con Hugging Face
     try:

@@ -281,6 +281,18 @@ HERRAMIENTAS_DE_BUSQUEDA = (
 
 # --------------------------------------------------------------------------- detección
 
+def _es_ruta_segura(entrada: str) -> Optional[pathlib.Path]:
+    if not entrada or "\n" in entrada or len(entrada) > 1024:
+        return None
+    try:
+        p = pathlib.Path(entrada).expanduser()
+        if any(len(part) > 255 for part in p.parts):
+            return None
+        return p
+    except (OSError, ValueError):
+        return None
+
+
 def _texto_de(entrada: str, tipo: Optional[str] = None) -> tuple[str, List[str], List[Dict[str, Any]]]:
     """Devuelve (texto, notas, documentos). Si la entrada es una carpeta, junta su contenido.
 
@@ -289,10 +301,14 @@ def _texto_de(entrada: str, tipo: Optional[str] = None) -> tuple[str, List[str],
     """
     notas: List[str] = []
     documentos: List[Dict[str, Any]] = []
-    ruta = pathlib.Path(entrada).expanduser()
 
-    if tipo == "carpeta" or (ruta.is_dir() and tipo is None):
-        if not ruta.is_dir():
+    if tipo in ("texto", "consulta"):
+        return entrada, notas, []
+
+    ruta = _es_ruta_segura(entrada)
+
+    if tipo == "carpeta" or (tipo is None and ruta is not None and ruta.is_dir()):
+        if ruta is None or not ruta.is_dir():
             return "", [f"no existe la carpeta: {entrada}"], []
         archivos = sorted(p for p in ruta.rglob("*") if p.is_file()
                           and ".git" not in p.parts and not p.name.startswith("."))
@@ -315,10 +331,11 @@ def _texto_de(entrada: str, tipo: Optional[str] = None) -> tuple[str, List[str],
             notas.append(f"la carpeta tiene {len(archivos)} archivos: se miraron los primeros 200")
         return texto, notas, documentos
 
-    if tipo == "texto" or (ruta.is_file() and tipo is None):
-        if not ruta.is_file():
-            # No es un archivo: se trata como texto pegado, que es el uso normal.
-            return entrada, notas, []
+    if tipo == "texto" or (tipo is None and (ruta is None or not ruta.is_file())):
+        # No es un archivo: se trata como texto pegado, que es el uso normal.
+        return entrada, notas, []
+
+    if ruta is not None and ruta.is_file():
         sufijo = ruta.suffix.lower()
         documentos.append({"ruta": str(ruta), "nombre": ruta.name,
                            "tipo": _tipo_de_documento(ruta.name), "extension": sufijo,
@@ -692,10 +709,12 @@ def caso_analizar(entrada: str, tipo: Optional[str] = None, consulta: str = "",
 
     deteccion = detectar(str(entrada), tipo)
     planeado = planear(deteccion, consulta=str(consulta or ""))
+    _ruta_posible = _es_ruta_segura(str(entrada))
+    _tipo_deducido = tipo or ("carpeta" if _ruta_posible and _ruta_posible.is_dir() else
+                              "archivo" if _ruta_posible and _ruta_posible.is_file() else "texto")
     analisis = {
         "entrada": str(entrada),
-        "tipo_entrada": tipo or ("carpeta" if pathlib.Path(str(entrada)).expanduser().is_dir() else
-                                 "archivo" if pathlib.Path(str(entrada)).expanduser().is_file() else "texto"),
+        "tipo_entrada": _tipo_deducido,
         "fecha_analisis": dt.date.today().isoformat(),
         "deteccion": deteccion,
         **planeado,

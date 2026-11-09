@@ -208,3 +208,46 @@ def test_textos_de_normas_refresca_el_servidor_y_pide_sin_recorte(monkeypatch):
 
     assert visto == {"refrescado": True, "limite": None}
     assert res == {"citas": [], "faltantes": []}
+
+
+TEXTO_BCN = ("Artículo 4°.- Para acceder a la asignación, el\nfuncionario deberá solicitarla para el año calendario\n"
+             "respectivo.\n     Verificado el cumplimiento de dichos requisitos, el\ndirector deberá suscribir un convenio.\n"
+             "     Los funcionarios estarán sujetos a las\nsiguientes prohibiciones:\n \n"
+             "a)   No podrán ejercer libremente su profesión, según la letra a) del artículo 87\n"
+             "del decreto con fuerza de ley Nº29.\nb)   Tampoco podrán ocupar cargos directivos.")
+
+
+def test_parrafos_de_cita_une_el_corte_de_columna_de_la_bcn():
+    parrafos = informe_derecho._parrafos_de_cita(TEXTO_BCN)
+
+    assert parrafos == [
+        "Artículo 4°.- Para acceder a la asignación, el funcionario deberá solicitarla para el año calendario respectivo.",
+        "Verificado el cumplimiento de dichos requisitos, el director deberá suscribir un convenio.",
+        "Los funcionarios estarán sujetos a las siguientes prohibiciones:",
+        "a) No podrán ejercer libremente su profesión, según la letra a) del artículo 87 del decreto con fuerza de ley Nº29.",
+        "b) Tampoco podrán ocupar cargos directivos.",
+    ]
+
+
+def test_hechos_ya_numerados_no_se_numeran_dos_veces():
+    assert informe_derecho._numerar_hechos(["1. Primer hecho.", "2) Segundo hecho."]) == [
+        "Primer hecho.", "Segundo hecho."]
+
+
+def test_la_norma_en_word_ocupa_un_parrafo_por_inciso(tmp_path, monkeypatch):
+    docx = __import__("pytest").importorskip("docx")
+    monkeypatch.setattr(informe_derecho, "EXPORTS_DIR", str(tmp_path))
+    _sin_material_local(monkeypatch)
+    cita = dict(_cita_de_prueba(), texto=TEXTO_BCN)
+    monkeypatch.setattr(informe_derecho, "_textos_de_normas", lambda refs: {"citas": [cita], "faltantes": []})
+
+    res = informe_derecho.exportar_informe_en_derecho(objeto=OBJETO, hechos=HECHOS, analisis=ANALISIS,
+                                                      dictamen="Se acoja.", normas=["Código Civil art. 1545"])
+
+    parrafos = [p for p in docx.Document(res["archivos"]["docxPath"]).paragraphs if p.text.strip()]
+    inicio = next(i for i, p in enumerate(parrafos) if p.text.startswith("«Artículo 4°"))
+    bloque = parrafos[inicio:inicio + 5]
+    assert [p.text[:12] for p in bloque] == ["«Artículo 4°", "Verificado e", "Los funciona",
+                                              "a) No podrán", "b) Tampoco p"]
+    assert all(p.paragraph_format.left_indent is not None for p in bloque)
+    assert bloque[-1].text.endswith("directivos.»")
