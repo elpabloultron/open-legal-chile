@@ -138,3 +138,48 @@ def test_el_docx_acepta_tamano_oficio(tmp_path):
     seccion = Document(str(salida)).sections[0]
     assert abs(seccion.page_width - Cm(21.59)) <= 635, seccion.page_width
     assert abs(seccion.page_height - Cm(33.02)) <= 635, seccion.page_height
+
+
+def test_membrete_y_pie_institucional_open_legal_chile(tmp_path):
+    """Regla institucional: todo documento lleva encabezado, pie open source, autoría y QR."""
+    from docx import Document
+    from docx_compiler import WordDossierCompiler
+
+    salida = tmp_path / "institucional.docx"
+    res = WordDossierCompiler().compile("Texto de prueba justificado.\n", str(salida))
+    assert res["ok"], res
+
+    doc = Document(str(salida))
+    seccion = doc.sections[0]
+    assert "OPEN LEGAL CHILE" in seccion.header.paragraphs[0].text
+    footer_text = "\n".join(p.text for p in seccion.footer.paragraphs)
+    assert "Open Legal Chile" in footer_text
+    assert "open source" in footer_text.lower()
+    assert "Pablo Benavides J." in footer_text
+    assert "elpabloultron.github.io/open-legal-chile" in footer_text
+    assert doc.core_properties.author == "Open Legal Chile"
+
+
+def test_normalizacion_ortotipografica_rae(tmp_path):
+    """Regla de estilo: justificado y ortotipografía RAE (comillas latinas «», N.°, rayas)."""
+    from docx import Document
+    from docx.enum.text import WD_ALIGN_PARAGRAPH
+    from docx_compiler import WordDossierCompiler
+
+    salida = tmp_path / "rae.docx"
+    md = (
+        'El articulo de la Ley N° 20536 senala: "los alumnos tienen derecho a convivir en paz".\n\n'
+        'El deber de denuncia -- conforme a la RAE -- es obligatorio.\n'
+    )
+    res = WordDossierCompiler().compile(md, str(salida))
+    assert res["ok"], res
+
+    doc = Document(str(salida))
+    parrafos = [p for p in doc.paragraphs if p.text.strip()]
+    texto_total = "\n".join(p.text for p in parrafos)
+
+    assert "«los alumnos tienen derecho a convivir en paz»" in texto_total
+    assert "N.° 20536" in texto_total
+    assert " — conforme a la RAE — " in texto_total
+    assert all(p.alignment == WD_ALIGN_PARAGRAPH.JUSTIFY for p in parrafos)
+

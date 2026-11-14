@@ -48,6 +48,11 @@ Queda **estrictamente prohibido** emitir respuestas superficiales, genéricas o 
 * **V. Dictamen Estratégico y Cursos de Acción:** Conclusión ejecutiva, riesgos y vías procesales concretas.
 * **Fuentes (al pie de la respuesta):** En las conversaciones, las citas van siempre **al final de todo**, numeradas, con formato de corchetes oficial y enlaces verificables. En documentos (.docx), van a pie de página.
 
+### Estándar de Identidad Institucional, Justificación y Normas RAE:
+* **Identidad Institucional Open Legal Chile:** Todo informe, escrito o producto generado debe proclamar y llevar la firma de **Open Legal Chile** en encabezado, título, metadatos y pie de página. El pie de página oficial debe señalar textualmente: «Open Legal Chile — Un proyecto open source · Desarrollado por Pablo Benavides J. · Web: https://elpabloultron.github.io/open-legal-chile/», acompañado del código QR institucional en documentos Word y HTML.
+* **Texto Justificado:** Todo el texto sin excepción (cuerpo, hechos, citas normativas y doctrinales, peticiones y listas) debe estar estrictamente justificado (`alignment = WD_ALIGN_PARAGRAPH.JUSTIFY` en Word y `text-align: justify;` en HTML/CSS/MD).
+* **Ortotipografía RAE/ASALE:** Todo texto debe respetar las normas académicas: comillas angulares o españolas (`«` y `»`) como primarias, abreviatura académica de número (`N.°`), raya de inciso (`—`) y mayúsculas con tilde preceptiva.
+
 ### Protocolo de Búsqueda Dual Obligatorio (Hugging Face + Conectores Oficiales del Estado):
 Frente a cualquier consulta sustantiva o procesal, el agente y el harness deben:
 1. **Ejecutar `consulta_maestra`** como primer paso: ésta sondea en paralelo Hugging Face, doctrina canónica, normas BCN, subgrafo LegalGraphify y los conectores oficiales del Estado según la materia detectada (DT y PJUD en laboral; CGR en administrativo; SII en tributario; SMA/TA en ambiental; PJUD en civil general, etc.).
