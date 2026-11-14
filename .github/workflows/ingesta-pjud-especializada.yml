@@ -1,0 +1,85 @@
+name: Ingesta Jurisprudencial Especializada PJUD y Baremo -> Hugging Face
+
+on:
+  schedule:
+    # Ejecución semanal los domingos a las 06:00 UTC
+    - cron: "0 6 * * 0"
+  workflow_dispatch:
+    inputs:
+      limite_por_portal:
+        description: "Máximo de sentencias a cosechar por portal especializado"
+        required: false
+        default: "1000"
+
+permissions:
+  contents: write
+
+jobs:
+  cosechar-y-publicar-hf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment: hf-publicar
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: 1. Cosechar portales especializados de juris.pjud.cl (Líneas, Salud, Extranjería, DD.HH.)
+        run: |
+          python scripts/cosechar_pjud_scrapper.py --corte especializados --cosechar-portal --limite ${{ github.event.inputs.limite_por_portal || '1000' }}
+
+      - name: 2. Cosechar Baremo Estadístico de Daño Moral (baremo.pjud.cl)
+        run: |
+          python scripts/cosechar_baremo_pjud.py
+
+      - name: 3. Cosechar Secretaría Técnica de Género PJUD (Repositorio + Concursos)
+        run: |
+          python scripts/cosechar_genero_pjud.py --max-pdfs 25
+
+      - name: 4. Sincronizar hacia Hugging Face Dataset (pablobenavidesj/doctrina-jurisprudencia-chile)
+        if: env.HF_TOKEN != ''
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python - << 'EOF'
+          import os, pathlib
+          from huggingface_hub import HfApi
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          repo_id = "pablobenavidesj/doctrina-jurisprudencia-chile"
+          base = pathlib.Path(".")
+          for jsonl in sorted((base / "data" / "jurisprudencia").glob("*.jsonl")):
+              api.upload_file(
+                  path_or_fileobj=str(jsonl),
+                  path_in_repo=f"data/jurisprudencia/{jsonl.name}",
+                  repo_id=repo_id,
+                  repo_type="dataset",
+              )
+          for carpeta in (
+              "jurisprudencia_lineas_cs",
+              "jurisprudencia_salud_cs",
+              "jurisprudencia_extranjeria_cs",
+              "jurisprudencia_ddhh",
+              "jurisprudencia_genero",
+              "jurisprudencia_baremo",
+          ):
+              ruta = base / carpeta
+              if ruta.is_dir():
+                  api.upload_folder(
+                      folder_path=str(ruta),
+                      path_in_repo=carpeta,
+                      repo_id=repo_id,
+                      repo_type="dataset",
+                      allow_patterns=["*.md"],
+                  )
+          print("[✓] Corpus especializado PJUD y Baremo publicado en Hugging Face.")
+          EOF

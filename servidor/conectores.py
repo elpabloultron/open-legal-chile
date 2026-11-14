@@ -350,12 +350,14 @@ TOOLS = [
     },
     {
         "name": "pjud_search_jurisprudencia",
-        "description": "Busca jurisprudencia en el corpus local cosechado —70.523 sentencias de la Corte Suprema de los últimos dos años, 966 del Tribunal Constitucional y los fallos rectores CS/TC— por carátula, materia, recurso, resultado y doctrina; insensible a acentos.",
+        "description": "Busca jurisprudencia en el corpus local cosechado —70.523 sentencias de la Corte Suprema de los últimos dos años, 966 del Tribunal Constitucional, fallos rectores CS/TC y portales especializados PJUD (Líneas Jurisprudenciales CS, Salud/Isapres, Compendio de Extranjería, Derechos Humanos, Secretaría de Género y Baremo Estadístico de Daño Moral en UF/CLP)— por carátula, materia, recurso, resultado y doctrina; insensible a acentos.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Término de búsqueda (ej. 'confianza legitima 2 años', 'descuento afc despido', 'isapres')"},
-                "sala": {"type": "string", "description": "Sala opcional (ej. 'Tercera', 'Cuarta', 'Primera')"}
+                "query": {"type": "string", "description": "Término de búsqueda (ej. 'confianza legitima 2 años', 'descuento afc despido', 'isapres', 'baremo daño moral hijo')"},
+                "sala": {"type": "string", "description": "Sala opcional (ej. 'Tercera', 'Cuarta', 'Primera')"},
+                "coleccion": {"type": "string", "enum": ["cs", "tc", "lineas", "salud", "extranjeria", "ddhh", "genero", "baremo"], "description": "Filtro opcional por portal especializado PJUD ('lineas', 'salud', 'extranjeria', 'ddhh', 'genero', 'baremo', 'cs', 'tc')"},
+                "baremo_parentesco": {"type": "string", "description": "Vínculo de parentesco opcional para consultar estadísticos en UF/CLP del Baremo de Daño Moral por muerte (ej. 'Hijo(a)', 'Cónyuge', 'Padre o Madre', 'Hermano(a)', 'Conviviente')"}
             },
             "required": ["query"]
         }
@@ -719,7 +721,12 @@ def despachar(name: str, args: dict) -> Any:
             return {"error": "El parámetro 'query' es obligatorio."}
         return tdlc.search_jurisprudencia(q)
     elif name == "pjud_search_jurisprudencia":
-        return pjud.search_jurisprudencia(args.get("query", ""), sala=args.get("sala"))
+        return pjud.search_jurisprudencia(
+            args.get("query", ""),
+            sala=args.get("sala"),
+            coleccion=args.get("coleccion"),
+            baremo_parentesco=args.get("baremo_parentesco"),
+        )
     elif name == "pjud_analizar_sentencia":
         txt = args.get("texto_sentencia")
         rol = args.get("rol")

@@ -120,6 +120,18 @@ jurisprudencia_cs/*.md
 jurisprudencia_ambiental/*/
 jurisprudencia_ambiental/*.md
 !jurisprudencia_ambiental/README.md
+jurisprudencia_lineas_cs/*.md
+!jurisprudencia_lineas_cs/README.md
+jurisprudencia_salud_cs/*.md
+!jurisprudencia_salud_cs/README.md
+jurisprudencia_extranjeria_cs/*.md
+!jurisprudencia_extranjeria_cs/README.md
+jurisprudencia_ddhh/*.md
+!jurisprudencia_ddhh/README.md
+jurisprudencia_genero/*.md
+!jurisprudencia_genero/README.md
+jurisprudencia_baremo/*.md
+!jurisprudencia_baremo/README.md
 
 # Revistas de derecho (RDPUCV y periódicos jurídicos): se publican en Hugging Face
 doctrina/revistas/**/*.md
@@ -142,3 +154,4 @@ scripts/build_presentacion*
 
 # Planes de trabajo por workspace (viven con el repo, no se versionan)
 .hermes/
+scripts/generar_informe_colegio_frances.py
