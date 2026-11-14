@@ -132,10 +132,48 @@ def ruta_hf_corte_suprema(registro: Dict[str, Any]) -> Optional[str]:
 
 def _rutas_corpus_local() -> List[str]:
     """Los jsonl del corpus cosechado que existan, del grano grueso al curado."""
-    nombres = ("cs_sentencias_2anios.jsonl", "tc_sentencias_2anios.jsonl",
-               "cs_sentencias.jsonl", "tc_sentencias.jsonl")
+    nombres = (
+        "cs_lineas_jurisprudenciales.jsonl",
+        "cs_salud.jsonl",
+        "cs_extranjeria.jsonl",
+        "cs_ddhh.jsonl",
+        "pjud_genero.jsonl",
+        "baremo_dano_moral.jsonl",
+        "cs_sentencias_2anios.jsonl",
+        "tc_sentencias_2anios.jsonl",
+        "cs_sentencias.jsonl",
+        "tc_sentencias.jsonl",
+    )
     return [os.path.join(DATA_JURISPRUDENCIA, n) for n in nombres
             if os.path.exists(os.path.join(DATA_JURISPRUDENCIA, n))]
+
+
+def consultar_baremo_dano_moral(query_o_parentesco: str = "", limit: int = 10) -> List[Dict[str, Any]]:
+    """Consulta las tablas estadísticas y fallos de referencia del Baremo de Daño Moral PJUD."""
+    ruta = os.path.join(DATA_JURISPRUDENCIA, "baremo_dano_moral.jsonl")
+    if not os.path.exists(ruta):
+        return []
+    q_norm = _strip_accents((query_o_parentesco or "").lower().strip())
+    tokens = [t for t in q_norm.split() if len(t) > 2 and t not in ("baremo", "dano", "moral", "muerte", "por", "del", "las", "los")]
+    resultados: List[Dict[str, Any]] = []
+    try:
+        with open(ruta, "r", encoding="utf-8") as f:
+            for linea in f:
+                if not linea.strip():
+                    continue
+                reg = json.loads(linea)
+                if not tokens:
+                    resultados.append(reg)
+                else:
+                    blob = _strip_accents(
+                        f"{reg.get('parentesco', '')} {reg.get('caratula', '')} {reg.get('materia', '')} {reg.get('texto_integral', '')}".lower()
+                    )
+                    if any(t in blob for t in tokens):
+                        resultados.append(reg)
+    except Exception:
+        return []
+    resultados.sort(key=lambda r: int(r.get("total_casos_analizados") or 0), reverse=True)
+    return resultados[:limit]
 
 
 def _texto_registro(registro: Dict[str, Any]) -> str:
@@ -691,14 +729,40 @@ class PJUDClient:
         sala: Optional[str] = None,
         limit: int = 10,
         en_vivo: bool = False,
-        corte: str = "cs"
+        corte: str = "cs",
+        coleccion: Optional[str] = None,
+        baremo_parentesco: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
-        Busca sentencias judiciales de la Corte Suprema, Cortes de Apelaciones y TC
+        Busca sentencias judiciales de la Corte Suprema, Cortes de Apelaciones, TC y portales
+        especializados PJUD (Líneas Jurisprudenciales, Salud, Extranjería, DD.HH., Género y Baremo)
         por materia, doctrina, rol o palabras clave (insensible a acentos).
         Si en_vivo=True, consulta adicionalmente el portal juris.pjud.cl en tiempo real.
         """
         results = []
+        q_lower = _strip_accents((query or "").lower())
+        col_norm = _strip_accents((coleccion or "").lower().strip())
+        if col_norm == "baremo" or baremo_parentesco or "baremo" in q_lower:
+            filtro_bar = baremo_parentesco or query
+            for b in consultar_baremo_dano_moral(filtro_bar, limit=min(limit, 5)):
+                results.append({
+                    "tribunal": b.get("tribunal", "Poder Judicial — Baremo Estadístico Daño Moral"),
+                    "sala": b.get("sala", "Civil"),
+                    "rol": b.get("rol", ""),
+                    "fecha": b.get("fecha", ""),
+                    "caratula": b.get("caratula", ""),
+                    "materia": b.get("materia", ""),
+                    "doctrina": b.get("texto_integral", ""),
+                    "normas": "Código Civil Arts. 2314, 2329",
+                    "link": b.get("url_origen", "https://baremo.pjud.cl/BAREMOWEB/ConsultaBaremo"),
+                    "origen": "baremo_pjud",
+                    "estadisticas_uf": b.get("estadisticas_uf"),
+                    "estadisticas_clp": b.get("estadisticas_clp"),
+                    "fallos_muestra": (b.get("fallos_muestra") or [])[:5],
+                    "cita": b.get("cita", ""),
+                })
+            if col_norm == "baremo" and len(results) >= limit:
+                return results[:limit]
         if en_vivo:
             try:
                 en_vivo_docs = self.search_online(query, corte=corte, limite=limit)
@@ -721,7 +785,6 @@ class PJUDClient:
                 pass
         q_norm = _strip_accents(query.lower().strip())
         tokens = [t for t in q_norm.split() if len(t) > 2]
-        results = []
 
         try:
             with sqlite3.connect(self.db_path) as conn:
@@ -768,10 +831,14 @@ class PJUDClient:
         except Exception as e:
             results.append({"error": f"Error consultando jurisprudencia: {str(e)}"})
 
-        # El corpus local cosechado (CS/TC), después de los fallos rectores y sin repetirlos.
+        # El corpus local cosechado (CS/TC y portales especializados), después de los fallos rectores y sin repetirlos.
         try:
             vistos = {(str(r.get("tribunal") or "").lower(), str(r.get("rol") or "")) for r in results}
-            for s in buscar_sentencias_locales(query, limit=limit):
+            for s in buscar_sentencias_locales(query, limit=limit * 2 if col_norm else limit):
+                if col_norm and col_norm not in ("cs", "tc", "baremo"):
+                    portal_s = _strip_accents(str(s.get("portal") or s.get("archivo_fuente") or "").lower())
+                    if col_norm not in portal_s:
+                        continue
                 firma = (str(s.get("tribunal") or "").lower(), str(s.get("rol") or ""))
                 if firma in vistos:
                     continue
