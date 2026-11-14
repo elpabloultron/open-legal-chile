@@ -1,7 +1,7 @@
 {
   "name": "open-legal-chile",
   "displayName": "Open Legal Chile",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "description": "Suite de Inteligencia Jurídica para el Derecho Continental de Chile: 88 herramientas MCP con 10 conectores estatales (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), Baremo Estadístico de Daño Moral, doctrina canónica, grafo LegalGraphify, OCR forense y 21 skills especializadas.",
   "logo": "assets/logo.svg",
   "suggestedPrompts": [
