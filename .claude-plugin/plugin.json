@@ -2,12 +2,13 @@
   "name": "open-legal-chile",
   "displayName": "Open Legal Chile",
   "version": "1.14.0",
-  "description": "Suite de inteligencia jurídica para el derecho chileno (Civil Law): 88 herramientas MCP con 10 conectores oficiales del Estado (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), doctrina canónica, grafo LegalGraphify, OCR forense, 18 skills y 19 agentes especializados. Requiere uv (uvx) para lanzar el servidor MCP.",
+  "description": "Suite de inteligencia jurídica para el derecho chileno (Civil Law): 88 herramientas MCP con 10 conectores oficiales del Estado (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), Baremo Estadístico de Daño Moral, doctrina canónica, grafo LegalGraphify, OCR forense, 21 skills jurídicas y 19 agentes especializados. Requiere uv (uvx) para lanzar el servidor MCP.",
   "author": {
     "name": "Pablo Benavides Jorquera / Open Legal Chile Contributors",
+    "email": "pablobenavidesjorquera@gmail.com",
     "url": "https://github.com/elpabloultron/open-legal-chile"
   },
-  "homepage": "https://github.com/elpabloultron/open-legal-chile",
+  "homepage": "https://elpabloultron.github.io/open-legal-chile/",
   "repository": "https://github.com/elpabloultron/open-legal-chile",
   "license": "Apache-2.0",
   "keywords": [
@@ -16,6 +17,7 @@
     "derecho",
     "mcp",
     "pjud",
+    "baremo",
     "bcn",
     "cgr",
     "cbr",
@@ -25,6 +27,7 @@
     "academia-judicial"
   ],
   "skills": ["./.agents/skills/"],
+  "agents": ["./agents/"],
   "userConfig": {
     "perfil": {
       "type": "string",

@@ -1,0 +1,13 @@
+{
+  "name": "open-legal-chile",
+  "displayName": "Open Legal Chile",
+  "version": "1.14.0",
+  "description": "Suite de Inteligencia Jurídica para el Derecho Continental de Chile: 88 herramientas MCP con 10 conectores estatales (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), Baremo Estadístico de Daño Moral, doctrina canónica, grafo LegalGraphify, OCR forense y 21 skills especializadas.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Ejecuta consulta_maestra sobre despido por necesidades de la empresa (Art. 161 Código del Trabajo) y descuento de AFC",
+    "Consulta el Baremo Estadístico de Daño Moral PJUD por muerte de hijo(a) o cónyuge en UF y pesos",
+    "Analiza los requisitos del estudio de títulos decenal (10 años) en el Conservador de Bienes Raíces",
+    "Audita un borrador de demanda civil en modo contradictorio de contexto cero (Elephant-Goldfish)"
+  ]
+}

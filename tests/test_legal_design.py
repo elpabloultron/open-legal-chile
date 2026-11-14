@@ -80,6 +80,12 @@ CARPETAS_FUERA = {
     # oficiales) son texto íntegro ajeno: se verifica su integridad, no su vocabulario.
     "data",
     "jurisprudencia_tc",
+    "jurisprudencia_lineas_cs",
+    "jurisprudencia_salud_cs",
+    "jurisprudencia_extranjeria_cs",
+    "jurisprudencia_ddhh",
+    "jurisprudencia_genero",
+    "jurisprudencia_baremo",
     "publicaciones_ambientales",
     "corpus_guias_aj",
 }
@@ -104,7 +110,7 @@ def _bloque_de_diseno(texto):
 
 def test_existen_las_17_skills_con_su_frontmatter():
     skills = _skills()
-    assert len(skills) == 18, f"hay {len(skills)} SKILL.md en .agents/skills/"
+    assert len(skills) == 27, f"hay {len(skills)} SKILL.md en .agents/skills/"
 
     for ruta in skills:
         texto = _texto(ruta)
@@ -142,9 +148,9 @@ def test_toda_skill_explica_el_termino_tecnico_entre_parentesis():
 
 
 def test_las_skills_de_dominio_legal_llevan_la_compuerta_juridica():
-    """LD-06: en las 11 skills de derecho chileno la compuerta no es opcional ni condicional."""
+    """LD-06: en las 21 skills de derecho chileno la compuerta no es opcional ni condicional."""
     legales = [r for r in _skills() if r.parent.name.startswith("chilean-")]
-    assert len(legales) == 12, [r.parent.name for r in legales]
+    assert len(legales) == 21, [r.parent.name for r in legales]
 
     for ruta in legales:
         texto = _texto(ruta)

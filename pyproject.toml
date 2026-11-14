@@ -45,8 +45,9 @@ dependencies = [
   # OCR SIEMPRE incluido: leer un escaneo o una foto no puede depender de un paso manual.
   # Antes vivía en el extra [ocr] y quien instalaba el paquete se quedaba sin leer PDFs sin capa
   # de texto. La regla del producto: «siempre se debe instalar todo».
-  "rapidocr-onnxruntime>=1.2.0"
-  ]
+  "rapidocr-onnxruntime>=1.2.0",
+  "qrcode>=8.2",
+]
 
 [project.optional-dependencies]
 dev = [
@@ -161,15 +162,24 @@ py-modules = [
 "share/openlegal-chile/.agents/skills/chilean-administrative-legal" = [".agents/skills/chilean-administrative-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-case-intake" = [".agents/skills/chilean-case-intake/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-contract-legal" = [".agents/skills/chilean-contract-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-contradictorio-goldfish" = [".agents/skills/chilean-contradictorio-goldfish/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-corporate-legal" = [".agents/skills/chilean-corporate-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-docket-watcher" = [".agents/skills/chilean-docket-watcher/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-doctrine-ingestion" = [".agents/skills/chilean-doctrine-ingestion/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-dogmatic-graphify" = [".agents/skills/chilean-dogmatic-graphify/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-dossier-assembly" = [".agents/skills/chilean-dossier-assembly/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-employment-legal" = [".agents/skills/chilean-employment-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-energy-legal" = [".agents/skills/chilean-energy-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-environmental-legal" = [".agents/skills/chilean-environmental-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-forensic-evidence" = [".agents/skills/chilean-forensic-evidence/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-legal-clinic" = [".agents/skills/chilean-legal-clinic/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-litigation-legal" = [".agents/skills/chilean-litigation-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-notebooklm-grounding" = [".agents/skills/chilean-notebooklm-grounding/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-privacy-ip" = [".agents/skills/chilean-privacy-ip/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-probity-investigation" = [".agents/skills/chilean-probity-investigation/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-real-estate-cbr" = [".agents/skills/chilean-real-estate-cbr/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-socratic-bar-exam" = [".agents/skills/chilean-socratic-bar-exam/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-workspace-legal-flow" = [".agents/skills/chilean-workspace-legal-flow/SKILL.md"]
 "share/openlegal-chile/.agents/skills/ponytail" = [".agents/skills/ponytail/SKILL.md"]
 "share/openlegal-chile/.agents/skills/ponytail-audit" = [".agents/skills/ponytail-audit/SKILL.md"]
 "share/openlegal-chile/.agents/skills/ponytail-debt" = [".agents/skills/ponytail-debt/SKILL.md"]
