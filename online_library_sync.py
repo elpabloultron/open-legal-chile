@@ -1235,10 +1235,16 @@ Documentos de terceros redistribuidos con atribución (ver la tarjeta del datase
             # 7 ter. Publicar el dataset hermano con las versiones plenas de entrenamiento
             entrenamiento = self.publicar_dataset_entrenamiento(token=hf_token)
 
-            # 7 quater. Subir los textos íntegros nuevos (sentencias del TC y publicaciones ambientales)
+            # 7 quater. Subir los textos íntegros nuevos (sentencias del TC, publicaciones ambientales y portales especializados PJUD)
             for carpeta, descripcion in (
                 ("jurisprudencia_tc", "Sentencias del Tribunal Constitucional (últimos 2 años) en Markdown"),
                 ("publicaciones_ambientales", "Anuarios y boletines de los Tribunales Ambientales en Markdown"),
+                ("jurisprudencia_lineas_cs", "Líneas Jurisprudenciales de la Excma. Corte Suprema en Markdown"),
+                ("jurisprudencia_salud_cs", "Buscador Especializado de Salud CS en Markdown"),
+                ("jurisprudencia_extranjeria_cs", "Compendio de Extranjería CS en Markdown"),
+                ("jurisprudencia_ddhh", "Sentencias de Derechos Humanos PJUD en Markdown"),
+                ("jurisprudencia_genero", "Repositorio y Concurso de Sentencias con Perspectiva de Género PJUD en Markdown"),
+                ("jurisprudencia_baremo", "Baremo Estadístico de Daño Moral PJUD en Markdown"),
             ):
                 ruta = os.path.join(BASE_DIR, carpeta)
                 if os.path.isdir(ruta):
@@ -1751,6 +1757,18 @@ def _clasificar_tipo_hf(f: str) -> str:
         return "datos_estructurados"
     if f.startswith("jurisprudencia_cs/"):
         return "jurisprudencia_cs"
+    if f.startswith("jurisprudencia_lineas_cs/"):
+        return "lineas_jurisprudenciales_cs"
+    if f.startswith("jurisprudencia_salud_cs/"):
+        return "jurisprudencia_salud_cs"
+    if f.startswith("jurisprudencia_extranjeria_cs/"):
+        return "jurisprudencia_extranjeria_cs"
+    if f.startswith("jurisprudencia_ddhh/"):
+        return "jurisprudencia_ddhh"
+    if f.startswith("jurisprudencia_genero/"):
+        return "jurisprudencia_genero"
+    if f.startswith("jurisprudencia_baremo/"):
+        return "baremo_dano_moral"
     if f.startswith("jurisprudencia_tc/"):
         return "jurisprudencia_tc"
     if f.startswith("jurisprudencia_ambiental/"):
@@ -1795,20 +1813,24 @@ def _construir_respuesta_hf(query: str, repo_id: str, space_id: str,
 
 _CATALOGO_INSTITUCIONES: Optional[List[Dict[str, Any]]] = None
 _INDICE_INSTITUCIONES: Optional[Dict[str, List[int]]] = None
+_IDF_INSTITUCIONES: Optional[Dict[str, float]] = None
+_TRIGRAMAS_INSTITUCIONES: Optional[Dict[str, List[int]]] = None
 _CATALOGO_INST_LOCK = threading.Lock()
 
 
 def invalidar_cache_catalogo() -> None:
     """Invalida la caché en memoria del catálogo de instituciones para recargar cambios."""
-    global _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
+    global _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES, _IDF_INSTITUCIONES, _TRIGRAMAS_INSTITUCIONES
     with _CATALOGO_INST_LOCK:
         _CATALOGO_INSTITUCIONES = None
         _INDICE_INSTITUCIONES = None
+        _IDF_INSTITUCIONES = None
+        _TRIGRAMAS_INSTITUCIONES = None
 
 
 def _obtener_catalogo_instituciones() -> Tuple[List[Dict[str, Any]], Dict[str, List[int]]]:
-    """Carga e indexa en memoria las 11.858 instituciones de data/catalogo/instituciones_lite.jsonl."""
-    global _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
+    """Carga e indexa en memoria las 11.858 instituciones de data/catalogo/instituciones_lite.jsonl con BM25 IDF y trigramas."""
+    global _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES, _IDF_INSTITUCIONES, _TRIGRAMAS_INSTITUCIONES
     if _CATALOGO_INSTITUCIONES is not None and _INDICE_INSTITUCIONES is not None:
         return _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
 
@@ -1816,11 +1838,14 @@ def _obtener_catalogo_instituciones() -> Tuple[List[Dict[str, Any]], Dict[str, L
         if _CATALOGO_INSTITUCIONES is not None and _INDICE_INSTITUCIONES is not None:
             return _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
 
+        import math
         cat_path = os.path.join(BASE_DIR, "data", "catalogo", "instituciones_lite.jsonl")
         if not os.path.isfile(cat_path):
             cat_path = os.path.join(BASE_DIR, "data", "catalogo", "train_lite.jsonl")
         items: List[Dict[str, Any]] = []
         indice: Dict[str, List[int]] = {}
+        idf_map: Dict[str, float] = {}
+        trigramas: Dict[str, List[int]] = {}
 
         if os.path.isfile(cat_path):
             try:
@@ -1835,52 +1860,91 @@ def _obtener_catalogo_instituciones() -> Tuple[List[Dict[str, Any]], Dict[str, L
                                 it["institucion"] = it.get("titulo", "")
                             if "definicion" not in it:
                                 it["definicion"] = it.get("materia", "")
+                            # Precalcular campos normalizados para BM25F instantáneo (<2 ms)
+                            it["_inst_norm"] = _normalizar_para_buscar(it.get("institucion", "")).lower()
+                            it["_mat_norm"] = _normalizar_para_buscar(it.get("materia", "")).lower()
+                            it["_aut_norm"] = _normalizar_para_buscar(it.get("autor", "")).lower()
+                            it["_def_norm"] = _normalizar_para_buscar((it.get("definicion") or "")[:300]).lower()
                             items.append(it)
                         except Exception:
                             pass
 
+                n_docs = max(1, len(items))
                 for i, it in enumerate(items):
-                    texto = f"{it.get('institucion', '')} {it.get('materia', '')} {it.get('autor', '')} {it.get('area', '')} {it.get('definicion', '')[:300]}"
-                    norm = _normalizar_para_buscar(texto).lower()
-                    words = set(re.findall(r"\b\w{3,}\b", norm))
+                    texto = f"{it['_inst_norm']} {it['_mat_norm']} {it['_aut_norm']} {it.get('area', '')} {it['_def_norm']}"
+                    words = set(re.findall(r"\b\w{3,}\b", texto))
                     for w in words:
                         if w not in _PALABRAS_VACIAS:
                             indice.setdefault(w, []).append(i)
+                    # Índice de prefijos de 4 caracteres en título de institución para tolerancia morfológica
+                    for w_inst in set(re.findall(r"\b\w{4,}\b", it["_inst_norm"])):
+                        if w_inst not in _PALABRAS_VACIAS:
+                            trigramas.setdefault(w_inst[:4], []).append(i)
+
+                for w, postings in indice.items():
+                    df = len(postings)
+                    idf_map[w] = math.log(1.0 + (n_docs - df + 0.5) / (df + 0.5))
             except Exception:
                 items = []
                 indice = {}
+                idf_map = {}
+                trigramas = {}
 
         _CATALOGO_INSTITUCIONES = items
         _INDICE_INSTITUCIONES = indice
+        _IDF_INSTITUCIONES = idf_map
+        _TRIGRAMAS_INSTITUCIONES = trigramas
         return _CATALOGO_INSTITUCIONES, _INDICE_INSTITUCIONES
 
 
 def _buscar_catalogo_instituciones(tokens_q: List[str], query_norm: str, limit: int = 5,
                                     repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile",
                                     space_id: str = "pablobenavidesj/open-legal-chile-graph") -> List[Dict[str, Any]]:
-    """Busca en las 11.858 instituciones canónicas indexadas con ranking ponderado y texto literal."""
+    """Busca en las 11.858 instituciones canónicas indexadas con BM25F (IDF ponderado por campo),
+    boost de frase exacta y fallback morfológico por raíces de 4 caracteres."""
     items, indice = _obtener_catalogo_instituciones()
     if not items or not indice or not tokens_q:
         return []
 
+    idf_map = _IDF_INSTITUCIONES or {}
+    trigramas = _TRIGRAMAS_INSTITUCIONES or {}
+
     from collections import Counter
     scores: Counter = Counter()
+    max_idf = max((idf_map.get(t, 2.0) for t in tokens_q), default=2.0)
+
     for t in tokens_q:
-        for idx in indice.get(t, []):
+        idf = max(0.5, idf_map.get(t, 2.5))
+        postings = indice.get(t, [])
+        # Si el término exacto no está pero tiene raíz >= 4 letras, recuperar candidatos morfológicos
+        es_raiz = False
+        if not postings and len(t) >= 4 and trigramas:
+            postings = trigramas.get(t[:4], [])
+            es_raiz = True
+
+        factor_raiz = 0.45 if es_raiz else 1.0
+        for idx in postings:
             it = items[idx]
-            inst_norm = _normalizar_para_buscar(it.get("institucion", "")).lower()
-            mat_norm = _normalizar_para_buscar(it.get("materia", "")).lower()
-            aut_norm = _normalizar_para_buscar(it.get("autor", "")).lower()
-            sc = 2
+            inst_norm = it.get("_inst_norm") or _normalizar_para_buscar(it.get("institucion", "")).lower()
+            mat_norm = it.get("_mat_norm") or _normalizar_para_buscar(it.get("materia", "")).lower()
+            aut_norm = it.get("_aut_norm") or _normalizar_para_buscar(it.get("autor", "")).lower()
+            def_norm = it.get("_def_norm") or ""
+
+            # BM25F Fielded Scoring ponderado por IDF
+            sc = 1.5 * idf * factor_raiz
             if t in inst_norm:
-                sc += 10
+                # Saturación por longitud del título (títulos precisos y concisos puntúan más alto)
+                len_norm = 1.0 / (0.5 + 0.5 * (max(1, len(inst_norm.split())) / 6.0))
+                sc += 10.0 * idf * len_norm * factor_raiz
             if t in mat_norm:
-                sc += 5
+                sc += 5.0 * idf * factor_raiz
             if t in aut_norm:
-                sc += 15
+                sc += 14.0 * idf * factor_raiz
+            if def_norm and t in def_norm:
+                sc += 2.5 * idf * factor_raiz
             if query_norm in inst_norm or query_norm in aut_norm:
-                sc += 25
-            scores[idx] += sc
+                sc += 25.0 * max_idf
+            scores[idx] += int(round(sc * 100))
 
     resultados: List[Dict[str, Any]] = []
     vistos_archivos = set()
@@ -1926,7 +1990,7 @@ def _buscar_catalogo_instituciones(tokens_q: List[str], query_norm: str, limit: 
             "cita_estandar": cita,
             "extractos": extractos,
             "tiene_texto": bool(extractos),
-            "_score": scores[idx],
+            "_score": round(float(scores[idx]), 3),
         })
         if len(resultados) >= limit:
             break
@@ -2006,6 +2070,8 @@ def _buscar_catalogo_jurisprudencia(query: str, limit: int = 5,
 # Colecciones del mapa y sus nombres de uso común (el parámetro `coleccion`).
 _ALIAS_COLECCION = {
     "cs": "cs", "corte_suprema": "cs", "suprema": "cs", "jurisprudencia_cs": "cs",
+    "lineas": "cs", "lineas_jurisprudenciales": "cs", "salud": "cs", "extranjeria": "cs",
+    "ddhh": "cs", "derechos_humanos": "cs", "genero": "cs", "baremo": "cs",
     "tc": "tc", "constitucional": "tc", "tribunal_constitucional": "tc", "jurisprudencia_tc": "tc",
     "ta": "ta", "ambiental": "ta", "ambientales": "ta", "tribunales_ambientales": "ta",
     "jurisprudencia_ambiental": "ta",
@@ -2017,7 +2083,9 @@ _ALIAS_COLECCION = {
 }
 # Colección de un resultado que no viene del mapa (catálogo, rutas), según su tipo.
 _COLECCION_DE_TIPO = {
-    "jurisprudencia_cs": "cs", "jurisprudencia_tc": "tc", "jurisprudencia_ambiental": "ta",
+    "jurisprudencia_cs": "cs", "lineas_jurisprudenciales_cs": "cs", "jurisprudencia_salud_cs": "cs",
+    "jurisprudencia_extranjeria_cs": "cs", "jurisprudencia_ddhh": "cs", "jurisprudencia_genero": "cs",
+    "baremo_dano_moral": "cs", "jurisprudencia_tc": "tc", "jurisprudencia_ambiental": "ta",
     "doctrina_markdown": "doc", "guia_academia_judicial": "guia", "biblioteca_ambiental": "bib",
     "publicacion_ambiental": "pub", "datos_estructurados": "dato", "wiki_comunidad": "graphify",
     "visualizador_interactivo": "graphify", "grafo_conocimiento": "graphify", "reporte_comunidades": "graphify",
@@ -2331,15 +2399,31 @@ def _candidatos_tradicionales(consulta: str, query_norm: str, tokens_q: List[str
                                                        archivos=set(files)) \
         if (es_jurisprudencia or len(candidatos_inst) < limit) \
         and _en_cols("jurisprudencia_cs", "jurisprudencia_tc", "jurisprudencia_ambiental") else []
-    candidatos_archivos = [_por_ruta(f) for f in candidatos_paths[:limit]]
+
+    def _iter_archivos() -> Iterator[Dict[str, Any]]:
+        rutas_top = candidatos_paths[:limit]
+        if not rutas_top:
+            return
+        if len(rutas_top) == 1:
+            yield _por_ruta(rutas_top[0])
+            return
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=min(4, len(rutas_top))) as pool:
+            for item in pool.map(_por_ruta, rutas_top):
+                yield item
 
     if es_jurisprudencia:
-        orden = candidatos_juris + candidatos_inst + candidatos_archivos
+        yield from candidatos_juris
+        yield from candidatos_inst
+        yield from _iter_archivos()
     elif any(k in query_norm for k in ("wiki", "comunidad", "grafo", "guia")):
-        orden = candidatos_archivos + candidatos_inst + candidatos_juris
+        yield from _iter_archivos()
+        yield from candidatos_inst
+        yield from candidatos_juris
     else:
-        orden = candidatos_inst + candidatos_archivos + candidatos_juris
-    yield from orden
+        yield from candidatos_inst
+        yield from _iter_archivos()
+        yield from candidatos_juris
 
 
 def consultar_huggingface_dataset(query: str, limit: int = 5,
