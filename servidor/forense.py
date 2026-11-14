@@ -479,11 +479,16 @@ def despachar(name: str, args: dict) -> Any:
         if not texto:
             return {"error": "El parámetro 'texto' es obligatorio (el borrador a auditar)."}
         from critique import LegalCritiqueEngine
-        informe = LegalCritiqueEngine().critique(
-            texto,
-            provider=args.get("provider"),
-            modo=str(args.get("modo") or "5d"),
-        )
+        motor = LegalCritiqueEngine()
+        modo = str(args.get("modo") or "5d")
+        try:
+            informe = motor.critique(
+                texto,
+                provider=args.get("provider"),
+                modo=modo,
+            )
+        except TypeError:
+            informe = motor.critique(texto, provider=args.get("provider"))
         if not isinstance(informe, dict):
             return {"informe": str(informe), "citas": []}
         return {"informe": informe.get("critique") or informe.get("error", ""),
