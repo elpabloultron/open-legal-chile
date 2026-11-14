@@ -27,7 +27,6 @@
     "academia-judicial"
   ],
   "skills": ["./.agents/skills/"],
-  "agents": ["./agents/"],
   "userConfig": {
     "perfil": {
       "type": "string",
