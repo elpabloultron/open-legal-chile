@@ -257,6 +257,80 @@ def _registrar_claude_code_usuario(uvx: bool) -> Dict[str, str]:
     return {"cliente": "claude-code", "archivo": "~/.claude.json", "estado": "error", "nota": salida[:300]}
 
 
+def instalar_plugin_antigravity(
+    destino_plugin: Optional[Union[str, pathlib.Path]] = None,
+    uvx: bool = False,
+) -> Dict[str, Any]:
+    """Instala y sincroniza el paquete nativo de plugin de Google Antigravity
+    en ~/.gemini/config/plugins/open-legal-chile/ (plugin.json, mcp_config.json,
+    assets/logo.svg, skills/, agents/, rules/).
+    """
+    raiz_repo = pathlib.Path(__file__).resolve().parent
+    dest = pathlib.Path(destino_plugin) if destino_plugin else (
+        pathlib.Path.home() / ".gemini" / "config" / "plugins" / SERVIDOR
+    )
+    dest.mkdir(parents=True, exist_ok=True)
+    (dest / "assets").mkdir(parents=True, exist_ok=True)
+    (dest / "rules").mkdir(parents=True, exist_ok=True)
+    (dest / "skills").mkdir(parents=True, exist_ok=True)
+    (dest / "agents").mkdir(parents=True, exist_ok=True)
+
+    # 1. plugin.json y logo.svg
+    plugin_src = raiz_repo / "plugin.json"
+    if plugin_src.exists():
+        shutil.copy2(plugin_src, dest / "plugin.json")
+    logo_src = raiz_repo / "assets" / "logo.svg"
+    if logo_src.exists():
+        shutil.copy2(logo_src, dest / "assets" / "logo.svg")
+
+    # 2. rules/AGENTS.md
+    agents_md_src = raiz_repo / "AGENTS.md"
+    if agents_md_src.exists():
+        shutil.copy2(agents_md_src, dest / "rules" / "AGENTS.md")
+
+    # 3. skills/
+    skills_src = raiz_repo / ".agents" / "skills"
+    skills_copiadas = 0
+    if skills_src.exists():
+        for carpeta in sorted(skills_src.iterdir()):
+            skill_md = carpeta / "SKILL.md"
+            if skill_md.exists():
+                d_skill = dest / "skills" / carpeta.name
+                d_skill.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(skill_md, d_skill / "SKILL.md")
+                skills_copiadas += 1
+
+    # 4. agents/
+    agents_src = raiz_repo / "agents"
+    agentes_copiados = 0
+    if agents_src.exists():
+        for arch in sorted(agents_src.glob("*.md")):
+            shutil.copy2(arch, dest / "agents" / arch.name)
+            agentes_copiados += 1
+
+    # 5. mcp_config.json con ruta absoluta del ejecutable y herramientas eager
+    entrada = _entrada(uvx)
+    entrada["tools"] = {
+        "consulta_maestra": {"eager": True},
+        "cita_texto": {"eager": True},
+        "caso_analizar": {"eager": True},
+        "ambiental_consulta_maestra": {"eager": True},
+        "pjud_search_jurisprudencia": {"eager": True},
+        "generar_documento": {"eager": True},
+        "critique_documento": {"eager": True},
+        "suite_doctor": {"eager": True},
+    }
+    (dest / "mcp_config.json").write_text(
+        _json_bonito({"mcpServers": {SERVIDOR: entrada}}),
+        encoding="utf-8",
+    )
+    return {
+        "plugin_dir": str(dest),
+        "skills": skills_copiadas,
+        "agents": agentes_copiados,
+    }
+
+
 def escribir(cliente: str, destino: Optional[Union[str, pathlib.Path]] = None,
              carpeta_base: Optional[Union[str, pathlib.Path]] = None, uvx: bool = False) -> Dict[str, str]:
     """Escribe (o fusiona) la configuración del cliente. Devuelve qué se hizo, con la ruta.

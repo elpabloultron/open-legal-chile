@@ -3,10 +3,20 @@
     "open-legal-chile": {
       "command": "openlegal-mcp",
       "args": [],
-      "description": "Open Legal Chile: 88 herramientas MCP de derecho chileno (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos, doctrina, grafo y OCR). Requiere `pip install openlegal-chile`; sin instalar, usar command \"uvx\" con args [\"--from\", \"openlegal-chile\", \"openlegal-mcp\"].",
+      "description": "Open Legal Chile: 88 herramientas MCP de derecho chileno (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos, Baremo Daño Moral, doctrina, grafo y OCR). Requiere `pip install openlegal-chile`; sin instalar, usar command \"uvx\" con args [\"--from\", \"openlegal-chile\", \"openlegal-mcp\"].",
       "env": {
         "PYTHONIOENCODING": "utf-8",
         "PYTHONUNBUFFERED": "1"
+      },
+      "tools": {
+        "consulta_maestra": { "eager": true },
+        "cita_texto": { "eager": true },
+        "caso_analizar": { "eager": true },
+        "ambiental_consulta_maestra": { "eager": true },
+        "pjud_search_jurisprudencia": { "eager": true },
+        "generar_documento": { "eager": true },
+        "critique_documento": { "eager": true },
+        "suite_doctor": { "eager": true }
       }
     }
   }

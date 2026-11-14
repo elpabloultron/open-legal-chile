@@ -170,6 +170,123 @@
         "open-legal-chile"
       ],
       "category": "legal"
+    },
+    {
+      "name": "chilean-real-estate-cbr",
+      "displayName": "Inmobiliario y Estudio de Títulos CBR",
+      "description": "Especialista en estudio de títulos decenal (10 años, Arts. 2510 y 2511 Código Civil), inscripciones en el Conservador de Bienes Raíces (CBR), hipotecas, gravámenes y validación de mandatos (Art. 7 CPC).",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-real-estate-cbr",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-dogmatic-graphify",
+      "displayName": "Subsunción Dogmática y LegalGraphify",
+      "description": "Navegación de 228 tratados doctrinales chilenos, 21 guías de la Academia Judicial y extracción de subgrafos relacionales con Personalized PageRank (PPR) y BM25F.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-dogmatic-graphify",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-doctrine-ingestion",
+      "displayName": "Ingesta Doctrinal RAE/ASALE",
+      "description": "Normalización ortotipográfica RAE/ASALE y conversión de documentos (.pdf, .docx, .txt) a Markdown canónico con indexación en SQLite FTS5 y LegalGraphify.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-doctrine-ingestion",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-socratic-bar-exam",
+      "displayName": "Examinador Socrático de Grado",
+      "description": "Simulador socrático de examen de grado en Derecho Civil y Procesal con cédulas, definiciones del Código Civil y rúbricas académicas.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-socratic-bar-exam",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-docket-watcher",
+      "displayName": "Vigilante Procesal OJV y Plazos",
+      "description": "Monitoreo de proveídos OJV/PJUD, cómputo de plazos fatales en días hábiles judiciales (Arts. 59 y 66 CPC) y radar normativo.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-docket-watcher",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-legal-clinic",
+      "displayName": "Clínica Jurídica CAJ y Lenguaje Claro",
+      "description": "Asistencia jurídica social para consultorios CAJ, privilegio de pobreza (Art. 600 COT) y traducción ciudadana a Lenguaje Claro.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-legal-clinic",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-privacy-ip",
+      "displayName": "Datos Personales (Ley 21.719) e INAPI",
+      "description": "Ejercicio de derechos ARCO+ (Leyes 19.628 y 21.719), factibilidad marcaria ante INAPI (Ley 19.039) y cartas de cese y desistimiento.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-privacy-ip",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-contradictorio-goldfish",
+      "displayName": "Auditoría Contradictoria Elephant-Goldfish",
+      "description": "Revisión contradictoria de contexto cero (inspirada en google/elephant-goldfish-model) con triple lente: Ministro Relator, Contraparte y Fiscalizador de Citas.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-contradictorio-goldfish",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-workspace-legal-flow",
+      "displayName": "Flujo Jurídico Google Workspace",
+      "description": "Orquestación entre Open Legal Chile y Google Workspace (Drive, Docs, Sheets y Calendar) para estudios jurídicos y gerencias legales.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-workspace-legal-flow",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
     }
   ]
 }

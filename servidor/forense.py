@@ -85,11 +85,13 @@ TOOLS = [
     {
         "name": "critique_documento",
         "description": "Auditoría forense de un borrador judicial (5 dimensiones: hecho, derecho, prueba, "
-                       "procedimiento y estrategia) con el motor de crítica del producto.",
+                       "procedimiento y estrategia, o modo 'goldfish' de revisión contradictoria de contexto cero "
+                       "inspirado en google/elephant-goldfish-model) con el motor de crítica del producto.",
         "inputSchema": {
             "type": "object",
             "properties": {
                 "texto": {"type": "string", "description": "El borrador a auditar"},
+                "modo": {"type": "string", "enum": ["5d", "goldfish"], "default": "5d", "description": "Modo de auditoría: '5d' (estándar 5 dimensiones) o 'goldfish' (revisor contradictorio de contexto cero sin sesgo de confirmación)"},
                 "provider": {"type": "string", "description": "Proveedor de IA opcional (si se omite, usa el motor local)"}
             },
             "required": ["texto"]
@@ -477,10 +479,15 @@ def despachar(name: str, args: dict) -> Any:
         if not texto:
             return {"error": "El parámetro 'texto' es obligatorio (el borrador a auditar)."}
         from critique import LegalCritiqueEngine
-        informe = LegalCritiqueEngine().critique(texto, provider=args.get("provider"))
+        informe = LegalCritiqueEngine().critique(
+            texto,
+            provider=args.get("provider"),
+            modo=str(args.get("modo") or "5d"),
+        )
         if not isinstance(informe, dict):
             return {"informe": str(informe), "citas": []}
         return {"informe": informe.get("critique") or informe.get("error", ""),
+                "modo": informe.get("modo", "5d"),
                 "citas": informe.get("citas", [])}
     elif name == "generar_documento":
         tipo = (args.get("tipo") or "demanda_civil").lower()

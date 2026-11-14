@@ -227,18 +227,122 @@ class LegalCritiqueEngine:
 
         return "\n".join(report)
 
-    def critique(self, text: str, provider: Optional[str] = None, api_key: str = "", model: str = "") -> Dict[str, Any]:
-        """Ejecuta una auditoría forense completa sobre el texto legal provisto."""
+    @staticmethod
+    def critique_goldfish_local(text: str) -> str:
+        """
+        Revisor Contradictorio de Contexto Cero («Goldfish Adversarial Reviewer», inspirado en
+        google/elephant-goldfish-model).
+        Evalúa únicamente el artefacto escrito aislado de toda historia conversacional o intención
+        del redactor («Elefante»), simulando a un Ministro Relator de Corte de Apelaciones/Corte
+        Suprema y al abogado litigante de la contraparte buscando causales de ineptitud del libelo
+        (Art. 303 N.° 4 CPC), caducidad/prescripción, orfandad probatoria (Art. 1698 CC) y citas
+        sin respaldo literal.
+        """
+        t_lower = text.lower()
+        hallazgos_bloqueantes = []
+        hallazgos_importantes = []
+        hallazgos_menores = []
+
+        # 1. Control de Ineptitud del Libelo (Art. 303 N.° 4 y Art. 254 CPC)
+        if not any(w in t_lower for w in ["por tanto", "pido a us.", "ruego a us.", "peticiones concretas"]):
+            hallazgos_bloqueantes.append(
+                "[INEPTITUD DEL LIBELO — Art. 254 N.° 5 y Art. 303 N.° 4 CPC] El documento carece de "
+                "peticiones concretas sometidas al fallo del tribunal («Por Tanto»)."
+            )
+        if not any(w in t_lower for w in ["rut", "cédula de identidad", "domiciliado"]):
+            hallazgos_importantes.append(
+                "[EXCEPCIÓN DILATORIA — Art. 254 N.° 2 y 3 CPC] Individualización incompleta de las partes "
+                "(nombre, profesión u oficio y domicilio)."
+            )
+
+        # 2. Control de Citas sin Transcripción Literal (Regla Anti-Alucinación)
+        normas_sin_texto = _citas_sin_transcripcion(text)
+        if normas_sin_texto:
+            hallazgos_bloqueantes.append(
+                f"[CITA SIN TENOR LITERAL] Se invocan preceptos ({', '.join(normas_sin_texto[:4])}) sin "
+                "transcribir su texto positivo entre comillas angulares (« »). Bajo revisión de contexto cero, "
+                "toda norma no transcrita se presume no verificada."
+            )
+
+        # 3. Control de Orfandad Fáctica y Probatoria (Art. 1698 CC)
+        bloque_hechos = _descripcion_de_hechos(text)
+        if not bloque_hechos or len(bloque_hechos.strip()) < 250:
+            hallazgos_bloqueantes.append(
+                "[ORFANDAD FÁCTICA — Art. 254 N.° 4 CPC] Relato de hechos inexistente o meramente conclusivo; "
+                "la contraparte opondrá excepción de ineptitud del libelo por falta de determinación circunstanciada."
+            )
+        if not any(w in t_lower for w in ["documental", "testigos", "pericial", "confesional", "oficios", "art. 1698", "medios de prueba"]):
+            hallazgos_importantes.append(
+                "[RIESGO PROBATORIO — Art. 1698 Código Civil] No se vinculan las afirmaciones fácticas con "
+                "medios de prueba específicos (instrumentos, testigos, peritajes u oficios)."
+            )
+
+        # 4. Control de Caducidad, Prescripción y Patrocinio (Ley 18.120)
+        if not any(w in t_lower for w in ["plazo", "días hábiles", "oportunidad", "temporaneidad", "prescripción", "caducidad"]):
+            hallazgos_importantes.append(
+                "[CONTROL DE ADMISIBILIDAD Y CADUCIDAD] El escrito no acredita expresamente el cómputo de "
+                "oportunidad procesal o interrupción civil de la prescripción."
+            )
+        if not any(w in t_lower for w in ["patrocinio", "poder", "ley 18.120", "abogado habilitado"]):
+            hallazgos_menores.append(
+                "[APERCIBIMIENTO LEY N.° 18.120] Falta designación expresa de abogado patrocinante y apoderado "
+                "habilitado para la tramitación en la Oficina Judicial Virtual (Ley N.° 20.886)."
+            )
+
+        veredicto = "APROBADO PARA FIRMA (PASS)" if not hallazgos_bloqueantes else "RECHAZADO — REQUIERE SUBSANACIÓN (FAIL)"
+        lineas = [
+            "### 🐠 DICTAMEN CONTRADICTORIO DE CONTEXTO CERO (MODELO ELEPHANT-GOLDFISH)",
+            "**Rol del Auditor:** Ministro Relator / Contraparte Litigante (Aislamiento de Contexto)",
+            f"**Veredicto de Admisibilidad:** **{veredicto}**\n",
+            "#### 🚨 Hallazgos Bloqueantes (Excepciones y Admisibilidad):",
+        ]
+        if hallazgos_bloqueantes:
+            lineas.extend(f"- {h}" for h in hallazgos_bloqueantes)
+        else:
+            lineas.append("- Sin vicios bloqueantes de admisibilidad o ineptitud del libelo detectados.")
+
+        lineas.append("\n#### ⚠️ Observaciones Sustantivas e Importantes:")
+        if hallazgos_importantes:
+            lineas.extend(f"- {h}" for h in hallazgos_importantes)
+        else:
+            lineas.append("- Coherencia fáctica, probatoria y de oportunidad procesal verificada.")
+
+        lineas.append("\n#### 📎 Observaciones Formales Menores:")
+        if hallazgos_menores:
+            lineas.extend(f"- {h}" for h in hallazgos_menores)
+        else:
+            lineas.append("- Formalidades de patrocinio y tramitación digital conformes.")
+
+        return "\n".join(lineas)
+
+    def critique(
+        self,
+        text: str,
+        provider: Optional[str] = None,
+        api_key: str = "",
+        model: str = "",
+        modo: str = "5d",
+    ) -> Dict[str, Any]:
+        """Ejecuta una auditoría forense completa sobre el texto legal provisto ('5d' o 'goldfish')."""
         if not text or not text.strip():
             return {"error": "El texto para auditar no puede estar vacío."}
 
         prov = (provider or LegalChatEngine.detect_provider()).lower().strip()
+        modo_norm = (modo or "5d").lower().strip()
 
         # Si opera bajo el motor soberano por defecto (100% open source y sin API keys):
         if prov in ("soberano", "local"):
-            critique_text = self.critique_soberano_local(text)
+            if modo_norm in ("goldfish", "contradictorio", "adversarial"):
+                critique_text = (
+                    self.critique_goldfish_local(text)
+                    + "\n\n---\n\n"
+                    + self.critique_soberano_local(text)
+                )
+            else:
+                critique_text = self.critique_soberano_local(text)
             return {
                 "documentLength": len(text),
+                "modo": modo_norm,
                 "critique": critique_text,
                 "provider": "soberano",
                 "model": "soberano-v1-offline"

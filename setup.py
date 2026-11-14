@@ -23,6 +23,7 @@ setup(
         "python-docx>=1.1.0",
         "huggingface-hub>=0.20.0",
         "rapidocr-onnxruntime>=1.2.0",  # OCR incluido: la instalación lleva todo
+        "qrcode>=8.2",
     ],
     packages=find_packages(),
     include_package_data=True,
