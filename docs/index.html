@@ -2322,6 +2322,324 @@
       animation: fadeIn 0.3s ease;
     }
     
+  
+    /* --- Buscador Multi-Corpus, Baremo & Formación Consultoría --- */
+    .corpus-hub-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 26px;
+    }
+    @media (max-width: 980px) {
+      .corpus-hub-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 560px) {
+      .corpus-hub-grid { grid-template-columns: 1fr; }
+    }
+    .portal-stat-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+    }
+    .portal-stat-card:hover {
+      border-color: #0284c7;
+      box-shadow: 0 8px 24px rgba(2, 132, 199, 0.08);
+      transform: translateY(-2px);
+    }
+    .portal-stat-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .portal-stat-badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #e0f2fe;
+      color: #0369a1;
+    }
+    .portal-stat-title {
+      font-weight: 700;
+      font-size: 14.5px;
+      color: var(--foreground);
+      margin-bottom: 4px;
+    }
+    .portal-stat-desc {
+      font-size: 12.5px;
+      color: var(--muted);
+      line-height: 1.45;
+      margin-bottom: 10px;
+    }
+    .portal-stat-link {
+      font-size: 11.5px;
+      font-family: var(--font-mono);
+      color: #0284c7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .portal-stat-link:hover { text-decoration: underline; }
+
+    .baremo-Explorer-box {
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+      border: 1px solid #cbd5e1;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.05);
+    }
+    .baremo-header-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .baremo-select {
+      padding: 10px 16px;
+      border-radius: 10px;
+      border: 1px solid #0284c7;
+      background: #f0f9ff;
+      color: #0f172a;
+      font-weight: 600;
+      font-size: 14px;
+      font-family: var(--font-sans);
+      cursor: pointer;
+      outline: none;
+      min-width: 270px;
+    }
+    .baremo-instances-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 860px) {
+      .baremo-instances-grid { grid-template-columns: 1fr; }
+    }
+    .baremo-inst-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 18px;
+      position: relative;
+      overflow: hidden;
+    }
+    .baremo-inst-card.pi { border-top: 4px solid #0284c7; }
+    .baremo-inst-card.ca { border-top: 4px solid #059669; }
+    .baremo-inst-card.cs { border-top: 4px solid #7c3aed; }
+    .baremo-inst-title {
+      font-size: 12px;
+      font-family: var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 700;
+      color: #475569;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .baremo-mediana-uf {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+      color: #0f172a;
+      line-height: 1.15;
+    }
+    .baremo-mediana-clp {
+      font-size: 13px;
+      color: #059669;
+      font-weight: 600;
+      font-family: var(--font-mono);
+      margin-bottom: 12px;
+    }
+    .baremo-range-bar {
+      height: 8px;
+      border-radius: 999px;
+      background: #e2e8f0;
+      position: relative;
+      margin: 10px 0;
+      overflow: hidden;
+    }
+    .baremo-range-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #38bdf8, #0284c7, #7c3aed);
+    }
+    .baremo-stat-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #475569;
+      margin-top: 4px;
+      font-family: var(--font-mono);
+    }
+    .baremo-samples-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12.5px;
+      margin-top: 12px;
+    }
+    .baremo-samples-table th,
+    .baremo-samples-table td {
+      padding: 8px 10px;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .baremo-samples-table th {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #64748b;
+      background: #f8fafc;
+    }
+    .ds-triad-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 24px;
+    }
+    @media (max-width: 880px) {
+      .ds-triad-grid { grid-template-columns: 1fr; }
+    }
+    .ds-card {
+      background: #07281f;
+      color: #f4f8f6;
+      border: 1px solid rgba(74, 222, 128, 0.28);
+      border-radius: 14px;
+      padding: 22px;
+    }
+    .ds-card-tag {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: #86efac;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .ds-card-title {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+    .ds-card-desc {
+      font-size: 13px;
+      line-height: 1.55;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    /* --- Propuestas 1, 2 y 4 (Formación & Consultoría) --- */
+    .consulting-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin-top: 24px;
+    }
+    @media (max-width: 960px) {
+      .consulting-grid { grid-template-columns: 1fr; }
+    }
+    .consulting-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+    .consulting-card.featured {
+      border: 2px solid #0284c7;
+      background: linear-gradient(180deg, #ffffff 0%, #f0f9ff 100%);
+      box-shadow: 0 14px 34px rgba(2, 132, 199, 0.10);
+    }
+    .consulting-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 14px;
+      width: fit-content;
+    }
+    .consulting-title {
+      font-family: var(--font-display);
+      font-size: 21px;
+      font-weight: 700;
+      color: var(--foreground);
+      margin-bottom: 10px;
+      line-height: 1.25;
+    }
+    .consulting-desc {
+      font-size: 13.5px;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+      text-align: justify;
+    }
+    .consulting-list {
+      list-style: none;
+      margin-bottom: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .consulting-list li {
+      font-size: 13px;
+      color: #1e293b;
+      line-height: 1.5;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      text-align: justify;
+    }
+    .consulting-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 13.5px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .consulting-cta.primary {
+      background: #0284c7;
+      color: #ffffff;
+    }
+    .consulting-cta.primary:hover {
+      background: #0369a1;
+    }
+    .consulting-cta.dark {
+      background: #062a22;
+      color: #ffffff;
+    }
+    .consulting-cta.dark:hover {
+      background: #0b3d32;
+    }
+
   </style>
 </head>
 <body>
@@ -2339,7 +2657,9 @@
         <a href="#suite" class="nav-link">La Suite</a>
         <a href="#agentes" class="nav-link">19 Agentes</a>
         <a href="#simulador-grado" class="nav-link">Simulador Grado</a>
+        <a href="#buscador-corpus" class="nav-link" style="color:#38bdf8; font-weight:600;">🔎 Buscador &amp; Baremo</a>
         <a href="#herramientas" class="nav-link">88 Herramientas MCP</a>
+        <a href="#formacion-consultoria" class="nav-link" style="color:#86efac; font-weight:600;">🎓 Capacitación &amp; Consultoría</a>
         <a href="#doctrina" class="nav-link">Doctrina & Revistas (7.399)</a>
         <a href="#graphify" class="nav-link">Grafo jurídico</a>
         <a href="https://huggingface.co/spaces/pablobenavidesj/open-legal-chile-graph" target="_blank" rel="noreferrer" class="nav-link" style="color: var(--verify); font-weight: 600;">🌐 Grafo en Vivo</a>
@@ -2363,7 +2683,9 @@
         <a href="#suite" class="mobile-nav-item">🏛️ La Suite (5 Pilares)</a>
         <a href="#agentes" class="mobile-nav-item">🤖 19 Agentes Autónomos</a>
         <a href="#simulador-grado" class="mobile-nav-item">🎲 Simulador Socrático de Grado</a>
+        <a href="#buscador-corpus" class="mobile-nav-item">🔎 Buscador Multi-Corpus &amp; Baremo PJUD</a>
         <a href="#herramientas" class="mobile-nav-item">⚡ 88 Herramientas MCP</a>
+        <a href="#formacion-consultoria" class="mobile-nav-item">🎓 Capacitación, Consultoría &amp; Alianzas</a>
         <a href="#doctrina" class="mobile-nav-item">📚 Doctrina & Revistas (7.399)</a>
         <a href="#graphify" class="mobile-nav-item">🧠 Grafo jurídico (subgrafos)</a>
         <a href="https://huggingface.co/spaces/pablobenavidesj/open-legal-chile-graph" target="_blank" rel="noreferrer" class="mobile-nav-item" style="color: var(--verify); font-weight: 600;">🌐 Grafo Interactivo en Vivo (Space)</a>
@@ -2455,7 +2777,7 @@
             <!-- Layer 2: MCP Protocol -->
             <div class="suite-layer-card">
               <div class="suite-layer-head">
-                <span class="suite-layer-title">⚡ Servidor MCP Nativo (87 Tools)</span>
+                <span class="suite-layer-title">⚡ Servidor MCP Nativo (88 Tools)</span>
                 <span class="suite-layer-meta">Antigravity · Claude Code · Cursor · dsh</span>
               </div>
               <div class="suite-layer-sub">Integración universal vía Model Context Protocol en stdio / JSON-RPC 2.0. Conexión en 1 comando.</div>
@@ -2483,7 +2805,7 @@
             <div class="suite-layer-card">
               <div class="suite-layer-head">
                 <span class="suite-layer-title">🧭 Mesa de Entrada & Espacio de Casos</span>
-                <span class="suite-layer-meta">18 Skills · Espacio casos/ · Grafo Local</span>
+                <span class="suite-layer-meta">27 Skills · Espacio casos/ · Grafo Local</span>
               </div>
               <div class="suite-layer-sub">Entra una carpeta o consulta: se crea de inmediato casos/&lt;id_caso&gt;/, se normalizan antecedentes a Markdown canónico, se genera el subgrafo interactivo del caso con LegalGraphify y se ejecuta el plan contra las fuentes oficiales.</div>
             </div>
@@ -2531,7 +2853,7 @@
     <div class="adoption-container">
       <div class="adoption-grid">
         <div class="stat-card">
-          <div class="stat-num" data-target="87" data-suffix="">87</div>
+          <div class="stat-num" data-target="88" data-suffix="">88</div>
           <div class="stat-label">
             <span>Herramientas MCP</span>
             <span class="claim-tag" style="border-color: #0284c7; color: #0284c7; background: #e0f2fe;">[16 DOMINIOS]</span>
@@ -2583,7 +2905,7 @@
           <div class="stat-num" data-target="19" data-suffix="">19</div>
           <div class="stat-label">
             <span>Agentes Autónomos</span>
-            <span class="claim-tag">[18 SKILLS]</span>
+            <span class="claim-tag">[27 SKILLS]</span>
           </div>
         </div>
       </div>
@@ -3301,7 +3623,7 @@ relaciones_directas:
     <div style="margin-bottom: 20px;">
       <input type="text" id="toolSearchInput" class="search-input-legal" style="width: 100%; margin-bottom: 14px;" placeholder="Filtrar herramientas por nombre o descripción (ej: graphify, bcn, cbr, sentencia, pjud, sii)..." />
       <div class="mcp-filter-bar" id="toolFilterBar">
-        <button class="filter-btn active" data-cat="all">Todas (87)</button>
+        <button class="filter-btn active" data-cat="all">Todas (88)</button>
         <button class="filter-btn" data-cat="Protocolo & Citas">Protocolo & Citas (2)</button>
         <button class="filter-btn" data-cat="Agentes & IA Jurídica">Agentes & IA Jurídica (7)</button>
         <button class="filter-btn" data-cat="Doctrina & Graphify">Doctrina & Graphify (15)</button>
@@ -3309,7 +3631,7 @@ relaciones_directas:
         <button class="filter-btn" data-cat="CBR Inmobiliario">CBR Inmobiliario (2)</button>
         <button class="filter-btn" data-cat="Tribunales & PJUD">Tribunales & PJUD (9)</button>
         <button class="filter-btn" data-cat="Regulatorio & Fiscal">Regulatorio & Fiscal (17)</button>
-        <button class="filter-btn" data-cat="Suite & Utilidades">Suite & Utilidades (31)</button>
+        <button class="filter-btn" data-cat="Suite & Utilidades">Suite & Utilidades (32)</button>
       </div>
     </div>
 
@@ -3348,6 +3670,303 @@ relaciones_directas:
     </div>
   </section>
 
+  <!-- Step 04B: Buscador Interactivo Multi-Corpus, Baremo Daño Moral PJUD & Motor Data Science -->
+  <section id="buscador-corpus" class="step-section">
+    <span class="eyebrow-step">Data Science Jurídico · Hugging Face &amp; PJUD en Vivo</span>
+    <h2 class="step-h2">Buscador Multi-Corpus &amp; Calculadora Oficial del Baremo de Daño Moral PJUD</h2>
+    <p class="step-desc">
+      Explora en tiempo real las <strong>8 colecciones jurisprudenciales especializadas del Poder Judicial</strong> integradas en Hugging Face (<code>pablobenavidesj/doctrina-jurisprudencia-chile</code>) y calcula rangos indemnizatorios en <strong>UF y pesos chilenos (CLP)</strong> sobre <strong>2.137 sentencias reales sistematizadas por parentesco e instancia</strong> (Primera Instancia, Cortes de Apelaciones y Excma. Corte Suprema).
+    </p>
+
+    <!-- 8 Portales Especializados PJUD Grid -->
+    <div class="corpus-hub-grid">
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">70.536 Fichas</span>
+            <span>🏛️</span>
+          </div>
+          <div class="portal-stat-title">Corte Suprema General</div>
+          <p class="portal-stat-desc">Sentencias de todas las salas de la Excma. Corte Suprema con rol, fecha, ministros, descriptores y sumario.</p>
+        </div>
+        <a href="https://juris.pjud.cl/busqueda?Corte_Suprema" target="_blank" rel="noreferrer" class="portal-stat-link">juris.pjud.cl/Corte_Suprema →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">457 Líneas</span>
+            <span>🧭</span>
+          </div>
+          <div class="portal-stat-title">Líneas Jurisprudenciales CS</div>
+          <p class="portal-stat-desc">Criterios doctrinales rectores sistematizados por la Dirección de Estudios de la Corte Suprema.</p>
+        </div>
+        <a href="https://juris.pjud.cl/busqueda?Lineas_Jurisprudenciales" target="_blank" rel="noreferrer" class="portal-stat-link">Lineas_Jurisprudenciales →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">311 Fallos</span>
+            <span>🏥</span>
+          </div>
+          <div class="portal-stat-title">Compendio Salud / Isapres</div>
+          <p class="portal-stat-desc">Jurisprudencia de la Tercera Sala Constitucional sobre adecuación de planes, GES, tabla de factores y medicamentos de alto costo.</p>
+        </div>
+        <a href="https://juris.pjud.cl/busqueda?Salud_CS" target="_blank" rel="noreferrer" class="portal-stat-link">juris.pjud.cl/Salud_CS →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">162 Fallos</span>
+            <span>🛂</span>
+          </div>
+          <div class="portal-stat-title">Compendio de Extranjería</div>
+          <p class="portal-stat-desc">Sentencias sobre expulsiones administrativas, arraigo familiar, debido proceso migratorio y refugio (Ley N.° 21.325).</p>
+        </div>
+        <a href="https://juris.pjud.cl/busqueda?Compendio_Extranjer%C3%ADa" target="_blank" rel="noreferrer" class="portal-stat-link">Compendio_Extranjería →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">418 Fallos</span>
+            <span>🕊️</span>
+          </div>
+          <div class="portal-stat-title">Derechos Humanos PJUD</div>
+          <p class="portal-stat-desc">Buscador especializado de sentencias de Derechos Humanos, crímenes de lesa humanidad, imprescriptibilidad y estándares CIDH.</p>
+        </div>
+        <a href="https://busddhh.pjud.cl/buscador/sentencias-derechos-humanos" target="_blank" rel="noreferrer" class="portal-stat-link">busddhh.pjud.cl →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">188 Registros</span>
+            <span>💜</span>
+          </div>
+          <div class="portal-stat-title">Secretaría de Género PJUD</div>
+          <p class="portal-stat-desc">Repositorio oficial y Concurso de Sentencias con Perspectiva de Género, no discriminación e interseccionalidad.</p>
+        </div>
+        <a href="https://secretariadegenero.pjud.cl/index.php/repositorio" target="_blank" rel="noreferrer" class="portal-stat-link">secretariadegenero.pjud.cl →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">17 Vínculos · 2.137 Fallos</span>
+            <span>📊</span>
+          </div>
+          <div class="portal-stat-title">Baremo de Daño Moral PJUD</div>
+          <p class="portal-stat-desc">Estadística oficial PJUD-UdeC de indemnizaciones por daño moral por muerte en UF y CLP según vínculo de parentesco.</p>
+        </div>
+        <a href="https://baremo.pjud.cl/BAREMOWEB/" target="_blank" rel="noreferrer" class="portal-stat-link">baremo.pjud.cl/BAREMOWEB →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">1.853 Fallos Íntegros</span>
+            <span>🌿</span>
+          </div>
+          <div class="portal-stat-title">TC (967) &amp; Ambientales (886)</div>
+          <p class="portal-stat-desc">Sentencias a texto completo del Tribunal Constitucional y de los tres Tribunales Ambientales (1TA, 2TA y 3TA) + 79 boletines.</p>
+        </div>
+        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="portal-stat-link">Dataset Hugging Face →</a>
+      </div>
+    </div>
+
+    <!-- Interactive Baremo Calculator -->
+    <div class="baremo-Explorer-box">
+      <div class="baremo-header-row">
+        <div>
+          <span class="claim-tag" style="background:#e0f2fe; color:#0369a1; border-color:#bae6fd;">[ESTADÍSTICA OFICIAL PJUD · ARTS. 2314 Y 2329 CC]</span>
+          <h3 style="font-family: var(--font-display); font-size: 22px; font-weight: 700; color: #0f172a; margin-top: 6px;">
+            Calculadora Estadística del Baremo de Daño Moral por Muerte (UF y CLP)
+          </h3>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+          <label for="baremoParentescoSelect" style="font-size: 13px; font-weight: 600; color: #334155;">Vínculo del Demandante:</label>
+          <select id="baremoParentescoSelect" class="baremo-select"></select>
+        </div>
+      </div>
+
+      <div class="baremo-instances-grid" id="baremoInstancesGrid"></div>
+
+      <div style="background: #f1f5f9; border-radius: 10px; padding: 14px 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;">
+        <div style="font-size: 12.5px; color: #1e293b;">
+          <strong>Corchete Oficial verificable:</strong> <code id="baremoCitationCode" style="background:#ffffff; padding:3px 8px; border-radius:4px; border:1px solid #cbd5e1; font-family:var(--font-mono);"></code>
+        </div>
+        <button id="btnCopyBaremoCita" class="btn-socratic-action" style="padding: 7px 14px; font-size: 12px;">
+          📋 Copiar Cita Oficial
+        </button>
+      </div>
+
+      <div style="margin-top: 18px;">
+        <div style="font-size: 12px; font-family: var(--font-mono); text-transform: uppercase; color: #475569; font-weight: 700; margin-bottom: 6px;">
+          Sentencias Reales Destacadas en este Vínculo (con descarga directa en baremo.pjud.cl):
+        </div>
+        <div style="overflow-x: auto;">
+          <table class="baremo-samples-table" id="baremoSamplesTable">
+            <thead>
+              <tr>
+                <th>Rol / Instancia</th>
+                <th>Corte de Apelaciones</th>
+                <th>Juzgado de Origen</th>
+                <th>Fecha</th>
+                <th>Monto (UF / CLP)</th>
+                <th>Sentencia Oficial</th>
+              </tr>
+            </thead>
+            <tbody id="baremoSamplesBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Multi-Corpus Sample Explorer -->
+    <div style="background: #ffffff; border: 1px solid var(--border); border-radius: 16px; padding: 24px;">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px;">
+        <div>
+          <h3 style="font-family: var(--font-display); font-size: 19px; font-weight: 700; color: var(--foreground);">
+            Explorador Rápido de Fallos Especializados (Líneas CS, Salud, Extranjería, DD.HH. y Género)
+          </h3>
+          <p style="font-size: 13px; color: var(--muted);">
+            Filtra por colección especializada o busca por materia, rol o descriptor para previsualizar el formato canónico con cita oficial.
+          </p>
+        </div>
+        <div class="mcp-filter-bar" id="pjudCorpusFilterBar" style="margin-bottom: 0;">
+          <button class="filter-btn active" data-pjud-col="all">Todas las Colecciones</button>
+          <button class="filter-btn" data-pjud-col="lineas_cs">Líneas CS</button>
+          <button class="filter-btn" data-pjud-col="salud_cs">Salud / Isapres</button>
+          <button class="filter-btn" data-pjud-col="extranjeria_cs">Extranjería</button>
+          <button class="filter-btn" data-pjud-col="ddhh">Derechos Humanos</button>
+          <button class="filter-btn" data-pjud-col="genero">Perspectiva de Género</button>
+        </div>
+      </div>
+
+      <input type="text" id="pjudCorpusSearchInput" class="search-input-legal" style="width: 100%; margin-bottom: 16px;" placeholder="Buscar en fallos especializados (ej: isapre, ges, expulsión, arraigo, lesa humanidad, violencia, cuidado personal)..." />
+
+      <div class="tools-grid" id="pjudCorpusGrid"></div>
+    </div>
+
+    <!-- Data Science Architecture Triad -->
+    <div class="ds-triad-grid">
+      <div class="ds-card">
+        <span class="ds-card-tag">1. Recuperación Léxico-Morfológica</span>
+        <div class="ds-card-title">Okapi BM25F + 4-Gramas en Memoria</div>
+        <p class="ds-card-desc">
+          El motor de sincronización con Hugging Face (<code>online_library_sync.py</code>) indexa las 25.556 instituciones con pesos IDF por campo (título ×3.5, palabras clave ×2.5, ruta ×1.8) y saturación no lineal (k1=1.5, b=0.75), más un índice de 4-gramas de caracteres y <code>ThreadPoolExecutor</code> paralelo para tolerar variaciones morfológicas sin latencia de red.
+        </p>
+      </div>
+
+      <div class="ds-card">
+        <span class="ds-card-tag">2. Topología de Grafos Jurídicos</span>
+        <div class="ds-card-title">Personalized PageRank (α = 0.85)</div>
+        <p class="ds-card-desc">
+          <code>LegalGraphifyEngine</code> resuelve el nodo semilla ponderando la especificidad IDF de cada término jurídico y ejecuta <em>Random Walk with Restart</em> sobre el ego-subgrafo de 2 saltos (<code>ranking_ppr_subgrafo</code>), priorizando los artículos BCN y fallos de la Corte Suprema estructuralmente más centrales para la institución consultada.
+        </p>
+      </div>
+
+      <div class="ds-card">
+        <span class="ds-card-tag">3. Revisión Adversarial Aislada</span>
+        <div class="ds-card-title">Modelo Contradictorio Elephant-Goldfish</div>
+        <p class="ds-card-desc">
+          Inspirado en <code>google/elephant-goldfish-model</code>, la herramienta <code>critique_documento(modo="goldfish")</code> separa al agente redactor (<em>Elefante</em>, con memoria del caso) del auditor contradictorio (<em>Goldfish</em>, con amnesia deliberada de las excusas del litigante), auditando ineptitud del libelo (Art. 303 N.° 4 CPC), caducidad, prescripción y orfandad probatoria.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 05B: Formación Ejecutiva, Consultoría On-Premise y Alianzas Institucionales -->
+  <section id="formacion-consultoria" class="step-section">
+    <span class="eyebrow-step">Sostenibilidad Open Source · Formación, Consultoría &amp; Alianzas</span>
+    <h2 class="step-h2">Capacitación Ejecutiva, Despliegue Privado On-Premise y Alianzas Académicas</h2>
+    <p class="step-desc">
+      El núcleo de <strong>Open Legal Chile</strong> (sus 88 herramientas MCP, 19 agentes autónomos, 27 skills y el corpus en Hugging Face) es un <strong>bien público digital 100 % gratuito bajo licencia Apache 2.0</strong>. Para estudios jurídicos, gerencias legales, organismos públicos y universidades que buscan dominar la IA jurídica soberana o desplegar infraestructura privada en sus propios servidores, ofrecemos tres modalidades de trabajo directo:
+    </p>
+
+    <div class="consulting-grid">
+      <!-- Propuesta 1 -->
+      <div class="consulting-card featured">
+        <div>
+          <span class="consulting-badge" style="background:#0284c7; color:#ffffff;">🎓 Propuesta 1 · Más Solicitada</span>
+          <h3 class="consulting-title">Charlas Magistrales, Bootcamps y Capacitación In-Company</h3>
+          <p class="consulting-desc">
+            Programas de formación ejecutiva y talleres prácticos diseñados para socios y equipos de estudios jurídicos, fiscalías corporativas, reparticiones del Estado, colegios de abogados y postgrados universitarios.
+          </p>
+          <ul class="consulting-list">
+            <li><span>✅</span><span><strong>IA Jurídica sin Alucinaciones:</strong> Triangulación estricta entre ley positiva (BCN), doctrina canónica (Hugging Face) y jurisprudencia vinculante (PJUD, CGR, DT, SII).</span></li>
+            <li><span>✅</span><span><strong>Litigación OJV y Auditoría Goldfish:</strong> Redacción forense en Word (.docx) con citas a pie de página, cálculo de daño moral con el Baremo PJUD y examen contradictorio previo al ingreso judicial.</span></li>
+            <li><span>✅</span><span><strong>Dominio de Harnesses de Vanguardia:</strong> Configuración práctica de Google Antigravity, Claude Code, Cursor y automatización de despacho con Google Workspace MCP.</span></li>
+          </ul>
+        </div>
+        <a href="mailto:pablobenavidesjorquera@gmail.com?subject=Consulta%20Charla%20o%20Capacitaci%C3%B3n%20In-Company%20-%20Open%20Legal%20Chile" class="consulting-cta primary">
+          ✉️ Solicitar Programa de Capacitación
+        </a>
+      </div>
+
+      <!-- Propuesta 2 -->
+      <div class="consulting-card">
+        <div>
+          <span class="consulting-badge" style="background:#dcfce7; color:#166534;">🛡️ Propuesta 2 · Zero Data Leak</span>
+          <h3 class="consulting-title">Consultoría «Llave en Mano» y Despliegue Privado On-Premise</h3>
+          <p class="consulting-desc">
+            Instalación y personalización de una instancia soberana de Open Legal Chile dentro de los servidores locales, nube privada (VPC) o estaciones de trabajo de su estudio jurídico o gerencia legal.
+          </p>
+          <ul class="consulting-list">
+            <li><span>🔒</span><span><strong>Ingesta Privada del Conocimiento del Estudio:</strong> Indexación con Okapi BM25F, SQLite FTS5 y subgrafos <code>LegalGraphify</code> sobre sus propios contratos históricos, informes en derecho y escritos judiciales.</span></li>
+            <li><span>🔒</span><span><strong>Plantillas y Estilo Institucional:</strong> Adaptación de <code>generar_documento</code> a los formatos, membretes, matrices de riesgo y cláusulas corporativas del despacho.</span></li>
+            <li><span>🔒</span><span><strong>Secreto Profesional Absoluto:</strong> Ejecución 100 % local o con modelos privados (Ollama / vLLM / endpoints corporativos), en estricto cumplimiento de la Ley N.° 21.719 de Datos Personales.</span></li>
+          </ul>
+        </div>
+        <a href="mailto:pablobenavidesjorquera@gmail.com?subject=Consulta%20Implementaci%C3%B3n%20On-Premise%20Llave%20en%20Mano%20-%20Open%20Legal%20Chile" class="consulting-cta dark">
+          🛡️ Agendar Diagnóstico de Arquitectura
+        </a>
+      </div>
+
+      <!-- Propuesta 4 -->
+      <div class="consulting-card">
+        <div>
+          <span class="consulting-badge" style="background:#f3e8ff; color:#7e22ce;">🤝 Propuesta 4 · Academia &amp; I+D</span>
+          <h3 class="consulting-title">Alianzas Universitarias, Clínicas Jurídicas y Patrocinios</h3>
+          <p class="consulting-desc">
+            Convenios de colaboración académica, patrocinios institucionales y postulación conjunta a fondos de investigación y bienes públicos digitales para democratizar el acceso a la justicia en Chile.
+          </p>
+          <ul class="consulting-list">
+            <li><span>🏛️</span><span><strong>Laboratorios de IA y Simulador de Grado:</strong> Despliegue del Simulador Socrático de Examen de Grado y herramientas de Lenguaje Claro en facultades de Derecho y Clínicas Jurídicas (CAJ).</span></li>
+            <li><span>🏛️</span><span><strong>Digitalización y Co-Edición Científica:</strong> Incorporación de revistas jurídicas universitarias, anuarios y compendios sectoriales al mapa de conocimiento en Hugging Face.</span></li>
+            <li><span>🏛️</span><span><strong>Patrocinios y Fondos Concursables:</strong> Alianzas para proyectos ANID, innovación pública e infraestructura jurídica abierta a nivel latinoamericano.</span></li>
+          </ul>
+        </div>
+        <a href="mailto:pablobenavidesjorquera@gmail.com?subject=Alianza%20Acad%C3%A9mica%20o%20Patrocinio%20Institucional%20-%20Open%20Legal%20Chile" class="consulting-cta dark">
+          🤝 Proponer Alianza o Patrocinio
+        </a>
+      </div>
+    </div>
+
+    <!-- Direct Contact Banner -->
+    <div style="margin-top: 26px; background: linear-gradient(135deg, #062a22 0%, #0b3d32 100%); border-radius: 16px; padding: 24px 28px; color: #ffffff; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; border: 1px solid rgba(74, 222, 128, 0.3);">
+      <div>
+        <div style="font-size: 12px; font-family: var(--font-mono); color: #86efac; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">
+          Contacto Directo con el Autor y Director del Proyecto
+        </div>
+        <div style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: #ffffff;">
+          Pablo Benavides Jorquera · <a href="mailto:pablobenavidesjorquera@gmail.com" style="color: #38bdf8; text-decoration: underline;">pablobenavidesjorquera@gmail.com</a>
+        </div>
+        <div style="font-size: 13px; color: rgba(255, 255, 255, 0.78); margin-top: 4px;">
+          Escríbenos directamente para coordinar charlas magistrales, talleres prácticos para tu equipo legal, despliegues privados on-premise o convenios universitarios.
+        </div>
+      </div>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="mailto:pablobenavidesjorquera@gmail.com" class="btn-hero-primary" style="background: #38bdf8; color: #062a22; font-weight: 700; border: none;">
+          📬 pablobenavidesjorquera@gmail.com
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer (Graphify Aesthetic) -->
   <footer class="footer-section">
     <div class="footer-container">
@@ -3360,6 +3979,7 @@ relaciones_directas:
           La suite abierta de inteligencia jurídica y knowledge graph para el Derecho Continental de la República de Chile.
         </p>
         <span class="claim-tag" style="margin-top: 8px;">Licencia Apache 2.0 · Open Source</span>
+        <p style="font-size: 12.5px; color: rgba(255,255,255,0.85); margin-top: 10px; font-family: var(--font-mono);">📬 Contacto &amp; Consultoría: <a href="mailto:pablobenavidesjorquera@gmail.com" style="color: #38bdf8; text-decoration: underline;">pablobenavidesjorquera@gmail.com</a></p>
       </div>
 
       <div>
@@ -3382,6 +4002,8 @@ relaciones_directas:
           <li><a href="https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile" target="_blank" rel="noreferrer" class="footer-link">Smithery.ai MCP Registry</a></li>
           <li><a href="#herramientas" class="footer-link">Catálogo 88 MCP Tools</a></li>
           <li><a href="#graphify" class="footer-link">Grafo jurídico</a></li>
+          <li><a href="#buscador-corpus" class="footer-link">Baremo Daño Moral PJUD</a></li>
+          <li><a href="#formacion-consultoria" class="footer-link">Capacitación &amp; Consultoría On-Premise</a></li>
         </ul>
       </div>
 
@@ -3501,7 +4123,7 @@ relaciones_directas:
     "name": "pjud_search_jurisprudencia",
     "category": "Tribunales & PJUD",
     "description": "Busca jurisprudencia en el corpus local cosechado —70.523 sentencias de la Corte Suprema de los últimos dos años, 966 del Tribu...",
-    "full_description": "Busca jurisprudencia en el corpus local cosechado —70.523 sentencias de la Corte Suprema de los últimos dos años, 966 del Tribunal Constitucional y los fallos rectores CS/TC— por carátula, materia, recurso, resultado y doctrina; insensible a acentos."
+    "full_description": "Busca jurisprudencia en el corpus local cosechado —70.523 sentencias de la Corte Suprema de los últimos dos años, 966 del Tribunal Constitucional, fallos rectores CS/TC y portales especializados PJUD (Líneas Jurisprudenciales CS, Salud/Isapres, Compendio de Extranjería, Derechos Humanos, Secretaría de Género y Baremo Estadístico de Daño Moral en UF/CLP)— por carátula, materia, recurso, resultado y doctrina; insensible a acentos."
   },
   {
     "name": "export_brief_ojv",
@@ -3908,8 +4530,8 @@ relaciones_directas:
   {
     "name": "critique_documento",
     "category": "Tribunales & PJUD",
-    "description": "Auditoría forense de un borrador judicial (5 dimensiones: hecho, derecho, prueba, procedimiento y estrategia) con el motor de c...",
-    "full_description": "Auditoría forense de un borrador judicial (5 dimensiones: hecho, derecho, prueba, procedimiento y estrategia) con el motor de crítica del producto."
+    "description": "Auditoría forense de un borrador judicial (5 dimensiones: hecho, derecho, prueba, procedimiento y estrategia, o modo 'goldfish'...",
+    "full_description": "Auditoría forense de un borrador judicial (5 dimensiones: hecho, derecho, prueba, procedimiento y estrategia, o modo 'goldfish' de revisión contradictoria de contexto cero inspirado en google/elephant-goldfish-model) con el motor de crítica del producto."
   },
   {
     "name": "generar_documento",
@@ -4165,702 +4787,23 @@ autores_relevantes:
     }
 
     // Filter Buttons listeners
-    document.querySelectorAll('.filter-btn').forEach(btn => {
+    document.querySelectorAll('#toolFilterBar .filter-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('#toolFilterBar .filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         currentCategory = btn.dataset.cat;
         renderTools();
-
-    // ==========================================
-    // 1. PLAYFUL HERO GRAPH CANVAS ANIMATION
-    // ==========================================
-    (function initHeroGraphCanvas() {
-      const canvas = document.getElementById('heroGraphCanvas');
-      if (!canvas) return;
-      const ctx = canvas.getContext('2d');
-      if (!ctx) return;
-
-      let width = canvas.width = canvas.parentElement.offsetWidth || window.innerWidth;
-      let height = canvas.height = canvas.parentElement.offsetHeight || 600;
-
-      window.addEventListener('resize', () => {
-        width = canvas.width = canvas.parentElement.offsetWidth || window.innerWidth;
-        height = canvas.height = canvas.parentElement.offsetHeight || 600;
-      });
-
-      const LEGAL_LABELS = [
-        "Art. 1545 CC", "Buena Fe", "Ley Karin (21.643)", "Art. 161 CT", "Art. 170 CPC", 
-        "CGR Dictámenes", "DT Doctrina", "OJV Proveídos", "LegalGraphify", "BCN Leyes", 
-        "SMA SNIFA", "1TA/2TA/3TA", "CBR Títulos", "Peñailillo", "Barros Bourie", 
-        "Ramos Pazos", "Daño Moral", "FTS5 SQLite", "Auto Acordado", "Art. 19 N° 24 CPR", 
-        "TDLC Antimonopolio", "CMF Finanzas", "Simulación", "Nulidad Absoluta", "Mora Purga la Mora", 
-        "Lesión Enorme", "Art. 1464 CC", "Subsunción Tripartita", "Pacto Comisorio", "Mandato Art. 7 CPC"
-      ];
-
-      const nodes = [];
-      const NODE_COUNT = Math.min(36, Math.floor(width / 32));
-
-      for (let i = 0; i < NODE_COUNT; i++) {
-        nodes.push({
-          x: Math.random() * width,
-          y: Math.random() * height,
-          vx: (Math.random() - 0.5) * 0.75,
-          vy: (Math.random() - 0.5) * 0.75,
-          radius: 3 + Math.random() * 2.5,
-          label: LEGAL_LABELS[i % LEGAL_LABELS.length],
-          color: (i % 3 === 0) ? "#38bdf8" : (i % 3 === 1 ? "#34d399" : "#fbbf24")
-        });
-      }
-
-      let mouse = { x: -9999, y: -9999, radius: 140 };
-
-      window.addEventListener('mousemove', (e) => {
-        const rect = canvas.getBoundingClientRect();
-        mouse.x = e.clientX - rect.left;
-        mouse.y = e.clientY - rect.top;
-      });
-
-      window.addEventListener('mouseleave', () => {
-        mouse.x = -9999;
-        mouse.y = -9999;
-      });
-
-      // Click ripple / pulse
-      canvas.parentElement.addEventListener('click', (e) => {
-        const rect = canvas.getBoundingClientRect();
-        const cx = e.clientX - rect.left;
-        const cy = e.clientY - rect.top;
-        nodes.forEach(n => {
-          const dx = n.x - cx;
-          const dy = n.y - cy;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 220 && dist > 0) {
-            const force = (220 - dist) / 22;
-            n.vx += (dx / dist) * force;
-            n.vy += (dy / dist) * force;
-          }
-        });
-      });
-
-      function animate() {
-        if (document.hidden) {
-          requestAnimationFrame(animate);
-          return;
-        }
-
-        ctx.clearRect(0, 0, width, height);
-
-        // Update positions & draw edges
-        for (let i = 0; i < nodes.length; i++) {
-          const n = nodes[i];
-          n.x += n.vx;
-          n.y += n.vy;
-
-          if (n.x < 10) { n.x = 10; n.vx *= -1; }
-          if (n.x > width - 10) { n.x = width - 10; n.vx *= -1; }
-          if (n.y < 10) { n.y = 10; n.vy *= -1; }
-          if (n.y > height - 10) { n.y = height - 10; n.vy *= -1; }
-
-          // Slight mouse attraction/repulsion
-          const mdx = n.x - mouse.x;
-          const mdy = n.y - mouse.y;
-          const mdist = Math.sqrt(mdx * mdx + mdy * mdy);
-          if (mdist < mouse.radius) {
-            const angle = Math.atan2(mdy, mdx);
-            n.x += Math.cos(angle) * 1.8;
-            n.y += Math.sin(angle) * 1.8;
-            
-            // Connect to mouse with glowing beam
-            ctx.beginPath();
-            ctx.moveTo(n.x, n.y);
-            ctx.lineTo(mouse.x, mouse.y);
-            ctx.strokeStyle = `rgba(56, 189, 248, ${(1 - mdist / mouse.radius) * 0.45})`;
-            ctx.lineWidth = 1;
-            ctx.stroke();
-          }
-
-          // Connect with nearby nodes
-          for (let j = i + 1; j < nodes.length; j++) {
-            const n2 = nodes[j];
-            const dx = n.x - n2.x;
-            const dy = n.y - n2.y;
-            const dist = Math.sqrt(dx * dx + dy * dy);
-            if (dist < 130) {
-              ctx.beginPath();
-              ctx.moveTo(n.x, n.y);
-              ctx.lineTo(n2.x, n2.y);
-              ctx.strokeStyle = `rgba(255, 255, 255, ${(1 - dist / 130) * 0.18})`;
-              ctx.lineWidth = 0.8;
-              ctx.stroke();
-            }
-          }
-        }
-
-        // Draw nodes and subtle labels
-        ctx.font = '10px ui-monospace, SFMono-Regular, Menlo, monospace';
-        for (let i = 0; i < nodes.length; i++) {
-          const n = nodes[i];
-          ctx.beginPath();
-          ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
-          ctx.fillStyle = n.color;
-          ctx.shadowColor = n.color;
-          ctx.shadowBlur = 8;
-          ctx.fill();
-          ctx.shadowBlur = 0;
-
-          // Draw label
-          ctx.fillStyle = "rgba(255, 255, 255, 0.55)";
-          ctx.fillText(n.label, n.x + n.radius + 4, n.y + 3);
-        }
-
-        requestAnimationFrame(animate);
-      }
-
-      animate();
-    })();
-
-    // ==========================================
-    // 2. ANIMATED COUNT-UP NUMBERS
-    // ==========================================
-    (function initCountUp() {
-      const statNums = document.querySelectorAll('.stat-num[data-target]');
-      if (!statNums.length) return;
-
-      const observer = new IntersectionObserver((entries, obs) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const el = entry.target;
-            const targetVal = parseFloat(el.getAttribute('data-target'));
-            const suffix = el.getAttribute('data-suffix') || '';
-            const isFloat = targetVal % 1 !== 0;
-            const duration = 1400; // ms
-            const startTime = performance.now();
-
-            function updateCounter(currentTime) {
-              const elapsed = currentTime - startTime;
-              const progress = Math.min(elapsed / duration, 1);
-              // EaseOutQuart
-              const ease = 1 - Math.pow(1 - progress, 4);
-              const current = targetVal * ease;
-
-              if (isFloat) {
-                el.textContent = current.toFixed(1).replace('.', ',') + suffix;
-              } else {
-                const rounded = Math.floor(current);
-                el.textContent = rounded.toLocaleString('es-CL').replace(',', '.') + suffix;
-              }
-
-              if (progress < 1) {
-                requestAnimationFrame(updateCounter);
-              } else {
-                if (isFloat) {
-                  el.textContent = targetVal.toFixed(1).replace('.', ',') + suffix;
-                } else {
-                  el.textContent = targetVal.toLocaleString('es-CL').replace(',', '.') + suffix;
-                }
-              }
-            }
-
-            requestAnimationFrame(updateCounter);
-            obs.unobserve(el);
-          }
-        });
-      }, { threshold: 0.25 });
-
-      statNums.forEach(el => observer.observe(el));
-    })();
-
-    // ==========================================
-    // 3. SOCRATIC BAR EXAM SIMULATOR
-    // ==========================================
-    (function initSocraticSimulator() {
-      const CEDULAS_DATA = [
-        {
-          id: 1,
-          cat: "civil-obligaciones",
-          meta: "Cédula N° 14 · Derecho Civil: Teoría del Contrato",
-          question: "Candidato, examine el alcance del Art. 1464 N° 3 del Código Civil. ¿Constituye objeto ilícito la enajenación forzada efectuada en remate judicial cuando existe otro embargo o medida precautoria sobre el mismo bien? Exponga la evolución dogmática y el criterio uniforme de la Excma. Corte Suprema.",
-          positive: "<strong>[BCN - Código Civil, Art. 1464 N° 3]:</strong> 'Hay un objeto ilícito en la enajenación: 3.° De las cosas embargadas por decreto judicial, a menos que el juez lo autorice o el acreedor consienta en ello'. Concatenado con Art. 10 y 1682 (Nulidad absoluta).",
-          dogmatic: "<strong>[Doctrina - Daniel Peñailillo Arévalo, Los Bienes]:</strong> Se debate si el remate forzado califica como 'enajenación' voluntaria. Tratadistas históricos (Claro Solar, Somarriva) exigían autorización del juez que decretó el embargo preventivo. La doctrina moderna de Peñailillo enfatiza la protección registral de terceros y la subrogación real sobre el precio de subasta.",
-          judicial: "<strong>[CS - Rol N° 1.289-2020]:</strong> La Primera Sala Civil de la Excma. Corte Suprema resolvió que la subasta forzada no purga automáticamente embargos vigentes de otros juzgados; se requiere que el juez que ordenó el embargo autorice la enajenación para evitar la nulidad por objeto ilícito.",
-          bracket: "[BCN - Código Civil, Art. 1464 N° 3] · [CS - Rol N° 1.289-2020] · [Doctrina - Peñailillo, Los Bienes, Institución: Embargo]"
-        },
-        {
-          id: 2,
-          cat: "civil-obligaciones",
-          meta: "Cédula N° 22 · Derecho Civil: Fuerza Obligatoria & Imprevisión",
-          question: "Candidato, frente a alteraciones sobrevinientes, imprevistas y gravosas en la economía del contrato, ¿procede la revisión judicial de las obligaciones conforme al Código Civil chileno o rige inexorablemente el Art. 1545? Contraste el principio Pacta Sunt Servanda con el deber de Buena Fe del Art. 1546.",
-          positive: "<strong>[BCN - Código Civil, Arts. 1545 y 1546]:</strong> 'Todo contrato legalmente celebrado es una ley para los contratantes...' / 'Los contratos deben ejecutarse de buena fe... obligan no sólo a lo que en ellos se expresa'.",
-          dogmatic: "<strong>[Doctrina - Jorge López Santa María, Los Contratos]:</strong> Análisis de la Teoría de la Imprevisión. Mientras la doctrina clásica rechaza la revisión judicial bajo el dogma de la autonomía de la voluntad, la dogmática moderna (López Santa María, Barros Bourie) funda la revisión o resolución en la cláusula rebus sic stantibus derivada de la buena fe objetiva y la equivalencia prestacional.",
-          judicial: "<strong>[CS - Rol N° 23.411-2019]:</strong> La Corte Suprema ha reconocido que la buena fe objetiva (Art. 1546) modula el rigor estricto del Art. 1545 en situaciones extremas de desequilibrio contractual, facultando la renegociación de buena fe.",
-          bracket: "[BCN - Código Civil, Arts. 1545 y 1546] · [CS - Rol N° 23.411-2019] · [Doctrina - López Santa María, Los Contratos]"
-        },
-        {
-          id: 3,
-          cat: "civil-responsabilidad",
-          meta: "Cédula N° 31 · Derecho Civil: Responsabilidad Extracontractual",
-          question: "Candidato, determine la titularidad activa para demandar la indemnización del daño moral en caso de lesiones graves o muerte de la víctima directa. ¿Quiénes están legitimados como víctimas por rebote y bajo qué presupuestos opera la presunción de causalidad conforme a Barros Bourie?",
-          positive: "<strong>[BCN - Código Civil, Arts. 2314 y 2329]:</strong> 'El que ha cometido un delito o cuasidelito que ha inferido daño a otro, es obligado a la indemnización...' / Art. 2329: 'Por regla general todo daño que pueda imputarse a malicia o negligencia de otra persona, debe ser reparado'.",
-          dogmatic: "<strong>[Doctrina - Enrique Barros Bourie, Responsabilidad Extracontractual]:</strong> La acción por daño moral 'por rebote' o repercusión es originaria y no heredada. Corresponde a quienes acrediten un dolor o aflicción personal, directa y cierta vinculada por causalidad natural y juicio de imputación objetiva con el hecho ilícito.",
-          judicial: "<strong>[CS - Rol N° 45.102-2022]:</strong> La Corte Suprema ha consolidado que la indemnización por daño moral por rebote no se limita exclusivamente a herederos forzosos del Art. 983, sino a cualquier persona que acredite un vínculo de afecto y convivencia real con la víctima directa.",
-          bracket: "[BCN - Código Civil, Arts. 2314 y 2329] · [CS - Rol N° 45.102-2022] · [Doctrina - Barros Bourie, Tratado de Responsabilidad]"
-        },
-        {
-          id: 4,
-          cat: "civil-bienes",
-          meta: "Cédula N° 9 · Derecho Civil: Teoría de la Posesión Inscrita",
-          question: "Candidato, exponga la llamada 'Teoría de la Posesión Inscrita' en el sistema registral chileno. Si un sujeto ocupa materialmente un inmueble inscrito a nombre de otro durante más de 10 años, ¿puede adquirirlo por prescripción adquisitiva extraordinaria conforme a los Arts. 724, 728, 2505 y 2510 del Código Civil?",
-          positive: "<strong>[BCN - Código Civil, Arts. 724, 728 y 2505]:</strong> 'Si la cosa es de aquellas cuya tradición deba hacerse por inscripción... nadie puede adquirir la posesión de ella sino por este medio' / Art. 2505: 'Contra un título inscrito no tendrá lugar la prescripción adquisitiva... sino en virtud de otro título inscrito'.",
-          dogmatic: "<strong>[Doctrina - Manuel Somarriva & Daniel Peñailillo]:</strong> Debate clásico entre la tesis de la 'garantía absoluta' (no hay posesión material capaz de prescribir contra inscripción) y la tesis de la 'posesión material prevalente' (sustentada por Humberto Trucco en prescripción extraordinaria del Art. 2510 regla 1ª).",
-          judicial: "<strong>[CS - Rol N° 12.870-2021]:</strong> Criterio uniforme y reiterado de la Excma. Corte Suprema: el Art. 2505 no distingue entre prescripción ordinaria y extraordinaria. Para prescribir contra título inscrito se requiere imperativamente de otro título inscrito; el mero ocupante material es un mero tenedor o precario sin aptitud posesoria exclusiva.",
-          bracket: "[BCN - Código Civil, Arts. 728 y 2505] · [CS - Rol N° 12.870-2021] · [Doctrina - Peñailillo, Los Bienes, Institución: Posesión Inscrita]"
-        },
-        {
-          id: 5,
-          cat: "procesal-civil",
-          meta: "Cédula N° 40 · Derecho Procesal: Medidas Precautorias",
-          question: "Candidato, analice los presupuestos procesales copulativos (humo de buen derecho y peligro en la mora) para decretar la medida prejudicial o precautoria de prohibición de celebrar actos y contratos del Art. 290 N° 4 del CPC. ¿Exige caución obligatoria o es facultativa para el tribunal?",
-          positive: "<strong>[BCN - Código de Procedimiento Civil, Arts. 290 N° 4, 298 y 301]:</strong> Exige acompañar comprobantes que constituyan a lo menos presunción grave del derecho que se reclama. La caución es facultativa para el tribunal en el Art. 298, pero obligatoria en medidas prejudiciales precautorias del Art. 279.",
-          dogmatic: "<strong>[Doctrina - Mario Mosquera & Cristián Maturana, Los Recursos Procesales]:</strong> La medida del Art. 290 N° 4 es la más intensa del catálogo cautelar civil, pues paraliza la facultad de disposición. Requiere examen estricto de proporcionalidad entre el riesgo patrimonial invocado y el gravamen impuesto al demandado.",
-          judicial: "<strong>[C.A. de Santiago - Rol N° 1.450-2023]:</strong> La Ilustrísima Corte ha revocado precautorias dictadas sin antecedentes documentales calificados, enfatizando que la sola presentación de la demanda no constituye presunción grave del derecho demandado.",
-          bracket: "[BCN - Código de Procedimiento Civil, Arts. 290 y 298] · [C.A. de Santiago - Rol N° 1.450-2023] · [Doctrina - Maturana, Tutela Cautelar]"
-        }
-      ];
-
-      let currentDeckFilter = "all";
-      let activeCedula = CEDULAS_DATA[0];
-
-      function renderCedula(cedula) {
-        activeCedula = cedula;
-        document.getElementById('cedulaMeta').textContent = cedula.meta;
-        document.getElementById('socraticQuestionText').textContent = `"${cedula.question}"`;
-        document.getElementById('rubricPositive').innerHTML = cedula.positive;
-        document.getElementById('rubricDogmatic').innerHTML = cedula.dogmatic;
-        document.getElementById('rubricJudicial').innerHTML = cedula.judicial;
-        document.getElementById('rubricQuote').innerHTML = `<strong>Corchete Oficial para Cita Forense:</strong> <code>${cedula.bracket.replace(/ · /g, '</code> · <code>')}</code>`;
-        
-        // Reset state
-        document.getElementById('canonicalRubric').style.display = 'none';
-        document.getElementById('feedbackBanner').style.display = 'none';
-        document.getElementById('studentAnswerInput').value = '';
-      }
-
-      function pickRandomCedula() {
-        const pool = (currentDeckFilter === "all") 
-          ? CEDULAS_DATA 
-          : CEDULAS_DATA.filter(c => c.cat === currentDeckFilter);
-        
-        if (!pool.length) return;
-        const available = pool.filter(c => c.id !== activeCedula.id);
-        const next = available.length ? available[Math.floor(Math.random() * available.length)] : pool[0];
-        renderCedula(next);
-      }
-
-      // Deck buttons
-      document.querySelectorAll('[data-cedula-cat]').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('[data-cedula-cat]').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          currentDeckFilter = btn.dataset.cedulaCat;
-          pickRandomCedula();
-        });
-      });
-
-      // Reroll button
-      const btnReroll = document.getElementById('btnRerollCedula');
-      if (btnReroll) btnReroll.addEventListener('click', pickRandomCedula);
-
-      // Reveal Rubric
-      const btnReveal = document.getElementById('btnRevealRubric');
-      const rubricEl = document.getElementById('canonicalRubric');
-      if (btnReveal && rubricEl) {
-        btnReveal.addEventListener('click', () => {
-          const isHidden = rubricEl.style.display === 'none';
-          rubricEl.style.display = isHidden ? 'block' : 'none';
-          btnReveal.innerHTML = isHidden 
-            ? '<span>🙈 Ocultar Rúbrica Canónica</span>' 
-            : '<span>💡 Revelar Rúbrica Canónica (3 Pilares)</span>';
-        });
-      }
-
-      // Evaluate practice
-      const btnEval = document.getElementById('btnEvaluatePractice');
-      const feedbackEl = document.getElementById('feedbackBanner');
-      if (btnEval && feedbackEl) {
-        btnEval.addEventListener('click', () => {
-          const answer = document.getElementById('studentAnswerInput').value.trim();
-          feedbackEl.style.display = 'block';
-          if (answer.length < 15) {
-            feedbackEl.style.background = '#fef2f2';
-            feedbackEl.style.borderColor = '#fca5a5';
-            feedbackEl.style.color = '#991b1b';
-            feedbackEl.innerHTML = `⚠️ <strong>Respuesta insuficiente:</strong> El tribunal examinador exige un planteamiento articulado. Menciona al menos el artículo de la ley, el tratadista de cabecera y el criterio jurisprudencial para aprobar.`;
-          } else {
-            feedbackEl.style.background = '#ecfdf5';
-            feedbackEl.style.borderColor = '#a7f3d0';
-            feedbackEl.style.color = '#065f46';
-            feedbackEl.innerHTML = `🎓 <strong>Voto de Distinción de la Comisión:</strong> Has demostrado dominio argumentativo. Coteja tu razonamiento con los 3 pilares oficiales en la rúbrica desplegada a continuación.`;
-            rubricEl.style.display = 'block';
-            if (btnReveal) btnReveal.innerHTML = '<span>🙈 Ocultar Rúbrica Canónica</span>';
-          }
-        });
-      }
-
-      // Initialize with first cedula
-      renderCedula(CEDULAS_DATA[0]);
-    })();
-    
       });
     });
 
-    // Tool search input
-    document.getElementById('toolSearchInput').addEventListener('input', (e) => {
-      currentSearchTerm = e.target.value.toLowerCase().trim();
-      renderTools();
-
-    // ==========================================
-    // 1. PLAYFUL HERO GRAPH CANVAS ANIMATION
-    // ==========================================
-    (function initHeroGraphCanvas() {
-      const canvas = document.getElementById('heroGraphCanvas');
-      if (!canvas) return;
-      const ctx = canvas.getContext('2d');
-      if (!ctx) return;
-
-      let width = canvas.width = canvas.parentElement.offsetWidth || window.innerWidth;
-      let height = canvas.height = canvas.parentElement.offsetHeight || 600;
-
-      window.addEventListener('resize', () => {
-        width = canvas.width = canvas.parentElement.offsetWidth || window.innerWidth;
-        height = canvas.height = canvas.parentElement.offsetHeight || 600;
+    const toolSearchEl = document.getElementById('toolSearchInput');
+    if (toolSearchEl) {
+      toolSearchEl.addEventListener('input', (e) => {
+        currentSearchTerm = e.target.value.toLowerCase().trim();
+        renderTools();
       });
+    }
 
-      const LEGAL_LABELS = [
-        "Art. 1545 CC", "Buena Fe", "Ley Karin (21.643)", "Art. 161 CT", "Art. 170 CPC", 
-        "CGR Dictámenes", "DT Doctrina", "OJV Proveídos", "LegalGraphify", "BCN Leyes", 
-        "SMA SNIFA", "1TA/2TA/3TA", "CBR Títulos", "Peñailillo", "Barros Bourie", 
-        "Ramos Pazos", "Daño Moral", "FTS5 SQLite", "Auto Acordado", "Art. 19 N° 24 CPR", 
-        "TDLC Antimonopolio", "CMF Finanzas", "Simulación", "Nulidad Absoluta", "Mora Purga la Mora", 
-        "Lesión Enorme", "Art. 1464 CC", "Subsunción Tripartita", "Pacto Comisorio", "Mandato Art. 7 CPC"
-      ];
-
-      const nodes = [];
-      const NODE_COUNT = Math.min(36, Math.floor(width / 32));
-
-      for (let i = 0; i < NODE_COUNT; i++) {
-        nodes.push({
-          x: Math.random() * width,
-          y: Math.random() * height,
-          vx: (Math.random() - 0.5) * 0.75,
-          vy: (Math.random() - 0.5) * 0.75,
-          radius: 3 + Math.random() * 2.5,
-          label: LEGAL_LABELS[i % LEGAL_LABELS.length],
-          color: (i % 3 === 0) ? "#38bdf8" : (i % 3 === 1 ? "#34d399" : "#fbbf24")
-        });
-      }
-
-      let mouse = { x: -9999, y: -9999, radius: 140 };
-
-      window.addEventListener('mousemove', (e) => {
-        const rect = canvas.getBoundingClientRect();
-        mouse.x = e.clientX - rect.left;
-        mouse.y = e.clientY - rect.top;
-      });
-
-      window.addEventListener('mouseleave', () => {
-        mouse.x = -9999;
-        mouse.y = -9999;
-      });
-
-      // Click ripple / pulse
-      canvas.parentElement.addEventListener('click', (e) => {
-        const rect = canvas.getBoundingClientRect();
-        const cx = e.clientX - rect.left;
-        const cy = e.clientY - rect.top;
-        nodes.forEach(n => {
-          const dx = n.x - cx;
-          const dy = n.y - cy;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 220 && dist > 0) {
-            const force = (220 - dist) / 22;
-            n.vx += (dx / dist) * force;
-            n.vy += (dy / dist) * force;
-          }
-        });
-      });
-
-      function animate() {
-        if (document.hidden) {
-          requestAnimationFrame(animate);
-          return;
-        }
-
-        ctx.clearRect(0, 0, width, height);
-
-        // Update positions & draw edges
-        for (let i = 0; i < nodes.length; i++) {
-          const n = nodes[i];
-          n.x += n.vx;
-          n.y += n.vy;
-
-          if (n.x < 10) { n.x = 10; n.vx *= -1; }
-          if (n.x > width - 10) { n.x = width - 10; n.vx *= -1; }
-          if (n.y < 10) { n.y = 10; n.vy *= -1; }
-          if (n.y > height - 10) { n.y = height - 10; n.vy *= -1; }
-
-          // Slight mouse attraction/repulsion
-          const mdx = n.x - mouse.x;
-          const mdy = n.y - mouse.y;
-          const mdist = Math.sqrt(mdx * mdx + mdy * mdy);
-          if (mdist < mouse.radius) {
-            const angle = Math.atan2(mdy, mdx);
-            n.x += Math.cos(angle) * 1.8;
-            n.y += Math.sin(angle) * 1.8;
-            
-            // Connect to mouse with glowing beam
-            ctx.beginPath();
-            ctx.moveTo(n.x, n.y);
-            ctx.lineTo(mouse.x, mouse.y);
-            ctx.strokeStyle = `rgba(56, 189, 248, ${(1 - mdist / mouse.radius) * 0.45})`;
-            ctx.lineWidth = 1;
-            ctx.stroke();
-          }
-
-          // Connect with nearby nodes
-          for (let j = i + 1; j < nodes.length; j++) {
-            const n2 = nodes[j];
-            const dx = n.x - n2.x;
-            const dy = n.y - n2.y;
-            const dist = Math.sqrt(dx * dx + dy * dy);
-            if (dist < 130) {
-              ctx.beginPath();
-              ctx.moveTo(n.x, n.y);
-              ctx.lineTo(n2.x, n2.y);
-              ctx.strokeStyle = `rgba(255, 255, 255, ${(1 - dist / 130) * 0.18})`;
-              ctx.lineWidth = 0.8;
-              ctx.stroke();
-            }
-          }
-        }
-
-        // Draw nodes and subtle labels
-        ctx.font = '10px ui-monospace, SFMono-Regular, Menlo, monospace';
-        for (let i = 0; i < nodes.length; i++) {
-          const n = nodes[i];
-          ctx.beginPath();
-          ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
-          ctx.fillStyle = n.color;
-          ctx.shadowColor = n.color;
-          ctx.shadowBlur = 8;
-          ctx.fill();
-          ctx.shadowBlur = 0;
-
-          // Draw label
-          ctx.fillStyle = "rgba(255, 255, 255, 0.55)";
-          ctx.fillText(n.label, n.x + n.radius + 4, n.y + 3);
-        }
-
-        requestAnimationFrame(animate);
-      }
-
-      animate();
-    })();
-
-    // ==========================================
-    // 2. ANIMATED COUNT-UP NUMBERS
-    // ==========================================
-    (function initCountUp() {
-      const statNums = document.querySelectorAll('.stat-num[data-target]');
-      if (!statNums.length) return;
-
-      const observer = new IntersectionObserver((entries, obs) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const el = entry.target;
-            const targetVal = parseFloat(el.getAttribute('data-target'));
-            const suffix = el.getAttribute('data-suffix') || '';
-            const isFloat = targetVal % 1 !== 0;
-            const duration = 1400; // ms
-            const startTime = performance.now();
-
-            function updateCounter(currentTime) {
-              const elapsed = currentTime - startTime;
-              const progress = Math.min(elapsed / duration, 1);
-              // EaseOutQuart
-              const ease = 1 - Math.pow(1 - progress, 4);
-              const current = targetVal * ease;
-
-              if (isFloat) {
-                el.textContent = current.toFixed(1).replace('.', ',') + suffix;
-              } else {
-                const rounded = Math.floor(current);
-                el.textContent = rounded.toLocaleString('es-CL').replace(',', '.') + suffix;
-              }
-
-              if (progress < 1) {
-                requestAnimationFrame(updateCounter);
-              } else {
-                if (isFloat) {
-                  el.textContent = targetVal.toFixed(1).replace('.', ',') + suffix;
-                } else {
-                  el.textContent = targetVal.toLocaleString('es-CL').replace(',', '.') + suffix;
-                }
-              }
-            }
-
-            requestAnimationFrame(updateCounter);
-            obs.unobserve(el);
-          }
-        });
-      }, { threshold: 0.25 });
-
-      statNums.forEach(el => observer.observe(el));
-    })();
-
-    // ==========================================
-    // 3. SOCRATIC BAR EXAM SIMULATOR
-    // ==========================================
-    (function initSocraticSimulator() {
-      const CEDULAS_DATA = [
-        {
-          id: 1,
-          cat: "civil-obligaciones",
-          meta: "Cédula N° 14 · Derecho Civil: Teoría del Contrato",
-          question: "Candidato, examine el alcance del Art. 1464 N° 3 del Código Civil. ¿Constituye objeto ilícito la enajenación forzada efectuada en remate judicial cuando existe otro embargo o medida precautoria sobre el mismo bien? Exponga la evolución dogmática y el criterio uniforme de la Excma. Corte Suprema.",
-          positive: "<strong>[BCN - Código Civil, Art. 1464 N° 3]:</strong> 'Hay un objeto ilícito en la enajenación: 3.° De las cosas embargadas por decreto judicial, a menos que el juez lo autorice o el acreedor consienta en ello'. Concatenado con Art. 10 y 1682 (Nulidad absoluta).",
-          dogmatic: "<strong>[Doctrina - Daniel Peñailillo Arévalo, Los Bienes]:</strong> Se debate si el remate forzado califica como 'enajenación' voluntaria. Tratadistas históricos (Claro Solar, Somarriva) exigían autorización del juez que decretó el embargo preventivo. La doctrina moderna de Peñailillo enfatiza la protección registral de terceros y la subrogación real sobre el precio de subasta.",
-          judicial: "<strong>[CS - Rol N° 1.289-2020]:</strong> La Primera Sala Civil de la Excma. Corte Suprema resolvió que la subasta forzada no purga automáticamente embargos vigentes de otros juzgados; se requiere que el juez que ordenó el embargo autorice la enajenación para evitar la nulidad por objeto ilícito.",
-          bracket: "[BCN - Código Civil, Art. 1464 N° 3] · [CS - Rol N° 1.289-2020] · [Doctrina - Peñailillo, Los Bienes, Institución: Embargo]"
-        },
-        {
-          id: 2,
-          cat: "civil-obligaciones",
-          meta: "Cédula N° 22 · Derecho Civil: Fuerza Obligatoria & Imprevisión",
-          question: "Candidato, frente a alteraciones sobrevinientes, imprevistas y gravosas en la economía del contrato, ¿procede la revisión judicial de las obligaciones conforme al Código Civil chileno o rige inexorablemente el Art. 1545? Contraste el principio Pacta Sunt Servanda con el deber de Buena Fe del Art. 1546.",
-          positive: "<strong>[BCN - Código Civil, Arts. 1545 y 1546]:</strong> 'Todo contrato legalmente celebrado es una ley para los contratantes...' / 'Los contratos deben ejecutarse de buena fe... obligan no sólo a lo que en ellos se expresa'.",
-          dogmatic: "<strong>[Doctrina - Jorge López Santa María, Los Contratos]:</strong> Análisis de la Teoría de la Imprevisión. Mientras la doctrina clásica rechaza la revisión judicial bajo el dogma de la autonomía de la voluntad, la dogmática moderna (López Santa María, Barros Bourie) funda la revisión o resolución en la cláusula rebus sic stantibus derivada de la buena fe objetiva y la equivalencia prestacional.",
-          judicial: "<strong>[CS - Rol N° 23.411-2019]:</strong> La Corte Suprema ha reconocido que la buena fe objetiva (Art. 1546) modula el rigor estricto del Art. 1545 en situaciones extremas de desequilibrio contractual, facultando la renegociación de buena fe.",
-          bracket: "[BCN - Código Civil, Arts. 1545 y 1546] · [CS - Rol N° 23.411-2019] · [Doctrina - López Santa María, Los Contratos]"
-        },
-        {
-          id: 3,
-          cat: "civil-responsabilidad",
-          meta: "Cédula N° 31 · Derecho Civil: Responsabilidad Extracontractual",
-          question: "Candidato, determine la titularidad activa para demandar la indemnización del daño moral en caso de lesiones graves o muerte de la víctima directa. ¿Quiénes están legitimados como víctimas por rebote y bajo qué presupuestos opera la presunción de causalidad conforme a Barros Bourie?",
-          positive: "<strong>[BCN - Código Civil, Arts. 2314 y 2329]:</strong> 'El que ha cometido un delito o cuasidelito que ha inferido daño a otro, es obligado a la indemnización...' / Art. 2329: 'Por regla general todo daño que pueda imputarse a malicia o negligencia de otra persona, debe ser reparado'.",
-          dogmatic: "<strong>[Doctrina - Enrique Barros Bourie, Responsabilidad Extracontractual]:</strong> La acción por daño moral 'por rebote' o repercusión es originaria y no heredada. Corresponde a quienes acrediten un dolor o aflicción personal, directa y cierta vinculada por causalidad natural y juicio de imputación objetiva con el hecho ilícito.",
-          judicial: "<strong>[CS - Rol N° 45.102-2022]:</strong> La Corte Suprema ha consolidado que la indemnización por daño moral por rebote no se limita exclusivamente a herederos forzosos del Art. 983, sino a cualquier persona que acredite un vínculo de afecto y convivencia real con la víctima directa.",
-          bracket: "[BCN - Código Civil, Arts. 2314 y 2329] · [CS - Rol N° 45.102-2022] · [Doctrina - Barros Bourie, Tratado de Responsabilidad]"
-        },
-        {
-          id: 4,
-          cat: "civil-bienes",
-          meta: "Cédula N° 9 · Derecho Civil: Teoría de la Posesión Inscrita",
-          question: "Candidato, exponga la llamada 'Teoría de la Posesión Inscrita' en el sistema registral chileno. Si un sujeto ocupa materialmente un inmueble inscrito a nombre de otro durante más de 10 años, ¿puede adquirirlo por prescripción adquisitiva extraordinaria conforme a los Arts. 724, 728, 2505 y 2510 del Código Civil?",
-          positive: "<strong>[BCN - Código Civil, Arts. 724, 728 y 2505]:</strong> 'Si la cosa es de aquellas cuya tradición deba hacerse por inscripción... nadie puede adquirir la posesión de ella sino por este medio' / Art. 2505: 'Contra un título inscrito no tendrá lugar la prescripción adquisitiva... sino en virtud de otro título inscrito'.",
-          dogmatic: "<strong>[Doctrina - Manuel Somarriva & Daniel Peñailillo]:</strong> Debate clásico entre la tesis de la 'garantía absoluta' (no hay posesión material capaz de prescribir contra inscripción) y la tesis de la 'posesión material prevalente' (sustentada por Humberto Trucco en prescripción extraordinaria del Art. 2510 regla 1ª).",
-          judicial: "<strong>[CS - Rol N° 12.870-2021]:</strong> Criterio uniforme y reiterado de la Excma. Corte Suprema: el Art. 2505 no distingue entre prescripción ordinaria y extraordinaria. Para prescribir contra título inscrito se requiere imperativamente de otro título inscrito; el mero ocupante material es un mero tenedor o precario sin aptitud posesoria exclusiva.",
-          bracket: "[BCN - Código Civil, Arts. 728 y 2505] · [CS - Rol N° 12.870-2021] · [Doctrina - Peñailillo, Los Bienes, Institución: Posesión Inscrita]"
-        },
-        {
-          id: 5,
-          cat: "procesal-civil",
-          meta: "Cédula N° 40 · Derecho Procesal: Medidas Precautorias",
-          question: "Candidato, analice los presupuestos procesales copulativos (humo de buen derecho y peligro en la mora) para decretar la medida prejudicial o precautoria de prohibición de celebrar actos y contratos del Art. 290 N° 4 del CPC. ¿Exige caución obligatoria o es facultativa para el tribunal?",
-          positive: "<strong>[BCN - Código de Procedimiento Civil, Arts. 290 N° 4, 298 y 301]:</strong> Exige acompañar comprobantes que constituyan a lo menos presunción grave del derecho que se reclama. La caución es facultativa para el tribunal en el Art. 298, pero obligatoria en medidas prejudiciales precautorias del Art. 279.",
-          dogmatic: "<strong>[Doctrina - Mario Mosquera & Cristián Maturana, Los Recursos Procesales]:</strong> La medida del Art. 290 N° 4 es la más intensa del catálogo cautelar civil, pues paraliza la facultad de disposición. Requiere examen estricto de proporcionalidad entre el riesgo patrimonial invocado y el gravamen impuesto al demandado.",
-          judicial: "<strong>[C.A. de Santiago - Rol N° 1.450-2023]:</strong> La Ilustrísima Corte ha revocado precautorias dictadas sin antecedentes documentales calificados, enfatizando que la sola presentación de la demanda no constituye presunción grave del derecho demandado.",
-          bracket: "[BCN - Código de Procedimiento Civil, Arts. 290 y 298] · [C.A. de Santiago - Rol N° 1.450-2023] · [Doctrina - Maturana, Tutela Cautelar]"
-        }
-      ];
-
-      let currentDeckFilter = "all";
-      let activeCedula = CEDULAS_DATA[0];
-
-      function renderCedula(cedula) {
-        activeCedula = cedula;
-        document.getElementById('cedulaMeta').textContent = cedula.meta;
-        document.getElementById('socraticQuestionText').textContent = `"${cedula.question}"`;
-        document.getElementById('rubricPositive').innerHTML = cedula.positive;
-        document.getElementById('rubricDogmatic').innerHTML = cedula.dogmatic;
-        document.getElementById('rubricJudicial').innerHTML = cedula.judicial;
-        document.getElementById('rubricQuote').innerHTML = `<strong>Corchete Oficial para Cita Forense:</strong> <code>${cedula.bracket.replace(/ · /g, '</code> · <code>')}</code>`;
-        
-        // Reset state
-        document.getElementById('canonicalRubric').style.display = 'none';
-        document.getElementById('feedbackBanner').style.display = 'none';
-        document.getElementById('studentAnswerInput').value = '';
-      }
-
-      function pickRandomCedula() {
-        const pool = (currentDeckFilter === "all") 
-          ? CEDULAS_DATA 
-          : CEDULAS_DATA.filter(c => c.cat === currentDeckFilter);
-        
-        if (!pool.length) return;
-        const available = pool.filter(c => c.id !== activeCedula.id);
-        const next = available.length ? available[Math.floor(Math.random() * available.length)] : pool[0];
-        renderCedula(next);
-      }
-
-      // Deck buttons
-      document.querySelectorAll('[data-cedula-cat]').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('[data-cedula-cat]').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          currentDeckFilter = btn.dataset.cedulaCat;
-          pickRandomCedula();
-        });
-      });
-
-      // Reroll button
-      const btnReroll = document.getElementById('btnRerollCedula');
-      if (btnReroll) btnReroll.addEventListener('click', pickRandomCedula);
-
-      // Reveal Rubric
-      const btnReveal = document.getElementById('btnRevealRubric');
-      const rubricEl = document.getElementById('canonicalRubric');
-      if (btnReveal && rubricEl) {
-        btnReveal.addEventListener('click', () => {
-          const isHidden = rubricEl.style.display === 'none';
-          rubricEl.style.display = isHidden ? 'block' : 'none';
-          btnReveal.innerHTML = isHidden 
-            ? '<span>🙈 Ocultar Rúbrica Canónica</span>' 
-            : '<span>💡 Revelar Rúbrica Canónica (3 Pilares)</span>';
-        });
-      }
-
-      // Evaluate practice
-      const btnEval = document.getElementById('btnEvaluatePractice');
-      const feedbackEl = document.getElementById('feedbackBanner');
-      if (btnEval && feedbackEl) {
-        btnEval.addEventListener('click', () => {
-          const answer = document.getElementById('studentAnswerInput').value.trim();
-          feedbackEl.style.display = 'block';
-          if (answer.length < 15) {
-            feedbackEl.style.background = '#fef2f2';
-            feedbackEl.style.borderColor = '#fca5a5';
-            feedbackEl.style.color = '#991b1b';
-            feedbackEl.innerHTML = `⚠️ <strong>Respuesta insuficiente:</strong> El tribunal examinador exige un planteamiento articulado. Menciona al menos el artículo de la ley, el tratadista de cabecera y el criterio jurisprudencial para aprobar.`;
-          } else {
-            feedbackEl.style.background = '#ecfdf5';
-            feedbackEl.style.borderColor = '#a7f3d0';
-            feedbackEl.style.color = '#065f46';
-            feedbackEl.innerHTML = `🎓 <strong>Voto de Distinción de la Comisión:</strong> Has demostrado dominio argumentativo. Coteja tu razonamiento con los 3 pilares oficiales en la rúbrica desplegada a continuación.`;
-            rubricEl.style.display = 'block';
-            if (btnReveal) btnReveal.innerHTML = '<span>🙈 Ocultar Rúbrica Canónica</span>';
-          }
-        });
-      }
-
-      // Initialize with first cedula
-      renderCedula(CEDULAS_DATA[0]);
-    })();
-    
-    });
-
-    
     // Mobile Drawer Menu Toggle
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
     const mobileMenuDrawer = document.getElementById('mobileMenuDrawer');
@@ -5472,6 +5415,160 @@ autores_relevantes:
       renderCedula(CEDULAS_DATA[0]);
     })();
     
+  
+    // ==========================================
+    // 4. BAREMO DAÑO MORAL PJUD & MULTI-CORPUS EXPLORER
+    // ==========================================
+    (function initBaremoAndCorpusExplorer() {
+      const BAREMO_DATA = [{"id": "baremo_muerte_3", "parentesco": "Hijo(a)", "casos": 549, "uf": {"primera_instancia": {"n": 549, "min": 19.96, "p25": 443.28, "mediana": 836.54, "promedio": 1366.58, "p75": 1692.26, "max": 12070.19}, "corte_apelaciones": {"n": 292, "min": 35.12, "p25": 564.97, "mediana": 985.25, "promedio": 1342.73, "p75": 1836.55, "max": 12070.19}, "corte_suprema": {"n": 30, "min": 224.9, "p25": 390.5, "mediana": 810.02, "promedio": 1201.03, "p75": 1981.85, "max": 4163.89}}, "clp": {"primera_instancia": {"n": 549, "min": 500000.0, "p25": 10000000.0, "mediana": 20000000.0, "promedio": 30309952.2, "p75": 40000000.0, "max": 266666666.0}, "corte_apelaciones": {"n": 292, "min": 900000.0, "p25": 12000000.0, "mediana": 22250000.0, "promedio": 30221349.31, "p75": 40000000.0, "max": 266666666.0}, "corte_suprema": {"n": 30, "min": 5000000.0, "p25": 10000000.0, "mediana": 20000000.0, "promedio": 28860059.0, "p75": 49201180.0, "max": 100000000.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Hijo(a)), Casos: 549, Mediana: 836.54 UF]", "muestra": [{"rol": "7215-2014", "rol_pi": "C-32125-2008", "rol_ca": "8963-2011", "rol_cs": "7215-2014", "fecha": "19-01-2015", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "7º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 12070.19, "monto_clp": 458667220, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=8297&tipoInstancia=3"}, {"rol": "2034-2010", "rol_pi": "C-12651-2007", "rol_ca": "8753-2008", "rol_cs": "2034-2010", "fecha": "26-10-2012", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "15º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 9433.52, "monto_clp": 358473760, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=1343&tipoInstancia=3"}, {"rol": "22815-2014", "rol_pi": "C-62-2011", "rol_ca": "1046-2013", "rol_cs": "22815-2014", "fecha": "18-06-2015", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "22º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 8854.26, "monto_clp": 336461880, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=8291&tipoInstancia=3"}, {"rol": "1586-2014", "rol_pi": "C-13775-2010", "rol_ca": "2712-2012", "rol_cs": "1586-2014", "fecha": "27-08-2014", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "13º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 5392.05, "monto_clp": 204897900, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=7053&tipoInstancia=3"}]}, {"id": "baremo_muerte_2", "parentesco": "Madre", "casos": 507, "uf": {"primera_instancia": {"n": 507, "min": 13.1, "p25": 443.77, "mediana": 935.06, "promedio": 1463.95, "p75": 1990.89, "max": 12476.61}, "corte_apelaciones": {"n": 207, "min": 173.67, "p25": 702.58, "mediana": 1223.04, "promedio": 1870.37, "p75": 2321.69, "max": 12476.61}, "corte_suprema": {"n": 19, "min": 398.37, "p25": 906.58, "mediana": 1219.51, "promedio": 1964.85, "p75": 3121.46, "max": 5142.18}}, "clp": {"primera_instancia": {"n": 507, "min": 300000.0, "p25": 10000000.0, "mediana": 20000000.0, "promedio": 32547593.68, "p75": 50000000.0, "max": 250000000.0}, "corte_apelaciones": {"n": 207, "min": 3500000.0, "p25": 15000000.0, "mediana": 30000000.0, "promedio": 42060386.47, "p75": 50000000.0, "max": 250000000.0}, "corte_suprema": {"n": 19, "min": 10000000.0, "p25": 20000000.0, "mediana": 30000000.0, "promedio": 44210526.32, "p75": 80000000.0, "max": 100000000.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Madre), Casos: 507, Mediana: 935.06 UF]", "muestra": [{"rol": "657-2006", "rol_pi": "C-455-1998", "rol_ca": "9051-2001", "rol_cs": "657-2006", "fecha": "29-01-2007", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "29º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 12476.61, "monto_clp": 474111180, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=4461&tipoInstancia=3"}, {"rol": "9573-2014", "rol_pi": "C-24132-2008", "rol_ca": "9129-2011", "rol_cs": "9573-2014", "fecha": "09-03-2015", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "28º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 11352.8, "monto_clp": 431406400, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=8292&tipoInstancia=3"}, {"rol": "6925-2011", "rol_pi": "C-20098-2008", "rol_ca": "4070-2010", "rol_cs": "6925-2011", "fecha": "19-08-2011", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "28º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 9473.29, "monto_clp": 359985020, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=3802&tipoInstancia=3"}, {"rol": "4546-2008", "rol_pi": "C-3495-2001", "rol_ca": "6441-2004", "rol_cs": "4546-2008", "fecha": "06-10-2010", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "12º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 8902.08, "monto_clp": 338279040, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=1365&tipoInstancia=3"}]}, {"id": "baremo_muerte_7", "parentesco": "Conyuge", "casos": 398, "uf": {"primera_instancia": {"n": 398, "min": 23.29, "p25": 583.57, "mediana": 1156.21, "promedio": 1735.78, "p75": 2213.66, "max": 13258.5}, "corte_apelaciones": {"n": 195, "min": 45.43, "p25": 846.96, "mediana": 1495.22, "promedio": 1917.81, "p75": 2381.24, "max": 9433.52}, "corte_suprema": {"n": 22, "min": 372.98, "p25": 674.7, "mediana": 1245.74, "promedio": 1549.09, "p75": 2213.27, "max": 4163.89}}, "clp": {"primera_instancia": {"n": 398, "min": 500000.0, "p25": 12500000.0, "mediana": 25000000.0, "promedio": 38428112.9, "p75": 50000000.0, "max": 300000000.0}, "corte_apelaciones": {"n": 195, "min": 1000000.0, "p25": 20000000.0, "mediana": 35000000.0, "promedio": 42890477.88, "p75": 50000000.0, "max": 200000000.0}, "corte_suprema": {"n": 22, "min": 10000000.0, "p25": 15000000.0, "mediana": 30000000.0, "promedio": 36136363.64, "p75": 50000000.0, "max": 100000000.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Conyuge), Casos: 398, Mediana: 1156.21 UF]", "muestra": [{"rol": "2034-2010", "rol_pi": "C-12651-2007", "rol_ca": "8753-2008", "rol_cs": "2034-2010", "fecha": "26-10-2012", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "15º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 9433.52, "monto_clp": 358473760, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=1343&tipoInstancia=3"}, {"rol": "4546-2008", "rol_pi": "C-3495-2001", "rol_ca": "6441-2004", "rol_cs": "4546-2008", "fecha": "06-10-2010", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "12º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 8902.08, "monto_clp": 338279040, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=1365&tipoInstancia=3"}, {"rol": "22815-2014", "rol_pi": "C-62-2011", "rol_ca": "1046-2013", "rol_cs": "22815-2014", "fecha": "18-06-2015", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "22º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 8854.26, "monto_clp": 336461880, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=8291&tipoInstancia=3"}, {"rol": "9580-2013", "rol_pi": "C-8981-2008", "rol_ca": "114-2013", "rol_cs": "9580-2013", "fecha": "07-01-2014", "corte_apelaciones": "C.A. de Rancagua", "juzgado_origen": "2º JUZGADO CIVIL DE RANCAGUA", "monto_uf": 6508.16, "monto_clp": 247310080, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=6168&tipoInstancia=3"}]}, {"id": "baremo_muerte_1", "parentesco": "Padre", "casos": 370, "uf": {"primera_instancia": {"n": 370, "min": 13.1, "p25": 465.9, "mediana": 941.79, "promedio": 1467.92, "p75": 1879.98, "max": 9101.25}, "corte_apelaciones": {"n": 163, "min": 203.97, "p25": 702.58, "mediana": 1159.72, "promedio": 1684.19, "p75": 2217.79, "max": 8202.6}, "corte_suprema": {"n": 13, "min": 398.37, "p25": 813.01, "mediana": 1147.18, "promedio": 2303.38, "p75": 3121.46, "max": 8202.6}}, "clp": {"primera_instancia": {"n": 370, "min": 300000.0, "p25": 10000000.0, "mediana": 20000000.0, "promedio": 32385501.01, "p75": 45000000.0, "max": 200000000.0}, "corte_apelaciones": {"n": 163, "min": 5000000.0, "p25": 16000000.0, "mediana": 30000000.0, "promedio": 37423734.4, "p75": 50000000.0, "max": 160000000.0}, "corte_suprema": {"n": 13, "min": 10000000.0, "p25": 20000000.0, "mediana": 30000000.0, "promedio": 48461538.46, "p75": 80000000.0, "max": 160000000.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Padre), Casos: 370, Mediana: 941.79 UF]", "muestra": [{"rol": "31414-2014", "rol_pi": "C-18195-2007", "rol_ca": "9126-2011", "rol_cs": "31414-2014", "fecha": "11-08-2015", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "30º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 8202.6, "monto_clp": 311698800, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=8262&tipoInstancia=3"}, {"rol": "2265-2015", "rol_pi": "C-18896-2011", "rol_ca": "10191-2013", "rol_cs": "2265-2015", "fecha": "10-12-2014", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "25º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 7967.7, "monto_clp": 302772600, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=8285&tipoInstancia=3"}, {"rol": "7623-2009", "rol_pi": "C-1733-2000", "rol_ca": "3648-2006", "rol_cs": "7623-2009", "fecha": "09-12-2011", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "27º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 6973.11, "monto_clp": 264978180, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=4354&tipoInstancia=3"}, {"rol": "9431-2013", "rol_pi": "C-20198-2007", "rol_ca": "3230-2012", "rol_cs": "9431-2013", "fecha": "17-03-2014", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "27º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 5142.18, "monto_clp": 195402840, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=6810&tipoInstancia=3"}]}, {"id": "baremo_muerte_996", "parentesco": "Hermano(a)", "casos": 205, "uf": {"primera_instancia": {"n": 205, "min": 9.58, "p25": 233.19, "mediana": 502.16, "promedio": 912.36, "p75": 928.68, "max": 8923.26}, "corte_apelaciones": {"n": 105, "min": 9.58, "p25": 234.19, "mediana": 570.56, "promedio": 1012.01, "p75": 1127.4, "max": 6286.1}, "corte_suprema": {"n": 12, "min": 10.16, "p25": 395.18, "mediana": 508.12, "promedio": 694.25, "p75": 1174.05, "max": 2079.09}}, "clp": {"primera_instancia": {"n": 205, "min": 250000.0, "p25": 5000000.0, "mediana": 10000000.0, "promedio": 19886260.15, "p75": 20000000.0, "max": 160000000.0}, "corte_apelaciones": {"n": 105, "min": 250000.0, "p25": 5000000.0, "mediana": 12500000.0, "promedio": 22805555.55, "p75": 25000000.0, "max": 160000000.0}, "corte_suprema": {"n": 12, "min": 250000.0, "p25": 10000000.0, "mediana": 12500000.0, "promedio": 15854166.67, "p75": 20000000.0, "max": 50000000.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Hermano(a)), Casos: 205, Mediana: 502.16 UF]", "muestra": [{"rol": "47886-2016", "rol_pi": "C-2921-2012", "rol_ca": "1825-2015", "rol_cs": "47886-2016", "fecha": "03-01-2017", "corte_apelaciones": "C.A. de La Serena", "juzgado_origen": "1º JUZGADO DE LETRAS DE LA SERENA", "monto_uf": 6286.1, "monto_clp": 238871800, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=9730&tipoInstancia=3"}, {"rol": "8193-2012", "rol_pi": "C-12088-2007", "rol_ca": "5519-2010", "rol_cs": "8193-2012", "fecha": "20-03-2013", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "24º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 3925.63, "monto_clp": 149173940, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=6050&tipoInstancia=3"}, {"rol": "3458-2006", "rol_pi": "C-3550-1997", "rol_ca": "6749-2000", "rol_cs": "3458-2006", "fecha": "25-09-2007", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "9º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 3874.47, "monto_clp": 147229860, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=1391&tipoInstancia=3"}, {"rol": "14-2013", "rol_pi": "C-1970-2009", "rol_ca": "2053-2011", "rol_cs": "14-2013", "fecha": "16-10-2013", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "27º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 3724.92, "monto_clp": 141546960, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=6122&tipoInstancia=3"}]}, {"id": "baremo_muerte_1091", "parentesco": "Conviviente", "casos": 66, "uf": {"primera_instancia": {"n": 66, "min": 57.89, "p25": 376.38, "mediana": 716.66, "promedio": 1086.42, "p75": 1326.2, "max": 7119.8}, "corte_apelaciones": {"n": 26, "min": 116.08, "p25": 402.01, "mediana": 773.91, "promedio": 942.75, "p75": 1308.96, "max": 3338.08}, "corte_suprema": {"n": 1, "min": 797.26, "p25": 797.26, "mediana": 797.26, "promedio": 797.26, "p75": 797.26, "max": 797.26}}, "clp": {"primera_instancia": {"n": 66, "min": 1000000.0, "p25": 9000000.0, "mediana": 15000000.0, "promedio": 24859848.47, "p75": 30000000.0, "max": 150000000.0}, "corte_apelaciones": {"n": 26, "min": 3000000.0, "p25": 10000000.0, "mediana": 20000000.0, "promedio": 21769230.77, "p75": 30000000.0, "max": 75000000.0}, "corte_suprema": {"n": 1, "min": 20000000.0, "p25": 20000000.0, "mediana": 20000000.0, "promedio": 20000000.0, "p75": 20000000.0, "max": 20000000.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Conviviente), Casos: 66, Mediana: 716.66 UF]", "muestra": [{"rol": "7120-2012", "rol_pi": "C-2458-2009", "rol_ca": "181-2012", "rol_cs": "7120-2012", "fecha": "06-11-2012", "corte_apelaciones": "C.A. de Iquique", "juzgado_origen": "2º JUZGADO DE LETRAS DE IQUIQUE", "monto_uf": 4482.9, "monto_clp": 170350200, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=4161&tipoInstancia=3"}, {"rol": "9162-2011", "rol_pi": "C-8426-2008", "rol_ca": "4124-2010", "rol_cs": "9162-2011", "fecha": "30-12-2011", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "12º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 3338.08, "monto_clp": 126847040, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=3756&tipoInstancia=3"}, {"rol": "7756-2014", "rol_pi": "C-1768-2011", "rol_ca": "491-2013", "rol_cs": "7756-2014", "fecha": "10-06-2014", "corte_apelaciones": "C.A. de La Serena", "juzgado_origen": "3º JUZGADO DE LETRAS DE LA SERENA", "monto_uf": 1920.2, "monto_clp": 72967600, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=6741&tipoInstancia=3"}, {"rol": "62202-2016", "rol_pi": "C-12277-2012", "rol_ca": "2564-2015", "rol_cs": "62202-2016", "fecha": "21-12-2016", "corte_apelaciones": "C.A. de Rancagua", "juzgado_origen": "2º JUZGADO CIVIL DE RANCAGUA", "monto_uf": 1898.9, "monto_clp": 72158200, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=9729&tipoInstancia=3"}]}, {"id": "baremo_muerte_1811", "parentesco": "Nieto(a)", "casos": 13, "uf": {"primera_instancia": {"n": 13, "min": 7.99, "p25": 63.0, "mediana": 132.76, "promedio": 282.27, "p75": 207.47, "max": 1752.0}, "corte_apelaciones": {"n": 4, "min": 132.66, "p25": 132.66, "mediana": 341.12, "promedio": 632.63, "p75": 1715.63, "max": 1715.63}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 13, "min": 200000.0, "p25": 1500000.0, "mediana": 3000000.0, "promedio": 6682051.28, "p75": 5000000.0, "max": 40000000.0}, "corte_apelaciones": {"n": 4, "min": 3000000.0, "p25": 3000000.0, "mediana": 8500000.0, "promedio": 15000000.0, "p75": 40000000.0, "max": 40000000.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Nieto(a)), Casos: 13, Mediana: 132.76 UF]", "muestra": [{"rol": "5069-2013", "rol_pi": "C-2638-2011", "rol_ca": "908-2012", "rol_cs": "5069-2013", "fecha": "18-12-2013", "corte_apelaciones": "C.A. de Iquique", "juzgado_origen": "2º JUZGADO DE LETRAS DE IQUIQUE", "monto_uf": 1715.63, "monto_clp": 65193940, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=6146&tipoInstancia=3"}, {"rol": "14033-2015", "rol_pi": "C-540-2014", "rol_ca": "762-2015", "rol_cs": "14033-2015", "fecha": "27-10-2015", "corte_apelaciones": "C.A. de Concepción", "juzgado_origen": "1º JUZGADO DE LETRAS DE LOS ANGELES", "monto_uf": 391.24, "monto_clp": 14867120, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=8791&tipoInstancia=3"}, {"rol": "11987-2014", "rol_pi": "C-5398-2012", "rol_ca": "1292-2013", "rol_cs": "11987-2014", "fecha": "26-06-2014", "corte_apelaciones": "C.A. de Antofagasta", "juzgado_origen": "1º JUZGADO DE LETRAS EN LO CIVIL DE ANTOFAGASTA", "monto_uf": 291.01, "monto_clp": 11058380, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=6793&tipoInstancia=3"}, {"rol": "1561-2015", "rol_pi": "C-31931-2008", "rol_ca": "7711-2014", "rol_cs": "1561-2015", "fecha": "16-12-2015", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "27º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 207.47, "monto_clp": 7883860, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=8810&tipoInstancia=3"}]}, {"id": "baremo_muerte_5", "parentesco": "Abuelo(a)", "casos": 9, "uf": {"primera_instancia": {"n": 9, "min": 117.77, "p25": 215.31, "mediana": 493.36, "promedio": 839.28, "p75": 1365.44, "max": 2222.32}, "corte_apelaciones": {"n": 4, "min": 335.46, "p25": 335.46, "mediana": 786.13, "promedio": 1000.16, "p75": 2092.93, "max": 2092.93}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 9, "min": 3000000.0, "p25": 5000000.0, "mediana": 10000000.0, "promedio": 18962962.89, "p75": 30000000.0, "max": 50000000.0}, "corte_apelaciones": {"n": 4, "min": 8000000.0, "p25": 8000000.0, "mediana": 19000000.0, "promedio": 24000000.0, "p75": 50000000.0, "max": 50000000.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Abuelo(a)), Casos: 9, Mediana: 493.36 UF]", "muestra": [{"rol": "555-2014", "rol_pi": "C-457-2006", "rol_ca": "362-2013", "rol_cs": "555-2014", "fecha": "15-04-2014", "corte_apelaciones": "C.A. de San Miguel", "juzgado_origen": "1º JUZGADO DE LETRAS DE TALAGANTE", "monto_uf": 2092.93, "monto_clp": 79531340, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=6808&tipoInstancia=3"}, {"rol": "257-2010", "rol_pi": "C-538-2005", "rol_ca": "4443-2008", "rol_cs": "257-2010", "fecha": "24-06-2010", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "24º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 830.39, "monto_clp": 31554820, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=4256&tipoInstancia=3"}, {"rol": "15257-2014", "rol_pi": "C-1094-2012", "rol_ca": "2307-2013", "rol_cs": "15257-2014", "fecha": "20-01-2015", "corte_apelaciones": "C.A. de Valparaíso", "juzgado_origen": "1º JUZGADO DE LETRAS DE SAN FELIPE", "monto_uf": 215.31, "monto_clp": 8181780, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=7743&tipoInstancia=3"}, {"rol": "538-2015", "rol_pi": "C-373-2013", "rol_ca": "538-2015", "rol_cs": "", "fecha": "21-12-2015", "corte_apelaciones": "C.A. de Talca", "juzgado_origen": "JUZGADO DE LETRAS DE CAUQUENES", "monto_uf": 1218.18, "monto_clp": 46290840, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=8789&tipoInstancia=2"}]}, {"id": "baremo_muerte_1701", "parentesco": "Hijo(a) Póstumo(a)", "casos": 7, "uf": {"primera_instancia": {"n": 7, "min": 437.73, "p25": 437.73, "mediana": 1254.34, "promedio": 3411.44, "p75": 4809.04, "max": 13453.16}, "corte_apelaciones": {"n": 4, "min": 1254.55, "p25": 1254.55, "mediana": 2137.18, "promedio": 2518.93, "p75": 4546.83, "max": 4546.83}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 7, "min": 10000000.0, "p25": 10000000.0, "mediana": 30000000.0, "promedio": 70714285.71, "p75": 120000000.0, "max": 250000000.0}, "corte_apelaciones": {"n": 4, "min": 30000000.0, "p25": 30000000.0, "mediana": 47500000.0, "promedio": 61250000.0, "p75": 120000000.0, "max": 120000000.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Hijo(a) Póstumo(a)), Casos: 7, Mediana: 1254.34 UF]", "muestra": [{"rol": "2940-2012", "rol_pi": "C-5848-2008", "rol_ca": "836-2011", "rol_cs": "2940-2012", "fecha": "16-05-2012", "corte_apelaciones": "C.A. de Valparaíso", "juzgado_origen": "3º JUZGADO CIVIL DE VIÑA DEL MAR", "monto_uf": 2354.16, "monto_clp": 89458080, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=4554&tipoInstancia=3"}, {"rol": "7756-2014", "rol_pi": "C-1768-2011", "rol_ca": "491-2013", "rol_cs": "7756-2014", "fecha": "10-06-2014", "corte_apelaciones": "C.A. de La Serena", "juzgado_origen": "3º JUZGADO DE LETRAS DE LA SERENA", "monto_uf": 1920.2, "monto_clp": 72967600, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=6741&tipoInstancia=3"}, {"rol": "9757-2015", "rol_pi": "C-3499-2012", "rol_ca": "1315-2014", "rol_cs": "9757-2015", "fecha": "21-06-2016", "corte_apelaciones": "C.A. de Talca", "juzgado_origen": "1º JUZGADO DE LETRAS DE TALCA", "monto_uf": 1254.55, "monto_clp": 47672900, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=9148&tipoInstancia=3"}, {"rol": "965-2015", "rol_pi": "C-4745-2010", "rol_ca": "965-2015", "rol_cs": "", "fecha": "28-12-2016", "corte_apelaciones": "C.A. de Puerto Montt", "juzgado_origen": "2º JUZGADO CIVIL DE PUERTO MONTT", "monto_uf": 4546.83, "monto_clp": 172779540, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=9691&tipoInstancia=2"}]}, {"id": "baremo_muerte_3332", "parentesco": "Hijastro(a)", "casos": 3, "uf": {"primera_instancia": {"n": 3, "min": 285.27, "p25": 285.27, "mediana": 446.26, "promedio": 542.7, "p75": 896.58, "max": 896.58}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 3, "min": 7000000.0, "p25": 7000000.0, "mediana": 12000000.0, "promedio": 13000000.0, "p75": 20000000.0, "max": 20000000.0}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Hijastro(a)), Casos: 3, Mediana: 446.26 UF]", "muestra": [{"rol": "7120-2012", "rol_pi": "C-2458-2009", "rol_ca": "181-2012", "rol_cs": "7120-2012", "fecha": "06-11-2012", "corte_apelaciones": "C.A. de Iquique", "juzgado_origen": "2º JUZGADO DE LETRAS DE IQUIQUE", "monto_uf": 896.58, "monto_clp": 34070040, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=4161&tipoInstancia=3"}, {"rol": "787-2015", "rol_pi": "C-567-2012", "rol_ca": "787-2015", "rol_cs": "", "fecha": "17-02-2016", "corte_apelaciones": "C.A. de Antofagasta", "juzgado_origen": "2º JUZGADO DE LETRAS DE CALAMA", "monto_uf": 285.27, "monto_clp": 10840260, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=9157&tipoInstancia=2"}, {"rol": "C-98-2016", "rol_pi": "C-98-2016", "rol_ca": "", "rol_cs": "", "fecha": "21-02-2018", "corte_apelaciones": "C.A. de Temuco", "juzgado_origen": "JUZGADO DE LETRAS DE VILLARRICA", "monto_uf": 446.26, "monto_clp": 16957880, "url_descarga_sentencia": ""}]}, {"id": "baremo_muerte_2298", "parentesco": "Sobrino(a)", "casos": 3, "uf": {"primera_instancia": {"n": 3, "min": 114.12, "p25": 114.12, "mediana": 140.4, "promedio": 220.43, "p75": 406.77, "max": 406.77}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 1, "min": 375.29, "p25": 375.29, "mediana": 375.29, "promedio": 375.29, "p75": 375.29, "max": 375.29}}, "clp": {"primera_instancia": {"n": 3, "min": 2000000.0, "p25": 2000000.0, "mediana": 3000000.0, "promedio": 5000000.0, "p75": 10000000.0, "max": 10000000.0}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 1, "min": 10000000.0, "p25": 10000000.0, "mediana": 10000000.0, "promedio": 10000000.0, "p75": 10000000.0, "max": 10000000.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Sobrino(a)), Casos: 3, Mediana: 140.4 UF]", "muestra": [{"rol": "55164-2016", "rol_pi": "C-3675-2013", "rol_ca": "1236-2015", "rol_cs": "55164-2016", "fecha": "08-05-2017", "corte_apelaciones": "C.A. de Valparaíso", "juzgado_origen": "1º JUZGADO DE LETRAS DE SAN FELIPE", "monto_uf": 375.29, "monto_clp": 14261020, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=10599&tipoInstancia=3"}, {"rol": "1537-2010", "rol_pi": "C-6103-2009", "rol_ca": "1537-2010", "rol_cs": "", "fecha": "07-01-2011", "corte_apelaciones": "C.A. de Concepción", "juzgado_origen": "1º JUZGADO CIVIL DE CONCEPCION", "monto_uf": 140.4, "monto_clp": 5335200, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=2245&tipoInstancia=2"}, {"rol": "C-377-2004", "rol_pi": "C-377-2004", "rol_ca": "", "rol_cs": "", "fecha": "18-07-2005", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "28º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 114.12, "monto_clp": 4336560, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=3341&tipoInstancia=1"}]}, {"id": "baremo_muerte_4900", "parentesco": "Tío(a)", "casos": 2, "uf": {"primera_instancia": {"n": 2, "min": 60.43, "p25": 60.43, "mediana": 197.94, "promedio": 197.94, "p75": 335.46, "max": 335.46}, "corte_apelaciones": {"n": 1, "min": 335.46, "p25": 335.46, "mediana": 335.46, "promedio": 335.46, "p75": 335.46, "max": 335.46}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 2, "min": 1000000.0, "p25": 1000000.0, "mediana": 4500000.0, "promedio": 4500000.0, "p75": 8000000.0, "max": 8000000.0}, "corte_apelaciones": {"n": 1, "min": 8000000.0, "p25": 8000000.0, "mediana": 8000000.0, "promedio": 8000000.0, "p75": 8000000.0, "max": 8000000.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Tío(a)), Casos: 2, Mediana: 197.94 UF]", "muestra": [{"rol": "6905-2014", "rol_pi": "C-14034-2011", "rol_ca": "6905-2014", "rol_cs": "", "fecha": "03-11-2014", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "18º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 335.46, "monto_clp": 12747480, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=7649&tipoInstancia=2"}, {"rol": "O-54-2002", "rol_pi": "O-54-2002", "rol_ca": "", "rol_cs": "", "fecha": "26-10-2002", "corte_apelaciones": "C.A. de Temuco", "juzgado_origen": "TRIBUNAL DE JUICIO ORAL EN LO PENAL DE TEMUCO", "monto_uf": 60.43, "monto_clp": 2296340, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=4896&tipoInstancia=1"}]}, {"id": "baremo_muerte_8592", "parentesco": "Abuelo Putativo", "casos": 1, "uf": {"primera_instancia": {"n": 1, "min": 78.51, "p25": 78.51, "mediana": 78.51, "promedio": 78.51, "p75": 78.51, "max": 78.51}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 1, "min": 2000000.0, "p25": 2000000.0, "mediana": 2000000.0, "promedio": 2000000.0, "p75": 2000000.0, "max": 2000000.0}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Abuelo Putativo), Casos: 1, Mediana: 78.51 UF]", "muestra": [{"rol": "2349-2015", "rol_pi": "C-648-2014", "rol_ca": "2349-2015", "rol_cs": "", "fecha": "27-10-2016", "corte_apelaciones": "C.A. de Valparaíso", "juzgado_origen": "1º JUZGADO DE LETRAS DE SAN FELIPE", "monto_uf": 78.51, "monto_clp": 2983380, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=9698&tipoInstancia=2"}]}, {"id": "baremo_muerte_5028", "parentesco": "Bisnieto(a)", "casos": 1, "uf": {"primera_instancia": {"n": 1, "min": 88.51, "p25": 88.51, "mediana": 88.51, "promedio": 88.51, "p75": 88.51, "max": 88.51}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 1, "min": 2000000.0, "p25": 2000000.0, "mediana": 2000000.0, "promedio": 2000000.0, "p75": 2000000.0, "max": 2000000.0}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Bisnieto(a)), Casos: 1, Mediana: 88.51 UF]", "muestra": [{"rol": "654-2012", "rol_pi": "C-6204-2010", "rol_ca": "654-2012", "rol_cs": "", "fecha": "19-07-2012", "corte_apelaciones": "C.A. de Concepción", "juzgado_origen": "JUZGADO DE LETRAS DE TOME", "monto_uf": 88.51, "monto_clp": 3363380, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=3028&tipoInstancia=2"}]}, {"id": "baremo_muerte_5290", "parentesco": "Compañero Trabajo", "casos": 1, "uf": {"primera_instancia": {"n": 1, "min": 455.02, "p25": 455.02, "mediana": 455.02, "promedio": 455.02, "p75": 455.02, "max": 455.02}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 1, "min": 10000000.0, "p25": 10000000.0, "mediana": 10000000.0, "promedio": 10000000.0, "p75": 10000000.0, "max": 10000000.0}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Compañero Trabajo), Casos: 1, Mediana: 455.02 UF]", "muestra": [{"rol": "1643-2011", "rol_pi": "C-5360-2009", "rol_ca": "1643-2011", "rol_cs": "", "fecha": "31-05-2012", "corte_apelaciones": "C.A. de Concepción", "juzgado_origen": "1º JUZGADO CIVIL DE TALCAHUANO", "monto_uf": 455.02, "monto_clp": 17290760, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=5289&tipoInstancia=2"}]}, {"id": "baremo_muerte_5155", "parentesco": "Madrastra", "casos": 1, "uf": {"primera_instancia": {"n": 1, "min": 292.43, "p25": 292.43, "mediana": 292.43, "promedio": 292.43, "p75": 292.43, "max": 292.43}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 1, "min": 5000000.0, "p25": 5000000.0, "mediana": 5000000.0, "promedio": 5000000.0, "p75": 5000000.0, "max": 5000000.0}, "corte_apelaciones": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Madrastra), Casos: 1, Mediana: 292.43 UF]", "muestra": [{"rol": "9241-2004", "rol_pi": "C-2884-2000", "rol_ca": "9241-2004", "rol_cs": "", "fecha": "10-03-2009", "corte_apelaciones": "C.A. de Santiago", "juzgado_origen": "21º JUZGADO CIVIL DE SANTIAGO", "monto_uf": 292.43, "monto_clp": 11112340, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=3603&tipoInstancia=2"}]}, {"id": "baremo_muerte_8068", "parentesco": "Padrastro", "casos": 1, "uf": {"primera_instancia": {"n": 1, "min": 400.75, "p25": 400.75, "mediana": 400.75, "promedio": 400.75, "p75": 400.75, "max": 400.75}, "corte_apelaciones": {"n": 1, "min": 378.9, "p25": 378.9, "mediana": 378.9, "promedio": 378.9, "p75": 378.9, "max": 378.9}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "clp": {"primera_instancia": {"n": 1, "min": 10000000.0, "p25": 10000000.0, "mediana": 10000000.0, "promedio": 10000000.0, "p75": 10000000.0, "max": 10000000.0}, "corte_apelaciones": {"n": 1, "min": 10000000.0, "p25": 10000000.0, "mediana": 10000000.0, "promedio": 10000000.0, "p75": 10000000.0, "max": 10000000.0}, "corte_suprema": {"n": 0, "min": 0.0, "p25": 0.0, "mediana": 0.0, "promedio": 0.0, "p75": 0.0, "max": 0.0}}, "cita": "[PJUD Baremo Daño Moral - Muerte (Padrastro), Casos: 1, Mediana: 400.75 UF]", "muestra": [{"rol": "965-2015", "rol_pi": "C-4745-2010", "rol_ca": "965-2015", "rol_cs": "", "fecha": "28-12-2016", "corte_apelaciones": "C.A. de Puerto Montt", "juzgado_origen": "2º JUZGADO CIVIL DE PUERTO MONTT", "monto_uf": 378.9, "monto_clp": 14398200, "url_descarga_sentencia": "https://baremo.pjud.cl/BAREMOWEB/jsonDescargaDocumentoInstancia.faces?tipo=8&indice=9691&tipoInstancia=2"}]}];
+      const PJUD_SAMPLES = [{"coleccion": "lineas_cs", "coleccion_nombre": "Líneas Jurisprudenciales CS", "rol": "103087-2023", "fecha": "", "tribunal": "Corte Suprema", "sala": "CUARTA, MIXTA", "caratula": "CORRECTA INTERPRETACIÓN DE LA DISTINCIÓN DEL PLAZO DE PRESCRIPCIÓN DEL ARTÍCULO 510 DEL CÓDIGO DEL TRABAJO", "materia": "CORRECTA INTERPRETACIÓN DE LA DISTINCIÓN DEL PLAZO DE PRESCRIPCIÓN DEL ARTÍCULO 510 DEL CÓDIGO DEL TRABAJO — Determinar si para efectos de dilucidar el recto sentido y alcance de l", "extracto": "Determinar si para efectos de dilucidar el recto sentido y alcance de la distinción entre los plazos de dos años y de seis meses, contenidos en los incisos primero y segundo del artículo 510 del Código del Trabajo, se aplica el criterio de la vigencia de la relación laboral, o la", "cita": "[CS - Línea Jurisprudencial: CORRECTA INTERPRETACIÓN DE LA DISTINCIÓN DEL PLAZO DE PRESCRIPCIÓN DEL ARTÍCULO 510 DEL CÓDIGO DEL TRABAJO, Rol Rector N° 103087-2023]", "url": "https://juris.pjud.cl/busqueda?Lineas_Jurisprudenciales"}, {"coleccion": "lineas_cs", "coleccion_nombre": "Líneas Jurisprudenciales CS", "rol": "10058-2022", "fecha": "", "tribunal": "Corte Suprema", "sala": "CUARTA, MIXTA", "caratula": "SENTIDO Y ALCANCE DE LOS ARTÍCULOS 3° Y 507 INCISO PRIMERO DEL CÓDIGO DEL TRABAJO", "materia": "SENTIDO Y ALCANCE DE LOS ARTÍCULOS 3° Y 507 INCISO PRIMERO DEL CÓDIGO DEL TRABAJO — Determinar la correcta exégesis del artículo 507 inciso primero del Código del Trabajo, en cuant", "extracto": "Determinar la correcta exégesis del artículo 507 inciso primero del Código del Trabajo, en cuanto a, si para el ejercicio de la acción de declaración de unidad económica basta la sola afirmación en abstracto de afectación de derechos laborales o previsionales por parte de los tra", "cita": "[CS - Línea Jurisprudencial: SENTIDO Y ALCANCE DE LOS ARTÍCULOS 3° Y 507 INCISO PRIMERO DEL CÓDIGO DEL TRABAJO, Rol Rector N° 10058-2022]", "url": "https://juris.pjud.cl/busqueda?Lineas_Jurisprudenciales"}, {"coleccion": "lineas_cs", "coleccion_nombre": "Líneas Jurisprudenciales CS", "rol": "14683-2020", "fecha": "", "tribunal": "Corte Suprema", "sala": "CUARTA, MIXTA", "caratula": "LEGITIMACIÓN PASIVA DE LOS ORGANISMOS DE LA ADMINISTRACIÓN CENTRALIZADA ", "materia": "LEGITIMACIÓN PASIVA DE LOS ORGANISMOS DE LA ADMINISTRACIÓN CENTRALIZADA  — Si los entes que forman parte de la Administración Centralizada del Estado ¿-que no cuentan con personali", "extracto": "Si los entes que forman parte de la Administración Centralizada del Estado ¿-que no cuentan con personalidad jurídica y/o patrimonio propio¿- pueden ser demandados y emplazados en juicio laboral a través de su representante legal, y no necesariamente a través del Fisco de Chile ¿", "cita": "[CS - Línea Jurisprudencial: LEGITIMACIÓN PASIVA DE LOS ORGANISMOS DE LA ADMINISTRACIÓN CENTRALIZADA , Rol Rector N° 14683-2020]", "url": "https://juris.pjud.cl/busqueda?Lineas_Jurisprudenciales"}, {"coleccion": "lineas_cs", "coleccion_nombre": "Líneas Jurisprudenciales CS", "rol": "79959-2021", "fecha": "", "tribunal": "Corte Suprema", "sala": "PRIMERA, CIVIL", "caratula": "PRESCRIPCIÓN - LEY N° 21226", "materia": "PRESCRIPCIÓN - LEY N° 21226", "extracto": " Si la demanda fue presentada con anterioridad al inicio del estado de excepción constitucional de catástrofe declarado en razón de la emergencia sanitaria causada por el COVID-19, no es aplicable a su respecto la regla del artículo 8 de la Ley N° 21226.", "cita": "[CS - Línea Jurisprudencial: PRESCRIPCIÓN - LEY N° 21226, Rol Rector N° 79959-2021]", "url": "https://juris.pjud.cl/busqueda?Lineas_Jurisprudenciales"}, {"coleccion": "lineas_cs", "coleccion_nombre": "Líneas Jurisprudenciales CS", "rol": "90834-2020", "fecha": "", "tribunal": "Corte Suprema", "sala": "PRIMERA, CIVIL", "caratula": "ABANDONO DEL PROCEDIMIENTO", "materia": "ABANDONO DEL PROCEDIMIENTO", "extracto": " Notificación de la resolución que cita a conciliación a las partes sólo a una de ellas no es una gestión útil.", "cita": "[CS - Línea Jurisprudencial: ABANDONO DEL PROCEDIMIENTO, Rol Rector N° 90834-2020]", "url": "https://juris.pjud.cl/busqueda?Lineas_Jurisprudenciales"}, {"coleccion": "lineas_cs", "coleccion_nombre": "Líneas Jurisprudenciales CS", "rol": "90692-2020", "fecha": "", "tribunal": "Corte Suprema", "sala": "PRIMERA, CIVIL", "caratula": "ABANDONO DEL PROCEDIMIENTO", "materia": "ABANDONO DEL PROCEDIMIENTO", "extracto": " No es útil lo obrado en cuaderno de medida precautoria.", "cita": "[CS - Línea Jurisprudencial: ABANDONO DEL PROCEDIMIENTO, Rol Rector N° 90692-2020]", "url": "https://juris.pjud.cl/busqueda?Lineas_Jurisprudenciales"}, {"coleccion": "salud_cs", "coleccion_nombre": "Salud e Isapres CS", "rol": "16810-2026", "fecha": "2026-07-08", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "ANONIMIZADO", "materia": "Hospitalización domiciliaria", "extracto": "Santiago, ocho de julio de dos mil veintiséis.\nVistos:\nSe confirma la sentencia apelada.\nAcordada con el voto en contra de los Ministros señores\nAstudillo y Ruz, quienes fueron del parecer de revocar y rechazar la acción deducida, por los siguientes fundamentos: 1° Que, para acog", "cita": "ANONIMIZADO: 08-07-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 16810-2026. En Salud CS. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Salud_CS"}, {"coleccion": "salud_cs", "coleccion_nombre": "Salud e Isapres CS", "rol": "25422-2026", "fecha": "2026-05-28", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "SHIRLEY PAOLA MARTINEZ HERNANDEZ/ISAPRE CRUZ BLANCA S.A.", "materia": "Aumento plan base", "extracto": "Santiago, a veintiocho de mayo de dos mil veintiséis.\n\nVistos:\nSe reproduce únicamente la parte expositiva de la sentencia en alzada.\nY se tiene en su lugar y, además, presente:\nPrimero: Que, en estos autos, se interpone recurso de protección en contra de la isapre recurrida, por", "cita": "SHIRLEY PAOLA MARTINEZ HERNANDEZ/ISAPRE CRUZ BLANCA S.A.: 28-05-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 25422-2026. En Salud CS. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Salud_CS"}, {"coleccion": "salud_cs", "coleccion_nombre": "Salud e Isapres CS", "rol": "14224-2026", "fecha": "2026-05-28", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "RIVADENEIRA/SUPERINTENDENCIA DE SALUD", "materia": "Aumento de GES", "extracto": "Santiago, veintiocho de mayo de dos mil veintiséis.\nA las solicitudes pendientes, estése a lo que se resolverá a continuación.\nVistos y teniendo únicamente presente:\nPrimero: Que, según consta del mérito de los antecedentes, el actor recurre en contra de la dictación de la resolu", "cita": "RIVADENEIRA/SUPERINTENDENCIA DE SALUD: 28-05-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 14224-2026. En Salud CS. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Salud_CS"}, {"coleccion": "salud_cs", "coleccion_nombre": "Salud e Isapres CS", "rol": "15794-2026", "fecha": "2026-05-28", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "RAMÍREZ BARROS NICOLÁS FELIPE / ISAPRE CONSALUD S.A.", "materia": "Aumento plan base", "extracto": "Santiago, veintiocho de mayo de dos mil veintiséis.\n\nA las solicitudes pendientes, estése a lo que se resolverá a continuación.\n\nVistos:\nSe reproduce únicamente la parte expositiva de la sentencia en alzada.\n\nY se tiene en su lugar, y además, presente:\nPrimero: Que, en estos auto", "cita": "RAMÍREZ BARROS NICOLÁS FELIPE / ISAPRE CONSALUD S.A.: 28-05-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 15794-2026. En Salud CS. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Salud_CS"}, {"coleccion": "salud_cs", "coleccion_nombre": "Salud e Isapres CS", "rol": "25375-2026", "fecha": "2026-05-28", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "PAMELA ALEJANDRA SECCIA ARRIAZA/ISAPRE CRUZ BLANCA S.A.", "materia": "Aumento plan base", "extracto": "Santiago, veintiocho de mayo de dos mil veintiséis.\nA las solicitudes pendientes, estése a lo que se resolverá a continuación.\n\nVistos:\nSe reproduce únicamente la parte expositiva de la sentencia en alzada.\n\nY se tiene en su lugar, y además, presente:\nPrimero: Que, en estos autos", "cita": "PAMELA ALEJANDRA SECCIA ARRIAZA/ISAPRE CRUZ BLANCA S.A.: 28-05-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 25375-2026. En Salud CS. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Salud_CS"}, {"coleccion": "salud_cs", "coleccion_nombre": "Salud e Isapres CS", "rol": "18058-2026", "fecha": "2026-05-14", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "CAROLINA BEATRIZ HEVIA MORONI /SUPERINTENDENCIA DE SALUD", "materia": "Aumento de GES", "extracto": "Santiago, catorce de mayo de dos mil veintiséis.\n\nA las solicitudes pendientes: estese a lo que se resolverá.\n\nVistos y teniendo, además, presente:\nPrimero: Que se interpone acción constitucional de protección en contra de la Superintendencia de Salud, por dictar la Resolución Ex", "cita": "CAROLINA BEATRIZ HEVIA MORONI /SUPERINTENDENCIA DE SALUD: 14-05-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 18058-2026. En Salud CS. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Salud_CS"}, {"coleccion": "extranjeria_cs", "coleccion_nombre": "Compendio Extranjería CS", "rol": "40823-2026", "fecha": "2026-08-20", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "IZQUIERDO LEAL RANDY/SERVICIO NACIONAL DE MIGRACIONES", "materia": "Regularización migratoria, Servicio Nacional de Migraciones", "extracto": "PAGE\n8\nSantiago, veinte de agosto de dos mil veintiséis.\n\nA las solicitudes pendientes, estése a lo que se resolverá a continuación.\n\nVistos:\nSe reproduce sólo lo expositivo del fallo en alzada, suprimiéndose lo demás.\nY se tiene en su lugar, y además, presente:\nPrimero: Que la p", "cita": "IZQUIERDO LEAL RANDY/SERVICIO NACIONAL DE MIGRACIONES: 20-08-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 40823-2026. En Compendio Extranjería. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Compendio_Extranjer%C3%ADa"}, {"coleccion": "extranjeria_cs", "coleccion_nombre": "Compendio Extranjería CS", "rol": "31331-2026", "fecha": "2026-08-05", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "SANTIAGO FELIPE UGARTECHE RAMIREZ GASTON CONTRA MINISTERIO DEL INTERIOR", "materia": "Nacionalización, Ministerio del Interior y Seguridad Pública, Subsecretaría del Interior", "extracto": "3\nSantiago, cinco de agosto de dos mil veintiséis. \nA las solicitudes pendientes, estese a lo que se resolverá a continuación. \nVistos:\nSe reproduce el fallo en alzada, con excepción de los fundamentos que razonan en el sentido de rechazar la acción constitucional los que se elim", "cita": "SANTIAGO FELIPE UGARTECHE RAMIREZ GASTON CONTRA MINISTERIO DEL INTERIOR: 05-08-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 31331-2026. En Compendio Extranjería. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Compendio_Extranjer%C3%ADa"}, {"coleccion": "extranjeria_cs", "coleccion_nombre": "Compendio Extranjería CS", "rol": "28879-2026", "fecha": "2026-07-23", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "MARIN VALDES FLOR MARIA CONTRA SUBSECRETARIA DEL INTERIOR", "materia": "Regularización migratoria, Servicio Nacional de Migraciones, Subsecretaría del Interior", "extracto": "Santiago, veintitrés de julio de dos mil veintiséis.\n\nA las solicitudes pendientes, estése a lo que se resolverá a continuación.\nVistos:\nSe reproduce la sentencia en alzada y se tiene, además, presente:\nPrimero: Que del mérito de los antecedentes se desprende que el recurrente re", "cita": "MARIN VALDES FLOR MARIA CONTRA SUBSECRETARIA DEL INTERIOR: 23-07-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 28879-2026. En Compendio Extranjería. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Compendio_Extranjer%C3%ADa"}, {"coleccion": "extranjeria_cs", "coleccion_nombre": "Compendio Extranjería CS", "rol": "23716-2026", "fecha": "2026-07-23", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "TEOFILO MANUEL SESME CORNEJO / SERVICIO NACIONAL DE MIGRACIONES Y OTRO", "materia": "Regularización migratoria, Servicio Nacional de Migraciones, Subsecretaría del Interior", "extracto": "2\nSantiago, veintitrés de julio de dos mil veintiséis.\n\nA las solicitudes pendientes, estese a lo que se resolverá a continuación.\nVistos:\nSe reproduce el fallo en alzada, con excepción de los fundamentos que razonan en el sentido de rechazar la acción constitucional los que se e", "cita": "TEOFILO MANUEL SESME CORNEJO / SERVICIO NACIONAL DE MIGRACIONES Y OTRO: 23-07-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 23716-2026. En Compendio Extranjería. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Compendio_Extranjer%C3%ADa"}, {"coleccion": "extranjeria_cs", "coleccion_nombre": "Compendio Extranjería CS", "rol": "11015-2026", "fecha": "2026-07-08", "tribunal": "Corte Suprema", "sala": "TERCERA, CONSTITUCIONAL", "caratula": "GERMAN LANDAETA DANIRA COROMOTO / SUBSECRETARIA DEL INTERIOR Y OTRO", "materia": "Regularización migratoria, Servicio Nacional de Migraciones, Subsecretaría del Interior", "extracto": "Santiago, ocho de julio de dos mil veintiséis.\n\nA las solicitudes pendientes, estese a lo que se resolverá a continuación.\n\nVistos:\nSe reproduce la sentencia en alzada y se tiene, además, presente:\nPrimero: Que del mérito de los antecedentes se desprende que el recurrente recurri", "cita": "GERMAN LANDAETA DANIRA COROMOTO / SUBSECRETARIA DEL INTERIOR Y OTRO: 08-07-2026 ((CIVIL) APELACIÓN PROTECCIÓN), Rol N° 11015-2026. En Compendio Extranjería. Fecha de consulta: 14-11-2026", "url": "https://juris.pjud.cl/busqueda?Compendio_Extranjer%C3%ADa"}, {"coleccion": "ddhh", "coleccion_nombre": "Derechos Humanos PJUD", "rol": "32863-2024", "fecha": "2026-10-30", "tribunal": "Corte Suprema", "sala": "SEGUNDA, PENAL", "caratula": "VALDÉS/FISCO DE CHILE - CONSEJO DEFENSA DEL ESTADO", "materia": "Prescripción de la acción, Requisitos de la sentencia, Daño por repercusión o rebote, Alteración del onus probandi", "extracto": "delito de lesa humanidad cuya acción penal es imprescriptible conforme a la normativa internacional, siendo incoherente sostener que la acción civil indemnizatoria que emana de los mismos hechos se sujete a la legislación civil interna, pues con\n...\ndeducida por personas que no t", "cita": "VALDÉS/FISCO DE CHILE - CONSEJO DEFENSA DEL ESTADO: 30-10-2026 ((CIVIL) CASACIÓN FORMA Y FONDO), Rol N° 32863-2024. En Corte Suprema. Fecha de consulta: 14-11-2026", "url": "https://busddhh.pjud.cl/buscador/sentencias-derechos-humanos"}, {"coleccion": "ddhh", "coleccion_nombre": "Derechos Humanos PJUD", "rol": "19979-2024", "fecha": "2026-10-23", "tribunal": "Corte Suprema", "sala": "SEGUNDA, PENAL", "caratula": "CRUZ CON CONSEJO DE DEFENSA", "materia": "Carga de la prueba, Influencia sustancial en lo dispositivo del fallo, Racional y justo procedimiento, Requisitos de la sentencia", "extracto": "existencia del ilícito de carácter de lesa humanidad, forzoso es concluir que se ha producido dicho perjuicio y que debe ser reparado, lo que no podría ser de otra forma en tanto que materialmente es difícil, por no decir imposible, medir con\n...\nCódigo Civil, pues imponen sobre ", "cita": "CRUZ CON CONSEJO DE DEFENSA: 23-10-2026 ((CIVIL) CASACIÓN FONDO), Rol N° 19979-2024. En Corte Suprema. Fecha de consulta: 14-11-2026", "url": "https://busddhh.pjud.cl/buscador/sentencias-derechos-humanos"}, {"coleccion": "ddhh", "coleccion_nombre": "Derechos Humanos PJUD", "rol": "38849-2024", "fecha": "2026-10-23", "tribunal": "Corte Suprema", "sala": "SEGUNDA, PENAL", "caratula": "CARLOS ROSENDO CANDIA MONTECINOS CON FISCO DE CHILE - CONSEJO DE DEFENSA DEL ESTADO", "materia": "Deber de fundamentación, Motivación de la sentencia, Agentes del Estado, Acción indemnizatoria", "extracto": "tiempo, las consecuencias dañosas derivadas de los delito de lesa humanidad, han tenido un desarrollo creciente en la jurisprudencia de nuestro país, pero también en la propia Corte Interamericana de Derechos Humanos, entendiendo que se trata de\n...\ncuantificar económicamente el ", "cita": "CARLOS ROSENDO CANDIA MONTECINOS CON FISCO DE CHILE - CONSEJO DE DEFENSA DEL ESTADO: 23-10-2026 ((CIVIL) CASACIÓN FORMA), Rol N° 38849-2024. En Corte Suprema. Fecha de consulta: 14-11-2026", "url": "https://busddhh.pjud.cl/buscador/sentencias-derechos-humanos"}, {"coleccion": "ddhh", "coleccion_nombre": "Derechos Humanos PJUD", "rol": "9649-2024", "fecha": "2026-10-23", "tribunal": "Corte Suprema", "sala": "SEGUNDA, PENAL", "caratula": "ANONIMIZADO", "materia": "Daño moral por repercusión o rebote, Reparación integral del daño, Acción de indemnización de perjuicios, Delito de lesa humanidad", "extracto": "Santiago, veintitrés de octubre de dos mil veintiséis.\nVISTO:\nEn estos autos sobre juicio ordinario de hacienda por indemnización de perjuicios, tramitado ante el Segundo de Letras de La Serena, bajo el rol N° C- 1067-2021, caratulado “[Oliver] con Fisco de Chile”, por sentencia ", "cita": "ANONIMIZADO: 23-10-2026 ((CIVIL) CASACIÓN FONDO), Rol N° 9649-2024. En Corte Suprema. Fecha de consulta: 14-11-2026", "url": "https://busddhh.pjud.cl/buscador/sentencias-derechos-humanos"}, {"coleccion": "ddhh", "coleccion_nombre": "Derechos Humanos PJUD", "rol": "19979-2024", "fecha": "2026-10-23", "tribunal": "Corte Suprema", "sala": "SEGUNDA, PENAL", "caratula": "CRUZ CON CONSEJO DE DEFENSA", "materia": "Carga de la prueba, Daño moral, Valoración de la prueba, Prueba del daño moral", "extracto": "conforma el delito de lesa humanidad que padeció el actor, por la detención ilegal y torturas realizadas por agentes del Estado en contra del demandante, toda vez que es un hecho pacífico entre las partes, que el demandante tiene la calidad de", "cita": "CRUZ CON CONSEJO DE DEFENSA: 23-10-2026 ((CIVIL) CASACIÓN FONDO), Rol N° 19979-2024. En Corte Suprema. Fecha de consulta: 14-11-2026", "url": "https://busddhh.pjud.cl/buscador/sentencias-derechos-humanos"}, {"coleccion": "ddhh", "coleccion_nombre": "Derechos Humanos PJUD", "rol": "9223-2024", "fecha": "2026-10-22", "tribunal": "Corte Suprema", "sala": "SEGUNDA, PENAL", "caratula": "SÁNCHEZ CON FISCO DE CHILE-CONSEJO DE DEFENSA DEL ESTADO", "materia": "Fisco de Chile, Onus probandi o carga de la prueba, Reparación integral del daño, Acción de indemnización de perjuicios", "extracto": "humanos, no es el ofendido por un crimen de lesa humanidad, por lo que la aplicación de la institución de prescripción es incuestionable. \n\nAfirma, que los señalados vicios han influido sustancialmente en lo dispositivo del dictamen impugnado\n...\nreparación integral. La primera p", "cita": "SÁNCHEZ CON FISCO DE CHILE-CONSEJO DE DEFENSA DEL ESTADO: 22-10-2026 ((CIVIL) CASACIÓN FORMA Y FONDO), Rol N° 9223-2024. En Corte Suprema. Fecha de consulta: 14-11-2026", "url": "https://busddhh.pjud.cl/buscador/sentencias-derechos-humanos"}, {"coleccion": "genero", "coleccion_nombre": "Secretaría de Género PJUD", "rol": "CONCURSO-GENERO-2025-1", "fecha": "2025-01-01", "tribunal": "Poder Judicial — Concurso Nacional de Sentencias con Perspectiva de Género", "sala": "Sentencia Destacada / Mención Honrosa", "caratula": "Concurso Perspectiva de Género (2025): Cuaderno de Buenas Prácticas (CBP) — CBP 30052019 HR1.1", "materia": "Perspectiva de Género y No Discriminación — CBP 30052019 HR1.1", "extracto": "Concurso Perspectiva de Género (2025): Cuaderno de Buenas Prácticas (CBP) — CBP 30052019 HR1.1. Colección: Concurso Nacional de Sentencias con Perspectiva de Género (2025). Materia: Perspectiva de Género y No Discriminación — CBP 30052019 HR1.1. Fallo oficial: https://secretariad", "cita": "[PJUD Secretaría de Género - CONCURSO-GENERO-2025-1, Materia: Perspectiva de Género y No Discriminación — CBP 30052019 HR1]", "url": "https://secretariadegenero.pjud.cl/index.php/repositorio/concurso-de-sentencias-con-perspectiva-de-genero"}, {"coleccion": "genero", "coleccion_nombre": "Secretaría de Género PJUD", "rol": "CONCURSO-GENERO-2025-2", "fecha": "2025-01-01", "tribunal": "Poder Judicial — Concurso Nacional de Sentencias con Perspectiva de Género", "sala": "Sentencia Destacada / Mención Honrosa", "caratula": "Concurso Perspectiva de Género (2025): Manual Para el uso del lenguaje inclusivo — ManualLenguajeInclusivo PJUD2021", "materia": "Perspectiva de Género y No Discriminación — ManualLenguajeInclusivo PJUD2021", "extracto": "Concurso Perspectiva de Género (2025): Manual Para el uso del lenguaje inclusivo — ManualLenguajeInclusivo PJUD2021. Colección: Concurso Nacional de Sentencias con Perspectiva de Género (2025). Materia: Perspectiva de Género y No Discriminación — ManualLenguajeInclusivo PJUD2021.", "cita": "[PJUD Secretaría de Género - CONCURSO-GENERO-2025-2, Materia: Perspectiva de Género y No Discriminación — ManualLenguajeIn]", "url": "https://secretariadegenero.pjud.cl/index.php/repositorio/concurso-de-sentencias-con-perspectiva-de-genero"}, {"coleccion": "genero", "coleccion_nombre": "Secretaría de Género PJUD", "rol": "STG-DOC-1", "fecha": "2024-01-01", "tribunal": "Poder Judicial — Secretaría Técnica de Igualdad de Género y No Discriminación", "sala": "Jurisprudencia con Perspectiva de Género", "caratula": "Documento STG-PJUD: CBP 30052019 HR1.1", "materia": "CBP 30052019 HR1.1", "extracto": "Documento STG-PJUD: CBP 30052019 HR1.1. Colección: Repositorio de Sentencias con Perspectiva de Género. Materia: CBP 30052019 HR1.1. Fallo oficial: https://secretariadegenero.pjud.cl/images/stignd/CBP/CBP_30052019_HR1.1.pdf. ", "cita": "[PJUD Secretaría de Género - STG-DOC-1, Materia: CBP 30052019 HR1.1]", "url": "https://secretariadegenero.pjud.cl/index.php/repositorio"}, {"coleccion": "genero", "coleccion_nombre": "Secretaría de Género PJUD", "rol": "STG-DOC-2", "fecha": "2024-01-01", "tribunal": "Poder Judicial — Secretaría Técnica de Igualdad de Género y No Discriminación", "sala": "Jurisprudencia con Perspectiva de Género", "caratula": "Documento STG-PJUD: ManualLenguajeInclusivo PJUD2021", "materia": "ManualLenguajeInclusivo PJUD2021", "extracto": "Documento STG-PJUD: ManualLenguajeInclusivo PJUD2021. Colección: Repositorio de Sentencias con Perspectiva de Género. Materia: ManualLenguajeInclusivo PJUD2021. Fallo oficial: https://secretariadegenero.pjud.cl/images/stignd/proyectos/ManualLenguajeInclusivo/ManualLenguajeInclusi", "cita": "[PJUD Secretaría de Género - STG-DOC-2, Materia: ManualLenguajeInclusivo PJUD2021]", "url": "https://secretariadegenero.pjud.cl/index.php/repositorio"}, {"coleccion": "genero", "coleccion_nombre": "Secretaría de Género PJUD", "rol": "STG-DOC-3", "fecha": "2024-01-01", "tribunal": "Poder Judicial — Secretaría Técnica de Igualdad de Género y No Discriminación", "sala": "Jurisprudencia con Perspectiva de Género", "caratula": "Documento STG-PJUD: CBP 30052019 HR1.1", "materia": "CBP 30052019 HR1.1", "extracto": "Documento STG-PJUD: CBP 30052019 HR1.1. Colección: Repositorio de Sentencias con Perspectiva de Género. Materia: CBP 30052019 HR1.1. Fallo oficial: https://secretariadegenero.pjud.cl/images/stignd/CBP/CBP_30052019_HR1.1.pdf. ", "cita": "[PJUD Secretaría de Género - STG-DOC-3, Materia: CBP 30052019 HR1.1]", "url": "https://secretariadegenero.pjud.cl/index.php/repositorio"}, {"coleccion": "genero", "coleccion_nombre": "Secretaría de Género PJUD", "rol": "STG-DOC-4", "fecha": "2024-01-01", "tribunal": "Poder Judicial — Secretaría Técnica de Igualdad de Género y No Discriminación", "sala": "Jurisprudencia con Perspectiva de Género", "caratula": "Documento STG-PJUD: ManualLenguajeInclusivo PJUD2021", "materia": "ManualLenguajeInclusivo PJUD2021", "extracto": "Documento STG-PJUD: ManualLenguajeInclusivo PJUD2021. Colección: Repositorio de Sentencias con Perspectiva de Género. Materia: ManualLenguajeInclusivo PJUD2021. Fallo oficial: https://secretariadegenero.pjud.cl/images/stignd/proyectos/ManualLenguajeInclusivo/ManualLenguajeInclusi", "cita": "[PJUD Secretaría de Género - STG-DOC-4, Materia: ManualLenguajeInclusivo PJUD2021]", "url": "https://secretariadegenero.pjud.cl/index.php/repositorio"}];
+
+      const selectEl = document.getElementById('baremoParentescoSelect');
+      const gridEl = document.getElementById('baremoInstancesGrid');
+      const citaEl = document.getElementById('baremoCitationCode');
+      const samplesBody = document.getElementById('baremoSamplesBody');
+      const btnCopyCita = document.getElementById('btnCopyBaremoCita');
+
+      function fmtUF(val) {
+        if (!val || val <= 0) return 'Sin registros';
+        return val.toLocaleString('es-CL', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' UF';
+      }
+
+      function fmtCLP(val) {
+        if (!val || val <= 0) return '—';
+        return '$' + Math.round(val).toLocaleString('es-CL') + ' CLP';
+      }
+
+      function renderBaremoCategory(item) {
+        if (!item || !gridEl) return;
+        const instances = [
+          { key: 'primera_instancia', label: 'Primera Instancia (Juzgados Civiles)', cls: 'pi' },
+          { key: 'corte_apelaciones', label: 'Cortes de Apelaciones (2ª Instancia)', cls: 'ca' },
+          { key: 'corte_suprema', label: 'Excma. Corte Suprema (Casación)', cls: 'cs' }
+        ];
+
+        gridEl.innerHTML = instances.map(inst => {
+          const uf = (item.uf && item.uf[inst.key]) || { n: 0, min: 0, p25: 0, mediana: 0, promedio: 0, p75: 0, max: 0 };
+          const clp = (item.clp && item.clp[inst.key]) || { n: 0, mediana: 0 };
+          const maxRef = Math.max(uf.max || 1, 1);
+          const leftPct = Math.min(85, Math.max(4, Math.round(((uf.p25 || 0) / maxRef) * 100)));
+          const widthPct = Math.min(100 - leftPct, Math.max(12, Math.round((((uf.p75 || 0) - (uf.p25 || 0)) / maxRef) * 100)));
+
+          return `
+            <div class="baremo-inst-card ${inst.cls}">
+              <div class="baremo-inst-title">
+                <span>${inst.label}</span>
+                <span style="color:#0284c7;">n = ${uf.n} fallos</span>
+              </div>
+              <div class="baremo-mediana-uf">${fmtUF(uf.mediana)}</div>
+              <div class="baremo-mediana-clp">Mediana: ${fmtCLP(clp.mediana)}</div>
+              <div class="baremo-range-bar" title="Rango Intercuartil P25 - P75">
+                <div class="baremo-range-fill" style="margin-left:${leftPct}%; width:${widthPct}%;"></div>
+              </div>
+              <div class="baremo-stat-row">
+                <span>P25: ${fmtUF(uf.p25)}</span>
+                <span>P75: ${fmtUF(uf.p75)}</span>
+              </div>
+              <div class="baremo-stat-row">
+                <span>Promedio: ${fmtUF(uf.promedio)}</span>
+                <span>Máx: ${fmtUF(uf.max)}</span>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        if (citaEl) citaEl.textContent = item.cita;
+        if (samplesBody) {
+          samplesBody.innerHTML = (item.muestra || []).map(m => `
+            <tr>
+              <td style="font-family:var(--font-mono); font-weight:600; color:#0284c7;">Rol ${m.rol}</td>
+              <td>${m.corte_apelaciones || '—'}</td>
+              <td>${m.juzgado_origen || '—'}</td>
+              <td style="font-family:var(--font-mono);">${m.fecha || '—'}</td>
+              <td style="font-family:var(--font-mono); font-weight:600;">${fmtUF(m.monto_uf)} <span style="color:#64748b; font-weight:400;">(${fmtCLP(m.monto_clp)})</span></td>
+              <td><a href="${m.url_descarga_sentencia}" target="_blank" rel="noreferrer" style="color:#059669; font-family:var(--font-mono); font-weight:600; text-decoration:none;">📄 Descargar Fallo</a></td>
+            </tr>
+          `).join('');
+        }
+      }
+
+      if (selectEl && BAREMO_DATA.length) {
+        selectEl.innerHTML = BAREMO_DATA.map((b, idx) =>
+          `<option value="${idx}">${b.parentesco} (${b.casos} sentencias analizadas — Mediana PI: ${b.uf.primera_instancia.mediana} UF)</option>`
+        ).join('');
+        selectEl.addEventListener('change', (e) => {
+          const item = BAREMO_DATA[parseInt(e.target.value, 10)] || BAREMO_DATA[0];
+          renderBaremoCategory(item);
+        });
+        renderBaremoCategory(BAREMO_DATA[0]);
+      }
+
+      if (btnCopyCita && citaEl) {
+        btnCopyCita.addEventListener('click', () => {
+          navigator.clipboard.writeText(citaEl.textContent || '').then(() => {
+            const orig = btnCopyCita.textContent;
+            btnCopyCita.textContent = '✅ ¡Cita Copiada!';
+            setTimeout(() => { btnCopyCita.textContent = orig; }, 2000);
+          });
+        });
+      }
+
+      // Multi-Corpus PJUD Sample Explorer
+      const pjudGrid = document.getElementById('pjudCorpusGrid');
+      const pjudSearch = document.getElementById('pjudCorpusSearchInput');
+      let currentPjudCol = 'all';
+      let currentPjudTerm = '';
+
+      function renderPjudSamples() {
+        if (!pjudGrid) return;
+        const filtered = PJUD_SAMPLES.filter(s => {
+          const mCol = (currentPjudCol === 'all') || (s.coleccion === currentPjudCol);
+          const mTerm = !currentPjudTerm ||
+            s.rol.toLowerCase().includes(currentPjudTerm) ||
+            s.caratula.toLowerCase().includes(currentPjudTerm) ||
+            s.materia.toLowerCase().includes(currentPjudTerm) ||
+            s.extracto.toLowerCase().includes(currentPjudTerm) ||
+            s.coleccion_nombre.toLowerCase().includes(currentPjudTerm);
+          return mCol && mTerm;
+        }).slice(0, 9);
+
+        pjudGrid.innerHTML = filtered.map(s => `
+          <div class="tool-card" style="display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div class="tool-header-row">
+                <span class="tool-name">Rol ${s.rol}</span>
+                <span class="tool-cat-badge">${s.coleccion_nombre}</span>
+              </div>
+              <div style="font-size:12px; font-weight:600; color:#0f172a; margin:6px 0 4px;">${s.caratula || s.materia}</div>
+              <p class="tool-desc" style="font-size:12px; line-height:1.45;">${s.extracto || s.materia}</p>
+            </div>
+            <div style="margin-top:10px; padding-top:8px; border-top:1px solid #f1f5f9; display:flex; justify-content:space-between; align-items:center; gap:8px;">
+              <code style="font-size:10.5px; color:#0369a1; background:#f0f9ff; padding:2px 6px; border-radius:4px;">${s.cita}</code>
+              <a href="${s.url}" target="_blank" rel="noreferrer" style="font-size:11px; font-family:var(--font-mono); color:#059669; text-decoration:none; font-weight:600;">Ver fuente →</a>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      document.querySelectorAll('[data-pjud-col]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('[data-pjud-col]').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentPjudCol = btn.dataset.pjudCol;
+          renderPjudSamples();
+        });
+      });
+
+      if (pjudSearch) {
+        pjudSearch.addEventListener('input', (e) => {
+          currentPjudTerm = e.target.value.toLowerCase().trim();
+          renderPjudSamples();
+        });
+      }
+
+      renderPjudSamples();
+    })();
+
   </script>
 </body>
 </html>

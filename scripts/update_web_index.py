@@ -1,30 +1,30 @@
 #!/usr/bin/env python3
 """
-Script to update docs/index.html with:
-1. Exact 88 MCP tools metadata across 8 categories
-2. Updated stats: 7,399 works, 25,556 institutions, 20,990 nodes, 51,590 edges, 11 journals, 507 tests
-3. Playful animations:
-   - Interactive hero graph canvas with floating Chilean legal institutions and cursor connection
-   - Animated count-up numbers with IntersectionObserver
-   - Socratic Bar Exam Simulator (Simulador Socrático de Examen de Grado) with random cedulas and canonical rubrics
-4. Updated copy across hero, pillars, and footer
+Script canónico para actualizar docs/index.html con:
+1. Las 88 herramientas MCP exactas en 8 categorías.
+2. Estadísticas actualizadas: 7.399 obras, 25.556 instituciones, 20.990 nodos, 51.590 aristas,
+   8 portales especializados PJUD en Hugging Face y 27 skills.
+3. Buscador Interactivo Multi-Corpus PJUD / Hugging Face, Calculadora Estadística del Baremo
+   de Daño Moral PJUD (17 categorías en UF y CLP) y Arquitectura Data Science (Okapi BM25F +
+   Personalized PageRank α=0.85 + Modelo Contradictorio Elephant-Goldfish).
+4. Sección de Formación Ejecutiva, Consultoría «Llave en Mano» On-Premise y Alianzas
+   Institucionales (Propuestas 1, 2 y 4) con contacto directo a pablobenavidesjorquera@gmail.com.
 """
 
 import json
 import re
 from pathlib import Path
 
-INDEX_HTML_PATH = Path("docs/index.html")
+RAIZ = Path(__file__).resolve().parent.parent
+INDEX_HTML_PATH = RAIZ / "docs" / "index.html"
+
 
 def build_all_tools_dataset():
     from mcp_server import TOOLS
-    
+
     categories = {
-        # Protocolo & Citas (2)
         "consulta_maestra": "Protocolo & Citas",
         "cita_texto": "Protocolo & Citas",
-        
-        # Agentes & IA Jurídica (7)
         "agent_list": "Agentes & IA Jurídica",
         "agent_run": "Agentes & IA Jurídica",
         "agent_export_subagents": "Agentes & IA Jurídica",
@@ -32,8 +32,6 @@ def build_all_tools_dataset():
         "skill_ver": "Agentes & IA Jurídica",
         "caso_analizar": "Agentes & IA Jurídica",
         "caso_ejecutar": "Agentes & IA Jurídica",
-        
-        # Doctrina & Graphify (15)
         "doctrina_search": "Doctrina & Graphify",
         "doctrina_get_institucion": "Doctrina & Graphify",
         "doctrina_list_obras": "Doctrina & Graphify",
@@ -49,18 +47,12 @@ def build_all_tools_dataset():
         "graphify_analizar_impacto": "Doctrina & Graphify",
         "graphify_god_nodes": "Doctrina & Graphify",
         "biblioteca_compilar_manifiesto": "Doctrina & Graphify",
-        
-        # BCN Normativo (4)
         "bcn_get_codigo": "BCN Normativo",
         "bcn_get_ley": "BCN Normativo",
         "bcn_get_ley_historica": "BCN Normativo",
         "bcn_get_codigo_historico": "BCN Normativo",
-        
-        # CBR Inmobiliario (2)
         "cbr_estudio_titulos": "CBR Inmobiliario",
         "cbr_checklist_documentos": "CBR Inmobiliario",
-        
-        # Tribunales & PJUD (9)
         "pjud_search_jurisprudencia": "Tribunales & PJUD",
         "pjud_analizar_sentencia": "Tribunales & PJUD",
         "pjud_interpretar_proveido": "Tribunales & PJUD",
@@ -70,8 +62,6 @@ def build_all_tools_dataset():
         "ocr_plan_documento": "Tribunales & PJUD",
         "ocr_extract_pdf": "Tribunales & PJUD",
         "cpc_validar_mandato": "Tribunales & PJUD",
-        
-        # Regulatorio & Fiscal (17)
         "cgr_search_jurisprudencia": "Regulatorio & Fiscal",
         "cgr_search_auditorias": "Regulatorio & Fiscal",
         "dt_search_doctrina": "Regulatorio & Fiscal",
@@ -90,41 +80,8 @@ def build_all_tools_dataset():
         "sma_search_sancionatorios": "Regulatorio & Fiscal",
         "entes_consultar_organo": "Regulatorio & Fiscal",
         "busqueda_universal": "Regulatorio & Fiscal",
-        
-        # Suite & Utilidades (31)
-        "cne_get_centrales_y_proyectos": "Suite & Utilidades",
-        "panel_expertos_search": "Suite & Utilidades",
-        "infoprobidad_get_dip": "Suite & Utilidades",
-        "notebooklm_list_notebooks": "Suite & Utilidades",
-        "notebooklm_create_notebook": "Suite & Utilidades",
-        "notebooklm_add_source": "Suite & Utilidades",
-        "notebooklm_query": "Suite & Utilidades",
-        "grado_interrogar": "Suite & Utilidades",
-        "grado_generar_cedula": "Suite & Utilidades",
-        "grado_obtener_flashcards": "Suite & Utilidades",
-        "vigilante_analizar_resolucion": "Suite & Utilidades",
-        "vigilante_radar_normativo": "Suite & Utilidades",
-        "vigilante_contrato_plazos": "Suite & Utilidades",
-        "clinica_lenguaje_claro": "Suite & Utilidades",
-        "clinica_intake_social": "Suite & Utilidades",
-        "clinica_auditar_borrador": "Suite & Utilidades",
-        "privacidad_tramitar_arco": "Suite & Utilidades",
-        "inapi_cease_and_desist": "Suite & Utilidades",
-        "inapi_evaluar_marca": "Suite & Utilidades",
-        "rut_validar_chile": "Suite & Utilidades",
-        "export_brief_ojv": "Suite & Utilidades",
-        "compile_legal_dossier": "Suite & Utilidades",
-        "ambiental_buscar_jurisprudencia": "Suite & Utilidades",
-        "ambiental_consulta_maestra": "Suite & Utilidades",
-        "academia_judicial_buscar_guias": "Suite & Utilidades",
-        "suite_telemetria_stats": "Suite & Utilidades",
-        "suite_verificar_actualizacion": "Suite & Utilidades",
-        "suite_auto_update": "Suite & Utilidades",
-        "suite_doctor": "Suite & Utilidades",
-        "suite_instalar": "Suite & Utilidades",
-        "entrevista_estudio": "Suite & Utilidades",
     }
-    
+
     tools_list = []
     for t in TOOLS:
         name = t["name"]
@@ -133,31 +90,714 @@ def build_all_tools_dataset():
         first_line = desc.split("\n")[0].strip()
         if len(first_line) > 130:
             first_line = first_line[:127] + "..."
-        tools_list.append({
-            "name": name,
-            "category": cat,
-            "description": first_line,
-            "full_description": desc
-        })
+        tools_list.append(
+            {
+                "name": name,
+                "category": cat,
+                "description": first_line,
+                "full_description": desc,
+            }
+        )
     return tools_list
+
+
+def build_baremo_dataset():
+    baremo_path = RAIZ / "data" / "jurisprudencia" / "baremo_dano_moral.jsonl"
+    if not baremo_path.exists():
+        return []
+    rows = [json.loads(line) for line in baremo_path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    rows.sort(key=lambda x: -x.get("total_casos_analizados", 0))
+    out = []
+    for r in rows:
+        out.append(
+            {
+                "id": r["id"],
+                "parentesco": r["parentesco"],
+                "casos": r["total_casos_analizados"],
+                "uf": r["estadisticas_uf"],
+                "clp": r["estadisticas_clp"],
+                "cita": r["cita"],
+                "muestra": r.get("fallos_muestra", [])[:4],
+            }
+        )
+    return out
+
+
+def build_pjud_corpus_samples():
+    files = [
+        ("lineas_cs", "Líneas Jurisprudenciales CS", "cs_lineas_jurisprudenciales.jsonl", 6),
+        ("salud_cs", "Salud e Isapres CS", "cs_salud.jsonl", 6),
+        ("extranjeria_cs", "Compendio Extranjería CS", "cs_extranjeria.jsonl", 5),
+        ("ddhh", "Derechos Humanos PJUD", "cs_ddhh.jsonl", 6),
+        ("genero", "Secretaría de Género PJUD", "pjud_genero.jsonl", 6),
+    ]
+    samples = []
+    for col_id, col_label, fname, limit in files:
+        fpath = RAIZ / "data" / "jurisprudencia" / fname
+        if not fpath.exists():
+            continue
+        count = 0
+        for line in fpath.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            samples.append(
+                {
+                    "coleccion": col_id,
+                    "coleccion_nombre": col_label,
+                    "rol": row.get("rol", ""),
+                    "fecha": row.get("fecha", ""),
+                    "tribunal": row.get("tribunal", "Excma. Corte Suprema"),
+                    "sala": row.get("sala", ""),
+                    "caratula": (row.get("caratula") or "")[:120],
+                    "materia": (row.get("materia") or row.get("descriptores") or "")[:180],
+                    "extracto": (row.get("extracto_relevante") or row.get("sumario") or "")[:280],
+                    "cita": row.get("cita", ""),
+                    "url": row.get("url_origen") or "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile",
+                }
+            )
+            count += 1
+            if count >= limit:
+                break
+    return samples
+
+
+NEW_CSS_STYLES = """
+    /* --- Buscador Multi-Corpus, Baremo & Formación Consultoría --- */
+    .corpus-hub-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 26px;
+    }
+    @media (max-width: 980px) {
+      .corpus-hub-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 560px) {
+      .corpus-hub-grid { grid-template-columns: 1fr; }
+    }
+    .portal-stat-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+    }
+    .portal-stat-card:hover {
+      border-color: #0284c7;
+      box-shadow: 0 8px 24px rgba(2, 132, 199, 0.08);
+      transform: translateY(-2px);
+    }
+    .portal-stat-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .portal-stat-badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #e0f2fe;
+      color: #0369a1;
+    }
+    .portal-stat-title {
+      font-weight: 700;
+      font-size: 14.5px;
+      color: var(--foreground);
+      margin-bottom: 4px;
+    }
+    .portal-stat-desc {
+      font-size: 12.5px;
+      color: var(--muted);
+      line-height: 1.45;
+      margin-bottom: 10px;
+    }
+    .portal-stat-link {
+      font-size: 11.5px;
+      font-family: var(--font-mono);
+      color: #0284c7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .portal-stat-link:hover { text-decoration: underline; }
+
+    .baremo-Explorer-box {
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+      border: 1px solid #cbd5e1;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.05);
+    }
+    .baremo-header-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .baremo-select {
+      padding: 10px 16px;
+      border-radius: 10px;
+      border: 1px solid #0284c7;
+      background: #f0f9ff;
+      color: #0f172a;
+      font-weight: 600;
+      font-size: 14px;
+      font-family: var(--font-sans);
+      cursor: pointer;
+      outline: none;
+      min-width: 270px;
+    }
+    .baremo-instances-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 860px) {
+      .baremo-instances-grid { grid-template-columns: 1fr; }
+    }
+    .baremo-inst-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 18px;
+      position: relative;
+      overflow: hidden;
+    }
+    .baremo-inst-card.pi { border-top: 4px solid #0284c7; }
+    .baremo-inst-card.ca { border-top: 4px solid #059669; }
+    .baremo-inst-card.cs { border-top: 4px solid #7c3aed; }
+    .baremo-inst-title {
+      font-size: 12px;
+      font-family: var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 700;
+      color: #475569;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .baremo-mediana-uf {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+      color: #0f172a;
+      line-height: 1.15;
+    }
+    .baremo-mediana-clp {
+      font-size: 13px;
+      color: #059669;
+      font-weight: 600;
+      font-family: var(--font-mono);
+      margin-bottom: 12px;
+    }
+    .baremo-range-bar {
+      height: 8px;
+      border-radius: 999px;
+      background: #e2e8f0;
+      position: relative;
+      margin: 10px 0;
+      overflow: hidden;
+    }
+    .baremo-range-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #38bdf8, #0284c7, #7c3aed);
+    }
+    .baremo-stat-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #475569;
+      margin-top: 4px;
+      font-family: var(--font-mono);
+    }
+    .baremo-samples-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12.5px;
+      margin-top: 12px;
+    }
+    .baremo-samples-table th,
+    .baremo-samples-table td {
+      padding: 8px 10px;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .baremo-samples-table th {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #64748b;
+      background: #f8fafc;
+    }
+    .ds-triad-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 24px;
+    }
+    @media (max-width: 880px) {
+      .ds-triad-grid { grid-template-columns: 1fr; }
+    }
+    .ds-card {
+      background: #07281f;
+      color: #f4f8f6;
+      border: 1px solid rgba(74, 222, 128, 0.28);
+      border-radius: 14px;
+      padding: 22px;
+    }
+    .ds-card-tag {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: #86efac;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .ds-card-title {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+    .ds-card-desc {
+      font-size: 13px;
+      line-height: 1.55;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    /* --- Propuestas 1, 2 y 4 (Formación & Consultoría) --- */
+    .consulting-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin-top: 24px;
+    }
+    @media (max-width: 960px) {
+      .consulting-grid { grid-template-columns: 1fr; }
+    }
+    .consulting-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+    .consulting-card.featured {
+      border: 2px solid #0284c7;
+      background: linear-gradient(180deg, #ffffff 0%, #f0f9ff 100%);
+      box-shadow: 0 14px 34px rgba(2, 132, 199, 0.10);
+    }
+    .consulting-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 14px;
+      width: fit-content;
+    }
+    .consulting-title {
+      font-family: var(--font-display);
+      font-size: 21px;
+      font-weight: 700;
+      color: var(--foreground);
+      margin-bottom: 10px;
+      line-height: 1.25;
+    }
+    .consulting-desc {
+      font-size: 13.5px;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+      text-align: justify;
+    }
+    .consulting-list {
+      list-style: none;
+      margin-bottom: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .consulting-list li {
+      font-size: 13px;
+      color: #1e293b;
+      line-height: 1.5;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      text-align: justify;
+    }
+    .consulting-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 13.5px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .consulting-cta.primary {
+      background: #0284c7;
+      color: #ffffff;
+    }
+    .consulting-cta.primary:hover {
+      background: #0369a1;
+    }
+    .consulting-cta.dark {
+      background: #062a22;
+      color: #ffffff;
+    }
+    .consulting-cta.dark:hover {
+      background: #0b3d32;
+    }
+"""
+
+
+NEW_SECTIONS_HTML = """  <!-- Step 04B: Buscador Interactivo Multi-Corpus, Baremo Daño Moral PJUD & Motor Data Science -->
+  <section id="buscador-corpus" class="step-section">
+    <span class="eyebrow-step">Data Science Jurídico · Hugging Face &amp; PJUD en Vivo</span>
+    <h2 class="step-h2">Buscador Multi-Corpus &amp; Calculadora Oficial del Baremo de Daño Moral PJUD</h2>
+    <p class="step-desc">
+      Explora en tiempo real las <strong>8 colecciones jurisprudenciales especializadas del Poder Judicial</strong> integradas en Hugging Face (<code>pablobenavidesj/doctrina-jurisprudencia-chile</code>) y calcula rangos indemnizatorios en <strong>UF y pesos chilenos (CLP)</strong> sobre <strong>2.137 sentencias reales sistematizadas por parentesco e instancia</strong> (Primera Instancia, Cortes de Apelaciones y Excma. Corte Suprema).
+    </p>
+
+    <!-- 8 Portales Especializados PJUD Grid -->
+    <div class="corpus-hub-grid">
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">70.536 Fichas</span>
+            <span>🏛️</span>
+          </div>
+          <div class="portal-stat-title">Corte Suprema General</div>
+          <p class="portal-stat-desc">Sentencias de todas las salas de la Excma. Corte Suprema con rol, fecha, ministros, descriptores y sumario.</p>
+        </div>
+        <a href="https://juris.pjud.cl/busqueda?Corte_Suprema" target="_blank" rel="noreferrer" class="portal-stat-link">juris.pjud.cl/Corte_Suprema →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">457 Líneas</span>
+            <span>🧭</span>
+          </div>
+          <div class="portal-stat-title">Líneas Jurisprudenciales CS</div>
+          <p class="portal-stat-desc">Criterios doctrinales rectores sistematizados por la Dirección de Estudios de la Corte Suprema.</p>
+        </div>
+        <a href="https://juris.pjud.cl/busqueda?Lineas_Jurisprudenciales" target="_blank" rel="noreferrer" class="portal-stat-link">Lineas_Jurisprudenciales →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">311 Fallos</span>
+            <span>🏥</span>
+          </div>
+          <div class="portal-stat-title">Compendio Salud / Isapres</div>
+          <p class="portal-stat-desc">Jurisprudencia de la Tercera Sala Constitucional sobre adecuación de planes, GES, tabla de factores y medicamentos de alto costo.</p>
+        </div>
+        <a href="https://juris.pjud.cl/busqueda?Salud_CS" target="_blank" rel="noreferrer" class="portal-stat-link">juris.pjud.cl/Salud_CS →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">162 Fallos</span>
+            <span>🛂</span>
+          </div>
+          <div class="portal-stat-title">Compendio de Extranjería</div>
+          <p class="portal-stat-desc">Sentencias sobre expulsiones administrativas, arraigo familiar, debido proceso migratorio y refugio (Ley N.° 21.325).</p>
+        </div>
+        <a href="https://juris.pjud.cl/busqueda?Compendio_Extranjer%C3%ADa" target="_blank" rel="noreferrer" class="portal-stat-link">Compendio_Extranjería →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">418 Fallos</span>
+            <span>🕊️</span>
+          </div>
+          <div class="portal-stat-title">Derechos Humanos PJUD</div>
+          <p class="portal-stat-desc">Buscador especializado de sentencias de Derechos Humanos, crímenes de lesa humanidad, imprescriptibilidad y estándares CIDH.</p>
+        </div>
+        <a href="https://busddhh.pjud.cl/buscador/sentencias-derechos-humanos" target="_blank" rel="noreferrer" class="portal-stat-link">busddhh.pjud.cl →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">188 Registros</span>
+            <span>💜</span>
+          </div>
+          <div class="portal-stat-title">Secretaría de Género PJUD</div>
+          <p class="portal-stat-desc">Repositorio oficial y Concurso de Sentencias con Perspectiva de Género, no discriminación e interseccionalidad.</p>
+        </div>
+        <a href="https://secretariadegenero.pjud.cl/index.php/repositorio" target="_blank" rel="noreferrer" class="portal-stat-link">secretariadegenero.pjud.cl →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">17 Vínculos · 2.137 Fallos</span>
+            <span>📊</span>
+          </div>
+          <div class="portal-stat-title">Baremo de Daño Moral PJUD</div>
+          <p class="portal-stat-desc">Estadística oficial PJUD-UdeC de indemnizaciones por daño moral por muerte en UF y CLP según vínculo de parentesco.</p>
+        </div>
+        <a href="https://baremo.pjud.cl/BAREMOWEB/" target="_blank" rel="noreferrer" class="portal-stat-link">baremo.pjud.cl/BAREMOWEB →</a>
+      </div>
+
+      <div class="portal-stat-card">
+        <div>
+          <div class="portal-stat-top">
+            <span class="portal-stat-badge">1.853 Fallos Íntegros</span>
+            <span>🌿</span>
+          </div>
+          <div class="portal-stat-title">TC (967) &amp; Ambientales (886)</div>
+          <p class="portal-stat-desc">Sentencias a texto completo del Tribunal Constitucional y de los tres Tribunales Ambientales (1TA, 2TA y 3TA) + 79 boletines.</p>
+        </div>
+        <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer" class="portal-stat-link">Dataset Hugging Face →</a>
+      </div>
+    </div>
+
+    <!-- Interactive Baremo Calculator -->
+    <div class="baremo-Explorer-box">
+      <div class="baremo-header-row">
+        <div>
+          <span class="claim-tag" style="background:#e0f2fe; color:#0369a1; border-color:#bae6fd;">[ESTADÍSTICA OFICIAL PJUD · ARTS. 2314 Y 2329 CC]</span>
+          <h3 style="font-family: var(--font-display); font-size: 22px; font-weight: 700; color: #0f172a; margin-top: 6px;">
+            Calculadora Estadística del Baremo de Daño Moral por Muerte (UF y CLP)
+          </h3>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+          <label for="baremoParentescoSelect" style="font-size: 13px; font-weight: 600; color: #334155;">Vínculo del Demandante:</label>
+          <select id="baremoParentescoSelect" class="baremo-select"></select>
+        </div>
+      </div>
+
+      <div class="baremo-instances-grid" id="baremoInstancesGrid"></div>
+
+      <div style="background: #f1f5f9; border-radius: 10px; padding: 14px 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;">
+        <div style="font-size: 12.5px; color: #1e293b;">
+          <strong>Corchete Oficial verificable:</strong> <code id="baremoCitationCode" style="background:#ffffff; padding:3px 8px; border-radius:4px; border:1px solid #cbd5e1; font-family:var(--font-mono);"></code>
+        </div>
+        <button id="btnCopyBaremoCita" class="btn-socratic-action" style="padding: 7px 14px; font-size: 12px;">
+          📋 Copiar Cita Oficial
+        </button>
+      </div>
+
+      <div style="margin-top: 18px;">
+        <div style="font-size: 12px; font-family: var(--font-mono); text-transform: uppercase; color: #475569; font-weight: 700; margin-bottom: 6px;">
+          Sentencias Reales Destacadas en este Vínculo (con descarga directa en baremo.pjud.cl):
+        </div>
+        <div style="overflow-x: auto;">
+          <table class="baremo-samples-table" id="baremoSamplesTable">
+            <thead>
+              <tr>
+                <th>Rol / Instancia</th>
+                <th>Corte de Apelaciones</th>
+                <th>Juzgado de Origen</th>
+                <th>Fecha</th>
+                <th>Monto (UF / CLP)</th>
+                <th>Sentencia Oficial</th>
+              </tr>
+            </thead>
+            <tbody id="baremoSamplesBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Multi-Corpus Sample Explorer -->
+    <div style="background: #ffffff; border: 1px solid var(--border); border-radius: 16px; padding: 24px;">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px;">
+        <div>
+          <h3 style="font-family: var(--font-display); font-size: 19px; font-weight: 700; color: var(--foreground);">
+            Explorador Rápido de Fallos Especializados (Líneas CS, Salud, Extranjería, DD.HH. y Género)
+          </h3>
+          <p style="font-size: 13px; color: var(--muted);">
+            Filtra por colección especializada o busca por materia, rol o descriptor para previsualizar el formato canónico con cita oficial.
+          </p>
+        </div>
+        <div class="mcp-filter-bar" id="pjudCorpusFilterBar" style="margin-bottom: 0;">
+          <button class="filter-btn active" data-pjud-col="all">Todas las Colecciones</button>
+          <button class="filter-btn" data-pjud-col="lineas_cs">Líneas CS</button>
+          <button class="filter-btn" data-pjud-col="salud_cs">Salud / Isapres</button>
+          <button class="filter-btn" data-pjud-col="extranjeria_cs">Extranjería</button>
+          <button class="filter-btn" data-pjud-col="ddhh">Derechos Humanos</button>
+          <button class="filter-btn" data-pjud-col="genero">Perspectiva de Género</button>
+        </div>
+      </div>
+
+      <input type="text" id="pjudCorpusSearchInput" class="search-input-legal" style="width: 100%; margin-bottom: 16px;" placeholder="Buscar en fallos especializados (ej: isapre, ges, expulsión, arraigo, lesa humanidad, violencia, cuidado personal)..." />
+
+      <div class="tools-grid" id="pjudCorpusGrid"></div>
+    </div>
+
+    <!-- Data Science Architecture Triad -->
+    <div class="ds-triad-grid">
+      <div class="ds-card">
+        <span class="ds-card-tag">1. Recuperación Léxico-Morfológica</span>
+        <div class="ds-card-title">Okapi BM25F + 4-Gramas en Memoria</div>
+        <p class="ds-card-desc">
+          El motor de sincronización con Hugging Face (<code>online_library_sync.py</code>) indexa las 25.556 instituciones con pesos IDF por campo (título ×3.5, palabras clave ×2.5, ruta ×1.8) y saturación no lineal (k1=1.5, b=0.75), más un índice de 4-gramas de caracteres y <code>ThreadPoolExecutor</code> paralelo para tolerar variaciones morfológicas sin latencia de red.
+        </p>
+      </div>
+
+      <div class="ds-card">
+        <span class="ds-card-tag">2. Topología de Grafos Jurídicos</span>
+        <div class="ds-card-title">Personalized PageRank (α = 0.85)</div>
+        <p class="ds-card-desc">
+          <code>LegalGraphifyEngine</code> resuelve el nodo semilla ponderando la especificidad IDF de cada término jurídico y ejecuta <em>Random Walk with Restart</em> sobre el ego-subgrafo de 2 saltos (<code>ranking_ppr_subgrafo</code>), priorizando los artículos BCN y fallos de la Corte Suprema estructuralmente más centrales para la institución consultada.
+        </p>
+      </div>
+
+      <div class="ds-card">
+        <span class="ds-card-tag">3. Revisión Adversarial Aislada</span>
+        <div class="ds-card-title">Modelo Contradictorio Elephant-Goldfish</div>
+        <p class="ds-card-desc">
+          Inspirado en <code>google/elephant-goldfish-model</code>, la herramienta <code>critique_documento(modo="goldfish")</code> separa al agente redactor (<em>Elefante</em>, con memoria del caso) del auditor contradictorio (<em>Goldfish</em>, con amnesia deliberada de las excusas del litigante), auditando ineptitud del libelo (Art. 303 N.° 4 CPC), caducidad, prescripción y orfandad probatoria.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 05B: Formación Ejecutiva, Consultoría On-Premise y Alianzas Institucionales -->
+  <section id="formacion-consultoria" class="step-section">
+    <span class="eyebrow-step">Sostenibilidad Open Source · Formación, Consultoría &amp; Alianzas</span>
+    <h2 class="step-h2">Capacitación Ejecutiva, Despliegue Privado On-Premise y Alianzas Académicas</h2>
+    <p class="step-desc">
+      El núcleo de <strong>Open Legal Chile</strong> (sus 88 herramientas MCP, 19 agentes autónomos, 27 skills y el corpus en Hugging Face) es un <strong>bien público digital 100 % gratuito bajo licencia Apache 2.0</strong>. Para estudios jurídicos, gerencias legales, organismos públicos y universidades que buscan dominar la IA jurídica soberana o desplegar infraestructura privada en sus propios servidores, ofrecemos tres modalidades de trabajo directo:
+    </p>
+
+    <div class="consulting-grid">
+      <!-- Propuesta 1 -->
+      <div class="consulting-card featured">
+        <div>
+          <span class="consulting-badge" style="background:#0284c7; color:#ffffff;">🎓 Propuesta 1 · Más Solicitada</span>
+          <h3 class="consulting-title">Charlas Magistrales, Bootcamps y Capacitación In-Company</h3>
+          <p class="consulting-desc">
+            Programas de formación ejecutiva y talleres prácticos diseñados para socios y equipos de estudios jurídicos, fiscalías corporativas, reparticiones del Estado, colegios de abogados y postgrados universitarios.
+          </p>
+          <ul class="consulting-list">
+            <li><span>✅</span><span><strong>IA Jurídica sin Alucinaciones:</strong> Triangulación estricta entre ley positiva (BCN), doctrina canónica (Hugging Face) y jurisprudencia vinculante (PJUD, CGR, DT, SII).</span></li>
+            <li><span>✅</span><span><strong>Litigación OJV y Auditoría Goldfish:</strong> Redacción forense en Word (.docx) con citas a pie de página, cálculo de daño moral con el Baremo PJUD y examen contradictorio previo al ingreso judicial.</span></li>
+            <li><span>✅</span><span><strong>Dominio de Harnesses de Vanguardia:</strong> Configuración práctica de Google Antigravity, Claude Code, Cursor y automatización de despacho con Google Workspace MCP.</span></li>
+          </ul>
+        </div>
+        <a href="mailto:pablobenavidesjorquera@gmail.com?subject=Consulta%20Charla%20o%20Capacitaci%C3%B3n%20In-Company%20-%20Open%20Legal%20Chile" class="consulting-cta primary">
+          ✉️ Solicitar Programa de Capacitación
+        </a>
+      </div>
+
+      <!-- Propuesta 2 -->
+      <div class="consulting-card">
+        <div>
+          <span class="consulting-badge" style="background:#dcfce7; color:#166534;">🛡️ Propuesta 2 · Zero Data Leak</span>
+          <h3 class="consulting-title">Consultoría «Llave en Mano» y Despliegue Privado On-Premise</h3>
+          <p class="consulting-desc">
+            Instalación y personalización de una instancia soberana de Open Legal Chile dentro de los servidores locales, nube privada (VPC) o estaciones de trabajo de su estudio jurídico o gerencia legal.
+          </p>
+          <ul class="consulting-list">
+            <li><span>🔒</span><span><strong>Ingesta Privada del Conocimiento del Estudio:</strong> Indexación con Okapi BM25F, SQLite FTS5 y subgrafos <code>LegalGraphify</code> sobre sus propios contratos históricos, informes en derecho y escritos judiciales.</span></li>
+            <li><span>🔒</span><span><strong>Plantillas y Estilo Institucional:</strong> Adaptación de <code>generar_documento</code> a los formatos, membretes, matrices de riesgo y cláusulas corporativas del despacho.</span></li>
+            <li><span>🔒</span><span><strong>Secreto Profesional Absoluto:</strong> Ejecución 100 % local o con modelos privados (Ollama / vLLM / endpoints corporativos), en estricto cumplimiento de la Ley N.° 21.719 de Datos Personales.</span></li>
+          </ul>
+        </div>
+        <a href="mailto:pablobenavidesjorquera@gmail.com?subject=Consulta%20Implementaci%C3%B3n%20On-Premise%20Llave%20en%20Mano%20-%20Open%20Legal%20Chile" class="consulting-cta dark">
+          🛡️ Agendar Diagnóstico de Arquitectura
+        </a>
+      </div>
+
+      <!-- Propuesta 4 -->
+      <div class="consulting-card">
+        <div>
+          <span class="consulting-badge" style="background:#f3e8ff; color:#7e22ce;">🤝 Propuesta 4 · Academia &amp; I+D</span>
+          <h3 class="consulting-title">Alianzas Universitarias, Clínicas Jurídicas y Patrocinios</h3>
+          <p class="consulting-desc">
+            Convenios de colaboración académica, patrocinios institucionales y postulación conjunta a fondos de investigación y bienes públicos digitales para democratizar el acceso a la justicia en Chile.
+          </p>
+          <ul class="consulting-list">
+            <li><span>🏛️</span><span><strong>Laboratorios de IA y Simulador de Grado:</strong> Despliegue del Simulador Socrático de Examen de Grado y herramientas de Lenguaje Claro en facultades de Derecho y Clínicas Jurídicas (CAJ).</span></li>
+            <li><span>🏛️</span><span><strong>Digitalización y Co-Edición Científica:</strong> Incorporación de revistas jurídicas universitarias, anuarios y compendios sectoriales al mapa de conocimiento en Hugging Face.</span></li>
+            <li><span>🏛️</span><span><strong>Patrocinios y Fondos Concursables:</strong> Alianzas para proyectos ANID, innovación pública e infraestructura jurídica abierta a nivel latinoamericano.</span></li>
+          </ul>
+        </div>
+        <a href="mailto:pablobenavidesjorquera@gmail.com?subject=Alianza%20Acad%C3%A9mica%20o%20Patrocinio%20Institucional%20-%20Open%20Legal%20Chile" class="consulting-cta dark">
+          🤝 Proponer Alianza o Patrocinio
+        </a>
+      </div>
+    </div>
+
+    <!-- Direct Contact Banner -->
+    <div style="margin-top: 26px; background: linear-gradient(135deg, #062a22 0%, #0b3d32 100%); border-radius: 16px; padding: 24px 28px; color: #ffffff; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; border: 1px solid rgba(74, 222, 128, 0.3);">
+      <div>
+        <div style="font-size: 12px; font-family: var(--font-mono); color: #86efac; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">
+          Contacto Directo con el Autor y Director del Proyecto
+        </div>
+        <div style="font-family: var(--font-display); font-size: 20px; font-weight: 700; color: #ffffff;">
+          Pablo Benavides Jorquera · <a href="mailto:pablobenavidesjorquera@gmail.com" style="color: #38bdf8; text-decoration: underline;">pablobenavidesjorquera@gmail.com</a>
+        </div>
+        <div style="font-size: 13px; color: rgba(255, 255, 255, 0.78); margin-top: 4px;">
+          Escríbenos directamente para coordinar charlas magistrales, talleres prácticos para tu equipo legal, despliegues privados on-premise o convenios universitarios.
+        </div>
+      </div>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="mailto:pablobenavidesjorquera@gmail.com" class="btn-hero-primary" style="background: #38bdf8; color: #062a22; font-weight: 700; border: none;">
+          📬 pablobenavidesjorquera@gmail.com
+        </a>
+      </div>
+    </div>
+  </section>
+"""
+
 
 def main():
     content = INDEX_HTML_PATH.read_text(encoding="utf-8")
-    
-    # 1. Update Tools Dataset
+
+    # 1. Update Tools Dataset (88 tools)
     tools_data = build_all_tools_dataset()
     tools_json = json.dumps(tools_data, ensure_ascii=False, indent=2)
     content = re.sub(
         r"const ALL_TOOLS = \[.*?\];",
         f"const ALL_TOOLS = {tools_json};",
         content,
-        flags=re.DOTALL
+        flags=re.DOTALL,
     )
-    
-    # 2. Update Tool Filter Buttons
+
+    # 2. Update Tool Filter Buttons (88 tools)
     old_filter_bar = r'<div class="mcp-filter-bar" id="toolFilterBar">.*?</div>'
     new_filter_bar = """<div class="mcp-filter-bar" id="toolFilterBar">
-        <button class="filter-btn active" data-cat="all">Todas (87)</button>
+        <button class="filter-btn active" data-cat="all">Todas (88)</button>
         <button class="filter-btn" data-cat="Protocolo & Citas">Protocolo & Citas (2)</button>
         <button class="filter-btn" data-cat="Agentes & IA Jurídica">Agentes & IA Jurídica (7)</button>
         <button class="filter-btn" data-cat="Doctrina & Graphify">Doctrina & Graphify (15)</button>
@@ -165,858 +805,259 @@ def main():
         <button class="filter-btn" data-cat="CBR Inmobiliario">CBR Inmobiliario (2)</button>
         <button class="filter-btn" data-cat="Tribunales & PJUD">Tribunales & PJUD (9)</button>
         <button class="filter-btn" data-cat="Regulatorio & Fiscal">Regulatorio & Fiscal (17)</button>
-        <button class="filter-btn" data-cat="Suite & Utilidades">Suite & Utilidades (31)</button>
+        <button class="filter-btn" data-cat="Suite & Utilidades">Suite & Utilidades (32)</button>
       </div>"""
     content = re.sub(old_filter_bar, new_filter_bar, content, count=1, flags=re.DOTALL)
-    
-    # 3. Update Hero Copy & Badges
-    content = content.replace("Catálogo 64 MCP Tools", "Catálogo 87 MCP Tools")
-    content = content.replace("Catálogo de 64 MCP Tools", "Catálogo de 87 MCP Tools")
-    content = content.replace("<!-- Step 04: 64 MCP Tools Interactive Catalog -->", "<!-- Step 04: 87 MCP Tools Interactive Catalog -->")
-    content = content.replace("<span>228 Obras Canónicas</span>", "<span>7.399 Obras y Artículos Científicos</span>")
-    content = content.replace("Dataset Hub (13k Nodos · 28k Aristas)", "Dataset Hub (20.9k Nodos · 51.5k Aristas)")
-    content = content.replace("GitHub (500 Tests Green)", "GitHub (507 Tests Green · 100%)")
-    content = content.replace("228 documentos chilenos completos y compresión de grafo con <strong>el motor interno (14 050 nodos y 31 017 aristas)</strong>", 
-                            "7.399 obras chilenas (228 tratados canónicos + 7.170 artículos de 11 revistas científicas), 25.556 instituciones dogmáticas y compresión con <strong>LegalGraphify (20.990 nodos y 51.590 aristas en 427 comunidades)</strong>")
-    content = content.replace("228 documentos chilenos (Alessandri, Somarriva, Claro Solar) indexados en FTS5 y comprimidos en grafos ontológicos.",
-                            "7.399 obras y artículos científicos (Alessandri, Somarriva, Claro Solar, Peñailillo, Barros) indexados en SQLite FTS5 y comprimidos en grafos ontológicos.")
-    content = content.replace('<h3 class="pillar-title">228 Obras Canónicas en Hugging Face</h3>',
-                            '<h3 class="pillar-title">7.399 Obras Canónicas y Revistas Científicas en Hugging Face</h3>')
-    content = content.replace("En total: 228 obras —tratados, apuntes y materiales docentes— + las 24 guías de la Academia Judicial.",
-                            "En total: 7.399 obras —228 tratados canónicos, 7.170 artículos de 11 revistas científicas chilenas de 1933 a 2026— + las 24 guías de la Academia Judicial.")
-    content = content.replace("Las 228 obras, el corpus de jurisprudencia y el grafo residen en archivos SQLite y JSON locales",
-                            "Las 7.399 obras, el corpus de jurisprudencia y el grafo residen en archivos SQLite y JSON locales")
-    content = content.replace("// 18 Autonomous Legal Agents Dataset", "// 19 Autonomous Legal Agents Dataset")
-    
-    # 4. Update and Expand Adoption Stats Grid with Count-Up Attributes
-    new_adoption_grid = """<div class="adoption-grid">
-        <div class="stat-card">
-          <div class="stat-num" data-target="87" data-suffix="">87</div>
-          <div class="stat-label">
-            <span>Herramientas MCP</span>
-            <span class="claim-tag" style="border-color: #0284c7; color: #0284c7; background: #e0f2fe;">[16 DOMINIOS]</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num" data-target="7399" data-suffix="">7.399</div>
-          <div class="stat-label">
-            <span>Obras y Artículos Científicos</span>
-            <span class="claim-tag">[11 REVISTAS + TRATADOS]</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num" data-target="25556" data-suffix="">25.556</div>
-          <div class="stat-label">
-            <span>Instituciones Dogmáticas FTS5</span>
-            <span class="claim-tag">[CANÓNICAS]</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num" data-target="20990" data-suffix="">20.990</div>
-          <div class="stat-label">
-            <span>Nodos en LegalGraphify</span>
-            <span class="claim-tag">[51.590 ARISTAS]</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num" data-target="11" data-suffix="">11</div>
-          <div class="stat-label">
-            <span>Revistas Científicas Chilenas</span>
-            <span class="claim-tag">[1933-2026]</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num" data-target="99.9" data-suffix="%">99,9%</div>
-          <div class="stat-label">
-            <span>Ahorro Tokens en Consultas</span>
-            <span class="claim-tag">[MEDIANA]</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num" data-target="507" data-suffix="">507</div>
-          <div class="stat-label">
-            <span>Tests Unitarios & E2E (100% Green)</span>
-            <span class="claim-tag" style="border-color: #0284c7; color: #0284c7; background: #e0f2fe;">[VERIFIED]</span>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num" data-target="19" data-suffix="">19</div>
-          <div class="stat-label">
-            <span>Agentes Autónomos</span>
-            <span class="claim-tag">[18 SKILLS]</span>
-          </div>
-        </div>
-      </div>"""
-    
-    content = re.sub(r'<div class="adoption-grid">.*?</div>\s*<div class="orgs-strip">', 
-                     new_adoption_grid + '\n\n      <div class="orgs-strip">', 
-                     content, count=1, flags=re.DOTALL)
-    
-    # 5. Insert Hero Canvas HTML if not present
-    if 'id="heroGraphCanvas"' not in content:
+
+    # 3. Update Navigation Links (Header & Mobile Drawer)
+    if 'href="#buscador-corpus"' not in content:
         content = content.replace(
-            '<div class="hero-lattice-bg" aria-hidden="true"></div>',
-            '<div class="hero-lattice-bg" aria-hidden="true"></div>\n    <canvas id="heroGraphCanvas" class="hero-canvas" aria-hidden="true"></canvas>'
+            '<a href="#herramientas" class="nav-link">88 Herramientas MCP</a>',
+            '<a href="#buscador-corpus" class="nav-link" style="color:#38bdf8; font-weight:600;">🔎 Buscador &amp; Baremo</a>\n        <a href="#herramientas" class="nav-link">88 Herramientas MCP</a>\n        <a href="#formacion-consultoria" class="nav-link" style="color:#86efac; font-weight:600;">🎓 Capacitación &amp; Consultoría</a>',
+        )
+        content = content.replace(
+            '<a href="#herramientas" class="mobile-nav-item">⚡ 88 Herramientas MCP</a>',
+            '<a href="#buscador-corpus" class="mobile-nav-item">🔎 Buscador Multi-Corpus &amp; Baremo PJUD</a>\n        <a href="#herramientas" class="mobile-nav-item">⚡ 88 Herramientas MCP</a>\n        <a href="#formacion-consultoria" class="mobile-nav-item">🎓 Capacitación, Consultoría &amp; Alianzas</a>',
         )
 
-    # 6. Insert Socratic Bar Exam Section before #herramientas
-    socratic_section = """  <!-- Step 03C: Simulador Socrático de Examen de Grado (Lúdico & Interactivo) -->
-  <section id="simulador-grado" class="step-section">
-    <span class="eyebrow-step">Simulador Socrático Interactivo</span>
-    <h2 class="step-h2">Mesa Examinadora de Grado: Rigor Dogmático en Vivo</h2>
-    <p class="step-desc">
-      Pon a prueba tus conocimientos frente a la comisión examinadora de Derecho Civil y Procesal. Extrae una cédula al azar, ensaya tu respuesta y coteja de inmediato la <strong>Subsunción Tripartita Oficial</strong> (Pilar Positivo BCN, Tratadistas Canónicos y Jurisprudencia vinculante).
-    </p>
+    # 4. Update stats (88 tools, 27 skills)
+    content = content.replace(
+        '<div class="stat-num" data-target="87" data-suffix="">87</div>',
+        '<div class="stat-num" data-target="88" data-suffix="">88</div>',
+    )
+    content = content.replace(
+        '<span class="suite-layer-title">⚡ Servidor MCP Nativo (87 Tools)</span>',
+        '<span class="suite-layer-title">⚡ Servidor MCP Nativo (88 Tools)</span>',
+    )
+    content = content.replace(
+        '<span class="claim-tag">[18 SKILLS]</span>',
+        '<span class="claim-tag">[27 SKILLS]</span>',
+    )
+    content = content.replace(
+        '<span class="suite-layer-meta">18 Skills · Espacio casos/ · Grafo Local</span>',
+        '<span class="suite-layer-meta">27 Skills · Espacio casos/ · Grafo Local</span>',
+    )
 
-    <div class="socratic-container">
-      <div class="socratic-deck-bar">
-        <span class="socratic-deck-label">Sortear Cédula:</span>
-        <button class="deck-btn active" data-cedula-cat="all">🎲 Cédula al Azar</button>
-        <button class="deck-btn" data-cedula-cat="civil-obligaciones">Obligaciones (Art. 1438+)</button>
-        <button class="deck-btn" data-cedula-cat="civil-bienes">Bienes & Títulos (Art. 565+)</button>
-        <button class="deck-btn" data-cedula-cat="civil-responsabilidad">Responsabilidad (Art. 2314+)</button>
-        <button class="deck-btn" data-cedula-cat="procesal-civil">Procesal Civil (CPC)</button>
-      </div>
+    # 5. Add new CSS styles
+    if "/* --- Buscador Multi-Corpus, Baremo & Formación Consultoría --- */" not in content:
+        content = content.replace("</style>", NEW_CSS_STYLES + "\n  </style>")
 
-      <div class="socratic-tribunal-card" id="tribunalCard">
-        <div class="tribunal-head">
-          <div class="tribunal-examiner">
-            <div class="examiner-avatar">⚖️</div>
+    # 6. Insert #buscador-corpus and #formacion-consultoria before <footer class="footer-section">
+    if 'id="buscador-corpus"' not in content:
+        content = content.replace(
+            '  <!-- Footer (Graphify Aesthetic) -->\n  <footer class="footer-section">',
+            NEW_SECTIONS_HTML + '\n  <!-- Footer (Graphify Aesthetic) -->\n  <footer class="footer-section">',
+        )
+
+    # 7. Update Footer with direct contact email pablobenavidesjorquera@gmail.com
+    if "pablobenavidesjorquera@gmail.com" not in content.split('<footer class="footer-section">')[-1]:
+        content = content.replace(
+            '<span class="claim-tag" style="margin-top: 8px;">Licencia Apache 2.0 · Open Source</span>',
+            '<span class="claim-tag" style="margin-top: 8px;">Licencia Apache 2.0 · Open Source</span>\n        <p style="font-size: 12.5px; color: rgba(255,255,255,0.85); margin-top: 10px; font-family: var(--font-mono);">📬 Contacto &amp; Consultoría: <a href="mailto:pablobenavidesjorquera@gmail.com" style="color: #38bdf8; text-decoration: underline;">pablobenavidesjorquera@gmail.com</a></p>',
+        )
+        content = content.replace(
+            '<li><a href="#graphify" class="footer-link">Grafo jurídico</a></li>',
+            '<li><a href="#graphify" class="footer-link">Grafo jurídico</a></li>\n          <li><a href="#buscador-corpus" class="footer-link">Baremo Daño Moral PJUD</a></li>\n          <li><a href="#formacion-consultoria" class="footer-link">Capacitación &amp; Consultoría On-Premise</a></li>',
+        )
+
+    # 8. Clean up duplicated JS inside .filter-btn and inject Baremo + Multi-Corpus interactive logic
+    baremo_data = build_baremo_dataset()
+    pjud_samples = build_pjud_corpus_samples()
+    baremo_json = json.dumps(baremo_data, ensure_ascii=False)
+    pjud_samples_json = json.dumps(pjud_samples, ensure_ascii=False)
+
+    # Fix broken filter-btn block where interactive_scripts was accidentally injected earlier
+    broken_pattern = re.compile(
+        r"// Filter Buttons listeners\s*document\.querySelectorAll\('\.filter-btn'\)\.forEach\(btn => \{.*?// Mobile Drawer Menu Toggle",
+         flags=re.DOTALL,
+    )
+    clean_filter_js = """// Filter Buttons listeners
+    document.querySelectorAll('#toolFilterBar .filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#toolFilterBar .filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentCategory = btn.dataset.cat;
+        renderTools();
+      });
+    });
+
+    const toolSearchEl = document.getElementById('toolSearchInput');
+    if (toolSearchEl) {
+      toolSearchEl.addEventListener('input', (e) => {
+        currentSearchTerm = e.target.value.toLowerCase().trim();
+        renderTools();
+      });
+    }
+
+    // Mobile Drawer Menu Toggle"""
+
+    if broken_pattern.search(content):
+        content = broken_pattern.sub(clean_filter_js, content, count=1)
+
+    baremo_and_corpus_js = f"""
+    // ==========================================
+    // 4. BAREMO DAÑO MORAL PJUD & MULTI-CORPUS EXPLORER
+    // ==========================================
+    (function initBaremoAndCorpusExplorer() {{
+      const BAREMO_DATA = {baremo_json};
+      const PJUD_SAMPLES = {pjud_samples_json};
+
+      const selectEl = document.getElementById('baremoParentescoSelect');
+      const gridEl = document.getElementById('baremoInstancesGrid');
+      const citaEl = document.getElementById('baremoCitationCode');
+      const samplesBody = document.getElementById('baremoSamplesBody');
+      const btnCopyCita = document.getElementById('btnCopyBaremoCita');
+
+      function fmtUF(val) {{
+        if (!val || val <= 0) return 'Sin registros';
+        return val.toLocaleString('es-CL', {{ minimumFractionDigits: 2, maximumFractionDigits: 2 }}) + ' UF';
+      }}
+
+      function fmtCLP(val) {{
+        if (!val || val <= 0) return '—';
+        return '$' + Math.round(val).toLocaleString('es-CL') + ' CLP';
+      }}
+
+      function renderBaremoCategory(item) {{
+        if (!item || !gridEl) return;
+        const instances = [
+          {{ key: 'primera_instancia', label: 'Primera Instancia (Juzgados Civiles)', cls: 'pi' }},
+          {{ key: 'corte_apelaciones', label: 'Cortes de Apelaciones (2ª Instancia)', cls: 'ca' }},
+          {{ key: 'corte_suprema', label: 'Excma. Corte Suprema (Casación)', cls: 'cs' }}
+        ];
+
+        gridEl.innerHTML = instances.map(inst => {{
+          const uf = (item.uf && item.uf[inst.key]) || {{ n: 0, min: 0, p25: 0, mediana: 0, promedio: 0, p75: 0, max: 0 }};
+          const clp = (item.clp && item.clp[inst.key]) || {{ n: 0, mediana: 0 }};
+          const maxRef = Math.max(uf.max || 1, 1);
+          const leftPct = Math.min(85, Math.max(4, Math.round(((uf.p25 || 0) / maxRef) * 100)));
+          const widthPct = Math.min(100 - leftPct, Math.max(12, Math.round((((uf.p75 || 0) - (uf.p25 || 0)) / maxRef) * 100)));
+
+          return `
+            <div class="baremo-inst-card ${{inst.cls}}">
+              <div class="baremo-inst-title">
+                <span>${{inst.label}}</span>
+                <span style="color:#0284c7;">n = ${{uf.n}} fallos</span>
+              </div>
+              <div class="baremo-mediana-uf">${{fmtUF(uf.mediana)}}</div>
+              <div class="baremo-mediana-clp">Mediana: ${{fmtCLP(clp.mediana)}}</div>
+              <div class="baremo-range-bar" title="Rango Intercuartil P25 - P75">
+                <div class="baremo-range-fill" style="margin-left:${{leftPct}}%; width:${{widthPct}}%;"></div>
+              </div>
+              <div class="baremo-stat-row">
+                <span>P25: ${{fmtUF(uf.p25)}}</span>
+                <span>P75: ${{fmtUF(uf.p75)}}</span>
+              </div>
+              <div class="baremo-stat-row">
+                <span>Promedio: ${{fmtUF(uf.promedio)}}</span>
+                <span>Máx: ${{fmtUF(uf.max)}}</span>
+              </div>
+            </div>
+          `;
+        }}).join('');
+
+        if (citaEl) citaEl.textContent = item.cita;
+        if (samplesBody) {{
+          samplesBody.innerHTML = (item.muestra || []).map(m => `
+            <tr>
+              <td style="font-family:var(--font-mono); font-weight:600; color:#0284c7;">Rol ${{m.rol}}</td>
+              <td>${{m.corte_apelaciones || '—'}}</td>
+              <td>${{m.juzgado_origen || '—'}}</td>
+              <td style="font-family:var(--font-mono);">${{m.fecha || '—'}}</td>
+              <td style="font-family:var(--font-mono); font-weight:600;">${{fmtUF(m.monto_uf)}} <span style="color:#64748b; font-weight:400;">(${{fmtCLP(m.monto_clp)}})</span></td>
+              <td><a href="${{m.url_descarga_sentencia}}" target="_blank" rel="noreferrer" style="color:#059669; font-family:var(--font-mono); font-weight:600; text-decoration:none;">📄 Descargar Fallo</a></td>
+            </tr>
+          `).join('');
+        }}
+      }}
+
+      if (selectEl && BAREMO_DATA.length) {{
+        selectEl.innerHTML = BAREMO_DATA.map((b, idx) =>
+          `<option value="${{idx}}">${{b.parentesco}} (${{b.casos}} sentencias analizadas — Mediana PI: ${{b.uf.primera_instancia.mediana}} UF)</option>`
+        ).join('');
+        selectEl.addEventListener('change', (e) => {{
+          const item = BAREMO_DATA[parseInt(e.target.value, 10)] || BAREMO_DATA[0];
+          renderBaremoCategory(item);
+        }});
+        renderBaremoCategory(BAREMO_DATA[0]);
+      }}
+
+      if (btnCopyCita && citaEl) {{
+        btnCopyCita.addEventListener('click', () => {{
+          navigator.clipboard.writeText(citaEl.textContent || '').then(() => {{
+            const orig = btnCopyCita.textContent;
+            btnCopyCita.textContent = '✅ ¡Cita Copiada!';
+            setTimeout(() => {{ btnCopyCita.textContent = orig; }}, 2000);
+          }});
+        }});
+      }}
+
+      // Multi-Corpus PJUD Sample Explorer
+      const pjudGrid = document.getElementById('pjudCorpusGrid');
+      const pjudSearch = document.getElementById('pjudCorpusSearchInput');
+      let currentPjudCol = 'all';
+      let currentPjudTerm = '';
+
+      function renderPjudSamples() {{
+        if (!pjudGrid) return;
+        const filtered = PJUD_SAMPLES.filter(s => {{
+          const mCol = (currentPjudCol === 'all') || (s.coleccion === currentPjudCol);
+          const mTerm = !currentPjudTerm ||
+            s.rol.toLowerCase().includes(currentPjudTerm) ||
+            s.caratula.toLowerCase().includes(currentPjudTerm) ||
+            s.materia.toLowerCase().includes(currentPjudTerm) ||
+            s.extracto.toLowerCase().includes(currentPjudTerm) ||
+            s.coleccion_nombre.toLowerCase().includes(currentPjudTerm);
+          return mCol && mTerm;
+        }}).slice(0, 9);
+
+        pjudGrid.innerHTML = filtered.map(s => `
+          <div class="tool-card" style="display:flex; flex-direction:column; justify-content:space-between;">
             <div>
-              <div class="examiner-name">Comisión Examinadora de Licenciatura</div>
-              <div class="examiner-role" id="cedulaMeta">Cédula N° 14 · Derecho Civil Patrimonial</div>
-            </div>
-          </div>
-          <button class="btn-reroll-cedula" id="btnRerollCedula" title="Sortear otra cédula">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.19"/></svg>
-            Nueva Cédula
-          </button>
-        </div>
-
-        <div class="socratic-question-box">
-          <div class="question-prefix">Interrogación Socrática del Tribunal:</div>
-          <div class="socratic-question-text" id="socraticQuestionText">
-            "Candidato, analice el alcance del Art. 1464 N° 3 del Código Civil. ¿Constituye objeto ilícito la enajenación forzada efectuada en pública subasta judicial cuando existe otro embargo o medida precautoria sobre el mismo inmueble? Exponga la evolución dogmática y el criterio uniforme de la Excma. Corte Suprema."
-          </div>
-        </div>
-
-        <!-- Student Practice Area -->
-        <div class="socratic-practice-area">
-          <label for="studentAnswerInput" class="practice-label">Tu fundamentación jurídica (ensayo libre del postulante):</label>
-          <textarea id="studentAnswerInput" class="socratic-textarea" rows="3" placeholder="Escribe aquí tu análisis aplicando la subsunción (norma, doctrina tratadista y jurisprudencia)..."></textarea>
-          <div class="practice-actions">
-            <button class="btn-socratic-action" id="btnRevealRubric">
-              <span>💡 Revelar Rúbrica Canónica (3 Pilares)</span>
-            </button>
-            <button class="btn-socratic-action secondary" id="btnEvaluatePractice">
-              <span>✨ Evaluar Mi Respuesta</span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Canonical Subsumption Rubric (Toggled) -->
-        <div class="canonical-rubric" id="canonicalRubric" style="display: none;">
-          <div class="rubric-header">
-            <span class="rubric-title">📖 Rúbrica Oficial de Calificación y Subsunción</span>
-            <span class="rubric-badge">ESTÁNDAR CANÓNICO AGENTS.MD</span>
-          </div>
-
-          <div class="rubric-pillars-grid">
-            <div class="rubric-pillar positive">
-              <div class="pillar-tag">1. Pilar Positivo (BCN)</div>
-              <div class="pillar-content" id="rubricPositive">
-                <strong>[BCN - Código Civil, Art. 1464 N° 3]:</strong> "Hay un objeto ilícito en la enajenación: 3.° De las cosas embargadas por decreto judicial, a menos que el juez lo autorice o el acreedor consienta en ello". Se concatena con los Arts. 10 y 1682 sobre sanción de nulidad absoluta.
+              <div class="tool-header-row">
+                <span class="tool-name">Rol ${{s.rol}}</span>
+                <span class="tool-cat-badge">${{s.coleccion_nombre}}</span>
               </div>
+              <div style="font-size:12px; font-weight:600; color:#0f172a; margin:6px 0 4px;">${{s.caratula || s.materia}}</div>
+              <p class="tool-desc" style="font-size:12px; line-height:1.45;">${{s.extracto || s.materia}}</p>
             </div>
-
-            <div class="rubric-pillar dogmatic">
-              <div class="pillar-tag">2. Pilar Dogmático (Tratadistas)</div>
-              <div class="pillar-content" id="rubricDogmatic">
-                <strong>[Doctrina - Peñailillo Arévalo, Los Bienes]:</strong> Distinción canónica entre enajenación voluntaria y forzada en remate. Claro Solar y Somarriva postulan la nulidad absoluta si no median las autorizaciones copulativas de todos los jueces embargantes, mientras la doctrina moderna enfatiza la publicidad registral y la subrogación real del precio.
-              </div>
-            </div>
-
-            <div class="rubric-pillar judicial">
-              <div class="pillar-tag">3. Pilar Jurisprudencial (PJUD)</div>
-              <div class="pillar-content" id="rubricJudicial">
-                <strong>[CS - Rol N° 1.289-2020]:</strong> Criterio uniforme de la Sala Civil: la subasta judicial purga la hipoteca conforme al Art. 2428 CC, pero respecto a medidas precautorias y embargos vigentes de otros tribunales, se requiere la autorización previa del respectivo tribunal para no incurrir en el vicio de objeto ilícito.
-              </div>
+            <div style="margin-top:10px; padding-top:8px; border-top:1px solid #f1f5f9; display:flex; justify-content:space-between; align-items:center; gap:8px;">
+              <code style="font-size:10.5px; color:#0369a1; background:#f0f9ff; padding:2px 6px; border-radius:4px;">${{s.cita}}</code>
+              <a href="${{s.url}}" target="_blank" rel="noreferrer" style="font-size:11px; font-family:var(--font-mono); color:#059669; text-decoration:none; font-weight:600;">Ver fuente →</a>
             </div>
           </div>
+        `).join('');
+      }}
 
-          <div class="rubric-footer">
-            <div class="rubric-source-quote" id="rubricQuote">
-              <strong>Corchete Oficial para Cita Forense:</strong> <code>[BCN - Código Civil, Art. 1464 N° 3]</code> · <code>[CS - Rol N° 1.289-2020]</code> · <code>[Doctrina - Peñailillo, Los Bienes, Institución: Enajenación de Bienes Embargados]</code>
-            </div>
-          </div>
-        </div>
-
-        <div class="feedback-banner" id="feedbackBanner" style="display: none;"></div>
-      </div>
-    </div>
-  </section>
-
-"""
-    if 'id="simulador-grado"' not in content:
-        content = content.replace(
-            '<!-- Step 04: 87 MCP Tools Interactive Catalog -->',
-            socratic_section + '  <!-- Step 04: 87 MCP Tools Interactive Catalog -->'
-        )
-    
-    # 7. Add Styles for Canvas and Socratic Simulator into CSS
-    new_styles = """
-    /* --- Interactive Hero Canvas --- */
-    .hero-canvas {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: auto;
-      z-index: 1;
-      opacity: 0.72;
-    }
-    .hero-container {
-      position: relative;
-      z-index: 10;
-      pointer-events: none;
-    }
-    .hero-container a, 
-    .hero-container button, 
-    .hero-container input, 
-    .hero-card-showcase {
-      pointer-events: auto;
-    }
-
-    /* --- Socratic Simulator Section --- */
-    .socratic-container {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 32px;
-      margin-top: 24px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
-    }
-    .socratic-deck-bar {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 24px;
-      padding-bottom: 16px;
-      border-bottom: 1px solid var(--border);
-    }
-    .socratic-deck-label {
-      font-size: 13px;
-      font-family: var(--font-mono);
-      color: var(--muted);
-      margin-right: 6px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-    .deck-btn {
-      padding: 8px 14px;
-      font-size: 13px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      background: var(--background);
-      color: var(--foreground);
-      cursor: pointer;
-      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-      font-family: inherit;
-    }
-    .deck-btn:hover {
-      border-color: #0284c7;
-      background: #f0f9ff;
-      color: #0284c7;
-    }
-    .deck-btn.active {
-      background: #0284c7;
-      border-color: #0284c7;
-      color: #ffffff;
-      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.25);
-    }
-    .socratic-tribunal-card {
-      background: #ffffff;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px;
-    }
-    .tribunal-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 20px;
-      gap: 16px;
-    }
-    .tribunal-examiner {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    .examiner-avatar {
-      width: 44px;
-      height: 44px;
-      border-radius: 10px;
-      background: #e0f2fe;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 22px;
-      border: 1px solid #bae6fd;
-    }
-    .examiner-name {
-      font-weight: 600;
-      font-size: 15px;
-      color: var(--foreground);
-    }
-    .examiner-role {
-      font-size: 12.5px;
-      color: #0284c7;
-      font-family: var(--font-mono);
-    }
-    .btn-reroll-cedula {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      padding: 8px 14px;
-      background: #f8fafc;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 12.5px;
-      font-weight: 500;
-      cursor: pointer;
-      color: var(--foreground);
-      transition: all 0.2s;
-    }
-    .btn-reroll-cedula:hover {
-      background: #f1f5f9;
-      border-color: #94a3b8;
-    }
-    .socratic-question-box {
-      background: #f8fafc;
-      border-left: 4px solid #0284c7;
-      border-radius: 0 8px 8px 0;
-      padding: 18px 20px;
-      margin-bottom: 22px;
-    }
-    .question-prefix {
-      font-size: 11px;
-      font-family: var(--font-mono);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: #0284c7;
-      margin-bottom: 6px;
-      font-weight: 600;
-    }
-    .socratic-question-text {
-      font-size: 15.5px;
-      line-height: 1.6;
-      color: #1e293b;
-      font-weight: 500;
-    }
-    .socratic-practice-area {
-      margin-top: 18px;
-    }
-    .practice-label {
-      display: block;
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--foreground);
-      margin-bottom: 8px;
-    }
-    .socratic-textarea {
-      width: 100%;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 12px 14px;
-      font-size: 14px;
-      font-family: inherit;
-      color: var(--foreground);
-      resize: vertical;
-      background: #ffffff;
-      outline: none;
-      transition: border-color 0.2s;
-    }
-    .socratic-textarea:focus {
-      border-color: #0284c7;
-      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.12);
-    }
-    .practice-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 12px;
-    }
-    .btn-socratic-action {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 18px;
-      border-radius: 8px;
-      font-size: 13.5px;
-      font-weight: 600;
-      cursor: pointer;
-      background: #0284c7;
-      color: #ffffff;
-      border: 1px solid #0284c7;
-      transition: all 0.2s;
-    }
-    .btn-socratic-action:hover {
-      background: #0369a1;
-      border-color: #0369a1;
-    }
-    .btn-socratic-action.secondary {
-      background: #ffffff;
-      color: var(--foreground);
-      border-color: var(--border);
-    }
-    .btn-socratic-action.secondary:hover {
-      background: #f8fafc;
-      border-color: #94a3b8;
-    }
-    .canonical-rubric {
-      margin-top: 24px;
-      background: #fdfefe;
-      border: 1px solid #cbd5e1;
-      border-radius: 10px;
-      padding: 20px;
-      animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-    .rubric-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 16px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid #e2e8f0;
-    }
-    .rubric-title {
-      font-weight: 600;
-      font-size: 14.5px;
-      color: #0f172a;
-    }
-    .rubric-badge {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      padding: 3px 8px;
-      background: #e0f2fe;
-      color: #0369a1;
-      border-radius: 4px;
-      font-weight: 600;
-    }
-    .rubric-pillars-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-      margin-bottom: 16px;
-    }
-    @media (max-width: 860px) {
-      .rubric-pillars-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-    .rubric-pillar {
-      background: #ffffff;
-      border: 1px solid #e2e8f0;
-      border-radius: 8px;
-      padding: 14px;
-    }
-    .rubric-pillar.positive { border-left: 3px solid #0284c7; }
-    .rubric-pillar.dogmatic { border-left: 3px solid #10b981; }
-    .rubric-pillar.judicial { border-left: 3px solid #8b5cf6; }
-    .pillar-tag {
-      font-size: 11.5px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 8px;
-    }
-    .rubric-pillar.positive .pillar-tag { color: #0284c7; }
-    .rubric-pillar.dogmatic .pillar-tag { color: #059669; }
-    .rubric-pillar.judicial .pillar-tag { color: #7c3aed; }
-    .pillar-content {
-      font-size: 13px;
-      line-height: 1.55;
-      color: #334155;
-    }
-    .rubric-footer {
-      background: #f1f5f9;
-      border-radius: 6px;
-      padding: 10px 14px;
-      font-size: 12px;
-      color: #475569;
-    }
-    .rubric-footer code {
-      background: #e2e8f0;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 11px;
-      color: #0f172a;
-    }
-    .feedback-banner {
-      margin-top: 16px;
-      padding: 14px 18px;
-      border-radius: 8px;
-      background: #ecfdf5;
-      border: 1px solid #a7f3d0;
-      color: #065f46;
-      font-size: 13.5px;
-      line-height: 1.5;
-      animation: fadeIn 0.3s ease;
-    }
-    """
-    
-    if "/* --- Interactive Hero Canvas --- */" not in content:
-        content = content.replace("</style>", new_styles + "\n  </style>")
-
-    # 8. Interactive Scripts: Canvas, Count-Up, Socratic Simulator
-    interactive_scripts = """
-    // ==========================================
-    // 1. PLAYFUL HERO GRAPH CANVAS ANIMATION
-    // ==========================================
-    (function initHeroGraphCanvas() {
-      const canvas = document.getElementById('heroGraphCanvas');
-      if (!canvas) return;
-      const ctx = canvas.getContext('2d');
-      if (!ctx) return;
-
-      let width = canvas.width = canvas.parentElement.offsetWidth || window.innerWidth;
-      let height = canvas.height = canvas.parentElement.offsetHeight || 600;
-
-      window.addEventListener('resize', () => {
-        width = canvas.width = canvas.parentElement.offsetWidth || window.innerWidth;
-        height = canvas.height = canvas.parentElement.offsetHeight || 600;
-      });
-
-      const LEGAL_LABELS = [
-        "Art. 1545 CC", "Buena Fe", "Ley Karin (21.643)", "Art. 161 CT", "Art. 170 CPC", 
-        "CGR Dictámenes", "DT Doctrina", "OJV Proveídos", "LegalGraphify", "BCN Leyes", 
-        "SMA SNIFA", "1TA/2TA/3TA", "CBR Títulos", "Peñailillo", "Barros Bourie", 
-        "Ramos Pazos", "Daño Moral", "FTS5 SQLite", "Auto Acordado", "Art. 19 N° 24 CPR", 
-        "TDLC Antimonopolio", "CMF Finanzas", "Simulación", "Nulidad Absoluta", "Mora Purga la Mora", 
-        "Lesión Enorme", "Art. 1464 CC", "Subsunción Tripartita", "Pacto Comisorio", "Mandato Art. 7 CPC"
-      ];
-
-      const nodes = [];
-      const NODE_COUNT = Math.min(36, Math.floor(width / 32));
-
-      for (let i = 0; i < NODE_COUNT; i++) {
-        nodes.push({
-          x: Math.random() * width,
-          y: Math.random() * height,
-          vx: (Math.random() - 0.5) * 0.75,
-          vy: (Math.random() - 0.5) * 0.75,
-          radius: 3 + Math.random() * 2.5,
-          label: LEGAL_LABELS[i % LEGAL_LABELS.length],
-          color: (i % 3 === 0) ? "#38bdf8" : (i % 3 === 1 ? "#34d399" : "#fbbf24")
-        });
-      }
-
-      let mouse = { x: -9999, y: -9999, radius: 140 };
-
-      window.addEventListener('mousemove', (e) => {
-        const rect = canvas.getBoundingClientRect();
-        mouse.x = e.clientX - rect.left;
-        mouse.y = e.clientY - rect.top;
-      });
-
-      window.addEventListener('mouseleave', () => {
-        mouse.x = -9999;
-        mouse.y = -9999;
-      });
-
-      // Click ripple / pulse
-      canvas.parentElement.addEventListener('click', (e) => {
-        const rect = canvas.getBoundingClientRect();
-        const cx = e.clientX - rect.left;
-        const cy = e.clientY - rect.top;
-        nodes.forEach(n => {
-          const dx = n.x - cx;
-          const dy = n.y - cy;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < 220 && dist > 0) {
-            const force = (220 - dist) / 22;
-            n.vx += (dx / dist) * force;
-            n.vy += (dy / dist) * force;
-          }
-        });
-      });
-
-      function animate() {
-        if (document.hidden) {
-          requestAnimationFrame(animate);
-          return;
-        }
-
-        ctx.clearRect(0, 0, width, height);
-
-        // Update positions & draw edges
-        for (let i = 0; i < nodes.length; i++) {
-          const n = nodes[i];
-          n.x += n.vx;
-          n.y += n.vy;
-
-          if (n.x < 10) { n.x = 10; n.vx *= -1; }
-          if (n.x > width - 10) { n.x = width - 10; n.vx *= -1; }
-          if (n.y < 10) { n.y = 10; n.vy *= -1; }
-          if (n.y > height - 10) { n.y = height - 10; n.vy *= -1; }
-
-          // Slight mouse attraction/repulsion
-          const mdx = n.x - mouse.x;
-          const mdy = n.y - mouse.y;
-          const mdist = Math.sqrt(mdx * mdx + mdy * mdy);
-          if (mdist < mouse.radius) {
-            const angle = Math.atan2(mdy, mdx);
-            n.x += Math.cos(angle) * 1.8;
-            n.y += Math.sin(angle) * 1.8;
-            
-            // Connect to mouse with glowing beam
-            ctx.beginPath();
-            ctx.moveTo(n.x, n.y);
-            ctx.lineTo(mouse.x, mouse.y);
-            ctx.strokeStyle = `rgba(56, 189, 248, ${(1 - mdist / mouse.radius) * 0.45})`;
-            ctx.lineWidth = 1;
-            ctx.stroke();
-          }
-
-          // Connect with nearby nodes
-          for (let j = i + 1; j < nodes.length; j++) {
-            const n2 = nodes[j];
-            const dx = n.x - n2.x;
-            const dy = n.y - n2.y;
-            const dist = Math.sqrt(dx * dx + dy * dy);
-            if (dist < 130) {
-              ctx.beginPath();
-              ctx.moveTo(n.x, n.y);
-              ctx.lineTo(n2.x, n2.y);
-              ctx.strokeStyle = `rgba(255, 255, 255, ${(1 - dist / 130) * 0.18})`;
-              ctx.lineWidth = 0.8;
-              ctx.stroke();
-            }
-          }
-        }
-
-        // Draw nodes and subtle labels
-        ctx.font = '10px ui-monospace, SFMono-Regular, Menlo, monospace';
-        for (let i = 0; i < nodes.length; i++) {
-          const n = nodes[i];
-          ctx.beginPath();
-          ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
-          ctx.fillStyle = n.color;
-          ctx.shadowColor = n.color;
-          ctx.shadowBlur = 8;
-          ctx.fill();
-          ctx.shadowBlur = 0;
-
-          // Draw label
-          ctx.fillStyle = "rgba(255, 255, 255, 0.55)";
-          ctx.fillText(n.label, n.x + n.radius + 4, n.y + 3);
-        }
-
-        requestAnimationFrame(animate);
-      }
-
-      animate();
-    })();
-
-    // ==========================================
-    // 2. ANIMATED COUNT-UP NUMBERS
-    // ==========================================
-    (function initCountUp() {
-      const statNums = document.querySelectorAll('.stat-num[data-target]');
-      if (!statNums.length) return;
-
-      const observer = new IntersectionObserver((entries, obs) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const el = entry.target;
-            const targetVal = parseFloat(el.getAttribute('data-target'));
-            const suffix = el.getAttribute('data-suffix') || '';
-            const isFloat = targetVal % 1 !== 0;
-            const duration = 1400; // ms
-            const startTime = performance.now();
-
-            function updateCounter(currentTime) {
-              const elapsed = currentTime - startTime;
-              const progress = Math.min(elapsed / duration, 1);
-              // EaseOutQuart
-              const ease = 1 - Math.pow(1 - progress, 4);
-              const current = targetVal * ease;
-
-              if (isFloat) {
-                el.textContent = current.toFixed(1).replace('.', ',') + suffix;
-              } else {
-                const rounded = Math.floor(current);
-                el.textContent = rounded.toLocaleString('es-CL').replace(',', '.') + suffix;
-              }
-
-              if (progress < 1) {
-                requestAnimationFrame(updateCounter);
-              } else {
-                if (isFloat) {
-                  el.textContent = targetVal.toFixed(1).replace('.', ',') + suffix;
-                } else {
-                  el.textContent = targetVal.toLocaleString('es-CL').replace(',', '.') + suffix;
-                }
-              }
-            }
-
-            requestAnimationFrame(updateCounter);
-            obs.unobserve(el);
-          }
-        });
-      }, { threshold: 0.25 });
-
-      statNums.forEach(el => observer.observe(el));
-    })();
-
-    // ==========================================
-    // 3. SOCRATIC BAR EXAM SIMULATOR
-    // ==========================================
-    (function initSocraticSimulator() {
-      const CEDULAS_DATA = [
-        {
-          id: 1,
-          cat: "civil-obligaciones",
-          meta: "Cédula N° 14 · Derecho Civil: Teoría del Contrato",
-          question: "Candidato, examine el alcance del Art. 1464 N° 3 del Código Civil. ¿Constituye objeto ilícito la enajenación forzada efectuada en remate judicial cuando existe otro embargo o medida precautoria sobre el mismo bien? Exponga la evolución dogmática y el criterio uniforme de la Excma. Corte Suprema.",
-          positive: "<strong>[BCN - Código Civil, Art. 1464 N° 3]:</strong> 'Hay un objeto ilícito en la enajenación: 3.° De las cosas embargadas por decreto judicial, a menos que el juez lo autorice o el acreedor consienta en ello'. Concatenado con Art. 10 y 1682 (Nulidad absoluta).",
-          dogmatic: "<strong>[Doctrina - Daniel Peñailillo Arévalo, Los Bienes]:</strong> Se debate si el remate forzado califica como 'enajenación' voluntaria. Tratadistas históricos (Claro Solar, Somarriva) exigían autorización del juez que decretó el embargo preventivo. La doctrina moderna de Peñailillo enfatiza la protección registral de terceros y la subrogación real sobre el precio de subasta.",
-          judicial: "<strong>[CS - Rol N° 1.289-2020]:</strong> La Primera Sala Civil de la Excma. Corte Suprema resolvió que la subasta forzada no purga automáticamente embargos vigentes de otros juzgados; se requiere que el juez que ordenó el embargo autorice la enajenación para evitar la nulidad por objeto ilícito.",
-          bracket: "[BCN - Código Civil, Art. 1464 N° 3] · [CS - Rol N° 1.289-2020] · [Doctrina - Peñailillo, Los Bienes, Institución: Embargo]"
-        },
-        {
-          id: 2,
-          cat: "civil-obligaciones",
-          meta: "Cédula N° 22 · Derecho Civil: Fuerza Obligatoria & Imprevisión",
-          question: "Candidato, frente a alteraciones sobrevinientes, imprevistas y gravosas en la economía del contrato, ¿procede la revisión judicial de las obligaciones conforme al Código Civil chileno o rige inexorablemente el Art. 1545? Contraste el principio Pacta Sunt Servanda con el deber de Buena Fe del Art. 1546.",
-          positive: "<strong>[BCN - Código Civil, Arts. 1545 y 1546]:</strong> 'Todo contrato legalmente celebrado es una ley para los contratantes...' / 'Los contratos deben ejecutarse de buena fe... obligan no sólo a lo que en ellos se expresa'.",
-          dogmatic: "<strong>[Doctrina - Jorge López Santa María, Los Contratos]:</strong> Análisis de la Teoría de la Imprevisión. Mientras la doctrina clásica rechaza la revisión judicial bajo el dogma de la autonomía de la voluntad, la dogmática moderna (López Santa María, Barros Bourie) funda la revisión o resolución en la cláusula rebus sic stantibus derivada de la buena fe objetiva y la equivalencia prestacional.",
-          judicial: "<strong>[CS - Rol N° 23.411-2019]:</strong> La Corte Suprema ha reconocido que la buena fe objetiva (Art. 1546) modula el rigor estricto del Art. 1545 en situaciones extremas de desequilibrio contractual, facultando la renegociación de buena fe.",
-          bracket: "[BCN - Código Civil, Arts. 1545 y 1546] · [CS - Rol N° 23.411-2019] · [Doctrina - López Santa María, Los Contratos]"
-        },
-        {
-          id: 3,
-          cat: "civil-responsabilidad",
-          meta: "Cédula N° 31 · Derecho Civil: Responsabilidad Extracontractual",
-          question: "Candidato, determine la titularidad activa para demandar la indemnización del daño moral en caso de lesiones graves o muerte de la víctima directa. ¿Quiénes están legitimados como víctimas por rebote y bajo qué presupuestos opera la presunción de causalidad conforme a Barros Bourie?",
-          positive: "<strong>[BCN - Código Civil, Arts. 2314 y 2329]:</strong> 'El que ha cometido un delito o cuasidelito que ha inferido daño a otro, es obligado a la indemnización...' / Art. 2329: 'Por regla general todo daño que pueda imputarse a malicia o negligencia de otra persona, debe ser reparado'.",
-          dogmatic: "<strong>[Doctrina - Enrique Barros Bourie, Responsabilidad Extracontractual]:</strong> La acción por daño moral 'por rebote' o repercusión es originaria y no heredada. Corresponde a quienes acrediten un dolor o aflicción personal, directa y cierta vinculada por causalidad natural y juicio de imputación objetiva con el hecho ilícito.",
-          judicial: "<strong>[CS - Rol N° 45.102-2022]:</strong> La Corte Suprema ha consolidado que la indemnización por daño moral por rebote no se limita exclusivamente a herederos forzosos del Art. 983, sino a cualquier persona que acredite un vínculo de afecto y convivencia real con la víctima directa.",
-          bracket: "[BCN - Código Civil, Arts. 2314 y 2329] · [CS - Rol N° 45.102-2022] · [Doctrina - Barros Bourie, Tratado de Responsabilidad]"
-        },
-        {
-          id: 4,
-          cat: "civil-bienes",
-          meta: "Cédula N° 9 · Derecho Civil: Teoría de la Posesión Inscrita",
-          question: "Candidato, exponga la llamada 'Teoría de la Posesión Inscrita' en el sistema registral chileno. Si un sujeto ocupa materialmente un inmueble inscrito a nombre de otro durante más de 10 años, ¿puede adquirirlo por prescripción adquisitiva extraordinaria conforme a los Arts. 724, 728, 2505 y 2510 del Código Civil?",
-          positive: "<strong>[BCN - Código Civil, Arts. 724, 728 y 2505]:</strong> 'Si la cosa es de aquellas cuya tradición deba hacerse por inscripción... nadie puede adquirir la posesión de ella sino por este medio' / Art. 2505: 'Contra un título inscrito no tendrá lugar la prescripción adquisitiva... sino en virtud de otro título inscrito'.",
-          dogmatic: "<strong>[Doctrina - Manuel Somarriva & Daniel Peñailillo]:</strong> Debate clásico entre la tesis de la 'garantía absoluta' (no hay posesión material capaz de prescribir contra inscripción) y la tesis de la 'posesión material prevalente' (sustentada por Humberto Trucco en prescripción extraordinaria del Art. 2510 regla 1ª).",
-          judicial: "<strong>[CS - Rol N° 12.870-2021]:</strong> Criterio uniforme y reiterado de la Excma. Corte Suprema: el Art. 2505 no distingue entre prescripción ordinaria y extraordinaria. Para prescribir contra título inscrito se requiere imperativamente de otro título inscrito; el mero ocupante material es un mero tenedor o precario sin aptitud posesoria exclusiva.",
-          bracket: "[BCN - Código Civil, Arts. 728 y 2505] · [CS - Rol N° 12.870-2021] · [Doctrina - Peñailillo, Los Bienes, Institución: Posesión Inscrita]"
-        },
-        {
-          id: 5,
-          cat: "procesal-civil",
-          meta: "Cédula N° 40 · Derecho Procesal: Medidas Precautorias",
-          question: "Candidato, analice los presupuestos procesales copulativos (humo de buen derecho y peligro en la mora) para decretar la medida prejudicial o precautoria de prohibición de celebrar actos y contratos del Art. 290 N° 4 del CPC. ¿Exige caución obligatoria o es facultativa para el tribunal?",
-          positive: "<strong>[BCN - Código de Procedimiento Civil, Arts. 290 N° 4, 298 y 301]:</strong> Exige acompañar comprobantes que constituyan a lo menos presunción grave del derecho que se reclama. La caución es facultativa para el tribunal en el Art. 298, pero obligatoria en medidas prejudiciales precautorias del Art. 279.",
-          dogmatic: "<strong>[Doctrina - Mario Mosquera & Cristián Maturana, Los Recursos Procesales]:</strong> La medida del Art. 290 N° 4 es la más intensa del catálogo cautelar civil, pues paraliza la facultad de disposición. Requiere examen estricto de proporcionalidad entre el riesgo patrimonial invocado y el gravamen impuesto al demandado.",
-          judicial: "<strong>[C.A. de Santiago - Rol N° 1.450-2023]:</strong> La Ilustrísima Corte ha revocado precautorias dictadas sin antecedentes documentales calificados, enfatizando que la sola presentación de la demanda no constituye presunción grave del derecho demandado.",
-          bracket: "[BCN - Código de Procedimiento Civil, Arts. 290 y 298] · [C.A. de Santiago - Rol N° 1.450-2023] · [Doctrina - Maturana, Tutela Cautelar]"
-        }
-      ];
-
-      let currentDeckFilter = "all";
-      let activeCedula = CEDULAS_DATA[0];
-
-      function renderCedula(cedula) {
-        activeCedula = cedula;
-        document.getElementById('cedulaMeta').textContent = cedula.meta;
-        document.getElementById('socraticQuestionText').textContent = `"${cedula.question}"`;
-        document.getElementById('rubricPositive').innerHTML = cedula.positive;
-        document.getElementById('rubricDogmatic').innerHTML = cedula.dogmatic;
-        document.getElementById('rubricJudicial').innerHTML = cedula.judicial;
-        document.getElementById('rubricQuote').innerHTML = `<strong>Corchete Oficial para Cita Forense:</strong> <code>${cedula.bracket.replace(/ · /g, '</code> · <code>')}</code>`;
-        
-        // Reset state
-        document.getElementById('canonicalRubric').style.display = 'none';
-        document.getElementById('feedbackBanner').style.display = 'none';
-        document.getElementById('studentAnswerInput').value = '';
-      }
-
-      function pickRandomCedula() {
-        const pool = (currentDeckFilter === "all") 
-          ? CEDULAS_DATA 
-          : CEDULAS_DATA.filter(c => c.cat === currentDeckFilter);
-        
-        if (!pool.length) return;
-        const available = pool.filter(c => c.id !== activeCedula.id);
-        const next = available.length ? available[Math.floor(Math.random() * available.length)] : pool[0];
-        renderCedula(next);
-      }
-
-      // Deck buttons
-      document.querySelectorAll('[data-cedula-cat]').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('[data-cedula-cat]').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('[data-pjud-col]').forEach(btn => {{
+        btn.addEventListener('click', () => {{
+          document.querySelectorAll('[data-pjud-col]').forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
-          currentDeckFilter = btn.dataset.cedulaCat;
-          pickRandomCedula();
-        });
-      });
+          currentPjudCol = btn.dataset.pjudCol;
+          renderPjudSamples();
+        }});
+      }});
 
-      // Reroll button
-      const btnReroll = document.getElementById('btnRerollCedula');
-      if (btnReroll) btnReroll.addEventListener('click', pickRandomCedula);
+      if (pjudSearch) {{
+        pjudSearch.addEventListener('input', (e) => {{
+          currentPjudTerm = e.target.value.toLowerCase().trim();
+          renderPjudSamples();
+        }});
+      }}
 
-      // Reveal Rubric
-      const btnReveal = document.getElementById('btnRevealRubric');
-      const rubricEl = document.getElementById('canonicalRubric');
-      if (btnReveal && rubricEl) {
-        btnReveal.addEventListener('click', () => {
-          const isHidden = rubricEl.style.display === 'none';
-          rubricEl.style.display = isHidden ? 'block' : 'none';
-          btnReveal.innerHTML = isHidden 
-            ? '<span>🙈 Ocultar Rúbrica Canónica</span>' 
-            : '<span>💡 Revelar Rúbrica Canónica (3 Pilares)</span>';
-        });
-      }
+      renderPjudSamples();
+    }})();
+"""
 
-      // Evaluate practice
-      const btnEval = document.getElementById('btnEvaluatePractice');
-      const feedbackEl = document.getElementById('feedbackBanner');
-      if (btnEval && feedbackEl) {
-        btnEval.addEventListener('click', () => {
-          const answer = document.getElementById('studentAnswerInput').value.trim();
-          feedbackEl.style.display = 'block';
-          if (answer.length < 15) {
-            feedbackEl.style.background = '#fef2f2';
-            feedbackEl.style.borderColor = '#fca5a5';
-            feedbackEl.style.color = '#991b1b';
-            feedbackEl.innerHTML = `⚠️ <strong>Respuesta insuficiente:</strong> El tribunal examinador exige un planteamiento articulado. Menciona al menos el artículo de la ley, el tratadista de cabecera y el criterio jurisprudencial para aprobar.`;
-          } else {
-            feedbackEl.style.background = '#ecfdf5';
-            feedbackEl.style.borderColor = '#a7f3d0';
-            feedbackEl.style.color = '#065f46';
-            feedbackEl.innerHTML = `🎓 <strong>Voto de Distinción de la Comisión:</strong> Has demostrado dominio argumentativo. Coteja tu razonamiento con los 3 pilares oficiales en la rúbrica desplegada a continuación.`;
-            rubricEl.style.display = 'block';
-            if (btnReveal) btnReveal.innerHTML = '<span>🙈 Ocultar Rúbrica Canónica</span>';
-          }
-        });
-      }
-
-      // Initialize with first cedula
-      renderCedula(CEDULAS_DATA[0]);
-    })();
-    """
-
-    if "// 1. PLAYFUL HERO GRAPH CANVAS ANIMATION" not in content:
-        content = content.replace("renderTools();", "renderTools();\n" + interactive_scripts)
+    if "initBaremoAndCorpusExplorer" not in content:
+        content = content.replace("</script>\n</body>", baremo_and_corpus_js + "\n  </script>\n</body>")
 
     INDEX_HTML_PATH.write_text(content, encoding="utf-8")
     print(f"Successfully updated {INDEX_HTML_PATH}")
     print(f"Total tools in updated HTML: {len(tools_data)}")
+    print(f"Total Baremo categories embedded: {len(baremo_data)}")
+    print(f"Total PJUD specialized samples embedded: {len(pjud_samples)}")
+
 
 if __name__ == "__main__":
     main()
