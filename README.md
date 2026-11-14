@@ -221,11 +221,17 @@ en Markdown y con índices para agentes ([`llms.txt`](https://huggingface.co/dat
 | Revistas de Derecho | RChD UC (1974-2026, 2 086 arts.), RDPUCV (1977-2024, 868 arts.), RDUACh (1990-2026, 1 011 arts.), REHJ PUCV (1976-2025, 950 arts.), RDUCN (1994-2026, 737 arts.), RChDP UDP (2003-2026, 494 arts.), RChDCP UCT (2010-2026, 316 arts.), RDA UChile (2002-2026, 229 arts.), RDUdeC (1933-2026, 226 arts.), RChDT UChile (2012-2026, 232 arts.) y DACC UdeC (2025-2026, 21 arts.), OJS/SciELO en Markdown | **7 170 artículos** |
 | Guías AJ | Academia Judicial de Chile, texto íntegro | **24 guías** |
 | Corte Suprema | ficha Markdown + enlace oficial (el texto íntegro exige sesión PJUD) | **70 536 fichas** |
+| Líneas Jurisprudenciales CS | líneas doctrinales sistematizadas por sala y materia (`juris.pjud.cl`) | **457 líneas** |
+| Compendio Salud / Isapres CS | sentencias de alzas GES, tabla de factores y cobertura (`Salud_CS`) | **311 sentencias** |
+| Compendio de Extranjería CS | expulsiones, arraigo familiar y refugio (`Compendio_Extranjería`) | **162 sentencias** |
+| Derechos Humanos PJUD | crímenes de lesa humanidad, estándares CIDH y reparaciones (`busddhh.pjud.cl`) | **418 sentencias** |
+| Secretaría de Género PJUD | repositorio y concurso de sentencias con perspectiva de género (`secretariadegenero.pjud.cl`) | **188 sentencias** |
+| Baremo de Daño Moral PJUD | cuantificación estadística en UF y CLP por parentesco e instancia (`baremo.pjud.cl`) | **17 categorías (2 137 fallos)** |
 | Tribunal Constitucional | texto íntegro | **967 sentencias** |
 | Ambientales (1TA/2TA/3TA) | 735 con texto íntegro · 151 fichas (las 111 de 1TA: su portal ya no sirve PDFs) | **886 sentencias** |
 | Publicaciones ambientales | boletines y anuarios | **55** |
 
-En total: **7 399 documentos de doctrina y revistas académicas** estructuradas en Markdown y **25 556 fichas dogmáticas densas** con índice rápido `train_lite.jsonl` e `instituciones_lite.jsonl` para citación grounded sin alucinaciones.
+En total: **7 399 documentos de doctrina y revistas académicas** estructuradas en Markdown, **25 556 fichas dogmáticas densas** con ranking **Okapi BM25F** (ponderación IDF por campos y fallback morfológico de 4-gramas), y más de **73 900 registros jurisprudenciales y estadísticos oficiales del PJUD, TC y Tribunales Ambientales** para citación grounded sin alucinaciones.
 
 #### 🗺️ El mapa de conocimiento del corpus
 
@@ -586,8 +592,9 @@ El directorio `agents/` incluye **19 perfiles de especialidad jurídica** adapta
 16. **`chilean-legal-clinic`** (`agente-clinica`): Asistencia jurídica social para consultorios CAJ y traductor a Lenguaje Claro.
 17. **`chilean-privacy-ip`** (`agente-propiedad-datos`): Tramitación de Derechos ARCO (Ley 19.628) y factibilidad marcaria ante INAPI.
 18. **`chilean-doctrine-ingestion`** (`agente-ingestor`): Asimilación e ingesta de doctrina jurídica chilena, conversión a Markdown canónico RAE/ASALE y sincronización en caliente del Knowledge Graph y SQLite FTS5.
-
 19. **`chilean-case-intake`** (`agente-mesa`): Mesa de entrada de casos: carpeta, texto o consulta → plan de herramientas → ejecución → expediente, con lo que falte declarado y la compuerta de revisión.
+20. **`chilean-contradictorio-goldfish`** (`critique_documento` modo `goldfish`): Auditoría adversarial mediante el paradigma **Elephant-Goldfish** (`google/elephant-goldfish-model`): un Agente *Goldfish* de contexto aislado (sin acceso a la estrategia ni sesgo de confirmación del redactor) ataca la admisibilidad, prescripción, personería y suficiencia probatoria del borrador antes de ingresarlo en la OJV.
+21. **`chilean-workspace-legal-flow`**: Automatización del despacho jurídico integrando el MCP de Open Legal Chile con **Google Workspace MCP** en Google Antigravity y Claude Code (Docs para informes con citas a pie de página, Sheets para el Baremo de Daño Moral PJUD en UF/CLP y control de plazos del Art. 66 CPC, Calendar para audiencias y Drive para expedientes).
 
 ### 🤖 Motor de Agentes Jurídicos Autónomos (`agents_runtime.py`)
 La suite incorpora un runtime de agentes con dos modalidades de ejecución:
@@ -739,7 +746,36 @@ Open Legal Chile está licenciado bajo la **Licencia Apache 2.0** ([`LICENSE`](L
 
 ---
 
-## 🌱 13. Cómo Contribuir
+## 🎓 13. Formación Ejecutiva, Consultoría «Llave en Mano» On-Premise y Alianzas Institucionales
+
+El núcleo de **Open Legal Chile** (código fuente bajo licencia Apache 2.0, las 88 herramientas MCP, los 19 agentes autónomos y el dataset público en Hugging Face) es y seguirá siendo **100 % abierto, gratuito y soberano**. Para estudios jurídicos, gerencias legales, reparticiones públicas y facultades de Derecho que requieren capacitación especializada o despliegues corporativos privados, ofrecemos tres líneas de colaboración directa:
+
+### 🏛️ Propuesta 1 — Charlas Magistrales, Bootcamps Prácticos y Capacitación In-Company / SENCE / Académica
+Programas de formación ejecutiva y talleres prácticos (*hands-on*) dirigidos a socios y asociados de estudios jurídicos, fiscalías corporativas, departamentos jurídicos del Estado, colegios de abogados y programas de postgrado:
+* **Módulo I — Arquitectura de IA Jurídica Soberana y Prevención de Alucinaciones:** Operación de `consulta_maestra`, triangulación de tres pilares (BCN + Doctrina Canónica + PJUD/CGR/DT) y citación forense verificable.
+* **Módulo II — Litigación Digital OJV y Auditoría Contradictoria (*Elephant-Goldfish*):** Redacción automatizada de demandas, recursos de protección (Acta N.° 94-2015), cuantificación con el Baremo Estadístico de Daño Moral PJUD en UF/CLP y auditoría adversarial previa al ingreso judicial.
+* **Módulo III — Ingeniería de Grafos (`LegalGraphify`) y Despliegue de Harnesses:** Configuración avanzada de Google Antigravity, Claude Code, Cursor y flujos con Google Workspace MCP sin filtración de secreto profesional.
+
+### 🛡️ Propuesta 2 — Consultoría «Llave en Mano» y Despliegue Privado On-Premise (*Zero Data Leak*)
+Implementación de infraestructura de IA jurídica soberana dentro de los servidores privados, nube privada virtual (VPC) o estaciones de trabajo de su estudio jurídico o institución:
+* **Ingesta Privada de Precedentes Propios:** Indexación local con Okapi BM25F, SQLite FTS5 y subgrafos `LegalGraphify` (con *Personalized PageRank*) sobre los contratos históricos, informes en derecho, matrices de riesgo y escritos propios del estudio, 100 % aislados de internet.
+* **Adaptación de Plantillas Forenses y Reglas de Estilo:** Personalización de `generar_documento` (.docx editable con citas a pie de página), membretes corporativos, cláusulas tipo y flujos de validación interna.
+* **Integración con Modelos Locales (Ollama / vLLM) o Corporativos:** Operación con secreto profesional absoluto conforme al Código de Ética Profesional y a la Ley N.° 21.719 de Protección de Datos Personales.
+
+### 🤝 Propuesta 4 — Alianzas Universitarias, Clínicas Jurídicas, Fondos de Bien Público Digital y Patrocinios
+Convenios de cooperación académica e institucional para expandir el acceso a la justicia y la formación clínica en Chile:
+* **Laboratorios de IA y Simulador Socrático de Examen de Grado:** Implementación en facultades de Derecho y clínicas jurídicas (CAJ) para entrenamiento socrático con rúbricas canónicas y traducción automatizada a Lenguaje Claro.
+* **Co-investigación y Publicación de Corpus Abiertos:** Digitalización y normalización RAE/ASALE de revistas jurídicas, compendios jurisprudenciales y archivos históricos hacia Hugging Face.
+* **Patrocinios Institucionales (*Sponsorships*) y Proyectos de I+D:** Postulación conjunta a fondos de innovación pública, ANID y programas internacionales de bienes públicos digitales.
+
+> 📬 **Contacto Directo (Charlas, Capacitaciones, Consultoría On-Premise y Alianzas):**
+> **Pablo Benavides Jorquera** — Autor y Director de *Open Legal Chile*
+> Correo electrónico: **[pablobenavidesjorquera@gmail.com](mailto:pablobenavidesjorquera@gmail.com)**
+> Web oficial: [https://elpabloultron.github.io/open-legal-chile/](https://elpabloultron.github.io/open-legal-chile/)
+
+---
+
+## 🌱 14. Cómo Contribuir
 
 Las contribuciones académicas y técnicas de estudiantes, docentes y abogados son bienvenidas:
 
