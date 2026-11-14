@@ -52,6 +52,19 @@ Fuentes:
 
 ---
 
+### 2 bis bis. Identidad Institucional, Justificación Completa y Normas RAE
+Toda entrega documental o producto forense de la suite debe cumplir con el triple estándar de presentación formal:
+1. **Identidad Institucional Open Legal Chile:** Todo documento, informe, dictamen, escrito judicial o dossier generado debe llevar expresamente el encabezado, membrete y autoría institucional de **Open Legal Chile** (en encabezado, título, metadatos y pie de página).
+   * **Pie de página oficial y Código QR:** «Open Legal Chile — Un proyecto open source · Desarrollado por Pablo Benavides J. · Web: https://elpabloultron.github.io/open-legal-chile/», acompañado del código QR institucional en el pie de página que vincula directamente a la web y repositorio del proyecto.
+2. **Texto Justificado:** Todo el texto sin excepción (cuerpo, hechos, citas normativas y doctrinales, peticiones y listas) debe estar estrictamente justificado (`alignment = WD_ALIGN_PARAGRAPH.JUSTIFY` en Word y `text-align: justify;` en HTML/CSS/MD).
+3. **Normas Ortotipográficas RAE/ASALE:** Todo texto debe seguir rigurosamente las normas de la Real Academia Española y de la Asociación de Academias de la Lengua Española (Ortografía 2010):
+   * **Comillas latinas o españolas (`«` y `»`)** como comillas de primer nivel (las inglesas `“ ”` solo para citas subordinadas dentro de comillas latinas).
+   * **Abreviatura académica de número:** `N.°` (con punto abreviativo y letra volada, ej. `Ley N.° 20.536`), `Art.` e `inc.`.
+   * **Raya de inciso (`—`):** sin espacios interiores para incisos o aclaraciones.
+   * **Mayúsculas acentuadas:** preceptivas en todo momento (`CÓDIGO`, `ARTÍCULO`, `JURISPRUDENCIA`).
+
+---
+
 ### 2 ter. Estándar de Contundencia y Subsunción Jurídica Tripartita
 Queda **estrictamente prohibido** emitir respuestas superficiales, simplistas o de un solo párrafo ante cualquier consulta jurídica sustantiva o procesal. Toda respuesta de fondo debe formularse con la profundidad, rigor y técnica de un **Informe en Derecho (*Legal Memorandum*)**, aplicando la **Triangulación de Tres Pilares**:
 

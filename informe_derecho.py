@@ -296,7 +296,13 @@ def exportar_informe_en_derecho(
             faltantes.append("doctrina")
 
     # ── Cuerpo del documento ────────────────────────────────────────────────────────────────
-    lineas: List[str] = ["# INFORME EN DERECHO", ""]
+    lineas: List[str] = [
+        "# OPEN LEGAL CHILE",
+        "## INFORME EN DERECHO",
+        "",
+        "**Plataforma de Inteligencia Jurídica Forense — República de Chile**",
+        "",
+    ]
     if materia:
         lineas.append(f"**Materia:** {materia}")
     if caso:
@@ -348,9 +354,10 @@ def exportar_informe_en_derecho(
     for j in entradas_juris:
         citas_fuentes.append({"formato": j.get("cita") or "", "url": j.get("url", "")})
     lineas += [bloque_fuentes(citas_fuentes), "", "---", "",
-               "⚖️ **Compuerta de Revisión Jurídica:** Este informe contiene análisis y propuesta "
+               "**Compuerta de Revisión Jurídica:** Este informe contiene análisis y propuesta "
                "de redacción conforme al ordenamiento jurídico de Chile. Debe ser validado por un "
-               "abogado habilitado antes de su firma o presentación."]
+               "abogado habilitado antes de su firma o presentación.", "",
+               "_Documento institucional emitido por Open Legal Chile conforme a las normas ortotipográficas de la RAE y el estándar forense chileno._"]
     md_content = "\n".join(lineas)
     if len(md_content) < _MIN_INFORME:
         advertencias.append(f"El informe mide {len(md_content)} caracteres: los informes en derecho "
@@ -390,26 +397,67 @@ def exportar_informe_en_derecho(
     }
 
 
+def _generar_qr_base64() -> str:
+    """Devuelve el código QR institucional en formato PNG base64 para incrustar en HTML."""
+    try:
+        import base64
+        import io
+        import qrcode
+        qr = qrcode.QRCode(version=1, box_size=3, border=1)
+        qr.add_data("https://elpabloultron.github.io/open-legal-chile/")
+        qr.make(fit=True)
+        img = qr.make_image(fill_color="black", back_color="white")
+        buf = io.BytesIO()
+        img.save(buf, format="PNG")
+        return base64.b64encode(buf.getvalue()).decode("utf-8")
+    except Exception:
+        return ""
+
+
 def _html_del_informe(md_content: str) -> str:
-    """HTML simple y legible del informe (el entregable de trabajo es el .docx)."""
+    """HTML simple, justificado y legible del informe con membrete, pie y QR (el entregable es el .docx)."""
     cuerpo: List[str] = []
     for linea in md_content.split("\n"):
         t = linea.strip().replace("**", "")
         if not t:
             continue
-        if t.startswith("## "):
+        if t.startswith("### "):
+            cuerpo.append(f"<h3>{html.escape(t[4:])}</h3>")
+        elif t.startswith("## "):
             cuerpo.append(f"<h2>{html.escape(t[3:])}</h2>")
         elif t.startswith("# "):
             cuerpo.append(f"<h1>{html.escape(t[2:])}</h1>")
         elif t.startswith("> "):
             cuerpo.append(f"<blockquote>{html.escape(t[2:])}</blockquote>")
-        elif t == "---":
+        elif t in {"---", "***", "___"}:
             cuerpo.append("<hr>")
         else:
             cuerpo.append(f"<p>{html.escape(t)}</p>")
+
+    qr_b64 = _generar_qr_base64()
+    qr_img = (f'<img src="data:image/png;base64,{qr_b64}" alt="QR Open Legal Chile" width="55" height="55" '
+              'style="border:1px solid #cbd5e1;border-radius:4px;padding:2px;" />') if qr_b64 else ""
+
+    pie_institucional = (
+        '<hr style="margin-top:36px;border:0;border-top:1px solid #cbd5e1;">\n'
+        '<footer style="display:flex;justify-content:space-between;align-items:center;margin-top:16px;'
+        'font-size:8.5pt;color:#475569;">\n'
+        '  <div style="flex:1;text-align:justify;padding-right:20px;">\n'
+        '    <strong>Open Legal Chile</strong> — Un proyecto <em>open source</em> para el Derecho Continental.<br>\n'
+        '    Desarrollado por <strong>Pablo Benavides J.</strong><br>\n'
+        '    Web oficial: <a href="https://elpabloultron.github.io/open-legal-chile/" '
+        'style="color:#0284c7;text-decoration:none;">https://elpabloultron.github.io/open-legal-chile/</a>\n'
+        '  </div>\n'
+        f'  <div style="text-align:right;">\n    {qr_img}\n  </div>\n'
+        '</footer>\n'
+    )
+
     return ("<!DOCTYPE html>\n<html lang=\"es\">\n<head><meta charset=\"UTF-8\">"
             "<title>Informe en Derecho — Open Legal Chile</title>\n"
-            "<style>body{font-family:'Times New Roman',serif;max-width:820px;margin:40px auto;"
-            "padding:30px;line-height:1.4;}blockquote{margin:0 0 10px 24px;padding-left:14px;"
-            "border-left:3px solid #999;font-style:italic;text-align:justify;}p{text-align:justify;}</style>"
-            "</head>\n<body>\n" + "\n".join(cuerpo) + "\n</body>\n</html>\n")
+            "<style>body{font-family:'Times New Roman',serif;max-width:840px;margin:40px auto;"
+            "padding:36px;line-height:1.45;color:#1a202c;text-align:justify;text-justify:inter-word;}"
+            "h1,h2,h3{color:#0f172a;text-align:justify;}"
+            "blockquote{margin:10px 0 12px 24px;padding-left:14px;border-left:3px solid #64748b;"
+            "font-style:italic;text-align:justify;text-justify:inter-word;}p{text-align:justify;"
+            "text-justify:inter-word;margin-bottom:10px;}li{text-align:justify;}</style>"
+            "</head>\n<body>\n" + "\n".join(cuerpo) + "\n" + pie_institucional + "</body>\n</html>\n")
