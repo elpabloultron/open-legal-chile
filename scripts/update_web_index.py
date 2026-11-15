@@ -781,6 +781,219 @@ NEW_SECTIONS_HTML = """  <!-- Step 04B: Buscador Interactivo Multi-Corpus, Barem
 """
 
 
+COMMERCIAL_HOOK_CSS = """
+    /* ─── Commercial Value Hook Section (#propuesta-valor) ─── */
+    .hook-section {
+      padding: 4.5rem 24px 3.5rem;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .hook-banner {
+      background: linear-gradient(135deg, #062a22 0%, #0b3d32 65%, #07332a 100%);
+      border: 1px solid rgba(74, 222, 128, 0.28);
+      border-radius: 22px;
+      padding: 36px 32px;
+      color: #f8fafc;
+      box-shadow: 0 24px 56px rgba(6, 42, 34, 0.14);
+      margin-bottom: 26px;
+    }
+    .hook-kicker {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 0.76rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #4ade80;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .hook-title {
+      font-family: var(--display);
+      font-size: clamp(1.75rem, 3.2vw, 2.55rem);
+      line-height: 1.12;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+    .hook-sub {
+      font-size: 1.04rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+      max-width: 72ch;
+      margin-bottom: 22px;
+    }
+    .hook-cta-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+    .hook-cta-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 16px;
+      padding: 18px 20px;
+      text-decoration: none;
+      color: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+    }
+    .hook-cta-card:hover {
+      transform: translateY(-3px);
+      border-color: #4ade80;
+      background: rgba(74, 222, 128, 0.12);
+    }
+    .hook-cta-tag {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: #38bdf8;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .hook-cta-title {
+      font-family: var(--display);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .hook-cta-desc {
+      font-size: 0.86rem;
+      color: #cbd5e1;
+      line-height: 1.45;
+    }
+    .hook-compare-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .hook-cmp-card {
+      background: #ffffff;
+      border: 1px solid #d7e2db;
+      border-radius: 18px;
+      padding: 22px 24px;
+      box-shadow: 0 10px 26px rgba(6, 42, 34, 0.05);
+    }
+    .hook-cmp-card.pro {
+      border-color: #16a34a;
+      background: linear-gradient(180deg, #f3fbf6 0%, #ffffff 100%);
+    }
+    .hook-cmp-card h3 {
+      font-family: var(--display);
+      font-size: 1.12rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: #062a22;
+    }
+    .hook-cmp-card ul {
+      padding-left: 18px;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 0.92rem;
+      line-height: 1.5;
+      color: #2c433b;
+    }
+    .hook-audiences {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+    .hook-aud-card {
+      background: #ffffff;
+      border: 1px solid #dce5df;
+      border-radius: 16px;
+      padding: 18px 20px;
+    }
+    .hook-aud-card h4 {
+      font-family: var(--display);
+      font-size: 1rem;
+      font-weight: 700;
+      color: #062a22;
+      margin-bottom: 6px;
+    }
+    .hook-aud-card p {
+      font-size: 0.88rem;
+      line-height: 1.5;
+      color: #4b635a;
+      margin: 0;
+    }
+"""
+
+COMMERCIAL_HOOK_HTML = """
+  <!-- Section: Commercial Value Hook & Presentations (#propuesta-valor) -->
+  <section id="propuesta-valor" class="hook-section" aria-label="Propuesta de Valor y Recursos Interactivos">
+    <div class="hook-banner">
+      <span class="hook-kicker">Infraestructura Jurídica Soberana para Chile · Cero Caja Negra</span>
+      <h2 class="hook-title">¿Por qué equipos litigantes, fiscalías y clínicas jurídicas eligen Open Legal Chile frente a una IA genérica?</h2>
+      <p class="hook-sub">
+        Un modelo generalista predice texto probable entrenado en derecho anglosajón: inventa incisos derogados, mezcla figuras del <em>Common Law</em> y expone secretos profesionales en servidores ajenos. <strong>Open Legal Chile</strong> ancla cada respuesta al texto literal de BCN, al grafo <code>LegalGraphify</code> y a 16 conectores oficiales del Estado corriendo en tu propia máquina.
+      </p>
+      <div class="hook-cta-row">
+        <a class="hook-cta-card" href="presentacion-ia-y-open-legal-chile.html">
+          <span class="hook-cta-tag">🎬 Keynote Interactiva · 60 Minutos</span>
+          <span class="hook-cta-title">De la IA Básica a Open Legal Chile</span>
+          <span class="hook-cta-desc">Presentación animada (28 láminas, guion de expositor y simuladores): LLM, tokens, RAG, Harness, MCP y casos reales chilenos.</span>
+        </a>
+        <a class="hook-cta-card" href="presentacion-instalacion-y-uso.html">
+          <span class="hook-cta-tag">🛠️ Taller Práctico · 20 Láminas</span>
+          <span class="hook-cta-title">Instalación y Uso Paso a Paso</span>
+          <span class="hook-cta-desc">Comandos copiables en 1 clic para Antigravity, Claude Code, Cursor, VS Code, Gemini CLI y operación 100 % offline con Ollama.</span>
+        </a>
+        <a class="hook-cta-card" href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/GUIA_MAESTRA_FUNCIONAMIENTO.md" target="_blank" rel="noopener">
+          <span class="hook-cta-tag">📖 Manual Técnico Completo · GitHub</span>
+          <span class="hook-cta-title">Guía Maestra de Módulos (v1.15.0)</span>
+          <span class="hook-cta-desc">Radiografía de los 62 módulos Python raíz, 13 módulos del mapa HF, 88 tools MCP, 19 agentes y 27 skills. <span style="color:#4ade80;">Disponible en .md y Word (.docx).</span></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hook-compare-grid">
+      <div class="hook-cmp-card">
+        <h3>❌ IA Comercial Sin Infraestructura Chilena</h3>
+        <ul>
+          <li><strong>Alucinaciones y citas de memoria:</strong> Parafrasea artículos sin verificar vigencia ni reformas recientes (Ley Karin, 40 Horas, Ley N.° 21.719).</li>
+          <li><strong>Sesgo Common Law:</strong> Extrapola términos inexistentes como <em>at-will employment</em> o <em>punitive damages</em>.</li>
+          <li><strong>Sobrecarga de tokens («Lost in the Middle»):</strong> Inyectar manuales completos (~96.536 tokens) dispara costos y omite excepciones legales.</li>
+          <li><strong>Exposición de confidencialidad:</strong> Subir expedientes completos a chats externos tensiona el secreto profesional (<em>Art. 247 CP</em>).</li>
+        </ul>
+      </div>
+      <div class="hook-cmp-card pro">
+        <h3>✅ Estándar Open Legal Chile (Triangulación + Local-First)</h3>
+        <ul>
+          <li><strong>No se cita sin texto literal:</strong> Todo informe consulta primero <code>consulta_maestra</code> y trae el tenor exacto vía <code>cita_texto</code> desde BCN.</li>
+          <li><strong>Reducción del 99,9 % de contexto:</strong> Fichas deterministas de <code>LegalGraphify</code> (mediana 91 tokens) sobre <strong>16.000 nodos base</strong> y <strong>35.668 nodos del mapa HF</strong>.</li>
+          <li><strong>Cuantificación real y red-teaming:</strong> Baremo Estadístico PJUD en UF/CLP (2.137 fallos) y auditoría contradictoria <em>Elephant-Goldfish</em> previa a OJV.</li>
+          <li><strong>Privacidad total:</strong> OCR, grafos, búsqueda vectorial CPU y compilación Word <code>.docx</code> justificada corren localmente (compatible con <strong>Ollama offline</strong>).</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hook-audiences">
+      <div class="hook-aud-card">
+        <h4>⚖️ Estudios Jurídicos y Litigantes</h4>
+        <p>Demandas, recursos de protección (Acta 94-2015), estudios de títulos a 10 años, cálculo de caducidades y entregables Word <code>.docx</code> con pies de página y QR.</p>
+      </div>
+      <div class="hook-aud-card">
+        <h4>🏢 Fiscalías y Gerencias Legales</h4>
+        <p>Vigilancia regulatoria CMF/SII/CGR/DT/TDLC/SMA, auditorías InfoProbidad y despliegues corporativos <em>on-premise</em> con ingesta de know-how propio.</p>
+      </div>
+      <div class="hook-aud-card">
+        <h4>🎓 Facultades de Derecho y Clínicas CAJ</h4>
+        <p>Simulador socrático de examen de grado por cédulas, traducción ciudadana a Lenguaje Claro y evaluación de privilegio de pobreza.</p>
+      </div>
+      <div class="hook-aud-card">
+        <h4>💻 Equipos LegalTech y Dev</h4>
+        <p>Protocolo MCP abierto Apache 2.0 sobre JSON-RPC 2.0, <strong>1.181 tests</strong> verdes y auditoría automatizada 360° en GitHub Actions.</p>
+      </div>
+    </div>
+  </section>
+"""
+
+
 def main():
     content = INDEX_HTML_PATH.read_text(encoding="utf-8")
 
@@ -841,6 +1054,45 @@ def main():
     # 5. Add new CSS styles
     if "/* --- Buscador Multi-Corpus, Baremo & Formación Consultoría --- */" not in content:
         content = content.replace("</style>", NEW_CSS_STYLES + "\n  </style>")
+    if "/* ─── Commercial Value Hook Section (#propuesta-valor) ─── */" not in content:
+        content = content.replace("</style>", COMMERCIAL_HOOK_CSS + "\n  </style>")
+
+    # 5b. Inject Navigation & Footer links for #propuesta-valor and Presentations
+    if 'href="presentacion-ia-y-open-legal-chile.html"' not in content:
+        content = content.replace(
+            '<a href="#suite" class="nav-link">La Suite</a>',
+            '<a href="#propuesta-valor" class="nav-link" style="color:#4ade80; font-weight:600;">Por qué Elegirnos</a>\n        <a href="presentacion-ia-y-open-legal-chile.html" class="nav-link" style="color:#fbbf24; font-weight:600;">🎬 Keynote 60m</a>\n        <a href="presentacion-instalacion-y-uso.html" class="nav-link" style="color:#38bdf8; font-weight:600;">🛠️ Taller Uso</a>\n        <a href="#suite" class="nav-link">La Suite</a>',
+        )
+        content = content.replace(
+            '<a href="#buscador-corpus" class="mobile-nav-item">🔎 Buscador Multi-Corpus &amp; Baremo PJUD</a>',
+            '<a href="#propuesta-valor" class="mobile-nav-item" style="color:#4ade80;">✨ Por qué Elegir Open Legal Chile</a>\n        <a href="presentacion-ia-y-open-legal-chile.html" class="mobile-nav-item" style="color:#fbbf24;">🎬 Keynote 60 min: IA y Open Legal Chile</a>\n        <a href="presentacion-instalacion-y-uso.html" class="mobile-nav-item" style="color:#38bdf8;">🛠️ Taller Práctico: Instalación y Uso</a>\n        <a href="#buscador-corpus" class="mobile-nav-item">🔎 Buscador Multi-Corpus &amp; Baremo PJUD</a>',
+        )
+        content = content.replace(
+            '<li><a href="#formacion-consultoria" class="footer-link">Capacitación &amp; Consultoría On-Premise</a></li>',
+            '<li><a href="#propuesta-valor" class="footer-link">Por qué Elegir Open Legal Chile</a></li>\n          <li><a href="presentacion-ia-y-open-legal-chile.html" class="footer-link">🎬 Keynote Interactiva (60 min)</a></li>\n          <li><a href="presentacion-instalacion-y-uso.html" class="footer-link">🛠️ Taller Práctico: Instalación y Uso</a></li>\n          <li><a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/GUIA_MAESTRA_FUNCIONAMIENTO.md" target="_blank" rel="noreferrer" class="footer-link">📖 Guía Maestra de Módulos (GitHub)</a></li>\n          <li><a href="#formacion-consultoria" class="footer-link">Capacitación &amp; Consultoría On-Premise</a></li>',
+        )
+
+    # 5c. Inject Commercial Value Hook Section (#propuesta-valor) before #suite
+    if 'id="propuesta-valor"' not in content:
+        content = content.replace(
+            '  <!-- Section: The Complete Suite (5 Operational Pillars) -->\n  <section id="suite" class="step-section">',
+            COMMERCIAL_HOOK_HTML + '\n  <!-- Section: The Complete Suite (5 Operational Pillars) -->\n  <section id="suite" class="step-section">',
+        )
+
+    # 5d. Sync Verified Architecture & Dataset Metrics
+    metric_replacements = [
+        ("14 050 nodos, 31 017 aristas", "16 000 nodos base, 44 838 aristas + 82 674 entradas del mapa HF"),
+        ("14 050 nodos y 31 017 aristas", "16 000 nodos base y 44 838 aristas + 35 668 nodos de capa del mapa HF"),
+        ("14.050 Nodos · 31.017 Aristas · Hugging Face", "16.000 Nodos Base · 44.838 Aristas + 35.668 Nodos Mapa HF"),
+        ("14.050 nodos · 31.017 aristas", "16.000 nodos base · 44.838 aristas + 35.668 capa mapa HF"),
+        ("70 536 fallos de la Corte Suprema y 967 del Tribunal Constitucional", "70 523+ fallos de la Corte Suprema y 966+ del Tribunal Constitucional"),
+        ("GitHub (507 Tests Green · 100%)", "GitHub (1.181 Tests Green · 100%)"),
+        ('<div class="stat-num" data-target="20990" data-suffix="">20.990</div>\n          <div class="stat-label">\n            <span>Nodos en LegalGraphify</span>', '<div class="stat-num" data-target="16000" data-suffix="+">16.000+</div>\n          <div class="stat-label">\n            <span>Nodos Base Curados (+35.668 en Mapa HF)</span>'),
+        ('<div class="stat-num" data-target="507" data-suffix="">507</div>', '<div class="stat-num" data-target="1181" data-suffix="">1.181</div>'),
+        ("TC Constitucional (38 Sentencias)", "TC Constitucional (966+ Sentencias)"),
+    ]
+    for old_m, new_m in metric_replacements:
+        content = content.replace(old_m, new_m)
 
     # 6. Insert #buscador-corpus and #formacion-consultoria before <footer class="footer-section">
     if 'id="buscador-corpus"' not in content:

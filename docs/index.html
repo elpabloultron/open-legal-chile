@@ -4,13 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Open Legal Chile · La Suite Soberana de Inteligencia Jurídica & Servidor MCP para IA</title>
-  <meta name="description" content="Open Legal Chile transforma 228 documentos chilenos, la jurisprudencia de Chile (CS, TC, 1TA/2TA/3TA) y tratados canónicos en un knowledge graph que tu asistente de IA recorre en vez de hacer grep. 88 herramientas MCP, 19 agentes jurídicos autónomos, 14 050 nodos, 31 017 aristas, 100 % on-device, Apache 2.0" />
+  <meta name="description" content="Open Legal Chile transforma 228 documentos chilenos, la jurisprudencia de Chile (CS, TC, 1TA/2TA/3TA) y tratados canónicos en un knowledge graph que tu asistente de IA recorre en vez de hacer grep. 88 herramientas MCP, 19 agentes jurídicos autónomos, 16 000 nodos base, 44 838 aristas + 82 674 entradas del mapa HF, 100 % on-device, Apache 2.0" />
   <meta name="application-name" content="Open Legal Chile" />
   <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/" />
 
   <!-- Open Graph / Twitter -->
   <meta property="og:title" content="Open Legal Chile · The Legal Knowledge Graph for AI Assistants" />
-  <meta property="og:description" content="El knowledge graph jurídico que tu IA puede razonar. 228 documentos chilenos, 886 fallos ambientales, 79 publicaciones y 88 documentos de biblioteca ambiental, 70 536 fallos de la Corte Suprema y 967 del Tribunal Constitucional, 88 herramientas MCP, 19 agentes autónomos, 14 050 nodos, 31 017 aristas, 113,6x de reducción de tokens. On-device, Apache 2.0" />
+  <meta property="og:description" content="El knowledge graph jurídico que tu IA puede razonar. 228 documentos chilenos, 886 fallos ambientales, 79 publicaciones y 88 documentos de biblioteca ambiental, 70 523+ fallos de la Corte Suprema y 966+ del Tribunal Constitucional, 88 herramientas MCP, 19 agentes autónomos, 16 000 nodos base, 44 838 aristas + 82 674 entradas del mapa HF, 113,6x de reducción de tokens. On-device, Apache 2.0" />
   <meta property="og:url" content="https://elpabloultron.github.io/open-legal-chile/" />
   <meta property="og:site_name" content="Open Legal Chile" />
   <meta property="og:locale" content="es_CL" />
@@ -2640,6 +2640,147 @@
       background: #0b3d32;
     }
 
+  
+    /* ─── Commercial Value Hook Section (#propuesta-valor) ─── */
+    .hook-section {
+      padding: 4.5rem 24px 3.5rem;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .hook-banner {
+      background: linear-gradient(135deg, #062a22 0%, #0b3d32 65%, #07332a 100%);
+      border: 1px solid rgba(74, 222, 128, 0.28);
+      border-radius: 22px;
+      padding: 36px 32px;
+      color: #f8fafc;
+      box-shadow: 0 24px 56px rgba(6, 42, 34, 0.14);
+      margin-bottom: 26px;
+    }
+    .hook-kicker {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 0.76rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #4ade80;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .hook-title {
+      font-family: var(--display);
+      font-size: clamp(1.75rem, 3.2vw, 2.55rem);
+      line-height: 1.12;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+    .hook-sub {
+      font-size: 1.04rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+      max-width: 72ch;
+      margin-bottom: 22px;
+    }
+    .hook-cta-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+    .hook-cta-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 16px;
+      padding: 18px 20px;
+      text-decoration: none;
+      color: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+    }
+    .hook-cta-card:hover {
+      transform: translateY(-3px);
+      border-color: #4ade80;
+      background: rgba(74, 222, 128, 0.12);
+    }
+    .hook-cta-tag {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: #38bdf8;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .hook-cta-title {
+      font-family: var(--display);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .hook-cta-desc {
+      font-size: 0.86rem;
+      color: #cbd5e1;
+      line-height: 1.45;
+    }
+    .hook-compare-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .hook-cmp-card {
+      background: #ffffff;
+      border: 1px solid #d7e2db;
+      border-radius: 18px;
+      padding: 22px 24px;
+      box-shadow: 0 10px 26px rgba(6, 42, 34, 0.05);
+    }
+    .hook-cmp-card.pro {
+      border-color: #16a34a;
+      background: linear-gradient(180deg, #f3fbf6 0%, #ffffff 100%);
+    }
+    .hook-cmp-card h3 {
+      font-family: var(--display);
+      font-size: 1.12rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: #062a22;
+    }
+    .hook-cmp-card ul {
+      padding-left: 18px;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 0.92rem;
+      line-height: 1.5;
+      color: #2c433b;
+    }
+    .hook-audiences {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+    .hook-aud-card {
+      background: #ffffff;
+      border: 1px solid #dce5df;
+      border-radius: 16px;
+      padding: 18px 20px;
+    }
+    .hook-aud-card h4 {
+      font-family: var(--display);
+      font-size: 1rem;
+      font-weight: 700;
+      color: #062a22;
+      margin-bottom: 6px;
+    }
+    .hook-aud-card p {
+      font-size: 0.88rem;
+      line-height: 1.5;
+      color: #4b635a;
+      margin: 0;
+    }
+
   </style>
 </head>
 <body>
@@ -2654,6 +2795,9 @@
       </a>
       <span class="nav-divider"></span>
       <nav class="nav-links">
+        <a href="#propuesta-valor" class="nav-link" style="color:#4ade80; font-weight:600;">Por qué Elegirnos</a>
+        <a href="presentacion-ia-y-open-legal-chile.html" class="nav-link" style="color:#fbbf24; font-weight:600;">🎬 Keynote 60m</a>
+        <a href="presentacion-instalacion-y-uso.html" class="nav-link" style="color:#38bdf8; font-weight:600;">🛠️ Taller Uso</a>
         <a href="#suite" class="nav-link">La Suite</a>
         <a href="#agentes" class="nav-link">19 Agentes</a>
         <a href="#simulador-grado" class="nav-link">Simulador Grado</a>
@@ -2683,6 +2827,9 @@
         <a href="#suite" class="mobile-nav-item">🏛️ La Suite (5 Pilares)</a>
         <a href="#agentes" class="mobile-nav-item">🤖 19 Agentes Autónomos</a>
         <a href="#simulador-grado" class="mobile-nav-item">🎲 Simulador Socrático de Grado</a>
+        <a href="#propuesta-valor" class="mobile-nav-item" style="color:#4ade80;">✨ Por qué Elegir Open Legal Chile</a>
+        <a href="presentacion-ia-y-open-legal-chile.html" class="mobile-nav-item" style="color:#fbbf24;">🎬 Keynote 60 min: IA y Open Legal Chile</a>
+        <a href="presentacion-instalacion-y-uso.html" class="mobile-nav-item" style="color:#38bdf8;">🛠️ Taller Práctico: Instalación y Uso</a>
         <a href="#buscador-corpus" class="mobile-nav-item">🔎 Buscador Multi-Corpus &amp; Baremo PJUD</a>
         <a href="#herramientas" class="mobile-nav-item">⚡ 88 Herramientas MCP</a>
         <a href="#formacion-consultoria" class="mobile-nav-item">🎓 Capacitación, Consultoría &amp; Alianzas</a>
@@ -2725,7 +2872,7 @@
         </p>
 
         <p class="hero-p">
-          Infraestructura integral y local-first para que <strong>Antigravity, Claude Code, Cursor, VS Code, Codex y dsh</strong> operen con máxima precisión sobre el ordenamiento jurídico chileno: consulta normativa BCN en tiempo real, causas PJUD y escritos OJV, estudio de títulos inmobiliarios CBR, fiscalizaciones CMF/SII, jurisprudencia ambiental (886 fallos 1TA/2TA/3TA), de la Corte Suprema (70 523 fallos de los últimos 2 años) y del Tribunal Constitucional (966), <strong>228 documentos chilenos</strong> completos y compresión de grafo con <strong>el motor interno (14 050 nodos y 31 017 aristas)</strong>.
+          Infraestructura integral y local-first para que <strong>Antigravity, Claude Code, Cursor, VS Code, Codex y dsh</strong> operen con máxima precisión sobre el ordenamiento jurídico chileno: consulta normativa BCN en tiempo real, causas PJUD y escritos OJV, estudio de títulos inmobiliarios CBR, fiscalizaciones CMF/SII, jurisprudencia ambiental (886 fallos 1TA/2TA/3TA), de la Corte Suprema (70 523 fallos de los últimos 2 años) y del Tribunal Constitucional (966), <strong>228 documentos chilenos</strong> completos y compresión de grafo con <strong>el motor interno (16 000 nodos base y 44 838 aristas + 35 668 nodos de capa del mapa HF)</strong>.
         </p>
 
         <div class="hero-ctas">
@@ -2743,7 +2890,7 @@
           </a>
           <a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" class="btn-hero-secondary">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            GitHub (507 Tests Green · 100%)
+            GitHub (1.181 Tests Green · 100%)
           </a>
         </div>
 
@@ -2796,7 +2943,7 @@
             <div class="suite-layer-card" style="border-color: rgba(74, 222, 128, 0.3); background: rgba(74, 222, 128, 0.06);">
               <div class="suite-layer-head">
                 <span class="suite-layer-title">🧠 Doctrina Canónica & Grafo jurídico</span>
-                <span class="suite-layer-meta">14.050 Nodos · 31.017 Aristas · Hugging Face</span>
+                <span class="suite-layer-meta">16.000 Nodos Base · 44.838 Aristas + 35.668 Nodos Mapa HF</span>
               </div>
               <div class="suite-layer-sub">7.399 obras y artículos científicos (Alessandri, Somarriva, Claro Solar, Peñailillo, Barros) indexados en SQLite FTS5 y comprimidos en grafos ontológicos.</div>
             </div>
@@ -2874,9 +3021,9 @@
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-num" data-target="20990" data-suffix="">20.990</div>
+          <div class="stat-num" data-target="16000" data-suffix="+">16.000+</div>
           <div class="stat-label">
-            <span>Nodos en LegalGraphify</span>
+            <span>Nodos Base Curados (+35.668 en Mapa HF)</span>
             <span class="claim-tag">[51.590 ARISTAS]</span>
           </div>
         </div>
@@ -2895,7 +3042,7 @@
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-num" data-target="507" data-suffix="">507</div>
+          <div class="stat-num" data-target="1181" data-suffix="">1.181</div>
           <div class="stat-label">
             <span>Tests Unitarios & E2E (100% Green)</span>
             <span class="claim-tag" style="border-color: #0284c7; color: #0284c7; background: #e0f2fe;">[VERIFIED]</span>
@@ -2915,7 +3062,7 @@
         <div class="orgs-list">
           <span class="org-badge">📜 BCN Leyes</span>
           <span class="org-badge">🏛️ PJUD Sentencias</span>
-          <span class="org-badge">⚖️ TC Constitucional (38 Sentencias)</span>
+          <span class="org-badge">⚖️ TC Constitucional (966+ Sentencias)</span>
           <span class="org-badge">🌿 1TA, 2TA y 3TA Ambiental (886 Fallos · 78 Publicaciones · Biblioteca 87)</span>
           <span class="org-badge">🏡 CBR Inmobiliario</span>
           <span class="org-badge">⚖️ CGR Dictámenes</span>
@@ -2926,6 +3073,75 @@
           <span class="org-badge">⚡ CNE & Panel de Expertos</span>
           <span class="org-badge">🔍 SMA Fiscalizaciones</span>
         </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section: Commercial Value Hook & Presentations (#propuesta-valor) -->
+  <section id="propuesta-valor" class="hook-section" aria-label="Propuesta de Valor y Recursos Interactivos">
+    <div class="hook-banner">
+      <span class="hook-kicker">Infraestructura Jurídica Soberana para Chile · Cero Caja Negra</span>
+      <h2 class="hook-title">¿Por qué equipos litigantes, fiscalías y clínicas jurídicas eligen Open Legal Chile frente a una IA genérica?</h2>
+      <p class="hook-sub">
+        Un modelo generalista predice texto probable entrenado en derecho anglosajón: inventa incisos derogados, mezcla figuras del <em>Common Law</em> y expone secretos profesionales en servidores ajenos. <strong>Open Legal Chile</strong> ancla cada respuesta al texto literal de BCN, al grafo <code>LegalGraphify</code> y a 16 conectores oficiales del Estado corriendo en tu propia máquina.
+      </p>
+      <div class="hook-cta-row">
+        <a class="hook-cta-card" href="presentacion-ia-y-open-legal-chile.html">
+          <span class="hook-cta-tag">🎬 Keynote Interactiva · 60 Minutos</span>
+          <span class="hook-cta-title">De la IA Básica a Open Legal Chile</span>
+          <span class="hook-cta-desc">Presentación animada (28 láminas, guion de expositor y simuladores): LLM, tokens, RAG, Harness, MCP y casos reales chilenos.</span>
+        </a>
+        <a class="hook-cta-card" href="presentacion-instalacion-y-uso.html">
+          <span class="hook-cta-tag">🛠️ Taller Práctico · 20 Láminas</span>
+          <span class="hook-cta-title">Instalación y Uso Paso a Paso</span>
+          <span class="hook-cta-desc">Comandos copiables en 1 clic para Antigravity, Claude Code, Cursor, VS Code, Gemini CLI y operación 100 % offline con Ollama.</span>
+        </a>
+        <a class="hook-cta-card" href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/GUIA_MAESTRA_FUNCIONAMIENTO.md" target="_blank" rel="noopener">
+          <span class="hook-cta-tag">📖 Manual Técnico Completo · GitHub</span>
+          <span class="hook-cta-title">Guía Maestra de Módulos (v1.15.0)</span>
+          <span class="hook-cta-desc">Radiografía de los 62 módulos Python raíz, 13 módulos del mapa HF, 88 tools MCP, 19 agentes y 27 skills. <span style="color:#4ade80;">Disponible en .md y Word (.docx).</span></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hook-compare-grid">
+      <div class="hook-cmp-card">
+        <h3>❌ IA Comercial Sin Infraestructura Chilena</h3>
+        <ul>
+          <li><strong>Alucinaciones y citas de memoria:</strong> Parafrasea artículos sin verificar vigencia ni reformas recientes (Ley Karin, 40 Horas, Ley N.° 21.719).</li>
+          <li><strong>Sesgo Common Law:</strong> Extrapola términos inexistentes como <em>at-will employment</em> o <em>punitive damages</em>.</li>
+          <li><strong>Sobrecarga de tokens («Lost in the Middle»):</strong> Inyectar manuales completos (~96.536 tokens) dispara costos y omite excepciones legales.</li>
+          <li><strong>Exposición de confidencialidad:</strong> Subir expedientes completos a chats externos tensiona el secreto profesional (<em>Art. 247 CP</em>).</li>
+        </ul>
+      </div>
+      <div class="hook-cmp-card pro">
+        <h3>✅ Estándar Open Legal Chile (Triangulación + Local-First)</h3>
+        <ul>
+          <li><strong>No se cita sin texto literal:</strong> Todo informe consulta primero <code>consulta_maestra</code> y trae el tenor exacto vía <code>cita_texto</code> desde BCN.</li>
+          <li><strong>Reducción del 99,9 % de contexto:</strong> Fichas deterministas de <code>LegalGraphify</code> (mediana 91 tokens) sobre <strong>16.000 nodos base</strong> y <strong>35.668 nodos del mapa HF</strong>.</li>
+          <li><strong>Cuantificación real y red-teaming:</strong> Baremo Estadístico PJUD en UF/CLP (2.137 fallos) y auditoría contradictoria <em>Elephant-Goldfish</em> previa a OJV.</li>
+          <li><strong>Privacidad total:</strong> OCR, grafos, búsqueda vectorial CPU y compilación Word <code>.docx</code> justificada corren localmente (compatible con <strong>Ollama offline</strong>).</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hook-audiences">
+      <div class="hook-aud-card">
+        <h4>⚖️ Estudios Jurídicos y Litigantes</h4>
+        <p>Demandas, recursos de protección (Acta 94-2015), estudios de títulos a 10 años, cálculo de caducidades y entregables Word <code>.docx</code> con pies de página y QR.</p>
+      </div>
+      <div class="hook-aud-card">
+        <h4>🏢 Fiscalías y Gerencias Legales</h4>
+        <p>Vigilancia regulatoria CMF/SII/CGR/DT/TDLC/SMA, auditorías InfoProbidad y despliegues corporativos <em>on-premise</em> con ingesta de know-how propio.</p>
+      </div>
+      <div class="hook-aud-card">
+        <h4>🎓 Facultades de Derecho y Clínicas CAJ</h4>
+        <p>Simulador socrático de examen de grado por cédulas, traducción ciudadana a Lenguaje Claro y evaluación de privilegio de pobreza.</p>
+      </div>
+      <div class="hook-aud-card">
+        <h4>💻 Equipos LegalTech y Dev</h4>
+        <p>Protocolo MCP abierto Apache 2.0 sobre JSON-RPC 2.0, <strong>1.181 tests</strong> verdes y auditoría automatizada 360° en GitHub Actions.</p>
       </div>
     </div>
   </section>
@@ -3335,7 +3551,7 @@ relaciones_directas:
 
           <div style="display: flex; flex-direction: column; gap: 8px; margin-top: auto;">
             <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/data/legal_knowledge_graph.json" target="_blank" rel="noreferrer" class="btn-hero-primary" style="background: #062a22; color: #ffffff; justify-content: center; font-size: 12.5px;">
-              Ver grafo completo (14.050 nodos · 31.017 aristas)
+              Ver grafo completo (16.000 nodos base · 44.838 aristas + 35.668 capa mapa HF)
             </a>
             <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/grafo.md" target="_blank" rel="noreferrer" class="btn-hero-secondary" style="justify-content: center; font-size: 12.5px; border-color: var(--border);">
               Cómo se construye y se consulta (docs)
@@ -4003,6 +4219,10 @@ relaciones_directas:
           <li><a href="#herramientas" class="footer-link">Catálogo 88 MCP Tools</a></li>
           <li><a href="#graphify" class="footer-link">Grafo jurídico</a></li>
           <li><a href="#buscador-corpus" class="footer-link">Baremo Daño Moral PJUD</a></li>
+          <li><a href="#propuesta-valor" class="footer-link">Por qué Elegir Open Legal Chile</a></li>
+          <li><a href="presentacion-ia-y-open-legal-chile.html" class="footer-link">🎬 Keynote Interactiva (60 min)</a></li>
+          <li><a href="presentacion-instalacion-y-uso.html" class="footer-link">🛠️ Taller Práctico: Instalación y Uso</a></li>
+          <li><a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/GUIA_MAESTRA_FUNCIONAMIENTO.md" target="_blank" rel="noreferrer" class="footer-link">📖 Guía Maestra de Módulos (GitHub)</a></li>
           <li><a href="#formacion-consultoria" class="footer-link">Capacitación &amp; Consultoría On-Premise</a></li>
         </ul>
       </div>
