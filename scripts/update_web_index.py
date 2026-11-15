@@ -924,29 +924,29 @@ COMMERCIAL_HOOK_CSS = """
 """
 
 COMMERCIAL_HOOK_HTML = """
-  <!-- Section: Commercial Value Hook & Presentations (#propuesta-valor) -->
-  <section id="propuesta-valor" class="hook-section" aria-label="Propuesta de Valor y Recursos Interactivos">
+  <!-- Section: Commercial Value Hook (#propuesta-valor) -->
+  <section id="propuesta-valor" class="hook-section" aria-label="Propuesta de Valor y Soberanía Jurídica">
     <div class="hook-banner">
       <span class="hook-kicker">Infraestructura Jurídica Soberana para Chile · Cero Caja Negra</span>
-      <h2 class="hook-title">¿Por qué equipos litigantes, fiscalías y clínicas jurídicas eligen Open Legal Chile frente a una IA genérica?</h2>
+      <h2 class="hook-title">¿Por qué estudios litigantes, fiscalías y clínicas jurídicas eligen Open Legal Chile frente a una IA genérica?</h2>
       <p class="hook-sub">
-        Un modelo generalista predice texto probable entrenado en derecho anglosajón: inventa incisos derogados, mezcla figuras del <em>Common Law</em> y expone secretos profesionales en servidores ajenos. <strong>Open Legal Chile</strong> ancla cada respuesta al texto literal de BCN, al grafo <code>LegalGraphify</code> y a 16 conectores oficiales del Estado corriendo en tu propia máquina.
+        Un modelo generalista predice texto probable entrenado en derecho anglosajón: inventa incisos derogados, mezcla figuras del <em>Common Law</em> y expone secretos profesionales en servidores ajenos. <strong>Open Legal Chile</strong> ancla cada respuesta al texto literal de BCN, al grafo <code>LegalGraphify</code> y a 16 conectores oficiales del Estado corriendo en tu propia infraestructura.
       </p>
       <div class="hook-cta-row">
-        <a class="hook-cta-card" href="presentacion-ia-y-open-legal-chile.html">
-          <span class="hook-cta-tag">🎬 Keynote Interactiva · 60 Minutos</span>
-          <span class="hook-cta-title">De la IA Básica a Open Legal Chile</span>
-          <span class="hook-cta-desc">Presentación animada (28 láminas, guion de expositor y simuladores): LLM, tokens, RAG, Harness, MCP y casos reales chilenos.</span>
+        <a class="hook-cta-card" href="#formacion-consultoria">
+          <span class="hook-cta-tag">🎤 Charlas Magistrales &amp; Keynotes</span>
+          <span class="hook-cta-title">De la IA Generativa al Litigio Soberano</span>
+          <span class="hook-cta-desc">Sesiones ejecutivas en vivo (60 min) para socios, directorios, colegios de abogados y facultades: LLM, RAG, MCP, casos reales y ética forense.</span>
         </a>
-        <a class="hook-cta-card" href="presentacion-instalacion-y-uso.html">
-          <span class="hook-cta-tag">🛠️ Taller Práctico · 20 Láminas</span>
-          <span class="hook-cta-title">Instalación y Uso Paso a Paso</span>
-          <span class="hook-cta-desc">Comandos copiables en 1 clic para Antigravity, Claude Code, Cursor, VS Code, Gemini CLI y operación 100 % offline con Ollama.</span>
+        <a class="hook-cta-card" href="#formacion-consultoria">
+          <span class="hook-cta-tag">🛠️ Bootcamps In-House de Adopción</span>
+          <span class="hook-cta-title">Capacitación Práctica Paso a Paso</span>
+          <span class="hook-cta-desc">Talleres cerrados para equipos jurídicos sobre Antigravity, Claude Code, Cursor, VS Code, flujo OJV y operación 100 % offline con Ollama.</span>
         </a>
-        <a class="hook-cta-card" href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/GUIA_MAESTRA_FUNCIONAMIENTO.md" target="_blank" rel="noopener">
-          <span class="hook-cta-tag">📖 Manual Técnico Completo · GitHub</span>
-          <span class="hook-cta-title">Guía Maestra de Módulos (v1.15.0)</span>
-          <span class="hook-cta-desc">Radiografía de los 62 módulos Python raíz, 13 módulos del mapa HF, 88 tools MCP, 19 agentes y 27 skills. <span style="color:#4ade80;">Disponible en .md y Word (.docx).</span></span>
+        <a class="hook-cta-card" href="mailto:pablobenavidesjorquera@gmail.com?subject=Solicitud%20Demo%20y%20Despliegue%20On-Premise%20Open%20Legal%20Chile">
+          <span class="hook-cta-tag">🏢 Despliegue Privado &amp; A Medida</span>
+          <span class="hook-cta-title">Solicitar Demo / Briefing Confidencial</span>
+          <span class="hook-cta-desc">Implementación soberana <em>on-premise</em> con ingesta de doctrina interna del estudio, contratos y conectores privados. <span style="color:#4ade80;">Contacto directo →</span></span>
         </a>
       </div>
     </div>
@@ -1057,27 +1057,39 @@ def main():
     if "/* ─── Commercial Value Hook Section (#propuesta-valor) ─── */" not in content:
         content = content.replace("</style>", COMMERCIAL_HOOK_CSS + "\n  </style>")
 
-    # 5b. Inject Navigation & Footer links for #propuesta-valor and Presentations
-    if 'href="presentacion-ia-y-open-legal-chile.html"' not in content:
+    # 5b. Clean any previous internal presentation/guide links and ensure #propuesta-valor link exists
+    for stale_pattern in [
+        r'<a href="presentacion-[^"]+"[^>]*>.*?</a>\s*',
+        r'<li><a href="presentacion-[^"]+"[^>]*>.*?</a></li>\s*',
+        r'<li><a href="https://github\.com/elpabloultron/open-legal-chile/blob/main/docs/GUIA_MAESTRA_FUNCIONAMIENTO\.md"[^>]*>.*?</a></li>\s*',
+    ]:
+        content = re.sub(stale_pattern, "", content, flags=re.DOTALL)
+
+    if 'href="#propuesta-valor"' not in content:
         content = content.replace(
             '<a href="#suite" class="nav-link">La Suite</a>',
-            '<a href="#propuesta-valor" class="nav-link" style="color:#4ade80; font-weight:600;">Por qué Elegirnos</a>\n        <a href="presentacion-ia-y-open-legal-chile.html" class="nav-link" style="color:#fbbf24; font-weight:600;">🎬 Keynote 60m</a>\n        <a href="presentacion-instalacion-y-uso.html" class="nav-link" style="color:#38bdf8; font-weight:600;">🛠️ Taller Uso</a>\n        <a href="#suite" class="nav-link">La Suite</a>',
+            '<a href="#propuesta-valor" class="nav-link" style="color:#4ade80; font-weight:600;">Por qué Elegirnos</a>\n        <a href="#suite" class="nav-link">La Suite</a>',
         )
         content = content.replace(
             '<a href="#buscador-corpus" class="mobile-nav-item">🔎 Buscador Multi-Corpus &amp; Baremo PJUD</a>',
-            '<a href="#propuesta-valor" class="mobile-nav-item" style="color:#4ade80;">✨ Por qué Elegir Open Legal Chile</a>\n        <a href="presentacion-ia-y-open-legal-chile.html" class="mobile-nav-item" style="color:#fbbf24;">🎬 Keynote 60 min: IA y Open Legal Chile</a>\n        <a href="presentacion-instalacion-y-uso.html" class="mobile-nav-item" style="color:#38bdf8;">🛠️ Taller Práctico: Instalación y Uso</a>\n        <a href="#buscador-corpus" class="mobile-nav-item">🔎 Buscador Multi-Corpus &amp; Baremo PJUD</a>',
+            '<a href="#propuesta-valor" class="mobile-nav-item" style="color:#4ade80;">✨ Por qué Elegir Open Legal Chile</a>\n        <a href="#buscador-corpus" class="mobile-nav-item">🔎 Buscador Multi-Corpus &amp; Baremo PJUD</a>',
         )
         content = content.replace(
             '<li><a href="#formacion-consultoria" class="footer-link">Capacitación &amp; Consultoría On-Premise</a></li>',
-            '<li><a href="#propuesta-valor" class="footer-link">Por qué Elegir Open Legal Chile</a></li>\n          <li><a href="presentacion-ia-y-open-legal-chile.html" class="footer-link">🎬 Keynote Interactiva (60 min)</a></li>\n          <li><a href="presentacion-instalacion-y-uso.html" class="footer-link">🛠️ Taller Práctico: Instalación y Uso</a></li>\n          <li><a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/GUIA_MAESTRA_FUNCIONAMIENTO.md" target="_blank" rel="noreferrer" class="footer-link">📖 Guía Maestra de Módulos (GitHub)</a></li>\n          <li><a href="#formacion-consultoria" class="footer-link">Capacitación &amp; Consultoría On-Premise</a></li>',
+            '<li><a href="#propuesta-valor" class="footer-link">Por qué Elegir Open Legal Chile</a></li>\n          <li><a href="#formacion-consultoria" class="footer-link">Capacitación &amp; Consultoría On-Premise</a></li>',
         )
 
-    # 5c. Inject Commercial Value Hook Section (#propuesta-valor) before #suite
-    if 'id="propuesta-valor"' not in content:
-        content = content.replace(
-            '  <!-- Section: The Complete Suite (5 Operational Pillars) -->\n  <section id="suite" class="step-section">',
-            COMMERCIAL_HOOK_HTML + '\n  <!-- Section: The Complete Suite (5 Operational Pillars) -->\n  <section id="suite" class="step-section">',
-        )
+    # 5c. Replace or inject Commercial Value Hook Section (#propuesta-valor) before #suite
+    content = re.sub(
+        r'[ \t]*<!-- Section: Commercial Value Hook[^>]*-->\s*<section id="propuesta-valor".*?</section>\s*',
+        "\n  ",
+        content,
+        flags=re.DOTALL,
+    )
+    content = content.replace(
+        '<!-- Section: The Complete Suite (5 Operational Pillars) -->\n  <section id="suite" class="step-section">',
+        COMMERCIAL_HOOK_HTML.strip() + '\n\n  <!-- Section: The Complete Suite (5 Operational Pillars) -->\n  <section id="suite" class="step-section">',
+    )
 
     # 5d. Sync Verified Architecture & Dataset Metrics
     metric_replacements = [
