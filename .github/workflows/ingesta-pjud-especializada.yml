@@ -81,5 +81,25 @@ jobs:
                       repo_type="dataset",
                       allow_patterns=["*.md"],
                   )
-          print("[✓] Corpus especializado PJUD y Baremo publicado en Hugging Face.")
+          for src, dst in (
+              ("data/legal_knowledge_graph.json", "data/legal_knowledge_graph.json"),
+              ("graphify-out/wiki/index.md", "graphify/wiki/index.md"),
+              (
+                  "graphify-out/wiki/Jurisprudencia_Especializada_PJUD_y_Baremo_Dano_Moral.md",
+                  "graphify/wiki/Jurisprudencia_Especializada_PJUD_y_Baremo_Dano_Moral.md",
+              ),
+              (
+                  "graphify-out/wiki/Jurisprudencia_y_Doctrina_Ambiental_Chilena.md",
+                  "graphify/wiki/Jurisprudencia_y_Doctrina_Ambiental_Chilena.md",
+              ),
+          ):
+              p = base / src
+              if p.is_file():
+                  api.upload_file(
+                      path_or_fileobj=str(p),
+                      path_in_repo=dst,
+                      repo_id=repo_id,
+                      repo_type="dataset",
+                  )
+          print("[✓] Corpus especializado PJUD, Baremo y Grafo LegalGraphify publicados en Hugging Face.")
           EOF

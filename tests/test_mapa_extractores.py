@@ -209,9 +209,49 @@ def test_solo_inventario(ruta, esperado):
     ("data/catalogo/x.json", "entradas/datos"),
     ("graphify/x.json", "entradas/graphify"),
     ("llms.txt", "entradas/raiz"),
+    ("jurisprudencia_baremo/baremo_dano_moral_muerte_abuelo_a.md", "entradas/pjud-baremo"),
+    ("jurisprudencia_lineas_cs/administrativo/linea.md", "entradas/pjud-lineas"),
+    ("jurisprudencia_salud_cs/2024/12345-2024.md", "entradas/pjud-salud"),
+    ("jurisprudencia_extranjeria_cs/2024/54321-2024.md", "entradas/pjud-extranjeria"),
+    ("jurisprudencia_ddhh/98765-2023.md", "entradas/pjud-ddhh"),
+    ("jurisprudencia_genero/sentencia_genero_1.md", "entradas/pjud-genero"),
 ])
 def test_particion_de(ruta, particion):
     assert particiones.particion_de(ruta) == particion
+
+
+def test_pjud_especializada_y_baremo_extraccion():
+    """Verifica la extracción de las 6 colecciones especializadas PJUD y Baremo Daño Moral."""
+    md_baremo = (
+        "# Baremo Estadístico de Daño Moral por Muerte — Vínculo: Abuelo(a)\n\n"
+        "- **Fuente Oficial:** Poder Judicial de Chile / Universidad de Concepción\n"
+        "- **Normas asociadas:** `[BCN - Código Civil, Art. 2314]`, `[BCN - Código Civil, Art. 2329]`\n\n"
+        "Estadísticas sobre 113 casos analizados en tribunales chilenos."
+    )
+    fila_b = _extraer("jurisprudencia_baremo/baremo_dano_moral_muerte_abuelo_a.md", md_baremo)
+    assert fila_b["id"] == "baremo:baremo_dano_moral_muerte_abuelo_a"
+    assert fila_b["col"] == "baremo"
+    normas_b = dict(fila_b["normas"])
+    assert "norma:cc:2314" in normas_b and "norma:cc:2329" in normas_b
+
+    md_salud = (
+        "# Sentencia Corte Suprema — Rol N° 24501-2024\n\n"
+        "- **Rol:** 24501-2024\n"
+        "- **Fecha:** 2024-08-14\n"
+        "- **Sala:** Tercera Sala\n"
+        "- **Integración:** Sergio Muñoz Gajardo, Adelita Ravanales Arriagada\n\n"
+        "---\n\n"
+        "VISTOS: Se acoge el recurso de protección conforme al artículo 19 N° 1 y 9 de la Constitución Política "
+        "de la República por cobertura de medicamento de alto costo. " * 5
+    )
+    fila_s = _extraer("jurisprudencia_salud_cs/2024/24501-2024.md", md_salud)
+    assert fila_s["id"] == "salud:2024/24501-2024"
+    assert fila_s["col"] == "salud"
+    assert fila_s["rol"] == "24501-2024"
+    assert fila_s["fecha"] == "2024-08-14"
+    assert fila_s["sala"] == "sala:cs-3"
+    assert "ministro:sergio-munoz-gajardo" in fila_s["ministros"]
+
 
 
 def test_extraccion_determinista_y_sin_claves_vacias():

@@ -344,6 +344,56 @@ def fila_archivo(col: str, prefijo: str, ruta: str, blob: str, n_bytes: int) -> 
     return _base(col, ruta, blob, n_bytes, prefijo + ":" + re.sub(r"\s+", "_", ruta), nombre)
 
 
+def fila_pjud_especializada(col: str, prefijo: str, raiz: str, ruta: str, datos: bytes, blob: str) -> Dict[str, Any]:
+    """Portales especializados PJUD (Líneas CS, Salud, Extranjería, DD.HH., Género y Baremo UF/CLP)."""
+    texto = _decodificar(datos)
+    meta, cuerpo = leer_front_matter(texto)
+    v = leer_vinetas(texto)
+    fila = fila_simple(col, prefijo, raiz, ruta, datos, blob, con_citas=True)
+    rol = str(meta.get("rol") or v.get("rol") or "").strip()
+    fecha = fecha_iso(str(meta.get("fecha") or v.get("fecha") or ""))
+    sala_raw = _txt(meta.get("sala") or v.get("sala") or "")
+    if not sala_raw and "(" in v.get("tribunal", "") and ")" in v.get("tribunal", ""):
+        sala_raw = v["tribunal"].split("(", 1)[1].rsplit(")", 1)[0].strip()
+    ministros_raw = str(
+        meta.get("ministros")
+        or v.get("ministros")
+        or v.get("integración")
+        or v.get("integracion")
+        or ""
+    )
+    materia = _txt(
+        meta.get("parentesco")
+        or v.get("materia / descriptores")
+        or v.get("materia / temática")
+        or v.get("materia")
+        or ""
+    )
+    url_of = str(
+        meta.get("url_oficial")
+        or meta.get("url_fallo")
+        or v.get("enlace oficial pjud")
+        or v.get("sentencia pdf")
+        or fila.get("url")
+        or ""
+    ).strip()
+    fila.update({
+        "rol": rol,
+        "fecha": fecha,
+        "sala": ids.sala_id(sala_raw) if sala_raw else None,
+        "sala_txt": sala_raw,
+        "ministros": ids.ministros(ministros_raw) if ministros_raw else [],
+        "ministros_txt": [
+            " ".join(m.split())
+            for m in re.split(r"\s*,\s*", ministros_raw)
+            if m.strip() and m.strip() not in ("—", "-")
+        ],
+        "materia": materia,
+        "url": url_of,
+    })
+    return _limpiar_vacios(fila)
+
+
 def extraer(ruta: str, datos: bytes, blob: str) -> Optional[Dict[str, Any]]:
     """Despacho por colección. La CS se arma desde su índice (ver `fila_cs`), no desde aquí,
     salvo las fichas que falten en el índice."""
@@ -366,6 +416,18 @@ def extraer(ruta: str, datos: bytes, blob: str) -> Optional[Dict[str, Any]]:
         return fila_simple("bib", "bib", "biblioteca_ambiental/", ruta, datos, blob)
     if raiz == "publicaciones_ambientales":
         return fila_simple("pub", "pub", "publicaciones_ambientales/", ruta, datos, blob)
+    if raiz == "jurisprudencia_baremo":
+        return fila_pjud_especializada("baremo", "baremo", "jurisprudencia_baremo/", ruta, datos, blob)
+    if raiz in ("jurisprudencia_lineas_cs", "jurisprudencia_lineas"):
+        return fila_pjud_especializada("lineas", "lineas", f"{raiz}/", ruta, datos, blob)
+    if raiz in ("jurisprudencia_salud_cs", "jurisprudencia_salud"):
+        return fila_pjud_especializada("salud", "salud", f"{raiz}/", ruta, datos, blob)
+    if raiz in ("jurisprudencia_extranjeria_cs", "jurisprudencia_extranjeria"):
+        return fila_pjud_especializada("extranjeria", "extranjeria", f"{raiz}/", ruta, datos, blob)
+    if raiz == "jurisprudencia_ddhh":
+        return fila_pjud_especializada("ddhh", "ddhh", "jurisprudencia_ddhh/", ruta, datos, blob)
+    if raiz == "jurisprudencia_genero":
+        return fila_pjud_especializada("genero", "genero", "jurisprudencia_genero/", ruta, datos, blob)
     return None
 
 

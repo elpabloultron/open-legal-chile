@@ -115,6 +115,18 @@ def particion_de(ruta: str) -> str:
         return "entradas/amb-biblioteca"
     if raiz == "publicaciones_ambientales":
         return "entradas/amb-publicaciones"
+    if raiz == "jurisprudencia_baremo":
+        return "entradas/pjud-baremo"
+    if raiz in ("jurisprudencia_lineas_cs", "jurisprudencia_lineas"):
+        return "entradas/pjud-lineas"
+    if raiz in ("jurisprudencia_salud_cs", "jurisprudencia_salud"):
+        return "entradas/pjud-salud"
+    if raiz in ("jurisprudencia_extranjeria_cs", "jurisprudencia_extranjeria"):
+        return "entradas/pjud-extranjeria"
+    if raiz == "jurisprudencia_ddhh":
+        return "entradas/pjud-ddhh"
+    if raiz == "jurisprudencia_genero":
+        return "entradas/pjud-genero"
     if raiz == "data":
         return "entradas/datos"
     if raiz == "graphify":

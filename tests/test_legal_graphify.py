@@ -120,3 +120,38 @@ def test_consulta_nodo_inexistente(engine):
     res = engine.consultar_subgrafo("termino_completamente_inexistente_xyz_123")
     assert res["encontrado"] is False
     assert "sugerencias" in res
+
+
+def test_consulta_subgrafo_baremo_y_pjud_especializado(engine):
+    """Verifica la consulta e interconexión de nodos del Baremo Daño Moral y portales PJUD especializados."""
+    res_baremo = engine.consultar_subgrafo("baremo dano moral abuelo")
+    assert res_baremo["encontrado"] is True
+    assert "Baremo" in res_baremo["label"] or "Abuelo" in res_baremo["label"]
+
+    res_confianza = engine.consultar_subgrafo("Principio de Confianza Legítima en Contratas Públicas")
+    assert res_confianza["encontrado"] is True
+    assert res_confianza["subgrafo_info"]["fallos_conectados"] >= 1
+
+    res_ddhh = engine.consultar_subgrafo("Imprescriptibilidad de Crímenes de Lesa Humanidad")
+    assert res_ddhh["encontrado"] is True
+    assert res_ddhh["subgrafo_info"]["fallos_conectados"] >= 1
+
+
+def test_analizar_tendencia_y_baremo_en_explicar_institucion(engine):
+    """Verifica que explicar_institucion integre cuantificación Baremo UF/CLP y tendencia jurisprudencial temporal."""
+    exp = engine.explicar_institucion("Baremo Estadístico de Daño Moral por Muerte y Lesiones")
+    assert exp["encontrado"] is True
+    assert "tendencia_jurisprudencial" in exp
+    tend = exp["tendencia_jurisprudencial"]
+    assert tend["total_tramos_baremo"] >= 10
+    assert len(tend["tramos_baremo_uf_clp"]) >= 5
+    parentescos = {t["parentesco"] for t in tend["tramos_baremo_uf_clp"]}
+    assert any("Hijo" in p or "Cónyuge" in p or "Abuelo" in p for p in parentescos)
+
+    exp_isapres = engine.explicar_institucion("Judicialización de Alzas de Planes de Isapres, GES y Cobertura de Medicamentos de Alto Costo")
+    assert exp_isapres["encontrado"] is True
+    tend_isapres = exp_isapres["tendencia_jurisprudencial"]
+    assert tend_isapres["total_fallos_analizados"] >= 10
+    assert "indice_vigencia_temporal" in tend_isapres
+    assert "distribucion_anual" in tend_isapres
+
