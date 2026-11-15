@@ -145,8 +145,7 @@ doctrina/revistas/**/*.md
 docs/charla/
 charla/
 *presentacion*
-!docs/presentacion-ia-y-open-legal-chile.html
-!docs/presentacion-instalacion-y-uso.html
+*GUIA_MAESTRA_FUNCIONAMIENTO*
 scripts/build_presentacion*
 *.pptx
 *.key

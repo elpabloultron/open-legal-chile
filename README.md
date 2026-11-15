@@ -23,11 +23,6 @@
 
 ---
 
-> 📚 **Documentación Magistral y Presentaciones Interactivas:**
-> - 📖 [**Guía Maestra de Arquitectura y Funcionamiento Completo (`v1.15.0`)**](docs/GUIA_MAESTRA_FUNCIONAMIENTO.md) — Explicación exhaustiva de los 62 módulos raíz, 7 sub-despachadores `servidor/`, 13 módulos `mapa_corpus/`, 88 herramientas MCP, 19 agentes, 27 skills y 8 flujos CI/CD ([Descargar versión editable Word `.docx` con timbre y QR](docs/GUIA_MAESTRA_FUNCIONAMIENTO_OpenLegalChile.docx)).
-> - 🎬 [**Keynote Interactiva (60 min): De la IA Generativa a Open Legal Chile**](https://elpabloultron.github.io/open-legal-chile/presentacion-ia-y-open-legal-chile.html) — Presentación animada pedagógica y comercial (LLM, tokens, RAG, Harness, MCP, `LegalOpenJev`, `LegalGraphify` y estudio de casos chilenos).
-> - 🛠️ [**Taller Práctico Animado: Instalación y Uso Paso a Paso**](https://elpabloultron.github.io/open-legal-chile/presentacion-instalacion-y-uso.html) — Comandos con copia en un clic para Antigravity, Claude Code, Cursor, VS Code, Gemini CLI y Ollama 100 % offline.
-
 ## 📑 Tabla de Contenidos
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
