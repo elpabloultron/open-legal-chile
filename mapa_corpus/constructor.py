@@ -368,7 +368,9 @@ def leer_mapa(dir_mapa: str) -> Dict[str, Any]:
 
 
 # ── Validación ────────────────────────────────────────────────────────────────────────────
-_RE_ID = re.compile(r"^(?:cs|tc|ta|doc|guia|bib|pub|dato|graphify|arch|csidx|taidx):\S+$")
+_RE_ID = re.compile(
+    r"^(?:cs|tc|ta|doc|guia|bib|pub|baremo|lineas|salud|extranjeria|ddhh|genero|dato|graphify|arch|csidx|taidx):\S+$"
+)
 
 
 def _sha_contenido(datos_gz: bytes) -> str:

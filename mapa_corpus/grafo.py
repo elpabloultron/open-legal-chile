@@ -82,14 +82,18 @@ def construir_capa(filas: List[Dict[str, Any]], entidades: Dict[str, List[Dict[s
                 g.nodo(padre, "norma", etiqueta_norma(padre))
             g.arista(hijo, padre, "parte_de")
 
+    _TIPOS_NODO_COL = {
+        "doc": "documento", "tc": "sentencia_tc", "ta": "sentencia_ta",
+        "guia": "guia", "bib": "estudio", "pub": "publicacion",
+        "baremo": "baremo", "lineas": "sentencia_cs", "salud": "sentencia_cs",
+        "extranjeria": "sentencia_cs", "ddhh": "sentencia_cs", "genero": "sentencia_cs",
+    }
     citados_cs: Set[str] = set()
     for f in filas:
         col = f.get("col")
-        if col in ("doc", "tc", "ta", "guia", "bib", "pub"):
+        if col in _TIPOS_NODO_COL:
             attrs = {k: f[k] for k in ("col", "fecha", "anio", "ruta") if k in f}
-            g.nodo(f["id"], {"doc": "documento", "tc": "sentencia_tc", "ta": "sentencia_ta",
-                             "guia": "guia", "bib": "estudio", "pub": "publicacion"}[col],
-                   f.get("titulo") or f["id"], **attrs)
+            g.nodo(f["id"], _TIPOS_NODO_COL[col], f.get("titulo") or f["id"], **attrs)
             for norma, n in f.get("normas", []):
                 if norma in g.nodos:
                     g.arista(f["id"], norma, "cita_norma", n)
@@ -120,6 +124,12 @@ def construir_capa(filas: List[Dict[str, Any]], entidades: Dict[str, List[Dict[s
             for acu in f.get("acumuladas", []):
                 if acu in entradas:
                     g.arista(f["id"], acu, "acumula")
+        elif col in ("baremo", "lineas", "salud", "extranjeria", "ddhh", "genero"):
+            sala_id = f.get("sala")
+            g.arista(f["id"], sala_id if sala_id and sala_id in g.nodos else "organo:cs", "resuelto_por")
+            for m in f.get("ministros", []):
+                if m in g.nodos:
+                    g.arista(f["id"], m, "integrado_por")
 
     # Corte Suprema: agregados ponderados (no un nodo por fallo).
     for f in filas:

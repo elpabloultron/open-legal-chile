@@ -9,6 +9,8 @@
 ## Communities
 (sorted by size, largest first)
 
+- [Jurisprudencia Especializada PJUD y Baremo de Daño Moral](Jurisprudencia_Especializada_PJUD_y_Baremo_Dano_Moral.md) — 1553 nodes
+- [Jurisprudencia y Doctrina Ambiental Chilena](Jurisprudencia_y_Doctrina_Ambiental_Chilena.md) — 1409 nodes
 - [doctrina48981](doctrina48981.md) — 692 nodes
 - [Introducción a los Derechos Humanos](Introducción_a_los_Derechos_Humanos.md) — 370 nodes
 - [Derecho Procesal — Apuntes de la profesora Cerra](Derecho_Procesal_—_Apuntes_de_la_profesora_Cerra.md) — 335 nodes

@@ -68,10 +68,20 @@ _TIPOS_FICHA: Dict[str, Dict[str, Any]] = {
     "sentencia_tc": {"clave": "sentencia_tc", "titulo": "Sentencia del Tribunal Constitucional", "fallos_cs": False},
     "sentencia_ta": {"clave": "sentencia_ta", "titulo": "Sentencia de un Tribunal Ambiental", "fallos_cs": False},
     "sentencia_cs": {"clave": "sentencia_cs", "titulo": "Fallo de la Corte Suprema", "fallos_cs": False},
+    "baremo": {"clave": "baremo", "titulo": "Baremo estadístico de daño moral (PJUD)", "fallos_cs": False},
+    "lineas": {"clave": "linea_jurisprudencial", "titulo": "Línea jurisprudencial de la Corte Suprema", "fallos_cs": False},
+    "salud": {"clave": "sentencia_salud_cs", "titulo": "Sentencia de Salud e Isapres (Corte Suprema)", "fallos_cs": False},
+    "extranjeria": {"clave": "sentencia_extranjeria_cs", "titulo": "Sentencia de Migración y Extranjería (Corte Suprema)", "fallos_cs": False},
+    "ddhh": {"clave": "sentencia_ddhh_cs", "titulo": "Sentencia de Derechos Humanos (Corte Suprema)", "fallos_cs": False},
+    "genero": {"clave": "sentencia_genero_pjud", "titulo": "Sentencia con Perspectiva de Género (PJUD)", "fallos_cs": False},
 }
 # Colección de una entrada del mapa → tipo de nodo, para materializar una entrada que no es nodo.
-_TIPO_DE_COLECCION = {"cs": "sentencia_cs", "tc": "sentencia_tc", "ta": "sentencia_ta", "doc": "documento",
-                      "guia": "guia", "bib": "estudio", "pub": "publicacion"}
+_TIPO_DE_COLECCION = {
+    "cs": "sentencia_cs", "tc": "sentencia_tc", "ta": "sentencia_ta", "doc": "documento",
+    "guia": "guia", "bib": "estudio", "pub": "publicacion",
+    "baremo": "baremo", "lineas": "lineas", "salud": "salud",
+    "extranjeria": "extranjeria", "ddhh": "ddhh", "genero": "genero",
+}
 # Campo de una entrada → relación con que se materializa la arista hacia la entidad citada.
 _RELACION_DE_CAMPO = {
     "ministros": "integrado_por", "sala": "resuelto_por", "tribunal": "resuelto_por",
@@ -127,7 +137,8 @@ _CLAVES_RELACION: Dict[Tuple[str, str], str] = {
 _ORDEN_CLAVES = {clave: i for i, clave in enumerate(dict.fromkeys(_CLAVES_RELACION.values()))}
 _TIPOS_NORMA = ("norma", "articulo_legal", "cuerpo_legal")
 _TIPOS_SENTENCIA = ("sentencia_cs", "sentencia_tc", "sentencia_ta", "jurisprudencia", "jurisprudencia_tc",
-                    "jurisprudencia_cs", "sentencia_judicial")
+                    "jurisprudencia_cs", "sentencia_judicial", "baremo", "lineas", "salud",
+                    "extranjeria", "ddhh", "genero")
 # Títulos que se quitan antes de buscar a una persona por su nombre («ministra María Gajardo Harboe»).
 _RE_TRATAMIENTO = re.compile(r"^(?:(?:el|la)\s+)?(?:ministr[oa]|magistrad[oa]|juez[a]?|sr\.?|sra\.?|don|dona)\s+")
 # Sentinela de _buscar_en_mapa: la consulta es un rol que el mapa no tiene (no seguir buscando).
@@ -394,6 +405,13 @@ class LegalGraphifyEngine:
             for w in re.findall(r"\b\w+\b", lbl_norm):
                 if len(w) > 3:
                     self._word_to_nodes[w].add(nid)
+        if d.get("node_type") == "baremo" and d.get("parentesco"):
+            par_raw = _normalize_str(str(d.get("parentesco", "")))
+            par_clean = re.sub(r"\([^)]*\)", "", par_raw).strip()
+            for variante in {par_raw, par_clean}:
+                if variante:
+                    self._label_index[f"baremo {variante}"] = nid
+                    self._label_index[f"baremo dano moral {variante}"] = nid
         def_norm = _normalize_str(d.get("definicion", ""))
         if def_norm:
             for w in re.findall(r"\b\w+\b", def_norm):
@@ -1678,7 +1696,7 @@ class LegalGraphifyEngine:
 
             if n_type == "articulo_legal":
                 normas.append(n_label)
-            elif n_type == "jurisprudencia":
+            elif n_type in ("jurisprudencia", "baremo"):
                 jurisprudencia.append(n_label)
             elif n_type == "via_procesal":
                 vias.append(n_label)
@@ -1976,6 +1994,90 @@ class LegalGraphifyEngine:
             "caminos": caminos_formateados
         }
 
+    def analizar_tendencia_y_baremo(self, nodo_central: str) -> Dict[str, Any]:
+        """
+        Analiza la distribución temporal de jurisprudencia conectada (por año y por sala/tribunal),
+        calcula un puntaje de vigencia con decaimiento temporal exponencial, y extrae los tramos
+        del Baremo Estadístico de Daño Moral en UF y CLP vinculados en el vecindario de radio 2.
+        """
+        if not nodo_central or not self.graph.has_node(nodo_central):
+            return {
+                "total_fallos_analizados": 0,
+                "total_tramos_baremo": 0,
+                "distribucion_anual": {},
+                "distribucion_salas_tribunales": {},
+                "indice_vigencia_temporal": 0.0,
+                "tendencia": "SIN_DATOS",
+                "tramos_baremo_uf_clp": [],
+            }
+
+        import math
+
+        vecindario = set(self._ego(self.graph, nodo_central, 2))
+        por_anio: Counter = Counter()
+        por_sala: Counter = Counter()
+        suma_decaimiento = 0.0
+        total_fallos = 0
+        tramos_baremo: List[Dict[str, Any]] = []
+
+        for nid in sorted(vecindario):
+            nd = self.graph.nodes[nid]
+            ntype = str(nd.get("node_type") or "")
+            if ntype == "baremo":
+                tramos_baremo.append({
+                    "id": nid,
+                    "parentesco": nd.get("parentesco", nd.get("label", nid)),
+                    "total_casos": int(nd.get("total_casos") or 0),
+                    "mediana_uf_pi": float(nd.get("mediana_uf_pi") or 0.0),
+                    "p25_uf_pi": float(nd.get("p25_uf_pi") or 0.0),
+                    "p75_uf_pi": float(nd.get("p75_uf_pi") or 0.0),
+                    "mediana_uf_ca": float(nd.get("mediana_uf_ca") or 0.0),
+                    "mediana_uf_cs": float(nd.get("mediana_uf_cs") or 0.0),
+                    "mediana_clp_pi": float(nd.get("mediana_clp_pi") or 0.0),
+                    "cita": nd.get("cita", ""),
+                })
+                continue
+
+            if ntype in _TIPOS_SENTENCIA:
+                total_fallos += 1
+                anio_str = str(nd.get("anio") or "")
+                if not anio_str:
+                    fecha_s = str(nd.get("fecha") or "")
+                    if len(fecha_s) >= 4 and fecha_s[:4].isdigit():
+                        anio_str = fecha_s[:4]
+                    else:
+                        m_rol = re.search(r"-(\d{4})\b", str(nd.get("rol") or nd.get("label") or ""))
+                        if m_rol:
+                            anio_str = m_rol.group(1)
+                if anio_str and anio_str.isdigit():
+                    por_anio[anio_str] += 1
+                    edad = max(0, 2026 - int(anio_str))
+                    suma_decaimiento += math.exp(-0.25 * edad)
+                sala_o_trib = str(nd.get("sala") or nd.get("tribunal") or nd.get("subtipo") or "Corte Suprema").strip()
+                if sala_o_trib:
+                    por_sala[sala_o_trib] += 1
+
+        tramos_baremo.sort(key=lambda b: (-int(b["total_casos"]), -float(b["mediana_uf_pi"]), str(b["parentesco"])))
+        indice_vigencia = round(suma_decaimiento / max(1, total_fallos), 3) if total_fallos > 0 else 0.0
+        if total_fallos == 0:
+            tendencia = "SIN_JURISPRUDENCIA_DIRECTA"
+        elif indice_vigencia >= 0.65:
+            tendencia = "DOCTRINA_RECIENTE_ACTIVA"
+        elif indice_vigencia >= 0.35:
+            tendencia = "CRITERIO_CONSOLIDADO"
+        else:
+            tendencia = "DOCTRINA_HISTORICA"
+
+        return {
+            "total_fallos_analizados": total_fallos,
+            "total_tramos_baremo": len(tramos_baremo),
+            "distribucion_anual": dict(sorted(por_anio.items(), key=lambda kv: kv[0], reverse=True)),
+            "distribucion_salas_tribunales": dict(por_sala.most_common(8)),
+            "indice_vigencia_temporal": indice_vigencia,
+            "tendencia": tendencia,
+            "tramos_baremo_uf_clp": tramos_baremo,
+        }
+
     def explicar_institucion(self, query: str) -> Dict[str, Any]:
         """
         Genera un desglose explicativo 360° de una institución o concepto jurídico:
@@ -1997,26 +2099,34 @@ class LegalGraphifyEngine:
             }
 
         data = self.graph.nodes[nodo]
-        out_edges = [(v, self.graph[nodo][v].get("relation", "")) for v in self.graph.successors(nodo)]
+        all_neighbors = list(dict.fromkeys(itertools.chain(self.graph.successors(nodo), self.graph.predecessors(nodo))))
 
-        normas = [self.graph.nodes[v].get("label", v) for v, r in out_edges if self.graph.nodes[v].get("node_type") == "articulo_legal"]
-        fallos = [self.graph.nodes[v].get("label", v) for v, r in out_edges if self.graph.nodes[v].get("node_type") == "jurisprudencia"]
-        vias = [self.graph.nodes[v].get("label", v) for v, r in out_edges if self.graph.nodes[v].get("node_type") == "via_procesal"]
-        conceptos_relacionados = [self.graph.nodes[v].get("label", v) for v, r in out_edges if self.graph.nodes[v].get("node_type") == "institucion"]
+        normas = [self.graph.nodes[v].get("label", v) for v in all_neighbors if self.graph.nodes[v].get("node_type") in ("articulo_legal", "cuerpo_legal")]
+        fallos = [self.graph.nodes[v].get("label", v) for v in all_neighbors if self.graph.nodes[v].get("node_type") in ("jurisprudencia", "baremo", "jurisprudencia_cs", "jurisprudencia_tc")]
+        vias = [self.graph.nodes[v].get("label", v) for v in all_neighbors if self.graph.nodes[v].get("node_type") == "via_procesal"]
+        conceptos_relacionados = [self.graph.nodes[v].get("label", v) for v in all_neighbors if self.graph.nodes[v].get("node_type") == "institucion"]
 
         grado_in = self.graph.in_degree(nodo)
         grado_out = self.graph.out_degree(nodo)
+        tendencia_info = self.analizar_tendencia_y_baremo(nodo)
 
         explicacion_texto = (
             f"# Explicación Dogmática 360°: {data.get('label')}\n\n"
             f"**Área:** {data.get('area', 'General')} | **Tratadista:** {data.get('autor', 'Doctrina')} | **Obra:** {data.get('obra', 'Tratado')}\n\n"
             f"### Definición Canónica\n{data.get('definicion', 'No registrada')}\n\n"
             f"### Operativa Procesal\n{data.get('operativa_procesal', 'Vía ordinaria declarativa')}\n\n"
-            f"### Sustento Positivo (Normas BCN)\n" + ("\n".join([f"- {n}" for n in normas]) if normas else "- Sin normas directas vinculadas") + "\n\n"
-            "### Jurisprudencia Rectora (Corte Suprema)\n" + ("\n".join([f"- {f}" for f in fallos]) if fallos else "- Criterio general aplicado por tribunales ordinarios") + "\n\n"
+            f"### Sustento Positivo (Normas BCN)\n" + ("\n".join([f"- {n}" for n in normas[:12]]) if normas else "- Sin normas directas vinculadas") + "\n\n"
+            "### Jurisprudencia Rectora (Corte Suprema / PJUD)\n" + ("\n".join([f"- {f}" for f in fallos[:12]]) if fallos else "- Criterio general aplicado por tribunales ordinarios") + "\n\n"
             "### Vías de Acción Judicial\n" + ("\n".join([f"- {v}" for v in vias]) if vias else "- Acción civil ordinaria") + "\n\n"
-            "### Nexos Conceptuales\n" + ("\n".join([f"- {c}" for c in conceptos_relacionados]) if conceptos_relacionados else "- Nodo conceptual terminal")
+            "### Nexos Conceptuales\n" + ("\n".join([f"- {c}" for c in conceptos_relacionados[:12]]) if conceptos_relacionados else "- Nodo conceptual terminal")
         )
+        if tendencia_info["tramos_baremo_uf_clp"]:
+            lineas_b = [
+                f"- **{b['parentesco']}** ({b['total_casos']} casos): Mediana 1.ª Instancia {b['mediana_uf_pi']} UF "
+                f"(P25–P75: {b['p25_uf_pi']}–{b['p75_uf_pi']} UF) | Mediana C.A. {b['mediana_uf_ca']} UF | Mediana C.S. {b['mediana_uf_cs']} UF"
+                for b in tendencia_info["tramos_baremo_uf_clp"][:8]
+            ]
+            explicacion_texto += "\n\n### Cuantificación Estadística (Baremo Daño Moral PJUD UF/CLP)\n" + "\n".join(lineas_b)
 
         return {
             "encontrado": True,
@@ -2031,6 +2141,7 @@ class LegalGraphifyEngine:
                 "vias_procesales": len(vias),
                 "conceptos_vecinos": len(conceptos_relacionados)
             },
+            "tendencia_jurisprudencial": tendencia_info,
             "explicacion_markdown": explicacion_texto
         }
 
@@ -2090,6 +2201,7 @@ class LegalGraphifyEngine:
 
         total_afectados = len(afectados_directos) + len(afectados_cascada)
         nivel_impacto = "ALTO" if total_afectados >= 8 else ("MEDIO" if total_afectados >= 3 else "BAJO")
+        tendencia_info = self.analizar_tendencia_y_baremo(nodo)
 
         return {
             "encontrado": True,
@@ -2101,6 +2213,7 @@ class LegalGraphifyEngine:
                 "afectados_cascada_grado_2": len(cascada_info),
                 "total_entidades_impactadas": total_afectados
             },
+            "tendencia_jurisprudencial": tendencia_info,
             "impacto_directo": directos_info[:15],
             "impacto_cascada": cascada_info[:15],
             "dictamen_sintetico": (
@@ -2670,13 +2783,25 @@ class LegalGraphifyEngine:
             cache = self._cache_no_dirigido = (clave, undirected)
         return cache[1]
 
-    def _ordenar_vecinos(self, g: nx.DiGraph, n: str, vecinos: List[str]) -> List[str]:
-        """Vecinos de `n` de más a menos peso de la arista que los une y, a igual peso, del más
-        reciente al más antiguo (los sin fecha al final); el ID desempata."""
-        def clave(v: str) -> Tuple[float, Tuple[int, Tuple[int, ...]], str]:
+    def _ordenar_vecinos(self, g: nx.DiGraph, n: str, vecinos: List[str], query: str = "") -> List[str]:
+        """Vecinos de `n` de más a menos peso de la arista que los une, afinidad léxica opcional
+        con los términos de `query` y, a igual peso, del más reciente al más antiguo; el ID desempata."""
+        palabras_q = {w for w in _normalize_str(query).split() if len(w) > 3} if query else set()
+
+        def clave(v: str) -> Tuple[float, int, Tuple[int, Tuple[int, ...]], str]:
             datos = g.succ[n].get(v) or g.pred[n].get(v) or {}
             nodo = g.nodes[v]
-            return (-float(datos.get("weight") or 1), _fecha_desc(str(nodo.get("fecha") or nodo.get("anio") or "")), str(v))
+            afinidad = 0
+            if palabras_q:
+                txt_v = _normalize_str(f"{nodo.get('label', '')} {nodo.get('materia', '')}")
+                afinidad = sum(1 for w in palabras_q if w in txt_v)
+            return (
+                -float(datos.get("weight") or 1),
+                -afinidad,
+                _fecha_desc(str(nodo.get("fecha") or nodo.get("anio") or "")),
+                str(v),
+            )
+
         return sorted(vecinos, key=clave)
 
     def _vecinos_acotados(self, g: nx.DiGraph, n: str, acotar_curados: bool = False) -> List[str]:
