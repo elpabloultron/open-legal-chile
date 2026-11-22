@@ -139,6 +139,42 @@ _TIPOS_NORMA = ("norma", "articulo_legal", "cuerpo_legal")
 _TIPOS_SENTENCIA = ("sentencia_cs", "sentencia_tc", "sentencia_ta", "jurisprudencia", "jurisprudencia_tc",
                     "jurisprudencia_cs", "sentencia_judicial", "baremo", "lineas", "salud",
                     "extranjeria", "ddhh", "genero")
+# Grafo Multiplex: separación de aristas bibliográficas/editoriales vs. aristas jurídicas sustantivas.
+# Evita que súper-hubs editoriales (p. ej. «Academia Judicial de Chile» o «Revista Chilena de Derecho»)
+# secuestren el Personalized PageRank o generen caminos espurios entre instituciones no relacionadas.
+RELACIONES_BIBLIOGRAFICAS = frozenset({
+    "contenido_en", "analizado_por", "escrito_por", "publicado_en",
+})
+TIPOS_HUB_EDITORIAL = frozenset({"autor", "obra", "revista", "editorial"})
+PESO_ARISTA_BIBLIOGRAFICA = 0.04
+
+
+def es_arista_sustantiva(u: str, v: str, datos: Dict[str, Any], g: nx.DiGraph) -> bool:
+    """True si la arista expresa un vínculo jurídico sustantivo (norma, fallo, doctrina, vía procesal)
+    y no una mera contención editorial/bibliográfica (autor, obra, revista)."""
+    rel = str(datos.get("relation") or "")
+    if rel in RELACIONES_BIBLIOGRAFICAS:
+        return False
+    rels = datos.get("relaciones")
+    if rels and all(str(r) in RELACIONES_BIBLIOGRAFICAS for r in rels):
+        return False
+    tu = str(g.nodes[u].get("node_type") or "") if u in g else ""
+    tv = str(g.nodes[v].get("node_type") or "") if v in g else ""
+    if tu in TIPOS_HUB_EDITORIAL and tv in TIPOS_HUB_EDITORIAL:
+        return False
+    return True
+
+
+def peso_multiplex(u: str, v: str, datos: Dict[str, Any], g: nx.DiGraph) -> float:
+    """Peso multiplex para PPR y centralidad: atenúa aristas bibliográficas y súper-hubs editoriales."""
+    base = float(datos.get("weight") or 1.0)
+    if base <= 0:
+        base = 1.0
+    if es_arista_sustantiva(u, v, datos, g):
+        return base
+    return max(0.001, round(base * PESO_ARISTA_BIBLIOGRAFICA, 4))
+
+
 # Títulos que se quitan antes de buscar a una persona por su nombre («ministra María Gajardo Harboe»).
 _RE_TRATAMIENTO = re.compile(r"^(?:(?:el|la)\s+)?(?:ministr[oa]|magistrad[oa]|juez[a]?|sr\.?|sra\.?|don|dona)\s+")
 # Sentinela de _buscar_en_mapa: la consulta es un rol que el mapa no tiene (no seguir buscando).
@@ -369,6 +405,7 @@ class LegalGraphifyEngine:
         self._lock = threading.RLock()
         self._version = 0
         self._cache_no_dirigido: Optional[Tuple[Tuple[int, int, int, int], nx.Graph]] = None
+        self._cache_no_dirigido_sustantivo: Optional[Tuple[Tuple[int, int, int, int], nx.Graph]] = None
         self._reiniciar_estado_mapa()
 
     def _reiniciar_estado_mapa(self) -> None:
@@ -1623,16 +1660,42 @@ class LegalGraphifyEngine:
         for numero, miembros in sorted(por_comunidad.items(), key=lambda kv: -len(kv[1]))[:top_n]:
             por_grado = sorted(((self.graph.degree(n), n) for n in miembros), reverse=True)
             conteo: Dict[str, int] = {}
+            tipos_c: Counter = Counter()
+            normas_c: List[Tuple[int, str]] = []
+            fallos_c: List[Tuple[int, str]] = []
+            for deg_n, n in por_grado:
+                nd = self.graph.nodes[n]
+                nt = str(nd.get("node_type") or "nodo")
+                tipos_c[nt] += 1
+                lbl_n = str(nd.get("label") or n)[:65]
+                if nt in _TIPOS_NORMA and len(normas_c) < 3:
+                    normas_c.append((deg_n, lbl_n))
+                elif nt in _TIPOS_SENTENCIA and len(fallos_c) < 2:
+                    fallos_c.append((deg_n, lbl_n))
             for _, n in por_grado[:max(20, len(por_grado) // 4)]:
                 conteo[area_de(n)] = conteo.get(area_de(n), 0) + 1
             area_principal = max(conteo.items(), key=lambda kv: kv[1])[0] if conteo else "general"
-            comunidades.append({
+            # Representativos sustantivos (priorizando instituciones/normas sobre súper-hubs editoriales)
+            rep_sust = [
+                str(self.graph.nodes[n].get("label") or n)[:70]
+                for _, n in por_grado
+                if str(self.graph.nodes[n].get("node_type") or "") not in TIPOS_HUB_EDITORIAL
+            ][:representativos]
+            if len(rep_sust) < representativos:
+                rep_sust = [str(self.graph.nodes[n].get("label") or n)[:70]
+                            for _, n in por_grado[:representativos]]
+            entrada_com: Dict[str, Any] = {
                 "comunidad": numero,
                 "tamano": len(miembros),
                 "area_principal": area_principal,
-                "representativos": [str(self.graph.nodes[n].get("label") or n)[:70]
-                                    for _, n in por_grado[:representativos]],
-            })
+                "representativos": rep_sust,
+                "tipos_principales": dict(tipos_c.most_common(3)),
+            }
+            if normas_c:
+                entrada_com["normas_clave"] = [lbl for _, lbl in normas_c]
+            if fallos_c:
+                entrada_com["jurisprudencia_clave"] = [lbl for _, lbl in fallos_c]
+            comunidades.append(entrada_com)
 
         resumen: Dict[str, Any] = {
             "comunidades_totales": len(por_comunidad),
@@ -1760,9 +1823,10 @@ class LegalGraphifyEngine:
 
     def ranking_ppr_subgrafo(self, nodo_central: str, top_k: int = 8, alpha: float = 0.85) -> List[Dict[str, Any]]:
         """
-        Calcula Personalized PageRank (Random Walk with Restart / Heat Diffusion) centrado en `nodo_central`
-        sobre su vecindario topológico de radio 2 (ego-graph no dirigido, acotado a <= 250 nodos).
-        Identifica en < 2 ms las normas, sentencias e instituciones con mayor proximidad multi-camino.
+        Calcula Personalized PageRank multiplex (Random Walk with Restart / Heat Diffusion) centrado en
+        `nodo_central` sobre su vecindario topológico de radio 2 (ego-graph no dirigido, acotado a <= 250 nodos).
+        Atenúa las aristas bibliográficas/editoriales (`PESO_ARISTA_BIBLIOGRAFICA = 0.04`) para impedir
+        que súper-hubs como autores o revistas secuestren la masa de probabilidad.
         """
         if not nodo_central or not self.graph.has_node(nodo_central):
             return []
@@ -1775,13 +1839,21 @@ class LegalGraphifyEngine:
                 candidatos = list(nodos_r2)
             if len(candidatos) <= 1:
                 return []
-            sub_g = self.graph.subgraph(candidatos).to_undirected()
+            sub_dir = self.graph.subgraph(candidatos)
+            sub_g = nx.Graph()
+            sub_g.add_nodes_from(candidatos)
+            for u, v, d in sub_dir.edges(data=True):
+                w = peso_multiplex(u, v, d, self.graph)
+                if sub_g.has_edge(u, v):
+                    sub_g[u][v]["weight"] = max(float(sub_g[u][v]["weight"]), w)
+                else:
+                    sub_g.add_edge(u, v, weight=w)
             try:
-                ppr = nx.pagerank(sub_g, alpha=alpha, personalization={nodo_central: 1.0}, max_iter=50)
+                ppr = nx.pagerank(sub_g, alpha=alpha, personalization={nodo_central: 1.0}, weight="weight", max_iter=50)
             except Exception:
                 # Fallback determinista por grado ponderado y distancia si scipy no está activo
                 ppr = {
-                    n: (2.0 if n in nodos_r1 else 0.5) * max(1, sub_g.degree(n))
+                    n: (2.0 if n in nodos_r1 else 0.5) * max(0.04, float(sub_g.degree(n, weight="weight")))
                     for n in candidatos
                 }
             vecinos = [
@@ -1789,7 +1861,7 @@ class LegalGraphifyEngine:
                 for nid, sc in ppr.items()
                 if nid != nodo_central
             ]
-            vecinos.sort(key=lambda x: (-x[1], str(self.graph.nodes[x[0]].get("label", x[0]))))
+            vecinos.sort(key=lambda x: (-x[1], str(self.graph.nodes[x[0]].get("label", x[0])), str(x[0])))
             salida: List[Dict[str, Any]] = []
             for nid, sc in vecinos[:top_k]:
                 nd = self.graph.nodes[nid]
@@ -1911,10 +1983,20 @@ class LegalGraphifyEngine:
         lines.append("```")
         return "\n".join(lines)
 
-    def encontrar_camino(self, origen: str, destino: str, max_caminos: int = 3) -> Dict[str, Any]:
+    def encontrar_camino(
+        self,
+        origen: str,
+        destino: str,
+        max_caminos: int = 3,
+        solo_sustantivo: bool = False,
+    ) -> Dict[str, Any]:
         """
         Calcula y traza los caminos relacionales mínimos entre dos conceptos, instituciones o normas.
         Permite a LLMs y abogados deducir cadenas de subsunción y argumentación dogmática.
+
+        Con `solo_sustantivo=True` utiliza la capa sustantiva del grafo multiplex (excluye puentes
+        meramente bibliográficos como autor, obra o revista), recurriendo al grafo completo solo si
+        ambos nodos no están conectados por vínculos normativos o jurisprudenciales.
         """
         self._preparar_consulta()
 
@@ -1934,9 +2016,23 @@ class LegalGraphifyEngine:
                 "sugerencias": list(self.instituciones_index.keys())[:5]
             }
 
-        # Vista no dirigida cacheada: copiar el grafo en cada consulta costaba un recorrido
-        # completo (con la capa del mapa, ~180 mil aristas por llamada).
-        undirected = self._no_dirigido()
+        tipo_camino = "completo"
+        if solo_sustantivo:
+            undirected_sust = self._no_dirigido_sustantivo()
+            if (
+                nodo_a in undirected_sust
+                and nodo_b in undirected_sust
+                and nx.has_path(undirected_sust, nodo_a, nodo_b)
+            ):
+                undirected = undirected_sust
+                tipo_camino = "sustantivo"
+            else:
+                undirected = self._no_dirigido()
+                tipo_camino = "bibliografico_fallback"
+        else:
+            # Vista no dirigida cacheada: copiar el grafo en cada consulta costaba un recorrido
+            # completo (con la capa del mapa, ~180 mil aristas por llamada).
+            undirected = self._no_dirigido()
 
         if not nx.has_path(undirected, nodo_a, nodo_b):
             return {
@@ -1986,13 +2082,16 @@ class LegalGraphifyEngine:
                 "trazado": " ".join(cadena_pasos)
             })
 
-        return {
+        res_camino: Dict[str, Any] = {
             "encontrado": True,
             "origen": self.graph.nodes[nodo_a].get("label", nodo_a),
             "destino": self.graph.nodes[nodo_b].get("label", nodo_b),
             "total_caminos_encontrados": len(caminos_formateados),
-            "caminos": caminos_formateados
+            "caminos": caminos_formateados,
         }
+        if solo_sustantivo:
+            res_camino["tipo_camino"] = tipo_camino
+        return res_camino
 
     def analizar_tendencia_y_baremo(self, nodo_central: str) -> Dict[str, Any]:
         """
@@ -2223,18 +2322,34 @@ class LegalGraphifyEngine:
             )
         }
 
-    def calcular_god_nodes(self, top_n: int = 10) -> Dict[str, Any]:
+    def calcular_god_nodes(self, top_n: int = 10, solo_sustantivo: bool = False) -> Dict[str, Any]:
         """
         Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico
         mediante algoritmos de PageRank y centralidad de grado sobre el grafo dogmático.
+        Con `solo_sustantivo=True` aplica ponderación multiplex (atenúa súper-hubs editoriales
+        como autores, obras o revistas y prioriza citaciones normativas y jurisprudenciales).
         """
         if not self.is_built:
             if not self.cargar_grafo_json():
                 self.construir_grafo_desde_doctrina()
 
+        grafo_eval: nx.DiGraph = self.graph
+        if solo_sustantivo:
+            g_multiplex = nx.DiGraph()
+            for nid, nd in self.graph.nodes(data=True):
+                g_multiplex.add_node(nid, **nd)
+            for u, v, ed in self.graph.edges(data=True):
+                g_multiplex.add_edge(u, v, weight=peso_multiplex(u, v, ed, self.graph))
+            grafo_eval = g_multiplex
+
         ordenado_por = "pagerank"
         try:
-            pagerank_scores = nx.pagerank(self.graph, alpha=0.85, max_iter=100)
+            pagerank_scores = nx.pagerank(
+                grafo_eval,
+                alpha=0.85,
+                max_iter=100,
+                weight="weight" if solo_sustantivo else None,
+            )
         except Exception as exc:
             # Sin numpy y scipy, NetworkX no puede correr PageRank y aquí se cae a un simple
             # grado de conexión (y cada motor caía a uno distinto). El payload sigue llamando
@@ -2247,7 +2362,7 @@ class LegalGraphifyEngine:
                 "grado de conexión de cada nodo, que NO es PageRank. Instala numpy y scipy (extra "
                 "'pagerank' del paquete) si necesitas el PageRank real."
             )
-            pagerank_scores = {n: self.graph.degree(n) for n in self.graph.nodes()}
+            pagerank_scores = {n: grafo_eval.degree(n) for n in grafo_eval.nodes()}
 
         degree_dict = dict(self.graph.degree())
 
@@ -2259,6 +2374,7 @@ class LegalGraphifyEngine:
 
         instituciones_top: List[Dict[str, Any]] = []
         normas_top: List[Dict[str, Any]] = []
+        tipos_inst = ("institucion",) if solo_sustantivo else ("institucion", "obra")
 
         for nid, score in nodos_ordenados:
             ndata = self.graph.nodes[nid]
@@ -2275,9 +2391,9 @@ class LegalGraphifyEngine:
                 "comunidad": ndata.get("community", 0)
             }
 
-            if ntype in ("institucion", "obra") and len(instituciones_top) < top_n:
+            if ntype in tipos_inst and len(instituciones_top) < top_n:
                 instituciones_top.append(entry)
-            elif ntype == "articulo_legal" and len(normas_top) < top_n:
+            elif ntype in ("articulo_legal", "norma") and len(normas_top) < top_n:
                 normas_top.append(entry)
 
             if len(instituciones_top) >= top_n and len(normas_top) >= top_n:
@@ -2287,20 +2403,134 @@ class LegalGraphifyEngine:
             "total_nodos_analizados": self.graph.number_of_nodes(),
             "total_aristas": self.graph.number_of_edges(),
             "ordenado_por": ordenado_por,
+            "modo_multiplex_sustantivo": solo_sustantivo,
             "god_instituciones": instituciones_top,
             "god_normas": normas_top,
             "analisis": (
                 f"Se han identificado las {len(instituciones_top)} instituciones dogmáticas y "
                 f"{len(normas_top)} normas legales más centrales topológicamente, ordenadas por "
                 + (
-                    "PageRank (alpha=0.85)."
+                    "PageRank multiplex sustantivo (alpha=0.85)."
+                    if (ordenado_por == "pagerank" and solo_sustantivo)
+                    else "PageRank (alpha=0.85)."
                     if ordenado_por == "pagerank"
                     else "grado de conexión, porque PageRank no estaba disponible (ver advertencias)."
                 )
-                + " Cada entrada trae ambas métricas a propósito: en este grafo el 83% de los nodos"
-                " no tiene aristas de salida, así que PageRank y grado de conexión NO ordenan igual"
-                " y conviene mirar las dos antes de llamar 'pilar' a una institución."
+                + " Cada entrada trae ambas métricas a propósito: en este grafo conviene mirar "
+                "PageRank y grado de conexión en conjunto antes de llamar 'pilar' a una institución."
             )
+        }
+
+    @_con_cerrojo
+    def enriquecer_aristas_semanticas(
+        self,
+        max_nodos: int = 300,
+        top_k: int = 3,
+        umbral: float = 0.78,
+        solo_sin_enlaces_sustantivos: bool = True,
+        use_fastembed: Optional[bool] = None,
+    ) -> Dict[str, Any]:
+        """
+        Descubre aristas semánticas latentes (`similar_semantico`) entre instituciones dogmáticas y
+        jurisprudencia/instituciones ricas usando embeddings densos (`vector_engine.SemanticEmbeddingEngine`:
+        `fastembed` ONNX multilingüe cuando está habilitado, o proyección léxica determinista 100 % offline).
+        Permite vincular textos que abordan la misma figura jurídica sin citar literalmente el mismo artículo.
+        """
+        if not self.is_built:
+            if not self.cargar_grafo_json():
+                self.construir_grafo_desde_doctrina()
+
+        import numpy as np
+        from vector_engine import SemanticEmbeddingEngine
+
+        emb_engine = SemanticEmbeddingEngine(use_fastembed=use_fastembed)
+        motor_usado = str(getattr(emb_engine, "backend", "lexical_random_projection"))
+
+        tipos_sustantivos = set(_TIPOS_NORMA) | set(_TIPOS_SENTENCIA)
+        candidatos: List[Tuple[str, str]] = []
+        anclas: List[Tuple[str, str]] = []
+
+        for nid in sorted(self.graph.nodes()):
+            nd = self.graph.nodes[nid]
+            ntype = str(nd.get("node_type") or "")
+            texto = " ".join(
+                str(nd.get(k) or "").strip()
+                for k in ("label", "definicion", "materia", "operativa_procesal")
+                if nd.get(k)
+            ).strip()
+            if len(texto) < 25:
+                continue
+            if ntype == "institucion":
+                vecinos = set(self.graph.successors(nid)) | set(self.graph.predecessors(nid))
+                tiene_sust = any(str(self.graph.nodes[v].get("node_type") or "") in tipos_sustantivos for v in vecinos)
+                if not solo_sin_enlaces_sustantivos or not tiene_sust:
+                    candidatos.append((nid, texto[:600]))
+                if tiene_sust:
+                    anclas.append((nid, texto[:600]))
+            elif ntype in ("jurisprudencia", "jurisprudencia_cs", "jurisprudencia_tc", "sentencia_ta"):
+                anclas.append((nid, texto[:600]))
+
+        candidatos = candidatos[: max(1, int(max_nodos))]
+        anclas = anclas[: max(1, int(max_nodos) * 2)]
+        if not candidatos or not anclas:
+            return {
+                "motor_embeddings": motor_usado,
+                "candidatos_evaluados": len(candidatos),
+                "anclas_evaluadas": len(anclas),
+                "aristas_agregadas": 0,
+            }
+
+        todos_textos = [t for _, t in candidatos] + [t for _, t in anclas]
+        vectores = np.asarray(emb_engine.encode_batch(todos_textos), dtype=np.float32)
+
+        normas_v = np.linalg.norm(vectores, axis=1, keepdims=True)
+        normas_v[normas_v == 0.0] = 1.0
+        vectores = vectores / normas_v
+
+        mat_cand = vectores[: len(candidatos)]
+        mat_anclas = vectores[len(candidatos):]
+        sim_matrix = mat_cand @ mat_anclas.T
+
+        aristas_agregadas = 0
+        ejemplos: List[Dict[str, Any]] = []
+        for idx_c, (cid, _) in enumerate(candidatos):
+            fila = sim_matrix[idx_c]
+            indices_top = np.argsort(-fila)[: max(1, int(top_k)) + 2]
+            agregadas_nodo = 0
+            for idx_a in indices_top:
+                if agregadas_nodo >= top_k:
+                    break
+                sim = float(fila[idx_a])
+                if sim < umbral:
+                    break
+                aid = anclas[int(idx_a)][0]
+                if aid == cid or self.graph.has_edge(cid, aid) or self.graph.has_edge(aid, cid):
+                    continue
+                self.graph.add_edge(
+                    cid,
+                    aid,
+                    relation="similar_semantico",
+                    weight=round(sim, 3),
+                    origen="semantic_embedding",
+                )
+                aristas_agregadas += 1
+                agregadas_nodo += 1
+                if len(ejemplos) < 10:
+                    ejemplos.append({
+                        "origen": self.graph.nodes[cid].get("label", cid),
+                        "destino": self.graph.nodes[aid].get("label", aid),
+                        "similitud": round(sim, 3),
+                    })
+
+        self._cache_no_dirigido = None
+        self._cache_no_dirigido_sustantivo = None
+        return {
+            "motor_embeddings": motor_usado,
+            "candidatos_evaluados": len(candidatos),
+            "anclas_evaluadas": len(anclas),
+            "umbral_coseno": umbral,
+            "aristas_agregadas": aristas_agregadas,
+            "ejemplos": ejemplos,
         }
 
     @_con_cerrojo
@@ -2330,6 +2560,9 @@ class LegalGraphifyEngine:
         directorio = os.path.dirname(filepath)
         if directorio:
             os.makedirs(directorio, exist_ok=True)
+        # Mantener la metadata de totales siempre sincronizada con las listas reales al serializar
+        self.graph.graph["total_nodes"] = self.graph.number_of_nodes()
+        self.graph.graph["total_edges"] = self.graph.number_of_edges()
         try:
             data = nx.node_link_data(self.graph, edges="edges")
         except TypeError:
@@ -2625,6 +2858,12 @@ class LegalGraphifyEngine:
                 guardado[clave] = datos.get(clave, _AUSENTE)
             datos[clave] = valor
 
+        # Resolución ontológica dinámica para Baremo PJUD: `baremo:baremo_muerte_1091_conviviente`
+        # ↔ nodo curado `baremo_muerte_1091` (evita duplicación 34 vs. 17 aun contra revisiones previas del mapa).
+        baremos_curados = sorted(
+            nid for nid, datos in nodos_g.items()
+            if datos.get("node_type") == "baremo" and nid.startswith("baremo_")
+        )
         label_mapa: Dict[str, str] = {}
         nuevos = fusionados = 0
         for _rel, tipo_particion, filas in particiones_nodos:
@@ -2633,6 +2872,12 @@ class LegalGraphifyEngine:
                 tipo = sys.intern(str(fila.get("tipo") or tipo_particion))
                 label = str(fila.get("label") or nid)
                 destino = canon_a_curado.get(nid)
+                if destino is None and tipo == "baremo" and nid.startswith("baremo:") and baremos_curados:
+                    resto = nid[len("baremo:"):]
+                    for bc in baremos_curados:
+                        if resto == bc or resto.startswith(bc + "_"):
+                            destino = canon_a_curado[nid] = bc
+                            break
                 if destino is None and nid in nodos_g:
                     # Un nodo en memoria con el mismo ID canónico: se marca, no se duplica.
                     destino = canon_a_curado[nid] = nid
@@ -2738,6 +2983,7 @@ class LegalGraphifyEngine:
         self._label_mapa = label_mapa
         self._previas_mapa = previas
         self._cache_no_dirigido = None
+        self._cache_no_dirigido_sustantivo = None
         return dict(resumen, segundos=round(time.perf_counter() - inicio, 3))
 
     @staticmethod
@@ -2764,6 +3010,7 @@ class LegalGraphifyEngine:
         self.graph = g
         self._reiniciar_estado_mapa()
         self._cache_no_dirigido = None
+        self._cache_no_dirigido_sustantivo = None
         return True
 
     # ── Subgrafos y vistas por consulta ──────────────────────────────────────────────────────
@@ -2781,6 +3028,23 @@ class LegalGraphifyEngine:
             undirected.add_nodes_from(g)
             undirected.add_edges_from(g.edges())
             cache = self._cache_no_dirigido = (clave, undirected)
+        return cache[1]
+
+    def _no_dirigido_sustantivo(self) -> nx.Graph:
+        """Vista no dirigida de la capa sustantiva del grafo multiplex (sin aristas bibliográficas ni
+        súper-hubs editoriales de paso), cacheada hasta que cambia el grafo."""
+        g = self.graph
+        clave = (id(g), self._version, g.number_of_nodes(), g.number_of_edges())
+        cache = self._cache_no_dirigido_sustantivo
+        if cache is None or cache[0] != clave:
+            undirected = nx.Graph()
+            for n, nd in g.nodes(data=True):
+                if str(nd.get("node_type") or "") not in TIPOS_HUB_EDITORIAL:
+                    undirected.add_node(n)
+            for u, v, d in g.edges(data=True):
+                if u in undirected and v in undirected and es_arista_sustantiva(u, v, d, g):
+                    undirected.add_edge(u, v)
+            cache = self._cache_no_dirigido_sustantivo = (clave, undirected)
         return cache[1]
 
     def _ordenar_vecinos(self, g: nx.DiGraph, n: str, vecinos: List[str], query: str = "") -> List[str]:

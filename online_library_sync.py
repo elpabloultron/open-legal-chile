@@ -381,6 +381,18 @@ configs:
     path: data/jurisprudencia/cs_sentencias_2anios.jsonl
   - split: tribunal_constitucional_ultimos_2_anios
     path: data/jurisprudencia/tc_sentencias_2anios.jsonl
+- config_name: analytics_parquet
+  data_files:
+  - split: corpus_entradas
+    path: data/parquet/corpus_entradas.parquet
+  - split: doctrina_fichas
+    path: data/parquet/doctrina_fichas.parquet
+  - split: baremo_dano_moral
+    path: data/parquet/baremo_dano_moral.parquet
+  - split: grafo_nodos
+    path: data/parquet/grafo_nodos.parquet
+  - split: grafo_aristas
+    path: data/parquet/grafo_aristas.parquet
 ---
 
 # 🇨🇱 Corpus Jurídico y Doctrinal de Chile en Markdown (Open Legal Chile)

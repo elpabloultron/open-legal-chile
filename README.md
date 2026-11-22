@@ -13,7 +13,7 @@
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
-  <img src="https://img.shields.io/badge/Herramientas_MCP-88_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
+  <img src="https://img.shields.io/badge/Herramientas_MCP-95_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
   <img src="https://img.shields.io/badge/Tests-702%2F702_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
@@ -27,7 +27,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (93 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-93-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (95 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-95-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -91,7 +91,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 93 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
+│   • 95 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
 │   • Espacios de Casos Locales con LegalGraphify (case_workspace.py, case_graph.py)     │
 │   • Motor Vectorial Híbrido Dense + BM25 con RRF (vector_engine.py)                     │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
@@ -131,13 +131,13 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
    - **Archivo:** `legal_open_jev.py`
    - **Latencia:** `< 5 ms` en CPU local, 100% offline, cero costo de tokens y confidencialidad inviolable (Art. 247 CP).
    - **Primitivas:**
-     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 93 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
+     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 95 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
      - `JevNoul`: Compuertas binarias estrictas de validez formal: plazos fatales de caducidad laboral (Art. 168 CT: 60/90 días), prescripción civil (Arts. 2514-2515 CC), plazos constitucionales de protección (Art. 20 CPR: 30 días corridos), cómputo procesal de días hábiles judiciales (Art. 66 CPC), validación matemática de RUT Módulo 11 y facultades especiales de personería (Art. 7 inc. 2 CPC).
      - `JevScore`: Ponderación local ultrarrápida de relevancia temática.
 
-2. **🧠 `LegalGraphify` (Motor de Grafo de Conocimiento — Pensamiento Profundo):**
-   - **Archivo:** `legal_graphify.py`
-   - **Topología:** Grafo ontológico multidimensional con 14.050 nodos y ~20.000 relaciones del derecho chileno.
+2. **🧠 `LegalGraphify` (Motor de Grafo de Conocimiento Multiplex — Pensamiento Profundo):**
+   - **Archivo:** `legal_graphify.py` + `jurimetria.py`
+   - **Topología:** Grafo ontológico multiplex con 21.263 nodos y 61.894 aristas curadas (53.569 nodos y 219.146 aristas en unión con el mapa del corpus en Hugging Face), resolución ontológica unificada (Baremo PJUD 17/17 sin duplicados), atenuación de súper-hubs editoriales, análisis jurimétrico PageRank + HITS y exportación reproducible (Apache Parquet, GraphML, CSV y BibTeX).
    - **Eficiencia Medida:** Reducción de contexto del 99,9% (mediana de 91 tokens por subgrafo sintético frente a 96.536 tokens de la obra doctrinal completa).
    - **Capacidades:** Extracción de subgrafos egocéntricos de radio 1, identificación de instituciones estructurales mediante PageRank (*God Nodes*), y trazado de caminos de deducción dogmática entre normas y fallos rectores de la Corte Suprema.
 
@@ -261,9 +261,9 @@ medición del ahorro en [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (93 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (95 Herramientas Oficiales)
 
-El servidor MCP expone **93 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`) categorizadas funcionalmente:
+El servidor MCP expone **95 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`) categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -401,10 +401,12 @@ El servidor MCP expone **93 herramientas oficiales** (con modo `OPENLEGAL_PROFIL
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
 | `graphify_consulta_subgrafo` | `query` *(str)*, `max_hops` *(int, opc)*, `incluir_mermaid` *(bool, opc)* | Consulta el Knowledge Graph Jurídico de Doctrina Chilena (LegalGraphify), extrayendo subgrafos sintéticos hiper-densos (normas BCN, criterios CS, tratadistas y operativa procesal) con un ahorro mediano del 99,9 % de tokens (ficha mediana: 91 tokens frente a la obra completa: 96.536) respecto a la lectura del texto doctrinal completo. Medición reproducible en [`docs/medicion_tokens.md`](docs/medicion_tokens.md). |
-| `graphify_trazar_camino` | `concepto_origen` *(str)*, `concepto_destino` *(str)* | Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify, deduciendo cadenas de subsunción y argumentación dogmática. |
-| `graphify_explicar_institucion` | `nombre` *(str)* | Genera una explicación dogmática 360° de una institución jurídica en LegalGraphify: definición, sustento positivo BCN, criterios de la Corte Suprema, operativas procesales y grado topológico. |
-| `graphify_analizar_impacto` | `nodo_modificado` *(str)* | Calcula el radio de afectación topológico (Blast Radius) cuando una norma legal o institución jurídica sufre una reforma legal o giro jurisprudencial, identificando entidades afectadas en grado 1 (directo) y grado 2 (cascada). |
-| `graphify_god_nodes` | `top_n` *(int, opc)* | Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según algoritmos de PageRank y centralidad sobre el Knowledge Graph de doctrina y normas. |
+| `graphify_trazar_camino` | `origen` *(str)*, `destino` *(str)*, `solo_sustantivo` *(bool, opc)* | Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify; con `solo_sustantivo=True` usa la capa sustantiva del grafo multiplex (excluyendo puentes editoriales). |
+| `graphify_explicar_institucion` | `query` *(str)* | Genera una explicación dogmática 360° de una institución jurídica en LegalGraphify: definición, sustento positivo BCN, criterios de la Corte Suprema, operativas procesales y grado topológico. |
+| `graphify_analizar_impacto` | `objetivo` *(str)* | Calcula el radio de afectación topológico (Blast Radius) cuando una norma legal o institución jurídica sufre una reforma legal o giro jurisprudencial, identificando entidades afectadas en grado 1 (directo) y grado 2 (cascada). |
+| `graphify_god_nodes` | `top_n` *(int, opc)*, `solo_sustantivo` *(bool, opc)* | Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según PageRank y centralidad (con ponderación multiplex opcional para atenuar súper-hubs editoriales). |
+| `jurimetria_analizar_corpus` | `modo` *(str, opc)*, `coleccion` *(str, opc)*, `norma_filtro` *(str, opc)*, `top_k` *(int, opc)* | Análisis jurimétrico e investigación académica empírica: PageRank dirigido y HITS (Authority/Hub) sobre la red sustantiva de citaciones, auditoría de resolución de entidades y ruido OCR, más estadísticas longitudinales exactas (año, sala CS, recurso, resultado normalizado y Baremo UF/CLP) con trazabilidad de revisión HF. |
+| `jurimetria_exportar_investigacion` | `tema` *(str)*, `carpeta_salida` *(str, opc)*, `formatos` *(list, opc)*, `n_muestra` *(int, opc)* | Exporta un paquete reproducible de investigación jurídica: tablas CSV (R/Stata/Python), GraphML (Gephi/Cytoscape), Apache Parquet, muestra estratificada ciega para validación intercodificador (precisión, cobertura, F1, κ de Cohen), `METODOLOGIA_REPRODUCIBLE.md` y citas BibTeX (`referencia.bib`). |
 
 ### T. Recursos Constitucionales y Estandarización OJV
 | Herramienta MCP | Parámetros | Descripción de Operatividad |

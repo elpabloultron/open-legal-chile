@@ -214,6 +214,17 @@ jobs:
         if: steps.publicar.outputs.publicado == 'true'
         run: python -m mapa_corpus verificar-puntero
 
+      - name: Exportar y publicar tablas Apache Parquet (Dataset Viewer y DuckDB SQL)
+        if: steps.publicar.outputs.publicado == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          OPENLEGAL_MAPA_LOCAL: ${{ env.TRABAJO }}/mapa
+          OPENLEGAL_MAPA_DIR: ${{ env.TRABAJO }}/cache-parquet
+        run: |
+          pip install --quiet pyarrow
+          python -c "from mapa_corpus.cliente import obtener_cliente; obtener_cliente().asegurar(bloquear=True, timeout=600)"
+          python scripts/exportar_parquet_hf.py --salida "$TRABAJO/parquet" --subir-hf
+
       - name: Credencial para abrir el PR (GitHub App)
         id: app
         if: steps.publicar.outputs.publicado == 'true' && vars.MAPA_APP_ID != ''

@@ -46,6 +46,8 @@ def build_all_tools_dataset():
         "graphify_explicar_institucion": "Doctrina & Graphify",
         "graphify_analizar_impacto": "Doctrina & Graphify",
         "graphify_god_nodes": "Doctrina & Graphify",
+        "jurimetria_analizar_corpus": "Doctrina & Graphify",
+        "jurimetria_exportar_investigacion": "Doctrina & Graphify",
         "biblioteca_compilar_manifiesto": "Doctrina & Graphify",
         "bcn_get_codigo": "BCN Normativo",
         "bcn_get_ley": "BCN Normativo",
@@ -696,7 +698,7 @@ NEW_SECTIONS_HTML = """  <!-- Step 04B: Buscador Interactivo Multi-Corpus, Barem
     <span class="eyebrow-step">Sostenibilidad Open Source · Formación, Consultoría &amp; Alianzas</span>
     <h2 class="step-h2">Capacitación Ejecutiva, Despliegue Privado On-Premise y Alianzas Académicas</h2>
     <p class="step-desc">
-      El núcleo de <strong>Open Legal Chile</strong> (sus 93 herramientas MCP, 19 agentes autónomos, 21 skills jurídicas y el corpus en Hugging Face) es un <strong>bien público digital 100 % gratuito bajo licencia Apache 2.0</strong>. Para estudios jurídicos, gerencias legales, organismos públicos y universidades que buscan dominar la IA jurídica soberana o desplegar infraestructura privada en sus propios servidores, ofrecemos tres modalidades de trabajo directo:
+      El núcleo de <strong>Open Legal Chile</strong> (sus 95 herramientas MCP, 19 agentes autónomos, 21 skills jurídicas y el corpus en Hugging Face) es un <strong>bien público digital 100 % gratuito bajo licencia Apache 2.0</strong>. Para estudios jurídicos, gerencias legales, organismos públicos y universidades que buscan dominar la IA jurídica soberana o desplegar infraestructura privada en sus propios servidores, ofrecemos tres modalidades de trabajo directo:
     </p>
 
     <div class="consulting-grid">
@@ -1029,18 +1031,19 @@ def main():
     content = re.sub(old_filter_bar, new_filter_bar, content, count=1, flags=re.DOTALL)
 
     # 3. Update Navigation Links (Header & Mobile Drawer)
-    content = content.replace("88 Herramientas MCP", f"{total_tools} Herramientas MCP")
-    content = content.replace("88 herramientas MCP", f"{total_tools} herramientas MCP")
-    content = content.replace("88 herramientas", f"{total_tools} herramientas")
+    for viejo in ("88", "93"):
+        content = content.replace(f"{viejo} Herramientas MCP", f"{total_tools} Herramientas MCP")
+        content = content.replace(f"{viejo} herramientas MCP", f"{total_tools} herramientas MCP")
+        content = content.replace(f"{viejo} herramientas", f"{total_tools} herramientas")
 
-    # 4. Update stats (93 tools, 21 skills jurídicas)
+    # 4. Update stats (95 tools, 21 skills jurídicas)
     content = re.sub(
-        r'<div class="stat-num" data-target="(?:87|88)" data-suffix="">(?:87|88)</div>',
+        r'<div class="stat-num" data-target="(?:87|88|93)" data-suffix="">(?:87|88|93)</div>',
         f'<div class="stat-num" data-target="{total_tools}" data-suffix="">{total_tools}</div>',
         content,
     )
     content = re.sub(
-        r'<span class="suite-layer-title">⚡ Servidor MCP Nativo \((?:87|88) Tools\)</span>',
+        r'<span class="suite-layer-title">⚡ Servidor MCP Nativo \((?:87|88|93) Tools\)</span>',
         f'<span class="suite-layer-title">⚡ Servidor MCP Nativo ({total_tools} Tools)</span>',
         content,
     )

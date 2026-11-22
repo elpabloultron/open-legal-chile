@@ -162,3 +162,6 @@ graphify-out/graph.json
 Manuales/*.pdf
 investigacion_academica/*.docx
 investigacion_academica/*.pdf
+
+# Exportaciones columnares Apache Parquet (se generan con scripts/exportar_parquet_hf.py y se publican en Hugging Face)
+data/parquet/

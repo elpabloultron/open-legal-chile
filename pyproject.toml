@@ -76,6 +76,10 @@ privacy = [
   "presidio-analyzer>=2.2.0",
   "presidio-anonymizer>=2.2.0"
 ]
+analytics = [
+  "pyarrow>=15.0.0",
+  "duckdb>=1.0.0"
+]
 
 [project.scripts]
 openlegal = "openlegal:main"
@@ -134,6 +138,7 @@ py-modules = [
     "informe_derecho",
     "ingesta_fuentes",
     "integraciones_harness",
+    "jurimetria",
     "legal_canvas",
     "legal_graphify",
     "legal_open_jev",

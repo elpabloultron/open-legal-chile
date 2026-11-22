@@ -224,6 +224,13 @@ def alias_curados(curado: Dict[str, Any], g: Grafo, filas: List[Dict[str, Any]])
                     destino = f"tc:{m.group(1)}"
                 else:
                     puentes.append((nid, f"tc:{m.group(1)}", "mismo_documento"))
+        elif tipo == "baremo" and nid.startswith("baremo_"):
+            # Unificación ontológica Baremo PJUD: `baremo_muerte_1091` ↔ `baremo:baremo_muerte_1091_conviviente`
+            prefijo_b = f"baremo:{nid}"
+            for cand in sorted(g.nodos):
+                if cand == prefijo_b or cand.startswith(prefijo_b + "_"):
+                    destino = cand
+                    break
         elif nid.startswith("sent_amb_"):
             trib = str(n.get("tribunal") or "").lower()
             ta = rol_canonico(str(n.get("rol") or ""), trib) if trib in ("1ta", "2ta", "3ta") else None

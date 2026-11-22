@@ -315,13 +315,14 @@ TOOLS = [
     },
     {
         "name": "graphify_trazar_camino",
-        "description": "Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify, deduciendo cadenas de subsunción y argumentación dogmática.",
+        "description": "Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify, deduciendo cadenas de subsunción y argumentación dogmática. Con `solo_sustantivo=True` usa la capa sustantiva del grafo multiplex (excluye puentes bibliográficos de autor, obra o revista).",
         "inputSchema": {
             "type": "object",
             "properties": {
                 "origen": {"type": "string", "description": "Concepto o norma jurídica de inicio (ej. 'simulacion', 'incumplimiento')"},
                 "destino": {"type": "string", "description": "Concepto o norma jurídica de fin (ej. 'nulidad', 'indemnizacion')"},
-                "max_caminos": {"type": "integer", "description": "Número máximo de rutas mínimas a retornar (por defecto 3)", "default": 3}
+                "max_caminos": {"type": "integer", "description": "Número máximo de rutas mínimas a retornar (por defecto 3)", "default": 3},
+                "solo_sustantivo": {"type": "boolean", "description": "Si es True, prioriza rutas jurídicas sustantivas excluyendo súper-hubs editoriales (por defecto False)", "default": False}
             },
             "required": ["origen", "destino"]
         }
@@ -350,12 +351,106 @@ TOOLS = [
     },
     {
         "name": "graphify_god_nodes",
-        "description": "Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según algoritmos de PageRank y centralidad sobre el Knowledge Graph de doctrina y normas.",
+        "description": "Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según algoritmos de PageRank y centralidad sobre el Knowledge Graph de doctrina y normas. Con `solo_sustantivo=True` aplica ponderación multiplex atenuando súper-hubs editoriales.",
         "inputSchema": {
             "type": "object",
             "properties": {
-                "top_n": {"type": "integer", "description": "Cantidad de instituciones y normas principales a retornar (por defecto 10)", "default": 10}
+                "top_n": {"type": "integer", "description": "Cantidad de instituciones y normas principales a retornar (por defecto 10)", "default": 10},
+                "solo_sustantivo": {"type": "boolean", "description": "Si es True, atenúa aristas bibliográficas y excluye contenedores editoriales de los pilares (por defecto False)", "default": False}
             }
+        }
+    },
+    {
+        "name": "jurimetria_analizar_corpus",
+        "description": (
+            "Análisis jurimétrico e investigación académica empírica sobre el corpus chileno (LegalGraphify + mapa HF): "
+            "calcula PageRank dirigido y HITS (Authority y Hub) sobre la red sustantiva de citaciones (excluyendo súper-hubs "
+            "bibliográficos), audita la resolución de entidades y ruido OCR normativo, y entrega estadísticas longitudinales "
+            "exactas (por año, sala de la Corte Suprema, recurso, resultado normalizado y cuantiles del Baremo UF/CLP) "
+            "declarando el universo N, la revisión fijada en Hugging Face y las advertencias muestrales."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "modo": {
+                    "type": "string",
+                    "enum": ["completo", "red_citaciones", "longitudinal", "muestra_validacion"],
+                    "description": "Tipo de análisis jurimétrico a ejecutar (por defecto 'completo')",
+                    "default": "completo"
+                },
+                "coleccion": {
+                    "type": "string",
+                    "description": "Colección a analizar ('cs', 'tc', 'ta', 'doc', 'todas'; por defecto 'cs')"
+                },
+                "norma_filtro": {
+                    "type": "string",
+                    "description": "Norma o institución opcional para acotar la red de citaciones (ej. 'Art. 1545 CC', 'Art. 19 N 24 CPR')"
+                },
+                "agrupacion": {
+                    "type": "string",
+                    "enum": ["anio", "mes"],
+                    "description": "Granularidad temporal para estadísticas longitudinales ('anio' o 'mes'; por defecto 'anio')",
+                    "default": "anio"
+                },
+                "top_k": {
+                    "type": "integer",
+                    "description": "Cantidad máxima de normas, sentencias e instituciones en el ranking de red (por defecto 15)",
+                    "default": 15
+                },
+                "n_muestra": {
+                    "type": "integer",
+                    "description": "Tamaño de muestra estratificada cuando modo='muestra_validacion' (por defecto 50)",
+                    "default": 50
+                },
+                "semilla": {
+                    "type": "integer",
+                    "description": "Semilla determinista para reproducibilidad de la muestra estratificada (por defecto 42)",
+                    "default": 42
+                }
+            }
+        }
+    },
+    {
+        "name": "jurimetria_exportar_investigacion",
+        "description": (
+            "Exporta un paquete reproducible de investigación jurídica académica para artículos, tesis o ponencias: "
+            "genera tablas CSV (R/Stata/Python), red GraphML (Gephi/Cytoscape), Apache Parquet (si pyarrow está instalado), "
+            "muestra estratificada ciega para validación intercodificador (precisión, cobertura, F1 y κ de Cohen), "
+            "METODOLOGIA_REPRODUCIBLE.md con revisión fijada de Hugging Face y citas BibTeX listas en referencia.bib."
+        ),
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "tema": {
+                    "type": "string",
+                    "description": "Institución, norma o materia central a exportar (ej. 'simulacion', 'Art. 2314 CC', 'dano moral' o 'corpus')"
+                },
+                "carpeta_salida": {
+                    "type": "string",
+                    "description": "Carpeta local donde se escribirá el paquete reproducible (si se omite, se crea bajo exports/investigacion/)"
+                },
+                "formatos": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Formatos a exportar (por defecto ['csv', 'graphml', 'parquet', 'json', 'md', 'bib'])"
+                },
+                "coleccion_longitudinal": {
+                    "type": "string",
+                    "description": "Colección para las estadísticas longitudinales y muestra de validación ('cs', 'tc', 'ta', 'doc'; por defecto 'cs')",
+                    "default": "cs"
+                },
+                "n_muestra": {
+                    "type": "integer",
+                    "description": "Tamaño de la muestra estratificada de validación humana (por defecto 50)",
+                    "default": 50
+                },
+                "semilla": {
+                    "type": "integer",
+                    "description": "Semilla aleatoria fija para reproducibilidad (por defecto 42)",
+                    "default": 42
+                }
+            },
+            "required": ["tema"]
         }
     },
 ]
@@ -843,7 +938,8 @@ def despachar(name: str, args: dict) -> Any:
         if not orig or not dest:
             return {"error": "Se requieren 'origen' y 'destino' para trazar el camino relacional."}
         max_c = int(args.get("max_caminos", 3))
-        return _con_avisos(legal_graphify_engine.encontrar_camino(orig, dest, max_caminos=max_c))
+        solo_sust = bool(args.get("solo_sustantivo", False))
+        return _con_avisos(legal_graphify_engine.encontrar_camino(orig, dest, max_caminos=max_c, solo_sustantivo=solo_sust))
     elif name == "graphify_explicar_institucion":
         q = args.get("query")
         if not q:
@@ -856,7 +952,71 @@ def despachar(name: str, args: dict) -> Any:
         return _con_avisos(legal_graphify_engine.analizar_impacto_normativo(obj))
     elif name == "graphify_god_nodes":
         top = int(args.get("top_n", 10))
-        return _con_avisos(legal_graphify_engine.calcular_god_nodes(top_n=top))
+        solo_sust = bool(args.get("solo_sustantivo", False))
+        return _con_avisos(legal_graphify_engine.calcular_god_nodes(top_n=top, solo_sustantivo=solo_sust))
+    elif name == "jurimetria_analizar_corpus":
+        import jurimetria
+
+        modo = str(args.get("modo") or "completo").strip().lower()
+        coleccion = str(args.get("coleccion") or "cs").strip().lower()
+        norma_filtro = args.get("norma_filtro")
+        agrupacion = str(args.get("agrupacion") or "anio").strip().lower()
+        top_k = int(args.get("top_k") or 15)
+
+        if modo == "red_citaciones":
+            return _con_avisos(jurimetria.analizar_red_citaciones(
+                motor=legal_graphify_engine,
+                coleccion=args.get("coleccion"),
+                norma_filtro=norma_filtro,
+                top_k=top_k,
+            ))
+        if modo == "longitudinal":
+            return jurimetria.estadisticas_longitudinales(
+                coleccion=coleccion,
+                agrupacion=agrupacion,
+                incluir_baremo=True,
+            )
+        if modo == "muestra_validacion":
+            return jurimetria.generar_muestra_validacion_humana(
+                coleccion=coleccion,
+                n=int(args.get("n_muestra") or 50),
+                semilla=int(args.get("semilla") or 42),
+            )
+        return _con_avisos({
+            "modo": "completo",
+            "red_citaciones": jurimetria.analizar_red_citaciones(
+                motor=legal_graphify_engine,
+                coleccion=args.get("coleccion"),
+                norma_filtro=norma_filtro,
+                top_k=top_k,
+            ),
+            "estadisticas_longitudinales": jurimetria.estadisticas_longitudinales(
+                coleccion=coleccion,
+                agrupacion=agrupacion,
+                incluir_baremo=True,
+            ),
+        })
+    elif name == "jurimetria_exportar_investigacion":
+        import re as _re
+        import jurimetria
+
+        tema = str(args.get("tema") or "").strip()
+        if not tema:
+            return {"error": "El parámetro 'tema' es obligatorio."}
+        carpeta = str(args.get("carpeta_salida") or "").strip()
+        if not carpeta:
+            slug_t = _re.sub(r"[^a-z0-9]+", "_", tema.lower()).strip("_")[:48] or "corpus"
+            carpeta = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "exports", "investigacion", slug_t)
+        return jurimetria.exportar_paquete_investigacion(
+            tema=tema,
+            carpeta_salida=carpeta,
+            formatos=args.get("formatos"),
+            incluir_muestra_validacion=True,
+            n_muestra=int(args.get("n_muestra") or 50),
+            semilla=int(args.get("semilla") or 42),
+            coleccion_longitudinal=str(args.get("coleccion_longitudinal") or "cs"),
+            motor=legal_graphify_engine,
+        )
     return None
 
 

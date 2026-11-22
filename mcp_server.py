@@ -291,6 +291,8 @@ ORDEN_ORIGEN: List[str] = [
     "bcn_comparar_versiones",
     "privacidad_anonimizar_documento",
     "verificar_citas_escrito",
+    "jurimetria_analizar_corpus",
+    "jurimetria_exportar_investigacion",
 ]
 if sorted(_POR_NOMBRE) != sorted(ORDEN_ORIGEN):
     raise RuntimeError("servidor/: los dominios no cubren exactamente las herramientas esperadas")
@@ -299,7 +301,8 @@ TOOLS: List[Dict[str, Any]] = [_POR_NOMBRE[_n] for _n in ORDEN_ORIGEN]
 # Metadatos de anotaciones oficiales MCP (readOnlyHint / openWorldHint) para Claude Opus y harnesses
 _HERRAMIENTAS_ESCRITURA = {
     "recurso_proteccion_generar", "generar_documento", "compile_legal_dossier",
-    "export_brief_ojv", "doctrina_ingestar_documento", "suite_auto_update", "suite_instalar"
+    "export_brief_ojv", "doctrina_ingestar_documento", "suite_auto_update", "suite_instalar",
+    "jurimetria_exportar_investigacion",
 }
 # Las que cambian el entorno de la persona (git pull / pip install / archivos de configuración de
 # sus harness): el cliente debe poder pedir confirmación antes de correrlas.
@@ -782,7 +785,8 @@ TOOL_PROFILES: Dict[str, List[str]] = {
         "doctrina_get_institucion", "doctrina_list_obras", "graphify_consulta_subgrafo",
         "graphify_trazar_camino", "graphify_explicar_institucion", "graphify_analizar_impacto",
         "graphify_god_nodes", "graphify_resumen_comunidades", "academia_judicial_buscar_guias",
-        "grafo_ver_corpus", "huggingface_search_dataset"
+        "grafo_ver_corpus", "huggingface_search_dataset",
+        "jurimetria_analizar_corpus", "jurimetria_exportar_investigacion"
     ],
     "clinica": _PROTOCOLO_BASE + [
         "clinica_lenguaje_claro", "clinica_intake_social", "clinica_auditar_borrador",

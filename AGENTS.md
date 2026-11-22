@@ -148,7 +148,7 @@ No hace falta nombrar una herramienta ni escribir un comando: se pide como se le
 | «Es un caso ambiental» · «Mirá la sanción de la SMA» · «¿Qué dijo el Tribunal Ambiental?» | Se llama el módulo `ambiental_consulta_maestra`: sentencias TA, anuarios, boletines, biblioteca ambiental y doctrina, con texto literal |
 
 El agente **debe** usar `caso_analizar` ante esos pedidos, aunque la persona no nombre ninguna
-herramienta: así el trabajo no depende de que el modelo elija bien entre 93 herramientas. Y cuando
+herramienta: así el trabajo no depende de que el modelo elija bien entre 95 herramientas. Y cuando
 la mesa dice que falta algo (el Rol/RIT, las fechas, el RUT), eso se le pide a la persona **antes**
 de ejecutar: no se completa por deducción.
 
@@ -157,7 +157,7 @@ ClaveÚnica y captcha: la suite no automatiza el acceso a un sistema con credenc
 mesa lo dice en sus advertencias y no expone ninguna herramienta que prometa lo contrario.
 
 ## 3. MCP Server and Tool Invocations
-When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`; tool schemas and dispatch live per-domain in `servidor/`) — 93 official tools over 16 forensic, state, doctrinal and agentic connectors (supports `OPENLEGAL_PROFILE=router` for dynamic tool routing via `descubrir_herramientas` / `invocar_herramienta`):
+When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.py`; tool schemas and dispatch live per-domain in `servidor/`) — 95 official tools over 16 forensic, state, doctrinal, jurimetric and agentic connectors (supports `OPENLEGAL_PROFILE=router` for dynamic tool routing via `descubrir_herramientas` / `invocar_herramienta`):
 
 **BCN (Ley Chile):**
 1. `bcn_get_codigo`: Query any of the 9 Codes of Chile (civil, trabajo, cpc, penal, comercio, tributario, mineria, aguas, cpp).
@@ -214,7 +214,9 @@ When assisting users with Chilean law, invoke the local MCP tools (`mcp_server.p
 42. `graphify_trazar_camino`: Trace relational paths between concepts and statutory rules.
 43. `graphify_explicar_institucion`: 360° dogmatic explanation with statutory foundation and Supreme Court criteria.
 44. `graphify_analizar_impacto`: Topological blast radius analysis for legal reforms or jurisprudence shifts.
-45. `graphify_god_nodes`: Structural pillars identification via PageRank and centrality.
+45. `graphify_god_nodes`: Structural pillars identification via PageRank and centrality (supports `solo_sustantivo=True` multiplex super-hub attenuation).
+45 bis. `jurimetria_analizar_corpus`: Empirical citation-network analysis (directed PageRank + HITS Authority/Hub on substantive subgraph), entity-resolution & OCR audit, and longitudinal CS/TC/TA/Baremo statistics with pinned HF revision traceability.
+45 ter. `jurimetria_exportar_investigacion`: Export reproducible scholarly legal research bundles (CSV, GraphML for Gephi/Cytoscape, Apache Parquet, stratified blinded validation sample for Cohen's κ, `METODOLOGIA_REPRODUCIBLE.md`, and `referencia.bib`).
 
 **Autonomous Legal Agents Runtime:**
 46. `agent_list`: List the 19 specialized Chilean legal agent profiles and capabilities.
