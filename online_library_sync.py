@@ -292,20 +292,22 @@ class OnlineLibrarySyncManager:
         """
         manifiesto = self.compilar_manifiesto_corpus()
 
-        # Métricas reales del grafo y de las guías
+        # Métricas reales del grafo curado y de las guías
         nodos, aristas, comunidades = 0, 0, 0
         try:
+            grafo_curado = pathlib.Path(BASE_DIR) / "data/legal_knowledge_graph.json"
             graphify_path = pathlib.Path(BASE_DIR) / "graphify-out/graph.json"
-            if graphify_path.exists():
+            if grafo_curado.exists():
+                grafo = json.loads(grafo_curado.read_text(encoding="utf-8"))
+                nodos_lista = grafo.get("nodes", [])
+                nodos = len(nodos_lista)
+                aristas = len(grafo.get("edges", []))
+                comunidades = len({n.get("community") for n in nodos_lista if n.get("community") is not None})
+            elif graphify_path.exists():
                 g_data = json.loads(graphify_path.read_text(encoding="utf-8"))
                 nodos = len(g_data.get("nodes", []))
                 aristas = len(g_data.get("edges", []))
                 comunidades = len(g_data.get("communities", [])) or 358
-            else:
-                grafo = json.loads(
-                    (pathlib.Path(BASE_DIR) / "data/legal_knowledge_graph.json").read_text(encoding="utf-8")
-                )
-                nodos, aristas = len(grafo.get("nodes", [])), len(grafo.get("edges", []))
         except Exception:
             nodos, aristas, comunidades = 0, 0, 0
         guias = len(list((pathlib.Path(BASE_DIR) / "corpus_guias_aj").glob("*.md")))
@@ -334,6 +336,10 @@ class OnlineLibrarySyncManager:
             p_cs2 = pathlib.Path(BASE_DIR) / "data/jurisprudencia/cs_sentencias_2anios.jsonl"
             if p_cs2.exists():
                 total_cs_2 = sum(1 for _ in p_cs2.open(encoding="utf-8") if _.strip())
+            else:
+                p_punt = pathlib.Path(BASE_DIR) / "mapa_corpus/puntero.json"
+                if p_punt.exists():
+                    total_cs_2 = int(json.loads(p_punt.read_text(encoding="utf-8")).get("conteos", {}).get("col_cs", 0))
             p_tc2 = pathlib.Path(BASE_DIR) / "data/jurisprudencia/tc_sentencias_2anios.jsonl"
             if p_tc2.exists():
                 total_tc_2 = sum(1 for _ in p_tc2.open(encoding="utf-8") if _.strip())
@@ -504,14 +510,19 @@ print(f"Instituciones cargadas: {{len(dataset_inst)}}")
 print(dataset_inst[0]["institucion"])
 ```
 
-### 2. Consulta Remota Zero-Copy con DuckDB
+### 2. Consulta Remota Zero-Copy con DuckDB (Apache Parquet)
 ```python
 import duckdb
 
-# Consulta remota directa sin descargar el dataset completo
-url = "https://huggingface.co/datasets/{repo_id}/resolve/main/data/instituciones.jsonl"
-df = duckdb.read_json(url).filter("institucion ILIKE '%culpa%'").limit(5).df()
+# Consulta analítica remota directa sobre las 5 tablas Apache Parquet
+url = "https://huggingface.co/datasets/{repo_id}/resolve/main/data/parquet/doctrina_fichas.parquet"
+df = duckdb.read_parquet(url).filter("institucion ILIKE '%culpa%'").limit(5).df()
 print(df)
+
+# Distribución de sentencias de la Corte Suprema por sala (70.523 fallos)
+url_corpus = "https://huggingface.co/datasets/{repo_id}/resolve/main/data/parquet/corpus_entradas.parquet"
+rel = duckdb.read_parquet(url_corpus).filter("col = 'cs'")
+print(rel.aggregate("sala, COUNT(*) AS n").order("n DESC").limit(6).df())
 ```
 
 ---

@@ -456,7 +456,15 @@ def subir_parquet_huggingface(
         )
         resultado["grafo_curado_subido"] = True
     if actualizar_dataset_card:
-        card_md = OnlineLibrarySyncManager().preparar_dataset_card_huggingface(repo_id=repo_id)
+        card_ref = OnlineLibrarySyncManager().preparar_dataset_card_huggingface(repo_id=repo_id)
+        card_path = (
+            Path(card_ref)
+            if isinstance(card_ref, (str, Path)) and len(str(card_ref)) < 512 and "\n" not in str(card_ref) and Path(card_ref).is_file()
+            else None
+        )
+        card_md = card_path.read_text(encoding="utf-8") if card_path is not None else str(card_ref)
+        if not card_md.lstrip().startswith("---"):
+            raise ValueError("La Dataset Card generada no contiene cabecera YAML válida ('---').")
         with tempfile.NamedTemporaryFile("w", suffix=".md", encoding="utf-8", delete=False) as tmp:
             tmp.write(card_md)
             tmp_path = tmp.name

@@ -25,8 +25,8 @@ from mapa_corpus import REPO_ID, RUTA_HF
 log = logging.getLogger("mapa_corpus")
 
 ENDPOINT = os.environ.get("HF_ENDPOINT", "https://huggingface.co").rstrip("/")
-# Lo que NO es corpus: el propio mapa (autorreferencia) y la metadata de git.
-EXCLUIDOS_PREFIJO = (RUTA_HF + "/",)
+# Lo que NO es corpus: el propio mapa y las tablas Parquet derivadas (autorreferencia) y la metadata de git.
+EXCLUIDOS_PREFIJO = (RUTA_HF + "/", "data/parquet/")
 EXCLUIDOS_EXACTOS = {".gitattributes"}
 # Se inventaría (para que la wiki siga apareciendo en búsquedas) pero no cuenta para la huella:
 # es el grafo de CÓDIGO, que se regenera aparte.

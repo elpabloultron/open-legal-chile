@@ -311,7 +311,7 @@ def construir(inv: Dict[str, Archivo], sha: str, descargador: Descargador, curad
                                 "aristas": len(capa.aristas) + len(puentes), "alias": len(alias),
                                 "comunidades": len(set(comunidad.values()))}.items())),
         "calidad": dict(sorted(calidad.items())),
-        "excluidos": ["data/mapa/**", ".gitattributes", "jurisprudencia_tc/testrol*"],
+        "excluidos": ["data/mapa/**", "data/parquet/**", ".gitattributes", "jurisprudencia_tc/testrol*"],
     }
     reporte = {"altas": len(altas), "modificados": len(mods), "bajas": len(bajas),
                "descargados": len(a_bajar), "tipos_nodo": grafo.resumen_tipos(capa)}

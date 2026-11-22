@@ -422,3 +422,54 @@ def test_mcp_herramientas_jurimetria_y_perfil_dogmatico(tmp_path):
     assert "error" not in res_exp
     assert (tmp_path / "exp_mcp" / "red_citaciones.graphml").exists()
     assert (tmp_path / "exp_mcp" / "referencia.bib").exists()
+
+
+def test_subir_dataset_card_hf_lee_contenido_yaml_y_no_ruta(tmp_path, monkeypatch):
+    import sys
+    import types
+    from scripts.exportar_parquet_hf import subir_parquet_huggingface
+
+    carpeta = tmp_path / "parquet"
+    carpeta.mkdir()
+    (carpeta / "manifiesto_parquet.json").write_text("{}", encoding="utf-8")
+
+    card_file = tmp_path / "README_HUGGINGFACE.md"
+    card_file.write_text("---\nconfigs:\n- config_name: analytics_parquet\n---\n# Dataset\n", encoding="utf-8")
+
+    subidos = {}
+
+    class _FakeHfApi:
+        def __init__(self, token=None):
+            self.token = token
+
+        def upload_folder(self, **kwargs):
+            return types.SimpleNamespace(commit_url="https://hf.co/fake")
+
+        def upload_file(self, **kwargs):
+            subidos[kwargs["path_in_repo"]] = Path(kwargs["path_or_fileobj"]).read_text(encoding="utf-8")
+            return types.SimpleNamespace(commit_url="https://hf.co/fake")
+
+    import online_library_sync
+    monkeypatch.setattr(online_library_sync, "resolver_token_hf", lambda t=None: "hf_dummy")
+    monkeypatch.setattr(
+        online_library_sync.OnlineLibrarySyncManager,
+        "preparar_dataset_card_huggingface",
+        lambda self, repo_id="": str(card_file),
+    )
+    monkeypatch.setitem(sys.modules, "huggingface_hub", types.SimpleNamespace(HfApi=_FakeHfApi))
+
+    res = subir_parquet_huggingface(carpeta, actualizar_dataset_card=True)
+    assert res["dataset_card_actualizada"] is True
+    assert "README.md" in subidos
+    assert subidos["README.md"].lstrip().startswith("---")
+    assert "analytics_parquet" in subidos["README.md"]
+    assert str(card_file) not in subidos["README.md"]
+
+
+def test_inventario_mapa_excluye_parquet_derivado():
+    from mapa_corpus.inventario import excluido
+
+    assert excluido("data/parquet/corpus_entradas.parquet") is True
+    assert excluido("data/parquet/manifiesto_parquet.json") is True
+    assert excluido("data/mapa/estado.json") is True
+    assert excluido("doctrina/civil/obligaciones.md") is False
