@@ -222,6 +222,7 @@ jobs:
           OPENLEGAL_MAPA_DIR: ${{ env.TRABAJO }}/cache-parquet
         run: |
           pip install --quiet pyarrow
+          python doctrina_connector.py index
           python -c "from mapa_corpus.cliente import obtener_cliente; obtener_cliente().asegurar(bloquear=True, timeout=600)"
           python scripts/exportar_parquet_hf.py --salida "$TRABAJO/parquet" --subir-hf --subir-grafo --subir-card
 
