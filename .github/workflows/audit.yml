@@ -81,6 +81,7 @@ jobs:
           key: bcn-${{ steps.clave.outputs.blob }}-audit-${{ github.run_id }}
           restore-keys: |
             bcn-${{ steps.clave.outputs.blob }}-
+            bcn-
           enableCrossOsArchive: true
 
       - name: Las normas restauradas no vencen durante la suite

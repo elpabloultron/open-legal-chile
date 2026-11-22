@@ -1030,7 +1030,8 @@ def main():
     new_filter_bar = '<div class="mcp-filter-bar" id="toolFilterBar">\n' + "\n".join(filter_btns) + "\n      </div>"
     content = re.sub(old_filter_bar, new_filter_bar, content, count=1, flags=re.DOTALL)
 
-    # 3. Update Navigation Links (Header & Mobile Drawer)
+    # 3. Update Navigation Links (Header & Mobile Drawer) y versión
+    content = content.replace("v1.15.0", "v1.16.0")
     for viejo in ("88", "93"):
         content = content.replace(f"{viejo} Herramientas MCP", f"{total_tools} Herramientas MCP")
         content = content.replace(f"{viejo} herramientas MCP", f"{total_tools} herramientas MCP")

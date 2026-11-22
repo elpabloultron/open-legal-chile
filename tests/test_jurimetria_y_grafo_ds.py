@@ -213,15 +213,88 @@ def test_unificacion_ontologica_baremo_en_alias_y_capa_mapa(tmp_path, fabrica_ma
     assert nodos_baremo == ["baremo_muerte_3"]
 
 
-def test_grafo_curado_real_enriquecido_supera_40_pct_cobertura_normativa():
+def test_grafo_curado_real_enriquecido_supera_55_pct_cobertura_normativa():
     if not os.path.exists(DEFAULT_GRAPH_PATH):
         pytest.skip("no existe data/legal_knowledge_graph.json")
     eng = LegalGraphifyEngine(usar_mapa=False)
     assert eng.cargar_grafo_json(DEFAULT_GRAPH_PATH)
     red = jurimetria.analizar_red_citaciones(motor=eng, top_k=5)
     cal = red["calidad_ontologica"]
-    assert cal["instituciones_enlazadas_a_norma_pct"] >= 40.0
+    assert cal["instituciones_enlazadas_a_norma_pct"] >= 55.0
     assert cal["nodos_baremo_unicos"] == 17
+
+
+def test_filtro_ruido_instituciones_toc_y_ocr():
+    from legal_graphify import es_nodo_ruido_institucion
+
+    assert es_nodo_ruido_institucion("Docentes", "Gabriel Autores") is True
+    assert es_nodo_ruido_institucion("3.2.1   Discriminación", "3.2.2 \tDerecho") is True
+    assert es_nodo_ruido_institucion("41 NOGUEIRA ALCALÁ, Humberto (2006), p. 386", "") is True
+    assert es_nodo_ruido_institucion("Capítulo 4", "", obra="doctrina48981") is True
+    assert es_nodo_ruido_institucion("La Simulación de los Actos Jurídicos", "Concertación entre las partes.") is False
+    assert es_nodo_ruido_institucion("Tutela de Derechos Fundamentales", "Procedimiento laboral especial.") is False
+
+
+def test_extractores_mapa_filtran_normas_ocr_fuera_de_rango():
+    from mapa_corpus import extractores
+
+    texto = "Conforme al Art. 19 N° 24 de la Constitución Política y el falso Art. 1682 de la Constitución."
+    citas = extractores._citas(texto)
+    ids_normas = [nid for nid, _ in citas["normas"]]
+    assert "norma:cpr:19:n24" in ids_normas
+    assert "norma:cpr:1682" not in ids_normas
+
+    lista = extractores.normas_de_lista(["[CPR 1980 - Art. 19 N° 3]", "[CPR 1980 - Art. 1682]"])
+    assert "norma:cpr:19:n3" in lista
+    assert "norma:cpr:1682" not in lista
+
+
+def test_busqueda_hibrida_doctrina_rrf_e_indexacion_vectorial(tmp_path):
+    import doctrina_connector
+
+    doc_dir = tmp_path / "doctrina_test"
+    doc_dir.mkdir()
+    (doc_dir / "laboral.md").write_text(
+        "# Manual de Derecho del Trabajo\n\n"
+        "**Tratadista:** Sergio Gamonal | **Área:** Derecho del Trabajo | **Materia:** Terminación\n\n"
+        "## Tutela de Derechos Fundamentales y Despido con Licencia Médica\n"
+        "**Definición Canónica:** Acción laboral frente a vulneración de la integridad psíquica o discriminación.\n"
+        "**Operativa Procesal Forense:** Procedimiento de tutela laboral (Arts. 485 y ss. Código del Trabajo).\n"
+        "**Concordancias Legales:** [BCN - Código del Trabajo, Art. 485]\n\n"
+        "## Contrato de Compraventa Inmobiliaria\n"
+        "**Definición Canónica:** Convención por la cual una parte se obliga a dar un inmueble y la otra a pagarlo en dinero.\n"
+        "**Concordancias Legales:** [BCN - Código Civil, Art. 1793]\n",
+        encoding="utf-8",
+    )
+    db_tmp = str(tmp_path / "doctrina_vec.db")
+    n_idx = doctrina_connector.index_all_doctrina(doctrina_dir=str(doc_dir), db_path=db_tmp)
+    assert n_idx == 2
+
+    res_idx = doctrina_connector.indexar_doctrina_vectorial(db_path=db_tmp, use_fastembed=False)
+    assert res_idx["indexadas"] == 2
+    assert res_idx["dim"] > 0
+
+    res_hib = doctrina_connector.search_doctrina(
+        "vulneración integridad psíquica licencia médica laboral",
+        limit=2,
+        db_path=db_tmp,
+        hibrido=True,
+    )
+    assert res_hib
+    assert "Tutela" in res_hib[0]["institucion"]
+    assert res_hib[0]["rrf_score"] > 0
+    assert res_hib[0]["modo_busqueda"].startswith("hibrido_rrf:")
+
+
+def test_notebook_jurimetria_duckdb_valido():
+    nb_path = Path(__file__).resolve().parent.parent / "docs" / "investigacion_jurimetrica_duckdb.ipynb"
+    assert nb_path.exists()
+    nb = json.loads(nb_path.read_text(encoding="utf-8"))
+    assert nb["nbformat"] == 4
+    fuentes = "\n".join("".join(c.get("source", [])) for c in nb["cells"])
+    assert "duckdb" in fuentes
+    assert "cohen_kappa" in fuentes
+    assert "baremo_dano_moral" in fuentes
 
 
 # ── Pilar 2: Exportación Apache Parquet ───────────────────────────────────────────────────────

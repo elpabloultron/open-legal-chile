@@ -2,17 +2,17 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.elpabloultron/open-legal-chile",
   "title": "Open Legal Chile",
-  "description": "Suite de Inteligencia Jurídica y 88 herramientas MCP para Chile: BCN, PJUD, doctrina, grafos y OCR.",
+  "description": "Suite de Inteligencia Jurídica y 95 herramientas MCP para Chile: BCN, PJUD, doctrina híbrida, grafo multiplex, jurimetría y OCR.",
   "repository": {
     "url": "https://github.com/elpabloultron/open-legal-chile",
     "source": "github"
   },
-  "version": "1.15.0",
+  "version": "1.16.0",
   "packages": [
     {
       "registryType": "pypi",
       "identifier": "openlegal-chile",
-      "version": "1.15.0",
+      "version": "1.16.0",
       "transport": {
         "type": "stdio"
       },

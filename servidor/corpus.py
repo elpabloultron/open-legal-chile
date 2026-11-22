@@ -171,14 +171,15 @@ TOOLS = [
     },
     {
         "name": "doctrina_search",
-        "description": "Busca en el canon dogmático de manuales y tratados jurídicos chilenos más citados (Barros Bourie, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña) mediante búsqueda por relevancia semántica FTS5 y BM25.",
+        "description": "Busca en el canon dogmático de manuales y tratados jurídicos chilenos más citados (Barros Bourie, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña) mediante búsqueda FTS5 BM25 y modo híbrido semántico opcional (Reciprocal Rank Fusion local).",
         "inputSchema": {
             "type": "object",
             "properties": {
                 "query": {"type": "string", "description": "Término o concepto dogmático a buscar (ej. 'clausula penal', 'culpa infraccional', 'tutela laboral')"},
                 "area": {"type": "string", "description": "Área del derecho (opcional: 'Civil', 'Procesal', 'Penal', 'Laboral', 'Administrativo', 'Constitucional')"},
                 "autor": {"type": "string", "description": "Nombre o apellido del tratadista (opcional: 'Barros', 'Ramos Pazos', 'Cury')"},
-                "limit": {"type": "integer", "description": "Cantidad máxima de resultados (por defecto 5)"}
+                "limit": {"type": "integer", "description": "Cantidad máxima de resultados (por defecto 5)"},
+                "hibrido": {"type": "boolean", "description": "Si es True, fusiona BM25 con similitud vectorial local (RRF) para consultas en lenguaje coloquial (por defecto False)", "default": False}
             },
             "required": ["query"]
         }
@@ -862,12 +863,15 @@ def despachar(name: str, args: dict) -> Any:
             lim = int(args.get("limit", 5))
         except (ValueError, TypeError):
             lim = 5
-        locales = search_doctrina(
-            query=q,
-            area=args.get("area"),
-            autor=args.get("autor"),
-            limit=lim
-        )
+        kwargs_doc: Dict[str, Any] = {
+            "query": q,
+            "area": args.get("area"),
+            "autor": args.get("autor"),
+            "limit": lim,
+        }
+        if args.get("hibrido"):
+            kwargs_doc["hibrido"] = True
+        locales = search_doctrina(**kwargs_doc)
         return _citas_en_items({
             "query": q,
             "resultados": _con_revistas_del_mapa(locales, q, lim, args.get("area"), args.get("autor"))

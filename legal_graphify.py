@@ -148,6 +148,49 @@ RELACIONES_BIBLIOGRAFICAS = frozenset({
 TIPOS_HUB_EDITORIAL = frozenset({"autor", "obra", "revista", "editorial"})
 PESO_ARISTA_BIBLIOGRAFICA = 0.04
 
+# Filtro anti-ruido para encabezados estructurales, índices TOC de PDF, notas al pie y basura OCR
+# que no constituyen instituciones jurídicas genuinas.
+_RE_TOC_NUMERADO = re.compile(r"^(?:\d+(?:\.\d+)+\s+|\d+\.\s+)")
+_RE_PIE_BIBLIO = re.compile(
+    r"^\d+\s+(?:[A-ZÁÉÍÓÚÑ]{3,}|[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?,)"
+    r"\s.*(?:\(\d{4}\)|\bp\.?\s*\d+|\bpp\.?\s*\d+)"
+)
+_RE_NOTA_PIE = re.compile(r"^\d{1,4}\s{2,}[A-ZÁÉÍÓÚÑ]")
+_RE_CABECERA_ESTRUCTURAL = re.compile(
+    r"^(?:docentes?|autores?|índice|indice|bibliograf[ií]a|referencias(?:\s+bibliogr[aá]ficas)?|"
+    r"pr[oó]logo|presentaci[oó]n|introducci[oó]n|anexos?|glosario|agradecimientos?|"
+    r"tabla\s+de\s+contenidos?|sumario|cap[ií]tulo\s+[ivxlcdm\d]+\.?|secci[oó]n\s+\d+\.?|"
+    r"anexo\s+[ivxlcdm\d]+\.?)$",
+    re.IGNORECASE,
+)
+_RE_SOLO_PARENTESIS = re.compile(r"^\([^)]{1,40}\)\.?$")
+_RE_OCR_BASURA = re.compile(r"^(?:[a-z]\.){2,}|^\d{4}-[a-z]-\d+|^[a-z]{1,4}$", re.IGNORECASE)
+
+
+def es_nodo_ruido_institucion(label: str, definicion: str = "", obra: str = "") -> bool:
+    """True si la etiqueta/definición corresponde a una línea de índice (TOC), nota al pie,
+    cabecera editorial o fragmento OCR corrupto y no a una institución dogmática real."""
+    lbl = str(label or "").strip()
+    defin = str(definicion or "").strip()
+    obra_s = str(obra or "").strip()
+    if not lbl:
+        return True
+    if obra_s == "doctrina48981":
+        return True
+    if _RE_CABECERA_ESTRUCTURAL.match(lbl) or _RE_SOLO_PARENTESIS.match(lbl) or _RE_OCR_BASURA.match(lbl):
+        return True
+    if _RE_PIE_BIBLIO.match(lbl) or _RE_NOTA_PIE.match(lbl):
+        return True
+    if "\t" in defin or "\x07" in defin or "   " in lbl:
+        return True
+    if _RE_TOC_NUMERADO.match(lbl) and (_RE_TOC_NUMERADO.match(defin) or len(defin) < 140 or lbl.endswith("-")):
+        return True
+    if len(lbl) < 8 or len(lbl) > 180:
+        return True
+    if lbl.endswith("-") and len(defin) < 120:
+        return True
+    return False
+
 
 def es_arista_sustantiva(u: str, v: str, datos: Dict[str, Any], g: nx.DiGraph) -> bool:
     """True si la arista expresa un vínculo jurídico sustantivo (norma, fallo, doctrina, vía procesal)
@@ -563,10 +606,6 @@ class LegalGraphifyEngine:
             if not titulo or len(titulo) < 3:
                 continue
 
-            total_secciones += 1
-            inst_id = _sanitize_id(titulo, "inst")
-            tocados.add(inst_id)
-
             # Extraer Definición Canónica
             def_match = re.search(
                 r"\*\*Definición Canónica(?:\s*\([^)]+\))?:\*\*\s*\n*(.*?)(?=\n\n|\n\*\*|\n\*|\Z)",
@@ -581,6 +620,14 @@ class LegalGraphifyEngine:
                     if l_str and not l_str.startswith("**") and not l_str.startswith("#"):
                         definicion = l_str[:250] + ("..." if len(l_str) > 250 else "")
                         break
+
+            # Descartar líneas de índice TOC, créditos editoriales y notas al pie OCR sin contenido dogmático
+            if es_nodo_ruido_institucion(titulo, definicion, obra):
+                continue
+
+            total_secciones += 1
+            inst_id = _sanitize_id(titulo, "inst")
+            tocados.add(inst_id)
 
             # Extraer Operativa Procesal Forense
             proc_match = re.search(

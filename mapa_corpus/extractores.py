@@ -21,12 +21,14 @@ import re
 from typing import Any, Dict, List, Optional, Tuple
 
 from citas_legales import normalizar_texto_juridico, normas_canonicas, normas_y_roles, roles_canonicos
+from jurimetria import es_articulo_plausible
 from mapa_corpus import ids
 from mapa_corpus.texto import fecha_iso, fecha_resolucion, leer_front_matter, leer_vinetas, nombra_rol_tc
 
 RESUMEN = 600
 # Reglas de extracción: subir este número fuerza una reconstrucción completa del mapa.
-VERSION_EXTRACTORES = "2"
+# v3: filtra artefactos OCR fuera de rango normativo (p. ej. norma:cpr:1682) vía es_articulo_plausible().
+VERSION_EXTRACTORES = "3"
 
 
 def _decodificar(datos: bytes) -> str:
@@ -69,7 +71,7 @@ def _resumen(texto: str, desde: Tuple[str, ...] = ()) -> str:
 def _citas(texto: str, propio: Optional[str] = None) -> Dict[str, Any]:
     """normas [[id, n]], y roles citados separados por tribunal (sin el propio)."""
     normas_n, roles_n = normas_y_roles(texto)
-    normas = [[i, n] for i, n in normas_n]
+    normas = [[i, n] for i, n in normas_n if es_articulo_plausible(i)]
     roles = [i for i, _ in roles_n if i != propio]
     return {
         "normas": normas,
@@ -261,7 +263,7 @@ def normas_de_lista(normas: Any) -> List[str]:
         s = str(n).strip().strip("`").strip("[]").strip()
         s = re.sub(r"^BCN\s*-\s*", "", s)
         s = re.sub(r"^CPR(?:\s*1980)?\s*-\s*", "Constitución, ", s)
-        salida.extend(i for i, _ in normas_canonicas(s))
+        salida.extend(i for i, _ in normas_canonicas(s) if es_articulo_plausible(i))
     return sorted(set(salida))
 
 
@@ -285,7 +287,7 @@ def fila_doc(ruta: str, datos: bytes, blob: str) -> Dict[str, Any]:
     autores_txt = _autores(meta, {}) if (meta.get("autores") or meta.get("autor")) else (
         ids.separar_autores(m_trat.group(1)) if m_trat else [])
     autores = sorted({a for a in (ids.autor_id(x) for x in autores_txt) if a})
-    normas = {i: n for i, n in normas_canonicas(cuerpo)}
+    normas = {i: n for i, n in normas_canonicas(cuerpo) if es_articulo_plausible(i)}
     for i in normas_de_lista(meta.get("normas_citadas")):
         normas.setdefault(i, 1)
     fila.update({

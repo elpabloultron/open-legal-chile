@@ -30,7 +30,7 @@ externo: es una biblioteca del paquete, con sus herramientas MCP y su comando de
 
 | Grafo | Qué es | Dónde |
 |---|---|---|
-| **Jurídico** | doctrina + normas + jurisprudencia + vías procesales (13.938 nodos · 30.746 aristas) | `data/legal_knowledge_graph.json` |
+| **Jurídico Multiplex** | doctrina depurada + normas BCN + jurisprudencia + Baremo PJUD (18.954 nodos · 57.246 aristas curadas; ~51.260 nodos y ~214.500 aristas en unión con el mapa HF) | `data/legal_knowledge_graph.json` |
 | **De las guías AJ** | las guías de la Academia Judicial y sus normas (autor · obra · norma) | `data/grafo_guias_aj.json` |
 | **Del caso** | se arma con los documentos de la carpeta del caso (escritos, PDFs, notas) | `generar_grafo_vinculos` + `grafo_ver_caso` |
 
@@ -44,14 +44,17 @@ openlegal graph affected "Art. 1464 CC"                  # impacto normativo en 
 openlegal graph god-nodes 10                             # pilares por PageRank
 ```
 
-Y desde cualquier harness, por MCP: `graphify_consulta_subgrafo`, `graphify_trazar_camino`,
+Y desde cualquier harness, por MCP (95 herramientas totales): `graphify_consulta_subgrafo`,
+`graphify_trazar_camino` (con `solo_sustantivo=true` para excluir puentes bibliográficos),
 `graphify_explicar_institucion`, `graphify_analizar_impacto`, `graphify_god_nodes`,
-`graphify_resumen_comunidades` — más `grafo_ver_corpus`, `grafo_ver_caso` y `generar_grafo_vinculos`.
+`graphify_resumen_comunidades`, `jurimetria_analizar_corpus`, `jurimetria_exportar_investigacion` —
+más `grafo_ver_corpus`, `grafo_ver_caso` y `generar_grafo_vinculos`.
 
-## El ahorro y su medición
+## Investigación empírica y ahorro de tokens
 
-Mediana de **99,9 %** de reducción de tokens sobre 9.863 consultas (ficha mediana de 91 tokens
-frente a una obra mediana de 96.536). El método, y la historia de la cifra falsa que se corrigió en
-1.5.3, están en [`medicion_tokens.md`](medicion_tokens.md); el script que lo reproduce es
-`scripts/medir_ahorro_tokens.py`. Visualizador interactivo:
-[Space del grafo](https://huggingface.co/spaces/pablobenavidesj/open-legal-chile-graph).
+Mediana de **99,9 %** de reducción de tokens sobre 7.677 instituciones jurídicas depuradas (ficha
+mediana de 100 tokens frente a una obra mediana de 96.536). El método y la tabla completa viven en
+[`medicion_tokens.md`](medicion_tokens.md) (`scripts/medir_ahorro_tokens.py`), y el cuaderno
+reproducible de jurimetría sobre Apache Parquet + DuckDB en
+[`investigacion_jurimetrica_duckdb.ipynb`](investigacion_jurimetrica_duckdb.ipynb). Visualizador
+interactivo: [Space del grafo](https://huggingface.co/spaces/pablobenavidesj/open-legal-chile-graph).

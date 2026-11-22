@@ -9,13 +9,13 @@
   <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Corpus_MD-7.399_Obras_y_Artículos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
-  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v1.15.0"><img src="https://img.shields.io/badge/Release-v1.15.0-blueviolet?style=for-the-badge&logo=github" alt="Release v1.15.0"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v1.16.0"><img src="https://img.shields.io/badge/Release-v1.16.0-blueviolet?style=for-the-badge&logo=github" alt="Release v1.16.0"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
   <img src="https://img.shields.io/badge/Herramientas_MCP-95_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-702%2F702_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-1.218%2F1.218_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -136,8 +136,8 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
      - `JevScore`: Ponderación local ultrarrápida de relevancia temática.
 
 2. **🧠 `LegalGraphify` (Motor de Grafo de Conocimiento Multiplex — Pensamiento Profundo):**
-   - **Archivo:** `legal_graphify.py` + `jurimetria.py`
-   - **Topología:** Grafo ontológico multiplex con 21.263 nodos y 61.894 aristas curadas (53.569 nodos y 219.146 aristas en unión con el mapa del corpus en Hugging Face), resolución ontológica unificada (Baremo PJUD 17/17 sin duplicados), atenuación de súper-hubs editoriales, análisis jurimétrico PageRank + HITS y exportación reproducible (Apache Parquet, GraphML, CSV y BibTeX).
+   - **Archivo:** `legal_graphify.py` + `jurimetria.py` + cuaderno reproducible [`docs/investigacion_jurimetrica_duckdb.ipynb`](docs/investigacion_jurimetrica_duckdb.ipynb)
+   - **Topología:** Grafo ontológico multiplex depurado con **18.954 nodos y 57.246 aristas curadas** (`57,6 %` de instituciones enlazadas a normas positivas BCN tras poda de `2.363` nodos ruido TOC/OCR; **~51.260 nodos y ~214.500 aristas** en unión con el mapa del corpus en Hugging Face), resolución ontológica unificada (Baremo PJUD 17/17 sin duplicados), atenuación de súper-hubs editoriales, análisis jurimétrico PageRank + HITS y exportación reproducible (Apache Parquet, GraphML, CSV y BibTeX).
    - **Eficiencia Medida:** Reducción de contexto del 99,9% (mediana de 91 tokens por subgrafo sintético frente a 96.536 tokens de la obra doctrinal completa).
    - **Capacidades:** Extracción de subgrafos egocéntricos de radio 1, identificación de instituciones estructurales mediante PageRank (*God Nodes*), y trazado de caminos de deducción dogmática entre normas y fallos rectores de la Corte Suprema.
 

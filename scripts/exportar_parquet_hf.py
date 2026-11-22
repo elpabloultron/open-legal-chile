@@ -418,10 +418,17 @@ def exportar_parquet_completo(
     return manifiesto
 
 
-def subir_parquet_huggingface(carpeta: Path, repo_id: str = HF_REPO_DEFAULT, token: Optional[str] = None) -> Dict[str, Any]:
-    """Publica la carpeta `data/parquet/` en Hugging Face Datasets en un único commit atómico."""
+def subir_parquet_huggingface(
+    carpeta: Path,
+    repo_id: str = HF_REPO_DEFAULT,
+    token: Optional[str] = None,
+    actualizar_dataset_card: bool = False,
+    subir_grafo_curado: bool = False,
+) -> Dict[str, Any]:
+    """Publica `data/parquet/` (y opcionalmente el grafo curado y la Dataset Card YAML) en HF Datasets."""
+    import tempfile
     from huggingface_hub import HfApi
-    from online_library_sync import resolver_token_hf
+    from online_library_sync import OnlineLibrarySyncManager, resolver_token_hf
 
     tok = resolver_token_hf(token)
     if not tok:
@@ -434,7 +441,40 @@ def subir_parquet_huggingface(carpeta: Path, repo_id: str = HF_REPO_DEFAULT, tok
         repo_type="dataset",
         commit_message="analytics: actualiza tablas Apache Parquet para Dataset Viewer y DuckDB SQL",
     )
-    return {"publicado": True, "repo_id": repo_id, "url": str(getattr(info, "commit_url", "") or info)}
+    resultado: Dict[str, Any] = {
+        "publicado": True,
+        "repo_id": repo_id,
+        "url": str(getattr(info, "commit_url", "") or info),
+    }
+    if subir_grafo_curado and Path(DEFAULT_GRAPH_PATH).is_file():
+        api.upload_file(
+            path_or_fileobj=str(DEFAULT_GRAPH_PATH),
+            path_in_repo="data/legal_knowledge_graph.json",
+            repo_id=repo_id,
+            repo_type="dataset",
+            commit_message="graphify: actualiza data/legal_knowledge_graph.json enriquecido y podado",
+        )
+        resultado["grafo_curado_subido"] = True
+    if actualizar_dataset_card:
+        card_md = OnlineLibrarySyncManager().preparar_dataset_card_huggingface(repo_id=repo_id)
+        with tempfile.NamedTemporaryFile("w", suffix=".md", encoding="utf-8", delete=False) as tmp:
+            tmp.write(card_md)
+            tmp_path = tmp.name
+        try:
+            api.upload_file(
+                path_or_fileobj=tmp_path,
+                path_in_repo="README.md",
+                repo_id=repo_id,
+                repo_type="dataset",
+                commit_message="docs(hf): declara config analytics_parquet en Dataset Card YAML",
+            )
+            resultado["dataset_card_actualizada"] = True
+        finally:
+            try:
+                os.unlink(tmp_path)
+            except OSError:
+                pass
+    return resultado
 
 
 def main() -> None:
@@ -445,6 +485,8 @@ def main() -> None:
     parser.add_argument("--mapa-sqlite", default=None, help="Ruta explícita a mapa.sqlite (opcional)")
     parser.add_argument("--sin-mapa", action="store_true", help="Exporta solo datos locales sin cargar capa del mapa HF")
     parser.add_argument("--subir-hf", action="store_true", help="Publica data/parquet/ en Hugging Face Datasets Hub")
+    parser.add_argument("--subir-grafo", action="store_true", help="Publica también data/legal_knowledge_graph.json")
+    parser.add_argument("--subir-card", action="store_true", help="Actualiza también README.md (Dataset Card YAML) en HF")
     parser.add_argument("--repo-hf", default=HF_REPO_DEFAULT, help="Repositorio destino en Hugging Face")
     args = parser.parse_args()
 
@@ -456,7 +498,12 @@ def main() -> None:
         usar_mapa=not args.sin_mapa,
     )
     if args.subir_hf:
-        manifiesto["publicacion_hf"] = subir_parquet_huggingface(Path(args.salida), repo_id=args.repo_hf)
+        manifiesto["publicacion_hf"] = subir_parquet_huggingface(
+            Path(args.salida),
+            repo_id=args.repo_hf,
+            actualizar_dataset_card=args.subir_card,
+            subir_grafo_curado=args.subir_grafo,
+        )
     print(json.dumps(manifiesto, ensure_ascii=False, indent=2))
 
 

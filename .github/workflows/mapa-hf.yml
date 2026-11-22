@@ -223,7 +223,7 @@ jobs:
         run: |
           pip install --quiet pyarrow
           python -c "from mapa_corpus.cliente import obtener_cliente; obtener_cliente().asegurar(bloquear=True, timeout=600)"
-          python scripts/exportar_parquet_hf.py --salida "$TRABAJO/parquet" --subir-hf
+          python scripts/exportar_parquet_hf.py --salida "$TRABAJO/parquet" --subir-hf --subir-grafo --subir-card
 
       - name: Credencial para abrir el PR (GitHub App)
         id: app

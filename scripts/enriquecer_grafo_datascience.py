@@ -44,6 +44,7 @@ from legal_graphify import (
     _TIPOS_SENTENCIA,
     _normalize_str,
     _sanitize_id,
+    es_nodo_ruido_institucion,
 )
 from mapa_corpus.grafo import norma_de_etiqueta
 
@@ -153,11 +154,13 @@ def enriquecer_grafo(
     graph_path: str = DEFAULT_GRAPH_PATH,
     db_path: Path = DOCTRINA_DB,
     dry_run: bool = False,
+    podar_ruido: bool = True,
     incluir_semantico: bool = False,
     max_nodos_semanticos: int = 350,
     umbral_semantico: float = 0.80,
 ) -> Dict[str, Any]:
-    """Ejecuta el enriquecimiento determinista del grafo curado y devuelve el reporte antes/después."""
+    """Ejecuta el enriquecimiento determinista del grafo curado (con poda opcional de nodos ruido TOC/OCR)
+    y devuelve el reporte antes/después."""
     eng = LegalGraphifyEngine(usar_mapa=False)
     if not eng.cargar_grafo_json(graph_path):
         raise RuntimeError(f"No se pudo cargar el grafo base desde {graph_path}")
@@ -181,7 +184,7 @@ def enriquecer_grafo(
     roles_existentes = _indexar_roles_existentes(eng)
     indice_db = _cargar_indice_doctrina_db(db_path)
 
-    # 2. Enlazar instituciones huérfanas (sin norma ni jurisprudencia) contra doctrina.db
+    # 2. Enlazar instituciones huérfanas (sin norma ni jurisprudencia) contra doctrina.db + su propia etiqueta
     tipos_norma = set(_TIPOS_NORMA)
     tipos_sent = set(_TIPOS_SENTENCIA)
     nodos_norma_creados = 0
@@ -190,8 +193,8 @@ def enriquecer_grafo(
     aristas_rol_creadas = 0
     normas_descartadas_ocr = 0
     inst_enriquecidas = 0
+    nodos_ruido_podados = 0
 
-    # Primero recolectar roles citados por >= 2 instituciones o ya existentes para no inflar con ruido
     roles_por_inst: Dict[str, List[str]] = {}
     freq_roles: Counter = Counter()
 
@@ -208,10 +211,11 @@ def enriquecer_grafo(
 
         clave_lbl = _normalize_str(str(nd.get("label") or ""))
         fila_db = indice_db.get(clave_lbl)
-        texto = fila_db[0] if fila_db else " ".join(
+        texto_nodo = " ".join(
             str(nd.get(k) or "") for k in ("label", "definicion", "operativa_procesal", "materia")
         )
-        if len(texto.strip()) < 20:
+        texto = f"{texto_nodo}\n{fila_db[0]}" if fila_db else texto_nodo
+        if len(texto.strip()) < 15:
             continue
 
         enriquecida = False
@@ -295,6 +299,33 @@ def enriquecer_grafo(
                 )
                 aristas_rol_creadas += 1
 
+    # 3. Poda quirúrgica de nodos ruido (líneas TOC, notas al pie, créditos editoriales, OCR basura)
+    #    SOLO cuando carecen por completo de enlaces normativos y jurisprudenciales tras el paso 2.
+    if podar_ruido:
+        a_podar: List[str] = []
+        for nid in sorted(g.nodes()):
+            nd = g.nodes[nid]
+            if nd.get("node_type") != "institucion":
+                continue
+            vec = set(g.successors(nid)) | set(g.predecessors(nid))
+            ts = {str(g.nodes[v].get("node_type") or "") for v in vec}
+            if ts & (tipos_norma | tipos_sent):
+                continue
+            if es_nodo_ruido_institucion(
+                str(nd.get("label") or ""),
+                str(nd.get("definicion") or ""),
+                str(nd.get("obra") or ""),
+            ):
+                a_podar.append(nid)
+        g.remove_nodes_from(a_podar)
+        nodos_ruido_podados = len(a_podar)
+        # Retirar obras editoriales vacías si quedaron sin instituciones (ej. doctrina48981)
+        obras_vacias = [
+            nid for nid, nd in list(g.nodes(data=True))
+            if nd.get("node_type") == "obra" and g.in_degree(nid) == 0 and str(nd.get("label") or "") == "doctrina48981"
+        ]
+        g.remove_nodes_from(obras_vacias)
+
     res_sem: Dict[str, Any] = {}
     if incluir_semantico:
         res_sem = eng.enriquecer_aristas_semanticas(
@@ -321,6 +352,7 @@ def enriquecer_grafo(
             "nodos_rol_creados": nodos_rol_creados,
             "aristas_rol_creadas": aristas_rol_creadas,
             "normas_ocr_descartadas": normas_descartadas_ocr,
+            "nodos_ruido_podados": nodos_ruido_podados,
             "aristas_semanticas": res_sem,
         },
     }
@@ -331,6 +363,7 @@ def main() -> None:
     parser.add_argument("--graph", default=DEFAULT_GRAPH_PATH, help="Ruta al grafo JSON curado")
     parser.add_argument("--db", default=str(DOCTRINA_DB), help="Ruta a doctrina.db")
     parser.add_argument("--dry-run", action="store_true", help="Mide sin escribir en disco")
+    parser.add_argument("--sin-podar-ruido", action="store_true", help="Omite la poda de nodos TOC/OCR")
     parser.add_argument("--semantic", action="store_true", help="Agregar también aristas semánticas latentes")
     parser.add_argument("--max-semantic", type=int, default=350, help="Máximo de nodos huérfanos para enlace semántico")
     parser.add_argument("--umbral-semantic", type=float, default=0.80, help="Umbral coseno para aristas semánticas")
@@ -340,6 +373,7 @@ def main() -> None:
         graph_path=args.graph,
         db_path=Path(args.db),
         dry_run=args.dry_run,
+        podar_ruido=not args.sin_podar_ruido,
         incluir_semantico=args.semantic,
         max_nodos_semanticos=args.max_semantic,
         umbral_semantico=args.umbral_semantic,

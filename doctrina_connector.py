@@ -591,14 +591,19 @@ def search_doctrina(
     area: Optional[str] = None,
     autor: Optional[str] = None,
     limit: int = 5,
-    db_path: Optional[str] = None
+    db_path: Optional[str] = None,
+    hibrido: bool = False,
 ) -> List[Dict[str, Any]]:
     """
     Busca doctrina dogmática chilena utilizando FTS5 con ranking BM25.
+    Con `hibrido=True` fusiona BM25 con similitud vectorial (`fastembed` / `sqlite-vec` / NumPy)
+    mediante Reciprocal Rank Fusion (RRF), 100 % local y sin envío de datos a la nube.
     Permite filtrar por área (Civil, Laboral, Penal, etc.) y por autor.
     Si la base de datos local no existe o no tiene registros, consulta
     el catálogo en memoria de instituciones_lite.jsonl.
     """
+    if hibrido:
+        return search_doctrina_hibrida(query=query, area=area, autor=autor, limit=limit, db_path=db_path)
     db_path = db_path or DB_PATH
     if not _has_doctrina_db(db_path):
         if os.path.exists(DOCTRINA_DIR) and any(f.endswith(".md") for _, _, fs in os.walk(DOCTRINA_DIR) for f in fs):
@@ -843,10 +848,255 @@ def list_obras(db_path: Optional[str] = None) -> List[Dict[str, Any]]:
     return res
 
 
+def indexar_doctrina_vectorial(
+    db_path: Optional[str] = None,
+    use_fastembed: Optional[bool] = None,
+    batch_size: int = 256,
+    max_rows: Optional[int] = None,
+) -> Dict[str, Any]:
+    """
+    Construye un índice vectorial local dentro de `doctrina.db` (`doctrina_vectores` y, si
+    `sqlite-vec` está instalado, tabla virtual `doctrina_vec0`) usando `vector_engine.SemanticEmbeddingEngine`
+    (`fastembed` ONNX multilingüe cuando está habilitado, o proyección léxica determinista 100 % offline).
+    """
+    import time
+    import numpy as np
+    from vector_engine import SemanticEmbeddingEngine, _cargar_sqlite_vec
+
+    inicio = time.perf_counter()
+    db_path = db_path or DB_PATH
+    if not _has_doctrina_db(db_path):
+        index_all_doctrina(db_path=db_path)
+
+    engine = SemanticEmbeddingEngine(use_fastembed=use_fastembed)
+    con = init_db(db_path)
+    vec0_ok = _cargar_sqlite_vec(con)
+    cur = con.cursor()
+    cur.execute(
+        """
+        CREATE TABLE IF NOT EXISTS doctrina_vectores (
+            inst_id INTEGER PRIMARY KEY,
+            dim INTEGER NOT NULL,
+            backend TEXT NOT NULL,
+            embedding BLOB NOT NULL
+        );
+        """
+    )
+    cur.execute("DELETE FROM doctrina_vectores;")
+
+    sql_src = (
+        "SELECT id, area, autor, obra, institucion, definicion, operativa_procesal "
+        "FROM doctrina_instituciones ORDER BY id"
+    )
+    if max_rows is not None and max_rows > 0:
+        sql_src += f" LIMIT {int(max_rows)}"
+    filas = cur.execute(sql_src).fetchall()
+
+    dim = int(engine.dim)
+    vec0_creada = False
+    if vec0_ok and filas:
+        try:
+            cur.execute("DROP TABLE IF EXISTS doctrina_vec0;")
+            cur.execute(f"CREATE VIRTUAL TABLE doctrina_vec0 USING vec0(embedding float[{dim}]);")
+            vec0_creada = True
+        except sqlite3.Error:
+            vec0_creada = False
+
+    total = 0
+    for i in range(0, len(filas), max(1, int(batch_size))):
+        lote = filas[i: i + batch_size]
+        textos = [
+            f"{r[4] or ''}. {r[5] or ''} {r[6] or ''} ({r[1] or ''}, {r[2] or ''})".strip()[:800]
+            for r in lote
+        ]
+        matriz = np.asarray(engine.encode_batch(textos), dtype=np.float32)
+        if matriz.ndim == 2 and matriz.shape[1] != dim:
+            dim = int(matriz.shape[1])
+            if vec0_creada:
+                cur.execute("DROP TABLE IF EXISTS doctrina_vec0;")
+                cur.execute(f"CREATE VIRTUAL TABLE doctrina_vec0 USING vec0(embedding float[{dim}]);")
+        for row_meta, vec in zip(lote, matriz, strict=True):
+            inst_id = int(row_meta[0])
+            blob = vec.astype(np.float32).tobytes()
+            cur.execute(
+                "INSERT OR REPLACE INTO doctrina_vectores (inst_id, dim, backend, embedding) VALUES (?, ?, ?, ?);",
+                (inst_id, dim, str(engine.backend), blob),
+            )
+            if vec0_creada:
+                cur.execute("INSERT INTO doctrina_vec0 (rowid, embedding) VALUES (?, ?);", (inst_id, blob))
+            total += 1
+
+    con.commit()
+    con.close()
+    return {
+        "indexadas": total,
+        "dim": dim,
+        "backend": str(engine.backend),
+        "sqlite_vec_activo": vec0_creada,
+        "segundos": round(time.perf_counter() - inicio, 3),
+        "db_path": db_path,
+    }
+
+
+def search_doctrina_hibrida(
+    query: str,
+    area: Optional[str] = None,
+    autor: Optional[str] = None,
+    limit: int = 5,
+    db_path: Optional[str] = None,
+    use_fastembed: Optional[bool] = None,
+    k_rrf: int = 60,
+) -> List[Dict[str, Any]]:
+    """
+    Búsqueda híbrida de doctrina chilena: combina FTS5 BM25 con similitud vectorial coseno
+    (`doctrina_vectores` / `sqlite-vec` si está indexado, o re-ranking semántico al vuelo sobre
+    candidatos BM25) mediante Reciprocal Rank Fusion (RRF). 100 % local y soberana.
+    """
+    import numpy as np
+    from vector_engine import SemanticEmbeddingEngine, _cargar_sqlite_vec
+
+    db_path = db_path or DB_PATH
+    # 1. Recuperación léxica BM25 (amplia para permitir reordenamiento RRF)
+    bm25_candidatos = search_doctrina(
+        query=query,
+        area=area,
+        autor=autor,
+        limit=max(20, int(limit) * 4),
+        db_path=db_path,
+        hibrido=False,
+    )
+    engine = SemanticEmbeddingEngine(use_fastembed=use_fastembed)
+    q_vec = np.asarray(engine.encode(query), dtype=np.float32)
+
+    sem_ranking: List[Tuple[int, float]] = []
+    por_id: Dict[int, Dict[str, Any]] = {int(d["id"]): dict(d) for d in bm25_candidatos if d.get("id") is not None}
+
+    # 2. Recuperación vectorial si `doctrina_vectores` existe en `doctrina.db`
+    if _has_doctrina_db(db_path):
+        con = init_db(db_path)
+        vec0_ok = _cargar_sqlite_vec(con)
+        cur = con.cursor()
+        tiene_tabla = cur.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='doctrina_vectores';"
+        ).fetchone()
+        if tiene_tabla:
+            # Preferir KNN nativo `sqlite-vec` si no hay filtros y `doctrina_vec0` está disponible
+            uso_vec0 = False
+            if vec0_ok and not area and not autor:
+                tiene_v0 = cur.execute(
+                    "SELECT 1 FROM sqlite_master WHERE type='table' AND name='doctrina_vec0';"
+                ).fetchone()
+                if tiene_v0:
+                    try:
+                        top_knn = cur.execute(
+                            "SELECT rowid, distance FROM doctrina_vec0 WHERE embedding MATCH ? ORDER BY distance LIMIT ?;",
+                            (q_vec.tobytes(), max(20, int(limit) * 4)),
+                        ).fetchall()
+                        sem_ranking = [(int(r[0]), max(0.0, 1.0 - float(r[1]))) for r in top_knn]
+                        uso_vec0 = bool(sem_ranking)
+                    except sqlite3.Error:
+                        uso_vec0 = False
+            if not uso_vec0:
+                sql_v = (
+                    "SELECT v.inst_id, v.embedding FROM doctrina_vectores v "
+                    "JOIN doctrina_instituciones d ON d.id = v.inst_id WHERE 1=1"
+                )
+                v_params: List[Any] = []
+                if area:
+                    sql_v += " AND d.area LIKE ?"
+                    v_params.append(_normalize_area_filter(area))
+                if autor:
+                    sql_v += " AND d.autor LIKE ?"
+                    v_params.append(f"%{autor}%")
+                filas_v = cur.execute(sql_v, v_params).fetchall()
+                ids_v: List[int] = []
+                vecs_v: List[np.ndarray] = []
+                for iid, blob in filas_v:
+                    arr = np.frombuffer(blob, dtype=np.float32)
+                    if arr.shape == q_vec.shape:
+                        ids_v.append(int(iid))
+                        vecs_v.append(arr)
+                if vecs_v:
+                    mat = np.vstack(vecs_v)
+                    sims = mat @ q_vec
+                    top_idx = np.argsort(-sims)[: max(20, int(limit) * 4)]
+                    sem_ranking = [(ids_v[int(idx)], float(sims[int(idx)])) for idx in top_idx]
+
+            # Hidratar fichas recuperadas solo por vía vectorial
+            faltan_ids = [iid for iid, _ in sem_ranking if iid not in por_id]
+            if faltan_ids:
+                placeholders = ",".join("?" for _ in faltan_ids)
+                for row in cur.execute(
+                    f"SELECT id, institucion, definicion, SUBSTR(contenido, 1, 300), concordancias, "  # nosec B608
+                    f"fallo_rector, area, autor, obra, operativa_procesal "
+                    f"FROM doctrina_instituciones WHERE id IN ({placeholders});",
+                    faltan_ids,
+                ):
+                    por_id[int(row[0])] = {
+                        "id": int(row[0]),
+                        "institucion": row[1],
+                        "definicion": row[2],
+                        "snippet": row[3],
+                        "concordancias": row[4],
+                        "fallo_rector": row[5],
+                        "area": row[6],
+                        "autor": row[7],
+                        "obra": row[8],
+                        "operativa_procesal": row[9] or "",
+                        "bm25_score": 0.0,
+                        "cita_oficial": f"[Doctrina - {row[7]}, {row[8]}, Institución: {row[1]}]",
+                        "fuente_huggingface": "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile",
+                    }
+        con.close()
+
+    # 3. Fallback sin tabla `doctrina_vectores`: re-ranking semántico al vuelo sobre candidatos BM25
+    if not sem_ranking and bm25_candidatos:
+        textos_c = [
+            f"{d.get('institucion', '')}. {d.get('definicion', '')} {d.get('snippet', '')}".strip()[:600]
+            for d in bm25_candidatos
+        ]
+        mat_c = np.asarray(engine.encode_batch(textos_c), dtype=np.float32)
+        sims_c = mat_c @ q_vec
+        pares = [
+            (int(d["id"]), float(sims_c[idx]))
+            for idx, d in enumerate(bm25_candidatos)
+            if d.get("id") is not None
+        ]
+        pares.sort(key=lambda x: -x[1])
+        sem_ranking = pares
+
+    # 4. Fusión Reciprocal Rank Fusion (RRF)
+    rrf_scores: Dict[int, float] = {}
+    sem_map = {iid: sc for iid, sc in sem_ranking}
+    for rank_idx, d in enumerate(bm25_candidatos, 1):
+        if d.get("id") is None:
+            continue
+        iid = int(d["id"])
+        rrf_scores[iid] = rrf_scores.get(iid, 0.0) + 1.0 / (k_rrf + rank_idx)
+    for rank_idx, (iid, _sc) in enumerate(sem_ranking, 1):
+        rrf_scores[iid] = rrf_scores.get(iid, 0.0) + 1.0 / (k_rrf + rank_idx)
+
+    ordenados = sorted(rrf_scores.items(), key=lambda kv: (-kv[1], -sem_map.get(kv[0], 0.0), kv[0]))
+    salida: List[Dict[str, Any]] = []
+    for iid, rrf_sc in ordenados[: max(1, int(limit))]:
+        item = por_id.get(iid)
+        if not item:
+            continue
+        item = dict(item)
+        item["rrf_score"] = round(rrf_sc, 5)
+        item["semantic_score"] = round(float(sem_map.get(iid, 0.0)), 4)
+        item["modo_busqueda"] = f"hibrido_rrf:{engine.backend}"
+        salida.append(item)
+    return salida
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "index":
         total = index_all_doctrina()
         print(f"✅ Indexación completada: {total} instituciones dogmáticas indexadas en {DB_PATH}")
+    elif len(sys.argv) > 1 and sys.argv[1] == "index-vec":
+        res_v = indexar_doctrina_vectorial()
+        print(f"✅ Indexación vectorial completada: {res_v}")
     elif len(sys.argv) > 1 and sys.argv[1] == "list":
         obras = list_obras()
         print(f"📚 Obras Indexadas ({len(obras)}):")

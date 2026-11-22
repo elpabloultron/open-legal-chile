@@ -48,6 +48,7 @@ jobs:
           key: bcn-${{ steps.clave.outputs.blob }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             bcn-${{ steps.clave.outputs.blob }}-
+            bcn-
           enableCrossOsArchive: true
 
       # Una norma que no se pudo refrescar pero tiene copia es sólo un aviso (la BCN falla a ratos).
@@ -160,6 +161,7 @@ jobs:
           key: bcn-${{ steps.clave.outputs.blob }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             bcn-${{ steps.clave.outputs.blob }}-
+            bcn-
           enableCrossOsArchive: true
 
       - name: Las normas restauradas no vencen durante la suite
@@ -270,11 +272,12 @@ jobs:
           assert len(catalogo["agentes"]) >= 19, catalogo
           assert "Protocolo no disponible" not in respuestas[4]["result"]["contents"][0]["text"]
 
-          assert len(herramientas) == 88, f"{len(herramientas)} herramientas en el paquete instalado"
+          assert len(herramientas) == 95, f"{len(herramientas)} herramientas en el paquete instalado"
           for nombre in ("consulta_maestra", "cita_texto", "huggingface_search_dataset", "bcn_get_codigo",
                          "suite_doctor", "busqueda_universal", "skills_listar", "skill_ver",
                          "critique_documento", "generar_documento", "entrevista_estudio",
-                         "ocr_plan_documento", "suite_instalar"):
+                         "ocr_plan_documento", "suite_instalar", "jurimetria_analizar_corpus",
+                         "jurimetria_exportar_investigacion"):
               assert nombre in herramientas, f"falta {nombre}"
           print(f"MCP OK: {len(herramientas)} herramientas")
           PY
@@ -290,9 +293,20 @@ jobs:
           datos = json.loads(texto[texto.index("{"):])
           assert datos["harnesses"] == ["claude-code"], datos
           assert datos["doctor"]["estado"] in ("ok", "degradado"), datos
-          assert datos["herramientas"] == 88, datos
+          assert datos["herramientas"] == 95, datos
           assert pathlib.Path("/tmp/proyecto/.mcp.json").exists(), "no escribió la configuración"
           print("instalar OK:", datos["harnesses"], "·", datos["doctor"]["estado"])
+          PY
+
+      - name: Compuerta de regresión RAG y Grounding Doctrinal (evals/rag_evaluator.py)
+        run: |
+          PYTHONPATH=. /tmp/limpio/bin/python - <<'PY'
+          from evals.rag_evaluator import evaluate_rag_retrieval
+
+          res = evaluate_rag_retrieval()
+          assert res["promedio_score"] >= 9.0, f"RAG score bajo umbral: {res}"
+          assert res["hf_link_integrity_pct"] == 100.0, f"Enlaces HF incompletos: {res}"
+          print(f"RAG Gate OK: {res['promedio_score']}/10.0 ({res['hf_link_integrity_pct']}% HF links)")
           PY
 
   harness:
