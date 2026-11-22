@@ -8,7 +8,7 @@
     "col_bib": 87,
     "col_cs": 70523,
     "col_cs_indice": 12,
-    "col_dato": 24,
+    "col_dato": 29,
     "col_ddhh": 774,
     "col_doc": 7398,
     "col_extranjeria": 162,
@@ -21,14 +21,14 @@
     "col_ta": 886,
     "col_tc": 1433,
     "comunidades": 63,
-    "entradas": 82717,
+    "entradas": 82722,
     "nodos": 35198
   },
   "esquema": 1,
-  "fecha_fuente": "2026-11-22T15:36:10.000Z",
+  "fecha_fuente": "2026-11-22T16:36:17.000Z",
   "repo_id": "pablobenavidesj/doctrina-jurisprudencia-chile",
-  "revision_mapa": "3a020954fa18130316bdf6d25f194bb47ec1a3b8",
+  "revision_mapa": "78c4d2c237018c68f2fe1b003c3291769c24ec20",
   "ruta": "data/mapa",
-  "sha256_estado": "c2a3ded7bde41c1098cba6f2460acbd688294f979930620f18941782e7a48bd6",
-  "sha_fuente": "add7bda3b4a5840b2cfb1a6912e91423918933fe"
+  "sha256_estado": "8ffd2e7590b5f68f8606544873485038733d2168146c3a257236fffed4f31576",
+  "sha_fuente": "6e002a2d3db14a1f0ec2a00be3e7785d7b620dc5"
 }
