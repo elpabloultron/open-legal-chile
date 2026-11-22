@@ -87,6 +87,20 @@ TOOLS = [
         }
     },
     {
+        "name": "bcn_comparar_versiones",
+        "description": "Compara el tenor literal de un código o ley chilena en dos fechas (diff intertemporal BCN) para detectar reformas legales, vacancia legal y ultraactividad procesal.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "norma": {"type": "string", "description": "Nombre del código ('trabajo', 'civil', 'cpc') o número de ley ('19.300', '21643')"},
+                "fecha_a": {"type": "string", "description": "Fecha histórica inicial en formato YYYY-MM-DD"},
+                "fecha_b": {"type": "string", "description": "Segunda fecha YYYY-MM-DD (si se omite, compara contra la versión vigente actual)", "default": ""},
+                "articulo": {"type": "string", "description": "Número de artículo específico a comparar (opcional)"}
+            },
+            "required": ["norma", "fecha_a"]
+        }
+    },
+    {
         "name": "bcn_get_ley_historica",
         "description": "Consulta el texto de una ley chilena vigente en una fecha histórica específica (YYYY-MM-DD) en la BCN para control de derecho intertemporal.",
         "inputSchema": {
@@ -466,6 +480,13 @@ def despachar(name: str, args: dict) -> Any:
         if not cod or not fecha:
             return {"error": "Los parámetros 'codigo' y 'fecha' (YYYY-MM-DD) son obligatorios."}
         return bcn.get_codigo_historico(cod, fecha, args.get("articulo"))
+    elif name == "bcn_comparar_versiones":
+        norma = str(args.get("norma") or "").strip()
+        fecha_a = str(args.get("fecha_a") or "").strip()
+        fecha_b = str(args.get("fecha_b") or "").strip()
+        if not norma or not fecha_a:
+            return {"error": "Los parámetros 'norma' y 'fecha_a' (YYYY-MM-DD) son obligatorios."}
+        return bcn.comparar_versiones(norma, fecha_a, fecha_b=fecha_b, articulo=args.get("articulo"))
     elif name == "cgr_search_jurisprudencia":
         doc_id = args.get("doc_id")
         doc_ids = args.get("doc_ids")
@@ -531,13 +552,20 @@ def despachar(name: str, args: dict) -> Any:
             proyectos = [p for p in proyectos if isinstance(p, dict) and r_lower in json.dumps(p, ensure_ascii=False).lower()]
         cap_list = capacidad if isinstance(capacidad, list) else []
         proy_list = proyectos if isinstance(proyectos, list) else []
-        return {
+        respuesta_cne: dict[str, Any] = {
             "region": region or "todas",
             "centrales_total": len(cap_list),
             "centrales_muestra": cap_list[:15],
             "proyectos_sea_total": len(proy_list),
-            "proyectos_sea_muestra": proy_list[:15]
+            "proyectos_sea_muestra": proy_list[:15],
         }
+        tiene_cred = getattr(cne, "tiene_credenciales", lambda: True)()
+        if not cap_list and not proy_list and not tiene_cred:
+            respuesta_cne["estado"] = "sin_credenciales"
+            respuesta_cne["faltantes"] = [
+                "CNE Energía Abierta requiere credenciales CNE_EMAIL y CNE_PASSWORD en .env (registro gratuito en https://api.cne.cl). Sin ellas ni caché previa, el total 0 refleja ausencia de consulta y no inexistencia de proyectos."
+            ]
+        return respuesta_cne
     elif name == "panel_expertos_search":
         numero = args.get("numero")
         numeros = args.get("numeros")

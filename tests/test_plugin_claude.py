@@ -49,7 +49,7 @@ def test_todas_las_versiones_coinciden():
     server = json.loads((RAIZ / "server.json").read_text(encoding="utf-8"))
     assert server["version"] == version
     assert all(p["version"] == version for p in server["packages"])
-    assert f'version="{version}"' in (RAIZ / "setup.py").read_text(encoding="utf-8")
+    assert not (RAIZ / "setup.py").exists()
     assert f'"version": "{version}"' in (RAIZ / "mcp_server.py").read_text(encoding="utf-8")
     assert f'CURRENT_VERSION = "{version}"' in (RAIZ / "update_checker.py").read_text(encoding="utf-8")
     gemini = RAIZ / "gemini-extension.json"

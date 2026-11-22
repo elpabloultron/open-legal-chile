@@ -64,9 +64,8 @@ def test_el_ocr_viaja_como_dependencia_base():
         "rapidocr-onnxruntime tiene que estar en las dependencias base, no en un extra")
     assert "ocr" not in proyecto.get("optional-dependencies", {}), (
         "el extra 'ocr' dejó de existir: el OCR ya no es opcional")
-
-    setup_py = (RAIZ / "setup.py").read_text(encoding="utf-8")
-    assert "rapidocr" in setup_py, "setup.py (vía legada) también tiene que llevar el OCR"
+    assert not (RAIZ / "setup.py").exists(), (
+        "setup.py fue retirado: pyproject.toml (PEP 621) es la única fuente de verdad del empaquetado")
 
 
 def test_los_dominios_del_servidor_viajan_en_el_paquete():
@@ -106,10 +105,8 @@ def test_todos_los_modulos_de_la_raiz_viajan_en_el_paquete():
     assert not faltan, f"módulos que NO viajan al wheel: {faltan}"
     assert not sobran, f"declarados pero inexistentes: {sobran}"
 
-    # Una sola fuente de verdad: setup.py no debe volver a tener su propia lista.
-    setup_py = (RAIZ / "setup.py").read_text(encoding="utf-8")
-    assert "py_modules=" not in setup_py, (
-        "py_modules volvió a setup.py: dos listas divergentes son la falla que dejó 1.7.0 roto")
+    # Una sola fuente de verdad PEP 621: no debe existir setup.py paralelo.
+    assert not (RAIZ / "setup.py").exists(), "setup.py reapareció: usar exclusivamente pyproject.toml"
 
 
 
@@ -139,7 +136,6 @@ def test_el_ejecutable_se_llama_como_el_paquete():
     paquete; sin el alias, fallaban con «no executable named openlegal-chile»."""
     scripts = _setuptools_cfg()["project"]["scripts"]
     assert scripts["openlegal-chile"] == scripts["openlegal-mcp"] == "mcp_server:main"
-    assert "openlegal-chile=mcp_server:main" in (RAIZ / "setup.py").read_text(encoding="utf-8")
 
 
 def test_ruta_recurso_encuentra_la_copia_instalada(tmp_path, monkeypatch):

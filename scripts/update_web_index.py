@@ -696,7 +696,7 @@ NEW_SECTIONS_HTML = """  <!-- Step 04B: Buscador Interactivo Multi-Corpus, Barem
     <span class="eyebrow-step">Sostenibilidad Open Source · Formación, Consultoría &amp; Alianzas</span>
     <h2 class="step-h2">Capacitación Ejecutiva, Despliegue Privado On-Premise y Alianzas Académicas</h2>
     <p class="step-desc">
-      El núcleo de <strong>Open Legal Chile</strong> (sus 88 herramientas MCP, 19 agentes autónomos, 27 skills y el corpus en Hugging Face) es un <strong>bien público digital 100 % gratuito bajo licencia Apache 2.0</strong>. Para estudios jurídicos, gerencias legales, organismos públicos y universidades que buscan dominar la IA jurídica soberana o desplegar infraestructura privada en sus propios servidores, ofrecemos tres modalidades de trabajo directo:
+      El núcleo de <strong>Open Legal Chile</strong> (sus 93 herramientas MCP, 19 agentes autónomos, 21 skills jurídicas y el corpus en Hugging Face) es un <strong>bien público digital 100 % gratuito bajo licencia Apache 2.0</strong>. Para estudios jurídicos, gerencias legales, organismos públicos y universidades que buscan dominar la IA jurídica soberana o desplegar infraestructura privada en sus propios servidores, ofrecemos tres modalidades de trabajo directo:
     </p>
 
     <div class="consulting-grid">
@@ -1007,49 +1007,54 @@ def main():
         flags=re.DOTALL,
     )
 
-    # 2. Update Tool Filter Buttons (88 tools)
+    # 2. Update Tool Filter Buttons dynamically from tools_data
+    from collections import Counter
+    cat_counts = Counter(t["category"] for t in tools_data)
+    total_tools = len(tools_data)
+    cat_order = [
+        "Protocolo & Citas",
+        "Agentes & IA Jurídica",
+        "Doctrina & Graphify",
+        "BCN Normativo",
+        "CBR Inmobiliario",
+        "Tribunales & PJUD",
+        "Regulatorio & Fiscal",
+        "Suite & Utilidades",
+    ]
+    filter_btns = [f'        <button class="filter-btn active" data-cat="all">Todas ({total_tools})</button>']
+    for cname in cat_order:
+        filter_btns.append(f'        <button class="filter-btn" data-cat="{cname}">{cname} ({cat_counts.get(cname, 0)})</button>')
     old_filter_bar = r'<div class="mcp-filter-bar" id="toolFilterBar">.*?</div>'
-    new_filter_bar = """<div class="mcp-filter-bar" id="toolFilterBar">
-        <button class="filter-btn active" data-cat="all">Todas (88)</button>
-        <button class="filter-btn" data-cat="Protocolo & Citas">Protocolo & Citas (2)</button>
-        <button class="filter-btn" data-cat="Agentes & IA Jurídica">Agentes & IA Jurídica (7)</button>
-        <button class="filter-btn" data-cat="Doctrina & Graphify">Doctrina & Graphify (15)</button>
-        <button class="filter-btn" data-cat="BCN Normativo">BCN Normativo (4)</button>
-        <button class="filter-btn" data-cat="CBR Inmobiliario">CBR Inmobiliario (2)</button>
-        <button class="filter-btn" data-cat="Tribunales & PJUD">Tribunales & PJUD (9)</button>
-        <button class="filter-btn" data-cat="Regulatorio & Fiscal">Regulatorio & Fiscal (17)</button>
-        <button class="filter-btn" data-cat="Suite & Utilidades">Suite & Utilidades (32)</button>
-      </div>"""
+    new_filter_bar = '<div class="mcp-filter-bar" id="toolFilterBar">\n' + "\n".join(filter_btns) + "\n      </div>"
     content = re.sub(old_filter_bar, new_filter_bar, content, count=1, flags=re.DOTALL)
 
     # 3. Update Navigation Links (Header & Mobile Drawer)
-    if 'href="#buscador-corpus"' not in content:
-        content = content.replace(
-            '<a href="#herramientas" class="nav-link">88 Herramientas MCP</a>',
-            '<a href="#buscador-corpus" class="nav-link" style="color:#38bdf8; font-weight:600;">🔎 Buscador &amp; Baremo</a>\n        <a href="#herramientas" class="nav-link">88 Herramientas MCP</a>\n        <a href="#formacion-consultoria" class="nav-link" style="color:#86efac; font-weight:600;">🎓 Capacitación &amp; Consultoría</a>',
-        )
-        content = content.replace(
-            '<a href="#herramientas" class="mobile-nav-item">⚡ 88 Herramientas MCP</a>',
-            '<a href="#buscador-corpus" class="mobile-nav-item">🔎 Buscador Multi-Corpus &amp; Baremo PJUD</a>\n        <a href="#herramientas" class="mobile-nav-item">⚡ 88 Herramientas MCP</a>\n        <a href="#formacion-consultoria" class="mobile-nav-item">🎓 Capacitación, Consultoría &amp; Alianzas</a>',
-        )
+    content = content.replace("88 Herramientas MCP", f"{total_tools} Herramientas MCP")
+    content = content.replace("88 herramientas MCP", f"{total_tools} herramientas MCP")
+    content = content.replace("88 herramientas", f"{total_tools} herramientas")
 
-    # 4. Update stats (88 tools, 27 skills)
-    content = content.replace(
-        '<div class="stat-num" data-target="87" data-suffix="">87</div>',
-        '<div class="stat-num" data-target="88" data-suffix="">88</div>',
+    # 4. Update stats (93 tools, 21 skills jurídicas)
+    content = re.sub(
+        r'<div class="stat-num" data-target="(?:87|88)" data-suffix="">(?:87|88)</div>',
+        f'<div class="stat-num" data-target="{total_tools}" data-suffix="">{total_tools}</div>',
+        content,
     )
-    content = content.replace(
-        '<span class="suite-layer-title">⚡ Servidor MCP Nativo (87 Tools)</span>',
-        '<span class="suite-layer-title">⚡ Servidor MCP Nativo (88 Tools)</span>',
+    content = re.sub(
+        r'<span class="suite-layer-title">⚡ Servidor MCP Nativo \((?:87|88) Tools\)</span>',
+        f'<span class="suite-layer-title">⚡ Servidor MCP Nativo ({total_tools} Tools)</span>',
+        content,
     )
-    content = content.replace(
-        '<span class="claim-tag">[18 SKILLS]</span>',
-        '<span class="claim-tag">[27 SKILLS]</span>',
+    content = re.sub(
+        r'<span class="claim-tag">\[(?:18|27) SKILLS\]</span>',
+        '<span class="claim-tag">[21 SKILLS]</span>',
+        content,
     )
-    content = content.replace(
-        '<span class="suite-layer-meta">18 Skills · Espacio casos/ · Grafo Local</span>',
-        '<span class="suite-layer-meta">27 Skills · Espacio casos/ · Grafo Local</span>',
+    content = re.sub(
+        r'<span class="suite-layer-meta">(?:18|27) Skills · Espacio casos/ · Grafo Local</span>',
+        '<span class="suite-layer-meta">21 Skills · Espacio casos/ · Grafo Local</span>',
+        content,
     )
+    content = content.replace("27 skills", "21 skills jurídicas")
 
     # 5. Add new CSS styles
     if "/* --- Buscador Multi-Corpus, Baremo & Formación Consultoría --- */" not in content:

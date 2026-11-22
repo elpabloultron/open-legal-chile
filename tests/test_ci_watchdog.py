@@ -20,11 +20,11 @@ def test_clasificar_fallo_skills_lock():
 def test_clasificar_fallo_bandit():
     log = """
     >> Issue: [B108:hardcoded_tmp_directory] Probable insecure usage of temp file/directory.
-       Location: ./scripts/generar_informe_pdf.py:510:15
+       Location: ./scripts/ejemplo_bandit.py:510:15
     """
     analisis = ci_watchdog.clasificar_fallo(log)
     assert analisis["tipo"] == "BANDIT_SAST"
-    assert analisis["archivo"] == "./scripts/generar_informe_pdf.py"
+    assert analisis["archivo"] == "./scripts/ejemplo_bandit.py"
     assert analisis["linea"] == "510"
 
 

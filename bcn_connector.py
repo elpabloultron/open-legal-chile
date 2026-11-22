@@ -572,6 +572,86 @@ class BCNClient:
 
         return results[:limit]
 
+    def comparar_versiones(
+        self,
+        norma: str,
+        fecha_a: str,
+        fecha_b: str = "",
+        articulo: Optional[str] = None,
+    ) -> Dict[str, Any]:
+        """Compara el tenor literal de un código o ley en dos fechas (diff intertemporal).
+
+        Si `fecha_b` se omite, compara la versión histórica en `fecha_a` contra la redacción vigente actual.
+        Detecta reformas, vigencia diferida/vacancia legal y emite alerta de ultraactividad procesal.
+        """
+        import difflib
+
+        norma_clean = str(norma).strip()
+        es_codigo = norma_clean.lower() in CODIGOS_REPUBLICA
+        art = str(articulo).strip() if articulo else None
+
+        if es_codigo:
+            ver_a = self.get_codigo_historico(norma_clean, fecha_a, articulo=art)
+            ver_b = (
+                self.get_codigo_historico(norma_clean, fecha_b, articulo=art)
+                if fecha_b.strip()
+                else self.get_codigo(norma_clean, articulo=art)
+            )
+        else:
+            num = int(re.sub(r"[^\d]", "", norma_clean) or 0)
+            if num <= 0:
+                return {"error": f"Norma inválida para comparar versiones: '{norma}'."}
+            ver_a = self.get_ley_historica(num, fecha_a, articulo=art)
+            if fecha_b.strip():
+                ver_b = self.get_ley_historica(num, fecha_b, articulo=art)
+            else:
+                ver_b = self.get_articulo_ley(num, art) if art else self.get_ley(num)
+
+        if ver_a.get("error") or ver_b.get("error"):
+            return {
+                "norma": norma_clean,
+                "articulo": art or "",
+                "fecha_a": fecha_a,
+                "fecha_b": fecha_b or "vigente",
+                "error": ver_a.get("error") or ver_b.get("error"),
+                "version_a": ver_a,
+                "version_b": ver_b,
+            }
+
+        txt_a = str(ver_a.get("texto") or "").strip()
+        txt_b = str(ver_b.get("texto") or "").strip()
+        etiqueta_b = fecha_b.strip() or str(ver_b.get("fechaVersion") or "vigente")
+
+        lineas_a = [ln.strip() for ln in re.split(r"(?<=[.;:])\s+|\n+", txt_a) if ln.strip()]
+        lineas_b = [ln.strip() for ln in re.split(r"(?<=[.;:])\s+|\n+", txt_b) if ln.strip()]
+        diff_lines = list(
+            difflib.unified_diff(
+                lineas_a,
+                lineas_b,
+                fromfile=f"{norma_clean}@{fecha_a}",
+                tofile=f"{norma_clean}@{etiqueta_b}",
+                lineterm="",
+            )
+        )
+        hubo_cambios = bool(diff_lines)
+        alerta = (
+            "ALERTA INTERTEMPORAL: El texto cambió entre ambas fechas. Verificar aplicación de la "
+            "Ley sobre Efecto Retroactivo de las Leyes (1861), vacancia legal y ultraactividad procesal."
+            if hubo_cambios
+            else "Sin diferencias textuales entre ambas fechas."
+        )
+        return {
+            "norma": norma_clean,
+            "articulo": art or "",
+            "fecha_a": fecha_a,
+            "fecha_b": etiqueta_b,
+            "hubo_cambios": hubo_cambios,
+            "alerta_intertemporal": alerta,
+            "diff_unificado": "\n".join(diff_lines[:200]),
+            "texto_a": txt_a[:3000],
+            "texto_b": txt_b[:3000],
+        }
+
 
 # ==============================================================================
 # CLI DE CONSULTA RÁPIDA

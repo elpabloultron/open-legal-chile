@@ -61,6 +61,116 @@ bajo el Derecho Continental Chileno (Civil Law) a través de 5 dimensiones estri
 
 Devuelve tu informe estructurado con puntuación (1 a 10) por dimensión y recomendaciones concretas de corrección."""
 
+GOLDFISH_SYSTEM_PROMPT = """Eres un Tribunal Contradictorio de Contexto Cero («Modelo Elephant-Goldfish») para el Derecho de la República de Chile.
+NO conoces ni debes asumir ninguna intención previa del redactor. Evalúa EXCLUSIVAMENTE el texto recibido desde tres roles independientes:
+
+1. MINISTRO RELATOR (Corte de Apelaciones / Corte Suprema):
+   - Detecta causales de ineptitud del libelo (Art. 254 y Art. 303 N.° 4 CPC), defectos de competencia, falta de peticiones concretas («Por Tanto») o vicios formales de tramitación digital (Ley N.° 20.886 / Ley N.° 18.120).
+
+2. ABOGADO LITIGANTE DE LA CONTRAPARTE:
+   - Ataca prescripción/caducidad (Art. 168 CT, 30 días corridos Acta N.° 94-2015, Arts. 2332/2515 CC), falta de legitimación activa/pasiva, orfandad probatoria (Art. 1698 CC) y contradicciones fácticas.
+
+3. AUDITOR DE CITAS BCN / HUGGING FACE:
+   - Rechaza cualquier figura del Common Law prohibida en Chile (punitive damages, at-will employment, discovery, subpoena, grand jury).
+   - Marca como bloqueante toda norma citada sin tenor literal o con numeración manifiestamente errónea o derogada.
+
+Emite un veredicto binario (APROBADO PARA FIRMA o RECHAZADO — REQUIERE SUBSANACIÓN) seguido de:
+1) Hallazgos Bloqueantes, 2) Observaciones Sustantivas e Importantes, 3) Observaciones Formales Menores."""
+
+
+_MAX_ARTICULO_CODIGO: Dict[str, int] = {
+    "civil": 2525,
+    "trabajo": 513,
+    "cpc": 925,
+    "penal": 501,
+    "cpp": 485,
+    "comercio": 1250,
+    "tributario": 206,
+    "aguas": 318,
+    "mineria": 245,
+}
+
+
+def _detectar_articulos_imposibles(texto: str) -> list:
+    """Detecta artículos con numeración imposible respecto del máximo legal del Código citado."""
+    from citas_legales import detectar_normas
+
+    imposibles = []
+    for n in detectar_normas(texto):
+        if n.get("familia") == "codigo":
+            obra = str(n.get("obra", "")).lower()
+            max_art = _MAX_ARTICULO_CODIGO.get(obra)
+            art_raw = re.sub(r"\D", "", str(n.get("articulo", "")))
+            if max_art and art_raw.isdigit() and int(art_raw) > max_art:
+                imposibles.append(f"{n.get('etiqueta', '')} (máximo legal del código: Art. {max_art})")
+    return imposibles
+
+
+def verificar_citas_escrito(texto: str, consultar_bcn: bool = True, max_normas: int = 12) -> Dict[str, Any]:
+    """Auditoría determinista post-redacción de citas normativas, roles y prohibiciones Common Law.
+
+    Extrae todas las normas con `citas_legales.detectar_normas()`, detecta artículos fuera de rango
+    legal, verifica el tenor literal contra BCN (caché/red) y señala cualquier figura del Common Law.
+    """
+    from citas_legales import detectar_normas
+
+    t_lower = (texto or "").lower()
+    common_law = [
+        term for term in ["at-will", "punitive damages", "discovery", "subpoena", "grand jury", "summary judgment"]
+        if term in t_lower
+    ]
+    normas = detectar_normas(texto or "")
+    imposibles = _detectar_articulos_imposibles(texto or "")
+    roles = sorted(set(re.findall(r"\b(?:Rol|RIT|RUC)\s*(?:N[°º.]*\s*)?[A-Z]?-?\d{1,6}-\d{4}\b", texto or "", re.IGNORECASE)))
+
+    verificadas: list = []
+    no_verificadas: list = []
+
+    if consultar_bcn and normas:
+        from bcn_connector import BCNClient
+        bcn = BCNClient()
+        for norma in normas[:max_normas]:
+            etiqueta = str(norma.get("etiqueta") or "")
+            if any(etiqueta and etiqueta in imp for imp in imposibles):
+                no_verificadas.append({"etiqueta": etiqueta, "motivo": "Artículo fuera de rango legal del Código"})
+                continue
+            try:
+                if norma.get("familia") == "codigo":
+                    dato = bcn.get_codigo(str(norma.get("obra", "")), str(norma.get("articulo", "")))
+                else:
+                    num = int(str(norma.get("numero", "0")))
+                    art = norma.get("articulo")
+                    dato = bcn.get_articulo_ley(num, str(art)) if art else bcn.get_ley(num)
+                if isinstance(dato, dict) and dato.get("texto") and not dato.get("error"):
+                    verificadas.append({
+                        "etiqueta": etiqueta,
+                        "fechaVersion": dato.get("fechaVersion", ""),
+                        "extracto": str(dato.get("texto", ""))[:240],
+                    })
+                else:
+                    no_verificadas.append({
+                        "etiqueta": etiqueta,
+                        "motivo": str(dato.get("error", "Sin texto verificable en BCN")) if isinstance(dato, dict) else "Sin respuesta BCN",
+                    })
+            except Exception as e:  # noqa: BLE001
+                no_verificadas.append({"etiqueta": etiqueta, "motivo": f"Error BCN: {str(e)[:120]}"})
+
+    sin_transcripcion = _citas_sin_transcripcion(texto or "")
+    bloqueante = bool(common_law or imposibles or no_verificadas)
+    estado = "OBSERVADO" if bloqueante else "VERIFICADO"
+
+    return {
+        "estado": estado,
+        "total_normas_detectadas": len(normas),
+        "normas_verificadas": verificadas,
+        "normas_no_verificadas": no_verificadas,
+        "articulos_imposibles": imposibles,
+        "normas_sin_transcripcion_literal": sin_transcripcion,
+        "common_law_prohibido": common_law,
+        "roles_detectados": roles,
+    }
+
+
 class LegalCritiqueEngine:
     def __init__(self):
         self.chat_engine = LegalChatEngine()
@@ -255,7 +365,24 @@ class LegalCritiqueEngine:
                 "(nombre, profesión u oficio y domicilio)."
             )
 
-        # 2. Control de Citas sin Transcripción Literal (Regla Anti-Alucinación)
+        # 2. Control de Citas sin Transcripción Literal, Artículos Imposibles y Common Law
+        common_law_hits = [
+            term for term in ["at-will", "punitive damages", "discovery", "subpoena", "grand jury", "summary judgment"]
+            if term in t_lower
+        ]
+        if common_law_hits:
+            hallazgos_bloqueantes.append(
+                f"[CONTAMINACIÓN COMMON LAW PROHIBIDA] Se detectan figuras inexistentes en el Derecho Civil "
+                f"chileno ({', '.join(common_law_hits)}). Eliminar y reconducir a instituciones chilenas."
+            )
+
+        articulos_imposibles = _detectar_articulos_imposibles(text)
+        if articulos_imposibles:
+            hallazgos_bloqueantes.append(
+                f"[NORMA INEXISTENTE / ALUCINACIÓN NUMÉRICA] Artículos fuera de rango del Código citado: "
+                f"{', '.join(articulos_imposibles[:4])}. Verificar con `cita_texto` en BCN Ley Chile."
+            )
+
         normas_sin_texto = _citas_sin_transcripcion(text)
         if normas_sin_texto:
             hallazgos_bloqueantes.append(
@@ -349,17 +476,25 @@ class LegalCritiqueEngine:
             }
 
         # Si el usuario solicitó explícitamente un proveedor externo o modelo LLM:
+        es_goldfish = modo_norm in ("goldfish", "contradictorio", "adversarial")
+        prompt_sistema = GOLDFISH_SYSTEM_PROMPT if es_goldfish else CRITIQUE_SYSTEM_PROMPT
+        instruccion_usuario = (
+            f"Audita este artefacto en aislamiento total de contexto (Modo Goldfish):\n\n{text}"
+            if es_goldfish
+            else f"Por favor realiza la auditoría de 5 dimensiones sobre este texto:\n\n{text}"
+        )
         res = self.chat_engine.chat(
-            user_message=f"Por favor realiza la auditoría de 5 dimensiones sobre este texto:\n\n{text}",
+            user_message=instruccion_usuario,
             provider=prov,
             api_key=api_key,
             model=model,
             history=[],
-            system_prompt=CRITIQUE_SYSTEM_PROMPT
+            system_prompt=prompt_sistema
         )
 
         return {
             "documentLength": len(text),
+            "modo": modo_norm,
             "critique": res.get("reply", res.get("error", "Error generando crítica")),
             "provider": res.get("provider"),
             "model": res.get("model")

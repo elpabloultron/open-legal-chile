@@ -47,58 +47,117 @@ def _normalizar_texto(texto: str) -> str:
     return re.sub(r"\s+", " ", sin_tildes).strip()
 
 
+def is_fastembed_available() -> bool:
+    """Indica si `fastembed` (ONNX CPU multilingüe sin PyTorch) está instalado."""
+    try:
+        import fastembed  # noqa: F401
+        return True
+    except ImportError:
+        return False
+
+
+def is_sqlite_vec_available() -> bool:
+    """Indica si la extensión nativa `sqlite-vec` (`vec0`) está instalada."""
+    try:
+        import sqlite_vec  # noqa: F401
+        return True
+    except ImportError:
+        return False
+
+
+def _cargar_sqlite_vec(con: sqlite3.Connection) -> bool:
+    """Carga `sqlite-vec` en una conexión SQLite si la extensión y `enable_load_extension` existen."""
+    if not hasattr(con, "enable_load_extension"):
+        return False
+    try:
+        import sqlite_vec
+        con.enable_load_extension(True)
+        sqlite_vec.load(con)
+        con.enable_load_extension(False)
+        return True
+    except Exception:  # noqa: BLE001 — fallback transparente a NumPy
+        return False
+
+
 class SemanticEmbeddingEngine:
     """
-    Motor local de generación de embeddings semánticos para textos jurídicos chilenos.
-    Opera 100% en CPU sin dependencias pesadas de PyTorch.
-    Si hay una sesión ONNX disponible la utiliza; en su defecto, genera embeddings
-    deterministas de proyección semántica de alta dimensionalidad (Random Indexing ortogonal)
-    preservando la distancia semántica entre conceptos legales y lemas.
+    Motor local de embeddings para textos jurídicos chilenos (100 % CPU, sin PyTorch).
+
+    Soporta dos backends explícitos:
+    1. `fastembed` (ONNX multilingüe real, `intfloat/multilingual-e5-small`, 384-dim):
+       se activa cuando `use_fastembed=True` o `OPENLEGAL_NEURAL_EMBEDDINGS=1` y el extra
+       `fastembed` está instalado.
+    2. `lexical_random_projection`: proyección ortogonal determinista de palabras + 3-gramas
+       (cero descargas de modelos, ideal para entornos 100 % air-gapped y pruebas rápidas).
     """
 
-    def __init__(self, model_path: Optional[str] = None):
+    def __init__(
+        self,
+        model_path: Optional[str] = None,
+        use_fastembed: Optional[bool] = None,
+        fastembed_model: str = "intfloat/multilingual-e5-small",
+    ):
         self.session = None
         self.dim = EMBEDDING_DIM
         self._rng = np.random.default_rng(seed=42)
-        # Matriz de proyección determinista para n-gramas de caracteres y palabras
         self._proj_cache: Dict[str, np.ndarray] = {}
+        self._fastembed_model_name = fastembed_model
+        self._fastembed_instance: Optional[Any] = None
+        self.backend = "lexical_random_projection"
 
-        if model_path and os.path.exists(model_path):
+        env_neural = os.environ.get("OPENLEGAL_NEURAL_EMBEDDINGS", "").strip().lower() in ("1", "true", "yes")
+        wants_fastembed = env_neural if use_fastembed is None else bool(use_fastembed)
+
+        if wants_fastembed and is_fastembed_available():
+            try:
+                from fastembed import TextEmbedding
+                self._fastembed_instance = TextEmbedding(model_name=fastembed_model)
+                self.backend = f"fastembed:{fastembed_model}"
+            except Exception:  # noqa: BLE001 — degradación limpia si no hay modelo cacheado ni red
+                self._fastembed_instance = None
+
+        if self._fastembed_instance is None and model_path and os.path.exists(model_path):
             try:
                 import onnxruntime as ort
                 self.session = ort.InferenceSession(model_path, providers=["CPUExecutionProvider"])
-            except Exception:
+                self.backend = f"onnx:{os.path.basename(model_path)}"
+            except Exception:  # noqa: BLE001
                 self.session = None
 
     def encode(self, texto: str) -> np.ndarray:
         """Genera un vector unitario normalizado de dimensión EMBEDDING_DIM."""
+        if not texto or not texto.strip():
+            return np.zeros(self.dim, dtype=np.float32)
+
+        # 1. Backend neuronal multilingüe real vía FastEmbed (ONNX Runtime CPU)
+        if self._fastembed_instance is not None:
+            try:
+                vec_raw = next(iter(self._fastembed_instance.embed([texto.strip()])))
+                vec_np = np.asarray(vec_raw, dtype=np.float32)
+                norma = float(np.linalg.norm(vec_np))
+                if norma > 0:
+                    vec_np = vec_np / norma
+                self.dim = int(vec_np.shape[0])
+                return vec_np
+            except Exception:  # noqa: BLE001
+                pass
+
         norm_txt = _normalizar_texto(texto)
         if not norm_txt:
             return np.zeros(self.dim, dtype=np.float32)
 
-        # Si tenemos sesión ONNX activa, la utilizamos
-        if self.session is not None:
-            try:
-                # Aquí se invocaría el tokenizer y la sesión ONNX
-                pass
-            except Exception:
-                pass
-
-        # Inferencia determinista de semántica basada en subpalabras y vocabulario legal chileno
-        # Cada palabra y 3-grama proyecta a un vector pseudo-aleatorio ortogonal fijo
+        # 2. Fallback determinista 100 % offline basado en palabras y 3-gramas de caracteres
         palabras = [p for p in re.split(r"[^\w]+", norm_txt) if len(p) >= 2]
         vec = np.zeros(self.dim, dtype=np.float32)
 
         for w in palabras:
             h = int(hashlib.md5(w.encode("utf-8"), usedforsecurity=False).hexdigest()[:8], 16)
             rng_word = np.random.default_rng(h)
-            # Vector esparso de palabra
             indices = rng_word.integers(0, self.dim, size=12)
             valores = rng_word.choice([-1.0, 1.0], size=12)
             for idx, val in zip(indices, valores, strict=True):
                 vec[idx] += val
 
-            # Trigramas de caracteres para raíces y lemas (ej. obligac*, contrat*, prescripc*)
             for i in range(len(w) - 2):
                 tri = w[i:i+3]
                 h_tri = int(hashlib.md5(tri.encode("utf-8"), usedforsecurity=False).hexdigest()[:8], 16)
@@ -108,13 +167,22 @@ class SemanticEmbeddingEngine:
                 for idx, val in zip(indices_tri, valores_tri, strict=True):
                     vec[idx] += val
 
-        norma = np.linalg.norm(vec)
-        if norma > 0:
-            vec /= norma
+        norma_lex = float(np.linalg.norm(vec))
+        if norma_lex > 0:
+            vec /= norma_lex
         return vec.astype(np.float32)
 
     def encode_batch(self, textos: List[str]) -> np.ndarray:
         """Codifica un lote de textos a una matriz NumPy (N, dim)."""
+        if self._fastembed_instance is not None and textos:
+            try:
+                vecs = [np.asarray(v, dtype=np.float32) for v in self._fastembed_instance.embed(textos)]
+                mat = np.vstack(vecs)
+                normas = np.linalg.norm(mat, axis=1, keepdims=True)
+                normas[normas == 0] = 1.0
+                return (mat / normas).astype(np.float32)
+            except Exception:  # noqa: BLE001
+                pass
         return np.vstack([self.encode(t) for t in textos])
 
 
@@ -150,6 +218,18 @@ def init_vector_db(db_path: str = VECTOR_DB_PATH) -> sqlite3.Connection:
     );
     """)
 
+    # Tabla virtual sqlite-vec (vec0) opcional para KNN nativo en disco
+    if _cargar_sqlite_vec(con):
+        try:
+            cur.execute(f"""
+            CREATE VIRTUAL TABLE IF NOT EXISTS articulos_vec0 USING vec0(
+                articulo_rowid INTEGER PRIMARY KEY,
+                embedding float[{EMBEDDING_DIM}] distance_metric=cosine
+            );
+            """)
+        except sqlite3.OperationalError:
+            pass
+
     con.commit()
     return con
 
@@ -157,15 +237,20 @@ def init_vector_db(db_path: str = VECTOR_DB_PATH) -> sqlite3.Connection:
 class VectorLegalEngine:
     """Motor de búsqueda híbrida (Dense Vectorial + Sparse BM25) para los Códigos y CPR."""
 
-    def __init__(self, db_path: str = VECTOR_DB_PATH):
+    def __init__(self, db_path: str = VECTOR_DB_PATH, use_fastembed: Optional[bool] = None):
         self.db_path = db_path
-        self.embedder = SemanticEmbeddingEngine()
-        init_vector_db(self.db_path).close()
+        self.embedder = SemanticEmbeddingEngine(use_fastembed=use_fastembed)
+        con_init = init_vector_db(self.db_path)
+        self.usa_sqlite_vec = _cargar_sqlite_vec(con_init)
+        con_init.close()
         self._cached_matrix: Optional[np.ndarray] = None
         self._cached_metadata: Optional[List[Dict[str, Any]]] = None
 
     def _conectar(self) -> sqlite3.Connection:
-        return sqlite3.connect(self.db_path)
+        con = sqlite3.connect(self.db_path)
+        if self.usa_sqlite_vec:
+            _cargar_sqlite_vec(con)
+        return con
 
     def total_articulos_indexados(self) -> int:
         """Devuelve el total de artículos en la base vectorial."""
@@ -209,6 +294,22 @@ class VectorLegalEngine:
             INSERT INTO articulos_fts (cuerpo_legal, articulo_id, etiqueta_bcn, texto)
             VALUES (?, ?, ?, ?);
             """, filas_fts)
+
+            # Sincronizar tabla vec0 nativa si sqlite-vec está activo
+            if self.usa_sqlite_vec:
+                try:
+                    ids_filas = con.execute(
+                        "SELECT id, vector FROM articulos_vectorial WHERE cuerpo_legal = ?;",
+                        (cuerpo_legal,),
+                    ).fetchall()
+                    for rid, _ in ids_filas:
+                        con.execute("DELETE FROM articulos_vec0 WHERE articulo_rowid = ?;", (rid,))
+                    con.executemany(
+                        "INSERT INTO articulos_vec0 (articulo_rowid, embedding) VALUES (?, ?);",
+                        ids_filas,
+                    )
+                except sqlite3.OperationalError:
+                    pass
 
             con.commit()
             self._cached_matrix = None
@@ -280,15 +381,45 @@ class VectorLegalEngine:
             con.close()
 
     def buscar_vectorial(self, query: str, cuerpo_legal: Optional[str] = None, top_k: int = 5) -> List[Dict[str, Any]]:
-        """Búsqueda densa semántica por similitud coseno."""
+        """Búsqueda densa semántica por similitud coseno (usa `sqlite-vec` KNN cuando está disponible)."""
         if not query.strip():
             return []
+
+        q_vec = self.embedder.encode(query)
+
+        # Ruta rápida nativa en disco con sqlite-vec (vec0) cuando no hay filtro de cuerpo
+        if self.usa_sqlite_vec and not cuerpo_legal:
+            con = self._conectar()
+            try:
+                filas = con.execute("""
+                    SELECT v.articulo_rowid, v.distance, a.cuerpo_legal, a.articulo_id, a.etiqueta_bcn, a.texto
+                    FROM articulos_vec0 v
+                    JOIN articulos_vectorial a ON a.id = v.articulo_rowid
+                    WHERE v.embedding MATCH ? AND k = ?
+                    ORDER BY v.distance ASC;
+                """, (q_vec.tobytes(), top_k)).fetchall()
+                if filas:
+                    return [
+                        {
+                            "id": r[0],
+                            "cuerpo_legal": r[2],
+                            "articulo_id": r[3],
+                            "etiqueta_bcn": r[4],
+                            "texto": r[5],
+                            "similitud": round(float(1.0 - float(r[1])), 4),
+                            "motor_vectorial": f"sqlite-vec+{self.embedder.backend}",
+                        }
+                        for r in filas
+                    ]
+            except sqlite3.OperationalError:
+                pass
+            finally:
+                con.close()
 
         matrix, metadatos = self._cargar_matriz_en_memoria(cuerpo_legal=cuerpo_legal)
         if len(metadatos) == 0:
             return []
 
-        q_vec = self.embedder.encode(query)
         # Producto punto sobre vectores normalizados (equivale a coseno)
         similitudes = np.dot(matrix, q_vec)
         top_indices = np.argsort(-similitudes)[:top_k]
@@ -297,6 +428,7 @@ class VectorLegalEngine:
         for idx in top_indices:
             res = dict(metadatos[idx])
             res["similitud"] = round(float(similitudes[idx]), 4)
+            res["motor_vectorial"] = f"numpy+{self.embedder.backend}"
             resultados.append(res)
         return resultados
 

@@ -161,10 +161,10 @@ def test_doctrina_parser_cleaner():
 # 2. PRUEBAS: INDEXACIÓN Y BÚSQUEDA FTS5 (BM25)
 # ==============================================================================
 
-@pytest.fixture
-def temp_doctrina_db(tmp_path):
-    """Crea una base de datos SQLite FTS5 aislada para pruebas unitarias."""
-    db_file = tmp_path / "doctrina_test.db"
+@pytest.fixture(scope="module")
+def temp_doctrina_db(tmp_path_factory):
+    """Crea una base de datos SQLite FTS5 aislada (scope=module para evitar reindexar 6 veces)."""
+    db_file = tmp_path_factory.mktemp("doctrina_mod") / "doctrina_test.db"
     # Indexar el directorio oficial de doctrina del proyecto en esta DB temporal
     total = index_all_doctrina(doctrina_dir=DOCTRINA_DIR, db_path=str(db_file))
     assert total >= 30

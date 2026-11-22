@@ -33,6 +33,10 @@ class CNEClient:
     def _get_cache_path(self, endpoint_key: str) -> str:
         return os.path.join(self.cache_dir, f"{endpoint_key}.json")
 
+    def tiene_credenciales(self) -> bool:
+        """Indica si el cliente tiene credenciales reales de api.cne.cl configuradas."""
+        return bool(self.email and self.password and self.email != "tu_correo@ejemplo.cl")
+
     def login(self) -> Optional[str]:
         """Autentica con la API de la CNE y obtiene un token JWT válido."""
         if not self.email or not self.password or self.email == "tu_correo@ejemplo.cl":

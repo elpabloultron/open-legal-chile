@@ -27,7 +27,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (88 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-88-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (93 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-93-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -91,7 +91,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 88 Herramientas Forenses Registradas (Suite Edition)                         │
+│   • 93 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
 │   • Espacios de Casos Locales con LegalGraphify (case_workspace.py, case_graph.py)     │
 │   • Motor Vectorial Híbrido Dense + BM25 con RRF (vector_engine.py)                     │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
@@ -131,7 +131,7 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
    - **Archivo:** `legal_open_jev.py`
    - **Latencia:** `< 5 ms` en CPU local, 100% offline, cero costo de tokens y confidencialidad inviolable (Art. 247 CP).
    - **Primitivas:**
-     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 88 herramientas MCP a 3-5 pertinentes a la materia (ahorro de más de 12.000 tokens de prompt por turno).
+     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 93 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
      - `JevNoul`: Compuertas binarias estrictas de validez formal: plazos fatales de caducidad laboral (Art. 168 CT: 60/90 días), prescripción civil (Arts. 2514-2515 CC), plazos constitucionales de protección (Art. 20 CPR: 30 días corridos), cómputo procesal de días hábiles judiciales (Art. 66 CPC), validación matemática de RUT Módulo 11 y facultades especiales de personería (Art. 7 inc. 2 CPC).
      - `JevScore`: Ponderación local ultrarrápida de relevancia temática.
 
@@ -261,9 +261,9 @@ medición del ahorro en [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (88 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (93 Herramientas Oficiales)
 
-El servidor MCP expone **88 herramientas oficiales** categorizadas funcionalmente:
+El servidor MCP expone **93 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`) categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -625,7 +625,7 @@ openlegal agent chat dogmatico
 # Exportar perfiles de subagentes para Google Antigravity o Claude Code
 openlegal agent export --format antigravity
 
-# Servidor MCP estándar para agentes de IA (88 herramientas)
+# Servidor MCP estándar para agentes de IA (93 herramientas; modo router: OPENLEGAL_PROFILE=router)
 openlegal mcp
 
 # Chat jurídico interactivo con RAG soberano chileno
@@ -748,7 +748,7 @@ Open Legal Chile está licenciado bajo la **Licencia Apache 2.0** ([`LICENSE`](L
 
 ## 🎓 13. Formación Ejecutiva, Consultoría «Llave en Mano» On-Premise y Alianzas Institucionales
 
-El núcleo de **Open Legal Chile** (código fuente bajo licencia Apache 2.0, las 88 herramientas MCP, los 19 agentes autónomos y el dataset público en Hugging Face) es y seguirá siendo **100 % abierto, gratuito y soberano**. Para estudios jurídicos, gerencias legales, reparticiones públicas y facultades de Derecho que requieren capacitación especializada o despliegues corporativos privados, ofrecemos tres líneas de colaboración directa:
+El núcleo de **Open Legal Chile** (código fuente bajo licencia Apache 2.0, las 93 herramientas MCP, los 19 agentes autónomos, las 21 skills jurídicas y el dataset público en Hugging Face) es y seguirá siendo **100 % abierto, gratuito y soberano**. Para estudios jurídicos, gerencias legales, reparticiones públicas y facultades de Derecho que requieren capacitación especializada o despliegues corporativos privados, ofrecemos tres líneas de colaboración directa:
 
 ### 🏛️ Propuesta 1 — Charlas Magistrales, Bootcamps Prácticos y Capacitación In-Company / SENCE / Académica
 Programas de formación ejecutiva y talleres prácticos (*hands-on*) dirigidos a socios y asociados de estudios jurídicos, fiscalías corporativas, departamentos jurídicos del Estado, colegios de abogados y programas de postgrado:

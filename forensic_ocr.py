@@ -84,6 +84,33 @@ class ForensicOCREngine:
         except ImportError:
             return False
 
+    @staticmethod
+    def is_docling_available() -> bool:
+        """Verifica si IBM Docling (`docling-project/docling`, MIT) está instalado para layout estructurado."""
+        try:
+            import docling  # noqa: F401
+            return True
+        except ImportError:
+            return False
+
+    def extract_with_docling(self, pdf_path: str) -> Dict[str, Any]:
+        """Extrae Markdown estructurado (tablas, encabezados y lectura multi-columna) usando IBM Docling."""
+        if not self.is_docling_available():
+            return {
+                "error": "IBM Docling no está instalado. Instálalo opcionalmente con `pip install openlegal-chile[docling]` o usa el motor RapidOCR integrado.",
+                "motor": "docling_no_disponible",
+            }
+        from docling.document_converter import DocumentConverter
+        converter = DocumentConverter()
+        result = converter.convert(str(pdf_path))
+        md = result.document.export_to_markdown()
+        return {
+            "filepath": str(pdf_path),
+            "motor": "docling",
+            "texto_markdown": md,
+            "caracteres": len(md),
+        }
+
     def is_tesseract_available(self) -> bool:
         """Verifica si el binario del sistema Tesseract está disponible."""
         return bool(shutil.which(self.tesseract_cmd) or os.path.exists(self.tesseract_cmd))

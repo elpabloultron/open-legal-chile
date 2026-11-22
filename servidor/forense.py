@@ -444,6 +444,34 @@ TOOLS = [
             }
         }
     },
+    {
+        "name": "privacidad_anonimizar_documento",
+        "description": "Anonimiza de forma reversible datos personales chilenos (RUT verificado Módulo 11, emails, teléfonos, cuentas bancarias, domicilios y nombres en contexto procesal) bajo la Ley N.° 21.719 y Art. 247 CP, o revierte un texto con su mapa local.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "texto": {"type": "string", "description": "Texto jurídico o extracto de expediente a anonimizar o desanonimizar"},
+                "accion": {"type": "string", "description": "'anonimizar' (defecto) o 'desanonimizar'", "enum": ["anonimizar", "desanonimizar"], "default": "anonimizar"},
+                "incluir_domicilios": {"type": "boolean", "description": "Si es True, enmascara domicilios particulares", "default": True},
+                "incluir_personas": {"type": "boolean", "description": "Si es True, enmascara nombres propios tras tratamientos (don/doña/Sr./menor)", "default": True},
+                "usar_presidio": {"type": "boolean", "description": "Activa enriquecimiento NER opcional con Microsoft Presidio si está instalado", "default": False},
+                "mapa_reversion": {"type": "object", "description": "Mapa {token: valor_real} requerido solo cuando accion='desanonimizar'"}
+            },
+            "required": ["texto"]
+        }
+    },
+    {
+        "name": "verificar_citas_escrito",
+        "description": "Verificador forense post-redacción: extrae todas las normas legales y roles citados en un borrador mediante citas_legales, detecta artículos fuera de rango y figuras prohibidas de Common Law, y verifica existencia/tenor literal contra BCN.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "texto": {"type": "string", "description": "Texto completo o extracto del escrito judicial o informe a verificar"},
+                "consultar_bcn": {"type": "boolean", "description": "Si es True, contrasta cada norma citada contra BCN Ley Chile (caché/red)", "default": True}
+            },
+            "required": ["texto"]
+        }
+    },
 ]
 
 
@@ -746,6 +774,32 @@ def despachar(name: str, args: dict) -> Any:
         return cbr_engine.auditar_cadena_dominio(insc, int(args.get("anios_requeridos", 10)))
     elif name == "cbr_checklist_documentos":
         return cbr_engine.checklist_documentacion_cbr(args.get("tipo_inmueble", "urbano"))
+    elif name == "privacidad_anonimizar_documento":
+        from privacidad_anonimizar import anonimizar_texto, desanonimizar_texto
+
+        texto_in = str(args.get("texto") or "")
+        if not texto_in.strip():
+            return {"error": "El parámetro 'texto' es obligatorio."}
+        accion = str(args.get("accion") or "anonimizar").strip().lower()
+        if accion == "desanonimizar":
+            mapa = args.get("mapa_reversion")
+            if not isinstance(mapa, dict):
+                return {"error": "Para 'desanonimizar' debe proveer el objeto 'mapa_reversion'."}
+            return {"texto_restaurado": desanonimizar_texto(texto_in, mapa)}
+        return anonimizar_texto(
+            texto_in,
+            incluir_domicilios=bool(args.get("incluir_domicilios", True)),
+            incluir_personas=bool(args.get("incluir_personas", True)),
+            usar_presidio=bool(args.get("usar_presidio", False)),
+            mapa_previo=args.get("mapa_reversion") if isinstance(args.get("mapa_reversion"), dict) else None,
+        )
+    elif name == "verificar_citas_escrito":
+        from critique import verificar_citas_escrito
+
+        texto_in = str(args.get("texto") or "")
+        if not texto_in.strip():
+            return {"error": "El parámetro 'texto' es obligatorio."}
+        return verificar_citas_escrito(texto_in, consultar_bcn=bool(args.get("consultar_bcn", True)))
     return None
 
 

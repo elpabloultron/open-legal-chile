@@ -40,6 +40,34 @@ RAG_BENCHMARK_CASES = [
         "autores_esperados": ["Manuel Somarriva Undurraga", "Juan Andrés Orrego Acuña", "Ramón Meza Barros"],
         "institucion_clave": "legitimas",
     },
+    {
+        "id": "rag-05-laboral-tutela",
+        "materia": "Derecho del Trabajo - Tutela de Derechos Fundamentales e Indicios",
+        "query": "tutela laboral derechos fundamentales indicios",
+        "autores_esperados": ["Sergio Gamonal", "José Luis Ugarte", "Academia Judicial"],
+        "institucion_clave": "tutela",
+    },
+    {
+        "id": "rag-06-penal-legitima-defensa",
+        "materia": "Derecho Penal - Legítima Defensa y Agresión Ilegítima",
+        "query": "legitima defensa agresion ilegitima necesidad racional",
+        "autores_esperados": ["Enrique Cury", "Mario Garrido Montt", "Alfredo Etcheberry", "Academia Judicial"],
+        "institucion_clave": "legitima defensa",
+    },
+    {
+        "id": "rag-07-procesal-precario",
+        "materia": "Derecho Procesal Civil - Juicio Sumario de Precario",
+        "query": "juicio de precario mera tolerancia sin previo contrato",
+        "autores_esperados": ["Mario Maturana", "Juan Andrés Orrego Acuña", "Daniel Peñailillo", "Cristián Maturana"],
+        "institucion_clave": "precario",
+    },
+    {
+        "id": "rag-08-constitucional-proteccion",
+        "materia": "Derecho Constitucional - Recurso de Protección y Acto Arbitrario",
+        "query": "recurso de proteccion acto arbitrario ilegal privacion perturbacion",
+        "autores_esperados": ["Humberto Nogueira", "José Luis Cea", "Enrique Navarro", "Academia Judicial", "Mario Maturana"],
+        "institucion_clave": "recurso de proteccion",
+    },
 ]
 
 

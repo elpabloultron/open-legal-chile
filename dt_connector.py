@@ -70,7 +70,22 @@ ALIAS_MATERIAS_DT: Dict[str, List[str]] = {
     "licencia médica": ["licencia médica", "subsidio por incapacidad", "incapacidad laboral"],
     "necesidades de la empresa": ["necesidades de la empresa", "161", "artículo 161"],
     "despido injustificado": ["despido injustificado", "168", "artículo 161"],
+    "afc": ["afc", "seguro de cesantía", "19.728", "cesantía", "aporte del empleador"],
+    "descuento afc": ["afc", "seguro de cesantía", "19.728", "cesantía", "imputación", "descuento"],
+    "seguro de cesantia": ["seguro de cesantía", "afc", "19.728", "cesantía"],
+    "seguro de cesantía": ["seguro de cesantía", "afc", "19.728", "cesantía"],
 }
+
+
+_STOPWORDS_DT = frozenset({
+    "el", "la", "los", "las", "de", "del", "en", "y", "o", "por", "para", "con", "sin",
+    "un", "una", "unos", "unas", "al", "se", "su", "sus", "que", "es", "son", "como",
+})
+
+
+def _tokens_significativos_dt(consulta: str) -> List[str]:
+    norm = _sin_tildes((consulta or "").lower())
+    return [t for t in re.findall(r"[a-z0-9]+", norm) if len(t) >= 3 and t not in _STOPWORDS_DT]
 
 
 # Cada dictamen de la DT viene en un bloque «recuadro» con su número, su fecha, su MATERIA (el
@@ -458,6 +473,26 @@ class DTClient:
         if por_tema:
             return por_tema[:limit]
 
+        # Coincidencia multi-palabra (todos los tokens significativos presentes en cualquier orden)
+        tokens_q = _tokens_significativos_dt(q)
+        if len(tokens_q) >= 2:
+            coincidencias_all: List[Dict[str, Any]] = []
+            coincidencias_parcial: List[tuple] = []
+            for item in index:
+                texto_item = _sin_tildes(f"{item.get('numero', '')} {item.get('materia', '')}".lower())
+                hits = sum(1 for tok in tokens_q if re.search(rf"\b{re.escape(tok)}", texto_item))
+                if hits == len(tokens_q):
+                    coincidencias_all.append(item)
+                elif hits > 0:
+                    coincidencias_parcial.append((hits, item))
+            if coincidencias_all:
+                return coincidencias_all[:limit]
+            # Si hay tokens muy específicos (siglas o números como afc/161/21643), priorizar parciales con mayor score
+            if coincidencias_parcial:
+                coincidencias_parcial.sort(key=lambda x: x[0], reverse=True)
+                # Intentar primero alias exactos antes de devolver parciales de 1 solo token genérico
+                pass
+
         # Respaldo por auto-expansión de alias/sugerencias oficiales
         q_norm = _sin_tildes(q)
         terminos_respaldo: List[str] = []
@@ -485,6 +520,9 @@ class DTClient:
                     break
             if resultados_alias:
                 return resultados_alias[:limit]
+
+        if len(tokens_q) >= 2 and coincidencias_parcial:
+            return [it for _, it in coincidencias_parcial[:limit]]
 
         return [_aviso(
             f"Sin dictámenes de la DT para «{query}»",

@@ -24,7 +24,8 @@ import pathlib
 import re
 import shutil
 import tempfile
-import subprocess  # nosec B404 (sólo para pdftotext/pdftoppm, binarios fijos)
+# Sólo para pdftotext/pdftoppm, binarios fijos
+import subprocess  # nosec B404
 import unicodedata
 from typing import Any, Dict, List, Optional, Tuple
 

@@ -122,7 +122,7 @@ def test_skills_listar_trae_las_dieciocho_y_los_agentes():
 
     assert len(res["skills"]) >= 18, f"el repo tiene 18 skills y el listado trajo {len(res['skills'])}"
     assert len(res["agentes"]) >= 19
-    assert {s["nombre"] for s in res["skills"]} >= {"chilean-employment-legal", "ponytail"}
+    assert {s["nombre"] for s in res["skills"]} >= {"chilean-employment-legal", "chilean-litigation-legal"}
 
 
 def test_skill_ver_devuelve_el_contenido():

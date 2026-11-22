@@ -86,6 +86,30 @@ TOOLS = [
             "properties": {}
         }
     },
+    {
+        "name": "descubrir_herramientas",
+        "description": "Búsqueda dinámica de herramientas MCP (perfil router / Tool Search): usa LegalOpenJev (<5 ms) y ranking léxico para devolver solo las herramientas relevantes y su inputSchema bajo demanda, reduciendo ~85 % el consumo de tokens de contexto.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "consulta": {"type": "string", "description": "Descripción de la tarea jurídica o palabra clave (ej. 'estudio de títulos CBR', 'sanción SMA ruido', 'comparar versiones ley')"},
+                "limite": {"type": "integer", "description": "Máximo de herramientas sugeridas (por defecto 6)", "default": 6}
+            },
+            "required": ["consulta"]
+        }
+    },
+    {
+        "name": "invocar_herramienta",
+        "description": "Invoca dinámicamente cualquier herramienta del catálogo completo de Open Legal Chile tras localizarla con `descubrir_herramientas` (útil en `OPENLEGAL_PROFILE=router`).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "nombre": {"type": "string", "description": "Nombre exacto de la herramienta MCP a ejecutar"},
+                "argumentos": {"type": "object", "description": "Diccionario JSON con los parámetros de la herramienta", "default": {}}
+            },
+            "required": ["nombre"]
+        }
+    },
 ]
 
 
@@ -174,6 +198,83 @@ def despachar(name: str, args: dict) -> Any:
     elif name == "suite_auto_update":
         from update_checker import run_auto_update
         return run_auto_update()
+    elif name == "descubrir_herramientas":
+        import re
+        import unicodedata
+        from config import servidor_actual
+
+        consulta = str(args.get("consulta") or "").strip()
+        if not consulta:
+            return {"error": "El parámetro 'consulta' es obligatorio."}
+        try:
+            limite = max(1, min(15, int(args.get("limite", 6))))
+        except (ValueError, TypeError):
+            limite = 6
+
+        def _norm(s: str) -> str:
+            return "".join(c for c in unicodedata.normalize("NFD", (s or "").lower()) if unicodedata.category(c) != "Mn")
+
+        todas = list(getattr(servidor_actual(), "TOOLS", TOOLS))
+        recomendadas_jev: list[str] = []
+        materia_detectada = "general"
+        try:
+            from legal_open_jev import LegalOpenJevEngine
+            triaje = LegalOpenJevEngine().evaluate_choice(consulta, max_tools=limite)
+            recomendadas_jev = list(getattr(triaje, "herramientas_recomendadas", []) or [])
+            materia_detectada = str(getattr(triaje, "materia", "general"))
+        except Exception:  # noqa: BLE001
+            pass
+
+        tokens = [t for t in re.findall(r"[a-z0-9_]+", _norm(consulta)) if len(t) >= 3]
+        puntuadas: list[tuple[float, dict[str, Any]]] = []
+        for tool in todas:
+            tname = str(tool.get("name", ""))
+            if tname in ("descubrir_herramientas", "invocar_herramienta"):
+                continue
+            score = 0.0
+            if tname in recomendadas_jev:
+                score += 10.0 - (recomendadas_jev.index(tname) * 0.5)
+            texto_busq = _norm(f"{tname.replace('_', ' ')} {tool.get('description', '')}")
+            for tok in tokens:
+                if tok in _norm(tname):
+                    score += 4.0
+                elif tok in texto_busq:
+                    score += 1.5
+            if score > 0:
+                puntuadas.append((score, tool))
+
+        puntuadas.sort(key=lambda x: (-x[0], str(x[1].get("name", ""))))
+        elegidas = [t for _, t in puntuadas[:limite]]
+        return {
+            "consulta": consulta,
+            "materia_detectada": materia_detectada,
+            "total_catalogo": len(todas),
+            "herramientas": [
+                {
+                    "name": t["name"],
+                    "description": t.get("description", ""),
+                    "inputSchema": t.get("inputSchema", {}),
+                }
+                for t in elegidas
+            ],
+        }
+    elif name == "invocar_herramienta":
+        from config import servidor_actual
+
+        objetivo = str(args.get("nombre") or "").strip()
+        if not objetivo:
+            return {"error": "El parámetro 'nombre' es obligatorio."}
+        if objetivo in ("invocar_herramienta", "descubrir_herramientas"):
+            return {"error": f"No se permite la invocación recursiva de '{objetivo}'."}
+        sub_args = args.get("argumentos")
+        if sub_args is None:
+            sub_args = {}
+        if not isinstance(sub_args, dict):
+            return {"error": "El parámetro 'argumentos' debe ser un objeto JSON."}
+        despachador_raiz = getattr(servidor_actual(), "handle_tool_call", None)
+        if not callable(despachador_raiz):
+            return {"error": "Servidor MCP no disponible para despacho dinámico."}
+        return despachador_raiz(objetivo, sub_args)
     return None
 
 

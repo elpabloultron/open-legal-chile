@@ -72,7 +72,7 @@ ARCHIVOS_QUE_DETECTAN = {
 CARPETAS_FUERA = {
     ".git", ".venv", ".mypy_cache", ".ruff_cache", ".pytest_cache", ".claude", ".cursor", ".vscode",
     "__pycache__", "node_modules", "build", "dist", "doctrina", "doctrina_raw", "exports",
-    "graphify-out", "brag-output", "bcn_spec_files", "envs",
+    "graphify-out", "brag-output", "bcn_spec_files", "envs", "charla", "casos",
     # Los datos derivados no son escritura del proyecto: el grafo y los índices reproducen lo que
     # dicen las fuentes. Si un manual de la Academia habla de «discovery», eso es contenido suyo,
     # no una figura del Common Law usada por nosotros. La regla mira lo que escribimos nosotros.
@@ -110,7 +110,7 @@ def _bloque_de_diseno(texto):
 
 def test_existen_las_17_skills_con_su_frontmatter():
     skills = _skills()
-    assert len(skills) == 27, f"hay {len(skills)} SKILL.md en .agents/skills/"
+    assert len(skills) == 21, f"hay {len(skills)} SKILL.md en .agents/skills/"
 
     for ruta in skills:
         texto = _texto(ruta)
@@ -159,16 +159,10 @@ def test_las_skills_de_dominio_legal_llevan_la_compuerta_juridica():
         assert "listo para presentar" not in texto.lower(), ruta.parent.name
 
 
-def test_las_skills_de_codigo_acotan_su_compuerta_a_lo_juridico():
-    """Las 6 skills ponytail no producen asesoría: su compuerta es explícitamente condicional."""
-    de_codigo = [r for r in _skills() if r.parent.name.startswith("ponytail")]
-    assert len(de_codigo) == 6, [r.parent.name for r in de_codigo]
-
-    for ruta in de_codigo:
-        bloque = _bloque_de_diseno(_texto(ruta))
-        assert "aplica solo si" in bloque, (
-            f"{ruta.parent.name}: una skill de código no puede declarar compuerta obligatoria"
-        )
+def test_las_skills_no_incluyen_paquetes_no_juridicos():
+    """El plugin jurídico y el wheel de Open Legal Chile solo empaquetan skills de Derecho chileno."""
+    de_codigo = [r for r in _skills() if not r.parent.name.startswith("chilean-")]
+    assert not de_codigo, f"skills ajenas al dominio jurídico detectadas: {[r.parent.name for r in de_codigo]}"
 
 
 def test_cada_skill_declara_como_se_ve_su_salida():

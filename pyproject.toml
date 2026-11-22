@@ -65,6 +65,17 @@ audit = [
   "detect-secrets>=1.5.0",
   "semgrep>=1.70.0"
 ]
+semantic = [
+  "fastembed>=0.3.6",
+  "sqlite-vec>=0.1.6"
+]
+docling = [
+  "docling>=2.0.0"
+]
+privacy = [
+  "presidio-analyzer>=2.2.0",
+  "presidio-anonymizer>=2.2.0"
+]
 
 [project.scripts]
 openlegal = "openlegal:main"
@@ -135,6 +146,7 @@ py-modules = [
     "panel_expertos_connector",
     "pdf_dossier_compiler",
     "pjud_connector",
+    "privacidad_anonimizar",
     "privacidad_inapi",
     "recurso_proteccion",
     "recursos",
@@ -180,12 +192,6 @@ py-modules = [
 "share/openlegal-chile/.agents/skills/chilean-real-estate-cbr" = [".agents/skills/chilean-real-estate-cbr/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-socratic-bar-exam" = [".agents/skills/chilean-socratic-bar-exam/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-workspace-legal-flow" = [".agents/skills/chilean-workspace-legal-flow/SKILL.md"]
-"share/openlegal-chile/.agents/skills/ponytail" = [".agents/skills/ponytail/SKILL.md"]
-"share/openlegal-chile/.agents/skills/ponytail-audit" = [".agents/skills/ponytail-audit/SKILL.md"]
-"share/openlegal-chile/.agents/skills/ponytail-debt" = [".agents/skills/ponytail-debt/SKILL.md"]
-"share/openlegal-chile/.agents/skills/ponytail-gain" = [".agents/skills/ponytail-gain/SKILL.md"]
-"share/openlegal-chile/.agents/skills/ponytail-help" = [".agents/skills/ponytail-help/SKILL.md"]
-"share/openlegal-chile/.agents/skills/ponytail-review" = [".agents/skills/ponytail-review/SKILL.md"]
 
 [tool.setuptools.packages.find]
 include = ["connectors*", "domain*", "doctrina*", "data*", "servidor*", "mapa_corpus*"]
@@ -215,17 +221,23 @@ exclude = [
     ".venv",
     "__pycache__",
     "doctrina_raw",
-    "exports"
+    "exports",
+    "casos"
 ]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "B"]
 ignore = ["E501", "E722", "E402", "W293", "W291", "F401", "B008", "B904", "B006", "B009"]
 
+[tool.mypy]
+ignore_missing_imports = true
+explicit_package_bases = true
+exclude = ["^casos/", "^exports/", "^doctrina_raw/", "^docs/charla/"]
+
 [tool.bandit]
-exclude_dirs = ["tests", ".venv", "doctrina_raw", "exports"]
+exclude_dirs = ["tests", ".venv", "doctrina_raw", "exports", "casos"]
 skips = ["B101", "B311"]
 
 [tool.vulture]
 min_confidence = 80
-exclude = [".venv", "tests"]
+exclude = [".venv", "tests", "casos"]

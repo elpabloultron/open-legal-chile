@@ -249,5 +249,6 @@ class TestMCPServerNewTools:
         assert len(res) >= 1
 
     def test_mcp_total_tools_count(self):
-        # 77: 75 de base + consulta_maestra (paso 0 con citas) + cita_texto (texto literal de una norma).
-        assert len(TOOLS) == 88
+        # 93: 88 previas + descubrir_herramientas, invocar_herramienta, bcn_comparar_versiones,
+        # privacidad_anonimizar_documento y verificar_citas_escrito.
+        assert len(TOOLS) == 93

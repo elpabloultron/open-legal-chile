@@ -32,7 +32,8 @@ def compilar_manifiesto_biblioteca() -> Dict[str, Any]:
     return mgr.compilar_manifiesto_corpus()
 
 
-ARCHIVO_TOKEN = "~/.openlegal/hf_token"  # nosec B105 (es la ruta de un archivo, no una credencial)
+# Es la ruta de un archivo local, no una credencial embebida
+ARCHIVO_TOKEN = "~/.openlegal/hf_token"  # nosec B105
 
 # Caché local del dataset: una consulta no debe volver a bajar lo mismo, ni traer un archivo
 # entero cuando alcanza con los pasajes que rodean lo buscado.

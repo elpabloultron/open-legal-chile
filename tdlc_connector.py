@@ -124,11 +124,96 @@ class TDLCClient:
         except Exception:
             return copia if copia else []
 
-    def search_jurisprudencia(self, query: str, max_pages: int = 3) -> List[Dict[str, Any]]:
-        """Busca en sentencias, dictámenes e instrucciones generales del TDLC por término o empresa involucrada."""
-        q_lower = query.lower().strip()
-        matches = []
+    def _buscar_wp_endpoint(self, endpoint: str, tipo: str, query: str, per_page: int = 15) -> List[Dict[str, Any]]:
+        """Consulta la búsqueda nativa (?search=) de la REST API WordPress del TDLC con caché."""
+        q_clean = query.strip()
+        if not q_clean:
+            return []
+        safe_key = re.sub(r"[^a-z0-9]+", "_", q_clean.lower()).strip("_")[:48] or "q"
+        cache_file = self._get_cache_path(f"search_{endpoint}_{safe_key}_{per_page}")
+        copia = leer_json_si_se_puede(cache_file)
+        if copia is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+            return copia
 
+        url = f"{BASE_URL}/{endpoint}?search={urllib.parse.quote(q_clean)}&per_page={per_page}"
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "OpenLegalChile/1.0 (Libre Competencia Chile)", "Accept": "application/json"},
+        )
+        try:
+            with safe_urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+            if not isinstance(data, list):
+                return []
+            res: List[Dict[str, Any]] = []
+            for item in data:
+                raw_title = item.get("title", {}).get("rendered", "")
+                raw_excerpt = item.get("excerpt", {}).get("rendered", "")
+                clean_title = html.unescape(re.sub(r"<[^>]+>", "", raw_title).strip())
+                clean_excerpt = html.unescape(re.sub(r"<[^>]+>", " ", raw_excerpt))
+                clean_excerpt = re.sub(r"\s+", " ", clean_excerpt).strip()[:400]
+                entry: Dict[str, Any] = {
+                    "id": item.get("id"),
+                    "tipo": tipo,
+                    "titulo": clean_title,
+                    "fecha": item.get("date", "")[:10],
+                    "link": item.get("link", ""),
+                }
+                if clean_excerpt:
+                    entry["extracto"] = clean_excerpt
+                res.append(entry)
+            if res:
+                with open(cache_file, "w", encoding="utf-8") as f:
+                    json.dump(res, f, ensure_ascii=False, indent=2)
+            return res
+        except Exception:
+            return copia if isinstance(copia, list) else []
+
+    def search_jurisprudencia(self, query: str, max_pages: int = 3) -> List[Dict[str, Any]]:
+        """Busca en sentencias, dictámenes e instrucciones generales del TDLC vía ?search= y fallback por título."""
+        q_clean = query.strip()
+        if not q_clean:
+            return self.get_sentencias(page=1, per_page=20)
+
+        # 1. Búsqueda de texto completo nativa de WordPress REST API (?search= busca en cuerpo y extracto)
+        variantes = [q_clean]
+        # Equivalencias frecuentes sin tilde (ej. colusion -> colusión)
+        _tildes = {
+            "colusion": "colusión",
+            "posicion": "posición",
+            "fusion": "fusión",
+            "concentracion": "concentración",
+            "resolucion": "resolución",
+            "licitacion": "licitación",
+            "interlocking": "interlocking",
+        }
+        q_low = q_clean.lower()
+        for k, v in _tildes.items():
+            if k in q_low and v not in q_low:
+                variantes.append(re.sub(re.escape(k), v, q_low, flags=re.IGNORECASE))
+
+        matches: List[Dict[str, Any]] = []
+        vistos: set = set()
+        endpoints = [
+            ("tdlc-sentencias", "Sentencia TDLC"),
+            ("dictamenes", "Dictamen No Contencioso TDLC"),
+            ("instrucciones-generales", "Instrucción de Carácter General (ICG) TDLC"),
+        ]
+        for var in variantes:
+            for ep, tipo in endpoints:
+                for item in self._buscar_wp_endpoint(ep, tipo, var, per_page=15):
+                    clave = (ep, item.get("id") or item.get("titulo"))
+                    if clave not in vistos:
+                        vistos.add(clave)
+                        matches.append(item)
+            if matches:
+                break
+
+        if matches:
+            return matches
+
+        # 2. Fallback por páginas recientes (cubre caché offline o títulos sin índice WP)
+        q_lower = q_clean.lower()
         for p in range(1, max_pages + 1):
             sentencias = self.get_sentencias(page=p, per_page=20)
             for s in sentencias:

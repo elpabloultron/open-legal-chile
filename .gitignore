@@ -155,4 +155,10 @@ scripts/build_presentacion*
 
 # Planes de trabajo por workspace (viven con el repo, no se versionan)
 .hermes/
-scripts/generar_informe_colegio_frances.py
+scripts/generar_informe_*.py
+
+# Copias duplicadas y binarios pesados locales (la fuente de verdad del grafo vive en data/legal_knowledge_graph.json)
+graphify-out/graph.json
+Manuales/*.pdf
+investigacion_academica/*.docx
+investigacion_academica/*.pdf

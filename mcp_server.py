@@ -286,6 +286,11 @@ ORDEN_ORIGEN: List[str] = [
     "entrevista_estudio",
     "skills_listar",
     "skill_ver",
+    "descubrir_herramientas",
+    "invocar_herramienta",
+    "bcn_comparar_versiones",
+    "privacidad_anonimizar_documento",
+    "verificar_citas_escrito",
 ]
 if sorted(_POR_NOMBRE) != sorted(ORDEN_ORIGEN):
     raise RuntimeError("servidor/: los dominios no cubren exactamente las herramientas esperadas")
@@ -734,6 +739,14 @@ def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
 _PROTOCOLO_BASE: List[str] = ["consulta_maestra", "cita_texto", "suite_doctor"]
 
 TOOL_PROFILES: Dict[str, List[str]] = {
+    "router": _PROTOCOLO_BASE + [
+        "caso_analizar",
+        "ambiental_consulta_maestra",
+        "generar_documento",
+        "critique_documento",
+        "descubrir_herramientas",
+        "invocar_herramienta",
+    ],
     "laboral": _PROTOCOLO_BASE + [
         "caso_analizar", "caso_ejecutar", "bcn_get_codigo", "bcn_get_ley",
         "dt_search_doctrina", "pjud_search_jurisprudencia", "pjud_analizar_sentencia",

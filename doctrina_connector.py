@@ -74,28 +74,125 @@ def init_db(db_path: Optional[str] = None) -> sqlite3.Connection:
     return conn
 
 
-def parse_doctrina_file(filepath: str) -> List[Dict[str, Any]]:
-    """Parsea un archivo Markdown de doctrina token-optimized en fichas dogmáticas individuales."""
-    with open(filepath, "r", encoding="utf-8") as f:
-        text = f.read()
+_TITULOS_ESTRUCTURALES_IGNORADOS = frozenset({
+    "",
+    "texto del artículo",
+    "texto del articulo",
+    "contenido del artículo",
+    "contenido del articulo",
+    "resumen",
+    "abstract",
+    "palabras clave",
+    "keywords",
+    "normas y cuerpos legales citados",
+    "instituciones y conceptos jurídicos relevantes",
+    "instituciones y conceptos juridicos relevantes",
+    "véase también",
+    "vease tambien",
+    "referencias",
+    "bibliografía",
+    "bibliografia",
+    "docentes",
+    "índice",
+    "indice",
+    "sumario",
+    "introducción",
+    "introduccion",
+    "conclusión",
+    "conclusion",
+    "conclusiones",
+    "metadatos",
+    "ficha bibliográfica",
+    "ficha bibliografica",
+})
 
-    # Extraer metadatos de cabecera
+
+def _limpiar_titulo_seccion(titulo: str) -> str:
+    """Elimina emojis/prefijos decorativos para evaluar si un encabezado es solo estructura."""
+    limpio = re.sub(r"^[^\wáéíóúÁÉÍÓÚñÑ]+", "", (titulo or "").strip()).strip().lower()
+    return re.sub(r"\s+", " ", limpio)
+
+
+def _extraer_metadatos_cabecera(text: str, filepath: str) -> Tuple[str, str, str, str]:
+    """Extrae obra, autor, área y materia soportando tratados canónicos, revistas y YAML."""
     obra_match = re.search(r"^#\s+(.+)$", text, re.MULTILINE)
     obra = obra_match.group(1).strip() if obra_match else os.path.basename(filepath)
 
     meta_match = re.search(
         r"\*\*Tratadistas?:\*\*\s*([^|]+)\|\s*\*\*Área:\*\*\s*([^|]+)\|\s*\*\*Materia:\*\*\s*(.+)$",
         text,
-        re.MULTILINE
+        re.MULTILINE,
     )
     if meta_match:
-        autor = meta_match.group(1).strip()
-        area = meta_match.group(2).strip()
-        materia = meta_match.group(3).strip()
-    else:
-        autor = "Autor Desconocido"
-        area = "General"
-        materia = ""
+        return obra, meta_match.group(1).strip(), meta_match.group(2).strip(), meta_match.group(3).strip()
+
+    autor = ""
+    area = ""
+    materia = ""
+
+    # Frontmatter YAML opcional (--- ... ---)
+    if text.startswith("---"):
+        fm_end = text.find("\n---", 3)
+        if fm_end != -1:
+            fm = text[3:fm_end]
+            m_a = re.search(r"^(?:autor|autores|author)\s*:\s*[\"']?([^\"'\n]+)[\"']?", fm, re.MULTILINE | re.IGNORECASE)
+            m_ar = re.search(r"^(?:area|área|disciplina)\s*:\s*[\"']?([^\"'\n]+)[\"']?", fm, re.MULTILINE | re.IGNORECASE)
+            m_m = re.search(r"^(?:materia|revista|subject)\s*:\s*[\"']?([^\"'\n]+)[\"']?", fm, re.MULTILINE | re.IGNORECASE)
+            if m_a:
+                autor = m_a.group(1).strip()
+            if m_ar:
+                area = m_ar.group(1).strip()
+            if m_m:
+                materia = m_m.group(1).strip()
+
+    # Metadatos Markdown de revistas académicas (**Autor(es):** / **Revista:** / **Área:**)
+    cabecera = text[:2500]
+    if not autor:
+        m_au = re.search(r"\*\*(?:Autores?|Tratadistas?|Escrito por):\*\*\s*([^\n|]+)", cabecera, re.IGNORECASE)
+        if m_au:
+            autor = m_au.group(1).strip().strip("*")
+    if not area:
+        m_ar = re.search(r"\*\*(?:Área|Disciplina|Rama):\*\*\s*([^\n|]+)", cabecera, re.IGNORECASE)
+        if m_ar:
+            area = m_ar.group(1).strip().strip("*")
+    if not materia:
+        m_mat = re.search(r"\*\*(?:Materia|Revista|Fuente):\*\*\s*([^\n|]+)", cabecera, re.IGNORECASE)
+        if m_mat:
+            materia = m_mat.group(1).strip().strip("*")
+
+    # Inferir área desde la carpeta (doctrina/civil/..., doctrina/laboral/..., doctrina/academia_judicial/...)
+    if not area:
+        partes = [p.lower() for p in os.path.normpath(filepath).split(os.sep)]
+        if "civil" in partes:
+            area = "Derecho Civil"
+        elif "laboral" in partes:
+            area = "Derecho del Trabajo"
+        elif "penal" in partes:
+            area = "Derecho Penal"
+        elif "procesal" in partes:
+            area = "Derecho Procesal"
+        elif "administrativo" in partes:
+            area = "Derecho Administrativo"
+        elif "constitucional" in partes:
+            area = "Derecho Constitucional"
+        elif "ambiental" in partes:
+            area = "Derecho Ambiental"
+        elif "academia_judicial" in partes:
+            area = "Academia Judicial"
+            if not autor:
+                autor = "Academia Judicial de Chile"
+        else:
+            area = "General"
+
+    return obra, (autor or "Autor Desconocido"), area, materia
+
+
+def parse_doctrina_file(filepath: str) -> List[Dict[str, Any]]:
+    """Parsea un archivo Markdown de doctrina token-optimized en fichas dogmáticas individuales."""
+    with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+        text = f.read()
+
+    obra, autor, area, materia = _extraer_metadatos_cabecera(text, filepath)
 
     # Dividir por secciones '## 🏛️ ' o '## '
     secciones = re.split(r"\n##\s+(?:🏛️\s*)?", text)
@@ -107,6 +204,12 @@ def parse_doctrina_file(filepath: str) -> List[Dict[str, Any]]:
             continue
         titulo = lines[0].strip()
         cuerpo = "\n".join(lines[1:]).strip()
+
+        # Descartar encabezados estructurales sin contenido institucional real (p. ej. revistas SciELO)
+        if _limpiar_titulo_seccion(titulo) in _TITULOS_ESTRUCTURALES_IGNORADOS:
+            continue
+        if not titulo or len(cuerpo) < 30:
+            continue
 
         # Extraer Definición Canónica
         def_match = re.search(
@@ -148,6 +251,27 @@ def parse_doctrina_file(filepath: str) -> List[Dict[str, Any]]:
             "fallo_rector": fallo_rector,
             "filepath": filepath,
             "tokens_aprox": tokens_aprox
+        })
+
+    # Si era un artículo de revista cuyos únicos subtítulos eran estructurales (Resumen/Texto del Artículo),
+    # conservar una sola ficha limpia bajo el título real de la obra si tiene autor conocido y texto sustantivo.
+    if not instituciones and autor != "Autor Desconocido" and len(text.strip()) >= 200:
+        resumen_m = re.search(r"\n##\s+(?:[^\n]*?)Resumen\s*\n+(.*?)(?=\n##\s|\Z)", text, re.DOTALL | re.IGNORECASE)
+        definicion_art = resumen_m.group(1).strip()[:600] if resumen_m else ""
+        cuerpo_art = text[:4000].strip()
+        instituciones.append({
+            "area": area,
+            "autor": autor,
+            "obra": obra,
+            "materia": materia,
+            "institucion": obra[:160],
+            "definicion": definicion_art,
+            "contenido": cuerpo_art,
+            "operativa_procesal": "",
+            "concordancias": "",
+            "fallo_rector": "",
+            "filepath": filepath,
+            "tokens_aprox": int(len(cuerpo_art.split()) * 1.3),
         })
 
     return instituciones
@@ -522,7 +646,16 @@ def search_doctrina(
         sql += " AND autor LIKE ?"
         params.append(f"%{autor}%")
 
-    sql += " ORDER BY rank ASC LIMIT ?"
+    sql += """
+    ORDER BY
+        CASE
+            WHEN autor != 'Autor Desconocido' AND TRIM(COALESCE(definicion, '')) != '' THEN 0
+            WHEN autor != 'Autor Desconocido' THEN 1
+            ELSE 2
+        END ASC,
+        rank ASC
+    LIMIT ?
+    """
     params.append(limit)
 
     try:

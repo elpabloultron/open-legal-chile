@@ -22,6 +22,54 @@ CACHE_DIR = os.path.join(os.path.dirname(__file__), "ambiental_cache")
 _TTL_CACHE_SEGUNDOS = 7 * 24 * 60 * 60
 
 
+# Códigos numéricos oficiales del <select id="categoria"> en https://snifa.sma.gob.cl/Sancionatorio
+_ALIAS_CATEGORIA_SNIFA: Dict[str, tuple[str, str]] = {
+    "fabril": ("1", "Instalación fabril"),
+    "industrial": ("1", "Instalación fabril"),
+    "hidraulica": ("2", "Infraestructura Hidráulica"),
+    "hidráulica": ("2", "Infraestructura Hidráulica"),
+    "agua": ("2", "Infraestructura Hidráulica"),
+    "saneamiento": ("3", "Saneamiento Ambiental"),
+    "residuos": ("3", "Saneamiento Ambiental"),
+    "transporte": ("4", "Infraestructura de Transporte"),
+    "portuaria": ("5", "Infraestructura Portuaria"),
+    "puerto": ("5", "Infraestructura Portuaria"),
+    "agroindustria": ("6", "Agroindustrias"),
+    "agroindustrias": ("6", "Agroindustrias"),
+    "forestal": ("7", "Forestal"),
+    "salmon": ("8", "Pesca y Acuicultura"),
+    "salmón": ("8", "Pesca y Acuicultura"),
+    "acuicultura": ("8", "Pesca y Acuicultura"),
+    "pesca": ("8", "Pesca y Acuicultura"),
+    "mineria": ("9", "Minería"),
+    "minería": ("9", "Minería"),
+    "minera": ("9", "Minería"),
+    "energia": ("10", "Energía"),
+    "energía": ("10", "Energía"),
+    "equipamiento": ("11", "Equipamiento"),
+    "ruido": ("11", "Equipamiento (principal categoría de sancionatorios D.S. N.° 38/2011 de Ruidos)"),
+    "ruidos": ("11", "Equipamiento (principal categoría de sancionatorios D.S. N.° 38/2011 de Ruidos)"),
+    "ruidos molestos": ("11", "Equipamiento (principal categoría de sancionatorios D.S. N.° 38/2011 de Ruidos)"),
+    "inmobiliario": ("12", "Vivienda e Inmobiliarios"),
+    "vivienda": ("12", "Vivienda e Inmobiliarios"),
+    "construccion": ("12", "Vivienda e Inmobiliarios"),
+    "construcción": ("12", "Vivienda e Inmobiliarios"),
+    "etfa": ("14", "ETFA"),
+    "monitoreo": ("18", "Monitoreo de calidad Ambiental"),
+    "etca": ("19", "ETCA"),
+    "alumbrado": ("20", "Alumbrado"),
+}
+
+
+def _normalizar_categoria_snifa(categoria: str) -> str:
+    """Convierte nombres de categoría SNIFA a su ID numérico oficial (evita error ASP.NET)."""
+    c = (categoria or "").strip()
+    if not c or c.isdigit():
+        return c
+    hit = _ALIAS_CATEGORIA_SNIFA.get(c.lower())
+    return hit[0] if hit else ""
+
+
 class SMAClient:
     """Cliente oficial de la Superintendencia del Medio Ambiente (SMA / SNIFA)."""
 
@@ -46,7 +94,7 @@ class SMAClient:
             "length": limit,
             "nombre": nombre,
             "expediente": expediente,
-            "categoria": categoria,
+            "categoria": _normalizar_categoria_snifa(categoria),
             "ddlRegion": "",
             "ddlComuna": ""
         }
@@ -88,8 +136,10 @@ class SMAClient:
             "resultados": results
         }
 
-        with open(cache_file, "w", encoding="utf-8") as f:
-            json.dump(output, f, ensure_ascii=False, indent=2)
+        # Nunca cachear resultados vacíos (evita congelar 7 días fallas transitorias o filtros de nombre)
+        if total > 0 or results:
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(output, f, ensure_ascii=False, indent=2)
 
         return output
 
@@ -98,6 +148,8 @@ class SMAClient:
 
         La copia local caduca a la semana: vencida, se intenta refrescar; si la red falla,
         se entrega la copia vencida marcada con `copia_local_vencida` (degradación honesta).
+        Si `nombre` corresponde a una categoría SNIFA (ej. «ruido») y no hay coincidencias
+        por nombre de Unidad Fiscalizable, reintenta automáticamente filtrando por categoría.
         """
         clean_key = f"sanc_{nombre}_{expediente}_{categoria}_{limit}".replace(" ", "_").lower()
         cache_file = self._get_cache_path(clean_key)
@@ -108,7 +160,7 @@ class SMAClient:
             try:
                 with open(cache_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                if not isinstance(data, dict):
+                if not isinstance(data, dict) or (data.get("total", 0) == 0 and not data.get("resultados")):
                     data = None
             except Exception:  # noqa: BLE001 — una copia ilegible no es una copia
                 data = None
@@ -117,7 +169,17 @@ class SMAClient:
             registrar_tiempo("snifa.cache", time.perf_counter() - t0)
             return data
         try:
-            return self._consultar_snifa(nombre, expediente, categoria, limit, cache_file)
+            res = self._consultar_snifa(nombre, expediente, categoria, limit, cache_file)
+            if not res.get("resultados") and nombre and not categoria and not expediente:
+                cat_hit = _ALIAS_CATEGORIA_SNIFA.get(nombre.strip().lower())
+                if cat_hit:
+                    cat_id, cat_label = cat_hit
+                    cat_cache = self._get_cache_path(f"sanc_cat_{cat_id}_{limit}")
+                    res_cat = self._consultar_snifa("", "", cat_id, limit, cat_cache)
+                    if res_cat.get("resultados"):
+                        res_cat["categoria_inferida"] = cat_label
+                        return res_cat
+            return res
         except Exception:
             if data is not None:
                 return {**data, "copia_local_vencida": True}
