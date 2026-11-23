@@ -1,6 +1,5 @@
 include .env.example
 include mcp_config.json
-include smithery.yaml
 include AGENTS.md
 include README.md
 include rules/AGENTS.md

@@ -152,7 +152,7 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
 
 > [!TIP]
 > **¿Deseas instalar Open Legal Chile como Plugin en 1-Click o 1-Comando?**  
-> Consulta la guía detallada en [**`PLUGINS.md`**](PLUGINS.md) para Claude Code, Cursor, VS Code, Cline y Smithery.ai.
+> Consulta la guía detallada en [**`PLUGINS.md`**](PLUGINS.md) para Antigravity, Claude Code, Codex, Hermes, OpenCode, Cursor, VS Code y el Registro Oficial MCP.
 
 ### Instalación en un comando
 
@@ -165,8 +165,8 @@ Antigravity), escribe su configuración MCP **fusionando** con lo que ya tenías
 te deja el estado verificado con `openlegal doctor`. Para agentes, `openlegal instalar --json`
 devuelve el mismo resumen en JSON, y desde el harness está la herramienta `suite_instalar`.
 
-> Las otras vías —plugin nativo de Claude Code, autodetección de Cursor / VS Code / Cline,
-> Smithery.ai, instalación desde el código fuente y el `mcp_config.json` de Antigravity— están en
+> Las otras vías —plugin nativo de Antigravity y Claude Code, marketplaces de Codex y OpenCode,
+> Hermes Agent, autodetección de Cursor / VS Code y el Registro Oficial MCP— están en
 > [**`PLUGINS.md`**](PLUGINS.md). El detalle por cliente —y cómo verificar que el harness ve las
 > herramientas— está en [`docs/integracion-harness.md`](docs/integracion-harness.md).
 

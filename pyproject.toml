@@ -168,7 +168,7 @@ py-modules = [
 ]
 
 [tool.setuptools.data-files]
-"openlegal-chile" = [".env.example", "mcp_config.json", "smithery.yaml"]
+"openlegal-chile" = [".env.example", "mcp_config.json"]
 # Recursos que no son código y que las herramientas leen (skills_listar, skill_ver, agent_list y los
 # recursos openlegal://reglas/*). recursos.ruta_recurso() los busca en <prefijo>/share/openlegal-chile.
 # Una entrada por skill: data-files aplana las carpetas. tests/test_empaquetado.py exige que cada

@@ -106,13 +106,9 @@ el PATH de la terminal, así que un `openlegal-mcp` a secas no funcionaría. Con
 
 ---
 
-### 8. 🌐 Registros: MCP Registry y Smithery
+### 8. 🌐 Registro Oficial MCP (`registry.modelcontextprotocol.io`)
 
-- **MCP Registry**: `server.json` publica el paquete PyPI `openlegal-chile` (ejecutable `openlegal-chile`, `uvx openlegal-chile`).
-- **Smithery**: [smithery.ai/servers/pablobenavidesjorquera/open-legal-chile](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile)
-  ```bash
-  npx -y smithery mcp add pablobenavidesjorquera/open-legal-chile
-  ```
+- **MCP Registry Oficial**: [`io.github.elpabloultron/open-legal-chile`](https://registry.modelcontextprotocol.io/v0/servers?search=open-legal-chile) — `server.json` publica el paquete PyPI `openlegal-chile` (ejecutable `openlegal-chile`, `uvx openlegal-chile`) con actualización automatizada vía GitHub OIDC en cada release.
 
 ---
 
@@ -132,7 +128,7 @@ plugin de Claude Code se elige al activarlo. Todo perfil incluye `consulta_maest
 | `corporativo` | 17 | CMF, SII, TDLC, INAPI, derechos ARCO, RUT |
 | `dogmatico` | 18 | doctrina, LegalGraphify, Academia Judicial, Hugging Face |
 | `clinica` | 10 | lenguaje claro, intake, auditoría de borradores |
-| (sin perfil) | 88 | todo |
+| (sin perfil) | 95 | todo |
 
 ```bash
 openlegal-mcp --profile laboral        # o: openlegal mcp --profile laboral

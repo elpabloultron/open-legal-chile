@@ -11,7 +11,7 @@
 * [x] **Motor de Crítica Forense en 5 Dimensiones:** Auditoría de legalidad y doctrina con prompt auditor activo.
 * [x] **CI/CD & Monitor de APIs Estatales:** Integración continua en GitHub Actions (Python 3.10–3.14).
 * [x] **Publicación en PyPI:** Paquete oficial `pip install openlegal-chile` con workflow automatizado.
-* [x] **Registro en Smithery:** Publicado oficialmente en [Smithery.ai](https://smithery.ai/servers/pablobenavidesjorquera/open-legal-chile) con las herramientas MCP catalogadas.
+* [x] **Registro Oficial MCP:** Publicado y sincronizado automáticamente vía GitHub OIDC en [registry.modelcontextprotocol.io](https://registry.modelcontextprotocol.io/v0/servers?search=open-legal-chile) (`io.github.elpabloultron/open-legal-chile`).
 
 ---
 

@@ -89,8 +89,7 @@ Desktop, Cursor o VS Code abiertos desde el dock) no heredan el PATH de la termi
 Ningún archivo se pisa: los JSON se **fusionan** (tus otros servidores MCP siguen ahí), el TOML de
 Codex y el parche Cordis de dsh se **agregan**, y siempre queda un `.bak` del archivo anterior.
 
-Otros registros: el servidor está publicado en el registro MCP (`server.json`, paquete PyPI
-`openlegal-chile`, ejecutable `openlegal-chile`) y en Smithery (`smithery.yaml`).
+Registro oficial: el servidor está publicado en el **Registro Oficial MCP** (`registry.modelcontextprotocol.io`, manifiesto `server.json`, paquete PyPI `openlegal-chile`, ejecutable `openlegal-chile`).
 
 ## Límites de herramientas por cliente
 
