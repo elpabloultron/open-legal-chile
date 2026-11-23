@@ -48,6 +48,7 @@ def test_todas_las_versiones_coinciden():
     assert PLUGIN["version"] == version
     server = json.loads((RAIZ / "server.json").read_text(encoding="utf-8"))
     assert server["version"] == version
+    assert len(server["description"]) <= 100, "MCP Registry exige description <= 100 caracteres"
     assert all(p["version"] == version for p in server["packages"])
     assert not (RAIZ / "setup.py").exists()
     assert f'"version": "{version}"' in (RAIZ / "mcp_server.py").read_text(encoding="utf-8")
