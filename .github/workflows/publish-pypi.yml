@@ -84,3 +84,38 @@ jobs:
           else
             echo ">>> El release v${VERSION} ya existe"
           fi
+
+  publish-mcp-registry:
+    needs: [detect-version, build-and-publish]
+    if: always() && (needs.detect-version.outputs.publish == 'true' || github.event_name == 'workflow_dispatch') && (needs.build-and-publish.result == 'success' || needs.build-and-publish.result == 'skipped')
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    env:
+      MCP_PUBLISHER_VERSION: v1.8.15
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Install cosign (binary verification)
+        uses: sigstore/cosign-installer@v3.8.1
+
+      - name: Download and verify mcp-publisher
+        run: |
+          set -euo pipefail
+          archive="mcp-publisher_linux_amd64.tar.gz"
+          base_url="https://github.com/modelcontextprotocol/registry/releases/download/${MCP_PUBLISHER_VERSION}"
+          curl --fail --location --silent --show-error --output "$archive" "$base_url/$archive"
+          curl --fail --location --silent --show-error --output "$archive.sigstore.json" "$base_url/$archive.sigstore.json"
+          cosign verify-blob \
+            --bundle "$archive.sigstore.json" \
+            --certificate-identity-regexp "https://github.com/modelcontextprotocol/registry/.github/workflows/.*" \
+            --certificate-issuer "https://token.actions.githubusercontent.com" \
+            "$archive"
+          tar xzf "$archive" mcp-publisher
+
+      - name: Authenticate via GitHub OIDC and publish server.json
+        run: |
+          ./mcp-publisher login github-oidc
+          ./mcp-publisher publish
+          echo ">>> Registro oficial MCP actualizado con server.json"

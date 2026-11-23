@@ -334,6 +334,15 @@ def test_instalar_plugin_completo_hermes(tmp_path):
     assert (tmp_path / ".hermes" / "skills" / "open-legal-chile" / "chilean-environmental-legal" / "SKILL.md").exists()
 
 
+def test_instalar_plugin_completo_opencode(tmp_path):
+    res = ih.instalar_plugin_harness("opencode", carpeta_base=tmp_path)
+    assert res["modo"] == "plugin_completo"
+    assert res["skills"] >= 20
+    assert (tmp_path / "opencode.json").exists()
+    assert (tmp_path / ".opencode" / "AGENTS.md").exists()
+    assert (tmp_path / ".opencode" / "skills" / "chilean-employment-legal" / "SKILL.md").exists()
+
+
 def test_cli_plugin_instalar_hermes_en_proyecto(tmp_path):
     corrida = _correr_cli("plugin", "instalar", "hermes", "--proyecto", "--json", cwd=tmp_path)
     assert corrida.returncode == 0, corrida.stdout + corrida.stderr

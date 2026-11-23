@@ -789,7 +789,9 @@ Ejemplos de uso:
             print("  • Claude Code             : openlegal plugin instalar claude-code")
             print("    (o nativo en Claude)    : /plugin marketplace add elpabloultron/open-legal-chile && /plugin install open-legal-chile")
             print("  • OpenAI Codex            : openlegal plugin instalar codex")
+            print("    (o marketplace Codex)   : npx codex-marketplace add elpabloultron/open-legal-chile --plugins")
             print("  • Hermes Agent            : openlegal plugin instalar hermes")
+            print("  • OpenCode                : openlegal plugin instalar opencode")
             print("  • Cursor / VS Code        : openlegal plugin instalar cursor | vscode")
             print("\nOpciones: --proyecto (instala en la carpeta actual en vez del usuario) · --uvx · --json\n")
             return

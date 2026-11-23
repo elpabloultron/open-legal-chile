@@ -1,0 +1,52 @@
+{
+  "name": "open-legal-chile",
+  "version": "1.16.1",
+  "description": "Chilean Civil Law suite: 95 local-first MCP tools, 10 state connectors (BCN, PJUD, CGR, DT, SII, CMF, SMA, TDLC, CNE), 21 skills, and 19 legal agents.",
+  "author": {
+    "name": "Pablo Benavides Jorquera",
+    "email": "pablobenavidesjorquera@gmail.com",
+    "url": "https://elpabloultron.github.io/open-legal-chile/"
+  },
+  "homepage": "https://elpabloultron.github.io/open-legal-chile/",
+  "repository": "https://github.com/elpabloultron/open-legal-chile",
+  "license": "Apache-2.0",
+  "keywords": [
+    "chile",
+    "legal",
+    "law",
+    "civil-law",
+    "mcp",
+    "bcn",
+    "pjud",
+    "cgr",
+    "dt",
+    "sii",
+    "cmf",
+    "sma",
+    "tdlc",
+    "baremo",
+    "legaltech"
+  ],
+  "skills": "./.agents/skills/",
+  "mcpServers": "./mcp_config.json",
+  "interface": {
+    "displayName": "Open Legal Chile",
+    "shortDescription": "95 local-first MCP tools, 21 skills & 19 agents for Chilean Civil Law.",
+    "longDescription": "Open Legal Chile is an open-source, local-first legal intelligence plugin for Chilean Civil Law. It bundles 95 MCP tools across 10 official Chilean state connectors (BCN Ley Chile, PJUD Supreme & Constitutional Courts, CGR, DT, SII, CMF, SMA, TDLC, CNE, and Panel de Expertos), a hybrid doctrinal corpus & LegalGraphify knowledge graph, 21 specialized legal skills, and 19 domain subagents. Runs locally via uvx with zero client-data leakage and strict statutory citation verification.",
+    "developerName": "Pablo Benavides Jorquera",
+    "category": "Legal",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://elpabloultron.github.io/open-legal-chile/",
+    "defaultPrompt": [
+      "Ejecuta consulta_maestra sobre despido por necesidades de la empresa (Art. 161 Código del Trabajo) y descuento de AFC",
+      "Consulta el Baremo Estadístico de Daño Moral PJUD por muerte de hijo(a) o cónyuge en UF y pesos",
+      "Audita un borrador de demanda civil en modo contradictorio de contexto cero (Elephant-Goldfish)"
+    ],
+    "brandColor": "#118D4F",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

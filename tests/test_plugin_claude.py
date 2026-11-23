@@ -62,6 +62,17 @@ def test_todas_las_versiones_coinciden():
         ag = json.loads(antigravity.read_text(encoding="utf-8"))
         assert ag["version"] == version
         assert len(ag.get("suggestedPrompts", [])) <= 3
+    codex = RAIZ / ".codex-plugin" / "plugin.json"
+    if codex.exists():
+        cx = json.loads(codex.read_text(encoding="utf-8"))
+        assert cx["version"] == version
+    codex_mp = RAIZ / ".agents" / "plugins" / "marketplace.json"
+    if codex_mp.exists():
+        mp = json.loads(codex_mp.read_text(encoding="utf-8"))
+        assert mp["plugins"][0]["version"] == version
+    mcp_cfg = RAIZ / "mcp_config.json"
+    if mcp_cfg.exists():
+        assert f"openlegal-chile=={version}" in mcp_cfg.read_text(encoding="utf-8")
 
 
 def test_el_marketplace_ofrece_primero_la_suite_completa():

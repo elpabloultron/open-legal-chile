@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/marketplace.schema.json",
+  "name": "open-legal-chile",
+  "owner": {
+    "name": "Pablo Benavides Jorquera",
+    "email": "pablobenavidesjorquera@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "open-legal-chile",
+      "version": "1.16.1",
+      "source": "./",
+      "description": "Suite jurídica completa para el Derecho Continental de Chile: 95 herramientas MCP locales (uvx), 10 conectores estatales, 21 skills y 19 agentes."
+    }
+  ]
+}

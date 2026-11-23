@@ -517,6 +517,15 @@ def instalar_plugin_harness(
         resultado["plugin_dir"] = str(raiz_gh)
         return resultado
 
+    if c == "opencode":
+        raiz_oc = base / ".opencode"
+        resultado["skills"] = _copiar_skills(raiz_oc / "skills")
+        regla = raiz_oc / "AGENTS.md"
+        if _copiar_reglas(regla):
+            resultado["reglas"] = str(regla)
+        resultado["plugin_dir"] = str(raiz_oc)
+        return resultado
+
     resultado["modo"] = "mcp"
     return resultado
 
