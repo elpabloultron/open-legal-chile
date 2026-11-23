@@ -104,7 +104,11 @@ def test_frontmatter_de_los_agentes_es_yaml_valido():
         cabecera = texto.split("---", 2)[1]
         datos = yaml.safe_load(cabecera)
         assert datos["name"] and datos["description"], ruta.name
-        for herramienta in [h.strip() for h in datos.get("tools", "").split(",") if h.strip()]:
+        herramientas = datos.get("tools", [])
+        if isinstance(herramientas, str):
+            herramientas = [h.strip() for h in herramientas.split(",") if h.strip()]
+        assert isinstance(herramientas, list) and herramientas, ruta.name
+        for herramienta in herramientas:
             assert herramienta.startswith("mcp__plugin_open-legal-chile_open-legal-chile__"), herramienta
             assert herramienta.rsplit("__", 1)[1] in NOMBRES, herramienta
 
@@ -115,5 +119,5 @@ def test_exportar_subagentes_para_proyecto_usa_el_prefijo_del_servidor(tmp_path)
     exportados = agent_runtime.export_subagents_config(str(tmp_path))
     assert len(exportados) >= 19
     laboral = (tmp_path / ".claude" / "agents" / "agente-laboral.md").read_text(encoding="utf-8")
-    assert f"tools: {PREFIJO_MCP_PROYECTO}bcn_get_codigo" in laboral
+    assert f"  - {PREFIJO_MCP_PROYECTO}bcn_get_codigo" in laboral
     assert laboral.startswith("---\nname: agente-laboral\ndescription: \"")

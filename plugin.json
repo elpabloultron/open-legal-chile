@@ -1,18 +1,41 @@
 {
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "open-legal-chile",
   "displayName": "Open Legal Chile",
   "version": "1.16.1",
-  "description": "Suite de Inteligencia Jurídica para el Derecho Continental de Chile: 95 herramientas MCP con 10 conectores estatales (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), Baremo Estadístico de Daño Moral, doctrina canónica híbrida, grafo multiplex LegalGraphify, jurimetría académica, anonimizador Ley N.° 21.719, OCR forense, 21 skills y 19 agentes especializados.",
+  "description": "Suite jurídica de Chile (Civil Law): 95 herramientas MCP, 10 conectores estatales (BCN, PJUD, CGR, DT, SII, CMF, SMA, TDLC, CNE), 21 skills y 19 agentes.",
   "logo": "assets/logo.svg",
-  "author": {
-    "name": "Pablo Benavides Jorquera / Open Legal Chile",
-    "url": "https://elpabloultron.github.io/open-legal-chile/"
-  },
-  "homepage": "https://elpabloultron.github.io/open-legal-chile/",
-  "repository": "https://github.com/elpabloultron/open-legal-chile",
+  "skills": [
+    "./.agents/skills"
+  ],
   "suggestedPrompts": [
     "Ejecuta consulta_maestra sobre despido por necesidades de la empresa (Art. 161 Código del Trabajo) y descuento de AFC",
     "Consulta el Baremo Estadístico de Daño Moral PJUD por muerte de hijo(a) o cónyuge en UF y pesos",
     "Audita un borrador de demanda civil en modo contradictorio de contexto cero (Elephant-Goldfish)"
+  ],
+  "author": {
+    "name": "Pablo Benavides Jorquera",
+    "email": "pablobenavidesjorquera@gmail.com",
+    "url": "https://elpabloultron.github.io/open-legal-chile/"
+  },
+  "homepage": "https://elpabloultron.github.io/open-legal-chile/",
+  "repository": "https://github.com/elpabloultron/open-legal-chile",
+  "license": "Apache-2.0",
+  "keywords": [
+    "chile",
+    "legal",
+    "law",
+    "civil-law",
+    "mcp",
+    "bcn",
+    "pjud",
+    "cgr",
+    "dt",
+    "sii",
+    "cmf",
+    "sma",
+    "tdlc",
+    "baremo",
+    "legaltech"
   ]
 }

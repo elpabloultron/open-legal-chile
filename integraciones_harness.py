@@ -383,7 +383,10 @@ def instalar_plugin_antigravity(
     # 1. plugin.json, README.md y logo.svg (desde repo o share/openlegal-chile en wheel)
     plugin_src = ruta_recurso("plugin.json")
     if plugin_src.exists():
-        shutil.copy2(plugin_src, dest / "plugin.json")
+        datos_plugin = json.loads(plugin_src.read_text(encoding="utf-8"))
+        # En el plugin instalado las skills viven en la carpeta estándar `skills/`, no en `.agents/skills`
+        datos_plugin.pop("skills", None)
+        (dest / "plugin.json").write_text(_json_bonito(datos_plugin), encoding="utf-8")
     readme_src = ruta_recurso("README.md")
     if readme_src.exists():
         shutil.copy2(readme_src, dest / "README.md")

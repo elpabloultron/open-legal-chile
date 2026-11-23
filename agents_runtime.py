@@ -1210,7 +1210,9 @@ def subagente_markdown(agent: Any, prefijo_mcp: str = PREFIJO_MCP_PROYECTO) -> s
     """
     lineas = ["---", f"name: {agent.name}", f"description: {json.dumps(agent.description, ensure_ascii=False)}"]
     if agent.tools:
-        lineas.append("tools: " + ", ".join(prefijo_mcp + t for t in agent.tools))
+        lineas.append("tools:")
+        for herramienta in agent.tools:
+            lineas.append(f"  - {prefijo_mcp}{herramienta}")
     lineas += ["---", "", agent.system_prompt.strip(), ""]
     return "\n".join(lineas)
 
