@@ -57,6 +57,11 @@ def test_todas_las_versiones_coinciden():
         datos = json.loads(gemini.read_text(encoding="utf-8"))
         assert datos["version"] == version
         assert f"openlegal-chile=={version}" in json.dumps(datos)
+    antigravity = RAIZ / "plugin.json"
+    if antigravity.exists():
+        ag = json.loads(antigravity.read_text(encoding="utf-8"))
+        assert ag["version"] == version
+        assert len(ag.get("suggestedPrompts", [])) <= 3
 
 
 def test_el_marketplace_ofrece_primero_la_suite_completa():

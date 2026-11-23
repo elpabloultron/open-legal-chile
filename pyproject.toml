@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openlegal-chile"
-version = "1.16.0"
+version = "1.16.1"
 description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
 readme = "README.md"
 authors = [
@@ -173,7 +173,8 @@ py-modules = [
 # recursos openlegal://reglas/*). recursos.ruta_recurso() los busca en <prefijo>/share/openlegal-chile.
 # Una entrada por skill: data-files aplana las carpetas. tests/test_empaquetado.py exige que cada
 # carpeta de .agents/skills/ tenga la suya.
-"share/openlegal-chile" = ["AGENTS.md", "plugin.json"]
+"share/openlegal-chile" = ["AGENTS.md", "README.md", "plugin.json"]
+"share/openlegal-chile/rules" = ["rules/AGENTS.md"]
 "share/openlegal-chile/assets" = ["assets/logo.svg"]
 "share/openlegal-chile/agents" = ["agents/*.json", "agents/*.md"]
 "share/openlegal-chile/docs" = ["docs/integracion-harness.md"]

@@ -25,6 +25,7 @@ COMANDO_A_HERRAMIENTA = {
     "generate": "generar_documento",
     "interview": "entrevista_estudio",
     "integrar": "integraciones_harness",  # módulo, no herramienta: configura harnesses, no consulta
+    "plugin": "integraciones_harness",    # módulo, no herramienta: instala plugins completos en harnesses
     # El resto ya estaba cubierto por una herramienta con otro nombre (mapa explícito, no adivinado).
     "arco": "privacidad_tramitar_arco",
     "clinica": "clinica_lenguaje_claro",

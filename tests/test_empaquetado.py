@@ -121,7 +121,9 @@ def test_las_skills_agentes_y_protocolo_viajan_como_data_files():
     data_files = _setuptools_cfg()["tool"]["setuptools"]["data-files"]
     destino = "share/openlegal-chile"
     assert "AGENTS.md" in data_files[destino]
+    assert "README.md" in data_files[destino]
     assert "plugin.json" in data_files[destino]
+    assert "rules/AGENTS.md" in data_files[f"{destino}/rules"]
     assert "assets/logo.svg" in data_files[f"{destino}/assets"]
     assert "agents/*.json" in data_files[f"{destino}/agents"]
     assert "agents/*.md" in data_files[f"{destino}/agents"]

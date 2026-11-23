@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Open Legal Chile — Interacciones Estilo Graphify (v1.16.0)
+   Open Legal Chile — Interacciones Estilo Graphify (v1.16.1)
    Header segmentado · Mega-Menú 8 Áreas · Setup Prompt · Viewfinder · FAQ · Cotizador
    ========================================================================== */
 (function () {
@@ -135,7 +135,7 @@
       <div class="op-right">
         <a class="op-gh-badge" href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" aria-label="Repositorio Open Legal Chile en GitHub">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"/></svg>
-          <span>v1.16.0</span>
+          <span>v1.16.1</span>
         </a>
         <a class="pill ghost sm" href="index.html#instalar">Instalar plugin</a>
         <a class="pill primary sm" href="capacitaciones.html#cotizacion">Pide tu cotización</a>
@@ -613,7 +613,7 @@
         </div>
         <div class="footer-bottom">
           <div>Open Legal Chile — Un proyecto open source · Desarrollado por Pablo Benavides J. · Web: <a href="https://elpabloultron.github.io/open-legal-chile/">elpabloultron.github.io/open-legal-chile</a></div>
-          <div><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a> · v1.16.0</div>
+          <div><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a> · v1.16.1</div>
         </div>
       </div>
     `;

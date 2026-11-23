@@ -259,25 +259,38 @@ def _registrar_claude_code_usuario(uvx: bool) -> Dict[str, str]:
     return {"cliente": "claude-code", "archivo": "~/.claude.json", "estado": "error", "nota": salida[:300]}
 
 
-def _copiar_skills(dest_skills: pathlib.Path) -> int:
-    """Copia las 21 skills jurídicas (`.agents/skills/*/SKILL.md`) en `dest_skills`."""
+PREFIJO_MCP_ANTIGRAVITY = "mcp_open-legal-chile_open-legal-chile_"
+
+
+def _copiar_skills(dest_skills: pathlib.Path, limpiar_obsoletas: bool = False) -> int:
+    """Copia las 21 skills jurídicas (`.agents/skills/*/SKILL.md`) en `dest_skills`.
+
+    Si `limpiar_obsoletas=True`, elimina subcarpetas antiguas en `dest_skills` que ya no existan
+    en el paquete (evita skills huérfanas al actualizar un plugin instalado).
+    """
     skills_src = ruta_recurso(".agents/skills")
     copiadas = 0
     if not skills_src.exists():
         return 0
     dest_skills.mkdir(parents=True, exist_ok=True)
+    activas = set()
     for carpeta in sorted(skills_src.iterdir()):
         skill_md = carpeta / "SKILL.md"
         if skill_md.exists():
+            activas.add(carpeta.name)
             d_skill = dest_skills / carpeta.name
             d_skill.mkdir(parents=True, exist_ok=True)
             shutil.copy2(skill_md, d_skill / "SKILL.md")
             copiadas += 1
+    if limpiar_obsoletas:
+        for existente in list(dest_skills.iterdir()):
+            if existente.is_dir() and existente.name not in activas:
+                shutil.rmtree(existente, ignore_errors=True)
     return copiadas
 
 
 def _copiar_agentes_md(dest_agents: pathlib.Path) -> int:
-    """Copia los 19 agentes jurídicos (`agents/*.md`) en `dest_agents`."""
+    """Copia los 19 agentes jurídicos (`agents/*.md`, formato Claude Code) en `dest_agents`."""
     agents_src = ruta_recurso("agents")
     copiados = 0
     if not agents_src.exists():
@@ -289,9 +302,59 @@ def _copiar_agentes_md(dest_agents: pathlib.Path) -> int:
     return copiados
 
 
-def _copiar_reglas(dest_archivo: pathlib.Path, cabecera: str = "") -> bool:
-    """Copia `AGENTS.md` (reglas maestras de Derecho Continental chileno) a `dest_archivo`."""
-    src = ruta_recurso("AGENTS.md")
+def _escribir_agentes_antigravity(dest_agents: pathlib.Path) -> int:
+    """Genera los 19 agentes en formato YAML nativo de Google Antigravity (`tools:` como lista).
+
+    Antigravity exige que `tools` en el frontmatter YAML de `agents/*.md` sea una secuencia
+    (`[]string`), a diferencia de Claude Code que usa cadena separada por comas. Generar los `.md`
+    desde `agents/*.json` garantiza 0 errores bajo `agy plugin validate --strict`.
+    """
+    agents_src = ruta_recurso("agents")
+    if not agents_src.exists():
+        return 0
+    dest_agents.mkdir(parents=True, exist_ok=True)
+    escritos = 0
+    esperados = set()
+    for archivo in sorted(agents_src.glob("*.json")):
+        datos = json.loads(archivo.read_text(encoding="utf-8"))
+        nombre = datos.get("name", archivo.stem)
+        descripcion = datos.get("description", "")
+        herramientas = datos.get("tools", [])
+        prompt = (datos.get("systemPrompt") or "").strip()
+        lineas = [
+            "---",
+            f"name: {nombre}",
+            f"description: {json.dumps(descripcion, ensure_ascii=False)}",
+        ]
+        if herramientas:
+            lineas.append("tools:")
+            for herramienta in herramientas:
+                lineas.append(f"  - {PREFIJO_MCP_ANTIGRAVITY}{herramienta}")
+        lineas += ["---", "", prompt, ""]
+        destino = dest_agents / f"{archivo.stem}.md"
+        destino.write_text("\n".join(lineas), encoding="utf-8")
+        esperados.add(destino.name)
+        escritos += 1
+    for existente in list(dest_agents.glob("*.md")):
+        if existente.name not in esperados:
+            existente.unlink(missing_ok=True)
+    return escritos
+
+
+def _copiar_reglas(
+    dest_archivo: pathlib.Path,
+    cabecera: str = "",
+    preferir_compacta: bool = False,
+) -> bool:
+    """Copia las reglas maestras de Derecho Continental chileno a `dest_archivo`.
+
+    Cuando `preferir_compacta=True` (plugins de Antigravity con límite estricto de 24 000 bytes
+    por archivo de reglas), usa `rules/AGENTS.md` (completo y < 24 KB, sin truncamiento) con
+    respaldo a `AGENTS.md`.
+    """
+    src = ruta_recurso("rules/AGENTS.md") if preferir_compacta else ruta_recurso("AGENTS.md")
+    if not src.exists():
+        src = ruta_recurso("AGENTS.md")
     if not src.exists():
         return False
     dest_archivo.parent.mkdir(parents=True, exist_ok=True)
@@ -307,8 +370,8 @@ def instalar_plugin_antigravity(
     uvx: bool = False,
 ) -> Dict[str, Any]:
     """Instala y sincroniza el paquete nativo de plugin de Google Antigravity
-    en ~/.gemini/config/plugins/open-legal-chile/ (plugin.json, mcp_config.json,
-    assets/logo.svg, skills/, agents/, rules/). Funciona tanto desde el repo como desde wheel PyPI.
+    en ~/.gemini/config/plugins/open-legal-chile/ (plugin.json, README.md, mcp_config.json,
+    assets/logo.svg, skills/, agents/, rules/AGENTS.md). Cumple `agy plugin validate --strict`.
     """
     dest = pathlib.Path(destino_plugin) if destino_plugin else (
         pathlib.Path.home() / ".gemini" / "config" / "plugins" / SERVIDOR
@@ -317,18 +380,21 @@ def instalar_plugin_antigravity(
     (dest / "assets").mkdir(parents=True, exist_ok=True)
     (dest / "rules").mkdir(parents=True, exist_ok=True)
 
-    # 1. plugin.json y logo.svg (desde repo o share/openlegal-chile en wheel)
+    # 1. plugin.json, README.md y logo.svg (desde repo o share/openlegal-chile en wheel)
     plugin_src = ruta_recurso("plugin.json")
     if plugin_src.exists():
         shutil.copy2(plugin_src, dest / "plugin.json")
+    readme_src = ruta_recurso("README.md")
+    if readme_src.exists():
+        shutil.copy2(readme_src, dest / "README.md")
     logo_src = ruta_recurso("assets/logo.svg")
     if logo_src.exists():
         shutil.copy2(logo_src, dest / "assets" / "logo.svg")
 
-    # 2. rules/AGENTS.md, 21 skills y 19 agentes
-    reglas_ok = _copiar_reglas(dest / "rules" / "AGENTS.md")
-    skills_copiadas = _copiar_skills(dest / "skills")
-    agentes_copiados = _copiar_agentes_md(dest / "agents")
+    # 2. rules/AGENTS.md (<24 KB sin truncamiento), 21 skills (sin obsoletas) y 19 agentes YAML
+    reglas_ok = _copiar_reglas(dest / "rules" / "AGENTS.md", preferir_compacta=True)
+    skills_copiadas = _copiar_skills(dest / "skills", limpiar_obsoletas=True)
+    agentes_copiados = _escribir_agentes_antigravity(dest / "agents")
 
     # 3. mcp_config.json con ruta absoluta del ejecutable y herramientas eager
     entrada = _entrada(uvx)

@@ -10,6 +10,8 @@ import pathlib
 import subprocess
 import sys
 
+import pytest
+
 import integraciones_harness as ih
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
@@ -274,16 +276,33 @@ def test_escribir_json_no_falso_positivo_por_subcadena(tmp_path):
 
 
 def test_instalar_plugin_completo_antigravity(tmp_path):
+    yaml = pytest.importorskip("yaml")
+    # Simula una skill obsoleta previa para verificar limpieza automática
+    obsoleta = tmp_path / ".gemini" / "config" / "plugins" / "open-legal-chile" / "skills" / "skill-obsoleta"
+    obsoleta.mkdir(parents=True)
+    (obsoleta / "SKILL.md").write_text("# vieja\n", encoding="utf-8")
+
     res = ih.instalar_plugin_harness("antigravity", carpeta_base=tmp_path)
     pdir = pathlib.Path(res["plugin_dir"])
     assert res["modo"] == "plugin_nativo"
     assert res["skills"] >= 20
     assert res["agents"] >= 18
+    assert not obsoleta.exists(), "las skills obsoletas deben purgarse al sincronizar el plugin"
     assert (pdir / "plugin.json").exists()
+    assert (pdir / "README.md").exists()
     assert (pdir / "assets" / "logo.svg").exists()
-    assert (pdir / "rules" / "AGENTS.md").exists()
+    reglas_bytes = (pdir / "rules" / "AGENTS.md").read_bytes()
+    assert 1000 < len(reglas_bytes) <= 24000, "rules/AGENTS.md debe respetar el límite de 24 000 bytes de Antigravity"
     assert (pdir / "mcp_config.json").exists()
     assert (pdir / "skills" / "chilean-employment-legal" / "SKILL.md").exists()
+    # Verificar formato YAML estricto de Antigravity (tools como lista []string)
+    manifiesto = json.loads((pdir / "plugin.json").read_text(encoding="utf-8"))
+    assert len(manifiesto.get("suggestedPrompts", [])) <= 3
+    for agente_md in sorted((pdir / "agents").glob("*.md")):
+        cabecera = agente_md.read_text(encoding="utf-8").split("---", 2)[1]
+        datos = yaml.safe_load(cabecera)
+        assert datos["name"] and datos["description"]
+        assert isinstance(datos.get("tools", []), list), f"{agente_md.name}: tools debe ser lista YAML para Antigravity"
 
 
 def test_instalar_plugin_completo_claude_code(tmp_path):
