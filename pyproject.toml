@@ -173,7 +173,8 @@ py-modules = [
 # recursos openlegal://reglas/*). recursos.ruta_recurso() los busca en <prefijo>/share/openlegal-chile.
 # Una entrada por skill: data-files aplana las carpetas. tests/test_empaquetado.py exige que cada
 # carpeta de .agents/skills/ tenga la suya.
-"share/openlegal-chile" = ["AGENTS.md"]
+"share/openlegal-chile" = ["AGENTS.md", "plugin.json"]
+"share/openlegal-chile/assets" = ["assets/logo.svg"]
 "share/openlegal-chile/agents" = ["agents/*.json", "agents/*.md"]
 "share/openlegal-chile/docs" = ["docs/integracion-harness.md"]
 "share/openlegal-chile/.agents/skills/chilean-administrative-legal" = [".agents/skills/chilean-administrative-legal/SKILL.md"]

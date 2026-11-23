@@ -658,20 +658,22 @@ Ejemplos de uso:
   openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (17 perfiles)
   openlegal caso <texto/ruta> -> Abre o crea expediente local con ingesta MD y subgrafo del caso
   openlegal vector "..."      -> Búsqueda semántica híbrida en los 9 Códigos y CPR (Dense + BM25)
-  openlegal integrar         -> Muestra y escribe la configuración MCP de tu harness (--escribir)
+  openlegal plugin instalar   -> Instala el Plugin completo (MCP + 21 skills + 19 agentes + reglas) en tu harness
+  openlegal integrar          -> Muestra y escribe la configuración MCP de tu harness (--escribir)
   openlegal ci                -> Supervisa GitHub Actions y auto-repara fallos en CI
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents", "caso", "vector", "ci"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "plugin", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents", "caso", "vector", "ci"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
     parser.add_argument("--contexto", type=str, default=None, help="Con 'ocr': para qué se usará el documento (plazo, escritura, tabla…)")
     parser.add_argument("--escribir", action="store_true", help="Con 'integrar': escribe la configuración del harness (con respaldo)")
     parser.add_argument("--todos", action="store_true", help="Con 'integrar': configura todos los harness detectados en la máquina")
-    parser.add_argument("--json", action="store_true", help="Con 'instalar': salida legible por máquinas")
-    parser.add_argument("--uvx", action="store_true", help="Con 'integrar'/'instalar': lanzar el MCP con uvx (no requiere el paquete instalado, solo uv)")
+    parser.add_argument("--json", action="store_true", help="Con 'instalar'/'plugin': salida legible por máquinas")
+    parser.add_argument("--uvx", action="store_true", help="Con 'integrar'/'instalar'/'plugin': lanzar el MCP con uvx (no requiere el paquete instalado, solo uv)")
     parser.add_argument("--global", dest="global_", action="store_true", help="Con 'integrar': escribir la configuración global (de usuario) del harness")
+    parser.add_argument("--proyecto", action="store_true", help="Con 'plugin instalar': instalar el bundle del plugin en la carpeta del proyecto actual en vez del usuario")
     parser.add_argument("--grafo", action="store_true", help="Con 'ambiental': añade el subgrafo de LegalGraphify con su ahorro de tokens (la primera consulta carga su índice)")
     parser.add_argument("--refrescar", action="store_true", help="Con 'cache': baja del hub las revisiones nuevas de lo ya cacheado; con 'cache mapa': descarga y verifica el mapa del corpus")
     parser.add_argument("--forzar", action="store_true", help="Con 'cache --refrescar': vuelve a bajar todo lo cacheado, aunque no haya cambiado")
@@ -736,9 +738,13 @@ Ejemplos de uso:
         detectados = ih.detectar_instalados(carpeta)
         if not detectados:
             print("No se detectó ningún harness en esta carpeta (se buscó .claude, .cursor, .vscode, .gemini, "
-                  ".codex, .dsh, opencode.json y .antigravity). Configuralos igual con: "
-                  "openlegal integrar <cliente> --escribir (o --global para la configuración de usuario)")
-        escritos = ih.escribir_todos(detectados, carpeta_base=carpeta, uvx=args.uvx) if detectados else []
+                  ".codex, .hermes, .dsh, opencode.json y .antigravity). Instala el plugin completo con: "
+                  "openlegal plugin instalar antigravity|claude-code|codex|hermes")
+        escritos = (
+            ih.instalar_plugin_todos(detectados, carpeta_base=carpeta, global_=False, uvx=args.uvx)
+            if detectados
+            else []
+        )
         # La instalación deja el mapa del corpus listo; un fallo de red no la hace fallar (queda el aviso).
         mapa = _asegurar_mapa(600.0)
         resumen = diagnostico_completo()
@@ -749,6 +755,7 @@ Ejemplos de uso:
                 "harnesses": detectados,
                 "archivos": {r.get("cliente"): r.get("archivo") for r in escritos},
                 "estado_config": [r.get("estado") for r in escritos],
+                "plugins": escritos,
                 "doctor": {"estado": resumen["estado"]},
                 "herramientas": len(_TOOLS_MCP),
                 "mapa": mapa,
@@ -756,10 +763,71 @@ Ejemplos de uso:
             }, ensure_ascii=False, indent=2))
         else:
             print_banner()
-            print(f"\n📦 INSTALACIÓN COMPLETA — harness configurados: {', '.join(detectados) or 'ninguno'}")
+            print(f"\n📦 INSTALACIÓN COMPLETA DE PLUGIN — harness configurados: {', '.join(detectados) or 'ninguno'}")
+            for r in escritos:
+                print(
+                    f"   • {r.get('cliente')}: {r.get('estado')} "
+                    f"(skills: {r.get('skills', 0)}, agentes: {r.get('agents', 0)}, mcp: {r.get('archivo')})"
+                )
             print(f"   {len(_TOOLS_MCP)} herramientas MCP · estado del sistema: {resumen['estado'].upper()}")
             _imprimir_mapa(mapa, sangria="   ")
             print("   Verificalo con: openlegal doctor\n")
+        return
+
+    if args.comando == "plugin":
+        import integraciones_harness as ih
+
+        sub = (args.query[0] if args.query else "").strip().lower()
+        objetivos = [q.strip() for q in args.query[1:] if q.strip()] if sub in ("instalar", "install") else []
+
+        if sub not in ("instalar", "install"):
+            print_banner()
+            print("\n🧩 PLUGIN COMPLETO OPEN LEGAL CHILE (MCP + 21 skills + 19 agentes + reglas chilenas)\n")
+            print("Comandos de instalación en 1 paso:")
+            print("  • Auto-detectar harnesses : openlegal plugin instalar")
+            print("  • Google Antigravity      : openlegal plugin instalar antigravity")
+            print("  • Claude Code             : openlegal plugin instalar claude-code")
+            print("    (o nativo en Claude)    : /plugin marketplace add elpabloultron/open-legal-chile && /plugin install open-legal-chile")
+            print("  • OpenAI Codex            : openlegal plugin instalar codex")
+            print("  • Hermes Agent            : openlegal plugin instalar hermes")
+            print("  • Cursor / VS Code        : openlegal plugin instalar cursor | vscode")
+            print("\nOpciones: --proyecto (instala en la carpeta actual en vez del usuario) · --uvx · --json\n")
+            return
+
+        es_global = not args.proyecto
+        base_dest = pathlib.Path.cwd() if args.proyecto else None
+        try:
+            resultados = (
+                ih.instalar_plugin_todos(objetivos, carpeta_base=base_dest, global_=es_global, uvx=args.uvx)
+                if objetivos
+                else ih.instalar_plugin_todos(None, carpeta_base=base_dest, global_=es_global, uvx=args.uvx)
+            )
+        except ValueError as exc:
+            print(f"❌ {exc}")
+            return
+
+        if args.json:
+            print(json.dumps({"alcance": "proyecto" if args.proyecto else "usuario", "plugins": resultados}, ensure_ascii=False, indent=2))
+            return
+
+        print_banner()
+        if not resultados:
+            print("\n⚠️  No se detectó ningún harness instalado automáticamente.")
+            print("   Indica uno explícitamente, por ejemplo: openlegal plugin instalar antigravity\n")
+            return
+        print(f"\n🧩 PLUGIN COMPLETO INSTALADO ({'proyecto' if args.proyecto else 'usuario'}):\n")
+        for r in resultados:
+            print(
+                f"  ✅ {r.get('cliente'):<14} · modo={r.get('modo')} · "
+                f"skills={r.get('skills', 0)} · agentes={r.get('agents', 0)} · mcp={r.get('archivo')}"
+            )
+            if r.get("plugin_dir"):
+                print(f"     carpeta plugin : {r['plugin_dir']}")
+            if r.get("reglas"):
+                print(f"     reglas chilenas: {r['reglas']}")
+            if r.get("comando_nativo"):
+                print(f"     marketplace    : {r['comando_nativo']}")
+        print("\nReinicia tu harness y verifica con: openlegal doctor\n")
         return
 
     if args.comando == "integrar":

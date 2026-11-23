@@ -273,3 +273,56 @@ def test_escribir_json_no_falso_positivo_por_subcadena(tmp_path):
     assert "open-legal-chile" in datos["mcpServers"]
 
 
+def test_instalar_plugin_completo_antigravity(tmp_path):
+    res = ih.instalar_plugin_harness("antigravity", carpeta_base=tmp_path)
+    pdir = pathlib.Path(res["plugin_dir"])
+    assert res["modo"] == "plugin_nativo"
+    assert res["skills"] >= 20
+    assert res["agents"] >= 18
+    assert (pdir / "plugin.json").exists()
+    assert (pdir / "assets" / "logo.svg").exists()
+    assert (pdir / "rules" / "AGENTS.md").exists()
+    assert (pdir / "mcp_config.json").exists()
+    assert (pdir / "skills" / "chilean-employment-legal" / "SKILL.md").exists()
+
+
+def test_instalar_plugin_completo_claude_code(tmp_path):
+    res = ih.instalar_plugin_harness("claude-code", carpeta_base=tmp_path)
+    assert res["modo"] == "plugin_completo"
+    assert res["skills"] >= 20
+    assert res["agents"] >= 18
+    assert (tmp_path / ".mcp.json").exists()
+    assert (tmp_path / ".claude" / "skills" / "chilean-litigation-legal" / "SKILL.md").exists()
+    assert (tmp_path / ".claude" / "rules" / "open-legal-chile.md").exists()
+    assert "/plugin install open-legal-chile" in res["comando_nativo"]
+
+
+def test_instalar_plugin_completo_codex(tmp_path):
+    res = ih.instalar_plugin_harness("codex", carpeta_base=tmp_path)
+    assert res["modo"] == "plugin_completo"
+    assert res["skills"] >= 20
+    assert (tmp_path / ".codex" / "config.toml").exists()
+    assert (tmp_path / ".codex" / "AGENTS.md").exists()
+    assert (tmp_path / ".agents" / "skills" / "chilean-employment-legal" / "SKILL.md").exists()
+
+
+def test_instalar_plugin_completo_hermes(tmp_path):
+    res = ih.instalar_plugin_harness("hermes", carpeta_base=tmp_path)
+    assert res["modo"] == "plugin_completo"
+    assert res["skills"] >= 20
+    assert (tmp_path / ".hermes" / "config.yaml").exists()
+    assert (tmp_path / ".hermes" / "skills" / "open-legal-chile" / "AGENTS.md").exists()
+    assert (tmp_path / ".hermes" / "skills" / "open-legal-chile" / "chilean-environmental-legal" / "SKILL.md").exists()
+
+
+def test_cli_plugin_instalar_hermes_en_proyecto(tmp_path):
+    corrida = _correr_cli("plugin", "instalar", "hermes", "--proyecto", "--json", cwd=tmp_path)
+    assert corrida.returncode == 0, corrida.stdout + corrida.stderr
+    datos = json.loads(corrida.stdout)
+    assert datos["alcance"] == "proyecto"
+    assert datos["plugins"][0]["cliente"] == "hermes"
+    assert datos["plugins"][0]["skills"] >= 20
+    assert (tmp_path / ".hermes" / "config.yaml").exists()
+
+
+

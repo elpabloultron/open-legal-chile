@@ -30,6 +30,8 @@ import sys
 import sysconfig
 from typing import Any, Dict, List, Optional, Tuple, Union
 
+from recursos import ruta_recurso
+
 COMANDO = "openlegal-mcp"
 SERVIDOR = "open-legal-chile"
 ID_DSH = "mcp-open-legal-chile"
@@ -257,58 +259,78 @@ def _registrar_claude_code_usuario(uvx: bool) -> Dict[str, str]:
     return {"cliente": "claude-code", "archivo": "~/.claude.json", "estado": "error", "nota": salida[:300]}
 
 
+def _copiar_skills(dest_skills: pathlib.Path) -> int:
+    """Copia las 21 skills jurídicas (`.agents/skills/*/SKILL.md`) en `dest_skills`."""
+    skills_src = ruta_recurso(".agents/skills")
+    copiadas = 0
+    if not skills_src.exists():
+        return 0
+    dest_skills.mkdir(parents=True, exist_ok=True)
+    for carpeta in sorted(skills_src.iterdir()):
+        skill_md = carpeta / "SKILL.md"
+        if skill_md.exists():
+            d_skill = dest_skills / carpeta.name
+            d_skill.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(skill_md, d_skill / "SKILL.md")
+            copiadas += 1
+    return copiadas
+
+
+def _copiar_agentes_md(dest_agents: pathlib.Path) -> int:
+    """Copia los 19 agentes jurídicos (`agents/*.md`) en `dest_agents`."""
+    agents_src = ruta_recurso("agents")
+    copiados = 0
+    if not agents_src.exists():
+        return 0
+    dest_agents.mkdir(parents=True, exist_ok=True)
+    for arch in sorted(agents_src.glob("*.md")):
+        shutil.copy2(arch, dest_agents / arch.name)
+        copiados += 1
+    return copiados
+
+
+def _copiar_reglas(dest_archivo: pathlib.Path, cabecera: str = "") -> bool:
+    """Copia `AGENTS.md` (reglas maestras de Derecho Continental chileno) a `dest_archivo`."""
+    src = ruta_recurso("AGENTS.md")
+    if not src.exists():
+        return False
+    dest_archivo.parent.mkdir(parents=True, exist_ok=True)
+    if cabecera:
+        dest_archivo.write_text(cabecera + src.read_text(encoding="utf-8"), encoding="utf-8")
+    else:
+        shutil.copy2(src, dest_archivo)
+    return True
+
+
 def instalar_plugin_antigravity(
     destino_plugin: Optional[Union[str, pathlib.Path]] = None,
     uvx: bool = False,
 ) -> Dict[str, Any]:
     """Instala y sincroniza el paquete nativo de plugin de Google Antigravity
     en ~/.gemini/config/plugins/open-legal-chile/ (plugin.json, mcp_config.json,
-    assets/logo.svg, skills/, agents/, rules/).
+    assets/logo.svg, skills/, agents/, rules/). Funciona tanto desde el repo como desde wheel PyPI.
     """
-    raiz_repo = pathlib.Path(__file__).resolve().parent
     dest = pathlib.Path(destino_plugin) if destino_plugin else (
         pathlib.Path.home() / ".gemini" / "config" / "plugins" / SERVIDOR
     )
     dest.mkdir(parents=True, exist_ok=True)
     (dest / "assets").mkdir(parents=True, exist_ok=True)
     (dest / "rules").mkdir(parents=True, exist_ok=True)
-    (dest / "skills").mkdir(parents=True, exist_ok=True)
-    (dest / "agents").mkdir(parents=True, exist_ok=True)
 
-    # 1. plugin.json y logo.svg
-    plugin_src = raiz_repo / "plugin.json"
+    # 1. plugin.json y logo.svg (desde repo o share/openlegal-chile en wheel)
+    plugin_src = ruta_recurso("plugin.json")
     if plugin_src.exists():
         shutil.copy2(plugin_src, dest / "plugin.json")
-    logo_src = raiz_repo / "assets" / "logo.svg"
+    logo_src = ruta_recurso("assets/logo.svg")
     if logo_src.exists():
         shutil.copy2(logo_src, dest / "assets" / "logo.svg")
 
-    # 2. rules/AGENTS.md
-    agents_md_src = raiz_repo / "AGENTS.md"
-    if agents_md_src.exists():
-        shutil.copy2(agents_md_src, dest / "rules" / "AGENTS.md")
+    # 2. rules/AGENTS.md, 21 skills y 19 agentes
+    reglas_ok = _copiar_reglas(dest / "rules" / "AGENTS.md")
+    skills_copiadas = _copiar_skills(dest / "skills")
+    agentes_copiados = _copiar_agentes_md(dest / "agents")
 
-    # 3. skills/
-    skills_src = raiz_repo / ".agents" / "skills"
-    skills_copiadas = 0
-    if skills_src.exists():
-        for carpeta in sorted(skills_src.iterdir()):
-            skill_md = carpeta / "SKILL.md"
-            if skill_md.exists():
-                d_skill = dest / "skills" / carpeta.name
-                d_skill.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(skill_md, d_skill / "SKILL.md")
-                skills_copiadas += 1
-
-    # 4. agents/
-    agents_src = raiz_repo / "agents"
-    agentes_copiados = 0
-    if agents_src.exists():
-        for arch in sorted(agents_src.glob("*.md")):
-            shutil.copy2(arch, dest / "agents" / arch.name)
-            agentes_copiados += 1
-
-    # 5. mcp_config.json con ruta absoluta del ejecutable y herramientas eager
+    # 3. mcp_config.json con ruta absoluta del ejecutable y herramientas eager
     entrada = _entrada(uvx)
     entrada["tools"] = {
         "consulta_maestra": {"eager": True},
@@ -320,15 +342,142 @@ def instalar_plugin_antigravity(
         "critique_documento": {"eager": True},
         "suite_doctor": {"eager": True},
     }
-    (dest / "mcp_config.json").write_text(
+    mcp_file = dest / "mcp_config.json"
+    mcp_file.write_text(
         _json_bonito({"mcpServers": {SERVIDOR: entrada}}),
         encoding="utf-8",
     )
     return {
+        "cliente": "antigravity",
+        "modo": "plugin_nativo",
         "plugin_dir": str(dest),
+        "archivo": str(mcp_file),
+        "estado": "instalado",
         "skills": skills_copiadas,
         "agents": agentes_copiados,
+        "reglas": str(dest / "rules" / "AGENTS.md") if reglas_ok else "",
     }
+
+
+def instalar_plugin_harness(
+    cliente: str,
+    carpeta_base: Optional[Union[str, pathlib.Path]] = None,
+    global_: bool = True,
+    uvx: bool = False,
+) -> Dict[str, Any]:
+    """Instala el **Plugin completo** de Open Legal Chile (MCP + 21 skills + 19 agentes + reglas
+    maestras chilenas) en el harness indicado: antigravity, claude-code, codex, hermes, cursor, vscode.
+    """
+    c = _normalizar(cliente)
+    base = (
+        pathlib.Path(carpeta_base)
+        if carpeta_base is not None
+        else (pathlib.Path.home() if global_ else pathlib.Path.cwd())
+    )
+
+    if c == "antigravity":
+        destino_ag = base / ".gemini" / "config" / "plugins" / SERVIDOR
+        return instalar_plugin_antigravity(destino_plugin=destino_ag, uvx=uvx)
+
+    mcp_res = escribir(c, carpeta_base=base, uvx=uvx)
+    resultado: Dict[str, Any] = {
+        "cliente": c,
+        "modo": "plugin_completo",
+        "archivo": mcp_res.get("archivo", ""),
+        "estado": mcp_res.get("estado", "escrito"),
+        "skills": 0,
+        "agents": 0,
+        "reglas": "",
+    }
+
+    if c == "claude-code":
+        raiz_c = base / ".claude"
+        resultado["skills"] = _copiar_skills(raiz_c / "skills")
+        resultado["agents"] = _copiar_agentes_md(raiz_c / "agents")
+        regla = raiz_c / "rules" / f"{SERVIDOR}.md"
+        if _copiar_reglas(regla):
+            resultado["reglas"] = str(regla)
+        resultado["plugin_dir"] = str(raiz_c)
+        resultado["comando_nativo"] = (
+            "/plugin marketplace add elpabloultron/open-legal-chile && /plugin install open-legal-chile"
+        )
+        return resultado
+
+    if c == "codex":
+        # Codex descubre Agent Skills en .agents/skills/ y configuración MCP en .codex/config.toml
+        skills_dir = base / ".agents" / "skills"
+        resultado["skills"] = _copiar_skills(skills_dir)
+        regla = base / ".codex" / "AGENTS.md"
+        if _copiar_reglas(regla):
+            resultado["reglas"] = str(regla)
+        resultado["plugin_dir"] = str(base / ".codex")
+        return resultado
+
+    if c == "hermes":
+        # Hermes Agent carga MCP desde .hermes/config.yaml y skills/reglas desde .hermes/skills/open-legal-chile/
+        hermes_pack = base / ".hermes" / "skills" / SERVIDOR
+        resultado["skills"] = _copiar_skills(hermes_pack)
+        regla = hermes_pack / "AGENTS.md"
+        if _copiar_reglas(regla):
+            resultado["reglas"] = str(regla)
+        resultado["plugin_dir"] = str(hermes_pack)
+        return resultado
+
+    if c == "cursor":
+        raiz_cur = base / ".cursor"
+        resultado["skills"] = _copiar_skills(raiz_cur / "skills")
+        regla = raiz_cur / "rules" / f"{SERVIDOR}.mdc"
+        cab = (
+            "---\n"
+            "description: Open Legal Chile — Derecho Continental de Chile (95 herramientas MCP y protocolo de citas)\n"
+            "alwaysApply: true\n"
+            "---\n\n"
+        )
+        if _copiar_reglas(regla, cabecera=cab):
+            resultado["reglas"] = str(regla)
+        resultado["plugin_dir"] = str(raiz_cur)
+        return resultado
+
+    if c == "vscode":
+        raiz_gh = base / ".github"
+        resultado["skills"] = _copiar_skills(raiz_gh / "skills")
+        regla = raiz_gh / "instructions" / f"{SERVIDOR}.instructions.md"
+        cab = "---\napplyTo: \"**\"\n---\n\n"
+        if _copiar_reglas(regla, cabecera=cab):
+            resultado["reglas"] = str(regla)
+        resultado["plugin_dir"] = str(raiz_gh)
+        return resultado
+
+    resultado["modo"] = "mcp"
+    return resultado
+
+
+def instalar_plugin_todos(
+    clientes_objetivo: Optional[List[str]] = None,
+    carpeta_base: Optional[Union[str, pathlib.Path]] = None,
+    global_: bool = True,
+    uvx: bool = False,
+) -> List[Dict[str, Any]]:
+    """Instala el plugin completo en todos los harnesses detectados (o los indicados explícitamente)."""
+    if clientes_objetivo is not None:
+        return [
+            instalar_plugin_harness(c, carpeta_base=carpeta_base, global_=global_, uvx=uvx)
+            for c in clientes_objetivo
+        ]
+
+    base = (
+        pathlib.Path(carpeta_base)
+        if carpeta_base is not None
+        else (pathlib.Path.home() if global_ else pathlib.Path.cwd())
+    )
+    detectados = detectar_instalados(base)
+    if not detectados and not _es_casa(base):
+        base = pathlib.Path.home()
+        detectados = detectar_instalados(base)
+    return [
+        instalar_plugin_harness(c, carpeta_base=base, global_=global_, uvx=uvx)
+        for c in detectados
+    ]
 
 
 def escribir(cliente: str, destino: Optional[Union[str, pathlib.Path]] = None,

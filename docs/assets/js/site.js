@@ -23,43 +23,43 @@
       id: "antigravity",
       name: "Google Antigravity",
       short: "Antigravity",
-      cmd: "pip install openlegal-chile && openlegal integrar antigravity --escribir"
+      cmd: "pip install openlegal-chile && openlegal plugin instalar antigravity"
     },
     {
       id: "claude-code",
       name: "Claude Code",
       short: "Claude Code",
-      cmd: "pip install openlegal-chile && openlegal integrar claude-code --escribir"
+      cmd: "pip install openlegal-chile && openlegal plugin instalar claude-code"
     },
     {
       id: "codex",
       name: "OpenAI Codex",
       short: "Codex",
-      cmd: "pip install openlegal-chile && openlegal integrar codex --escribir"
+      cmd: "pip install openlegal-chile && openlegal plugin instalar codex"
     },
     {
       id: "hermes",
       name: "Hermes Agent",
       short: "Hermes",
-      cmd: "pip install openlegal-chile && openlegal integrar hermes --escribir"
+      cmd: "pip install openlegal-chile && openlegal plugin instalar hermes"
     },
     {
       id: "cursor",
       name: "Cursor",
       short: "Cursor",
-      cmd: "pip install openlegal-chile && openlegal integrar cursor --escribir"
+      cmd: "pip install openlegal-chile && openlegal plugin instalar cursor"
     },
     {
       id: "vscode",
       name: "VS Code",
       short: "VS Code",
-      cmd: "pip install openlegal-chile && openlegal integrar vscode --escribir"
+      cmd: "pip install openlegal-chile && openlegal plugin instalar vscode"
     },
     {
       id: "mcp",
-      name: "Auto-detectar todos (MCP)",
-      short: "MCP (Todos)",
-      cmd: "pip install openlegal-chile && openlegal instalar"
+      name: "Auto-detectar todos los harnesses",
+      short: "Todos (Auto)",
+      cmd: "pip install openlegal-chile && openlegal plugin instalar"
     }
   ];
 
@@ -137,7 +137,7 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"/></svg>
           <span>v1.16.0</span>
         </a>
-        <a class="pill ghost sm" href="index.html#instalar">Conectar harness</a>
+        <a class="pill ghost sm" href="index.html#instalar">Instalar plugin</a>
         <a class="pill primary sm" href="capacitaciones.html#cotizacion">Pide tu cotización</a>
         <button type="button" class="nav-burger" id="navBurger" aria-expanded="false" aria-label="Abrir menú">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -161,7 +161,7 @@
         <a class="sheet-link" href="capacitaciones.html">Capacitaciones y Despliegue</a>
         <a class="sheet-link" href="demos.html">Laboratorio (Baremo y Grado)</a>
         <a class="sheet-link" href="tecnologia.html">Tecnología y 95 Herramientas MCP</a>
-        <a class="sheet-link" href="index.html#instalar">Conectar a tu harness</a>
+        <a class="sheet-link" href="index.html#instalar">Instalar el plugin completo</a>
         <div style="margin-top:12px;">
           <a class="pill primary lg" style="width:100%;" href="capacitaciones.html#cotizacion">Pide tu cotización →</a>
         </div>
@@ -240,7 +240,7 @@
       const found = SETUP_PRESETS.find((x) => x.id === id);
       if (!found) return;
       current = found;
-      if (copyLabel) copyLabel.textContent = `COPIAR INSTALACIÓN · ${current.short.toUpperCase()}`;
+      if (copyLabel) copyLabel.textContent = `COPIAR PLUGIN · ${current.short.toUpperCase()}`;
       if (ctaCmdCode) ctaCmdCode.textContent = current.cmd;
       if (ctaCopyBtn) ctaCopyBtn.setAttribute("data-copy", current.cmd);
       renderAll();

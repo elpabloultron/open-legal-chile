@@ -12,6 +12,8 @@ include SECURITY.md
 include CLAUDE.md
 include GEMINI.md
 include openlegal.manifest.json
+include plugin.json
+include assets/logo.svg
 include skills-lock.json
 recursive-include .agents/skills *.md
 recursive-include agents *.json *.md
