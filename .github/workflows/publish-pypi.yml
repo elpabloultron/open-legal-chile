@@ -110,7 +110,7 @@ jobs:
           cosign verify-blob \
             --bundle "$archive.sigstore.json" \
             --certificate-identity-regexp "https://github.com/modelcontextprotocol/registry/.github/workflows/.*" \
-            --certificate-issuer "https://token.actions.githubusercontent.com" \
+            --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
             "$archive"
           tar xzf "$archive" mcp-publisher
 
