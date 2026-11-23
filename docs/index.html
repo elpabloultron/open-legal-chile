@@ -27,9 +27,9 @@
 
       <div class="hero-center">
         <div class="hero-badge-top">
-          <span>Software 100 % gratuito</span>
+          <span>Suite gratuita para harnesses de IA</span>
           <span class="hero-badge-dot" aria-hidden="true">§</span>
-          <span>Apache 2.0 · Capacitación y despliegue privado</span>
+          <span>Antigravity · Claude Code · Codex · Hermes</span>
         </div>
 
         <h1 id="home-hero-title" class="hero-mono-title">
@@ -39,14 +39,14 @@
 
         <div class="hero-actions">
           <a class="pill lg white" href="#cotizacion">Pide tu cotización →</a>
-          <a class="pill lg hero-ghost" href="#instalar">Instalar gratis (Apache 2.0)</a>
+          <a class="pill lg hero-ghost" href="#instalar">Conectar a tu harness</a>
         </div>
 
         <p class="hero-fineprint">
-          Plataforma libre y sin licencia · corre 100 % local en tu equipo (Zero Data Leak) · contratamos capacitaciones y despliegue a medida
+          Plataforma libre y sin licencia · corre 100 % local en tu harness (Zero Data Leak) · contratamos capacitaciones y despliegue a medida
         </p>
 
-        <!-- Control punteado estilo Graphify «COPY SETUP PROMPT» -->
+        <!-- Control punteado estilo Graphify «COPY SETUP PROMPT» + Logos de Harnesses -->
         <div class="setup-root">
           <div class="setup-control" id="heroSetupControl" data-copied="false">
             <button type="button" class="setup-copy" id="heroSetupCopy">
@@ -55,7 +55,7 @@
                 <path d="M8 8h12v12H8zM16 8V4H4v12h4" stroke="currentColor" stroke-width="1.6"/>
               </svg>
             </button>
-            <button type="button" class="setup-toggle" id="heroSetupToggle" aria-label="Elegir asistente de IA">
+            <button type="button" class="setup-toggle" id="heroSetupToggle" aria-label="Elegir harness de IA">
               <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
               </svg>
@@ -65,12 +65,7 @@
 
           <div class="setup-compat">
             <span>Funciona con</span>
-            <span class="compat-chip">Antigravity</span>
-            <span class="compat-chip">Claude Code</span>
-            <span class="compat-chip">Cursor</span>
-            <span class="compat-chip">VS Code</span>
-            <span class="compat-chip">Codex</span>
-            <span class="compat-chip">MCP</span>
+            <div class="harness-logos" id="heroHarnessLogos" aria-label="Harnesses compatibles: Antigravity, Claude Code, Codex, Hermes, Cursor, VS Code y MCP"></div>
           </div>
         </div>
       </div>
@@ -318,15 +313,16 @@
 
         <!-- Barra CTA con 4 esquinas verdes (.cta-bar exacta de graphify.com) -->
         <div id="instalar" class="corner-frame cta-bar" style="scroll-margin-top:96px;">
-          <div>
-            <div class="cta-bar-title">Instala la suite gratis en tu propio equipo (95 herramientas MCP)</div>
-            <div class="cta-bar-cmd">
+          <div style="flex:1; min-width:280px;">
+            <div class="cta-bar-title">Conecta Open Legal Chile a tu harness en 1 comando (95 herramientas MCP)</div>
+            <div class="harness-pill-row" id="ctaHarnessBadges" aria-label="Elegir harness para ver su comando"></div>
+            <div class="cta-bar-cmd" style="margin-top:12px;">
               <span class="cta-dollar">$</span>
-              <span>pip install openlegal-chile &amp;&amp; openlegal instalar</span>
-              <button type="button" class="cta-copy-mini" data-copy="pip install openlegal-chile && openlegal instalar">Copiar</button>
+              <span id="ctaCmdCode">pip install openlegal-chile &amp;&amp; openlegal integrar antigravity --escribir</span>
+              <button type="button" class="cta-copy-mini" id="ctaCopyBtn" data-copy="pip install openlegal-chile && openlegal integrar antigravity --escribir">Copiar</button>
             </div>
             <div style="margin-top:8px; font-family:var(--font-mono); font-size:11.5px; color:var(--ink-55);">
-              Grafo desde terminal: <code>openlegal graph "simulacion"</code> · <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/grafo.md" target="_blank" rel="noreferrer" style="color:var(--green); text-decoration:underline;">Ver documentación en docs/grafo.md</a>
+              Auto-detección de todos los harnesses: <code>openlegal instalar</code> · Grafo: <code>openlegal graph "simulacion"</code> · <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/grafo.md" target="_blank" rel="noreferrer" style="color:var(--green); text-decoration:underline;">Ver docs/grafo.md</a>
             </div>
           </div>
           <div style="display:flex; gap:10px; flex-wrap:wrap;">
@@ -362,7 +358,7 @@
               <circle cx="32" cy="28" r="7" stroke="#118d4f"/>
             </svg>
             <h3 class="tr-title">100 % en tu equipo</h3>
-            <p class="tr-body">Se ejecuta localmente en tu computador o red privada conectado a Antigravity, Claude Code, Cursor o VS Code. Tus carpetas de casos jamás se suben a un servidor nuestro.</p>
+            <p class="tr-body">Se ejecuta localmente en tu computador o red privada conectado a <strong>Antigravity, Claude Code, Codex, Hermes, Cursor o VS Code</strong>. Tus carpetas de casos jamás salen a un servidor nuestro.</p>
           </li>
           <li>
             <svg class="tr-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
@@ -417,7 +413,7 @@
               <h3 class="service-title">Talleres Prácticos por Área del Derecho</h3>
               <p class="service-desc">Entrenamiento 100 % aplicado con casos reales de tu área (Litigación Civil, Laboral/Ley Karin, Ambiental, Administrativo, Corporativo o Inmobiliario).</p>
               <ul class="check-list">
-                <li><span class="check-mark">+</span><span>Instalación y dominio práctico en Antigravity, Claude Code o Cursor con <code>consulta_maestra</code>.</span></li>
+                <li><span class="check-mark">+</span><span>Instalación y dominio práctico en Antigravity, Claude Code, Codex, Hermes o Cursor con <code>consulta_maestra</code>.</span></li>
                 <li><span class="check-mark">+</span><span>Redacción de escritos e informes en Word (.docx) con citas literales, Baremo PJUD y auditoría Goldfish.</span></li>
                 <li><span class="check-mark">+</span><span>Protocolo interno de secreto profesional y anonimización conforme a la Ley N.° 21.719.</span></li>
               </ul>
@@ -590,7 +586,7 @@
               <span class="faq-sign">+</span>
             </button>
             <div class="faq-answer">
-              <strong>No. Nunca.</strong> La suite funciona exclusivamente de forma local en tu computador o red privada (<em>local-first</em>) sobre tu asistente de escritorio o CLI (Antigravity, Claude Code, Cursor, VS Code, Codex). Solo consulta fuentes públicas oficiales del Estado y el corpus abierto en Hugging Face.
+              <strong>No. Nunca.</strong> La suite funciona exclusivamente de forma local en tu computador o red privada (<em>local-first</em>) sobre tu harness de escritorio o CLI (Antigravity, Claude Code, Codex, Hermes, Cursor o VS Code). Solo consulta fuentes públicas oficiales del Estado y el corpus abierto en Hugging Face.
             </div>
           </div>
 
@@ -630,11 +626,11 @@
     <!-- 8. BANDA FINAL CTA VERDE ESTILO GRAPHIFY -->
     <section class="final-cta" aria-labelledby="final-cta-title">
       <div class="wrap">
-        <h2 id="final-cta-title">Lleva Open Legal Chile a tu equipo hoy.</h2>
-        <p>Descarga la suite gratuitamente bajo licencia Apache 2.0 o pide tu cotización para capacitar a tus abogados y desplegar flujos privados por área.</p>
+        <h2 id="final-cta-title">Conecta Open Legal Chile a tu harness hoy.</h2>
+        <p>Descarga la suite gratis para Antigravity, Claude Code, Codex o Hermes —o pide tu cotización para capacitar a tu equipo y desplegar flujos privados por área.</p>
         <div class="hero-actions">
           <a class="pill lg white" href="#cotizacion">Pide tu cotización →</a>
-          <a class="pill lg hero-ghost" href="#instalar">Instalar gratis (Apache 2.0)</a>
+          <a class="pill lg hero-ghost" href="#instalar">Conectar a tu harness</a>
         </div>
       </div>
     </section>

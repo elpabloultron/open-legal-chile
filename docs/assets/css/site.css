@@ -678,27 +678,126 @@ button, input, select, textarea {
 }
 
 .setup-compat {
-  margin-top: 12px;
+  margin-top: 14px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 8px 10px;
   font-family: var(--font-mono);
   font-size: 10px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(255, 255, 255, 0.78);
 }
 
-.compat-chip {
-  padding: 3px 7px;
-  background: rgba(6, 35, 20, 0.38);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 2px;
+.harness-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.harness-logo-btn {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  background: rgba(6, 35, 20, 0.42);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 3px;
   color: #ffffff;
+  cursor: pointer;
+  transition: transform 140ms var(--ease), background 140ms var(--ease), border-color 140ms var(--ease);
+}
+
+.harness-logo-btn:hover {
+  background: rgba(6, 35, 20, 0.72);
+  border-color: rgba(255, 255, 255, 0.75);
+  transform: translateY(-1px);
+}
+
+.harness-logo-btn.active {
+  background: #062314;
+  border-color: var(--mint);
+  box-shadow: 0 0 0 1px var(--mint);
+}
+
+.harness-logo-btn svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.harness-tooltip {
+  position: absolute;
+  top: calc(100% + 7px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #062314;
+  color: #ffffff;
+  border: 1px solid rgba(77, 234, 156, 0.35);
+  font-family: var(--font-mono);
   font-size: 10.5px;
   text-transform: none;
+  letter-spacing: 0;
+  white-space: nowrap;
+  padding: 4px 8px;
+  border-radius: 2px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 140ms var(--ease);
+  z-index: 30;
+}
+
+.harness-logo-btn:hover .harness-tooltip,
+.harness-logo-btn:focus-visible .harness-tooltip {
+  opacity: 1;
+}
+
+.harness-more-tag {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.85);
+  padding-left: 2px;
+}
+
+.harness-pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.harness-inline-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  background: var(--surface);
+  border: 1px solid var(--ink-14);
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 140ms, background 140ms;
+}
+
+.harness-inline-badge:hover,
+.harness-inline-badge.active {
+  border-color: var(--green);
+  background: var(--green-soft);
+}
+
+.harness-inline-badge svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
 }
 
 /* Banda inferior de 3 KPIs con pastilla traslúcida (clon exacto de los 3 contadores de graphify.com) */

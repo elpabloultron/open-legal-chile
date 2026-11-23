@@ -8,31 +8,58 @@
   const CONTACT_EMAIL = "pablobenavidesjorquera@gmail.com";
   const AREAS = window.OLC_AREAS_DATA || [];
 
+  const HARNESS_ICONS = {
+    antigravity: `<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3L4.5 20.5h3.4l1.6-4h5l1.6 4h3.4L12 3z" stroke="#60a5fa" stroke-width="1.7" stroke-linejoin="round"/><path d="M10.4 13.4L12 9.2l1.6 4.2h-3.2z" fill="#34d399"/><circle cx="12" cy="4.2" r="1.4" fill="#fbbf24"/></svg>`,
+    "claude-code": `<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><g stroke="#e07a5f" stroke-width="2" stroke-linecap="round"><line x1="12" y1="3" x2="12" y2="21"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="5.6" y1="5.6" x2="18.4" y2="18.4"/><line x1="18.4" y1="5.6" x2="5.6" y2="18.4"/></g><circle cx="12" cy="12" r="2.2" fill="#e07a5f"/></svg>`,
+    codex: `<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.2c-2.2 0-4.1 1.4-4.7 3.4-2 .4-3.5 2.2-3.5 4.3 0 1.4.7 2.7 1.7 3.5-.4 2 .5 4.1 2.4 5.1 1.7.9 3.8.6 5.2-.7 2 .3 4-.7 4.9-2.5.9-1.8.5-4-.9-5.3.4-2-.5-4.1-2.4-5.1-.8-.4-1.7-.7-2.7-.7z" stroke="#ffffff" stroke-width="1.65"/><polygon points="12,8.4 15.1,10.2 15.1,13.8 12,15.6 8.9,13.8 8.9,10.2" stroke="#4dea9c" stroke-width="1.4" fill="none"/></svg>`,
+    hermes: `<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 8.5c3.5-.5 6.2.8 7.5 3.5H7.2c-1.8 0-3.2-1.4-4.2-3.5z" fill="#fbbf24"/><path d="M21 8.5c-3.5-.5-6.2.8-7.5 3.5h3.3c1.8 0 3.2-1.4 4.2-3.5z" fill="#fbbf24"/><path d="M12 5v14M8.5 14.5h7M9.5 18.5h5" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="5.5" r="1.6" fill="#ffffff"/></svg>`,
+    cursor: `<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><polygon points="12,3 20.5,7.8 20.5,16.2 12,21 3.5,16.2 3.5,7.8" stroke="#ffffff" stroke-width="1.5" fill="rgba(255,255,255,0.08)"/><polygon points="12,3 20.5,7.8 12,12.4 3.5,7.8" fill="rgba(255,255,255,0.28)"/><line x1="12" y1="12.4" x2="12" y2="21" stroke="#4dea9c" stroke-width="1.6"/></svg>`,
+    vscode: `<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M16.8 3.5L21 5.5v13l-4.2 2-7.8-6.2-4.2 3.2-1.8-1.1 3.4-4.4-3.4-4.4 1.8-1.1 4.2 3.2 7.8-6.2z" stroke="#38bdf8" stroke-width="1.6" fill="rgba(56,189,248,0.18)" stroke-linejoin="round"/><path d="M16.8 7.6v8.8L11.5 12l5.3-4.4z" fill="#062314"/></svg>`,
+    mcp: `<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 15.5l6.5-6.5a2.8 2.8 0 114 4L9.8 17.7" stroke="#4dea9c" stroke-width="1.7" stroke-linecap="round"/><path d="M10.5 9l4-4a2.8 2.8 0 114 4l-6.5 6.5" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round"/><circle cx="6.2" cy="18.2" r="1.5" fill="#4dea9c"/></svg>`
+  };
+
   const SETUP_PRESETS = [
     {
       id: "antigravity",
       name: "Google Antigravity",
-      cmd: "pip install openlegal-chile && openlegal instalar --harness antigravity"
+      short: "Antigravity",
+      cmd: "pip install openlegal-chile && openlegal integrar antigravity --escribir"
     },
     {
-      id: "claude",
+      id: "claude-code",
       name: "Claude Code",
-      cmd: "pip install openlegal-chile && openlegal instalar --harness claude"
+      short: "Claude Code",
+      cmd: "pip install openlegal-chile && openlegal integrar claude-code --escribir"
+    },
+    {
+      id: "codex",
+      name: "OpenAI Codex",
+      short: "Codex",
+      cmd: "pip install openlegal-chile && openlegal integrar codex --escribir"
+    },
+    {
+      id: "hermes",
+      name: "Hermes Agent",
+      short: "Hermes",
+      cmd: "pip install openlegal-chile && openlegal integrar hermes --escribir"
     },
     {
       id: "cursor",
       name: "Cursor",
-      cmd: "pip install openlegal-chile && openlegal instalar --harness cursor"
+      short: "Cursor",
+      cmd: "pip install openlegal-chile && openlegal integrar cursor --escribir"
     },
     {
       id: "vscode",
       name: "VS Code",
-      cmd: "pip install openlegal-chile && openlegal instalar --harness vscode"
+      short: "VS Code",
+      cmd: "pip install openlegal-chile && openlegal integrar vscode --escribir"
     },
     {
-      id: "codex",
-      name: "Codex CLI",
-      cmd: "pip install openlegal-chile && openlegal instalar --harness codex"
+      id: "mcp",
+      name: "Auto-detectar todos (MCP)",
+      short: "MCP (Todos)",
+      cmd: "pip install openlegal-chile && openlegal instalar"
     }
   ];
 
@@ -110,7 +137,7 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"/></svg>
           <span>v1.16.0</span>
         </a>
-        <a class="pill ghost sm" href="index.html#instalar">Instalar gratis</a>
+        <a class="pill ghost sm" href="index.html#instalar">Conectar harness</a>
         <a class="pill primary sm" href="capacitaciones.html#cotizacion">Pide tu cotización</a>
         <button type="button" class="nav-burger" id="navBurger" aria-expanded="false" aria-label="Abrir menú">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -134,7 +161,7 @@
         <a class="sheet-link" href="capacitaciones.html">Capacitaciones y Despliegue</a>
         <a class="sheet-link" href="demos.html">Laboratorio (Baremo y Grado)</a>
         <a class="sheet-link" href="tecnologia.html">Tecnología y 95 Herramientas MCP</a>
-        <a class="sheet-link" href="index.html#instalar">Instalar gratis (Apache 2.0)</a>
+        <a class="sheet-link" href="index.html#instalar">Conectar a tu harness</a>
         <div style="margin-top:12px;">
           <a class="pill primary lg" style="width:100%;" href="capacitaciones.html#cotizacion">Pide tu cotización →</a>
         </div>
@@ -194,7 +221,7 @@
   }
 
   /* ------------------------------------------------------------------------
-     2. HERO «COPIAR PROMPT DE CONFIGURACIÓN» (ESTILO GRAPHIFY)
+     2. HERO «COPIAR INSTALACIÓN» + LOGOS INTERACTIVOS DE HARNESSES
      ------------------------------------------------------------------------ */
   function initHeroSetupPrompt() {
     const control = document.getElementById("heroSetupControl");
@@ -202,54 +229,95 @@
     const copyLabel = document.getElementById("heroSetupLabel");
     const toggleBtn = document.getElementById("heroSetupToggle");
     const menu = document.getElementById("heroSetupMenu");
-    if (!control || !copyBtn || !toggleBtn || !menu) return;
+    const heroLogos = document.getElementById("heroHarnessLogos");
+    const ctaBadges = document.getElementById("ctaHarnessBadges");
+    const ctaCmdCode = document.getElementById("ctaCmdCode");
+    const ctaCopyBtn = document.getElementById("ctaCopyBtn");
 
     let current = SETUP_PRESETS[0];
 
-    function renderMenu() {
-      menu.innerHTML = SETUP_PRESETS.map((p) => `
-        <button type="button" class="setup-option ${p.id === current.id ? "active" : ""}" data-preset="${p.id}">
-          <span>${escHtml(p.name)}</span>
-          <span style="color:var(--mint); font-size:10px;">${p.id === current.id ? "activo" : "elegir"}</span>
-        </button>
-      `).join("");
-      menu.querySelectorAll("[data-preset]").forEach((btn) => {
-        btn.addEventListener("click", () => {
-          const found = SETUP_PRESETS.find((x) => x.id === btn.dataset.preset);
-          if (found) {
-            current = found;
-            if (copyLabel) copyLabel.textContent = `COPIAR INSTALACIÓN · ${current.name.toUpperCase()}`;
-            renderMenu();
-          }
+    function selectPreset(id) {
+      const found = SETUP_PRESETS.find((x) => x.id === id);
+      if (!found) return;
+      current = found;
+      if (copyLabel) copyLabel.textContent = `COPIAR INSTALACIÓN · ${current.short.toUpperCase()}`;
+      if (ctaCmdCode) ctaCmdCode.textContent = current.cmd;
+      if (ctaCopyBtn) ctaCopyBtn.setAttribute("data-copy", current.cmd);
+      renderAll();
+    }
+
+    function renderAll() {
+      if (menu) {
+        menu.innerHTML = SETUP_PRESETS.map((p) => `
+          <button type="button" class="setup-option ${p.id === current.id ? "active" : ""}" data-preset="${p.id}">
+            <span style="display:inline-flex; align-items:center; gap:8px;">
+              <span style="width:16px; height:16px; display:inline-block;">${HARNESS_ICONS[p.id] || ""}</span>
+              <span>${escHtml(p.name)}</span>
+            </span>
+            <span style="color:var(--mint); font-size:10px;">${p.id === current.id ? "activo" : "elegir"}</span>
+          </button>
+        `).join("");
+        menu.querySelectorAll("[data-preset]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            selectPreset(btn.dataset.preset);
+            menu.classList.remove("open");
+          });
+        });
+      }
+
+      if (heroLogos) {
+        heroLogos.innerHTML = SETUP_PRESETS.map((p) => `
+          <button type="button" class="harness-logo-btn ${p.id === current.id ? "active" : ""}" data-logo-preset="${p.id}" aria-label="Configurar para ${escHtml(p.name)}">
+            ${HARNESS_ICONS[p.id] || ""}
+            <span class="harness-tooltip">${escHtml(p.name)}</span>
+          </button>
+        `).join("") + `<span class="harness-more-tag">+5 más</span>`;
+
+        heroLogos.querySelectorAll("[data-logo-preset]").forEach((btn) => {
+          btn.addEventListener("click", () => selectPreset(btn.dataset.logoPreset));
+        });
+      }
+
+      if (ctaBadges) {
+        ctaBadges.innerHTML = SETUP_PRESETS.map((p) => `
+          <button type="button" class="harness-inline-badge ${p.id === current.id ? "active" : ""}" data-cta-preset="${p.id}">
+            <span style="display:inline-grid; place-items:center; width:18px; height:18px; background:#062314; border-radius:2px; padding:2px;">${HARNESS_ICONS[p.id] || ""}</span>
+            <span>${escHtml(p.short)}</span>
+          </button>
+        `).join("");
+        ctaBadges.querySelectorAll("[data-cta-preset]").forEach((btn) => {
+          btn.addEventListener("click", () => selectPreset(btn.dataset.ctaPreset));
+        });
+      }
+    }
+
+    if (toggleBtn && menu && control) {
+      toggleBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        menu.classList.toggle("open");
+      });
+      document.addEventListener("click", (e) => {
+        if (!control.contains(e.target) && !menu.contains(e.target)) {
           menu.classList.remove("open");
+        }
+      });
+    }
+
+    if (copyBtn && control) {
+      copyBtn.addEventListener("click", () => {
+        navigator.clipboard.writeText(current.cmd).then(() => {
+          control.setAttribute("data-copied", "true");
+          const prev = copyLabel ? copyLabel.textContent : "";
+          if (copyLabel) copyLabel.textContent = `✓ COPIADO PARA ${current.short.toUpperCase()}`;
+          setTimeout(() => {
+            control.setAttribute("data-copied", "false");
+            if (copyLabel) copyLabel.textContent = prev;
+          }, 2200);
         });
       });
     }
 
-    toggleBtn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      menu.classList.toggle("open");
-    });
-
-    document.addEventListener("click", (e) => {
-      if (!control.contains(e.target) && !menu.contains(e.target)) {
-        menu.classList.remove("open");
-      }
-    });
-
-    copyBtn.addEventListener("click", () => {
-      navigator.clipboard.writeText(current.cmd).then(() => {
-        control.setAttribute("data-copied", "true");
-        const prev = copyLabel ? copyLabel.textContent : "";
-        if (copyLabel) copyLabel.textContent = `✓ COPIADO: ${current.cmd}`;
-        setTimeout(() => {
-          control.setAttribute("data-copied", "false");
-          if (copyLabel) copyLabel.textContent = prev;
-        }, 2400);
-      });
-    });
-
-    renderMenu();
+    renderAll();
   }
 
   /* ------------------------------------------------------------------------
