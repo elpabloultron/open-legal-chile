@@ -8,83 +8,79 @@
   <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/tecnologia.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;700;800&family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/site.css" />
 </head>
 <body>
   <header id="siteHeader" data-page="tecnologia"></header>
 
   <main>
-    <section class="page-hero">
-      <div class="container">
-        <span class="eyebrow-pill eyebrow-dark">Arquitectura Open Source v1.16.0 · Local-First · Apache 2.0</span>
-        <h1>Ingeniería jurídica transparente: 95 herramientas MCP, LegalGraphify y Apache Parquet</h1>
+    <section class="subpage-hero">
+      <div class="wrap">
+        <span class="op-eyebrow" style="background:rgba(255,255,255,0.2); color:#062314; border-color:rgba(6,35,20,0.16);">Arquitectura Open Source v1.16.0 · Local-First · Apache 2.0</span>
+        <div><h1>95 herramientas MCP, LegalGraphify y Apache Parquet</h1></div>
         <p>
-          Diseñada para ejecutarse localmente en <em>harnesses</em> de escritorio y terminal (Google Antigravity, Claude Code, Cursor, VS Code, Codex), con cero servidor remoto que almacene casos de clientes, trazabilidad fijada por SHA en Hugging Face y pruebas automatizadas continuas.
+          Diseñada para ejecutarse localmente en <em>harnesses</em> de escritorio y terminal (Google Antigravity, Claude Code, Cursor, VS Code, Codex), con cero servidor remoto que almacene casos, trazabilidad por SHA en Hugging Face y 1.221 pruebas automatizadas.
         </p>
-        <div class="hero-cta-row">
-          <a href="#arquitectura" class="btn btn-outline-dark btn-sm">Arquitectura Local-First</a>
-          <a href="#parquet" class="btn btn-outline-dark btn-sm">5 Tablas Parquet + DuckDB</a>
-          <a href="#catalogo-mcp" class="btn btn-outline-dark btn-sm">95 Herramientas MCP</a>
-          <a href="#agentes" class="btn btn-outline-dark btn-sm">19 Agentes</a>
-          <a href="capacitaciones.html?servicio=Bootcamp+e+Implementaci%C3%B3n+Privada+On-Premise#cotizacion" class="btn btn-bronze btn-sm">Pide tu cotización (On-Premise)</a>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:20px;">
+          <a href="#arquitectura" class="pill hero-ghost sm">Arquitectura Local-First</a>
+          <a href="#parquet" class="pill hero-ghost sm">5 Tablas Parquet + DuckDB</a>
+          <a href="#catalogo-mcp" class="pill hero-ghost sm">95 Herramientas MCP</a>
+          <a href="#agentes" class="pill hero-ghost sm">19 Agentes</a>
+          <a href="capacitaciones.html?servicio=Bootcamp+e+Implementaci%C3%B3n+Privada+On-Premise#cotizacion" class="pill white sm">Pide tu cotización (On-Premise) →</a>
         </div>
       </div>
     </section>
 
-    <!-- ARQUITECTURA LOCAL-FIRST Y GRAFO MULTIPLEX -->
-    <section class="section" id="arquitectura">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow-pill eyebrow-light">Diseño de privacidad y eficiencia de contexto</span>
-          <h2 class="section-title">Arquitectura soberana 100 % local + grafo multiplex LegalGraphify</h2>
-          <p class="section-desc">
-            En lugar de cargar PDFs crudos de cientos de páginas en la ventana del modelo, Open Legal Chile recorre un grafo multiplex ponderado (aristas bibliográficas atenuadas a <code>0,04</code>, aristas normativas y jurisprudenciales en peso <code>1,0</code>) logrando una <strong>mediana de reducción de tokens de 99,9 %</strong>.
-          </p>
-        </div>
+    <section class="op-sec" id="arquitectura">
+      <div class="wrap">
+        <span class="op-eyebrow">Diseño de privacidad y eficiencia</span>
+        <h2 class="fhead">Arquitectura soberana 100 % local + grafo multiplex LegalGraphify</h2>
+        <p class="fsub">
+          En vez de enviar PDFs crudos a la ventana del modelo, Open Legal Chile recorre un grafo multiplex ponderado (aristas bibliográficas atenuadas a <code>0,04</code>, aristas normativas y jurisprudenciales en peso <code>1,0</code>), logrando <strong>99,9 % de reducción mediana de tokens</strong>.
+        </p>
 
-        <div class="steps-grid">
-          <div class="step-card">
-            <div class="step-badge">01</div>
-            <h3>Harness Desktop / CLI</h3>
-            <p>Antigravity, Claude Code, Cursor, VS Code o Codex invocan el servidor local <code>mcp_server.py</code> (soporta perfil <code>OPENLEGAL_PROFILE=router</code> para consumo mínimo de contexto).</p>
-          </div>
-          <div class="step-card">
-            <div class="step-badge">02</div>
-            <h3>Paso 0: consulta_maestra</h3>
-            <p>Cruza simultáneamente el mapa del corpus en Hugging Face (<code>82.717</code> entradas), <code>doctrina.db</code> (BM25 + búsqueda híbrida vectorial RRF local) y el conector estatal de la materia.</p>
-          </div>
-          <div class="step-card">
-            <div class="step-badge">03</div>
-            <h3>LegalGraphify Multiplex</h3>
-            <p><code>18.954</code> nodos y <code>57.246</code> aristas curadas (en unión con <code>46.191</code> nodos / <code>213.574</code> aristas del mapa HF), <code>57,64 %</code> de instituciones vinculadas a normas positivas y <code>17</code> categorías Baremo unificadas.</p>
-          </div>
-          <div class="step-card">
-            <div class="step-badge">04</div>
-            <h3>Verificación y Salidas</h3>
-            <p><code>cita_texto</code> verifica tenor literal en BCN, <code>critique_documento</code> aplica auditoría <em>Goldfish</em> y <code>generar_documento</code> entrega Word <code>.docx</code> editable o paquetes jurimétricos reproducibles.</p>
-          </div>
-        </div>
+        <ul class="tr-grid">
+          <li>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">01 / HARNESS</div>
+            <h3 class="tr-title">Desktop / CLI local</h3>
+            <p class="tr-body">Antigravity, Claude Code, Cursor, VS Code o Codex invocan <code>mcp_server.py</code> (con perfil <code>OPENLEGAL_PROFILE=router</code> para consumo mínimo de contexto).</p>
+          </li>
+          <li>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">02 / PASO 0</div>
+            <h3 class="tr-title">consulta_maestra</h3>
+            <p class="tr-body">Cruza simultáneamente el mapa en Hugging Face (<code>82.717</code> entradas), <code>doctrina.db</code> (BM25 + híbrido vectorial RRF local) y el conector estatal de la materia.</p>
+          </li>
+          <li>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">03 / GRAFO</div>
+            <h3 class="tr-title">LegalGraphify</h3>
+            <p class="tr-body"><code>18.954</code> nodos y <code>57.246</code> aristas curadas (en unión con <code>46.191</code> nodos / <code>213.574</code> aristas HF), <code>57,64 %</code> de enlace normativo genuino y <code>17</code> tramos Baremo.</p>
+          </li>
+          <li>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">04 / SALIDAS</div>
+            <h3 class="tr-title">Verificación y Word</h3>
+            <p class="tr-body"><code>cita_texto</code> verifica tenor literal en BCN, <code>critique_documento</code> audita en modo <em>Goldfish</em> y <code>generar_documento</code> entrega Word <code>.docx</code> o paquetes GraphML/BibTeX.</p>
+          </li>
+        </ul>
 
-        <div style="margin-top: 22px; display: flex; flex-wrap: wrap; gap: 12px;">
-          <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/grafo.md" target="_blank" rel="noreferrer" class="btn btn-outline btn-sm">Leer documentación del grafo (docs/grafo.md) →</a>
-          <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/investigacion_jurimetrica_duckdb.ipynb" target="_blank" rel="noreferrer" class="btn btn-outline btn-sm">Ver cuaderno DuckDB + κ de Cohen (.ipynb) →</a>
+        <div style="margin-top:28px; display:flex; flex-wrap:wrap; gap:10px;">
+          <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/grafo.md" target="_blank" rel="noreferrer" class="pill ghost sm">Documentación del grafo (docs/grafo.md) →</a>
+          <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/investigacion_jurimetrica_duckdb.ipynb" target="_blank" rel="noreferrer" class="pill ghost sm">Cuaderno DuckDB + κ de Cohen (.ipynb) →</a>
         </div>
       </div>
     </section>
 
-    <!-- 5 TABLAS APACHE PARQUET + DUCKDB -->
-    <section class="section section-paper" id="parquet">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow-pill eyebrow-light">Ciencia de Datos Jurídica · Hugging Face Dataset Viewer</span>
-          <h2 class="section-title">5 tablas Apache Parquet listas para DuckDB SQL y Python</h2>
-          <p class="section-desc">
-            Publicadas automáticamente en <code>pablobenavidesj/doctrina-jurisprudencia-chile</code> (<code>data/parquet/</code>, configuración <code>analytics_parquet</code>, compresión Snappy, <code>12,45 MB</code> en total) para consulta remota <em>zero-copy</em> e investigación académica reproducible.
-          </p>
-        </div>
+    <div class="divider" aria-hidden="true"></div>
 
-        <div class="data-table-wrap" style="background: var(--bg-surface); margin-bottom: 24px;">
+    <section class="op-sec tint" id="parquet">
+      <div class="wrap">
+        <span class="op-eyebrow">Ciencia de Datos Jurídica · Hugging Face Dataset Viewer</span>
+        <h2 class="fhead">5 tablas Apache Parquet listas para DuckDB SQL</h2>
+        <p class="fsub">
+          Publicadas automáticamente en <code>pablobenavidesj/doctrina-jurisprudencia-chile</code> (<code>data/parquet/</code>, configuración <code>analytics_parquet</code>, Snappy, <code>12,45 MB</code>) para consulta remota <em>zero-copy</em> e investigación publicable.
+        </p>
+
+        <div class="data-table-wrap" style="background:#ffffff; margin:26px 0 22px;">
           <table class="data-table">
             <thead>
               <tr>
@@ -96,69 +92,61 @@
             </thead>
             <tbody>
               <tr>
-                <td style="font-family: var(--font-mono); font-weight: 600;">corpus_entradas.parquet</td>
-                <td style="font-family: var(--font-mono);">82.717</td>
-                <td style="font-family: var(--font-mono);">6,06 MB</td>
+                <td style="font-family:var(--font-mono); font-weight:600; color:var(--ink);">corpus_entradas.parquet</td>
+                <td style="font-family:var(--font-mono);">82.717</td>
+                <td style="font-family:var(--font-mono);">6,06 MB</td>
                 <td>Inventario maestro fijado por SHA (CS 70.523, TC 1.433, TA 886, doctrina, guías, URLs HF y resultado normalizado).</td>
               </tr>
               <tr>
-                <td style="font-family: var(--font-mono); font-weight: 600;">doctrina_fichas.parquet</td>
-                <td style="font-family: var(--font-mono);">11.579</td>
-                <td style="font-family: var(--font-mono);">2,36 MB</td>
+                <td style="font-family:var(--font-mono); font-weight:600; color:var(--ink);">doctrina_fichas.parquet</td>
+                <td style="font-family:var(--font-mono);">11.579</td>
+                <td style="font-family:var(--font-mono);">2,36 MB</td>
                 <td>Fichas dogmáticas canónicas con área, autor, obra, definición, operativa procesal, concordancias y fallos rectores.</td>
               </tr>
               <tr>
-                <td style="font-family: var(--font-mono); font-weight: 600;">baremo_dano_moral.parquet</td>
-                <td style="font-family: var(--font-mono);">17</td>
-                <td style="font-family: var(--font-mono);">0,005 MB</td>
+                <td style="font-family:var(--font-mono); font-weight:600; color:var(--ink);">baremo_dano_moral.parquet</td>
+                <td style="font-family:var(--font-mono);">17</td>
+                <td style="font-family:var(--font-mono);">0,005 MB</td>
                 <td>Estadísticas oficiales PJUD-UdeC de daño moral por muerte (medianas UF/CLP, P25–P75, 1.ª inst., CA y CS).</td>
               </tr>
               <tr>
-                <td style="font-family: var(--font-mono); font-weight: 600;">grafo_nodos.parquet</td>
-                <td style="font-family: var(--font-mono);">46.191</td>
-                <td style="font-family: var(--font-mono);">2,22 MB</td>
+                <td style="font-family:var(--font-mono); font-weight:600; color:var(--ink);">grafo_nodos.parquet</td>
+                <td style="font-family:var(--font-mono);">46.191</td>
+                <td style="font-family:var(--font-mono);">2,22 MB</td>
                 <td>Unión grafo curado + mapa HF con comunidad, grado sustantivo, PageRank sustantivo y bandera anti-ruido OCR.</td>
               </tr>
               <tr>
-                <td style="font-family: var(--font-mono); font-weight: 600;">grafo_aristas.parquet</td>
-                <td style="font-family: var(--font-mono);">213.574</td>
-                <td style="font-family: var(--font-mono);">1,82 MB</td>
+                <td style="font-family:var(--font-mono); font-weight:600; color:var(--ink);">grafo_aristas.parquet</td>
+                <td style="font-family:var(--font-mono);">213.574</td>
+                <td style="font-family:var(--font-mono);">1,82 MB</td>
                 <td>Red multiplex dirigida con relación, capa, bandera <code>es_sustantiva</code>, peso original y peso multiplex.</td>
               </tr>
             </tbody>
           </table>
         </div>
 
-        <div class="install-box" style="grid-template-columns: 1fr;">
-          <div>
-            <div style="font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; color: var(--bronze-200); margin-bottom: 8px;">Consulta remota zero-copy con DuckDB (sin descargar el dataset completo)</div>
-            <div class="cmd-card" style="margin-bottom: 0; align-items: flex-start;">
-              <code style="white-space: pre-wrap;">import duckdb
+        <div class="code-block-dark">
+          <code>import duckdb
 url = "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/resolve/main/data/parquet/baremo_dano_moral.parquet"
 print(duckdb.read_parquet(url).select("parentesco, total_casos, mediana_uf_pi, mediana_uf_cs").order("mediana_uf_pi DESC").limit(5))</code>
-              <button type="button" class="copy-btn" data-copy='import duckdb
+          <button type="button" class="pill hero-ghost sm" data-copy='import duckdb
 url = "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile/resolve/main/data/parquet/baremo_dano_moral.parquet"
 print(duckdb.read_parquet(url).select("parentesco, total_casos, mediana_uf_pi, mediana_uf_cs").order("mediana_uf_pi DESC").limit(5))'>Copiar</button>
-            </div>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- CATÁLOGO INTERACTIVO DE LAS 95 HERRAMIENTAS MCP -->
-    <section class="section" id="catalogo-mcp">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow-pill eyebrow-light">Servidor MCP Oficial · Generado desde mcp_server.TOOLS</span>
-          <h2 class="section-title">Catálogo completo de las 95 herramientas MCP</h2>
-          <p class="section-desc">
-            Filtra por dominio o busca por nombre para inspeccionar todas las herramientas disponibles en la suite v1.16.0.
-          </p>
-        </div>
+    <div class="divider" aria-hidden="true"></div>
 
-        <div class="filter-bar" id="toolsFilterBar">
-          <input type="search" id="toolsSearchInput" class="form-control" style="max-width: 320px;" placeholder="Buscar herramienta (ej. jurimetria, sma, bcn, cgr)..." aria-label="Buscar herramienta MCP" />
-          <span id="toolsCounter" style="font-family: var(--font-mono); font-size: 12px; color: var(--ink-500); margin-left: auto;"></span>
+    <section class="op-sec" id="catalogo-mcp">
+      <div class="wrap">
+        <span class="op-eyebrow">Servidor MCP · mcp_server.TOOLS</span>
+        <h2 class="fhead">Catálogo completo de las 95 herramientas MCP</h2>
+        <p class="fsub">Filtra por dominio o busca por nombre para inspeccionar todas las capacidades de la versión 1.16.0.</p>
+
+        <div class="filter-bar">
+          <input type="search" id="toolsSearchInput" class="form-control" style="max-width:340px;" placeholder="Buscar herramienta (ej. jurimetria, sma, bcn, cgr)..." aria-label="Buscar herramienta MCP" />
+          <span id="toolsCounter" style="font-family:var(--font-mono); font-size:12px; color:var(--ink-55); margin-left:auto;"></span>
         </div>
         <div class="filter-bar" id="toolsCategoryPills"></div>
 
@@ -166,21 +154,18 @@ print(duckdb.read_parquet(url).select("parentesco, total_casos, mediana_uf_pi, m
       </div>
     </section>
 
-    <!-- 19 AGENTES JURÍDICOS AUTÓNOMOS -->
-    <section class="section section-paper" id="agentes">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow-pill eyebrow-light">Runtime Agéntico · 19 perfiles especializados</span>
-          <h2 class="section-title">Los 19 agentes jurídicos autónomos</h2>
-          <p class="section-desc">
-            Cada agente combina reglas de Derecho Continental chileno, herramientas MCP acotadas a su especialidad y compuertas éticas de revisión humana.
-          </p>
-        </div>
+    <div class="divider" aria-hidden="true"></div>
 
-        <div class="cards-3" id="agentsGrid"></div>
+    <section class="op-sec tint" id="agentes">
+      <div class="wrap">
+        <span class="op-eyebrow">Runtime Agéntico · 19 perfiles especializados</span>
+        <h2 class="fhead">Los 19 agentes jurídicos autónomos</h2>
+        <p class="fsub">Cada agente opera con reglas de Derecho Continental chileno, herramientas acotadas y compuertas de validación humana.</p>
 
-        <div style="margin-top: 36px; text-align: center;">
-          <a href="capacitaciones.html#cotizacion" class="btn btn-primary btn-lg">Pide tu cotización para despliegue o capacitación técnica</a>
+        <div class="cards-3" style="margin-top:24px;" id="agentsGrid"></div>
+
+        <div style="margin-top:34px; text-align:center;">
+          <a href="capacitaciones.html#cotizacion" class="pill primary lg">Pide tu cotización para despliegue o capacitación técnica →</a>
         </div>
       </div>
     </section>
@@ -194,7 +179,6 @@ print(duckdb.read_parquet(url).select("parentesco, total_casos, mediana_uf_pi, m
   <script>
     (function () {
       "use strict";
-
       function esc(s) {
         return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
       }
@@ -202,7 +186,6 @@ print(duckdb.read_parquet(url).select("parentesco, total_casos, mediana_uf_pi, m
       const TOOLS = window.OLC_TOOLS_DATA || [];
       const AGENTS = window.OLC_AGENTS_DATA || [];
 
-      /* Catálogo 95 herramientas MCP */
       const cats = ["Todas", ...Array.from(new Set(TOOLS.map((t) => t.category)))];
       const pillsEl = document.getElementById("toolsCategoryPills");
       const gridEl = document.getElementById("toolsGrid");
@@ -237,8 +220,8 @@ print(duckdb.read_parquet(url).select("parentesco, total_casos, mediana_uf_pi, m
           <div class="catalog-card">
             <div>
               <span class="catalog-badge">${esc(t.category)}</span>
-              <div class="catalog-name" style="margin-top: 8px;">${esc(t.name)}</div>
-              <p style="font-size: 12.5px; color: var(--ink-600); line-height: 1.5; margin-top: 6px;">${esc(t.description)}</p>
+              <div class="catalog-name" style="margin-top:8px;">${esc(t.name)}</div>
+              <p style="font-size:12.5px; color:var(--ink-55); line-height:1.5; margin-top:6px;">${esc(t.description)}</p>
             </div>
           </div>
         `).join("");
@@ -252,21 +235,20 @@ print(duckdb.read_parquet(url).select("parentesco, total_casos, mediana_uf_pi, m
       }
       renderTools();
 
-      /* 19 Agentes */
       const agentsEl = document.getElementById("agentsGrid");
       if (agentsEl) {
         agentsEl.innerHTML = AGENTS.map((ag) => `
-          <div class="catalog-card" style="background: var(--bg-surface);">
+          <div class="catalog-card">
             <div>
-              <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; gap:8px;">
                 <span class="catalog-name">${esc(ag.name)}</span>
                 <span class="catalog-badge">${ag.toolsCount} tools</span>
               </div>
-              <div style="font-family: var(--font-serif); font-size: 18px; font-weight: 700; color: var(--forest-900); margin: 8px 0 6px;">${esc(ag.displayName)}</div>
-              <p style="font-size: 13px; color: var(--ink-600); line-height: 1.52;">${esc(ag.description)}</p>
+              <div style="font-family:var(--font-display); font-size:17.5px; font-weight:700; color:var(--ink); margin:8px 0 6px;">${esc(ag.displayName)}</div>
+              <p style="font-size:13px; color:var(--ink-55); line-height:1.52;">${esc(ag.description)}</p>
             </div>
-            <div class="pill-list" style="padding-top: 10px; border-top: 1px solid var(--border-subtle);">
-              ${(ag.toolsSample || []).map((t) => `<span class="tag-pill" style="font-size: 10.5px;">${esc(t)}</span>`).join("")}
+            <div class="pill-list" style="padding-top:10px; border-top:1px solid var(--ink-08);">
+              ${(ag.toolsSample || []).map((t) => `<span class="tag-pill" style="font-size:10.5px;">${esc(t)}</span>`).join("")}
             </div>
           </div>
         `).join("");

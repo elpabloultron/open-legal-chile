@@ -8,44 +8,40 @@
   <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/areas.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;700;800&family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/site.css" />
 </head>
 <body>
   <header id="siteHeader" data-page="areas"></header>
 
   <main>
-    <section class="page-hero">
-      <div class="container">
-        <span class="eyebrow-pill eyebrow-dark">Menú por disciplina jurídica · Derecho Continental de Chile</span>
-        <h1>Las 8 Áreas del Derecho en Open Legal Chile</h1>
+    <section class="subpage-hero">
+      <div class="wrap">
+        <span class="op-eyebrow" style="background:rgba(255,255,255,0.2); color:#062314; border-color:rgba(6,35,20,0.16);">Menú por disciplina jurídica · 8 áreas</span>
+        <div><h1>Las 8 Áreas del Derecho en Open Legal Chile</h1></div>
         <p>
-          Cada especialidad integra conectores directos a organismos del Estado, agentes autónomos, simulaciones paso a paso y un taller de capacitación a medida para tu estudio, gerencia legal, institución pública o facultad.
+          Cada especialidad integra conectores directos a organismos oficiales del Estado, agentes autónomos, simulaciones explicativas paso a paso y un programa de capacitación a medida para tu estudio, fiscalía, municipio o facultad.
         </p>
       </div>
     </section>
 
     <nav class="sticky-subnav" aria-label="Salto rápido a las 8 áreas">
-      <div class="container">
+      <div class="wrap">
         <div class="subnav-pills" id="areasQuickNav"></div>
       </div>
     </nav>
 
-    <section class="section" style="padding-top: 42px;">
-      <div class="container" id="areasContainer"></div>
+    <section class="op-sec" style="padding-top:44px;">
+      <div class="wrap" id="areasContainer"></div>
     </section>
 
-    <section class="section section-paper">
-      <div class="container" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px;">
-        <div style="max-width: 660px;">
-          <span class="eyebrow-pill eyebrow-light">Formación y despliegue a medida</span>
-          <h2 class="section-title" style="margin-top: 10px;">¿Tu equipo trabaja en varias de estas áreas?</h2>
-          <p class="section-desc">
-            Diseñamos programas modulares combinando las disciplinas exactas de tu práctica —con instalación gratuita de la plataforma en cada equipo y secreto profesional absoluto.
-          </p>
-        </div>
-        <div>
-          <a href="capacitaciones.html#cotizacion" class="btn btn-primary btn-lg">Pide tu cotización</a>
+    <section class="final-cta">
+      <div class="wrap">
+        <h2>¿Tu equipo trabaja en varias de estas áreas?</h2>
+        <p>Diseñamos capacitaciones modulares combinando las disciplinas exactas de tu práctica —con instalación gratuita de la suite en cada equipo y secreto profesional absoluto.</p>
+        <div class="hero-actions">
+          <a href="capacitaciones.html#cotizacion" class="pill lg white">Pide tu cotización →</a>
+          <a href="index.html#instalar" class="pill lg hero-ghost">Instalar gratis (Apache 2.0)</a>
         </div>
       </div>
     </section>
@@ -76,69 +72,68 @@
         containerEl.innerHTML = areas.map((a) => `
           <article class="area-detail-block" id="${esc(a.id)}">
             <div class="area-detail-top">
-              <div style="max-width: 720px;">
-                <span class="eyebrow-pill eyebrow-light">${esc(a.badge)}</span>
+              <div style="max-width:720px;">
+                <span class="op-eyebrow">${esc(a.badge)}</span>
                 <h2 class="area-detail-title">${esc(a.name)}</h2>
-                <p style="margin-top: 10px; font-size: 15px; color: var(--ink-600); line-height: 1.65;">${esc(a.summary)}</p>
+                <p style="margin-top:10px; font-size:15px; color:var(--ink-55); line-height:1.65;">${esc(a.summary)}</p>
               </div>
-              <div style="display: flex; flex-direction: column; gap: 8px; flex-shrink: 0;">
-                <a class="btn btn-primary" href="capacitaciones.html?area=${encodeURIComponent(a.id)}#cotizacion">Pide tu cotización (${esc(a.shortName)})</a>
-                <a class="btn btn-outline btn-sm" href="index.html#instalar">Instalar gratis (Apache 2.0)</a>
+              <div style="display:flex; flex-direction:column; gap:8px; flex-shrink:0;">
+                <a class="pill primary" href="capacitaciones.html?area=${encodeURIComponent(a.id)}#cotizacion">Pide tu cotización (${esc(a.shortName)}) →</a>
+                <a class="pill ghost sm" href="index.html#instalar">Instalar gratis (Apache 2.0)</a>
               </div>
             </div>
 
             <div class="area-detail-grid">
               <div class="detail-box">
                 <h4>Fuentes oficiales y conectores activos</h4>
-                <div class="pill-list" style="margin-bottom: 14px;">
+                <div class="pill-list" style="margin-bottom:14px;">
                   ${a.connectors.map((c) => `<span class="tag-pill">${esc(c)}</span>`).join("")}
                 </div>
                 <h4>Agentes y skills que operan en esta área</h4>
                 <div class="pill-list">
-                  ${a.agents.map((ag) => `<span class="tag-pill" style="background: var(--emerald-50); border-color: var(--emerald-100); color: var(--emerald-700);">${esc(ag)}</span>`).join("")}
+                  ${a.agents.map((ag) => `<span class="tag-pill" style="background:var(--green-soft); border-color:var(--green-border); color:var(--green-dark);">${esc(ag)}</span>`).join("")}
                   ${a.skills.map((sk) => `<span class="tag-pill">${esc(sk)}</span>`).join("")}
                 </div>
               </div>
 
               <div class="detail-box">
                 <h4>Entregables concretos que produce tu equipo</h4>
-                <ul class="check-list" style="margin-top: 6px;">
-                  ${a.deliverables.map((d) => `<li><span class="check-icon">✓</span><span>${esc(d)}</span></li>`).join("")}
+                <ul class="check-list" style="margin-top:6px;">
+                  ${a.deliverables.map((d) => `<li><span class="check-mark">+</span><span>${esc(d)}</span></li>`).join("")}
                 </ul>
               </div>
             </div>
 
             <div class="area-sim-mini">
-              <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;">
-                <span class="sim-title-tag">Simulación explicativa · Caso típico de ${esc(a.shortName)}</span>
-                <span class="sim-privacy-pill">Ejecución 100 % local</span>
+              <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+                <span style="font-family:var(--font-mono); font-size:11px; color:var(--mint); text-transform:uppercase; letter-spacing:0.05em;">Simulación explicativa · Caso típico de ${esc(a.shortName)}</span>
+                <span style="font-family:var(--font-mono); font-size:11px; color:rgba(255,255,255,0.72);">100 % Local-First</span>
               </div>
-              <p style="margin-top: 8px; font-size: 13.5px; color: var(--ink-on-dark-muted);">${esc(a.simulation.scenario)}</p>
-              <div class="sim-prompt-box" style="margin: 10px 0 0;">${esc(a.simulation.prompt)}</div>
+              <p style="margin-top:8px; font-size:13.5px; color:rgba(255,255,255,0.78);">${esc(a.simulation.scenario)}</p>
+              <div style="margin-top:10px; padding:10px 12px; background:rgba(255,255,255,0.06); border-left:3px solid var(--mint); font-family:var(--font-mono); font-size:12px; color:#ffffff; line-height:1.5;">${esc(a.simulation.prompt)}</div>
               <div class="area-sim-steps">
                 ${a.simulation.steps.map((st) => `
                   <div class="area-sim-step">
                     <strong>${esc(st.title)}</strong>
                     <p>${esc(st.detail)}</p>
-                    <p style="margin-top: 8px; color: var(--emerald-400); font-family: var(--font-mono); font-size: 11px;">${esc(st.output)}</p>
+                    <p style="margin-top:8px; color:var(--mint); font-family:var(--font-mono); font-size:11px;">${esc(st.output)}</p>
                   </div>
                 `).join("")}
               </div>
             </div>
 
-            <div style="margin-top: 18px; padding: 16px 20px; background: var(--bronze-100); border: 1px solid var(--bronze-200); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <div class="corner-frame" style="margin-top:18px; padding:18px 22px; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap;">
               <div>
-                <div style="font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; color: var(--bronze-700); font-weight: 600;">Capacitación recomendada para esta área</div>
-                <div style="font-family: var(--font-serif); font-size: 19px; font-weight: 700; color: var(--forest-900); margin-top: 2px;">${esc(a.trainingTitle)}</div>
-                <p style="font-size: 13.5px; color: var(--ink-700); margin-top: 4px; max-width: 720px;">${esc(a.trainingFocus)}</p>
+                <div style="font-family:var(--font-mono); font-size:11px; text-transform:uppercase; color:var(--green); font-weight:600;">Capacitación recomendada para esta área</div>
+                <div style="font-family:var(--font-display); font-size:19px; font-weight:700; color:var(--ink); margin-top:2px;">${esc(a.trainingTitle)}</div>
+                <p style="font-size:13.5px; color:var(--ink-55); margin-top:4px; max-width:720px;">${esc(a.trainingFocus)}</p>
               </div>
-              <a class="btn btn-primary btn-sm" href="capacitaciones.html?area=${encodeURIComponent(a.id)}#cotizacion">Pide tu cotización</a>
+              <a class="pill primary sm" href="capacitaciones.html?area=${encodeURIComponent(a.id)}#cotizacion">Pide tu cotización →</a>
             </div>
           </article>
         `).join("");
       }
 
-      // Resaltar ancla activa al hacer scroll o navegar por hash
       function highlightActive() {
         const hash = (window.location.hash || "").replace("#", "");
         document.querySelectorAll("[data-area-pill]").forEach((pill) => {

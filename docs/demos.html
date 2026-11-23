@@ -8,57 +8,57 @@
   <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/demos.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;700;800&family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/site.css" />
 </head>
 <body>
   <header id="siteHeader" data-page="demos"></header>
 
   <main>
-    <section class="page-hero">
-      <div class="container">
-        <span class="eyebrow-pill eyebrow-dark">Laboratorio abierto · Datos verificados del corpus chileno</span>
-        <h1>Prueba tres módulos reales del ecosistema en tu navegador</h1>
+    <section class="subpage-hero">
+      <div class="wrap">
+        <span class="op-eyebrow" style="background:rgba(255,255,255,0.2); color:#062314; border-color:rgba(6,35,20,0.16);">Laboratorio abierto · Datos verificados</span>
+        <div><h1>Baremo PJUD, Buscador Multi-Corpus y Simulador de Grado</h1></div>
         <p>
-          Consulta gratuitamente las estadísticas del <strong>Baremo de Daño Moral del Poder Judicial</strong>, explora muestras del <strong>corpus jurisprudencial especializado</strong> y practica con el <strong>Simulador Socrático de Examen de Grado</strong>. Para desplegar el entorno completo en tu equipo o capacitar a tu organización, pide tu cotización.
+          Explora tres módulos reales del ecosistema directo en tu navegador. Para desplegar la suite completa en tu equipo o capacitar a tu estudio o facultad, pide tu cotización.
         </p>
-        <div class="hero-cta-row">
-          <a href="#baremo" class="btn btn-outline-dark btn-sm">1. Baremo PJUD</a>
-          <a href="#buscador" class="btn btn-outline-dark btn-sm">2. Buscador Multi-Corpus</a>
-          <a href="#grado" class="btn btn-outline-dark btn-sm">3. Simulador de Grado</a>
-          <a href="capacitaciones.html#cotizacion" class="btn btn-bronze btn-sm">Pide tu cotización</a>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:20px;">
+          <a href="#baremo" class="pill hero-ghost sm">1. Baremo PJUD</a>
+          <a href="#buscador" class="pill hero-ghost sm">2. Buscador Multi-Corpus</a>
+          <a href="#grado" class="pill hero-ghost sm">3. Simulador de Grado</a>
+          <a href="capacitaciones.html#cotizacion" class="pill white sm">Pide tu cotización →</a>
         </div>
       </div>
     </section>
 
-    <section class="section" style="padding-top: 48px;">
-      <div class="container">
+    <section class="op-sec" style="padding-top:46px;">
+      <div class="wrap">
         <!-- 1. CALCULADORA BAREMO DAÑO MORAL PJUD -->
-        <article class="lab-card" id="baremo" style="scroll-margin-top: 100px;">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+        <article class="lab-card" id="baremo">
+          <div class="area-detail-top">
             <div>
-              <span class="eyebrow-pill eyebrow-light">Litigación Civil · Estadística PJUD-UdeC (17 vínculos)</span>
-              <h2 class="section-title" style="font-size: 28px;">Calculadora Oficial del Baremo de Daño Moral por Muerte</h2>
-              <p class="section-desc" style="font-size: 14.5px; margin-top: 6px;">
+              <span class="op-eyebrow">Litigación Civil · Estadística PJUD-UdeC (17 vínculos)</span>
+              <h2 class="area-detail-title">Calculadora Oficial del Baremo de Daño Moral por Muerte</h2>
+              <p style="margin-top:6px; font-size:14.5px; color:var(--ink-55); max-width:740px;">
                 Selecciona el vínculo de parentesco con la víctima para revisar medianas en UF y CLP por instancia (1.ª Instancia, Corte de Apelaciones y Corte Suprema), rango intercuartil P25–P75 y sentencias muestra descargables.
               </p>
             </div>
-            <a href="capacitaciones.html?area=civil#cotizacion" class="btn btn-outline btn-sm">Cotizar taller de litigación</a>
+            <a href="capacitaciones.html?area=civil#cotizacion" class="pill ghost sm">Pide tu cotización (Civil) →</a>
           </div>
 
-          <div class="form-field" style="margin-top: 18px; max-width: 560px;">
+          <div class="form-field" style="margin-top:18px; max-width:560px;">
             <label class="form-label" for="baremoSelect">Vínculo de parentesco con la víctima</label>
             <select id="baremoSelect" class="form-control"></select>
           </div>
 
           <div class="baremo-cards" id="baremoCards"></div>
 
-          <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding: 12px 14px; background: var(--bg-ivory); border: 1px solid var(--border-warm); border-radius: var(--radius-sm); margin-bottom: 18px;">
-            <code id="baremoCita" style="font-family: var(--font-mono); font-size: 12px; color: var(--forest-900);"></code>
-            <button type="button" id="btnCopyBaremoCita" class="btn btn-outline btn-sm">Copiar cita oficial</button>
+          <div class="corner-frame" style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; padding:12px 16px; margin-bottom:18px;">
+            <code id="baremoCita" style="font-family:var(--font-mono); font-size:12px; color:var(--ink);"></code>
+            <button type="button" id="btnCopyBaremoCita" class="pill ghost sm">Copiar cita oficial</button>
           </div>
 
-          <h3 style="font-family: var(--font-serif); font-size: 19px; color: var(--forest-900); margin-bottom: 10px;">Fallos muestra del Baremo PJUD</h3>
+          <h3 style="font-family:var(--font-display); font-size:18px; color:var(--ink); margin-bottom:10px;">Fallos muestra del Baremo PJUD</h3>
           <div class="data-table-wrap">
             <table class="data-table">
               <thead>
@@ -77,42 +77,42 @@
         </article>
 
         <!-- 2. BUSCADOR MULTI-CORPUS PJUD -->
-        <article class="lab-card" id="buscador" style="scroll-margin-top: 100px;">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+        <article class="lab-card" id="buscador">
+          <div class="area-detail-top">
             <div>
-              <span class="eyebrow-pill eyebrow-light">Portales Especializados PJUD · Muestra interactiva</span>
-              <h2 class="section-title" style="font-size: 28px;">Buscador Multi-Corpus Jurisprudencial</h2>
-              <p class="section-desc" style="font-size: 14.5px; margin-top: 6px;">
+              <span class="op-eyebrow">Portales Especializados PJUD · Muestra interactiva</span>
+              <h2 class="area-detail-title">Buscador Multi-Corpus Jurisprudencial</h2>
+              <p style="margin-top:6px; font-size:14.5px; color:var(--ink-55); max-width:740px;">
                 Filtra sentencias verificadas de Líneas Jurisprudenciales de la Corte Suprema, Salud/Isapres, Extranjería, Derechos Humanos y Secretaría de Género. En la suite local se indexan más de 82.717 documentos completos.
               </p>
             </div>
-            <a href="tecnologia.html" class="btn btn-outline btn-sm">Ver los 82.717 documentos y Parquet</a>
+            <a href="tecnologia.html" class="pill ghost sm">Ver los 82.717 documentos →</a>
           </div>
 
-          <div class="filter-bar" id="pjudFilterBar">
+          <div class="filter-bar">
             <button type="button" class="filter-btn active" data-pjud-col="all">Todas</button>
             <button type="button" class="filter-btn" data-pjud-col="lineas_cs">Líneas CS</button>
             <button type="button" class="filter-btn" data-pjud-col="salud_cs">Salud / Isapres</button>
             <button type="button" class="filter-btn" data-pjud-col="extranjeria_cs">Extranjería</button>
             <button type="button" class="filter-btn" data-pjud-col="ddhh">Derechos Humanos</button>
             <button type="button" class="filter-btn" data-pjud-col="genero">Género</button>
-            <input type="search" id="pjudSearchInput" class="form-control" style="max-width: 280px; margin-left: auto;" placeholder="Buscar por rol, materia o término..." aria-label="Buscar sentencias" />
+            <input type="search" id="pjudSearchInput" class="form-control" style="max-width:280px; margin-left:auto;" placeholder="Buscar por rol, materia o término..." aria-label="Buscar sentencias" />
           </div>
 
           <div class="cards-3" id="pjudGrid"></div>
         </article>
 
         <!-- 3. SIMULADOR SOCRÁTICO DE EXAMEN DE GRADO -->
-        <article class="lab-card" id="grado" style="scroll-margin-top: 100px;">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+        <article class="lab-card" id="grado">
+          <div class="area-detail-top">
             <div>
-              <span class="eyebrow-pill eyebrow-light">Academia y Facultades · Rigor dogmático en 3 pilares</span>
-              <h2 class="section-title" style="font-size: 28px;">Simulador Socrático de Examen de Grado</h2>
-              <p class="section-desc" style="font-size: 14.5px; margin-top: 6px;">
+              <span class="op-eyebrow">Academia y Facultades · Rigor dogmático en 3 pilares</span>
+              <h2 class="area-detail-title">Simulador Socrático de Examen de Grado</h2>
+              <p style="margin-top:6px; font-size:14.5px; color:var(--ink-55); max-width:740px;">
                 Sortea una cédula de Derecho Civil o Procesal, redacta tu respuesta y contrástala con la rúbrica canónica en 3 pilares (ley positiva BCN, doctrina canónica y criterio de Corte Suprema).
               </p>
             </div>
-            <a href="capacitaciones.html?area=academia#cotizacion" class="btn btn-outline btn-sm">Cotizar convenio universitario</a>
+            <a href="capacitaciones.html?area=academia#cotizacion" class="pill ghost sm">Pide tu cotización (Universidades) →</a>
           </div>
 
           <div class="filter-bar">
@@ -121,32 +121,32 @@
             <button type="button" class="filter-btn" data-cedula-cat="civil-responsabilidad">Responsabilidad</button>
             <button type="button" class="filter-btn" data-cedula-cat="civil-bienes">Bienes y Posesión</button>
             <button type="button" class="filter-btn" data-cedula-cat="procesal-civil">Procesal Civil</button>
-            <button type="button" id="btnRerollCedula" class="btn btn-outline btn-sm" style="margin-left: auto;">Sortear otra cédula</button>
+            <button type="button" id="btnRerollCedula" class="pill ghost sm" style="margin-left:auto;">Sortear otra cédula</button>
           </div>
 
-          <div style="background: var(--forest-950); color: #ffffff; border-radius: var(--radius-md); padding: 22px; margin-top: 8px;">
-            <div id="cedulaMeta" style="font-family: var(--font-mono); font-size: 11.5px; color: var(--bronze-200); text-transform: uppercase;"></div>
-            <p id="socraticQuestionText" style="font-family: var(--font-serif); font-size: 19px; line-height: 1.48; margin-top: 10px; font-style: italic;"></p>
+          <div style="background:var(--ink); color:#ffffff; border-radius:2px; padding:22px; margin-top:8px;">
+            <div id="cedulaMeta" style="font-family:var(--font-mono); font-size:11.5px; color:var(--mint); text-transform:uppercase;"></div>
+            <p id="socraticQuestionText" style="font-family:var(--font-display); font-size:18.5px; line-height:1.48; margin-top:10px;"></p>
           </div>
 
-          <div class="form-field" style="margin-top: 16px;">
-            <label class="form-label" for="studentAnswerInput">Tu respuesta oral/escrita ante la comisión</label>
+          <div class="form-field" style="margin-top:16px;">
+            <label class="form-label" for="studentAnswerInput">Tu respuesta ante la comisión</label>
             <textarea id="studentAnswerInput" class="form-control" rows="3" placeholder="Redacta aquí tu análisis citando artículos del Código Civil o CPC, autores y jurisprudencia..."></textarea>
           </div>
 
-          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-            <button type="button" id="btnEvaluatePractice" class="btn btn-primary btn-sm">Evaluar mi respuesta</button>
-            <button type="button" id="btnRevealRubric" class="btn btn-outline btn-sm">Revelar rúbrica canónica (3 pilares)</button>
+          <div style="display:flex; flex-wrap:wrap; gap:10px;">
+            <button type="button" id="btnEvaluatePractice" class="pill primary sm">Evaluar mi respuesta</button>
+            <button type="button" id="btnRevealRubric" class="pill ghost sm">Revelar rúbrica canónica (3 pilares)</button>
           </div>
 
-          <div id="feedbackBanner" style="display: none; margin-top: 14px; padding: 12px 14px; border-radius: var(--radius-sm); border: 1px solid transparent; font-size: 13.5px;"></div>
+          <div id="feedbackBanner" style="display:none; margin-top:14px; padding:12px 14px; border-radius:2px; border:1px solid transparent; font-size:13.5px;"></div>
 
-          <div id="canonicalRubric" style="display: none; margin-top: 16px; background: var(--bg-ivory); border: 1px solid var(--border-warm); border-radius: var(--radius-md); padding: 20px;">
-            <h3 style="font-family: var(--font-serif); font-size: 19px; color: var(--forest-900); margin-bottom: 12px;">Rúbrica canónica — Subsunción en 3 pilares</h3>
-            <p id="rubricPositive" style="font-size: 14px; margin-bottom: 10px;"></p>
-            <p id="rubricDogmatic" style="font-size: 14px; margin-bottom: 10px;"></p>
-            <p id="rubricJudicial" style="font-size: 14px; margin-bottom: 12px;"></p>
-            <div id="rubricQuote" style="padding: 10px 12px; background: var(--bg-surface); border: 1px solid var(--border-warm); border-radius: var(--radius-sm); font-family: var(--font-mono); font-size: 11.5px; color: var(--forest-900);"></div>
+          <div id="canonicalRubric" style="display:none; margin-top:16px; background:var(--surface); border:1px solid var(--ink-14); border-radius:2px; padding:20px;">
+            <h3 style="font-family:var(--font-display); font-size:18px; color:var(--ink); margin-bottom:12px;">Rúbrica canónica — Subsunción en 3 pilares</h3>
+            <p id="rubricPositive" style="font-size:14px; margin-bottom:10px;"></p>
+            <p id="rubricDogmatic" style="font-size:14px; margin-bottom:10px;"></p>
+            <p id="rubricJudicial" style="font-size:14px; margin-bottom:12px;"></p>
+            <div id="rubricQuote" style="padding:10px 12px; background:#ffffff; border:1px solid var(--ink-14); border-radius:2px; font-family:var(--font-mono); font-size:11.5px; color:var(--ink);"></div>
           </div>
         </article>
       </div>
@@ -161,7 +161,6 @@
   <script>
     (function () {
       "use strict";
-
       function esc(s) {
         return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
       }
@@ -182,7 +181,7 @@
         const tiers = [
           { key: "primera_instancia", label: "1.ª Instancia (Juzgados)" },
           { key: "corte_apelaciones", label: "Corte de Apelaciones" },
-          { key: "corte_suprema", label: "Excma. Corte Suprema" },
+          { key: "corte_suprema", label: "Excma. Corte Suprema" }
         ];
         if (cardsEl) {
           cardsEl.innerHTML = tiers.map((t) => {
@@ -203,12 +202,12 @@
         if (bodyEl) {
           bodyEl.innerHTML = (item.muestra || []).map((m) => `
             <tr>
-              <td style="font-family: var(--font-mono); font-weight: 600; color: var(--forest-900);">Rol ${esc(m.rol)}</td>
+              <td style="font-family:var(--font-mono); font-weight:600; color:var(--ink);">Rol ${esc(m.rol)}</td>
               <td>${esc(m.corte_apelaciones || "—")}</td>
               <td>${esc(m.juzgado_origen || "—")}</td>
-              <td style="font-family: var(--font-mono);">${esc(m.fecha || "—")}</td>
-              <td style="font-family: var(--font-mono); font-weight: 600;">${fmtUF(m.monto_uf)} <span style="font-weight: 400; color: var(--ink-500);">(${fmtCLP(m.monto_clp)})</span></td>
-              <td>${m.url_descarga_sentencia ? `<a href="${esc(m.url_descarga_sentencia)}" target="_blank" rel="noreferrer" style="color: var(--emerald-700); font-family: var(--font-mono); font-weight: 600;">Ver fallo →</a>` : "—"}</td>
+              <td style="font-family:var(--font-mono);">${esc(m.fecha || "—")}</td>
+              <td style="font-family:var(--font-mono); font-weight:600;">${fmtUF(m.monto_uf)} <span style="font-weight:400; color:var(--ink-55);">(${fmtCLP(m.monto_clp)})</span></td>
+              <td>${m.url_descarga_sentencia ? `<a href="${esc(m.url_descarga_sentencia)}" target="_blank" rel="noreferrer" style="color:var(--green); font-family:var(--font-mono); font-weight:600;">Ver fallo →</a>` : "—"}</td>
             </tr>
           `).join("");
         }
@@ -248,23 +247,23 @@
         }).slice(0, 9);
 
         if (!rows.length) {
-          pjudGrid.innerHTML = `<p style="color: var(--ink-500); font-size: 14px;">Sin coincidencias para «${esc(activeQuery)}» en esta muestra.</p>`;
+          pjudGrid.innerHTML = `<p style="color:var(--ink-55); font-size:14px;">Sin coincidencias para «${esc(activeQuery)}» en esta muestra.</p>`;
           return;
         }
 
         pjudGrid.innerHTML = rows.map((s) => `
           <div class="catalog-card">
             <div>
-              <div style="display: flex; justify-content: space-between; gap: 8px; align-items: center;">
+              <div style="display:flex; justify-content:space-between; gap:8px; align-items:center;">
                 <span class="catalog-name">Rol ${esc(s.rol)}</span>
                 <span class="catalog-badge">${esc(s.coleccion_nombre)}</span>
               </div>
-              <div style="font-size: 13.5px; font-weight: 600; color: var(--forest-900); margin: 8px 0 4px;">${esc(s.caratula || s.materia)}</div>
-              <p style="font-size: 12.5px; color: var(--ink-600); line-height: 1.5;">${esc(s.extracto || s.materia)}</p>
+              <div style="font-size:13.5px; font-weight:600; color:var(--ink); margin:8px 0 4px;">${esc(s.caratula || s.materia)}</div>
+              <p style="font-size:12.5px; color:var(--ink-55); line-height:1.5;">${esc(s.extracto || s.materia)}</p>
             </div>
-            <div style="padding-top: 10px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; gap: 8px;">
-              <code style="font-family: var(--font-mono); font-size: 10.5px; color: var(--bronze-700);">${esc(s.cita)}</code>
-              <a href="${esc(s.url)}" target="_blank" rel="noreferrer" style="font-family: var(--font-mono); font-size: 11px; font-weight: 600; color: var(--emerald-700); flex-shrink: 0;">Fuente →</a>
+            <div style="padding-top:10px; border-top:1px solid var(--ink-08); display:flex; justify-content:space-between; align-items:center; gap:8px;">
+              <code style="font-family:var(--font-mono); font-size:10.5px; color:var(--ink-55);">${esc(s.cita)}</code>
+              <a href="${esc(s.url)}" target="_blank" rel="noreferrer" style="font-family:var(--font-mono); font-size:11px; font-weight:600; color:var(--green); flex-shrink:0;">Fuente →</a>
             </div>
           </div>
         `).join("");

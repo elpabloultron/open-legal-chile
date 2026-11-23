@@ -1,12 +1,40 @@
 /* ==========================================================================
-   Open Legal Chile — Navegación Global, Simulación Explicativa y Cotizador
-   Contacto exclusivo: pablobenavidesjorquera@gmail.com · Sin precios fijos
+   Open Legal Chile — Interacciones Estilo Graphify (v1.16.0)
+   Header segmentado · Mega-Menú 8 Áreas · Setup Prompt · Viewfinder · FAQ · Cotizador
    ========================================================================== */
 (function () {
   "use strict";
 
   const CONTACT_EMAIL = "pablobenavidesjorquera@gmail.com";
   const AREAS = window.OLC_AREAS_DATA || [];
+
+  const SETUP_PRESETS = [
+    {
+      id: "antigravity",
+      name: "Google Antigravity",
+      cmd: "pip install openlegal-chile && openlegal instalar --harness antigravity"
+    },
+    {
+      id: "claude",
+      name: "Claude Code",
+      cmd: "pip install openlegal-chile && openlegal instalar --harness claude"
+    },
+    {
+      id: "cursor",
+      name: "Cursor",
+      cmd: "pip install openlegal-chile && openlegal instalar --harness cursor"
+    },
+    {
+      id: "vscode",
+      name: "VS Code",
+      cmd: "pip install openlegal-chile && openlegal instalar --harness vscode"
+    },
+    {
+      id: "codex",
+      name: "Codex CLI",
+      cmd: "pip install openlegal-chile && openlegal instalar --harness codex"
+    }
+  ];
 
   function escHtml(str) {
     return String(str || "")
@@ -17,7 +45,7 @@
   }
 
   /* ------------------------------------------------------------------------
-     1. HEADER COMPARTIDO CON MEGA-MENÚ POR 8 ÁREAS
+     1. HEADER ESTILO GRAPHIFY CON BARRA SEGMENTADA Y MEGA-MENÚ 8 ÁREAS
      ------------------------------------------------------------------------ */
   function renderHeader() {
     const mount = document.getElementById("siteHeader");
@@ -25,101 +53,121 @@
     const activePage = mount.dataset.page || "home";
 
     const megaCards = AREAS.map((a, idx) => `
-      <a class="mega-card" href="areas.html#${escHtml(a.id)}">
-        <span class="mega-card-title">
+      <a class="op-mega-card" href="areas.html#${escHtml(a.id)}">
+        <span class="op-mega-title">
           <span>${escHtml(a.name)}</span>
-          <span class="mega-card-num">0${idx + 1}</span>
+          <span class="op-mega-num">0${idx + 1}</span>
         </span>
-        <span class="mega-card-desc">${escHtml(a.tagline)}</span>
+        <span class="op-mega-desc">${escHtml(a.tagline)}</span>
       </a>
     `).join("");
 
     const mobileAreas = AREAS.map((a) => `
-      <a class="mobile-area-link" href="areas.html#${escHtml(a.id)}">${escHtml(a.shortName)}</a>
+      <a class="sheet-area" href="areas.html#${escHtml(a.id)}">${escHtml(a.shortName)}</a>
     `).join("");
 
-    mount.className = "site-header";
+    mount.className = "op-header";
     mount.innerHTML = `
-      <div class="container header-inner">
-        <a class="brand-link" href="index.html" aria-label="Open Legal Chile — Inicio">
-          <span class="brand-mark" aria-hidden="true">§</span>
-          <span class="brand-text">
-            <span class="brand-name">Open Legal Chile</span>
-            <span class="brand-sub">Suite Libre v1.16.0 · Apache 2.0</span>
-          </span>
-        </a>
+      <a class="op-logo" href="index.html" aria-label="Open Legal Chile — Inicio">
+        <svg width="26" height="26" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <polygon points="14,2 25,8.5 25,19.5 14,26 3,19.5 3,8.5" stroke="currentColor" stroke-width="2" fill="none"/>
+          <circle cx="14" cy="9" r="2.2" fill="currentColor"/>
+          <circle cx="8.5" cy="18" r="2.2" fill="currentColor"/>
+          <circle cx="19.5" cy="18" r="2.2" fill="currentColor"/>
+          <line x1="14" y1="9" x2="8.5" y2="18" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="14" y1="9" x2="19.5" y2="18" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="8.5" y1="18" x2="19.5" y2="18" stroke="currentColor" stroke-width="1.6"/>
+        </svg>
+        <span class="op-logo-word">Open Legal Chile</span>
+      </a>
 
-        <nav class="main-nav" aria-label="Navegación principal">
-          <div class="nav-item" id="areasDropdown">
-            <button type="button" class="nav-trigger ${activePage === "areas" ? "active" : ""}" id="areasTrigger" aria-expanded="false" aria-haspopup="true">
-              <span>Áreas del Derecho</span>
-              <svg class="nav-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/></svg>
-            </button>
-            <div class="mega-menu" role="menu" aria-label="8 Áreas del Derecho Chileno">
-              <div class="mega-header">
-                <span class="mega-eyebrow">Menú por disciplina jurídica · 8 áreas cubiertas</span>
-                <a class="mega-all-link" href="areas.html">Ver las 8 áreas en detalle →</a>
-              </div>
-              <div class="mega-grid">${megaCards}</div>
-              <div class="mega-footer">
-                <span>¿Necesitas capacitar a tu equipo en un área específica?</span>
-                <a class="btn btn-primary btn-sm" href="capacitaciones.html#cotizacion">Pide tu cotización</a>
-              </div>
+      <nav class="op-nav" aria-label="Navegación principal">
+        <div class="op-nav-item" id="areasDropdown">
+          <button type="button" class="op-nav-trigger ${activePage === "areas" ? "active" : ""}" id="areasTrigger" aria-expanded="false" aria-haspopup="true">
+            <span>Áreas del Derecho</span>
+            <svg class="op-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/></svg>
+          </button>
+          <div class="op-mega" role="menu" aria-label="Menú por las 8 Áreas del Derecho">
+            <div class="op-mega-head">
+              <span class="op-eyebrow">Menú por área · 8 disciplinas</span>
+              <a href="areas.html" style="font-size:12.5px; font-weight:600; color:var(--green);">Ver las 8 áreas →</a>
+            </div>
+            <div class="op-mega-grid">${megaCards}</div>
+            <div class="op-mega-foot">
+              <span>Plataforma gratis (Apache 2.0) · Talleres y despliegue por área</span>
+              <a class="pill primary sm" href="capacitaciones.html#cotizacion">Pide tu cotización</a>
             </div>
           </div>
-
-          <a class="nav-link ${activePage === "home" ? "active" : ""}" href="index.html#como-funciona">Cómo funciona</a>
-          <a class="nav-link ${activePage === "capacitaciones" ? "active" : ""}" href="capacitaciones.html">Capacitaciones</a>
-          <a class="nav-link ${activePage === "demos" ? "active" : ""}" href="demos.html">Laboratorio</a>
-          <a class="nav-link ${activePage === "tecnologia" ? "active" : ""}" href="tecnologia.html">Tecnología</a>
-        </nav>
-
-        <div class="header-actions">
-          <a class="btn btn-outline btn-sm" href="index.html#instalar">Instalar gratis</a>
-          <a class="btn btn-primary btn-sm" href="capacitaciones.html#cotizacion">Pide tu cotización</a>
-          <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-expanded="false" aria-label="Abrir menú">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-          </button>
         </div>
-      </div>
+        <div class="op-nav-item"><a class="op-nav-link ${activePage === "home" ? "active" : ""}" href="index.html#como-funciona">Cómo funciona</a></div>
+        <div class="op-nav-item"><a class="op-nav-link ${activePage === "capacitaciones" ? "active" : ""}" href="capacitaciones.html">Capacitaciones</a></div>
+        <div class="op-nav-item"><a class="op-nav-link ${activePage === "demos" ? "active" : ""}" href="demos.html">Laboratorio</a></div>
+        <div class="op-nav-item"><a class="op-nav-link ${activePage === "tecnologia" ? "active" : ""}" href="tecnologia.html">Tecnología</a></div>
+      </nav>
 
-      <div class="mobile-drawer" id="mobileDrawer">
-        <div class="mobile-nav-group">
-          <a class="mobile-nav-link" href="areas.html">Áreas del Derecho (8)</a>
-          <div class="mobile-areas-grid">${mobileAreas}</div>
-          <a class="mobile-nav-link" href="index.html#como-funciona">Cómo funciona</a>
-          <a class="mobile-nav-link" href="capacitaciones.html">Capacitaciones y Despliegue</a>
-          <a class="mobile-nav-link" href="demos.html">Laboratorio Público (Baremo y Grado)</a>
-          <a class="mobile-nav-link" href="tecnologia.html">Tecnología y 95 Herramientas MCP</a>
-          <a class="mobile-nav-link" href="index.html#instalar">Instalar Gratis (Apache 2.0)</a>
-          <div style="margin-top: 12px;">
-            <a class="btn btn-primary" style="width:100%;" href="capacitaciones.html#cotizacion">Pide tu cotización</a>
-          </div>
+      <div class="op-right">
+        <a class="op-gh-badge" href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer" aria-label="Repositorio Open Legal Chile en GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"/></svg>
+          <span>v1.16.0</span>
+        </a>
+        <a class="pill ghost sm" href="index.html#instalar">Instalar gratis</a>
+        <a class="pill primary sm" href="capacitaciones.html#cotizacion">Pide tu cotización</a>
+        <button type="button" class="nav-burger" id="navBurger" aria-expanded="false" aria-label="Abrir menú">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    `;
+
+    // Hoja móvil (nav-sheet)
+    let sheet = document.getElementById("navSheet");
+    if (!sheet) {
+      sheet = document.createElement("div");
+      sheet.id = "navSheet";
+      sheet.className = "nav-sheet";
+      mount.insertAdjacentElement("afterend", sheet);
+    }
+    sheet.innerHTML = `
+      <div class="sheet-links">
+        <a class="sheet-link" href="areas.html">Áreas del Derecho (8)</a>
+        <div class="sheet-areas-grid">${mobileAreas}</div>
+        <a class="sheet-link" href="index.html#como-funciona">Cómo funciona</a>
+        <a class="sheet-link" href="capacitaciones.html">Capacitaciones y Despliegue</a>
+        <a class="sheet-link" href="demos.html">Laboratorio (Baremo y Grado)</a>
+        <a class="sheet-link" href="tecnologia.html">Tecnología y 95 Herramientas MCP</a>
+        <a class="sheet-link" href="index.html#instalar">Instalar gratis (Apache 2.0)</a>
+        <div style="margin-top:12px;">
+          <a class="pill primary lg" style="width:100%;" href="capacitaciones.html#cotizacion">Pide tu cotización →</a>
         </div>
       </div>
     `;
 
+    // Scroll state sobre hero verde
+    function onScroll() {
+      mount.classList.toggle("scrolled", window.scrollY > 36);
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+
+    // Mega-menú hover + click
     const dropdown = document.getElementById("areasDropdown");
     const trigger = document.getElementById("areasTrigger");
-    let hoverTimer = null;
-
+    let timer = null;
     function setOpen(open) {
       if (!dropdown || !trigger) return;
       dropdown.classList.toggle("open", open);
       trigger.setAttribute("aria-expanded", open ? "true" : "false");
     }
-
     if (dropdown && trigger) {
       trigger.addEventListener("click", (e) => {
         e.stopPropagation();
         setOpen(!dropdown.classList.contains("open"));
       });
       dropdown.addEventListener("mouseenter", () => {
-        clearTimeout(hoverTimer);
+        clearTimeout(timer);
         setOpen(true);
       });
       dropdown.addEventListener("mouseleave", () => {
-        hoverTimer = setTimeout(() => setOpen(false), 180);
+        timer = setTimeout(() => setOpen(false), 180);
       });
       document.addEventListener("click", (e) => {
         if (!dropdown.contains(e.target)) setOpen(false);
@@ -129,211 +177,240 @@
       });
     }
 
-    const mobileBtn = document.getElementById("mobileMenuBtn");
-    const mobileDrawer = document.getElementById("mobileDrawer");
-    if (mobileBtn && mobileDrawer) {
-      mobileBtn.addEventListener("click", () => {
-        const isOpen = mobileDrawer.classList.toggle("open");
-        mobileBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    // Burger móvil
+    const burger = document.getElementById("navBurger");
+    if (burger && sheet) {
+      burger.addEventListener("click", () => {
+        const open = sheet.classList.toggle("open");
+        burger.setAttribute("aria-expanded", open ? "true" : "false");
       });
-      mobileDrawer.querySelectorAll("a").forEach((a) => {
+      sheet.querySelectorAll("a").forEach((a) => {
         a.addEventListener("click", () => {
-          mobileDrawer.classList.remove("open");
-          mobileBtn.setAttribute("aria-expanded", "false");
+          sheet.classList.remove("open");
+          burger.setAttribute("aria-expanded", "false");
         });
       });
     }
   }
 
   /* ------------------------------------------------------------------------
-     2. FOOTER INSTITUCIONAL COMPARTIDO
+     2. HERO «COPIAR PROMPT DE CONFIGURACIÓN» (ESTILO GRAPHIFY)
      ------------------------------------------------------------------------ */
-  function renderFooter() {
-    const mount = document.getElementById("siteFooter");
-    if (!mount) return;
-    mount.className = "site-footer";
-    mount.innerHTML = `
-      <div class="container">
-        <div class="footer-grid">
-          <div>
-            <a class="brand-link" href="index.html" style="margin-bottom: 12px;">
-              <span class="brand-mark" style="background: var(--forest-800);">§</span>
-              <span class="brand-text">
-                <span class="brand-name" style="color: #ffffff;">Open Legal Chile</span>
-                <span class="brand-sub" style="color: var(--bronze-200);">Derecho Continental · Chile</span>
-              </span>
-            </a>
-            <p style="font-size: 13.5px; line-height: 1.6; max-width: 340px;">
-              Suite abierta de inteligencia jurídica, grafo de conocimiento y conectores oficiales del Estado de Chile. Software 100 % gratuito (Apache 2.0) y local; formación práctica y despliegue privado a medida.
-            </p>
-            <p style="margin-top: 14px; font-family: var(--font-mono); font-size: 12.5px; color: #ffffff;">
-              Contacto comercial: <a href="mailto:${CONTACT_EMAIL}" style="color: var(--bronze-200); text-decoration: underline;">${CONTACT_EMAIL}</a>
-            </p>
-          </div>
+  function initHeroSetupPrompt() {
+    const control = document.getElementById("heroSetupControl");
+    const copyBtn = document.getElementById("heroSetupCopy");
+    const copyLabel = document.getElementById("heroSetupLabel");
+    const toggleBtn = document.getElementById("heroSetupToggle");
+    const menu = document.getElementById("heroSetupMenu");
+    if (!control || !copyBtn || !toggleBtn || !menu) return;
 
-          <div>
-            <div class="footer-title">Áreas del Derecho</div>
-            <ul class="footer-links">
-              ${AREAS.slice(0, 4).map((a) => `<li><a href="areas.html#${escHtml(a.id)}">${escHtml(a.shortName)}</a></li>`).join("")}
-            </ul>
-          </div>
+    let current = SETUP_PRESETS[0];
 
-          <div>
-            <div class="footer-title">Más disciplinas</div>
-            <ul class="footer-links">
-              ${AREAS.slice(4).map((a) => `<li><a href="areas.html#${escHtml(a.id)}">${escHtml(a.shortName)}</a></li>`).join("")}
-            </ul>
-          </div>
+    function renderMenu() {
+      menu.innerHTML = SETUP_PRESETS.map((p) => `
+        <button type="button" class="setup-option ${p.id === current.id ? "active" : ""}" data-preset="${p.id}">
+          <span>${escHtml(p.name)}</span>
+          <span style="color:var(--mint); font-size:10px;">${p.id === current.id ? "activo" : "elegir"}</span>
+        </button>
+      `).join("");
+      menu.querySelectorAll("[data-preset]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const found = SETUP_PRESETS.find((x) => x.id === btn.dataset.preset);
+          if (found) {
+            current = found;
+            if (copyLabel) copyLabel.textContent = `COPIAR INSTALACIÓN · ${current.name.toUpperCase()}`;
+            renderMenu();
+          }
+          menu.classList.remove("open");
+        });
+      });
+    }
 
-          <div>
-            <div class="footer-title">Recursos y Servicios</div>
-            <ul class="footer-links">
-              <li><a href="capacitaciones.html">Capacitaciones y Despliegue</a></li>
-              <li><a href="capacitaciones.html#cotizacion">Pide tu cotización</a></li>
-              <li><a href="demos.html">Laboratorio (Baremo y Grado)</a></li>
-              <li><a href="tecnologia.html">Tecnología y 95 Herramientas</a></li>
-              <li><a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer">GitHub (Apache 2.0)</a></li>
-              <li><a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer">Dataset en Hugging Face</a></li>
-            </ul>
-          </div>
-        </div>
+    toggleBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      menu.classList.toggle("open");
+    });
 
-        <div class="footer-bottom">
-          <div>Open Legal Chile — Un proyecto open source · Desarrollado por Pablo Benavides J. · Web: <a href="https://elpabloultron.github.io/open-legal-chile/">elpabloultron.github.io/open-legal-chile</a></div>
-          <div><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a> · v1.16.0</div>
-        </div>
-      </div>
+    document.addEventListener("click", (e) => {
+      if (!control.contains(e.target) && !menu.contains(e.target)) {
+        menu.classList.remove("open");
+      }
+    });
+
+    copyBtn.addEventListener("click", () => {
+      navigator.clipboard.writeText(current.cmd).then(() => {
+        control.setAttribute("data-copied", "true");
+        const prev = copyLabel ? copyLabel.textContent : "";
+        if (copyLabel) copyLabel.textContent = `✓ COPIADO: ${current.cmd}`;
+        setTimeout(() => {
+          control.setAttribute("data-copied", "false");
+          if (copyLabel) copyLabel.textContent = prev;
+        }, 2400);
+      });
+    });
+
+    renderMenu();
+  }
+
+  /* ------------------------------------------------------------------------
+     3. SIMULACIÓN EXPLICATIVA «CÓMO FUNCIONA» (BARRA VERDE + VIEWFINDER)
+     ------------------------------------------------------------------------ */
+  function renderStepDiagramSvg(stepIdx) {
+    const active = (i) => (i === stepIdx ? "#118d4f" : i < stepIdx ? "#062314" : "#b9c4be");
+    const fill = (i) => (i === stepIdx ? "#118d4f" : "#ffffff");
+    const textCol = (i) => (i === stepIdx ? "#ffffff" : "#062314");
+    const nodes = [
+      { x: 18, label: "01. PC Local" },
+      { x: 148, label: "02. BCN + HF" },
+      { x: 278, label: "03. Goldfish" },
+      { x: 408, label: "04. Word .docx" }
+    ];
+    return `
+      <svg viewBox="0 0 536 62" width="100%" height="62" role="img" aria-label="Esquema del paso ${stepIdx + 1} de 4">
+        <line x1="120" y1="31" x2="148" y2="31" stroke="${active(1)}" stroke-width="1.5" stroke-dasharray="3 3"/>
+        <line x1="250" y1="31" x2="278" y2="31" stroke="${active(2)}" stroke-width="1.5" stroke-dasharray="3 3"/>
+        <line x1="380" y1="31" x2="408" y2="31" stroke="${active(3)}" stroke-width="1.5" stroke-dasharray="3 3"/>
+        ${nodes.map((n, i) => `
+          <rect x="${n.x}" y="12" width="108" height="38" rx="2" fill="${fill(i)}" stroke="${active(i)}" stroke-width="1.5"/>
+          <text x="${n.x + 54}" y="35" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" font-weight="600" fill="${textCol(i)}">${n.label}</text>
+        `).join("")}
+      </svg>
     `;
   }
 
-  /* ------------------------------------------------------------------------
-     3. SIMULACIÓN EXPLICATIVA INTERACTIVA POR ÁREA (HERO)
-     ------------------------------------------------------------------------ */
-  function initExplanatorySimulation() {
-    const stage = document.getElementById("explanatorySimStage");
-    if (!stage || !AREAS.length) return;
+  function initHowItWorksSimulation() {
+    const pillsWrap = document.getElementById("howAreaPills");
+    const stepsWrap = document.getElementById("howStepsList");
+    const vfBox = document.getElementById("howViewfinder");
+    if (!pillsWrap || !stepsWrap || !vfBox || !AREAS.length) return;
 
-    const tabsEl = document.getElementById("simAreaTabs");
-    const scenarioEl = document.getElementById("simScenario");
-    const promptEl = document.getElementById("simPrompt");
-    const stepperEl = document.getElementById("simStepper");
-    const cardEl = document.getElementById("simStepCard");
-    const linkAreaEl = document.getElementById("simAreaLink");
-    const linkQuoteEl = document.getElementById("simQuoteLink");
-    const btnPrev = document.getElementById("simPrevStep");
-    const btnNext = document.getElementById("simNextStep");
-    const btnAuto = document.getElementById("simToggleAuto");
-
-    let activeAreaIdx = 0;
-    let activeStepIdx = 0;
+    let areaIdx = 0;
+    let stepIdx = 0;
     let autoTimer = null;
-
-    function renderAreaTabs() {
-      tabsEl.innerHTML = AREAS.map((a, idx) => `
-        <button type="button" class="sim-area-tab ${idx === activeAreaIdx ? "active" : ""}" data-sim-area="${idx}">
-          ${escHtml(a.shortName)}
-        </button>
-      `).join("");
-
-      tabsEl.querySelectorAll("[data-sim-area]").forEach((btn) => {
-        btn.addEventListener("click", () => {
-          activeAreaIdx = parseInt(btn.dataset.simArea, 10);
-          activeStepIdx = 0;
-          render();
-        });
-      });
-    }
-
-    function render() {
-      const area = AREAS[activeAreaIdx];
-      const steps = area.simulation.steps;
-      const step = steps[activeStepIdx];
-
-      tabsEl.querySelectorAll(".sim-area-tab").forEach((b, i) => {
-        b.classList.toggle("active", i === activeAreaIdx);
-      });
-
-      scenarioEl.textContent = `Escenario real (${area.shortName}): ${area.simulation.scenario}`;
-      promptEl.textContent = area.simulation.prompt;
-
-      stepperEl.innerHTML = steps.map((s, idx) => `
-        <button type="button" class="sim-step-btn ${idx === activeStepIdx ? "active" : ""}" data-sim-step="${idx}">
-          <span class="sim-step-num">Paso 0${idx + 1}</span>
-          <span class="sim-step-label">${escHtml(s.label)}</span>
-        </button>
-      `).join("");
-
-      stepperEl.querySelectorAll("[data-sim-step]").forEach((btn) => {
-        btn.addEventListener("click", () => {
-          activeStepIdx = parseInt(btn.dataset.simStep, 10);
-          render();
-        });
-      });
-
-      cardEl.innerHTML = `
-        <div class="sim-card-title">${escHtml(step.title)}</div>
-        <p class="sim-card-detail">${escHtml(step.detail)}</p>
-        <div class="sim-chips">
-          ${step.chips.map((c) => `<span class="sim-chip">${escHtml(c)}</span>`).join("")}
-        </div>
-        <div class="sim-output">
-          <div class="sim-output-label">${escHtml(step.outputLabel)}</div>
-          <div class="sim-output-text">${escHtml(step.output)}</div>
-        </div>
-      `;
-
-      if (linkAreaEl) {
-        linkAreaEl.href = `areas.html#${area.id}`;
-        linkAreaEl.textContent = `Ver área ${area.shortName} →`;
-      }
-      if (linkQuoteEl) {
-        linkQuoteEl.href = `capacitaciones.html?area=${encodeURIComponent(area.id)}#cotizacion`;
-        linkQuoteEl.textContent = `Pide tu cotización (${area.shortName})`;
-      }
-    }
 
     function stopAuto() {
       if (autoTimer) {
         clearInterval(autoTimer);
         autoTimer = null;
       }
-      if (btnAuto) btnAuto.textContent = "▶ Recorrido automático";
+      const b = document.getElementById("howAutoBtn");
+      if (b) b.textContent = "▶ Recorrido automático";
     }
 
-    if (btnPrev) {
-      btnPrev.addEventListener("click", () => {
-        stopAuto();
-        activeStepIdx = (activeStepIdx + 3) % 4;
-        render();
-      });
-    }
-    if (btnNext) {
-      btnNext.addEventListener("click", () => {
-        stopAuto();
-        activeStepIdx = (activeStepIdx + 1) % 4;
-        render();
-      });
-    }
-    if (btnAuto) {
-      btnAuto.addEventListener("click", () => {
-        if (autoTimer) {
+    function render() {
+      const area = AREAS[areaIdx];
+      const steps = area.simulation.steps;
+      const step = steps[stepIdx];
+
+      pillsWrap.innerHTML = AREAS.map((a, idx) => `
+        <button type="button" class="area-pill-btn ${idx === areaIdx ? "active" : ""}" data-how-area="${idx}">
+          0${idx + 1}. ${escHtml(a.shortName)}
+        </button>
+      `).join("");
+
+      pillsWrap.querySelectorAll("[data-how-area]").forEach((btn) => {
+        btn.addEventListener("click", () => {
           stopAuto();
-          return;
-        }
-        btnAuto.textContent = "⏸ Pausar recorrido";
-        autoTimer = setInterval(() => {
-          activeStepIdx = (activeStepIdx + 1) % 4;
+          areaIdx = parseInt(btn.dataset.howArea, 10);
+          stepIdx = 0;
           render();
-        }, 4200);
+        });
       });
+
+      stepsWrap.innerHTML = steps.map((st, idx) => `
+        <div class="how-step-item ${idx === stepIdx ? "active" : ""}" data-how-step="${idx}">
+          <button type="button" class="how-step-title-btn">
+            <span class="how-step-title">${escHtml(st.label)}</span>
+          </button>
+          <p class="how-step-desc">${escHtml(st.detail)}</p>
+        </div>
+      `).join("");
+
+      stepsWrap.querySelectorAll("[data-how-step]").forEach((el) => {
+        el.addEventListener("click", () => {
+          stopAuto();
+          stepIdx = parseInt(el.dataset.howStep, 10);
+          render();
+        });
+      });
+
+      vfBox.innerHTML = `
+        <div>
+          <div class="vf-head">
+            <span class="vf-meta">Simulación explicativa · ${escHtml(area.shortName)} · Paso 0${stepIdx + 1}/04</span>
+            <span class="vf-local-tag">100 % Local-First</span>
+          </div>
+          <div class="vf-diagram" style="margin-top:12px;">
+            ${renderStepDiagramSvg(stepIdx)}
+          </div>
+          <div style="margin-top:14px;">
+            <div class="vf-scenario"><strong>Escenario:</strong> ${escHtml(area.simulation.scenario)}</div>
+            <div class="vf-prompt">${escHtml(area.simulation.prompt)}</div>
+            <div class="vf-chips">
+              ${step.chips.map((c) => `<span class="vf-chip">${escHtml(c)}</span>`).join("")}
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="vf-output">
+            <div class="vf-output-lbl">${escHtml(step.outputLabel)}</div>
+            <div class="vf-output-txt">${escHtml(step.output)}</div>
+          </div>
+          <div class="vf-bar">
+            <div style="display:flex; gap:6px; flex-wrap:wrap;">
+              <button type="button" class="pill ghost sm" id="howPrevBtn">← Anterior</button>
+              <button type="button" class="pill ghost sm" id="howNextBtn">Siguiente →</button>
+              <button type="button" class="pill ghost sm" id="howAutoBtn">${autoTimer ? "⏸ Pausar" : "▶ Recorrido automático"}</button>
+            </div>
+            <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+              <a href="areas.html#${escHtml(area.id)}" style="font-size:12.5px; font-weight:600; color:var(--ink);">Ver área →</a>
+              <a href="capacitaciones.html?area=${encodeURIComponent(area.id)}#cotizacion" class="pill green sm">Pide tu cotización</a>
+            </div>
+          </div>
+        </div>
+      `;
+
+      const prevBtn = document.getElementById("howPrevBtn");
+      const nextBtn = document.getElementById("howNextBtn");
+      const autoBtn = document.getElementById("howAutoBtn");
+      if (prevBtn) prevBtn.addEventListener("click", () => { stopAuto(); stepIdx = (stepIdx + 3) % 4; render(); });
+      if (nextBtn) nextBtn.addEventListener("click", () => { stopAuto(); stepIdx = (stepIdx + 1) % 4; render(); });
+      if (autoBtn) {
+        autoBtn.addEventListener("click", () => {
+          if (autoTimer) {
+            stopAuto();
+            return;
+          }
+          autoBtn.textContent = "⏸ Pausar";
+          autoTimer = setInterval(() => {
+            stepIdx = (stepIdx + 1) % 4;
+            render();
+          }, 4200);
+        });
+      }
     }
 
-    renderAreaTabs();
     render();
   }
 
   /* ------------------------------------------------------------------------
-     4. ASISTENTE INTERACTIVO «PIDE TU COTIZACIÓN» (EXCLUSIVO POR MAIL)
+     4. ACORDEÓN FAQ ESTILO GRAPHIFY
+     ------------------------------------------------------------------------ */
+  function initFaq() {
+    document.querySelectorAll(".faq-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const row = btn.closest(".faq-row");
+        if (!row) return;
+        const isOpen = row.classList.toggle("open");
+        btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        const sign = btn.querySelector(".faq-sign");
+        if (sign) sign.textContent = isOpen ? "−" : "+";
+      });
+    });
+  }
+
+  /* ------------------------------------------------------------------------
+     5. ASISTENTE «PIDE TU COTIZACIÓN» (EXCLUSIVO POR CORREO, SIN PRECIOS)
      ------------------------------------------------------------------------ */
   function initQuoteBuilder() {
     const form = document.getElementById("quoteBuilderForm");
@@ -372,7 +449,7 @@
       const org = orgEl ? orgEl.value : "Estudio Jurídico";
       const service = serviceEl ? serviceEl.value : "Taller Práctico por Área";
       const mode = modeEl ? modeEl.value : "Online en vivo";
-      const size = sizeEl ? sizeEl.value : "6 a 15 participantes";
+      const size = sizeEl ? sizeEl.value : "6 a 15 personas";
       const notes = notesEl ? notesEl.value.trim() : "";
       const selectedAreas = Array.from(form.querySelectorAll('input[name="qArea"]:checked')).map((i) => i.value);
       const areasTxt = selectedAreas.length ? selectedAreas.join(", ") : "Por definir en reunión inicial";
@@ -387,20 +464,14 @@
         `• Servicio de interés: ${service}`,
         `• Modalidad preferida: ${mode}`,
         `• Tamaño estimado del equipo: ${size}`,
-        `• Áreas del Derecho prioritarias: ${areasTxt}`,
+        `• Áreas del Derecho prioritarias: ${areasTxt}`
       ];
-      if (notes) {
-        bodyLines.push(`• Contexto u objetivo adicional: ${notes}`);
-      }
+      if (notes) bodyLines.push(`• Contexto u objetivo adicional: ${notes}`);
       bodyLines.push("", "Quedo atento(a) para coordinar alcances y propuesta.", "", "Saludos cordiales,");
 
       const body = bodyLines.join("\n");
-      if (previewEl) {
-        previewEl.textContent = `Para: ${CONTACT_EMAIL}\nAsunto: ${subject}\n\n${body}`;
-      }
-      if (mailtoBtn) {
-        mailtoBtn.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      }
+      if (previewEl) previewEl.textContent = `Para: ${CONTACT_EMAIL}\nAsunto: ${subject}\n\n${body}`;
+      if (mailtoBtn) mailtoBtn.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       return { subject, body };
     }
 
@@ -410,10 +481,9 @@
     if (copyBtn) {
       copyBtn.addEventListener("click", () => {
         const { subject, body } = buildSummary();
-        const full = `Para: ${CONTACT_EMAIL}\nAsunto: ${subject}\n\n${body}`;
-        navigator.clipboard.writeText(full).then(() => {
+        navigator.clipboard.writeText(`Para: ${CONTACT_EMAIL}\nAsunto: ${subject}\n\n${body}`).then(() => {
           const orig = copyBtn.textContent;
-          copyBtn.textContent = "✓ Resumen copiado";
+          copyBtn.textContent = "✓ Texto copiado";
           setTimeout(() => { copyBtn.textContent = orig; }, 2200);
         });
       });
@@ -423,8 +493,64 @@
   }
 
   /* ------------------------------------------------------------------------
-     5. BOTONES COPIAR COMANDO
+     6. FOOTER ESTILO GRAPHIFY
      ------------------------------------------------------------------------ */
+  function renderFooter() {
+    const mount = document.getElementById("siteFooter");
+    if (!mount) return;
+    mount.className = "op-footer";
+    mount.innerHTML = `
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <a class="op-logo" href="index.html" style="margin-bottom:10px;">
+              <svg width="24" height="24" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+                <polygon points="14,2 25,8.5 25,19.5 14,26 3,19.5 3,8.5" stroke="currentColor" stroke-width="2" fill="none"/>
+                <circle cx="14" cy="9" r="2.2" fill="currentColor"/>
+                <circle cx="8.5" cy="18" r="2.2" fill="currentColor"/>
+                <circle cx="19.5" cy="18" r="2.2" fill="currentColor"/>
+              </svg>
+              <span class="op-logo-word">Open Legal Chile</span>
+            </a>
+            <p style="font-size:13.5px; line-height:1.6; max-width:340px;">
+              Suite abierta de inteligencia jurídica y grafo de conocimiento para el Derecho Continental de Chile. Plataforma 100 % gratuita (Apache 2.0) y local; formación práctica y despliegue a medida.
+            </p>
+            <p style="margin-top:12px; font-family:var(--font-mono); font-size:12px; color:var(--ink);">
+              Cotizaciones: <a href="mailto:${CONTACT_EMAIL}" style="color:var(--green); text-decoration:underline;">${CONTACT_EMAIL}</a>
+            </p>
+          </div>
+          <div>
+            <div class="footer-col-title">Áreas (01–04)</div>
+            <ul class="footer-links">
+              ${AREAS.slice(0, 4).map((a) => `<li><a href="areas.html#${escHtml(a.id)}">${escHtml(a.shortName)}</a></li>`).join("")}
+            </ul>
+          </div>
+          <div>
+            <div class="footer-col-title">Áreas (05–08)</div>
+            <ul class="footer-links">
+              ${AREAS.slice(4).map((a) => `<li><a href="areas.html#${escHtml(a.id)}">${escHtml(a.shortName)}</a></li>`).join("")}
+            </ul>
+          </div>
+          <div>
+            <div class="footer-col-title">Producto y Servicios</div>
+            <ul class="footer-links">
+              <li><a href="capacitaciones.html">Capacitaciones y Despliegue</a></li>
+              <li><a href="capacitaciones.html#cotizacion">Pide tu cotización</a></li>
+              <li><a href="demos.html">Laboratorio (Baremo y Grado)</a></li>
+              <li><a href="tecnologia.html">Tecnología y 95 MCP</a></li>
+              <li><a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer">GitHub (Apache 2.0)</a></li>
+              <li><a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer">Hugging Face Dataset</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div>Open Legal Chile — Un proyecto open source · Desarrollado por Pablo Benavides J. · Web: <a href="https://elpabloultron.github.io/open-legal-chile/">elpabloultron.github.io/open-legal-chile</a></div>
+          <div><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a> · v1.16.0</div>
+        </div>
+      </div>
+    `;
+  }
+
   function initCopyButtons() {
     document.querySelectorAll("[data-copy]").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -441,7 +567,9 @@
   document.addEventListener("DOMContentLoaded", () => {
     renderHeader();
     renderFooter();
-    initExplanatorySimulation();
+    initHeroSetupPrompt();
+    initHowItWorksSimulation();
+    initFaq();
     initQuoteBuilder();
     initCopyButtons();
   });
