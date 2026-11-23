@@ -38,3 +38,24 @@ def test_el_gemelo_queda_como_constancia_y_no_como_proyecto():
     """El repo archivado se nombra en la constancia (docs/), nunca como producto en la web."""
     constancia = (RAIZ / "docs" / "integracion_graphify.md").read_text(encoding="utf-8")
     assert "archivado" in constancia and "legal-graphify" in constancia
+
+
+def test_sitio_multipagina_por_areas_y_cotizacion():
+    paginas = ["index.html", "areas.html", "capacitaciones.html", "demos.html", "tecnologia.html"]
+    activos = [
+        "assets/css/site.css",
+        "assets/js/site.js",
+        "assets/data/areas.js",
+        "assets/data/demos-data.js",
+        "assets/data/catalog-data.js",
+    ]
+    for nombre in paginas:
+        ruta = RAIZ / "docs" / nombre
+        assert ruta.exists(), f"falta docs/{nombre}"
+        texto = ruta.read_text(encoding="utf-8")
+        assert not [p for p in PROHIBIDO_INDEX if p in texto], f"cifra vieja en docs/{nombre}"
+    for rel in activos:
+        assert (RAIZ / "docs" / rel).exists(), f"falta activo docs/{rel}"
+    cap = (RAIZ / "docs" / "capacitaciones.html").read_text(encoding="utf-8")
+    assert "Pide tu cotización" in cap
+    assert "pablobenavidesjorquera@gmail.com" in cap

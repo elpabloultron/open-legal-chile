@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laboratorio Público · Baremo PJUD, Corpus y Grado · Open Legal Chile</title>
+  <meta name="description" content="Herramientas abiertas de demostración basadas en datos oficiales de Chile: Calculadora del Baremo de Daño Moral PJUD (17 vínculos), Buscador Multi-Corpus y Simulador Socrático de Examen de Grado." />
+  <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/demos.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+  <header id="siteHeader" data-page="demos"></header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow-pill eyebrow-dark">Laboratorio abierto · Datos verificados del corpus chileno</span>
+        <h1>Prueba tres módulos reales del ecosistema en tu navegador</h1>
+        <p>
+          Consulta gratuitamente las estadísticas del <strong>Baremo de Daño Moral del Poder Judicial</strong>, explora muestras del <strong>corpus jurisprudencial especializado</strong> y practica con el <strong>Simulador Socrático de Examen de Grado</strong>. Para desplegar el entorno completo en tu equipo o capacitar a tu organización, pide tu cotización.
+        </p>
+        <div class="hero-cta-row">
+          <a href="#baremo" class="btn btn-outline-dark btn-sm">1. Baremo PJUD</a>
+          <a href="#buscador" class="btn btn-outline-dark btn-sm">2. Buscador Multi-Corpus</a>
+          <a href="#grado" class="btn btn-outline-dark btn-sm">3. Simulador de Grado</a>
+          <a href="capacitaciones.html#cotizacion" class="btn btn-bronze btn-sm">Pide tu cotización</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 48px;">
+      <div class="container">
+        <!-- 1. CALCULADORA BAREMO DAÑO MORAL PJUD -->
+        <article class="lab-card" id="baremo" style="scroll-margin-top: 100px;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+            <div>
+              <span class="eyebrow-pill eyebrow-light">Litigación Civil · Estadística PJUD-UdeC (17 vínculos)</span>
+              <h2 class="section-title" style="font-size: 28px;">Calculadora Oficial del Baremo de Daño Moral por Muerte</h2>
+              <p class="section-desc" style="font-size: 14.5px; margin-top: 6px;">
+                Selecciona el vínculo de parentesco con la víctima para revisar medianas en UF y CLP por instancia (1.ª Instancia, Corte de Apelaciones y Corte Suprema), rango intercuartil P25–P75 y sentencias muestra descargables.
+              </p>
+            </div>
+            <a href="capacitaciones.html?area=civil#cotizacion" class="btn btn-outline btn-sm">Cotizar taller de litigación</a>
+          </div>
+
+          <div class="form-field" style="margin-top: 18px; max-width: 560px;">
+            <label class="form-label" for="baremoSelect">Vínculo de parentesco con la víctima</label>
+            <select id="baremoSelect" class="form-control"></select>
+          </div>
+
+          <div class="baremo-cards" id="baremoCards"></div>
+
+          <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding: 12px 14px; background: var(--bg-ivory); border: 1px solid var(--border-warm); border-radius: var(--radius-sm); margin-bottom: 18px;">
+            <code id="baremoCita" style="font-family: var(--font-mono); font-size: 12px; color: var(--forest-900);"></code>
+            <button type="button" id="btnCopyBaremoCita" class="btn btn-outline btn-sm">Copiar cita oficial</button>
+          </div>
+
+          <h3 style="font-family: var(--font-serif); font-size: 19px; color: var(--forest-900); margin-bottom: 10px;">Fallos muestra del Baremo PJUD</h3>
+          <div class="data-table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Rol</th>
+                  <th>Corte de Apelaciones</th>
+                  <th>Tribunal de Origen</th>
+                  <th>Fecha</th>
+                  <th>Monto UF (CLP)</th>
+                  <th>Documento</th>
+                </tr>
+              </thead>
+              <tbody id="baremoSamplesBody"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <!-- 2. BUSCADOR MULTI-CORPUS PJUD -->
+        <article class="lab-card" id="buscador" style="scroll-margin-top: 100px;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+            <div>
+              <span class="eyebrow-pill eyebrow-light">Portales Especializados PJUD · Muestra interactiva</span>
+              <h2 class="section-title" style="font-size: 28px;">Buscador Multi-Corpus Jurisprudencial</h2>
+              <p class="section-desc" style="font-size: 14.5px; margin-top: 6px;">
+                Filtra sentencias verificadas de Líneas Jurisprudenciales de la Corte Suprema, Salud/Isapres, Extranjería, Derechos Humanos y Secretaría de Género. En la suite local se indexan más de 82.717 documentos completos.
+              </p>
+            </div>
+            <a href="tecnologia.html" class="btn btn-outline btn-sm">Ver los 82.717 documentos y Parquet</a>
+          </div>
+
+          <div class="filter-bar" id="pjudFilterBar">
+            <button type="button" class="filter-btn active" data-pjud-col="all">Todas</button>
+            <button type="button" class="filter-btn" data-pjud-col="lineas_cs">Líneas CS</button>
+            <button type="button" class="filter-btn" data-pjud-col="salud_cs">Salud / Isapres</button>
+            <button type="button" class="filter-btn" data-pjud-col="extranjeria_cs">Extranjería</button>
+            <button type="button" class="filter-btn" data-pjud-col="ddhh">Derechos Humanos</button>
+            <button type="button" class="filter-btn" data-pjud-col="genero">Género</button>
+            <input type="search" id="pjudSearchInput" class="form-control" style="max-width: 280px; margin-left: auto;" placeholder="Buscar por rol, materia o término..." aria-label="Buscar sentencias" />
+          </div>
+
+          <div class="cards-3" id="pjudGrid"></div>
+        </article>
+
+        <!-- 3. SIMULADOR SOCRÁTICO DE EXAMEN DE GRADO -->
+        <article class="lab-card" id="grado" style="scroll-margin-top: 100px;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+            <div>
+              <span class="eyebrow-pill eyebrow-light">Academia y Facultades · Rigor dogmático en 3 pilares</span>
+              <h2 class="section-title" style="font-size: 28px;">Simulador Socrático de Examen de Grado</h2>
+              <p class="section-desc" style="font-size: 14.5px; margin-top: 6px;">
+                Sortea una cédula de Derecho Civil o Procesal, redacta tu respuesta y contrástala con la rúbrica canónica en 3 pilares (ley positiva BCN, doctrina canónica y criterio de Corte Suprema).
+              </p>
+            </div>
+            <a href="capacitaciones.html?area=academia#cotizacion" class="btn btn-outline btn-sm">Cotizar convenio universitario</a>
+          </div>
+
+          <div class="filter-bar">
+            <button type="button" class="filter-btn active" data-cedula-cat="all">Todas las cédulas</button>
+            <button type="button" class="filter-btn" data-cedula-cat="civil-obligaciones">Obligaciones y Contratos</button>
+            <button type="button" class="filter-btn" data-cedula-cat="civil-responsabilidad">Responsabilidad</button>
+            <button type="button" class="filter-btn" data-cedula-cat="civil-bienes">Bienes y Posesión</button>
+            <button type="button" class="filter-btn" data-cedula-cat="procesal-civil">Procesal Civil</button>
+            <button type="button" id="btnRerollCedula" class="btn btn-outline btn-sm" style="margin-left: auto;">Sortear otra cédula</button>
+          </div>
+
+          <div style="background: var(--forest-950); color: #ffffff; border-radius: var(--radius-md); padding: 22px; margin-top: 8px;">
+            <div id="cedulaMeta" style="font-family: var(--font-mono); font-size: 11.5px; color: var(--bronze-200); text-transform: uppercase;"></div>
+            <p id="socraticQuestionText" style="font-family: var(--font-serif); font-size: 19px; line-height: 1.48; margin-top: 10px; font-style: italic;"></p>
+          </div>
+
+          <div class="form-field" style="margin-top: 16px;">
+            <label class="form-label" for="studentAnswerInput">Tu respuesta oral/escrita ante la comisión</label>
+            <textarea id="studentAnswerInput" class="form-control" rows="3" placeholder="Redacta aquí tu análisis citando artículos del Código Civil o CPC, autores y jurisprudencia..."></textarea>
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <button type="button" id="btnEvaluatePractice" class="btn btn-primary btn-sm">Evaluar mi respuesta</button>
+            <button type="button" id="btnRevealRubric" class="btn btn-outline btn-sm">Revelar rúbrica canónica (3 pilares)</button>
+          </div>
+
+          <div id="feedbackBanner" style="display: none; margin-top: 14px; padding: 12px 14px; border-radius: var(--radius-sm); border: 1px solid transparent; font-size: 13.5px;"></div>
+
+          <div id="canonicalRubric" style="display: none; margin-top: 16px; background: var(--bg-ivory); border: 1px solid var(--border-warm); border-radius: var(--radius-md); padding: 20px;">
+            <h3 style="font-family: var(--font-serif); font-size: 19px; color: var(--forest-900); margin-bottom: 12px;">Rúbrica canónica — Subsunción en 3 pilares</h3>
+            <p id="rubricPositive" style="font-size: 14px; margin-bottom: 10px;"></p>
+            <p id="rubricDogmatic" style="font-size: 14px; margin-bottom: 10px;"></p>
+            <p id="rubricJudicial" style="font-size: 14px; margin-bottom: 12px;"></p>
+            <div id="rubricQuote" style="padding: 10px 12px; background: var(--bg-surface); border: 1px solid var(--border-warm); border-radius: var(--radius-sm); font-family: var(--font-mono); font-size: 11.5px; color: var(--forest-900);"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+
+  <script src="assets/data/areas.js"></script>
+  <script src="assets/data/demos-data.js"></script>
+  <script src="assets/js/site.js"></script>
+  <script>
+    (function () {
+      "use strict";
+
+      function esc(s) {
+        return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+      }
+
+      /* 1. Baremo PJUD */
+      const BAREMO = window.OLC_BAREMO_DATA || [];
+      const selectEl = document.getElementById("baremoSelect");
+      const cardsEl = document.getElementById("baremoCards");
+      const citaEl = document.getElementById("baremoCita");
+      const copyBtn = document.getElementById("btnCopyBaremoCita");
+      const bodyEl = document.getElementById("baremoSamplesBody");
+
+      const fmtUF = (v) => (v && v > 0 ? `${Number(v).toLocaleString("es-CL", { maximumFractionDigits: 2 })} UF` : "Sin datos");
+      const fmtCLP = (v) => (v && v > 0 ? `$${Math.round(Number(v)).toLocaleString("es-CL")} CLP` : "—");
+
+      function renderBaremo(item) {
+        if (!item) return;
+        const tiers = [
+          { key: "primera_instancia", label: "1.ª Instancia (Juzgados)" },
+          { key: "corte_apelaciones", label: "Corte de Apelaciones" },
+          { key: "corte_suprema", label: "Excma. Corte Suprema" },
+        ];
+        if (cardsEl) {
+          cardsEl.innerHTML = tiers.map((t) => {
+            const uf = (item.uf && item.uf[t.key]) || {};
+            const clp = (item.clp && item.clp[t.key]) || {};
+            return `
+              <div class="baremo-stat-card">
+                <h4>${t.label} (${uf.n || 0} fallos)</h4>
+                <div class="baremo-median">${fmtUF(uf.mediana)}</div>
+                <div class="baremo-clp">Mediana CLP: ${fmtCLP(clp.mediana)}</div>
+                <div class="baremo-sub"><span>P25: ${fmtUF(uf.p25)}</span><span>P75: ${fmtUF(uf.p75)}</span></div>
+                <div class="baremo-sub"><span>Prom.: ${fmtUF(uf.promedio)}</span><span>Máx.: ${fmtUF(uf.max)}</span></div>
+              </div>
+            `;
+          }).join("");
+        }
+        if (citaEl) citaEl.textContent = item.cita || "";
+        if (bodyEl) {
+          bodyEl.innerHTML = (item.muestra || []).map((m) => `
+            <tr>
+              <td style="font-family: var(--font-mono); font-weight: 600; color: var(--forest-900);">Rol ${esc(m.rol)}</td>
+              <td>${esc(m.corte_apelaciones || "—")}</td>
+              <td>${esc(m.juzgado_origen || "—")}</td>
+              <td style="font-family: var(--font-mono);">${esc(m.fecha || "—")}</td>
+              <td style="font-family: var(--font-mono); font-weight: 600;">${fmtUF(m.monto_uf)} <span style="font-weight: 400; color: var(--ink-500);">(${fmtCLP(m.monto_clp)})</span></td>
+              <td>${m.url_descarga_sentencia ? `<a href="${esc(m.url_descarga_sentencia)}" target="_blank" rel="noreferrer" style="color: var(--emerald-700); font-family: var(--font-mono); font-weight: 600;">Ver fallo →</a>` : "—"}</td>
+            </tr>
+          `).join("");
+        }
+      }
+
+      if (selectEl && BAREMO.length) {
+        selectEl.innerHTML = BAREMO.map((b, i) =>
+          `<option value="${i}">${esc(b.parentesco)} (${b.casos} fallos — Mediana 1.ª inst.: ${b.uf.primera_instancia.mediana} UF)</option>`
+        ).join("");
+        selectEl.addEventListener("change", (e) => renderBaremo(BAREMO[parseInt(e.target.value, 10)] || BAREMO[0]));
+        renderBaremo(BAREMO[0]);
+      }
+
+      if (copyBtn && citaEl) {
+        copyBtn.addEventListener("click", () => {
+          navigator.clipboard.writeText(citaEl.textContent || "").then(() => {
+            const orig = copyBtn.textContent;
+            copyBtn.textContent = "✓ Cita copiada";
+            setTimeout(() => { copyBtn.textContent = orig; }, 1800);
+          });
+        });
+      }
+
+      /* 2. Buscador Multi-Corpus PJUD */
+      const SAMPLES = window.OLC_PJUD_SAMPLES || [];
+      const pjudGrid = document.getElementById("pjudGrid");
+      const pjudInput = document.getElementById("pjudSearchInput");
+      let activeCol = "all";
+      let activeQuery = "";
+
+      function renderPjud() {
+        if (!pjudGrid) return;
+        const rows = SAMPLES.filter((s) => {
+          const okCol = activeCol === "all" || s.coleccion === activeCol;
+          const hay = `${s.rol} ${s.caratula} ${s.materia} ${s.extracto} ${s.coleccion_nombre}`.toLowerCase();
+          return okCol && (!activeQuery || hay.includes(activeQuery));
+        }).slice(0, 9);
+
+        if (!rows.length) {
+          pjudGrid.innerHTML = `<p style="color: var(--ink-500); font-size: 14px;">Sin coincidencias para «${esc(activeQuery)}» en esta muestra.</p>`;
+          return;
+        }
+
+        pjudGrid.innerHTML = rows.map((s) => `
+          <div class="catalog-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; gap: 8px; align-items: center;">
+                <span class="catalog-name">Rol ${esc(s.rol)}</span>
+                <span class="catalog-badge">${esc(s.coleccion_nombre)}</span>
+              </div>
+              <div style="font-size: 13.5px; font-weight: 600; color: var(--forest-900); margin: 8px 0 4px;">${esc(s.caratula || s.materia)}</div>
+              <p style="font-size: 12.5px; color: var(--ink-600); line-height: 1.5;">${esc(s.extracto || s.materia)}</p>
+            </div>
+            <div style="padding-top: 10px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+              <code style="font-family: var(--font-mono); font-size: 10.5px; color: var(--bronze-700);">${esc(s.cita)}</code>
+              <a href="${esc(s.url)}" target="_blank" rel="noreferrer" style="font-family: var(--font-mono); font-size: 11px; font-weight: 600; color: var(--emerald-700); flex-shrink: 0;">Fuente →</a>
+            </div>
+          </div>
+        `).join("");
+      }
+
+      document.querySelectorAll("[data-pjud-col]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll("[data-pjud-col]").forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          activeCol = btn.dataset.pjudCol;
+          renderPjud();
+        });
+      });
+      if (pjudInput) {
+        pjudInput.addEventListener("input", (e) => {
+          activeQuery = e.target.value.toLowerCase().trim();
+          renderPjud();
+        });
+      }
+      renderPjud();
+
+      /* 3. Simulador Socrático de Grado */
+      const CEDULAS = window.OLC_CEDULAS_DATA || [];
+      let cedFilter = "all";
+      let activeCed = CEDULAS[0];
+
+      function renderCedula(c) {
+        if (!c) return;
+        activeCed = c;
+        document.getElementById("cedulaMeta").textContent = c.meta;
+        document.getElementById("socraticQuestionText").textContent = `«${c.question}»`;
+        document.getElementById("rubricPositive").innerHTML = c.positive;
+        document.getElementById("rubricDogmatic").innerHTML = c.dogmatic;
+        document.getElementById("rubricJudicial").innerHTML = c.judicial;
+        document.getElementById("rubricQuote").textContent = `Cita forense oficial: ${c.bracket}`;
+        document.getElementById("canonicalRubric").style.display = "none";
+        document.getElementById("feedbackBanner").style.display = "none";
+        document.getElementById("studentAnswerInput").value = "";
+        document.getElementById("btnRevealRubric").textContent = "Revelar rúbrica canónica (3 pilares)";
+      }
+
+      function nextCedula() {
+        const pool = cedFilter === "all" ? CEDULAS : CEDULAS.filter((x) => x.cat === cedFilter);
+        if (!pool.length) return;
+        const others = pool.filter((x) => x.id !== activeCed.id);
+        renderCedula(others.length ? others[Math.floor(Math.random() * others.length)] : pool[0]);
+      }
+
+      document.querySelectorAll("[data-cedula-cat]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll("[data-cedula-cat]").forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          cedFilter = btn.dataset.cedulaCat;
+          nextCedula();
+        });
+      });
+
+      const rerollBtn = document.getElementById("btnRerollCedula");
+      if (rerollBtn) rerollBtn.addEventListener("click", nextCedula);
+
+      const revealBtn = document.getElementById("btnRevealRubric");
+      const rubricBox = document.getElementById("canonicalRubric");
+      if (revealBtn && rubricBox) {
+        revealBtn.addEventListener("click", () => {
+          const show = rubricBox.style.display === "none";
+          rubricBox.style.display = show ? "block" : "none";
+          revealBtn.textContent = show ? "Ocultar rúbrica canónica" : "Revelar rúbrica canónica (3 pilares)";
+        });
+      }
+
+      const evalBtn = document.getElementById("btnEvaluatePractice");
+      const fbEl = document.getElementById("feedbackBanner");
+      if (evalBtn && fbEl) {
+        evalBtn.addEventListener("click", () => {
+          const ans = (document.getElementById("studentAnswerInput").value || "").trim();
+          fbEl.style.display = "block";
+          if (ans.length < 20) {
+            fbEl.style.background = "#fef2f2";
+            fbEl.style.borderColor = "#fca5a5";
+            fbEl.style.color = "#991b1b";
+            fbEl.innerHTML = "<strong>Respuesta insuficiente:</strong> la comisión examinadora exige fundamentar con norma legal, doctrina y criterio jurisprudencial.";
+          } else {
+            fbEl.style.background = "#ecfdf5";
+            fbEl.style.borderColor = "#a7f3d0";
+            fbEl.style.color = "#065f46";
+            fbEl.innerHTML = "<strong>Evaluación registrada:</strong> coteja tu desarrollo con los 3 pilares obligatorios desplegados en la rúbrica inferior.";
+            if (rubricBox) rubricBox.style.display = "block";
+            if (revealBtn) revealBtn.textContent = "Ocultar rúbrica canónica";
+          }
+        });
+      }
+
+      if (CEDULAS.length) renderCedula(CEDULAS[0]);
+    })();
+  </script>
+</body>
+</html>

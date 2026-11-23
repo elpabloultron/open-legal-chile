@@ -529,17 +529,35 @@
   },
   {
     "name": "pjud_search_jurisprudencia",
-    "description": "Busca jurisprudencia en el corpus local cosechado —70.523 sentencias de la Corte Suprema de los últimos dos años, 966 del Tribunal Constitucional y los fallos rectores CS/TC— por carátula, materia, recurso, resultado y doctrina; insensible a acentos.",
+    "description": "Busca jurisprudencia en el corpus local cosechado —70.523 sentencias de la Corte Suprema de los últimos dos años, 966 del Tribunal Constitucional, fallos rectores CS/TC y portales especializados PJUD (Líneas Jurisprudenciales CS, Salud/Isapres, Compendio de Extranjería, Derechos Humanos, Secretaría de Género y Baremo Estadístico de Daño Moral en UF/CLP)— por carátula, materia, recurso, resultado y doctrina; insensible a acentos.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "query": {
           "type": "string",
-          "description": "Término de búsqueda (ej. 'confianza legitima 2 años', 'descuento afc despido', 'isapres')"
+          "description": "Término de búsqueda (ej. 'confianza legitima 2 años', 'descuento afc despido', 'isapres', 'baremo daño moral hijo')"
         },
         "sala": {
           "type": "string",
           "description": "Sala opcional (ej. 'Tercera', 'Cuarta', 'Primera')"
+        },
+        "coleccion": {
+          "type": "string",
+          "enum": [
+            "cs",
+            "tc",
+            "lineas",
+            "salud",
+            "extranjeria",
+            "ddhh",
+            "genero",
+            "baremo"
+          ],
+          "description": "Filtro opcional por portal especializado PJUD ('lineas', 'salud', 'extranjeria', 'ddhh', 'genero', 'baremo', 'cs', 'tc')"
+        },
+        "baremo_parentesco": {
+          "type": "string",
+          "description": "Vínculo de parentesco opcional para consultar estadísticos en UF/CLP del Baremo de Daño Moral por muerte (ej. 'Hijo(a)', 'Cónyuge', 'Padre o Madre', 'Hermano(a)', 'Conviviente')"
         }
       },
       "required": [
@@ -879,7 +897,7 @@
   },
   {
     "name": "doctrina_search",
-    "description": "Busca en el canon dogmático de manuales y tratados jurídicos chilenos más citados (Barros Bourie, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña) mediante búsqueda por relevancia semántica FTS5 y BM25.",
+    "description": "Busca en el canon dogmático de manuales y tratados jurídicos chilenos más citados (Barros Bourie, Ramos Pazos, Peñailillo, Maturana, Bermúdez, Cury, Gamonal, Cea Egaña) mediante búsqueda FTS5 BM25 y modo híbrido semántico opcional (Reciprocal Rank Fusion local).",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -898,6 +916,11 @@
         "limit": {
           "type": "integer",
           "description": "Cantidad máxima de resultados (por defecto 5)"
+        },
+        "hibrido": {
+          "type": "boolean",
+          "description": "Si es True, fusiona BM25 con similitud vectorial local (RRF) para consultas en lenguaje coloquial (por defecto False)",
+          "default": false
         }
       },
       "required": [
@@ -2050,7 +2073,7 @@
   },
   {
     "name": "graphify_trazar_camino",
-    "description": "Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify, deduciendo cadenas de subsunción y argumentación dogmática.",
+    "description": "Calcula y traza los caminos relacionales mínimos entre dos conceptos o normas jurídicas en LegalGraphify, deduciendo cadenas de subsunción y argumentación dogmática. Con `solo_sustantivo=True` usa la capa sustantiva del grafo multiplex (excluye puentes bibliográficos de autor, obra o revista).",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -2066,6 +2089,11 @@
           "type": "integer",
           "description": "Número máximo de rutas mínimas a retornar (por defecto 3)",
           "default": 3
+        },
+        "solo_sustantivo": {
+          "type": "boolean",
+          "description": "Si es True, prioriza rutas jurídicas sustantivas excluyendo súper-hubs editoriales (por defecto False)",
+          "default": false
         }
       },
       "required": [
@@ -2123,7 +2151,7 @@
   },
   {
     "name": "graphify_god_nodes",
-    "description": "Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según algoritmos de PageRank y centralidad sobre el Knowledge Graph de doctrina y normas.",
+    "description": "Identifica los pilares dogmáticos estructurales (God Nodes) del sistema jurídico chileno según algoritmos de PageRank y centralidad sobre el Knowledge Graph de doctrina y normas. Con `solo_sustantivo=True` aplica ponderación multiplex atenuando súper-hubs editoriales.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -2131,6 +2159,11 @@
           "type": "integer",
           "description": "Cantidad de instituciones y normas principales a retornar (por defecto 10)",
           "default": 10
+        },
+        "solo_sustantivo": {
+          "type": "boolean",
+          "description": "Si es True, atenúa aristas bibliográficas y excluye contenedores editoriales de los pilares (por defecto False)",
+          "default": false
         }
       }
     },
@@ -2520,13 +2553,22 @@
   },
   {
     "name": "critique_documento",
-    "description": "Auditoría forense de un borrador judicial (5 dimensiones: hecho, derecho, prueba, procedimiento y estrategia) con el motor de crítica del producto.",
+    "description": "Auditoría forense de un borrador judicial (5 dimensiones: hecho, derecho, prueba, procedimiento y estrategia, o modo 'goldfish' de revisión contradictoria de contexto cero inspirado en google/elephant-goldfish-model) con el motor de crítica del producto.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "texto": {
           "type": "string",
           "description": "El borrador a auditar"
+        },
+        "modo": {
+          "type": "string",
+          "enum": [
+            "5d",
+            "goldfish"
+          ],
+          "default": "5d",
+          "description": "Modo de auditoría: '5d' (estándar 5 dimensiones) o 'goldfish' (revisor contradictorio de contexto cero sin sesgo de confirmación)"
         },
         "provider": {
           "type": "string",
@@ -2701,6 +2743,272 @@
       "readOnlyHint": true,
       "destructiveHint": false,
       "openWorldHint": true
+    }
+  },
+  {
+    "name": "descubrir_herramientas",
+    "description": "Búsqueda dinámica de herramientas MCP (perfil router / Tool Search): usa LegalOpenJev (<5 ms) y ranking léxico para devolver solo las herramientas relevantes y su inputSchema bajo demanda, reduciendo ~85 % el consumo de tokens de contexto.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "consulta": {
+          "type": "string",
+          "description": "Descripción de la tarea jurídica o palabra clave (ej. 'estudio de títulos CBR', 'sanción SMA ruido', 'comparar versiones ley')"
+        },
+        "limite": {
+          "type": "integer",
+          "description": "Máximo de herramientas sugeridas (por defecto 6)",
+          "default": 6
+        }
+      },
+      "required": [
+        "consulta"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "invocar_herramienta",
+    "description": "Invoca dinámicamente cualquier herramienta del catálogo completo de Open Legal Chile tras localizarla con `descubrir_herramientas` (útil en `OPENLEGAL_PROFILE=router`).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "nombre": {
+          "type": "string",
+          "description": "Nombre exacto de la herramienta MCP a ejecutar"
+        },
+        "argumentos": {
+          "type": "object",
+          "description": "Diccionario JSON con los parámetros de la herramienta",
+          "default": {}
+        }
+      },
+      "required": [
+        "nombre"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "bcn_comparar_versiones",
+    "description": "Compara el tenor literal de un código o ley chilena en dos fechas (diff intertemporal BCN) para detectar reformas legales, vacancia legal y ultraactividad procesal.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "norma": {
+          "type": "string",
+          "description": "Nombre del código ('trabajo', 'civil', 'cpc') o número de ley ('19.300', '21643')"
+        },
+        "fecha_a": {
+          "type": "string",
+          "description": "Fecha histórica inicial en formato YYYY-MM-DD"
+        },
+        "fecha_b": {
+          "type": "string",
+          "description": "Segunda fecha YYYY-MM-DD (si se omite, compara contra la versión vigente actual)",
+          "default": ""
+        },
+        "articulo": {
+          "type": "string",
+          "description": "Número de artículo específico a comparar (opcional)"
+        }
+      },
+      "required": [
+        "norma",
+        "fecha_a"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "privacidad_anonimizar_documento",
+    "description": "Anonimiza de forma reversible datos personales chilenos (RUT verificado Módulo 11, emails, teléfonos, cuentas bancarias, domicilios y nombres en contexto procesal) bajo la Ley N.° 21.719 y Art. 247 CP, o revierte un texto con su mapa local.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "texto": {
+          "type": "string",
+          "description": "Texto jurídico o extracto de expediente a anonimizar o desanonimizar"
+        },
+        "accion": {
+          "type": "string",
+          "description": "'anonimizar' (defecto) o 'desanonimizar'",
+          "enum": [
+            "anonimizar",
+            "desanonimizar"
+          ],
+          "default": "anonimizar"
+        },
+        "incluir_domicilios": {
+          "type": "boolean",
+          "description": "Si es True, enmascara domicilios particulares",
+          "default": true
+        },
+        "incluir_personas": {
+          "type": "boolean",
+          "description": "Si es True, enmascara nombres propios tras tratamientos (don/doña/Sr./menor)",
+          "default": true
+        },
+        "usar_presidio": {
+          "type": "boolean",
+          "description": "Activa enriquecimiento NER opcional con Microsoft Presidio si está instalado",
+          "default": false
+        },
+        "mapa_reversion": {
+          "type": "object",
+          "description": "Mapa {token: valor_real} requerido solo cuando accion='desanonimizar'"
+        }
+      },
+      "required": [
+        "texto"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "verificar_citas_escrito",
+    "description": "Verificador forense post-redacción: extrae todas las normas legales y roles citados en un borrador mediante citas_legales, detecta artículos fuera de rango y figuras prohibidas de Common Law, y verifica existencia/tenor literal contra BCN.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "texto": {
+          "type": "string",
+          "description": "Texto completo o extracto del escrito judicial o informe a verificar"
+        },
+        "consultar_bcn": {
+          "type": "boolean",
+          "description": "Si es True, contrasta cada norma citada contra BCN Ley Chile (caché/red)",
+          "default": true
+        }
+      },
+      "required": [
+        "texto"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "jurimetria_analizar_corpus",
+    "description": "Análisis jurimétrico e investigación académica empírica sobre el corpus chileno (LegalGraphify + mapa HF): calcula PageRank dirigido y HITS (Authority y Hub) sobre la red sustantiva de citaciones (excluyendo súper-hubs bibliográficos), audita la resolución de entidades y ruido OCR normativo, y entrega estadísticas longitudinales exactas (por año, sala de la Corte Suprema, recurso, resultado normalizado y cuantiles del Baremo UF/CLP) declarando el universo N, la revisión fijada en Hugging Face y las advertencias muestrales.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "modo": {
+          "type": "string",
+          "enum": [
+            "completo",
+            "red_citaciones",
+            "longitudinal",
+            "muestra_validacion"
+          ],
+          "description": "Tipo de análisis jurimétrico a ejecutar (por defecto 'completo')",
+          "default": "completo"
+        },
+        "coleccion": {
+          "type": "string",
+          "description": "Colección a analizar ('cs', 'tc', 'ta', 'doc', 'todas'; por defecto 'cs')"
+        },
+        "norma_filtro": {
+          "type": "string",
+          "description": "Norma o institución opcional para acotar la red de citaciones (ej. 'Art. 1545 CC', 'Art. 19 N 24 CPR')"
+        },
+        "agrupacion": {
+          "type": "string",
+          "enum": [
+            "anio",
+            "mes"
+          ],
+          "description": "Granularidad temporal para estadísticas longitudinales ('anio' o 'mes'; por defecto 'anio')",
+          "default": "anio"
+        },
+        "top_k": {
+          "type": "integer",
+          "description": "Cantidad máxima de normas, sentencias e instituciones en el ranking de red (por defecto 15)",
+          "default": 15
+        },
+        "n_muestra": {
+          "type": "integer",
+          "description": "Tamaño de muestra estratificada cuando modo='muestra_validacion' (por defecto 50)",
+          "default": 50
+        },
+        "semilla": {
+          "type": "integer",
+          "description": "Semilla determinista para reproducibilidad de la muestra estratificada (por defecto 42)",
+          "default": 42
+        }
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "jurimetria_exportar_investigacion",
+    "description": "Exporta un paquete reproducible de investigación jurídica académica para artículos, tesis o ponencias: genera tablas CSV (R/Stata/Python), red GraphML (Gephi/Cytoscape), Apache Parquet (si pyarrow está instalado), muestra estratificada ciega para validación intercodificador (precisión, cobertura, F1 y κ de Cohen), METODOLOGIA_REPRODUCIBLE.md con revisión fijada de Hugging Face y citas BibTeX listas en referencia.bib.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "tema": {
+          "type": "string",
+          "description": "Institución, norma o materia central a exportar (ej. 'simulacion', 'Art. 2314 CC', 'dano moral' o 'corpus')"
+        },
+        "carpeta_salida": {
+          "type": "string",
+          "description": "Carpeta local donde se escribirá el paquete reproducible (si se omite, se crea bajo exports/investigacion/)"
+        },
+        "formatos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Formatos a exportar (por defecto ['csv', 'graphml', 'parquet', 'json', 'md', 'bib'])"
+        },
+        "coleccion_longitudinal": {
+          "type": "string",
+          "description": "Colección para las estadísticas longitudinales y muestra de validación ('cs', 'tc', 'ta', 'doc'; por defecto 'cs')",
+          "default": "cs"
+        },
+        "n_muestra": {
+          "type": "integer",
+          "description": "Tamaño de la muestra estratificada de validación humana (por defecto 50)",
+          "default": 50
+        },
+        "semilla": {
+          "type": "integer",
+          "description": "Semilla aleatoria fija para reproducibilidad (por defecto 42)",
+          "default": 42
+        }
+      },
+      "required": [
+        "tema"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "openWorldHint": false
     }
   }
 ]
