@@ -1,6 +1,6 @@
 ---
 name: chilean-socratic-bar-exam
-description: Simulador Socrático de Examen de Grado de Derecho en Chile (Derecho Civil y Derecho Procesal): interrogación oral rigurosa por cédulas, exigencia de definiciones legales del Código Civil al pie de la letra, evaluación con rúbrica académica y tarjetas de estudio (flashcards).
+description: "Simulador Socrático de Examen de Grado de Derecho en Chile (Derecho Civil y Derecho Procesal): interrogación oral rigurosa por cédulas, exigencia de definiciones legales del Código Civil al pie de la letra, evaluación con rúbrica académica y tarjetas de estudio (flashcards)."
 ---
 
 # Habilidad: Examinador Socrático de Examen de Grado (chilean-socratic-bar-exam)
@@ -13,10 +13,8 @@ description: Simulador Socrático de Examen de Grado de Derecho en Chile (Derech
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (cédula de examen desarrollada, pauta de corrección, minuta de estudio para grado): se entregan en **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta, retroalimentación o pregunta socrática va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que viene de varias fuentes se cita con todas.
+- **Documentos** (cédula de examen desarrollada, pauta de corrección, minuta de estudio para grado): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: la respuesta, retroalimentación o pregunta socrática va primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Norma legal: `[BCN - Código Civil, Art. <Número>]` o `[BCN - Código de Procedimiento Civil, Art. <Número>]`
@@ -35,7 +33,7 @@ En los dos casos: si no hay fuente identificable se dice «sin fuente verificabl
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** egresados y licenciados en ciencias jurídicas que preparan su examen de grado oral o escrito ante comisiones universitarias o ante la Corte Suprema.
 - **Lenguaje claro:** el primer término técnico o latinismo de cada retroalimentación lleva su explicación pedagógica entre paréntesis — `purga de la hipoteca (extinción de las hipotecas que gravan un inmueble cuando este se vende en pública subasta judicial con citación personal de los acreedores hipotecarios, conforme al Art. 2428 del Código Civil)`.

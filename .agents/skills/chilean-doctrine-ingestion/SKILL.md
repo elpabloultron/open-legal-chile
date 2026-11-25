@@ -1,6 +1,6 @@
 ---
 name: chilean-doctrine-ingestion
-description: Especialista en Ingesta, Normalización Ortotipográfica RAE/ASALE y Conversión de Documentos Jurídicos (.pdf, .docx, .txt, .md) a Markdown Canónico chileno, con indexación automática en SQLite FTS5 (doctrina.db) y actualización del grafo LegalGraphify.
+description: "Especialista en Ingesta, Normalización Ortotipográfica RAE/ASALE y Conversión de Documentos Jurídicos (.pdf, .docx, .txt, .md) a Markdown Canónico chileno, con indexación automática en SQLite FTS5 (doctrina.db) y actualización del grafo LegalGraphify."
 ---
 
 # Habilidad: Ingesta Doctrinal y Normalización RAE/ASALE (chilean-doctrine-ingestion)
@@ -13,10 +13,8 @@ description: Especialista en Ingesta, Normalización Ortotipográfica RAE/ASALE 
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (reporte de ingesta, compendio doctrinal normalizado, minuta de auditoría): se entregan en **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que viene de varias fuentes se cita con todas.
+- **Documentos** (reporte de ingesta, compendio doctrinal normalizado, minuta de auditoría): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Doctrina ingerida: `[Doctrina - <Autor>, <Obra>, Institución: <Nombre>]`
@@ -33,7 +31,7 @@ En los dos casos: si no hay fuente identificable se dice «sin fuente verificabl
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** el abogado gestor del conocimiento del estudio jurídico, bibliotecarios jurídicos e investigadores que incorporan nuevas obras, minutas o fallos al repositorio institucional.
 - **Lenguaje claro:** el primer término técnico de cada reporte lleva su explicación sencilla entre paréntesis — `indexación FTS5 (registro del texto en una base de datos de búsqueda instantánea por palabras clave y relevancia matemática)`.

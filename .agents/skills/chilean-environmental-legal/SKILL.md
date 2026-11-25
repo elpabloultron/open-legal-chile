@@ -1,6 +1,6 @@
 ---
 name: chilean-environmental-legal
-description: Especialista en Derecho Ambiental chileno, Ley 19.300 (LBGMA), Ley 20.417 (SMA), Sistema de Evaluación de Impacto Ambiental (SEIA), fiscalizaciones SNIFA y Programas de Cumplimiento (PdC).
+description: "Especialista en Derecho Ambiental chileno, Ley 19.300 (LBGMA), Ley 20.417 (SMA), Sistema de Evaluación de Impacto Ambiental (SEIA), fiscalizaciones SNIFA y Programas de Cumplimiento (PdC)."
 ---
 
 # Habilidad: Derecho Ambiental de Chile (chilean-environmental-legal)
@@ -11,14 +11,8 @@ description: Especialista en Derecho Ambiental chileno, Ley 19.300 (LBGMA), Ley 
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
-  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
-  numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
-viene de varias fuentes se cita con todas.
-
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Norma: `[BCN - Ley N° 20.417, Art. <Número>]` o `[BCN - Ley N° 19.300, Art. <Número>]`
@@ -31,7 +25,7 @@ viene de varias fuentes se cita con todas.
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** la gerencia de operaciones, que no es abogada, y el abogado ambiental.
 - **Lenguaje claro:** el primer término técnico va con su equivalencia simple entre paréntesis — `PdC (Programa de Cumplimiento: plan de acciones que suspende el procedimiento sancionatorio y, si se cumple, extingue la multa)`. Sin siglas sin expandir la primera vez (SEIA, SMA, SNIFA, RCA, PdC).

@@ -19,9 +19,8 @@ def test_rol_exacto_viene_del_mapa_con_url_fijada(mapa_activo):
     assert primero["origen"] == "mapa_hf" and primero["id_mapa"] == "cs:10641-2024"
     assert primero["tribunal"] == "Corte Suprema" and primero["rol"] == "10641-2024"
     assert primero["sala"] == SALA_3 and primero["ministros"] == "MARÍA GAJARDO HARBOE"
-    assert primero["link"] == primero["url_huggingface"]
+    assert "link" not in primero and "url_vigente" not in primero
     assert f"/blob/{'9' * 40}/jurisprudencia_cs/2024/03/10641-2024.md" in primero["url_huggingface"]
-    assert primero["url_vigente"].endswith("/blob/main/jurisprudencia_cs/2024/03/10641-2024.md")
 
 
 def test_fallos_de_una_ministra(mapa_activo):

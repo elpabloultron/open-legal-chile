@@ -133,7 +133,6 @@ def formatear_cita(fuente: str, identificador: str, url: str = "", texto: str = 
         "texto": texto,
         "url": url,
         "fuente": fuente,
-        "cita_completa": f"{formato} {url}".strip(),
     }
 
 

@@ -5,12 +5,15 @@ o desde las variables del sistema operativo sin dependencias externas.
 """
 
 import base64
+import html
 import http.client
 import json
 import math
 import os
+import re
 import threading
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -161,6 +164,21 @@ def tiempos_resumen() -> Dict[str, Dict[str, float]]:
 def cache_fresco(ruta: str, ttl_segundos: float) -> bool:
     """¿La copia local existe y está dentro del TTL? (el mtime es la fecha de descarga)."""
     return os.path.exists(ruta) and (time.time() - os.path.getmtime(ruta)) < ttl_segundos
+
+
+def sin_tildes(texto: str) -> str:
+    """Elimina marcas de acentuación diacrítica para comparaciones tolerantes a tildes."""
+    return "".join(c for c in unicodedata.normalize("NFD", texto or "") if unicodedata.category(c) != "Mn")
+
+
+def texto_plano(trozo: str) -> str:
+    """HTML -> texto: sin etiquetas, sin entidades (&Oacute;), sin espacios repetidos."""
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", trozo or ""))).strip()
+
+
+def aviso_conector(titulo: str, mensaje: str) -> Dict[str, Any]:
+    """Aviso estructurado cuando una fuente no respondió o no trajo ítems."""
+    return {"tipo": "aviso", "titulo": titulo, "mensaje": mensaje}
 
 
 def leer_json_si_se_puede(ruta: str) -> Optional[Any]:

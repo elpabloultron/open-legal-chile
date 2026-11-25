@@ -13,14 +13,9 @@ ESPERA_MAPA_INSTALAR = 120.0
 
 
 def _refrescar() -> None:
-    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores).
-
-    Corre en cada despacho: los bloques movidos usan los mismos objetos vivos del servidor,
-    incluidas las sustituciones que hagan las pruebas con monkeypatch."""
-    from config import servidor_actual
-    _m = servidor_actual()
-    _g = globals()
-    _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
+    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores)."""
+    from servidor import refrescar_globals
+    refrescar_globals(globals(), _PROPIOS, _DEFAULTS_LAZY)
 
 
 TOOLS = [
@@ -47,7 +42,7 @@ TOOLS = [
     },
     {
         "name": "skills_listar",
-        "description": "Lista las 18 skills jurídicas y los 19 agentes autónomos reales del producto, con su título.",
+        "description": "Lista las 21 skills jurídicas y los 19 agentes autónomos reales del producto, con su título.",
         "inputSchema": {"type": "object", "properties": {}}
     },
     {
@@ -93,7 +88,7 @@ TOOLS = [
             "type": "object",
             "properties": {
                 "consulta": {"type": "string", "description": "Descripción de la tarea jurídica o palabra clave (ej. 'estudio de títulos CBR', 'sanción SMA ruido', 'comparar versiones ley')"},
-                "limite": {"type": "integer", "description": "Máximo de herramientas sugeridas (por defecto 6)", "default": 6}
+                "limite": {"type": "integer", "description": "Máximo de herramientas sugeridas", "default": 6}
             },
             "required": ["consulta"]
         }
@@ -218,8 +213,11 @@ def despachar(name: str, args: dict) -> Any:
         recomendadas_jev: list[str] = []
         materia_detectada = "general"
         try:
-            from legal_open_jev import LegalOpenJevEngine
-            triaje = LegalOpenJevEngine().evaluate_choice(consulta, max_tools=limite)
+            global _JEV_ENGINE
+            if _JEV_ENGINE is None:
+                from legal_open_jev import LegalOpenJevEngine
+                _JEV_ENGINE = LegalOpenJevEngine()
+            triaje = _JEV_ENGINE.evaluate_choice(consulta, max_tools=limite)
             recomendadas_jev = list(getattr(triaje, "herramientas_recomendadas", []) or [])
             materia_detectada = str(getattr(triaje, "materia", "general"))
         except Exception:  # noqa: BLE001
@@ -278,4 +276,9 @@ def despachar(name: str, args: dict) -> Any:
     return None
 
 
+from servidor import crear_proxies
+
+_JEV_ENGINE: Any = None
 _PROPIOS = frozenset(globals())
+_DEFAULTS_LAZY = crear_proxies("_listar_skills", "enviar_progreso")
+globals().update(_DEFAULTS_LAZY)

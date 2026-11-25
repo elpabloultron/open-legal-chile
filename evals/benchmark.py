@@ -7,9 +7,8 @@ Evalúa las respuestas de cualquier modelo de lenguaje contra el ordenamiento ju
 """
 
 import os
-import sys
 import json
-from typing import Dict, Any, List
+from typing import Dict, Any
 
 def evaluate_response(test_case: Dict[str, Any], response_text: str) -> Dict[str, Any]:
     text_lower = response_text.lower()

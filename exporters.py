@@ -7,7 +7,6 @@ contratos PPA y cartas de despido en formatos estándares para tribunales chilen
 from __future__ import annotations
 
 import os
-import re
 import html
 import json
 from datetime import datetime, date
@@ -41,39 +40,6 @@ DEMANDANTE      : {demandante.upper()} (RUT: {rut_dte})
 ABOGADO PATROC. : {abogado.upper()} (RUT: {rut_abg})
 DEMANDADO       : {demandado.upper()} (RUT: {rut_ddo})
 """.strip()
-
-    @staticmethod
-    def format_presuma_recurso_proteccion(
-        tribunal: str,
-        recurrente_nombre: str,
-        recurrente_run: str,
-        recurrente_domicilio: str,
-        recurrente_email: str,
-        recurrido_nombre: str,
-        recurrido_rut: Optional[str] = None,
-        recurrido_domicilio: Optional[str] = None,
-        recurrido_email: Optional[str] = None,
-        representante_legal: Optional[str] = None,
-        representado_nombre: Optional[str] = None,
-        representado_run: Optional[str] = None,
-        quinto_otrosi_titulo: Optional[str] = None
-    ) -> Dict[str, str]:
-        """Formatea la presuma y suma para Recursos de Protección conforme a la OJV."""
-        return RecursoProteccionEngine.format_presuma_recurso_proteccion(
-            tribunal=tribunal,
-            recurrente_nombre=recurrente_nombre,
-            recurrente_run=recurrente_run,
-            recurrente_domicilio=recurrente_domicilio,
-            recurrente_email=recurrente_email,
-            recurrido_nombre=recurrido_nombre,
-            recurrido_rut=recurrido_rut,
-            recurrido_domicilio=recurrido_domicilio,
-            recurrido_email=recurrido_email,
-            representante_legal=representante_legal,
-            representado_nombre=representado_nombre,
-            representado_run=representado_run,
-            quinto_otrosi_titulo=quinto_otrosi_titulo
-        )
 
     @classmethod
     def export_brief(

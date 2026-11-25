@@ -1357,34 +1357,6 @@ if __name__ == "__main__":
     main()
 
 
-def estado_huggingface(repo_id: str = "pablobenavidesj/doctrina-jurisprudencia-chile") -> dict:
-    """Comprueba la conexión con Hugging Face sin publicar nada.
-
-    Devuelve la cuenta, el rol del token y si el dataset existe. Nunca devuelve el token.
-    """
-    token = resolver_token_hf()
-    if not token:
-        return {"conectado": False,
-                "falta": f"no hay token: guardalo en {ARCHIVO_TOKEN} (permisos 0600)",
-                "como": "printf '%s' 'hf_...' > ~/.openlegal/hf_token && chmod 600 ~/.openlegal/hf_token"}
-    try:
-        import importlib
-        hf = importlib.import_module("huggingface_hub")
-        api = hf.HfApi(token=token)
-        quien = api.whoami()
-        cuenta = quien.get("name") or (quien.get("auth") or {}).get("accessToken", {}).get("displayName")
-        rol = ((quien.get("auth") or {}).get("accessToken") or {}).get("role")
-        try:
-            datos = api.dataset_info(repo_id)
-            existe, archivos = True, len(getattr(datos, "siblings", []) or [])
-        except Exception:
-            existe, archivos = False, 0
-        return {"conectado": True, "cuenta": cuenta, "rol_del_token": rol,
-                "dataset": repo_id, "existe": existe, "archivos": archivos}
-    except Exception as e:
-        return {"conectado": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
-
-
 def _normalizar_para_buscar(texto: str) -> str:
     """Baja los acentos sin cambiar el largo: las posiciones siguen sirviendo sobre el texto original."""
     return texto.translate(str.maketrans("áéíóúüñÁÉÍÓÚÜÑ", "aeiouunAEIOUUN"))
@@ -1743,24 +1715,47 @@ def _descargar_trozo_hf(archivo: str, repo_id: str, tokens: Optional[List[str]] 
 def _extractos_hf(texto: str, tokens: List[str], ancho: int = 400, maximo: int = 3) -> List[str]:
     """Devuelve hasta `maximo` pasajes del texto alrededor de los términos buscados.
 
-    Busca sin acentos («simulacion» encuentra «simulación») pero devuelve el texto original.
+    Busca sin acentos («simulacion» encuentra «simulación»), limpia backspaces/frontmatter YAML
+    y evita ventanas solapadas repetitivas; devuelve el texto original.
     """
-    piezas: List[str] = []
-    bajo = _normalizar_para_buscar(texto).lower()
-    for token in tokens:
-        t = _normalizar_para_buscar(token).lower().strip()
-        if len(t) < 3:
-            continue
-        pos = bajo.find(t)
-        while pos >= 0 and len(piezas) < maximo:
-            inicio = max(0, pos - ancho // 2)
-            pasaje = re.sub(r"\s+", " ", texto[inicio:pos + ancho]).strip()
-            if pasaje and pasaje not in piezas:
-                piezas.append(pasaje)
-            pos = bajo.find(t, pos + len(t))
-        if len(piezas) >= maximo:
-            break
-    return piezas
+    limpio = (texto or "").replace("\x08", "")
+    cuerpo = limpio
+    if limpio.startswith("---\n"):
+        fin_fm = limpio.find("\n---\n", 4)
+        if fin_fm != -1 and limpio[fin_fm + 5:].strip():
+            cuerpo = limpio[fin_fm + 5:]
+
+    def _buscar_en(fuente: str) -> List[str]:
+        piezas: List[str] = []
+        ventanas: List[Tuple[int, int]] = []
+        bajo = _normalizar_para_buscar(fuente).lower()
+        salto = max(ancho, 1)
+        for token in tokens:
+            t = _normalizar_para_buscar(token).lower().strip()
+            if len(t) < 3:
+                continue
+            pos = bajo.find(t)
+            while pos >= 0 and len(piezas) < maximo:
+                inicio = max(0, pos - ancho // 2)
+                fin = min(len(fuente), pos + ancho)
+                solapada = any(
+                    min(fin, v_fin) - max(inicio, v_ini) > (fin - inicio) * 0.5
+                    for v_ini, v_fin in ventanas if fin > inicio
+                )
+                if not solapada:
+                    pasaje = re.sub(r"\s+", " ", fuente[inicio:fin]).strip()
+                    if pasaje and pasaje not in piezas:
+                        piezas.append(pasaje)
+                        ventanas.append((inicio, fin))
+                pos = bajo.find(t, pos + max(len(t), salto))
+            if len(piezas) >= maximo:
+                break
+        return piezas
+
+    encontradas = _buscar_en(cuerpo)
+    if not encontradas and cuerpo is not limpio:
+        encontradas = _buscar_en(limpio)
+    return encontradas
 
 
 def _clasificar_tipo_hf(f: str) -> str:

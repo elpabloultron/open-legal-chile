@@ -1,40 +1,33 @@
 """
-Pruebas para el módulo profundo de registro estatal y modelos de dominio.
+Pruebas del registro estatal perezoso (`_RegistroEstatalLazy`) y caché SQLite de `busqueda_universal`.
 """
 
-from domain.models import NormaBCN, DictamenCGR, DoctrinaDT, PresumaOJV, EscritoOJV
-from connectors.registry import StateRegistry
+import mcp_server
 
-def test_domain_models():
-    norma = NormaBCN(tipo_norma="Ley", numero=21643, titulo="Ley Karin", articulo="2")
-    assert norma.numero == 21643
-    assert norma.articulo == "2"
 
-    presuma = PresumaOJV(
-        procedimiento="ORDINARIO",
-        materia="RESOLUCION DE CONTRATO",
-        demandante="TITULAR",
-        rut_demandante="XX.XXX.XXX-X",
-        abogado_patrocinante="ABOGADO",
-        rut_abogado="XX.XXX.XXX-X",
-        demandado="DEMANDADO",
-        rut_demandado="76.XXX.XXX-X"
-    )
-    escrito = EscritoOJV(
-        presuma=presuma,
-        tribunal="S.J.L. EN LO CIVIL",
-        comparecencia="COMPARECIENTE...",
-        hechos="1. Hechos...",
-        derecho="Art. 1545...",
-        peticiones_concretas="POR TANTO..."
-    )
-    assert escrito.presuma.procedimiento == "ORDINARIO"
-    assert escrito.tribunal == "S.J.L. EN LO CIVIL"
+def test_registro_estatal_lazy_no_instancia_hasta_acceder():
+    reg = mcp_server._RegistroEstatalLazy()
+    # Verificar que es un atributo válido sin disparar importación previa de conectores no pedidos
+    assert isinstance(mcp_server._registro_estatal(), mcp_server._RegistroEstatalLazy)
+    assert reg.db_path.endswith("openlegal_cache.db")
 
-def test_state_registry_search_all():
-    registry = StateRegistry()
-    res = registry.search_all("Ley Karin")
-    assert isinstance(res, dict)
-    assert "query" in res
-    assert "cgr" in res
-    assert "dt" in res
+
+def test_registro_estatal_cache_sqlite_ida_y_vuelta(tmp_path):
+    reg = mcp_server._RegistroEstatalLazy(db_path=str(tmp_path / "cache.db"))
+    payload = {"query": "ley karin", "dt": [{"titulo": "Dictamen N° 1"}]}
+    assert reg._get_cached("all", "ley karin") is None
+    reg._set_cached("all", "ley karin", payload)
+    assert reg._get_cached("all", "ley karin") == payload
+
+
+def test_busqueda_universal_registro_lazy(monkeypatch):
+    class _RegMock:
+        def search_all(self, consulta):
+            return {"query": consulta, "dt": [{"titulo": "ORD. 123", "url": "https://dt.gob.cl/123"}]}
+
+    monkeypatch.setattr(mcp_server, "_registro_estatal", lambda: _RegMock())
+    monkeypatch.setattr(mcp_server, "_hf_para_consulta", lambda q, lim=3: {"resultados": [], "citas": []})
+
+    res = mcp_server.handle_tool_call("busqueda_universal", {"consulta": "Ley Karin"})
+    assert res["resultados"]["query"] == "Ley Karin"
+    assert res["citas"][0]["formato"] == "[DT - ORD. 123]"

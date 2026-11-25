@@ -16,6 +16,8 @@ from typing import List, Dict, Any, Optional
 
 try:
     import pymupdf
+    if hasattr(pymupdf, "set_messages"):
+        pymupdf.set_messages(stream=sys.stderr)
 except ImportError:
     pymupdf = None  # type: ignore[assignment]
 

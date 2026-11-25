@@ -1,6 +1,6 @@
 ---
 name: chilean-contract-legal
-description: Especialista en contratos y derecho comercial chileno: revisión de contratos de proveedores, triage de acuerdos de confidencialidad (NDA), registro de renovaciones, cláusula penal, Ley 19.496 (consumidor), Ley 21.719 (datos personales) y firma electrónica (Ley 19.799).
+description: "Especialista en contratos y derecho comercial chileno: revisión de contratos de proveedores, triage de acuerdos de confidencialidad (NDA), registro de renovaciones, cláusula penal, Ley 19.496 (consumidor), Ley 21.719 (datos personales) y firma electrónica (Ley 19.799)."
 ---
 
 # Habilidad: Contratos y Derecho Comercial de Chile (chilean-contract-legal)
@@ -13,14 +13,8 @@ description: Especialista en contratos y derecho comercial chileno: revisión de
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
-  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
-  numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
-viene de varias fuentes se cita con todas.
-
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Código Civil: `[BCN - Código Civil, Art. <Número>]`
@@ -39,7 +33,7 @@ viene de varias fuentes se cita con todas.
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** el abogado de contratos y el dueño del negocio o la contraparte comercial, que no son abogados.
 - **Lenguaje claro:** el primer término técnico de cada memo va con su equivalencia simple entre paréntesis — `cláusula penal (monto fijo que se paga si se incumple, sin tener que probar el daño)`. Sin siglas sin expandir la primera vez (NDA, PPA, B2B).

@@ -5,13 +5,7 @@ las Guías de Buenas Prácticas Judiciales y Materiales de Formación de la Acad
 """
 
 import os
-import re
-import json
-import sqlite3
-import urllib.request
-import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import safe_urlopen
 
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "doctrina_raw", "academia_judicial")
 DB_PATH = os.path.join(os.path.dirname(__file__), "doctrina.db")
@@ -172,79 +166,3 @@ class AcademiaJudicialClient:
                 matches.append(g)
 
         return matches
-
-    def indexar_en_doctrina_db(self) -> int:
-        """Indexa todas las guías de la Academia Judicial en la base de datos FTS5 de doctrina."""
-        if not os.path.exists(self.db_path):
-            return 0
-
-        total_insertadas = 0
-        try:
-            conn = sqlite3.connect(self.db_path)
-            cur = conn.cursor()
-
-            for g in GUIAS_ACADEMIA_JUDICIAL:
-                obra = f"Guía Judicial: {g['titulo']}"
-                institucion = g["titulo"]
-                definicion = g["descripcion"]
-                contenido = (
-                    f"Publicación Oficial de la Academia Judicial de Chile. "
-                    f"Fija los estándares de actuación forense y resolución judicial aplicados en tribunales: {g['descripcion']}"
-                )
-                operativa = f"Aplicable en audiencias y resoluciones de {g['materia']} conforme al ordenamiento procesal chileno."
-                concordancias = f"Academia Judicial de Chile, {g['url_pdf']}"
-
-                # Verificar si ya existe
-                cur.execute("SELECT id FROM doctrina_instituciones WHERE obra = ?", (obra,))
-                if not cur.fetchone():
-                    cur.execute(
-                        """INSERT INTO doctrina_instituciones 
-                        (area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-                        ("Academia Judicial", "Academia Judicial de Chile", obra, g["materia"], institucion, definicion, contenido, operativa, concordancias, "Estándar Jurisdiccional", g["url_pdf"], len(contenido.split()))
-                    )
-                    rowid = cur.lastrowid
-                    cur.execute(
-                        """INSERT INTO doctrina_fts (rowid, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, area, autor, obra)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-                        (rowid, institucion, definicion, contenido, operativa, concordancias, "Estándar Jurisdiccional", "Academia Judicial", "Academia Judicial de Chile", obra)
-                    )
-                    total_insertadas += 1
-
-            conn.commit()
-            conn.close()
-        except Exception as e:
-            print(f"[Aviso] No se pudo indexar en doctrina.db: {e}")
-
-        return total_insertadas
-
-    def generar_markdown_guia(self, guia_id: str) -> Optional[str]:
-        """Genera un archivo Markdown enriquecido para una guía de la Academia Judicial en doctrina_raw/."""
-        guia = next((g for g in GUIAS_ACADEMIA_JUDICIAL if g["id"] == guia_id), None)
-        if not guia:
-            return None
-
-        filepath = os.path.join(self.cache_dir, f"{guia_id}.md")
-        content = (
-            f"---\n"
-            f"id: {guia['id']}\n"
-            f"titulo: \"{guia['titulo']}\"\n"
-            f"autor: \"Academia Judicial de Chile\"\n"
-            f"materia: \"{guia['materia']}\"\n"
-            f"fecha: \"{guia['fecha']}\"\n"
-            f"fuente: \"{guia['url_pdf']}\"\n"
-            f"---\n\n"
-            f"# {guia['titulo']}\n\n"
-            f"**Publicación Oficial de la Academia Judicial de Chile**\n\n"
-            f"### Materia: {guia['materia']} | Fecha: {guia['fecha']}\n\n"
-            f"## Resumen Ejecutivo de Práctica Judicial\n\n"
-            f"{guia['descripcion']}\n\n"
-            f"## Consulta y Descarga del Documento Original\n\n"
-            f"El documento íntegro en formato PDF oficial se encuentra disponible en:\n"
-            f"[{guia['titulo']}]({guia['url_pdf']})\n"
-        )
-
-        with open(filepath, "w", encoding="utf-8") as f:
-            f.write(content)
-
-        return filepath

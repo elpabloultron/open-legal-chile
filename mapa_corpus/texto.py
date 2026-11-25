@@ -8,15 +8,9 @@ import unicodedata
 from datetime import date
 from typing import Any, Dict, Optional, Tuple
 
-from citas_legales import normalizar_texto_juridico
-
 _MESES = {"enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6, "julio": 7,
           "agosto": 8, "septiembre": 9, "setiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12}
 _RE_VINETA = re.compile(r"\*\*(?P<k>[^*:]{1,60}):\*\*\s*(?P<v>.*?)(?=\s*·\s*\*\*[^*:]{1,60}:\*\*|$)")
-
-
-def normalizar_cuerpo(texto: str) -> str:
-    return normalizar_texto_juridico(texto)
 
 
 def leer_front_matter(texto: str) -> Tuple[Dict[str, Any], str]:

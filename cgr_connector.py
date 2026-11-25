@@ -369,72 +369,21 @@ class CGRClient:
         ids_o_docs: List[Any],
         tema_relevante: Optional[str] = None,
         convertir_a_md: bool = True,
-        descargar_formato: Optional[str] = None
+        descargar_formato: Optional[str] = None,
     ) -> Dict[str, Any]:
-        """
-        Pipeline unificado para dictámenes de Contraloría:
-        1. Resuelve documentos (busca texto íntegro).
-        2. Convierte a Markdown Canónico (dictamen2md).
-        3. Ingesta en LegalGraphify.
-        4. Desglosa y rankea consideraciones con ResolucionesParserEngine.
-        """
-        from resolucion_administrativa2md import convertir_lote_dictamenes
-        from resoluciones_parser import ResolucionesParserEngine
-        from legal_graphify import LegalGraphifyEngine
+        """Pipeline unificado para dictámenes de Contraloría (MD + grafo + análisis)."""
+        from resoluciones_parser import procesar_y_graficar_lote
 
-        docs_procesar = []
-        no_encontrados = []
-        for item in ids_o_docs:
-            if isinstance(item, str):
-                doc_obj = self.get_dictamen_integral(item, descargar_formato=descargar_formato)
-                if doc_obj.get("error"):   # no se convierte ni se grafica un error como si fuera un dictamen
-                    no_encontrados.append({"id": item, **doc_obj})
-                    continue
-                docs_procesar.append(doc_obj)
-            elif isinstance(item, dict):
-                docs_procesar.append(item)
-
-        # Conversión a Markdown Canónico
-        rutas_md = []
-        if convertir_a_md:
-            try:
-                rutas_md = [str(p) for p in convertir_lote_dictamenes(docs_procesar)]
-                for i, r_path in enumerate(rutas_md):
-                    if i < len(docs_procesar):
-                        docs_procesar[i]["ruta_md"] = r_path
-            except Exception:
-                pass
-
-        # Ingesta en LegalGraphify
-        info_grafo = {}
-        try:
-            graph_engine = LegalGraphifyEngine()
-            insumos = rutas_md if rutas_md else docs_procesar
-            info_grafo = graph_engine.ingerir_lote_dictamenes(insumos, guardar_disco=False)
-        except Exception as e:
-            info_grafo = {"error": f"Error integrando con LegalGraphify: {str(e)}"}
-
-        # Análisis y citación canónica
-        parser_engine = ResolucionesParserEngine()
-        analisis = parser_engine.analizar_lote_resoluciones(docs_procesar, tema_relevante=tema_relevante)
-
-        return {
-            "organismo": "CGR",
-            "total_dictamenes": len(docs_procesar),
-            "no_encontrados": no_encontrados,
-            "tema_relevante": tema_relevante or "General",
-            "citas_destacadas": analisis.get("citas_destacadas", []),
-            "grafo_impacto": {
-                "nodos_nuevos": info_grafo.get("nodos_nuevos_totales", 0),
-                "enlaces_nuevos": info_grafo.get("enlaces_nuevos_totales", 0),
-                "grafo_total": info_grafo.get("grafo", {})
-            },
-            "archivos_generados": {
-                "markdown": rutas_md,
-                "descargas_oficiales": [d.get("archivo_descargado") for d in docs_procesar if d.get("archivo_descargado")]
-            },
-            "detalle_dictamenes": analisis.get("documentos", [])
-        }
+        return procesar_y_graficar_lote(
+            ids_o_docs,
+            lambda item: self.get_dictamen_integral(item, descargar_formato=descargar_formato),
+            organismo="CGR",
+            clave_total="total_dictamenes",
+            clave_detalle="detalle_dictamenes",
+            tema_relevante=tema_relevante,
+            convertir_a_md=convertir_a_md,
+            filtrar_errores=True,
+        )
 
     def search_instructivos(self, query: str, page: int = 0) -> Dict[str, Any]:
         """Busca en los Instructivos y Circulares generales de la CGR."""

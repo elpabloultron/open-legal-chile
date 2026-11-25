@@ -9,7 +9,7 @@ def test_formato_oficial_de_cita():
     assert c["formato"] == "[BCN - Código Civil, Art. 1545]"
     assert c["texto"].startswith("Contrato")
     assert c["url"] == "https://bcn.cl/x"
-    assert c["cita_completa"].endswith("https://bcn.cl/x")
+    assert "cita_completa" not in c
 
 
 def test_bloque_de_fuentes_numerado():

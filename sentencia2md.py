@@ -5,32 +5,15 @@ en documentos Markdown estructurados, token-optimizados, con metadatos Frontmatt
 segmentación atómica de considerandos y normalización ortotipográfica (RAE/ASALE).
 """
 
-import os
 import re
 import pathlib
 import datetime as dt
 from typing import Any, Dict, List, Optional, Tuple
 
+from resolucion_administrativa2md import _escapar_yaml_str, _limpiar_texto
+
 BASE_DIR = pathlib.Path(__file__).resolve().parent
 DEFAULT_MD_DIR = BASE_DIR / "data" / "jurisprudencia_md"
-
-
-def _limpiar_texto(texto: str) -> str:
-    """Limpia saltos de línea excesivos y normaliza espacios en blanco."""
-    if not texto:
-        return ""
-    texto = re.sub(r"\r\n|\r", "\n", texto)
-    texto = re.sub(r"[ \t]+", " ", texto)
-    texto = re.sub(r"\n{3,}", "\n\n", texto)
-    return texto.strip()
-
-
-def _escapar_yaml_str(valor: Any) -> str:
-    """Escapa de forma segura cadenas para Frontmatter YAML."""
-    if valor is None:
-        return '""'
-    s = str(valor).strip().replace('"', '\\"')
-    return f'"{s}"'
 
 
 def segmentar_secciones_sentencia(texto_integral: str) -> Dict[str, Any]:

@@ -9,10 +9,11 @@ en un .docx con tipografía forense: Times New Roman 12, cuerpo justificado, hoj
 """
 from __future__ import annotations
 
+import functools
+import io
 import os
 import re
-import tempfile
-from typing import Any, Dict, Optional
+from typing import Any, Dict
 
 try:
     from docx import Document
@@ -27,6 +28,22 @@ except ImportError:
     Pt = None  # type: ignore[misc,assignment]
     RGBColor = None  # type: ignore[misc,assignment]
     _DOCX_DISPONIBLE = False
+
+
+@functools.lru_cache(maxsize=1)
+def qr_institucional_png() -> bytes:
+    """Genera y cachea en memoria los bytes PNG del código QR institucional de Open Legal Chile."""
+    try:
+        import qrcode
+        qr = qrcode.QRCode(version=1, box_size=3, border=1)
+        qr.add_data("https://elpabloultron.github.io/open-legal-chile/")
+        qr.make(fit=True)
+        img = qr.make_image(fill_color="black", back_color="white")
+        buf = io.BytesIO()
+        img.save(buf, format="PNG")
+        return buf.getvalue()
+    except Exception:
+        return b""
 
 
 class WordDossierCompiler:
@@ -59,8 +76,8 @@ class WordDossierCompiler:
         documento.save(output_docx_path)
         return {"ok": True, "ruta": output_docx_path, "caracteres": len(markdown_content)}
 
-    @classmethod
-    def _configurar_estilos(cls, documento: Any) -> None:
+    @staticmethod
+    def _configurar_estilos(documento: Any) -> None:
         """Configura la tipografía forense formal: Times New Roman, color negro estricto y espaciado armónico sin saltos gigantes."""
         if Pt is None or RGBColor is None or WD_ALIGN_PARAGRAPH is None:
             return
@@ -93,23 +110,8 @@ class WordDossierCompiler:
                 st.paragraph_format.space_before = Pt(pt_before)
                 st.paragraph_format.space_after = Pt(pt_after)
 
-    @classmethod
-    def _generar_qr_institucional(cls) -> Optional[str]:
-        """Genera un archivo PNG temporal con el código QR institucional de Open Legal Chile."""
-        try:
-            import qrcode
-            qr = qrcode.QRCode(version=1, box_size=3, border=1)
-            qr.add_data("https://elpabloultron.github.io/open-legal-chile/")
-            qr.make(fit=True)
-            img = qr.make_image(fill_color="black", back_color="white")
-            tmp_qr = os.path.join(tempfile.gettempdir(), "openlegal_qr.png")
-            img.save(tmp_qr)
-            return tmp_qr
-        except Exception:
-            return None
-
-    @classmethod
-    def _configurar_pagina(cls, documento: Any, tamano: str) -> None:
+    @staticmethod
+    def _configurar_pagina(documento: Any, tamano: str) -> None:
         """Hoja forense: A4 (por defecto) u oficio chileno; con membrete, pie institucional y QR de Open Legal Chile."""
         dimensiones = {"a4": (21.0, 29.7), "oficio": (21.59, 33.02)}
         ancho_cm, alto_cm = dimensiones.get(str(tamano).strip().lower(), dimensiones["a4"])
@@ -148,14 +150,14 @@ class WordDossierCompiler:
                     run.font.italic = True
                     run.font.color.rgb = RGBColor(110, 110, 110)
 
-                tmp_qr = cls._generar_qr_institucional()
-                if tmp_qr and os.path.exists(tmp_qr) and Cm is not None and Pt is not None:
+                qr_bytes = qr_institucional_png()
+                if qr_bytes and Cm is not None and Pt is not None:
                     qr_p = footer.add_paragraph()
                     qr_p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
                     qr_p.paragraph_format.space_before = Pt(1)
                     qr_p.paragraph_format.space_after = Pt(0)
                     qr_run = qr_p.add_run()
-                    qr_run.add_picture(tmp_qr, width=Cm(1.2), height=Cm(1.2))
+                    qr_run.add_picture(io.BytesIO(qr_bytes), width=Cm(1.2), height=Cm(1.2))
             except Exception:
                 pass
 

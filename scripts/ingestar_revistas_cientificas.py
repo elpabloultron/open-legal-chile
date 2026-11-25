@@ -196,6 +196,104 @@ REVISTAS: Dict[str, RevistaConfig] = {
             "recensiones", "cronica", "documentos", "obituario"
         },
     ),
+    "dacc_udec": RevistaConfig(
+        key="dacc_udec",
+        nombre="Derecho, Ambiente y Cambio Climático",
+        institucion="Facultad de Ciencias Jurídicas y Sociales, Universidad de Concepción",
+        oai_url="https://revistas.udec.cl/dacc/oai",
+        issn_print="3087-2642",
+        issn_elec="3087-2715",
+        prefix_cita="DACC-UdeC",
+        has_volume=False,
+        noise_titles={
+            "editorial", "presentacion", "indice", "sumario", "normas de publicacion",
+            "portada", "contraportada", "cubierta", "tabla de contenido"
+        },
+    ),
+    "rchd_uc": RevistaConfig(
+        key="rchd_uc",
+        nombre="Revista Chilena de Derecho",
+        institucion="Facultad de Derecho, Pontificia Universidad Católica de Chile",
+        oai_url="https://revistachilenadederecho.uc.cl/index.php/Rchd/oai",
+        issn_print="0716-0747",
+        issn_elec="0718-3437",
+        prefix_cita="RChD-UC",
+        has_volume=True,
+        noise_titles={
+            "editorial", "presentacion", "indice", "sumario", "normas editoriales",
+            "portada", "contraportada", "cubierta", "tabla de contenido", "recensiones"
+        },
+    ),
+    "rchdcp_uct": RevistaConfig(
+        key="rchdcp_uct",
+        nombre="Revista Chilena de Derecho y Ciencia Política",
+        institucion="Facultad de Ciencias Jurídicas, Económicas y Administrativas, Universidad Católica de Temuco",
+        oai_url="https://derechoycienciapolitica.uct.cl/index.php/RDCP/oai",
+        issn_print="0718-9389",
+        issn_elec="0719-2150",
+        prefix_cita="RChDCP-UCT",
+        has_volume=True,
+        noise_titles={
+            "editorial", "presentacion", "indice", "sumario", "normas de publicacion",
+            "portada", "contraportada", "cubierta", "tabla de contenido", "recensiones"
+        },
+    ),
+    "rchdp_udp": RevistaConfig(
+        key="rchdp_udp",
+        nombre="Revista Chilena de Derecho Privado",
+        institucion="Fundación Fernando Fueyo Laneri, Universidad Diego Portales",
+        oai_url="https://rchdp.udp.cl/index.php/rchdp/oai",
+        issn_print="0718-0233",
+        issn_elec="0718-8072",
+        prefix_cita="RChDP-UDP",
+        has_volume=False,
+        noise_titles={
+            "editorial", "presentacion", "indice", "sumario", "normas de publicacion",
+            "portada", "contraportada", "cubierta", "tabla de contenido", "recensiones"
+        },
+    ),
+    "rchdt_uchile": RevistaConfig(
+        key="rchdt_uchile",
+        nombre="Revista Chilena de Derecho y Tecnología",
+        institucion="Centro de Estudios en Derecho Informático, Facultad de Derecho, Universidad de Chile",
+        oai_url="https://rchdt.uchile.cl/index.php/RCHDT/oai",
+        issn_print="0719-2576",
+        issn_elec="0719-2584",
+        prefix_cita="RChDT-UChile",
+        has_volume=True,
+        noise_titles={
+            "editorial", "presentacion", "indice", "sumario", "normas de publicacion",
+            "portada", "contraportada", "cubierta", "tabla de contenido"
+        },
+    ),
+    "rdudec": RevistaConfig(
+        key="rdudec",
+        nombre="Revista de Derecho (Concepción)",
+        institucion="Facultad de Ciencias Jurídicas y Sociales, Universidad de Concepción",
+        oai_url="https://revistas.udec.cl/revista_de_derecho/oai",
+        issn_print="0303-9986",
+        issn_elec="0718-591X",
+        prefix_cita="RD-UdeC",
+        has_volume=True,
+        noise_titles={
+            "editorial", "presentacion", "indice", "sumario", "normas de publicacion",
+            "portada", "contraportada", "cubierta", "tabla de contenido", "recensiones"
+        },
+    ),
+    "rdpucv": RevistaConfig(
+        key="rdpucv",
+        nombre="Revista de Derecho de la Pontificia Universidad Católica de Valparaíso (Pro Jure)",
+        institucion="Escuela de Derecho, Pontificia Universidad Católica de Valparaíso",
+        oai_url="https://www.projurepucv.cl/index.php/rderecho/oai",
+        issn_print="0716-1883",
+        issn_elec="0718-6851",
+        prefix_cita="RD-PUCV",
+        has_volume=False,
+        noise_titles={
+            "editorial", "presentacion", "indice", "sumario", "normas de publicacion",
+            "portada", "contraportada", "cubierta", "tabla de contenido", "recensiones"
+        },
+    ),
 }
 
 
@@ -784,9 +882,9 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Ingesta masiva de revistas científicas jurídicas de Chile")
     parser.add_argument(
         "--revista",
-        choices=["rda_uchile", "rducn", "rduach", "rehj", "todas"],
+        choices=list(REVISTAS.keys()) + ["todas"],
         default="todas",
-        help="Revista científica a procesar o 'todas'"
+        help="Revista científica a procesar o 'todas'",
     )
     parser.add_argument("--skip-download", action="store_true", help="Omitir descarga si ya existen")
     parser.add_argument("--subir-hf", action="store_true", help="Subir a Hugging Face Hub al finalizar")

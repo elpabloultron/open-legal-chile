@@ -1,4 +1,5 @@
 """Herramientas forenses y pedagógicas (OCR, crítica, documentos, clínica, grados…)."""
+import os
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de mcp_server
@@ -20,14 +21,9 @@ if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de 
 
 
 def _refrescar() -> None:
-    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores).
-
-    Corre en cada despacho: los bloques movidos usan los mismos objetos vivos del servidor,
-    incluidas las sustituciones que hagan las pruebas con monkeypatch."""
-    from config import servidor_actual
-    _m = servidor_actual()
-    _g = globals()
-    _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
+    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores)."""
+    from servidor import refrescar_globals
+    refrescar_globals(globals(), _PROPIOS, _DEFAULTS_LAZY)
 
 
 TOOLS = [
@@ -188,7 +184,7 @@ TOOLS = [
                 "tribunal": {"type": "string", "description": "Corte de Apelaciones competente (ej. 'Ilustrísima Corte de Apelaciones de Santiago')"},
                 "recurrente": {
                     "type": "object",
-                    "description": "Datos del recurrente: nombre, run, domicilio, email, profesion_oficio, representado_nombre (opcional), representado_run (opcional)",
+                    "description": "Datos del recurrente: nombre, run, domicilio, email, profesion_oficio, representado_nombre (opcional), representado_run",
                     "properties": {
                         "nombre": {"type": "string", "description": "Nombre completo del recurrente"},
                         "run": {"type": "string", "description": "RUN del recurrente (ej. 12.345.678-9)"},
@@ -202,7 +198,7 @@ TOOLS = [
                 },
                 "recurrido": {
                     "type": "object",
-                    "description": "Datos de la recurrida: nombre, rut (opcional o 'se desconoce'), domicilio (opcional), email (opcional), representante_legal (opcional)",
+                    "description": "Datos de la recurrida: nombre, rut (opcional o 'se desconoce'), domicilio (opcional), email (opcional), representante_legal",
                     "properties": {
                         "nombre": {"type": "string", "description": "Nombre o razón social de la recurrida"},
                         "rut": {"type": "string", "description": "RUT de la recurrida, o 'se desconoce'"},
@@ -429,7 +425,7 @@ TOOLS = [
                     "description": "Lista de títulos con propietario, antecesor, anio, fojas, numero, conservador, modo_adquirir, etc.",
                     "items": {"type": "object"}
                 },
-                "anios_requeridos": {"type": "integer", "description": "Plazo mínimo en años para prescribir (por defecto 10)", "default": 10}
+                "anios_requeridos": {"type": "integer", "description": "Plazo mínimo en años para prescribir", "default": 10}
             },
             "required": ["inscripciones"]
         }
@@ -803,4 +799,12 @@ def despachar(name: str, args: dict) -> Any:
     return None
 
 
+from servidor import crear_proxies
+
 _PROPIOS = frozenset(globals())
+_DEFAULTS_LAZY = crear_proxies(
+    "LegalDocumentExporter", "arco_engine", "cbr_engine", "clinica_engine",
+    "compiler", "docket_engine", "exporter", "grado_engine", "inapi_engine",
+    "ocr_engine", "power_verifier", "word_compiler",
+)
+globals().update(_DEFAULTS_LAZY)

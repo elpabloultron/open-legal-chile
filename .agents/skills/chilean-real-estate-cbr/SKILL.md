@@ -1,6 +1,6 @@
 ---
 name: chilean-real-estate-cbr
-description: Especialista en Derecho Inmobiliario y Registral chileno: estudio de títulos decenal (10 años, Arts. 2510 y 2511 Código Civil), inscripciones en el Conservador de Bienes Raíces (CBR), hipotecas, servidumbres, gravámenes y validación de mandatos judiciales y civiles (Art. 7 CPC y Art. 2116 Código Civil).
+description: "Especialista en Derecho Inmobiliario y Registral chileno: estudio de títulos decenal (10 años, Arts. 2510 y 2511 Código Civil), inscripciones en el Conservador de Bienes Raíces (CBR), hipotecas, servidumbres, gravámenes y validación de mandatos judiciales y civiles (Art. 7 CPC y Art. 2116 Código Civil)."
 ---
 
 # Habilidad: Derecho Inmobiliario y Estudio de Títulos CBR (chilean-real-estate-cbr)
@@ -13,10 +13,8 @@ description: Especialista en Derecho Inmobiliario y Registral chileno: estudio d
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (informe de estudio de títulos, análisis registral, minuta de reparos, borrador de escritura): se entregan en **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que viene de varias fuentes se cita con todas.
+- **Documentos** (informe de estudio de títulos, análisis registral, minuta de reparos, borrador de escritura): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Norma legal: `[BCN - Código Civil, Art. <Número>]` o `[BCN - Código de Procedimiento Civil, Art. 7]`
@@ -36,7 +34,7 @@ En los dos casos: si no hay fuente identificable se dice «sin fuente verificabl
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** el comprador, inversionista o banco hipotecario que necesita saber si el inmueble se puede adquirir sin riesgo de evicción o nulidad, y el abogado revisor.
 - **Lenguaje claro:** el primer término técnico de cada informe va con su equivalencia simple entre paréntesis — `certificado de hipotecas y gravámenes (documento oficial del Conservador que acredita si la propiedad tiene deudas hipotecarias, embargos o prohibiciones de venta)`.

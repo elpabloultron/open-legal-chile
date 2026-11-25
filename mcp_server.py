@@ -5,12 +5,13 @@ para cualquier agente de IA (Antigravity/Gemini, Claude Code, Cursor, Codex)
 a través del protocolo estándar MCP sobre stdio (JSON-RPC 2.0).
 """
 
-import sys
+import contextlib
+import importlib
 import json
 import os
 import pathlib
+import sys
 import threading
-import contextlib
 from datetime import datetime
 
 # Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
@@ -18,7 +19,76 @@ _pkg_root = os.path.dirname(os.path.abspath(__file__))
 if _pkg_root not in sys.path:
     sys.path.insert(0, _pkg_root)
 
-from typing import Any, Dict, List, Optional, Union
+from typing import TYPE_CHECKING, Any, Dict, List, Optional
+
+if TYPE_CHECKING:  # pragma: no cover — tipos estáticos; en runtime se cargan perezosos en __getattr__
+    from academia_judicial_connector import AcademiaJudicialClient
+    from ambiental_connector import SMAClient
+    from bcn_connector import BCNClient
+    from cbr_titles import CBRTitleStudyEngine, JudicialPowerVerifier
+    from cgr_connector import CGRClient
+    from clinica_juridica import ClinicaJuridicaEngine
+    from cmf_connector import CMFClient
+    from cne_connector import CNEClient
+    from docket_watcher import DocketWatcherEngine
+    from docx_compiler import WordDossierCompiler
+    from dt_connector import DTClient
+    from examen_grado import ExamenGradoEngine
+    from exporters import LegalDocumentExporter
+    from forensic_ocr import ForensicOCREngine
+    from infoprobidad_connector import InfoProbidadClient
+    from legal_graphify import LegalGraphifyEngine
+    from notebooklm_connector import NotebookLMConnector
+    from online_library_sync import OnlineLibrarySyncManager
+    from panel_expertos_connector import PanelExpertosClient
+    from pdf_dossier_compiler import LegalDossierCompiler
+    from pjud_connector import PJUDClient
+    from privacidad_inapi import INAPIEngine, PrivacyARCOEngine
+    from sentencias_parser import ProveidosParser, SentenciaParserEngine
+    from sii_connector import SIIClient
+    from tdlc_connector import TDLCClient
+    from tribunales_ambientales_connector import TribunalesAmbientalesClient
+
+    case_intake: Any
+    grafo_vista: Any
+    CODIGOS: Dict[str, str]
+    detectar_normas: Any
+    formatear_cita: Any
+    search_doctrina: Any
+    doctrina_get_inst: Any
+    doctrina_list_obras: Any
+    build_quick_graph: Any
+    validar_rut: Any
+    consultar_ente: Any
+    bcn: BCNClient
+    cgr: CGRClient
+    dt: DTClient
+    cne: CNEClient
+    panel: PanelExpertosClient
+    cmf: CMFClient
+    sii: SIIClient
+    sma: SMAClient
+    tdlc: TDLCClient
+    pjud: PJUDClient
+    exporter: LegalDocumentExporter
+    ocr_engine: ForensicOCREngine
+    compiler: LegalDossierCompiler
+    word_compiler: WordDossierCompiler
+    nlm_client: NotebookLMConnector
+    infoprobidad_client: InfoProbidadClient
+    grado_engine: ExamenGradoEngine
+    docket_engine: DocketWatcherEngine
+    clinica_engine: ClinicaJuridicaEngine
+    arco_engine: PrivacyARCOEngine
+    inapi_engine: INAPIEngine
+    cbr_engine: CBRTitleStudyEngine
+    power_verifier: JudicialPowerVerifier
+    sentencia_engine: SentenciaParserEngine
+    proveidos_engine: ProveidosParser
+    ambientales_client: TribunalesAmbientalesClient
+    aj_client: AcademiaJudicialClient
+    library_sync_mgr: OnlineLibrarySyncManager
+    legal_graphify_engine: LegalGraphifyEngine
 
 # Configurar encoding seguro UTF-8
 try:
@@ -29,70 +99,118 @@ try:
 except Exception:
     pass
 
-from bcn_connector import BCNClient
-from cgr_connector import CGRClient
-from dt_connector import DTClient
-from cne_connector import CNEClient
-from panel_expertos_connector import PanelExpertosClient
-from cmf_connector import CMFClient
-from sii_connector import SIIClient
-from ambiental_connector import SMAClient
-from tdlc_connector import TDLCClient
-from pjud_connector import PJUDClient
-from exporters import LegalDocumentExporter
-from forensic_ocr import ForensicOCREngine
-from pdf_dossier_compiler import LegalDossierCompiler
-from docx_compiler import WordDossierCompiler
-from notebooklm_connector import NotebookLMConnector
-from infoprobidad_connector import InfoProbidadClient
-from grafo_vinculos import build_quick_graph
-from doctrina_connector import search_doctrina, get_institucion as doctrina_get_inst, list_obras as doctrina_list_obras
-from examen_grado import ExamenGradoEngine
-from docket_watcher import DocketWatcherEngine
-from clinica_juridica import ClinicaJuridicaEngine
-from privacidad_inapi import PrivacyARCOEngine, INAPIEngine
-from cbr_titles import CBRTitleStudyEngine, JudicialPowerVerifier
-from entes_publicos import validar_rut, consultar_ente
-from sentencias_parser import SentenciaParserEngine, ProveidosParser
-from tribunales_ambientales_connector import TribunalesAmbientalesClient
-from academia_judicial_connector import AcademiaJudicialClient
-from online_library_sync import OnlineLibrarySyncManager
-from legal_graphify import obtener_motor_compartido
-from citas_legales import CODIGOS, detectar_normas, formatear_cita
 from recursos import ruta_recurso
 
-# Inicializar clientes
-bcn = BCNClient()
-cgr = CGRClient()
-dt = DTClient()
-cne = CNEClient()
-panel = PanelExpertosClient()
-cmf = CMFClient()
-sii = SIIClient()
-sma = SMAClient()
-tdlc = TDLCClient()
-pjud = PJUDClient()
-exporter = LegalDocumentExporter()
-ocr_engine = ForensicOCREngine()
-compiler = LegalDossierCompiler()
-word_compiler = WordDossierCompiler()
-nlm_client = NotebookLMConnector()
-infoprobidad_client = InfoProbidadClient()
-grado_engine = ExamenGradoEngine()
-docket_engine = DocketWatcherEngine()
-clinica_engine = ClinicaJuridicaEngine()
-arco_engine = PrivacyARCOEngine()
-inapi_engine = INAPIEngine()
-cbr_engine = CBRTitleStudyEngine()
-power_verifier = JudicialPowerVerifier()
-sentencia_engine = SentenciaParserEngine()
-proveidos_engine = ProveidosParser()
-ambientales_client = TribunalesAmbientalesClient()
-aj_client = AcademiaJudicialClient()
-library_sync_mgr = OnlineLibrarySyncManager()
-# El motor del proceso: el mismo que usan corpus, ambiental y la vista del grafo, con la capa del
-# mapa del corpus cuando el cliente del mapa tiene una revisión lista (sin red en la consulta).
-legal_graphify_engine = obtener_motor_compartido()
+# Carga perezosa (PEP 562): evita importar PyMuPDF, markdown_pdf, networkx, python-docx y
+# conectores pesados durante el arranque/handshake MCP; se instancian y cachean en primer uso.
+_LAZY_LOCK = threading.RLock()
+_SPECS_LAZY: Dict[str, tuple[str, Optional[str], bool]] = {
+    "BCNClient": ("bcn_connector", "BCNClient", False),
+    "bcn": ("bcn_connector", "BCNClient", True),
+    "CGRClient": ("cgr_connector", "CGRClient", False),
+    "cgr": ("cgr_connector", "CGRClient", True),
+    "DTClient": ("dt_connector", "DTClient", False),
+    "dt": ("dt_connector", "DTClient", True),
+    "CNEClient": ("cne_connector", "CNEClient", False),
+    "cne": ("cne_connector", "CNEClient", True),
+    "PanelExpertosClient": ("panel_expertos_connector", "PanelExpertosClient", False),
+    "panel": ("panel_expertos_connector", "PanelExpertosClient", True),
+    "CMFClient": ("cmf_connector", "CMFClient", False),
+    "cmf": ("cmf_connector", "CMFClient", True),
+    "SIIClient": ("sii_connector", "SIIClient", False),
+    "sii": ("sii_connector", "SIIClient", True),
+    "SMAClient": ("ambiental_connector", "SMAClient", False),
+    "sma": ("ambiental_connector", "SMAClient", True),
+    "TDLCClient": ("tdlc_connector", "TDLCClient", False),
+    "tdlc": ("tdlc_connector", "TDLCClient", True),
+    "PJUDClient": ("pjud_connector", "PJUDClient", False),
+    "pjud": ("pjud_connector", "PJUDClient", True),
+    "LegalDocumentExporter": ("exporters", "LegalDocumentExporter", False),
+    "exporter": ("exporters", "LegalDocumentExporter", True),
+    "ForensicOCREngine": ("forensic_ocr", "ForensicOCREngine", False),
+    "ocr_engine": ("forensic_ocr", "ForensicOCREngine", True),
+    "LegalDossierCompiler": ("pdf_dossier_compiler", "LegalDossierCompiler", False),
+    "compiler": ("pdf_dossier_compiler", "LegalDossierCompiler", True),
+    "NotebookLMConnector": ("notebooklm_connector", "NotebookLMConnector", False),
+    "nlm_client": ("notebooklm_connector", "NotebookLMConnector", True),
+    "InfoProbidadClient": ("infoprobidad_connector", "InfoProbidadClient", False),
+    "infoprobidad_client": ("infoprobidad_connector", "InfoProbidadClient", True),
+    "ExamenGradoEngine": ("examen_grado", "ExamenGradoEngine", False),
+    "grado_engine": ("examen_grado", "ExamenGradoEngine", True),
+    "DocketWatcherEngine": ("docket_watcher", "DocketWatcherEngine", False),
+    "docket_engine": ("docket_watcher", "DocketWatcherEngine", True),
+    "ClinicaJuridicaEngine": ("clinica_juridica", "ClinicaJuridicaEngine", False),
+    "clinica_engine": ("clinica_juridica", "ClinicaJuridicaEngine", True),
+    "PrivacyARCOEngine": ("privacidad_inapi", "PrivacyARCOEngine", False),
+    "arco_engine": ("privacidad_inapi", "PrivacyARCOEngine", True),
+    "INAPIEngine": ("privacidad_inapi", "INAPIEngine", False),
+    "inapi_engine": ("privacidad_inapi", "INAPIEngine", True),
+    "CBRTitleStudyEngine": ("cbr_titles", "CBRTitleStudyEngine", False),
+    "cbr_engine": ("cbr_titles", "CBRTitleStudyEngine", True),
+    "JudicialPowerVerifier": ("cbr_titles", "JudicialPowerVerifier", False),
+    "power_verifier": ("cbr_titles", "JudicialPowerVerifier", True),
+    "SentenciaParserEngine": ("sentencias_parser", "SentenciaParserEngine", False),
+    "sentencia_engine": ("sentencias_parser", "SentenciaParserEngine", True),
+    "ProveidosParser": ("sentencias_parser", "ProveidosParser", False),
+    "proveidos_engine": ("sentencias_parser", "ProveidosParser", True),
+    "TribunalesAmbientalesClient": ("tribunales_ambientales_connector", "TribunalesAmbientalesClient", False),
+    "ambientales_client": ("tribunales_ambientales_connector", "TribunalesAmbientalesClient", True),
+    "AcademiaJudicialClient": ("academia_judicial_connector", "AcademiaJudicialClient", False),
+    "aj_client": ("academia_judicial_connector", "AcademiaJudicialClient", True),
+    "OnlineLibrarySyncManager": ("online_library_sync", "OnlineLibrarySyncManager", False),
+    "library_sync_mgr": ("online_library_sync", "OnlineLibrarySyncManager", True),
+    # El motor del proceso: el mismo que usan corpus, ambiental y la vista del grafo, con la capa del
+    # mapa del corpus cuando el cliente del mapa tiene una revisión lista (sin red en la consulta).
+    "obtener_motor_compartido": ("legal_graphify", "obtener_motor_compartido", False),
+    "legal_graphify_engine": ("legal_graphify", "obtener_motor_compartido", True),
+    "build_quick_graph": ("grafo_vinculos", "build_quick_graph", False),
+    "search_doctrina": ("doctrina_connector", "search_doctrina", False),
+    "doctrina_get_inst": ("doctrina_connector", "get_institucion", False),
+    "doctrina_list_obras": ("doctrina_connector", "list_obras", False),
+    "validar_rut": ("entes_publicos", "validar_rut", False),
+    "consultar_ente": ("entes_publicos", "consultar_ente", False),
+    "CODIGOS": ("citas_legales", "CODIGOS", False),
+    "detectar_normas": ("citas_legales", "detectar_normas", False),
+    "formatear_cita": ("citas_legales", "formatear_cita", False),
+    "case_intake": ("case_intake", None, False),
+    "grafo_vista": ("grafo_vista", None, False),
+}
+
+
+def __getattr__(name: str) -> Any:
+    if name in ("WordDossierCompiler", "word_compiler"):
+        with _LAZY_LOCK:
+            g = globals()
+            if name in g:
+                return g[name]
+            from docx_compiler import WordDossierCompiler
+            word_compiler = WordDossierCompiler()
+            g["WordDossierCompiler"] = WordDossierCompiler
+            g["word_compiler"] = word_compiler
+            return g[name]
+    spec = _SPECS_LAZY.get(name)
+    if spec is None:
+        raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+    mod_name, attr_name, instanciar = spec
+    with _LAZY_LOCK:
+        g = globals()
+        if name in g:
+            return g[name]
+        modulo = importlib.import_module(mod_name)
+        objeto: Any = modulo if attr_name is None else getattr(modulo, attr_name)
+        if instanciar:
+            if attr_name and attr_name != "obtener_motor_compartido" and attr_name not in g:
+                g[attr_name] = objeto
+            valor = objeto()
+        else:
+            valor = objeto
+        g[name] = valor
+        return valor
+
+
+def _obtener(name: str) -> Any:
+    g = globals()
+    return g[name] if name in g else __getattr__(name)
 
 
 def _precalentar_hf() -> None:
@@ -119,7 +237,7 @@ def _precalentar_mapa() -> None:
     if not cliente.habilitado:
         return
     cliente.asegurar(bloquear=True, timeout=ESPERA_MAPA_SEGUNDOS)
-    subir = getattr(legal_graphify_engine, "subir_capa_mapa", None)
+    subir = getattr(_obtener("legal_graphify_engine"), "subir_capa_mapa", None)
     if callable(subir):
         subir()
 
@@ -133,7 +251,7 @@ def precalentar_caches() -> None:
     artefacto o la red, se sigue — y las herramientas lo dirán al usarse.
     """
     try:
-        legal_graphify_engine.cargar_grafo_json()
+        _obtener("legal_graphify_engine").cargar_grafo_json()
     except Exception:  # noqa: BLE001 — un precalentado caído no puede tumbar el server
         pass
 
@@ -185,9 +303,6 @@ def enviar_progreso(mensaje: str, avance: int = 0, total: Optional[int] = None) 
         out.flush()
 
 
-import case_intake
-import grafo_vista
-
 # ── Herramientas: los esquemas y el despacho viven en servidor/ (un módulo por dominio) ──
 # Acá quedan el protocolo, los helpers compartidos y el ensamblado; el orden original de
 # listado se conserva porque los harnesses lo ven.
@@ -196,6 +311,7 @@ from servidor import corpus as _corpus, forense as _forense, suite as _suite
 
 _DOMINIOS = (_ambiental, _corpus, _conectores, _forense, _casos, _suite)
 _DOMINIOS_DESPACHO = tuple(_d.despachar for _d in _DOMINIOS)
+_DESPACHO_POR_HERRAMIENTA: Dict[str, Any] = {t["name"]: _d.despachar for _d in _DOMINIOS for t in _d.TOOLS}
 _POR_NOMBRE: Dict[str, Dict[str, Any]] = {t["name"]: t for _d in _DOMINIOS for t in _d.TOOLS}
 ORDEN_ORIGEN: List[str] = [
     "grafo_ver_corpus",
@@ -325,7 +441,8 @@ def _con_avisos(resultado):
     corrupto y se reconstruyó, o la consulta se resolvió por texto del corpus y no por
     nombre de institución).
     """
-    avisos = list(getattr(legal_graphify_engine, "advertencias", []) or [])
+    motor = globals().get("legal_graphify_engine")
+    avisos = list(getattr(motor, "advertencias", []) or []) if motor is not None else []
     if avisos and isinstance(resultado, dict) and "error" not in resultado:
         return {**resultado, "advertencias": avisos}
     return resultado
@@ -343,14 +460,15 @@ def _hf_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
 def _doctrina_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
     """La doctrina canónica del corpus, con su corchete y su texto."""
     try:
-        resultados = search_doctrina(query=query, limit=lim) or []
+        resultados = _obtener("search_doctrina")(query=query, limit=lim) or []
         citas = []
+        fmt = _obtener("formatear_cita")
         for r in resultados:
             texto = str(r.get("definicion") or r.get("snippet") or "")[:900]
             if not texto:
                 continue
-            citas.append(formatear_cita("Doctrina", f"{r.get('autor') or 's/d'}, {r.get('obra') or 'obra'}",
-                                        url=r.get("fuente_huggingface", ""), texto=texto))
+            citas.append(fmt("Doctrina", f"{r.get('autor') or 's/d'}, {r.get('obra') or 'obra'}",
+                             url=r.get("fuente_huggingface", ""), texto=texto))
         return {"resultados": resultados, "citas": citas}
     except Exception as e:  # noqa: BLE001
         return {"resultados": [], "citas": [], "error": str(e)[:160]}
@@ -367,25 +485,26 @@ def _url_codigo_bcn(obra: str) -> str:
 def _normas_para_consulta(query: str) -> List[Dict[str, Any]]:
     """Trae el texto literal de las normas mencionadas en la consulta (códigos y leyes)."""
     try:
-        normas = detectar_normas(query)[:3]
+        normas = _obtener("detectar_normas")(query)[:3]
     except Exception:  # noqa: BLE001
         return []
     salida: List[Dict[str, Any]] = []
+    cliente_bcn = _obtener("bcn")
     for norma in normas:
         try:
             if norma["familia"] == "codigo":
-                dato = bcn.get_codigo(norma["obra"], norma["articulo"])
+                dato = cliente_bcn.get_codigo(norma["obra"], norma["articulo"])
                 if dato.get("texto"):
                     dato["url"] = _url_codigo_bcn(norma["obra"])
                 salida.append(dato)
             else:
                 numero = int(norma["numero"])
                 if norma.get("articulo"):
-                    dato = bcn.get_articulo_ley(numero, norma["articulo"])
+                    dato = cliente_bcn.get_articulo_ley(numero, norma["articulo"])
                     dato["url"] = f"https://www.bcn.cl/leychile/navegar?idLey={numero}"
                     dato["ley_numero"] = numero
                 else:
-                    dato = bcn.get_ley(numero)
+                    dato = cliente_bcn.get_ley(numero)
                     dato["url"] = f"https://www.bcn.cl/leychile/navegar?idNorma={dato.get('normaId', '')}"
                 salida.append(dato)
         except Exception as e:  # noqa: BLE001
@@ -395,13 +514,13 @@ def _normas_para_consulta(query: str) -> List[Dict[str, Any]]:
 
 def _bcn_para_citas():
     """Cliente BCN para resolver citas (indirección: permite probar sin red)."""
-    return bcn
+    return _obtener("bcn")
 
 
 def _subgrafo_para_consulta(query: str, hops: int = 1) -> Dict[str, Any]:
     """El subgrafo dogmático alrededor de la consulta (si el grafo no responde, va vacío)."""
     try:
-        return legal_graphify_engine.consultar_subgrafo(query, max_hops=hops)
+        return _obtener("legal_graphify_engine").consultar_subgrafo(query, max_hops=hops)
     except Exception:  # noqa: BLE001
         return {}
 
@@ -413,7 +532,7 @@ def _con_citas(resultado: Any, fuente: str, identificador: str, url: str = "", c
     texto = str(resultado.get(campo_texto) or "")
     if texto:
         resultado["citas"] = list(resultado.get("citas") or []) + [
-            formatear_cita(fuente, identificador, url=url, texto=texto[:1200])]
+            _obtener("formatear_cita")(fuente, identificador, url=url, texto=texto[:1200])]
     return resultado
 
 
@@ -434,6 +553,7 @@ def _citas_en_items(resultado: Any, fuente: str, campos_clave: tuple, campo_text
         items = resultado
     else:
         return resultado
+    fmt = _obtener("formatear_cita")
     for item in (items or [])[:maximo]:
         if not isinstance(item, dict):
             continue
@@ -443,15 +563,98 @@ def _citas_en_items(resultado: Any, fuente: str, campos_clave: tuple, campo_text
         if not ident or not texto:
             continue
         item["citas"] = list(item.get("citas") or []) + [
-            formatear_cita(fuente, ident[:180], url=str(item.get("url") or item.get("url_pdf") or ""),
-                           texto=texto[:900])]
+            fmt(fuente, ident[:180], url=str(item.get("url") or item.get("url_huggingface") or item.get("url_pdf") or ""),
+                texto=texto[:900])]
     return resultado
 
 
+_CONECTORES_ESTATALES = frozenset({"bcn", "cgr", "dt", "cne", "panel", "cmf", "sii", "sma", "tdlc", "pjud"})
+_CACHE_DB_ESTATAL = os.path.join(_pkg_root, "openlegal_cache.db")
+
+
+class _RegistroEstatalLazy:
+    """Proxy perezoso de los 10 conectores estatales para `consulta_maestra` y `busqueda_universal`."""
+
+    def __init__(self, db_path: str = _CACHE_DB_ESTATAL):
+        self.db_path = db_path
+        self._db_ready = False
+        self._db_lock = threading.Lock()
+
+    def __getattr__(self, name: str) -> Any:
+        if name in _CONECTORES_ESTATALES:
+            return _obtener(name)
+        raise AttributeError(name)
+
+    def _asegurar_tabla(self) -> None:
+        if self._db_ready:
+            return
+        import sqlite3
+
+        with self._db_lock:
+            if self._db_ready:
+                return
+            with sqlite3.connect(self.db_path) as conn:
+                conn.execute(
+                    """
+                    CREATE TABLE IF NOT EXISTS query_cache (
+                        institution TEXT,
+                        query_key TEXT,
+                        response_json TEXT,
+                        created_at REAL,
+                        PRIMARY KEY (institution, query_key)
+                    )
+                    """
+                )
+            self._db_ready = True
+
+    def _get_cached(self, institution: str, key: str, ttl_seconds: int = 86400) -> Optional[Any]:
+        import sqlite3
+        import time
+
+        try:
+            self._asegurar_tabla()
+            with sqlite3.connect(self.db_path) as conn:
+                cur = conn.cursor()
+                cur.execute(
+                    "SELECT response_json, created_at FROM query_cache WHERE institution = ? AND query_key = ?",
+                    (institution, key),
+                )
+                row = cur.fetchone()
+                if row:
+                    res_json, created_at = row
+                    if time.time() - created_at < ttl_seconds:
+                        return json.loads(res_json)
+        except Exception:
+            pass
+        return None
+
+    def _set_cached(self, institution: str, key: str, data: Any) -> None:
+        import sqlite3
+        import time
+
+        try:
+            self._asegurar_tabla()
+            with sqlite3.connect(self.db_path) as conn:
+                conn.execute(
+                    "INSERT OR REPLACE INTO query_cache (institution, query_key, response_json, created_at) "
+                    "VALUES (?, ?, ?, ?)",
+                    (institution, key, json.dumps(data, ensure_ascii=False), time.time()),
+                )
+        except Exception:
+            pass
+
+
+_REGISTRO_ESTATAL_LAZY: Optional[_RegistroEstatalLazy] = None
+
+
 def _registro_estatal():
-    """Registro de conectores del Estado (indirección: permite probar sin red)."""
-    from connectors.registry import StateRegistry
-    return StateRegistry()
+    """Registro perezoso de conectores del Estado (instancia solo los organismos consultados)."""
+    global _REGISTRO_ESTATAL_LAZY
+    if _REGISTRO_ESTATAL_LAZY is None:
+        with _LAZY_LOCK:
+            if _REGISTRO_ESTATAL_LAZY is None:
+                _REGISTRO_ESTATAL_LAZY = _RegistroEstatalLazy()
+    return _REGISTRO_ESTATAL_LAZY
 
 
 def _items_del_organismo(valor: Any) -> List[Dict[str, Any]]:
@@ -613,8 +816,8 @@ def _organismos_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
                                     or it.get("snippet") or "")[:800]
                         if not texto:
                             continue
-                        url = str(it.get("url") or it.get("link") or it.get("pdfUrl") or it.get("enlace") or "")
-                        citas_org.append(formatear_cita(
+                        url = str(it.get("url") or it.get("url_huggingface") or it.get("link") or it.get("pdfUrl") or it.get("enlace") or "")
+                        citas_org.append(_obtener("formatear_cita")(
                             org.upper(), str(ident),
                             url=url,
                             texto=texto
@@ -716,7 +919,7 @@ def _leer_recurso(uri: str) -> Optional[Dict[str, str]]:
     if uri == "openlegal://catalogo/herramientas":
         catalogo = [{"name": t["name"], "description": t.get("description", "")} for t in TOOLS]
         return {"uri": uri, "mimeType": "application/json",
-                "text": json.dumps(catalogo, ensure_ascii=False, indent=2)}
+                "text": json.dumps(catalogo, ensure_ascii=False, separators=(",", ":"))}
     if uri == "openlegal://reglas/integracion":
         ruta = ruta_recurso("docs/integracion-harness.md")
         if not ruta.exists():
@@ -728,6 +931,11 @@ def _leer_recurso(uri: str) -> Optional[Dict[str, str]]:
 def handle_tool_call(name: str, args: Dict[str, Any]) -> Any:
     try:
         args = args or {}
+        desp = _DESPACHO_POR_HERRAMIENTA.get(name)
+        if desp is not None:
+            resultado = desp(name, args)
+            if resultado is not None:
+                return resultado
         for _despachador in _DOMINIOS_DESPACHO:
             resultado = _despachador(name, args)
             if resultado is not None:
@@ -797,11 +1005,11 @@ TOOL_PROFILES: Dict[str, List[str]] = {
 
 def get_active_tools(profile_name: Optional[str] = None) -> List[Dict[str, Any]]:
     """Devuelve las herramientas activas según el perfil solicitado o la variable OPENLEGAL_PROFILE.
-    
-    Permite reducir la ventana de contexto de ~18.000 tokens a ~2.500 tokens para agentes especializados.
+
+    Perfiles temáticos y `router` reducen el contexto inicial; `"full"`, `"completo"` o vacío cargan las 95 herramientas.
     """
     prof = (profile_name or os.environ.get("OPENLEGAL_PROFILE") or "").lower().strip()
-    if prof and prof in TOOL_PROFILES:
+    if prof and prof not in ("full", "completo") and prof in TOOL_PROFILES:
         nombres = set(TOOL_PROFILES[prof])
         return [t for t in TOOLS if t["name"] in nombres]
     return TOOLS
@@ -935,7 +1143,7 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
                 "serverInfo": {
                     "name": "open-legal-chile-mcp",
                     "title": "Open Legal Chile",
-                    "version": "1.16.1"
+                    "version": "1.17.0"
                 },
                 "instructions": INSTRUCCIONES,
             })
@@ -1023,17 +1231,15 @@ def atender_linea(line: str, tools_to_expose: List[Dict[str, Any]]) -> Any:
 def _mensajes_de_librerias_a_stderr() -> None:
     """stdout es el canal del protocolo: nada que no sea JSON-RPC puede escribirse ahí.
 
-    PyMuPDF guarda el sys.stdout real al importarse (forensic_ocr lo importa al arrancar) y escribe
-    ahí sus avisos, por fuera del redirect_stdout de cada tools/call. Medido el 2026-10-07: el aviso
-    de deprecación de `import fitz` llegaba al cliente como una línea no-JSON que el SDK oficial
-    rechazaba. Sus mensajes van a stderr.
+    PyMuPDF guarda el sys.stdout real al importarse; si ya está cargado en memoria se redirige a
+    stderr, y también al importarse perezosamente desde `forensic_ocr` / `pdf_dossier_compiler`.
     """
-    try:
-        import pymupdf
-
-        pymupdf.set_messages(stream=sys.stderr)
-    except Exception:  # noqa: BLE001 — sin PyMuPDF (o una versión sin set_messages) no hay nada que desviar
-        pass
+    mod = sys.modules.get("pymupdf")
+    if mod is not None and hasattr(mod, "set_messages"):
+        try:
+            mod.set_messages(stream=sys.stderr)
+        except Exception:  # noqa: BLE001 — sin set_messages no hay nada que desviar
+            pass
 
 
 def main():
@@ -1050,9 +1256,13 @@ def main():
 
     tools_to_expose = get_active_tools(profile_cli)
 
-    # Precalentado en segundo plano: la primera consulta no pagará el arranque en frío
-    # (grafo publicado + listado HF). Si algo falla, el server sigue y se avisa al usar.
-    threading.Thread(target=precalentar_caches, name="precalentado", daemon=True).start()
+    # Precalentado diferido en segundo plano: deja libres el handshake y la primera consulta
+    # inmediata (sin contención GIL/locks), calentando el grafo y el mapa en sesiones persistentes.
+    demora_warmup = float(os.environ.get("OPENLEGAL_WARMUP_DELAY", "1.5"))
+    calentador = threading.Timer(demora_warmup, precalentar_caches)
+    calentador.name = "precalentado"
+    calentador.daemon = True
+    calentador.start()
 
     for line in sys.stdin:
         line = line.strip()

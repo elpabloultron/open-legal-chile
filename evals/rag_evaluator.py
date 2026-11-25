@@ -6,10 +6,8 @@ Evalúa la calidad del RAG híbrido (SQLite FTS5 + Hugging Face Hub):
 3. Fidelidad (Faithfulness) y ratio de alucinación cero en subsunción.
 """
 
-import json
 from typing import Dict, Any, List, Optional
 from doctrina_connector import search_doctrina, get_institucion
-from online_library_sync import consultar_huggingface_dataset
 
 RAG_BENCHMARK_CASES = [
     {

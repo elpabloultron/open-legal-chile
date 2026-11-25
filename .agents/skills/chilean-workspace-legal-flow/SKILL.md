@@ -1,6 +1,6 @@
 ---
 name: chilean-workspace-legal-flow
-description: Orquestador de Flujo Jurídico entre Open Legal Chile y Google Workspace en Antigravity / Claude Code (inspirado en el codelab oficial google-workspace-mcp-antigravity): conecta el análisis forense chileno con Google Drive (expedientes), Google Docs (informes en derecho colaborativos), Google Sheets (matrices de riesgos, plazos y Baremo) y Google Calendar (hitos y audiencias judiciales).
+description: "Orquestador de Flujo Jurídico entre Open Legal Chile y Google Workspace en Antigravity / Claude Code (inspirado en el codelab oficial google-workspace-mcp-antigravity): conecta el análisis forense chileno con Google Drive (expedientes), Google Docs (informes en derecho colaborativos), Google Sheets (matrices de riesgos, plazos y Baremo) y Google Calendar (hitos y audiencias judiciales)."
 ---
 
 # Habilidad: Flujo Jurídico Integrado con Google Workspace (chilean-workspace-legal-flow)
@@ -13,10 +13,8 @@ description: Orquestador de Flujo Jurídico entre Open Legal Chile y Google Work
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (informe en derecho, minuta ejecutiva, escrito judicial): se generan y entregan en **Word (.docx), no en PDF**, para que se puedan modificar (y opcionalmente se sincronizan en Google Docs cuando el usuario lo solicita); las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que viene de varias fuentes se cita con todas.
+- **Documentos** (informe en derecho, minuta ejecutiva, escrito judicial): entregar en **Word (.docx)** (no PDF) (y opcionalmente en Google Docs), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Norma legal: `[BCN - Código de Procedimiento Civil, Art. <Número>]` o `[BCN - Código Civil, Art. <Número>]`
@@ -41,7 +39,7 @@ En los dos casos: si no hay fuente identificable se dice «sin fuente verificabl
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** socios de estudios jurídicos, gerentes legales (*general counsel*) y equipos de litigación que gestionan sus carpetas, escritos y calendarios de audiencias en Google Workspace.
 - **Lenguaje claro:** el primer término técnico de cada flujo lleva su explicación clara entre paréntesis — `término probatorio ordinario (período de 20 días hábiles judiciales en el juicio ordinario civil durante el cual las partes deben rendir sus pruebas ante el tribunal, conforme al Art. 328 del CPC)`.

@@ -18,7 +18,7 @@ Este repositorio es una suite de inteligencia jurídica y servidor Model Context
 
 ```
 open-legal-chile/
-├── mcp_server.py             # Servidor MCP JSON-RPC 2.0 sobre stdio: protocolo, perfiles y ensamblado (88 herramientas)
+├── mcp_server.py             # Servidor MCP JSON-RPC 2.0 sobre stdio: protocolo, perfiles y ensamblado (95 herramientas)
 ├── servidor/                 # Esquemas y despacho de las herramientas, un módulo por dominio
 │   ├── conectores.py         # BCN, CGR, DT, CNE, Panel, CMF, SII, SMA, TDLC, PJUD
 │   ├── corpus.py · forense.py · casos.py · ambiental.py · suite.py
@@ -28,7 +28,7 @@ open-legal-chile/
 ├── recursos.py               # Ubica skills, agentes y AGENTS.md (repo o share/openlegal-chile instalado)
 ├── agents_runtime.py         # Runtime de agentes y exportación a subagentes de Claude Code
 ├── agents/                   # 19 agentes: *.json (fuente) y *.md (subagentes del plugin, generados)
-├── .agents/skills/           # 18 skills (SKILL.md), compartidas por todos los harness
+├── .agents/skills/           # 21 skills (SKILL.md), compartidas por todos los harness
 ├── .claude-plugin/           # plugin.json (MCP por uvx + skills + agentes) y marketplace.json
 ├── gemini-extension.json     # Extensión de Gemini CLI
 ├── chat_engine.py · critique.py · exporters.py · config.py   # chat, crítica, escritos OJV, configuración y red
@@ -67,13 +67,3 @@ claude plugin validate .claude-plugin/plugin.json && claude plugin validate .cla
 python scripts/generar_agentes_plugin.py --check
 npx -y @google/gemini-cli extensions validate .
 ```
-
-## graphify
-
-This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
-
-Rules:
-- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
-- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
-- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
-- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).

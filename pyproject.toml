@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openlegal-chile"
-version = "1.16.1"
+version = "1.17.0"
 description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
 readme = "README.md"
 authors = [
@@ -73,8 +73,7 @@ docling = [
   "docling>=2.0.0"
 ]
 privacy = [
-  "presidio-analyzer>=2.2.0",
-  "presidio-anonymizer>=2.2.0"
+  "presidio-analyzer>=2.2.0"
 ]
 analytics = [
   "pyarrow>=15.0.0",
@@ -120,8 +119,6 @@ py-modules = [
     "config",
     "critique",
     "diagnostico",
-    "dictamen2md",
-    "dictamenes_parser",
     "doc2md_ingestor",
     "docket_watcher",
     "doctrina_connector",
@@ -201,7 +198,7 @@ py-modules = [
 "share/openlegal-chile/.agents/skills/chilean-workspace-legal-flow" = [".agents/skills/chilean-workspace-legal-flow/SKILL.md"]
 
 [tool.setuptools.packages.find]
-include = ["connectors*", "domain*", "doctrina*", "data*", "servidor*", "mapa_corpus*"]
+include = ["doctrina*", "data*", "servidor*", "mapa_corpus*"]
 namespaces = true
 
 # El corpus doctrinal y el grafo viajan DENTRO del paquete. Antes no: el wheel publicado en

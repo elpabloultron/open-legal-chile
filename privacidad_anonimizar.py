@@ -15,8 +15,6 @@ excluida de Git) para rehidratar el documento Word/OJV final en el equipo del ab
 
 from __future__ import annotations
 
-import json
-import pathlib
 import re
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -216,18 +214,6 @@ class ChileanPIIAnonymizer:
         for tok in sorted(mapa_reversion.keys(), key=len, reverse=True):
             salida = salida.replace(tok, str(mapa_reversion[tok]))
         return salida
-
-    @staticmethod
-    def guardar_mapa_local(mapa_reversion: Dict[str, str], ruta_destino: str) -> str:
-        """Guarda el mapa de reversión con permisos restrictivos (0600 en POSIX)."""
-        destino = pathlib.Path(ruta_destino)
-        destino.parent.mkdir(parents=True, exist_ok=True)
-        destino.write_text(json.dumps(mapa_reversion, ensure_ascii=False, indent=2), encoding="utf-8")
-        try:
-            destino.chmod(0o600)
-        except OSError:
-            pass
-        return str(destino)
 
 
 def anonimizar_texto(

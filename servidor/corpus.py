@@ -1,7 +1,6 @@
 """Herramientas del corpus: consulta maestra, doctrina, grafo de conocimiento y biblioteca."""
 import os
 from typing import TYPE_CHECKING, Any, Dict, List, Optional
-from citas_legales import CODIGOS, detectar_normas, formatear_cita
 
 
 def _url_codigo_bcn(obra: str) -> str:
@@ -47,14 +46,9 @@ def _bcn_para_citas():
 
 
 def _refrescar() -> None:
-    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores).
-
-    Corre en cada despacho: los bloques movidos usan los mismos objetos vivos del servidor,
-    incluidas las sustituciones que hagan las pruebas con monkeypatch."""
-    from config import servidor_actual
-    _m = servidor_actual()
-    _g = globals()
-    _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
+    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores)."""
+    from servidor import refrescar_globals
+    refrescar_globals(globals(), _PROPIOS, _DEFAULTS_LAZY)
 
 
 TOOLS = [
@@ -179,7 +173,7 @@ TOOLS = [
                 "area": {"type": "string", "description": "Área del derecho (opcional: 'Civil', 'Procesal', 'Penal', 'Laboral', 'Administrativo', 'Constitucional')"},
                 "autor": {"type": "string", "description": "Nombre o apellido del tratadista (opcional: 'Barros', 'Ramos Pazos', 'Cury')"},
                 "limit": {"type": "integer", "description": "Cantidad máxima de resultados (por defecto 5)"},
-                "hibrido": {"type": "boolean", "description": "Si es True, fusiona BM25 con similitud vectorial local (RRF) para consultas en lenguaje coloquial (por defecto False)", "default": False}
+                "hibrido": {"type": "boolean", "description": "Si es True, fusiona BM25 con similitud vectorial local (RRF) para consultas en lenguaje coloquial", "default": False}
             },
             "required": ["query"]
         }
@@ -238,7 +232,7 @@ TOOLS = [
                 },
                 "target_path": {
                     "type": "string",
-                    "description": "Ruta de destino personalizada para el archivo .md generado (opcional)."
+                    "description": "Ruta de destino personalizada para el archivo .md generado."
                 }
             },
             "required": ["file_path"]
@@ -275,7 +269,7 @@ TOOLS = [
             "type": "object",
             "properties": {
                 "query": {"type": "string", "description": "Término de búsqueda doctrinal o institucional (ej. 'responsabilidad', 'despido', 'contratos')"},
-                "limit": {"type": "integer", "description": "Número máximo de archivos o recursos a devolver (por defecto 5)", "default": 5},
+                "limit": {"type": "integer", "description": "Número máximo de archivos o recursos a devolver", "default": 5},
                 "rol": {"type": "string", "description": "Rol exacto de una causa (ej. '10641-2024' de la Corte Suprema, '2402-12-INA' del TC, 'R-21-2021' ambiental): trae su ficha y los documentos que la citan (opcional)"},
                 "norma": {"type": "string", "description": "Norma citada (ej. 'art. 1545 del Código Civil', 'Ley 19.300'): los documentos del dataset que la citan (opcional)"},
                 "coleccion": {"type": "string", "description": "Acota a una colección: 'cs' (Corte Suprema), 'tc', 'ta' (tribunales ambientales), 'doc' (doctrina y revistas), 'guia', 'bib' o 'pub' (opcional)"},
@@ -308,7 +302,7 @@ TOOLS = [
             "type": "object",
             "properties": {
                 "query": {"type": "string", "description": "Concepto jurídico, institución, norma o materia a consultar en el subgrafo (ej. 'simulacion', 'imprevision', 'nulidad', 'tutela laboral')"},
-                "max_hops": {"type": "integer", "description": "Radio de saltos relacionales en el grafo (por defecto 1)", "default": 1},
+                "max_hops": {"type": "integer", "description": "Radio de saltos relacionales en el grafo", "default": 1},
                 "incluir_mermaid": {"type": "boolean", "description": "Si es True, incluye el diagrama Mermaid renderizable del subgrafo", "default": False}
             },
             "required": ["query"]
@@ -322,8 +316,8 @@ TOOLS = [
             "properties": {
                 "origen": {"type": "string", "description": "Concepto o norma jurídica de inicio (ej. 'simulacion', 'incumplimiento')"},
                 "destino": {"type": "string", "description": "Concepto o norma jurídica de fin (ej. 'nulidad', 'indemnizacion')"},
-                "max_caminos": {"type": "integer", "description": "Número máximo de rutas mínimas a retornar (por defecto 3)", "default": 3},
-                "solo_sustantivo": {"type": "boolean", "description": "Si es True, prioriza rutas jurídicas sustantivas excluyendo súper-hubs editoriales (por defecto False)", "default": False}
+                "max_caminos": {"type": "integer", "description": "Número máximo de rutas mínimas a retornar", "default": 3},
+                "solo_sustantivo": {"type": "boolean", "description": "Si es True, prioriza rutas jurídicas sustantivas excluyendo súper-hubs editoriales", "default": False}
             },
             "required": ["origen", "destino"]
         }
@@ -356,8 +350,8 @@ TOOLS = [
         "inputSchema": {
             "type": "object",
             "properties": {
-                "top_n": {"type": "integer", "description": "Cantidad de instituciones y normas principales a retornar (por defecto 10)", "default": 10},
-                "solo_sustantivo": {"type": "boolean", "description": "Si es True, atenúa aristas bibliográficas y excluye contenedores editoriales de los pilares (por defecto False)", "default": False}
+                "top_n": {"type": "integer", "description": "Cantidad de instituciones y normas principales a retornar", "default": 10},
+                "solo_sustantivo": {"type": "boolean", "description": "Si es True, atenúa aristas bibliográficas y excluye contenedores editoriales de los pilares", "default": False}
             }
         }
     },
@@ -395,17 +389,17 @@ TOOLS = [
                 },
                 "top_k": {
                     "type": "integer",
-                    "description": "Cantidad máxima de normas, sentencias e instituciones en el ranking de red (por defecto 15)",
+                    "description": "Cantidad máxima de normas, sentencias e instituciones en el ranking de red",
                     "default": 15
                 },
                 "n_muestra": {
                     "type": "integer",
-                    "description": "Tamaño de muestra estratificada cuando modo='muestra_validacion' (por defecto 50)",
+                    "description": "Tamaño de muestra estratificada cuando modo='muestra_validacion'",
                     "default": 50
                 },
                 "semilla": {
                     "type": "integer",
-                    "description": "Semilla determinista para reproducibilidad de la muestra estratificada (por defecto 42)",
+                    "description": "Semilla determinista para reproducibilidad de la muestra estratificada",
                     "default": 42
                 }
             }
@@ -442,12 +436,12 @@ TOOLS = [
                 },
                 "n_muestra": {
                     "type": "integer",
-                    "description": "Tamaño de la muestra estratificada de validación humana (por defecto 50)",
+                    "description": "Tamaño de la muestra estratificada de validación humana",
                     "default": 50
                 },
                 "semilla": {
                     "type": "integer",
-                    "description": "Semilla aleatoria fija para reproducibilidad (por defecto 42)",
+                    "description": "Semilla aleatoria fija para reproducibilidad",
                     "default": 42
                 }
             },
@@ -549,6 +543,7 @@ def _citas_por_lote(referencias: list, limite: Optional[int] = 1200) -> dict:
 
     citas = [r["cita"] for r in resultados if "cita" in r]
     faltantes = [r["referencia"] for r in resultados if "error" in r]
+    resultados = [{k: v for k, v in r.items() if k != "cita"} for r in resultados]
     return {
         "total": len(referencias),
         "citas": citas,
@@ -594,6 +589,33 @@ def _con_revistas_del_mapa(locales: Any, consulta: str, limite: int, area: Any =
         return locales
     cupo = min(len(revistas), max(limite - len(locales), limite // 3))
     return locales[:max(0, limite - cupo)] + revistas[:cupo]
+
+
+def _compactar_item_organismo(item: Any) -> Any:
+    if not isinstance(item, dict):
+        return item
+    omitir = {"texto", "texto_integral", "link_oficial", "url_vigente"}
+    if item.get("doctrina") is not None and item.get("doctrina") == item.get("resultado"):
+        omitir.add("doctrina")
+    return {k: v for k, v in item.items() if k not in omitir}
+
+
+def _compactar_organismos_hallazgos(resultados_org: Any, con_citas: bool) -> Any:
+    if not con_citas or not isinstance(resultados_org, dict):
+        return resultados_org
+    compacto: Dict[str, Any] = {}
+    for org, valor in resultados_org.items():
+        if isinstance(valor, list):
+            compacto[org] = [_compactar_item_organismo(x) for x in valor]
+        elif isinstance(valor, dict):
+            copia = dict(valor)
+            for clave in ("resultados", "items", "docs"):
+                if isinstance(copia.get(clave), list):
+                    copia[clave] = [_compactar_item_organismo(x) for x in copia[clave]]
+            compacto[org] = copia
+        else:
+            compacto[org] = valor
+    return compacto
 
 
 def _ver_corpus(motor: Any, consulta: Optional[str], max_nodos: int = 250, salida: Optional[str] = None) -> dict:
@@ -710,18 +732,34 @@ def despachar(name: str, args: dict) -> Any:
         # El mapa del corpus viaja con el sondeo de Hugging Face; si ese sondeo no lo trae (falló
         # o lo sustituyó otra implementación), se lee aparte, sin red.
         mapa = hf.get("mapa") if isinstance(hf.get("mapa"), dict) else _estado_mapa()
+        hf_res = hf.get("resultados", [])
+        if hf.get("citas") and isinstance(hf_res, list):
+            _hf_omitir = {"extractos", "url_vigente", "space_interactivo", "dataset"}
+            hf_res = [{k: v for k, v in r.items() if k not in _hf_omitir} if isinstance(r, dict) else r for r in hf_res]
+        doc_res = doctrina.get("resultados", [])
+        if doctrina.get("citas") and isinstance(doc_res, list):
+            _doc_omitir = {"definicion", "contenido", "snippet"}
+            doc_res = [{k: v for k, v in r.items() if k not in _doc_omitir} if isinstance(r, dict) else r for r in doc_res]
+        normas_res = [
+            {k: v for k, v in n.items() if k != "texto"} if isinstance(n, dict) and n.get("texto") else n
+            for n in normas
+        ]
+        org_res = _compactar_organismos_hallazgos(
+            organismos.get("resultados", {}), bool(organismos.get("citas"))
+        )
+        mapa_compacto = {k: v for k, v in mapa.items() if k != "conteos"} if isinstance(mapa, dict) else mapa
         respuesta = {
             "consulta": consulta,
-            "hallazgos": {"huggingface": hf.get("resultados", []),
-                          "doctrina": doctrina.get("resultados", []),
-                          "normas": normas,
+            "hallazgos": {"huggingface": hf_res,
+                          "doctrina": doc_res,
+                          "normas": normas_res,
                           "subgrafo": subgrafo,
-                          "organismos": organismos.get("resultados", {})},
+                          "organismos": org_res},
             "citas": citas,
             "faltantes": faltantes,
             "como_citar": "Pegá cada cita con su texto literal. En conversación: la respuesta primero y las "
                           "fuentes al final. En documentos: citas a pie de página (fuente · identificador · enlace).",
-            "mapa": mapa,
+            "mapa": mapa_compacto,
         }
         aviso = _aviso_mapa(mapa)
         if aviso:
@@ -755,13 +793,23 @@ def despachar(name: str, args: dict) -> Any:
         if not consulta:
             return {"error": "El parámetro 'consulta' (o 'query') es obligatorio."}
 
+        import concurrent.futures
+
         reg = _registro_estatal()
-        if not hasattr(reg, "bcn") and hasattr(reg, "search_all"):
-            resultados = reg.search_all(consulta)
+        if hasattr(reg, "search_all") and not hasattr(reg, "bcn"):
+            with concurrent.futures.ThreadPoolExecutor(max_workers=2, thread_name_prefix="universal") as pool:
+                fut_reg = pool.submit(reg.search_all, consulta)
+                fut_hf = pool.submit(_hf_para_consulta, consulta, 3)
+                resultados = fut_reg.result()
+                try:
+                    hf = fut_hf.result(timeout=8.0)
+                except Exception as e:
+                    hf = {"resultados": [], "citas": [], "error": f"Hugging Face no respondió: {str(e)[:160]}"}
         else:
             cached = getattr(reg, "_get_cached", lambda *a: None)("all", consulta)
             if cached and isinstance(cached, dict):
                 resultados = cached
+                hf = _hf_para_consulta(consulta, lim=3)
             else:
                 resultados = {
                     "query": consulta,
@@ -795,8 +843,8 @@ def despachar(name: str, args: dict) -> Any:
                     return clave, []
 
                 claves = ["bcn", "cgr", "dt", "cne", "panel", "cmf", "sii", "sma", "tdlc", "pjud"]
-                import concurrent.futures
-                with concurrent.futures.ThreadPoolExecutor(max_workers=10, thread_name_prefix="universal") as pool:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=11, thread_name_prefix="universal") as pool:
+                    fut_hf = pool.submit(_hf_para_consulta, consulta, 3)
                     futuros = {pool.submit(_invocar_conector, k): k for k in claves}
                     for fut in concurrent.futures.as_completed(futuros):
                         k = futuros[fut]
@@ -807,6 +855,12 @@ def despachar(name: str, args: dict) -> Any:
                         except Exception as e:
                             res = [{"error": str(e)}] if k not in ("cgr", "sma") else {"error": str(e)}
                         resultados[k] = res
+                    try:
+                        hf = fut_hf.result(timeout=8.0)
+                    except (concurrent.futures.TimeoutError, TimeoutError):
+                        hf = {"resultados": [], "citas": [], "error": "Hugging Face no respondió: timeout"}
+                    except Exception as e:
+                        hf = {"resultados": [], "citas": [], "error": f"Hugging Face no respondió: {str(e)[:160]}"}
 
                 if hasattr(reg, "_set_cached"):
                     try:
@@ -815,7 +869,6 @@ def despachar(name: str, args: dict) -> Any:
                         pass
 
         citas_halladas: List[Dict[str, Any]] = []
-        hf = _hf_para_consulta(consulta, lim=3)
         if isinstance(resultados, dict):
             resultados["huggingface"] = hf.get("resultados", [])
         if isinstance(resultados, dict):
@@ -838,7 +891,7 @@ def despachar(name: str, args: dict) -> Any:
                     texto = str(it.get("texto") or it.get("doctrina") or it.get("materia")
                                 or it.get("conclusiones") or it.get("resumen")
                                 or it.get("snippet") or "")[:600]
-                    url = str(it.get("url") or it.get("link") or it.get("pdfUrl") or it.get("enlace") or "")
+                    url = str(it.get("url") or it.get("url_huggingface") or it.get("link") or it.get("pdfUrl") or it.get("enlace") or "")
                     citas_halladas.append(formatear_cita(
                         str(organismo).upper(), str(ident),
                         url=url,
@@ -1024,4 +1077,15 @@ def despachar(name: str, args: dict) -> Any:
     return None
 
 
+from servidor import crear_proxies
+
 _PROPIOS = frozenset(globals())
+_DEFAULTS_LAZY = crear_proxies(
+    "CODIGOS", "_citas_en_items", "_con_avisos", "_detectar_dominios_estatales",
+    "_doctrina_para_consulta", "_hf_para_consulta", "_items_del_organismo",
+    "_normas_para_consulta", "_organismos_para_consulta", "_registro_estatal",
+    "_subgrafo_para_consulta", "aj_client", "build_quick_graph", "detectar_normas",
+    "doctrina_get_inst", "doctrina_list_obras", "enviar_progreso", "formatear_cita",
+    "grafo_vista", "legal_graphify_engine", "library_sync_mgr", "search_doctrina",
+)
+globals().update(_DEFAULTS_LAZY)

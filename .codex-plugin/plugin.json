@@ -1,6 +1,6 @@
 {
   "name": "open-legal-chile",
-  "version": "1.16.1",
+  "version": "1.17.0",
   "description": "Chilean Civil Law suite: 95 local-first MCP tools, 10 state connectors (BCN, PJUD, CGR, DT, SII, CMF, SMA, TDLC, CNE), 21 skills, and 19 legal agents.",
   "author": {
     "name": "Pablo Benavides Jorquera",
@@ -28,7 +28,7 @@
     "legaltech"
   ],
   "skills": "./.agents/skills/",
-  "mcpServers": "./mcp_config.json",
+  "mcpServers": "./.codex-plugin/mcp.json",
   "interface": {
     "displayName": "Open Legal Chile",
     "shortDescription": "95 local-first MCP tools, 21 skills & 19 agents for Chilean Civil Law.",

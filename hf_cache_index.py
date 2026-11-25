@@ -14,16 +14,15 @@ import hashlib
 import pathlib
 import re
 import sqlite3
-import unicodedata
 from typing import Callable, List, Optional
+from config import sin_tildes
 
 DIR_INDICES = pathlib.Path.home() / ".openlegal" / "indices"
 
 
 def _normalizar(texto: str) -> str:
-    """Minúsculas y sin acentos (NFKD + se quitan las marcas combinantes)."""
-    nfkd = unicodedata.normalize("NFKD", texto.lower())
-    return "".join(c for c in nfkd if not unicodedata.combining(c))
+    """Minúsculas y sin acentos."""
+    return sin_tildes((texto or "").lower())
 
 
 def _ruta_indice(ruta: pathlib.Path) -> pathlib.Path:

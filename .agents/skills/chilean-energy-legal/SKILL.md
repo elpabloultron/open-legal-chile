@@ -1,6 +1,6 @@
 ---
 name: chilean-energy-legal
-description: Especialista en Derecho Eléctrico y Regulatorio de Energía en Chile, Ley General de Servicios Eléctricos (DFL 4/2006), Ley 20.936 (Transmisión), contratos PPA clientes libres y discrepancias del Panel de Expertos.
+description: "Especialista en Derecho Eléctrico y Regulatorio de Energía en Chile, Ley General de Servicios Eléctricos (DFL 4/2006), Ley 20.936 (Transmisión), contratos PPA clientes libres y discrepancias del Panel de Expertos."
 ---
 
 # Habilidad: Derecho Eléctrico y Energía en Chile (chilean-energy-legal)
@@ -12,14 +12,8 @@ description: Especialista en Derecho Eléctrico y Regulatorio de Energía en Chi
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
-  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
-  numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
-viene de varias fuentes se cita con todas.
-
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Norma: `[BCN - DFL N° 4/2006, Art. <Número>]` o `[BCN - Ley N° 20.936, Art. <Número>]`
@@ -33,7 +27,7 @@ viene de varias fuentes se cita con todas.
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** el abogado regulatorio y el equipo técnico de la empresa eléctrica, que no es abogado.
 - **Lenguaje claro:** el primer término técnico va con su equivalencia simple entre paréntesis — `PPA (contrato de largo plazo para venderle energía a un cliente libre)`. Sin siglas sin expandir la primera vez (LGSE, CNE, SEA).

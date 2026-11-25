@@ -13,14 +13,8 @@ description: "Especialista en derecho corporativo y societario chileno: constitu
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
-  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
-  numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
-viene de varias fuentes se cita con todas.
-
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Código Civil: `[BCN - Código Civil, Art. <Número>]`
@@ -42,7 +36,7 @@ viene de varias fuentes se cita con todas.
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** el directorio o el socio, el abogado del estudio y terceros que leen el acta (SII, CMF, notaría).
 - **Lenguaje claro:** el primer término técnico de cada acta o minuta va con su equivalencia simple entre paréntesis — `quórum (cantidad mínima de socios o directores que debe estar presente para que la reunión valga)`. Sin siglas sin expandir la primera vez (SpA, S.A., F29, F22).

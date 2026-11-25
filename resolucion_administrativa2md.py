@@ -1,6 +1,6 @@
 """
 Open Legal Chile — Conversor Universal de Resoluciones y Dictámenes Administrativos a Markdown Canónico
-(resolucion_administrativa2md.py / dictamen2md.py)
+(resolucion_administrativa2md.py)
 
 Estandariza pronunciamientos, dictámenes, circulares, instrucciones y sentencias regulatorias
 de los órganos del Estado chileno (CGR, DT, SII, TDLC, CMF, Panel de Expertos y SMA) en Markdown

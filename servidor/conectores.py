@@ -1,5 +1,7 @@
 """Herramientas de los conectores oficiales del Estado (BCN, CGR, DT, CNE, CMF, SII, SMA, TDLC, PJUD…)."""
+import json
 import re
+from datetime import datetime
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de mcp_server
@@ -29,14 +31,9 @@ if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de 
 
 
 def _refrescar() -> None:
-    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores).
-
-    Corre en cada despacho: los bloques movidos usan los mismos objetos vivos del servidor,
-    incluidas las sustituciones que hagan las pruebas con monkeypatch."""
-    from config import servidor_actual
-    _m = servidor_actual()
-    _g = globals()
-    _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
+    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores)."""
+    from servidor import refrescar_globals
+    refrescar_globals(globals(), _PROPIOS, _DEFAULTS_LAZY)
 
 
 def _citas_cgr(resultado: Any, maximo: int = 3) -> Any:
@@ -56,8 +53,7 @@ def _citas_cgr(resultado: Any, maximo: int = 3) -> Any:
         formato = f"[Dictamen CGR N° {numero} ({anio})]"
         url = str(item.get("url") or item.get("pdfUrl") or "")
         item["citas"] = list(item.get("citas") or []) + [{
-            "formato": formato, "texto": texto[:900], "url": url, "fuente": "CGR",
-            "cita_completa": f"{formato} {url}".strip()}]
+            "formato": formato, "texto": texto[:900], "url": url, "fuente": "CGR"}]
     return resultado
 
 
@@ -818,4 +814,13 @@ def despachar(name: str, args: dict) -> Any:
     return None
 
 
+from servidor import crear_proxies
+
 _PROPIOS = frozenset(globals())
+_DEFAULTS_LAZY = crear_proxies(
+    "CODIGOS", "_citas_en_items", "_con_citas", "_url_codigo_bcn",
+    "bcn", "cgr", "cmf", "cne", "consultar_ente", "dt",
+    "infoprobidad_client", "panel", "pjud", "proveidos_engine",
+    "sentencia_engine", "sii", "sma", "tdlc", "validar_rut",
+)
+globals().update(_DEFAULTS_LAZY)

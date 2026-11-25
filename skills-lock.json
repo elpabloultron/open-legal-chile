@@ -5,127 +5,127 @@
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-administrative-legal/SKILL.md",
-      "sha256": "1a0430714bc0f0a5b5c136514d84384dd67b16dc1c75ffb963c26621efc9e044"
+      "sha256": "68613e04edb687fd2dbdb73389ba02f70e02ea2c5988780b26b9afaae12c6e8e"
     },
     "chilean-case-intake": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-case-intake/SKILL.md",
-      "sha256": "0f142cab1a32af78f0e9aec0a3f4bfe62a905d08908fc69b273bbafcced4df15"
+      "sha256": "d58871258410cbb99eaa09f48f505cf52b33dd70c5b92a58316555ae1e1bca40"
     },
     "chilean-contract-legal": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-contract-legal/SKILL.md",
-      "sha256": "ef2c88e9a8e3992b34dff085a4b77cbb7b976e139aac7eed4c8f72f03abf0541"
+      "sha256": "f9e3d176e61cdd191b55eaafc70a1d9dbf3673cf00d188377a683c9447682580"
     },
     "chilean-contradictorio-goldfish": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-contradictorio-goldfish/SKILL.md",
-      "sha256": "feda380ff6f2a5bd278342c547b0257e0ef7f679499ee969bba7b33c9ec01c07"
+      "sha256": "3c7601f817149c07050d9781ff1a7a2bc73885952176c1071b90c635f1b5c5f8"
     },
     "chilean-corporate-legal": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-corporate-legal/SKILL.md",
-      "sha256": "e0b8392c827b3798037d1d1d9843690c6e0cb6cee4fc28f9e6114dce38689a0d"
+      "sha256": "560b2a61ff5d954e41fdee34b01bb51473bc317af58ca8b6093a8f93698c9fde"
     },
     "chilean-docket-watcher": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-docket-watcher/SKILL.md",
-      "sha256": "bbabceef302a116a6cf6c4f6eecc863171330be1e49b4660f70550474a1e60d1"
+      "sha256": "bb558eca5ae1e50a60d39d3ed234ad7c3b06a3074e410e97ed696abd3ac44999"
     },
     "chilean-doctrine-ingestion": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-doctrine-ingestion/SKILL.md",
-      "sha256": "aff6a93510f5c2d0e4b8506568bd07e4c6dc2367f2687fcc91a2592ee8a7ee12"
+      "sha256": "1a34920106a608a665f3f8887706cb720453558172e00af17a9795da541b12ec"
     },
     "chilean-dogmatic-graphify": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-dogmatic-graphify/SKILL.md",
-      "sha256": "d7121f8d807d255885ab40c0caff1e47a36b9f41803320aeb74776994b46d6ca"
+      "sha256": "04e567acb9180a9299137288694c8f76d314339d6088eac5931d18bea398ed71"
     },
     "chilean-dossier-assembly": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-dossier-assembly/SKILL.md",
-      "sha256": "b9280c63c06233e57823f3fb77ae7e880d22e312477c33ac0df0da0fa2eceb31"
+      "sha256": "23636be3e58d08d8070c78d8d1f15552af0cd86740d5442ba722aaf68ee5972d"
     },
     "chilean-employment-legal": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-employment-legal/SKILL.md",
-      "sha256": "03252732980b7428fc28132706704dbc8f8faeeefa0732b5e1fcfbaea33f3fdc"
+      "sha256": "7a6a5181144f79d74adbff4349ff6b07468794d49be6182e40f9bb8191e96339"
     },
     "chilean-energy-legal": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-energy-legal/SKILL.md",
-      "sha256": "8327ee4ab530fe9f086d86e26293a7f97777b5a7e240473933c441abe8fcfc7d"
+      "sha256": "3ca6e50bffec685eadba1ab9f59df6d5ae37564f7936d758bc10400c7a06d333"
     },
     "chilean-environmental-legal": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-environmental-legal/SKILL.md",
-      "sha256": "9b3228ffb73c4209e4922ae3b644bdaab2f97dbbba8b3895f2aec32a392e9d6f"
+      "sha256": "c8cc491ca5d060eace6f83ef2d245903d253b2d4bbb7f2a9dbabd7d86b2e1560"
     },
     "chilean-forensic-evidence": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-forensic-evidence/SKILL.md",
-      "sha256": "9800b2b8bc9503ebb26653ddc3223d44bc21676bfe86ee29ba021a2c3c67e074"
+      "sha256": "4bd7c71f55bb7ba168b345cd87350d6a70d3ad22faef21d11ee953f69cbe6e0b"
     },
     "chilean-legal-clinic": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-legal-clinic/SKILL.md",
-      "sha256": "fc4a2491c7a5e71e903ae54706d7037e13ea7f02388379b254ca23e1534f8a11"
+      "sha256": "db23d237dfb31ea11f5c883da17c3ece36be92c37b67d507366396503639fa65"
     },
     "chilean-litigation-legal": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-litigation-legal/SKILL.md",
-      "sha256": "69e39f6dc15146c2d0e69365a472c14244160478d45a6369b40002d2f8c91998"
+      "sha256": "f8960699277faf8fab8d125583ec83148227fc478d9f0eba580a87e2ee835117"
     },
     "chilean-notebooklm-grounding": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-notebooklm-grounding/SKILL.md",
-      "sha256": "451430518efded4f1a3f78aa7ee12a95937a17fcb9d09c693e00a878a0c52a42"
+      "sha256": "a214923384a3f1ac98dca8c2ea42d1ee6eeeb38a397925970e9d075367ef9668"
     },
     "chilean-privacy-ip": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-privacy-ip/SKILL.md",
-      "sha256": "a10e3fac3df94272c87462470a264047819457e665ea076c988dba76469146c1"
+      "sha256": "18ff03d955659a12a2c3b525cc951504e8f0a4ba93bfe0707d818f373ed5c77c"
     },
     "chilean-probity-investigation": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-probity-investigation/SKILL.md",
-      "sha256": "b5b027ffd524dff00170ed92bc3f8172e68ae6874b651022ee6befebe8a9d76e"
+      "sha256": "4ce570433ff5b8493cd2c3c50b73f53f29df2a7dcdd392788936e004383f8c3d"
     },
     "chilean-real-estate-cbr": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-real-estate-cbr/SKILL.md",
-      "sha256": "1ec8040249632ee99a6dae974fab9580d35d8bc60dd847b4571fb17186689da7"
+      "sha256": "3f3b8b899e11a4ca75bd91494b2ee50ad1661e8a35eaeb0740887348ce1a4ad2"
     },
     "chilean-socratic-bar-exam": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-socratic-bar-exam/SKILL.md",
-      "sha256": "4b3281f9c6fed6b6b776650f0042b18d217070f46418491d240977bcc5e51cea"
+      "sha256": "996eeaa1ad2c50dadf5cfd7fee276577532499c067e31fb0035b76b23d2e411f"
     },
     "chilean-workspace-legal-flow": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-workspace-legal-flow/SKILL.md",
-      "sha256": "69d335980bdbe5c3405d924d367b7a810b5f241e7b6064f5eb949571cd054b61"
+      "sha256": "ecebec41e143197fa64228bb8ac45883e95b057f6e1bc986303aa0cd900a9aa9"
     }
   }
 }

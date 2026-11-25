@@ -2735,8 +2735,10 @@ class LegalGraphifyEngine:
         desde doctrina es el último recurso) y, en el motor compartido, la capa del mapa si el
         cliente tiene una revisión lista. Nunca usa la red ni espera una descarga."""
         if not self.is_built:
-            if not self.cargar_grafo_json():
-                self.construir_grafo_desde_doctrina()
+            with self._lock:
+                if not self.is_built:
+                    if not self.cargar_grafo_json():
+                        self.construir_grafo_desde_doctrina()
         if self.usar_mapa:
             self.subir_capa_mapa()
 

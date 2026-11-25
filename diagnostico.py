@@ -8,15 +8,21 @@ instalación del paquete lleva todo.
 
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor
 import json
 import os
 import pathlib
 import shutil
-from typing import Any, Dict, List
+import sys
+from typing import Any, Dict, List, Tuple
 
 BASE_DIR = pathlib.Path(__file__).resolve().parent
 
 ESTADOS = ("ok", "aviso", "error", "omitido")
+
+_CACHE_DIAG_OCR: Dict[Tuple[int, str, str], Tuple[List[str], List[str]]] = {}
+_CACHE_DIAG_CORPUS: Dict[Tuple[str, int], int] = {}
+_CACHE_DIAG_GRAFO: Dict[Tuple[str, int, int], Tuple[int, int]] = {}
 
 
 def _version_instalada() -> str:
@@ -58,17 +64,23 @@ def _chequeo_ocr() -> Dict[str, Any]:
                 "detalle": f"no pude cargar el motor de OCR ({str(exc)[:120]})",
                 "sugerencia": "reinstala el paquete: el OCR viaja en la instalación"}
 
-    motor = ForensicOCREngine()
-    motores = motor.get_available_engines()
+    clave_ocr = (id(ForensicOCREngine), os.environ.get("PATH", ""), os.environ.get("TESSDATA_PREFIX", ""))
+    cache_ocr = _CACHE_DIAG_OCR.get(clave_ocr)
+    if cache_ocr is not None:
+        motores, idiomas = cache_ocr
+    else:
+        motor = ForensicOCREngine()
+        motores = motor.get_available_engines()
+        try:
+            idiomas = motor.get_available_languages() or []
+        except Exception:  # noqa: BLE001
+            idiomas = []
+        _CACHE_DIAG_OCR[clave_ocr] = (list(motores), list(idiomas))
     estado = "ok"
     detalle = f"motores: {', '.join(motores)}"
     if "rapidocr" not in motores:
         estado = "aviso"
         detalle += " · falta RapidOCR (el motor robusto para fotos, incluido en la instalación)"
-    try:
-        idiomas = motor.get_available_languages() or []
-    except Exception:  # noqa: BLE001
-        idiomas = []
     if idiomas:
         detalle += f" · idiomas: {', '.join(idiomas)}"
     if "spa" not in idiomas:
@@ -84,13 +96,25 @@ def _chequeo_ocr() -> Dict[str, Any]:
 
 
 def _chequeo_corpus() -> Dict[str, Any]:
-    obras = list((BASE_DIR / "doctrina").rglob("*.md"))
-    if not obras:
+    carpeta = BASE_DIR / "doctrina"
+    if not carpeta.exists():
+        return {"nombre": "corpus", "estado": "error",
+                "detalle": "no encontré obras doctrinales empaquetadas",
+                "sugerencia": "reinstala el paquete (lleva el corpus) o copia las obras en doctrina/"}
+    try:
+        clave = (str(carpeta.resolve()), int(carpeta.stat().st_mtime_ns))
+    except OSError:
+        clave = (str(carpeta), 0)
+    total = _CACHE_DIAG_CORPUS.get(clave)
+    if total is None:
+        total = sum(1 for _ in carpeta.rglob("*.md"))
+        _CACHE_DIAG_CORPUS[clave] = total
+    if not total:
         return {"nombre": "corpus", "estado": "error",
                 "detalle": "no encontré obras doctrinales empaquetadas",
                 "sugerencia": "reinstala el paquete (lleva el corpus) o copia las obras en doctrina/"}
     return {"nombre": "corpus", "estado": "ok",
-            "detalle": f"{len(obras)} obras doctrinales empaquetadas"}
+            "detalle": f"{total} obras doctrinales empaquetadas"}
 
 
 def _chequeo_grafo() -> Dict[str, Any]:
@@ -100,12 +124,41 @@ def _chequeo_grafo() -> Dict[str, Any]:
                 "detalle": "falta data/legal_knowledge_graph.json",
                 "sugerencia": "reinstala el paquete o baja el grafo del dataset de Hugging Face"}
     try:
-        datos = json.loads(ruta.read_text(encoding="utf-8"))
-    except Exception as exc:  # noqa: BLE001
+        st = ruta.stat()
+        ruta_res = str(ruta.resolve())
+        clave = (ruta_res, int(st.st_mtime_ns), int(st.st_size))
+    except OSError as exc:
         return {"nombre": "grafo", "estado": "error",
                 "detalle": f"el grafo no se pudo leer ({str(exc)[:120]})"}
-    nodos = len(datos.get("nodes", []))
-    aristas = len(datos.get("edges", []))
+
+    conteo = _CACHE_DIAG_GRAFO.get(clave)
+    if conteo is None:
+        lg = sys.modules.get("legal_graphify")
+        cache_lg = getattr(lg, "_CACHE_JSON_GRAFO", None) if lg is not None else None
+        if isinstance(cache_lg, dict):
+            for (ruta_lg, mtime_lg), tupla in list(cache_lg.items()):
+                try:
+                    coincide = (
+                        str(pathlib.Path(ruta_lg).resolve()) == ruta_res
+                        and int(mtime_lg * 1e9) // 1000 == int(st.st_mtime_ns) // 1000
+                    )
+                    if coincide:
+                        g_mem = tupla[0]
+                        conteo = (g_mem.number_of_nodes(), g_mem.number_of_edges())
+                        break
+                except (OSError, TypeError, ValueError, AttributeError, IndexError):
+                    conteo = None
+        if conteo is None:
+            try:
+                datos = json.loads(ruta.read_text(encoding="utf-8"))
+            except Exception as exc:  # noqa: BLE001
+                return {"nombre": "grafo", "estado": "error",
+                        "detalle": f"el grafo no se pudo leer ({str(exc)[:120]})"}
+            nodos = len(datos.get("nodes", []))
+            aristas = len(datos.get("edges", []))
+            conteo = (nodos, aristas)
+        _CACHE_DIAG_GRAFO[clave] = conteo
+    nodos, aristas = conteo
     return {"nombre": "grafo", "estado": "ok" if nodos else "error",
             "detalle": f"{nodos} nodos · {aristas} aristas"}
 
@@ -266,20 +319,22 @@ def _chequeo_harness() -> Dict[str, Any]:
 
 def diagnostico_completo() -> Dict[str, Any]:
     """Corre los chequeos locales (sin red) y resume el estado de la suite."""
-    chequeos: List[Dict[str, Any]] = [
-        _chequeo_version(),
-        _chequeo_ocr(),
-        _chequeo_corpus(),
-        _chequeo_grafo(),
-        _chequeo_indices(),
-        _chequeo_citas(),
-        _chequeo_herramientas_mcp(),
-        _chequeo_recursos(),
-        _chequeo_hugging_face(),
-        _chequeo_mapa(),
-        _chequeo_entorno(),
-        _chequeo_harness(),
-    ]
+    funciones = (
+        _chequeo_version,
+        _chequeo_ocr,
+        _chequeo_corpus,
+        _chequeo_grafo,
+        _chequeo_indices,
+        _chequeo_citas,
+        _chequeo_herramientas_mcp,
+        _chequeo_recursos,
+        _chequeo_hugging_face,
+        _chequeo_mapa,
+        _chequeo_entorno,
+        _chequeo_harness,
+    )
+    with ThreadPoolExecutor(max_workers=6, thread_name_prefix="doctor") as pool:
+        chequeos: List[Dict[str, Any]] = list(pool.map(lambda fn: fn(), funciones))
     if any(c["estado"] == "error" for c in chequeos):
         estado = "error"
     elif any(c["estado"] == "aviso" for c in chequeos):

@@ -9,9 +9,8 @@ import os
 import re
 import sys
 import json
-import unicodedata
-from pathlib import Path
 from typing import Dict, Any, Optional, List
+from config import sin_tildes
 
 PROFILE_FILE = "practice_profile.json"
 
@@ -21,8 +20,8 @@ _VACIAS = {"cual", "cuales", "como", "para", "sobre", "donde", "tiene", "prefier
 
 def _palabras_clave(texto: str) -> set:
     """Tokens significativos de un texto, sin tildes ni signos."""
-    sin_tildes = unicodedata.normalize("NFKD", texto or "").encode("ascii", "ignore").decode()
-    return {palabra for palabra in re.sub(r"[^a-z0-9]+", " ", sin_tildes.lower()).split()
+    plano = sin_tildes(texto or "").lower()
+    return {palabra for palabra in re.sub(r"[^a-z0-9]+", " ", plano).split()
             if len(palabra) >= 4 and palabra not in _VACIAS}
 
 DEFAULT_QUESTIONS: List[Dict[str, Any]] = [

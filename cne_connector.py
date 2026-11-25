@@ -156,10 +156,6 @@ class CNEClient:
         """Obtiene el catastro de proyectos de generación y transmisión eléctrica en construcción."""
         return self._get("/api/ea/proyectosenconstrucciongx", "proyectos_construccion", use_cache)
 
-    def get_generacion_bruta_mensual(self, use_cache: bool = True) -> List[Dict[str, Any]]:
-        """Obtiene la generación eléctrica bruta mensual (GWh) por central y empresa generadora."""
-        return self._get("/api/ea/generacionbrutamensual", "generacion_bruta_mensual", use_cache)
-
     def get_clientes_libres(self, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Obtiene estadísticas de clientes libres (consumos > 500 kW / 5 MW para contratos PPA)."""
         return self._get("/api/ea/cantidad/clienteslibres", "clientes_libres", use_cache)
@@ -171,18 +167,6 @@ class CNEClient:
     def get_generacion_distribuida(self, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Obtiene proyectos de Net Billing / Generación Distribuida (Ley 20.571 y Ley 21.118)."""
         return self._get("/api/ea/netbilling", "generacion_distribuida", use_cache)
-
-    def get_precios_gas_natural(self, use_cache: bool = True) -> List[Dict[str, Any]]:
-        """Obtiene estadísticas de precios de gas natural para generación y distribución."""
-        return self._get("/api/ea/precio/gasnatural", "precio_gas_natural", use_cache)
-
-    def get_precios_glp(self, use_cache: bool = True) -> List[Dict[str, Any]]:
-        """Obtiene precios de Gas Licuado de Petróleo (GLP)."""
-        return self._get("/api/ea/precio/glp", "precio_glp", use_cache)
-
-    def get_factor_emision(self, use_cache: bool = True) -> List[Dict[str, Any]]:
-        """Obtiene el factor de emisión de gases de efecto invernadero del Sistema Eléctrico Nacional."""
-        return self._get("/api/ea/factoremision", "factor_emision", use_cache)
 
     def get_estaciones_servicio(self, use_cache: bool = True) -> List[Dict[str, Any]]:
         """Obtiene el catastro de estaciones de servicio de combustibles líquidos a nivel nacional."""

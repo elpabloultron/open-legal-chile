@@ -1,13 +1,12 @@
 """
 Open Legal Chile — Analizador Anatómico y Citador Canónico de Pronunciamientos Administrativos
-(resoluciones_parser.py / dictamenes_parser.py)
+(resoluciones_parser.py)
 
 Desglosa dictámenes, circulares, resoluciones y acuerdos de CGR, DT, SII, TDLC, CMF, Panel y SMA.
 Permite evaluar y rankear consideraciones por tema jurídico controvertido y formatear citas
 canónicas oficiales conforme al estándar de AGENTS.md con citas literales exactas («...»).
 """
 
-import os
 import re
 from typing import Any, Dict, List, Optional
 
@@ -262,6 +261,71 @@ class ResolucionesParserEngine:
             "citas_destacadas": citas_destacadas,
             "documentos": resultados
         }
+
+
+def procesar_y_graficar_lote(
+    ids_o_docs: List[Any],
+    resolver_item: Any,
+    organismo: str,
+    clave_total: str,
+    clave_detalle: str,
+    tema_relevante: Optional[str] = None,
+    convertir_a_md: bool = True,
+    filtrar_errores: bool = False,
+) -> Dict[str, Any]:
+    """Pipeline unificado para lotes de dictámenes/resoluciones: resolver -> MD -> grafo -> análisis."""
+    from resolucion_administrativa2md import convertir_lote_dictamenes
+    from legal_graphify import LegalGraphifyEngine
+
+    docs_procesar: List[Dict[str, Any]] = []
+    no_encontrados: List[Dict[str, Any]] = []
+    for item in ids_o_docs:
+        if isinstance(item, str):
+            doc_obj = resolver_item(item)
+            if filtrar_errores and isinstance(doc_obj, dict) and doc_obj.get("error"):
+                no_encontrados.append({"id": item, **doc_obj})
+                continue
+            docs_procesar.append(doc_obj)
+        elif isinstance(item, dict):
+            docs_procesar.append(item)
+
+    rutas_md: List[str] = []
+    if convertir_a_md:
+        try:
+            rutas_md = [str(p) for p in convertir_lote_dictamenes(docs_procesar)]
+            for i, r_path in enumerate(rutas_md):
+                if i < len(docs_procesar):
+                    docs_procesar[i]["ruta_md"] = r_path
+        except Exception:
+            pass
+
+    info_grafo: Dict[str, Any] = {}
+    try:
+        insumos: Any = rutas_md if rutas_md else docs_procesar
+        info_grafo = LegalGraphifyEngine().ingerir_lote_dictamenes(insumos, guardar_disco=False)
+    except Exception as e:
+        info_grafo = {"error": f"Error integrando con LegalGraphify: {str(e)}"}
+
+    analisis = ResolucionesParserEngine().analizar_lote_resoluciones(docs_procesar, tema_relevante=tema_relevante)
+    salida: Dict[str, Any] = {
+        "organismo": organismo,
+        clave_total: len(docs_procesar),
+        "tema_relevante": tema_relevante or "General",
+        "citas_destacadas": analisis.get("citas_destacadas", []),
+        "grafo_impacto": {
+            "nodos_nuevos": info_grafo.get("nodos_nuevos_totales", 0),
+            "enlaces_nuevos": info_grafo.get("enlaces_nuevos_totales", 0),
+            "grafo_total": info_grafo.get("grafo", {}),
+        },
+        "archivos_generados": {
+            "markdown": rutas_md,
+            "descargas_oficiales": [d.get("archivo_descargado") for d in docs_procesar if d.get("archivo_descargado")],
+        },
+        clave_detalle: analisis.get("documentos", []),
+    }
+    if filtrar_errores:
+        salida["no_encontrados"] = no_encontrados
+    return salida
 
 
 # Alias

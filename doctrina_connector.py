@@ -4,15 +4,129 @@ Indexa y consulta tratados dogmáticos y manuales de derecho chileno estructurad
 de alta densidad de tokens, con búsqueda FTS5 (BM25) y concordancias legales/jurisprudenciales.
 """
 
+import contextlib
 import os
-import sys
 import re
 import sqlite3
-from typing import Dict, Any, List, Optional, Tuple
+import sys
+import threading
+from typing import Any, Dict, Iterator, List, Optional, Tuple
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DOCTRINA_DIR = os.path.join(BASE_DIR, "doctrina")
 DB_PATH = os.path.join(BASE_DIR, "doctrina.db")
+
+_RO_TLS = threading.local()
+_ESQUEMA_OK: Dict[str, Tuple[int, int, int, int]] = {}
+_ESQUEMA_LOCK = threading.Lock()
+
+
+def _huella_db(abs_path: str) -> Optional[Tuple[int, int, int, int]]:
+    try:
+        st = os.stat(abs_path)
+    except OSError:
+        return None
+    try:
+        wst = os.stat(abs_path + "-wal")
+        w_mtime, w_size = (wst.st_mtime_ns, wst.st_size) if wst.st_size > 0 else (-1, -1)
+    except OSError:
+        w_mtime, w_size = -1, -1
+    return (st.st_mtime_ns, st.st_size, w_mtime, w_size)
+
+
+def _invalidar_cache_lectura(db_path: Optional[str] = None) -> None:
+    abs_path = os.path.abspath(db_path or DB_PATH)
+    with _ESQUEMA_LOCK:
+        _ESQUEMA_OK.pop(abs_path, None)
+    cache = getattr(_RO_TLS, "conns", None)
+    if isinstance(cache, dict):
+        entrada = cache.pop(abs_path, None)
+        if entrada is not None:
+            try:
+                entrada[1].close()
+            except Exception:
+                pass
+
+
+def _aplicar_pragmas_lectura(conn: sqlite3.Connection) -> None:
+    for pragma in (
+        "PRAGMA query_only=ON;",
+        "PRAGMA mmap_size=67108864;",
+        "PRAGMA cache_size=-16000;",
+        "PRAGMA temp_store=MEMORY;",
+    ):
+        conn.execute(pragma)
+
+
+def _conexion_lectura(db_path: Optional[str] = None) -> Optional[sqlite3.Connection]:
+    """Devuelve una conexión SQLite RO reutilizable por hilo si `doctrina_instituciones` tiene datos."""
+    abs_path = os.path.abspath(db_path or DB_PATH)
+    huella = _huella_db(abs_path)
+    if huella is None:
+        _invalidar_cache_lectura(abs_path)
+        return None
+
+    cache: Optional[Dict[str, Tuple[Tuple[int, int, int, int], sqlite3.Connection]]] = None
+    if os.name != "nt":
+        cache = getattr(_RO_TLS, "conns", None)
+        if cache is None:
+            cache = {}
+            _RO_TLS.conns = cache
+        prev = cache.get(abs_path)
+        if prev is not None and prev[0] == huella:
+            return prev[1]
+        if prev is not None:
+            cache.pop(abs_path, None)
+            try:
+                prev[1].close()
+            except Exception:
+                pass
+
+    conn = sqlite3.connect(abs_path, check_same_thread=False)
+    try:
+        _aplicar_pragmas_lectura(conn)
+        with _ESQUEMA_LOCK:
+            esquema_vigente = _ESQUEMA_OK.get(abs_path) == huella
+        if not esquema_vigente:
+            cur = conn.cursor()
+            cols = [c[1] for c in cur.execute("PRAGMA table_info(doctrina_instituciones);").fetchall()]
+            fts = cur.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='doctrina_fts';").fetchone()
+            if not cols or "operativa_procesal" not in cols or not fts:
+                conn.close()
+                init_db(abs_path).close()
+                huella = _huella_db(abs_path)
+                if huella is None:
+                    return None
+                conn = sqlite3.connect(abs_path, check_same_thread=False)
+                _aplicar_pragmas_lectura(conn)
+                cur = conn.cursor()
+            tiene = cur.execute("SELECT 1 FROM doctrina_instituciones LIMIT 1;").fetchone()
+            if not tiene:
+                conn.close()
+                return None
+            huella_actual = _huella_db(abs_path) or huella
+            with _ESQUEMA_LOCK:
+                _ESQUEMA_OK[abs_path] = huella_actual
+    except Exception:
+        try:
+            conn.close()
+        except Exception:
+            pass
+        return None
+
+    if cache is not None:
+        cache[abs_path] = (_huella_db(abs_path) or huella, conn)
+    return conn
+
+
+@contextlib.contextmanager
+def _usar_lectura(db_path: Optional[str] = None) -> Iterator[Optional[sqlite3.Connection]]:
+    conn = _conexion_lectura(db_path)
+    try:
+        yield conn
+    finally:
+        if conn is not None and os.name == "nt":
+            conn.close()
 
 
 def init_db(db_path: Optional[str] = None) -> sqlite3.Connection:
@@ -71,6 +185,7 @@ def init_db(db_path: Optional[str] = None) -> sqlite3.Connection:
     """)
 
     conn.commit()
+    _invalidar_cache_lectura(db_path)
     return conn
 
 
@@ -336,6 +451,7 @@ def index_all_doctrina(doctrina_dir: Optional[str] = None, db_path: Optional[str
 
     conn.commit()
     conn.close()
+    _invalidar_cache_lectura(db_path)
     return total_instituciones
 
 
@@ -380,6 +496,7 @@ def index_doctrina_file(
         conn.commit()
     finally:
         conn.close()
+    _invalidar_cache_lectura(db_path)
 
     return {"indexadas": len(instituciones), "reemplazadas": len(previas), "total": total}
 
@@ -404,18 +521,8 @@ def _normalize_area_filter(area: str) -> str:
 
 def _has_doctrina_db(db_path: Optional[str] = None) -> bool:
     """Verifica si la base de datos doctrina.db existe y tiene al menos un registro."""
-    db_path = db_path or DB_PATH
-    if not os.path.exists(db_path):
-        return False
-    try:
-        conn = sqlite3.connect(db_path)
-        cur = conn.cursor()
-        cur.execute("SELECT 1 FROM doctrina_instituciones LIMIT 1;")
-        res = cur.fetchone()
-        conn.close()
-        return bool(res)
-    except Exception:
-        return False
+    with _usar_lectura(db_path) as conn:
+        return conn is not None
 
 
 def _item_to_institucion_dict(it: Dict[str, Any]) -> Dict[str, Any]:
@@ -605,87 +712,89 @@ def search_doctrina(
     if hibrido:
         return search_doctrina_hibrida(query=query, area=area, autor=autor, limit=limit, db_path=db_path)
     db_path = db_path or DB_PATH
-    if not _has_doctrina_db(db_path):
-        if os.path.exists(DOCTRINA_DIR) and any(f.endswith(".md") for _, _, fs in os.walk(DOCTRINA_DIR) for f in fs):
-            index_all_doctrina(db_path=db_path)
-        else:
-            return _search_doctrina_catalogo(query, area=area, autor=autor, limit=limit)
 
-    conn = init_db(db_path)
-    cursor = conn.cursor()
-
-    # Limpieza básica del query para FTS5
+    # Limpieza básica del query para FTS5 antes de abrir o crear la base
     clean_query = re.sub(r'[^\w\s"áéíóúÁÉÍÓÚñÑ]', ' ', query).strip()
-    if not clean_query:
-        conn.close()
-        return []
 
-    # Construir tokens para MATCH FTS5
-    words = clean_query.split()
-    fts_query = " OR ".join([f'"{w}"' for w in words])
+    with _usar_lectura(db_path) as conn:
+        if conn is None:
+            if os.path.exists(DOCTRINA_DIR) and any(f.endswith(".md") for _, _, fs in os.walk(DOCTRINA_DIR) for f in fs):
+                index_all_doctrina(db_path=db_path)
+            else:
+                return _search_doctrina_catalogo(query, area=area, autor=autor, limit=limit)
 
-    params: List[Any] = []
+    with _usar_lectura(db_path) as conn:
+        if conn is None or not clean_query:
+            return []
 
-    sql = """
-    SELECT 
-        rowid,
-        institucion,
-        definicion,
-        snippet(doctrina_fts, 2, '【', '】', '...', 25) as snippet_contenido,
-        concordancias,
-        fallo_rector,
-        area,
-        autor,
-        obra,
-        operativa_procesal,
-        bm25(doctrina_fts) as rank
-    FROM doctrina_fts
-    WHERE doctrina_fts MATCH ?
-    """
-    params.append(fts_query)
+        cursor = conn.cursor()
 
-    if area:
-        sql += " AND area LIKE ?"
-        params.append(_normalize_area_filter(area))
-    if autor:
-        sql += " AND autor LIKE ?"
-        params.append(f"%{autor}%")
+        # Construir tokens para MATCH FTS5
+        words = clean_query.split()
+        fts_query = " OR ".join([f'"{w}"' for w in words])
 
-    sql += """
-    ORDER BY
-        CASE
-            WHEN autor != 'Autor Desconocido' AND TRIM(COALESCE(definicion, '')) != '' THEN 0
-            WHEN autor != 'Autor Desconocido' THEN 1
-            ELSE 2
-        END ASC,
-        rank ASC
-    LIMIT ?
-    """
-    params.append(limit)
+        params: List[Any] = []
 
-    try:
-        cursor.execute(sql, params)
-        rows = cursor.fetchall()
-    except sqlite3.OperationalError:
-        # Fallback a búsqueda LIKE en la tabla relacional si la sintaxis FTS falla
-        like_sql = """
+        sql = """
         SELECT 
-            id, institucion, definicion, SUBSTR(contenido, 1, 300) as snippet_contenido,
-            concordancias, fallo_rector, area, autor, obra, operativa_procesal, 0 as rank
-        FROM doctrina_instituciones
-        WHERE (institucion LIKE ? OR contenido LIKE ? OR definicion LIKE ? OR operativa_procesal LIKE ?)
+            rowid,
+            institucion,
+            definicion,
+            snippet(doctrina_fts, 2, '【', '】', '...', 25) as snippet_contenido,
+            concordancias,
+            fallo_rector,
+            area,
+            autor,
+            obra,
+            operativa_procesal,
+            bm25(doctrina_fts) as rank
+        FROM doctrina_fts
+        WHERE doctrina_fts MATCH ?
         """
-        like_p: List[Any] = [f"%{clean_query}%", f"%{clean_query}%", f"%{clean_query}%", f"%{clean_query}%"]
+        params.append(fts_query)
+
         if area:
-            like_sql += " AND area LIKE ?"
-            like_p.append(f"%{area}%")
+            sql += " AND area LIKE ?"
+            params.append(_normalize_area_filter(area))
         if autor:
-            like_sql += " AND autor LIKE ?"
-            like_p.append(f"%{autor}%")
-        like_sql += " LIMIT ?"
-        like_p.append(limit)
-        cursor.execute(like_sql, like_p)
-        rows = cursor.fetchall()
+            sql += " AND autor LIKE ?"
+            params.append(f"%{autor}%")
+
+        sql += """
+        ORDER BY
+            CASE
+                WHEN autor != 'Autor Desconocido' AND TRIM(COALESCE(definicion, '')) != '' THEN 0
+                WHEN autor != 'Autor Desconocido' THEN 1
+                ELSE 2
+            END ASC,
+            rank ASC
+        LIMIT ?
+        """
+        params.append(limit)
+
+        try:
+            cursor.execute(sql, params)
+            rows = cursor.fetchall()
+        except sqlite3.OperationalError:
+            # Fallback a búsqueda LIKE en la tabla relacional si la sintaxis FTS falla
+            like_sql = """
+            SELECT 
+                id, institucion, definicion, SUBSTR(contenido, 1, 300) as snippet_contenido,
+                concordancias, fallo_rector, area, autor, obra, operativa_procesal, 0 as rank
+            FROM doctrina_instituciones
+            WHERE (institucion LIKE ? OR contenido LIKE ? OR definicion LIKE ? OR operativa_procesal LIKE ?)
+            """
+            like_p: List[Any] = [f"%{clean_query}%", f"%{clean_query}%", f"%{clean_query}%", f"%{clean_query}%"]
+            if area:
+                like_sql += " AND area LIKE ?"
+                like_p.append(f"%{area}%")
+            if autor:
+                like_sql += " AND autor LIKE ?"
+                like_p.append(f"%{autor}%")
+            like_sql += " LIMIT ?"
+            like_p.append(limit)
+            cursor.execute(like_sql, like_p)
+            rows = cursor.fetchall()
 
     results = []
     for r in rows:
@@ -705,8 +814,6 @@ def search_doctrina(
             "fuente_huggingface": "https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"
         })
 
-    conn.close()
-
     if not results:
         results = _search_doctrina_catalogo(query, area=area, autor=autor, limit=limit)
 
@@ -722,52 +829,54 @@ def get_institucion(
     Recupera la ficha doctrinal completa y detallada de una institución jurídica específica.
     """
     db_path = db_path or DB_PATH
-    if not _has_doctrina_db(db_path):
-        if os.path.exists(DOCTRINA_DIR) and any(f.endswith(".md") for _, _, fs in os.walk(DOCTRINA_DIR) for f in fs):
-            index_all_doctrina(db_path=db_path)
-        else:
+    with _usar_lectura(db_path) as conn:
+        if conn is None:
+            if os.path.exists(DOCTRINA_DIR) and any(f.endswith(".md") for _, _, fs in os.walk(DOCTRINA_DIR) for f in fs):
+                index_all_doctrina(db_path=db_path)
+            else:
+                return _get_institucion_catalogo(nombre_o_termino, area=area)
+
+    with _usar_lectura(db_path) as conn:
+        if conn is None:
             return _get_institucion_catalogo(nombre_o_termino, area=area)
+        cursor = conn.cursor()
 
-    conn = init_db(db_path)
-    cursor = conn.cursor()
+        sql = """
+        SELECT id, area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox
+        FROM doctrina_instituciones
+        WHERE institucion LIKE ?
+        """
+        params = [f"%{nombre_o_termino}%"]
 
-    sql = """
-    SELECT id, area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox
-    FROM doctrina_instituciones
-    WHERE institucion LIKE ?
-    """
-    params = [f"%{nombre_o_termino}%"]
+        if area:
+            sql += " AND area LIKE ?"
+            params.append(_normalize_area_filter(area))
 
-    if area:
-        sql += " AND area LIKE ?"
-        params.append(_normalize_area_filter(area))
-
-    # Sin ORDER BY, el orden lo decidía el recorrido de archivos, que cambia entre plataformas (por
-    # eso el CI fallaba sólo en Windows) y que, con el corpus ampliado, devolvía la sección de un
-    # documento convertido en vez del tratado. Regla: primero la doctrina canónica, después el
-    # nombre más limpio y alfabético — así la búsqueda devuelve lo mismo en cualquier plataforma.
-    sql += (
-        " ORDER BY"
-        "   CASE WHEN filepath LIKE '%apuntes_orrego%' OR filepath LIKE '%academia_judicial%'"
-        "             OR filepath LIKE '%manuales%' THEN 1 ELSE 0 END,"
-        "   LENGTH(institucion) ASC, institucion ASC"
-        " LIMIT 1;"
-    )
-    cursor.execute(sql, params)
-    row = cursor.fetchone()
+        # Sin ORDER BY, el orden lo decidía el recorrido de archivos, que cambia entre plataformas (por
+        # eso el CI fallaba sólo en Windows) y que, con el corpus ampliado, devolvía la sección de un
+        # documento convertido en vez del tratado. Regla: primero la doctrina canónica, después el
+        # nombre más limpio y alfabético — así la búsqueda devuelve lo mismo en cualquier plataforma.
+        sql += (
+            " ORDER BY"
+            "   CASE WHEN filepath LIKE '%apuntes_orrego%' OR filepath LIKE '%academia_judicial%'"
+            "             OR filepath LIKE '%manuales%' THEN 1 ELSE 0 END,"
+            "   LENGTH(institucion) ASC, institucion ASC"
+            " LIMIT 1;"
+        )
+        cursor.execute(sql, params)
+        row = cursor.fetchone()
 
     if not row:
-        # Intento de búsqueda en FTS si no hubo match directo en título
+        # Intento de búsqueda en FTS fuera del contexto previo de lectura si no hubo match directo en título
         matches = search_doctrina(nombre_o_termino, area=area, limit=1, db_path=db_path)
         if matches:
             best_id = matches[0]["id"]
-            cursor.execute("""
-            SELECT id, area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox
-            FROM doctrina_instituciones WHERE id = ?
-            """, (best_id,))
-            row = cursor.fetchone()
-
-    conn.close()
+            with _usar_lectura(db_path) as conn:
+                if conn is not None:
+                    row = conn.cursor().execute("""
+                    SELECT id, area, autor, obra, materia, institucion, definicion, contenido, operativa_procesal, concordancias, fallo_rector, filepath, tokens_aprox
+                    FROM doctrina_instituciones WHERE id = ?
+                    """, (best_id,)).fetchone()
 
     if not row:
         return _get_institucion_catalogo(nombre_o_termino, area=area)
@@ -794,28 +903,27 @@ def get_institucion(
 def list_obras(db_path: Optional[str] = None) -> List[Dict[str, Any]]:
     """Lista las obras y tratados indexados con sus autores, áreas y cantidad de instituciones."""
     db_path = db_path or DB_PATH
-    if _has_doctrina_db(db_path):
-        conn = init_db(db_path)
-        cursor = conn.cursor()
-        cursor.execute("""
-        SELECT area, autor, obra, COUNT(*) as num_instituciones, SUM(tokens_aprox) as total_tokens
-        FROM doctrina_instituciones
-        GROUP BY area, autor, obra
-        ORDER BY area ASC, autor ASC;
-        """)
-        rows = cursor.fetchall()
-        conn.close()
-        if rows:
-            return [
-                {
-                    "area": r[0],
-                    "autor": r[1],
-                    "obra": r[2],
-                    "num_instituciones": r[3],
-                    "tokens_aprox": r[4]
-                }
-                for r in rows
-            ]
+    with _usar_lectura(db_path) as conn:
+        if conn is not None:
+            cursor = conn.cursor()
+            cursor.execute("""
+            SELECT area, autor, obra, COUNT(*) as num_instituciones, SUM(tokens_aprox) as total_tokens
+            FROM doctrina_instituciones
+            GROUP BY area, autor, obra
+            ORDER BY area ASC, autor ASC;
+            """)
+            rows = cursor.fetchall()
+            if rows:
+                return [
+                    {
+                        "area": r[0],
+                        "autor": r[1],
+                        "obra": r[2],
+                        "num_instituciones": r[3],
+                        "tokens_aprox": r[4]
+                    }
+                    for r in rows
+                ]
 
     # Fallback al catálogo en memoria de instituciones_lite.jsonl
     try:
@@ -928,6 +1036,7 @@ def indexar_doctrina_vectorial(
 
     con.commit()
     con.close()
+    _invalidar_cache_lectura(db_path)
     return {
         "indexadas": total,
         "dim": dim,

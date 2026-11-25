@@ -7,45 +7,73 @@ de la Dirección del Trabajo de Chile.
 import os
 import sys
 import re
-import html
 import json
+import functools
 import pathlib
 import urllib.request
 import urllib.parse
-import unicodedata
-from typing import Dict, Any, List, Optional
-from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
+from typing import Dict, Any, List, Optional, Pattern, Tuple
+from config import aviso_conector as _aviso, cache_fresco, leer_json_si_se_puede, safe_urlopen, sin_tildes as _sin_tildes, texto_plano as _texto_plano
 
 BASE_URL = "https://www.dt.gob.cl/legislacion/1624"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "dt_cache")
 _TTL_CACHE_SEGUNDOS = 7 * 24 * 60 * 60  # la DT publica a diario, pero el listado cambia poco
+_FilaPreparadaDT = Tuple[Dict[str, Any], str, str, str, str, str, str]
+# Caché RAM por archivo absoluto validada por (mtime_ns, size): evita re-parsear 4,2 MB JSON
+# y re-normalizar los 7 938 ordinarios en cada búsqueda.
+_INDEX_RAM_DT: Dict[str, Tuple[int, int, List[Dict[str, Any]], List[_FilaPreparadaDT]]] = {}
 
 
-def _sin_tildes(s: str) -> str:
-    """Elimina marcas de acentuación diacrítica para comparaciones tolerantes a tildes."""
-    return "".join(c for c in unicodedata.normalize("NFD", s or "") if unicodedata.category(c) != "Mn")
+@functools.lru_cache(maxsize=512)
+def _patrones_coincidencia(consulta: str) -> Optional[Tuple[Pattern[str], Pattern[str]]]:
+    """Compila una vez el par de regex (exacto y sin tildes) para una consulta o alias."""
+    limpia = (consulta or "").strip()
+    if not limpia:
+        return None
+    patron = r"\b" + r"\s+".join(re.escape(p) for p in limpia.split()) + r"\b"
+    patron_st = r"\b" + r"\s+".join(re.escape(p) for p in _sin_tildes(limpia).split()) + r"\b"
+    return re.compile(patron, re.IGNORECASE), re.compile(patron_st, re.IGNORECASE)
 
 
-def _texto_plano(trozo: str) -> str:
-    """HTML -> texto: sin etiquetas, sin entidades, sin espacios repetidos."""
-    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", trozo or ""))).strip()
+def _preparar_filas_dt(index: List[Dict[str, Any]]) -> List[_FilaPreparadaDT]:
+    """Pre-normaliza los campos buscables una sola vez sin mutar los dicts del índice."""
+    filas: List[_FilaPreparadaDT] = []
+    for item in index:
+        if not isinstance(item, dict):
+            continue
+        num_raw = str(item.get("numero") or "")
+        mat_raw = str(item.get("materia") or "")
+        num_st = _sin_tildes(num_raw)
+        mat_st = _sin_tildes(mat_raw)
+        filas.append((
+            item,
+            num_raw,
+            num_raw.lower(),
+            num_st,
+            mat_raw,
+            mat_st,
+            f"{num_st} {mat_st}".lower(),
+        ))
+    return filas
 
 
-def _aviso(titulo: str, mensaje: str) -> Dict[str, Any]:
-    """Un vacío se explica: una lista vacía y muda se lee como «no existe», que es otra cosa."""
-    return {"tipo": "aviso", "titulo": titulo, "mensaje": mensaje}
+def _coincide_pre(patrones: Optional[Tuple[Pattern[str], Pattern[str]]], raw: str, norm_st: str) -> bool:
+    if patrones is None:
+        return False
+    p_raw, p_st = patrones
+    return p_raw.search(raw) is not None or p_st.search(norm_st) is not None
 
 
 def _coincide(texto: str, consulta: str) -> bool:
     """Coincidencia por palabra completa: buscar «acta» no debe encontrar «contacto»."""
-    consulta = (consulta or "").strip()
-    if not consulta:
+    patrones = _patrones_coincidencia((consulta or "").strip())
+    if patrones is None:
         return False
-    patron = r"\b" + r"\s+".join(re.escape(p) for p in consulta.split()) + r"\b"
-    if re.search(patron, texto or "", re.IGNORECASE) is not None:
+    raw = texto or ""
+    p_raw, p_st = patrones
+    if p_raw.search(raw) is not None:
         return True
-    patron_st = r"\b" + r"\s+".join(re.escape(p) for p in _sin_tildes(consulta).split()) + r"\b"
-    return re.search(patron_st, _sin_tildes(texto or ""), re.IGNORECASE) is not None
+    return p_st.search(_sin_tildes(raw)) is not None
 
 
 ALIAS_MATERIAS_DT: Dict[str, List[str]] = {
@@ -134,8 +162,30 @@ class DTClient:
     def get_index_ordinarios(self, use_cache: bool = True) -> List[Dict[str, str]]:
         """Descarga e indexa el listado maestro de Ordinarios y Dictámenes de la DT."""
         cache_file = self._get_cache_path("index_ordinarios_v2")  # v2: incluye la MATERIA de cada uno
-        data = leer_json_si_se_puede(cache_file) if use_cache else None
-        if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
+        abs_cache = os.path.abspath(cache_file)
+        fresco = use_cache and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS)
+        data: Any = None
+        if use_cache:
+            try:
+                st = os.stat(abs_cache)
+                cac = _INDEX_RAM_DT.get(abs_cache)
+                if cac is not None and cac[0] == st.st_mtime_ns and cac[1] == st.st_size:
+                    if fresco:
+                        return cac[2]
+                    data = cac[2]
+                else:
+                    leido = leer_json_si_se_puede(cache_file)
+                    if isinstance(leido, list):
+                        if len(_INDEX_RAM_DT) >= 8:
+                            _INDEX_RAM_DT.clear()
+                        _INDEX_RAM_DT[abs_cache] = (int(st.st_mtime_ns), int(st.st_size), leido, _preparar_filas_dt(leido))
+                        data = leido
+                        if fresco:
+                            return leido
+            except OSError:
+                data = None
+
+        if data is not None and fresco:
             return data
 
         url = f"{BASE_URL}/w3-propertyvalue-147182.html"
@@ -164,11 +214,20 @@ class DTClient:
 
         with open(cache_file, "w", encoding="utf-8") as f:
             json.dump(index_list, f, ensure_ascii=False, indent=2)
+        try:
+            st = os.stat(abs_cache)
+            if len(_INDEX_RAM_DT) >= 8:
+                _INDEX_RAM_DT.clear()
+            _INDEX_RAM_DT[abs_cache] = (int(st.st_mtime_ns), int(st.st_size), index_list, _preparar_filas_dt(index_list))
+        except OSError:
+            pass
 
         return index_list
 
     def descargar_pdf_oficial(self, article_id_or_url: str, pdf_url: Optional[str] = None) -> Optional[str]:
         """Descarga el PDF oficial firmado del dictamen u ordinario de la DT."""
+        from forensic_ocr import descargar_pdf_cacheado
+
         art_id = str(article_id_or_url).strip()
         m = re.search(r'article-([0-9]+)', art_id)
         if m:
@@ -178,24 +237,9 @@ class DTClient:
         else:
             clean_id = re.sub(r'[^0-9]+', '', art_id) or "doc"
 
-        dest_folder = pathlib.Path(self.cache_dir) / "descargas_pdf"
-        dest_folder.mkdir(parents=True, exist_ok=True)
-        target_path = dest_folder / f"dictamen_dt_{clean_id}.pdf"
-
-        if target_path.exists() and target_path.stat().st_size > 1000:
-            return str(target_path)
-
+        target_path = pathlib.Path(self.cache_dir) / "descargas_pdf" / f"dictamen_dt_{clean_id}.pdf"
         url = pdf_url or f"{BASE_URL}/articles-{clean_id}_recurso_pdf.pdf"
-        try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'OpenLegalChile/1.0 (Derecho Laboral Chile)'})
-            with safe_urlopen(req, timeout=30) as resp:
-                pdf_bytes = resp.read()
-            if len(pdf_bytes) > 1000:
-                target_path.write_bytes(pdf_bytes)
-                return str(target_path)
-        except Exception:
-            pass
-        return None
+        return descargar_pdf_cacheado(url, target_path, user_agent="OpenLegalChile/1.0 (Derecho Laboral Chile)")
 
     def get_dictamen_content(self, article_id_or_url: str, use_cache: bool = True) -> Dict[str, Any]:
         """Descarga y parsea el contenido completo, materias y doctrina de un dictamen de la DT."""
@@ -257,25 +301,10 @@ class DTClient:
             pdf_url = f"{BASE_URL}/articles-{article_id}_recurso_pdf.pdf"
 
         # Extraer texto profundo del PDF si el HTML sólo trae resumen
-        texto_pdf = ""
-        ruta_pdf_descargado = None
-        if pdf_url:
-            ruta_pdf_descargado = self.descargar_pdf_oficial(article_id, pdf_url=pdf_url)
-            if ruta_pdf_descargado:
-                try:
-                    import pymupdf
-                    pdf_doc: Any = pymupdf.open(ruta_pdf_descargado)
-                    t_paginas = [pdf_doc[i].get_text() for i in range(len(pdf_doc))]
-                    texto_extraido = "\n\n".join([t.strip() for t in t_paginas if t.strip()])
-                    if len(texto_extraido) > 80:
-                        texto_pdf = texto_extraido
-                    else:
-                        # Si es escaneado, aplicar OCR forense en las primeras páginas
-                        from forensic_ocr import ForensicOCREngine
-                        ocr_res = ForensicOCREngine().extract_from_pdf(ruta_pdf_descargado, start_page=1, end_page=min(4, len(pdf_doc)))
-                        texto_pdf = "\n\n".join([p.get("text", "") for p in ocr_res.get("pages", []) if p.get("text")]).strip()
-                except Exception:
-                    pass
+        from forensic_ocr import extraer_texto_pdf_con_ocr
+
+        ruta_pdf_descargado = self.descargar_pdf_oficial(article_id, pdf_url=pdf_url) if pdf_url else None
+        texto_pdf = extraer_texto_pdf_con_ocr(ruta_pdf_descargado)
 
         texto_integral = texto_pdf if len(texto_pdf) > 80 else "\n\n".join(clean_paragraphs)
 
@@ -362,67 +391,20 @@ class DTClient:
         ids_o_docs: List[Any],
         tema_relevante: Optional[str] = None,
         convertir_a_md: bool = True,
-        descargar_formato: Optional[str] = None
+        descargar_formato: Optional[str] = None,
     ) -> Dict[str, Any]:
-        """
-        Pipeline unificado para dictámenes de la Dirección del Trabajo:
-        1. Resuelve documentos (busca texto íntegro/OCR).
-        2. Convierte a Markdown Canónico (dictamen2md).
-        3. Ingesta en LegalGraphify.
-        4. Desglosa y rankea consideraciones con ResolucionesParserEngine.
-        """
-        from resolucion_administrativa2md import convertir_lote_dictamenes
-        from resoluciones_parser import ResolucionesParserEngine
-        from legal_graphify import LegalGraphifyEngine
+        """Pipeline unificado para dictámenes de la Dirección del Trabajo."""
+        from resoluciones_parser import procesar_y_graficar_lote
 
-        docs_procesar = []
-        for item in ids_o_docs:
-            if isinstance(item, str):
-                doc_obj = self.get_dictamen_integral(item, descargar_formato=descargar_formato)
-                docs_procesar.append(doc_obj)
-            elif isinstance(item, dict):
-                docs_procesar.append(item)
-
-        # Conversión a Markdown Canónico
-        rutas_md = []
-        if convertir_a_md:
-            try:
-                rutas_md = [str(p) for p in convertir_lote_dictamenes(docs_procesar)]
-                for i, r_path in enumerate(rutas_md):
-                    if i < len(docs_procesar):
-                        docs_procesar[i]["ruta_md"] = r_path
-            except Exception:
-                pass
-
-        # Ingesta en LegalGraphify
-        info_grafo = {}
-        try:
-            graph_engine = LegalGraphifyEngine()
-            insumos = rutas_md if rutas_md else docs_procesar
-            info_grafo = graph_engine.ingerir_lote_dictamenes(insumos, guardar_disco=False)
-        except Exception as e:
-            info_grafo = {"error": f"Error integrando con LegalGraphify: {str(e)}"}
-
-        # Análisis y citación canónica
-        parser_engine = ResolucionesParserEngine()
-        analisis = parser_engine.analizar_lote_resoluciones(docs_procesar, tema_relevante=tema_relevante)
-
-        return {
-            "organismo": "DT",
-            "total_dictamenes": len(docs_procesar),
-            "tema_relevante": tema_relevante or "General",
-            "citas_destacadas": analisis.get("citas_destacadas", []),
-            "grafo_impacto": {
-                "nodos_nuevos": info_grafo.get("nodos_nuevos_totales", 0),
-                "enlaces_nuevos": info_grafo.get("enlaces_nuevos_totales", 0),
-                "grafo_total": info_grafo.get("grafo", {})
-            },
-            "archivos_generados": {
-                "markdown": rutas_md,
-                "descargas_oficiales": [d.get("archivo_descargado") for d in docs_procesar if d.get("archivo_descargado")]
-            },
-            "detalle_dictamenes": analisis.get("documentos", [])
-        }
+        return procesar_y_graficar_lote(
+            ids_o_docs,
+            lambda item: self.get_dictamen_integral(item, descargar_formato=descargar_formato),
+            organismo="DT",
+            clave_total="total_dictamenes",
+            clave_detalle="detalle_dictamenes",
+            tema_relevante=tema_relevante,
+            convertir_a_md=convertir_a_md,
+        )
 
     def search_dictamenes(self, query: str, limit: int = 10) -> List[Dict[str, Any]]:
         """Busca dictámenes y ordinarios de la DT por número o por tema.
@@ -441,11 +423,16 @@ class DTClient:
         if index and isinstance(index[0], dict) and index[0].get("tipo") == "aviso":
             return index
 
+        abs_cache = os.path.abspath(self._get_cache_path("index_ordinarios_v2"))
+        cac = _INDEX_RAM_DT.get(abs_cache)
+        filas = cac[3] if (cac is not None and cac[2] is index) else _preparar_filas_dt(index)
+
         q = query.lower().strip()
+        pat_q = _patrones_coincidencia(q)
 
         por_numero = [
-            i for i in index
-            if q == str(i.get("numero", "")).lower() or _coincide(i.get("numero", ""), q)
+            item for item, num_raw, num_low, num_st, _, _, _ in filas
+            if q == num_low or _coincide_pre(pat_q, num_raw, num_st)
         ]
         if por_numero:
             results: List[Dict[str, Any]] = []
@@ -467,21 +454,21 @@ class DTClient:
             return results
 
         por_tema = [
-            i for i in index
-            if _coincide(i.get("materia", ""), q) or _coincide(i.get("numero", ""), q)
+            item for item, num_raw, _, num_st, mat_raw, mat_st, _ in filas
+            if _coincide_pre(pat_q, mat_raw, mat_st) or _coincide_pre(pat_q, num_raw, num_st)
         ]
         if por_tema:
             return por_tema[:limit]
 
         # Coincidencia multi-palabra (todos los tokens significativos presentes en cualquier orden)
         tokens_q = _tokens_significativos_dt(q)
+        coincidencias_parcial: List[tuple] = []
         if len(tokens_q) >= 2:
             coincidencias_all: List[Dict[str, Any]] = []
-            coincidencias_parcial: List[tuple] = []
-            for item in index:
-                texto_item = _sin_tildes(f"{item.get('numero', '')} {item.get('materia', '')}".lower())
-                hits = sum(1 for tok in tokens_q if re.search(rf"\b{re.escape(tok)}", texto_item))
-                if hits == len(tokens_q):
+            patrones_tok = [re.compile(rf"\b{re.escape(tok)}") for tok in tokens_q]
+            for item, _, _, _, _, _, combo_st in filas:
+                hits = sum(1 for pat in patrones_tok if pat.search(combo_st) is not None)
+                if hits == len(patrones_tok):
                     coincidencias_all.append(item)
                 elif hits > 0:
                     coincidencias_parcial.append((hits, item))
@@ -507,11 +494,12 @@ class DTClient:
             resultados_alias: List[Dict[str, Any]] = []
             vistos: set = set()
             for termino in terminos_respaldo:
-                for item in index:
-                    clave_item = item.get("articleId") or item.get("numero")
+                pat_termino = _patrones_coincidencia(termino.strip())
+                for item, num_raw, _, num_st, mat_raw, mat_st, _ in filas:
+                    clave_item = item.get("articleId") or num_raw
                     if clave_item in vistos:
                         continue
-                    if _coincide(item.get("materia", ""), termino) or _coincide(item.get("numero", ""), termino):
+                    if _coincide_pre(pat_termino, mat_raw, mat_st) or _coincide_pre(pat_termino, num_raw, num_st):
                         vistos.add(clave_item)
                         resultados_alias.append(item)
                         if len(resultados_alias) >= limit:

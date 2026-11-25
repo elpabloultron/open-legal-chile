@@ -22,6 +22,7 @@ from __future__ import annotations
 import json
 import os
 import sqlite3
+import threading
 import time
 import zlib
 from pathlib import Path
@@ -168,27 +169,50 @@ def reemplazar(origen: Path, destino: Path, intentos: int = 10) -> None:
 
 
 class Indice:
-    """Consultas de solo lectura sobre un índice armado. Abre una conexión por consulta
-    (`mode=ro&immutable=1`): sin bloqueos entre hilos y sin escribir nunca la base."""
+    """Consultas de solo lectura sobre un índice armado (`mode=ro&immutable=1`).
+
+    En POSIX reutiliza una conexión de solo lectura por hilo con PRAGMAs de rendimiento; en Windows
+    abre/cierra por consulta para no interferir con `os.replace`. `_con()` siempre abre una conexión
+    nueva para llamadores explícitos.
+    """
 
     def __init__(self, ruta: Path) -> None:
         self.ruta = ruta
         self._uri = ruta.resolve().as_uri() + "?mode=ro&immutable=1"
+        self._local = threading.local()
+        self._cache_lock = threading.Lock()
+        self._meta_cache: Optional[Dict[str, str]] = None
+        self._rutas_cache: Optional[Dict[str, str]] = None
 
     def _con(self) -> sqlite3.Connection:
         con = sqlite3.connect(self._uri, uri=True, check_same_thread=False)
         con.row_factory = sqlite3.Row
+        for pragma in (
+            "PRAGMA mmap_size=67108864;",
+            "PRAGMA cache_size=-16000;",
+            "PRAGMA temp_store=MEMORY;",
+        ):
+            con.execute(pragma)
         return con
 
     def _filas(self, sql: str, parametros: Tuple[Any, ...] = ()) -> List[sqlite3.Row]:
-        con = self._con()
-        try:
-            return list(con.execute(sql, parametros))
-        finally:
-            con.close()
+        if os.name == "nt":
+            con = self._con()
+            try:
+                return list(con.execute(sql, parametros))
+            finally:
+                con.close()
+        cached_con: Optional[sqlite3.Connection] = getattr(self._local, "con", None)
+        if cached_con is None:
+            cached_con = self._con()
+            self._local.con = cached_con
+        return list(cached_con.execute(sql, parametros))
 
     def meta(self) -> Dict[str, str]:
-        return {r["clave"]: r["valor"] for r in self._filas("SELECT clave, valor FROM meta")}
+        with self._cache_lock:
+            if self._meta_cache is None:
+                self._meta_cache = {r["clave"]: r["valor"] for r in self._filas("SELECT clave, valor FROM meta")}
+            return dict(self._meta_cache)
 
     def canonico(self, id_: str) -> str:
         r = self._filas("SELECT id FROM alias WHERE alias = ?", (id_,))
@@ -202,8 +226,11 @@ class Indice:
         return [_fila(r["fila"]) for r in filas]
 
     def entrada(self, id_: str) -> Optional[Dict[str, Any]]:
-        r = self.entradas([self.canonico(id_)])
-        return r[0] if r else None
+        r = self._filas(
+            "SELECT fila FROM entrada WHERE id = COALESCE((SELECT id FROM alias WHERE alias = ?), ?)",
+            (id_, id_),
+        )
+        return _fila(r[0]["fila"]) if r else None
 
     def por_ruta(self, ruta: str) -> Optional[Dict[str, Any]]:
         r = self._filas("SELECT fila FROM entrada WHERE ruta = ?", (ruta,))
@@ -211,7 +238,13 @@ class Indice:
 
     def rutas(self) -> Dict[str, str]:
         """{ruta: blob} de todo el dataset inventariado (reemplaza el listado del hub)."""
-        return {r["ruta"]: r["blob"] or "" for r in self._filas("SELECT ruta, blob FROM entrada WHERE ruta IS NOT NULL")}
+        with self._cache_lock:
+            if self._rutas_cache is None:
+                self._rutas_cache = {
+                    r["ruta"]: r["blob"] or ""
+                    for r in self._filas("SELECT ruta, blob FROM entrada WHERE ruta IS NOT NULL")
+                }
+            return dict(self._rutas_cache)
 
     def entidad(self, id_: str) -> Optional[Dict[str, Any]]:
         r = self._filas("SELECT fila FROM entidad WHERE id = ?", (self.canonico(id_),))

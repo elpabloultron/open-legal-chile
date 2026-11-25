@@ -7,30 +7,19 @@ vinculantes del Director del Servicio de Impuestos Internos de Chile.
 import os
 import sys
 import re
-import html
 import json
 import uuid
 import pathlib
 import urllib.request
 import urllib.parse
-import unicodedata
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from typing import Dict, Any, List, Optional
-from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
+from config import aviso_conector as _aviso, cache_fresco, leer_json_si_se_puede, safe_urlopen, sin_tildes as _sin_tildes_base, texto_plano as _texto_plano
 
 BASE_URL = "https://www.sii.cl/normativa_legislacion"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "sii_cache")
 _TTL_CACHE_SEGUNDOS = 30 * 24 * 60 * 60  # los índices del SII cambian lento: un mes
-
-
-def _texto_plano(trozo: str) -> str:
-    """HTML -> texto: sin etiquetas, sin entidades (&Oacute;), sin espacios repetidos."""
-    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", trozo or ""))).strip()
-
-
-def _aviso(titulo: str, mensaje: str) -> Dict[str, Any]:
-    """Un vacío se explica: una lista vacía y muda se lee como «no existe», que es otra cosa."""
-    return {"tipo": "aviso", "titulo": titulo, "mensaje": mensaje}
 
 
 def _texto_pdf(ruta: str) -> tuple:
@@ -61,8 +50,7 @@ _PALABRA = re.compile(r"\w+(?:[./-]\w+)*")
 
 
 def _sin_tildes(texto: str) -> str:
-    descompuesto = unicodedata.normalize("NFKD", texto or "")
-    return "".join(c for c in descompuesto if not unicodedata.combining(c)).lower()
+    return _sin_tildes_base(texto).lower()
 
 
 def _raiz(palabra: str) -> str:
@@ -589,20 +577,33 @@ class SIIClient:
         oficios_list: List[Dict[str, Any]] = []
         fallos: List[str] = []
 
-        for clave, (nombre_serie, carpeta) in SII_JADM_SERIES.items():
+        def _consultar_serie(clave: str, nombre_serie: str, carpeta: str) -> tuple:
             cuerpo = json.dumps({"key": clave, "year": str(anio)}).encode("utf-8")
             try:
                 req = urllib.request.Request(SII_JADM_API, data=cuerpo, headers=headers)
                 with safe_urlopen(req, timeout=45) as resp:
                     datos = json.loads(resp.read().decode("utf-8", errors="ignore"))
             except Exception as e:
-                fallos.append(f"{nombre_serie}: {e}")
-                continue
+                return [], f"{nombre_serie}: {e}"
+            items = [
+                _normalizar_oficio(dato, anio, nombre_serie, carpeta, BASE_URL)
+                for dato in (datos or []) if isinstance(dato, dict)
+            ]
+            return items, None
 
-            for dato in datos or []:
-                if isinstance(dato, dict):
-                    oficios_list.append(
-                        _normalizar_oficio(dato, anio, nombre_serie, carpeta, BASE_URL))
+        series = list(SII_JADM_SERIES.items())
+        if len(series) <= 1:
+            resultados_series = [_consultar_serie(c, ns, carp) for c, (ns, carp) in series]
+        else:
+            with ThreadPoolExecutor(max_workers=len(series)) as pool:
+                futs = [pool.submit(_consultar_serie, c, ns, carp) for c, (ns, carp) in series]
+                resultados_series = [fut.result() for fut in futs]
+
+        for items_serie, err in resultados_series:
+            if err:
+                fallos.append(err)
+            else:
+                oficios_list.extend(items_serie)
 
         if oficios_list:
             with open(cache_file, "w", encoding="utf-8") as f:
@@ -940,8 +941,18 @@ class SIIClient:
         puntuados: List[tuple] = []
         avisos: List[Dict[str, Any]] = []
 
-        for yr in anios:
-            for lista in (self.get_resoluciones_por_anio(yr), self.get_oficios_por_anio(yr)):
+        if len(anios) <= 1:
+            por_anio = [(self.get_resoluciones_por_anio(yr), self.get_oficios_por_anio(yr)) for yr in anios]
+        else:
+            with ThreadPoolExecutor(max_workers=min(8, len(anios) * 2)) as pool:
+                futs = [
+                    (pool.submit(self.get_resoluciones_por_anio, yr), pool.submit(self.get_oficios_por_anio, yr))
+                    for yr in anios
+                ]
+                por_anio = [(f_res.result(), f_ofi.result()) for f_res, f_ofi in futs]
+
+        for res_anio, ofi_anio in por_anio:
+            for lista in (res_anio, ofi_anio):
                 for item in lista:
                     if item.get("tipo") == "aviso":
                         avisos.append(item)
@@ -986,8 +997,15 @@ class SIIClient:
         puntuados: List[tuple] = []
         avisos: List[Dict[str, Any]] = []
 
-        for yr in anios:
-            for c in self.get_circulares_por_anio(yr):
+        if len(anios) <= 1:
+            por_anio = [self.get_circulares_por_anio(yr) for yr in anios]
+        else:
+            with ThreadPoolExecutor(max_workers=min(7, len(anios))) as pool:
+                futs = [pool.submit(self.get_circulares_por_anio, yr) for yr in anios]
+                por_anio = [fut.result() for fut in futs]
+
+        for circ_anio in por_anio:
+            for c in circ_anio:
                 if c.get("tipo") == "aviso":
                     avisos.append(c)
                     continue
@@ -1018,6 +1036,8 @@ class SIIClient:
 
     def descargar_circular_pdf(self, item_o_url: Any, destino: Optional[str] = None) -> Optional[str]:
         """Descarga el PDF oficial de una circular del SII."""
+        from forensic_ocr import descargar_pdf_cacheado
+
         pdf_url = ""
         numero = "doc"
         if isinstance(item_o_url, str):
@@ -1029,26 +1049,12 @@ class SIIClient:
             pdf_url = item_o_url.get("pdfUrl") or item_o_url.get("url") or ""
             numero = str(item_o_url.get("numero") or "doc")
 
-        if not pdf_url:
-            return None
-
-        dest_folder = pathlib.Path(self.cache_dir) / "descargas_pdf"
-        dest_folder.mkdir(parents=True, exist_ok=True)
-        target_path = pathlib.Path(destino) if destino else dest_folder / f"circular_sii_{numero}.pdf"
-
-        if target_path.exists() and target_path.stat().st_size > 1000:
-            return str(target_path)
-
-        try:
-            req = urllib.request.Request(pdf_url, headers={'User-Agent': 'OpenLegalChile/1.0 (Derecho Tributario Chile)'})
-            with safe_urlopen(req, timeout=30) as resp:
-                pdf_bytes = resp.read()
-            if len(pdf_bytes) > 1000:
-                target_path.write_bytes(pdf_bytes)
-                return str(target_path)
-        except Exception:
-            pass
-        return None
+        target_path = (
+            pathlib.Path(destino)
+            if destino
+            else pathlib.Path(self.cache_dir) / "descargas_pdf" / f"circular_sii_{numero}.pdf"
+        )
+        return descargar_pdf_cacheado(pdf_url, target_path, user_agent="OpenLegalChile/1.0 (Derecho Tributario Chile)")
 
     def get_circular_integral(self, numero_o_query: str, anio: Optional[int] = None, descargar_formato: Optional[str] = None) -> Dict[str, Any]:
         """Obtiene una circular del SII con texto integral (extraído de PDF u OCR), metadatos y citas."""
@@ -1068,24 +1074,11 @@ class SIIClient:
         if not match_item:
             return {"error": f"Circular '{numero_o_query}' no encontrada en el SII."}
 
+        from forensic_ocr import extraer_texto_pdf_con_ocr
+
         pdf_url = match_item.get("pdfUrl", "")
         ruta_pdf = self.descargar_circular_pdf(match_item) if pdf_url else None
-
-        texto_pdf = ""
-        if ruta_pdf:
-            try:
-                import pymupdf
-                pdf_doc: Any = pymupdf.open(ruta_pdf)
-                t_paginas = [pdf_doc[i].get_text() for i in range(len(pdf_doc))]
-                texto_extraido = "\n\n".join([t.strip() for t in t_paginas if t.strip()])
-                if len(texto_extraido) > 80:
-                    texto_pdf = texto_extraido
-                else:
-                    from forensic_ocr import ForensicOCREngine
-                    ocr_res = ForensicOCREngine().extract_from_pdf(ruta_pdf, start_page=1, end_page=min(4, len(pdf_doc)))
-                    texto_pdf = "\n\n".join([p.get("text", "") for p in ocr_res.get("pages", []) if p.get("text")]).strip()
-            except Exception:
-                pass
+        texto_pdf = extraer_texto_pdf_con_ocr(ruta_pdf)
 
         identificador = f"Circular N° {match_item.get('numero', q)}" if match_item.get("numero") else match_item.get("titulo", f"Circular SII {q}")
         materia = match_item.get("materia") or match_item.get("titulo") or ""
@@ -1140,21 +1133,9 @@ class SIIClient:
             if res_descarga.get("ok"):
                 ruta_pdf = target_file
 
-        texto_pdf = ""
-        if ruta_pdf:
-            try:
-                import pymupdf
-                pdf_doc: Any = pymupdf.open(ruta_pdf)
-                t_paginas = [pdf_doc[i].get_text() for i in range(len(pdf_doc))]
-                texto_extraido = "\n\n".join([t.strip() for t in t_paginas if t.strip()])
-                if len(texto_extraido) > 80:
-                    texto_pdf = texto_extraido
-                else:
-                    from forensic_ocr import ForensicOCREngine
-                    ocr_res = ForensicOCREngine().extract_from_pdf(ruta_pdf, start_page=1, end_page=min(4, len(pdf_doc)))
-                    texto_pdf = "\n\n".join([p.get("text", "") for p in ocr_res.get("pages", []) if p.get("text")]).strip()
-            except Exception:
-                pass
+        from forensic_ocr import extraer_texto_pdf_con_ocr
+
+        texto_pdf = extraer_texto_pdf_con_ocr(ruta_pdf)
 
         identificador = f"Oficio N° {match_item.get('numero', q)}" if match_item.get("numero") else match_item.get("titulo", f"Oficio SII {q}")
         materia = match_item.get("materia") or match_item.get("titulo") or ""
@@ -1186,61 +1167,25 @@ class SIIClient:
         tema_relevante: Optional[str] = None,
         tipo: str = "circular",
         convertir_a_md: bool = True,
-        descargar_formato: Optional[str] = None
+        descargar_formato: Optional[str] = None,
     ) -> Dict[str, Any]:
         """Pipeline unificado para circulares y oficios del SII."""
-        from resolucion_administrativa2md import convertir_lote_dictamenes
-        from resoluciones_parser import ResolucionesParserEngine
-        from legal_graphify import LegalGraphifyEngine
+        from resoluciones_parser import procesar_y_graficar_lote
 
-        docs_procesar = []
-        for item in ids_o_docs:
-            if isinstance(item, str):
-                if tipo == "oficio":
-                    doc_obj = self.get_oficio_integral(item, descargar_formato=descargar_formato)
-                else:
-                    doc_obj = self.get_circular_integral(item, descargar_formato=descargar_formato)
-                docs_procesar.append(doc_obj)
-            elif isinstance(item, dict):
-                docs_procesar.append(item)
-
-        rutas_md = []
-        if convertir_a_md:
-            try:
-                rutas_md = [str(p) for p in convertir_lote_dictamenes(docs_procesar)]
-                for i, r_path in enumerate(rutas_md):
-                    if i < len(docs_procesar):
-                        docs_procesar[i]["ruta_md"] = r_path
-            except Exception:
-                pass
-
-        info_grafo = {}
-        try:
-            graph_engine = LegalGraphifyEngine()
-            insumos = rutas_md if rutas_md else docs_procesar
-            info_grafo = graph_engine.ingerir_lote_dictamenes(insumos, guardar_disco=False)
-        except Exception as e:
-            info_grafo = {"error": f"Error integrando con LegalGraphify: {str(e)}"}
-
-        parser_engine = ResolucionesParserEngine()
-        analisis = parser_engine.analizar_lote_resoluciones(docs_procesar, tema_relevante=tema_relevante)
-
-        return {
-            "organismo": "SII",
-            "total_pronunciamientos": len(docs_procesar),
-            "tema_relevante": tema_relevante or "General",
-            "citas_destacadas": analisis.get("citas_destacadas", []),
-            "grafo_impacto": {
-                "nodos_nuevos": info_grafo.get("nodos_nuevos_totales", 0),
-                "enlaces_nuevos": info_grafo.get("enlaces_nuevos_totales", 0),
-                "grafo_total": info_grafo.get("grafo", {})
-            },
-            "archivos_generados": {
-                "markdown": rutas_md,
-                "descargas_oficiales": [d.get("archivo_descargado") for d in docs_procesar if d.get("archivo_descargado")]
-            },
-            "detalle_pronunciamientos": analisis.get("documentos", [])
-        }
+        resolver = (
+            (lambda item: self.get_oficio_integral(item, descargar_formato=descargar_formato))
+            if tipo == "oficio"
+            else (lambda item: self.get_circular_integral(item, descargar_formato=descargar_formato))
+        )
+        return procesar_y_graficar_lote(
+            ids_o_docs,
+            resolver,
+            organismo="SII",
+            clave_total="total_pronunciamientos",
+            clave_detalle="detalle_pronunciamientos",
+            tema_relevante=tema_relevante,
+            convertir_a_md=convertir_a_md,
+        )
 
 
 # ==============================================================================

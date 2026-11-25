@@ -9,14 +9,9 @@ if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de 
 
 
 def _refrescar() -> None:
-    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores).
-
-    Corre en cada despacho: los bloques movidos usan los mismos objetos vivos del servidor,
-    incluidas las sustituciones que hagan las pruebas con monkeypatch."""
-    from config import servidor_actual
-    _m = servidor_actual()
-    _g = globals()
-    _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
+    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores)."""
+    from servidor import refrescar_globals
+    refrescar_globals(globals(), _PROPIOS, _DEFAULTS_LAZY)
 
 
 TOOLS = [
@@ -39,7 +34,7 @@ TOOLS = [
             "type": "object",
             "properties": {
                 "consulta": {"type": "string", "description": "Consulta o caso de materia ambiental (ej. 'daño ambiental en humedales urbanos', 'sanción SMA por incumplimiento de RCA')"},
-                "limite": {"type": "integer", "description": "Máximo de resultados (por defecto 8)", "default": 8},
+                "limite": {"type": "integer", "description": "Máximo de resultados", "default": 8},
                 "incluir_subgrafo": {"type": "boolean", "description": "Añade el subgrafo de LegalGraphify con su ahorro de tokens (por defecto False: el primer subgrafo de cada proceso carga su índice)", "default": False}
             },
             "required": ["consulta"]
@@ -68,4 +63,8 @@ def despachar(name: str, args: dict) -> Any:
     return None
 
 
+from servidor import crear_proxies
+
 _PROPIOS = frozenset(globals())
+_DEFAULTS_LAZY = crear_proxies("ambientales_client", "enviar_progreso")
+globals().update(_DEFAULTS_LAZY)

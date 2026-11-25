@@ -7,13 +7,12 @@ Resoluciones y Oficios vinculantes para el mercado de valores, banca, seguros y 
 import os
 import sys
 import re
-import html
 import json
 import pathlib
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, List, Optional
-from config import cache_fresco, leer_json_si_se_puede, safe_urlopen
+from config import aviso_conector as _aviso, cache_fresco, leer_json_si_se_puede, safe_urlopen, sin_tildes as _sin_tildes, texto_plano as _texto_plano
 
 BASE_URL = "https://www.cmfchile.cl/portal/normativa/624"
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cmf_cache")
@@ -24,24 +23,6 @@ _TTL_SANCIONES_SEGUNDOS = 7 * 24 * 60 * 60   # sanciones: se publican al ritmo d
 # N° | FECHA | MATERIA | ARCHIVO, una tabla por mercado: S seguros, V valores, B bancos.
 BASE_SANCIONES = "https://www.cmfchile.cl/institucional/sanciones/sanciones_mercados_entidad.php"
 MERCADOS_SANCIONES = {"S": "seguros", "V": "valores", "B": "bancos"}
-
-
-import unicodedata
-
-
-def _sin_tildes(s: str) -> str:
-    """Elimina marcas de acentuación diacrítica para comparaciones tolerantes a tildes."""
-    return "".join(c for c in unicodedata.normalize("NFD", s or "") if unicodedata.category(c) != "Mn")
-
-
-def _texto_plano(trozo: str) -> str:
-    """HTML -> texto: sin etiquetas, sin entidades (&Oacute;), sin espacios repetidos."""
-    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", trozo or ""))).strip()
-
-
-def _aviso(titulo: str, mensaje: str) -> Dict[str, Any]:
-    """Un vacío se explica: una lista vacía y muda se lee como «no existe», que es otra cosa."""
-    return {"tipo": "aviso", "titulo": titulo, "mensaje": mensaje}
 
 
 def _coincide(texto: str, consulta: str) -> bool:
@@ -327,26 +308,11 @@ class CMFClient:
 
     def descargar_documento_cmf(self, doc_url: str, identificador: str = "doc") -> Optional[str]:
         """Descarga el PDF oficial de una norma o sanción de la CMF."""
-        if not doc_url:
-            return None
+        from forensic_ocr import descargar_pdf_cacheado
+
         clean_id = re.sub(r'[^0-9]+', '_', str(identificador)).strip('_') or "doc"
-        dest_folder = pathlib.Path(self.cache_dir) / "descargas_pdf"
-        dest_folder.mkdir(parents=True, exist_ok=True)
-        target_path = dest_folder / f"cmf_{clean_id}.pdf"
-
-        if target_path.exists() and target_path.stat().st_size > 1000:
-            return str(target_path)
-
-        try:
-            req = urllib.request.Request(doc_url, headers={'User-Agent': 'OpenLegalChile/1.0 (Derecho Financiero Chile)'})
-            with safe_urlopen(req, timeout=30) as resp:
-                pdf_bytes = resp.read()
-            if len(pdf_bytes) > 1000:
-                target_path.write_bytes(pdf_bytes)
-                return str(target_path)
-        except Exception:
-            pass
-        return None
+        target_path = pathlib.Path(self.cache_dir) / "descargas_pdf" / f"cmf_{clean_id}.pdf"
+        return descargar_pdf_cacheado(doc_url, target_path, user_agent="OpenLegalChile/1.0 (Derecho Financiero Chile)")
 
     def get_normativa_integral(self, numero_o_titulo: str, descargar_formato: Optional[str] = None) -> Dict[str, Any]:
         """Obtiene una norma o sanción CMF con texto integral y metadatos."""
@@ -375,22 +341,10 @@ class CMFClient:
         m_num = re.search(r'N[°ºo\.\s]*([0-9]+)', match_item.get("titulo", "") or match_item.get("numero", ""), re.IGNORECASE)
         identificador = m_num.group(1) if m_num else str(match_item.get("numero") or q)
 
+        from forensic_ocr import extraer_texto_pdf_con_ocr
+
         ruta_pdf = self.descargar_documento_cmf(pdf_url, identificador=identificador) if pdf_url else None
-        texto_pdf = ""
-        if ruta_pdf:
-            try:
-                import pymupdf
-                pdf_doc: Any = pymupdf.open(ruta_pdf)
-                t_paginas = [pdf_doc[i].get_text() for i in range(len(pdf_doc))]
-                texto_extraido = "\n\n".join([t.strip() for t in t_paginas if t.strip()])
-                if len(texto_extraido) > 80:
-                    texto_pdf = texto_extraido
-                else:
-                    from forensic_ocr import ForensicOCREngine
-                    ocr_res = ForensicOCREngine().extract_from_pdf(ruta_pdf, start_page=1, end_page=min(4, len(pdf_doc)))
-                    texto_pdf = "\n\n".join([p.get("text", "") for p in ocr_res.get("pages", []) if p.get("text")]).strip()
-            except Exception:
-                pass
+        texto_pdf = extraer_texto_pdf_con_ocr(ruta_pdf)
 
         tipo_acto = "NCG" if "ncg" in match_item.get("titulo", "").lower() else "Resolución"
         materia = match_item.get("materia") or match_item.get("titulo") or ""
@@ -421,58 +375,20 @@ class CMFClient:
         ids_o_docs: List[Any],
         tema_relevante: Optional[str] = None,
         convertir_a_md: bool = True,
-        descargar_formato: Optional[str] = None
+        descargar_formato: Optional[str] = None,
     ) -> Dict[str, Any]:
         """Pipeline unificado para normativa y sanciones de la CMF."""
-        from resolucion_administrativa2md import convertir_lote_dictamenes
-        from resoluciones_parser import ResolucionesParserEngine
-        from legal_graphify import LegalGraphifyEngine
+        from resoluciones_parser import procesar_y_graficar_lote
 
-        docs_procesar = []
-        for item in ids_o_docs:
-            if isinstance(item, str):
-                doc_obj = self.get_normativa_integral(item, descargar_formato=descargar_formato)
-                docs_procesar.append(doc_obj)
-            elif isinstance(item, dict):
-                docs_procesar.append(item)
-
-        rutas_md = []
-        if convertir_a_md:
-            try:
-                rutas_md = [str(p) for p in convertir_lote_dictamenes(docs_procesar)]
-                for i, r_path in enumerate(rutas_md):
-                    if i < len(docs_procesar):
-                        docs_procesar[i]["ruta_md"] = r_path
-            except Exception:
-                pass
-
-        info_grafo = {}
-        try:
-            graph_engine = LegalGraphifyEngine()
-            insumos = rutas_md if rutas_md else docs_procesar
-            info_grafo = graph_engine.ingerir_lote_dictamenes(insumos, guardar_disco=False)
-        except Exception as e:
-            info_grafo = {"error": f"Error integrando con LegalGraphify: {str(e)}"}
-
-        parser_engine = ResolucionesParserEngine()
-        analisis = parser_engine.analizar_lote_resoluciones(docs_procesar, tema_relevante=tema_relevante)
-
-        return {
-            "organismo": "CMF",
-            "total_normas": len(docs_procesar),
-            "tema_relevante": tema_relevante or "General",
-            "citas_destacadas": analisis.get("citas_destacadas", []),
-            "grafo_impacto": {
-                "nodos_nuevos": info_grafo.get("nodos_nuevos_totales", 0),
-                "enlaces_nuevos": info_grafo.get("enlaces_nuevos_totales", 0),
-                "grafo_total": info_grafo.get("grafo", {})
-            },
-            "archivos_generados": {
-                "markdown": rutas_md,
-                "descargas_oficiales": [d.get("archivo_descargado") for d in docs_procesar if d.get("archivo_descargado")]
-            },
-            "detalle_normas": analisis.get("documentos", [])
-        }
+        return procesar_y_graficar_lote(
+            ids_o_docs,
+            lambda item: self.get_normativa_integral(item, descargar_formato=descargar_formato),
+            organismo="CMF",
+            clave_total="total_normas",
+            clave_detalle="detalle_normas",
+            tema_relevante=tema_relevante,
+            convertir_a_md=convertir_a_md,
+        )
 
 
 # ==============================================================================

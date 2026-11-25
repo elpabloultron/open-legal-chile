@@ -10,14 +10,9 @@ if TYPE_CHECKING:  # pragma: no cover — los bloques usan los objetos vivos de 
 
 
 def _refrescar() -> None:
-    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores).
-
-    Corre en cada despacho: los bloques movidos usan los mismos objetos vivos del servidor,
-    incluidas las sustituciones que hagan las pruebas con monkeypatch."""
-    from config import servidor_actual
-    _m = servidor_actual()
-    _g = globals()
-    _g.update({k: v for k, v in vars(_m).items() if k not in _PROPIOS})
+    """Trae los nombres compartidos de mcp_server.py (helpers, clientes, motores)."""
+    from servidor import refrescar_globals
+    refrescar_globals(globals(), _PROPIOS, _DEFAULTS_LAZY)
 
 
 TOOLS = [
@@ -70,7 +65,7 @@ TOOLS = [
     },
     {
         "name": "agent_list",
-        "description": "Lista el catálogo de los 17 agentes jurídicos especializados de Open Legal Chile con sus descripciones, competencias forenses y herramientas asignadas.",
+        "description": "Lista el catálogo de los 19 agentes jurídicos especializados de Open Legal Chile con sus descripciones, competencias forenses y herramientas asignadas.",
         "inputSchema": {
             "type": "object",
             "properties": {}
@@ -111,7 +106,7 @@ TOOLS = [
             "properties": {
                 "target_dir": {
                     "type": "string",
-                    "description": "Directorio destino para guardar los archivos de configuración (opcional)"
+                    "description": "Directorio destino para guardar los archivos de configuración"
                 }
             }
         }
@@ -280,4 +275,8 @@ def despachar(name: str, args: dict) -> Any:
     return None
 
 
+from servidor import crear_proxies
+
 _PROPIOS = frozenset(globals())
+_DEFAULTS_LAZY = crear_proxies("case_intake", "nlm_client")
+globals().update(_DEFAULTS_LAZY)

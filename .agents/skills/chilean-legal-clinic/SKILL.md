@@ -1,6 +1,6 @@
 ---
 name: chilean-legal-clinic
-description: Especialista en Asistencia Jurídica Social (Consultorios CAJ y Clínicas Jurídicas de Chile) y Traducción a Lenguaje Claro: orientación socio-jurídica ciudadana, evaluación de privilegio de pobreza (Arts. 591 a 600 COT y Arts. 129 a 137 CPC), derecho de familia, arrendamiento y consumidor.
+description: "Especialista en Asistencia Jurídica Social (Consultorios CAJ y Clínicas Jurídicas de Chile) y Traducción a Lenguaje Claro: orientación socio-jurídica ciudadana, evaluación de privilegio de pobreza (Arts. 591 a 600 COT y Arts. 129 a 137 CPC), derecho de familia, arrendamiento y consumidor."
 ---
 
 # Habilidad: Clínica Jurídica, Consultorios CAJ y Lenguaje Claro (chilean-legal-clinic)
@@ -13,10 +13,8 @@ description: Especialista en Asistencia Jurídica Social (Consultorios CAJ y Cl�
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (ficha de atención ciudadana, minuta de orientación en lenguaje claro, solicitud de privilegio de pobreza): se entregan en **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que viene de varias fuentes se cita con todas.
+- **Documentos** (ficha de atención ciudadana, minuta de orientación en lenguaje claro, solicitud de privilegio de pobreza): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Norma legal: `[BCN - Código Civil, Art. <Número>]` o `[BCN - Ley N° 19.968, Art. <Número>]` (Tribunales de Familia)
@@ -34,7 +32,7 @@ En los dos casos: si no hay fuente identificable se dice «sin fuente verificabl
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** personas usuarias sin formación jurídica que acuden a un consultorio jurídico gratuito, postulantes en práctica profesional de la CAJ y profesores supervisores de clínica jurídica.
 - **Lenguaje claro:** el primer término técnico de cada respuesta va siempre con su explicación cotidiana entre paréntesis — `mediación familiar previa (reunión obligatoria ante un mediador registrado antes de presentar una demanda de pensión de alimentos, cuidado personal o relación directa y regular, exigida por el Art. 106 de la Ley N.° 19.968)`.

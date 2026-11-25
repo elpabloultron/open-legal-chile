@@ -8,15 +8,19 @@ más HTML/MD/TXT/JSON — nunca PDF como entregable de trabajo.
 """
 from __future__ import annotations
 
+import base64
+import functools
 import html
 import json
 import os
 import re
-import unicodedata
+import threading
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 
 from citas_legales import bloque_fuentes, detectar_normas
+from config import sin_tildes as _sin_acentos
 from exporters import EXPORTS_DIR
 
 ESTRUCTURA = ["I. Cuestión jurídica planteada", "II. Los hechos", "III. Marco normativo vigente",
@@ -44,11 +48,6 @@ def _limpiar(texto: Any) -> str:
 _TERMINOS_GENERICOS = {"procedente", "cautelares", "cautelar", "medida", "medidas", "recurso", "recursos",
                        "sentencia", "sentencias", "denuncia", "denunciar", "presente", "solicita", "objeto",
                        "respecto", "efectos", "mediante", "acuerdo", "conforme", "puede", "debe", "tiene"}
-
-
-def _sin_acentos(texto: str) -> str:
-    """Sin tildes: «adopción» calza con «adopcion»."""
-    return "".join(c for c in unicodedata.normalize("NFKD", texto) if not unicodedata.combining(c))
 
 
 def _calza_doctrina(entrada: Dict[str, Any], claves: List[str]) -> bool:
@@ -85,12 +84,24 @@ def _doctrina_para(termino: str, limite: int = _MAX_DOCTRINA) -> List[Dict[str, 
         return []
 
 
+_PJUD_LOCK = threading.Lock()
+_PJUD_CLIENT: Any = None
+
+
+def _pjud_client() -> Any:
+    global _PJUD_CLIENT
+    if _PJUD_CLIENT is None:
+        with _PJUD_LOCK:
+            if _PJUD_CLIENT is None:
+                from pjud_connector import PJUDClient
+                _PJUD_CLIENT = PJUDClient()
+    return _PJUD_CLIENT
+
+
 def _fallos_rectores(consulta: str, limite: int) -> List[Dict[str, Any]]:
     """Los fallos rectores CS/TC del índice local, con la forma de los resultados ambientales."""
-    from pjud_connector import PJUDClient
-
     resultados: List[Dict[str, Any]] = []
-    for r in PJUDClient().search_jurisprudencia(consulta, limit=limite):
+    for r in _pjud_client().search_jurisprudencia(consulta, limit=limite):
         if r.get("error") or not _limpiar(r.get("doctrina")):
             continue
         prefijo = "TC" if "Constitucional" in str(r.get("tribunal") or "") else "CS"
@@ -100,7 +111,7 @@ def _fallos_rectores(consulta: str, limite: int) -> List[Dict[str, Any]]:
             cita += f" {r['caratula']}"
         resultados.append({"coleccion": "fallos_rectores", "titulo": r.get("caratula") or r.get("materia") or "",
                            "tipo": r.get("materia") or "", "fragmento": _limpiar(r.get("doctrina")),
-                           "cita": cita, "enlace": r.get("link") or ""})
+                           "cita": cita, "enlace": r.get("url_huggingface") or r.get("link") or ""})
     return resultados
 
 
@@ -250,9 +261,37 @@ def exportar_informe_en_derecho(
         advertencias.append(f"El análisis jurídico es escueto ({len(analisis)} caracteres): "
                             "se recomienda desarrollar la subsunción y los contraargumentos.")
 
-    # III. Normas: transcripción literal + cita (regla: no se cita sin texto)
+    # III, V y VI · Normas, material local y doctrina en paralelo (consultas independientes)
     referencias = _normas_del_caso(objeto, texto_hechos, derecho, list(normas or []))
-    lote = _textos_de_normas(referencias) if referencias else {"citas": [], "faltantes": []}
+    entradas_doctrina = [d for d in (doctrina or []) if _limpiar(d.get("texto"))]
+    entradas_juris = [j for j in (jurisprudencia or []) if _limpiar(j.get("texto"))]
+    necesita_material = not entradas_doctrina or not entradas_juris
+    necesita_doctrina = not entradas_doctrina
+
+    tareas_activas = int(bool(referencias)) + int(necesita_material) + int(necesita_doctrina)
+    lote: Dict[str, Any] = {"citas": [], "faltantes": []}
+    material: Dict[str, List[Dict[str, Any]]] = {"jurisprudencia": [], "doctrina": []}
+    doctrina_auto: List[Dict[str, Any]] = []
+
+    if tareas_activas >= 2:
+        with ThreadPoolExecutor(max_workers=3) as pool:
+            fut_normas = pool.submit(_textos_de_normas, referencias) if referencias else None
+            fut_mat = pool.submit(_material_local, f"{objeto} {texto_hechos[:200]}".strip()) if necesita_material else None
+            fut_doc = pool.submit(_doctrina_para, objeto[:120] or materia) if necesita_doctrina else None
+            if fut_normas is not None:
+                lote = fut_normas.result()
+            if fut_mat is not None:
+                material = fut_mat.result()
+            if fut_doc is not None:
+                doctrina_auto = fut_doc.result()
+    else:
+        if referencias:
+            lote = _textos_de_normas(referencias)
+        if necesita_material:
+            material = _material_local(f"{objeto} {texto_hechos[:200]}".strip())
+        if necesita_doctrina:
+            doctrina_auto = _doctrina_para(objeto[:120] or materia)
+
     citas_normas = list(lote.get("citas") or [])
     faltantes.extend(lote.get("faltantes") or [])
     for cita in citas_normas:
@@ -260,13 +299,6 @@ def exportar_informe_en_derecho(
             cita["texto"] = cita["texto"][:_TOPE_TEXTO].rstrip() + "…"
             advertencias.append(f"Se recorta {cita['formato']} a {_TOPE_TEXTO} caracteres "
                                 "(texto mayor que un artículo: se transcribe lo esencial y el enlace).")
-
-    # V y VI · Doctrina y jurisprudencia: las entregadas o, si no, el material local del producto
-    entradas_doctrina = [d for d in (doctrina or []) if _limpiar(d.get("texto"))]
-    entradas_juris = [j for j in (jurisprudencia or []) if _limpiar(j.get("texto"))]
-    material: Dict[str, List[Dict[str, Any]]] = {"jurisprudencia": [], "doctrina": []}
-    if not entradas_doctrina or not entradas_juris:
-        material = _material_local(f"{objeto} {texto_hechos[:200]}".strip())
 
     if not entradas_juris:
         entradas_juris = list(material["jurisprudencia"])[:4]
@@ -284,7 +316,7 @@ def exportar_informe_en_derecho(
         claves = [t for t in re.findall(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ-]{6,}", objeto.lower())
                   if t not in _TERMINOS_GENERICOS]
         entradas_doctrina = [d for d in material["doctrina"][:3] if _limpiar(d.get("texto"))]
-        for d in _doctrina_para(objeto[:120] or materia):
+        for d in doctrina_auto:
             if not _limpiar(d.get("texto")):
                 continue
             if not claves or _calza_doctrina(d, claves):
@@ -318,8 +350,9 @@ def exportar_informe_en_derecho(
     lineas += ["## III. Marco normativo vigente", ""]
     if citas_normas:
         for cita in citas_normas:
+            cita_txt = cita.get("cita_completa") or f"{cita['formato']} {cita.get('url', '')}".strip()
             lineas += [f"**{cita['formato']}**", ""] + _bloque_cita(cita["texto"])
-            lineas += [f"Cita: {cita['cita_completa']}", ""]
+            lineas += [f"Cita: {cita_txt}", ""]
     else:
         lineas += ["_No se detectaron normas citables en el caso (sin fuente verificable)._", ""]
     normas_faltantes = [f for f in faltantes if f not in ("doctrina", "jurisprudencia")]
@@ -397,19 +430,13 @@ def exportar_informe_en_derecho(
     }
 
 
+@functools.lru_cache(maxsize=1)
 def _generar_qr_base64() -> str:
     """Devuelve el código QR institucional en formato PNG base64 para incrustar en HTML."""
     try:
-        import base64
-        import io
-        import qrcode
-        qr = qrcode.QRCode(version=1, box_size=3, border=1)
-        qr.add_data("https://elpabloultron.github.io/open-legal-chile/")
-        qr.make(fit=True)
-        img = qr.make_image(fill_color="black", back_color="white")
-        buf = io.BytesIO()
-        img.save(buf, format="PNG")
-        return base64.b64encode(buf.getvalue()).decode("utf-8")
+        from docx_compiler import qr_institucional_png
+        datos = qr_institucional_png()
+        return base64.b64encode(datos).decode("utf-8") if datos else ""
     except Exception:
         return ""
 

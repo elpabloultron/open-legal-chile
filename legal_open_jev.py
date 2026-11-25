@@ -666,51 +666,13 @@ class LegalOpenJevEngine:
         return dias_habiles
 
     @staticmethod
-    def contar_dias_habiles_civiles(fecha_inicio: dt.date, fecha_fin: dt.date) -> int:
-        """
-        Cuenta los días hábiles en sede civil ordinaria (Art. 66 CPC).
-        Son hábiles de lunes a sábado, excluyendo únicamente domingos y feriados legales.
-        """
-        if fecha_inicio > fecha_fin:
-            return 0
-
-        dias_habiles = 0
-        actual = fecha_inicio + dt.timedelta(days=1)
-        while actual <= fecha_fin:
-            if actual.weekday() != 6 and (actual.month, actual.day) not in FERIADOS_CHILE_FIJOS:
-                dias_habiles += 1
-            actual += dt.timedelta(days=1)
-
-        return dias_habiles
-
-    @staticmethod
     def _validar_rut_m11(rut_str: str) -> Tuple[bool, str]:
-        """Algoritmo oficial Módulo 11 de validación del RUN/RUT de la República de Chile."""
-        limpio = re.sub(r"[^0-9kK]", "", rut_str).upper()
-        if len(limpio) < 2:
-            return False, "RUT demasiado corto"
+        """Delega la validación Módulo 11 en `entes_publicos.validar_rut`."""
+        from entes_publicos import validar_rut
 
-        cuerpo, dv = limpio[:-1], limpio[-1]
-        try:
-            cuerpo_num = int(cuerpo)
-        except ValueError:
-            return False, "Cuerpo de RUT no numérico"
-
-        suma = 0
-        multiplicador = 2
-        for d in reversed(str(cuerpo_num)):
-            suma += int(d) * multiplicador
-            multiplicador = 2 if multiplicador == 7 else multiplicador + 1
-
-        resto = suma % 11
-        dv_esperado = 11 - resto
-        if dv_esperado == 11:
-            dv_calc = "0"
-        elif dv_esperado == 10:
-            dv_calc = "K"
-        else:
-            dv_calc = str(dv_esperado)
-
-        es_valido = (dv == dv_calc)
-        detalle = f"RUT {cuerpo_num:,}-{dv} {'válido' if es_valido else f'inválido (DV esperado: {dv_calc})'}"
-        return es_valido, detalle
+        res = validar_rut(rut_str)
+        if res.get("valido"):
+            return True, f"RUT {res['rut_canonico']} válido"
+        if res.get("cuerpo") and res.get("dv_esperado"):
+            return False, f"RUT {res['cuerpo']:,}-{res['dv']} inválido (DV esperado: {res['dv_esperado']})"
+        return False, str(res.get("error") or "RUT inválido")

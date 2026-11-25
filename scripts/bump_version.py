@@ -43,6 +43,21 @@ FILES = {
         r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"',
         r'openlegal-chile==([0-9]+\.[0-9]+\.[0-9]+)'
     ],
+    ".codex-plugin/plugin.json": [
+        r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"'
+    ],
+    ".codex-plugin/mcp.json": [
+        r'openlegal-chile==([0-9]+\.[0-9]+\.[0-9]+)'
+    ],
+    ".agents/plugins/marketplace.json": [
+        r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"'
+    ],
+    "plugin.json": [
+        r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"'
+    ],
+    "mcp_config.json": [
+        r'openlegal-chile==([0-9]+\.[0-9]+\.[0-9]+)'
+    ],
     "gemini-extension.json": [
         r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"',
         r'openlegal-chile==([0-9]+\.[0-9]+\.[0-9]+)'

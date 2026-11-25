@@ -11,6 +11,7 @@ import json
 import os
 import pathlib
 import re
+import subprocess  # nosec B404
 import sys
 import time
 import urllib.request
@@ -21,7 +22,118 @@ ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
 sys.path.insert(0, str(ROOT_DIR))
 from config import safe_urlopen
 
-from scripts.convert_rdpucv_to_md import inferir_area, extraer_instituciones_y_normas, limpiar_texto_articulo, extraer_texto_pdf
+AREAS_KEYWORDS = {
+    "civil": [
+        "codigo civil", "contrato", "obligacion", "responsabilidad civil", "danos", "propiedad",
+        "dominio", "posesion", "prescripcion", "herencia", "testamento", "sucesorio", "familia",
+        "matrimonio", "arrendamiento", "compraventa", "hipoteca", "prenda", "bienes", "acto juridico",
+    ],
+    "constitucional": [
+        "constitucion", "derecho fundamental", "recurso de proteccion", "tribunal constitucional",
+        "soberania", "cpr", "derechos humanos", "garantias constitucionales", "accion de proteccion",
+    ],
+    "administrativo": [
+        "administracion publica", "acto administrativo", "procedimiento administrativo", "cgr",
+        "contraloria", "sancion administrativa", "urbanismo", "plan regulador", "expropiacion",
+        "servicio publico", "desviacion de poder", "responsabilidad del estado", "ley 19.880",
+    ],
+    "comercial": [
+        "codigo de comercio", "sociedad", "spa", "sociedad anonima", "concursal", "quiebra",
+        "insolvencia", "titulos de credito", "letra de cambio", "pagare", "seguros", "consumidor",
+    ],
+    "laboral": [
+        "codigo del trabajo", "trabajador", "empleador", "despido", "finiquito", "remuneracion",
+        "huelga", "sindicato", "ley karin", "direccion del trabajo", "accidente del trabajo",
+    ],
+    "penal": [
+        "codigo penal", "delito", "pena", "tipicidad", "antijuridicidad", "culpabilidad",
+        "homicidio", "estafa", "lavado de activos", "corrupcion", "prescripcion penal",
+    ],
+    "procesal": [
+        "codigo de procedimiento civil", "cpc", "demanda", "excepcion", "prueba", "sentencia",
+        "recurso de apelacion", "casacion", "tribunal", "jurisdiccion", "debido proceso", "cpp",
+    ],
+    "ambiental": [
+        "medio ambiente", "ley 19.300", "seia", "sma", "tribunal ambiental", "dano ambiental",
+        "evaluacion de impacto ambiental", "humedal", "snifa", "norma de emision",
+    ],
+}
+
+
+def inferir_area(titulo: str, texto: str) -> str:
+    """Clasifica el artículo en un área dogmática según vocabulario y citas normativas."""
+    corpus_eval = titulo.lower() + " " + texto[:4000].lower()
+    puntuaciones: Dict[str, int] = {
+        area: sum(2 if kw in titulo.lower() else 1 for kw in kws if kw in corpus_eval)
+        for area, kws in AREAS_KEYWORDS.items()
+    }
+    mejor_area = max(puntuaciones, key=lambda k: puntuaciones[k])
+    return mejor_area if puntuaciones[mejor_area] > 0 else "civil"
+
+
+def extraer_texto_pdf(pdf_path: pathlib.Path) -> str:
+    """Extrae texto desde un PDF intentando primero pdftotext -layout, luego PyMuPDF y pypdf."""
+    try:
+        proc = subprocess.run(  # nosec B603, B607
+            ["pdftotext", "-layout", str(pdf_path), "-"],
+            capture_output=True, text=True, timeout=30, check=False,
+        )
+        if proc.returncode == 0 and len(proc.stdout.strip()) > 300:
+            return proc.stdout
+    except Exception:
+        pass
+    try:
+        import fitz  # type: ignore
+        doc = fitz.open(str(pdf_path))
+        texto = "\n\n".join(p.get_text() for p in doc).strip()
+        doc.close()
+        if len(texto) > 300:
+            return texto
+    except Exception:
+        pass
+    try:
+        import pypdf
+        reader = pypdf.PdfReader(str(pdf_path))
+        texto = "\n\n".join(p.extract_text() or "" for p in reader.pages).strip()
+        if len(texto) > 300:
+            return texto
+    except Exception:
+        pass
+    return ""
+
+
+def limpiar_texto_articulo(texto: str) -> str:
+    """Limpia saltos de línea huérfanos, numeración repetitiva y encabezados de página."""
+    texto = re.sub(r"(\w+)-\s*\n\s*(\w+)", r"\1\2", texto.replace("\x0c", "\n\n"))
+    for p in (
+        r"Pro Jure Revista de Derecho.*?\n",
+        r"Revista de Derecho de la Pontificia Universidad Católica de Valparaíso.*?\n",
+        r"Revista de Derecho PUCV.*?\n",
+    ):
+        texto = re.sub(p, "", texto, flags=re.IGNORECASE)
+    return re.sub(r"\n{3,}", "\n\n", texto).strip()
+
+
+def extraer_instituciones_y_normas(texto: str) -> Tuple[List[str], List[str]]:
+    """Detecta instituciones jurídicas clave y artículos de códigos chilenos citados."""
+    normas: List[str] = []
+    for c in re.findall(r"(?:art(?:ículo|\.)?\s*(\d+)\s*(?:inc(?:iso|\.)?\s*\d+)?\s*(?:del\s*)?(?:código civil|c\.?\s*c\.?))", texto, re.IGNORECASE)[:10]:
+        normas.append(f"[BCN - Código Civil, Art. {c}]")
+    for c in re.findall(r"(?:art(?:ículo|\.)?\s*(\d+)\s*(?:n[°º]?\s*\d+)?\s*(?:de la\s*)?(?:constitución|cpr))", texto, re.IGNORECASE)[:5]:
+        normas.append(f"[CPR 1980 - Art. {c}]")
+    for c in re.findall(r"(?:ley\s*n?[°º]?\s*(\d{2}\.\d{3}))", texto, re.IGNORECASE)[:5]:
+        normas.append(f"[BCN - Ley N° {c}]")
+    vocabulario = (
+        "Buena fe", "Responsabilidad contractual", "Responsabilidad extracontractual",
+        "Daño moral", "Daño emergente", "Lucro cesante", "Cláusula penal",
+        "Enriquecimiento sin causa", "Prescripción extintiva", "Dominio", "Posesión",
+        "Tradición", "Acto jurídico", "Nulidad absoluta", "Nulidad relativa",
+        "Desviación de poder", "Debido proceso", "Principio de legalidad",
+        "Proporcionalidad", "Confianza legítima", "Fuerza mayor", "Caso fortuito",
+    )
+    corpus_lower = texto.lower()
+    instituciones = [inst for inst in vocabulario if inst.lower() in corpus_lower]
+    return list(dict.fromkeys(instituciones)), list(dict.fromkeys(normas))
 
 DATA_DIR = ROOT_DIR / "data" / "rdpucv"
 SCIELO_PDF_DIR = DATA_DIR / "pdfs_scielo"

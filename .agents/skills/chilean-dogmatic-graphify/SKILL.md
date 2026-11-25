@@ -1,6 +1,6 @@
 ---
 name: chilean-dogmatic-graphify
-description: Especialista en Subsunción Dogmática y Grafo de Conocimiento Jurídico (LegalGraphify): navegación de 228 tratados doctrinales chilenos, 21 guías de la Academia Judicial, extracción de subgrafos con Personalized PageRank (PPR) y análisis topológico de radio de impacto normativo (blast radius).
+description: "Especialista en Subsunción Dogmática y Grafo de Conocimiento Jurídico (LegalGraphify): navegación de 228 tratados doctrinales chilenos, 21 guías de la Academia Judicial, extracción de subgrafos con Personalized PageRank (PPR) y análisis topológico de radio de impacto normativo (blast radius)."
 ---
 
 # Habilidad: Subsunción Dogmática y LegalGraphify (chilean-dogmatic-graphify)
@@ -13,10 +13,8 @@ description: Especialista en Subsunción Dogmática y Grafo de Conocimiento Jur�
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (informe en derecho, minuta dogmática, análisis de impacto normativo): se entregan en **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que viene de varias fuentes se cita con todas.
+- **Documentos** (informe en derecho, minuta dogmática, análisis de impacto normativo): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Doctrina canónica: `[Doctrina - <Autor>, <Tratado>, Institución: <Nombre>]`
@@ -37,7 +35,7 @@ En los dos casos: si no hay fuente identificable se dice «sin fuente verificabl
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** abogados litigantes, jueces, académicos e investigadores que requieren fundamentación doctrinal rigurosa y mapeo de relaciones entre normas e instituciones.
 - **Lenguaje claro:** el primer término técnico de cada sección lleva su explicación directa entre paréntesis — `subsunción dogmática (encuadrar los hechos probados del caso dentro de los requisitos teóricos y legales de una institución jurídica)`.

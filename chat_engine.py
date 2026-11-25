@@ -536,19 +536,3 @@ class LegalChatEngine:
 
         except Exception as e:
             return {"error": f"Error procesando consulta con proveedor '{provider}': {str(e)}"}
-
-    def verify_credentials(self, provider: str, api_key: str, model: Optional[str] = None) -> Dict[str, Any]:
-        """Prueba de conexión en vivo con la clave o token para verificar validez inmediata."""
-        try:
-            res = self.chat(
-                user_message="Hola",
-                provider=provider,
-                api_key=api_key,
-                model=model,
-                history=[]
-            )
-            if "error" in res:
-                return {"valid": False, "error": res["error"]}
-            return {"valid": True, "provider": provider, "model": res.get("model", ""), "sample": res.get("reply", "")[:60]}
-        except Exception as e:
-            return {"valid": False, "error": str(e)}

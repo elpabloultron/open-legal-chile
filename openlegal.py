@@ -9,6 +9,7 @@ import os
 import json
 import pathlib
 import argparse
+from typing import Optional
 
 # Asegurar que el directorio de Open Legal Chile tenga prioridad en sys.path
 _pkg_root = os.path.dirname(os.path.abspath(__file__))
@@ -23,7 +24,7 @@ except Exception:
     pass
 
 # Importar conectores oficiales
-from bcn_connector import BCNClient, CODIGOS_REPUBLICA
+from bcn_connector import BCNClient
 from cgr_connector import CGRClient
 from dt_connector import DTClient
 from cne_connector import CNEClient
@@ -101,538 +102,22 @@ def _imprimir_mapa(breve: dict, sangria: str = "") -> None:
             print(f"{sangria}   ↳ {breve[clave]}")
 
 
-def menu_interactivo():
+def menu_interactivo(parser: Optional[argparse.ArgumentParser] = None) -> None:
     print_banner()
-    while True:
-        print("\n--- MENÚ PRINCIPAL DE LA SUITE ---")
-        print(" [1] 📜 BCN Ley Chile: Consultar Leyes o Códigos de la República")
-        print(" [2] 🏛️ Contraloría (CGR): Buscar Dictámenes, Auditorías e Instructivos")
-        print(" [3] 💼 Dirección del Trabajo (DT): Buscar Dictámenes y Doctrina Laboral")
-        print(" [4] ⚡ Energía (CNE / Panel): Capacidad Eléctrica, Proyectos SEA y Discrepancias")
-        print(" [5] 🏢 CMF: Normas de Carácter General (NCG) y Circulares Financieras")
-        print(" [6] 💰 SII: Circulares e Instrucciones Tributarias")
-        print(" [7] 🌱 SMA / SNIFA: Procedimientos Sancionatorios Ambientales")
-        print(" [8] 🛒 TDLC: Sentencias de Libre Competencia")
-        print(" [9] 🔍 Búsqueda Jurídica Universal (Busca en todos los organismos a la vez)")
-        print(" [10] 📚 Doctrina Canónica FTS5: Buscar en Tratados Chilenos Digitalizados")
-        print(" [11] ⚖️ Academia Judicial: Consultar Guías Oficiales de Formación Judicial")
-        print(" [12] 🏡 Propiedad & CBR: Estudio de Títulos Decenal y Mandatos Art. 7 CPC")
-        print(" [13] 📄 Sentencias PJUD: Deconstrucción Estructural Art. 170 CPC y Proveídos OJV")
-        print(" [14] 🌐 Biblioteca Digital: Sincronizar Datasets Markdown (HuggingFace/Drive)")
-        print(" [15] 📊 Estadísticas de Uso: Descargas PyPI, GitHub y Telemetría Ética")
-        print(" [16] 🔄 Actualizaciones: Comprobar versión más reciente y auto-actualizar")
-        print(" [17] 🧠 LegalGraphify: Consultar Subgrafo de Conocimiento (ahorro mediano 99,9 %: ficha 91 vs. obra 96.536 tokens)")
-        print(" [18] 🤖 Agentes Jurídicos de IA: Orquestación autónoma multi-herramienta")
-        print(" [19] 📂 Espacio de Casos: Crear expediente local con ingesta MD y subgrafo del caso")
-        print(" [20] 🧠 Búsqueda Vectorial Híbrida: Consultar 9 Códigos y CPR (Dense + FTS5)")
-        print(" [0] 🚪 Salir")
-
-        opc = input("\n👉 Selecciona una opción (0-20): ").strip()
-
-        if opc == "0":
-            print("\n👋 ¡Hasta luego! Cerrando Open Legal Chile.\n")
-            break
-
-        elif opc == "1":
-            print("\n--- 📜 BCN LEY CHILE ---")
-            tipo = input("¿Deseas consultar un [C]ódigo (civil, trabajo, cpc, etc.) o una [L]ey por número? (C/L): ").strip().lower()
-            if tipo == "c":
-                cod = input(f"Ingresa el código {list(CODIGOS_REPUBLICA.keys())}: ").strip().lower()
-                art = input("Número de artículo (opcional, presiona Enter para ver general): ").strip()
-                try:
-                    res = bcn_client.get_codigo(cod, art if art else None)
-                    if art:
-                        print(f"\n[{res.get('codigo')} — Artículo {res.get('articulo')}]")
-                        print(res.get('texto', res.get('error')))
-                        print(f"📅 Versión vigente: {res.get('fechaVersion')}")
-                    else:
-                        print(f"\n{res.get('titulo')} | Total Artículos: {len(res.get('articulos', {}))}")
-                except Exception as e:
-                    print("Error:", e)
-            else:
-                num = input("Número de ley (ej. 21643, 21561): ").strip()
-                art = input("Número de artículo (opcional): ").strip()
-                try:
-                    if art:
-                        res = bcn_client.get_articulo_ley(int(num), art)
-                        print(f"\n[Ley N° {num} — Artículo {art}]")
-                        print(res.get('texto', res.get('error')))
-                    else:
-                        res = bcn_client.get_ley(int(num))
-                        print(f"\nLey N° {num}: {res.get('titulo')}")
-                        print(f"Versión: {res.get('fechaVersion')} | Estructuras: {res.get('totalEstructuras')}")
-                except Exception as e:
-                    print("Error:", e)
-
-        elif opc == "2":
-            print("\n--- 🏛️ CONTRALORÍA GENERAL DE LA REPÚBLICA ---")
-            sub_opc = input("¿Buscar [D]ictámenes o [A]uditorías? (D/A): ").strip().lower()
-            q = input("Término de búsqueda (ej. 'confianza legitima', 'compras publicas', 'municipalidad'): ").strip()
-            try:
-                if sub_opc == "a":
-                    res = cgr_client.search_auditorias(q)
-                    print(f"\n🔍 Total Auditorías encontradas: {res.get('total')}")
-                    for idx, item in enumerate(res.get("resultados", [])[:5]):
-                        print(f"\n[{idx+1}] Informe N° {item.get('docId')} ({item.get('fecha')})")
-                        print(f"  📌 {item.get('materia')}")
-                        if item.get("pdfUrl"):
-                            print(f"  📄 PDF: {item.get('pdfUrl')}")
-                else:
-                    res = cgr_client.search_jurisprudencia(q)
-                    print(f"\n🏛️ Total Dictámenes encontrados: {res.get('total')}")
-                    for idx, item in enumerate(res.get("resultados", [])[:5]):
-                        print(f"\n[{idx+1}] Dictamen CGR N° {item.get('numero') or item.get('docId')} ({item.get('anio') or item.get('fecha')})")
-                        print(f"  📌 Materia: {item.get('materia')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "3":
-            print("\n--- 💼 DIRECCIÓN DEL TRABAJO ---")
-            q = input("Número de Ordinario/Dictamen o término (ej. '344', 'Karin', '40 horas'): ").strip()
-            try:
-                res = dt_client.search_dictamenes(q)
-                print(f"\nTotal resultados DT: {len(res)}")
-                for idx, item in enumerate(res[:5]):
-                    print(f"\n[{idx+1}] {item.get('titulo')}")
-                    if item.get("materias"):
-                        print(f"  📌 Materias: {item.get('materias')}")
-                    if item.get("doctrina"):
-                        print(f"  📜 Doctrina: {item.get('doctrina')[:250]}...")
-                    print(f"  🔗 Enlace: {item.get('url')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "4":
-            print("\n--- ⚡ DERECHO ELÉCTRICO Y ENERGÍA ---")
-            print(" [A] Capacidad instalada (CNE)")
-            print(" [B] Proyectos energéticos en el SEA (CNE)")
-            print(" [C] Clientes Libres vs. Regulados (CNE)")
-            print(" [D] Discrepancias y Dictámenes (Panel de Expertos)")
-            sub = input("Opción (A/B/C/D): ").strip().upper()
-            try:
-                if sub == "A":
-                    data = cne_client.get_capacidad_instalada()
-                    print(f"\nTotal centrales registradas: {len(data)}")
-                    for c in data[:5]:
-                        print(f" - {c.get('central')} ({c.get('tipo_tecnologia', c.get('tecnologia', 'Central'))}): Titular: {c.get('razon_social', c.get('propietario'))}")
-                elif sub == "B":
-                    data = cne_client.get_proyectos_sea()
-                    print(f"\nTotal proyectos en el SEA: {len(data)}")
-                    for p in data[:5]:
-                        print(f" - {p.get('nombre_proyecto', p.get('proyecto'))} | Estado: {p.get('estado')}")
-                elif sub == "C":
-                    libres = cne_client.get_clientes_libres()
-                    regulados = cne_client.get_clientes_regulados()
-                    print(f"\nRegistros Clientes Libres: {len(libres)} | Clientes Regulados: {len(regulados)}")
-                elif sub == "D":
-                    q = input("Buscar en discrepancias del Panel (Enter para ver últimas): ").strip()
-                    res = panel_client.search_dictamenes(q, max_pages=1)
-                    print(f"\nDiscrepancias encontradas: {len(res)}")
-                    for item in res[:5]:
-                        print(f" - Discrepancia N° {item['numero']} | Materia: {item['materia'] or 'No especificada'}")
-                        for doc in item['documentos'][:2]:
-                            print(f"    * {doc['titulo']}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "5":
-            print("\n--- 🏢 COMISIÓN PARA EL MERCADO FINANCIERO (CMF) ---")
-            q = input("Buscar por término o número de norma (ej. '4521', 'pensiones'): ").strip()
-            try:
-                res = cmf_client.search_normativa(q)
-                print(f"\nResultados CMF: {len(res)}")
-                for idx, item in enumerate(res[:5]):
-                    print(f"\n[{idx+1}] {item.get('titulo')}")
-                    print(f"  📄 PDF: {item.get('pdfUrl')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "6":
-            print("\n--- 💰 SERVICIO DE IMPUESTOS INTERNOS (SII) ---")
-            anio = input("Año de circulares (presiona Enter para 2026): ").strip()
-            anio_val = int(anio) if anio.isdigit() else 2026
-            try:
-                res = sii_client.get_circulares_por_anio(anio_val)
-                print(f"\nTotal circulares en {anio_val}: {len(res)}")
-                for item in res[:5]:
-                    print(f" - {item.get('titulo')} -> {item.get('pdfUrl')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "7":
-            print("\n--- 🌱 SUPERINTENDENCIA DEL MEDIO AMBIENTE (SMA / SNIFA) ---")
-            q = input("Buscar por titular o proyecto (ej. 'Minera', 'AquaChile'): ").strip()
-            try:
-                res = sma_client.search_sancionatorios(nombre=q, limit=5)
-                print(f"\nTotal expedientes en SNIFA: {res.get('total')}")
-                for item in res.get("resultados", []):
-                    print(f"\n - [{item.get('expediente')}] {item.get('titular')} ({item.get('categoria')})")
-                    print(f"   Unidad: {item.get('unidadFiscalizable')} | Estado: {item.get('estado')}")
-                    print(f"   🔗 Ficha: {item.get('fichaUrl')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "8":
-            print("\n--- 🛒 TRIBUNAL DE DEFENSA DE LA LIBRE COMPETENCIA (TDLC) ---")
-            q = input("Buscar por empresa o término (presiona Enter para ver últimas): ").strip()
-            try:
-                if q:
-                    res = tdlc_client.search_jurisprudencia(q)
-                else:
-                    res = tdlc_client.get_sentencias(page=1, per_page=5)
-                print(f"\nSentencias encontradas: {len(res)}")
-                for item in res[:5]:
-                    print(f"\n - {item.get('titulo')}")
-                    print(f"   📅 Fecha: {item.get('fecha')} | 🔗 {item.get('link')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "9":
-            print("\n--- 🔍 BÚSQUEDA JURÍDICA UNIVERSAL ---")
-            query = input("Ingresa tu término de búsqueda jurídica: ").strip()
-            if not query:
-                continue
-
-            print(f"\n🛰️ Consultando a través de todos los organismos del Estado para: '{query}'...")
-            
-            # 1. CGR
-            try:
-                cgr_res = cgr_client.search_jurisprudencia(query)
-                print(f"\n🏛️ Contraloría (CGR): {cgr_res.get('total')} dictámenes encontrados")
-                for it in cgr_res.get("resultados", [])[:2]:
-                    print(f"  * [Dictamen CGR N° {it.get('numero') or it.get('docId')} ({it.get('anio') or it.get('fecha')})] {it.get('materia')[:120]}...")
-            except Exception:
-                pass
-
-            # 2. DT
-            try:
-                dt_res = dt_client.search_dictamenes(query, limit=2)
-                print(f"\n💼 Dirección del Trabajo (DT): {len(dt_res)} encontrados")
-                for it in dt_res[:2]:
-                    print(f"  * [{it.get('titulo')}] {it.get('materias') or ''}")
-            except Exception:
-                pass
-
-            # 3. TDLC
-            try:
-                tdlc_res = tdlc_client.search_jurisprudencia(query, max_pages=1)
-                print(f"\n🛒 TDLC (Libre Competencia): {len(tdlc_res)} sentencias encontradas")
-                for it in tdlc_res[:2]:
-                    print(f"  * {it.get('titulo')}")
-            except Exception:
-                pass
-
-            # 4. SMA
-            try:
-                sma_res = sma_client.search_sancionatorios(nombre=query, limit=2)
-                print(f"\n🌱 SMA (Ambiental): {sma_res.get('total')} sancionatorios")
-                for it in sma_res.get("resultados", [])[:2]:
-                    print(f"  * [{it.get('expediente')}] {it.get('titular')}")
-            except Exception:
-                pass
-
-        elif opc == "10":
-            print("\n--- 📚 DOCTRINA CANÓNICA FTS5 ---")
-            q = input("Ingresa institución o término dogmático (ej. 'error sustancial', 'posesion efectiva', 'imprevision'): ").strip()
-            try:
-                from doctrina_connector import search_doctrina
-                res = search_doctrina(q, limit=5)
-                print(f"\n🔍 Instituciones dogmáticas encontradas: {len(res)}")
-                for idx, item in enumerate(res):
-                    print(f"\n[{idx+1}] 🏛️ {item.get('institucion')} — {item.get('autor')} ({item.get('area')})")
-                    print(f"  📖 Obra: {item.get('obra')}")
-                    if item.get('definicion'):
-                        print(f"  📜 Definición: {item.get('definicion')[:220]}...")
-                    if item.get('concordancias'):
-                        print(f"  🔗 Concordancias: {item.get('concordancias')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "11":
-            print("\n--- ⚖️ ACADEMIA JUDICIAL DE CHILE ---")
-            q = input("Materia o término a buscar (ej. 'penas', 'juicio oral', 'laboral', o presiona Enter para listar): ").strip()
-            try:
-                from academia_judicial_connector import AcademiaJudicialClient
-                aj_client = AcademiaJudicialClient()
-                res = aj_client.buscar_guias(q)
-                print(f"\n📚 Guías Oficiales encontradas: {len(res)}")
-                for idx, g in enumerate(res[:6]):
-                    print(f"\n[{idx+1}] 📘 {g.get('titulo')} [{g.get('materia')}]")
-                    print(f"  📄 Descripción: {g.get('descripcion')}")
-                    print(f"  🔗 PDF Oficial: {g.get('url_pdf')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "12":
-            print("\n--- 🏡 PROPIEDAD, CBR Y MANDATOS ART. 7 CPC ---")
-            sub = input("¿Deseas auditar [T]ítulos decenales o [M]andato judicial? (T/M): ").strip().lower()
-            if sub == "m":
-                mandato = input("Pega el texto del otrosí de patrocinio y poder: ").strip()
-                try:
-                    from cbr_titles import JudicialPowerVerifier
-                    res = JudicialPowerVerifier.auditar_patrocinio_y_poder(mandato or "Confiero patrocinio y poder con facultades de ambos incisos del Art. 7 CPC.")
-                    print("\n⚖️ RESULTADO DE AUDITORÍA DE MANDATO JUDICIAL:")
-                    print(f"  • Patrocinio y Poder: {'✅ Válido' if res['cumple_formalidad_patrocinio_poder'] else '❌ Incompleto'}")
-                    print(f"  • Facultades Ordinarias (Art. 7 inc. 1): {'✅ Concedidas' if res['facultades_ordinarias_art7_inc1'] else '⚠️ No mencionadas'}")
-                    print(f"  • Facultades Extraordinarias (Art. 7 inc. 2): {res['facultades_extraordinarias_detectadas']}")
-                    if res['advertencias']:
-                        print(f"  ⚠️ Advertencias: {res['advertencias']}")
-                except Exception as e:
-                    print("Error:", e)
-            else:
-                try:
-                    from cbr_titles import CBRTitleStudyEngine
-                    doc = CBRTitleStudyEngine.generar_checklist_documental("urbano")
-                    print(f"\n📋 CHECKLIST DOCUMENTAL DE ESTUDIO DE TÍTULOS ({doc['total_documentos_requeridos']} documentos):")
-                    for d in doc["checklist_documentos"]:
-                        print(f"  • [{d['prioridad']}] {d['documento']} ({d['emisor']})")
-                except Exception as e:
-                    print("Error:", e)
-
-        elif opc == "13":
-            print("\n--- 📄 SENTENCIAS PJUD Y PROVEÍDOS OJV ---")
-            prov = input("Ingresa proveído OJV para interpretar (o presiona Enter para 'Téngase por contestada la demanda y autos para resolver traslado'): ").strip()
-            try:
-                from sentencias_parser import ProveidosParser
-                res = ProveidosParser.interpretar_proveido(prov or "Téngase por contestada la demanda y autos para resolver traslado.")
-                print("\n🏛️ SIGNIFICADO PROCESAL:")
-                print(f"  • Proveído: '{res.get('proveido')}'")
-                print(f"  • Tipo: {res.get('tipo_proveido')}")
-                print(f"  • Efecto Procesal: {res.get('efecto_procesal')}")
-                print(f"  • Carga Procesal: {res.get('carga_procesal')}")
-                print(f"  • Plazo Fatal: {res.get('plazo_fatal')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "14":
-            print("\n--- 🌐 BIBLIOTECA DIGITAL EN MARKDOWN ---")
-            try:
-                from online_library_sync import compilar_manifiesto_biblioteca, OnlineLibrarySyncManager
-                man = compilar_manifiesto_biblioteca()
-                print("\n📚 MANIFIESTO GENERAL DE LA BIBLIOTECA:")
-                print(f"  • Total Obras/Guías: {man['total_documentos']}")
-                print(f"  • Total Palabras: {man['total_palabras']:,}")
-                print(f"  • Tamaño: {man['total_megabytes']} MB")
-                print("  • Formato: Markdown estructurado optimizado para LLMs")
-                acc = input("\n¿Deseas empaquetar en [.tar.gz] para GitHub/Drive? (S/N): ").strip().lower()
-                if acc == "s":
-                    mgr = OnlineLibrarySyncManager()
-                    tar_p = mgr.empaquetar_tar_gz()
-                    print(f"  ✅ Archivo generado: {tar_p}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "15":
-            print("\n--- 📊 ESTADÍSTICAS GLOBALES DE ADOPCIÓN Y DESCARGAS ---")
-            try:
-                from stats_tracker import get_suite_adoption_metrics
-                m = get_suite_adoption_metrics()
-                pypi = m.get("metricas_pypi", {})
-                gh = m.get("metricas_github", {})
-                loc = m.get("capacidades_locales", {})
-                print("\n📦 MÉTRICAS PYPI (pypistats.org):")
-                print(f"  • Descargas último día: {pypi.get('descargas_ultimo_dia')}")
-                print(f"  • Descargas última semana: {pypi.get('descargas_ultima_semana')}")
-                print(f"  • Descargas último mes: {pypi.get('descargas_ultimo_mes')}")
-                print(f"  • Descargas totales estimadas: {pypi.get('descargas_totales_estimadas')}")
-                print(f"\n⭐ COMUNIDAD GITHUB ({gh.get('url')}):")
-                print(f"  • Estrellas: {gh.get('estrellas')} | Forks: {gh.get('forks')}")
-                print("\n⚡ CAPACIDADES LOCALES INSTALADAS:")
-                print(f"  • Herramientas MCP Oficiales: {loc.get('herramientas_mcp_oficiales')}")
-                print(f"  • Conectores Oficiales del Estado: {loc.get('conectores_estado')}")
-                print(f"  • Instituciones Doctrinales FTS5: {loc.get('instituciones_doctrinales_indexadas')}")
-                print(f"  • Documentos en Biblioteca Markdown: {loc.get('documentos_biblioteca_markdown')}")
-                print(f"  🛡️ {loc.get('filosofia')}")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "16":
-            print("\n--- 🔄 COMPROBACIÓN DE ACTUALIZACIONES ---")
-            try:
-                from update_checker import check_for_updates, run_auto_update, format_update_banner
-                info = check_for_updates(force=True)
-                print(f"  • Versión instalada: v{info['version_actual']}")
-                print(f"  • Versión disponible en PyPI/GitHub: v{info['version_disponible']}")
-                if info.get("hay_actualizacion"):
-                    print("\n" + format_update_banner(info))
-                    conf = input("\n¿Deseas auto-actualizar ahora automáticamente? (S/N): ").strip().lower()
-                    if conf == "s":
-                        print("⏳ Actualizando Open Legal Chile Suite...")
-                        up_res = run_auto_update()
-                        print(f"  Resultado: {'✅ Éxito' if up_res['exito'] else '⚠️ Advertencia'}")
-                        print(f"  Detalle: {up_res['mensaje']}")
-                else:
-                    print("  ✅ Tienes la última versión disponible instalada.")
-            except Exception as e:
-                print("Error:", e)
-
-        elif opc == "17":
-            print("\n--- 🧠 LEGALGRAPHIFY: MOTOR DE GRAFOS DE CONOCIMIENTO JURÍDICO ---")
-            print(" [1] ⚡ Consulta de Subgrafo Sintético (ahorro mediano de tokens: 99,9 %)")
-            print(" [2] 🛤️  Trazado de Caminos Relacionales Dogmáticos (Path)")
-            print(" [3] 🏛️  Explicación Dogmática Integral 360° (Explain)")
-            print(" [4] 💥 Análisis de Impacto Normativo / Blast Radius (Affected)")
-            print(" [5] 👑 Pilares Estructurales del Derecho (God Nodes / PageRank)")
-            print(" [6] 📊 Estadísticas Topológicas Globales")
-            sub_opc = input("\nSelecciona una opción [1-6] (por defecto 1): ").strip() or "1"
-            
-            try:
-                from legal_graphify import LegalGraphifyEngine
-                engine = LegalGraphifyEngine()
-
-                if sub_opc == "1":
-                    q = input("Ingresa institución o concepto (ej. 'simulacion', 'imprevision', 'tutela'): ").strip()
-                    if q:
-                        ahorro = engine.calcular_ahorro_tokens(q)
-                        if not ahorro.get("encontrado", True):
-                            print(f"⚠️ {ahorro.get('mensaje')}")
-                        else:
-                            m = ahorro["metricas"]
-                            print("\n🧠 SUBGRAFO JURÍDICO HIPER-DENSO:")
-                            print("═"*65)
-                            print(ahorro["ficha_optimizada"])
-                            print("═"*65)
-                            print("⚡ OPTIMIZACIÓN DE TOKENS:")
-                            print(f"  • Tokens Texto Completo: ~{m['tokens_texto_completo']}")
-                            print(f"  • Tokens Subgrafo:       ~{m['tokens_subgrafo']}")
-                            print(f"  • 🚀 Reducción de Tokens: {m['porcentaje_ahorro']}% ({m['factor_reduccion']})")
-                            ver_m = input("\n¿Deseas generar el diagrama Mermaid del subgrafo? (s/n): ").strip().lower()
-                            if ver_m == "s":
-                                print("\n" + engine.exportar_subgrafo_mermaid(q))
-
-                elif sub_opc == "2":
-                    orig = input("Concepto o norma de ORIGEN (ej. 'simulacion'): ").strip()
-                    dest = input("Concepto o norma de DESTINO (ej. 'nulidad'): ").strip()
-                    if orig and dest:
-                        res = engine.encontrar_camino(orig, dest)
-                        if not res.get("encontrado"):
-                            print(f"⚠️ {res.get('mensaje')}")
-                        else:
-                            print(f"\n🛤️ CAMINOS RELACIONALES: '{res['origen']}' ➔ '{res['destino']}'")
-                            print("═"*65)
-                            for idx, c in enumerate(res["caminos"], 1):
-                                print(f"Ruta {idx} ({c['longitud_saltos']} saltos):\n  {c['trazado']}\n")
-
-                elif sub_opc == "3":
-                    q = input("Institución a explicar en 360° (ej. 'simulacion', 'fuerza mayor'): ").strip()
-                    if q:
-                        exp = engine.explicar_institucion(q)
-                        if not exp.get("encontrado"):
-                            print(f"⚠️ {exp.get('mensaje')}")
-                        else:
-                            print("\n" + exp["explicacion_markdown"])
-
-                elif sub_opc == "4":
-                    norma = input("Norma o institución a reformar / evaluar impacto (ej. 'Art. 2515 CC'): ").strip()
-                    if norma:
-                        impact = engine.analizar_impacto_normativo(norma)
-                        if not impact.get("encontrado"):
-                            print(f"⚠️ {impact.get('mensaje')}")
-                        else:
-                            print(f"\n💥 BLAST RADIUS: {impact['objetivo']} (Riesgo: {impact['nivel_riesgo_impacto']})")
-                            print(f"  • Afectados Directos (G1): {impact['metricas_impacto']['afectados_directos_grado_1']}")
-                            print(f"  • Afectados Cascada (G2):  {impact['metricas_impacto']['afectados_cascada_grado_2']}")
-                            print(f"\nDictamen:\n  {impact['dictamen_sintetico']}\n")
-                            for item in impact["impacto_directo"]:
-                                print(f"  • [{item['tipo']}] {item['label']}")
-
-                elif sub_opc == "5":
-                    top_n = int(input("¿Cuántos nodos deseas visualizar? (por defecto 10): ").strip() or "10")
-                    gn = engine.calcular_god_nodes(top_n=top_n)
-                    print(f"\n🏛️ PILARES ESTRUCTURALES (PageRank Top {top_n}):")
-                    print("═"*65)
-                    print("Instituciones Dogmáticas Rectoras:")
-                    for idx, it in enumerate(gn["god_instituciones"], 1):
-                        print(f"  {idx:2d}. {it['label']:<35} | PR: {it['pagerank']:.5f} | Grado: {it['grado_conexiones']}")
-                    print("\nNormas Positivas Centrales (BCN):")
-                    for idx, it in enumerate(gn["god_normas"], 1):
-                        print(f"  {idx:2d}. {it['label']:<35} | PR: {it['pagerank']:.5f} | Grado: {it['grado_conexiones']}")
-
-                elif sub_opc == "6":
-                    print("\n📊 Estadísticas de LegalGraphify:")
-                    print(f"  • Nodos Totales:  {engine.graph.number_of_nodes()}")
-                    print(f"  • Aristas Totales: {engine.graph.number_of_edges()}")
-
-            except Exception as e:
-                print(f"Error en LegalGraphify: {e}")
-
-        elif opc == "18":
-            print("\n--- 🤖 AGENTES JURÍDICOS ESPECIALIZADOS DE IA ---")
-            print(" [1] 📋 Listar catálogo de 17 agentes especializados")
-            print(" [2] ⚡ Ejecutar agente legal en modo Soberano Determinista (100% Offline)")
-            print(" [3] 💬 Iniciar sesión interactiva con un agente")
-            print(" [4] 📤 Exportar perfiles de subagentes (Claude Code / Cursor)")
-            sub_a = input("\nSelecciona una opción [1-4] (por defecto 1): ").strip() or "1"
-            try:
-                from agents_runtime import agent_runtime
-                if sub_a == "1":
-                    agentes = agent_runtime.list_agents()
-                    print(f"\nCATÁLOGO DE AGENTES ESPECIALIZADOS ({len(agentes)} AGENTES):")
-                    print("═" * 78)
-                    for a in agentes:
-                        print(f"• {a['name']:<24} | {a['display_name']}")
-                        print(f"  Herramientas ({a['tools_count']}): {', '.join(a['tools'][:5])}...")
-                        print(f"  Función: {a['description'][:95]}...\n")
-                elif sub_a == "2":
-                    ag_name = input("Nombre o alias del agente (ej. 'litigios', 'inmobiliario', 'probidad', 'laboral', 'dogmatico', 'forense'): ").strip() or "litigios"
-                    tarea = input("Misión o antecedentes del caso: ").strip() or "Elaborar dictamen"
-                    print(f"\n⏳ Ejecutando '{ag_name}'...")
-                    res = agent_runtime.run_agent(ag_name, tarea, mode="deterministic")
-                    print("\n" + res.format_cli_summary())
-                elif sub_a == "3":
-                    ag_name = input("Nombre del agente para interactuar (ej. 'litigios', 'laboral', 'dogmatico'): ").strip() or "litigios"
-                    ag = agent_runtime.get_agent(ag_name)
-                    if not ag:
-                        print(f"⚠️ Agente '{ag_name}' no encontrado.")
-                    else:
-                        print(f"\n🤖 SESIÓN CON: {ag.display_name.upper()} ({ag.name})")
-                        print("Escribe tu consulta o 'salir' para terminar.\n" + "-"*78)
-                        while True:
-                            user_q = input("\nTu consulta ⚖️ > ").strip()
-                            if user_q.lower() in ("exit", "salir", "q"):
-                                break
-                            r = ag.run(user_q, mode="auto")
-                            print("\n" + r.output)
-                elif sub_a == "4":
-                    out_dir = input("Directorio destino (Enter para proyecto actual): ").strip() or "."
-                    res_exp = agent_runtime.export_subagents_config(out_dir)
-                    print(f"\n✅ Se exportaron {len(res_exp)} configuraciones de subagentes en '{out_dir}'.")
-            except Exception as e:
-                print(f"Error en motor de agentes: {e}")
-
-        elif opc == "19":
-            print("\n--- 📂 ESPACIO DE CASOS Y SUBGRAFO LOCAL ---")
-            entrada = input("Ruta de carpeta, archivo o texto del caso: ").strip()
-            if entrada:
-                import case_intake
-                analisis = case_intake.caso_analizar(entrada)
-                print("\n" + analisis.get("resumen", ""))
-
-        elif opc == "20":
-            print("\n--- 🧠 BÚSQUEDA VECTORIAL HÍBRIDA (9 CÓDIGOS Y CPR) ---")
-            from vector_engine import obtener_motor_vectorial
-            motor = obtener_motor_vectorial()
-            q = input("Consulta conceptual (ej. 'fuerza obligatoria del contrato'): ").strip()
-            if q:
-                hits = motor.buscar_hibrido(q, top_k=5)
-                print(f"\nResultados híbridos para: '{q}'\n" + "-" * 70)
-                for i, h in enumerate(hits, 1):
-                    print(f"[{i}] {h['etiqueta_bcn']} (Puntaje RRF: {h.get('puntaje_rrf', 0):.4f})")
-                    print(f"    {h['texto'][:180]}...\n")
-
-        input("\n[Presiona Enter para volver al menú principal...]")
+    if parser is not None:
+        parser.print_help()
+    else:
+        print("Usa `openlegal --help` para ver los subcomandos o `openlegal mcp` para el servidor MCP.")
 
 
 
 def main():
-    from config import check_configuration
-
     parser = argparse.ArgumentParser(
         description="⚖️ Open Legal Chile — Suite de Inteligencia Jurídica y Conectores de Datos",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Ejemplos de uso:
-  openlegal                   -> Abre el menú interactivo de la consola
+  openlegal                   -> Muestra la ayuda de subcomandos
   openlegal mcp               -> Inicia el servidor MCP estándar para Antigravity/Claude/Cursor
   openlegal chat              -> Inicia el asistente jurídico IA en la terminal
   openlegal critique <doc>    -> Ejecuta la auditoría forense de 5 dimensiones sobre un escrito
@@ -655,7 +140,7 @@ Ejemplos de uso:
   openlegal update            -> Comprueba y ejecuta la auto-actualización de la Suite
   openlegal ambiental "..."   -> Módulo especial de derecho ambiental (sentencias, anuarios, boletines y biblioteca)
   openlegal graph "..."       -> Consulta el Knowledge Graph (LegalGraphify) con ahorro mediano de tokens del 99,9 %
-  openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (17 perfiles)
+  openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (19 perfiles)
   openlegal caso <texto/ruta> -> Abre o crea expediente local con ingesta MD y subgrafo del caso
   openlegal vector "..."      -> Búsqueda semántica híbrida en los 9 Códigos y CPR (Dense + BM25)
   openlegal plugin instalar   -> Instala el Plugin completo (MCP + 21 skills + 19 agentes + reglas) en tu harness
@@ -928,9 +413,8 @@ Ejemplos de uso:
 
         print_banner()
         print(f"\n🛰️ Búsqueda Jurídica Universal en los 10 organismos del Estado para: '{q}'...")
-        from connectors.registry import StateRegistry
-        reg = StateRegistry()
-        res = reg.search_all(q)
+        import mcp_server
+        res = mcp_server.handle_tool_call("busqueda_universal", {"consulta": q}).get("resultados", {})
 
         # BCN
         bcn_res = res.get("bcn", [])
@@ -1506,7 +990,7 @@ Ejemplos de uso:
         sys.exit(rc)
 
     else:
-        menu_interactivo()
+        menu_interactivo(parser)
 
 
 if __name__ == "__main__":

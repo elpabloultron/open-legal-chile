@@ -10,12 +10,79 @@ de los 3 Tribunales Ambientales de la República:
 import os
 import re
 import json
-import urllib.request
-import urllib.parse
-from typing import Dict, Any, List, Optional
-from config import safe_urlopen
+import threading
+from typing import Dict, Any, List, Optional, Tuple
 
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "ambiental_cache")
+
+_JSONL_LOCK = threading.Lock()
+_JSONL_CACHE: Optional[Tuple[str, int, int, List[Tuple[str, str, Dict[str, Any]]]]] = None
+
+_CRITERIOS_DESTACADOS = [
+    {
+        "titulo": "Causa D-34-2022 (2TA) — Daño Ambiental en Humedal Vasco da Gama",
+        "tribunal": "2TA",
+        "materia": "Daño Ambiental",
+        "criterio": "Establece que el daño a un humedal produce responsabilidad objetiva/solidaria y exige plan de reparación ecosistémica integral.",
+    },
+    {
+        "titulo": "Causa R-285-2021 (2TA) — Proyecto Minero Portuario Dominga",
+        "tribunal": "2TA",
+        "materia": "Reclamación RCA / SEIA",
+        "criterio": "Revisión de línea de base marina, área de influencia en el medio marino y afectación a reservas naturales de pingüinos de Humboldt.",
+    },
+    {
+        "titulo": "Causa R-12-2023 (1TA) — Salares de Atacama y Extracción de Litio",
+        "tribunal": "1TA",
+        "materia": "Recursos Hídricos y Consulta Indígena",
+        "criterio": "Principio precautorio y estándar de monitoreo hidrogeológico continuo en cuencas hiperáridas.",
+    },
+    {
+        "titulo": "Causa D-19-2020 (3TA) — Contaminación del Río Cruces y Cisnes de Cuello Negro",
+        "tribunal": "3TA",
+        "materia": "Daño Ambiental Histórico",
+        "criterio": "Precedente fundacional sobre valoración del daño ambiental y medidas de reparación in natura.",
+    },
+]
+
+
+def _cargar_sentencias_jsonl(jsonl_path: str) -> List[Tuple[str, str, Dict[str, Any]]]:
+    """Carga y cachea en RAM `ambiental_sentencias.jsonl` indexando por (mtime_ns, size)."""
+    global _JSONL_CACHE
+    if not os.path.exists(jsonl_path):
+        return []
+    try:
+        st = os.stat(jsonl_path)
+    except OSError:
+        return []
+    with _JSONL_LOCK:
+        if (
+            _JSONL_CACHE is not None
+            and _JSONL_CACHE[0] == jsonl_path
+            and _JSONL_CACHE[1] == st.st_mtime_ns
+            and _JSONL_CACHE[2] == st.st_size
+        ):
+            return _JSONL_CACHE[3]
+
+    registros: List[Tuple[str, str, Dict[str, Any]]] = []
+    try:
+        with open(jsonl_path, "r", encoding="utf-8") as f:
+            for line in f:
+                if not line.strip():
+                    continue
+                doc = json.loads(line)
+                trib_up = str(doc.get("tribunal") or "").upper()
+                text_corpus = (
+                    f"{doc.get('titulo', '')} {doc.get('materia', '')} {doc.get('rol', '')} "
+                    f"{doc.get('caratula', '')} {doc.get('descripcion_detallada', '')} {doc.get('resuelve', '')}"
+                ).lower()
+                registros.append((trib_up, text_corpus, doc))
+    except Exception:
+        return []
+
+    with _JSONL_LOCK:
+        _JSONL_CACHE = (jsonl_path, st.st_mtime_ns, st.st_size, registros)
+    return registros
 
 TRIBUNALES_CONFIG = {
     "1TA": {
@@ -168,35 +235,9 @@ class TribunalesAmbientalesClient:
             })
 
         # 2. Casos emblemáticos y criterios normativos indexados
-        criterios_destacados = [
-            {
-                "titulo": "Causa D-34-2022 (2TA) — Daño Ambiental en Humedal Vasco da Gama",
-                "tribunal": "2TA",
-                "materia": "Daño Ambiental",
-                "criterio": "Establece que el daño a un humedal produce responsabilidad objetiva/solidaria y exige plan de reparación ecosistémica integral."
-            },
-            {
-                "titulo": "Causa R-285-2021 (2TA) — Proyecto Minero Portuario Dominga",
-                "tribunal": "2TA",
-                "materia": "Reclamación RCA / SEIA",
-                "criterio": "Revisión de línea de base marina, área de influencia en el medio marino y afectación a reservas naturales de pingüinos de Humboldt."
-            },
-            {
-                "titulo": "Causa R-12-2023 (1TA) — Salares de Atacama y Extracción de Litio",
-                "tribunal": "1TA",
-                "materia": "Recursos Hídricos y Consulta Indígena",
-                "criterio": "Principio precautorio y estándar de monitoreo hidrogeológico continuo en cuencas hiperáridas."
-            },
-            {
-                "titulo": "Causa D-19-2020 (3TA) — Contaminación del Río Cruces y Cisnes de Cuello Negro",
-                "tribunal": "3TA",
-                "materia": "Daño Ambiental Histórico",
-                "criterio": "Precedente fundacional sobre valoración del daño ambiental y medidas de reparación in natura."
-            }
-        ]
-
-        for cd in criterios_destacados:
-            if tribunal and cd["tribunal"].upper() != tribunal.upper():
+        tribunal_upper = tribunal.upper() if tribunal else None
+        for cd in _CRITERIOS_DESTACADOS:
+            if tribunal_upper and cd["tribunal"].upper() != tribunal_upper:
                 continue
             if q_lower in cd["titulo"].lower() or q_lower in cd["materia"].lower() or q_lower in cd["criterio"].lower():
                 results.append({
@@ -204,39 +245,31 @@ class TribunalesAmbientalesClient:
                     "tribunal": cd["tribunal"],
                     "titulo": cd["titulo"],
                     "materia": cd["materia"],
-                    "criterio": cd["criterio"]
+                    "criterio": cd["criterio"],
                 })
 
-        # 3. Buscar en el dataset de sentencias, boletines y anuarios cosechados
+        # 3. Buscar en el dataset de sentencias, boletines y anuarios cosechados (cacheado en RAM)
         jsonl_path = os.path.join(os.path.dirname(__file__), "data", "jurisprudencia", "ambiental_sentencias.jsonl")
-        if os.path.exists(jsonl_path):
-            try:
-                with open(jsonl_path, "r", encoding="utf-8") as f:
-                    for line in f:
-                        if not line.strip():
-                            continue
-                        doc = json.loads(line)
-                        if tribunal and doc.get("tribunal", "").upper() != tribunal.upper():
-                            continue
-                        text_corpus = f"{doc.get('titulo', '')} {doc.get('materia', '')} {doc.get('rol', '')} {doc.get('caratula', '')} {doc.get('descripcion_detallada', '')} {doc.get('resuelve', '')}".lower()
-                        if q_lower in text_corpus or any(tok in text_corpus for tok in q_lower.split() if len(tok) > 3):
-                            results.append({
-                                "origen": f"Jurisprudencia Oficial {doc.get('tribunal', 'Ambiental')}",
-                                "tribunal": doc.get("tribunal"),
-                                "tribunal_nombre": doc.get("tribunal_nombre", ""),
-                                "titulo": doc.get("titulo") or doc.get("caratula"),
-                                "caratula": doc.get("caratula"),
-                                "tipo": doc.get("tipo"),
-                                "rol": doc.get("rol"),
-                                "fecha": doc.get("fecha"),
-                                "materia": doc.get("materia"),
-                                "resuelve": doc.get("resuelve"),
-                                "link": doc.get("url_pdf"),
-                                "expediente": doc.get("url_expediente")
-                            })
-                            if len(results) >= 20:
-                                break
-            except Exception:
-                pass
+        tokens = [tok for tok in q_lower.split() if len(tok) > 3]
+        for trib_up, text_corpus, doc in _cargar_sentencias_jsonl(jsonl_path):
+            if tribunal_upper and trib_up != tribunal_upper:
+                continue
+            if q_lower in text_corpus or any(tok in text_corpus for tok in tokens):
+                results.append({
+                    "origen": f"Jurisprudencia Oficial {doc.get('tribunal', 'Ambiental')}",
+                    "tribunal": doc.get("tribunal"),
+                    "tribunal_nombre": doc.get("tribunal_nombre", ""),
+                    "titulo": doc.get("titulo") or doc.get("caratula"),
+                    "caratula": doc.get("caratula"),
+                    "tipo": doc.get("tipo"),
+                    "rol": doc.get("rol"),
+                    "fecha": doc.get("fecha"),
+                    "materia": doc.get("materia"),
+                    "resuelve": doc.get("resuelve"),
+                    "link": doc.get("url_pdf"),
+                    "expediente": doc.get("url_expediente"),
+                })
+                if len(results) >= 20:
+                    break
 
         return results

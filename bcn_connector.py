@@ -10,9 +10,9 @@ import html
 import time
 import urllib.parse
 import defusedxml.ElementTree as ET
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, Tuple
 
-from config import BCN_API_KEY, pedir_http, registrar_tiempo
+from config import BCN_API_KEY, cache_fresco, pedir_http, registrar_tiempo
 
 BCN_API_BASE = "https://www.bcn.cl/leychile/api/v1"
 BCN_XML_BASE = "https://www.leychile.cl/Consulta/obtxml"
@@ -94,16 +94,59 @@ def _clave_articulo(valor: Any) -> str:
     return texto.translate(str.maketrans("áéíóúü", "aeiouu"))
 
 
-def _buscar_articulo(articulos: Dict[str, Any], pedido: str):
+# Caché en RAM por ruta absoluta validada con (mtime_ns, size), con índice O(1) de artículos.
+_MEM_CACHE_BCN: Dict[str, Tuple[int, int, Dict[str, Any], Dict[str, Tuple[str, str]]]] = {}
+
+
+def _construir_indice_exacto(articulos: Dict[str, Any]) -> Dict[str, Tuple[str, str]]:
+    """Índice O(1) por clave normalizada preservando la primera aparición (v3)."""
+    indice: Dict[str, Tuple[str, str]] = {}
+    for clave, texto in articulos.items():
+        norm = _clave_articulo(clave)
+        if norm not in indice:
+            indice[norm] = (str(clave), str(texto))
+    return indice
+
+
+def _guardar_mem_cache_bcn(cache_file: str, dato: Dict[str, Any]) -> None:
+    try:
+        st = os.stat(cache_file)
+    except OSError:
+        return
+    abs_path = os.path.abspath(cache_file)
+    if len(_MEM_CACHE_BCN) >= 64 and abs_path not in _MEM_CACHE_BCN:
+        _MEM_CACHE_BCN.pop(next(iter(_MEM_CACHE_BCN)), None)
+    articulos = dato.get("articulos")
+    idx = _construir_indice_exacto(articulos) if isinstance(articulos, dict) else {}
+    _MEM_CACHE_BCN[abs_path] = (int(st.st_mtime_ns), int(st.st_size), dato, idx)
+
+
+def _indice_mem_bcn(cache_file: str, dato: Dict[str, Any]) -> Optional[Dict[str, Tuple[str, str]]]:
+    entrada = _MEM_CACHE_BCN.get(os.path.abspath(cache_file))
+    if entrada is not None and entrada[2] is dato:
+        return entrada[3]
+    return None
+
+
+def _buscar_articulo(
+    articulos: Dict[str, Any],
+    pedido: str,
+    indice_exacto: Optional[Dict[str, Tuple[str, str]]] = None,
+):
     """(clave, texto) del artículo pedido: coincidencia canónica exacta primero, difusa después.
 
     El difuso existe porque los rotulados varían («Artículo 25.-», «25 quáter»); el orden importa:
     pedir «25 quinquies» no puede devolver el «25 quáter» (falla silenciosa del 2026-09-28).
     """
     objetivo = _clave_articulo(pedido)
-    for clave, texto in articulos.items():
-        if _clave_articulo(clave) == objetivo:
-            return clave, texto
+    if indice_exacto is not None:
+        hit = indice_exacto.get(objetivo)
+        if hit is not None:
+            return hit
+    else:
+        for clave, texto in articulos.items():
+            if _clave_articulo(clave) == objetivo:
+                return clave, texto
     for clave, texto in articulos.items():
         if _clave_articulo(clave).startswith(objetivo + " "):
             return clave, texto
@@ -209,16 +252,24 @@ class BCNClient:
         }
 
 
-    def _cache_fresco(self, cache_file: str, ttl: float = _TTL_CACHE_SEGUNDOS) -> bool:
-        """¿La copia local existe y está dentro del TTL? (el mtime es la fecha de descarga)."""
-        return os.path.exists(cache_file) and (time.time() - os.path.getmtime(cache_file)) < ttl
-
     def _leer_cache(self, cache_file: str) -> Optional[Dict[str, Any]]:
-        """La copia local si se puede leer: una copia ilegible no es una copia."""
+        """La copia local si se puede leer: sirve desde RAM validando (mtime_ns, size)."""
+        abs_path = os.path.abspath(cache_file)
         try:
-            with open(cache_file, "r", encoding="utf-8") as f:
+            st = os.stat(abs_path)
+            cac = _MEM_CACHE_BCN.get(abs_path)
+            if cac is not None and cac[0] == st.st_mtime_ns and cac[1] == st.st_size:
+                return cac[2]
+        except OSError:
+            return None
+        try:
+            with open(abs_path, "r", encoding="utf-8") as f:
                 dato = json.load(f)
-            return reconstruir_articulos_si_antiguo(dato) if isinstance(dato, dict) else None
+            if not isinstance(dato, dict):
+                return None
+            limpio = reconstruir_articulos_si_antiguo(dato)
+            _guardar_mem_cache_bcn(abs_path, limpio)
+            return limpio
         except Exception:  # noqa: BLE001
             return None
 
@@ -230,6 +281,7 @@ class BCNClient:
         registrar_tiempo("bcn.parseo", time.perf_counter() - t0)
         with open(cache_file, "w", encoding="utf-8") as f:
             json.dump(norma_data, f, ensure_ascii=False, indent=2)
+        _guardar_mem_cache_bcn(cache_file, norma_data)
         return norma_data
 
     def get_ley(self, id_ley: int, use_cache: bool = True) -> Dict[str, Any]:
@@ -241,7 +293,7 @@ class BCNClient:
         cache_file = self._get_cache_path("ley", id_ley)
         t0 = time.perf_counter()
         data = self._leer_cache(cache_file) if use_cache else None
-        if data is not None and self._cache_fresco(cache_file):
+        if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
             registrar_tiempo("bcn.cache", time.perf_counter() - t0)
             return data
         try:
@@ -256,7 +308,7 @@ class BCNClient:
         cache_file = self._get_cache_path("norma", id_norma)
         t0 = time.perf_counter()
         data = self._leer_cache(cache_file) if use_cache else None
-        if data is not None and self._cache_fresco(cache_file):
+        if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
             registrar_tiempo("bcn.cache", time.perf_counter() - t0)
             return data
         try:
@@ -276,7 +328,8 @@ class BCNClient:
         data = self.get_norma(id_norma)
 
         if articulo:
-            encontrado = _buscar_articulo(data["articulos"], str(articulo))
+            idx = _indice_mem_bcn(self._get_cache_path("norma", id_norma), data)
+            encontrado = _buscar_articulo(data["articulos"], str(articulo), indice_exacto=idx)
             if encontrado:
                 clave, texto = encontrado
                 return {
@@ -296,7 +349,8 @@ class BCNClient:
     def get_articulo_ley(self, id_ley: int, articulo: str) -> Dict[str, Any]:
         """Obtiene un artículo específico de una ley (ej. Ley 21643, Art. 1)."""
         data = self.get_ley(id_ley)
-        encontrado = _buscar_articulo(data["articulos"], str(articulo))
+        idx = _indice_mem_bcn(self._get_cache_path("ley", id_ley), data)
+        encontrado = _buscar_articulo(data["articulos"], str(articulo), indice_exacto=idx)
         if encontrado:
             clave, texto = encontrado
             return {

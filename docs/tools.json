@@ -919,7 +919,7 @@
         },
         "hibrido": {
           "type": "boolean",
-          "description": "Si es True, fusiona BM25 con similitud vectorial local (RRF) para consultas en lenguaje coloquial (por defecto False)",
+          "description": "Si es True, fusiona BM25 con similitud vectorial local (RRF) para consultas en lenguaje coloquial",
           "default": false
         }
       },
@@ -1005,7 +1005,7 @@
         },
         "target_path": {
           "type": "string",
-          "description": "Ruta de destino personalizada para el archivo .md generado (opcional)."
+          "description": "Ruta de destino personalizada para el archivo .md generado."
         }
       },
       "required": [
@@ -1356,7 +1356,7 @@
         },
         "anios_requeridos": {
           "type": "integer",
-          "description": "Plazo mínimo en años para prescribir (por defecto 10)",
+          "description": "Plazo mínimo en años para prescribir",
           "default": 10
         }
       },
@@ -1872,7 +1872,7 @@
         },
         "limite": {
           "type": "integer",
-          "description": "Máximo de resultados (por defecto 8)",
+          "description": "Máximo de resultados",
           "default": 8
         },
         "incluir_subgrafo": {
@@ -1947,7 +1947,7 @@
         },
         "limit": {
           "type": "integer",
-          "description": "Número máximo de archivos o recursos a devolver (por defecto 5)",
+          "description": "Número máximo de archivos o recursos a devolver",
           "default": 5
         },
         "rol": {
@@ -2052,7 +2052,7 @@
         },
         "max_hops": {
           "type": "integer",
-          "description": "Radio de saltos relacionales en el grafo (por defecto 1)",
+          "description": "Radio de saltos relacionales en el grafo",
           "default": 1
         },
         "incluir_mermaid": {
@@ -2087,12 +2087,12 @@
         },
         "max_caminos": {
           "type": "integer",
-          "description": "Número máximo de rutas mínimas a retornar (por defecto 3)",
+          "description": "Número máximo de rutas mínimas a retornar",
           "default": 3
         },
         "solo_sustantivo": {
           "type": "boolean",
-          "description": "Si es True, prioriza rutas jurídicas sustantivas excluyendo súper-hubs editoriales (por defecto False)",
+          "description": "Si es True, prioriza rutas jurídicas sustantivas excluyendo súper-hubs editoriales",
           "default": false
         }
       },
@@ -2157,12 +2157,12 @@
       "properties": {
         "top_n": {
           "type": "integer",
-          "description": "Cantidad de instituciones y normas principales a retornar (por defecto 10)",
+          "description": "Cantidad de instituciones y normas principales a retornar",
           "default": 10
         },
         "solo_sustantivo": {
           "type": "boolean",
-          "description": "Si es True, atenúa aristas bibliográficas y excluye contenedores editoriales de los pilares (por defecto False)",
+          "description": "Si es True, atenúa aristas bibliográficas y excluye contenedores editoriales de los pilares",
           "default": false
         }
       }
@@ -2185,7 +2185,7 @@
         },
         "recurrente": {
           "type": "object",
-          "description": "Datos del recurrente: nombre, run, domicilio, email, profesion_oficio, representado_nombre (opcional), representado_run (opcional)",
+          "description": "Datos del recurrente: nombre, run, domicilio, email, profesion_oficio, representado_nombre (opcional), representado_run",
           "properties": {
             "nombre": {
               "type": "string",
@@ -2225,7 +2225,7 @@
         },
         "recurrido": {
           "type": "object",
-          "description": "Datos de la recurrida: nombre, rut (opcional o 'se desconoce'), domicilio (opcional), email (opcional), representante_legal (opcional)",
+          "description": "Datos de la recurrida: nombre, rut (opcional o 'se desconoce'), domicilio (opcional), email (opcional), representante_legal",
           "properties": {
             "nombre": {
               "type": "string",
@@ -2352,7 +2352,7 @@
   },
   {
     "name": "agent_list",
-    "description": "Lista el catálogo de los 17 agentes jurídicos especializados de Open Legal Chile con sus descripciones, competencias forenses y herramientas asignadas.",
+    "description": "Lista el catálogo de los 19 agentes jurídicos especializados de Open Legal Chile con sus descripciones, competencias forenses y herramientas asignadas.",
     "inputSchema": {
       "type": "object",
       "properties": {}
@@ -2406,7 +2406,7 @@
       "properties": {
         "target_dir": {
           "type": "string",
-          "description": "Directorio destino para guardar los archivos de configuración (opcional)"
+          "description": "Directorio destino para guardar los archivos de configuración"
         }
       }
     },
@@ -2713,7 +2713,7 @@
   },
   {
     "name": "skills_listar",
-    "description": "Lista las 18 skills jurídicas y los 19 agentes autónomos reales del producto, con su título.",
+    "description": "Lista las 21 skills jurídicas y los 19 agentes autónomos reales del producto, con su título.",
     "inputSchema": {
       "type": "object",
       "properties": {}
@@ -2757,7 +2757,7 @@
         },
         "limite": {
           "type": "integer",
-          "description": "Máximo de herramientas sugeridas (por defecto 6)",
+          "description": "Máximo de herramientas sugeridas",
           "default": 6
         }
       },
@@ -2943,17 +2943,17 @@
         },
         "top_k": {
           "type": "integer",
-          "description": "Cantidad máxima de normas, sentencias e instituciones en el ranking de red (por defecto 15)",
+          "description": "Cantidad máxima de normas, sentencias e instituciones en el ranking de red",
           "default": 15
         },
         "n_muestra": {
           "type": "integer",
-          "description": "Tamaño de muestra estratificada cuando modo='muestra_validacion' (por defecto 50)",
+          "description": "Tamaño de muestra estratificada cuando modo='muestra_validacion'",
           "default": 50
         },
         "semilla": {
           "type": "integer",
-          "description": "Semilla determinista para reproducibilidad de la muestra estratificada (por defecto 42)",
+          "description": "Semilla determinista para reproducibilidad de la muestra estratificada",
           "default": 42
         }
       }
@@ -2992,12 +2992,12 @@
         },
         "n_muestra": {
           "type": "integer",
-          "description": "Tamaño de la muestra estratificada de validación humana (por defecto 50)",
+          "description": "Tamaño de la muestra estratificada de validación humana",
           "default": 50
         },
         "semilla": {
           "type": "integer",
-          "description": "Semilla aleatoria fija para reproducibilidad (por defecto 42)",
+          "description": "Semilla aleatoria fija para reproducibilidad",
           "default": 42
         }
       },

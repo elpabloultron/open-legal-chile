@@ -14,6 +14,8 @@ from typing import Dict, Any, List, Optional
 
 try:
     import pymupdf
+    if hasattr(pymupdf, "set_messages"):
+        pymupdf.set_messages(stream=sys.stderr)
 except ImportError:
     pymupdf = None  # type: ignore[assignment]
 
@@ -437,6 +439,56 @@ class ForensicOCREngine:
             }
         finally:
             doc.close()
+
+
+def descargar_pdf_cacheado(
+    url: str,
+    target_path: Path,
+    user_agent: str = "OpenLegalChile/1.0",
+    timeout: int = 30,
+) -> Optional[str]:
+    """Descarga y cachea un PDF oficial en disco si supera 1 KB."""
+    if not url:
+        return None
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+    if target_path.exists() and target_path.stat().st_size > 1000:
+        return str(target_path)
+    try:
+        import urllib.request
+        from config import safe_urlopen
+
+        req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+        with safe_urlopen(req, timeout=timeout) as resp:
+            pdf_bytes = resp.read()
+        if len(pdf_bytes) > 1000:
+            target_path.write_bytes(pdf_bytes)
+            return str(target_path)
+    except Exception:
+        pass
+    return None
+
+
+def extraer_texto_pdf_con_ocr(ruta_pdf: Optional[str], max_ocr_pages: int = 4, min_chars: int = 80) -> str:
+    """Extrae texto nativo de un PDF con PyMuPDF y aplica OCR forense si es escaneado."""
+    if not ruta_pdf:
+        return ""
+    try:
+        pdf_mod = pymupdf
+        if pdf_mod is None:
+            import pymupdf as pdf_mod  # type: ignore[no-redef]
+        pdf_doc: Any = pdf_mod.open(ruta_pdf)
+        try:
+            t_paginas = [pdf_doc[i].get_text() for i in range(len(pdf_doc))]
+            texto_extraido = "\n\n".join(t.strip() for t in t_paginas if t.strip())
+            if len(texto_extraido) > min_chars:
+                return texto_extraido
+            n_paginas = len(pdf_doc)
+        finally:
+            pdf_doc.close()
+        ocr_res = ForensicOCREngine().extract_from_pdf(ruta_pdf, start_page=1, end_page=min(max_ocr_pages, n_paginas))
+        return "\n\n".join(p.get("text", "") for p in ocr_res.get("pages", []) if p.get("text")).strip()
+    except Exception:
+        return ""
 
 
 if __name__ == "__main__":

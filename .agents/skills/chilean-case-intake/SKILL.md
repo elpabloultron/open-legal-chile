@@ -1,6 +1,6 @@
 ---
 name: chilean-case-intake
-description: Mesa de entrada de casos chilenos. Recibe una carpeta de expediente, un texto o una consulta en lenguaje natural, clasifica la materia con reglas (Rol/RIT y palabras clave), arma el plan de herramientas de la suite, ejecuta los pasos seguros y entrega el resultado con lo que falta declarado.
+description: "Mesa de entrada de casos chilenos. Recibe una carpeta de expediente, un texto o una consulta en lenguaje natural, clasifica la materia con reglas (Rol/RIT y palabras clave), arma el plan de herramientas de la suite, ejecuta los pasos seguros y entrega el resultado con lo que falta declarado."
 ---
 
 # Habilidad: Mesa de Entrada de Casos (chilean-case-intake)
@@ -21,14 +21,8 @@ description: Mesa de entrada de casos chilenos. Recibe una carpeta de expediente
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): se entregan en
-  **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**,
-  numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que
-viene de varias fuentes se cita con todas.
-
+- **Documentos** (informe en derecho, análisis, memorándum, escrito, minuta, dossier): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 

@@ -309,6 +309,7 @@ def _cargar_corpus_local() -> List[Dict[str, Any]]:
                         continue
                     vistos.add(firma)
                     registro["_texto"] = _texto_registro(registro)
+                    registro["_id_canonico"] = _id_canonico_registro(registro)
                     # De qué archivo del dataset sale el registro: es la cita real cuando el
                     # registro no tiene una ficha .md propia en HF (p. ej. cs_sentencias.jsonl).
                     registro["archivo_fuente"] = os.path.relpath(ruta, BASE_DIR).replace(os.sep, "/")
@@ -372,9 +373,7 @@ def _registro_de_fila_mapa(cliente: Any, fila: Dict[str, Any]) -> Dict[str, Any]
         "resultado": str(fila.get("resultado") or fila.get("resuelve") or ""),
         "ministros": ", ".join(fila.get("ministros_txt") or []),
         "resumen": str(fila.get("resumen") or ""),
-        "link": url,
         "url_huggingface": url,
-        "url_vigente": cliente.url(ruta, fijada=False) if ruta else "",
         "archivo_md": ruta,
         "id_mapa": str(fila.get("id") or ""),
         "origen": "mapa_hf",
@@ -484,6 +483,8 @@ def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any
     recientes, con `origen="corpus_local"`.
     """
     del_mapa = _sentencias_del_mapa(query, limit)
+    if len(del_mapa) >= limit:
+        return del_mapa[:limit]
     vistos_mapa = {r["id_mapa"] for r in del_mapa if r.get("id_mapa")}
     try:
         registros = _cargar_corpus_local()
@@ -492,9 +493,10 @@ def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any
     if not registros:
         return del_mapa
     if vistos_mapa:
-        registros = [r for r in registros if _id_canonico_registro(r) not in vistos_mapa]
-    if len(del_mapa) >= limit:
-        return del_mapa[:limit]
+        registros = [
+            r for r in registros
+            if (r["_id_canonico"] if "_id_canonico" in r else _id_canonico_registro(r)) not in vistos_mapa
+        ]
     limit -= len(del_mapa)
     q_norm = _strip_accents(query.lower().strip())
     tokens = [t for t in q_norm.split() if len(t) > 2]
@@ -514,7 +516,7 @@ def buscar_sentencias_locales(query: str, limit: int = 10) -> List[Dict[str, Any
     puntuados.sort(key=lambda p: p[0], reverse=True)
     salida: List[Dict[str, Any]] = []
     for _, _, registro in puntuados[:limit]:
-        limpio = {k: v for k, v in registro.items() if k != "_texto"}
+        limpio = {k: v for k, v in registro.items() if k not in ("_texto", "_id_canonico")}
         limpio["origen"] = "corpus_local"
         salida.append(limpio)
     return del_mapa + salida
@@ -845,49 +847,34 @@ class PJUDClient:
                 if sala and _strip_accents(sala.lower()) not in _strip_accents(str(s.get("sala") or "").lower()):
                     continue
                 vistos.add(firma)
-                results.append({
+                doctrina_val = _resumen_registro(s, tokens)
+                url_hf = s.get("url_huggingface")
+                link_val = s.get("link") or s.get("link_detalle") or s.get("link_pdf") or ""
+                item_pjud: Dict[str, Any] = {
                     "tribunal": s.get("tribunal") or "",
                     "sala": s.get("sala") or "",
                     "rol": s.get("rol") or "",
                     "fecha": s.get("fecha") or "",
                     "caratula": s.get("caratula") or "",
                     "materia": s.get("materia") or s.get("recurso") or s.get("tipo") or "",
-                    "doctrina": _resumen_registro(s, tokens),
+                    "doctrina": doctrina_val,
                     "normas": s.get("normas") or s.get("precepto") or "",
-                    "link": s.get("link") or s.get("link_detalle") or s.get("link_pdf") or "",
                     "origen": s.get("origen") or "corpus_local",
-                    **{k: s[k] for k in ("url_huggingface", "url_vigente", "id_mapa", "resultado", "ministros")
-                       if s.get(k)},
-                })
+                }
+                if link_val and (not url_hf or link_val != url_hf):
+                    item_pjud["link"] = link_val
+                for campo_extra in ("url_huggingface", "id_mapa", "ministros"):
+                    if s.get(campo_extra):
+                        item_pjud[campo_extra] = s[campo_extra]
+                if s.get("resultado") and s.get("resultado") != doctrina_val:
+                    item_pjud["resultado"] = s["resultado"]
+                results.append(item_pjud)
                 if len(results) >= limit:
                     break
         except Exception:  # noqa: BLE001 — la búsqueda curada ya respondió; el corpus es adicional
             pass
 
         return results
-
-    def add_sentencia(self, sentencia: Dict[str, Any]) -> bool:
-        """Permite indexar nuevas sentencias judiciales."""
-        try:
-            with sqlite3.connect(self.db_path) as conn:
-                conn.execute("""
-                    INSERT OR REPLACE INTO sentencias_judiciales (
-                        tribunal, sala, rol, fecha, caratula, materia, doctrina, normas, link
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-                """, (
-                    sentencia.get("tribunal", "Corte Suprema"),
-                    sentencia.get("sala", ""),
-                    sentencia.get("rol", ""),
-                    sentencia.get("fecha", ""),
-                    sentencia.get("caratula", ""),
-                    sentencia.get("materia", ""),
-                    sentencia.get("doctrina", ""),
-                    sentencia.get("normas", ""),
-                    sentencia.get("link", "https://jurisprudencia.pjud.cl")
-                ))
-            return True
-        except Exception:
-            return False
 
 # --------------------------------------------------------------------------- consulta de causas
 #

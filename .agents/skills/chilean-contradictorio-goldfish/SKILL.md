@@ -1,6 +1,6 @@
 ---
 name: chilean-contradictorio-goldfish
-description: Auditoría Contradictoria de Contexto Cero («Modelo Elephant-Goldfish», inspirado en google/elephant-goldfish-model) adaptada al litigio y dictámenes en Chile: separa al agente redactor con contexto («Elefante») de tres revisores de contexto cero («Pez Dorado»: Ministro Relator de Corte, Contraparte Litigante y Auditor de Citas BCN/HF) para eliminar el sesgo de confirmación.
+description: "Auditoría Contradictoria de Contexto Cero («Modelo Elephant-Goldfish», inspirado en google/elephant-goldfish-model) adaptada al litigio y dictámenes en Chile: separa al agente redactor con contexto («Elefante») de tres revisores de contexto cero («Pez Dorado»: Ministro Relator de Corte, Contraparte Litigante y Auditor de Citas BCN/HF) para eliminar el sesgo de confirmación."
 ---
 
 # Habilidad: Auditoría Contradictoria de Contexto Cero — Modelo Elephant-Goldfish (chilean-contradictorio-goldfish)
@@ -16,10 +16,8 @@ description: Auditoría Contradictoria de Contexto Cero («Modelo Elephant-Goldf
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (informe de auditoría contradictoria, pliego de observaciones de admisibilidad, escrito subsanado): se entregan en **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que viene de varias fuentes se cita con todas.
+- **Documentos** (informe de auditoría contradictoria, pliego de observaciones de admisibilidad, escrito subsanado): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Norma procesal o sustantiva: `[BCN - Código de Procedimiento Civil, Art. <Número>]` o `[BCN - Código Civil, Art. 1698]`
@@ -37,7 +35,7 @@ En los dos casos: si no hay fuente identificable se dice «sin fuente verificabl
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** el socio litigante o abogado patrocinante que desea someter su demanda, contestación, recurso o informe en derecho a una prueba de ácido («red-team procesal») antes de firmarlo.
 - **Lenguaje claro:** el primer término técnico de cada observación lleva su explicación directa entre paréntesis — `excepción de ineptitud del libelo (defensa procesal del Art. 303 N.° 4 del CPC mediante la cual el demandado pide paralizar el juicio porque la demanda es vaga, ininteligible o incumple los requisitos del Art. 254 del CPC)`.

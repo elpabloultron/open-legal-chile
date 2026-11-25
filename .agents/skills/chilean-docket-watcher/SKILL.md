@@ -1,6 +1,6 @@
 ---
 name: chilean-docket-watcher
-description: Vigilante Procesal de Proveídos OJV/PJUD y Radar Normativo chileno: interpretación de resoluciones judiciales, cómputo de plazos fatales en días hábiles judiciales (Art. 59 y 66 CPC, Ley 20.886), control de hitos contractuales y vigilancia regulatoria.
+description: "Vigilante Procesal de Proveídos OJV/PJUD y Radar Normativo chileno: interpretación de resoluciones judiciales, cómputo de plazos fatales en días hábiles judiciales (Art. 59 y 66 CPC, Ley 20.886), control de hitos contractuales y vigilancia regulatoria."
 ---
 
 # Habilidad: Vigilante Procesal OJV y Cómputo de Plazos (chilean-docket-watcher)
@@ -13,10 +13,8 @@ description: Vigilante Procesal de Proveídos OJV/PJUD y Radar Normativo chileno
 
 ## 📎 Citas y formato de entrega
 
-- **Documentos** (minuta de control de plazos, informe de estado procesal, calendario de vencimientos): se entregan en **Word (.docx), no en PDF**, para que se puedan modificar; las citas van **a pie de página**, numeradas, con fuente · identificador · enlace.
-- **Conversación**: la respuesta va primero y las citas van **al final**, después del texto.
-
-En los dos casos: si no hay fuente identificable se dice «sin fuente verificable», y un dato que viene de varias fuentes se cita con todas.
+- **Documentos** (minuta de control de plazos, informe de estado procesal, calendario de vencimientos): entregar en **Word (.docx)** (no PDF), citas **a pie de página** numeradas (`fuente · id · enlace`).
+- **Conversación**: respuesta primero y citas **al final**. Sin fuente identificable: «sin fuente verificable»; múltiples fuentes: citar todas.
 
 ## 📚 Formato de Citación Obligatorio
 * Norma procesal: `[BCN - Código de Procedimiento Civil, Art. <Número>]` o `[BCN - Ley N° 20.886, Art. <Número>]`
@@ -35,7 +33,7 @@ En los dos casos: si no hay fuente identificable se dice «sin fuente verificabl
 
 ## 🎨 Presentación y Lenguaje Claro (Legal Design)
 
-Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md) aplicadas a esta skill. No cambian el fondo jurídico: cambian cómo se entrega.
+Reglas de [`docs/legal_design.md`](../../../docs/legal_design.md).
 
 - **Quién lee:** procuradores, abogados litigantes y clientes corporativos que necesitan certeza inmediata sobre qué hacer ante una notificación judicial y cuándo vence el plazo fatal.
 - **Lenguaje claro:** el primer término técnico de cada alerta lleva su traducción directa entre paréntesis — `con citación (la diligencia autorizada por el tribunal no puede llevarse a efecto sino pasados tres días hábiles desde su notificación, plazo en el cual la contraparte puede oponerse conforme al Art. 69 inc. 1 del CPC)`.
