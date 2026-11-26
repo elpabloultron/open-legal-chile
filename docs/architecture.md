@@ -46,7 +46,7 @@
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                   MOTOR DE AGENTES JURÍDICOS AUTÓNOMOS (agents_runtime.py)              │
 │                                                                                         │
-│  Catálogo de 19 Agentes Especializados (agents/*.json) & 18 Skills (.agents/skills/):   │
+│  Catálogo de 24 Agentes Especializados (agents/*.json) & 26 Skills (.agents/skills/):   │
 │  • Litigios OJV (Recursos de Protección)   • Auditor Inmobiliario & Títulos CBR         │
 │  • Estratega Dogmático & LegalGraphify      • Agente Ingestor Doctrinal & Doc2Markdown   │
 │  • Laboral & DT (Ley Karin / 40 Horas)     • Auditor Regulatorio & CGR                  │

@@ -19,14 +19,14 @@ uvx --from openlegal-chile openlegal-mcp < /dev/null
 
 ## Claude Code
 
-**Plugin (recomendado)**: trae el servidor MCP, las 18 skills y los 19 agentes.
+**Plugin (recomendado)**: trae el servidor MCP, las 26 skills y los 24 agentes.
 
 ```bash
 claude plugin marketplace add elpabloultron/open-legal-chile
 claude plugin install open-legal-chile@open-legal-chile
 ```
 
-Al activarlo, Claude Code pide dos valores opcionales: el **perfil** de herramientas (vacío = las 87)
+Al activarlo, Claude Code pide dos valores opcionales: el **perfil** de herramientas (vacío = las 109)
 y el **token de Hugging Face**. Las skills por materia (`chilean-employment-legal`, etc.) también se
 pueden instalar sueltas; cada una trae el plugin principal como dependencia.
 

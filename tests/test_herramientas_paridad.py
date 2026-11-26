@@ -120,8 +120,8 @@ def test_entrevista_estudio_acumula_el_perfil(tmp_path, monkeypatch):
 def test_skills_listar_trae_las_dieciocho_y_los_agentes():
     res = mcp_server.handle_tool_call("skills_listar", {})
 
-    assert len(res["skills"]) >= 18, f"el repo tiene 18 skills y el listado trajo {len(res['skills'])}"
-    assert len(res["agentes"]) >= 19
+    assert len(res["skills"]) >= 26, f"el repo tiene 26 skills y el listado trajo {len(res['skills'])}"
+    assert len(res["agentes"]) >= 24
     assert {s["nombre"] for s in res["skills"]} >= {"chilean-employment-legal", "chilean-litigation-legal"}
 
 

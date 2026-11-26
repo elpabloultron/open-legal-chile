@@ -25,6 +25,18 @@
       "skillPath": ".agents/skills/chilean-contradictorio-goldfish/SKILL.md",
       "sha256": "3c7601f817149c07050d9781ff1a7a2bc73885952176c1071b90c635f1b5c5f8"
     },
+    "chilean-criminal-compliance": {
+      "source": "local",
+      "sourceType": "workspace",
+      "skillPath": ".agents/skills/chilean-criminal-compliance/SKILL.md",
+      "sha256": "8eaf3f751f2ec9ff86a07674e892a86788ceed8736aed81e54cfaf577c1e2fcc"
+    },
+    "chilean-criminal-litigation": {
+      "source": "local",
+      "sourceType": "workspace",
+      "skillPath": ".agents/skills/chilean-criminal-litigation/SKILL.md",
+      "sha256": "09c6526d4ecd9a2e084cef491f8ae7cf3fe8dbbd53de6c1259f2d288f4c033d5"
+    },
     "chilean-corporate-legal": {
       "source": "local",
       "sourceType": "workspace",
@@ -73,11 +85,23 @@
       "skillPath": ".agents/skills/chilean-environmental-legal/SKILL.md",
       "sha256": "c8cc491ca5d060eace6f83ef2d245903d253b2d4bbb7f2a9dbabd7d86b2e1560"
     },
+    "chilean-family-legal": {
+      "source": "local",
+      "sourceType": "workspace",
+      "skillPath": ".agents/skills/chilean-family-legal/SKILL.md",
+      "sha256": "44550b93e6a3c415a6956ada7a2eb4e14ba7957fa0be2f61ec286dce2eafd522"
+    },
     "chilean-forensic-evidence": {
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-forensic-evidence/SKILL.md",
       "sha256": "4bd7c71f55bb7ba168b345cd87350d6a70d3ad22faef21d11ee953f69cbe6e0b"
+    },
+    "chilean-insolvency-legal": {
+      "source": "local",
+      "sourceType": "workspace",
+      "skillPath": ".agents/skills/chilean-insolvency-legal/SKILL.md",
+      "sha256": "6092d54c4c3f666cfb392fe00fca3b77e32049504b6f06404b0e0c31af502ff6"
     },
     "chilean-legal-clinic": {
       "source": "local",
@@ -120,6 +144,12 @@
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-socratic-bar-exam/SKILL.md",
       "sha256": "996eeaa1ad2c50dadf5cfd7fee276577532499c067e31fb0035b76b23d2e411f"
+    },
+    "chilean-tax-litigation": {
+      "source": "local",
+      "sourceType": "workspace",
+      "skillPath": ".agents/skills/chilean-tax-litigation/SKILL.md",
+      "sha256": "c3296f69cd737d6d3ac873d59e0ca2f51474023f13693e438b07cb68f3a3f330"
     },
     "chilean-workspace-legal-flow": {
       "source": "local",

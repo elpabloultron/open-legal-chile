@@ -2,17 +2,17 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.elpabloultron/open-legal-chile",
   "title": "Open Legal Chile",
-  "description": "Suite jurídica chilena: 100 herramientas MCP (BCN, PJUD, CGR, DT, SII, SMA), doctrina, grafo y OCR.",
+  "description": "Suite jurídica chilena: 109 herramientas MCP (BCN, PJUD, CGR, DT, SII, SMA), doctrina, grafo y OCR.",
   "repository": {
     "url": "https://github.com/elpabloultron/open-legal-chile",
     "source": "github"
   },
-  "version": "1.18.0",
+  "version": "1.19.0",
   "packages": [
     {
       "registryType": "pypi",
       "identifier": "openlegal-chile",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "transport": {
         "type": "stdio"
       },

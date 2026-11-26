@@ -18,7 +18,7 @@ Este repositorio es una suite de inteligencia jurídica y servidor Model Context
 
 ```
 open-legal-chile/
-├── mcp_server.py             # Servidor MCP JSON-RPC 2.0 sobre stdio: protocolo, perfiles y ensamblado (100 herramientas)
+├── mcp_server.py             # Servidor MCP JSON-RPC 2.0 sobre stdio: protocolo, perfiles y ensamblado (109 herramientas)
 ├── servidor/                 # Esquemas y despacho de las herramientas, un módulo por dominio
 │   ├── conectores.py         # BCN, CGR, DT, CNE, Panel, CMF, SII, SMA, TDLC, PJUD
 │   ├── corpus.py · forense.py · casos.py · ambiental.py · suite.py
@@ -27,8 +27,8 @@ open-legal-chile/
 ├── diagnostico.py            # `openlegal doctor` / herramienta suite_doctor
 ├── recursos.py               # Ubica skills, agentes y AGENTS.md (repo o share/openlegal-chile instalado)
 ├── agents_runtime.py         # Runtime de agentes y exportación a subagentes de Claude Code
-├── agents/                   # 19 agentes: *.json (fuente) y *.md (subagentes del plugin, generados)
-├── .agents/skills/           # 21 skills (SKILL.md), compartidas por todos los harness
+├── agents/                   # 24 agentes: *.json (fuente) y *.md (subagentes del plugin, generados)
+├── .agents/skills/           # 26 skills (SKILL.md), compartidas por todos los harness
 ├── .claude-plugin/           # plugin.json (MCP por uvx + skills + agentes) y marketplace.json
 ├── gemini-extension.json     # Extensión de Gemini CLI
 ├── chat_engine.py · critique.py · exporters.py · config.py   # chat, crítica, escritos OJV, configuración y red

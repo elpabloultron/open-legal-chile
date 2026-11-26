@@ -1,6 +1,6 @@
 # Open Legal Chile — Referencia Completa de Herramientas, Skills y Agentes
 
-Catálogo completo de las **100 herramientas MCP**, **21 skills jurídicas** (`.agents/skills/`) y **19 agentes autónomos** (`agents/*.json`) de Open Legal Chile. Consultar también `skills_listar`, `agent_list`, `suite_doctor` o `descubrir_herramientas` (en perfil `OPENLEGAL_PROFILE=router`).
+Catálogo completo de las **109 herramientas MCP**, **26 skills jurídicas** (`.agents/skills/`) y **24 agentes autónomos** (`agents/*.json`) de Open Legal Chile. Consultar también `skills_listar`, `agent_list`, `suite_doctor` o `descubrir_herramientas` (en perfil `OPENLEGAL_PROFILE=router`).
 
 ---
 
@@ -22,8 +22,14 @@ Catálogo completo de las **100 herramientas MCP**, **21 skills jurídicas** (`.
 11. `sii_search_circulares`: Circulares tributarias del SII (2020–2026).
 12. `sii_buscar_resoluciones_y_oficios`, `sii_oficios_por_anio`, `sii_descargar_oficio`, `sii_leer_documento`, `sii_actos_regionales`, `sii_convenios_internacionales`, `sii_jurisprudencia_judicial`.
 13. `infoprobidad_get_dip`: Declaraciones de Intereses y Patrimonio (DIP) desde InfoProbidad.cl (Ley N.° 20.880).
-14. `entes_consultar_organo`: Competencias orgánicas, leyes orgánicas y recursos administrativos/judiciales.
-15. `rut_validar_chile`: Validación Módulo 11 y formato chileno de RUT / RUN.
+14. `compras_publicas_buscar` y `compras_publicas_cruzar_probidad`: Licitaciones/OCDS de Mercado Público / ChileCompra y cruce automático de inhabilidades con InfoProbidad (Art. 4 Ley N.° 19.886 / Ley N.° 21.634).
+15. `cplt_buscar_amparos` y `cplt_buscar_lobby`: Amparos por denegación de acceso (Ley N.° 20.285) y registros InfoLobby (Ley N.° 20.730) en datos abiertos CPLT.
+16. `diario_oficial_consultar`: Sumario oficial del Diario Oficial (normas generales, particulares, avisos destacados y extractos societarios).
+17. `suseso_buscar_normativa`: Circulares, dictámenes y compendios de seguridad social SUSESO (Ley N.° 16.744).
+18. `sernac_buscar_consumidor`: Circulares interpretativas, alertas de seguridad y juicios colectivos SERNAC (Ley N.° 19.496).
+19. `tta_buscar_sentencias`: Sentencias públicas de los Tribunales Tributarios y Aduaneros (Ley N.° 20.322 / Ley N.° 21.713).
+20. `entes_consultar_organo`: Competencias orgánicas, leyes orgánicas y recursos administrativos/judiciales.
+21. `rut_validar_chile`: Validación Módulo 11 y formato chileno de RUT / RUN.
 
 **Sectoriales (Energía, Ambiental, Libre Competencia):**
 16. `cne_get_centrales_y_proyectos`: Centrales de generación eléctrica y proyectos SEA (filtra por `region`).
@@ -43,7 +49,7 @@ Catálogo completo de las **100 herramientas MCP**, **21 skills jurídicas** (`.
 28. `ocr_plan_documento` y `ocr_extract_pdf`: Planificación y extracción OCR de expedientes PDF escaneados.
 29. `export_brief_ojv`, `compile_legal_dossier`, `generar_documento`, `docx_aplicar_redline`: Exportación y redlining XML nativo (`w:del`/`w:ins` + comentarios) de escritos/informes (Word `.docx` editable, HTML/MD y dossier PDF formal A4).
 30. `privacidad_anonimizar_documento`, `privacidad_tramitar_arco`, `verificar_citas_escrito`.
-31. `inapi_evaluar_marca`, `inapi_cease_and_desist`.
+31. `inapi_buscar_marcas`, `inapi_evaluar_marca`, `inapi_cease_and_desist`: Búsqueda en datos abiertos INAPI, factibilidad marcaria (Niza) y cese y desistimiento.
 32. `vigilante_analizar_resolucion`, `vigilante_radar_normativo`, `vigilante_contrato_plazos`, `calcular_plazo_procesal`, `calcular_finiquito_laboral`, `calcular_cuantias_legales`, `indicadores_economicos_chile`.
 33. `clinica_lenguaje_claro`, `clinica_intake_social`, `clinica_auditar_borrador`.
 34. `grado_interrogar`, `grado_generar_cedula`, `grado_obtener_flashcards`.
@@ -64,7 +70,7 @@ Catálogo completo de las **100 herramientas MCP**, **21 skills jurídicas** (`.
 
 ---
 
-## 2. Catálogo de Skills y Agentes (21 Skills · 19 Agentes)
+## 2. Catálogo de Skills y Agentes (26 Skills · 24 Agentes)
 
 | Skill (`.agents/skills/`) | Agente (`agents/*.json`) | Cobertura principal |
 |---|---|---|
@@ -87,6 +93,11 @@ Catálogo completo de las **100 herramientas MCP**, **21 skills jurídicas** (`.
 | `chilean-docket-watcher` | `agente-vigilante` | Interpretación de proveídos OJV/PJUD y cómputo de plazos fatales (Art. 66 CPC) |
 | `chilean-legal-clinic` | `agente-clinica` | Asistencia jurídica social (CAJ), Lenguaje Claro y auditoría de borradores |
 | `chilean-privacy-ip` | `agente-propiedad-datos` | Derechos ARCO+ (Ley 19.628 / 21.719), factibilidad marcaria INAPI y cese y desistimiento |
+| `chilean-criminal-compliance` | `agente-compliance` | Delitos económicos (Ley 21.595), RPPJ y MPD (Ley 20.393), ciberseguridad ANCI (Ley 21.663) |
+| `chilean-tax-litigation` | `agente-tributario` | Reclamaciones ante TTA (Ley 20.322), Código Tributario, SII y cumplimiento Ley 21.713 |
+| `chilean-insolvency-legal` | `agente-concursal` | Reorganización, liquidación, procedimientos PyME/persona y SUPERIR (Leyes 20.720 / 21.563) |
+| `chilean-family-legal` | `agente-familia` | Alimentos en UTM (Ley 14.908), RNDP (Ley 21.389), pago AFP (Ley 21.484) y VIF (Ley 20.066) |
+| `chilean-criminal-litigation` | `agente-penal` | Litigación penal CPP, cautelares/prisión preventiva (Art. 140) y recurso de nulidad (Arts. 372-387) |
 | `chilean-contradictorio-goldfish` | *(vía `critique_documento`)* | Auditoría contradictoria de contexto cero (Ministro Relator, Contraparte y Auditor BCN/HF) |
 | `chilean-workspace-legal-flow` | *(orquestación Workspace)* | Flujo entre análisis forense chileno y Drive/Docs/Sheets/Calendar |
 

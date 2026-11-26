@@ -409,3 +409,54 @@ def test_inapi_offline_vencido_y_factibilidad_segura(monkeypatch, tmp_path):
     eval_err = INAPIEngine.evaluar_factibilidad_marca("MarcaResiliente", clase_niza="45", consultar_inapi=True)
     assert eval_err["consulta_inapi"]["sin_fuente_verificable"] is True
     assert eval_err["nivel_riesgo_preliminar"] == "BAJO"
+
+
+def test_mcp_handle_tool_call_conectores_sectoriales_v119(monkeypatch, tmp_path):
+    """Verifica el despacho MCP lazy e offline de SUSESO, SERNAC, TTA e INAPI."""
+    import mcp_server
+    import sernac_connector
+    import suseso_connector
+    import tta_connector
+
+    monkeypatch.setattr(suseso_connector, "CACHE_DIR", str(tmp_path / "suseso"))
+    monkeypatch.setattr(sernac_connector, "CACHE_DIR", str(tmp_path / "sernac"))
+    monkeypatch.setattr(tta_connector, "CACHE_DIR", str(tmp_path / "tta"))
+    monkeypatch.setattr(privacidad_inapi, "INAPI_CACHE_DIR", str(tmp_path / "inapi"))
+
+    def fake_http(url, headers=None, timeout=20.0):
+        u = str(url).lower()
+        if "suseso" in u:
+            return HTML_SUSESO_CIRCULARES.encode("utf-8")
+        if "sernac" in u:
+            return HTML_SERNAC_CIRCULARES.encode("utf-8")
+        if "tta" in u:
+            return json.dumps(JSON_TTA_OJV).encode("utf-8")
+        if "package_show" in u:
+            return json.dumps(JSON_INAPI_PKG).encode("utf-8")
+        return json.dumps(JSON_INAPI_RECORDS).encode("utf-8")
+
+    monkeypatch.setattr(config, "pedir_http", fake_http)
+
+    assert "error" in mcp_server.handle_tool_call("suseso_buscar_normativa", {})
+    assert "error" in mcp_server.handle_tool_call("sernac_buscar_consumidor", {})
+    assert "error" in mcp_server.handle_tool_call("tta_buscar_sentencias", {})
+    assert "error" in mcp_server.handle_tool_call("inapi_buscar_marcas", {})
+
+    r_sus = mcp_server.handle_tool_call("suseso_buscar_normativa", {"query": "16.744", "tipo": "circulares"})
+    assert isinstance(r_sus, dict) and r_sus["total"] >= 1
+
+    r_ser = mcp_server.handle_tool_call("sernac_buscar_consumidor", {"query": "garantía", "categoria": "circulares"})
+    assert isinstance(r_ser, dict) and r_ser["total"] >= 1
+
+    r_tta = mcp_server.handle_tool_call("tta_buscar_sentencias", {"query": "gasto rechazado"})
+    assert isinstance(r_tta, dict) and r_tta["total"] >= 1
+
+    r_ina = mcp_server.handle_tool_call("inapi_buscar_marcas", {"marca": "ANDESLEGAL", "clase_niza": "45"})
+    assert isinstance(r_ina, dict) and r_ina["total"] >= 1
+
+    r_eval = mcp_server.handle_tool_call(
+        "inapi_evaluar_marca",
+        {"marca_propuesta": "ANDESLEGAL", "clase_niza": "45", "consultar_inapi": True},
+    )
+    assert "consulta_inapi" in r_eval and r_eval["consulta_inapi"]["total"] >= 1
+

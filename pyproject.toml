@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openlegal-chile"
-version = "1.18.0"
+version = "1.19.0"
 description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
 readme = "README.md"
 authors = [
@@ -117,9 +117,11 @@ py-modules = [
     "cmf_connector",
     "cne_connector",
     "cold_start",
+    "compras_publicas_connector",
     "config",
     "critique",
     "diagnostico",
+    "diario_oficial_connector",
     "doc2md_ingestor",
     "docket_watcher",
     "doctrina_connector",
@@ -157,10 +159,14 @@ py-modules = [
     "resoluciones_parser",
     "sentencia2md",
     "sentencias_parser",
+    "sernac_connector",
     "sii_connector",
     "stats_tracker",
+    "suseso_connector",
     "tdlc_connector",
+    "transparencia_cplt_connector",
     "tribunales_ambientales_connector",
+    "tta_connector",
     "update_checker",
     "vector_engine",
 ]
@@ -180,6 +186,8 @@ py-modules = [
 "share/openlegal-chile/.agents/skills/chilean-case-intake" = [".agents/skills/chilean-case-intake/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-contract-legal" = [".agents/skills/chilean-contract-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-contradictorio-goldfish" = [".agents/skills/chilean-contradictorio-goldfish/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-criminal-compliance" = [".agents/skills/chilean-criminal-compliance/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-criminal-litigation" = [".agents/skills/chilean-criminal-litigation/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-corporate-legal" = [".agents/skills/chilean-corporate-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-docket-watcher" = [".agents/skills/chilean-docket-watcher/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-doctrine-ingestion" = [".agents/skills/chilean-doctrine-ingestion/SKILL.md"]
@@ -188,7 +196,9 @@ py-modules = [
 "share/openlegal-chile/.agents/skills/chilean-employment-legal" = [".agents/skills/chilean-employment-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-energy-legal" = [".agents/skills/chilean-energy-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-environmental-legal" = [".agents/skills/chilean-environmental-legal/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-family-legal" = [".agents/skills/chilean-family-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-forensic-evidence" = [".agents/skills/chilean-forensic-evidence/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-insolvency-legal" = [".agents/skills/chilean-insolvency-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-legal-clinic" = [".agents/skills/chilean-legal-clinic/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-litigation-legal" = [".agents/skills/chilean-litigation-legal/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-notebooklm-grounding" = [".agents/skills/chilean-notebooklm-grounding/SKILL.md"]
@@ -196,6 +206,7 @@ py-modules = [
 "share/openlegal-chile/.agents/skills/chilean-probity-investigation" = [".agents/skills/chilean-probity-investigation/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-real-estate-cbr" = [".agents/skills/chilean-real-estate-cbr/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-socratic-bar-exam" = [".agents/skills/chilean-socratic-bar-exam/SKILL.md"]
+"share/openlegal-chile/.agents/skills/chilean-tax-litigation" = [".agents/skills/chilean-tax-litigation/SKILL.md"]
 "share/openlegal-chile/.agents/skills/chilean-workspace-legal-flow" = [".agents/skills/chilean-workspace-legal-flow/SKILL.md"]
 
 [tool.setuptools.packages.find]

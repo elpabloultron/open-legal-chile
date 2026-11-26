@@ -42,7 +42,7 @@ TOOLS = [
     },
     {
         "name": "skills_listar",
-        "description": "Lista las 21 skills jurídicas y los 19 agentes autónomos reales del producto, con su título.",
+        "description": "Lista las 26 skills jurídicas y los 24 agentes autónomos reales del producto, con su título.",
         "inputSchema": {"type": "object", "properties": {}}
     },
     {

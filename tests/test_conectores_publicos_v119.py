@@ -550,3 +550,91 @@ def test_docket_watcher_radar_normativo_diario_oficial(monkeypatch, tmp_path):
     )
     assert radar_err["diario_oficial"]["sin_fuente_verificable"] is True
     assert radar_err["total_alertas_detectadas"] >= 1
+
+
+def test_mcp_handle_tool_call_conectores_publicos_v119(monkeypatch, tmp_path):
+    """Verifica el despacho MCP lazy e offline de los conectores públicos v1.19.0."""
+    import mcp_server
+
+    cp._MEM_CACHE.clear()
+    cplt._MEM_CACHE.clear()
+    do_conn._MEM_CACHE.clear()
+    monkeypatch.setattr(cp, "CACHE_DIR", str(tmp_path / "cp"))
+    monkeypatch.setattr(cplt, "CACHE_DIR", str(tmp_path / "cplt"))
+    monkeypatch.setattr(do_conn, "CACHE_DIR", str(tmp_path / "do"))
+
+    def fake_http(url, headers=None, timeout=20.0):
+        u = str(url).lower()
+        if "infoprobidad.cl" in u:
+            return b"<html><body><h1>Consultora Sur Ltda.</h1></body></html>"
+        if "chilecompra" in u or "mercadopublico" in u:
+            return json.dumps(_payload_ocds_ejemplo()).encode("utf-8")
+        if "amparo" in u or "cplt" in u or "ckan" in u:
+            return json.dumps({
+                "success": True,
+                "result": {
+                    "records": [
+                        {
+                            "rol": "C1111-26",
+                            "organismo": "Ministerio de Hacienda",
+                            "estado": "Acogido",
+                            "materia": "Acceso a contratos de licitación",
+                            "fecha": "2026-10-01",
+                        }
+                    ]
+                },
+            }).encode("utf-8")
+        if "lobby" in u or "audiencia" in u:
+            return json.dumps([
+                {
+                    "id": "aud-99",
+                    "institucion": "Ministerio de Hacienda",
+                    "sujeto_pasivo": "Subsecretario",
+                    "materia": "Mesa técnica normativa",
+                    "fecha": "2026-10-02",
+                }
+            ]).encode("utf-8")
+        return json.dumps({
+            "edicion": "44020",
+            "normas_generales": [
+                {
+                    "titulo": "Decreto Supremo N° 120",
+                    "cve": "2699999",
+                    "organismo": "Ministerio de Hacienda",
+                    "extracto": "Norma general presupuestaria.",
+                }
+            ],
+        }).encode("utf-8")
+
+    monkeypatch.setattr(config, "pedir_http", fake_http)
+
+    # Validación de parámetros requeridos
+    assert "error" in mcp_server.handle_tool_call("compras_publicas_buscar", {})
+    assert "error" in mcp_server.handle_tool_call("compras_publicas_cruzar_probidad", {})
+    assert "error" in mcp_server.handle_tool_call("cplt_buscar_amparos", {})
+    assert "error" in mcp_server.handle_tool_call("cplt_buscar_lobby", {})
+
+    r_cp = mcp_server.handle_tool_call("compras_publicas_buscar", {"query": "computadores", "limite": 5})
+    assert r_cp["total"] >= 1
+
+    r_prob = mcp_server.handle_tool_call(
+        "compras_publicas_cruzar_probidad",
+        {"rut_entidad_o_proveedor": "69.070.300-8", "nombre": "Providencia"},
+    )
+    assert "rut_valido" in r_prob
+
+    r_amp = mcp_server.handle_tool_call("cplt_buscar_amparos", {"query": "licitacion"})
+    assert r_amp["total"] >= 1
+
+    r_lob = mcp_server.handle_tool_call("cplt_buscar_lobby", {"query": "Hacienda", "tipo": "audiencias"})
+    assert isinstance(r_lob, dict) and "resultados" in r_lob
+
+    r_do = mcp_server.handle_tool_call("diario_oficial_consultar", {"fecha": "2026-11-26"})
+    assert r_do["total"] >= 1
+
+    r_radar = mcp_server.handle_tool_call(
+        "vigilante_radar_normativo",
+        {"materia": "administrativo", "dias_atras": 10, "consultar_diario_oficial": True},
+    )
+    assert "diario_oficial" in r_radar
+

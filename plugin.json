@@ -2,8 +2,8 @@
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "open-legal-chile",
   "displayName": "Open Legal Chile",
-  "version": "1.18.0",
-  "description": "Suite jurídica de Chile (Civil Law): 100 herramientas MCP, 10 conectores estatales (BCN, PJUD, CGR, DT, SII, CMF, SMA, TDLC, CNE), 21 skills y 19 agentes.",
+  "version": "1.19.0",
+  "description": "Suite jurídica de Chile (Civil Law): 109 herramientas MCP, conectores estatales y de datos abiertos (BCN, PJUD, CGR, DT, SII, CMF, SMA, TDLC, CNE, ChileCompra, CPLT, Diario Oficial, SUSESO, SERNAC, TTA, INAPI), 26 skills y 24 agentes.",
   "logo": "assets/logo.svg",
   "skills": [
     "./.agents/skills"

@@ -432,6 +432,162 @@ TOOLS = [
             "required": ["organo"]
         }
     },
+    {
+        "name": "compras_publicas_buscar",
+        "description": "Busca licitaciones públicas, órdenes de compra, proveedores o tratos directos en Mercado Público / ChileCompra (datos abiertos OCDS y API oficial), con citas legales verificables.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Término de búsqueda, servicio, producto o nombre de licitación"},
+                "tipo": {
+                    "type": "string",
+                    "enum": ["licitaciones", "ordenes_compra", "proveedores", "tratos_directos"],
+                    "default": "licitaciones",
+                    "description": "Tipo de registro en Mercado Público / ChileCompra"
+                },
+                "organismo": {"type": "string", "description": "Filtro opcional por nombre o código del organismo comprador"},
+                "codigo_licitacion": {"type": "string", "description": "Código específico de licitación (ej. '1234-5-LP26')"},
+                "limite": {"type": "integer", "default": 10, "description": "Máximo de resultados a devolver"},
+                "solo_cache": {"type": "boolean", "default": False, "description": "Si es True, responde únicamente desde la caché local"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "compras_publicas_cruzar_probidad",
+        "description": "Cruza un RUT de proveedor o autoridad entre Mercado Público / ChileCompra e InfoProbidad (Ley N.° 20.880) para detectar eventuales inhabilidades o conflictos de interés (Art. 4 Ley N.° 19.886 / Ley N.° 21.634 y Ley N.° 18.575).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "rut_entidad_o_proveedor": {"type": "string", "description": "RUT chileno del proveedor, socio o autoridad pública a cruzar"},
+                "nombre": {"type": "string", "description": "Nombre o razón social de apoyo para la búsqueda"},
+                "organismo": {"type": "string", "description": "Organismo comprador involucrado (opcional)"},
+                "solo_cache": {"type": "boolean", "default": False, "description": "Si es True, opera solo con caché local"}
+            },
+            "required": ["rut_entidad_o_proveedor"]
+        }
+    },
+    {
+        "name": "cplt_buscar_amparos",
+        "description": "Busca decisiones de amparo y jurisprudencia del Consejo para la Transparencia (CPLT) en datos abiertos sobre acceso a la información pública (Ley N.° 20.285).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Término jurídico, rol de amparo o causal de reserva (Art. 21 Ley N.° 20.285)"},
+                "organismo": {"type": "string", "description": "Organismo público reclamado (opcional)"},
+                "estado": {"type": "string", "description": "Filtro opcional de decisión o estado ('Acogido', 'Rechazado', etc.)"},
+                "limite": {"type": "integer", "default": 10, "description": "Máximo de resultados"},
+                "solo_cache": {"type": "boolean", "default": False, "description": "Si es True, responde solo desde caché local"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "cplt_buscar_lobby",
+        "description": "Consulta registros de datos abiertos de la Ley del Lobby (InfoLobby / CPLT, Ley N.° 20.730): audiencias, viajes, donativos y sujetos pasivos.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Materia, gestor de intereses, lobbista o sujeto pasivo"},
+                "tipo": {
+                    "type": "string",
+                    "enum": ["audiencias", "viajes", "donativos", "sujetos_pasivos"],
+                    "default": "audiencias",
+                    "description": "Tipo de registro InfoLobby"
+                },
+                "institucion": {"type": "string", "description": "Institución u órgano del Estado (opcional)"},
+                "limite": {"type": "integer", "default": 10, "description": "Máximo de resultados"},
+                "solo_cache": {"type": "boolean", "default": False, "description": "Si es True, responde solo desde caché local"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "diario_oficial_consultar",
+        "description": "Consulta sumarios oficiales del Diario Oficial de la República de Chile por fecha y sección (normas generales, particulares, avisos destacados y extractos societarios).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "fecha": {"type": "string", "description": "Fecha de edición en formato YYYY-MM-DD (si se omite, consulta la fecha actual)"},
+                "seccion": {
+                    "type": "string",
+                    "enum": ["todas", "normas_generales", "normas_particulares", "avisos_destacados", "empresas_sociedades"],
+                    "default": "todas",
+                    "description": "Sección del Diario Oficial a consultar"
+                },
+                "query": {"type": "string", "description": "Filtro opcional por palabra clave, ley, sociedad o RUT"},
+                "limite": {"type": "integer", "default": 15, "description": "Máximo de publicaciones"},
+                "solo_cache": {"type": "boolean", "default": False, "description": "Si es True, responde solo desde caché local"}
+            }
+        }
+    },
+    {
+        "name": "suseso_buscar_normativa",
+        "description": "Busca circulares, dictámenes y compendios de seguridad social de la SUSESO (Ley N.° 16.744 de accidentes del trabajo, licencias médicas y CCAF).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Materia, accidente del trabajo, enfermedad profesional, licencia médica o número de circular"},
+                "tipo": {
+                    "type": "string",
+                    "enum": ["todos", "circulares", "dictamenes", "compendio"],
+                    "default": "todos",
+                    "description": "Categoría normativa SUSESO"
+                },
+                "limite": {"type": "integer", "default": 10, "description": "Máximo de resultados"},
+                "solo_cache": {"type": "boolean", "default": False, "description": "Si es True, responde solo desde caché local"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "sernac_buscar_consumidor",
+        "description": "Busca circulares interpretativas, alertas de seguridad de productos y juicios colectivos del SERNAC bajo la Ley N.° 19.496 de Protección de los Derechos de los Consumidores.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Cláusula abusiva, producto, proveedor, derecho del consumidor o circular SERNAC"},
+                "categoria": {
+                    "type": "string",
+                    "enum": ["todas", "circulares", "alertas", "juicios_colectivos"],
+                    "default": "todas",
+                    "description": "Categoría de consulta SERNAC"
+                },
+                "limite": {"type": "integer", "default": 10, "description": "Máximo de resultados"},
+                "solo_cache": {"type": "boolean", "default": False, "description": "Si es True, responde solo desde caché local"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "tta_buscar_sentencias",
+        "description": "Busca sentencias públicas de los Tribunales Tributarios y Aduaneros (TTA, Ley N.° 20.322) sobre reclamos de liquidaciones o giros del SII, Código Tributario y Ley N.° 21.713.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "RIT, impuesto reclamado, norma del Código Tributario o materia (ej. 'gasto rechazado', 'Art. 21 LIR')"},
+                "tribunal": {"type": "string", "description": "Filtro opcional por TTA jurisdiccional (ej. '1° TTA Santiago', 'TTA Valparaíso')"},
+                "anio": {"type": "string", "description": "Año opcional (YYYY)"},
+                "limite": {"type": "integer", "default": 10, "description": "Máximo de resultados"},
+                "solo_cache": {"type": "boolean", "default": False, "description": "Si es True, responde solo desde caché local"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "inapi_buscar_marcas",
+        "description": "Consulta registros y datos abiertos públicos de marcas comerciales ante INAPI (Ley N.° 19.039) por denominación o clase de Niza, con caché local y degradación honesta offline.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "marca": {"type": "string", "description": "Denominación o signo marcario a buscar"},
+                "clase_niza": {"type": "string", "description": "Clase del Clasificador de Niza (ej. '9', '35', '42', '45')"},
+                "limite": {"type": "integer", "default": 10, "description": "Máximo de resultados"},
+                "solo_cache": {"type": "boolean", "default": False, "description": "Si es True, responde solo desde caché local"}
+            },
+            "required": ["marca"]
+        }
+    },
 ]
 
 
@@ -811,6 +967,117 @@ def despachar(name: str, args: dict) -> Any:
         if not org:
             return {"error": "El parámetro 'organo' es obligatorio."}
         return consultar_ente(org)
+    elif name == "compras_publicas_buscar":
+        from compras_publicas_connector import compras_publicas_buscar
+
+        q = str(args.get("query") or "").strip()
+        if not q:
+            return {"error": "El parámetro 'query' es obligatorio."}
+        return compras_publicas_buscar(
+            query=q,
+            tipo=str(args.get("tipo") or "licitaciones"),
+            organismo=str(args.get("organismo") or ""),
+            codigo_licitacion=str(args.get("codigo_licitacion") or ""),
+            limite=int(args.get("limite") or 10),
+            solo_cache=bool(args.get("solo_cache", False)),
+        )
+    elif name == "compras_publicas_cruzar_probidad":
+        from compras_publicas_connector import compras_publicas_cruzar_probidad
+
+        rut = str(args.get("rut_entidad_o_proveedor") or "").strip()
+        if not rut:
+            return {"error": "El parámetro 'rut_entidad_o_proveedor' es obligatorio."}
+        return compras_publicas_cruzar_probidad(
+            rut_entidad_o_proveedor=rut,
+            nombre=str(args.get("nombre") or ""),
+            organismo=str(args.get("organismo") or ""),
+            solo_cache=bool(args.get("solo_cache", False)),
+        )
+    elif name == "cplt_buscar_amparos":
+        from transparencia_cplt_connector import cplt_buscar_amparos
+
+        q = str(args.get("query") or "").strip()
+        if not q:
+            return {"error": "El parámetro 'query' es obligatorio."}
+        return cplt_buscar_amparos(
+            query=q,
+            organismo=str(args.get("organismo") or ""),
+            estado=str(args.get("estado") or ""),
+            limite=int(args.get("limite") or 10),
+            solo_cache=bool(args.get("solo_cache", False)),
+        )
+    elif name == "cplt_buscar_lobby":
+        from transparencia_cplt_connector import cplt_buscar_lobby
+
+        q = str(args.get("query") or "").strip()
+        if not q:
+            return {"error": "El parámetro 'query' es obligatorio."}
+        return cplt_buscar_lobby(
+            query=q,
+            tipo=str(args.get("tipo") or "audiencias"),
+            institucion=str(args.get("institucion") or ""),
+            limite=int(args.get("limite") or 10),
+            solo_cache=bool(args.get("solo_cache", False)),
+        )
+    elif name == "diario_oficial_consultar":
+        from diario_oficial_connector import diario_oficial_consultar
+
+        return diario_oficial_consultar(
+            fecha=str(args.get("fecha") or ""),
+            seccion=str(args.get("seccion") or "todas"),
+            query=str(args.get("query") or ""),
+            limite=int(args.get("limite") or 15),
+            solo_cache=bool(args.get("solo_cache", False)),
+        )
+    elif name == "suseso_buscar_normativa":
+        from suseso_connector import suseso_buscar_normativa
+
+        q = str(args.get("query") or "").strip()
+        if not q:
+            return {"error": "El parámetro 'query' es obligatorio."}
+        return suseso_buscar_normativa(
+            query=q,
+            tipo=str(args.get("tipo") or "todos"),
+            limite=int(args.get("limite") or 10),
+            solo_cache=bool(args.get("solo_cache", False)),
+        )
+    elif name == "sernac_buscar_consumidor":
+        from sernac_connector import sernac_buscar_consumidor
+
+        q = str(args.get("query") or "").strip()
+        if not q:
+            return {"error": "El parámetro 'query' es obligatorio."}
+        return sernac_buscar_consumidor(
+            query=q,
+            categoria=str(args.get("categoria") or "todas"),
+            limite=int(args.get("limite") or 10),
+            solo_cache=bool(args.get("solo_cache", False)),
+        )
+    elif name == "tta_buscar_sentencias":
+        from tta_connector import tta_buscar_sentencias
+
+        q = str(args.get("query") or "").strip()
+        if not q:
+            return {"error": "El parámetro 'query' es obligatorio."}
+        return tta_buscar_sentencias(
+            query=q,
+            tribunal=str(args.get("tribunal") or ""),
+            anio=str(args.get("anio") or ""),
+            limite=int(args.get("limite") or 10),
+            solo_cache=bool(args.get("solo_cache", False)),
+        )
+    elif name == "inapi_buscar_marcas":
+        from privacidad_inapi import INAPIEngine
+
+        marca = str(args.get("marca") or "").strip()
+        if not marca:
+            return {"error": "El parámetro 'marca' es obligatorio."}
+        return INAPIEngine.buscar_marcas_datos_abiertos(
+            marca=marca,
+            clase_niza=str(args.get("clase_niza") or ""),
+            limite=int(args.get("limite") or 10),
+            solo_cache=bool(args.get("solo_cache", False)),
+        )
     return None
 
 

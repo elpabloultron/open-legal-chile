@@ -414,6 +414,15 @@ ORDEN_ORIGEN: List[str] = [
     "calcular_finiquito_laboral",
     "calcular_cuantias_legales",
     "docx_aplicar_redline",
+    "compras_publicas_buscar",
+    "compras_publicas_cruzar_probidad",
+    "cplt_buscar_amparos",
+    "cplt_buscar_lobby",
+    "diario_oficial_consultar",
+    "suseso_buscar_normativa",
+    "sernac_buscar_consumidor",
+    "tta_buscar_sentencias",
+    "inapi_buscar_marcas",
 ]
 if sorted(_POR_NOMBRE) != sorted(ORDEN_ORIGEN):
     raise RuntimeError("servidor/: los dominios no cubren exactamente las herramientas esperadas")
@@ -833,7 +842,7 @@ def _organismos_para_consulta(query: str, lim: int = 3) -> Dict[str, Any]:
 
 
 def _listar_skills() -> Dict[str, Any]:
-    """Las 18 skills y los 19 agentes reales del producto (el texto fijo de la CLI decía 7)."""
+    """Las 26 skills y los 24 agentes reales del producto."""
     skills = []
     for archivo in sorted(ruta_recurso(".agents/skills").glob("*/SKILL.md")):
         texto = archivo.read_text(encoding="utf-8", errors="ignore")
@@ -965,7 +974,7 @@ TOOL_PROFILES: Dict[str, List[str]] = {
     ],
     "laboral": _PROTOCOLO_BASE + [
         "caso_analizar", "caso_ejecutar", "bcn_get_codigo", "bcn_get_ley",
-        "dt_search_doctrina", "pjud_search_jurisprudencia", "pjud_analizar_sentencia",
+        "dt_search_doctrina", "suseso_buscar_normativa", "pjud_search_jurisprudencia", "pjud_analizar_sentencia",
         "doctrina_search", "doctrina_get_institucion", "export_brief_ojv", "compile_legal_dossier"
     ],
     "inmobiliario": _PROTOCOLO_BASE + [
@@ -981,8 +990,11 @@ TOOL_PROFILES: Dict[str, List[str]] = {
     ],
     "regulatorio": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_ley", "cgr_search_jurisprudencia", "cgr_search_auditorias",
-        "infoprobidad_get_dip", "cmf_search_normativa", "cmf_buscar_sanciones",
-        "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "sii_leer_documento", "sma_search_sancionatorios",
+        "infoprobidad_get_dip", "compras_publicas_buscar", "compras_publicas_cruzar_probidad",
+        "cplt_buscar_amparos", "cplt_buscar_lobby", "diario_oficial_consultar",
+        "cmf_search_normativa", "cmf_buscar_sanciones",
+        "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "sii_leer_documento", "tta_buscar_sentencias",
+        "sma_search_sancionatorios", "sernac_buscar_consumidor",
         "ambiental_consulta_maestra", "ambiental_buscar_jurisprudencia", "cne_get_centrales_y_proyectos", "panel_expertos_search",
         "tdlc_search_jurisprudencia", "tdlc_buscar_icg_y_dictamenes", "entes_consultar_organo",
         "export_brief_ojv"
@@ -990,8 +1002,9 @@ TOOL_PROFILES: Dict[str, List[str]] = {
     "corporativo": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "cmf_search_normativa",
         "cmf_buscar_sanciones", "sii_search_circulares", "sii_buscar_resoluciones_y_oficios", "sii_leer_documento",
-        "tdlc_search_jurisprudencia", "inapi_evaluar_marca", "inapi_cease_and_desist",
-        "privacidad_tramitar_arco", "rut_validar_chile", "export_brief_ojv"
+        "tta_buscar_sentencias", "diario_oficial_consultar",
+        "tdlc_search_jurisprudencia", "sernac_buscar_consumidor", "inapi_evaluar_marca", "inapi_buscar_marcas",
+        "inapi_cease_and_desist", "privacidad_tramitar_arco", "rut_validar_chile", "export_brief_ojv"
     ],
     "dogmatico": _PROTOCOLO_BASE + [
         "caso_analizar", "bcn_get_codigo", "bcn_get_ley", "doctrina_search",
@@ -1011,7 +1024,7 @@ TOOL_PROFILES: Dict[str, List[str]] = {
 def get_active_tools(profile_name: Optional[str] = None) -> List[Dict[str, Any]]:
     """Devuelve las herramientas activas según el perfil solicitado o la variable OPENLEGAL_PROFILE.
 
-    Perfiles temáticos y `router` reducen el contexto inicial; `"full"`, `"completo"` o vacío cargan las 100 herramientas.
+    Perfiles temáticos y `router` reducen el contexto inicial; `"full"`, `"completo"` o vacío cargan las 109 herramientas.
     """
     prof = (profile_name or os.environ.get("OPENLEGAL_PROFILE") or "").lower().strip()
     if prof and prof not in ("full", "completo") and prof in TOOL_PROFILES:
@@ -1148,7 +1161,7 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
                 "serverInfo": {
                     "name": "open-legal-chile-mcp",
                     "title": "Open Legal Chile",
-                    "version": "1.18.0"
+                    "version": "1.19.0"
                 },
                 "instructions": INSTRUCCIONES,
             })

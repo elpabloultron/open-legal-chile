@@ -97,13 +97,14 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
             "ley karin", "acoso laboral", "tutela laboral", "40 horas", "jornada",
             "licencia medica", "subcontratacion", "sindicato", "huelga", "remuneraciones",
             "cotizaciones", "ley bustos", "inspeccion del trabajo", "dt", "art 161",
-            "art 160", "art 168", "necesidades de la empresa"
+            "art 160", "art 168", "necesidades de la empresa", "suseso", "ley 16744",
+            "accidente del trabajo", "enfermedad profesional"
         ],
         "herramientas_nucleo": [
             "bcn_get_codigo", "dt_search_doctrina", "consulta_maestra", "generar_documento"
         ],
         "herramientas_apoyo": [
-            "pjud_search_jurisprudencia", "doctrina_search", "graphify_consulta_subgrafo"
+            "suseso_buscar_normativa", "pjud_search_jurisprudencia", "doctrina_search", "graphify_consulta_subgrafo"
         ]
     },
     "civil_contratos": {
@@ -168,13 +169,15 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
         "keywords": [
             "contraloria", "cgr", "dictamen cgr", "sumario administrativo", "estatuto administrativo",
             "probidad", "dip", "infoprobidad", "declaracion de intereses", "compras publicas",
-            "ley 19886", "confianza legitima", "contrata", "planta", "municipalidad"
+            "mercado publico", "chilecompra", "licitacion", "cplt", "transparencia",
+            "amparo transparencia", "ley 20285", "lobby", "infolobby", "ley 20730",
+            "diario oficial", "ley 19886", "confianza legitima", "contrata", "planta", "municipalidad"
         ],
         "herramientas_nucleo": [
-            "cgr_search_jurisprudencia", "consulta_maestra", "cgr_search_auditorias", "infoprobidad_get_dip"
+            "cgr_search_jurisprudencia", "consulta_maestra", "compras_publicas_buscar", "cplt_buscar_amparos"
         ],
         "herramientas_apoyo": [
-            "entes_consultar_organo", "bcn_get_ley"
+            "compras_publicas_cruzar_probidad", "cplt_buscar_lobby", "diario_oficial_consultar", "cgr_search_auditorias", "infoprobidad_get_dip", "entes_consultar_organo", "bcn_get_ley"
         ]
     },
     "tributario": {
@@ -182,13 +185,14 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
         "keywords": [
             "sii", "impuesto", "servicio de impuestos internos", "iva", "renta", "lir",
             "codigo tributario", "liquidacion", "giro", "fiscalizacion", "factura falsa",
-            "elusion", "evasion", "tta", "circular sii", "oficio sii"
+            "elusion", "evasion", "tta", "circular sii", "oficio sii", "ley 21713",
+            "norma general antielusiva", "tribunal tributario"
         ],
         "herramientas_nucleo": [
-            "sii_search_circulares", "consulta_maestra", "bcn_get_codigo", "sii_buscar_resoluciones_y_oficios"
+            "sii_search_circulares", "consulta_maestra", "tta_buscar_sentencias", "bcn_get_codigo"
         ],
         "herramientas_apoyo": [
-            "sii_leer_documento", "sii_oficios_por_anio", "sii_jurisprudencia_judicial", "bcn_get_ley"
+            "sii_buscar_resoluciones_y_oficios", "sii_leer_documento", "sii_oficios_por_anio", "sii_jurisprudencia_judicial", "bcn_get_ley"
         ]
     },
     "libre_competencia": {
@@ -228,6 +232,48 @@ TAXONOMIA_MATERIAS: Dict[str, Dict[str, Any]] = {
         ],
         "herramientas_apoyo": [
             "entes_consultar_organo", "doctrina_search"
+        ]
+    },
+    "consumidor_marcas": {
+        "fuero": "juzgado_de_policia_local_y_inapi",
+        "keywords": [
+            "sernac", "ley 19496", "derecho del consumidor", "clausula abusiva", "garantia legal",
+            "alerta de seguridad", "juicio colectivo", "inapi", "marca comercial", "ley 19039",
+            "clasificador de niza"
+        ],
+        "herramientas_nucleo": [
+            "sernac_buscar_consumidor", "consulta_maestra", "inapi_buscar_marcas", "inapi_evaluar_marca"
+        ],
+        "herramientas_apoyo": [
+            "bcn_get_ley", "entes_consultar_organo"
+        ]
+    },
+    "compliance_penal": {
+        "fuero": "juzgado_de_garantia_y_top",
+        "keywords": [
+            "delitos economicos", "ley 21595", "ley 20393", "modelo de prevencion de delitos",
+            "ciberseguridad", "ley 21663", "anci", "csirt", "prision preventiva", "art 140 cpp",
+            "recurso de nulidad penal", "proceso penal", "formalizacion penal"
+        ],
+        "herramientas_nucleo": [
+            "consulta_maestra", "bcn_get_ley", "pjud_search_jurisprudencia", "calcular_cuantias_legales"
+        ],
+        "herramientas_apoyo": [
+            "compras_publicas_cruzar_probidad", "cplt_buscar_lobby", "bcn_get_codigo"
+        ]
+    },
+    "concursal_familia": {
+        "fuero": "juzgado_civil_o_familia",
+        "keywords": [
+            "insolvencia", "quiebra", "ley 20720", "ley 21563", "superir", "reorganizacion judicial",
+            "liquidacion concursal", "pension de alimentos", "registro nacional de deudores",
+            "ley 14908", "ley 21389", "violencia intrafamiliar", "tribunal de familia"
+        ],
+        "herramientas_nucleo": [
+            "consulta_maestra", "bcn_get_ley", "pjud_search_jurisprudencia", "calcular_cuantias_legales"
+        ],
+        "herramientas_apoyo": [
+            "diario_oficial_consultar", "indicadores_economicos_chile", "calcular_plazo_procesal"
         ]
     }
 }

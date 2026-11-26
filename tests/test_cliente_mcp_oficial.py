@@ -64,11 +64,11 @@ def test_recorrido_completo_con_el_cliente_oficial():
     r = anyio.run(_recorrido)
     assert r["version"] in ("2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05")
     assert "consulta_maestra" in r["instrucciones"]
-    assert len(r["herramientas"]) == 100 and "consulta_maestra" in r["herramientas"]
+    assert len(r["herramientas"]) == 109 and "consulta_maestra" in r["herramientas"]
     assert r["prompts"] == ["protocolo_citas", "consulta_juridica_completa"]
     assert len(r["recursos"]) == 3 and all(texto.strip() for texto in r["recursos"].values())
     assert "Protocolo no disponible" not in r["recursos"]["openlegal://reglas/citacion"]
     datos_rut, rut_es_error = r["rut"]
     assert datos_rut["valido"] is True and rut_es_error is False
-    assert len(r["skills"]["skills"]) >= 18 and len(r["skills"]["agentes"]) >= 19
+    assert len(r["skills"]["skills"]) >= 26 and len(r["skills"]["agentes"]) >= 24
     assert r["inexistente_es_error"] is True

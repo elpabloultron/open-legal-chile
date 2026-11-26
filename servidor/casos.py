@@ -65,7 +65,7 @@ TOOLS = [
     },
     {
         "name": "agent_list",
-        "description": "Lista el catálogo de los 19 agentes jurídicos especializados de Open Legal Chile con sus descripciones, competencias forenses y herramientas asignadas.",
+        "description": "Lista el catálogo de los 24 agentes jurídicos especializados de Open Legal Chile con sus descripciones, competencias forenses y herramientas asignadas.",
         "inputSchema": {
             "type": "object",
             "properties": {}

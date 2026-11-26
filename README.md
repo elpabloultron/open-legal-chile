@@ -9,13 +9,13 @@
   <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Corpus_MD-7.399_Obras_y_Artículos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
-  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v1.18.0"><img src="https://img.shields.io/badge/Release-v1.18.0-blueviolet?style=for-the-badge&logo=github" alt="Release v1.18.0"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v1.19.0"><img src="https://img.shields.io/badge/Release-v1.19.0-blueviolet?style=for-the-badge&logo=github" alt="Release v1.19.0"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
-  <img src="https://img.shields.io/badge/Herramientas_MCP-100_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
+  <img src="https://img.shields.io/badge/Herramientas_MCP-109_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-1.218%2F1.218_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-1.279%2F1.279_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -27,7 +27,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (100 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-95-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (109 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-109-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -71,7 +71,7 @@ Open Legal Chile adopta los principios del **Legal Design Manifesto** (Ducato, H
 
 Dos ejemplos concretos de cómo se aplica acá:
 
-* **Compuerta de revisión humana en las 18 skills.** Cada `SKILL.md` de `.agents/skills/` declara para quién escribe, cómo se ve su salida y su compuerta de revisión; ninguna promete un producto «listo para presentar». Se verifica corriendo `.venv/bin/python -m pytest tests/test_legal_design.py -q`.
+* **Compuerta de revisión humana en las 26 skills.** Cada `SKILL.md` de `.agents/skills/` declara para quién escribe, cómo se ve su salida y su compuerta de revisión; ninguna promete un producto «listo para presentar». Se verifica corriendo `.venv/bin/python -m pytest tests/test_legal_design.py -q`.
 * **Lenguaje claro, no declarado sino hecho.** La clínica traduce resoluciones a español llano: `clinica_juridica.py` convierte «téngase presente» en «el tribunal leyó su documento y lo dejó registrado en la carpeta del juicio». La misma regla —término técnico con su equivalencia simple entre paréntesis la primera vez— rige para todo texto que lee una persona.
 
 ---
@@ -91,7 +91,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 100 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
+│   • 109 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
 │   • Espacios de Casos Locales con LegalGraphify (case_workspace.py, case_graph.py)     │
 │   • Motor Vectorial Híbrido Dense + BM25 con RRF (vector_engine.py)                     │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
@@ -115,11 +115,12 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 └────────────────────────────────────────┬────────────────────────────────────────────────┘
                                          │ Consultas Locales y Red Oficial
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
-│                     10 CONECTORES OFICIALES DEL ESTADO DE CHILE                         │
+│                     CONECTORES OFICIALES Y DATOS ABIERTOS DE CHILE                      │
 │                                                                                         │
 │   [BCN Ley Chile XML]   [Contraloría CGR]   [Dirección del Trabajo DT]  [PJUD / Suprema]│
 │   [Tribunal Const.]     [CNE Energía]       [Panel de Expertos]         [CMF Valores]   │
-│   [SII Tributario]      [SMA SNIFA Ambient] [TDLC Libre Competencia]                    │
+│   [SII / TTA Tribut.]   [SMA SNIFA Ambient] [TDLC Libre Competencia]    [ChileCompra]   │
+│   [CPLT / InfoLobby]    [Diario Oficial]    [SUSESO Seg. Social]        [SERNAC / INAPI]│
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -131,7 +132,7 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
    - **Archivo:** `legal_open_jev.py`
    - **Latencia:** `< 5 ms` en CPU local, 100% offline, cero costo de tokens y confidencialidad inviolable (Art. 247 CP).
    - **Primitivas:**
-     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 100 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
+     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 109 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
      - `JevNoul`: Compuertas binarias estrictas de validez formal: plazos fatales de caducidad laboral (Art. 168 CT: 60/90 días), prescripción civil (Arts. 2514-2515 CC), plazos constitucionales de protección (Art. 20 CPR: 30 días corridos), cómputo procesal de días hábiles judiciales (Art. 66 CPC), validación matemática de RUT Módulo 11 y facultades especiales de personería (Art. 7 inc. 2 CPC).
      - `JevScore`: Ponderación local ultrarrápida de relevancia temática.
 
@@ -261,9 +262,9 @@ medición del ahorro en [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (100 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (109 Herramientas Oficiales)
 
-El servidor MCP expone **100 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`) categorizadas funcionalmente:
+El servidor MCP expone **109 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`) categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -310,7 +311,7 @@ El servidor MCP expone **100 herramientas oficiales** (con modo `OPENLEGAL_PROFI
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
 | `vigilante_analizar_resolucion` | `resolucion_texto` *(str)*, `procedimiento` *(str)* | Analiza proveídos judiciales de la OJV (*"traslado"*, *"autos para resolver"*, *"téngase por contestada"*), clasifica sus efectos y calcula plazos fatales en días hábiles (Art. 66 CPC). |
-| `vigilante_radar_normativo` | `materia` *(str)*, `dias_atras` *(int)* | Monitorea novedades normativas del Diario Oficial, dictámenes de la Contraloría y circulares tributarias. |
+| `vigilante_radar_normativo` | `materia` *(str)*, `dias_atras` *(int)*, `consultar_diario_oficial` *(bool, opc)* | Monitorea novedades normativas del Diario Oficial, dictámenes de la Contraloría y circulares tributarias. |
 | `vigilante_contrato_plazos` | `tipo_contrato` *(str)*, `fecha_vencimiento` *(str)*, `preaviso_dias` *(int)* | Calcula ventanas de preaviso, plazos de desahucio y cláusulas de tácita reconducción para contratos civiles y mercantiles. |
 
 ### G. Clínica Jurídica y Lenguaje Claro
@@ -320,10 +321,14 @@ El servidor MCP expone **100 herramientas oficiales** (con modo `OPENLEGAL_PROFI
 | `clinica_intake_social` | `materia` *(str)*, `datos_usuario` *(dict)* | Genera la ficha sociojurídica de ingreso para consultorios de asistencia judicial en materias de familia, precario y alimentos. |
 | `clinica_auditar_borrador` | `borrador_texto` *(str)*, `tribunal` *(str)* | Audita formalmente el borrador de un escrito redactado por un pasante o alumno antes del visado del tutor (presuma, patrocinio y petitorio). |
 
-### H. Transparencia, Probidad y Modelado de Redes
+### H. Transparencia, Probidad, Compras Públicas y Redes
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
 | `infoprobidad_get_dip` | `query_or_url` *(str)* | Extrae y estructura las Declaraciones de Intereses y Patrimonio (DIP) de autoridades públicas desde InfoProbidad (Ley N° 20.880). |
+| `compras_publicas_buscar` | `query` *(str)*, `tipo` *(str, opc)*, `organismo` *(str, opc)* | Busca licitaciones, órdenes de compra, proveedores y tratos directos en Mercado Público / ChileCompra (datos abiertos OCDS y API oficial). |
+| `compras_publicas_cruzar_probidad` | `rut_entidad_o_proveedor` *(str)*, `nombre` *(str, opc)* | Cruza RUT entre Mercado Público e InfoProbidad para detectar potenciales inhabilidades o conflictos de interés (Art. 4 Ley N.° 19.886 / Ley N.° 21.634). |
+| `cplt_buscar_amparos` | `query` *(str)*, `organismo` *(str, opc)*, `estado` *(str, opc)* | Busca decisiones de amparo del Consejo para la Transparencia (CPLT) en datos abiertos sobre acceso a la información (Ley N.° 20.285). |
+| `cplt_buscar_lobby` | `query` *(str)*, `tipo` *(str, opc)*, `institucion` *(str, opc)* | Consulta registros abiertos de audiencias, viajes, donativos y sujetos pasivos en InfoLobby / CPLT (Ley N.° 20.730). |
 | `generar_grafo_vinculos` | `nodes`, `edges`, `title` | Modela redes societarias, parentescos y relaciones de interés público en diagramas Mermaid y exportaciones JSON. |
 
 ### I. Peritaje Documental y Tramitación OJV
@@ -339,7 +344,8 @@ El servidor MCP expone **100 herramientas oficiales** (con modo `OPENLEGAL_PROFI
 | :--- | :--- | :--- |
 | `privacidad_tramitar_arco` | `tipo_derecho`, `solicitante`, `rut`, `datos_solicitados` | Tramita y redacta modelos oficiales de respuesta a solicitudes de Acceso, Rectificación, Cancelación u Oposición (Ley N° 19.628). |
 | `inapi_cease_and_desist` | `marca_afectada`, `titular`, `infractor`, `hechos_infraccion` | Redacta cartas notariales formales de Cese y Desistimiento por infracción marcaria (Ley N° 19.039) o derechos de autor (Ley N° 17.336). |
-| `inapi_evaluar_marca` | `marca_propuesta`, `clase_niza` | Evalúa la viabilidad y distintividad de un signo en el Clasificador de Niza ante el registro marcario de INAPI. |
+| `inapi_buscar_marcas` | `marca` *(str)*, `clase_niza` *(str, opc)* | Consulta registros públicos y datos abiertos de marcas ante INAPI (Ley N.° 19.039) con caché local y degradación honesta offline. |
+| `inapi_evaluar_marca` | `marca_propuesta`, `clase_niza`, `consultar_inapi` *(bool, opc)* | Evalúa la viabilidad y distintividad de un signo en el Clasificador de Niza ante INAPI (con consulta opcional a datos abiertos). |
 
 ### K. Investigación Analítica Asistida (Google NotebookLM)
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -382,6 +388,10 @@ El servidor MCP expone **100 herramientas oficiales** (con modo `OPENLEGAL_PROFI
 | `cmf_buscar_sanciones` | `query` *(str)* | Busca en el registro oficial de Resoluciones Sancionatorias y procedimientos de sanción aplicados por la CMF. |
 | `ambiental_buscar_jurisprudencia` | `query` *(str)*, `tribunal` *(str, opc)* | Busca en los Compendios Anuales de Jurisprudencia Ambiental y fallos de los Tribunales Ambientales (1TA, 2TA, 3TA). |
 | `ambiental_consulta_maestra` | `consulta` *(str)*, `limite` *(int, opc)*, `incluir_subgrafo` *(bool, opc)* | El módulo especial de derecho ambiental (§2 quinquies): consulta las 886 sentencias de los Tribunales Ambientales, los anuarios y boletines 2TA/3TA, la biblioteca ambiental (libros del Concurso de Comentarios, informes en derecho, foros, manuales y material docente) y la doctrina ambiental; devuelve plan, texto literal y citas `[Hugging Face - <archivo>]`. |
+| `diario_oficial_consultar` | `fecha` *(str, opc)*, `seccion` *(str, opc)*, `query` *(str, opc)* | Consulta sumarios del Diario Oficial de la República de Chile (normas generales, particulares, avisos destacados y extractos societarios). |
+| `suseso_buscar_normativa` | `query` *(str)*, `tipo` *(str, opc)* | Busca circulares, dictámenes y compendios de seguridad social de la SUSESO (Ley N.° 16.744, licencias médicas y CCAF). |
+| `sernac_buscar_consumidor` | `query` *(str)*, `categoria` *(str, opc)* | Busca circulares interpretativas, alertas de seguridad de productos y juicios colectivos públicos del SERNAC (Ley N.° 19.496). |
+| `tta_buscar_sentencias` | `query` *(str)*, `tribunal` *(str, opc)*, `anio` *(str, opc)* | Busca sentencias públicas de los Tribunales Tributarios y Aduaneros (Ley N.° 20.322 / Ley N.° 21.713). |
 
 ### Q. Academia Judicial de Chile y Biblioteca Online de Markdown
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -416,9 +426,9 @@ El servidor MCP expone **100 herramientas oficiales** (con modo `OPENLEGAL_PROFI
 ### U. Ecosistema de Agentes Jurídicos Autónomos
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
 | :--- | :--- | :--- |
-| `agent_list` | *(ninguno)* | Lista los 19 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades operativas. |
+| `agent_list` | *(ninguno)* | Lista los 24 perfiles de agentes jurídicos especializados disponibles en Open Legal Chile y sus capacidades operativas. |
 | `agent_run` | `agent_name` *(str)*, `task` *(str)*, `context` *(dict, opc)*, `provider` *(str, opc)* | Ejecuta un agente jurídico chileno autónomo en modo determinista soberano (100 % offline, cero API keys) o asistido por LLM multi-proveedor (Ollama, DeepSeek, Claude, Gemini, OpenAI). Ejecuta tareas de litigación, análisis de títulos CBR, probidad CGR, subsunción dogmática o auditoría forense con auto-crítica en 5 dimensiones procesales. |
-| `agent_export_subagents` | `target_dir` *(str, opc)*, `format` *(str, opc)* | Exporta los 19 perfiles de agentes jurídicos como subagentes configurados (.json o .md) para su adopción inmediata en entornos de desarrollo agentic como Claude Code (`.claude/subagents`) o Google Antigravity. |
+| `agent_export_subagents` | `target_dir` *(str, opc)*, `format` *(str, opc)* | Exporta los 24 perfiles de agentes jurídicos como subagentes configurados (.json o .md) para su adopción inmediata en entornos de desarrollo agentic como Claude Code (`.claude/subagents`) o Google Antigravity. |
 
 ---
 
@@ -427,9 +437,9 @@ El servidor MCP expone **100 herramientas oficiales** (con modo `OPENLEGAL_PROFI
 * **`caso_analizar`**: recibe una carpeta de expediente, un texto o una consulta en lenguaje natural y devuelve un plan —materia, fuero probable, instituciones, herramientas en orden con su por qué, y lo que falta—. No modifica nada ni consulta servicios externos. La materia la decide con reglas (Rol/RIT y palabras clave chilenas), no adivinando.
 * **`caso_ejecutar`**: ejecuta ese plan contra las fuentes reales (BCN, PJUD, CGR, DT, SII, CMF, SMA, doctrina indexada y los documentos de la carpeta). Cada paso informa su estado; uno que falla queda anotado con su error y uno sin parámetros se saltea con su motivo. Nunca devuelve un resultado inventado.
 
-## 🏛️ 5. Los 10 Conectores Oficiales del Estado de Chile
+## 🏛️ 5. Conectores Oficiales y Datos Abiertos del Estado de Chile
 
-Cada conector fue desarrollado para comunicarse directamente con las plataformas públicas del Estado, almacenando respuestas en una base de datos local SQLite (`openlegal_cache.db`) para garantizar velocidad y funcionamiento offline:
+Cada conector fue desarrollado para comunicarse directamente con las plataformas públicas y portales de datos abiertos del Estado, almacenando respuestas en caché local (SQLite / JSON con TTL en disco) para garantizar velocidad, trazabilidad y degradación honesta offline:
 
 1. **📜 Biblioteca del Congreso Nacional (BCN Ley Chile):**
    * *Mecanismo:* Consulta directa al portal público XML de la BCN (`leychile.cl/Consulta/obtxml`).
@@ -459,6 +469,23 @@ Cada conector fue desarrollado para comunicarse directamente con las plataformas
 10. **🌱 Superintendencia del Medio Ambiente (SMA / SNIFA):**
     * *Mecanismo:* Sistema Nacional de Información de Fiscalización Ambiental (SNIFA).
     * *Cobertura:* Expedientes sancionatorios ambientales y Programas de Cumplimiento (PdC).
+11. **🛒 Mercado Público / ChileCompra (`compras_publicas_connector.py`):**
+    * *Mecanismo:* Datos abiertos OCDS y API oficial de compras públicas con cruce de RUT en InfoProbidad (Ley N.° 20.880).
+    * *Cobertura:* Licitaciones, órdenes de compra, tratos directos, proveedores y detección preliminar de potenciales conflictos de interés (Art. 4 Ley N.° 19.886 / Ley N.° 21.634).
+12. **🔍 Consejo para la Transparencia (CPLT) e InfoLobby (`transparencia_cplt_connector.py`):**
+    * *Mecanismo:* Datasets abiertos CKAN/JSON/CSV de acceso a la información pública y Ley del Lobby.
+    * *Cobertura:* Decisiones de amparo (Ley N.° 20.285) y registros públicos de audiencias, viajes, donativos y sujetos pasivos (Ley N.° 20.730).
+13. **📰 Diario Oficial de la República de Chile (`diario_oficial_connector.py`):**
+    * *Mecanismo:* Sumarios oficiales por fecha y sección integrados opcionalmente con `vigilante_radar_normativo`.
+    * *Cobertura:* Normas generales, normas particulares, avisos destacados y extractos de empresas/sociedades.
+14. **🩺 Superintendencia de Seguridad Social (SUSESO, `suseso_connector.py`):**
+    * *Mecanismo:* Compendio normativo, circulares y dictámenes administrativos oficiales.
+    * *Cobertura:* Seguro social contra accidentes del trabajo y enfermedades profesionales (Ley N.° 16.744), licencias médicas y cajas de compensación.
+15. **🛍️ Servicio Nacional del Consumidor (SERNAC, `sernac_connector.py`):**
+    * *Mecanismo:* Circulares interpretativas, alertas de seguridad de productos y juicios colectivos públicos.
+    * *Cobertura:* Tutela del consumidor bajo la Ley N.° 19.496.
+16. **🏛️ Tribunales Tributarios y Aduaneros (TTA) e INAPI Datos Abiertos (`tta_connector.py`, `privacidad_inapi.py`):**
+    * *Mecanismo:* Repositorio público de sentencias TTA (Ley N.° 20.322 / Ley N.° 21.713) y búsqueda en registros abiertos de signos distintivos ante INAPI (Ley N.° 19.039).
 
 ---
 
@@ -750,7 +777,7 @@ Open Legal Chile está licenciado bajo la **Licencia Apache 2.0** ([`LICENSE`](L
 
 ## 🎓 13. Formación Ejecutiva, Consultoría «Llave en Mano» On-Premise y Alianzas Institucionales
 
-El núcleo de **Open Legal Chile** (código fuente bajo licencia Apache 2.0, las 93 herramientas MCP, los 19 agentes autónomos, las 21 skills jurídicas y el dataset público en Hugging Face) es y seguirá siendo **100 % abierto, gratuito y soberano**. Para estudios jurídicos, gerencias legales, reparticiones públicas y facultades de Derecho que requieren capacitación especializada o despliegues corporativos privados, ofrecemos tres líneas de colaboración directa:
+El núcleo de **Open Legal Chile** (código fuente bajo licencia Apache 2.0, las 109 herramientas MCP, los 24 agentes autónomos, las 26 skills jurídicas y el dataset público en Hugging Face) es y seguirá siendo **100 % abierto, gratuito y soberano**. Para estudios jurídicos, gerencias legales, reparticiones públicas y facultades de Derecho que requieren capacitación especializada o despliegues corporativos privados, ofrecemos tres líneas de colaboración directa:
 
 ### 🏛️ Propuesta 1 — Charlas Magistrales, Bootcamps Prácticos y Capacitación In-Company / SENCE / Académica
 Programas de formación ejecutiva y talleres prácticos (*hands-on*) dirigidos a socios y asociados de estudios jurídicos, fiscalías corporativas, departamentos jurídicos del Estado, colegios de abogados y programas de postgrado:

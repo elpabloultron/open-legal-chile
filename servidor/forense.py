@@ -358,7 +358,8 @@ TOOLS = [
             "type": "object",
             "properties": {
                 "materia": {"type": "string", "description": "Materia ('laboral', 'administrativo', 'tributario', 'general')", "default": "general"},
-                "dias_atras": {"type": "integer", "description": "Días de historial a revisar", "default": 15}
+                "dias_atras": {"type": "integer", "description": "Días de historial a revisar", "default": 15},
+                "consultar_diario_oficial": {"type": "boolean", "description": "Si es True, incorpora publicaciones del Diario Oficial en vivo/caché", "default": False}
             }
         }
     },
@@ -410,7 +411,8 @@ TOOLS = [
             "type": "object",
             "properties": {
                 "marca_propuesta": {"type": "string", "description": "Nombre del signo marcario a evaluar"},
-                "clase_niza": {"type": "string", "description": "Número de clase Niza (ej. '9', '35', '42', '45')", "default": "45"}
+                "clase_niza": {"type": "string", "description": "Número de clase Niza (ej. '9', '35', '42', '45')", "default": "45"},
+                "consultar_inapi": {"type": "boolean", "description": "Si es True, consulta datos abiertos públicos de INAPI para complementar el análisis", "default": False}
             },
             "required": ["marca_propuesta"]
         }
@@ -830,7 +832,8 @@ def despachar(name: str, args: dict) -> Any:
             dias = 15
         return docket_engine.radar_normativo_resumen(
             materia=args.get("materia", "general"),
-            dias_atras=dias
+            dias_atras=dias,
+            consultar_diario_oficial=bool(args.get("consultar_diario_oficial", False)),
         )
     elif name == "vigilante_contrato_plazos":
         tc = args.get("tipo_contrato")
@@ -864,7 +867,8 @@ def despachar(name: str, args: dict) -> Any:
             return {"error": "El parámetro 'marca_propuesta' es obligatorio."}
         return inapi_engine.evaluar_factibilidad_marca(
             marca_propuesta=mar,
-            clase_niza=args.get("clase_niza", "45")
+            clase_niza=args.get("clase_niza", "45"),
+            consultar_inapi=bool(args.get("consultar_inapi", False))
         )
     elif name == "cbr_estudio_titulos":
         insc = args.get("inscripciones")

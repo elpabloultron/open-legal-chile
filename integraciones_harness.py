@@ -263,7 +263,7 @@ PREFIJO_MCP_ANTIGRAVITY = "mcp_open-legal-chile_open-legal-chile_"
 
 
 def _copiar_skills(dest_skills: pathlib.Path, limpiar_obsoletas: bool = False) -> int:
-    """Copia las 21 skills jurídicas (`.agents/skills/*/SKILL.md`) en `dest_skills`.
+    """Copia las 26 skills jurídicas (`.agents/skills/*/SKILL.md`) en `dest_skills`.
 
     Si `limpiar_obsoletas=True`, elimina subcarpetas antiguas en `dest_skills` que ya no existan
     en el paquete (evita skills huérfanas al actualizar un plugin instalado).
@@ -290,7 +290,7 @@ def _copiar_skills(dest_skills: pathlib.Path, limpiar_obsoletas: bool = False) -
 
 
 def _copiar_agentes_md(dest_agents: pathlib.Path) -> int:
-    """Copia los 19 agentes jurídicos (`agents/*.md`, formato Claude Code) en `dest_agents`."""
+    """Copia los 24 agentes jurídicos (`agents/*.md`, formato Claude Code) en `dest_agents`."""
     agents_src = ruta_recurso("agents")
     copiados = 0
     if not agents_src.exists():
@@ -303,7 +303,7 @@ def _copiar_agentes_md(dest_agents: pathlib.Path) -> int:
 
 
 def _escribir_agentes_antigravity(dest_agents: pathlib.Path) -> int:
-    """Genera los 19 agentes en formato YAML nativo de Google Antigravity (`tools:` como lista).
+    """Genera los 24 agentes en formato YAML nativo de Google Antigravity (`tools:` como lista).
 
     Antigravity exige que `tools` en el frontmatter YAML de `agents/*.md` sea una secuencia
     (`[]string`), a diferencia de Claude Code que usa cadena separada por comas. Generar los `.md`
@@ -394,7 +394,7 @@ def instalar_plugin_antigravity(
     if logo_src.exists():
         shutil.copy2(logo_src, dest / "assets" / "logo.svg")
 
-    # 2. rules/AGENTS.md (<24 KB sin truncamiento), 21 skills (sin obsoletas) y 19 agentes YAML
+    # 2. rules/AGENTS.md (<24 KB sin truncamiento), 26 skills (sin obsoletas) y 24 agentes YAML
     reglas_ok = _copiar_reglas(dest / "rules" / "AGENTS.md", preferir_compacta=True)
     skills_copiadas = _copiar_skills(dest / "skills", limpiar_obsoletas=True)
     agentes_copiados = _escribir_agentes_antigravity(dest / "agents")
@@ -434,7 +434,7 @@ def instalar_plugin_harness(
     global_: bool = True,
     uvx: bool = False,
 ) -> Dict[str, Any]:
-    """Instala el **Plugin completo** de Open Legal Chile (MCP + 21 skills + 19 agentes + reglas
+    """Instala el **Plugin completo** de Open Legal Chile (MCP + 26 skills + 24 agentes + reglas
     maestras chilenas) en el harness indicado: antigravity, claude-code, codex, hermes, cursor, vscode.
     """
     c = _normalizar(cliente)
@@ -498,7 +498,7 @@ def instalar_plugin_harness(
         regla = raiz_cur / "rules" / f"{SERVIDOR}.mdc"
         cab = (
             "---\n"
-            "description: Open Legal Chile — Derecho Continental de Chile (100 herramientas MCP y protocolo de citas)\n"
+            "description: Open Legal Chile — Derecho Continental de Chile (109 herramientas MCP y protocolo de citas)\n"
             "alwaysApply: true\n"
             "---\n\n"
         )
