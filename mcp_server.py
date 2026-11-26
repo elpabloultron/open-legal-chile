@@ -409,6 +409,11 @@ ORDEN_ORIGEN: List[str] = [
     "verificar_citas_escrito",
     "jurimetria_analizar_corpus",
     "jurimetria_exportar_investigacion",
+    "indicadores_economicos_chile",
+    "calcular_plazo_procesal",
+    "calcular_finiquito_laboral",
+    "calcular_cuantias_legales",
+    "docx_aplicar_redline",
 ]
 if sorted(_POR_NOMBRE) != sorted(ORDEN_ORIGEN):
     raise RuntimeError("servidor/: los dominios no cubren exactamente las herramientas esperadas")
@@ -418,7 +423,7 @@ TOOLS: List[Dict[str, Any]] = [_POR_NOMBRE[_n] for _n in ORDEN_ORIGEN]
 _HERRAMIENTAS_ESCRITURA = {
     "recurso_proteccion_generar", "generar_documento", "compile_legal_dossier",
     "export_brief_ojv", "doctrina_ingestar_documento", "suite_auto_update", "suite_instalar",
-    "jurimetria_exportar_investigacion",
+    "jurimetria_exportar_investigacion", "docx_aplicar_redline",
 }
 # Las que cambian el entorno de la persona (git pull / pip install / archivos de configuración de
 # sus harness): el cliente debe poder pedir confirmación antes de correrlas.
@@ -1006,7 +1011,7 @@ TOOL_PROFILES: Dict[str, List[str]] = {
 def get_active_tools(profile_name: Optional[str] = None) -> List[Dict[str, Any]]:
     """Devuelve las herramientas activas según el perfil solicitado o la variable OPENLEGAL_PROFILE.
 
-    Perfiles temáticos y `router` reducen el contexto inicial; `"full"`, `"completo"` o vacío cargan las 95 herramientas.
+    Perfiles temáticos y `router` reducen el contexto inicial; `"full"`, `"completo"` o vacío cargan las 100 herramientas.
     """
     prof = (profile_name or os.environ.get("OPENLEGAL_PROFILE") or "").lower().strip()
     if prof and prof not in ("full", "completo") and prof in TOOL_PROFILES:
@@ -1143,7 +1148,7 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
                 "serverInfo": {
                     "name": "open-legal-chile-mcp",
                     "title": "Open Legal Chile",
-                    "version": "1.17.0"
+                    "version": "1.18.0"
                 },
                 "instructions": INSTRUCCIONES,
             })

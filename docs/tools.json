@@ -1097,8 +1097,12 @@
         },
         "procedimiento": {
           "type": "string",
-          "description": "Procedimiento ('civil', 'laboral', 'familia')",
+          "description": "Procedimiento ('civil', 'laboral', 'administrativo')",
           "default": "civil"
+        },
+        "fecha_notificacion": {
+          "type": "string",
+          "description": "Fecha de notificación YYYY-MM-DD (opcional; si se provee, calcula fechas exactas de vencimiento descontando feriados Chile)"
         }
       },
       "required": [
@@ -3003,6 +3007,293 @@
       },
       "required": [
         "tema"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "indicadores_economicos_chile",
+    "description": "Consulta valores oficiales de UF, UTM, UTA e IPC desde el SII para una fecha o año, y convierte montos legales chilenos entre CLP, UF, UTM y UTA.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "accion": {
+          "type": "string",
+          "description": "'consultar' (defecto) o 'convertir'",
+          "enum": [
+            "consultar",
+            "convertir"
+          ],
+          "default": "consultar"
+        },
+        "fecha": {
+          "type": "string",
+          "description": "Fecha YYYY-MM-DD (opcional; defecto hoy)"
+        },
+        "anio": {
+          "type": "integer",
+          "description": "Año calendario a consultar en el SII (opcional)"
+        },
+        "monto": {
+          "type": "number",
+          "description": "Monto a convertir cuando accion='convertir'"
+        },
+        "desde": {
+          "type": "string",
+          "description": "Moneda origen ('CLP', 'UF', 'UTM', 'UTA')"
+        },
+        "hacia": {
+          "type": "string",
+          "description": "Moneda destino ('CLP', 'UF', 'UTM', 'UTA')"
+        },
+        "uf_valor": {
+          "type": "number",
+          "description": "Valor UF manual en CLP (opcional para cálculo offline)"
+        },
+        "utm_valor": {
+          "type": "number",
+          "description": "Valor UTM manual en CLP (opcional para cálculo offline)"
+        }
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "calcular_plazo_procesal",
+    "description": "Calcula determinísticamente el vencimiento exacto de plazos en Chile descontando feriados legales oficiales (Art. 66 CPC lunes-sábado, Arts. 168/435 CT con suspensión DT hasta 90 días, Art. 25 Ley 19.880 lunes-viernes, o corridos).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "fecha_notificacion": {
+          "type": "string",
+          "description": "Fecha de notificación o actuación base (YYYY-MM-DD)"
+        },
+        "plazo_dias": {
+          "type": "integer",
+          "description": "Número de días del plazo legal"
+        },
+        "regimen": {
+          "type": "string",
+          "description": "Régimen de cómputo ('judicial_cpc', 'laboral', 'administrativo', 'corridos')",
+          "default": "judicial_cpc"
+        },
+        "dias_suspension_dt": {
+          "type": "integer",
+          "description": "Días de suspensión por reclamo ante la DT en sede laboral (Art. 168 CT)",
+          "default": 0
+        },
+        "feriados_adicionales": {
+          "type": "array",
+          "description": "Lista opcional de feriados locales/especiales YYYY-MM-DD",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fecha_referencia": {
+          "type": "string",
+          "description": "Fecha de evaluación YYYY-MM-DD (opcional; defecto hoy)"
+        }
+      },
+      "required": [
+        "fecha_notificacion",
+        "plazo_dias"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "calcular_finiquito_laboral",
+    "description": "Liquida determinísticamente finiquito base y demanda judicial laboral en Chile (Arts. 67, 73, 161-172 CT y Ley 19.728): años de servicio (tope 11 años), base 90 UF, aviso previo, feriado proporcional sin tope UF, recargos Art. 168 CT, descuento y restitución AFC, Ley Bustos y caducidad.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "fecha_ingreso": {
+          "type": "string",
+          "description": "Fecha de inicio del contrato (YYYY-MM-DD)"
+        },
+        "fecha_termino": {
+          "type": "string",
+          "description": "Fecha de término / separación (YYYY-MM-DD)"
+        },
+        "remuneracion_mensual_clp": {
+          "type": "number",
+          "description": "Última remuneración mensual Art. 172 CT en CLP"
+        },
+        "causal": {
+          "type": "string",
+          "description": "Causal invocada ('161', '159', '160', '160_sin_motivo_plausible', '171_autodespido', 'renuncia')",
+          "default": "161"
+        },
+        "aviso_previo_dado": {
+          "type": "boolean",
+          "description": "True si el empleador dio aviso escrito con 30 días de anticipación",
+          "default": false
+        },
+        "dias_feriado_pendientes": {
+          "type": "number",
+          "description": "Días hábiles de feriado pendientes (opcional; si se omite devenga 1,25 días/mes)"
+        },
+        "aporte_empleador_afc_clp": {
+          "type": "number",
+          "description": "Aporte del empleador al Seguro de Cesantía (Art. 13 Ley 19.728)",
+          "default": 0
+        },
+        "aplicar_tope_90_uf": {
+          "type": "boolean",
+          "description": "Aplica tope legal de 90 UF del Art. 172 CT",
+          "default": true
+        },
+        "uf_valor": {
+          "type": "number",
+          "description": "Valor UF manual del último día del mes anterior al término (opcional)"
+        },
+        "meses_cotizaciones_impagas_ley_bustos": {
+          "type": "integer",
+          "description": "Meses de nulidad del despido estimados (Art. 162 CT)",
+          "default": 0
+        },
+        "es_trabajador_anterior_1981": {
+          "type": "boolean",
+          "description": "True si ingresó antes del 14-08-1981 (sin tope de 11 años)",
+          "default": false
+        }
+      },
+      "required": [
+        "fecha_ingreso",
+        "fecha_termino",
+        "remuneracion_mensual_clp"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "calcular_cuantias_legales",
+    "description": "Calcula cuantías legales deterministas en Chile: días-multa persona natural (Ley 21.595 Arts. 27-28), días-multa persona jurídica (Ley 20.393 Art. 12) o pensión mínima y tope de alimentos en UTM/CLP (Ley 14.908 y Ley 21.389).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "description": "'dias_multa_natural', 'dias_multa_persona_juridica' o 'alimentos_utm'",
+          "enum": [
+            "dias_multa_natural",
+            "dias_multa_persona_juridica",
+            "alimentos_utm"
+          ]
+        },
+        "utm_valor": {
+          "type": "number",
+          "description": "Valor UTM manual en CLP (opcional; si se omite consulta SII)"
+        },
+        "grado_pena": {
+          "type": "string",
+          "description": "Grado penal Art. 27 Ley 21.595 ('prision', 'presidio_menor_minimo', etc.)",
+          "default": "presidio_menor_minimo"
+        },
+        "ingreso_diario_liquido_clp": {
+          "type": "number",
+          "description": "Ingreso diario promedio líquido en CLP (Ley 21.595 Art. 28)"
+        },
+        "dias_multa": {
+          "type": "integer",
+          "description": "Número específico de días-multa a liquidar (opcional)"
+        },
+        "valor_dia_utm": {
+          "type": "number",
+          "description": "Valor diario en UTM para persona jurídica (5 a 5.000 UTM)"
+        },
+        "ventas_linea_clp": {
+          "type": "number",
+          "description": "Ventas anuales de la línea de negocio en CLP (opcional Art. 12 Ley 20.393)"
+        },
+        "ganancias_clp": {
+          "type": "number",
+          "description": "Ganancias obtenidas en CLP (opcional Art. 12 Ley 20.393)"
+        },
+        "numero_hijos": {
+          "type": "integer",
+          "description": "Número de hijos alimentarios (Ley 14.908)",
+          "default": 1
+        },
+        "imm_clp": {
+          "type": "number",
+          "description": "Ingreso Mínimo Mensual vigente en CLP (obligatorio para 'alimentos_utm')"
+        },
+        "ingreso_liquido_alimentante_clp": {
+          "type": "number",
+          "description": "Ingreso mensual líquido del alimentante en CLP (opcional, tope 50 %)"
+        }
+      },
+      "required": [
+        "tipo"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "docx_aplicar_redline",
+    "description": "Edita un documento Word (.docx) aplicando Control de Cambios XML nativo (w:del / w:ins) y comentarios marginales (word/comments.xml) preservando el formato del contrato o escrito.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "input_docx_path": {
+          "type": "string",
+          "description": "Ruta al documento .docx original"
+        },
+        "cambios": {
+          "type": "array",
+          "description": "Lista de cambios ({buscar, reemplazar, comentario})",
+          "items": {
+            "type": "object",
+            "properties": {
+              "buscar": {
+                "type": "string"
+              },
+              "reemplazar": {
+                "type": "string"
+              },
+              "comentario": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "buscar"
+            ]
+          }
+        },
+        "output_docx_path": {
+          "type": "string",
+          "description": "Ruta de salida .docx (opcional; defecto '<archivo>_redline.docx')"
+        },
+        "autor": {
+          "type": "string",
+          "description": "Autor de las marcas de revisión y comentarios",
+          "default": "Open Legal Chile"
+        }
+      },
+      "required": [
+        "input_docx_path",
+        "cambios"
       ]
     },
     "annotations": {

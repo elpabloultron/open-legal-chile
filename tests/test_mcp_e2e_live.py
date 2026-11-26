@@ -140,7 +140,7 @@ def test_mcp_e2e_handshake_and_catalog():
         # 3. Tools List
         tools_resp = client.send_request("tools/list")
         tools = tools_resp.get("result", {}).get("tools", [])
-        assert len(tools) == 95, f"Esperadas 95 herramientas, obtenidas: {len(tools)}"
+        assert len(tools) == 100, f"Esperadas 100 herramientas, obtenidas: {len(tools)}"
 
         for tool in tools:
             assert "name" in tool

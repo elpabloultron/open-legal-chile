@@ -3,6 +3,7 @@ name: agente-vigilante
 description: "Especialista en monitoreo de resoluciones judiciales en OJV/PJUD, cálculo de plazos fatales en días hábiles (Art. 66 CPC) y vigilancia normativa del Diario Oficial, CGR, SII y CMF."
 tools:
   - mcp__plugin_open-legal-chile_open-legal-chile__vigilante_analizar_resolucion
+  - mcp__plugin_open-legal-chile_open-legal-chile__calcular_plazo_procesal
   - mcp__plugin_open-legal-chile_open-legal-chile__vigilante_radar_normativo
   - mcp__plugin_open-legal-chile_open-legal-chile__vigilante_contrato_plazos
   - mcp__plugin_open-legal-chile_open-legal-chile__pjud_search_jurisprudencia

@@ -61,7 +61,11 @@ class DocketWatcherEngine:
     ]
 
     @staticmethod
-    def analizar_resolucion(resolucion_texto: str, procedimiento: str = "civil") -> Dict[str, Any]:
+    def analizar_resolucion(
+        resolucion_texto: str,
+        procedimiento: str = "civil",
+        fecha_notificacion: Optional[str] = None,
+    ) -> Dict[str, Any]:
         """
         Analiza el texto de un proveído judicial, identifica las cargas procesales y los plazos fatales.
         """
@@ -80,12 +84,28 @@ class DocketWatcherEngine:
             }
 
         det = detecciones[0]
+        plazos = [dict(p) for p in det["plazos"]]
+        if fecha_notificacion and str(fecha_notificacion).strip():
+            from calculadoras_chile import calcular_plazo_procesal
+
+            proc_low = str(procedimiento or "civil").lower()
+            reg = "laboral" if "labor" in proc_low else ("administrativo" if "admin" in proc_low else "judicial_cpc")
+            for p in plazos:
+                dias = int(p.get("dias_habiles") or 0)
+                if dias > 0:
+                    calc = calcular_plazo_procesal(str(fecha_notificacion).strip(), dias, regimen=reg)
+                    if not calc.get("error"):
+                        p["fecha_vencimiento"] = calc["fecha_vencimiento"]
+                        p["dia_semana_vencimiento"] = calc["dia_semana_vencimiento"]
+                        p["estado"] = calc["estado"]
+                        p["dias_corridos_restantes"] = calc["dias_corridos_restantes"]
+
         return {
             "encontrado": True,
             "tipo_tramite": det["tipo_tramite"],
             "severidad": det["severidad"],
             "instruccion_abogado": det["instruccion_abogado"],
-            "cargas_procesales_y_plazos": det["plazos"],
+            "cargas_procesales_y_plazos": plazos,
             "regla_computo": "Plazos de días del CPC son de días hábiles, suspendiéndose los feriados y domingos (Art. 66 CPC). En materia laboral y administrativa rigen reglas especiales de la Ley 19.880.",
             "alerta_plazo_fatal": any(isinstance(p, dict) and p.get("fatal") for p in det.get("plazos", []))
         }

@@ -8,6 +8,7 @@
     "bcn_get_ley",
     "sii_search_circulares",
     "tdlc_search_jurisprudencia",
+    "docx_aplicar_redline",
     "export_brief_ojv"
   ]
 }

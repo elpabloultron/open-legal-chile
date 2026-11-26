@@ -6,6 +6,7 @@ tools:
   - mcp__plugin_open-legal-chile_open-legal-chile__bcn_get_ley
   - mcp__plugin_open-legal-chile_open-legal-chile__sii_search_circulares
   - mcp__plugin_open-legal-chile_open-legal-chile__tdlc_search_jurisprudencia
+  - mcp__plugin_open-legal-chile_open-legal-chile__docx_aplicar_redline
   - mcp__plugin_open-legal-chile_open-legal-chile__export_brief_ojv
 ---
 

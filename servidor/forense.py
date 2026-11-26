@@ -345,7 +345,8 @@ TOOLS = [
             "type": "object",
             "properties": {
                 "resolucion_texto": {"type": "string", "description": "Texto del proveído o resolución judicial"},
-                "procedimiento": {"type": "string", "description": "Procedimiento ('civil', 'laboral', 'familia')", "default": "civil"}
+                "procedimiento": {"type": "string", "description": "Procedimiento ('civil', 'laboral', 'administrativo')", "default": "civil"},
+                "fecha_notificacion": {"type": "string", "description": "Fecha de notificación YYYY-MM-DD (opcional; si se provee, calcula fechas exactas de vencimiento descontando feriados Chile)"}
             },
             "required": ["resolucion_texto"]
         }
@@ -466,6 +467,107 @@ TOOLS = [
                 "consultar_bcn": {"type": "boolean", "description": "Si es True, contrasta cada norma citada contra BCN Ley Chile (caché/red)", "default": True}
             },
             "required": ["texto"]
+        }
+    },
+    {
+        "name": "indicadores_economicos_chile",
+        "description": "Consulta valores oficiales de UF, UTM, UTA e IPC desde el SII para una fecha o año, y convierte montos legales chilenos entre CLP, UF, UTM y UTA.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "accion": {"type": "string", "description": "'consultar' (defecto) o 'convertir'", "enum": ["consultar", "convertir"], "default": "consultar"},
+                "fecha": {"type": "string", "description": "Fecha YYYY-MM-DD (opcional; defecto hoy)"},
+                "anio": {"type": "integer", "description": "Año calendario a consultar en el SII (opcional)"},
+                "monto": {"type": "number", "description": "Monto a convertir cuando accion='convertir'"},
+                "desde": {"type": "string", "description": "Moneda origen ('CLP', 'UF', 'UTM', 'UTA')"},
+                "hacia": {"type": "string", "description": "Moneda destino ('CLP', 'UF', 'UTM', 'UTA')"},
+                "uf_valor": {"type": "number", "description": "Valor UF manual en CLP (opcional para cálculo offline)"},
+                "utm_valor": {"type": "number", "description": "Valor UTM manual en CLP (opcional para cálculo offline)"}
+            }
+        }
+    },
+    {
+        "name": "calcular_plazo_procesal",
+        "description": "Calcula determinísticamente el vencimiento exacto de plazos en Chile descontando feriados legales oficiales (Art. 66 CPC lunes-sábado, Arts. 168/435 CT con suspensión DT hasta 90 días, Art. 25 Ley 19.880 lunes-viernes, o corridos).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "fecha_notificacion": {"type": "string", "description": "Fecha de notificación o actuación base (YYYY-MM-DD)"},
+                "plazo_dias": {"type": "integer", "description": "Número de días del plazo legal"},
+                "regimen": {"type": "string", "description": "Régimen de cómputo ('judicial_cpc', 'laboral', 'administrativo', 'corridos')", "default": "judicial_cpc"},
+                "dias_suspension_dt": {"type": "integer", "description": "Días de suspensión por reclamo ante la DT en sede laboral (Art. 168 CT)", "default": 0},
+                "feriados_adicionales": {"type": "array", "description": "Lista opcional de feriados locales/especiales YYYY-MM-DD", "items": {"type": "string"}},
+                "fecha_referencia": {"type": "string", "description": "Fecha de evaluación YYYY-MM-DD (opcional; defecto hoy)"}
+            },
+            "required": ["fecha_notificacion", "plazo_dias"]
+        }
+    },
+    {
+        "name": "calcular_finiquito_laboral",
+        "description": "Liquida determinísticamente finiquito base y demanda judicial laboral en Chile (Arts. 67, 73, 161-172 CT y Ley 19.728): años de servicio (tope 11 años), base 90 UF, aviso previo, feriado proporcional sin tope UF, recargos Art. 168 CT, descuento y restitución AFC, Ley Bustos y caducidad.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "fecha_ingreso": {"type": "string", "description": "Fecha de inicio del contrato (YYYY-MM-DD)"},
+                "fecha_termino": {"type": "string", "description": "Fecha de término / separación (YYYY-MM-DD)"},
+                "remuneracion_mensual_clp": {"type": "number", "description": "Última remuneración mensual Art. 172 CT en CLP"},
+                "causal": {"type": "string", "description": "Causal invocada ('161', '159', '160', '160_sin_motivo_plausible', '171_autodespido', 'renuncia')", "default": "161"},
+                "aviso_previo_dado": {"type": "boolean", "description": "True si el empleador dio aviso escrito con 30 días de anticipación", "default": False},
+                "dias_feriado_pendientes": {"type": "number", "description": "Días hábiles de feriado pendientes (opcional; si se omite devenga 1,25 días/mes)"},
+                "aporte_empleador_afc_clp": {"type": "number", "description": "Aporte del empleador al Seguro de Cesantía (Art. 13 Ley 19.728)", "default": 0},
+                "aplicar_tope_90_uf": {"type": "boolean", "description": "Aplica tope legal de 90 UF del Art. 172 CT", "default": True},
+                "uf_valor": {"type": "number", "description": "Valor UF manual del último día del mes anterior al término (opcional)"},
+                "meses_cotizaciones_impagas_ley_bustos": {"type": "integer", "description": "Meses de nulidad del despido estimados (Art. 162 CT)", "default": 0},
+                "es_trabajador_anterior_1981": {"type": "boolean", "description": "True si ingresó antes del 14-08-1981 (sin tope de 11 años)", "default": False}
+            },
+            "required": ["fecha_ingreso", "fecha_termino", "remuneracion_mensual_clp"]
+        }
+    },
+    {
+        "name": "calcular_cuantias_legales",
+        "description": "Calcula cuantías legales deterministas en Chile: días-multa persona natural (Ley 21.595 Arts. 27-28), días-multa persona jurídica (Ley 20.393 Art. 12) o pensión mínima y tope de alimentos en UTM/CLP (Ley 14.908 y Ley 21.389).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "tipo": {"type": "string", "description": "'dias_multa_natural', 'dias_multa_persona_juridica' o 'alimentos_utm'", "enum": ["dias_multa_natural", "dias_multa_persona_juridica", "alimentos_utm"]},
+                "utm_valor": {"type": "number", "description": "Valor UTM manual en CLP (opcional; si se omite consulta SII)"},
+                "grado_pena": {"type": "string", "description": "Grado penal Art. 27 Ley 21.595 ('prision', 'presidio_menor_minimo', etc.)", "default": "presidio_menor_minimo"},
+                "ingreso_diario_liquido_clp": {"type": "number", "description": "Ingreso diario promedio líquido en CLP (Ley 21.595 Art. 28)"},
+                "dias_multa": {"type": "integer", "description": "Número específico de días-multa a liquidar (opcional)"},
+                "valor_dia_utm": {"type": "number", "description": "Valor diario en UTM para persona jurídica (5 a 5.000 UTM)"},
+                "ventas_linea_clp": {"type": "number", "description": "Ventas anuales de la línea de negocio en CLP (opcional Art. 12 Ley 20.393)"},
+                "ganancias_clp": {"type": "number", "description": "Ganancias obtenidas en CLP (opcional Art. 12 Ley 20.393)"},
+                "numero_hijos": {"type": "integer", "description": "Número de hijos alimentarios (Ley 14.908)", "default": 1},
+                "imm_clp": {"type": "number", "description": "Ingreso Mínimo Mensual vigente en CLP (obligatorio para 'alimentos_utm')"},
+                "ingreso_liquido_alimentante_clp": {"type": "number", "description": "Ingreso mensual líquido del alimentante en CLP (opcional, tope 50 %)"}
+            },
+            "required": ["tipo"]
+        }
+    },
+    {
+        "name": "docx_aplicar_redline",
+        "description": "Edita un documento Word (.docx) aplicando Control de Cambios XML nativo (w:del / w:ins) y comentarios marginales (word/comments.xml) preservando el formato del contrato o escrito.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "input_docx_path": {"type": "string", "description": "Ruta al documento .docx original"},
+                "cambios": {
+                    "type": "array",
+                    "description": "Lista de cambios ({buscar, reemplazar, comentario})",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "buscar": {"type": "string"},
+                            "reemplazar": {"type": "string"},
+                            "comentario": {"type": "string"}
+                        },
+                        "required": ["buscar"]
+                    }
+                },
+                "output_docx_path": {"type": "string", "description": "Ruta de salida .docx (opcional; defecto '<archivo>_redline.docx')"},
+                "autor": {"type": "string", "description": "Autor de las marcas de revisión y comentarios", "default": "Open Legal Chile"}
+            },
+            "required": ["input_docx_path", "cambios"]
         }
     },
 ]
@@ -718,7 +820,8 @@ def despachar(name: str, args: dict) -> Any:
             return {"error": "El parámetro 'resolucion_texto' es obligatorio."}
         return docket_engine.analizar_resolucion(
             resolucion_texto=txt,
-            procedimiento=args.get("procedimiento", "civil")
+            procedimiento=args.get("procedimiento", "civil"),
+            fecha_notificacion=args.get("fecha_notificacion"),
         )
     elif name == "vigilante_radar_normativo":
         try:
@@ -796,6 +899,94 @@ def despachar(name: str, args: dict) -> Any:
         if not texto_in.strip():
             return {"error": "El parámetro 'texto' es obligatorio."}
         return verificar_citas_escrito(texto_in, consultar_bcn=bool(args.get("consultar_bcn", True)))
+    elif name == "indicadores_economicos_chile":
+        from calculadoras_chile import convertir_moneda_legal, obtener_indicadores_sii
+
+        accion = str(args.get("accion") or "").strip().lower()
+        if accion == "convertir" or (args.get("monto") is not None and args.get("desde") and args.get("hacia")):
+            try:
+                monto_f = float(args.get("monto"))  # type: ignore[arg-type]
+            except (TypeError, ValueError):
+                return {"error": "Para convertir debe proporcionar un valor numérico en 'monto'."}
+            return convertir_moneda_legal(
+                monto=monto_f,
+                desde=str(args.get("desde") or ""),
+                hacia=str(args.get("hacia") or ""),
+                fecha=args.get("fecha"),
+                uf_override=args.get("uf_valor"),
+                utm_override=args.get("utm_valor"),
+            )
+        anio_arg = args.get("anio")
+        return obtener_indicadores_sii(
+            anio=int(anio_arg) if anio_arg is not None else None,
+            fecha=args.get("fecha"),
+        )
+    elif name == "calcular_plazo_procesal":
+        from calculadoras_chile import calcular_plazo_procesal
+
+        f_notif = args.get("fecha_notificacion")
+        plazo_d = args.get("plazo_dias")
+        if not f_notif or plazo_d is None:
+            return {"error": "Los parámetros 'fecha_notificacion' y 'plazo_dias' son obligatorios."}
+        return calcular_plazo_procesal(
+            fecha_notificacion=str(f_notif),
+            plazo_dias=int(plazo_d),
+            regimen=str(args.get("regimen") or "judicial_cpc"),
+            dias_suspension_dt=int(args.get("dias_suspension_dt") or 0),
+            feriados_adicionales=args.get("feriados_adicionales"),
+            fecha_referencia=args.get("fecha_referencia"),
+        )
+    elif name == "calcular_finiquito_laboral":
+        from calculadoras_chile import calcular_finiquito_laboral
+
+        f_ing = args.get("fecha_ingreso")
+        f_term = args.get("fecha_termino")
+        rem = args.get("remuneracion_mensual_clp")
+        if not f_ing or not f_term or rem is None:
+            return {"error": "Los parámetros 'fecha_ingreso', 'fecha_termino' y 'remuneracion_mensual_clp' son obligatorios."}
+        return calcular_finiquito_laboral(
+            fecha_ingreso=str(f_ing),
+            fecha_termino=str(f_term),
+            remuneracion_mensual_clp=float(rem),
+            causal=str(args.get("causal") or "161"),
+            aviso_previo_dado=bool(args.get("aviso_previo_dado", False)),
+            dias_feriado_pendientes=args.get("dias_feriado_pendientes"),
+            aporte_empleador_afc_clp=float(args.get("aporte_empleador_afc_clp") or 0.0),
+            aplicar_tope_90_uf=bool(args.get("aplicar_tope_90_uf", True)),
+            uf_valor=args.get("uf_valor"),
+            meses_cotizaciones_impagas_ley_bustos=int(args.get("meses_cotizaciones_impagas_ley_bustos") or 0),
+            es_trabajador_anterior_1981=bool(args.get("es_trabajador_anterior_1981", False)),
+        )
+    elif name == "calcular_cuantias_legales":
+        from calculadoras_chile import calcular_cuantias_legales
+
+        tipo = args.get("tipo")
+        if not tipo:
+            return {"error": "El parámetro 'tipo' es obligatorio ('dias_multa_natural', 'dias_multa_persona_juridica', 'alimentos_utm')."}
+        return calcular_cuantias_legales(
+            tipo=str(tipo),
+            utm_valor=args.get("utm_valor"),
+            grado_pena=str(args.get("grado_pena") or "presidio_menor_minimo"),
+            ingreso_diario_liquido_clp=args.get("ingreso_diario_liquido_clp"),
+            dias_multa=args.get("dias_multa"),
+            valor_dia_utm=args.get("valor_dia_utm"),
+            ventas_linea_clp=args.get("ventas_linea_clp"),
+            ganancias_clp=args.get("ganancias_clp"),
+            numero_hijos=int(args.get("numero_hijos") or 1),
+            imm_clp=args.get("imm_clp"),
+            ingreso_liquido_alimentante_clp=args.get("ingreso_liquido_alimentante_clp"),
+        )
+    elif name == "docx_aplicar_redline":
+        ruta_in = str(args.get("input_docx_path") or "").strip()
+        cambios = args.get("cambios")
+        if not ruta_in or not isinstance(cambios, list) or not cambios:
+            return {"error": "Los parámetros 'input_docx_path' y 'cambios' (lista no vacía) son obligatorios."}
+        return word_compiler.aplicar_redline(
+            input_docx_path=ruta_in,
+            cambios=cambios,
+            output_docx_path=args.get("output_docx_path"),
+            autor=str(args.get("autor") or "Open Legal Chile"),
+        )
     return None
 
 

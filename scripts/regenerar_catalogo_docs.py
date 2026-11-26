@@ -23,15 +23,16 @@ def _clasificar_tool(nombre: str) -> str:
     if n.startswith((
         "pjud_", "recurso_proteccion", "cpc_", "vigilante_", "export_brief",
         "compile_legal", "critique_", "verificar_citas", "generar_documento", "ocr_",
+        "calcular_plazo", "calcular_cuantias", "docx_",
     )):
         return "Litigación y Forense"
     if n.startswith(("ambiental_", "sma_", "cne_", "panel_expertos")):
         return "Ambiental y Energía"
-    if n.startswith(("dt_",)):
+    if n.startswith(("dt_", "calcular_finiquito")):
         return "Laboral"
     if n.startswith(("cgr_", "infoprobidad_", "entes_")):
         return "Administrativo y Probidad"
-    if n.startswith(("sii_", "cmf_", "tdlc_", "inapi_", "privacidad_")):
+    if n.startswith(("sii_", "cmf_", "tdlc_", "inapi_", "privacidad_", "indicadores_economicos_")):
         return "Corporativo, Tributario y Datos"
     if n.startswith(("cbr_",)):
         return "Inmobiliario y CBR"

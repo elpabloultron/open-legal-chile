@@ -1,6 +1,6 @@
 # Open Legal Chile — Referencia Completa de Herramientas, Skills y Agentes
 
-Catálogo completo de las **95 herramientas MCP**, **21 skills jurídicas** (`.agents/skills/`) y **19 agentes autónomos** (`agents/*.json`) de Open Legal Chile. Consultar también `skills_listar`, `agent_list`, `suite_doctor` o `descubrir_herramientas` (en perfil `OPENLEGAL_PROFILE=router`).
+Catálogo completo de las **100 herramientas MCP**, **21 skills jurídicas** (`.agents/skills/`) y **19 agentes autónomos** (`agents/*.json`) de Open Legal Chile. Consultar también `skills_listar`, `agent_list`, `suite_doctor` o `descubrir_herramientas` (en perfil `OPENLEGAL_PROFILE=router`).
 
 ---
 
@@ -41,10 +41,10 @@ Catálogo completo de las **95 herramientas MCP**, **21 skills jurídicas** (`.a
 26. `cbr_estudio_titulos` y `cbr_checklist_documentos`: Cadena de dominio decenal (10 años, Arts. 2510–2511 CC) y checklist registral CBR.
 27. `cpc_validar_mandato`: Verificación de mandato judicial y facultades especiales (Art. 7 CPC).
 28. `ocr_plan_documento` y `ocr_extract_pdf`: Planificación y extracción OCR de expedientes PDF escaneados.
-29. `export_brief_ojv`, `compile_legal_dossier`, `generar_documento`: Exportación de escritos/informes (Word `.docx` editable, HTML/MD y dossier PDF formal A4).
+29. `export_brief_ojv`, `compile_legal_dossier`, `generar_documento`, `docx_aplicar_redline`: Exportación y redlining XML nativo (`w:del`/`w:ins` + comentarios) de escritos/informes (Word `.docx` editable, HTML/MD y dossier PDF formal A4).
 30. `privacidad_anonimizar_documento`, `privacidad_tramitar_arco`, `verificar_citas_escrito`.
 31. `inapi_evaluar_marca`, `inapi_cease_and_desist`.
-32. `vigilante_analizar_resolucion`, `vigilante_radar_normativo`, `vigilante_contrato_plazos`.
+32. `vigilante_analizar_resolucion`, `vigilante_radar_normativo`, `vigilante_contrato_plazos`, `calcular_plazo_procesal`, `calcular_finiquito_laboral`, `calcular_cuantias_legales`, `indicadores_economicos_chile`.
 33. `clinica_lenguaje_claro`, `clinica_intake_social`, `clinica_auditar_borrador`.
 34. `grado_interrogar`, `grado_generar_cedula`, `grado_obtener_flashcards`.
 35. `notebooklm_list_notebooks`, `notebooklm_create_notebook`, `notebooklm_add_source`, `notebooklm_query`, `generar_grafo_vinculos`.

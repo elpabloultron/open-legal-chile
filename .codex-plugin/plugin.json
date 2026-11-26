@@ -1,7 +1,7 @@
 {
   "name": "open-legal-chile",
-  "version": "1.17.0",
-  "description": "Chilean Civil Law suite: 95 local-first MCP tools, 10 state connectors (BCN, PJUD, CGR, DT, SII, CMF, SMA, TDLC, CNE), 21 skills, and 19 legal agents.",
+  "version": "1.18.0",
+  "description": "Chilean Civil Law suite: 100 local-first MCP tools, 10 state connectors (BCN, PJUD, CGR, DT, SII, CMF, SMA, TDLC, CNE), 21 skills, and 19 legal agents.",
   "author": {
     "name": "Pablo Benavides Jorquera",
     "email": "pablobenavidesjorquera@gmail.com",
@@ -31,8 +31,8 @@
   "mcpServers": "./.codex-plugin/mcp.json",
   "interface": {
     "displayName": "Open Legal Chile",
-    "shortDescription": "95 local-first MCP tools, 21 skills & 19 agents for Chilean Civil Law.",
-    "longDescription": "Open Legal Chile is an open-source, local-first legal intelligence plugin for Chilean Civil Law. It bundles 95 MCP tools across 10 official Chilean state connectors (BCN Ley Chile, PJUD Supreme & Constitutional Courts, CGR, DT, SII, CMF, SMA, TDLC, CNE, and Panel de Expertos), a hybrid doctrinal corpus & LegalGraphify knowledge graph, 21 specialized legal skills, and 19 domain subagents. Runs locally via uvx with zero client-data leakage and strict statutory citation verification.",
+    "shortDescription": "100 local-first MCP tools, 21 skills & 19 agents for Chilean Civil Law.",
+    "longDescription": "Open Legal Chile is an open-source, local-first legal intelligence plugin for Chilean Civil Law. It bundles 100 MCP tools across 10 official Chilean state connectors (BCN Ley Chile, PJUD Supreme & Constitutional Courts, CGR, DT, SII, CMF, SMA, TDLC, CNE, and Panel de Expertos), a hybrid doctrinal corpus & LegalGraphify knowledge graph, 21 specialized legal skills, and 19 domain subagents. Runs locally via uvx with zero client-data leakage and strict statutory citation verification.",
     "developerName": "Pablo Benavides Jorquera",
     "category": "Legal",
     "capabilities": [

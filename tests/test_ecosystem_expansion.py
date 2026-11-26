@@ -249,5 +249,5 @@ class TestMCPServerNewTools:
         assert len(res) >= 1
 
     def test_mcp_total_tools_count(self):
-        # 95: 93 previas + jurimetria_analizar_corpus y jurimetria_exportar_investigacion.
-        assert len(TOOLS) == 95
+        # 100: 95 previas + indicadores_economicos_chile, calcular_*, docx_aplicar_redline.
+        assert len(TOOLS) == 100

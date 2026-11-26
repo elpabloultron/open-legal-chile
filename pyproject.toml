@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openlegal-chile"
-version = "1.17.0"
+version = "1.18.0"
 description = "Suite de Inteligencia Jurídica y Servidor MCP para el Derecho Continental de la República de Chile"
 readme = "README.md"
 authors = [
@@ -105,6 +105,7 @@ py-modules = [
     "agents_runtime",
     "ambiental_connector",
     "bcn_connector",
+    "calculadoras_chile",
     "case_graph",
     "case_intake",
     "case_workspace",

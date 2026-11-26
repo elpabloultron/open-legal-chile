@@ -8,9 +8,9 @@
   "plugins": [
     {
       "name": "open-legal-chile",
-      "version": "1.17.0",
+      "version": "1.18.0",
       "source": "./",
-      "description": "Suite jurídica completa para el Derecho Continental de Chile: 95 herramientas MCP locales (uvx), 10 conectores estatales, 21 skills y 19 agentes."
+      "description": "Suite jurídica completa para el Derecho Continental de Chile: 100 herramientas MCP locales (uvx), 10 conectores estatales, 21 skills y 19 agentes."
     }
   ]
 }

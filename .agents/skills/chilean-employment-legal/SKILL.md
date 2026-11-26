@@ -24,6 +24,8 @@ description: "Especialista en Derecho del Trabajo chileno, despidos (Art. 161 y 
 
 ## 🛠️ Herramientas MCP Disponibles
 * `dt_search_doctrina`: Busca dictámenes y doctrina laboral vinculante de la DT. Soporta análisis individual o en lote (`numero`/`numeros`/`article_id`), descarga de PDF oficial firmado con OCR forense sobre resoluciones escaneadas, conversión a Markdown canónico (`convertir_a_md_y_graficar=True`), ingesta en LegalGraphify y desglose de consideraciones doctrinarias por materia controvertida (`tema_relevante`).
+* `calcular_finiquito_laboral`: Liquida de forma determinista años de servicio (tope 11 años), base con tope 90 UF, feriado proporcional sin tope UF, recargos Art. 168 CT (30/50/80/100 %), descuento y restitución AFC, Ley Bustos y caducidad.
+* `calcular_plazo_procesal`: Calcula vencimientos exactos en días hábiles laborales (Arts. 168 y 435 CT, con suspensión DT hasta 90 días y feriados oficiales de Chile).
 * `bcn_get_codigo`: Consulta artículos del Código del Trabajo.
 * `bcn_get_ley`: Consulta leyes laborales (21.643, 21.561, 20.607, 21.015, etc.).
 * `pjud_search_jurisprudencia`: Unificaciones de doctrina de la CS (Cuarta Sala).

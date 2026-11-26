@@ -17,7 +17,7 @@
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-contract-legal/SKILL.md",
-      "sha256": "f9e3d176e61cdd191b55eaafc70a1d9dbf3673cf00d188377a683c9447682580"
+      "sha256": "5519b5466b4e448f6895f79a4921c05649a582ee5560f9e6349d678c35bcc647"
     },
     "chilean-contradictorio-goldfish": {
       "source": "local",
@@ -35,7 +35,7 @@
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-docket-watcher/SKILL.md",
-      "sha256": "bb558eca5ae1e50a60d39d3ed234ad7c3b06a3074e410e97ed696abd3ac44999"
+      "sha256": "5981dabdfb62d521d9d2a8f8a898dc6002d9c3f622d697f73c1645d2f20a6818"
     },
     "chilean-doctrine-ingestion": {
       "source": "local",
@@ -59,7 +59,7 @@
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-employment-legal/SKILL.md",
-      "sha256": "7a6a5181144f79d74adbff4349ff6b07468794d49be6182e40f9bb8191e96339"
+      "sha256": "e81621a789b3e338bfeefbedebcf047d801944d8ff7ce3ce6e4d33ed84434201"
     },
     "chilean-energy-legal": {
       "source": "local",
@@ -101,7 +101,7 @@
       "source": "local",
       "sourceType": "workspace",
       "skillPath": ".agents/skills/chilean-privacy-ip/SKILL.md",
-      "sha256": "18ff03d955659a12a2c3b525cc951504e8f0a4ba93bfe0707d818f373ed5c77c"
+      "sha256": "f7b74adb37425d40ca105c945aa82cbef9a7564834b773df919e515a06574e28"
     },
     "chilean-probity-investigation": {
       "source": "local",

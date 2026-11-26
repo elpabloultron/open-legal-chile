@@ -44,7 +44,12 @@ class PrivacyARCOEngine:
             "fecha_limite_respuesta": fecha_limite.strftime("%Y-%m-%d"),
             "modelo_oficial_respuesta": modelo_respuesta,
             "organismo_fiscalizador": "Agencia de Protección de Datos Personales de Chile",
-            "estatus": "ADMITIDA A TRÁMITE"
+            "estatus": "ADMITIDA A TRÁMITE",
+            "regimen_vigencia": {
+                "ley_vigente_actual": "Ley N.° 19.628 (vigente hasta el 14-10-2027)",
+                "ley_modernizada": "Ley N.° 21.719 (entrada en vigencia plena el 15-10-2027, modificada por Ley N.° 21.855, D.O. 23-11-2026)",
+                "consejo_directivo_agencia": "5 consejeros (propuesta al Senado hasta el 15-01-2027)",
+            },
         }
 
 

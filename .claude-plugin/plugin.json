@@ -1,8 +1,8 @@
 {
   "name": "open-legal-chile",
   "displayName": "Open Legal Chile",
-  "version": "1.17.0",
-  "description": "Suite de inteligencia jurídica para el derecho chileno (Civil Law): 95 herramientas MCP con 10 conectores oficiales del Estado (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), Baremo Estadístico de Daño Moral, doctrina canónica híbrida, grafo multiplex LegalGraphify, jurimetría académica, perfil router, OCR forense, 21 skills jurídicas y 19 agentes especializados. Requiere uv (uvx) para lanzar el servidor MCP.",
+  "version": "1.18.0",
+  "description": "Suite de inteligencia jurídica para el derecho chileno (Civil Law): 100 herramientas MCP con 10 conectores oficiales del Estado (BCN, CGR, DT, PJUD, SII, CMF, SMA, TDLC, CNE, Panel de Expertos), Baremo Estadístico de Daño Moral, doctrina canónica híbrida, grafo multiplex LegalGraphify, jurimetría académica, perfil router, OCR forense, 21 skills jurídicas y 19 agentes especializados. Requiere uv (uvx) para lanzar el servidor MCP.",
   "author": {
     "name": "Pablo Benavides Jorquera / Open Legal Chile Contributors",
     "email": "pablobenavidesjorquera@gmail.com",
@@ -31,7 +31,7 @@
     "perfil": {
       "type": "string",
       "title": "Perfil de herramientas",
-      "description": "Por defecto: router (9 herramientas + descubrimiento dinámico bajo demanda, ahorra ~85 % de contexto). Usa 'full' para las 95 herramientas directas, o laboral, inmobiliario, litigios, regulatorio, corporativo, dogmatico o clinica.",
+      "description": "Por defecto: router (9 herramientas + descubrimiento dinámico bajo demanda, ahorra ~85 % de contexto). Usa 'full' para las 100 herramientas directas, o laboral, inmobiliario, litigios, regulatorio, corporativo, dogmatico o clinica.",
       "default": "router"
     },
     "hf_token": {
@@ -45,7 +45,7 @@
   "mcpServers": {
     "open-legal-chile": {
       "command": "uvx",
-      "args": ["--from", "openlegal-chile==1.17.0", "openlegal-mcp"],
+      "args": ["--from", "openlegal-chile==1.18.0", "openlegal-mcp"],
       "env": {
         "PYTHONIOENCODING": "utf-8",
         "PYTHONUNBUFFERED": "1",

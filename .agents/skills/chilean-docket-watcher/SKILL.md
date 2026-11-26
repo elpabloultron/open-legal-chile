@@ -23,7 +23,8 @@ description: "Vigilante Procesal de Proveídos OJV/PJUD y Radar Normativo chilen
 * Jurisprudencia CS: `[CS - Rol N° <Número>-<Año>, Fecha: <D-M-A>]`
 
 ## 🛠️ Herramientas MCP Disponibles
-* `vigilante_analizar_resolucion`: Parsea proveídos y resoluciones judiciales, identifica la etapa procesal, detecta cargas procesales («Traslado», «Como se pide, con citación», «Recíbase la causa a prueba») y calcula la fecha exacta de vencimiento en días hábiles judiciales o corridos.
+* `vigilante_analizar_resolucion`: Parsea proveídos y resoluciones judiciales, identifica la etapa procesal, detecta cargas procesales («Traslado», «Como se pide, con citación», «Recíbase la causa a prueba») y calcula la fecha exacta de vencimiento en días hábiles judiciales o corridos si se aporta `fecha_notificacion`.
+* `calcular_plazo_procesal`: Calculadora determinista de plazos con calendario oficial de feriados de Chile (Art. 66 CPC lunes-sábado, Arts. 168/435 CT laboral con suspensión DT, Art. 25 Ley 19.880 administrativo lunes-viernes, o corridos).
 * `pjud_interpretar_proveido`: Explica el alcance jurídico de los decretos, providencias y autos frecuentes en la tramitación digital OJV.
 * `vigilante_contrato_plazos`: Extrae y monitorea cláusulas de vigencia, preavisos de no renovación (*auto-renewal*), prescripción y caducidad en contratos.
 * `vigilante_radar_normativo`: Monitorea novedades normativas, circulares y dictámenes relevantes para la cartera de causas o contratos del estudio.

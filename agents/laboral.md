@@ -6,6 +6,8 @@ tools:
   - mcp__plugin_open-legal-chile_open-legal-chile__bcn_get_ley
   - mcp__plugin_open-legal-chile_open-legal-chile__dt_search_doctrina
   - mcp__plugin_open-legal-chile_open-legal-chile__pjud_search_jurisprudencia
+  - mcp__plugin_open-legal-chile_open-legal-chile__calcular_finiquito_laboral
+  - mcp__plugin_open-legal-chile_open-legal-chile__calcular_plazo_procesal
   - mcp__plugin_open-legal-chile_open-legal-chile__export_brief_ojv
 ---
 

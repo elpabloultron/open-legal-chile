@@ -479,7 +479,11 @@ def _cita_de_norma(cliente: Any, norma: dict, limite: Optional[int] = 1200) -> d
         return {"error": "La fuente respondió sin texto: no se cita lo que no se pudo leer.",
                 "sin_fuente_verificable": True, "detalle": str(dato)[:300]}
     recorte = texto if limite is None else texto[:limite]
-    return {"cita": formatear_cita("BCN", ident, url=url, texto=recorte)}
+    cita = formatear_cita("BCN", ident, url=url, texto=recorte)
+    vig = dato.get("vigencia")
+    if isinstance(vig, dict) and vig.get("estado") in ("vacancia_legal", "derogada"):
+        cita["vigencia"] = vig
+    return {"cita": cita}
 
 
 def _citas_por_lote(referencias: list, limite: Optional[int] = 1200) -> dict:

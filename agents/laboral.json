@@ -8,6 +8,8 @@
     "bcn_get_ley",
     "dt_search_doctrina",
     "pjud_search_jurisprudencia",
+    "calcular_finiquito_laboral",
+    "calcular_plazo_procesal",
     "export_brief_ojv"
   ]
 }

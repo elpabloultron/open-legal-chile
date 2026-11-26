@@ -3,6 +3,7 @@ Open Legal Chile — Conector Oficial Biblioteca del Congreso Nacional (BCN Ley 
 Módulo para consultar, descargar, cachear e indexar leyes, decretos y códigos de la República de Chile.
 """
 
+from datetime import date
 import os
 import re
 import json
@@ -10,7 +11,7 @@ import html
 import time
 import urllib.parse
 import defusedxml.ElementTree as ET
-from typing import Dict, Any, List, Optional, Tuple
+from typing import Dict, Any, List, Optional, Tuple, Union
 
 from config import BCN_API_KEY, cache_fresco, pedir_http, registrar_tiempo
 
@@ -78,14 +79,107 @@ LEYES_FRECUENTES = {
     "karin": 21643,
     "40horas": 21561,
     "datos": 19628,
+    "datos_21719": 21719,
+    "datos_postergacion": 21855,
     "consumidor": 19496,
     "sa": 18046,
     "arriendo": 18101,
     "devolveme": 21461,
     "tramitacion_digital": 20886,
     "delitos_economicos": 21595,
-    "empresas_en_un_dia": 20659
+    "empresas_en_un_dia": 20659,
+    "ciberseguridad": 21663,
+    "cumplimiento_tributario": 21713,
+    "insolvencia": 20720,
 }
+
+_VACANCIAS_LEGALES: Dict[int, Dict[str, str]] = {
+    21719: {
+        "normaId": "1209272",
+        "fecha_entrada_vigencia": "2027-10-15",
+        "modificada_por": "Ley N.° 21.855 (D.O. 23-11-2026)",
+        "regimen_transitorio": "Ley N.° 19.628 vigente hasta el 14-10-2027",
+        "aviso": (
+            "En vacancia legal: la Ley N.° 21.855 (publicada el 23-11-2026) postergó la entrada en "
+            "vigencia de la Ley N.° 21.719 al 15-10-2027 y amplió el Consejo Directivo de la Agencia "
+            "de Protección de Datos Personales a 5 consejeros."
+        ),
+    }
+}
+
+_RE_FECHA_ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _normalizar_id_ley(id_ley: Union[int, str]) -> int:
+    """Normaliza un número de ley chileno (acepta «21.719» o 21719) a entero positivo."""
+    if isinstance(id_ley, (bool, float)):
+        raise ValueError(f"Número de ley inválido: {id_ley!r}")
+    if isinstance(id_ley, int):
+        if id_ley <= 0:
+            raise ValueError(f"Número de ley inválido: {id_ley!r}")
+        return id_ley
+    limpio = re.sub(r"[^\d]", "", str(id_ley))
+    if not limpio:
+        raise ValueError(f"Número de ley inválido: {id_ley!r}")
+    num = int(limpio)
+    if num <= 0:
+        raise ValueError(f"Número de ley inválido: {id_ley!r}")
+    return num
+
+
+def evaluar_vigencia_norma(
+    data: Dict[str, Any],
+    hoy: Optional[date] = None,
+    numero_ley: Optional[int] = None,
+) -> Dict[str, Any]:
+    """Evalúa si una norma BCN está vigente, derogada o en vacancia legal."""
+    fecha_ref = (hoy or date.today()).isoformat()
+    derogado_raw = str(data.get("derogado") or "").strip()
+    fecha_version = str(data.get("fechaVersion") or "").strip()
+    fecha_publicacion = str(data.get("fechaPublicacion") or "").strip()
+    fecha_promulgacion = str(data.get("fechaPromulgacion") or "").strip()
+    norma_id = str(data.get("normaId") or "").strip()
+
+    num_int: Optional[int] = numero_ley
+    if num_int is None:
+        raw_num = str(data.get("numero") or data.get("ley") or "").strip()
+        digitos = re.sub(r"[^\d]", "", raw_num)
+        if digitos:
+            num_int = int(digitos)
+
+    reg_vacancia = _VACANCIAS_LEGALES.get(num_int) if num_int is not None else None
+    if reg_vacancia is None and norma_id:
+        for v in _VACANCIAS_LEGALES.values():
+            if v.get("normaId") == norma_id:
+                reg_vacancia = v
+                break
+
+    base: Dict[str, Any] = {
+        "fecha_evaluacion": fecha_ref,
+        "derogado": derogado_raw or "no",
+        "fecha_version": fecha_version,
+        "fecha_publicacion": fecha_publicacion,
+        "fecha_promulgacion": fecha_promulgacion,
+    }
+    if derogado_raw and not derogado_raw.lower().startswith("no"):
+        return {**base, "estado": "derogada", "aviso": f"Norma marcada como derogada en BCN ({derogado_raw})."}
+    if reg_vacancia and fecha_ref < reg_vacancia["fecha_entrada_vigencia"]:
+        return {
+            **base,
+            "estado": "vacancia_legal",
+            "fecha_entrada_vigencia": reg_vacancia["fecha_entrada_vigencia"],
+            "modificada_por": reg_vacancia["modificada_por"],
+            "regimen_transitorio": reg_vacancia["regimen_transitorio"],
+            "aviso": reg_vacancia["aviso"],
+        }
+    if _RE_FECHA_ISO.match(fecha_version) and fecha_version > fecha_ref:
+        return {
+            **base,
+            "estado": "vacancia_legal",
+            "fecha_entrada_vigencia": fecha_version,
+            "aviso": f"Norma con entrada en vigencia programada en BCN para el {fecha_version}.",
+        }
+    return {**base, "estado": "vigente"}
 
 
 def _clave_articulo(valor: Any) -> str:
@@ -123,7 +217,12 @@ def _guardar_mem_cache_bcn(cache_file: str, dato: Dict[str, Any]) -> None:
 
 def _indice_mem_bcn(cache_file: str, dato: Dict[str, Any]) -> Optional[Dict[str, Tuple[str, str]]]:
     entrada = _MEM_CACHE_BCN.get(os.path.abspath(cache_file))
-    if entrada is not None and entrada[2] is dato:
+    if entrada is None:
+        return None
+    if entrada[2] is dato:
+        return entrada[3]
+    arts = dato.get("articulos")
+    if isinstance(arts, dict) and entrada[2].get("articulos") is arts:
         return entrada[3]
     return None
 
@@ -190,6 +289,17 @@ class BCNClient:
         norma_id = root.attrib.get('normaId', '')
         fecha_version = root.attrib.get('fechaVersion', '')
         derogado = root.attrib.get('derogado', 'no')
+        ident_elem = root.find('.//Identificador')
+        fecha_promulgacion = ident_elem.attrib.get('fechaPromulgacion', '') if ident_elem is not None else ''
+        fecha_publicacion = ident_elem.attrib.get('fechaPublicacion', '') if ident_elem is not None else ''
+        f_elem = root.find('.//Metadatos/IdentificacionFuente')
+        if f_elem is None:
+            f_elem = root.find('.//IdentificacionFuente')
+        fuente_oficial = f_elem.text.strip() if (f_elem is not None and f_elem.text) else ""
+        nf_elem = root.find('.//Metadatos/NumeroFuente')
+        if nf_elem is None:
+            nf_elem = root.find('.//NumeroFuente')
+        numero_fuente = nf_elem.text.strip() if (nf_elem is not None and nf_elem.text) else ""
 
         # Buscar título en Metadatos o Identificador o Encabezado
         titulo = ""
@@ -243,7 +353,19 @@ class BCNClient:
             "titulo": titulo,
             "organismo": organismo,
             "fechaVersion": fecha_version,
+            "fechaPromulgacion": fecha_promulgacion,
+            "fechaPublicacion": fecha_publicacion,
+            "fuenteOficial": fuente_oficial,
+            "numeroFuente": numero_fuente,
             "derogado": derogado,
+            "vigencia": evaluar_vigencia_norma({
+                "normaId": norma_id,
+                "numero": numero,
+                "fechaVersion": fecha_version,
+                "fechaPromulgacion": fecha_promulgacion,
+                "fechaPublicacion": fecha_publicacion,
+                "derogado": derogado,
+            }),
             "historiaLeyUrl": historia_ley_url,
             "totalEstructuras": len(estructuras),
             "parser": _VERSION_ARTICULOS,
@@ -284,23 +406,25 @@ class BCNClient:
         _guardar_mem_cache_bcn(cache_file, norma_data)
         return norma_data
 
-    def get_ley(self, id_ley: int, use_cache: bool = True) -> Dict[str, Any]:
-        """Obtiene una ley chilena por su número oficial (ej. 21643).
+    def get_ley(self, id_ley: Union[int, str], use_cache: bool = True) -> Dict[str, Any]:
+        """Obtiene una ley chilena por su número oficial (ej. 21643 o «21.719»).
 
         La copia local caduca a los 30 días: vencida, se intenta refrescar; si la red falla,
         se entrega la copia vencida marcada con `copia_local_vencida` (degradación honesta).
         """
-        cache_file = self._get_cache_path("ley", id_ley)
+        num_ley = _normalizar_id_ley(id_ley)
+        cache_file = self._get_cache_path("ley", num_ley)
         t0 = time.perf_counter()
         data = self._leer_cache(cache_file) if use_cache else None
         if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
             registrar_tiempo("bcn.cache", time.perf_counter() - t0)
-            return data
+            return {**data, "vigencia": evaluar_vigencia_norma(data, numero_ley=num_ley)}
         try:
-            return self._descargar_norma({"opt": 7, "idLey": id_ley}, cache_file)
+            res = self._descargar_norma({"opt": 7, "idLey": num_ley}, cache_file)
+            return {**res, "vigencia": evaluar_vigencia_norma(res, numero_ley=num_ley)}
         except Exception:
             if data is not None:
-                return {**data, "copia_local_vencida": True}
+                return {**data, "vigencia": evaluar_vigencia_norma(data, numero_ley=num_ley), "copia_local_vencida": True}
             raise
 
     def get_norma(self, id_norma: int, use_cache: bool = True) -> Dict[str, Any]:
@@ -310,12 +434,13 @@ class BCNClient:
         data = self._leer_cache(cache_file) if use_cache else None
         if data is not None and cache_fresco(cache_file, _TTL_CACHE_SEGUNDOS):
             registrar_tiempo("bcn.cache", time.perf_counter() - t0)
-            return data
+            return {**data, "vigencia": evaluar_vigencia_norma(data)}
         try:
-            return self._descargar_norma({"opt": 7, "idNorma": id_norma}, cache_file)
+            res = self._descargar_norma({"opt": 7, "idNorma": id_norma}, cache_file)
+            return {**res, "vigencia": evaluar_vigencia_norma(res)}
         except Exception:
             if data is not None:
-                return {**data, "copia_local_vencida": True}
+                return {**data, "vigencia": evaluar_vigencia_norma(data), "copia_local_vencida": True}
             raise
 
     def get_codigo(self, codigo_nombre: str, articulo: Optional[str] = None) -> Dict[str, Any]:
@@ -326,6 +451,7 @@ class BCNClient:
 
         id_norma = int(str(CODIGOS_REPUBLICA[c_key]["idNorma"]))
         data = self.get_norma(id_norma)
+        vigencia = data.get("vigencia") or evaluar_vigencia_norma(data)
 
         if articulo:
             idx = _indice_mem_bcn(self._get_cache_path("norma", id_norma), data)
@@ -336,47 +462,54 @@ class BCNClient:
                     "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
                     "articulo": clave,
                     "texto": texto,
-                    "fechaVersion": data["fechaVersion"]
+                    "fechaVersion": data["fechaVersion"],
+                    "vigencia": vigencia,
                 }
             return {
                 "codigo": CODIGOS_REPUBLICA[c_key]["nombre"],
                 "articulo": articulo,
-                "error": f"Artículo {articulo} no encontrado en el texto vigente."
+                "error": f"Artículo {articulo} no encontrado en el texto vigente.",
+                "vigencia": vigencia,
             }
 
         return data
 
-    def get_articulo_ley(self, id_ley: int, articulo: str) -> Dict[str, Any]:
-        """Obtiene un artículo específico de una ley (ej. Ley 21643, Art. 1)."""
-        data = self.get_ley(id_ley)
-        idx = _indice_mem_bcn(self._get_cache_path("ley", id_ley), data)
+    def get_articulo_ley(self, id_ley: Union[int, str], articulo: str) -> Dict[str, Any]:
+        """Obtiene un artículo específico de una ley (ej. Ley 21643 o «21.719», Art. 1)."""
+        num_ley = _normalizar_id_ley(id_ley)
+        data = self.get_ley(num_ley)
+        vigencia = data.get("vigencia") or evaluar_vigencia_norma(data, numero_ley=num_ley)
+        idx = _indice_mem_bcn(self._get_cache_path("ley", num_ley), data)
         encontrado = _buscar_articulo(data["articulos"], str(articulo), indice_exacto=idx)
         if encontrado:
             clave, texto = encontrado
             return {
-                "ley": id_ley,
+                "ley": num_ley,
                 "titulo": data["titulo"],
                 "articulo": clave,
                 "texto": texto,
-                "fechaVersion": data["fechaVersion"]
+                "fechaVersion": data["fechaVersion"],
+                "vigencia": vigencia,
             }
         return {
-            "ley": id_ley,
+            "ley": num_ley,
             "articulo": articulo,
-            "error": f"Artículo {articulo} no encontrado en la Ley {id_ley}."
+            "error": f"Artículo {articulo} no encontrado en la Ley {num_ley}.",
+            "vigencia": vigencia,
         }
 
-    def get_ley_historica(self, id_ley: int, fecha_historica: str, articulo: Optional[str] = None, use_cache: bool = True) -> Dict[str, Any]:
+    def get_ley_historica(self, id_ley: Union[int, str], fecha_historica: str, articulo: Optional[str] = None, use_cache: bool = True) -> Dict[str, Any]:
         """Obtiene una ley chilena en una versión temporal histórica específica (YYYY-MM-DD)."""
+        num_ley = _normalizar_id_ley(id_ley)
         fecha_clean = fecha_historica.strip()
-        cache_key = f"ley_{id_ley}_{fecha_clean}"
+        cache_key = f"ley_{num_ley}_{fecha_clean}"
         cache_file = self._get_cache_path("historica", cache_key)
 
         if use_cache and os.path.exists(cache_file):
             with open(cache_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
         else:
-            xml_data = self._fetch_xml({"opt": 7, "idLey": id_ley, "idVersion": fecha_clean})
+            xml_data = self._fetch_xml({"opt": 7, "idLey": num_ley, "idVersion": fecha_clean})
             data = self._parse_norma_xml(xml_data)
             with open(cache_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
@@ -386,7 +519,7 @@ class BCNClient:
             if encontrado:
                 clave, texto = encontrado
                 return {
-                    "ley": id_ley,
+                    "ley": num_ley,
                     "fechaVersionSolicitada": fecha_clean,
                     "fechaVersionEfectiva": data["fechaVersion"],
                     "articulo": clave,
@@ -394,7 +527,7 @@ class BCNClient:
                     "historiaLeyUrl": data.get("historiaLeyUrl", "")
                 }
             return {
-                "ley": id_ley,
+                "ley": num_ley,
                 "fechaVersionSolicitada": fecha_clean,
                 "articulo": articulo,
                 "error": f"Artículo {articulo} no encontrado en la versión histórica {fecha_clean}."

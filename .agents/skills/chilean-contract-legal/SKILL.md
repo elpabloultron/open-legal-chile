@@ -27,6 +27,7 @@ description: "Especialista en contratos y derecho comercial chileno: revisión d
 * `bcn_get_ley`: Consulta leyes (19.496, 21.719, 19.799, 20.169, 19.039).
 * `sii_search_circulares`: Circulares tributarias relevantes a contratos.
 * `tdlc_search_jurisprudencia`: Restricciones de libre competencia en cláusulas.
+* `docx_aplicar_redline`: Aplica Control de Cambios XML nativo (`w:del`/`w:ins`) y comentarios marginales directamente sobre contratos `.docx` existentes.
 * `export_brief_ojv`: Exporta el memo o minuta en formatos formales.
 
 ---

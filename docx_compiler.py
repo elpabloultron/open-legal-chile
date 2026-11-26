@@ -9,11 +9,13 @@ en un .docx con tipografía forense: Times New Roman 12, cuerpo justificado, hoj
 """
 from __future__ import annotations
 
+import copy
+from datetime import datetime, timezone
 import functools
 import io
 import os
 import re
-from typing import Any, Dict
+from typing import Any, Dict, List, Optional
 
 try:
     from docx import Document
@@ -279,3 +281,309 @@ class WordDossierCompiler:
                 parrafo.add_run(parte[1:-1]).italic = True
             else:
                 parrafo.add_run(parte)
+
+    def aplicar_redline(
+        self,
+        input_docx_path: str,
+        cambios: List[Dict[str, Any]],
+        output_docx_path: Optional[str] = None,
+        autor: str = "Open Legal Chile",
+    ) -> Dict[str, Any]:
+        """Aplica control de cambios nativo OOXML (`w:del`/`w:ins`) y comentarios (`word/comments.xml`) a un `.docx`."""
+        if not _DOCX_DISPONIBLE or Document is None:
+            return {"ok": False, "motivo": "python-docx no está instalado"}
+        ruta_in = os.path.abspath(str(input_docx_path or "").strip())
+        if not input_docx_path or not os.path.exists(ruta_in):
+            return {"ok": False, "error": f"Archivo .docx no encontrado: {input_docx_path}"}
+        if not isinstance(cambios, list) or not cambios:
+            return {"ok": False, "error": "Debe indicar una lista no vacía de cambios ({buscar, reemplazar, comentario})."}
+
+        from docx.opc.packuri import PackURI
+        from docx.opc.part import Part
+        from docx.oxml import OxmlElement
+        from docx.oxml.ns import qn
+
+        documento = Document(ruta_in)
+        parrafos = _iterar_parrafos_unicos(documento)
+        fecha_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        autor_limpio = str(autor or "Open Legal Chile").strip() or "Open Legal Chile"
+
+        rel_comments = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments"
+        ct_comments = "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml"
+        parte_existente = None
+        for rel in documento.part.rels.values():
+            if rel.reltype == rel_comments:
+                parte_existente = rel.target_part
+                break
+
+        max_cid = _max_xml_id(documento, qn("w:commentRangeStart"))
+        if parte_existente is not None and hasattr(parte_existente, "_element"):
+            max_cid = max(max_cid, _max_xml_id(parte_existente._element, qn("w:comment")))
+
+        estado: Dict[str, Any] = {
+            "next_rev_id": max(_max_xml_id(documento, qn("w:del")), _max_xml_id(documento, qn("w:ins"))) + 1,
+            "next_cid": max_cid + 1,
+            "comentarios": [],
+        }
+
+        aplicados = 0
+        no_encontrados: List[str] = []
+        for item in cambios:
+            if not isinstance(item, dict):
+                continue
+            buscar = str(item.get("buscar") or "")
+            if not buscar:
+                continue
+            reemplazar_raw = item.get("reemplazar")
+            reemplazar = str(reemplazar_raw) if reemplazar_raw is not None else None
+            comentario_raw = item.get("comentario")
+            comentario = (
+                self.normalizar_ortotipografia_rae(str(comentario_raw).strip())
+                if comentario_raw and str(comentario_raw).strip()
+                else None
+            )
+            hallado = False
+            for p in parrafos:
+                if _aplicar_cambio_en_parrafo(
+                    p._p,
+                    buscar=buscar,
+                    reemplazar=reemplazar,
+                    comentario=comentario,
+                    autor=autor_limpio,
+                    fecha_iso=fecha_iso,
+                    estado=estado,
+                ):
+                    aplicados += 1
+                    hallado = True
+                    break
+            if not hallado:
+                no_encontrados.append(buscar[:120])
+
+        comentarios_nuevos: List[tuple[int, str]] = estado["comentarios"]
+        if comentarios_nuevos:
+            iniciales = "".join(ch[0].upper() for ch in autor_limpio.split()[:3]) or "OLC"
+            if parte_existente is not None and hasattr(parte_existente, "_element"):
+                for cid, c_texto in comentarios_nuevos:
+                    parte_existente._element.append(
+                        _crear_comment_xml(cid, autor_limpio, fecha_iso, iniciales, c_texto)
+                    )
+            else:
+                comments_el = OxmlElement("w:comments")
+                if parte_existente is not None:
+                    import defusedxml.ElementTree as DET
+
+                    prev_root = DET.fromstring(parte_existente.blob)
+                    for prev in list(prev_root):
+                        c_el = OxmlElement("w:comment")
+                        for attr_k, attr_v in prev.attrib.items():
+                            c_el.set(attr_k, attr_v)
+                        texto_prev = "".join(prev.itertext()).strip()
+                        p_el = OxmlElement("w:p")
+                        p_el.append(_crear_run_xml(texto_prev))
+                        c_el.append(p_el)
+                        comments_el.append(c_el)
+
+                for cid, c_texto in comentarios_nuevos:
+                    comments_el.append(
+                        _crear_comment_xml(cid, autor_limpio, fecha_iso, iniciales, c_texto)
+                    )
+
+                blob = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' + comments_el.xml).encode("utf-8")
+                if parte_existente is not None:
+                    parte_existente._blob = blob
+                else:
+                    nueva_parte = Part(PackURI("/word/comments.xml"), ct_comments, blob, documento.part.package)
+                    documento.part.relate_to(nueva_parte, rel_comments)
+
+        if output_docx_path and str(output_docx_path).strip():
+            ruta_out = os.path.abspath(str(output_docx_path).strip())
+        else:
+            stem, ext = os.path.splitext(ruta_in)
+            ruta_out = f"{stem}_redline{ext or '.docx'}"
+
+        os.makedirs(os.path.dirname(ruta_out), exist_ok=True)
+        documento.save(ruta_out)
+        return {
+            "ok": True,
+            "ruta_entrada": ruta_in,
+            "ruta_salida": ruta_out,
+            "autor": autor_limpio,
+            "cambios_aplicados": aplicados,
+            "comentarios_insertados": len(comentarios_nuevos),
+            "no_encontrados": no_encontrados,
+        }
+
+
+_W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+_XML_SPACE = "{http://www.w3.org/XML/1998/namespace}space"
+
+
+def _iterar_parrafos_unicos(documento: Any) -> List[Any]:
+    """Devuelve todos los párrafos del cuerpo y tablas (incluidas anidadas), sin duplicados."""
+    parrafos: List[Any] = []
+    vistos: set[int] = set()
+
+    def _agregar(lista: Any) -> None:
+        for p in lista:
+            ident = id(p._p)
+            if ident not in vistos:
+                vistos.add(ident)
+                parrafos.append(p)
+
+    def _recorrer_tablas(tablas: Any) -> None:
+        for t in tablas:
+            for row in t.rows:
+                for cell in row.cells:
+                    _agregar(cell.paragraphs)
+                    if cell.tables:
+                        _recorrer_tablas(cell.tables)
+
+    _agregar(documento.paragraphs)
+    _recorrer_tablas(documento.tables)
+    return parrafos
+
+
+def _max_xml_id(raiz_o_doc: Any, tag_qn: str) -> int:
+    from docx.oxml.ns import qn
+
+    raiz = getattr(raiz_o_doc, "element", raiz_o_doc)
+    attr_id = qn("w:id")
+    maximo = 0
+    for el in raiz.iter(tag_qn):
+        raw = el.get(attr_id)
+        if raw and str(raw).isdigit():
+            maximo = max(maximo, int(raw))
+    return maximo
+
+
+def _crear_comment_xml(cid: int, autor: str, fecha_iso: str, iniciales: str, texto: str) -> Any:
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+
+    c_el = OxmlElement("w:comment")
+    c_el.set(qn("w:id"), str(cid))
+    c_el.set(qn("w:author"), autor)
+    c_el.set(qn("w:date"), fecha_iso)
+    c_el.set(qn("w:initials"), iniciales)
+    p_el = OxmlElement("w:p")
+    p_el.append(_crear_run_xml(texto))
+    c_el.append(p_el)
+    return c_el
+
+
+def _crear_run_xml(texto: str, rpr: Optional[Any] = None, eliminado: bool = False) -> Any:
+    from docx.oxml import OxmlElement
+
+    run_el = OxmlElement("w:r")
+    if rpr is not None:
+        run_el.append(copy.deepcopy(rpr))
+    t_el = OxmlElement("w:delText" if eliminado else "w:t")
+    t_el.set(_XML_SPACE, "preserve")
+    t_el.text = texto
+    run_el.append(t_el)
+    return run_el
+
+
+def _aplicar_cambio_en_parrafo(
+    p_el: Any,
+    buscar: str,
+    reemplazar: Optional[str],
+    comentario: Optional[str],
+    autor: str,
+    fecha_iso: str,
+    estado: Dict[str, Any],
+) -> bool:
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+
+    r_tag = f"{{{_W_NS}}}r"
+    t_tag = f"{{{_W_NS}}}t"
+    rpr_tag = f"{{{_W_NS}}}rPr"
+
+    runs: List[tuple[Any, str, int, int, Any]] = []
+    pos = 0
+    for child in list(p_el):
+        if child.tag != r_tag:
+            continue
+        t_els = child.findall(t_tag)
+        if not t_els:
+            continue
+        txt = "".join(t.text or "" for t in t_els)
+        if not txt:
+            continue
+        runs.append((child, txt, pos, pos + len(txt), child.find(rpr_tag)))
+        pos += len(txt)
+
+    if not runs:
+        return False
+
+    completo = "".join(r[1] for r in runs)
+    idx = completo.find(buscar)
+    if idx < 0:
+        return False
+    end_idx = idx + len(buscar)
+
+    spanned = [r for r in runs if r[3] > idx and r[2] < end_idx]
+    if not spanned:
+        return False
+
+    anchor_idx = list(p_el).index(spanned[0][0])
+    prefix = spanned[0][1][: idx - spanned[0][2]]
+    suffix = spanned[-1][1][end_idx - spanned[-1][2] :]
+    rpr_ini = spanned[0][4]
+    rpr_fin = spanned[-1][4]
+
+    for r_el, _, _, _, _ in spanned:
+        p_el.remove(r_el)
+
+    nuevos: List[Any] = []
+    if prefix:
+        nuevos.append(_crear_run_xml(prefix, rpr_ini))
+
+    cid: Optional[int] = None
+    if comentario:
+        cid = int(estado["next_cid"])
+        estado["next_cid"] = cid + 1
+        c_start = OxmlElement("w:commentRangeStart")
+        c_start.set(qn("w:id"), str(cid))
+        nuevos.append(c_start)
+
+    if reemplazar is not None and reemplazar != buscar:
+        del_id = int(estado["next_rev_id"])
+        estado["next_rev_id"] = del_id + 1
+        w_del = OxmlElement("w:del")
+        w_del.set(qn("w:id"), str(del_id))
+        w_del.set(qn("w:author"), autor)
+        w_del.set(qn("w:date"), fecha_iso)
+        w_del.append(_crear_run_xml(buscar, rpr_ini, eliminado=True))
+        nuevos.append(w_del)
+
+        if reemplazar != "":
+            ins_id = int(estado["next_rev_id"])
+            estado["next_rev_id"] = ins_id + 1
+            w_ins = OxmlElement("w:ins")
+            w_ins.set(qn("w:id"), str(ins_id))
+            w_ins.set(qn("w:author"), autor)
+            w_ins.set(qn("w:date"), fecha_iso)
+            w_ins.append(_crear_run_xml(reemplazar, rpr_ini, eliminado=False))
+            nuevos.append(w_ins)
+    else:
+        nuevos.append(_crear_run_xml(buscar, rpr_ini))
+
+    if cid is not None and comentario:
+        c_end = OxmlElement("w:commentRangeEnd")
+        c_end.set(qn("w:id"), str(cid))
+        nuevos.append(c_end)
+        c_ref_r = OxmlElement("w:r")
+        c_ref = OxmlElement("w:commentReference")
+        c_ref.set(qn("w:id"), str(cid))
+        c_ref_r.append(c_ref)
+        nuevos.append(c_ref_r)
+        estado["comentarios"].append((cid, comentario))
+
+    if suffix:
+        nuevos.append(_crear_run_xml(suffix, rpr_fin))
+
+    for offset, nodo in enumerate(nuevos):
+        p_el.insert(anchor_idx + offset, nodo)
+    return True

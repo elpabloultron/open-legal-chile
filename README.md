@@ -9,11 +9,11 @@
   <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Corpus_MD-7.399_Obras_y_Artículos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
-  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v1.17.0"><img src="https://img.shields.io/badge/Release-v1.17.0-blueviolet?style=for-the-badge&logo=github" alt="Release v1.17.0"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v1.18.0"><img src="https://img.shields.io/badge/Release-v1.18.0-blueviolet?style=for-the-badge&logo=github" alt="Release v1.18.0"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
-  <img src="https://img.shields.io/badge/Herramientas_MCP-95_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
+  <img src="https://img.shields.io/badge/Herramientas_MCP-100_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
   <img src="https://img.shields.io/badge/Tests-1.218%2F1.218_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
@@ -27,7 +27,7 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (95 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-95-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (100 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-95-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
@@ -91,7 +91,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 95 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
+│   • 100 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
 │   • Espacios de Casos Locales con LegalGraphify (case_workspace.py, case_graph.py)     │
 │   • Motor Vectorial Híbrido Dense + BM25 con RRF (vector_engine.py)                     │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
@@ -131,7 +131,7 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
    - **Archivo:** `legal_open_jev.py`
    - **Latencia:** `< 5 ms` en CPU local, 100% offline, cero costo de tokens y confidencialidad inviolable (Art. 247 CP).
    - **Primitivas:**
-     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 95 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
+     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 100 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
      - `JevNoul`: Compuertas binarias estrictas de validez formal: plazos fatales de caducidad laboral (Art. 168 CT: 60/90 días), prescripción civil (Arts. 2514-2515 CC), plazos constitucionales de protección (Art. 20 CPR: 30 días corridos), cómputo procesal de días hábiles judiciales (Art. 66 CPC), validación matemática de RUT Módulo 11 y facultades especiales de personería (Art. 7 inc. 2 CPC).
      - `JevScore`: Ponderación local ultrarrápida de relevancia temática.
 
@@ -261,9 +261,9 @@ medición del ahorro en [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (95 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (100 Herramientas Oficiales)
 
-El servidor MCP expone **95 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`) categorizadas funcionalmente:
+El servidor MCP expone **100 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`) categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
