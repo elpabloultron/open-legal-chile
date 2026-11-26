@@ -111,13 +111,21 @@ class DocketWatcherEngine:
         }
 
     @staticmethod
-    def radar_normativo_resumen(materia: str = "general", dias_atras: int = 15) -> Dict[str, Any]:
+    def radar_normativo_resumen(
+        materia: str = "general",
+        dias_atras: int = 15,
+        consultar_diario_oficial: bool = False,
+    ) -> Dict[str, Any]:
         """
         Simula y estructura una auditoría de vigilancia sobre las últimas publicaciones
         del Diario Oficial, dictámenes de la CGR y circulares del SII.
+
+        Cuando ``consultar_diario_oficial=True``, consulta en línea (o desde caché)
+        el sumario del Diario Oficial vía ``diario_oficial_consultar`` e incorpora sus
+        publicaciones bajo la clave ``diario_oficial`` de forma retrocompatible.
         """
         mat = materia.lower()
-        alertas = []
+        alertas: List[Dict[str, Any]] = []
         if "laboral" in mat or "general" in mat:
             alertas.append({
                 "fuente": "Dirección del Trabajo / Diario Oficial",
@@ -137,12 +145,45 @@ class DocketWatcherEngine:
                 "impacto": "Aclara requisitos de correlación del gasto con el giro conforme al Art. 31 de la LIR."
             })
 
-        return {
+        res_do: Optional[Dict[str, Any]] = None
+        if consultar_diario_oficial:
+            try:
+                from diario_oficial_connector import diario_oficial_consultar
+
+                q_do = "" if mat.strip() in ("", "general", "todas") else materia.strip()
+                res_do = diario_oficial_consultar(query=q_do, limite=10)
+                for item in res_do.get("resultados") or []:
+                    cve = str(item.get("cve") or "").strip()
+                    norma_txt = str(item.get("titulo") or "Publicación Diario Oficial")
+                    if cve:
+                        norma_txt = f"{norma_txt} (CVE {cve})"
+                    alertas.append({
+                        "fuente": "Diario Oficial de la República de Chile",
+                        "norma": norma_txt,
+                        "impacto": str(item.get("extracto") or item.get("seccion") or ""),
+                        "fecha": str(item.get("fecha") or ""),
+                        "seccion": str(item.get("seccion") or ""),
+                        "cve": cve,
+                        "url": str(item.get("url") or ""),
+                    })
+            except Exception as exc:  # noqa: BLE001 — degradación segura sin romper el radar
+                res_do = {
+                    "fuente": "Diario Oficial de la República de Chile",
+                    "total": 0,
+                    "resultados": [],
+                    "sin_fuente_verificable": True,
+                    "error": str(exc),
+                }
+
+        salida: Dict[str, Any] = {
             "materia_auditada": materia,
             "periodo_dias": dias_atras,
             "total_alertas_detectadas": len(alertas),
-            "alertas_regulatorias": alertas
+            "alertas_regulatorias": alertas,
         }
+        if res_do is not None:
+            salida["diario_oficial"] = res_do
+        return salida
 
     @staticmethod
     def calcular_vencimiento_contrato(tipo_contrato: str, fecha_vencimiento: str, preaviso_dias: int = 60) -> Dict[str, Any]:
