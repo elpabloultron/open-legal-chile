@@ -1,0 +1,26 @@
+services:
+  openlegal-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: openlegal-chile:2.0.0
+    container_name: openlegal-mcp-onpremise
+    restart: unless-stopped
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=128m
+    ports:
+      - "127.0.0.1:8765:8765"
+    environment:
+      OPENLEGAL_AUTH_TOKEN: "${OPENLEGAL_AUTH_TOKEN:?Define OPENLEGAL_AUTH_TOKEN en tu .env o entorno}"
+      OPENLEGAL_PROFILE: "${OPENLEGAL_PROFILE:-router}"
+      OPENLEGAL_ALLOWED_ORIGINS: "${OPENLEGAL_ALLOWED_ORIGINS:-http://localhost,http://127.0.0.1}"
+      OPENLEGAL_HTTP_RPM: "${OPENLEGAL_HTTP_RPM:-120}"
+      HF_TOKEN: "${HF_TOKEN:-}"
+    volumes:
+      - openlegal_data:/home/openlegal/.openlegal
+
+volumes:
+  openlegal_data:

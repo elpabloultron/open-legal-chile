@@ -9,13 +9,13 @@
   <a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile"><img src="https://img.shields.io/badge/Hugging_Face-Datasets_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Dataset"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/tree/main/doctrina"><img src="https://img.shields.io/badge/Corpus_MD-7.399_Obras_y_Artículos-0066FF?style=for-the-badge&logo=markdown&logoColor=white" alt="Biblioteca Doctrinal Markdown"/></a>
   <a href="https://pypi.org/project/openlegal-chile/"><img src="https://img.shields.io/pypi/v/openlegal-chile?style=for-the-badge&logo=pypi&logoColor=white&color=blue" alt="PyPI Version"/></a>
-  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v1.19.0"><img src="https://img.shields.io/badge/Release-v1.19.0-blueviolet?style=for-the-badge&logo=github" alt="Release v1.19.0"/></a>
+  <a href="https://github.com/elpabloultron/open-legal-chile/releases/tag/v2.0.0"><img src="https://img.shields.io/badge/Release-v2.0.0-blueviolet?style=for-the-badge&logo=github" alt="Release v2.0.0"/></a>
   <a href="https://github.com/elpabloultron/open-legal-chile/actions"><img src="https://img.shields.io/github/actions/workflow/status/elpabloultron/open-legal-chile/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI Status"/></a>
   <img src="https://img.shields.io/badge/Auditor%C3%ADa_360%C2%B0-Distinci%C3%B3n_M%C3%A1xima-success?style=for-the-badge&logo=security&logoColor=white" alt="Auditoría 360"/>
   <img src="https://img.shields.io/badge/Zero_Data_Leak-Passed-brightgreen?style=for-the-badge&logo=shield" alt="Zero Data Leak"/>
-  <img src="https://img.shields.io/badge/Herramientas_MCP-109_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
+  <img src="https://img.shields.io/badge/Herramientas_MCP-112_Tools-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP Compatible"/>
   <img src="https://img.shields.io/badge/Jurisdicci%C3%B3n-Chile_(Civil_Law)-0039A6?style=for-the-badge&logo=flag&logoColor=white" alt="Chile Flag"/>
-  <img src="https://img.shields.io/badge/Tests-1.279%2F1.279_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
+  <img src="https://img.shields.io/badge/Tests-1.296%2F1.296_Passed-blue?style=for-the-badge&logo=pytest&logoColor=white" alt="Tests"/>
   <img src="https://img.shields.io/badge/License-Apache_2.0-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
@@ -27,11 +27,11 @@
 1. [🌟 Visión, Filosofía y Soberanía Jurídica](#-1-visión-filosofía-y-soberanía-jurídica)
 2. [🏗️ Arquitectura del Ecosistema](#-2-arquitectura-del-ecosistema)
 3. [⚡ Instalación y Puesta en Marcha](#-3-instalación-y-puesta-en-marcha)
-4. [🔌 Catálogo Exhaustivo de Herramientas MCP (109 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-109-herramientas-oficiales)
+4. [🔌 Catálogo Exhaustivo de Herramientas MCP (112 Herramientas)](#-4-catálogo-exhaustivo-de-herramientas-mcp-112-herramientas-oficiales)
 5. [🏛️ Los 10 Conectores Oficiales del Estado de Chile](#-5-los-10-conectores-oficiales-del-estado-de-chile)
 6. [📚 La Base Doctrinal Canónica y la Dimensión Procesal Forense](#-6-la-base-doctrinal-canónica-y-la-dimensión-procesal-forense)
 7. [⚖️ Módulos Forenses y Pedagógicos de Especialidad](#-7-módulos-forenses-y-pedagógicos-de-especialidad)
-8. [🧠 Catálogo de Skills y Subagentes (18 Especialidades)](#-8-catálogo-de-skills-y-subagentes-18-especialidades)
+8. [🧠 Catálogo de Skills y Subagentes (26 Especialidades)](#-8-catálogo-de-skills-y-subagentes-26-especialidades)
 9. [💻 Guía Completa de la Consola CLI (`openlegal`)](#-9-guía-completa-de-la-consola-cli-openlegal)
 10. [🛡️ Certificación de Auditoría Institucional 360° (AUDIT.md)](#-10-certificación-de-auditoría-institucional-360-auditmd)
 11. [🧪 Pruebas Automatizadas y Verificación Continua](#-11-pruebas-automatizadas-y-verificación-continua)
@@ -91,7 +91,7 @@ La suite opera bajo el estándar internacional **Model Context Protocol (MCP)**,
 ┌────────────────────────────────────────▼────────────────────────────────────────────────┐
 │                       SERVIDOR MAESTRO MCP (mcp_server.py)                              │
 │                                                                                         │
-│   • 109 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
+│   • 112 Herramientas Forenses Registradas (Suite Edition · Perfil router)       │
 │   • Espacios de Casos Locales con LegalGraphify (case_workspace.py, case_graph.py)     │
 │   • Motor Vectorial Híbrido Dense + BM25 con RRF (vector_engine.py)                     │
 │   • Motor de Agentes Jurídicos Autónomos Soberanos (agents_runtime.py)                  │
@@ -132,7 +132,7 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
    - **Archivo:** `legal_open_jev.py`
    - **Latencia:** `< 5 ms` en CPU local, 100% offline, cero costo de tokens y confidencialidad inviolable (Art. 247 CP).
    - **Primitivas:**
-     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 109 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
+     - `JevChoice`: Triage y enrutamiento inteligente que reduce el catálogo activo de 112 herramientas MCP a 3-5 pertinentes a la materia (perfil `OPENLEGAL_PROFILE=router`, ahorro >80 % de tokens de prompt por turno).
      - `JevNoul`: Compuertas binarias estrictas de validez formal: plazos fatales de caducidad laboral (Art. 168 CT: 60/90 días), prescripción civil (Arts. 2514-2515 CC), plazos constitucionales de protección (Art. 20 CPR: 30 días corridos), cómputo procesal de días hábiles judiciales (Art. 66 CPC), validación matemática de RUT Módulo 11 y facultades especiales de personería (Art. 7 inc. 2 CPC).
      - `JevScore`: Ponderación local ultrarrápida de relevancia temática.
 
@@ -146,6 +146,11 @@ Open Legal Chile implementa una arquitectura de **Doble Proceso (*Dual-Process A
    - **Archivo:** `legal_canvas.py`
    - **Filosofía:** Dashboards interactivos y micro-UIs de alta densidad de información (Thariq Shihipar / Claude Code) en un **único archivo HTML autónomo**, con CSS y SVG embebidos y **cero dependencias externas** (sin CDNs, sin npm, 100% offline y confidencial).
    - **Componentes:** Carátula procesal, línea de tiempo SVG interactiva, semáforo de riesgo y caducidad, checklist probatorio con casillas de verificación, y cajón de citas oficiales con botón *Click-to-Copy* (`[BCN - ...]`, `[CS - ...]`, `[Doctrina - ...]`).
+
+4. **🖥️ MCP Apps Interactivas (`ui://`), Streamable HTTP On-Premise y `ChileLegalBench v1.0` (`v2.0.0`):**
+   - **MCP Apps (SEP-1865 + `structuredContent`):** Tres interfaces HTML autocontenidas (`ui://open-legal-chile/{graphify,calculadoras,expediente}.html`, `<= 600 KB` c/u) accesibles mediante `app_abrir_grafo`, `app_abrir_calculadoras` y `app_abrir_expediente` dentro de clientes compatibles (Antigravity, Claude Desktop) con llamadas locales `callServerTool`.
+   - **Despliegue On-Premise (`/mcp` + Docker + `.mcpb`):** Servidor Streamable HTTP stdlib (`openlegal serve-http` / `openlegal-mcp-http`) con `Mcp-Session-Id`, SSE (`text/event-stream`), Bearer auth (`OPENLEGAL_AUTH_TOKEN`), allowlist de `Origin`, [`Dockerfile`](Dockerfile) / [`docker-compose.yml`](docker-compose.yml) (`docs/despliegue-on-premise.md`) y empaquetador `.mcpb` (`openlegal mcpb`).
+   - **Benchmark Soberano (`ChileLegalBench v1.0`):** 105 casos deterministas reproducibles offline (`openlegal bench` / [`evals/chile_legal_bench.py`](evals/chile_legal_bench.py), [`docs/chile_legal_bench.md`](docs/chile_legal_bench.md)) con 100 % de acierto en vigencia normativa BCN, plazos CPC/CT/Ley 19.880, cuantías UF/UTM, validaciones CBR/RUT/mandato, triage CPU, grounding y bloqueo de *Common Law*.
 
 ---
 
@@ -262,9 +267,9 @@ medición del ahorro en [`docs/medicion_tokens.md`](docs/medicion_tokens.md).
 
 ---
 
-## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (109 Herramientas Oficiales)
+## 🔌 4. Catálogo Exhaustivo de Herramientas MCP (112 Herramientas Oficiales)
 
-El servidor MCP expone **109 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`) categorizadas funcionalmente:
+El servidor MCP expone **112 herramientas oficiales** (con modo `OPENLEGAL_PROFILE=router` de 9 herramientas núcleo + descubrimiento dinámico `descubrir_herramientas` / `invocar_herramienta`, `structuredContent` JSON estructurado y 3 MCP Apps `ui://`) categorizadas funcionalmente:
 
 ### A. Legislación y Códigos de la República
 | Herramienta MCP | Parámetros | Descripción de Operatividad |
@@ -777,7 +782,7 @@ Open Legal Chile está licenciado bajo la **Licencia Apache 2.0** ([`LICENSE`](L
 
 ## 🎓 13. Formación Ejecutiva, Consultoría «Llave en Mano» On-Premise y Alianzas Institucionales
 
-El núcleo de **Open Legal Chile** (código fuente bajo licencia Apache 2.0, las 109 herramientas MCP, los 24 agentes autónomos, las 26 skills jurídicas y el dataset público en Hugging Face) es y seguirá siendo **100 % abierto, gratuito y soberano**. Para estudios jurídicos, gerencias legales, reparticiones públicas y facultades de Derecho que requieren capacitación especializada o despliegues corporativos privados, ofrecemos tres líneas de colaboración directa:
+El núcleo de **Open Legal Chile** (código fuente bajo licencia Apache 2.0, las 112 herramientas MCP, las 3 MCP Apps `ui://`, los 24 agentes autónomos, las 26 skills jurídicas y el dataset público en Hugging Face) es y seguirá siendo **100 % abierto, gratuito y soberano**. Para estudios jurídicos, gerencias legales, reparticiones públicas y facultades de Derecho que requieren capacitación especializada o despliegues corporativos privados, ofrecemos tres líneas de colaboración directa:
 
 ### 🏛️ Propuesta 1 — Charlas Magistrales, Bootcamps Prácticos y Capacitación In-Company / SENCE / Académica
 Programas de formación ejecutiva y talleres prácticos (*hands-on*) dirigidos a socios y asociados de estudios jurídicos, fiscalías corporativas, departamentos jurídicos del Estado, colegios de abogados y programas de postgrado:

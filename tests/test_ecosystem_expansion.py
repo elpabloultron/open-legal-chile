@@ -249,5 +249,5 @@ class TestMCPServerNewTools:
         assert len(res) >= 1
 
     def test_mcp_total_tools_count(self):
-        # 109: 100 previas + compras_publicas_*, cplt_*, diario_oficial_consultar, suseso/sernac/tta/inapi.
-        assert len(TOOLS) == 109
+        # 112: 109 previas + 3 MCP Apps interactivas ui:// (grafo, calculadoras, expediente).
+        assert len(TOOLS) == 112

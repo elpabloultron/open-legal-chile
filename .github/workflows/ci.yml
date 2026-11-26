@@ -258,6 +258,8 @@ jobs:
                           "params": {"name": "skills_listar", "arguments": {}}}),
               json.dumps({"jsonrpc": "2.0", "id": 4, "method": "resources/read",
                           "params": {"uri": "openlegal://reglas/citacion"}}),
+              json.dumps({"jsonrpc": "2.0", "id": 5, "method": "resources/read",
+                          "params": {"uri": "ui://open-legal-chile/graphify.html"}}),
           ]) + "\n"
           # openlegal-chile: alias con el nombre del paquete (uvx openlegal-chile / registro MCP)
           corrida = subprocess.run(["/tmp/limpio/bin/openlegal-chile"], input=peticiones,
@@ -268,16 +270,19 @@ jobs:
           catalogo = json.loads(respuestas[3]["result"]["content"][0]["text"])
           assert respuestas[1]["result"].get("instructions"), "initialize sin instructions"
           # Skills, agentes y protocolo viajan como data-files (hasta 1.13.0 el wheel no los llevaba)
-          assert len(catalogo["skills"]) >= 18, catalogo
-          assert len(catalogo["agentes"]) >= 19, catalogo
+          assert len(catalogo["skills"]) >= 26, catalogo
+          assert len(catalogo["agentes"]) >= 24, catalogo
           assert "Protocolo no disponible" not in respuestas[4]["result"]["contents"][0]["text"]
+          ui_app = respuestas[5]["result"]["contents"][0]
+          assert ui_app["mimeType"] == "text/html;profile=mcp-app", ui_app.get("mimeType")
 
-          assert len(herramientas) == 95, f"{len(herramientas)} herramientas en el paquete instalado"
+          assert len(herramientas) == 112, f"{len(herramientas)} herramientas en el paquete instalado"
           for nombre in ("consulta_maestra", "cita_texto", "huggingface_search_dataset", "bcn_get_codigo",
                          "suite_doctor", "busqueda_universal", "skills_listar", "skill_ver",
                          "critique_documento", "generar_documento", "entrevista_estudio",
                          "ocr_plan_documento", "suite_instalar", "jurimetria_analizar_corpus",
-                         "jurimetria_exportar_investigacion"):
+                         "jurimetria_exportar_investigacion", "app_abrir_grafo",
+                         "app_abrir_calculadoras", "app_abrir_expediente"):
               assert nombre in herramientas, f"falta {nombre}"
           print(f"MCP OK: {len(herramientas)} herramientas")
           PY
@@ -293,7 +298,7 @@ jobs:
           datos = json.loads(texto[texto.index("{"):])
           assert datos["harnesses"] == ["claude-code"], datos
           assert datos["doctor"]["estado"] in ("ok", "degradado"), datos
-          assert datos["herramientas"] == 95, datos
+          assert datos["herramientas"] == 112, datos
           assert pathlib.Path("/tmp/proyecto/.mcp.json").exists(), "no escribió la configuración"
           print("instalar OK:", datos["harnesses"], "·", datos["doctor"]["estado"])
           PY
@@ -307,6 +312,17 @@ jobs:
           assert res["promedio_score"] >= 9.0, f"RAG score bajo umbral: {res}"
           assert res["hf_link_integrity_pct"] == 100.0, f"Enlaces HF incompletos: {res}"
           print(f"RAG Gate OK: {res['promedio_score']}/10.0 ({res['hf_link_integrity_pct']}% HF links)")
+          PY
+
+      - name: Compuerta ChileLegalBench v1.0 (105 casos deterministas)
+        run: |
+          PYTHONPATH=. /tmp/limpio/bin/python - <<'PY'
+          from evals.chile_legal_bench import ejecutar_benchmark
+
+          res = ejecutar_benchmark()
+          assert res["total_casos"] == 105 and res["aprobados"] == 105, res
+          assert res["puntaje_global_pct"] == 100.0, res
+          print(f"ChileLegalBench Gate OK: {res['aprobados']}/{res['total_casos']} ({res['puntaje_global_pct']}%)")
           PY
 
   harness:
@@ -334,7 +350,9 @@ jobs:
             tests/test_esquemas_portables.py tests/test_plugin_claude.py tests/test_integrar_harness.py
 
       - name: Los agentes del plugin están sincronizados con los JSON
-        run: python scripts/generar_agentes_plugin.py --check
+        run: |
+          python scripts/generar_agentes_plugin.py --check
+          python scripts/empaquetar_mcpb.py --check
 
       - name: Claude Code valida el plugin y el marketplace
         run: |

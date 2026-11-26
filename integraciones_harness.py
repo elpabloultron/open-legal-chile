@@ -498,7 +498,7 @@ def instalar_plugin_harness(
         regla = raiz_cur / "rules" / f"{SERVIDOR}.mdc"
         cab = (
             "---\n"
-            "description: Open Legal Chile — Derecho Continental de Chile (109 herramientas MCP y protocolo de citas)\n"
+            "description: Open Legal Chile — Derecho Continental de Chile (112 herramientas MCP y protocolo de citas)\n"
             "alwaysApply: true\n"
             "---\n\n"
         )

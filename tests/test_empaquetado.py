@@ -128,6 +128,11 @@ def test_las_skills_agentes_y_protocolo_viajan_como_data_files():
     assert "agents/*.json" in data_files[f"{destino}/agents"]
     assert "agents/*.md" in data_files[f"{destino}/agents"]
     assert "docs/integracion-harness.md" in data_files[f"{destino}/docs"]
+    assert data_files.get(f"{destino}/mcp_apps") == [
+        "mcp_apps/graphify.html",
+        "mcp_apps/calculadoras.html",
+        "mcp_apps/expediente.html",
+    ]
     for carpeta in sorted((RAIZ / ".agents" / "skills").iterdir()):
         if (carpeta / "SKILL.md").exists():
             clave = f"{destino}/.agents/skills/{carpeta.name}"
@@ -140,6 +145,7 @@ def test_el_ejecutable_se_llama_como_el_paquete():
     paquete; sin el alias, fallaban con «no executable named openlegal-chile»."""
     scripts = _setuptools_cfg()["project"]["scripts"]
     assert scripts["openlegal-chile"] == scripts["openlegal-mcp"] == "mcp_server:main"
+    assert scripts["openlegal-mcp-http"] == "mcp_http_server:main"
 
 
 def test_ruta_recurso_encuentra_la_copia_instalada(tmp_path, monkeypatch):

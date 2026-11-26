@@ -1,0 +1,13 @@
+{
+  "name": "open-legal-chile-mcp-apps",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/ext-apps": "^2.0.0",
+    "esbuild": "^0.25.0"
+  }
+}

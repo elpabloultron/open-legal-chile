@@ -165,3 +165,7 @@ investigacion_academica/*.pdf
 
 # Exportaciones columnares Apache Parquet (se generan con scripts/exportar_parquet_hf.py y se publican en Hugging Face)
 data/parquet/
+
+# Dependencias Node de compilación para MCP Apps (los HTML compilados sí viven en mcp_apps/) y artefactos MCPB locales
+web_apps/node_modules/
+*.mcpb

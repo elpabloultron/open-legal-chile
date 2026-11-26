@@ -59,6 +59,7 @@ MARCAS_DE_PROHIBICION = (
 ARCHIVOS_QUE_DETECTAN = {
     "critique.py": ('"discovery"', '"punitive damages"', '"grand jury"'),
     "evals/test_cases.json": ('"punitive damages"', '"subpoena"', '"discovery"'),
+    "evals/chile_legal_bench_dataset.json": ("punitive damages", "subpoena", "discovery"),
     "promptfooconfig.yaml": ('"punitive damages"', '"subpoena"', '"discovery"'),
     "tests/test_chat_and_critique.py": ("discovery", "punitive damages"),
     "tests/test_legal_design.py": (

@@ -18,11 +18,13 @@ Este repositorio es una suite de inteligencia jurídica y servidor Model Context
 
 ```
 open-legal-chile/
-├── mcp_server.py             # Servidor MCP JSON-RPC 2.0 sobre stdio: protocolo, perfiles y ensamblado (109 herramientas)
+├── mcp_server.py             # Servidor MCP JSON-RPC 2.0 sobre stdio: protocolo, perfiles y ensamblado (112 herramientas)
+├── mcp_http_server.py        # Servidor MCP Streamable HTTP on-premise (/mcp POST/GET SSE/DELETE, /health, Bearer auth)
+├── mcp_apps/                 # 3 MCP Apps interactivas ui:// compiladas en HTML autocontenido (web_apps/ + mcp_apps_engine.py)
 ├── servidor/                 # Esquemas y despacho de las herramientas, un módulo por dominio
 │   ├── conectores.py         # BCN, CGR, DT, CNE, Panel, CMF, SII, SMA, TDLC, PJUD
 │   ├── corpus.py · forense.py · casos.py · ambiental.py · suite.py
-├── openlegal.py              # CLI (openlegal mcp | doctor | instalar | integrar | …)
+├── openlegal.py              # CLI (openlegal mcp | serve-http | mcpb | bench | doctor | instalar | integrar | …)
 ├── integraciones_harness.py  # Config MCP por harness (Claude Code/Desktop, Cursor, VS Code, Gemini, Codex, …)
 ├── diagnostico.py            # `openlegal doctor` / herramienta suite_doctor
 ├── recursos.py               # Ubica skills, agentes y AGENTS.md (repo o share/openlegal-chile instalado)

@@ -9,6 +9,19 @@ import sys
 from typing import Dict, Any, Optional
 from chat_engine import LegalChatEngine
 
+_TERMINOS_COMMON_LAW_PROHIBIDOS = (
+    "at-will",
+    "punitive damages",
+    "treble damages",
+    "discovery",
+    "subpoena",
+    "grand jury",
+    "summary judgment",
+    "title vii",
+    "flsa",
+    "osha",
+)
+
 
 def _descripcion_de_hechos(texto: str) -> str:
     """El bloque de hechos del documento ('' si no hay capítulo identificable)."""
@@ -116,7 +129,7 @@ def verificar_citas_escrito(texto: str, consultar_bcn: bool = True, max_normas: 
 
     t_lower = (texto or "").lower()
     common_law = [
-        term for term in ["at-will", "punitive damages", "discovery", "subpoena", "grand jury", "summary judgment"]
+        term for term in _TERMINOS_COMMON_LAW_PROHIBIDOS
         if term in t_lower
     ]
     normas = detectar_normas(texto or "")
@@ -367,7 +380,7 @@ class LegalCritiqueEngine:
 
         # 2. Control de Citas sin Transcripción Literal, Artículos Imposibles y Common Law
         common_law_hits = [
-            term for term in ["at-will", "punitive damages", "discovery", "subpoena", "grand jury", "summary judgment"]
+            term for term in _TERMINOS_COMMON_LAW_PROHIBIDOS
             if term in t_lower
         ]
         if common_law_hits:

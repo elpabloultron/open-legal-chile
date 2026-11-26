@@ -108,7 +108,7 @@ No hace falta nombrar una herramienta ni escribir un comando: se pide como se le
 | «Es un caso ambiental» · «Mirá la sanción de la SMA» · «¿Qué dijo el Tribunal Ambiental?» | Se llama el módulo `ambiental_consulta_maestra`: sentencias TA, anuarios, boletines, biblioteca ambiental y doctrina, con texto literal |
 
 El agente **debe** usar `caso_analizar` ante esos pedidos, aunque la persona no nombre ninguna
-herramienta: así el trabajo no depende de que el modelo elija bien entre 109 herramientas. Y cuando
+herramienta: así el trabajo no depende de que el modelo elija bien entre 112 herramientas. Y cuando
 la mesa dice que falta algo (el Rol/RIT, las fechas, el RUT), eso se le pide a la persona **antes**
 de ejecutar: no se completa por deducción.
 
@@ -116,8 +116,8 @@ de ejecutar: no se completa por deducción.
 ClaveÚnica y captcha: la suite no automatiza el acceso a un sistema con credenciales personales. La
 mesa lo dice en sus advertencias y no expone ninguna herramienta que prometa lo contrario.
 
-## 3. Capabilities Summary (109 MCP Tools · 26 Skills · 24 Agents)
-Run locally via `openlegal-mcp` (STDIO, *Zero Data Leak*; supports `OPENLEGAL_PROFILE=router` with `descubrir_herramientas` and `invocar_herramienta`). Use `skills_listar`, `agent_list`, `suite_doctor`, or read the complete tool/skill/agent reference in [docs/referencia-herramientas.md](docs/referencia-herramientas.md).
+## 3. Capabilities Summary (112 MCP Tools · 3 MCP Apps `ui://` · 26 Skills · 24 Agents)
+Run locally via `openlegal-mcp` (STDIO, *Zero Data Leak*; supports `OPENLEGAL_PROFILE=router` with `descubrir_herramientas` and `invocar_herramienta`) or on-premise via `openlegal-mcp-http` (Streamable HTTP + Bearer auth + Docker). Use `skills_listar`, `agent_list`, `suite_doctor`, `app_abrir_*`, or read the complete tool/skill/agent reference in [docs/referencia-herramientas.md](docs/referencia-herramientas.md).
 
 * **Protocol, Documents & Intake:** `consulta_maestra`, `ambiental_consulta_maestra`, `cita_texto`, `caso_analizar`, `caso_ejecutar`, `busqueda_universal`, `critique_documento`, `generar_documento` (Word `.docx`), `docx_aplicar_redline`, `suite_doctor`.
 * **Law & 10 State Agencies:** `bcn_get_codigo`, `bcn_get_ley` (+ `_historico`, `bcn_comparar_versiones`, vigencia), `pjud_*` (+ Baremo), `dt_search_doctrina`, `cgr_*`, `sii_*`, `indicadores_economicos_chile`, `cmf_*`, `sma_search_sancionatorios`, `ambiental_buscar_jurisprudencia`, `tdlc_*`, `cne_get_centrales_y_proyectos`, `panel_expertos_search`, `infoprobidad_get_dip`, `entes_consultar_organo`, `rut_validar_chile`.

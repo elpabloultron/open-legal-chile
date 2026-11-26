@@ -45,11 +45,11 @@ jobs:
 
       - name: 3. Semantic SAST Scan (semgrep/semgrep)
         run: |
-          semgrep scan --config "p/security-audit" --config "p/python" --exclude tests --exclude .venv --exclude doctrina_raw --exclude exports --metrics=off --error
+          semgrep scan --config "p/security-audit" --config "p/python" --exclude tests --exclude .venv --exclude doctrina_raw --exclude exports --exclude mcp_apps --exclude web_apps --metrics=off --error
 
       - name: 4. Secret & Credential Leak Audit (Yelp/detect-secrets)
         run: |
-          detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|exports|\.pytest_cache|skills-lock\.json|docs/medicion_tokens\..*|mapa_corpus/puntero\.json|tests/fixtures/mapa/.*)'
+          detect-secrets scan --exclude-files '(\.git|\.venv|doctrina_raw|exports|\.pytest_cache|skills-lock\.json|docs/medicion_tokens\..*|mapa_corpus/puntero\.json|tests/fixtures/mapa/.*|mcp_apps/.*|web_apps/package-lock\.json)'
 
       - name: 5. Strict Type Checking (python/mypy)
         run: |

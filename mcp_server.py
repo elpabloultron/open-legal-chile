@@ -423,10 +423,14 @@ ORDEN_ORIGEN: List[str] = [
     "sernac_buscar_consumidor",
     "tta_buscar_sentencias",
     "inapi_buscar_marcas",
+    "app_abrir_grafo",
+    "app_abrir_calculadoras",
+    "app_abrir_expediente",
 ]
 if sorted(_POR_NOMBRE) != sorted(ORDEN_ORIGEN):
     raise RuntimeError("servidor/: los dominios no cubren exactamente las herramientas esperadas")
-TOOLS: List[Dict[str, Any]] = [_POR_NOMBRE[_n] for _n in ORDEN_ORIGEN]
+from mcp_apps_engine import enriquecer_herramientas_ui as _enriquecer_ui
+TOOLS: List[Dict[str, Any]] = _enriquecer_ui([_POR_NOMBRE[_n] for _n in ORDEN_ORIGEN])
 
 # Metadatos de anotaciones oficiales MCP (readOnlyHint / openWorldHint) para Claude Opus y harnesses
 _HERRAMIENTAS_ESCRITURA = {
@@ -913,7 +917,9 @@ PROMPTS: List[Dict[str, Any]] = [
 ]
 
 
-def _recursos_disponibles() -> List[Dict[str, str]]:
+def _recursos_disponibles() -> List[Dict[str, Any]]:
+    from mcp_apps_engine import listar_recursos_ui
+
     return [
         {"uri": "openlegal://reglas/citacion", "name": "Protocolo de citación (§2 quater)",
          "description": "Cómo se responde y se cita: Hugging Face primero, texto literal obligatorio.",
@@ -924,10 +930,14 @@ def _recursos_disponibles() -> List[Dict[str, str]]:
         {"uri": "openlegal://reglas/integracion", "name": "Integración por harness",
          "description": "Comando por cliente (Antigravity, Claude Code, Cursor, VS Code, Codex, dsh) y verificación.",
          "mimeType": "text/markdown"},
-    ]
+    ] + listar_recursos_ui()
 
 
-def _leer_recurso(uri: str) -> Optional[Dict[str, str]]:
+def _leer_recurso(uri: str) -> Optional[Dict[str, Any]]:
+    if uri.startswith("ui://"):
+        from mcp_apps_engine import leer_recurso_ui
+
+        return leer_recurso_ui(uri)
     if uri == "openlegal://reglas/citacion":
         return {"uri": uri, "mimeType": "text/markdown", "text": _texto_protocolo()}
     if uri == "openlegal://catalogo/herramientas":
@@ -1024,7 +1034,7 @@ TOOL_PROFILES: Dict[str, List[str]] = {
 def get_active_tools(profile_name: Optional[str] = None) -> List[Dict[str, Any]]:
     """Devuelve las herramientas activas según el perfil solicitado o la variable OPENLEGAL_PROFILE.
 
-    Perfiles temáticos y `router` reducen el contexto inicial; `"full"`, `"completo"` o vacío cargan las 109 herramientas.
+    Perfiles temáticos y `router` reducen el contexto inicial; `"full"`, `"completo"` o vacío cargan las 112 herramientas.
     """
     prof = (profile_name or os.environ.get("OPENLEGAL_PROFILE") or "").lower().strip()
     if prof and prof not in ("full", "completo") and prof in TOOL_PROFILES:
@@ -1161,7 +1171,7 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
                 "serverInfo": {
                     "name": "open-legal-chile-mcp",
                     "title": "Open Legal Chile",
-                    "version": "1.19.0"
+                    "version": "2.0.0"
                 },
                 "instructions": INSTRUCCIONES,
             })
@@ -1214,7 +1224,13 @@ def procesar_mensaje(req: Any, tools_to_expose: List[Dict[str, Any]]) -> Optiona
                 payload_text = json.dumps(res, ensure_ascii=False, indent=2)
             else:
                 payload_text = json.dumps(res, ensure_ascii=False, separators=(',', ':'))
-            return _resultado(req_id, {"content": [{"type": "text", "text": payload_text}], "isError": is_error})
+            respuesta_tool: Dict[str, Any] = {
+                "content": [{"type": "text", "text": payload_text}],
+                "isError": is_error,
+            }
+            if isinstance(res, dict) and not is_error and len(payload_text.encode("utf-8")) <= 900_000:
+                respuesta_tool["structuredContent"] = res
+            return _resultado(req_id, respuesta_tool)
         return _error(req_id, -32601, f"Método no encontrado: {method}")
     except Exception as e:  # noqa: BLE001 — un error de una petición no puede tumbar el servidor
         return _error(req_id, -32603, str(e))

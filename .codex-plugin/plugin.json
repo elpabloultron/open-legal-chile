@@ -1,6 +1,6 @@
 {
   "name": "open-legal-chile",
-  "version": "1.19.0",
+  "version": "2.0.0",
   "description": "Chilean Civil Law suite: 109 local-first MCP tools, official Chilean state & open-data connectors (BCN, PJUD, CGR, DT, SII, CMF, SMA, TDLC, CNE, ChileCompra, CPLT, Diario Oficial, SUSESO, SERNAC, TTA, INAPI), 26 skills, and 24 legal agents.",
   "author": {
     "name": "Pablo Benavides Jorquera",

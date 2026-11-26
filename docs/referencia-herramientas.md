@@ -1,6 +1,6 @@
 # Open Legal Chile — Referencia Completa de Herramientas, Skills y Agentes
 
-Catálogo completo de las **109 herramientas MCP**, **26 skills jurídicas** (`.agents/skills/`) y **24 agentes autónomos** (`agents/*.json`) de Open Legal Chile. Consultar también `skills_listar`, `agent_list`, `suite_doctor` o `descubrir_herramientas` (en perfil `OPENLEGAL_PROFILE=router`).
+Catálogo completo de las **112 herramientas MCP** (incluyendo 3 **MCP Apps interactivas `ui://`**), **26 skills jurídicas** (`.agents/skills/`) y **24 agentes autónomos** (`agents/*.json`) de Open Legal Chile. Consultar también `skills_listar`, `agent_list`, `suite_doctor` o `descubrir_herramientas` (en perfil `OPENLEGAL_PROFILE=router`).
 
 ---
 
@@ -67,6 +67,7 @@ Catálogo completo de las **109 herramientas MCP**, **26 skills jurídicas** (`.
 42. `caso_analizar`, `caso_ejecutar`, `entrevista_estudio`.
 43. `agent_list`, `agent_run`, `agent_export_subagents`.
 44. `suite_doctor`, `suite_instalar`, `suite_telemetria_stats`, `suite_verificar_actualizacion`, `suite_auto_update`, `skills_listar`, `skill_ver`, `descubrir_herramientas`, `invocar_herramienta`.
+45. `app_abrir_grafo`, `app_abrir_calculadoras`, `app_abrir_expediente`: Lanza vistas HTML interactivas `ui://open-legal-chile/{graphify,calculadoras,expediente}.html` (SEP-1865 + `structuredContent`).
 
 ---
 

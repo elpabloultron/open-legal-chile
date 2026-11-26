@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "open-legal-chile",
-      "version": "1.19.0",
+      "version": "2.0.0",
       "source": "./",
       "description": "Suite jurídica completa para el Derecho Continental de Chile: 109 herramientas MCP locales (uvx), conectores estatales y de datos abiertos (BCN, PJUD, CGR, DT, SII, CMF, SMA, TDLC, CNE, Mercado Público, CPLT, Diario Oficial, SUSESO, SERNAC, TTA, INAPI), 26 skills y 24 agentes."
     }

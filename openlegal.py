@@ -140,15 +140,18 @@ Ejemplos de uso:
   openlegal update            -> Comprueba y ejecuta la auto-actualización de la Suite
   openlegal ambiental "..."   -> Módulo especial de derecho ambiental (sentencias, anuarios, boletines y biblioteca)
   openlegal graph "..."       -> Consulta el Knowledge Graph (LegalGraphify) con ahorro mediano de tokens del 99,9 %
-  openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (19 perfiles)
+  openlegal agent [list|run]  -> Orquesta agentes jurídicos autónomos especializados (24 perfiles)
   openlegal caso <texto/ruta> -> Abre o crea expediente local con ingesta MD y subgrafo del caso
   openlegal vector "..."      -> Búsqueda semántica híbrida en los 9 Códigos y CPR (Dense + BM25)
-  openlegal plugin instalar   -> Instala el Plugin completo (MCP + 21 skills + 19 agentes + reglas) en tu harness
+  openlegal plugin instalar   -> Instala el Plugin completo (MCP + 26 skills + 24 agentes + reglas) en tu harness
   openlegal integrar          -> Muestra y escribe la configuración MCP de tu harness (--escribir)
+  openlegal serve-http        -> Inicia el servidor MCP Streamable HTTP on-premise (Zero Data Leak)
+  openlegal mcpb              -> Valida y empaqueta la extensión 1-clic `.mcpb` para Desktop
+  openlegal bench             -> Ejecuta el benchmark reproducible ChileLegalBench v1.0 (105 casos)
   openlegal ci                -> Supervisa GitHub Actions y auto-repara fallos en CI
         """
     )
-    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "chat", "check", "doctor", "instalar", "plugin", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents", "caso", "vector", "ci"], help="Comando a ejecutar")
+    parser.add_argument("comando", nargs="?", default="menu", choices=["menu", "mcp", "serve-http", "mcpb", "bench", "chat", "check", "doctor", "instalar", "plugin", "integrar", "ocr", "search", "skills", "export", "critique", "generate", "grado", "vigilar", "clinica", "interview", "arco", "inapi", "audit", "doctrina", "guias", "ambiental", "stats", "update", "cache", "graph", "agent", "agents", "caso", "vector", "ci"], help="Comando a ejecutar")
     parser.add_argument("query", nargs="*", help="Términos de búsqueda si usas 'search', archivo para 'critique' o tipo para 'generate'")
     parser.add_argument("--provider", type=str, default=None, help="Proveedor de IA (gemini, anthropic, deepseek, openai, ollama). Si se omite, se detecta automáticamente.")
     parser.add_argument("--buscar", type=str, help="Búsqueda jurídica universal")
@@ -162,13 +165,42 @@ Ejemplos de uso:
     parser.add_argument("--grafo", action="store_true", help="Con 'ambiental': añade el subgrafo de LegalGraphify con su ahorro de tokens (la primera consulta carga su índice)")
     parser.add_argument("--refrescar", action="store_true", help="Con 'cache': baja del hub las revisiones nuevas de lo ya cacheado; con 'cache mapa': descarga y verifica el mapa del corpus")
     parser.add_argument("--forzar", action="store_true", help="Con 'cache --refrescar': vuelve a bajar todo lo cacheado, aunque no haya cambiado")
-    parser.add_argument("--profile", type=str, default=None, help="Con 'mcp': perfil temático de herramientas (laboral, litigios, regulatorio…); también OPENLEGAL_PROFILE")
+    parser.add_argument("--profile", type=str, default=None, help="Con 'mcp'/'serve-http': perfil temático de herramientas (router, full, laboral…); también OPENLEGAL_PROFILE")
+    parser.add_argument("--host", type=str, default="127.0.0.1", help="Con 'serve-http': interfaz de escucha (defecto 127.0.0.1)")
+    parser.add_argument("--port", type=int, default=8765, help="Con 'serve-http': puerto TCP (defecto 8765)")
+    parser.add_argument("--out", type=str, default="", help="Con 'mcpb': ruta del archivo .mcpb de salida")
+    parser.add_argument("--categoria", type=str, default="", help="Con 'bench': filtrar una categoría de ChileLegalBench")
+    parser.add_argument("--md-out", type=str, default="", help="Con 'bench': ruta de reporte Markdown")
+    parser.add_argument("--json-out", type=str, default="", help="Con 'bench': ruta de reporte JSON")
     args = parser.parse_args()
 
     if args.comando == "mcp":
         import mcp_server
         mcp_server.main()
         return
+
+    if args.comando == "serve-http":
+        import mcp_http_server
+        argv_http = ["--host", args.host, "--port", str(args.port)]
+        if args.profile:
+            argv_http += ["--profile", args.profile]
+        raise SystemExit(mcp_http_server.main(argv_http))
+
+    if args.comando == "mcpb":
+        from scripts.empaquetar_mcpb import main as mcpb_main
+        argv_mcpb = ["--out", args.out] if args.out else ["--check"]
+        raise SystemExit(mcpb_main(argv_mcpb))
+
+    if args.comando == "bench":
+        from evals.chile_legal_bench import main as bench_main
+        argv_bench = []
+        if args.categoria:
+            argv_bench += ["--categoria", args.categoria]
+        if args.md_out:
+            argv_bench += ["--md-out", args.md_out]
+        if args.json_out:
+            argv_bench += ["--json-out", args.json_out]
+        raise SystemExit(bench_main(argv_bench))
 
     # Comprobar actualizaciones en segundo plano (no intrusivo)
     try:
@@ -267,7 +299,7 @@ Ejemplos de uso:
 
         if sub not in ("instalar", "install"):
             print_banner()
-            print("\n🧩 PLUGIN COMPLETO OPEN LEGAL CHILE (MCP + 21 skills + 19 agentes + reglas chilenas)\n")
+            print("\n🧩 PLUGIN COMPLETO OPEN LEGAL CHILE (MCP + 26 skills + 24 agentes + reglas chilenas)\n")
             print("Comandos de instalación en 1 paso:")
             print("  • Auto-detectar harnesses : openlegal plugin instalar")
             print("  • Google Antigravity      : openlegal plugin instalar antigravity")

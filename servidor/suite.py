@@ -105,6 +105,45 @@ TOOLS = [
             "required": ["nombre"]
         }
     },
+    {
+        "name": "app_abrir_grafo",
+        "description": "Abre el explorador visual interactivo LegalGraphify (MCP App ui://) con el resumen de comunidades o un subgrafo inicial por consulta.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Concepto jurídico o norma inicial (opcional; si se omite muestra el panorama por comunidades)"},
+                "max_hops": {"type": "integer", "description": "Radio de saltos en el subgrafo", "default": 1},
+                "top_n": {"type": "integer", "description": "Número de comunidades a mostrar cuando no hay consulta", "default": 8}
+            }
+        }
+    },
+    {
+        "name": "app_abrir_calculadoras",
+        "description": "Abre la estación interactiva de Calculadoras Forenses Deterministas (MCP App ui://): plazos procesales Chile, finiquito CT, cuantías y UF/UTM SII.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "vista": {
+                    "type": "string",
+                    "enum": ["plazos", "finiquito", "cuantias", "indicadores"],
+                    "description": "Pestaña inicial de calculadora (opcional)",
+                    "default": "plazos"
+                }
+            }
+        }
+    },
+    {
+        "name": "app_abrir_expediente",
+        "description": "Abre el Tablero Forense de Causa y Proveídos OJV (MCP App ui://) para analizar expedientes o resoluciones judiciales con Compuerta Jurídica.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "entrada": {"type": "string", "description": "Relato del caso, ruta de expediente o consulta inicial (opcional)"},
+                "tipo": {"type": "string", "enum": ["carpeta", "texto", "consulta"], "description": "Tipo de entrada (opcional)"},
+                "consulta": {"type": "string", "description": "Objetivo jurídico específico (opcional)"}
+            }
+        }
+    },
 ]
 
 
@@ -273,6 +312,48 @@ def despachar(name: str, args: dict) -> Any:
         if not callable(despachador_raiz):
             return {"error": "Servidor MCP no disponible para despacho dinámico."}
         return despachador_raiz(objetivo, sub_args)
+    elif name == "app_abrir_grafo":
+        from config import servidor_actual
+
+        motor = getattr(servidor_actual(), "legal_graphify_engine", None)
+        if motor is None:
+            from legal_graphify import LegalGraphifyEngine
+
+            motor = LegalGraphifyEngine()
+        q = str(args.get("query") or "").strip()
+        if q:
+            return motor.consultar_subgrafo(q, max_hops=int(args.get("max_hops") or 1))
+        return motor.resumen_por_comunidades(top_n=int(args.get("top_n") or 8))
+    elif name == "app_abrir_calculadoras":
+        from datetime import date
+        from calculadoras_chile import feriados_chile
+
+        vista = str(args.get("vista") or "plazos").strip().lower()
+        if vista not in ("plazos", "finiquito", "cuantias", "indicadores"):
+            vista = "plazos"
+        anio_hoy = date.today().year
+        return {
+            "vista": vista,
+            "anio": anio_hoy,
+            "total_feriados_anio": len(feriados_chile(anio_hoy)),
+            "calculadoras": ["plazos", "finiquito", "cuantias", "indicadores"],
+        }
+    elif name == "app_abrir_expediente":
+        from config import servidor_actual
+
+        entrada = str(args.get("entrada") or "").strip()
+        if entrada:
+            ci = getattr(servidor_actual(), "case_intake", None)
+            if ci is not None:
+                return ci.caso_analizar(entrada, args.get("tipo"), args.get("consulta", ""))
+            import case_intake as ci_mod
+
+            return ci_mod.caso_analizar(entrada, args.get("tipo"), args.get("consulta", ""))
+        return {
+            "guia_inicial": True,
+            "mensaje": "Ingrese un relato de caso, carpeta de expediente o texto de proveído OJV para iniciar el tablero.",
+            "herramientas_disponibles": ["caso_analizar", "vigilante_analizar_resolucion"],
+        }
     return None
 
 

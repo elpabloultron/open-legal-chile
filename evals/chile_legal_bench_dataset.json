@@ -1,0 +1,1564 @@
+[
+  {
+    "id": "vig-01",
+    "categoria": "vigencia_normativa",
+    "titulo": "Ley 21.719 en vacancia antes del 15-10-2027",
+    "entrada": {
+      "data": {},
+      "hoy": "2026-11-26",
+      "numero_ley": 21719
+    },
+    "esperado": {
+      "estado": "vacancia_legal",
+      "fecha_entrada_vigencia": "2027-10-15",
+      "contiene_aviso": "21.855"
+    }
+  },
+  {
+    "id": "vig-02",
+    "categoria": "vigencia_normativa",
+    "titulo": "Ley 21.719 un día antes de entrada en vigor",
+    "entrada": {
+      "data": {},
+      "hoy": "2027-10-14",
+      "numero_ley": 21719
+    },
+    "esperado": {
+      "estado": "vacancia_legal",
+      "fecha_entrada_vigencia": "2027-10-15"
+    }
+  },
+  {
+    "id": "vig-03",
+    "categoria": "vigencia_normativa",
+    "titulo": "Ley 21.719 ya vigente desde 15-10-2027",
+    "entrada": {
+      "data": {
+        "derogado": "no"
+      },
+      "hoy": "2027-10-15",
+      "numero_ley": 21719
+    },
+    "esperado": {
+      "estado": "vigente"
+    }
+  },
+  {
+    "id": "vig-04",
+    "categoria": "vigencia_normativa",
+    "titulo": "Ley 21.855 publicada el 23-11-2026 vigente",
+    "entrada": {
+      "data": {
+        "derogado": "no",
+        "fechaPublicacion": "2026-11-23"
+      },
+      "hoy": "2026-11-26",
+      "numero_ley": 21855
+    },
+    "esperado": {
+      "estado": "vigente"
+    }
+  },
+  {
+    "id": "vig-05",
+    "categoria": "vigencia_normativa",
+    "titulo": "Ley Karin 21.643 vigente",
+    "entrada": {
+      "data": {
+        "derogado": "no"
+      },
+      "hoy": "2026-11-26",
+      "numero_ley": 21643
+    },
+    "esperado": {
+      "estado": "vigente"
+    }
+  },
+  {
+    "id": "vig-06",
+    "categoria": "vigencia_normativa",
+    "titulo": "Ley 40 Horas 21.561 vigente",
+    "entrada": {
+      "data": {
+        "derogado": "no"
+      },
+      "hoy": "2026-11-26",
+      "numero_ley": 21561
+    },
+    "esperado": {
+      "estado": "vigente"
+    }
+  },
+  {
+    "id": "vig-07",
+    "categoria": "vigencia_normativa",
+    "titulo": "Ley Delitos Económicos 21.595 vigente",
+    "entrada": {
+      "data": {
+        "derogado": "no"
+      },
+      "hoy": "2026-11-26",
+      "numero_ley": 21595
+    },
+    "esperado": {
+      "estado": "vigente"
+    }
+  },
+  {
+    "id": "vig-08",
+    "categoria": "vigencia_normativa",
+    "titulo": "Ley Cumplimiento Tributario 21.713 vigente",
+    "entrada": {
+      "data": {
+        "derogado": "no"
+      },
+      "hoy": "2026-11-26",
+      "numero_ley": 21713
+    },
+    "esperado": {
+      "estado": "vigente"
+    }
+  },
+  {
+    "id": "vig-09",
+    "categoria": "vigencia_normativa",
+    "titulo": "Norma derogada en BCN",
+    "entrada": {
+      "data": {
+        "derogado": "sí (Ley 19.999)"
+      },
+      "hoy": "2026-11-26",
+      "numero_ley": 18000
+    },
+    "esperado": {
+      "estado": "derogada",
+      "contiene_aviso": "derogada"
+    }
+  },
+  {
+    "id": "vig-10",
+    "categoria": "vigencia_normativa",
+    "titulo": "Norma BCN con fechaVersion futura",
+    "entrada": {
+      "data": {
+        "derogado": "no",
+        "fechaVersion": "2028-03-01"
+      },
+      "hoy": "2026-11-26",
+      "numero_ley": 29999
+    },
+    "esperado": {
+      "estado": "vacancia_legal",
+      "fecha_entrada_vigencia": "2028-03-01"
+    }
+  },
+  {
+    "id": "plz-01",
+    "categoria": "plazos_procesales",
+    "titulo": "Término ordinario civil 15 días (Art. 258/66 CPC) con 8-dic feriado",
+    "entrada": {
+      "fecha_notificacion": "2026-11-26",
+      "plazo_dias": 15,
+      "regimen": "judicial_cpc"
+    },
+    "esperado": {
+      "regimen": "judicial_cpc",
+      "min_feriados": 1,
+      "fecha_vencimiento": "2026-12-15"
+    }
+  },
+  {
+    "id": "plz-02",
+    "categoria": "plazos_procesales",
+    "titulo": "Reposición civil 5 días hábiles",
+    "entrada": {
+      "fecha_notificacion": "2026-11-23",
+      "plazo_dias": 5,
+      "regimen": "judicial_cpc"
+    },
+    "esperado": {
+      "regimen": "judicial_cpc",
+      "fecha_vencimiento": "2026-11-28"
+    }
+  },
+  {
+    "id": "plz-03",
+    "categoria": "plazos_procesales",
+    "titulo": "Apelación sentencia definitiva 10 días hábiles",
+    "entrada": {
+      "fecha_notificacion": "2026-11-16",
+      "plazo_dias": 10,
+      "regimen": "judicial_cpc"
+    },
+    "esperado": {
+      "regimen": "judicial_cpc",
+      "fecha_vencimiento": "2026-11-27"
+    }
+  },
+  {
+    "id": "plz-04",
+    "categoria": "plazos_procesales",
+    "titulo": "Reposición administrativa 5 días lun-vie (Art. 25 Ley 19.880)",
+    "entrada": {
+      "fecha_notificacion": "2026-11-26",
+      "plazo_dias": 5,
+      "regimen": "administrativo"
+    },
+    "esperado": {
+      "regimen": "administrativo",
+      "fecha_vencimiento": "2026-12-03"
+    }
+  },
+  {
+    "id": "plz-05",
+    "categoria": "plazos_procesales",
+    "titulo": "Recurso de Protección 30 días corridos (Art. 20 CPR)",
+    "entrada": {
+      "fecha_notificacion": "2026-11-01",
+      "plazo_dias": 30,
+      "regimen": "corridos"
+    },
+    "esperado": {
+      "regimen": "corridos",
+      "fecha_vencimiento": "2026-12-01"
+    }
+  },
+  {
+    "id": "plz-06",
+    "categoria": "plazos_procesales",
+    "titulo": "Fiestas Patrias 2026 descontadas en CPC",
+    "entrada": {
+      "fecha_notificacion": "2026-09-16",
+      "plazo_dias": 5,
+      "regimen": "judicial_cpc"
+    },
+    "esperado": {
+      "min_feriados": 2,
+      "fecha_vencimiento": "2026-09-24"
+    }
+  },
+  {
+    "id": "plz-07",
+    "categoria": "plazos_procesales",
+    "titulo": "Fiestas Patrias 2029 con lunes 17 adicional (Ley 20.215)",
+    "entrada": {
+      "fecha_notificacion": "2029-09-14",
+      "plazo_dias": 5,
+      "regimen": "judicial_cpc"
+    },
+    "esperado": {
+      "min_feriados": 3,
+      "fecha_vencimiento": "2029-09-24"
+    }
+  },
+  {
+    "id": "plz-08",
+    "categoria": "plazos_procesales",
+    "titulo": "Caducidad despido laboral 60 días + 12 días suspensión DT",
+    "entrada": {
+      "fecha_notificacion": "2026-09-01",
+      "plazo_dias": 60,
+      "regimen": "laboral",
+      "dias_suspension_dt": 12
+    },
+    "esperado": {
+      "regimen": "laboral",
+      "plazo_efectivo_dias": 72,
+      "fecha_vencimiento": "2026-11-28"
+    }
+  },
+  {
+    "id": "plz-09",
+    "categoria": "plazos_procesales",
+    "titulo": "Tope 90 días totales con suspensión DT excesiva",
+    "entrada": {
+      "fecha_notificacion": "2026-09-01",
+      "plazo_dias": 60,
+      "regimen": "laboral",
+      "dias_suspension_dt": 45
+    },
+    "esperado": {
+      "regimen": "laboral",
+      "plazo_efectivo_dias": 90,
+      "fecha_vencimiento": "2026-12-21"
+    }
+  },
+  {
+    "id": "plz-10",
+    "categoria": "plazos_procesales",
+    "titulo": "Semana Santa 2026 Viernes Santo descontado",
+    "entrada": {
+      "fecha_notificacion": "2026-04-01",
+      "plazo_dias": 5,
+      "regimen": "judicial_cpc"
+    },
+    "esperado": {
+      "min_feriados": 1,
+      "fecha_vencimiento": "2026-04-09"
+    }
+  },
+  {
+    "id": "plz-11",
+    "categoria": "plazos_procesales",
+    "titulo": "Plazo vencido respecto de fecha referencia posterior",
+    "entrada": {
+      "fecha_notificacion": "2026-01-05",
+      "plazo_dias": 5,
+      "regimen": "judicial_cpc",
+      "fecha_referencia": "2026-02-01"
+    },
+    "esperado": {
+      "estado": "VENCIDO",
+      "fecha_vencimiento": "2026-01-10"
+    }
+  },
+  {
+    "id": "plz-12",
+    "categoria": "plazos_procesales",
+    "titulo": "Plazo vigente respecto de fecha referencia temprana",
+    "entrada": {
+      "fecha_notificacion": "2026-11-26",
+      "plazo_dias": 15,
+      "regimen": "judicial_cpc",
+      "fecha_referencia": "2026-11-27"
+    },
+    "esperado": {
+      "estado": "EN PLAZO",
+      "fecha_vencimiento": "2026-12-15"
+    }
+  },
+  {
+    "id": "plz-13",
+    "categoria": "plazos_procesales",
+    "titulo": "Feriado adicional comunal en ventana",
+    "entrada": {
+      "fecha_notificacion": "2026-11-23",
+      "plazo_dias": 5,
+      "regimen": "judicial_cpc",
+      "feriados_adicionales": [
+        "2026-11-25"
+      ]
+    },
+    "esperado": {
+      "min_feriados": 1,
+      "fecha_vencimiento": "2026-11-30"
+    }
+  },
+  {
+    "id": "plz-14",
+    "categoria": "plazos_procesales",
+    "titulo": "Solsticio Pueblos Indígenas 2026 (21 junio)",
+    "entrada": {
+      "fecha_notificacion": "2026-06-18",
+      "plazo_dias": 5,
+      "regimen": "administrativo"
+    },
+    "esperado": {
+      "regimen": "administrativo",
+      "fecha_vencimiento": "2026-06-25"
+    }
+  },
+  {
+    "id": "plz-15",
+    "categoria": "plazos_procesales",
+    "titulo": "Navidad y Año Nuevo en ventana de plazo",
+    "entrada": {
+      "fecha_notificacion": "2026-12-23",
+      "plazo_dias": 8,
+      "regimen": "judicial_cpc"
+    },
+    "esperado": {
+      "min_feriados": 2,
+      "fecha_vencimiento": "2027-01-04"
+    }
+  },
+  {
+    "id": "cal-01",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Finiquito Art. 161 con 5 años y sin aviso previo",
+    "entrada": {
+      "herramienta": "finiquito",
+      "params": {
+        "fecha_ingreso": "2021-01-01",
+        "fecha_termino": "2026-02-01",
+        "remuneracion_mensual_clp": 1000000,
+        "causal": "161",
+        "aviso_previo_dado": false,
+        "uf_valor": 38000
+      }
+    },
+    "esperado": {
+      "anios_indemnizables": 5,
+      "recargo_pct": 30,
+      "base_tope_aplicado": false
+    }
+  },
+  {
+    "id": "cal-02",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Finiquito con tope legal de 11 años (Art. 163 CT)",
+    "entrada": {
+      "herramienta": "finiquito",
+      "params": {
+        "fecha_ingreso": "2008-01-01",
+        "fecha_termino": "2026-01-01",
+        "remuneracion_mensual_clp": 1200000,
+        "causal": "161",
+        "aviso_previo_dado": true,
+        "uf_valor": 38000
+      }
+    },
+    "esperado": {
+      "anios_indemnizables": 11
+    }
+  },
+  {
+    "id": "cal-03",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Finiquito con tope 90 UF (Art. 172 CT)",
+    "entrada": {
+      "herramienta": "finiquito",
+      "params": {
+        "fecha_ingreso": "2020-01-01",
+        "fecha_termino": "2026-01-01",
+        "remuneracion_mensual_clp": 6000000,
+        "causal": "161",
+        "aviso_previo_dado": true,
+        "uf_valor": 38000
+      }
+    },
+    "esperado": {
+      "base_tope_aplicado": true
+    }
+  },
+  {
+    "id": "cal-04",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Finiquito con descuento aporte empleador AFC",
+    "entrada": {
+      "herramienta": "finiquito",
+      "params": {
+        "fecha_ingreso": "2022-01-01",
+        "fecha_termino": "2026-01-01",
+        "remuneracion_mensual_clp": 1500000,
+        "causal": "161",
+        "aporte_empleador_afc_clp": 800000,
+        "uf_valor": 38000
+      }
+    },
+    "esperado": {
+      "descuento_afc": 800000.0
+    }
+  },
+  {
+    "id": "cal-05",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Recargo 80 % por despido Art. 160 indebido",
+    "entrada": {
+      "herramienta": "finiquito",
+      "params": {
+        "fecha_ingreso": "2022-01-01",
+        "fecha_termino": "2026-01-01",
+        "remuneracion_mensual_clp": 1500000,
+        "causal": "160",
+        "uf_valor": 38000
+      }
+    },
+    "esperado": {
+      "recargo_pct": 80
+    }
+  },
+  {
+    "id": "cal-06",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Renuncia voluntaria sin años de servicio",
+    "entrada": {
+      "herramienta": "finiquito",
+      "params": {
+        "fecha_ingreso": "2022-01-01",
+        "fecha_termino": "2026-01-01",
+        "remuneracion_mensual_clp": 1500000,
+        "causal": "renuncia",
+        "uf_valor": 38000
+      }
+    },
+    "esperado": {
+      "exact_anios_clp": 0.0
+    }
+  },
+  {
+    "id": "cal-07",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Alimentos mínimos 1 hijo (40 % IMM)",
+    "entrada": {
+      "herramienta": "cuantias",
+      "params": {
+        "tipo": "alimentos_utm",
+        "imm_clp": 500000,
+        "numero_hijos": 1,
+        "utm_valor": 65000
+      }
+    },
+    "esperado": {
+      "exact_pension_min_clp": 200000.0
+    }
+  },
+  {
+    "id": "cal-08",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Alimentos mínimos 2 hijos (30 % IMM c/u = 60 %)",
+    "entrada": {
+      "herramienta": "cuantias",
+      "params": {
+        "tipo": "alimentos_utm",
+        "imm_clp": 500000,
+        "numero_hijos": 2,
+        "utm_valor": 65000
+      }
+    },
+    "esperado": {
+      "exact_pension_min_clp": 300000.0
+    }
+  },
+  {
+    "id": "cal-09",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Alimentos con tope 50 % renta líquida (Art. 7 Ley 14.908)",
+    "entrada": {
+      "herramienta": "cuantias",
+      "params": {
+        "tipo": "alimentos_utm",
+        "imm_clp": 500000,
+        "numero_hijos": 1,
+        "ingreso_liquido_alimentante_clp": 1400000,
+        "utm_valor": 65000
+      }
+    },
+    "esperado": {
+      "tope_50_clp": 700000.0
+    }
+  },
+  {
+    "id": "cal-10",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Días-multa Ley 21.595 presidio menor mínimo (11 a 50)",
+    "entrada": {
+      "herramienta": "cuantias",
+      "params": {
+        "tipo": "dias_multa_natural",
+        "grado_pena": "presidio_menor_minimo",
+        "ingreso_diario_liquido_clp": 40000,
+        "utm_valor": 65000
+      }
+    },
+    "esperado": {
+      "rango_dias_min": 11,
+      "rango_dias_max": 50
+    }
+  },
+  {
+    "id": "cal-11",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Días-multa Ley 20.393 persona jurídica",
+    "entrada": {
+      "herramienta": "cuantias",
+      "params": {
+        "tipo": "dias_multa_persona_juridica",
+        "valor_dia_utm": 100,
+        "dias_multa": 50,
+        "utm_valor": 65000
+      }
+    },
+    "esperado": {}
+  },
+  {
+    "id": "cal-12",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Conversión 100 UF a CLP",
+    "entrada": {
+      "herramienta": "convertir",
+      "params": {
+        "monto": 100,
+        "desde": "UF",
+        "hacia": "CLP",
+        "uf_override": 38500
+      }
+    },
+    "esperado": {
+      "monto_destino": 3850000.0
+    }
+  },
+  {
+    "id": "cal-13",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Conversión 10 UTM a CLP",
+    "entrada": {
+      "herramienta": "convertir",
+      "params": {
+        "monto": 10,
+        "desde": "UTM",
+        "hacia": "CLP",
+        "utm_override": 67000
+      }
+    },
+    "esperado": {
+      "monto_destino": 670000.0
+    }
+  },
+  {
+    "id": "cal-14",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Conversión 1 UTA (=12 UTM) a CLP",
+    "entrada": {
+      "herramienta": "convertir",
+      "params": {
+        "monto": 1,
+        "desde": "UTA",
+        "hacia": "CLP",
+        "utm_override": 67000
+      }
+    },
+    "esperado": {
+      "monto_destino": 804000.0
+    }
+  },
+  {
+    "id": "cal-15",
+    "categoria": "calculadoras_cuantias",
+    "titulo": "Conversión 3.850.000 CLP a UF",
+    "entrada": {
+      "herramienta": "convertir",
+      "params": {
+        "monto": 3850000,
+        "desde": "CLP",
+        "hacia": "UF",
+        "uf_override": 38500
+      }
+    },
+    "esperado": {
+      "monto_destino": 100.0
+    }
+  },
+  {
+    "id": "val-01",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "RUT válido estándar 11.111.111-1",
+    "entrada": {
+      "subtipo": "rut",
+      "rut": "11.111.111-1"
+    },
+    "esperado": {
+      "valido": true,
+      "rut_canonico": "11.111.111-1"
+    }
+  },
+  {
+    "id": "val-02",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "RUT de ejemplo sin puntos (12.345.678-5)",
+    "entrada": {
+      "subtipo": "rut",
+      "rut": "12345678-5"
+    },
+    "esperado": {
+      "valido": true,
+      "rut_canonico": "12.345.678-5"
+    }
+  },
+  {
+    "id": "val-03",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "RUT empresa válido 99.999.999-9",
+    "entrada": {
+      "subtipo": "rut",
+      "rut": "99.999.999-9"
+    },
+    "esperado": {
+      "valido": true
+    }
+  },
+  {
+    "id": "val-04",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "RUT inválido rechazado",
+    "entrada": {
+      "subtipo": "rut",
+      "rut": "12.345.678-9"
+    },
+    "esperado": {
+      "valido": false
+    }
+  },
+  {
+    "id": "val-05",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Mandato completo con Art. 7 inc. 2 CPC",
+    "entrada": {
+      "subtipo": "mandato",
+      "texto_mandato": "Designo abogado patrocinante y confiero poder con todas las facultades del Art. 7 incisos primero y segundo, especialmente desistirse, transigir y percibir."
+    },
+    "esperado": {
+      "cumple": true
+    }
+  },
+  {
+    "id": "val-06",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Mandato con patrocinio y poder para transigir/percibir",
+    "entrada": {
+      "subtipo": "mandato",
+      "texto_mandato": "Designo abogado patrocinante y confiero poder conforme a la Ley 18.120 con facultades de transigir, percibir y absolver posiciones."
+    },
+    "esperado": {
+      "cumple": true
+    }
+  },
+  {
+    "id": "val-07",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Mandato sin facultades ni patrocinio claro",
+    "entrada": {
+      "subtipo": "mandato",
+      "texto_mandato": "Autorizo a don Pedro a retirar copias simples del expediente."
+    },
+    "esperado": {
+      "cumple": false
+    }
+  },
+  {
+    "id": "val-08",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Solo designación sin mención de patrocinio ni poder",
+    "entrada": {
+      "subtipo": "mandato",
+      "texto_mandato": "Téngase presente domicilio procesal electrónico."
+    },
+    "esperado": {
+      "cumple": false
+    }
+  },
+  {
+    "id": "val-09",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Cadena CBR decenal limpia 14 años",
+    "entrada": {
+      "subtipo": "cbr",
+      "inscripciones": [
+        {
+          "propietario": "Ana Soto",
+          "antecesor": "Luis Rojas",
+          "anio": 2012,
+          "fojas": 100,
+          "numero": 50,
+          "conservador": "Santiago",
+          "modo_adquirir": "compraventa"
+        },
+        {
+          "propietario": "Carlos Vera",
+          "antecesor": "Ana Soto",
+          "anio": 2021,
+          "fojas": 220,
+          "numero": 110,
+          "conservador": "Santiago",
+          "modo_adquirir": "compraventa"
+        }
+      ],
+      "anios_requeridos": 10
+    },
+    "esperado": {
+      "aprobado": true
+    }
+  },
+  {
+    "id": "val-10",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Cadena CBR con ruptura de tracto sucesivo",
+    "entrada": {
+      "subtipo": "cbr",
+      "inscripciones": [
+        {
+          "propietario": "Ana Soto",
+          "antecesor": "Luis Rojas",
+          "anio": 2012,
+          "fojas": 100,
+          "numero": 50,
+          "conservador": "Santiago"
+        },
+        {
+          "propietario": "Carlos Vera",
+          "antecesor": "Persona Distinta",
+          "anio": 2021,
+          "fojas": 220,
+          "numero": 110,
+          "conservador": "Santiago"
+        }
+      ],
+      "anios_requeridos": 10
+    },
+    "esperado": {
+      "aprobado": false,
+      "min_banderas_rojas": 1
+    }
+  },
+  {
+    "id": "val-11",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Cadena CBR con embargo vigente Art. 1464 CC",
+    "entrada": {
+      "subtipo": "cbr",
+      "inscripciones": [
+        {
+          "propietario": "Ana Soto",
+          "antecesor": "Luis Rojas",
+          "anio": 2010,
+          "fojas": 50,
+          "numero": 10,
+          "conservador": "Santiago"
+        },
+        {
+          "propietario": "Carlos Vera",
+          "antecesor": "Ana Soto",
+          "anio": 2022,
+          "fojas": 120,
+          "numero": 44,
+          "conservador": "Santiago",
+          "prohibiciones_vigentes": [
+            "Embargo 1° Juzgado Civil"
+          ]
+        }
+      ],
+      "anios_requeridos": 10
+    },
+    "esperado": {
+      "aprobado": false,
+      "min_banderas_rojas": 1
+    }
+  },
+  {
+    "id": "val-12",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Cadena CBR insuficiente (<10 años)",
+    "entrada": {
+      "subtipo": "cbr",
+      "inscripciones": [
+        {
+          "propietario": "Carlos Vera",
+          "antecesor": "Ana Soto",
+          "anio": 2024,
+          "fojas": 300,
+          "numero": 88,
+          "conservador": "Valparaíso"
+        }
+      ],
+      "anios_requeridos": 10
+    },
+    "esperado": {
+      "aprobado": false
+    }
+  },
+  {
+    "id": "val-13",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Anonimización reversible RUT",
+    "entrada": {
+      "subtipo": "anonimizacion",
+      "texto": "Comparece don Juan con RUT 11.111.111-1."
+    },
+    "esperado": {
+      "ocultar": "11.111.111-1",
+      "min_reemplazos": 1
+    }
+  },
+  {
+    "id": "val-14",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Anonimización reversible email y teléfono",
+    "entrada": {
+      "subtipo": "anonimizacion",
+      "texto": "Correo notificaciones@estudio.cl y teléfono +56 9 8765 4321."
+    },
+    "esperado": {
+      "ocultar": "notificaciones@estudio.cl",
+      "min_reemplazos": 2
+    }
+  },
+  {
+    "id": "val-15",
+    "categoria": "validacion_formal_cbr",
+    "titulo": "Anonimización reversible mixta múltiples entidades",
+    "entrada": {
+      "subtipo": "anonimizacion",
+      "texto": "Demandado RUT 12.345.678-5 domiciliado en Av. Providencia 1200, correo info@empresa.cl."
+    },
+    "esperado": {
+      "ocultar": "12.345.678-5",
+      "min_reemplazos": 2
+    }
+  },
+  {
+    "id": "tri-01",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Despido injustificado Art. 161 CT",
+    "entrada": {
+      "consulta": "Trabajador despedido por necesidades de la empresa Art. 161 CT sin aviso previo"
+    },
+    "esperado": {
+      "materias_validas": [
+        "laboral"
+      ],
+      "herramienta_esperada": "dt_search_doctrina"
+    }
+  },
+  {
+    "id": "tri-02",
+    "categoria": "triage_enrutamiento",
+    "titulo": "RIT laboral T-",
+    "entrada": {
+      "consulta": "Demanda de tutela laboral RIT T-452-2026 en Juzgado del Trabajo"
+    },
+    "esperado": {
+      "materias_validas": [
+        "laboral"
+      ],
+      "herramienta_esperada": "bcn_get_codigo"
+    }
+  },
+  {
+    "id": "tri-03",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Incumplimiento contractual civil Art. 1489 CC",
+    "entrada": {
+      "consulta": "Resolución de contrato de compraventa por incumplimiento e indemnización de perjuicios Art. 1489 CC"
+    },
+    "esperado": {
+      "materias_validas": [
+        "civil_contratos"
+      ],
+      "herramienta_esperada": "pjud_search_jurisprudencia"
+    }
+  },
+  {
+    "id": "tri-04",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Estudio de títulos CBR decenal",
+    "entrada": {
+      "consulta": "Estudio de títulos de propiedad en el Conservador de Bienes Raíces e hipoteca"
+    },
+    "esperado": {
+      "materias_validas": [
+        "inmobiliario_cbr"
+      ],
+      "herramienta_esperada": "cbr_estudio_titulos"
+    }
+  },
+  {
+    "id": "tri-05",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Recurso de Protección Isapre Art. 20 CPR",
+    "entrada": {
+      "consulta": "Recurso de protección contra alza ilegal de plan de Isapre Art. 19 CPR"
+    },
+    "esperado": {
+      "materias_validas": [
+        "constitucional_proteccion"
+      ],
+      "herramienta_esperada": "recurso_proteccion_generar"
+    }
+  },
+  {
+    "id": "tri-06",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Sanción SMA ambiental RCA 2TA",
+    "entrada": {
+      "consulta": "Reclamación contra sanción de la SMA por incumplimiento de RCA ante 2TA"
+    },
+    "esperado": {
+      "materias_validas": [
+        "ambiental"
+      ],
+      "herramienta_esperada": "ambiental_consulta_maestra"
+    }
+  },
+  {
+    "id": "tri-07",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Dictamen CGR confianza legítima",
+    "entrada": {
+      "consulta": "Sumario administrativo y confianza legítima ante Contraloría General de la República"
+    },
+    "esperado": {
+      "materias_validas": [
+        "administrativo_probidad"
+      ],
+      "herramienta_esperada": "cgr_search_jurisprudencia"
+    }
+  },
+  {
+    "id": "tri-08",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Mercado Público / ChileCompra y probidad",
+    "entrada": {
+      "consulta": "Licitación pública en Mercado Público ChileCompra Ley 19886 y cruce InfoProbidad"
+    },
+    "esperado": {
+      "materias_validas": [
+        "administrativo_probidad"
+      ],
+      "herramienta_esperada": "compras_publicas_buscar"
+    }
+  },
+  {
+    "id": "tri-09",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Liquidación SII ante TTA",
+    "entrada": {
+      "consulta": "Reclamación ante Tribunal Tributario y Aduanero por liquidación de impuestos IVA del SII"
+    },
+    "esperado": {
+      "materias_validas": [
+        "tributario"
+      ],
+      "herramienta_esperada": "sii_search_circulares"
+    }
+  },
+  {
+    "id": "tri-10",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Colusión ante TDLC DL 211",
+    "entrada": {
+      "consulta": "Demanda de colusión y abuso de posición dominante ante el TDLC bajo DL 211"
+    },
+    "esperado": {
+      "materias_validas": [
+        "libre_competencia"
+      ],
+      "herramienta_esperada": "tdlc_search_jurisprudencia"
+    }
+  },
+  {
+    "id": "tri-11",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Normativa bancaria y de valores CMF",
+    "entrada": {
+      "consulta": "Infracción a norma de carácter general NCG de la CMF en mercado de valores"
+    },
+    "esperado": {
+      "materias_validas": [
+        "mercado_financiero"
+      ],
+      "herramienta_esperada": "cmf_search_normativa"
+    }
+  },
+  {
+    "id": "tri-12",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Discrepancia eléctrica Panel de Expertos",
+    "entrada": {
+      "consulta": "Tarifa eléctrica y peajes de transmisión ante el Panel de Expertos CNE DFL 4"
+    },
+    "esperado": {
+      "materias_validas": [
+        "energia"
+      ],
+      "herramienta_esperada": "panel_expertos_search"
+    }
+  },
+  {
+    "id": "tri-13",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Consumidor SERNAC Ley 19.496 e INAPI",
+    "entrada": {
+      "consulta": "Cláusula abusiva ante SERNAC Ley 19496 y registro de marca comercial en INAPI"
+    },
+    "esperado": {
+      "materias_validas": [
+        "consumidor_marcas"
+      ],
+      "herramienta_esperada": "sernac_buscar_consumidor"
+    }
+  },
+  {
+    "id": "tri-14",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Compliance penal Ley 21.595 y ciberseguridad ANCI",
+    "entrada": {
+      "consulta": "Delitos económicos Ley 21595, modelo de prevención de delitos Ley 20393 y ANCI ciberseguridad"
+    },
+    "esperado": {
+      "materias_validas": [
+        "compliance_penal"
+      ],
+      "herramienta_esperada": "consulta_maestra"
+    }
+  },
+  {
+    "id": "tri-15",
+    "categoria": "triage_enrutamiento",
+    "titulo": "Insolvencia Ley 20.720 y pensión de alimentos",
+    "entrada": {
+      "consulta": "Reorganización judicial Ley 20720 ante SUPERIR o liquidación concursal"
+    },
+    "esperado": {
+      "materias_validas": [
+        "concursal_familia"
+      ],
+      "herramienta_esperada": "consulta_maestra"
+    }
+  },
+  {
+    "id": "grd-01",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre culpa",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "culpa",
+      "institucion": "culpa",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-02",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre resolucion",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "resolucion",
+      "institucion": "resolucion",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-03",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre posesion",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "posesion",
+      "institucion": "posesion",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-04",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre precario",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "precario",
+      "institucion": "precario",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-05",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre simulacion",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "simulacion",
+      "institucion": "simulacion",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-06",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre nulidad",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "nulidad",
+      "institucion": "nulidad",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-07",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre mandato",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "mandato",
+      "institucion": "mandato",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-08",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre prescripcion",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "prescripcion",
+      "institucion": "prescripcion",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-09",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre dolo",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "dolo",
+      "institucion": "dolo",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-10",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Doctrina + HF sobre tradicion",
+    "entrada": {
+      "subtipo": "doctrina",
+      "query": "tradicion",
+      "institucion": "tradicion",
+      "limit": 2
+    },
+    "esperado": {
+      "min_docs": 1
+    }
+  },
+  {
+    "id": "grd-11",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre simulacion",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "simulacion",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "grd-12",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre nulidad",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "nulidad",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "grd-13",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre precario",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "precario",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "grd-14",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre posesion",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "posesion",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "grd-15",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre dolo",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "dolo",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "grd-16",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre mandato",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "mandato",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "grd-17",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre prescripcion",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "prescripcion",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "grd-18",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre culpa",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "culpa",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "grd-19",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre tradicion",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "tradicion",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "grd-20",
+    "categoria": "grounding_doctrina_grafo",
+    "titulo": "Subgrafo LegalGraphify sobre lesion",
+    "entrada": {
+      "subtipo": "grafo",
+      "query": "lesion",
+      "max_hops": 1
+    },
+    "esperado": {
+      "min_vecinos": 1
+    }
+  },
+  {
+    "id": "ant-01",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta punitive damages prohibido",
+    "entrada": {
+      "texto": "Se solicita condena en punitive damages por daño moral."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_common_law": true
+    }
+  },
+  {
+    "id": "ant-02",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta discovery prohibido",
+    "entrada": {
+      "texto": "En etapa de discovery se exhibirán correos electrónicos."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_common_law": true
+    }
+  },
+  {
+    "id": "ant-03",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta subpoena prohibido",
+    "entrada": {
+      "texto": "El tribunal despachará una subpoena para testigos."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_common_law": true
+    }
+  },
+  {
+    "id": "ant-04",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta at-will employment prohibido",
+    "entrada": {
+      "texto": "Bajo at-will employment el despido no requiere causal."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_common_law": true
+    }
+  },
+  {
+    "id": "ant-05",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta grand jury prohibido",
+    "entrada": {
+      "texto": "El grand jury acusará los hechos investigados."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_common_law": true
+    }
+  },
+  {
+    "id": "ant-06",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta summary judgment prohibido",
+    "entrada": {
+      "texto": "Solicitamos summary judgment en procedimiento ordinario."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_common_law": true
+    }
+  },
+  {
+    "id": "ant-07",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta Title VII y OSHA prohibidos",
+    "entrada": {
+      "texto": "Conforme al Title VII y normas OSHA sobre acoso."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_common_law": true
+    }
+  },
+  {
+    "id": "ant-08",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta artículo imposible en Código Civil",
+    "entrada": {
+      "texto": "Conforme al Código Civil Art. 99999 sobre obligaciones."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_articulo_imposible": true
+    }
+  },
+  {
+    "id": "ant-09",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta artículo imposible en Código del Trabajo",
+    "entrada": {
+      "texto": "Según el Código del Trabajo Art. 9876 respecto al despido."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_articulo_imposible": true
+    }
+  },
+  {
+    "id": "ant-10",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Detecta mezcla Common Law y artículo imposible",
+    "entrada": {
+      "texto": "Pide punitive damages según Código Civil Art. 88888."
+    },
+    "esperado": {
+      "estado": "OBSERVADO",
+      "requiere_common_law": true,
+      "requiere_articulo_imposible": true
+    }
+  },
+  {
+    "id": "ant-11",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Cita chilena limpia Art. 1545 Código Civil",
+    "entrada": {
+      "texto": "El contrato legalmente celebrado es ley para los contratantes conforme al Código Civil Art. 1545."
+    },
+    "esperado": {
+      "estado": "VERIFICADO",
+      "sin_common_law": true,
+      "sin_articulos_imposibles": true
+    }
+  },
+  {
+    "id": "ant-12",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Cita chilena limpia Art. 1489 Código Civil",
+    "entrada": {
+      "texto": "Procede acción resolutoria con indemnización de perjuicios bajo Código Civil Art. 1489."
+    },
+    "esperado": {
+      "estado": "VERIFICADO",
+      "sin_common_law": true,
+      "sin_articulos_imposibles": true
+    }
+  },
+  {
+    "id": "ant-13",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Cita chilena limpia Art. 161 Código del Trabajo",
+    "entrada": {
+      "texto": "Despido por necesidades de la empresa según Código del Trabajo Art. 161."
+    },
+    "esperado": {
+      "estado": "VERIFICADO",
+      "sin_common_law": true,
+      "sin_articulos_imposibles": true
+    }
+  },
+  {
+    "id": "ant-14",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Cita chilena limpia Art. 19 N° 24 CPR",
+    "entrada": {
+      "texto": "Se vulnera el derecho de propiedad protegido por la Constitución Art. 19 N° 24."
+    },
+    "esperado": {
+      "estado": "VERIFICADO",
+      "sin_common_law": true,
+      "sin_articulos_imposibles": true
+    }
+  },
+  {
+    "id": "ant-15",
+    "categoria": "anti_alucinacion_common_law",
+    "titulo": "Escrito chileno limpio Art. 254 CPC",
+    "entrada": {
+      "texto": "Demanda en juicio ordinario cumpliendo requisitos del Código de Procedimiento Civil Art. 254."
+    },
+    "esperado": {
+      "estado": "VERIFICADO",
+      "sin_common_law": true,
+      "sin_articulos_imposibles": true
+    }
+  }
+]

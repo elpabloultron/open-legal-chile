@@ -61,8 +61,8 @@ Cuando la persona pida analizar una carpeta, expediente o conjunto de documentos
 
 ---
 
-## 4. Capacidades del Plugin (109 Herramientas MCP · 26 Skills · 24 Agentes)
-Ejecución 100 % local-first (`openlegal-mcp` vía STDIO, *Zero Data Leak*). El catálogo completo puede consultarse en tiempo real con `skills_listar`, `agent_list` o `suite_doctor`:
+## 4. Capacidades del Plugin (112 Herramientas MCP · 3 MCP Apps `ui://` · 26 Skills · 24 Agentes)
+Ejecución 100 % local-first (`openlegal-mcp` vía STDIO u `openlegal-mcp-http` on-premise, *Zero Data Leak*). El catálogo completo puede consultarse en tiempo real con `skills_listar`, `agent_list` o `suite_doctor`:
 
 * **Protocolo y Mesa de Entrada:** `consulta_maestra`, `ambiental_consulta_maestra`, `cita_texto`, `caso_analizar`, `caso_ejecutar`, `busqueda_universal`, `suite_doctor`, `critique_documento` (5 dimensiones y modo `goldfish` de contexto cero), `generar_documento` (Word `.docx` editable con identidad Open Legal Chile), `docx_aplicar_redline` (Control de Cambios XML).
 * **Normativa BCN (actual e histórica):** `bcn_get_codigo`, `bcn_get_ley`, `bcn_get_codigo_historico`, `bcn_get_ley_historica`, `bcn_comparar_versiones` (con estado de vigencia/vacancia legal).

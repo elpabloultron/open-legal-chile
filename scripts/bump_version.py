@@ -58,6 +58,10 @@ FILES = {
     "mcp_config.json": [
         r'openlegal-chile==([0-9]+\.[0-9]+\.[0-9]+)'
     ],
+    "mcpb/manifest.json": [
+        r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"',
+        r'openlegal-chile==([0-9]+\.[0-9]+\.[0-9]+)'
+    ],
     "gemini-extension.json": [
         r'"version": "([0-9]+\.[0-9]+\.[0-9]+)"',
         r'openlegal-chile==([0-9]+\.[0-9]+\.[0-9]+)'

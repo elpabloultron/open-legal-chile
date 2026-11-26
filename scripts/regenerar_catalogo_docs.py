@@ -16,6 +16,7 @@ def _clasificar_tool(nombre: str) -> str:
     if n.startswith((
         "consulta_maestra", "cita_texto", "busqueda_universal", "caso_",
         "suite_", "skills_", "skill_", "entrevista_", "descubrir_", "invocar_",
+        "app_abrir_",
     )):
         return "Orquestación y Protocolo"
     if n.startswith(("bcn_", "rut_")):

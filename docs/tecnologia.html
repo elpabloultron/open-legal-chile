@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tecnología, LegalGraphify y 109 Herramientas MCP · Open Legal Chile</title>
-  <meta name="description" content="Arquitectura local-first de Open Legal Chile v1.19.0: servidor MCP con 109 herramientas, 24 agentes, 26 skills, grafo multiplex LegalGraphify (18.954 nodos / 57.246 aristas) y 5 tablas Apache Parquet para DuckDB." />
+  <title>Tecnología, LegalGraphify y 112 Herramientas MCP · Open Legal Chile</title>
+  <meta name="description" content="Arquitectura local-first y on-premise de Open Legal Chile v2.0.0: servidor MCP STDIO/HTTP con 112 herramientas, 3 MCP Apps interactivas ui://, 24 agentes, 26 skills, LegalGraphify (18.954 nodos / 57.246 aristas) y ChileLegalBench v1.0." />
   <link rel="canonical" href="https://elpabloultron.github.io/open-legal-chile/tecnologia.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,15 +17,15 @@
   <main>
     <section class="subpage-hero">
       <div class="wrap">
-        <span class="op-eyebrow" style="background:rgba(255,255,255,0.2); color:#062314; border-color:rgba(6,35,20,0.16);">Arquitectura Open Source v1.19.0 · Local-First · Apache 2.0</span>
-        <div><h1>109 herramientas MCP, LegalGraphify y Apache Parquet</h1></div>
+        <span class="op-eyebrow" style="background:rgba(255,255,255,0.2); color:#062314; border-color:rgba(6,35,20,0.16);">Arquitectura Open Source v2.0.0 · Local-First & On-Premise · Apache 2.0</span>
+        <div><h1>112 herramientas MCP, MCP Apps ui:// y LegalGraphify</h1></div>
         <p>
-          Diseñada para ejecutarse localmente en <em>harnesses</em> de escritorio y terminal (Google Antigravity, Claude Code, Codex, Hermes, Cursor y VS Code), con cero servidor remoto que almacene casos y trazabilidad por SHA en Hugging Face.
+          Diseñada para ejecutarse localmente en <em>harnesses</em> de escritorio y terminal (Google Antigravity, Claude Code, Codex, Hermes, Cursor y VS Code) o vía Streamable HTTP en Docker on-premise, con cero servidor externo de terceros y trazabilidad por SHA en Hugging Face.
         </p>
         <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:20px;">
           <a href="#arquitectura" class="pill hero-ghost sm">Arquitectura Local-First</a>
           <a href="#parquet" class="pill hero-ghost sm">5 Tablas Parquet + DuckDB</a>
-          <a href="#catalogo-mcp" class="pill hero-ghost sm">109 Herramientas MCP</a>
+          <a href="#catalogo-mcp" class="pill hero-ghost sm">112 Herramientas MCP</a>
           <a href="#agentes" class="pill hero-ghost sm">24 Agentes</a>
           <a href="capacitaciones.html?servicio=Bootcamp+e+Implementaci%C3%B3n+Privada+On-Premise#cotizacion" class="pill white sm">Pide tu cotización (On-Premise) →</a>
         </div>
@@ -141,8 +141,8 @@ print(duckdb.read_parquet(url).select("parentesco, total_casos, mediana_uf_pi, m
     <section class="op-sec" id="catalogo-mcp">
       <div class="wrap">
         <span class="op-eyebrow">Servidor MCP · mcp_server.TOOLS</span>
-        <h2 class="fhead">Catálogo completo de las 109 herramientas MCP</h2>
-        <p class="fsub">Filtra por dominio o busca por nombre para inspeccionar todas las capacidades de la versión 1.19.0.</p>
+        <h2 class="fhead">Catálogo completo de las 112 herramientas MCP</h2>
+        <p class="fsub">Filtra por dominio o busca por nombre para inspeccionar todas las capacidades de la versión 2.0.0.</p>
 
         <div class="filter-bar">
           <input type="search" id="toolsSearchInput" class="form-control" style="max-width:340px;" placeholder="Buscar herramienta (ej. jurimetria, sma, bcn, cgr)..." aria-label="Buscar herramienta MCP" />

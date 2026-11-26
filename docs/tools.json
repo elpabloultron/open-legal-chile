@@ -78,6 +78,11 @@
         "entrada"
       ]
     },
+    "_meta": {
+      "ui": {
+        "resourceUri": "ui://open-legal-chile/expediente.html"
+      }
+    },
     "annotations": {
       "readOnlyHint": true,
       "destructiveHint": false,
@@ -1109,6 +1114,11 @@
         "resolucion_texto"
       ]
     },
+    "_meta": {
+      "ui": {
+        "resourceUri": "ui://open-legal-chile/expediente.html"
+      }
+    },
     "annotations": {
       "readOnlyHint": true,
       "destructiveHint": false,
@@ -2078,6 +2088,11 @@
       "required": [
         "query"
       ]
+    },
+    "_meta": {
+      "ui": {
+        "resourceUri": "ui://open-legal-chile/graphify.html"
+      }
     },
     "annotations": {
       "readOnlyHint": true,
@@ -3117,6 +3132,11 @@
         "plazo_dias"
       ]
     },
+    "_meta": {
+      "ui": {
+        "resourceUri": "ui://open-legal-chile/calculadoras.html"
+      }
+    },
     "annotations": {
       "readOnlyHint": true,
       "destructiveHint": false,
@@ -3186,6 +3206,11 @@
         "remuneracion_mensual_clp"
       ]
     },
+    "_meta": {
+      "ui": {
+        "resourceUri": "ui://open-legal-chile/calculadoras.html"
+      }
+    },
     "annotations": {
       "readOnlyHint": true,
       "destructiveHint": false,
@@ -3253,6 +3278,11 @@
       "required": [
         "tipo"
       ]
+    },
+    "_meta": {
+      "ui": {
+        "resourceUri": "ui://open-legal-chile/calculadoras.html"
+      }
     },
     "annotations": {
       "readOnlyHint": true,
@@ -3676,6 +3706,141 @@
       "required": [
         "marca"
       ]
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "app_abrir_grafo",
+    "description": "Abre el explorador visual interactivo LegalGraphify (MCP App ui://) con el resumen de comunidades o un subgrafo inicial por consulta.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Concepto jurídico o norma inicial (opcional; si se omite muestra el panorama por comunidades)"
+        },
+        "max_hops": {
+          "type": "integer",
+          "description": "Radio de saltos en el subgrafo",
+          "default": 1
+        },
+        "top_n": {
+          "type": "integer",
+          "description": "Número de comunidades a mostrar cuando no hay consulta",
+          "default": 8
+        }
+      }
+    },
+    "_meta": {
+      "ui": {
+        "resourceUri": "ui://open-legal-chile/graphify.html"
+      },
+      "com.google.antigravity/ui": {
+        "entrypoints": [
+          {
+            "type": "aux_pane",
+            "title": "Grafo LegalGraphify"
+          },
+          {
+            "type": "global",
+            "title": "LegalGraphify"
+          }
+        ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "app_abrir_calculadoras",
+    "description": "Abre la estación interactiva de Calculadoras Forenses Deterministas (MCP App ui://): plazos procesales Chile, finiquito CT, cuantías y UF/UTM SII.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "vista": {
+          "type": "string",
+          "enum": [
+            "plazos",
+            "finiquito",
+            "cuantias",
+            "indicadores"
+          ],
+          "description": "Pestaña inicial de calculadora (opcional)",
+          "default": "plazos"
+        }
+      }
+    },
+    "_meta": {
+      "ui": {
+        "resourceUri": "ui://open-legal-chile/calculadoras.html"
+      },
+      "com.google.antigravity/ui": {
+        "entrypoints": [
+          {
+            "type": "aux_pane",
+            "title": "Calculadoras Legales"
+          },
+          {
+            "type": "global",
+            "title": "Calculadoras Chile"
+          }
+        ]
+      }
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "app_abrir_expediente",
+    "description": "Abre el Tablero Forense de Causa y Proveídos OJV (MCP App ui://) para analizar expedientes o resoluciones judiciales con Compuerta Jurídica.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "entrada": {
+          "type": "string",
+          "description": "Relato del caso, ruta de expediente o consulta inicial (opcional)"
+        },
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "carpeta",
+            "texto",
+            "consulta"
+          ],
+          "description": "Tipo de entrada (opcional)"
+        },
+        "consulta": {
+          "type": "string",
+          "description": "Objetivo jurídico específico (opcional)"
+        }
+      }
+    },
+    "_meta": {
+      "ui": {
+        "resourceUri": "ui://open-legal-chile/expediente.html"
+      },
+      "com.google.antigravity/ui": {
+        "entrypoints": [
+          {
+            "type": "aux_pane",
+            "title": "Tablero de Causa"
+          },
+          {
+            "type": "global",
+            "title": "Mesa Jurídica"
+          }
+        ]
+      }
     },
     "annotations": {
       "readOnlyHint": true,

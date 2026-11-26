@@ -160,7 +160,7 @@
         <a class="sheet-link" href="index.html#como-funciona">Cómo funciona</a>
         <a class="sheet-link" href="capacitaciones.html">Capacitaciones y Despliegue</a>
         <a class="sheet-link" href="demos.html">Laboratorio (Baremo y Grado)</a>
-        <a class="sheet-link" href="tecnologia.html">Tecnología y 109 Herramientas MCP</a>
+        <a class="sheet-link" href="tecnologia.html">Tecnología y 112 Herramientas MCP</a>
         <a class="sheet-link" href="index.html#instalar">Instalar el plugin completo</a>
         <div style="margin-top:12px;">
           <a class="pill primary lg" style="width:100%;" href="capacitaciones.html#cotizacion">Pide tu cotización →</a>
@@ -605,7 +605,7 @@
               <li><a href="capacitaciones.html">Capacitaciones y Despliegue</a></li>
               <li><a href="capacitaciones.html#cotizacion">Pide tu cotización</a></li>
               <li><a href="demos.html">Laboratorio (Baremo y Grado)</a></li>
-              <li><a href="tecnologia.html">Tecnología y 95 MCP</a></li>
+              <li><a href="tecnologia.html">Tecnología y 112 MCP</a></li>
               <li><a href="https://github.com/elpabloultron/open-legal-chile" target="_blank" rel="noreferrer">GitHub (Apache 2.0)</a></li>
               <li><a href="https://huggingface.co/datasets/pablobenavidesj/doctrina-jurisprudencia-chile" target="_blank" rel="noreferrer">Hugging Face Dataset</a></li>
             </ul>
