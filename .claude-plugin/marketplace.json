@@ -287,6 +287,71 @@
         "open-legal-chile"
       ],
       "category": "legal"
+    },
+    {
+      "name": "chilean-criminal-compliance",
+      "displayName": "Compliance Penal y Ciberseguridad",
+      "description": "Especialista en cumplimiento penal corporativo y ciberseguridad en Chile: Ley N.° 21.595 (Delitos Económicos), Ley N.° 20.393 (Modelos de Prevención de Delitos —MPD—) y Ley N.° 21.663 (ANCI, OIV/PSE, CSIRT).",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-criminal-compliance",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-tax-litigation",
+      "displayName": "Litigación Tributaria y TTA",
+      "description": "Especialista en Código Tributario (D.L. N.° 830), Tribunales Tributarios y Aduaneros (Ley N.° 20.322), circulares y oficios del SII, y Ley N.° 21.713 sobre Cumplimiento de las Obligaciones Tributarias.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-tax-litigation",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-insolvency-legal",
+      "displayName": "Derecho Concursal y Reorganización",
+      "description": "Especialista en Ley N.° 20.720 de Reorganización y Liquidación y su reforma Ley N.° 21.563: procedimientos simplificados, Protección Financiera Concursal, prelación de créditos (Art. 2472 CC), acciones revocatorias y SUPERIR.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-insolvency-legal",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-family-legal",
+      "displayName": "Derecho de Familia y Alimentos",
+      "description": "Especialista en Tribunales de Familia (Ley N.° 19.968), alimentos en UTM (Ley N.° 14.908), Registro Nacional de Deudores (Ley N.° 21.389), pago efectivo bancario/AFP (Ley N.° 21.484), Violencia Intrafamiliar (Ley N.° 20.066) y cuidado personal.",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-family-legal",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
+    },
+    {
+      "name": "chilean-criminal-litigation",
+      "displayName": "Litigación Penal y Recurso de Nulidad",
+      "description": "Especialista en litigación penal acusatoria chilena bajo el Código Procesal Penal: formalización, salidas alternativas, APJO y exclusión de prueba ilícita, prisión preventiva (Art. 140 CPP) y recurso de nulidad penal (Arts. 372-387 CPP).",
+      "author": {
+        "name": "Open Legal Chile"
+      },
+      "source": "./.agents/skills/chilean-criminal-litigation",
+      "dependencies": [
+        "open-legal-chile"
+      ],
+      "category": "legal"
     }
   ]
 }
