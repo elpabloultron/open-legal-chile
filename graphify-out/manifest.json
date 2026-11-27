@@ -858,9 +858,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795763738.5885828,
-    "seen": 1795763809.5244257,
-    "ast_hash": "d179f6b01faa06bd1d29e663de0cf796",
+    "mtime": 1795764343.5808933,
+    "seen": 1795780463.3729017,
+    "ast_hash": "b2c0d0af035c65078ab3aee3cfc94cec",
     "semantic_hash": ""
   },
   "ROADMAP.md": {
@@ -1128,9 +1128,9 @@
     "semantic_hash": ""
   },
   "docs/index.html": {
-    "mtime": 1795763747.7985358,
-    "seen": 1795763809.5257576,
-    "ast_hash": "eed1b30efba9b8ce19393f65bf21ec99",
+    "mtime": 1795764345.1018786,
+    "seen": 1795780463.3743188,
+    "ast_hash": "8989006fb74673485ffb134937bc7191",
     "semantic_hash": ""
   },
   "docs/integracion_graphify.md": {
@@ -2754,9 +2754,9 @@
     "semantic_hash": ""
   },
   "servidor/corpus.py": {
-    "mtime": 1795763259.4701328,
-    "seen": 1795763809.5201173,
-    "ast_hash": "cd4ee535013eb5bd55e5642d538409e4",
+    "mtime": 1795780422.7744188,
+    "seen": 1795780463.3687015,
+    "ast_hash": "d92f8674eae1d09e6c204ef16b28b292",
     "semantic_hash": ""
   },
   "servidor/forense.py": {
@@ -4470,15 +4470,15 @@
     "semantic_hash": ""
   },
   "scripts/entrenar_embeddings_chile.py": {
-    "mtime": 1795763475.511372,
-    "seen": 1795763809.5195785,
-    "ast_hash": "6bac50fa9aff3556d7d79e3e54e9a3f0",
+    "mtime": 1795763901.9216068,
+    "seen": 1795780463.3680873,
+    "ast_hash": "fe4f15ecb9713854179acaad05e0ca88",
     "semantic_hash": ""
   },
   "scripts/entrenar_gnn_chile.py": {
-    "mtime": 1795763113.6831214,
-    "seen": 1795763809.5195792,
-    "ast_hash": "a25ce44c51493aa47aa7292286a5720f",
+    "mtime": 1795763888.0627005,
+    "seen": 1795780463.3680887,
+    "ast_hash": "acf466e57227f6d00d84ebba7e867c6a",
     "semantic_hash": ""
   },
   "scripts/entrenar_gnn_pyg_gpu.py": {
@@ -4494,9 +4494,9 @@
     "semantic_hash": ""
   },
   "tests/test_neural_y_gnn_v210.py": {
-    "mtime": 1795763617.6980884,
-    "seen": 1795763809.5222533,
-    "ast_hash": "f07feadba3a47c4ac5d2b95f6bd03be9",
+    "mtime": 1795764382.5425165,
+    "seen": 1795780463.370815,
+    "ast_hash": "839afef686f01149cb81730f912bffe3",
     "semantic_hash": ""
   },
   "docs/modelos_neuronales.md": {

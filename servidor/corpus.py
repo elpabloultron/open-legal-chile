@@ -764,16 +764,33 @@ def despachar(name: str, args: dict) -> Any:
                 return _paso
             return _envolver
 
+        def _gnn_para_consulta(texto_q: str):
+            try:
+                from legal_gnn import obtener_motor_gnn
+
+                m_gnn = obtener_motor_gnn()
+                if not m_gnn.modelo_disponible:
+                    return None, []
+                pred_gnn = m_gnn.predecir_enlaces(texto_q, relacion="todas", top_k=3)
+                sug = [
+                    p for p in (pred_gnn.get("predicciones") or [])
+                    if float(p.get("probabilidad", 0.0)) >= 0.70
+                ]
+                return m_gnn, sug
+            except Exception:  # noqa: BLE001 — enriquecimiento estructural nunca bloqueante
+                return None, []
+
         from concurrent.futures import ThreadPoolExecutor
-        with ThreadPoolExecutor(max_workers=5, thread_name_prefix="consulta") as pool:
+        with ThreadPoolExecutor(max_workers=6, thread_name_prefix="consulta") as pool:
             f_hf = pool.submit(_anunciar("Hugging Face", 1)(_hf_para_consulta), consulta, lim)
             f_doctrina = pool.submit(_anunciar("Doctrina", 2)(_doctrina_para_consulta), consulta, lim)
             f_normas = pool.submit(_anunciar("Normas BCN", 3)(_normas_para_consulta), consulta)
             f_subgrafo = pool.submit(_anunciar("Subgrafo", 4)(_subgrafo_para_consulta), consulta)
             f_organismos = pool.submit(_anunciar("Organismos Estado", 5)(_organismos_para_consulta), consulta, lim)
-            hf, doctrina, normas, subgrafo, organismos = (
+            f_gnn = pool.submit(_gnn_para_consulta, consulta)
+            hf, doctrina, normas, subgrafo, organismos, (motor_gnn, sug_gnn) = (
                 f_hf.result(), f_doctrina.result(),
-                f_normas.result(), f_subgrafo.result(), f_organismos.result()
+                f_normas.result(), f_subgrafo.result(), f_organismos.result(), f_gnn.result()
             )
         citas: List[Dict[str, Any]] = (
             list(hf.get("citas") or []) +
@@ -822,30 +839,21 @@ def despachar(name: str, args: dict) -> Any:
             "organismos": org_res,
         }
         try:
-            from legal_gnn import obtener_motor_gnn
-
-            motor_gnn = obtener_motor_gnn()
-            if motor_gnn.modelo_disponible:
-                pred_gnn = motor_gnn.predecir_enlaces(consulta, relacion="todas", top_k=3)
-                sug_gnn = [
-                    p for p in (pred_gnn.get("predicciones") or [])
-                    if float(p.get("probabilidad", 0.0)) >= 0.70
-                ]
-                if not sug_gnn and normas:
-                    prim = normas[0]
-                    etq_n = (
-                        f"{prim.get('codigo', '')} Art. {prim.get('articulo', '')}"
-                        if prim.get("codigo")
-                        else f"Ley {prim.get('ley_numero') or prim.get('ley', '')}"
-                    ).strip()
-                    if etq_n:
-                        pred_gnn = motor_gnn.predecir_enlaces(etq_n, relacion="todas", top_k=3)
-                        sug_gnn = [
-                            p for p in (pred_gnn.get("predicciones") or [])
-                            if float(p.get("probabilidad", 0.0)) >= 0.70
-                        ]
-                if sug_gnn:
-                    hallazgos["sugerencias_gnn"] = sug_gnn[:3]
+            if motor_gnn is not None and not sug_gnn and normas:
+                prim = normas[0]
+                etq_n = (
+                    f"{prim.get('codigo', '')} Art. {prim.get('articulo', '')}"
+                    if prim.get("codigo")
+                    else f"Ley {prim.get('ley_numero') or prim.get('ley', '')}"
+                ).strip()
+                if etq_n:
+                    pred_gnn = motor_gnn.predecir_enlaces(etq_n, relacion="todas", top_k=3)
+                    sug_gnn = [
+                        p for p in (pred_gnn.get("predicciones") or [])
+                        if float(p.get("probabilidad", 0.0)) >= 0.70
+                    ]
+            if sug_gnn:
+                hallazgos["sugerencias_gnn"] = sug_gnn[:3]
         except Exception:  # noqa: BLE001 — enriquecimiento estructural nunca bloqueante
             pass
         mapa_compacto = {k: v for k, v in mapa.items() if k != "conteos"} if isinstance(mapa, dict) else mapa
