@@ -24,6 +24,7 @@
         </p>
         <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:20px;">
           <a href="#arquitectura" class="pill hero-ghost sm">Arquitectura Local-First</a>
+          <a href="#novedades-v200" class="pill hero-ghost sm">Novedades v2.0.0 (MCP Apps, HTTP &amp; Bench)</a>
           <a href="#parquet" class="pill hero-ghost sm">5 Tablas Parquet + DuckDB</a>
           <a href="#catalogo-mcp" class="pill hero-ghost sm">112 Herramientas MCP</a>
           <a href="#agentes" class="pill hero-ghost sm">24 Agentes</a>
@@ -43,8 +44,8 @@
         <ul class="tr-grid">
           <li>
             <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">01 / HARNESS</div>
-            <h3 class="tr-title">Desktop / CLI local</h3>
-            <p class="tr-body">Antigravity, Claude Code, Codex, Hermes, Cursor o VS Code invocan <code>mcp_server.py</code> (con perfil <code>OPENLEGAL_PROFILE=router</code> para consumo mínimo de contexto).</p>
+            <h3 class="tr-title">STDIO, HTTP &amp; MCP Apps</h3>
+            <p class="tr-body">Arranque STDIO en <code>22,6 ms</code> (<code>OPENLEGAL_PROFILE=router</code>), servidor Streamable HTTP on-premise (<code>openlegal-mcp-http</code> + Docker) y 3 MCP Apps interactivas <code>ui://</code>.</p>
           </li>
           <li>
             <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">02 / PASO 0</div>
@@ -58,14 +59,77 @@
           </li>
           <li>
             <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">04 / SALIDAS</div>
-            <h3 class="tr-title">Verificación y Word</h3>
-            <p class="tr-body"><code>cita_texto</code> verifica tenor literal en BCN, <code>critique_documento</code> audita en modo <em>Goldfish</em> y <code>generar_documento</code> entrega Word <code>.docx</code> o paquetes GraphML/BibTeX.</p>
+            <h3 class="tr-title">Word, Redline XML y .mcpb</h3>
+            <p class="tr-body"><code>cita_texto</code> verifica tenor literal en BCN, <code>critique_documento</code> audita en modo <em>Goldfish</em>, <code>docx_aplicar_redline</code> marca cambios en Word XML y <code>.mcpb</code> instala en 1 clic.</p>
           </li>
         </ul>
 
         <div style="margin-top:28px; display:flex; flex-wrap:wrap; gap:10px;">
           <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/grafo.md" target="_blank" rel="noreferrer" class="pill ghost sm">Documentación del grafo (docs/grafo.md) →</a>
           <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/investigacion_jurimetrica_duckdb.ipynb" target="_blank" rel="noreferrer" class="pill ghost sm">Cuaderno DuckDB + κ de Cohen (.ipynb) →</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <section class="op-sec" id="novedades-v200">
+      <div class="wrap">
+        <span class="op-eyebrow">Release v2.0.0 · 3 MCP Apps · On-Premise HTTP/Docker · ChileLegalBench v1.0</span>
+        <h2 class="fhead">Novedades v2.0.0: interfaces <code>ui://</code>, servidor HTTP y benchmark reproducible</h2>
+        <p class="fsub">
+          Verificado por <strong>1.296 pruebas automatizadas</strong>, <strong>Auditoría 360° 4/4</strong> (Bandit, Semgrep, Detect-Secrets, Mypy 250 archivos, Ruff, Vulture, Radon), arranque STDIO de <code>22,60 ms</code> y paquete <code>open-legal-chile-2.0.0.mcpb</code> en GitHub Releases.
+        </p>
+
+        <ul class="tr-grid" style="margin-bottom:28px;">
+          <li>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">MCP APPS (SEP-1865)</div>
+            <h3 class="tr-title">3 vistas HTML interactivas <code>ui://</code></h3>
+            <p class="tr-body"><code>app_abrir_grafo</code>, <code>app_abrir_calculadoras</code> y <code>app_abrir_expediente</code> cargan paneles HTML autocontenidos (<code>&le; 600 KB</code>, cero CDN, sin <code>innerHTML</code> dinámico) conectados vía <code>structuredContent</code> y <code>callServerTool</code>.</p>
+          </li>
+          <li>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">STREAMABLE HTTP + DOCKER</div>
+            <h3 class="tr-title">Despliegue On-Premise seguro</h3>
+            <p class="tr-body"><code>openlegal-mcp-http</code> (stdlib pura, <code>POST/GET SSE/DELETE /mcp</code>) con sesiones <code>Mcp-Session-Id</code>, autenticación Bearer en tiempo constante, allowlist de <code>Origin</code>, <code>Dockerfile</code> no-root y <code>docker-compose.yml</code> read-only.</p>
+          </li>
+          <li>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">PAQUETE 1-CLIC (.MCPB)</div>
+            <h3 class="tr-title">Instalación instantánea</h3>
+            <p class="tr-body">Bundle determinista validado con <code>openlegal mcpb</code> y publicado en <a href="https://github.com/elpabloultron/open-legal-chile/releases/download/v2.0.0/open-legal-chile-2.0.0.mcpb" style="color:var(--green); text-decoration:underline;">GitHub Releases v2.0.0</a> junto al wheel y tarball de PyPI.</p>
+          </li>
+          <li>
+            <div style="font-family:var(--font-mono); font-size:12px; color:var(--green); font-weight:700; margin-bottom:8px;">CHILELEGALBENCH V1.0</div>
+            <h3 class="tr-title">105 / 105 (100 %) offline</h3>
+            <p class="tr-body">Evalúa vigencia BCN, plazos CPC/CT/19.880, cuantías UF/UTM/días-multa, validación CBR/mandato/RUT, triage local (<code>p50 = 0,03 ms</code>), grounding FTS5/grafo y bloqueo de figuras ajenas.</p>
+          </li>
+        </ul>
+
+        <div class="data-table-wrap" style="background:#ffffff; margin:20px 0 22px;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Categoría de ChileLegalBench v1.0</th>
+                <th>Aprobados</th>
+                <th>Tasa</th>
+                <th>Cobertura verificada</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="font-family:var(--font-mono); font-weight:600;">vigencia_normativa</td><td style="font-family:var(--font-mono);">10 / 10</td><td style="font-family:var(--font-mono);">100,0 %</td><td>Vacancia legal (Ley N.° 21.719 / 21.855 al 15-10-2027), vigencia y derogación BCN.</td></tr>
+              <tr><td style="font-family:var(--font-mono); font-weight:600;">plazos_procesales</td><td style="font-family:var(--font-mono);">15 / 15</td><td style="font-family:var(--font-mono);">100,0 %</td><td>Días hábiles CPC (lun–sáb), Ley N.° 19.880 (lun–vie), feriados Chile y laboral.</td></tr>
+              <tr><td style="font-family:var(--font-mono); font-weight:600;">calculadoras_cuantias</td><td style="font-family:var(--font-mono);">15 / 15</td><td style="font-family:var(--font-mono);">100,0 %</td><td>Finiquito CT (11 años / 90 UF / AFC / recargos), días-multa 21.595 y alimentos UTM.</td></tr>
+              <tr><td style="font-family:var(--font-mono); font-weight:600;">validacion_formal_cbr</td><td style="font-family:var(--font-mono);">15 / 15</td><td style="font-family:var(--font-mono);">100,0 %</td><td>RUT Módulo 11, mandato Art. 7 CPC, cadena CBR decenal (10 años) y anonimización.</td></tr>
+              <tr><td style="font-family:var(--font-mono); font-weight:600;">triage_enrutamiento</td><td style="font-family:var(--font-mono);">15 / 15</td><td style="font-family:var(--font-mono);">100,0 %</td><td>Clasificación local en CPU (LegalOpenJev) a &le; 5 herramientas pertinentes.</td></tr>
+              <tr><td style="font-family:var(--font-mono); font-weight:600;">grounding_doctrina_grafo</td><td style="font-family:var(--font-mono);">20 / 20</td><td style="font-family:var(--font-mono);">100,0 %</td><td>SQLite FTS5, subgrafos LegalGraphify y enlaces fijados Hugging Face.</td></tr>
+              <tr><td style="font-family:var(--font-mono); font-weight:600;">anti_alucinacion_common_law</td><td style="font-family:var(--font-mono);">15 / 15</td><td style="font-family:var(--font-mono);">100,0 %</td><td>Bloqueo determinista de figuras anglosajonas y artículos fuera de rango.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="display:flex; flex-wrap:wrap; gap:10px;">
+          <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/despliegue-on-premise.md" target="_blank" rel="noreferrer" class="pill ghost sm">Guía On-Premise Docker &amp; HTTP →</a>
+          <a href="https://github.com/elpabloultron/open-legal-chile/blob/main/docs/chile_legal_bench.md" target="_blank" rel="noreferrer" class="pill ghost sm">Metodología ChileLegalBench v1.0 →</a>
+          <a href="https://github.com/elpabloultron/open-legal-chile/releases/download/v2.0.0/open-legal-chile-2.0.0.mcpb" class="pill primary sm">Descargar v2.0.0 (.mcpb) →</a>
         </div>
       </div>
     </section>
