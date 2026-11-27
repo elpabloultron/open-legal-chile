@@ -75,15 +75,19 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           VERSION="${{ needs.detect-version.outputs.version }}"
+          MCPB_PATH="/tmp/open-legal-chile-${VERSION}.mcpb"
+          python scripts/empaquetar_mcpb.py --out "$MCPB_PATH"
           if ! gh release view "v${VERSION}" >/dev/null 2>&1; then
-            gh release create "v${VERSION}" dist/* \
+            gh release create "v${VERSION}" dist/* "$MCPB_PATH" \
               --title "Open Legal Chile v${VERSION}" \
               --generate-notes \
               --target main
-            echo ">>> Release v${VERSION} creado"
+            echo ">>> Release v${VERSION} creado (whl, sdist y mcpb)"
           else
-            echo ">>> El release v${VERSION} ya existe"
+            gh release upload "v${VERSION}" "$MCPB_PATH" --clobber
+            echo ">>> El release v${VERSION} ya existe; .mcpb actualizado"
           fi
+          rm -f "$MCPB_PATH"
 
   publish-mcp-registry:
     needs: [detect-version, build-and-publish]
